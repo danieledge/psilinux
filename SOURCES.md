@@ -155,7 +155,7 @@ docker run --rm -v "$PWD:/out" alpine:3.24 sh -c '
   apk add --no-cache git abuild >/dev/null
   git clone --depth 1 -b 3.24-stable https://gitlab.alpinelinux.org/alpine/aports.git /out/aports
   adduser -D -G abuild builder
-  export SRCDEST=/out/distfiles; mkdir -p $SRCDEST; chown builder $SRCDEST
+  export SRCDEST=/out/distfiles; mkdir -p $SRCDEST; chown -R builder $SRCDEST /out/aports
   for p in main/alpine-baselayout main/apk-tools main/bash main/bc main/bridge main/busybox \
            community/cbonsai community/cmatrix main/htop main/less main/hwdata main/libcap \
            main/musl main/nano main/pax-utils main/readline main/tree; do
@@ -203,7 +203,11 @@ tar cJf dist/PsiLinux-$V-sources.tar.xz \
      musl-1.2.6.tar.gz curl-8.10.1.tar.xz mbedtls-3.6.2.tar.bz2 lua-5.4.7.tar.gz \
      micropython-1.23.0.tar.xz sqlite-amalgamation-3460100.zip jq-1.7.1.tar.gz \
      ncurses-6.4.tar.gz zlib-1.3.1.tar.gz \
-  -C "$OLDPWD/alpine-src" aports distfiles
+  -C "$OLDPWD/alpine-src" distfiles $(cd "$OLDPWD/alpine-src" && echo aports/main/alpine-baselayout \
+     aports/main/apk-tools aports/main/bash aports/main/bc aports/main/bridge aports/main/busybox \
+     aports/community/cbonsai aports/community/cmatrix aports/main/htop aports/main/less \
+     aports/main/hwdata aports/main/libcap aports/main/musl aports/main/nano aports/main/pax-utils \
+     aports/main/readline aports/main/tree)
 ```
 
 (Adjust the file names if the pinned versions change; the scripts named in

@@ -13,7 +13,8 @@
 # The server: $APK_SERVER, else APK_SERVER= in /etc/psilinux/apk.conf, else
 # the proxy set in the Psion's Connection settings, if it is on (PsiLink.ini,
 # shared with PsiTerm, PsiMail and PsiWeb) and is a PsiProxy (the Atom
-# modem's own proxy is not). No server is built in.
+# modem's own proxy is not), else the dev box set in PsiInstall (PsiDevBox.ini).
+# No server is built in.
 # APK_DIRECT=1 downloads packages from Alpine's mirror instead of the server.
 
 REAL=/sbin/apk
@@ -43,12 +44,21 @@ psilink_proxy() {
 	case "$host" in 192.168.7.1|[Pp][Ss][Ii][Pp][Rr][Oo][Xx][Yy]) return 1 ;; esac
 	echo "http://$host:$port"
 }
-SERVER=${ENV_SERVER:-${APK_SERVER:-$(psilink_proxy)}}
+# else the dev box in C:\System\Data\PsiDevBox.ini ("<host>\r\n<port>\r\n",
+# written by PsiInstall's Tools > Dev box...), which is a PsiProxy
+psidevbox() {
+	f=/c/System/Data/PsiDevBox.ini
+	[ -r "$f" ] || return 1
+	host=$(sed -n '1s/\r$//p' "$f"); port=$(sed -n '2s/\r$//p' "$f")
+	case "$port" in ""|*[!0-9]*) return 1 ;; esac
+	[ -n "$host" ] && echo "http://$host:$port"
+}
+SERVER=${ENV_SERVER:-${APK_SERVER:-$(psilink_proxy || psidevbox)}}
 OFFLINE="--repositories-file /dev/null --no-network --no-cache"
 
 die() { echo "ERROR: $*" >&2; exit 1; }
 need_server() {
-	[ -n "$SERVER" ] || die "No package server set - set APK_SERVER in $CONF (e.g. APK_SERVER=http://192.168.1.10:8081), or turn on a PsiProxy in Connection settings"
+	[ -n "$SERVER" ] || die "No package server set - set APK_SERVER in $CONF (e.g. APK_SERVER=http://192.168.1.10:8081), turn on a PsiProxy in Connection settings, or set PsiInstall's Tools > Dev box"
 }
 get() { need_server; wget -q -T 60 -O - "$SERVER$1" 2>/dev/null || die "the package server ($SERVER) did not answer: is the Psion online?"; }
 kb() { echo $(( ($1 + 1023) / 1024 )); }

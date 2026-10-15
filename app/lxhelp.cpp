@@ -70,7 +70,7 @@ static const TLxHelpTopic KHelpTopics[] =
 	  "5mx has.\n"
 	  "\n"
 	  "The package server is the proxy in Connection settings (PsiTerm, PsiMail or PsiWeb), when it "
-	  "is on and is a PsiProxy. To use another, set it in /etc/psilinux/apk.conf, for example "
+	  "is on and is a PsiProxy, else the dev box set in PsiInstall (Tools > Dev box...). To use another, set it in /etc/psilinux/apk.conf, for example "
 	  "APK_SERVER=http://192.168.1.10:8081 (nano /etc/psilinux/apk.conf)." },
 
 	{ "The terminal",

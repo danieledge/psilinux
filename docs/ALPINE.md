@@ -162,9 +162,11 @@ Before anything is downloaded, `apk add` says:
    `nano /etc/psilinux/apk.conf`);
 2. the proxy in the Psion's Connection settings (PsiTerm, PsiMail or
    PsiWeb), if it is on and is a PsiProxy. The Atom modem's own proxy
-   (192.168.7.1, "psiproxy") is not a package server.
+   (192.168.7.1, "psiproxy") is not a package server;
+3. the dev box set in PsiInstall's Tools > Dev box… (`PsiDevBox.ini`), which
+   is a PsiProxy.
 
-With neither, apk says "No package server set". No address is built in.
+With none of these, apk says "No package server set". No address is built in.
 `APK_DIRECT=1 apk add …` downloads from Alpine's mirror instead of the server
 (the catalogue still comes from the server).
 

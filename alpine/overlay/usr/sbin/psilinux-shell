@@ -1,0 +1,11 @@
+#!/bin/sh
+# psilinux-shell - the shell for "Alpine Linux, shell only" (PsiLinux):
+# bash, if it is installed and starts; otherwise BusyBox sh
+# (linux/docs/ALPINE.md, DECISIONS.md 49)
+/usr/sbin/psilinux-merge-db
+cd "$HOME" 2>/dev/null
+if [ -x /bin/bash ] && /bin/bash -c : 2>/dev/null; then
+	SHELL=/bin/bash exec /bin/bash -l
+fi
+echo "(bash does not start: this is BusyBox sh)"
+SHELL=/bin/sh exec /bin/sh -l

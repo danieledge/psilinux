@@ -1,0 +1,69 @@
+// psilinux.hrh - PsiLinux's commands
+#ifndef PSILINUX_HRH
+#define PSILINUX_HRH
+
+enum TLxCommand
+	{
+	ELxCmdStart = 0x1000,     // File: Start Linux
+	ELxCmdEnd,                // File: End Linux (every program)
+	ELxCmdCopy,
+	ELxCmdPaste,
+	ELxCmdSelectScreen,
+	ELxCmdZoomIn,
+	ELxCmdZoomOut,
+	ELxCmdStatusLine,
+	ELxCmdBold,
+	ELxCmdViewTerminal,       // View > Switch view
+	ELxCmdViewRemote,
+	ELxCmdSwitchView,         // Ctrl+Q
+	ELxCmdKeyCtrlC,
+	ELxCmdKeyCtrlZ,
+	ELxCmdKeyCtrlD,
+	ELxCmdKeyCtrlBackslash,
+	ELxCmdKeyEsc,
+	ELxCmdKeyTab,
+	ELxCmdKeyBar,             // | (the 5mx has no key for it): Shift+Ctrl+I
+	ELxCmdKeyBacktick,
+	ELxCmdKeyTilde,
+	ELxCmdKeyF1, ELxCmdKeyF2, ELxCmdKeyF3, ELxCmdKeyF4, ELxCmdKeyF5,
+	ELxCmdKeyF6, ELxCmdKeyF7, ELxCmdKeyF8, ELxCmdKeyF9, ELxCmdKeyF10,
+	ELxCmdScrollBack,
+	ELxCmdScrollForward,
+	ELxCmdScrollLive,
+	ELxCmdPreferences,
+	ELxCmdDisk,
+	ELxCmdReset,
+	ELxCmdHelp,
+	ELxCmdAbout,
+	ELxCmdToolbar,            // View > Show toolbar (Shift+Ctrl+B)
+	ELxCmdTbStop,             // the toolbar's buttons
+	ELxCmdTbKeys,
+	ELxCmdTbCopy,
+	ELxCmdTbPaste
+	};
+
+// the Preferences dialog's lines
+enum
+	{
+	ELxPrefZoom = 0x100,
+	ELxPrefTheme,
+	ELxPrefCursor,
+	ELxPrefBlink,
+	ELxPrefStatus,
+	ELxPrefBold,
+	ELxDiskChoice,
+	ELxHelpTopic,
+	ELxHelpText,
+	ELxAbout1,
+	ELxAbout2,
+	ELxAbout3,
+	ELxAbout4,
+	ELxPrefStart,
+	ELxAbout5,
+	ELxPrefKeep,             // 0.21: keep memory for other programs
+	ELxPrefKeepKb,
+	ELxPagePrefsGeneral,     // the Preferences dialog's pages
+	ELxPagePrefsScreen
+	};
+
+#endif

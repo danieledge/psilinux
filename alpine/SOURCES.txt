@@ -1,0 +1,26 @@
+PsiLinux's Alpine root (Alpine Linux 3.24.2, armhf): where its programs come from
+
+Every package here is Alpine Linux's own signed binary package, unmodified,
+installed by Alpine's apk. PsiLinux adds only its own small files
+(github.com/danieledge/psilinux, folder alpine/overlay/, MIT licence).
+
+The source of each package is Alpine's recipe for it (the APKBUILD and its
+patches, in aports, https://gitlab.alpinelinux.org/alpine/aports, branch
+3.24-stable, at the commit that built the version below: its "origin" is the
+folder) and the upstream archive the recipe names. Each PsiLinux release on
+GitHub also carries a source archive (PsiLinux-<version>-sources.tar.xz) with
+the recipes and archives of the copyleft packages below.
+
+Written offer: for at least three years after the last release of PsiLinux
+was published, anyone may have the complete corresponding source of any GPL
+or LGPL package here, at no charge beyond the cost of sending it, by opening
+an issue at https://github.com/danieledge/psilinux/issues
+
+The GPL and LGPL texts are beside this file (GPL-2.0.txt, GPL-3.0.txt,
+LGPL-2.1.txt). bash and nano, for example, are GPL v3 or later.
+
+Packages installed later with apk come from Alpine's mirror, not from
+PsiLinux; their source is in aports in the same way.
+
+  package                    version              origin               licence
+PACKAGES

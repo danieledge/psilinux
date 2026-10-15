@@ -1,0 +1,203 @@
+#!/bin/sh
+# apk - Alpine's package manager on a Psion (PsiLinux's Alpine mode).
+#
+# Alpine's catalogue (about 25,000 packages) is too big for a Psion's memory:
+# Alpine's own apk needs about 30 MB to load it, and a 5mx has 9.5 MB. So a
+# helper on the PsiProxy server holds the catalogue, answers searches and
+# works out what an install needs. The packages are Alpine's own, signed:
+# they are downloaded here and installed by the real apk (/sbin/apk), from
+# the files, which checks their signatures against /etc/apk/keys as always.
+# Anything this wrapper does not know goes to the real apk as it is.
+#
+#   apk update | search | info | add | del | upgrade | list | (anything else)
+# The server: $APK_SERVER, else APK_SERVER= in /etc/psilinux/apk.conf, else
+# the proxy set in the Psion's Connection settings, if it is on (PsiLink.ini,
+# shared with PsiTerm, PsiMail and PsiWeb) and is a PsiProxy (the Atom
+# modem's own proxy is not). No server is built in.
+# APK_DIRECT=1 downloads packages from Alpine's mirror instead of the server.
+
+REAL=/sbin/apk
+CONF=/etc/psilinux/apk.conf
+CACHE=/var/cache/apk/psion
+MIRROR=http://dl-cdn.alpinelinux.org/alpine/v3.24
+ENV_SERVER=$APK_SERVER
+[ -f "$CONF" ] && . "$CONF"
+# the proxy in C:\System\Data\PsiLink.ini (ssh/psilink.h: 'P' 'L' ver baud
+# rtscts netmode len pppstart[len], then from version 2: useproxy len
+# host[len] port-lo port-hi), as http://host:port, if it is on
+psilink_proxy() {
+	f=/c/System/Data/PsiLink.ini
+	[ -r "$f" ] || return 1
+	set -- $(od -An -v -tu1 "$f" 2>/dev/null)
+	[ $# -ge 7 ] && [ "$1" = 80 ] && [ "$2" = 76 ] && [ "$3" -ge 2 ] || return 1
+	shift 6
+	n=$1; shift
+	[ $# -gt "$n" ] || return 1
+	shift "$n"
+	[ $# -ge 2 ] && [ "$1" = 1 ] || return 1
+	n=$2; shift 2
+	[ "$n" -gt 0 ] && [ $# -ge $((n + 2)) ] || return 1
+	host=
+	while [ "$n" -gt 0 ]; do host="$host$(printf "\\$(printf %03o "$1")")"; shift; n=$((n - 1)); done
+	port=$(($1 + $2 * 256))
+	case "$host" in 192.168.7.1|[Pp][Ss][Ii][Pp][Rr][Oo][Xx][Yy]) return 1 ;; esac
+	echo "http://$host:$port"
+}
+SERVER=${ENV_SERVER:-${APK_SERVER:-$(psilink_proxy)}}
+OFFLINE="--repositories-file /dev/null --no-network --no-cache"
+
+die() { echo "ERROR: $*" >&2; exit 1; }
+need_server() {
+	[ -n "$SERVER" ] || die "No package server set - set APK_SERVER in $CONF (e.g. APK_SERVER=http://192.168.1.10:8081), or turn on a PsiProxy in Connection settings"
+}
+get() { need_server; wget -q -T 60 -O - "$SERVER$1" 2>/dev/null || die "the package server ($SERVER) did not answer: is the Psion online?"; }
+kb() { echo $(( ($1 + 1023) / 1024 )); }
+# sizes the way people read them
+human() {
+	if [ "$1" -ge 1048576 ]; then echo "$(( $1 / 1048576 )).$(( ($1 % 1048576) * 10 / 1048576 )) MB"
+	else echo "$(( ($1 + 1023) / 1024 )) KB"; fi
+}
+# "name version" for each installed package
+installed() { awk '/^P:/ { p = substr($0, 3) } /^V:/ { print p, substr($0, 3) }' /lib/apk/db/installed; }
+urlq() { printf '%s' "$1" | sed 's/%/%25/g; s/ /%20/g; s/+/%2B/g; s/&/%26/g; s/?/%3F/g; s/#/%23/g'; }
+free_disk() { df -k / 2>/dev/null | awk 'NR == 2 { print $4 * 1024 }'; }
+free_mem() { awk '/^MemAvailable:/ { m = $2 } /^MemFree:/ { if (!m) m = $2 } END { print m * 1024 }' /proc/meminfo; }
+
+usage() {
+	cat <<EOF
+apk (Alpine on a Psion): Alpine's catalogue through ${SERVER:-(no package server set: see $CONF)}
+
+  apk update                 the catalogue's size and date
+  apk search [-v] [-d] TEXT  find packages (-d: in descriptions too)
+  apk info [-a] NAME         a package's description and sizes
+  apk add [-s] NAME...       install (Alpine's signed packages)
+  apk del NAME...            remove
+  apk upgrade [-s]           newer versions of what is installed
+  apk list [-I]              what is installed
+
+-s (--simulate) shows what would happen. Other commands go to Alpine's apk.
+EOF
+}
+
+# downloads and installs the plan in $1 (the server's resolve answer)
+install_plan() {
+	plan=$1; simulate=$2; upgrade=$3; shift 3
+	if grep -q '^!' "$plan"; then
+		echo "ERROR: unable to select packages:" >&2
+		awk -F'\t' '/^!missing/ { print "  " $2 " (no such package)" } /^!unsatisfied/ { print "  " $2 ": nothing provides " $3 } /^!bad/ { print "  " $2 " (not a package name)" }' "$plan" >&2
+		rm -f "$plan"
+		exit 1
+	fi
+	n=$(awk -F'\t' 'NR == 1 { print $2 }' "$plan")
+	dl=$(awk -F'\t' 'NR == 1 { print $3 }' "$plan")
+	inst=$(awk -F'\t' 'NR == 1 { print $4 }' "$plan")
+	if [ "${n:-0}" = 0 ]; then echo "OK: nothing to do"; rm -f "$plan"; return 0; fi
+	awk -F'\t' 'NR > 1 { printf "(%d/%d) %s (%s): %d KB, %d KB installed\n", NR - 1, '"$n"', $1, $2, ($5 + 1023) / 1024, ($6 + 1023) / 1024 }' "$plan"
+	echo "$n packages: $(human $dl) to download, $(human $inst) on disk"
+	# the honest part: will it fit, and will it run?
+	disk=$(free_disk); mem=$(free_mem)
+	if [ -n "$disk" ] && [ "$inst" -gt "$disk" ]; then
+		echo "ERROR: that needs $(human $inst) of disk, and the Linux disk has $(human $disk) free" >&2
+		rm -f "$plan"; exit 1
+	fi
+	# the code a program loads: its own package and the libraries it uses
+	code=$(awk -F'\t' 'NR > 1 && ($1 ~ /^lib/ || index(" '"$*"' ", " " $1 " ")) && $1 !~ /-(doc|dev|data|lang)$/ { s += $6 } END { print s + 0 }' "$plan")
+	if [ "$code" -gt 0 ] && [ -n "$mem" ] && [ "$code" -gt "$mem" ]; then
+		echo "WARNING: its programs and libraries come to about $(human $code), and the Psion has $(human $mem) of memory free: it may not run"
+	fi
+	[ "$simulate" = 1 ] && { echo "OK (simulated)"; rm -f "$plan"; return 0; }
+	mkdir -p "$CACHE" || die "cannot make $CACHE"
+	files=""
+	i=0
+	while IFS="	" read -r name ver repo file size isize csum; do
+		case "$name" in \#*|!*|"") continue ;; esac
+		i=$((i + 1))
+		echo "($i/$n) Downloading $name ($ver)"
+		if [ "$APK_DIRECT" = 1 ]; then url="$MIRROR/$repo/armhf/$file"; else url="$SERVER/_apk/get/$repo/$file"; fi
+		wget -q -T 120 -O "$CACHE/$file.part" "$url" && mv "$CACHE/$file.part" "$CACHE/$file" \
+			|| { rm -f "$CACHE/$file.part"; die "could not download $file"; }
+		files="$files $CACHE/$file"
+	done < "$plan"
+	rm -f "$plan"
+	# the real apk installs them, checking their signatures; the world file
+	# keeps only what was asked for (the rest are dependencies). apk itself
+	# (with libcrypto) takes about 7 MB while it works
+	mem=$(free_mem)
+	if [ -n "$mem" ] && [ "$mem" -lt 7340032 ]; then
+		echo "WARNING: apk needs about 7 MB of memory to install, and the Psion has $(human $mem) free: if it fails, close other programs and try again"
+	fi
+	cp /etc/apk/world /tmp/.apk-world.$$ 2>/dev/null
+	if [ "$upgrade" = 1 ]; then $REAL add $OFFLINE --upgrade $files; r=$?
+	else $REAL add $OFFLINE $files; r=$?; fi
+	if [ -f /tmp/.apk-world.$$ ]; then
+		{ cat /tmp/.apk-world.$$; for w in "$@"; do echo "$w"; done; } | sort -u > /etc/apk/world
+		rm -f /tmp/.apk-world.$$
+	fi
+	[ -n "$APK_KEEP" ] || rm -f $files
+	return $r
+}
+
+cmd=$1
+[ $# -gt 0 ] && shift
+case "$cmd" in
+""|-h|--help|help)
+	usage ;;
+update)
+	get /_apk/update | awk -F'\t' '$1 == "#PSIAPK1" { printf "%s %s [%s %s, main and community]\nOK: %d distinct packages available\n", "Alpine", $4, $5, $3, $2 }' ;;
+search)
+	verbose=0; desc=0
+	while [ $# -gt 0 ]; do case "$1" in -v|--verbose) verbose=1 ;; -d|--description) desc=1 ;; -*) ;; *) break ;; esac; shift; done
+	[ $# -gt 0 ] || set -- ""
+	for q in "$@"; do
+		get "/_apk/search?q=$(urlq "$q")&d=$desc&n=500"
+	done | awk -F'\t' -v v=$verbose '/^!more/ { printf "(and %d more)\n", $2; next } v { printf "%s-%s - %s\n", $1, $2, $6; next } { printf "%s-%s\n", $1, $2 }' ;;
+info)
+	all=0
+	while [ $# -gt 0 ]; do case "$1" in -a|--all) all=1 ;; -*) exec $REAL info $OFFLINE "$@" ;; *) break ;; esac; shift; done
+	[ $# -gt 0 ] || exec $REAL info $OFFLINE
+	for p in "$@"; do
+		if $REAL info $OFFLINE -e "$p" > /dev/null 2>&1; then
+			if [ $all = 1 ]; then $REAL info $OFFLINE -a "$p"; else $REAL info $OFFLINE "$p"; fi
+			continue
+		fi
+		get "/_apk/info?p=$(urlq "$p")" | awk -F'\t' -v a=$all '
+			$1 == "!missing" { print "ERROR: " $2 ": no such package" > "/dev/stderr"; next }
+			{ f[$1] = $2 }
+			END {
+				if (!f["name"]) exit
+				id = f["name"] "-" f["version"]
+				printf "%s description:\n%s\n\n%s webpage:\n%s\n\n", id, f["description"], id, f["url"]
+				printf "%s installed size:\n%d KiB\n\n%s download size:\n%d KiB\n\n", id, (f["installed-size"] + 1023) / 1024, id, (f["size"] + 1023) / 1024
+				if (a) printf "%s depends on:\n%s\n\n%s license:\n%s\n\n(not installed: %s, %s)\n", id, f["depends"], id, f["license"], f["repo"], f["file"]
+			}'
+	done ;;
+add)
+	simulate=0
+	while [ $# -gt 0 ]; do case "$1" in -s|--simulate) simulate=1 ;; -*) ;; *) break ;; esac; shift; done
+	[ $# -gt 0 ] || die "nothing to add"
+	plan=/tmp/.apk-plan.$$
+	list=$(echo "$*" | tr ' ' ',')
+	need_server
+	installed > /tmp/.apk-have.$$
+	wget -q -T 60 -O "$plan" --post-file=/tmp/.apk-have.$$ "$SERVER/_apk/resolve?add=$(urlq "$list")" \
+		|| { rm -f /tmp/.apk-have.$$; die "the package server ($SERVER) did not answer: is the Psion online?"; }
+	rm -f /tmp/.apk-have.$$
+	install_plan "$plan" $simulate 0 "$@" ;;
+upgrade)
+	simulate=0
+	while [ $# -gt 0 ]; do case "$1" in -s|--simulate) simulate=1 ;; -*) ;; *) break ;; esac; shift; done
+	plan=/tmp/.apk-plan.$$
+	need_server
+	installed > /tmp/.apk-have.$$
+	wget -q -T 60 -O "$plan" --post-file=/tmp/.apk-have.$$ "$SERVER/_apk/resolve?upgrade=1" \
+		|| { rm -f /tmp/.apk-have.$$; die "the package server ($SERVER) did not answer: is the Psion online?"; }
+	rm -f /tmp/.apk-have.$$
+	install_plan "$plan" $simulate 1 ;;
+del|delete|remove)
+	exec $REAL del $OFFLINE "$@" ;;
+list)
+	case "$1" in -I|--installed) exec $REAL info $OFFLINE ;; esac
+	get "/_apk/search?q=$(urlq "${1:-*}")&n=2000" | awk -F'\t' '!/^!/ { printf "%s-%s %s\n", $1, $2, $3 }' ;;
+*)
+	exec $REAL "$cmd" $OFFLINE "$@" ;;
+esac

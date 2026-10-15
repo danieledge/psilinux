@@ -1,0 +1,18 @@
+; PsiLinux 0.20 installer for the Psion Series 5mx (EPOC R5)
+; PsiLinux.app: the window (PsiTerm's terminal). psilxrun.exe: the runner,
+; which runs the Linux programs (and translates Alpine's). The programs are in
+; PsiLinux-root.sis (\Linux\ROOT.IMG) and PsiLinux-alpine-root.sis (\Linux\Alpine\).
+&EN
+#{"PsiLinux"},(0x01000A87),0,21,0
+"psilinux.app"-"!:\System\Apps\PsiLinux\PsiLinux.app"
+"psilinux.rsc"-"!:\System\Apps\PsiLinux\PsiLinux.rsc"
+"psilinux.mbm"-"!:\System\Apps\PsiLinux\PsiLinux.mbm"
+"psilinux.aif"-"!:\System\Apps\PsiLinux\PsiLinux.aif"
+"psilxrun.exe"-"!:\System\Apps\PsiLinux\psilxrun.exe"
+"psiterm.gdr"-"!:\System\Apps\PsiLinux\PsiTerm.gdr"
+"terminus-licence.txt"-"!:\System\Apps\PsiLinux\Terminus-licence.txt"
+"softfloat-licence.txt"-"!:\System\Apps\PsiLinux\SoftFloat-licence.txt"
+; the settings: not installed, kept across upgrades, removed with the program
+""-"C:\System\Apps\PsiLinux\PsiLinux.ini",FN
+; EPOC C standard library (ESTLIB.DLL, for libvterm) - not in the 5mx ROM
+@"STDLIB.SIS",(0x100002c3)

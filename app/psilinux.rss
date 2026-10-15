@@ -1,0 +1,407 @@
+// psilinux.rss - PsiLinux's resources
+NAME PSLX
+#include <eikdef.rh>
+#include <eikmenu.rh>
+#include <eikmenu.hrh>
+#include <eikcmds.hrh>
+#include <eikdialg.rh>
+#include <eikdialg.hrh>
+#include <eikchlst.rh>
+#include <eikctrls.hrh>
+#include <eikrted.rh>
+#include <eikedwin.rh>
+#include <eikedwin.hrh>
+#include <eiklabel.rh>
+#include <eiktbar.rh>
+#include <eiktbar.hrh>
+#include <eikbutb.hrh>
+#include <eikcmbut.rh>
+#include <eikmnbut.rh>
+#include <eikspace.rh>
+#include <eikclock.rh>
+#include <eikon.rsg>
+#include "psilinux.hrh"
+
+RESOURCE RSS_SIGNATURE { }
+
+RESOURCE TBUF { buf=""; }
+
+RESOURCE EIK_APP_INFO
+	{
+	menubar=r_lx_menubar;
+	hotkeys=r_lx_hotkeys;
+	toolbar=r_lx_toolbar;
+	}
+
+// The standard toolbar: the program's name, four buttons for the pen, the
+// clock. Stop sends Ctrl+C (the key a terminal user reaches for most), Keys
+// pops up the keys the Psion has none for, Copy and Paste the clipboard. The
+// pictures come from PsiLinux.mbm (linux/tools/mkicons.py). View > Show
+// toolbar (Shift+Ctrl+B, as PsiTerm: Ctrl+T must reach Linux) hides it.
+RESOURCE TOOLBAR r_lx_toolbar
+	{
+	breadth=KEikStdToolBarWidth;
+	controls=
+		{
+		TBAR_CTRL
+			{
+			type=EEikCtLabel;
+			flags=EEikToolBarCtrlHasSetMinLength;
+			length=KEikStdFileNameLabelHeight;
+			control=LABEL { txt="PsiLinux"; horiz_align=EEikLabelAlignHCenter; vert_align=EEikLabelAlignVCenter; };
+			},
+		TBAR_BUTTON { id=ELxCmdTbStop; layout=EEikCmdButTextRightPictureLeft|EEikCmdButDenseFont|EEikCmdButExcessToText; txt="Stop"; flags=EEikToolBarCtrlHasSetMinLength; length=KEikStdToolBarButtonHeight; },
+		TBAR_CTRL
+			{
+			type=EEikCtMenuButton; id=ELxCmdTbKeys;
+			flags=EEikToolBarCtrlHasSetMinLength; length=KEikStdToolBarButtonHeight;
+			control=MNBUT { popout=r_lx_keys_popup; layout=EEikCmdButTextRightPictureLeft|EEikCmdButDenseFont|EEikCmdButExcessToText; txt="Keys"; };
+			},
+		TBAR_BUTTON { id=ELxCmdTbCopy; layout=EEikCmdButTextRightPictureLeft|EEikCmdButDenseFont|EEikCmdButExcessToText; txt="Copy"; flags=EEikToolBarCtrlHasSetMinLength; length=KEikStdToolBarButtonHeight; },
+		TBAR_BUTTON { id=ELxCmdTbPaste; layout=EEikCmdButTextRightPictureLeft|EEikCmdButDenseFont|EEikCmdButExcessToText; txt="Paste"; flags=EEikToolBarCtrlHasSetMinLength; length=KEikStdToolBarButtonHeight; },
+		TBAR_CTRL
+			{
+			type=EEikCtSpacer;
+			flags=EEikToolBarCtrlHasSetMinLength|EEikToolBarCtrlIsStretchable;
+			length=0;
+			control=SPACER;
+			},
+		TBAR_CTRL
+			{
+			type=EEikCtClock;
+			control=CLOCK { digitalresourceid=R_EIK_DIGITAL_CLOCK; analogresourceid=R_EIK_ANALOG_CLOCK; };
+			},
+		TBAR_CTRL
+			{
+			type=EEikCtSpacer;
+			flags=EEikToolBarCtrlHasSetMinLength;
+			length=KEikStdGapBelowClock;
+			control=SPACER;
+			}
+		};
+	}
+
+// the toolbar's Keys button (no shortcuts: it is for the pen)
+RESOURCE MENU_PANE r_lx_keys_popup
+	{
+	items=
+		{
+		MENU_ITEM { command=ELxCmdKeyEsc; txt="Esc"; },
+		MENU_ITEM { command=ELxCmdKeyTab; txt="Tab"; },
+		MENU_ITEM { command=ELxCmdKeyBar; txt="|"; },
+		MENU_ITEM { command=ELxCmdKeyTilde; txt="~"; },
+		MENU_ITEM { command=ELxCmdKeyCtrlZ; txt="Ctrl+Z"; },
+		MENU_ITEM { command=ELxCmdKeyCtrlD; txt="Ctrl+D"; },
+		MENU_ITEM { command=ELxCmdKeyCtrlBackslash; txt="Ctrl+\\"; }
+		};
+	}
+
+// Shortcuts. As in PsiTerm, every plain Ctrl+letter must reach Linux (Ctrl+C,
+// Ctrl+D, Ctrl+Z, Ctrl+R...), so PsiLinux's own shortcuts are Shift+Ctrl+
+// letter, with the standard letter where there is one (E close, C copy,
+// V paste, M zoom out, K preferences, H help, A about), N for Start (create
+// new), D for End (as Email's close mailbox) and I for "|", which the 5mx's
+// keyboard has no key for (the letter looks like it; Merge in has no place
+// here). The one exception is
+// Ctrl+Q, Switch view, as the style guide has it.
+RESOURCE HOTKEYS r_lx_hotkeys
+	{
+	control=
+		{
+		HOTKEY { command=ELxCmdSwitchView; key='q'; }
+		};
+	shift_control=
+		{
+		HOTKEY { command=EEikCmdExit; key='e'; },
+		HOTKEY { command=ELxCmdStart; key='n'; },
+		HOTKEY { command=ELxCmdEnd; key='d'; },
+		HOTKEY { command=ELxCmdKeyBar; key='i'; },
+		HOTKEY { command=ELxCmdToolbar; key='b'; },
+		HOTKEY { command=ELxCmdCopy; key='c'; },
+		HOTKEY { command=ELxCmdPaste; key='v'; },
+		HOTKEY { command=ELxCmdZoomOut; key='m'; },
+		HOTKEY { command=ELxCmdPreferences; key='k'; },
+		HOTKEY { command=ELxCmdHelp; key='h'; },
+		HOTKEY { command=ELxCmdAbout; key='a'; }
+		};
+	}
+
+RESOURCE MENU_BAR r_lx_menubar
+	{
+	titles=
+		{
+		MENU_TITLE { menu_pane=r_lx_file_menu; txt="File"; },
+		MENU_TITLE { menu_pane=r_lx_edit_menu; txt="Edit"; },
+		MENU_TITLE { menu_pane=r_lx_view_menu; txt="View"; },
+		MENU_TITLE { menu_pane=r_lx_keys_menu; txt="Keys"; },
+		MENU_TITLE { menu_pane=r_lx_tools_menu; txt="Tools"; }
+		};
+	}
+
+RESOURCE MENU_PANE r_lx_file_menu
+	{
+	items=
+		{
+		MENU_ITEM { command=ELxCmdStart; txt="Start Linux"; },
+		MENU_ITEM { command=ELxCmdEnd; txt="End Linux"; flags=EEikMenuItemSeparatorAfter; },
+		MENU_ITEM { command=EEikCmdExit; txt="Close"; }
+		};
+	}
+
+RESOURCE MENU_PANE r_lx_edit_menu
+	{
+	items=
+		{
+		MENU_ITEM { command=ELxCmdCopy; txt="Copy"; },
+		MENU_ITEM { command=ELxCmdPaste; txt="Paste"; },
+		MENU_ITEM { command=ELxCmdSelectScreen; txt="Select screen"; }
+		};
+	}
+
+RESOURCE MENU_PANE r_lx_view_menu
+	{
+	items=
+		{
+		MENU_ITEM { command=ELxCmdZoomIn; txt="Zoom in"; },
+		MENU_ITEM { command=ELxCmdZoomOut; txt="Zoom out"; flags=EEikMenuItemSeparatorAfter; },
+		MENU_ITEM { command=ELxCmdBold; txt="Bold text"; flags=EEikMenuItemCheckBox; },
+		MENU_ITEM { command=ELxCmdStatusLine; txt="Show status line"; flags=EEikMenuItemCheckBox; },
+		MENU_ITEM { command=ELxCmdToolbar; txt="Show toolbar"; flags=EEikMenuItemCheckBox|EEikMenuItemSeparatorAfter; },
+		MENU_ITEM { cascade=r_lx_scroll_menu; txt="History"; },
+		MENU_ITEM { cascade=r_lx_views_menu; txt="Switch view"; }
+		};
+	}
+
+RESOURCE MENU_PANE r_lx_scroll_menu
+	{
+	items=
+		{
+		MENU_ITEM { command=ELxCmdScrollBack; txt="Back"; extratxt="Shift+Pg Up"; },
+		MENU_ITEM { command=ELxCmdScrollForward; txt="Forward"; extratxt="Shift+Pg Dn"; },
+		MENU_ITEM { command=ELxCmdScrollLive; txt="To live screen"; }
+		};
+	}
+
+RESOURCE MENU_PANE r_lx_views_menu
+	{
+	items=
+		{
+		MENU_ITEM { command=ELxCmdViewTerminal; txt="Terminal"; flags=EEikMenuItemRadioStart; },
+		MENU_ITEM { command=ELxCmdViewRemote; txt="Remote apps"; flags=EEikMenuItemRadioEnd; }
+		};
+	}
+
+// keys the Psion's keyboard has no key for, or that are easier to find here
+RESOURCE MENU_PANE r_lx_keys_menu
+	{
+	items=
+		{
+		MENU_ITEM { command=ELxCmdKeyCtrlC; txt="Interrupt (Ctrl+C)"; },
+		MENU_ITEM { command=ELxCmdKeyCtrlZ; txt="Suspend (Ctrl+Z)"; },
+		MENU_ITEM { command=ELxCmdKeyCtrlD; txt="End of input (Ctrl+D)"; },
+		MENU_ITEM { command=ELxCmdKeyCtrlBackslash; txt="Quit (Ctrl+\\)"; flags=EEikMenuItemSeparatorAfter; },
+		MENU_ITEM { command=ELxCmdKeyEsc; txt="Esc"; },
+		MENU_ITEM { command=ELxCmdKeyTab; txt="Tab"; flags=EEikMenuItemSeparatorAfter; },
+		MENU_ITEM { cascade=r_lx_symbols_menu; txt="Symbols"; },
+		MENU_ITEM { cascade=r_lx_fkeys_menu; txt="F1 to F10"; }
+		};
+	}
+
+// characters the 5mx's keyboard has no key for
+RESOURCE MENU_PANE r_lx_symbols_menu
+	{
+	items=
+		{
+		MENU_ITEM { command=ELxCmdKeyBar; txt="| (bar)"; },
+		MENU_ITEM { command=ELxCmdKeyBacktick; txt="` (back quote)"; },
+		MENU_ITEM { command=ELxCmdKeyTilde; txt="~ (tilde)"; }
+		};
+	}
+
+RESOURCE MENU_PANE r_lx_fkeys_menu
+	{
+	items=
+		{
+		MENU_ITEM { command=ELxCmdKeyF1; txt="F1"; },
+		MENU_ITEM { command=ELxCmdKeyF2; txt="F2"; },
+		MENU_ITEM { command=ELxCmdKeyF3; txt="F3"; },
+		MENU_ITEM { command=ELxCmdKeyF4; txt="F4"; },
+		MENU_ITEM { command=ELxCmdKeyF5; txt="F5"; },
+		MENU_ITEM { command=ELxCmdKeyF6; txt="F6"; },
+		MENU_ITEM { command=ELxCmdKeyF7; txt="F7"; },
+		MENU_ITEM { command=ELxCmdKeyF10; txt="F10"; }
+		};
+	}
+
+RESOURCE MENU_PANE r_lx_tools_menu
+	{
+	items=
+		{
+		MENU_ITEM { command=ELxCmdPreferences; txt="Preferences..."; },
+		MENU_ITEM { command=ELxCmdDisk; txt="Linux disk..."; flags=EEikMenuItemSeparatorAfter; },
+		MENU_ITEM { command=ELxCmdReset; txt="Reset terminal"; flags=EEikMenuItemSeparatorAfter; },
+		MENU_ITEM { command=ELxCmdHelp; txt="Help on PsiLinux"; },
+		MENU_ITEM { command=ELxCmdAbout; txt="About PsiLinux"; }
+		};
+	}
+
+// Tools > Preferences...
+RESOURCE DIALOG r_lx_prefs_dialog
+	{
+	title="Preferences";
+	flags=EEikDialogFlagWait;
+	buttons=R_EIK_BUTTONS_CANCEL_OK;
+	pages=r_lx_prefs_pages;
+	}
+
+RESOURCE ARRAY r_lx_prefs_pages
+	{
+	items=
+		{
+		PAGE { text="General"; id=ELxPagePrefsGeneral; lines=r_lx_prefs_general_lines; },
+		PAGE { text="Screen"; id=ELxPagePrefsScreen; lines=r_lx_prefs_screen_lines; }
+		};
+	}
+
+// (0.21) "Keep memory for other programs": Linux leaves this much RAM free
+// for EPOC's programs (linux/docs/DECISIONS.md 51)
+RESOURCE ARRAY r_lx_prefs_general_lines
+	{
+	items=
+		{
+		DLG_LINE { type=EEikCtChoiceList; prompt="Start"; id=ELxPrefStart;
+			control=CHOICELIST { array_id=r_lx_start_list; }; },
+		DLG_LINE { type=EEikCtCheckBox; prompt="Keep memory for other programs"; id=ELxPrefKeep; },
+		DLG_LINE { type=EEikCtChoiceList; prompt="Memory to keep"; id=ELxPrefKeepKb;
+			control=CHOICELIST { array_id=r_lx_keep_list; }; }
+		};
+	}
+
+RESOURCE ARRAY r_lx_keep_list
+	{
+	items=
+		{
+		LBUF { txt="512 KB"; },
+		LBUF { txt="1 MB"; },
+		LBUF { txt="2 MB"; }
+		};
+	}
+
+RESOURCE ARRAY r_lx_prefs_screen_lines
+	{
+	items=
+		{
+		DLG_LINE { type=EEikCtChoiceList; prompt="Text size"; id=ELxPrefZoom;
+			control=CHOICELIST { array_id=r_lx_zoom_list; }; },
+		DLG_LINE { type=EEikCtChoiceList; prompt="Colours"; id=ELxPrefTheme;
+			control=CHOICELIST { array_id=r_lx_theme_list; }; },
+		DLG_LINE { type=EEikCtChoiceList; prompt="Cursor"; id=ELxPrefCursor;
+			control=CHOICELIST { array_id=r_lx_cursor_list; }; },
+		DLG_LINE { type=EEikCtCheckBox; prompt="Cursor blinks"; id=ELxPrefBlink; },
+		DLG_LINE { type=EEikCtCheckBox; prompt="Status line"; id=ELxPrefStatus; },
+		DLG_LINE { type=EEikCtCheckBox; prompt="Bold text"; id=ELxPrefBold; }
+		};
+	}
+
+RESOURCE ARRAY r_lx_start_list
+	{
+	items=
+		{
+		LBUF { txt="Alpine Linux"; },
+		LBUF { txt="Alpine Linux, shell only"; },
+		LBUF { txt="PsiLinux"; }
+		};
+	}
+
+RESOURCE ARRAY r_lx_zoom_list
+	{
+	items=
+		{
+		LBUF { txt="Smallest (most rows)"; },
+		LBUF { txt="Small"; },
+		LBUF { txt="Medium"; },
+		LBUF { txt="Large"; },
+		LBUF { txt="Largest"; }
+		};
+	}
+
+RESOURCE ARRAY r_lx_theme_list
+	{
+	items=
+		{
+		LBUF { txt="Classic"; },
+		LBUF { txt="Light on dark"; },
+		LBUF { txt="High contrast"; },
+		LBUF { txt="Soft"; }
+		};
+	}
+
+RESOURCE ARRAY r_lx_cursor_list
+	{
+	items=
+		{
+		LBUF { txt="Block"; },
+		LBUF { txt="Underline"; },
+		LBUF { txt="Bar"; }
+		};
+	}
+
+// Tools > Linux disk...
+RESOURCE DIALOG r_lx_disk_dialog
+	{
+	title="Linux disk";
+	flags=EEikDialogFlagWait;
+	buttons=R_EIK_BUTTONS_CANCEL_OK;
+	items=
+		{
+		DLG_LINE { type=EEikCtChoiceList; prompt="Disk"; id=ELxDiskChoice;
+			control=CHOICELIST { array_id=r_lx_disk_list; }; }
+		};
+	}
+
+RESOURCE ARRAY r_lx_disk_list
+	{
+	items=
+		{
+		LBUF { txt="Memory disk (D:)"; },
+		LBUF { txt="Internal disk (C:)"; }
+		};
+	}
+
+RESOURCE TBUF r_lx_disk_note { buf="Linux's files are in \\Linux\\ on this disk. It applies when Linux next starts"; }
+
+// Tools > Help on PsiLinux (lxhelp.cpp)
+RESOURCE DIALOG r_lx_help_dialog
+	{
+	title="Help on PsiLinux";
+	flags=EEikDialogFlagWait|EEikDialogFlagNotifyEsc;
+	buttons=R_EIK_BUTTONS_CONTINUE;
+	items=
+		{
+		DLG_LINE { type=EEikCtChoiceList; prompt="Topic"; id=ELxHelpTopic;
+			control=CHOICELIST { array_id=r_lx_empty_array; }; },
+		DLG_LINE { type=EEikCtRichTextEditor; prompt=""; id=ELxHelpText;
+			control=RTXTED { width=520; height=118; numlines=7; textlimit=8000; flags=EEikEdwinNoAutoSelection|EEikEdwinReadOnly; }; }
+		};
+	}
+
+RESOURCE ARRAY r_lx_empty_array
+	{
+	items={ LBUF { txt="-"; } };
+	}
+
+// Tools > About PsiLinux. "(c)" is put right at run time (the (c) sign).
+RESOURCE DIALOG r_lx_about_dialog
+	{
+	title="About PsiLinux";
+	flags=EEikDialogFlagWait;
+	buttons=R_EIK_BUTTONS_CONTINUE;
+	items=
+		{
+		DLG_LINE { type=EEikCtLabel; id=ELxAbout1; control=LABEL { standard_font=EEikLabelFontLegend; txt="PsiLinux 0.20"; }; },
+		DLG_LINE { type=EEikCtLabel; id=ELxAbout5; control=LABEL { txt="Alpine Linux"; }; },
+		DLG_LINE { type=EEikCtLabel; id=ELxAbout2; control=LABEL { txt="Linux programs on the Psion Series 5mx - (c) 2026 Dan Edge"; }; },
+		DLG_LINE { type=EEikCtLabel; id=ELxAbout3; control=LABEL { txt="BusyBox, musl, Lua, MicroPython, SQLite, jq, nano, curl, git, Mbed TLS"; }; },
+		DLG_LINE { type=EEikCtLabel; id=ELxAbout4; control=LABEL { txt="and PsiTerm's terminal (libvterm): licences in /usr/share/licenses"; }; }
+		};
+	}

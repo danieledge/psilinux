@@ -1,0 +1,12 @@
+// lxprobe.rss - the PsiLinux probe's resources
+NAME LXPR
+#include <eikdef.rh>
+#include <eikmenu.rh>
+#include <eikcmds.hrh>
+#include "lxprobe.hrh"
+RESOURCE RSS_SIGNATURE { }
+RESOURCE TBUF { buf=""; }
+RESOURCE EIK_APP_INFO { menubar=r_lxpr_menubar; hotkeys=r_lxpr_hotkeys; }
+RESOURCE HOTKEYS r_lxpr_hotkeys { control= { HOTKEY { command=EEikCmdExit; key='e'; } }; }
+RESOURCE MENU_BAR r_lxpr_menubar { titles= { MENU_TITLE { menu_pane=r_lxpr_file_menu; txt="File"; } }; }
+RESOURCE MENU_PANE r_lxpr_file_menu { items= { MENU_ITEM { command=EEikCmdExit; txt="Close"; } }; }

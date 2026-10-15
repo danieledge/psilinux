@@ -1,0 +1,12 @@
+// lxprobe.mmp - the PsiLinux M0 probe (a test program, never released)
+TARGET          lxprobe.app
+TARGETTYPE      app
+UID             0x1000006c 0x0100FA12
+TARGETPATH      \system\apps\lxprobe
+PROJECT         ptproj
+SUBPROJECT      lxprobe
+SOURCE          lxview.cpp
+RESOURCE        lxprobe.rss
+USERINCLUDE     .
+SYSTEMINCLUDE   \epoc32\include
+LIBRARY         euser.lib apparc.lib cone.lib eikon.lib gdi.lib ws32.lib efsrv.lib

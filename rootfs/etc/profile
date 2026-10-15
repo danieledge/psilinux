@@ -1,0 +1,12 @@
+# /etc/profile - PsiLinux's login shell starts here
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
+export HOME=/root
+export TERM=xterm-256color
+export PAGER=less
+export EDITOR=vi
+PS1='\w \$ '
+# (hush, BusyBox's shell for machines without an MMU, has functions, not aliases)
+ll() { ls -l "$@"; }
+la() { ls -a "$@"; }
+[ -f /etc/motd ] && [ -z "$PSILINUX_QUIET" ] && cat /etc/motd
+cd "$HOME"

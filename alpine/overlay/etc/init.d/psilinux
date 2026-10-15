@@ -1,0 +1,29 @@
+#!/sbin/openrc-run
+# psilinux - Alpine mode on a Psion (PsiLinux): /dev, /proc and the network
+# are the PsiLinux kernel's, and EPOC's under it, so there is nothing for
+# udev, mdev or ifupdown to do. This service stands in for them.
+
+description="The Psion's devices and network (EPOC's)"
+
+depend() {
+	provide dev net
+}
+
+start() {
+	ebegin "Using the Psion's devices and Internet connection"
+	eend 0
+	/usr/sbin/psilinux-merge-db
+	# root's shell is bash (/etc/passwd). If bash has been removed or does
+	# not start, root gets BusyBox sh instead, so that login still works,
+	# and bash again once it starts again (apk add bash).
+	if grep -q '^root:.*:/bin/bash$' /etc/passwd; then
+		if ! /bin/bash -c : 2>/dev/null; then
+			sed -i 's|^\(root:.*:\)/bin/bash$|\1/bin/sh|' /etc/passwd
+			: > /etc/psilinux/bash-gone
+			ewarn "bash does not start: root's shell is BusyBox sh for now"
+		fi
+	elif [ -e /etc/psilinux/bash-gone ] && /bin/bash -c : 2>/dev/null; then
+		sed -i 's|^\(root:.*:\)/bin/sh$|\1/bin/bash|' /etc/passwd
+		rm -f /etc/psilinux/bash-gone
+	fi
+}

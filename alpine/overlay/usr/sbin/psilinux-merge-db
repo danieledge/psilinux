@@ -1,0 +1,31 @@
+#!/bin/sh
+# psilinux-merge-db - after a new Alpine root image is installed over an old
+# one: apk's database of what is installed may be the old one, kept with your
+# changes (\Linux\Alpine\root\), and then it does not list the packages the
+# new image brings. This adds them (from the image's own copy), once per
+# image. (DECISIONS.md 50)
+IMG=/usr/lib/psilinux/apk-installed       # the image's database, as built
+DB=/lib/apk/db/installed
+STAMP=/var/lib/psilinux/db-merged
+want=$(cat /etc/psilinux/root-version 2>/dev/null)
+[ -n "$want" ] && [ -r "$IMG" ] || exit 0
+[ "$(cat "$STAMP" 2>/dev/null)" = "$want" ] && exit 0
+mkdir -p /var/lib/psilinux
+if ! cmp -s "$IMG" "$DB"; then
+	# the image's packages that the database lacks, whole
+	awk 'NR == FNR { if (/^P:/) have[substr($0, 3)] = 1; next }
+	     /^P:/ { keep = !(substr($0, 3) in have) }
+	     { buf = buf $0 "\n" }
+	     /^$/ { if (keep) printf "%s", buf; buf = ""; keep = 0 }' "$DB" "$IMG" > /tmp/.merge.$$
+	if [ -s /tmp/.merge.$$ ]; then
+		n=$(grep -c '^P:' /tmp/.merge.$$)
+		cat /tmp/.merge.$$ >> "$DB"
+		echo "apk: $n packages of the new Alpine root added to apk's list"
+	fi
+	rm -f /tmp/.merge.$$
+	# and the world file (what was asked for)
+	for p in $(cat /usr/lib/psilinux/apk-world 2>/dev/null); do
+		grep -qx "$p" /etc/apk/world || echo "$p" >> /etc/apk/world
+	done
+fi
+echo "$want" > "$STAMP"

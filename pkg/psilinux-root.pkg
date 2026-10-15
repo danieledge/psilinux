@@ -1,0 +1,6 @@
+; PsiLinux 0.10 root: the Linux programs (ROOT.IMG), for \Linux\ on the disk
+; chosen at install - the memory disk (D:) is best: it is 5 MB.
+; Changes made in Linux go beside it, in \Linux\root\, and are kept.
+&EN
+#{"PsiLinux programs"},(0x01000A88),0,21,0
+"ROOT.IMG"-"!:\Linux\ROOT.IMG"

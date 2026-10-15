@@ -1,0 +1,203 @@
+diff -ruN musl-orig/arch/arm/syscall_arch.h musl-1.2.6/arch/arm/syscall_arch.h
+--- musl-orig/arch/arm/syscall_arch.h	2026-03-20 15:40:00.000000000 +0000
++++ musl-1.2.6/arch/arm/syscall_arch.h	2026-10-14 08:00:13.223562160 +0100
+@@ -9,17 +9,20 @@
+  * since it's reserved as frame pointer and might not be supported. */
+ #define __ASM____R7__
+ #define __asm_syscall(...) do { \
+-	__asm__ __volatile__ ( "mov %1,r7 ; mov r7,%2 ; svc 0 ; mov r7,%1" \
+-	: "=r"(r0), "=&r"((int){0}) : __VA_ARGS__ : "memory"); \
++	__asm__ __volatile__ ( "mov %1,r7 ; mov r7,%2 ; bl __psi_svc ; mov r7,%1" \
++	: "=r"(r0), "=&r"((int){0}) : __VA_ARGS__ : "memory", "cc", "lr", "ip"); \
+ 	return r0; \
+ 	} while (0)
+ 
+ #else
+ 
+ #define __ASM____R7__ __asm__("r7")
++/* PsiLinux: no svc in the program. __psi_svc (src/internal/arm/psi_svc.s)
++ * enters the PsiLinux runner, or does the svc on a real Linux kernel. It
++ * keeps the registers an svc keeps, but a call changes lr, ip and the flags. */
+ #define __asm_syscall(...) do { \
+-	__asm__ __volatile__ ( "svc 0" \
+-	: "=r"(r0) : __VA_ARGS__ : "memory"); \
++	__asm__ __volatile__ ( "bl __psi_svc" \
++	: "=r"(r0) : __VA_ARGS__ : "memory", "cc", "lr", "ip"); \
+ 	return r0; \
+ 	} while (0)
+ #endif
+diff -ruN musl-orig/src/internal/arm/psi_svc.s musl-1.2.6/src/internal/arm/psi_svc.s
+--- musl-orig/src/internal/arm/psi_svc.s	1970-01-01 01:00:00.000000000 +0100
++++ musl-1.2.6/src/internal/arm/psi_svc.s	2026-10-14 08:00:25.566868365 +0100
+@@ -0,0 +1,35 @@
++@ PsiLinux: the only place a Linux system call is made.
++@ Called (bl) with the registers of an svc: r0-r6 the arguments, r7 the
++@ number. Under the PsiLinux runner, __sysinfo (AT_SYSINFO) points at the
++@ runner's table, whose first word is its system call entry: that is entered
++@ with these registers and lr, and returns like an svc (r0 the result, every
++@ other register kept but ip, lr and the flags). On a real Linux kernel
++@ (qemu-arm, or a Linux ARM board) __sysinfo is 0 and this is an svc.
++@ EPOC must never see an svc: on EPOC R5 it is an executive call, and svc 0
++@ restarts the machine (linux/docs/DESIGN.md).
++.syntax unified
++.text
++.global __psi_svc
++.hidden __psi_svc
++.type __psi_svc,%function
++__psi_svc:
++	ldr ip, 1f
++2:	add ip, pc, ip
++	ldr ip, [ip]
++	cmp ip, #0
++	ldrne pc, [ip]
++	svc 0
++	bx lr
++	.align 2
++1:	.word __sysinfo - 2b - 8
++
++@ The PsiLinux ABI note, which the runner looks for (linux/docs/DESIGN.md):
++@ name "PsiLinux", type 1, and the ABI version (1) as its description.
++.section .note.psilinux,"a",%note
++	.align 2
++	.word 9
++	.word 4
++	.word 1
++	.asciz "PsiLinux"
++	.align 2
++	.word 1
+diff -ruN musl-orig/src/process/arm/vfork.s musl-1.2.6/src/process/arm/vfork.s
+--- musl-orig/src/process/arm/vfork.s	2026-03-20 15:40:00.000000000 +0000
++++ musl-1.2.6/src/process/arm/vfork.s	2026-10-14 08:00:13.223562160 +0100
+@@ -2,9 +2,13 @@
+ .global vfork
+ .type vfork,%function
+ vfork:
+-	mov ip, r7
++	@ PsiLinux: lr and r7 are kept in r2 and r3, not on the stack, which the
++	@ child shares (and overwrites) until it calls execve or _exit
++	mov r3, r7
++	mov r2, lr
+ 	mov r7, 190
+-	svc 0
+-	mov r7, ip
++	bl __psi_svc
++	mov r7, r3
++	mov lr, r2
+ 	.hidden __syscall_ret
+ 	b __syscall_ret
+diff -ruN musl-orig/src/signal/arm/restore.s musl-1.2.6/src/signal/arm/restore.s
+--- musl-orig/src/signal/arm/restore.s	2026-03-20 15:40:00.000000000 +0000
++++ musl-1.2.6/src/signal/arm/restore.s	2026-10-14 08:00:13.223562160 +0100
+@@ -5,11 +5,11 @@
+ .type __restore,%function
+ __restore:
+ 	mov r7,#119
+-	swi 0x0
++	bl __psi_svc
+ 
+ .global __restore_rt
+ .hidden __restore_rt
+ .type __restore_rt,%function
+ __restore_rt:
+ 	mov r7,#173
+-	swi 0x0
++	bl __psi_svc
+diff -ruN musl-orig/src/thread/arm/clone.s musl-1.2.6/src/thread/arm/clone.s
+--- musl-orig/src/thread/arm/clone.s	2026-03-20 15:40:00.000000000 +0000
++++ musl-1.2.6/src/thread/arm/clone.s	2026-10-14 08:00:13.223562160 +0100
+@@ -4,26 +4,27 @@
+ .hidden __clone
+ .type   __clone,%function
+ __clone:
+-	stmfd sp!,{r4,r5,r6,r7}
++	@ PsiLinux: lr is saved as well, because __psi_svc is a call
++	stmfd sp!,{r4,r5,r6,r7,lr}
+ 	mov r7,#120
+ 	mov r6,r3
+ 	mov r5,r0
+ 	mov r0,r2
+ 	and r1,r1,#-16
+-	ldr r2,[sp,#16]
+-	ldr r3,[sp,#20]
+-	ldr r4,[sp,#24]
+-	svc 0
++	ldr r2,[sp,#20]
++	ldr r3,[sp,#24]
++	ldr r4,[sp,#28]
++	bl __psi_svc
+ 	tst r0,r0
+ 	beq 1f
+-	ldmfd sp!,{r4,r5,r6,r7}
++	ldmfd sp!,{r4,r5,r6,r7,lr}
+ 	bx lr
+ 
+ 1:	mov fp,#0
+ 	mov r0,r6
+ 	bl 3f
+ 2:	mov r7,#1
+-	svc 0
++	bl __psi_svc
+ 	b 2b
+ 
+ 3:	bx r5
+diff -ruN musl-orig/src/thread/arm/__set_thread_area.c musl-1.2.6/src/thread/arm/__set_thread_area.c
+--- musl-orig/src/thread/arm/__set_thread_area.c	2026-03-20 15:40:00.000000000 +0000
++++ musl-1.2.6/src/thread/arm/__set_thread_area.c	2026-10-14 08:00:25.566868365 +0100
+@@ -27,7 +27,16 @@
+ int __set_thread_area(void *p)
+ {
+ #if !__ARM_ARCH_7A__ && !__ARM_ARCH_7R__ && __ARM_ARCH < 7
+-	if (__hwcap & HWCAP_TLS) {
++	if (__sysinfo) {
++		/* PsiLinux: EPOC has no kuser helpers at 0xffff0fxx and no CP15
++		 * thread register; the runner's table (AT_SYSINFO) gives the
++		 * helpers: [1] compare-and-swap, [2] get the thread pointer,
++		 * [3] barrier, each called like the kuser helper it replaces. */
++		const uintptr_t *t = (const uintptr_t *)__sysinfo;
++		__a_cas_ptr = t[1];
++		__a_gettp_ptr = t[2];
++		__a_barrier_ptr = t[3];
++	} else if (__hwcap & HWCAP_TLS) {
+ 		size_t *aux;
+ 		__a_cas_ptr = __a_cas_v7;
+ 		__a_barrier_ptr = __a_barrier_v7;
+diff -ruN musl-orig/src/thread/arm/syscall_cp.s musl-1.2.6/src/thread/arm/syscall_cp.s
+--- musl-orig/src/thread/arm/syscall_cp.s	2026-03-20 15:40:00.000000000 +0000
++++ musl-1.2.6/src/thread/arm/syscall_cp.s	2026-10-14 08:00:13.223562160 +0100
+@@ -10,8 +10,9 @@
+ .hidden __syscall_cp_asm
+ .type __syscall_cp_asm,%function
+ __syscall_cp_asm:
++	@ PsiLinux: lr is saved as well, because __psi_svc is a call
+ 	mov ip,sp
+-	stmfd sp!,{r4,r5,r6,r7}
++	stmfd sp!,{r4,r5,r6,r7,lr}
+ __cp_begin:
+ 	ldr r0,[r0]
+ 	cmp r0,#0
+@@ -20,10 +21,10 @@
+ 	mov r0,r2
+ 	mov r1,r3
+ 	ldmfd ip,{r2,r3,r4,r5,r6}
+-	svc 0
++	bl __psi_svc
+ __cp_end:
+-	ldmfd sp!,{r4,r5,r6,r7}
++	ldmfd sp!,{r4,r5,r6,r7,lr}
+ 	bx lr
+ __cp_cancel:
+-	ldmfd sp!,{r4,r5,r6,r7}
++	ldmfd sp!,{r4,r5,r6,r7,lr}
+ 	b __cancel
+diff -ruN musl-orig/src/thread/arm/__unmapself.s musl-1.2.6/src/thread/arm/__unmapself.s
+--- musl-orig/src/thread/arm/__unmapself.s	2026-03-20 15:40:00.000000000 +0000
++++ musl-1.2.6/src/thread/arm/__unmapself.s	2026-10-14 08:00:13.223562160 +0100
+@@ -4,6 +4,6 @@
+ .type   __unmapself,%function
+ __unmapself:
+ 	mov r7,#91
+-	svc 0
++	bl __psi_svc
+ 	mov r7,#1
+-	svc 0
++	bl __psi_svc

@@ -1,0 +1,20 @@
+// PSILINUX.MMP - PsiLinux (the app; the runner is linux/runner/Makefile)
+TARGET        psilinux.app
+TARGETTYPE    app
+UID           0x1000006c 0x01000A87
+TARGETPATH    \system\apps\psilinux
+
+PROJECT       ptproj
+SUBPROJECT    psilinux
+SOURCE        psilinux.cpp lxterm.cpp lxglyphs.cpp lxhelp.cpp
+SUBPROJECT    psilxterm
+SOURCE        termsb.cpp
+SUBPROJECT    psilinux
+RESOURCE      psilinux.rss
+
+USERINCLUDE   \ptproj\psilinux \ptproj\psilxterm \ptproj\psilxterm\vterm \ptproj\psilxssh \ptproj\psilxcommon
+SYSTEMINCLUDE \ptproj\psilxterm\vterm \epoc32\include\libc \epoc32\include
+
+LIBRARY       psivterm.lib
+LIBRARY       euser.lib efsrv.lib apparc.lib cone.lib eikon.lib ws32.lib gdi.lib
+LIBRARY       bafl.lib etext.lib estor.lib fbscli.lib estlib.lib

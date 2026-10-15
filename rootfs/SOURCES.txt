@@ -1,0 +1,33 @@
+PsiLinux 0.21: where the programs in this root come from
+
+Every program here was built from the unmodified upstream source below
+(except musl: see the patch), with the PsiLinux toolchain, by the scripts in
+github.com/danieledge/psilinux (toolchain/, rootfs/, ports/). Those scripts,
+the patch and the configuration, with these archives, are the complete
+corresponding source. Each release on GitHub also carries a source archive
+(PsiLinux-<version>-sources.tar.xz) with all of them.
+
+Written offer: for at least three years after the last release of PsiLinux
+was published, anyone may have the complete corresponding source of any GPL
+program here, at no charge beyond the cost of sending it, by opening an
+issue at https://github.com/danieledge/psilinux/issues
+
+  BusyBox 1.36.1 (GPL v2)   https://busybox.net/downloads/busybox-1.36.1.tar.bz2
+      sha256 b8cc24c9574d809e7279c3be349795c5d5ceb6fdf19ca709f80cde50e47de314
+      configuration: defconfig + rootfs/busybox.config
+  nano 8.2 (GPL v3 or later)  https://www.nano-editor.org/dist/v8/nano-8.2.tar.xz
+  git 2.47.0 (GPL v2)       https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.47.0.tar.xz
+  musl 1.2.6 (MIT)          https://musl.libc.org/releases/musl-1.2.6.tar.gz
+      patch: toolchain/patches/musl-1.2.6-psilinux.diff
+  GCC 14.3.0 runtime (GPL v3 with the GCC Runtime Library Exception), via musl-cross-make 227df8b
+  Lua 5.4.7 (MIT)           https://www.lua.org/ftp/lua-5.4.7.tar.gz
+  SQLite 3.46.1 (public domain)  https://www.sqlite.org/2024/sqlite-amalgamation-3460100.zip
+  MicroPython 1.23.0 (MIT)  https://github.com/micropython/micropython/releases/download/v1.23.0/micropython-1.23.0.tar.xz
+  jq 1.7.1 (MIT)            https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-1.7.1.tar.gz
+  ncurses 6.4 (MIT-X11)     https://ftp.gnu.org/gnu/ncurses/ncurses-6.4.tar.gz
+  curl 8.10.1 (curl)        https://curl.se/download/curl-8.10.1.tar.xz
+  Mbed TLS 3.6.2 (Apache 2.0)  https://github.com/Mbed-TLS/mbedtls/releases/download/mbedtls-3.6.2/mbedtls-3.6.2.tar.bz2
+  zlib 1.3.1 (zlib)         https://zlib.net/fossils/zlib-1.3.1.tar.gz
+  CA certificates (MPL 2.0) https://curl.se/ca/cacert-2024-09-24.pem
+The checksums of the rest are in ports/build-ports.sh. The licence texts are
+in /usr/share/licenses/.

@@ -1,0 +1,11 @@
+# /etc/inittab - Alpine Linux on a Psion Series 5mx (PsiLinux's Alpine mode).
+# BusyBox init starts OpenRC, then logs root in on the one terminal there
+# is: the PsiLinux window (tty1). Halt, reboot or poweroff end Linux.
+
+::sysinit:/sbin/openrc sysinit
+::sysinit:/sbin/openrc boot
+::wait:/sbin/openrc default
+
+tty1::respawn:/bin/login -f root
+
+::shutdown:/sbin/openrc shutdown

@@ -113,7 +113,7 @@ on a PC for searches and install plans: `alpine/server/psiapk.py`. It is a
 plug-in for PsiProxy (psiterm's `proxy/`):
 
 ```sh
-PSIPROXY_ADDR=0.0.0.0 PSIPROXY_PLUGIN_PATH=$PWD/linux/alpine/server python3 proxy/psiproxyd.py
+PSIPROXY_ADDR=0.0.0.0 PSIPROXY_PLUGINS=psiapk PSIPROXY_PLUGIN_PATH=$PWD/linux/alpine/server python3 proxy/psiproxyd.py
 ```
 
 PsiProxy listens on 127.0.0.1:8081 unless `PSIPROXY_ADDR` says otherwise;

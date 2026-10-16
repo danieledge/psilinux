@@ -39,6 +39,10 @@ Settings (environment): PSIAPK_MIRROR (https://dl-cdn.alpinelinux.org/alpine),
 PSIAPK_BRANCH (v3.24), PSIAPK_ARCH (armhf), PSIAPK_CACHE
 (~/.cache/psiapk), PSIAPK_REFRESH (seconds between index checks, 21600).
 """
+
+# PsiProxy loads this with PSIPROXY_PLUGINS=psiapk (no plug-in list needed)
+PSIPROXY_ROUTE = "/_apk/"
+
 import os
 import re
 import io

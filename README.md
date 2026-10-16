@@ -17,9 +17,12 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 
 ![Alpine Linux 3.24 booted on the Psion: OpenRC's services, then a root login](docs/img/alpine-boot.png)
 
-> **Status: experimental.** Nearly everything here was developed and
-> measured in an emulator of the 5mx and on a host test harness. Little has
-> yet run on a real 5mx. Where a figure below comes from, it says so.
+> **Status: experimental, and running on real hardware.** Alpine's
+> shell-only mode runs on a real 5mx: bash and Alpine's own programs, with
+> about 6.5 MB of memory still free. PsiLinux's own programs run there too.
+> Most of the development and the measuring was done in an emulator of the
+> 5mx and on a host test harness, so where a figure below comes from, it
+> says so.
 
 ## Contents
 
@@ -241,6 +244,11 @@ mapped. The emulator's 5mx had about 8.3 MB free after Alpine booted with
 BusyBox sh, and about 9 MB in shell-only mode; with bash (0.21), about
 7.4 MB is available after a full boot.
 
+**On a real 5mx** (0.21, from the runner's log), shell-only mode with bash
+left about 6.5 MB free, which is the room the table's "Fits" column is about.
+A full boot with bash is too tight there: free memory fell to about 0.7 MB
+during OpenRC's start-up. Shell-only is the mode to use on a 5mx for now.
+
 | Package | Runs | Download / on disk | Memory | Fits on a 5mx? |
 |---|---|---|---|---|
 | nano | yes | 0.3 / 0.7 MB | 1.3 MB | yes |
@@ -287,6 +295,14 @@ the disk and is likely to fit in memory.
 emulator and 328 ms on a real 5mx, so the emulator runs about 3 times slower.
 The figures below are from the emulator unless they say otherwise.
 
+**Unaligned accesses on a real 5mx.** Alpine's code was built for a newer
+ARM that allows unaligned loads and stores; the 5mx's ARM710T faults on
+them. PsiLinux fixes each one up and then patches the instruction that caused
+it, so the next time it goes straight to the fix-up. On a real 5mx that left
+3 to 10 actual faults a session; the rest (from 1,600 to 100,000 accesses a
+session, and about 395,000 in the full boot) went through the patched sites. In the emulator, before patching, a
+boot took about 36,000 faults.
+
 **Native programs** (PsiLinux 0.10, the emulator, timed with a 1-second
 clock): starting a program under 1 s, `ls /bin` 1 s, Lua `fib(20)` 1 s,
 SQLite inserting 1,000 rows 1 s, jq 2 s, gzip of 100 KB 2 s, a MicroPython
@@ -309,8 +325,9 @@ Integer code runs at nearly native speed. Floating point is slowest, and
 `sort` pays for its many indirect calls.
 
 **Booting Alpine** (BusyBox init and OpenRC to the login prompt) took about
-136 s in the emulator. By the 3 to 1 ratio, that should be under a minute on
-a 5mx; that is still to be measured. The boot translated 8,047 blocks (605 KB
+136 s in the emulator with BusyBox sh. On a real 5mx with 0.21's bash, the
+boot ran OpenRC's services but ran short of memory (above), so a timed boot to
+the login prompt on the device is still to come. The boot translated 8,047 blocks (605 KB
 of code) without filling the 1 MB code cache.
 
 ## Installing

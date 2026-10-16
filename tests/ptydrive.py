@@ -3,7 +3,9 @@
 
 Runs PROGRAM on the host harness (qemu-arm -cpu ti925t ./psihost -r ROOT, run
 from build/linux) in a pseudo-terminal, as a person at the Psion would: each
-STEP is 'send:TEXT' (with \\r \\t \\x03 \\x1b escapes), 'sleep:SECONDS' or
+STEP is 'send:TEXT' (with \\r \\t \\x03 \\x1b escapes), 'sendenv:NAME' (the
+environment variable NAME and a return: a password stays off the command
+line), 'sleep:SECONDS' or
 'wait:REGEX[:SECONDS]' (for output after the step before; multi-line, so ^
 is a line's start). Everything printed goes to LOG. Prints OK, or FAILED if
 a wait timed out. (linux/tests/run-alpine.sh)"""
@@ -37,6 +39,8 @@ for s in steps:
     k, _, v = s.partition(':')
     if k == 'send':
         os.write(fd, v.encode().decode('unicode_escape').encode('latin1'))
+    elif k == 'sendenv':
+        os.write(fd, os.environ.get(v, '').encode() + b'\r')
     elif k == 'sleep':
         pump(float(v))
     elif k == 'wait':

@@ -48,6 +48,9 @@ docker run --rm -v "$OUT:/out" -v "$LXSRC/alpine:/src:ro" alpine:$ALP sh -c "
 rm -rf "$S"/var/cache/apk/*
 # PsiLinux's files
 cp -a "$HERE/overlay/." "$S/"
+# (not writable by the group, whatever the checkout's umask: ssh refuses a
+# config file that is)
+chmod -R go-w "$S/etc/ssh/ssh_config.d"
 # OpenRC: the runlevels (no hardware: devices, disks, clocks and the
 # network belong to EPOC). hostname and bootmisc at boot; nothing else.
 mkdir -p "$S/etc/runlevels/sysinit" "$S/etc/runlevels/boot" "$S/etc/runlevels/default" "$S/etc/runlevels/shutdown" "$S/etc/runlevels/nonetwork"

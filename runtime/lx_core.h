@@ -25,7 +25,7 @@
 extern "C" {
 #endif
 
-#define LX_VERSION "0.22"
+#define LX_VERSION "0.23"
 #define LX_MAXPROC 64
 #define LX_MAXTHREAD 64
 #define LX_MAXFD 128
@@ -396,6 +396,10 @@ void lx_k_tty_writable(lx_tty *tty);
 void lx_k_tty_resize(lx_tty *tty, int rows, int cols);
 void lx_k_tty_hangup(lx_tty *tty);
 void lx_k_thread_died(lx_thread *t, int reason);   /* it faulted or was killed outside the kernel */
+/* lx_rand.c: the kernel's random numbers (getrandom, /dev/urandom, AT_RANDOM) */
+void lx_rand_bytes(void *buf, lx_u32 n);
+void lx_rand_stir(const void *p, lx_u32 n);     /* (what is written to /dev/urandom) */
+void lx_rand_event(lx_u32 what);                /* (a key, a network event: its time) */
 void lx_k_event(void);                        /* something changed (a socket...): retry the parked calls */
 void lx_k_shutdown(void);
 

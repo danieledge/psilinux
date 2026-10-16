@@ -13,6 +13,7 @@ start() {
 	ebegin "Using the Psion's devices and Internet connection"
 	eend 0
 	/usr/sbin/psilinux-merge-db
+	/usr/sbin/psilinux-seed
 	# root's shell is bash (/etc/passwd). If bash has been removed or does
 	# not start, root gets BusyBox sh instead, so that login still works,
 	# and bash again once it starts again (apk add bash).

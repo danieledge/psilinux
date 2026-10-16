@@ -598,6 +598,8 @@ static int interp1(lx_thread *t, lx_u32 *frame, lx_u32 pc, lx_u32 i)
  * r: r0-r15; i: the host instruction (an ARMv4 ldr, str, ldrh, strh or
  * ldrsh). after: the instruction faulted, and the ARM710T's abort model has
  * already updated a written-back base; otherwise it has not run at all. */
+static lx_u32 fixup_mis;         /* (the last access's address & (size - 1): nonzero if unaligned) */
+
 static int fixup(lx_u32 *r, lx_u32 i, int after)
 {
 	int P = (int)(i >> 24) & 1, U = (int)(i >> 23) & 1, W = (int)(i >> 21) & 1, L = (int)(i >> 20) & 1;
@@ -622,6 +624,7 @@ static int fixup(lx_u32 *r, lx_u32 i, int after)
 		if (wb && after) base = U ? base - off : base + off;      /* (undone: it was written back) */
 		addr = P ? (U ? base + off : base - off) : base;
 		if (wb && !after) r[rn] = U ? base + off : base - off;
+		fixup_mis = addr & 3;
 		if (L) r[rd] = ld32(addr); else st32(addr, r[rd]);
 	} else if ((i & 0x0E000090u) == 0x00000090u && ((i >> 5) & 3)) {
 		int I = (int)(i >> 22) & 1, sh = (int)(i >> 5) & 3;
@@ -632,6 +635,7 @@ static int fixup(lx_u32 *r, lx_u32 i, int after)
 		if (wb && after) base = U ? base - off : base + off;
 		addr = P ? (U ? base + off : base - off) : base;
 		if (wb && !after) r[rn] = U ? base + off : base - off;
+		fixup_mis = addr & 1;
 		if (!L) st16(addr, r[rd]);
 		else if (sh == 1) r[rd] = ld16(addr);
 		else if (sh == 3) r[rd] = (lx_u32)(lx_s32)(short)ld16(addr);
@@ -653,6 +657,29 @@ int dbt_fixup(lx_u32 *regs, lx_u32 sp, lx_u32 i)
 	for (k = 0; k < 15; k++) if (k != 13) regs[k] = r[k];
 	lx_cpu.fixups++;
 	return 0;
+}
+
+/* (debugging, psihost's LX_DBT_SLOW=128) every load and store comes through
+ * DBT_FIXUP; count them as a 5mx would: a site's first unaligned access is a
+ * fault (and the site is patched), and every access there after it goes
+ * through the runtime. So /proc/psilinux/dbt's "unaligned" line on the host
+ * harness is what an ARM710T would show (qemu itself never faults). */
+#define NSITE 8192
+static lx_u32 *site_seen, site_gen;
+static void model_fixup(lx_u32 site)
+{
+	lx_u32 h, n;
+	if (!site_seen) site_seen = (lx_u32 *)bk_alloc(NSITE * 4);
+	if (!site_seen) return;
+	if (site_gen != dbt_gen()) { bk_memset(site_seen, 0, NSITE * 4); site_gen = dbt_gen(); }   /* (a flush: the patches go too) */
+	for (h = (site >> 2) & (NSITE - 1), n = 0; n < NSITE; h = (h + 1) & (NSITE - 1), n++) {
+		if (site_seen[h] == site) { lx_cpu.fixed_calls++; return; }
+		if (!site_seen[h]) break;
+	}
+	if (!fixup_mis) return;          /* (aligned, at a site that has not faulted: free) */
+	lx_cpu.fixups++;
+	lx_cpu.patched++;
+	if (n < NSITE) site_seen[h] = site;
 }
 
 /* (debugging) which instructions the interpreter does most */
@@ -775,7 +802,7 @@ lx_u32 dbt_runtime(lx_u32 *desc, lx_u32 *frame)
 	case DBT_FIXUP: {
 		/* a patched site (dbt_patch_unaligned): { FIXUP, host insn, back to } */
 		lx_u32 sv = frame[DF_PC];
-		lx_cpu.fixed_calls++;
+		if (!(lx_cpu.slow & DBT_SLOW_FIXUP)) lx_cpu.fixed_calls++;
 		frame[DF_PC] = 0;
 		if (fixup(frame, desc[1], 0) < 0) {
 			lx_u32 g = 0, h = 0;
@@ -784,6 +811,7 @@ lx_u32 dbt_runtime(lx_u32 *desc, lx_u32 *frame)
 			host = raise_sig(t, frame, LX_SIGBUS);
 			break;
 		}
+		if (lx_cpu.slow & DBT_SLOW_FIXUP) model_fixup((lx_u32)desc);
 		frame[DF_PC] = sv;
 		host = desc[2];
 		break;

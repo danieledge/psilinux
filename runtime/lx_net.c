@@ -12,6 +12,19 @@
 
 #define DNS_ADDR 0x3500007fu       /* 127.0.0.53, as it lies in memory (network order) */
 
+/* the DNS answerer's questions on one socket: musl asks for A and AAAA at
+ * once, on the same socket, and matches the answers by their ids, so each
+ * question keeps its own lookup and answer until it is read */
+#define DNS_SLOTS 4
+typedef struct dns_slot {
+	int used;
+	void *req;                  /* the backend's lookup, while it runs */
+	int qlen, alen;             /* alen: an answer is ready */
+	char q[512];
+	char a[512];
+	unsigned seq;               /* (answers are read in the order asked) */
+} dns_slot;
+
 typedef struct sock {
 	void *bk;
 	int type;                   /* LX_SOCK_STREAM / LX_SOCK_DGRAM */
@@ -22,12 +35,8 @@ typedef struct sock {
 	int shut_wr;
 	/* the DNS answerer (a UDP socket that sent to 127.0.0.53) */
 	int dns;
-	void *dns_req;
-	char dns_q[512];
-	int dns_qlen;
-	char dns_a[512];
-	int dns_alen;
-	lx_u16 dns_port;
+	dns_slot *dq;               /* DNS_SLOTS of them, made at the first question */
+	unsigned dns_seq;
 	/* AF_UNIX socketpair: two pipes */
 	lx_file *pr, *pw;
 } sock;
@@ -55,18 +64,18 @@ static int dns_qname(const char *q, int len, char *out, int max)
 	return i + 4 <= len ? i : -1;
 }
 
-/* the answer to the query in s->dns_q, with these addresses */
-static void dns_answer(sock *s, const lx_u32 *addrs, int n, int rcode)
+/* the answer to the slot's question, with these addresses */
+static void dns_answer(dns_slot *d, const lx_u32 *addrs, int n, int rcode)
 {
-	char *a = s->dns_a;
+	char *a = d->a;
 	char name[256];
-	int qend = dns_qname(s->dns_q, s->dns_qlen, name, sizeof name), o, i;
+	int qend = dns_qname(d->q, d->qlen, name, sizeof name), o, i;
 	int qtype;
-	if (qend < 0) { s->dns_alen = 0; return; }
-	qtype = ((unsigned char)s->dns_q[qend] << 8) | (unsigned char)s->dns_q[qend + 1];
+	if (qend < 0) { d->used = 0; return; }   /* (not a question: no answer) */
+	qtype = ((unsigned char)d->q[qend] << 8) | (unsigned char)d->q[qend + 1];
 	if (qtype != 1) n = 0;           /* (A only: AAAA and the rest get no answers) */
 	o = qend + 4;
-	bk_memcpy(a, s->dns_q, o);
+	bk_memcpy(a, d->q, o);
 	a[2] = (char)0x81;               /* a response, recursion desired */
 	a[3] = (char)(0x80 | rcode);     /* recursion available */
 	a[4] = 0; a[5] = 1;              /* one question */
@@ -81,40 +90,78 @@ static void dns_answer(sock *s, const lx_u32 *addrs, int n, int rcode)
 		bk_memcpy(a + o, &addrs[i], 4);
 		o += 4;
 	}
-	s->dns_alen = o;
+	d->alen = o;
 }
 
-static void dns_poll(sock *s)
+/* the lookups that have finished get their answers; the first answer ready */
+static dns_slot *dns_poll(sock *s)
 {
-	lx_u32 addrs[8];
-	int n;
-	if (!s->dns_req) return;
-	n = bk_resolve_poll(s->dns_req, addrs, 8);
-	if (n == -LX_EAGAIN) return;
-	bk_resolve_free(s->dns_req);
-	s->dns_req = 0;
-	if (n == -LX_ENOENT) dns_answer(s, 0, 0, 3);   /* NXDOMAIN: no such name */
-	else if (n < 0) dns_answer(s, 0, 0, 2);   /* SERVFAIL: the network failed */
-	else dns_answer(s, addrs, n, 0);
+	dns_slot *best = 0;
+	int k;
+	if (!s->dq) return 0;
+	for (k = 0; k < DNS_SLOTS; k++) {
+		dns_slot *d = &s->dq[k];
+		if (!d->used) continue;
+		if (d->req) {
+			lx_u32 addrs[8];
+			int n = bk_resolve_poll(d->req, addrs, 8);
+			if (n == -LX_EAGAIN) continue;
+			bk_resolve_free(d->req);
+			d->req = 0;
+			if (n == -LX_ENOENT) dns_answer(d, 0, 0, 3);   /* NXDOMAIN: no such name */
+			else if (n < 0) dns_answer(d, 0, 0, 2);   /* SERVFAIL: the network failed */
+			else dns_answer(d, addrs, n, 0);
+		}
+		if (d->used && d->alen && (!best || d->seq < best->seq)) best = d;
+	}
+	return best;
+}
+
+static int same(const char *a, const char *b, int n)
+{
+	while (n--) if (*a++ != *b++) return 0;
+	return 1;
+}
+
+static void dns_free(dns_slot *d)
+{
+	if (d->req) bk_resolve_free(d->req);
+	d->req = 0;
+	d->used = 0;
+	d->alen = 0;
 }
 
 static int dns_query(sock *s, const char *buf, int len)
 {
 	char name[256];
-	int err = 0, qend;
+	int err = 0, qend, k;
+	dns_slot *d = 0;
 	if (len < 17 || len > 512) return -LX_EINVAL;
-	bk_memcpy(s->dns_q, buf, len);
-	s->dns_qlen = len;
-	s->dns_alen = 0;
-	if (s->dns_req) { bk_resolve_free(s->dns_req); s->dns_req = 0; }
+	if (!s->dq && !(s->dq = (dns_slot *)bk_alloc(DNS_SLOTS * sizeof(dns_slot)))) return -LX_ENOMEM;
+	for (k = 0; k < DNS_SLOTS; k++) {
+		dns_slot *e = &s->dq[k];
+		/* (the same question again: musl asking again after a timeout) */
+		if (e->used && e->qlen == len && same(e->q, buf, len)) { d = e; break; }
+		if (!e->used && !d) d = e;
+	}
+	if (!d) {                        /* all in use: the oldest goes */
+		d = &s->dq[0];
+		for (k = 1; k < DNS_SLOTS; k++) if (s->dq[k].seq < d->seq) d = &s->dq[k];
+	}
+	if (d->used && d->qlen == len && same(d->q, buf, len)) return len;   /* (its lookup goes on) */
+	dns_free(d);
+	bk_memcpy(d->q, buf, len);
+	d->qlen = len;
+	d->used = 1;
+	d->seq = ++s->dns_seq;
 	qend = dns_qname(buf, len, name, sizeof name);
-	if (qend < 0) return len;
+	if (qend < 0) { d->used = 0; return len; }
 	if ((((unsigned char)buf[qend] << 8) | (unsigned char)buf[qend + 1]) != 1) {
-		dns_answer(s, 0, 0, 0);                  /* not A: an empty answer at once */
+		dns_answer(d, 0, 0, 0);                  /* not A: an empty answer at once */
 		return len;
 	}
-	s->dns_req = bk_resolve_start(name, &err);
-	if (!s->dns_req) dns_answer(s, 0, 0, 2);   /* SERVFAIL */
+	d->req = bk_resolve_start(name, &err);
+	if (!d->req) dns_answer(d, 0, 0, 2);   /* SERVFAIL */
 	return len;
 }
 
@@ -127,10 +174,7 @@ static int sk_poll(lx_file *f)
 		int r = s->pr->ops->poll(s->pr) & (LX_POLLIN | LX_POLLHUP);
 		return r | (s->pw->ops->poll(s->pw) & (LX_POLLOUT | LX_POLLERR));
 	}
-	if (s->dns) {
-		dns_poll(s);
-		return (s->dns_alen ? LX_POLLIN : 0) | LX_POLLOUT;
-	}
+	if (s->dns) return (dns_poll(s) ? LX_POLLIN : 0) | LX_POLLOUT;
 	if (!s->bk) return LX_POLLOUT;
 	return bk_sock_poll(s->bk);
 }
@@ -146,11 +190,11 @@ static int sk_recv(lx_thread *t, lx_file *f, char *buf, lx_u32 n, int flags, lx_
 		return r;
 	}
 	if (s->dns) {
-		dns_poll(s);
-		if (!s->dns_alen) return nonblock ? -LX_EAGAIN : LX_BLOCK;
-		r = s->dns_alen < (int)n ? s->dns_alen : (int)n;
-		bk_memcpy(buf, s->dns_a, r);
-		if (!(flags & LX_MSG_PEEK)) s->dns_alen = 0;
+		dns_slot *d = dns_poll(s);
+		if (!d) return nonblock ? -LX_EAGAIN : LX_BLOCK;
+		r = d->alen < (int)n ? d->alen : (int)n;
+		bk_memcpy(buf, d->a, r);
+		if (!(flags & LX_MSG_PEEK)) dns_free(d);
 		if (addr) *addr = DNS_ADDR;
 		if (port) *port = swap16(53);
 		return r;
@@ -208,7 +252,7 @@ static int sk_ioctl(lx_thread *t, lx_file *f, lx_u32 req, lx_u32 arg)
 		char tmp[1];
 		int n = 0;
 		if (!lx_uaccess(t, arg, 4)) return -LX_EFAULT;
-		if (s->dns) { dns_poll(s); n = s->dns_alen; }
+		if (s->dns) { dns_slot *d = dns_poll(s); n = d ? d->alen : 0; }
 		else if (s->bk && (bk_sock_poll(s->bk) & LX_POLLIN)) n = bk_sock_recv(s->bk, tmp, 1, 1) > 0 ? 1 : 0;
 		*(lx_s32 *)arg = n;
 		return 0;
@@ -222,7 +266,11 @@ static void sk_close(lx_file *f)
 {
 	sock *s = (sock *)f->priv;
 	if (s->bk) bk_sock_close(s->bk);
-	if (s->dns_req) bk_resolve_free(s->dns_req);
+	if (s->dq) {
+		int k;
+		for (k = 0; k < DNS_SLOTS; k++) dns_free(&s->dq[k]);
+		bk_free(s->dq);
+	}
 	if (s->pr) lx_file_put(s->pr);
 	if (s->pw) lx_file_put(s->pw);
 	bk_free(s);

@@ -435,7 +435,7 @@ loaded:
 	platform = push_str(&sp, dbt ? "v6l" : "v4l");
 	sp -= 16;
 	rnd = sp;
-	for (i = 0; i < 16; i++) ((lx_u8 *)rnd)[i] = (lx_u8)(bk_random() >> 16);
+	lx_rand_bytes((void *)rnd, 16);
 	uargv = (lx_u32 *)bk_alloc((argc + 1) * 4);
 	uenvp = (lx_u32 *)bk_alloc((envc + 1) * 4);
 	if (!uargv || !uenvp) { bk_free(uargv); bk_free(uenvp); bk_region_free(&stk); FREE_IMAGES(); return -LX_ENOMEM; }

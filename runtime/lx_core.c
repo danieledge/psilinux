@@ -585,6 +585,7 @@ void lx_retry_parked(void)
 
 void lx_k_event(void)
 {
+	lx_rand_event(1);
 	need_retry = 1;
 	if (!retrying && !in_call) lx_retry_parked();
 }
@@ -1879,9 +1880,8 @@ static int sys_prlimit(lx_thread *t, int res, lx_u32 newl, lx_u32 old)
 
 static int sys_getrandom(lx_thread *t, lx_u32 buf, lx_u32 len)
 {
-	lx_u32 i;
 	if (!lx_uaccess(t, buf, len)) return -LX_EFAULT;
-	for (i = 0; i < len; i++) ((lx_u8 *)buf)[i] = (lx_u8)(bk_random() >> 8);
+	lx_rand_bytes((void *)buf, len);
 	return (int)len;
 }
 

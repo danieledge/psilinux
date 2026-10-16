@@ -1,0 +1,12 @@
+#!/bin/sh
+# psilinux-seed - carries the kernel's random pool over from one session to
+# the next (as Alpine's seedrng does on a PC; a Psion has no hardware source
+# of randomness, so this is what makes ssh's keys hard to guess): the seed
+# saved last time goes back into /dev/urandom, and a new one is saved.
+# Run by psilinux-shell and the psilinux service at every start.
+S=/var/lib/psilinux/random-seed
+[ -s "$S" ] && cat "$S" > /dev/urandom
+mkdir -p /var/lib/psilinux
+umask 077
+head -c 64 /dev/urandom > "$S.new" && mv -f "$S.new" "$S"
+exit 0

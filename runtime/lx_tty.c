@@ -143,6 +143,7 @@ void lx_k_tty_input(lx_tty *t, const char *buf, int n)
 {
 	int i;
 	struct lx_termios *tio = &t->tio;
+	if (n > 0) lx_rand_event((lx_u32)(unsigned char)buf[0] | ((lx_u32)n << 8));   /* (when keys come: a little entropy) */
 	for (i = 0; i < n; i++) {
 		unsigned char c = (unsigned char)buf[i];
 		if (t->lnext) {

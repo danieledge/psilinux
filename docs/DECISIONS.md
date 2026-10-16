@@ -692,3 +692,62 @@ Alpine Linux's own armhf programs, unmodified, through a binary translator:
 - **Also found:** while PsiLinux runs, its root image is open and the
   installer stops with "In use": close PsiLinux first. In the emulator the
   installer keeps its records on C:.
+
+## 55. ssh's settings for a Psion: no sntrup761 (0.23)
+- **Found:** "ssh seems to hang" on the owner's 5mx. On the host harness
+  (qemu as an ARMv4T, every instruction of the kernel, the translator and
+  ssh counted from qemu's log) a key login is 167 million instructions with
+  ML-KEM (OpenSSH 10 servers), but **1,470 million with
+  sntrup761x25519-sha512**, OpenSSH 10's second choice and what every
+  OpenSSH 8.5 to 9.8 server (most in 2026) picks: about two minutes at the
+  5mx's 13 million translated instructions a second (the shell loop of
+  ALPINE.md's Speed table, 8.8 million instructions in 2.3 s in the
+  emulator, and the emulator 3 times slower than a 5mx). The test server
+  dropped the run under qemu's logging at its 2-minute login limit, as a
+  real server would. No system call was at fault: key and password logins,
+  the host key question on /dev/tty, raw mode, and poll on the socket and
+  the terminal all worked on the harness.
+- **Chosen:** `/etc/ssh/ssh_config.d/psilinux.conf`: KexAlgorithms ML-KEM,
+  curve25519 (141 million), ECDH P-256, DH group 14; no sntrup761, no DH
+  16/18 or group exchange (big modular powers); `WarnWeakCrypto no-pq-kex`
+  (else a warning at every login to an OpenSSH 9 server, caused by the line
+  before); `ObscureKeystrokeTiming no` (its 20 ms chaff tripled the packets
+  while typing); `UpdateHostKeys no` (it rewrites known_hosts with link(),
+  which PsiLinux's disks refuse); `ServerAliveInterval 60`. Ciphers and
+  host key types stay OpenSSH's (within 2% for a login).
+- **Alternatives:** keep sntrup761 for its post-quantum protection (two
+  minutes a login, and failures at servers' time limits); P-256 before
+  curve25519 (2 s quicker, but against the usual preference).
+- **Also measured:** ssh's start alone (OpenSSL's loading and relocation)
+  is 54 million; an RSA 3072 user key adds 195 million (ed25519 is
+  recommended); a second login costs as much as the first. With
+  `LX_DBT_SLOW=128` the harness now also counts unaligned accesses as an
+  ARM710T would meet them (a site's first unaligned access faults and
+  patches it, later ones go through the runtime): 61 sites and 35,000
+  accesses in a login, under a second.
+
+## 56. The DNS answerer keeps every question (0.23)
+- **Found:** musl sends the A and AAAA questions for a name together, on one
+  socket. The answerer kept one question per socket: the AAAA (answered at
+  once, empty) replaced the A, whose lookup was cancelled, and musl asked
+  again after 2.5 s. Every `ssh name` waited 2.5 s more; with a lookup over
+  a slow link taking longer than musl's remaining 2.5 s, the name failed.
+- **Chosen:** up to 4 questions a socket, each with its own lookup and
+  answer, read in the order asked; the same question again (musl's retry)
+  joins the lookup already running.
+
+## 57. Random numbers: ChaCha20, fed with events and a saved seed (0.23)
+- **Found:** getrandom, /dev/urandom and AT_RANDOM were EPOC's Math::Rand
+  (a linear congruential generator) seeded with the start time, so an
+  observer could work out ssh's session keys.
+- **Chosen:** `runtime/lx_rand.c`: ChaCha20 with fast key erasure. Folded
+  into the key before a request: the clocks, Math::Rand and the free memory
+  at the first; the time of every key typed and every network or timer
+  event; and whatever is written to /dev/urandom, as on Linux.
+  `/usr/sbin/psilinux-seed` (run by psilinux-shell and the psilinux service)
+  writes the seed saved last time back in and saves a new one
+  (`/var/lib/psilinux/random-seed`), so the pool carries over between
+  sessions. It never blocks.
+- **Limits:** a 5mx has no hardware source and a 1/64 s clock; the first
+  session after an install has little more than the clock and the key
+  timings. A fresh seed can be given with `cat FILE > /dev/urandom`.

@@ -3,7 +3,7 @@
 ; which runs the Linux programs (and translates Alpine's). The programs are in
 ; PsiLinux-root.sis (\Linux\ROOT.IMG) and PsiLinux-alpine-root.sis (\Linux\Alpine\).
 &EN
-#{"PsiLinux"},(0x01000A87),0,22,0
+#{"PsiLinux"},(0x01000A87),0,23,0
 "psilinux.app"-"!:\System\Apps\PsiLinux\PsiLinux.app"
 "psilinux.rsc"-"!:\System\Apps\PsiLinux\PsiLinux.rsc"
 "psilinux.mbm"-"!:\System\Apps\PsiLinux\PsiLinux.mbm"

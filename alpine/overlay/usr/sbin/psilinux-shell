@@ -3,6 +3,7 @@
 # bash, if it is installed and starts; otherwise BusyBox sh
 # (linux/docs/ALPINE.md, DECISIONS.md 49)
 /usr/sbin/psilinux-merge-db
+/usr/sbin/psilinux-seed
 cd "$HOME" 2>/dev/null
 if [ -x /bin/bash ] && /bin/bash -c : 2>/dev/null; then
 	SHELL=/bin/bash exec /bin/bash -l

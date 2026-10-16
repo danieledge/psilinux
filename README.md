@@ -462,6 +462,7 @@ linux/tools/lxbuild "linux/rootfs/build-rootfs.sh" # PsiLinux's own root
 linux/alpine/build-root.sh                         # the Alpine root
 linux/tools/lxbuild "linux/tests/run-host.sh"      # the test suites on the host harness
 linux/tools/lxbuild "linux/tests/run-alpine.sh"    # Alpine mode: shell tests under sh and bash, bash in a terminal, the memory reserve
+linux/tests/run-ssh.sh                             # ssh against a throwaway sshd in docker (run on the PC): key, password, host key question
 ```
 
 The kernel (`runtime/`) is portable C. Built with a different back end, it

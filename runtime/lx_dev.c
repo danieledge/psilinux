@@ -124,17 +124,17 @@ void lx_dev_list(lx_proc *p, lx_vn *v, void *dl)
 static int dv_read(lx_thread *t, lx_file *f, char *buf, lx_u32 n)
 {
 	int d = (int)(long)f->priv;
-	lx_u32 i;
 	(void)t;
 	if (d == D_NULL) return 0;
 	if (d == D_ZERO || d == D_FULL) { bk_memset(buf, 0, n); return (int)n; }
-	for (i = 0; i < n; i++) buf[i] = (char)(bk_random() >> 8);
+	lx_rand_bytes(buf, n);
 	return (int)n;
 }
 static int dv_write(lx_thread *t, lx_file *f, const char *buf, lx_u32 n)
 {
-	(void)t; (void)buf;
+	(void)t;
 	if ((int)(long)f->priv == D_FULL) return -LX_ENOSPC;
+	if ((int)(long)f->priv == D_RANDOM || (int)(long)f->priv == D_URANDOM) lx_rand_stir(buf, n);   /* (as Linux: a saved seed goes back in) */
 	return (int)n;
 }
 static int dv_pread(lx_thread *t, lx_file *f, char *buf, lx_u32 n, lx_s64 off) { (void)off; return dv_read(t, f, buf, n); }

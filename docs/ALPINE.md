@@ -1,6 +1,6 @@
 # Alpine mode
 
-PsiLinux 0.22 can run **Alpine Linux 3.24**: Alpine's own armhf programs,
+PsiLinux 0.23 can run **Alpine Linux 3.24**: Alpine's own armhf programs,
 unmodified, with Alpine's package manager and its whole catalogue. The shell
 is bash, and a set of useful (and some fun) programs comes ready to use.
 
@@ -13,7 +13,7 @@ PsiLinux translates them, a piece at a time, as they first run (DESIGN.md,
 
 | Installer | On | What |
 |---|---|---|
-| `PsiLinux.sis` | C: or D: | PsiLinux 0.22 (the window and the runner) |
+| `PsiLinux.sis` | C: or D: | PsiLinux 0.23 (the window and the runner) |
 | `PsiLinux-alpine-root.sis` and `PsiLinux-alpine-root-2.sis` to `-5.sis` | the Linux disk (D:) | Alpine 3.24.2 with bash and the programs below: 25.3 MB in all, in `\Linux\Alpine\` as ROOT.IMG and ROOT.I01 to ROOT.I24. Install all five (the first one first) |
 
 The Alpine root comes in five installers of at most 6.3 MB because the
@@ -95,7 +95,7 @@ beside bash.
 | tree | tree | 0.1 MB | 0.8 MB | yes | folders as a tree |
 | jq (oniguruma) | jq | 0.9 MB | 2.2 MB | yes | JSON |
 | bc | bc | 0.1 MB | 1.4 MB | yes | a calculator |
-| openssh-client | ssh, scp | 3.3 MB | 5.4 MB | yes | other computers; the largest that fits |
+| openssh-client | ssh, scp | 3.3 MB | 5.4 MB | yes | other computers; the largest that fits; a login takes about half a minute ("ssh", below) |
 | fortune | fortune | 3.3 MB | 0.8 MB | yes, fun | at login too |
 | figlet | figlet | 0.6 MB | 0.9 MB | yes, fun | big letters |
 | sl | sl | 13 KB | 1.2 MB | yes, fun | a steam train |
@@ -175,6 +175,75 @@ Before anything is downloaded, `apk add` says:
 With none of these, apk says "No package server set". No address is built in.
 `APK_DIRECT=1 apk add …` downloads from Alpine's mirror instead of the server
 (the catalogue still comes from the server).
+
+## ssh
+
+OpenSSH 10.3 (`ssh`, `scp`) is preinstalled. Expect **about half a minute
+for a login on a 5mx**, most of it before the first question (the host key,
+or the password), with nothing on the screen meanwhile:
+- about 13 s of processor work, the same for every login (the figures
+  below, at the 5mx's 13 million or so translated instructions a second);
+- reading ssh and OpenSSL (4.4 MB) from the card, the first time;
+- the network's round trips (a dozen, over the Psion's link).
+
+Measured on the host harness (`tests/run-ssh.sh`'s server, counting every
+instruction the 5mx would run: the kernel, the translator and ssh), for a
+key login and one command:
+
+| What | Instructions | On a 5mx |
+|---|---|---|
+| starting ssh (`ssh -V`: loading OpenSSL) | 54 million | 4 s |
+| a login, ed25519 key, ML-KEM (OpenSSH 10 servers) | 167 million | 13 s |
+| the same with curve25519 (OpenSSH 9 servers, with psilinux.conf) | 141 million | 11 s |
+| ... with ECDH P-256 | 113 million | 9 s |
+| ... with an ECDSA key instead of ed25519 | 185 million | 14 s |
+| ... with an RSA 3072 key | 356 million | 27 s |
+| sntrup761 (what OpenSSH 9 servers choose without psilinux.conf) | 1,470 million | about 2 minutes |
+| a second login in the same session | 170 million | 13 s |
+
+The cipher makes no difference to a login (chacha20-poly1305, AES-CTR or
+AES-GCM within 2%). The translation is a small part: the second login costs
+the same as the first, because each ssh starts again by loading OpenSSL.
+
+**Why "ssh hangs" in 0.22.** A server with OpenSSH 8.5 to 9.8 (most in 2026:
+Ubuntu 24.04, Debian 12, macOS 15) has no ML-KEM, and OpenSSH 10's next
+choice is sntrup761x25519, whose key generation is about 1.5 billion
+instructions here: two minutes of a blank screen, longer than many servers'
+login time limit (2 minutes), which then drop the connection.
+
+**psilinux.conf.** `/etc/ssh/ssh_config.d/psilinux.conf` (0.23) sets, for
+every host:
+- `KexAlgorithms mlkem768x25519-sha256,curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,diffie-hellman-group14-sha256`:
+  ML-KEM when the server has it, otherwise curve25519; never sntrup761;
+- `WarnWeakCrypto no-pq-kex`: no warning at each login that curve25519 is
+  not post-quantum (it is the price of the line above);
+- `ObscureKeystrokeTiming no`: keys are sent as typed. OpenSSH's standard
+  sends them at fixed 20 ms steps with fake ones after, which tripled the
+  packets while typing (16 keys: 12.3 KB sent, against 4.3 KB);
+- `UpdateHostKeys no`: learning a server's other host keys needs a hard
+  link, which the Psion's disks have not got (0.22 said "link ... Operation
+  not permitted" after a first login);
+- `ServerAliveInterval 60`, `ServerAliveCountMax 3`: a dead link is noticed.
+
+Your own settings go in `~/.ssh/config`, which is read first and so wins
+(`KexAlgorithms +sntrup761x25519-sha512` brings sntrup761 back). Use an
+ed25519 key (`ssh-keygen -t ed25519`): an RSA key adds about 15 s.
+
+**Also fixed in 0.23:**
+- a name lookup: musl asks for A and AAAA together on one socket, and the
+  kernel's DNS answerer kept only the last question, so the A answer was lost
+  and musl asked again after 2.5 s (every `ssh name`; on a slow link it could
+  fail). Each question now has its own lookup and answer (DECISIONS.md 56);
+- random numbers: getrandom and /dev/urandom were EPOC's Math::Rand, seeded
+  from the clock, which is guessable, and ssh's session keys come from them.
+  They are now a ChaCha20 generator fed with the times of keys and network
+  events and a seed kept between sessions (DECISIONS.md 57).
+
+The host harness test, `linux/tests/run-ssh.sh` (run on the PC, beside
+docker), starts a throwaway sshd (Alpine's OpenSSH, with a key and a random
+password made for that run) and checks a key login, a server without ML-KEM,
+and an interactive login by name: the first-connection question, the
+password, a command and exit.
 
 ## What runs: the compatibility table
 

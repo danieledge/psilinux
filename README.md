@@ -322,8 +322,13 @@ Download the installers from the
 | Installer | Install on | What |
 |---|---|---|
 | `PsiLinux.sis` | C: or D: | the app and the runner (about 400 KB) |
-| `PsiLinux-root.sis` | the Linux disk (D:) | PsiLinux's own programs: `\Linux\ROOT.IMG` (11.8 MB, of which git is 6 MB) |
-| `PsiLinux-alpine-root.sis` | the Linux disk (D:) | Alpine Linux 3.24.2 with bash and the programs above: `\Linux\Alpine\ROOT.IMG` (25.3 MB) |
+| `PsiLinux-root.sis`, `PsiLinux-root-2.sis` | the Linux disk (D:) | PsiLinux's own programs: `\Linux\ROOT.IMG` and its parts (11.8 MB, of which git is 6 MB) |
+| `PsiLinux-alpine-root.sis`, `-2.sis` … `-5.sis` | the Linux disk (D:) | Alpine Linux 3.24.2 with bash and the programs above: `\Linux\Alpine\ROOT.IMG` and its parts (25.3 MB) |
+
+The roots come in several installers of at most 6.3 MB, because the Psion's
+installer cannot open a very large `.sis`, whatever is in it (0.21's 25.9 MB
+one said "Not enough memory"). Install them all, the
+first one first, on the same disk.
 
 Install `PsiLinux.sis` and at least one root, in the usual way (copy the
 files to the Psion, then open them, or use PsiWin). If a `.sis` file sits on

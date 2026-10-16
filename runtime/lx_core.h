@@ -25,7 +25,7 @@
 extern "C" {
 #endif
 
-#define LX_VERSION "0.21"
+#define LX_VERSION "0.22"
 #define LX_MAXPROC 64
 #define LX_MAXTHREAD 64
 #define LX_MAXFD 128
@@ -441,6 +441,7 @@ int lx_mm_is_resident(lx_mm *mm);
 int lx_reserve_ok(lx_u32 grow);               /* may Linux take grow more bytes of RAM (the reserve)? */
 int lx_reserve_check(lx_u32 grow, int may_drop);
 lx_u32 lx_mem_avail(void);                    /* free RAM less the reserve */
+const char *lx_root_missing(void);            /* a part of the root image that is not there, or 0 */
 int lx_region_new(lx_region *r, lx_u32 size, int kind);   /* bk_region_new, within the reserve */
 void lx_mm_resident(lx_mm *mm);
 void lx_mm_write(lx_mm *mm, lx_u32 addr, const void *src, lx_u32 len);

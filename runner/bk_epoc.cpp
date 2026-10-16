@@ -1081,8 +1081,19 @@ static void RunL()
 	gTerm = new(ELeave) CLxTerm;
 	gTerm->ConstructL();
 	bk_log("starting %s", gSh->program);
-	int pid = lx_k_spawn_first(gSh->program, argv, envp, 0);
-	if (pid < 0 && lx_strcmp(gSh->program, "/usr/sbin/psilinux-shell") == 0)
+	int pid;
+	if (lx_root_missing())
+		{
+		// (a root image in parts, one of its .sis files not installed)
+		char why[150];
+		lx_snprintf(why, sizeof why, "The root image in %s is not complete: %s is missing. Install all its .sis files (part 1, part 2...) on that disk", gSh->root, lx_root_missing());
+		bk_log("%s", why);
+		Fail(why);
+		pid = -1;
+		}
+	else
+		pid = lx_k_spawn_first(gSh->program, argv, envp, 0);
+	if (pid < 0 && !lx_root_missing() && lx_strcmp(gSh->program, "/usr/sbin/psilinux-shell") == 0)
 		{
 		// (an Alpine root from before 0.21: no psilinux-shell, so sh)
 		static char sh[] = "/bin/sh", dashl[] = "-l";
@@ -1090,7 +1101,9 @@ static void RunL()
 		bk_log("no %s: starting /bin/sh", gSh->program);
 		pid = lx_k_spawn_first(sh, shargv, envp, 0);
 		}
-	if (pid < 0)
+	if (pid < 0 && lx_root_missing())
+		;                                    // (said above)
+	else if (pid < 0)
 		{
 		char why[120];
 		lx_snprintf(why, sizeof why, "Could not start %s (error %d): is the Linux root image in %sROOT.IMG?", gSh->program, -pid, gSh->root);

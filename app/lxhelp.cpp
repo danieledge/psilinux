@@ -49,7 +49,8 @@ static const TLxHelpTopic KHelpTopics[] =
 	  "fastfetch (tetris and robots need Preferences > Screen > Text size > Smallest). apk adds "
 	  "more. A program's first run is slow while it is translated.\n"
 	  "\n"
-	  "Alpine needs PsiLinux-alpine-root.sis, installed on the Linux disk: it goes in "
+	  "Alpine needs PsiLinux-alpine-root.sis and its parts -2 to -5, all installed on the Linux disk, "
+	  "the first one first: they go in "
 	  "\\Linux\\Alpine\\, and your changes in \\Linux\\Alpine\\root\\. Without it, PsiLinux "
 	  "says so and starts its own programs.\n"
 	  "\n"
@@ -70,7 +71,7 @@ static const TLxHelpTopic KHelpTopics[] =
 	  "5mx has.\n"
 	  "\n"
 	  "The package server is the proxy in Connection settings (PsiTerm, PsiMail or PsiWeb), when it "
-	  "is on and is a PsiProxy, else the dev box set in PsiInstall (Tools > Dev box...). To use another, set it in /etc/psilinux/apk.conf, for example "
+	  "is on and is a PsiProxy. To use another, set it in /etc/psilinux/apk.conf, for example "
 	  "APK_SERVER=http://192.168.1.10:8081 (nano /etc/psilinux/apk.conf)." },
 
 	{ "The terminal",

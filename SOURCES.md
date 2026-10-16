@@ -18,7 +18,8 @@ beside the images (see "Source archives" below).
 
 ## PsiLinux-root.sis: PsiLinux's own programs
 
-`\Linux\ROOT.IMG`. Every program was built from the unmodified upstream
+`\Linux\ROOT.IMG` and its parts (in `PsiLinux-root.sis` and
+`PsiLinux-root-2.sis`). Every program was built from the unmodified upstream
 release below (musl has one patch), with the PsiLinux toolchain, by the
 scripts in this repository. Those scripts, the patch and the configuration,
 together with the upstream archives, are the complete corresponding source.
@@ -47,9 +48,10 @@ only to compile, and are not in the image.
 
 To rebuild the image from this source: [docs/BUILDING.md](docs/BUILDING.md).
 
-## PsiLinux-alpine-root.sis: Alpine Linux 3.24.2
+## PsiLinux-alpine-root.sis (and -2 to -5): Alpine Linux 3.24.2
 
-`\Linux\Alpine\ROOT.IMG`. This is Alpine Linux's armhf minirootfs
+`\Linux\Alpine\ROOT.IMG` and its parts (ROOT.I01...: one image cut into
+1 MB pieces, DECISIONS.md 54). This is Alpine Linux's armhf minirootfs
 (`alpine-minirootfs-3.24.2-armhf.tar.gz`, pinned by sha256 in
 `alpine/build-root.sh`) with OpenRC added, all from Alpine's own signed
 binary packages, **unmodified**. PsiLinux adds only its own small files

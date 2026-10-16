@@ -1,6 +1,6 @@
 # Alpine mode
 
-PsiLinux 0.21 can run **Alpine Linux 3.24**: Alpine's own armhf programs,
+PsiLinux 0.22 can run **Alpine Linux 3.24**: Alpine's own armhf programs,
 unmodified, with Alpine's package manager and its whole catalogue. The shell
 is bash, and a set of useful (and some fun) programs comes ready to use.
 
@@ -13,8 +13,14 @@ PsiLinux translates them, a piece at a time, as they first run (DESIGN.md,
 
 | Installer | On | What |
 |---|---|---|
-| `PsiLinux.sis` | C: or D: | PsiLinux 0.21 (the window and the runner) |
-| `PsiLinux-alpine-root.sis` | the Linux disk (D:) | Alpine 3.24.2 with bash and the programs below: `\Linux\Alpine\ROOT.IMG`, 25.3 MB (the installer is 25.9 MB; 0.20's was 7.9 MB) |
+| `PsiLinux.sis` | C: or D: | PsiLinux 0.22 (the window and the runner) |
+| `PsiLinux-alpine-root.sis` and `PsiLinux-alpine-root-2.sis` to `-5.sis` | the Linux disk (D:) | Alpine 3.24.2 with bash and the programs below: 25.3 MB in all, in `\Linux\Alpine\` as ROOT.IMG and ROOT.I01 to ROOT.I24. Install all five (the first one first) |
+
+The Alpine root comes in five installers of at most 6.3 MB because the
+Psion's installer cannot open a very large .sis, whatever is in it: 0.21's
+single 25.9 MB one failed with "Not enough memory" (DECISIONS.md 54).
+Close PsiLinux before installing a new root: while Linux runs the image is
+open, and the installer says "In use".
 | `PsiLinux-root.sis` | the Linux disk | PsiLinux's own programs (optional) |
 
 The Linux disk is D: unless Tools > Linux disk… says C:. What you change in
@@ -163,7 +169,7 @@ Before anything is downloaded, `apk add` says:
 2. the proxy in the Psion's Connection settings (PsiTerm, PsiMail or
    PsiWeb), if it is on and is a PsiProxy. The Atom modem's own proxy
    (192.168.7.1, "psiproxy") is not a package server;
-3. the dev box set in PsiInstall's Tools > Dev box… (`PsiDevBox.ini`), which
+3. the dev box in `C:\System\Data\PsiDevBox.ini`, if a developer tool has set one, which
    is a PsiProxy.
 
 With none of these, apk says "No package server set". No address is built in.

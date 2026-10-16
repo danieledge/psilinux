@@ -89,4 +89,5 @@ grep -q '^klogd:' "$S/etc/passwd" || echo 'klogd:x:100:101:klogd:/dev/null:/sbin
 grep -q '^klogd:' "$S/etc/group" || echo 'klogd:x:101:klogd' >> "$S/etc/group"
 # /c and /d are the Psion's disks (mounted by the kernel)
 mkdir -p "$S/c" "$S/d"
-python3 "$REPO/linux/tools/mkroot.py" "$S" "$OUT/ROOT.IMG"
+# in parts of 1 MB: the EPOC installer cannot take one 25 MB file (DECISIONS.md 54)
+python3 "$REPO/linux/tools/mkroot.py" "$S" "$OUT/ROOT.IMG" --parts 1024

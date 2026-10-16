@@ -26,7 +26,7 @@
 #include <psilinux.rsg>
 
 const TUid KUidPsiLinux = { 0x01000A87 };
-_LIT(KLxVersion, "0.21");
+_LIT(KLxVersion, "0.22");
 _LIT(KIniFile, "C:\\System\\Apps\\PsiLinux\\PsiLinux.ini");
 
 // ---------------------------------------------------------------------------

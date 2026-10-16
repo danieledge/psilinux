@@ -12,7 +12,10 @@ REPO=$(cd "$(dirname "$0")/../.." && pwd)
 make -C "$REPO/linux/runtime" host > /dev/null
 cd "$REPO/build/linux"
 R=alpine-test
-fresh() { rm -rf $R; mkdir -p $R; ln "$REPO/build/alpine-root/ROOT.IMG" $R/ROOT.IMG 2>/dev/null || cp "$REPO/build/alpine-root/ROOT.IMG" $R/; }
+fresh() {   # (the image and its parts: ROOT.I01...)
+	rm -rf $R; mkdir -p $R
+	for f in "$REPO"/build/alpine-root/ROOT.I*; do ln "$f" $R/ 2>/dev/null || cp "$f" $R/; done
+}
 fail=0
 run() {   # name, then the program and its arguments
 	local n=$1; shift

@@ -646,3 +646,49 @@ Alpine Linux's own armhf programs, unmodified, through a binary translator:
   (symbolic links in the build container) with `-ffile-prefix-map`, so no
   build folder is in a program (git and jq keep their build flags; SQLite
   its file names). Both images are checked for "172.24." and "/home/".
+
+## 54. Root images in parts, and in several .sis files (0.22)
+- **Found:** on the owner's 5mx, 0.21's `PsiLinux-alpine-root.sis` (25.9 MB,
+  one 25.3 MB ROOT.IMG) failed with "Not enough memory"; 0.20's 7.9 MB one
+  installed. ER5's .sis files hold their files uncompressed (the records
+  checked: an EPOC program starts with its own header, not zlib's), so
+  compression is not the cause. In the emulator (about 8.7 MB free) the
+  installer opened a 6.3 MB .sis in 86 s, an 8 MB one in 111 s and a
+  12.9 MB one (one file) in 176 s, but never a 25.9 MB one in 1,000 s,
+  **whether that .sis held one 25 MB file or 25 files of 1 MB**. So what
+  matters is the size of the whole .sis as the installer opens it, not of
+  the files in it: cutting the image into files inside one .sis is not
+  enough. (The limit is somewhere between 13 and 26 MB; 0.20's 7.9 MB
+  .sis is known to install on a 5mx.)
+- **Chosen:**
+  - mkroot.py `--parts 1024` cuts an image into 1 MB parts: ROOT.IMG (the
+    header, now with the part size and count at 32, the index, and the
+    first data), then ROOT.I01, ROOT.I02... The runner (`lx_root.c`
+    `img_read`) reads across them, opening parts as needed and keeping 3
+    open besides ROOT.IMG. An image with no part count (0.20, 0.21) reads
+    as one file, as before. A missing part stops the start with "The root
+    image ... is not complete: ROOT.Inn is missing".
+  - The parts go in .sis files of at most 6 MB (`tools/sisparts.py`):
+    `PsiLinux-alpine-root.sis` (ROOT.IMG and the first parts, UID
+    0x01000A8B) and `-2` to `-5` (UIDs 0x01000A8C to 0x01000A8F, each
+    needing the first); `PsiLinux-root.sis` and `-2` (0x01000A88,
+    0x01000A90). 6 MB is below what a 5mx is known to take (0.20's 7.9 MB).
+  - Installed over 0.20 or 0.21 (the same UID, a newer version), the
+    installer removes the old single ROOT.IMG with the old version, and
+    ROOT.IMG is then the new first part: nothing is left behind.
+    `\Linux\Alpine\root\` is not the installer's, so it is kept.
+- **Alternatives:** one .sis of many small files (fails as above); a
+  download-and-unpack step in PsiLinux (needs the network, and the space
+  twice).
+- **Tested:** host harness: all 500 files of the Alpine image read through
+  the 25 parts match the build byte for byte; the suites pass on split
+  images; a 0.20 single image still reads. Emulator: the installer put
+  part 1 (6.3 MB) over an old single ROOT.IMG (now the 1 MB first part,
+  with ROOT.I01 to I05) and kept `root\`; part 3 alone was refused with
+  "Missing dependency" (the requisite works); with all 25 parts on the card
+  "shell only" started bash (bash's checksum right); with ROOT.I12 taken
+  away, the window said which part was missing. The emulator's card stalls
+  on long writes, so a whole five-part install did not finish in one run.
+- **Also found:** while PsiLinux runs, its root image is open and the
+  installer stops with "In use": close PsiLinux first. In the emulator the
+  installer keeps its records on C:.

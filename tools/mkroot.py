@@ -2,7 +2,11 @@
 """mkroot.py - packs a folder into ROOT.IMG, PsiLinux's read-only root
 file system (the format is described in linux/runtime/lx_root.c).
 
-    mkroot.py STAGING_DIR OUT.IMG [--owner-mode]
+    mkroot.py STAGING_DIR OUT.IMG [--owner-mode] [--parts KB]
+
+--parts KB cuts the image into parts of KB kilobytes: OUT.IMG is the first
+(with the header, which records the part size and count), then OUT.I01,
+OUT.I02... (the EPOC installer cannot take one very large file: 0.22).
 
 Symbolic links and modes are kept; owners are not (everything is root's).
 Children of a folder are stored together, sorted by name (bytes), so the
@@ -77,6 +81,21 @@ def main():
     while len(body) < doff:
         body.append(0)
     body += data
+    base = out[:-4] if out.upper().endswith('.IMG') else out
+    for old in __import__('glob').glob(base + '.I[0-9][0-9]'):
+        os.remove(old)                     # (parts of an earlier build)
+    part = int(sys.argv[sys.argv.index('--parts') + 1]) * 1024 if '--parts' in sys.argv else 0
+    if part and len(body) > part:
+        nparts = (len(body) + part - 1) // part
+        if nparts > 99:
+            sys.exit('mkroot.py: more than 99 parts: make them bigger')
+        body[32:40] = struct.pack('<II', part, nparts)
+        for k in range(nparts):
+            name = out if k == 0 else '%s.I%02d' % (base, k)
+            with open(name, 'wb') as f:
+                f.write(body[k * part:(k + 1) * part])
+        print('%s: %d entries, %d KB, in %d parts of %d KB' % (out, n, len(body) // 1024, nparts, part // 1024))
+        return
     with open(out, 'wb') as f:
         f.write(body)
     print('%s: %d entries, %d KB' % (out, n, len(body) // 1024))

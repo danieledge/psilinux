@@ -13,7 +13,12 @@
  * ROOT.IMG, version 1 (little-endian):
  *   0   "LXROOT01"
  *   8   u32 entry count, u32 entries offset, u32 names offset, u32 names size
- *   24  u32 flags, u32 build time, then zeros to 64
+ *   24  u32 flags, u32 build time
+ *   32  u32 part size, u32 part count (0, 0: one file), then zeros to 64
+ *   A split image (0.22: the EPOC installer cannot take one 25 MB file) is
+ *   the same bytes cut into parts of the part size: ROOT.IMG holds the
+ *   first (with this header and the index), ROOT.I01, ROOT.I02... the rest.
+ *   Parts are opened when they are read, and a few kept open (img_read).
  *   entries, 32 bytes each: parent, name (offset in names), mode, size,
  *       data (file: offset in ROOT.IMG; link: offset of the target in names),
  *       mtime (seconds), first child, child count
@@ -26,6 +31,55 @@ typedef struct img_ent {
 } img_ent;
 
 static void *img_h;                     /* ROOT.IMG, open */
+static lx_u32 part_size, nparts;        /* a split image (0: one file) */
+#define PART_OPEN 3                     /* parts other than ROOT.IMG kept open */
+static struct { int part; void *h; lx_u32 used; } part_open[PART_OPEN];
+static lx_u32 part_clock;
+static char missing[16];                /* a part that is not there ("" if none) */
+
+/* the name of a part of the root image that is missing, or 0 */
+const char *lx_root_missing(void) { return missing[0] ? missing : 0; }
+
+/* the open part k (1..nparts-1), opening it (and closing the least used) */
+static void *part_handle(int k)
+{
+	char path[LX_PATH_MAX], name[16];
+	int i, victim = 0, err;
+	for (i = 0; i < PART_OPEN; i++)
+		if (part_open[i].h && part_open[i].part == k) { part_open[i].used = ++part_clock; return part_open[i].h; }
+	for (i = 0; i < PART_OPEN; i++) {
+		if (!part_open[i].h) { victim = i; break; }
+		if (part_open[i].used < part_open[victim].used) victim = i;
+	}
+	if (part_open[victim].h) bk_file_close(part_open[victim].h);
+	part_open[victim].h = 0;
+	lx_snprintf(name, sizeof name, "ROOT.I%02d", k);
+	lx_native_join(path, sizeof path, lx_k.root_native, name);
+	part_open[victim].h = bk_file_open(path, LX_O_RDONLY, &err);
+	if (!part_open[victim].h) { bk_log("root image: no %s (%d)", path, err); return 0; }
+	part_open[victim].part = k;
+	part_open[victim].used = ++part_clock;
+	return part_open[victim].h;
+}
+
+/* reads n bytes at off of the image, whole or split; the bytes read */
+static int img_read(lx_u32 off, char *buf, lx_u32 n)
+{
+	lx_u32 done = 0;
+	if (!part_size) return bk_file_read(img_h, off, buf, n);
+	while (done < n) {
+		lx_u32 at = off + done, k = at / part_size, in = at % part_size, take = part_size - in;
+		void *h = k ? (k < nparts ? part_handle((int)k) : 0) : img_h;
+		int r;
+		if (take > n - done) take = n - done;
+		if (!h) break;
+		r = bk_file_read(h, in, buf + done, take);
+		if (r <= 0) break;
+		done += (lx_u32)r;
+		if ((lx_u32)r < take) break;
+	}
+	return done || !n ? (int)done : -LX_EIO;
+}
 static img_ent *ents;
 static lx_u32 nents;
 static char *names;
@@ -51,11 +105,27 @@ void lx_root_init(void)
 	bk_memcpy(&eoff, hdr + 12, 4);
 	bk_memcpy(&noff, hdr + 16, 4);
 	bk_memcpy(&names_size, hdr + 20, 4);
+	bk_memcpy(&part_size, hdr + 32, 4);
+	bk_memcpy(&nparts, hdr + 36, 4);
+	if (!part_size || nparts < 2) part_size = nparts = 0;
+	else {
+		/* every part must be there (each .sis of the root brings some) */
+		lx_u32 k;
+		bk_log("root image: %u parts of %u KB", nparts, part_size / 1024);
+		for (k = 1; k < nparts && !missing[0]; k++) {
+			char p[LX_PATH_MAX];
+			bk_stat st;
+			lx_snprintf(missing, sizeof missing, "ROOT.I%02u", k);
+			lx_native_join(p, sizeof p, lx_k.root_native, missing);
+			if (bk_stat_path(p, &st) == 0) missing[0] = 0;
+			else bk_log("root image: %s is missing", p);
+		}
+	}
 	ents = (img_ent *)bk_alloc(nents * sizeof(img_ent));
 	names = (char *)bk_alloc(names_size + 1);
 	if (!ents || !names ||
-	    bk_file_read(img_h, eoff, (char *)ents, nents * sizeof(img_ent)) != (int)(nents * sizeof(img_ent)) ||
-	    bk_file_read(img_h, noff, names, names_size) != (int)names_size) {
+	    img_read(eoff, (char *)ents, nents * sizeof(img_ent)) != (int)(nents * sizeof(img_ent)) ||
+	    img_read(noff, names, names_size) != (int)names_size) {
 		bk_log("cannot read the root image");
 		bk_free(ents); bk_free(names); ents = 0; nents = 0;
 		bk_file_close(img_h); img_h = 0; return;
@@ -426,7 +496,7 @@ static int rf_pread(lx_thread *t, lx_file *f, char *buf, lx_u32 n, lx_s64 off)
 	(void)t;
 	if (off >= r->size) return 0;
 	if (off + n > r->size) n = (lx_u32)(r->size - off);
-	return bk_file_read(img_h, r->data + off, buf, n);
+	return img_read(r->data + off, buf, n);
 }
 
 static int rf_read(lx_thread *t, lx_file *f, char *buf, lx_u32 n)
@@ -508,7 +578,7 @@ static int copy_up(lx_vn *v)
 	if (!buf) { bk_file_close(h); return -LX_ENOMEM; }
 	while (off < e->size) {
 		lx_u32 n = e->size - off > 4096 ? 4096 : e->size - off;
-		r = bk_file_read(img_h, e->data + off, buf, n);
+		r = img_read(e->data + off, buf, n);
 		if (r <= 0) { r = -LX_EIO; break; }
 		r = bk_file_write(h, off, buf, r);
 		if (r <= 0) { r = -LX_ENOSPC; break; }

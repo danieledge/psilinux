@@ -82,7 +82,7 @@ image() {
 	cp "$REPO"/linux/tests/*.sh "$STAGE/usr/lib/psilinux/tests/" 2>/dev/null || true
 	chmod 755 "$STAGE"/usr/lib/psilinux/tests/*
 	ln -sf ../lib/psilinux/tests/hello "$STAGE/usr/bin/hello"
-	python3 "$REPO/linux/tools/mkroot.py" "$STAGE" "$OUT/ROOT.IMG"
+	python3 "$REPO/linux/tools/mkroot.py" "$STAGE" "$OUT/ROOT.IMG" --parts 1024    # (in parts: DECISIONS.md 54)
 }
 
 case "$what" in

@@ -1,6 +1,6 @@
-# Testing Alpine mode on a real 5mx (PsiLinux 0.21)
+# Testing Alpine mode on a real 5mx (PsiLinux 0.22)
 
-PsiLinux 0.21 runs Alpine Linux 3.24 on the 5mx through PsiLinux's
+PsiLinux 0.22 runs Alpine Linux 3.24 on the 5mx through PsiLinux's
 translator, with bash as the shell and a set of programs ready to use. Two things can only be learnt on the real
 machine: how the ARM710T handles unaligned accesses and freshly written code
 (the probe), and how fast and how stable Alpine is.
@@ -15,17 +15,21 @@ All are on the Releases page of github.com/danieledge/psilinux (the test builds 
 | File | Size | Install on | What it is |
 |---|---|---|---|
 | `LxProbe-test.sis` | 25 KB | C: | The hardware probe (a test program) |
-| `PsiLinux.sis` | 400 KB | C: | PsiLinux 0.21 with Alpine mode |
-| `PsiLinux-alpine-root.sis` | 25.9 MB | **D:** | Alpine Linux 3.24.2 with bash and the programs (`D:\Linux\Alpine\ROOT.IMG`, 25.3 MB) |
-| `PsiLinux-root.sis` | 11.8 MB | D: | PsiLinux's own programs. Optional: only for the "PsiLinux" start mode. |
+| `PsiLinux.sis` | 400 KB | C: | PsiLinux 0.22 with Alpine mode |
+| `PsiLinux-alpine-root.sis`, then `-2.sis`, `-3.sis`, `-4.sis`, `-5.sis` | 6.3 MB each (the last 0.8 MB) | **D:** | Alpine Linux 3.24.2 with bash and the programs, in parts (`D:\Linux\Alpine\ROOT.IMG`, `ROOT.I01`...: 25.3 MB). Install all five, the first one first, all on D: |
+| `PsiLinux-root.sis`, then `PsiLinux-root-2.sis` | 6.3 and 5.5 MB | D: | PsiLinux's own programs. Optional: only for the "PsiLinux" start mode. |
 
 - The Alpine root must be on the disk PsiLinux uses. That is D:, unless
   Tools > Linux disk… says C:.
-- If the `.sis` file itself is on D:, the card needs room for both: about
-  52 MB free for the Alpine root. Delete the `.sis` after installing.
+- Each `.sis` is at most 6.3 MB, because the installer cannot open a very
+  large `.sis` (0.21's 25.9 MB one said "Not enough memory"). If one still says that, close other programs and try again.
+- **Close PsiLinux first** (File > Close): while Linux runs, the root image
+  is open, and the installer stops with "In use".
+- If a part is missing, PsiLinux says which (`ROOT.Inn is missing`) when
+  Alpine starts: install that part.
 - Leave a few MB free on D: for the tests in step 6.
-- 0.21 installs over 0.19 and 0.20 (PsiLinux and the Alpine root). Your
-  changes in `D:\Linux\Alpine\root\` are kept.
+- 0.22 installs over 0.19, 0.20 and 0.21. The old single ROOT.IMG is
+  replaced, and your changes in `D:\Linux\Alpine\root\` are kept.
 
 ## 2. The probe (please do this first)
 

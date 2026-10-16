@@ -361,7 +361,7 @@ void CLxTermView::StartLinuxL()
 			img8.Copy(img.Left(Min(img.Length(), 64)));
 			msg.Copy(_L8("[Alpine Linux is not installed: there is no "));
 			msg.Append(img8);
-			msg.Append(_L8(". Install PsiLinux-alpine-root.sis on that disk. Starting PsiLinux]\r\n"));
+			msg.Append(_L8(". Install PsiLinux-alpine-root.sis and its parts on that disk. Starting PsiLinux]\r\n"));
 			LocalMessage(msg);
 			alpine = EFalse;
 			}

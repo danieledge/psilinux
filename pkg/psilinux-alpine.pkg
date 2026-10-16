@@ -1,8 +1,10 @@
 ; PsiLinux Alpine root: Alpine Linux 3.24 (armhf) for PsiLinux's Alpine mode,
-; as one image (ROOT.IMG), for \Linux\Alpine\ on the disk chosen at install.
+; as one image in 1 MB parts (ROOT.IMG, ROOT.I01...), for \Linux\Alpine\ on the disk
+; chosen at install. This .sis has the first parts; PsiLinux-alpine-root-2.sis
+; and on have the rest (tools/sisparts.py: DECISIONS.md 54).
 ; It must be the disk PsiLinux uses (Preferences: Disk; D: if there is a card).
 ; Changes made in Linux (packages added with apk) go beside it, in
 ; \Linux\Alpine\root\, and are kept.
 &EN
-#{"PsiLinux Alpine root"},(0x01000A8B),3,25,0
+#{"PsiLinux Alpine root"},(0x01000A8B),3,26,0
 "ROOT.IMG"-"!:\Linux\Alpine\ROOT.IMG"

@@ -46,21 +46,33 @@ if [ "$1" = sis ]; then
 	cp "$HERE/runtime/softfloat/COPYING.txt" "$P/softfloat-licence.txt"     # (the translator's VFP)
 	( cd "$P" && wine "$EPOCROOT/epoc32/tools/makesis.exe" psilinux.pkg "$TOP/dist/PsiLinux.sis" > /dev/null )
 	ls -la "$TOP/dist/PsiLinux.sis"
+	# The roots, in parts (DECISIONS.md 54): the EPOC installer cannot open a
+	# very large .sis, whatever is in it, so each image goes in .sis files of at most 6 MB:
+	# NAME.sis (with ROOT.IMG), then NAME-2.sis, NAME-3.sis...
+	#   rootsis DIR MAIN.pkg TARGET UIDS OUTNAME
+	rootsis() {
+		local dir=$1 tmpl=$2 target=$3 uids=$4 name=$5 k pkg out
+		rm -f "$TOP/dist/$name.sis" "$TOP/dist/$name"-[0-9].sis "$dir"/part[0-9]*.pkg
+		cp "$tmpl" "$dir/main.pkg"
+		python3 "$HERE/tools/sisparts.py" "$dir" "$dir/main.pkg" "$target" "$uids" > /dev/null
+		for pkg in "$dir"/part[0-9]*.pkg; do
+			k=${pkg##*/part}; k=${k%.pkg}
+			out=$name.sis; [ "$k" = 1 ] || out=$name-$k.sis
+			( cd "$dir" && wine "$EPOCROOT/epoc32/tools/makesis.exe" "${pkg##*/}" "$TOP/dist/$out" > /dev/null )
+			ls -la "$TOP/dist/$out"
+		done
+	}
 	# the programs: ROOT.IMG (linux/rootfs/build-rootfs.sh makes it)
 	R=$TOP/build/psilinux-root
 	if [ -f "$R/ROOT.IMG" ]; then
-		cp "$HERE/pkg/psilinux-root.pkg" "$R/"
-		( cd "$R" && wine "$EPOCROOT/epoc32/tools/makesis.exe" psilinux-root.pkg "$TOP/dist/PsiLinux-root.sis" > /dev/null )
-		ls -la "$TOP/dist/PsiLinux-root.sis"
+		rootsis "$R" "$HERE/pkg/psilinux-root.pkg" '!:\Linux\' 0x01000A90 PsiLinux-root
 	else
 		echo "(no ROOT.IMG yet: run linux/rootfs/build-rootfs.sh in psilinux-build for PsiLinux-root.sis)"
 	fi
 	# Alpine mode's root: build/alpine-root/ROOT.IMG (linux/alpine/build-root.sh)
 	A=$TOP/build/alpine-root
 	if [ -f "$A/ROOT.IMG" ]; then
-		cp "$HERE/pkg/psilinux-alpine.pkg" "$A/"
-		( cd "$A" && wine "$EPOCROOT/epoc32/tools/makesis.exe" psilinux-alpine.pkg "$TOP/dist/PsiLinux-alpine-root.sis" > /dev/null )
-		ls -la "$TOP/dist/PsiLinux-alpine-root.sis"
+		rootsis "$A" "$HERE/pkg/psilinux-alpine.pkg" '!:\Linux\Alpine\' 0x01000A8C,0x01000A8D,0x01000A8E,0x01000A8F PsiLinux-alpine-root
 	else
 		echo "(no Alpine ROOT.IMG yet: run linux/alpine/build-root.sh for PsiLinux-alpine-root.sis)"
 	fi

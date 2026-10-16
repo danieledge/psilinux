@@ -2,6 +2,8 @@
 
 **Modern Linux on a 1999 Psion Series 5mx.**
 
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-support-FFDD00?logo=buymeacoffee&logoColor=000)](https://buymeacoffee.com/danedge)
+
 PsiLinux runs real Linux programs on a Psion Series 5mx: a 36 MHz ARM710T
 with 16 MB of RAM, no floating-point unit, and an operating system (EPOC
 Release 5) that has never heard of Linux. There is no Linux kernel. PsiLinux
@@ -31,6 +33,7 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 - [Using it](#using-it)
 - [Building and testing](#building-and-testing)
 - [Documents](#documents)
+- [Support](#support)
 - [Credits and licences](#credits-and-licences)
 
 ## Screenshots
@@ -481,6 +484,11 @@ SDK, the emulator, the package helper and making a release.
 - [docs/TEST-5MX.md](docs/TEST-5MX.md): a test sheet for a real 5mx.
 - [SOURCES.md](SOURCES.md): the Linux programs in the images, and their
   source.
+
+## Support
+
+If PsiLinux puts a smile on your Psion and you'd like to say thanks,
+you can [buy me a coffee](https://buymeacoffee.com/danedge).
 
 ## Credits and licences
 

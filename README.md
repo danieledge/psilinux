@@ -21,6 +21,7 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 
 ## Contents
 
+- [Screenshots](#screenshots)
 - [What it is](#what-it-is)
 - [What is new about it](#what-is-new-about-it)
 - [How it works](#how-it-works)
@@ -31,6 +32,25 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 - [Building and testing](#building-and-testing)
 - [Documents](#documents)
 - [Credits and licences](#credits-and-licences)
+
+## Screenshots
+
+All from the 5mx emulator, at the Psion's own 640x240 in 16 greys. The
+right-hand toolbar and the status line (the program in front, memory in use,
+memory free) are PsiLinux's own.
+
+| | |
+|---|---|
+| ![fastfetch: "CPU: Psion Series 5mx", 16 MiB of memory](docs/img/fastfetch.png) | ![sl: the steam train, for when you mistype ls](docs/img/sl.png) |
+| **fastfetch** knows where it is. | **sl**, the steam locomotive. |
+| ![cmatrix: falling characters across the whole screen](docs/img/cmatrix.png) | ![cbonsai growing a bonsai tree](docs/img/cbonsai.png) |
+| **cmatrix**, in 16 greys. | **cbonsai** grows a tree. |
+| ![The BSD game worm](docs/img/worm.png) | ![GNU nano 9.2 editing a file](docs/img/nano.png) |
+| **worm**, one of the BSD games. | **nano**, the standard editor. |
+| ![htop's meters](docs/img/htop.png) | ![bash, free and /proc/psilinux/mem](docs/img/bash-memory.png) |
+| **htop**'s meters. | **bash**, with what is left of 16 MB. |
+| ![figlet, ssh -V and free](docs/img/figlet-ssh.png) | ![Alpine's translator figures](docs/img/alpine-dbt.png) |
+| **figlet**, and OpenSSH 10.3. | The translator's own figures. |
 
 ## What it is
 

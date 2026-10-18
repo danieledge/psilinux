@@ -12,16 +12,18 @@ Docker.
 
 ## Where it sits
 
-PsiLinux shares its terminal (libvterm, the glyphs, the font) and its build
-environment with [PsiTerm](https://github.com/danieledge/psiterm). So this
-repository is checked out **as the `linux/` folder of a psiterm checkout**,
-and the EPOC SDK sits beside psiterm:
+PsiLinux shares the suite's common code and build environment,
+[psion-core](https://github.com/danieledge/psion-core), as the git submodule
+`core/`, and its terminal (libvterm, the glyphs, the scroll bar) with
+[PsiTerm](https://github.com/danieledge/psiterm), which is checked out
+**beside** this repository. The EPOC SDK sits beside them:
 
 ```
 work/
   psion_cpp_sdk_linux/       the EPOC R5 SDK (static-void/psion_cpp_sdk_linux @ 7763ee8)
-  psiterm/                   github.com/danieledge/psiterm (dev branch)
-    linux/                   this repository
+  psiterm/                   github.com/danieledge/psiterm (dev branch), for the terminal
+  psilinux/                  this repository
+    core/                    psion-core, the submodule
     build/  dist/            what the builds make (both halves write here)
   psilinux-toolchain/        made by "lxbuild toolchain"
   psilinux-src/              downloaded sources, checked by sha256
@@ -33,33 +35,35 @@ mkdir work && cd work
 git clone https://github.com/static-void/psion_cpp_sdk_linux
 git -C psion_cpp_sdk_linux checkout 7763ee8
 git clone -b dev https://github.com/danieledge/psiterm
-git clone https://github.com/danieledge/psilinux psiterm/linux
-cd psiterm
+git clone --recurse-submodules https://github.com/danieledge/psilinux
+cd psilinux
 ```
 
-psiterm's own `.gitignore` ignores `/linux/`, so the two repositories do not
-see each other's files. The SDK is never committed to either.
+`PSITERM` points `build.sh` at a psiterm checkout elsewhere; `PSION_CORE`
+at a psion-core checkout that is not the submodule. The SDK is never
+committed to any of them.
 
-What the EPOC side takes from psiterm:
+What the EPOC side takes from them:
 
-| From psiterm | Used for |
+| From | Used for |
 |---|---|
-| `tools/docker/psibuild` | the `psion-build` image: the SDK's GCC 3.0, wine (for makmake, petran, bmconv, makesis), python3, perl |
-| `build_vterm.sh`, `libvterm/` | `psivterm.lib`, the terminal emulator |
-| `app/glyphs.cpp`, `app/termsb.cpp` | Unicode to the Psion's code page; the scroll bar |
-| `ssh/psishared.h`, `ssh/psibell.h` | the shared-chunk layout and the doorbells |
-| `pkg/psiterm.gdr`, `pkg/terminus-licence.txt` | the Terminus font |
-| `tools/emu/` | the emulator scripts (testing only) |
+| psion-core `tools/docker/psibuild` | the `psion-build` image: the SDK's GCC 3.0, wine (for makmake, petran, bmconv, makesis), python3, perl |
+| psiterm `build_vterm.sh`, `libvterm/` | `psivterm.lib`, the terminal emulator |
+| psiterm `app/glyphs.cpp`, `app/termsb.cpp` | Unicode to the Psion's code page; the scroll bar |
+| psion-core `ssh/psishared.h`, `ssh/psibell.h` | the shared-chunk layout and the doorbells |
+| psion-core `pkg/psiterm.gdr`, `pkg/terminus-licence.txt` | the Terminus font |
+| psion-core `tools/mkicons.py`, `tools/icon/aif.py` | the Keys picture and the AIF writer |
+| psion-core `tools/emu/` | the emulator scripts (testing only) |
 
 ## The EPOC side
 
 ```sh
-tools/docker/psibuild setup                        # once: the psion-build image and the SDK
-tools/docker/psibuild "linux/build.sh"             # build/psilinux-pkg/
-tools/docker/psibuild "linux/build.sh sis"         # and dist/PsiLinux.sis, plus the root installers if built
+core/tools/docker/psibuild setup                   # once: the psion-build image and the SDK
+core/tools/docker/psibuild "bash build.sh"         # build/psilinux-pkg/
+core/tools/docker/psibuild "bash build.sh sis"     # and dist/PsiLinux.sis, plus the root installers if built
 ```
 
-`linux/build.sh sis` also packs `build/psilinux-root/ROOT.IMG` into
+`build.sh sis` also packs `build/psilinux-root/ROOT.IMG` into
 `dist/PsiLinux-root.sis` and `build/alpine-root/ROOT.IMG` into
 `dist/PsiLinux-alpine-root.sis`, if those images exist. So build the images
 first (below) when making a release.
@@ -67,7 +71,7 @@ first (below) when making a release.
 The probe (a test program, never a release):
 
 ```sh
-tools/docker/psibuild "linux/probe/build.sh sis"   # dist/LxProbe-test.sis
+core/tools/docker/psibuild "bash probe/build.sh sis"   # dist/LxProbe-test.sis
 ```
 
 The SDK keeps the objects of every `ptproj` app in one folder. After
@@ -77,10 +81,10 @@ switching branches, if the app panics oddly, delete the `*.o` files in
 ## The Linux side
 
 ```sh
-linux/tools/lxbuild setup                          # once: the psilinux-build image (Ubuntu 24.04)
-linux/tools/lxbuild toolchain                      # once: GCC 14.3 + binutils 2.44 + musl 1.2.6, about 30 min
-linux/tools/lxbuild "linux/rootfs/build-rootfs.sh" # BusyBox + ports + tests -> build/psilinux-root/ROOT.IMG
-linux/alpine/build-root.sh                         # Alpine 3.24.2 + OpenRC -> build/alpine-root/ROOT.IMG
+tools/lxbuild setup                                # once: the psilinux-build image (Ubuntu 24.04)
+tools/lxbuild toolchain                            # once: GCC 14.3 + binutils 2.44 + musl 1.2.6, about 30 min
+tools/lxbuild "rootfs/build-rootfs.sh"             # BusyBox + ports + tests -> build/psilinux-root/ROOT.IMG
+alpine/build-root.sh                               # Alpine 3.24.2 + OpenRC -> build/alpine-root/ROOT.IMG
 ```
 
 - `toolchain/build-toolchain.sh` builds an `arm-linux-musleabi` toolchain
@@ -101,7 +105,7 @@ linux/alpine/build-root.sh                         # Alpine 3.24.2 + OpenRC -> b
 Building your own programs for PsiLinux:
 
 ```sh
-linux/tools/lxbuild "lx-cc -Os -o hello hello.c"   # a static-pie ARMv4T program
+tools/lxbuild "lx-cc -Os -o hello hello.c"         # a static-pie ARMv4T program
 ```
 
 Copy it to the Psion (for example to `D:\hello`) and run it as `/d/hello`.
@@ -110,10 +114,10 @@ Copy it to the Psion (for example to `D:\hello`) and run it as `/d/hello`.
 
 Alpine's catalogue is too big for a Psion's memory, so `apk` asks a helper
 on a PC for searches and install plans: `alpine/server/psiapk.py`. It is a
-plug-in for PsiProxy (psiterm's `proxy/`):
+plug-in for [PsiProxy](https://github.com/danieledge/psiproxy):
 
 ```sh
-PSIPROXY_ADDR=0.0.0.0 PSIPROXY_PLUGINS=psiapk PSIPROXY_PLUGIN_PATH=$PWD/linux/alpine/server python3 proxy/psiproxyd.py
+PSIPROXY_ADDR=0.0.0.0 PSIPROXY_PLUGINS=psiapk PSIPROXY_PLUGIN_PATH=$PWD/alpine/server python3 ../psiproxy/psiproxyd.py
 ```
 
 PsiProxy listens on 127.0.0.1:8081 unless `PSIPROXY_ADDR` says otherwise;

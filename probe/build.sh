@@ -6,7 +6,7 @@
 set -e
 : "${PSION_SDK:?set PSION_SDK to your psion_cpp_sdk_linux directory}"
 HERE=$(cd "$(dirname "$0")" && pwd)
-TOP=$(cd "$HERE/../.." && pwd)
+TOP=$(cd "$HERE/.." && pwd)
 export EPOCROOT=$PSION_SDK/epoc_cpp_sdk
 REL=$EPOCROOT/epoc32/release/marm/rel
 export PATH=/usr/bin:/bin:$PSION_SDK/gcc-3.0-psion-98r2-9/bin:$EPOCROOT/epoc32/tools

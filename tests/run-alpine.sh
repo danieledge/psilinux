@@ -8,8 +8,8 @@
 #   - the memory reserve, with a pretend Psion short of memory
 #   linux/tools/lxbuild "linux/tests/run-alpine.sh"
 set -e
-REPO=$(cd "$(dirname "$0")/../.." && pwd)
-make -C "$REPO/linux/runtime" host > /dev/null
+REPO=$(cd "$(dirname "$0")/.." && pwd)
+make -C "$REPO/runtime" host > /dev/null
 cd "$REPO/build/linux"
 R=alpine-test
 fresh() {   # (the image and its parts: ROOT.I01...)
@@ -21,7 +21,7 @@ run() {   # name, then the program and its arguments
 	local n=$1; shift
 	echo "== $n"
 	fresh
-	LX_DRIVE_T=$REPO/linux/tests timeout 900 qemu-arm -cpu ti925t ./psihost -r $R "$@" < /dev/null > "$n.log" 2>&1 || true
+	LX_DRIVE_T=$REPO/tests timeout 900 qemu-arm -cpu ti925t ./psihost -r $R "$@" < /dev/null > "$n.log" 2>&1 || true
 	grep -E "^FAIL|passed" "$n.log" || { echo "(no result: see build/linux/$n.log)"; fail=1; }
 	grep -q " 0 failed" "$n.log" || fail=1
 }
@@ -31,7 +31,7 @@ run bashtest /bin/bash /t/bashtest.sh
 
 echo "== bash, interactive"
 fresh
-python3 "$REPO/linux/tests/ptydrive.py" $R bash-pty.log 'wait:# :300' \
+python3 "$REPO/tests/ptydrive.py" $R bash-pty.log 'wait:# :300' \
 	'send:ls /etc | head -3 | wc -l\r' 'wait:\r3\r' \
 	'send:sleep 30\r' 'sleep:5' 'send:\x03' 'wait:# :60' 'send:echo int=$?\r' 'wait:int=130' \
 	'send:ls /etc/alpine-rel\t\r' 'wait:/etc/alpine-release' \

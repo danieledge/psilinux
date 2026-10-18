@@ -415,7 +415,7 @@ never builds or changes a package, and needs no trust beyond that.
 To set it up:
 
 1. On a PC on the same network, run PsiProxy (from
-   [psiterm](https://github.com/danieledge/psiterm)'s `proxy/`) with the
+   [PsiProxy](https://github.com/danieledge/psiproxy)) with the
    helper, as [docs/BUILDING.md](docs/BUILDING.md) describes.
 2. Turn on the proxy in the Psion's Connection settings (PsiTerm, PsiMail or
    PsiWeb) with the PC's address: apk uses it. Or, in Alpine on the Psion,
@@ -451,18 +451,19 @@ because the Psion may restart in the middle of a test.
 
 ## Building and testing
 
-PsiLinux builds in Docker, from a checkout of
-[psiterm](https://github.com/danieledge/psiterm) with this repository as its
-`linux/` folder (it shares PsiTerm's terminal and build environment):
+PsiLinux builds in Docker. It carries the suite's shared code,
+[psion-core](https://github.com/danieledge/psion-core), as the submodule
+`core/` (clone with `--recurse-submodules`), and takes its terminal from a
+[psiterm](https://github.com/danieledge/psiterm) checkout beside this one:
 
 ```sh
-tools/docker/psibuild "linux/build.sh sis"         # the app and the runner -> dist/PsiLinux.sis
-linux/tools/lxbuild toolchain                      # GCC 14 + patched musl, once
-linux/tools/lxbuild "linux/rootfs/build-rootfs.sh" # PsiLinux's own root
-linux/alpine/build-root.sh                         # the Alpine root
-linux/tools/lxbuild "linux/tests/run-host.sh"      # the test suites on the host harness
-linux/tools/lxbuild "linux/tests/run-alpine.sh"    # Alpine mode: shell tests under sh and bash, bash in a terminal, the memory reserve
-linux/tests/run-ssh.sh                             # ssh against a throwaway sshd in docker (run on the PC): key, password, host key question
+core/tools/docker/psibuild "bash build.sh sis"     # the app and the runner -> dist/PsiLinux.sis
+tools/lxbuild toolchain                            # GCC 14 + patched musl, once
+tools/lxbuild "rootfs/build-rootfs.sh"             # PsiLinux's own root
+alpine/build-root.sh                               # the Alpine root
+tools/lxbuild "tests/run-host.sh"                  # the test suites on the host harness
+tools/lxbuild "tests/run-alpine.sh"                # Alpine mode: shell tests under sh and bash, bash in a terminal, the memory reserve
+tests/run-ssh.sh                                   # ssh against a throwaway sshd in docker (run on the PC): key, password, host key question
 ```
 
 The kernel (`runtime/`) is portable C. Built with a different back end, it

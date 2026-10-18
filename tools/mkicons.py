@@ -3,17 +3,19 @@
 bmconv) and the program's icon (PsiLinux.aif, 24, 32 and 48 pixels, with
 PsiTerm's AIF writer).
 
-    linux/tools/mkicons.py OUTDIR HEADER
+    tools/mkicons.py OUTDIR HEADER
 
-The Keys picture is PsiTerm's (tools/mkicons.py); the others are new, drawn
+The Keys picture is PsiTerm's (psion-core's tools/mkicons.py, from this
+checkout's core/ submodule or $PSION_CORE); the others are new, drawn
 the same way: k black, d dark grey, l light grey, w white, . transparent.
 """
 import os, sys
 from PIL import Image, ImageDraw
 HERE = os.path.dirname(os.path.abspath(__file__))
-REPO = os.path.abspath(os.path.join(HERE, '..', '..'))
-sys.path.insert(0, os.path.join(REPO, 'tools'))
-sys.path.insert(0, os.path.join(REPO, 'tools', 'icon'))
+REPO = os.path.abspath(os.path.join(HERE, '..'))
+CORE = os.environ.get('PSION_CORE') or os.path.join(REPO, 'core')
+sys.path.insert(0, os.path.join(CORE, 'tools'))
+sys.path.insert(0, os.path.join(CORE, 'tools', 'icon'))
 import mkicons as pt          # PsiTerm's
 from aif import write_aif
 
@@ -144,7 +146,7 @@ def main():
         files += [fi, fm]
         ids.append(name)
     with open(header, 'w') as f:
-        f.write('/* lxicons.h - made by linux/tools/mkicons.py: PsiLinux.mbm ids */\n')
+        f.write('/* lxicons.h - made by tools/mkicons.py: PsiLinux.mbm ids */\n')
         f.write('#ifndef LXICONS_H\n#define LXICONS_H\nenum TLxIconId\n\t{\n')
         for i, n in enumerate(ids):
             f.write(f'\tELxMbm{n} = {2 * i}, ELxMbm{n}Mask = {2 * i + 1},\n')

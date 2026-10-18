@@ -1,14 +1,14 @@
 #!/bin/bash
 # Runs a command in the psilinux-build container, with the work area mounted
 # at the same path (as tools/docker/psibuild does for the EPOC side).
-#   linux/tools/lxbuild setup           build the image
-#   linux/tools/lxbuild toolchain       build the arm-linux-musleabi toolchain (about 30 min)
-#   linux/tools/lxbuild <command>       anything else, e.g. "make -C linux/runtime host"
+#   tools/lxbuild setup           build the image
+#   tools/lxbuild toolchain       build the arm-linux-musleabi toolchain (about 30 min)
+#   tools/lxbuild <command>       anything else, e.g. "make -C runtime host"
 # The toolchain goes to $PSION_WORK/psilinux-toolchain and the downloaded
 # sources to $PSION_WORK/psilinux-src: neither is in the repository.
 set -e
 HERE=$(cd "$(dirname "$0")" && pwd)
-REPO=$(cd "$HERE/../.." && pwd)
+REPO=$(cd "$HERE/.." && pwd)
 WORK=${PSION_WORK:-$(cd "$REPO/.." && pwd)}
 IMAGE=psilinux-build
 run() {
@@ -21,7 +21,7 @@ run() {
 }
 case "$1" in
 setup)     docker build -t "$IMAGE" "$HERE" ;;
-toolchain) run "'$REPO/linux/toolchain/build-toolchain.sh'" ;;
+toolchain) run "'$REPO/toolchain/build-toolchain.sh'" ;;
 "")        sed -n '2,9p' "$0" ;;
 *)         run "$*" ;;
 esac

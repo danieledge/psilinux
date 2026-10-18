@@ -1,12 +1,12 @@
 #!/bin/bash
 # Builds PsiLinux's root file system, ROOT.IMG: BusyBox (NOMMU), the other
 # programs (linux/ports), /etc, and the tests; then packs it with mkroot.py.
-#   linux/tools/lxbuild "linux/rootfs/build-rootfs.sh [busybox|ports|image]"
+#   tools/lxbuild "rootfs/build-rootfs.sh [busybox|ports|image]"
 # Needs the toolchain ($LXTC, linux/toolchain/build-toolchain.sh). Sources
 # are downloaded to $LXSRC; the result is build/psilinux-root/ROOT.IMG.
 set -e
 HERE=$(cd "$(dirname "$0")" && pwd)
-REPO=$(cd "$HERE/../.." && pwd)
+REPO=$(cd "$HERE/.." && pwd)
 WORK=${PSION_WORK:-$(cd "$REPO/.." && pwd)}
 LXTC=${LXTC:-$WORK/psilinux-toolchain}
 LXSRC=${LXSRC:-$WORK/psilinux-src}
@@ -75,14 +75,14 @@ image() {
 	# the other programs (linux/ports), and the tests
 	[ -d "$OUT/ports" ] && cp -a "$OUT/ports/." "$STAGE/"
 	mkdir -p "$STAGE/usr/lib/psilinux/tests"
-	for t in "$REPO"/linux/tests/*.c; do
+	for t in "$REPO"/tests/*.c; do
 		n=$(basename "$t" .c)
 		lx-cc -Os -s -o "$STAGE/usr/lib/psilinux/tests/$n" "$t" -lm
 	done
-	cp "$REPO"/linux/tests/*.sh "$STAGE/usr/lib/psilinux/tests/" 2>/dev/null || true
+	cp "$REPO"/tests/*.sh "$STAGE/usr/lib/psilinux/tests/" 2>/dev/null || true
 	chmod 755 "$STAGE"/usr/lib/psilinux/tests/*
 	ln -sf ../lib/psilinux/tests/hello "$STAGE/usr/bin/hello"
-	python3 "$REPO/linux/tools/mkroot.py" "$STAGE" "$OUT/ROOT.IMG" --parts 1024    # (in parts: DECISIONS.md 54)
+	python3 "$REPO/tools/mkroot.py" "$STAGE" "$OUT/ROOT.IMG" --parts 1024    # (in parts: DECISIONS.md 54)
 }
 
 case "$what" in

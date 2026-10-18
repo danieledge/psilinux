@@ -3,8 +3,8 @@
 # qemu-arm), with the root image just built.
 #   linux/tools/lxbuild "linux/tests/run-host.sh"
 set -e
-REPO=$(cd "$(dirname "$0")/../.." && pwd)
-make -C "$REPO/linux/runtime" host > /dev/null
+REPO=$(cd "$(dirname "$0")/.." && pwd)
+make -C "$REPO/runtime" host > /dev/null
 R=$REPO/build/linux/test-root
 rm -rf "$R"; mkdir -p "$R"
 cp "$REPO"/build/psilinux-root/ROOT.I* "$R/"     # (the image and its parts)

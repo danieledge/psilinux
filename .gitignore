@@ -67,6 +67,7 @@ TRACE
 fuzz-out/
 core
 core.*
+!/core
 
 # Secrets and local settings: never
 .env

@@ -1,4 +1,4 @@
-/* lxicons.h - made by linux/tools/mkicons.py: PsiLinux.mbm ids */
+/* lxicons.h - made by tools/mkicons.py: PsiLinux.mbm ids */
 #ifndef LXICONS_H
 #define LXICONS_H
 enum TLxIconId

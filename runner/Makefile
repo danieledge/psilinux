@@ -1,14 +1,16 @@
 # psilxrun.exe - PsiLinux's runner for EPOC R5 (the kernel, linux/runtime,
 # on top of EPOC: bk_epoc.cpp, bk_esock.cpp). Built in psion-build:
-#   tools/docker/psibuild "make -C linux/runner"
+#   core/tools/docker/psibuild "make -C runner"
+# psishared.h and psibell.h come from psion-core (PSION_CORE: ../core, the submodule)
 SDK      ?= $(PSION_SDK)
+PSION_CORE ?= ../core
 E        := $(SDK)/epoc_cpp_sdk/epoc32
 REL      := $(E)/release/marm/rel
 GINC     := $(SDK)/gcc-3.0-psion-98r2-9/lib/gcc-lib/arm-epoc-pe/3.0-psion-98r2/include
 export PATH := /usr/bin:/bin:$(SDK)/gcc-3.0-psion-98r2-9/bin:$(E)/tools
 export TMP := /tmp/
 export WINEDEBUG := -all
-OBJ      := ../../build/lxrun-obj
+OBJ      := ../build/lxrun-obj
 RT       := ../runtime
 CORE     := lx_core lx_mem lx_elf lx_vfs lx_root lx_dev lx_tty lx_fsys lx_net lx_dbt lx_dbt_rt lx_vfp lx_simg lx_rand
 SF       := $(basename $(notdir $(wildcard $(RT)/softfloat/*.c)))
@@ -16,7 +18,7 @@ OBJS     := $(addprefix $(OBJ)/,$(addsuffix .o,$(CORE))) $(addprefix $(OBJ)/sf/,
 DEFS     := -D__SYMBIAN32__ -D__PSISOFT32__ -D__GCC32__ -D__EPOC32__ -D__MARM__ -D__EXE__ -DNDEBUG
 ARCH     := -fomit-frame-pointer -O2 -fno-strict-aliasing -nostdinc -mapcs-32 -msoft-float
 CFLAGS   := $(ARCH) -std=gnu99 -fno-builtin -I $(GINC) -I $(RT) -I $(RT)/compat -Wall -Wno-unused
-CXXFLAGS := $(ARCH) $(DEFS) -Wno-ctor-dtor-privacy -fcheck-new -fvtable-thunks -I $(GINC) -I $(RT) -I ../common -I ../../ssh -I $(E)/include
+CXXFLAGS := $(ARCH) $(DEFS) -Wno-ctor-dtor-privacy -fcheck-new -fvtable-thunks -I $(GINC) -I $(RT) -I ../common -I $(PSION_CORE)/ssh -I $(E)/include
 LIBGCC   := $(SDK)/gcc-3.0-psion-98r2-9/lib/gcc-lib/arm-epoc-pe/3.0-psion-98r2/libgcc.a
 LIBS     := $(REL)/euser.lib $(REL)/efsrv.lib $(REL)/esock.lib $(REL)/insock.lib $(REL)/nifman.lib $(LIBGCC)
 HDRS     := $(wildcard $(RT)/*.h) ../common/lxshared.h

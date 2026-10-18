@@ -30,7 +30,7 @@ Built by `build.sh` with makmake, from `app/` and some of PsiTerm's files.
 | PsiLinux's app | `app/` | MIT (this repository) |
 | PsiTerm's terminal: the glyphs (`glyphs.cpp`), the scroll bar (`termsb.cpp`) and the shared-chunk headers (`psishared.h`, `psibell.h`) | the [psiterm](https://github.com/danieledge/psiterm) checkout this sits in (`app/`, `ssh/`) | MIT |
 | [libvterm](https://www.leonerd.org.uk/code/libvterm/) (PsiTerm's copy, with its Psion changes), as `psivterm.lib` | psiterm's `libvterm/` | MIT |
-| [Terminus Font](https://terminus-font.sourceforge.net/), converted to EPOC format (`PsiTerm.gdr`) | psiterm's `pkg/psiterm.gdr` | SIL Open Font License 1.1: installed as `Terminus-licence.txt` |
+| [Terminus Font](https://terminus-font.sourceforge.net/), converted to EPOC format (`PsiTerm.gdr`) | psion-core's `pkg/psiterm.gdr` (this repository's `core/` submodule) | SIL Open Font License 1.1: installed as `Terminus-licence.txt` |
 | EPOC C Standard Library (`STDLIB.SIS`, ESTLIB.DLL), embedded in `PsiLinux.sis` | from the SDK; not in this repository | Psion's redistributable runtime, shipped as the SDK directs |
 
 ## Build tools and patches in this repository

@@ -5,7 +5,7 @@ REL      := $(E)/release/marm/rel
 export PATH := /usr/bin:/bin:$(SDK)/gcc-3.0-psion-98r2-9/bin:$(E)/tools
 export TMP := /tmp/
 export WINEDEBUG := -all
-OBJ      := ../../build/lxprobe-obj
+OBJ      := ../build/lxprobe-obj
 CXXFLAGS := -s -fomit-frame-pointer -O2 -fno-strict-aliasing -nostdinc -mcpu=arm710 -mapcs-32 -msoft-float \
             -D__SYMBIAN32__ -D__PSISOFT32__ -D__GCC32__ -D__EPOC32__ -D__MARM__ -D__EXE__ -DNDEBUG \
             -Wno-ctor-dtor-privacy -fcheck-new -fvtable-thunks -I $(E)/include

@@ -12,7 +12,7 @@
 #     the first-connection question, the password, a command, exit.
 # (The Alpine root: build/alpine-root, from linux/alpine/build-root.sh.)
 set -e
-REPO=$(cd "$(dirname "$0")/../.." && pwd)
+REPO=$(cd "$(dirname "$0")/.." && pwd)
 B=$REPO/build/linux
 T=$B/ssh-test
 NAME=psilinux-sshd-$$
@@ -46,7 +46,7 @@ if [ "$1" = inner ]; then
 
 	echo "== interactive, by name: the first-connection question and the password"
 	fresh
-	python3 "$REPO/linux/tests/ptydrive.py" "$T/root" "$T/pty.log" 'wait:# :300' \
+	python3 "$REPO/tests/ptydrive.py" "$T/root" "$T/pty.log" 'wait:# :300' \
 		'send:ssh psitest@psisshd\r' 'wait:continue connecting:600' 'send:yes\r' \
 		'wait:password:600' 'sendenv:PSITEST_PASS' 'wait:\$ :600' \
 		'send:echo ok-$((6*7))\r' 'wait:ok-42:120' 'send:exit\r' 'wait:closed[^#]*# :120' \
@@ -62,8 +62,8 @@ fi
 
 # ---- on the host -----------------------------------------------------------------
 command -v docker > /dev/null || { echo "run-ssh.sh needs docker"; exit 1; }
-"$REPO/linux/tools/lxbuild" "make -C linux/runtime host" > /dev/null
-docker build -q -t psilinux-sshd-test "$REPO/linux/tests/sshd" > /dev/null
+"$REPO/tools/lxbuild" "make -C runtime host" > /dev/null
+docker build -q -t psilinux-sshd-test "$REPO/tests/sshd" > /dev/null
 rm -rf "$T"; mkdir -p "$T"; chmod 700 "$T"
 cleanup() { docker rm -f "$NAME" > /dev/null 2>&1 || true; rm -rf "$T/key" "$T/key.pub" "$T/root"; }
 trap cleanup EXIT
@@ -77,4 +77,4 @@ for i in 1 2 3 4 5 6 7 8 9 10; do docker logs "$NAME" 2>&1 | grep -q "listening 
 W=$(cd "$REPO/.." && pwd)
 docker run --rm -i --user "$(id -u):$(id -g)" --network "container:$NAME" \
 	-v "$W:$W" -w "$PWD" -e HOME="$W" -e PSITEST_PASS \
-	psilinux-build bash "$REPO/linux/tests/run-ssh.sh" inner
+	psilinux-build bash "$REPO/tests/run-ssh.sh" inner

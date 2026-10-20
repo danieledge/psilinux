@@ -26,7 +26,7 @@
 #include <psilinux.rsg>
 
 const TUid KUidPsiLinux = { 0x01000A87 };
-_LIT(KLxVersion, "0.23");
+_LIT(KLxVersion, "0.24");
 _LIT(KIniFile, "C:\\System\\Apps\\PsiLinux\\PsiLinux.ini");
 
 // ---------------------------------------------------------------------------
@@ -330,6 +330,10 @@ void CLxAppUi::DynInitMenuPaneL(TInt aMenuId, CEikMenuPane* aMenuPane)
 		if (iToolBar && iToolBar->IsVisible())
 			aMenuPane->SetItemButtonState(ELxCmdToolbar, EEikMenuItemSymbolOn);
 		break;
+	case R_LX_TOOLS_MENU:
+		if (iSettings.iSpare[KLxSpareLog])
+			aMenuPane->SetItemButtonState(ELxCmdKeepLog, EEikMenuItemSymbolOn);
+		break;
 	case R_LX_VIEWS_MENU:
 		aMenuPane->SetItemButtonState(iView == 0 ? ELxCmdViewTerminal : ELxCmdViewRemote, EEikMenuItemSymbolOn);
 		break;
@@ -343,7 +347,7 @@ void CLxAppUi::HandleCommandL(TInt aCommand)
 	// (in the Remote apps view, only the commands that make sense there)
 	if (iView == 1 && aCommand != EEikCmdExit && aCommand != ELxCmdSwitchView && aCommand != ELxCmdViewTerminal &&
 		aCommand != ELxCmdViewRemote && aCommand != ELxCmdHelp && aCommand != ELxCmdAbout && aCommand != ELxCmdPreferences &&
-		aCommand != ELxCmdToolbar)
+		aCommand != ELxCmdToolbar && aCommand != ELxCmdKeepLog)
 		{
 		iEikonEnv->InfoMsg(_L("Not available in this view"));
 		return;
@@ -438,6 +442,13 @@ void CLxAppUi::HandleCommandL(TInt aCommand)
 		break;
 		}
 	case ELxCmdReset: iTerm->ResetTerminal(); break;
+	case ELxCmdKeepLog:
+		// (0.24) off unless ticked; PsiLinux.log, if there is one, stays. The
+		// runner reads it when it starts: Linux running now carries on as it began.
+		iSettings.iSpare[KLxSpareLog] = !iSettings.iSpare[KLxSpareLog];
+		SaveSettings();
+		iEikonEnv->InfoMsg(iSettings.iSpare[KLxSpareLog] ? _L("Keeping a log") : _L("Not keeping a log"));
+		break;
 	case ELxCmdHelp: HelpL(); break;
 	case ELxCmdAbout: AboutL(); break;
 	default:

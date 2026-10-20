@@ -186,7 +186,8 @@ PsiLinux says so and starts its own programs instead.)
 ## 8. What to send back
 
 1. `D:\LxProbe.log`.
-2. `D:\Linux\Alpine\PsiLinux.log`. This is the runner's log, added to on each
+2. `D:\Linux\Alpine\PsiLinux.log` (tick Tools > Keep a log before the test:
+   PsiLinux 0.24 keeps none otherwise). This is the runner's log, added to on each
    run. It has a line for each program started, with the time since Linux
    started, and every 30 s a line with free memory and the translator's
    figures. If Alpine stopped or the Psion restarted, the end of this file

@@ -39,7 +39,8 @@ enum TLxCommand
 	ELxCmdTbStop,             // the toolbar's buttons
 	ELxCmdTbKeys,
 	ELxCmdTbCopy,
-	ELxCmdTbPaste
+	ELxCmdTbPaste,
+	ELxCmdKeepLog             // Tools > Keep a log (0.24)
 	};
 
 // the Preferences dialog's lines

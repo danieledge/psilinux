@@ -240,6 +240,7 @@ RESOURCE MENU_PANE r_lx_tools_menu
 		MENU_ITEM { command=ELxCmdPreferences; txt="Preferences..."; },
 		MENU_ITEM { command=ELxCmdDisk; txt="Linux disk..."; flags=EEikMenuItemSeparatorAfter; },
 		MENU_ITEM { command=ELxCmdReset; txt="Reset terminal"; flags=EEikMenuItemSeparatorAfter; },
+		MENU_ITEM { command=ELxCmdKeepLog; txt="Keep a log"; flags=EEikMenuItemCheckBox|EEikMenuItemSeparatorAfter; },
 		MENU_ITEM { command=ELxCmdHelp; txt="Help on PsiLinux"; },
 		MENU_ITEM { command=ELxCmdAbout; txt="About PsiLinux"; }
 		};

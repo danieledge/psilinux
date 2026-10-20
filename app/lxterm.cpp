@@ -64,6 +64,7 @@ TInt CLxSession::Start(const TDesC& aRoot, const TDesC8& aProgram, TBool aLogin,
 	iShared->cols = aCols;
 	iShared->bell_magic = PSI_BELL_MAGIC;
 	iShared->reserve = iReserve;
+	iShared->log_on = iLogOn ? 1 : 0;
 	TPtr8 root((TUint8*)iShared->root, 0, sizeof(iShared->root) - 1);
 	root.Copy(aRoot);
 	TPtr8 prog((TUint8*)iShared->program, 0, sizeof(iShared->program) - 1);
@@ -347,6 +348,7 @@ void CLxTermView::StartLinuxL()
 	// it boots (BusyBox init, OpenRC), or goes straight to a shell
 	TInt r;
 	iSession->SetReserve(ReserveBytes());          // (Start passes it on)
+	iSession->SetLogOn(iSettings->iSpare[KLxSpareLog] != 0);
 	TBool alpine = iSettings->iStart == 0 || iSettings->iStart == 1;
 	if (alpine)
 		{

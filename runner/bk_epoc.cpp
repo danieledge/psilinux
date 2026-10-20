@@ -1019,7 +1019,8 @@ static void RunL()
 	}
 	gSh->root[sizeof gSh->root - 1] = 0;
 	gSh->program[sizeof gSh->program - 1] = 0;
-	OpenLog(gSh->root);
+	if (gSh->log_on)
+		OpenLog(gSh->root);                  // (0.24: only with Tools > Keep a log ticked)
 	bk_log("PsiLinux runner %s: root %s, program %s", LX_VERSION, gSh->root, gSh->program);
 	gTimer = new(ELeave) CLxTimer;
 	gTimer->ConstructL();

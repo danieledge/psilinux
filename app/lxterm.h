@@ -39,8 +39,10 @@ struct TLxSettings
 	TInt iStart;             // what starts: 0 Alpine Linux (BusyBox init, OpenRC), 1 Alpine's shell only, 2 PsiLinux
 	TInt iKeep;              // 0.21: keep memory for other programs (the reserve)
 	TInt iKeepKb;            // ...how much: 512, 1024 or 2048 (0, from an older file: 1024)
-	TInt iSpare[12];
+	TInt iSpare[12];         // iSpare[KLxSpareLog]: 0.24, Tools > Keep a log (0: off, as in older files)
 	};
+
+const TInt KLxSpareLog = 0;
 
 const TInt KLxZoomLevels = 5;
 
@@ -59,6 +61,7 @@ public:
 	TInt State() const { return iShared ? iShared->state : LXS_EXITED; }
 	TInt ExitStatus() const { return iShared ? iShared->exit_status : 0; }
 	const LxShared* Shared() const { return iShared; }
+	void SetLogOn(TBool aOn) { iLogOn = aOn; }   // (0.24) Keep a log: passed on at the next Start
 	void SetReserve(TUint aBytes) { iReserve = aBytes; if (iShared) iShared->reserve = aBytes; }   // the runner reads it at each growth
 	void Write(const TDesC8& aBytes);  // typed bytes to the terminal
 	void Resize(TInt aRows, TInt aCols);
@@ -72,6 +75,7 @@ private:
 	CLxTermView& iView;
 	RChunk iChunk;
 	TUint iReserve;              // bytes to keep for other programs (Preferences)
+	TBool iLogOn;                // Tools > Keep a log (0.24)
 	TBool iChunkOpen;
 	LxShared* iShared;
 	RProcess iProcess;

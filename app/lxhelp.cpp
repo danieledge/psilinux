@@ -154,7 +154,12 @@ static const TLxHelpTopic KHelpTopics[] =
 	  "There is no graphical display (no X or Wayland): only programs that run in a terminal.\n"
 	  "\n"
 	  "Linux's own drivers, kernel modules, mount and the like have no place here: the Psion's own "
-	  "system does that." },
+	  "system does that.\n"
+	  "\n"
+	  "PsiLinux keeps no log unless Tools > Keep a log is ticked. Then the runner writes what it does "
+	  "(the programs it starts, memory, faults) to PsiLinux.log in the Linux folder, for whoever is "
+	  "looking into a problem; untick it to stop (the log kept so far stays). It takes effect the "
+	  "next time Linux starts." },
 	};
 const TInt KHelpCount = sizeof(KHelpTopics) / sizeof(KHelpTopics[0]);
 

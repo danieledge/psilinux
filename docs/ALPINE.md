@@ -355,7 +355,8 @@ noted in the runner's log.
 
 ## When something goes wrong
 
-- The runner's log is `\Linux\Alpine\PsiLinux.log` on the Linux disk. In
+- With Tools > Keep a log ticked (it is off unless you tick it), the
+  runner's log is `\Linux\Alpine\PsiLinux.log` on the Linux disk. In
   Alpine mode it has every 30 s a line with free memory and the translator's
   figures. A file named `BOOTLOG` in `\Linux\Alpine\` adds a line for each
   program started, with the time: where a boot got to, if it stops.

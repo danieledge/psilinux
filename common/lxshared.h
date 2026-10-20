@@ -18,7 +18,7 @@
 
 #define LX_SHARED_NAME   "PsiLinuxTerm"
 #define LX_SHARED_MAGIC  0x584e4c50u      /* 'PLNX' */
-#define LX_SHARED_VERSION 3
+#define LX_SHARED_VERSION 4
 #define LX_KBD_SIZE      2048
 #define LX_OUT_SIZE      16384
 
@@ -66,6 +66,8 @@ typedef struct
 	volatile unsigned int info_seq;    /* +1 when any of those change */
 	char release[32];                  /* Alpine mode: /etc/alpine-release (the runner), for About */
 	volatile unsigned int reserve;     /* (3) bytes of RAM Linux leaves free for EPOC's programs, 0 = none (the app; may change while running) */
+	int log_on;                        /* (4) 1: Tools > Keep a log is ticked (the app); else the runner
+	                                      writes no PsiLinux.log at all. Read when the runner starts */
 	} LxShared;
 
 #endif

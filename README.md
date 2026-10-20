@@ -440,8 +440,10 @@ comes from the helper.
 
 ### When something goes wrong
 
-The runner's log is `\Linux\PsiLinux.log` (`\Linux\Alpine\PsiLinux.log` in
-Alpine mode). In Alpine mode it has a line every 30 s with free memory and
+PsiLinux keeps no log unless Tools > Keep a log is ticked (it is off as
+installed, and after an upgrade; it takes effect the next time Linux
+starts). Then the runner's log is `\Linux\PsiLinux.log`
+(`\Linux\Alpine\PsiLinux.log` in Alpine mode). In Alpine mode it has a line every 30 s with free memory and
 the translator's figures. A file named `BOOTLOG` in `\Linux\Alpine\` adds a
 line for each program started, which shows where a boot stopped.
 

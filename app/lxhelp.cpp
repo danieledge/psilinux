@@ -76,7 +76,9 @@ static const TLxHelpTopic KHelpTopics[] =
 	  "5mx has.\n"
 	  "\n"
 	  "The package server is the proxy in Connection settings (PsiTerm, PsiMail or PsiWeb), when it "
-	  "is on and is a PsiProxy. To use another, set it in /etc/psilinux/apk.conf, for example "
+	  "is on and is a PsiProxy. With the Atom modem's own proxy (192.168.7.1) it is the PsiProxy set "
+	  "in the modem's Web proxy settings; without one apk says Needs PsiProxy on a computer. To use "
+	  "another, set it in /etc/psilinux/apk.conf, for example "
 	  "APK_SERVER=http://192.168.1.10:8081 (nano /etc/psilinux/apk.conf)." },
 
 	{ "The terminal",

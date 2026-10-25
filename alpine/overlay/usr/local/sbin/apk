@@ -12,9 +12,11 @@
 #   apk update | search | info | add | del | upgrade | list | (anything else)
 # The server: $APK_SERVER, else APK_SERVER= in /etc/psilinux/apk.conf, else
 # the proxy set in the Psion's Connection settings, if it is on (PsiLink.ini,
-# shared with PsiTerm, PsiMail and PsiWeb) and is a PsiProxy (the Atom
-# modem's own proxy is not), else the dev box in C:\System\Data\PsiDevBox.ini.
-# No server is built in.
+# shared with PsiTerm, PsiMail and PsiWeb) and is a PsiProxy, else the dev
+# box in C:\System\Data\PsiDevBox.ini, else the Atom modem's own proxy on
+# its PPP link (192.168.7.1), which passes /_apk/ on to the PsiProxy set in
+# the modem (AT$PU), or answers 501 (an older Atom: its status page) when it
+# has none: "Needs PsiProxy on a computer". No server is built in.
 # APK_DIRECT=1 downloads packages from Alpine's mirror instead of the server.
 
 REAL=/sbin/apk
@@ -25,8 +27,10 @@ ENV_SERVER=$APK_SERVER
 [ -f "$CONF" ] && . "$CONF"
 # the proxy in C:\System\Data\PsiLink.ini (ssh/psilink.h: 'P' 'L' ver baud
 # rtscts netmode len pppstart[len], then from version 2: useproxy len
-# host[len] port-lo port-hi), as http://host:port, if it is on
+# host[len] port-lo port-hi), as http://host:port, if it is on and is not
+# the Atom modem's own; "psilink_proxy atom": only if it is the Atom's
 psilink_proxy() {
+	want=$1
 	f=/c/System/Data/PsiLink.ini
 	[ -r "$f" ] || return 1
 	set -- $(od -An -v -tu1 "$f" 2>/dev/null)
@@ -41,7 +45,11 @@ psilink_proxy() {
 	host=
 	while [ "$n" -gt 0 ]; do host="$host$(printf "\\$(printf %03o "$1")")"; shift; n=$((n - 1)); done
 	port=$(($1 + $2 * 256))
-	case "$host" in 192.168.7.1|[Pp][Ss][Ii][Pp][Rr][Oo][Xx][Yy]) return 1 ;; esac
+	case "$host" in
+	192.168.7.1) [ "$want" = atom ] || return 1 ;;
+	[Pp][Ss][Ii][Pp][Rr][Oo][Xx][Yy]) return 1 ;;   # (a name the modem dials: not reachable from Linux)
+	*) [ "$want" = atom ] && return 1 ;;
+	esac
 	echo "http://$host:$port"
 }
 # else the dev box in C:\System\Data\PsiDevBox.ini ("<host>\r\n<port>\r\n",
@@ -54,13 +62,51 @@ psidevbox() {
 	[ -n "$host" ] && echo "http://$host:$port"
 }
 SERVER=${ENV_SERVER:-${APK_SERVER:-$(psilink_proxy || psidevbox)}}
+ATOM=
+[ -n "$SERVER" ] || { SERVER=$(psilink_proxy atom) && ATOM=1; }
 OFFLINE="--repositories-file /dev/null --no-network --no-cache"
+NEEDS="Needs PsiProxy on a computer - the Atom modem's own proxy has none: set one in the modem's Web proxy settings (AT\$PU), or APK_SERVER in $CONF"
 
 die() { echo "ERROR: $*" >&2; exit 1; }
 need_server() {
 	[ -n "$SERVER" ] || die "No package server set - set APK_SERVER in $CONF (e.g. APK_SERVER=http://192.168.1.10:8081), or turn on a PsiProxy in Connection settings"
 }
-get() { need_server; wget -q -T 60 -O - "$SERVER$1" 2>/dev/null || die "the package server ($SERVER) did not answer: is the Psion online?"; }
+# wget; to the Atom's proxy with "Host: psiproxy", so an older Atom answers
+# itself (its status page) rather than fetching the address. Its messages
+# go to $ERR
+ERR=/tmp/.apk-err.$$
+wg() {
+	if [ -n "$ATOM" ]; then wget -q --header "Host: psiproxy" "$@" 2>"$ERR"; else wget -q "$@" 2>"$ERR"; fi
+}
+# 0 if file $1 is not the package server's answer but the Atom's: its 501
+# (BusyBox's wget says "server returned error: HTTP/1.1 501 ..."), or an
+# older Atom's HTML status page (psiapk's answers are never HTML)
+atom_answer() {
+	grep -q ' 501 ' "$ERR" 2>/dev/null && return 0
+	[ -s "$1" ] && [ "$(head -c 1 "$1")" = "<" ]
+}
+get() {
+	need_server
+	t=/tmp/.apk-get.$$
+	if ! wg -T 60 -O "$t" "$SERVER$1" || atom_answer "$t"; then
+		atom_answer "$t" && { rm -f "$t" "$ERR"; die "$NEEDS"; }
+		rm -f "$t" "$ERR"
+		die "the package server ($SERVER) did not answer: is the Psion online?"
+	fi
+	cat "$t"
+	rm -f "$t" "$ERR"
+}
+# a resolve (POST, the installed list in $1) into the plan $2
+resolve() {
+	need_server
+	if ! wg -T 60 -O "$2" --post-file="$1" "$SERVER$3" || atom_answer "$2"; then
+		atom_answer "$2" && { rm -f "$1" "$2" "$ERR"; die "$NEEDS"; }
+		rm -f "$1" "$2" "$ERR"
+		die "the package server ($SERVER) did not answer: is the Psion online?"
+	fi
+	rm -f "$1" "$ERR"
+	head -n 1 "$2" | grep -q '^#PSIAPK-RESOLVE' || { rm -f "$2"; die "the package server ($SERVER) is not a PsiProxy with the apk helper"; }
+}
 kb() { echo $(( ($1 + 1023) / 1024 )); }
 # sizes the way people read them
 human() {
@@ -124,8 +170,8 @@ install_plan() {
 		i=$((i + 1))
 		echo "($i/$n) Downloading $name ($ver)"
 		if [ "$APK_DIRECT" = 1 ]; then url="$MIRROR/$repo/armhf/$file"; else url="$SERVER/_apk/get/$repo/$file"; fi
-		wget -q -T 120 -O "$CACHE/$file.part" "$url" && mv "$CACHE/$file.part" "$CACHE/$file" \
-			|| { rm -f "$CACHE/$file.part"; die "could not download $file"; }
+		wg -T 120 -O "$CACHE/$file.part" "$url" && mv "$CACHE/$file.part" "$CACHE/$file" \
+			|| { rm -f "$CACHE/$file.part" "$ERR"; die "could not download $file"; }
 		files="$files $CACHE/$file"
 	done < "$plan"
 	rm -f "$plan"
@@ -189,9 +235,7 @@ add)
 	list=$(echo "$*" | tr ' ' ',')
 	need_server
 	installed > /tmp/.apk-have.$$
-	wget -q -T 60 -O "$plan" --post-file=/tmp/.apk-have.$$ "$SERVER/_apk/resolve?add=$(urlq "$list")" \
-		|| { rm -f /tmp/.apk-have.$$; die "the package server ($SERVER) did not answer: is the Psion online?"; }
-	rm -f /tmp/.apk-have.$$
+	resolve /tmp/.apk-have.$$ "$plan" "/_apk/resolve?add=$(urlq "$list")"
 	install_plan "$plan" $simulate 0 "$@" ;;
 upgrade)
 	simulate=0
@@ -199,9 +243,7 @@ upgrade)
 	plan=/tmp/.apk-plan.$$
 	need_server
 	installed > /tmp/.apk-have.$$
-	wget -q -T 60 -O "$plan" --post-file=/tmp/.apk-have.$$ "$SERVER/_apk/resolve?upgrade=1" \
-		|| { rm -f /tmp/.apk-have.$$; die "the package server ($SERVER) did not answer: is the Psion online?"; }
-	rm -f /tmp/.apk-have.$$
+	resolve /tmp/.apk-have.$$ "$plan" "/_apk/resolve?upgrade=1"
 	install_plan "$plan" $simulate 1 ;;
 del|delete|remove)
 	exec $REAL del $OFFLINE "$@" ;;

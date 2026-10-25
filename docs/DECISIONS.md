@@ -630,9 +630,12 @@ Alpine Linux's own armhf programs, unmodified, through a binary translator:
 - **Chosen:** apk's server is `APK_SERVER` (the environment, then
   `/etc/psilinux/apk.conf`, shipped empty), else the proxy in the shared
   Connection settings (`C:\System\Data\PsiLink.ini`, read through `/c`) when
-  it is on and is not the Atom modem's own (192.168.7.1 or "psiproxy").
-  With neither, apk says "No package server set - set APK_SERVER in
-  /etc/psilinux/apk.conf".
+  it is on and is not the Atom modem's own (192.168.7.1 or "psiproxy"),
+  then `C:\System\Data\PsiDevBox.ini`, then the Atom's own proxy on the
+  PPP link (192.168.7.1, asked with "Host: psiproxy"), which passes `/_apk/`
+  on to the PsiProxy set in the modem (AT$PU); its 501, or an older Atom's
+  HTML status page, is "Needs PsiProxy on a computer". With none, apk says
+  "No package server set - set APK_SERVER in /etc/psilinux/apk.conf".
 - **Why:** the image is published; a LAN address in it would be wrong for
   everyone else. The owner's Psion already has its PsiProxy in Connection
   settings, so it needs no change.

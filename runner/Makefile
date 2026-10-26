@@ -16,10 +16,13 @@ CORE     := lx_core lx_mem lx_elf lx_vfs lx_root lx_dev lx_tty lx_fsys lx_net lx
 SF       := $(basename $(notdir $(wildcard $(RT)/softfloat/*.c)))
 OBJS     := $(addprefix $(OBJ)/,$(addsuffix .o,$(CORE))) $(addprefix $(OBJ)/sf/,$(addsuffix .o,$(SF))) $(OBJ)/lx_entry.o $(OBJ)/lx_dbt_entry.o $(OBJ)/bk_epoc.o $(OBJ)/bk_esock.o
 DEFS     := -D__SYMBIAN32__ -D__PSISOFT32__ -D__GCC32__ -D__EPOC32__ -D__MARM__ -D__EXE__ -DNDEBUG
-ARCH     := -fomit-frame-pointer -O2 -fno-strict-aliasing -nostdinc -mapcs-32 -msoft-float
+# (-mno-thumb-interwork: returns are MOV PC or LDM PC, not BX, which the
+# netBook's SA-1100 has not got)
+ARCH     := -fomit-frame-pointer -O2 -fno-strict-aliasing -nostdinc -mapcs-32 -msoft-float -mno-thumb-interwork
 CFLAGS   := $(ARCH) -std=gnu99 -fno-builtin -I $(GINC) -I $(RT) -I $(RT)/compat -Wall -Wno-unused
 CXXFLAGS := $(ARCH) $(DEFS) -Wno-ctor-dtor-privacy -fcheck-new -fvtable-thunks -I $(GINC) -I $(RT) -I ../common -I $(PSION_CORE)/ssh -I $(E)/include
-LIBGCC   := $(SDK)/gcc-3.0-psion-98r2-9/lib/gcc-lib/arm-epoc-pe/3.0-psion-98r2/libgcc.a
+V4BX_DIR := $(abspath $(OBJ))
+include $(PSION_CORE)/tools/v4bx.mk
 LIBS     := $(REL)/euser.lib $(REL)/efsrv.lib $(REL)/esock.lib $(REL)/insock.lib $(REL)/nifman.lib $(LIBGCC)
 HDRS     := $(wildcard $(RT)/*.h) ../common/lxshared.h
 
@@ -46,10 +49,11 @@ $(OBJ)/%.o: %.cpp $(HDRS)
 	arm-pe-gcc -c $(CXXFLAGS) $< -o $@
 
 # (stack: the kernel thread only; heap up to 8 MB for the kernel's tables)
-$(OBJ)/psilxrun.exe: $(OBJS)
+$(OBJ)/psilxrun.exe: $(OBJS) $(LIBGCC)
 	cd $(OBJ) && arm-pe-ld -s -e _E32Startup --base-file psilxrun.bas -o psilxrun.tmp.exe $(REL)/eexe.o $(OBJS:$(OBJ)/%=%) $(LIBS)
 	cd $(OBJ) && arm-pe-dlltool --as=arm-pe-as --output-exp psilxrun.exp --base-file psilxrun.bas $(REL)/eexe.o $(OBJS:$(OBJ)/%=%) $(LIBS)
 	cd $(OBJ) && arm-pe-ld -s -e _E32Startup -Map psilxrun.map -o psilxrun.tmp.exe psilxrun.exp $(REL)/eexe.o $(OBJS:$(OBJ)/%=%) $(LIBS)
+	python3 $(V4BX_PY) --check $(OBJ)/psilxrun.tmp.exe     # (no BX: the netBook has none)
 	cd $(OBJ) && wine $(E)/tools/petran.exe psilxrun.tmp.exe psilxrun.exe -nocall -uid1 0x1000007a -uid2 0x00000000 -uid3 0x01000A88 -heap 0x10000 0x800000 -stack 0x10000 >/dev/null
 
 clean:

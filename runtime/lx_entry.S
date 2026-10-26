@@ -4,7 +4,8 @@
 @
 @ Assembled by both toolchains: gcc 3.0 (arm-pe, EPOC) and gcc 14
 @ (arm-linux-musleabi, the host harness), so only the plain ARM syntax both
-@ understand is used.
+@ understand is used. Returns are MOV PC, LR, not BX LR: the netBook's
+@ SA-1100 has no BX, and every caller is ARM code.
 @
 @  lx_entry_sys    the system call entry: r0-r6 the arguments, r7 the number,
 @                  lr the return address (it is entered by __psi_svc's
@@ -27,7 +28,7 @@ lx_entry_sys:
 	mov r0, sp
 	bl lx_trap                     @ the kernel answers into frame[0]
 	ldmfd sp!, {r0-r12, lr}
-	bx lr
+	mov pc, lr
 
 	.global lx_entry_gettp
 lx_entry_gettp:
@@ -36,11 +37,11 @@ lx_entry_gettp:
 	bl lx_gettp_c
 	add sp, sp, #4
 	ldmfd sp!, {r1-r3, ip, lr}
-	bx lr
+	mov pc, lr
 
 	.global lx_entry_barrier
 lx_entry_barrier:
-	bx lr
+	mov pc, lr
 
 	.global lx_entry_cas
 lx_entry_cas:
@@ -63,7 +64,7 @@ lx_entry_cas:
 	mov r0, r3
 	mov r3, #0
 	str r3, [ip]                   @ unlock
-	bx lr
+	mov pc, lr
 2:	@ another thread holds the lock (it was preempted inside it): give way
 	stmfd sp!, {r0-r2, lr}
 	bl bk_cas_yield

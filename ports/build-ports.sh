@@ -6,7 +6,7 @@
 # Every source is pinned by version and sha256. Sources are cached in $LXSRC.
 set -e
 HERE=$(cd "$(dirname "$0")" && pwd)
-REPO=$(cd "$HERE/../.." && pwd)
+REPO=$(cd "$HERE/.." && pwd)
 WORK=${PSION_WORK:-$(cd "$REPO/.." && pwd)}
 LXTC=${LXTC:-$WORK/psilinux-toolchain}
 LXSRC=${LXSRC:-$WORK/psilinux-src}

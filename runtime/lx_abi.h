@@ -442,6 +442,7 @@ struct lx_winsize { lx_u16 ws_row, ws_col, ws_xpixel, ws_ypixel; };
 #define LX_SO_TYPE 3
 #define LX_SO_ERROR 4
 #define LX_SO_KEEPALIVE 9
+#define LX_SO_PEERCRED 17
 #define LX_SO_RCVBUF 8
 #define LX_SO_SNDBUF 7
 #define LX_SO_RCVTIMEO 20

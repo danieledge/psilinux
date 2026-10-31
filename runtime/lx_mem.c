@@ -160,7 +160,7 @@ void lx_mm_put(lx_mm *mm)
 	for (m = mm->maps; m; m = n) {
 		n = m->next;
 		if (m->file) lx_file_put(m->file);
-		if (m->simg) { bk_free(m); continue; }          /* (a shared library: lx_mm_unshare_all) */
+		if (m->simg || m->dev) { bk_free(m); continue; }   /* (a shared library: lx_mm_unshare_all; a device's memory stays) */
 		writeback(m, m->addr, m->len);
 		if (mm->dbt) dbt_invalidate(m->addr, m->addr + m->len);
 		lx_arena_free(m->addr, m->len);
@@ -289,6 +289,23 @@ int lx_sys_mmap(lx_thread *t, lx_u32 *a)
 	if (!(flags & LX_MAP_ANONYMOUS)) {
 		f = lx_fd_get(t->proc, fd);
 		if (!f) return -LX_EBADF;
+		if (f->ops->mmap) {
+			/* a device's own memory (the screen): the same pages for everyone */
+			int r = f->ops->mmap(t, f, rlen, off, &p);
+			if (r < 0) return r;
+			if (flags & LX_MAP_FIXED) return -LX_EINVAL;
+			m = (lx_map *)bk_alloc(sizeof *m);
+			if (!m) return -LX_ENOMEM;
+			m->addr = p;
+			m->len = rlen;
+			m->dev = 1;
+			m->file = lx_file_get(f);
+			m->prot = (int)prot;
+			m->flags = (int)flags;
+			m->next = mm->maps;
+			mm->maps = m;
+			return (int)p;
+		}
 		if (!f->ops->pread) return -LX_ENODEV;
 	}
 	if (flags & LX_MAP_FIXED) {
@@ -354,6 +371,17 @@ static int unmap_range(lx_mm *mm, lx_u32 addr, lx_u32 len)
 	while ((m = *pm) != 0) {
 		lx_u32 ms = m->addr, me = m->addr + m->len;
 		if (end <= ms || addr >= me) { pm = &m->next; continue; }
+		if (m->dev) {
+			/* a device's memory: the mapping goes, the memory stays */
+			if (addr <= ms && end >= me) {
+				*pm = m->next;
+				lx_file_put(m->file);
+				bk_free(m);
+				continue;
+			}
+			pm = &m->next;
+			continue;
+		}
 		if (m->simg) {
 			/* a shared library: it goes when all of it is unmapped */
 			if (addr <= ms && end >= me) {
@@ -439,7 +467,7 @@ int lx_sys_mremap(lx_thread *t, lx_u32 *a)
 	for (m = mm->maps; m; m = m->next)
 		if (m->addr == old) break;
 	if (!m || m->len != oldlen) return -LX_EFAULT;
-	if (m->simg) return -LX_EINVAL;
+	if (m->simg || m->dev) return newlen <= oldlen ? (int)old : -LX_EINVAL;
 	if (newlen == oldlen) return (int)old;
 	if (newlen < oldlen) {
 		if (!lx_fork_holds(mm, old, oldlen)) unmap_range(mm, old + newlen, oldlen - newlen);

@@ -49,4 +49,7 @@ Built by `build.sh` with makmake, from `app/` and some of PsiTerm's files.
 | `PsiLinux.sis` | PsiLinux.app, psilxrun.exe, the Terminus font, STDLIB.SIS | MIT, BSD 3-clause, OFL 1.1, Psion's runtime terms (above) |
 | `PsiLinux-root.sis` | `ROOT.IMG`: BusyBox, nano, git, curl and the rest, built from source | each program's own: GPL v2, GPL v3, MIT and others (SOURCES.md). The licences are in the image, in `/usr/share/licenses/` |
 | `PsiLinux-alpine-root.sis` | `ROOT.IMG`: Alpine Linux 3.24.2 for armhf, unmodified packages | each package's own: GPL v2, GPL v3 (bash, nano, readline...), MIT, BSD, Apache 2.0 and others (SOURCES.md; in the image, `/usr/share/licenses/`). `apk info -a NAME` shows a package's licence |
+| `PsiLinux-X.sis` | the X server, psiwm, xterm, xsetroot, xeyes, built from source | MIT/X11 for nearly all; Nettle LGPL v3 or GPL v2; psiwm's fonts OFL 1.1 and AGPL v3 with the font exception (SOURCES.md). In `licences.txt` beside them |
+| `PsiLinux-Links.sis` | Links 2.30 (graphics), built from source | **GPL v2 or later**, with Mbed TLS (Apache 2.0), libpng, libjpeg, zlib, DejaVu, MPL 2.0 certificates (SOURCES.md). In `Links-licences.txt` |
+| `PsiLinux-Doom.sis` | Doom (doomgeneric) and the shareware `doom1.wad` | **GPL v2**; the WAD is id Software's shareware terms (SOURCES.md) |
 | `LxProbe-test.sis` | the hardware probe (a test program) | MIT |

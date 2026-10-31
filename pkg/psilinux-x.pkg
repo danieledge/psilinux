@@ -1,0 +1,19 @@
+; PsiLinux-X 0.25 (test): the PsiLinux desktop, X11 on the Psion's own screen,
+; for PsiLinux 0.25 and later. psiwm: the window manager, toolbar and programs.
+; The X server (kdrive Xfbdev, built for the 5mx), xsetroot, xeyes and xterm, with the
+; keyboard maps. In PsiLinux: sh /d/Linux/X/startx (or /c/... if installed on C:).
+&EN
+#{"PsiLinux X"},(0x01000A91),0,25,0
+"Xfbdev"-"!:\Linux\X\Xfbdev"
+"xsetroot"-"!:\Linux\X\xsetroot"
+"xeyes"-"!:\Linux\X\xeyes"
+"xterm"-"!:\Linux\X\xterm"
+"psiwm"-"!:\Linux\X\psiwm"
+"psisplash"-"!:\Linux\X\psisplash"
+"psiwm-alone"-"!:\Linux\X\psiwm-alone"
+"startx"-"!:\Linux\X\startx"
+"stopx"-"!:\Linux\X\stopx"
+"default.xkm"-"!:\Linux\X\psi\default.xkm"
+"gb.xkm"-"!:\Linux\X\psi\gb.xkm"
+"us.xkm"-"!:\Linux\X\psi\us.xkm"
+"licences.txt"-"!:\Linux\X\Licences.txt"

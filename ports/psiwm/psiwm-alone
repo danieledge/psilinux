@@ -1,0 +1,24 @@
+#!/bin/sh
+# psiwm-alone PROGRAM [ARG...] - runs a program that takes the Psion's screen
+# and keys itself (/dev/fb0, /dev/input), such as Doom. They cannot be shared
+# with the X server, so: stop X, run the program, then start X again with the
+# command line it had, and psiwm (which starts this when you choose Doom).
+[ $# -gt 0 ] || { echo "usage: psiwm-alone PROGRAM [ARG...]" >&2; exit 2; }
+xpid=
+for p in /proc/[0-9]*; do
+	case $(cat "$p/comm" 2>/dev/null) in Xfbdev|X) xpid=${p#/proc/} ;; esac
+done
+[ -n "$xpid" ] || exec "$@"
+xcmd=$(tr '\0' ' ' < "/proc/$xpid/cmdline")
+disp=${DISPLAY:-:0}
+kill "$xpid"
+i=0
+while [ -d "/proc/$xpid" ] && [ $i -lt 20 ]; do sleep 1; i=$((i + 1)); done
+psisplash "Starting $(basename "$1")…" 60 2>/dev/null
+"$@"
+psisplash "Starting the X server…" 30 2>/dev/null
+$xcmd &
+# (until it answers: PsiLinux's Unix sockets make no file in /tmp/.X11-unix)
+i=0
+until DISPLAY=$disp xsetroot 2>/dev/null || [ $i -ge 60 ]; do sleep 1; i=$((i + 1)); done
+DISPLAY=$disp exec psiwm

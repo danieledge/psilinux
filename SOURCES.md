@@ -48,6 +48,65 @@ only to compile, and are not in the image.
 
 To rebuild the image from this source: [docs/BUILDING.md](docs/BUILDING.md).
 
+## PsiLinux-X.sis: the X desktop
+
+`\Linux\X\`: the X server Xfbdev (kdrive, from xorg-server 1.19.7), psiwm
+(PsiLinux's window manager and desktop, `ports/psiwm/`, MIT), xterm,
+xsetroot and xeyes, built by `ports/build-x11.sh` and `ports/build-psiwm.sh`.
+The libraries are linked into the programs. Every archive is fetched from
+https://www.x.org/releases/individual (or the address given) and pinned by
+sha256 in the script; three have a PsiLinux patch in `ports/patches/`. The
+scripts, the patches and `ports/psiwm/` with these archives are the complete
+corresponding source. `licences.txt` beside the programs holds every licence.
+
+| Component | Version | Licence |
+|---|---|---|
+| xorg-server (Xfbdev) | 1.19.7, with `xorg-server-1.19.7-psilinux.diff` | MIT/X11 |
+| pixman | 0.42.2, with `pixman-0.42.2-psilinux.diff` | MIT |
+| libX11 | 1.8.10, with `libX11-1.8.10-psilinux.diff` | MIT/X11 |
+| libxcb, xcb-proto | 1.17.0 | MIT |
+| libXau 1.0.11, libXext 1.3.6, libxkbfile 1.1.3, libfontenc 1.1.8, libXfont2 2.0.6, libXrender 0.9.11, libXfixes 6.0.1, libXcursor 1.2.2, libICE 1.1.1, libSM 1.2.4, libXt 1.3.0, libXmu 1.2.1, libXaw 1.0.16, xtrans 1.5.0, xorgproto 2024.1, xbitmaps 1.1.3 | as listed | MIT/X11 |
+| xkbcomp 1.4.7 and xkeyboard-config 2.42 (only the compiled keymaps, `psi*.xkm`, are installed) | as listed | MIT/X11 |
+| xterm | 397 (https://invisible-island.net/archives/xterm/xterm-397.tgz) | MIT/X11 |
+| xsetroot 1.1.3, xeyes 1.1.2 | as listed | MIT/X11 |
+| ncurses (in xterm) | 6.4 (https://ftp.gnu.org/gnu/ncurses/ncurses-6.4.tar.gz) | MIT-X11 |
+| Nettle (the server's SHA-1) | 3.9.1 (https://ftp.gnu.org/gnu/nettle/nettle-3.9.1.tar.gz) | **LGPL v3 or GPL v2**; it is linked into Xfbdev, so the script and the archives above are also what is needed to relink it with another Nettle |
+| zlib | 1.3.1 | zlib |
+| psiwm | this repository | MIT; its bitmap fonts are drawn from Liberation Sans (SIL OFL 1.1) and Nimbus Sans Narrow (URW base 35: **AGPL v3** with the font exception), see `ports/psiwm/THIRD-PARTY` |
+
+## PsiLinux-Links.sis: the web browser
+
+`\Linux\X\links`: Links 2.30 in graphics mode, built by
+`ports/build-links.sh` from http://links.twibright.com/download/links-2.30.tar.bz2
+with one patch (`ports/patches/links-2.30-psilinux.diff`) and PsiLinux's
+files in `ports/links/`. Links is under the **GPL v2 or later**; the script,
+the patch and `ports/links/` with the archives below are its complete
+corresponding source. `Links-licences.txt` beside it holds every licence.
+
+| Component | Version | Licence |
+|---|---|---|
+| Links | 2.30 | **GPL v2 or later** |
+| Mbed TLS | 3.6.2 | Apache 2.0 |
+| libpng | 1.6.43 (https://github.com/pnggroup/libpng/archive/refs/tags/v1.6.43.tar.gz) | libpng |
+| libjpeg | 9f (https://www.ijg.org/files/jpegsrc.v9f.tar.gz) | IJG |
+| zlib | 1.3.1 | zlib |
+| DejaVu fonts (drawn into Links' built-in font) | 2.37 | Bitstream Vera / DejaVu (free, with a naming condition) |
+| CA certificates (`ca-certificates.crt`) | 2024-09-24 | MPL 2.0 |
+
+## PsiLinux-Doom.sis: Doom
+
+`\Linux\Doom\`: `doomgeneric`, Doom (Chocolate Doom by way of
+[doomgeneric](https://github.com/ozkl/doomgeneric)), built by
+`ports/build-doom.sh` from commit e257a09527062bfb986b6e5e0780839b6cbd5b71
+(https://github.com/ozkl/doomgeneric/archive/e257a09527062bfb986b6e5e0780839b6cbd5b71.tar.gz,
+pinned by sha256) with one patch (`ports/patches/doomgeneric-e257a09-psilinux.diff`)
+and PsiLinux's screen and keyboard code (`ports/doom/`). The program is under
+the **GPL v2**; the script, the patch and `ports/doom/` with the upstream
+archive are its complete corresponding source, and `Licences.txt` beside it
+holds the licence. `doom1.wad` is id Software's shareware episode, version
+1.9, unmodified (pinned by sha256 in the script), which may be given away but
+not changed or sold; it is not in this repository.
+
 ## PsiLinux-alpine-root.sis (and -2 to -5): Alpine Linux 3.24.2
 
 `\Linux\Alpine\ROOT.IMG` and its parts (ROOT.I01...: one image cut into

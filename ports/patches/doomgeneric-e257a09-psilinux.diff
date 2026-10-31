@@ -1,0 +1,395 @@
+PsiLinux: doomgeneric e257a09 for the Psion (ports/build-doom.sh, -DPSILINUX): a 3 MB zone
+by default, no 32-bit copy of the screen (i_psilinux.c draws into /dev/fb0),
+TryRunTics sleeps until the next tic instead of 1 ms at a time and lets the
+game keep time down to 5 frames a second, the column and span drawers made
+fast on an ARM710T (r_draw.c: globals in locals, no AND for the texture row,
+four pixels a turn), the settings kept (default.cfg and the saved games
+beside Doom, which doomgeneric left out), and -playdemo fixed (its demo's
+name outlived D_DoomMain).
+
+diff -ruN a/doomgeneric/d_loop.c b/doomgeneric/d_loop.c
+--- a/doomgeneric/d_loop.c	2026-10-30 23:54:58.469901607 +0000
++++ b/doomgeneric/d_loop.c	2026-10-31 09:39:12.252952051 +0000
+@@ -159,8 +159,15 @@
+        // If playing single player, do not allow tics to buffer
+        // up very far
+ 
++#ifdef PSILINUX
++       // (a slow machine: up to 7 tics a frame, so that the game keeps
++       // time down to 5 frames a second instead of slowing down below 12)
++       if (!net_client_connected && maketic - gameticdiv > 6)
++           return false;
++#else
+        if (!net_client_connected && maketic - gameticdiv > 2)
+            return false;
++#endif
+ 
+        // Never go more than ~200ms ahead
+ 
+@@ -781,7 +788,17 @@
+ 	    return;
+ 	}
+ 
++#ifdef PSILINUX
++        // sleep until the next tic, not a millisecond at a time (the
++        // Psion's clock ticks every 15.6 ms anyway)
++        {
++            int next = ((I_GetTime() + 1) * 1000 + TICRATE - 1) / TICRATE;
++            int ms = next - I_GetTimeMS();
++            I_Sleep(ms > 0 ? ms : 1);
++        }
++#else
+         I_Sleep(1);
++#endif
+     }
+ 
+     // run the count * ticdup dics
+diff -ruN a/doomgeneric/d_main.c b/doomgeneric/d_main.c
+--- a/doomgeneric/d_main.c	2026-10-30 23:54:58.469901607 +0000
++++ b/doomgeneric/d_main.c	2026-10-31 09:43:54.104833440 +0000
+@@ -1164,7 +1164,8 @@
+ {
+     int p;
+     char file[256];
+-    char demolumpname[9];
++    static char demolumpname[9];   // (PsiLinux: static. G_DeferedPlayDemo keeps a pointer to it,
++                                   // and doomgeneric returns from D_DoomMain before the demo loads)
+ #if ORIGCODE
+     int numiwadlumps;
+ #endif
+diff -ruN a/doomgeneric/doomgeneric.c b/doomgeneric/doomgeneric.c
+--- a/doomgeneric/doomgeneric.c	2026-10-30 23:54:58.471901656 +0000
++++ b/doomgeneric/doomgeneric.c	2026-10-30 23:54:58.518902812 +0000
+@@ -18,7 +18,9 @@
+ 
+ 	M_FindResponseFile();
+ 
++#ifndef PSILINUX
+ 	DG_ScreenBuffer = malloc(DOOMGENERIC_RESX * DOOMGENERIC_RESY * 4);
++#endif
+ 
+ 	DG_Init();
+ 
+diff -ruN a/doomgeneric/i_system.c b/doomgeneric/i_system.c
+--- a/doomgeneric/i_system.c	2026-10-30 23:54:58.475901755 +0000
++++ b/doomgeneric/i_system.c	2026-10-30 23:54:58.519902837 +0000
+@@ -55,8 +55,13 @@
+ #include <CoreFoundation/CFUserNotification.h>
+ #endif
+ 
++#ifdef PSILINUX
++#define DEFAULT_RAM 3 /* MiB: a 5mx has about 9 free */
++#define MIN_RAM     2  /* MiB */
++#else
+ #define DEFAULT_RAM 6 /* MiB */
+ #define MIN_RAM     6  /* MiB */
++#endif
+ 
+ 
+ typedef struct atexit_listentry_s atexit_listentry_t;
+diff -ruN a/doomgeneric/m_config.c b/doomgeneric/m_config.c
+--- a/doomgeneric/m_config.c	2026-10-30 23:54:58.477901803 +0000
++++ b/doomgeneric/m_config.c	2026-10-31 09:26:45.914791807 +0000
+@@ -1608,7 +1608,7 @@
+ 
+ static void SaveDefaultCollection(default_collection_t *collection)
+ {
+-#if ORIGCODE
++#if ORIGCODE || defined(PSILINUX)    // (the settings are kept on the Psion)
+     default_t *defaults;
+     int i, v;
+     FILE *f;
+@@ -1770,7 +1770,7 @@
+ 
+ static void LoadDefaultCollection(default_collection_t *collection)
+ {
+-#if ORIGCODE
++#if ORIGCODE || defined(PSILINUX)
+     FILE *f;
+     default_t *def;
+     char defname[80];
+@@ -2042,11 +2042,17 @@
+ 
+ static char *GetDefaultConfigDir(void)
+ {
++#ifdef PSILINUX
++    // "./": the files are default.cfg, not .default.cfg (the launcher
++    // runs Doom in its own folder, on the Psion's disk)
++    return strdup("./");
++#else
+     char *result = (char *)malloc(2);
+     result[0] = '.';
+     result[1] = '\0';
+ 
+     return result;
++#endif
+ }
+ 
+ // 
+@@ -2115,9 +2121,14 @@
+ 
+         free(topdir);
+ #else
++#ifdef PSILINUX
++        // (beside default.cfg: no folder whose name starts with a dot)
++        savegamedir = strdup(configdir);
++#else
+         savegamedir = M_StringJoin(configdir, DIR_SEPARATOR_S, ".savegame/", NULL);
+ 
+         M_MakeDirectory(savegamedir);
++#endif
+ 
+         printf ("Using %s for savegames\n", savegamedir);
+ #endif
+diff -ruN a/doomgeneric/r_draw.c b/doomgeneric/r_draw.c
+--- a/doomgeneric/r_draw.c	2026-10-30 23:54:58.483901951 +0000
++++ b/doomgeneric/r_draw.c	2026-10-31 09:23:22.392839617 +0000
+@@ -99,6 +99,54 @@
+ // Thus a special case loop for very fast rendering can
+ //  be used. It has also been used with Wolfenstein 3D.
+ // 
++#ifdef PSILINUX
++// PsiLinux (an ARM710T, where these loops are half of every frame): the
++// globals in locals (else GCC loads dc_source and dc_colormap again after
++// every byte stored, as the store might have changed them), frac kept shifted
++// up 9 so that frac >> 25 is the texture row (mod 128) with no AND (an LDRB
++// with a shifted index), and four pixels a turn of the loop.
++void R_DrawColumn (void)
++{
++    int			count;
++    byte*		dest;
++    const byte*		source = dc_source;
++    const lighttable_t*	colormap = dc_colormap;
++    unsigned int	frac;
++    unsigned int	fracstep;
++
++    count = dc_yh - dc_yl;
++    if (count < 0)
++	return;
++
++#ifdef RANGECHECK
++    if ((unsigned)dc_x >= SCREENWIDTH
++	|| dc_yl < 0
++	|| dc_yh >= SCREENHEIGHT)
++	I_Error ("R_DrawColumn: %i to %i at %i", dc_yl, dc_yh, dc_x);
++#endif
++
++    dest = ylookup[dc_yl] + columnofs[dc_x];
++    fracstep = (unsigned int) dc_iscale << 9;
++    frac = (unsigned int) (dc_texturemid + (dc_yl-centery)*dc_iscale) << 9;
++    count++;
++
++    while (count >= 4)
++    {
++	dest[0] = colormap[source[frac >> 25]]; frac += fracstep;
++	dest[SCREENWIDTH] = colormap[source[frac >> 25]]; frac += fracstep;
++	dest[SCREENWIDTH*2] = colormap[source[frac >> 25]]; frac += fracstep;
++	dest[SCREENWIDTH*3] = colormap[source[frac >> 25]]; frac += fracstep;
++	dest += SCREENWIDTH*4;
++	count -= 4;
++    }
++    while (count--)
++    {
++	*dest = colormap[source[frac >> 25]];
++	dest += SCREENWIDTH;
++	frac += fracstep;
++    }
++}
++#else
+ void R_DrawColumn (void) 
+ { 
+     int			count; 
+@@ -143,6 +191,7 @@
+ 	
+     } while (count--); 
+ } 
++#endif
+ 
+ 
+ 
+@@ -205,6 +254,50 @@
+ #endif
+ 
+ 
++#ifdef PSILINUX
++// (as R_DrawColumn above: each pixel twice across)
++void R_DrawColumnLow (void)
++{
++    int			count;
++    byte*		dest;
++    const byte*		source = dc_source;
++    const lighttable_t*	colormap = dc_colormap;
++    unsigned int	frac;
++    unsigned int	fracstep;
++    byte		c;
++
++    count = dc_yh - dc_yl;
++    if (count < 0)
++	return;
++
++#ifdef RANGECHECK
++    if ((unsigned)dc_x >= SCREENWIDTH
++	|| dc_yl < 0
++	|| dc_yh >= SCREENHEIGHT)
++	I_Error ("R_DrawColumn: %i to %i at %i", dc_yl, dc_yh, dc_x);
++#endif
++
++    dest = ylookup[dc_yl] + columnofs[dc_x << 1];    // (columnofs[x+1] is the next byte)
++    fracstep = (unsigned int) dc_iscale << 9;
++    frac = (unsigned int) (dc_texturemid + (dc_yl-centery)*dc_iscale) << 9;
++    count++;
++
++    while (count >= 2)
++    {
++	c = colormap[source[frac >> 25]]; frac += fracstep;
++	dest[0] = c; dest[1] = c;
++	c = colormap[source[frac >> 25]]; frac += fracstep;
++	dest[SCREENWIDTH] = c; dest[SCREENWIDTH+1] = c;
++	dest += SCREENWIDTH*2;
++	count -= 2;
++    }
++    if (count)
++    {
++	c = colormap[source[frac >> 25]];
++	dest[0] = c; dest[1] = c;
++    }
++}
++#else
+ void R_DrawColumnLow (void) 
+ { 
+     int			count; 
+@@ -249,6 +342,7 @@
+ 
+     } while (count--);
+ }
++#endif
+ 
+ 
+ //
+@@ -587,6 +681,55 @@
+ 
+ //
+ // Draws the actual span.
++#ifdef PSILINUX
++// (locals for the globals, as R_DrawColumn, and four pixels a turn)
++void R_DrawSpan (void)
++{
++    unsigned int position, step;
++    byte *dest;
++    const byte *source = ds_source;
++    const lighttable_t *colormap = ds_colormap;
++    int count;
++
++#ifdef RANGECHECK
++    if (ds_x2 < ds_x1
++	|| ds_x1<0
++	|| ds_x2>=SCREENWIDTH
++	|| (unsigned)ds_y>SCREENHEIGHT)
++    {
++	I_Error( "R_DrawSpan: %i to %i at %i",
++		 ds_x1,ds_x2,ds_y);
++    }
++#endif
++
++    position = ((ds_xfrac << 10) & 0xffff0000)
++             | ((ds_yfrac >> 6)  & 0x0000ffff);
++    step = ((ds_xstep << 10) & 0xffff0000)
++         | ((ds_ystep >> 6)  & 0x0000ffff);
++
++    dest = ylookup[ds_y] + columnofs[ds_x1];
++    count = ds_x2 - ds_x1 + 1;
++
++    // (the mask in a register: one AND with a shifted operand, not two)
++    unsigned int m = 0x0fc0;
++    __asm__ ("" : "+r" (m));
++#define SPOT(p) ((((p) >> 4) & m) | ((p) >> 26))
++    while (count >= 4)
++    {
++	dest[0] = colormap[source[SPOT(position)]]; position += step;
++	dest[1] = colormap[source[SPOT(position)]]; position += step;
++	dest[2] = colormap[source[SPOT(position)]]; position += step;
++	dest[3] = colormap[source[SPOT(position)]]; position += step;
++	dest += 4;
++	count -= 4;
++    }
++    while (count--)
++    {
++	*dest++ = colormap[source[SPOT(position)]];
++	position += step;
++    }
++}
++#else
+ void R_DrawSpan (void) 
+ { 
+     unsigned int position, step;
+@@ -637,6 +780,7 @@
+ 
+     } while (count--);
+ }
++#endif
+ 
+ 
+ 
+@@ -716,6 +860,54 @@
+ //
+ // Again..
+ //
++#ifdef PSILINUX
++// (as R_DrawSpan above: each pixel twice across)
++void R_DrawSpanLow (void)
++{
++    unsigned int position, step;
++    byte *dest;
++    const byte *source = ds_source;
++    const lighttable_t *colormap = ds_colormap;
++    int count;
++    byte c;
++
++#ifdef RANGECHECK
++    if (ds_x2 < ds_x1
++	|| ds_x1<0
++	|| ds_x2>=SCREENWIDTH
++	|| (unsigned)ds_y>SCREENHEIGHT)
++    {
++	I_Error( "R_DrawSpan: %i to %i at %i",
++		 ds_x1,ds_x2,ds_y);
++    }
++#endif
++
++    position = ((ds_xfrac << 10) & 0xffff0000)
++             | ((ds_yfrac >> 6)  & 0x0000ffff);
++    step = ((ds_xstep << 10) & 0xffff0000)
++         | ((ds_ystep >> 6)  & 0x0000ffff);
++
++    count = ds_x2 - ds_x1 + 1;
++    dest = ylookup[ds_y] + columnofs[ds_x1 << 1];
++    unsigned int m = 0x0fc0;
++    __asm__ ("" : "+r" (m));
++
++    while (count >= 2)
++    {
++	c = colormap[source[SPOT(position)]]; position += step;
++	dest[0] = c; dest[1] = c;
++	c = colormap[source[SPOT(position)]]; position += step;
++	dest[2] = c; dest[3] = c;
++	dest += 4;
++	count -= 2;
++    }
++    if (count)
++    {
++	c = colormap[source[SPOT(position)]];
++	dest[0] = c; dest[1] = c;
++    }
++}
++#else
+ void R_DrawSpanLow (void)
+ {
+     unsigned int position, step;
+@@ -765,6 +957,7 @@
+ 
+     } while (count--);
+ }
++#endif
+ 
+ //
+ // R_InitBuffer 

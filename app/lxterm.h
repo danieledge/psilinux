@@ -48,6 +48,14 @@ const TInt KLxZoomLevels = 5;
 
 class CLxTermView;
 
+// told when Linux's screen (/dev/fb0) opens or closes, and when the runner rings
+class MLxScreenHook
+	{
+public:
+	virtual void ScreenOnOff(TBool aOn) = 0;
+	virtual void ScreenPump() = 0;
+	};
+
 // The link to the runner. One session at a time.
 class CLxSession : public CBase
 	{
@@ -67,10 +75,11 @@ public:
 	void Resize(TInt aRows, TInt aCols);
 	void Pump();                       // output to the view, the runner's state
 	void Beat() { if (iShared) iShared->app_beat++; }
+	void Ring();                       // the runner's doorbell (keys or the pen waiting for it)
+	void SetScreenHook(MLxScreenHook* aHook) { iScreenHook = aHook; }
 private:
 	static TInt BellCallback(TAny* aSelf);
 	static TInt TickCallback(TAny* aSelf);
-	void Ring();
 	void Arm();
 	CLxTermView& iView;
 	RChunk iChunk;
@@ -86,6 +95,9 @@ private:
 	CPeriodic* iTick;
 	TInt iLastState;
 	TUint iLastInfo;
+	MLxScreenHook* iScreenHook;
+	TUint iFbSeq;
+	TBool iFbOn;
 	};
 
 class CLxTermView : public CCoeControl

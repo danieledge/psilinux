@@ -1,0 +1,13 @@
+; PsiLinux-Links 0.25 (test): Links 2.30, a graphical web browser for the
+; PsiLinux desktop (X), for PsiLinux-X 0.25 and later. Install it on the same
+; drive as PsiLinux X: it goes next to X, in \Linux\X\, where psiwm's Web icon
+; finds it. In PsiLinux, with X running: DISPLAY=:0 links http://... &
+; links: the program (TLS by Mbed TLS, pictures, DejaVu fonts, all built in).
+; ca-certificates.crt: the certificate authorities Links trusts (Mozilla's).
+; Built by ports/build-links.sh; "bash ports/build-links.sh sis" in psion-build.
+&EN
+#{"PsiLinux Links"},(0x01000A99),0,25,0
+(0x01000A91),0,25,0,{"PsiLinux X"}
+"links"-"!:\Linux\X\links"
+"ca-certificates.crt"-"!:\Linux\X\ca-certificates.crt"
+"licences.txt"-"!:\Linux\X\Links-licences.txt"

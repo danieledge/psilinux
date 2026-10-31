@@ -1,0 +1,1919 @@
+Links 2.30 for PsiLinux (links -g on the Psion's X desktop). Applied by ports/build-links.sh.
+Built with -DPSILINUX; TLS through mbossl (ports/links/mbossl: OpenSSL's API over Mbed TLS).
+- default.c, setup.h (PSILINUX): defaults for 640x240 in 16 greys and ~9 MB: 512 KB picture
+  cache, 1 MB memory cache, 256 KB font cache, 2 formatted pages, 4 connections (2 a host),
+  no async DNS (fork is a snapshot vfork), 15 px text, 14 px menus, white pages, flat greys
+  for the menus and scroll bars (n * 0x11 and in Links' 6x6x6 cube), letters not dithered
+- links.h, https.c (MBOSSL): the certificate check is Mbed TLS's, done in the handshake
+  (chain, dates, name); verify_ssl_certificate asks mbossl for the outcome and the issuers;
+  no built-in certificate store (the system's bundle is read on demand)
+- links.h, default.c, sched.c, http.c, url.c, menu.c: option https_via_http_proxy
+  (Setup > Network options > Proxies, "https:// through the HTTP proxy (it does the
+  TLS)"): with an HTTP proxy such as PsiProxy set, https:// pages are asked of it
+  as "GET https://..." instead of through CONNECT, so the proxy does the TLS (and can
+  slim the page) and the Psion makes no handshake. Off by default; no proxy is built in.
+- html.c, html_r.c, html_tbl.c (PSIWEB, PSI_STRIKES: PsiWeb's hunks unchanged): links
+  underlined (blue is all but black in 16 greys); no "Link: canonical/alternate" lines and
+  no prefetches; the parser's fast paths and the form search that is no longer quadratic
+  (big pages on a 36 MHz ARM); list bullets from the hinted font
+- jpeg.c (PSI_JPEG_SCALE, PsiWeb's hunk unchanged; on with PSILINUX): libjpeg scales by n/8
+  to near the size shown, colour JPEGs decoded as grey, buffered-image mode only for
+  progressive JPEGs, which take in all their data before a scan is shown
+- links.h, dither.c, x.c (PSILINUX): grey mode. On an 8-bit PseudoColor visual (the Psion's
+  X server, shown in 16 greys), Links allocates 31 greys in the default colour map (the 16
+  levels and the halfway greys, which the Psion shows as an even checker) and draws in
+  them: plain colours become their Rec.601 grey, as the Psion makes them, and pictures
+  are dithered once (Floyd-Steinberg in light) instead of into the 6x6x6 cube that the
+  Psion would dither again. No private colour map to install. LINKS_COLOUR=1: as before.
+- dip.c (PSIWEB, PSI_STRIKES: PsiWeb's hunk unchanged), links.h, html_r.c: text
+  from hinted DejaVu strikes pre-rendered at the cell heights drawn for the 15 px body
+  size (ports/links/mkstrike.py), Links' masters (mkfont.py, run-length) otherwise; the
+  glyph and picture scalers without divisions or soft float; glyph and width caches; the
+  page's base size tells dip.c when the strikes apply (html_r.c)
+- default.c, main.c, x.c (PSILINUX): with $DISPLAY set, links is the graphical browser
+  without -g (psiwm's Web entry runs plain "links"; -no-g for text mode); the window
+  starts as big as the screen (psiwm then fits it to its workspace); session.c: the
+  window's title is the page's alone (psiwm's toolbar already says Links)
+- bfu.c (PSILINUX): on a screen under 400 pixels high, a dialog's label and field share a
+  line where both fit, with half the gap after them: Links cannot scroll a dialog, and
+  the taller ones (Proxies, Cache, ...) were cut off at 240 pixels
+
+--- a/bfu.c
++++ b/bfu.c
+@@ -2080,6 +2080,33 @@
+ 
+ void dlg_format_text_and_field(struct dialog_data *dlg, struct terminal *term, unsigned char *text, struct dialog_item_data *item, int x, int *y, int w, int *rw, unsigned char co, int align)
+ {
++#if defined(PSILINUX) && defined(G)
++	/* PsiLinux: on a screen as short as the Psion's (240 pixels) a dialog
++	   that does not fit is cut off, as Links cannot scroll one. So a label
++	   and its field share a line where there is room for both, and the gap
++	   the dialog leaves after it (a line) is halved. The test does not
++	   depend on w beyond what rw asks for, so both layout passes agree. */
++	if (F && !dlg->win->term->spec->braille && dlg->win->term->y < 400) {
++		unsigned char *t = get_text_translation(text, dlg->win->term);
++		int gap = G_BFU_FONT_SIZE / 2, minf = G_BFU_FONT_SIZE * 6;
++		int fl = item->item->dlen * G_DIALOG_FIELD_WIDTH;
++		int tw = strchr(cast_const_char t, '\n') ? w + 1 : g_text_width(bfu_style_bw, t) + 1;
++		if (fl < minf) minf = fl;
++		if (tw + gap + minf <= w) {
++			int yy = *y;
++			dlg_format_text(dlg, term, t, x, &yy, tw, NULL, co, AL_LEFT);
++			if (term) {
++				item->x = x + tw + gap;
++				item->y = *y;
++				item->l = w - tw - gap;
++				if (item->l > fl) item->l = fl;
++			}
++			if (rw && tw + gap + minf > *rw) *rw = tw + gap + minf;
++			*y += G_BFU_FONT_SIZE - G_BFU_FONT_SIZE / 2;
++			return;
++		}
++	}
++#endif
+ 	if (!dlg->win->term->spec->braille) {
+ 		dlg_format_text(dlg, term, text, x, y, w, rw, co, align);
+ 		dlg_format_field(dlg, term, item, x, y, w, rw, align);
+--- a/default.c
++++ b/default.c
+@@ -2084,7 +2084,11 @@
+ 	if (links_home) mem_free(links_home);
+ }
+ 
++#ifdef PSILINUX
++int ggr = -1;	/* -1: graphics if $DISPLAY is set (main.c, fixup_g) */
++#else
+ int ggr = 0;
++#endif
+ int force_g = 0;
+ unsigned char ggr_drv[MAX_STR_LEN] = "";
+ unsigned char ggr_mode[MAX_STR_LEN] = "";
+@@ -2106,7 +2110,11 @@
+ int dump_codepage = -1;
+ int force_html = 0;
+ 
+-#ifdef DOS
++#if defined(PSILINUX)
++/* PsiLinux: every TLS connection holds a 16 KB record buffer and more */
++int max_connections = 4;
++int max_connections_to_host = 2;
++#elif defined(DOS)
+ /* DOS networking is slow with too many connections */
+ int max_connections = 3;
+ int max_connections_to_host = 2;
+@@ -2122,14 +2130,22 @@
+ unsigned char bind_ipv6_address[INET6_ADDRSTRLEN] = "";
+ int download_utime = 0;
+ 
++#ifdef PSILINUX
++/* PsiLinux: the Psion has about 9 MB free, and X takes 2 of them */
++int max_format_cache_entries = 2;
++int memory_cache_size = 1048576;
++int image_cache_size = 524288;
++int font_cache_size = 262144;
++#else
+ int max_format_cache_entries = 5;
+ int memory_cache_size = 4194304;
+ int image_cache_size = 1048576;
+ int font_cache_size = 2097152;
++#endif
+ int aggressive_cache = 1;
+ 
+ struct ipv6_options ipv6_options = { ADDR_PREFERENCE_DEFAULT };
+-struct proxies proxies = { "", "", "", "", "", "", 0 };
++struct proxies proxies = { "", "", "", "", "", "", 0, 0 };
+ struct ssl_options ssl_options = { SSL_WARN_ON_INVALID_CERTIFICATE,
+ #if defined(DOS) || defined(OPENVMS)
+ 	1,
+@@ -2137,7 +2153,13 @@
+ 	0,
+ #endif
+ 	"", "", "" };
++#ifdef PSILINUX
++/* (PsiLinux's fork is a vfork with a snapshot: the parent waits for the
++   child, so a DNS process would gain nothing and copy the whole heap) */
++int async_lookup = 0;
++#else
+ int async_lookup = 1;
++#endif
+ unsigned char dns_over_https[MAX_STR_LEN] = "";
+ struct http_options http_options = { 0, 1, 0, 0, 0, { 0, 0, REFERER_REAL_SAME_SERVER, "", "", "" } };
+ struct ftp_options ftp_options = { "somebody@host.domain", 1, 0, 1 };
+@@ -2160,7 +2182,12 @@
+ double user_gamma = 1.0; /* 1.0 for 64 lx. This is the number user directly changes in the menu */
+ double bfu_aspect = 1; /* 0.1 to 10.0, 1.0 default. >1 makes circle wider */
+ int display_optimize = 0;	/*0=CRT, 1=LCD RGB, 2=LCD BGR */
++#ifdef PSILINUX
++/* (the Psion's 16 greys: text in the palette's nearest colour, not dithered) */
++int dither_letters = 0;
++#else
+ int dither_letters = 1;
++#endif
+ int dither_images = 1;
+ int gamma_bits = 2;	/*0 --- 8, 1 --- 16, 2 --- auto */
+ int overwrite_instead_of_scroll = 1;
+@@ -2178,7 +2205,11 @@
+ #endif
+ 
+ 
++#ifdef PSILINUX
++int menu_font_size = 14;
++#else
+ int menu_font_size = G_BFU_DEFAULT_FONT_SIZE;
++#endif
+ 
+ unsigned G_BFU_FG_COLOR = G_DEFAULT_BFU_FG_COLOR;
+ unsigned G_BFU_BG_COLOR = G_DEFAULT_BFU_BG_COLOR;
+@@ -2207,7 +2238,11 @@
+ 	0, /* num_links */
+ 	0, /* table_order */
+ 	0, /* auto_refresh */
++#ifdef PSILINUX
++	15, /* font_size (640x240) */
++#else
+ 	20, /* font_size */
++#endif
+ 	1, /* display images */
+ 	100, /* image scale */
+ 	0, /* porn enable */
+@@ -2216,9 +2251,16 @@
+ 	3, /* t link color */
+ 	0, /* t background color */
+ 	0, /* t ignore document color */
++#ifdef PSILINUX
++	/* greys the Psion shows flat (n * 0x11, and in Links' 6x6x6 cube) */
++	0x000000, /* g text color */
++	0x000000, /* g link color (underlined: html.c) */
++	0xffffff, /* g background color */
++#else
+ 	0x000000, /* g text color */
+ 	0x0000ff, /* g link color */
+ 	0xc0c0c0, /* g background color */
++#endif
+ 	0, /* g ignore document color */
+ };
+ 
+@@ -2270,6 +2312,7 @@
+ 	{1, noproxy_cmd, str_rd, str_wr, 0, MAX_STR_LEN, proxies.no_proxy, "no_proxy_domains", "no-proxy-domains"},
+ 	{1, gen_cmd, str_rd, str_wr, 0, MAX_STR_LEN, proxies.dns_append, "append_text_to_dns_lookups", "append-text-to-dns-lookups"},
+ 	{1, gen_cmd, num_rd, num_wr, 0, 1, &proxies.only_proxies, "only_proxies", "only-proxies"},
++	{1, gen_cmd, num_rd, num_wr, 0, 1, &proxies.https_via_http, "https_via_http_proxy", "https-via-http-proxy"},
+ 	{1, gen_cmd, num_rd, num_wr, 0, 2, &ssl_options.certificates, "ssl.certificates", "ssl.certificates"},
+ 	{1, gen_cmd, num_rd, num_wr, 0, 1, &ssl_options.built_in_certificates, "ssl.builtin_certificates", "ssl.builtin-certificates"},
+ 	{1, gen_cmd, str_rd, str_wr, 0, MAX_STR_LEN, &ssl_options.client_cert_key, "ssl.client_cert_key", "ssl.client-cert-key"},
+--- a/dip.c
++++ b/dip.c
+@@ -12,6 +12,12 @@
+ 
+ #include "links.h"
+ 
++#ifdef PSI_EPOC
++/* the gamma table for sRGB pictures, made at build time (web/links/mkdither.py) */
++#define PSI_WANT_IMG_GAMMA
++#include "dither_psi.inc"
++#endif
++
+ #ifdef HAVE_MATH_H
+ #include <math.h>
+ #endif /* HAVE_MATH_H */
+@@ -230,10 +236,31 @@
+ }
+ 
+ /* We assume unsigned holds at least 32 bits */
++#ifdef PSIWEB
++/* The scalers divide every output pixel by the same weight (the size of
++   the source, at most 256 * weight): with no divide instruction on the
++   ARM, that is a multiply by a reciprocal instead, which gives exactly
++   the same quotient while weight < 181 (fonts; pictures use the colour
++   scalers). */
++#define PSI_RECIP_OK(w) ((w) < 181)
++#define PSI_RECIP(w) (((1U << 23) + (w) - 1) / (w))
++#endif
++
+ static void emit_and_bias_col_gray(unsigned *my_restrict col_buf, unsigned char *my_restrict out,
+ 	size_t line_skip, size_t n, unsigned weight)
+ {
+ 	unsigned half=weight>>1;
++#ifdef PSIWEB
++	if (PSI_RECIP_OK(weight)) {
++		unsigned m = PSI_RECIP(weight);
++		for (;n;n--) {
++			*out=(unsigned char)((*col_buf*m)>>23);
++			out+=line_skip;
++			*col_buf++=half;
++		}
++		return;
++	}
++#endif
+ 
+ 	for (;n;n--) {
+ 		*out=*col_buf/weight;
+@@ -247,6 +274,16 @@
+ 	size_t n, unsigned weight)
+ {
+ 	unsigned half=weight>>1;
++#ifdef PSIWEB
++	if (PSI_RECIP_OK(weight)) {
++		unsigned m = PSI_RECIP(weight);
++		for (;n;n--) {
++			*out++=(unsigned char)((*row_buf*m)>>23);
++			*row_buf++=half;
++		}
++		return;
++	}
++#endif
+ 
+ 	for (;n;n--) {
+ 		*out++=*row_buf/weight;
+@@ -274,6 +311,29 @@
+ 
+ #ifdef USE_FP_SCALE
+ #define	op(x)	((x) * inv_weight)
++#elif defined(PSIWEB)
++/* The colour scaler divides three sums an output pixel by the same weight.
++   With no divide instruction, that is a division by an invariant
++   (Granlund and Montgomery): a 32x32 high multiply, done in 16-bit
++   pieces as the ARM710 has no long multiply, and two shifts. Exact for
++   every 32-bit dividend; larger sums still take the 64-bit division. */
++struct psi_div { unsigned long m; int s1, s2; };
++static void psi_div_init(struct psi_div *v, unsigned long d)
++{
++	int l = 0;
++	while (l < 32 && (1ULL << l) < d) l++;
++	v->m = (unsigned long)(((1ULL << 32) * ((1ULL << l) - d)) / d + 1);
++	v->s1 = l < 1 ? l : 1;
++	v->s2 = l > 1 ? l - 1 : 0;
++}
++static inline unsigned long psi_div(unsigned long n, const struct psi_div *v)
++{
++	unsigned long al = v->m & 0xffff, ah = v->m >> 16, bl = n & 0xffff, bh = n >> 16;
++	unsigned long p0 = al * bl, p1 = al * bh, p2 = ah * bl, p3 = ah * bh;
++	unsigned long t = p3 + (p1 >> 16) + (p2 >> 16) + (((p0 >> 16) + (p1 & 0xffff) + (p2 & 0xffff)) >> 16);
++	return (t + ((n - t) >> v->s1)) >> v->s2;
++}
++#define op(x)	((x) == (unsigned long)(x) ? psi_div((unsigned long)(x), &dv) : (x) / weight)
+ #else
+ #define op(x)	(sizeof(unsigned long) < sizeof(scale_t) && (x) == (unsigned long)(x) ? (unsigned long)(x) / weight : (x) / weight)
+ #endif
+@@ -287,6 +347,9 @@
+ 	scale_t half=(scale_t)weight / 2;
+ #ifdef USE_FP_SCALE
+ 	scale_t inv_weight = (scale_t)1 / weight;
++#elif defined(PSIWEB)
++	struct psi_div dv;
++	psi_div_init(&dv, weight);
+ #endif
+ 	for (;n;n--) {
+ 		out[0]=(unsigned short)op(col_buf[0]);
+@@ -314,6 +377,9 @@
+ 	scale_t half=(scale_t)weight / 2;
+ #ifdef USE_FP_SCALE
+ 	scale_t inv_weight = (scale_t)1 / weight;
++#elif defined(PSIWEB)
++	struct psi_div dv;
++	psi_div_init(&dv, weight);
+ #endif
+ 	for (;n;n--) {
+ 		out[0]=(unsigned short)op(row_buf[0]);
+@@ -1111,6 +1177,43 @@
+ {
+ 	unsigned char mask, cmask;
+ 
++#ifdef PSIWEB
++	/* x / 255 without a divide (exact for all x here, < 2^24), and grey
++	   text (all three channels the same) worked out once a pixel */
++#define PSI_D255(x) ({ unsigned x_ = (x), q_ = (x_ + (x_ >> 8) + 1) >> 8; q_ + (x_ - ((q_ << 8) - q_) >= 255); })
++	if (r0 == g0 && r0 == b0 && r255 == g255 && r255 == b255) {
++		for (;length;length--) {
++			unsigned short v;
++			mask=*alpha++;
++			if (((mask+1)&255)>=2) v = (unsigned short)PSI_D255(mask*r255+(255-mask)*r0+127);
++			else v = mask ? r255 : r0;
++			dest[0] = dest[1] = dest[2] = v;
++			dest+=3;
++		}
++		return;
++	}
++	for (;length;length--) {
++		mask=*alpha++;
++		if (((mask+1)&255)>=2) {
++			cmask=255-mask;
++			dest[0]=PSI_D255(mask*r255+cmask*r0+127);
++			dest[1]=PSI_D255(mask*g255+cmask*g0+127);
++			dest[2]=PSI_D255(mask*b255+cmask*b0+127);
++		}else{
++			if (mask) {
++				dest[0]=r255;
++				dest[1]=g255;
++				dest[2]=b255;
++			}else{
++				dest[0]=r0;
++				dest[1]=g0;
++				dest[2]=b0;
++			}
++		}
++		dest+=3;
++	}
++	return;
++#endif
+ 	for (;length;length--) {
+ 		mask=*alpha++;
+ 		if (((mask+1)&255)>=2) {
+@@ -1407,6 +1510,25 @@
+ 	unsigned short last_val;
+ 	const float_double inv_255=(float_double)(1/255.);
+ 	const float_double inv_65535=(float_double)(1/65535.);
++#ifdef PSIWEB
++	/* nearly every picture has the same gamma: the 768 soft-float pow()s
++	   of its table cost about 20 million instructions, so keep the last */
++	static unsigned short last_table[768];
++	static float_double last_rg = -1, last_gg = -1, last_bg = -1;
++#if defined(PSI_BAKED_USER_GAMMA) && !defined(PSI_DITHER_CHECK)
++	/* the table for sRGB pictures, made at build time (mkdither.py) */
++	if (last_rg < 0) {
++		int i;
++		last_rg = last_gg = last_bg = (float_double)((float_double)PSI_BAKED_USER_GAMMA / (float)sRGB_gamma);
++		for (i = 0; i < 768; i++) last_table[i] = psi_img_gamma[i & 255];
++	}
++#endif
++	if (cimg->buffer_bytes_per_pixel <= 4 && rg == last_rg && gg == last_gg && bg == last_bg) {
++		cimg->gamma_table = mem_alloc(768 * sizeof(*(cimg->gamma_table)));
++		memcpy(cimg->gamma_table, last_table, sizeof(last_table));
++		return;
++	}
++#endif
+ 
+ 	if (cimg->buffer_bytes_per_pixel<=4) {
+ 		/* 8-bit */
+@@ -1427,6 +1549,17 @@
+ 			cmd_limit_16(last_val);
+ 			*ptr_16 = last_val;
+ 		}
++#ifdef PSIWEB
++		memcpy(last_table, cimg->gamma_table, sizeof(last_table));
++		last_rg = rg; last_gg = gg; last_bg = bg;
++#if defined(PSI_DITHER_CHECK) && defined(PSI_BAKED_USER_GAMMA)
++		if (rg == (float_double)((float_double)PSI_BAKED_USER_GAMMA / (float)sRGB_gamma)) {
++			int i, bad = 0;
++			for (i = 0; i < 768; i++) bad += last_table[i] != psi_img_gamma[i & 255];
++			fprintf(stderr, "PSI_DITHER_CHECK: picture gamma table, %d entries differ\n", bad);
++		}
++#endif
++#endif
+ 	}else{
+ 		int x_slow_fpu;
+ 		if (gamma_bits != 2) x_slow_fpu = !gamma_bits;
+@@ -1489,6 +1622,22 @@
+ 	float_double a=input;
+ 	unsigned short retval;
+ 	const float_double inv_255=(float_double)(1/255.);
++#ifdef PSIWEB
++	/* every new glyph asks for its colour three times: remember answers */
++	static float memo_gamma[8];
++	static unsigned short memo_val[8];
++	static unsigned char memo_in[8], memo_ok[8];
++	int m = input & 7;
++	if (memo_ok[m] && memo_in[m] == input && memo_gamma[m] == gamma)
++		return memo_val[m];
++	a*=inv_255;
++	a=fd_pow(a,gamma);
++	a*=65535;
++	retval = (unsigned short)(a+(float_double)0.5);
++	cmd_limit_16(retval);
++	memo_ok[m] = 1; memo_in[m] = input; memo_gamma[m] = gamma; memo_val[m] = retval;
++	return retval;
++#endif
+ 
+ 	a*=inv_255;
+ 	a=fd_pow(a,gamma);
+@@ -1529,6 +1678,18 @@
+ {
+ 	int tries[3];
+ 	int try;
++#ifdef PSIWEB
++	/* layout asks for every character's width: remember the glyph for the
++	   first 256 codes of each style instead of searching 800 glyphs again */
++	static struct letter *cache[4][256];
++	int slot = (style->flags & FF_MONOSPACED ? 2 : 0) | (style->flags & FF_BOLD ? 1 : 0);
++	struct letter *found;
++	if (letter_number >= 0 && letter_number < 256 && (found = cache[slot][letter_number]))
++		return found;
++#define return_letter(l) do { found = (l); if (letter_number >= 0 && letter_number < 256) cache[slot][letter_number] = found; return found; } while (0)
++#else
++#define return_letter(l) return (l)
++#endif
+ 	if (style->flags & FF_MONOSPACED) {
+ 		tries[0] = FONT_MONOSPACED;
+ 		if (style->flags & FF_BOLD) {
+@@ -1557,11 +1718,69 @@
+ #define AB(v, key)	(letter_data[start + v].code > key)
+ 		BIN_SEARCH(font->length, EQ, AB, letter_number, result);
+ 		if (result >= 0)
+-			return letter_data + start + result;
++			return_letter(letter_data + start + result);
+ 	}
+-	return letter_data + font_table[0].begin;
++	return_letter(letter_data + font_table[0].begin);
++#undef return_letter
+ }
+ 
++#ifdef PSI_STRIKES
++/* web/links/mkstrike.py: hinted glyphs pre-rendered by FreeType at the cell
++   heights PsiWeb draws at 100% zoom (DejaVu Sans, Sans Bold, Sans Mono).
++   Where the style's height and family have a strike holding the character,
++   its glyph is used as it is: no scaling, no sharpening, and the strike's
++   own width. Characters a strike lacks use the scaled masters.
++   - psi_hinted_fonts = 0 turns the strikes off. Set it before the first
++     page is drawn (PsiWeb: at engine start); changing it later needs
++     psi_set_font_base's flush.
++   - Only while the page's base size is the strikes' own (psi_strike_base,
++     14): at any other zoom every size uses the masters, so a page never
++     mixes the two typefaces. psi_set_font_base(fs) tells dip.c the base
++     size (the zoom command), flushing the glyph and width caches if that
++     switches the strikes on or off. */
++#ifndef PSI_HINTED_DEFAULT
++#define PSI_HINTED_DEFAULT 1
++#endif
++int psi_hinted_fonts = PSI_HINTED_DEFAULT;
++static int psi_font_base = -1;		/* -1: the strikes' own */
++static const struct psi_strike *psi_st_last;
++static int psi_st_h = -1, psi_st_slot = -1;
++
++static const unsigned char *psi_strike_glyph(struct style *style, int code, int *len)
++{
++	const struct psi_strike *st;
++	int slot, lo, hi;
++	if (!psi_hinted_fonts || (psi_font_base >= 0 && psi_font_base != psi_strike_base) ||
++	    aspect != 65536 || display_optimize || code < 0 || code > 0xffff)
++		return NULL;
++	slot = style->flags & FF_MONOSPACED ? 2 : style->flags & FF_BOLD ? 1 : 0;
++	if (style->height != psi_st_h || slot != psi_st_slot) {
++		int i;
++		psi_st_last = NULL;
++		for (i = 0; i < psi_strike_count; i++)
++			if (psi_strike_table[i].height == style->height && psi_strike_table[i].slot == slot) {
++				psi_st_last = &psi_strike_table[i];
++				break;
++			}
++		psi_st_h = style->height;
++		psi_st_slot = slot;
++	}
++	if (!(st = psi_st_last)) return NULL;
++	lo = 0;
++	hi = st->n - 1;
++	while (lo <= hi) {
++		int mid = (lo + hi) >> 1;
++		if (st->codes[mid] == code) {
++			*len = (int)(st->offs[mid + 1] - st->offs[mid]);
++			return st->data + st->offs[mid];
++		}
++		if (st->codes[mid] < code) lo = mid + 1;
++		else hi = mid - 1;
++	}
++	return NULL;
++}
++#endif
++
+ struct read_work {
+ 	const unsigned char *pointer;
+ 	int length;
+@@ -1609,6 +1828,17 @@
+ 	}
+ #endif
+ 
++#ifdef PSI_STRIKES
++	{
++		int len;
++		const unsigned char *g = psi_strike_glyph(style, char_number, &len);
++		if (g) {
++			*x = (g[1] << 8) | g[2];
++			*y = style->height;
++			return;
++		}
++	}
++#endif
+ 	l = find_stored_letter(style, char_number);
+ 	if (!l) {
+ 		*x = 0;
+@@ -1657,6 +1887,38 @@
+ 	unsigned char **ptrs;
+ 	struct read_work work;
+ 
++#ifdef PSIWEB
++	/* web/links/mkfont.py --rle: run-length glyphs instead of PNGs. A PNG
++	   glyph cost about 120,000 ARM instructions to unpack (libpng and zlib
++	   set-up, Huffman tables, CRCs, a row at a time); this is a few
++	   thousand, with the same pixels. */
++	if (png_length >= 5 && png_data[0] == 'R') {
++		const unsigned char *s = png_data + 5, *se = png_data + png_length;
++		unsigned char *o, *oe;
++		*x = (png_data[1] << 8) | png_data[2];
++		*y = (png_data[3] << 8) | png_data[4];
++		if ((unsigned)*x * (unsigned)*y > MAXINT) overalloc();
++		o = *dest = mem_alloc(*x * *y ? *x * *y : 1);
++		oe = o + *x * *y;
++		while (s < se) {
++			int t = *s++, n;
++			unsigned char v;
++			if (t >= 0x80) {
++				n = t - 0x7f;
++				if (n > se - s) n = (int)(se - s);
++				if (n > oe - o) n = (int)(oe - o);
++				for (; n; n--) *o++ = *s++;
++				continue;
++			}
++			n = (t & 0x3f) + 1;
++			v = t & 0x40 ? 255 : 0;
++			if (n > oe - o) n = (int)(oe - o);
++			for (; n; n--) *o++ = v;
++		}
++		while (o < oe) *o++ = 0;
++		return;
++	}
++#endif
+ 	work.pointer = png_data;
+ 	work.length = png_length;
+ 
+@@ -1790,6 +2052,26 @@
+ 	conv0 = (1 + sharpness) * contrast;
+ 	conv1 = (float)(-sharpness * (float)0.25 * contrast);
+ 
++#ifdef PSIWEB
++	/* The same sum in 16.16 fixed point: with no FPU, the float version
++	   costs about 450 instructions a pixel of soft float. */
++	{
++		int k0 = (int)(conv0 * 65536 + (float)0.5);
++		int k1 = (int)(conv1 * 65536 + (conv1 < 0 ? (float)-0.5 : (float)0.5));
++		for (y0 = y; y0; y0--) {
++			for (x0 = *x; x0; x0--) {
++				c = (*i2ptr * k0 + (i2ptr[-ix] + i2ptr[-1] + i2ptr[1] + i2ptr[ix]) * k1 + 32768) >> 16;
++				if (c & ~255) c = c < 0 ? 0 : 255;
++				*dptr = (unsigned char)c;
++				dptr++;
++				i2ptr++;
++			}
++			i2ptr += 2;
++		}
++		mem_free(interm2);
++		return;
++	}
++#endif
+ 	for (y0 = y; y0; y0--) {
+ 		for (x0 = *x; x0; x0--) {
+ 			/* Convolution */
+@@ -1825,6 +2107,13 @@
+ 	} else
+ #endif
+ 	{
++#ifdef PSI_STRIKES
++		int len, gy;
++		const unsigned char *g = psi_strike_glyph(style, char_number, &len);
++		if (g)
++			load_char(&found_data, &found_x, &gy, g, len);
++		else
++#endif
+ 		load_scaled_char(&found_data, &found_x, found_y, letter->begin, letter->length, style);
+ 	}
+ 
+@@ -2141,11 +2430,76 @@
+ 		internal_error("destroy_font_cache: cache not freed due to locks");
+ }
+ 
++#ifdef PSIWEB
++/* Layout asks for the width of every character, often several times over:
++   the widths of the first 256 codes are remembered for the last few font
++   sizes (each was a glyph lookup and a division on the ARM). -1: not yet
++   known. */
++static struct psi_wc { int height, slot; unsigned aspect; short w[256]; } psi_wc[4];
++static int psi_wc_next, psi_wc_last;
++
++static short *psi_wtab(struct style *style)
++{
++	int slot = (style->flags & FF_MONOSPACED ? 2 : 0) | (style->flags & FF_BOLD ? 1 : 0), i;
++	struct psi_wc *c = &psi_wc[psi_wc_last];
++	if (c->height == style->height && c->slot == slot && c->aspect == aspect)
++		return c->w;
++	for (i = 0; i < 4; i++) {
++		c = &psi_wc[i];
++		if (c->height == style->height && c->slot == slot && c->aspect == aspect)
++			goto have;
++	}
++	i = psi_wc_next;
++	psi_wc_next = (psi_wc_next + 1) & 3;
++	c = &psi_wc[i];
++	c->height = style->height;
++	c->slot = slot;
++	c->aspect = aspect;
++	memset(c->w, 0xff, sizeof(c->w));
++	have:
++	psi_wc_last = i;
++	return c->w;
++}
++
++/* fills in tab[charcode] (charcode < 256, after g_get_width's mapping) */
++static int psi_wfill(struct style *style, short *tab, unsigned charcode)
++{
++	int x, y;
++	unsigned c = charcode;
++	if (!c || c == 0xad) return tab[charcode] = 0;
++	if (c == 0x01 || c == 0xa0) c = ' ';
++	load_metric(style, c, &x, &y);
++	return tab[charcode] = !(x && y) ? 0 : compute_width(x, y, style->height);
++}
++#endif
++
++#ifdef PSI_STRIKES
++/* the page's base font size (see psi_strike_glyph); call before laying the
++   page out again */
++void psi_set_font_base(int fs)
++{
++	int was = psi_font_base < 0 || psi_font_base == psi_strike_base;
++	int now = fs == psi_strike_base;
++	psi_font_base = fs;
++	if (was == now) return;
++	destroy_font_cache();
++	memset(psi_wc, 0, sizeof(psi_wc));
++	psi_st_h = psi_st_slot = -1;
++}
++#endif
++
+ /* Returns 0 in case the char is not found. */
+ static inline int g_get_width(struct style *style, unsigned charcode)
+ {
+ 	int x, y, width;
+ 
++#ifdef PSIWEB
++	if (charcode < 256 && style->mono_space < 0) {
++		short *tab = psi_wtab(style);
++		int w = tab[charcode];
++		return w >= 0 ? w : psi_wfill(style, tab, charcode);
++	}
++#endif
+ 	if (!charcode || charcode == 0xad) return 0;
+ 	if (charcode == 0x01 || charcode == 0xa0) charcode = ' ';
+ 	if (style->mono_space >= 0) {
+@@ -2160,6 +2514,24 @@
+ int g_text_width(struct style *style, unsigned char *text)
+ {
+ 	int w = 0;
++#ifdef PSIWEB
++	if (style->mono_space < 0) {
++		short *tab = psi_wtab(style);
++		while (*text) {
++			unsigned u = *text;
++			int qw;
++			if (u < 0x80) {
++				text++;
++				if ((qw = tab[u]) < 0) qw = psi_wfill(style, tab, u);
++			} else {
++				GET_UTF_8(text, u);
++				qw = g_get_width(style, u);
++			}
++			w = safe_add(w, qw);
++		}
++		return w;
++	}
++#endif
+ 	while (*text) {
+ 		int u;
+ 		int qw;
+--- a/dither.c
++++ b/dither.c
+@@ -661,9 +661,17 @@
+  * then copy them to the beginning of the memory occupied by the long
+  * variable, and return that long variable.
+  */
++#ifdef PSILINUX
++static long color_grey(int rgb);
++#endif
++
+ long (*get_color_fn(int depth))(int rgb)
+ {
+ 	switch (depth) {
++#ifdef PSILINUX
++		case LINKS_GREY_CODE:
++			return color_grey;
++#endif
+ 		case 33:
+ 			return color_121;
+ 			break;
+@@ -919,12 +927,126 @@
+ 	mem_free(real_colors);
+ }
+ 
++#ifdef PSILINUX
++/* PsiLinux's grey mode (LINKS_GREY_CODE): the Psion shows 16 greys, each
++ * colour of the X server's 8-bit PseudoColor map as its Rec.601 luma. Here
++ * every colour becomes its grey first (Rec.601 on the gamma-encoded values,
++ * as the Psion does, so pictures and plain colours agree with each other and
++ * with the other programs), and pictures are dithered once, Floyd-Steinberg
++ * in light as Links does, straight to the LINKS_GREYS greys that x.c has
++ * allocated. The output byte is the grey's number (x.c translates it to the
++ * X pixel). */
++static unsigned char *grey_volt;	/* light >> 4 (4096) -> its voltage, 0-255 */
++static unsigned short *grey_light;	/* voltage 0-255 -> light, 16 bits */
++static int *grey_round;		/* light >> 4 -> light of the nearest grey | number << 16 */
++
++static void make_grey_tables(void)
++{
++	float_double g = (float_double)(display_green_gamma tcc_hack);
++	unsigned short lv[LINKS_GREYS];
++	int i, k, v;
++	if (!grey_volt) grey_volt = mem_alloc(4096);
++	if (!grey_light) grey_light = mem_alloc(256 * sizeof(*grey_light));
++	if (!grey_round) grey_round = mem_alloc(4096 * sizeof(*grey_round));
++	for (v = 0; v < 256; v++)
++		grey_light[v] = (unsigned short)(fd_pow(v / (float_double)255, g) * 65535 + (float_double)0.5);
++	/* (the voltage whose light is nearest, by a sweep: no pow per entry) */
++	for (k = 0, v = 0; k < 4096; k++) {
++		int l = k * 16 + 8;
++		while (v < 255 && grey_light[v + 1] + grey_light[v] < 2 * l) v++;
++		grey_volt[k] = (unsigned char)v;
++	}
++	for (i = 0; i < LINKS_GREYS; i++)
++		lv[i] = grey_light[links_grey_value(i)];
++	/* nearest in voltage, as Links' own tables (make_16_table) */
++	for (k = 0, i = 0; k < 4096; k++) {
++		int vv = grey_volt[k];
++		while (i < LINKS_GREYS - 1 && 2 * vv >= links_grey_value(i) + links_grey_value(i + 1)) i++;
++		grey_round[k] = lv[i] | (i << 16);
++	}
++}
++
++/* the grey (as light) of a pixel of light r, g, b */
++static inline int grey_of(int r, int g, int b)
++{
++	if ((unsigned)r > 65535) r = r < 0 ? 0 : 65535;
++	if ((unsigned)g > 65535) g = g < 0 ? 0 : 65535;
++	if ((unsigned)b > 65535) b = b < 0 ? 0 : 65535;
++	return grey_light[(77 * grey_volt[r >> 4] + 150 * grey_volt[g >> 4] + 29 * grey_volt[b >> 4] + 128) >> 8];
++}
++
++static void dither_grey(unsigned short *my_restrict in, struct bitmap *out, int *dregs)
++{
++	unsigned char *my_restrict outp = out->data;
++	ssize_t skip = out->skip - out->x;
++	int x, y, w = out->x;
++	if (w <= 0) return;
++	for (y = out->y; y; y--) {
++		/* dregs[x]: this row's error from the row above; right: from the
++		   left; bl, b: what goes to the row below at x - 1 and x */
++		int right = 0, bl = 0, b = 0;
++		for (x = 0; x < w; x++) {
++			int v = grey_of(in[0], in[1], in[2]) + right + dregs[x], t, e;
++			in += 3;
++			if ((unsigned)v > 65535) v = v < 0 ? 0 : 65535;
++			t = grey_round[v >> 4];
++			*outp++ = (unsigned char)(t >> 16);
++			e = v - (t & 0xffff);
++			right = (e * 7) >> 4;
++			if (x) dregs[x - 1] = bl + ((e * 3) >> 4);
++			bl = b + ((e * 5) >> 4);
++			b = e >> 4;
++		}
++		dregs[w - 1] = bl;
++		outp += skip;
++	}
++}
++
++static void round_grey(unsigned short *my_restrict in, struct bitmap *out)
++{
++	unsigned char *my_restrict outp = out->data;
++	ssize_t skip = out->skip - out->x;
++	int x, y;
++	for (y = out->y; y; y--) {
++		for (x = out->x; x; x--) {
++			*outp++ = (unsigned char)(grey_round[grey_of(in[0], in[1], in[2]) >> 4] >> 16);
++			in += 3;
++		}
++		outp += skip;
++	}
++}
++
++/* a plain colour (sRGB, from the page): the nearest grey */
++static long color_grey(int rgb)
++{
++	long ret = 0;
++	int y = (77 * ((rgb >> 16) & 255) + 150 * ((rgb >> 8) & 255) + 29 * (rgb & 255) + 128) >> 8;
++	*(unsigned char *)&ret = (unsigned char)((y * (LINKS_GREYS - 1) + 127) / 255);
++	return ret;
++}
++#endif
++
+ /* Also makes up the dithering tables.
+  * You may call it twice - it doesn't leak any memory.
+  */
+ void init_dither(int depth)
+ {
+ 	table_16 = 1;
++#ifdef PSILINUX
++	if (depth == LINKS_GREY_CODE) {
++		int a;
++		make_grey_tables();
++		dither_fn_internal = dither_grey;
++		round_fn = round_grey;
++		/* (no colour tables: plain colours are only made linear here,
++		   and become greys in round_grey and color_grey) */
++		for (a = 0; a < 256; a++)
++			round_red_table[a] = round_green_table[a] = round_blue_table[a] =
++				ags_8_to_16((unsigned char)a, (float)(user_gamma / sRGB_gamma));
++		if (real_colors_table) mem_free(real_colors_table), real_colors_table = NULL;
++		goto tables_done;
++	}
++#endif
+ 	switch (depth) {
+ 		case 33:
+ 		/* 4bpp, 1Bpp */
+@@ -1108,6 +1230,9 @@
+ 		if (dither_fn_internal == dither_1byte_8)
+ 			dither_fn_internal = dither_1byte_real_colors_8;
+ 	}
++#ifdef PSILINUX
++tables_done:
++#endif
+ 
+ 	gamma_cache_rgb_1 = -2;
+ 	gamma_cache_rgb_2 = -2;
+@@ -1143,6 +1268,11 @@
+ 	if (green_table) mem_free(green_table), green_table = DUMMY;
+ 	if (blue_table) mem_free(blue_table), blue_table = DUMMY;
+ 	if (real_colors_table) mem_free(real_colors_table), real_colors_table = NULL;
++#ifdef PSILINUX
++	if (grey_volt) mem_free(grey_volt), grey_volt = NULL;
++	if (grey_light) mem_free(grey_light), grey_light = NULL;
++	if (grey_round) mem_free(grey_round), grey_round = NULL;
++#endif
+ }
+ 
+ #endif
+--- a/html.c
++++ b/html.c
+@@ -19,6 +19,62 @@
+ 	return /*isA(c) ||*/ (c > ' ' && c != '=' && c != '<' && c != '>');
+ }
+ 
++#ifdef PSIWEB
++/* The first byte from p on that is uu or 0, or eof. Attribute values
++   (class lists, SVG paths, srcset) are most of a modern page's tags, and
++   are scanned several times: this looks at a word at a time. */
++#define PSI_ONES 0x01010101UL
++#define PSI_HIGHS 0x80808080UL
++/* (gcc 3.0 would build both constants afresh in every turn of the loop,
++   8 instructions a word: the empty asm makes it keep them in registers) */
++#ifdef __GNUC__
++#define PSI_KEEP(x) __asm__("" : "=r"(x) : "0"(x))
++#else
++#define PSI_KEEP(x) do { } while (0)
++#endif
++#define PSI_HASZERO(v) (((v) - ones) & ~(v) & highs)
++static inline unsigned char *psi_scan_quote(unsigned char *p, unsigned char *eof, unsigned char uu)
++{
++	unsigned long m = uu * PSI_ONES, v, x, ones = PSI_ONES, highs = PSI_HIGHS;
++	PSI_KEEP(ones);
++	PSI_KEEP(highs);
++	while (p < eof && ((unsigned long)p & 3)) {
++		if (*p == uu || !*p) return p;
++		p++;
++	}
++	while (eof - p >= 4) {
++		v = *(unsigned long *)p;
++		x = v ^ m;
++		if (PSI_HASZERO(v) | PSI_HASZERO(x)) break;
++		p += 4;
++	}
++	while (p < eof) {
++		if (*p == uu || !*p) return p;
++		p++;
++	}
++	return p;
++}
++
++/* the same, with no end but the 0 byte (as get_attr_val's own loops) */
++static inline unsigned char *psi_scan_quote0(unsigned char *p, unsigned char uu)
++{
++	unsigned long m = uu * PSI_ONES, v, x, ones = PSI_ONES, highs = PSI_HIGHS;
++	PSI_KEEP(ones);
++	PSI_KEEP(highs);
++	while ((unsigned long)p & 3) {
++		if (*p == uu || !*p) return p;
++		p++;
++	}
++	for (;; p += 4) {
++		v = *(unsigned long *)p;
++		x = v ^ m;
++		if (PSI_HASZERO(v) | PSI_HASZERO(x)) break;
++	}
++	while (*p != uu && *p) p++;
++	return p;
++}
++#endif
++
+ /* accepts one html element */
+ /* e is pointer to the begining of the element (*e must be '<') */
+ /* eof is pointer to the end of scanned area */
+@@ -73,6 +129,10 @@
+ 	}
+ 	if (U(*e)) {
+ 		unsigned char uu = *e;
++#ifdef PSIWEB
++		e = psi_scan_quote(e + 1, eof, uu);
++		if (e >= eof) return -1;
++#else
+ 		/*u:*/
+ 		if (1) goto x3;
+ 		while (e < eof && *e != uu && *e /*(WHITECHAR(*e) || *e > ' ')*/) {
+@@ -80,6 +140,7 @@
+ 			e++;
+ 			if (e >= eof) return -1;
+ 		}
++#endif
+ 		if (*e < ' ') return -1;
+ 		e++;
+ 		if (e >= eof /*|| (!WHITECHAR(*e) && *e != uu && *e != '>' && *e != '<')*/) return -1;
+@@ -113,6 +174,58 @@
+ 
+ int get_attr_val_nl = 0;
+ 
++#ifdef PSIWEB
++/* A memo of where each attribute of one element starts. parse_html and
++   the element's handler ask for several attributes of the same element
++   (id, style, class, href, ...), and each get_attr_val call used to scan
++   all of its attributes again: on a modern page, long class lists, SVG
++   paths and srcsets were scanned five or six times. The memo is only used
++   for the element parse_html is handling (amemo_scope), and is rebuilt for
++   each new one, so it never outlives the document it points into. With
++   it, get_attr_val goes straight to the attribute asked for, or returns
++   NULL at once; what it returns is exactly what the full scan returns. */
++#define PSI_AMEMO 40
++static unsigned char *amemo_scope;	/* the element being handled */
++static unsigned char *amemo_e;		/* the attributes the memo is for */
++static int amemo_n;			/* entries */
++static int amemo_ok;			/* 1: every attribute is in it */
++static unsigned char *amemo_at[PSI_AMEMO];	/* where each one starts */
++static int amemo_len[PSI_AMEMO];	/* the length of its name */
++
++static void amemo_build(unsigned char *e)
++{
++	unsigned char *p = e, *q, c;
++	amemo_e = e;
++	amemo_n = 0;
++	amemo_ok = 0;
++	for (;;) {
++		q = p;
++		while (WHITECHAR(*p)) p++;
++		if (*p == '>' || *p == '<') break;
++		if (amemo_n == PSI_AMEMO) return;	/* (too many: not used) */
++		amemo_at[amemo_n] = p;
++		while (atchr(*p)) p++;
++		amemo_len[amemo_n] = (int)(p - amemo_at[amemo_n]);
++		amemo_n++;
++		while (WHITECHAR(*p)) p++;
++		if (*p == '=') {
++			p++;
++			while (WHITECHAR(*p)) p++;
++			if (!U(*p)) {
++				while (!WHITECHAR(*p) && *p != '>' && *p != '<') p++;
++			} else {
++				c = *p;
++				p = psi_scan_quote0(p + 1, c);
++				if (!*p) break;		/* (get_attr_val stops here too) */
++				p++;
++			}
++		}
++		if (p == q) return;	/* (not a tag parse_element accepted) */
++	}
++	amemo_ok = 1;
++}
++#endif
++
+ /* parses html element attributes */
+ /* e is attr pointer previously got from parse_element, DON'T PASS HERE ANY OTHER VALUE!!! */
+ /* name is searched attribute */
+@@ -123,6 +236,21 @@
+ 	unsigned char *a = DUMMY;
+ 	int l = 0;
+ 	int f;
++#ifdef PSIWEB
++	if (e == amemo_scope && e) {
++		int i, nl;
++		if (amemo_e != e) amemo_build(e);
++		if (amemo_ok) {
++			nl = (int)strlen(cast_const_char name);
++			for (i = 0; i < amemo_n; i++)
++				if (amemo_len[i] == nl && !casecmp(amemo_at[i], name, nl)) {
++					e = amemo_at[i];
++					goto aa;
++				}
++			return NULL;
++		}
++	}
++#endif
+ 	aa:
+ 	while (WHITECHAR(*e)) e++;
+ 	if (*e == '>' || *e == '<') return NULL;
+@@ -134,6 +262,63 @@
+ 	if (*e != '=') goto ea;
+ 	e++;
+ 	while (WHITECHAR(*e)) e++;
++#ifdef PSIWEB
++	/* not the attribute asked for: step over its value without the
++	   per-character tests below (long class lists made this hot) */
++	if (f) {
++		unsigned char c, uu = *e;
++		if (!U(uu)) {
++			while ((c = *e) > ' ' && c != '>' && c != '<') e++;
++			if (!WHITECHAR(c) && c != '>' && c != '<') {
++				/* (a control character: as the loop below) */
++				while (!WHITECHAR(*e) && *e != '>' && *e != '<') e++;
++			}
++		} else {
++			e = psi_scan_quote0(e + 1, uu);
++			if (!*e) {
++				mem_free(a);
++				return NULL;
++			}
++			e++;
++		}
++		goto aa;
++	}
++	/* the attribute asked for: find the end of its value, then copy it
++	   in one go (it was copied a character at a time, with a realloc
++	   every 32) */
++	{
++		unsigned char *v, *ve, *d;
++		if (!U(*e)) {
++			v = e;
++			while (!WHITECHAR(*e) && *e != '>' && *e != '<') e++;
++			ve = e;
++			a = mem_alloc(ve - v + 1);
++			memcpy(a, v, ve - v);
++			l = (int)(ve - v);
++		} else {
++			v = e + 1;
++			ve = psi_scan_quote0(v, *e);
++			if (!*ve)
++				return NULL;
++			e = ve + 1;
++			d = a = mem_alloc(ve - v + 1);
++			if (get_attr_val_nl == 2) {
++				memcpy(d, v, ve - v);
++				d += ve - v;
++			} else {
++				for (; v < ve; v++) {
++					unsigned char c = *v;
++					if (c == 13) continue;
++					if (c != 9 && c != 10) *d++ = c;
++					else if (!get_attr_val_nl) *d++ = ' ';
++				}
++			}
++			l = (int)(d - a);
++		}
++		a[l] = 0;
++		goto ea_copied;
++	}
++#endif
+ 	if (!U(*e)) {
+ 		while (!WHITECHAR(*e) && *e != '>' && *e != '<') {
+ 			if (!f) add_chr(a, l, *e);
+@@ -167,6 +352,9 @@
+ 	if (!f) {
+ 		unsigned char *b;
+ 		add_chr(a, l, 0);
++#ifdef PSIWEB
++		ea_copied:
++#endif
+ 		if (strchr(cast_const_char a, '&')) {
+ 			unsigned char *aa = a;
+ 			int c = d_opt->cp;
+@@ -912,6 +1100,10 @@
+ static inline void set_link_attr(void)
+ {
+ 	memcpy(!(format_.attr & AT_INVERT) ? &format_.fg : &format_.bg, &format_.clink, sizeof(struct rgb));
++#ifdef PSIWEB
++	/* on 16 greys the link colour (blue) is all but black: underline links */
++	format_.attr |= AT_UNDERLINE;
++#endif
+ }
+ 
+ static void put_link_line(unsigned char *prefix, unsigned char *linkname, unsigned char *link, unsigned char *target)
+@@ -1616,6 +1808,13 @@
+ #ifdef G
+ 		if (F) par_format.leftmargin += 2;
+ #endif
++#ifdef PSI_STRIKES
++		/* with the hinted fonts (dip.c), a real bullet: DejaVu's '*' is a
++		   plain asterisk, where Links' own serif one looked like a dot */
++		if (F && psi_hinted_fonts && x[0] == '*')
++			put_chrs(cast_uchar "&#8226;&nbsp;", 13);
++		else
++#endif
+ 		put_chrs(x, 7);
+ 		if (!F) par_format.leftmargin += 2;
+ 		par_format.align = AL_LEFT;
+@@ -1727,6 +1926,26 @@
+ 	form->num = (int)(a - startf);
+ }
+ 
++#ifdef PSIWEB
++unsigned char *noform_startf, *noform_upto;	/* (reset with last_form_tag) */
++
++/* The first two letters of the tag at s, in lower case (0 if too short).
++ * scan_http_equiv and find_form_for_input look for a few elements only
++ * (META, TITLE, STYLE, SCRIPT, BODY; FORM), but parsed every tag of the
++ * page in full to find them: on BBC two more passes over 416 KB of tags,
++ * each as costly as the real parse. Now they parse only the tags that
++ * start with the right two letters, and step from '<' to '<' over the
++ * rest (phase 5). The one difference: a '<' inside an attribute value of
++ * a skipped tag is looked at as a tag, which can only find one of these
++ * elements where a page has written one inside an attribute. */
++static inline int psi_tag2(unsigned char *s, unsigned char *eof)
++{
++	if (eof - s < 3) return 0;
++	return ((s[1] | 0x20) << 8) | (s[2] | 0x20);
++}
++#define PSI_T2(a, b) (((a) << 8) | (b))
++#endif
++
+ static void find_form_for_input(unsigned char *i)
+ {
+ 	unsigned char *s, *ss, *name, *attr, *lf, *la;
+@@ -1749,15 +1968,36 @@
+ 	} else {
+ 		lf = NULL, la = NULL;
+ 		s = startf;
++#ifdef PSIWEB
++		/* no <form> up to the last control: carry on from there instead
++		   of from the start of the page for every control (BBC's buttons
++		   made this 200 million ARM instructions) */
++		if (noform_upto && noform_startf == startf && i >= noform_upto)
++			s = noform_upto;
++#endif
+ 	}
+ 	se:
++#ifdef PSIWEB
++	if (s < i && *s != '<') {
++		sp:
++		s++;
++		if (s < i && *s != '<') {
++			unsigned char *p = memchr(s, '<', i - s);
++			s = p ? p : i;
++		}
++	}
++#else
+ 	while (s < i && *s != '<') sp:s++;
++#endif
+ 	if (s >= i) goto end_parse;
+ 	if (eofff - s >= 2 && (s[1] == '!' || s[1] == '?')) {
+ 		s = skip_comment(s, i);
+ 		goto se;
+ 	}
+ 	ss = s;
++#ifdef PSIWEB
++	if (psi_tag2(s, i) != PSI_T2('f', 'o')) goto sp;
++#endif
+ 	if (parse_element(s, i, &name, &namelen, &attr, &s)) goto sp;
+ 	if (namelen != 4 || casecmp(name, cast_uchar "FORM", 4)) goto se;
+ 	lf = ss;
+@@ -1772,6 +2012,10 @@
+ 		get_html_form(la, &form);
+ 	} else {
+ 		last_form_tag = NULL;
++#ifdef PSIWEB
++		noform_startf = startf;
++		noform_upto = i;
++#endif
+ 	}
+ }
+ 
+@@ -2739,6 +2983,18 @@
+ 	    !casestrcmp(name, cast_uchar "preconnect") ||
+ 	    !casestrcmp(name, cast_uchar "stylesheet") ||
+ 	    casestrstr(name, cast_uchar "icon") ||
++#ifdef PSIWEB
++	    /* not worth a line of a 240-pixel screen, or a fetch over a modem */
++	    !casestrcmp(name, cast_uchar "canonical") ||
++	    !casecmp(name, cast_uchar "alternate", 9) ||
++	    !casestrcmp(name, cast_uchar "amphtml") ||
++	    !casestrcmp(name, cast_uchar "search") ||
++	    !casestrcmp(name, cast_uchar "prefetch") ||
++	    !casestrcmp(name, cast_uchar "prerender") ||
++	    !casestrcmp(name, cast_uchar "preload") ||
++	    !casestrcmp(name, cast_uchar "modulepreload") ||
++	    !casestrcmp(name, cast_uchar "dns-prefetch") ||
++#endif
+ 	    0) goto skip;
+ 	if (!casestrcmp(name, cast_uchar "prefetch") ||
+ 	    !casestrcmp(name, cast_uchar "prerender") ||
+@@ -2780,6 +3036,9 @@
+ 	void (*func)(unsigned char *);
+ 	int linebreak;
+ 	int nopair; /* Somehow relates to paired elements */
++#ifdef PSIWEB
++	int namelen;	/* strlen(name), filled in at the first parse */
++#endif
+ };
+ 
+ static struct element_info elements[] = {
+@@ -2960,6 +3219,9 @@
+ 	if (head) process_head(head);
+ 
+ 	set_lt:
++#ifdef PSIWEB
++	amemo_scope = NULL;
++#endif
+ 
+ 	/*set_globals;*/
+ 
+@@ -2970,6 +3232,25 @@
+ 		int namelen;
+ 		struct element_info *ei;
+ 		int inv;
++#ifdef PSIWEB
++		/* Fast paths, exactly as the code below would go one character at
++		   a time (this loop was most of the cost of a big page):
++		   - inside <script> or <style> nothing but a '<' can matter;
++		   - in ordinary text, a character above space that is not '<'
++		     only moves html on. */
++		if (par_format.align != AL_NO && par_format.align != AL_NO_BREAKABLE && *html != '<') {
++			if (html_top.invisible == INVISIBLE_SCRIPT || html_top.invisible == INVISIBLE_STYLE) {
++				unsigned char *p = memchr(html, '<', eof - html);
++				html = p ? p : eof;
++				continue;
++			}
++			if (*html > ' ') {
++				unsigned char c;
++				do html++; while (html < eof && (c = *html) > ' ' && c != '<');
++				continue;
++			}
++		}
++#endif
+ 		if (par_format.align != AL_NO && par_format.align != AL_NO_BREAKABLE && WHITECHAR(*html)) {
+ 			unsigned char *h = html;
+ 			/*if (putsp == -1) {
+@@ -3052,6 +3333,10 @@
+ 			continue;
+ 		}
+ 		element:
++#ifdef PSIWEB
++		amemo_scope = attr;
++		amemo_e = NULL;
++#endif
+ 		html_format_changed = 1;
+ 		inv = *name == '/'; name += inv; namelen -= inv;
+ 		if (html_top.invisible == INVISIBLE_SCRIPT && !(inv && namelen == 6 && !casecmp(name, cast_uchar "SCRIPT", 6))) {
+@@ -3076,9 +3361,20 @@
+ 			ng:;
+ 		}
+ 		html = end;
++#ifdef PSIWEB
++		/* (strlen of every name in the table for every tag cost 300,000
++		   strlen calls on a big page) */
++		if (!elements[0].namelen)
++			for (ei = elements; ei != endof(elements); ei++) ei->namelen = (int)strlen(cast_const_char ei->name);
++#endif
+ 		for (ei = elements; ei != endof(elements); ei++) {
++#ifdef PSIWEB
++			if (ei->namelen != namelen || (unsigned char)ei->name[0] != upcase(name[0]) || casecmp(cast_uchar ei->name, name, namelen))
++				continue;
++#else
+ 			if (strlen(cast_const_char ei->name) != (size_t)namelen || casecmp(cast_uchar ei->name, name, namelen))
+ 				continue;
++#endif
+ 			if (ei - elements > 4) {
+ 				struct element_info e = *ei;
+ 				memmove(elements + 1, elements, (ei - elements) * sizeof(struct element_info));
+@@ -3235,6 +3531,9 @@
+ 	pos = 0;
+ 	/*line_breax = 1;*/
+ 	was_br = 0;
++#ifdef PSIWEB
++	amemo_scope = NULL;
++#endif
+ #undef set_globals
+ }
+ 
+@@ -3420,12 +3719,30 @@
+ 	if (title) *title = init_str();
+ 	add_chr_to_str(head, hdl, '\n');
+ 	se:
++#ifdef PSIWEB
++	if (s < eof && *s != '<') {
++		sp:
++		s++;
++		if (s < eof && *s != '<') {
++			unsigned char *p = memchr(s, '<', eof - s);
++			s = p ? p : eof;
++		}
++	}
++#else
+ 	while (s < eof && *s != '<') sp:s++;
++#endif
+ 	if (s >= eof) return;
+ 	if (eof - s >= 2 && (s[1] == '!' || s[1] == '?')) {
+ 		s = skip_comment(s, eof);
+ 		goto se;
+ 	}
++#ifdef PSIWEB
++	{
++		int t = psi_tag2(s, eof);
++		if (t != PSI_T2('m', 'e') && t != PSI_T2('t', 'i') && t != PSI_T2('s', 't') &&
++		    t != PSI_T2('s', 'c') && t != PSI_T2('b', 'o')) goto sp;
++	}
++#endif
+ 	if (parse_element(s, eof, &name, &namelen, &attr, &s)) goto sp;
+ 	ps:
+ 	if (namelen == 6 && !casecmp(name, cast_uchar "SCRIPT", 6)) {
+--- a/html_r.c
++++ b/html_r.c
+@@ -1282,6 +1282,10 @@
+ 	int bg_col, fg_col;
+ 	current_f_data = screen;
+ 	d_opt = &screen->opt;
++#ifdef PSI_STRIKES
++	/* PsiLinux: the hinted strikes are for one base size (dip.c) */
++	if (F) psi_set_font_base(d_opt->font_size);
++#endif
+ 	screen->use_tag = ce->count;
+ 	startf = start;
+ 	eofff = end;
+@@ -1311,6 +1315,12 @@
+ 	push_base_format(url, &screen->opt, frame, implicit_pre_wrap);
+ 	table_level = 0;
+ 	g_ctrl_num = 0;
++#ifdef PSIWEB
++	{
++		extern unsigned char *noform_upto;
++		noform_upto = NULL;
++	}
++#endif
+ 	last_form_tag = NULL;
+ 	last_form_attr = NULL;
+ 	last_input_tag = NULL;
+--- a/html_tbl.c
++++ b/html_tbl.c
+@@ -390,7 +390,18 @@
+ 	unsigned char *name;
+ 	int namelen;
+ 	r:
++#ifdef PSIWEB
++	if (html < eof && *html != '<') {
++		rr:
++		html++;
++		if (html < eof && *html != '<') {
++			unsigned char *p = memchr(html, '<', eof - html);
++			html = p ? p : eof;
++		}
++	}
++#else
+ 	while (html < eof && (*html != '<')) rr:html++;
++#endif
+ 	if (eof - html >= 2 && (html[1] == '!' || html[1] == '?')) {
+ 		html = skip_comment(html, eof);
+ 		goto r;
+--- a/http.c
++++ b/http.c
+@@ -384,7 +384,8 @@
+ 	info = mem_calloc(sizeof(struct http_connection_info));
+ 	c->info = info;
+ #ifdef HAVE_SSL
+-	info->https_forward = !c->ssl && proxy && host && !casecmp(host, cast_uchar "https://", 8);
++	info->https_forward = !c->ssl && proxy && host && !casecmp(host, cast_uchar "https://", 8)
++		&& !(proxies.https_via_http && *proxies.http_proxy);	/* (PsiLinux: plain GET to the proxy) */
+ 	if (c->ssl) proxy = 0;
+ #endif
+ 	hdr = init_str();
+--- a/https.c
++++ b/https.c
+@@ -338,6 +338,9 @@
+ 	if (!ssl)
+ 		return NULL;
+ 	ssl->ctx = contexts[idx];
++#ifdef MBOSSL
++	mbossl_set_verify(ssl_options.certificates != SSL_ACCEPT_INVALID_CERTIFICATE);
++#endif
+ 	ssl->ssl = SSL_new(ssl->ctx);
+ 	clear_ssl_errors(__LINE__);
+ 	if (!ssl->ssl) {
+@@ -395,6 +398,7 @@
+ 
+ #ifdef HAVE_SSL_CERTIFICATES
+ 
++#ifndef MBOSSL
+ #ifdef SUPPORT_IPV6
+ static int is_numeric_ipv6_address(unsigned char *name, unsigned char address[16])
+ {
+@@ -619,6 +623,40 @@
+ 	return o;
+ }
+ 
++#endif /* !MBOSSL */
++
++#ifdef MBOSSL
++/* PsiLinux: Mbed TLS has checked the chain against the trusted roots, the
++   dates and the name (the one given for SNI) in the handshake */
++int verify_ssl_certificate(links_ssl *ssl, unsigned char *host)
++{
++	const char *n, *last = NULL;
++	unsigned char *cas;
++	int casl = 0, i;
++
++	if (ssl->ca != NULL)
++		mem_free(ssl->ca), ssl->ca = NULL;
++	/* (a numeric address was given no name to check against) */
++	if (host[0] == '[' || !numeric_ip_address(host, NULL))
++		return S_INVALID_CERTIFICATE;
++	if (mbossl_verify_result(ssl->ssl))
++		return S_INVALID_CERTIFICATE;
++	cas = init_str();
++	for (i = 0; (n = mbossl_issuer(ssl->ssl, i)); i++) {
++		if (last && !strcmp(n, last))
++			continue;
++		if (casl)
++			add_to_str(&cas, &casl, CERT_RIGHT_ARROW);
++		add_to_str(&cas, &casl, cast_uchar n);
++		last = n;
++	}
++	if (casl)
++		ssl->ca = cas;
++	else
++		mem_free(cas);
++	return 0;
++}
++#else
+ int verify_ssl_certificate(links_ssl *ssl, unsigned char *host)
+ {
+ 	X509 *server_cert;
+@@ -686,6 +724,7 @@
+ 	clear_ssl_errors(__LINE__);
+ 	return ret;
+ }
++#endif /* MBOSSL */
+ 
+ int verify_ssl_cipher(links_ssl *ssl)
+ {
+--- a/jpeg.c
++++ b/jpeg.c
+@@ -12,6 +12,16 @@
+ #ifdef HAVE_JPEG
+ #include <jpeglib.h>
+ 
++#if defined(PSILINUX) && !defined(PSI_JPEG_SCALE)
++/* PsiLinux: PsiWeb's JPEG changes (below, PSI_JPEG_SCALE): decoded near the
++   size shown, in grey, buffered-image mode only for progressive JPEGs */
++#define PSI_JPEG_SCALE 1
++#define PSI_JPEG_MAX_W 640	/* a picture with no size given: at most 640 wide */
++#ifndef PSI_PIC_MAX_PIX
++#define PSI_PIC_MAX_PIX 307200	/* ... and 640x480 in all */
++#endif
++#endif
++
+ #if BITS_IN_JSAMPLE != 8
+ #error "You have a weird jpeglib compiled for 12 bits per sample that is not able to read ordinary JPEG's. \
+ See INSTALL for description how to compile Links with jpeglib statically to supply your own \"good\" version \
+@@ -246,13 +256,57 @@
+ 		/* jpeg_read_header */
+ 		if (JPEG_SUSPENDED==jpeg_read_header(global_cinfo,TRUE))
+ 			break;
++#ifdef PSI_JPEG_SCALE
++		/* PsiWeb: buffered-image mode keeps every DCT coefficient of
++		 * the picture (2 bytes a sample, 3 MB for a 1600x1040 photo);
++		 * only progressive JPEGs need it. */
++		global_cinfo->buffered_image=jpeg_has_multiple_scans(global_cinfo);
++#else
+ 		global_cinfo->buffered_image=TRUE;
++#endif
+ 		deco->state=1;
+ 		/*-fallthrough*/
+ 
+ 		case 1:
+ 		/* If the scaling is sufficiently brutal we can leave out
+ 		 * some DCT coefficients...: */
++#ifdef PSI_JPEG_SCALE
++		if (!global_cinfo->scale_denom || global_cinfo->scale_num == global_cinfo->scale_denom) {
++			/* PsiWeb: decode straight to (nearly) the size shown.
++			 * libjpeg 7+ scales by n/8 in the IDCT, so a 1600-wide
++			 * photo shown 320 wide is decoded 400 wide: 1/16 of the
++			 * memory and much less work for the scaler. Pictures with
++			 * no size given are capped at PSI_JPEG_MAX_W. */
++			long w = (long)global_cinfo->image_width, h = (long)global_cinfo->image_height;
++			long tw = cimg->wanted_xw >= 0 ? (long)cimg->xww : -1;
++			long th = cimg->wanted_yw >= 0 ? (long)cimg->yww : -1;
++			int num;
++			if (tw < 0 && th < 0) {
++				/* no size given: the biggest n/8 that is at most
++				   PSI_JPEG_MAX_W wide and PSI_PIC_MAX_PIX in all
++				   (img.c's cap), so Links need not scale it again */
++				for (num = 8; num > 1; num--) {
++					long sw = (w * num + 7) / 8, sh = (h * num + 7) / 8;
++					if (sw <= PSI_JPEG_MAX_W && (double)sw * (double)sh <= PSI_PIC_MAX_PIX)
++						break;
++				}
++			} else
++			for (num = 1; num < 8; num++)
++				if ((tw < 0 || (w * num + 7) / 8 >= tw) && (th < 0 || (h * num + 7) / 8 >= th))
++					break;
++			global_cinfo->scale_num = num;
++			global_cinfo->scale_denom = 8;
++		}
++		/* PsiWeb: the Psion shows 16 greys, so colour JPEGs are decoded
++		 * to grey (Y only): libjpeg then skips the chroma IDCTs (which
++		 * libjpeg 9 does at 16x16 to upsample) and the colour
++		 * conversion - most of the cost of a photo on the ARM. The fast
++		 * integer IDCT is plenty for 16 greys. */
++		if (global_cinfo->jpeg_color_space == JCS_YCbCr)
++			global_cinfo->out_color_space = JCS_GRAYSCALE;
++		global_cinfo->dct_method = JDCT_IFAST;
++		global_cinfo->do_fancy_upsampling = FALSE;
++#endif
+ 		/* jpeg_start_decompress */
+ 		if (jpeg_start_decompress(global_cinfo)==FALSE)
+ 			break;
+@@ -326,11 +380,35 @@
+ 		}
+ new_scan:
+ 		deco->state=2;
++#ifdef PSI_LAZY_IMAGES
++		{
++			/* insert_image() wants only the size: stop before decoding */
++			extern int psi_size_only;
++			if (psi_size_only) break;
++		}
++#endif
+ 		/*-fallthrough*/
+ 
+ 		case 2:
++#ifdef PSI_JPEG_SCALE
++		/* PsiWeb: a progressive JPEG used to be shown again after every
++		 * scan, each time a full IDCT of the picture with block
++		 * smoothing (about 0.7 s on the 5mx for 400x260, ten times
++		 * over). Take in all the data there is first, and show only the
++		 * latest scan: once if the file has all come (as when a picture
++		 * is decoded from the cache), or as the data comes in over a
++		 * slow link. The final picture is the same. */
++		if (global_cinfo->buffered_image) {
++			int r;
++			do r = jpeg_consume_input(global_cinfo);
++			while (r != JPEG_SUSPENDED && r != JPEG_REACHED_EOI);
++			if (r == JPEG_SUSPENDED && global_cinfo->output_scan_number &&
++			    global_cinfo->input_scan_number <= global_cinfo->output_scan_number)
++				break;	/* (nothing new to show yet) */
++		}
++#endif
+ 		/* jpeg_start_output */
+-		if (FALSE==jpeg_start_output(global_cinfo,global_cinfo->input_scan_number)){
++		if (global_cinfo->buffered_image && FALSE==jpeg_start_output(global_cinfo,global_cinfo->input_scan_number)){
+ susp0:
+ 			/* Suspended */
+ 			break;
+@@ -364,6 +442,7 @@
+ 
+ 		case 4:
+ 		/* jpeg_finish_output */
++		if (global_cinfo->buffered_image) {
+ 		if (FALSE==jpeg_finish_output(global_cinfo))
+ 		{
+ 			/* Suspended */
+@@ -374,6 +453,7 @@
+ 			/* Some more scans awaited... */
+ 			goto new_scan;
+ 		}
++		}
+ 		deco->state=5;
+ 		/*-fallthrough*/
+ 
+--- a/links.h
++++ b/links.h
+@@ -223,6 +223,14 @@
+ #include <openssl/err.h>
+ #include <openssl/crypto.h>
+ 
++#ifdef MBOSSL
++/* PsiLinux: mbossl (ports/links/mbossl: OpenSSL's API over Mbed TLS) checks
++   the certificate in the handshake; https.c asks it the outcome */
++#ifndef HAVE_SSL_CERTIFICATES
++#define HAVE_SSL_CERTIFICATES
++#endif
++#endif
++
+ #ifdef HAVE_SSL_GET1_SESSION
+ #define SSL_SESSION_RESUME
+ #endif
+@@ -1677,8 +1685,10 @@
+ #ifdef HAVE_SSL_CERTIFICATES
+ int verify_ssl_certificate(links_ssl *ssl, unsigned char *host);
+ int verify_ssl_cipher(links_ssl *ssl);
++#ifndef MBOSSL
+ #define HAVE_BUILTIN_SSL_CERTIFICATES
+ #endif
++#endif
+ int ssl_not_reusable(links_ssl *ssl);
+ unsigned char *get_cipher_string(links_ssl *ssl);
+ #endif
+@@ -2319,6 +2329,31 @@
+ 
+ long (*get_color_fn(int depth))(int rgb);
+ void init_dither(int depth);
++#ifdef PSILINUX
++/* PsiLinux's grey mode (dither.c, x.c): 8 bits a pixel, LINKS_GREYS greys, the
++   Psion's 16 levels (n * 17) and the halfway greys between them (n * 17 + 8),
++   which it shows as an even checker of the two levels */
++#define LINKS_GREY_CODE	(1 | (8 << 3) | 1024)
++#define LINKS_GREYS	31
++#define links_grey_value(i)	((i) / 2 * 17 + ((i) & 1) * 8)
++#endif
++
++#ifdef PSI_STRIKES
++/* (PsiWeb's) ports/links/mkstrike.py: hinted glyphs at one cell height (dip.c) */
++struct psi_strike {
++	int height;
++	int slot;			/* 0 normal, 1 bold, 2 monospaced */
++	int n;
++	const unsigned short *codes;	/* sorted */
++	const unsigned short *offs;	/* n + 1: run-length glyph i is data[offs[i]..offs[i + 1]) */
++	const unsigned char *data;
++};
++extern const struct psi_strike psi_strike_table[];
++extern const int psi_strike_count;
++extern const int psi_strike_base;	/* the base (body) size they are for */
++extern int psi_hinted_fonts;		/* 0: the scaled masters only */
++void psi_set_font_base(int fs);		/* the page's base size (zoom) */
++#endif
+ void round_color_sRGB_to_48(unsigned short *my_restrict red, unsigned short *my_restrict green,
+ 		unsigned short *my_restrict blue, int rgb);
+ 
+@@ -3251,6 +3286,7 @@
+ 	list_entry_last
+ };
+ 
++
+ struct additional_file;
+ 
+ struct g_object_image {
+@@ -4984,6 +5020,7 @@
+ 	unsigned char dns_append[MAX_STR_LEN];
+ 	unsigned char no_proxy[MAX_STR_LEN];
+ 	int only_proxies;
++	int https_via_http;	/* PsiLinux: https:// to the HTTP proxy as plain requests (the proxy does the TLS) */
+ };
+ 
+ extern struct proxies proxies;
+--- a/main.c
++++ b/main.c
+@@ -334,6 +334,14 @@
+ 
+ static void fixup_g(void)
+ {
++#ifdef PSILINUX
++	/* PsiLinux: on the X desktop (psiwm starts it with no options) links is
++	   the graphical browser; -no-g gives text mode in a terminal */
++	if (ggr < 0) {
++		unsigned char *d = cast_uchar getenv("DISPLAY");
++		ggr = d && *d;
++	}
++#endif
+ 	if (ggr_drv[0] || ggr_mode[0] || force_g) ggr = 1;
+ 	if (dmp) ggr = 0;
+ }
+--- a/menu.c
++++ b/menu.c
+@@ -1821,6 +1821,9 @@
+ 	TEXT_(T_APPEND_TEXT_TO_SOCKS_LOOKUPS),
+ 	TEXT_(T_NOPROXY_LIST),
+ 	TEXT_(T_ONLY_PROXIES),
++#ifdef HAVE_SSL
++	cast_uchar "https:// through the HTTP proxy (it does the TLS)",
++#endif
+ };
+ 
+ static void proxy_fn(struct dialog_data *dlg)
+@@ -2111,7 +2114,7 @@
+ 	display_proxy(term, https_proxy, proxies.https_proxy);
+ 	display_proxy(term, socks_proxy, proxies.socks_proxy);
+ 	display_noproxy_list(term, no_proxy, proxies.no_proxy);
+-	d = mem_calloc(sizeof(struct dialog) + (N_N + 3) * sizeof(struct dialog_item));
++	d = mem_calloc(sizeof(struct dialog) + (N_N + 4) * sizeof(struct dialog_item));
+ 	d->title = TEXT_(T_PROXIES);
+ 	d->fn = proxy_fn;
+ 	d->items[a].type = D_FIELD;
+@@ -2149,6 +2152,12 @@
+ 	d->items[a].data = (unsigned char *)&proxies.only_proxies;
+ 	d->items[a].dlen = sizeof(int);
+ 	a++;
++#ifdef HAVE_SSL
++	d->items[a].type = D_CHECKBOX;
++	d->items[a].data = (unsigned char *)&proxies.https_via_http;
++	d->items[a].dlen = sizeof(int);
++	a++;
++#endif
+ 	d->items[a].type = D_BUTTON;
+ 	d->items[a].gid = B_ENTER;
+ 	d->items[a].fn = proxy_ok_dialog;
+--- a/sched.c
++++ b/sched.c
+@@ -716,6 +716,11 @@
+ 	if (is_noproxy_url(url))
+ 		return NULL;
+ 	if (*proxies.http_proxy && !casecmp(url, cast_uchar "http://", 7)) return proxies.http_proxy;
++#ifdef HAVE_SSL
++	/* PsiLinux: a proxy such as PsiProxy fetches https:// pages itself, so
++	   the Psion makes no TLS handshake ("GET https://..." to the proxy) */
++	if (*proxies.http_proxy && proxies.https_via_http && !casecmp(url, cast_uchar "https://", 8)) return proxies.http_proxy;
++#endif
+ 	if (*proxies.ftp_proxy && !casecmp(url, cast_uchar "ftp://", 6)) return proxies.ftp_proxy;
+ #ifdef HAVE_SSL
+ 	if (*proxies.https_proxy && !casecmp(url, cast_uchar "https://", 8)) return proxies.https_proxy;
+--- a/session.c
++++ b/session.c
+@@ -331,11 +331,20 @@
+ 	if (!F)
+ 		draw_to_window(ses->win, x_print_screen_title, ses);
+ 
++#ifdef PSILINUX
++	/* PsiLinux: in graphics, the page's title alone (psiwm's title band; its
++	   toolbar already says Links) */
++	if (F && ses->screen && ses->screen->f_data && ses->screen->f_data->title && ses->screen->f_data->title[0])
++		m = stracpy(ses->screen->f_data->title);
++	else
++#endif
++	{
+ 	m = stracpy(cast_uchar "Links");
+ 	if (ses->screen && ses->screen->f_data && ses->screen->f_data->title && ses->screen->f_data->title[0]) {
+ 		add_to_strn(&m, cast_uchar " - ");
+ 		add_to_strn(&m, ses->screen->f_data->title);
+ 	}
++	}
+ 	set_terminal_title(ses->term, m);
+ 	/*mem_free(m); -- set_terminal_title frees it */
+ 
+--- a/setup.h
++++ b/setup.h
+@@ -104,7 +104,11 @@
+ 
+ #define G_BFU_DEFAULT_FONT_SIZE		16
+ #define G_DEFAULT_BFU_FG_COLOR		0x000000
++#ifdef PSILINUX
++#define G_DEFAULT_BFU_BG_COLOR		0xcccccc
++#else
+ #define G_DEFAULT_BFU_BG_COLOR		0xe0e0e0
++#endif
+ 
+ #define G_MENU_LEFT_BORDER		8
+ #define G_MENU_LEFT_INNER_BORDER	8
+@@ -146,7 +150,11 @@
+ #define G_SCROLL_BAR_WIDTH		12
+ #define G_SCROLL_BAR_MIN_SIZE		20
+ #define G_DEFAULT_SCROLL_BAR_FRAME_COLOR	0x000000
++#ifdef PSILINUX
++#define G_DEFAULT_SCROLL_BAR_AREA_COLOR		0xcccccc
++#else
+ #define G_DEFAULT_SCROLL_BAR_AREA_COLOR		0xc0c0c0
++#endif
+ #define G_DEFAULT_SCROLL_BAR_BAR_COLOR		0x000000
+ 
+ #define G_HTML_DEFAULT_FAMILY		"century"
+--- a/url.c
++++ b/url.c
+@@ -157,7 +157,7 @@
+ 	unsigned char *h, *p, *k, *d;
+ 	int hl, pl;
+ 	if (parse_url(url, NULL, NULL, NULL, NULL, NULL, &h, &hl, &p, &pl, &d, NULL, NULL)) return NULL;
+-	if (is_proxy_url(url) && !casecmp(d, cast_uchar "https://", 8)) {
++	if (is_proxy_url(url) && !casecmp(d, cast_uchar "https://", 8) && !(proxies.https_via_http && *proxies.http_proxy)) {
+ 		if (parse_url(d, NULL, NULL, NULL, NULL, NULL, &h, &hl, &p, &pl, NULL, NULL, NULL)) return NULL;
+ 	}
+ 	k = p ? p + pl : h ? h + hl : NULL;
+--- a/x.c
++++ b/x.c
+@@ -206,7 +206,21 @@
+ } *static_color_struct = NULL;
+ 
+ #define X_STATIC_COLORS		(x_depth < 8 ? 8 : 216)
++#ifdef PSILINUX
++/* PsiLinux: the Psion's screen is 16 greys, shown from an 8-bit PseudoColor
++   visual (each colour's grey is its Rec.601 luma, then 16 levels with a 2x2
++   ordered dither for the greys between: common/lxfbconv.h). Links draws
++   there in LINKS_GREYS greys allocated in the default colour map (so no
++   colour map of its own to install, and the greys are shared with the other
++   programs), dithering pictures once, in dither.c, instead of into its 6x6x6
++   cube that the Psion would dither again. LINKS_COLOUR=1 in the environment
++   gives Links' own colour cube instead. */
++static unsigned char x_grey;
++#define X_STATIC_CODE		(x_grey ? LINKS_GREY_CODE : x_depth < 8 ? 801 : 833)
++
++#else
+ #define X_STATIC_CODE		(x_depth < 8 ? 801 : 833)
++#endif
+ 
+ static unsigned short *color_map_16bit = NULL;
+ static unsigned *color_map_24bit = NULL;
+@@ -217,6 +231,30 @@
+ static long x_normal_gc_color;
+ static struct rect x_scroll_gc_rect;
+ static Colormap x_default_colormap, x_colormap;
++
++#ifdef PSILINUX
++/* the greys of the grey mode (above), allocated: their pixels in static_color_table */
++static int x_alloc_greys(void)
++{
++	int i;
++	unsigned char *e = cast_uchar getenv("LINKS_COLOUR");
++	if (x_depth != 8 || (e && *e && *e != '0'))
++		return -1;
++	if (!static_color_table)
++		static_color_table = mem_alloc(256);
++	memset(static_color_table, 0, 256);
++	for (i = 0; i < LINKS_GREYS; i++) {
++		XColor xc;
++		memset(&xc, 0, sizeof xc);
++		xc.red = xc.green = xc.blue = (unsigned short)(links_grey_value(i) * 257);
++		xc.flags = DoRed | DoGreen | DoBlue;
++		if (!XAllocColor(x_display, x_default_colormap, &xc) || xc.pixel >= 256)
++			return -1;
++		static_color_table[i] = (unsigned char)xc.pixel;
++	}
++	return 0;
++}
++#endif
+ static Atom x_delete_window_atom, x_wm_protocols_atom, x_sel_atom, x_targets_atom, x_utf8_string_atom, x__net_supporting_wm_check, x__net_wm_name;
+ static Pixmap x_icon = 0;
+ 
+@@ -1676,11 +1714,14 @@
+ 	x_default_colormap = XDefaultColormap(x_display, x_screen);
+ 
+ 	x_default_window_width = x_display_width;
++	x_default_window_height = x_display_height;
++#ifndef PSILINUX
++	/* (PsiLinux: the whole 640x240 screen; psiwm fits it to its workspace) */
+ 	if (x_default_window_width >= 100)
+ 		x_default_window_width -= 50;
+-	x_default_window_height = x_display_height;
+ 	if (x_default_window_height >= 150)
+ 		x_default_window_height -= 75;
++#endif
+ 
+ 	x_driver_param = NULL;
+ 
+@@ -1811,6 +1852,12 @@
+ 			goto ret_err;
+ 		x_use_static_color_table = 1;
+ 	}
++#ifdef PSILINUX
++	if (vinfo.class == PseudoColor && !x_alloc_greys()) {
++		x_grey = 1;
++		x_use_static_color_table = 1;
++	} else
++#endif
+ 	if (vinfo.class == PseudoColor) {
+ 		if (x_depth > 8)
+ 			return stracpy(cast_uchar "Static color supported for up to 8-bit depth.\n");
+@@ -2197,6 +2244,10 @@
+ 
+ static void x_update_palette(void)
+ {
++#ifdef PSILINUX
++	if (x_grey)
++		return;
++#endif
+ 	if (x_use_static_color_table == !x_driver.param->palette_mode)
+ 		return;
+ 

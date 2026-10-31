@@ -18,7 +18,7 @@
 
 #define LX_SHARED_NAME   "PsiLinuxTerm"
 #define LX_SHARED_MAGIC  0x584e4c50u      /* 'PLNX' */
-#define LX_SHARED_VERSION 4
+#define LX_SHARED_VERSION 5
 #define LX_KBD_SIZE      2048
 #define LX_OUT_SIZE      16384
 
@@ -68,6 +68,8 @@ typedef struct
 	volatile unsigned int reserve;     /* (3) bytes of RAM Linux leaves free for EPOC's programs, 0 = none (the app; may change while running) */
 	int log_on;                        /* (4) 1: Tools > Keep a log is ticked (the app); else the runner
 	                                      writes no PsiLinux.log at all. Read when the runner starts */
+	volatile unsigned int fb_seq;      /* (5) the runner adds 1 when the Linux screen (lxfb.h) opens or closes */
+	volatile int fb_on;                /* (5) 1: a program has /dev/fb0 open: the chunk LX_FB_NAME is there */
 	} LxShared;
 
 #endif

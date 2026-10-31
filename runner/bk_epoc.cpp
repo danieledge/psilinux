@@ -22,6 +22,7 @@ extern "C" {
 #include "lx_core.h"
 #include "lx_dbt.h"
 #include "lxshared.h"
+#include "lxfb.h"
 }
 
 extern "C" int lx_vsnprintf_pub(char* buf, int size, const char* fmt, va_list ap);
@@ -643,10 +644,12 @@ public:
 				iFree = OutFree();
 				lx_k_tty_writable(&lx_k.ttys[0]);
 				}
+			FbInput();
 			if (gSh->bell_magic != PSI_BELL_MAGIC || !iWaiter->Arm(&gSh->eng_bell))
 				return;                      // armed (or no bells: the tick looks)
 			}
 		}
+	static void FbInput();
 	static TInt Rung(TAny* aSelf) { ((CLxTerm*)aSelf)->Look(); return 0; }
 	static TInt Tick(TAny* aSelf) { ((CLxTerm*)aSelf)->Housekeeping(); return 1; }
 	void Housekeeping();
@@ -670,6 +673,66 @@ static CLxTerm* gTerm;
 
 // Once a second: faults that could not be reported at once, the app's
 // heartbeat, and the numbers for the status line.
+// ---- the Linux screen (lx_fb.c): a global chunk the app draws from --------
+
+static RChunk gFbChunk;
+static LxFbHeader* gFb;
+
+extern "C" void* bk_fb_map()
+	{
+	if (!gFb)
+		{
+		// (the app may still have the last one open: then it is that one again)
+		TInt err = gFbChunk.CreateGlobal(_L(LX_FB_NAME), LX_FB_SIZE, LX_FB_SIZE);
+		if (err == KErrAlreadyExists)
+			err = gFbChunk.OpenGlobal(_L(LX_FB_NAME), EFalse);
+		if (err != KErrNone)
+			{
+			bk_log("screen: no memory for it (%d)", err);
+			return 0;
+			}
+		gFb = (LxFbHeader*)gFbChunk.Base();
+		Mem::FillZ(gFb, LX_FB_HDR);
+		gFb->magic = LX_FB_MAGIC;
+		}
+	gSh->fb_on = 1;
+	gSh->fb_seq++;
+	gAppRinger.Ring(&gSh->app_bell);
+	return gFb;
+	}
+
+// No program has the screen now: the app lets go of it too, and its memory
+// goes back to EPOC.
+extern "C" void bk_fb_release()
+	{
+	if (!gFb)
+		return;
+	gFb = 0;
+	gFbChunk.Close();
+	gSh->fb_on = 0;
+	gSh->fb_seq++;
+	gAppRinger.Ring(&gSh->app_bell);
+	}
+
+extern "C" void bk_fb_notify()
+	{
+	gAppRinger.Ring(&gSh->app_bell);
+	}
+
+// The app's keys and pen, for /dev/input
+void CLxTerm::FbInput()
+	{
+	if (!gFb)
+		return;
+	TUint head = gFb->in_head;
+	while (gFb->in_tail != head)
+		{
+		const LxInEvent& e = gFb->in[gFb->in_tail & (LX_FB_IN - 1)];
+		lx_k_input(e.dev, e.type, e.code, e.value);
+		gFb->in_tail++;
+		}
+	}
+
 void CLxTerm::Housekeeping()
 	{
 	TInt i;

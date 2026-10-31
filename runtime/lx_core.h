@@ -25,7 +25,7 @@
 extern "C" {
 #endif
 
-#define LX_VERSION "0.24"
+#define LX_VERSION "0.25"
 #define LX_MAXPROC 64
 #define LX_MAXTHREAD 64
 #define LX_MAXFD 128
@@ -33,6 +33,8 @@ extern "C" {
 #define LX_ARG_MAX (64 * 1024)
 #define LX_PIPE_SIZE 8192
 #define LX_MAXTTY 4
+#define LX_MAXPTY 8                 /* pseudo-terminals (lx_pty.c) */
+#define LX_PTY_INDEX 16             /* a pty's slave: lx_tty.index LX_PTY_INDEX + its number */
 #define LX_DEFAULT_STACK (128 * 1024)
 #define LX_BLOCK (-100000)          /* a handler's "park me, try again later" */
 #define LX_NOREPLY (-100001)        /* a handler has already answered (or the thread is gone) */
@@ -45,6 +47,7 @@ struct lx_thread;
 struct lx_file;
 struct lx_mm;
 struct lx_tty;
+struct lx_pty;
 struct lx_borrow;
 #else
 typedef struct lx_proc lx_proc;
@@ -52,6 +55,7 @@ typedef struct lx_thread lx_thread;
 typedef struct lx_file lx_file;
 typedef struct lx_mm lx_mm;
 typedef struct lx_tty lx_tty;
+typedef struct lx_pty lx_pty;
 #endif
 
 /* ---- memory ------------------------------------------------------------ */
@@ -88,6 +92,7 @@ typedef struct lx_map {
 	lx_s64 off;
 	int prot, flags;
 	lx_simg *simg;              /* a shared library (Alpine mode): not the arena's */
+	int dev;                    /* a device's own memory (/dev/fb0): not the arena's, never saved by fork */
 	struct lx_map *next;
 } lx_map;
 
@@ -129,6 +134,7 @@ typedef struct lx_fops {
 	void (*close)(lx_file *f);
 	int (*truncate)(lx_file *f, lx_s64 len);
 	int (*sync)(lx_file *f);
+	int (*mmap)(lx_thread *t, lx_file *f, lx_u32 len, lx_s64 off, lx_u32 *addr);   /* device memory (the screen); 0 = a copy of the file */
 } lx_fops;
 
 struct lx_file {
@@ -164,6 +170,7 @@ struct lx_tty {
 	int column;                 /* the output column, for erase with tabs */
 	int stopped;                /* ^S */
 	void *bk;
+	lx_pty *pty;                /* a pseudo-terminal's slave: its output goes to the master (lx_pty.c) */
 };
 
 /* ---- threads and processes ---------------------------------------------- */
@@ -346,6 +353,9 @@ lx_s64 bk_now_real(void);                     /* since 1970 */
 lx_s64 bk_now_mono(void);                     /* since the runner started */
 void bk_wake_at(lx_s64 mono);                 /* call lx_k_timer() at (or after) this time; 0 = never */
 lx_u32 bk_random(void);
+void *bk_fb_map(void);                        /* the screen's shared memory (lxfb.h), made or reopened; 0 = no memory */
+void bk_fb_release(void);                     /* no program has the screen open now */
+void bk_fb_notify(void);                      /* wake the app: the screen changed */
 void bk_mem_info(lx_u32 *total, lx_u32 *free_);   /* the Psion's RAM, and how much is free */
 lx_u32 bk_mem_reserve(void);                  /* bytes to leave free for EPOC's programs (Preferences), 0 = none */
 /* terminals */
@@ -423,6 +433,7 @@ lx_file *lx_file_get(lx_file *f);
 int lx_snprintf(char *buf, int size, const char *fmt, ...);
 void lx_strlcpy(char *d, const char *s, int size);
 int lx_strlen(const char *s);
+int lx_strnlen(const char *s, int max);
 int lx_strcmp(const char *a, const char *b);
 int lx_strncmp(const char *a, const char *b, int n);
 char *lx_strdup(const char *s);
@@ -475,6 +486,21 @@ int lx_vfs_resolve(lx_proc *p, int dirfd, const char *path, int follow, char *ou
 int lx_fs_syscall(lx_thread *t, lx_u32 nr, lx_u32 *a);   /* LX_NOSYS if not a file call */
 #define LX_NOSYS (-100002)
 int lx_pipe_new(lx_file **r, lx_file **w);
+int lx_pipe_count(lx_file *f);                /* bytes waiting in the pipe */
+
+/* lx_pty.c: pseudo-terminals */
+int lx_pty_room(lx_tty *t);
+int lx_pty_write(lx_tty *t, const char *buf, int n);
+void lx_pty_slave_closed(lx_tty *t);
+lx_file *lx_ptmx_open(int flags, int *err);
+lx_tty *lx_pts_find(int num, int *locked);
+void lx_pts_opened(lx_tty *t);
+int lx_pts_list(int *nums);
+
+/* lx_fb.c: the screen and its input */
+lx_file *lx_fb_open(int flags, lx_u64 ino, int *err);
+lx_file *lx_evdev_open(int dev, int flags, lx_u64 ino, int *err);
+void lx_k_input(int dev, int type, int code, int value);   /* an event from the app (LX_IN_*: lxfb.h) */
 lx_file *lx_tty_file(lx_tty *tty);
 void lx_tty_init(lx_tty *tty, int index);
 int lx_tty_ioctl(lx_thread *t, lx_tty *tty, lx_u32 req, lx_u32 arg);

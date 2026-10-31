@@ -145,6 +145,18 @@ void CLxSession::Pump()
 		}
 	if (took)
 		Ring();                              // (room in 'out': a writer may be waiting)
+	if (iScreenHook)
+		{
+		TBool on = iShared->fb_on && iRunning;
+		if (iShared->fb_seq != iFbSeq || on != iFbOn)
+			{
+			iFbSeq = iShared->fb_seq;
+			iFbOn = on;
+			iScreenHook->ScreenOnOff(on);
+			}
+		if (on)
+			iScreenHook->ScreenPump();
+		}
 	if (iShared->info_seq != iLastInfo)
 		{
 		iLastInfo = iShared->info_seq;

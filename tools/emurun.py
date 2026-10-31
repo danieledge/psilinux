@@ -5,13 +5,14 @@
 
 Each STEP is text to type (\\r is Enter; ^C is Ctrl+C), "+N" to wait
 N seconds of simulated time, or one of the keys {left} {right} {up} {down}
-{tab} {tap X Y}. Screenshots go to build/emu/NAME/ (end.png is
-the last). It uses tools/emu/run.sh and the key tables of tools/emu/net.py.
+{tab} {menu} {esc} {enter} {tap X Y}. Screenshots go to build/emu/NAME/ (end.png is
+the last). It uses core/tools/emu/run.sh and the key tables of core/tools/emu/net.py.
 """
 import os, subprocess, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
-REPO = os.path.abspath(os.path.join(HERE, '..', '..'))
-sys.path.insert(0, os.path.join(REPO, 'tools', 'emu'))
+REPO = os.path.abspath(os.path.join(HERE, '..'))
+EMUTOOLS = os.path.join(os.environ.get('PSION_CORE', os.path.join(REPO, 'core')), 'tools', 'emu')
+sys.path.insert(0, EMUTOOLS)
 import net   # noqa: E402  (Script, the key codes)
 
 def main():
@@ -34,7 +35,8 @@ def main():
         if st.startswith('+') and st[1:].replace('.', '').isdigit():
             s.wait(float(st[1:]))
             continue
-        keys = {'{left}': net.LEFT, '{right}': net.RIGHT, '{up}': net.UP, '{down}': net.DOWN, '{tab}': net.TAB}
+        keys = {'{left}': net.LEFT, '{right}': net.RIGHT, '{up}': net.UP, '{down}': net.DOWN, '{tab}': net.TAB,
+                '{menu}': net.MENU, '{esc}': net.ESC, '{enter}': net.ENTER}
         if st in keys:
             s.key(keys[st], None, 0.8)
             continue
@@ -65,7 +67,7 @@ def main():
             s.type(st[i:j], gap=0.25)
             i = j
     env = dict(os.environ, EMU_CARD=card, EMU_SECS=str(secs))
-    cmd = [os.path.join(REPO, 'tools', 'emu', 'run.sh'), name] + s.ev
+    cmd = [os.path.join(EMUTOOLS, 'run.sh'), name] + s.ev
     subprocess.run(cmd, env=env, check=False)
 
 if __name__ == '__main__':

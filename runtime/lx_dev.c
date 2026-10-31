@@ -2,6 +2,7 @@
  * eventfd and files whose contents are made at open (/proc's). */
 #include "lx_core.h"
 #include "lx_vfs.h"
+#include "../common/lxfb.h"
 #include "lx_dbt.h"
 
 /* ---- files made at open ------------------------------------------------------ */
@@ -64,7 +65,7 @@ lx_file *lx_memfile_new(const char *data, int len)
 
 /* ---- /dev ----------------------------------------------------------------- */
 
-enum { D_DIR = 1, D_NULL, D_ZERO, D_FULL, D_RANDOM, D_URANDOM, D_TTY, D_CONSOLE, D_TTYN, D_PTS };
+enum { D_DIR = 1, D_NULL, D_ZERO, D_FULL, D_RANDOM, D_URANDOM, D_TTY, D_CONSOLE, D_TTYN, D_PTS, D_FB, D_INPUT, D_EVENT, D_PTMX, D_PTSN };
 
 typedef struct devent { const char *name; int dev; lx_u32 mode; lx_u32 rdev; const char *link; } devent;
 static const devent devs[] = {
@@ -85,6 +86,9 @@ static const devent devs[] = {
 	{ "fd", 0, LX_S_IFLNK | 0777, 0, "/proc/self/fd" },
 	{ "pts", D_PTS, LX_S_IFDIR | 0755, 0, 0 },
 	{ "shm", 0, LX_S_IFLNK | 0777, 0, "/tmp" },
+	{ "ptmx", D_PTMX, LX_S_IFCHR | 0666, 0x502, 0 },
+	{ "fb0", D_FB, LX_S_IFCHR | 0660, 0x1d00, 0 },
+	{ "input", D_INPUT, LX_S_IFDIR | 0755, 0, 0 },
 };
 #define NDEVS (int)(sizeof devs / sizeof devs[0])
 
@@ -108,6 +112,28 @@ int lx_dev_lookup(lx_proc *p, const char *rel, lx_vn *v)
 			}
 			return 0;
 		}
+	if (lx_strncmp(rel, "input/event", 11) == 0 && rel[11] >= '0' && rel[11] < '0' + LX_IN_NDEV && !rel[12]) {
+		v->dev = D_EVENT;
+		v->fd = rel[11] - '0';
+		v->mode = LX_S_IFCHR | 0660;
+		v->rdev = 0x0d40 + v->fd;
+		v->mtime = lx_k.boot_time;
+		v->ino = 0x1200 + v->fd;
+		return 0;
+	}
+	if (lx_strncmp(rel, "pts/", 4) == 0 && rel[4] >= '0' && rel[4] <= '9') {
+		int n = 0;
+		const char *s = rel + 4;
+		while (*s >= '0' && *s <= '9') n = n * 10 + (*s++ - '0');
+		if (*s || !lx_pts_find(n, 0)) return -LX_ENOENT;
+		v->dev = D_PTSN;
+		v->fd = n;
+		v->mode = LX_S_IFCHR | 0620;
+		v->rdev = 0x8800 + n;
+		v->mtime = lx_k.boot_time;
+		v->ino = 0x1300 + n;
+		return 0;
+	}
 	if (lx_strcmp(rel, "pts") > 0 && lx_strncmp(rel, "pts/", 4) == 0) return -LX_ENOENT;
 	return -LX_ENOENT;
 }
@@ -116,6 +142,20 @@ void lx_dev_list(lx_proc *p, lx_vn *v, void *dl)
 {
 	int i;
 	(void)p;
+	if (v->dev == D_PTS) {
+		int nums[LX_MAXPTY], k, n = lx_pts_list(nums);
+		for (k = 0; k < n; k++) {
+			char nm[8];
+			lx_snprintf(nm, sizeof nm, "%d", nums[k]);
+			lx_dlist_add(dl, nm, LX_DT_CHR, 0x1300 + nums[k]);
+		}
+		return;
+	}
+	if (v->dev == D_INPUT) {
+		lx_dlist_add(dl, "event0", LX_DT_CHR, 0x1200);
+		lx_dlist_add(dl, "event1", LX_DT_CHR, 0x1201);
+		return;
+	}
 	if (v->dev != D_DIR) return;
 	for (i = 0; i < NDEVS; i++)
 		lx_dlist_add(dl, devs[i].name, devs[i].link ? LX_DT_LNK : LX_S_ISDIR(devs[i].mode) ? LX_DT_DIR : LX_DT_CHR, 0x1000 + i);
@@ -161,6 +201,13 @@ lx_file *lx_dev_open(lx_proc *p, lx_vn *v, int flags, int *err)
 		if (!tty) { *err = -LX_ENXIO; return 0; }
 	} else if (v->dev == D_CONSOLE) tty = &lx_k.ttys[0];
 	else if (v->dev == D_TTYN) tty = &lx_k.ttys[v->fd >= 0 && v->fd < LX_MAXTTY ? v->fd : 0];
+	else if (v->dev == D_PTMX) return lx_ptmx_open(flags, err);
+	else if (v->dev == D_PTSN) {
+		int locked = 0;
+		tty = lx_pts_find(v->fd, &locked);
+		if (!tty) { *err = -LX_ENOENT; return 0; }
+		if (locked) { *err = -LX_EIO; return 0; }
+	}
 	if (tty) {
 		f = lx_tty_file(tty);
 		if (!f) { *err = -LX_ENOMEM; return 0; }
@@ -173,6 +220,8 @@ lx_file *lx_dev_open(lx_proc *p, lx_vn *v, int flags, int *err)
 		}
 		return f;
 	}
+	if (v->dev == D_FB) return lx_fb_open(flags, v->ino, err);
+	if (v->dev == D_EVENT) return lx_evdev_open(v->fd, flags, v->ino, err);
 	f = lx_file_new(&dev_ops, (void *)(long)v->dev, flags);
 	if (!f) { *err = -LX_ENOMEM; return 0; }
 	f->mode = v->mode;
@@ -341,6 +390,7 @@ int lx_pipe_new(lx_file **r, lx_file **w)
 }
 
 int lx_is_pipe(lx_file *f) { return f->ops == &pipe_r_ops || f->ops == &pipe_w_ops; }
+int lx_pipe_count(lx_file *f) { return ((pipe *)f->priv)->count; }
 
 /* ---- eventfd -------------------------------------------------------------- */
 

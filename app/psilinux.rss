@@ -187,7 +187,7 @@ RESOURCE MENU_PANE r_lx_views_menu
 	items=
 		{
 		MENU_ITEM { command=ELxCmdViewTerminal; txt="Terminal"; flags=EEikMenuItemRadioStart; },
-		MENU_ITEM { command=ELxCmdViewRemote; txt="Remote apps"; flags=EEikMenuItemRadioEnd; }
+		MENU_ITEM { command=ELxCmdViewRemote; txt="Linux screen"; flags=EEikMenuItemRadioEnd; }
 		};
 	}
 

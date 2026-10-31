@@ -12,7 +12,7 @@ export TMP := /tmp/
 export WINEDEBUG := -all
 OBJ      := ../build/lxrun-obj
 RT       := ../runtime
-CORE     := lx_core lx_mem lx_elf lx_vfs lx_root lx_dev lx_tty lx_fsys lx_net lx_dbt lx_dbt_rt lx_vfp lx_simg lx_rand
+CORE     := lx_core lx_mem lx_elf lx_vfs lx_root lx_dev lx_tty lx_fsys lx_net lx_dbt lx_dbt_rt lx_vfp lx_simg lx_rand lx_fb lx_pty
 SF       := $(basename $(notdir $(wildcard $(RT)/softfloat/*.c)))
 OBJS     := $(addprefix $(OBJ)/,$(addsuffix .o,$(CORE))) $(addprefix $(OBJ)/sf/,$(addsuffix .o,$(SF))) $(OBJ)/lx_entry.o $(OBJ)/lx_dbt_entry.o $(OBJ)/bk_epoc.o $(OBJ)/bk_esock.o
 DEFS     := -D__SYMBIAN32__ -D__PSISOFT32__ -D__GCC32__ -D__EPOC32__ -D__MARM__ -D__EXE__ -DNDEBUG
@@ -24,7 +24,7 @@ CXXFLAGS := $(ARCH) $(DEFS) -Wno-ctor-dtor-privacy -fcheck-new -fvtable-thunks -
 V4BX_DIR := $(abspath $(OBJ))
 include $(PSION_CORE)/tools/v4bx.mk
 LIBS     := $(REL)/euser.lib $(REL)/efsrv.lib $(REL)/esock.lib $(REL)/insock.lib $(REL)/nifman.lib $(LIBGCC)
-HDRS     := $(wildcard $(RT)/*.h) ../common/lxshared.h
+HDRS     := $(wildcard $(RT)/*.h) ../common/lxshared.h ../common/lxfb.h
 
 all: $(OBJ)/psilxrun.exe
 

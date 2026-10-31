@@ -5,7 +5,10 @@
  *  - DNS: /etc/resolv.conf names 127.0.0.53. A UDP query sent there is
  *    answered here, by asking the backend's resolver (RHostResolver on EPOC),
  *    so musl's resolver works without knowing the PPP link's DNS server.
- *  - AF_UNIX: socketpair only, made of two pipes.
+ *  - AF_UNIX: stream sockets made of two pipes: socketpair, and bind,
+ *    listen, accept and connect by name (a path or an abstract name). The
+ *    names live here only: a bound path makes no file (X's clients, the
+ *    ones that need them, just connect).
  */
 #include "lx_core.h"
 #include "lx_vfs.h"
@@ -37,9 +40,18 @@ typedef struct sock {
 	int dns;
 	dns_slot *dq;               /* DNS_SLOTS of them, made at the first question */
 	unsigned dns_seq;
-	/* AF_UNIX socketpair: two pipes */
+	/* AF_UNIX: two pipes once connected */
 	lx_file *pr, *pw;
+	int unix_;                  /* an AF_UNIX socket */
+	int namelen;                /* its bound name (sun_path's bytes), 0 = none */
+	char name[108];
+	int pid;                    /* (SO_PEERCRED: the process at the other end) */
+	struct sock *lnext;         /* the listeners, by name */
+	struct sock *q[8];          /* a listener's connections, not yet accepted */
+	int nq;
 } sock;
+
+static sock *listeners;
 
 static lx_u64 sock_ino = 9000;
 
@@ -170,6 +182,7 @@ static int dns_query(sock *s, const char *buf, int len)
 static int sk_poll(lx_file *f)
 {
 	sock *s = (sock *)f->priv;
+	if (s->unix_ && !s->pr) return s->listening ? (s->nq ? LX_POLLIN : 0) : LX_POLLOUT;
 	if (s->pr) {
 		int r = s->pr->ops->poll(s->pr) & (LX_POLLIN | LX_POLLHUP);
 		return r | (s->pw->ops->poll(s->pw) & (LX_POLLOUT | LX_POLLERR));
@@ -184,6 +197,7 @@ static int sk_recv(lx_thread *t, lx_file *f, char *buf, lx_u32 n, int flags, lx_
 	sock *s = (sock *)f->priv;
 	int r;
 	int nonblock = (f->flags & LX_O_NONBLOCK) || (flags & LX_MSG_DONTWAIT);
+	if (s->unix_ && !s->pr) return -LX_ENOTCONN;
 	if (s->pr) {
 		r = s->pr->ops->read(t, s->pr, buf, n);
 		if (r == LX_BLOCK && nonblock) return -LX_EAGAIN;
@@ -211,6 +225,7 @@ static int sk_send(lx_thread *t, lx_file *f, const char *buf, lx_u32 n, int flag
 	sock *s = (sock *)f->priv;
 	int r;
 	int nonblock = (f->flags & LX_O_NONBLOCK) || (flags & LX_MSG_DONTWAIT);
+	if (s->unix_ && !s->pr) return -LX_ENOTCONN;
 	if (s->pr) {
 		r = s->pw->ops->write(t, s->pw, buf, n);
 		if (r == LX_BLOCK && nonblock) return -LX_EAGAIN;
@@ -253,6 +268,7 @@ static int sk_ioctl(lx_thread *t, lx_file *f, lx_u32 req, lx_u32 arg)
 		int n = 0;
 		if (!lx_uaccess(t, arg, 4)) return -LX_EFAULT;
 		if (s->dns) { dns_slot *d = dns_poll(s); n = d ? d->alen : 0; }
+		else if (s->pr) n = lx_pipe_count(s->pr);
 		else if (s->bk && (bk_sock_poll(s->bk) & LX_POLLIN)) n = bk_sock_recv(s->bk, tmp, 1, 1) > 0 ? 1 : 0;
 		*(lx_s32 *)arg = n;
 		return 0;
@@ -262,9 +278,19 @@ static int sk_ioctl(lx_thread *t, lx_file *f, lx_u32 req, lx_u32 arg)
 
 static lx_s64 sk_lseek(lx_file *f, lx_s64 o, int w) { (void)f; (void)o; (void)w; return -LX_ESPIPE; }
 
+static void sock_free(sock *s);
+
 static void sk_close(lx_file *f)
 {
-	sock *s = (sock *)f->priv;
+	sock_free((sock *)f->priv);
+}
+
+static void sock_free(sock *s)
+{
+	sock **l;
+	for (l = &listeners; *l; l = &(*l)->lnext)
+		if (*l == s) { *l = s->lnext; break; }
+	while (s->nq) sock_free(s->q[--s->nq]);
 	if (s->bk) bk_sock_close(s->bk);
 	if (s->dq) {
 		int k;
@@ -325,6 +351,72 @@ static int put_addr(lx_thread *t, lx_u32 ua, lx_u32 ulen, lx_u32 addr, lx_u16 po
 	return 0;
 }
 
+/* ---- AF_UNIX by name ------------------------------------------------------------ */
+
+/* sun_path from a sockaddr_un: its bytes (an abstract name starts with 0) */
+static int un_name(lx_thread *t, lx_u32 ua, lx_u32 len, char *name)
+{
+	int n;
+	if (len < 3 || len > 110 || !lx_uaccess(t, ua, len)) return len < 3 ? -LX_EINVAL : -LX_EFAULT;
+	if (*(lx_u16 *)ua != LX_AF_UNIX) return -LX_EAFNOSUPPORT;
+	n = (int)len - 2;
+	bk_memcpy(name, (char *)ua + 2, n);
+	if (name[0]) n = lx_strnlen(name, n);     /* a path: up to its NUL */
+	return n;
+}
+
+static sock *un_find(const char *name, int n)
+{
+	sock *l;
+	for (l = listeners; l; l = l->lnext)
+		if (l->namelen == n && same(l->name, name, n)) return l;
+	return 0;
+}
+
+static int un_put_name(lx_thread *t, lx_u32 ua, lx_u32 ulen, const char *name, int n)
+{
+	lx_u32 len, want = 2 + n;
+	char sa[110];
+	if (!ua) return 0;
+	if (!lx_uaccess(t, ulen, 4)) return -LX_EFAULT;
+	len = *(lx_u32 *)ulen;
+	*(lx_u16 *)sa = LX_AF_UNIX;
+	bk_memcpy(sa + 2, name, n);
+	if (n && name[0]) { sa[2 + n] = 0; want++; }
+	if (len > want) len = want;
+	if (!lx_uaccess(t, ua, len)) return -LX_EFAULT;
+	bk_memcpy((void *)ua, sa, len);
+	*(lx_u32 *)ulen = want;
+	return 0;
+}
+
+/* connect s to the listener l: two pipes, the far end queued for accept */
+static int un_connect(lx_thread *t, sock *s, sock *l)
+{
+	lx_file *r1, *w1, *r2, *w2;
+	sock *n;
+	int e;
+	if (l->nq >= (int)(sizeof l->q / sizeof l->q[0])) return -LX_EAGAIN;
+	n = (sock *)bk_alloc(sizeof *n);
+	if (!n) return -LX_ENOMEM;
+	e = lx_pipe_new(&r1, &w1);
+	if (e < 0) { bk_free(n); return e; }
+	e = lx_pipe_new(&r2, &w2);
+	if (e < 0) { lx_file_put(r1); lx_file_put(w1); bk_free(n); return e; }
+	s->pr = r1; s->pw = w2;
+	n->pr = r2; n->pw = w1;
+	n->unix_ = 1;
+	n->type = LX_SOCK_STREAM;
+	n->connected = s->connected = 1;
+	n->namelen = l->namelen;
+	bk_memcpy(n->name, l->name, l->namelen);
+	n->pid = t->proc->pid;
+	s->pid = l->pid;
+	l->q[l->nq++] = n;
+	lx_k_event();
+	return 0;
+}
+
 static int sys_socket(lx_thread *t, int domain, int type, int proto)
 {
 	sock *s;
@@ -332,7 +424,17 @@ static int sys_socket(lx_thread *t, int domain, int type, int proto)
 	int err = 0, base = type & 0xf;
 	(void)proto;
 	if (domain == LX_AF_INET6) return -LX_EAFNOSUPPORT;
-	if (domain == LX_AF_UNIX) return -LX_EAFNOSUPPORT;    /* (socketpair only) */
+	if (domain == LX_AF_UNIX) {
+		if (base != LX_SOCK_STREAM) return -LX_EPROTONOSUPPORT;
+		s = (sock *)bk_alloc(sizeof *s);
+		if (!s) return -LX_ENOMEM;
+		s->type = base;
+		s->unix_ = 1;
+		s->pid = t->proc->pid;
+		f = sock_file(s, type);
+		if (!f) { bk_free(s); return -LX_ENOMEM; }
+		return lx_fd_alloc(t->proc, f, 0, type & LX_SOCK_CLOEXEC);
+	}
 	if (domain != LX_AF_INET) return -LX_EAFNOSUPPORT;
 	if (base != LX_SOCK_STREAM && base != LX_SOCK_DGRAM) return -LX_EPROTONOSUPPORT;
 	s = (sock *)bk_alloc(sizeof *s);
@@ -362,6 +464,8 @@ static int sys_socketpair(lx_thread *t, int domain, int type, int proto, lx_u32 
 	b = (sock *)bk_alloc(sizeof *b);
 	if (!a || !b) { bk_free(a); bk_free(b); lx_file_put(r1); lx_file_put(w1); lx_file_put(r2); lx_file_put(w2); return -LX_ENOMEM; }
 	a->type = b->type = type & 0xf;
+	a->unix_ = b->unix_ = 1;
+	a->pid = b->pid = t->proc->pid;
 	a->pr = r1; a->pw = w2;
 	b->pr = r2; b->pw = w1;
 	a->connected = b->connected = 1;
@@ -385,6 +489,18 @@ static int sys_connect(lx_thread *t, int fd, lx_u32 ua, lx_u32 len)
 	lx_u16 port;
 	int r;
 	if (!s) return lx_fd_get(t->proc, fd) ? -LX_ENOTSOCK : -LX_EBADF;
+	if (s->unix_) {
+		char name[108];
+		sock *l;
+		int n = un_name(t, ua, len, name);
+		if (n < 0) return n;
+		if (s->pr) return -LX_EISCONN;
+		l = un_find(name, n);
+		if (!l) return name[0] ? -LX_ENOENT : -LX_ECONNREFUSED;
+		r = un_connect(t, s, l);
+		if (r == -LX_EAGAIN) return (f->flags & LX_O_NONBLOCK) ? -LX_EAGAIN : LX_BLOCK;
+		return r;
+	}
 	if (s->connecting) {
 		/* a blocking connect, looked at again */
 		int ev = s->bk ? bk_sock_poll(s->bk) : LX_POLLERR;
@@ -415,6 +531,18 @@ static int sys_accept(lx_thread *t, int fd, lx_u32 ua, lx_u32 ulen, int flags)
 	lx_u32 addr = 0;
 	lx_u16 port = 0;
 	if (!s) return -LX_ENOTSOCK;
+	if (s->unix_) {
+		int i;
+		if (!s->listening) return -LX_EINVAL;
+		if (!s->nq) return (f->flags & LX_O_NONBLOCK) ? -LX_EAGAIN : LX_BLOCK;
+		n = s->q[0];
+		for (i = 1; i < s->nq; i++) s->q[i - 1] = s->q[i];
+		s->nq--;
+		nf = sock_file(n, flags);
+		if (!nf) { sock_free(n); return -LX_ENOMEM; }
+		if (ua) un_put_name(t, ua, ulen, "", 0);    /* (the client has no name) */
+		return lx_fd_alloc(t->proc, nf, 0, flags & LX_SOCK_CLOEXEC);
+	}
 	if (!s->bk || !s->listening) return -LX_EINVAL;
 	b = bk_sock_accept(s->bk, &err, &addr, &port);
 	if (!b) {
@@ -444,6 +572,14 @@ static int sys_sockopt(lx_thread *t, int fd, int level, int name, lx_u32 val, lx
 		case LX_SO_ERROR: v = s->bk ? -bk_sock_error(s->bk) : 0; break;
 		case LX_SO_TYPE: v = s->type; break;
 		case LX_SO_RCVBUF: case LX_SO_SNDBUF: v = 8192; break;
+		case LX_SO_PEERCRED:
+			/* struct ucred: the pid at the other end, uid and gid 0 */
+			if (*(lx_u32 *)ulen < 12 || !lx_uaccess(t, val, 12)) return -LX_EINVAL;
+			((lx_s32 *)val)[0] = s->pid;
+			((lx_s32 *)val)[1] = 0;
+			((lx_s32 *)val)[2] = 0;
+			*(lx_u32 *)ulen = 12;
+			return 0;
 		default: v = 0;
 		}
 	}
@@ -466,7 +602,7 @@ static int sys_sendmsg(lx_thread *t, int fd, lx_u32 umsg, int flags, int recv)
 	if (!lx_uaccess(t, umsg, sizeof *m)) return -LX_EFAULT;
 	if (m->iovlen > 64 || !lx_uaccess(t, m->iov, m->iovlen * sizeof *iov)) return -LX_EFAULT;
 	iov = (struct lx_iovec *)m->iov;
-	if (!recv && m->name && m->namelen) {
+	if (!recv && m->name && m->namelen && !s->unix_) {
 		r = get_addr(t, m->name, m->namelen, &addr, &port);
 		if (r < 0) return r;
 		to = 1;
@@ -481,7 +617,8 @@ static int sys_sendmsg(lx_thread *t, int fd, lx_u32 umsg, int flags, int recv)
 		total += r;
 		if ((lx_u32)r < iov[i].len || s->type == LX_SOCK_DGRAM) break;
 	}
-	if (recv) {
+	if (recv && s->unix_) m->namelen = 0, m->controllen = 0, m->flags = 0;
+	else if (recv) {
 		if (m->name && m->namelen >= sizeof(struct lx_sockaddr_in) && lx_uaccess(t, m->name, sizeof(struct lx_sockaddr_in))) {
 			struct lx_sockaddr_in *sa = (struct lx_sockaddr_in *)m->name;
 			bk_memset(sa, 0, sizeof *sa);
@@ -509,11 +646,31 @@ int lx_net_syscall(lx_thread *t, lx_u32 nr, lx_u32 *a)
 	case LX_NR_connect: return sys_connect(t, (int)a[0], a[1], a[2]);
 	case LX_NR_bind:
 		if (!(s = get_sock(t, (int)a[0], 0))) return -LX_ENOTSOCK;
+		if (s->unix_) {
+			char name[108];
+			int n = un_name(t, a[1], a[2], name);
+			if (n < 0) return n;
+			if (s->namelen || s->pr) return -LX_EINVAL;
+			if (un_find(name, n)) return -LX_EADDRINUSE;
+			bk_memcpy(s->name, name, n);
+			s->namelen = n;
+			return 0;
+		}
 		if ((r = get_addr(t, a[1], a[2], &addr, &port)) < 0) return r;
 		if (!s->bk) return -LX_EADDRNOTAVAIL;
 		return bk_sock_bind(s->bk, addr, port);
 	case LX_NR_listen:
 		if (!(s = get_sock(t, (int)a[0], 0))) return -LX_ENOTSOCK;
+		if (s->unix_) {
+			if (!s->namelen || s->pr) return -LX_EINVAL;
+			if (!s->listening) {
+				if (un_find(s->name, s->namelen)) return -LX_EADDRINUSE;
+				s->listening = 1;
+				s->lnext = listeners;
+				listeners = s;
+			}
+			return 0;
+		}
 		if (!s->bk) return -LX_EINVAL;
 		r = bk_sock_listen(s->bk, (int)a[1]);
 		if (r == 0) s->listening = 1;
@@ -522,6 +679,10 @@ int lx_net_syscall(lx_thread *t, lx_u32 nr, lx_u32 *a)
 	case LX_NR_accept4: return sys_accept(t, (int)a[0], a[1], a[2], (int)a[3]);
 	case LX_NR_getsockname: case LX_NR_getpeername:
 		if (!(s = get_sock(t, (int)a[0], 0))) return -LX_ENOTSOCK;
+		if (s->unix_) {
+			if (nr == LX_NR_getpeername && !s->pr) return -LX_ENOTCONN;
+			return un_put_name(t, a[1], a[2], s->name, s->namelen);
+		}
 		addr = 0; port = 0;
 		if (s->bk) bk_sock_name(s->bk, nr == LX_NR_getpeername, &addr, &port);
 		else if (s->dns && nr == LX_NR_getpeername) { addr = DNS_ADDR; port = swap16(53); }

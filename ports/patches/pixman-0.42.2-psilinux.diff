@@ -1,0 +1,46 @@
+diff -ruN a/pixman/pixman-general.c b/pixman/pixman-general.c
+--- a/pixman/pixman-general.c	2026-10-30 23:16:01.350063541 +0000
++++ b/pixman/pixman-general.c	2026-10-30 23:16:01.366063934 +0000
+@@ -138,11 +138,19 @@
+     int Bpp;
+     int i;
+ 
++#ifdef PIXMAN_NO_FLOAT
++    /* PsiLinux: no FPU, so no floating-point ("wide") path at all: wide
++     * formats, dithering and the division operators go through 8 bits per
++     * channel too (less exact, not wrong), and the float combiners (130 KB)
++     * are not linked. */
++    if (1)
++#else
+     if ((src_image->common.flags & FAST_PATH_NARROW_FORMAT)		     &&
+ 	(!mask_image || mask_image->common.flags & FAST_PATH_NARROW_FORMAT)  &&
+ 	(dest_image->common.flags & FAST_PATH_NARROW_FORMAT)		     &&
+ 	!(operator_needs_division (op))                                      &&
+ 	(dest_image->bits.dither == PIXMAN_DITHER_NONE))
++#endif
+     {
+ 	width_flag = ITER_NARROW;
+ 	Bpp = 4;
+@@ -170,7 +178,12 @@
+     }
+     else
+     {
++#ifdef PIXMAN_NO_FLOAT
++	/* (only the part used: 24 KB per call is slow on a 5mx) */
++	memset (stack_scanline_buffer, 0, width * Bpp * 3 + 15 * 3);
++#else
+ 	memset (stack_scanline_buffer, 0, sizeof (stack_scanline_buffer));
++#endif
+     }
+ 
+     src_buffer = ALIGN (scanline_buffer);
+@@ -255,7 +268,9 @@
+     pixman_implementation_t *imp = _pixman_implementation_create (NULL, general_fast_path);
+ 
+     _pixman_setup_combiner_functions_32 (imp);
++#ifndef PIXMAN_NO_FLOAT
+     _pixman_setup_combiner_functions_float (imp);
++#endif
+ 
+     imp->iter_info = general_iters;
+ 

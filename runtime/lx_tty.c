@@ -1,11 +1,16 @@
 /* lx_tty.c - PsiLinux's terminals: the line discipline (canonical editing,
  * echo, ^C ^Z ^\ as signals, termios), job control's checks (SIGTTIN,
  * SIGTTOU), window size. The keys come from the PsiLinux window
- * (lx_k_tty_input); output goes to it through bk_tty_write. */
+ * (lx_k_tty_input); output goes to it through bk_tty_write. A
+ * pseudo-terminal's slave is one too, its output going to the master
+ * (lx_pty.c). */
 #include "lx_core.h"
 #include "lx_vfs.h"
 
 #define CC(t, i) ((t)->tio.c_cc[i])
+
+static int out_room(lx_tty *t) { return t->pty ? lx_pty_room(t) : bk_tty_room(t); }
+static void out_put(lx_tty *t, const char *b, int n) { if (t->pty) lx_pty_write(t, b, n); else bk_tty_write(t, b, n); }
 
 void lx_tty_init(lx_tty *t, int index)
 {
@@ -40,8 +45,7 @@ static int out_bytes(lx_tty *t, const char *buf, int n, int must)
 {
 	char tmp[512];
 	int i = 0, o, room, crlf = (t->tio.c_oflag & LX_OPOST) && (t->tio.c_oflag & LX_ONLCR);
-	extern int bk_tty_room(lx_tty *tty);
-	room = bk_tty_room(t);
+	room = out_room(t);
 	if (must && room < n * 2) room = n * 2;     /* (echo: never blocks; the back end drops what does not fit) */
 	if (room > (int)sizeof tmp) room = sizeof tmp;
 	o = 0;
@@ -62,7 +66,7 @@ static int out_bytes(lx_tty *t, const char *buf, int n, int must)
 		}
 		i++;
 	}
-	if (o) bk_tty_write(t, tmp, o);
+	if (o) out_put(t, tmp, o);
 	return i;
 }
 
@@ -307,12 +311,11 @@ static int tty_write(lx_thread *th, lx_file *f, const char *buf, lx_u32 n)
 static int tty_poll(lx_file *f)
 {
 	lx_tty *t = (lx_tty *)f->priv;
-	extern int bk_tty_room(lx_tty *tty);
 	int r = 0;
 	if (t->hangup) return LX_POLLIN | LX_POLLHUP;
 	if (t->tio.c_lflag & LX_ICANON) { if (t->lines || t->eof) r |= LX_POLLIN; }
 	else if (in_count(t)) r |= LX_POLLIN;
-	if (bk_tty_room(t) > 0 && !t->stopped) r |= LX_POLLOUT;
+	if (out_room(t) > 0 && !t->stopped) r |= LX_POLLOUT;
 	return r;
 }
 
@@ -424,6 +427,10 @@ static int tty_fstat(lx_file *f, struct lx_stat64 *st)
 	v.mode = LX_S_IFCHR | 0620;
 	v.rdev = 0x400 + t->index + 1;
 	v.ino = 0x1100 + t->index;
+	if (t->pty) {
+		v.rdev = 0x8800 + t->index - LX_PTY_INDEX;   /* (136, n) */
+		v.ino = 0x1300 + t->index - LX_PTY_INDEX;
+	}
 	v.fs = LX_FS_DEV;
 	v.mtime = bk_now_real();
 	lx_vn_stat(&v, st);
@@ -431,7 +438,12 @@ static int tty_fstat(lx_file *f, struct lx_stat64 *st)
 }
 
 static lx_s64 tty_lseek(lx_file *f, lx_s64 o, int w) { (void)f; (void)o; (void)w; return -LX_ESPIPE; }
-static void tty_close(lx_file *f) { lx_tty *t = (lx_tty *)f->priv; if (t->open > 0) t->open--; }
+static void tty_close(lx_file *f)
+{
+	lx_tty *t = (lx_tty *)f->priv;
+	if (t->open > 0) t->open--;
+	if (t->pty && !t->open) lx_pty_slave_closed(t);
+}
 
 static const lx_fops tty_ops = { tty_read, tty_write, 0, 0, tty_lseek, tty_fstat, tty_ioctl, tty_poll, 0, tty_close, 0, 0 };
 
@@ -443,7 +455,12 @@ lx_file *lx_tty_file(lx_tty *t)
 	t->open++;
 	f->mode = LX_S_IFCHR | 0620;
 	f->ino = 0x1100 + t->index;
-	lx_snprintf(name, sizeof name, "/dev/tty%d", t->index + 1);
+	if (t->pty) {
+		lx_pts_opened(t);
+		f->ino = 0x1300 + t->index - LX_PTY_INDEX;
+		lx_snprintf(name, sizeof name, "/dev/pts/%d", t->index - LX_PTY_INDEX);
+	} else
+		lx_snprintf(name, sizeof name, "/dev/tty%d", t->index + 1);
 	f->path = lx_strdup(name);
 	return f;
 }

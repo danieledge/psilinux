@@ -1,0 +1,23 @@
+#!/bin/sh
+# startx - the PsiLinux desktop (PsiLinux-X.sis): X on the Psion's screen and
+# psiwm, its window manager, toolbar and programs. Ctrl+Q goes between it and
+# the terminal; "stopx" ends it.
+D=$(cd "$(dirname "$0")" && pwd)
+export DISPLAY=:0
+export PATH="$D:$PATH"                 # (psiwm starts xterm, links and doom from here)
+echo "Starting the desktop (Ctrl+Q: back here)..."
+psisplash -w 180 "Starting the X server..." 30 2>/dev/null &
+splash=$!
+"$D/Xfbdev" :0 -nolisten tcp -noreset -dumbSched -nolock -xkbdir "$D" > /tmp/X.log 2>&1 &
+# (it is a while loading from the card; then it answers)
+n=0
+until "$D/xsetroot" 2>/dev/null; do
+	n=$((n + 1))
+	if [ $n -gt 120 ] || ! pidof Xfbdev > /dev/null; then
+		echo "X did not start: see /tmp/X.log"
+		exit 1
+	fi
+	sleep 2
+done
+"$D/psiwm" > /tmp/psiwm.log 2>&1 &
+sleep 3; kill $splash 2>/dev/null             # (psiwm has the screen now)

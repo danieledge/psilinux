@@ -79,6 +79,29 @@ if [ "$1" = sis ]; then
 	else
 		echo "(no ROOT.IMG yet: run linux/rootfs/build-rootfs.sh in psilinux-build for PsiLinux-root.sis)"
 	fi
+	# X: PsiLinux-X.sis, from ports/build-x11.sh's build/psilinux-root/x11/
+	XR=$TOP/build/psilinux-root/x11
+	if [ -f "$XR/usr/bin/Xfbdev" ]; then
+		XP=$TOP/build/psilinux-x-pkg
+		rm -rf "$XP"; mkdir -p "$XP"
+		cp "$XR"/usr/bin/{Xfbdev,xsetroot,xeyes,xterm,psiwm,psisplash,psiwm-alone} "$XR"/usr/share/X11/xkb/psi/*.xkm "$HERE"/pkg/x/{startx,stopx} "$HERE/pkg/psilinux-x.pkg" "$XP/"
+		for l in "$XR"/usr/share/licenses/*/*; do printf '==== %s\n\n' "${l#$XR/usr/share/licenses/}"; cat "$l"; printf '\n'; done > "$XP/licences.txt"
+		( cd "$XP" && wine "$EPOCROOT/epoc32/tools/makesis.exe" psilinux-x.pkg "$TOP/dist/PsiLinux-X.sis" > /dev/null )
+		ls -la "$TOP/dist/PsiLinux-X.sis"
+	else
+		echo "(no X yet: ports/build-x11.sh in psilinux-build for PsiLinux-X.sis)"
+	fi
+	# Doom: PsiLinux-Doom.sis, from ports/build-doom.sh's build/psilinux-root/doom/
+	DR=$TOP/build/psilinux-root/doom
+	if [ -f "$DR/doomgeneric" ]; then
+		DP=$TOP/build/psilinux-doom-pkg
+		rm -rf "$DP"; mkdir -p "$DP"
+		cp "$DR"/{doom,doomgeneric,doom1.wad,licences.txt} "$HERE/pkg/psilinux-doom.pkg" "$DP/"
+		( cd "$DP" && wine "$EPOCROOT/epoc32/tools/makesis.exe" psilinux-doom.pkg "$TOP/dist/PsiLinux-Doom.sis" > /dev/null )
+		ls -la "$TOP/dist/PsiLinux-Doom.sis"
+	else
+		echo "(no Doom yet: ports/build-doom.sh in psilinux-build for PsiLinux-Doom.sis)"
+	fi
 	# Alpine mode's root: build/alpine-root/ROOT.IMG (linux/alpine/build-root.sh)
 	A=$TOP/build/alpine-root
 	if [ -f "$A/ROOT.IMG" ]; then

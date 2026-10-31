@@ -1,0 +1,11 @@
+PsiLinux: what next
+
+The desktop works: psiwm draws everything in the Psion's own style, with one copy of Xlib for the window manager and all its programs. Memory is the thing to watch: X takes about 5 MB, which leaves room for a terminal, Files and Notes at once.
+
+To do this week:
+- pseudo-terminals in the kernel, for xterm
+- the Menu key: pass it through to X as KEY_MENU
+- try Links in graphics mode
+- a backlight shortcut (Ctrl+Space is taken by the menus)
+
+Ideas: a Data-style address book, an Agenda that reads the Psion's own files, sound through the speaker.

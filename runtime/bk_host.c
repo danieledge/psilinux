@@ -261,6 +261,76 @@ void bk_mem_info(lx_u32 *total, lx_u32 *freeb)
 	if (getenv("LX_SIM_FREE")) *freeb = sim_free();
 }
 
+/* ---- the screen ------------------------------------------------------------------ */
+/* The screen is plain memory here. With PSIHOST_FB=file.pgm, each change is
+ * written there as the Psion would show it (16 greys, dithered: lxfbconv.h).
+ * PSIHOST_INPUT=file (a FIFO) gives /dev/input its events: lines of
+ * "dev type code value" (dev 0 keyboard, 1 pen). */
+
+#include "../common/lxfb.h"
+#include "../common/lxfbconv.h"
+
+static unsigned char *fbmem;
+static int fb_dirty;
+
+void *bk_fb_map(void)
+{
+	if (!fbmem && posix_memalign((void **)&fbmem, 4096, LX_FB_SIZE) != 0) fbmem = 0;
+	if (fbmem) {
+		memset(fbmem, 0, LX_FB_HDR);
+		((LxFbHeader *)fbmem)->magic = LX_FB_MAGIC;
+	}
+	return fbmem;
+}
+void bk_fb_release(void) {}
+void bk_fb_notify(void) { fb_dirty = 1; }
+
+static void fb_dump(void)
+{
+	const char *path = getenv("PSIHOST_FB");
+	LxFbHeader *h = (LxFbHeader *)fbmem;
+	static LxFbConv conv;
+	static unsigned row[LX_FB_W / 2];
+	char tmp[600];
+	FILE *f;
+	int x, y;
+	if (!path || !fbmem) return;
+	lx_fbconv_tables(&conv, h->grey);
+	snprintf(tmp, sizeof tmp, "%s.tmp", path);
+	f = fopen(tmp, "wb");
+	if (!f) return;
+	fprintf(f, "P5\n%d %d\n15\n", LX_FB_W, LX_FB_H);
+	for (y = 0; y < LX_FB_H; y++) {
+		unsigned char *d = (unsigned char *)row;
+		if (h->depth == 4) d = fbmem + LX_FB_HDR + y * LX_FB_ROW4;      /* (the Psion's own already) */
+		else lx_fbconv_row(&conv, y, fbmem + LX_FB_HDR + y * LX_FB_W, d, 0, LX_FB_W);
+		for (x = 0; x < LX_FB_W / 2; x++) { fputc(d[x] & 15, f); fputc(d[x] >> 4, f); }
+	}
+	fclose(f);
+	rename(tmp, path);
+	h->dmg_tail = h->dmg_head;
+}
+
+static int input_fd = -1;
+static char input_buf[256];
+static int input_len;
+
+static void input_read(void)
+{
+	char *nl;
+	ssize_t k = read(input_fd, input_buf + input_len, sizeof input_buf - 1 - input_len);
+	if (k <= 0) { close(input_fd); input_fd = -1; return; }
+	input_len += (int)k;
+	input_buf[input_len] = 0;
+	while ((nl = strchr(input_buf, '\n')) != 0) {
+		int d, ty, c, v;
+		*nl = 0;
+		if (sscanf(input_buf, "%d %d %d %d", &d, &ty, &c, &v) == 4) lx_k_input(d, ty, c, v);
+		input_len -= (int)(nl + 1 - input_buf);
+		memmove(input_buf, nl + 1, input_len + 1);
+	}
+}
+
 /* ---- the terminal ------------------------------------------------------------ */
 
 int bk_tty_write(lx_tty *tty, const char *buf, int n)
@@ -693,11 +763,15 @@ int main(int argc, char **argv)
 	}
 	r = lx_k_spawn_first(argv[i], argv + i, envp, 0);
 	if (r < 0) { fprintf(stderr, "psihost: cannot start %s: error %d\n", argv[i], -r); return 127; }
+	if (getenv("PSIHOST_INPUT")) input_fd = open(getenv("PSIHOST_INPUT"), O_RDWR | O_NONBLOCK);
 	while (!lx_k.init_exited) {
-		struct pollfd pf[2];
+		struct pollfd pf[3];
+		int in_at = -1;
 		int n = 0, timeout = -1, j, nsock = 0;
 		pf[n].fd = wake_pipe[0]; pf[n].events = POLLIN; n++;
 		if (stdin_open) { pf[n].fd = 0; pf[n].events = POLLIN; n++; }
+		if (input_fd >= 0) { in_at = n; pf[n].fd = input_fd; pf[n].events = POLLIN; n++; }
+		if (fb_dirty) timeout = 30;          /* (the screen's picture: soon, once it settles) */
 		for (j = 0; j < MAXSOCK; j++) if (socks[j]) nsock++;
 		if (nsock) timeout = 20;              /* (sockets: look at them again soon) */
 		if (wake_at) {
@@ -708,7 +782,13 @@ int main(int argc, char **argv)
 		poll(pf, n, timeout);
 		if (pf[0].revents) { char b[64]; if (read(wake_pipe[0], b, sizeof b) < 0) {} }
 		if (want_dump) { want_dump = 0; dump(); }
-		if (stdin_open && n > 1 && pf[1].revents) {
+		if (in_at >= 0 && pf[in_at].revents) input_read();
+		if (fb_dirty) {
+			static lx_s64 last;
+			lx_s64 now = bk_now_mono();
+			if (now - last >= 50000) { fb_dirty = 0; last = now; fb_dump(); }
+		}
+		if (stdin_open && pf[1].fd == 0 && pf[1].revents) {
 			char b[256];
 			ssize_t k = read(0, b, sizeof b);
 			if (k > 0) lx_k_tty_input(&lx_k.ttys[0], b, (int)k);

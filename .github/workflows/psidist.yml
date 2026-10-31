@@ -1,0 +1,48 @@
+# psidist-release.yml - a template: copy it to .github/workflows/psidist.yml
+# in any repository that releases Psion programs (.sis files), with
+# tools/mkghdist.py beside it in tools/. On each published release it makes
+# psidist.txt - the #PSIDIST1 list of the release's .sis files: name, UID,
+# version, size, SHA-256 and address, read from the files themselves - and
+# attaches it to the release. The stable address
+#   https://github.com/OWNER/REPO/releases/latest/download/psidist.txt
+# then always gives the newest release's list (GitHub redirects it), which is
+# what the Psion reads for this repository's source: Tools > Sources... >
+# Add GitHub source..., OWNER/REPO. A prerelease's builds are tagged #TEST.
+# Run it by hand (Actions > psidist.txt > Run workflow) for a release made
+# before the workflow was there. tools/psidist-about.txt, if present, says
+# what each program is ("<name> TAB <subtitle> TAB <description>" lines).
+name: psidist.txt
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "The release's tag (for example v0.25)"
+        required: true
+
+permissions:
+  contents: write          # to attach psidist.txt to the release
+
+jobs:
+  psidist:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Make psidist.txt from the release's .sis files
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ github.event.release.tag_name || inputs.tag }}
+        run: |
+          about=""
+          [ -f tools/psidist-about.txt ] && about="--about tools/psidist-about.txt"
+          python3 tools/mkghdist.py --repo "$GITHUB_REPOSITORY" --tag "$TAG" $about -o psidist.txt
+          cat psidist.txt
+          # (a release with no .sis files gets no list)
+          grep -qv '^#' psidist.txt || { echo "no .sis files in $TAG"; exit 1; }
+      - name: Attach it to the release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ github.event.release.tag_name || inputs.tag }}
+        run: gh release upload "$TAG" psidist.txt --clobber --repo "$GITHUB_REPOSITORY"

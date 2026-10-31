@@ -1,8 +1,9 @@
 // psilinux.cpp - PsiLinux: Linux programs on the Psion Series 5mx.
 //
 // The program's window holds one view at a time: the terminal (lxterm.cpp),
-// or "Remote apps" (a place for the remote GUI view, which is built
-// separately: linux/remote). Ctrl+Q and View > Switch view change between
+// or the Linux screen (lxscreen.cpp: what programs draw on /dev/fb0, X
+// among them), which takes the whole screen. A program opening the screen
+// brings it to the front; Ctrl+Q and View > Switch view change between
 // them. The Linux programs themselves run in psilxrun.exe (linux/runner).
 #include <eikenv.h>
 #include <eikapp.h>
@@ -20,50 +21,15 @@
 #include <eiklabel.h>
 #include <eikimage.h>
 #include "lxterm.h"
+#include "lxscreen.h"
 #include "lxhelp.h"
 #include "lxicons.h"
 #include "psilinux.hrh"
 #include <psilinux.rsg>
 
 const TUid KUidPsiLinux = { 0x01000A87 };
-_LIT(KLxVersion, "0.24");
+_LIT(KLxVersion, "0.25");
 _LIT(KIniFile, "C:\\System\\Apps\\PsiLinux\\PsiLinux.ini");
-
-// ---------------------------------------------------------------------------
-// The Remote apps view: a place held for it. (The view itself is built
-// elsewhere; until then this says so.)
-// ---------------------------------------------------------------------------
-class CLxRemoteView : public CCoeControl
-	{
-public:
-	void ConstructL(const TRect& aRect)
-		{
-		CreateWindowL();
-		SetRectL(aRect);
-		ActivateL();
-		}
-private:
-	void Draw(const TRect&) const
-		{
-		CWindowGc& gc = SystemGc();
-		gc.SetBrushStyle(CGraphicsContext::ESolidBrush);
-		gc.SetBrushColor(KRgbWhite);
-		gc.Clear(Rect());
-		const CFont* f = iEikonEnv->TitleFont();
-		gc.UseFont(f);
-		gc.SetPenColor(KRgbBlack);
-		TInt y = Rect().Height() / 2 - f->HeightInPixels();
-		gc.DrawText(_L("Remote apps"), TRect(0, y, Rect().Width(), y + f->HeightInPixels() + 4),
-			f->AscentInPixels(), CGraphicsContext::ECenter);
-		gc.DiscardFont();
-		const CFont* g = iEikonEnv->NormalFont();
-		gc.UseFont(g);
-		y += f->HeightInPixels() + 10;
-		gc.DrawText(_L("Not available yet - Ctrl+Q goes back to the terminal"),
-			TRect(0, y, Rect().Width(), y + g->HeightInPixels() + 4), g->AscentInPixels(), CGraphicsContext::ECenter);
-		gc.DiscardFont();
-		}
-	};
 
 // ---------------------------------------------------------------------------
 // Preferences... and Linux disk...
@@ -130,7 +96,7 @@ private:
 // ---------------------------------------------------------------------------
 // The app UI
 // ---------------------------------------------------------------------------
-class CLxAppUi : public CEikAppUi
+class CLxAppUi : public CEikAppUi, public MLxScreenHook
 	{
 public:
 	void ConstructL();
@@ -147,9 +113,13 @@ private:
 	void ButtonPictureL(TInt aId, TInt aIcon);
 	void ShowToolBarL(TBool aShow);
 	TRect ViewRect(TBool aToolbar) const;
+	// MLxScreenHook
+	void ScreenOnOff(TBool aOn);
+	void ScreenPump();
+	static TInt WakeRunner(TAny* aSelf) { ((CLxAppUi*)aSelf)->iTerm->Session()->Ring(); return 0; }
 	CLxTermView* iTerm;
-	CLxRemoteView* iRemote;
-	TInt iView;                   // 0 the terminal, 1 remote apps
+	CLxScreenView* iScreen;
+	TInt iView;                   // 0 the terminal, 1 the Linux screen
 	TLxSettings iSettings;
 	};
 
@@ -200,17 +170,20 @@ void CLxAppUi::ConstructL()
 	iTerm = new(ELeave) CLxTermView;
 	iTerm->ConstructL(ViewRect(iSettings.iToolbar), iSettings);
 	AddToStackL(iTerm);
+	iTerm->Session()->SetScreenHook(this);
 	iTerm->StartLinuxL();
 	}
 
 CLxAppUi::~CLxAppUi()
 	{
 	SaveSettings();
-	if (iRemote)
+	if (iTerm)
+		iTerm->Session()->SetScreenHook(NULL);
+	if (iScreen)
 		{
 		if (iView == 1)
-			RemoveFromStack(iRemote);
-		delete iRemote;
+			RemoveFromStack(iScreen);
+		delete iScreen;
 		}
 	if (iTerm)
 		{
@@ -265,8 +238,6 @@ void CLxAppUi::ShowToolBarL(TBool aShow)
 		iCoeEnv->WsSession().Flush();
 		}
 	iTerm->SetTermRectL(ViewRect(aShow));
-	if (iRemote)
-		iRemote->SetRectL(ViewRect(aShow));
 	iSettings.iToolbar = aShow;
 	}
 
@@ -285,29 +256,78 @@ void CLxAppUi::SwitchToL(TInt aView)
 		return;
 	if (aView == 1)
 		{
-		if (!iRemote)
+		// the Linux screen: the Psion's whole screen, toolbar and all
+		if (!iScreen || !iScreen->IsOpen())
 			{
-			iRemote = new(ELeave) CLxRemoteView;
-			iRemote->ConstructL(ViewRect(iSettings.iToolbar));
+			iEikonEnv->InfoMsg(_L("No Linux program is using the screen"));
+			return;
 			}
 		RemoveFromStack(iTerm);
 		iTerm->MakeVisible(EFalse);
-		iRemote->MakeVisible(ETrue);
-		AddToStackL(iRemote);
-		iRemote->DrawNow();
+		if (iToolBar && iToolBar->IsVisible())
+			iToolBar->MakeVisible(EFalse);
+		iScreen->MakeVisible(ETrue);
+		// (before EIKON's menu bar: the Menu key and Ctrl+letters are Linux's
+		// there; the view passes Ctrl+Q back for Switch view)
+		AddToStackL(iScreen, ECoeStackPriorityMenu);
+		iScreen->DrawNow();
 		}
 	else
 		{
-		if (iRemote)
+		if (iScreen)
 			{
-			RemoveFromStack(iRemote);
-			iRemote->MakeVisible(EFalse);
+			RemoveFromStack(iScreen);
+			iScreen->MakeVisible(EFalse);
+			}
+		if (iToolBar && iSettings.iToolbar)
+			{
+			iToolBar->MakeVisible(ETrue);
+			iToolBar->DrawNow();
 			}
 		iTerm->MakeVisible(ETrue);
 		AddToStackL(iTerm);
 		iTerm->DrawNow();
 		}
 	iView = aView;
+	iCoeEnv->WsSession().Flush();
+	}
+
+// a program opened /dev/fb0 (X, a game): the Linux screen comes to the front;
+// the last one closed it: back to the terminal
+void CLxAppUi::ScreenOnOff(TBool aOn)
+	{
+	if (aOn)
+		{
+		if (!iScreen)
+			{
+			CLxScreenView* v = new CLxScreenView;
+			TRAPD(err, v->ConstructL(TRect(TPoint(0, 0), iEikonEnv->ScreenDevice()->SizeInPixels())));
+			if (err != KErrNone)
+				{
+				delete v;
+				iEikonEnv->InfoMsg(_L("Not enough memory for the Linux screen"));
+				return;
+				}
+			v->MakeVisible(EFalse);
+			v->SetWake(TCallBack(WakeRunner, this));
+			iScreen = v;
+			}
+		if (iScreen->Open() == KErrNone)
+			{
+			TRAPD(err, SwitchToL(1));
+			}
+		}
+	else if (iScreen)
+		{
+		TRAPD(err, SwitchToL(0));
+		iScreen->Close();
+		}
+	}
+
+void CLxAppUi::ScreenPump()
+	{
+	if (iScreen)
+		iScreen->Pump();
 	}
 
 void CLxAppUi::DynInitMenuPaneL(TInt aMenuId, CEikMenuPane* aMenuPane)
@@ -344,10 +364,10 @@ void CLxAppUi::DynInitMenuPaneL(TInt aMenuId, CEikMenuPane* aMenuPane)
 
 void CLxAppUi::HandleCommandL(TInt aCommand)
 	{
-	// (in the Remote apps view, only the commands that make sense there)
+	// (in the Linux screen, only the commands that make sense there)
 	if (iView == 1 && aCommand != EEikCmdExit && aCommand != ELxCmdSwitchView && aCommand != ELxCmdViewTerminal &&
 		aCommand != ELxCmdViewRemote && aCommand != ELxCmdHelp && aCommand != ELxCmdAbout && aCommand != ELxCmdPreferences &&
-		aCommand != ELxCmdToolbar && aCommand != ELxCmdKeepLog)
+		aCommand != ELxCmdKeepLog)
 		{
 		iEikonEnv->InfoMsg(_L("Not available in this view"));
 		return;

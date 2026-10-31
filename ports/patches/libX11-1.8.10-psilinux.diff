@@ -1,0 +1,85 @@
+diff -ruN a/src/xlibi18n/lcUTF8.c b/src/xlibi18n/lcUTF8.c
+--- a/src/xlibi18n/lcUTF8.c	2026-10-30 21:33:09.803383187 +0000
++++ b/src/xlibi18n/lcUTF8.c	2026-10-30 21:33:09.833383917 +0000
+@@ -204,6 +204,9 @@
+     unsigned short used; /* bitmask of used entries */
+ } Summary16;
+ 
++/* PsiLinux: XLIB_NO_CJK leaves out the CJK font encodings' tables (about
++ * 500 KB in every static client; the Psion has no CJK fonts). */
++#ifndef XLIB_NO_CJK
+ #include "lcUniConv/gb2312.h"
+ #include "lcUniConv/jisx0208.h"
+ #include "lcUniConv/jisx0212.h"
+@@ -212,6 +215,7 @@
+ #include "lcUniConv/big5_emacs.h"
+ #include "lcUniConv/big5hkscs.h"
+ #include "lcUniConv/gbk.h"
++#endif
+ 
+ static Utf8ConvRec all_charsets[] = {
+     /* The ISO10646-1/UTF-8 entry occurs twice, once at the beginning
+@@ -271,21 +275,31 @@
+     { "TIS620-0", NULLQUARK,
+ 	tis620_mbtowc, tis620_wctomb
+     },
++#ifndef XLIB_NO_CJK
+     { "GB2312.1980-0", NULLQUARK,
+ 	gb2312_mbtowc, gb2312_wctomb
+     },
++#endif
++#ifndef XLIB_NO_CJK
+     { "JISX0208.1983-0", NULLQUARK,
+ 	jisx0208_mbtowc, jisx0208_wctomb
+     },
++#endif
++#ifndef XLIB_NO_CJK
+     { "JISX0208.1990-0", NULLQUARK,
+ 	jisx0208_mbtowc, jisx0208_wctomb
+     },
++#endif
++#ifndef XLIB_NO_CJK
+     { "JISX0212.1990-0", NULLQUARK,
+ 	jisx0212_mbtowc, jisx0212_wctomb
+     },
++#endif
++#ifndef XLIB_NO_CJK
+     { "KSC5601.1987-0", NULLQUARK,
+ 	ksc5601_mbtowc, ksc5601_wctomb
+     },
++#endif
+     { "KOI8-R", NULLQUARK,
+ 	koi8_r_mbtowc, koi8_r_wctomb
+     },
+@@ -331,21 +345,31 @@
+     { "MICROSOFT-CP1256", NULLQUARK,
+ 	cp1256_mbtowc, cp1256_wctomb
+     },
++#ifndef XLIB_NO_CJK
+     { "BIG5-0", NULLQUARK,
+ 	big5_mbtowc, big5_wctomb
+     },
++#endif
++#ifndef XLIB_NO_CJK
+     { "BIG5-E0", NULLQUARK,
+ 	big5_0_mbtowc, big5_0_wctomb
+     },
++#endif
++#ifndef XLIB_NO_CJK
+     { "BIG5-E1", NULLQUARK,
+ 	big5_1_mbtowc, big5_1_wctomb
+     },
++#endif
++#ifndef XLIB_NO_CJK
+     { "GBK-0", NULLQUARK,
+ 	gbk_mbtowc, gbk_wctomb
+     },
++#endif
++#ifndef XLIB_NO_CJK
+     { "BIG5HKSCS-0", NULLQUARK,
+ 	big5hkscs_mbtowc, big5hkscs_wctomb
+     },
++#endif
+ 
+     /* The ISO10646-1/UTF-8 entry occurs twice, once at the beginning
+        (for lookup speed), once at the end (as a fallback).  */

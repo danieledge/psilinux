@@ -1,0 +1,3 @@
+#!/bin/sh
+# stopx - ends the desktop: X and its programs (PsiLinux-X.sis)
+kill $(pidof Xfbdev) 2>/dev/null && echo "X ended" || echo "X is not running"

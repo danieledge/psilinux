@@ -1,0 +1,10 @@
+; PsiLinux-Doom 0.25 (test): Doom on the Psion's own screen, for PsiLinux 0.25
+; and later: doomgeneric built for the 5mx (ports/build-doom.sh) and id
+; Software's shareware episode (doom1.wad, unmodified). In PsiLinux:
+; sh /d/Linux/Doom/doom (or /c/... if installed on C:).
+&EN
+#{"PsiLinux Doom"},(0x01000A93),0,25,0
+"doom"-"!:\Linux\Doom\doom"
+"doomgeneric"-"!:\Linux\Doom\doomgeneric"
+"doom1.wad"-"!:\Linux\Doom\doom1.wad"
+"licences.txt"-"!:\Linux\Doom\Licences.txt"

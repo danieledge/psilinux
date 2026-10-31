@@ -32,6 +32,7 @@ static int in_call;             /* a call is being handled: retries wait until i
 /* ---- small helpers ------------------------------------------------------ */
 
 int lx_strlen(const char *s) { int n = 0; while (s[n]) n++; return n; }
+int lx_strnlen(const char *s, int max) { int n = 0; while (n < max && s[n]) n++; return n; }
 int lx_strcmp(const char *a, const char *b)
 {
 	while (*a && *a == *b) { a++; b++; }
@@ -1013,7 +1014,9 @@ static int start_fork(lx_thread *t, int exit_signal)
 	snap_range(s, mm->wlo, mm->whi);
 	snap_range(s, mm->ilo, mm->ihi);
 	for (m = mm->maps; m; m = m->next) {
-		/* (a shared library: only its writable part can change) */
+		/* (a shared library: only its writable part can change; the screen
+		 * is not the process's to put back) */
+		if (m->dev) { s->nmaps++; continue; }
 		if (m->simg) snap_range(s, m->simg->rw_lo, m->simg->rw_hi);
 		else snap_range(s, m->addr, m->addr + m->len);
 		s->nmaps++;

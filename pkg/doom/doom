@@ -1,0 +1,10 @@
+#!/bin/sh
+# doom - Doom on the Psion (PsiLinux-Doom.sis): the shareware episode, on the
+# whole screen. Arrows move, Ctrl fires (or tap the screen), Space opens
+# doors, Shift runs, Fn+Left/Right step aside, Esc is the menu, Enter picks,
+# Tab is the map, 1-7 the weapons, Menu makes it lighter. Ctrl+Q goes back to
+# the terminal. More options: -letterbox (the true shape, black above and
+# below), -tone 0-4 (the greys: 2 is the default), -fps.
+D=$(cd "$(dirname "$0")" && pwd)
+cd "$D" || exit 1        # (its settings, default.cfg, and the saved games go here)
+exec "$D/doomgeneric" -iwad "$D/doom1.wad" -mb 3 "$@"

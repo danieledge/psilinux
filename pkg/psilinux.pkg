@@ -1,9 +1,9 @@
-; PsiLinux 0.20 installer for the Psion Series 5mx (EPOC R5)
+; PsiLinux 0.25 installer for the Psion Series 5mx (EPOC R5)
 ; PsiLinux.app: the window (PsiTerm's terminal). psilxrun.exe: the runner,
 ; which runs the Linux programs (and translates Alpine's). The programs are in
 ; PsiLinux-root.sis (\Linux\ROOT.IMG) and PsiLinux-alpine-root.sis (\Linux\Alpine\).
 &EN
-#{"PsiLinux"},(0x01000A87),0,24,0
+#{"PsiLinux"},(0x01000A87),0,25,0
 "psilinux.app"-"!:\System\Apps\PsiLinux\PsiLinux.app"
 "psilinux.rsc"-"!:\System\Apps\PsiLinux\PsiLinux.rsc"
 "psilinux.mbm"-"!:\System\Apps\PsiLinux\PsiLinux.mbm"

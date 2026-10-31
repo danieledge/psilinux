@@ -1,5 +1,7 @@
 # /etc/profile - PsiLinux's login shell starts here
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
+# the desktop (PsiLinux-X.sis: startx, xterm...) on whichever disk it went to
+for d in /c/Linux/X /d/Linux/X; do [ -f "$d/startx" ] && PATH=$PATH:$d; done
 export HOME=/root
 export TERM=xterm-256color
 export PAGER=less

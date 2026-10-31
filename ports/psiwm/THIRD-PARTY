@@ -1,0 +1,10 @@
+psiwm's bitmap fonts (font.h) are drawn from these fonts by tools/mkfont.py:
+
+Liberation Sans (Regular, Bold): Copyright (c) 2012 Red Hat, Inc.
+  SIL Open Font License, Version 1.1 (https://openfontlicense.org)
+Nimbus Sans Narrow Bold (URW base 35): Copyright (URW)++ Design & Development
+  GNU Affero General Public License 3 with the font exception
+  (https://github.com/ArtifexSoftware/urw-base35-fonts)
+
+The X libraries psiwm is linked with carry their own licences in
+/usr/share/licenses (libX11, libxcb, libXau, libXext).

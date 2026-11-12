@@ -28,7 +28,7 @@
 #include <psilinux.rsg>
 
 const TUid KUidPsiLinux = { 0x01000A87 };
-_LIT(KLxVersion, "0.25");
+_LIT(KLxVersion, "0.26");
 _LIT(KIniFile, "C:\\System\\Apps\\PsiLinux\\PsiLinux.ini");
 
 // ---------------------------------------------------------------------------
@@ -101,7 +101,13 @@ class CLxAppUi : public CEikAppUi, public MLxScreenHook
 public:
 	void ConstructL();
 	~CLxAppUi();
+	// (0.26) a command tail of "shell" (PsiHub's Terminal): this time Alpine's
+	// shell only, whatever Preferences > Start says
+	TBool ProcessCommandParametersL(TApaCommand aCommand, TFileName& aDocumentName, const TDesC8& aTail);
 private:
+	static TInt StartNow(TAny* aSelf);
+	CIdle* iStarter;              // (0.26) the first start, after the command line is read
+	TBool iShellOnce;
 	void HandleCommandL(TInt aCommand);
 	void DynInitMenuPaneL(TInt aMenuId, CEikMenuPane* aMenuPane);
 	void HandleWsEventL(const TWsEvent& aEvent, CCoeControl* aDestination);
@@ -171,11 +177,32 @@ void CLxAppUi::ConstructL()
 	iTerm->ConstructL(ViewRect(iSettings.iToolbar), iSettings);
 	AddToStackL(iTerm);
 	iTerm->Session()->SetScreenHook(this);
-	iTerm->StartLinuxL();
+	// (0.26) Linux starts once the program is up, not here: the command
+	// line (ProcessCommandParametersL) may still be to come
+	iStarter = CIdle::NewL(CActive::EPriorityStandard);
+	iStarter->Start(TCallBack(StartNow, this));
+	}
+
+TInt CLxAppUi::StartNow(TAny* aSelf)
+	{
+	CLxAppUi* self = (CLxAppUi*)aSelf;
+	if (self->iShellOnce)
+		self->iTerm->SetStartOnce(1);
+	TRAPD(err, self->iTerm->StartLinuxL());
+	(void)err;
+	return EFalse;                         // (once)
+	}
+
+TBool CLxAppUi::ProcessCommandParametersL(TApaCommand aCommand, TFileName& aDocumentName, const TDesC8& aTail)
+	{
+	if (aTail.CompareF(_L8("shell")) == 0)
+		iShellOnce = ETrue;
+	return CEikAppUi::ProcessCommandParametersL(aCommand, aDocumentName, aTail);
 	}
 
 CLxAppUi::~CLxAppUi()
 	{
+	delete iStarter;
 	SaveSettings();
 	if (iTerm)
 		iTerm->Session()->SetScreenHook(NULL);

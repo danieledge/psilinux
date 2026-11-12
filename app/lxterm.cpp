@@ -260,6 +260,7 @@ void CLxSession::Kill()
 CLxTermView::CLxTermView()
 	{
 	iForeground = ETrue;
+	iStartOnce = -1;
 	}
 
 CLxTermView::~CLxTermView()
@@ -361,7 +362,10 @@ void CLxTermView::StartLinuxL()
 	TInt r;
 	iSession->SetReserve(ReserveBytes());          // (Start passes it on)
 	iSession->SetLogOn(iSettings->iSpare[KLxSpareLog] != 0);
-	TBool alpine = iSettings->iStart == 0 || iSettings->iStart == 1;
+	// (0.26) SetStartOnce() for this start only, else Preferences > Start
+	TInt start = iStartOnce >= 0 ? iStartOnce : iSettings->iStart;
+	iStartOnce = -1;
+	TBool alpine = start == 0 || start == 1;
 	if (alpine)
 		{
 		// (not installed: PsiLinux's own programs instead, and say so)
@@ -386,7 +390,7 @@ void CLxTermView::StartLinuxL()
 		// (shell only: bash if it starts, else BusyBox sh: psilinux-shell;
 		// an Alpine root from before 0.21 has none, and the runner then
 		// starts /bin/sh -l)
-		if (iSettings->iStart == 0)
+		if (start == 0)
 			r = iSession->Start(root, _L8("/sbin/init"), EFalse, iRows, iCols);
 		else
 			r = iSession->Start(root, _L8("/usr/sbin/psilinux-shell"), EFalse, iRows, iCols);

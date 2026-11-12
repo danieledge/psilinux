@@ -108,6 +108,9 @@ public:
 	void ConstructL(const TRect& aRect, TLxSettings& aSettings);
 	// the session
 	void StartLinuxL();
+	// (0.26) the next start only, in place of Preferences > Start (0 Alpine,
+	// 1 Alpine's shell only, 2 PsiLinux): PsiHub's Terminal asks for 1
+	void SetStartOnce(TInt aStart) { iStartOnce = aStart; }
 	void SessionOutput(const TUint8* aBytes, TInt aLen);
 	void SessionStateChanged();
 	void SessionInfoChanged();
@@ -219,6 +222,7 @@ private:
 	TBuf<120> iStatusDrawn;
 	TUint iLastBell;
 	TBool iEnded;              // the session ended: Enter starts it again
+	TInt iStartOnce;          // (0.26) SetStartOnce(), or -1
 	};
 
 // glyphs.cpp (PsiTerm's): Unicode to what the Psion's fonts can draw

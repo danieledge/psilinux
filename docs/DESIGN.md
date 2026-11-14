@@ -198,9 +198,11 @@ WSL's /mnt/c does): chmod does nothing there, and `ln` makes no links.
 
 Each terminal is a `lx_tty` in the kernel: canonical editing, echo, ISIG,
 termios, the window size, the foreground process group. PsiLinux.app's view
-(`lxterm.cpp`) is PsiTerm's terminal (libvterm, xterm-256color, the 16-grey
-mapping of 256 colours, history, pen selection, the clipboard), talking to the
-runner through the global chunk's two rings and doorbells.
+is PsiTerm's terminal (libvterm, xterm-256color, its typefaces and themes, the
+16-grey mapping of 256 colours, history, pen selection, the clipboard): since
+0.29 PsiTerm's own `CTermView` functions, taken out of `psiterm.cpp` at each
+build ([PTVIEW.md](PTVIEW.md)), with `lxterm.cpp` giving the parts that talk
+to the runner through the global chunk's two rings and doorbells.
 
 ### Networking
 

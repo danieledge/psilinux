@@ -99,10 +99,12 @@ static const TLxHelpTopic KHelpTopics[] =
 	  "When a program asks for the mouse (vim, less, htop), a tap is a click and a drag scrolls; "
 	  "Shift with the pen still selects text.\n"
 	  "\n"
-	  "The sidebar's zoom icons, or View > Zoom in and Zoom out (Shift+Ctrl+M), go round five text "
-	  "sizes. Tools > Preferences (Shift+Ctrl+K) sets the colours, the cursor and the status line. "
-	  "On the netBook and Series 7, Linux's colours are shown in colour; on the 5mx, as greys, "
-	  "by brightness. Light on dark suits most programs' colours best." },
+	  "The terminal is PsiTerm's, with its typefaces and themes. The sidebar's zoom icons, or "
+	  "View > Zoom in and Zoom out (Shift+Ctrl+M), go round the typeface's sizes and Courier small. "
+	  "Tools > Preferences (Shift+Ctrl+K), Screen, sets the typeface (Terminus, Spleen, Gohufont, "
+	  "Cozette), the colours, the cursor and the status line. "
+	  "On the netBook and Series 7, Linux's colours are shown in colour, with PsiTerm's colour "
+	  "schemes (Clean, Dracula, Nord, Solarized Dark...); on the 5mx, as greys, by brightness." },
 
 	{ "Files",
 	  "Linux sees the Psion's disks as /c and /d (and the ROM as /z): ls /d lists the memory disk, and "

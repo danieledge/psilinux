@@ -20,6 +20,7 @@
 #include <eikcmbut.h>
 #include <eiklabel.h>
 #include <eikimage.h>
+#include <badesca.h>
 #include "lxterm.h"
 #include "lxscreen.h"
 #include "lxhelp.h"
@@ -39,11 +40,72 @@ class CLxPrefsDialog : public CEikDialog
 public:
 	CLxPrefsDialog(TLxSettings& aSettings) : iSettings(aSettings) {}
 private:
+	// (0.29) PsiTerm's typefaces and their sizes: the names from its zoom
+	// levels ("Terminus 12"), the typefaces until they repeat the first
+	TInt Faces() const
+		{
+		TBuf<40> first, name;
+		CTermView::ZoomName(0, 1, first);
+		TInt n = 1;
+		for (; n < 16; n++)
+			{
+			CTermView::ZoomName(n, 1, name);
+			if (name == first)
+				break;
+			}
+		return n;
+		}
+	static void FaceName(TInt aFace, TDes& aName)
+		{
+		CTermView::ZoomName(aFace, 1, aName);
+		TInt sp = aName.LocateReverse(' ');
+		if (sp > 0)
+			aName.SetLength(sp);
+		}
+	void FillSizesL(TInt aFace, TInt aZoom)
+		{
+		CDesCArrayFlat* a = new(ELeave) CDesCArrayFlat(8);
+		CleanupStack::PushL(a);
+		TInt n = CTermView::ZoomLevels(aFace);
+		for (TInt z = 0; z < n; z++)
+			{
+			TBuf<40> name;
+			CTermView::ZoomName(aFace, z, name);
+			a->AppendL(name);
+			}
+		CEikChoiceList* c = (CEikChoiceList*)Control(ELxPrefZoom);
+		c->SetArrayL(a);
+		CleanupStack::Pop();             // (the choice list has it)
+		c->SetCurrentItem(aZoom >= 0 && aZoom < n ? aZoom : (n > 1 ? 1 : 0));
+		c->DrawNow();
+		}
 	void PreLayoutDynInitL()
 		{
 		((CEikChoiceList*)Control(ELxPrefStart))->SetCurrentItem(iSettings.iStart);
-		((CEikChoiceList*)Control(ELxPrefZoom))->SetCurrentItem(iSettings.iZoom);
-		((CEikChoiceList*)Control(ELxPrefTheme))->SetCurrentItem(iSettings.iTheme);
+		CDesCArrayFlat* faces = new(ELeave) CDesCArrayFlat(4);
+		CleanupStack::PushL(faces);
+		TInt nf = Faces();
+		for (TInt f = 0; f < nf; f++)
+			{
+			TBuf<40> name;
+			FaceName(f, name);
+			faces->AppendL(name);
+			}
+		((CEikChoiceList*)Control(ELxPrefFace))->SetArrayL(faces);
+		CleanupStack::Pop();
+		TInt face = iSettings.iSpare[KLxSpareFace];
+		if (face < 0 || face >= nf)
+			face = 0;
+		((CEikChoiceList*)Control(ELxPrefFace))->SetCurrentItem(face);
+		FillSizesL(face, iSettings.iZoom);
+		// the theme names as PsiTerm has them: on a colour screen its colour
+		// schemes as well
+		TInt theme = iSettings.iTheme;
+		if (iEikonEnv->ScreenDevice()->DisplayMode() >= EColor16)
+			((CEikChoiceList*)Control(ELxPrefTheme))->SetArrayL(iEikonEnv->ReadDesCArrayResourceL(R_LX_PT_THEME_COLOUR_ARRAY));
+		else if (theme > 3)
+			theme = 0;
+		((CEikChoiceList*)Control(ELxPrefTheme))->SetCurrentItem(theme);
 		((CEikChoiceList*)Control(ELxPrefCursor))->SetCurrentItem(iSettings.iCursor);
 		SetCheckBoxState(ELxPrefBlink, iSettings.iBlink ? CEikButtonBase::ESet : CEikButtonBase::EClear);
 		SetCheckBoxState(ELxPrefStatus, iSettings.iStatus ? CEikButtonBase::ESet : CEikButtonBase::EClear);
@@ -53,15 +115,22 @@ private:
 		((CEikChoiceList*)Control(ELxPrefKeepKb))->SetCurrentItem(kb == 512 ? 0 : kb == 2048 ? 2 : 1);
 		SetLineDimmedNow(ELxPrefKeepKb, !iSettings.iKeep);
 		}
-	// the amount is dimmed while the tick box is clear
+	// the amount is dimmed while the tick box is clear; the sizes follow the typeface
 	void HandleControlStateChangeL(TInt aControlId)
 		{
 		if (aControlId == ELxPrefKeep)
 			SetLineDimmedNow(ELxPrefKeepKb, CheckBoxState(ELxPrefKeep) != CEikButtonBase::ESet);
+		if (aControlId == ELxPrefFace)
+			{
+			TInt face = ((CEikChoiceList*)Control(ELxPrefFace))->CurrentItem();
+			TInt zoom = ((CEikChoiceList*)Control(ELxPrefZoom))->CurrentItem();
+			FillSizesL(face, zoom);
+			}
 		}
 	TBool OkToExitL(TInt)
 		{
 		iSettings.iStart = ((CEikChoiceList*)Control(ELxPrefStart))->CurrentItem();
+		iSettings.iSpare[KLxSpareFace] = ((CEikChoiceList*)Control(ELxPrefFace))->CurrentItem();
 		iSettings.iZoom = ((CEikChoiceList*)Control(ELxPrefZoom))->CurrentItem();
 		iSettings.iTheme = ((CEikChoiceList*)Control(ELxPrefTheme))->CurrentItem();
 		iSettings.iCursor = ((CEikChoiceList*)Control(ELxPrefCursor))->CurrentItem();
@@ -137,10 +206,10 @@ void CLxAppUi::LoadSettings()
 	iSettings.iStatus = 1;
 	iSettings.iBlink = 1;
 	iSettings.iToolbar = 1;
-	// (0.27) a colour screen starts in Light on dark, which most programs'
-	// colours are made for (as PsiTerm's Dark there); a saved choice stays
+	// (0.29) a colour screen starts in PsiTerm's colour default (Clean); a
+	// saved choice stays
 	if (iEikonEnv->ScreenDevice()->DisplayMode() >= EColor16)
-		iSettings.iTheme = 1;
+		iSettings.iTheme = KLxThemeColourDefault;
 	RFile f;
 	if (f.Open(iCoeEnv->FsSession(), KIniFile, EFileRead) == KErrNone)
 		{

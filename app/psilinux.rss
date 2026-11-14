@@ -292,12 +292,14 @@ RESOURCE ARRAY r_lx_prefs_screen_lines
 	{
 	items=
 		{
+		DLG_LINE { type=EEikCtChoiceList; prompt="Typeface"; id=ELxPrefFace;
+			control=CHOICELIST { maxdisplaychar=16; }; },
 		DLG_LINE { type=EEikCtChoiceList; prompt="Text size"; id=ELxPrefZoom;
-			control=CHOICELIST { array_id=r_lx_zoom_list; }; },
+			control=CHOICELIST { maxdisplaychar=16; }; },
 		DLG_LINE { type=EEikCtChoiceList; prompt="Colours"; id=ELxPrefTheme;
-			control=CHOICELIST { array_id=r_lx_theme_list; }; },
+			control=CHOICELIST { array_id=r_lx_pt_theme_array; maxdisplaychar=24; }; },
 		DLG_LINE { type=EEikCtChoiceList; prompt="Cursor"; id=ELxPrefCursor;
-			control=CHOICELIST { array_id=r_lx_cursor_list; }; },
+			control=CHOICELIST { array_id=r_lx_pt_cursor_array; }; },
 		DLG_LINE { type=EEikCtCheckBox; prompt="Cursor blinks"; id=ELxPrefBlink; },
 		DLG_LINE { type=EEikCtCheckBox; prompt="Status line"; id=ELxPrefStatus; },
 		DLG_LINE { type=EEikCtCheckBox; prompt="Bold text"; id=ELxPrefBold; }
@@ -314,38 +316,10 @@ RESOURCE ARRAY r_lx_start_list
 		};
 	}
 
-RESOURCE ARRAY r_lx_zoom_list
-	{
-	items=
-		{
-		LBUF { txt="Smallest (most rows)"; },
-		LBUF { txt="Small"; },
-		LBUF { txt="Medium"; },
-		LBUF { txt="Large"; },
-		LBUF { txt="Largest"; }
-		};
-	}
-
-RESOURCE ARRAY r_lx_theme_list
-	{
-	items=
-		{
-		LBUF { txt="Classic"; },
-		LBUF { txt="Light on dark"; },
-		LBUF { txt="High contrast"; },
-		LBUF { txt="Soft"; }
-		};
-	}
-
-RESOURCE ARRAY r_lx_cursor_list
-	{
-	items=
-		{
-		LBUF { txt="Block"; },
-		LBUF { txt="Underline"; },
-		LBUF { txt="Bar"; }
-		};
-	}
+// (0.29) PsiTerm's theme and cursor names, from its psiterm.rss
+// (tools/ptview.py, at each build): r_lx_pt_theme_array (grey screens),
+// r_lx_pt_theme_colour_array (colour screens), r_lx_pt_cursor_array
+#include "lxptview.rssi"
 
 // Tools > Linux disk...
 RESOURCE DIALOG r_lx_disk_dialog

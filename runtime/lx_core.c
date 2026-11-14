@@ -234,9 +234,31 @@ lx_u32 lx_gettp_c(lx_u32 sp)
 #define CPU_SLICE 40000                 /* microseconds */
 static lx_u32 cpu_order;
 
+/* (0.29) Typing: a key wakes the program reading the terminal, and if
+ * another translated thread has the CPU (a busy program in the background,
+ * OpenRC's services) the reader waited up to a whole slice (40 ms) for it,
+ * and behind every thread already waiting. While typed input is handed in
+ * (lx_k_boost), a thread it wakes goes to the front of the queue and the
+ * holder is asked to give way at once (at its next call or indirect branch). */
+static int boost;
+static int give_way;                    /* the holder's slice ends at its next call */
+void lx_k_boost(int on) { boost = on; }
+
+static lx_u32 front_seq(void)
+{
+	lx_u32 s = cpu_order;
+	int i;
+	for (i = 0; i < LX_MAXTHREAD; i++) {
+		lx_thread *t = &lx_k.threads[i];
+		if (t->cpu_wait && (lx_s32)(t->cpu_seq - s) < 0) s = t->cpu_seq;
+	}
+	return s - 1;
+}
+
 static void cpu_give(lx_thread *t)
 {
 	int start = t->cpu_wait == 2;
+	give_way = 0;
 	lx_cpu.cur = t;
 	lx_cpu.yield = 0;
 	lx_cpu.critical = 0;
@@ -264,7 +286,11 @@ static int retry_ready(lx_thread *t)
 {
 	lx_mm *mm = t->proc ? t->proc->mm : 0;
 	if (!t->dbt || !mm || lx_mm_is_resident(mm)) return 1;
-	if (lx_cpu.cur && lx_cpu.cur->state == LX_T_USER) { deferred = 1; return 0; }
+	if (lx_cpu.cur && lx_cpu.cur->state == LX_T_USER) {
+		deferred = 1;
+		if (boost) { lx_cpu.yield = 1; give_way = 1; }   /* (typed input for it: the holder gives way now) */
+		return 0;
+	}
 	lx_mm_resident(mm);
 	return 1;
 }
@@ -303,7 +329,8 @@ static void cpu_drop(lx_thread *t)
  * free or already t's, or when it comes round */
 static void cpu_run(lx_thread *t, int start)
 {
-	if (lx_cpu.cur == t && cpu_waiters() && lx_now() - t->slice_start >= CPU_SLICE) {
+	if (lx_cpu.cur == t && cpu_waiters() && (give_way || lx_now() - t->slice_start >= CPU_SLICE)) {
+		give_way = 0;
 		/* its slice is over and others wait: to the back of the queue */
 		lx_cpu.cur = 0;
 		t->cpu_wait = start ? 2 : 1;
@@ -314,6 +341,12 @@ static void cpu_run(lx_thread *t, int start)
 	if (!lx_cpu.cur || lx_cpu.cur == t) { t->cpu_wait = start ? 2 : 1; cpu_give(t); return; }
 	t->cpu_wait = start ? 2 : 1;
 	t->cpu_seq = ++cpu_order;
+	if (boost) {
+		/* (woken by typed input: first in the queue, and the holder gives way) */
+		t->cpu_seq = front_seq();
+		lx_cpu.yield = 1;
+		give_way = 1;
+	}
 }
 
 /* starts a new thread (native at once; translated when it has the CPU) */

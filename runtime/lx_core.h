@@ -424,6 +424,7 @@ void lx_rand_bytes(void *buf, lx_u32 n);
 void lx_rand_stir(const void *p, lx_u32 n);     /* (what is written to /dev/urandom) */
 void lx_rand_event(lx_u32 what);                /* (a key, a network event: its time) */
 void lx_k_event(void);                        /* something changed (a socket...): retry the parked calls */
+void lx_k_boost(int on);                      /* (0.29) around typed input: a translated thread it wakes goes first */
 void lx_k_shutdown(void);
 
 /* the kernel's own helpers, shared between its files */

@@ -188,11 +188,13 @@ per folder. `/c` and `/d` are the Psion's disks as they are. `/proc` and
 
 **The terminal.** Each terminal is a Linux tty in the kernel: line editing,
 echo, signals from ^C, ^Z and ^\\, termios, the window size, the foreground
-process group. The window is PsiTerm's terminal: libvterm, xterm-256color,
-history, pen selection and the clipboard. On the 5mx the 256 colours are
-mapped to 16 greys. On a colour screen (the netBook, the Series 7) they are
-shown as colours, as in PsiTerm 0.99 and later; 24-bit colour comes out as
-the nearest of the 256.
+process group. The window is PsiTerm's terminal, compiled from PsiTerm's own
+source at every build (0.29, [docs/PTVIEW.md](docs/PTVIEW.md)): libvterm,
+xterm-256color, PsiTerm's typefaces (Terminus 12 to 24, Spleen, Gohufont,
+Cozette, Courier small) and themes, history, pen selection and the
+clipboard. On the 5mx the 256 colours are mapped to 16 greys. On a colour
+screen (the netBook, the Series 7) they are shown as colours, with PsiTerm's
+colour schemes; 24-bit colour comes out as the nearest of the 256.
 
 **Networking.** TCP and UDP go through ESOCK, the Psion's own Internet
 connection (PPP over a dial-up modem, a phone, or a Wi-Fi modem that speaks

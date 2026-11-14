@@ -64,7 +64,8 @@ enum
 	ELxPrefKeep,             // 0.21: keep memory for other programs
 	ELxPrefKeepKb,
 	ELxPagePrefsGeneral,     // the Preferences dialog's pages
-	ELxPagePrefsScreen
+	ELxPagePrefsScreen,
+	ELxPrefFace              // 0.29: PsiTerm's typefaces
 	};
 
 #endif

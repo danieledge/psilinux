@@ -793,3 +793,90 @@ Alpine Linux's own armhf programs, unmodified, through a binary translator:
   emulator (v1.05(450), with Alpine in the ROM, as the card cannot be
   mounted there) boots Alpine with both 0.26 and 0.27. If it is seen again
   with 0.27, PsiLinux.log (Tools > Keep a log) has the line.
+
+## 59. The kernel thread's own faults, a lost invalidation, PsiTerm's terminal as it is (0.29)
+- **Found (the netBook's "Main KERN-EXEC 3"):** Dan's PsiLinux.log of 0.28
+  ends in the middle of an Alpine boot with no fault line: "Main" is the
+  runner's kernel thread, which had no exception handler, so EPOC ended
+  the runner and nothing was written. In the 5mx emulator, once in about
+  ten starts with the log on from the start, the same dialog came, or the
+  start stopped (the emulator's card is known to stall under writes, so
+  that is not proof of a bug of PsiLinux's).
+- **Chosen:**
+  - The kernel thread has `lx_exc_entry` as well. `KernelFault` logs the
+    exception, pc, the instruction and the address it used, lr, sp,
+    r0-r12, what the kernel was doing (a call, the timer, a thread's
+    death), the last 16 calls (tid, pid, number, first argument), the
+    translator's state, how much of its stack it has used and 32 words of
+    the stack; it opens the log even without Keep a log, tells the app
+    ("The Linux runner failed: exception N at pc...") and waits for the app
+    to end the runner, so there is no "Program closed" dialog.
+    `E32Main`'s address is logged with it, `build.sh sis` copies the link
+    map to `dist/psilxrun.map`, and `tools/lxpc.py PsiLinux.log` names the
+    functions. `<root>\KFAULT` makes the kernel thread fault at 20 s, to
+    test it (emulator: the report came, and `lxpc.py` named
+    `CLxTerm::Housekeeping`).
+  - How deep the kernel thread's stack has gone is sampled where it is
+    deepest (file reads, allocations, the log) and given in the 30 s lines
+    and the last line (about 17 KB of 64 KB for PsiLinux's shell in the
+    emulator; GCC 3.0's largest frames are the path functions, 2 to 4 KB
+    each). (Painting the stack below `E32Main` was tried first: it wrote
+    past the stack's end, and one start in three ended at once.)
+  - The translator's invalidation queue had one count changed by both the
+    kernel thread (adding the ranges of programs that end or unmap code)
+    and the thread holding the CPU (setting it back to 0 when done). A
+    range added while the reader worked was lost, and the old
+    translations of that range then ran for the next program loaded at the
+    same address: the kind of fault that comes and goes. Now a ring with a
+    writer index and a reader index, each moved by one side only.
+  - LxSync1.ldd cleans every range line by line. 0.28 cleaned a range over
+    16 KB (every program it loads natively) by reading 16 KB of the ROM
+    through the data cache, which only works if the ROM is mapped cacheable
+    and outside the minicache.
+  - `bk_log` from a Linux thread (the translator's runtime runs on them)
+    used the kernel thread's file server session, which EPOC refuses other
+    threads (the thread would panic); such lines now wait in a buffer the
+    kernel thread writes.
+  - The kernel's clock counted system ticks as 1/64 s each, as on the 5mx;
+    it now takes the tick's length from `UserHal::TickPeriod` (logged on
+    the first line), so sleeps, timeouts and the translator's slice are
+    right on a machine whose tick differs.
+  - A faulted kernel thread waits on a semaphore at the lowest priority
+    for the app to end the runner. (Waiting with `User::WaitForAnyRequest`
+    in a loop can spin: requests completed earlier make it return at once.)
+  - In the emulator, a start with the log written from its first line
+    sometimes stops in the middle of a write and the whole machine stands
+    still (0.28 did the same without a log, one start in five): the
+    emulator's card is known to stall under writes (21, 48). A report the
+    fault test wrote in full in one run stopped half way in another.
+  - Audited and found right: every code write is followed by
+    `bk_code_sync` (the dispatcher and its veneer at the start, blocks,
+    their exits and literals, chains, the unaligned-site stubs and patches,
+    native programs as they load); a flush is followed by fresh blocks
+    only, and a chain is patched only if no flush came between (`gen`);
+    shared images and fork move data only; translated code is run only by
+    the thread holding the CPU.
+- **Typing (Dan: "slow on the netBook"):** PsiTerm's drawing benchmark
+  (Bench.txt beside the program; added to a build of 0.28 to compare) in
+  the 5mx emulator, 95 x 18 cells: 0.28 and 0.29 alike, 2.4 ms a key for
+  an echo drawn, 32 ms a line scrolled, 290 ms a whole redraw (the
+  emulator is about 3 times slower than a 5mx). So the drawing is not the
+  delay; the time goes in Linux. Now:
+  - A key that wakes the program reading the terminal no longer waits for
+    a busy translated program's 40 ms slice and the queue behind it: while
+    typed input is handed in, the thread it wakes goes to the front and the
+    holder gives way at its next call or indirect branch (`lx_k_boost`).
+  - The log's 30 s line says how long Linux took to answer keys (average,
+    most, how many over 100 ms), and with the log on the status line shows
+    the echo time as the app sees it (key to output drawn).
+  - `<root>\LOGON` turns the runner's log on without the app's setting
+    (for the emulator, whose C: cannot be prepared).
+- **The terminal is PsiTerm's** (Dan: "adopt PsiTerm behind the scenes"):
+  [PTVIEW.md](PTVIEW.md). `tools/ptview.py` takes PsiTerm's `CTermView`
+  terminal functions and their constants out of `psiterm.cpp` at every
+  build, compiled against PsiTerm's own `psiterm.h`; `lxterm.cpp` gives
+  the parts that are PsiLinux's. PsiTerm's typefaces (the `PsiTerm.gdr` of
+  PsiTerm's own psion-core), zoom levels, themes and colour schemes come
+  with it; Preferences gains Typeface, and a colour screen starts in
+  PsiTerm's Clean. PTVIEW.md describes the change PsiTerm could make so
+  that this needs no extraction.

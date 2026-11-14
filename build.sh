@@ -56,14 +56,27 @@ echo "== pictures (PsiLinux.mbm, PsiLinux.aif)"
 python3 "$HERE/tools/mkicons.py" "$TOP/build/psilinux-icons" "$HERE/app/lxicons.h" > /dev/null
 ( cd "$TOP/build/psilinux-icons" && wine "$EPOCROOT/epoc32/tools/bmconv.exe" /q psilinux.mbm $(tr '\n' ' ' < files.txt) > /dev/null 2>&1 )
 echo "== PsiLinux.app"
+# (0.29) the terminal is PsiTerm's: tools/ptview.py takes its functions out
+# of PsiTerm's psiterm.cpp (app/lxptview.cpp) and its theme names out of
+# psiterm.rss (app/lxptview.rssi). psiterm.h needs PsiTerm's psiterm.rsg,
+# which a PsiTerm build leaves in the SDK.
+[ -f "$EPOCROOT/epoc32/include/psiterm.rsg" ] || { echo "no psiterm.rsg in the SDK: build PsiTerm once first"; exit 1; }
+python3 "$HERE/tools/ptview.py" "$PSITERM/app" "$HERE/app/lxptview.cpp" "$HERE/app/lxptview.rssi"
+# (the app takes psion-core's ssh headers and fonts from PsiTerm's own core,
+# as psiterm.h is compiled against them; the runner keeps this checkout's)
+PTCORE=$PSITERM/core; [ -f "$PTCORE/ssh/psidisp.h" ] || PTCORE=$CORE
 # makmake works on projects inside the SDK tree: link the folders there
-for l in psilinux:$HERE/app psilxterm:$PSITERM/app psilxssh:$CORE/ssh psilxcommon:$HERE/common; do
+for l in psilinux:$HERE/app psilxterm:$PSITERM/app psilxssh:$PTCORE/ssh psilxcommon:$HERE/common; do
 	name=${l%%:*}; dir=${l#*:}
 	if [ -e "$EPOCROOT/ptproj/$name" ] && [ ! -L "$EPOCROOT/ptproj/$name" ]; then
 		echo "$EPOCROOT/ptproj/$name exists and is not a link - move it away"; exit 1
 	fi
 	ln -sfn "$dir" "$EPOCROOT/ptproj/$name"
 done
+# (the SDK keeps every ptproj program's objects in one folder, and make
+# goes by dates: an object another checkout or version of PsiLinux left
+# there can be newer than this source. PsiLinux's own are made afresh.)
+find "$EPOCROOT/epoc32/build" -path "*ptproj/marmd/rel/*" \( -name 'lx*.o' -o -name 'psilinux.o' \) -delete 2>/dev/null || :
 ( cd "$EPOCROOT/ptproj/psilinux" && makmake psilinux marm > "$TOP/build/psilinux-makmake.log" 2>&1 \
   && make -f psilinux.marm rel > "$TOP/build/psilinux.log" 2>&1 ) \
   || { grep -i -B1 -A4 "error\|undefined" "$TOP/build/psilinux.log" | head -40; exit 1; }
@@ -74,11 +87,12 @@ python3 "$CORE/tools/v4bx.py" --check "$REL/psilinux.app" | grep -q ": 0 BX" \
 P=$TOP/build/psilinux-pkg
 rm -rf "$P"; mkdir -p "$P"
 cp "$REL/psilinux.app" "$REL/psilinux.rsc" "$TOP/build/lxrun-obj/psilxrun.exe" "$REL/lxsync1.ldd" "$P/"
-cp "$CORE/pkg/psiterm.gdr" "$P/psiterm.gdr"         # (the Terminus font, from psion-core)
+cp "$PTCORE/pkg/psiterm.gdr" "$P/psiterm.gdr"       # (PsiTerm's fonts: Terminus, Spleen, Gohufont, Cozette)
 cp "$TOP/build/psilinux-icons/psilinux.aif" "$TOP/build/psilinux-icons/psilinux.mbm" "$P/"
 if [ "$1" = sis ]; then
 	install -m 644 "$REL/stdlib.sis" "$P/STDLIB.SIS"
-	cp "$HERE/pkg/psilinux.pkg" "$CORE/pkg/terminus-licence.txt" "$P/"
+	cp "$HERE/pkg/psilinux.pkg" "$PTCORE/pkg/terminus-licence.txt" "$P/"
+	cp "$PTCORE/pkg/font-licences.txt" "$P/font-licences.txt" 2>/dev/null || : > "$P/font-licences.txt"
 	cp "$HERE/runtime/softfloat/COPYING.txt" "$P/softfloat-licence.txt"     # (the translator's VFP)
 	( cd "$P" && wine "$EPOCROOT/epoc32/tools/makesis.exe" psilinux.pkg "$TOP/dist/PsiLinux.sis" > /dev/null )
 	ls -la "$TOP/dist/PsiLinux.sis"

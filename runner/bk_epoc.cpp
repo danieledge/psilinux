@@ -46,6 +46,23 @@ static TUint32 gFaultPc, gFaultInsn, gFaultWhy;   // an unfixed alignment fault 
 static TUint32 gFaultIdx, gFaultSp, gFaultW[20];
 static TThreadId gKernelId;      // (0.29) the kernel thread's id (bk_log, faults)
 static TBool gKernelIdSet;
+// (0.29) how deep the kernel thread's stack has gone: its sp is looked at
+// where the kernel is deepest (the backend's file calls, its allocations,
+// the log), against where it was at the start (KStackSize is petran's
+// -stack in the Makefile)
+const TUint32 KStackSize = 0x10000;
+static TUint32 gStackTop, gStackMin;
+static inline void StackSample()
+	{
+	TUint32 sp;
+	__asm__ __volatile__("mov %0, sp" : "=r"(sp));
+	if (sp < gStackMin && gKernelIdSet)
+		gStackMin = sp;
+	}
+static TUint32 StackUsed()
+	{
+	return (gStackTop && gStackMin && gStackMin < gStackTop) ? gStackTop - gStackMin : 0;
+	}
 static void Fail(const char* aWhy);
 static void OpenLog(const char* aRoot);
 
@@ -284,6 +301,21 @@ static TUint32 AccessAddress(const TUint32* aR, TUint32 aInsn)
 	return 0;
 	}
 
+// Waits for the app to end the runner, using no processor. (Not a loop of
+// User::WaitForAnyRequest: the kernel thread's requests that had completed
+// let it return at once, again and again, and at the kernel thread's
+// priority that loop starved PsiLinux's window, which then never ended it.)
+static void WaitToBeEnded()
+	{
+	RThread().SetPriority(EPriorityMuchLess);
+	RSemaphore never;
+	if (never.CreateLocal(0) == KErrNone)
+		for (;;)
+			never.Wait();
+	for (;;)
+		User::After(10000000);
+	}
+
 static void KernelFault(TExcType aType, TUint32* aEntrySp)
 	{
 	static TInt inFault;
@@ -292,8 +324,7 @@ static void KernelFault(TExcType aType, TUint32* aEntrySp)
 		// (a fault while reporting one: the stack dump, last, read too far)
 		if (inFault == 2)
 			Fail("The Linux runner failed (an exception in its kernel thread); PsiLinux.log has the detail");
-		for (;;)
-			User::WaitForAnyRequest();
+		WaitToBeEnded();
 		}
 	TUint32 r[16];
 	Mem::FillZ(r, sizeof r);
@@ -339,6 +370,7 @@ static void KernelFault(TExcType aType, TUint32* aEntrySp)
 	lx_thread* ct = lx_cpu.cur;
 	bk_log("  doing: %s (tid %d); translated thread holding the CPU: %d (critical %d); %u blocks, %u flushes",
 		what[wi], lx_k_now_tid, ct ? ct->tid : 0, lx_cpu.critical, lx_cpu.translations, lx_cpu.flushes);
+	bk_log("  the kernel's stack: %u of %u bytes used at most", StackUsed(), KStackSize);
 	for (TUint n = 0; n < LX_TRAIL && n < lx_k_trail_n; n++)
 		{
 		volatile lx_u32* tr = lx_k_trail[(lx_k_trail_n - 1 - n) % LX_TRAIL];
@@ -357,9 +389,7 @@ static void KernelFault(TExcType aType, TUint32* aEntrySp)
 		aType, r[15], r[14], what[wi]);
 	inFault = 3;                             // (from here a fault is not told twice)
 	Fail(why);
-	// the app sees the state and ends the runner
-	for (;;)
-		User::WaitForAnyRequest();
+	WaitToBeEnded();                         // (the app sees the state and ends the runner)
 	}
 
 extern "C" void LxExcHandlerC(TExcType aType, TUint32* aEntrySp)
@@ -629,6 +659,8 @@ extern "C" int bk_arena_grow(lx_u32 size) { return gArenaOk ? Err(gArena.Adjust(
 // Tools > Keep a log ticked) so that the calculation can be found.
 extern "C" void* bk_alloc(lx_u32 n)
 	{
+	if (RThread().Id() == gKernelId)
+		StackSample();
 	if (n >= (lx_u32)(KMaxTInt / 2))
 		{
 		bk_log("bk_alloc: %u bytes refused (from %x)", n, (lx_u32)__builtin_return_address(0));
@@ -671,9 +703,20 @@ extern "C" lx_s64 bk_now_real(void)
 	return From64(t.Int64()) - From64(gEpoch);
 	}
 
+// (0.29) the system tick's real length: 1/64 s on the 5mx, but taken from
+// UserHal rather than assumed, as other machines (the netBook) may differ;
+// every time in the kernel (sleeps, timeouts, the translator's slice) is
+// counted in these
+static TInt gTickUs = 15625;
+static void TickInit()
+	{
+	TTimeIntervalMicroSeconds32 period;
+	if (UserHal::TickPeriod(period) == KErrNone && period.Int() > 0 && period.Int() <= 1000000)
+		gTickUs = period.Int();
+	}
 extern "C" lx_s64 bk_now_mono(void)
 	{
-	return (lx_s64)User::TickCount() * 15625;
+	return (lx_s64)User::TickCount() * gTickUs;
 	}
 
 static TInt64 gSeed;
@@ -763,6 +806,7 @@ extern "C" void bk_log(const char* fmt, ...)
 			}
 		return;
 		}
+	StackSample();
 	LogPending();
 	LogWrite(buf, n);
 	}
@@ -796,10 +840,32 @@ extern "C" int bk_tty_room(lx_tty* tty)
 	return OutFree();
 	}
 
+// (0.29) how long Linux takes to answer a key: from the key reaching the
+// kernel to the next output on the terminal (the echo, or whatever the
+// program wrote), for the status line in the log every 30 s
+static lx_s64 gKeyAt;
+static TUint gEchoN, gEchoMaxUs;
+static lx_s64 gEchoSumUs;
+static TUint gEchoSlow;                  // over 100 ms
+
 extern "C" int bk_tty_write(lx_tty* tty, const char* buf, int n)
 	{
 	if (tty->index != 0 || !gSh)
 		return n;
+	if (gKeyAt && n > 0)
+		{
+		lx_s64 d = bk_now_mono() - gKeyAt;
+		gKeyAt = 0;
+		if (d >= 0 && d < 60000000)
+			{
+			gEchoN++;
+			gEchoSumUs += d;
+			if ((TUint)d > gEchoMaxUs)
+				gEchoMaxUs = (TUint)d;
+			if (d > 100000)
+				gEchoSlow++;
+			}
+		}
 	TInt room = OutFree();
 	if (n > room)
 		n = room;
@@ -862,7 +928,11 @@ public:
 					buf[n++] = gSh->kbd[gSh->kbd_tail % LX_KBD_SIZE];
 					gSh->kbd_tail++;
 					}
+				if (!gKeyAt)
+					gKeyAt = bk_now_mono();      // (0.29) the echo's time inside Linux starts
+				lx_k_boost(1);               // (0.29) whoever reads them gets the CPU first
 				lx_k_tty_input(&lx_k.ttys[0], buf, n);
+				lx_k_boost(0);
 				}
 			if (OutFree() != iFree)
 				{
@@ -998,15 +1068,27 @@ void CLxTerm::Housekeeping()
 	TInt n = 0;
 	TUint used = 0;
 	TInt secs = (TInt)((bk_now_mono() - lx_k.start_mono) / 1000000);
-	if (lx_k.execlog && secs >= gStatusNext)
+	if (secs >= gStatusNext)
 		{
 		// every 30 s in Alpine mode: memory, and how the translator is doing
 		lx_u32 tot, fr;
 		bk_mem_info(&tot, &fr);
 		gStatusNext = secs + 30;
-		bk_log("%d s: %u KB free; translated %u blocks (%u KB of code), %u flushes; %u syscalls, %u helpers; unaligned: %u faults, %u sites, %u via sites",
-			secs, fr / 1024, lx_cpu.translations, lx_cpu.host_words / 256, lx_cpu.flushes, lx_cpu.syscalls, lx_cpu.helpers,
-			lx_cpu.fixups, lx_cpu.patched, lx_cpu.fixed_calls);
+		if (lx_k.execlog)
+			bk_log("%d s: %u KB free; translated %u blocks (%u KB of code), %u flushes; %u syscalls, %u helpers; unaligned: %u faults, %u sites, %u via sites",
+				secs, fr / 1024, lx_cpu.translations, lx_cpu.host_words / 256, lx_cpu.flushes, lx_cpu.syscalls, lx_cpu.helpers,
+				lx_cpu.fixups, lx_cpu.patched, lx_cpu.fixed_calls);
+		if (lx_k.execlog)
+			bk_log("  the kernel's stack: %u of %u bytes used at most", StackUsed(), KStackSize);
+		if (gEchoN)
+			{
+			bk_log("  keys: %u answered in %u ms on average, %u ms at most, %u over 100 ms",
+				gEchoN, (TUint)(gEchoSumUs / gEchoN / 1000), gEchoMaxUs / 1000, gEchoSlow);
+			gEchoN = 0;
+			gEchoSumUs = 0;
+			gEchoMaxUs = 0;
+			gEchoSlow = 0;
+			}
 		}
 	for (i = 0; i < LX_MAXPROC; i++)
 		{
@@ -1080,6 +1162,7 @@ extern "C" void* bk_file_open(const char* path, int flags, int* err)
 
 extern "C" int bk_file_read(void* h, lx_s64 off, char* buf, lx_u32 n)
 	{
+	StackSample();
 	TPtr8 p((TUint8*)buf, 0, n);
 	TInt r = ((RFile*)h)->Read((TInt)off, p, n);
 	return r != KErrNone ? Err(r) : p.Length();
@@ -1326,9 +1409,21 @@ static void RunL()
 	}
 	gSh->root[sizeof gSh->root - 1] = 0;
 	gSh->program[sizeof gSh->program - 1] = 0;
+	if (!gSh->log_on)
+		{
+		// (0.29) <root>\LOGON: a log as if Keep a log were ticked (testing:
+		// the emulator's PsiLinux.ini is out of reach on C:)
+		TFileName t;
+		Name(t, gSh->root);
+		t.Append(_L("LOGON"));
+		TEntry e;
+		if (gFs.Entry(t, e) == KErrNone)
+			gSh->log_on = 1;
+		}
 	if (gSh->log_on)
 		OpenLog(gSh->root);                  // (0.24: only with Tools > Keep a log ticked)
-	bk_log("PsiLinux runner %s: root %s, program %s", LX_VERSION, gSh->root, gSh->program);
+	TickInit();
+	bk_log("PsiLinux runner %s: root %s, program %s (tick %d us)", LX_VERSION, gSh->root, gSh->program, gTickUs);
 	gTimer = new(ELeave) CLxTimer;
 	gTimer->ConstructL();
 	lx_k_init(gSh->root);
@@ -1432,7 +1527,7 @@ static void RunL()
 		}
 	gStopping = ETrue;
 	lx_k_shutdown();
-	bk_log("PsiLinux runner: stopped");
+	bk_log("PsiLinux runner: stopped (the kernel's stack: %u of %u bytes used at most)", StackUsed(), KStackSize);
 	delete gTerm;
 	gTerm = 0;
 	if (gSh->state != LXS_FAILED && gSh->state != LXS_EXITED)
@@ -1444,6 +1539,7 @@ static void RunL()
 
 GLDEF_C TInt E32Main()
 	{
+	gStackTop = gStackMin = CurrentSp();    // (0.29: see StackSample)
 	CTrapCleanup* tc = CTrapCleanup::New();
 	TRAPD(err, RunL());
 	if (err != KErrNone && gSh)

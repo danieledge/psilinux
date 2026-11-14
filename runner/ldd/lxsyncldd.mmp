@@ -1,0 +1,11 @@
+// LXSYNCLDD.MMP - LxSync1.ldd, the PsiLinux runner's cache driver (netBook only)
+TARGET          lxsync1.ldd
+TARGETTYPE      ldd
+UID             0x100000ae 0x01000AAD
+PROJECT         ptproj
+SUBPROJECT      lxsyncldd
+SOURCE          lxsyncldd.cpp
+USERINCLUDE     \ptproj\lxsyncldd
+USERINCLUDE     \ptproj\lxsynccommon
+SYSTEMINCLUDE   \epoc32\include
+LIBRARY         euser.lib lxsyncekern.lib

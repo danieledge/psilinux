@@ -94,6 +94,7 @@ int dbt_init(void)
 	lx_cpu.enter = (lx_u32)p;
 	p += 2;
 	cache_start = cache_top = (lx_u32)p;
+	bk_code_sync(cache.base, cache_start - cache.base);
 	lx_cpu.cache_base = cache.base;
 	lx_cpu.cache_end = cache.base + CACHE_MAX;
 	lx_cpu.hash = hash_tab;
@@ -962,6 +963,7 @@ static lx_u32 translate(lx_thread *t, lx_u32 gpc)
 		/* nothing to run there: SIGSEGV (a block of its own, not kept) */
 		e_enter(&e, DBT_SEGV, pc, 0, 2);
 		cache_top = (lx_u32)e.p;
+		bk_code_sync(host, cache_top - host);
 		return host;
 	}
 	for (;;) {
@@ -1003,6 +1005,7 @@ static lx_u32 translate(lx_thread *t, lx_u32 gpc)
 	}
 	lx_cpu.host_words += (lx_u32)(e.p - e.start);
 	cache_top = (lx_u32)e.p;
+	bk_code_sync(host, cache_top - host);
 	/* keep it */
 	b = nblocks++;
 	blocks[b].gpc = gpc;
@@ -1036,6 +1039,7 @@ void dbt_chain(lx_u32 site, lx_u32 host, lx_u32 gen_then)
 	if (gen_then != gen || lx_cpu.trace || lx_cpu.nochain) return;   /* (the cache was flushed meanwhile) */
 	if (site < cache_start || site >= cache_top) return;
 	*s = b_to(*s & 0xF0000000u, s, host);
+	bk_code_sync(site, 4);
 }
 
 /* An access at host address h (translated code) faulted for alignment and
@@ -1067,7 +1071,9 @@ int dbt_patch_unaligned(lx_u32 h)
 	skip_end(&e, s);
 	e_b(&e, AL, h + 4);
 	cache_top = (lx_u32)e.p;
+	bk_code_sync(stub, cache_top - stub);
 	*(lx_u32 *)h = b_to(AL, (lx_u32 *)h, stub);
+	bk_code_sync(h, 4);
 	lx_cpu.patched++;
 	return 0;
 }

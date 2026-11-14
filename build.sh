@@ -33,6 +33,25 @@ echo "== libvterm (PsiTerm's)"
 echo "== psilxrun.exe (the runner)"
 make -C "$HERE/runner" SDK="$PSION_SDK" PSION_CORE="$CORE" > "$TOP/build/psilxrun.log" 2>&1 \
 	|| { grep -E "error|undefined" "$TOP/build/psilxrun.log" | head -30; exit 1; }
+echo "== LxSync1.ldd (the netBook's cache driver)"
+# with the netBook kernel's export numbers (runner/ldd/ekern_nb.def); in a
+# scratch folder with TMP=.: with the SDK's TMP, dlltool names the archive
+# members "tmp\\d11..." and the library comes out unusable
+D=$TOP/build/lxsync-implib; rm -rf "$D"; mkdir -p "$D"
+( cd "$D" && TMP=. arm-pe-dlltool --as=arm-pe-as --output-lib "$REL/lxsyncekern.lib" \
+	--def "$HERE/runner/ldd/ekern_nb.def" --dllname "EKERN[100000b7].EXE" )
+for l in lxsyncldd:$HERE/runner/ldd lxsynccommon:$HERE/common; do
+	name=${l%%:*}; dir=${l#*:}
+	if [ -e "$EPOCROOT/ptproj/$name" ] && [ ! -L "$EPOCROOT/ptproj/$name" ]; then
+		echo "$EPOCROOT/ptproj/$name exists and is not a link - move it away"; exit 1
+	fi
+	ln -sfn "$dir" "$EPOCROOT/ptproj/$name"
+done
+( cd "$EPOCROOT/ptproj/lxsyncldd" && makmake lxsyncldd marm > "$TOP/build/lxsync-makmake.log" 2>&1 \
+  && make -f lxsyncldd.marm rel > "$TOP/build/lxsync.log" 2>&1 ) \
+  || { grep -i -B1 -A4 "error\|undefined" "$TOP/build/lxsync.log" | head -40; exit 1; }
+python3 "$CORE/tools/v4bx.py" --check "$REL/lxsync1.ldd" | grep -q ": 0 BX" \
+	|| { python3 "$CORE/tools/v4bx.py" --check "$REL/lxsync1.ldd"; exit 1; }
 echo "== pictures (PsiLinux.mbm, PsiLinux.aif)"
 python3 "$HERE/tools/mkicons.py" "$TOP/build/psilinux-icons" "$HERE/app/lxicons.h" > /dev/null
 ( cd "$TOP/build/psilinux-icons" && wine "$EPOCROOT/epoc32/tools/bmconv.exe" /q psilinux.mbm $(tr '\n' ' ' < files.txt) > /dev/null 2>&1 )
@@ -54,7 +73,7 @@ python3 "$CORE/tools/v4bx.py" --check "$REL/psilinux.app" | grep -q ": 0 BX" \
 
 P=$TOP/build/psilinux-pkg
 rm -rf "$P"; mkdir -p "$P"
-cp "$REL/psilinux.app" "$REL/psilinux.rsc" "$TOP/build/lxrun-obj/psilxrun.exe" "$P/"
+cp "$REL/psilinux.app" "$REL/psilinux.rsc" "$TOP/build/lxrun-obj/psilxrun.exe" "$REL/lxsync1.ldd" "$P/"
 cp "$CORE/pkg/psiterm.gdr" "$P/psiterm.gdr"         # (the Terminus font, from psion-core)
 cp "$TOP/build/psilinux-icons/psilinux.aif" "$TOP/build/psilinux-icons/psilinux.mbm" "$P/"
 if [ "$1" = sis ]; then

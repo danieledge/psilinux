@@ -388,6 +388,26 @@ static int load_elf2(lx_thread *t, lx_proc *p, lx_file *f, const char *path,
 		bk_memset((void *)(img.base + ph[i].vaddr + ph[i].filesz), 0, ph[i].memsz - ph[i].filesz);
 	}
 	note = has_note(img.base, ph, eh.phnum);
+	if (note && lx_k.no_bx) {
+		/* (0.28) PsiLinux's own programs are ARMv4T (BX LR to return); the
+		 * netBook's SA-1100 is ARMv4 and has no BX. They are ARM code only
+		 * (-marm, never Thumb), so BX Rn is MOV PC, Rn: the same jump. In
+		 * the executable segments, every BX Rn (any condition) becomes
+		 * MOV PC, Rn with that condition, as GNU ld's --fix-v4bx does. */
+		lx_u32 nfix = 0;
+		for (i = 0; i < eh.phnum; i++) {
+			lx_u32 *w, *end;
+			if (ph[i].type != PT_LOAD || !(ph[i].flags & 1)) continue;   /* PF_X */
+			w = (lx_u32 *)((img.base + ph[i].vaddr + 3) & ~3u);
+			end = (lx_u32 *)((img.base + ph[i].vaddr + ph[i].filesz) & ~3u);
+			for (; w < end; w++)
+				if ((*w & 0x0FFFFFF0u) == 0x012FFF10u && (*w >> 28) != 0xF) {
+					*w = (*w & 0xF000000Fu) | 0x01A0F000u;
+					nfix++;
+				}
+		}
+		if (lx_k.trace) bk_log("load: %u BX made MOV PC (no BX on this CPU)", nfix);
+	}
 	dbt = 0;
 	if (note && interp[0]) {
 		bk_log("%s: a PsiLinux program with a dynamic linker (%s): build it static-pie", path, interp);
@@ -406,6 +426,8 @@ static int load_elf2(lx_thread *t, lx_proc *p, lx_file *f, const char *path,
 			}
 		} else dbt = 1;
 	}
+	if (!dbt)
+		bk_code_sync(img.base, size);     /* (0.28) run as it is: the CPU must see the code just read */
 	if (dbt && fsize) {
 		/* a translated program: its image is shared from now on */
 		lx_u32 lo, hi;

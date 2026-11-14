@@ -216,6 +216,9 @@ int bk_code_region(lx_region *r, lx_u32 max, lx_u32 size)
 	r->bk = 0;
 	return 0;
 }
+/* (qemu and the host keep their caches coherent themselves) */
+void bk_code_sync(lx_u32 start, lx_u32 len) { (void)start; (void)len; }
+
 int bk_code_grow(lx_region *r, lx_u32 size)
 {
 	if (size > r->size || (size > code_now && size - code_now > sim_free())) return -LX_ENOMEM;

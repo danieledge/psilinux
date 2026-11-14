@@ -23,6 +23,7 @@ extern "C" {
 #include "lx_dbt.h"
 #include "lxshared.h"
 #include "lxfb.h"
+#include "lxsync.h"
 }
 
 extern "C" int lx_vsnprintf_pub(char* buf, int size, const char* fmt, va_list ap);
@@ -259,6 +260,23 @@ extern "C" void LxExcHandlerC(TExcType aType, TUint32* aEntrySp)
 		return;
 	if (t && aType == EExcAlignment)
 		t->fault_addr = gFaultPc;
+	else
+		{
+		// (0.28) any other fault: where it was (EUSER's frame, as for an
+		// alignment fault), for the log line "signal N at pc"
+		TUint32* s = aEntrySp + 2;
+		lx_thread* ft = t ? t : lx_thread_by_sp(CurrentSp());
+		for (TInt i = 0; ft && i < 24; i++)
+			{
+			TUint32 w = s[i];
+			if (w < 0x50000000 || w >= 0x51000000 || (w & 3))
+				continue;
+			if (((TUint32*)w)[0] != 0xE8BD5FF8 || ((TUint32*)w)[1] != 0xE8BD8007)
+				continue;
+			ft->fault_addr = s[i + 1 + 14];
+			break;
+			}
+		}
 	if (!t)
 		t = lx_thread_by_sp(CurrentSp());
 	if (!t || !t->bk)
@@ -452,6 +470,44 @@ extern "C" int bk_code_region(lx_region* r, lx_u32 max, lx_u32 size)
 	return 0;
 	}
 extern "C" int bk_code_grow(lx_region* r, lx_u32 size) { return Err(((RChunk*)r->bk)->Adjust(size)); }
+
+// (0.28) The netBook's SA-1100 has separate instruction and data caches:
+// code just written must be cleaned out of the data cache, and the
+// instruction cache emptied, before it runs (lxsync.h). LxSync1.ldd does it;
+// it is only loaded on a netBook (its kernel's export numbers are not the
+// 5mx's), and the 5mx's one cache needs nothing.
+static RLxSync gSync;
+static TBool gSyncOpen;
+static TBool IsNetBook()
+	{
+	TMachineInfoV1Buf mi;
+	if (UserHal::MachineInfo(mi) != KErrNone)
+		return EFalse;
+	return mi().iMachineName.FindF(_L("netBook")) >= 0;
+	}
+static void SyncOpen()
+	{
+	if (!IsNetBook())
+		return;
+	lx_k.no_bx = 1;
+	TInt err = User::LoadLogicalDevice(KLxSyncFile);
+	if (err == KErrNone || err == KErrAlreadyExists)
+		err = gSync.Open();
+	if (err == KErrNone)
+		{
+		gSyncOpen = ETrue;
+		err = gSync.Check();
+		}
+	if (err == KErrNone)
+		bk_log("netBook: the cache driver LxSync1.ldd is ready");
+	else
+		bk_log("netBook: the cache driver LxSync1.ldd did not start (%d): Linux programs will not run", err);
+	}
+extern "C" void bk_code_sync(lx_u32 start, lx_u32 len)
+	{
+	if (gSyncOpen && len)
+		gSync.Sync(start, len);
+	}
 extern "C" int bk_arena_grow(lx_u32 size) { return gArenaOk ? Err(gArena.Adjust((size + 4095) & ~4095u)) : -LX_ENOMEM; }
 // (0.27) User::Alloc panics the caller (USER 47) for a size of KMaxTInt/2
 // (1 GB) or more, and here the caller is the kernel thread: every Linux
@@ -1102,6 +1158,7 @@ static void RunL()
 	gTimer = new(ELeave) CLxTimer;
 	gTimer->ConstructL();
 	lx_k_init(gSh->root);
+	SyncOpen();
 	{
 		// <root>\TRACE: log every call (for debugging)
 		TFileName t;

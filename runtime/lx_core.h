@@ -25,7 +25,7 @@
 extern "C" {
 #endif
 
-#define LX_VERSION "0.25"
+#define LX_VERSION "0.28"
 #define LX_MAXPROC 64
 #define LX_MAXTHREAD 64
 #define LX_MAXFD 128
@@ -317,6 +317,8 @@ typedef struct lx_kernel {
 	lx_u32 reserve_refused_kb;  /* ...and how much they asked for */
 	lx_u32 vdso[4];             /* AT_SYSINFO: entry, cas, gettp, barrier */
 	lx_u32 random_seed;
+	int no_bx;                  /* (0.28) the CPU has no BX (the netBook's SA-1100): PsiLinux's own
+	                             * programs get MOV PC, Rn in its place when they are loaded */
 } lx_kernel;
 
 extern lx_kernel lx_k;
@@ -341,6 +343,7 @@ void bk_region_free(lx_region *r);
 int bk_arena_grow(lx_u32 size);               /* make the arena this big (committed) */
 int bk_code_region(lx_region *r, lx_u32 max, lx_u32 size);   /* Alpine mode's code cache: max of address space, size committed */
 int bk_code_grow(lx_region *r, lx_u32 size);  /* commit this much of it */
+void bk_code_sync(lx_u32 start, lx_u32 len);  /* (0.28) code written there: make the CPU see it (split caches) */
 lx_u32 bk_arena_base(void);
 lx_u32 bk_arena_max(void);
 void *bk_alloc(lx_u32 n);                     /* kernel memory (zeroed) */

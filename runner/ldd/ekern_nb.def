@@ -1,0 +1,19 @@
+; ekern_nb.def - the EKERN exports the netBook drivers need (copied from psion-netbook/psiboot/ldd/), with the ordinals
+; of the netBook kernel EKERN[100000b7].EXE. The same in both netBook ROMs
+; (1.05(254), Dan's stock image, which exports 755, and 1.05(450), which
+; exports 769): each was checked in both by disassembly, and found as the
+; ROM's own Video.ldd imports them (its import table, against EKERN's export
+; table). The 5mx's ordinals (psikern/ekern_rom.def) and the SDK's ekern.lib
+; (the Series 5's) are different: never link this driver against them.
+; Names: the mangled names in the SDK's ekern.lib.
+EXPORTS
+	Close__15DLogicalChannel @ 87 NONAME
+	DoControl__15DLogicalChanneliPvT2 @ 91 NONAME
+	DoCreateL__15DLogicalChanneliP5CBasePC6TDesC8RC8TVersion @ 92 NONAME
+	"_._15DLogicalChannel" @ 100 NONAME
+	__15DLogicalChannelP14DLogicalDevice @ 101 NONAME
+	IsAvailable__C14DLogicalDeviceiPC6TDesC8T2 @ 102 NONAME
+	QueryVersionSupported__C14DLogicalDeviceRC8TVersion @ 103 NONAME
+	Remove__14DLogicalDevice @ 104 NONAME
+	"_._14DLogicalDevice" @ 105 NONAME
+	__14DLogicalDevice @ 106 NONAME

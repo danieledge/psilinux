@@ -13,9 +13,8 @@
 // invalidates the whole instruction cache. Lines are 32 bytes. The range is
 // the runner's own memory (the caller's address space), as it was given;
 // cleaning a line that is not in the cache does nothing, and the operation
-// does not fault on an unmapped address. A long range is capped: past
-// 16 KB (twice the 8 KB data cache) the cache is cleaned whole by reading
-// 16 KB of the ROM, which pushes out every dirty line.
+// does not fault on an unmapped address. (0.29) Every range is cleaned line
+// by line (0.28 read 16 KB of the ROM to clean a long one: see Sync).
 //
 // Built against the netBook kernel's export numbers (ekern_nb.def, from
 // PsiBoot's driver): never load it on another machine.
@@ -25,8 +24,6 @@
 
 const TUint32 KSa1100Id = 0x4401a110;   // the CPU ID, revision masked off
 const TUint32 KLine = 32;
-const TUint32 KByLine = 16 * 1024;      // longer ranges: the whole cache
-const TUint32 KRomBase = 0x50000000;    // cacheable, always mapped: read to evict
 
 static TUint CpuMode()
 	{
@@ -53,24 +50,18 @@ static TInt Check()
 
 static void Sync(TUint32 aStart, TUint32 aLength)
 	{
-	if (aLength > KByLine)
-		{
-		// the whole data cache: 16 KB of other cacheable memory read through
-		// it replaces every line, writing back the dirty ones (the SA-1100's
-		// replacement is round robin, 8 KB in all)
-		volatile const TUint32* p = (volatile const TUint32*)KRomBase;
-		TUint32 sum = 0;
-		for (TUint32 i = 0; i < KByLine / 4; i += KLine / 4)
-			sum += p[i];
-		(void)sum;
-		}
-	else
-		{
-		TUint32 a = aStart & ~(KLine - 1);
-		TUint32 end = aStart + aLength;
-		for (; a < end; a += KLine)
-			asm volatile("mcr p15, 0, %0, c7, c10, 1" : : "r"(a) : "memory");
-		}
+	// (0.29) always line by line, however long the range. 0.28 cleaned a
+	// range over 16 KB by reading 16 KB of the ROM through the cache, which
+	// relies on the ROM being mapped cacheable (and not through the
+	// minicache), which nothing guarantees: if it is not, the dirty lines of
+	// a program just loaded stay in the cache. A line costs a few cycles, so
+	// even a 1 MB program (32,768 lines) takes well under a millisecond.
+	TUint32 a = aStart & ~(KLine - 1);
+	TUint32 end = aStart + aLength;
+	if (end < aStart)
+		end = 0xFFFFFFE0u;                  // (no wrap)
+	for (; a < end; a += KLine)
+		asm volatile("mcr p15, 0, %0, c7, c10, 1" : : "r"(a) : "memory");
 	TUint32 z = 0;
 	asm volatile(
 		"mcr p15, 0, %0, c7, c10, 4\n\t"    // drain the write buffer

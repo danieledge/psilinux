@@ -25,7 +25,7 @@
 extern "C" {
 #endif
 
-#define LX_VERSION "0.28"
+#define LX_VERSION "0.29"
 #define LX_MAXPROC 64
 #define LX_MAXTHREAD 64
 #define LX_MAXFD 128
@@ -399,6 +399,16 @@ char bk_native_sep(void);                     /* '\\' or '/' */
 #include "lx_bknet.h"
 
 /* ---- the kernel's entry points (called by the backend, on the kernel thread) --- */
+
+/* (0.29) what the kernel thread was doing, for the log if it faults itself:
+ * the last LX_TRAIL calls it began (tid, pid, number, first argument), and
+ * what it began last (lx_k_now_what: 0 nothing since its last call ended,
+ * 1 a system call, 2 the timer, 3 a thread's death; lx_k_now_tid its
+ * thread) */
+#define LX_TRAIL 16
+extern volatile lx_u32 lx_k_trail[LX_TRAIL][4];
+extern volatile lx_u32 lx_k_trail_n;
+extern volatile int lx_k_now_tid, lx_k_now_what;
 
 void lx_k_init(const char *root_native);
 int lx_k_spawn_first(const char *path, char *const argv[], char *const envp[], int tty);

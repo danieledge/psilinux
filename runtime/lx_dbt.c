@@ -43,8 +43,16 @@ static lx_u32 tp_off;                   /* offsetof(lx_thread, tp) */
 /* ranges of guest code that went away, from the kernel thread: dealt with
  * by the thread holding the CPU before it next looks anything up */
 #define NINVAL 16
+/* (0.29) a ring with one writer (the kernel thread) and one reader (the
+ * thread holding the CPU), each moving only its own index: the kernel
+ * thread can add a range at any moment, even while the reader is working
+ * through the ring. Before, both changed one count, and a range added while
+ * the reader was busy was lost when it set the count back to 0: the old
+ * translations of that range (a program that had ended) then ran for the
+ * next program loaded at the same address. */
 static volatile lx_u32 inval_lo[NINVAL], inval_hi[NINVAL];
-static volatile int inval_n, inval_all;
+static volatile lx_u32 inval_w, inval_r;        /* written, read */
+static volatile lx_u32 inval_all_w, inval_all_r;  /* "flush everything" asked, done */
 static lx_u8 code_mb[4096 / 8];         /* the megabytes of address space with translated code */
 
 int dbt_available(void) { return ready; }
@@ -139,11 +147,18 @@ int dbt_block_of(lx_u32 h, lx_u32 *gpc, lx_u32 *host)
 
 static void do_invalidations(void)
 {
-	int i, b, k;
-	if (inval_all) { inval_all = 0; inval_n = 0; flush(); return; }
-	if (!inval_n) return;
-	for (k = 0; k < inval_n; k++) {
-		lx_u32 lo = inval_lo[k], hi = inval_hi[k];
+	int i, b;
+	lx_u32 w;
+	if (inval_all_r != inval_all_w) {
+		/* (everything: what is in the ring too) */
+		inval_all_r = inval_all_w;
+		inval_r = inval_w;
+		flush();
+		return;
+	}
+	w = inval_w;
+	for (; inval_r != w; inval_r++) {
+		lx_u32 lo = inval_lo[inval_r % NINVAL], hi = inval_hi[inval_r % NINVAL];
 		for (i = 0; i < (int)DBT_HASH_SIZE; i++)
 			if (hash_tab[2 * i] >= lo && hash_tab[2 * i] < hi) hash_tab[2 * i] = DBT_EMPTY;
 		for (b = 0; b < nblocks; b++)
@@ -156,7 +171,6 @@ static void do_invalidations(void)
 				blocks[b].gpc = DBT_EMPTY;
 			}
 	}
-	inval_n = 0;
 }
 
 /* (the kernel thread) */
@@ -167,10 +181,10 @@ void dbt_invalidate(lx_u32 lo, lx_u32 hi)
 	for (mb = lo >> 20; mb <= (hi - 1) >> 20; mb++)
 		if (code_mb[mb >> 3] & (1 << (mb & 7))) break;
 	if (mb > (hi - 1) >> 20) return;        /* (no code was translated there) */
-	if (inval_n >= NINVAL) { inval_all = 1; return; }
-	inval_lo[inval_n] = lo;
-	inval_hi[inval_n] = hi;
-	inval_n++;
+	if (inval_w - inval_r >= NINVAL) { inval_all_w++; return; }
+	inval_lo[inval_w % NINVAL] = lo;
+	inval_hi[inval_w % NINVAL] = hi;
+	inval_w++;                              /* (after the range is in place) */
 }
 
 /* ---- emitting ARM code --------------------------------------------------------- */

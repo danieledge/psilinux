@@ -44,6 +44,10 @@ static TBool gLogOpen;
 static TUint gLastBeat, gBeatTicks;
 static TUint32 gFaultPc, gFaultInsn, gFaultWhy;   // an unfixed alignment fault (the kernel thread logs it)
 static TUint32 gFaultIdx, gFaultSp, gFaultW[20];
+static TThreadId gKernelId;      // (0.29) the kernel thread's id (bk_log, faults)
+static TBool gKernelIdSet;
+static void Fail(const char* aWhy);
+static void OpenLog(const char* aRoot);
 
 // (ER5 has no User::AllocZ)
 static TAny* AllocZ(TInt aSize)
@@ -252,8 +256,116 @@ static lx_thread* CurrentDbt()
 	return 0;
 	}
 
+// (0.29) A fault in the kernel thread itself (the runner's "Main"). Before
+// 0.29 it had no handler: EPOC ended the runner with KERN-EXEC 3 and nothing
+// was logged. Now it says where (the registers from EUSER's frame, the words
+// on its stack, the instruction and the address it used, and what the
+// kernel was doing), tells the app, and waits for the app to end the runner
+// (so there is no "Program closed" dialog). The runner's own pc maps to
+// build/lxrun-obj/psilxrun.map through the address of E32Main logged with it.
+GLDEF_C TInt E32Main();
+static TUint32 AccessAddress(const TUint32* aR, TUint32 aInsn)
+	{
+	// the address a load or store used, from its base register (0: not one)
+	TUint32 rn = aR[(aInsn >> 16) & 15];
+	TUint32 up = aInsn & (1u << 23), pre = aInsn & (1u << 24);
+	if ((aInsn & 0x0C000000u) == 0x04000000u)        // LDR/STR (immediate or register offset)
+		{
+		TUint32 off = (aInsn & (1u << 25)) ? aR[aInsn & 15] : (aInsn & 0xFFF);   // (a shifted register: unshifted)
+		return pre ? (up ? rn + off : rn - off) : rn;
+		}
+	if ((aInsn & 0x0E000090u) == 0x00000090u && (aInsn & 0x60))   // LDRH/STRH/LDRSB/LDRSH
+		{
+		TUint32 off = (aInsn & (1u << 22)) ? (((aInsn >> 4) & 0xF0) | (aInsn & 15)) : aR[aInsn & 15];
+		return pre ? (up ? rn + off : rn - off) : rn;
+		}
+	if ((aInsn & 0x0E000000u) == 0x08000000u)        // LDM/STM
+		return rn;
+	return 0;
+	}
+
+static void KernelFault(TExcType aType, TUint32* aEntrySp)
+	{
+	static TInt inFault;
+	if (inFault++)
+		{
+		// (a fault while reporting one: the stack dump, last, read too far)
+		if (inFault == 2)
+			Fail("The Linux runner failed (an exception in its kernel thread); PsiLinux.log has the detail");
+		for (;;)
+			User::WaitForAnyRequest();
+		}
+	TUint32 r[16];
+	Mem::FillZ(r, sizeof r);
+	TUint32* s = aEntrySp + 2;
+	TBool found = EFalse;
+	for (TInt i = 0; i < 24 && !found; i++)
+		{
+		TUint32 w = s[i];
+		if (w < 0x50000000 || w >= 0x51000000 || (w & 3))
+			continue;
+		if (((TUint32*)w)[0] != 0xE8BD5FF8 || ((TUint32*)w)[1] != 0xE8BD8007)
+			continue;
+		TUint32* f = s + i + 1;              // r3..r12, lr, r0, r1, r2, pc
+		r[0] = f[11]; r[1] = f[12]; r[2] = f[13];
+		for (TInt k = 3; k <= 12; k++)
+			r[k] = f[k - 3];
+		r[13] = (TUint32)(f + 15);
+		r[14] = f[10];
+		r[15] = f[14];
+		found = ETrue;
+		}
+	if (!gLogOpen && gSh)
+		OpenLog(gSh->root);                  // (even without Tools > Keep a log)
+	TUint32 code = (TUint32)&E32Main;
+	TUint32 insn = 0, addr = 0;
+	// (the instruction, if pc is in the runner's code or the ROM)
+	if (found && !(r[15] & 3) && ((r[15] >= (code & 0xFFF00000u) && r[15] < code + 0x100000) || (r[15] >= 0x50000000 && r[15] < 0x51000000)))
+		{
+		insn = *(TUint32*)r[15];
+		addr = AccessAddress(r, insn);
+		}
+	bk_log("the kernel thread faulted: exception %d at pc %x (instruction %08x, address %x), lr %x, sp %x; E32Main is at %x (psilxrun.map)",
+		aType, r[15], insn, addr, r[14], r[13], code);
+	if (found)
+		{
+		bk_log("  r0 %08x r1 %08x r2 %08x r3 %08x r4 %08x r5 %08x r6 %08x r7 %08x", r[0], r[1], r[2], r[3], r[4], r[5], r[6], r[7]);
+		bk_log("  r8 %08x r9 %08x r10 %08x r11 %08x r12 %08x", r[8], r[9], r[10], r[11], r[12]);
+		}
+	else
+		bk_log("  (no EUSER frame found near %x)", (TUint32)aEntrySp);
+	static const char* const what[] = { "nothing", "a system call", "the timer", "a thread's death" };
+	TInt wi = (lx_k_now_what >= 0 && lx_k_now_what <= 3) ? lx_k_now_what : 0;
+	lx_thread* ct = lx_cpu.cur;
+	bk_log("  doing: %s (tid %d); translated thread holding the CPU: %d (critical %d); %u blocks, %u flushes",
+		what[wi], lx_k_now_tid, ct ? ct->tid : 0, lx_cpu.critical, lx_cpu.translations, lx_cpu.flushes);
+	for (TUint n = 0; n < LX_TRAIL && n < lx_k_trail_n; n++)
+		{
+		volatile lx_u32* tr = lx_k_trail[(lx_k_trail_n - 1 - n) % LX_TRAIL];
+		bk_log("  call -%u: tid %u pid %u: %u(%x)", n, tr[0], tr[1], tr[2], tr[3]);
+		}
+	if (found && !(r[13] & 3))
+		{
+		// the stack above the fault: the return addresses of its callers are
+		// among these (last: it may run past the stack's top)
+		TUint32* sp = (TUint32*)r[13];
+		for (TInt q = 0; q < 32; q += 8)
+			bk_log("  sp+%d: %08x %08x %08x %08x %08x %08x %08x %08x", q * 4, sp[q], sp[q + 1], sp[q + 2], sp[q + 3], sp[q + 4], sp[q + 5], sp[q + 6], sp[q + 7]);
+		}
+	char why[150];
+	lx_snprintf(why, sizeof why, "The Linux runner failed: exception %d at %x (lr %x) in %s; PsiLinux.log has the detail",
+		aType, r[15], r[14], what[wi]);
+	inFault = 3;                             // (from here a fault is not told twice)
+	Fail(why);
+	// the app sees the state and ends the runner
+	for (;;)
+		User::WaitForAnyRequest();
+	}
+
 extern "C" void LxExcHandlerC(TExcType aType, TUint32* aEntrySp)
 	{
+	if (gKernelIdSet && RThread().Id() == gKernelId)
+		KernelFault(aType, aEntrySp);        // (never returns)
 	lx_thread* t = CurrentDbt();
 	gFaultWhy = 0;
 	if (t && aType == EExcAlignment && !lx_cpu.critical && FixAlignment(aEntrySp))
@@ -604,6 +716,33 @@ extern "C" void bk_wake_at(lx_s64 mono)
 
 // ---- logging -------------------------------------------------------------------
 
+// (0.29) Lines from a Linux thread (the translator's runtime runs on them)
+// wait here for the kernel thread: the log file belongs to its file server
+// session, which EPOC lets no other thread use. One writer at a time (the
+// thread holding the CPU), and one reader (the kernel thread).
+const TInt KPendLog = 2048;
+static char gPend[KPendLog];
+static volatile TUint gPendW, gPendR;
+static void LogWrite(const char* aBuf, TInt aLen);
+static void LogPending()
+	{
+	TUint w = gPendW;
+	while (gPendR != w)
+		{
+		char line[300];
+		TInt n = 0;
+		while (gPendR != w && n < (TInt)sizeof line)
+			{
+			char c = gPend[gPendR % KPendLog];
+			line[n++] = c;
+			gPendR++;
+			if (c == '\n')
+				break;
+			}
+		LogWrite(line, n);
+		}
+	}
+
 extern "C" void bk_log(const char* fmt, ...)
 	{
 	char buf[300];
@@ -614,6 +753,22 @@ extern "C" void bk_log(const char* fmt, ...)
 	if (n > (int)sizeof buf - 3) n = sizeof buf - 3;
 	buf[n++] = '\r';
 	buf[n++] = '\n';
+	if (gKernelIdSet && RThread().Id() != gKernelId)
+		{
+		if (gLogOpen && KPendLog - (gPendW - gPendR) > (TUint)n)
+			{
+			for (TInt i = 0; i < n; i++)
+				gPend[(gPendW + i) % KPendLog] = buf[i];
+			gPendW += n;                     // (after the line is in place)
+			}
+		return;
+		}
+	LogPending();
+	LogWrite(buf, n);
+	}
+
+static void LogWrite(const char* buf, TInt n)
+	{
 	if (gLogOpen)
 		{
 		TInt size = 0;
@@ -803,9 +958,24 @@ void CLxTerm::FbInput()
 		}
 	}
 
+static TInt gKFaultAt;           // (testing: <root>\KFAULT makes the kernel thread fault at 20 s)
 void CLxTerm::Housekeeping()
 	{
 	TInt i;
+	LogPending();
+	if (gKFaultAt && (bk_now_mono() - lx_k.start_mono) / 1000000 >= gKFaultAt)
+		{
+		static TUint32 words[2];
+		gKFaultAt = 0;
+		if (!gLogOpen)
+			OpenLog(gSh->root);
+		bk_log("KFAULT: an unaligned load in the kernel thread, as a test");
+		volatile TUint32* p = (volatile TUint32*)((TUint8*)words + 1);
+		words[0] = *p;
+		bk_log("KFAULT: no alignment fault (%08x); a store to address 4", words[0]);
+		*(volatile TUint32*)4 = 0;
+		bk_log("KFAULT: no fault at all");
+		}
 	for (i = 0; i < LX_MAXTHREAD; i++)
 		{
 		lx_thread* t = &lx_k.threads[i];
@@ -1138,6 +1308,10 @@ static void RunL()
 	CleanupStack::PushL(as);
 	CActiveScheduler::Install(as);
 	User::LeaveIfError(gKernel.Duplicate(RThread(), EOwnerProcess));
+	gKernelId = RThread().Id();
+	gKernelIdSet = ETrue;
+	// (0.29) its own faults are logged (KernelFault)
+	RThread().SetExceptionHandler(lx_exc_entry, KExceptionAbort | KExceptionFault | KExceptionInteger);
 	User::LeaveIfError(gFs.Connect());
 	User::LeaveIfError(gShChunk.OpenGlobal(_L(LX_SHARED_NAME), EFalse));
 	gSh = (LxShared*)gShChunk.Base();
@@ -1171,6 +1345,10 @@ static void RunL()
 		t.Append(_L("NOCACHE"));
 		if (gFs.Entry(t, e) == KErrNone)
 			lx_k.no_cache = 1;
+		Name(t, gSh->root);
+		t.Append(_L("KFAULT"));
+		if (gFs.Entry(t, e) == KErrNone)
+			gKFaultAt = 20;
 	}
 	{
 		lx_u32 ents = 0, bytes = 0;

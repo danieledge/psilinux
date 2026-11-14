@@ -591,10 +591,31 @@ void lx_k_event(void)
 	if (!retrying && !in_call) lx_retry_parked();
 }
 
+volatile lx_u32 lx_k_trail[LX_TRAIL][4];
+volatile lx_u32 lx_k_trail_n;
+volatile int lx_k_now_tid, lx_k_now_what;
+
+static void syscall_body(lx_thread *t);
+
 void lx_k_syscall(lx_thread *t)
 {
+	volatile lx_u32 *tr;
 	if (!t->frame) return;
 	t->nr = t->dbt_kcall ? (lx_u32)t->dbt_kcall : t->frame[7];
+	tr = lx_k_trail[lx_k_trail_n++ % LX_TRAIL];
+	tr[0] = (lx_u32)t->tid;
+	tr[1] = t->proc ? (lx_u32)t->proc->pid : 0;
+	tr[2] = t->nr;
+	tr[3] = t->frame[0];
+	lx_k_now_tid = t->tid;
+	lx_k_now_what = 1;
+	syscall_body(t);
+	lx_k_now_tid = 0;
+	lx_k_now_what = 0;
+}
+
+static void syscall_body(lx_thread *t)
+{
 	if (t->dbt && t->proc && t->proc->exit_pending) {
 		/* it was to end while it was in the translator (lx_proc_exit) */
 		int st = t->proc->exit_pending - 1;
@@ -619,6 +640,8 @@ void lx_k_timer(void)
 {
 	lx_s64 now = lx_now();
 	int i;
+	lx_k_now_what = 2;
+	lx_k_now_tid = 0;
 	if (lx_cpu.cur && cpu_waiters() && now - lx_cpu.cur->slice_start >= CPU_SLICE) lx_cpu.yield = 1;
 	for (i = 0; i < LX_MAXPROC; i++) {
 		lx_proc *p = &lx_k.procs[i];
@@ -1285,6 +1308,8 @@ void lx_k_thread_died(lx_thread *t, int reason)
 {
 	lx_proc *p = t->proc;
 	int lent = t->borrow != 0;
+	lx_k_now_what = 3;
+	lx_k_now_tid = t->tid;
 	if (t->state == LX_T_FREE) return;
 	if (t->dbt) { t->cpu_wait = 0; cpu_drop(t); }
 	if (reason && t->state != LX_T_DEAD && p && p->state == LX_P_ALIVE) {

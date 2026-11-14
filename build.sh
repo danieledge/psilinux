@@ -82,6 +82,9 @@ if [ "$1" = sis ]; then
 	cp "$HERE/runtime/softfloat/COPYING.txt" "$P/softfloat-licence.txt"     # (the translator's VFP)
 	( cd "$P" && wine "$EPOCROOT/epoc32/tools/makesis.exe" psilinux.pkg "$TOP/dist/PsiLinux.sis" > /dev/null )
 	ls -la "$TOP/dist/PsiLinux.sis"
+	# (0.29) the runner's link map, to name the functions in a fault report
+	# in PsiLinux.log (tools/lxpc.py): keep it with the .sis it came with
+	cp "$TOP/build/lxrun-obj/psilxrun.map" "$TOP/dist/psilxrun.map"
 	# The roots, in parts (DECISIONS.md 54): the EPOC installer cannot open a
 	# very large .sis, whatever is in it, so each image goes in .sis files of at most 6 MB:
 	# NAME.sis (with ROOT.IMG), then NAME-2.sis, NAME-3.sis...

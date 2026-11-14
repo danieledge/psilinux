@@ -29,7 +29,7 @@
 #include <psilinux.rsg>
 
 const TUid KUidPsiLinux = { 0x01000A87 };
-_LIT(KLxVersion, "0.29");
+_LIT(KLxVersion, "0.30");
 _LIT(KIniFile, "C:\\System\\Apps\\PsiLinux\\PsiLinux.ini");
 
 // ---------------------------------------------------------------------------
@@ -205,7 +205,8 @@ void CLxAppUi::LoadSettings()
 	iSettings.iZoom = 1;
 	iSettings.iStatus = 1;
 	iSettings.iBlink = 1;
-	iSettings.iToolbar = 1;
+	iSettings.iStart = 1;      // (0.30) Alpine's shell only at first (Dan): Preferences > Start offers the others
+	iSettings.iToolbar = 0;    // (0.30) the toolbar hidden at first (Dan): Shift+Ctrl+B shows it
 	// (0.29) a colour screen starts in PsiTerm's colour default (Clean); a
 	// saved choice stays
 	if (iEikonEnv->ScreenDevice()->DisplayMode() >= EColor16)

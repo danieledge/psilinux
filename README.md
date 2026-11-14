@@ -377,7 +377,7 @@ Linux (Shift+Ctrl+N) runs:
 - **Alpine Linux** boots as Alpine does: BusyBox init, then OpenRC, then a
   root login to bash on the window. `poweroff` or File > End Linux ends it.
 - **Alpine Linux, shell only** goes straight to bash. It is quicker and
-  leaves more memory free.
+  leaves more memory free. It is the standard choice (0.30).
 - **PsiLinux** runs PsiLinux's own programs.
 
 If Alpine is chosen but its root is not installed, PsiLinux says so and starts

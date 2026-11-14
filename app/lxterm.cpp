@@ -289,7 +289,12 @@ void CLxTermView::ReleaseFont()
 void CLxTermView::ConstructL(const TRect& aRect, TLxSettings& aSettings)
 	{
 	iSettings = &aSettings;
-	CreateBackedUpWindowL(iCoeEnv->RootWin(), EGray16);
+	// (0.27) The window takes the screen's own mode, as PsiTerm's: 16 greys
+	// on the 5mx, 256 colours on the netBook and Series 7. A grey window on a
+	// colour screen shows no colour, and costs a conversion of every pixel.
+	TDisplayMode mode = iCoeEnv->ScreenDevice()->DisplayMode();
+	iColour = (mode >= EColor16);
+	CreateBackedUpWindowL(iCoeEnv->RootWin(), iColour ? mode : EGray16);
 	SetRectL(aRect);
 	EnableDragEvents();
 	iVt = vterm_new(24, 80);
@@ -621,9 +626,28 @@ int CLxTermView::CbPushLine(int aCols, const VTermScreenCell* aCells, void* aUse
 		self->CellColours(c, fg, bg);
 		TUint ch = c.chars[0];
 		line[i].iCh = (ch == (TUint)-1 || ch > 0xFFFF) ? 0xFFFF : (unsigned short)ch;
-		line[i].iGrey = (unsigned char)((fg << 4) | bg);
-		line[i].iFlags = (unsigned char)((c.attrs.bold ? KSbBold : 0) | (c.attrs.underline ? KSbUnderline : 0)
-			| (c.attrs.strike ? KSbStrike : 0) | (c.width > 1 ? KSbWide : 0));
+		TUint flags = (c.attrs.bold ? KSbBold : 0) | (c.attrs.underline ? KSbUnderline : 0)
+			| (c.attrs.strike ? KSbStrike : 0) | (c.width > 1 ? KSbWide : 0);
+		if (self->iColour)
+			{
+			// (as PsiTerm) the theme's colours as flags, so that a theme
+			// change re-colours the history: then 0 is the usual one (text
+			// for iFg, paper for iBg) and 1 the other (reverse video)
+			flags |= KSbColour;
+			if (fg >= KLxColDefFg)
+				{
+				flags |= KSbDefFg;
+				fg = (fg == KLxColDefFg) ? 0 : 1;
+				}
+			if (bg >= KLxColDefFg)
+				{
+				flags |= KSbDefBg;
+				bg = (bg == KLxColDefBg) ? 0 : 1;
+				}
+			}
+		line[i].iFg = (unsigned char)fg;
+		line[i].iBg = (unsigned char)bg;
+		line[i].iFlags = (unsigned char)flags;
 		}
 	SbPush(&self->iSb, line, aCols);
 	self->iLinesPushed++;
@@ -841,13 +865,13 @@ void CLxTermView::DrawCells(CWindowGc& aGc, TInt aRow0, TInt aCol0, TInt aRow1, 
 			aGc.SetBrushStyle(CGraphicsContext::ESolidBrush);
 			TInt tf, tb;
 			ThemePair(fg, bg, tf, tb);
-			aGc.SetBrushColor(TRgb::Gray16(tb));
+			aGc.SetBrushColor(Ink(tb));
 			aGc.DrawRect(TRect(x0, y0, x1, y0 + iCellH));
 			if (!ink && !ul && !st)
 				continue;
 			aGc.SetBrushStyle(CGraphicsContext::ENullBrush);
 			aGc.SetPenStyle(CGraphicsContext::ESolidPen);
-			aGc.SetPenColor(TRgb::Gray16(tf));
+			aGc.SetPenColor(Ink(tf));
 			if (ink)
 				{
 				TPoint base(x0, y0 + iAscent);
@@ -916,16 +940,20 @@ TBool CLxTermView::GetLook(TInt aRow, TInt aCol, TLook& aLook) const
 			const TSbCell& c = sb[aCol];
 			aLook.iCh = (c.iCh == 0xFFFF) ? (TUint)-1 : c.iCh;
 			aLook.iWidth = (c.iFlags & KSbWide) ? 2 : 1;
-			aLook.iFg = c.iGrey >> 4;
-			aLook.iBg = c.iGrey & 0x0f;
+			aLook.iFg = c.iFg;
+			aLook.iBg = c.iBg;
+			if (c.iFlags & KSbDefFg)
+				aLook.iFg = c.iFg ? KLxColDefBg : KLxColDefFg;
+			if (c.iFlags & KSbDefBg)
+				aLook.iBg = c.iBg ? KLxColDefFg : KLxColDefBg;
 			aLook.iFlags = c.iFlags & (KSbBold | KSbUnderline | KSbStrike);
 			}
 		else
 			{
 			aLook.iCh = 0;
 			aLook.iWidth = 1;
-			aLook.iFg = 0;
-			aLook.iBg = 15;
+			aLook.iFg = iColour ? KLxColDefFg : 0;
+			aLook.iBg = iColour ? KLxColDefBg : 15;
 			aLook.iFlags = 0;
 			}
 		}
@@ -940,7 +968,7 @@ TBool CLxTermView::GetLook(TInt aRow, TInt aCol, TLook& aLook) const
 			aLook.iBg = t;
 			TInt d = aLook.iFg - aLook.iBg;
 			if (d < 0) d = -d;
-			if (d < 6)
+			if (!iColour && d < 6)
 				{
 				aLook.iBg = 0;
 				aLook.iFg = 15;
@@ -985,8 +1013,99 @@ static TInt GreyOf(const VTermScreen* aScreen, VTermColor aCol)
 	return (TInt)((x * 9869u) >> 24);
 	}
 
+// ----- colour screens (the netBook and Series 7: 256 colours) ----------------
+// PsiTerm 0.99's colour terminal (app/psiterm.cpp there), as close to it as
+// possible so that fixes carry over. Cells hold xterm colour numbers 0..255,
+// or KLxColDefFg/KLxColDefBg for the theme's own text and paper; the theme
+// is applied only when drawing (ThemePair).
+
+// xterm's 16 standard colours
+static const TUint8 KAnsiRgb[16][3] = {
+	{ 0, 0, 0 }, { 205, 0, 0 }, { 0, 205, 0 }, { 205, 205, 0 }, { 0, 0, 238 }, { 205, 0, 205 },
+	{ 0, 205, 205 }, { 229, 229, 229 }, { 127, 127, 127 }, { 255, 0, 0 }, { 0, 255, 0 },
+	{ 255, 255, 0 }, { 92, 92, 255 }, { 255, 0, 255 }, { 0, 255, 255 }, { 255, 255, 255 } };
+
+static TInt XtermRgb(TInt aIdx)
+	{
+	if (aIdx < 16)
+		return (KAnsiRgb[aIdx][0] << 16) | (KAnsiRgb[aIdx][1] << 8) | KAnsiRgb[aIdx][2];
+	if (aIdx < 232)
+		{
+		TInt i = aIdx - 16;
+		TInt r = i / 36, g = (i / 6) % 6, b = i % 6;
+		r = r ? 55 + r * 40 : 0;
+		g = g ? 55 + g * 40 : 0;
+		b = b ? 55 + b * 40 : 0;
+		return (r << 16) | (g << 8) | b;
+		}
+	TInt v = 8 + (aIdx - 232) * 10;
+	return (v << 16) | (v << 8) | v;
+	}
+
+// the xterm colour nearest an RGB one: from the 6x6x6 cube or the greys
+static TInt CubeStep(TInt aV) { return aV < 48 ? 0 : aV < 115 ? 1 : (aV - 35) / 40; }
+static TInt NearestXterm(TInt aR, TInt aG, TInt aB)
+	{
+	TInt qr = CubeStep(aR), qg = CubeStep(aG), qb = CubeStep(aB);
+	TInt cr = qr ? 55 + qr * 40 : 0, cg = qg ? 55 + qg * 40 : 0, cb = qb ? 55 + qb * 40 : 0;
+	TInt avg = (aR + aG + aB) / 3;
+	TInt gi = avg > 238 ? 23 : (avg < 8 ? 0 : (avg - 3) / 10);
+	if (gi > 23) gi = 23;
+	TInt gv = 8 + gi * 10;
+	TInt dc = (aR - cr) * (aR - cr) + (aG - cg) * (aG - cg) + (aB - cb) * (aB - cb);
+	TInt dg = (aR - gv) * (aR - gv) + (aG - gv) * (aG - gv) + (aB - gv) * (aB - gv);
+	return dg < dc ? 232 + gi : 16 + qr * 36 + qg * 6 + qb;
+	}
+
+static TInt RgbLum(TInt aRgb)
+	{
+	return (((aRgb >> 16) & 255) * 77 + ((aRgb >> 8) & 255) * 150 + (aRgb & 255) * 29) >> 8;
+	}
+
+// a VTermColor as a cell's colour code (colour screens)
+static TInt ColourCode(const VTermScreen* aScreen, const VTermColor& aCol, TBool aFg)
+	{
+	if (aFg ? VTERM_COLOR_IS_DEFAULT_FG(&aCol) : VTERM_COLOR_IS_DEFAULT_BG(&aCol))
+		return aFg ? KLxColDefFg : KLxColDefBg;
+	if (VTERM_COLOR_IS_INDEXED(&aCol))
+		return aCol.indexed.idx;
+	VTermColor c = aCol;
+	vterm_screen_convert_color_to_rgb(aScreen, &c);
+	return NearestXterm(c.rgb.red, c.rgb.green, c.rgb.blue);
+	}
+
+// The themes on a colour screen, PsiTerm's first four in Preferences'
+// order: Classic (black on white, as the netBook's own programs), Light on
+// dark (light grey on black, what most terminal colours are made for), High
+// contrast (ThemePair makes it black and white) and Soft (dark grey on light
+// grey). Colours 0..255 are xterm's in each.
+TInt CLxTermView::ColourRgb(TInt aCode) const
+	{
+	if (aCode == KLxColDefFg || aCode == KLxColDefBg)
+		{
+		TBool paper = (aCode == KLxColDefBg);
+		switch (iSettings->iTheme)
+			{
+		case 1: return paper ? 0x000000 : 0xE5E5E5;
+		case 3: return paper ? 0xEEEEEE : 0x333333;
+		default: return paper ? 0xFFFFFF : 0x000000;
+			}
+		}
+	return XtermRgb(aCode & 255);
+	}
+
 void CLxTermView::CellColours(const VTermScreenCell& aCell, TInt& aFg, TInt& aBg) const
 	{
+	if (iColour)
+		{
+		aFg = ColourCode(iScreen, aCell.fg, ETrue);
+		aBg = ColourCode(iScreen, aCell.bg, EFalse);
+		if (aCell.attrs.reverse)
+			{
+			TInt t = aFg; aFg = aBg; aBg = t;
+			}
+		return;
+		}
 	TInt fg = 0;
 	TInt bg = 15;
 	TBool fgDefault = VTERM_COLOR_IS_DEFAULT_FG(&aCell.fg);
@@ -1026,12 +1145,12 @@ void CLxTermView::DrawOneCell(CWindowGc& aGc, TInt aRow, TInt aCol, const TLook&
 	aGc.SetBrushStyle(CGraphicsContext::ESolidBrush);
 	TInt tf, tb;
 	ThemePair(fg, bg, tf, tb);
-	aGc.SetBrushColor(TRgb::Gray16(tb));
+	aGc.SetBrushColor(Ink(tb));
 	aGc.DrawRect(box);
 	TUint ch = aLook.iCh;
 	if (IsBlankChar(ch))
 		return;
-	TRgb fgRgb = TRgb::Gray16(tf);
+	TRgb fgRgb = Ink(tf);
 	TInt seg = PsiBoxSegments(ch);
 	if (seg > 0)
 		{
@@ -1073,15 +1192,16 @@ void CLxTermView::DrawOneCell(CWindowGc& aGc, TInt aRow, TInt aCol, const TLook&
 		{
 		TRect r = box;
 		TInt level = fg;
+		TInt mix = 4;                         // quarters of the text colour (4: all of it)
 		switch (ch)
 			{
 		case 0x2580: r.iBr.iY = box.iTl.iY + iCellH / 2; break;
 		case 0x2584: r.iTl.iY = box.iTl.iY + iCellH / 2; break;
 		case 0x258C: r.iBr.iX = box.iTl.iX + iCellW / 2; break;
 		case 0x2590: r.iTl.iX = box.iTl.iX + iCellW / 2; break;
-		case 0x2591: level = (fg * 1 + bg * 3) / 4; break;
-		case 0x2592: level = (fg + bg) / 2; break;
-		case 0x2593: level = (fg * 3 + bg * 1) / 4; break;
+		case 0x2591: level = (fg * 1 + bg * 3) / 4; mix = 1; break;
+		case 0x2592: level = (fg + bg) / 2; mix = 2; break;
+		case 0x2593: level = (fg * 3 + bg * 1) / 4; mix = 3; break;
 		case 0x2594: r.iBr.iY = box.iTl.iY + (iCellH + 7) / 8; break;
 		case 0x2595: r.iTl.iX = box.iBr.iX - (iCellW + 7) / 8; break;
 		default:
@@ -1090,7 +1210,7 @@ void CLxTermView::DrawOneCell(CWindowGc& aGc, TInt aRow, TInt aCol, const TLook&
 				static const TUint8 KQuad[10] = { 4, 8, 1, 13, 9, 7, 11, 2, 6, 14 };
 				TInt q = KQuad[ch - 0x2596];
 				TInt mx = box.iTl.iX + iCellW / 2, my = box.iTl.iY + iCellH / 2;
-				aGc.SetBrushColor(Grey(level));
+				aGc.SetBrushColor(iColour ? fgRgb : Grey(level));
 				if (q & 1) aGc.DrawRect(TRect(box.iTl.iX, box.iTl.iY, mx, my));
 				if (q & 2) aGc.DrawRect(TRect(mx, box.iTl.iY, box.iBr.iX, my));
 				if (q & 4) aGc.DrawRect(TRect(box.iTl.iX, my, mx, box.iBr.iY));
@@ -1103,7 +1223,16 @@ void CLxTermView::DrawOneCell(CWindowGc& aGc, TInt aRow, TInt aCol, const TLook&
 				r.iBr.iX = box.iTl.iX + (iCellW * (TInt)(0x2590 - ch)) / 8;
 			break;
 			}
-		aGc.SetBrushColor(Grey(level));
+		if (iColour)
+			{
+			// a shade: the text colour mixed with the paper's
+			TInt r0 = (tf >> 16) & 255, g0 = (tf >> 8) & 255, b0 = tf & 255;
+			TInt r1 = (tb >> 16) & 255, g1 = (tb >> 8) & 255, b1 = tb & 255;
+			aGc.SetBrushColor(TRgb((r0 * mix + r1 * (4 - mix)) / 4, (g0 * mix + g1 * (4 - mix)) / 4,
+				(b0 * mix + b1 * (4 - mix)) / 4));
+			}
+		else
+			aGc.SetBrushColor(Grey(level));
 		aGc.DrawRect(r);
 		return;
 		}
@@ -1158,8 +1287,86 @@ TInt CLxTermView::Theme(TInt aGrey) const
 		}
 	}
 
+// a grey 0 (the text) .. 15 (the paper) as drawn: on a colour screen, a
+// mix of the theme's text and paper colours
+TRgb CLxTermView::Grey(TInt aGrey) const
+	{
+	if (!iColour)
+		return TRgb::Gray16(Theme(aGrey));
+	if (aGrey < 0) aGrey = 0;
+	if (aGrey > 15) aGrey = 15;
+	TInt ink = ColourRgb(KLxColDefFg), paper = ColourRgb(KLxColDefBg);
+	if (iSettings->iTheme == 2)
+		{
+		ink = 0x000000;
+		paper = 0xFFFFFF;
+		}
+	TInt rgb[3];
+	for (TInt i = 0; i < 3; i++)
+		{
+		TInt a = (ink >> (16 - 8 * i)) & 255, b = (paper >> (16 - 8 * i)) & 255;
+		rgb[i] = a + (b - a) * aGrey / 15;
+		}
+	return TRgb(rgb[0], rgb[1], rgb[2]);
+	}
+
+// Text and paper together. Greys: in high contrast the darker of the two
+// becomes black and the other white, so text can never vanish. Colours
+// (0xRRGGBB out): coloured text too close to its paper is made darker or
+// lighter, keeping its hue (yellow on white, dark blue on black).
 void CLxTermView::ThemePair(TInt aFg, TInt aBg, TInt& aThemedFg, TInt& aThemedBg) const
 	{
+	if (iColour)
+		{
+		TInt f = ColourRgb(aFg), b = ColourRgb(aBg);
+		TInt lf = RgbLum(f), lb = RgbLum(b);
+		if (iSettings->iTheme == 2)                   // high contrast: black and white
+			{
+			if (f != b)
+				{
+				TBool darkText = lf < lb || (lf == lb && aFg == KLxColDefFg);
+				f = darkText ? 0x000000 : 0xFFFFFF;
+				b = darkText ? 0xFFFFFF : 0x000000;
+				}
+			}
+		else if (f != b && (aFg != KLxColDefFg || aBg != KLxColDefBg))
+			{
+			const TInt KMinDiff = 80;
+			TInt diff = lf - lb;
+			if (diff < 0) diff = -diff;
+			if (diff < KMinDiff)
+				{
+				TInt r = (f >> 16) & 255, g = (f >> 8) & 255, bl = f & 255;
+				if (lb >= 128)
+					{
+					TInt want = lb - KMinDiff;
+					if (lf > 0)
+						{
+						r = r * want / lf; g = g * want / lf; bl = bl * want / lf;
+						}
+					}
+				else
+					{
+					TInt want = lb + KMinDiff;          // mixed with white up to it
+					if (lf < 255)
+						{
+						TInt t = (want - lf) * 256 / (255 - lf);
+						r += ((255 - r) * t) >> 8; g += ((255 - g) * t) >> 8; bl += ((255 - bl) * t) >> 8;
+						}
+					}
+				if (r < 0) r = 0;
+				if (g < 0) g = 0;
+				if (bl < 0) bl = 0;
+				if (r > 255) r = 255;
+				if (g > 255) g = 255;
+				if (bl > 255) bl = 255;
+				f = (r << 16) | (g << 8) | bl;
+				}
+			}
+		aThemedFg = f;
+		aThemedBg = b;
+		return;
+		}
 	if (iSettings->iTheme == 2 && aFg != aBg)
 		{
 		aThemedFg = aFg < aBg ? 0 : 15;
@@ -1183,6 +1390,29 @@ void CLxTermView::DrawCursor(CWindowGc& aGc) const
 		box.iTl.iY = box.iBr.iY - (iCellH >= 12 ? 2 : 1) - iCellH / 12;
 	else if (iSettings->iCursor == 2)
 		box.iBr.iX = box.iTl.iX + 2;
+	if (iColour)
+		{
+		// (inverting a 256-colour screen gives a random colour) the cell in
+		// reverse for a block, a bar or line in the text colour otherwise
+		TLook look;
+		if (!GetLook(iCurRow, iCurCol, look))
+			return;
+		if (iSettings->iCursor == 0)
+			{
+			TLook rev = look;
+			rev.iFg = look.iBg;
+			rev.iBg = look.iFg;
+			DrawOneCell(aGc, iCurRow, iCurCol, rev);
+			return;
+			}
+		TInt tf, tb;
+		ThemePair(look.iFg, look.iBg, tf, tb);
+		aGc.SetPenStyle(CGraphicsContext::ENullPen);
+		aGc.SetBrushStyle(CGraphicsContext::ESolidBrush);
+		aGc.SetBrushColor(Ink(tf));
+		aGc.DrawRect(box);
+		return;
+		}
 	aGc.SetPenStyle(CGraphicsContext::ENullPen);
 	aGc.SetBrushStyle(CGraphicsContext::ESolidBrush);
 	aGc.SetDrawMode(CGraphicsContext::EDrawModeNOTSCREEN);
@@ -1238,12 +1468,12 @@ void CLxTermView::DrawStatus(CWindowGc& aGc) const
 	TRect bar(Rect().iTl.iX, Rect().iBr.iY - iStatusH, Rect().iBr.iX, Rect().iBr.iY);
 	aGc.SetPenStyle(CGraphicsContext::ENullPen);
 	aGc.SetBrushStyle(CGraphicsContext::ESolidBrush);
-	aGc.SetBrushColor(Grey(4));
+	aGc.SetBrushColor(iColour ? TRgb(0, 0, 128) : Grey(4));     // (colour: navy, as PsiTerm's)
 	aGc.DrawRect(bar);
 	aGc.UseFont(font);
 	aGc.SetBrushStyle(CGraphicsContext::ENullBrush);
 	aGc.SetPenStyle(CGraphicsContext::ESolidPen);
-	aGc.SetPenColor(Grey(15));
+	aGc.SetPenColor(iColour ? KRgbWhite : Grey(15));
 	TInt y = bar.iTl.iY + 2 + font->AscentInPixels();
 	TPtrC left(text.Left(split));
 	TPtrC right(text.Mid(split));

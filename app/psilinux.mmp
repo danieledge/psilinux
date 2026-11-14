@@ -6,10 +6,7 @@ TARGETPATH    \system\apps\psilinux
 
 PROJECT       ptproj
 SUBPROJECT    psilinux
-SOURCE        psilinux.cpp lxterm.cpp lxglyphs.cpp lxhelp.cpp lxscreen.cpp
-SUBPROJECT    psilxterm
-SOURCE        termsb.cpp
-SUBPROJECT    psilinux
+SOURCE        psilinux.cpp lxterm.cpp lxglyphs.cpp lxhelp.cpp lxscreen.cpp lxtermsb.cpp
 RESOURCE      psilinux.rss
 
 USERINCLUDE   \ptproj\psilinux \ptproj\psilxterm \ptproj\psilxterm\vterm \ptproj\psilxssh \ptproj\psilxcommon

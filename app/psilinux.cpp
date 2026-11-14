@@ -28,7 +28,7 @@
 #include <psilinux.rsg>
 
 const TUid KUidPsiLinux = { 0x01000A87 };
-_LIT(KLxVersion, "0.26");
+_LIT(KLxVersion, "0.27");
 _LIT(KIniFile, "C:\\System\\Apps\\PsiLinux\\PsiLinux.ini");
 
 // ---------------------------------------------------------------------------
@@ -137,6 +137,10 @@ void CLxAppUi::LoadSettings()
 	iSettings.iStatus = 1;
 	iSettings.iBlink = 1;
 	iSettings.iToolbar = 1;
+	// (0.27) a colour screen starts in Light on dark, which most programs'
+	// colours are made for (as PsiTerm's Dark there); a saved choice stays
+	if (iEikonEnv->ScreenDevice()->DisplayMode() >= EColor16)
+		iSettings.iTheme = 1;
 	RFile f;
 	if (f.Open(iCoeEnv->FsSession(), KIniFile, EFileRead) == KErrNone)
 		{

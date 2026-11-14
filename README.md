@@ -60,8 +60,9 @@ memory free) are PsiLinux's own.
 
 ## What it is
 
-PsiLinux is a Psion app. It opens a terminal window (PsiTerm's: xterm-256color
-in 16 greys) and starts Linux in it. There are two kinds of Linux to start:
+PsiLinux is a Psion app. It opens a terminal window (PsiTerm's: xterm-256color,
+in 16 greys on the 5mx and in colour on the netBook and Series 7) and starts
+Linux in it. There are two kinds of Linux to start:
 
 - **PsiLinux's own programs.** BusyBox (its shell, vi and about 200 commands),
   nano, Lua, MicroPython, SQLite, jq, curl and git, compiled for the 5mx's
@@ -133,7 +134,7 @@ if a program makes a Linux system call. This is what made it work anyway:
 ```mermaid
 flowchart TB
   subgraph APP["PsiLinux.app (EIKON)"]
-    term["Terminal view: libvterm, 16 greys, menus, toolbar"]
+    term["Terminal view: libvterm, 16 greys or 256 colours, menus, toolbar"]
   end
   subgraph RUN["psilxrun.exe (the runner)"]
     kern["Kernel thread<br/>system calls, VFS, ttys, signals,<br/>processes, sockets, /proc"]
@@ -187,9 +188,11 @@ per folder. `/c` and `/d` are the Psion's disks as they are. `/proc` and
 
 **The terminal.** Each terminal is a Linux tty in the kernel: line editing,
 echo, signals from ^C, ^Z and ^\\, termios, the window size, the foreground
-process group. The window is PsiTerm's terminal: libvterm, xterm-256color
-with 256 colours mapped to 16 greys, history, pen selection and the
-clipboard.
+process group. The window is PsiTerm's terminal: libvterm, xterm-256color,
+history, pen selection and the clipboard. On the 5mx the 256 colours are
+mapped to 16 greys. On a colour screen (the netBook, the Series 7) they are
+shown as colours, as in PsiTerm 0.99 and later; 24-bit colour comes out as
+the nearest of the 256.
 
 **Networking.** TCP and UDP go through ESOCK, the Psion's own Internet
 connection (PPP over a dial-up modem, a phone, or a Wi-Fi modem that speaks

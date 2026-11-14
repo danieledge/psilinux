@@ -29,7 +29,7 @@ struct TLxSettings
 	{
 	TInt iVersion;           // 1
 	TInt iZoom;              // font size, 0..KLxZoomLevels-1
-	TInt iTheme;             // 0 classic, 1 inverted, 2 high contrast, 3 soft
+	TInt iTheme;             // 0 classic, 1 inverted, 2 high contrast, 3 soft (0.27: the same four on a colour screen)
 	TInt iCursor;            // 0 block, 1 underline, 2 bar
 	TInt iBlink;             // the cursor blinks
 	TInt iStatus;            // the status line is shown
@@ -45,6 +45,11 @@ struct TLxSettings
 const TInt KLxSpareLog = 0;
 
 const TInt KLxZoomLevels = 5;
+
+// (0.27) On a colour screen a cell's colours are xterm colours 0..255, or
+// these two for the theme's own text and paper colours (as PsiTerm 0.99)
+const TInt KLxColDefFg = 256;
+const TInt KLxColDefBg = 257;
 
 class CLxTermView;
 
@@ -157,7 +162,12 @@ private:
 	void CellColours(const VTermScreenCell& aCell, TInt& aFg, TInt& aBg) const;
 	TInt Theme(TInt aGrey) const;
 	void ThemePair(TInt aFg, TInt aBg, TInt& aThemedFg, TInt& aThemedBg) const;
-	TRgb Grey(TInt aGrey) const { return TRgb::Gray16(Theme(aGrey)); }
+	TRgb Grey(TInt aGrey) const;
+	// (0.27) a themed colour as drawn: a grey 0..15, or on a colour screen 0xRRGGBB
+	TRgb Ink(TInt aThemed) const
+		{ return iColour ? TRgb((aThemed >> 16) & 255, (aThemed >> 8) & 255, aThemed & 255) : TRgb::Gray16(aThemed); }
+	// (colour screens) an xterm colour 0..255, or KLxColDefFg/KLxColDefBg, as 0xRRGGBB
+	TInt ColourRgb(TInt aCode) const;
 	TInt ViewLine(TInt aRow) const { return iLinesPushed - iScrollOffset + aRow; }
 	TInt RowY(TInt aRow) const { return iOriginY + aRow * iCellH; }
 	void Layout();
@@ -208,6 +218,7 @@ private:
 	TBool iPenWheeled;
 	VTermColor iCacheFg, iCacheBg;
 	TInt iCacheRev, iCacheF, iCacheB;
+	TBool iColour;             // (0.27) a colour screen (the netBook, the Series 7): cells hold xterm colours
 	TBool iCacheValid;
 	TBool iDamaged;
 	TInt iDmgRow0, iDmgCol0, iDmgRow1, iDmgCol1;

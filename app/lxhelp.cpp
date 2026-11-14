@@ -101,7 +101,8 @@ static const TLxHelpTopic KHelpTopics[] =
 	  "\n"
 	  "The sidebar's zoom icons, or View > Zoom in and Zoom out (Shift+Ctrl+M), go round five text "
 	  "sizes. Tools > Preferences (Shift+Ctrl+K) sets the colours, the cursor and the status line. "
-	  "Colours are shown as greys, by brightness." },
+	  "On the netBook and Series 7, Linux's colours are shown in colour; on the 5mx, as greys, "
+	  "by brightness. Light on dark suits most programs' colours best." },
 
 	{ "Files",
 	  "Linux sees the Psion's disks as /c and /d (and the ROM as /z): ls /d lists the memory disk, and "

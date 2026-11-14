@@ -9,7 +9,10 @@
 # the build container) is psion-core, this checkout's core/ submodule
 # (git submodule update --init; or $PSION_CORE). The terminal (libvterm,
 # termsb.cpp, glyphs.cpp, build_vterm.sh) is PsiTerm's own, from a psiterm
-# checkout beside this one ($PSITERM, default ../psiterm).
+# checkout beside this one ($PSITERM, default ../psiterm), 0.99 or later (its
+# colour cells). app/lxtermsb.cpp and app/lxglyphs.cpp compile PsiTerm's files
+# under names of their own: the SDK keeps every ptproj program's objects in
+# one folder, and PsiTerm's termsb.o there broke PsiLinux 0.26 (DECISIONS.md 58).
 set -e
 : "${PSION_SDK:?set PSION_SDK to your psion_cpp_sdk_linux directory}"
 HERE=$(cd "$(dirname "$0")" && pwd)
@@ -18,6 +21,7 @@ CORE=${PSION_CORE:-$HERE/core}
 [ -f "$CORE/ssh/psishared.h" ] || { echo "no psion-core in $CORE: git submodule update --init"; exit 1; }
 PSITERM=${PSITERM:-$HERE/../psiterm}
 [ -f "$PSITERM/build_vterm.sh" ] || { echo "no psiterm checkout at $PSITERM (PSITERM=...)"; exit 1; }
+grep -q "iFg" "$PSITERM/app/termsb.h" || { echo "$PSITERM is PsiTerm before 0.99: PsiLinux 0.27 on needs its colour cells"; exit 1; }
 export EPOCROOT=$PSION_SDK/epoc_cpp_sdk
 REL=$EPOCROOT/epoc32/release/marm/rel
 export PATH=/usr/bin:/bin:$PSION_SDK/gcc-3.0-psion-98r2-9/bin:$EPOCROOT/epoc32/tools
@@ -44,6 +48,9 @@ done
 ( cd "$EPOCROOT/ptproj/psilinux" && makmake psilinux marm > "$TOP/build/psilinux-makmake.log" 2>&1 \
   && make -f psilinux.marm rel > "$TOP/build/psilinux.log" 2>&1 ) \
   || { grep -i -B1 -A4 "error\|undefined" "$TOP/build/psilinux.log" | head -40; exit 1; }
+# (the netBook's SA-1100 has no BX: none may be left in the app either)
+python3 "$CORE/tools/v4bx.py" --check "$REL/psilinux.app" | grep -q ": 0 BX" \
+	|| { python3 "$CORE/tools/v4bx.py" --check "$REL/psilinux.app"; exit 1; }
 
 P=$TOP/build/psilinux-pkg
 rm -rf "$P"; mkdir -p "$P"

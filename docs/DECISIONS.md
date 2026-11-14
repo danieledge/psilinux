@@ -754,3 +754,42 @@ Alpine Linux's own armhf programs, unmodified, through a binary translator:
 - **Limits:** a 5mx has no hardware source and a 1/64 s clock; the first
   session after an install has little more than the clock and the key
   timings. A fresh seed can be given with `cat FILE > /dev/urandom`.
+
+## 58. PsiTerm's colour cells, and an object of PsiLinux's own (0.27)
+- **Found:** PsiLinux 0.26 corrupted its heap once its history held 200
+  lines: in the emulators (5mx and netBook) `seq 1 400` ended the program
+  with KERN-EXEC 3. (Dan saw "Main USER 47" on the netBook when starting
+  Linux: see the runner, below.) The SDK keeps
+  the objects of every `ptproj` program in one folder, and PsiLinux compiled
+  PsiTerm's `termsb.cpp` to the same `termsb.o` as PsiTerm's own build. 0.26
+  was compiled against PsiTerm before 0.99 (4-byte history cells), but make
+  kept the `termsb.o` that PsiTerm 0.99 had just built (6-byte cells, newer
+  than the old source). Relinking 0.26's objects with that `termsb.o` gives
+  the published `PsiLinux.app` byte for byte (only the header's time
+  differs). So `SbPush` wrote the history with a 6-byte stride into a buffer
+  of 300 x 128 4-byte cells: from line 200 on, past its end, over the heap
+  cells after it (the line lengths, then the app's session with the runner).
+- **Chosen:** `app/lxtermsb.cpp` compiles PsiTerm's `termsb.cpp` under a
+  name of its own (as `lxglyphs.cpp` does for `glyphs.cpp`), and PsiLinux
+  uses PsiTerm 0.99's cells; `build.sh` refuses an older PsiTerm, and checks
+  the app for BX as it does the runner.
+- **Colour (PsiTerm 0.99's terminal):** the window takes the screen's mode
+  (256 colours on the netBook and Series 7, 16 greys on the 5mx, as before).
+  On a colour screen cells keep xterm colours 0..255 (24-bit colour as the
+  nearest of them), or the theme's own text and paper; the history keeps
+  them too (`KSbColour`, `KSbDefFg`, `KSbDefBg`). The four themes are
+  PsiTerm's first four; coloured text too close to its paper is made lighter
+  or darker; the cursor is drawn in reverse; the status line is navy. A
+  colour screen starts in Light on dark (no saved settings). The code is
+  PsiTerm's, kept as close to it as possible; psion-core has no terminal
+  code to share, so it is not moved there.
+- **The runner:** `bk_alloc` refuses a size of 1 GB or more (EUSER would
+  panic the kernel thread, USER 47) and logs it with the caller's address.
+  The netBook's "Main USER 47" names a thread called Main, which is what an
+  EXE's thread is called (EIKON renames an app's thread to the app's name
+  before the app runs; the panic dialog shows the thread's name), so it
+  may have been psilxrun.exe's kernel thread rather than the app. No size
+  that large was found in the kernel's allocations, and the netBook
+  emulator (v1.05(450), with Alpine in the ROM, as the card cannot be
+  mounted there) boots Alpine with both 0.26 and 0.27. If it is seen again
+  with 0.27, PsiLinux.log (Tools > Keep a log) has the line.

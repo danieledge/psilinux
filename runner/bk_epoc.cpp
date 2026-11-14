@@ -453,7 +453,21 @@ extern "C" int bk_code_region(lx_region* r, lx_u32 max, lx_u32 size)
 	}
 extern "C" int bk_code_grow(lx_region* r, lx_u32 size) { return Err(((RChunk*)r->bk)->Adjust(size)); }
 extern "C" int bk_arena_grow(lx_u32 size) { return gArenaOk ? Err(gArena.Adjust((size + 4095) & ~4095u)) : -LX_ENOMEM; }
-extern "C" void* bk_alloc(lx_u32 n) { return AllocZ(n ? n : 1); }
+// (0.27) User::Alloc panics the caller (USER 47) for a size of KMaxTInt/2
+// (1 GB) or more, and here the caller is the kernel thread: every Linux
+// program would go with it. Such a size can only be a bad calculation, so it
+// is refused like any other allocation the Psion cannot make (the kernel
+// answers ENOMEM), and logged with the caller's address (PsiLinux.log, with
+// Tools > Keep a log ticked) so that the calculation can be found.
+extern "C" void* bk_alloc(lx_u32 n)
+	{
+	if (n >= (lx_u32)(KMaxTInt / 2))
+		{
+		bk_log("bk_alloc: %u bytes refused (from %x)", n, (lx_u32)__builtin_return_address(0));
+		return 0;
+		}
+	return AllocZ(n ? n : 1);
+	}
 extern "C" void bk_free(void* p) { User::Free(p); }
 extern "C" void bk_memcpy(void* d, const void* s, lx_u32 n) { Mem::Copy(d, s, n); }
 extern "C" void bk_memmove(void* d, const void* s, lx_u32 n) { Mem::Copy(d, s, n); }

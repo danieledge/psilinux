@@ -1,6 +1,6 @@
 # PsiLinux
 
-**Modern Linux on a 1999 Psion Series 5mx.**
+**Modern Linux on a 1999 Psion Series 5mx, and now the netBook and Series 7.**
 
 [![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-support-FFDD00?logo=buymeacoffee&logoColor=000)](https://buymeacoffee.com/danedge)
 
@@ -26,6 +26,7 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 
 ## Contents
 
+- [What's new in 0.32](#whats-new-in-032)
 - [Screenshots](#screenshots)
 - [What it is](#what-it-is)
 - [What is new about it](#what-is-new-about-it)
@@ -39,7 +40,47 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 - [Support](#support)
 - [Credits and licences](#credits-and-licences)
 
+## What's new in 0.32
+
+Since 0.22, the last release.
+
+New:
+- Runs on the netBook and Series 7 as well as the 5mx, with the terminal in colour (PsiTerm's colour schemes). Their StrongARM has separate instruction and data caches, so the runner now cleans them after writing code, and it rewrites BX, which the StrongARM does not have, as programs load. Still being tested on a real netBook.
+- A graphical desktop, as separate installers: X with a window manager and xterm (PsiLinux-X), Links in graphics mode (PsiLinux-Links) and Doom (PsiLinux-Doom).
+- The terminal is PsiTerm's, with its typefaces (Terminus, Spleen, Gohufont, Cozette), zoom levels and themes. Preferences > Screen has Typeface.
+- The program icon is in colour on the netBook.
+
+Changed:
+- First start hides the toolbar (Shift+Ctrl+B brings it back) and starts Alpine's shell only. Saved settings are left alone.
+- A typed key wakes the terminal straight away, even with a busy program running.
+- ssh logs in in about half a minute on a 5mx (no sntrup761).
+- No log unless Tools > Keep a log is ticked.
+- apk can use the Atom modem's own proxy as its package server.
+
+Fixed:
+- DNS lookups waited 2.5 s for a retry every time.
+- Long output (`seq 1 400`) could close PsiLinux.
+- A fault in the Linux runner gave no message. It now says where, and logs the details.
+
 ## Screenshots
+
+PsiLinux 0.32 on the netBook and the Series 5mx, in emulators. Tap or click one to see it full size.
+
+<table>
+<tr><th>netBook</th><th>Series 5mx</th></tr>
+<tr><td colspan="2"><b>Alpine's shell in PsiTerm's terminal, as a first start leaves it</b></td></tr>
+<tr>
+<td>Not shown: the netBook emulator cannot read the CF card, where the Linux root lives.</td>
+<td><a href="docs/img/5mx-psilinux-shell.png"><img src="docs/img/5mx-psilinux-shell.png" alt="Series 5mx: Alpine Linux 3.24 bash with the toolbar hidden" width="400"></a></td>
+</tr>
+<tr><td colspan="2"><b>Preferences > Screen: the typeface and colours</b></td></tr>
+<tr>
+<td><a href="docs/img/netbook-psilinux-typeface.png"><img src="docs/img/netbook-psilinux-typeface.png" alt="netBook: Preferences, the Screen page" width="400"></a></td>
+<td><a href="docs/img/5mx-psilinux-typeface.png"><img src="docs/img/5mx-psilinux-typeface.png" alt="Series 5mx: Preferences, the Screen page" width="400"></a></td>
+</tr>
+</table>
+
+Linux programs on the 5mx:
 
 All from the 5mx emulator, at the Psion's own 640x240 in 16 greys. The
 right-hand toolbar and the status line (the program in front, memory in use,

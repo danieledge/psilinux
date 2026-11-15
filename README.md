@@ -26,7 +26,7 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 
 ## Contents
 
-- [What's new in 0.32](#whats-new-in-032)
+- [What's new in 0.33](#whats-new-in-033)
 - [Screenshots](#screenshots)
 - [What it is](#what-it-is)
 - [What is new about it](#what-is-new-about-it)
@@ -40,7 +40,7 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 - [Support](#support)
 - [Credits and licences](#credits-and-licences)
 
-## What's new in 0.32
+## What's new in 0.33
 
 Since 0.22, the last release.
 
@@ -58,19 +58,20 @@ Changed:
 - apk can use the Atom modem's own proxy as its package server.
 
 Fixed:
+- /proc/cpuinfo said "Psion Series 5mx" and an ARM710T on every machine. It now gives the machine's own name, and the StrongARM SA-1100 on the netBook and Series 7.
 - DNS lookups waited 2.5 s for a retry every time.
 - Long output (`seq 1 400`) could close PsiLinux.
 - A fault in the Linux runner gave no message. It now says where, and logs the details.
 
 ## Screenshots
 
-PsiLinux 0.32 on the netBook and the Series 5mx, in emulators. Tap or click one to see it full size.
+PsiLinux 0.33 on the netBook and the Series 5mx, in emulators. Tap or click one to see it full size.
 
 <table>
 <tr><th>netBook</th><th>Series 5mx</th></tr>
 <tr><td colspan="2"><b>Alpine's shell in PsiTerm's terminal, as a first start leaves it</b></td></tr>
 <tr>
-<td>Not shown: the netBook emulator cannot read the CF card, where the Linux root lives.</td>
+<td><a href="docs/img/netbook-psilinux-fastfetch.png"><img src="docs/img/netbook-psilinux-fastfetch.png" alt="netBook: Alpine Linux in colour, fastfetch" width="400"></a></td>
 <td><a href="docs/img/5mx-psilinux-shell.png"><img src="docs/img/5mx-psilinux-shell.png" alt="Series 5mx: Alpine Linux 3.24 bash with the toolbar hidden" width="400"></a></td>
 </tr>
 <tr><td colspan="2"><b>Preferences > Screen: the typeface and colours</b></td></tr>

@@ -677,10 +677,17 @@ static int proc_text(lx_proc *p, lx_vn *v, char *buf, int size)
 		return lx_snprintf(buf, size, "free\t%u KB (the Psion's free RAM)\ncached\t%u KB (programs and libraries kept for their next run)\nreserve\t%u KB%s\navailable\t%u KB (for Linux: free less the reserve)\nrefused\t%u (%u KB)\n",
 			freeb / 1024, lx_mem_cached() / 1024, res / 1024, res ? "" : " (off)", lx_mem_avail() / 1024, lx_k.reserve_refused, lx_k.reserve_refused_kb);
 	}
-	case P_CPUINFO:
+	case P_CPUINFO: {
+		/* the machine's own name and processor (0.33: not always the 5mx) */
+		char mach[40];
+		if (bk_machine(mach, sizeof mach))
+			return lx_snprintf(buf, size, "processor\t: 0\nmodel name\t: StrongARM SA-1100 (ARMv4, Intel)\nBogoMIPS\t: 190.00\n"
+				"Features\t: swp half fastmult\nCPU implementer\t: 0x69\nCPU architecture: 4\nCPU part\t: 0xa11\n\n"
+				"Hardware\t: %s\nRevision\t: 0000\n", mach[0] ? mach : "Psion netBook");
 		return lx_snprintf(buf, size, "processor\t: 0\nmodel name\t: ARM710T (ARMv4T, Cirrus/Psion Windermere)\nBogoMIPS\t: 36.86\n"
 			"Features\t: swp half thumb fastmult\nCPU implementer\t: 0x41\nCPU architecture: 4T\nCPU part\t: 0x710\n\n"
-			"Hardware\t: Psion Series 5mx\nRevision\t: 0000\n");
+			"Hardware\t: %s\nRevision\t: 0000\n", mach[0] ? mach : "Psion Series 5mx");
+	}
 	case P_UPTIME: return lx_snprintf(buf, size, "%u.%02u 0.00\n", (lx_u32)(now / 1000000), (lx_u32)(now / 10000 % 100));
 	case P_LOADAVG: {
 		int run = 0, all = 0;

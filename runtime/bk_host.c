@@ -255,6 +255,15 @@ lx_s64 bk_now_mono(void)
 }
 void bk_wake_at(lx_s64 mono) { wake_at = mono; }
 lx_u32 bk_random(void) { return (lx_u32)random() ^ ((lx_u32)random() << 16); }
+int bk_machine(char *name, int size)
+{
+	const char *n = "Psion Series 5mx";
+	int i;
+	for (i = 0; n[i] && i < size - 1; i++) name[i] = n[i];
+	name[i] = 0;
+	return 0;
+}
+
 void bk_mem_info(lx_u32 *total, lx_u32 *freeb)
 {
 	struct sysinfo si;

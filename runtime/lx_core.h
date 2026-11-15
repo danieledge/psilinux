@@ -25,7 +25,7 @@
 extern "C" {
 #endif
 
-#define LX_VERSION "0.29"
+#define LX_VERSION "0.33"
 #define LX_MAXPROC 64
 #define LX_MAXTHREAD 64
 #define LX_MAXFD 128
@@ -360,6 +360,7 @@ void *bk_fb_map(void);                        /* the screen's shared memory (lxf
 void bk_fb_release(void);                     /* no program has the screen open now */
 void bk_fb_notify(void);                      /* wake the app: the screen changed */
 void bk_mem_info(lx_u32 *total, lx_u32 *free_);   /* the Psion's RAM, and how much is free */
+int bk_machine(char *name, int size);   /* the machine's name (UserHal); 1 on an SA-1100 (netBook, Series 7), 0 on the 5mx */
 lx_u32 bk_mem_reserve(void);                  /* bytes to leave free for EPOC's programs (Preferences), 0 = none */
 /* terminals */
 int bk_tty_write(lx_tty *tty, const char *buf, int n);   /* how much was taken; 0 = full (lx_k_tty_writable later) */

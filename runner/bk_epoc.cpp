@@ -685,6 +685,22 @@ extern "C" void bk_mem_info(lx_u32* total, lx_u32* freeb)
 	*freeb = mi().iFreeRamInBytes;
 	}
 
+// The machine's own name for /proc/cpuinfo (0.33: it said "Psion Series 5mx"
+// everywhere); 1 when it has the netBook's and Series 7's StrongARM SA-1100
+extern "C" int bk_machine(char* name, int size)
+	{
+	TMachineInfoV1Buf mi;
+	name[0] = 0;
+	if (UserHal::MachineInfo(mi) != KErrNone || size < 2)
+		return 0;
+	const TDesC& n = mi().iMachineName;
+	TInt len = n.Length() < size - 1 ? n.Length() : size - 1;
+	for (TInt i = 0; i < len; i++)
+		name[i] = (char)n[i];
+	name[len] = 0;
+	return n.FindF(_L("netBook")) >= 0 || n.FindF(_L("Series 7")) >= 0;
+	}
+
 // ---- time ----------------------------------------------------------------------
 
 static lx_s64 From64(const TInt64& a) { return (lx_s64)(((lx_u64)a.High() << 32) | a.Low()); }

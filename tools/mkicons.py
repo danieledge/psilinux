@@ -18,6 +18,7 @@ sys.path.insert(0, os.path.join(CORE, 'tools'))
 sys.path.insert(0, os.path.join(CORE, 'tools', 'icon'))
 import mkicons as pt          # PsiTerm's
 from aif import write_aif
+from colouricon import colour_icons   # the colour icons (colour/), when there
 
 ICONS = [
 # Stop (Ctrl+C): an octagon with a white bar, as a road sign
@@ -154,7 +155,7 @@ def main():
     with open(os.path.join(out, 'files.txt'), 'w') as f:
         for i, p in enumerate(files):
             f.write(('/2' if i % 2 == 0 else '/1') + os.path.basename(p) + '\n')
-    icons = [app_icon(n) for n in (24, 32, 48)]
+    icons = colour_icons("psilinux") or [app_icon(n) for n in (24, 32, 48)]
     n = write_aif(os.path.join(out, 'psilinux.aif'), 0x01000A87, [(1, 'PsiLinux'), (10, 'PsiLinux')], icons)
     prev = Image.new('L', (24 + 32 + 48 + 20, 48), W)
     x = 0

@@ -260,7 +260,8 @@ RESOURCE ARRAY r_lx_prefs_pages
 	items=
 		{
 		PAGE { text="General"; id=ELxPagePrefsGeneral; lines=r_lx_prefs_general_lines; },
-		PAGE { text="Screen"; id=ELxPagePrefsScreen; lines=r_lx_prefs_screen_lines; }
+		PAGE { text="Screen"; id=ELxPagePrefsScreen; lines=r_lx_prefs_screen_lines; },
+		PAGE { text="Cursor"; id=ELxPagePrefsCursor; lines=r_lx_prefs_cursor_lines; }
 		};
 	}
 
@@ -297,12 +298,21 @@ RESOURCE ARRAY r_lx_prefs_screen_lines
 		DLG_LINE { type=EEikCtChoiceList; prompt="Text size"; id=ELxPrefZoom;
 			control=CHOICELIST { maxdisplaychar=16; }; },
 		DLG_LINE { type=EEikCtChoiceList; prompt="Colours"; id=ELxPrefTheme;
-			control=CHOICELIST { array_id=r_lx_pt_theme_array; maxdisplaychar=24; }; },
+			control=CHOICELIST { array_id=r_lx_pt_theme_array; maxdisplaychar=16; }; },
+		DLG_LINE { type=EEikCtCheckBox; prompt="Bold text"; id=ELxPrefBold; },
+		DLG_LINE { type=EEikCtCheckBox; prompt="Status line"; id=ELxPrefStatus; }
+		};
+	}
+
+// (0.34) the cursor on a page of its own: seven lines on one page ran off
+// the bottom of the 5mx's screen
+RESOURCE ARRAY r_lx_prefs_cursor_lines
+	{
+	items=
+		{
 		DLG_LINE { type=EEikCtChoiceList; prompt="Cursor"; id=ELxPrefCursor;
 			control=CHOICELIST { array_id=r_lx_pt_cursor_array; }; },
-		DLG_LINE { type=EEikCtCheckBox; prompt="Cursor blinks"; id=ELxPrefBlink; },
-		DLG_LINE { type=EEikCtCheckBox; prompt="Status line"; id=ELxPrefStatus; },
-		DLG_LINE { type=EEikCtCheckBox; prompt="Bold text"; id=ELxPrefBold; }
+		DLG_LINE { type=EEikCtCheckBox; prompt="Cursor blinks"; id=ELxPrefBlink; }
 		};
 	}
 
@@ -366,6 +376,8 @@ RESOURCE ARRAY r_lx_empty_array
 	}
 
 // Tools > About PsiLinux. "(c)" is put right at run time (the (c) sign).
+// (0.34: the credits in the smaller annotation font, so the box is no
+// wider than Psion's own dialogs)
 RESOURCE DIALOG r_lx_about_dialog
 	{
 	title="About PsiLinux";
@@ -376,7 +388,7 @@ RESOURCE DIALOG r_lx_about_dialog
 		DLG_LINE { type=EEikCtLabel; id=ELxAbout1; control=LABEL { standard_font=EEikLabelFontLegend; txt="PsiLinux 0.20"; }; },
 		DLG_LINE { type=EEikCtLabel; id=ELxAbout5; control=LABEL { txt="Alpine Linux"; }; },
 		DLG_LINE { type=EEikCtLabel; id=ELxAbout2; control=LABEL { txt="Linux programs on the Psion Series 5mx - (c) 2026 Dan Edge"; }; },
-		DLG_LINE { type=EEikCtLabel; id=ELxAbout3; control=LABEL { txt="BusyBox, musl, Lua, MicroPython, SQLite, jq, nano, curl, git, Mbed TLS"; }; },
-		DLG_LINE { type=EEikCtLabel; id=ELxAbout4; control=LABEL { txt="and PsiTerm's terminal (libvterm): licences in /usr/share/licenses"; }; }
+		DLG_LINE { type=EEikCtLabel; id=ELxAbout3; control=LABEL { standard_font=EEikLabelFontAnnotation; txt="BusyBox, musl, Lua, MicroPython, SQLite, jq, nano, curl, git, Mbed TLS"; }; },
+		DLG_LINE { type=EEikCtLabel; id=ELxAbout4; control=LABEL { standard_font=EEikLabelFontAnnotation; txt="and PsiTerm's terminal (libvterm): licences in /usr/share/licenses"; }; }
 		};
 	}

@@ -65,7 +65,8 @@ enum
 	ELxPrefKeepKb,
 	ELxPagePrefsGeneral,     // the Preferences dialog's pages
 	ELxPagePrefsScreen,
-	ELxPrefFace              // 0.29: PsiTerm's typefaces
+	ELxPrefFace,             // 0.29: PsiTerm's typefaces
+	ELxPagePrefsCursor       // 0.34: the Preferences dialog's Cursor page
 	};
 
 #endif

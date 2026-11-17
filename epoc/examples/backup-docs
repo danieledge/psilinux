@@ -1,7 +1,18 @@
 #!/bin/sh
 # backup-docs: C:\Documents to the card, in a folder named by the date
-# (D:\Backup\2026-11-17\). An example for the epoc command (README.md).
+# (D:\Backup\2026-11-17\). A document open in its program is locked by
+# EPOC ("Resource busy"): those are listed, to be closed and copied later.
+# An example for the epoc command (README.md).
 to=/psion/d/Backup/$(date +%Y-%m-%d)
-mkdir -p "$to" && cp -r /psion/c/Documents/. "$to/" \
-	&& epoc note "Documents backed up to $(epoc path "$to")" \
-	|| { epoc alert "The backup failed" "See the shell"; exit 1; }
+mkdir -p "$to" && cd /psion/c/Documents || exit 1
+skipped=$(find . -type f | while IFS= read -r f; do
+	mkdir -p "$to/${f%/*}"
+	cp -p "$f" "$to/$f" 2>/dev/null || echo "${f#./}"
+done)
+if [ -z "$skipped" ]; then
+	epoc note "Documents backed up to $(epoc path "$to")"
+else
+	printf 'Not copied (open in a program?):\n%s\n' "$skipped" >&2
+	epoc alert "Backed up, but some files are open" "Close them and run backup-docs again"
+	exit 1
+fi

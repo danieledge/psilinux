@@ -55,6 +55,8 @@ TInt CLxSession::Start(const TDesC& aRoot, const TDesC8& aProgram, TBool aLogin,
 		iChunkOpen = ETrue;
 		}
 	iShared = (LxShared*)iChunk.Base();
+	if (iEpoc)
+		iEpoc->Forget();                     // (0.36) a message still up from the last session answers nobody
 	Mem::FillZ(iShared, sizeof(LxShared));
 	iShared->magic = LX_SHARED_MAGIC;
 	iShared->version = LX_SHARED_VERSION;

@@ -498,7 +498,11 @@ static int sys_sendfile(lx_thread *t, int out, int in, lx_u32 uoff, lx_u32 count
 	/* (0.37) an output with no room (a full pipe) waits, as write does,
 	   before anything is read: 0 would say the input had ended (BusyBox's
 	   cat FILE | ... stopped at 8 KB) */
-	if (fo->ops->poll && !(fo->ops->poll(fo) & (LX_POLLOUT | LX_POLLERR | LX_POLLHUP)))
+	if (lx_is_pipe(fo) && !(fo->flags & LX_O_NONBLOCK)) {
+		/* (a pipe: as its write decides, which may grow it for a waiting
+		 * fork parent: poll's 4 KB of room is not the question) */
+		if (lx_pipe_write_waits(t, fo, count)) return LX_BLOCK;
+	} else if (fo->ops->poll && !(fo->ops->poll(fo) & (LX_POLLOUT | LX_POLLERR | LX_POLLHUP)))
 		return (fo->flags & LX_O_NONBLOCK) ? -LX_EAGAIN : LX_BLOCK;
 	if (uoff) n = fi->ops->pread ? fi->ops->pread(t, fi, buf, count, off) : -LX_ESPIPE;
 	else n = fi->ops->read ? fi->ops->read(t, fi, buf, count) : -LX_EINVAL;

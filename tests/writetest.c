@@ -6,7 +6,8 @@
  * with poll. Alpine's ssl_client counts on it: after a short write it went
  * on from the wrong place in its buffer, and wget https got 8 KB of zeros
  * in every 16 KB (0.37). A signal while it waits: it returns what went.
- * And a pipe that only a waiting fork parent reads holds all that is written.
+ * And a pipe that only a waiting fork parent reads holds all that is written,
+ * by write or by sendfile; a fork child's blocked SIGPIPE is not its parent's.
  *   writetest            the checks; prints "N passed, M failed"
  *   writetest -w HOW FD  (the writer)
  */
@@ -17,6 +18,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <sys/sendfile.h>
 #include <sys/socket.h>
 #include <sys/uio.h>
 #include <sys/wait.h>
@@ -82,6 +84,20 @@ static int writer(const char *how, int fd)
 			for (done = r > 0 ? r : 0; done < N; done += r)
 				if ((r = write(fd, p + done, N - done)) <= 0) return 6;
 			r = N;
+		} else if (!strcmp(how, "sendfile")) {
+			/* (BusyBox's cat FILE: sendfile from the file, 2 KB at a time here) */
+			char name[40];
+			int in;
+			size_t done = 0;
+			ssize_t k;
+			sprintf(name, "/tmp/writetest.%d", (int)getpid());
+			in = open(name, O_RDWR | O_CREAT | O_TRUNC, 0600);
+			if (in < 0) return 7;
+			unlink(name);
+			if (write(in, p, N) != N || lseek(in, 0, SEEK_SET) != 0) return 7;
+			while (done < N && (k = sendfile(fd, in, 0, N - done)) > 0) done += k;
+			close(in);
+			r = done;
 		} else return 4;
 		if (r != N) { fprintf(stderr, "writetest: %s wrote %d of %d\n", how, (int)r, N); bad = 1; }
 	}
@@ -132,7 +148,7 @@ static void one(const char *self, const char *how, int sock)
  * 40 KB into a pipe that the parent reads only after: bash's $(...). With
  * via, it does so from a program it starts and waits for: $(a | b). The
  * pipe has to hold it all (0.37: it grows, as nobody else can read it). */
-static void forked(const char *self, int via)
+static void forked(const char *self, int via, const char *how)
 {
 	int p[2], pid, st = -1;
 	size_t got = 0;
@@ -146,7 +162,7 @@ static void forked(const char *self, int via)
 			int w = vfork();
 			if (w == 0) {
 				sprintf(fdname, "%d", p[1]);
-				execl(self, self, "-w", "write", fdname, (char *)0);
+				execl(self, self, "-w", how, fdname, (char *)0);
 				_exit(9);
 			}
 			waitpid(w, &st, 0);
@@ -159,8 +175,34 @@ static void forked(const char *self, int via)
 	memset(dst, 0, sizeof dst);
 	while (got < sizeof dst && (n = read(p[0], dst + got, sizeof dst - got)) > 0) got += n;
 	close(p[0]);
-	snprintf(what, sizeof what, "a fork child writes %d KB%s that its parent reads after", N * CALLS / 1000, via ? " through a program" : "");
+	snprintf(what, sizeof what, "a fork child writes %d KB%s%s that its parent reads after", N * CALLS / 1000, via ? " through a program, by " : "", via ? how : "");
 	check(WIFEXITED(st) && WEXITSTATUS(st) == 0 && got == sizeof dst && !memcmp(src, dst, sizeof dst), what);
+}
+
+/* A fork child (no exec: it runs on its parent's thread here) that has
+ * SIGPIPE blocked writes into a pipe nobody reads: EPIPE, and a SIGPIPE
+ * pending for it. It ends; the signal was its own, and the parent (SIGPIPE
+ * not blocked) goes on. It used to get it, and the shell that had run the
+ * child ended ("Linux has ended") (0.37). */
+static void child_sigpipe(void)
+{
+	int p[2], pid, st = -1, r;
+	if (pipe(p)) { check(0, "pipe"); return; }
+	close(p[0]);                         /* (nobody reads it) */
+	pid = fork();
+	if (pid == 0) {
+		sigset_t m;
+		sigemptyset(&m);
+		sigaddset(&m, SIGPIPE);
+		sigprocmask(SIG_BLOCK, &m, 0);
+		r = write(p[1], "x", 1);
+		_exit(r == -1 && errno == EPIPE ? 0 : 3);
+	}
+	close(p[1]);
+	r = waitpid(pid, &st, 0);
+	getpid();
+	if (!(r == pid && WIFEXITED(st) && WEXITSTATUS(st) == 0)) fprintf(stderr, "writetest: waitpid %d of %d, status %x\n", r, pid, st);
+	check(r == pid && WIFEXITED(st) && WEXITSTATUS(st) == 0, "a fork child's blocked SIGPIPE: EPIPE for it, nothing for its parent");
 }
 
 int main(int argc, char **argv)
@@ -178,8 +220,10 @@ int main(int argc, char **argv)
 	one(argv[0], "nonblock", 1);
 	one(argv[0], "signal", 0);
 	one(argv[0], "signal", 1);
-	forked(argv[0], 0);
-	forked(argv[0], 1);
+	forked(argv[0], 0, "write");
+	forked(argv[0], 1, "write");
+	forked(argv[0], 1, "sendfile");
+	child_sigpipe();
 	printf("%d passed, %d failed\n", passes, fails);
 	return fails != 0;
 }

@@ -403,6 +403,24 @@ static int pp_write(lx_thread *t, lx_file *f, const char *buf, lx_u32 n)
 	return (int)done;
 }
 
+/* (0.37) Would a blocking write of n bytes to the pipe f wait (sendfile
+ * asks before it reads its input)? As pp_write decides: not if there is
+ * room for it, and not if only parents waiting on t's fork read the pipe,
+ * as it then grows. cat FILE as the last command of $(...) in bash, with
+ * a here-document bigger than 8 KB, hung for ever at 6 KB: sendfile
+ * looked only at poll's 4 KB of room. */
+int lx_pipe_write_waits(lx_thread *t, lx_file *f, lx_u32 n)
+{
+	pipe *pp;
+	lx_u32 space;
+	if (f->ops != &pipe_w_ops) return 0;
+	pp = (pipe *)f->priv;
+	if (!pp->readers) return 0;              /* (EPIPE: the write says so) */
+	space = (lx_u32)(pp->size - pp->count);
+	if (space >= n || (n > 4096 && space)) return 0;
+	return !pp_readers_wait(t, pp);
+}
+
 static int pp_poll_r(lx_file *f)
 {
 	pipe *pp = (pipe *)f->priv;

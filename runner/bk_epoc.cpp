@@ -47,6 +47,62 @@ static TUint32 gFaultPc, gFaultInsn, gFaultWhy;   // an unfixed alignment fault 
 static TUint32 gFaultIdx, gFaultSp, gFaultW[20];
 static TThreadId gKernelId;      // (0.29) the kernel thread's id (bk_log, faults)
 static TBool gKernelIdSet;
+
+// (0.37) The end log: one line for each session that ends, and why, always
+// (not only with Tools > Keep a log), beside the runner in \System\Apps\
+// PsiLinux\ (PsiLinux-end.log, PsiLinux-end.old before it): a session
+// that ended "by itself" says what ended it. gEndWhy is the runner's own
+// reason, when it ended the session (the app asked, the app's heartbeat
+// stopped, a reboot); the kernel's lx_k.end_note says how the first
+// program ended.
+static const char* gEndWhy;
+static TBool gEndNoted;
+static void EndNote(const char* aWhat)
+	{
+	if (gEndNoted)
+		return;
+	gEndNoted = ETrue;
+	TParse pa;
+	TFileName exe(RProcess().FileName());
+	if (pa.Set(exe, NULL, NULL) != KErrNone)
+		return;
+	TFileName name(pa.DriveAndPath());
+	TFileName old(name);
+	name.Append(_L("PsiLinux-end.log"));
+	old.Append(_L("PsiLinux-end.old"));
+	RFile f;
+	TInt size = 0;
+	if (f.Open(gFs, name, EFileWrite | EFileShareAny) == KErrNone)
+		{
+		f.Size(size);
+		if (size > 8192)
+			{
+			f.Close();
+			gFs.Delete(old);
+			gFs.Rename(name, old);
+			size = -1;
+			}
+		}
+	else
+		size = -1;
+	if (size < 0 && f.Replace(gFs, name, EFileWrite | EFileShareAny) != KErrNone)
+		return;
+	TInt pos = 0;
+	f.Seek(ESeekEnd, pos);
+	TTime now;
+	now.HomeTime();
+	TDateTime d = now.DateTime();
+	char line[400];
+	TInt n = lx_snprintf(line, sizeof line - 2, "%04d-%02d-%02d %02d:%02d:%02d %s: %s%s%s",
+		d.Year(), d.Month() + 1, d.Day() + 1, d.Hour(), d.Minute(), d.Second(), LX_VERSION,
+		gEndWhy ? gEndWhy : "", gEndWhy ? "; " : "", aWhat);
+	if (n > (TInt)sizeof line - 3)
+		n = sizeof line - 3;
+	line[n++] = '\r';
+	line[n++] = '\n';
+	f.Write(TPtrC8((const TUint8*)line, n));
+	f.Close();
+	}
 // (0.29) how deep the kernel thread's stack has gone: its sp is looked at
 // where the kernel is deepest (the backend's file calls, its allocations,
 // the log), against where it was at the start (KStackSize is petran's
@@ -922,6 +978,8 @@ extern "C" void bk_tty_status(lx_tty* tty, int running, int status)
 	if (!gSh || tty->index != 0 || running)
 		return;
 	gSh->exit_status = status;
+	bk_log("the session has ended: %s%s%s", gEndWhy ? gEndWhy : "", gEndWhy ? "; " : "", lx_k.end_note[0] ? lx_k.end_note : "(the session was ended)");
+	EndNote(lx_k.end_note[0] ? lx_k.end_note : "the session was ended");
 	// (0.36) the first program has ended ("exit" at the top shell): the
 	// others are asked to end, and given a moment to close their files,
 	// before the runner stops (RunL then closes every file and the RFs)
@@ -991,6 +1049,7 @@ public:
 			{
 			if (gSh->quit)
 				{
+				gEndWhy = "the app ended Linux (End Linux, or the app closed)";
 				Quit();
 				return;
 				}
@@ -1145,6 +1204,8 @@ void CLxTerm::Housekeeping()
 		}
 	else if (++gBeatTicks > 45)
 		{
+		gEndWhy = "the app's heartbeat stopped for 45 s (the app crashed, was killed, or did not run its tick)";
+		bk_log("%s", gEndWhy);
 		Quit();                              // the app has gone (crashed, or killed)
 		return;
 		}
@@ -1525,6 +1586,7 @@ static void Fail(const char* aWhy)
 	if (!gSh)
 		return;
 	lx_strlcpy(gSh->message, aWhy, sizeof gSh->message);
+	EndNote(aWhy);
 	gSh->state = LXS_FAILED;
 	gAppRinger.Ring(&gSh->app_bell);
 	}

@@ -1181,10 +1181,13 @@ static void borrow_pop(lx_thread *t)
 	t->sigmask[0] = b->sigmask[0]; t->sigmask[1] = b->sigmask[1];
 	t->saved_sigmask[0] = b->saved_sigmask[0]; t->saved_sigmask[1] = b->saved_sigmask[1];
 	t->sigmask_saved = b->sigmask_saved;
+	t->sigpending[0] = b->sigpending[0]; t->sigpending[1] = b->sigpending[1];
 	t->altstack_sp = b->altstack_sp; t->altstack_size = b->altstack_size;
 	t->clear_child_tid = b->clear_child_tid;
 	t->restart = 0;
 	t->intr = 0;
+	t->wdone = 0;              /* (a write of the child's, killed while it waited, is not the parent's) */
+	t->timed_out = 0;
 	if (b->child->vfork_parent == t) b->child->vfork_parent = 0;
 	bk_free(b);
 }
@@ -1243,6 +1246,23 @@ static lx_thread *busy_translating(lx_proc *p)
 	return t;
 }
 
+/* (0.37) why the first program ended, in a line: the runner keeps it in
+ * its end log (\System\), so that a session that ends by itself says why */
+static void note_first_end(lx_proc *p, int status)
+{
+	lx_thread *t = 0;
+	int i, sig = status & 0x7f;
+	for (i = 0; i < LX_MAXTHREAD; i++)
+		if (lx_k.threads[i].state != LX_T_FREE && lx_k.threads[i].owner == p) { t = &lx_k.threads[i]; break; }
+	if (!sig)
+		lx_snprintf(lx_k.end_note, sizeof lx_k.end_note, "pid %d (%s) exited, code %d", p->pid, p->comm, (status >> 8) & 0xff);
+	else
+		lx_snprintf(lx_k.end_note, sizeof lx_k.end_note, "pid %d (%s) killed by signal %d%s, %s %d (signal %d); in call %u%s",
+			p->pid, p->comm, sig, (status & 0x80) ? " (a fault)" : "",
+			lx_k.first_sig_from ? "last sent one by pid" : "none sent by a program, pid", lx_k.first_sig_from, lx_k.first_sig,
+			t ? t->nr : 0, t && t->proc != p ? " (its thread lent to a fork child)" : "");
+}
+
 void lx_proc_exit(lx_proc *p, int status)
 {
 	int i;
@@ -1298,6 +1318,7 @@ void lx_proc_exit(lx_proc *p, int status)
 	pp = lx_proc_by_pid(p->ppid);
 	if (!pp || (p->ppid == 1 && !lx_k.real_init) || p->pid == 1) {
 		if (p->pid == lx_k.first_status) {
+			note_first_end(p, status);
 			lx_k.init_exited = 1;
 			lx_k.first_exit = status;
 			bk_tty_status(p->ctty ? p->ctty : &lx_k.ttys[0], 0, status);
@@ -1493,6 +1514,11 @@ static int start_vfork(lx_thread *t, lx_u32 newsp, int exit_signal)
 	b->sigmask[0] = t->sigmask[0]; b->sigmask[1] = t->sigmask[1];
 	b->saved_sigmask[0] = t->saved_sigmask[0]; b->saved_sigmask[1] = t->saved_sigmask[1];
 	b->sigmask_saved = t->sigmask_saved;
+	/* (0.37) the signals for the thread are the parent's: the child starts
+	 * with none, and those it leaves (a SIGPIPE it had blocked, a raise())
+	 * are not the parent's when it goes on */
+	b->sigpending[0] = t->sigpending[0]; b->sigpending[1] = t->sigpending[1];
+	t->sigpending[0] = t->sigpending[1] = 0;
 	b->altstack_sp = t->altstack_sp; b->altstack_size = t->altstack_size;
 	b->clear_child_tid = t->clear_child_tid;
 	b->prev = t->borrow;
@@ -1652,6 +1678,8 @@ static int sys_execve(lx_thread *t, lx_u32 upath, lx_u32 uargv, lx_u32 uenvp)
 	}
 	nt->sigmask[0] = t->sigmask[0];
 	nt->sigmask[1] = t->sigmask[1];
+	nt->sigpending[0] |= t->sigpending[0];   /* (pending signals stay pending across exec) */
+	nt->sigpending[1] |= t->sigpending[1];
 	if (p->vfork_parent == t) {
 		/* a vfork child: the thread goes back to the parent */
 		nt->owner = p;
@@ -1810,6 +1838,7 @@ static int sys_kill(lx_thread *t, int pid, int sig)
 	if (pid > 0) {
 		p = lx_proc_by_pid(pid);
 		if (!p || p->state != LX_P_ALIVE) return -LX_ESRCH;
+		if (sig && pid == lx_k.first_status) { lx_k.first_sig_from = t->proc->pid; lx_k.first_sig = sig; }
 		if (sig) lx_signal_proc(p, sig);
 		return 0;
 	}
@@ -1820,6 +1849,7 @@ static int sys_kill(lx_thread *t, int pid, int sig)
 		if (pid < -1 && p->pgid != -pid) continue;
 		if (pid == -1 && p == t->proc) continue;
 		n++;
+		if (sig && p->pid == lx_k.first_status) { lx_k.first_sig_from = t->proc->pid; lx_k.first_sig = sig; }
 		if (sig) lx_signal_proc(p, sig);
 	}
 	return n ? 0 : -LX_ESRCH;
@@ -2046,6 +2076,7 @@ static int do_syscall(lx_thread *t, lx_u32 nr, lx_u32 *a)
 			lx_thread *o = &lx_k.threads[i];
 			if (o->state != LX_T_FREE && o->state != LX_T_DEAD && (o->tid == tid || (o->proc && o->proc->pid == tid && o->proc->vfork_parent == o))) {
 				if (sig) {
+					if (o->proc && o->proc->pid == lx_k.first_status) { lx_k.first_sig_from = t->proc->pid; lx_k.first_sig = sig; }
 					if (o == t) SIGADD(t->sigpending, sig);
 					else lx_signal_thread(o, sig);
 				}
@@ -2235,6 +2266,8 @@ static int do_syscall(lx_thread *t, lx_u32 nr, lx_u32 *a)
 		if (a[0] != 0xfee1dead) return -LX_EINVAL;
 		if (a[2] == 0 || a[2] == 0x89abcdef) return 0;          /* (CAD on/off) */
 		bk_log("reboot (%x): the session ends", a[2]);
+		lx_k.first_sig_from = p->pid;        /* (the end log: who ended it) */
+		lx_k.first_sig = LX_SIGKILL;
 		lx_k_shutdown();
 		if (!lx_k.init_exited) {
 			lx_k.init_exited = 1;

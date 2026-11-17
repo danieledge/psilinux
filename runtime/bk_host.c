@@ -360,7 +360,12 @@ int bk_tty_write(lx_tty *tty, const char *buf, int n)
 	return done;
 }
 int bk_tty_room(lx_tty *tty) { (void)tty; return 4096; }
-void bk_tty_status(lx_tty *tty, int running, int status) { (void)tty; (void)running; (void)status; }
+void bk_tty_status(lx_tty *tty, int running, int status)
+{
+	/* (0.37) LX_END_NOTE=1: the line the runner keeps in its end log */
+	(void)tty; (void)status;
+	if (!running && getenv("LX_END_NOTE")) fprintf(stderr, "[end] %s\n", lx_k.end_note);
+}
 
 void bk_log(const char *fmt, ...)
 {

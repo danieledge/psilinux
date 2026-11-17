@@ -20,6 +20,14 @@ check "associative arrays" "5mx arm" "${h[psion]} ${h[cpu]}"
 check "[[ pattern ]]" "yes" "$([[ psion5mx == psion* ]] && echo yes)"
 check "[[ =~ ]]" "5mx" "$([[ 'psion 5mx' =~ ([0-9]+mx) ]] && echo ${BASH_REMATCH[1]})"
 check "here-string" "HELLO" "$(tr a-z A-Z <<< hello)"
+# (0.37) a here-document bigger than a pipe (a file), read by cat (sendfile)
+# into $(...): it hung at 6 KB, as only the waiting shell reads that pipe
+big=$(seq 1 3000)
+c=$(cat <<EOD
+$big
+EOD
+)
+check "big here-document in \$(cat)" "13892" "${#c}"
 x="a.b.c"
 check "\${x//}" "a-b-c" "${x//./-}"
 check "\${x^^}" "A.B.C" "${x^^}"

@@ -1122,3 +1122,38 @@ Alpine Linux's own armhf programs, unmodified, through a binary translator:
   ...)` work.
 - **Tests:** m1test (unlink an open file; F_GETPIPE_SZ), writetest (a fork
   child writing 120 KB, itself and through a program it waits for).
+
+## 65. "Linux has ended" by itself: a fork child's signal, sendfile, and the end log (0.37)
+- **Found:** one run in testing ended with "Linux has ended" (the first
+  program killed by a signal, or ended by the runner) for no visible
+  reason, and was never repeated. Nothing said why: the runner's log is
+  off by default, and its own reasons (End Linux, the app's heartbeat)
+  were not logged at all.
+- **Found while looking:** a fork child (no exec) runs on its parent's
+  thread here (DESIGN.md), and the signals for a thread stayed with the
+  thread when it went back. A child with SIGPIPE blocked that wrote to a
+  pipe nobody reads left a SIGPIPE pending, and its parent, the shell,
+  took it at its next call and ended silently. A write of the child's
+  killed (SIGKILL) while it waited left `t->wdone` too, which the parent's
+  next interrupted call returned. Now the borrow keeps the parent's
+  pending signals and gives the child none; they come back when it is
+  done (an exec takes the child's with it); `t->wdone` is cleared.
+- **Also:** `c=$(cat <<EOF ... EOF)` with a document over 8 KB hung for
+  ever: BusyBox's cat sendfiles into the `$(...)` pipe, and sendfile
+  waited for poll's 4 KB of room, so the pipe never grew for the waiting
+  shell (decision 64). sendfile into a pipe now asks as write does
+  (`lx_pipe_write_waits`).
+- **The heartbeat:** the app's tick (EPriorityLow) is its heartbeat; a
+  steady stream of output keeps the bell's callback (EPriorityStandard)
+  busy and could starve it, and after 45 s the runner ends Linux as if the
+  app had gone. The app now beats in every Pump too.
+- **The end log:** each session's end is one line in
+  `\System\Apps\PsiLinux\PsiLinux-end.log` (beside the runner; 8 KB, then
+  `.old`), always: the time, the version, the runner's reason if it ended
+  it (the app asked; the heartbeat stopped; reboot), and how the first
+  program ended (exit code, or the signal, a fault or not, the last pid
+  that sent it one, the call it was in). The host harness prints it with
+  `LX_END_NOTE=1`.
+- **Tests:** writetest (sendfile from a program a fork child waits for;
+  a fork child's blocked SIGPIPE), bashtest (a 14 KB here-document in
+  `$(cat)`).

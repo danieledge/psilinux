@@ -260,6 +260,7 @@ typedef struct lx_borrow {
 	lx_u32 vfp[32];
 	lx_u32 sigmask[2], saved_sigmask[2];   /* (the child's signal state is its own) */
 	int sigmask_saved;
+	lx_u32 sigpending[2];       /* (and so are the signals for the thread: the parent's, kept) */
 	lx_u32 altstack_sp, altstack_size, clear_child_tid;
 	struct lx_forksnap *snap;   /* fork: the parent's memory, to put back */
 } lx_borrow;
@@ -305,6 +306,9 @@ typedef struct lx_kernel {
 	int init_exited;            /* the first program ended (the session is over) */
 	int first_status;           /* the first program's pid */
 	int first_exit;             /* ...and its wait status, when it has ended */
+	int first_sig_from;         /* (0.37) the pid that last sent the first program a signal (kill, tgkill) */
+	int first_sig;              /* ...and which */
+	char end_note[200];         /* (0.37) why the first program ended, for the runner's end log */
 	int real_init;              /* the first program is pid 1 (Alpine mode's /sbin/init): it reaps orphans */
 	lx_s64 boot_time;           /* realtime at start, in microseconds */
 	lx_s64 start_mono;          /* bk_now_mono() at start */
@@ -525,6 +529,7 @@ int lx_fs_syscall(lx_thread *t, lx_u32 nr, lx_u32 *a);   /* LX_NOSYS if not a fi
 #define LX_NOSYS (-100002)
 int lx_pipe_new(lx_file **r, lx_file **w);
 int lx_pipe_count(lx_file *f);                /* bytes waiting in the pipe */
+int lx_pipe_write_waits(lx_thread *t, lx_file *f, lx_u32 n);   /* would a blocking write of n wait? */
 int lx_write_rest(lx_thread *t, int r, lx_u32 n, int whole);   /* lx_fsys.c: after a write's try */
 int lx_is_stream_sock(lx_file *f);            /* lx_net.c */
 int lx_native_unlink(const char *native);     /* lx_vfs.c: unlink, or at the last close if open */

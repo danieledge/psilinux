@@ -145,6 +145,10 @@ void CLxSession::Pump()
 	{
 	if (!iShared)
 		return;
+	// (0.37) the heartbeat, here too: a steady stream of output keeps the
+	// bell's (higher priority) callback busy, and the tick, at
+	// EPriorityLow, may not run for a long time; an app that pumps is alive
+	Beat();
 	TBool took = EFalse;
 	TUint head = iShared->out_head;
 	while (iShared->out_tail != head)

@@ -10,7 +10,7 @@ rm -rf "$R"; mkdir -p "$R"
 cp "$REPO"/build/psilinux-root/ROOT.I* "$R/"     # (the image and its parts)
 cd "$REPO/build/linux"
 fail=0
-for t in m1test m2test.sh m4test.sh; do
+for t in m1test writetest m2test.sh m4test.sh; do
 	echo "== $t"
 	case $t in *.sh) cmd="/bin/sh /usr/lib/psilinux/tests/$t" ;; *) cmd="/usr/lib/psilinux/tests/$t" ;; esac
 	timeout 600 qemu-arm ./psihost -r test-root $cmd < /dev/null > "$t.log" 2>&1 || true

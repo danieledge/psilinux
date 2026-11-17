@@ -42,26 +42,61 @@ static int do_write(lx_thread *t, lx_file *f, lx_u32 buf, lx_u32 n)
 	return f->ops->write(t, f, (const char *)buf, n);
 }
 
-/* readv/writev: as far as the first short transfer; blocks only if nothing moved */
+/* (0.37) A blocking write to a pipe or a stream socket writes everything,
+ * as Linux's does: a short write waits for room and goes on where it got
+ * to (t->wdone), and the call returns once all is written, or with what
+ * went before an error or a signal. Programs count on it: Alpine's
+ * ssl_client steps through its buffer wrongly after a short write (it
+ * counts bytes as size_t's), so BusyBox's wget https got 8 KB of zeros in
+ * every 16 KB through our 8 KB socketpair. r is this try's result. */
+int lx_write_rest(lx_thread *t, int r, lx_u32 n, int whole)
+{
+	lx_u32 done = t->wdone;
+	if (r == LX_BLOCK) return LX_BLOCK;      /* (what it has written so far is kept) */
+	t->wdone = 0;
+	if (r < 0) return done ? (int)done : r;
+	done += (lx_u32)r;
+	if (whole && r > 0 && done < n) { t->wdone = done; return LX_BLOCK; }
+	return (int)done;
+}
+
+static int whole_writes(lx_file *f)
+{
+	return !(f->flags & LX_O_NONBLOCK) && (lx_is_pipe(f) || lx_is_stream_sock(f));
+}
+
+/* readv/writev: as far as the first short transfer; blocks only if nothing
+ * moved. A blocking writev to a pipe or socket writes it all (lx_write_rest),
+ * skipping the t->wdone bytes an earlier try wrote. */
 static int do_iov(lx_thread *t, lx_file *f, lx_u32 uiov, int cnt, int wr, lx_s64 off, int use_off)
 {
 	struct lx_iovec *iov = (struct lx_iovec *)uiov;
 	int i, total = 0, r;
+	lx_u32 skip = 0, all = 0;
 	if (cnt < 0 || cnt > 1024) return -LX_EINVAL;
 	if (!lx_uaccess(t, uiov, cnt * sizeof *iov)) return -LX_EFAULT;
-	for (i = 0; i < cnt; i++) {
-		if (!iov[i].len) continue;
-		if (!lx_uaccess(t, iov[i].base, iov[i].len)) return total ? total : -LX_EFAULT;
-		if (use_off) {
-			if (wr) r = f->ops->pwrite ? f->ops->pwrite(t, f, (const char *)iov[i].base, iov[i].len, off + total) : -LX_ESPIPE;
-			else r = f->ops->pread ? f->ops->pread(t, f, (char *)iov[i].base, iov[i].len, off + total) : -LX_ESPIPE;
-		} else r = wr ? do_write(t, f, iov[i].base, iov[i].len) : do_read(t, f, iov[i].base, iov[i].len);
-		if (r == LX_BLOCK) return total ? total : LX_BLOCK;
-		if (r < 0) return total ? total : r;
-		total += r;
-		if ((lx_u32)r < iov[i].len) break;
+	if (wr && !use_off && whole_writes(f)) {
+		for (i = 0; i < cnt; i++) all += iov[i].len;
+		skip = t->wdone;
 	}
-	return total;
+	for (i = 0; i < cnt; i++) {
+		lx_u32 base = iov[i].base, len = iov[i].len;
+		if (skip >= len) { skip -= len; continue; }
+		base += skip; len -= skip; skip = 0;
+		if (!len) continue;
+		if (!lx_uaccess(t, base, len)) { r = total ? total : -LX_EFAULT; goto out; }
+		if (use_off) {
+			if (wr) r = f->ops->pwrite ? f->ops->pwrite(t, f, (const char *)base, len, off + total) : -LX_ESPIPE;
+			else r = f->ops->pread ? f->ops->pread(t, f, (char *)base, len, off + total) : -LX_ESPIPE;
+		} else r = wr ? do_write(t, f, base, len) : do_read(t, f, base, len);
+		if (r == LX_BLOCK) { r = total ? total : LX_BLOCK; goto out; }
+		if (r < 0) { r = total ? total : r; goto out; }
+		total += r;
+		if ((lx_u32)r < len) break;
+	}
+	r = total;
+out:
+	return all ? lx_write_rest(t, r, all, 1) : r;
 }
 
 static int sys_stat(lx_thread *t, int dirfd, lx_u32 upath, lx_u32 ust, int flags)
@@ -486,6 +521,8 @@ int lx_fs_syscall(lx_thread *t, lx_u32 nr, lx_u32 *a)
 		return do_read(t, f, a[1], a[2]);
 	case LX_NR_write:
 		if (!(f = lx_fd_get(p, (int)a[0]))) return -LX_EBADF;
+		if (whole_writes(f) && t->wdone < a[2])
+			return lx_write_rest(t, do_write(t, f, a[1] + t->wdone, a[2] - t->wdone), a[2], 1);
 		return do_write(t, f, a[1], a[2]);
 	case LX_NR_readv: case LX_NR_writev:
 		if (!(f = lx_fd_get(p, (int)a[0]))) return -LX_EBADF;

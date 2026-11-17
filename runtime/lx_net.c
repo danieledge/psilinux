@@ -304,6 +304,14 @@ static void sock_free(sock *s)
 
 static const lx_fops sock_ops = { sk_read, sk_write, 0, 0, sk_lseek, sk_fstat, sk_ioctl, sk_poll, 0, sk_close, 0, 0 };
 
+int lx_is_stream_sock(lx_file *f) { return f->ops == &sock_ops && ((sock *)f->priv)->type == LX_SOCK_STREAM; }
+
+/* (0.37) a blocking send on a stream socket sends everything (lx_write_rest) */
+static int whole_send(lx_file *f, int flags)
+{
+	return lx_is_stream_sock(f) && !(f->flags & LX_O_NONBLOCK) && !(flags & LX_MSG_DONTWAIT);
+}
+
 static lx_file *sock_file(sock *s, int flags)
 {
 	lx_file *f = lx_file_new(&sock_ops, s, LX_O_RDWR | (flags & LX_SOCK_NONBLOCK ? LX_O_NONBLOCK : 0));
@@ -607,6 +615,25 @@ static int sys_sendmsg(lx_thread *t, int fd, lx_u32 umsg, int flags, int recv)
 		if (r < 0) return r;
 		to = 1;
 	}
+	if (!recv && whole_send(f, flags)) {
+		/* (all of it, skipping what an earlier try sent) */
+		lx_u32 all = 0, skip = t->wdone;
+		for (i = 0; i < m->iovlen; i++) all += iov[i].len;
+		for (i = 0; i < m->iovlen; i++) {
+			lx_u32 base = iov[i].base, len = iov[i].len;
+			if (skip >= len) { skip -= len; continue; }
+			base += skip; len -= skip; skip = 0;
+			if (!lx_uaccess(t, base, len)) { r = total ? (int)total : -LX_EFAULT; goto sent; }
+			r = sk_send(t, f, (const char *)base, len, flags, to, addr, port);
+			if (r == LX_BLOCK) { r = total ? (int)total : LX_BLOCK; goto sent; }
+			if (r < 0) { r = total ? (int)total : r; goto sent; }
+			total += r;
+			if ((lx_u32)r < len) break;
+		}
+		r = (int)total;
+	sent:
+		return lx_write_rest(t, r, all, 1);
+	}
 	for (i = 0; i < m->iovlen; i++) {
 		if (!iov[i].len) continue;
 		if (!lx_uaccess(t, iov[i].base, iov[i].len)) return total ? (int)total : -LX_EFAULT;
@@ -639,7 +666,7 @@ int lx_net_syscall(lx_thread *t, lx_u32 nr, lx_u32 *a)
 	sock *s;
 	lx_u32 addr;
 	lx_u16 port;
-	int r;
+	int r, to = 0;
 	switch (nr) {
 	case LX_NR_socket: return sys_socket(t, (int)a[0], (int)a[1], (int)a[2]);
 	case LX_NR_socketpair: return sys_socketpair(t, (int)a[0], (int)a[1], (int)a[2], a[3]);
@@ -691,11 +718,14 @@ int lx_net_syscall(lx_thread *t, lx_u32 nr, lx_u32 *a)
 	case LX_NR_send: case LX_NR_sendto:
 		if (!(s = get_sock(t, (int)a[0], &f))) return lx_fd_get(t->proc, (int)a[0]) ? -LX_ENOTSOCK : -LX_EBADF;
 		if (a[2] && !lx_uaccess(t, a[1], a[2])) return -LX_EFAULT;
+		addr = 0; port = 0;
 		if (nr == LX_NR_sendto && a[4]) {
 			if ((r = get_addr(t, a[4], a[5], &addr, &port)) < 0) return r;
-			return sk_send(t, f, (const char *)a[1], a[2], (int)a[3], 1, addr, port);
+			to = 1;
 		}
-		return sk_send(t, f, (const char *)a[1], a[2], (int)a[3], 0, 0, 0);
+		if (whole_send(f, (int)a[3]) && t->wdone < a[2])
+			return lx_write_rest(t, sk_send(t, f, (const char *)a[1] + t->wdone, a[2] - t->wdone, (int)a[3], to, addr, port), a[2], 1);
+		return sk_send(t, f, (const char *)a[1], a[2], (int)a[3], to, addr, port);
 	case LX_NR_recv: case LX_NR_recvfrom:
 		if (!(s = get_sock(t, (int)a[0], &f))) return lx_fd_get(t->proc, (int)a[0]) ? -LX_ENOTSOCK : -LX_EBADF;
 		if (a[2] && !lx_uaccess(t, a[1], a[2])) return -LX_EFAULT;

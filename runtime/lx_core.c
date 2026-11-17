@@ -506,6 +506,7 @@ void lx_reply(lx_thread *t, int r)
 	t->deadline = 0;
 	t->timed_out = 0;
 	t->intr = 0;
+	t->wdone = 0;
 	if (lx_k.trace) bk_log("[%d] = %d", t->tid, r);
 	if (deliver_signal(t)) return;            /* the process ended */
 	if (t->sigmask_saved) {                   /* rt_sigsuspend & co: the old mask is back */
@@ -573,6 +574,11 @@ static void dispatch(lx_thread *t)
 			if ((SIGHAS(p->sigpending, s) || SIGHAS(t->sigpending, s)) && !SIGHAS(t->sigmask, s)) { sig = s; break; }
 		if (sig) {
 			struct lx_ksigaction *sa = &p->sigact[sig];
+			if (t->wdone) {
+				/* (a write that had written part: it returns that, as Linux's does) */
+				lx_reply(t, (int)t->wdone);
+				return;
+			}
 			if (sa->handler > LX_SIG_IGN && (sa->flags & LX_SA_RESTART) && restartable(t->nr)) {
 				t->restart = 1;
 				t->restart_r0 = t->frame[0];

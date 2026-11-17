@@ -241,6 +241,7 @@ struct lx_thread {
 	int intr;                   /* a signal came: the call returns EINTR */
 	int restart;                /* ...or is made again after the handler (SA_RESTART) */
 	lx_u32 restart_r0;
+	lx_u32 wdone;               /* a blocking write to a pipe or stream socket: what it has written so far (lx_write_rest) */
 	lx_u32 saved_sigmask[2];    /* rt_sigsuspend, ppoll, pselect: the mask before */
 	int sigmask_saved;
 	int fault;                  /* the exception handler reported a fault (LX_SIGSEGV...) */
@@ -524,6 +525,8 @@ int lx_fs_syscall(lx_thread *t, lx_u32 nr, lx_u32 *a);   /* LX_NOSYS if not a fi
 #define LX_NOSYS (-100002)
 int lx_pipe_new(lx_file **r, lx_file **w);
 int lx_pipe_count(lx_file *f);                /* bytes waiting in the pipe */
+int lx_write_rest(lx_thread *t, int r, lx_u32 n, int whole);   /* lx_fsys.c: after a write's try */
+int lx_is_stream_sock(lx_file *f);            /* lx_net.c */
 
 /* lx_pty.c: pseudo-terminals */
 int lx_pty_room(lx_tty *t);

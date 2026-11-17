@@ -2307,7 +2307,7 @@ int lx_k_stop_done(void)
 		if (lx_k.procs[i].state == LX_P_ALIVE) alive++;
 	if (!alive) return 1;
 	if (lx_now() < lx_k.stop_at) return 0;
-	bk_log("%d programs did not end: they are ended", alive);
+	bk_log("%d of the programs left did not end in time: they are ended", alive);
 	for (i = 0; i < LX_MAXPROC; i++)
 		if (lx_k.procs[i].state == LX_P_ALIVE) lx_proc_exit(&lx_k.procs[i], LX_SIGKILL);
 	return 1;

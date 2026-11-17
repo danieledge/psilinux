@@ -399,6 +399,7 @@ int bk_rename(const char *from, const char *to);
 int bk_set_mtime(const char *path, lx_s64 mtime);
 int bk_set_readonly(const char *path, int on);   /* (0.36) chmod a-w / u+w on a Psion disk */
 int bk_same_file(const char *a, const char *b);  /* (0.36) the same file, names compared as the disk does (EPOC: case-blind) */
+int bk_replace(const char *from, const char *to);   /* (0.36) rename a file over another, which stays if it cannot be done */
 /* (0.36) EPOC requests (lx_epoc.c, common/lxepoc.h): one at a time */
 int bk_epoc_ready(void);                      /* 1: something answers them (PsiLinux.app) */
 int bk_epoc_send(const char *req, int len);   /* 0, or -errno */

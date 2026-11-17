@@ -1344,7 +1344,7 @@ extern "C" int bk_rename(const char* from, const char* to)
 	Trim(a);
 	Trim(b);
 	TInt r = gFs.Rename(a, b);
-	if (r == KErrAlreadyExists && a.CompareF(b) == 0 && a.Compare(b) != 0)
+	if (r == KErrAlreadyExists && a.CompareF(b) == 0 && a.Compare(b) != 0 && b.Length() + 3 <= b.MaxLength())
 		{
 		// (0.36) only the case changes ("mv letter Letter"): by way of
 		// another name, in case the file server takes it for a clash
@@ -1355,6 +1355,17 @@ extern "C" int bk_rename(const char* from, const char* to)
 			gFs.Rename(t, a);
 		}
 	return Err(r);
+	}
+
+// (0.36) a file renamed over another: RFs::Replace does it in one call, and
+// leaves the old file as it was if it cannot (either of them open, the old
+// one read-only)
+extern "C" int bk_replace(const char* from, const char* to)
+	{
+	TFileName a, b;
+	Name(a, from);
+	Name(b, to);
+	return Err(gFs.Replace(a, b));
 	}
 
 extern "C" int bk_same_file(const char* a, const char* b)

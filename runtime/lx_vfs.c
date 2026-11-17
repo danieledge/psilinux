@@ -937,7 +937,11 @@ int lx_vfs_rename(lx_proc *p, int olddir, const char *from, int newdir, const ch
 		 * file, which must be renamed, never deleted first */
 		if (rb == 0 && bk_same_file(va.native, vb.native)) return bk_rename(va.native, vb.native);
 		if (rb == 0) {
-			r = LX_S_ISDIR(vb.mode) ? bk_rmdir(vb.native) : bk_unlink(vb.native);
+			/* (0.36) a file over a file in one step: deleting the old one
+			 * first lost it when the rename then failed (EPOC will not
+			 * rename a file that is open) */
+			if (!LX_S_ISDIR(vb.mode)) return bk_replace(va.native, vb.native);
+			r = bk_rmdir(vb.native);
 			if (r < 0) return r;
 		}
 		return bk_rename(va.native, vb.native);

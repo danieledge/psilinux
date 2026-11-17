@@ -430,6 +430,7 @@ int bk_mkdir(const char *path) { char hb[LX_PATH_MAX]; return mkdir(host_path(pa
 int bk_rmdir(const char *path) { char hb[LX_PATH_MAX]; return rmdir(host_path(path, hb)) ? lxerr(errno) : 0; }
 int bk_unlink(const char *path) { char hb[LX_PATH_MAX]; return unlink(host_path(path, hb)) ? lxerr(errno) : 0; }
 int bk_rename(const char *a, const char *b) { char h1[LX_PATH_MAX], h2[LX_PATH_MAX]; return rename(host_path(a, h1), host_path(b, h2)) ? lxerr(errno) : 0; }
+int bk_replace(const char *a, const char *b) { return bk_rename(a, b); }
 int bk_set_mtime(const char *path, lx_s64 mtime)
 {
 	char hb[LX_PATH_MAX];

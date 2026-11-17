@@ -412,11 +412,14 @@ void CLxEpoc::RunAppL()
 	TUid uid;
 	TFileName dll;
 	TBuf<64> caption;
-	// a program file (an .exe, or an .app named by its path)
-	TParsePtrC pp(name);
+	// a program file (an .exe, or an .app named by its path). (TParse, not
+	// TParsePtrC, which panics on a name EPOC cannot parse: the name is
+	// whatever was typed)
+	TParse pp;
+	TBool parsed = pp.Set(name, NULL, NULL) == KErrNone;
 	if (FindApp(name, uid, dll, caption) != KErrNone)
 		{
-		if (pp.Ext().CompareF(_L(".exe")) == 0)
+		if (parsed && pp.Ext().CompareF(_L(".exe")) == 0)
 			{
 			TThreadId tid = EikDll::StartExeL(name);
 			Field(name, ETrue);
@@ -930,8 +933,8 @@ void CLxEpoc::AlertL(TBool aConfirm)
 		}
 	ArgEpoc(0, iLine1);
 	ArgEpoc(1, iLine2);
-	ArgEpoc(2, iBut1);
-	ArgEpoc(3, iBut2);
+	ArgEpoc(2, iBut2);                       // (lxepoc.h: yes, then no; Yes is the second button)
+	ArgEpoc(3, iBut1);
 	for (TInt i = 0; i < iLine2.Length(); i++)
 		if ((TUint)iLine2[i] == CEditableText::EParagraphDelimiter)
 			iLine2[i] = ' ';
@@ -1048,7 +1051,14 @@ void CLxEpoc::ShotL()
 		want.Format(_L("%c:\\Screenshots\\Screen %04d-%02d-%02d %02d-%02d-%02d.mbm"), card ? 'D' : 'C',
 			d.Year(), d.Month() + 1, d.Day() + 1, d.Hour(), d.Minute(), d.Second());
 		}
-	TParsePtrC wp(want);
+	TParse wp;                               // (not TParsePtrC: it panics on a bad name)
+	if (wp.Set(want, NULL, NULL) != KErrNone)
+		{
+		CleanupStack::PopAndDestroy();       // bm
+		Text(_L8("not a file name EPOC can use"));
+		Answer(LXE_FAILED, KErrBadName);
+		return;
+		}
 	if (wp.Ext().CompareF(_L(".png")) == 0)
 		{
 		CleanupStack::PopAndDestroy();       // bm

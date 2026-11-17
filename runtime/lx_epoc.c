@@ -80,6 +80,8 @@ static int epoc_name(lx_proc *p, const char *path, int may_be_new, char *native,
 	if (r < 0) { *why = "no such folder"; return LXE_NOTFOUND; }
 	r = lx_vn_lookup(p, c, &v);
 	if (r < 0 && !(may_be_new && r == -LX_ENOENT)) { *why = "no such file"; return LXE_NOTFOUND; }
+	/* (a file to be written - epoc shot's - not where Linux may not write: Z:, a \\System folder) */
+	if (may_be_new && lx_vn_writable(&v) < 0) { *why = "read-only to Linux (the ROM, or a System folder)"; return LXE_REFUSED; }
 	if (v.fs == LX_FS_NATIVE && v.native[0]) { lx_strlcpy(native, v.native, max); return LXE_OK; }
 	if (v.fs == LX_FS_ROOT && r == 0 && v.upper && v.native[0]) { lx_strlcpy(native, v.native, max); return LXE_OK; }
 	*why = "not on a Psion disk (use /psion/c, /psion/d...)";
@@ -155,6 +157,7 @@ static int ep_write(lx_thread *t, lx_file *f, const char *buf, lx_u32 n)
 			k++;
 		}
 		if (k == 0 && plen) { bk_memcpy(e->req + HDR, pl, plen); o = HDR + plen; }   /* (not strings: as it is) */
+		e->req[o] = 0;                           /* (PATH below reads it as a string, even with none sent) */
 		h.len = (unsigned)(o - HDR);
 		e->reqlen = o;
 	}

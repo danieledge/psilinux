@@ -71,6 +71,8 @@ $E beep; ok "$?" "0" "epoc beep"
 echo "from a pipe" | $E clip set; ok "$($E clip get)" "from a pipe" "epoc clip, through pipes"
 $E clip set one two; ok "$($E clip)" "one two" "epoc clip set TEXT"
 $E shot /psion/c/shot.png > /dev/null; ok "$(cat /psion/c/shot.png)" "pretend screenshot" "epoc shot FILE"
+$E shot /psion/c/System/shot.png 2>/dev/null; ok "$?" "4" "epoc shot into \\System is refused"
+ok "$(ls /psion/c/System/shot.png 2>/dev/null)" "" "...and nothing is written there"
 # for scripts
 $E nonesuch 2>/dev/null; ok "$?" "2" "a bad command: 2"
 ok "$($E note quietly)" "" "quiet on success"

@@ -622,8 +622,15 @@ program closes; `epoc wait Word` waits for one that is running;
 `epoc wait-file PATH` until a file is there (`--gone`, `--change`);
 `epoc wait-battery 90` until the battery is at least 90% (`--below 20`).
 
-These three are in `/usr/share/psilinux/examples/`. Back up your documents to
-the card, in a folder named by the date:
+These three are in `/usr/share/psilinux/examples/`. On a 5mx in the emulator,
+backup-docs first finds the documents Psion's programs hold open, then, after
+`epoc close` of each, copies them all:
+
+| | |
+|---|---|
+| ![backup-docs: the open documents listed, and a message](docs/img/5mx-epoc-backup-busy.png) | ![backup-docs after epoc close: exit 0, every document on the card](docs/img/5mx-epoc-backup.png) |
+
+Back up your documents to the card, in a folder named by the date:
 
 ```sh
 #!/bin/sh

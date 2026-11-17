@@ -972,10 +972,11 @@ Alpine Linux's own armhf programs, unmodified, through a binary translator:
   socketpair) gives zeros in place of the data in long answers under
   PsiLinux 0.36 (the second 8 KB of every 16 KB past the first 8 KB, the
   same each time; ssl_client writing to a file, and a socketpair on its
-  own, are right). Until that is found, the catalogue's files are at most
-  8 KB and each is checked as it comes (a packed one must unpack, a text
-  has no NUL), and the packages come from the mirror over plain http,
-  which apk's signature check makes safe.
+  own, are right). The catalogue's files are at most 8 KB and each is
+  checked as it comes (a packed one must unpack, a text has no NUL). The
+  cause was found in 0.37 (decision 63); the packages now come from the
+  mirror over https again, plain http only if https fails (apk's signature
+  check makes that safe).
 - **Alternatives:** a new repository for the catalogue (not needed: this
   repository's Pages were free); one file per search (25,000 names is 80 KB
   packed, too slow over serial); Alpine's own apk on the netBook (it needs
@@ -1045,3 +1046,25 @@ Alpine Linux's own armhf programs, unmodified, through a binary translator:
   at login (perhaps bash deleting its file in /tmp while it is open, which
   EPOC refuses; the host harness, on Linux's own files, does not show it).
   Not looked into further here.
+
+## 63. A blocking write to a pipe or a stream socket writes everything (0.37)
+- **Found:** BusyBox wget's https downloads had 8 KB of zeros in every
+  16 KB. wget reads from Alpine's `ssl_client` through a socketpair (two
+  8 KB pipes here). ssl_client writes each TLS record (up to 16 KB) with one
+  `write`; ours wrote what fitted and returned less, and ssl_client's loop
+  then went on from the wrong place: its buffer is `size_t buf[]` and it
+  counts bytes as elements (`&buf[i]`, `i += r`), so the rest came from 4
+  times as far in, from zeros. On Linux this never shows: a blocking write
+  to a pipe or a stream socket returns only when all is written (POSIX), and
+  a socketpair holds far more than 16 KB.
+- **Chosen:** as Linux: a blocking `write`, `writev`, `send`, `sendto` or
+  `sendmsg` to a pipe or a stream socket (AF_UNIX or TCP) that writes part
+  waits for room and goes on where it got to (`t->wdone`, kept while the
+  call is parked, so the registers are untouched), and returns once all is
+  written; with what went before an error, or before a signal (no
+  SA_RESTART restart then, as Linux). Non-blocking ones still write what
+  fits. `tests/writetest.c` (in `tests/run-host.sh`) checks each call, a
+  signal in the middle, and the bytes.
+- **Alternatives:** bigger pipes for socketpairs (only moves the edge, and
+  costs the Psion's memory); patching ssl_client (Alpine's own package; any
+  program counting on full writes would still break).

@@ -24,8 +24,8 @@
 # "psiproxy" with no address set also tries the Atom modem's own proxy on
 # its PPP link (192.168.7.1), which passes /_apk/ on to the PsiProxy set in
 # the modem (AT$PU), or answers 501 when it has none.
-# Packages come from Alpine's mirror (APK_MIRROR, plain http: apk checks
-# their signatures), or through the PsiProxy when that is the source
+# Packages come from Alpine's mirror (APK_MIRROR, https; apk checks their
+# signatures too), or through the PsiProxy when that is the source
 # (APK_DIRECT=1: the mirror instead).
 
 REAL=/sbin/apk
@@ -47,9 +47,9 @@ APK_MIRROR=
 [ -n "$ENV_CATALOGUE" ] && APK_CATALOGUE=$ENV_CATALOGUE
 [ -n "$ENV_MIRROR" ] && APK_MIRROR=$ENV_MIRROR
 CAT=${APK_CATALOGUE:-https://danieledge.github.io/psilinux/apk/$BRANCH/$ARCH}
-# (plain http: apk checks every package's signature, and BusyBox wget's
-# https here can damage what comes after the first 8 KB of a download)
-MIRROR=${APK_MIRROR:-http://dl-cdn.alpinelinux.org/alpine/$BRANCH}
+# (https since 0.37, which fixed BusyBox wget's damaged https downloads;
+# plain http if https does not work, as apk checks every signature)
+MIRROR=${APK_MIRROR:-https://dl-cdn.alpinelinux.org/alpine/$BRANCH}
 CATC=$CACHE/cat
 OFFLINE="--repositories-file /dev/null --no-network --no-cache"
 
@@ -188,7 +188,7 @@ probe_proxy() {
 
 # the fetcher, a small script of its own (the resolver's awk runs it too):
 # $CAT/REL into FILE, checked (a .gz must unpack, a text has no NUL bytes:
-# BusyBox wget's https here can fill a long answer with zeros), once more if
+# BusyBox wget's https under 0.36 filled long answers with zeros), once more if
 # it came damaged; a packed record (p/NAME is "gz<TAB>1") is fetched as
 # p/NAME.gz and unpacked. Exit: 0 got it, 1 the catalogue has no such
 # file, 2 no answer (offline), 3 damaged twice
@@ -705,7 +705,7 @@ install_plan() {
 			rm -f "$CACHE/$file.part"
 			case "$url" in
 			https://*)
-				# (https does not work here: plain http; apk checks the signature)
+				# (https does not work here, a TLS failure or a clock far out: plain http; apk checks the signature)
 				if ! grep -q ' 404 ' "$ERR" 2>/dev/null && wg -T 120 -O "$CACHE/$file.part" "http://${url#https://}"; then
 					MIRROR="http://${MIRROR#https://}"
 					echo "(https to the mirror does not work here: plain http, apk checks the signatures)"

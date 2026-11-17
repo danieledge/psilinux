@@ -17,6 +17,7 @@ grep -q "^OK (simulated)" /tmp/p && ok "add -s git: the plan ($(( $(date +%s) - 
 t0=$(date +%s)
 apk add git > /tmp/a 2>&1; tail -4 /tmp/a
 git --version > /tmp/g 2>&1 && ok "add git, and it runs: $(cat /tmp/g) ($(( $(date +%s) - t0 )) s)" || { bad "add git"; cat /tmp/a /tmp/g; }
+grep -q "plain http" /tmp/a && bad "the packages came over plain http" || ok "the packages came over https"
 grep -qx git /etc/apk/world && ok "git is in the world file" || bad "world"
 apk info -e git > /dev/null 2>&1 && ok "the real apk has it (signatures checked)" || bad "apk info -e git"
 t0=$(date +%s)

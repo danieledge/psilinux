@@ -1,0 +1,14 @@
+name	perl-want
+version	0.29-r12
+description	Perl module for Want
+url	https://metacpan.org/release/Want/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	16460
+installed-size	35872
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-want
+repo	main
+file	perl-want-0.29-r12.apk
+checksum	Q1gDZPc4LesjN5WHS1Nbb0sFh27DY=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

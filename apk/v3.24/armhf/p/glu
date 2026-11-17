@@ -1,0 +1,16 @@
+name	glu
+version	9.0.3-r4
+description	Mesa OpenGL Utility library
+url	https://cgit.freedesktop.org/mesa/glu/
+license	SGI-B-1.1 AND SGI-B-2.0
+size	107807
+installed-size	234880
+depends	so:libGL.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	glu
+repo	main
+file	glu-9.0.3-r4.apk
+checksum	Q1VaV32nf2NntnJcT4hqkzyB+uT8U=
+dep	so:libGL.so.1	mesa-gl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

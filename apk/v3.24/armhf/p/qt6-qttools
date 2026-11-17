@@ -1,0 +1,26 @@
+name	qt6-qttools
+version	6.11.1-r0
+description	A cross-platform application and UI framework (Development Tools, QtHelp)
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	2730661
+installed-size	6647794
+depends	so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Designer.so.6 so:libQt6DesignerComponents.so.6 so:libQt6Gui.so.6 so:libQt6Help.so.6 so:libQt6Network.so.6 so:libQt6PrintSupport.so.6 so:libQt6Sql.so.6 so:libQt6Widgets.so.6 so:libQt6Xml.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	qt6-qttools
+repo	community
+file	qt6-qttools-6.11.1-r0.apk
+checksum	Q144TMFeV0e/IJbrXdP/Ig6FGLykc=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6DBus.so.6	qt6-qtbase
+dep	so:libQt6Designer.so.6	qt6-qttools-libs
+dep	so:libQt6DesignerComponents.so.6	qt6-qttools-libs
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Help.so.6	qt6-qttools-libs
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6PrintSupport.so.6	qt6-qtbase-x11
+dep	so:libQt6Sql.so.6	qt6-qtbase
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libQt6Xml.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

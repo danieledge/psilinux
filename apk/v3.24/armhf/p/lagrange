@@ -1,0 +1,25 @@
+name	lagrange
+version	1.21.2-r0
+description	Beautiful Gemini client
+url	https://gmi.skyjake.fi/lagrange
+license	BSD-2-Clause
+size	5074234
+installed-size	6658505
+depends	so:libSDL2-2.0.so.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libfribidi.so.0 so:libharfbuzz.so.0 so:libmpg123.so.0 so:libncursesw.so.6 so:libopusfile.so.0 so:libpcre2-8.so.0 so:libssl.so.3 so:libunistring.so.5 so:libwebpdecoder.so.3 so:libz.so.1
+origin	lagrange
+repo	community
+file	lagrange-1.21.2-r0.apk
+checksum	Q1v9xyDnBFykATCfvcxRkqP17Cu9o=
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libfribidi.so.0	fribidi
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:libmpg123.so.0	mpg123-libs
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libopusfile.so.0	opusfile
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libssl.so.3	libssl3
+dep	so:libunistring.so.5	libunistring
+dep	so:libwebpdecoder.so.3	libwebpdecoder
+dep	so:libz.so.1	zlib

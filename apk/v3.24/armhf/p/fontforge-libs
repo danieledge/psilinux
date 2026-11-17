@@ -1,0 +1,32 @@
+name	fontforge-libs
+version	20251009-r1
+description	Free (libre) font editor (libraries)
+url	https://fontforge.org/
+license	GPL-3.0-or-later
+size	1987135
+installed-size	4301348
+depends	so:libc.musl-armhf.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libgif.so.7 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libiconv.so.2 so:libintl.so.8 so:libjpeg.so.8 so:libpng16.so.16 so:libpython3.14.so.1.0 so:libreadline.so.8 so:libspiro.so.1 so:libstdc++.so.6 so:libtiff.so.6 so:libwoff2dec.so.1.0.2 so:libwoff2enc.so.1.0.2 so:libxml2.so.2 so:libz.so.1
+origin	fontforge
+repo	community
+file	fontforge-libs-20251009-r1.apk
+checksum	Q1/EG4B2SwQqMHiExw8AmjXc2DB/g=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgif.so.7	giflib
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libiconv.so.2	gnu-libiconv-libs
+dep	so:libintl.so.8	libintl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpng16.so.16	libpng
+dep	so:libpython3.14.so.1.0	python3
+dep	so:libreadline.so.8	readline
+dep	so:libspiro.so.1	libspiro
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtiff.so.6	tiff
+dep	so:libwoff2dec.so.1.0.2	libwoff2enc
+dep	so:libwoff2enc.so.1.0.2	libwoff2dec
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

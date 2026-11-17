@@ -1,0 +1,16 @@
+name	glycin-loaders-all
+version	2.1.5-r0
+description	Sandboxed and extendable image decoding (all loaders)
+url	https://gitlab.gnome.org/GNOME/glycin
+license	MPL-2.0 OR LGPL-2.0-or-later
+size	1318
+installed-size	0
+depends	glycin-heif glycin-image-rs glycin-jxl glycin-svg
+origin	glycin
+repo	community
+file	glycin-loaders-all-2.1.5-r0.apk
+checksum	Q1OJfKUV+FJtpKJCX8pDSCY+XFvh4=
+dep	glycin-heif	glycin-heif
+dep	glycin-image-rs	glycin-image-rs
+dep	glycin-jxl	glycin-jxl
+dep	glycin-svg	glycin-svg

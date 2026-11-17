@@ -1,0 +1,15 @@
+name	inih-inireader-dev
+version	62-r0
+description	Simple .INI file parser for embedded systems (development files)
+url	https://github.com/benhoyt/inih
+license	BSD-3-Clause
+size	16324
+installed-size	51704
+depends	inih-inireader=62-r0 pc:inih pkgconfig
+origin	inih
+repo	main
+file	inih-inireader-dev-62-r0.apk
+checksum	Q1MfnIkNbX6ADH52d4+/73wEpzR/8=
+dep	inih-inireader=62-r0	inih-inireader
+dep	pc:inih	inih-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,24 @@
+name	m17n-lib
+version	1.8.6-r1
+description	gnu M-text multilingualization library
+url	https://www.nongnu.org/m17n/
+license	LGPL-2.1-or-later
+size	157145
+installed-size	340004
+depends	m17n-db so:libX11.so.6 so:libXft.so.2 so:libXt.so.6 so:libanthy.so.0 so:libc.musl-armhf.so.1 so:libfontconfig.so.1 so:libfreetype.so.6 so:libfribidi.so.0 so:libintl.so.8 so:libm17n-core.so.0 so:libm17n-flt.so.0
+origin	m17n-lib
+repo	community
+file	m17n-lib-1.8.6-r1.apk
+checksum	Q1AG1t17QZbJGBWc1YzFVqCSqo+G8=
+dep	m17n-db	m17n-db
+dep	so:libX11.so.6	libx11
+dep	so:libXft.so.2	libxft
+dep	so:libXt.so.6	libxt
+dep	so:libanthy.so.0	anthy
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libfribidi.so.0	fribidi
+dep	so:libintl.so.8	libintl
+dep	so:libm17n-core.so.0	libm17n-core
+dep	so:libm17n-flt.so.0	libm17n-flt

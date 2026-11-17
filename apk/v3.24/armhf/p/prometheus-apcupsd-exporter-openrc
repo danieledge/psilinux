@@ -1,0 +1,12 @@
+name	prometheus-apcupsd-exporter-openrc
+version	0.3.0-r13
+description	Prometheus exporter that exposes metrics from apcupsd (OpenRC init scripts)
+url	https://github.com/mdlayher/apcupsd_exporter
+license	MIT
+size	1961
+installed-size	610
+depends	
+origin	prometheus-apcupsd-exporter
+repo	community
+file	prometheus-apcupsd-exporter-openrc-0.3.0-r13.apk
+checksum	Q1Mn7GFKNBNTq212FO6DSQ90YkBDo=

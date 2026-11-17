@@ -1,0 +1,13 @@
+name	pwgen
+version	2.08-r3
+description	A Password Generator
+url	https://github.com/tytso/pwgen
+license	GPL-2.0-only
+size	11718
+installed-size	22332
+depends	so:libc.musl-armhf.so.1
+origin	pwgen
+repo	main
+file	pwgen-2.08-r3.apk
+checksum	Q1XpdHTeUPHh7GCbYBISo8+KAdlzE=
+dep	so:libc.musl-armhf.so.1	musl

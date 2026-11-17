@@ -1,0 +1,15 @@
+name	wifish
+version	1.1.4-r3
+description	Simple wifi menu tool for wpa_supplicant
+url	https://github.com/bougyman/wifish
+license	WTFPL
+size	6631
+installed-size	12955
+depends	wpa_supplicant gawk dialog
+origin	wifish
+repo	community
+file	wifish-1.1.4-r3.apk
+checksum	Q1qS+g/3BCT+uS++P6WyMWRYebkNU=
+dep	wpa_supplicant	wpa_supplicant
+dep	gawk	gawk
+dep	dialog	dialog

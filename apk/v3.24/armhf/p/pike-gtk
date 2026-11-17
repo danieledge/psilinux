@@ -1,0 +1,21 @@
+name	pike-gtk
+version	8.0.2040-r1
+description	Pike programming language (GTK2 support)
+url	https://pike.lysator.liu.se/
+license	GPL-2.0-or-later
+size	297940
+installed-size	965989
+depends	pike-image=8.0.2040-r1 so:libc.musl-armhf.so.1 so:libgdk-x11-2.0.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-x11-2.0.so.0 so:libpango-1.0.so.0
+origin	pike
+repo	community
+file	pike-gtk-8.0.2040-r1.apk
+checksum	Q1eKoYFeAUFAJtk+ZewyaZU/rcj+o=
+dep	pike-image=8.0.2040-r1	pike-image
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-x11-2.0.so.0	gtk+2.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-x11-2.0.so.0	gtk+2.0
+dep	so:libpango-1.0.so.0	pango

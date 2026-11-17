@@ -1,0 +1,14 @@
+name	perl-pathtools
+version	3.75-r12
+description	Tools for working with directory and file names
+url	https://metacpan.org/release/PathTools/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	41332
+installed-size	126789
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-pathtools
+repo	main
+file	perl-pathtools-3.75-r12.apk
+checksum	Q1VrdFCCYRqFsx5QrGSHmDMFQd0hE=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

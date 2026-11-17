@@ -1,0 +1,16 @@
+name	ptex
+version	2.5.2-r0
+description	texture mapping system by Walt Disney Animation Studios
+url	https://ptex.us/
+license	BSD-3-Clause
+size	188730
+installed-size	777060
+depends	so:libc.musl-armhf.so.1 so:libdeflate.so.0 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	ptex
+repo	community
+file	ptex-2.5.2-r0.apk
+checksum	Q1JBePhpHs1wZ9UjW8e/TWnRVBCrA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdeflate.so.0	libdeflate
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,19 @@
+name	file-roller-nautilus
+version	44.5-r1
+description	File Roller nautilus extension
+url	https://gitlab.gnome.org/GNOME/file-roller
+license	GPL-2.0-or-later
+size	5422
+installed-size	9404
+depends	cpio so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libnautilus-extension.so.4
+origin	file-roller
+repo	community
+file	file-roller-nautilus-44.5-r1.apk
+checksum	Q1CONBMhFjGqXIx/U0a4+6GsPM73Y=
+dep	cpio	cpio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libnautilus-extension.so.4	nautilus

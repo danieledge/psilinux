@@ -1,0 +1,14 @@
+name	llhttp-dev
+version	9.4.4-r0
+description	Port of http_parser to llparse (development files)
+url	https://llhttp.org/
+license	MIT
+size	12751
+installed-size	40704
+depends	llhttp=9.4.4-r0 pkgconfig
+origin	llhttp
+repo	community
+file	llhttp-dev-9.4.4-r0.apk
+checksum	Q1EDsi5bQHa01Q//WAtZ0abGSJ9KU=
+dep	llhttp=9.4.4-r0	llhttp
+dep	pkgconfig	pkgconf

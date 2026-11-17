@@ -1,0 +1,18 @@
+name	gitui
+version	0.28.1-r0
+description	Blazing fast terminal client for git
+url	https://github.com/extrawurst/gitui
+license	MIT
+size	3924385
+installed-size	6807008
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgit2.so.1.9 so:libonig.so.5 so:libssh2.so.1 so:libssl.so.3
+origin	gitui
+repo	community
+file	gitui-0.28.1-r0.apk
+checksum	Q1eVFrswXf10J5upDCwCyPBhiDr8k=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgit2.so.1.9	libgit2
+dep	so:libonig.so.5	oniguruma
+dep	so:libssh2.so.1	libssh2
+dep	so:libssl.so.3	libssl3

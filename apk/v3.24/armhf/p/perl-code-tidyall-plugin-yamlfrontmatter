@@ -1,0 +1,19 @@
+name	perl-code-tidyall-plugin-yamlfrontmatter
+version	1.000003-r1
+description	TidyAll plugin for validating YAML Front Matter
+url	https://metacpan.org/release/Code-TidyAll-Plugin-YAMLFrontMatter/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	4683
+installed-size	5564
+depends	perl perl-path-tiny perl-code-tidyall perl-moo perl-namespace-autoclean perl-yaml-pp perl-try-tiny
+origin	perl-code-tidyall-plugin-yamlfrontmatter
+repo	community
+file	perl-code-tidyall-plugin-yamlfrontmatter-1.000003-r1.apk
+checksum	Q13KERUzl/Z8RDcuvkGQyt0pcAuJ4=
+dep	perl	perl
+dep	perl-path-tiny	perl-path-tiny
+dep	perl-code-tidyall	perl-code-tidyall
+dep	perl-moo	perl-moo
+dep	perl-namespace-autoclean	perl-namespace-autoclean
+dep	perl-yaml-pp	perl-yaml-pp
+dep	perl-try-tiny	perl-try-tiny

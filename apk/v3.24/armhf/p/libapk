@@ -1,0 +1,16 @@
+name	libapk
+version	3.0.9-r0
+description	Alpine Package Keeper - package manager for alpine
+url	https://gitlab.alpinelinux.org/alpine/apk-tools
+license	GPL-2.0-only
+size	134136
+installed-size	263980
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3 so:libz.so.1
+origin	apk-tools
+repo	main
+file	libapk-3.0.9-r0.apk
+checksum	Q13MSKGiVSyZbodTEFcgmVxDuMYqg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3
+dep	so:libz.so.1	zlib

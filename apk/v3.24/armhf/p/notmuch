@@ -1,0 +1,19 @@
+name	notmuch
+version	0.40-r2
+description	E-Mail index, search and tagging
+url	https://notmuchmail.org/
+license	GPL-3.0-or-later
+size	60458
+installed-size	137404
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgmime-3.0.so.0 so:libgobject-2.0.so.0 so:libnotmuch.so.5 so:libtalloc.so.2 so:libz.so.1
+origin	notmuch
+repo	community
+file	notmuch-0.40-r2.apk
+checksum	Q13oWisDMn06OypfdGV2RuuyOWvOs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmime-3.0.so.0	gmime
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libnotmuch.so.5	notmuch-libs
+dep	so:libtalloc.so.2	talloc
+dep	so:libz.so.1	zlib

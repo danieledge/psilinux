@@ -1,0 +1,28 @@
+name	modemmanager
+version	1.25.95_git20260527-r1
+description	ModemManager library
+url	https://www.freedesktop.org/wiki/Software/ModemManager
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	1288403
+installed-size	3782626
+depends	dbus libmm-glib=1.25.95_git20260527-r1 mobile-broadband-provider-info polkit so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgudev-1.0.so.0 so:libintl.so.8 so:libmbim-glib.so.4 so:libmm-glib.so.0 so:libpolkit-gobject-1.so.0 so:libqmi-glib.so.5 so:libqrtr-glib.so.0
+origin	modemmanager
+repo	community
+file	modemmanager-1.25.95_git20260527-r1.apk
+checksum	Q1L7jUVqXOnKZtZ1Vct3eSTk3g424=
+dep	dbus	dbus
+dep	libmm-glib=1.25.95_git20260527-r1	libmm-glib
+dep	mobile-broadband-provider-info	mobile-broadband-provider-info
+dep	polkit	polkit
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgudev-1.0.so.0	libgudev
+dep	so:libintl.so.8	libintl
+dep	so:libmbim-glib.so.4	libmbim
+dep	so:libmm-glib.so.0	libmm-glib
+dep	so:libpolkit-gobject-1.so.0	polkit-noelogind-libs
+dep	so:libqmi-glib.so.5	libqmi
+dep	so:libqrtr-glib.so.0	libqrtr-glib

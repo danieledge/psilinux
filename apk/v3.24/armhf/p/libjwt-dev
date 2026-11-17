@@ -1,0 +1,16 @@
+name	libjwt-dev
+version	3.3.3-r0
+description	The C JSON Web Token Library +JWK +JWKS (development files)
+url	https://github.com/benmcollins/libjwt
+license	MPL-2.0
+size	17053
+installed-size	58683
+depends	libjwt=3.3.3-r0 pc:jansson pc:openssl pkgconfig
+origin	libjwt
+repo	community
+file	libjwt-dev-3.3.3-r0.apk
+checksum	Q1XU8FhTbkurPf6lYu1YWLqdxLl6Q=
+dep	libjwt=3.3.3-r0	libjwt
+dep	pc:jansson	jansson-dev
+dep	pc:openssl	openssl-dev
+dep	pkgconfig	pkgconf

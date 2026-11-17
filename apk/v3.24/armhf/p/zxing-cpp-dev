@@ -1,0 +1,14 @@
+name	zxing-cpp-dev
+version	2.3.0-r3
+description	C++ port of ZXing (development files)
+url	https://github.com/zxing-cpp/zxing-cpp
+license	Apache-2.0
+size	27721
+installed-size	77225
+depends	zxing-cpp=2.3.0-r3 pkgconfig
+origin	zxing-cpp
+repo	community
+file	zxing-cpp-dev-2.3.0-r3.apk
+checksum	Q11DWY8dmOaBK0nGpWRtTL00zVuc8=
+dep	zxing-cpp=2.3.0-r3	zxing-cpp
+dep	pkgconfig	pkgconf

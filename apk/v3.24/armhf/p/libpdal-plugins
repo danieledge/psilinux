@@ -1,0 +1,26 @@
+name	libpdal-plugins
+version	2.10.1-r1
+description	PDAL is a C++ BSD library for translating and manipulating point cloud data.
+url	https://pdal.io/
+license	BSD-2-Clause
+size	1129341
+installed-size	2923904
+depends	so:libarrow.so.2300 so:libc.musl-armhf.so.1 so:libcpd.so.0 so:libgcc_s.so.1 so:libhdf5.so.311 so:libhdf5_cpp.so.310 so:libosg.so.161 so:libosgDB.so.161 so:libparquet.so.2300 so:libpdalcpp.so.20 so:libpq.so.5 so:libstdc++.so.6 so:libxerces-c-3.2.so so:libxml2.so.2
+origin	pdal
+repo	community
+file	libpdal-plugins-2.10.1-r1.apk
+checksum	Q1EHfMWvZ43luAAHJ+7e7sPoExq5o=
+dep	so:libarrow.so.2300	libarrow
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcpd.so.0	cpd
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libhdf5.so.311	hdf5
+dep	so:libhdf5_cpp.so.310	hdf5-cpp
+dep	so:libosg.so.161	openscenegraph
+dep	so:libosgDB.so.161	openscenegraph
+dep	so:libparquet.so.2300	libparquet
+dep	so:libpdalcpp.so.20	pdal
+dep	so:libpq.so.5	libpq
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxerces-c-3.2.so	xerces-c
+dep	so:libxml2.so.2	libxml2

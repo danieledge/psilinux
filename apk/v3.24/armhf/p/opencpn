@@ -1,0 +1,48 @@
+name	opencpn
+version	5.14.0-r0
+description	OpenCPN is a cross platform electronic navigation system
+url	https://opencpn.org/
+license	GPL-2.0-or-later AND MIT
+size	26505403
+installed-size	62218045
+depends	gpsd so:libGL.so.1 so:libGLEW.so.2.3 so:libGLU.so.1 so:libX11.so.6 so:libXrandr.so.2 so:libarchive.so.13 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:liblz4.so.1 so:liblzma.so.5 so:libportaudio.so.2 so:libshp.so.4 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libtinyxml.so.0 so:libudev.so.1 so:libusb-1.0.so.0 so:libwx_baseu-3.2.so.0 so:libwx_baseu_net-3.2.so.0 so:libwx_baseu_xml-3.2.so.0 so:libwx_gtk3u_aui-3.2.so.0 so:libwx_gtk3u_core-3.2.so.0 so:libwx_gtk3u_gl-3.2.so.0 so:libwx_gtk3u_html-3.2.so.0 so:libwx_gtk3u_richtext-3.2.so.0 so:libwx_gtk3u_webview-3.2.so.0 so:libz.so.1
+origin	opencpn
+repo	community
+file	opencpn-5.14.0-r0.apk
+checksum	Q13QU1hYSx0+OIdav2sBBdPCCO21M=
+dep	gpsd	gpsd
+dep	so:libGL.so.1	mesa-gl
+dep	so:libGLEW.so.2.3	glew
+dep	so:libGLU.so.1	glu
+dep	so:libX11.so.6	libx11
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libarchive.so.13	libarchive
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:liblz4.so.1	lz4-libs
+dep	so:liblzma.so.5	xz-libs
+dep	so:libportaudio.so.2	portaudio
+dep	so:libshp.so.4	shapelib
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtinyxml.so.0	tinyxml
+dep	so:libudev.so.1	eudev-libs
+dep	so:libusb-1.0.so.0	libusb
+dep	so:libwx_baseu-3.2.so.0	wxwidgets
+dep	so:libwx_baseu_net-3.2.so.0	wxwidgets
+dep	so:libwx_baseu_xml-3.2.so.0	wxwidgets
+dep	so:libwx_gtk3u_aui-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_core-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_gl-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_html-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_richtext-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_webview-3.2.so.0	wxwidgets-webview
+dep	so:libz.so.1	zlib

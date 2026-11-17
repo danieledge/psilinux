@@ -1,0 +1,15 @@
+name	postgresql-pg_partman-scripts
+version	5.2.4-r0
+description	Partition management extension for PostgreSQL - Python scripts
+url	https://github.com/pgpartman/pg_partman
+license	PostgreSQL
+size	7772
+installed-size	21516
+depends	postgresql-pg_partman=5.2.4-r0 py3-psycopg2 python3
+origin	postgresql-pg_partman
+repo	community
+file	postgresql-pg_partman-scripts-5.2.4-r0.apk
+checksum	Q168+FR7y018mug8klDvZXv0BVdwQ=
+dep	postgresql-pg_partman=5.2.4-r0	postgresql-pg_partman
+dep	py3-psycopg2	py3-psycopg2
+dep	python3	python3

@@ -1,0 +1,16 @@
+name	perl-anyevent-i3
+version	0.19-r0
+description	Communicate with the i3 window manager
+url	https://metacpan.org/release/AnyEvent-I3/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	7052
+installed-size	15554
+depends	perl perl-anyevent perl-json-xs i3wm
+origin	perl-anyevent-i3
+repo	community
+file	perl-anyevent-i3-0.19-r0.apk
+checksum	Q13blBkmAAfrpzAYVtv3s7X5pHCjk=
+dep	perl	perl
+dep	perl-anyevent	perl-anyevent
+dep	perl-json-xs	perl-json-xs
+dep	i3wm	i3wm

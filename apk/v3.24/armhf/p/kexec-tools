@@ -1,0 +1,16 @@
+name	kexec-tools
+version	2.0.32-r2
+description	Directly boot into a new kernel over a currently running one
+url	https://git.kernel.org/pub/scm/utils/kernel/kexec/kexec-tools.git/
+license	GPL-2.0-only
+size	68878
+installed-size	138156
+depends	so:libc.musl-armhf.so.1 so:liblzma.so.5 so:libz.so.1 so:libzstd.so.1
+origin	kexec-tools
+repo	community
+file	kexec-tools-2.0.32-r2.apk
+checksum	Q1Z4pyH7HkFRx0lyYZ9nmdM2z8Yf8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblzma.so.5	xz-libs
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

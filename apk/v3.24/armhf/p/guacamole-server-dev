@@ -1,0 +1,17 @@
+name	guacamole-server-dev
+version	1.6.0-r3
+description	Server-side native components that form Guacamole proxy (development files)
+url	https://guacamole.apache.org/
+license	GPL-3.0-or-later
+size	80198
+installed-size	407449
+depends	guacamole-server-kubernetes=1.6.0-r3 guacamole-server-libs=1.6.0-r3 guacamole-server-rdp=1.6.0-r3 guacamole-server-ssh=1.6.0-r3 guacamole-server-vnc=1.6.0-r3
+origin	guacamole-server
+repo	community
+file	guacamole-server-dev-1.6.0-r3.apk
+checksum	Q1rwDhBHdHYW8RVPpC+GVybrc9jDw=
+dep	guacamole-server-kubernetes=1.6.0-r3	guacamole-server-kubernetes
+dep	guacamole-server-libs=1.6.0-r3	guacamole-server-libs
+dep	guacamole-server-rdp=1.6.0-r3	guacamole-server-rdp
+dep	guacamole-server-ssh=1.6.0-r3	guacamole-server-ssh
+dep	guacamole-server-vnc=1.6.0-r3	guacamole-server-vnc

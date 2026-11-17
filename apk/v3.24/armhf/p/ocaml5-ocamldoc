@@ -1,0 +1,13 @@
+name	ocaml5-ocamldoc
+version	5.4.1-r0
+description	Main implementation of the Caml programming language (documentation generator)
+url	https://ocaml.org/
+license	LGPL-2.1-or-later WITH OCaml-LGPL-linking-exception
+size	1763433
+installed-size	6534839
+depends	ocaml5=5.4.1-r0
+origin	ocaml5
+repo	main
+file	ocaml5-ocamldoc-5.4.1-r0.apk
+checksum	Q1yRrIszEOgFReNnWom6Nyr65ZxNk=
+dep	ocaml5=5.4.1-r0	ocaml5

@@ -1,0 +1,15 @@
+name	kamailio-perl
+version	6.0.6-r0
+description	Kamailio Perl extensions and database driver for Kamailio
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	66430
+installed-size	146092
+depends	kamailio so:libc.musl-armhf.so.1 so:libperl.so
+origin	kamailio
+repo	main
+file	kamailio-perl-6.0.6-r0.apk
+checksum	Q1FZJdaOMaqRFlhCW/xyHSFMxEBBE=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libperl.so	perl

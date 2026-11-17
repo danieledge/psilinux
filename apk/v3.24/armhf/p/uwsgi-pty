@@ -1,0 +1,14 @@
+name	uwsgi-pty
+version	2.0.31-r2
+description	uWSGI plugin pty
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	5850
+installed-size	9800
+depends	uwsgi so:libc.musl-armhf.so.1
+origin	uwsgi
+repo	main
+file	uwsgi-pty-2.0.31-r2.apk
+checksum	Q1RQFhnmSt3ON0bzi2kdKiXyfMlZ0=
+dep	uwsgi	uwsgi
+dep	so:libc.musl-armhf.so.1	musl

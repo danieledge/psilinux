@@ -1,0 +1,12 @@
+name	libwpebackend-fdo-dbg
+version	1.16.1-r0
+description	freedesktop.org backend for WPE WebKit (debug symbols)
+url	https://wpewebkit.org/
+license	BSD-2-Clause
+size	75582
+installed-size	293380
+depends	!libwpebackend-fdo<1.16.1-r0 !libwpebackend-fdo>1.16.1-r0
+origin	libwpebackend-fdo
+repo	community
+file	libwpebackend-fdo-dbg-1.16.1-r0.apk
+checksum	Q190EWvpmBzZR9nRSDqdIEX1UF138=

@@ -1,0 +1,13 @@
+name	aconf-mod-openssh
+version	0.8.1-r4
+description	Alpine Configurator
+url	https://gitlab.alpinelinux.org/kunkku/aconf/
+license	BSD-2-Clause
+size	2290
+installed-size	1294
+depends	aconf=0.8.1-r4
+origin	aconf
+repo	main
+file	aconf-mod-openssh-0.8.1-r4.apk
+checksum	Q1KaG9K+D/NbU3blIIw+Do4f2LuC0=
+dep	aconf=0.8.1-r4	aconf

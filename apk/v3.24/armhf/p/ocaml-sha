@@ -1,0 +1,24 @@
+name	ocaml-sha
+version	1.15.4-r3
+description	Binding to the SHA cryptographic functions
+url	https://github.com/djs55/ocaml-sha
+license	ISC
+size	75681
+installed-size	198070
+depends	ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2 ocaml4-impl:Stdlib__Bytes:d3c880c3d8f0d027b21650509ad72a51 ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15 ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91 ocaml4-intf:Stdlib__Bigarray:994a14f10d5ae081663b52b790ee11d3 ocaml4-intf:Stdlib__Bytes:3d02c33317c0108c61e7a5eefa37519a ocaml4-intf:Stdlib__Complex:4555217c759e89d65daa8f682eb09b35 ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9 ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962 ocaml4-intf:Stdlib__String:4933e1d855f54bfed0231b038f0dbb87 ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57 so:libc.musl-armhf.so.1
+origin	ocaml-sha
+repo	community
+file	ocaml-sha-1.15.4-r3.apk
+checksum	Q15Cl8fWccOV6lRHxXM+SN0XCHWTE=
+dep	ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2	ocaml
+dep	ocaml4-impl:Stdlib__Bytes:d3c880c3d8f0d027b21650509ad72a51	ocaml
+dep	ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15	ocaml
+dep	ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91	ocaml
+dep	ocaml4-intf:Stdlib__Bigarray:994a14f10d5ae081663b52b790ee11d3	ocaml
+dep	ocaml4-intf:Stdlib__Bytes:3d02c33317c0108c61e7a5eefa37519a	ocaml
+dep	ocaml4-intf:Stdlib__Complex:4555217c759e89d65daa8f682eb09b35	ocaml
+dep	ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9	ocaml
+dep	ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962	ocaml
+dep	ocaml4-intf:Stdlib__String:4933e1d855f54bfed0231b038f0dbb87	ocaml
+dep	ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57	ocaml
+dep	so:libc.musl-armhf.so.1	musl

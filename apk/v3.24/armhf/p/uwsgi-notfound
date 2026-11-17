@@ -1,0 +1,13 @@
+name	uwsgi-notfound
+version	2.0.31-r2
+description	uWSGI plugin notfound
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	3105
+installed-size	5516
+depends	uwsgi
+origin	uwsgi
+repo	main
+file	uwsgi-notfound-2.0.31-r2.apk
+checksum	Q1DOctEkgVR+e+IyoBRdkDd7QamdI=
+dep	uwsgi	uwsgi

@@ -1,0 +1,13 @@
+name	openssh-sftp-server
+version	10.3_p1-r2
+description	ssh sftp server module
+url	https://www.openssh.com/portable.html
+license	SSH-OpenSSH
+size	62397
+installed-size	136528
+depends	so:libc.musl-armhf.so.1
+origin	openssh
+repo	main
+file	openssh-sftp-server-10.3_p1-r2.apk
+checksum	Q1Q5LNbaVvVQ0zbYZx/IRL6XK7fSE=
+dep	so:libc.musl-armhf.so.1	musl

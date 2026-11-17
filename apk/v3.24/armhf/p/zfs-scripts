@@ -1,0 +1,19 @@
+name	zfs-scripts
+version	2.4.4-r0
+description	Advanced filesystem and volume manager (scripts)
+url	https://openzfs.org
+license	CDDL-1.0
+size	29173060
+installed-size	34794424
+depends	so:libc.musl-armhf.so.1 so:libintl.so.8 so:libnvpair.so.3 so:libz.so.1 so:libzfs.so.7 so:libzfs_core.so.3 so:libzpool.so.7
+origin	zfs
+repo	main
+file	zfs-scripts-2.4.4-r0.apk
+checksum	Q1gXceT//ntPGKWr5WIfcO+vDSTLI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libintl.so.8	libintl
+dep	so:libnvpair.so.3	zfs-libs
+dep	so:libz.so.1	zlib
+dep	so:libzfs.so.7	zfs-libs
+dep	so:libzfs_core.so.3	zfs-libs
+dep	so:libzpool.so.7	zfs-libs

@@ -1,0 +1,17 @@
+name	nload
+version	0.7.4-r6
+description	Console network traffic and bandwidth monitor
+url	http://www.roland-riegel.de/nload
+license	GPL-2.0-only
+size	44743
+installed-size	99764
+depends	so:libc.musl-armhf.so.1 so:libformw.so.6 so:libgcc_s.so.1 so:libncursesw.so.6 so:libstdc++.so.6
+origin	nload
+repo	main
+file	nload-0.7.4-r6.apk
+checksum	Q1ujL2uZP4gaX1kXOd+w1F/SoTuwk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libformw.so.6	libformw
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libstdc++.so.6	libstdc++

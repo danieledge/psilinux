@@ -1,0 +1,15 @@
+name	qhull-dev
+version	2020.2-r3
+description	Calculate convex hulls and related structures (development files)
+url	https://www.qhull.org/
+license	custom
+size	125439
+installed-size	539120
+depends	qhull-nonreentrant=2020.2-r3 qhull=2020.2-r3 pkgconfig
+origin	qhull
+repo	community
+file	qhull-dev-2020.2-r3.apk
+checksum	Q1mL3BcvYf2PYm4JRZtpvP+1ctFG8=
+dep	qhull-nonreentrant=2020.2-r3	qhull-nonreentrant
+dep	qhull=2020.2-r3	qhull
+dep	pkgconfig	pkgconf

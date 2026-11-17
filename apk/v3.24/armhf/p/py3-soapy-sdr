@@ -1,0 +1,17 @@
+name	py3-soapy-sdr
+version	0.8.1-r4
+description	Soapy SDR - vendor and platform neutral SDR support library (python modules)
+url	https://github.com/pothosware/SoapySDR
+license	BSL-1.0
+size	345695
+installed-size	1325709
+depends	python3~3.14 so:libSoapySDR.so.0.8 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	soapy-sdr
+repo	community
+file	py3-soapy-sdr-0.8.1-r4.apk
+checksum	Q18tttDGanHBcCw9ZtuvB09Qe0uVA=
+dep	python3~3.14	python3
+dep	so:libSoapySDR.so.0.8	soapy-sdr-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

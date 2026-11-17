@@ -1,0 +1,14 @@
+name	prometheus
+version	3.5.3-r3
+description	The Prometheus monitoring system and time series database
+url	https://github.com/prometheus/prometheus
+license	Apache-2.0
+size	63359066
+installed-size	224128557
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	prometheus
+repo	community
+file	prometheus-3.5.3-r3.apk
+checksum	Q1IIR6A/kI4/rodwAEMs7QAF5z6kU=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

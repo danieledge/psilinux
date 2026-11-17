@@ -1,0 +1,13 @@
+name	uwsgi-echo
+version	2.0.31-r2
+description	uWSGI plugin echo
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	2948
+installed-size	5444
+depends	uwsgi
+origin	uwsgi
+repo	main
+file	uwsgi-echo-2.0.31-r2.apk
+checksum	Q1xtfZu7KuvnMbc5IB+BJ0HjFpNlk=
+dep	uwsgi	uwsgi

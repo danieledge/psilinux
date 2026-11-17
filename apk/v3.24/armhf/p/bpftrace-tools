@@ -1,0 +1,13 @@
+name	bpftrace-tools
+version	0.26.1-r0
+description	High-level tracing language for Linux eBPF (tools)
+url	https://github.com/bpftrace/bpftrace
+license	Apache-2.0
+size	33583
+installed-size	115285
+depends	bpftrace
+origin	bpftrace
+repo	community
+file	bpftrace-tools-0.26.1-r0.apk
+checksum	Q1mk2WUz9SeWYxz4XI9bwmXwg6if0=
+dep	bpftrace	bpftrace

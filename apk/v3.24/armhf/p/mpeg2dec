@@ -1,0 +1,18 @@
+name	mpeg2dec
+version	0.5.1-r12
+description	a test program for libmpeg2
+url	https://libmpeg2.sourceforge.net/
+license	GPL-2.0
+size	21974
+installed-size	42388
+depends	so:libX11.so.6 so:libXext.so.6 so:libXv.so.1 so:libc.musl-armhf.so.1 so:libmpeg2.so.0 so:libmpeg2convert.so.0
+origin	libmpeg2
+repo	community
+file	mpeg2dec-0.5.1-r12.apk
+checksum	Q1VkjSsrpqaH6bOG+FNmgLVQb9wVg=
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXv.so.1	libxv
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmpeg2.so.0	libmpeg2
+dep	so:libmpeg2convert.so.0	libmpeg2

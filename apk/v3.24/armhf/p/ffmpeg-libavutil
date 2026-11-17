@@ -1,0 +1,21 @@
+name	ffmpeg-libavutil
+version	8.1.3-r0
+description	Complete and free Internet live audio and video broadcasting solution for Linux/Unix (libavutil library)
+url	https://ffmpeg.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	407893
+installed-size	865716
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libdrm.so.2 so:libva-drm.so.2 so:libva-x11.so.2 so:libva.so.2 so:libvdpau.so.1 so:libz.so.1
+origin	ffmpeg
+repo	community
+file	ffmpeg-libavutil-8.1.3-r0.apk
+checksum	Q163i226xWUwFr3lPwI2H+SBUg6eE=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libdrm.so.2	libdrm
+dep	so:libva-drm.so.2	libva
+dep	so:libva-x11.so.2	libva
+dep	so:libva.so.2	libva
+dep	so:libvdpau.so.1	libvdpau
+dep	so:libz.so.1	zlib

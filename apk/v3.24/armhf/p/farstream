@@ -1,0 +1,22 @@
+name	farstream
+version	0.2.9-r2
+description	Libraries for videoconferencing
+url	https://www.freedesktop.org/wiki/Software/Farstream
+license	LGPL-2.0-or-later AND GPL-2.0-or-later
+size	199059
+installed-size	496831
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgstbase-1.0.so.0 so:libgstnet-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstrtp-1.0.so.0 so:libnice.so.10
+origin	farstream
+repo	community
+file	farstream-0.2.9-r2.apk
+checksum	Q1H10OP5aKxMKZmjK3hTVXUQ3wK7o=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstbase-1.0.so.0	gstreamer
+dep	so:libgstnet-1.0.so.0	gstreamer
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstrtp-1.0.so.0	gst-plugins-base
+dep	so:libnice.so.10	libnice

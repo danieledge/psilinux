@@ -1,0 +1,21 @@
+name	perl-crypt-pbkdf2
+version	0.161520-r1
+description	The PBKDF2 password hash algorithm
+url	https://metacpan.org/release/Crypt-PBKDF2/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	8644
+installed-size	22555
+depends	perl perl-module-runtime perl-try-tiny perl-type-tiny perl-strictures perl-moo perl-digest-hmac perl-digest-sha3 perl-namespace-autoclean
+origin	perl-crypt-pbkdf2
+repo	community
+file	perl-crypt-pbkdf2-0.161520-r1.apk
+checksum	Q1WDfbcknqPKrdu0Cd9M6qztlOLMg=
+dep	perl	perl
+dep	perl-module-runtime	perl-module-runtime
+dep	perl-try-tiny	perl-try-tiny
+dep	perl-type-tiny	perl-type-tiny
+dep	perl-strictures	perl-strictures
+dep	perl-moo	perl-moo
+dep	perl-digest-hmac	perl-digest-hmac
+dep	perl-digest-sha3	perl-digest-sha3
+dep	perl-namespace-autoclean	perl-namespace-autoclean

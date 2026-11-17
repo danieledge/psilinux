@@ -1,0 +1,15 @@
+name	ocaml-bisect_ppx-dev
+version	2.8.3-r3
+description	Code coverage for OCaml (development files)
+url	https://github.com/aantron/bisect_ppx
+license	MIT
+size	563545
+installed-size	1476392
+depends	ocaml-bisect_ppx=2.8.3-r3 ocaml-cmdliner-dev ocaml-ppxlib-dev
+origin	ocaml-bisect_ppx
+repo	community
+file	ocaml-bisect_ppx-dev-2.8.3-r3.apk
+checksum	Q1ucVa/1iJBs/upcHh8JGGpN2HS98=
+dep	ocaml-bisect_ppx=2.8.3-r3	ocaml-bisect_ppx
+dep	ocaml-cmdliner-dev	ocaml-cmdliner-dev
+dep	ocaml-ppxlib-dev	ocaml-ppxlib-dev

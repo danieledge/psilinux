@@ -1,0 +1,14 @@
+name	pam_mount-dev
+version	2.22-r2
+description	Pluggable Authentication Module that can mount volumes for a user session (development files)
+url	https://codeberg.org/jengelh/pam_mount
+license	LGPL-2.1-or-later
+size	3408
+installed-size	4274
+depends	libcryptmount=2.22-r2 pkgconfig
+origin	pam_mount
+repo	community
+file	pam_mount-dev-2.22-r2.apk
+checksum	Q1sHszYcAGfOLqfmkBIEP8MZdJssQ=
+dep	libcryptmount=2.22-r2	libcryptmount
+dep	pkgconfig	pkgconf

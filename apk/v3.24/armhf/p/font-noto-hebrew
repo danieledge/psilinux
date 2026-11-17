@@ -1,0 +1,14 @@
+name	font-noto-hebrew
+version	2026.11.01-r0
+description	Noto Sans Hebrew and Serif Hebrew fonts
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	646731
+installed-size	2070027
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-hebrew-2026.11.01-r0.apk
+checksum	Q1IeZpZMdbGRdrQXFsRTMJQfVkIvQ=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

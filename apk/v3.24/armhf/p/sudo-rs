@@ -1,0 +1,17 @@
+name	sudo-rs
+version	0.2.15-r0
+description	Memory safe implementation of sudo and su
+url	https://github.com/trifectatechfoundation/sudo-rs
+license	Apache-2.0 OR MIT
+size	686240
+installed-size	1309703
+depends	linux-pam tzdata so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpam.so.0
+origin	sudo-rs
+repo	community
+file	sudo-rs-0.2.15-r0.apk
+checksum	Q1u8zp67yWUfBLhZnBEX+SHWmC3dM=
+dep	linux-pam	linux-pam
+dep	tzdata	tzdata
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpam.so.0	linux-pam

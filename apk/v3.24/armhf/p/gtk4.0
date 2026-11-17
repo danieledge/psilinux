@@ -1,0 +1,56 @@
+name	gtk4.0
+version	4.22.4-r0
+description	The GTK Toolkit (v4)
+url	https://www.gtk.org/
+license	LGPL-2.1-or-later
+size	4606939
+installed-size	12438245
+depends	gtk-update-icon-cache iso-codes shared-mime-info tzdata so:libX11.so.6 so:libXcursor.so.1 so:libXdamage.so.1 so:libXext.so.6 so:libXfixes.so.3 so:libXi.so.6 so:libXinerama.so.1 so:libXrandr.so.2 so:libc.musl-armhf.so.1 so:libcairo-gobject.so.2 so:libcairo-script-interpreter.so.2 so:libcairo.so.2 so:libcups.so.2 so:libepoxy.so.0 so:libfontconfig.so.1 so:libfribidi.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgstallocators-1.0.so.0 so:libgstgl-1.0.so.0 so:libgstplay-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libharfbuzz-subset.so.0 so:libharfbuzz.so.0 so:libintl.so.8 so:libjpeg.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpangoft2-1.0.so.0 so:libpng16.so.16 so:libtiff.so.6 so:libvulkan.so.1 so:libwayland-client.so.0 so:libwayland-egl.so.1 so:libxkbcommon.so.0
+origin	gtk4.0
+repo	community
+file	gtk4.0-4.22.4-r0.apk
+checksum	Q1sClTimZr2XfK4o+LjkZB5QRFk94=
+dep	gtk-update-icon-cache	gtk-update-icon-cache
+dep	iso-codes	iso-codes
+dep	shared-mime-info	shared-mime-info
+dep	tzdata	tzdata
+dep	so:libX11.so.6	libx11
+dep	so:libXcursor.so.1	libxcursor
+dep	so:libXdamage.so.1	libxdamage
+dep	so:libXext.so.6	libxext
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXi.so.6	libxi
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo-gobject.so.2	cairo-gobject
+dep	so:libcairo-script-interpreter.so.2	cairo
+dep	so:libcairo.so.2	cairo
+dep	so:libcups.so.2	cups-libs
+dep	so:libepoxy.so.0	libepoxy
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfribidi.so.0	fribidi
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgstallocators-1.0.so.0	gst-plugins-base
+dep	so:libgstgl-1.0.so.0	gst-plugins-base
+dep	so:libgstplay-1.0.so.0	gst-plugins-bad
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base
+dep	so:libharfbuzz-subset.so.0	harfbuzz-subset
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:libintl.so.8	libintl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpangoft2-1.0.so.0	pango
+dep	so:libpng16.so.16	libpng
+dep	so:libtiff.so.6	tiff
+dep	so:libvulkan.so.1	vulkan-loader
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-egl.so.1	wayland-libs-egl
+dep	so:libxkbcommon.so.0	libxkbcommon

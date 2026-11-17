@@ -1,0 +1,37 @@
+name	mlt
+version	7.36.1-r1
+description	MLT Multimedia Framework
+url	https://www.mltframework.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later AND GPL-3.0-or-later
+size	666251
+installed-size	1628610
+depends	so:libSDL2-2.0.so.0 so:libavcodec.so.62 so:libavdevice.so.62 so:libavfilter.so.11 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libexif.so.12 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libjack.so.0 so:libopencv_core.so.412 so:libopencv_imgproc.so.412 so:libopencv_tracking.so.412 so:libopencv_video.so.412 so:libsamplerate.so.0 so:libsox.so.3 so:libstdc++.so.6 so:libswresample.so.6 so:libswscale.so.9 so:libvidstab.so.1.2 so:libvorbisfile.so.3 so:libxml2.so.2
+origin	mlt
+repo	community
+file	mlt-7.36.1-r1.apk
+checksum	Q1DIcyWne6X2zuVKj9iFTYBJE6f9w=
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavdevice.so.62	ffmpeg-libavdevice
+dep	so:libavfilter.so.11	ffmpeg-libavfilter
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexif.so.12	libexif
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libjack.so.0	jack
+dep	so:libopencv_core.so.412	libopencv_core
+dep	so:libopencv_imgproc.so.412	libopencv_imgproc
+dep	so:libopencv_tracking.so.412	libopencv_tracking
+dep	so:libopencv_video.so.412	libopencv_video
+dep	so:libsamplerate.so.0	libsamplerate
+dep	so:libsox.so.3	sox
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libswresample.so.6	ffmpeg-libswresample
+dep	so:libswscale.so.9	ffmpeg-libswscale
+dep	so:libvidstab.so.1.2	vidstab
+dep	so:libvorbisfile.so.3	libvorbis
+dep	so:libxml2.so.2	libxml2

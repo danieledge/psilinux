@@ -1,0 +1,33 @@
+name	swayimg-full
+version	5.2-r0
+description	Image viewer for Sway - with support for all formats
+url	https://github.com/artemsen/swayimg
+license	MIT
+size	439282
+installed-size	824787
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libexiv2.so.28 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libgif.so.7 so:libgobject-2.0.so.0 so:libheif.so.1 so:libjpeg.so.8 so:libjxl.so.0.11 so:libjxl_threads.so.0.11 so:libluajit-5.1.so.2 so:libpng16.so.16 so:librsvg-2.so.2 so:libstdc++.so.6 so:libtiff.so.6 so:libwayland-client.so.0 so:libwebp.so.7 so:libwebpdemux.so.2 so:libxkbcommon.so.0
+origin	swayimg
+repo	community
+file	swayimg-full-5.2-r0.apk
+checksum	Q1/FlDq7WQINC5vxAgLC1BDCRLuoc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libexiv2.so.28	exiv2-libs
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgif.so.7	giflib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libheif.so.1	libheif
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libjxl.so.0.11	libjxl
+dep	so:libjxl_threads.so.0.11	libjxl
+dep	so:libluajit-5.1.so.2	luajit
+dep	so:libpng16.so.16	libpng
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtiff.so.6	tiff
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwebp.so.7	libwebp
+dep	so:libwebpdemux.so.2	libwebpdemux
+dep	so:libxkbcommon.so.0	libxkbcommon

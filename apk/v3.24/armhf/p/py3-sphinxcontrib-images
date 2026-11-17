@@ -1,0 +1,16 @@
+name	py3-sphinxcontrib-images
+version	0.9.4-r5
+description	Sphinx images extension
+url	https://github.com/sphinx-contrib/images
+license	Apache-2.0
+size	114976
+installed-size	280889
+depends	py3-requests py3-sphinx py3-setuptools python3~3.14
+origin	py3-sphinxcontrib-images
+repo	community
+file	py3-sphinxcontrib-images-0.9.4-r5.apk
+checksum	Q1hMykW/ZQFEQFDMMAK59lDkEzWxo=
+dep	py3-requests	py3-requests
+dep	py3-sphinx	py3-sphinx
+dep	py3-setuptools	py3-setuptools
+dep	python3~3.14	python3

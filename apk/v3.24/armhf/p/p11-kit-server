@@ -1,0 +1,15 @@
+name	p11-kit-server
+version	0.26.2-r0
+description	Server and client commands for p11-kit
+url	https://p11-glue.freedesktop.org/
+license	BSD-3-Clause
+size	250924
+installed-size	1259428
+depends	so:libc.musl-armhf.so.1 so:libffi.so.8 so:libp11-kit.so.0
+origin	p11-kit
+repo	main
+file	p11-kit-server-0.26.2-r0.apk
+checksum	Q1acCkem7zaUVFNJ7eTD95nE6MmFA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libffi.so.8	libffi
+dep	so:libp11-kit.so.0	p11-kit

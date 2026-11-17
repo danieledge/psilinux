@@ -1,0 +1,20 @@
+name	libspatialite-dev
+version	5.1.0-r5
+description	Extend SQLite core to support Spatial SQL capabilities (development files)
+url	https://www.gaia-gis.it/fossil/libspatialite/index
+license	MPL-1.1
+size	99602
+installed-size	740617
+depends	geos-dev librttopo-dev libxml2-dev minizip-dev proj-dev sqlite-dev libspatialite=5.1.0-r5 pkgconfig
+origin	libspatialite
+repo	community
+file	libspatialite-dev-5.1.0-r5.apk
+checksum	Q1z0r5zJkRgjbuh0n5OfC3Y4dylNo=
+dep	geos-dev	geos-dev
+dep	librttopo-dev	librttopo-dev
+dep	libxml2-dev	libxml2-dev
+dep	minizip-dev	minizip-dev
+dep	proj-dev	proj-dev
+dep	sqlite-dev	sqlite-dev
+dep	libspatialite=5.1.0-r5	libspatialite
+dep	pkgconfig	pkgconf

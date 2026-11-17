@@ -1,0 +1,13 @@
+name	gnome-feeds-pyc
+version	2.2.0-r6
+description	Precompiled Python bytecode for gnome-feeds
+url	https://gitlab.gnome.org/World/gfeeds
+license	GPL-3.0-or-later
+size	138147
+installed-size	377244
+depends	python3~3.14
+origin	gnome-feeds
+repo	community
+file	gnome-feeds-pyc-2.2.0-r6.apk
+checksum	Q1bBa5ncOVDyCT2b5e5Jyy352+VbA=
+dep	python3~3.14	python3

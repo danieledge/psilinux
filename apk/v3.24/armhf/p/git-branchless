@@ -1,0 +1,16 @@
+name	git-branchless
+version	0.10.0-r2
+description	Suite of tools to help you visualize, navigate, manipulate, and repair your commit graph
+url	https://github.com/arxanas/git-branchless
+license	MIT OR Apache-2.0
+size	3184749
+installed-size	6594568
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgit2.so.1.9 so:libsqlite3.so.0
+origin	git-branchless
+repo	community
+file	git-branchless-0.10.0-r2.apk
+checksum	Q1OhYvIrux7pNo0vat47JXPvtuSYM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgit2.so.1.9	libgit2
+dep	so:libsqlite3.so.0	sqlite-libs

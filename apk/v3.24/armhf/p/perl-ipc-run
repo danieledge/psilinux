@@ -1,0 +1,14 @@
+name	perl-ipc-run
+version	20260402.0-r0
+description	system() and background procs w/ piping, redirs, ptys (Unix, Win32)
+url	https://metacpan.org/release/IPC-Run/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	79300
+installed-size	261138
+depends	perl perl-io-tty
+origin	perl-ipc-run
+repo	main
+file	perl-ipc-run-20260402.0-r0.apk
+checksum	Q1FHY2yzqdd2pMBLMetjPm2nEYQMM=
+dep	perl	perl
+dep	perl-io-tty	perl-io-tty

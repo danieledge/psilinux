@@ -1,0 +1,13 @@
+name	govc
+version	0.53.0-r4
+description	vSphere CLI built on top of govmomi
+url	https://github.com/vmware/govmomi/blob/main/govc/README.md
+license	Apache-2.0
+size	9301260
+installed-size	35155076
+depends	so:libc.musl-armhf.so.1
+origin	govc
+repo	community
+file	govc-0.53.0-r4.apk
+checksum	Q1xSuWMl8N+k615e7Kd1lnKC7lTlI=
+dep	so:libc.musl-armhf.so.1	musl

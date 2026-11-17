@@ -1,0 +1,14 @@
+name	flite-dev
+version	2.2-r6
+description	Small, fast speech synthesis engine (text-to-speech) (development files)
+url	http://cmuflite.org/
+license	BSD-4-Clause
+size	31132
+installed-size	203757
+depends	flite=2.2-r6 pkgconfig
+origin	flite
+repo	main
+file	flite-dev-2.2-r6.apk
+checksum	Q107Zem7LcRzlUY2J1W75fKy5mkck=
+dep	flite=2.2-r6	flite
+dep	pkgconfig	pkgconf

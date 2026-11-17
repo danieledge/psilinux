@@ -1,0 +1,16 @@
+name	cargo-bloat
+version	0.12.1-r0
+description	Find out what takes most of the space in your Rust executable
+url	https://github.com/RazrFalcon/cargo-bloat
+license	MIT
+size	430489
+installed-size	818548
+depends	cargo cargo-auditable so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	cargo-bloat
+repo	community
+file	cargo-bloat-0.12.1-r0.apk
+checksum	Q1j8HErCsWzneAo6tC+hTxUosi/HI=
+dep	cargo	cargo
+dep	cargo-auditable	cargo-auditable
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,17 @@
+name	libayatana-common
+version	0.9.11-r0
+description	Shared Library for common functions required by the Ayatana System Indicators
+url	https://github.com/AyatanaIndicators/libayatana-common
+license	GPL-3.0-only
+size	7430
+installed-size	16667
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8
+origin	libayatana-common
+repo	community
+file	libayatana-common-0.9.11-r0.apk
+checksum	Q10qHUakZbjqtuPG7/Fd4gLrpkigM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl

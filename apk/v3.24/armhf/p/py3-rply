@@ -1,0 +1,14 @@
+name	py3-rply
+version	0.7.8-r6
+description	Python parser generator, that also works with RPython
+url	https://github.com/alex/rply
+license	BSD-3-Clause-Clear
+size	14527
+installed-size	47194
+depends	py3-appdirs python3~3.14
+origin	py3-rply
+repo	community
+file	py3-rply-0.7.8-r6.apk
+checksum	Q1a0simkymMzuR8lSjQ4V2w/aOCjE=
+dep	py3-appdirs	py3-appdirs
+dep	python3~3.14	python3

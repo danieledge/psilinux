@@ -1,0 +1,48 @@
+name	gnome-builder
+version	50.0-r0
+description	Develop software for GNOME
+url	https://apps.gnome.org/Builder
+license	GPL-3.0-or-later
+size	2630702
+installed-size	10425000
+depends	flatpak-builder py3-lxml py3-gobject3 so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libclang.so.22.1 so:libcmark.so.0.31.2 so:libdex-1.so.1 so:libeditorconfig.so.0 so:libflatpak.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libgirepository-2.0.so.0 so:libgit2-glib-1.0.so.0 so:libgit2.so.1.9 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgom-1.0.so.0 so:libgtk-4.so.1 so:libgtksourceview-5.so.0 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libjsonrpc-glib-1.0.so.1 so:libpanel-1.so.1 so:libpango-1.0.so.0 so:libpeas-2.so.0 so:libportal-gtk4.so.1 so:libportal.so.1 so:libsoup-3.0.so.0 so:libspelling-1.so.2 so:libtemplate_glib-1.0.so.0 so:libvte-2.91-gtk4.so.0 so:libwebkitgtk-6.0.so.4 so:libxml2.so.2 so:libyaml-0.so.2
+origin	gnome-builder
+repo	community
+file	gnome-builder-50.0-r0.apk
+checksum	Q1Q394L0e1Wk8IRQV+zWA/tNLE80Y=
+dep	flatpak-builder	flatpak-builder
+dep	py3-lxml	py3-lxml
+dep	py3-gobject3	py3-gobject3
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libclang.so.22.1	clang22-libclang
+dep	so:libcmark.so.0.31.2	libcmark
+dep	so:libdex-1.so.1	libdex
+dep	so:libeditorconfig.so.0	libeditorconfig
+dep	so:libflatpak.so.0	flatpak-libs
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libgirepository-2.0.so.0	glib
+dep	so:libgit2-glib-1.0.so.0	libgit2-glib
+dep	so:libgit2.so.1.9	libgit2
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgom-1.0.so.0	gom
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libgtksourceview-5.so.0	gtksourceview5
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libjsonrpc-glib-1.0.so.1	jsonrpc-glib
+dep	so:libpanel-1.so.1	libpanel
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpeas-2.so.0	libpeas2
+dep	so:libportal-gtk4.so.1	libportal-gtk4
+dep	so:libportal.so.1	libportal
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libspelling-1.so.2	libspelling
+dep	so:libtemplate_glib-1.0.so.0	template-glib
+dep	so:libvte-2.91-gtk4.so.0	vte3-gtk4
+dep	so:libwebkitgtk-6.0.so.4	webkit2gtk-6.0
+dep	so:libxml2.so.2	libxml2
+dep	so:libyaml-0.so.2	yaml

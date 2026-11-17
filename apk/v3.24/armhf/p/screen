@@ -1,0 +1,15 @@
+name	screen
+version	5.0.2-r0
+description	Window manager that multiplexes a physical terminal
+url	https://www.gnu.org/software/screen/
+license	GPL-3.0-or-later
+size	448637
+installed-size	649808
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6 so:libpam.so.0
+origin	screen
+repo	main
+file	screen-5.0.2-r0.apk
+checksum	Q1FkyWhWY8V5x0wKiE8k6r9C8KgCc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpam.so.0	linux-pam

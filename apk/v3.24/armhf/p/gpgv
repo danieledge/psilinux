@@ -1,0 +1,19 @@
+name	gpgv
+version	2.4.9-r1
+description	GNU Privacy Guard 2 - signature verification only
+url	https://www.gnupg.org/
+license	GPL-3.0-or-later
+size	216583
+installed-size	436720
+depends	so:libassuan.so.9 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libgcrypt.so.20 so:libgpg-error.so.0 so:libnpth.so.0 so:libz.so.1
+origin	gnupg
+repo	main
+file	gpgv-2.4.9-r1.apk
+checksum	Q1YXtngP9ZXj4qJSAfADAH1tfa20k=
+dep	so:libassuan.so.9	libassuan
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgpg-error.so.0	libgpg-error
+dep	so:libnpth.so.0	npth
+dep	so:libz.so.1	zlib

@@ -1,0 +1,20 @@
+name	timed-dev
+version	3.6.24-r2
+description	The time daemon manages system time, timezone and settings, executing actions at given time and managing the event queue (development files)
+url	https://github.com/sailfishos/timed
+license	LGPL-2.1-only
+size	9867
+installed-size	41328
+depends	libdsme-dev libiodata-dev pcre-dev qt6-qtbase-dev sailfish-access-control timed=3.6.24-r2 pc:Qt6DBus pkgconfig
+origin	timed
+repo	community
+file	timed-dev-3.6.24-r2.apk
+checksum	Q14uzCbRrmb7IVIujwLfMw02tZirs=
+dep	libdsme-dev	libdsme-dev
+dep	libiodata-dev	libiodata-dev
+dep	pcre-dev	pcre-dev
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	sailfish-access-control	sailfish-access-control
+dep	timed=3.6.24-r2	timed
+dep	pc:Qt6DBus	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

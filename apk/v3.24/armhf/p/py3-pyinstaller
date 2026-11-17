@@ -1,0 +1,15 @@
+name	py3-pyinstaller
+version	6.19.0-r1
+description	PyInstaller bundles a Python application and all its dependencies into a single package
+url	https://pyinstaller.org/
+license	(GPL-2.0-or-later WITH Bootloader-exception) AND Apache-2.0
+size	2094033
+installed-size	5094712
+depends	py3-altgraph py3-setuptools python3~3.14
+origin	py3-pyinstaller
+repo	community
+file	py3-pyinstaller-6.19.0-r1.apk
+checksum	Q1qLlG4GXx815v0SJj0zmd9FepSKE=
+dep	py3-altgraph	py3-altgraph
+dep	py3-setuptools	py3-setuptools
+dep	python3~3.14	python3

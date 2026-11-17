@@ -1,0 +1,14 @@
+name	gsm-tools
+version	1.0.23-r0
+description	GSM speech compressor tools
+url	https://www.quut.com/gsm/
+license	TU-Berlin-2.0
+size	11364
+installed-size	30000
+depends	so:libc.musl-armhf.so.1 so:libgsm.so.1
+origin	gsm
+repo	main
+file	gsm-tools-1.0.23-r0.apk
+checksum	Q1V/7comaV0NExf61ZshuUiXvqnQo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgsm.so.1	gsm

@@ -1,0 +1,20 @@
+name	hdf5-dev
+version	1.14.4.2-r1
+description	HDF5 is a data model, library, and file format for storing and managing data (development files)
+url	https://www.hdfgroup.org/solutions/hdf5/
+license	custom
+size	1483288
+installed-size	3255554
+depends	zlib-dev hdf5-cpp=1.14.4.2-r1 hdf5-fortran=1.14.4.2-r1 hdf5-hl-cpp=1.14.4.2-r1 hdf5-hl-fortran=1.14.4.2-r1 hdf5-hl=1.14.4.2-r1 hdf5=1.14.4.2-r1 pkgconfig
+origin	hdf5
+repo	community
+file	hdf5-dev-1.14.4.2-r1.apk
+checksum	Q1oDpBKZLkbZdHSlCidMYd74GQ2es=
+dep	zlib-dev	zlib-dev
+dep	hdf5-cpp=1.14.4.2-r1	hdf5-cpp
+dep	hdf5-fortran=1.14.4.2-r1	hdf5-fortran
+dep	hdf5-hl-cpp=1.14.4.2-r1	hdf5-hl-cpp
+dep	hdf5-hl-fortran=1.14.4.2-r1	hdf5-hl-fortran
+dep	hdf5-hl=1.14.4.2-r1	hdf5-hl
+dep	hdf5=1.14.4.2-r1	hdf5
+dep	pkgconfig	pkgconf

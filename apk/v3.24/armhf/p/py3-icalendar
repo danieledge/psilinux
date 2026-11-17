@@ -1,0 +1,15 @@
+name	py3-icalendar
+version	7.1.1-r0
+description	icalendar parser library for Python
+url	https://github.com/collective/icalendar
+license	BSD-2-Clause
+size	176444
+installed-size	872429
+depends	py3-dateutil py3-tzdata python3~3.14
+origin	py3-icalendar
+repo	community
+file	py3-icalendar-7.1.1-r0.apk
+checksum	Q1sYSkcW2SPf+pNtlZKtSG95K1c0w=
+dep	py3-dateutil	py3-dateutil
+dep	py3-tzdata	py3-tzdata
+dep	python3~3.14	python3

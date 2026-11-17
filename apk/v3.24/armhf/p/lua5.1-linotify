@@ -1,0 +1,14 @@
+name	lua5.1-linotify
+version	0.5-r3
+description	Inotify bindings for Lua (for Lua 5.1)
+url	https://github.com/hoelzro/linotify
+license	MIT
+size	5294
+installed-size	9416
+depends	lua5.1 so:libc.musl-armhf.so.1
+origin	lua-linotify
+repo	community
+file	lua5.1-linotify-0.5-r3.apk
+checksum	Q1hArdG3Ywy8UekvKnc4YyeNd9+xs=
+dep	lua5.1	lua5.1
+dep	so:libc.musl-armhf.so.1	musl

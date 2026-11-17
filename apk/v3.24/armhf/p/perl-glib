@@ -1,0 +1,16 @@
+name	perl-glib
+version	1.3294-r2
+description	Perl module for Glib
+url	https://metacpan.org/release/Glib
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	221058
+installed-size	641175
+depends	perl so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	perl-glib
+repo	community
+file	perl-glib-1.3294-r2.apk
+checksum	Q1nuynd53vB3D4VKfLLZhQ5Bxac2k=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

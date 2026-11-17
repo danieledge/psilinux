@@ -1,0 +1,18 @@
+name	apkbuild-pypi
+version	3.17.0-r0
+description	Script to generate python3 APKBUILD from PYPI
+url	https://gitlab.alpinelinux.org/alpine/abuild/
+license	GPL-2.0-only
+size	5956
+installed-size	15382
+depends	perl perl-libwww perl-json perl-module-build-tiny perl-lwp-protocol-https perl-ipc-system-simple
+origin	abuild
+repo	main
+file	apkbuild-pypi-3.17.0-r0.apk
+checksum	Q1rh60ANvyq6o7OXKMOGNH1UFK87U=
+dep	perl	perl
+dep	perl-libwww	perl-libwww
+dep	perl-json	perl-json
+dep	perl-module-build-tiny	perl-module-build-tiny
+dep	perl-lwp-protocol-https	perl-lwp-protocol-https
+dep	perl-ipc-system-simple	perl-ipc-system-simple

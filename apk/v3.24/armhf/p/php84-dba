@@ -1,0 +1,16 @@
+name	php84-dba
+version	8.4.27-r0
+description	PHP84 extension: DBA
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	23518
+installed-size	50510
+depends	php84-common so:libc.musl-armhf.so.1 so:libgdbm.so.6 so:liblmdb.so.0
+origin	php84
+repo	community
+file	php84-dba-8.4.27-r0.apk
+checksum	Q1xyTkMXeQTQN9QrhNh0Fa4MdYsPs=
+dep	php84-common	php84-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdbm.so.6	gdbm
+dep	so:liblmdb.so.0	lmdb

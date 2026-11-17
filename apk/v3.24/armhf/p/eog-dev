@@ -1,0 +1,24 @@
+name	eog-dev
+version	50.2-r0
+description	Image viewer for GNOME (development files)
+url	https://gitlab.gnome.org/GNOME/eog
+license	GPL-2.0-or-later
+size	15481
+installed-size	73648
+depends	exempi-dev gnome-desktop-dev jpeg-dev lcms2-dev libexif-dev libpeas-dev libportal-dev librsvg-dev libxml2-dev pc:gtk+-3.0 pc:libhandy-1 pkgconfig
+origin	eog
+repo	community
+file	eog-dev-50.2-r0.apk
+checksum	Q1QtFsCrIl8rt2SHCcrinvqJkqPsw=
+dep	exempi-dev	exempi-dev
+dep	gnome-desktop-dev	gnome-desktop-dev
+dep	jpeg-dev	jpeg-dev
+dep	lcms2-dev	lcms2-dev
+dep	libexif-dev	libexif-dev
+dep	libpeas-dev	libpeas-dev
+dep	libportal-dev	libportal-dev
+dep	librsvg-dev	librsvg-dev
+dep	libxml2-dev	libxml2-dev
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pc:libhandy-1	libhandy1-dev
+dep	pkgconfig	pkgconf

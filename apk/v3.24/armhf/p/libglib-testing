@@ -1,0 +1,16 @@
+name	libglib-testing
+version	0.2.0-r0
+description	Test harnesses and mock classes for GLib
+url	https://gitlab.gnome.org/pwithnall/libglib-testing
+license	LGPL-2.1-or-later
+size	13746
+installed-size	29868
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	libglib-testing
+repo	community
+file	libglib-testing-0.2.0-r0.apk
+checksum	Q1OH8Fpy/ES+jxhJO2FxaiN4nMLpk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

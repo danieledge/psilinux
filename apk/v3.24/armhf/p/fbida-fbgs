@@ -1,0 +1,14 @@
+name	fbida-fbgs
+version	2.15-r0
+description	fbgs tool from fbida
+url	https://www.kraxel.org/blog/linux/fbida/
+license	GPL-2.0-only
+size	2889
+installed-size	3098
+depends	fbida-fbi ghostscript
+origin	fbida
+repo	community
+file	fbida-fbgs-2.15-r0.apk
+checksum	Q1K+aIWiNJua47YDhvi2Gzuz4gN5A=
+dep	fbida-fbi	fbida-fbi
+dep	ghostscript	ghostscript

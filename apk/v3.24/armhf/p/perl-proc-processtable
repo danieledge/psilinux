@@ -1,0 +1,15 @@
+name	perl-proc-processtable
+version	0.637-r0
+description	Perl extension to access the unix process table
+url	https://metacpan.org/release/Proc-ProcessTable/
+license	Artistic-2.0
+size	20401
+installed-size	41788
+depends	perl so:libc.musl-armhf.so.1 so:libobstack.so.1
+origin	perl-proc-processtable
+repo	community
+file	perl-proc-processtable-0.637-r0.apk
+checksum	Q1i5FM7saULo+VLaKqRqFgw7dSIac=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libobstack.so.1	musl-obstack

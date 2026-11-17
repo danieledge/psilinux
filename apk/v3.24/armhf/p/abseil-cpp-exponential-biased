@@ -1,0 +1,14 @@
+name	abseil-cpp-exponential-biased
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-exponential-biased
+url	https://abseil.io/
+license	Apache-2.0
+size	3652
+installed-size	5400
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-exponential-biased-20250814.1-r0.apk
+checksum	Q1Jkk7XT/f1aW5FgwTtVbBlxqYPgM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

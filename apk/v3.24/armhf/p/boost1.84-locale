@@ -1,0 +1,18 @@
+name	boost1.84-locale
+version	1.84.0-r6
+description	Boost locale shared library
+url	https://www.boost.org/
+license	BSL-1.0
+size	308001
+installed-size	837388
+depends	so:libboost_thread.so.1.84.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libicui18n.so.78 so:libicuuc.so.78 so:libstdc++.so.6
+origin	boost1.84
+repo	main
+file	boost1.84-locale-1.84.0-r6.apk
+checksum	Q12KjRFWnxysXn0BC2YX6TZ1BPA1Q=
+dep	so:libboost_thread.so.1.84.0	boost1.84-thread
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libstdc++.so.6	libstdc++

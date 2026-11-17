@@ -1,0 +1,13 @@
+name	wego
+version	2.4-r3
+description	A weather app for the terminal
+url	https://github.com/schachmat/wego
+license	ISC
+size	2852825
+installed-size	6995524
+depends	so:libc.musl-armhf.so.1
+origin	wego
+repo	community
+file	wego-2.4-r3.apk
+checksum	Q1C4CluJsy6BKFwXq3+HHa5Mj6RL0=
+dep	so:libc.musl-armhf.so.1	musl

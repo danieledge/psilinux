@@ -1,0 +1,32 @@
+name	transmission-gtk
+version	4.1.2-r0
+description	Lightweight GTK BitTorrent client (GTK4 client)
+url	https://transmissionbt.com/
+license	GPL-3.0-only
+size	1260032
+installed-size	2962797
+depends	transmission-base=4.1.2-r0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libdeflate.so.0 so:libevent-2.1.so.7 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libgiomm-2.68.so.1 so:libglib-2.0.so.0 so:libglibmm-2.68.so.1 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libgtkmm-4.0.so.0 so:libintl.so.8 so:libminiupnpc.so.21 so:libpangomm-2.48.so.1 so:libpsl.so.5 so:libsigc-3.0.so.0 so:libstdc++.so.6
+origin	transmission
+repo	community
+file	transmission-gtk-4.1.2-r0.apk
+checksum	Q1LhNqJ5IGQ3TO7ST6D30CnndqAz8=
+dep	transmission-base=4.1.2-r0	transmission-base
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libdeflate.so.0	libdeflate
+dep	so:libevent-2.1.so.7	libevent
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libgiomm-2.68.so.1	glibmm
+dep	so:libglib-2.0.so.0	glib
+dep	so:libglibmm-2.68.so.1	glibmm
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libgtkmm-4.0.so.0	gtkmm4
+dep	so:libintl.so.8	libintl
+dep	so:libminiupnpc.so.21	miniupnpc
+dep	so:libpangomm-2.48.so.1	pangomm
+dep	so:libpsl.so.5	libpsl
+dep	so:libsigc-3.0.so.0	libsigc++3
+dep	so:libstdc++.so.6	libstdc++

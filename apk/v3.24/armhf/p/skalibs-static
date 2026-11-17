@@ -1,0 +1,13 @@
+name	skalibs-static
+version	2.15.0.0-r0
+description	Set of general-purpose C programming libraries for skarnet.org software. (static library)
+url	https://skarnet.org/software/skalibs/
+license	ISC
+size	181639
+installed-size	1180676
+depends	skalibs-dev
+origin	skalibs
+repo	main
+file	skalibs-static-2.15.0.0-r0.apk
+checksum	Q1Xj0zWScNBPtcYY0rGy5gZgtpfis=
+dep	skalibs-dev	skalibs-dev

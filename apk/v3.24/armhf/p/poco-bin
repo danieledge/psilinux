@@ -1,0 +1,19 @@
+name	poco-bin
+version	1.15.1-r0
+description	C++ class libraries for building network- and internet-based applications
+url	https://pocoproject.org/
+license	BSL-1.0
+size	113430
+installed-size	258428
+depends	so:libPocoFoundation.so.121 so:libPocoNet.so.121 so:libPocoUtil.so.121 so:libPocoXML.so.121 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	poco
+repo	community
+file	poco-bin-1.15.1-r0.apk
+checksum	Q122KfdPZ+GifVfNPpbUPbpiD6cKE=
+dep	so:libPocoFoundation.so.121	poco
+dep	so:libPocoNet.so.121	poco
+dep	so:libPocoUtil.so.121	poco
+dep	so:libPocoXML.so.121	poco
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

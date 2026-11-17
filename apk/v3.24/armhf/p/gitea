@@ -1,0 +1,17 @@
+name	gitea
+version	1.25.4-r5
+description	Self-hosted Git service written in Go
+url	https://about.gitea.com/
+license	MIT
+size	43891850
+installed-size	140156810
+depends	git git-lfs gnupg /bin/sh so:libc.musl-armhf.so.1
+origin	gitea
+repo	community
+file	gitea-1.25.4-r5.apk
+checksum	Q1ThIuRWk8PpM9+S/aVResIPKVKpg=
+dep	git	git
+dep	git-lfs	git-lfs
+dep	gnupg	gnupg
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

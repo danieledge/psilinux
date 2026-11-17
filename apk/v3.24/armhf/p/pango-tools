@@ -1,0 +1,24 @@
+name	pango-tools
+version	1.57.1-r0
+description	library for layout and rendering of text (tools)
+url	https://www.pango.org/
+license	LGPL-2.1-or-later
+size	27341
+installed-size	65228
+depends	so:libX11.so.6 so:libXft.so.2 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libfontconfig.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libharfbuzz.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpangoft2-1.0.so.0 so:libpangoxft-1.0.so.0
+origin	pango
+repo	main
+file	pango-tools-1.57.1-r0.apk
+checksum	Q1s1ZaKHw73DfUwmi4umF1s3ykaa4=
+dep	so:libX11.so.6	libx11
+dep	so:libXft.so.2	libxft
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpangoft2-1.0.so.0	pango
+dep	so:libpangoxft-1.0.so.0	pango

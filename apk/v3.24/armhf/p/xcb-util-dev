@@ -1,0 +1,16 @@
+name	xcb-util-dev
+version	0.4.1-r3
+description	Utility libraries for X C-language Binding (development files)
+url	https://xcb.freedesktop.org/
+license	MIT
+size	5397
+installed-size	11277
+depends	libxcb-dev util-macros xcb-util=0.4.1-r3 pkgconfig
+origin	xcb-util
+repo	main
+file	xcb-util-dev-0.4.1-r3.apk
+checksum	Q14TE+Wvj14TcPzu2C4EFTg3hKNpQ=
+dep	libxcb-dev	libxcb-dev
+dep	util-macros	util-macros
+dep	xcb-util=0.4.1-r3	xcb-util
+dep	pkgconfig	pkgconf

@@ -1,0 +1,18 @@
+name	tumbler-dev
+version	4.20.0-r0
+description	D-Bus thumbnail service (development files)
+url	https://gitlab.xfce.org/xfce/tumbler
+license	GPL-2.0-or-later
+size	8253
+installed-size	38916
+depends	tumbler=4.20.0-r0 pc:gio-2.0 pc:glib-2.0 pc:gobject-2.0 pc:gthread-2.0 pkgconfig
+origin	tumbler
+repo	community
+file	tumbler-dev-4.20.0-r0.apk
+checksum	Q1H481jXDQySze0dCUAx/SNpSSVf8=
+dep	tumbler=4.20.0-r0	tumbler
+dep	pc:gio-2.0	glib-dev
+dep	pc:glib-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pc:gthread-2.0	glib-dev
+dep	pkgconfig	pkgconf

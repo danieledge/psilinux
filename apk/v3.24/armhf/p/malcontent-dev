@@ -1,0 +1,23 @@
+name	malcontent-dev
+version	0.14.0-r0
+description	Parental control support for applications (development files)
+url	https://gitlab.freedesktop.org/pwithnall/malcontent
+license	LGPL-2.1-or-later
+size	40113
+installed-size	350326
+depends	malcontent-libs=0.14.0-r0 pc:accountsservice>=0.6.55 pc:appstream>=0.12.10 pc:flatpak pc:gio-2.0>=2.44 pc:gio-unix-2.0>=2.36 pc:glib-2.0>=2.54.2 pc:gobject-2.0>=2.54 pc:gtk4>=4.12 pc:libadwaita-1>=1.6 pkgconfig
+origin	malcontent
+repo	community
+file	malcontent-dev-0.14.0-r0.apk
+checksum	Q1hxc7qndGJcIPCKOtFEq04PiNzPE=
+dep	malcontent-libs=0.14.0-r0	malcontent-libs
+dep	pc:accountsservice>=0.6.55	accountsservice-dev
+dep	pc:appstream>=0.12.10	appstream-dev
+dep	pc:flatpak	flatpak-dev
+dep	pc:gio-2.0>=2.44	glib-dev
+dep	pc:gio-unix-2.0>=2.36	glib-dev
+dep	pc:glib-2.0>=2.54.2	glib-dev
+dep	pc:gobject-2.0>=2.54	glib-dev
+dep	pc:gtk4>=4.12	gtk4.0-dev
+dep	pc:libadwaita-1>=1.6	libadwaita-dev
+dep	pkgconfig	pkgconf

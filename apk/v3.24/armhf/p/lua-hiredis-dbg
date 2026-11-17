@@ -1,0 +1,12 @@
+name	lua-hiredis-dbg
+version	0.2.1-r9
+description	Binding to hiredis for Lua (debug symbols)
+url	https://github.com/agladysh/lua-hiredis
+license	MIT
+size	29695
+installed-size	120004
+depends	!lua5.1-hiredis<0.2.1-r9 !lua5.1-hiredis>0.2.1-r9 !lua5.2-hiredis<0.2.1-r9 !lua5.2-hiredis>0.2.1-r9 !lua5.3-hiredis<0.2.1-r9 !lua5.3-hiredis>0.2.1-r9 !lua5.4-hiredis<0.2.1-r9 !lua5.4-hiredis>0.2.1-r9 !lua5.5-hiredis<0.2.1-r9 !lua5.5-hiredis>0.2.1-r9
+origin	lua-hiredis
+repo	community
+file	lua-hiredis-dbg-0.2.1-r9.apk
+checksum	Q1xFzwB0dVrsrDOIoBY2xid7YZINI=

@@ -1,0 +1,13 @@
+name	ostree-gir
+version	2025.7-r1
+description	ostree (GObject-Introspection metadata)
+url	https://github.com/ostreedev/ostree
+license	LGPL-2.0-or-later
+size	24189
+installed-size	78940
+depends	gobject-introspection
+origin	ostree
+repo	community
+file	ostree-gir-2025.7-r1.apk
+checksum	Q1DTWnhuFFZTHL4xAlphHP0Lj1cog=
+dep	gobject-introspection	gobject-introspection

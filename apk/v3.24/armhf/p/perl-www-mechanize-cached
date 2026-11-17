@@ -1,0 +1,23 @@
+name	perl-www-mechanize-cached
+version	2.00-r0
+description	Cache response to be polite
+url	https://metacpan.org/release/WWW-Mechanize-Cached/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6735
+installed-size	14660
+depends	perl perl-www-mechanize perl-cache-cache perl-data-dump perl-moo perl-moox-types-mooselike perl-namespace-clean perl-module-runtime perl-libwww perl-file-xdg perl-path-tiny
+origin	perl-www-mechanize-cached
+repo	community
+file	perl-www-mechanize-cached-2.00-r0.apk
+checksum	Q1V/m/O6JpjIz69pd4hxzF4HnkJEU=
+dep	perl	perl
+dep	perl-www-mechanize	perl-www-mechanize
+dep	perl-cache-cache	perl-cache-cache
+dep	perl-data-dump	perl-data-dump
+dep	perl-moo	perl-moo
+dep	perl-moox-types-mooselike	perl-moox-types-mooselike
+dep	perl-namespace-clean	perl-namespace-clean
+dep	perl-module-runtime	perl-module-runtime
+dep	perl-libwww	perl-libwww
+dep	perl-file-xdg	perl-file-xdg
+dep	perl-path-tiny	perl-path-tiny

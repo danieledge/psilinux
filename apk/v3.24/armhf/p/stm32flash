@@ -1,0 +1,13 @@
+name	stm32flash
+version	0.7-r0
+description	Flash STM32 ARM SoCs using built-in ST serial bootloader over UART or I2C
+url	https://sourceforge.net/p/stm32flash/wiki/Home/
+license	GPL-2.0-or-later
+size	23341
+installed-size	46664
+depends	so:libc.musl-armhf.so.1
+origin	stm32flash
+repo	community
+file	stm32flash-0.7-r0.apk
+checksum	Q1w26KqWrNx7i2rZ+JVPo9G10LqYU=
+dep	so:libc.musl-armhf.so.1	musl

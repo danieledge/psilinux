@@ -1,0 +1,16 @@
+name	rust-analyzer
+version	2026.06.08-r0
+description	Rust compiler front-end for IDEs
+url	https://github.com/rust-lang/rust-analyzer
+license	MIT OR Apache-2.0
+size	9308825
+installed-size	24074092
+depends	rust-src so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libmimalloc-secure.so.2
+origin	rust-analyzer
+repo	community
+file	rust-analyzer-2026.06.08-r0.apk
+checksum	Q1OwEsoRYrZ6klxXRiyDFZLba7pNI=
+dep	rust-src	rust-src
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmimalloc-secure.so.2	mimalloc2

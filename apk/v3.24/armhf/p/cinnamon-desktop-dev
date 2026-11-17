@@ -1,0 +1,20 @@
+name	cinnamon-desktop-dev
+version	6.6.2-r0
+description	Library providing shared API for Cinnamon applications (development files)
+url	https://github.com/linuxmint/cinnamon-desktop
+license	GPL-2.0-only
+size	52965
+installed-size	529359
+depends	cinnamon-desktop=6.6.2-r0 pc:gio-2.0 pc:gobject-2.0 pc:gtk+-3.0 pc:libpulse pc:libpulse-mainloop-glib pc:xkbfile pkgconfig
+origin	cinnamon-desktop
+repo	community
+file	cinnamon-desktop-dev-6.6.2-r0.apk
+checksum	Q11mXuDIBTwYcmPhQi0KrKCxPENGs=
+dep	cinnamon-desktop=6.6.2-r0	cinnamon-desktop
+dep	pc:gio-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pc:libpulse	pulseaudio-dev
+dep	pc:libpulse-mainloop-glib	pulseaudio-dev
+dep	pc:xkbfile	libxkbfile-dev
+dep	pkgconfig	pkgconf

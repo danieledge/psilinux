@@ -1,0 +1,18 @@
+name	connman-resolvconf
+version	0.2.0-r3
+description	ConnMan integration with resolvconf(8)
+url	https://github.com/jirutka/connman-resolvconf
+license	MIT
+size	317728
+installed-size	675364
+depends	cmd:resolvconf connman dbus so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libgcc_s.so.1
+origin	connman-resolvconf
+repo	community
+file	connman-resolvconf-0.2.0-r3.apk
+checksum	Q1hb4JrUIqrW4MwALdIXumhtCCYG8=
+dep	cmd:resolvconf	openresolv
+dep	connman	connman
+dep	dbus	dbus
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libgcc_s.so.1	libgcc

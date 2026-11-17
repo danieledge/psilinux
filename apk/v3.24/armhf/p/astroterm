@@ -1,0 +1,15 @@
+name	astroterm
+version	1.2.0-r0
+description	Terminal-based star map
+url	https://github.com/da-luce/astroterm
+license	MIT
+size	326244
+installed-size	507844
+depends	so:libargtable2.so.0 so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	astroterm
+repo	main
+file	astroterm-1.2.0-r0.apk
+checksum	Q1OcIh13jFaPWdS5sVmyK2DYyCRJM=
+dep	so:libargtable2.so.0	argtable2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

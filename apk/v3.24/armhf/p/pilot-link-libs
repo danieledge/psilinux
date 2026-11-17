@@ -1,0 +1,14 @@
+name	pilot-link-libs
+version	0.12.5_git20241124-r2
+description	A suite of tools for connecting to PalmOS handheld devices (libraries)
+url	https://github.com/desrod/pilot-link
+license	GPL-2.0-only
+size	98909
+installed-size	228556
+depends	so:libbluetooth.so.3 so:libc.musl-armhf.so.1
+origin	pilot-link
+repo	community
+file	pilot-link-libs-0.12.5_git20241124-r2.apk
+checksum	Q16DeCjAxv7sC6+AM20/XmxJIDRLE=
+dep	so:libbluetooth.so.3	bluez-libs
+dep	so:libc.musl-armhf.so.1	musl

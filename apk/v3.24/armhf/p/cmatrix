@@ -1,0 +1,14 @@
+name	cmatrix
+version	2.0-r2
+description	Terminal based 'The Matrix' like implementation
+url	https://github.com/abishekvashok/cmatrix
+license	GPL-3.0-or-later
+size	8512
+installed-size	17580
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	cmatrix
+repo	community
+file	cmatrix-2.0-r2.apk
+checksum	Q1CbrEFVs82Q3OCNqIy8Zvb4pfvZk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

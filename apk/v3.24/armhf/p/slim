@@ -1,0 +1,22 @@
+name	slim
+version	1.4.1-r1
+description	Desktop-independent graphical login manager for X11
+url	https://sourceforge.net/projects/slim-fork
+license	GPL-2.0-or-later
+size	1443217
+installed-size	1518753
+depends	dbus so:libX11.so.6 so:libXft.so.2 so:libXmu.so.6 so:libXrandr.so.2 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libjpeg.so.8 so:libpng16.so.16 so:libstdc++.so.6
+origin	slim
+repo	community
+file	slim-1.4.1-r1.apk
+checksum	Q1zHC8eNcRTrKmWa2/ewWM/K0wpHQ=
+dep	dbus	dbus
+dep	so:libX11.so.6	libx11
+dep	so:libXft.so.2	libxft
+dep	so:libXmu.so.6	libxmu
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++

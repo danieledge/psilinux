@@ -1,0 +1,14 @@
+name	emacs-magit-section
+version	3.3.0-r1
+description	Collapsible sections like in Magit
+url	https://magit.vc/
+license	GPL-3.0-or-later
+size	41269
+installed-size	143704
+depends	cmd:emacs emacs-dash
+origin	emacs-magit
+repo	community
+file	emacs-magit-section-3.3.0-r1.apk
+checksum	Q1JYdFAbtU/bBviOnx/ejPYY+CCf8=
+dep	cmd:emacs	emacs-gtk3
+dep	emacs-dash	emacs-dash

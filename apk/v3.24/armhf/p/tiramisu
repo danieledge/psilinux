@@ -1,0 +1,17 @@
+name	tiramisu
+version	2.0.20240610-r0
+description	Desktop notifications, the UNIX way
+url	https://github.com/Sweets/tiramisu
+license	MIT
+size	13718
+installed-size	34020
+depends	dbus so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	tiramisu
+repo	community
+file	tiramisu-2.0.20240610-r0.apk
+checksum	Q1oCQEe2x56BRvTWOo+t+vGZbGxks=
+dep	dbus	dbus
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

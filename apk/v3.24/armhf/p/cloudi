@@ -1,0 +1,24 @@
+name	cloudi
+version	2.0.7-r35
+description	Cloud computing framework for efficient, scalable, and stable soft-realtime event processing.
+url	https://cloudi.org/
+license	MIT
+size	45276656
+installed-size	74537724
+depends	erlang g++ so:libbfd-2.45.1.so so:libboost_thread.so.1.84.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libgmp.so.10 so:libncursesw.so.6 so:libseccomp.so.2 so:libstdc++.so.6 so:libz.so.1
+origin	cloudi
+repo	community
+file	cloudi-2.0.7-r35.apk
+checksum	Q1FCmmATHfUD/ZAv0N28T/yxTm+LU=
+dep	erlang	erlang27
+dep	g++	g++
+dep	so:libbfd-2.45.1.so	binutils
+dep	so:libboost_thread.so.1.84.0	boost1.84-thread
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgmp.so.10	gmp
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libseccomp.so.2	libseccomp
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

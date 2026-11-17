@@ -1,0 +1,14 @@
+name	php84-pecl-lzf
+version	1.7.0-r1
+description	PHP 8.4 extension handles LZF de/compression - PECL
+url	https://pecl.php.net/package/LZF
+license	PHP-3.01
+size	6960
+installed-size	13622
+depends	php84-common so:libc.musl-armhf.so.1
+origin	php84-pecl-lzf
+repo	community
+file	php84-pecl-lzf-1.7.0-r1.apk
+checksum	Q16n4QCtlafwa5/zle83MEZFG/RV4=
+dep	php84-common	php84-common
+dep	so:libc.musl-armhf.so.1	musl

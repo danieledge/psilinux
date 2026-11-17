@@ -1,0 +1,16 @@
+name	perl-signature-attribute-checked
+version	0.06-r2
+description	Apply value constraint checks to subroutine parameters
+url	https://metacpan.org/release/Signature-Attribute-Checked/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	7724
+installed-size	14490
+depends	perl perl-data-checks perl-xs-parse-sublike so:libc.musl-armhf.so.1
+origin	perl-signature-attribute-checked
+repo	community
+file	perl-signature-attribute-checked-0.06-r2.apk
+checksum	Q1Leg3zepuBxWCGZoMI1OBcUg6MXY=
+dep	perl	perl
+dep	perl-data-checks	perl-data-checks
+dep	perl-xs-parse-sublike	perl-xs-parse-sublike
+dep	so:libc.musl-armhf.so.1	musl

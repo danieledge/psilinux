@@ -1,0 +1,16 @@
+name	stunnel
+version	5.82-r0
+description	SSL encryption wrapper between network client and server
+url	https://www.stunnel.org
+license	GPL-2.0-or-later WITH OpenSSL-Exception
+size	102849
+installed-size	222810
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	stunnel
+repo	community
+file	stunnel-5.82-r0.apk
+checksum	Q1pfO+ETD2wdG2X2n7HfRPQD0ttoU=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

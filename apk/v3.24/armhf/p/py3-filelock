@@ -1,0 +1,14 @@
+name	py3-filelock
+version	3.29.0-r0
+description	A platform independent file lock for Python3
+url	https://github.com/tox-dev/py-filelock
+license	MIT
+size	34605
+installed-size	129802
+depends	python3 python3~3.14
+origin	py3-filelock
+repo	main
+file	py3-filelock-3.29.0-r0.apk
+checksum	Q1JTs0p6Nc4rC/pIUySluHR6psMFg=
+dep	python3	python3
+dep	python3~3.14	python3

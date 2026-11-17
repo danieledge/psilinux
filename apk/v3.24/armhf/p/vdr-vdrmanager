@@ -1,0 +1,13 @@
+name	vdr-vdrmanager
+version	2.6.1-r7
+description	Video Disk Recorder
+url	http://www.tvdr.de/
+license	GPL-2.0-or-later
+size	2054
+installed-size	743
+depends	vdr=2.6.1-r7
+origin	vdr
+repo	community
+file	vdr-vdrmanager-2.6.1-r7.apk
+checksum	Q15F3CEP3Ty5q9r+pwvG742GwAM54=
+dep	vdr=2.6.1-r7	vdr

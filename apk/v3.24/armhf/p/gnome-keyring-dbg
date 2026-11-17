@@ -1,0 +1,12 @@
+name	gnome-keyring-dbg
+version	50.0-r0
+description	GNOME keyring (debug symbols)
+url	https://gitlab.gnome.org/GNOME/gnome-keyring
+license	GPL-2.0-only LGPL-2.0-only
+size	4221112
+installed-size	10084560
+depends	!gnome-keyring-pam<50.0-r0 !gnome-keyring-pam>50.0-r0 !gnome-keyring<50.0-r0 !gnome-keyring>50.0-r0
+origin	gnome-keyring
+repo	community
+file	gnome-keyring-dbg-50.0-r0.apk
+checksum	Q1CvKvubxRAZy8PM/u0Dg7kacj15c=

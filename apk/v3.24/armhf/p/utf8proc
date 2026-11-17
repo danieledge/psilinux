@@ -1,0 +1,13 @@
+name	utf8proc
+version	2.11.3-r0
+description	Clean C library for processing UTF-8 Unicode data
+url	https://github.com/JuliaStrings/utf8proc
+license	MIT custom
+size	83506
+installed-size	349304
+depends	so:libc.musl-armhf.so.1
+origin	utf8proc
+repo	community
+file	utf8proc-2.11.3-r0.apk
+checksum	Q1ZsLAn0MTzExIEFggLygEfPJvppg=
+dep	so:libc.musl-armhf.so.1	musl

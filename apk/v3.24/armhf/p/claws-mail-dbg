@@ -1,0 +1,12 @@
+name	claws-mail-dbg
+version	4.4.0-r0
+description	GTK+ based e-mail client (debug symbols)
+url	https://www.claws-mail.org
+license	GPL-3.0-or-later
+size	6819656
+installed-size	14541540
+depends	!claws-mail-plugins-acpi-notifier<4.4.0-r0 !claws-mail-plugins-acpi-notifier>4.4.0-r0 !claws-mail-plugins-address-keeper<4.4.0-r0 !claws-mail-plugins-address-keeper>4.4.0-r0 !claws-mail-plugins-archive<4.4.0-r0 !claws-mail-plugins-archive>4.4.0-r0 !claws-mail-plugins-att-remove<4.4.0-r0 !claws-mail-plugins-att-remove>4.4.0-r0 !claws-mail-plugins-attachwarner<4.4.0-r0 !claws-mail-plugins-attachwarner>4.4.0-r0 !claws-mail-plugins-bogofilter<4.4.0-r0 !claws-mail-plugins-bogofilter>4.4.0-r0 !claws-mail-plugins-clamd<4.4.0-r0 !claws-mail-plugins-clamd>4.4.0-r0 !claws-mail-plugins-dillo<4.4.0-r0 !claws-mail-plugins-dillo>4.4.0-r0 !claws-mail-plugins-fancy<4.4.0-r0 !claws-mail-plugins-fancy>4.4.0-r0 !claws-mail-plugins-fetchinfo<4.4.0-r0 !claws-mail-plugins-fetchinfo>4.4.0-r0 !claws-mail-plugins-libravatar<4.4.0-r0 !claws-mail-plugins-libravatar>4.4.0-r0 !claws-mail-plugins-mailmbox<4.4.0-r0 !claws-mail-plugins-mailmbox>4.4.0-r0 !claws-mail-plugins-managesieve<4.4.0-r0 !claws-mail-plugins-managesieve>4.4.0-r0 !claws-mail-plugins-notification<4.4.0-r0 !claws-mail-plugins-notification>4.4.0-r0 !claws-mail-plugins-pdf-viewer<4.4.0-r0 !claws-mail-plugins-pdf-viewer>4.4.0-r0 !claws-mail-plugins-perl<4.4.0-r0 !claws-mail-plugins-perl>4.4.0-r0 !claws-mail-plugins-pgp<4.4.0-r0 !claws-mail-plugins-pgp>4.4.0-r0 !claws-mail-plugins-rssyl<4.4.0-r0 !claws-mail-plugins-rssyl>4.4.0-r0 !claws-mail-plugins-smime<4.4.0-r0 !claws-mail-plugins-smime>4.4.0-r0 !claws-mail-plugins-spamassassin<4.4.0-r0 !claws-mail-plugins-spamassassin>4.4.0-r0 !claws-mail-plugins-spamreport<4.4.0-r0 !claws-mail-plugins-spamreport>4.4.0-r0 !claws-mail-plugins-tnef<4.4.0-r0 !claws-mail-plugins-tnef>4.4.0-r0 !claws-mail-plugins-vcalendar<4.4.0-r0 !claws-mail-plugins-vcalendar>4.4.0-r0 !claws-mail<4.4.0-r0 !claws-mail>4.4.0-r0
+origin	claws-mail
+repo	community
+file	claws-mail-dbg-4.4.0-r0.apk
+checksum	Q1uf0Y5peks/AgSnJidUHazn4dF9w=

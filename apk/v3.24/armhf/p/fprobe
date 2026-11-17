@@ -1,0 +1,14 @@
+name	fprobe
+version	1.1-r13
+description	libpcap-based tool that collect network traffic
+url	https://fprobe.sourceforge.net/
+license	GPL-2.0-or-later
+size	15472
+installed-size	27444
+depends	so:libc.musl-armhf.so.1 so:libpcap.so.1
+origin	fprobe
+repo	main
+file	fprobe-1.1-r13.apk
+checksum	Q1I619sbkILRVAaiGN9XsIsfG2wGg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcap.so.1	libpcap

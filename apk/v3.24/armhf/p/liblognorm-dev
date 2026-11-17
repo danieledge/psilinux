@@ -1,0 +1,16 @@
+name	liblognorm-dev
+version	2.0.6-r5
+description	A fast log-normalization library (development files)
+url	https://www.liblognorm.com/
+license	LGPL-2.1-or-later AND Apache-2.0
+size	81099
+installed-size	204258
+depends	libestr-dev liblognorm=2.0.6-r5 pc:libfastjson pkgconfig
+origin	liblognorm
+repo	main
+file	liblognorm-dev-2.0.6-r5.apk
+checksum	Q11VUSceg6sKB2IkWl/WXnJLO8AlM=
+dep	libestr-dev	libestr-dev
+dep	liblognorm=2.0.6-r5	liblognorm
+dep	pc:libfastjson	libfastjson-dev
+dep	pkgconfig	pkgconf

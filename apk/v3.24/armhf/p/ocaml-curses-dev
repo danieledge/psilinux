@@ -1,0 +1,13 @@
+name	ocaml-curses-dev
+version	1.0.10-r5
+description	OCaml bindings for ncurses (development files)
+url	https://github.com/mbacarella/curses
+license	LGPL-2.1-or-later WITH OCaml-LGPL-linking-exception
+size	320829
+installed-size	985491
+depends	ocaml-curses=1.0.10-r5
+origin	ocaml-curses
+repo	community
+file	ocaml-curses-dev-1.0.10-r5.apk
+checksum	Q189W0ZhsqZ52bixC33N+m6Xd5WqA=
+dep	ocaml-curses=1.0.10-r5	ocaml-curses

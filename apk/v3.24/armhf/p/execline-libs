@@ -1,0 +1,14 @@
+name	execline-libs
+version	2.9.9.1-r0
+description	A small scripting language, to be used in place of a shell in non-interactive scripts. (libraries)
+url	https://skarnet.org/software/execline/
+license	ISC
+size	13565
+installed-size	25820
+depends	so:libc.musl-armhf.so.1 so:libskarnet.so.2.15
+origin	execline
+repo	main
+file	execline-libs-2.9.9.1-r0.apk
+checksum	Q1fpNtHLHvAvQWroiX7jJDTXff37c=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libskarnet.so.2.15	skalibs-libs

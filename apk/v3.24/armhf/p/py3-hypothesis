@@ -1,0 +1,15 @@
+name	py3-hypothesis
+version	6.151.12-r0
+description	Advanced property-based (QuickCheck-like) testing for Python
+url	https://hypothesis.works/
+license	MPL-2.0
+size	472018
+installed-size	1701653
+depends	py3-attrs py3-sortedcontainers python3~3.14
+origin	py3-hypothesis
+repo	main
+file	py3-hypothesis-6.151.12-r0.apk
+checksum	Q1gMg3RGUzJlshVekTUz86I9liXNI=
+dep	py3-attrs	py3-attrs
+dep	py3-sortedcontainers	py3-sortedcontainers
+dep	python3~3.14	python3

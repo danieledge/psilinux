@@ -1,0 +1,13 @@
+name	klibc-nfsmount
+version	2.0.14-r1
+description	A minimalistic libc subset for use with initramfs
+url	https://git.kernel.org/pub/scm/libs/klibc/klibc.git/
+license	GPL-2.0-or-later
+size	5768
+installed-size	7488
+depends	libklibc
+origin	klibc
+repo	community
+file	klibc-nfsmount-2.0.14-r1.apk
+checksum	Q1xoDYL41uhUq9m0+vn8aVsqbJUNw=
+dep	libklibc	libklibc

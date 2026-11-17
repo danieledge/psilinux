@@ -1,0 +1,15 @@
+name	perl-menlo-legacy
+version	1.9022-r1
+description	Legacy internal and client support for Menlo
+url	https://metacpan.org/release/Menlo-Legacy/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	25421
+installed-size	88005
+depends	perl perl-menlo make
+origin	perl-menlo-legacy
+repo	community
+file	perl-menlo-legacy-1.9022-r1.apk
+checksum	Q1IztZUHyEt1aCC9OE+yHl3K7VYY4=
+dep	perl	perl
+dep	perl-menlo	perl-menlo
+dep	make	make

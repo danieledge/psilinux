@@ -1,0 +1,15 @@
+name	gnome-menus-dev
+version	3.38.1-r0
+description	Library for the Desktop Menu Specification (development files)
+url	https://gitlab.gnome.org/GNOME/gnome-menus
+license	GPL-2.0-or-later AND LGPL-2.0-or-later
+size	8169
+installed-size	51765
+depends	gnome-menus=3.38.1-r0 pc:gio-unix-2.0 pkgconfig
+origin	gnome-menus
+repo	community
+file	gnome-menus-dev-3.38.1-r0.apk
+checksum	Q1dQxlJeVYNZJbgbKE076H6+GCEHA=
+dep	gnome-menus=3.38.1-r0	gnome-menus
+dep	pc:gio-unix-2.0	glib-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,15 @@
+name	perl-compress-raw-bzip2
+version	2.218-r0
+description	Perl low-level interface to bzip2 compression library
+url	https://metacpan.org/release/Compress-Raw-Bzip2/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	15259
+installed-size	36716
+depends	perl so:libbz2.so.1 so:libc.musl-armhf.so.1
+origin	perl-compress-raw-bzip2
+repo	main
+file	perl-compress-raw-bzip2-2.218-r0.apk
+checksum	Q1nwpIrgKM2h6iW3iyJW+lTsHGqbQ=
+dep	perl	perl
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl

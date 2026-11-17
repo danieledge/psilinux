@@ -1,0 +1,16 @@
+name	py3-pyld
+version	3.0.0-r0
+description	JSON-LD processor written in Python
+url	https://pypi.org/project/PyLD/
+license	BSD-3-Clause
+size	73377
+installed-size	354253
+depends	py3-cachetools py3-frozendict py3-lxml python3~3.14
+origin	py3-pyld
+repo	community
+file	py3-pyld-3.0.0-r0.apk
+checksum	Q14S4T61rDpPFM3kU6BeBzMakqDdc=
+dep	py3-cachetools	py3-cachetools
+dep	py3-frozendict	py3-frozendict
+dep	py3-lxml	py3-lxml
+dep	python3~3.14	python3

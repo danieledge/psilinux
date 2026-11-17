@@ -1,0 +1,14 @@
+name	open-lldp-dev
+version	1.1-r3
+description	Open Source implementation of the IEEE standard 802.1AB Link Layer Discovery Protocol (LLDP) (development files)
+url	http://www.open-lldp.org
+license	GPL-2.0-only
+size	27794
+installed-size	95699
+depends	open-lldp=1.1-r3 pkgconfig
+origin	open-lldp
+repo	main
+file	open-lldp-dev-1.1-r3.apk
+checksum	Q1hjCIH0eBpdRykR1OOoRED/A5jgg=
+dep	open-lldp=1.1-r3	open-lldp
+dep	pkgconfig	pkgconf

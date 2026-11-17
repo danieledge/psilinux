@@ -1,0 +1,15 @@
+name	collectd-sysevent
+version	5.12.0-r25
+description	sysevent pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	9860
+installed-size	21640
+depends	collectd so:libc.musl-armhf.so.1 so:libyajl.so.2
+origin	collectd
+repo	community
+file	collectd-sysevent-5.12.0-r25.apk
+checksum	Q1qnef32S/pY5NiDuyHOjUWy6ypRQ=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libyajl.so.2	yajl

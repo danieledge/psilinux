@@ -1,0 +1,14 @@
+name	perl-crypt-urandom
+version	0.55-r0
+description	Provide non blocking randomness
+url	https://metacpan.org/release/Crypt-URandom/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	8411
+installed-size	19183
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-crypt-urandom
+repo	main
+file	perl-crypt-urandom-0.55-r0.apk
+checksum	Q1lh3qwpq6T5P6mBnAvnzTwuCMt9I=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

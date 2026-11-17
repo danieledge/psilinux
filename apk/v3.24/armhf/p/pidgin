@@ -1,0 +1,27 @@
+name	pidgin
+version	2.14.14-r0
+description	Graphical, multi-protocol instant messaging client
+url	https://pidgin.im/
+license	GPL-2.0-or-later
+size	1173944
+installed-size	2183853
+depends	so:libICE.so.6 so:libSM.so.6 so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-x11-2.0.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-x11-2.0.so.0 so:libgtkspell.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libpurple.so.0
+origin	pidgin
+repo	community
+file	pidgin-2.14.14-r0.apk
+checksum	Q1K5IcKNbbWxWsbl278RPesUXRyXA=
+dep	so:libICE.so.6	libice
+dep	so:libSM.so.6	libsm
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-x11-2.0.so.0	gtk+2.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-x11-2.0.so.0	gtk+2.0
+dep	so:libgtkspell.so.0	gtkspell
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpurple.so.0	libpurple

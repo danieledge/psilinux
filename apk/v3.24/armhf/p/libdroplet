@@ -1,0 +1,17 @@
+name	libdroplet
+version	2.0-r13
+description	Cloud storage client library
+url	https://www.scality.com
+license	MIT
+size	62147
+installed-size	136672
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libjson-c.so.5 so:libssl.so.3 so:libxml2.so.2
+origin	libdroplet
+repo	community
+file	libdroplet-2.0-r13.apk
+checksum	Q1JVYHSYNb1QRjwVf17oUfrmvvwT8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libjson-c.so.5	json-c
+dep	so:libssl.so.3	libssl3
+dep	so:libxml2.so.2	libxml2

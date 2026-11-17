@@ -1,0 +1,13 @@
+name	luanti-server-openrc
+version	5.15.0-r1
+description	Luanti server (OpenRC init scripts)
+url	https://www.luanti.org/
+license	LGPL-2.1-or-later AND CC-BY-SA-3.0
+size	2136
+installed-size	803
+depends	luanti-common
+origin	luanti
+repo	community
+file	luanti-server-openrc-5.15.0-r1.apk
+checksum	Q1uwCDDqOrr4Py6P2ANSzUfrBA01g=
+dep	luanti-common	luanti-common

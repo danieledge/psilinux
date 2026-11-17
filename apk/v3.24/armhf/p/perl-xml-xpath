@@ -1,0 +1,14 @@
+name	perl-xml-xpath
+version	1.48-r1
+description	Parse and evaluate XPath statements.
+url	https://metacpan.org/release/XML-XPath/
+license	Artistic-1.0-Perl OR GPL-1.0-or-later
+size	39786
+installed-size	157604
+depends	perl perl-xml-parser
+origin	perl-xml-xpath
+repo	main
+file	perl-xml-xpath-1.48-r1.apk
+checksum	Q1EiCCfNivjImqiF7S7d2bN77steU=
+dep	perl	perl
+dep	perl-xml-parser	perl-xml-parser

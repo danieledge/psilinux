@@ -1,0 +1,14 @@
+name	noip2
+version	2.1.9-r1
+description	Dynamic DNS Update Client for noip.com
+url	https://www.noip.com
+license	GPL-2.0-or-later
+size	22658
+installed-size	54972
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	noip2
+repo	community
+file	noip2-2.1.9-r1.apk
+checksum	Q1Wffl1kIDAhJIKEahaMe972/Vn+I=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

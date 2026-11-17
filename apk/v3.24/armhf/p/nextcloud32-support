@@ -1,0 +1,13 @@
+name	nextcloud32-support
+version	32.0.15-r0
+description	Nextcloud Support app
+url	https://nextcloud.com/
+license	AGPL-3.0-only
+size	308006
+installed-size	1674192
+depends	nextcloud32
+origin	nextcloud32
+repo	community
+file	nextcloud32-support-32.0.15-r0.apk
+checksum	Q1MEaj8gJReBMx733Ki4uXDTZieRE=
+dep	nextcloud32	nextcloud32

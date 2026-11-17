@@ -1,0 +1,20 @@
+name	ghostscript-gtk
+version	10.08.0-r0
+description	A GTK-enabled PostScript interpreter and renderer
+url	https://ghostscript.com/
+license	AGPL-3.0-or-later
+size	9871
+installed-size	17692
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgs.so.10 so:libgtk-3.so.0
+origin	ghostscript
+repo	community
+file	ghostscript-gtk-10.08.0-r0.apk
+checksum	Q1zxP/GpBcEqE1xcNidDAM3gVgMRU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgs.so.10	ghostscript
+dep	so:libgtk-3.so.0	gtk+3.0

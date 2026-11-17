@@ -1,0 +1,23 @@
+name	mupdf-libs
+version	1.27.2-r0
+description	Lightweight PDF and XPS viewer
+url	https://mupdf.com
+license	AGPL-3.0-or-later
+size	36131351
+installed-size	52245412
+depends	so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-armhf.so.1 so:libfreetype.so.6 so:libgumbo.so.3 so:libharfbuzz.so.0 so:libjbig2dec.so.0 so:libjpeg.so.8 so:libmujs.so.3 so:libopenjp2.so.7 so:libz.so.1
+origin	mupdf
+repo	community
+file	mupdf-libs-1.27.2-r0.apk
+checksum	Q1NSasPnWLfH65AS1OkQWiuObcoVo=
+dep	so:libbrotlidec.so.1	brotli-libs
+dep	so:libbrotlienc.so.1	brotli-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreetype.so.6	freetype
+dep	so:libgumbo.so.3	gumbo-parser
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:libjbig2dec.so.0	jbig2dec
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libmujs.so.3	mujs-libs
+dep	so:libopenjp2.so.7	openjpeg
+dep	so:libz.so.1	zlib

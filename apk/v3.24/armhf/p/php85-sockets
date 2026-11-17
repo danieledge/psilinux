@@ -1,0 +1,14 @@
+name	php85-sockets
+version	8.5.12-r0
+description	PHP85 extension: Sockets
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0 Apache-2.0
+size	40386
+installed-size	95574
+depends	php85-common so:libc.musl-armhf.so.1
+origin	php85
+repo	community
+file	php85-sockets-8.5.12-r0.apk
+checksum	Q1eW/ikerJdy4QBlImT4q09uhmtjc=
+dep	php85-common	php85-common
+dep	so:libc.musl-armhf.so.1	musl

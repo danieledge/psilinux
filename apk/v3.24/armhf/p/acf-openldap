@@ -1,0 +1,15 @@
+name	acf-openldap
+version	1.0.1-r8
+description	ACF module for OpenLDAP
+url	https://gitlab.alpinelinux.org/acf/acf-openldap
+license	GPL-2.0-only
+size	3261
+installed-size	3168
+depends	acf-core openldap openldap-back-mdb
+origin	acf-openldap
+repo	main
+file	acf-openldap-1.0.1-r8.apk
+checksum	Q1WroI+7QIFJlRg074eyiJDlvie/o=
+dep	acf-core	acf-core
+dep	openldap	openldap
+dep	openldap-back-mdb	openldap-back-mdb

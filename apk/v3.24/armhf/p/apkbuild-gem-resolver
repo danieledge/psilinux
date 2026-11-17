@@ -1,0 +1,14 @@
+name	apkbuild-gem-resolver
+version	3.17.0-r0
+description	APKBUILD dependency resolver for RubyGems
+url	https://gitlab.alpinelinux.org/alpine/abuild/
+license	GPL-2.0-only
+size	4259
+installed-size	9025
+depends	ruby ruby-augeas
+origin	abuild
+repo	main
+file	apkbuild-gem-resolver-3.17.0-r0.apk
+checksum	Q1OiUVn0gHOigaB8QHc5pXAWZYG14=
+dep	ruby	ruby
+dep	ruby-augeas	ruby-augeas

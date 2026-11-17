@@ -1,0 +1,17 @@
+name	knot-libs
+version	3.5.10-r0
+description	Libraries used by the Knot DNS server and client applications
+url	https://www.knot-dns.cz/
+license	GPL-2.0-or-later
+size	304322
+installed-size	796648
+depends	so:libc.musl-armhf.so.1 so:libgnutls.so.30 so:liblmdb.so.0 so:libngtcp2.so.16 so:libngtcp2_crypto_gnutls.so.8
+origin	knot
+repo	main
+file	knot-libs-3.5.10-r0.apk
+checksum	Q1R+OMib/1sU5KxzVTm8atPF+UZio=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgnutls.so.30	gnutls
+dep	so:liblmdb.so.0	lmdb
+dep	so:libngtcp2.so.16	ngtcp2
+dep	so:libngtcp2_crypto_gnutls.so.8	ngtcp2-gnutls

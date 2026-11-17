@@ -1,0 +1,16 @@
+name	sofia-sip-linphone-tools
+version	1.13.45-r1
+description	RFC3261 compliant SIP User-Agent library (Linphone version)
+url	https://gitlab.linphone.org/BC/public/external/sofia-sip
+license	LGPL-2.1-only
+size	109986
+installed-size	261704
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libsofia-sip-ua.so.0 so:libssl.so.3
+origin	sofia-sip-linphone
+repo	community
+file	sofia-sip-linphone-tools-1.13.45-r1.apk
+checksum	Q1nmlmFuk4q9OXykK1J8kCnXMoEYc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libsofia-sip-ua.so.0	sofia-sip
+dep	so:libssl.so.3	libssl3

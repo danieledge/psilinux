@@ -1,0 +1,17 @@
+name	bat
+version	0.26.1-r0
+description	cat(1) clone with wings
+url	https://github.com/sharkdp/bat
+license	Apache-2.0
+size	2270105
+installed-size	3732576
+depends	less so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgit2.so.1.9 so:libonig.so.5
+origin	bat
+repo	community
+file	bat-0.26.1-r0.apk
+checksum	Q1fEm4xM1pEctQmMzAXO9ytauCpV4=
+dep	less	less
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgit2.so.1.9	libgit2
+dep	so:libonig.so.5	oniguruma

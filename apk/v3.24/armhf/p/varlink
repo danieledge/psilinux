@@ -1,0 +1,13 @@
+name	varlink
+version	24.0.1-r0
+description	Varlink C library and command-line tool
+url	https://github.com/varlink/libvarlink
+license	Apache-2.0
+size	31311
+installed-size	66820
+depends	so:libc.musl-armhf.so.1
+origin	varlink
+repo	community
+file	varlink-24.0.1-r0.apk
+checksum	Q1ggLwVgoVsIxM/2LWwmaJyhg+U+8=
+dep	so:libc.musl-armhf.so.1	musl

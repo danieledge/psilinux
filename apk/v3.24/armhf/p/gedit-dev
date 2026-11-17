@@ -1,0 +1,18 @@
+name	gedit-dev
+version	50.0-r0
+description	An easy-to-use and general-purpose text editor (development files)
+url	https://gedit-text-editor.org
+license	GPL-2.0-only
+size	10049
+installed-size	43724
+depends	gedit=50.0-r0 pc:gio-2.0>=2.76 pc:gtk+-3.0>=3.7.10 pc:libgedit-tepl-6>=6.14.0 pc:libpeas-gtk-1.0 pkgconfig
+origin	gedit
+repo	community
+file	gedit-dev-50.0-r0.apk
+checksum	Q1dXQ1ABaEgsrv5dDZ4N1z594O/ko=
+dep	gedit=50.0-r0	gedit
+dep	pc:gio-2.0>=2.76	glib-dev
+dep	pc:gtk+-3.0>=3.7.10	gtk+3.0-dev
+dep	pc:libgedit-tepl-6>=6.14.0	libgedit-tepl-dev
+dep	pc:libpeas-gtk-1.0	libpeas-dev
+dep	pkgconfig	pkgconf

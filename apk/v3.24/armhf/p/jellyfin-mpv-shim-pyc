@@ -1,0 +1,13 @@
+name	jellyfin-mpv-shim-pyc
+version	2.10.0-r0
+description	Precompiled Python bytecode for jellyfin-mpv-shim
+url	https://github.com/jellyfin/jellyfin-mpv-shim
+license	MIT
+size	157785
+installed-size	392722
+depends	python3~3.14
+origin	jellyfin-mpv-shim
+repo	community
+file	jellyfin-mpv-shim-pyc-2.10.0-r0.apk
+checksum	Q1Pg6dPYSJ2FxpxXVn3huLkltg13c=
+dep	python3~3.14	python3

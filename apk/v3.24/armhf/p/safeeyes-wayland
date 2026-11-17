@@ -1,0 +1,13 @@
+name	safeeyes-wayland
+version	3.3.1-r1
+description	Protect your eyes from eye strain using this simple and beautiful, yet extensible break reminder
+url	https://slgobinath.github.io/safeeyes/
+license	GPL-3.0-only
+size	1338
+installed-size	0
+depends	py3-wayland
+origin	safeeyes
+repo	community
+file	safeeyes-wayland-3.3.1-r1.apk
+checksum	Q1SGYp9OwlPXxOp0v4WrLLJSgQync=
+dep	py3-wayland	py3-wayland

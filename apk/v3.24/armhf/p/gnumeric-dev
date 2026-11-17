@@ -1,0 +1,20 @@
+name	gnumeric-dev
+version	1.12.60-r1
+description	GNOME Spreadsheet Program (development files)
+url	https://www.gnome.org/projects/gnumeric
+license	GPL-2.0-or-later OR GPL-3.0-or-later
+size	118295
+installed-size	463259
+depends	gnumeric=1.12.60-r1 pc:glib-2.0 pc:gobject-2.0 pc:gtk+-3.0 pc:libgoffice-0.10 pc:libgsf-1 pc:libxml-2.0 pkgconfig
+origin	gnumeric
+repo	community
+file	gnumeric-dev-1.12.60-r1.apk
+checksum	Q1YmveAv5n+//6ne1U7Mpj22JMfOI=
+dep	gnumeric=1.12.60-r1	gnumeric
+dep	pc:glib-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pc:libgoffice-0.10	goffice-dev
+dep	pc:libgsf-1	libgsf-dev
+dep	pc:libxml-2.0	libxml2-dev
+dep	pkgconfig	pkgconf

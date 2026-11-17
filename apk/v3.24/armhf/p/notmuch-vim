@@ -1,0 +1,14 @@
+name	notmuch-vim
+version	0.40-r2
+description	Vim plugins for notmuch
+url	https://notmuchmail.org/
+license	GPL-3.0-or-later
+size	10555
+installed-size	27678
+depends	vim notmuch=0.40-r2
+origin	notmuch
+repo	community
+file	notmuch-vim-0.40-r2.apk
+checksum	Q1utsrEwJPBVXzn0ICEd9BoT0/+wo=
+dep	vim	vim
+dep	notmuch=0.40-r2	notmuch

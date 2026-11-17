@@ -1,0 +1,16 @@
+name	netcf
+version	0.2.8-r14
+description	Cross-platform network configuration library
+url	https://fedorahosted.org/released/netcf
+license	LGPL-2.1-or-later
+size	11838
+installed-size	21964
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libnetcf.so.1 so:libreadline.so.8
+origin	netcf
+repo	main
+file	netcf-0.2.8-r14.apk
+checksum	Q1LWL4XmgHZdKkbiyi+id/V3L7g1c=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libnetcf.so.1	netcf-libs
+dep	so:libreadline.so.8	readline

@@ -1,0 +1,12 @@
+name	klibc-static
+version	2.0.14-r1
+description	A minimalistic libc subset for use with initramfs
+url	https://git.kernel.org/pub/scm/libs/klibc/klibc.git/
+license	GPL-2.0-or-later
+size	179521
+installed-size	574400
+depends	
+origin	klibc
+repo	community
+file	klibc-static-2.0.14-r1.apk
+checksum	Q1noow6qXgkXLb1UIIQtW5Dyv6wVk=

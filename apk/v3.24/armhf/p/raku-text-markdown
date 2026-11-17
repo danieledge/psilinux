@@ -1,0 +1,14 @@
+name	raku-text-markdown
+version	1.1.1_git20221121-r3
+description	Markdown parser / HTML generator
+url	https://github.com/retupmoca/p6-markdown
+license	MIT
+size	107779
+installed-size	375145
+depends	rakudo raku-html-escape
+origin	raku-text-markdown
+repo	community
+file	raku-text-markdown-1.1.1_git20221121-r3.apk
+checksum	Q1BtzriiQ227CdfU7C840XwQg0JVM=
+dep	rakudo	rakudo
+dep	raku-html-escape	raku-html-escape

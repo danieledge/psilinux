@@ -1,0 +1,15 @@
+name	shadowsocks-rust-ssmanager
+version	1.24.0-r1
+description	Rust port of shadowsocks (ssmanager binary)
+url	https://github.com/shadowsocks/shadowsocks-rust
+license	MIT
+size	1945364
+installed-size	3889380
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libmimalloc-secure.so.2
+origin	shadowsocks-rust
+repo	community
+file	shadowsocks-rust-ssmanager-1.24.0-r1.apk
+checksum	Q15LP/MguZF4bkDT3cXcIq5G5I4cw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmimalloc-secure.so.2	mimalloc2

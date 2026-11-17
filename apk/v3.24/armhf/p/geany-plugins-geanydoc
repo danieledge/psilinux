@@ -1,0 +1,17 @@
+name	geany-plugins-geanydoc
+version	2.1-r0
+description	Call documentation from within Geany
+url	https://plugins.geany.org/
+license	GPL-3.0-or-later
+size	8239
+installed-size	17528
+depends	so:libc.musl-armhf.so.1 so:libgeany.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0
+origin	geany-plugins
+repo	community
+file	geany-plugins-geanydoc-2.1-r0.apk
+checksum	Q1CEakAPb/yE+WTsiQDOVdlOujnbQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgeany.so.0	geany
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0

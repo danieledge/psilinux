@@ -1,0 +1,14 @@
+name	sane-backend-microtek2
+version	1.4.0-r4
+description	SANE backend for Microtek scanners with SCSI-2 command set
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	60003
+installed-size	125531
+depends	sane so:libc.musl-armhf.so.1
+origin	sane
+repo	community
+file	sane-backend-microtek2-1.4.0-r4.apk
+checksum	Q1t/H727oOhBB3vWVgDpUiM8WX71I=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl

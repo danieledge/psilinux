@@ -1,0 +1,13 @@
+name	gmime-static
+version	3.2.15-r2
+description	Glorious MIME Utility Library (static library)
+url	https://github.com/jstedfast/gmime
+license	LGPL-2.1-or-later
+size	223958
+installed-size	725172
+depends	gmime-dev
+origin	gmime
+repo	community
+file	gmime-static-3.2.15-r2.apk
+checksum	Q1TIYeFQ29dXKxV8PKo6rCavurQfs=
+dep	gmime-dev	gmime-dev

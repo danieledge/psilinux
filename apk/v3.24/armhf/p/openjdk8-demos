@@ -1,0 +1,16 @@
+name	openjdk8-demos
+version	8.512.01-r0
+description	OpenJDK 8 Java Demos and Samples
+url	https://icedtea.classpath.org/
+license	custom
+size	2557938
+installed-size	4251121
+depends	openjdk8-jdk=8.512.01-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	openjdk8
+repo	community
+file	openjdk8-demos-8.512.01-r0.apk
+checksum	Q1j/53qVIgmXtOrWBY8HT2DabUO1Y=
+dep	openjdk8-jdk=8.512.01-r0	openjdk8-jdk
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

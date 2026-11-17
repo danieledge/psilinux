@@ -1,0 +1,16 @@
+name	apparmor
+version	4.1.7-r1
+description	Linux application security framework - mandatory access control for programs
+url	https://gitlab.com/apparmor/apparmor/wikis/home
+license	GPL-2.0-or-later
+size	558580
+installed-size	1494014
+depends	python3~3.14 so:libapparmor.so.1 so:libc.musl-armhf.so.1 so:libintl.so.8
+origin	apparmor
+repo	main
+file	apparmor-4.1.7-r1.apk
+checksum	Q1i3RMwf4pTF1mlzforKwvjClNEIc=
+dep	python3~3.14	python3
+dep	so:libapparmor.so.1	libapparmor
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libintl.so.8	libintl

@@ -1,0 +1,15 @@
+name	py3-flask-cors
+version	4.0.0-r2
+description	Cross Origin Resource Sharing (CORS) support for Flask
+url	https://github.com/corydolphin/flask-cors
+license	MIT
+size	13518
+installed-size	35325
+depends	py3-flask py3-werkzeug python3~3.14
+origin	py3-flask-cors
+repo	community
+file	py3-flask-cors-4.0.0-r2.apk
+checksum	Q1IwBZLsN3oLPm3XGogptFETxydCY=
+dep	py3-flask	py3-flask
+dep	py3-werkzeug	py3-werkzeug
+dep	python3~3.14	python3

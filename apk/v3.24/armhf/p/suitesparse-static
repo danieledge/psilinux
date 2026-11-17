@@ -1,0 +1,13 @@
+name	suitesparse-static
+version	7.8.2-r0
+description	A collection of sparse matrix libraries (static library)
+url	http://faculty.cse.tamu.edu/davis/suitesparse.html
+license	BSD-3-Clause AND LGPL-2.1-or-later AND GPL-2.0-or-later
+size	2270673
+installed-size	6213840
+depends	suitesparse-dev
+origin	suitesparse
+repo	community
+file	suitesparse-static-7.8.2-r0.apk
+checksum	Q1eVgBpE19A+Ppy4V6tZYdonaiRms=
+dep	suitesparse-dev	suitesparse-dev

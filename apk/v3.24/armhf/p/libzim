@@ -1,0 +1,20 @@
+name	libzim
+version	9.7.0-r2
+description	Reference implementation of the ZIM file format
+url	https://openzim.org/
+license	GPL-2.0-or-later
+size	288101
+installed-size	722368
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libicui18n.so.78 so:libicuuc.so.78 so:liblzma.so.5 so:libstdc++.so.6 so:libxapian.so.45 so:libzstd.so.1
+origin	libzim
+repo	community
+file	libzim-9.7.0-r2.apk
+checksum	Q1Xru7nn4x00xOtQ7+bVJ/4Fuux7s=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:liblzma.so.5	xz-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxapian.so.45	libxapian
+dep	so:libzstd.so.1	zstd-libs

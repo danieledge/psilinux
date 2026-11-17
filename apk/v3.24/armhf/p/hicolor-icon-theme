@@ -1,0 +1,13 @@
+name	hicolor-icon-theme
+version	0.18-r0
+description	Freedesktop.org Hicolor icon theme
+url	https://www.freedesktop.org/wiki/Software/icon-theme/
+license	GPL-2.0-or-later
+size	27625
+installed-size	55627
+depends	pkgconfig
+origin	hicolor-icon-theme
+repo	main
+file	hicolor-icon-theme-0.18-r0.apk
+checksum	Q15EjIEpggKB2jNps+6a9jgMa4K+U=
+dep	pkgconfig	pkgconf

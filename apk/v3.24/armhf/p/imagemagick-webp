@@ -1,0 +1,18 @@
+name	imagemagick-webp
+version	7.1.2.35-r0
+description	Collection of tools and libraries for many image formats (WebP support modules)
+url	https://imagemagick.org/
+license	ImageMagick
+size	13381
+installed-size	27077
+depends	so:libMagickCore-7.Q16HDRI.so.10 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libwebp.so.7 so:libwebpdemux.so.2 so:libwebpmux.so.3
+origin	imagemagick
+repo	community
+file	imagemagick-webp-7.1.2.35-r0.apk
+checksum	Q1tIrVr2x7WFeAh5S8e8UH0d3hceU=
+dep	so:libMagickCore-7.Q16HDRI.so.10	imagemagick-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libwebp.so.7	libwebp
+dep	so:libwebpdemux.so.2	libwebpdemux
+dep	so:libwebpmux.so.3	libwebpmux

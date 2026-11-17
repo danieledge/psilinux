@@ -1,0 +1,20 @@
+name	hime-gtk3
+version	0.9.12_git20231221-r6
+description	HIME Input Method Editor (Gtk+3 immodule)
+url	https://hime-ime.github.io/
+license	LGPL-2.1-or-later AND GPL-2.0-or-later
+size	6598
+installed-size	13488
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libhime-im-client.so.1 so:libpango-1.0.so.0
+origin	hime
+repo	community
+file	hime-gtk3-0.9.12_git20231221-r6.apk
+checksum	Q1TGbM8UQM42yJYrnCNYqGDN+ThlU=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libhime-im-client.so.1	hime
+dep	so:libpango-1.0.so.0	pango

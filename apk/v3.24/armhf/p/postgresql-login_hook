@@ -1,0 +1,15 @@
+name	postgresql-login_hook
+version	1.6-r1
+description	PostgreSQL database extension to mimic a logon trigger
+url	https://github.com/splendiddata/login_hook
+license	GPL-3.0-or-later
+size	16612
+installed-size	43582
+depends	postgresql18 /bin/sh so:libc.musl-armhf.so.1
+origin	postgresql-login_hook
+repo	community
+file	postgresql-login_hook-1.6-r1.apk
+checksum	Q1mNfyu7fWQknJwmxG7RbyfNitZA4=
+dep	postgresql18	postgresql18
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

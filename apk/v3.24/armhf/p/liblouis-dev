@@ -1,0 +1,14 @@
+name	liblouis-dev
+version	3.38.0-r0
+description	Braille translator and back-translator (development files)
+url	https://liblouis.io/
+license	GPL-3.0-or-later
+size	6473
+installed-size	15132
+depends	liblouis=3.38.0-r0 pkgconfig
+origin	liblouis
+repo	community
+file	liblouis-dev-3.38.0-r0.apk
+checksum	Q1bIri23xwcchcUoLwy11JC1iXHuw=
+dep	liblouis=3.38.0-r0	liblouis
+dep	pkgconfig	pkgconf

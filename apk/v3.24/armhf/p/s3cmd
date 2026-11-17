@@ -1,0 +1,16 @@
+name	s3cmd
+version	2.4.0-r2
+description	Command-line tool for managing Amazon S3 and CloudFront services
+url	https://github.com/s3tools/s3cmd
+license	GPL-2.0-or-later
+size	122659
+installed-size	516221
+depends	python3 py3-dateutil py3-magic python3~3.14
+origin	s3cmd
+repo	community
+file	s3cmd-2.4.0-r2.apk
+checksum	Q1wfW/uPuRTP6vkdidNNquaj+jG2o=
+dep	python3	python3
+dep	py3-dateutil	py3-dateutil
+dep	py3-magic	py3-magic
+dep	python3~3.14	python3

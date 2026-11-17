@@ -1,0 +1,14 @@
+name	blkid
+version	2.42.3-r1
+description	Block device identification tool from util-linux
+url	https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+license	LGPL-1.0-only
+size	20777
+installed-size	42404
+depends	so:libblkid.so.1 so:libc.musl-armhf.so.1
+origin	util-linux
+repo	main
+file	blkid-2.42.3-r1.apk
+checksum	Q1Lr49pvXxei1ZJmAKcvvUzgL6tLU=
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl

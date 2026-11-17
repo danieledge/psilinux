@@ -1,0 +1,14 @@
+name	py3-http-ece
+version	1.2.1-r1
+description	Encrypted Content Encoding for HTTP
+url	https://pypi.org/project/http-ece
+license	MIT
+size	6133
+installed-size	14663
+depends	py3-cryptography python3~3.14
+origin	py3-http-ece
+repo	community
+file	py3-http-ece-1.2.1-r1.apk
+checksum	Q1mNSat8KeVy+PL9Zz9MxrceEl0yU=
+dep	py3-cryptography	py3-cryptography
+dep	python3~3.14	python3

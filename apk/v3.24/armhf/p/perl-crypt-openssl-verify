@@ -1,0 +1,16 @@
+name	perl-crypt-openssl-verify
+version	0.38-r0
+description	OpenSSL Verify certificate verification in XS.
+url	https://metacpan.org/release/Crypt-OpenSSL-Verify/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	9933
+installed-size	19649
+depends	perl perl-crypt-openssl-x509 so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	perl-crypt-openssl-verify
+repo	community
+file	perl-crypt-openssl-verify-0.38-r0.apk
+checksum	Q1Y9ezx0wNtoV4TyABeXpnY6TpJDI=
+dep	perl	perl
+dep	perl-crypt-openssl-x509	perl-crypt-openssl-x509
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

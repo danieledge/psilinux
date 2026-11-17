@@ -1,0 +1,23 @@
+name	system-config-printer-applet
+version	1.5.18-r10
+description	system-config-printer (applet)
+url	https://github.com/OpenPrinting/system-config-printer
+license	GPL-2.0-or-later
+size	6210
+installed-size	8485
+depends	gdk-pixbuf gtk+3.0 libnotify python3 py3-cairo py3-cupshelpers py3-dbus py3-gobject3 py3-pycups py3-requests system-config-printer-common
+origin	system-config-printer
+repo	community
+file	system-config-printer-applet-1.5.18-r10.apk
+checksum	Q1gQaYHMJDaIhOPg2VoiEN1DPTx/Q=
+dep	gdk-pixbuf	gdk-pixbuf
+dep	gtk+3.0	gtk+3.0
+dep	libnotify	libnotify
+dep	python3	python3
+dep	py3-cairo	py3-cairo
+dep	py3-cupshelpers	py3-cupshelpers
+dep	py3-dbus	py3-dbus
+dep	py3-gobject3	py3-gobject3
+dep	py3-pycups	py3-pycups
+dep	py3-requests	py3-requests
+dep	system-config-printer-common	system-config-printer-common

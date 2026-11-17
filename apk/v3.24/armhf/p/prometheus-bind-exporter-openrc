@@ -1,0 +1,12 @@
+name	prometheus-bind-exporter-openrc
+version	0.8.0-r13
+description	Prometheus Bind Exporter (OpenRC init scripts)
+url	https://github.com/prometheus-community/bind_exporter
+license	Apache-2.0
+size	1892
+installed-size	524
+depends	
+origin	prometheus-bind-exporter
+repo	community
+file	prometheus-bind-exporter-openrc-0.8.0-r13.apk
+checksum	Q1tdAYfdHBgUGLpgQJyLGy02n9VFA=

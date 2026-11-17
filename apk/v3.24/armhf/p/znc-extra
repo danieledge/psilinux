@@ -1,0 +1,15 @@
+name	znc-extra
+version	1.10.3-r0
+description	Extra modules for ZNC
+url	https://wiki.znc.in/ZNC
+license	Apache-2.0
+size	142847
+installed-size	412800
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	znc
+repo	community
+file	znc-extra-1.10.3-r0.apk
+checksum	Q1WmGouAYRa38gAg6W9AS6R6K3u08=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

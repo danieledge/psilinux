@@ -1,0 +1,12 @@
+name	alpine-git-mirror-syncd-openrc
+version	0.3.1-r2
+description	Lua script that listens on MQTT and synchronizes Git mirrors when notified about changes (OpenRC init scripts)
+url	https://github.com/jirutka/alpine-git-mirror-syncd
+license	MIT
+size	2206
+installed-size	1044
+depends	
+origin	alpine-git-mirror-syncd
+repo	main
+file	alpine-git-mirror-syncd-openrc-0.3.1-r2.apk
+checksum	Q1V6CZU4LzEEGcqd/l2BHXZiy5w4o=

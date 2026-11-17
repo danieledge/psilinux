@@ -1,0 +1,17 @@
+name	libodfgen
+version	0.1.8-r9
+description	Import filter and tools for Open Document Format
+url	https://sourceforge.net/projects/libwpd/
+license	MPL-2.0
+size	269744
+installed-size	628732
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:librevenge-0.0.so.0 so:libstdc++.so.6 so:libxml2.so.2
+origin	libodfgen
+repo	community
+file	libodfgen-0.1.8-r9.apk
+checksum	Q1MjV11406vtCeWX2kM6fw7NvGDCA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:librevenge-0.0.so.0	librevenge
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxml2.so.2	libxml2

@@ -1,0 +1,20 @@
+name	rpki-client
+version	9.6-r0
+description	RPKI validator to support BGP Origin Validation
+url	https://www.rpki-client.org/
+license	ISC
+size	145234
+installed-size	362634
+depends	rsync /bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libexpat.so.1 so:libfts.so.0 so:libtls.so.10 so:libz.so.1
+origin	rpki-client
+repo	community
+file	rpki-client-9.6-r0.apk
+checksum	Q1O8rzfoHYQAYZmMJ8o6bH1JUV4sk=
+dep	rsync	rsync
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libexpat.so.1	libexpat
+dep	so:libfts.so.0	musl-fts
+dep	so:libtls.so.10	libretls
+dep	so:libz.so.1	zlib

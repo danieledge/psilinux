@@ -1,0 +1,13 @@
+name	blazesym-static
+version	0.1.7-r0
+description	A library for address symbolization and related tasks (static library)
+url	https://github.com/libbpf/blazesym
+license	BSD-3-Clause
+size	29297665
+installed-size	86181396
+depends	blazesym-dev
+origin	blazesym
+repo	community
+file	blazesym-static-0.1.7-r0.apk
+checksum	Q1dhxH2GOORllL96rJ6c+jfJzjrNE=
+dep	blazesym-dev	blazesym-dev

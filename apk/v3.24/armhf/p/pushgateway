@@ -1,0 +1,14 @@
+name	pushgateway
+version	1.11.3-r2
+description	Prometheus push acceptor for ephemeral and batch jobs
+url	https://github.com/prometheus/pushgateway
+license	Apache-2.0
+size	6871632
+installed-size	15420180
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	pushgateway
+repo	community
+file	pushgateway-1.11.3-r2.apk
+checksum	Q1Rdy2coFrOcOpiYvbkA/LkCqAG9c=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

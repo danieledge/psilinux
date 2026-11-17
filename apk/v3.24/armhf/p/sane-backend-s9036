@@ -1,0 +1,14 @@
+name	sane-backend-s9036
+version	1.4.0-r4
+description	SANE backend for Siemens 9036 flatbed scanners
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	26592
+installed-size	51513
+depends	sane so:libc.musl-armhf.so.1
+origin	sane
+repo	community
+file	sane-backend-s9036-1.4.0-r4.apk
+checksum	Q1zwgnHlAE1Ic95cZLNw5Psn64Vz4=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl

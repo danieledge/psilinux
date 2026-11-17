@@ -1,0 +1,14 @@
+name	rarian-dev
+version	0.8.1-r12
+description	Documentation meta-data library, designed as a replacement for Scrollkeeper. (development files)
+url	https://rarian.freedesktop.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later AND Zlib
+size	4866
+installed-size	10355
+depends	rarian=0.8.1-r12 pkgconfig
+origin	rarian
+repo	main
+file	rarian-dev-0.8.1-r12.apk
+checksum	Q1VaOX/PunAPw1hFluoUO5hdG0gJE=
+dep	rarian=0.8.1-r12	rarian
+dep	pkgconfig	pkgconf

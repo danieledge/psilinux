@@ -1,0 +1,15 @@
+name	ssl_client
+version	1.37.0-r31
+description	External ssl_client for busybox wget
+url	https://busybox.net/
+license	GPL-2.0-only
+size	4619
+installed-size	9496
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	busybox
+repo	main
+file	ssl_client-1.37.0-r31.apk
+checksum	Q1tf5Js6V0yl92xpedw049/9yJuTI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,13 @@
+name	compat-pvgrub
+version	1-r2
+description	compatibility support for PV-GRUB 1.x
+url	https://www.alpinelinux.org/
+license	ISC
+size	2715
+installed-size	2305
+depends	/bin/sh
+origin	compat-pvgrub
+repo	main
+file	compat-pvgrub-1-r2.apk
+checksum	Q17S9WccYTeX6w/WSCbDgjna8SLFA=
+dep	/bin/sh	busybox-binsh

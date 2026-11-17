@@ -1,0 +1,15 @@
+name	ulogd-sqlite3
+version	2.0.9-r0
+description	sqlite3 output for ulogd
+url	https://netfilter.org/projects/ulogd/
+license	GPL-2.0-only
+size	8693
+installed-size	18164
+depends	ulogd=2.0.9-r0 so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	ulogd
+repo	main
+file	ulogd-sqlite3-2.0.9-r0.apk
+checksum	Q1uQQiAwh0XLnETvJqXgki+HkunH4=
+dep	ulogd=2.0.9-r0	ulogd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

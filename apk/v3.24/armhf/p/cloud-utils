@@ -1,0 +1,22 @@
+name	cloud-utils
+version	0.33-r1
+description	Utilities for interacting with cloud VM images
+url	https://launchpad.net/cloud-utils/
+license	GPL-3.0-or-later
+size	8614
+installed-size	18528
+depends	bash coreutils e2fsprogs e2fsprogs-extra file gzip qemu-img sfdisk tar util-linux-misc
+origin	cloud-utils
+repo	community
+file	cloud-utils-0.33-r1.apk
+checksum	Q1uYUYwFxh9cqpYg0nfnvX1Yq5kMU=
+dep	bash	bash
+dep	coreutils	coreutils
+dep	e2fsprogs	e2fsprogs
+dep	e2fsprogs-extra	e2fsprogs-extra
+dep	file	file
+dep	gzip	gzip
+dep	qemu-img	!
+dep	sfdisk	sfdisk
+dep	tar	tar
+dep	util-linux-misc	util-linux-misc

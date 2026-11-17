@@ -1,0 +1,20 @@
+name	ffmpeg7-libs
+version	7.1.5-r0
+description	compat hack for all ffmpeg libs
+url	https://ffmpeg.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	1312
+installed-size	0
+depends	ffmpeg7-libavcodec=7.1.5-r0 ffmpeg7-libavdevice=7.1.5-r0 ffmpeg7-libavfilter=7.1.5-r0 ffmpeg7-libavformat=7.1.5-r0 ffmpeg7-libavutil=7.1.5-r0 ffmpeg7-libpostproc=7.1.5-r0 ffmpeg7-libswresample=7.1.5-r0 ffmpeg7-libswscale=7.1.5-r0
+origin	ffmpeg7
+repo	community
+file	ffmpeg7-libs-7.1.5-r0.apk
+checksum	Q1+CuGiLrmVBkcj4gsp3A77EvGYNM=
+dep	ffmpeg7-libavcodec=7.1.5-r0	ffmpeg7-libavcodec
+dep	ffmpeg7-libavdevice=7.1.5-r0	ffmpeg7-libavdevice
+dep	ffmpeg7-libavfilter=7.1.5-r0	ffmpeg7-libavfilter
+dep	ffmpeg7-libavformat=7.1.5-r0	ffmpeg7-libavformat
+dep	ffmpeg7-libavutil=7.1.5-r0	ffmpeg7-libavutil
+dep	ffmpeg7-libpostproc=7.1.5-r0	ffmpeg7-libpostproc
+dep	ffmpeg7-libswresample=7.1.5-r0	ffmpeg7-libswresample
+dep	ffmpeg7-libswscale=7.1.5-r0	ffmpeg7-libswscale

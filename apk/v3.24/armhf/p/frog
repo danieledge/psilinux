@@ -1,0 +1,25 @@
+name	frog
+version	0.34-r2
+description	Integration of natural language processing models for Dutch
+url	https://github.com/LanguageMachines/frog
+license	GPL-3.0-only
+size	468736
+installed-size	1440868
+depends	frogdata so:libc.musl-armhf.so.1 so:libfolia.so.22 so:libgcc_s.so.1 so:libgomp.so.1 so:libicuio.so.78 so:libicuuc.so.78 so:libmbt.so.2 so:libstdc++.so.6 so:libticcutils.so.10 so:libtimbl.so.7 so:libucto.so.6 so:libxml2.so.2
+origin	frog
+repo	community
+file	frog-0.34-r2.apk
+checksum	Q10ObVy4b4Id1G50FEA5040ao1s9w=
+dep	frogdata	frogdata
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfolia.so.22	libfolia
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgomp.so.1	libgomp
+dep	so:libicuio.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libmbt.so.2	mbt
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libticcutils.so.10	ticcutils
+dep	so:libtimbl.so.7	timbl
+dep	so:libucto.so.6	ucto
+dep	so:libxml2.so.2	libxml2

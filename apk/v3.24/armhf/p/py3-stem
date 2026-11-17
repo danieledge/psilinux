@@ -1,0 +1,14 @@
+name	py3-stem
+version	1.8.2-r2
+description	Python controller library that allows applications to interact with Tor
+url	https://stem.torproject.org/
+license	LGPL-3.0-or-later
+size	405990
+installed-size	1570915
+depends	python3 python3~3.14
+origin	py3-stem
+repo	community
+file	py3-stem-1.8.2-r2.apk
+checksum	Q1yo+Qf/YWSA57YswBU84wG7sHwiw=
+dep	python3	python3
+dep	python3~3.14	python3

@@ -1,0 +1,18 @@
+name	libcsys
+version	5.0.0-r0
+description	Library for managing drive and getting system resource information in real time
+url	https://gitlab.com/cubocore
+license	GPL-3.0-or-later
+size	95026
+installed-size	255676
+depends	udisks2 so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libcsys
+repo	community
+file	libcsys-5.0.0-r0.apk
+checksum	Q1M7WjHoEd3NB6uk8o6wxAZhkCL0c=
+dep	udisks2	udisks2
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6DBus.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,14 @@
+name	acf-mdadm
+version	0.5.0-r5
+description	ACF module for mdadm
+url	https://gitlab.alpinelinux.org/acf/acf-mdadm
+license	GPL-2.0-only
+size	2866
+installed-size	2347
+depends	acf-core mdadm
+origin	acf-mdadm
+repo	main
+file	acf-mdadm-0.5.0-r5.apk
+checksum	Q1cZr26DCLUG49IFiIGqNq3TeyCiA=
+dep	acf-core	acf-core
+dep	mdadm	mdadm

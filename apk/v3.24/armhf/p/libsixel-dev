@@ -1,0 +1,16 @@
+name	libsixel-dev
+version	1.10.5-r0
+description	SIXEL encoder/decoder implementation (development files)
+url	https://github.com/libsixel/libsixel
+license	MIT
+size	13458
+installed-size	57209
+depends	libsixel=1.10.5-r0 pc:libjpeg pc:libpng pkgconfig
+origin	libsixel
+repo	community
+file	libsixel-dev-1.10.5-r0.apk
+checksum	Q1p+HRzGCPubNxRdz99VsHO38d5vI=
+dep	libsixel=1.10.5-r0	libsixel
+dep	pc:libjpeg	libjpeg-turbo-dev
+dep	pc:libpng	libpng-dev
+dep	pkgconfig	pkgconf

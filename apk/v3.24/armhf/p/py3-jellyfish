@@ -1,0 +1,15 @@
+name	py3-jellyfish
+version	1.2.1-r1
+description	Python library for approximate and phonetic string matching
+url	https://github.com/jamesturk/jellyfish
+license	BSD-2-Clause
+size	281019
+installed-size	548077
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	py3-jellyfish
+repo	community
+file	py3-jellyfish-1.2.1-r1.apk
+checksum	Q1AapcFm6Hd1JRRN0sSQQ8kiv1GxU=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

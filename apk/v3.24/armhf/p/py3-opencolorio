@@ -1,0 +1,17 @@
+name	py3-opencolorio
+version	2.5.2-r0
+description	Python3 bindings for OpenColorIO color management framework
+url	https://opencolorio.org/
+license	BSD-3-Clause AND GPL-2.0-or-later
+size	1768824
+installed-size	4990448
+depends	python3~3.14 so:libOpenColorIO.so.2.5 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	opencolorio
+repo	community
+file	py3-opencolorio-2.5.2-r0.apk
+checksum	Q1CSPL1KcBisSsQ9y93StNIR7WMfs=
+dep	python3~3.14	python3
+dep	so:libOpenColorIO.so.2.5	opencolorio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

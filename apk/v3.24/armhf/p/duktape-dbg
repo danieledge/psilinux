@@ -1,0 +1,12 @@
+name	duktape-dbg
+version	2.7.0-r3
+description	Embeddable Javascript engine with a focus on portability and compact footprint (debug symbols)
+url	https://duktape.org
+license	MIT
+size	583564
+installed-size	1355992
+depends	!duktape-libs<2.7.0-r3 !duktape-libs>2.7.0-r3 !duktape<2.7.0-r3 !duktape>2.7.0-r3
+origin	duktape
+repo	community
+file	duktape-dbg-2.7.0-r3.apk
+checksum	Q1Ao87FGX7rzihAh8t5ES5zoAIE6E=

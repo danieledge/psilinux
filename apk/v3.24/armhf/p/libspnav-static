@@ -1,0 +1,13 @@
+name	libspnav-static
+version	1.2-r0
+description	library for communicating with spacenavd or 3dxsrv (static library)
+url	https://spacenav.sourceforge.net/
+license	BSD-3-Clause
+size	52272
+installed-size	123182
+depends	libspnav-dev
+origin	libspnav
+repo	community
+file	libspnav-static-1.2-r0.apk
+checksum	Q11bmpu2v2fALXxY8MELXg2qKoF7c=
+dep	libspnav-dev	libspnav-dev

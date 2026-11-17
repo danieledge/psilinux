@@ -1,0 +1,17 @@
+name	gsound
+version	1.0.3-r3
+description	Small library for playing system sounds
+url	https://gitlab.gnome.org/GNOME/gsound
+license	LGPL-2.1-or-later
+size	12555
+installed-size	33188
+depends	so:libc.musl-armhf.so.1 so:libcanberra.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	gsound
+repo	community
+file	gsound-1.0.3-r3.apk
+checksum	Q1lJUXKB8UNULg2F3dof7OhMpMr9M=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcanberra.so.0	libcanberra
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

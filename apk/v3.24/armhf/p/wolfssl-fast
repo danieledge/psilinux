@@ -1,0 +1,13 @@
+name	wolfssl-fast
+version	5.9.4-r0
+description	Embedded TLS Library (built without OpenSSL compatibility layer) - optimized for performance
+url	https://www.wolfssl.com/
+license	GPL-3.0-only
+size	495866
+installed-size	963884
+depends	so:libc.musl-armhf.so.1
+origin	wolfssl
+repo	community
+file	wolfssl-fast-5.9.4-r0.apk
+checksum	Q1pdPjHMphWc7NwnT9Y07+J0vXCVc=
+dep	so:libc.musl-armhf.so.1	musl

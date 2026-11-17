@@ -1,0 +1,14 @@
+name	libfreeaptx-dev
+version	0.2.2-r0
+description	Free implementation of Audio Processing Technology codec (aptX) (development files)
+url	https://github.com/iamthehorker/libfreeaptx
+license	LGPL-2.1-or-later
+size	4157
+installed-size	6687
+depends	libfreeaptx=0.2.2-r0 pkgconfig
+origin	libfreeaptx
+repo	community
+file	libfreeaptx-dev-0.2.2-r0.apk
+checksum	Q1GcJXYYGaK5lr7I6vqAYMWsWMwqw=
+dep	libfreeaptx=0.2.2-r0	libfreeaptx
+dep	pkgconfig	pkgconf

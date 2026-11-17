@@ -1,0 +1,13 @@
+name	pgpool-dev
+version	4.6.7-r0
+description	A connection pooling/replication server for PostgreSQL (development files)
+url	https://www.pgpool.net/
+license	custom
+size	11829
+installed-size	35937
+depends	pgpool=4.6.7-r0
+origin	pgpool
+repo	main
+file	pgpool-dev-4.6.7-r0.apk
+checksum	Q17NNo/Tr/gw0jjUtrhAj4T9KrQZo=
+dep	pgpool=4.6.7-r0	pgpool

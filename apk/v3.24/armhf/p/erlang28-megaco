@@ -1,0 +1,15 @@
+name	erlang28-megaco
+version	28.5.0.8-r0
+description	General-purpose programming language and runtime environment, version 28
+url	https://www.erlang.org/
+license	Apache-2.0
+size	5031869
+installed-size	12238295
+depends	erlang28=28.5.0.8-r0 erlang28-debugger=28.5.0.8-r0 erlang28-et=28.5.0.8-r0
+origin	erlang28
+repo	community
+file	erlang28-megaco-28.5.0.8-r0.apk
+checksum	Q1AcvzFyiIQ9NUf7ellCxvxMtllo8=
+dep	erlang28=28.5.0.8-r0	erlang28
+dep	erlang28-debugger=28.5.0.8-r0	erlang28-debugger
+dep	erlang28-et=28.5.0.8-r0	erlang28-et

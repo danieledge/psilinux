@@ -1,0 +1,12 @@
+name	glfw-dbg
+version	3.4-r1
+description	Multi-platform library for OpenGL and Vulkan application development (debug symbols)
+url	https://www.glfw.org/
+license	Zlib
+size	690616
+installed-size	1375348
+depends	!glfw<3.4-r1 !glfw>3.4-r1
+origin	glfw
+repo	community
+file	glfw-dbg-3.4-r1.apk
+checksum	Q1V/KxGJpjOOhJx2mM7ZA7K0DOcPw=

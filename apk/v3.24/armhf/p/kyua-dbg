@@ -1,0 +1,12 @@
+name	kyua-dbg
+version	0.14.1-r0
+description	testing framework for infrastructure software (debug symbols)
+url	https://github.com/freebsd/kyua
+license	BSD-3-Clause
+size	21235902
+installed-size	72280544
+depends	!kyua<0.14.1-r0 !kyua>0.14.1-r0
+origin	kyua
+repo	main
+file	kyua-dbg-0.14.1-r0.apk
+checksum	Q11Mnj9WZcrazshcsZ6OLYIzMwayI=

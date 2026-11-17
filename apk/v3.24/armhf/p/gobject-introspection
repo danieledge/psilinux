@@ -1,0 +1,17 @@
+name	gobject-introspection
+version	1.86.0-r1
+description	Introspection system for GObject-based libraries
+url	https://gi.readthedocs.io
+license	LGPL-2.0-or-later AND GPL-2.0-or-later AND MIT
+size	93724
+installed-size	295832
+depends	so:libc.musl-armhf.so.1 so:libffi.so.8 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0
+origin	gobject-introspection
+repo	main
+file	gobject-introspection-1.86.0-r1.apk
+checksum	Q1byB5T28L07i6ncJMXLS/Np42pvc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libffi.so.8	libffi
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

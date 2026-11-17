@@ -1,0 +1,13 @@
+name	libqd-static
+version	2.3.24-r0
+description	Double-double and quad-double library for Fortran and C++ (static library)
+url	https://www.davidhbailey.com/dhbsoftware
+license	BSD-3-Clause-LBNL
+size	249934
+installed-size	651016
+depends	libqd-dev
+origin	libqd
+repo	community
+file	libqd-static-2.3.24-r0.apk
+checksum	Q1uSX/xhM9Lf9pww9k6Ge1VwT975M=
+dep	libqd-dev	libqd-dev

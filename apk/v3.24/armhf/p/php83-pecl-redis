@@ -1,0 +1,18 @@
+name	php83-pecl-redis
+version	6.3.0-r0
+description	PHP 8.3 extension for interfacing with Redis - PECL
+url	https://pecl.php.net/package/redis
+license	PHP-3.01
+size	188978
+installed-size	488872
+depends	php83-pecl-igbinary php83-pecl-msgpack php83-session so:libc.musl-armhf.so.1 so:liblz4.so.1 so:libzstd.so.1
+origin	php83-pecl-redis
+repo	community
+file	php83-pecl-redis-6.3.0-r0.apk
+checksum	Q1qU8gtO7Y99pWTRyQtzqqTRArFjY=
+dep	php83-pecl-igbinary	php83-pecl-igbinary
+dep	php83-pecl-msgpack	php83-pecl-msgpack
+dep	php83-session	php83-session
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblz4.so.1	lz4-libs
+dep	so:libzstd.so.1	zstd-libs

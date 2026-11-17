@@ -1,0 +1,32 @@
+name	gnome-system-monitor
+version	50.0-r0
+description	GNOME system monitor
+url	https://www.gnome.org/
+license	GPL-2.0-or-later
+size	224643
+installed-size	691806
+depends	so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libgiomm-2.68.so.1 so:libglib-2.0.so.0 so:libglibmm-2.68.so.1 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libgtkmm-4.0.so.0 so:libgtop-2.0.so.11 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:librsvg-2.so.2 so:libsigc-3.0.so.0 so:libstdc++.so.6
+origin	gnome-system-monitor
+repo	community
+file	gnome-system-monitor-50.0-r0.apk
+checksum	Q1c/53mpnbx7hA0wEgGzORSCyZQaQ=
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libgiomm-2.68.so.1	glibmm
+dep	so:libglib-2.0.so.0	glib
+dep	so:libglibmm-2.68.so.1	glibmm
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libgtkmm-4.0.so.0	gtkmm4
+dep	so:libgtop-2.0.so.11	libgtop
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libsigc-3.0.so.0	libsigc++3
+dep	so:libstdc++.so.6	libstdc++

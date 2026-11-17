@@ -1,0 +1,19 @@
+name	pdns-backend-lmdb
+version	5.0.7-r0
+description	lmdb backend module for PowerDNS
+url	https://www.powerdns.com/
+license	GPL-2.0-only WITH OpenSSL-Exception
+size	155183
+installed-size	468352
+depends	pdns lmdb so:libboost_serialization.so.1.84.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblmdb.so.0 so:libstdc++.so.6
+origin	pdns
+repo	community
+file	pdns-backend-lmdb-5.0.7-r0.apk
+checksum	Q1pwgbVLHLELcSwK6xF7r0RcYP4+o=
+dep	pdns	pdns
+dep	lmdb	lmdb
+dep	so:libboost_serialization.so.1.84.0	boost1.84-serialization
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblmdb.so.0	lmdb
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,15 @@
+name	perl-test-expectandcheck
+version	0.08-r1
+description	C<expect/check>-style unit testing with object methods
+url	https://metacpan.org/release/Test-ExpectAndCheck/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	8451
+installed-size	21886
+depends	perl perl-test-deep perl-future
+origin	perl-test-expectandcheck
+repo	community
+file	perl-test-expectandcheck-0.08-r1.apk
+checksum	Q1UtOo6114LN3hyoQbWAnAZYahYds=
+dep	perl	perl
+dep	perl-test-deep	perl-test-deep
+dep	perl-future	perl-future

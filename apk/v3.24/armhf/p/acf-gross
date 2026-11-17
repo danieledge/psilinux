@@ -1,0 +1,14 @@
+name	acf-gross
+version	0.6.0-r4
+description	Web-based system administration interface for gross
+url	https://gitlab.alpinelinux.org/acf/acf-gross
+license	GPL-2.0-only
+size	3122
+installed-size	2916
+depends	acf-core gross
+origin	acf-gross
+repo	main
+file	acf-gross-0.6.0-r4.apk
+checksum	Q1x7b7Z2FD2CiHUejI4kV/oBQjNyg=
+dep	acf-core	acf-core
+dep	gross	gross

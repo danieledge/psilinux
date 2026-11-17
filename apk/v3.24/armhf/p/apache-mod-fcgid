@@ -1,0 +1,14 @@
+name	apache-mod-fcgid
+version	2.3.9-r6
+description	FastCGI module for Apache 2.x
+url	https://httpd.apache.org/mod_fcgid/
+license	Apache-2.0
+size	36304
+installed-size	79378
+depends	apache2 so:libc.musl-armhf.so.1
+origin	apache-mod-fcgid
+repo	main
+file	apache-mod-fcgid-2.3.9-r6.apk
+checksum	Q1qPm+lreplfAIa81VvWuzBfuKlj4=
+dep	apache2	apache2
+dep	so:libc.musl-armhf.so.1	musl

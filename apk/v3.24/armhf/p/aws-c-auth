@@ -1,0 +1,18 @@
+name	aws-c-auth
+version	0.10.3-r0
+description	C99 library implementation of AWS client-side authentication: standard credentials providers and signing
+url	https://github.com/awslabs/aws-c-auth
+license	Apache-2.0
+size	82881
+installed-size	207504
+depends	so:libaws-c-cal.so.1.0.0 so:libaws-c-common.so.1 so:libaws-c-http.so.1.0.0 so:libaws-c-io.so.1.0.0 so:libaws-c-sdkutils.so.1.0.0 so:libc.musl-armhf.so.1
+origin	aws-c-auth
+repo	community
+file	aws-c-auth-0.10.3-r0.apk
+checksum	Q1cu25guwum7r+inhNo6l5UxTWmcA=
+dep	so:libaws-c-cal.so.1.0.0	aws-c-cal
+dep	so:libaws-c-common.so.1	aws-c-common
+dep	so:libaws-c-http.so.1.0.0	aws-c-http
+dep	so:libaws-c-io.so.1.0.0	aws-c-io
+dep	so:libaws-c-sdkutils.so.1.0.0	aws-c-sdkutils
+dep	so:libc.musl-armhf.so.1	musl

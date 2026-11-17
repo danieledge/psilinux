@@ -1,0 +1,19 @@
+name	sane-backend-hpaio
+version	3.26.6-r0
+description	SANE backend for HP multi-function peripherals
+url	https://hplipopensource.com/
+license	GPL-2.0-only AND BSD-3-Clause AND MIT
+size	84381
+installed-size	236391
+depends	sane so:libc.musl-armhf.so.1 so:libcups.so.2 so:libdbus-1.so.3 so:libhpdiscovery.so.0 so:libhpip.so.0 so:libhpmud.so.0
+origin	hplip
+repo	community
+file	sane-backend-hpaio-3.26.6-r0.apk
+checksum	Q1pRGqbfSldRnjkJYFMhXjLqZXsTY=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcups.so.2	cups-libs
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libhpdiscovery.so.0	hplip-libs
+dep	so:libhpip.so.0	hplip-libs
+dep	so:libhpmud.so.0	hplip-libs

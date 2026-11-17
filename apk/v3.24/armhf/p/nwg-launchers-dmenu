@@ -1,0 +1,28 @@
+name	nwg-launchers-dmenu
+version	0.7.1.1-r0
+description	GTK+ launchers for sway, i3 and some other window managers
+url	https://github.com/nwg-piotr/nwg-launchers
+license	GPL-3.0-or-later
+size	95259
+installed-size	239288
+depends	nwg-launchers-data so:libatkmm-1.6.so.1 so:libc.musl-armhf.so.1 so:libcairomm-1.0.so.1 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgdkmm-3.0.so.1 so:libgiomm-2.4.so.1 so:libglib-2.0.so.0 so:libglibmm-2.4.so.1 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgtk-layer-shell.so.0 so:libgtkmm-3.0.so.1 so:libsigc-2.0.so.0 so:libstdc++.so.6
+origin	nwg-launchers
+repo	community
+file	nwg-launchers-dmenu-0.7.1.1-r0.apk
+checksum	Q1EATkG+AD3kWdD5H6MXg5kmucxhQ=
+dep	nwg-launchers-data	nwg-launchers-data
+dep	so:libatkmm-1.6.so.1	atkmm2.28
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairomm-1.0.so.1	cairomm1.14
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdkmm-3.0.so.1	gtkmm3
+dep	so:libgiomm-2.4.so.1	glibmm2.66
+dep	so:libglib-2.0.so.0	glib
+dep	so:libglibmm-2.4.so.1	glibmm2.66
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtk-layer-shell.so.0	gtk-layer-shell
+dep	so:libgtkmm-3.0.so.1	gtkmm3
+dep	so:libsigc-2.0.so.0	libsigc++
+dep	so:libstdc++.so.6	libstdc++

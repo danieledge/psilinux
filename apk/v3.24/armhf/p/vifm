@@ -1,0 +1,15 @@
+name	vifm
+version	0.14.4-r0
+description	ncurses vi-like file manager
+url	https://vifm.info/
+license	GPL-2.0-or-later
+size	866741
+installed-size	2368751
+depends	so:libc.musl-armhf.so.1 so:libmagic.so.1 so:libncursesw.so.6
+origin	vifm
+repo	community
+file	vifm-0.14.4-r0.apk
+checksum	Q1KgVktLxlyL/8Jl2JbzSJCpfQD5k=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmagic.so.1	libmagic
+dep	so:libncursesw.so.6	libncursesw

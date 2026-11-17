@@ -1,0 +1,13 @@
+name	clang16-static
+version	16.0.6-r11
+description	C language family front-end for LLVM (static library)
+url	https://llvm.org/
+license	Apache-2.0 WITH LLVM-exception
+size	56981703
+installed-size	238621714
+depends	clang16-dev
+origin	clang16
+repo	community
+file	clang16-static-16.0.6-r11.apk
+checksum	Q16ID1bjmzMmKqXl1icP1TN9OUSKQ=
+dep	clang16-dev	clang16-dev

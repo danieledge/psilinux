@@ -1,0 +1,21 @@
+name	php83-gd
+version	8.3.36-r0
+description	PHP83 extension: GD imaging
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	118781
+installed-size	349749
+depends	php83-common so:libXpm.so.4 so:libavif.so.16 so:libc.musl-armhf.so.1 so:libfreetype.so.6 so:libjpeg.so.8 so:libpng16.so.16 so:libwebp.so.7 so:libz.so.1
+origin	php83
+repo	community
+file	php83-gd-8.3.36-r0.apk
+checksum	Q1wmUVo4gYmYIEi1C8nT0+l447leY=
+dep	php83-common	php83-common
+dep	so:libXpm.so.4	libxpm
+dep	so:libavif.so.16	libavif
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreetype.so.6	freetype
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpng16.so.16	libpng
+dep	so:libwebp.so.7	libwebp
+dep	so:libz.so.1	zlib

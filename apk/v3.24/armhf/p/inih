@@ -1,0 +1,13 @@
+name	inih
+version	62-r0
+description	Simple .INI file parser for embedded systems
+url	https://github.com/benhoyt/inih
+license	BSD-3-Clause
+size	4120
+installed-size	5240
+depends	so:libc.musl-armhf.so.1
+origin	inih
+repo	main
+file	inih-62-r0.apk
+checksum	Q1LjI74cgtn9E4XboljeZE1XJDpL8=
+dep	so:libc.musl-armhf.so.1	musl

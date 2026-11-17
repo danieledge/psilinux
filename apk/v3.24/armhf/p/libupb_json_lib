@@ -1,0 +1,20 @@
+name	libupb_json_lib
+version	1.78.1-r2
+description	The C based gRPC (libupb_json_lib library)
+url	https://grpc.io/
+license	Apache-2.0 AND BSD-3-Clause AND MIT
+size	19930
+installed-size	38060
+depends	grpc=1.78.1-r2 so:libc.musl-armhf.so.1 so:libupb_base_lib.so.52 so:libupb_lex_lib.so.52 so:libupb_mem_lib.so.52 so:libupb_message_lib.so.52 so:libupb_reflection_lib.so.52 so:libupb_wire_lib.so.52
+origin	grpc
+repo	community
+file	libupb_json_lib-1.78.1-r2.apk
+checksum	Q1CaVyNWxkHTWK22zdsVOYKat+VQs=
+dep	grpc=1.78.1-r2	grpc
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libupb_base_lib.so.52	libupb_base_lib
+dep	so:libupb_lex_lib.so.52	grpc
+dep	so:libupb_mem_lib.so.52	libupb_mem_lib
+dep	so:libupb_message_lib.so.52	libupb_message_lib
+dep	so:libupb_reflection_lib.so.52	grpc
+dep	so:libupb_wire_lib.so.52	grpc

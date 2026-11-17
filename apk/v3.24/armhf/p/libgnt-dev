@@ -1,0 +1,18 @@
+name	libgnt-dev
+version	2.14.4-r0
+description	glib ncurses toolkit (development files)
+url	https://keep.imfreedom.org/libgnt/libgnt
+license	GPL-2.0-or-later
+size	34246
+installed-size	176197
+depends	libgnt=2.14.4-r0 pc:glib-2.0>=2.16.0 pc:gmodule-2.0 pc:gobject-2.0 pc:libxml-2.0>=2.6.0 pkgconfig
+origin	libgnt
+repo	community
+file	libgnt-dev-2.14.4-r0.apk
+checksum	Q1eOgaRncIkVJ9Vofi6RaEtjEeOjo=
+dep	libgnt=2.14.4-r0	libgnt
+dep	pc:glib-2.0>=2.16.0	glib-dev
+dep	pc:gmodule-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pc:libxml-2.0>=2.6.0	libxml2-dev
+dep	pkgconfig	pkgconf

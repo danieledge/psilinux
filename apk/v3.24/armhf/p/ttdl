@@ -1,0 +1,14 @@
+name	ttdl
+version	6.1.1-r0
+description	Terminal Todo List Manager
+url	https://github.com/VladimirMarkelov/ttdl
+license	MIT
+size	1081111
+installed-size	2335064
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	ttdl
+repo	community
+file	ttdl-6.1.1-r0.apk
+checksum	Q19izXef0kP1lkCJ9Mt4jv+zjZVro=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

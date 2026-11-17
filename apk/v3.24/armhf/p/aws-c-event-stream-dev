@@ -1,0 +1,13 @@
+name	aws-c-event-stream-dev
+version	0.7.1-r0
+description	AWS C99 implementation of the vnd.amazon.eventstream content-type (development files)
+url	https://github.com/awslabs/aws-c-event-stream
+license	Apache-2.0
+size	13350
+installed-size	56926
+depends	aws-c-event-stream=0.7.1-r0
+origin	aws-c-event-stream
+repo	community
+file	aws-c-event-stream-dev-0.7.1-r0.apk
+checksum	Q1adzRFJO3K1PGED6yLwn5eQiR8jw=
+dep	aws-c-event-stream=0.7.1-r0	aws-c-event-stream

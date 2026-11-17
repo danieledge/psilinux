@@ -1,0 +1,13 @@
+name	libpcre2-32
+version	10.49-r0
+description	PCRE2 with 32 bit character support
+url	https://pcre.org/
+license	BSD-3-Clause
+size	254704
+installed-size	628028
+depends	so:libc.musl-armhf.so.1
+origin	pcre2
+repo	main
+file	libpcre2-32-10.49-r0.apk
+checksum	Q1A6CL9YHxjHPFZP6o4G/v8zMHroY=
+dep	so:libc.musl-armhf.so.1	musl

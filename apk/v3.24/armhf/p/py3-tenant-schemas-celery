@@ -1,0 +1,15 @@
+name	py3-tenant-schemas-celery
+version	4.0.3-r2
+description	Celery integration for django-tenant-schemas and django-tenants
+url	https://pypi.python.org/project/tenant-schemas-celery
+license	MIT
+size	19213
+installed-size	64307
+depends	py3-django-tenants py3-celery python3~3.14
+origin	py3-tenant-schemas-celery
+repo	community
+file	py3-tenant-schemas-celery-4.0.3-r2.apk
+checksum	Q1WKNZYCWndon69uMt+G7t0oxx2tE=
+dep	py3-django-tenants	py3-django-tenants
+dep	py3-celery	celery
+dep	python3~3.14	python3

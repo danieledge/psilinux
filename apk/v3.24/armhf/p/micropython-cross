@@ -1,0 +1,13 @@
+name	micropython-cross
+version	1.28.0-r0
+description	Compile micropython code to bytecode, which can be transfered to MCUs
+url	https://www.micropython.org/
+license	MIT
+size	195357
+installed-size	468248
+depends	so:libc.musl-armhf.so.1
+origin	micropython
+repo	community
+file	micropython-cross-1.28.0-r0.apk
+checksum	Q1sa9paRJRKQh9Yle5669TJV+lvKY=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	libbsd-static
+version	0.12.2-r0
+description	commonly-used BSD functions not implemented by all libcs (static library)
+url	https://libbsd.freedesktop.org/
+license	BSD-3-Clause
+size	35688
+installed-size	106602
+depends	libbsd-dev
+origin	libbsd
+repo	main
+file	libbsd-static-0.12.2-r0.apk
+checksum	Q10Ctl0ZdsOf2YSZA/8ZWeP4dqZoY=
+dep	libbsd-dev	libbsd-dev

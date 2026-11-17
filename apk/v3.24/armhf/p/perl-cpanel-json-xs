@@ -1,0 +1,14 @@
+name	perl-cpanel-json-xs
+version	4.41-r0
+description	cPanel fork of JSON::XS, fast and correct serializing
+url	https://metacpan.org/release/Cpanel-JSON-XS/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	77402
+installed-size	201082
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-cpanel-json-xs
+repo	main
+file	perl-cpanel-json-xs-4.41-r0.apk
+checksum	Q1cHt6ceL9PwE8k7/aR1BljxMF3/o=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	ding-libs
+version	0.6.2-r6
+description	'D is not GLib' utility libraries
+url	https://pagure.io/SSSD/ding-libs/
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	66746
+installed-size	155108
+depends	so:libc.musl-armhf.so.1 so:libintl.so.8
+origin	ding-libs
+repo	community
+file	ding-libs-0.6.2-r6.apk
+checksum	Q1caBVdJTMx/KOWt2VKZVYMGr3JWg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libintl.so.8	libintl

@@ -1,0 +1,17 @@
+name	sane-backend-gphoto2
+version	1.4.0-r4
+description	SANE backend for gphoto2 supported cameras
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	21709
+installed-size	44901
+depends	sane so:libc.musl-armhf.so.1 so:libgphoto2.so.6 so:libgphoto2_port.so.12 so:libjpeg.so.8
+origin	sane
+repo	community
+file	sane-backend-gphoto2-1.4.0-r4.apk
+checksum	Q1qh7effid1lBmqd3pt7PhBNrjsjE=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgphoto2.so.6	libgphoto2
+dep	so:libgphoto2_port.so.12	libgphoto2
+dep	so:libjpeg.so.8	libjpeg-turbo

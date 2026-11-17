@@ -1,0 +1,15 @@
+name	xdg-utils
+version	1.2.1-r1
+description	Basic desktop integration functions
+url	https://www.freedesktop.org/wiki/Software/xdg-utils/
+license	MIT
+size	72580
+installed-size	296182
+depends	file xprop xset
+origin	xdg-utils
+repo	community
+file	xdg-utils-1.2.1-r1.apk
+checksum	Q1aNr0UdDH6HP+t+ifq6FfgQehQso=
+dep	file	file
+dep	xprop	xprop
+dep	xset	xset

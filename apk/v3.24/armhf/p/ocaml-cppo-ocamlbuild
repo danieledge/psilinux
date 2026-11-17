@@ -1,0 +1,35 @@
+name	ocaml-cppo-ocamlbuild
+version	1.6.9-r7
+description	C-style preprocessor for OCaml (Ocamlbuild plugin)
+url	https://github.com/ocaml-community/cppo
+license	BSD-3-Clause
+size	36440
+installed-size	84540
+depends	ocaml-cppo=1.6.9-r7 ocaml4-impl:Ocamlbuild_plugin:41d7b1b477df2881be1b9dfe75b5a8aa ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2 ocaml4-impl:Stdlib__Sys:3400312f3fb438b11df6dc66f5ab79ae ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15 ocaml4-intf:CamlinternalLazy:5365fec4a58da3e2d8fa2186f77d9be4 ocaml4-intf:Ocamlbuild_pack:3b374f59d2cfbca920cdba9567ee21f4 ocaml4-intf:Ocamlbuild_plugin:f0b2ec0ebb1cb34671ce5f1b5204f400 ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91 ocaml4-intf:Stdlib__Arg:04b768df3893b886dc494cea56b4aa5f ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822 ocaml4-intf:Stdlib__Digest:61f6495d3274a42a78a63425ef892290 ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9 ocaml4-intf:Stdlib__Format:b6edb97b685819e873481fe05723c8bc ocaml4-intf:Stdlib__Hashtbl:34c0fdd524bf2a75e4d5af64a6d34401 ocaml4-intf:Stdlib__Lazy:01430d340c028322c7247031a874e355 ocaml4-intf:Stdlib__Lexing:c9318c276ac7e383fd682c2dd06be434 ocaml4-intf:Stdlib__List:ee222542f6f8195441543b8b399b64b9 ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962 ocaml4-intf:Stdlib__Set:871d2ee2167ac9e7977fa13994cf4658 ocaml4-intf:Stdlib__String:4933e1d855f54bfed0231b038f0dbb87 ocaml4-intf:Stdlib__Sys:7726a14ce36f5c6c3abb04975cec748b ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57
+origin	ocaml-cppo
+repo	community
+file	ocaml-cppo-ocamlbuild-1.6.9-r7.apk
+checksum	Q1jNXiIIeHQSpWAMG9Zp1fXHvrais=
+dep	ocaml-cppo=1.6.9-r7	ocaml-cppo
+dep	ocaml4-impl:Ocamlbuild_plugin:41d7b1b477df2881be1b9dfe75b5a8aa	ocaml-ocamlbuild
+dep	ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2	ocaml
+dep	ocaml4-impl:Stdlib__Sys:3400312f3fb438b11df6dc66f5ab79ae	ocaml
+dep	ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15	ocaml
+dep	ocaml4-intf:CamlinternalLazy:5365fec4a58da3e2d8fa2186f77d9be4	ocaml
+dep	ocaml4-intf:Ocamlbuild_pack:3b374f59d2cfbca920cdba9567ee21f4	ocaml-ocamlbuild
+dep	ocaml4-intf:Ocamlbuild_plugin:f0b2ec0ebb1cb34671ce5f1b5204f400	ocaml-ocamlbuild
+dep	ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91	ocaml
+dep	ocaml4-intf:Stdlib__Arg:04b768df3893b886dc494cea56b4aa5f	ocaml
+dep	ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822	ocaml
+dep	ocaml4-intf:Stdlib__Digest:61f6495d3274a42a78a63425ef892290	ocaml
+dep	ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9	ocaml
+dep	ocaml4-intf:Stdlib__Format:b6edb97b685819e873481fe05723c8bc	ocaml
+dep	ocaml4-intf:Stdlib__Hashtbl:34c0fdd524bf2a75e4d5af64a6d34401	ocaml
+dep	ocaml4-intf:Stdlib__Lazy:01430d340c028322c7247031a874e355	ocaml
+dep	ocaml4-intf:Stdlib__Lexing:c9318c276ac7e383fd682c2dd06be434	ocaml
+dep	ocaml4-intf:Stdlib__List:ee222542f6f8195441543b8b399b64b9	ocaml
+dep	ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962	ocaml
+dep	ocaml4-intf:Stdlib__Set:871d2ee2167ac9e7977fa13994cf4658	ocaml
+dep	ocaml4-intf:Stdlib__String:4933e1d855f54bfed0231b038f0dbb87	ocaml
+dep	ocaml4-intf:Stdlib__Sys:7726a14ce36f5c6c3abb04975cec748b	ocaml
+dep	ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57	ocaml

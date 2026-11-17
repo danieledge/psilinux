@@ -1,0 +1,20 @@
+name	bitcoin-bench
+version	30.2-r2
+description	Bitcoin Benchmarking Tools
+url	https://www.bitcoincore.org/
+license	MIT
+size	7161746
+installed-size	13762516
+depends	so:libc.musl-armhf.so.1 so:libevent_core-2.1.so.7 so:libevent_extra-2.1.so.7 so:libevent_pthreads-2.1.so.7 so:libgcc_s.so.1 so:libsqlite3.so.0 so:libstdc++.so.6 so:libzmq.so.5
+origin	bitcoin
+repo	community
+file	bitcoin-bench-30.2-r2.apk
+checksum	Q1HjtOW59VwcuZLzPFw+jKpbPvbaA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevent_core-2.1.so.7	libevent
+dep	so:libevent_extra-2.1.so.7	libevent
+dep	so:libevent_pthreads-2.1.so.7	libevent
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libzmq.so.5	libzmq

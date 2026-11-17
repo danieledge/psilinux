@@ -1,0 +1,14 @@
+name	acf-lvm2
+version	0.7.0-r5
+description	ACF module for lvm2
+url	https://gitlab.alpinelinux.org/acf/acf-lvm2
+license	GPL-2.0-only
+size	2703
+installed-size	2004
+depends	acf-core lvm2
+origin	acf-lvm2
+repo	main
+file	acf-lvm2-0.7.0-r5.apk
+checksum	Q17SyCOR9uKZM+3XQvxmt8pf5hr+Y=
+dep	acf-core	acf-core
+dep	lvm2	lvm2

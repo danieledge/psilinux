@@ -1,0 +1,18 @@
+name	perl-data-entropy
+version	0.008-r0
+description	entropy (randomness) management
+url	https://metacpan.org/release/Data-Entropy/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	15978
+installed-size	51542
+depends	perl perl-data-float perl-http-lite perl-params-classify perl-crypt-rijndael perl-crypt-urandom
+origin	perl-data-entropy
+repo	community
+file	perl-data-entropy-0.008-r0.apk
+checksum	Q1QG2nMFxIwjUYVIxPD0hwFtaEhas=
+dep	perl	perl
+dep	perl-data-float	perl-data-float
+dep	perl-http-lite	perl-http-lite
+dep	perl-params-classify	perl-params-classify
+dep	perl-crypt-rijndael	perl-crypt-rijndael
+dep	perl-crypt-urandom	perl-crypt-urandom

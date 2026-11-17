@@ -1,0 +1,16 @@
+name	perl-minion-backend-redis
+version	0.003-r1
+description	Redis backend for Minion job queue
+url	https://metacpan.org/release/Minion-Backend-Redis/
+license	Artistic-2.0
+size	10689
+installed-size	36636
+depends	perl perl-minion perl-mojo-redis perl-sort-versions
+origin	perl-minion-backend-redis
+repo	community
+file	perl-minion-backend-redis-0.003-r1.apk
+checksum	Q119hFH3Lj+aIOcUuuAkp4bsgDS0M=
+dep	perl	perl
+dep	perl-minion	perl-minion
+dep	perl-mojo-redis	perl-mojo-redis
+dep	perl-sort-versions	perl-sort-versions

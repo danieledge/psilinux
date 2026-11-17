@@ -1,0 +1,14 @@
+name	dfu-util
+version	0.11-r1
+description	Host side implementation of the DFU 1.0 and DFU 1.1 specifications
+url	https://dfu-util.sourceforge.net/
+license	GPL-2.0-only
+size	32607
+installed-size	74200
+depends	so:libc.musl-armhf.so.1 so:libusb-1.0.so.0
+origin	dfu-util
+repo	community
+file	dfu-util-0.11-r1.apk
+checksum	Q1WJ3t7J5lkM3JWNA6wSLzCi29x1s=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb

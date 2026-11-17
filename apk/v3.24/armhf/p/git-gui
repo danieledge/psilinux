@@ -1,0 +1,15 @@
+name	git-gui
+version	2.54.1-r0
+description	GUI interface for git
+url	https://www.git-scm.com/
+license	GPL-2.0-only
+size	314013
+installed-size	1398977
+depends	git=2.54.1-r0 tcl tk
+origin	git
+repo	main
+file	git-gui-2.54.1-r0.apk
+checksum	Q1sP+LMmb8ZZiW4KmpEzNC2wKr9BI=
+dep	git=2.54.1-r0	git
+dep	tcl	tcl
+dep	tk	tk

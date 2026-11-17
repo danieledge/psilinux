@@ -1,0 +1,14 @@
+name	gthumb-dev
+version	3.12.8.1-r3
+description	Image viewer and browser from GNOME (development files)
+url	https://gitlab.gnome.org/GNOME/gthumb
+license	GPL-2.0-or-later
+size	72431
+installed-size	452455
+depends	pc:gtk+-3.0 pkgconfig
+origin	gthumb
+repo	community
+file	gthumb-dev-3.12.8.1-r3.apk
+checksum	Q1aLhQuPEwOxJOojdPkhjTPrPSTY4=
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,13 @@
+name	zonenotify
+version	0.1-r6
+description	Utility to send NS_NOTIFY packets to slave DNS servers
+url	https://github.com/morettoni/zonenotify
+license	BSD-2-Clause
+size	5244
+installed-size	9480
+depends	so:libc.musl-armhf.so.1
+origin	zonenotify
+repo	main
+file	zonenotify-0.1-r6.apk
+checksum	Q1BdbH3So/OgDEGx8fbXcZQ44uOvM=
+dep	so:libc.musl-armhf.so.1	musl

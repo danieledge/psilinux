@@ -1,0 +1,16 @@
+name	java-lz4
+version	1.8.0-r2
+description	LZ4 compression for Java
+url	https://github.com/lz4/lz4-java
+license	Apache-2.0
+size	115559
+installed-size	123505
+depends	java-jre-headless java-lz4-native lz4-dev xxhash-dev
+origin	java-lz4
+repo	community
+file	java-lz4-1.8.0-r2.apk
+checksum	Q17jwmTjSAqrc+2pBfLrY8WO7qelM=
+dep	java-jre-headless	openjdk8-jre-base
+dep	java-lz4-native	java-lz4-native
+dep	lz4-dev	lz4-dev
+dep	xxhash-dev	xxhash-dev

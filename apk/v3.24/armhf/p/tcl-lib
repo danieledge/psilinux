@@ -1,0 +1,13 @@
+name	tcl-lib
+version	1.21-r1
+description	Tcl standard library
+url	https://www.tcl-lang.org/software/tcllib/
+license	BSD-2-Clause
+size	2166980
+installed-size	10199265
+depends	tcl
+origin	tcl-lib
+repo	community
+file	tcl-lib-1.21-r1.apk
+checksum	Q1gKKsjOqi27JuT/rhE6xZKaiYsq8=
+dep	tcl	tcl

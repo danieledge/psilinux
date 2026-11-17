@@ -1,0 +1,20 @@
+name	build-base
+version	0.5-r4
+description	Meta package for build base
+url	https://gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/build-base/APKBUILD
+license	MIT
+size	1325
+installed-size	0
+depends	binutils file gcc g++ make libc-dev fortify-headers patch
+origin	build-base
+repo	main
+file	build-base-0.5-r4.apk
+checksum	Q1KfrOshekIhGWF3UZviIrtMbaYKI=
+dep	binutils	binutils
+dep	file	file
+dep	gcc	gcc
+dep	g++	g++
+dep	make	make
+dep	libc-dev	musl-dev
+dep	fortify-headers	fortify-headers
+dep	patch	patch

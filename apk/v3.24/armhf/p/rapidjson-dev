@@ -1,0 +1,13 @@
+name	rapidjson-dev
+version	1.1.0-r9
+description	Fast JSON parser/generator for C++ with both SAX/DOM style API (development files)
+url	http://rapidjson.org/
+license	MIT
+size	127319
+installed-size	671044
+depends	pkgconfig
+origin	rapidjson
+repo	community
+file	rapidjson-dev-1.1.0-r9.apk
+checksum	Q1LL1r60Vok4hjygNxxa2xUjiEn/E=
+dep	pkgconfig	pkgconf

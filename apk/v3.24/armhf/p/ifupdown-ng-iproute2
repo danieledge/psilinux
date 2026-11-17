@@ -1,0 +1,13 @@
+name	ifupdown-ng-iproute2
+version	0.13.0-r0
+description	ifupdown-ng integration for iproute2
+url	https://github.com/ifupdown-ng/ifupdown-ng
+license	ISC
+size	4201
+installed-size	5852
+depends	iproute2-minimal
+origin	ifupdown-ng
+repo	main
+file	ifupdown-ng-iproute2-0.13.0-r0.apk
+checksum	Q1TKQ2B13Xd9D5YKwup+1j+rZHNgE=
+dep	iproute2-minimal	iproute2-minimal

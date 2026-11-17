@@ -1,0 +1,20 @@
+name	hyprland-plugins
+version	0.54.0-r0
+description	Official plugins for Hyprland (all plugins)
+url	https://github.com/hyprwm/hyprland-plugins
+license	BSD-3-Clause
+size	1356
+installed-size	0
+depends	hyprland~0.54 hyprland-plugins-borders-plus-plus hyprland-plugins-csgo-vulkan-fix hyprland-plugins-hyprbars hyprland-plugins-hyprexpo hyprland-plugins-hyprfocus hyprland-plugins-hyprwinwrap hyprland-plugins-xtra-dispatchers
+origin	hyprland-plugins
+repo	community
+file	hyprland-plugins-0.54.0-r0.apk
+checksum	Q1VKCGe+p5DZg3AqcJqr3wqfT/Yo0=
+dep	hyprland~0.54	hyprland
+dep	hyprland-plugins-borders-plus-plus	hyprland-plugins-borders-plus-plus
+dep	hyprland-plugins-csgo-vulkan-fix	hyprland-plugins-csgo-vulkan-fix
+dep	hyprland-plugins-hyprbars	hyprland-plugins-hyprbars
+dep	hyprland-plugins-hyprexpo	hyprland-plugins-hyprexpo
+dep	hyprland-plugins-hyprfocus	hyprland-plugins-hyprfocus
+dep	hyprland-plugins-hyprwinwrap	hyprland-plugins-hyprwinwrap
+dep	hyprland-plugins-xtra-dispatchers	hyprland-plugins-xtra-dispatchers

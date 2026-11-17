@@ -1,0 +1,14 @@
+name	gdbm-dev
+version	1.26-r0
+description	GNU dbm is a set of database routines that use extensible hashing (development files)
+url	https://www.gnu.org/software/gdbm/
+license	GPL-3.0-or-later
+size	44274
+installed-size	133166
+depends	gdbm-tools=1.26-r0 gdbm=1.26-r0
+origin	gdbm
+repo	main
+file	gdbm-dev-1.26-r0.apk
+checksum	Q1hc63ZeID/D0gPtCdQIVvuwq31+U=
+dep	gdbm-tools=1.26-r0	gdbm-tools
+dep	gdbm=1.26-r0	gdbm

@@ -1,0 +1,16 @@
+name	nagios-plugins-snmp
+version	2.5-r0
+description	Nagios plugin check_snmp
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	58110
+installed-size	120924
+depends	nagios-plugins net-snmp-tools so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-snmp-2.5-r0.apk
+checksum	Q1Leq+Gdl8gAAWtA5sKu8UUHE2RTk=
+dep	nagios-plugins	nagios-plugins
+dep	net-snmp-tools	net-snmp-tools
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

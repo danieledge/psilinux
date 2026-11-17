@@ -1,0 +1,14 @@
+name	m17n-db-dev
+version	1.8.11-r0
+description	gnu M-text multilingualization data (development files)
+url	https://www.nongnu.org/m17n/
+license	LGPL-2.1-or-later
+size	1686
+installed-size	141
+depends	m17n-db=1.8.11-r0 pkgconfig
+origin	m17n-db
+repo	community
+file	m17n-db-dev-1.8.11-r0.apk
+checksum	Q1g/F7K0mAqW1wTJWPBxX4YYp559M=
+dep	m17n-db=1.8.11-r0	m17n-db
+dep	pkgconfig	pkgconf

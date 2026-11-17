@@ -1,0 +1,19 @@
+name	xdg-document-portal
+version	1.21.2-r0
+description	Desktop integration portal (document portal)
+url	https://github.com/flatpak/xdg-desktop-portal
+license	LGPL-2.1-or-later
+size	76110
+installed-size	181089
+depends	cmd:fusermount3 so:libc.musl-armhf.so.1 so:libfuse3.so.4 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libjson-glib-1.0.so.0
+origin	xdg-desktop-portal
+repo	community
+file	xdg-document-portal-1.21.2-r0.apk
+checksum	Q1Gh/7uH9fQLvGLPgXVd7Hs6q/i8E=
+dep	cmd:fusermount3	fuse3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfuse3.so.4	fuse3-libs
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libjson-glib-1.0.so.0	json-glib

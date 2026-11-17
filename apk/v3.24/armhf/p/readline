@@ -1,0 +1,14 @@
+name	readline
+version	8.3.3-r1
+description	GNU readline library
+url	https://tiswww.cwru.edu/php/chet/readline/rltop.html
+license	GPL-3.0-or-later
+size	123452
+installed-size	267720
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	readline
+repo	main
+file	readline-8.3.3-r1.apk
+checksum	Q10XI/mE1ud15HSAEqfFnFoaoRH1U=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

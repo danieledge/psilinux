@@ -1,0 +1,13 @@
+name	fstrcmp
+version	0.7-r4
+description	Make fuzzy comparisons of strings and byte arrays
+url	https://fstrcmp.sourceforge.net/
+license	GPL-3.0-or-later
+size	10215
+installed-size	22872
+depends	so:libc.musl-armhf.so.1
+origin	fstrcmp
+repo	community
+file	fstrcmp-0.7-r4.apk
+checksum	Q1Gjusrs/Iwex4Lt0dANzaZoRoydY=
+dep	so:libc.musl-armhf.so.1	musl

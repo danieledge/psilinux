@@ -1,0 +1,16 @@
+name	pipewire-dev
+version	1.6.8-r4
+description	Multimedia processing graphs (development files)
+url	https://pipewire.org/
+license	MIT
+size	223891
+installed-size	1031684
+depends	pipewire-libs=1.6.8-r4 pkgconfig so:libc.musl-armhf.so.1 so:libpipewire-0.3.so.0
+origin	pipewire
+repo	community
+file	pipewire-dev-1.6.8-r4.apk
+checksum	Q16MhUCAitl+zHAZuh5ND6pLW18vM=
+dep	pipewire-libs=1.6.8-r4	pipewire-libs
+dep	pkgconfig	pkgconf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpipewire-0.3.so.0	pipewire-libs

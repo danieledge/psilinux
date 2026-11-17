@@ -1,0 +1,13 @@
+name	lz4-tests
+version	1.10.0-r1
+description	LZ4 is lossless compression algorithm with fast decoder @ multiple GB/s per core. (tests)
+url	https://github.com/lz4/lz4
+license	BSD-2-Clause AND GPL-2.0-or-later
+size	30060
+installed-size	83310
+depends	so:libc.musl-armhf.so.1
+origin	lz4
+repo	main
+file	lz4-tests-1.10.0-r1.apk
+checksum	Q12ltQjSn0yB4/kiOZyT8sOYN4eVg=
+dep	so:libc.musl-armhf.so.1	musl

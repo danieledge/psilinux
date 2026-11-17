@@ -1,0 +1,17 @@
+name	unclutter-xfixes
+version	1.6-r1
+description	Hides mouse pointer while not in use
+url	https://github.com/Airblader/unclutter-xfixes
+license	MIT
+size	7679
+installed-size	13864
+depends	so:libX11.so.6 so:libXfixes.so.3 so:libXi.so.6 so:libc.musl-armhf.so.1 so:libev.so.4
+origin	unclutter-xfixes
+repo	community
+file	unclutter-xfixes-1.6-r1.apk
+checksum	Q1HedysTQjiDng5ggt+E8Yo5cplyo=
+dep	so:libX11.so.6	libx11
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXi.so.6	libxi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libev.so.4	libev

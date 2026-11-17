@@ -1,0 +1,16 @@
+name	grub-mkfont
+version	2.14-r0
+description	Bootloader with support for Linux, Multiboot and more (mkfont utility)
+url	https://www.gnu.org/software/grub/
+license	GPL-3.0-or-later
+size	49842
+installed-size	95476
+depends	grub=2.14-r0 so:libc.musl-armhf.so.1 so:libdevmapper.so.1.02 so:libfreetype.so.6
+origin	grub
+repo	main
+file	grub-mkfont-2.14-r0.apk
+checksum	Q1qc6I053m960D2HEfHy9X8nFb9TY=
+dep	grub=2.14-r0	grub
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdevmapper.so.1.02	device-mapper-libs
+dep	so:libfreetype.so.6	freetype

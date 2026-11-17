@@ -1,0 +1,23 @@
+name	clutter-gtk
+version	1.8.4-r5
+description	Gtk clutter embed library
+url	https://gitlab.gnome.org/Archive/clutter-gtk
+license	LGPL-2.0-or-later
+size	19113
+installed-size	46368
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libclutter-1.0.so.0 so:libcogl.so.20 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libwayland-client.so.0 so:libwayland-server.so.0
+origin	clutter-gtk
+repo	community
+file	clutter-gtk-1.8.4-r5.apk
+checksum	Q1sXc1k0Il9X+kbZE5clT4M2HUyoo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libclutter-1.0.so.0	clutter
+dep	so:libcogl.so.20	cogl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-server.so.0	wayland-libs-server

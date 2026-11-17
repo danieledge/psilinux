@@ -1,0 +1,15 @@
+name	netcdf-cxx4-dev
+version	4.3.1-r2
+description	NetCDF C++ bindings (development files)
+url	https://www.unidata.ucar.edu/software/netcdf/
+license	Apache-2.0
+size	166690
+installed-size	883294
+depends	netcdf-dev netcdf-cxx4=4.3.1-r2 pkgconfig
+origin	netcdf-cxx4
+repo	community
+file	netcdf-cxx4-dev-4.3.1-r2.apk
+checksum	Q1iZWOiHLMrLyF3wq+H+IWkhKHX/w=
+dep	netcdf-dev	netcdf-dev
+dep	netcdf-cxx4=4.3.1-r2	netcdf-cxx4
+dep	pkgconfig	pkgconf

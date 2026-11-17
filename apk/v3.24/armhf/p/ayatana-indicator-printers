@@ -1,0 +1,19 @@
+name	ayatana-indicator-printers
+version	23.10.1-r2
+description	Ayatana Indicator Printers Applet
+url	https://github.com/AyatanaIndicators/ayatana-indicator-printers
+license	GPL-3.0-only
+size	19189
+installed-size	50863
+depends	so:libayatana-common.so.0 so:libc.musl-armhf.so.1 so:libcups.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8
+origin	ayatana-indicator-printers
+repo	community
+file	ayatana-indicator-printers-23.10.1-r2.apk
+checksum	Q1rc48XSaFfOueK62dO/h4q0WuQm0=
+dep	so:libayatana-common.so.0	libayatana-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcups.so.2	cups-libs
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl

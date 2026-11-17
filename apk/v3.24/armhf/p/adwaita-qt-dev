@@ -1,0 +1,19 @@
+name	adwaita-qt-dev
+version	1.4.2-r2
+description	style to bend Qt applications to look like they belong into GNOME Shell (development files)
+url	https://github.com/FedoraQt/adwaita-qt
+license	GPL-2.0-only AND LGPL-2.1-only
+size	11217
+installed-size	65247
+depends	adwaita-qt5=1.4.2-r2 adwaita-qt6=1.4.2-r2 pc:Qt5Core pc:Qt5Widgets pc:Qt6Core pc:Qt6Widgets pkgconfig
+origin	adwaita-qt
+repo	community
+file	adwaita-qt-dev-1.4.2-r2.apk
+checksum	Q1yrsp7RlJkQyBFScy+3w9aWTMgqA=
+dep	adwaita-qt5=1.4.2-r2	adwaita-qt5
+dep	adwaita-qt6=1.4.2-r2	adwaita-qt6
+dep	pc:Qt5Core	qt5-qtbase-dev
+dep	pc:Qt5Widgets	qt5-qtbase-dev
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pc:Qt6Widgets	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

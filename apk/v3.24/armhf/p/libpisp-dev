@@ -1,0 +1,15 @@
+name	libpisp-dev
+version	1.5.0-r0
+description	Helper library for the PiSP hardware block (development files)
+url	https://github.com/raspberrypi/libpisp
+license	BSD-2-Clause
+size	22309
+installed-size	82090
+depends	libpisp=1.5.0-r0 pc:nlohmann_json pkgconfig
+origin	libpisp
+repo	community
+file	libpisp-dev-1.5.0-r0.apk
+checksum	Q168VFmzh/yTyHjhHHUC1rwjtDkGI=
+dep	libpisp=1.5.0-r0	libpisp
+dep	pc:nlohmann_json	nlohmann-json
+dep	pkgconfig	pkgconf

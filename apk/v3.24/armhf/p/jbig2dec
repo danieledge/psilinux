@@ -1,0 +1,13 @@
+name	jbig2dec
+version	0.20-r0
+description	JBIG2 image compression format decoder
+url	https://jbig2dec.com/
+license	AGPL-3.0-or-later
+size	52873
+installed-size	117252
+depends	so:libc.musl-armhf.so.1
+origin	jbig2dec
+repo	main
+file	jbig2dec-0.20-r0.apk
+checksum	Q1jM/6zPoKpxbkcDrqXlavinqGOZQ=
+dep	so:libc.musl-armhf.so.1	musl

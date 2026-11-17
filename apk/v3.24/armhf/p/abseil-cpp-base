@@ -1,0 +1,16 @@
+name	abseil-cpp-base
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-base
+url	https://abseil.io/
+license	Apache-2.0
+size	5761
+installed-size	9612
+depends	so:libabsl_spinlock_wait.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-base-20250814.1-r0.apk
+checksum	Q1fWsVn8l2MQplt6mar2TQCdeH6Xk=
+dep	so:libabsl_spinlock_wait.so.2508.0.0	abseil-cpp-spinlock-wait
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

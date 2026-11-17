@@ -1,0 +1,13 @@
+name	emacs-xr
+version	1.25-r1
+description	Convert string regexp to rx form
+url	https://github.com/mattiase/xr
+license	GPL-3.0-or-later
+size	37118
+installed-size	135063
+depends	cmd:emacs
+origin	emacs-xr
+repo	community
+file	emacs-xr-1.25-r1.apk
+checksum	Q1gorUIda8dXsWRanVNvW8bkXk6j0=
+dep	cmd:emacs	emacs-gtk3

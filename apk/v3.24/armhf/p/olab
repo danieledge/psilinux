@@ -1,0 +1,17 @@
+name	olab
+version	0.1.8-r2
+description	GitLab APIv4 OCaml library (command line tool)
+url	https://github.com/tmcgilchrist/ocaml-gitlab
+license	BSD-3-Clause
+size	3589939
+installed-size	8540876
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libev.so.4 so:libgmp.so.10 so:libssl.so.3
+origin	ocaml-gitlab
+repo	community
+file	olab-0.1.8-r2.apk
+checksum	Q1jdiPTY5e3xm2YrcXoAiOFeNYHWk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libev.so.4	libev
+dep	so:libgmp.so.10	gmp
+dep	so:libssl.so.3	libssl3

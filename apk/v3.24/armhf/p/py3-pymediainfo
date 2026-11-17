@@ -1,0 +1,14 @@
+name	py3-pymediainfo
+version	6.1.0-r2
+description	Python wrapper for the MediaInfo library
+url	https://pypi.org/project/pymediainfo/
+license	MIT
+size	10241
+installed-size	26230
+depends	libmediainfo python3~3.14
+origin	py3-pymediainfo
+repo	community
+file	py3-pymediainfo-6.1.0-r2.apk
+checksum	Q1+xOAepEsGa2Mwlz5klrc5l7frWQ=
+dep	libmediainfo	libmediainfo
+dep	python3~3.14	python3

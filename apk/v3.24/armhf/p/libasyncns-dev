@@ -1,0 +1,14 @@
+name	libasyncns-dev
+version	0.8-r5
+description	Asynchronous Name Service Library (development files)
+url	https://0pointer.de/lennart/projects/libasyncns/
+license	LGPL-2.0-or-later
+size	4142
+installed-size	7196
+depends	libasyncns=0.8-r5 pkgconfig
+origin	libasyncns
+repo	community
+file	libasyncns-dev-0.8-r5.apk
+checksum	Q1SFNt82Rbs6lTgTnkDyu7WGxFgoM=
+dep	libasyncns=0.8-r5	libasyncns
+dep	pkgconfig	pkgconf

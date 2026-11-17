@@ -1,0 +1,14 @@
+name	woodpecker
+version	3.14.1-r3
+description	Simple yet powerful CI/CD engine with great extensibility
+url	https://woodpecker-ci.org
+license	Apache-2.0
+size	20088933
+installed-size	60573441
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	woodpecker
+repo	community
+file	woodpecker-3.14.1-r3.apk
+checksum	Q1c7Q/j9oh8HIlsLhlYlEpSnrY5kc=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

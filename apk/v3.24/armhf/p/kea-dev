@@ -1,0 +1,30 @@
+name	kea-dev
+version	3.0.3-r0
+description	DHCPv4 and DHCPv6 server from ISC (development files)
+url	https://kea.isc.org/
+license	MPL-2.0
+size	896208
+installed-size	4258277
+depends	boost-dev log4cplus-dev kea-common=3.0.3-r0 kea-dhcp-ddns=3.0.3-r0 kea-hook-lease-query=3.0.3-r0 kea-hook-mysql=3.0.3-r0 kea-hook-pgsql=3.0.3-r0 pc:libpq pc:log4cplus pc:mariadb pc:openssl pkgconfig so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-exceptions.so.45 so:libkea-log.so.75 so:libkea-util.so.102 so:libstdc++.so.6
+origin	kea
+repo	main
+file	kea-dev-3.0.3-r0.apk
+checksum	Q1DGALPA2DF6kvZZQ2DAPyXusBKVU=
+dep	boost-dev	boost-dev
+dep	log4cplus-dev	log4cplus-dev
+dep	kea-common=3.0.3-r0	kea-common
+dep	kea-dhcp-ddns=3.0.3-r0	kea-dhcp-ddns
+dep	kea-hook-lease-query=3.0.3-r0	kea-hook-lease-query
+dep	kea-hook-mysql=3.0.3-r0	kea-hook-mysql
+dep	kea-hook-pgsql=3.0.3-r0	kea-hook-pgsql
+dep	pc:libpq	libpq-dev
+dep	pc:log4cplus	log4cplus-dev
+dep	pc:mariadb	mariadb-dev
+dep	pc:openssl	openssl-dev
+dep	pkgconfig	pkgconf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libkea-exceptions.so.45	kea-common
+dep	so:libkea-log.so.75	kea-common
+dep	so:libkea-util.so.102	kea-common
+dep	so:libstdc++.so.6	libstdc++

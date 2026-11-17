@@ -1,0 +1,15 @@
+name	signal-tlsd
+version	0.1.1-r0
+description	Standalone Rust implementation of Signal's domain fronting TLS proxy
+url	https://github.com/kpcyrd/signal-tlsd
+license	MIT-0
+size	970719
+installed-size	1855436
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	signal-tlsd
+repo	community
+file	signal-tlsd-0.1.1-r0.apk
+checksum	Q1rThyDR0u8ma9MGugp6AatJ6qtbk=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

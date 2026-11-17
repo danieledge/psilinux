@@ -1,0 +1,15 @@
+name	libm17n-flt
+version	1.8.6-r1
+description	gnu M-text multilingualization library (-flt lib)
+url	https://www.nongnu.org/m17n/
+license	LGPL-2.1-or-later
+size	19770
+installed-size	33912
+depends	m17n-db so:libc.musl-armhf.so.1 so:libm17n-core.so.0
+origin	m17n-lib
+repo	community
+file	libm17n-flt-1.8.6-r1.apk
+checksum	Q1AEz/8p+oBu/6PLTr4DM3sZoFi1o=
+dep	m17n-db	m17n-db
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libm17n-core.so.0	libm17n-core

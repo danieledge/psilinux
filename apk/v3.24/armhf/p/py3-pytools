@@ -1,0 +1,15 @@
+name	py3-pytools
+version	2026.1-r0
+description	Collection of tools for Python3
+url	https://github.com/inducer/pytools
+license	MIT
+size	71698
+installed-size	262495
+depends	py3-platformdirs py3-typing-extensions python3~3.14
+origin	py3-pytools
+repo	community
+file	py3-pytools-2026.1-r0.apk
+checksum	Q16hnGrl1Sn5MqMuZNQuPjJgk5kHM=
+dep	py3-platformdirs	py3-platformdirs
+dep	py3-typing-extensions	py3-typing-extensions
+dep	python3~3.14	python3

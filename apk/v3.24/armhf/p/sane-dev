@@ -1,0 +1,14 @@
+name	sane-dev
+version	1.4.0-r4
+description	Scanner Access Now Easy - universal scanner interface (development files)
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	10776
+installed-size	31531
+depends	sane=1.4.0-r4 pkgconfig
+origin	sane
+repo	community
+file	sane-dev-1.4.0-r4.apk
+checksum	Q1+yu3G6CAFwyxzxDt9GWpAJfH0KM=
+dep	sane=1.4.0-r4	sane
+dep	pkgconfig	pkgconf

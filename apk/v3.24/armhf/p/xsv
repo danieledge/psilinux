@@ -1,0 +1,14 @@
+name	xsv
+version	0.13.0-r2
+description	CSV command line toolkit
+url	https://github.com/BurntSushi/xsv
+license	MIT OR Unlicense
+size	703239
+installed-size	1556392
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	xsv
+repo	community
+file	xsv-0.13.0-r2.apk
+checksum	Q1CtIyqBrMjDrbf+XfcmDYlBUEZL4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

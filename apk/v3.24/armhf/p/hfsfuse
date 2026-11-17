@@ -1,0 +1,16 @@
+name	hfsfuse
+version	0.416-r1
+description	FUSE driver for HFS+ filesystems
+url	https://github.com/0x09/hfsfuse
+license	MIT BSD-2-Clause
+size	82912
+installed-size	154688
+depends	so:libc.musl-armhf.so.1 so:libfuse3.so.4 so:libutf8proc.so.3 so:libz.so.1
+origin	hfsfuse
+repo	community
+file	hfsfuse-0.416-r1.apk
+checksum	Q1sDGHRSk8Fh/V0oYI203Gv1mnXeE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfuse3.so.4	fuse3-libs
+dep	so:libutf8proc.so.3	utf8proc
+dep	so:libz.so.1	zlib

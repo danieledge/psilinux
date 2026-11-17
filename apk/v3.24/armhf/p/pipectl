@@ -1,0 +1,13 @@
+name	pipectl
+version	0.5.1-r2
+description	A simple named pipe management utility
+url	https://github.com/Ferdi265/pipectl
+license	GPL-3.0-or-later
+size	6631
+installed-size	13484
+depends	so:libc.musl-armhf.so.1
+origin	pipectl
+repo	community
+file	pipectl-0.5.1-r2.apk
+checksum	Q1cIKE6pkQTR5Q031cLwHtkmphMBg=
+dep	so:libc.musl-armhf.so.1	musl

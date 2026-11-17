@@ -1,0 +1,13 @@
+name	py3-gst-pyc
+version	1.28.3-r0
+description	Precompiled Python bytecode for py3-gst
+url	https://gitlab.freedesktop.org/gstreamer/gstreamer
+license	LGPL-2.1-or-later
+size	31953
+installed-size	96243
+depends	python3~3.14
+origin	py3-gst
+repo	community
+file	py3-gst-pyc-1.28.3-r0.apk
+checksum	Q1xNTsA0EwnTvbOoscJcK4CkRI/3s=
+dep	python3~3.14	python3

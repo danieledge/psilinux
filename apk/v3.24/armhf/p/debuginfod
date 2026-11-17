@@ -1,0 +1,24 @@
+name	debuginfod
+version	0.195-r0
+description	Debuginfo server
+url	https://sourceware.org/elfutils/
+license	GPL-3.0-or-later AND ( GPL-2.0-or-later OR LGPL-3.0-or-later )
+size	98091
+installed-size	210460
+depends	so:libarchive.so.13 so:libc.musl-armhf.so.1 so:libdebuginfod.so.1 so:libdw.so.1 so:libelf.so.1 so:libfts.so.0 so:libgcc_s.so.1 so:libjson-c.so.5 so:liblzma.so.5 so:libmicrohttpd.so.12 so:libsqlite3.so.0 so:libstdc++.so.6
+origin	elfutils
+repo	main
+file	debuginfod-0.195-r0.apk
+checksum	Q1xajI8y3S7unYZ72q5Ezgs6l2ML0=
+dep	so:libarchive.so.13	libarchive
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdebuginfod.so.1	libdebuginfod
+dep	so:libdw.so.1	libdw
+dep	so:libelf.so.1	libelf
+dep	so:libfts.so.0	musl-fts
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjson-c.so.5	json-c
+dep	so:liblzma.so.5	xz-libs
+dep	so:libmicrohttpd.so.12	libmicrohttpd
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++

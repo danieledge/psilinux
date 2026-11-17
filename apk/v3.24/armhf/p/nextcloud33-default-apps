@@ -1,0 +1,22 @@
+name	nextcloud33-default-apps
+version	33.0.10-r0
+description	Nextcloud default apps
+url	https://nextcloud.com/
+license	AGPL-3.0-only
+size	1356
+installed-size	0
+depends	nextcloud33 nextcloud33-circles nextcloud33-files_pdfviewer nextcloud33-logreader nextcloud33-password_policy nextcloud33-privacy nextcloud33-recommendations nextcloud33-serverinfo nextcloud33-text nextcloud33-viewer
+origin	nextcloud33
+repo	community
+file	nextcloud33-default-apps-33.0.10-r0.apk
+checksum	Q1DzCWP83aMPwGMc6QBV96ocXgT2A=
+dep	nextcloud33	nextcloud33
+dep	nextcloud33-circles	nextcloud33-circles
+dep	nextcloud33-files_pdfviewer	nextcloud33-files_pdfviewer
+dep	nextcloud33-logreader	nextcloud33-logreader
+dep	nextcloud33-password_policy	nextcloud33-password_policy
+dep	nextcloud33-privacy	nextcloud33-privacy
+dep	nextcloud33-recommendations	nextcloud33-recommendations
+dep	nextcloud33-serverinfo	nextcloud33-serverinfo
+dep	nextcloud33-text	nextcloud33-text
+dep	nextcloud33-viewer	nextcloud33

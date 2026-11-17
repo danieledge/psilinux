@@ -1,0 +1,19 @@
+name	s3fs-fuse
+version	1.97-r0
+description	FUSE-based file system backed by Amazon S3
+url	https://github.com/s3fs-fuse/s3fs-fuse
+license	GPL-2.0-only
+size	260018
+installed-size	583112
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libfuse3.so.4 so:libgcc_s.so.1 so:libstdc++.so.6 so:libxml2.so.2
+origin	s3fs-fuse
+repo	community
+file	s3fs-fuse-1.97-r0.apk
+checksum	Q1CtNQN5x2f4vHdipFatKarBozjTo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libfuse3.so.4	fuse3-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxml2.so.2	libxml2

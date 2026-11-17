@@ -1,0 +1,23 @@
+name	ocaml-duration
+version	0.2.0-r5
+description	Conversions to various time units
+url	https://github.com/hannesm/duration
+license	ISC
+size	27329
+installed-size	60148
+depends	ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2 ocaml4-impl:Stdlib__Format:e6a8c10e2ca30876ab1a7c9d82df6899 ocaml4-impl:Stdlib__Int64:07574e234ed9bfb5e7f340e15749061d ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15 ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91 ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822 ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9 ocaml4-intf:Stdlib__Format:b6edb97b685819e873481fe05723c8bc ocaml4-intf:Stdlib__Int64:0fa5587c47baf16a06837c7dedfc2518 ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962 ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57
+origin	ocaml-duration
+repo	community
+file	ocaml-duration-0.2.0-r5.apk
+checksum	Q16HnJ5A/WUDsp+ah3NEyyD8rfkfQ=
+dep	ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2	ocaml
+dep	ocaml4-impl:Stdlib__Format:e6a8c10e2ca30876ab1a7c9d82df6899	ocaml
+dep	ocaml4-impl:Stdlib__Int64:07574e234ed9bfb5e7f340e15749061d	ocaml
+dep	ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15	ocaml
+dep	ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91	ocaml
+dep	ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822	ocaml
+dep	ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9	ocaml
+dep	ocaml4-intf:Stdlib__Format:b6edb97b685819e873481fe05723c8bc	ocaml
+dep	ocaml4-intf:Stdlib__Int64:0fa5587c47baf16a06837c7dedfc2518	ocaml
+dep	ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962	ocaml
+dep	ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57	ocaml

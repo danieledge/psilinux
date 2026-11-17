@@ -1,0 +1,17 @@
+name	ratbag-tools
+version	0.18-r1
+description	ratbag cli tools
+url	https://github.com/libratbag/libratbag
+license	MIT
+size	25859
+installed-size	116686
+depends	python3 py3-evdev py3-gobject3 so:libc.musl-armhf.so.1 so:liblur.so.3
+origin	ratbag
+repo	community
+file	ratbag-tools-0.18-r1.apk
+checksum	Q1KKN/j1ItqMsChDlBGOsAGfpvOOw=
+dep	python3	python3
+dep	py3-evdev	py3-evdev
+dep	py3-gobject3	py3-gobject3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblur.so.3	ratbag

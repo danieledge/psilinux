@@ -1,0 +1,14 @@
+name	perl-net-libresolv
+version	0.03-r3
+description	Perl wrapper around libresolv
+url	https://metacpan.org/release/Net-LibResolv/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	7234
+installed-size	15685
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-net-libresolv
+repo	community
+file	perl-net-libresolv-0.03-r3.apk
+checksum	Q1JyqjZuo40p691iM+I2QzvFdIXTw=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	libice
+version	1.1.2-r0
+description	X11 Inter-Client Exchange library
+url	https://xorg.freedesktop.org/
+license	X11
+size	38069
+installed-size	83520
+depends	so:libc.musl-armhf.so.1
+origin	libice
+repo	main
+file	libice-1.1.2-r0.apk
+checksum	Q1Zr9yWnJxGUeqmn5bBcqV2aGeb00=
+dep	so:libc.musl-armhf.so.1	musl

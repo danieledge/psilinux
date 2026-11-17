@@ -1,0 +1,13 @@
+name	udisks2-gtk-doc
+version	2.11.0-r2
+description	daemon, tools and libraries to manipulate disks
+url	https://www.freedesktop.org/wiki/Software/udisks/
+license	GPL-2.0-or-later
+size	545657
+installed-size	7622498
+depends	dbus
+origin	udisks2
+repo	community
+file	udisks2-gtk-doc-2.11.0-r2.apk
+checksum	Q1hCC5CxD5LOK6GPVMOuwKw2AMFzQ=
+dep	dbus	dbus

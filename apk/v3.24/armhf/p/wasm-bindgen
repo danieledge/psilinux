@@ -1,0 +1,19 @@
+name	wasm-bindgen
+version	0.2.122-r1
+description	Interoperating JS and Rust code
+url	https://github.com/rustwasm/wasm-bindgen
+license	Apache-2.0
+size	4499242
+installed-size	9368068
+depends	cargo nodejs rust-wasm so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
+origin	wasm-bindgen
+repo	community
+file	wasm-bindgen-0.2.122-r1.apk
+checksum	Q1BB1uaBG8XcZGgAzeVDtqUS7kWEU=
+dep	cargo	cargo
+dep	nodejs	nodejs
+dep	rust-wasm	rust-wasm
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3

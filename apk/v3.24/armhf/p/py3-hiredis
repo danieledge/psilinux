@@ -1,0 +1,15 @@
+name	py3-hiredis
+version	3.4.0-r0
+description	Python extension that wraps hiredis
+url	https://github.com/redis/hiredis-py
+license	BSD-3-Clause
+size	14035
+installed-size	29117
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libhiredis.so.1.3.0
+origin	py3-hiredis
+repo	community
+file	py3-hiredis-3.4.0-r0.apk
+checksum	Q1P5bsoI/bGMK3HajcVOMPdS9nq8U=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libhiredis.so.1.3.0	hiredis

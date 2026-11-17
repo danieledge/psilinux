@@ -1,0 +1,16 @@
+name	sane-backend-hpljm1005
+version	1.4.0-r4
+description	SANE backend for Hewlett-Packard LaserJet M1005 MFP Scanner
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	33978
+installed-size	72046
+depends	sane so:libc.musl-armhf.so.1 so:libusb-1.0.so.0 so:libxml2.so.2
+origin	sane
+repo	community
+file	sane-backend-hpljm1005-1.4.0-r4.apk
+checksum	Q1t1kN3dqinP/Z460L4fHRQ+7RIv0=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb
+dep	so:libxml2.so.2	libxml2

@@ -1,0 +1,13 @@
+name	libretro-freechaf
+version	0_git20240629-r0
+description	Fairchild ChannelF / Video Entertainment System emulator for libretro
+url	https://github.com/libretro/FreeChaf
+license	GPL-3.0-or-later
+size	32222
+installed-size	70928
+depends	so:libc.musl-armhf.so.1
+origin	libretro-freechaf
+repo	community
+file	libretro-freechaf-0_git20240629-r0.apk
+checksum	Q1WRhG0YeeNcSuc0BFrr6I6O8/0fo=
+dep	so:libc.musl-armhf.so.1	musl

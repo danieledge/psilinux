@@ -1,0 +1,16 @@
+name	kamailio-json
+version	6.0.6-r0
+description	Kamailio Operations on json strings
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	174448
+installed-size	362976
+depends	kamailio so:libc.musl-armhf.so.1 so:libevent-2.1.so.7 so:libjson-c.so.5
+origin	kamailio
+repo	main
+file	kamailio-json-6.0.6-r0.apk
+checksum	Q1opfvgm29dkiC0MMRCneXNGBA3hI=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevent-2.1.so.7	libevent
+dep	so:libjson-c.so.5	json-c

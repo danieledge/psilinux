@@ -1,0 +1,15 @@
+name	libcouchbase-libev
+version	3.3.18-r0
+description	C client library for Couchbase (libev backend)
+url	https://developer.couchbase.com/community
+license	Apache-2.0
+size	4734
+installed-size	9336
+depends	libcouchbase=3.3.18-r0 so:libc.musl-armhf.so.1 so:libev.so.4
+origin	libcouchbase
+repo	community
+file	libcouchbase-libev-3.3.18-r0.apk
+checksum	Q1oRD9kHo5JvYeSOzmUPghOeseG8E=
+dep	libcouchbase=3.3.18-r0	libcouchbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libev.so.4	libev

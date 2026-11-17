@@ -1,0 +1,14 @@
+name	yyjson-dev
+version	0.12.0-r1
+description	High performance JSON library written in ANSI C (development files)
+url	https://github.com/ibireme/yyjson
+license	MIT
+size	41228
+installed-size	327925
+depends	yyjson=0.12.0-r1 pkgconfig
+origin	yyjson
+repo	community
+file	yyjson-dev-0.12.0-r1.apk
+checksum	Q1TgeSVCZFEV+xVtq4GwDMBtEoWXw=
+dep	yyjson=0.12.0-r1	yyjson
+dep	pkgconfig	pkgconf

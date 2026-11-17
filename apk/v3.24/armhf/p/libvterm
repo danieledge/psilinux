@@ -1,0 +1,13 @@
+name	libvterm
+version	0.3.3-r0
+description	Abstract library implementation of a VT220/xterm/ECMA-48 terminal emulator
+url	https://www.leonerd.org.uk/code/libvterm/
+license	MIT
+size	37939
+installed-size	83508
+depends	so:libc.musl-armhf.so.1
+origin	libvterm
+repo	community
+file	libvterm-0.3.3-r0.apk
+checksum	Q1Y/lPZN/aaxQ42EK9K4u0vx1KVv0=
+dep	so:libc.musl-armhf.so.1	musl

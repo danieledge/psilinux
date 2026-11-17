@@ -1,0 +1,15 @@
+name	uhttpd-mod-ucode
+version	0_git20250406-r1
+description	Tiny HTTP server from OpenWrt - ucode support
+url	https://openwrt.org/docs/guide-user/services/webserver/uhttpd
+license	ISC
+size	6522
+installed-size	13612
+depends	so:libc.musl-armhf.so.1 so:libjson-c.so.5 so:libucode.so.0
+origin	uhttpd
+repo	community
+file	uhttpd-mod-ucode-0_git20250406-r1.apk
+checksum	Q1qbGLHU/ADRjkCy7H7lhi7N3n9vU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjson-c.so.5	json-c
+dep	so:libucode.so.0	ucode

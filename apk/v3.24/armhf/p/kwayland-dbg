@@ -1,0 +1,12 @@
+name	kwayland-dbg
+version	6.6.6-r0
+description	Qt-style Client and Server library wrapper for the Wayland libraries (debug symbols)
+url	https://www.kde.org
+license	LGPL-2.1-only OR LGPL-3.0-only
+size	6579460
+installed-size	16950200
+depends	!kwayland<6.6.6-r0 !kwayland>6.6.6-r0
+origin	kwayland
+repo	community
+file	kwayland-dbg-6.6.6-r0.apk
+checksum	Q1Sp/nyTecFt7V6dXOzi9GdRbuI+A=

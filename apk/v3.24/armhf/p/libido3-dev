@@ -1,0 +1,15 @@
+name	libido3-dev
+version	13.10.0-r2
+description	Library for indicator display objects (development files)
+url	https://launchpad.net/ido
+license	(LGPL-2.1-only OR LGPL-3.0-only) AND GPL-3.0-only AND LGPL-2.0-or-later
+size	15818
+installed-size	130004
+depends	libido3=13.10.0-r2 pc:gtk+-3.0 pkgconfig
+origin	libido3
+repo	community
+file	libido3-dev-13.10.0-r2.apk
+checksum	Q1H4b79W31RthzZfJthoh2WEpC2Ck=
+dep	libido3=13.10.0-r2	libido3
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pkgconfig	pkgconf

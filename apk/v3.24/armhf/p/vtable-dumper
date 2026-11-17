@@ -1,0 +1,15 @@
+name	vtable-dumper
+version	1.2-r1
+description	List content of virtual tables in a shared library
+url	https://github.com/lvc/vtable-dumper
+license	LGPL-2.1-or-later
+size	6249
+installed-size	9552
+depends	so:libc.musl-armhf.so.1 so:libelf.so.1 so:libstdc++.so.6
+origin	vtable-dumper
+repo	community
+file	vtable-dumper-1.2-r1.apk
+checksum	Q1aQZAdf1tDdDahDssN645aV/LqDg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libelf.so.1	libelf
+dep	so:libstdc++.so.6	libstdc++

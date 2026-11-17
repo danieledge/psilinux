@@ -1,0 +1,22 @@
+name	windowmaker-dev
+version	0.96.0-r0
+description	Window manager for X emulating the NeXTSTEP user interface (development files)
+url	https://windowmaker.org/
+license	GPL-2.0-or-later
+size	32547
+installed-size	125668
+depends	libxmu-dev libxft-dev libxinerama-dev libxrandr-dev libjpeg-turbo-dev tiff-dev libwebp-dev windowmaker=0.96.0-r0 pc:x11 pkgconfig
+origin	windowmaker
+repo	community
+file	windowmaker-dev-0.96.0-r0.apk
+checksum	Q1YG4nPBmKe5y5H/Gj98prMqwN2Ms=
+dep	libxmu-dev	libxmu-dev
+dep	libxft-dev	libxft-dev
+dep	libxinerama-dev	libxinerama-dev
+dep	libxrandr-dev	libxrandr-dev
+dep	libjpeg-turbo-dev	libjpeg-turbo-dev
+dep	tiff-dev	tiff-dev
+dep	libwebp-dev	libwebp-dev
+dep	windowmaker=0.96.0-r0	windowmaker
+dep	pc:x11	libx11-dev
+dep	pkgconfig	pkgconf

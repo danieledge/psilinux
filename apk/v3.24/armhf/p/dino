@@ -1,0 +1,47 @@
+name	dino
+version	0.5.1-r2
+description	Modern Jabber/XMPP client
+url	https://dino.im
+license	GPL-3.0-only
+size	1749132
+installed-size	5820249
+depends	gst-plugins-good gst-plugins-good-gtk icu-data-full so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgcc_s.so.1 so:libgcrypt.so.20 so:libgdk_pixbuf-2.0.so.0 so:libgee-0.8.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgnutls.so.30 so:libgobject-2.0.so.0 so:libgpgme.so.45 so:libgraphene-1.0.so.0 so:libgstapp-1.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstrtp-1.0.so.0 so:libgstvideo-1.0.so.0 so:libgtk-4.so.1 so:libicuuc.so.78 so:libintl.so.8 so:libnice.so.10 so:libomemo-c.so.0 so:libpango-1.0.so.0 so:libqrencode.so.4 so:libsoup-3.0.so.0 so:libsqlite3.so.0 so:libsrtp2.so.1 so:libstdc++.so.6 so:libwebrtc-audio-processing-2.so.1
+origin	dino
+repo	community
+file	dino-0.5.1-r2.apk
+checksum	Q1UzEm43cCboCMkraSzV/TjktAbto=
+dep	gst-plugins-good	gst-plugins-good
+dep	gst-plugins-good-gtk	gst-plugins-good-gtk
+dep	icu-data-full	icu-data-full
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgee-0.8.so.2	libgee
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgnutls.so.30	gnutls
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgpgme.so.45	gpgme
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgstapp-1.0.so.0	gst-plugins-base
+dep	so:libgstaudio-1.0.so.0	gst-plugins-base
+dep	so:libgstbase-1.0.so.0	gstreamer
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstrtp-1.0.so.0	gst-plugins-base
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libintl.so.8	libintl
+dep	so:libnice.so.10	libnice
+dep	so:libomemo-c.so.0	libomemo-c
+dep	so:libpango-1.0.so.0	pango
+dep	so:libqrencode.so.4	libqrencode
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libsrtp2.so.1	libsrtp
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwebrtc-audio-processing-2.so.1	webrtc-audio-processing-2

@@ -1,0 +1,16 @@
+name	perl-xml-sax
+version	1.02-r4
+description	Simple API for XML
+url	https://metacpan.org/release/XML-SAX
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	30100
+installed-size	101371
+depends	perl perl-xml-sax-base perl-xml-namespacesupport /bin/sh
+origin	perl-xml-sax
+repo	main
+file	perl-xml-sax-1.02-r4.apk
+checksum	Q1xIQjmMcMoSa6iOXKObeo0hJvdh4=
+dep	perl	perl
+dep	perl-xml-sax-base	perl-xml-sax-base
+dep	perl-xml-namespacesupport	perl-xml-namespacesupport
+dep	/bin/sh	busybox-binsh

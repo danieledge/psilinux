@@ -1,0 +1,16 @@
+name	termrec
+version	0.19-r6
+description	Program for recording videos of terminal output
+url	https://angband.pl/termrec.html
+license	LGPL-2.0-or-later
+size	43670
+installed-size	98748
+depends	so:libbz2.so.1 so:libc.musl-armhf.so.1 so:liblzma.so.5 so:libz.so.1
+origin	termrec
+repo	main
+file	termrec-0.19-r6.apk
+checksum	Q1nyJXwTNiKgBQIuTAVCLnWPXsFtE=
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblzma.so.5	xz-libs
+dep	so:libz.so.1	zlib

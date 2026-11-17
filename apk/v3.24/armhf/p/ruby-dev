@@ -1,0 +1,18 @@
+name	ruby-dev
+version	3.4.12-r0
+description	An object-oriented language for quick and easy programming (development files)
+url	https://www.ruby-lang.org/
+license	Ruby AND BSD-2-Clause AND MIT
+size	337451
+installed-size	1592061
+depends	ruby=3.4.12-r0 ruby-rdoc=3.4.12-r0 gmp-dev libucontext-dev ruby-libs=3.4.12-r0 pkgconfig
+origin	ruby
+repo	main
+file	ruby-dev-3.4.12-r0.apk
+checksum	Q1EKSNZKN7AecBKcuDcHLQj1S/Cm0=
+dep	ruby=3.4.12-r0	ruby
+dep	ruby-rdoc=3.4.12-r0	ruby-rdoc
+dep	gmp-dev	gmp-dev
+dep	libucontext-dev	libucontext-dev
+dep	ruby-libs=3.4.12-r0	ruby-libs
+dep	pkgconfig	pkgconf

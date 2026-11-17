@@ -1,0 +1,14 @@
+name	cgif-dev
+version	0.5.4-r0
+description	Fast and lightweight GIF encoder written in C (development files)
+url	https://github.com/dloebl/cgif
+license	MIT
+size	3638
+installed-size	5228
+depends	cgif=0.5.4-r0 pkgconfig
+origin	cgif
+repo	community
+file	cgif-dev-0.5.4-r0.apk
+checksum	Q1EckqUkjz7UtxFHz+OcRS0WNlnoI=
+dep	cgif=0.5.4-r0	cgif
+dep	pkgconfig	pkgconf

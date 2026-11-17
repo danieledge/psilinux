@@ -1,0 +1,14 @@
+name	prometheus-blackbox-exporter
+version	0.28.0-r8
+description	Prometheus Blackbox Exporter
+url	https://github.com/prometheus/blackbox_exporter
+license	Apache-2.0
+size	8563932
+installed-size	24153167
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	prometheus-blackbox-exporter
+repo	community
+file	prometheus-blackbox-exporter-0.28.0-r8.apk
+checksum	Q1wO6n8I2NimzxY0MLofU5JgGfQxY=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

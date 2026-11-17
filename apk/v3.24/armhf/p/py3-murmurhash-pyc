@@ -1,0 +1,13 @@
+name	py3-murmurhash-pyc
+version	1.0.15-r1
+description	Precompiled Python bytecode for py3-murmurhash
+url	https://github.com/explosion/murmurhash
+license	MIT
+size	2459
+installed-size	1090
+depends	python3~3.14
+origin	py3-murmurhash
+repo	community
+file	py3-murmurhash-pyc-1.0.15-r1.apk
+checksum	Q1EuMYaP1ppngZecB6y1oHMOV3Xmo=
+dep	python3~3.14	python3

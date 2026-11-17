@@ -1,0 +1,14 @@
+name	dive
+version	0.13.1-r8
+description	Tool for exploring each layer in a docker image
+url	https://github.com/wagoodman/dive
+license	MIT
+size	4169216
+installed-size	10512452
+depends	docker so:libc.musl-armhf.so.1
+origin	dive
+repo	community
+file	dive-0.13.1-r8.apk
+checksum	Q1hlhMRVjW1Ij6mNKsJRkmPmFGfgU=
+dep	docker	docker
+dep	so:libc.musl-armhf.so.1	musl

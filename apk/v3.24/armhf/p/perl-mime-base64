@@ -1,0 +1,14 @@
+name	perl-mime-base64
+version	3.16-r7
+description	Encoding and decoding of base64 strings
+url	https://metacpan.org/release/MIME-Base64/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	11237
+installed-size	22145
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-mime-base64
+repo	main
+file	perl-mime-base64-3.16-r7.apk
+checksum	Q19Yo4+psAyKAC24lGKhvyNLVC6Ic=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

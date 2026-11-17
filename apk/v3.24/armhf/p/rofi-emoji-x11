@@ -1,0 +1,13 @@
+name	rofi-emoji-x11
+version	4.1.0-r0
+description	Emoji selector plugin for Rofi - dependencies for clipboard adapter on X11
+url	https://github.com/Mange/rofi-emoji
+license	MIT
+size	1316
+installed-size	0
+depends	cmd:xsel
+origin	rofi-emoji
+repo	community
+file	rofi-emoji-x11-4.1.0-r0.apk
+checksum	Q1DkEAth8vQhcj8eTTycLLI27ygNM=
+dep	cmd:xsel	xsel

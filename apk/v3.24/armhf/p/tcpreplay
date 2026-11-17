@@ -1,0 +1,16 @@
+name	tcpreplay
+version	4.6.1-r0
+description	Replay captured network traffic
+url	https://tcpreplay.appneta.com/
+license	GPL-3.0-or-later
+size	743922
+installed-size	1713033
+depends	pkgconfig so:libc.musl-armhf.so.1 so:libdnet.so.1 so:libpcap.so.1
+origin	tcpreplay
+repo	community
+file	tcpreplay-4.6.1-r0.apk
+checksum	Q188js4DZTrGZqVozSuS3qS/1sbXk=
+dep	pkgconfig	pkgconf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdnet.so.1	libdnet
+dep	so:libpcap.so.1	libpcap

@@ -1,0 +1,14 @@
+name	cargo-doc
+version	1.96.1-r0
+description	The Rust package manager (documentation)
+url	https://doc.rust-lang.org/cargo/
+license	Apache-2.0 OR MIT
+size	158835
+installed-size	215322
+depends	gcc musl-dev
+origin	rust
+repo	main
+file	cargo-doc-1.96.1-r0.apk
+checksum	Q1++t78yzZ90yAxKK9S0pC5Il6LdI=
+dep	gcc	gcc
+dep	musl-dev	musl-dev

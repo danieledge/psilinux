@@ -1,0 +1,14 @@
+name	openlibm-dev
+version	0.8.7-r0
+description	High quality system independent, portable, open source libm implementation (development files)
+url	https://openlibm.org/
+license	MIT AND BSD-2-Clause AND ISC AND LGPL-2.1-or-later
+size	24980
+installed-size	122536
+depends	openlibm=0.8.7-r0 pkgconfig
+origin	openlibm
+repo	community
+file	openlibm-dev-0.8.7-r0.apk
+checksum	Q1vseSQNNHBAHwubrEINXqOZtV9aY=
+dep	openlibm=0.8.7-r0	openlibm
+dep	pkgconfig	pkgconf

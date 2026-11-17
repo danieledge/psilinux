@@ -1,0 +1,14 @@
+name	z3-dev
+version	4.16.0-r1
+description	Theorem prover from Microsoft Research (development files)
+url	https://github.com/Z3Prover/z3
+license	MIT
+size	102443
+installed-size	600019
+depends	z3=4.16.0-r1 pkgconfig
+origin	z3
+repo	community
+file	z3-dev-4.16.0-r1.apk
+checksum	Q1FynCQMQ+vuKdO1/krmIKE8weLCQ=
+dep	z3=4.16.0-r1	z3
+dep	pkgconfig	pkgconf

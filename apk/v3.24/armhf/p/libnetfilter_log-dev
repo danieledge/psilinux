@@ -1,0 +1,17 @@
+name	libnetfilter_log-dev
+version	1.0.2-r2
+description	interface to packets that have been logged by the kernel packet filter (development files)
+url	https://www.netfilter.org/projects/libnetfilter_log/
+license	GPL-2.0-only
+size	5047
+installed-size	9124
+depends	linux-headers libnetfilter_log=1.0.2-r2 pc:libmnl>=1.0.3 pc:libnfnetlink>=0.0.41 pkgconfig
+origin	libnetfilter_log
+repo	main
+file	libnetfilter_log-dev-1.0.2-r2.apk
+checksum	Q1+uPPztwC/wqZTOSj7EFrE6JzmD8=
+dep	linux-headers	linux-headers
+dep	libnetfilter_log=1.0.2-r2	libnetfilter_log
+dep	pc:libmnl>=1.0.3	libmnl-dev
+dep	pc:libnfnetlink>=0.0.41	libnfnetlink-dev
+dep	pkgconfig	pkgconf

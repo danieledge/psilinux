@@ -1,0 +1,13 @@
+name	chrony-common
+version	4.8-r7
+description	NTP client and server programs (common files)
+url	https://chrony-project.org/
+license	GPL-2.0-or-later
+size	2894
+installed-size	1698
+depends	/bin/sh
+origin	chrony
+repo	main
+file	chrony-common-4.8-r7.apk
+checksum	Q1UcEGBPz1dzK+N+MX/vrnafl2Wwk=
+dep	/bin/sh	busybox-binsh

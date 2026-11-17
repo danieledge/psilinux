@@ -1,0 +1,18 @@
+name	nushell
+version	0.104.1-r0
+description	A new type of shell
+url	https://www.nushell.sh
+license	MIT
+size	8119340
+installed-size	18611840
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libsqlite3.so.0 so:libssl.so.3
+origin	nushell
+repo	community
+file	nushell-0.104.1-r0.apk
+checksum	Q1QEWyUEomuZ6/A1ZU3D/Wr9YFYrU=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libssl.so.3	libssl3

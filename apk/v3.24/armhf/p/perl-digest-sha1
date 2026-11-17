@@ -1,0 +1,14 @@
+name	perl-digest-sha1
+version	2.13-r20
+description	Perl interface to the SHA-1 algorithm
+url	https://metacpan.org/release/Digest-SHA1/
+license	Artistic-1.0-Perl OR GPL-1.0-or-later
+size	11839
+installed-size	20849
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-digest-sha1
+repo	main
+file	perl-digest-sha1-2.13-r20.apk
+checksum	Q1RjdYuFV9fDYW946nqU9K5z2dQuA=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

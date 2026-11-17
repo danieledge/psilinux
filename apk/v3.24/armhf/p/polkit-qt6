@@ -1,0 +1,24 @@
+name	polkit-qt6
+version	0.201.1-r1
+description	Qt wrapper around polkit-1 client libraries
+url	https://www.kde.org
+license	LGPL-2.1-only
+size	76623
+installed-size	218548
+depends	so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Gui.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libpolkit-agent-1.so.0 so:libpolkit-gobject-1.so.0 so:libstdc++.so.6
+origin	polkit-qt
+repo	community
+file	polkit-qt6-0.201.1-r1.apk
+checksum	Q1PU6ueYaCOs9XaSb81T4KthKQYqg=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6DBus.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpolkit-agent-1.so.0	polkit-noelogind-libs
+dep	so:libpolkit-gobject-1.so.0	polkit-noelogind-libs
+dep	so:libstdc++.so.6	libstdc++

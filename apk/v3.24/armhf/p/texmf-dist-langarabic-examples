@@ -1,0 +1,14 @@
+name	texmf-dist-langarabic-examples
+version	2026.0-r0
+description	texmf-dist: Arabic (examples and documentation)
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	32595265
+installed-size	38921679
+depends	texmf-dist-langarabic texmf-dist-langarabic-doc
+origin	texmf-dist
+repo	community
+file	texmf-dist-langarabic-examples-2026.0-r0.apk
+checksum	Q15kB71VshkkI8HH6WPPLwCkCo7Tw=
+dep	texmf-dist-langarabic	texmf-dist-langarabic
+dep	texmf-dist-langarabic-doc	texmf-dist-langarabic-doc

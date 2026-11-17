@@ -1,0 +1,17 @@
+name	critcl
+version	3.3.1-r1
+description	Compiled Runtime in Tcl
+url	https://andreas-kupries.github.io/critcl/
+license	TCL
+size	439698
+installed-size	1879180
+depends	cmd:cc musl-dev tcl tcl-lib so:libc.musl-armhf.so.1
+origin	critcl
+repo	community
+file	critcl-3.3.1-r1.apk
+checksum	Q1DwNV7VnuzM/PNiGGHuSr6LVScaI=
+dep	cmd:cc	gcc
+dep	musl-dev	musl-dev
+dep	tcl	tcl
+dep	tcl-lib	tcl-lib
+dep	so:libc.musl-armhf.so.1	musl

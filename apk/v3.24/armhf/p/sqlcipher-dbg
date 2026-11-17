@@ -1,0 +1,12 @@
+name	sqlcipher-dbg
+version	4.6.1-r1
+description	SQLCipher is an SQLite extension that provides 256 bit AES encryption of database files. (debug symbols)
+url	https://www.zetetic.net/sqlcipher/
+license	BSD-3-Clause
+size	3520170
+installed-size	7622948
+depends	!sqlcipher-libs<4.6.1-r1 !sqlcipher-libs>4.6.1-r1 !sqlcipher-tcl<4.6.1-r1 !sqlcipher-tcl>4.6.1-r1 !sqlcipher<4.6.1-r1 !sqlcipher>4.6.1-r1
+origin	sqlcipher
+repo	community
+file	sqlcipher-dbg-4.6.1-r1.apk
+checksum	Q1L20of/9ZKkohHJn7D6cusDHGKXQ=

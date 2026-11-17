@@ -1,0 +1,14 @@
+name	numactl-tools
+version	2.0.19-r0
+description	NUMA policy control tools
+url	https://github.com/numactl/numactl
+license	GPL-2.0-only
+size	45956
+installed-size	111504
+depends	so:libc.musl-armhf.so.1 so:libnuma.so.1
+origin	numactl
+repo	main
+file	numactl-tools-2.0.19-r0.apk
+checksum	Q18JuyDbSpGeuK/GoDF3vxQAPw/v4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnuma.so.1	numactl

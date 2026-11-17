@@ -1,0 +1,19 @@
+name	libxt-dev
+version	1.3.1-r0
+description	X11 toolkit intrinsics library (development files)
+url	https://xorg.freedesktop.org/
+license	MIT
+size	47284
+installed-size	266404
+depends	libsm-dev libxt=1.3.1-r0 pc:ice pc:sm pc:x11 pc:xproto pkgconfig
+origin	libxt
+repo	main
+file	libxt-dev-1.3.1-r0.apk
+checksum	Q1HKHnTomVqXI6h/0nUrx1xhBwgDQ=
+dep	libsm-dev	libsm-dev
+dep	libxt=1.3.1-r0	libxt
+dep	pc:ice	libice-dev
+dep	pc:sm	libsm-dev
+dep	pc:x11	libx11-dev
+dep	pc:xproto	xorgproto
+dep	pkgconfig	pkgconf

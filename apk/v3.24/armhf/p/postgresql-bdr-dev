@@ -1,0 +1,20 @@
+name	postgresql-bdr-dev
+version	9.4.14_p1-r17
+description	A sophisticated object-relational DBMS with bidirectional replication support (BDR) (development files)
+url	https://www.enterprisedb.com/products/bidirectional-replication-bdr-postgresql-database
+license	PostgreSQL
+size	1290700
+installed-size	4789378
+depends	readline-dev openssl-dev>3 zlib-dev libxml2-dev postgresql-bdr-libs=9.4.14_p1-r17 pkgconfig so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	postgresql-bdr
+repo	community
+file	postgresql-bdr-dev-9.4.14_p1-r17.apk
+checksum	Q1W9r/7+T6/Psu/kLbBzva6xhyK08=
+dep	readline-dev	readline-dev
+dep	openssl-dev>3	openssl-dev
+dep	zlib-dev	zlib-dev
+dep	libxml2-dev	libxml2-dev
+dep	postgresql-bdr-libs=9.4.14_p1-r17	postgresql-bdr-libs
+dep	pkgconfig	pkgconf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

@@ -1,0 +1,14 @@
+name	wayidle
+version	1.0.1-r0
+description	Wait for wayland compositor idle timeouts
+url	https://git.sr.ht/~whynothugo/wayidle
+license	ISC
+size	210721
+installed-size	392568
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	wayidle
+repo	community
+file	wayidle-1.0.1-r0.apk
+checksum	Q1xf4tnmDh4djJLQOxDGBw6rzMU7M=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

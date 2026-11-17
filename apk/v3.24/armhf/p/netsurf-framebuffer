@@ -1,0 +1,23 @@
+name	netsurf-framebuffer
+version	3.11-r1
+description	free, open source web browser (framebuffer)
+url	http://www.netsurf-browser.org
+license	GPL-2.0-or-later
+size	2780577
+installed-size	7154696
+depends	so:libSDL-1.2.so.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libexpat.so.1 so:libjpeg.so.8 so:libpng16.so.16 so:libssl.so.3 so:libwayland-client.so.0 so:libwebp.so.7 so:libz.so.1
+origin	netsurf
+repo	community
+file	netsurf-framebuffer-3.11-r1.apk
+checksum	Q1jId1XLWEfknRBE4PZFYs8gyZ6YA=
+dep	so:libSDL-1.2.so.0	sdl12-compat
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libexpat.so.1	libexpat
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpng16.so.16	libpng
+dep	so:libssl.so.3	libssl3
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwebp.so.7	libwebp
+dep	so:libz.so.1	zlib

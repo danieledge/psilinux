@@ -1,0 +1,15 @@
+name	nagios-plugins-overcr
+version	2.5-r0
+description	Nagios plugin check_overcr
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	21778
+installed-size	42544
+depends	nagios-plugins so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-overcr-2.5-r0.apk
+checksum	Q11B/nMREDIST1Xony0vEcE1AKb9g=
+dep	nagios-plugins	nagios-plugins
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

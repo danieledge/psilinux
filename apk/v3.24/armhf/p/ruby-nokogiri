@@ -1,0 +1,19 @@
+name	ruby-nokogiri
+version	1.19.4-r0
+description	An HTML, XML, SAX, and Reader parser
+url	https://nokogiri.org/
+license	MIT
+size	283076
+installed-size	847349
+depends	ruby ruby-racc so:libc.musl-armhf.so.1 so:libexslt.so.0 so:libruby.so.3.4 so:libxml2.so.2 so:libxslt.so.1
+origin	ruby-nokogiri
+repo	community
+file	ruby-nokogiri-1.19.4-r0.apk
+checksum	Q1HZiaWg32z+S4b/YwGTAiItn0YDM=
+dep	ruby	ruby
+dep	ruby-racc	ruby-racc
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexslt.so.0	libxslt
+dep	so:libruby.so.3.4	ruby-libs
+dep	so:libxml2.so.2	libxml2
+dep	so:libxslt.so.1	libxslt

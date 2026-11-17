@@ -1,0 +1,21 @@
+name	xdg-desktop-portal-wlr
+version	0.8.2-r0
+description	wlroots implementation of xdg-desktop-portal
+url	https://github.com/emersion/xdg-desktop-portal-wlr
+license	MIT
+size	38715
+installed-size	79761
+depends	pipewire xdg-desktop-portal so:libbasu.so.0 so:libc.musl-armhf.so.1 so:libdrm.so.2 so:libgbm.so.1 so:libinih.so.0 so:libpipewire-0.3.so.0 so:libwayland-client.so.0
+origin	xdg-desktop-portal-wlr
+repo	community
+file	xdg-desktop-portal-wlr-0.8.2-r0.apk
+checksum	Q18IOWx7tIHjAhdmpwGLiNmSqaIgI=
+dep	pipewire	pipewire
+dep	xdg-desktop-portal	xdg-desktop-portal
+dep	so:libbasu.so.0	basu
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm.so.2	libdrm
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libinih.so.0	inih
+dep	so:libpipewire-0.3.so.0	pipewire-libs
+dep	so:libwayland-client.so.0	wayland-libs-client

@@ -1,0 +1,13 @@
+name	kea-admin
+version	3.0.3-r0
+description	Databases administration tools for Kea DHCP server
+url	https://kea.isc.org/
+license	MPL-2.0
+size	156718
+installed-size	1230757
+depends	kea-common=3.0.3-r0
+origin	kea
+repo	main
+file	kea-admin-3.0.3-r0.apk
+checksum	Q1QfWr1/Uc/DgiQYfSbrdrlU4iB9Y=
+dep	kea-common=3.0.3-r0	kea-common

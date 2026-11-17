@@ -1,0 +1,13 @@
+name	tree-sitter-c-sharp
+version	0.23.5-r0
+description	C# Grammar for tree-sitter
+url	https://github.com/tree-sitter/tree-sitter-c-sharp
+license	MIT
+size	324821
+installed-size	5346011
+depends	so:libc.musl-armhf.so.1
+origin	tree-sitter-c-sharp
+repo	community
+file	tree-sitter-c-sharp-0.23.5-r0.apk
+checksum	Q1gbDeKC7Faoa4tYRiw7cwR/bx9l4=
+dep	so:libc.musl-armhf.so.1	musl

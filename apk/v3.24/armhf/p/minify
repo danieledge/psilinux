@@ -1,0 +1,13 @@
+name	minify
+version	2.24.17-r2
+description	Minifier CLI for HTML, CSS, JS, JSON, SVG and XML
+url	https://github.com/tdewolff/minify
+license	MIT
+size	2327321
+installed-size	5658732
+depends	so:libc.musl-armhf.so.1
+origin	minify
+repo	community
+file	minify-2.24.17-r2.apk
+checksum	Q1GWDwJg4XkM4SdEarVDoaMY5E3/I=
+dep	so:libc.musl-armhf.so.1	musl

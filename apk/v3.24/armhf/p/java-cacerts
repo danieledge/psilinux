@@ -1,0 +1,16 @@
+name	java-cacerts
+version	1.1-r0
+description	Script to update java cacerts store
+url	https://git.alpinelinux.org/aports/tree/community/java-cacerts
+license	MIT
+size	1896
+installed-size	134
+depends	p11-kit p11-kit-trust ca-certificates /bin/sh
+origin	java-cacerts
+repo	community
+file	java-cacerts-1.1-r0.apk
+checksum	Q1fbZYn7hmkO7HV9DOloCS7cm8CPk=
+dep	p11-kit	p11-kit
+dep	p11-kit-trust	p11-kit-trust
+dep	ca-certificates	ca-certificates
+dep	/bin/sh	busybox-binsh

@@ -1,0 +1,16 @@
+name	xsetroot
+version	1.1.3-r1
+description	X.Org xsetroot application
+url	https://xorg.freedesktop.org/
+license	MIT
+size	7873
+installed-size	17584
+depends	so:libX11.so.6 so:libXcursor.so.1 so:libXmuu.so.1 so:libc.musl-armhf.so.1
+origin	xsetroot
+repo	community
+file	xsetroot-1.1.3-r1.apk
+checksum	Q1iyQu6mAnWj7B6lVgMtgMtlcjPYY=
+dep	so:libX11.so.6	libx11
+dep	so:libXcursor.so.1	libxcursor
+dep	so:libXmuu.so.1	libxmu
+dep	so:libc.musl-armhf.so.1	musl

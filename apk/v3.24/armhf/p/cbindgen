@@ -1,0 +1,14 @@
+name	cbindgen
+version	0.29.4-r0
+description	Tool to generate C bindings from Rust code
+url	https://github.com/mozilla/cbindgen
+license	MPL-2.0
+size	994304
+installed-size	2088732
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	cbindgen
+repo	main
+file	cbindgen-0.29.4-r0.apk
+checksum	Q1G24u7txZm1qLggF56m37HICdtz8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

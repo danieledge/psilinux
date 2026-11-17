@@ -1,0 +1,14 @@
+name	perl-minion-backend-pg
+version	12.0-r0
+description	PostgreSQL backend for Minion job queue
+url	https://metacpan.org/release/Minion/
+license	Artistic-2.0
+size	11684
+installed-size	37768
+depends	perl-minion=12.0-r0 perl-mojo-pg
+origin	perl-minion
+repo	community
+file	perl-minion-backend-pg-12.0-r0.apk
+checksum	Q1dKstT2RYqhypPQfJSVSiVDCESdk=
+dep	perl-minion=12.0-r0	perl-minion
+dep	perl-mojo-pg	perl-mojo-pg

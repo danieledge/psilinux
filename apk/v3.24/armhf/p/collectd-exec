@@ -1,0 +1,14 @@
+name	collectd-exec
+version	5.12.0-r25
+description	exec pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	26413
+installed-size	54444
+depends	collectd so:libc.musl-armhf.so.1
+origin	collectd
+repo	community
+file	collectd-exec-5.12.0-r25.apk
+checksum	Q179KOGgiMXKRoOLye9vvLYWRnAho=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,18 @@
+name	gpg-agent
+version	2.4.9-r1
+description	GNU Privacy Guard 2 - cryptographic agent
+url	https://www.gnupg.org/
+license	GPL-3.0-or-later
+size	297676
+installed-size	616223
+depends	gnupg-gpgconf=2.4.9-r1 so:libassuan.so.9 so:libc.musl-armhf.so.1 so:libgcrypt.so.20 so:libgpg-error.so.0 so:libnpth.so.0
+origin	gnupg
+repo	main
+file	gpg-agent-2.4.9-r1.apk
+checksum	Q1IF7IUUMBeIT89ewTxEKAqQRaLQ8=
+dep	gnupg-gpgconf=2.4.9-r1	gnupg-gpgconf
+dep	so:libassuan.so.9	libassuan
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgpg-error.so.0	libgpg-error
+dep	so:libnpth.so.0	npth

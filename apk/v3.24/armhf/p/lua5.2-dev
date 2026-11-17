@@ -1,0 +1,15 @@
+name	lua5.2-dev
+version	5.2.4-r13
+description	Powerful light-weight programming language (development files)
+url	https://www.lua.org/
+license	MIT
+size	480826
+installed-size	1103955
+depends	lua5.2 lua5.2-libs=5.2.4-r13 pkgconfig
+origin	lua5.2
+repo	main
+file	lua5.2-dev-5.2.4-r13.apk
+checksum	Q1brBmgugLBhA4lQ1vPHi70NCB+RY=
+dep	lua5.2	lua5.2
+dep	lua5.2-libs=5.2.4-r13	lua5.2-libs
+dep	pkgconfig	pkgconf

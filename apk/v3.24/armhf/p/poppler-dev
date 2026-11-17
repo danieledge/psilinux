@@ -1,0 +1,30 @@
+name	poppler-dev
+version	25.12.0-r1
+description	PDF rendering library based on xpdf 3.0 (development files)
+url	https://poppler.freedesktop.org/
+license	GPL-2.0-or-later
+size	360768
+installed-size	2515177
+depends	cairo-dev glib-dev poppler-glib=25.12.0-r1 poppler=25.12.0-r1 pc:cairo>=1.16.0 pc:fontconfig>=2.13 pc:freetype2>=2.11 pc:gio-2.0>=2.72 pc:glib-2.0>=2.72 pc:gobject-2.0>=2.72 pc:lcms2>=2.12 pc:libjpeg pc:libopenjp2 pc:libpng pc:libtiff-4>=4.7.1 pc:nss>=3.123.1 pc:zlib pkgconfig
+origin	poppler
+repo	main
+file	poppler-dev-25.12.0-r1.apk
+checksum	Q19DCas/3wWzZPTQycYY4qDkZRHE4=
+dep	cairo-dev	cairo-dev
+dep	glib-dev	glib-dev
+dep	poppler-glib=25.12.0-r1	poppler-glib
+dep	poppler=25.12.0-r1	poppler
+dep	pc:cairo>=1.16.0	cairo-dev
+dep	pc:fontconfig>=2.13	fontconfig-dev
+dep	pc:freetype2>=2.11	freetype-dev
+dep	pc:gio-2.0>=2.72	glib-dev
+dep	pc:glib-2.0>=2.72	glib-dev
+dep	pc:gobject-2.0>=2.72	glib-dev
+dep	pc:lcms2>=2.12	lcms2-dev
+dep	pc:libjpeg	libjpeg-turbo-dev
+dep	pc:libopenjp2	openjpeg-dev
+dep	pc:libpng	libpng-dev
+dep	pc:libtiff-4>=4.7.1	tiff-dev
+dep	pc:nss>=3.123.1	nss-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

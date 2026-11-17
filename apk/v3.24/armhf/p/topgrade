@@ -1,0 +1,14 @@
+name	topgrade
+version	17.4.0-r0
+description	run upgrades of packages in OS and other package managers
+url	https://github.com/topgrade-rs/topgrade
+license	GPL-3.0-or-later
+size	2347680
+installed-size	5233740
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	topgrade
+repo	community
+file	topgrade-17.4.0-r0.apk
+checksum	Q1/fRqEVuPXs7NaSWkoycDagWhfRQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

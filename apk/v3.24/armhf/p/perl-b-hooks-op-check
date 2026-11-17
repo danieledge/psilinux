@@ -1,0 +1,14 @@
+name	perl-b-hooks-op-check
+version	0.22-r2
+description	Wrap OP check callbacks
+url	https://metacpan.org/release/B-Hooks-OP-Check/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6429
+installed-size	8846
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-b-hooks-op-check
+repo	community
+file	perl-b-hooks-op-check-0.22-r2.apk
+checksum	Q1gXJjNfOYshbKR6YqTBqn+UYcLQI=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

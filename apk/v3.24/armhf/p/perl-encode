@@ -1,0 +1,14 @@
+name	perl-encode
+version	3.24-r0
+description	character encodings in Perl
+url	https://metacpan.org/release/Encode/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	1918043
+installed-size	4843527
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-encode
+repo	main
+file	perl-encode-3.24-r0.apk
+checksum	Q1T8WqKU9PZTboXBFMRq8YV3RNUeM=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

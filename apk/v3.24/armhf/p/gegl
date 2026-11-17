@@ -1,0 +1,37 @@
+name	gegl
+version	0.4.68-r1
+description	Graph based image processing framework
+url	https://www.gegl.org/
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	2455893
+installed-size	5351050
+depends	so:libavcodec.so.62 so:libavformat.so.62 so:libavutil.so.60 so:libbabl-0.1.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgomp.so.1 so:libintl.so.8 so:libjpeg.so.8 so:libjson-glib-1.0.so.0 so:liblcms2.so.2 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpng16.so.16 so:libraw.so.25 so:librsvg-2.so.2 so:libswscale.so.9 so:libtiff.so.6 so:libwebp.so.7
+origin	gegl
+repo	community
+file	gegl-0.4.68-r1.apk
+checksum	Q12r+7WadTYZeCPKUlmNfwVIGAsSY=
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libbabl-0.1.so.0	babl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgomp.so.1	libgomp
+dep	so:libintl.so.8	libintl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:liblcms2.so.2	lcms2
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpng16.so.16	libpng
+dep	so:libraw.so.25	libraw
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libswscale.so.9	ffmpeg-libswscale
+dep	so:libtiff.so.6	tiff
+dep	so:libwebp.so.7	libwebp

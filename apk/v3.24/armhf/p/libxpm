@@ -1,0 +1,16 @@
+name	libxpm
+version	3.5.20-r0
+description	X11 pixmap library
+url	https://xorg.freedesktop.org/
+license	X11
+size	41267
+installed-size	85936
+depends	so:libX11.so.6 so:libXext.so.6 so:libXt.so.6 so:libc.musl-armhf.so.1
+origin	libxpm
+repo	main
+file	libxpm-3.5.20-r0.apk
+checksum	Q1XDE1Sv/diURmRj2Ri0i1mvz4qpA=
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXt.so.6	libxt
+dep	so:libc.musl-armhf.so.1	musl

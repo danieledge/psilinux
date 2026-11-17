@@ -1,0 +1,13 @@
+name	tkey-ssh-agent
+version	1.1.1-r4
+description	SSH Agent for TKey, a flexible open hardware/software USB security key
+url	https://www.tillitis.se/
+license	GPL-2.0-only
+size	2207146
+installed-size	5349484
+depends	so:libc.musl-armhf.so.1
+origin	tkey-ssh-agent
+repo	community
+file	tkey-ssh-agent-1.1.1-r4.apk
+checksum	Q1v/RkzP429/uLNBVds+IGhJTBOCI=
+dep	so:libc.musl-armhf.so.1	musl

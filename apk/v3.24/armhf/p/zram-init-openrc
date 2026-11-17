@@ -1,0 +1,12 @@
+name	zram-init-openrc
+version	13.0.1-r2
+description	wrapper script for the zram kernel module (OpenRC init scripts)
+url	https://github.com/vaeth/zram-init
+license	GPL-2.0-only
+size	4543
+installed-size	7718
+depends	
+origin	zram-init
+repo	community
+file	zram-init-openrc-13.0.1-r2.apk
+checksum	Q1VXRVdhJeokcRuPmHlZFbfXN3Sec=

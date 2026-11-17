@@ -1,0 +1,19 @@
+name	dwm
+version	6.8-r0
+description	dwm - dynamic window manager
+url	https://dwm.suckless.org
+license	MIT
+size	22313
+installed-size	42410
+depends	dmenu-virtual st-virtual so:libX11.so.6 so:libXft.so.2 so:libXinerama.so.1 so:libc.musl-armhf.so.1 so:libfontconfig.so.1
+origin	dwm
+repo	community
+file	dwm-6.8-r0.apk
+checksum	Q1YCVS6+u+6poUURaHDOSF4+WDUv8=
+dep	dmenu-virtual	dmenu
+dep	st-virtual	st
+dep	so:libX11.so.6	libx11
+dep	so:libXft.so.2	libxft
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig

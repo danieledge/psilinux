@@ -1,0 +1,14 @@
+name	rest-server
+version	0.14.0-r12
+description	A high performance HTTP server that implements restic's REST backend API
+url	https://github.com/restic/rest-server
+license	BSD-2-Clause
+size	4485864
+installed-size	11932812
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	rest-server
+repo	community
+file	rest-server-0.14.0-r12.apk
+checksum	Q1/MnZA7k9un0HYic8eShvmIY+yrU=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

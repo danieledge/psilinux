@@ -1,0 +1,17 @@
+name	opencsg
+version	1.4.2-r3
+description	A library that does image-based CSG rendering using OpenGL
+url	http://www.opencsg.org/
+license	GPL-2.0-only
+size	42543
+installed-size	95616
+depends	so:libGL.so.1 so:libGLEW.so.2.3 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	opencsg
+repo	community
+file	opencsg-1.4.2-r3.apk
+checksum	Q1+qI0VAkxBsbHE2jjssep2QZO874=
+dep	so:libGL.so.1	mesa-gl
+dep	so:libGLEW.so.2.3	glew
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,21 @@
+name	gegl-dev
+version	0.4.68-r1
+description	Graph based image processing framework (development files)
+url	https://www.gegl.org/
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	250826
+installed-size	1830508
+depends	gegl=0.4.68-r1 pc:babl-0.1>=0.1.116 pc:gio-2.0>=2.44.0 pc:gio-unix-2.0>=2.44.0 pc:glib-2.0>=2.44.0 pc:gmodule-2.0>=2.44.0 pc:gobject-2.0>=2.44.0 pc:json-glib-1.0>=1.0.0 pkgconfig
+origin	gegl
+repo	community
+file	gegl-dev-0.4.68-r1.apk
+checksum	Q1Xo2HQHZmmCL9wtjTWt088NnLc8k=
+dep	gegl=0.4.68-r1	gegl
+dep	pc:babl-0.1>=0.1.116	babl-dev
+dep	pc:gio-2.0>=2.44.0	glib-dev
+dep	pc:gio-unix-2.0>=2.44.0	glib-dev
+dep	pc:glib-2.0>=2.44.0	glib-dev
+dep	pc:gmodule-2.0>=2.44.0	glib-dev
+dep	pc:gobject-2.0>=2.44.0	glib-dev
+dep	pc:json-glib-1.0>=1.0.0	json-glib-dev
+dep	pkgconfig	pkgconf

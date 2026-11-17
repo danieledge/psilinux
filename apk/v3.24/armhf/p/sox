@@ -1,0 +1,31 @@
+name	sox
+version	14.4.2-r14
+description	The Swiss Army knife of sound processing tools
+url	https://sox.sourceforge.net/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	284242
+installed-size	705956
+depends	so:libFLAC.so.12 so:libao.so.4 so:libasound.so.2 so:libc.musl-armhf.so.1 so:libgomp.so.1 so:libgsm.so.1 so:libid3tag.so.0 so:libltdl.so.7 so:libmad.so.0 so:libmagic.so.1 so:libmp3lame.so.0 so:libogg.so.0 so:libopusfile.so.0 so:libpng16.so.16 so:libsndfile.so.1 so:libvorbis.so.0 so:libvorbisenc.so.2 so:libvorbisfile.so.3 so:libz.so.1
+origin	sox
+repo	community
+file	sox-14.4.2-r14.apk
+checksum	Q1P+RyG6i1Kz4XQjCwvHAuCVE1quo=
+dep	so:libFLAC.so.12	libflac
+dep	so:libao.so.4	libao
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgomp.so.1	libgomp
+dep	so:libgsm.so.1	gsm
+dep	so:libid3tag.so.0	libid3tag
+dep	so:libltdl.so.7	libltdl
+dep	so:libmad.so.0	libmad
+dep	so:libmagic.so.1	libmagic
+dep	so:libmp3lame.so.0	lame-libs
+dep	so:libogg.so.0	libogg
+dep	so:libopusfile.so.0	opusfile
+dep	so:libpng16.so.16	libpng
+dep	so:libsndfile.so.1	libsndfile
+dep	so:libvorbis.so.0	libvorbis
+dep	so:libvorbisenc.so.2	libvorbis
+dep	so:libvorbisfile.so.3	libvorbis
+dep	so:libz.so.1	zlib

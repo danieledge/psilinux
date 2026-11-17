@@ -1,0 +1,13 @@
+name	gojq
+version	0.12.19-r4
+description	Pure Go implementation of jq
+url	https://github.com/itchyny/gojq
+license	MIT
+size	1710127
+installed-size	4304508
+depends	so:libc.musl-armhf.so.1
+origin	gojq
+repo	community
+file	gojq-0.12.19-r4.apk
+checksum	Q1UdY9+sReecS5po8snkz2zZ/nvEM=
+dep	so:libc.musl-armhf.so.1	musl

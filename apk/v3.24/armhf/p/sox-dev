@@ -1,0 +1,14 @@
+name	sox-dev
+version	14.4.2-r14
+description	The Swiss Army knife of sound processing tools (development files)
+url	https://sox.sourceforge.net/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	21464
+installed-size	93215
+depends	sox=14.4.2-r14 pkgconfig
+origin	sox
+repo	community
+file	sox-dev-14.4.2-r14.apk
+checksum	Q1L/8+3/Ro8AhCISNw0V+g3+J22Pg=
+dep	sox=14.4.2-r14	sox
+dep	pkgconfig	pkgconf

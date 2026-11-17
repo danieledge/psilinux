@@ -1,0 +1,13 @@
+name	mii-tool
+version	2.10-r3
+description	media-independent interface (MII) tool
+url	https://sourceforge.net/projects/net-tools/
+license	GPL-2.0-or-later
+size	8391
+installed-size	13724
+depends	so:libc.musl-armhf.so.1
+origin	net-tools
+repo	main
+file	mii-tool-2.10-r3.apk
+checksum	Q19RNNbXylYkU4j5WA34lZrq+cyHo=
+dep	so:libc.musl-armhf.so.1	musl

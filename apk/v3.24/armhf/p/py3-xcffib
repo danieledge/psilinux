@@ -1,0 +1,15 @@
+name	py3-xcffib
+version	1.12.0-r1
+description	Drop-in replacement for xpyb based on cffi
+url	https://github.com/tych0/xcffib
+license	Apache-2.0
+size	126365
+installed-size	1259636
+depends	py3-cffi libxcb python3~3.14
+origin	py3-xcffib
+repo	community
+file	py3-xcffib-1.12.0-r1.apk
+checksum	Q1aEMQtSUKnyE9OSs1xmTFKiVjbqQ=
+dep	py3-cffi	py3-cffi
+dep	libxcb	libxcb
+dep	python3~3.14	python3

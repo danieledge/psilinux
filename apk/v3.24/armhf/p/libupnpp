@@ -1,0 +1,17 @@
+name	libupnpp
+version	1.0.4-r0
+description	C++ wrapper for libupnp
+url	https://framagit.org/medoc92/libupnpp
+license	LGPL-2.0-or-later
+size	253855
+installed-size	660876
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgcc_s.so.1 so:libnpupnp.so.13 so:libstdc++.so.6
+origin	libupnpp
+repo	community
+file	libupnpp-1.0.4-r0.apk
+checksum	Q1CDFDbRlw+pmUyEmXO7UnEsZ1nR8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libnpupnp.so.13	libnpupnp
+dep	so:libstdc++.so.6	libstdc++

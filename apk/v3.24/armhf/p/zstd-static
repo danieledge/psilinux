@@ -1,0 +1,13 @@
+name	zstd-static
+version	1.5.7-r2
+description	Zstandard - Fast real-time compression algorithm (static library)
+url	https://facebook.github.io/zstd/
+license	BSD-3-Clause OR GPL-2.0-or-later
+size	3561402
+installed-size	4144434
+depends	zstd-dev
+origin	zstd
+repo	main
+file	zstd-static-1.5.7-r2.apk
+checksum	Q1I+R40t0eMuK7AoYaY3sOa8cgbJU=
+dep	zstd-dev	zstd-dev

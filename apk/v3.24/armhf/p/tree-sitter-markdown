@@ -1,0 +1,13 @@
+name	tree-sitter-markdown
+version	0.5.3-r0
+description	A markdown grammar for tree-sitter
+url	https://github.com/tree-sitter-grammars/tree-sitter-markdown
+license	MIT
+size	178081
+installed-size	895320
+depends	so:libc.musl-armhf.so.1
+origin	tree-sitter-markdown
+repo	community
+file	tree-sitter-markdown-0.5.3-r0.apk
+checksum	Q1VcHXnGAvT0Jq88kBPny1mfueRCc=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	shaderc-static
+version	2026.1-r0
+description	Collection of tools, libraries, and tests for Vulkan shader compilation (static library)
+url	https://github.com/google/shaderc
+license	Apache-2.0
+size	85109
+installed-size	304986
+depends	shaderc-dev
+origin	shaderc
+repo	community
+file	shaderc-static-2026.1-r0.apk
+checksum	Q1/LVtPG94Q6g07OYpG5k7UKoF9TQ=
+dep	shaderc-dev	shaderc-dev

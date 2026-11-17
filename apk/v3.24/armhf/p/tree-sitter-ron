@@ -1,0 +1,13 @@
+name	tree-sitter-ron
+version	0.2.0-r1
+description	Rusty Object Notation (RON) grammar for tree-sitter
+url	https://github.com/tree-sitter-grammars/tree-sitter-ron
+license	Apache-2.0
+size	31089
+installed-size	84316
+depends	so:libc.musl-armhf.so.1
+origin	tree-sitter-ron
+repo	community
+file	tree-sitter-ron-0.2.0-r1.apk
+checksum	Q1PcanRi4kh/JmXeq0C16WEBwMHPw=
+dep	so:libc.musl-armhf.so.1	musl

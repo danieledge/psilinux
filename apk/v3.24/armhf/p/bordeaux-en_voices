@@ -1,0 +1,16 @@
+name	bordeaux-en_voices
+version	0.9.7-r0
+description	bordeaux default english voice
+url	https://gitlab.com/tychosoft/bordeaux
+license	GPL-3.0-or-later
+size	699158
+installed-size	1072268
+depends	bordeaux so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	bordeaux
+repo	community
+file	bordeaux-en_voices-0.9.7-r0.apk
+checksum	Q1hcB4vzIkf6SKKJ6L8BUmLyuzRZM=
+dep	bordeaux	bordeaux
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

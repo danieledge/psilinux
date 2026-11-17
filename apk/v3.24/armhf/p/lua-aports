@@ -1,0 +1,17 @@
+name	lua-aports
+version	1.3.2-r3
+description	Lua modules for parsing aports tree
+url	https://gitlab.alpinelinux.org/alpine/lua-aports
+license	MIT
+size	11107
+installed-size	30768
+depends	abuild lua5.5 lua5.5-cjson lua5.5-filesystem lua5.5-optarg
+origin	lua-aports
+repo	main
+file	lua-aports-1.3.2-r3.apk
+checksum	Q1qOALnsM/nSmijpDc4FIGQ5Q2b50=
+dep	abuild	abuild
+dep	lua5.5	lua5.5
+dep	lua5.5-cjson	lua5.5-cjson
+dep	lua5.5-filesystem	lua5.5-filesystem
+dep	lua5.5-optarg	lua5.5-optarg

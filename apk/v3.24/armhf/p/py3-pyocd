@@ -1,0 +1,29 @@
+name	py3-pyocd
+version	0.43.1-r0
+description	Cortex-M debugger for Python
+url	https://pypi.org/project/pyocd/
+license	Apache-2.0
+size	14701818
+installed-size	357461276
+depends	py3-capstone py3-cmsis-pack-manager py3-colorama py3-elftools py3-importlib-metadata py3-importlib-resources py3-intelhex py3-intervaltree py3-lark-parser py3-natsort py3-prettytable3 py3-pylink-square py3-six py3-typing-extensions py3-usb py3-yaml python3~3.14
+origin	py3-pyocd
+repo	community
+file	py3-pyocd-0.43.1-r0.apk
+checksum	Q1h5+kJF5Yx40HXwior2AwJPa1k8Y=
+dep	py3-capstone	py3-capstone
+dep	py3-cmsis-pack-manager	py3-cmsis-pack-manager
+dep	py3-colorama	py3-colorama
+dep	py3-elftools	py3-elftools
+dep	py3-importlib-metadata	py3-importlib-metadata
+dep	py3-importlib-resources	py3-importlib-resources
+dep	py3-intelhex	py3-intelhex
+dep	py3-intervaltree	py3-intervaltree
+dep	py3-lark-parser	py3-lark-parser
+dep	py3-natsort	py3-natsort
+dep	py3-prettytable3	py3-prettytable3
+dep	py3-pylink-square	py3-pylink-square
+dep	py3-six	py3-six
+dep	py3-typing-extensions	py3-typing-extensions
+dep	py3-usb	py3-usb
+dep	py3-yaml	py3-yaml
+dep	python3~3.14	python3

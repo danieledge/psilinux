@@ -1,0 +1,14 @@
+name	uwsgi-stats_pusher_socket
+version	2.0.31-r2
+description	uWSGI plugin stats_pusher_socket
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	3861
+installed-size	5444
+depends	uwsgi so:libc.musl-armhf.so.1
+origin	uwsgi
+repo	main
+file	uwsgi-stats_pusher_socket-2.0.31-r2.apk
+checksum	Q13lNP8x946+I+LWyL9NPUIEquOgY=
+dep	uwsgi	uwsgi
+dep	so:libc.musl-armhf.so.1	musl

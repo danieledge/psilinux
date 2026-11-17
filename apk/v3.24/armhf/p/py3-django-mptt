@@ -1,0 +1,15 @@
+name	py3-django-mptt
+version	0.18-r2
+description	Utilities for implementing a modified pre-order traversal tree in django
+url	https://github.com/django-mptt/django-mptt
+license	MIT
+size	83969
+installed-size	351235
+depends	py3-django py3-django-js-asset python3~3.14
+origin	py3-django-mptt
+repo	community
+file	py3-django-mptt-0.18-r2.apk
+checksum	Q1zX0XOl32M6sBSse9LLWapm4+aW8=
+dep	py3-django	py3-django
+dep	py3-django-js-asset	py3-django-js-asset
+dep	python3~3.14	python3

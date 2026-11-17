@@ -1,0 +1,15 @@
+name	gc-dev
+version	8.2.12-r0
+description	garbage collector for C and C++ (development files)
+url	https://hboehm.info/gc/
+license	Boehm-GC
+size	67832
+installed-size	257539
+depends	gc=8.2.12-r0 libgc++=8.2.12-r0 pkgconfig
+origin	gc
+repo	main
+file	gc-dev-8.2.12-r0.apk
+checksum	Q1Ps1mg/2WC1cCwKiL7CLoRCu3hE0=
+dep	gc=8.2.12-r0	gc
+dep	libgc++=8.2.12-r0	libgc++
+dep	pkgconfig	pkgconf

@@ -1,0 +1,13 @@
+name	linux-firmware-ti
+version	20260519-r0
+description	firmware files for linux (ti folder)
+url	https://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git;a=summary
+license	custom
+size	824304
+installed-size	800557
+depends	linux-firmware-lontium=20260519-r0
+origin	linux-firmware
+repo	main
+file	linux-firmware-ti-20260519-r0.apk
+checksum	Q1gZVyuDsasjCf85MKBzsKE3ZFgFs=
+dep	linux-firmware-lontium=20260519-r0	linux-firmware-lontium

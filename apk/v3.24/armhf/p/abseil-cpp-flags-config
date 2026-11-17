@@ -1,0 +1,17 @@
+name	abseil-cpp-flags-config
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-flags-config
+url	https://abseil.io/
+license	Apache-2.0
+size	8164
+installed-size	17792
+depends	so:libabsl_flags_program_name.so.2508.0.0 so:libabsl_synchronization.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-flags-config-20250814.1-r0.apk
+checksum	Q1Bg0gNkpO0veXU97t50Oyi+wOd1I=
+dep	so:libabsl_flags_program_name.so.2508.0.0	abseil-cpp-flags-program-name
+dep	so:libabsl_synchronization.so.2508.0.0	abseil-cpp-synchronization
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

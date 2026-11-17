@@ -1,0 +1,13 @@
+name	neko-dev
+version	2.4.1-r1
+description	The Neko Virtual Machine (development files)
+url	https://nekovm.org/
+license	MIT
+size	10724
+installed-size	33655
+depends	neko=2.4.1-r1
+origin	neko
+repo	community
+file	neko-dev-2.4.1-r1.apk
+checksum	Q1bCYcQry5YzxavKN8MC9ZwnvK1zI=
+dep	neko=2.4.1-r1	neko

@@ -1,0 +1,14 @@
+name	uchardet-dev
+version	0.0.8-r2
+description	Encoding detector library ported from Mozilla (development files)
+url	https://www.freedesktop.org/wiki/Software/uchardet
+license	MPL-1.1
+size	6350
+installed-size	13014
+depends	uchardet-libs=0.0.8-r2 pkgconfig
+origin	uchardet
+repo	community
+file	uchardet-dev-0.0.8-r2.apk
+checksum	Q1iYrkA3kqeQGOQP/ve9l/0c8gLNM=
+dep	uchardet-libs=0.0.8-r2	uchardet-libs
+dep	pkgconfig	pkgconf

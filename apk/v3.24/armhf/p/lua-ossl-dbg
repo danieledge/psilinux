@@ -1,0 +1,12 @@
+name	lua-ossl-dbg
+version	20250929-r1
+description	comprehensive OpenSSL Lua module (debug symbols)
+url	https://25thandclement.com/~william/projects/luaossl.html
+license	MIT
+size	3480
+installed-size	8320
+depends	!lua5.1-ossl<20250929-r1 !lua5.1-ossl>20250929-r1 !lua5.2-ossl<20250929-r1 !lua5.2-ossl>20250929-r1 !lua5.3-ossl<20250929-r1 !lua5.3-ossl>20250929-r1 !lua5.4-ossl<20250929-r1 !lua5.4-ossl>20250929-r1 !lua5.5-ossl<20250929-r1 !lua5.5-ossl>20250929-r1
+origin	lua-ossl
+repo	main
+file	lua-ossl-dbg-20250929-r1.apk
+checksum	Q1k5avRn1bNjs5N6WfenIiYUrtMjc=

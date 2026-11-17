@@ -1,0 +1,25 @@
+name	gcc
+version	15.2.0-r5
+description	The GNU Compiler Collection
+url	https://gcc.gnu.org
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	44862536
+installed-size	107336477
+depends	binutils libgcc-static libgomp=15.2.0-r5 libatomic=15.2.0-r5 libgomp=15.2.0-r5 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgmp.so.10 so:libisl.so.23 so:libmpc.so.3 so:libmpfr.so.6 so:libstdc++.so.6 so:libz.so.1
+origin	gcc
+repo	main
+file	gcc-15.2.0-r5.apk
+checksum	Q1Q8x5cfwkatmfPHmQqc4GZETqo7Q=
+dep	binutils	binutils
+dep	libgcc-static	libgcc-static
+dep	libgomp=15.2.0-r5	libgomp
+dep	libatomic=15.2.0-r5	libatomic
+dep	libgomp=15.2.0-r5	libgomp
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgmp.so.10	gmp
+dep	so:libisl.so.23	isl25
+dep	so:libmpc.so.3	mpc1
+dep	so:libmpfr.so.6	mpfr4
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

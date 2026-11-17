@@ -1,0 +1,14 @@
+name	font-noto-modi
+version	2026.11.01-r0
+description	Noto Sans Modi font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	26611
+installed-size	44447
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-modi-2026.11.01-r0.apk
+checksum	Q1xAqN40/b/RLZNsthVtVUEDGJip0=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

@@ -1,0 +1,16 @@
+name	py3-channels
+version	4.3.2-r2
+description	Developer-friendly asynchrony for Django
+url	https://pypi.python.org/project/channels
+license	BSD-3-Clause
+size	35083
+installed-size	106484
+depends	py3-django py3-asgiref py3-daphne python3~3.14
+origin	py3-channels
+repo	community
+file	py3-channels-4.3.2-r2.apk
+checksum	Q18xFd9K+IChusCQ/vuMrIMFuRgCQ=
+dep	py3-django	py3-django
+dep	py3-asgiref	py3-asgiref
+dep	py3-daphne	py3-daphne
+dep	python3~3.14	python3

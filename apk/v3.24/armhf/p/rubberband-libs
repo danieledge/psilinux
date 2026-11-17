@@ -1,0 +1,17 @@
+name	rubberband-libs
+version	4.0.0-r0
+description	library for audio time-stretching and pitch-shifting (libraries)
+url	https://www.breakfastquay.com/rubberband
+license	GPL-2.0-only
+size	105876
+installed-size	247168
+depends	so:libc.musl-armhf.so.1 so:libfftw3.so.3 so:libgcc_s.so.1 so:libsamplerate.so.0 so:libstdc++.so.6
+origin	rubberband
+repo	community
+file	rubberband-libs-4.0.0-r0.apk
+checksum	Q1a3bKrVCzgwM3ayAQxLhoV+9Xgxw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfftw3.so.3	fftw-double-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsamplerate.so.0	libsamplerate
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,14 @@
+name	lsip6
+version	0.2.0-r2
+description	Look up IPv6 link-local addresses on point-to-point links
+url	https://git.sr.ht/~martijnbraam/lsip6
+license	MIT
+size	5381
+installed-size	6556
+depends	python3 python3~3.14
+origin	lsip6
+repo	community
+file	lsip6-0.2.0-r2.apk
+checksum	Q1/+2OFD/mDVaXSFwVzbizxWuXe10=
+dep	python3	python3
+dep	python3~3.14	python3

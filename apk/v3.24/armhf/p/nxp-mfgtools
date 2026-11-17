@@ -1,0 +1,15 @@
+name	nxp-mfgtools
+version	1.5.233-r0
+description	Freescale/NXP i.MX Chip image deploy tools
+url	https://github.com/NXPmicro/mfgtools
+license	LGPL-2.1-only
+size	1297
+installed-size	0
+depends	nxp-mfgtools-uuu libnxp-mfgtools-static libnxp-mfgtools-dev
+origin	nxp-mfgtools
+repo	community
+file	nxp-mfgtools-1.5.233-r0.apk
+checksum	Q1SdYp8OOrKUwaMwMAgxQerI+e2bQ=
+dep	nxp-mfgtools-uuu	nxp-mfgtools-uuu
+dep	libnxp-mfgtools-static	libnxp-mfgtools-static
+dep	libnxp-mfgtools-dev	libnxp-mfgtools-dev

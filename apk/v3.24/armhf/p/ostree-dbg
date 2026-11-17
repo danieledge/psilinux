@@ -1,0 +1,12 @@
+name	ostree-dbg
+version	2025.7-r1
+description	Operating system and container binary deployment and upgrades (debug symbols)
+url	https://github.com/ostreedev/ostree
+license	LGPL-2.0-or-later
+size	1849862
+installed-size	4313892
+depends	!ostree<2025.7-r1 !ostree>2025.7-r1
+origin	ostree
+repo	community
+file	ostree-dbg-2025.7-r1.apk
+checksum	Q1JfQro/GJeeU4r8MKFnPlY8+4q10=

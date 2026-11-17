@@ -1,0 +1,13 @@
+name	libopenv2g
+version	0.9.5-r0
+description	Implements ISO IEC 15118 and also the DIN 70121 vehicle to grid (V2G) communication interface (libraries)
+url	https://openv2g.sourceforge.net/
+license	LGPL-3.0-or-later
+size	115771
+installed-size	324728
+depends	so:libc.musl-armhf.so.1
+origin	openv2g
+repo	community
+file	libopenv2g-0.9.5-r0.apk
+checksum	Q1+jxNp2WeBEwOWYSfvYOA3cBFwD8=
+dep	so:libc.musl-armhf.so.1	musl

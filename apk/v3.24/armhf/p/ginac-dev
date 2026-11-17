@@ -1,0 +1,15 @@
+name	ginac-dev
+version	1.8.10-r0
+description	C++ library for symbolic computations (development files)
+url	https://www.ginac.de/
+license	GPL-2.0-or-later
+size	73474
+installed-size	368533
+depends	ginac=1.8.10-r0 pc:cln>=1.2.2 pkgconfig
+origin	ginac
+repo	community
+file	ginac-dev-1.8.10-r0.apk
+checksum	Q1FUiMtkrSvBCVdX470CUoKf9vQ/E=
+dep	ginac=1.8.10-r0	ginac
+dep	pc:cln>=1.2.2	cln-dev
+dep	pkgconfig	pkgconf

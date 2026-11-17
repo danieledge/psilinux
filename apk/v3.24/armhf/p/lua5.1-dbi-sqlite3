@@ -1,0 +1,15 @@
+name	lua5.1-dbi-sqlite3
+version	0.7.5-r0
+description	database interface library for Lua 5.1 and sqlite3
+url	https://github.com/mwild1/luadbi
+license	MIT
+size	8778
+installed-size	15379
+depends	lua5.1 so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	lua-dbi
+repo	main
+file	lua5.1-dbi-sqlite3-0.7.5-r0.apk
+checksum	Q1/cDB5zIGh/bav5BBgF9dMHVTdCQ=
+dep	lua5.1	lua5.1
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

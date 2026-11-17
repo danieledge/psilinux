@@ -1,0 +1,16 @@
+name	py3-watchfiles
+version	1.1.1-r1
+description	Simple, modern file watching and code reload in Python
+url	https://github.com/samuelcolvin/watchfiles
+license	MIT
+size	286205
+installed-size	571686
+depends	py3-anyio python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	py3-watchfiles
+repo	community
+file	py3-watchfiles-1.1.1-r1.apk
+checksum	Q1C3ngmqa247ymw7vEaUNfa3Clh5E=
+dep	py3-anyio	py3-anyio
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

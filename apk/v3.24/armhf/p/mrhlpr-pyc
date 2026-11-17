@@ -1,0 +1,13 @@
+name	mrhlpr-pyc
+version	1.10.0-r2
+description	Precompiled Python bytecode for mrhlpr
+url	https://gitlab.postmarketos.org/postmarketOS/mrhlpr
+license	GPL-3.0-or-later
+size	51248
+installed-size	115633
+depends	python3~3.14
+origin	mrhlpr
+repo	community
+file	mrhlpr-pyc-1.10.0-r2.apk
+checksum	Q1jSloDIT3VrEizagB9OQuN9r/2os=
+dep	python3~3.14	python3

@@ -1,0 +1,28 @@
+name	gthumb-extra-formats
+version	3.12.8.1-r3
+description	gThumb support for AVIF, HEIF, JPEG XL, and SVG image formats
+url	https://gitlab.gnome.org/GNOME/gthumb
+license	GPL-2.0-or-later
+size	37448
+installed-size	91436
+depends	gthumb=3.12.8.1-r3 so:gthumb:libjpeg_utils.so so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libheif.so.1 so:libintl.so.8 so:libjpeg.so.8 so:libjxl.so.0.11 so:libjxl_threads.so.0.11 so:libpng16.so.16 so:librsvg-2.so.2
+origin	gthumb
+repo	community
+file	gthumb-extra-formats-3.12.8.1-r3.apk
+checksum	Q1ljvvWn0XI71Y3EW7wR0/OspojOk=
+dep	gthumb=3.12.8.1-r3	gthumb
+dep	so:gthumb:libjpeg_utils.so	gthumb
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libheif.so.1	libheif
+dep	so:libintl.so.8	libintl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libjxl.so.0.11	libjxl
+dep	so:libjxl_threads.so.0.11	libjxl
+dep	so:libpng16.so.16	libpng
+dep	so:librsvg-2.so.2	librsvg

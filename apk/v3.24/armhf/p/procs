@@ -1,0 +1,14 @@
+name	procs
+version	0.14.11-r0
+description	Modern replacement for ps written in Rust
+url	https://github.com/dalance/procs
+license	MIT
+size	1104674
+installed-size	2647996
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	procs
+repo	community
+file	procs-0.14.11-r0.apk
+checksum	Q1z4hcTE6M/WQi8UP1sg5N6wb08RU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

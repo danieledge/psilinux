@@ -1,0 +1,17 @@
+name	ocaml-ocp-index-dev
+version	1.4.0-r3
+description	Lightweight completion and documentation browsing for OCaml libraries (development files)
+url	http://www.typerex.org/ocp-index.html
+license	LGPL-2.1-only WITH OCaml-LGPL-linking-exception AND GPL-3.0-only
+size	540866
+installed-size	1300337
+depends	ocaml-cmdliner-dev ocaml-compiler-libs ocaml-ocp-indent-dev ocaml-re-dev ocaml-ocp-index=1.4.0-r3
+origin	ocp-index
+repo	community
+file	ocaml-ocp-index-dev-1.4.0-r3.apk
+checksum	Q1Dxti5ST9onWsFxae2VNMZqbFUk0=
+dep	ocaml-cmdliner-dev	ocaml-cmdliner-dev
+dep	ocaml-compiler-libs	ocaml-compiler-libs
+dep	ocaml-ocp-indent-dev	ocaml-ocp-indent-dev
+dep	ocaml-re-dev	ocaml-re-dev
+dep	ocaml-ocp-index=1.4.0-r3	ocaml-ocp-index

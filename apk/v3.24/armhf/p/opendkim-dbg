@@ -1,0 +1,12 @@
+name	opendkim-dbg
+version	2.11.0-r4
+description	DKIM signing and verifying filter for MTAs (debug symbols)
+url	http://www.opendkim.org
+license	custom
+size	385319
+installed-size	847812
+depends	!opendkim-libs<2.11.0-r4 !opendkim-libs>2.11.0-r4 !opendkim<2.11.0-r4 !opendkim>2.11.0-r4
+origin	opendkim
+repo	community
+file	opendkim-dbg-2.11.0-r4.apk
+checksum	Q1hOmd8tqAOD6Y/RXStHnIwKBAvy4=

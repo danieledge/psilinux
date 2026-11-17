@@ -1,0 +1,18 @@
+name	libcolord
+version	1.4.8-r4
+description	System daemon for managing color devices (client library)
+url	https://www.freedesktop.org/software/colord
+license	GPL-2.0-or-later
+size	202579
+installed-size	516648
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:liblcms2.so.2 so:libudev.so.1
+origin	colord
+repo	community
+file	libcolord-1.4.8-r4.apk
+checksum	Q10w1aD8MjcHUPX8XU6MfFno2Gg4E=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:liblcms2.so.2	lcms2
+dep	so:libudev.so.1	eudev-libs

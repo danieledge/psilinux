@@ -1,0 +1,19 @@
+name	ncspot
+version	1.1.2-r0
+description	Cross-platform ncurses Spotify client inspired by ncmpc and the likes
+url	https://github.com/hrkfdn/ncspot
+license	BSD-2-Clause
+size	3473738
+installed-size	7845344
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libncursesw.so.6 so:libpulse-simple.so.0 so:libpulse.so.0 so:libssl.so.3
+origin	ncspot
+repo	community
+file	ncspot-1.1.2-r0.apk
+checksum	Q17bnhCTQjTHV8fda3cjlxN4RHDpE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpulse-simple.so.0	libpulse
+dep	so:libpulse.so.0	libpulse
+dep	so:libssl.so.3	libssl3

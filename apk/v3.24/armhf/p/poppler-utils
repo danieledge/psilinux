@@ -1,0 +1,20 @@
+name	poppler-utils
+version	25.12.0-r1
+description	Poppler's xpdf-workalike command line utilities
+url	https://poppler.freedesktop.org/
+license	GPL-2.0-or-later
+size	194337
+installed-size	477740
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libfreetype.so.6 so:libgcc_s.so.1 so:libintl.so.8 so:liblcms2.so.2 so:libpoppler.so.155 so:libstdc++.so.6
+origin	poppler
+repo	main
+file	poppler-utils-25.12.0-r1.apk
+checksum	Q1bbnB1Buy4ttoTz5yHA9iF/Kry6M=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libintl.so.8	libintl
+dep	so:liblcms2.so.2	lcms2
+dep	so:libpoppler.so.155	poppler
+dep	so:libstdc++.so.6	libstdc++

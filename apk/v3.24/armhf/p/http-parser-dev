@@ -1,0 +1,13 @@
+name	http-parser-dev
+version	2.9.4-r0
+description	HTTP request/response parser for C (development files)
+url	https://github.com/nodejs/http-parser
+license	MIT
+size	7976
+installed-size	19257
+depends	http-parser=2.9.4-r0
+origin	http-parser
+repo	community
+file	http-parser-dev-2.9.4-r0.apk
+checksum	Q1arTP9LbEH2L/WC6TfBxA/0nh5/Y=
+dep	http-parser=2.9.4-r0	http-parser

@@ -1,0 +1,12 @@
+name	prometheus-openrc
+version	3.5.3-r3
+description	The Prometheus monitoring system and time series database (OpenRC init scripts)
+url	https://github.com/prometheus/prometheus
+license	Apache-2.0
+size	2117
+installed-size	1074
+depends	
+origin	prometheus
+repo	community
+file	prometheus-openrc-3.5.3-r3.apk
+checksum	Q1LqUzd95y2J6rXkkIg594QG8SDYw=

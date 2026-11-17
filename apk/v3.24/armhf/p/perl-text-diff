@@ -1,0 +1,14 @@
+name	perl-text-diff
+version	1.45-r4
+description	Perform diffs on files and record sets
+url	https://metacpan.org/release/Text-Diff
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	14000
+installed-size	40145
+depends	perl perl-algorithm-diff
+origin	perl-text-diff
+repo	community
+file	perl-text-diff-1.45-r4.apk
+checksum	Q1qk8adhZgs1NVC6HAvjrCpvcgz8I=
+dep	perl	perl
+dep	perl-algorithm-diff	perl-algorithm-diff

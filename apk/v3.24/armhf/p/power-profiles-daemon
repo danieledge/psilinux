@@ -1,0 +1,20 @@
+name	power-profiles-daemon
+version	0.30-r1
+description	Makes power profiles handling available over D-Bus
+url	https://gitlab.freedesktop.org/upower/power-profiles-daemon
+license	GPL-3.0-or-later
+size	39402
+installed-size	102415
+depends	glib py3-gobject3 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgudev-1.0.so.0 so:libpolkit-gobject-1.so.0
+origin	power-profiles-daemon
+repo	community
+file	power-profiles-daemon-0.30-r1.apk
+checksum	Q164fMw7j5XCHVkJ0/F1kubXxaBYc=
+dep	glib	glib
+dep	py3-gobject3	py3-gobject3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgudev-1.0.so.0	libgudev
+dep	so:libpolkit-gobject-1.so.0	polkit-noelogind-libs

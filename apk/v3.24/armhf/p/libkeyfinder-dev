@@ -1,0 +1,15 @@
+name	libkeyfinder-dev
+version	2.2.8-r1
+description	Musical key detection for digital audio (development files)
+url	https://mixxxdj.github.io/libkeyfinder/
+license	GPL-3.0-or-later
+size	10416
+installed-size	38274
+depends	libkeyfinder=2.2.8-r1 pc:fftw3 pkgconfig
+origin	libkeyfinder
+repo	community
+file	libkeyfinder-dev-2.2.8-r1.apk
+checksum	Q136YMwFUUzmlvrrziwl+TvqaVewQ=
+dep	libkeyfinder=2.2.8-r1	libkeyfinder
+dep	pc:fftw3	fftw-dev
+dep	pkgconfig	pkgconf

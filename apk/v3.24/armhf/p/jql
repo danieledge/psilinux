@@ -1,0 +1,14 @@
+name	jql
+version	8.0.5-r0
+description	A JSON Query Language CLI tool
+url	https://github.com/yamafaktory/jql
+license	MIT
+size	469287
+installed-size	901108
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	jql
+repo	community
+file	jql-8.0.5-r0.apk
+checksum	Q1zAPBTxokdsjtst+22H5S+vKpe98=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

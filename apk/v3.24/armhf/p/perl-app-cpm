@@ -1,0 +1,30 @@
+name	perl-app-cpm
+version	1.0.3-r0
+description	Fast CPAN module installer
+url	https://metacpan.org/release/App-cpm/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	40120
+installed-size	147158
+depends	perl perl-parallel-pipes perl-module-cpmfile perl-extutils-installpaths perl-module-cpanfile perl-command-runner perl-file-copy-recursive perl-proc-forksafe perl-cpan-02packages-search perl-http-tinyish perl-io-socket-ssl perl-file-pushd perl-parse-pmfile perl-cpan-distnameinfo perl-extutils-config perl-extutils-helpers perl-file-which perl-parse-localdistribution
+origin	perl-app-cpm
+repo	community
+file	perl-app-cpm-1.0.3-r0.apk
+checksum	Q1YNbDIgvfqgom/aYf1sKqCxY2KIY=
+dep	perl	perl
+dep	perl-parallel-pipes	perl-parallel-pipes
+dep	perl-module-cpmfile	perl-module-cpmfile
+dep	perl-extutils-installpaths	perl-extutils-installpaths
+dep	perl-module-cpanfile	perl-module-cpanfile
+dep	perl-command-runner	perl-command-runner
+dep	perl-file-copy-recursive	perl-file-copy-recursive
+dep	perl-proc-forksafe	perl-proc-forksafe
+dep	perl-cpan-02packages-search	perl-cpan-02packages-search
+dep	perl-http-tinyish	perl-http-tinyish
+dep	perl-io-socket-ssl	perl-io-socket-ssl
+dep	perl-file-pushd	perl-file-pushd
+dep	perl-parse-pmfile	perl-parse-pmfile
+dep	perl-cpan-distnameinfo	perl-cpan-distnameinfo
+dep	perl-extutils-config	perl-extutils-config
+dep	perl-extutils-helpers	perl-extutils-helpers
+dep	perl-file-which	perl-file-which
+dep	perl-parse-localdistribution	perl-parse-localdistribution

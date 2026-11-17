@@ -1,0 +1,12 @@
+name	gnutls-dbg
+version	3.8.13-r0
+description	TLS protocol implementation (debug symbols)
+url	https://www.gnutls.org/
+license	LGPL-2.1-or-later
+size	3994159
+installed-size	9428320
+depends	!gnutls-c++<3.8.13-r0 !gnutls-c++>3.8.13-r0 !gnutls-utils<3.8.13-r0 !gnutls-utils>3.8.13-r0 !gnutls<3.8.13-r0 !gnutls>3.8.13-r0
+origin	gnutls
+repo	main
+file	gnutls-dbg-3.8.13-r0.apk
+checksum	Q1aByg0yPn+O3RJeYJfoauzDPNPwE=

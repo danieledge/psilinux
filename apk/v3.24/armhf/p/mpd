@@ -1,0 +1,58 @@
+name	mpd
+version	0.24.19-r0
+description	Music daemon that plays MP3, FLAC, Ogg Vorbis files and Audio CDs
+url	https://musicpd.org/
+license	GPL-2.0-or-later
+size	661339
+installed-size	1483812
+depends	/bin/sh so:libFLAC.so.12 so:libao.so.4 so:libasound.so.2 so:libavahi-client.so.3 so:libavahi-common.so.3 so:libavcodec.so.62 so:libavfilter.so.11 so:libavformat.so.62 so:libavutil.so.60 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcdio.so.19 so:libcdio_cdda.so.2 so:libcdio_paranoia.so.2 so:libcurl.so.4 so:libdbus-1.so.3 so:libexpat.so.1 so:libfaad.so.2 so:libfmt.so.11 so:libgcc_s.so.1 so:libicui18n.so.78 so:libicuuc.so.78 so:libid3tag.so.0 so:libiso9660.so.12 so:libjack.so.0 so:libmad.so.0 so:libmodplug.so.1 so:libmp3lame.so.0 so:libmpdclient.so.2 so:libnfs.so.14 so:libogg.so.0 so:libopus.so.0 so:libpcre2-8.so.0 so:libpipewire-0.3.so.0 so:libpulse.so.0 so:libsamplerate.so.0 so:libshout.so.3 so:libsmbclient.so.0 so:libsoxr.so.0 so:libsqlite3.so.0 so:libstdc++.so.6 so:libvorbis.so.0 so:libvorbisenc.so.2 so:libwavpack.so.1 so:libz.so.1
+origin	mpd
+repo	community
+file	mpd-0.24.19-r0.apk
+checksum	Q1gZOVaAl9cFGOgpGYXdKZFvHRaXI=
+dep	/bin/sh	busybox-binsh
+dep	so:libFLAC.so.12	libflac
+dep	so:libao.so.4	libao
+dep	so:libasound.so.2	alsa-lib
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavfilter.so.11	ffmpeg-libavfilter
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcdio.so.19	libcdio
+dep	so:libcdio_cdda.so.2	libcdio-paranoia
+dep	so:libcdio_paranoia.so.2	libcdio-paranoia
+dep	so:libcurl.so.4	libcurl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libexpat.so.1	libexpat
+dep	so:libfaad.so.2	faad2-libs
+dep	so:libfmt.so.11	fmt
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libid3tag.so.0	libid3tag
+dep	so:libiso9660.so.12	libcdio
+dep	so:libjack.so.0	jack
+dep	so:libmad.so.0	libmad
+dep	so:libmodplug.so.1	libmodplug
+dep	so:libmp3lame.so.0	lame-libs
+dep	so:libmpdclient.so.2	libmpdclient
+dep	so:libnfs.so.14	libnfs
+dep	so:libogg.so.0	libogg
+dep	so:libopus.so.0	opus
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libpipewire-0.3.so.0	pipewire-libs
+dep	so:libpulse.so.0	libpulse
+dep	so:libsamplerate.so.0	libsamplerate
+dep	so:libshout.so.3	libshout
+dep	so:libsmbclient.so.0	libsmbclient
+dep	so:libsoxr.so.0	soxr
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libvorbis.so.0	libvorbis
+dep	so:libvorbisenc.so.2	libvorbis
+dep	so:libwavpack.so.1	wavpack-libs
+dep	so:libz.so.1	zlib

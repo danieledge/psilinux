@@ -1,0 +1,16 @@
+name	tasksh
+version	1.2.0-r1
+description	A shell command that wraps Taskwarrior commands
+url	https://taskwarrior.org/docs/review.html
+license	MIT
+size	83200
+installed-size	195008
+depends	task so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	tasksh
+repo	community
+file	tasksh-1.2.0-r1.apk
+checksum	Q1WdQCoRGDMT0jWFWpibvLONITyIE=
+dep	task	task
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,13 @@
+name	signond-static
+version	8.62_git20231124-r0
+description	A D-Bus service which performs user authentication on behalf of its clients (static library)
+url	https://gitlab.com/accounts-sso/signond
+license	LGPL-2.1-only
+size	231225
+installed-size	956636
+depends	signond-dev
+origin	signond
+repo	community
+file	signond-static-8.62_git20231124-r0.apk
+checksum	Q1HufLx5nn3nGtsgOprkbInyL1buk=
+dep	signond-dev	signond-dev

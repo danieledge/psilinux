@@ -1,0 +1,14 @@
+name	dropbear-ssh
+version	2026.91-r0
+description	dropbear ssh command (compatibility symlink for dbclient)
+url	https://matt.ucc.asn.au/dropbear/dropbear.html
+license	MIT
+size	1582
+installed-size	1
+depends	dropbear-dbclient !openssh-client dropbear-dbclient=2026.91-r0
+origin	dropbear
+repo	main
+file	dropbear-ssh-2026.91-r0.apk
+checksum	Q1Ua8NVDf/G1kI4imdYsZUIZaRXvg=
+dep	dropbear-dbclient	dropbear-dbclient
+dep	dropbear-dbclient=2026.91-r0	dropbear-dbclient

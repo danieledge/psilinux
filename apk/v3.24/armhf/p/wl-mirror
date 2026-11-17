@@ -1,0 +1,19 @@
+name	wl-mirror
+version	0.18.5-r0
+description	A simple Wayland output mirror client
+url	https://github.com/Ferdi265/wl-mirror
+license	GPL-3.0-or-later
+size	36153
+installed-size	91868
+depends	so:libEGL.so.1 so:libGLESv2.so.2 so:libc.musl-armhf.so.1 so:libdrm.so.2 so:libgbm.so.1 so:libwayland-client.so.0 so:libwayland-egl.so.1
+origin	wl-mirror
+repo	community
+file	wl-mirror-0.18.5-r0.apk
+checksum	Q1SA4HJi5Lkqr8tqcmSk1HsKvXQc8=
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libGLESv2.so.2	mesa-gles
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm.so.2	libdrm
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-egl.so.1	wayland-libs-egl

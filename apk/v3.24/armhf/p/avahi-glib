@@ -1,0 +1,17 @@
+name	avahi-glib
+version	0.9_rc4-r0
+description	Glib libraries and GObject wrapper for avahi
+url	https://www.avahi.org/
+license	LGPL-2.1-or-later
+size	18370
+installed-size	43520
+depends	so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	avahi
+repo	main
+file	avahi-glib-0.9_rc4-r0.apk
+checksum	Q1IcP30/2n8tpdC9QdlnnlZ2pXdIo=
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

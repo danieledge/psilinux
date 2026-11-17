@@ -1,0 +1,14 @@
+name	perl-test-requires-git
+version	1.008-r1
+description	Check your test requirements against the available version of Git
+url	https://metacpan.org/release/Test-Requires-Git/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	4832
+installed-size	8956
+depends	perl perl-git-version-compare
+origin	perl-test-requires-git
+repo	community
+file	perl-test-requires-git-1.008-r1.apk
+checksum	Q1LQ0fYaPBbrxCBDoMPtZrfTHvjIw=
+dep	perl	perl
+dep	perl-git-version-compare	perl-git-version-compare

@@ -1,0 +1,15 @@
+name	ruby-cap2
+version	0.2.2-r5
+description	Ruby library for managing Linux process and file capabilities
+url	https://github.com/lmars/cap2
+license	MIT
+size	9434
+installed-size	22468
+depends	so:libc.musl-armhf.so.1 so:libcap.so.2 so:libruby.so.3.4
+origin	ruby-cap2
+repo	community
+file	ruby-cap2-0.2.2-r5.apk
+checksum	Q1EFr0+NIoBMgnSDl68ZlFNc141Ak=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libruby.so.3.4	ruby-libs

@@ -1,0 +1,14 @@
+name	perl-pod-eventual
+version	0.094003-r0
+description	read a POD document as a series of trivial events
+url	https://metacpan.org/release/Pod-Eventual/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	5790
+installed-size	15891
+depends	perl perl-mixin-linewise
+origin	perl-pod-eventual
+repo	main
+file	perl-pod-eventual-0.094003-r0.apk
+checksum	Q1O8pqA6Ugdz+Gc30pVAMmhVS/TEA=
+dep	perl	perl
+dep	perl-mixin-linewise	perl-mixin-linewise

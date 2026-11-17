@@ -1,0 +1,14 @@
+name	font-noto-kawi
+version	2026.11.01-r0
+description	Noto Sans Kawi font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	43916
+installed-size	79579
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-kawi-2026.11.01-r0.apk
+checksum	Q1tYAqA7yUTZO0Xw/4CQWIDFkc4XE=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

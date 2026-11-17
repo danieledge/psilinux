@@ -1,0 +1,20 @@
+name	guacamole-server-rdp
+version	1.6.0-r3
+description	RDP support for Guacamole daemon
+url	https://guacamole.apache.org/
+license	GPL-3.0-or-later
+size	103070
+installed-size	348964
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcrypto.so.3 so:libfreerdp-client2.so.2 so:libfreerdp2.so.2 so:libguac.so.25 so:libssh2.so.1 so:libwinpr2.so.2
+origin	guacamole-server
+repo	community
+file	guacamole-server-rdp-1.6.0-r3.apk
+checksum	Q1vBSwKPL5hk7gbyF2qHCybpUvwpo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libfreerdp-client2.so.2	freerdp2-libs
+dep	so:libfreerdp2.so.2	freerdp2-libs
+dep	so:libguac.so.25	guacamole-server-libs
+dep	so:libssh2.so.1	libssh2
+dep	so:libwinpr2.so.2	freerdp2-libs

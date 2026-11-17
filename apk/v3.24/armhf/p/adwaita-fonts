@@ -1,0 +1,14 @@
+name	adwaita-fonts
+version	50.0-r0
+description	The typefaces for GNOME
+url	https://gitlab.gnome.org/GNOME/adwaita-fonts
+license	GPL-3.0-or-later
+size	1284
+installed-size	0
+depends	adwaita-fonts-sans adwaita-fonts-mono
+origin	adwaita-fonts
+repo	community
+file	adwaita-fonts-50.0-r0.apk
+checksum	Q1HXOADqM05G7+OI9gFvWw/ntCXM4=
+dep	adwaita-fonts-sans	adwaita-fonts-sans
+dep	adwaita-fonts-mono	adwaita-fonts-mono

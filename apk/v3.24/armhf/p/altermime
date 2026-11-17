@@ -1,0 +1,13 @@
+name	altermime
+version	0.3.11-r4
+description	alterMIME - MIME encoded email pack alteration tool
+url	https://pldaniels.com/altermime
+license	BSD-2-Clause
+size	44861
+installed-size	102572
+depends	so:libc.musl-armhf.so.1
+origin	altermime
+repo	main
+file	altermime-0.3.11-r4.apk
+checksum	Q1YaaM7pyD7ddFsBfRj7bDFgWe11U=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	cutter
+version	1.04-r5
+description	A program that allows firewall administrators to abort TCP/IP connections
+url	http://www.digitage.co.uk/digitage/software/linux-security/cutter
+license	GPL-2.0-or-later
+size	7750
+installed-size	13484
+depends	so:libc.musl-armhf.so.1
+origin	cutter
+repo	main
+file	cutter-1.04-r5.apk
+checksum	Q1H5MlFt62ZBMb4aWRrs4eVYT3IZI=
+dep	so:libc.musl-armhf.so.1	musl

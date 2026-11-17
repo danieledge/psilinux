@@ -1,0 +1,14 @@
+name	libtpms-dev
+version	0.10.2-r0
+description	library providing software emulation of a Trusted Platform Module (TPM 1.2 and TPM 2.0) (development files)
+url	https://github.com/stefanberger/libtpms
+license	BSD-3-Clause
+size	551892
+installed-size	1634584
+depends	libtpms=0.10.2-r0 pkgconfig
+origin	libtpms
+repo	community
+file	libtpms-dev-0.10.2-r0.apk
+checksum	Q1o1Nq2yfLp0rCIKj57FMza/ByfKs=
+dep	libtpms=0.10.2-r0	libtpms
+dep	pkgconfig	pkgconf

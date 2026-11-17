@@ -1,0 +1,16 @@
+name	imagemagick-jpeg
+version	7.1.2.35-r0
+description	Collection of tools and libraries for many image formats (JPEG support modules)
+url	https://imagemagick.org/
+license	ImageMagick
+size	29125
+installed-size	55779
+depends	so:libMagickCore-7.Q16HDRI.so.10 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libjpeg.so.8
+origin	imagemagick
+repo	community
+file	imagemagick-jpeg-7.1.2.35-r0.apk
+checksum	Q1myMvPoTDrrD4pypw/9x/MMB3g8Y=
+dep	so:libMagickCore-7.Q16HDRI.so.10	imagemagick-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjpeg.so.8	libjpeg-turbo

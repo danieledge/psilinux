@@ -1,0 +1,15 @@
+name	mpdecimal
+version	4.0.1-r0
+description	complete implementation of the General Decimal Arithmetic Specification
+url	https://www.bytereef.org/mpdecimal/index.html
+license	BSD-2-Clause
+size	76618
+installed-size	174900
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	mpdecimal
+repo	main
+file	mpdecimal-4.0.1-r0.apk
+checksum	Q17NGw9HvOE3qAjSYjPiU90ZDHSAM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

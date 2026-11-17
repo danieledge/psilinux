@@ -1,0 +1,15 @@
+name	libotr-dev
+version	4.1.1-r5
+description	Off The Record Messaging, an encryption library for secure IM conversations (development files)
+url	http://otr.cypherpunks.ca/
+license	LGPL-2.1-only
+size	69886
+installed-size	202314
+depends	libgcrypt-dev libotr=4.1.1-r5 pkgconfig
+origin	libotr
+repo	main
+file	libotr-dev-4.1.1-r5.apk
+checksum	Q1bdEhIOBmN3zkLobMbz466wQivN8=
+dep	libgcrypt-dev	libgcrypt-dev
+dep	libotr=4.1.1-r5	libotr
+dep	pkgconfig	pkgconf

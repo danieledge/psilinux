@@ -1,0 +1,15 @@
+name	signond-dev
+version	8.62_git20231124-r0
+description	A D-Bus service which performs user authentication on behalf of its clients (development files)
+url	https://gitlab.com/accounts-sso/signond
+license	LGPL-2.1-only
+size	52769
+installed-size	244350
+depends	signond=8.62_git20231124-r0 pc:Qt6Core pkgconfig
+origin	signond
+repo	community
+file	signond-dev-8.62_git20231124-r0.apk
+checksum	Q10RUPfC4aJTpKtWO5FB79wfPk7Vk=
+dep	signond=8.62_git20231124-r0	signond
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

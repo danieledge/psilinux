@@ -1,0 +1,14 @@
+name	magic-wormhole-rs
+version	0.8.1-r0
+description	Rust implementation of Magic Wormhole, with new features and enhancements
+url	https://github.com/magic-wormhole/magic-wormhole.rs
+license	EUPL-1.2
+size	2542579
+installed-size	5300572
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	magic-wormhole-rs
+repo	community
+file	magic-wormhole-rs-0.8.1-r0.apk
+checksum	Q1J6r8k9v9Y3hi8lrlybm+8NsfXfA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

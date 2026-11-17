@@ -1,0 +1,14 @@
+name	lua5.1-lpeg_patterns
+version	0.5-r2
+description	A collection of LPEG patterns (for Lua 5.1)
+url	https://github.com/daurnimator/lpeg_patterns
+license	MIT
+size	14958
+installed-size	42438
+depends	lua5.1 lua5.1-lpeg
+origin	lua-lpeg_patterns
+repo	community
+file	lua5.1-lpeg_patterns-0.5-r2.apk
+checksum	Q1XL2PiOW4iA+soEgbbkFYGIZIbiY=
+dep	lua5.1	lua5.1
+dep	lua5.1-lpeg	lua5.1-lpeg

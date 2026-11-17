@@ -1,0 +1,17 @@
+name	freerdp2-dev
+version	2.11.7-r1
+description	FreeRDP client, version 2 (development files)
+url	https://www.freerdp.com/
+license	Apache-2.0
+size	329623
+installed-size	1720557
+depends	freerdp2-libs=2.11.7-r1 pc:libssl pc:wayland-client pc:xkbcommon pkgconfig
+origin	freerdp2
+repo	community
+file	freerdp2-dev-2.11.7-r1.apk
+checksum	Q17XklVfbJTa1J5BfZXxmoScB6sGI=
+dep	freerdp2-libs=2.11.7-r1	freerdp2-libs
+dep	pc:libssl	openssl-dev
+dep	pc:wayland-client	wayland-dev
+dep	pc:xkbcommon	libxkbcommon-dev
+dep	pkgconfig	pkgconf

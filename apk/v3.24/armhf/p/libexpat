@@ -1,0 +1,14 @@
+name	libexpat
+version	2.10.0-r0
+description	XML Parser library written in C (libraries)
+url	https://libexpat.github.io/
+license	MIT
+size	60720
+installed-size	136576
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	expat
+repo	main
+file	libexpat-2.10.0-r0.apk
+checksum	Q1GBia1lGjKK3SYVASM/4JDBRpMEE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

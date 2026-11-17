@@ -1,0 +1,16 @@
+name	webrtc-audio-processing-2
+version	2.1-r1
+description	AudioProcessing module from the WebRTC project
+url	https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/
+license	custom
+size	348141
+installed-size	804296
+depends	so:libabsl_strings.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	webrtc-audio-processing-2
+repo	community
+file	webrtc-audio-processing-2-2.1-r1.apk
+checksum	Q1a1zV+fiIN28qgytCy4CnfDhfxME=
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

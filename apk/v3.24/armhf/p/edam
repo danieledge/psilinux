@@ -1,0 +1,13 @@
+name	edam
+version	1.0.2-r1
+description	UTF-8/Unicode-aware line editor based on 'sam -d'
+url	https://github.com/phonologus/edam
+license	MIT
+size	33256
+installed-size	60315
+depends	so:libc.musl-armhf.so.1
+origin	edam
+repo	community
+file	edam-1.0.2-r1.apk
+checksum	Q1Gizeua0bOBn+0xf/FMiNYgEk3BQ=
+dep	so:libc.musl-armhf.so.1	musl

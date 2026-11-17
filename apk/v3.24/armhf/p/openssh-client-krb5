@@ -1,0 +1,18 @@
+name	openssh-client-krb5
+version	10.3_p1-r2
+description	OpenBSD's SSH client with kerberos support
+url	https://www.openssh.com/portable.html
+license	SSH-OpenSSH
+size	362496
+installed-size	763684
+depends	openssh-keygen=10.3_p1-r2 openssh-client-common=10.3_p1-r2 !openssh-client-default so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgssapi_krb5.so.2 so:libz.so.1
+origin	openssh
+repo	main
+file	openssh-client-krb5-10.3_p1-r2.apk
+checksum	Q1qtr4c+wgf5qhHQbY93Um6Xzn7cI=
+dep	openssh-keygen=10.3_p1-r2	openssh-keygen
+dep	openssh-client-common=10.3_p1-r2	openssh-client-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgssapi_krb5.so.2	krb5-libs
+dep	so:libz.so.1	zlib

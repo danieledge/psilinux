@@ -1,0 +1,29 @@
+name	openrct2
+version	0.5.1-r0
+description	Open-source re-implementation of Roller Coaster Tycoon 2
+url	https://openrct2.io
+license	GPL-3.0-only
+size	5813490
+installed-size	17332940
+depends	openrct2-data /bin/sh so:libFLAC.so.12 so:libSDL2-2.0.so.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libicuuc.so.78 so:libpng16.so.16 so:libstdc++.so.6 so:libvorbisfile.so.3 so:libz.so.1 so:libzip.so.5 so:libzstd.so.1
+origin	openrct2
+repo	community
+file	openrct2-0.5.1-r0.apk
+checksum	Q1293qey4LxSGxtanazeDPW0HlyTM=
+dep	openrct2-data	openrct2-data
+dep	/bin/sh	busybox-binsh
+dep	so:libFLAC.so.12	libflac
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libvorbisfile.so.3	libvorbis
+dep	so:libz.so.1	zlib
+dep	so:libzip.so.5	libzip
+dep	so:libzstd.so.1	zstd-libs

@@ -1,0 +1,17 @@
+name	babeltrace
+version	2.0.6-r1
+description	Trace converter and read/write library
+url	https://www.efficios.com/babeltrace
+license	MIT
+size	688837
+installed-size	1707616
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libintl.so.8 so:libpython3.14.so.1.0
+origin	babeltrace
+repo	community
+file	babeltrace-2.0.6-r1.apk
+checksum	Q1gnPKSDCZRVm5CyPJr0P1aez5SZE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libpython3.14.so.1.0	python3

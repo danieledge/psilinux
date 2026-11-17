@@ -1,0 +1,15 @@
+name	apache2-brotli
+version	2.4.71-r0
+description	Brotli content compression for the Apache HTTP Server
+url	https://httpd.apache.org/
+license	Apache-2.0
+size	7329
+installed-size	13643
+depends	apache2 so:libbrotlienc.so.1 so:libc.musl-armhf.so.1
+origin	apache2
+repo	main
+file	apache2-brotli-2.4.71-r0.apk
+checksum	Q1mBj3z8hW0W0lwhT/sZS0ImEfuQA=
+dep	apache2	apache2
+dep	so:libbrotlienc.so.1	brotli-libs
+dep	so:libc.musl-armhf.so.1	musl

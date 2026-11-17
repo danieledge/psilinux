@@ -1,0 +1,16 @@
+name	klibc
+version	2.0.14-r1
+description	A minimalistic libc subset for use with initramfs
+url	https://git.kernel.org/pub/scm/libs/klibc/klibc.git/
+license	GPL-2.0-or-later
+size	1499
+installed-size	1
+depends	libklibc klibc-dash klibc-kinit klibc-utils
+origin	klibc
+repo	community
+file	klibc-2.0.14-r1.apk
+checksum	Q1NjuMN3CspUPw1la+FwhjWY31Qc4=
+dep	libklibc	libklibc
+dep	klibc-dash	klibc-dash
+dep	klibc-kinit	klibc-kinit
+dep	klibc-utils	klibc-utils

@@ -1,0 +1,18 @@
+name	mpdscribble
+version	0.25-r2
+description	last.fm client for mpd
+url	https://github.com/MusicPlayerDaemon/mpdscribble
+license	GPL-2.0-or-later
+size	42502
+installed-size	89112
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgcc_s.so.1 so:libgcrypt.so.20 so:libmpdclient.so.2 so:libstdc++.so.6
+origin	mpdscribble
+repo	community
+file	mpdscribble-0.25-r2.apk
+checksum	Q1Jl9Eengdx4XTEpMR9KWIfgoYqEE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libmpdclient.so.2	libmpdclient
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,15 @@
+name	py3-pytest-freezer
+version	0.4.9-r0
+description	Pytest plugin providing a fixture interface for freezegun
+url	https://github.com/pytest-dev/pytest-freezer
+license	MIT
+size	4379
+installed-size	4566
+depends	py3-pytest py3-freezegun python3~3.14
+origin	py3-pytest-freezer
+repo	community
+file	py3-pytest-freezer-0.4.9-r0.apk
+checksum	Q1ebiSYx48IO0M5cyRlSr94tq/CkU=
+dep	py3-pytest	py3-pytest
+dep	py3-freezegun	py3-freezegun
+dep	python3~3.14	python3

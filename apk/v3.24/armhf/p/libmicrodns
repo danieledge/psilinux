@@ -1,0 +1,13 @@
+name	libmicrodns
+version	0.2.0-r1
+description	Minimal mDNS library
+url	https://github.com/videolabs/libmicrodns
+license	LGPL-2.1-or-later
+size	10339
+installed-size	17600
+depends	so:libc.musl-armhf.so.1
+origin	libmicrodns
+repo	community
+file	libmicrodns-0.2.0-r1.apk
+checksum	Q1YOec33yz+WqUTqcOffV/pqVfjW4=
+dep	so:libc.musl-armhf.so.1	musl

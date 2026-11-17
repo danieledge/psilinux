@@ -1,0 +1,14 @@
+name	opencore-amr-dev
+version	0.1.6-r1
+description	Implementation of Adaptive Multi Rate speech codec (development files)
+url	https://sourceforge.net/projects/opencore-amr/
+license	Apache-2.0
+size	170026
+installed-size	429870
+depends	opencore-amr=0.1.6-r1 pkgconfig
+origin	opencore-amr
+repo	community
+file	opencore-amr-dev-0.1.6-r1.apk
+checksum	Q1av5cB28NVNgFfQeZxYX2VY6zEUA=
+dep	opencore-amr=0.1.6-r1	opencore-amr
+dep	pkgconfig	pkgconf

@@ -1,0 +1,15 @@
+name	create-tauri-app
+version	4.7.0-r0
+description	Build tool for Leptos
+url	https://tauri.app
+license	MIT OR Apache-2.0
+size	601219
+installed-size	991052
+depends	cargo so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	create-tauri-app
+repo	community
+file	create-tauri-app-4.7.0-r0.apk
+checksum	Q1AyDWrCos3CseYnbeibQUDNgURE0=
+dep	cargo	cargo
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

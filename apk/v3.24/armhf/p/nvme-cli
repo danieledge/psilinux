@@ -1,0 +1,16 @@
+name	nvme-cli
+version	2.16-r1
+description	NVM-Express user space tooling for Linux
+url	https://github.com/linux-nvme/nvme-cli
+license	GPL-2.0-or-later
+size	567809
+installed-size	1288095
+depends	so:libc.musl-armhf.so.1 so:libjson-c.so.5 so:libnvme-mi.so.1 so:libnvme.so.1
+origin	nvme-cli
+repo	main
+file	nvme-cli-2.16-r1.apk
+checksum	Q1IuA1RQmyP0o3aQP0Kd+Ct7uDDhA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjson-c.so.5	json-c
+dep	so:libnvme-mi.so.1	libnvmemi
+dep	so:libnvme.so.1	libnvme

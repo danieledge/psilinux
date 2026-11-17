@@ -1,0 +1,19 @@
+name	apk-gtk3
+version	0.1-r3
+description	gtk+3.0 frontend to apk
+url	https://github.com/kaniini/apk-gtk
+license	MIT
+size	28540
+installed-size	113449
+depends	apk-gtk3-policy so:libc.musl-armhf.so.1 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libvte-2.91.so.0
+origin	apk-gtk3
+repo	community
+file	apk-gtk3-0.1-r3.apk
+checksum	Q1Ywl2SYOpOcSCb7vWDHZEePz6uY8=
+dep	apk-gtk3-policy	apk-gtk3-policy
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libvte-2.91.so.0	vte3

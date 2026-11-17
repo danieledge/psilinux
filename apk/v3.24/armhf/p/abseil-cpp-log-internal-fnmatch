@@ -1,0 +1,14 @@
+name	abseil-cpp-log-internal-fnmatch
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-log-internal-fnmatch
+url	https://abseil.io/
+license	Apache-2.0
+size	3834
+installed-size	5292
+depends	so:libc.musl-armhf.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-log-internal-fnmatch-20250814.1-r0.apk
+checksum	Q1q0O5T+WVKZgZARY+7xOtZB1toP0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libstdc++.so.6	libstdc++

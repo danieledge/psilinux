@@ -1,0 +1,13 @@
+name	gsm
+version	1.0.23-r0
+description	Shared libraries for GSM speech compressor
+url	https://www.quut.com/gsm/
+license	TU-Berlin-2.0
+size	19125
+installed-size	38160
+depends	so:libc.musl-armhf.so.1
+origin	gsm
+repo	main
+file	gsm-1.0.23-r0.apk
+checksum	Q1XmHkwvRDyvtDchvYziFTTmN55S0=
+dep	so:libc.musl-armhf.so.1	musl

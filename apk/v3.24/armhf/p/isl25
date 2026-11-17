@@ -1,0 +1,14 @@
+name	isl25
+version	0.25-r2
+description	An Integer Set Library for the Polyhedral Model
+url	http://isl.gforge.inria.fr/
+license	MIT
+size	717829
+installed-size	1691720
+depends	so:libc.musl-armhf.so.1 so:libgmp.so.10
+origin	isl25
+repo	main
+file	isl25-0.25-r2.apk
+checksum	Q1vynt6imfgqHAL566d3+NMids3O8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgmp.so.10	gmp

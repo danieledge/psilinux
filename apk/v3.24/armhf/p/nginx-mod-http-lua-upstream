@@ -1,0 +1,15 @@
+name	nginx-mod-http-lua-upstream
+version	1.30.6-r0
+description	Nginx third-party module http-lua-upstream (version v0.08)
+url	https://github.com/openresty/lua-upstream-nginx-module
+license	BSD-2-Clause
+size	6030
+installed-size	9539
+depends	nginx=1.30.6-r0 nginx-mod-http-lua so:libc.musl-armhf.so.1
+origin	nginx
+repo	main
+file	nginx-mod-http-lua-upstream-1.30.6-r0.apk
+checksum	Q1U8531wn3JROsgzOpe98j/t8rUOs=
+dep	nginx=1.30.6-r0	nginx
+dep	nginx-mod-http-lua	nginx-mod-http-lua
+dep	so:libc.musl-armhf.so.1	musl

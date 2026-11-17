@@ -1,0 +1,25 @@
+name	gnome-console
+version	50.0-r0
+description	User-friendly terminal for GNOME
+url	https://gitlab.gnome.org/GNOME/console
+license	GPL-3.0-only
+size	109757
+installed-size	261621
+depends	dbus gsettings-desktop-schemas so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libgtop-2.0.so.11 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libvte-2.91-gtk4.so.0
+origin	gnome-console
+repo	community
+file	gnome-console-50.0-r0.apk
+checksum	Q1EKIYXd+9++vO/kZv32w2QAoUgGU=
+dep	dbus	dbus
+dep	gsettings-desktop-schemas	gsettings-desktop-schemas
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libgtop-2.0.so.11	libgtop
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libvte-2.91-gtk4.so.0	vte3-gtk4

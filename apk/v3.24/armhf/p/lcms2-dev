@@ -1,0 +1,19 @@
+name	lcms2-dev
+version	2.19-r0
+description	Color Management Engine (development files)
+url	https://www.littlecms.com
+license	MIT
+size	32607
+installed-size	151635
+depends	lcms2-plugins=2.19-r0 libjpeg-turbo-dev tiff-dev zlib-dev lcms2-plugins=2.19-r0 lcms2=2.19-r0 pkgconfig
+origin	lcms2
+repo	main
+file	lcms2-dev-2.19-r0.apk
+checksum	Q1uKaHhnjfNWzK4Sa2a54bTiipGok=
+dep	lcms2-plugins=2.19-r0	lcms2-plugins
+dep	libjpeg-turbo-dev	libjpeg-turbo-dev
+dep	tiff-dev	tiff-dev
+dep	zlib-dev	zlib-dev
+dep	lcms2-plugins=2.19-r0	lcms2-plugins
+dep	lcms2=2.19-r0	lcms2
+dep	pkgconfig	pkgconf

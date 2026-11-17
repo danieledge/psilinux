@@ -1,0 +1,14 @@
+name	py3-genshi
+version	0.7.9-r1
+description	Python toolkit for stream-based generation of output for the web
+url	https://genshi.edgewall.org/
+license	MIT
+size	162242
+installed-size	900401
+depends	python3~3.14 so:libc.musl-armhf.so.1
+origin	py3-genshi
+repo	community
+file	py3-genshi-0.7.9-r1.apk
+checksum	Q1sY1kiV+rkBBt+FirRvWbTjLv9Dc=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

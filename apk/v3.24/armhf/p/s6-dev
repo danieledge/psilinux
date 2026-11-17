@@ -1,0 +1,16 @@
+name	s6-dev
+version	2.15.0.0-r0
+description	skarnet.org's small & secure supervision software suite. (development files)
+url	https://skarnet.org/software/s6/
+license	ISC
+size	6005
+installed-size	15390
+depends	s6-libs=2.15.0.0-r0 pc:libexecline>=2.9.9.0 pc:libskarnet>=2.15.0.0 pkgconfig
+origin	s6
+repo	main
+file	s6-dev-2.15.0.0-r0.apk
+checksum	Q1U9QMSOsBNj6wMX+X4cNawGh5C9s=
+dep	s6-libs=2.15.0.0-r0	s6-libs
+dep	pc:libexecline>=2.9.9.0	execline-dev
+dep	pc:libskarnet>=2.15.0.0	skalibs-dev
+dep	pkgconfig	pkgconf

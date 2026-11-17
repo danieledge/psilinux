@@ -1,0 +1,15 @@
+name	py3-django-pgactivity
+version	1.8.0-r3
+description	View, filter, and kill Postgres queries.
+url	https://pypi.python.org/project/django-pgactivity
+license	BSD-3-Clause
+size	14022
+installed-size	33335
+depends	py3-django py3-importlib-metadata python3~3.14
+origin	py3-django-pgactivity
+repo	community
+file	py3-django-pgactivity-1.8.0-r3.apk
+checksum	Q1BMkKKwXg1/5WbO+cblHX09ZQ3LM=
+dep	py3-django	py3-django
+dep	py3-importlib-metadata	py3-importlib-metadata
+dep	python3~3.14	python3

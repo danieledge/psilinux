@@ -1,0 +1,15 @@
+name	py3-txredisapi
+version	1.5.0-r0
+description	non-blocking redis client for python twisted
+url	https://github.com/IlyaSkriblovsky/txredisapi
+license	Apache-2.0
+size	28392
+installed-size	121274
+depends	python3 py3-twisted python3~3.14
+origin	py3-txredisapi
+repo	community
+file	py3-txredisapi-1.5.0-r0.apk
+checksum	Q1vdq0TlZ97qBhv0RkXQIJwRNo9LY=
+dep	python3	python3
+dep	py3-twisted	py3-twisted
+dep	python3~3.14	python3

@@ -1,0 +1,20 @@
+name	blanket
+version	0.8.0-r0
+description	Listen to different sounds to improve focus and increase productivity
+url	https://github.com/rafaelmardojai/blanket
+license	GPL-3.0-or-later
+size	17584350
+installed-size	18155511
+depends	desktop-file-utils gst-plugins-bad gst-plugins-base gst-plugins-good libadwaita python3 py3-gst py3-gobject3
+origin	blanket
+repo	community
+file	blanket-0.8.0-r0.apk
+checksum	Q1eX0YrHff8B+ppQTDonEgaSHLfYM=
+dep	desktop-file-utils	desktop-file-utils
+dep	gst-plugins-bad	gst-plugins-bad
+dep	gst-plugins-base	gst-plugins-base
+dep	gst-plugins-good	gst-plugins-good
+dep	libadwaita	libadwaita
+dep	python3	python3
+dep	py3-gst	py3-gst
+dep	py3-gobject3	py3-gobject3

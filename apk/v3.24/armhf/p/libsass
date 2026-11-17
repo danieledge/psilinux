@@ -1,0 +1,15 @@
+name	libsass
+version	3.6.6-r0
+description	C/C++ implementation of a Sass compiler
+url	https://sass-lang.com/libsass
+license	MIT
+size	638043
+installed-size	1840912
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libsass
+repo	community
+file	libsass-3.6.6-r0.apk
+checksum	Q1XuaFqt/kHKq3qHZZdtltz9kk7dk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

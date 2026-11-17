@@ -1,0 +1,43 @@
+name	gnucash
+version	5.14-r1
+description	GnuCash Double-Entry Accounting Program
+url	https://gnucash.org/
+license	GPL-2.0-or-later OR GPL-3.0-or-later
+size	8091221
+installed-size	37989065
+depends	dconf guile so:libaqbanking.so.44 so:libboost_filesystem.so.1.84.0 so:libboost_locale.so.1.84.0 so:libboost_program_options.so.1.84.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdbi.so.1 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libguile-3.0.so.1 so:libgwengui-gtk3.so.79 so:libgwenhywfar.so.79 so:libicui18n.so.78 so:libicuuc.so.78 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpython3.14.so.1.0 so:libsecret-1.so.0 so:libstdc++.so.6 so:libwebkit2gtk-4.1.so.0 so:libxml2.so.2 so:libz.so.1
+origin	gnucash
+repo	community
+file	gnucash-5.14-r1.apk
+checksum	Q1b26RBOTj9YniPWImHswk55HG8oQ=
+dep	dconf	dconf
+dep	guile	guile
+dep	so:libaqbanking.so.44	aqbanking
+dep	so:libboost_filesystem.so.1.84.0	boost1.84-filesystem
+dep	so:libboost_locale.so.1.84.0	boost1.84-locale
+dep	so:libboost_program_options.so.1.84.0	boost1.84-program_options
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libdbi.so.1	libdbi
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libguile-3.0.so.1	guile-libs
+dep	so:libgwengui-gtk3.so.79	gwenhywfar-gtk3
+dep	so:libgwenhywfar.so.79	gwenhywfar
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpython3.14.so.1.0	python3
+dep	so:libsecret-1.so.0	libsecret
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwebkit2gtk-4.1.so.0	webkit2gtk-4.1
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

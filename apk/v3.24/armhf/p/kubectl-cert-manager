@@ -1,0 +1,14 @@
+name	kubectl-cert-manager
+version	2.4.1-r4
+description	Use cmctl as a kubectl plugin
+url	https://cert-manager.io/
+license	Apache-2.0
+size	1667
+installed-size	47
+depends	kubectl cmctl=2.4.1-r4
+origin	cmctl
+repo	community
+file	kubectl-cert-manager-2.4.1-r4.apk
+checksum	Q19VhRnEoOuVOjXls5PV84dfJPlls=
+dep	kubectl	kubectl
+dep	cmctl=2.4.1-r4	cmctl

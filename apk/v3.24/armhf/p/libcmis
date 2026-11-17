@@ -1,0 +1,17 @@
+name	libcmis
+version	0.6.2-r0
+description	CMIS protocol client library
+url	https://github.com/tdf/libcmis
+license	MPL-1.1 GPL-2.0-or-later LGPL-2.0-or-later
+size	363094
+installed-size	883536
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgcc_s.so.1 so:libstdc++.so.6 so:libxml2.so.2
+origin	libcmis
+repo	community
+file	libcmis-0.6.2-r0.apk
+checksum	Q1Uo+uzpVBkeiuswqguMCrKMgNZHE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxml2.so.2	libxml2

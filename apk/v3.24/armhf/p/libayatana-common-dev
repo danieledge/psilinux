@@ -1,0 +1,14 @@
+name	libayatana-common-dev
+version	0.9.11-r0
+description	Shared Library for common functions required by the Ayatana System Indicators (development files)
+url	https://github.com/AyatanaIndicators/libayatana-common
+license	GPL-3.0-only
+size	4460
+installed-size	15980
+depends	libayatana-common=0.9.11-r0 pkgconfig
+origin	libayatana-common
+repo	community
+file	libayatana-common-dev-0.9.11-r0.apk
+checksum	Q1dnB284Rr9eS7sTksHgqabUmcgP0=
+dep	libayatana-common=0.9.11-r0	libayatana-common
+dep	pkgconfig	pkgconf

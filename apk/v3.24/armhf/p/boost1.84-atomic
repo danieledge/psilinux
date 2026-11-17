@@ -1,0 +1,14 @@
+name	boost1.84-atomic
+version	1.84.0-r6
+description	Boost atomic shared library
+url	https://www.boost.org/
+license	BSL-1.0
+size	5519
+installed-size	9440
+depends	so:libc.musl-armhf.so.1 so:libstdc++.so.6
+origin	boost1.84
+repo	main
+file	boost1.84-atomic-1.84.0-r6.apk
+checksum	Q12tRIxPigN0yXKc2XBcDkK85nSIE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libstdc++.so.6	libstdc++

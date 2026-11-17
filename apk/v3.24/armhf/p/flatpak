@@ -1,0 +1,39 @@
+name	flatpak
+version	1.16.6-r2
+description	Application deployment framework for desktop apps
+url	https://flatpak.org/
+license	LGPL-2.1-or-later
+size	1679170
+installed-size	3823821
+depends	bubblewrap desktop-file-utils fuse3 gtk-update-icon-cache shared-mime-info xdg-dbus-proxy /bin/sh so:libXau.so.6 so:libappstream.so.5 so:libarchive.so.13 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libdconf.so.1 so:libfuse3.so.4 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgpgme.so.45 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libostree-1.so.1 so:libpolkit-agent-1.so.0 so:libpolkit-gobject-1.so.0 so:libseccomp.so.2 so:libxml2.so.2 so:libzstd.so.1
+origin	flatpak
+repo	community
+file	flatpak-1.16.6-r2.apk
+checksum	Q1LqFQI90grZMjXq5cO5LqzwZDrJM=
+dep	bubblewrap	bubblewrap
+dep	desktop-file-utils	desktop-file-utils
+dep	fuse3	fuse3
+dep	gtk-update-icon-cache	gtk-update-icon-cache
+dep	shared-mime-info	shared-mime-info
+dep	xdg-dbus-proxy	xdg-dbus-proxy
+dep	/bin/sh	busybox-binsh
+dep	so:libXau.so.6	libxau
+dep	so:libappstream.so.5	appstream
+dep	so:libarchive.so.13	libarchive
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libdconf.so.1	dconf
+dep	so:libfuse3.so.4	fuse3-libs
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgpgme.so.45	gpgme
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libostree-1.so.1	ostree
+dep	so:libpolkit-agent-1.so.0	polkit-noelogind-libs
+dep	so:libpolkit-gobject-1.so.0	polkit-noelogind-libs
+dep	so:libseccomp.so.2	libseccomp
+dep	so:libxml2.so.2	libxml2
+dep	so:libzstd.so.1	zstd-libs

@@ -1,0 +1,15 @@
+name	nginx-mod-http-image-filter
+version	1.30.6-r0
+description	Nginx module http-image-filter
+url	https://www.nginx.org/
+license	BSD-2-Clause
+size	9720
+installed-size	18127
+depends	nginx=1.30.6-r0 so:libc.musl-armhf.so.1 so:libgd.so.3
+origin	nginx
+repo	main
+file	nginx-mod-http-image-filter-1.30.6-r0.apk
+checksum	Q1c1ZZdeAodR+LYlghD3KYmZBpqMo=
+dep	nginx=1.30.6-r0	nginx
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgd.so.3	libgd

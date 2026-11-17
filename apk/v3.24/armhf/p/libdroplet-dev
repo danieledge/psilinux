@@ -1,0 +1,17 @@
+name	libdroplet-dev
+version	2.0-r13
+description	Cloud storage client library (development files)
+url	https://www.scality.com
+license	MIT
+size	18336
+installed-size	113424
+depends	json-c-dev libdroplet=2.0-r13 pc:libcrypto pc:libxml-2.0 pkgconfig
+origin	libdroplet
+repo	community
+file	libdroplet-dev-2.0-r13.apk
+checksum	Q15s/qv6H98ZcGhmMVmB7KKN6J2Y8=
+dep	json-c-dev	json-c-dev
+dep	libdroplet=2.0-r13	libdroplet
+dep	pc:libcrypto	openssl-dev
+dep	pc:libxml-2.0	libxml2-dev
+dep	pkgconfig	pkgconf

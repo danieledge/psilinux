@@ -1,0 +1,14 @@
+name	b3sum
+version	1.8.5-r0
+description	Command line implementation of the BLAKE3 hash function
+url	https://github.com/BLAKE3-team/BLAKE3
+license	CC0-1.0 OR Apache-2.0
+size	333740
+installed-size	626476
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	b3sum
+repo	community
+file	b3sum-1.8.5-r0.apk
+checksum	Q1AoyUAjrfwgvEjVC/QTUKvuMiijM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

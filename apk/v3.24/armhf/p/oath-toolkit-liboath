@@ -1,0 +1,13 @@
+name	oath-toolkit-liboath
+version	2.6.14-r1
+description	A shared and static C library for OATH handling.
+url	https://nongnu.org/oath-toolkit/
+license	LGPL-2.1-or-later
+size	51072
+installed-size	169292
+depends	so:libc.musl-armhf.so.1
+origin	oath-toolkit
+repo	community
+file	oath-toolkit-liboath-2.6.14-r1.apk
+checksum	Q1VPgwKcq+CDJUSeRo4kJgKEKJDls=
+dep	so:libc.musl-armhf.so.1	musl

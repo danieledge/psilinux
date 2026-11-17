@@ -1,0 +1,15 @@
+name	pipewire-spa-vulkan
+version	1.6.8-r4
+description	PipeWire Vulkan SPA plugin
+url	https://pipewire.org/
+license	MIT
+size	82556
+installed-size	173600
+depends	so:libc.musl-armhf.so.1 so:libdrm.so.2 so:libvulkan.so.1
+origin	pipewire
+repo	community
+file	pipewire-spa-vulkan-1.6.8-r4.apk
+checksum	Q1swklIZz/Wxqv9tzTEdFyhprwQno=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm.so.2	libdrm
+dep	so:libvulkan.so.1	vulkan-loader

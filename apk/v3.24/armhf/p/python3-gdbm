@@ -1,0 +1,16 @@
+name	python3-gdbm
+version	3.14.10-r1
+description	Python backend for GNU gdbm
+url	https://www.python.org/
+license	PSF-2.0
+size	9292
+installed-size	18064
+depends	libssl3>=3.3.0 libexpat>=2.9.0 so:libc.musl-armhf.so.1 so:libgdbm.so.6
+origin	python3
+repo	main
+file	python3-gdbm-3.14.10-r1.apk
+checksum	Q1D+0SNCabEAMa4K5zwto9KiX2IZk=
+dep	libssl3>=3.3.0	libssl3
+dep	libexpat>=2.9.0	libexpat
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdbm.so.6	gdbm

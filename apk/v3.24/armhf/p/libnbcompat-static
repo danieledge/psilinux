@@ -1,0 +1,13 @@
+name	libnbcompat-static
+version	1.0.2-r1
+description	Portable NetBSD-compatibility library (static library)
+url	https://github.com/archiecobbs/libnbcompat
+license	BSD-2-Clause
+size	39110
+installed-size	98472
+depends	libnbcompat-dev
+origin	libnbcompat
+repo	community
+file	libnbcompat-static-1.0.2-r1.apk
+checksum	Q1y7lvrDjutbaBJD/2Pe5qf4YkoBA=
+dep	libnbcompat-dev	libnbcompat-dev

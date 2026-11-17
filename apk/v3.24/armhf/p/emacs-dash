@@ -1,0 +1,13 @@
+name	emacs-dash
+version	2.20.0-r1
+description	Modern list library for Emacs
+url	https://github.com/magnars/dash.el
+license	GPL-3.0-or-later
+size	75734
+installed-size	312500
+depends	cmd:emacs
+origin	emacs-dash
+repo	community
+file	emacs-dash-2.20.0-r1.apk
+checksum	Q1kdjHHk9mglYym98JlWopFVxVHeQ=
+dep	cmd:emacs	emacs-gtk3

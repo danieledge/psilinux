@@ -1,0 +1,22 @@
+name	py3-tox
+version	4.27.0-r1
+description	virtualenv management and test command line tool
+url	https://tox.readthedocs.org/
+license	MIT
+size	137791
+installed-size	495710
+depends	py3-cachetools py3-chardet py3-colorama py3-filelock py3-packaging py3-platformdirs py3-pluggy py3-pyproject-api py3-virtualenv python3~3.14
+origin	py3-tox
+repo	community
+file	py3-tox-4.27.0-r1.apk
+checksum	Q1Hhm5jIPJ6VMa/8x9M2RJgOeMAPI=
+dep	py3-cachetools	py3-cachetools
+dep	py3-chardet	py3-chardet
+dep	py3-colorama	py3-colorama
+dep	py3-filelock	py3-filelock
+dep	py3-packaging	py3-packaging
+dep	py3-platformdirs	py3-platformdirs
+dep	py3-pluggy	py3-pluggy
+dep	py3-pyproject-api	py3-pyproject-api
+dep	py3-virtualenv	py3-virtualenv
+dep	python3~3.14	python3

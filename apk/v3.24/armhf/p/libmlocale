@@ -1,0 +1,19 @@
+name	libmlocale
+version	0.8.3-r0
+description	Nemo libmlocale
+url	https://github.com/sailfishos/libmlocale
+license	LGPL-2.1-only
+size	132777
+installed-size	317180
+depends	so:libQt6Core.so.6 so:libQt6Xml.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libicui18n.so.78 so:libicuuc.so.78 so:libstdc++.so.6
+origin	libmlocale
+repo	community
+file	libmlocale-0.8.3-r0.apk
+checksum	Q1OMgqAsiO01CfU2r2gq0PuCEIcW4=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Xml.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libstdc++.so.6	libstdc++

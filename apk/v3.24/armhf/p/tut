@@ -1,0 +1,13 @@
+name	tut
+version	2.0.1-r31
+description	TUI for Mastodon
+url	https://github.com/RasmusLindroth/tut
+license	MIT
+size	4660948
+installed-size	12039956
+depends	so:libc.musl-armhf.so.1
+origin	tut
+repo	community
+file	tut-2.0.1-r31.apk
+checksum	Q1H7QyyEnHt+EFO6TGno4JwAtphIs=
+dep	so:libc.musl-armhf.so.1	musl

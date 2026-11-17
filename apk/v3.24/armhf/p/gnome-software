@@ -1,0 +1,30 @@
+name	gnome-software
+version	50.3-r0
+description	Software lets you install and update applications and system extensions
+url	https://apps.gnome.org/Software
+license	GPL-2.0-or-later
+size	653072
+installed-size	2113907
+depends	gnome-app-list /bin/sh so:libadwaita-1.so.0 so:libappstream.so.5 so:libc.musl-armhf.so.1 so:libfwupd.so.3 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgnomesoftware.so.23 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libgudev-1.0.so.0 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libpango-1.0.so.0 so:libsoup-3.0.so.0 so:libxmlb.so.2
+origin	gnome-software
+repo	community
+file	gnome-software-50.3-r0.apk
+checksum	Q1aqe22X54fhmdh4Hc9IsLH3EOz0g=
+dep	gnome-app-list	gnome-app-list
+dep	/bin/sh	busybox-binsh
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libappstream.so.5	appstream
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfwupd.so.3	fwupd
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgnomesoftware.so.23	gnome-software-lib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libgudev-1.0.so.0	libgudev
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libxmlb.so.2	libxmlb

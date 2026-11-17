@@ -1,0 +1,26 @@
+name	openjdk8-jre-base
+version	8.512.01-r0
+description	OpenJDK 8 Java Runtime (no GUI support)
+url	https://icedtea.classpath.org/
+license	custom
+size	3775047
+installed-size	9215307
+depends	openjdk8-jre-lib=8.512.01-r0 java-common java-cacerts nss so:libc.musl-armhf.so.1 so:libffi.so.8 so:libgcc_s.so.1 so:libjpeg.so.8 so:libkrb5.so.3 so:liblcms2.so.2 so:libpcsclite.so.1 so:libsctp.so.1 so:libstdc++.so.6 so:libz.so.1
+origin	openjdk8
+repo	community
+file	openjdk8-jre-base-8.512.01-r0.apk
+checksum	Q1lq/PEgVAUXiAfxdsl3tD4xD6/iE=
+dep	openjdk8-jre-lib=8.512.01-r0	openjdk8-jre-lib
+dep	java-common	java-common
+dep	java-cacerts	java-cacerts
+dep	nss	nss
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libffi.so.8	libffi
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libkrb5.so.3	krb5-libs
+dep	so:liblcms2.so.2	lcms2
+dep	so:libpcsclite.so.1	pcsc-lite-libs
+dep	so:libsctp.so.1	liblksctp
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

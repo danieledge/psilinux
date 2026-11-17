@@ -1,0 +1,15 @@
+name	lua5.3-sql-mysql
+version	2.6.0-r6
+description	Lua 5.3 SQL driver for mysql
+url	http://lunarmodules.github.io/luasql/
+license	MIT
+size	8981
+installed-size	17863
+depends	lua5.3 so:libc.musl-armhf.so.1 so:libmariadb.so.3
+origin	lua-sql
+repo	main
+file	lua5.3-sql-mysql-2.6.0-r6.apk
+checksum	Q1v/5XRf4BYLMP6rKIaicyyD1Cr4I=
+dep	lua5.3	lua5.3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmariadb.so.3	mariadb-connector-c

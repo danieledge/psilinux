@@ -1,0 +1,14 @@
+name	asciinema
+version	3.2.0-r0
+description	Command line recorder for the asciinema.org service
+url	https://github.com/asciinema/asciinema
+license	GPL-3.0-or-later
+size	3006245
+installed-size	4992112
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	asciinema
+repo	community
+file	asciinema-3.2.0-r0.apk
+checksum	Q1SZ5yx4PkvUuPyYAQX/oQMXLESm0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

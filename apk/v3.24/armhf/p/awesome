@@ -1,0 +1,40 @@
+name	awesome
+version	4.3_git20250517-r0
+description	lua-configurable window manager framework
+url	https://awesomewm.org/
+license	GPL-2.0-or-later
+size	1170024
+installed-size	3195299
+depends	imagemagick lua5.4-lgi cairo-gobject pango so:libX11.so.6 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdbus-1.so.3 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:liblua-5.4.so.0 so:libstartup-notification-1.so.0 so:libxcb-cursor.so.0 so:libxcb-icccm.so.4 so:libxcb-keysyms.so.1 so:libxcb-randr.so.0 so:libxcb-shape.so.0 so:libxcb-util.so.1 so:libxcb-xfixes.so.0 so:libxcb-xinerama.so.0 so:libxcb-xkb.so.1 so:libxcb-xrm.so.0 so:libxcb-xtest.so.0 so:libxcb.so.1 so:libxdg-basedir.so.1 so:libxkbcommon-x11.so.0 so:libxkbcommon.so.0
+origin	awesome
+repo	community
+file	awesome-4.3_git20250517-r0.apk
+checksum	Q1aMkZD29BEZw/JKhwZ/aSnk8ZB7I=
+dep	imagemagick	imagemagick
+dep	lua5.4-lgi	lua5.4-lgi
+dep	cairo-gobject	cairo-gobject
+dep	pango	pango
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:liblua-5.4.so.0	lua5.4-libs
+dep	so:libstartup-notification-1.so.0	startup-notification
+dep	so:libxcb-cursor.so.0	xcb-util-cursor
+dep	so:libxcb-icccm.so.4	xcb-util-wm
+dep	so:libxcb-keysyms.so.1	xcb-util-keysyms
+dep	so:libxcb-randr.so.0	libxcb
+dep	so:libxcb-shape.so.0	libxcb
+dep	so:libxcb-util.so.1	xcb-util
+dep	so:libxcb-xfixes.so.0	libxcb
+dep	so:libxcb-xinerama.so.0	libxcb
+dep	so:libxcb-xkb.so.1	libxcb
+dep	so:libxcb-xrm.so.0	xcb-util-xrm
+dep	so:libxcb-xtest.so.0	libxcb
+dep	so:libxcb.so.1	libxcb
+dep	so:libxdg-basedir.so.1	libxdg-basedir
+dep	so:libxkbcommon-x11.so.0	libxkbcommon-x11
+dep	so:libxkbcommon.so.0	libxkbcommon

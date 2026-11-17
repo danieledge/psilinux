@@ -1,0 +1,16 @@
+name	libgedit-amtk-dev
+version	5.10.0-r0
+description	Gedit Technology — actions, menus and toolbars kit (development files)
+url	https://gitlab.gnome.org/World/gedit/libgedit-amtk
+license	LGPL-3.0-or-later
+size	24477
+installed-size	179481
+depends	libgedit-amtk=5.10.0-r0 pc:gio-2.0>=2.56 pc:gtk+-3.0>=3.22 pkgconfig
+origin	libgedit-amtk
+repo	community
+file	libgedit-amtk-dev-5.10.0-r0.apk
+checksum	Q1cFTOa5z0ms+DX1gn2ldhCydXGEo=
+dep	libgedit-amtk=5.10.0-r0	libgedit-amtk
+dep	pc:gio-2.0>=2.56	glib-dev
+dep	pc:gtk+-3.0>=3.22	gtk+3.0-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	vlc-dev
+version	3.0.23-r4
+description	Multi-platform MPEG, VCD/DVD, and DivX player (development files)
+url	https://www.videolan.org/vlc/
+license	GPL-2.0-or-later
+size	246156
+installed-size	1026340
+depends	vlc-libs=3.0.23-r4 pkgconfig
+origin	vlc
+repo	community
+file	vlc-dev-3.0.23-r4.apk
+checksum	Q1lpko98ZWAEdCIpC1zsJL6DFlYzA=
+dep	vlc-libs=3.0.23-r4	vlc-libs
+dep	pkgconfig	pkgconf

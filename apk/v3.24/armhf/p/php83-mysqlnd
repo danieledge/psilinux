@@ -1,0 +1,15 @@
+name	php83-mysqlnd
+version	8.3.36-r0
+description	PHP83 extension: MySQLnd
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	76467
+installed-size	175086
+depends	php83-common php83-openssl so:libc.musl-armhf.so.1
+origin	php83
+repo	community
+file	php83-mysqlnd-8.3.36-r0.apk
+checksum	Q1B0Zgl3RBV94UuiT1BeF3DQkE/aI=
+dep	php83-common	php83-common
+dep	php83-openssl	php83-openssl
+dep	so:libc.musl-armhf.so.1	musl

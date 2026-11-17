@@ -1,0 +1,18 @@
+name	qpdf-dev
+version	12.3.2-r0
+description	Command-line tools and library for transforming PDF files (development files)
+url	https://github.com/qpdf/qpdf
+license	Apache-2.0
+size	124023
+installed-size	495752
+depends	qpdf-libs=12.3.2-r0 pc:gnutls pc:libjpeg pc:openssl>=1.1.0 pc:zlib pkgconfig
+origin	qpdf
+repo	community
+file	qpdf-dev-12.3.2-r0.apk
+checksum	Q1S32TOYah8wH+3B9iJDIu/984E/k=
+dep	qpdf-libs=12.3.2-r0	qpdf-libs
+dep	pc:gnutls	gnutls-dev
+dep	pc:libjpeg	libjpeg-turbo-dev
+dep	pc:openssl>=1.1.0	openssl-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

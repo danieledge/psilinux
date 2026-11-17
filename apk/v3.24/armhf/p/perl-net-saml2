@@ -1,0 +1,39 @@
+name	perl-net-saml2
+version	0.85-r0
+description	SAML bindings and protocol implementation
+url	https://metacpan.org/release/Net-SAML2/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	30368
+installed-size	120863
+depends	perl perl-crypt-openssl-x509 perl-crypt-openssl-random perl-moosex-types-common perl-xml-generator perl-uri perl-http-message perl-datetime-format-xsd perl-moosex-types-datetime perl-libwww perl-moosex-types-uri perl-namespace-autoclean perl-xml-libxml perl-crypt-openssl-verify perl-datetime perl-moose perl-datetime-hires perl-lwp-protocol-https perl-uri-encode perl-xml-sig perl-file-slurper perl-xml-enc perl-urn-oasis-saml2 perl-types-serialiser perl-moosex-types perl-try-tiny perl-cryptx
+origin	perl-net-saml2
+repo	community
+file	perl-net-saml2-0.85-r0.apk
+checksum	Q1e5XTlmeB4mFeHJDdYQaYFiAzsOI=
+dep	perl	perl
+dep	perl-crypt-openssl-x509	perl-crypt-openssl-x509
+dep	perl-crypt-openssl-random	perl-crypt-openssl-random
+dep	perl-moosex-types-common	perl-moosex-types-common
+dep	perl-xml-generator	perl-xml-generator
+dep	perl-uri	perl-uri
+dep	perl-http-message	perl-http-message
+dep	perl-datetime-format-xsd	perl-datetime-format-xsd
+dep	perl-moosex-types-datetime	perl-moosex-types-datetime
+dep	perl-libwww	perl-libwww
+dep	perl-moosex-types-uri	perl-moosex-types-uri
+dep	perl-namespace-autoclean	perl-namespace-autoclean
+dep	perl-xml-libxml	perl-xml-libxml
+dep	perl-crypt-openssl-verify	perl-crypt-openssl-verify
+dep	perl-datetime	perl-datetime
+dep	perl-moose	perl-moose
+dep	perl-datetime-hires	perl-datetime-hires
+dep	perl-lwp-protocol-https	perl-lwp-protocol-https
+dep	perl-uri-encode	perl-uri-encode
+dep	perl-xml-sig	perl-xml-sig
+dep	perl-file-slurper	perl-file-slurper
+dep	perl-xml-enc	perl-xml-enc
+dep	perl-urn-oasis-saml2	perl-urn-oasis-saml2
+dep	perl-types-serialiser	perl-types-serialiser
+dep	perl-moosex-types	perl-moosex-types
+dep	perl-try-tiny	perl-try-tiny
+dep	perl-cryptx	perl-cryptx

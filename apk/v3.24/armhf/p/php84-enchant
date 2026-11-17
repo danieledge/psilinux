@@ -1,0 +1,15 @@
+name	php84-enchant
+version	8.4.27-r0
+description	PHP84 extension: enchant
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	9013
+installed-size	21846
+depends	php84-common so:libc.musl-armhf.so.1 so:libenchant-2.so.2
+origin	php84
+repo	community
+file	php84-enchant-8.4.27-r0.apk
+checksum	Q1NQHddhGKAEvYcMuYAptFHcI+bMo=
+dep	php84-common	php84-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libenchant-2.so.2	enchant2-libs

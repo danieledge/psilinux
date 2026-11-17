@@ -1,0 +1,15 @@
+name	libretro-dosbox
+version	0_git20220718-r0
+description	Port of DOSBox (upstream) to the libretro API
+url	https://github.com/libretro/dosbox-libretro
+license	GPL-2.0-only
+size	752010
+installed-size	1674304
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libretro-dosbox
+repo	community
+file	libretro-dosbox-0_git20220718-r0.apk
+checksum	Q1kmTPWh9Bl4qDDb4jZbxYEA0QDRs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

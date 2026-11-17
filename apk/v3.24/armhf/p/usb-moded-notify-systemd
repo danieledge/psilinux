@@ -1,0 +1,12 @@
+name	usb-moded-notify-systemd
+version	0.4.0-r0
+description	Simple daemon for handling usb-moded dialog events with notifications (systemd files)
+url	https://gitlab.postmarketos.org/postmarketOS/usb-moded-notify
+license	GPL-3.0-or-later
+size	1806
+installed-size	203
+depends	
+origin	usb-moded-notify
+repo	community
+file	usb-moded-notify-systemd-0.4.0-r0.apk
+checksum	Q1pTXtrEhWrpWvZAhxcbzRH8xXF4M=

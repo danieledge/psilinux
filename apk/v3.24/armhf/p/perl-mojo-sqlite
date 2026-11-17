@@ -1,0 +1,19 @@
+name	perl-mojo-sqlite
+version	4.0.0-r0
+description	Tiny Mojolicious wrapper for SQLite
+url	https://metacpan.org/release/Mojo-SQLite/
+license	Artistic-2.0
+size	16172
+installed-size	48223
+depends	perl perl-dbd-sqlite perl-dbi perl-mojolicious perl-sql-abstract-pg perl-uri perl-uri-db
+origin	perl-mojo-sqlite
+repo	community
+file	perl-mojo-sqlite-4.0.0-r0.apk
+checksum	Q1UIDZIq8fUGd6Tiu/Wyz7T/TFf+4=
+dep	perl	perl
+dep	perl-dbd-sqlite	perl-dbd-sqlite
+dep	perl-dbi	perl-dbi
+dep	perl-mojolicious	perl-mojolicious
+dep	perl-sql-abstract-pg	perl-sql-abstract-pg
+dep	perl-uri	perl-uri
+dep	perl-uri-db	perl-uri-db

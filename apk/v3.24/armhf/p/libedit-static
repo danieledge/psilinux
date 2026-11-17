@@ -1,0 +1,13 @@
+name	libedit-static
+version	20260508.3.1-r1
+description	BSD line editing library (static library)
+url	https://www.thrysoee.dk/editline
+license	BSD-3-Clause
+size	92923
+installed-size	251516
+depends	libedit-dev
+origin	libedit
+repo	main
+file	libedit-static-20260508.3.1-r1.apk
+checksum	Q1iwe0DqA39gT1f8Ug6e2sG4D0PG8=
+dep	libedit-dev	libedit-dev

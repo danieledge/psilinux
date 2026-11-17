@@ -1,0 +1,16 @@
+name	freeswitch-snmp
+version	1.10.12-r6
+description	Freeswitch SNMP module
+url	https://www.freeswitch.org/
+license	MPL-1.1
+size	7584
+installed-size	13616
+depends	so:libc.musl-armhf.so.1 so:libfreeswitch.so.1 so:libnetsnmp.so.45 so:libnetsnmpagent.so.45
+origin	freeswitch
+repo	main
+file	freeswitch-snmp-1.10.12-r6.apk
+checksum	Q1q45bkrzWqQGH+dd/Q5Hf3KtnMjA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreeswitch.so.1	freeswitch
+dep	so:libnetsnmp.so.45	net-snmp-libs
+dep	so:libnetsnmpagent.so.45	net-snmp-agent-libs

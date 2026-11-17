@@ -1,0 +1,15 @@
+name	avahi-compat-howl
+version	0.9_rc4-r0
+description	Libraries for howl compatibility
+url	https://www.avahi.org/
+license	LGPL-2.1-or-later
+size	18436
+installed-size	46200
+depends	so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-armhf.so.1
+origin	avahi
+repo	main
+file	avahi-compat-howl-0.9_rc4-r0.apk
+checksum	Q1x00FszPsTj3hyxWoBSZlpTbx8cA=
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libc.musl-armhf.so.1	musl

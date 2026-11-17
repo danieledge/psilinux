@@ -1,0 +1,13 @@
+name	libmaa
+version	1.5.1-r0
+description	Provides many low-level data structures which are helpful for writing compilers
+url	https://sourceforge.net/projects/dict/
+license	MIT
+size	33709
+installed-size	75104
+depends	so:libc.musl-armhf.so.1
+origin	libmaa
+repo	community
+file	libmaa-1.5.1-r0.apk
+checksum	Q13kVqnAtfck2p0rDU9clYxOKVfGc=
+dep	so:libc.musl-armhf.so.1	musl

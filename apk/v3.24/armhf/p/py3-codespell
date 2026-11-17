@@ -1,0 +1,14 @@
+name	py3-codespell
+version	2.4.2-r0
+description	Fix common misspellings in text files, primarily source code
+url	https://github.com/codespell-project/codespell/
+license	GPL-2.0-only
+size	348622
+installed-size	1688806
+depends	py3-chardet python3~3.14
+origin	py3-codespell
+repo	community
+file	py3-codespell-2.4.2-r0.apk
+checksum	Q1QLdgdL/OTpvupufXY842AbaMrc0=
+dep	py3-chardet	py3-chardet
+dep	python3~3.14	python3

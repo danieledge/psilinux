@@ -1,0 +1,18 @@
+name	perl-astro-montenbruck
+version	1.26-r1
+description	Lightweight Ephemeris
+url	https://metacpan.org/release/Astro-Montenbruck/
+license	Artistic-1.0-Perl
+size	54653
+installed-size	200746
+depends	perl perl-datetime perl-datetime-format-strptime perl-list-moreutils perl-readonly perl-test-number-delta
+origin	perl-astro-montenbruck
+repo	community
+file	perl-astro-montenbruck-1.26-r1.apk
+checksum	Q1tUPfUjlvvnXHQIql/pyyN7jDvEI=
+dep	perl	perl
+dep	perl-datetime	perl-datetime
+dep	perl-datetime-format-strptime	perl-datetime-format-strptime
+dep	perl-list-moreutils	perl-list-moreutils
+dep	perl-readonly	perl-readonly
+dep	perl-test-number-delta	perl-test-number-delta

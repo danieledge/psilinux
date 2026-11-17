@@ -1,0 +1,14 @@
+name	texmf-dist-langenglish-examples
+version	2026.0-r0
+description	texmf-dist: US and UK English (examples and documentation)
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	235330218
+installed-size	281062409
+depends	texmf-dist-langenglish texmf-dist-langenglish-doc
+origin	texmf-dist
+repo	community
+file	texmf-dist-langenglish-examples-2026.0-r0.apk
+checksum	Q1EVEBz2gav4ZedCu6SG0feTPJ6No=
+dep	texmf-dist-langenglish	texmf-dist-langenglish
+dep	texmf-dist-langenglish-doc	texmf-dist-langenglish-doc

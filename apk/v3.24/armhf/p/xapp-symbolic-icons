@@ -1,0 +1,14 @@
+name	xapp-symbolic-icons
+version	1.1.0-r0
+description	Symbolic icons for GTK applications and projects
+url	https://github.com/xapp-project/xapp-symbolic-icons
+license	GPL-3.0-only AND LGPL-3.0-only
+size	236631
+installed-size	998782
+depends	hicolor-icon-theme python3
+origin	xapp-symbolic-icons
+repo	community
+file	xapp-symbolic-icons-1.1.0-r0.apk
+checksum	Q1etia/puGO7IjPkMOW0Tcka3DTYs=
+dep	hicolor-icon-theme	hicolor-icon-theme
+dep	python3	python3

@@ -1,0 +1,17 @@
+name	kubeadm
+version	1.36.1-r2
+description	Kubernetes - kubeadm
+url	https://kubernetes.io/
+license	Apache-2.0
+size	20457019
+installed-size	75234772
+depends	iproute2 socat ethtool conntrack-tools cri-tools
+origin	kubernetes
+repo	community
+file	kubeadm-1.36.1-r2.apk
+checksum	Q1Zj4syLxSP2IkRmLNOJQlXtsHMaE=
+dep	iproute2	iproute2
+dep	socat	socat
+dep	ethtool	ethtool
+dep	conntrack-tools	conntrack-tools
+dep	cri-tools	cri-tools

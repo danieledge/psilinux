@@ -1,0 +1,23 @@
+name	ayatana-ido
+version	0.10.4-r1
+description	Ayatana Indicator Display Objects
+url	https://github.com/AyatanaIndicators/ayatana-ido
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only
+size	54777
+installed-size	132328
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0
+origin	ayatana-ido
+repo	community
+file	ayatana-ido-0.10.4-r1.apk
+checksum	Q1W+5NWSAbM747Tyvsv2D4RAXBLMA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango

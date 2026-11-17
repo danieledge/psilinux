@@ -1,0 +1,15 @@
+name	espeak
+version	1.48.04-r5
+description	Speech synthesizer for English and other languages
+url	https://espeak.sourceforge.net/
+license	GPL-3.0-or-later
+size	1262213
+installed-size	2310647
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libportaudio.so.2
+origin	espeak
+repo	main
+file	espeak-1.48.04-r5.apk
+checksum	Q1EWDYp7Nj/1G7OOvlCe4ufTJ8boM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libportaudio.so.2	portaudio

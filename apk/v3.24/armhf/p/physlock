@@ -1,0 +1,15 @@
+name	physlock
+version	13_git20200116-r3
+description	Lightweight linux console locking tool
+url	https://github.com/muennich/physlock
+license	GPL-2.0-or-later
+size	7841
+installed-size	13759
+depends	so:libc.musl-armhf.so.1 so:libpam.so.0 so:libpam_misc.so.0
+origin	physlock
+repo	community
+file	physlock-13_git20200116-r3.apk
+checksum	Q1DT/Ex+Kw8dMDQ8sKAZ7uZ0cRBUM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpam.so.0	linux-pam
+dep	so:libpam_misc.so.0	linux-pam

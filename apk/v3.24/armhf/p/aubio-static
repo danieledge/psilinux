@@ -1,0 +1,13 @@
+name	aubio-static
+version	0.4.9-r6
+description	tool designed for the extraction of annotations from audio signals (static library)
+url	https://aubio.org
+license	GPL-3.0-or-later
+size	306347
+installed-size	808024
+depends	aubio-dev
+origin	aubio
+repo	community
+file	aubio-static-0.4.9-r6.apk
+checksum	Q1nMX9/XTBaaL8sBrzZzhxC1pTOs8=
+dep	aubio-dev	aubio-dev

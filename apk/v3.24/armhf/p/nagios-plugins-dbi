@@ -1,0 +1,16 @@
+name	nagios-plugins-dbi
+version	2.5-r0
+description	Nagios plugin check_dbi
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	53491
+installed-size	104092
+depends	nagios-plugins so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libdbi.so.1
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-dbi-2.5-r0.apk
+checksum	Q1ZqEMYaL7GiZgWuhOHDSM4P1wLa8=
+dep	nagios-plugins	nagios-plugins
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libdbi.so.1	libdbi

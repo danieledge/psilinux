@@ -1,0 +1,14 @@
+name	soundtouch-dev
+version	2.4.1-r0
+description	Audio Processing library for changing Tempo, Pitch and Playback Rates (development files)
+url	http://www.surina.net/soundtouch/
+license	LGPL-2.0-or-later
+size	16886
+installed-size	56383
+depends	soundtouch=2.4.1-r0 pkgconfig
+origin	soundtouch
+repo	community
+file	soundtouch-dev-2.4.1-r0.apk
+checksum	Q1sI2t/EYdGxp0jbU+QWSo6cJISk4=
+dep	soundtouch=2.4.1-r0	soundtouch
+dep	pkgconfig	pkgconf

@@ -1,0 +1,12 @@
+name	freeradius-dbg
+version	3.0.27-r3
+description	RADIUS (Remote Authentication Dial-In User Service) server (debug symbols)
+url	https://freeradius.org/
+license	GPL-2.0-or-later
+size	2802729
+installed-size	5959736
+depends	!freeradius-dhcp<3.0.27-r3 !freeradius-dhcp>3.0.27-r3 !freeradius-eap<3.0.27-r3 !freeradius-eap>3.0.27-r3 !freeradius-krb5<3.0.27-r3 !freeradius-krb5>3.0.27-r3 !freeradius-ldap<3.0.27-r3 !freeradius-ldap>3.0.27-r3 !freeradius-lib<3.0.27-r3 !freeradius-lib>3.0.27-r3 !freeradius-mysql<3.0.27-r3 !freeradius-mysql>3.0.27-r3 !freeradius-pam<3.0.27-r3 !freeradius-pam>3.0.27-r3 !freeradius-perl<3.0.27-r3 !freeradius-perl>3.0.27-r3 !freeradius-postgresql<3.0.27-r3 !freeradius-postgresql>3.0.27-r3 !freeradius-python3<3.0.27-r3 !freeradius-python3>3.0.27-r3 !freeradius-redis<3.0.27-r3 !freeradius-redis>3.0.27-r3 !freeradius-rest<3.0.27-r3 !freeradius-rest>3.0.27-r3 !freeradius-sql<3.0.27-r3 !freeradius-sql>3.0.27-r3 !freeradius-sqlite<3.0.27-r3 !freeradius-sqlite>3.0.27-r3 !freeradius-unixodbc<3.0.27-r3 !freeradius-unixodbc>3.0.27-r3 !freeradius-utils<3.0.27-r3 !freeradius-utils>3.0.27-r3 !freeradius<3.0.27-r3 !freeradius>3.0.27-r3
+origin	freeradius
+repo	main
+file	freeradius-dbg-3.0.27-r3.apk
+checksum	Q1saHM6bsrIa9f0bLRjL8KoeROJWs=

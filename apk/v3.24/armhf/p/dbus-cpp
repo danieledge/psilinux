@@ -1,0 +1,20 @@
+name	dbus-cpp
+version	5.0.6-r1
+description	A header-only dbus-binding leveraging C++-11
+url	https://gitlab.com/ubports/core/lib-cpp/dbus-cpp
+license	LGPL-3.0-only
+size	305638
+installed-size	941195
+depends	so:libboost_filesystem.so.1.84.0 so:libboost_program_options.so.1.84.0 so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libgcc_s.so.1 so:libprocess-cpp.so.3 so:libstdc++.so.6 so:libxml2.so.2
+origin	dbus-cpp
+repo	community
+file	dbus-cpp-5.0.6-r1.apk
+checksum	Q1Ozk3bHkWl4SpjBy1ziPw+dcJpaA=
+dep	so:libboost_filesystem.so.1.84.0	boost1.84-filesystem
+dep	so:libboost_program_options.so.1.84.0	boost1.84-program_options
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libprocess-cpp.so.3	process-cpp
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxml2.so.2	libxml2

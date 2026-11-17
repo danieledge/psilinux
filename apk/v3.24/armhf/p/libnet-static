@@ -1,0 +1,13 @@
+name	libnet-static
+version	1.3-r0
+description	A generic networking API that provides access to several protocols. (static library)
+url	https://sourceforge.net/projects/libnet-dev/
+license	BSD-2-Clause
+size	51537
+installed-size	178868
+depends	libnet-dev
+origin	libnet
+repo	main
+file	libnet-static-1.3-r0.apk
+checksum	Q1Z/UBF/Nk9HNaX12ufAHXKahxGHQ=
+dep	libnet-dev	libnet-dev

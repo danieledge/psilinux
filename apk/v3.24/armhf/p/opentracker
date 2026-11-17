@@ -1,0 +1,14 @@
+name	opentracker
+version	0_git20210823-r2
+description	an open and free bittorrent tracker
+url	http://erdgeist.org/arts/software/opentracker/
+license	Beerware
+size	49804
+installed-size	91524
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	opentracker
+repo	community
+file	opentracker-0_git20210823-r2.apk
+checksum	Q137LEYrAj+gSjvZN81xRYeFVFYD0=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

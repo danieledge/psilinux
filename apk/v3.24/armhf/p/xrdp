@@ -1,0 +1,25 @@
+name	xrdp
+version	0.10.6-r0
+description	Open source RDP server
+url	https://www.xrdp.org/
+license	Apache-2.0
+size	599678
+installed-size	3397462
+depends	xinit bash /bin/sh so:libX11.so.6 so:libXfixes.so.3 so:libXrandr.so.2 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libfuse3.so.4 so:libopus.so.0 so:libpam.so.0 so:libssl.so.3 so:libturbojpeg.so.0
+origin	xrdp
+repo	community
+file	xrdp-0.10.6-r0.apk
+checksum	Q1gdBaJ2wqTKSgDon3xf6sxGHY/xM=
+dep	xinit	xinit
+dep	bash	bash
+dep	/bin/sh	busybox-binsh
+dep	so:libX11.so.6	libx11
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libfuse3.so.4	fuse3-libs
+dep	so:libopus.so.0	opus
+dep	so:libpam.so.0	linux-pam
+dep	so:libssl.so.3	libssl3
+dep	so:libturbojpeg.so.0	libturbojpeg

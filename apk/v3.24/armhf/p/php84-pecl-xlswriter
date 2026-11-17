@@ -1,0 +1,14 @@
+name	php84-pecl-xlswriter
+version	2.0.2-r0
+description	PHP 8.4 extension for creating and reader XLSX files - PECL
+url	https://pecl.php.net/package/xlswriter
+license	BSD-2-Clause
+size	282631
+installed-size	684692
+depends	php84-common so:libc.musl-armhf.so.1
+origin	php84-pecl-xlswriter
+repo	community
+file	php84-pecl-xlswriter-2.0.2-r0.apk
+checksum	Q1aS/uF6K50y8wa1SCl5aIZVGfb5k=
+dep	php84-common	php84-common
+dep	so:libc.musl-armhf.so.1	musl

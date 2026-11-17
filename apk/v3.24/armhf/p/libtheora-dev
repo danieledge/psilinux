@@ -1,0 +1,16 @@
+name	libtheora-dev
+version	1.2.0-r1
+description	An open video codec developed by the Xiph.org (development files)
+url	https://www.xiph.org
+license	BSD-3-Clause
+size	30076
+installed-size	106007
+depends	libogg-dev libtheora=1.2.0-r1 pc:ogg>=1.3.4 pkgconfig
+origin	libtheora
+repo	main
+file	libtheora-dev-1.2.0-r1.apk
+checksum	Q1k23hIlkmXryDylp0RRzkIFwIxxE=
+dep	libogg-dev	libogg-dev
+dep	libtheora=1.2.0-r1	libtheora
+dep	pc:ogg>=1.3.4	libogg-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,28 @@
+name	ayatana-indicator-datetime
+version	25.4.0-r0
+description	Ayatana Indicator Date & Time Applet
+url	https://github.com/AyatanaIndicators/ayatana-indicator-datetime
+license	GPL-3.0-only
+size	236906
+installed-size	673951
+depends	so:libaccounts-glib.so.0 so:libayatana-common.so.0 so:libc.musl-armhf.so.1 so:libecal-2.0.so.3 so:libedataserver-1.2.so.27 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstreamer-1.0.so.0 so:libical-glib.so.3 so:libintl.so.8 so:libmessaging-menu.so.0 so:libnotify.so.4 so:libstdc++.so.6 so:libuuid.so.1
+origin	ayatana-indicator-datetime
+repo	community
+file	ayatana-indicator-datetime-25.4.0-r0.apk
+checksum	Q1Fr90rXInl/phc4FZeXroJZdr7Hg=
+dep	so:libaccounts-glib.so.0	libaccounts-glib
+dep	so:libayatana-common.so.0	libayatana-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libecal-2.0.so.3	evolution-data-server
+dep	so:libedataserver-1.2.so.27	evolution-data-server
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libical-glib.so.3	libical
+dep	so:libintl.so.8	libintl
+dep	so:libmessaging-menu.so.0	ayatana-indicator-messages
+dep	so:libnotify.so.4	libnotify
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libuuid.so.1	libuuid

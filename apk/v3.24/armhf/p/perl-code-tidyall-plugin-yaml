@@ -1,0 +1,16 @@
+name	perl-code-tidyall-plugin-yaml
+version	0.000001-r1
+description	Use the YAML module to tidy YAML documents with tidyall
+url	https://metacpan.org/release/Code-TidyAll-Plugin-YAML/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	2987
+installed-size	1965
+depends	perl perl-moo perl-code-tidyall perl-yaml
+origin	perl-code-tidyall-plugin-yaml
+repo	community
+file	perl-code-tidyall-plugin-yaml-0.000001-r1.apk
+checksum	Q1yVFZ0qYFFibAs+3bRZevNj1GJVw=
+dep	perl	perl
+dep	perl-moo	perl-moo
+dep	perl-code-tidyall	perl-code-tidyall
+dep	perl-yaml	perl-yaml

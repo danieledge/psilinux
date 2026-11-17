@@ -1,0 +1,13 @@
+name	emacs-pyim-smzmdict
+version	0_git20250621-r1
+description	Sanma(triple) Zhengma dict for Emacs-pyim
+url	https://github.com/cor5corpii/pyim-smzmdict
+license	GPL-3.0-or-later
+size	2978534
+installed-size	8089369
+depends	cmd:emacs
+origin	emacs-pyim-smzmdict
+repo	community
+file	emacs-pyim-smzmdict-0_git20250621-r1.apk
+checksum	Q1/5unuEQeDQJcvDxMBsqZG5vEQZ0=
+dep	cmd:emacs	emacs-gtk3

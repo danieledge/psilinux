@@ -1,0 +1,14 @@
+name	py3-dj-database-url
+version	3.1.2-r0
+description	Use Database URLs in your Django Application
+url	https://pypi.org/project/dj-database-url/
+license	BSD-3-Clause
+size	9495
+installed-size	23667
+depends	py3-django python3~3.14
+origin	py3-dj-database-url
+repo	community
+file	py3-dj-database-url-3.1.2-r0.apk
+checksum	Q1rLZ/k5NNq5Ka6jFZSf9G363Yck8=
+dep	py3-django	py3-django
+dep	python3~3.14	python3

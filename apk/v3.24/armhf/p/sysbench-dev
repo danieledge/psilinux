@@ -1,0 +1,15 @@
+name	sysbench-dev
+version	1.0.20-r5
+description	Scriptable database and system performance benchmark (development files)
+url	https://github.com/akopytov/sysbench
+license	GPL-2.0-or-later
+size	13817
+installed-size	42922
+depends	libaio-dev mariadb-dev ck-dev
+origin	sysbench
+repo	community
+file	sysbench-dev-1.0.20-r5.apk
+checksum	Q1CI9/0FCbOeDTOfdSvi5+zq0AA+Y=
+dep	libaio-dev	libaio-dev
+dep	mariadb-dev	mariadb-dev
+dep	ck-dev	ck-dev

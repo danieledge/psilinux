@@ -1,0 +1,14 @@
+name	nauty-dev
+version	2.9.3-r1
+description	Compute automorphism groups of graphs and digraphs (development files)
+url	https://pallini.di.uniroma1.it/
+license	Apache-2.0
+size	2877712
+installed-size	6314893
+depends	nauty-libs=2.9.3-r1 pkgconfig
+origin	nauty
+repo	community
+file	nauty-dev-2.9.3-r1.apk
+checksum	Q15up2NWx7qD3o/AvGvzC1la5bJxk=
+dep	nauty-libs=2.9.3-r1	nauty-libs
+dep	pkgconfig	pkgconf

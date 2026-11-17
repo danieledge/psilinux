@@ -1,0 +1,19 @@
+name	twm
+version	1.0.13.1-r0
+description	Tom's or Tab Window Manager for the X Window System
+url	https://www.x.org/archive/X11R6.8.1/doc/twm.1.html
+license	MIT
+size	77578
+installed-size	152495
+depends	so:libICE.so.6 so:libSM.so.6 so:libX11.so.6 so:libXext.so.6 so:libXmu.so.6 so:libXt.so.6 so:libc.musl-armhf.so.1
+origin	twm
+repo	community
+file	twm-1.0.13.1-r0.apk
+checksum	Q10+U44TsbuJ0gVBry639olGu1M7Q=
+dep	so:libICE.so.6	libice
+dep	so:libSM.so.6	libsm
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXmu.so.6	libxmu
+dep	so:libXt.so.6	libxt
+dep	so:libc.musl-armhf.so.1	musl

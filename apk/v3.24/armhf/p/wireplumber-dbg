@@ -1,0 +1,12 @@
+name	wireplumber-dbg
+version	0.5.15-r0
+description	Session / policy manager implementation for PipeWire (debug symbols)
+url	https://pipewire.org/
+license	LGPL-2.1-or-later
+size	1276771
+installed-size	3045908
+depends	!wireplumber-libs<0.5.15-r0 !wireplumber-libs>0.5.15-r0 !wireplumber-logind<0.5.15-r0 !wireplumber-logind>0.5.15-r0 !wireplumber<0.5.15-r0 !wireplumber>0.5.15-r0
+origin	wireplumber
+repo	community
+file	wireplumber-dbg-0.5.15-r0.apk
+checksum	Q1zv5/WciJB5PQ9X2osmfI04zix5s=

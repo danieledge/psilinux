@@ -1,0 +1,15 @@
+name	perl-cairo
+version	1.109-r5
+description	Perl interface to the cairo 2d vector graphics library
+url	https://metacpan.org/release/Cairo/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	71321
+installed-size	237608
+depends	perl so:libc.musl-armhf.so.1 so:libcairo.so.2
+origin	perl-cairo
+repo	community
+file	perl-cairo-1.109-r5.apk
+checksum	Q1UuYLfMeT5DOX91fzYgcGKG/Yi4M=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo

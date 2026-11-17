@@ -1,0 +1,15 @@
+name	stalonetray
+version	0.8.5-r0
+description	Stalonetray is a stand-alone freedesktop.org and KDE system tray
+url	https://stalonetray.sourceforge.net/
+license	GPL-2.0-only
+size	55186
+installed-size	120674
+depends	so:libX11.so.6 so:libXpm.so.4 so:libc.musl-armhf.so.1
+origin	stalonetray
+repo	community
+file	stalonetray-0.8.5-r0.apk
+checksum	Q1w7S2YW8x4yQPMxv6TOwrYwovTY8=
+dep	so:libX11.so.6	libx11
+dep	so:libXpm.so.4	libxpm
+dep	so:libc.musl-armhf.so.1	musl

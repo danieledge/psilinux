@@ -1,0 +1,15 @@
+name	libjpeg-turbo-utils
+version	3.1.3-r0
+description	Utilities for manipulating JPEG images
+url	https://libjpeg-turbo.org/
+license	BSD-3-Clause AND IJG AND Zlib
+size	101476
+installed-size	224916
+depends	so:libc.musl-armhf.so.1 so:libjpeg.so.8 so:libturbojpeg.so.0
+origin	libjpeg-turbo
+repo	main
+file	libjpeg-turbo-utils-3.1.3-r0.apk
+checksum	Q1CbheeHHHjl6MqKFj0X4SqH68utU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libturbojpeg.so.0	libturbojpeg

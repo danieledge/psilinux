@@ -1,0 +1,16 @@
+name	gtk-frdp-dev
+version	3.37.1_git20240313-r2
+description	RDP viewer widget for GTK (development files)
+url	https://gitlab.gnome.org/GNOME/gtk-frdp
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	8972
+installed-size	50275
+depends	gtk-frdp gtk+3.0-dev pc:glib-2.0 pkgconfig
+origin	gtk-frdp
+repo	community
+file	gtk-frdp-dev-3.37.1_git20240313-r2.apk
+checksum	Q1dRb1PBct+a47zDtzT+8E9VcyVdw=
+dep	gtk-frdp	gtk-frdp
+dep	gtk+3.0-dev	gtk+3.0-dev
+dep	pc:glib-2.0	glib-dev
+dep	pkgconfig	pkgconf

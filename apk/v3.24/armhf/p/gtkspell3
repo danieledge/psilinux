@@ -1,0 +1,18 @@
+name	gtkspell3
+version	3.0.10-r3
+description	rovides word-processor-style highlighting and replacement of misspelled words in a GtkTextView widget
+url	https://gtkspell.sourceforge.net/
+license	GPL-2.0-or-later
+size	14709
+installed-size	32488
+depends	so:libc.musl-armhf.so.1 so:libenchant-2.so.2 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8
+origin	gtkspell3
+repo	community
+file	gtkspell3-3.0.10-r3.apk
+checksum	Q1/dSz8vEZ53rOmHdos7+ziK/eE88=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libenchant-2.so.2	enchant2-libs
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl

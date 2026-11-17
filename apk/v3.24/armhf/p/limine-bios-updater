@@ -1,0 +1,15 @@
+name	limine-bios-updater
+version	12.10.0-r0
+description	Limine auto-updater for BIOS
+url	https://limine-bootloader.org
+license	BSD-2-Clause
+size	2767
+installed-size	1203
+depends	limine-tool=12.10.0-r0 limine-bios=12.10.0-r0 /bin/sh
+origin	limine
+repo	main
+file	limine-bios-updater-12.10.0-r0.apk
+checksum	Q1dThdiF9wwVlCXNFRRQe2/TAkhIE=
+dep	limine-tool=12.10.0-r0	limine-tool
+dep	limine-bios=12.10.0-r0	limine-bios
+dep	/bin/sh	busybox-binsh

@@ -1,0 +1,14 @@
+name	jq
+version	1.8.2-r0
+description	A lightweight and flexible command-line JSON processor
+url	https://jqlang.github.io/jq/
+license	MIT
+size	171255
+installed-size	375260
+depends	so:libc.musl-armhf.so.1 so:libonig.so.5
+origin	jq
+repo	main
+file	jq-1.8.2-r0.apk
+checksum	Q1bFwUVBjrxOaukU7PfL283JeHCco=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libonig.so.5	oniguruma

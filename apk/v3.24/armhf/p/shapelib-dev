@@ -1,0 +1,15 @@
+name	shapelib-dev
+version	1.6.2-r0
+description	C library for reading, writing and updating ESRI Shapefiles, and the associated attribute file (development files)
+url	http://shapelib.maptools.org/
+license	LGPL-2.0-only OR MIT
+size	6828
+installed-size	23461
+depends	shapelib=1.6.2-r0 shapelib=1.6.2-r0 pkgconfig
+origin	shapelib
+repo	community
+file	shapelib-dev-1.6.2-r0.apk
+checksum	Q1TR7rhYgIW8+JIqxG9wCJ2ABb67M=
+dep	shapelib=1.6.2-r0	shapelib
+dep	shapelib=1.6.2-r0	shapelib
+dep	pkgconfig	pkgconf

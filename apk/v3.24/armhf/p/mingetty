@@ -1,0 +1,13 @@
+name	mingetty
+version	1.08-r7
+description	A compact getty program for virtual consoles only
+url	https://sourceforge.net/projects/mingetty/
+license	GPL-2.0-or-later
+size	7080
+installed-size	13540
+depends	so:libc.musl-armhf.so.1
+origin	mingetty
+repo	community
+file	mingetty-1.08-r7.apk
+checksum	Q1eV+Abc9+UL8N9Hkf9iwnEZSpSG4=
+dep	so:libc.musl-armhf.so.1	musl

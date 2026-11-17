@@ -1,0 +1,13 @@
+name	execline-static
+version	2.9.9.1-r0
+description	A small scripting language, to be used in place of a shell in non-interactive scripts. (static library)
+url	https://skarnet.org/software/execline/
+license	ISC
+size	17906
+installed-size	60506
+depends	execline-dev
+origin	execline
+repo	main
+file	execline-static-2.9.9.1-r0.apk
+checksum	Q1dmz0Jn0jMPqCmnFqVn1uIfRKctk=
+dep	execline-dev	execline-dev

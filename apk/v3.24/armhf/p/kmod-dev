@@ -1,0 +1,18 @@
+name	kmod-dev
+version	34.2-r1
+description	Linux kernel module management utilities (development files)
+url	http://git.kernel.org/?p=utils/kernel/kmod/kmod.git;a=summary
+license	GPL-2.0-or-later
+size	11786
+installed-size	46074
+depends	kmod-libs=34.2-r1 pc:libcrypto>=1.1.0 pc:liblzma>=4.99 pc:libzstd>=1.4.4 pc:zlib>=0 pkgconfig
+origin	kmod
+repo	main
+file	kmod-dev-34.2-r1.apk
+checksum	Q1hO/eESSDj9JFpz6OgFrsQWAtV0Y=
+dep	kmod-libs=34.2-r1	kmod-libs
+dep	pc:libcrypto>=1.1.0	openssl-dev
+dep	pc:liblzma>=4.99	xz-dev
+dep	pc:libzstd>=1.4.4	zstd-dev
+dep	pc:zlib>=0	zlib-dev
+dep	pkgconfig	pkgconf

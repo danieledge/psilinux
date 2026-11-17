@@ -1,0 +1,17 @@
+name	acf-provisioning
+version	0.10.1-r3
+description	ACF for provisioning templated configs to devices
+url	https://gitlab.alpinelinux.org/acf/acf-provisioning
+license	GPL-2.0-only
+size	69024
+installed-size	624818
+depends	acf-core lua-sql-postgres postgresql-client lua-posixtz lua-luaxml
+origin	acf-provisioning
+repo	main
+file	acf-provisioning-0.10.1-r3.apk
+checksum	Q1fCMAw+qmZ8mq062LLsFF//bDPDY=
+dep	acf-core	acf-core
+dep	lua-sql-postgres	lua-sql-postgres
+dep	postgresql-client	postgresql18-client
+dep	lua-posixtz	lua-posixtz
+dep	lua-luaxml	lua-luaxml

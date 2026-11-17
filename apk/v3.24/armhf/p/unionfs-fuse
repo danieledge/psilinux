@@ -1,0 +1,15 @@
+name	unionfs-fuse
+version	3.4-r1
+description	Union Filesystem in Userspace
+url	https://github.com/rpodgorny/unionfs-fuse
+license	BSD-3-Clause
+size	47765
+installed-size	109524
+depends	fuse3 so:libc.musl-armhf.so.1 so:libfuse3.so.4
+origin	unionfs-fuse
+repo	main
+file	unionfs-fuse-3.4-r1.apk
+checksum	Q12KJq1hfLCPf6n0liixSP3145RNM=
+dep	fuse3	fuse3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfuse3.so.4	fuse3-libs

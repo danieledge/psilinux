@@ -1,0 +1,16 @@
+name	zam-plugins-ladspa
+version	4.5-r0
+description	Collection of LADSPA/LV2/VST/JACK audio plugins for high-quality processing (ladspa integration)
+url	https://github.com/zamaudio/zam-plugins
+license	GPL-2.0-or-later
+size	96482
+installed-size	359288
+depends	so:libc.musl-armhf.so.1 so:libfftw3f.so.3 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	zam-plugins
+repo	community
+file	zam-plugins-ladspa-4.5-r0.apk
+checksum	Q1UMXREWKmDPmk1ZBc+EyKpt5XWRw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfftw3f.so.3	fftw-single-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,13 @@
+name	dnstracer
+version	1.10-r3
+description	Trace a chain of DNS servers to the source
+url	http://www.mavetju.org/unix/dnstracer.php
+license	BSD-2-Clause
+size	14572
+installed-size	35004
+depends	so:libc.musl-armhf.so.1
+origin	dnstracer
+repo	community
+file	dnstracer-1.10-r3.apk
+checksum	Q1b37IryTC2bqy4l6/yKbo8Xo87/s=
+dep	so:libc.musl-armhf.so.1	musl

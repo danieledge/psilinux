@@ -1,0 +1,25 @@
+name	kde-applications-utils
+version	26.04.2-r0
+description	KDE Applications meta package
+url	https://kde.org/applications/
+license	GPL-3.0-or-later
+size	1341
+installed-size	0
+depends	ark filelight kbackup kcalc kcharselect kdebugsettings kdf keditbookmarks kteatime ktimer kwalletmanager print-manager sweeper
+origin	kde-applications
+repo	community
+file	kde-applications-utils-26.04.2-r0.apk
+checksum	Q1nOuY8zJtdSuhEgKQQEiMI+/50d8=
+dep	ark	!
+dep	filelight	!
+dep	kbackup	!
+dep	kcalc	!
+dep	kcharselect	!
+dep	kdebugsettings	!
+dep	kdf	!
+dep	keditbookmarks	!
+dep	kteatime	!
+dep	ktimer	!
+dep	kwalletmanager	!
+dep	print-manager	!
+dep	sweeper	!

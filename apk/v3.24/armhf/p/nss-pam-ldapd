@@ -1,0 +1,17 @@
+name	nss-pam-ldapd
+version	0.9.11-r7
+description	An nsswitch module which uses directory servers
+url	https://arthurdejong.org/nss-pam-ldapd/
+license	LGPL-2.1-or-later
+size	135219
+installed-size	425658
+depends	/bin/sh so:libc.musl-armhf.so.1 so:liblber.so.2 so:libldap.so.2 so:libpam.so.0
+origin	nss-pam-ldapd
+repo	main
+file	nss-pam-ldapd-0.9.11-r7.apk
+checksum	Q1Uy2MvywuaReEiIYpTdSlI7Lok8c=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap
+dep	so:libpam.so.0	linux-pam

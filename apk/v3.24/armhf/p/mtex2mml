@@ -1,0 +1,13 @@
+name	mtex2mml
+version	1.3.2-r0
+description	A Bison grammar to convert TeX math into MathML
+url	https://github.com/gjtorikian/mtex2MML
+license	GPL-2.0 MPL-2.0 LGPL-2.1
+size	78283
+installed-size	210788
+depends	so:libc.musl-armhf.so.1
+origin	mtex2mml
+repo	community
+file	mtex2mml-1.3.2-r0.apk
+checksum	Q1EGWQvG26ovKO5q7J7NVB0TdhtPA=
+dep	so:libc.musl-armhf.so.1	musl

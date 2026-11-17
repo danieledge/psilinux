@@ -1,0 +1,13 @@
+name	libnvmemi
+version	1.16.2-r0
+description	C Library for NVM Express on Linux
+url	https://github.com/linux-nvme/libnvme/
+license	LGPL-2.1-or-later
+size	16913
+installed-size	34084
+depends	so:libc.musl-armhf.so.1
+origin	libnvme
+repo	main
+file	libnvmemi-1.16.2-r0.apk
+checksum	Q1AtNL473zzj+uF9U3ZxWAaIEJ9LY=
+dep	so:libc.musl-armhf.so.1	musl

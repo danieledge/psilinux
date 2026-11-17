@@ -1,0 +1,15 @@
+name	freeunit-perl
+version	1.37.2-r0
+description	perl module for FreeUnit
+url	https://freeunit.org/
+license	Apache-2.0
+size	42817
+installed-size	83312
+depends	freeunit=1.37.2-r0 so:libc.musl-armhf.so.1 so:libperl.so
+origin	freeunit
+repo	community
+file	freeunit-perl-1.37.2-r0.apk
+checksum	Q1kHjyJNjGawwFbRj3j74pyC/q2JM=
+dep	freeunit=1.37.2-r0	freeunit
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libperl.so	perl

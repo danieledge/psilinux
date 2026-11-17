@@ -1,0 +1,13 @@
+name	corkscrew
+version	2.0_git20190118-r1
+description	Tool for tunneling SSH through HTTP proxies
+url	https://github.com/bryanpkc/corkscrew
+license	GPL-2.0-or-later
+size	5236
+installed-size	9392
+depends	so:libc.musl-armhf.so.1
+origin	corkscrew
+repo	community
+file	corkscrew-2.0_git20190118-r1.apk
+checksum	Q1D4XXmUxepyQvJvinEFSCtrPTpo8=
+dep	so:libc.musl-armhf.so.1	musl

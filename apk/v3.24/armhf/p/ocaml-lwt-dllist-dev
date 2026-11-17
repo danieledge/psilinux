@@ -1,0 +1,14 @@
+name	ocaml-lwt-dllist-dev
+version	1.0.1-r5
+description	Mutable doubly-linked list with Lwt iterators (development files)
+url	https://github.com/mirage/lwt-dllist
+license	MIT
+size	40487
+installed-size	109025
+depends	ocaml-lwt-dllist=1.0.1-r5 ocaml-lwt-dev
+origin	ocaml-lwt-dllist
+repo	community
+file	ocaml-lwt-dllist-dev-1.0.1-r5.apk
+checksum	Q1WuaS+R10a2yg3HIfppoq//iNfUI=
+dep	ocaml-lwt-dllist=1.0.1-r5	ocaml-lwt-dllist
+dep	ocaml-lwt-dev	ocaml-lwt-dev

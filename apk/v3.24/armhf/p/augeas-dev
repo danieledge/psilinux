@@ -1,0 +1,15 @@
+name	augeas-dev
+version	1.14.1-r0
+description	A configuration editing tool (development files)
+url	http://augeas.net
+license	LGPL-2.1-or-later
+size	12933
+installed-size	36496
+depends	augeas-libs=1.14.1-r0 pc:libxml-2.0 pkgconfig
+origin	augeas
+repo	main
+file	augeas-dev-1.14.1-r0.apk
+checksum	Q1quKCcd8BJhxPOk73rDcfEegtZOM=
+dep	augeas-libs=1.14.1-r0	augeas-libs
+dep	pc:libxml-2.0	libxml2-dev
+dep	pkgconfig	pkgconf

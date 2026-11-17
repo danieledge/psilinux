@@ -1,0 +1,25 @@
+name	zeitgeist
+version	1.0.4-r5
+description	Activity logging framework
+url	https://zeitgeist.freedesktop.org/
+license	LGPL-2.1-or-later
+size	224203
+installed-size	712278
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libjson-glib-1.0.so.0 so:libsqlite3.so.0 so:libstdc++.so.6 so:libtelepathy-glib.so.0 so:libxapian.so.45 so:libzeitgeist-2.0.so.0
+origin	zeitgeist
+repo	community
+file	zeitgeist-1.0.4-r5.apk
+checksum	Q1Pt81UMg/zHoSw+IyOK0t/3R6C0Q=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtelepathy-glib.so.0	telepathy-glib
+dep	so:libxapian.so.45	libxapian
+dep	so:libzeitgeist-2.0.so.0	libzeitgeist

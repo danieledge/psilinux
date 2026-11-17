@@ -1,0 +1,14 @@
+name	jemalloc-dev
+version	5.3.0-r6
+description	general purpose malloc(3) implementation that emphasizes fragmentation avoidance and scalable concurrency support (development files)
+url	http://jemalloc.net
+license	BSD-2-Clause
+size	6654
+installed-size	18246
+depends	jemalloc=5.3.0-r6 pkgconfig
+origin	jemalloc
+repo	main
+file	jemalloc-dev-5.3.0-r6.apk
+checksum	Q1xX5A1+ZgUGGqPTn8qv/J0r2YPeU=
+dep	jemalloc=5.3.0-r6	jemalloc
+dep	pkgconfig	pkgconf

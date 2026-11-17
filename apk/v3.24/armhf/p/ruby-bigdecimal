@@ -1,0 +1,15 @@
+name	ruby-bigdecimal
+version	3.1.8-r0
+description	Arbitrary-precision decimal floating-point number library for Ruby
+url	https://github.com/ruby/bigdecimal
+license	BSD-2-Clause AND Ruby
+size	110755
+installed-size	221802
+depends	ruby so:libc.musl-armhf.so.1 so:libruby.so.3.4
+origin	ruby-bigdecimal
+repo	main
+file	ruby-bigdecimal-3.1.8-r0.apk
+checksum	Q1m/w7s+eGNT3n47hBCWWLpcMcMpo=
+dep	ruby	ruby
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libruby.so.3.4	ruby-libs

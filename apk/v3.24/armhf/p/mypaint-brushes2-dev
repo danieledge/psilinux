@@ -1,0 +1,14 @@
+name	mypaint-brushes2-dev
+version	2.0.2-r1
+description	default MyPaint brushes (version 2)
+url	https://github.com/mypaint/mypaint-brushes
+license	CC0-1.0
+size	1780
+installed-size	277
+depends	mypaint-brushes2=2.0.2-r1 pkgconfig
+origin	mypaint-brushes2
+repo	community
+file	mypaint-brushes2-dev-2.0.2-r1.apk
+checksum	Q1oHjUL/BoH5qjafRhN+sCEvWW48A=
+dep	mypaint-brushes2=2.0.2-r1	mypaint-brushes2
+dep	pkgconfig	pkgconf

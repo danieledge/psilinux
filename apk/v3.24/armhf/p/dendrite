@@ -1,0 +1,15 @@
+name	dendrite
+version	0.15.2-r10
+description	Second-generation Matrix homeserver written in Go
+url	https://github.com/element-hq/dendrite
+license	Apache-2.0
+size	24767684
+installed-size	66979329
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	dendrite
+repo	community
+file	dendrite-0.15.2-r10.apk
+checksum	Q11ejUB+k8nCkE88I/cpvWSqY2zAE=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

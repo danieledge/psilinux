@@ -1,0 +1,15 @@
+name	imlib2-heic
+version	0.1.1-r0
+description	HEIC/HEIF decoder for imlib2 (feh)
+url	https://github.com/vi/imlib2-heic
+license	BSD-3-Clause
+size	3900
+installed-size	5240
+depends	imlib2 so:libc.musl-armhf.so.1 so:libheif.so.1
+origin	imlib2-heic
+repo	community
+file	imlib2-heic-0.1.1-r0.apk
+checksum	Q1DobbnOH4tiVnLYAJbpGEw40Cxw0=
+dep	imlib2	imlib2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libheif.so.1	libheif

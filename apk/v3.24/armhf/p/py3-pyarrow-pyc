@@ -1,0 +1,13 @@
+name	py3-pyarrow-pyc
+version	23.0.1-r2
+description	Precompiled Python bytecode for py3-pyarrow
+url	https://arrow.apache.org/
+license	Apache-2.0
+size	185404
+installed-size	471813
+depends	python3~3.14
+origin	apache-arrow
+repo	community
+file	py3-pyarrow-pyc-23.0.1-r2.apk
+checksum	Q16VtJZ1z1I72IYq1kH8DXTdVM/m0=
+dep	python3~3.14	python3

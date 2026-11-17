@@ -1,0 +1,14 @@
+name	utf8proc-dev
+version	2.11.3-r0
+description	Clean C library for processing UTF-8 Unicode data (development files)
+url	https://github.com/JuliaStrings/utf8proc
+license	MIT custom
+size	93736
+installed-size	382558
+depends	utf8proc=2.11.3-r0 pkgconfig
+origin	utf8proc
+repo	community
+file	utf8proc-dev-2.11.3-r0.apk
+checksum	Q1ESFrzxUjgoV6WksQ3OAyzGCSzkg=
+dep	utf8proc=2.11.3-r0	utf8proc
+dep	pkgconfig	pkgconf

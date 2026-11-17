@@ -1,0 +1,13 @@
+name	haveged-dev
+version	1.9.21-r0
+description	Entropy harvesting daemon using CPU timings (development files)
+url	https://www.issihosts.com/haveged/
+license	GPL-3.0-or-later
+size	6903
+installed-size	15499
+depends	haveged=1.9.21-r0
+origin	haveged
+repo	main
+file	haveged-dev-1.9.21-r0.apk
+checksum	Q1imim+14Vs334fwT+eUtJF05W8Bg=
+dep	haveged=1.9.21-r0	haveged

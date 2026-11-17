@@ -1,0 +1,14 @@
+name	nginx-mod-http-vts
+version	1.30.6-r0
+description	Nginx third-party module http-vts (version v0.2.7)
+url	https://github.com/vozlt/nginx-module-vts
+license	BSD-2-Clause
+size	69562
+installed-size	162567
+depends	nginx=1.30.6-r0 so:libc.musl-armhf.so.1
+origin	nginx
+repo	main
+file	nginx-mod-http-vts-1.30.6-r0.apk
+checksum	Q1k/G47fmS0+7gv77GnKLJG5bTNHc=
+dep	nginx=1.30.6-r0	nginx
+dep	so:libc.musl-armhf.so.1	musl

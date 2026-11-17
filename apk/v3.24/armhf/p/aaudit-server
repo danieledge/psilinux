@@ -1,0 +1,18 @@
+name	aaudit-server
+version	0.7.2-r3
+description	Alpine Auditor
+url	https://alpinelinux.org
+license	Unknown
+size	7081
+installed-size	14585
+depends	aaudit git lua5.2 lua5.2-posix lua5.2-cjson lua5.2-lzlib
+origin	aaudit
+repo	main
+file	aaudit-server-0.7.2-r3.apk
+checksum	Q1CjOqx+TjAhWnsSUdZHZksdcL9KU=
+dep	aaudit	aaudit
+dep	git	git
+dep	lua5.2	lua5.2
+dep	lua5.2-posix	lua5.2-posix
+dep	lua5.2-cjson	lua5.2-cjson
+dep	lua5.2-lzlib	lua5.2-lzlib

@@ -1,0 +1,16 @@
+name	py3-recipe-scrapers
+version	15.11.0-r1
+description	Python package, scraping recipes from all over the internet
+url	https://pypi.python.org/project/recipe-scrapers
+license	MIT
+size	188663
+installed-size	614795
+depends	py3-beautifulsoup4 py3-extruct py3-isodate python3~3.14
+origin	py3-recipe-scrapers
+repo	community
+file	py3-recipe-scrapers-15.11.0-r1.apk
+checksum	Q1AS/BsiO491f+ui+2xISZf4qpL24=
+dep	py3-beautifulsoup4	py3-beautifulsoup4
+dep	py3-extruct	py3-extruct
+dep	py3-isodate	py3-isodate
+dep	python3~3.14	python3

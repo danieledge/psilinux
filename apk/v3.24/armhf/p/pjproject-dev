@@ -1,0 +1,23 @@
+name	pjproject-dev
+version	2.17-r0
+description	Open source multimedia communication library (development files)
+url	https://www.pjsip.org/pjsua.htm
+license	GPL-2.0-or-later
+size	861977
+installed-size	4267468
+depends	openssl-dev>3 alsa-lib-dev gsm-dev speex-dev speexdsp-dev portaudio-dev opus-dev libsrtp-dev libsamplerate-dev pjproject=2.17-r0 pkgconfig
+origin	pjproject
+repo	main
+file	pjproject-dev-2.17-r0.apk
+checksum	Q1b3ftWtohzBweM/xY00nQPyCTk14=
+dep	openssl-dev>3	openssl-dev
+dep	alsa-lib-dev	alsa-lib-dev
+dep	gsm-dev	gsm-dev
+dep	speex-dev	speex-dev
+dep	speexdsp-dev	speexdsp-dev
+dep	portaudio-dev	portaudio-dev
+dep	opus-dev	opus-dev
+dep	libsrtp-dev	libsrtp-dev
+dep	libsamplerate-dev	libsamplerate-dev
+dep	pjproject=2.17-r0	pjproject
+dep	pkgconfig	pkgconf

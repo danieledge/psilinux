@@ -1,0 +1,21 @@
+name	keynav
+version	0_git20180820-r2
+description	Quick way to use cursor via the keyboard
+url	https://www.semicomplete.com/projects/keynav/
+license	BSD-3-Clause
+size	18654
+installed-size	38504
+depends	xorg-server so:libX11.so.6 so:libXext.so.6 so:libXinerama.so.1 so:libXrandr.so.2 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libglib-2.0.so.0 so:libxdo.so.4
+origin	keynav
+repo	community
+file	keynav-0_git20180820-r2.apk
+checksum	Q1KMzhpq04LBIDjnLkGUz51gvvKJI=
+dep	xorg-server	xorg-server
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libglib-2.0.so.0	glib
+dep	so:libxdo.so.4	xdotool

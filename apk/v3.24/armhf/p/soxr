@@ -1,0 +1,14 @@
+name	soxr
+version	0.1.3-r7
+description	High quality, one-dimensional sample-rate conversion library
+url	https://sourceforge.net/projects/soxr/
+license	LGPL-2.1-or-later
+size	62005
+installed-size	133864
+depends	so:libc.musl-armhf.so.1 so:libgomp.so.1
+origin	soxr
+repo	community
+file	soxr-0.1.3-r7.apk
+checksum	Q1yJ1Ya2iJEAukaeTLb3Iaw1v6EhU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgomp.so.1	libgomp

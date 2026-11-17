@@ -1,0 +1,22 @@
+name	mako
+version	1.11.0-r0
+description	A lightweight notification daemon for Wayland
+url	https://wayland.emersion.fr/mako/
+license	MIT
+size	44793
+installed-size	97006
+depends	so:libbasu.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libwayland-client.so.0 so:libwayland-cursor.so.0
+origin	mako
+repo	community
+file	mako-1.11.0-r0.apk
+checksum	Q1dy9JTwTJtIBEkHEg77/Yqtx88fQ=
+dep	so:libbasu.so.0	basu
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor

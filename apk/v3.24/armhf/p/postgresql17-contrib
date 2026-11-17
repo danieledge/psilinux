@@ -1,0 +1,19 @@
+name	postgresql17-contrib
+version	17.12-r0
+description	Extension modules distributed with PostgreSQL
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	618548
+installed-size	1802748
+depends	postgresql17=17.12-r0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libpq.so.5 so:libuuid.so.1 so:libxml2.so.2 so:libz.so.1
+origin	postgresql17
+repo	main
+file	postgresql17-contrib-17.12-r0.apk
+checksum	Q1XFMPMdvKeEEisOdx48wq0ztqXIU=
+dep	postgresql17=17.12-r0	postgresql17
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libpq.so.5	libpq
+dep	so:libuuid.so.1	libuuid
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

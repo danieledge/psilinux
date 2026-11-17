@@ -1,0 +1,22 @@
+name	perl-sql-translator
+version	1.66-r0
+description	SQL DDL transformations and more
+url	https://metacpan.org/release/SQL-Translator/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	260954
+installed-size	2437546
+depends	perl perl-try-tiny perl-parse-recdescent perl-package-variant perl-carp-clan perl-sub-quote perl-dbi perl-file-sharedir perl-moo perl-yaml
+origin	perl-sql-translator
+repo	community
+file	perl-sql-translator-1.66-r0.apk
+checksum	Q1JehiQ02Nsuu5WESqjUTDEWkkBDc=
+dep	perl	perl
+dep	perl-try-tiny	perl-try-tiny
+dep	perl-parse-recdescent	perl-parse-recdescent
+dep	perl-package-variant	perl-package-variant
+dep	perl-carp-clan	perl-carp-clan
+dep	perl-sub-quote	perl-sub-quote
+dep	perl-dbi	perl-dbi
+dep	perl-file-sharedir	perl-file-sharedir
+dep	perl-moo	perl-moo
+dep	perl-yaml	perl-yaml

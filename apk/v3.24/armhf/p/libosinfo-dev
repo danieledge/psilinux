@@ -1,0 +1,15 @@
+name	libosinfo-dev
+version	1.12.0-r0
+description	library for managing OS information for virtualization (development files)
+url	https://libosinfo.org/
+license	LGPL-2.0-or-later
+size	76469
+installed-size	828693
+depends	libosinfo=1.12.0-r0 pc:gobject-2.0 pkgconfig
+origin	libosinfo
+repo	community
+file	libosinfo-dev-1.12.0-r0.apk
+checksum	Q10bP9bW3JAPmx6ZOrdCmrfylOcPY=
+dep	libosinfo=1.12.0-r0	libosinfo
+dep	pc:gobject-2.0	glib-dev
+dep	pkgconfig	pkgconf

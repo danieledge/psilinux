@@ -1,0 +1,15 @@
+name	snappy
+version	1.2.2-r0
+description	Fast compression and decompression library
+url	https://github.com/google/snappy
+license	BSD-3-Clause
+size	21546
+installed-size	42276
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	snappy
+repo	main
+file	snappy-1.2.2-r0.apk
+checksum	Q1CKaWjibARaZtQDSUcg+xZZSU/8g=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

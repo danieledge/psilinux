@@ -1,0 +1,16 @@
+name	pulseaudio-dev
+version	17.0-r7
+description	featureful, general-purpose sound server (development files)
+url	https://www.freedesktop.org/wiki/Software/PulseAudio/
+license	LGPL-2.1-or-later
+size	87470
+installed-size	400102
+depends	libpulse-mainloop-glib=17.0-r7 libpulse=17.0-r7 pc:glib-2.0 pkgconfig
+origin	pulseaudio
+repo	community
+file	pulseaudio-dev-17.0-r7.apk
+checksum	Q1P8fYWyjCKRg4ewv7H962P5iFJfk=
+dep	libpulse-mainloop-glib=17.0-r7	libpulse-mainloop-glib
+dep	libpulse=17.0-r7	libpulse
+dep	pc:glib-2.0	glib-dev
+dep	pkgconfig	pkgconf

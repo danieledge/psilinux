@@ -1,0 +1,31 @@
+name	gimp-dev
+version	3.2.4-r0
+description	GNU Image Manipulation Program (development files)
+url	https://www.gimp.org/
+license	GPL-3.0-or-later
+size	508826
+installed-size	5164826
+depends	gimp=3.2.4-r0 pc:cairo>=1.14.0 pc:gdk-pixbuf-2.0>=2.30.8 pc:gegl-0.4>=0.4.66 pc:gexiv2<0.15.0 pc:gexiv2>=0.14.0 pc:gio-2.0 pc:gio-unix-2.0 pc:glib-2.0>=2.70.0 pc:gmodule-no-export-2.0 pc:gobject-2.0>=2.70.0 pc:gtk+-3.0>=3.24.0 pc:lcms2>=2.8 pc:pango>=1.50.0 pc:pangoft2>=1.50.0 pkgconfig so:libc.musl-armhf.so.1 so:libgimpbase-3.0.so.0 so:libglib-2.0.so.0
+origin	gimp
+repo	community
+file	gimp-dev-3.2.4-r0.apk
+checksum	Q1W7RQolSkWbaVamQ6zN8Lgrz4USQ=
+dep	gimp=3.2.4-r0	gimp
+dep	pc:cairo>=1.14.0	cairo-dev
+dep	pc:gdk-pixbuf-2.0>=2.30.8	gdk-pixbuf-dev
+dep	pc:gegl-0.4>=0.4.66	gegl-dev
+dep	pc:gexiv2<0.15.0	gexiv2-dev
+dep	pc:gexiv2>=0.14.0	gexiv2-dev
+dep	pc:gio-2.0	glib-dev
+dep	pc:gio-unix-2.0	glib-dev
+dep	pc:glib-2.0>=2.70.0	glib-dev
+dep	pc:gmodule-no-export-2.0	glib-dev
+dep	pc:gobject-2.0>=2.70.0	glib-dev
+dep	pc:gtk+-3.0>=3.24.0	gtk+3.0-dev
+dep	pc:lcms2>=2.8	lcms2-dev
+dep	pc:pango>=1.50.0	pango-dev
+dep	pc:pangoft2>=1.50.0	pango-dev
+dep	pkgconfig	pkgconf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgimpbase-3.0.so.0	gimp
+dep	so:libglib-2.0.so.0	glib

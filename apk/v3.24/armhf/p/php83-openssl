@@ -1,0 +1,16 @@
+name	php83-openssl
+version	8.3.36-r0
+description	PHP83 extension: OpenSSL
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	74591
+installed-size	185794
+depends	php83-common so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	php83
+repo	community
+file	php83-openssl-8.3.36-r0.apk
+checksum	Q1+mjaRxjJsQlSWumH9s22F4Sszr8=
+dep	php83-common	php83-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

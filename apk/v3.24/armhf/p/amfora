@@ -1,0 +1,13 @@
+name	amfora
+version	1.11.0-r11
+description	terminal browser for the Gemini protocol
+url	https://github.com/makeworld-the-better-one/amfora
+license	GPL-3.0-or-later
+size	6392606
+installed-size	18427082
+depends	so:libc.musl-armhf.so.1
+origin	amfora
+repo	community
+file	amfora-1.11.0-r11.apk
+checksum	Q13cHUEpe7ffwL4pELlj/cELZGbZc=
+dep	so:libc.musl-armhf.so.1	musl

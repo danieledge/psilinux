@@ -1,0 +1,17 @@
+name	perl-xml-rss
+version	1.65-r0
+description	creates and updates RSS files
+url	https://metacpan.org/release/XML-RSS/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	25742
+installed-size	112391
+depends	perl perl-datetime-format-w3cdtf perl-xml-parser perl-html-parser perl-datetime-format-mail
+origin	perl-xml-rss
+repo	main
+file	perl-xml-rss-1.65-r0.apk
+checksum	Q1MSucBb8VAJCl539rKiSz6SC0+lQ=
+dep	perl	perl
+dep	perl-datetime-format-w3cdtf	perl-datetime-format-w3cdtf
+dep	perl-xml-parser	perl-xml-parser
+dep	perl-html-parser	perl-html-parser
+dep	perl-datetime-format-mail	perl-datetime-format-mail

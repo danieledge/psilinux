@@ -1,0 +1,13 @@
+name	dcadec
+version	0.2.0-r2
+description	DTS Coherent Acoustics decoder with support for HD extensions
+url	https://github.com/foo86/dcadec
+license	LGPL-2.1-or-later
+size	130086
+installed-size	189716
+depends	so:libc.musl-armhf.so.1
+origin	dcadec
+repo	community
+file	dcadec-0.2.0-r2.apk
+checksum	Q1OGHMh65Yv8TAtJKiZq6Rf4sUuE4=
+dep	so:libc.musl-armhf.so.1	musl

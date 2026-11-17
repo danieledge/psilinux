@@ -1,0 +1,16 @@
+name	collectd-amqp
+version	5.12.0-r25
+description	amqp pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	33639
+installed-size	66732
+depends	collectd so:libc.musl-armhf.so.1 so:librabbitmq.so.4 so:libyajl.so.2
+origin	collectd
+repo	community
+file	collectd-amqp-5.12.0-r25.apk
+checksum	Q1olEkrRWKbWdg+fztA0LioiADYpw=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:librabbitmq.so.4	rabbitmq-c
+dep	so:libyajl.so.2	yajl

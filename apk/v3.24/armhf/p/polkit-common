@@ -1,0 +1,20 @@
+name	polkit-common
+version	127-r2
+description	Common files for polkit and polkit-elogind
+url	https://github.com/polkit-org/polkit
+license	GPL-2.0-or-later
+size	38254
+installed-size	109941
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libpam.so.0 so:libpolkit-agent-1.so.0 so:libpolkit-gobject-1.so.0
+origin	polkit
+repo	community
+file	polkit-common-127-r2.apk
+checksum	Q1TBOGtQ2ejaNsNj/5NnLGEbUBqoQ=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libpam.so.0	linux-pam
+dep	so:libpolkit-agent-1.so.0	polkit-noelogind-libs
+dep	so:libpolkit-gobject-1.so.0	polkit-noelogind-libs

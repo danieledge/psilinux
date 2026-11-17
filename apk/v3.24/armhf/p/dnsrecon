@@ -1,0 +1,19 @@
+name	dnsrecon
+version	1.6.1-r0
+description	DNS Enumeration Script
+url	https://github.com/darkoperator/dnsrecon
+license	GPL-2.0-only
+size	657946
+installed-size	1577255
+depends	py3-dnspython py3-loguru py3-lxml py3-netaddr py3-requests py3-setuptools python3~3.14
+origin	dnsrecon
+repo	community
+file	dnsrecon-1.6.1-r0.apk
+checksum	Q1eB8X0zLBvgaWDjHlKvS3OgxB3bc=
+dep	py3-dnspython	py3-dnspython
+dep	py3-loguru	py3-loguru
+dep	py3-lxml	py3-lxml
+dep	py3-netaddr	py3-netaddr
+dep	py3-requests	py3-requests
+dep	py3-setuptools	py3-setuptools
+dep	python3~3.14	python3

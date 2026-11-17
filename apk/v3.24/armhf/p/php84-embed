@@ -1,0 +1,19 @@
+name	php84-embed
+version	8.4.27-r0
+description	PHP84 Embedded Library
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	1923150
+installed-size	4701564
+depends	php84-common so:libargon2.so.1 so:libc.musl-armhf.so.1 so:libedit.so.0 so:libpcre2-8.so.0 so:libxml2.so.2 so:libz.so.1
+origin	php84
+repo	community
+file	php84-embed-8.4.27-r0.apk
+checksum	Q1QjhrDNljWImidGjTos0zf0tEGvE=
+dep	php84-common	php84-common
+dep	so:libargon2.so.1	argon2-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libedit.so.0	libedit
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

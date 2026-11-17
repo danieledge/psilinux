@@ -1,0 +1,24 @@
+name	sysprof-dev
+version	50.0-r0
+description	System-wide profiler for Linux (development files)
+url	http://www.sysprof.com/
+license	GPL-2.0-or-later
+size	33924
+installed-size	253096
+depends	sysprof=50.0-r0 sysprof-static=50.0-r0 sysprof=50.0-r0 pc:gio-2.0>=2.76.0 pc:gio-unix-2.0>=2.76.0 pc:glib-2.0>=2.76.0 pc:json-glib-1.0 pc:libdebuginfod pc:libdex-1>=0.9 pc:libsystemd pc:polkit-gobject-1>=0.105 pkgconfig
+origin	sysprof
+repo	community
+file	sysprof-dev-50.0-r0.apk
+checksum	Q1CbRmYgJ5ea9tky13o8CfODazlOM=
+dep	sysprof=50.0-r0	sysprof
+dep	sysprof-static=50.0-r0	sysprof-static
+dep	sysprof=50.0-r0	sysprof
+dep	pc:gio-2.0>=2.76.0	glib-dev
+dep	pc:gio-unix-2.0>=2.76.0	glib-dev
+dep	pc:glib-2.0>=2.76.0	glib-dev
+dep	pc:json-glib-1.0	json-glib-dev
+dep	pc:libdebuginfod	elfutils-dev
+dep	pc:libdex-1>=0.9	libdex-dev
+dep	pc:libsystemd	elogind-dev
+dep	pc:polkit-gobject-1>=0.105	polkit-dev
+dep	pkgconfig	pkgconf

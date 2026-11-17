@@ -1,0 +1,19 @@
+name	radeontop
+version	1.4-r1
+description	amd gpu utilization monitor
+url	https://github.com/clbr/radeontop
+license	GPL-3.0-or-later
+size	17842
+installed-size	39400
+depends	so:libc.musl-armhf.so.1 so:libdrm.so.2 so:libdrm_amdgpu.so.1 so:libncursesw.so.6 so:libpciaccess.so.0 so:libxcb-dri2.so.0 so:libxcb.so.1
+origin	radeontop
+repo	community
+file	radeontop-1.4-r1.apk
+checksum	Q1zIQypsHhsUbYutGfC7q9E0MKkeQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm.so.2	libdrm
+dep	so:libdrm_amdgpu.so.1	libdrm
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpciaccess.so.0	libpciaccess
+dep	so:libxcb-dri2.so.0	libxcb
+dep	so:libxcb.so.1	libxcb

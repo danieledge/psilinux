@@ -1,0 +1,16 @@
+name	dovi-tool
+version	2.3.2-r0
+description	Library to read and write Dolby Vision metadata
+url	https://github.com/quietvoid/dovi_tool
+license	MIT
+size	983524
+installed-size	1889516
+depends	so:libc.musl-armhf.so.1 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgcc_s.so.1
+origin	dovi-tool
+repo	community
+file	dovi-tool-2.3.2-r0.apk
+checksum	Q1t+6Z3wJpuaNVuxHsr+eDA24QuRM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc

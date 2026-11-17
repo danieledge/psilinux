@@ -1,0 +1,19 @@
+name	pinentry-curses-ss
+version	1.3.2-r0
+description	Curses-based PIN or pass-phrase entry dialog for GnuPG with Secret Service support
+url	https://www.gnupg.org/aegypten2/
+license	GPL-2.0-or-later
+size	31813
+installed-size	63032
+depends	/bin/sh so:libassuan.so.9 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgpg-error.so.0 so:libncursesw.so.6 so:libsecret-1.so.0
+origin	pinentry
+repo	main
+file	pinentry-curses-ss-1.3.2-r0.apk
+checksum	Q1nzErwVSn5R/RzxgrgENjLFb9PUc=
+dep	/bin/sh	busybox-binsh
+dep	so:libassuan.so.9	libassuan
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgpg-error.so.0	libgpg-error
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libsecret-1.so.0	libsecret

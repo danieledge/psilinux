@@ -1,0 +1,14 @@
+name	lua5.3-posix
+version	36.3-r1
+description	POSIX library for Lua 5.3
+url	https://github.com/luaposix/luaposix
+license	MIT
+size	84083
+installed-size	348350
+depends	lua5.3-bit32<26 so:libc.musl-armhf.so.1
+origin	lua-posix
+repo	main
+file	lua5.3-posix-36.3-r1.apk
+checksum	Q1bXiVGicEDmSRV7AsVka+nHNfLrw=
+dep	lua5.3-bit32<26	lua5.3-bit32
+dep	so:libc.musl-armhf.so.1	musl

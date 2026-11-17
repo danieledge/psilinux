@@ -1,0 +1,14 @@
+name	xorriso
+version	1.5.8-r0
+description	ISO-9660 and Rock Ridge image manipulation tool
+url	https://dev.lovelyhq.com/libburnia/libisoburn
+license	GPL-2.0-or-later
+size	13039
+installed-size	39078
+depends	so:libc.musl-armhf.so.1 so:libisoburn.so.1
+origin	libisoburn
+repo	main
+file	xorriso-1.5.8-r0.apk
+checksum	Q1XC7G1w/4Z9wk+GAcHcwhf4rPyLg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libisoburn.so.1	libisoburn

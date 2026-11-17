@@ -1,0 +1,23 @@
+name	flowtime
+version	6.5-r0
+description	GTK4 / libadwaita assistant for the Flowtime working technique
+url	https://github.com/Diego-Ivan/Flowtime
+license	GPL-3.0-or-later
+size	142401
+installed-size	277999
+depends	so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libportal-gtk4.so.1 so:libportal.so.1 so:libxml2.so.2
+origin	flowtime
+repo	community
+file	flowtime-6.5-r0.apk
+checksum	Q19t6ui6e9LwWmPQdtPp/hWnMN+Ys=
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libportal-gtk4.so.1	libportal-gtk4
+dep	so:libportal.so.1	libportal
+dep	so:libxml2.so.2	libxml2

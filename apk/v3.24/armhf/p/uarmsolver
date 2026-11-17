@@ -1,0 +1,15 @@
+name	uarmsolver
+version	0.4.0-r1
+description	Universal Association Rule Mining Solver
+url	https://github.com/firefly-cpp/uARMSolver
+license	MIT
+size	113741
+installed-size	239032
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	uarmsolver
+repo	community
+file	uarmsolver-0.4.0-r1.apk
+checksum	Q161+z5ezEfEs2B6qtClGDZmiv07I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

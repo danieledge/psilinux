@@ -1,0 +1,15 @@
+name	py3-pytest-docker-tools
+version	3.1.9-r1
+description	Opionated helpers for creating py.test fixtures for Docker integration and smoke testing environments
+url	https://github.com/Jc2k/pytest-docker-tools
+license	Apache-2.0
+size	26573
+installed-size	80474
+depends	py3-docker-py py3-pytest python3~3.14
+origin	py3-pytest-docker-tools
+repo	community
+file	py3-pytest-docker-tools-3.1.9-r1.apk
+checksum	Q1gY6DD+xe+WsTFpP0WTRHjR/8Fvw=
+dep	py3-docker-py	py3-docker-py
+dep	py3-pytest	py3-pytest
+dep	python3~3.14	python3

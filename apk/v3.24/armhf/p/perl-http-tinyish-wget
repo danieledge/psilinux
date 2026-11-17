@@ -1,0 +1,14 @@
+name	perl-http-tinyish-wget
+version	0.19-r1
+description	HTTP::Tiny compatible HTTP client wrappers (GNU Wget backend)
+url	https://metacpan.org/release/HTTP-Tinyish/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	3401
+installed-size	4863
+depends	perl-http-tinyish=0.19-r1 wget
+origin	perl-http-tinyish
+repo	community
+file	perl-http-tinyish-wget-0.19-r1.apk
+checksum	Q1wBf35a4LMBZW2Z+OO7T3u4Nxz1Q=
+dep	perl-http-tinyish=0.19-r1	perl-http-tinyish
+dep	wget	wget

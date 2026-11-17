@@ -1,0 +1,20 @@
+name	libglycin-gtk4-dev
+version	2.1.5-r0
+description	Sandboxed and extendable image decoding (development files)
+url	https://gitlab.gnome.org/GNOME/glycin
+license	MPL-2.0 OR LGPL-2.0-or-later
+size	3869
+installed-size	3543
+depends	libglycin-gtk4=2.1.5-r0 pc:fontconfig>=2.13.0 pc:gio-2.0>=2.60 pc:glycin-2 pc:gtk4>=4.16.0 pc:lcms2>=2.14 pc:libseccomp>=2.5.0 pkgconfig
+origin	libglycin-gtk4
+repo	community
+file	libglycin-gtk4-dev-2.1.5-r0.apk
+checksum	Q13fc+ArBmkbf7Lfy3x3B7EDjLTPw=
+dep	libglycin-gtk4=2.1.5-r0	libglycin-gtk4
+dep	pc:fontconfig>=2.13.0	fontconfig-dev
+dep	pc:gio-2.0>=2.60	glib-dev
+dep	pc:glycin-2	libglycin-dev
+dep	pc:gtk4>=4.16.0	gtk4.0-dev
+dep	pc:lcms2>=2.14	lcms2-dev
+dep	pc:libseccomp>=2.5.0	libseccomp-dev
+dep	pkgconfig	pkgconf

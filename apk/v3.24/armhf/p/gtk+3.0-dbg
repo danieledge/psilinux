@@ -1,0 +1,12 @@
+name	gtk+3.0-dbg
+version	3.24.52-r0
+description	The GTK+ Toolkit (v3) (debug symbols)
+url	https://www.gtk.org/
+license	LGPL-2.1-or-later
+size	13207767
+installed-size	31653936
+depends	!gtk+3.0-demo<3.24.52-r0 !gtk+3.0-demo>3.24.52-r0 !gtk+3.0-dev<3.24.52-r0 !gtk+3.0-dev>3.24.52-r0 !gtk+3.0<3.24.52-r0 !gtk+3.0>3.24.52-r0 !gtk-update-icon-cache<3.24.52-r0 !gtk-update-icon-cache>3.24.52-r0
+origin	gtk+3.0
+repo	community
+file	gtk+3.0-dbg-3.24.52-r0.apk
+checksum	Q1ibfvmWTKJFFAJWp2GkD+QYyJpPw=

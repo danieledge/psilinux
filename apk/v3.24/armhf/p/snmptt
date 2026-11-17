@@ -1,0 +1,16 @@
+name	snmptt
+version	1.5-r0
+description	Translates traps received from snmptrapd into easy to understand messages
+url	http://www.snmptt.org/
+license	GPL-2.0-or-later
+size	63867
+installed-size	289796
+depends	perl perl-config-inifiles perl-list-moreutils /bin/sh
+origin	snmptt
+repo	main
+file	snmptt-1.5-r0.apk
+checksum	Q1UUUCfS1GmzR0af8F+e9hDnd35vQ=
+dep	perl	perl
+dep	perl-config-inifiles	perl-config-inifiles
+dep	perl-list-moreutils	perl-list-moreutils
+dep	/bin/sh	busybox-binsh

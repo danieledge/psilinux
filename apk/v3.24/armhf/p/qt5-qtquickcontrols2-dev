@@ -1,0 +1,18 @@
+name	qt5-qtquickcontrols2-dev
+version	5.15.18_git20251101-r0
+description	Qt5 - module with set of QtQuick controls for embedded (development files)
+url	https://www.qt.io/developers/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	69953
+installed-size	570166
+depends	qt5-qtquickcontrols2=5.15.18_git20251101-r0 pc:Qt5Core pc:Qt5Gui pc:Qt5QmlModels pc:Qt5Quick pkgconfig
+origin	qt5-qtquickcontrols2
+repo	community
+file	qt5-qtquickcontrols2-dev-5.15.18_git20251101-r0.apk
+checksum	Q1+5HWBW0td9jetKET9AMnRNtnKYo=
+dep	qt5-qtquickcontrols2=5.15.18_git20251101-r0	qt5-qtquickcontrols2
+dep	pc:Qt5Core	qt5-qtbase-dev
+dep	pc:Qt5Gui	qt5-qtbase-dev
+dep	pc:Qt5QmlModels	qt5-qtdeclarative-dev
+dep	pc:Qt5Quick	qt5-qtdeclarative-dev
+dep	pkgconfig	pkgconf

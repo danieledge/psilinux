@@ -1,0 +1,15 @@
+name	crab-hole
+version	0.2.0-r0
+description	A DNS level ad and spy blocker
+url	https://github.com/LuckyTurtleDev/crab-hole
+license	AGPL-3.0-or-later
+size	3657971
+installed-size	8007470
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	crab-hole
+repo	community
+file	crab-hole-0.2.0-r0.apk
+checksum	Q1Uv46O/qmz9VuY35VtqX4XIO7B2I=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

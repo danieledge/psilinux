@@ -1,0 +1,12 @@
+name	quagga-dbg
+version	1.2.4-r11
+description	A free routing daemon replacing Zebra supporting RIP, OSPF, BGP and NHRP (debug symbols)
+url	https://www.nongnu.org/quagga/
+license	GPL-2.0-or-later
+size	4231372
+installed-size	10083556
+depends	!quagga<1.2.4-r11 !quagga>1.2.4-r11
+origin	quagga
+repo	main
+file	quagga-dbg-1.2.4-r11.apk
+checksum	Q1pONZNeAhhPL82Ztrkc/UvmfcRdo=

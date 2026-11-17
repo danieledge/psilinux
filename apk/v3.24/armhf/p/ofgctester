@@ -1,0 +1,17 @@
+name	ofgctester
+version	1.5.7-r0
+description	Game controller tester for the terminal
+url	https://objfw.nil.im/
+license	LGPL-3.0-only
+size	12378
+installed-size	29232
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwhid.so.1 so:libobjfwrt.so.1
+origin	objfw
+repo	community
+file	ofgctester-1.5.7-r0.apk
+checksum	Q1nfwjxs+IWt495b8+kAPG4rXRnqs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libobjfw.so.1	libobjfw1
+dep	so:libobjfwhid.so.1	libobjfwhid1
+dep	so:libobjfwrt.so.1	libobjfwrt1

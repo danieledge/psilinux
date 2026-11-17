@@ -1,0 +1,14 @@
+name	tclx
+version	8.6.3-r1
+description	TclX extension to Tcl
+url	https://github.com/flightaware/tclx
+license	BSD
+size	91341
+installed-size	227035
+depends	tcl so:libc.musl-armhf.so.1
+origin	tclx
+repo	community
+file	tclx-8.6.3-r1.apk
+checksum	Q1y6h8hjKtPBUd7u46R/D1K0+6W1Y=
+dep	tcl	tcl
+dep	so:libc.musl-armhf.so.1	musl

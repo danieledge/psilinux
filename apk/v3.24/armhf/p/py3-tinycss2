@@ -1,0 +1,14 @@
+name	py3-tinycss2
+version	1.5.1-r1
+description	Low-level CSS parser for Python
+url	https://pypi.org/project/tinycss2
+license	BSD-3-Clause
+size	25981
+installed-size	109131
+depends	py3-webencodings python3~3.14
+origin	py3-tinycss2
+repo	community
+file	py3-tinycss2-1.5.1-r1.apk
+checksum	Q1NZTGLJaRBWfGWJwH2NSqzkl+Wf8=
+dep	py3-webencodings	py3-webencodings
+dep	python3~3.14	python3

@@ -1,0 +1,15 @@
+name	libretro-handy
+version	0_git20241021-r0
+description	Atari Lynx emulator Handy
+url	https://github.com/libretro/libretro-handy
+license	Zlib
+size	90543
+installed-size	521656
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libretro-handy
+repo	community
+file	libretro-handy-0_git20241021-r0.apk
+checksum	Q1h20vXfDeL6sx0h3K6mu4ICYz+IU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

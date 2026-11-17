@@ -1,0 +1,15 @@
+name	libmicrohttpd-dev
+version	1.0.5-r0
+description	small C library that is supposed to make it easy to run an HTTP server as part of another application (development files)
+url	https://www.gnu.org/software/libmicrohttpd/
+license	LGPL-2.1-or-later
+size	58183
+installed-size	256455
+depends	libmicrohttpd=1.0.5-r0 pc:gnutls pkgconfig
+origin	libmicrohttpd
+repo	main
+file	libmicrohttpd-dev-1.0.5-r0.apk
+checksum	Q1PQIcz0Eo33b3+iDzzX8ZvYxR8io=
+dep	libmicrohttpd=1.0.5-r0	libmicrohttpd
+dep	pc:gnutls	gnutls-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,13 @@
+name	yubico-c-client-static
+version	2.15-r3
+description	Yubico C client library (static library)
+url	https://developers.yubico.com/yubico-c-client/
+license	BSD-2-Clause
+size	18272
+installed-size	43166
+depends	yubico-c-client-dev
+origin	yubico-c-client
+repo	community
+file	yubico-c-client-static-2.15-r3.apk
+checksum	Q1iFP3UTjlqiF9yn552MfQinJsoxo=
+dep	yubico-c-client-dev	yubico-c-client-dev

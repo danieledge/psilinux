@@ -1,0 +1,17 @@
+name	gdal-driver-heif
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (ISO/IEC 23008-12:2017 High Efficiency Image File Format driver)
+url	https://gdal.org/
+license	MIT
+size	19623
+installed-size	46464
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libheif.so.1 so:libstdc++.so.6
+origin	gdal
+repo	community
+file	gdal-driver-heif-3.13.3-r0.apk
+checksum	Q1twfqwbAfJE5/51DLrp2sSI9232E=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libheif.so.1	libheif
+dep	so:libstdc++.so.6	libstdc++

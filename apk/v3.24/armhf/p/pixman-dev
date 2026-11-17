@@ -1,0 +1,14 @@
+name	pixman-dev
+version	0.46.4-r0
+description	Low-level pixel manipulation library (development files)
+url	https://gitlab.freedesktop.org/pixman
+license	MIT
+size	12141
+installed-size	57383
+depends	pixman=0.46.4-r0 pkgconfig
+origin	pixman
+repo	main
+file	pixman-dev-0.46.4-r0.apk
+checksum	Q1O7fYW49IaRI1l63esbadNNbfdvc=
+dep	pixman=0.46.4-r0	pixman
+dep	pkgconfig	pkgconf

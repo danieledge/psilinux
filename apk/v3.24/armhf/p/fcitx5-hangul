@@ -1,0 +1,19 @@
+name	fcitx5-hangul
+version	5.1.9-r0
+description	libhangul input method support for fcitx5
+url	https://github.com/fcitx/fcitx5-hangul
+license	GPL-3.0-or-later
+size	47204
+installed-size	88614
+depends	so:libFcitx5Config.so.6 so:libFcitx5Core.so.7 so:libFcitx5Utils.so.2 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libhangul.so.1 so:libstdc++.so.6
+origin	fcitx5-hangul
+repo	community
+file	fcitx5-hangul-5.1.9-r0.apk
+checksum	Q1awm8a+Iibv3hoH+wCF5veNUKv4Q=
+dep	so:libFcitx5Config.so.6	fcitx5
+dep	so:libFcitx5Core.so.7	fcitx5
+dep	so:libFcitx5Utils.so.2	fcitx5
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libhangul.so.1	libhangul
+dep	so:libstdc++.so.6	libstdc++

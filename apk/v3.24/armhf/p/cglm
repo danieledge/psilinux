@@ -1,0 +1,13 @@
+name	cglm
+version	0.9.6-r0
+description	Highly Optimized Graphics Math (glm) for C
+url	http://cglm.readthedocs.io
+license	MIT
+size	59502
+installed-size	140408
+depends	so:libc.musl-armhf.so.1
+origin	cglm
+repo	community
+file	cglm-0.9.6-r0.apk
+checksum	Q1qSINpY+RT1C81iPMivlCu5LbiV4=
+dep	so:libc.musl-armhf.so.1	musl

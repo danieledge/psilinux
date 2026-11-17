@@ -1,0 +1,14 @@
+name	perl-mozilla-ca
+version	20261020-r1
+description	Mozilla's CA cert bundle in PEM format
+url	https://metacpan.org/release/Mozilla-CA/
+license	MPL-2.0
+size	2477
+installed-size	1392
+depends	ca-certificates-bundle perl
+origin	perl-mozilla-ca
+repo	main
+file	perl-mozilla-ca-20261020-r1.apk
+checksum	Q1pD0tPpyqqimpIy8Xq1PYpql37ik=
+dep	ca-certificates-bundle	ca-certificates-bundle
+dep	perl	perl

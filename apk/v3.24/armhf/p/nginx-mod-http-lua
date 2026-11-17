@@ -1,0 +1,17 @@
+name	nginx-mod-http-lua
+version	1.30.6-r0
+description	Nginx third-party module http-lua (version v0.10.31)
+url	https://github.com/openresty/lua-nginx-module
+license	BSD-2-Clause
+size	158170
+installed-size	349014
+depends	nginx=1.30.6-r0 nginx-mod-devel-kit lua-resty-core so:libc.musl-armhf.so.1 so:libluajit-5.1.so.2
+origin	nginx
+repo	main
+file	nginx-mod-http-lua-1.30.6-r0.apk
+checksum	Q1LcM5BvhKbYOvcCj2GNKi9UavoDM=
+dep	nginx=1.30.6-r0	nginx
+dep	nginx-mod-devel-kit	nginx-mod-devel-kit
+dep	lua-resty-core	lua-resty-core
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libluajit-5.1.so.2	luajit

@@ -1,0 +1,14 @@
+name	opendkim-dev
+version	2.11.0-r4
+description	DKIM signing and verifying filter for MTAs (development files)
+url	http://www.opendkim.org
+license	custom
+size	243042
+installed-size	585866
+depends	opendkim-libs=2.11.0-r4 pkgconfig
+origin	opendkim
+repo	community
+file	opendkim-dev-2.11.0-r4.apk
+checksum	Q1EmLU4RaSQsgInEzMW4+JDs8/97s=
+dep	opendkim-libs=2.11.0-r4	opendkim-libs
+dep	pkgconfig	pkgconf

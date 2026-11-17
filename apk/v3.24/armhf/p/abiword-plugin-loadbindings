@@ -1,0 +1,20 @@
+name	abiword-plugin-loadbindings
+version	3.0.8-r0
+description	Abiword loadbindings plugin
+url	https://gitlab.gnome.org/World/AbiWord
+license	GPL-2.0-or-later
+size	16298
+installed-size	34176
+depends	so:libabiword-3.0.so so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgsf-1.so.114 so:libstdc++.so.6 so:libxml2.so.2
+origin	abiword
+repo	community
+file	abiword-plugin-loadbindings-3.0.8-r0.apk
+checksum	Q1/pHXy3BV7pdmcreFKxtnHWJp/U8=
+dep	so:libabiword-3.0.so	abiword
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgsf-1.so.114	libgsf
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxml2.so.2	libxml2

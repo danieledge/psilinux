@@ -1,0 +1,16 @@
+name	x265
+version	4.1-r0
+description	Open Source H265/HEVC video encoder
+url	https://www.videolan.org/developers/x265.html
+license	GPL-2.0-or-later
+size	54382
+installed-size	128332
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libx265.so.215
+origin	x265
+repo	main
+file	x265-4.1-r0.apk
+checksum	Q1biBdCcDHwGCsfeOcOCMKIM62vYM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libx265.so.215	x265-libs

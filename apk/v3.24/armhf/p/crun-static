@@ -1,0 +1,13 @@
+name	crun-static
+version	1.31-r0
+description	Fast and lightweight fully featured OCI runtime and C library for running containers (static library)
+url	https://github.com/containers/crun
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	418935
+installed-size	1254766
+depends	crun-dev
+origin	crun
+repo	community
+file	crun-static-1.31-r0.apk
+checksum	Q1blx0tZxIrlHuMj1rcpW6cigzmiI=
+dep	crun-dev	crun-dev

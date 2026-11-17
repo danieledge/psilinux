@@ -1,0 +1,13 @@
+name	libubox-static
+version	2026.02.13-r0
+description	OpenWrt utility and data structures library (static library)
+url	https://git.openwrt.org/project/ustream-ssl.git
+license	ISC
+size	649990
+installed-size	1718554
+depends	libubox-dev
+origin	libubox
+repo	community
+file	libubox-static-2026.02.13-r0.apk
+checksum	Q19ct2T3PzZqWY53xXCRdmgzrlkDg=
+dep	libubox-dev	libubox-dev

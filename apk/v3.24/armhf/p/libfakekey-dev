@@ -1,0 +1,14 @@
+name	libfakekey-dev
+version	0.3-r1
+description	X virtual keyboard library (development files)
+url	https://www.yoctoproject.org/software-item/matchbox/
+license	GPL-2.0-or-later
+size	3006
+installed-size	3114
+depends	libfakekey=0.3-r1 pkgconfig
+origin	libfakekey
+repo	community
+file	libfakekey-dev-0.3-r1.apk
+checksum	Q1XTTp53+7xN9bVjZug571Ol2jWM4=
+dep	libfakekey=0.3-r1	libfakekey
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	flex
+version	2.6.4-r8
+description	A tool for generating text-scanning programs
+url	https://github.com/westes/flex
+license	BSD-2-Clause
+size	116858
+installed-size	317972
+depends	m4 so:libc.musl-armhf.so.1
+origin	flex
+repo	main
+file	flex-2.6.4-r8.apk
+checksum	Q1Oricgki3/OxDUDVzoa6x/KuzI6c=
+dep	m4	m4
+dep	so:libc.musl-armhf.so.1	musl

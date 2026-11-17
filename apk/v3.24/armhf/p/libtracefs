@@ -1,0 +1,14 @@
+name	libtracefs
+version	1.8.3-r0
+description	Linux kernel trace file system library
+url	https://git.kernel.org/pub/scm/libs/libtrace/libtracefs.git/about/
+license	LGPL-2.1-or-later
+size	53005
+installed-size	107912
+depends	so:libc.musl-armhf.so.1 so:libtraceevent.so.1
+origin	libtracefs
+repo	community
+file	libtracefs-1.8.3-r0.apk
+checksum	Q11zHKgmus9omCmmp7B8BtIT6MpLs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libtraceevent.so.1	libtraceevent

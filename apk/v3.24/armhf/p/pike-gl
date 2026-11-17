@@ -1,0 +1,17 @@
+name	pike-gl
+version	8.0.2040-r1
+description	Pike programming language (OpenGL/GLUT support)
+url	https://pike.lysator.liu.se/
+license	GPL-2.0-or-later
+size	63899
+installed-size	206890
+depends	pike=8.0.2040-r1 freeglut libsm so:libGL.so.1 so:libc.musl-armhf.so.1
+origin	pike
+repo	community
+file	pike-gl-8.0.2040-r1.apk
+checksum	Q16T4agj3SVmBfsP8PozxJpRA6aOw=
+dep	pike=8.0.2040-r1	pike
+dep	freeglut	freeglut
+dep	libsm	libsm
+dep	so:libGL.so.1	mesa-gl
+dep	so:libc.musl-armhf.so.1	musl

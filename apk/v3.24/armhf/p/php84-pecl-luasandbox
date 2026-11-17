@@ -1,0 +1,15 @@
+name	php84-pecl-luasandbox
+version	4.1.2-r0
+description	LuaSandbox PHP 8.4 extension - PECL
+url	https://pecl.php.net/package/LuaSandbox
+license	MIT
+size	30016
+installed-size	62981
+depends	php84-common so:libc.musl-armhf.so.1 so:liblua.so.5
+origin	php84-pecl-luasandbox
+repo	community
+file	php84-pecl-luasandbox-4.1.2-r0.apk
+checksum	Q1Nr09ayysev34Y9QBLWs5mulUwZQ=
+dep	php84-common	php84-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblua.so.5	lua5.1-libs

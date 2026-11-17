@@ -1,0 +1,15 @@
+name	freeswitch-sangoma
+version	1.10.12-r6
+description	Freeswitch Sangoma Media Transcode Codec Module
+url	https://www.freeswitch.org/
+license	MPL-1.1
+size	15813
+installed-size	31704
+depends	so:libc.musl-armhf.so.1 so:libfreeswitch.so.1 so:libsngtc_node.so
+origin	freeswitch
+repo	main
+file	freeswitch-sangoma-1.10.12-r6.apk
+checksum	Q10IrMiVuqnd6SSD7mywxAEDiz7E0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreeswitch.so.1	freeswitch
+dep	so:libsngtc_node.so	sngtc_client

@@ -1,0 +1,14 @@
+name	py3status
+version	3.63-r1
+description	Extensible i3status wrapper written in python
+url	https://ultrabug.github.io/py3status/
+license	BSD-3-Clause
+size	294349
+installed-size	1126891
+depends	py3-setuptools python3~3.14
+origin	py3status
+repo	community
+file	py3status-3.63-r1.apk
+checksum	Q1gO+vCFkVLYQ10Ywacy8byyI55pI=
+dep	py3-setuptools	py3-setuptools
+dep	python3~3.14	python3

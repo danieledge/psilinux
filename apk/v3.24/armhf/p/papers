@@ -1,0 +1,27 @@
+name	papers
+version	50.2-r0
+description	simple document viewer for GNOME desktop
+url	https://apps.gnome.org/Papers/
+license	GPL-2.0-or-later
+size	2393243
+installed-size	5406553
+depends	adwaita-icon-theme gsettings-desktop-schemas so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libpango-1.0.so.0 so:libppsdocument-4.0.so.6 so:libppsview-4.0.so.5
+origin	papers
+repo	community
+file	papers-50.2-r0.apk
+checksum	Q13KgWmENWVX0DojbfDHDVGvMMe1Q=
+dep	adwaita-icon-theme	adwaita-icon-theme
+dep	gsettings-desktop-schemas	gsettings-desktop-schemas
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libppsdocument-4.0.so.6	papers-libs
+dep	so:libppsview-4.0.so.5	papers-libs

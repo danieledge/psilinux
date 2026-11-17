@@ -1,0 +1,17 @@
+name	j4-dmenu-desktop
+version	3.2-r4
+description	A fast desktop menu
+url	https://github.com/enkore/j4-dmenu-desktop
+license	GPL-3.0-only
+size	84252
+installed-size	195924
+depends	so:libc.musl-armhf.so.1 so:libfmt.so.11 so:libgcc_s.so.1 so:libspdlog.so.1.17 so:libstdc++.so.6
+origin	j4-dmenu-desktop
+repo	community
+file	j4-dmenu-desktop-3.2-r4.apk
+checksum	Q1AOyf3v2yMtwpj2swv+CzHqTivhE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfmt.so.11	fmt
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libspdlog.so.1.17	spdlog
+dep	so:libstdc++.so.6	libstdc++

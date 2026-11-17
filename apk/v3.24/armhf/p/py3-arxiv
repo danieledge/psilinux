@@ -1,0 +1,17 @@
+name	py3-arxiv
+version	4.0.0-r0
+description	Python wrapper for the arXiv API
+url	https://github.com/lukasschwab/arxiv.py
+license	MIT
+size	13660
+installed-size	36387
+depends	python3 py3-feedparser py3-requests py3-lxml python3~3.14
+origin	py3-arxiv
+repo	community
+file	py3-arxiv-4.0.0-r0.apk
+checksum	Q1pU2L/kXkJ8ZxuiA8mYDTpb++4mw=
+dep	python3	python3
+dep	py3-feedparser	py3-feedparser
+dep	py3-requests	py3-requests
+dep	py3-lxml	py3-lxml
+dep	python3~3.14	python3

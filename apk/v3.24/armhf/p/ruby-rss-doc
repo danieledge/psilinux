@@ -1,0 +1,14 @@
+name	ruby-rss-doc
+version	0.3.1-r1
+description	RSS reading and writing for Ruby (ri docs)
+url	https://github.com/ruby/rss
+license	BSD-2-Clause
+size	1560
+installed-size	1
+depends	ruby ruby-rexml
+origin	ruby-rss
+repo	main
+file	ruby-rss-doc-0.3.1-r1.apk
+checksum	Q1+ynfAZsqtTUGvoFLAZ8iahkUi88=
+dep	ruby	ruby
+dep	ruby-rexml	ruby-rexml

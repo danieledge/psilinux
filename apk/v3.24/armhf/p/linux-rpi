@@ -1,0 +1,14 @@
+name	linux-rpi
+version	6.18.60-r0
+description	Linux kernel with Raspberry Pi patches
+url	https://github.com/raspberrypi/linux
+license	GPL-2.0-only
+size	28404001
+installed-size	35091755
+depends	initramfs-generator linux-firmware-brcm
+origin	linux-rpi
+repo	main
+file	linux-rpi-6.18.60-r0.apk
+checksum	Q1LNDCjvPYRx2xRpBUvuSGhDToue0=
+dep	initramfs-generator	mkinitfs
+dep	linux-firmware-brcm	linux-firmware-brcm

@@ -1,0 +1,25 @@
+name	xdm
+version	1.1.17-r1
+description	X Display Manager
+url	https://xorg.freedesktop.org/wiki/
+license	MIT
+size	100062
+installed-size	297012
+depends	sessreg so:libX11.so.6 so:libXau.so.6 so:libXaw.so.7 so:libXdmcp.so.6 so:libXext.so.6 so:libXft.so.2 so:libXmu.so.6 so:libXpm.so.4 so:libXrender.so.1 so:libXt.so.6 so:libc.musl-armhf.so.1 so:libpam.so.0
+origin	xdm
+repo	community
+file	xdm-1.1.17-r1.apk
+checksum	Q1eNny4oAmmQCvuiS+HOQXfyXI/ns=
+dep	sessreg	sessreg
+dep	so:libX11.so.6	libx11
+dep	so:libXau.so.6	libxau
+dep	so:libXaw.so.7	libxaw
+dep	so:libXdmcp.so.6	libxdmcp
+dep	so:libXext.so.6	libxext
+dep	so:libXft.so.2	libxft
+dep	so:libXmu.so.6	libxmu
+dep	so:libXpm.so.4	libxpm
+dep	so:libXrender.so.1	libxrender
+dep	so:libXt.so.6	libxt
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpam.so.0	linux-pam

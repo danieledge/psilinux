@@ -1,0 +1,14 @@
+name	lswt
+version	2.0.0-r0
+description	List Wayland toplevels
+url	https://git.sr.ht/~leon_plickat/lswt
+license	GPL-3.0-only
+size	10245
+installed-size	21792
+depends	so:libc.musl-armhf.so.1 so:libwayland-client.so.0
+origin	lswt
+repo	community
+file	lswt-2.0.0-r0.apk
+checksum	Q1nTJPuMLbaIl5DDdt0X20xl9ZU58=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libwayland-client.so.0	wayland-libs-client

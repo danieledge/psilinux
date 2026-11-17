@@ -1,0 +1,18 @@
+name	rustup
+version	1.29.3-r0
+description	Rust toolchain installer
+url	https://rustup.rs/
+license	Apache-2.0
+size	2527906
+installed-size	5261292
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgcc_s.so.1 so:libssl.so.3 so:libzstd.so.1
+origin	rustup
+repo	community
+file	rustup-1.29.3-r0.apk
+checksum	Q1VrP3mY4pIWmZaGiw6wFr1LUQJYA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3
+dep	so:libzstd.so.1	zstd-libs

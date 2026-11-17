@@ -1,0 +1,17 @@
+name	certbot-apache
+version	5.6.0-r0
+description	Apache plugin for Certbot client
+url	https://github.com/certbot/certbot
+license	Apache-2.0
+size	7333
+installed-size	13093
+depends	certbot py3-acme py3-augeas py3-setuptools python3~3.14
+origin	certbot-apache
+repo	community
+file	certbot-apache-5.6.0-r0.apk
+checksum	Q1flD86t3/v8KPZzt8Qsd9dzEFL0g=
+dep	certbot	certbot
+dep	py3-acme	py3-acme
+dep	py3-augeas	py3-augeas
+dep	py3-setuptools	py3-setuptools
+dep	python3~3.14	python3

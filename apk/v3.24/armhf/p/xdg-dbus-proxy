@@ -1,0 +1,17 @@
+name	xdg-dbus-proxy
+version	0.1.9-r0
+description	Filtering proxy for D-Bus connections
+url	https://github.com/flatpak/xdg-dbus-proxy/
+license	LGPL-2.1-or-later
+size	20019
+installed-size	42160
+depends	dbus so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	xdg-dbus-proxy
+repo	community
+file	xdg-dbus-proxy-0.1.9-r0.apk
+checksum	Q1TO876244FHV/fC5xQ1G7+IRJwyI=
+dep	dbus	dbus
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

@@ -1,0 +1,13 @@
+name	emacs-ert-async
+version	0.1.2_git20200105-r1
+description	Async support for ERT testing framework
+url	https://github.com/rejeep/ert-async.el
+license	GPL-3.0-or-later
+size	4231
+installed-size	7201
+depends	cmd:emacs
+origin	emacs-ert-async
+repo	community
+file	emacs-ert-async-0.1.2_git20200105-r1.apk
+checksum	Q1KvdOuYSY0jqBoJ7kjaQMKx8QPTs=
+dep	cmd:emacs	emacs-gtk3

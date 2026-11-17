@@ -1,0 +1,18 @@
+name	alpine
+version	2.26-r5
+description	Text-based email client, friendly for novices but powerful
+url	https://repo.or.cz/alpine.git
+license	Apache-2.0
+size	3810420
+installed-size	8435624
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:liblber.so.2 so:libldap.so.2 so:libncursesw.so.6 so:libssl.so.3
+origin	alpine
+repo	community
+file	alpine-2.26-r5.apk
+checksum	Q1/CLN/eROGTPhfUxNam6F8+SRfQc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libssl.so.3	libssl3

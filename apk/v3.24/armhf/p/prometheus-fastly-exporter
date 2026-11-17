@@ -1,0 +1,13 @@
+name	prometheus-fastly-exporter
+version	10.2.0-r7
+description	A Prometheus exporter for the Fastly Real-time Analytics API
+url	https://github.com/fastly/fastly-exporter
+license	Apache-2.0
+size	5086028
+installed-size	13668820
+depends	so:libc.musl-armhf.so.1
+origin	prometheus-fastly-exporter
+repo	community
+file	prometheus-fastly-exporter-10.2.0-r7.apk
+checksum	Q1qHbfT9xu2HS2DrEdAFor7gis4nY=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,16 @@
+name	libdwarf-dev
+version	2.1.0-r0
+description	Parsing library for DWARF2 and later debugging file format (development files)
+url	https://www.prevanders.net/dwarf.html
+license	LGPL-2.1-only
+size	95792
+installed-size	446673
+depends	libdwarf=2.1.0-r0 liblibdwarfp=2.1.0-r0 pc:libzstd pkgconfig
+origin	libdwarf
+repo	main
+file	libdwarf-dev-2.1.0-r0.apk
+checksum	Q1FmsQ/U6s8qK4s1rNxU/lm00lxno=
+dep	libdwarf=2.1.0-r0	libdwarf
+dep	liblibdwarfp=2.1.0-r0	liblibdwarfp
+dep	pc:libzstd	zstd-dev
+dep	pkgconfig	pkgconf

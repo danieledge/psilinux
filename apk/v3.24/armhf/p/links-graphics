@@ -1,0 +1,24 @@
+name	links-graphics
+version	2.30-r1
+description	Web browser running in both graphics and text mode
+url	http://links.twibright.com/
+license	GPL-2.0-or-later WITH OpenSSL-Exception
+size	3039786
+installed-size	4484992
+depends	so:libX11.so.6 so:libbrotlidec.so.1 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libevent-2.1.so.7 so:libgomp.so.1 so:libjpeg.so.8 so:libpng16.so.16 so:libssl.so.3 so:libz.so.1 so:libzstd.so.1
+origin	links-graphics
+repo	community
+file	links-graphics-2.30-r1.apk
+checksum	Q1ou80JzBb2cftplDmpquUrQu4Sks=
+dep	so:libX11.so.6	libx11
+dep	so:libbrotlidec.so.1	brotli-libs
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libevent-2.1.so.7	libevent
+dep	so:libgomp.so.1	libgomp
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpng16.so.16	libpng
+dep	so:libssl.so.3	libssl3
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

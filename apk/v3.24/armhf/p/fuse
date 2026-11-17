@@ -1,0 +1,14 @@
+name	fuse
+version	2.9.9-r7
+description	A library that makes it possible to implement a filesystem in a userspace program.
+url	https://github.com/libfuse/libfuse/
+license	GPL-2.0-only AND LGPL-2.1-only
+size	86692
+installed-size	231552
+depends	fuse-common so:libc.musl-armhf.so.1
+origin	fuse
+repo	community
+file	fuse-2.9.9-r7.apk
+checksum	Q14iJh3TRmefsI37bHoK1+kq5loMc=
+dep	fuse-common	fuse-common
+dep	so:libc.musl-armhf.so.1	musl

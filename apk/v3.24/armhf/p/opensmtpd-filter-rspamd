@@ -1,0 +1,14 @@
+name	opensmtpd-filter-rspamd
+version	0.1.8-r26
+description	OpenSMTPD filter integration for Rspamd
+url	https://github.com/poolpOrg/filter-rspamd
+license	ISC
+size	2625911
+installed-size	6371484
+depends	opensmtpd so:libc.musl-armhf.so.1
+origin	opensmtpd-filter-rspamd
+repo	community
+file	opensmtpd-filter-rspamd-0.1.8-r26.apk
+checksum	Q1pEFwkBTD9lH4FexzoPeoe1vq7S0=
+dep	opensmtpd	opensmtpd
+dep	so:libc.musl-armhf.so.1	musl

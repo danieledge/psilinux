@@ -1,0 +1,13 @@
+name	icu-data-en
+version	78.1-r0
+description	Stripped down ICU data with only en_US/GB locale and no legacy charset converters
+url	https://icu.unicode.org/
+license	ICU
+size	1025820
+installed-size	3021952
+depends	/bin/sh
+origin	icu
+repo	main
+file	icu-data-en-78.1-r0.apk
+checksum	Q17Laif12iHw4CsLP+czfKj+4aNtY=
+dep	/bin/sh	busybox-binsh

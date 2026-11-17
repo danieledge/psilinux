@@ -1,0 +1,16 @@
+name	s6-rc-dev
+version	0.6.1.1-r0
+description	Service manager for s6-based systems (development files)
+url	https://skarnet.org/software/s6-rc/
+license	ISC
+size	4493
+installed-size	8969
+depends	s6-rc-libs=0.6.1.1-r0 pc:libs6>=2.15.0.0 pc:libskarnet>=2.15.0.0 pkgconfig
+origin	s6-rc
+repo	main
+file	s6-rc-dev-0.6.1.1-r0.apk
+checksum	Q1BRcqZltRODkSvHJaqetHWAHeiz0=
+dep	s6-rc-libs=0.6.1.1-r0	s6-rc-libs
+dep	pc:libs6>=2.15.0.0	s6-dev
+dep	pc:libskarnet>=2.15.0.0	skalibs-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,28 @@
+name	colord
+version	1.4.8-r4
+description	System daemon for managing color devices
+url	https://www.freedesktop.org/software/colord
+license	GPL-2.0-or-later
+size	417251
+installed-size	1558244
+depends	libcolord=1.4.8-r4 /bin/sh so:libc.musl-armhf.so.1 so:libcolord.so.2 so:libcolordprivate.so.2 so:libelogind.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgudev-1.0.so.0 so:libgusb.so.2 so:libintl.so.8 so:liblcms2.so.2 so:libpolkit-gobject-1.so.0 so:libsqlite3.so.0
+origin	colord
+repo	community
+file	colord-1.4.8-r4.apk
+checksum	Q13pV7HIN5af3lUlUFaSLvUSnXgZ8=
+dep	libcolord=1.4.8-r4	libcolord
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcolord.so.2	libcolord
+dep	so:libcolordprivate.so.2	libcolord
+dep	so:libelogind.so.0	libelogind
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgudev-1.0.so.0	libgudev
+dep	so:libgusb.so.2	libgusb
+dep	so:libintl.so.8	libintl
+dep	so:liblcms2.so.2	lcms2
+dep	so:libpolkit-gobject-1.so.0	polkit-noelogind-libs
+dep	so:libsqlite3.so.0	sqlite-libs

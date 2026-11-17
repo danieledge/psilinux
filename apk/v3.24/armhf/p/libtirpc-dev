@@ -1,0 +1,17 @@
+name	libtirpc-dev
+version	1.3.5-r1
+description	Transport Independent RPC library (SunRPC replacement) (development files)
+url	https://sourceforge.net/projects/libtirpc/
+license	BSD-3-Clause
+size	41940
+installed-size	192579
+depends	bsd-compat-headers krb5-dev libtirpc-nokrb=1.3.5-r1 libtirpc=1.3.5-r1 pkgconfig
+origin	libtirpc
+repo	main
+file	libtirpc-dev-1.3.5-r1.apk
+checksum	Q17Mb34ZKZFX7ipzhc2Vb14djd9qc=
+dep	bsd-compat-headers	bsd-compat-headers
+dep	krb5-dev	krb5-dev
+dep	libtirpc-nokrb=1.3.5-r1	libtirpc-nokrb
+dep	libtirpc=1.3.5-r1	libtirpc
+dep	pkgconfig	pkgconf

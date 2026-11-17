@@ -1,0 +1,14 @@
+name	bzip3-dev
+version	1.5.3-r0
+description	Better and stronger spiritual successor to BZip2 (development files)
+url	https://github.com/iczelia/bzip3
+license	LGPL-3.0-or-later
+size	5274
+installed-size	9823
+depends	bzip3-libs=1.5.3-r0 pkgconfig
+origin	bzip3
+repo	community
+file	bzip3-dev-1.5.3-r0.apk
+checksum	Q1BxXo4mOXVMxYz8DunqmZkwp3DZ8=
+dep	bzip3-libs=1.5.3-r0	bzip3-libs
+dep	pkgconfig	pkgconf

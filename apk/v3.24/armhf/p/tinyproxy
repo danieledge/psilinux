@@ -1,0 +1,14 @@
+name	tinyproxy
+version	1.11.3-r0
+description	Lightweight HTTP proxy
+url	https://tinyproxy.github.io/
+license	GPL-2.0-or-later
+size	40803
+installed-size	85177
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	tinyproxy
+repo	main
+file	tinyproxy-1.11.3-r0.apk
+checksum	Q1MHQckwUOIskkgtSw9yzivvKMWVU=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

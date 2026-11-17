@@ -1,0 +1,14 @@
+name	gnome-shell-extensions
+version	50.2-r0
+description	collection of extensions for GNOME Shell
+url	https://apps.gnome.org/Extensions
+license	GPL-2.0-or-later
+size	68380
+installed-size	269197
+depends	gnome-menus libgtop
+origin	gnome-shell-extensions
+repo	community
+file	gnome-shell-extensions-50.2-r0.apk
+checksum	Q18fCFgGtpl+2WNFzDTufcb7KJv+w=
+dep	gnome-menus	gnome-menus
+dep	libgtop	libgtop

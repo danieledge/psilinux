@@ -1,0 +1,14 @@
+name	ptex-dev
+version	2.5.2-r0
+description	texture mapping system by Walt Disney Animation Studios (development files)
+url	https://ptex.us/
+license	BSD-3-Clause
+size	21887
+installed-size	82280
+depends	ptex=2.5.2-r0 pkgconfig
+origin	ptex
+repo	community
+file	ptex-dev-2.5.2-r0.apk
+checksum	Q1v8gh1eT5hpyM/T9xUXaHcXu6HPo=
+dep	ptex=2.5.2-r0	ptex
+dep	pkgconfig	pkgconf

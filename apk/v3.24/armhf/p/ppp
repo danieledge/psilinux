@@ -1,0 +1,21 @@
+name	ppp
+version	2.5.3-r0
+description	A daemon which implements the PPP protocol for dial-up networking
+url	https://ppp.samba.org/
+license	BSD-3-Clause AND BSD-4-Clause AND BSD-4-Clause-Shortened AND GPL-2.0-or-later AND HPND AND LGPL-2.0-or-later AND Public-Domain AND RSA-MD
+size	1388
+installed-size	0
+depends	ppp-chat ppp-radius ppp-atm ppp-pppoe ppp-l2tp ppp-winbind ppp-passwordfd ppp-minconn ppp-daemon
+origin	ppp
+repo	main
+file	ppp-2.5.3-r0.apk
+checksum	Q1e/VPF1kSBp0wemGbsKTttPsns5Y=
+dep	ppp-chat	ppp-chat
+dep	ppp-radius	ppp-radius
+dep	ppp-atm	ppp-atm
+dep	ppp-pppoe	ppp-pppoe
+dep	ppp-l2tp	ppp-l2tp
+dep	ppp-winbind	ppp-winbind
+dep	ppp-passwordfd	ppp-passwordfd
+dep	ppp-minconn	ppp-minconn
+dep	ppp-daemon	ppp-daemon

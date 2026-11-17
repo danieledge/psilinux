@@ -1,0 +1,25 @@
+name	chiaki
+version	2.2.0-r3
+description	Open Source PS4 and PS5 remote play client
+url	https://git.sr.ht/~thestr4ng3r/chiaki
+license	GPL-3.0-or-later
+size	277343
+installed-size	581847
+depends	so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt5Multimedia.so.5 so:libQt5Svg.so.5 so:libQt5Widgets.so.5 so:libSDL2-2.0.so.0 so:libavcodec.so.61 so:libavutil.so.59 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libopus.so.0 so:libstdc++.so.6
+origin	chiaki
+repo	community
+file	chiaki-2.2.0-r3.apk
+checksum	Q1gMKy3fm5ymlbCf6HqIymIXiTJ5w=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Gui.so.5	qt5-qtbase-x11
+dep	so:libQt5Multimedia.so.5	qt5-qtmultimedia
+dep	so:libQt5Svg.so.5	qt5-qtsvg
+dep	so:libQt5Widgets.so.5	qt5-qtbase-x11
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libavcodec.so.61	ffmpeg7-libavcodec
+dep	so:libavutil.so.59	ffmpeg7-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libopus.so.0	opus
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,17 @@
+name	openblas-dev
+version	0.3.30-r2
+description	fast BSD-licensed BLAS based on gotoBLAS2, with LAPACK (development files)
+url	https://www.openblas.net/
+license	BSD-3-Clause
+size	105021
+installed-size	1754151
+depends	gfortran liblapack=0.3.30-r2 liblapacke=0.3.30-r2 openblas=0.3.30-r2 pkgconfig
+origin	openblas
+repo	community
+file	openblas-dev-0.3.30-r2.apk
+checksum	Q1WT6kHXJIhAJGqgI9zEHj56yauAY=
+dep	gfortran	gfortran
+dep	liblapack=0.3.30-r2	liblapack
+dep	liblapacke=0.3.30-r2	liblapacke
+dep	openblas=0.3.30-r2	openblas
+dep	pkgconfig	pkgconf

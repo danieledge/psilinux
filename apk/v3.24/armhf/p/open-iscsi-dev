@@ -1,0 +1,14 @@
+name	open-iscsi-dev
+version	2.1.12-r0
+description	High performance, transport independent, multi-platform iSCSI initiator (development files)
+url	https://www.open-iscsi.com
+license	GPL-2.0-only
+size	8552
+installed-size	42631
+depends	open-iscsi-libs=2.1.12-r0 pkgconfig
+origin	open-iscsi
+repo	main
+file	open-iscsi-dev-2.1.12-r0.apk
+checksum	Q1mZe7JVDGLfWhlFDaPxa8PVFxzAo=
+dep	open-iscsi-libs=2.1.12-r0	open-iscsi-libs
+dep	pkgconfig	pkgconf

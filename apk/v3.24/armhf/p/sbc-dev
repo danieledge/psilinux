@@ -1,0 +1,15 @@
+name	sbc-dev
+version	2.1-r0
+description	Bluetooth Subband Codec (SBC) library (development files)
+url	https://www.bluez.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	2897
+installed-size	2794
+depends	libsndfile-dev sbc=2.1-r0 pkgconfig
+origin	sbc
+repo	community
+file	sbc-dev-2.1-r0.apk
+checksum	Q1ab0fli+VgPSvJfGO6vVgEsKV74I=
+dep	libsndfile-dev	libsndfile-dev
+dep	sbc=2.1-r0	sbc
+dep	pkgconfig	pkgconf

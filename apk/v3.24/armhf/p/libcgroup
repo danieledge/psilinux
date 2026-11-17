@@ -1,0 +1,14 @@
+name	libcgroup
+version	3.2.0-r0
+description	cgroup library
+url	https://github.com/libcgroup/libcgroup
+license	LGPL-2.1-only
+size	56103
+installed-size	116056
+depends	so:libc.musl-armhf.so.1 so:libfts.so.0
+origin	libcgroup
+repo	community
+file	libcgroup-3.2.0-r0.apk
+checksum	Q1q4Do/SEJ1v0SJsgJMVIX8LcM07Y=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfts.so.0	musl-fts

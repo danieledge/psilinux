@@ -1,0 +1,14 @@
+name	geckodriver
+version	0.36.0-r0
+description	Proxy for using W3C WebDriver compatible clients to interact with Gecko-based browsers.
+url	https://github.com/mozilla/geckodriver
+license	MPL-2.0
+size	1432857
+installed-size	2901876
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	geckodriver
+repo	community
+file	geckodriver-0.36.0-r0.apk
+checksum	Q1X8Dbm/yvuvW1Fn32YHTuyw65Q/k=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

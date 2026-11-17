@@ -1,0 +1,15 @@
+name	kcodecs
+version	6.26.0-r0
+description	Provide a collection of methods to manipulate strings using various encodings
+url	https://community.kde.org/Frameworks
+license	LGPL-2.1-only AND LGPL-2.1-or-later
+size	92376
+installed-size	202347
+depends	so:libQt6Core.so.6 so:libc.musl-armhf.so.1 so:libstdc++.so.6
+origin	kcodecs
+repo	community
+file	kcodecs-6.26.0-r0.apk
+checksum	Q1SePDP5HCI1Oklo7aGGQtnYPLRVs=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libstdc++.so.6	libstdc++

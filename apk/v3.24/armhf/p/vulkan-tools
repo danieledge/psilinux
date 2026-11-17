@@ -1,0 +1,18 @@
+name	vulkan-tools
+version	1.4.347-r0
+description	Vulkan Utilities and Tools
+url	https://www.khronos.org/vulkan
+license	Apache-2.0
+size	375968
+installed-size	1299656
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libwayland-client.so.0 so:libxcb.so.1
+origin	vulkan-tools
+repo	main
+file	vulkan-tools-1.4.347-r0.apk
+checksum	Q13ewPqUlUmeACYIzpr/CU5IIFNAI=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libxcb.so.1	libxcb

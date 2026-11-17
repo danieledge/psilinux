@@ -1,0 +1,18 @@
+name	weston-dev
+version	14.0.2-r5
+description	Reference Wayland server (development files)
+url	https://wayland.freedesktop.org/
+license	MIT
+size	39968
+installed-size	175850
+depends	weston=14.0.2-r5 libweston=14.0.2-r5 pc:pixman-1>=0.25.2 pc:wayland-server>=1.22.0 pc:xkbcommon>=0.3.0 pkgconfig
+origin	weston
+repo	community
+file	weston-dev-14.0.2-r5.apk
+checksum	Q1TIYKi4By5T8DlFb1KE1sOMbSbyY=
+dep	weston=14.0.2-r5	weston
+dep	libweston=14.0.2-r5	libweston
+dep	pc:pixman-1>=0.25.2	pixman-dev
+dep	pc:wayland-server>=1.22.0	wayland-dev
+dep	pc:xkbcommon>=0.3.0	libxkbcommon-dev
+dep	pkgconfig	pkgconf

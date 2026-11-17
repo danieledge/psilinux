@@ -1,0 +1,15 @@
+name	ruby-racc
+version	1.8.1-r0
+description	LALR(1) parser generator for Ruby
+url	https://github.com/ruby/racc
+license	BSD-2-Clause AND Ruby
+size	50646
+installed-size	179842
+depends	ruby so:libc.musl-armhf.so.1 so:libruby.so.3.4
+origin	ruby-racc
+repo	main
+file	ruby-racc-1.8.1-r0.apk
+checksum	Q1VldXAq1mxf/3Lvod6QejimZ/7l0=
+dep	ruby	ruby
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libruby.so.3.4	ruby-libs

@@ -1,0 +1,13 @@
+name	py3-cairo-pyc
+version	1.28.0-r1
+description	Precompiled Python bytecode for py3-cairo
+url	http://cairographics.org/pycairo/
+license	LGPL-2.0-or-later
+size	2491
+installed-size	1263
+depends	python3~3.14
+origin	py3-cairo
+repo	main
+file	py3-cairo-pyc-1.28.0-r1.apk
+checksum	Q13tv5COMUcNRy1SaSnyOqY03dxkQ=
+dep	python3~3.14	python3

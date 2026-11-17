@@ -1,0 +1,16 @@
+name	ayatana-ido-dev
+version	0.10.4-r1
+description	Ayatana Indicator Display Objects (development files)
+url	https://github.com/AyatanaIndicators/ayatana-ido
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only
+size	6186
+installed-size	24186
+depends	ayatana-ido=0.10.4-r1 pc:glib-2.0 pc:gtk+-3.0 pkgconfig
+origin	ayatana-ido
+repo	community
+file	ayatana-ido-dev-0.10.4-r1.apk
+checksum	Q1mGTTJ6u2zEo41dKU20mZWiU+9Zc=
+dep	ayatana-ido=0.10.4-r1	ayatana-ido
+dep	pc:glib-2.0	glib-dev
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,15 @@
+name	libmnl-dev
+version	1.0.5-r2
+description	Library for minimalistic netlink (development files)
+url	https://www.netfilter.org/projects/libmnl/
+license	LGPL-2.1-or-later
+size	3844
+installed-size	8364
+depends	linux-headers libmnl=1.0.5-r2 pkgconfig
+origin	libmnl
+repo	main
+file	libmnl-dev-1.0.5-r2.apk
+checksum	Q13Mg1BcaVB/e0qp5oAv6uWfzuNSU=
+dep	linux-headers	linux-headers
+dep	libmnl=1.0.5-r2	libmnl
+dep	pkgconfig	pkgconf

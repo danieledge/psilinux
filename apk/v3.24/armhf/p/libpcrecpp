@@ -1,0 +1,16 @@
+name	libpcrecpp
+version	8.45-r4
+description	C++ bindings for PCRE
+url	https://www.pcre.org/
+license	BSD-3-Clause
+size	14786
+installed-size	34176
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpcre.so.1 so:libstdc++.so.6
+origin	pcre
+repo	main
+file	libpcrecpp-8.45-r4.apk
+checksum	Q1Jzt4SBlTfhraNDVGuPUXn8kAA3E=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpcre.so.1	pcre
+dep	so:libstdc++.so.6	libstdc++

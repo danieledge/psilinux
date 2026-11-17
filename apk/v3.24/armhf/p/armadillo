@@ -1,0 +1,19 @@
+name	armadillo
+version	15.2.6-r0
+description	C++ library for linear algebra & scientific computing
+url	https://arma.sourceforge.net/
+license	Apache-2.0
+size	15296
+installed-size	38104
+depends	liblapack openblas so:libarpack.so.2 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libsuperlu.so.7
+origin	armadillo
+repo	community
+file	armadillo-15.2.6-r0.apk
+checksum	Q1X2ob4ou8mrqJuporDFeEv5WVgQ0=
+dep	liblapack	liblapack
+dep	openblas	openblas
+dep	so:libarpack.so.2	arpack
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libsuperlu.so.7	superlu

@@ -1,0 +1,12 @@
+name	vte3-dbg
+version	0.84.0-r2
+description	Virtual Terminal Emulator library (debug symbols)
+url	https://gitlab.gnome.org/GNOME/vte
+license	LGPL-2.0-or-later
+size	8465112
+installed-size	22363680
+depends	!vte3-app<0.84.0-r2 !vte3-app>0.84.0-r2 !vte3-gtk4<0.84.0-r2 !vte3-gtk4>0.84.0-r2 !vte3<0.84.0-r2 !vte3>0.84.0-r2
+origin	vte3
+repo	community
+file	vte3-dbg-0.84.0-r2.apk
+checksum	Q1VQzokvDt9SYUfeQsG25v2+89H6g=

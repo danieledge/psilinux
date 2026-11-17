@@ -1,0 +1,18 @@
+name	duo_unix
+version	1.12.1-r2
+description	Duo two-factor authentication for Unix systems with Pluggable Authentication Modules (PAM)
+url	https://duo.com/docs/duounix
+license	GPL-2.0-only
+size	80493
+installed-size	162401
+depends	openssh openssh-server-pam so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libpam.so.0 so:libssl.so.3
+origin	duo_unix
+repo	community
+file	duo_unix-1.12.1-r2.apk
+checksum	Q1zGydfEJferFnXVX7PHByLaCtyfY=
+dep	openssh	openssh
+dep	openssh-server-pam	openssh-server-pam
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libpam.so.0	linux-pam
+dep	so:libssl.so.3	libssl3

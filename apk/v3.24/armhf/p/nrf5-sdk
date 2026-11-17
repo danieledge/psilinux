@@ -1,0 +1,15 @@
+name	nrf5-sdk
+version	17.1.0-r0
+description	SDK for the nRF52 Series and nRF51 Series SoCs
+url	https://github.com/nobodywasishere/nrf5-sdk
+license	custom
+size	49237350
+installed-size	171555201
+depends	bash python3 perl
+origin	nrf5-sdk
+repo	community
+file	nrf5-sdk-17.1.0-r0.apk
+checksum	Q1lHPm4Lunj9GraITAaG53hgg/6Jg=
+dep	bash	bash
+dep	python3	python3
+dep	perl	perl

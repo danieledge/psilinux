@@ -1,0 +1,13 @@
+name	iozone
+version	3.510-r0
+description	IOzone filesystem benchmark
+url	https://www.iozone.org
+license	custom
+size	127343
+installed-size	289380
+depends	so:libc.musl-armhf.so.1
+origin	iozone
+repo	community
+file	iozone-3.510-r0.apk
+checksum	Q1AHG0d9/2xx66VSqDrEkbHPL7woI=
+dep	so:libc.musl-armhf.so.1	musl

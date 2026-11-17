@@ -1,0 +1,14 @@
+name	containerd
+version	2.3.7-r0
+description	An open and reliable container runtime
+url	https://containerd.io/
+license	Apache-2.0
+size	16717735
+installed-size	47005146
+depends	runc so:libc.musl-armhf.so.1
+origin	containerd
+repo	community
+file	containerd-2.3.7-r0.apk
+checksum	Q16IbEkC0hOR5wu1iFsz4Z59h5RP4=
+dep	runc	runc
+dep	so:libc.musl-armhf.so.1	musl

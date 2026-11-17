@@ -1,0 +1,14 @@
+name	dufs
+version	0.46.0-r0
+description	A file server that supports static serving, uploading, searching, accessing control, webdav...
+url	https://github.com/sigoden/dufs
+license	MIT OR Apache-2.0
+size	1940091
+installed-size	3643252
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	dufs
+repo	community
+file	dufs-0.46.0-r0.apk
+checksum	Q1wMz90EEycZi5k8JWghqVD5B5Tcc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,15 @@
+name	luau
+version	0.689-r0
+description	A fast, small, safe, gradually typed embeddable scripting language derived from Lua
+url	https://github.com/roblox/luau
+license	MIT
+size	2049716
+installed-size	5079288
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	luau
+repo	community
+file	luau-0.689-r0.apk
+checksum	Q18USSn/mRNZMAQt5l5dYQhxu+U3Y=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

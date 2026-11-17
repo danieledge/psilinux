@@ -1,0 +1,13 @@
+name	md4c-libs
+version	0.5.3-r0
+description	Fast Markdown parser written in C (libraries)
+url	https://github.com/mity/md4c
+license	MIT
+size	69846
+installed-size	158040
+depends	so:libc.musl-armhf.so.1
+origin	md4c
+repo	community
+file	md4c-libs-0.5.3-r0.apk
+checksum	Q1ogyXG8ycx4iqSdZ5gS3XQ6ZcVBU=
+dep	so:libc.musl-armhf.so.1	musl

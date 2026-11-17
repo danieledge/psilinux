@@ -1,0 +1,24 @@
+name	samba-dev
+version	4.23.8-r0
+description	Tools to access a server's filespace and printers via SMB (development files)
+url	https://www.samba.org/
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	324994
+installed-size	1945226
+depends	ldb=4.23.8-r0 libsmbclient=4.23.8-r0 libwbclient=4.23.8-r0 samba-client-libs=4.23.8-r0 samba-common-server-libs=4.23.8-r0 samba-dc-libs=4.23.8-r0 samba-libs=4.23.8-r0 samba-util-libs=4.23.8-r0 pc:talloc pc:tdb pc:tevent pkgconfig
+origin	samba
+repo	main
+file	samba-dev-4.23.8-r0.apk
+checksum	Q1eDLx8o6m++J6N1NuY4LghDncPhU=
+dep	ldb=4.23.8-r0	ldb
+dep	libsmbclient=4.23.8-r0	libsmbclient
+dep	libwbclient=4.23.8-r0	libwbclient
+dep	samba-client-libs=4.23.8-r0	samba-client-libs
+dep	samba-common-server-libs=4.23.8-r0	samba-common-server-libs
+dep	samba-dc-libs=4.23.8-r0	samba-dc-libs
+dep	samba-libs=4.23.8-r0	samba-libs
+dep	samba-util-libs=4.23.8-r0	samba-util-libs
+dep	pc:talloc	talloc-dev
+dep	pc:tdb	tdb-dev
+dep	pc:tevent	tevent-dev
+dep	pkgconfig	pkgconf

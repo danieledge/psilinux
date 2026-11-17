@@ -1,0 +1,13 @@
+name	lm-sensors-sensord-openrc
+version	3.6.0-r5
+description	sensord daemon (OpenRC init scripts)
+url	https://github.com/lm-sensors/lm-sensors
+license	LGPL-2.1-or-later AND GPL-2.0-or-later
+size	2148
+installed-size	814
+depends	sysfsutils
+origin	lm-sensors
+repo	main
+file	lm-sensors-sensord-openrc-3.6.0-r5.apk
+checksum	Q1tLfM/bIFtTFgpazcqWbJwnbIeaw=
+dep	sysfsutils	sysfsutils

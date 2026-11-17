@@ -1,0 +1,13 @@
+name	py3-mozshellutil
+version	1.0.0-r0
+description	Shell command line parsing utilities for Mozilla testing
+url	https://firefox-source-docs.mozilla.org/mozbase/index.html
+license	MPL-2.0
+size	5169
+installed-size	9090
+depends	python3~3.14
+origin	py3-mozshellutil
+repo	community
+file	py3-mozshellutil-1.0.0-r0.apk
+checksum	Q1V2A9+g78aX0r4L0f7hym0dYwfdg=
+dep	python3~3.14	python3

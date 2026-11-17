@@ -1,0 +1,14 @@
+name	libmarisa-dev
+version	0.2.6-r8
+description	MARISA: Matching Algorithm with Recursively Implemented StorAge (development files)
+url	https://github.com/s-yata/marisa-trie
+license	BSD-2-Clause OR LGPL-2.1-or-later
+size	82086
+installed-size	299128
+depends	libmarisa=0.2.6-r8 pkgconfig
+origin	libmarisa
+repo	community
+file	libmarisa-dev-0.2.6-r8.apk
+checksum	Q1NBI8PDG6NcW60Gf7WSJns1HQBaI=
+dep	libmarisa=0.2.6-r8	libmarisa
+dep	pkgconfig	pkgconf

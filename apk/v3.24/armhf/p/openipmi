@@ -1,0 +1,23 @@
+name	openipmi
+version	2.0.36-r1
+description	IPMI (Intelligent Platform Management Interface) library and tools
+url	https://sourceforge.net/projects/openipmi/
+license	LGPL-2.0-or-later and GPL-2.0-or-later or BSD-3-Clause
+size	36105
+installed-size	89524
+depends	so:libOpenIPMI.so.0 so:libOpenIPMIcmdlang.so.0 so:libOpenIPMIglib.so.0 so:libOpenIPMIposix.so.0 so:libOpenIPMIui.so.1 so:libOpenIPMIutils.so.0 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgthread-2.0.so.0 so:libnetsnmp.so.45 so:libreadline.so.8
+origin	openipmi
+repo	community
+file	openipmi-2.0.36-r1.apk
+checksum	Q1vvMTXRgUjq35e4ASvtoR38Ata6M=
+dep	so:libOpenIPMI.so.0	openipmi-libs
+dep	so:libOpenIPMIcmdlang.so.0	openipmi-libs
+dep	so:libOpenIPMIglib.so.0	openipmi-libs
+dep	so:libOpenIPMIposix.so.0	openipmi-libs
+dep	so:libOpenIPMIui.so.1	openipmi-libs
+dep	so:libOpenIPMIutils.so.0	openipmi-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgthread-2.0.so.0	glib
+dep	so:libnetsnmp.so.45	net-snmp-libs
+dep	so:libreadline.so.8	readline

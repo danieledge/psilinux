@@ -1,0 +1,14 @@
+name	ocaml-uuidm-dev
+version	0.9.8-r5
+description	Universally unique identifiers (UUIDs) for OCaml (development files)
+url	https://erratique.ch/software/uuidm
+license	ISC
+size	25340
+installed-size	63516
+depends	ocaml-uuidm=0.9.8-r5 ocaml-cmdliner-dev
+origin	ocaml-uuidm
+repo	community
+file	ocaml-uuidm-dev-0.9.8-r5.apk
+checksum	Q1Xg8ek2cNksNMnnOMZcnHIs4yKOU=
+dep	ocaml-uuidm=0.9.8-r5	ocaml-uuidm
+dep	ocaml-cmdliner-dev	ocaml-cmdliner-dev

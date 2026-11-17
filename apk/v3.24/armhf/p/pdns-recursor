@@ -1,0 +1,24 @@
+name	pdns-recursor
+version	5.4.8-r0
+description	PowerDNS Recursive Server
+url	https://www.powerdns.com/
+license	GPL-2.0-only WITH OpenSSL-Exception
+size	4573538
+installed-size	11054544
+depends	pdns-recursor-common so:libboost_context.so.1.84.0 so:libboost_filesystem.so.1.84.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libfstrm.so.0 so:libgcc_s.so.1 so:liblua-5.4.so.0 so:libsodium.so.26 so:libssl.so.3 so:libstdc++.so.6
+origin	pdns-recursor
+repo	community
+file	pdns-recursor-5.4.8-r0.apk
+checksum	Q15OJy/6X79xZ0kwFiCry8TIzD2ZQ=
+dep	pdns-recursor-common	pdns-recursor-common
+dep	so:libboost_context.so.1.84.0	boost1.84-context
+dep	so:libboost_filesystem.so.1.84.0	boost1.84-filesystem
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libfstrm.so.0	fstrm
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblua-5.4.so.0	lua5.4-libs
+dep	so:libsodium.so.26	libsodium
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,16 @@
+name	cosmic-app-library
+version	1.0.15-r0
+description	Application launcher for the COSMIC Desktop Environment
+url	https://github.com/pop-os/cosmic-applibrary
+license	GPL-3.0-only
+size	7882571
+installed-size	16505161
+depends	cosmic-icons so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libxkbcommon.so.0
+origin	cosmic-app-library
+repo	community
+file	cosmic-app-library-1.0.15-r0.apk
+checksum	Q1Qup1agmiPqsLQPYqkLOMDMwsy7w=
+dep	cosmic-icons	cosmic-icons
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libxkbcommon.so.0	libxkbcommon

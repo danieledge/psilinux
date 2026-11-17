@@ -1,0 +1,13 @@
+name	nss_wrapper
+version	1.1.12-r1
+description	A wrapper for the user, group and hosts NSS API
+url	https://cwrap.org/nss_wrapper.html
+license	BSD-3-Clause
+size	22499
+installed-size	46396
+depends	so:libc.musl-armhf.so.1
+origin	nss_wrapper
+repo	community
+file	nss_wrapper-1.1.12-r1.apk
+checksum	Q1JrC5oYGdShGg5iNwpBLhmZd8b2M=
+dep	so:libc.musl-armhf.so.1	musl

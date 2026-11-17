@@ -1,0 +1,16 @@
+name	libxrandr
+version	1.5.5-r0
+description	X11 RandR extension library
+url	https://xorg.freedesktop.org/
+license	MIT
+size	15177
+installed-size	38060
+depends	so:libX11.so.6 so:libXext.so.6 so:libXrender.so.1 so:libc.musl-armhf.so.1
+origin	libxrandr
+repo	main
+file	libxrandr-1.5.5-r0.apk
+checksum	Q1QTD30U1nD/ZbvsaKHaHD3kqFoqU=
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXrender.so.1	libxrender
+dep	so:libc.musl-armhf.so.1	musl

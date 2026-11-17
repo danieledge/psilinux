@@ -1,0 +1,17 @@
+name	procps-ng
+version	4.0.6-r0
+description	Utilities for monitoring your system and processes on your system
+url	https://gitlab.com/procps-ng/procps
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	221221
+installed-size	536468
+depends	so:libc.musl-armhf.so.1 so:libintl.so.8 so:libncursesw.so.6 so:libproc2.so.1 so:libutmps.so.0.1
+origin	procps-ng
+repo	main
+file	procps-ng-4.0.6-r0.apk
+checksum	Q1CBYVIalk0GZiFyV6QeMVgnVzYaY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libintl.so.8	libintl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libproc2.so.1	libproc2
+dep	so:libutmps.so.0.1	utmps-libs

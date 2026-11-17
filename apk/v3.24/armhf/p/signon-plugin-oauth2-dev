@@ -1,0 +1,14 @@
+name	signon-plugin-oauth2-dev
+version	0.25_git20231124-r0
+description	Signond OAuth 1.0 and 2.0 plugin (development files)
+url	https://gitlab.com/accounts-sso/signon-plugin-oauth2
+license	LGPL-2.1-only
+size	3767
+installed-size	8592
+depends	pc:signon-plugins pkgconfig
+origin	signon-plugin-oauth2
+repo	community
+file	signon-plugin-oauth2-dev-0.25_git20231124-r0.apk
+checksum	Q1jnwd0Jvzy5JDrU/pMscOsCsrK5c=
+dep	pc:signon-plugins	signond-dev
+dep	pkgconfig	pkgconf

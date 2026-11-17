@@ -1,0 +1,15 @@
+name	dovecot-gssapi
+version	2.4.5-r0
+description	GSSAPI auth plugin for Dovecot
+url	https://www.dovecot.org/
+license	MIT AND LGPL-2.1-or-later
+size	3333
+installed-size	5252
+depends	dovecot=2.4.5-r0 so:libc.musl-armhf.so.1 so:libdovecot-gssapi.so.0
+origin	dovecot
+repo	main
+file	dovecot-gssapi-2.4.5-r0.apk
+checksum	Q1Oh4ATgO6mlDulagXKKH5Mg6u2hw=
+dep	dovecot=2.4.5-r0	dovecot
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdovecot-gssapi.so.0	dovecot

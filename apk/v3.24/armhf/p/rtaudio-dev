@@ -1,0 +1,17 @@
+name	rtaudio-dev
+version	6.0.1-r1
+description	Common C++ API for realtime audio I/O for ALSA, JACK, PulseAudio and OSS (development files)
+url	https://github.com/thestk/rtaudio
+license	MIT
+size	65893
+installed-size	210375
+depends	rtaudio=6.0.1-r1 pc:alsa pc:jack pc:libpulse-simple pkgconfig
+origin	rtaudio
+repo	community
+file	rtaudio-dev-6.0.1-r1.apk
+checksum	Q17+VefDlob+7ZsLnM6rrH/RoJ58s=
+dep	rtaudio=6.0.1-r1	rtaudio
+dep	pc:alsa	alsa-lib-dev
+dep	pc:jack	jack-dev
+dep	pc:libpulse-simple	pulseaudio-dev
+dep	pkgconfig	pkgconf

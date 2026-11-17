@@ -1,0 +1,17 @@
+name	lvm2
+version	2.03.35-r2
+description	Logical Volume Manager 2 utilities
+url	https://sourceware.org/lvm2/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-2-Clause
+size	1062463
+installed-size	2485463
+depends	lvm2-libs=2.03.35-r2 so:libaio.so.1 so:libblkid.so.1 so:libc.musl-armhf.so.1 so:libdevmapper-event.so.1.02
+origin	lvm2
+repo	main
+file	lvm2-2.03.35-r2.apk
+checksum	Q1E5si4LnLZR/i8TZpZsyMr9IzxT0=
+dep	lvm2-libs=2.03.35-r2	lvm2-libs
+dep	so:libaio.so.1	libaio
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdevmapper-event.so.1.02	device-mapper-event-libs

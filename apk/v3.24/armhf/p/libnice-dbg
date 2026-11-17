@@ -1,0 +1,12 @@
+name	libnice-dbg
+version	0.1.22-r0
+description	GLib ICE implementation (debug symbols)
+url	https://libnice.freedesktop.org/
+license	LGPL-2.1-or-later AND MPL-1.1
+size	572546
+installed-size	1295032
+depends	!libnice-gstreamer<0.1.22-r0 !libnice-gstreamer>0.1.22-r0 !libnice<0.1.22-r0 !libnice>0.1.22-r0
+origin	libnice
+repo	community
+file	libnice-dbg-0.1.22-r0.apk
+checksum	Q1T1fz1YHBd/4iby3liCXfbssnH64=

@@ -1,0 +1,16 @@
+name	cargo-make
+version	0.37.24-r0
+description	Rust task runner and build tool
+url	https://github.com/sagiegurari/cargo-make
+license	Apache-2.0
+size	4556804
+installed-size	9447560
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
+origin	cargo-make
+repo	community
+file	cargo-make-0.37.24-r0.apk
+checksum	Q18oG1j6XAQ3RG6ObOJUbmSTV6Sho=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3

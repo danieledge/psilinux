@@ -1,0 +1,18 @@
+name	libjcat-tools
+version	0.2.3-r2
+description	Library for reading and writing Jcat files
+url	https://github.com/hughsie/libjcat
+license	LGPL-2.1-or-later
+size	12133
+installed-size	25880
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libjcat.so.1
+origin	libjcat
+repo	community
+file	libjcat-tools-0.2.3-r2.apk
+checksum	Q1GwtIhjZ2l8ikyLR9sPUAaaNrijs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libjcat.so.1	libjcat

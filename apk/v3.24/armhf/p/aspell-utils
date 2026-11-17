@@ -1,0 +1,15 @@
+name	aspell-utils
+version	0.60.8.2-r0
+description	aspell misc utils
+url	http://aspell.net/
+license	LGPL-2.1-or-later
+size	9543
+installed-size	33751
+depends	aspell perl so:libc.musl-armhf.so.1
+origin	aspell
+repo	main
+file	aspell-utils-0.60.8.2-r0.apk
+checksum	Q1/IGiJhdHriqH+DBTYokvBS44MT4=
+dep	aspell	aspell
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

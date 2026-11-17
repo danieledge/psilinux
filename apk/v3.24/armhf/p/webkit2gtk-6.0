@@ -1,0 +1,79 @@
+name	webkit2gtk-6.0
+version	2.48.1-r4
+description	Portable web rendering engine WebKit for GTK+ - GTK4 version
+url	https://webkitgtk.org/
+license	LGPL-2.0-or-later AND BSD-2-Clause
+size	35820985
+installed-size	94454540
+depends	bubblewrap xdg-dbus-proxy dbus:org.freedesktop.Secrets so:libX11.so.6 so:libavif.so.16 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdrm.so.2 so:libenchant-2.so.2 so:libepoxy.so.0 so:libexpat.so.1 so:libflite.so.1 so:libflite_cmu_us_awb.so.1 so:libflite_cmu_us_kal.so.1 so:libflite_cmu_us_rms.so.1 so:libflite_cmu_us_slt.so.1 so:libflite_cmulex.so.1 so:libflite_usenglish.so.1 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgbm.so.1 so:libgcc_s.so.1 so:libgcrypt.so.20 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgstallocators-1.0.so.0 so:libgstapp-1.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstfft-1.0.so.0 so:libgstgl-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgsttag-1.0.so.0 so:libgsttranscoder-1.0.so.0 so:libgstvideo-1.0.so.0 so:libgtk-4.so.1 so:libharfbuzz-icu.so.0 so:libharfbuzz.so.0 so:libhyphen.so.0 so:libicui18n.so.78 so:libicuuc.so.78 so:libintl.so.8 so:libjpeg.so.8 so:libjxl.so.0.11 so:liblcms2.so.2 so:libmanette-0.2.so.0 so:libpango-1.0.so.0 so:libpng16.so.16 so:libseccomp.so.2 so:libsecret-1.so.0 so:libsoup-3.0.so.0 so:libsqlite3.so.0 so:libstdc++.so.6 so:libtasn1.so.6 so:libwayland-client.so.0 so:libwayland-server.so.0 so:libwebp.so.7 so:libwebpdemux.so.2 so:libwebpmux.so.3 so:libwoff2dec.so.1.0.2 so:libxml2.so.2 so:libxslt.so.1 so:libz.so.1
+origin	webkit2gtk-6.0
+repo	community
+file	webkit2gtk-6.0-2.48.1-r4.apk
+checksum	Q19DPLJmeYYJx4hnimQ82mUTzDb8w=
+dep	bubblewrap	bubblewrap
+dep	xdg-dbus-proxy	xdg-dbus-proxy
+dep	dbus:org.freedesktop.Secrets	gnome-keyring
+dep	so:libX11.so.6	libx11
+dep	so:libavif.so.16	libavif
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libdrm.so.2	libdrm
+dep	so:libenchant-2.so.2	enchant2-libs
+dep	so:libepoxy.so.0	libepoxy
+dep	so:libexpat.so.1	libexpat
+dep	so:libflite.so.1	flite
+dep	so:libflite_cmu_us_awb.so.1	flite
+dep	so:libflite_cmu_us_kal.so.1	flite
+dep	so:libflite_cmu_us_rms.so.1	flite
+dep	so:libflite_cmu_us_slt.so.1	flite
+dep	so:libflite_cmulex.so.1	flite
+dep	so:libflite_usenglish.so.1	flite
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstallocators-1.0.so.0	gst-plugins-base
+dep	so:libgstapp-1.0.so.0	gst-plugins-base
+dep	so:libgstaudio-1.0.so.0	gst-plugins-base
+dep	so:libgstbase-1.0.so.0	gstreamer
+dep	so:libgstfft-1.0.so.0	gst-plugins-base
+dep	so:libgstgl-1.0.so.0	gst-plugins-base
+dep	so:libgstpbutils-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgsttag-1.0.so.0	gst-plugins-base
+dep	so:libgsttranscoder-1.0.so.0	gst-plugins-bad
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libharfbuzz-icu.so.0	harfbuzz-icu
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:libhyphen.so.0	hyphen
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libintl.so.8	libintl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libjxl.so.0.11	libjxl
+dep	so:liblcms2.so.2	lcms2
+dep	so:libmanette-0.2.so.0	libmanette
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpng16.so.16	libpng
+dep	so:libseccomp.so.2	libseccomp
+dep	so:libsecret-1.so.0	libsecret
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtasn1.so.6	libtasn1
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-server.so.0	wayland-libs-server
+dep	so:libwebp.so.7	libwebp
+dep	so:libwebpdemux.so.2	libwebpdemux
+dep	so:libwebpmux.so.3	libwebpmux
+dep	so:libwoff2dec.so.1.0.2	libwoff2enc
+dep	so:libxml2.so.2	libxml2
+dep	so:libxslt.so.1	libxslt
+dep	so:libz.so.1	zlib

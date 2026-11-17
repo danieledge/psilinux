@@ -1,0 +1,14 @@
+name	acf-fetchmail
+version	0.9.1-r0
+description	Web-based system administration interface for fetchmail
+url	https://gitlab.alpinelinux.org/acf/acf-fetchmail
+license	GPL-2.0-only
+size	8686
+installed-size	28557
+depends	acf-core fetchmail
+origin	acf-fetchmail
+repo	community
+file	acf-fetchmail-0.9.1-r0.apk
+checksum	Q1MSCdaw6b81Ulitqk2ZtDpAvwOgA=
+dep	acf-core	acf-core
+dep	fetchmail	fetchmail

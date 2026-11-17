@@ -1,0 +1,14 @@
+name	vanessa_adt
+version	0.0.9-r4
+description	Library of abstract data types
+url	https://projects.horms.net/projects/vanessa/
+license	LGPL-2.0-or-later
+size	12193
+installed-size	25720
+depends	so:libc.musl-armhf.so.1 so:libvanessa_logger.so.0
+origin	vanessa_adt
+repo	main
+file	vanessa_adt-0.0.9-r4.apk
+checksum	Q1e+dxJvJv99/ckvpDv7y+mnCVOJ4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libvanessa_logger.so.0	vanessa_logger

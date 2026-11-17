@@ -1,0 +1,15 @@
+name	unfs3
+version	0.10.0-r2
+description	user-space implementation of the NFSv3 server specification
+url	https://unfs3.github.io/
+license	BSD-3-Clause
+size	49731
+installed-size	103816
+depends	rpcbind so:libc.musl-armhf.so.1 so:libtirpc.so.3
+origin	unfs3
+repo	main
+file	unfs3-0.10.0-r2.apk
+checksum	Q1unFW883AqROqXybdCU8zU32FD0k=
+dep	rpcbind	rpcbind
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libtirpc.so.3	libtirpc

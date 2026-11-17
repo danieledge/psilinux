@@ -1,0 +1,12 @@
+name	scsi-tgt-openrc
+version	1.0.98-r0
+description	user-space iSCSI target daemon (OpenRC init scripts)
+url	https://github.com/fujita/tgt
+license	GPL-2.0-only
+size	2744
+installed-size	2496
+depends	
+origin	scsi-tgt
+repo	community
+file	scsi-tgt-openrc-1.0.98-r0.apk
+checksum	Q1TAR0LLvBPGTm1DoDMaO3A+eFzks=

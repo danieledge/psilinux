@@ -1,0 +1,14 @@
+name	py3-enrich
+version	1.2.7-r5
+description	adds few missing features to the wonderful rich library
+url	https://github.com/pycontribs/enrich
+license	MIT
+size	8202
+installed-size	16678
+depends	py3-rich python3~3.14
+origin	py3-enrich
+repo	community
+file	py3-enrich-1.2.7-r5.apk
+checksum	Q1DUHvFWPJVx9d/L+dJ7g7YNrAZlk=
+dep	py3-rich	py3-rich
+dep	python3~3.14	python3

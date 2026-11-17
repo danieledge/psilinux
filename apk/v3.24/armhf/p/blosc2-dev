@@ -1,0 +1,14 @@
+name	blosc2-dev
+version	2.23.1-r0
+description	A fast, compressed, persistent binary data store library for C (development files)
+url	https://www.blosc.org
+license	BSD-3-Clause
+size	37591
+installed-size	161689
+depends	blosc2=2.23.1-r0 pkgconfig
+origin	blosc2
+repo	community
+file	blosc2-dev-2.23.1-r0.apk
+checksum	Q1qbQ3TPASK5ZEQC41cRq3h/5Ied8=
+dep	blosc2=2.23.1-r0	blosc2
+dep	pkgconfig	pkgconf

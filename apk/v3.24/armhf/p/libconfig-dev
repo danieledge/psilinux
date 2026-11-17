@@ -1,0 +1,15 @@
+name	libconfig-dev
+version	1.8.2-r0
+description	A simple library for manipulating structured configuration files (development files)
+url	https://www.hyperrealm.com/libconfig/libconfig.html
+license	LGPL-2.1-or-later
+size	7792
+installed-size	32495
+depends	libconfig++=1.8.2-r0 libconfig=1.8.2-r0 pkgconfig
+origin	libconfig
+repo	main
+file	libconfig-dev-1.8.2-r0.apk
+checksum	Q1bbnNgc2UBMcXPe0GD3963exeQ0E=
+dep	libconfig++=1.8.2-r0	libconfig++
+dep	libconfig=1.8.2-r0	libconfig
+dep	pkgconfig	pkgconf

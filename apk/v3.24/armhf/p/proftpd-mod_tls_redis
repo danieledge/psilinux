@@ -1,0 +1,15 @@
+name	proftpd-mod_tls_redis
+version	1.3.9e-r1
+description	ProFTPd module: mod_tls_redis
+url	https://github.com/proftpd/proftpd
+license	GPL-2.0-or-later
+size	13889
+installed-size	30048
+depends	proftpd proftpd-mod_tls so:libc.musl-armhf.so.1
+origin	proftpd
+repo	community
+file	proftpd-mod_tls_redis-1.3.9e-r1.apk
+checksum	Q1q9fq8UdCbZQ5udnYmFlJInBKCNA=
+dep	proftpd	proftpd
+dep	proftpd-mod_tls	proftpd-mod_tls
+dep	so:libc.musl-armhf.so.1	musl

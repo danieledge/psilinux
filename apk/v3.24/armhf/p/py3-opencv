@@ -1,0 +1,38 @@
+name	py3-opencv
+version	4.12.0-r7
+description	Open source computer vision and machine learning library (python modules)
+url	https://opencv.org/
+license	Apache-2.0
+size	2016657
+installed-size	6347276
+depends	py3-numpy python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libopencv_aruco.so.412 so:libopencv_calib3d.so.412 so:libopencv_core.so.412 so:libopencv_dnn.so.412 so:libopencv_face.so.412 so:libopencv_features2d.so.412 so:libopencv_flann.so.412 so:libopencv_highgui.so.412 so:libopencv_imgcodecs.so.412 so:libopencv_imgproc.so.412 so:libopencv_ml.so.412 so:libopencv_objdetect.so.412 so:libopencv_optflow.so.412 so:libopencv_photo.so.412 so:libopencv_plot.so.412 so:libopencv_shape.so.412 so:libopencv_stitching.so.412 so:libopencv_tracking.so.412 so:libopencv_video.so.412 so:libopencv_videoio.so.412 so:libopencv_ximgproc.so.412 so:libstdc++.so.6
+origin	opencv
+repo	community
+file	py3-opencv-4.12.0-r7.apk
+checksum	Q1O1Pf6ald2h+OK37RREgMZUlnYXA=
+dep	py3-numpy	py3-numpy
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libopencv_aruco.so.412	libopencv_aruco
+dep	so:libopencv_calib3d.so.412	libopencv_calib3d
+dep	so:libopencv_core.so.412	libopencv_core
+dep	so:libopencv_dnn.so.412	libopencv_dnn
+dep	so:libopencv_face.so.412	libopencv_face
+dep	so:libopencv_features2d.so.412	libopencv_features2d
+dep	so:libopencv_flann.so.412	libopencv_flann
+dep	so:libopencv_highgui.so.412	libopencv_highgui
+dep	so:libopencv_imgcodecs.so.412	libopencv_imgcodecs
+dep	so:libopencv_imgproc.so.412	libopencv_imgproc
+dep	so:libopencv_ml.so.412	libopencv_ml
+dep	so:libopencv_objdetect.so.412	libopencv_objdetect
+dep	so:libopencv_optflow.so.412	libopencv_optflow
+dep	so:libopencv_photo.so.412	libopencv_photo
+dep	so:libopencv_plot.so.412	libopencv_plot
+dep	so:libopencv_shape.so.412	libopencv_shape
+dep	so:libopencv_stitching.so.412	libopencv_stitching
+dep	so:libopencv_tracking.so.412	libopencv_tracking
+dep	so:libopencv_video.so.412	libopencv_video
+dep	so:libopencv_videoio.so.412	libopencv_videoio
+dep	so:libopencv_ximgproc.so.412	libopencv_ximgproc
+dep	so:libstdc++.so.6	libstdc++

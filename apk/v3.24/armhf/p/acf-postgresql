@@ -1,0 +1,16 @@
+name	acf-postgresql
+version	0.12.0-r0
+description	ACF module for postgresql
+url	https://gitlab.alpinelinux.org/acf/acf-postgresql
+license	GPL-2.0-only
+size	5622
+installed-size	9334
+depends	acf-core postgresql acf-db-lib lua-sql-postgres
+origin	acf-postgresql
+repo	main
+file	acf-postgresql-0.12.0-r0.apk
+checksum	Q1HsINPDtcnITsKwHfb+R//vTIc7E=
+dep	acf-core	acf-core
+dep	postgresql	postgresql18
+dep	acf-db-lib	acf-db-lib
+dep	lua-sql-postgres	lua-sql-postgres

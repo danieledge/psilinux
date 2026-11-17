@@ -1,0 +1,18 @@
+name	vips-cpp
+version	8.18.2-r0
+description	vips (c++ library)
+url	https://www.libvips.org/
+license	LGPL-2.1-or-later
+size	71079
+installed-size	267648
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libstdc++.so.6 so:libvips.so.42
+origin	vips
+repo	community
+file	vips-cpp-8.18.2-r0.apk
+checksum	Q17yk6SFzOhge/Id3XKWtL32Y8kmE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libvips.so.42	vips

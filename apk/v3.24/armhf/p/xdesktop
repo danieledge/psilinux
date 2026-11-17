@@ -1,0 +1,15 @@
+name	xdesktop
+version	0.3-r1
+description	output and change X virtual desktop
+url	https://github.com/onodera-punpun/xdesktop
+license	Unlicense
+size	4241
+installed-size	9388
+depends	so:libc.musl-armhf.so.1 so:libxcb-ewmh.so.2 so:libxcb.so.1
+origin	xdesktop
+repo	community
+file	xdesktop-0.3-r1.apk
+checksum	Q19kWsHvAtfqVUJv7pY0YvjMa93QI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxcb-ewmh.so.2	xcb-util-wm
+dep	so:libxcb.so.1	libxcb

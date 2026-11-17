@@ -1,0 +1,17 @@
+name	libxext-dev
+version	1.3.7-r0
+description	X11 miscellaneous extensions library (development files)
+url	https://xorg.freedesktop.org/
+license	MIT
+size	13724
+installed-size	55442
+depends	libxau-dev libxext=1.3.7-r0 pc:x11 pc:xextproto pkgconfig
+origin	libxext
+repo	main
+file	libxext-dev-1.3.7-r0.apk
+checksum	Q1wdc7FdKwKLGZrNhMKALQpc+3ZJU=
+dep	libxau-dev	libxau-dev
+dep	libxext=1.3.7-r0	libxext
+dep	pc:x11	libx11-dev
+dep	pc:xextproto	xorgproto
+dep	pkgconfig	pkgconf

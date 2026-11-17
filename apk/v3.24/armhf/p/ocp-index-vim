@@ -1,0 +1,13 @@
+name	ocp-index-vim
+version	1.4.0-r3
+description	Lightweight completion and documentation browsing for OCaml libraries in vim
+url	http://www.typerex.org/ocp-index.html
+license	LGPL-2.1-only WITH OCaml-LGPL-linking-exception AND GPL-3.0-only
+size	3028
+installed-size	3590
+depends	ocp-index=1.4.0-r3
+origin	ocp-index
+repo	community
+file	ocp-index-vim-1.4.0-r3.apk
+checksum	Q1gN5hXobqkQKFxKT/PAUeocIaL0c=
+dep	ocp-index=1.4.0-r3	ocp-index

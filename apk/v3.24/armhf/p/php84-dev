@@ -1,0 +1,16 @@
+name	php84-dev
+version	8.4.27-r0
+description	The PHP84 language runtime engine (development files)
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	1102959
+installed-size	6592704
+depends	php84=8.4.27-r0 autoconf pcre2-dev re2c
+origin	php84
+repo	community
+file	php84-dev-8.4.27-r0.apk
+checksum	Q1jAtNcrSwYqVL3KEPu1UN5yhJcro=
+dep	php84=8.4.27-r0	php84
+dep	autoconf	autoconf
+dep	pcre2-dev	pcre2-dev
+dep	re2c	re2c

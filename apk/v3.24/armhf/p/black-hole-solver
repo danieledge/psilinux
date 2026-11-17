@@ -1,0 +1,16 @@
+name	black-hole-solver
+version	1.14.0-r0
+description	Solvers and statistics for 'Golf' solitaire, 'Black Hole' solitaire, 'All in a Row' solitaire and related card patience games
+url	https://www.shlomifish.org/open-source/projects/black-hole-solitaire-solver
+license	MIT
+size	12374
+installed-size	26916
+depends	perl perl-env-path perl-path-tiny so:libc.musl-armhf.so.1
+origin	black-hole-solver
+repo	community
+file	black-hole-solver-1.14.0-r0.apk
+checksum	Q1Gvm3vHkCi5Zq0aEZ98Eq9f6XDYQ=
+dep	perl	perl
+dep	perl-env-path	perl-env-path
+dep	perl-path-tiny	perl-path-tiny
+dep	so:libc.musl-armhf.so.1	musl

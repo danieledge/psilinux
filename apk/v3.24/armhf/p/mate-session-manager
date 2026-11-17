@@ -1,0 +1,38 @@
+name	mate-session-manager
+version	1.28.0-r0
+description	The MATE session manager
+url	https://github.com/mate-desktop/mate-session-manager
+license	GPL-2.0-or-later
+size	145151
+installed-size	385341
+depends	mate-common mate-desktop so:libEGL.so.1 so:libGL.so.1 so:libGLESv2.so.2 so:libICE.so.6 so:libSM.so.6 so:libX11.so.6 so:libXau.so.6 so:libXcomposite.so.1 so:libXext.so.6 so:libXrender.so.1 so:libXtst.so.6 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdbus-1.so.3 so:libdbus-glib-1.so.2 so:libelogind.so.0 so:libepoxy.so.0 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8
+origin	mate-session-manager
+repo	community
+file	mate-session-manager-1.28.0-r0.apk
+checksum	Q1HdS7CVKUcHvk0YuQf5//iBONlMo=
+dep	mate-common	mate-common
+dep	mate-desktop	mate-desktop
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libGL.so.1	mesa-gl
+dep	so:libGLESv2.so.2	mesa-gles
+dep	so:libICE.so.6	libice
+dep	so:libSM.so.6	libsm
+dep	so:libX11.so.6	libx11
+dep	so:libXau.so.6	libxau
+dep	so:libXcomposite.so.1	libxcomposite
+dep	so:libXext.so.6	libxext
+dep	so:libXrender.so.1	libxrender
+dep	so:libXtst.so.6	libxtst
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libdbus-glib-1.so.2	dbus-glib
+dep	so:libelogind.so.0	libelogind
+dep	so:libepoxy.so.0	libepoxy
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl

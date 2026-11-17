@@ -1,0 +1,15 @@
+name	abuild-rootbld
+version	3.17.0-r0
+description	Build packages in chroot
+url	https://gitlab.alpinelinux.org/alpine/abuild/
+license	GPL-2.0-only
+size	1278
+installed-size	0
+depends	abuild bubblewrap cmd:envsubst
+origin	abuild
+repo	main
+file	abuild-rootbld-3.17.0-r0.apk
+checksum	Q1L/Krb5tEBl27U78avGkItl9Hfd4=
+dep	abuild	abuild
+dep	bubblewrap	bubblewrap
+dep	cmd:envsubst	gettext-envsubst

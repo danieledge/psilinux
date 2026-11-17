@@ -1,0 +1,15 @@
+name	s6-rc-libs
+version	0.6.1.1-r0
+description	Service manager for s6-based systems (libraries)
+url	https://skarnet.org/software/s6-rc/
+license	ISC
+size	35344
+installed-size	80296
+depends	so:libc.musl-armhf.so.1 so:libs6.so.2.15 so:libskarnet.so.2.15
+origin	s6-rc
+repo	main
+file	s6-rc-libs-0.6.1.1-r0.apk
+checksum	Q19UCnyYo8BQc8nfox5oVAU+Aq4MM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libs6.so.2.15	s6-libs
+dep	so:libskarnet.so.2.15	skalibs-libs

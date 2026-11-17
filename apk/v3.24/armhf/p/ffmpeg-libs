@@ -1,0 +1,19 @@
+name	ffmpeg-libs
+version	8.1.3-r0
+description	compat hack for all ffmpeg libs
+url	https://ffmpeg.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	1305
+installed-size	0
+depends	ffmpeg-libavcodec=8.1.3-r0 ffmpeg-libavdevice=8.1.3-r0 ffmpeg-libavfilter=8.1.3-r0 ffmpeg-libavformat=8.1.3-r0 ffmpeg-libavutil=8.1.3-r0 ffmpeg-libswresample=8.1.3-r0 ffmpeg-libswscale=8.1.3-r0
+origin	ffmpeg
+repo	community
+file	ffmpeg-libs-8.1.3-r0.apk
+checksum	Q1Hz3++3JRamC6opZUg6R+NWEB4WE=
+dep	ffmpeg-libavcodec=8.1.3-r0	ffmpeg-libavcodec
+dep	ffmpeg-libavdevice=8.1.3-r0	ffmpeg-libavdevice
+dep	ffmpeg-libavfilter=8.1.3-r0	ffmpeg-libavfilter
+dep	ffmpeg-libavformat=8.1.3-r0	ffmpeg-libavformat
+dep	ffmpeg-libavutil=8.1.3-r0	ffmpeg-libavutil
+dep	ffmpeg-libswresample=8.1.3-r0	ffmpeg-libswresample
+dep	ffmpeg-libswscale=8.1.3-r0	ffmpeg-libswscale

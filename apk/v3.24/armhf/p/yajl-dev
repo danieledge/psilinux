@@ -1,0 +1,14 @@
+name	yajl-dev
+version	2.1.0-r9
+description	Yet Another JSON Library (YAJL) (development files)
+url	https://lloyd.github.io/yajl/
+license	MIT
+size	9934
+installed-size	27223
+depends	yajl=2.1.0-r9 pkgconfig
+origin	yajl
+repo	main
+file	yajl-dev-2.1.0-r9.apk
+checksum	Q1Njdi9Xuvq6PiLxe8y4uqqNWyHJE=
+dep	yajl=2.1.0-r9	yajl
+dep	pkgconfig	pkgconf

@@ -1,0 +1,19 @@
+name	imagemagick-pango
+version	7.1.2.35-r0
+description	Collection of tools and libraries for many image formats (pango support modules)
+url	https://imagemagick.org/
+license	ImageMagick
+size	8847
+installed-size	18942
+depends	so:libMagickCore-7.Q16HDRI.so.10 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgcc_s.so.1 so:libgobject-2.0.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0
+origin	imagemagick
+repo	community
+file	imagemagick-pango-7.1.2.35-r0.apk
+checksum	Q1YO3pVByTUbebvZWRGkUHR2LRQ9I=
+dep	so:libMagickCore-7.Q16HDRI.so.10	imagemagick-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango

@@ -1,0 +1,13 @@
+name	reason
+version	3.8.2-r5
+description	Simple, fast & type safe language that leverages JavaScript & OCaml
+url	https://reasonml.github.io/
+license	MIT
+size	19245818
+installed-size	46191048
+depends	so:libc.musl-armhf.so.1
+origin	reason
+repo	community
+file	reason-3.8.2-r5.apk
+checksum	Q1t+GMhvYIeS6Z5cl7LQITs9u8qPM=
+dep	so:libc.musl-armhf.so.1	musl

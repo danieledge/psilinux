@@ -1,0 +1,14 @@
+name	efivar-dev
+version	39-r1
+description	Tools and library to manipulate EFI variables (development files)
+url	https://github.com/rhboot/efivar
+license	LGPL-2.1-only
+size	17080
+installed-size	67801
+depends	efivar-libs=39-r1 pkgconfig
+origin	efivar
+repo	main
+file	efivar-dev-39-r1.apk
+checksum	Q1bo6BO7NN82rWbY5YfDKjcevt8rg=
+dep	efivar-libs=39-r1	efivar-libs
+dep	pkgconfig	pkgconf

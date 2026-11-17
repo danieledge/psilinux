@@ -1,0 +1,14 @@
+name	quota-tools
+version	4.11-r0
+description	linux disk quota system tools
+url	https://sourceforge.net/projects/linuxquota/
+license	GPL-2.0-or-later
+size	298196
+installed-size	642747
+depends	so:libc.musl-armhf.so.1 so:libext2fs.so.2
+origin	quota-tools
+repo	community
+file	quota-tools-4.11-r0.apk
+checksum	Q1XSHdDj0xWD5k2/4B7Wl5rdI9ONI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libext2fs.so.2	e2fsprogs-libs

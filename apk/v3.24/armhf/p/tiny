@@ -1,0 +1,16 @@
+name	tiny
+version	0.13.0-r1
+description	Terminal IRC client written in Rust
+url	https://github.com/osa1/tiny
+license	MIT
+size	601365
+installed-size	1155316
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
+origin	tiny
+repo	community
+file	tiny-0.13.0-r1.apk
+checksum	Q1Q5vMpbv5jHh+7a/ukWJt6YTqfCw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,18 @@
+name	libdebuginfod
+version	0.195-r0
+description	Library to retrieve debug infos
+url	https://sourceware.org/elfutils/
+license	GPL-3.0-or-later AND ( GPL-2.0-or-later OR LGPL-3.0-or-later )
+size	33233
+installed-size	63030
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libdw.so.1 so:libelf.so.1 so:libfts.so.0 so:libjson-c.so.5
+origin	elfutils
+repo	main
+file	libdebuginfod-0.195-r0.apk
+checksum	Q1s8WZ0shXLoEJUwEBSReM6C0Q0P0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libdw.so.1	libdw
+dep	so:libelf.so.1	libelf
+dep	so:libfts.so.0	musl-fts
+dep	so:libjson-c.so.5	json-c

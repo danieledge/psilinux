@@ -1,0 +1,16 @@
+name	font-misc-ethiopic
+version	1.0.5-r0
+description	X.org misc ethiopic fonts
+url	https://xorg.freedesktop.org/
+license	MIT
+size	108929
+installed-size	334284
+depends	encodings font-alias mkfontscale fontconfig
+origin	font-misc-ethiopic
+repo	main
+file	font-misc-ethiopic-1.0.5-r0.apk
+checksum	Q1r+GhFSB/z3q0p1Rhv9HZNh7gqu0=
+dep	encodings	encodings
+dep	font-alias	font-alias
+dep	mkfontscale	mkfontscale
+dep	fontconfig	fontconfig

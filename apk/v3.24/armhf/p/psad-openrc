@@ -1,0 +1,12 @@
+name	psad-openrc
+version	2.4.6-r4
+description	3 lightweight system daemons that analyze iptables log messages to detect port scans and other suspicious traffic (OpenRC init scripts)
+url	https://cipherdyne.org/psad/
+license	GPL-2.0-or-later
+size	2434
+installed-size	1480
+depends	
+origin	psad
+repo	community
+file	psad-openrc-2.4.6-r4.apk
+checksum	Q1OqPAUzti4/u7PnsaG15oKQv2akg=

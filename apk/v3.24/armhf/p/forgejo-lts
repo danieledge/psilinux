@@ -1,0 +1,17 @@
+name	forgejo-lts
+version	11.0.15-r2
+description	Self-hosted Git service written in Go (Long-term stable)
+url	https://forgejo.org
+license	MIT
+size	45208575
+installed-size	111024086
+depends	git git-lfs gnupg /bin/sh so:libc.musl-armhf.so.1
+origin	forgejo-lts
+repo	community
+file	forgejo-lts-11.0.15-r2.apk
+checksum	Q1cIwutayAu5HqvAEZ6gQm5q9eKBo=
+dep	git	git
+dep	git-lfs	git-lfs
+dep	gnupg	gnupg
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

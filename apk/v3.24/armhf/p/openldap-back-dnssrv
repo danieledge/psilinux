@@ -1,0 +1,15 @@
+name	openldap-back-dnssrv
+version	2.6.15-r0
+description	OpenLDAP dnssrv backend
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	6847
+installed-size	14558
+depends	so:libc.musl-armhf.so.1 so:liblber.so.2 so:libldap.so.2
+origin	openldap
+repo	main
+file	openldap-back-dnssrv-2.6.15-r0.apk
+checksum	Q1rr2n2bFtoZp0j2lC+fJIaenFlnQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap

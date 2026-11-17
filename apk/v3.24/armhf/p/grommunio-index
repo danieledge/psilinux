@@ -1,0 +1,21 @@
+name	grommunio-index
+version	1.4-r0
+description	Generator for grommunio-web search indexes
+url	https://grommunio.com
+license	AGPL-3.0-only
+size	37924
+installed-size	83491
+depends	/bin/sh so:libHX.so.43 so:libc.musl-armhf.so.1 so:libexmdbpp.so.0 so:libgcc_s.so.1 so:libmariadb.so.3 so:libsqlite3.so.0 so:libstdc++.so.6 so:libxml2.so.2
+origin	grommunio-index
+repo	community
+file	grommunio-index-1.4-r0.apk
+checksum	Q1OrFeLF9xc/Ta9fVJGEqaeon57/I=
+dep	/bin/sh	busybox-binsh
+dep	so:libHX.so.43	libhx
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexmdbpp.so.0	libexmdbpp
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmariadb.so.3	mariadb-connector-c
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxml2.so.2	libxml2

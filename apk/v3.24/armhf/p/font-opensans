@@ -1,0 +1,14 @@
+name	font-opensans
+version	0_git20210927-r1
+description	Humanist Sans Serif Typeface
+url	https://github.com/googlefonts/opensans
+license	Apache-2.0
+size	1722580
+installed-size	3018644
+depends	fontconfig mkfontscale
+origin	font-opensans
+repo	community
+file	font-opensans-0_git20210927-r1.apk
+checksum	Q1VGsmDbs5F1bTLWG/mfMryl7AXmc=
+dep	fontconfig	fontconfig
+dep	mkfontscale	mkfontscale

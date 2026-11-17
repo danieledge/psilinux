@@ -1,0 +1,13 @@
+name	libcap2
+version	2.78-r0
+description	POSIX 1003.1e capabilities (libraries)
+url	https://sites.google.com/site/fullycapable/
+license	BSD-3-Clause OR GPL-2.0-only
+size	20077
+installed-size	43420
+depends	so:libc.musl-armhf.so.1
+origin	libcap
+repo	main
+file	libcap2-2.78-r0.apk
+checksum	Q19QwwLkPy8VWxmC/37XYiexizSBU=
+dep	so:libc.musl-armhf.so.1	musl

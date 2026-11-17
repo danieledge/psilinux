@@ -1,0 +1,15 @@
+name	php83-curl
+version	8.3.36-r0
+description	PHP83 extension: cURL
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	40297
+installed-size	103759
+depends	php83-common so:libc.musl-armhf.so.1 so:libcurl.so.4
+origin	php83
+repo	community
+file	php83-curl-8.3.36-r0.apk
+checksum	Q1WVZwusz7alxAPU9fLOBdVDBMUcI=
+dep	php83-common	php83-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl

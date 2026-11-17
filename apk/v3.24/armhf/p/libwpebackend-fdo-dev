@@ -1,0 +1,15 @@
+name	libwpebackend-fdo-dev
+version	1.16.1-r0
+description	freedesktop.org backend for WPE WebKit (development files)
+url	https://wpewebkit.org/
+license	BSD-2-Clause
+size	8086
+installed-size	46422
+depends	libwpebackend-fdo pc:wpe-1.0>=1.6.0 pkgconfig
+origin	libwpebackend-fdo
+repo	community
+file	libwpebackend-fdo-dev-1.16.1-r0.apk
+checksum	Q1aFwIu/qwvwg1G5kL3HeluZjZ+pw=
+dep	libwpebackend-fdo	libwpebackend-fdo
+dep	pc:wpe-1.0>=1.6.0	libwpe-dev
+dep	pkgconfig	pkgconf

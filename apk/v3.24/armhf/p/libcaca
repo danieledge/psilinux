@@ -1,0 +1,18 @@
+name	libcaca
+version	0.99_beta20-r5
+description	graphics library that outputs text instead of pixels
+url	http://caca.zoy.org/wiki/libcaca
+license	WTFPL
+size	223811
+installed-size	809936
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libncursesw.so.6 so:libstdc++.so.6 so:libz.so.1
+origin	libcaca
+repo	community
+file	libcaca-0.99_beta20-r5.apk
+checksum	Q1DnGX0sikxK6ke0iVLI+flfqb6tg=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

@@ -1,0 +1,17 @@
+name	syslog-ng-json
+version	4.11.0-r0
+description	Next generation logging daemon (json module)
+url	https://www.syslog-ng.com/products/open-source-log-management/
+license	GPL-2.0-or-later
+size	18371
+installed-size	50704
+depends	so:libc.musl-armhf.so.1 so:libevtlog-4.11.so.0 so:libglib-2.0.so.0 so:libjson-c.so.5 so:libsyslog-ng-4.11.so.0
+origin	syslog-ng
+repo	main
+file	syslog-ng-json-4.11.0-r0.apk
+checksum	Q1Qzy3/vpfnQC2rK34g2pQdnI4xmk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevtlog-4.11.so.0	syslog-ng
+dep	so:libglib-2.0.so.0	glib
+dep	so:libjson-c.so.5	json-c
+dep	so:libsyslog-ng-4.11.so.0	syslog-ng

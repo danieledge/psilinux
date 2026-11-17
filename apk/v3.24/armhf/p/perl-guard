@@ -1,0 +1,14 @@
+name	perl-guard
+version	1.023-r11
+description	Perl module to cleanup blocks safely
+url	https://metacpan.org/release/Guard/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	8270
+installed-size	15778
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-guard
+repo	community
+file	perl-guard-1.023-r11.apk
+checksum	Q1HspwvjU4RYKg0vZgbc+eIzJ5GnQ=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

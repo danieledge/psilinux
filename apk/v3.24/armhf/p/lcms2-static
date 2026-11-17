@@ -1,0 +1,13 @@
+name	lcms2-static
+version	2.19-r0
+description	Color Management Engine (static library)
+url	https://www.littlecms.com
+license	MIT
+size	207429
+installed-size	528216
+depends	lcms2-dev
+origin	lcms2
+repo	main
+file	lcms2-static-2.19-r0.apk
+checksum	Q18qwbl+/U668AwNlXK0mHsGpg3x4=
+dep	lcms2-dev	lcms2-dev

@@ -1,0 +1,14 @@
+name	rime-plum-tools
+version	0_git20240417-r1
+description	Rime configuration manager and input schemas (configuration tools)
+url	https://github.com/rime/plum
+license	LGPL-3.0-or-later
+size	2177
+installed-size	1403
+depends	bash git
+origin	rime-plum
+repo	community
+file	rime-plum-tools-0_git20240417-r1.apk
+checksum	Q1QanOLOlEpL5E8T4PXUgO8Hbf5zk=
+dep	bash	bash
+dep	git	git

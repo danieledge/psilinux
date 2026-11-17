@@ -1,0 +1,15 @@
+name	py3-asyncmock
+version	0.4.2-r6
+description	Extension to the standard mock framework to support support async
+url	https://github.com/timsavage/asyncmock
+license	BSD-3-Clause
+size	4401
+installed-size	5916
+depends	python3 py3-mock python3~3.14
+origin	py3-asyncmock
+repo	community
+file	py3-asyncmock-0.4.2-r6.apk
+checksum	Q1welDZyaaOJaalaz7g3r52/wkMc4=
+dep	python3	python3
+dep	py3-mock	py3-mock
+dep	python3~3.14	python3

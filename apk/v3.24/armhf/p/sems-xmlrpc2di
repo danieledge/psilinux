@@ -1,0 +1,17 @@
+name	sems-xmlrpc2di
+version	2.1.0-r0
+description	XMLRPC interface for SEMS
+url	https://github.com/sems-server/sems/
+license	GPL-2.0-or-later
+size	99518
+installed-size	235832
+depends	sems so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libssl.so.3 so:libstdc++.so.6
+origin	sems
+repo	community
+file	sems-xmlrpc2di-2.1.0-r0.apk
+checksum	Q1nH1YnKoCj8AwIhSig5x15uOgrLw=
+dep	sems	sems
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++

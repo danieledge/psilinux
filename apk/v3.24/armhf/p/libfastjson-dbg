@@ -1,0 +1,12 @@
+name	libfastjson-dbg
+version	1.2304.0-r4
+description	fork of the json-c library for rsyslog, optimized for liblognorm processing. (debug symbols)
+url	https://www.rsyslog.com/
+license	MIT
+size	48121
+installed-size	107020
+depends	!libfastjson<1.2304.0-r4 !libfastjson>1.2304.0-r4
+origin	libfastjson
+repo	main
+file	libfastjson-dbg-1.2304.0-r4.apk
+checksum	Q1heTN0h4SAZ1xIQ5MfJOybNp8x44=

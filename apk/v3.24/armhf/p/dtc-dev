@@ -1,0 +1,14 @@
+name	dtc-dev
+version	1.7.2-r1
+description	Device Tree Compiler (development files)
+url	https://git.kernel.org/pub/scm/utils/dtc/dtc.git/
+license	GPL-2.0-or-later
+size	17034
+installed-size	83128
+depends	dtc=1.7.2-r1 libfdt=1.7.2-r1
+origin	dtc
+repo	main
+file	dtc-dev-1.7.2-r1.apk
+checksum	Q1bthzRoxyZ8DQk8kc2imRMqnexfs=
+dep	dtc=1.7.2-r1	dtc
+dep	libfdt=1.7.2-r1	libfdt

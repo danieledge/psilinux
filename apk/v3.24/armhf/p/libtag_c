@@ -1,0 +1,16 @@
+name	libtag_c
+version	2.2.1-r0
+description	Library for reading and editing metadata of several popular audio formats (libtag_c lib)
+url	https://taglib.github.io/
+license	LGPL-2.1-only OR MPL-1.1
+size	15032
+installed-size	38272
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libtag.so.2
+origin	taglib
+repo	community
+file	libtag_c-2.2.1-r0.apk
+checksum	Q1QUtJEDQ0/STNsFs9qWeOt/wvoM4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtag.so.2	libtag

@@ -1,0 +1,17 @@
+name	perl-mojo-pg
+version	5.0-r0
+description	Use PostgreSQL with Mojolicious
+url	https://metacpan.org/release/Mojo-Pg/
+license	Artistic-2.0
+size	16978
+installed-size	53286
+depends	perl perl-dbd-pg perl-mojolicious perl-mojo-sql perl-sql-abstract-pg
+origin	perl-mojo-pg
+repo	community
+file	perl-mojo-pg-5.0-r0.apk
+checksum	Q15aodzj3UHYRX+5PdVeIHu9U3lpM=
+dep	perl	perl
+dep	perl-dbd-pg	perl-dbd-pg
+dep	perl-mojolicious	perl-mojolicious
+dep	perl-mojo-sql	perl-mojo-sql
+dep	perl-sql-abstract-pg	perl-sql-abstract-pg

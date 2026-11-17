@@ -1,0 +1,17 @@
+name	sgdisk
+version	1.0.10-r1
+description	Command-line GUID partition table (GPT) manipulator
+url	https://www.rodsbooks.com/gdisk
+license	GPL-2.0-or-later
+size	102837
+installed-size	210372
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpopt.so.0 so:libstdc++.so.6 so:libuuid.so.1
+origin	gptfdisk
+repo	main
+file	sgdisk-1.0.10-r1.apk
+checksum	Q1MSttpEtQ3xClpjy8ZU+gFKzyO2Q=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpopt.so.0	popt
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libuuid.so.1	libuuid

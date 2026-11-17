@@ -1,0 +1,15 @@
+name	ixwebsocket-dev
+version	11.4.6-r1
+description	WebSocket and HTTP client and server (development files)
+url	https://github.com/machinezone/IXWebSocket
+license	BSD-3-Clause
+size	29637
+installed-size	102185
+depends	ixwebsocket-libs=11.4.6-r1 pc:openssl pkgconfig
+origin	ws
+repo	community
+file	ixwebsocket-dev-11.4.6-r1.apk
+checksum	Q1lpMZAdhXZC0qGgC4KcPHS/8TsPs=
+dep	ixwebsocket-libs=11.4.6-r1	ixwebsocket-libs
+dep	pc:openssl	openssl-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,19 @@
+name	qt6-qtsvg
+version	6.11.1-r0
+description	Classes for displaying the contents of SVG files
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	293482
+installed-size	705213
+depends	so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1
+origin	qt6-qtsvg
+repo	community
+file	qt6-qtsvg-6.11.1-r0.apk
+checksum	Q11JnUc1S5msNgXsqjOAwh0i0cjQs=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

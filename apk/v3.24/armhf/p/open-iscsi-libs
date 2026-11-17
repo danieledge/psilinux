@@ -1,0 +1,14 @@
+name	open-iscsi-libs
+version	2.1.12-r0
+description	High performance, transport independent, multi-platform iSCSI initiator (libraries)
+url	https://www.open-iscsi.com
+license	GPL-2.0-only
+size	38546
+installed-size	103736
+depends	so:libc.musl-armhf.so.1 so:libkmod.so.2
+origin	open-iscsi
+repo	main
+file	open-iscsi-libs-2.1.12-r0.apk
+checksum	Q1ffYAI+gtMtgnoAVCTaI3wqDhOGw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libkmod.so.2	kmod-libs

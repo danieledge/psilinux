@@ -1,0 +1,16 @@
+name	perl-match-simple
+version	0.012-r1
+description	Simplified clone of smartmatch operator
+url	https://metacpan.org/release/match-simple/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	7472
+installed-size	16686
+depends	perl perl-sub-infix perl-exporter-tiny perl-match-simple-xs
+origin	perl-match-simple
+repo	community
+file	perl-match-simple-0.012-r1.apk
+checksum	Q1EffEQQwZNYDqF14TAQ/EqcfxuRQ=
+dep	perl	perl
+dep	perl-sub-infix	perl-sub-infix
+dep	perl-exporter-tiny	perl-exporter-tiny
+dep	perl-match-simple-xs	perl-match-simple-xs

@@ -1,0 +1,15 @@
+name	py3-pycryptodomex
+version	3.23.0-r1
+description	Self-contained cryptographic library
+url	https://www.pycryptodome.org
+license	BSD-2-Clause AND Unlicense
+size	1370672
+installed-size	3763849
+depends	gmp python3~3.14 so:libc.musl-armhf.so.1
+origin	py3-pycryptodome
+repo	community
+file	py3-pycryptodomex-3.23.0-r1.apk
+checksum	Q1UUHXdHXoQ1jAksOeZWX/Ggk7yME=
+dep	gmp	gmp
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

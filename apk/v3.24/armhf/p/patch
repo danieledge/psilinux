@@ -1,0 +1,13 @@
+name	patch
+version	2.8.1-r0
+description	Utility to apply diffs to files
+url	https://www.gnu.org/software/patch/patch.html
+license	GPL-3.0-or-later
+size	71828
+installed-size	136724
+depends	so:libc.musl-armhf.so.1
+origin	patch
+repo	main
+file	patch-2.8.1-r0.apk
+checksum	Q1GehChUH+iLfp+Kc7R2nyKVD1TZo=
+dep	so:libc.musl-armhf.so.1	musl

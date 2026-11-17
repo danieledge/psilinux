@@ -1,0 +1,14 @@
+name	sane-backend-kodak
+version	1.4.0-r4
+description	SANE backend for big Kodak flatbed and ADF scanners 
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	33938
+installed-size	68257
+depends	sane so:libc.musl-armhf.so.1
+origin	sane
+repo	community
+file	sane-backend-kodak-1.4.0-r4.apk
+checksum	Q1jmAQ/SjzdoX552oPunHCsLfy30s=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl

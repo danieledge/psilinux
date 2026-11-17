@@ -1,0 +1,13 @@
+name	libsndfile-static
+version	1.2.2-r2
+description	C library for reading and writing files containing sampled sound (static library)
+url	https://libsndfile.github.io/libsndfile/
+license	LGPL-2.1-or-later
+size	263834
+installed-size	708564
+depends	libsndfile-dev
+origin	libsndfile
+repo	main
+file	libsndfile-static-1.2.2-r2.apk
+checksum	Q1/XvhdP/zdkzSvYuSq0/qdDCDmkY=
+dep	libsndfile-dev	libsndfile-dev

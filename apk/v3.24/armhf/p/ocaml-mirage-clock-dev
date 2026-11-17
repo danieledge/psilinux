@@ -1,0 +1,13 @@
+name	ocaml-mirage-clock-dev
+version	4.2.0-r5
+description	Libraries and module types for portable clocks (development files)
+url	https://github.com/mirage/mirage-clock
+license	ISC
+size	34221
+installed-size	102502
+depends	ocaml-mirage-clock=4.2.0-r5
+origin	ocaml-mirage-clock
+repo	community
+file	ocaml-mirage-clock-dev-4.2.0-r5.apk
+checksum	Q1J6cm6oKkUBeU/Gqc5iCyvqNklH8=
+dep	ocaml-mirage-clock=4.2.0-r5	ocaml-mirage-clock

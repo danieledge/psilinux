@@ -1,0 +1,21 @@
+name	corerenamer
+version	5.0.0-r0
+description	A batch file renamer from C-Suite
+url	https://gitlab.com/cubocore
+license	GPL-3.0-or-later
+size	80728
+installed-size	194294
+depends	qt6-qtsvg so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libcprime-core.so.5 so:libcprime-widgets.so.5 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	corerenamer
+repo	community
+file	corerenamer-5.0.0-r0.apk
+checksum	Q1N6YtzxkM2Wwj3xOF2Ht2XKIMlHY=
+dep	qt6-qtsvg	qt6-qtsvg
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcprime-core.so.5	libcprime
+dep	so:libcprime-widgets.so.5	libcprime
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

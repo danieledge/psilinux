@@ -1,0 +1,15 @@
+name	wasi-sdk
+version	27-r1
+description	WASI-enabled WebAssembly C/C++ toolchain
+url	https://github.com/WebAssembly/wasi-sdk
+license	Apache-2.0
+size	1665
+installed-size	34
+depends	wasi-libc wasi-libcxx wasi-compiler-rt
+origin	wasi-sdk
+repo	main
+file	wasi-sdk-27-r1.apk
+checksum	Q11KGLB0BUhMgQZuviy1MpVS0Vp7E=
+dep	wasi-libc	wasi-libc
+dep	wasi-libcxx	wasi-libcxx
+dep	wasi-compiler-rt	wasi-compiler-rt

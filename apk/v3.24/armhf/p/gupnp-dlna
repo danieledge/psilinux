@@ -1,0 +1,19 @@
+name	gupnp-dlna
+version	0.12.0-r1
+description	Small utility library that aims to ease the DLNA-related tasks
+url	https://gitlab.gnome.org/GNOME/gupnp-dlna
+license	LGPL-2.1-or-later
+size	62717
+installed-size	270218
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libxml2.so.2
+origin	gupnp-dlna
+repo	community
+file	gupnp-dlna-0.12.0-r1.apk
+checksum	Q1G2dS4B+0IcFG1bpFpf840gtMNM8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstpbutils-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libxml2.so.2	libxml2

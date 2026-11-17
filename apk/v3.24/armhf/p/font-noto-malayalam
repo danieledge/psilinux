@@ -1,0 +1,14 @@
+name	font-noto-malayalam
+version	2026.11.01-r0
+description	Noto Sans Malayalam (UI) and Serif Malayalam fonts
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	4514793
+installed-size	9162609
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-malayalam-2026.11.01-r0.apk
+checksum	Q1EK1ENzlzu01a3K91e6kJXRXXWSw=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

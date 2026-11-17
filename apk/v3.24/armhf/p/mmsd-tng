@@ -1,0 +1,25 @@
+name	mmsd-tng
+version	2.6.4-r25
+description	daemon for receiving and managing GSM MMS messages
+url	https://gitlab.com/kop316/mmsd
+license	GPL-2.0-only
+size	71351
+installed-size	160540
+depends	mobile-broadband-provider-info so:libc.musl-armhf.so.1 so:libcares.so.2 so:libdbus-1.so.3 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libjson-c.so.5 so:libmm-glib.so.0 so:libphonenumber.so.9 so:libsoup-3.0.so.0 so:libstdc++.so.6
+origin	mmsd-tng
+repo	community
+file	mmsd-tng-2.6.4-r25.apk
+checksum	Q1QVC9Vo2aWaVsZOmESGF5ED3hlHk=
+dep	mobile-broadband-provider-info	mobile-broadband-provider-info
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcares.so.2	c-ares
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libjson-c.so.5	json-c
+dep	so:libmm-glib.so.0	libmm-glib
+dep	so:libphonenumber.so.9	libphonenumber
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libstdc++.so.6	libstdc++

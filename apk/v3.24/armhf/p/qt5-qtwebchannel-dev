@@ -1,0 +1,16 @@
+name	qt5-qtwebchannel-dev
+version	5.15.18_git20251101-r0
+description	Library for seamless integration of C++ +and QML applications with HTML/JavaScript clients. (development files)
+url	https://www.qt.io/developers/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	15277
+installed-size	59391
+depends	qt5-qtwebchannel=5.15.18_git20251101-r0 pc:Qt5Core pc:Qt5Qml pkgconfig
+origin	qt5-qtwebchannel
+repo	community
+file	qt5-qtwebchannel-dev-5.15.18_git20251101-r0.apk
+checksum	Q16dXdeke/F8bEQEffacMTfi6V1wY=
+dep	qt5-qtwebchannel=5.15.18_git20251101-r0	qt5-qtwebchannel
+dep	pc:Qt5Core	qt5-qtbase-dev
+dep	pc:Qt5Qml	qt5-qtdeclarative-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	perl-set-object
+version	1.43-r0
+description	Unordered collections (sets) of Perl Objects
+url	https://metacpan.org/release/Set-Object/
+license	Artistic-2.0
+size	24525
+installed-size	59998
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-set-object
+repo	community
+file	perl-set-object-1.43-r0.apk
+checksum	Q1GZ2qdrK5LF3NbCpu9vpTyUc/HwQ=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

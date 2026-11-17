@@ -1,0 +1,14 @@
+name	raku-crypt-random
+version	0.4.1-r3
+description	Random numbers and bytes mimicking arc4random()
+url	https://github.com/skinkade/crypt-random
+license	Artistic-2.0
+size	112663
+installed-size	312776
+depends	rakudo raku-if
+origin	raku-crypt-random
+repo	community
+file	raku-crypt-random-0.4.1-r3.apk
+checksum	Q1vUYmWsAngQt91D7eDejJ8kNpKdU=
+dep	rakudo	rakudo
+dep	raku-if	raku-if

@@ -1,0 +1,14 @@
+name	lua-jsonschema
+version	0.9.13-r0
+description	Pure Lua JSON schema validator for Lua/LuaJIT
+url	https://github.com/api7/jsonschema
+license	MIT
+size	1288
+installed-size	0
+depends	lua-net-url lua-rex-pcre2
+origin	lua-jsonschema
+repo	community
+file	lua-jsonschema-0.9.13-r0.apk
+checksum	Q1nGArVQl2gbEkBhE1loGqW6Ywr14=
+dep	lua-net-url	lua-net-url
+dep	lua-rex-pcre2	lua-rex-pcre2

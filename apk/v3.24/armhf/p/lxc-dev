@@ -1,0 +1,17 @@
+name	lxc-dev
+version	7.0.0-r0
+description	Userspace interface for the Linux kernel containment features (development files)
+url	https://linuxcontainers.org/lxc/
+license	LGPL-2.1-or-later
+size	12750
+installed-size	42778
+depends	lxc-libs=7.0.0-r0 pc:dbus-1 pc:libcap pc:libseccomp pkgconfig
+origin	lxc
+repo	main
+file	lxc-dev-7.0.0-r0.apk
+checksum	Q14ljP/omxL/n0N6jzuLK1fOAnNj4=
+dep	lxc-libs=7.0.0-r0	lxc-libs
+dep	pc:dbus-1	dbus-dev
+dep	pc:libcap	libcap-dev
+dep	pc:libseccomp	libseccomp-dev
+dep	pkgconfig	pkgconf

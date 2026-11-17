@@ -1,0 +1,14 @@
+name	libtpms
+version	0.10.2-r0
+description	library providing software emulation of a Trusted Platform Module (TPM 1.2 and TPM 2.0)
+url	https://github.com/stefanberger/libtpms
+license	BSD-3-Clause
+size	335957
+installed-size	803048
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	libtpms
+repo	community
+file	libtpms-0.10.2-r0.apk
+checksum	Q11qK5mcUHVCtq3FcHUPxas6173Vw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

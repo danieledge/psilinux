@@ -1,0 +1,19 @@
+name	qt6-qthttpserver-dev
+version	6.11.1-r0
+description	Qt6 HTTP Server (development files)
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	35406
+installed-size	153869
+depends	qt6-qtbase-dev qt6-qtwebsockets-dev qt6-qthttpserver=6.11.1-r0 pc:Qt6Core pc:Qt6Network pc:Qt6WebSockets pkgconfig
+origin	qt6-qthttpserver
+repo	community
+file	qt6-qthttpserver-dev-6.11.1-r0.apk
+checksum	Q1rET1V55rEjXayikxxzdU6K8lh5w=
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	qt6-qtwebsockets-dev	qt6-qtwebsockets-dev
+dep	qt6-qthttpserver=6.11.1-r0	qt6-qthttpserver
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pc:Qt6Network	qt6-qtbase-dev
+dep	pc:Qt6WebSockets	qt6-qtwebsockets-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,17 @@
+name	perl-orlite
+version	2.00-r1
+description	Extremely light weight SQLite-specific ORM
+url	https://metacpan.org/release/ORLite/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	17556
+installed-size	49087
+depends	perl perl-dbd-sqlite perl-dbi perl-file-remove perl-params-util
+origin	perl-orlite
+repo	community
+file	perl-orlite-2.00-r1.apk
+checksum	Q1eqKXw61m52SHWMZOHfxNSOguvxY=
+dep	perl	perl
+dep	perl-dbd-sqlite	perl-dbd-sqlite
+dep	perl-dbi	perl-dbi
+dep	perl-file-remove	perl-file-remove
+dep	perl-params-util	perl-params-util

@@ -1,0 +1,15 @@
+name	xcb-util-xrm
+version	1.3-r1
+description	Utility functions for the X resource manager
+url	https://github.com/Airblader/xcb-util-xrm
+license	MIT
+size	8981
+installed-size	17528
+depends	so:libc.musl-armhf.so.1 so:libxcb-util.so.1 so:libxcb.so.1
+origin	xcb-util-xrm
+repo	community
+file	xcb-util-xrm-1.3-r1.apk
+checksum	Q1Sx0cCgWTugNo5CW5QPffP/sIVN0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxcb-util.so.1	xcb-util
+dep	so:libxcb.so.1	libxcb

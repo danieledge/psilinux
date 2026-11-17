@@ -1,0 +1,16 @@
+name	you-get
+version	0.4.1650-r4
+description	Tiny command line utility to download media contents
+url	https://you-get.org
+license	MIT
+size	163026
+installed-size	638533
+depends	ca-certificates ffmpeg python3 python3~3.14
+origin	you-get
+repo	community
+file	you-get-0.4.1650-r4.apk
+checksum	Q1WgcOBLsdTI76YVRgeEmPTRa+MVk=
+dep	ca-certificates	ca-certificates
+dep	ffmpeg	ffmpeg
+dep	python3	python3
+dep	python3~3.14	python3

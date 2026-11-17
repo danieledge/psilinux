@@ -1,0 +1,15 @@
+name	pipewire
+version	1.6.8-r4
+description	Multimedia processing graphs
+url	https://pipewire.org/
+license	MIT
+size	90035
+installed-size	378064
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libpipewire-0.3.so.0
+origin	pipewire
+repo	community
+file	pipewire-1.6.8-r4.apk
+checksum	Q1ykxZ+v255rya/Roo15nwqew6F18=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpipewire-0.3.so.0	pipewire-libs

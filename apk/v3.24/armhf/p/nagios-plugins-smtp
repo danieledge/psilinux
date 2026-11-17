@@ -1,0 +1,16 @@
+name	nagios-plugins-smtp
+version	2.5-r0
+description	Nagios plugin check_smtp
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	56362
+installed-size	108352
+depends	nagios-plugins so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-smtp-2.5-r0.apk
+checksum	Q1rpD7k5RGWTRwGf6xnRVsdZ+l5Gg=
+dep	nagios-plugins	nagios-plugins
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

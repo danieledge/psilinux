@@ -1,0 +1,15 @@
+name	py3-changelog-chug
+version	0.0.3-r1
+description	Parser for project change log documents
+url	https://git.sr.ht/~bignose/changelog-chug
+license	AGPL-3.0-or-later
+size	23055
+installed-size	73287
+depends	py3-semver py3-docutils python3~3.14
+origin	py3-changelog-chug
+repo	community
+file	py3-changelog-chug-0.0.3-r1.apk
+checksum	Q166zmScr3oBTgZ4ohPi54Ph1QE+0=
+dep	py3-semver	py3-semver
+dep	py3-docutils	py3-docutils
+dep	python3~3.14	python3

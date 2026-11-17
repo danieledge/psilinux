@@ -1,0 +1,14 @@
+name	rtmpdump
+version	2.4_git20190330-r5
+description	A tool to download rtmp:// and rtmpe:// streams
+url	http://rtmpdump.mplayerhq.hu/
+license	GPL-2.0-or-later
+size	35195
+installed-size	87980
+depends	so:libc.musl-armhf.so.1 so:librtmp.so.1
+origin	rtmpdump
+repo	main
+file	rtmpdump-2.4_git20190330-r5.apk
+checksum	Q1/zj8oPRFWa/JMbLKkMkYSTJKSEQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:librtmp.so.1	librtmp

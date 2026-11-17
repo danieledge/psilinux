@@ -1,0 +1,26 @@
+name	glade
+version	3.40.0-r10
+description	User Interface Designer for GTK+ and GNOME
+url	https://glade.gnome.org/
+license	GPL-2.0-or-later
+size	754881
+installed-size	1977244
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libwebkit2gtk-4.1.so.0 so:libxml2.so.2
+origin	glade
+repo	community
+file	glade-3.40.0-r10.apk
+checksum	Q10VRAWktZtElwdhmtVGdSSKT7TBQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libwebkit2gtk-4.1.so.0	webkit2gtk-4.1
+dep	so:libxml2.so.2	libxml2

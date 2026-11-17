@@ -1,0 +1,13 @@
+name	cllayerinfo
+version	2.3.3-r0
+description	Generic OpenCL ICD Loader
+url	https://github.com/OCL-dev/ocl-icd
+license	BSD-2-Clause
+size	60264
+installed-size	215024
+depends	so:libc.musl-armhf.so.1
+origin	opencl-icd-loader
+repo	community
+file	cllayerinfo-2.3.3-r0.apk
+checksum	Q1zNM3DX+kW4Z2ZfT2zZ90Kdj1pzc=
+dep	so:libc.musl-armhf.so.1	musl

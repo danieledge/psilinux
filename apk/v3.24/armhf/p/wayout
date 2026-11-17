@@ -1,0 +1,17 @@
+name	wayout
+version	0.1.5-r0
+description	Outputs text to a wayland desktop (e.g. OSD or desktop widget)
+url	https://git.sr.ht/~proycon/wayout
+license	GPL-3.0-or-later
+size	15840
+installed-size	34180
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libwayland-client.so.0
+origin	wayout
+repo	community
+file	wayout-0.1.5-r0.apk
+checksum	Q1e6XB4q6unWdScvBP4O+HfT3XFR8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libwayland-client.so.0	wayland-libs-client

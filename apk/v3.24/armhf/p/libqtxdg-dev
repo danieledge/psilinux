@@ -1,0 +1,20 @@
+name	libqtxdg-dev
+version	4.4.0-r1
+description	Qt implementation of freedesktop.org xdg specifications (development files)
+url	https://github.com/lxqt/libqtxdg
+license	LGPL-2.0-or-later
+size	20214
+installed-size	75494
+depends	libqtxdg=4.4.0-r1 pc:Qt6Core>=6.6.0 pc:Qt6DBus>=6.6.0 pc:Qt6Gui>=6.6.0 pc:Qt6Svg>=6.6.0 pc:Qt6Widgets>=6.6.0 pc:Qt6Xml>=6.6.0 pkgconfig
+origin	libqtxdg
+repo	community
+file	libqtxdg-dev-4.4.0-r1.apk
+checksum	Q17Yc8eDCrGpxVIBOS+eeCvltaCOc=
+dep	libqtxdg=4.4.0-r1	libqtxdg
+dep	pc:Qt6Core>=6.6.0	qt6-qtbase-dev
+dep	pc:Qt6DBus>=6.6.0	qt6-qtbase-dev
+dep	pc:Qt6Gui>=6.6.0	qt6-qtbase-dev
+dep	pc:Qt6Svg>=6.6.0	qt6-qtsvg-dev
+dep	pc:Qt6Widgets>=6.6.0	qt6-qtbase-dev
+dep	pc:Qt6Xml>=6.6.0	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

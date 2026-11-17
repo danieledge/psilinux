@@ -1,0 +1,20 @@
+name	libqca-qt5
+version	2.3.10-r0
+description	Qt cryptographic architecture
+url	https://userbase.kde.org/QCA
+license	LGPL-2.1-or-later
+size	676811
+installed-size	1906668
+depends	so:libQt5Core.so.5 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libgcrypt.so.20 so:libsasl2.so.3 so:libssl.so.3 so:libstdc++.so.6
+origin	qca
+repo	community
+file	libqca-qt5-2.3.10-r0.apk
+checksum	Q1lLRuUdz6/HED4XdCXUBL69VfCSs=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libsasl2.so.3	libsasl
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++

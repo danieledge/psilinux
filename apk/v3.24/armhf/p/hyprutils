@@ -1,0 +1,16 @@
+name	hyprutils
+version	0.13.1-r0
+description	Hyprland utilities library used across the ecosystem
+url	https://github.com/hyprwm/hyprutils
+license	BSD-3-Clause
+size	157147
+installed-size	353728
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpixman-1.so.0 so:libstdc++.so.6
+origin	hyprutils
+repo	community
+file	hyprutils-0.13.1-r0.apk
+checksum	Q1LkjUtBCV/UAoaoBtUz/0kNgK5Dk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpixman-1.so.0	pixman
+dep	so:libstdc++.so.6	libstdc++

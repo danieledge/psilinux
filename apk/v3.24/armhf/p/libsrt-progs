@@ -1,0 +1,16 @@
+name	libsrt-progs
+version	1.5.3-r1
+description	Tools for working with SRT
+url	https://www.srtalliance.org/
+license	MPL-2.0
+size	354421
+installed-size	795761
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libsrt.so.1.5 so:libstdc++.so.6
+origin	libsrt
+repo	community
+file	libsrt-progs-1.5.3-r1.apk
+checksum	Q1hy3IND4kCp04E6c0ERmE9eH0U9U=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsrt.so.1.5	libsrt
+dep	so:libstdc++.so.6	libstdc++

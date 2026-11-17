@@ -1,0 +1,13 @@
+name	fcitx5-qt-dev
+version	5.1.13-r1
+description	Qt library and IM module for Fcitx5 (development files)
+url	https://github.com/fcitx/fcitx5-qt
+license	LGPL-2.1-or-later AND BSD-3-Clause
+size	13265
+installed-size	56931
+depends	fcitx5-qt=5.1.13-r1
+origin	fcitx5-qt
+repo	community
+file	fcitx5-qt-dev-5.1.13-r1.apk
+checksum	Q1ba0KokjvprI8+MWeTpkSr1gGFCM=
+dep	fcitx5-qt=5.1.13-r1	fcitx5-qt

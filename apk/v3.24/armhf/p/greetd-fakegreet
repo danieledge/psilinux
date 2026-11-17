@@ -1,0 +1,15 @@
+name	greetd-fakegreet
+version	0.10.3-r11
+description	Test utility for greeter development
+url	https://git.sr.ht/~kennylevinsen/greetd
+license	GPL-3.0-only
+size	265233
+installed-size	495196
+depends	greetd=0.10.3-r11 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	greetd
+repo	community
+file	greetd-fakegreet-0.10.3-r11.apk
+checksum	Q1MXONBO8ixNcmKqGGUNf7HQjT4Ec=
+dep	greetd=0.10.3-r11	greetd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

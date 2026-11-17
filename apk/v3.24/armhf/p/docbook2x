@@ -1,0 +1,19 @@
+name	docbook2x
+version	0.8.8-r10
+description	DocBook converter to UNIX manpage and GNU Texinfo format
+url	https://docbook2x.sourceforge.net/
+license	MIT
+size	168308
+installed-size	992481
+depends	texinfo openjade docbook-xml docbook-xsl perl-xml-sax libxslt so:libc.musl-armhf.so.1
+origin	docbook2x
+repo	main
+file	docbook2x-0.8.8-r10.apk
+checksum	Q1x8Ve2Qu6fMS98ps/trgRN4kTPt8=
+dep	texinfo	texinfo
+dep	openjade	openjade
+dep	docbook-xml	docbook-xml
+dep	docbook-xsl	docbook-xsl
+dep	perl-xml-sax	perl-xml-sax
+dep	libxslt	libxslt
+dep	so:libc.musl-armhf.so.1	musl

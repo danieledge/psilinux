@@ -1,0 +1,13 @@
+name	libquvi-scripts-dev
+version	0.9.20131130-r1
+description	scripts for libquvi - the library for parsing video download links (development files)
+url	https://quvi.sourceforge.net/
+license	LGPL-2.0-or-later
+size	1779
+installed-size	255
+depends	pkgconfig
+origin	libquvi-scripts
+repo	community
+file	libquvi-scripts-dev-0.9.20131130-r1.apk
+checksum	Q1/VdTgzkCetYjWO2v/doDNxkPsgE=
+dep	pkgconfig	pkgconf

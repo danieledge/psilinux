@@ -1,0 +1,19 @@
+name	font-manager-thunar
+version	0.9.4-r1
+description	Thunar file manager extension for font-manager
+url	https://fontmanager.github.io/
+license	GPL-3.0-or-later
+size	6311
+installed-size	13592
+depends	so:libfontmanager.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libthunarx-3.so.0
+origin	font-manager
+repo	community
+file	font-manager-thunar-0.9.4-r1.apk
+checksum	Q1g+j+IpH7qR3idrUWNka/xNVuFmY=
+dep	so:libfontmanager.so.0	font-manager-common
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libthunarx-3.so.0	thunar

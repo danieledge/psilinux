@@ -1,0 +1,21 @@
+name	libplacebo
+version	7.360.1-r0
+description	Reusable library for GPU-accelerated video/image rendering
+url	https://code.videolan.org/videolan/libplacebo
+license	LGPL-2.1-or-later
+size	446436
+installed-size	1021804
+depends	so:libc.musl-armhf.so.1 so:libdovi.so.3 so:libgcc_s.so.1 so:libglslang-default-resource-limits.so.16 so:libglslang.so.16 so:liblcms2.so.2 so:libshaderc_shared.so.1 so:libstdc++.so.6 so:libvulkan.so.1
+origin	libplacebo
+repo	community
+file	libplacebo-7.360.1-r0.apk
+checksum	Q1mRLihKJ1t/z4N2cFFlfRhnCqQcc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdovi.so.3	libdovi
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglslang-default-resource-limits.so.16	glslang-libs
+dep	so:libglslang.so.16	glslang-libs
+dep	so:liblcms2.so.2	lcms2
+dep	so:libshaderc_shared.so.1	shaderc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libvulkan.so.1	vulkan-loader

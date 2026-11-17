@@ -1,0 +1,14 @@
+name	wolfssl-dev
+version	5.9.4-r0
+description	Embedded TLS Library (built without OpenSSL compatibility layer) (development files)
+url	https://www.wolfssl.com/
+license	GPL-3.0-only
+size	1162014
+installed-size	4657187
+depends	wolfssl=5.9.4-r0 pkgconfig
+origin	wolfssl
+repo	community
+file	wolfssl-dev-5.9.4-r0.apk
+checksum	Q1YoJZfzqenQEYutNOf1grRaBwXJQ=
+dep	wolfssl=5.9.4-r0	wolfssl
+dep	pkgconfig	pkgconf

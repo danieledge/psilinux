@@ -1,0 +1,18 @@
+name	webkit2gtk-4.1-dev
+version	2.48.7-r0
+description	Portable web rendering engine WebKit for GTK+ - GTK+3 libsoup3 version (development files)
+url	https://webkitgtk.org/
+license	LGPL-2.0-or-later AND BSD-2-Clause
+size	429979
+installed-size	5785939
+depends	webkit2gtk-4.1=2.48.7-r0 pc:glib-2.0 pc:gobject-2.0 pc:gtk+-3.0 pc:libsoup-3.0 pkgconfig
+origin	webkit2gtk-4.1
+repo	community
+file	webkit2gtk-4.1-dev-2.48.7-r0.apk
+checksum	Q1ONgZA3lOQJd+Mo9Im6IwP+I9sQQ=
+dep	webkit2gtk-4.1=2.48.7-r0	webkit2gtk-4.1
+dep	pc:glib-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pc:libsoup-3.0	libsoup3-dev
+dep	pkgconfig	pkgconf

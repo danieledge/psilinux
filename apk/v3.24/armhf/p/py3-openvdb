@@ -1,0 +1,18 @@
+name	py3-openvdb
+version	13.0.0-r1
+description	Sparse volume data structure and tools (Python bindings)
+url	https://www.openvdb.org/
+license	MPL-2.0
+size	648492
+installed-size	2111788
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libopenvdb.so.13.0 so:libstdc++.so.6 so:libtbb.so.12
+origin	openvdb
+repo	community
+file	py3-openvdb-13.0.0-r1.apk
+checksum	Q19Td+NwAXAKaSOOtSwjA3mUy9Zsg=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libopenvdb.so.13.0	openvdb
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtbb.so.12	onetbb

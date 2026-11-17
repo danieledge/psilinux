@@ -1,0 +1,18 @@
+name	libayatana-appindicator-dev
+version	0.5.94-r0
+description	Ayatana Application Indicators Shared Library (development files)
+url	https://github.com/AyatanaIndicators/libayatana-appindicator
+license	LGPL-3.0-only
+size	14953
+installed-size	102855
+depends	libayatana-appindicator=0.5.94-r0 pc:ayatana-indicator3-0.4 pc:dbusmenu-glib-0.4 pc:glib-2.0 pc:gtk+-3.0 pkgconfig
+origin	libayatana-appindicator
+repo	community
+file	libayatana-appindicator-dev-0.5.94-r0.apk
+checksum	Q1KX7EsS4YyAKTxiquz0HS1+hguCE=
+dep	libayatana-appindicator=0.5.94-r0	libayatana-appindicator
+dep	pc:ayatana-indicator3-0.4	libayatana-indicator-dev
+dep	pc:dbusmenu-glib-0.4	libdbusmenu-glib-dev
+dep	pc:glib-2.0	glib-dev
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pkgconfig	pkgconf

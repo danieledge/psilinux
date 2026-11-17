@@ -1,0 +1,12 @@
+name	stevia-dbg
+version	0.55.0-r0
+description	Alternative OSK for phosh (debug symbols)
+url	https://gitlab.gnome.org/World/Phosh/stevia
+license	GPL-3.0-or-later
+size	470247
+installed-size	1158796
+depends	!stevia<0.55.0-r0 !stevia>0.55.0-r0
+origin	stevia
+repo	community
+file	stevia-dbg-0.55.0-r0.apk
+checksum	Q1Fc+555hlowLUQ8JsDsoLmLiFI4k=

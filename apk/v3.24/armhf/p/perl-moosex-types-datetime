@@ -1,0 +1,19 @@
+name	perl-moosex-types-datetime
+version	0.14-r0
+description	L<DateTime> related constraints and coercions for Moose
+url	https://metacpan.org/release/MooseX-Types-DateTime/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	4154
+installed-size	6424
+depends	perl perl-namespace-clean perl-datetime perl-moosex-types perl-datetime-timezone perl-moose perl-datetime-locale
+origin	perl-moosex-types-datetime
+repo	community
+file	perl-moosex-types-datetime-0.14-r0.apk
+checksum	Q1+Yr35YDTpy4iZQaXnjWY3szqTXU=
+dep	perl	perl
+dep	perl-namespace-clean	perl-namespace-clean
+dep	perl-datetime	perl-datetime
+dep	perl-moosex-types	perl-moosex-types
+dep	perl-datetime-timezone	perl-datetime-timezone
+dep	perl-moose	perl-moose
+dep	perl-datetime-locale	perl-datetime-locale

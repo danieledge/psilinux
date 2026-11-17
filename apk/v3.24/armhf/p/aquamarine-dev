@@ -1,0 +1,14 @@
+name	aquamarine-dev
+version	0.12.0-r0
+description	Aquamarine is a very light linux rendering backend library (development files)
+url	https://github.com/hyprwm/aquamarine
+license	BSD-3-Clause
+size	18636
+installed-size	96722
+depends	aquamarine=0.12.0-r0 pkgconfig
+origin	aquamarine
+repo	community
+file	aquamarine-dev-0.12.0-r0.apk
+checksum	Q1Rqd+m+uMJXrDi0gIy6kn/lAu1s8=
+dep	aquamarine=0.12.0-r0	aquamarine
+dep	pkgconfig	pkgconf

@@ -1,0 +1,13 @@
+name	shfmt
+version	3.13.1-r3
+description	A shell parser, formatter, and interpreter (sh/bash/mksh)
+url	https://mvdan.cc/sh
+license	BSD-3-Clause
+size	1311815
+installed-size	3181124
+depends	so:libc.musl-armhf.so.1
+origin	shfmt
+repo	community
+file	shfmt-3.13.1-r3.apk
+checksum	Q1dgyWNI6m8fQvJY7dVHZYb6Rtm9o=
+dep	so:libc.musl-armhf.so.1	musl

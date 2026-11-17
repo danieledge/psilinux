@@ -1,0 +1,14 @@
+name	perl-bsd-resource
+version	1.2911-r12
+description	Perl extension implements the BSD process resource limit functions
+url	https://metacpan.org/release/BSD-Resource/
+license	Artistic-2.0 OR LGPL-2.0
+size	19101
+installed-size	49077
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-bsd-resource
+repo	community
+file	perl-bsd-resource-1.2911-r12.apk
+checksum	Q105Ndair8cAGxIOeb8IdnNmao0wQ=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

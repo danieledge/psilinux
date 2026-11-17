@@ -1,0 +1,15 @@
+name	isl-dev
+version	0.26-r2
+description	An Integer Set Library for the Polyhedral Model (development files)
+url	http://isl.gforge.inria.fr/
+license	MIT
+size	1337707
+installed-size	7018575
+depends	gmp-dev isl26=0.26-r2 pkgconfig
+origin	isl26
+repo	main
+file	isl-dev-0.26-r2.apk
+checksum	Q1TKCvp1/Y///X2xeBBBUn7aZX7Mg=
+dep	gmp-dev	gmp-dev
+dep	isl26=0.26-r2	isl26
+dep	pkgconfig	pkgconf

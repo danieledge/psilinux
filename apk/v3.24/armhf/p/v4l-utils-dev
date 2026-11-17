@@ -1,0 +1,17 @@
+name	v4l-utils-dev
+version	1.32.0-r1
+description	Userspace tools and conversion library for Video 4 Linux (development files)
+url	https://linuxtv.org/
+license	LGPL-2.0-or-later
+size	314373
+installed-size	1026329
+depends	libdvbv5=1.32.0-r1 v4l-utils-libs=1.32.0-r1 pc:libjpeg pc:libudev pkgconfig
+origin	v4l-utils
+repo	community
+file	v4l-utils-dev-1.32.0-r1.apk
+checksum	Q1EYlJKpmk0Bxn08ucmjLXxs0wFPg=
+dep	libdvbv5=1.32.0-r1	libdvbv5
+dep	v4l-utils-libs=1.32.0-r1	v4l-utils-libs
+dep	pc:libjpeg	libjpeg-turbo-dev
+dep	pc:libudev	eudev-dev
+dep	pkgconfig	pkgconf

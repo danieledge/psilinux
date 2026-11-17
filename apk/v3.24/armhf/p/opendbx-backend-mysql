@@ -1,0 +1,14 @@
+name	opendbx-backend-mysql
+version	1.4.6-r2
+description	Database abstraction layer
+url	https://www.linuxnetworks.de/doc/index.php/OpenDBX
+license	GPL-2.0-or-later
+size	5622
+installed-size	9528
+depends	so:libc.musl-armhf.so.1 so:libmariadb.so.3
+origin	opendbx
+repo	community
+file	opendbx-backend-mysql-1.4.6-r2.apk
+checksum	Q1jB1v5NIyY87/2eLiH5dTGX+cfiE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmariadb.so.3	mariadb-connector-c

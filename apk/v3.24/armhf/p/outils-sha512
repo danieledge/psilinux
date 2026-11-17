@@ -1,0 +1,13 @@
+name	outils-sha512
+version	0.14-r0
+description	sha512 tool from outils
+url	https://github.com/leahneukirchen/outils
+license	BSD-3-Clause ISC
+size	1558
+installed-size	1
+depends	outils-md5=0.14-r0
+origin	outils
+repo	community
+file	outils-sha512-0.14-r0.apk
+checksum	Q1/hvho1sE1e21p2cbObrQpxiMEE0=
+dep	outils-md5=0.14-r0	outils-md5

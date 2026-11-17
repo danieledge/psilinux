@@ -1,0 +1,37 @@
+name	gthumb
+version	3.12.8.1-r3
+description	Image viewer and browser from GNOME
+url	https://gitlab.gnome.org/GNOME/gthumb
+license	GPL-2.0-or-later
+size	1387283
+installed-size	4548641
+depends	hicolor-icon-theme so:libX11.so.6 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcolord.so.2 so:libexiv2.so.28 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libjpeg.so.8 so:liblcms2.so.2 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpng16.so.16 so:libstdc++.so.6 so:libwayland-server.so.0 so:libz.so.1
+origin	gthumb
+repo	community
+file	gthumb-3.12.8.1-r3.apk
+checksum	Q1/ewjt961MezIrxTwirQVwyOZnZ4=
+dep	hicolor-icon-theme	hicolor-icon-theme
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcolord.so.2	libcolord
+dep	so:libexiv2.so.28	exiv2-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:liblcms2.so.2	lcms2
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwayland-server.so.0	wayland-libs-server
+dep	so:libz.so.1	zlib

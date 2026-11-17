@@ -1,0 +1,14 @@
+name	py3-django-taggit
+version	6.1.0-r2
+description	Simple tagging for django
+url	https://github.com/jazzband/django-taggit
+license	BSD-3-Clause
+size	32220
+installed-size	99428
+depends	py3-django python3~3.14
+origin	py3-django-taggit
+repo	community
+file	py3-django-taggit-6.1.0-r2.apk
+checksum	Q1eEO1GXDOmPV8igQehfx77cy/Bm8=
+dep	py3-django	py3-django
+dep	python3~3.14	python3

@@ -1,0 +1,14 @@
+name	py3-matplotlib-tk-pyc
+version	3.10.6-r2
+description	Precompiled Python bytecode for py3-matplotlib-tk
+url	https://matplotlib.org
+license	PSF-2.0
+size	29088
+installed-size	65044
+depends	py3-matplotlib-tk=3.10.6-r2 python3~3.14
+origin	py3-matplotlib
+repo	community
+file	py3-matplotlib-tk-pyc-3.10.6-r2.apk
+checksum	Q13dcY6Rym4p6aIwdNPJ986Droyew=
+dep	py3-matplotlib-tk=3.10.6-r2	py3-matplotlib-tk
+dep	python3~3.14	python3

@@ -1,0 +1,14 @@
+name	prime_server-dev
+version	0.7.0-r2
+description	Non-blocking (web)server API for distributed computing and SOA based on zeromq (development files)
+url	https://github.com/kevinkreiser/prime_server
+license	BSD-2-Clause
+size	8620
+installed-size	23004
+depends	prime_server=0.7.0-r2 pkgconfig
+origin	prime_server
+repo	community
+file	prime_server-dev-0.7.0-r2.apk
+checksum	Q1J64fuQdZwFPSx+7BpG1e32oR6Xk=
+dep	prime_server=0.7.0-r2	prime_server
+dep	pkgconfig	pkgconf

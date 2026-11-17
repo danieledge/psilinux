@@ -1,0 +1,22 @@
+name	baobab
+version	50.0-r0
+description	A graphical application to analyse disk usage in any Gnome environment
+url	https://apps.gnome.org/Baobab
+license	GPL-2.0-or-later
+size	128997
+installed-size	327554
+depends	so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libpango-1.0.so.0
+origin	baobab
+repo	community
+file	baobab-50.0-r0.apk
+checksum	Q1yb3n9txwGDGNKpZxZFzNjFtxfos=
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango

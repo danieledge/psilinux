@@ -1,0 +1,18 @@
+name	libheif-aom
+version	1.23.7-r0
+description	libheif AVIF/AV1 encoder and decoder plugins using libaom
+url	https://www.libde265.org/
+license	LGPL-3.0-or-later
+size	23173
+installed-size	48000
+depends	libheif=1.23.7-r0 so:libaom.so.3 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:libstdc++.so.6
+origin	libheif
+repo	community
+file	libheif-aom-1.23.7-r0.apk
+checksum	Q1sABcCwJnAtPG3LbyV+gC6tQ8TxA=
+dep	libheif=1.23.7-r0	libheif
+dep	so:libaom.so.3	aom-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libheif.so.1	libheif
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,16 @@
+name	raku-json-unmarshal
+version	0.18-r3
+description	Turn JSON into an Object
+url	https://github.com/raku-community-modules/JSON-Unmarshal
+license	Artistic-2.0
+size	74240
+installed-size	227580
+depends	rakudo raku-json-fast raku-json-name raku-json-optin
+origin	raku-json-unmarshal
+repo	community
+file	raku-json-unmarshal-0.18-r3.apk
+checksum	Q1lfEevb2L7ooLc5L8/FsBnZ6Zydk=
+dep	rakudo	rakudo
+dep	raku-json-fast	raku-json-fast
+dep	raku-json-name	raku-json-name
+dep	raku-json-optin	raku-json-optin

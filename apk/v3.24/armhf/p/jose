@@ -1,0 +1,15 @@
+name	jose
+version	14-r0
+description	C-language implementation of Javascript Object Signing and Encryption
+url	https://github.com/latchset/jose
+license	Apache-2.0
+size	23678
+installed-size	59140
+depends	so:libc.musl-armhf.so.1 so:libjansson.so.4 so:libjose.so.0
+origin	jose
+repo	community
+file	jose-14-r0.apk
+checksum	Q1bIFfDclCmj5qni+Mo2HRvCHvrOY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjansson.so.4	jansson
+dep	so:libjose.so.0	libjose

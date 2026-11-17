@@ -1,0 +1,21 @@
+name	unrealircd
+version	6.1.10-r1
+description	internet relay chat daemon (ircd)
+url	https://www.unrealircd.org/
+license	GPL-2.0-or-later
+size	1736040
+installed-size	5087311
+depends	/bin/sh so:libargon2.so.1 so:libc.musl-armhf.so.1 so:libcares.so.2 so:libcrypto.so.3 so:libjansson.so.4 so:libpcre2-8.so.0 so:libsodium.so.26 so:libssl.so.3
+origin	unrealircd
+repo	community
+file	unrealircd-6.1.10-r1.apk
+checksum	Q1quBogMSMy1r/jn3AqPdR7Uh8l9U=
+dep	/bin/sh	busybox-binsh
+dep	so:libargon2.so.1	argon2-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcares.so.2	c-ares
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libjansson.so.4	jansson
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libsodium.so.26	libsodium
+dep	so:libssl.so.3	libssl3

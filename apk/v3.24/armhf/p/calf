@@ -1,0 +1,17 @@
+name	calf
+version	0.90.3-r3
+description	Calf Studio Gear
+url	https://calf-studio-gear.org
+license	GPL-2.0-only AND LGPL-2.1-only
+size	11334344
+installed-size	14526038
+depends	so:libc.musl-armhf.so.1 so:libexpat.so.1 so:libfluidsynth.so.3 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	calf
+repo	community
+file	calf-0.90.3-r3.apk
+checksum	Q1HdkIgL09WskUu/VYyX9wUUgHtdc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexpat.so.1	libexpat
+dep	so:libfluidsynth.so.3	fluidsynth-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,15 @@
+name	php85-pecl-decimal
+version	1.5.3-r0
+description	Correctly-rounded arbitrary precision decimal floating-point arithmetic in PHP 8.3 - PECL
+url	https://pecl.php.net/package/decimal
+license	MIT
+size	18224
+installed-size	43498
+depends	php85-common so:libc.musl-armhf.so.1 so:libmpdec.so.4
+origin	php85-pecl-decimal
+repo	community
+file	php85-pecl-decimal-1.5.3-r0.apk
+checksum	Q1JKmF8y0TpKN6LtbB5zLMG6MNT1E=
+dep	php85-common	php85-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmpdec.so.4	mpdecimal

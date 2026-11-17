@@ -1,0 +1,21 @@
+name	gdk-pixbuf
+version	2.44.7-r1
+description	GTK+ image loading library
+url	https://gitlab.gnome.org/GNOME/gdk-pixbuf
+license	LGPL-2.1-or-later
+size	94638
+installed-size	225408
+depends	shared-mime-info /bin/sh so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libglycin-2.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8
+origin	gdk-pixbuf
+repo	community
+file	gdk-pixbuf-2.44.7-r1.apk
+checksum	Q1GfNsuLcrKQH7VGP6Mmq6Hx05uFU=
+dep	shared-mime-info	shared-mime-info
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libglycin-2.so.0	libglycin
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl

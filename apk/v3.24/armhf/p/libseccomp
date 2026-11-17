@@ -1,0 +1,13 @@
+name	libseccomp
+version	2.6.1-r0
+description	interface to the Linux Kernel's syscall filtering mechanism
+url	https://github.com/seccomp/libseccomp
+license	LGPL-2.1-or-later
+size	51194
+installed-size	158092
+depends	so:libc.musl-armhf.so.1
+origin	libseccomp
+repo	main
+file	libseccomp-2.6.1-r0.apk
+checksum	Q1jZ33A3X5fsemNEldjihnZmBBBOo=
+dep	so:libc.musl-armhf.so.1	musl

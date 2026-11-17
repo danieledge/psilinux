@@ -1,0 +1,35 @@
+name	calls
+version	50.0-r0
+description	Phone dialer and call handler
+url	https://gitlab.gnome.org/GNOME/calls
+license	GPL-3.0-or-later
+size	307173
+installed-size	869966
+depends	callaudiod modemmanager sofia-sip-linphone so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcallaudio-0.1.so.0 so:libebook-contacts-1.2.so.5 so:libfeedback-0.0.so.0 so:libfolks.so.26 so:libgee-0.8.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgom-1.0.so.0 so:libgsound.so.0 so:libgstreamer-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libmm-glib.so.0 so:libpeas-2.so.0 so:libsecret-1.so.0 so:libsofia-sip-ua-glib.so.3 so:libsofia-sip-ua.so.0
+origin	calls
+repo	community
+file	calls-50.0-r0.apk
+checksum	Q1dyd8Tg7dhcF837rogpch7uMEyns=
+dep	callaudiod	callaudiod
+dep	modemmanager	modemmanager
+dep	sofia-sip-linphone	sofia-sip-linphone
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcallaudio-0.1.so.0	callaudiod-libs
+dep	so:libebook-contacts-1.2.so.5	evolution-data-server
+dep	so:libfeedback-0.0.so.0	feedbackd
+dep	so:libfolks.so.26	folks
+dep	so:libgee-0.8.so.2	libgee
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgom-1.0.so.0	gom
+dep	so:libgsound.so.0	gsound
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libmm-glib.so.0	libmm-glib
+dep	so:libpeas-2.so.0	libpeas2
+dep	so:libsecret-1.so.0	libsecret
+dep	so:libsofia-sip-ua-glib.so.3	sofia-sip
+dep	so:libsofia-sip-ua.so.0	sofia-sip

@@ -1,0 +1,14 @@
+name	sfeed
+version	2.4-r0
+description	RSS and Atom feed fetcher
+url	https://www.codemadness.org/sfeed.html
+license	ISC
+size	67737
+installed-size	226741
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	sfeed
+repo	community
+file	sfeed-2.4-r0.apk
+checksum	Q1Bq+JQqaeg5hS9ULuD1y3PBjHlog=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

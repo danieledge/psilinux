@@ -1,0 +1,19 @@
+name	libxisf
+version	0.2.13-r1
+description	library to load and write XISF format from PixInsight
+url	https://gitea.nouspiro.space/nou/libXISF
+license	GPL-3.0-or-later
+size	127044
+installed-size	366468
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblz4.so.1 so:libpugixml.so.1 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
+origin	libxisf
+repo	community
+file	libxisf-0.2.13-r1.apk
+checksum	Q1958cqYEuLIDhTjA0VP+lLu+6U1A=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblz4.so.1	lz4-libs
+dep	so:libpugixml.so.1	pugixml
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

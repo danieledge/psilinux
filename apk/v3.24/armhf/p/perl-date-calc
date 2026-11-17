@@ -1,0 +1,15 @@
+name	perl-date-calc
+version	6.4-r3
+description	Perl module for Gregorian calendar date calculations
+url	https://metacpan.org/release/Date-Calc
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	120025
+installed-size	540080
+depends	perl perl-carp-clan perl-bit-vector
+origin	perl-date-calc
+repo	community
+file	perl-date-calc-6.4-r3.apk
+checksum	Q1dTgaZ8rJA+aMKrRP5mB93WZau64=
+dep	perl	perl
+dep	perl-carp-clan	perl-carp-clan
+dep	perl-bit-vector	perl-bit-vector

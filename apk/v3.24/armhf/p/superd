@@ -1,0 +1,13 @@
+name	superd
+version	0.7.1-r32
+description	lightweight user service supervising daemon
+url	https://sr.ht/~craftyguy/superd
+license	GPL-3.0-or-later
+size	3271587
+installed-size	8172882
+depends	so:libc.musl-armhf.so.1
+origin	superd
+repo	community
+file	superd-0.7.1-r32.apk
+checksum	Q1U/hgM4j+dGca6PyPWN3S6srb0WM=
+dep	so:libc.musl-armhf.so.1	musl

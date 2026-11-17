@@ -1,0 +1,17 @@
+name	ldns-tools
+version	1.8.4-r1
+description	ldns example tools
+url	https://nlnetlabs.nl/projects/ldns/
+license	BSD-3-Clause
+size	113698
+installed-size	374672
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libldns.so.3 so:libpcap.so.1 so:libssl.so.3
+origin	ldns
+repo	main
+file	ldns-tools-1.8.4-r1.apk
+checksum	Q1C7X4ShvC5AqCoDR2M3+RFqxliqI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libldns.so.3	ldns
+dep	so:libpcap.so.1	libpcap
+dep	so:libssl.so.3	libssl3

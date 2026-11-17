@@ -1,0 +1,17 @@
+name	xh
+version	0.24.0-r0
+description	Yet another HTTPie clone
+url	https://github.com/ducaale/xh
+license	MIT
+size	1801839
+installed-size	3528732
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libonig.so.5 so:libssl.so.3
+origin	xh
+repo	community
+file	xh-0.24.0-r0.apk
+checksum	Q1itsmwDtXI7YRVgKfQXIw9R/aQdk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libonig.so.5	oniguruma
+dep	so:libssl.so.3	libssl3

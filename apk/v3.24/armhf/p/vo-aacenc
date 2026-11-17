@@ -1,0 +1,13 @@
+name	vo-aacenc
+version	0.1.3-r3
+description	VisualOn AAC encoder from Android
+url	https://sourceforge.net/projects/opencore-amr/
+license	Apache-2.0
+size	56174
+installed-size	87212
+depends	so:libc.musl-armhf.so.1
+origin	vo-aacenc
+repo	community
+file	vo-aacenc-0.1.3-r3.apk
+checksum	Q1zmU4oQ2G/OzXgN3NMaPlhF7vOj4=
+dep	so:libc.musl-armhf.so.1	musl

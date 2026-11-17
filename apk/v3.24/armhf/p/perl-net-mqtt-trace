@@ -1,0 +1,14 @@
+name	perl-net-mqtt-trace
+version	1.163170-r1
+description	Perl modules for the MQTT Protocol (message decoder for IP packets)
+url	https://metacpan.org/release/Net-MQTT/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	4370
+installed-size	7275
+depends	perl-net-mqtt=1.163170-r1 perl-net-pcap
+origin	perl-net-mqtt
+repo	community
+file	perl-net-mqtt-trace-1.163170-r1.apk
+checksum	Q1IkIqP8nGoqif0vOcOat06fQzzco=
+dep	perl-net-mqtt=1.163170-r1	perl-net-mqtt
+dep	perl-net-pcap	perl-net-pcap

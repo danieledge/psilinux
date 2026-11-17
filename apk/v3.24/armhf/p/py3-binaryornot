@@ -1,0 +1,14 @@
+name	py3-binaryornot
+version	0.4.4-r6
+description	Python package to check if a file is binary or text
+url	https://github.com/audreyr/binaryornot
+license	BSD-3-Clause
+size	8273
+installed-size	15128
+depends	py3-chardet python3~3.14
+origin	py3-binaryornot
+repo	community
+file	py3-binaryornot-0.4.4-r6.apk
+checksum	Q18DknggNR7AwBMk/heifEgg2Kc1k=
+dep	py3-chardet	py3-chardet
+dep	python3~3.14	python3

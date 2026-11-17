@@ -1,0 +1,15 @@
+name	expat-dev
+version	2.10.0-r0
+description	XML Parser library written in C (development files)
+url	https://libexpat.github.io/
+license	MIT
+size	22181
+installed-size	70509
+depends	expat=2.10.0-r0 libexpat=2.10.0-r0 pkgconfig
+origin	expat
+repo	main
+file	expat-dev-2.10.0-r0.apk
+checksum	Q1iXtqno7qW9rSK9LcH1v6QoStAz0=
+dep	expat=2.10.0-r0	expat
+dep	libexpat=2.10.0-r0	libexpat
+dep	pkgconfig	pkgconf

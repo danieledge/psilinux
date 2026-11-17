@@ -1,0 +1,13 @@
+name	rtpproxy-debug
+version	3.1.1-r0
+description	Debug version of rtpproxy
+url	https://www.rtpproxy.org/
+license	BSD-2-Clause
+size	208425
+installed-size	774560
+depends	so:libc.musl-armhf.so.1
+origin	rtpproxy
+repo	main
+file	rtpproxy-debug-3.1.1-r0.apk
+checksum	Q1TiTGg9ywSRFEEzWneb6mLmfdHB4=
+dep	so:libc.musl-armhf.so.1	musl

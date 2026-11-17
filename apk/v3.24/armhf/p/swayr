@@ -1,0 +1,14 @@
+name	swayr
+version	0.28.1-r0
+description	A window switcher (and more) for Sway
+url	https://sr.ht/~tsdh/swayr/
+license	GPL-3.0-or-later
+size	1201394
+installed-size	2568748
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	swayr
+repo	community
+file	swayr-0.28.1-r0.apk
+checksum	Q1p9hRgGnQFEcIGVAPbNplPRQQM10=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

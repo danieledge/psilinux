@@ -1,0 +1,13 @@
+name	scsi-tgt
+version	1.0.98-r0
+description	user-space iSCSI target daemon
+url	https://github.com/fujita/tgt
+license	GPL-2.0-only
+size	141854
+installed-size	307175
+depends	so:libc.musl-armhf.so.1
+origin	scsi-tgt
+repo	community
+file	scsi-tgt-1.0.98-r0.apk
+checksum	Q1EeGXLO4yuE6wUvLsWGT7T1Hlnoc=
+dep	so:libc.musl-armhf.so.1	musl

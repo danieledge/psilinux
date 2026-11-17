@@ -1,0 +1,14 @@
+name	go-msgauth
+version	0.7.0-r13
+description	Go utilities for DKIM, DMARC, and Authentication-Results
+url	https://github.com/emersion/go-msgauth
+license	MIT
+size	5969177
+installed-size	14193256
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	go-msgauth
+repo	community
+file	go-msgauth-0.7.0-r13.apk
+checksum	Q1X2aeWzNCxkNnbXvNlsflY4nhsAE=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

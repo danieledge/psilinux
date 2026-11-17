@@ -1,0 +1,16 @@
+name	mimalloc2-dev
+version	2.2.7-r0
+description	A compact general purpose allocator with excellent performance (in secure mode) (development files)
+url	https://github.com/microsoft/mimalloc
+license	MIT
+size	509501
+installed-size	1403398
+depends	mimalloc2-debug=2.2.7-r0 mimalloc2-insecure=2.2.7-r0 mimalloc2=2.2.7-r0 pkgconfig
+origin	mimalloc2
+repo	community
+file	mimalloc2-dev-2.2.7-r0.apk
+checksum	Q1oErYEp93H6K0RSBUavpKQhxShmM=
+dep	mimalloc2-debug=2.2.7-r0	mimalloc2-debug
+dep	mimalloc2-insecure=2.2.7-r0	mimalloc2-insecure
+dep	mimalloc2=2.2.7-r0	mimalloc2
+dep	pkgconfig	pkgconf

@@ -1,0 +1,20 @@
+name	ratbag
+version	0.18-r1
+description	DBus daemon to configure input devices, mainly gaming mice
+url	https://github.com/libratbag/libratbag
+license	MIT
+size	117692
+installed-size	258513
+depends	dbus so:libc.musl-armhf.so.1 so:libelogind.so.0 so:libevdev.so.2 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libudev.so.1 so:libunistring.so.5
+origin	ratbag
+repo	community
+file	ratbag-0.18-r1.apk
+checksum	Q1IYWO9gawlnslSJ144fljt2rymJc=
+dep	dbus	dbus
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libelogind.so.0	libelogind
+dep	so:libevdev.so.2	libevdev
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libudev.so.1	eudev-libs
+dep	so:libunistring.so.5	libunistring

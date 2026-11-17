@@ -1,0 +1,13 @@
+name	atools-go
+version	0.6.1-r6
+description	APKBUILD linter that parses APKBUILD files to provide fast and accurate checks
+url	https://gitlab.alpinelinux.org/alpine/infra/atools-go
+license	MIT
+size	1116849
+installed-size	2677836
+depends	so:libc.musl-armhf.so.1
+origin	atools-go
+repo	community
+file	atools-go-0.6.1-r6.apk
+checksum	Q1PB+m0Oe5dsD/9nxUnBd1ia3P3ZU=
+dep	so:libc.musl-armhf.so.1	musl

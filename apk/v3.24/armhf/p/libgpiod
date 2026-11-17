@@ -1,0 +1,13 @@
+name	libgpiod
+version	2.2.4-r0
+description	C library and tools for interacting with the linux GPIO character device
+url	https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/
+license	LGPL-2.1-or-later
+size	44393
+installed-size	164540
+depends	so:libc.musl-armhf.so.1
+origin	libgpiod
+repo	community
+file	libgpiod-2.2.4-r0.apk
+checksum	Q15Uqc8bghhQHqPSkeQKElOOvozF4=
+dep	so:libc.musl-armhf.so.1	musl

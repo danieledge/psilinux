@@ -1,0 +1,18 @@
+name	postgresql-bdr-contrib
+version	9.4.14_p1-r17
+description	Extension modules distributed with PostgreSQL
+url	https://www.enterprisedb.com/products/bidirectional-replication-bdr-postgresql-database
+license	PostgreSQL
+size	553189
+installed-size	1715838
+depends	bash so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libpq.so.5 so:libssl.so.3 so:libz.so.1
+origin	postgresql-bdr
+repo	community
+file	postgresql-bdr-contrib-9.4.14_p1-r17.apk
+checksum	Q1b3dl6hDJmmUbGCW3u5vSbkFXuyM=
+dep	bash	bash
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libpq.so.5	libpq
+dep	so:libssl.so.3	libssl3
+dep	so:libz.so.1	zlib

@@ -1,0 +1,13 @@
+name	aom-libs
+version	3.14.1-r0
+description	Alliance for Open Media (AOM) AV1 codec SDK (libraries)
+url	https://aomedia.org/
+license	BSD-2-Clause AND custom
+size	1705891
+installed-size	3562852
+depends	so:libc.musl-armhf.so.1
+origin	aom
+repo	main
+file	aom-libs-3.14.1-r0.apk
+checksum	Q156eMkjgaT368nbMfbefMi2xuU7c=
+dep	so:libc.musl-armhf.so.1	musl

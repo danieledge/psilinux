@@ -1,0 +1,13 @@
+name	harsh
+version	0.8.31-r22
+description	Habit tracking for geeks
+url	https://github.com/wakatara/harsh
+license	MIT
+size	1615671
+installed-size	4081316
+depends	so:libc.musl-armhf.so.1
+origin	harsh
+repo	community
+file	harsh-0.8.31-r22.apk
+checksum	Q1R7r9VuZqQCz016jWBN7jpVT39S8=
+dep	so:libc.musl-armhf.so.1	musl

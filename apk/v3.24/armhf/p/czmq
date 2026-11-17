@@ -1,0 +1,15 @@
+name	czmq
+version	4.2.1-r4
+description	High-level C binding for ZeroMQ
+url	http://czmq.zeromq.org/
+license	MPL-2.0
+size	116874
+installed-size	285544
+depends	so:libc.musl-armhf.so.1 so:libuuid.so.1 so:libzmq.so.5
+origin	czmq
+repo	main
+file	czmq-4.2.1-r4.apk
+checksum	Q14XzleFMsjPY9vsDDiz+jkMif3Ak=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libuuid.so.1	libuuid
+dep	so:libzmq.so.5	libzmq

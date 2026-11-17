@@ -1,0 +1,13 @@
+name	libpinyin-static
+version	2.11.91-r0
+description	Library to deal with pinyin (static library)
+url	https://github.com/libpinyin/libpinyin
+license	GPL-3.0-or-later
+size	1853801
+installed-size	7279516
+depends	libpinyin-dev
+origin	libpinyin
+repo	community
+file	libpinyin-static-2.11.91-r0.apk
+checksum	Q1wmKwcawz+mHvwsGuuT5KiOMgv1s=
+dep	libpinyin-dev	libpinyin-dev

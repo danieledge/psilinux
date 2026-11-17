@@ -1,0 +1,15 @@
+name	gmp-dev
+version	6.3.0-r4
+description	free library for arbitrary precision arithmetic (development files)
+url	https://gmplib.org/
+license	LGPL-3.0-or-later OR GPL-2.0-or-later
+size	34987
+installed-size	214334
+depends	gmp=6.3.0-r4 libgmpxx=6.3.0-r4 pkgconfig
+origin	gmp
+repo	main
+file	gmp-dev-6.3.0-r4.apk
+checksum	Q17XipwGFKSFq+faEl09eOLczx6Bw=
+dep	gmp=6.3.0-r4	gmp
+dep	libgmpxx=6.3.0-r4	libgmpxx
+dep	pkgconfig	pkgconf

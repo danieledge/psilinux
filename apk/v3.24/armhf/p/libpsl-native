@@ -1,0 +1,15 @@
+name	libpsl-native
+version	7.4.0-r2
+description	This library provides functionality missing from .NET Core via system calls
+url	https://github.com/PowerShell/PowerShell-Native
+license	MIT
+size	8103
+installed-size	17740
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libpsl-native
+repo	community
+file	libpsl-native-7.4.0-r2.apk
+checksum	Q1Fa341fNf0IlEDIMbwNesYNBGOBg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,16 @@
+name	aspcud
+version	1.9.6-r10
+description	Package dependency solver
+url	https://potassco.org/aspcud/
+license	MIT
+size	100056
+installed-size	244123
+depends	clingo so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	aspcud
+repo	community
+file	aspcud-1.9.6-r10.apk
+checksum	Q1LaYYIigri3GdvOeXQTQeGzCWUQM=
+dep	clingo	clingo
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

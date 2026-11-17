@@ -1,0 +1,13 @@
+name	outils-vis
+version	0.14-r0
+description	vis tool from outils
+url	https://github.com/leahneukirchen/outils
+license	BSD-3-Clause ISC
+size	5745
+installed-size	9424
+depends	so:libc.musl-armhf.so.1
+origin	outils
+repo	community
+file	outils-vis-0.14-r0.apk
+checksum	Q1t2R47I+jm1T5DHef15SN+e4S190=
+dep	so:libc.musl-armhf.so.1	musl

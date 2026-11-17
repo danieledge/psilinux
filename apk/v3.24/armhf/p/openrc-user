@@ -1,0 +1,14 @@
+name	openrc-user
+version	0.63.2-r0
+description	OpenRC user services without PAM support
+url	https://github.com/OpenRC/openrc
+license	BSD-2-Clause
+size	6007
+installed-size	10455
+depends	so:libc.musl-armhf.so.1 so:libeinfo.so.1
+origin	openrc
+repo	main
+file	openrc-user-0.63.2-r0.apk
+checksum	Q1tq74xkLOWgFhG61P9CvJRnP056A=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libeinfo.so.1	openrc

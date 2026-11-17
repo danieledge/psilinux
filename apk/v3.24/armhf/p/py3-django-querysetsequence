@@ -1,0 +1,14 @@
+name	py3-django-querysetsequence
+version	0.18-r2
+description	Chain together multiple (disparate) QuerySets to treat them as a single QuerySet.
+url	https://pypi.python.org/project/django-querysetsequence
+license	ISC
+size	17202
+installed-size	57915
+depends	py3-django python3~3.14
+origin	py3-django-querysetsequence
+repo	community
+file	py3-django-querysetsequence-0.18-r2.apk
+checksum	Q1Hu6wkfFH3hJVSJ2zqriUQhjW/Ww=
+dep	py3-django	py3-django
+dep	python3~3.14	python3

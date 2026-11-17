@@ -1,0 +1,13 @@
+name	tpm
+version	1.3.3-r4
+description	A tiny password manager
+url	https://github.com/nmeum/tpm
+license	GPL-3.0-or-later
+size	2641
+installed-size	2392
+depends	gpg
+origin	tpm
+repo	community
+file	tpm-1.3.3-r4.apk
+checksum	Q1rjGGyIqgJUrOiPSxFD18dkG42Io=
+dep	gpg	gpg

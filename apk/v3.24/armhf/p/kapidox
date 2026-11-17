@@ -1,0 +1,17 @@
+name	kapidox
+version	6.26.0-r0
+description	Scripts and data for building API documentation (dox) in a standard format and style
+url	https://community.kde.org/Frameworks
+license	BSD-3-Clause
+size	31380
+installed-size	102725
+depends	doxygen py3-jinja2 py3-yaml python3 python3~3.14
+origin	kapidox
+repo	community
+file	kapidox-6.26.0-r0.apk
+checksum	Q1u87kGYlmymBC408Teo8CRPj3BmY=
+dep	doxygen	doxygen
+dep	py3-jinja2	py3-jinja2
+dep	py3-yaml	py3-yaml
+dep	python3	python3
+dep	python3~3.14	python3

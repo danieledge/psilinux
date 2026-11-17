@@ -1,0 +1,15 @@
+name	arpack-dev
+version	3.9.1-r0
+description	Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems (development files)
+url	https://github.com/opencollab/arpack-ng
+license	BSD-3-Clause
+size	192805
+installed-size	732423
+depends	openblas-dev>=0.3.0 arpack=3.9.1-r0 pkgconfig
+origin	arpack
+repo	community
+file	arpack-dev-3.9.1-r0.apk
+checksum	Q1o7IFsZRAHUJ1+TNOnyEoRFI+eAU=
+dep	openblas-dev>=0.3.0	openblas-dev
+dep	arpack=3.9.1-r0	arpack
+dep	pkgconfig	pkgconf

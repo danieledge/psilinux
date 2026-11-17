@@ -1,0 +1,16 @@
+name	libselinux-dev
+version	3.10-r1
+description	SELinux library and simple utilities (development files)
+url	https://github.com/SELinuxProject/selinux/wiki
+license	Public-Domain
+size	19342
+installed-size	66607
+depends	libselinux=3.10-r1 pc:libpcre2-8 pc:libsepol pkgconfig
+origin	libselinux
+repo	community
+file	libselinux-dev-3.10-r1.apk
+checksum	Q1ackT5SMC3rV/8q5X0GNxmECM7cQ=
+dep	libselinux=3.10-r1	libselinux
+dep	pc:libpcre2-8	pcre2-dev
+dep	pc:libsepol	libsepol-dev
+dep	pkgconfig	pkgconf

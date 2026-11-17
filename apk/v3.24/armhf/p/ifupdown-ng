@@ -1,0 +1,13 @@
+name	ifupdown-ng
+version	0.13.0-r0
+description	tools for managing network configuration
+url	https://github.com/ifupdown-ng/ifupdown-ng
+license	ISC
+size	69298
+installed-size	135655
+depends	!vlan bridge
+origin	ifupdown-ng
+repo	main
+file	ifupdown-ng-0.13.0-r0.apk
+checksum	Q1vK9sOc2UgnqFmpkYOvNRmN1VHSE=
+dep	bridge	bridge

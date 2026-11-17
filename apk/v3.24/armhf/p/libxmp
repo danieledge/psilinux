@@ -1,0 +1,13 @@
+name	libxmp
+version	4.6.3-r0
+description	Libxmp is a library that renders module files to PCM data
+url	https://github.com/libxmp/libxmp/
+license	LGPL-2.1-or-later
+size	259280
+installed-size	468320
+depends	so:libc.musl-armhf.so.1
+origin	libxmp
+repo	community
+file	libxmp-4.6.3-r0.apk
+checksum	Q1MQCBX2XRAB+qwj4q+PN9DPw7VR8=
+dep	so:libc.musl-armhf.so.1	musl

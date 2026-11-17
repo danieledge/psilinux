@@ -1,0 +1,14 @@
+name	abseil-cpp-log-internal-conditions
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-log-internal-conditions
+url	https://abseil.io/
+license	Apache-2.0
+size	3577
+installed-size	5400
+depends	so:libabsl_base.so.2508.0.0 so:libgcc_s.so.1
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-log-internal-conditions-20250814.1-r0.apk
+checksum	Q1ufQa4Jt0ahh4+LszMvL8obRwpx8=
+dep	so:libabsl_base.so.2508.0.0	abseil-cpp-base
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,14 @@
+name	containerd-ctr
+version	2.3.7-r0
+description	unsupported debug/admin client for containerd
+url	https://containerd.io/
+license	Apache-2.0
+size	8402310
+installed-size	23094772
+depends	runc so:libc.musl-armhf.so.1
+origin	containerd
+repo	community
+file	containerd-ctr-2.3.7-r0.apk
+checksum	Q1xzsdCxxq2PrtoekN9N9bdiCKw1c=
+dep	runc	runc
+dep	so:libc.musl-armhf.so.1	musl

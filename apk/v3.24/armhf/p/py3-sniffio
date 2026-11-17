@@ -1,0 +1,14 @@
+name	py3-sniffio
+version	1.3.1-r2
+description	Sniff out which async library your code is running under
+url	https://github.com/python-trio/sniffio
+license	MIT OR Apache-2.0
+size	10752
+installed-size	22865
+depends	py3-curio python3~3.14
+origin	py3-sniffio
+repo	community
+file	py3-sniffio-1.3.1-r2.apk
+checksum	Q1D1dWOsC3d7U45iJ0IcAxjcMmhpQ=
+dep	py3-curio	py3-curio
+dep	python3~3.14	python3

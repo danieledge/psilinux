@@ -1,0 +1,13 @@
+name	snappy-dev
+version	1.2.2-r0
+description	Fast compression and decompression library (development files)
+url	https://github.com/google/snappy
+license	BSD-3-Clause
+size	11717
+installed-size	38257
+depends	snappy=1.2.2-r0
+origin	snappy
+repo	main
+file	snappy-dev-1.2.2-r0.apk
+checksum	Q1m65v/mKgED2BAqYl8mElpOzLBN8=
+dep	snappy=1.2.2-r0	snappy

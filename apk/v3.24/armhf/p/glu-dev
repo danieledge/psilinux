@@ -1,0 +1,16 @@
+name	glu-dev
+version	9.0.3-r4
+description	Mesa OpenGL Utility library (development files)
+url	https://cgit.freedesktop.org/mesa/glu/
+license	SGI-B-1.1 AND SGI-B-2.0
+size	5971
+installed-size	17382
+depends	mesa-dev glu=9.0.3-r4 pc:gl pkgconfig
+origin	glu
+repo	main
+file	glu-dev-9.0.3-r4.apk
+checksum	Q1dycoA0WMB+PpAwbkTe6MHBE4W4I=
+dep	mesa-dev	mesa-dev
+dep	glu=9.0.3-r4	glu
+dep	pc:gl	mesa-dev
+dep	pkgconfig	pkgconf

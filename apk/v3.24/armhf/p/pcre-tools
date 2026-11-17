@@ -1,0 +1,17 @@
+name	pcre-tools
+version	8.45-r4
+description	Auxiliary utilities for PCRE
+url	https://www.pcre.org/
+license	BSD-3-Clause
+size	53999
+installed-size	118356
+depends	so:libc.musl-armhf.so.1 so:libpcre.so.1 so:libpcre16.so.0 so:libpcre32.so.0 so:libpcreposix.so.0
+origin	pcre
+repo	main
+file	pcre-tools-8.45-r4.apk
+checksum	Q1aksa8j+Hl8vTv39PuX0m4lergD8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcre.so.1	pcre
+dep	so:libpcre16.so.0	libpcre16
+dep	so:libpcre32.so.0	libpcre32
+dep	so:libpcreposix.so.0	pcre

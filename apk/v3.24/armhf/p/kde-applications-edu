@@ -1,0 +1,33 @@
+name	kde-applications-edu
+version	26.04.2-r0
+description	KDE Applications meta package
+url	https://kde.org/applications/
+license	GPL-3.0-or-later
+size	1370
+installed-size	0
+depends	artikulate blinken cantor kalgebra kalzium kanagram kbruch kgeography khangman kig kiten klettres kmplot ktouch kturtle kwordquiz marble minuet parley rocs step
+origin	kde-applications
+repo	community
+file	kde-applications-edu-26.04.2-r0.apk
+checksum	Q1JDuVRRK9VvG4D2U0yCVRWz1XQHA=
+dep	artikulate	!
+dep	blinken	!
+dep	cantor	!
+dep	kalgebra	!
+dep	kalzium	!
+dep	kanagram	!
+dep	kbruch	!
+dep	kgeography	!
+dep	khangman	!
+dep	kig	!
+dep	kiten	!
+dep	klettres	!
+dep	kmplot	!
+dep	ktouch	!
+dep	kturtle	!
+dep	kwordquiz	!
+dep	marble	!
+dep	minuet	!
+dep	parley	!
+dep	rocs	!
+dep	step	!

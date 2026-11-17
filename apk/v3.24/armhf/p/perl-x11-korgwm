@@ -1,0 +1,23 @@
+name	perl-x11-korgwm
+version	5.0-r1
+description	Tiling window manager for X11
+url	https://metacpan.org/release/X11-korgwm/
+license	MIT
+size	41593
+installed-size	131696
+depends	font-dejavu gtk+3.0 perl perl-anyevent perl-anyevent-dbus perl-glib-object-introspection perl-gtk3 perl-net-dbus perl-x11-xcb perl-yaml-tiny xrandr
+origin	perl-x11-korgwm
+repo	community
+file	perl-x11-korgwm-5.0-r1.apk
+checksum	Q1ATdvdslTmouf8P1Uq2NHL2F1JrU=
+dep	font-dejavu	font-dejavu
+dep	gtk+3.0	gtk+3.0
+dep	perl	perl
+dep	perl-anyevent	perl-anyevent
+dep	perl-anyevent-dbus	perl-anyevent-dbus
+dep	perl-glib-object-introspection	perl-glib-object-introspection
+dep	perl-gtk3	perl-gtk3
+dep	perl-net-dbus	perl-net-dbus
+dep	perl-x11-xcb	perl-x11-xcb
+dep	perl-yaml-tiny	perl-yaml-tiny
+dep	xrandr	xrandr

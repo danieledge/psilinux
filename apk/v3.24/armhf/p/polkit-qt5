@@ -1,0 +1,24 @@
+name	polkit-qt5
+version	0.201.1-r1
+description	Qt wrapper around polkit-1 client libraries
+url	https://www.kde.org
+license	LGPL-2.1-only
+size	65480
+installed-size	188544
+depends	so:libQt5Core.so.5 so:libQt5DBus.so.5 so:libQt5Gui.so.5 so:libQt5Widgets.so.5 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libpolkit-agent-1.so.0 so:libpolkit-gobject-1.so.0 so:libstdc++.so.6
+origin	polkit-qt
+repo	community
+file	polkit-qt5-0.201.1-r1.apk
+checksum	Q1t92qtWH+0WqzSqiGN9WP57d887E=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5DBus.so.5	qt5-qtbase
+dep	so:libQt5Gui.so.5	qt5-qtbase-x11
+dep	so:libQt5Widgets.so.5	qt5-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpolkit-agent-1.so.0	polkit-noelogind-libs
+dep	so:libpolkit-gobject-1.so.0	polkit-noelogind-libs
+dep	so:libstdc++.so.6	libstdc++

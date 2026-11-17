@@ -1,0 +1,24 @@
+name	audacious
+version	4.5.1-r0
+description	A playlist-oriented media player with multiple interfaces
+url	https://audacious-media-player.org/
+license	BSD-2-Clause AND ISC
+size	357158
+installed-size	912151
+depends	qt6-qtsvg so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libstdc++.so.6
+origin	audacious
+repo	community
+file	audacious-4.5.1-r0.apk
+checksum	Q1u632E1MCh28zUrnSEa+mL3mfK1w=
+dep	qt6-qtsvg	qt6-qtsvg
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libstdc++.so.6	libstdc++

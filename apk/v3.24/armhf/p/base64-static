@@ -1,0 +1,13 @@
+name	base64-static
+version	0.5.2-r2
+description	Fast Base64 stream encoder/decoder in C99, with SIMD acceleration (static library)
+url	https://github.com/aklomp/base64
+license	BSD-2-Clause
+size	15106
+installed-size	35318
+depends	base64-dev
+origin	base64
+repo	main
+file	base64-static-0.5.2-r2.apk
+checksum	Q1yNXXmIjeLQIP0Oc61PqsGNssXgA=
+dep	base64-dev	base64-dev

@@ -1,0 +1,14 @@
+name	virt-install
+version	5.1.0-r0
+description	Utilities for installing virtual machines
+url	https://virt-manager.org/
+license	GPL-2.0-or-later
+size	1830
+installed-size	268
+depends	virt-manager-common=5.1.0-r0 xorriso
+origin	virt-manager
+repo	community
+file	virt-install-5.1.0-r0.apk
+checksum	Q1EmB9fxHLPB4Z4Pg7AvCNOOMOh3k=
+dep	virt-manager-common=5.1.0-r0	virt-manager-common
+dep	xorriso	xorriso

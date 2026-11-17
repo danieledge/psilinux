@@ -1,0 +1,17 @@
+name	menu-cache
+version	1.1.0-r1
+description	Caching mechanism for freedesktop.org compliant menus
+url	https://lxde.org/
+license	GPL-2.0+
+size	40458
+installed-size	90750
+depends	so:libc.musl-armhf.so.1 so:libfm-extra.so.4 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	menu-cache
+repo	community
+file	menu-cache-1.1.0-r1.apk
+checksum	Q11JbjqSqAkWgTwiky7ui18P5Daew=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfm-extra.so.4	libfm-extra
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

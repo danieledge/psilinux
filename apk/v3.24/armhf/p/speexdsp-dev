@@ -1,0 +1,14 @@
+name	speexdsp-dev
+version	1.2.1-r2
+description	A voice compression format (DSP) (development files)
+url	https://www.speex.org/
+license	BSD-3-Clause
+size	10909
+installed-size	41080
+depends	speexdsp=1.2.1-r2 pkgconfig
+origin	speexdsp
+repo	main
+file	speexdsp-dev-1.2.1-r2.apk
+checksum	Q10vVd0phxkRLEvz1JTboWrwKWRIQ=
+dep	speexdsp=1.2.1-r2	speexdsp
+dep	pkgconfig	pkgconf

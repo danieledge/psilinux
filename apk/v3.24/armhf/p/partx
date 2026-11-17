@@ -1,0 +1,15 @@
+name	partx
+version	2.42.3-r1
+description	Tell the kernel about disk partition changes from util-linux
+url	https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+license	GPL-2.0-or-later
+size	23884
+installed-size	46468
+depends	so:libblkid.so.1 so:libc.musl-armhf.so.1 so:libsmartcols.so.1
+origin	util-linux
+repo	main
+file	partx-2.42.3-r1.apk
+checksum	Q1vNCoKcoi9vWm1iHDXW1AnnDWKE0=
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsmartcols.so.1	libsmartcols

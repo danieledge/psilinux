@@ -1,0 +1,15 @@
+name	py3-pytest-cov
+version	5.0.0-r2
+description	Pytest plugin for measuring coverage
+url	https://github.com/pytest-dev/pytest-cov
+license	MIT
+size	21903
+installed-size	67272
+depends	py3-pytest py3-coverage python3~3.14
+origin	py3-pytest-cov
+repo	main
+file	py3-pytest-cov-5.0.0-r2.apk
+checksum	Q19U5//aBATTmEY6LK+Wc+qEo8oik=
+dep	py3-pytest	py3-pytest
+dep	py3-coverage	py3-coverage
+dep	python3~3.14	python3

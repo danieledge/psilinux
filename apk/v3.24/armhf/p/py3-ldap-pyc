@@ -1,0 +1,13 @@
+name	py3-ldap-pyc
+version	3.4.7-r0
+description	Precompiled Python bytecode for py3-ldap
+url	https://github.com/python-ldap/python-ldap
+license	Python-2.0 AND MIT
+size	138382
+installed-size	353169
+depends	python3~3.14
+origin	py3-ldap
+repo	community
+file	py3-ldap-pyc-3.4.7-r0.apk
+checksum	Q1Chxjqbm5wXtvIsnUKPOISsdEwSo=
+dep	python3~3.14	python3

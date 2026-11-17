@@ -1,0 +1,17 @@
+name	aws-sdk-cpp-medialive
+version	1.11.700-r1
+description	Amazon Web Services SDK for C++ (medialive)
+url	https://github.com/aws/aws-sdk-cpp
+license	Apache-2.0
+size	548291
+installed-size	1963288
+depends	so:libaws-cpp-sdk-core.so.1.11 so:libaws-crt-cpp.so so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	aws-sdk-cpp
+repo	community
+file	aws-sdk-cpp-medialive-1.11.700-r1.apk
+checksum	Q1D9d2j9w8AnuYMj9VKGyot1VKBaQ=
+dep	so:libaws-cpp-sdk-core.so.1.11	aws-sdk-cpp-core
+dep	so:libaws-crt-cpp.so	aws-crt-cpp
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

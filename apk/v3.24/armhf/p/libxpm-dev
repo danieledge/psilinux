@@ -1,0 +1,15 @@
+name	libxpm-dev
+version	3.5.20-r0
+description	X11 pixmap library (development files)
+url	https://xorg.freedesktop.org/
+license	X11
+size	37343
+installed-size	106294
+depends	libxpm=3.5.20-r0 pc:x11 pkgconfig
+origin	libxpm
+repo	main
+file	libxpm-dev-3.5.20-r0.apk
+checksum	Q1z2SvJY0jL/enJQNSoxKbpcfijUQ=
+dep	libxpm=3.5.20-r0	libxpm
+dep	pc:x11	libx11-dev
+dep	pkgconfig	pkgconf

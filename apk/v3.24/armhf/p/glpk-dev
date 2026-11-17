@@ -1,0 +1,13 @@
+name	glpk-dev
+version	5.0-r3
+description	GLPK: For solving linear and mixed integer programming and other problems (development files)
+url	https://www.gnu.org/software/glpk/
+license	GPL-3.0-only
+size	517611
+installed-size	1385649
+depends	glpk=5.0-r3
+origin	glpk
+repo	community
+file	glpk-dev-5.0-r3.apk
+checksum	Q1MChX44JWtT3rgpzpYYvtmo4NKTY=
+dep	glpk=5.0-r3	glpk

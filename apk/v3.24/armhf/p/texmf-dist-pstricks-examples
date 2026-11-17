@@ -1,0 +1,14 @@
+name	texmf-dist-pstricks-examples
+version	2026.0-r0
+description	texmf-dist: PSTricks (examples and documentation)
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	503902468
+installed-size	589111097
+depends	texmf-dist-pstricks texmf-dist-pstricks-doc
+origin	texmf-dist
+repo	community
+file	texmf-dist-pstricks-examples-2026.0-r0.apk
+checksum	Q1+zibj1VL5SgBE26pUgPAF3+F5Xo=
+dep	texmf-dist-pstricks	texmf-dist-pstricks
+dep	texmf-dist-pstricks-doc	texmf-dist-pstricks-doc

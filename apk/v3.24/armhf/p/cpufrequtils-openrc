@@ -1,0 +1,12 @@
+name	cpufrequtils-openrc
+version	008-r7
+description	Userspace tools for the kernel cpufreq subsystem (OpenRC init scripts)
+url	https://www.kernel.org/pub/linux/utils/kernel/cpufreq/
+license	GPL-2.0-only
+size	2128
+installed-size	809
+depends	
+origin	cpufrequtils
+repo	community
+file	cpufrequtils-openrc-008-r7.apk
+checksum	Q1dOedAaJJHXhhzoUfNPHNjye2fLk=

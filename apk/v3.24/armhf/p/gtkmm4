@@ -1,0 +1,27 @@
+name	gtkmm4
+version	4.22.0-r0
+description	C++ wrappers for GTK 4
+url	https://www.gtkmm.org/
+license	LGPL-2.1-or-later
+size	1131658
+installed-size	4425088
+depends	so:libc.musl-armhf.so.1 so:libcairo-gobject.so.2 so:libcairomm-1.16.so.1 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libgiomm-2.68.so.1 so:libglib-2.0.so.0 so:libglibmm-2.68.so.1 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libpangomm-2.48.so.1 so:libsigc-3.0.so.0 so:libstdc++.so.6
+origin	gtkmm4
+repo	community
+file	gtkmm4-4.22.0-r0.apk
+checksum	Q1QsKUi7+jfC87ZktnZQCj0LA+5xE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo-gobject.so.2	cairo-gobject
+dep	so:libcairomm-1.16.so.1	cairomm
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libgiomm-2.68.so.1	glibmm
+dep	so:libglib-2.0.so.0	glib
+dep	so:libglibmm-2.68.so.1	glibmm
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libpangomm-2.48.so.1	pangomm
+dep	so:libsigc-3.0.so.0	libsigc++3
+dep	so:libstdc++.so.6	libstdc++

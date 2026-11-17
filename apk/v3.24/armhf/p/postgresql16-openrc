@@ -1,0 +1,13 @@
+name	postgresql16-openrc
+version	16.16-r0
+description	A sophisticated object-relational DBMS, version 16 (OpenRC init scripts)
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	1336
+installed-size	0
+depends	postgresql-common-openrc
+origin	postgresql16
+repo	community
+file	postgresql16-openrc-16.16-r0.apk
+checksum	Q1feJmo4ZeVC0Z/Kx5FGXPcsduOxQ=
+dep	postgresql-common-openrc	postgresql-common-openrc

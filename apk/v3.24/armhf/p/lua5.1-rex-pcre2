@@ -1,0 +1,14 @@
+name	lua5.1-rex-pcre2
+version	2.9.2-r1
+description	Lua 5.1 bindings to pcre2 regular expressions library
+url	http://lrexlib.luaforge.net/
+license	MIT
+size	14601
+installed-size	31104
+depends	so:libc.musl-armhf.so.1 so:libpcre2-8.so.0
+origin	lua-rex
+repo	main
+file	lua5.1-rex-pcre2-2.9.2-r1.apk
+checksum	Q1kq2wQdBq4Ou/GLv56ml2uck9UQA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcre2-8.so.0	pcre2

@@ -1,0 +1,16 @@
+name	py3-zope-component
+version	7.1-r1
+description	Zope Component Architecture
+url	https://pypi.org/project/zope.component
+license	ZPL-2.1
+size	30326
+installed-size	111237
+depends	py3-zope-event py3-zope-hookable py3-zope-interface python3~3.14
+origin	py3-zope-component
+repo	community
+file	py3-zope-component-7.1-r1.apk
+checksum	Q1p6ZW3LV8wn5ihWr1K2qQLQ8+pag=
+dep	py3-zope-event	py3-zope-event
+dep	py3-zope-hookable	py3-zope-hookable
+dep	py3-zope-interface	py3-zope-interface
+dep	python3~3.14	python3

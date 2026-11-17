@@ -1,0 +1,14 @@
+name	ocaml-compiler-libs-repackaged-dev
+version	0.12.4-r5
+description	OCaml compiler libraries repackaged to not expose everything at toplevel (development files)
+url	https://github.com/janestreet/ocaml-compiler-libs
+license	MIT
+size	105549
+installed-size	353180
+depends	ocaml-compiler-libs-repackaged=0.12.4-r5 ocaml-compiler-libs
+origin	ocaml-compiler-libs-repackaged
+repo	community
+file	ocaml-compiler-libs-repackaged-dev-0.12.4-r5.apk
+checksum	Q1VdCRFDKR5rY+eJFT31mYjLJERkM=
+dep	ocaml-compiler-libs-repackaged=0.12.4-r5	ocaml-compiler-libs-repackaged
+dep	ocaml-compiler-libs	ocaml-compiler-libs

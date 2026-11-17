@@ -1,0 +1,16 @@
+name	debootstrap
+version	1.0.142-r0
+description	Debian/Ubuntu bootstrap scripts
+url	https://packages.qa.debian.org/d/debootstrap.html
+license	MIT
+size	48048
+installed-size	210467
+depends	debian-archive-keyring dpkg perl tar
+origin	debootstrap
+repo	main
+file	debootstrap-1.0.142-r0.apk
+checksum	Q1CwGUzul648iCsgSwd8aBOf+GxVg=
+dep	debian-archive-keyring	debian-archive-keyring
+dep	dpkg	dpkg
+dep	perl	perl
+dep	tar	tar

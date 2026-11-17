@@ -1,0 +1,15 @@
+name	python3-idle
+version	3.14.10-r0
+description	IDE for Python3 using Tkinter
+url	https://wiki.python.org/moin/TkInter
+license	PSF-2.0
+size	1234773
+installed-size	4214082
+depends	python3-tkinter=3.14.10-r0 python3 python3-tests
+origin	python3-tkinter
+repo	main
+file	python3-idle-3.14.10-r0.apk
+checksum	Q11Cgdbk0TZpsomn9ZE6bFi0MIPtE=
+dep	python3-tkinter=3.14.10-r0	python3-tkinter
+dep	python3	python3
+dep	python3-tests	python3-tests

@@ -1,0 +1,15 @@
+name	sane-backend-mustek
+version	1.4.0-r4
+description	SANE backend for Mustek SCSI flatbed scanners (and some other devices)
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	66495
+installed-size	148108
+depends	sane so:libc.musl-armhf.so.1 so:libieee1284.so.3
+origin	sane
+repo	community
+file	sane-backend-mustek-1.4.0-r4.apk
+checksum	Q1UZTd4jZ6A2A8fbANEEmi9oQ1EUQ=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libieee1284.so.3	libieee1284

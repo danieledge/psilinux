@@ -1,0 +1,18 @@
+name	ocaml-happy-eyeballs-dev
+version	0.3.0-r5
+description	Connecting to a remote host via IP version 4 or 6 (development files)
+url	https://github.com/roburio/happy-eyeballs
+license	ISC
+size	152348
+installed-size	361729
+depends	ocaml-happy-eyeballs=0.3.0-r5 ocaml-domain-name-dev ocaml-duration-dev ocaml-fmt-dev ocaml-ipaddr-dev ocaml-logs-dev
+origin	ocaml-happy-eyeballs
+repo	community
+file	ocaml-happy-eyeballs-dev-0.3.0-r5.apk
+checksum	Q1tBdD0CTpeyK32QjG0Fj1JYYo5k0=
+dep	ocaml-happy-eyeballs=0.3.0-r5	ocaml-happy-eyeballs
+dep	ocaml-domain-name-dev	ocaml-domain-name-dev
+dep	ocaml-duration-dev	ocaml-duration-dev
+dep	ocaml-fmt-dev	ocaml-fmt-dev
+dep	ocaml-ipaddr-dev	ocaml-ipaddr-dev
+dep	ocaml-logs-dev	ocaml-logs-dev

@@ -1,0 +1,16 @@
+name	perl-x10
+version	0.04-r6
+description	Perl module for X10
+url	https://metacpan.org/release/X10/
+license	GPL-3.0-only
+size	15479
+installed-size	51594
+depends	perl perl-time-parsedate perl-device-serialport perl-astro-suntime
+origin	perl-x10
+repo	main
+file	perl-x10-0.04-r6.apk
+checksum	Q1WWQ3N1ucQgv5LTqBxLtYmf+auJk=
+dep	perl	perl
+dep	perl-time-parsedate	perl-time-parsedate
+dep	perl-device-serialport	perl-device-serialport
+dep	perl-astro-suntime	perl-astro-suntime

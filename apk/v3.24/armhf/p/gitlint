@@ -1,0 +1,15 @@
+name	gitlint
+version	0.19.1-r3
+description	Linting for your git commit messages
+url	https://github.com/jorisroovers/gitlint
+license	MIT
+size	41153
+installed-size	132328
+depends	py3-arrow py3-click python3~3.14
+origin	gitlint
+repo	community
+file	gitlint-0.19.1-r3.apk
+checksum	Q1ZHQIV8yDM7C5L65+tP+PXHQpWSI=
+dep	py3-arrow	py3-arrow
+dep	py3-click	py3-click
+dep	python3~3.14	python3

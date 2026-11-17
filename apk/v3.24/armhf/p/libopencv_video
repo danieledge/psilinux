@@ -1,0 +1,19 @@
+name	libopencv_video
+version	4.12.0-r7
+description	Open source computer vision and machine learning library (libopencv_video library)
+url	https://opencv.org/
+license	Apache-2.0
+size	178461
+installed-size	412124
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libopencv_calib3d.so.412 so:libopencv_core.so.412 so:libopencv_dnn.so.412 so:libopencv_imgproc.so.412 so:libstdc++.so.6
+origin	opencv
+repo	community
+file	libopencv_video-4.12.0-r7.apk
+checksum	Q1rPpIxRct6k3Ml9jxcHlnK72qvtk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libopencv_calib3d.so.412	libopencv_calib3d
+dep	so:libopencv_core.so.412	libopencv_core
+dep	so:libopencv_dnn.so.412	libopencv_dnn
+dep	so:libopencv_imgproc.so.412	libopencv_imgproc
+dep	so:libstdc++.so.6	libstdc++

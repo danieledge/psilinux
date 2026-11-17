@@ -1,0 +1,14 @@
+name	impala
+version	0.7.4-r0
+description	TUI for managing iwd
+url	https://github.com/pythops/impala
+license	GPL-3.0-or-later
+size	1412108
+installed-size	2825432
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	impala
+repo	community
+file	impala-0.7.4-r0.apk
+checksum	Q1gE0CMTpUgWwNWIieN/L+uRIvx6M=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

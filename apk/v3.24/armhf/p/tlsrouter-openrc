@@ -1,0 +1,12 @@
+name	tlsrouter-openrc
+version	0_git20250222-r7
+description	TLS proxy that routes connections based on SNI (OpenRC init scripts)
+url	https://github.com/inetaf/tcpproxy/tree/master/cmd/tlsrouter
+license	Apache-2.0
+size	1882
+installed-size	346
+depends	
+origin	tlsrouter
+repo	community
+file	tlsrouter-openrc-0_git20250222-r7.apk
+checksum	Q1ifkS/Ew1mA+H3oHNNag9mUlgRu8=

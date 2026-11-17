@@ -1,0 +1,14 @@
+name	font-noto-kannada
+version	2026.11.01-r0
+description	Noto Sans Kannada (UI) and Serif Kannada fonts
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	6330403
+installed-size	14949143
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-kannada-2026.11.01-r0.apk
+checksum	Q1bIUL3kN7m0XahfNvM9mS77j/yeU=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

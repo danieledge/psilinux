@@ -1,0 +1,26 @@
+name	incus-agent-openrc
+version	7.0.1-r2
+description	Incus agent OpenRC scripts
+url	https://github.com/lxc/incus
+license	Apache-2.0
+size	1853
+installed-size	299
+depends	acl attr ca-certificates dbus dnsmasq lxc>=6.0.0 iproute2 netcat-openbsd nftables rsync squashfs-tools shadow-subids tar xz
+origin	incus
+repo	community
+file	incus-agent-openrc-7.0.1-r2.apk
+checksum	Q1qye2NgXUlO9wkxUEfSeI79wkXYI=
+dep	acl	acl
+dep	attr	attr
+dep	ca-certificates	ca-certificates
+dep	dbus	dbus
+dep	dnsmasq	dnsmasq
+dep	lxc>=6.0.0	lxc
+dep	iproute2	iproute2
+dep	netcat-openbsd	netcat-openbsd
+dep	nftables	nftables
+dep	rsync	rsync
+dep	squashfs-tools	squashfs-tools
+dep	shadow-subids	shadow-subids
+dep	tar	tar
+dep	xz	xz

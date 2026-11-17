@@ -1,0 +1,14 @@
+name	pax
+version	20240817-r1
+description	Portable Archive eXchange
+url	https://mbsd.evolvis.org/pax.htm
+license	BSD-3-Clause
+size	58136
+installed-size	116072
+depends	so:libc.musl-armhf.so.1 so:libfts.so.0
+origin	pax
+repo	community
+file	pax-20240817-r1.apk
+checksum	Q1ZQDruYM/f3DemiPDe2nx1I+p7zw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfts.so.0	musl-fts

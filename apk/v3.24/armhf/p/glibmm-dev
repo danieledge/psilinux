@@ -1,0 +1,20 @@
+name	glibmm-dev
+version	2.86.0-r0
+description	C++ wrapper for the GLib toolkit (development files)
+url	https://www.gtkmm.org/
+license	LGPL-2.1-or-later
+size	647345
+installed-size	3517417
+depends	glibmm=2.86.0-r0 pc:gio-2.0>=2.85.2 pc:gio-unix-2.0>=2.85.2 pc:glib-2.0>=2.85.2 pc:gmodule-2.0>=2.85.2 pc:gobject-2.0>=2.85.2 pc:sigc++-3.0>=3.0.0 pkgconfig
+origin	glibmm
+repo	community
+file	glibmm-dev-2.86.0-r0.apk
+checksum	Q1lJ24Ms7PRZE4cNrGsXY9Kv5QBZg=
+dep	glibmm=2.86.0-r0	glibmm
+dep	pc:gio-2.0>=2.85.2	glib-dev
+dep	pc:gio-unix-2.0>=2.85.2	glib-dev
+dep	pc:glib-2.0>=2.85.2	glib-dev
+dep	pc:gmodule-2.0>=2.85.2	glib-dev
+dep	pc:gobject-2.0>=2.85.2	glib-dev
+dep	pc:sigc++-3.0>=3.0.0	libsigc++3-dev
+dep	pkgconfig	pkgconf

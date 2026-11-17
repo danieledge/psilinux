@@ -1,0 +1,15 @@
+name	bitlbee-otr
+version	3.6-r4
+description	An IRC to other chat networks gateway
+url	https://www.bitlbee.org/
+license	GPL-2.0-or-later
+size	17885
+installed-size	38192
+depends	so:libc.musl-armhf.so.1 so:libgcrypt.so.20 so:libotr.so.5
+origin	bitlbee
+repo	community
+file	bitlbee-otr-3.6-r4.apk
+checksum	Q1gzudpqCdCVv6zkMSH9KrCPOG8zw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libotr.so.5	libotr

@@ -1,0 +1,20 @@
+name	geopard
+version	1.7.0-r0
+description	Colorful, adaptive gemini browser
+url	https://ranfdev.com/projects/geopard/
+license	GPL-3.0-or-later
+size	948734
+installed-size	2070494
+depends	so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libpango-1.0.so.0
+origin	geopard
+repo	community
+file	geopard-1.7.0-r0.apk
+checksum	Q1rt9XmSZZhVZ/bXVNrotjrcFsqq8=
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libpango-1.0.so.0	pango

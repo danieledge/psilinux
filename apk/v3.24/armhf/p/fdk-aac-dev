@@ -1,0 +1,14 @@
+name	fdk-aac-dev
+version	2.0.2-r4
+description	Fraunhofer FDK AAC codec library (development files)
+url	https://gitlab.freedesktop.org/wtaymans/fdk-aac-stripped
+license	FDK-AAC
+size	63313
+installed-size	235488
+depends	fdk-aac=2.0.2-r4 pkgconfig
+origin	fdk-aac
+repo	community
+file	fdk-aac-dev-2.0.2-r4.apk
+checksum	Q1OrC68QTQ28vzW0pitbLQEV1/QaA=
+dep	fdk-aac=2.0.2-r4	fdk-aac
+dep	pkgconfig	pkgconf

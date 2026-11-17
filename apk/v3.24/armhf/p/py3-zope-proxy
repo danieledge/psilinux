@@ -1,0 +1,16 @@
+name	py3-zope-proxy
+version	7.1-r1
+description	Generic transparent proxies via a C extension module
+url	https://github.com/zopefoundation/zope.proxy
+license	ZPL-2.1
+size	30550
+installed-size	121522
+depends	py3-setuptools py3-zope-interface python3~3.14 so:libc.musl-armhf.so.1
+origin	py3-zope-proxy
+repo	community
+file	py3-zope-proxy-7.1-r1.apk
+checksum	Q12wa4hDFy562bb8T0jsk1P/Qit0A=
+dep	py3-setuptools	py3-setuptools
+dep	py3-zope-interface	py3-zope-interface
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,18 @@
+name	libphonenumber-dev
+version	9.0.32-r0
+description	Library for parsing, formatting, and validating international phone numbers. (development files)
+url	https://github.com/google/libphonenumber
+license	Apache-2.0
+size	72682
+installed-size	437747
+depends	libphonenumber-static abseil-cpp-dev icu-dev protobuf-dev libgeocoding=9.0.32-r0 libphonenumber=9.0.32-r0
+origin	libphonenumber
+repo	community
+file	libphonenumber-dev-9.0.32-r0.apk
+checksum	Q12RChV4kgBOSTW911dGnJsOgcsO8=
+dep	libphonenumber-static	libphonenumber-static
+dep	abseil-cpp-dev	abseil-cpp-dev
+dep	icu-dev	icu-dev
+dep	protobuf-dev	protobuf-dev
+dep	libgeocoding=9.0.32-r0	libgeocoding
+dep	libphonenumber=9.0.32-r0	libphonenumber

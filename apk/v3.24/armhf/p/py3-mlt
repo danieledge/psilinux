@@ -1,0 +1,18 @@
+name	py3-mlt
+version	7.36.1-r1
+description	MLT Multimedia Framework (Python bindings)
+url	https://www.mltframework.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later AND GPL-3.0-or-later
+size	126321
+installed-size	501091
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libmlt++-7.so.7 so:libmlt-7.so.7 so:libstdc++.so.6
+origin	mlt
+repo	community
+file	py3-mlt-7.36.1-r1.apk
+checksum	Q1jlP1Lrd8TtpPEZiZJNOj8hRrns0=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmlt++-7.so.7	mlt
+dep	so:libmlt-7.so.7	mlt
+dep	so:libstdc++.so.6	libstdc++

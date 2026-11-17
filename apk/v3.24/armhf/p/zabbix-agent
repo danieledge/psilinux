@@ -1,0 +1,19 @@
+name	zabbix-agent
+version	7.4.12-r2
+description	Zabbix Network Monitoring Agent
+url	https://www.zabbix.com/
+license	AGPL-3.0-only
+size	296098
+installed-size	647980
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libpcre2-8.so.0 so:libssl.so.3 so:libz.so.1
+origin	zabbix
+repo	community
+file	zabbix-agent-7.4.12-r2.apk
+checksum	Q1V8dv0oxEQ1pyUBZ7hKNeEKn19L0=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libssl.so.3	libssl3
+dep	so:libz.so.1	zlib

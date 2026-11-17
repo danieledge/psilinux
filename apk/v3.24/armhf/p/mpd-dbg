@@ -1,0 +1,12 @@
+name	mpd-dbg
+version	0.24.19-r0
+description	Music daemon that plays MP3, FLAC, Ogg Vorbis files and Audio CDs (debug symbols)
+url	https://musicpd.org/
+license	GPL-2.0-or-later
+size	18918312
+installed-size	43755504
+depends	!mpd<0.24.19-r0 !mpd>0.24.19-r0
+origin	mpd
+repo	community
+file	mpd-dbg-0.24.19-r0.apk
+checksum	Q1cLO7AKdsgZotjzrnzmuRLwuadHg=

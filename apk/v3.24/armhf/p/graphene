@@ -1,0 +1,15 @@
+name	graphene
+version	1.10.8-r5
+description	A thin layer of graphic data types
+url	http://ebassi.github.io/graphene/
+license	MIT
+size	51196
+installed-size	138360
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	graphene
+repo	main
+file	graphene-1.10.8-r5.apk
+checksum	Q1DOH8IZ5o0PGxRcuEYopYvRnhEK0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

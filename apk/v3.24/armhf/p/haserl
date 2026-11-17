@@ -1,0 +1,17 @@
+name	haserl
+version	0.9.36-r4
+description	Html And Shell Embedded Report Language
+url	https://haserl.sourceforge.net/
+license	GPL-2.0-only
+size	1579
+installed-size	1
+depends	haserl-lua5.4 haserl-lua5.3 haserl-lua5.2 haserl-lua5.1 haserl-lua5.4=0.9.36-r4
+origin	haserl
+repo	main
+file	haserl-0.9.36-r4.apk
+checksum	Q10oQqd2iTOjFs27FN+xzKvlSWok8=
+dep	haserl-lua5.4	haserl-lua5.4
+dep	haserl-lua5.3	haserl-lua5.3
+dep	haserl-lua5.2	haserl-lua5.2
+dep	haserl-lua5.1	haserl-lua5.1
+dep	haserl-lua5.4=0.9.36-r4	haserl-lua5.4

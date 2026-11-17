@@ -1,0 +1,32 @@
+name	qt6-qtmultimedia-gstreamer
+version	6.11.1-r0
+description	Classes for audio, video, radio and camera functionality (gstreamer plugin)
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	192932
+installed-size	457436
+depends	so:libEGL.so.1 so:libGLESv2.so.2 so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Multimedia.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstallocators-1.0.so.0 so:libgstapp-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstgl-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstphotography-1.0.so.0 so:libgstplay-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libpulse.so.0 so:libstdc++.so.6
+origin	qt6-qtmultimedia
+repo	community
+file	qt6-qtmultimedia-gstreamer-6.11.1-r0.apk
+checksum	Q1oIMW6Q32AAZ2mco6DRi1J2P4KjI=
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libGLESv2.so.2	mesa-gles
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Multimedia.so.6	qt6-qtmultimedia
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstallocators-1.0.so.0	gst-plugins-base
+dep	so:libgstapp-1.0.so.0	gst-plugins-base
+dep	so:libgstbase-1.0.so.0	gstreamer
+dep	so:libgstgl-1.0.so.0	gst-plugins-base
+dep	so:libgstpbutils-1.0.so.0	gst-plugins-base
+dep	so:libgstphotography-1.0.so.0	gst-plugins-bad
+dep	so:libgstplay-1.0.so.0	gst-plugins-bad
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base
+dep	so:libpulse.so.0	libpulse
+dep	so:libstdc++.so.6	libstdc++

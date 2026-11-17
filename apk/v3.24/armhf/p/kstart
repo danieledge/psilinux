@@ -1,0 +1,14 @@
+name	kstart
+version	4.3-r1
+description	Port of kinit for automated refreshing of service kerberos tickets
+url	https://www.eyrie.org/~eagle/software/kstart/
+license	custom
+size	17721
+installed-size	51824
+depends	so:libc.musl-armhf.so.1 so:libkrb5.so.3
+origin	kstart
+repo	community
+file	kstart-4.3-r1.apk
+checksum	Q1PSTOWxnhT4G+Av5lvSe7RgQ723s=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libkrb5.so.3	krb5-libs

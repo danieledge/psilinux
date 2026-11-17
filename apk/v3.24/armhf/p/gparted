@@ -1,0 +1,30 @@
+name	gparted
+version	1.8.1-r0
+description	graphical partition editor for creating, reorganizing, and deleting disk partitions
+url	https://gparted.sourceforge.net/
+license	GPL-2.0-or-later
+size	418566
+installed-size	1088865
+depends	e2fsprogs so:libatkmm-1.6.so.1 so:libc.musl-armhf.so.1 so:libcairomm-1.0.so.1 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgdkmm-3.0.so.1 so:libglib-2.0.so.0 so:libglibmm-2.4.so.1 so:libgtk-3.so.0 so:libgtkmm-3.0.so.1 so:libintl.so.8 so:libpangomm-1.4.so.1 so:libparted-fs-resize.so.0 so:libparted.so.2 so:libsigc-2.0.so.0 so:libstdc++.so.6 so:libuuid.so.1
+origin	gparted
+repo	community
+file	gparted-1.8.1-r0.apk
+checksum	Q13J/ab03u39t0MxWslgLcsYsWHHA=
+dep	e2fsprogs	e2fsprogs
+dep	so:libatkmm-1.6.so.1	atkmm2.28
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairomm-1.0.so.1	cairomm1.14
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdkmm-3.0.so.1	gtkmm3
+dep	so:libglib-2.0.so.0	glib
+dep	so:libglibmm-2.4.so.1	glibmm2.66
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtkmm-3.0.so.1	gtkmm3
+dep	so:libintl.so.8	libintl
+dep	so:libpangomm-1.4.so.1	pangomm2.46
+dep	so:libparted-fs-resize.so.0	parted
+dep	so:libparted.so.2	parted
+dep	so:libsigc-2.0.so.0	libsigc++
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libuuid.so.1	libuuid

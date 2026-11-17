@@ -1,0 +1,14 @@
+name	clustershell
+version	1.9.3-r1
+description	Scalable cluster administration Python framework
+url	https://clustershell.readthedocs.io/en/latest/
+license	LGPL-2.1-or-later
+size	6294
+installed-size	10015
+depends	py3-yaml py3-clustershell=1.9.3-r1
+origin	clustershell
+repo	community
+file	clustershell-1.9.3-r1.apk
+checksum	Q1eAtR+3sxIHPpBJbMmZw65bABgoM=
+dep	py3-yaml	py3-yaml
+dep	py3-clustershell=1.9.3-r1	py3-clustershell

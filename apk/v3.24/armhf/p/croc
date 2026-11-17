@@ -1,0 +1,13 @@
+name	croc
+version	10.2.2-r12
+description	Easily and securely send things from one computer to another
+url	https://github.com/schollz/croc
+license	MIT
+size	4388826
+installed-size	11100660
+depends	so:libc.musl-armhf.so.1
+origin	croc
+repo	community
+file	croc-10.2.2-r12.apk
+checksum	Q1kBo61vMc/3fAU+WKfh/qz9lvUk4=
+dep	so:libc.musl-armhf.so.1	musl

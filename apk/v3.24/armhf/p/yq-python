@@ -1,0 +1,18 @@
+name	yq-python
+version	3.2.3-r1
+description	jq wrapper for YAML/XML/TOML documents
+url	https://github.com/kislyuk/yq
+license	Apache-2.0
+size	18747
+installed-size	52831
+depends	!yq-go jq py3-pyaml py3-xmltodict py3-tomlkit py3-argcomplete python3~3.14
+origin	yq-python
+repo	community
+file	yq-python-3.2.3-r1.apk
+checksum	Q1LIghJtJQXSiMq6UpXTA7qiePn9M=
+dep	jq	jq
+dep	py3-pyaml	py3-pyaml
+dep	py3-xmltodict	py3-xmltodict
+dep	py3-tomlkit	py3-tomlkit
+dep	py3-argcomplete	py3-argcomplete
+dep	python3~3.14	python3

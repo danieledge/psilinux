@@ -1,0 +1,18 @@
+name	libmediaart
+version	1.9.7-r1
+description	Media art extraction and cache management library
+url	https://gitlab.gnome.org/GNOME/libmediaart
+license	LGPL-2.1-or-later
+size	17742
+installed-size	38608
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libglycin-2.so.0 so:libgobject-2.0.so.0 so:libintl.so.8
+origin	libmediaart
+repo	community
+file	libmediaart-1.9.7-r1.apk
+checksum	Q19dRTHz3iFXDl1lEGlBWnGLrrUGg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libglycin-2.so.0	libglycin
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl

@@ -1,0 +1,14 @@
+name	mandoc-apropos
+version	1.14.6-r15
+description	makewhatis/whatis and apropos tools and index
+url	https://mandoc.bsd.lv/
+license	ISC
+size	1927
+installed-size	1
+depends	/bin/sh mandoc=1.14.6-r15
+origin	mandoc
+repo	main
+file	mandoc-apropos-1.14.6-r15.apk
+checksum	Q1foZZrpaE+mV/xkhAhU0ewJiFwQs=
+dep	/bin/sh	busybox-binsh
+dep	mandoc=1.14.6-r15	mandoc

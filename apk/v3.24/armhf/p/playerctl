@@ -1,0 +1,16 @@
+name	playerctl
+version	2.4.1-r3
+description	MPRIS command-line controller for music players
+url	https://github.com/altdesktop/playerctl
+license	LGPL-3.0-or-later
+size	80124
+installed-size	227116
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	playerctl
+repo	community
+file	playerctl-2.4.1-r3.apk
+checksum	Q1xukF0IwJj6kVVPTLT1479X72CQg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

@@ -1,0 +1,15 @@
+name	py3-html-text
+version	0.7.1-r2
+description	Extract text from HTML
+url	https://pypi.python.org/project/html-text
+license	MIT
+size	7785
+installed-size	15753
+depends	py3-lxml py3-lxml-html-clean python3~3.14
+origin	py3-html-text
+repo	community
+file	py3-html-text-0.7.1-r2.apk
+checksum	Q1jxjM+hynUfojwEU9QNREw58BMzg=
+dep	py3-lxml	py3-lxml
+dep	py3-lxml-html-clean	py3-lxml-html-clean
+dep	python3~3.14	python3

@@ -1,0 +1,17 @@
+name	callaudiocli
+version	0.1.99-r0
+description	CLI for callaudiod
+url	https://gitlab.com/mobian1/callaudiod
+license	GPL-3.0-or-later
+size	12940
+installed-size	30028
+depends	so:libc.musl-armhf.so.1 so:libcallaudio-0.1.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	callaudiod
+repo	community
+file	callaudiocli-0.1.99-r0.apk
+checksum	Q1o7lvCxTw+Wh9aLseTtfmEa7C5PM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcallaudio-0.1.so.0	callaudiod-libs
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

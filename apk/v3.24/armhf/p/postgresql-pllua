@@ -1,0 +1,15 @@
+name	postgresql-pllua
+version	2.0.12-r3
+description	Procedural language for PostgreSQL using Lua
+url	https://github.com/RhodiumToad/pllua-ng
+license	MIT
+size	405325
+installed-size	768202
+depends	postgresql18 so:libc.musl-armhf.so.1 so:libluajit-5.1.so.2
+origin	postgresql-pllua
+repo	community
+file	postgresql-pllua-2.0.12-r3.apk
+checksum	Q1nqOzRLZfE6RQ0J2E/ReTfDj90hQ=
+dep	postgresql18	postgresql18
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libluajit-5.1.so.2	luajit

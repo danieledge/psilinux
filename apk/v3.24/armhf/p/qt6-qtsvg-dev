@@ -1,0 +1,18 @@
+name	qt6-qtsvg-dev
+version	6.11.1-r0
+description	Classes for displaying the contents of SVG files (development files)
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	54069
+installed-size	248277
+depends	vulkan-headers qt6-qtsvg=6.11.1-r0 pc:Qt6Core pc:Qt6Gui pc:Qt6Widgets pkgconfig
+origin	qt6-qtsvg
+repo	community
+file	qt6-qtsvg-dev-6.11.1-r0.apk
+checksum	Q1w/Fyp+2ONchlxqoaA2RQk/jdTyg=
+dep	vulkan-headers	vulkan-headers
+dep	qt6-qtsvg=6.11.1-r0	qt6-qtsvg
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pc:Qt6Gui	qt6-qtbase-dev
+dep	pc:Qt6Widgets	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,22 @@
+name	xarchiver
+version	0.5.4.26-r0
+description	GTK+ frontend to various command line archivers
+url	https://github.com/ib/xarchiver
+license	GPL-2.0-or-later
+size	142162
+installed-size	307147
+depends	desktop-file-utils hicolor-icon-theme tar so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8
+origin	xarchiver
+repo	community
+file	xarchiver-0.5.4.26-r0.apk
+checksum	Q1u1/7RRNtYIE5DjiDVUe06aP0CUY=
+dep	desktop-file-utils	desktop-file-utils
+dep	hicolor-icon-theme	hicolor-icon-theme
+dep	tar	tar
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl

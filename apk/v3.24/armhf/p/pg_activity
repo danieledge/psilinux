@@ -1,0 +1,19 @@
+name	pg_activity
+version	3.6.1-r2
+description	Top like application for PostgreSQL server activity monitoring
+url	https://github.com/dalibo/pg_activity
+license	PostgreSQL
+size	56928
+installed-size	226602
+depends	py3-attrs py3-blessed py3-humanize py3-psutil py3-psycopg2 python3 python3~3.14
+origin	pg_activity
+repo	community
+file	pg_activity-3.6.1-r2.apk
+checksum	Q1Liq7cunjafaNlZUHtiCGBZiLM44=
+dep	py3-attrs	py3-attrs
+dep	py3-blessed	py3-blessed
+dep	py3-humanize	py3-humanize
+dep	py3-psutil	py3-psutil
+dep	py3-psycopg2	py3-psycopg2
+dep	python3	python3
+dep	python3~3.14	python3

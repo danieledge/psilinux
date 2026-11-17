@@ -1,0 +1,14 @@
+name	libdvbpsi-dev
+version	1.3.3-r1
+description	A library decoding and generating MPEG TS and DVB PSI tables (development files)
+url	http://www.videolan.org/developers/libdvbpsi.html
+license	LGPL-2.1-or-later
+size	51452
+installed-size	432103
+depends	libdvbpsi=1.3.3-r1 pkgconfig
+origin	libdvbpsi
+repo	community
+file	libdvbpsi-dev-1.3.3-r1.apk
+checksum	Q12j/CRdC+/IrJUlFTkE6KrRepYjs=
+dep	libdvbpsi=1.3.3-r1	libdvbpsi
+dep	pkgconfig	pkgconf

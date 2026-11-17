@@ -1,0 +1,15 @@
+name	uwsgi-emperor_zeromq
+version	2.0.31-r2
+description	uWSGI plugin emperor_zeromq
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	4700
+installed-size	9540
+depends	uwsgi so:libc.musl-armhf.so.1 so:libzmq.so.5
+origin	uwsgi
+repo	main
+file	uwsgi-emperor_zeromq-2.0.31-r2.apk
+checksum	Q1bPEXZxkKIs1JlFKprBUN5d7759M=
+dep	uwsgi	uwsgi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libzmq.so.5	libzmq

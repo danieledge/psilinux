@@ -1,0 +1,17 @@
+name	ocaml-ppxlib-dev
+version	0.32.0-r3
+description	Standard library for ppx rewriters (development files)
+url	https://github.com/ocaml-ppx/ppxlib
+license	MIT
+size	16894815
+installed-size	46441473
+depends	ocaml-ppxlib=0.32.0-r3 ocaml-compiler-libs-repackaged-dev ocaml-ppx_derivers-dev ocaml-sexplib0-dev ocaml-stdlib-shims
+origin	ocaml-ppxlib
+repo	community
+file	ocaml-ppxlib-dev-0.32.0-r3.apk
+checksum	Q1ftcrCS3gMJc1EBHP9fm0LWYfXj4=
+dep	ocaml-ppxlib=0.32.0-r3	ocaml-ppxlib
+dep	ocaml-compiler-libs-repackaged-dev	ocaml-compiler-libs-repackaged-dev
+dep	ocaml-ppx_derivers-dev	ocaml-ppx_derivers-dev
+dep	ocaml-sexplib0-dev	ocaml-sexplib0-dev
+dep	ocaml-stdlib-shims	ocaml-stdlib-shims

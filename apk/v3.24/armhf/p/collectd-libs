@@ -1,0 +1,14 @@
+name	collectd-libs
+version	5.12.0-r25
+description	The system statistics collection daemon (libraries)
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	17389
+installed-size	34020
+depends	so:libc.musl-armhf.so.1 so:libgcrypt.so.20
+origin	collectd
+repo	community
+file	collectd-libs-5.12.0-r25.apk
+checksum	Q1W9z4IVeCjdNCri0wKKY+l6eqVIM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcrypt.so.20	libgcrypt

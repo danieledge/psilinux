@@ -1,0 +1,16 @@
+name	tinycompress-fcplay
+version	1.2.13-r3
+description	Userspace library for ALSA compressed APIs (fcplay tool)
+url	https://alsa-project.org/
+license	LGPL-2.1-only
+size	7127
+installed-size	13644
+depends	so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libtinycompress.so.0
+origin	tinycompress
+repo	community
+file	tinycompress-fcplay-1.2.13-r3.apk
+checksum	Q1EHGtNjylIaCzqfR7+ppmsLTU61Q=
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libtinycompress.so.0	tinycompress

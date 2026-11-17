@@ -1,0 +1,15 @@
+name	freeradius-redis
+version	3.0.27-r3
+description	Redis modules for FreeRADIUS server
+url	https://freeradius.org/
+license	GPL-2.0-or-later
+size	10592
+installed-size	24434
+depends	freeradius=3.0.27-r3 so:libc.musl-armhf.so.1 so:libhiredis.so.1.3.0
+origin	freeradius
+repo	main
+file	freeradius-redis-3.0.27-r3.apk
+checksum	Q1mDnqZpn1QooRuHVbcRUNk7ECLHE=
+dep	freeradius=3.0.27-r3	freeradius
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libhiredis.so.1.3.0	hiredis

@@ -1,0 +1,14 @@
+name	ocaml-hex-dev
+version	1.5.0-r5
+description	Library providing hexadecimal converters (development files)
+url	https://github.com/mirage/ocaml-hex
+license	ISC
+size	54614
+installed-size	128276
+depends	ocaml-hex=1.5.0-r5 ocaml-cstruct-dev
+origin	ocaml-hex
+repo	community
+file	ocaml-hex-dev-1.5.0-r5.apk
+checksum	Q1z7OYmOFyBx9+UApdg61F6U8huKk=
+dep	ocaml-hex=1.5.0-r5	ocaml-hex
+dep	ocaml-cstruct-dev	ocaml-cstruct-dev

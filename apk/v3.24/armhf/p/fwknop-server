@@ -1,0 +1,16 @@
+name	fwknop-server
+version	2.6.11-r2
+description	Single Packet Authorization (SPA) server
+url	https://cipherdyne.org/fwknop/
+license	GPL-2.0-or-later
+size	59637
+installed-size	144767
+depends	iptables so:libc.musl-armhf.so.1 so:libfko.so.3 so:libpcap.so.1
+origin	fwknop
+repo	community
+file	fwknop-server-2.6.11-r2.apk
+checksum	Q1Bq/PTu4IaB+IKKP41WCaxA7XhWM=
+dep	iptables	iptables
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfko.so.3	fwknop-libs
+dep	so:libpcap.so.1	libpcap

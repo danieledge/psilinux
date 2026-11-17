@@ -1,0 +1,23 @@
+name	zulip-term
+version	0.7.0_git20260127-r0
+description	official terminal client for Zulip
+url	https://github.com/zulip/zulip-terminal
+license	Apache-2.0
+size	162774
+installed-size	668134
+depends	py3-beautifulsoup4 py3-dateutil py3-lxml py3-pygments py3-pyperclip py3-tz py3-tzlocal py3-urwid py3-urwid_readline py3-zulip python3~3.14
+origin	zulip-term
+repo	community
+file	zulip-term-0.7.0_git20260127-r0.apk
+checksum	Q1H5436nltHfIN9Ci98/5qgJX7+q0=
+dep	py3-beautifulsoup4	py3-beautifulsoup4
+dep	py3-dateutil	py3-dateutil
+dep	py3-lxml	py3-lxml
+dep	py3-pygments	py3-pygments
+dep	py3-pyperclip	py3-pyperclip
+dep	py3-tz	py3-tz
+dep	py3-tzlocal	py3-tzlocal
+dep	py3-urwid	py3-urwid
+dep	py3-urwid_readline	py3-urwid_readline
+dep	py3-zulip	py3-zulip
+dep	python3~3.14	python3

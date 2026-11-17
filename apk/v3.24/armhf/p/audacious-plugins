@@ -1,0 +1,60 @@
+name	audacious-plugins
+version	4.5.1-r0
+description	A playlist-oriented media player with multiple interfaces (plugins)
+url	https://audacious-media-player.org/
+license	BSD-2-Clause AND BSD-3-Clause AND ISC AND GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-only AND GPL-3.0-or-later
+size	1087597
+installed-size	2551169
+depends	audacious so:libFLAC.so.12 so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Widgets.so.6 so:libSDL2-2.0.so.0 so:libX11.so.6 so:libasound.so.2 so:libaudcore.so.5 so:libaudqt.so.3 so:libaudtag.so.3 so:libavcodec.so.62 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libcddb.so.2 so:libcdio.so.19 so:libcdio_cdda.so.2 so:libcue.so.2 so:libcurl.so.4 so:libfaad.so.2 so:libfluidsynth.so.3 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libjack.so.0 so:libmms.so.0 so:libmp3lame.so.0 so:libmpg123.so.0 so:libneon.so.27 so:libnotify.so.4 so:libogg.so.0 so:libopenmpt.so.0 so:libopusfile.so.0 so:libpipewire-0.3.so.0 so:libpulse.so.0 so:libsamplerate.so.0 so:libsndfile.so.1 so:libstdc++.so.6 so:libvorbis.so.0 so:libvorbisenc.so.2 so:libvorbisfile.so.3 so:libwavpack.so.1 so:libxml2.so.2 so:libz.so.1
+origin	audacious-plugins
+repo	community
+file	audacious-plugins-4.5.1-r0.apk
+checksum	Q1ykEqaMN3T3DYcVUXPsRrUSkIays=
+dep	audacious	audacious
+dep	so:libFLAC.so.12	libflac
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libX11.so.6	libx11
+dep	so:libasound.so.2	alsa-lib
+dep	so:libaudcore.so.5	audacious
+dep	so:libaudqt.so.3	audacious
+dep	so:libaudtag.so.3	audacious
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcddb.so.2	libcddb
+dep	so:libcdio.so.19	libcdio
+dep	so:libcdio_cdda.so.2	libcdio-paranoia
+dep	so:libcue.so.2	libcue
+dep	so:libcurl.so.4	libcurl
+dep	so:libfaad.so.2	faad2-libs
+dep	so:libfluidsynth.so.3	fluidsynth-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libjack.so.0	jack
+dep	so:libmms.so.0	libmms
+dep	so:libmp3lame.so.0	lame-libs
+dep	so:libmpg123.so.0	mpg123-libs
+dep	so:libneon.so.27	neon
+dep	so:libnotify.so.4	libnotify
+dep	so:libogg.so.0	libogg
+dep	so:libopenmpt.so.0	libopenmpt
+dep	so:libopusfile.so.0	opusfile
+dep	so:libpipewire-0.3.so.0	pipewire-libs
+dep	so:libpulse.so.0	libpulse
+dep	so:libsamplerate.so.0	libsamplerate
+dep	so:libsndfile.so.1	libsndfile
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libvorbis.so.0	libvorbis
+dep	so:libvorbisenc.so.2	libvorbis
+dep	so:libvorbisfile.so.3	libvorbis
+dep	so:libwavpack.so.1	wavpack-libs
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

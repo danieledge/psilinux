@@ -1,0 +1,15 @@
+name	diffsitter
+version	0.9.0-r0
+description	A tree-sitter based AST difftool to get meaningful semantic diffs
+url	https://github.com/afnanenayet/diffsitter
+license	MIT
+size	555264
+installed-size	1086264
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	diffsitter
+repo	community
+file	diffsitter-0.9.0-r0.apk
+checksum	Q1JOcOKAESNfbZz5mf2IAP11gfIHk=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

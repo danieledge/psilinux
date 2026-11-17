@@ -1,0 +1,14 @@
+name	libcue-dev
+version	2.3.0-r0
+description	Library for parsing CUE sheet files (development files)
+url	https://github.com/lipnitsk/libcue
+license	GPL-2.0-or-later
+size	3637
+installed-size	4734
+depends	libcue=2.3.0-r0 pkgconfig
+origin	libcue
+repo	community
+file	libcue-dev-2.3.0-r0.apk
+checksum	Q1WWP0g151A/P2Y+CCjiBbr9yp+6A=
+dep	libcue=2.3.0-r0	libcue
+dep	pkgconfig	pkgconf

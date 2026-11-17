@@ -1,0 +1,20 @@
+name	xclock
+version	1.1.1-r0
+description	Clock for the X Window System
+url	https://www.x.org/
+license	MIT
+size	17589
+installed-size	31945
+depends	so:libX11.so.6 so:libXaw.so.7 so:libXft.so.2 so:libXmu.so.6 so:libXrender.so.1 so:libXt.so.6 so:libc.musl-armhf.so.1 so:libxkbfile.so.1
+origin	xclock
+repo	community
+file	xclock-1.1.1-r0.apk
+checksum	Q1t0ePNIzRZVKTBB1SSXqnB2oQsHk=
+dep	so:libX11.so.6	libx11
+dep	so:libXaw.so.7	libxaw
+dep	so:libXft.so.2	libxft
+dep	so:libXmu.so.6	libxmu
+dep	so:libXrender.so.1	libxrender
+dep	so:libXt.so.6	libxt
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxkbfile.so.1	libxkbfile

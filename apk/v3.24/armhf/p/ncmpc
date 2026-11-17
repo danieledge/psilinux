@@ -1,0 +1,21 @@
+name	ncmpc
+version	0.52-r0
+description	Ncurses client for the Music Player Daemon (MPD)
+url	https://www.musicpd.org/clients/ncmpc
+license	GPL-2.0-or-later
+size	139754
+installed-size	312819
+depends	so:libc.musl-armhf.so.1 so:libfmt.so.11 so:libgcc_s.so.1 so:libintl.so.8 so:liblirc_client.so.0 so:libmpdclient.so.2 so:libncursesw.so.6 so:libpcre2-8.so.0 so:libstdc++.so.6
+origin	ncmpc
+repo	community
+file	ncmpc-0.52-r0.apk
+checksum	Q1OaEbmbLxYGv9aTDjsvvHYiMPvQA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfmt.so.11	fmt
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libintl.so.8	libintl
+dep	so:liblirc_client.so.0	lirc
+dep	so:libmpdclient.so.2	libmpdclient
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libstdc++.so.6	libstdc++

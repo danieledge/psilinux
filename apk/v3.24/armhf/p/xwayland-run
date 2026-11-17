@@ -1,0 +1,17 @@
+name	xwayland-run
+version	0.0.6-r0
+description	A set of small utilities revolving around running XWayland and warious Wayland compositors headless
+url	https://gitlab.freedesktop.org/ofourdan/xwayland-run
+license	GPL-2.0-or-later
+size	8344
+installed-size	36046
+depends	weston-backend-headless weston-shell-desktop xauth xwayland python3~3.14
+origin	xwayland-run
+repo	community
+file	xwayland-run-0.0.6-r0.apk
+checksum	Q13HW1z/qpVhZ2n6d93nNDkPnsvzM=
+dep	weston-backend-headless	weston-backend-headless
+dep	weston-shell-desktop	weston-shell-desktop
+dep	xauth	xauth
+dep	xwayland	xwayland
+dep	python3~3.14	python3

@@ -1,0 +1,33 @@
+name	py3-dnsrobocert
+version	3.26.1-r1
+description	A tool to manage your DNS-challenged TLS certificates
+url	https://dnsrobocert.readthedocs.io/en/latest/
+license	MIT
+size	20250
+installed-size	63051
+depends	certbot py3-acme py3-boto3 py3-cffi py3-cryptography py3-colorama py3-coloredlogs py3-dnspython py3-dns-lexicon py3-jsonschema py3-localzone py3-lxml py3-openssl py3-pem py3-schedule py3-softlayer py3-softlayer-zeep py3-tldextract py3-xmltodict py3-yaml python3~3.14
+origin	py3-dnsrobocert
+repo	community
+file	py3-dnsrobocert-3.26.1-r1.apk
+checksum	Q1qEm+VsqC2A49R/Zust6AFZfbJeA=
+dep	certbot	certbot
+dep	py3-acme	py3-acme
+dep	py3-boto3	py3-boto3
+dep	py3-cffi	py3-cffi
+dep	py3-cryptography	py3-cryptography
+dep	py3-colorama	py3-colorama
+dep	py3-coloredlogs	py3-coloredlogs
+dep	py3-dnspython	py3-dnspython
+dep	py3-dns-lexicon	py3-dns-lexicon
+dep	py3-jsonschema	py3-jsonschema
+dep	py3-localzone	py3-localzone
+dep	py3-lxml	py3-lxml
+dep	py3-openssl	py3-openssl
+dep	py3-pem	py3-pem
+dep	py3-schedule	py3-schedule
+dep	py3-softlayer	py3-softlayer
+dep	py3-softlayer-zeep	py3-softlayer-zeep
+dep	py3-tldextract	py3-tldextract
+dep	py3-xmltodict	py3-xmltodict
+dep	py3-yaml	py3-yaml
+dep	python3~3.14	python3

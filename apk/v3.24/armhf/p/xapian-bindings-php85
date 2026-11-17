@@ -1,0 +1,16 @@
+name	xapian-bindings-php85
+version	2.0.0-r0
+description	PHP8 bindings for the Xapian search engine library
+url	http://www.xapian.org
+license	GPL-2.0-or-later
+size	146402
+installed-size	495177
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libxapian.so.45
+origin	xapian-bindings
+repo	community
+file	xapian-bindings-php85-2.0.0-r0.apk
+checksum	Q16CbCW6iCuHupcZL0XOiHG2BJIl8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxapian.so.45	libxapian

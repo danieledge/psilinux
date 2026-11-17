@@ -1,0 +1,15 @@
+name	gitolite
+version	3.6.14-r0
+description	Centralized git server, with very fine-grained access control and many powerful features
+url	https://github.com/sitaramc/gitolite
+license	GPL-2.0-only
+size	110057
+installed-size	308271
+depends	git perl /bin/sh
+origin	gitolite
+repo	main
+file	gitolite-3.6.14-r0.apk
+checksum	Q1tkpY/uyh+xiRoXJB84giZH4v24Y=
+dep	git	git
+dep	perl	perl
+dep	/bin/sh	busybox-binsh

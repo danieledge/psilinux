@@ -1,0 +1,14 @@
+name	busctl
+version	255.24-r0
+description	tool for monitoring and introspecting the D-Bus bus
+url	https://github.com/elogind/elogind
+license	GPL-2.0-or-later LGPL-2.1-or-later
+size	34425
+installed-size	75184
+depends	so:libc.musl-armhf.so.1 so:libelogind-shared-255.24.so
+origin	elogind
+repo	community
+file	busctl-255.24-r0.apk
+checksum	Q1C8550cIi+TUHT5NXmsYbOr8EBTQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libelogind-shared-255.24.so	elogind-common

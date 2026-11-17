@@ -1,0 +1,14 @@
+name	gammu-dev
+version	1.42.0-r1
+description	Gammu provides an abstraction layer for cell phones access (development files)
+url	https://wammu.eu/
+license	GPL-2.0-or-later
+size	48229
+installed-size	194595
+depends	gammu-libs=1.42.0-r1 pkgconfig
+origin	gammu
+repo	community
+file	gammu-dev-1.42.0-r1.apk
+checksum	Q19e6yI2RDclV4xhp1mDBHUpAcVoE=
+dep	gammu-libs=1.42.0-r1	gammu-libs
+dep	pkgconfig	pkgconf

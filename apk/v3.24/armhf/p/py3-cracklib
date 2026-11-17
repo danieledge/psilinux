@@ -1,0 +1,15 @@
+name	py3-cracklib
+version	2.10.3-r1
+description	Library used to enforce strong passwords (python module)
+url	https://github.com/cracklib/cracklib
+license	LGPL-2.1-or-later
+size	6466
+installed-size	12743
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libcrack.so.2
+origin	cracklib
+repo	main
+file	py3-cracklib-2.10.3-r1.apk
+checksum	Q1V8Cf75IVy7t7OyeonxrdVKDxaws=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrack.so.2	cracklib

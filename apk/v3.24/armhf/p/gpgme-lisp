@@ -1,0 +1,16 @@
+name	gpgme-lisp
+version	2.0.1-r1
+description	Common Lisp bindings for GPGME
+url	https://www.gnupg.org/related_software/gpgme/
+license	LGPL-2.1-or-later AND GPL-3.0-or-later
+size	16792
+installed-size	67401
+depends	gpg gpg-agent gpgsm gpgme=2.0.1-r1
+origin	gpgme
+repo	community
+file	gpgme-lisp-2.0.1-r1.apk
+checksum	Q1G1Lzblsk8hjdkZW1Llggy86q3vQ=
+dep	gpg	gpg
+dep	gpg-agent	gpg-agent
+dep	gpgsm	gpgsm
+dep	gpgme=2.0.1-r1	gpgme

@@ -1,0 +1,14 @@
+name	usb-modeswitch
+version	2.6.1-r5
+description	A mode switching tool for controlling flip flop (multiple device) USB gear
+url	https://www.draisberghof.de/usb_modeswitch/
+license	GPL-2.0-or-later
+size	70800
+installed-size	141626
+depends	so:libc.musl-armhf.so.1 so:libusb-1.0.so.0
+origin	usb-modeswitch
+repo	main
+file	usb-modeswitch-2.6.1-r5.apk
+checksum	Q1zs9f64A+9kAH3ogANQm0g2KUBds=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb

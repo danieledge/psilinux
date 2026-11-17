@@ -1,0 +1,14 @@
+name	libevdev-tools
+version	1.13.6-r0
+description	Kernel Evdev Device Wrapper Library (tools)
+url	https://www.freedesktop.org/wiki/Software/libevdev
+license	MIT
+size	12375
+installed-size	32844
+depends	so:libc.musl-armhf.so.1 so:libevdev.so.2
+origin	libevdev
+repo	community
+file	libevdev-tools-1.13.6-r0.apk
+checksum	Q1nhBZ+WTfkf64NkeJ3f2n2yzN2cU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevdev.so.2	libevdev

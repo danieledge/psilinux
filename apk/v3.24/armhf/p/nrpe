@@ -1,0 +1,16 @@
+name	nrpe
+version	4.1.1-r0
+description	NRPE allows you to remotely execute Nagios plugins on other Linux/Unix machines.
+url	https://www.nagios.org/downloads/nagios-core-addons/
+license	GPL-2.0-or-later
+size	34725
+installed-size	73990
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	nrpe
+repo	main
+file	nrpe-4.1.1-r0.apk
+checksum	Q1KtHeFkyUujItkaiTsPrCAKBtcDA=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

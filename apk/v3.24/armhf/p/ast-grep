@@ -1,0 +1,14 @@
+name	ast-grep
+version	0.28.1-r0
+description	A CLI tool for code structural search, lint and rewriting
+url	https://github.com/ast-grep/ast-grep
+license	MIT
+size	3982679
+installed-size	21381804
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	ast-grep
+repo	community
+file	ast-grep-0.28.1-r0.apk
+checksum	Q1EX+ap4S0p6cj2qF3Up5mhoXpmxY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

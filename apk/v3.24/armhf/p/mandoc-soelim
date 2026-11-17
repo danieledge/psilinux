@@ -1,0 +1,13 @@
+name	mandoc-soelim
+version	1.14.6-r15
+description	so elimination tool
+url	https://mandoc.bsd.lv/
+license	ISC
+size	4670
+installed-size	9388
+depends	so:libc.musl-armhf.so.1
+origin	mandoc
+repo	main
+file	mandoc-soelim-1.14.6-r15.apk
+checksum	Q1ktWor3Z8btzJY21DDjzBOfk/sAk=
+dep	so:libc.musl-armhf.so.1	musl

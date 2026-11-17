@@ -1,0 +1,17 @@
+name	gpg-wks-server
+version	2.4.9-r1
+description	GNU Privacy Guard 2 - Web Key Service server
+url	https://www.gnupg.org/
+license	GPL-3.0-or-later
+size	71171
+installed-size	141100
+depends	gpg=2.4.9-r1 gpg-agent=2.4.9-r1 so:libc.musl-armhf.so.1 so:libgcrypt.so.20 so:libgpg-error.so.0
+origin	gnupg
+repo	main
+file	gpg-wks-server-2.4.9-r1.apk
+checksum	Q1cXW6yzVEDjsfoGIUqw/HD5/n3io=
+dep	gpg=2.4.9-r1	gpg
+dep	gpg-agent=2.4.9-r1	gpg-agent
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgpg-error.so.0	libgpg-error

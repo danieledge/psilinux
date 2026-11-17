@@ -1,0 +1,13 @@
+name	laszip-dev
+version	3.5.0-r0
+description	LASzip point cloud compression library (development files)
+url	https://github.com/laszip/laszip
+license	LGPL-2.0-or-later
+size	6347
+installed-size	24892
+depends	laszip=3.5.0-r0
+origin	laszip
+repo	community
+file	laszip-dev-3.5.0-r0.apk
+checksum	Q1M+5hVK+oPtBdPF1xIJlVy0nTaas=
+dep	laszip=3.5.0-r0	laszip

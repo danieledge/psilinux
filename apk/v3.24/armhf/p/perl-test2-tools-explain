@@ -1,0 +1,14 @@
+name	perl-test2-tools-explain
+version	0.02-r1
+description	Explain tools for Perl's Test2 framework
+url	https://metacpan.org/release/Test2-Tools-Explain/
+license	Artistic-2.0
+size	3833
+installed-size	4358
+depends	perl perl-test2-suite
+origin	perl-test2-tools-explain
+repo	community
+file	perl-test2-tools-explain-0.02-r1.apk
+checksum	Q12NHRnkP0OeanaiwOiE+2uIwIf2E=
+dep	perl	perl
+dep	perl-test2-suite	perl-test-simple

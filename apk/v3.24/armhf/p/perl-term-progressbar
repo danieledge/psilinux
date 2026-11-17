@@ -1,0 +1,17 @@
+name	perl-term-progressbar
+version	2.23-r2
+description	Perl/CPAN Module Term::ProgressBar : Progress bar in just ASCII using Term
+url	https://metacpan.org/release/Term-ProgressBar
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	13007
+installed-size	33271
+depends	perl perl-class-methodmaker perl-term-readkey perl-capture-tiny perl-test-exception
+origin	perl-term-progressbar
+repo	community
+file	perl-term-progressbar-2.23-r2.apk
+checksum	Q1HnHbk4XraWrQ3Ti2DYjMgoOeD4o=
+dep	perl	perl
+dep	perl-class-methodmaker	perl-class-methodmaker
+dep	perl-term-readkey	perl-term-readkey
+dep	perl-capture-tiny	perl-capture-tiny
+dep	perl-test-exception	perl-test-exception

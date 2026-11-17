@@ -1,0 +1,14 @@
+name	raku-json-name
+version	0.0.7-r3
+description	Store an alternative name for JSON attributes
+url	https://github.com/jonathanstowe/JSON-Name
+license	Artistic-2.0
+size	37761
+installed-size	111979
+depends	rakudo raku-json-optin
+origin	raku-json-name
+repo	community
+file	raku-json-name-0.0.7-r3.apk
+checksum	Q1XaX7wk8DD0UjGrMpYWTF97GkIdU=
+dep	rakudo	rakudo
+dep	raku-json-optin	raku-json-optin

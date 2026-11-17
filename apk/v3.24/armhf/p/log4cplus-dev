@@ -1,0 +1,15 @@
+name	log4cplus-dev
+version	2.1.2-r0
+description	Logging Framework for C++ (development files)
+url	https://github.com/log4cplus/log4cplus
+license	Apache-2.0 AND BSD-2-Clause
+size	80337
+installed-size	385470
+depends	log4cplus-unicode=2.1.2-r0 log4cplus=2.1.2-r0 pkgconfig
+origin	log4cplus
+repo	main
+file	log4cplus-dev-2.1.2-r0.apk
+checksum	Q1J8JBk9u/wE7LF/9I5gp/MxTBqnA=
+dep	log4cplus-unicode=2.1.2-r0	log4cplus-unicode
+dep	log4cplus=2.1.2-r0	log4cplus
+dep	pkgconfig	pkgconf

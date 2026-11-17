@@ -1,0 +1,20 @@
+name	radicale
+version	3.7.5-r0
+description	Free and open-source CalDAV and CardDAV server
+url	https://radicale.org/
+license	GPL-3.0-or-later
+size	224449
+installed-size	1080161
+depends	py3-defusedxml py3-libpass py3-packaging py3-pika py3-requests py3-vobject /bin/sh python3~3.14
+origin	radicale
+repo	community
+file	radicale-3.7.5-r0.apk
+checksum	Q1jdihFkNLw5RNYCDmvfBbzPmE2kE=
+dep	py3-defusedxml	py3-defusedxml
+dep	py3-libpass	py3-libpass
+dep	py3-packaging	py3-packaging
+dep	py3-pika	py3-pika
+dep	py3-requests	py3-requests
+dep	py3-vobject	py3-vobject
+dep	/bin/sh	busybox-binsh
+dep	python3~3.14	python3

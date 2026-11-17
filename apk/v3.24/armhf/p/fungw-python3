@@ -1,0 +1,15 @@
+name	fungw-python3
+version	1.2.2-r3
+description	C function gateway for different programming languages (python3 plugin)
+url	http://www.repo.hu/projects/fungw/
+license	LGPL-2.1-or-later
+size	25588
+installed-size	54313
+depends	fungw=1.2.2-r3 so:libc.musl-armhf.so.1 so:libpython3.14.so.1.0
+origin	fungw
+repo	community
+file	fungw-python3-1.2.2-r3.apk
+checksum	Q1HBMbaBrM93AmIp3QL3vf4EcOzvs=
+dep	fungw=1.2.2-r3	fungw
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpython3.14.so.1.0	python3

@@ -1,0 +1,14 @@
+name	buildctl
+version	0.29.0-r3
+description	Concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit (cli frontend)
+url	https://github.com/moby/buildkit
+license	Apache-2.0
+size	8527926
+installed-size	24243076
+depends	oci-runtime so:libc.musl-armhf.so.1
+origin	buildkit
+repo	community
+file	buildctl-0.29.0-r3.apk
+checksum	Q1lDY1SuxwWYRV0cPQ9MPIOTreVj8=
+dep	oci-runtime	crun
+dep	so:libc.musl-armhf.so.1	musl

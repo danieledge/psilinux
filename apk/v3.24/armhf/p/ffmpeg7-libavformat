@@ -1,0 +1,26 @@
+name	ffmpeg7-libavformat
+version	7.1.5-r0
+description	Complete and free Internet live audio and video broadcasting solution for Linux/Unix (libavformat library)
+url	https://ffmpeg.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	1397063
+installed-size	2709116
+depends	so:libavcodec.so.61 so:libavutil.so.59 so:libbluray.so.3 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libopenmpt.so.0 so:librist.so.4 so:libsrt.so.1.5 so:libssh.so.4 so:libssl.so.3 so:libxml2.so.2 so:libz.so.1 so:libzmq.so.5
+origin	ffmpeg7
+repo	community
+file	ffmpeg7-libavformat-7.1.5-r0.apk
+checksum	Q1guf5PJPF1fPNWFsKePUANLYiATg=
+dep	so:libavcodec.so.61	ffmpeg7-libavcodec
+dep	so:libavutil.so.59	ffmpeg7-libavutil
+dep	so:libbluray.so.3	libbluray
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libopenmpt.so.0	libopenmpt
+dep	so:librist.so.4	librist
+dep	so:libsrt.so.1.5	libsrt
+dep	so:libssh.so.4	libssh
+dep	so:libssl.so.3	libssl3
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib
+dep	so:libzmq.so.5	libzmq

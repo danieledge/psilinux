@@ -1,0 +1,14 @@
+name	perl-net-dns
+version	1.54-r0
+description	Perl Interface to the Domain Name System
+url	https://metacpan.org/release/Net-DNS/
+license	MIT
+size	138561
+installed-size	626809
+depends	perl perl-digest-hmac
+origin	perl-net-dns
+repo	main
+file	perl-net-dns-1.54-r0.apk
+checksum	Q1VjjHm2/sPVKwrWF/lECwH2VPPgQ=
+dep	perl	perl
+dep	perl-digest-hmac	perl-digest-hmac

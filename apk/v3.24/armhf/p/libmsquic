@@ -1,0 +1,16 @@
+name	libmsquic
+version	2.5.7-r0
+description	Cross-platform, C implementation of the IETF QUIC protocol, exposed to C, C++, C# and Rust.
+url	https://github.com/microsoft/msquic
+license	MIT
+size	756230
+installed-size	3073128
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:liblttng-ust.so.1 so:libnuma.so.1
+origin	libmsquic
+repo	community
+file	libmsquic-2.5.7-r0.apk
+checksum	Q1KzWSWGkc3B3RixRVs/0nxhSJFg4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:liblttng-ust.so.1	lttng-ust
+dep	so:libnuma.so.1	numactl

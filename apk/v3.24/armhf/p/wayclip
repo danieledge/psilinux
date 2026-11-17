@@ -1,0 +1,14 @@
+name	wayclip
+version	0.5-r0
+description	Wayland clipboard utility
+url	https://sr.ht/~noocsharp/wayclip
+license	ISC
+size	7730
+installed-size	18996
+depends	so:libc.musl-armhf.so.1 so:libwayland-client.so.0
+origin	wayclip
+repo	community
+file	wayclip-0.5-r0.apk
+checksum	Q1KHn6ghzgEw9i71AF50iC4plXEeQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libwayland-client.so.0	wayland-libs-client

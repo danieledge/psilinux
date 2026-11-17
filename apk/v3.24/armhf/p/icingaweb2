@@ -1,0 +1,24 @@
+name	icingaweb2
+version	2.13.0-r1
+description	Web Interface for Icinga2
+url	https://icinga.com/docs/icinga-web-2/latest/doc/01-About/
+license	GPL-2.0-only
+size	5719387
+installed-size	8686225
+depends	php85 php85-intl php85-dom php85-session php85-curl php85-gettext php85-ctype php85-openssl php85-sockets icinga-php-library icinga-php-thirdparty /bin/sh
+origin	icingaweb2
+repo	community
+file	icingaweb2-2.13.0-r1.apk
+checksum	Q1OgvAdHwaS+BfMTmgV+JLHrm/88E=
+dep	php85	php85
+dep	php85-intl	php85-intl
+dep	php85-dom	php85-dom
+dep	php85-session	php85-session
+dep	php85-curl	php85-curl
+dep	php85-gettext	php85-gettext
+dep	php85-ctype	php85-ctype
+dep	php85-openssl	php85-openssl
+dep	php85-sockets	php85-sockets
+dep	icinga-php-library	icinga-php-library
+dep	icinga-php-thirdparty	icinga-php-thirdparty
+dep	/bin/sh	busybox-binsh

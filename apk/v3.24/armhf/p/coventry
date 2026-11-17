@@ -1,0 +1,19 @@
+name	coventry
+version	0.9.3-r0
+description	Residential IP telephony gateway
+url	https://gitlab.com/tychosoft/coventry
+license	GPL-3.0-or-later
+size	301504
+installed-size	683977
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libeXosip2.so.15 so:libfmt.so.11 so:libgcc_s.so.1 so:libosipparser2.so.15 so:libstdc++.so.6
+origin	coventry
+repo	community
+file	coventry-0.9.3-r0.apk
+checksum	Q1WeqayzlNt1XF3krJ5PDV+bD9jvc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libeXosip2.so.15	libexosip2
+dep	so:libfmt.so.11	fmt
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libosipparser2.so.15	libosip2
+dep	so:libstdc++.so.6	libstdc++

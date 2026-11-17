@@ -1,0 +1,16 @@
+name	qt5-qtpim-dev
+version	0_git20201102-r3
+description	Qt Personal Information Management (development files)
+url	https://qt-project.org/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	120550
+installed-size	937799
+depends	qt5-qtdeclarative-dev qt5-qtpim=0_git20201102-r3 pc:Qt5Core pkgconfig
+origin	qt5-qtpim
+repo	community
+file	qt5-qtpim-dev-0_git20201102-r3.apk
+checksum	Q1eVQSXo74cIjxHsrmN9O0j7dDS0Y=
+dep	qt5-qtdeclarative-dev	qt5-qtdeclarative-dev
+dep	qt5-qtpim=0_git20201102-r3	qt5-qtpim
+dep	pc:Qt5Core	qt5-qtbase-dev
+dep	pkgconfig	pkgconf

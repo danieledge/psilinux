@@ -1,0 +1,18 @@
+name	cups-client
+version	2.4.19-r1
+description	CUPS command-line client programs
+url	https://github.com/OpenPrinting/cups/
+license	Apache-2.0
+size	289963
+installed-size	669976
+depends	so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-armhf.so.1 so:libcups.so.2 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	cups
+repo	main
+file	cups-client-2.4.19-r1.apk
+checksum	Q1podkLIBzxP7hsa3hxPVF02sP9Aw=
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcups.so.2	cups-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

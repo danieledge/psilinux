@@ -1,0 +1,26 @@
+name	livi
+version	0.5.0-r0
+description	Small video player targeting mobile devices
+url	https://gitlab.gnome.org/guidog/livi
+license	LGPL-2.1-or-later
+size	83037
+installed-size	277381
+depends	so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgstallocators-1.0.so.0 so:libgstgl-1.0.so.0 so:libgstplay-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libwayland-client.so.0
+origin	livi
+repo	community
+file	livi-0.5.0-r0.apk
+checksum	Q1jgEbUzDRidO4muedoHfSEtxpkpo=
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgstallocators-1.0.so.0	gst-plugins-base
+dep	so:libgstgl-1.0.so.0	gst-plugins-base
+dep	so:libgstplay-1.0.so.0	gst-plugins-bad
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libwayland-client.so.0	wayland-libs-client

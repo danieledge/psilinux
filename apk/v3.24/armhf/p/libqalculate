@@ -1,0 +1,21 @@
+name	libqalculate
+version	5.11.0-r0
+description	Library implementing a multi-purpose desktop calculator
+url	https://qalculate.github.io/
+license	GPL-2.0-or-later
+size	2060742
+installed-size	6351493
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgcc_s.so.1 so:libgmp.so.10 so:libicuuc.so.78 so:libintl.so.8 so:libmpfr.so.6 so:libstdc++.so.6 so:libxml2.so.2
+origin	libqalculate
+repo	community
+file	libqalculate-5.11.0-r0.apk
+checksum	Q1TWIJuP3FKvg5aKsk4/BZjrDWc7I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgmp.so.10	gmp
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libintl.so.8	libintl
+dep	so:libmpfr.so.6	mpfr4
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxml2.so.2	libxml2

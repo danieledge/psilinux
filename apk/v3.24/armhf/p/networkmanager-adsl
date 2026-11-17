@@ -1,0 +1,18 @@
+name	networkmanager-adsl
+version	1.52.2-r0
+description	ADSL device plugin for NetworkManager
+url	https://networkmanager.dev
+license	GPL-2.0-or-later
+size	12540
+installed-size	25800
+depends	libnm=1.52.2-r0 dbus so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8
+origin	networkmanager
+repo	community
+file	networkmanager-adsl-1.52.2-r0.apk
+checksum	Q1cvy/gYRY3+BA1Vnh5vyOeBhvjZg=
+dep	libnm=1.52.2-r0	libnm
+dep	dbus	dbus
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl

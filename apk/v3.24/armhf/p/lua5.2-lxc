@@ -1,0 +1,14 @@
+name	lua5.2-lxc
+version	3.0.2-r3
+description	Lua bindings for LXC (for Lua 5.2)
+url	https://linuxcontainers.org
+license	LGPL-2.1-or-later
+size	9713
+installed-size	24184
+depends	so:libc.musl-armhf.so.1 so:liblxc.so.1
+origin	lua-lxc
+repo	main
+file	lua5.2-lxc-3.0.2-r3.apk
+checksum	Q1Uw9oLbsKxJb9RKAEWiH9oagkvsw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblxc.so.1	lxc-libs

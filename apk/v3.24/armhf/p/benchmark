@@ -1,0 +1,15 @@
+name	benchmark
+version	1.9.5-r0
+description	microbenchmark support library
+url	https://github.com/google/benchmark
+license	Apache-2.0
+size	121812
+installed-size	345313
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	benchmark
+repo	community
+file	benchmark-1.9.5-r0.apk
+checksum	Q1QKE5mApmrpe8B91EHylgNBNcSnM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,14 @@
+name	inetutils-ftp
+version	2.8-r0
+description	FTP client from GNU network utilities
+url	https://www.gnu.org/software/inetutils
+license	GPL-3.0-or-later
+size	58028
+installed-size	115980
+depends	so:libc.musl-armhf.so.1 so:libreadline.so.8
+origin	inetutils-ftp
+repo	community
+file	inetutils-ftp-2.8-r0.apk
+checksum	Q158PQuJQEubaKPh6YJYHGymPVqFw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libreadline.so.8	readline

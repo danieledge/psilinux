@@ -1,0 +1,14 @@
+name	libx11
+version	1.8.14-r0
+description	X11 client-side library
+url	https://xorg.freedesktop.org/
+license	X11
+size	842345
+installed-size	2269576
+depends	so:libc.musl-armhf.so.1 so:libxcb.so.1
+origin	libx11
+repo	main
+file	libx11-1.8.14-r0.apk
+checksum	Q1wnyAp+RzHJI14wwJmRjXoPc0pSQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxcb.so.1	libxcb

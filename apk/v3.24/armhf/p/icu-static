@@ -1,0 +1,13 @@
+name	icu-static
+version	78.1-r0
+description	International Components for Unicode library (static library)
+url	https://icu.unicode.org/
+license	ICU
+size	2955855
+installed-size	9699448
+depends	icu-dev
+origin	icu
+repo	main
+file	icu-static-78.1-r0.apk
+checksum	Q1ob+qoin1e0YGceUb8Br1b6rrlC4=
+dep	icu-dev	icu-dev

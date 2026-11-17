@@ -1,0 +1,14 @@
+name	libnetfilter_cttimeout
+version	1.0.1-r2
+description	Library for the connection tracking timeout infrastructure
+url	https://www.netfilter.org/projects/libnetfilter_cttimeout/
+license	GPL-2.0-only
+size	5837
+installed-size	13648
+depends	so:libc.musl-armhf.so.1 so:libmnl.so.0
+origin	libnetfilter_cttimeout
+repo	main
+file	libnetfilter_cttimeout-1.0.1-r2.apk
+checksum	Q1joAbaMKq7I45uvGIP/B7l5nEJFE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmnl.so.0	libmnl

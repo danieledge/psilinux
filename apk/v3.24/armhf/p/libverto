@@ -1,0 +1,13 @@
+name	libverto
+version	0.3.2-r2
+description	Main loop abstraction library
+url	https://github.com/latchset/libverto
+license	MIT
+size	8860
+installed-size	17528
+depends	so:libc.musl-armhf.so.1
+origin	libverto
+repo	main
+file	libverto-0.3.2-r2.apk
+checksum	Q15pazfbuSEwamANFO4rvFvXsJUeE=
+dep	so:libc.musl-armhf.so.1	musl

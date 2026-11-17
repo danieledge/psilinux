@@ -1,0 +1,13 @@
+name	llvm-linker-tools
+version	22-r0
+description	Low Level Virtual Machine compiler system, default version. (linker plugins)
+url	https://llvm.org/
+license	Apache-2.0
+size	1726
+installed-size	1
+depends	llvm22-linker-tools
+origin	llvm
+repo	main
+file	llvm-linker-tools-22-r0.apk
+checksum	Q1SG95MXLknznUN2an9x4EEvMdZpw=
+dep	llvm22-linker-tools	llvm22-linker-tools

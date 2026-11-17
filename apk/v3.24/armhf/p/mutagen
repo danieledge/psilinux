@@ -1,0 +1,13 @@
+name	mutagen
+version	1.47.0-r2
+description	Audio tagger implemented in Python
+url	https://github.com/quodlibet/mutagen
+license	GPL-2.0-or-later
+size	2116
+installed-size	1425
+depends	py3-mutagen=1.47.0-r2
+origin	mutagen
+repo	community
+file	mutagen-1.47.0-r2.apk
+checksum	Q1qw4DhkKSrzcyBFas8kgE45/0PtU=
+dep	py3-mutagen=1.47.0-r2	py3-mutagen

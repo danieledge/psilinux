@@ -1,0 +1,15 @@
+name	kalker
+version	2.2.2-r0
+description	Calculator that supports user-defined variables, functions, differentiation, and integration
+url	https://kalker.xyz
+license	MIT
+size	812884
+installed-size	1785860
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libmpfr.so.6
+origin	kalker
+repo	community
+file	kalker-2.2.2-r0.apk
+checksum	Q1rAaThEsIBCXVXiwFb/N+BBijgtI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmpfr.so.6	mpfr4

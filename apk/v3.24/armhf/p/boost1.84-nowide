@@ -1,0 +1,15 @@
+name	boost1.84-nowide
+version	1.84.0-r6
+description	Boost nowide shared library
+url	https://www.boost.org/
+license	BSL-1.0
+size	6759
+installed-size	13696
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	boost1.84
+repo	main
+file	boost1.84-nowide-1.84.0-r6.apk
+checksum	Q1iHTpE+h5cPwrpTGXxlIptqg1dd8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

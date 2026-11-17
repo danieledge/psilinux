@@ -1,0 +1,13 @@
+name	snowflake-client
+version	2.15.3-r0
+description	Pluggable Transport for Tor using WebRTC - client
+url	https://snowflake.torproject.org/
+license	BSD-3-Clause
+size	6467219
+installed-size	16958444
+depends	so:libc.musl-armhf.so.1
+origin	snowflake
+repo	community
+file	snowflake-client-2.15.3-r0.apk
+checksum	Q1o8oZA8lx8EO/cZC67F40S3WcebM=
+dep	so:libc.musl-armhf.so.1	musl

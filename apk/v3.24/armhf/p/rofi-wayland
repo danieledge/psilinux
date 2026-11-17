@@ -1,0 +1,25 @@
+name	rofi-wayland
+version	2.0.0-r0
+description	Window switcher, application launcher and dmenu replacement (Wayland only)
+url	https://github.com/davatorium/rofi
+license	MIT
+size	180433
+installed-size	397128
+depends	rofi=2.0.0-r0 !rofi-x11-wayland so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libwayland-client.so.0 so:libwayland-cursor.so.0 so:libxkbcommon.so.0
+origin	rofi
+repo	community
+file	rofi-wayland-2.0.0-r0.apk
+checksum	Q1uQNQ8tKLHaEq8SdajNhsGKmbOLQ=
+dep	rofi=2.0.0-r0	rofi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor
+dep	so:libxkbcommon.so.0	libxkbcommon

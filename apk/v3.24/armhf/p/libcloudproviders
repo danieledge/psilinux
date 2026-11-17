@@ -1,0 +1,16 @@
+name	libcloudproviders
+version	0.4.0-r0
+description	DBus API that allows cloud storage sync clients to expose their services
+url	https://gitlab.gnome.org/GNOME/libcloudproviders
+license	LGPL-3.0-or-later
+size	30136
+installed-size	85616
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	libcloudproviders
+repo	community
+file	libcloudproviders-0.4.0-r0.apk
+checksum	Q1V50QYTrUwCfyN5tZx8eh0OI55T8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

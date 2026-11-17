@@ -1,0 +1,18 @@
+name	py3-cloudflare
+version	5.1.0-r0
+description	Python wrapper for the Cloudflare Client API v4
+url	https://github.com/cloudflare/cloudflare-python
+license	Apache-2.0
+size	2604775
+installed-size	30325107
+depends	py3-anyio py3-distro py3-httpx py3-pydantic py3-sniffio python3~3.14
+origin	py3-cloudflare
+repo	community
+file	py3-cloudflare-5.1.0-r0.apk
+checksum	Q1bfLi85Mcx0qorjEkBjA02J7pwhU=
+dep	py3-anyio	py3-anyio
+dep	py3-distro	py3-distro
+dep	py3-httpx	py3-httpx
+dep	py3-pydantic	py3-pydantic
+dep	py3-sniffio	py3-sniffio
+dep	python3~3.14	python3

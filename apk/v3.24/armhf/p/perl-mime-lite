@@ -1,0 +1,17 @@
+name	perl-mime-lite
+version	3.038-r0
+description	low-calorie MIME generator
+url	https://metacpan.org/release/MIME-Lite
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	49817
+installed-size	169987
+depends	perl perl-mime-types perl-email-date-format perl-mailtools perl-test-pod-coverage
+origin	perl-mime-lite
+repo	main
+file	perl-mime-lite-3.038-r0.apk
+checksum	Q1P94aufu2R0dQe+3CinvOfNUXI68=
+dep	perl	perl
+dep	perl-mime-types	perl-mime-types
+dep	perl-email-date-format	perl-email-date-format
+dep	perl-mailtools	perl-mailtools
+dep	perl-test-pod-coverage	perl-test-pod-coverage

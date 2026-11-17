@@ -1,0 +1,13 @@
+name	libgcrypt-static
+version	1.12.2-r0
+description	General purpose crypto library based on the code used in GnuPG (static library)
+url	https://www.gnupg.org/
+license	LGPL-2.1-or-later AND GPL-2.0-or-later
+size	649532
+installed-size	1597328
+depends	libgcrypt-dev
+origin	libgcrypt
+repo	main
+file	libgcrypt-static-1.12.2-r0.apk
+checksum	Q1Exe/oLUcyjHkels1HkeB2+N06pc=
+dep	libgcrypt-dev	libgcrypt-dev

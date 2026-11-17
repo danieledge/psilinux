@@ -1,0 +1,22 @@
+name	htmldoc
+version	1.9.23-r0
+description	HTML conversion software
+url	https://www.msweet.org/htmldoc/
+license	GPL-2.0-only
+size	2449578
+installed-size	4969750
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1 so:libcups.so.2 so:libfltk.so.1.3 so:libfltk_images.so.1.3 so:libgcc_s.so.1 so:libjpeg.so.8 so:libpng16.so.16 so:libstdc++.so.6 so:libz.so.1
+origin	htmldoc
+repo	community
+file	htmldoc-1.9.23-r0.apk
+checksum	Q1VlM2JK5v9xHPtOH2NGoC6Wy6zyk=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcups.so.2	cups-libs
+dep	so:libfltk.so.1.3	libfltk
+dep	so:libfltk_images.so.1.3	libfltk_images
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

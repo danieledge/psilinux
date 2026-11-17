@@ -1,0 +1,37 @@
+name	nix
+version	2.31.5-r0
+description	The purely functional package manager
+url	https://nixos.org/nix/
+license	LGPL-2.1-or-later
+size	7279591
+installed-size	21488290
+depends	ca-certificates /bin/sh so:libarchive.so.13 so:libblake3.so.0 so:libboost_context.so.1.84.0 so:libboost_iostreams.so.1.84.0 so:libboost_url.so.1.84.0 so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libeditline.so.1 so:libgc.so.1 so:libgcc_s.so.1 so:libgit2.so.1.9 so:libgmock.so.1.17.0 so:libgtest.so.1.17.0 so:libgtest_main.so.1.17.0 so:liblowdown.so.3 so:librapidcheck.so so:libseccomp.so.2 so:libsodium.so.26 so:libsqlite3.so.0 so:libstdc++.so.6
+origin	nix
+repo	community
+file	nix-2.31.5-r0.apk
+checksum	Q1e3SA3OOGnSCiswfh32WyJBmSi50=
+dep	ca-certificates	ca-certificates
+dep	/bin/sh	busybox-binsh
+dep	so:libarchive.so.13	libarchive
+dep	so:libblake3.so.0	blake3-libs
+dep	so:libboost_context.so.1.84.0	boost1.84-context
+dep	so:libboost_iostreams.so.1.84.0	boost1.84-iostreams
+dep	so:libboost_url.so.1.84.0	boost1.84-url
+dep	so:libbrotlidec.so.1	brotli-libs
+dep	so:libbrotlienc.so.1	brotli-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libeditline.so.1	editline
+dep	so:libgc.so.1	gc
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgit2.so.1.9	libgit2
+dep	so:libgmock.so.1.17.0	gmock
+dep	so:libgtest.so.1.17.0	gtest
+dep	so:libgtest_main.so.1.17.0	gtest
+dep	so:liblowdown.so.3	lowdown-libs
+dep	so:librapidcheck.so	rapidcheck
+dep	so:libseccomp.so.2	libseccomp
+dep	so:libsodium.so.26	libsodium
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++

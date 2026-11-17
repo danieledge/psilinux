@@ -1,0 +1,14 @@
+name	editline-dev
+version	1.17.1-r3
+description	readline() replacement for UNIX without termcap (ncurses) (development files)
+url	https://troglobit.com/projects/editline/
+license	Spencer-94
+size	19076
+installed-size	41763
+depends	editline=1.17.1-r3 pkgconfig
+origin	editline
+repo	community
+file	editline-dev-1.17.1-r3.apk
+checksum	Q1OWadH6g6/eOyA9nR9UokF7/ayvw=
+dep	editline=1.17.1-r3	editline
+dep	pkgconfig	pkgconf

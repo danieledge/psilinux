@@ -1,0 +1,24 @@
+name	libgpod
+version	0.8.3-r14
+description	A shared library to access the contents of an iPod
+url	https://sourceforge.net/projects/gtkpod/
+license	LGPL-2.1-or-later
+size	227251
+installed-size	474546
+depends	so:libc.musl-armhf.so.1 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libimobiledevice-1.0.so.6 so:libintl.so.8 so:libplist-2.0.so.4 so:libsgutils2-1.48.so.2 so:libsqlite3.so.0 so:libxml2.so.2 so:libz.so.1
+origin	libgpod
+repo	community
+file	libgpod-0.8.3-r14.apk
+checksum	Q14JMroqSreayRirdaqiposFOCx4U=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libimobiledevice-1.0.so.6	libimobiledevice
+dep	so:libintl.so.8	libintl
+dep	so:libplist-2.0.so.4	libplist
+dep	so:libsgutils2-1.48.so.2	sg3_utils
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

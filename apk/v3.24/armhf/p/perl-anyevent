@@ -1,0 +1,14 @@
+name	perl-anyevent
+version	7.17-r7
+description	Framework for event-based programming
+url	https://metacpan.org/release/AnyEvent/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	226824
+installed-size	658969
+depends	perl perl-net-ssleay
+origin	perl-anyevent
+repo	community
+file	perl-anyevent-7.17-r7.apk
+checksum	Q1qjQ2aKd7fQXjjj24MhX3QTaIWss=
+dep	perl	perl
+dep	perl-net-ssleay	perl-net-ssleay

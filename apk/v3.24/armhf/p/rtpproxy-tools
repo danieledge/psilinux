@@ -1,0 +1,14 @@
+name	rtpproxy-tools
+version	3.1.1-r0
+description	User tools for rtpproxy
+url	https://www.rtpproxy.org/
+license	BSD-2-Clause
+size	31094
+installed-size	129580
+depends	so:libc.musl-armhf.so.1 so:libsndfile.so.1
+origin	rtpproxy
+repo	main
+file	rtpproxy-tools-3.1.1-r0.apk
+checksum	Q1kwaitaUO1OnjitHDWPIBlum5r7c=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsndfile.so.1	libsndfile

@@ -1,0 +1,15 @@
+name	libnetfilter_queue-dev
+version	1.0.5-r2
+description	API to packets that have been queued by the kernel packet filter (development files)
+url	https://www.netfilter.org/projects/libnetfilter_queue/
+license	GPL-2.0-or-later
+size	5605
+installed-size	12081
+depends	libnetfilter_queue=1.0.5-r2 pc:libnfnetlink pkgconfig
+origin	libnetfilter_queue
+repo	main
+file	libnetfilter_queue-dev-1.0.5-r2.apk
+checksum	Q1Z3HyB2W1anLLh2gkAa8P1qNyJ2w=
+dep	libnetfilter_queue=1.0.5-r2	libnetfilter_queue
+dep	pc:libnfnetlink	libnfnetlink-dev
+dep	pkgconfig	pkgconf

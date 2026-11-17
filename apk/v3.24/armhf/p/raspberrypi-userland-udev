@@ -1,0 +1,13 @@
+name	raspberrypi-userland-udev
+version	0.20231020-r2
+description	VC4 GPU vchiq udev rules
+url	https://github.com/raspberrypi/userland
+license	BSD-3-Clause
+size	1919
+installed-size	260
+depends	/bin/sh
+origin	raspberrypi-userland
+repo	main
+file	raspberrypi-userland-udev-0.20231020-r2.apk
+checksum	Q1ixDgpQ+ItrNh2guwqYAah31hufw=
+dep	/bin/sh	busybox-binsh

@@ -1,0 +1,15 @@
+name	rpcbind
+version	1.2.9-r0
+description	portmap replacement which supports RPC over various protocols
+url	https://rpcbind.sourceforge.net/
+license	BSD-3-Clause
+size	36187
+installed-size	76716
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libtirpc.so.3
+origin	rpcbind
+repo	main
+file	rpcbind-1.2.9-r0.apk
+checksum	Q1KqkVeeAyo3FNmNJdnxwLPi3A46g=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libtirpc.so.3	libtirpc

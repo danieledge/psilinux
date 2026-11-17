@@ -1,0 +1,16 @@
+name	gdal-driver-odbc
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (Open Database Connectivity (ODBC) driver)
+url	https://gdal.org/
+license	MIT
+size	21075
+installed-size	50560
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libstdc++.so.6
+origin	gdal
+repo	community
+file	gdal-driver-odbc-3.13.3-r0.apk
+checksum	Q1jNk4eIYWR+zYR88oSGTEgjNag98=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libstdc++.so.6	libstdc++

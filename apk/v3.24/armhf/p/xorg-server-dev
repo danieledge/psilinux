@@ -1,0 +1,18 @@
+name	xorg-server-dev
+version	21.1.26-r0
+description	X.Org X servers (development files)
+url	https://www.x.org/wiki
+license	MIT
+size	253217
+installed-size	1140005
+depends	libepoxy-dev libpciaccess-dev libxfont2-dev mesa-dev pc:pixman-1>=0.27.2 pkgconfig
+origin	xorg-server
+repo	community
+file	xorg-server-dev-21.1.26-r0.apk
+checksum	Q1laQkUOTxj2ztXfBa61atBY5cipw=
+dep	libepoxy-dev	libepoxy-dev
+dep	libpciaccess-dev	libpciaccess-dev
+dep	libxfont2-dev	libxfont2-dev
+dep	mesa-dev	mesa-dev
+dep	pc:pixman-1>=0.27.2	pixman-dev
+dep	pkgconfig	pkgconf

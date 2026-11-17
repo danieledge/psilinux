@@ -1,0 +1,16 @@
+name	retawq
+version	0.2.6c-r9
+description	retawq is an interactive, multi-threaded network client for text terminals
+url	https://retawq.sourceforge.net/
+license	GPL-2.0-or-later
+size	104376
+installed-size	197996
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libncursesw.so.6 so:libssl.so.3
+origin	retawq
+repo	community
+file	retawq-0.2.6c-r9.apk
+checksum	Q17XxkpQpQzVegt0yCkBDIj0uKiW8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libssl.so.3	libssl3

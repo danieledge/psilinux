@@ -1,0 +1,14 @@
+name	perl-package-anon
+version	0.05-r16
+description	Anonymous packages
+url	https://metacpan.org/release/Package-Anon/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	7558
+installed-size	14224
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-package-anon
+repo	main
+file	perl-package-anon-0.05-r16.apk
+checksum	Q1scU/tQVdjo2KXRoyAb9/ASG7Zbs=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,22 @@
+name	megasdk
+version	4.17.1d-r1
+description	MEGA C++ SDK
+url	https://github.com/meganz/sdk
+license	BSD-2-Clause
+size	1691186
+installed-size	3683892
+depends	so:libc.musl-armhf.so.1 so:libcares.so.2 so:libcrypto.so.3 so:libcryptopp.so.8 so:libcurl.so.4 so:libgcc_s.so.1 so:libsodium.so.26 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6
+origin	megasdk
+repo	community
+file	megasdk-4.17.1d-r1.apk
+checksum	Q1geHbGM4UcYrU4C34N1vMHG8yCes=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcares.so.2	c-ares
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcryptopp.so.8	crypto++
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsodium.so.26	libsodium
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,34 @@
+name	poedit
+version	3.9-r0
+description	cross-platform translations editor
+url	https://www.poedit.net
+license	MIT
+size	1460041
+installed-size	4020062
+depends	gettext so:libboost_iostreams.so.1.84.0 so:libboost_thread.so.1.84.0 so:libc.musl-armhf.so.1 so:libcpprest.so.2.10 so:libcrypto.so.3 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgtkspell3-3.so.0 so:libicui18n.so.78 so:libicuuc.so.78 so:liblucene++.so.0 so:libpugixml.so.1 so:libsecret-1.so.0 so:libstdc++.so.6 so:libwx_baseu-3.2.so.0 so:libwx_baseu_net-3.2.so.0 so:libwx_gtk3u_core-3.2.so.0 so:libwx_gtk3u_webview-3.2.so.0 so:libwx_gtk3u_xrc-3.2.so.0
+origin	poedit
+repo	community
+file	poedit-3.9-r0.apk
+checksum	Q1qLT+hVaF1BEIZvEQjNeJbl9vGbI=
+dep	gettext	gettext
+dep	so:libboost_iostreams.so.1.84.0	boost1.84-iostreams
+dep	so:libboost_thread.so.1.84.0	boost1.84-thread
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcpprest.so.2.10	cpprestsdk
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtkspell3-3.so.0	gtkspell3
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:liblucene++.so.0	lucene++
+dep	so:libpugixml.so.1	pugixml
+dep	so:libsecret-1.so.0	libsecret
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwx_baseu-3.2.so.0	wxwidgets
+dep	so:libwx_baseu_net-3.2.so.0	wxwidgets
+dep	so:libwx_gtk3u_core-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_webview-3.2.so.0	wxwidgets-webview
+dep	so:libwx_gtk3u_xrc-3.2.so.0	wxwidgets-gtk3

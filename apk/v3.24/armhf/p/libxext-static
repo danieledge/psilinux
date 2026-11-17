@@ -1,0 +1,13 @@
+name	libxext-static
+version	1.3.7-r0
+description	X11 miscellaneous extensions library (static library)
+url	https://xorg.freedesktop.org/
+license	MIT
+size	27986
+installed-size	95454
+depends	libxext-dev
+origin	libxext
+repo	main
+file	libxext-static-1.3.7-r0.apk
+checksum	Q1EnRcdajGej7FANaI035BdpmL4N0=
+dep	libxext-dev	libxext-dev

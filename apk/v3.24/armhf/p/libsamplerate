@@ -1,0 +1,13 @@
+name	libsamplerate
+version	0.2.2-r3
+description	Secret Rabbit Code - aka Sample Rate Converter for audio
+url	http://www.mega-nerd.com/SRC/index.html
+license	BSD-2-Clause
+size	1339284
+installed-size	1488240
+depends	so:libc.musl-armhf.so.1
+origin	libsamplerate
+repo	main
+file	libsamplerate-0.2.2-r3.apk
+checksum	Q1rjT0MRwwjJGfbPnDJS4aWe9Gx0g=
+dep	so:libc.musl-armhf.so.1	musl

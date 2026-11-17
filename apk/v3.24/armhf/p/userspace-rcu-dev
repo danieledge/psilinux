@@ -1,0 +1,14 @@
+name	userspace-rcu-dev
+version	0.15.3-r0
+description	Userspace RCU (read-copy-update) library (development files)
+url	https://liburcu.org/
+license	LGPL-2.1-or-later
+size	76572
+installed-size	361474
+depends	userspace-rcu=0.15.3-r0 pkgconfig
+origin	userspace-rcu
+repo	main
+file	userspace-rcu-dev-0.15.3-r0.apk
+checksum	Q1xW9ef9sZnMKi3y0oAdFx1Ah3k74=
+dep	userspace-rcu=0.15.3-r0	userspace-rcu
+dep	pkgconfig	pkgconf

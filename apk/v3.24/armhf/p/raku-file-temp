@@ -1,0 +1,14 @@
+name	raku-file-temp
+version	0.0.12-r3
+description	Create temporary files and directories
+url	https://github.com/raku-community-modules/File-Temp
+license	Artistic-2.0
+size	45604
+installed-size	137345
+depends	rakudo raku-file-directory-tree
+origin	raku-file-temp
+repo	community
+file	raku-file-temp-0.0.12-r3.apk
+checksum	Q120cuDQsAnsTS+9MEwpwG2NgwTEw=
+dep	rakudo	rakudo
+dep	raku-file-directory-tree	raku-file-directory-tree

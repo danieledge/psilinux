@@ -1,0 +1,16 @@
+name	libatk-1.0
+version	2.60.5-r0
+description	ATK library accessibility interfaces (1.0)
+url	https://www.freedesktop.org/wiki/Accessibility/AT-SPI2/
+license	LGPL-2.1-or-later
+size	68361
+installed-size	204092
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8
+origin	at-spi2-core
+repo	main
+file	libatk-1.0-2.60.5-r0.apk
+checksum	Q1f46ix3wHJG04/X+bItHMxCn6+p4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl

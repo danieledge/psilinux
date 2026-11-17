@@ -1,0 +1,15 @@
+name	libusbmuxd-progs
+version	2.1.1-r0
+description	USB Multiplex Daemon - utilities
+url	https://libimobiledevice.org
+license	LGPL-2.1-or-later
+size	9440
+installed-size	23112
+depends	so:libc.musl-armhf.so.1 so:libimobiledevice-glue-1.0.so.0 so:libusbmuxd-2.0.so.7
+origin	libusbmuxd
+repo	community
+file	libusbmuxd-progs-2.1.1-r0.apk
+checksum	Q1p5+1JV2o+t7Sv33enLmufpZZAKw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libimobiledevice-glue-1.0.so.0	libimobiledevice-glue
+dep	so:libusbmuxd-2.0.so.7	libusbmuxd

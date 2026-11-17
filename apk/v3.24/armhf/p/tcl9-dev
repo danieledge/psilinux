@@ -1,0 +1,16 @@
+name	tcl9-dev
+version	9.0.3-r2
+description	The Tcl scripting language, version 9 (development files)
+url	https://www.tcl-lang.org/
+license	TCL
+size	189289
+installed-size	841150
+depends	tcl9=9.0.3-r2 zip !tcl-dev pc:zlib>=1.2.3 pkgconfig
+origin	tcl9
+repo	main
+file	tcl9-dev-9.0.3-r2.apk
+checksum	Q1T26DwPkL2LMzWGmWHvV/iTougkU=
+dep	tcl9=9.0.3-r2	tcl9
+dep	zip	zip
+dep	pc:zlib>=1.2.3	zlib-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,13 @@
+name	meek-server
+version	0.38.0-r25
+description	meek pluggable transport proxy server
+url	https://trac.torproject.org/projects/tor/wiki/doc/meek
+license	CC0-1.0
+size	3225828
+installed-size	8038524
+depends	so:libc.musl-armhf.so.1
+origin	meek
+repo	community
+file	meek-server-0.38.0-r25.apk
+checksum	Q1dbnCa6LnXrnIvQ+PhmG4Gn6a368=
+dep	so:libc.musl-armhf.so.1	musl

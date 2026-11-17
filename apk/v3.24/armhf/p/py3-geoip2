@@ -1,0 +1,17 @@
+name	py3-geoip2
+version	5.2.0-r1
+description	API for the GeoIP2 web services and databases
+url	https://www.maxmind.com/en/home
+license	Apache-2.0
+size	26866
+installed-size	108778
+depends	py3-requests py3-maxminddb py3-aiohttp py3-urllib3 python3~3.14
+origin	py3-geoip2
+repo	community
+file	py3-geoip2-5.2.0-r1.apk
+checksum	Q1wEpUbNm8E6+tB+YncoGZeNQzyPs=
+dep	py3-requests	py3-requests
+dep	py3-maxminddb	py3-maxminddb
+dep	py3-aiohttp	py3-aiohttp
+dep	py3-urllib3	py3-urllib3
+dep	python3~3.14	python3

@@ -1,0 +1,13 @@
+name	macifrename
+version	0.1.2-r1
+description	stably rename NICs based on MAC addresses
+url	https://git.sr.ht/~kaniini/macifrename
+license	ISC
+size	6202
+installed-size	13488
+depends	so:libc.musl-armhf.so.1
+origin	macifrename
+repo	main
+file	macifrename-0.1.2-r1.apk
+checksum	Q1olJIZf86rRHH9N01Btsia2BSap0=
+dep	so:libc.musl-armhf.so.1	musl

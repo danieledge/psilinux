@@ -1,0 +1,16 @@
+name	py3-libfdt
+version	1.7.2-r1
+description	Device tree library for Python 3
+url	https://git.kernel.org/pub/scm/utils/dtc/dtc.git/
+license	GPL-2.0-or-later
+size	44496
+installed-size	169858
+depends	python3 python3~3.14 so:libc.musl-armhf.so.1 so:libfdt.so.1
+origin	dtc
+repo	main
+file	py3-libfdt-1.7.2-r1.apk
+checksum	Q1eZb6jO3kv/x+jzg/LajKU2RCnhQ=
+dep	python3	python3
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfdt.so.1	libfdt

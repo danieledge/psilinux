@@ -1,0 +1,15 @@
+name	ffmpeg7-libswresample
+version	7.1.5-r0
+description	Complete and free Internet live audio and video broadcasting solution for Linux/Unix (libswresample library)
+url	https://ffmpeg.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	43015
+installed-size	83352
+depends	so:libavutil.so.59 so:libc.musl-armhf.so.1 so:libsoxr.so.0
+origin	ffmpeg7
+repo	community
+file	ffmpeg7-libswresample-7.1.5-r0.apk
+checksum	Q14cOeA0CNN+b4rwvqB8Qyc+jWHwI=
+dep	so:libavutil.so.59	ffmpeg7-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsoxr.so.0	soxr

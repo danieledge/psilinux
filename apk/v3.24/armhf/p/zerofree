@@ -1,0 +1,14 @@
+name	zerofree
+version	1.1.1-r1
+description	Zero free blocks from ext2, ext3 and ext4 file-systems
+url	https://frippery.org/uml/
+license	GPL-2.0-only
+size	5276
+installed-size	9388
+depends	so:libc.musl-armhf.so.1 so:libext2fs.so.2
+origin	zerofree
+repo	community
+file	zerofree-1.1.1-r1.apk
+checksum	Q1RPbk0VQZDTO7y2SUrpFsaZRpwn8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libext2fs.so.2	e2fsprogs-libs

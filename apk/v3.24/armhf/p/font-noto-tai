@@ -1,0 +1,14 @@
+name	font-noto-tai
+version	2026.11.01-r0
+description	Noto Sans Tai Le, Tai Tham and Tai Viet fonts
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	253108
+installed-size	521101
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-tai-2026.11.01-r0.apk
+checksum	Q1jXA1+Usju2HRWaIC8fUOkrC84ng=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

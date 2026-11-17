@@ -1,0 +1,13 @@
+name	raspberrypi-utils-pinctrl
+version	0.20260811-r0
+description	A tool for displaying and modifying the GPIO and pin muxing state of a system, bypassing the kernel.
+url	https://github.com/raspberrypi/utils
+license	BSD-3-Clause
+size	32178
+installed-size	80352
+depends	so:libc.musl-armhf.so.1
+origin	raspberrypi-utils
+repo	community
+file	raspberrypi-utils-pinctrl-0.20260811-r0.apk
+checksum	Q1VRA/bludP26HPSbkqT6j7FTH8Dk=
+dep	so:libc.musl-armhf.so.1	musl

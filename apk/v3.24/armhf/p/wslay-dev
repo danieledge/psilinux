@@ -1,0 +1,14 @@
+name	wslay-dev
+version	1.1.1-r3
+description	The WebSocket library in C (development files)
+url	https://tatsuhiro-t.github.io/wslay/
+license	MIT
+size	8742
+installed-size	30065
+depends	wslay=1.1.1-r3 pkgconfig
+origin	wslay
+repo	community
+file	wslay-dev-1.1.1-r3.apk
+checksum	Q1lh3BGVG8QO5dnblHeZcJDNizFt0=
+dep	wslay=1.1.1-r3	wslay
+dep	pkgconfig	pkgconf

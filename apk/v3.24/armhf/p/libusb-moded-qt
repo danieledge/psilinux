@@ -1,0 +1,17 @@
+name	libusb-moded-qt
+version	1.13-r0
+description	Mer's libusb-moded-qt
+url	https://github.com/sailfishos/libusb-moded-qt
+license	BSD-2-Clause
+size	45830
+installed-size	133116
+depends	so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libusb-moded-qt
+repo	community
+file	libusb-moded-qt-1.13-r0.apk
+checksum	Q1c4L9nFH04BUkr9sZGoxCfsrn+bw=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6DBus.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

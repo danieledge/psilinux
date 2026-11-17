@@ -1,0 +1,23 @@
+name	libwpebackend-fdo
+version	1.16.1-r0
+description	freedesktop.org backend for WPE WebKit
+url	https://wpewebkit.org/
+license	BSD-2-Clause
+size	26529
+installed-size	58884
+depends	so:libc.musl-armhf.so.1 so:libepoxy.so.0 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libstdc++.so.6 so:libwayland-client.so.0 so:libwayland-egl.so.1 so:libwayland-server.so.0 so:libwpe-1.0.so.1
+origin	libwpebackend-fdo
+repo	community
+file	libwpebackend-fdo-1.16.1-r0.apk
+checksum	Q1ZQ0CTKK5rKtEjoJtDM6DcKB0PmI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libepoxy.so.0	libepoxy
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-egl.so.1	wayland-libs-egl
+dep	so:libwayland-server.so.0	wayland-libs-server
+dep	so:libwpe-1.0.so.1	libwpe

@@ -1,0 +1,17 @@
+name	imlib2-dev
+version	1.12.6-r0
+description	Image manipulation library (development files)
+url	https://sourceforge.net/projects/enlightenment/
+license	Imlib2
+size	23734
+installed-size	109645
+depends	freetype-dev libxext-dev libsm-dev imlib2=1.12.6-r0 pkgconfig
+origin	imlib2
+repo	community
+file	imlib2-dev-1.12.6-r0.apk
+checksum	Q1zb11BGlwybydIxKHR2QQizv5rUs=
+dep	freetype-dev	freetype-dev
+dep	libxext-dev	libxext-dev
+dep	libsm-dev	libsm-dev
+dep	imlib2=1.12.6-r0	imlib2
+dep	pkgconfig	pkgconf

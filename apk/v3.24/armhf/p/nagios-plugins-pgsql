@@ -1,0 +1,16 @@
+name	nagios-plugins-pgsql
+version	2.5-r0
+description	Nagios plugin check_pgsql
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	23245
+installed-size	46864
+depends	nagios-plugins so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libpq.so.5
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-pgsql-2.5-r0.apk
+checksum	Q1hMb8lubwPWWmf1SroAOK1AE40Ak=
+dep	nagios-plugins	nagios-plugins
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libpq.so.5	libpq

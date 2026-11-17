@@ -1,0 +1,12 @@
+name	ossec-hids-openrc
+version	3.8.0-r1
+description	Open Source Host-based Intrusion Detection System - meta package (OpenRC init scripts)
+url	https://www.ossec.net/
+license	GPL-2.0-only WITH openssl-exception
+size	2098
+installed-size	1076
+depends	
+origin	ossec-hids
+repo	community
+file	ossec-hids-openrc-3.8.0-r1.apk
+checksum	Q18G2YCA6grpGSQCyWDvgPYl1ayIA=

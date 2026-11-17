@@ -1,0 +1,14 @@
+name	texlive-fontutils
+version	2026.0-r0
+description	TeX Live graphics and font utilities
+url	https://tug.org/texlive/
+license	GPL-2.0-or-later AND GPL-3.0-or-later
+size	2184
+installed-size	1
+depends	texlive texmf-dist-fontutils
+origin	texlive
+repo	community
+file	texlive-fontutils-2026.0-r0.apk
+checksum	Q14cXAILAVTVcTQeijLJfsMLz4/nw=
+dep	texlive	texlive
+dep	texmf-dist-fontutils	texmf-dist-fontutils

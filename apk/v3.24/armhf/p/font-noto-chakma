@@ -1,0 +1,14 @@
+name	font-noto-chakma
+version	2026.11.01-r0
+description	Noto Sans Chakma font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	43892
+installed-size	82577
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-chakma-2026.11.01-r0.apk
+checksum	Q1gHz3czyQu7Zciqt0B3OvM+JzbP8=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

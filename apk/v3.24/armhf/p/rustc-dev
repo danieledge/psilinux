@@ -1,0 +1,17 @@
+name	rustc-dev
+version	1.96.1-r0
+description	Rust Programming Language toolchain (compiler libraries)
+url	https://www.rust-lang.org/
+license	Apache-2.0 OR MIT
+size	147316561
+installed-size	412587246
+depends	gcc musl-dev rust=1.96.1-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	rust
+repo	main
+file	rustc-dev-1.96.1-r0.apk
+checksum	Q1M5ofXYBTWyrz71gRYwqLMrcQsL0=
+dep	gcc	gcc
+dep	musl-dev	musl-dev
+dep	rust=1.96.1-r0	rust
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

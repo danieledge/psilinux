@@ -1,0 +1,35 @@
+name	mate-screensaver
+version	1.28.0-r0
+description	Screen saver and locker for MATE
+url	https://github.com/mate-desktop/mate-screensaver
+license	GPL-2.0-or-later
+size	4491151
+installed-size	4809930
+depends	so:libGL.so.1 so:libX11.so.6 so:libXext.so.6 so:libXss.so.1 so:libXxf86vm.so.1 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdbus-1.so.3 so:libdbus-glib-1.so.2 so:libelogind.so.0 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libmate-desktop-2.so.17 so:libmate-menu.so.2 so:libmatekbdui.so.6 so:libnotify.so.4 so:libpango-1.0.so.0 so:libxklavier.so.16
+origin	mate-screensaver
+repo	community
+file	mate-screensaver-1.28.0-r0.apk
+checksum	Q1PEy5DmfCtItFlpY4w7hZmvZ9Pww=
+dep	so:libGL.so.1	mesa-gl
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXss.so.1	libxscrnsaver
+dep	so:libXxf86vm.so.1	libxxf86vm
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libdbus-glib-1.so.2	dbus-glib
+dep	so:libelogind.so.0	libelogind
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libmate-desktop-2.so.17	mate-desktop
+dep	so:libmate-menu.so.2	mate-menus
+dep	so:libmatekbdui.so.6	libmatekbd
+dep	so:libnotify.so.4	libnotify
+dep	so:libpango-1.0.so.0	pango
+dep	so:libxklavier.so.16	libxklavier

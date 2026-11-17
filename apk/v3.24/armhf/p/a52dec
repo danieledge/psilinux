@@ -1,0 +1,13 @@
+name	a52dec
+version	0.8.0-r11
+description	A free library for decoding ATSC A/52 streams.
+url	https://liba52.sourceforge.net/
+license	GPL-2.0-or-later
+size	34606
+installed-size	78592
+depends	so:libc.musl-armhf.so.1
+origin	a52dec
+repo	community
+file	a52dec-0.8.0-r11.apk
+checksum	Q1vuX/8EPKV4w+Iq1ZssjWSo4hmik=
+dep	so:libc.musl-armhf.so.1	musl

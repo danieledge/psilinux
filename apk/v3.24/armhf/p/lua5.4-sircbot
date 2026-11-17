@@ -1,0 +1,13 @@
+name	lua5.4-sircbot
+version	0.4-r9
+description	Sircbot client for Lua 5.4
+url	https://git-old.alpinelinux.org/hosted/sircbot/
+license	GPL-2.0-only
+size	4044
+installed-size	9388
+depends	so:libc.musl-armhf.so.1
+origin	sircbot
+repo	main
+file	lua5.4-sircbot-0.4-r9.apk
+checksum	Q1WrRrV582EV87Miq7j2wSo28Pg5E=
+dep	so:libc.musl-armhf.so.1	musl

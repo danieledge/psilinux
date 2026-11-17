@@ -1,0 +1,15 @@
+name	fcgiwrap
+version	1.1.0-r9
+description	Simple server for running CGI applications over FastCGI
+url	https://github.com/gnosek/fcgiwrap
+license	MIT
+size	8209
+installed-size	13556
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libfcgi.so.0
+origin	fcgiwrap
+repo	main
+file	fcgiwrap-1.1.0-r9.apk
+checksum	Q1ExbInKeoZ7ctXDby/J4CR/Hg+4o=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfcgi.so.0	fcgi

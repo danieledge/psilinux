@@ -1,0 +1,14 @@
+name	wmname
+version	0.1-r4
+description	Sets the window manager name property of the root window
+url	https://tools.suckless.org/x/wmname
+license	MIT
+size	4845
+installed-size	6393
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1
+origin	wmname
+repo	community
+file	wmname-0.1-r4.apk
+checksum	Q1jc7RqQQzQdhc2mwu33v94yixMhQ=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl

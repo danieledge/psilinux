@@ -1,0 +1,15 @@
+name	py3-pynacl
+version	1.6.2-r1
+description	Python3 binding to the Networking and Cryptography (NaCl) library
+url	https://github.com/pyca/pynacl
+license	Apache-2.0
+size	217850
+installed-size	682386
+depends	py3-cffi python3~3.14 so:libc.musl-armhf.so.1
+origin	py3-pynacl
+repo	community
+file	py3-pynacl-1.6.2-r1.apk
+checksum	Q10GWnPG/3Ync7mxPBpRV9bT3B1uo=
+dep	py3-cffi	py3-cffi
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

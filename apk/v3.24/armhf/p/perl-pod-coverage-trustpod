@@ -1,0 +1,16 @@
+name	perl-pod-coverage-trustpod
+version	0.100006-r0
+description	allow a module's pod to contain Pod::Coverage hints
+url	https://metacpan.org/release/Pod-Coverage-TrustPod/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	3830
+installed-size	5612
+depends	perl perl-pod-coverage perl-pod-eventual perl-pod-parser
+origin	perl-pod-coverage-trustpod
+repo	main
+file	perl-pod-coverage-trustpod-0.100006-r0.apk
+checksum	Q1wqMCCvbKmLOsZ5lLlq1h8mXU8Nk=
+dep	perl	perl
+dep	perl-pod-coverage	perl-pod-coverage
+dep	perl-pod-eventual	perl-pod-eventual
+dep	perl-pod-parser	perl-pod-parser

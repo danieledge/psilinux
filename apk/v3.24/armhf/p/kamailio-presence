@@ -1,0 +1,16 @@
+name	kamailio-presence
+version	6.0.6-r0
+description	Kamailio SIP Notify (Presence) support
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	1121350
+installed-size	2364884
+depends	kamailio so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libxml2.so.2
+origin	kamailio
+repo	main
+file	kamailio-presence-6.0.6-r0.apk
+checksum	Q1IoJ80hgEpKme1PLKeubZqcipl48=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libxml2.so.2	libxml2

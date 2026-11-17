@@ -1,0 +1,22 @@
+name	gvfs-archive
+version	1.60.1-r0
+description	Archiving support for gvfs
+url	https://gitlab.gnome.org/GNOME/gvfs
+license	LGPL-2.0-or-later
+size	11799
+installed-size	25861
+depends	gsettings-desktop-schemas dbus:org.freedesktop.Secrets so:libarchive.so.13 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgvfscommon.so so:libgvfsdaemon.so so:libintl.so.8
+origin	gvfs
+repo	community
+file	gvfs-archive-1.60.1-r0.apk
+checksum	Q1Uu4XUs5gRac6S2Z25g4p8xSospE=
+dep	gsettings-desktop-schemas	gsettings-desktop-schemas
+dep	dbus:org.freedesktop.Secrets	gnome-keyring
+dep	so:libarchive.so.13	libarchive
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgvfscommon.so	gvfs
+dep	so:libgvfsdaemon.so	gvfs
+dep	so:libintl.so.8	libintl

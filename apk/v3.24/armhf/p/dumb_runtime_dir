@@ -1,0 +1,14 @@
+name	dumb_runtime_dir
+version	1.0.4-r4
+description	Creates an XDG_RUNTIME_DIR on login and never removes it
+url	https://github.com/ifreund/dumb_runtime_dir
+license	0BSD
+size	3595
+installed-size	5348
+depends	so:libc.musl-armhf.so.1 so:libpam.so.0
+origin	dumb_runtime_dir
+repo	community
+file	dumb_runtime_dir-1.0.4-r4.apk
+checksum	Q1Mh61uOptZpzahCAc1SpVGjX8i3Y=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpam.so.0	linux-pam

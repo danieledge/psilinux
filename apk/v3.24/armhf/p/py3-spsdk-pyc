@@ -1,0 +1,13 @@
+name	py3-spsdk-pyc
+version	2.2.0-r3
+description	Precompiled Python bytecode for py3-spsdk
+url	https://github.com/NXPmicro/spsdk
+license	BSD-3-Clause
+size	1682451
+installed-size	4929032
+depends	python3~3.14
+origin	py3-spsdk
+repo	community
+file	py3-spsdk-pyc-2.2.0-r3.apk
+checksum	Q1jQkKXQeWCZp0dreXVNPF3nrx+U8=
+dep	python3~3.14	python3

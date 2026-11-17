@@ -1,0 +1,16 @@
+name	perl-data-guid
+version	0.051-r1
+description	globally unique identifiers
+url	https://metacpan.org/release/Data-GUID/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	5953
+installed-size	14428
+depends	perl perl-sub-install perl-sub-exporter perl-data-uuid
+origin	perl-data-guid
+repo	main
+file	perl-data-guid-0.051-r1.apk
+checksum	Q1uYZWT7RDzSmmvW6aboUa9IcWWAw=
+dep	perl	perl
+dep	perl-sub-install	perl-sub-install
+dep	perl-sub-exporter	perl-sub-exporter
+dep	perl-data-uuid	perl-data-uuid

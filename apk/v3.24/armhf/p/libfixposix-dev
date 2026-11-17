@@ -1,0 +1,14 @@
+name	libfixposix-dev
+version	0.5.1-r0
+description	Thin wrapper over POSIX syscalls (development files)
+url	https://github.com/sionescu/libfixposix
+license	BSL-1.0
+size	8038
+installed-size	55862
+depends	libfixposix=0.5.1-r0 pkgconfig
+origin	libfixposix
+repo	community
+file	libfixposix-dev-0.5.1-r0.apk
+checksum	Q1v6DKCY6lHASdZ1lJdEHHsdkHuuA=
+dep	libfixposix=0.5.1-r0	libfixposix
+dep	pkgconfig	pkgconf

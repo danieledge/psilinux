@@ -1,0 +1,13 @@
+name	liblo
+version	0.31-r1
+description	Open Sound Control protocol implementation for POSIX systems
+url	https://liblo.sourceforge.net/
+license	LGPL-2.1-or-later
+size	36438
+installed-size	90768
+depends	so:libc.musl-armhf.so.1
+origin	liblo
+repo	community
+file	liblo-0.31-r1.apk
+checksum	Q1vChZWiNO3J6cf3Ooo0fdiLSxScg=
+dep	so:libc.musl-armhf.so.1	musl

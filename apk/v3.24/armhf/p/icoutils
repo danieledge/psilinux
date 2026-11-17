@@ -1,0 +1,15 @@
+name	icoutils
+version	0.32.3-r4
+description	Extracts and converts images in MS Windows(R) icon and cursor files.
+url	https://www.nongnu.org/icoutils/
+license	GPL-3.0-or-later
+size	48094
+installed-size	106707
+depends	perl-libwww so:libc.musl-armhf.so.1 so:libpng16.so.16
+origin	icoutils
+repo	community
+file	icoutils-0.32.3-r4.apk
+checksum	Q1jWQm+M4Saxl4V0b5ZKX49os84RE=
+dep	perl-libwww	perl-libwww
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpng16.so.16	libpng

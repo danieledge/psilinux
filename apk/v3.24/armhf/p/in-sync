@@ -1,0 +1,15 @@
+name	in-sync
+version	1.1-r1
+description	inotify-triggered file synchronization
+url	https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/main/in-sync
+license	GPL-2.0-only
+size	2041
+installed-size	602
+depends	inotify-tools rsync /bin/sh
+origin	in-sync
+repo	main
+file	in-sync-1.1-r1.apk
+checksum	Q1SiTIYI3d7z7pkuZjXEiOsiwYtlA=
+dep	inotify-tools	inotify-tools
+dep	rsync	rsync
+dep	/bin/sh	busybox-binsh

@@ -1,0 +1,14 @@
+name	perl-test-leaktrace
+version	0.17-r6
+description	Perl module for Test-LeakTrace
+url	https://metacpan.org/release/Test-LeakTrace/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	14772
+installed-size	31959
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-test-leaktrace
+repo	main
+file	perl-test-leaktrace-0.17-r6.apk
+checksum	Q1LqqPMSLgt8BV3H0h2qh/U401XN8=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	acf-apk-tools
+version	0.11.0-r3
+description	ACF module for apk
+url	https://gitlab.alpinelinux.org/acf/acf-apk-tools
+license	GPL-2.0-only
+size	8617
+installed-size	27180
+depends	acf-core lua-posix apk-tools
+origin	acf-apk-tools
+repo	main
+file	acf-apk-tools-0.11.0-r3.apk
+checksum	Q1YJZW+1gkGs8nbvE+evG8NqvgvTc=
+dep	acf-core	acf-core
+dep	lua-posix	lua-posix
+dep	apk-tools	apk-tools

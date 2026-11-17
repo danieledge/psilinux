@@ -1,0 +1,17 @@
+name	lxc
+version	7.0.0-r0
+description	Userspace interface for the Linux kernel containment features
+url	https://linuxcontainers.org/lxc/
+license	LGPL-2.1-or-later
+size	511047
+installed-size	1169770
+depends	so:libc.musl-armhf.so.1 so:libcap.so.2 so:libgcc_s.so.1 so:liblxc.so.1 so:libseccomp.so.2
+origin	lxc
+repo	main
+file	lxc-7.0.0-r0.apk
+checksum	Q1wKkyTQaNIkFJpF1RieyzmURV0kE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblxc.so.1	lxc-libs
+dep	so:libseccomp.so.2	libseccomp

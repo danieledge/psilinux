@@ -1,0 +1,15 @@
+name	erlang27-megaco
+version	27.3.4.19-r0
+description	General-purpose programming language and runtime environment, version 27
+url	https://www.erlang.org/
+license	Apache-2.0
+size	5144065
+installed-size	12668510
+depends	erlang27=27.3.4.19-r0 erlang27-debugger=27.3.4.19-r0 erlang27-et=27.3.4.19-r0
+origin	erlang27
+repo	community
+file	erlang27-megaco-27.3.4.19-r0.apk
+checksum	Q1VoEfBoMlf3FEDQCmu5X1GdccLS0=
+dep	erlang27=27.3.4.19-r0	erlang27
+dep	erlang27-debugger=27.3.4.19-r0	erlang27-debugger
+dep	erlang27-et=27.3.4.19-r0	erlang27-et

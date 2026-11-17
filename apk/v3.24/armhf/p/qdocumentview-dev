@@ -1,0 +1,17 @@
+name	qdocumentview-dev
+version	0.3.0.1-r1
+description	Multi-page Document Rendering class for Qt (development files)
+url	https://gitlab.com/extraqt/qdocumentview
+license	GPL-3.0-only
+size	7606
+installed-size	26677
+depends	qdocumentview=0.3.0.1-r1 pc:Qt6Core pc:cups pc:poppler-qt6 pkgconfig
+origin	qdocumentview
+repo	community
+file	qdocumentview-dev-0.3.0.1-r1.apk
+checksum	Q13rms9bBimp2dPlttbEAcMXUoB3U=
+dep	qdocumentview=0.3.0.1-r1	qdocumentview
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pc:cups	cups-dev
+dep	pc:poppler-qt6	poppler-qt6-dev
+dep	pkgconfig	pkgconf

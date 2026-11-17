@@ -1,0 +1,20 @@
+name	purple-mm-sms
+version	0.1.7-r2
+description	A libpurple plugin for sending and receiving SMS via Modemmanager
+url	https://source.puri.sm/Librem5/purple-mm-sms
+license	GPL-2.0-or-later
+size	19722
+installed-size	47760
+depends	modemmanager so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libmm-glib.so.0 so:libpurple.so.0
+origin	purple-mm-sms
+repo	community
+file	purple-mm-sms-0.1.7-r2.apk
+checksum	Q1ooIE9mET3v5+R9pd6nqlmI115/Y=
+dep	modemmanager	modemmanager
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libmm-glib.so.0	libmm-glib
+dep	so:libpurple.so.0	libpurple

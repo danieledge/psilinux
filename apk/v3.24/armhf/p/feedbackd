@@ -1,0 +1,23 @@
+name	feedbackd
+version	0.8.9-r2
+description	Daemon to provide haptic, LED, and audio feedback triggered by application events
+url	https://gitlab.freedesktop.org/feedbackd/feedbackd
+license	GPL-3.0-or-later
+size	141132
+installed-size	373303
+depends	dbus feedbackd-device-themes /bin/sh so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmobile.so.0 so:libgobject-2.0.so.0 so:libgsound.so.0 so:libgudev-1.0.so.0 so:libjson-glib-1.0.so.0
+origin	feedbackd
+repo	community
+file	feedbackd-0.8.9-r2.apk
+checksum	Q19LgtlUK6we6dtm/wxG7RzuCgb+M=
+dep	dbus	dbus
+dep	feedbackd-device-themes	feedbackd-device-themes
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmobile.so.0	gmobile
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgsound.so.0	gsound
+dep	so:libgudev-1.0.so.0	libgudev
+dep	so:libjson-glib-1.0.so.0	json-glib

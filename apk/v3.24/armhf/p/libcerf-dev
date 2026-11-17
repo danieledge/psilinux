@@ -1,0 +1,15 @@
+name	libcerf-dev
+version	3.3-r1
+description	Self-contained complex error function library (development files)
+url	https://jugit.fz-juelich.de/mlz/libcerf/
+license	MIT
+size	7511
+installed-size	16814
+depends	libcerf=3.3-r1 libcerfcpp=3.3-r1 pkgconfig
+origin	libcerf
+repo	community
+file	libcerf-dev-3.3-r1.apk
+checksum	Q1g4pVf3h3O4qIUXCbOz18pZWjbDA=
+dep	libcerf=3.3-r1	libcerf
+dep	libcerfcpp=3.3-r1	libcerfcpp
+dep	pkgconfig	pkgconf

@@ -1,0 +1,16 @@
+name	font-bitstream-75dpi
+version	1.0.4-r2
+description	X.Org Bitstream bitmap fonts
+url	https://xorg.freedesktop.org/
+license	MIT
+size	143211
+installed-size	139568
+depends	encodings font-alias mkfontscale fontconfig
+origin	font-bitstream-75dpi
+repo	main
+file	font-bitstream-75dpi-1.0.4-r2.apk
+checksum	Q1Fjf60qC25JQYdXJ1MkDVzz+JAjM=
+dep	encodings	encodings
+dep	font-alias	font-alias
+dep	mkfontscale	mkfontscale
+dep	fontconfig	fontconfig

@@ -1,0 +1,14 @@
+name	py3-deprecated
+version	1.3.1-r1
+description	@deprecated decorator to deprecate old python classes, functions or methods.
+url	https://github.com/tantale/deprecated
+license	MIT
+size	10889
+installed-size	32848
+depends	py3-wrapt python3~3.14
+origin	py3-deprecated
+repo	community
+file	py3-deprecated-1.3.1-r1.apk
+checksum	Q1aY4udhzEYL2zr/1xHJ3hWETuPaY=
+dep	py3-wrapt	py3-wrapt
+dep	python3~3.14	python3

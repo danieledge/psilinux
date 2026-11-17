@@ -1,0 +1,16 @@
+name	findmnt
+version	2.42.3-r1
+description	Find mount from util-linux
+url	https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+license	GPL-2.0-or-later
+size	26009
+installed-size	55684
+depends	so:libblkid.so.1 so:libc.musl-armhf.so.1 so:libmount.so.1 so:libsmartcols.so.1
+origin	util-linux
+repo	main
+file	findmnt-2.42.3-r1.apk
+checksum	Q1hFM/uM+xyyZ076l/VZnezTuYTtI=
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmount.so.1	libmount
+dep	so:libsmartcols.so.1	libsmartcols

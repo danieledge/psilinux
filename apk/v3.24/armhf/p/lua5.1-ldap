@@ -1,0 +1,16 @@
+name	lua5.1-ldap
+version	1.3.1-r2
+description	Lua binding to LDAP (for Lua 5.1)
+url	https://github.com/lualdap/lualdap
+license	MIT
+size	9256
+installed-size	17707
+depends	lua5.1 so:libc.musl-armhf.so.1 so:liblber.so.2 so:libldap.so.2
+origin	lua-ldap
+repo	main
+file	lua5.1-ldap-1.3.1-r2.apk
+checksum	Q12igEmUfrl/MAsrIOUcb+FacoDAI=
+dep	lua5.1	lua5.1
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap

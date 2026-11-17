@@ -1,0 +1,13 @@
+name	libxcb-static
+version	1.17.0-r2
+description	X11 client-side library (static library)
+url	https://xcb.freedesktop.org/
+license	MIT
+size	1179200
+installed-size	4254332
+depends	libxcb-dev
+origin	libxcb
+repo	main
+file	libxcb-static-1.17.0-r2.apk
+checksum	Q1nkprkJjDO7imVnyXn11RiuZlzhE=
+dep	libxcb-dev	libxcb-dev

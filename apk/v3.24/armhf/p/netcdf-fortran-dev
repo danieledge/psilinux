@@ -1,0 +1,15 @@
+name	netcdf-fortran-dev
+version	4.6.2-r0
+description	NetCDF fortran bindings (development files)
+url	https://www.unidata.ucar.edu/software/netcdf/
+license	Apache-2.0
+size	199181
+installed-size	254650
+depends	netcdf-dev netcdf-fortran=4.6.2-r0 pkgconfig
+origin	netcdf-fortran
+repo	community
+file	netcdf-fortran-dev-4.6.2-r0.apk
+checksum	Q1TcXPQNVo9BWJQ327ENIasRUGhSw=
+dep	netcdf-dev	netcdf-dev
+dep	netcdf-fortran=4.6.2-r0	netcdf-fortran
+dep	pkgconfig	pkgconf

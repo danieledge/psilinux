@@ -1,0 +1,22 @@
+name	libxklavier
+version	5.4-r8
+description	High-level API for X Keyboard Extension
+url	https://gswitchit.sourceforge.net/
+license	LGPL-2.0-or-later
+size	44946
+installed-size	105632
+depends	xkeyboard-config iso-codes so:libX11.so.6 so:libXi.so.6 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libxkbfile.so.1 so:libxml2.so.2
+origin	libxklavier
+repo	community
+file	libxklavier-5.4-r8.apk
+checksum	Q1PX/YRiNPaUW7V8JDv5YsAsQAPw0=
+dep	xkeyboard-config	xkeyboard-config
+dep	iso-codes	iso-codes
+dep	so:libX11.so.6	libx11
+dep	so:libXi.so.6	libxi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libxkbfile.so.1	libxkbfile
+dep	so:libxml2.so.2	libxml2

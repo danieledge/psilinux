@@ -1,0 +1,25 @@
+name	tepl
+version	6.4.0-r6
+description	Text editor product line
+url	https://gitlab.gnome.org/swilmet/tepl
+license	GPL-3.0-or-later
+size	93804
+installed-size	254600
+depends	so:libamtk-5.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgtksourceview-4.so.0 so:libicui18n.so.78 so:libicuuc.so.78 so:libintl.so.8 so:libpango-1.0.so.0
+origin	tepl
+repo	community
+file	tepl-6.4.0-r6.apk
+checksum	Q1WD3QByMP+B5xGFCD8ozz6pWj8Kw=
+dep	so:libamtk-5.so.0	amtk
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtksourceview-4.so.0	gtksourceview4
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango

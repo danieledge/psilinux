@@ -1,0 +1,38 @@
+name	deadbeef-dev
+version	1.10.0-r3
+description	fairly capable playlist-oriented audio player (development files)
+url	https://deadbeef.sourceforge.net/
+license	Zlib GPL-2.0-or-later LGPL-2.1-or-later
+size	35415
+installed-size	125181
+depends	alsa-lib-dev curl-dev faad2-dev ffmpeg-dev flac-dev gtk+3.0-dev jansson-dev libcddb-dev libcdio-dev libdispatch-dev libjpeg-turbo-dev libmad-dev libnotify-dev libpng-dev libsamplerate-dev libsndfile-dev libvorbis-dev libzip-dev minizip-ng-dev mpg123-dev opusfile-dev pipewire-dev pipewire-jack-dev pulseaudio-dev wavpack-dev zlib-dev
+origin	deadbeef
+repo	community
+file	deadbeef-dev-1.10.0-r3.apk
+checksum	Q1oc9BfZd48/Lyzxf8h2FjUOufi7s=
+dep	alsa-lib-dev	alsa-lib-dev
+dep	curl-dev	curl-dev
+dep	faad2-dev	faad2-dev
+dep	ffmpeg-dev	ffmpeg-dev
+dep	flac-dev	flac-dev
+dep	gtk+3.0-dev	gtk+3.0-dev
+dep	jansson-dev	jansson-dev
+dep	libcddb-dev	libcddb-dev
+dep	libcdio-dev	libcdio-dev
+dep	libdispatch-dev	libdispatch-dev
+dep	libjpeg-turbo-dev	libjpeg-turbo-dev
+dep	libmad-dev	libmad-dev
+dep	libnotify-dev	libnotify-dev
+dep	libpng-dev	libpng-dev
+dep	libsamplerate-dev	libsamplerate-dev
+dep	libsndfile-dev	libsndfile-dev
+dep	libvorbis-dev	libvorbis-dev
+dep	libzip-dev	libzip-dev
+dep	minizip-ng-dev	minizip-ng-dev
+dep	mpg123-dev	mpg123-dev
+dep	opusfile-dev	opusfile-dev
+dep	pipewire-dev	pipewire-dev
+dep	pipewire-jack-dev	pipewire-jack-dev
+dep	pulseaudio-dev	pulseaudio-dev
+dep	wavpack-dev	wavpack-dev
+dep	zlib-dev	zlib-dev

@@ -1,0 +1,19 @@
+name	wavemon
+version	0.9.7-r0
+description	Ncurses-based monitoring application for wireless network devices
+url	https://github.com/uoaerg/wavemon
+license	GPL-2.0-or-later
+size	37257
+installed-size	76548
+depends	so:libc.musl-armhf.so.1 so:libcap.so.2 so:libncursesw.so.6 so:libnl-3.so.200 so:libnl-cli-3.so.200 so:libnl-genl-3.so.200 so:libnl-route-3.so.200
+origin	wavemon
+repo	community
+file	wavemon-0.9.7-r0.apk
+checksum	Q1EzgMSfVfLpHVy9MSGS4VsB9PhzY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libnl-3.so.200	libnl3
+dep	so:libnl-cli-3.so.200	libnl3-cli
+dep	so:libnl-genl-3.so.200	libnl3
+dep	so:libnl-route-3.so.200	libnl3

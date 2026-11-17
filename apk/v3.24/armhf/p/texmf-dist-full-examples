@@ -1,0 +1,89 @@
+name	texmf-dist-full-examples
+version	2026.0-r0
+description	All examples and documentation for the TeX Live texmf distribution
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	1700
+installed-size	0
+depends	texmf-dist-examples texmf-dist-bibtexextra-doc texmf-dist-bibtexextra-examples texmf-dist-binextra-doc texmf-dist-binextra-examples texmf-dist-context-doc texmf-dist-context-examples texmf-dist-fontsextra-doc texmf-dist-fontsextra-examples texmf-dist-fontsrecommended-doc texmf-dist-fontsrecommended-examples texmf-dist-fontutils-doc texmf-dist-fontutils-examples texmf-dist-formatsextra-doc texmf-dist-formatsextra-examples texmf-dist-games-doc texmf-dist-games-examples texmf-dist-humanities-doc texmf-dist-humanities-examples texmf-dist-langarabic-doc texmf-dist-langarabic-examples texmf-dist-langchinese-doc texmf-dist-langchinese-examples texmf-dist-langcjk-doc texmf-dist-langcjk-examples texmf-dist-langcyrillic-doc texmf-dist-langcyrillic-examples texmf-dist-langczechslovak-doc texmf-dist-langczechslovak-examples texmf-dist-langenglish-doc texmf-dist-langenglish-examples texmf-dist-langeuropean-doc texmf-dist-langeuropean-examples texmf-dist-langfrench-doc texmf-dist-langfrench-examples texmf-dist-langgerman-doc texmf-dist-langgerman-examples texmf-dist-langgreek-doc texmf-dist-langgreek-examples texmf-dist-langitalian-doc texmf-dist-langitalian-examples texmf-dist-langjapanese-doc texmf-dist-langjapanese-examples texmf-dist-langkorean-doc texmf-dist-langkorean-examples texmf-dist-langother-doc texmf-dist-langother-examples texmf-dist-langpolish-doc texmf-dist-langpolish-examples texmf-dist-langportuguese-doc texmf-dist-langportuguese-examples texmf-dist-langspanish-doc texmf-dist-langspanish-examples texmf-dist-latex-doc texmf-dist-latex-examples texmf-dist-latexextra-doc texmf-dist-latexextra-examples texmf-dist-latexrecommended-doc texmf-dist-latexrecommended-examples texmf-dist-luatex-doc texmf-dist-luatex-examples texmf-dist-mathscience-doc texmf-dist-mathscience-examples texmf-dist-metapost-doc texmf-dist-metapost-examples texmf-dist-music-doc texmf-dist-music-examples texmf-dist-pictures-doc texmf-dist-pictures-examples texmf-dist-plaingeneric-doc texmf-dist-plaingeneric-examples texmf-dist-pstricks-doc texmf-dist-pstricks-examples texmf-dist-publishers-doc texmf-dist-publishers-examples texmf-dist-xetex-doc texmf-dist-xetex-examples
+origin	texmf-dist
+repo	community
+file	texmf-dist-full-examples-2026.0-r0.apk
+checksum	Q14RMk4OxhnIH694hqnXXIBJmF1ik=
+dep	texmf-dist-examples	texmf-dist-examples
+dep	texmf-dist-bibtexextra-doc	texmf-dist-bibtexextra-doc
+dep	texmf-dist-bibtexextra-examples	texmf-dist-bibtexextra-examples
+dep	texmf-dist-binextra-doc	texmf-dist-binextra-doc
+dep	texmf-dist-binextra-examples	texmf-dist-binextra-examples
+dep	texmf-dist-context-doc	texmf-dist-context-doc
+dep	texmf-dist-context-examples	texmf-dist-context-examples
+dep	texmf-dist-fontsextra-doc	texmf-dist-fontsextra-doc
+dep	texmf-dist-fontsextra-examples	texmf-dist-fontsextra-examples
+dep	texmf-dist-fontsrecommended-doc	texmf-dist-fontsrecommended-doc
+dep	texmf-dist-fontsrecommended-examples	texmf-dist-fontsrecommended-examples
+dep	texmf-dist-fontutils-doc	texmf-dist-fontutils-doc
+dep	texmf-dist-fontutils-examples	texmf-dist-fontutils-examples
+dep	texmf-dist-formatsextra-doc	texmf-dist-formatsextra-doc
+dep	texmf-dist-formatsextra-examples	texmf-dist-formatsextra-examples
+dep	texmf-dist-games-doc	texmf-dist-games-doc
+dep	texmf-dist-games-examples	texmf-dist-games-examples
+dep	texmf-dist-humanities-doc	texmf-dist-humanities-doc
+dep	texmf-dist-humanities-examples	texmf-dist-humanities-examples
+dep	texmf-dist-langarabic-doc	texmf-dist-langarabic-doc
+dep	texmf-dist-langarabic-examples	texmf-dist-langarabic-examples
+dep	texmf-dist-langchinese-doc	texmf-dist-langchinese-doc
+dep	texmf-dist-langchinese-examples	texmf-dist-langchinese-examples
+dep	texmf-dist-langcjk-doc	texmf-dist-langcjk-doc
+dep	texmf-dist-langcjk-examples	texmf-dist-langcjk-examples
+dep	texmf-dist-langcyrillic-doc	texmf-dist-langcyrillic-doc
+dep	texmf-dist-langcyrillic-examples	texmf-dist-langcyrillic-examples
+dep	texmf-dist-langczechslovak-doc	texmf-dist-langczechslovak-doc
+dep	texmf-dist-langczechslovak-examples	texmf-dist-langczechslovak-examples
+dep	texmf-dist-langenglish-doc	texmf-dist-langenglish-doc
+dep	texmf-dist-langenglish-examples	texmf-dist-langenglish-examples
+dep	texmf-dist-langeuropean-doc	texmf-dist-langeuropean-doc
+dep	texmf-dist-langeuropean-examples	texmf-dist-langeuropean-examples
+dep	texmf-dist-langfrench-doc	texmf-dist-langfrench-doc
+dep	texmf-dist-langfrench-examples	texmf-dist-langfrench-examples
+dep	texmf-dist-langgerman-doc	texmf-dist-langgerman-doc
+dep	texmf-dist-langgerman-examples	texmf-dist-langgerman-examples
+dep	texmf-dist-langgreek-doc	texmf-dist-langgreek-doc
+dep	texmf-dist-langgreek-examples	texmf-dist-langgreek-examples
+dep	texmf-dist-langitalian-doc	texmf-dist-langitalian-doc
+dep	texmf-dist-langitalian-examples	texmf-dist-langitalian-examples
+dep	texmf-dist-langjapanese-doc	texmf-dist-langjapanese-doc
+dep	texmf-dist-langjapanese-examples	texmf-dist-langjapanese-examples
+dep	texmf-dist-langkorean-doc	texmf-dist-langkorean-doc
+dep	texmf-dist-langkorean-examples	texmf-dist-langkorean-examples
+dep	texmf-dist-langother-doc	texmf-dist-langother-doc
+dep	texmf-dist-langother-examples	texmf-dist-langother-examples
+dep	texmf-dist-langpolish-doc	texmf-dist-langpolish-doc
+dep	texmf-dist-langpolish-examples	texmf-dist-langpolish-examples
+dep	texmf-dist-langportuguese-doc	texmf-dist-langportuguese-doc
+dep	texmf-dist-langportuguese-examples	texmf-dist-langportuguese-examples
+dep	texmf-dist-langspanish-doc	texmf-dist-langspanish-doc
+dep	texmf-dist-langspanish-examples	texmf-dist-langspanish-examples
+dep	texmf-dist-latex-doc	texmf-dist-latex-doc
+dep	texmf-dist-latex-examples	texmf-dist-latex-examples
+dep	texmf-dist-latexextra-doc	texmf-dist-latexextra-doc
+dep	texmf-dist-latexextra-examples	texmf-dist-latexextra-examples
+dep	texmf-dist-latexrecommended-doc	texmf-dist-latexrecommended-doc
+dep	texmf-dist-latexrecommended-examples	texmf-dist-latexrecommended-examples
+dep	texmf-dist-luatex-doc	texmf-dist-luatex-doc
+dep	texmf-dist-luatex-examples	texmf-dist-luatex-examples
+dep	texmf-dist-mathscience-doc	texmf-dist-mathscience-doc
+dep	texmf-dist-mathscience-examples	texmf-dist-mathscience-examples
+dep	texmf-dist-metapost-doc	texmf-dist-metapost-doc
+dep	texmf-dist-metapost-examples	texmf-dist-metapost-examples
+dep	texmf-dist-music-doc	texmf-dist-music-doc
+dep	texmf-dist-music-examples	texmf-dist-music-examples
+dep	texmf-dist-pictures-doc	texmf-dist-pictures-doc
+dep	texmf-dist-pictures-examples	texmf-dist-pictures-examples
+dep	texmf-dist-plaingeneric-doc	texmf-dist-plaingeneric-doc
+dep	texmf-dist-plaingeneric-examples	texmf-dist-plaingeneric-examples
+dep	texmf-dist-pstricks-doc	texmf-dist-pstricks-doc
+dep	texmf-dist-pstricks-examples	texmf-dist-pstricks-examples
+dep	texmf-dist-publishers-doc	texmf-dist-publishers-doc
+dep	texmf-dist-publishers-examples	texmf-dist-publishers-examples
+dep	texmf-dist-xetex-doc	texmf-dist-xetex-doc
+dep	texmf-dist-xetex-examples	texmf-dist-xetex-examples

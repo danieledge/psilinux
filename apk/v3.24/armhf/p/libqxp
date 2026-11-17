@@ -1,0 +1,19 @@
+name	libqxp
+version	0.0.2-r12
+description	Library that parses the file format of QuarkXPress documents.
+url	https://wiki.documentfoundation.org/DLP/Libraries/libqxp
+license	MPL-2.0
+size	93217
+installed-size	239104
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libicuuc.so.78 so:librevenge-0.0.so.0 so:librevenge-generators-0.0.so.0 so:librevenge-stream-0.0.so.0 so:libstdc++.so.6
+origin	libqxp
+repo	community
+file	libqxp-0.0.2-r12.apk
+checksum	Q1mLFfn3xb3sdA4MS/ScwBDr37W2Y=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libicuuc.so.78	icu-libs
+dep	so:librevenge-0.0.so.0	librevenge
+dep	so:librevenge-generators-0.0.so.0	librevenge
+dep	so:librevenge-stream-0.0.so.0	librevenge
+dep	so:libstdc++.so.6	libstdc++

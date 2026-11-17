@@ -1,0 +1,19 @@
+name	py3-libtorrent-rasterbar
+version	2.0.11-r1
+description	Feature complete C++ bittorrent implementation (python bindings)
+url	https://www.rasterbar.com/products/libtorrent
+license	BSD-3-Clause
+size	681650
+installed-size	3080181
+depends	python3~3.14 so:libboost_python314.so.1.84.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libstdc++.so.6 so:libtorrent-rasterbar.so.2.0
+origin	libtorrent-rasterbar
+repo	community
+file	py3-libtorrent-rasterbar-2.0.11-r1.apk
+checksum	Q1rYLiZVzS0rV/XBW0acxAjQ1o4HQ=
+dep	python3~3.14	python3
+dep	so:libboost_python314.so.1.84.0	boost1.84-python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtorrent-rasterbar.so.2.0	libtorrent-rasterbar

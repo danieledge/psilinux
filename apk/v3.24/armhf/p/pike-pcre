@@ -1,0 +1,15 @@
+name	pike-pcre
+version	8.0.2040-r1
+description	Pike programming language (PCRE support)
+url	https://pike.lysator.liu.se/
+license	GPL-2.0-or-later
+size	11006
+installed-size	26066
+depends	pike=8.0.2040-r1 so:libc.musl-armhf.so.1 so:libpcre.so.1
+origin	pike
+repo	community
+file	pike-pcre-8.0.2040-r1.apk
+checksum	Q1LU+24KiIUHgij0mZv5Glbydvsfs=
+dep	pike=8.0.2040-r1	pike
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcre.so.1	pcre

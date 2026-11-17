@@ -1,0 +1,12 @@
+name	gstreamer-dbg
+version	1.28.3-r0
+description	GStreamer streaming media framework (debug symbols)
+url	https://gstreamer.freedesktop.org
+license	LGPL-2.0-or-later
+size	4008449
+installed-size	9624860
+depends	!gstreamer-dev<1.28.3-r0 !gstreamer-dev>1.28.3-r0 !gstreamer-ptp-helper<1.28.3-r0 !gstreamer-ptp-helper>1.28.3-r0 !gstreamer-tools<1.28.3-r0 !gstreamer-tools>1.28.3-r0 !gstreamer<1.28.3-r0 !gstreamer>1.28.3-r0
+origin	gstreamer
+repo	main
+file	gstreamer-dbg-1.28.3-r0.apk
+checksum	Q1rAU11JYDQwXI4d5rftWnG/NqrmI=

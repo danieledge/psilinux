@@ -1,0 +1,15 @@
+name	lua5.5-dev
+version	5.5.0-r1
+description	Powerful light-weight programming language (development files)
+url	https://www.lua.org/
+license	MIT
+size	682978
+installed-size	1536070
+depends	lua5.5 lua5.5-libs=5.5.0-r1 pkgconfig
+origin	lua5.5
+repo	main
+file	lua5.5-dev-5.5.0-r1.apk
+checksum	Q1So8uG6xdSMO8mrbJnG5a/lMDprU=
+dep	lua5.5	lua5.5
+dep	lua5.5-libs=5.5.0-r1	lua5.5-libs
+dep	pkgconfig	pkgconf

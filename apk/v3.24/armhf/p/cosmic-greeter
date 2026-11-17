@@ -1,0 +1,18 @@
+name	cosmic-greeter
+version	1.0.15-r0
+description	Greeter for the COSMIC Desktop Environment
+url	https://github.com/pop-os/cosmic-greeter
+license	GPL-3.0-only
+size	12021576
+installed-size	21122008
+depends	cosmic-comp greetd so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpam.so.0 so:libxkbcommon.so.0
+origin	cosmic-greeter
+repo	community
+file	cosmic-greeter-1.0.15-r0.apk
+checksum	Q1jHNfN1h4kNKY1TPnjyQOG05zs00=
+dep	cosmic-comp	cosmic-comp
+dep	greetd	greetd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpam.so.0	linux-pam
+dep	so:libxkbcommon.so.0	libxkbcommon

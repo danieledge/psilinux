@@ -1,0 +1,13 @@
+name	quickjs-ng-libs-static
+version	0.11.0-r2
+description	Embeddable JavaScript engine in C (NG fork) (static library)
+url	https://quickjs-ng.github.io/quickjs/
+license	MIT
+size	368636
+installed-size	807392
+depends	quickjs-ng-dev
+origin	quickjs-ng
+repo	main
+file	quickjs-ng-libs-static-0.11.0-r2.apk
+checksum	Q1yC/2PB6mbsL9ZULBfV2XpiRBZRM=
+dep	quickjs-ng-dev	quickjs-ng-dev

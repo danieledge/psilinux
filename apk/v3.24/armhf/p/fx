@@ -1,0 +1,13 @@
+name	fx
+version	39.2.0-r8
+description	Command-line tool and terminal JSON viewer
+url	https://github.com/antonmedv/fx
+license	MIT
+size	4646059
+installed-size	13023820
+depends	so:libc.musl-armhf.so.1
+origin	fx
+repo	community
+file	fx-39.2.0-r8.apk
+checksum	Q14ta5hxk2e8xLUQGQrmj9TVB5YIY=
+dep	so:libc.musl-armhf.so.1	musl

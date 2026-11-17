@@ -1,0 +1,20 @@
+name	pulseaudio-alsa
+version	17.0-r7
+description	Pulseaudio ALSA support
+url	https://www.freedesktop.org/wiki/Software/PulseAudio/
+license	LGPL-2.1-or-later
+size	139976
+installed-size	346016
+depends	so:libasound.so.2 so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libintl.so.8 so:libpulse.so.0 so:libpulsecommon-17.0.so so:libpulsecore-17.0.so so:libudev.so.1
+origin	pulseaudio
+repo	community
+file	pulseaudio-alsa-17.0-r7.apk
+checksum	Q1FMO5jZ1no3vX3RCU/aafrWzs8wM=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libintl.so.8	libintl
+dep	so:libpulse.so.0	libpulse
+dep	so:libpulsecommon-17.0.so	libpulse
+dep	so:libpulsecore-17.0.so	libpulse
+dep	so:libudev.so.1	eudev-libs

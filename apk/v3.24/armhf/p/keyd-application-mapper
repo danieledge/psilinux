@@ -1,0 +1,14 @@
+name	keyd-application-mapper
+version	2.6.0-r1
+description	A key remapping daemon for Linux - application specific remapping
+url	https://github.com/rvaiya/keyd
+license	MIT
+size	6825
+installed-size	17929
+depends	keyd=2.6.0-r1 python3
+origin	keyd
+repo	community
+file	keyd-application-mapper-2.6.0-r1.apk
+checksum	Q1BMk+PDVJT6Ga8ch4V9oZ3tbzdsA=
+dep	keyd=2.6.0-r1	keyd
+dep	python3	python3

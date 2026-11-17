@@ -1,0 +1,18 @@
+name	ldb
+version	4.23.8-r0
+description	Schema-less, ldap like, API and database
+url	https://www.samba.org/
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	138433
+installed-size	356184
+depends	samba-util-libs=4.23.8-r0 so:libc.musl-armhf.so.1 so:libreplace-private-samba.so so:libtalloc.so.2 so:libtdb.so.1 so:libtevent.so.0
+origin	samba
+repo	main
+file	ldb-4.23.8-r0.apk
+checksum	Q18OTbt3OAt08KUAYiRRCBjYSMfJk=
+dep	samba-util-libs=4.23.8-r0	samba-util-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libreplace-private-samba.so	samba-util-libs
+dep	so:libtalloc.so.2	talloc
+dep	so:libtdb.so.1	tdb-libs
+dep	so:libtevent.so.0	tevent

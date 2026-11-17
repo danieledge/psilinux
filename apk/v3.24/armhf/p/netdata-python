@@ -1,0 +1,14 @@
+name	netdata-python
+version	1.47.5-r24
+description	Real-time performance monitoring (python3 support)
+url	https://www.netdata.cloud/
+license	GPL-3.0-or-later
+size	245795
+installed-size	1112814
+depends	netdata python3
+origin	netdata
+repo	community
+file	netdata-python-1.47.5-r24.apk
+checksum	Q18K7q3uzMuW19zUrlNBqpaY9EGqA=
+dep	netdata	netdata
+dep	python3	python3

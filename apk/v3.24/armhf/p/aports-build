@@ -1,0 +1,24 @@
+name	aports-build
+version	1.6.4-r2
+description	MQTT based build-on-git-push scripts for Alpine Linux
+url	https://alpinelinux.org
+license	GPL-2.0-only
+size	5492
+installed-size	8306
+depends	abuild>2.20.0 build-base mosquitto-clients openssh-client mqtt-exec rsync lua-aports>=1.2.0 lua5.5-cjson lua5.5-mqtt-publish pigz git /bin/sh
+origin	aports-build
+repo	main
+file	aports-build-1.6.4-r2.apk
+checksum	Q1QgTew0m8JTJnroHdkF+hbBO/Aiw=
+dep	abuild>2.20.0	abuild
+dep	build-base	build-base
+dep	mosquitto-clients	mosquitto-clients
+dep	openssh-client	openssh-client-default
+dep	mqtt-exec	mqtt-exec
+dep	rsync	rsync
+dep	lua-aports>=1.2.0	lua-aports
+dep	lua5.5-cjson	lua5.5-cjson
+dep	lua5.5-mqtt-publish	lua5.5-mqtt-publish
+dep	pigz	pigz
+dep	git	git
+dep	/bin/sh	busybox-binsh

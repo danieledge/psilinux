@@ -1,0 +1,15 @@
+name	perl-unicode-linebreak
+version	2019.001-r10
+description	UAX #14 Unicode Line Breaking Algorithm
+url	https://metacpan.org/release/Unicode-LineBreak/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	58477
+installed-size	173017
+depends	perl perl-mime-charset so:libc.musl-armhf.so.1
+origin	perl-unicode-linebreak
+repo	community
+file	perl-unicode-linebreak-2019.001-r10.apk
+checksum	Q1mlJRalSNMdQyHEtCWTpEp1j9OjM=
+dep	perl	perl
+dep	perl-mime-charset	perl-mime-charset
+dep	so:libc.musl-armhf.so.1	musl

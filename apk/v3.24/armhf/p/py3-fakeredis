@@ -1,0 +1,16 @@
+name	py3-fakeredis
+version	2.36.0-r0
+description	Fake implementation of redis API for testing purposes
+url	https://pypi.org/project/fakeredis/
+license	BSD-3-Clause
+size	117630
+installed-size	536211
+depends	py3-packaging py3-redis py3-sortedcontainers python3~3.14
+origin	py3-fakeredis
+repo	community
+file	py3-fakeredis-2.36.0-r0.apk
+checksum	Q1yBygV2xZywnwic7XXvpjvYRRnsY=
+dep	py3-packaging	py3-packaging
+dep	py3-redis	py3-redis
+dep	py3-sortedcontainers	py3-sortedcontainers
+dep	python3~3.14	python3

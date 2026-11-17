@@ -1,0 +1,15 @@
+name	libheif-dev
+version	1.23.7-r0
+description	ISO/IEC 23008-12:2017 HEIF file format decoder and encoder (development files)
+url	https://www.libde265.org/
+license	LGPL-3.0-or-later
+size	75903
+installed-size	355493
+depends	libheif=1.23.7-r0 pc:libsharpyuv pkgconfig
+origin	libheif
+repo	community
+file	libheif-dev-1.23.7-r0.apk
+checksum	Q152psYqFMyscEwNxASc7SBzTHUwI=
+dep	libheif=1.23.7-r0	libheif
+dep	pc:libsharpyuv	libwebp-dev
+dep	pkgconfig	pkgconf

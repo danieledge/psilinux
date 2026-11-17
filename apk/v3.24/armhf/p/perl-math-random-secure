@@ -1,0 +1,16 @@
+name	perl-math-random-secure
+version	0.080001-r1
+description	Cryptographically-secure, cross-platform replacement for rand()
+url	https://metacpan.org/release/Math-Random-Secure/
+license	Artistic-2.0
+size	7826
+installed-size	15974
+depends	perl perl-crypt-random-source perl-math-random-isaac perl-moo
+origin	perl-math-random-secure
+repo	community
+file	perl-math-random-secure-0.080001-r1.apk
+checksum	Q1xyL0lOAncRV2bhLPZosyeynyKMA=
+dep	perl	perl
+dep	perl-crypt-random-source	perl-crypt-random-source
+dep	perl-math-random-isaac	perl-math-random-isaac
+dep	perl-moo	perl-moo

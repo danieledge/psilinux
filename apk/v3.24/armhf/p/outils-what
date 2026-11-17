@@ -1,0 +1,13 @@
+name	outils-what
+version	0.14-r0
+description	what tool from outils
+url	https://github.com/leahneukirchen/outils
+license	BSD-3-Clause ISC
+size	4010
+installed-size	5292
+depends	so:libc.musl-armhf.so.1
+origin	outils
+repo	community
+file	outils-what-0.14-r0.apk
+checksum	Q1ZWXHRJhv6KleT1TuC9coA/YazhM=
+dep	so:libc.musl-armhf.so.1	musl

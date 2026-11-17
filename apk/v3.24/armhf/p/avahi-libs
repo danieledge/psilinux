@@ -1,0 +1,15 @@
+name	avahi-libs
+version	0.9_rc4-r0
+description	Libraries for avahi run-time use
+url	https://www.avahi.org/
+license	LGPL-2.1-or-later
+size	42078
+installed-size	97044
+depends	so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libintl.so.8
+origin	avahi
+repo	main
+file	avahi-libs-0.9_rc4-r0.apk
+checksum	Q1FQiERzJ+yXt2IfG18RuCmwaXGAg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libintl.so.8	libintl

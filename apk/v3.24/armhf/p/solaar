@@ -1,0 +1,20 @@
+name	solaar
+version	1.1.20-r0
+description	Linux device manager for a wide range of Logitech devices
+url	https://pwr-solaar.github.io/Solaar/
+license	GPL-2.0-or-later
+size	285723
+installed-size	1170447
+depends	py3-dbus py3-evdev py3-psutil py3-typing-extensions py3-udev py3-xlib py3-yaml /bin/sh
+origin	solaar
+repo	community
+file	solaar-1.1.20-r0.apk
+checksum	Q1nwf+6Oa6Xuzzp7GZW8J1ScSVolA=
+dep	py3-dbus	py3-dbus
+dep	py3-evdev	py3-evdev
+dep	py3-psutil	py3-psutil
+dep	py3-typing-extensions	py3-typing-extensions
+dep	py3-udev	py3-udev
+dep	py3-xlib	py3-xlib
+dep	py3-yaml	py3-yaml
+dep	/bin/sh	busybox-binsh

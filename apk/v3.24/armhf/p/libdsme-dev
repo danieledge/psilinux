@@ -1,0 +1,16 @@
+name	libdsme-dev
+version	0.67.0-r0
+description	Libraries for programs that communicate with the Device State Management Entity (development files)
+url	https://github.com/sailfishos/libdsme
+license	LGPL-2.1-or-later
+size	7898
+installed-size	23912
+depends	check-dev glib-dev libdsme=0.67.0-r0 pkgconfig
+origin	libdsme
+repo	community
+file	libdsme-dev-0.67.0-r0.apk
+checksum	Q1YASnuSxFBKovlsA9ka0h9DT9ciM=
+dep	check-dev	check-dev
+dep	glib-dev	glib-dev
+dep	libdsme=0.67.0-r0	libdsme
+dep	pkgconfig	pkgconf

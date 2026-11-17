@@ -1,0 +1,14 @@
+name	docbook-xml
+version	4.5-r10
+description	A widely used XML scheme for writing documentation and help
+url	https://scrollkeeper.sourceforge.net/docbook.shtml
+license	MIT
+size	348064
+installed-size	2057485
+depends	libxml2-utils /bin/sh
+origin	docbook-xml
+repo	main
+file	docbook-xml-4.5-r10.apk
+checksum	Q1CJbG8Wb8J3YRY2Hfa5fa3TjT500=
+dep	libxml2-utils	libxml2-utils
+dep	/bin/sh	busybox-binsh

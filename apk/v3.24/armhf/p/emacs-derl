@@ -1,0 +1,13 @@
+name	emacs-derl
+version	0_git20231004-r2
+description	Emacs implementation of the Erlang distribution protocol
+url	https://github.com/axelf4/earl
+license	GPL-3.0-or-later
+size	23951
+installed-size	95789
+depends	cmd:emacs
+origin	emacs-derl
+repo	community
+file	emacs-derl-0_git20231004-r2.apk
+checksum	Q1KvAcoN4IG40rbbnFYMxkaUL5z8k=
+dep	cmd:emacs	emacs-gtk3

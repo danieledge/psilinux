@@ -1,0 +1,13 @@
+name	qbe
+version	1.2-r4
+description	A simple C compiler backend
+url	https://c9x.me/compile/
+license	MIT
+size	87468
+installed-size	166884
+depends	so:libc.musl-armhf.so.1
+origin	qbe
+repo	community
+file	qbe-1.2-r4.apk
+checksum	Q1wLaeKW2BDtAF40Vo0dgvLSVtQIQ=
+dep	so:libc.musl-armhf.so.1	musl

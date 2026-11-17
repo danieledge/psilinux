@@ -1,0 +1,13 @@
+name	networkmanager-dnsmasq
+version	1.52.2-r0
+description	Support for NetworkManager dnsmasq features
+url	https://networkmanager.dev
+license	GPL-2.0-or-later
+size	1299
+installed-size	0
+depends	dnsmasq-dnssec-dbus
+origin	networkmanager
+repo	community
+file	networkmanager-dnsmasq-1.52.2-r0.apk
+checksum	Q18MEmLVb4gazpu9eQ1OTgsn0z4n8=
+dep	dnsmasq-dnssec-dbus	dnsmasq-dnssec-dbus

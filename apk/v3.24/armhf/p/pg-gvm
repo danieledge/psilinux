@@ -1,0 +1,15 @@
+name	pg-gvm
+version	22.6.17-r1
+description	Greenbone Library for helper functions in PostgreSQL
+url	https://github.com/greenbone/pg-gvm
+license	GPL-3.0
+size	9011
+installed-size	18097
+depends	so:libc.musl-armhf.so.1 so:libgvm_base.so.23 so:libical.so.3
+origin	pg-gvm
+repo	community
+file	pg-gvm-22.6.17-r1.apk
+checksum	Q1HhaTZ02ao27SYeaB5xiftmKKd4I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgvm_base.so.23	gvm-libs
+dep	so:libical.so.3	libical

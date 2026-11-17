@@ -1,0 +1,16 @@
+name	freeradius-rest
+version	3.0.27-r3
+description	REST module for FreeRADIUS server
+url	https://freeradius.org/
+license	GPL-2.0-or-later
+size	24070
+installed-size	53650
+depends	freeradius=3.0.27-r3 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libjson-c.so.5
+origin	freeradius
+repo	main
+file	freeradius-rest-3.0.27-r3.apk
+checksum	Q1VfvhU3ZBZyfwS7mVseIV85CNeBo=
+dep	freeradius=3.0.27-r3	freeradius
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libjson-c.so.5	json-c

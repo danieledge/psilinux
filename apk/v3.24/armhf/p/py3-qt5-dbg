@@ -1,0 +1,12 @@
+name	py3-qt5-dbg
+version	5.15.11-r1
+description	A set of Python 3 bindings for the Qt toolkit (debug symbols)
+url	https://www.riverbankcomputing.com/software/pyqt/
+license	GPL-3.0-only
+size	175751548
+installed-size	393292884
+depends	!py3-qt5<5.15.11-r1 !py3-qt5>5.15.11-r1
+origin	py3-qt5
+repo	community
+file	py3-qt5-dbg-5.15.11-r1.apk
+checksum	Q1ySYD0oB75RTZoYN7H7CFunfHMz4=

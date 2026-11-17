@@ -1,0 +1,13 @@
+name	pup
+version	0.4.0-r43
+description	HTML parser for the command line
+url	https://github.com/ericchiang/pup
+license	MIT
+size	1405474
+installed-size	3291888
+depends	so:libc.musl-armhf.so.1
+origin	pup
+repo	community
+file	pup-0.4.0-r43.apk
+checksum	Q1f3AuAKWOQw0OplQRPKwKGndUQPA=
+dep	so:libc.musl-armhf.so.1	musl

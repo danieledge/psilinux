@@ -1,0 +1,16 @@
+name	py3-pytest-covdefaults
+version	2.3.0-r2
+description	Coverage plugin to provide sensible default settings
+url	https://github.com/asottile/covdefaults
+license	MIT
+size	6259
+installed-size	10973
+depends	py3-coverage py3-pytest python3 python3~3.14
+origin	py3-pytest-covdefaults
+repo	community
+file	py3-pytest-covdefaults-2.3.0-r2.apk
+checksum	Q1pRkOcVJwujmN1b6a2OzYseYunZQ=
+dep	py3-coverage	py3-coverage
+dep	py3-pytest	py3-pytest
+dep	python3	python3
+dep	python3~3.14	python3

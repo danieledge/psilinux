@@ -1,0 +1,16 @@
+name	qca-qt6-dev
+version	2.3.10-r0
+description	Qt cryptographic architecture
+url	https://userbase.kde.org/QCA
+license	LGPL-2.1-or-later
+size	98654
+installed-size	463542
+depends	cyrus-sasl-dev qt6-qt5compat-dev qt6-qtbase-dev libqca-qt6=2.3.10-r0
+origin	qca
+repo	community
+file	qca-qt6-dev-2.3.10-r0.apk
+checksum	Q1a2ECa2wpLrFBVBuYt232uMx3O7E=
+dep	cyrus-sasl-dev	cyrus-sasl-dev
+dep	qt6-qt5compat-dev	qt6-qt5compat-dev
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	libqca-qt6=2.3.10-r0	libqca-qt6

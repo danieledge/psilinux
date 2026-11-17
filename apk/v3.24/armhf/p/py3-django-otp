@@ -1,0 +1,15 @@
+name	py3-django-otp
+version	1.7.0-r2
+description	A pluggable framework for adding two-factor authentication to Django using one-time passwords.
+url	https://pypi.python.org/project/django-otp
+license	BSD-2-Clause
+size	53115
+installed-size	169349
+depends	py3-django py3-qrcode python3~3.14
+origin	py3-django-otp
+repo	community
+file	py3-django-otp-1.7.0-r2.apk
+checksum	Q1Pt3jiRft1IRRP6VzaoNJb7MW0jY=
+dep	py3-django	py3-django
+dep	py3-qrcode	py3-qrcode
+dep	python3~3.14	python3

@@ -1,0 +1,16 @@
+name	codeberg-cli
+version	0.5.5-r2
+description	CLI Tool for Codeberg similar to gh and glab
+url	https://codeberg.org/RobWalt/codeberg-cli
+license	AGPL-3.0-or-later
+size	2573984
+installed-size	5104160
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
+origin	codeberg-cli
+repo	community
+file	codeberg-cli-0.5.5-r2.apk
+checksum	Q13WCYvMgZ0xL7x5MPC04A3BpV2aw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3

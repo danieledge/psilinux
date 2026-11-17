@@ -1,0 +1,13 @@
+name	libsigsegv
+version	2.15-r0
+description	Page fault detection library
+url	https://www.gnu.org/software/libsigsegv/
+license	GPL-2.0-or-later
+size	6744
+installed-size	13436
+depends	so:libc.musl-armhf.so.1
+origin	libsigsegv
+repo	community
+file	libsigsegv-2.15-r0.apk
+checksum	Q18DXPo6Zlo1ZgEjxCc5xsB2iShHs=
+dep	so:libc.musl-armhf.so.1	musl

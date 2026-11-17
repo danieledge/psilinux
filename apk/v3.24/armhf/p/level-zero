@@ -1,0 +1,17 @@
+name	level-zero
+version	1.22.4-r2
+description	oneAPI Level Zero Specification Headers and Loader 
+url	https://github.com/oneapi-src/level-zero
+license	MIT
+size	606263
+installed-size	3692447
+depends	pkgconfig so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libspdlog.so.1.17 so:libstdc++.so.6
+origin	level-zero
+repo	community
+file	level-zero-1.22.4-r2.apk
+checksum	Q1hdGEthNX5BHCtutr1M9wlyoo89U=
+dep	pkgconfig	pkgconf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libspdlog.so.1.17	spdlog
+dep	so:libstdc++.so.6	libstdc++

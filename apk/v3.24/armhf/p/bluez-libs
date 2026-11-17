@@ -1,0 +1,13 @@
+name	bluez-libs
+version	5.86-r2
+description	Tools for the Bluetooth protocol stack (libraries)
+url	https://www.bluez.org/
+license	GPL-2.0-or-later AND BSD-2-Clause AND MIT
+size	71658
+installed-size	177340
+depends	so:libc.musl-armhf.so.1
+origin	bluez
+repo	main
+file	bluez-libs-5.86-r2.apk
+checksum	Q1EEN4lu8VZ432zXo/g7HZa/wSjAA=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	rust-clippy-doc
+version	1.96.1-r0
+description	Rust Code Linter (documentation)
+url	https://www.rust-lang.org/
+license	Apache-2.0 OR MIT
+size	85733
+installed-size	265227
+depends	gcc musl-dev
+origin	rust
+repo	main
+file	rust-clippy-doc-1.96.1-r0.apk
+checksum	Q1LzowU8iWr/bsvyPZHLfo+4s9oXI=
+dep	gcc	gcc
+dep	musl-dev	musl-dev

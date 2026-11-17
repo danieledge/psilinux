@@ -1,0 +1,13 @@
+name	hunspell-en-tt
+version	2020.12.07-r4
+description	English hunspell dictionaries (TT only)
+url	http://wordlist.aspell.net/dicts/
+license	custom
+size	1647
+installed-size	1
+depends	hunspell-en-gb=2020.12.07-r4
+origin	hunspell-en
+repo	main
+file	hunspell-en-tt-2020.12.07-r4.apk
+checksum	Q1a5Tj4qrqyfPBbMP87c86sj6+M9g=
+dep	hunspell-en-gb=2020.12.07-r4	hunspell-en-gb

@@ -1,0 +1,14 @@
+name	prometheus-postgres-exporter
+version	0.19.1-r0
+description	Prometheus exporter for PostgreSQL database
+url	https://github.com/prometheus-community/postgres_exporter
+license	Apache-2.0
+size	5482829
+installed-size	14623172
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	prometheus-postgres-exporter
+repo	community
+file	prometheus-postgres-exporter-0.19.1-r0.apk
+checksum	Q1rAkjaNCT4sMAqH/o1uP/UGewlSk=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

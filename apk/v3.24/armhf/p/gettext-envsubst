@@ -1,0 +1,14 @@
+name	gettext-envsubst
+version	1.0-r0
+description	GNU gettext envsubst binary
+url	https://www.gnu.org/software/gettext/gettext.html
+license	GPL-3.0-or-later AND LGPL-2.1-or-later AND MIT
+size	20156
+installed-size	38128
+depends	so:libc.musl-armhf.so.1 so:libintl.so.8
+origin	gettext
+repo	main
+file	gettext-envsubst-1.0-r0.apk
+checksum	Q1CuiTZCNK8Ft3OTaH3FZXQC1Jylk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libintl.so.8	libintl

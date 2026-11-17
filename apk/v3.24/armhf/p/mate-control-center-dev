@@ -1,0 +1,13 @@
+name	mate-control-center-dev
+version	1.28.0-r0
+description	MATE's main interface for configuration of various aspects of your desktop (development files)
+url	https://github.com/mate-desktop/mate-control-center
+license	GPL-2.0-or-later
+size	1908
+installed-size	487
+depends	pkgconfig
+origin	mate-control-center
+repo	community
+file	mate-control-center-dev-1.28.0-r0.apk
+checksum	Q1y58xHhgBnejz5BTFJZHtdFw1pCE=
+dep	pkgconfig	pkgconf

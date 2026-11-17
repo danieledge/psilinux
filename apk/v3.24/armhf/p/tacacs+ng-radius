@@ -1,0 +1,14 @@
+name	tacacs+ng-radius
+version	0_git20241212-r1
+description	MAVIS RADIUS backend based on radcli for TACACS+ NG
+url	https://www.pro-bono-publico.de/projects/tac_plus-ng.html
+license	MIT AND BSD-2-Clause
+size	5695
+installed-size	13592
+depends	so:libc.musl-armhf.so.1 so:libradcli.so.6
+origin	tacacs+ng
+repo	community
+file	tacacs+ng-radius-0_git20241212-r1.apk
+checksum	Q1UbbbAvOu6Bld3v39YVYP+sZdEQY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libradcli.so.6	radcli

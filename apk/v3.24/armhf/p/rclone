@@ -1,0 +1,13 @@
+name	rclone
+version	1.75.2-r0
+description	Rsync for cloud storage
+url	https://rclone.org/
+license	MIT
+size	37808374
+installed-size	107087020
+depends	so:libc.musl-armhf.so.1
+origin	rclone
+repo	community
+file	rclone-1.75.2-r0.apk
+checksum	Q1y3uhSDZJUbWqRwJbmPQjsWvH5Lg=
+dep	so:libc.musl-armhf.so.1	musl

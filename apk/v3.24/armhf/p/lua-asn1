@@ -1,0 +1,14 @@
+name	lua-asn1
+version	2.2.1-r1
+description	ASN.1 framework for Lua
+url	https://github.com/kunkku/lua-asn1
+license	MIT
+size	5623
+installed-size	13268
+depends	lua-bit32 lua-stringy
+origin	lua-asn1
+repo	main
+file	lua-asn1-2.2.1-r1.apk
+checksum	Q1nCSHDD4GO73BdpiqVIs7T3VFs/A=
+dep	lua-bit32	lua-bit32
+dep	lua-stringy	lua-stringy

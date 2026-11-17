@@ -1,0 +1,13 @@
+name	spirv-headers
+version	1.4.341.0-r0
+description	Machine-readable files for the SPIR-V Registry
+url	https://github.com/KhronosGroup/SPIRV-Headers
+license	MIT-Khronos-old AND MIT
+size	481641
+installed-size	3615047
+depends	pkgconfig
+origin	spirv-headers
+repo	main
+file	spirv-headers-1.4.341.0-r0.apk
+checksum	Q1sFgyJdXezcVQ/NSdWfKKHqczEyo=
+dep	pkgconfig	pkgconf

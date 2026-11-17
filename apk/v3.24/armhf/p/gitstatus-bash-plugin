@@ -1,0 +1,14 @@
+name	gitstatus-bash-plugin
+version	1.5.5-r0
+description	Git status for Bash prompt
+url	https://github.com/romkatv/gitstatus
+license	GPL-3.0-or-later
+size	8764
+installed-size	24667
+depends	gitstatus=1.5.5-r0 bash
+origin	gitstatus
+repo	community
+file	gitstatus-bash-plugin-1.5.5-r0.apk
+checksum	Q1Cbu9mL76nE5oOT5CdiQlMwVi+24=
+dep	gitstatus=1.5.5-r0	gitstatus
+dep	bash	bash

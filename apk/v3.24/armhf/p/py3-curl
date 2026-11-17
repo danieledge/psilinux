@@ -1,0 +1,17 @@
+name	py3-curl
+version	7.45.7-r1
+description	Python3 interface to libcurl
+url	http://pycurl.io/
+license	LGPL-2.0-or-later OR MIT
+size	74438
+installed-size	191687
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libssl.so.3
+origin	py3-curl
+repo	community
+file	py3-curl-7.45.7-r1.apk
+checksum	Q18qDkXlplq8Xd21d7B3zxrN5eVI0=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libssl.so.3	libssl3

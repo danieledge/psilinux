@@ -1,0 +1,21 @@
+name	karchive
+version	6.26.0-r0
+description	Qt addon providing access to numerous types of archives
+url	https://community.kde.org/Frameworks
+license	LGPL-2.0-or-later AND LGPL-2.1-or-later
+size	119697
+installed-size	284426
+depends	so:libQt6Core.so.6 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:liblzma.so.5 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
+origin	karchive
+repo	community
+file	karchive-6.26.0-r0.apk
+checksum	Q1j61e8BJoRQ7BRq3izDB3koUxAvY=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblzma.so.5	xz-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

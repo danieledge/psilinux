@@ -1,0 +1,16 @@
+name	perl-moo
+version	2.005005-r1
+description	Minimalist Object Orientation (with Moose compatibility)
+url	https://metacpan.org/release/Moo/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	33492
+installed-size	100003
+depends	perl perl-class-method-modifiers perl-sub-quote perl-role-tiny
+origin	perl-moo
+repo	main
+file	perl-moo-2.005005-r1.apk
+checksum	Q1B6VAqKq+hRfOxmeLqazpQVNz5Fk=
+dep	perl	perl
+dep	perl-class-method-modifiers	perl-class-method-modifiers
+dep	perl-sub-quote	perl-sub-quote
+dep	perl-role-tiny	perl-role-tiny

@@ -1,0 +1,15 @@
+name	sexpp
+version	0.9.2-r0
+description	S-Expressions parser and generator library in C++
+url	https://github.com/rnpgp/sexpp
+license	MIT
+size	21069
+installed-size	50560
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	sexpp
+repo	community
+file	sexpp-0.9.2-r0.apk
+checksum	Q1uCV8Oo6cCOYeIUHlVAcs3kZcxvE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

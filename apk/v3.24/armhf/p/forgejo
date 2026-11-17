@@ -1,0 +1,17 @@
+name	forgejo
+version	15.0.11-r0
+description	Self-hosted Git service written in Go
+url	https://forgejo.org
+license	GPL-3.0-or-later
+size	47016308
+installed-size	117389790
+depends	git git-lfs gnupg /bin/sh so:libc.musl-armhf.so.1
+origin	forgejo
+repo	community
+file	forgejo-15.0.11-r0.apk
+checksum	Q1OjuO7ZexS3aAZFQtZCeLeEirix0=
+dep	git	git
+dep	git-lfs	git-lfs
+dep	gnupg	gnupg
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	geany-plugins-xmlsnippets
+version	2.1-r0
+description	Extends XML/HTML tag autocompletion provided by Geany
+url	https://plugins.geany.org/
+license	GPL-3.0-or-later
+size	5429
+installed-size	9368
+depends	so:libc.musl-armhf.so.1 so:libgeany.so.0 so:libglib-2.0.so.0
+origin	geany-plugins
+repo	community
+file	geany-plugins-xmlsnippets-2.1-r0.apk
+checksum	Q1bkeTZ9FHPj1JN7N5YF0/pYh70oY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgeany.so.0	geany
+dep	so:libglib-2.0.so.0	glib

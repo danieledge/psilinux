@@ -1,0 +1,17 @@
+name	qgpgme
+version	2.0.0-r1
+description	gnupg made easy
+url	https://www.gnupg.org/related_software/gpgme/
+license	LGPL-2.1-or-later AND GPL-3.0-or-later
+size	412856
+installed-size	1440508
+depends	so:libQt6Core.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgpgmepp.so.7 so:libstdc++.so.6
+origin	qgpgme
+repo	community
+file	qgpgme-2.0.0-r1.apk
+checksum	Q1QX0/gmAHG/ImgUmXk50IrNxDlnw=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgpgmepp.so.7	gpgmepp
+dep	so:libstdc++.so.6	libstdc++

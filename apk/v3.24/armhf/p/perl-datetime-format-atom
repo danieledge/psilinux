@@ -1,0 +1,14 @@
+name	perl-datetime-format-atom
+version	1.8.0-r1
+description	Parse and format Atom datetime strings
+url	https://metacpan.org/release/DateTime-Format-Atom/
+license	CC0-1.0
+size	3235
+installed-size	3847
+depends	perl perl-datetime-format-rfc3339
+origin	perl-datetime-format-atom
+repo	community
+file	perl-datetime-format-atom-1.8.0-r1.apk
+checksum	Q1kWj37V2IlzqNQXrryHWenepEYQ4=
+dep	perl	perl
+dep	perl-datetime-format-rfc3339	perl-datetime-format-rfc3339

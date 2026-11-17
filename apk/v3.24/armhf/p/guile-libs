@@ -1,0 +1,17 @@
+name	guile-libs
+version	3.0.9-r2
+description	portable, embeddable Scheme implementation written in C (libraries)
+url	https://www.gnu.org/software/guile/
+license	LGPL-3.0-or-later AND GPL-3.0-or-later
+size	540467
+installed-size	1230825
+depends	so:libc.musl-armhf.so.1 so:libffi.so.8 so:libgc.so.1 so:libgmp.so.10 so:libunistring.so.5
+origin	guile
+repo	main
+file	guile-libs-3.0.9-r2.apk
+checksum	Q1ZW63NY4L8iSbgIEa0g6yHAB2brE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libffi.so.8	libffi
+dep	so:libgc.so.1	gc
+dep	so:libgmp.so.10	gmp
+dep	so:libunistring.so.5	libunistring

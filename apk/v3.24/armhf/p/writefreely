@@ -1,0 +1,15 @@
+name	writefreely
+version	0.15.1-r17
+description	Federated blogging from write.as
+url	https://writefreely.org
+license	AGPL-3.0-or-later
+size	12693329
+installed-size	39109660
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	writefreely
+repo	community
+file	writefreely-0.15.1-r17.apk
+checksum	Q1tcd5Fcz0Xa0C0mv7x+q6tpSRUps=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

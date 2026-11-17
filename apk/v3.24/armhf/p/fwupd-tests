@@ -1,0 +1,23 @@
+name	fwupd-tests
+version	2.0.20-r4
+description	Firmware update daemon (data files for installed tests)
+url	https://fwupd.org/
+license	LGPL-2.1-or-later
+size	569688
+installed-size	1701847
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libfwupd.so.3 so:libfwupdplugin.so so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgnutls.so.30 so:libgobject-2.0.so.0 so:libjson-glib-1.0.so.0 so:libtss2-esys.so.0 so:libxmlb.so.2
+origin	fwupd
+repo	community
+file	fwupd-tests-2.0.20-r4.apk
+checksum	Q12RDt8CEVHaS2WVT72cKsUHtqJak=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libfwupd.so.3	fwupd
+dep	so:libfwupdplugin.so	fwupd
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgnutls.so.30	gnutls
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libtss2-esys.so.0	tpm2-tss-esys
+dep	so:libxmlb.so.2	libxmlb

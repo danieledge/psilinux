@@ -1,0 +1,13 @@
+name	py3-boto3-pyc
+version	1.43.6-r0
+description	Precompiled Python bytecode for py3-boto3
+url	https://aws.amazon.com/sdk-for-python/
+license	Apache-2.0
+size	115837
+installed-size	321152
+depends	python3~3.14
+origin	py3-boto3
+repo	community
+file	py3-boto3-pyc-1.43.6-r0.apk
+checksum	Q1rgb0CcvH0BpkCtuhvz0+f203LJY=
+dep	python3~3.14	python3

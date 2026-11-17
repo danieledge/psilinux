@@ -1,0 +1,13 @@
+name	libcbor
+version	0.13.0-r0
+description	CBOR protocol implementation for C
+url	https://github.com/PJK/libcbor
+license	MIT
+size	18794
+installed-size	46360
+depends	so:libc.musl-armhf.so.1
+origin	libcbor
+repo	main
+file	libcbor-0.13.0-r0.apk
+checksum	Q1JO9afb55bUo2YY8knqIUutHaH50=
+dep	so:libc.musl-armhf.so.1	musl

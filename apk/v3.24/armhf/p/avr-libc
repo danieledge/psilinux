@@ -1,0 +1,13 @@
+name	avr-libc
+version	2.3.1-r0
+description	The C runtime library for the AVR family of microcontrollers
+url	https://github.com/avrdudes/avr-libc
+license	BSD-3-Clause
+size	24431613
+installed-size	151596112
+depends	gcc-avr
+origin	avr-libc
+repo	community
+file	avr-libc-2.3.1-r0.apk
+checksum	Q1QY0afIlFNi3zhRsTq2k9CYjn9iU=
+dep	gcc-avr	gcc-avr

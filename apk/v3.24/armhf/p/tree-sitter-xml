@@ -1,0 +1,13 @@
+name	tree-sitter-xml
+version	0.7.0-r1
+description	XML & DTD grammars for tree-sitter
+url	https://github.com/ObserverOfTime/tree-sitter-xml
+license	MIT
+size	30304
+installed-size	80504
+depends	so:libc.musl-armhf.so.1
+origin	tree-sitter-xml
+repo	community
+file	tree-sitter-xml-0.7.0-r1.apk
+checksum	Q1IQXPmVyPEzcYJ/ee1NefsGujgNM=
+dep	so:libc.musl-armhf.so.1	musl

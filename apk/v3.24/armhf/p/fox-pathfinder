@@ -1,0 +1,16 @@
+name	fox-pathfinder
+version	1.6.59-r0
+description	Free Objects for X - fast file manager
+url	http://www.fox-toolkit.org
+license	LGPL-3.0-or-later
+size	59240
+installed-size	189876
+depends	so:libFOX-1.6.so.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	fox
+repo	community
+file	fox-pathfinder-1.6.59-r0.apk
+checksum	Q1WiskLkPfZWvAQe7WEqDdGnCPY2s=
+dep	so:libFOX-1.6.so.0	fox
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

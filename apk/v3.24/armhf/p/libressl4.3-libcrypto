@@ -1,0 +1,13 @@
+name	libressl4.3-libcrypto
+version	4.3.1-r0
+description	libressl libcrypto library
+url	https://www.libressl.org/
+license	custom
+size	630195
+installed-size	1358923
+depends	so:libc.musl-armhf.so.1
+origin	libressl
+repo	community
+file	libressl4.3-libcrypto-4.3.1-r0.apk
+checksum	Q1q6AabrZsgeJHIadgNIqzbPb+1jE=
+dep	so:libc.musl-armhf.so.1	musl

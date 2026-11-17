@@ -1,0 +1,13 @@
+name	perl-crypt-cast5
+version	0.05-r14
+description	CAST5 block cipher
+url	https://metacpan.org/release/Crypt-CAST5
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	19779
+installed-size	28521
+depends	so:libc.musl-armhf.so.1
+origin	perl-crypt-cast5
+repo	community
+file	perl-crypt-cast5-0.05-r14.apk
+checksum	Q16tgzdYjd5owqPPfyqI6w0DN8axw=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	py3-xmlschema
+version	4.3.1-r2
+description	XML schema validator and conversion library
+url	https://github.com/sissaschool/xmlschema
+license	MIT
+size	406836
+installed-size	2088140
+depends	py3-elementpath python3~3.14
+origin	py3-xmlschema
+repo	main
+file	py3-xmlschema-4.3.1-r2.apk
+checksum	Q1Zv4r5tHNDUJ5BHmAjSUxSW3lfZ4=
+dep	py3-elementpath	py3-elementpath
+dep	python3~3.14	python3

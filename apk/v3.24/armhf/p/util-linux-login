@@ -1,0 +1,20 @@
+name	util-linux-login
+version	2.42.3-r1
+description	Login utils from util-linux package: newgrp, last, lastb, lastlog2, login, lslogins, nologin, su, sulogin
+url	https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+license	GPL-2.0-or-later AND BSD-1-Clause
+size	83813
+installed-size	195134
+depends	runuser=2.42.3-r1 so:libc.musl-armhf.so.1 so:libeconf.so.0 so:liblastlog2.so.2 so:libpam.so.0 so:libpam_misc.so.0 so:libsmartcols.so.1 so:libutmps.so.0.1
+origin	util-linux
+repo	main
+file	util-linux-login-2.42.3-r1.apk
+checksum	Q1u5qqeTZoWkai3KVYrX0agGJ4E08=
+dep	runuser=2.42.3-r1	runuser
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libeconf.so.0	libeconf
+dep	so:liblastlog2.so.2	liblastlog2
+dep	so:libpam.so.0	linux-pam
+dep	so:libpam_misc.so.0	linux-pam
+dep	so:libsmartcols.so.1	libsmartcols
+dep	so:libutmps.so.0.1	utmps-libs

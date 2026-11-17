@@ -1,0 +1,13 @@
+name	aha
+version	0.5.1-r3
+description	ANSI color to HTML converter
+url	https://github.com/theZiz/aha
+license	MPL-1.1
+size	12513
+installed-size	29868
+depends	so:libc.musl-armhf.so.1
+origin	aha
+repo	community
+file	aha-0.5.1-r3.apk
+checksum	Q1smKKwj4oFKPlwe60Jxf8bEZscCU=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,16 @@
+name	greetd-gtkgreet-config
+version	0.10.3-r11
+description	greetd config for agreety
+url	https://git.sr.ht/~kennylevinsen/greetd
+license	GPL-3.0-only
+size	1925
+installed-size	533
+depends	greetd=0.10.3-r11 cage seatd pam-rundir !greetd-agretty-config
+origin	greetd
+repo	community
+file	greetd-gtkgreet-config-0.10.3-r11.apk
+checksum	Q1cnRGwiRrOyP4eGIgcjD8L6SjUrc=
+dep	greetd=0.10.3-r11	greetd
+dep	cage	cage
+dep	seatd	seatd
+dep	pam-rundir	pam-rundir

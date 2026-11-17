@@ -1,0 +1,15 @@
+name	ccid
+version	1.7.0-r0
+description	USB CCID/ICCD SmartCard reader driver
+url	https://ccid.apdu.fr/
+license	LGPL-2.1-or-later
+size	111410
+installed-size	268253
+depends	pcsc-lite so:libc.musl-armhf.so.1 so:libusb-1.0.so.0
+origin	ccid
+repo	community
+file	ccid-1.7.0-r0.apk
+checksum	Q1xe8VT4hCUQ9IaHe9hkbkpDXzTpU=
+dep	pcsc-lite	pcsc-lite
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb

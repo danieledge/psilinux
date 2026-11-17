@@ -1,0 +1,26 @@
+name	dissent
+version	0.0.37-r7
+description	Lightweight and modern Discord client
+url	https://libdb.so/dissent
+license	GPL-3.0-or-later
+size	14519191
+installed-size	66702225
+depends	so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcairo-gobject.so.2 so:libcairo.so.2 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libgtksourceview-5.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libspelling-1.so.2
+origin	dissent
+repo	community
+file	dissent-0.0.37-r7.apk
+checksum	Q1PsFs8x6vj6mPBcp/LIsFRZhHyCQ=
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo-gobject.so.2	cairo-gobject
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libgtksourceview-5.so.0	gtksourceview5
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libspelling-1.so.2	libspelling

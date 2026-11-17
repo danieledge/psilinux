@@ -1,0 +1,15 @@
+name	ocaml-mew_vi-dev
+version	0.5.0-r6
+description	Modal editing witch (VI interpreter) (development files)
+url	https://github.com/kandu/mew_vi
+license	MIT
+size	302992
+installed-size	754538
+depends	ocaml-mew_vi=0.5.0-r6 ocaml-mew-dev ocaml-react-dev
+origin	ocaml-mew_vi
+repo	community
+file	ocaml-mew_vi-dev-0.5.0-r6.apk
+checksum	Q1zXvF09VnaGBUBv4uO1bPn+1Faic=
+dep	ocaml-mew_vi=0.5.0-r6	ocaml-mew_vi
+dep	ocaml-mew-dev	ocaml-mew-dev
+dep	ocaml-react-dev	ocaml-react-dev

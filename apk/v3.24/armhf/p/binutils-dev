@@ -1,0 +1,13 @@
+name	binutils-dev
+version	2.45.1-r1
+description	Tools necessary to build programs (development files)
+url	https://www.gnu.org/software/binutils/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-3-Clause
+size	1038221
+installed-size	2793173
+depends	binutils=2.45.1-r1
+origin	binutils
+repo	main
+file	binutils-dev-2.45.1-r1.apk
+checksum	Q1tMkXC5gtIpqnqOiZM/VZj6LRc3o=
+dep	binutils=2.45.1-r1	binutils

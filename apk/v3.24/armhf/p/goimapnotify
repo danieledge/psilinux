@@ -1,0 +1,13 @@
+name	goimapnotify
+version	2.5.4-r5
+description	execute scripts on IMAP mailbox changes using IDLE, golang version
+url	https://gitlab.com/shackra/goimapnotify
+license	GPL-3.0-or-later
+size	3743859
+installed-size	9343820
+depends	so:libc.musl-armhf.so.1
+origin	goimapnotify
+repo	community
+file	goimapnotify-2.5.4-r5.apk
+checksum	Q1svnz0W70tfYLdUfKUrhG5638WDw=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	rust-gdb
+version	1.96.1-r0
+description	GDB pretty printers for Rust
+url	https://rustc-dev-guide.rust-lang.org/debugging-support-in-rustc.html
+license	Apache-2.0 OR MIT
+size	7709
+installed-size	23492
+depends	rust=1.96.1-r0 gdb
+origin	rust
+repo	main
+file	rust-gdb-1.96.1-r0.apk
+checksum	Q17n4BiLDlkdVDZb9xGrvjzzPa63M=
+dep	rust=1.96.1-r0	rust
+dep	gdb	gdb

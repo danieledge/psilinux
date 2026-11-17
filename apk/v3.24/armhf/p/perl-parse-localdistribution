@@ -1,0 +1,14 @@
+name	perl-parse-localdistribution
+version	0.20-r1
+description	Parse local .pm files as PAUSE does
+url	https://metacpan.org/release/Parse-LocalDistribution/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6609
+installed-size	13650
+depends	perl perl-parse-pmfile
+origin	perl-parse-localdistribution
+repo	community
+file	perl-parse-localdistribution-0.20-r1.apk
+checksum	Q1cd/Y4OSO4+xh5cbK47vQl7p4HKI=
+dep	perl	perl
+dep	perl-parse-pmfile	perl-parse-pmfile

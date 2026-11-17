@@ -1,0 +1,14 @@
+name	perl-file-fcntllock
+version	0.22-r3
+description	File locking with fcntl(2)
+url	https://metacpan.org/release/File-FcntlLock/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	10112
+installed-size	28833
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-file-fcntllock
+repo	community
+file	perl-file-fcntllock-0.22-r3.apk
+checksum	Q1S5vTwSfLhPADeXRgd5xz/eSXgTI=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	sslscan
+version	2.2.2-r0
+description	fast SSL/TLS configuration scanner
+url	https://github.com/rbsec/sslscan
+license	GPL-3.0-or-later OpenSSL
+size	51097
+installed-size	146620
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	sslscan
+repo	community
+file	sslscan-2.2.2-r0.apk
+checksum	Q1baPyA+LNCrLbFzEJhbXCu4JPCWo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

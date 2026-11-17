@@ -1,0 +1,16 @@
+name	weston-shell-ivi
+version	14.0.2-r5
+description	Weston shell: ivi
+url	https://wayland.freedesktop.org/
+license	MIT
+size	19361
+installed-size	38348
+depends	so:libc.musl-armhf.so.1 so:libexec_weston.so.0 so:libwayland-server.so.0 so:libweston-14.so.0
+origin	weston
+repo	community
+file	weston-shell-ivi-14.0.2-r5.apk
+checksum	Q1OsWrTu5ynYHNAQZbEo5WrYqT6uY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexec_weston.so.0	weston
+dep	so:libwayland-server.so.0	wayland-libs-server
+dep	so:libweston-14.so.0	libweston

@@ -1,0 +1,24 @@
+name	gst-editing-services
+version	1.28.3-r0
+description	GStreamer Editing Services Library
+url	https://gstreamer.freedesktop.org
+license	LGPL-2.0-or-later
+size	518833
+installed-size	1285815
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstcontroller-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libxml2.so.2
+origin	gst-editing-services
+repo	community
+file	gst-editing-services-1.28.3-r0.apk
+checksum	Q165Jjjz85Oe5Doxyq+8qxFOwt6R0=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstaudio-1.0.so.0	gst-plugins-base
+dep	so:libgstbase-1.0.so.0	gstreamer
+dep	so:libgstcontroller-1.0.so.0	gstreamer
+dep	so:libgstpbutils-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base
+dep	so:libxml2.so.2	libxml2

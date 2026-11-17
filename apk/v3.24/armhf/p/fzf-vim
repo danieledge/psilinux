@@ -1,0 +1,14 @@
+name	fzf-vim
+version	0.73.1-r2
+description	fzf vim plugin
+url	https://github.com/junegunn/fzf
+license	MIT
+size	18891
+installed-size	55468
+depends	vim /bin/sh
+origin	fzf
+repo	community
+file	fzf-vim-0.73.1-r2.apk
+checksum	Q1XEF2W+gNg7InVmniHCkfFM1MqzI=
+dep	vim	vim
+dep	/bin/sh	busybox-binsh

@@ -1,0 +1,14 @@
+name	duply
+version	2.5.6-r0
+description	Wrapper for duplicity
+url	https://duply.net
+license	GPL-2.0-or-later
+size	36555
+installed-size	103398
+depends	duplicity bash
+origin	duply
+repo	community
+file	duply-2.5.6-r0.apk
+checksum	Q1VLBgWuFE+5EjwHT5hyJst3cisW0=
+dep	duplicity	duplicity
+dep	bash	bash

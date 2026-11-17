@@ -1,0 +1,14 @@
+name	font-noto-cypro-minoan
+version	2026.11.01-r0
+description	Noto Sans Cypro Minoan font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	9145
+installed-size	12787
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-cypro-minoan-2026.11.01-r0.apk
+checksum	Q1dM5u9FE3VR8C1YTOCLvoAkVrAfc=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

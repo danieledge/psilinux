@@ -1,0 +1,19 @@
+name	gnome-software-plugin-apk2
+version	0.0.3-r1
+description	Yet Another APK plugin for GNOME Software
+url	https://github.com/vixalien/gnome-software-plugin-apk2
+license	GPL-2.0-or-later
+size	22712
+installed-size	50965
+depends	so:libapk-polkit-client2.so.3 so:libappstream.so.5 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgnomesoftware.so.23 so:libgobject-2.0.so.0
+origin	gnome-software-plugin-apk2
+repo	community
+file	gnome-software-plugin-apk2-0.0.3-r1.apk
+checksum	Q1uPE6TYemu3qn9SDyReCH+EsjSMk=
+dep	so:libapk-polkit-client2.so.3	apk-polkit-rs
+dep	so:libappstream.so.5	appstream
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgnomesoftware.so.23	gnome-software-lib
+dep	so:libgobject-2.0.so.0	glib

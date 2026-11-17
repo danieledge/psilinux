@@ -1,0 +1,15 @@
+name	c-shquote-dev
+version	1.1.0-r0
+description	POSIX Shell Compatible Argument Parser (development files)
+url	https://github.com/c-util/c-shquote
+license	Apache-2.0 OR LGPL-2.1-or-later
+size	6266
+installed-size	10057
+depends	c-shquote=1.1.0-r0 pc:libcstdaux-1>=1.5.0 pkgconfig
+origin	c-shquote
+repo	community
+file	c-shquote-dev-1.1.0-r0.apk
+checksum	Q1rMF/OuKgChuiAkgvszf2WH+HZGA=
+dep	c-shquote=1.1.0-r0	c-shquote
+dep	pc:libcstdaux-1>=1.5.0	c-stdaux-dev
+dep	pkgconfig	pkgconf

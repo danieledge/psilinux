@@ -1,0 +1,13 @@
+name	libbytesize-tools
+version	2.12-r1
+description	Tools for libbytesize
+url	https://github.com/storaged-project/libbytesize
+license	LGPL-2.1-or-later
+size	3282
+installed-size	5278
+depends	py-libbytesize
+origin	libbytesize
+repo	community
+file	libbytesize-tools-2.12-r1.apk
+checksum	Q1gSf7v+xNWGzn/O6/kakGlbmuIdg=
+dep	py-libbytesize	py3-libbytesize

@@ -1,0 +1,15 @@
+name	mdbook-plantuml
+version	2.0.0-r0
+description	Preprocessor for mdbook to render PlantUML diagrams
+url	https://github.com/sytsereitsma/mdbook-plantuml
+license	MIT
+size	1196362
+installed-size	2307856
+depends	mdbook so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	mdbook-plantuml
+repo	community
+file	mdbook-plantuml-2.0.0-r0.apk
+checksum	Q1H6uME9rVchBBiWGQ1NxjYEXipJk=
+dep	mdbook	mdbook
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

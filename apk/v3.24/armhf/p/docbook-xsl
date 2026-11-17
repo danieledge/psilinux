@@ -1,0 +1,14 @@
+name	docbook-xsl
+version	1.79.2-r13
+description	XML stylesheets for Docbook-xml transformations
+url	https://docbook.org/
+license	LicenseRef-DMIT
+size	2747
+installed-size	1999
+depends	docbook-xsl-ns=1.79.2-r13 docbook-xsl-nons=1.79.2-r13
+origin	docbook-xsl
+repo	main
+file	docbook-xsl-1.79.2-r13.apk
+checksum	Q1MbTdIiFvGI9dKp5Jk0vZI2XJ4Ow=
+dep	docbook-xsl-ns=1.79.2-r13	docbook-xsl-ns
+dep	docbook-xsl-nons=1.79.2-r13	docbook-xsl-nons

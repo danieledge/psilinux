@@ -1,0 +1,16 @@
+name	fontconfig-dev
+version	2.17.1-r1
+description	Library for configuring and customizing font access (development files)
+url	https://www.freedesktop.org/wiki/Software/fontconfig
+license	MIT
+size	11946
+installed-size	43256
+depends	fontconfig=2.17.1-r1 pc:expat pc:freetype2>=21.0.15 pkgconfig
+origin	fontconfig
+repo	main
+file	fontconfig-dev-2.17.1-r1.apk
+checksum	Q12Q9Zg7CRCuJBGGQJBG32m1skkNg=
+dep	fontconfig=2.17.1-r1	fontconfig
+dep	pc:expat	expat-dev
+dep	pc:freetype2>=21.0.15	freetype-dev
+dep	pkgconfig	pkgconf

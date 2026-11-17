@@ -1,0 +1,13 @@
+name	liblksctp
+version	1.0.19-r5
+description	User-space access to Linux Kernel SCTP (libraries)
+url	https://lksctp.sourceforge.net/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	7604
+installed-size	15642
+depends	so:libc.musl-armhf.so.1
+origin	lksctp-tools
+repo	main
+file	liblksctp-1.0.19-r5.apk
+checksum	Q1/lmTDpeTqVRZ8a+1WQPOnoANtzA=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	py3-libcaca
+version	0.99_beta20-r5
+description	graphics library that outputs text instead of pixels (python bindings)
+url	http://caca.zoy.org/wiki/libcaca
+license	WTFPL
+size	15123
+installed-size	94243
+depends	libcaca=0.99_beta20-r5 python3~3.14
+origin	libcaca
+repo	community
+file	py3-libcaca-0.99_beta20-r5.apk
+checksum	Q1k3Ua6iGjKacHI+zFIE+8RGjYn6M=
+dep	libcaca=0.99_beta20-r5	libcaca
+dep	python3~3.14	python3

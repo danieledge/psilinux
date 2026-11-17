@@ -1,0 +1,15 @@
+name	audacious-dev
+version	4.5.1-r0
+description	A playlist-oriented media player with multiple interfaces (development files)
+url	https://audacious-media-player.org/
+license	BSD-2-Clause AND ISC
+size	45123
+installed-size	174591
+depends	qt6-qtbase-dev audacious=4.5.1-r0 pkgconfig
+origin	audacious
+repo	community
+file	audacious-dev-4.5.1-r0.apk
+checksum	Q1grkbSn5Lzg69V/joHvnL3KJZ5b8=
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	audacious=4.5.1-r0	audacious
+dep	pkgconfig	pkgconf

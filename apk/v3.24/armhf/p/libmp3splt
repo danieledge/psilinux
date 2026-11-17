@@ -1,0 +1,20 @@
+name	libmp3splt
+version	0.9.2-r5
+description	Library to split mp3 and ogg files without decoding
+url	https://mp3splt.sourceforge.net/
+license	GPL-2.0
+size	114330
+installed-size	242128
+depends	so:libc.musl-armhf.so.1 so:libid3tag.so.0 so:libltdl.so.7 so:libmad.so.0 so:libogg.so.0 so:libpcre.so.1 so:libvorbis.so.0 so:libvorbisfile.so.3
+origin	libmp3splt
+repo	community
+file	libmp3splt-0.9.2-r5.apk
+checksum	Q1amBEhberGIr2XjFIKp/mhzMr+KQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libid3tag.so.0	libid3tag
+dep	so:libltdl.so.7	libltdl
+dep	so:libmad.so.0	libmad
+dep	so:libogg.so.0	libogg
+dep	so:libpcre.so.1	pcre
+dep	so:libvorbis.so.0	libvorbis
+dep	so:libvorbisfile.so.3	libvorbis

@@ -1,0 +1,14 @@
+name	ssh-import-id
+version	5.11-r5
+description	Import SSH public keys from Github and Launchpad
+url	https://launchpad.net/ssh-import-id
+license	GPL-3.0-only
+size	20389
+installed-size	52145
+depends	py3-distro python3~3.14
+origin	ssh-import-id
+repo	community
+file	ssh-import-id-5.11-r5.apk
+checksum	Q1EEmSPty4xXtiJxpgZUnqqmxkLR8=
+dep	py3-distro	py3-distro
+dep	python3~3.14	python3

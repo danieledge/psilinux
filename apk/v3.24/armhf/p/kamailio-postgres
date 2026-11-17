@@ -1,0 +1,16 @@
+name	kamailio-postgres
+version	6.0.6-r0
+description	Database drivers for Postgres
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	124341
+installed-size	278976
+depends	kamailio kamailio-db so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	kamailio
+repo	main
+file	kamailio-postgres-6.0.6-r0.apk
+checksum	Q1YBtIJD6FvdDd29KDTZhbLBqBCS8=
+dep	kamailio	kamailio
+dep	kamailio-db	kamailio-db
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

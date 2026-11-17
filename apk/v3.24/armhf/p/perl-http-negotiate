@@ -1,0 +1,14 @@
+name	perl-http-negotiate
+version	6.01-r5
+description	HTTP::Negotiate perl module
+url	https://metacpan.org/release/HTTP-Negotiate/
+license	Artistic-1.0-Perl OR GPL-1.0-or-later
+size	7758
+installed-size	16100
+depends	perl perl-http-message
+origin	perl-http-negotiate
+repo	main
+file	perl-http-negotiate-6.01-r5.apk
+checksum	Q1TMmNIRIR3M40ZkEPKiBve2l2v4o=
+dep	perl	perl
+dep	perl-http-message	perl-http-message

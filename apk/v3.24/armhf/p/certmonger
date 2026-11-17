@@ -1,0 +1,32 @@
+name	certmonger
+version	0.79.21-r0
+description	Certificate status monitor and PKI enrollment client
+url	https://pagure.io/certmonger
+license	GPL-3.0-or-later
+size	701443
+installed-size	1623315
+depends	gettext so:libc.musl-armhf.so.1 so:libcom_err.so.2 so:libcrypto.so.3 so:libcurl.so.4 so:libdbus-1.so.3 so:libgmp.so.10 so:libidn2.so.0 so:libjansson.so.4 so:libkrb5.so.3 so:libldap.so.2 so:libnspr4.so so:libnss3.so so:libnssutil3.so so:libpopt.so.0 so:libsmime3.so so:libtalloc.so.2 so:libtevent.so.0 so:libuuid.so.1 so:libxml2.so.2
+origin	certmonger
+repo	community
+file	certmonger-0.79.21-r0.apk
+checksum	Q1/wBnybDD3oe8FKLNhq7KNmDxiJU=
+dep	gettext	gettext
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcom_err.so.2	libcom_err
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libgmp.so.10	gmp
+dep	so:libidn2.so.0	libidn2
+dep	so:libjansson.so.4	jansson
+dep	so:libkrb5.so.3	krb5-libs
+dep	so:libldap.so.2	libldap
+dep	so:libnspr4.so	nspr
+dep	so:libnss3.so	nss
+dep	so:libnssutil3.so	nss
+dep	so:libpopt.so.0	popt
+dep	so:libsmime3.so	nss
+dep	so:libtalloc.so.2	talloc
+dep	so:libtevent.so.0	tevent
+dep	so:libuuid.so.1	libuuid
+dep	so:libxml2.so.2	libxml2

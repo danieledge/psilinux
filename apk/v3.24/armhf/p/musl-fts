@@ -1,0 +1,13 @@
+name	musl-fts
+version	1.2.7-r7
+description	fts(3) functions, which are missing in musl libc
+url	https://github.com/void-linux/musl-fts/
+license	BSD-3-Clause
+size	6986
+installed-size	13432
+depends	so:libc.musl-armhf.so.1
+origin	musl-fts
+repo	main
+file	musl-fts-1.2.7-r7.apk
+checksum	Q1L2kvNTdJSJT9BW/2p8YOcJHWqmY=
+dep	so:libc.musl-armhf.so.1	musl

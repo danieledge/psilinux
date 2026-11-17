@@ -1,0 +1,16 @@
+name	pam-u2f
+version	1.4.0-r0
+description	Pluggable Authentication Module (PAM) for U2F
+url	https://developers.yubico.com/pam-u2f/
+license	BSD-2-Clause
+size	35746
+installed-size	80432
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libfido2.so.1 so:libpam.so.0
+origin	pam-u2f
+repo	community
+file	pam-u2f-1.4.0-r0.apk
+checksum	Q1YiAGCsIjJpCqnqLKOX7DAL890nw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libfido2.so.1	libfido2
+dep	so:libpam.so.0	linux-pam

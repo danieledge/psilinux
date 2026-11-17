@@ -1,0 +1,13 @@
+name	libnl3-static
+version	3.11.0-r0
+description	Library for applications dealing with netlink sockets (static library)
+url	http://www.infradead.org/~tgr/libnl/
+license	LGPL-2.1-or-later
+size	426439
+installed-size	1420496
+depends	libnl3-dev
+origin	libnl3
+repo	main
+file	libnl3-static-3.11.0-r0.apk
+checksum	Q1n23hAK9uAgC0MQu3+ttLvDTDeDs=
+dep	libnl3-dev	libnl3-dev

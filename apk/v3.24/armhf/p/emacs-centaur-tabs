@@ -1,0 +1,14 @@
+name	emacs-centaur-tabs
+version	3.2_git20230601-r1
+description	Aesthetic, modern looking tabs plugin
+url	https://github.com/ema2159/centaur-tabs
+license	GPL-3.0-or-later
+size	56891
+installed-size	230758
+depends	cmd:emacs emacs-powerline
+origin	emacs-centaur-tabs
+repo	community
+file	emacs-centaur-tabs-3.2_git20230601-r1.apk
+checksum	Q1HEMIY1QlDb9R77OHNq3G2VkqY2Q=
+dep	cmd:emacs	emacs-gtk3
+dep	emacs-powerline	emacs-powerline

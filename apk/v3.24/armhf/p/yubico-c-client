@@ -1,0 +1,14 @@
+name	yubico-c-client
+version	2.15-r3
+description	Yubico C client library
+url	https://developers.yubico.com/yubico-c-client/
+license	BSD-2-Clause
+size	19640
+installed-size	39716
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4
+origin	yubico-c-client
+repo	community
+file	yubico-c-client-2.15-r3.apk
+checksum	Q1QaFEIS7XK0akW7lLXm1/Gy+GHCA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl

@@ -1,0 +1,14 @@
+name	acf-asterisk
+version	0.7.0-r4
+description	Web-based system administration interface for asterisk
+url	https://gitlab.alpinelinux.org/acf/acf-asterisk
+license	GPL-2.0-only
+size	3819
+installed-size	4783
+depends	acf-core asterisk
+origin	acf-asterisk
+repo	main
+file	acf-asterisk-0.7.0-r4.apk
+checksum	Q1RDeuojXN7HJRAfqlmOghh7Ng/sE=
+dep	acf-core	acf-core
+dep	asterisk	asterisk

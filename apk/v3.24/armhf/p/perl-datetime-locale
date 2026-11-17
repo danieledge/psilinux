@@ -1,0 +1,18 @@
+name	perl-datetime-locale
+version	1.46-r0
+description	Localization support for DateTime.pm
+url	https://metacpan.org/release/DateTime-Locale/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	420011
+installed-size	7629457
+depends	perl perl-dist-checkconflicts perl-file-sharedir perl-namespace-autoclean perl-params-validationcompiler perl-specio
+origin	perl-datetime-locale
+repo	main
+file	perl-datetime-locale-1.46-r0.apk
+checksum	Q1LypU83rcE2R4SAWJ03QnCayeIhY=
+dep	perl	perl
+dep	perl-dist-checkconflicts	perl-dist-checkconflicts
+dep	perl-file-sharedir	perl-file-sharedir
+dep	perl-namespace-autoclean	perl-namespace-autoclean
+dep	perl-params-validationcompiler	perl-params-validationcompiler
+dep	perl-specio	perl-specio

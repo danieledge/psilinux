@@ -1,0 +1,16 @@
+name	collectd-capabilities
+version	5.12.0-r25
+description	capabilities pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	6642
+installed-size	13488
+depends	collectd so:libc.musl-armhf.so.1 so:libjansson.so.4 so:libmicrohttpd.so.12
+origin	collectd
+repo	community
+file	collectd-capabilities-5.12.0-r25.apk
+checksum	Q1Dd0iy1Wpfk9aGSyDxZGCpVwkJiQ=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjansson.so.4	jansson
+dep	so:libmicrohttpd.so.12	libmicrohttpd

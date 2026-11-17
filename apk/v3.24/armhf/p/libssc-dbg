@@ -1,0 +1,12 @@
+name	libssc-dbg
+version	0.4.3-r0
+description	Library to expose Qualcomm Sensor Core sensors (debug symbols)
+url	https://codeberg.org/DylanVanAssche/libssc
+license	GPL-3.0-or-later
+size	115348
+installed-size	349820
+depends	!libssc<0.4.3-r0 !libssc>0.4.3-r0
+origin	libssc
+repo	community
+file	libssc-dbg-0.4.3-r0.apk
+checksum	Q1Diraqs0fuP4B/CMQy6poBLx0uC0=

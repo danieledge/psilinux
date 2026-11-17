@@ -1,0 +1,14 @@
+name	ostree-mkinitfs
+version	2025.7-r1
+description	ostree module for mkinitfs
+url	https://github.com/ostreedev/ostree
+license	LGPL-2.0-or-later
+size	1613
+installed-size	36
+depends	ostree=2025.7-r1 mkinitfs
+origin	ostree
+repo	community
+file	ostree-mkinitfs-2025.7-r1.apk
+checksum	Q1JGJEeFPPWWXxKnGR600C0Lcg+os=
+dep	ostree=2025.7-r1	ostree
+dep	mkinitfs	mkinitfs

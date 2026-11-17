@@ -1,0 +1,24 @@
+name	dmvpn
+version	1.4.3-r1
+description	Dynamic Multipoint VPN
+url	https://gitlab.alpinelinux.org/alpine/dmvpn-tools
+license	MIT
+size	9338
+installed-size	19558
+depends	augeas bind-tools lua5.4 lua5.4-cqueues lua5.4-lyaml lua5.4-ossl lua5.4-posix lua5.4-struct lua-dmvpn quagga strongswan tunnel
+origin	dmvpn
+repo	main
+file	dmvpn-1.4.3-r1.apk
+checksum	Q1BRV8FYSW7PzKb6deZhx4wiqqx1U=
+dep	augeas	augeas
+dep	bind-tools	bind-tools
+dep	lua5.4	lua5.4
+dep	lua5.4-cqueues	lua5.4-cqueues
+dep	lua5.4-lyaml	lua5.4-lyaml
+dep	lua5.4-ossl	lua5.4-ossl
+dep	lua5.4-posix	lua5.4-posix
+dep	lua5.4-struct	lua5.4-struct
+dep	lua-dmvpn	lua-dmvpn
+dep	quagga	quagga
+dep	strongswan	strongswan
+dep	tunnel	tunnel

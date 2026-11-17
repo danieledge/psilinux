@@ -1,0 +1,21 @@
+name	waydroid-sensors
+version	0.2.0-r2
+description	Waydroid sensors
+url	https://github.com/waydroid/waydroid-sensors
+license	GPL-3.0-only
+size	37891
+installed-size	112056
+depends	sensorfw so:libc.musl-armhf.so.1 so:libgbinder.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libglibutil.so.1 so:libgobject-2.0.so.0 so:libstdc++.so.6
+origin	waydroid-sensors
+repo	community
+file	waydroid-sensors-0.2.0-r2.apk
+checksum	Q1MikoRnrsMEaBTBOQProrPS3RRT8=
+dep	sensorfw	sensorfw
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgbinder.so.1	libgbinder
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libglibutil.so.1	libglibutil
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,14 @@
+name	gxlimg
+version	0.0.1-r0
+description	Boot image creation tool for Amlogic GXL/G12A SoCs
+url	https://github.com/repk/gxlimg
+license	BSD-2-Clause
+size	24374
+installed-size	62848
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	gxlimg
+repo	community
+file	gxlimg-0.0.1-r0.apk
+checksum	Q1md1O2Sfia9dxwbJ3v80aBh0AmlE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

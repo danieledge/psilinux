@@ -1,0 +1,18 @@
+name	xdg-user-dirs-gtk
+version	0.16-r0
+description	GTK frontend for xdg-user-dirs
+url	https://gitlab.gnome.org/GNOME/xdg-user-dirs-gtk
+license	GPL-2.0-or-later
+size	20099
+installed-size	39170
+depends	xdg-user-dirs so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8
+origin	xdg-user-dirs-gtk
+repo	community
+file	xdg-user-dirs-gtk-0.16-r0.apk
+checksum	Q1hfrE+61HRka2rtaW55YG+Grjwlc=
+dep	xdg-user-dirs	xdg-user-dirs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl

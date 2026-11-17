@@ -1,0 +1,12 @@
+name	lld21-dbg
+version	21.1.8-r1
+description	The LLVM Linker (debug symbols)
+url	https://llvm.org/
+license	Apache-2.0
+size	5442952
+installed-size	17636004
+depends	!lld21-libs<21.1.8-r1 !lld21-libs>21.1.8-r1 !lld21<21.1.8-r1 !lld21>21.1.8-r1
+origin	lld21
+repo	main
+file	lld21-dbg-21.1.8-r1.apk
+checksum	Q1SSOZICPrxUpv/QdGCvMbzJt+QJg=

@@ -1,0 +1,12 @@
+name	lua5.4-dbg
+version	5.4.8-r0
+description	Powerful light-weight programming language (debug symbols)
+url	https://www.lua.org/
+license	MIT
+size	668571
+installed-size	1457648
+depends	!lua5.4<5.4.8-r0 !lua5.4>5.4.8-r0
+origin	lua5.4
+repo	main
+file	lua5.4-dbg-5.4.8-r0.apk
+checksum	Q1fjl40vQFlNCAxvScFS2NW5FB92U=

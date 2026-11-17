@@ -1,0 +1,13 @@
+name	cri-tools
+version	1.36.0-r3
+description	CLI tool for Kubelet Container Runtime Interface (CRI)
+url	https://github.com/kubernetes-sigs/cri-tools
+license	Apache-2.0
+size	20305192
+installed-size	57433376
+depends	so:libc.musl-armhf.so.1
+origin	cri-tools
+repo	community
+file	cri-tools-1.36.0-r3.apk
+checksum	Q1qavqPfpClUkJ+3ZnaOS6ArACm+8=
+dep	so:libc.musl-armhf.so.1	musl

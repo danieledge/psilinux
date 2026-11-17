@@ -1,0 +1,20 @@
+name	xfce4-timer-plugin
+version	1.8.0-r0
+description	Timer plugin for Xfce
+url	https://docs.xfce.org/panel-plugins/xfce4-timer-plugin
+license	GPL-2.0-or-later
+size	25845
+installed-size	51239
+depends	so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libxfce4panel-2.0.so.4 so:libxfce4ui-2.so.0 so:libxfce4util.so.7
+origin	xfce4-timer-plugin
+repo	community
+file	xfce4-timer-plugin-1.8.0-r0.apk
+checksum	Q1oEUayZMtYs4ToQo/L7mzIV92qIg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libxfce4panel-2.0.so.4	libxfce4panel
+dep	so:libxfce4ui-2.so.0	libxfce4ui
+dep	so:libxfce4util.so.7	libxfce4util

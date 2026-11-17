@@ -1,0 +1,15 @@
+name	postgresql18-plperl
+version	18.7-r0
+description	PL/Perl procedural language for PostgreSQL
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	46728
+installed-size	101069
+depends	postgresql18=18.7-r0 so:libc.musl-armhf.so.1 so:libperl.so
+origin	postgresql18
+repo	main
+file	postgresql18-plperl-18.7-r0.apk
+checksum	Q1XtyJHEIC2E0aT3GZdoNizDv+5o4=
+dep	postgresql18=18.7-r0	postgresql18
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libperl.so	perl

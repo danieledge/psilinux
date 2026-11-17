@@ -1,0 +1,25 @@
+name	xscreensaver-extras
+version	6.15-r0
+description	An enhanced set of screensavers
+url	https://www.jwz.org/xscreensaver/
+license	GPL-2.0-or-later GPL-3.0-or-later 0BSD MIT
+size	4888094
+installed-size	9678725
+depends	bc so:libX11.so.6 so:libXext.so.6 so:libXft.so.2 so:libXt.so.6 so:libc.musl-armhf.so.1 so:libelogind.so.0 so:libfontconfig.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libjpeg.so.8
+origin	xscreensaver
+repo	community
+file	xscreensaver-extras-6.15-r0.apk
+checksum	Q1E59JJmk0TCX/FBDST3yRcfUaM+s=
+dep	bc	bc
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXft.so.2	libxft
+dep	so:libXt.so.6	libxt
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libelogind.so.0	libelogind
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libjpeg.so.8	libjpeg-turbo

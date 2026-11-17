@@ -1,0 +1,14 @@
+name	xrefresh
+version	1.1.0-r0
+description	refresh all or part of an X screen
+url	https://xorg.freedesktop.org/
+license	MIT
+size	5397
+installed-size	9440
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1
+origin	xrefresh
+repo	community
+file	xrefresh-1.1.0-r0.apk
+checksum	Q1J5Bt6d7thseCE8wv0WQ7f/fO2Pw=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl

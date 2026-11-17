@@ -1,0 +1,15 @@
+name	xcb-util-xrm-dev
+version	1.3-r1
+description	Utility functions for the X resource manager (development files)
+url	https://github.com/Airblader/xcb-util-xrm
+license	MIT
+size	13912
+installed-size	33193
+depends	xcb-util-xrm=1.3-r1 pc:xcb-aux pkgconfig
+origin	xcb-util-xrm
+repo	community
+file	xcb-util-xrm-dev-1.3-r1.apk
+checksum	Q1ZJrHaPNjZ9f6fDYOZ3qRBiY6f/E=
+dep	xcb-util-xrm=1.3-r1	xcb-util-xrm
+dep	pc:xcb-aux	xcb-util-dev
+dep	pkgconfig	pkgconf

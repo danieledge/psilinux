@@ -1,0 +1,21 @@
+name	ffmpeg7-dev
+version	7.1.5-r0
+description	Complete and free Internet live audio and video broadcasting solution for Linux/Unix (development files)
+url	https://ffmpeg.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	359099
+installed-size	1501173
+depends	ffmpeg7-libavcodec=7.1.5-r0 ffmpeg7-libavdevice=7.1.5-r0 ffmpeg7-libavfilter=7.1.5-r0 ffmpeg7-libavformat=7.1.5-r0 ffmpeg7-libavutil=7.1.5-r0 ffmpeg7-libpostproc=7.1.5-r0 ffmpeg7-libswresample=7.1.5-r0 ffmpeg7-libswscale=7.1.5-r0 pkgconfig
+origin	ffmpeg7
+repo	community
+file	ffmpeg7-dev-7.1.5-r0.apk
+checksum	Q137fTbdbGEPIRxvsN0c2j20tFgIQ=
+dep	ffmpeg7-libavcodec=7.1.5-r0	ffmpeg7-libavcodec
+dep	ffmpeg7-libavdevice=7.1.5-r0	ffmpeg7-libavdevice
+dep	ffmpeg7-libavfilter=7.1.5-r0	ffmpeg7-libavfilter
+dep	ffmpeg7-libavformat=7.1.5-r0	ffmpeg7-libavformat
+dep	ffmpeg7-libavutil=7.1.5-r0	ffmpeg7-libavutil
+dep	ffmpeg7-libpostproc=7.1.5-r0	ffmpeg7-libpostproc
+dep	ffmpeg7-libswresample=7.1.5-r0	ffmpeg7-libswresample
+dep	ffmpeg7-libswscale=7.1.5-r0	ffmpeg7-libswscale
+dep	pkgconfig	pkgconf

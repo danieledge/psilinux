@@ -1,0 +1,16 @@
+name	sane-backend-ma1509
+version	1.4.0-r4
+description	SANE backend for Mustek BearPaw 1200F USB scanner
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	40276
+installed-size	84448
+depends	sane so:libc.musl-armhf.so.1 so:libusb-1.0.so.0 so:libxml2.so.2
+origin	sane
+repo	community
+file	sane-backend-ma1509-1.4.0-r4.apk
+checksum	Q1t90NAPFhFZUuKFNLuF6qE0NnNVA=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb
+dep	so:libxml2.so.2	libxml2

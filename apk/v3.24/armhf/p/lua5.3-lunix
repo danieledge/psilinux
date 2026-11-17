@@ -1,0 +1,13 @@
+name	lua5.3-lunix
+version	20190403-r0
+description	Comprehensive Unix API Module for Lua 5.3
+url	https://github.com/wahern/lunix
+license	MIT
+size	41931
+installed-size	95671
+depends	so:libc.musl-armhf.so.1
+origin	lua-lunix
+repo	community
+file	lua5.3-lunix-20190403-r0.apk
+checksum	Q1kLDYq2foZp+aOku3BQFEJnBzUVs=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,21 @@
+name	darkice
+version	1.6-r0
+description	Live audio streamer. Records audio from an audio interface, encodes it and sends it to a streaming server
+url	http://www.darkice.org/
+license	GPL-3.0-or-later
+size	114531
+installed-size	281790
+depends	so:libasound.so.2 so:libc.musl-armhf.so.1 so:libfaac.so.0 so:libgcc_s.so.1 so:libmp3lame.so.0 so:libogg.so.0 so:libstdc++.so.6 so:libvorbis.so.0 so:libvorbisenc.so.2
+origin	darkice
+repo	community
+file	darkice-1.6-r0.apk
+checksum	Q1sU3XZQAOHzKQEUzQDG1r4rjnWmk=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfaac.so.0	faac
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmp3lame.so.0	lame-libs
+dep	so:libogg.so.0	libogg
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libvorbis.so.0	libvorbis
+dep	so:libvorbisenc.so.2	libvorbis

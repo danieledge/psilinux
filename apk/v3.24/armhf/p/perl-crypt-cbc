@@ -1,0 +1,16 @@
+name	perl-crypt-cbc
+version	3.07-r0
+description	Perl module for Crypt-CBC
+url	https://metacpan.org/release/Crypt-CBC/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	19882
+installed-size	59249
+depends	perl perl-cryptx perl-crypt-pbkdf2 perl-crypt-urandom
+origin	perl-crypt-cbc
+repo	community
+file	perl-crypt-cbc-3.07-r0.apk
+checksum	Q1HB9HCDY6atTJ1OPfjefUD99fRWw=
+dep	perl	perl
+dep	perl-cryptx	perl-cryptx
+dep	perl-crypt-pbkdf2	perl-crypt-pbkdf2
+dep	perl-crypt-urandom	perl-crypt-urandom

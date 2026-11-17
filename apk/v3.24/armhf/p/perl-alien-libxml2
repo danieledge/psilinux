@@ -1,0 +1,14 @@
+name	perl-alien-libxml2
+version	0.20-r0
+description	Install the C libxml2 library on your system
+url	https://metacpan.org/release/Alien-Libxml2/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6443
+installed-size	10274
+depends	perl perl-alien-build
+origin	perl-alien-libxml2
+repo	community
+file	perl-alien-libxml2-0.20-r0.apk
+checksum	Q1bH4hZ/KWAHkgnXZXrxbcVqpl9Eo=
+dep	perl	perl
+dep	perl-alien-build	perl-alien-build

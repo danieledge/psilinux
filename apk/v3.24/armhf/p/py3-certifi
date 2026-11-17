@@ -1,0 +1,14 @@
+name	py3-certifi
+version	2026.10.23-r0
+description	Python3 package for providing Mozilla's CA Bundle
+url	https://pypi.org/project/certifi
+license	MPL-2.0
+size	5870
+installed-size	8838
+depends	ca-certificates-bundle python3~3.14
+origin	py3-certifi
+repo	main
+file	py3-certifi-2026.10.23-r0.apk
+checksum	Q1WSBu+tPPNmnSIZoPrgAR/+MJCC0=
+dep	ca-certificates-bundle	ca-certificates-bundle
+dep	python3~3.14	python3

@@ -1,0 +1,19 @@
+name	wpa_supplicant
+version	2.11-r4
+description	utility providing key negotiation for WPA wireless networks
+url	https://w1.fi/wpa_supplicant/
+license	BSD-3-Clause
+size	1869683
+installed-size	4043838
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libdbus-1.so.3 so:libnl-3.so.200 so:libnl-genl-3.so.200 so:libpcsclite.so.1 so:libssl.so.3
+origin	wpa_supplicant
+repo	main
+file	wpa_supplicant-2.11-r4.apk
+checksum	Q1A/sebSg/+DD+3SLuqJ565+TuIDQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libnl-3.so.200	libnl3
+dep	so:libnl-genl-3.so.200	libnl3
+dep	so:libpcsclite.so.1	pcsc-lite-libs
+dep	so:libssl.so.3	libssl3

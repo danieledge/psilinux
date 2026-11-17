@@ -1,0 +1,15 @@
+name	libm4ri-dev
+version	20240729-r3
+description	Fast arithmetic with dense matrices over F2 (development files)
+url	https://github.com/malb/m4ri
+license	GPL-2.0-or-later
+size	32273
+installed-size	145980
+depends	libm4ri=20240729-r3 pc:libpng pkgconfig
+origin	libm4ri
+repo	community
+file	libm4ri-dev-20240729-r3.apk
+checksum	Q1yqNvthejuxakd0d0ppi5uEUrk6c=
+dep	libm4ri=20240729-r3	libm4ri
+dep	pc:libpng	libpng-dev
+dep	pkgconfig	pkgconf

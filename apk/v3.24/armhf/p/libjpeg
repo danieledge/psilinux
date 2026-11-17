@@ -1,0 +1,13 @@
+name	libjpeg
+version	9f-r0
+description	Wrapper for libjpeg-turbo
+url	https://www.ijg.org/
+license	Public Domain
+size	1252
+installed-size	0
+depends	libjpeg-turbo
+origin	jpeg
+repo	main
+file	libjpeg-9f-r0.apk
+checksum	Q1UNgTSmdGSUiZP7VVmqwa/cCUzrY=
+dep	libjpeg-turbo	libjpeg-turbo

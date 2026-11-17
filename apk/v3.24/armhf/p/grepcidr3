@@ -1,0 +1,13 @@
+name	grepcidr3
+version	3.0.3-r0
+description	High performance search for IP addresses and CIDR ranges
+url	https://github.com/jrlevine/grepcidr3
+license	GPL-2.0
+size	11451
+installed-size	21692
+depends	so:libc.musl-armhf.so.1
+origin	grepcidr3
+repo	community
+file	grepcidr3-3.0.3-r0.apk
+checksum	Q1wFVvH+5IKKH6xjNCaIHwAr1DMSM=
+dep	so:libc.musl-armhf.so.1	musl

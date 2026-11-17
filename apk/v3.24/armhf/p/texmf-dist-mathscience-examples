@@ -1,0 +1,14 @@
+name	texmf-dist-mathscience-examples
+version	2026.0-r0
+description	texmf-dist: Mathematics, natural sciences, computer science packages (examples and documentation)
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	122482641
+installed-size	143901315
+depends	texmf-dist-mathscience texmf-dist-mathscience-doc
+origin	texmf-dist
+repo	community
+file	texmf-dist-mathscience-examples-2026.0-r0.apk
+checksum	Q1QxJm6OwyUJ/2GZS0OBD9MctoFpo=
+dep	texmf-dist-mathscience	texmf-dist-mathscience
+dep	texmf-dist-mathscience-doc	texmf-dist-mathscience-doc

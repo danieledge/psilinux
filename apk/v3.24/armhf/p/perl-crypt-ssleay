@@ -1,0 +1,17 @@
+name	perl-crypt-ssleay
+version	0.72-r23
+description	OpenSSL support for LWP
+url	https://metacpan.org/release/Crypt-SSLeay/
+license	Artistic-2.0
+size	25795
+installed-size	64222
+depends	perl perl-lwp-protocol-https so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	perl-crypt-ssleay
+repo	main
+file	perl-crypt-ssleay-0.72-r23.apk
+checksum	Q1DHovJwSSjUTFChcl7JRM4pLFgkw=
+dep	perl	perl
+dep	perl-lwp-protocol-https	perl-lwp-protocol-https
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

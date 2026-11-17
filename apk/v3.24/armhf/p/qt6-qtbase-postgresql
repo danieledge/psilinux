@@ -1,0 +1,19 @@
+name	qt6-qtbase-postgresql
+version	6.11.1-r0
+description	PostgreSQL driver for Qt6's SQL classes
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	38940
+installed-size	91868
+depends	tzdata so:libQt6Core.so.6 so:libQt6Sql.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpq.so.5 so:libstdc++.so.6
+origin	qt6-qtbase
+repo	community
+file	qt6-qtbase-postgresql-6.11.1-r0.apk
+checksum	Q1Z2cx9js2R6RbWlXZFXJNqzX2HH8=
+dep	tzdata	tzdata
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Sql.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpq.so.5	libpq
+dep	so:libstdc++.so.6	libstdc++

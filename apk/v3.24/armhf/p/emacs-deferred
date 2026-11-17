@@ -1,0 +1,13 @@
+name	emacs-deferred
+version	0.5.1-r1
+description	Manage asynchronous tasks in Elisp
+url	https://github.com/kiwanami/emacs-deferred
+license	GPL-3.0-or-later
+size	29176
+installed-size	118938
+depends	cmd:emacs
+origin	emacs-deferred
+repo	community
+file	emacs-deferred-0.5.1-r1.apk
+checksum	Q1yCpo0dPWs6Giy3WwjVsMFr6zoiM=
+dep	cmd:emacs	emacs-gtk3

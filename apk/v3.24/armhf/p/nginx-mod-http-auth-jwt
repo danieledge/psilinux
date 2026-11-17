@@ -1,0 +1,16 @@
+name	nginx-mod-http-auth-jwt
+version	1.30.6-r0
+description	Nginx third-party module kjdev/nginx-auth-jwt (version 0.11.0)
+url	https://github.com/kjdev/nginx-auth-jwt
+license	BSD-2-Clause
+size	24880
+installed-size	51279
+depends	nginx=1.30.6-r0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libjansson.so.4
+origin	nginx
+repo	main
+file	nginx-mod-http-auth-jwt-1.30.6-r0.apk
+checksum	Q1RNcxmrfPz499evchJiaRFiyUAcs=
+dep	nginx=1.30.6-r0	nginx
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libjansson.so.4	jansson

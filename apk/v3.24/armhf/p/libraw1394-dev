@@ -1,0 +1,14 @@
+name	libraw1394-dev
+version	2.1.2-r5
+description	Library to provide access to Linux 1394 subsystem (development files)
+url	https://sourceforge.net/projects/libraw1394/
+license	LGPL-2.1-or-later
+size	14420
+installed-size	51943
+depends	libraw1394=2.1.2-r5 pkgconfig
+origin	libraw1394
+repo	community
+file	libraw1394-dev-2.1.2-r5.apk
+checksum	Q1UJKw4gA2CN4eE2CKT6XCE/sQVRs=
+dep	libraw1394=2.1.2-r5	libraw1394
+dep	pkgconfig	pkgconf

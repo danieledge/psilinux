@@ -1,0 +1,14 @@
+name	acf-amavisd-new
+version	0.4.0-r5
+description	ACF module for amavis
+url	https://gitlab.alpinelinux.org/acf/acf-amavisd-new
+license	GPL-2.0-only
+size	2617
+installed-size	1773
+depends	acf-core amavis
+origin	acf-amavisd-new
+repo	main
+file	acf-amavisd-new-0.4.0-r5.apk
+checksum	Q1sIDO0ipbXpEwUjT210u617w/KaA=
+dep	acf-core	acf-core
+dep	amavis	amavis

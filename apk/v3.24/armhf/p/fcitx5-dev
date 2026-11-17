@@ -1,0 +1,14 @@
+name	fcitx5-dev
+version	5.1.19-r0
+description	Generic input method framework (development files)
+url	https://github.com/fcitx/fcitx5
+license	LGPL-2.1-or-later
+size	146828
+installed-size	685662
+depends	fcitx5=5.1.19-r0 pkgconfig
+origin	fcitx5
+repo	community
+file	fcitx5-dev-5.1.19-r0.apk
+checksum	Q1QI4XDS4tDBDzAmZv+22hFEO0dPY=
+dep	fcitx5=5.1.19-r0	fcitx5
+dep	pkgconfig	pkgconf

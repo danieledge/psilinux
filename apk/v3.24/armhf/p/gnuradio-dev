@@ -1,0 +1,37 @@
+name	gnuradio-dev
+version	3.10.12.0-r12
+description	General purpose DSP and SDR toolkit (development files)
+url	https://www.gnuradio.org
+license	GPL-3.0-or-later
+size	427361
+installed-size	2130966
+depends	blas-dev boost-dev fftw-dev gmp-dev gsl-dev gsm-dev gtk+3.0-dev libsndfile-dev mpir-dev portaudio-dev py3-numpy-dev py3-pybind11-dev py3-sphinx python3-dev qt5-qtbase-dev qwt-dev soapy-sdr-dev spdlog-dev thrift-dev uhd-dev zeromq-dev py3-pyzmq gnuradio=3.10.12.0-r12 pc:volk pkgconfig
+origin	gnuradio
+repo	community
+file	gnuradio-dev-3.10.12.0-r12.apk
+checksum	Q1nmj8+ywoJ8IlAJC6msnl3zK1Ipg=
+dep	blas-dev	blas-dev
+dep	boost-dev	boost-dev
+dep	fftw-dev	fftw-dev
+dep	gmp-dev	gmp-dev
+dep	gsl-dev	gsl-dev
+dep	gsm-dev	gsm-dev
+dep	gtk+3.0-dev	gtk+3.0-dev
+dep	libsndfile-dev	libsndfile-dev
+dep	mpir-dev	mpir-dev
+dep	portaudio-dev	portaudio-dev
+dep	py3-numpy-dev	py3-numpy-dev
+dep	py3-pybind11-dev	py3-pybind11-dev
+dep	py3-sphinx	py3-sphinx
+dep	python3-dev	python3-dev
+dep	qt5-qtbase-dev	qt5-qtbase-dev
+dep	qwt-dev	qwt-dev
+dep	soapy-sdr-dev	soapy-sdr-dev
+dep	spdlog-dev	spdlog-dev
+dep	thrift-dev	thrift-dev
+dep	uhd-dev	uhd-dev
+dep	zeromq-dev	zeromq-dev
+dep	py3-pyzmq	py3-pyzmq
+dep	gnuradio=3.10.12.0-r12	gnuradio
+dep	pc:volk	libvolk-dev
+dep	pkgconfig	pkgconf

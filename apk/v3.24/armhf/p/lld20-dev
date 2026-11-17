@@ -1,0 +1,14 @@
+name	lld20-dev
+version	20.1.8-r1
+description	The LLVM Linker (development files)
+url	https://llvm.org/
+license	Apache-2.0
+size	14260
+installed-size	40077
+depends	lld20=20.1.8-r1 lld20-libs=20.1.8-r1
+origin	lld20
+repo	main
+file	lld20-dev-20.1.8-r1.apk
+checksum	Q1ggdb27as8SWfT57cxc90SCvyej0=
+dep	lld20=20.1.8-r1	lld20
+dep	lld20-libs=20.1.8-r1	lld20-libs

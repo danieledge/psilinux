@@ -1,0 +1,28 @@
+name	chatterino2
+version	2.5.5-r0
+description	Chat client for twitch.tv
+url	https://chatterino.com/
+license	MIT
+size	6318939
+installed-size	14752839
+depends	qt6-qtimageformats so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6Svg.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libnotify.so.4 so:libqt6keychain.so.1 so:libssl.so.3 so:libstdc++.so.6
+origin	chatterino2
+repo	community
+file	chatterino2-2.5.5-r0.apk
+checksum	Q1B/Dv/Sm3Kc1iRlli/MzUCZaXjog=
+dep	qt6-qtimageformats	qt6-qtimageformats
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6Svg.so.6	qt6-qtsvg
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libnotify.so.4	libnotify
+dep	so:libqt6keychain.so.1	qtkeychain
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++

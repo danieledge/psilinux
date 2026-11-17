@@ -1,0 +1,16 @@
+name	py3-rfl-web
+version	1.8.0-r0
+description	Rackslab Foundation Library: web package
+url	https://github.com/rackslab/RFL
+license	GPL-3.0-or-later
+size	4278
+installed-size	13884
+depends	py3-rfl-core py3-rfl-permissions py3-flask python3~3.14
+origin	py3-rfl
+repo	community
+file	py3-rfl-web-1.8.0-r0.apk
+checksum	Q1aAnMWGUfWGI1POho89S4D/80BO0=
+dep	py3-rfl-core	py3-rfl-core
+dep	py3-rfl-permissions	py3-rfl-permissions
+dep	py3-flask	py3-flask
+dep	python3~3.14	python3

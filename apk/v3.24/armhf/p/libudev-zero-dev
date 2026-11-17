@@ -1,0 +1,14 @@
+name	libudev-zero-dev
+version	1.0.4-r0
+description	libudev replacement to use whatever device manager (development files)
+url	https://github.com/illiliti/libudev-zero/
+license	ISC
+size	14200
+installed-size	38711
+depends	libudev-zero=1.0.4-r0 pkgconfig
+origin	libudev-zero
+repo	community
+file	libudev-zero-dev-1.0.4-r0.apk
+checksum	Q1naL3GYSa68VGaRymXIxVggfFaak=
+dep	libudev-zero=1.0.4-r0	libudev-zero
+dep	pkgconfig	pkgconf

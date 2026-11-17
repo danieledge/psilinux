@@ -1,0 +1,31 @@
+name	nemu
+version	3.4.0-r0
+description	Ncurses UI for QEMU
+url	https://github.com/nemuTUI/nemu
+license	BSD-2-Clause
+size	135817
+installed-size	294388
+depends	qemu qemu-img qemu-ui-spice-core qemu-hw-display-qxl /bin/sh so:libarchive.so.13 so:libc.musl-armhf.so.1 so:libcgraph.so.6 so:libcrypto.so.3 so:libdbus-1.so.3 so:libformw.so.6 so:libgvc.so.6 so:libintl.so.8 so:libjson-c.so.5 so:libncursesw.so.6 so:libpanelw.so.6 so:libsqlite3.so.0 so:libssl.so.3 so:libxml2.so.2
+origin	nemu
+repo	community
+file	nemu-3.4.0-r0.apk
+checksum	Q1ieC2AAjV6dYEc2LpG+NemGDHWMk=
+dep	qemu	!
+dep	qemu-img	!
+dep	qemu-ui-spice-core	!
+dep	qemu-hw-display-qxl	!
+dep	/bin/sh	busybox-binsh
+dep	so:libarchive.so.13	libarchive
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcgraph.so.6	graphviz-libs
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libformw.so.6	libformw
+dep	so:libgvc.so.6	graphviz-libs
+dep	so:libintl.so.8	libintl
+dep	so:libjson-c.so.5	json-c
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpanelw.so.6	libpanelw
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libssl.so.3	libssl3
+dep	so:libxml2.so.2	libxml2

@@ -1,0 +1,15 @@
+name	py3-pytest-isort
+version	4.0.0-r2
+description	pytest plugin to check import ordering using isort
+url	https://pypi.org/project/pytest-isort/
+license	BSD-3-Clause
+size	7346
+installed-size	14799
+depends	py3-pytest py3-isort python3~3.14
+origin	py3-pytest-isort
+repo	community
+file	py3-pytest-isort-4.0.0-r2.apk
+checksum	Q11632VKVzasFE1Dq9uCGG6QNIQlU=
+dep	py3-pytest	py3-pytest
+dep	py3-isort	py3-isort
+dep	python3~3.14	python3

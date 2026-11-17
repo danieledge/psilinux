@@ -1,0 +1,25 @@
+name	warp
+version	1.0.0-r0
+description	Fast and secure file transfer
+url	https://apps.gnome.org/Warp/
+license	GPL-3.0-or-later
+size	2789188
+installed-size	6511395
+depends	so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8
+origin	warp
+repo	community
+file	warp-1.0.0-r0.apk
+checksum	Q1THJc0B9gDY0tAlgCiFOmn5N7xvI=
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgstbase-1.0.so.0	gstreamer
+dep	so:libgstpbutils-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl

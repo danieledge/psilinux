@@ -1,0 +1,14 @@
+name	perl-datetime-hires
+version	0.04-r1
+description	Create DateTime objects with sub-second current time resolution
+url	https://metacpan.org/release/DateTime-HiRes/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	3034
+installed-size	2068
+depends	perl perl-datetime
+origin	perl-datetime-hires
+repo	community
+file	perl-datetime-hires-0.04-r1.apk
+checksum	Q160L8vS7fEMVFQH5QfjTXkx4gzDM=
+dep	perl	perl
+dep	perl-datetime	perl-datetime

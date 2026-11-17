@@ -1,0 +1,19 @@
+name	gnome-autoar
+version	0.4.5-r1
+description	GNOME archive extraction library
+url	https://www.gnome.org/
+license	LGPL-2.1-only
+size	33986
+installed-size	90532
+depends	so:libarchive.so.13 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8
+origin	gnome-autoar
+repo	community
+file	gnome-autoar-0.4.5-r1.apk
+checksum	Q13qnMqC/3YDQHNm9wEYYRrla6I5w=
+dep	so:libarchive.so.13	libarchive
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl

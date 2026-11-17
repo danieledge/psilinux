@@ -1,0 +1,13 @@
+name	py3-clustershell-pyc
+version	1.9.3-r1
+description	Precompiled Python bytecode for py3-clustershell
+url	https://clustershell.readthedocs.io/en/latest/
+license	LGPL-2.1-or-later
+size	271152
+installed-size	690697
+depends	python3~3.14
+origin	clustershell
+repo	community
+file	py3-clustershell-pyc-1.9.3-r1.apk
+checksum	Q1YCwSAPxD86Nlm5aospyLCKsZv8A=
+dep	python3~3.14	python3

@@ -1,0 +1,15 @@
+name	binaryen
+version	129-r0
+description	Compiler infrastructure and toolchain library for WebAssembly, in C++
+url	https://github.com/WebAssembly/binaryen
+license	Apache-2.0
+size	7649781
+installed-size	23280888
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	binaryen
+repo	community
+file	binaryen-129-r0.apk
+checksum	Q1hk6VJPR0Mj6lO+IkvITySsXei94=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

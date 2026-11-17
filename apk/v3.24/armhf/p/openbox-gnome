@@ -1,0 +1,16 @@
+name	openbox-gnome
+version	3.6.1-r8
+description	GNOME integration for openbox
+url	http://openbox.org
+license	GPL-2.0-or-later
+size	8825
+installed-size	17384
+depends	so:libX11.so.6 so:libXau.so.6 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0
+origin	openbox
+repo	community
+file	openbox-gnome-3.6.1-r8.apk
+checksum	Q1ejwiAHwH2/++DkGHRfrNFiBE/MA=
+dep	so:libX11.so.6	libx11
+dep	so:libXau.so.6	libxau
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib

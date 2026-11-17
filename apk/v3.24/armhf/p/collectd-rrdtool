@@ -1,0 +1,15 @@
+name	collectd-rrdtool
+version	5.12.0-r25
+description	rrdtool pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	19008
+installed-size	47648
+depends	collectd so:libc.musl-armhf.so.1 so:librrd.so.8
+origin	collectd
+repo	community
+file	collectd-rrdtool-5.12.0-r25.apk
+checksum	Q1XlFQH5DkPIGIqRY+BVe5Z/jRAwA=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:librrd.so.8	librrd

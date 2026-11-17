@@ -1,0 +1,19 @@
+name	firewalld
+version	2.4.1-r0
+description	Firewall daemon with D-Bus interface providing a dynamic firewall
+url	https://github.com/firewalld/firewalld
+license	GPL-2.0-or-later
+size	1217482
+installed-size	21767820
+depends	dbus nftables py3-dbus py3-gobject3 py3-libcap-ng py3-nftables python3~3.14
+origin	firewalld
+repo	community
+file	firewalld-2.4.1-r0.apk
+checksum	Q1b8DzhSwqk88QyRehvlOqPNnmK1Y=
+dep	dbus	dbus
+dep	nftables	nftables
+dep	py3-dbus	py3-dbus
+dep	py3-gobject3	py3-gobject3
+dep	py3-libcap-ng	py3-libcap-ng
+dep	py3-nftables	py3-nftables
+dep	python3~3.14	python3

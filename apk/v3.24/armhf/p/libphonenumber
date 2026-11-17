@@ -1,0 +1,25 @@
+name	libphonenumber
+version	9.0.32-r0
+description	Library for parsing, formatting, and validating international phone numbers.
+url	https://github.com/google/libphonenumber
+license	Apache-2.0
+size	224637
+installed-size	691868
+depends	so:libabsl_hash.so.2508.0.0 so:libabsl_log_internal_check_op.so.2508.0.0 so:libabsl_log_internal_message.so.2508.0.0 so:libabsl_log_internal_nullguard.so.2508.0.0 so:libabsl_raw_hash_set.so.2508.0.0 so:libabsl_raw_logging_internal.so.2508.0.0 so:libabsl_strings.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libicui18n.so.78 so:libicuuc.so.78 so:libprotobuf.so.31 so:libstdc++.so.6
+origin	libphonenumber
+repo	community
+file	libphonenumber-9.0.32-r0.apk
+checksum	Q1+ScslZAPG8h5EDh1Iv2vLZknbu8=
+dep	so:libabsl_hash.so.2508.0.0	abseil-cpp-hash
+dep	so:libabsl_log_internal_check_op.so.2508.0.0	abseil-cpp-log-internal-check-op
+dep	so:libabsl_log_internal_message.so.2508.0.0	abseil-cpp-log-internal-message
+dep	so:libabsl_log_internal_nullguard.so.2508.0.0	abseil-cpp-log-internal-nullguard
+dep	so:libabsl_raw_hash_set.so.2508.0.0	abseil-cpp-raw-hash-set
+dep	so:libabsl_raw_logging_internal.so.2508.0.0	abseil-cpp-raw-logging-internal
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libprotobuf.so.31	libprotobuf
+dep	so:libstdc++.so.6	libstdc++

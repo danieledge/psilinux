@@ -1,0 +1,13 @@
+name	can-utils
+version	2025.01-r0
+description	SocketCAN userspace utilities and tools
+url	https://github.com/linux-can/can-utils
+license	GPL-2.0-only AND BSD-3-Clause
+size	247286
+installed-size	736399
+depends	so:libc.musl-armhf.so.1
+origin	can-utils
+repo	community
+file	can-utils-2025.01-r0.apk
+checksum	Q1saGm0uqp+SDAnQ5FBn88eGD6k88=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	cfitsio-dev
+version	4.6.4-r0
+description	Library reading and writing data files in Flexible Image Transport System data format (development files)
+url	https://heasarc.gsfc.nasa.gov/fitsio/
+license	CFITSIO
+size	39863
+installed-size	217005
+depends	cfitsio=4.6.4-r0 pkgconfig
+origin	cfitsio
+repo	community
+file	cfitsio-dev-4.6.4-r0.apk
+checksum	Q1nyCVfgbnAhj4gzWO9KhHThoq3K8=
+dep	cfitsio=4.6.4-r0	cfitsio
+dep	pkgconfig	pkgconf

@@ -1,0 +1,13 @@
+name	oniguruma
+version	6.9.10-r0
+description	a regular expressions library
+url	https://github.com/kkos/oniguruma
+license	BSD-2-Clause
+size	179691
+installed-size	544404
+depends	so:libc.musl-armhf.so.1
+origin	oniguruma
+repo	main
+file	oniguruma-6.9.10-r0.apk
+checksum	Q1WtvSlfNZYNKG5K6zPwJtn4gaGuI=
+dep	so:libc.musl-armhf.so.1	musl

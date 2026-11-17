@@ -1,0 +1,15 @@
+name	htop
+version	3.5.3-r0
+description	Interactive process viewer
+url	https://htop.dev/
+license	GPL-2.0-or-later
+size	144606
+installed-size	305151
+depends	lsof so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	htop
+repo	main
+file	htop-3.5.3-r0.apk
+checksum	Q10IFG+i1nT4tUiYAMjQWAIQitPIM=
+dep	lsof	lsof
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

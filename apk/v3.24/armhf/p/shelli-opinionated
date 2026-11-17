@@ -1,0 +1,21 @@
+name	shelli-opinionated
+version	0.7-r0
+description	Install potentially conflicting generic shelli commands like call, off, etc as symlinks in /usr/bin to /usr/share/shelli/bin/shelli- commands
+url	https://git.sr.ht/~unrznbl/shelli
+license	GPL-3.0-only
+size	4145
+installed-size	1
+depends	alsa-utils bash espeak kbd kbd-misc ofono py3-gobject3 python3 shelli=0.7-r0
+origin	shelli
+repo	community
+file	shelli-opinionated-0.7-r0.apk
+checksum	Q1Bla1gX9TsCBBidfb6qnIbZWkzJ4=
+dep	alsa-utils	alsa-utils
+dep	bash	bash
+dep	espeak	espeak
+dep	kbd	kbd
+dep	kbd-misc	kbd-misc
+dep	ofono	ofono
+dep	py3-gobject3	py3-gobject3
+dep	python3	python3
+dep	shelli=0.7-r0	shelli

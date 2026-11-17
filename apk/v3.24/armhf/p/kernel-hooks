@@ -1,0 +1,13 @@
+name	kernel-hooks
+version	0.3-r1
+description	Run user-provided hooks when /lib/modules/* is updated
+url	https://gitlab.alpinelinux.org/alpine/aports/
+license	MIT
+size	2600
+installed-size	644
+depends	/bin/sh
+origin	kernel-hooks
+repo	main
+file	kernel-hooks-0.3-r1.apk
+checksum	Q1C7Odz4dnS4hTqXHXOVas2NRVkt0=
+dep	/bin/sh	busybox-binsh

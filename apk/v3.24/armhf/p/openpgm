@@ -1,0 +1,13 @@
+name	openpgm
+version	5.3.128-r1
+description	Implementation of the PGM reliable multicast protocol
+url	https://www.freshports.org/net/openpgm/
+license	LGPL-2.1-or-later
+size	179519
+installed-size	304352
+depends	so:libc.musl-armhf.so.1
+origin	openpgm
+repo	community
+file	openpgm-5.3.128-r1.apk
+checksum	Q1ktAZAsU1BHQM0lmHwpGKDaw31C4=
+dep	so:libc.musl-armhf.so.1	musl

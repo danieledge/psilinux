@@ -1,0 +1,18 @@
+name	ayatana-indicator-bluetooth
+version	24.5.0-r1
+description	Ayatana System Indicator for Bluetooth Management
+url	https://github.com/AyatanaIndicators/ayatana-indicator-bluetooth
+license	GPL-3.0-only
+size	39927
+installed-size	92335
+depends	so:libayatana-common.so.0 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8
+origin	ayatana-indicator-bluetooth
+repo	community
+file	ayatana-indicator-bluetooth-24.5.0-r1.apk
+checksum	Q1Mo4sFrfxQSYFysvD66iDgNYd5Bc=
+dep	so:libayatana-common.so.0	libayatana-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl

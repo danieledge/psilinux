@@ -1,0 +1,15 @@
+name	double-conversion
+version	3.4.0-r0
+description	Binary-decimal and decimal-binary routines for IEEE doubles
+url	https://github.com/google/double-conversion
+license	BSD-3-Clause
+size	40416
+installed-size	79180
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	double-conversion
+repo	community
+file	double-conversion-3.4.0-r0.apk
+checksum	Q1OxlqTVzEafnapl4025pRPNQbCwY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

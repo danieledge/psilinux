@@ -1,0 +1,14 @@
+name	apr
+version	1.7.6-r0
+description	The Apache Portable Runtime
+url	https://apr.apache.org/
+license	Apache-2.0
+size	85532
+installed-size	185800
+depends	so:libc.musl-armhf.so.1 so:libuuid.so.1
+origin	apr
+repo	main
+file	apr-1.7.6-r0.apk
+checksum	Q1RNCXGiBFyBxnE2k4moJbejMtjWM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libuuid.so.1	libuuid

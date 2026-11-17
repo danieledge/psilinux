@@ -1,0 +1,14 @@
+name	libmowgli-dev
+version	2.1.3-r6
+description	C library framework designed to reduce writing of boilerplate code (development files)
+url	https://github.com/atheme/libmowgli-2
+license	ISC
+size	30958
+installed-size	144300
+depends	libmowgli=2.1.3-r6 pkgconfig
+origin	libmowgli
+repo	community
+file	libmowgli-dev-2.1.3-r6.apk
+checksum	Q1b85uHJ8kAXi3i4IDAOPc0nF6pMs=
+dep	libmowgli=2.1.3-r6	libmowgli
+dep	pkgconfig	pkgconf

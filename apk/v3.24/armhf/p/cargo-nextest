@@ -1,0 +1,16 @@
+name	cargo-nextest
+version	0.9.110-r0
+description	A next-generation test runner for Rust
+url	https://nexte.st/
+license	Apache-2.0 OR MIT
+size	2726317
+installed-size	5557892
+depends	cargo so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libzstd.so.1
+origin	cargo-nextest
+repo	main
+file	cargo-nextest-0.9.110-r0.apk
+checksum	Q1MxbdExBNwRcmIPl00oxEm0SkVKk=
+dep	cargo	cargo
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libzstd.so.1	zstd-libs

@@ -1,0 +1,14 @@
+name	dfrs
+version	0.0.7-r3
+description	Display file system space usage using graphs and colors
+url	https://github.com/anthraxx/dfrs
+license	MIT
+size	501712
+installed-size	937104
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	dfrs
+repo	community
+file	dfrs-0.0.7-r3.apk
+checksum	Q18n3kYpvMV7Tq0I8nkBW64x6viq8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

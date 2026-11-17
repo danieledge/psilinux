@@ -1,0 +1,16 @@
+name	perl-anyevent-readline-gnu
+version	1.1-r1
+description	Event-based interface to Term::ReadLine::Gnu
+url	https://metacpan.org/release/AnyEvent-ReadLine-Gnu/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6032
+installed-size	9213
+depends	perl perl-anyevent perl-common-sense perl-term-readline-gnu
+origin	perl-anyevent-readline-gnu
+repo	community
+file	perl-anyevent-readline-gnu-1.1-r1.apk
+checksum	Q1xYdn+frijw6Mb6B8FUrCQ7mCvt4=
+dep	perl	perl
+dep	perl-anyevent	perl-anyevent
+dep	perl-common-sense	perl-common-sense
+dep	perl-term-readline-gnu	perl-term-readline-gnu

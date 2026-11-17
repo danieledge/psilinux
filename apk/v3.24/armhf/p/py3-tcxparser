@@ -1,0 +1,16 @@
+name	py3-tcxparser
+version	2.4.0-r2
+description	Simple parser for Garmin TCX files
+url	https://github.com/vkurup/python-tcxparser
+license	BSD-2-Clause
+size	8024
+installed-size	17002
+depends	python3 py3-lxml py3-dateutil python3~3.14
+origin	py3-tcxparser
+repo	community
+file	py3-tcxparser-2.4.0-r2.apk
+checksum	Q1G8EUAlwD93foctl/UW1Csd6s4A4=
+dep	python3	python3
+dep	py3-lxml	py3-lxml
+dep	py3-dateutil	py3-dateutil
+dep	python3~3.14	python3

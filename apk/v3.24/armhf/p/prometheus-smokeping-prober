@@ -1,0 +1,14 @@
+name	prometheus-smokeping-prober
+version	0.11.0-r2
+description	Prometheus style smokeping prober
+url	https://github.com/SuperQ/smokeping_prober
+license	Apache-2.0
+size	5125336
+installed-size	13597796
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	prometheus-smokeping-prober
+repo	community
+file	prometheus-smokeping-prober-0.11.0-r2.apk
+checksum	Q1FqqPROgRpq1HA2AG7VZxxSwdGm8=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

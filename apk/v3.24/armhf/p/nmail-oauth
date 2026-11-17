@@ -1,0 +1,14 @@
+name	nmail-oauth
+version	5.12.6-r0
+description	Terminal-based email client (OAuth2 Python helper script)
+url	https://github.com/d99kris/nmail
+license	MIT
+size	5783
+installed-size	16243
+depends	nmail=5.12.6-r0 py3-requests
+origin	nmail
+repo	community
+file	nmail-oauth-5.12.6-r0.apk
+checksum	Q1sWgk326kQ7ENGE2o5iKHEJejYRU=
+dep	nmail=5.12.6-r0	nmail
+dep	py3-requests	py3-requests

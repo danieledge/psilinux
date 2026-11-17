@@ -1,0 +1,20 @@
+name	mediainfo-gui
+version	26.01-r0
+description	Supplies technical and tag information about media files (GUI)
+url	https://mediaarea.net/en/MediaInfo
+license	BSD-2-Clause
+size	123019
+installed-size	322225
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libmediainfo.so.0 so:libstdc++.so.6 so:libwx_baseu-3.2.so.0 so:libwx_gtk3u_core-3.2.so.0 so:libwx_gtk3u_html-3.2.so.0 so:libzen.so.0
+origin	mediainfo
+repo	community
+file	mediainfo-gui-26.01-r0.apk
+checksum	Q17u9daZRxHI/AVj2oTccX9AWVn0U=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmediainfo.so.0	libmediainfo
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwx_baseu-3.2.so.0	wxwidgets
+dep	so:libwx_gtk3u_core-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_html-3.2.so.0	wxwidgets-gtk3
+dep	so:libzen.so.0	libzen

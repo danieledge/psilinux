@@ -1,0 +1,20 @@
+name	ocaml-mirage-clock
+version	4.2.0-r5
+description	Libraries and module types for portable clocks
+url	https://github.com/mirage/mirage-clock
+license	ISC
+size	27671
+installed-size	72092
+depends	ocaml4-impl:Unix:f178ae69c20aeb74201b0bb0f388ec23 ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15 ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91 ocaml4-intf:Stdlib__Bigarray:994a14f10d5ae081663b52b790ee11d3 ocaml4-intf:Stdlib__Complex:4555217c759e89d65daa8f682eb09b35 ocaml4-intf:Stdlib__Int64:0fa5587c47baf16a06837c7dedfc2518 ocaml4-intf:Unix:d81af7730241956ddaf1c2d19ed2cb1c so:libc.musl-armhf.so.1
+origin	ocaml-mirage-clock
+repo	community
+file	ocaml-mirage-clock-4.2.0-r5.apk
+checksum	Q1LQ71YQ74Kyx3UaiRRcCo1t/qdXs=
+dep	ocaml4-impl:Unix:f178ae69c20aeb74201b0bb0f388ec23	ocaml
+dep	ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15	ocaml
+dep	ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91	ocaml
+dep	ocaml4-intf:Stdlib__Bigarray:994a14f10d5ae081663b52b790ee11d3	ocaml
+dep	ocaml4-intf:Stdlib__Complex:4555217c759e89d65daa8f682eb09b35	ocaml
+dep	ocaml4-intf:Stdlib__Int64:0fa5587c47baf16a06837c7dedfc2518	ocaml
+dep	ocaml4-intf:Unix:d81af7730241956ddaf1c2d19ed2cb1c	ocaml
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,22 @@
+name	libcmatrix
+version	0.0.4-r0
+description	Matrix protocol library written in C using GObject
+url	https://source.puri.sm/Librem5/libcmatrix
+license	LGPL-2.1-or-later
+size	159514
+installed-size	402768
+depends	so:libc.musl-armhf.so.1 so:libgcrypt.so.20 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libjson-glib-1.0.so.0 so:libolm.so.3 so:libsecret-1.so.0 so:libsoup-3.0.so.0 so:libsqlite3.so.0
+origin	libcmatrix
+repo	community
+file	libcmatrix-0.0.4-r0.apk
+checksum	Q1/+/NEIziwmlNChAMiJ2eBMv13y8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libolm.so.3	olm
+dep	so:libsecret-1.so.0	libsecret
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libsqlite3.so.0	sqlite-libs

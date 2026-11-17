@@ -1,0 +1,13 @@
+name	kubelet-openrc
+version	1.36.1-r2
+description	Kubernetes - kubelet (OpenRC init scripts)
+url	https://kubernetes.io/
+license	Apache-2.0
+size	2070
+installed-size	782
+depends	openrc
+origin	kubernetes
+repo	community
+file	kubelet-openrc-1.36.1-r2.apk
+checksum	Q10ZqxoFeDw04pMvM5AdKu1Zn9J/k=
+dep	openrc	openrc

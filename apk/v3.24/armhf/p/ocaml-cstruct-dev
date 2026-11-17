@@ -1,0 +1,17 @@
+name	ocaml-cstruct-dev
+version	6.1.0-r6
+description	Access C-like structures directly from OCaml (development files)
+url	https://github.com/mirage/ocaml-cstruct
+license	ISC
+size	725334
+installed-size	1850501
+depends	ocaml-cstruct=6.1.0-r6 ocaml-fmt-dev ocaml-lwt-dev ocaml-ppxlib-dev ocaml-sexplib-dev
+origin	ocaml-cstruct
+repo	community
+file	ocaml-cstruct-dev-6.1.0-r6.apk
+checksum	Q1qYJGrj7de6BkW1ZnVRI5FCJG774=
+dep	ocaml-cstruct=6.1.0-r6	ocaml-cstruct
+dep	ocaml-fmt-dev	ocaml-fmt-dev
+dep	ocaml-lwt-dev	ocaml-lwt-dev
+dep	ocaml-ppxlib-dev	ocaml-ppxlib-dev
+dep	ocaml-sexplib-dev	ocaml-sexplib-dev

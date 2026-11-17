@@ -1,0 +1,14 @@
+name	perl-proc-guard
+version	0.07-r5
+description	process runner with RAII pattern
+url	https://metacpan.org/release/Proc-Guard/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	3498
+installed-size	4209
+depends	perl perl-class-accessor-lite
+origin	perl-proc-guard
+repo	community
+file	perl-proc-guard-0.07-r5.apk
+checksum	Q19xhRvhZV4Yuhcre8rBCzCB0THFI=
+dep	perl	perl
+dep	perl-class-accessor-lite	perl-class-accessor-lite

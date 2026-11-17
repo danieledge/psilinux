@@ -1,0 +1,17 @@
+name	perl-json-webtoken
+version	0.10-r6
+description	JSON Web Token (JWT) implementation for Perl
+url	https://github.com/xaicron/p5-JSON-WebToken
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6659
+installed-size	15521
+depends	perl perl-json perl-module-runtime perl-mime-base64 perl-carp
+origin	perl-json-webtoken
+repo	community
+file	perl-json-webtoken-0.10-r6.apk
+checksum	Q1Ym3z+K06mRtdtzh75609jJqxV04=
+dep	perl	perl
+dep	perl-json	perl-json
+dep	perl-module-runtime	perl-module-runtime
+dep	perl-mime-base64	perl-mime-base64
+dep	perl-carp	perl-carp

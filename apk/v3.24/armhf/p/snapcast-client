@@ -1,0 +1,27 @@
+name	snapcast-client
+version	0.35.0-r0
+description	snapcast client
+url	https://github.com/badaix/snapcast
+license	GPL-3.0-or-later
+size	516582
+installed-size	1235274
+depends	/bin/sh so:libFLAC.so.12 so:libasound.so.2 so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libogg.so.0 so:libopus.so.0 so:libpulse.so.0 so:libsoxr.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libvorbis.so.0
+origin	snapcast
+repo	community
+file	snapcast-client-0.35.0-r0.apk
+checksum	Q1k3z9EbzkJUjXucuKg4P6eCR4w+s=
+dep	/bin/sh	busybox-binsh
+dep	so:libFLAC.so.12	libflac
+dep	so:libasound.so.2	alsa-lib
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libogg.so.0	libogg
+dep	so:libopus.so.0	opus
+dep	so:libpulse.so.0	libpulse
+dep	so:libsoxr.so.0	soxr
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libvorbis.so.0	libvorbis

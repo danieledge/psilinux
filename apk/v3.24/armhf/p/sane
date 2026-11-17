@@ -1,0 +1,16 @@
+name	sane
+version	1.4.0-r4
+description	Scanner Access Now Easy - universal scanner interface
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	147649
+installed-size	329608
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libusb-1.0.so.0 so:libxml2.so.2
+origin	sane
+repo	community
+file	sane-1.4.0-r4.apk
+checksum	Q1LhDMrT4WM+KrFLo99dm68et8b+8=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb
+dep	so:libxml2.so.2	libxml2

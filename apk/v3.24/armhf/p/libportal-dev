@@ -1,0 +1,24 @@
+name	libportal-dev
+version	0.9.1-r10
+description	GIO-style async APIs for most Flatpak portals (development files)
+url	https://github.com/flatpak/libportal
+license	LGPL-3.0-or-later
+size	47212
+installed-size	397836
+depends	libportal-gtk3=0.9.1-r10 libportal-gtk4=0.9.1-r10 libportal-qt6=0.9.1-r10 libportal=0.9.1-r10 pc:Qt6Core pc:Qt6Gui pc:Qt6Widgets pc:gio-2.0>=2.72 pc:gio-unix-2.0 pc:gtk+-3.0 pc:gtk4 pkgconfig
+origin	libportal
+repo	community
+file	libportal-dev-0.9.1-r10.apk
+checksum	Q1a+lErV46E9iAQvKgEs/ArETebgU=
+dep	libportal-gtk3=0.9.1-r10	libportal-gtk3
+dep	libportal-gtk4=0.9.1-r10	libportal-gtk4
+dep	libportal-qt6=0.9.1-r10	libportal-qt6
+dep	libportal=0.9.1-r10	libportal
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pc:Qt6Gui	qt6-qtbase-dev
+dep	pc:Qt6Widgets	qt6-qtbase-dev
+dep	pc:gio-2.0>=2.72	glib-dev
+dep	pc:gio-unix-2.0	glib-dev
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pc:gtk4	gtk4.0-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,15 @@
+name	libxau-dev
+version	1.0.12-r0
+description	X11 authorisation library (development files)
+url	https://xorg.freedesktop.org/
+license	MIT
+size	3779
+installed-size	5180
+depends	libxau=1.0.12-r0 pc:xproto pkgconfig
+origin	libxau
+repo	main
+file	libxau-dev-1.0.12-r0.apk
+checksum	Q1hcm1jwSCwK4B6stukcx8qI3yiEY=
+dep	libxau=1.0.12-r0	libxau
+dep	pc:xproto	xorgproto
+dep	pkgconfig	pkgconf

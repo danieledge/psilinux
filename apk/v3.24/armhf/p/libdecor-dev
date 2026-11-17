@@ -1,0 +1,15 @@
+name	libdecor-dev
+version	0.2.5-r0
+description	Client-side decorations library for Wayland clients (development files)
+url	https://gitlab.freedesktop.org/libdecor/libdecor
+license	MIT
+size	5795
+installed-size	13881
+depends	libdecor=0.2.5-r0 pc:wayland-client pkgconfig
+origin	libdecor
+repo	community
+file	libdecor-dev-0.2.5-r0.apk
+checksum	Q1RIwIpHGXzutDeDXhC36KcFH8SwE=
+dep	libdecor=0.2.5-r0	libdecor
+dep	pc:wayland-client	wayland-dev
+dep	pkgconfig	pkgconf

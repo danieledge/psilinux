@@ -1,0 +1,14 @@
+name	s6-linux-utils
+version	2.6.4.1-r0
+description	A set of tiny Linux-specific utilities optimized for simplicity and small size.
+url	https://skarnet.org/software/s6-linux-utils/
+license	ISC
+size	35289
+installed-size	70992
+depends	so:libc.musl-armhf.so.1 so:libskarnet.so.2.15
+origin	s6-linux-utils
+repo	main
+file	s6-linux-utils-2.6.4.1-r0.apk
+checksum	Q1l211bfPwW/MB9N+syb3485Ium5I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libskarnet.so.2.15	skalibs-libs

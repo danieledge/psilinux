@@ -1,0 +1,18 @@
+name	py3-guessit
+version	3.8.0-r2
+description	Library for guessing information from video filenames
+url	https://pypi.org/project/guessit/
+license	LGPL-3.0-only
+size	116674
+installed-size	432985
+depends	python3 py3-rebulk py3-babelfish py3-dateutil py3-six python3~3.14
+origin	py3-guessit
+repo	community
+file	py3-guessit-3.8.0-r2.apk
+checksum	Q1TAAanLP+Vnjt1Qnwil+nS0UQPNY=
+dep	python3	python3
+dep	py3-rebulk	py3-rebulk
+dep	py3-babelfish	py3-babelfish
+dep	py3-dateutil	py3-dateutil
+dep	py3-six	py3-six
+dep	python3~3.14	python3

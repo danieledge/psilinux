@@ -1,0 +1,17 @@
+name	libbsd-dev
+version	0.12.2-r0
+description	commonly-used BSD functions not implemented by all libcs (development files)
+url	https://libbsd.freedesktop.org/
+license	BSD-3-Clause
+size	28400
+installed-size	137157
+depends	bsd-compat-headers linux-headers libmd-dev libbsd=0.12.2-r0 pkgconfig
+origin	libbsd
+repo	main
+file	libbsd-dev-0.12.2-r0.apk
+checksum	Q1bcohSInf8xFoa0yNSaOCO4SgZRY=
+dep	bsd-compat-headers	bsd-compat-headers
+dep	linux-headers	linux-headers
+dep	libmd-dev	libmd-dev
+dep	libbsd=0.12.2-r0	libbsd
+dep	pkgconfig	pkgconf

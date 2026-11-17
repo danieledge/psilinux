@@ -1,0 +1,14 @@
+name	rsyslog-mmaudit
+version	8.2608.0-r0
+description	rsyslog  module
+url	https://www.rsyslog.com/
+license	Apache-2.0 AND GPL-3.0-or-later AND LGPL-3.0-or-later
+size	5189
+installed-size	9408
+depends	rsyslog=8.2608.0-r0 so:libc.musl-armhf.so.1
+origin	rsyslog
+repo	main
+file	rsyslog-mmaudit-8.2608.0-r0.apk
+checksum	Q1UbOsEO6zJ0agsfB6oyQoivy7SX4=
+dep	rsyslog=8.2608.0-r0	rsyslog
+dep	so:libc.musl-armhf.so.1	musl

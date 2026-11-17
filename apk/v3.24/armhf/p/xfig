@@ -1,0 +1,23 @@
+name	xfig
+version	3.2.9a-r1
+description	Interactive drawing tool which runs under X Window System
+url	https://mcj.sourceforge.net/
+license	Xfig
+size	2201186
+installed-size	9489077
+depends	so:libX11.so.6 so:libXaw3d.so.8 so:libXft.so.2 so:libXpm.so.4 so:libXt.so.6 so:libc.musl-armhf.so.1 so:libfontconfig.so.1 so:libgs.so.10 so:libjpeg.so.8 so:libpng16.so.16 so:libtiff.so.6
+origin	xfig
+repo	community
+file	xfig-3.2.9a-r1.apk
+checksum	Q1dKxBKTNU45dx+hQebk1xtRHTf6U=
+dep	so:libX11.so.6	libx11
+dep	so:libXaw3d.so.8	libxaw3d
+dep	so:libXft.so.2	libxft
+dep	so:libXpm.so.4	libxpm
+dep	so:libXt.so.6	libxt
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgs.so.10	ghostscript
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpng16.so.16	libpng
+dep	so:libtiff.so.6	tiff

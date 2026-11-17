@@ -1,0 +1,14 @@
+name	nlopt-dev
+version	2.11.0-r0
+description	Library for nonlinear optimization (development files)
+url	https://github.com/stevengj/nlopt
+license	LGPL-2.1-or-later
+size	12247
+installed-size	46365
+depends	nlopt=2.11.0-r0 pkgconfig
+origin	nlopt
+repo	community
+file	nlopt-dev-2.11.0-r0.apk
+checksum	Q1ErN+5/JuDHxFPSodRF26Zho9nX0=
+dep	nlopt=2.11.0-r0	nlopt
+dep	pkgconfig	pkgconf

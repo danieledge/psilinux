@@ -1,0 +1,15 @@
+name	perl-gtk3
+version	0.038-r1
+description	Perl interface to the 3.x series of the gtk+ toolkit
+url	https://metacpan.org/release/Gtk3/
+license	GPL-2.0-or-later
+size	20067
+installed-size	78426
+depends	perl perl-glib-object-introspection perl-cairo-gobject
+origin	perl-gtk3
+repo	community
+file	perl-gtk3-0.038-r1.apk
+checksum	Q1LaqwQYDV+5gv6ZALgc5ym9Bw+N4=
+dep	perl	perl
+dep	perl-glib-object-introspection	perl-glib-object-introspection
+dep	perl-cairo-gobject	perl-cairo-gobject

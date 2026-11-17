@@ -1,0 +1,13 @@
+name	raft-cowsql-static
+version	0.22.1-r0
+description	Asynchronous C implementation of the Raft consensus protocol (static library)
+url	https://github.com/cowsql/raft
+license	LGPL-3.0-only WITH LGPL-3.0-linking-exception
+size	744765
+installed-size	1745236
+depends	raft-cowsql-dev
+origin	raft-cowsql
+repo	community
+file	raft-cowsql-static-0.22.1-r0.apk
+checksum	Q1fjdWl84KvKfzknO3XtdWX0bcgh8=
+dep	raft-cowsql-dev	raft-cowsql-dev

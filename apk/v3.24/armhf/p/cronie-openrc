@@ -1,0 +1,13 @@
+name	cronie-openrc
+version	1.7.2-r1
+description	The standard UNIX daemon crond that runs specified programs at scheduled times (OpenRC init scripts)
+url	https://github.com/cronie-crond/cronie
+license	ISC
+size	2125
+installed-size	190
+depends	/bin/sh
+origin	cronie
+repo	community
+file	cronie-openrc-1.7.2-r1.apk
+checksum	Q12GY0BsZ2mkb4cIMuVXfNevnaP0U=
+dep	/bin/sh	busybox-binsh

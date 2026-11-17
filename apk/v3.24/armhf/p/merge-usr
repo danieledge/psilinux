@@ -1,0 +1,13 @@
+name	merge-usr
+version	1.0.3_git20260218-r0
+description	Script to produce a merged-usr system
+url	https://gitlab.alpinelinux.org/postmarketos/merge-usr
+license	GPL-2.0-or-later
+size	9759
+installed-size	17724
+depends	so:libc.musl-armhf.so.1
+origin	merge-usr
+repo	main
+file	merge-usr-1.0.3_git20260218-r0.apk
+checksum	Q1+0a4pA3BFUS0OjHZqU6w9GmH9ug=
+dep	so:libc.musl-armhf.so.1	musl

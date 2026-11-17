@@ -1,0 +1,15 @@
+name	snort-extra
+version	3.9.2.0-r0
+description	External plugins for snort
+url	https://github.com/snort3/snort3_extra
+license	GPL-2.0-only
+size	71314
+installed-size	270538
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	snort-extra
+repo	main
+file	snort-extra-3.9.2.0-r0.apk
+checksum	Q1IHQbPA3rxCoqMyuGparHZnYvjJI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

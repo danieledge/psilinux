@@ -1,0 +1,15 @@
+name	kati
+version	0_git20251208-r1
+description	Experimental GNU make clone
+url	https://github.com/google/kati
+license	Apache-2.0
+size	228612
+installed-size	468456
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	kati
+repo	community
+file	kati-0_git20251208-r1.apk
+checksum	Q12ueu8mka5pJ6FkHhPBn7/XkQfFY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

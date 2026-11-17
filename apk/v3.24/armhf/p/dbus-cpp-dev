@@ -1,0 +1,17 @@
+name	dbus-cpp-dev
+version	5.0.6-r1
+description	A header-only dbus-binding leveraging C++-11 (development files)
+url	https://gitlab.com/ubports/core/lib-cpp/dbus-cpp
+license	LGPL-3.0-only
+size	39015
+installed-size	218079
+depends	boost-dev properties-cpp-dev dbus-cpp=5.0.6-r1 pc:dbus-1 pkgconfig
+origin	dbus-cpp
+repo	community
+file	dbus-cpp-dev-5.0.6-r1.apk
+checksum	Q1vve8HawozwMCWcMzqV/1wjwf3Fw=
+dep	boost-dev	boost-dev
+dep	properties-cpp-dev	properties-cpp-dev
+dep	dbus-cpp=5.0.6-r1	dbus-cpp
+dep	pc:dbus-1	dbus-dev
+dep	pkgconfig	pkgconf

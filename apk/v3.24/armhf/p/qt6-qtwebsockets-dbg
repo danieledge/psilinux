@@ -1,0 +1,12 @@
+name	qt6-qtwebsockets-dbg
+version	6.11.1-r0
+description	Provides WebSocket communication compliant with RFC 6455 (debug symbols)
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	3162096
+installed-size	7451504
+depends	!qt6-qtwebsockets-libs<6.11.1-r0 !qt6-qtwebsockets-libs>6.11.1-r0
+origin	qt6-qtwebsockets
+repo	community
+file	qt6-qtwebsockets-dbg-6.11.1-r0.apk
+checksum	Q1KN1XSiKyWrgHRXg8iAtYD3cGy5c=

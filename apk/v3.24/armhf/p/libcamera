@@ -1,0 +1,24 @@
+name	libcamera
+version	0.7.1-r1
+description	Linux camera framework
+url	https://libcamera.org/
+license	LGPL-2.1-or-later AND GPL-2.0-or-later
+size	940926
+installed-size	2597084
+depends	libcamera-ipa=0.7.1-r1 so:libEGL.so.1 so:libGLESv2.so.2 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgnutls.so.30 so:libpisp.so.1 so:libstdc++.so.6 so:libudev.so.1 so:libunwind.so.8 so:libyaml-0.so.2 so:libyuv.so
+origin	libcamera
+repo	community
+file	libcamera-0.7.1-r1.apk
+checksum	Q1UumDRxeI5lFmDwyAFepKAFTjyEI=
+dep	libcamera-ipa=0.7.1-r1	libcamera-ipa
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libGLESv2.so.2	mesa-gles
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgnutls.so.30	gnutls
+dep	so:libpisp.so.1	libpisp
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libudev.so.1	eudev-libs
+dep	so:libunwind.so.8	libunwind
+dep	so:libyaml-0.so.2	yaml
+dep	so:libyuv.so	libyuv

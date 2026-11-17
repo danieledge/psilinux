@@ -1,0 +1,13 @@
+name	nawk
+version	20260426-r0
+description	The one, true implementation of AWK
+url	https://github.com/onetrueawk/awk/
+license	MIT
+size	63962
+installed-size	137244
+depends	so:libc.musl-armhf.so.1
+origin	nawk
+repo	community
+file	nawk-20260426-r0.apk
+checksum	Q1+UbzFb3XEXVtsF6qnVFIFPU0Rr8=
+dep	so:libc.musl-armhf.so.1	musl

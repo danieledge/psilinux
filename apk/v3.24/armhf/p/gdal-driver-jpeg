@@ -1,0 +1,17 @@
+name	gdal-driver-jpeg
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (JPEG JFIF driver)
+url	https://gdal.org/
+license	MIT
+size	62326
+installed-size	136576
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libjpeg.so.8 so:libstdc++.so.6
+origin	gdal
+repo	community
+file	gdal-driver-jpeg-3.13.3-r0.apk
+checksum	Q1uk2waNKhvr54Iy4V0LdMUXNLxwo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libstdc++.so.6	libstdc++

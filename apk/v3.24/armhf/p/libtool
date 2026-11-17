@@ -1,0 +1,14 @@
+name	libtool
+version	2.6.0-r1
+description	Generic library support script
+url	https://www.gnu.org/software/libtool/
+license	LGPL-2.0-or-later AND GPL-2.0-or-later
+size	560960
+installed-size	2293745
+depends	diffutils libltdl=2.6.0-r1
+origin	libtool
+repo	main
+file	libtool-2.6.0-r1.apk
+checksum	Q1Y1SAthiaQ1o/N99c0vjx9vl+lNo=
+dep	diffutils	diffutils
+dep	libltdl=2.6.0-r1	libltdl

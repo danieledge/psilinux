@@ -1,0 +1,13 @@
+name	ytnef-libs
+version	2.1.2-r0
+description	TNEF Stream Reader - for winmail.dat files (libraries)
+url	https://github.com/Yeraze/ytnef
+license	GPL-2.0-or-later
+size	20998
+installed-size	89004
+depends	so:libc.musl-armhf.so.1
+origin	ytnef
+repo	community
+file	ytnef-libs-2.1.2-r0.apk
+checksum	Q1oVyCZjZsfgtF1F4PLiizbRH/4MY=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	ud3tn
+version	0.15.0-r0
+description	uD3TN is a free, lean, and space-tested DTN protocol implementation
+url	https://d3tn.com/ud3tn.html
+license	AGPL-3.0-or-later AND BSD-3-Clause AND MIT
+size	118286
+installed-size	239040
+depends	so:libc.musl-armhf.so.1 so:libjansson.so.4 so:libsqlite3.so.0
+origin	ud3tn
+repo	community
+file	ud3tn-0.15.0-r0.apk
+checksum	Q1/gMB2Ln53Rr0PxWXriofZv0INT0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjansson.so.4	jansson
+dep	so:libsqlite3.so.0	sqlite-libs

@@ -1,0 +1,13 @@
+name	py3-gunicorn
+version	25.2.0-r1
+description	WSGI HTTP Server for UNIX
+url	https://gunicorn.org/
+license	MIT
+size	183927
+installed-size	774620
+depends	python3~3.14
+origin	py3-gunicorn
+repo	community
+file	py3-gunicorn-25.2.0-r1.apk
+checksum	Q1xrAFb16qL+bh9EDt+MYezX7UiC4=
+dep	python3~3.14	python3

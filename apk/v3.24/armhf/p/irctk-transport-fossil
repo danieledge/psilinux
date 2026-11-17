@@ -1,0 +1,14 @@
+name	irctk-transport-fossil
+version	1.1.0-r1
+description	Fossil chat to IRC bridge
+url	https://lab.abiscuola.com/irctk/
+license	ISC
+size	14319
+installed-size	25848
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4
+origin	irctk
+repo	community
+file	irctk-transport-fossil-1.1.0-r1.apk
+checksum	Q1bCVj41jny08shek/Aw6JQ41SddQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl

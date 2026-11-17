@@ -1,0 +1,14 @@
+name	kamailio-carrierroute
+version	6.0.6-r0
+description	Kamailio carrier grade routing functions
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	150907
+installed-size	314400
+depends	kamailio so:libc.musl-armhf.so.1
+origin	kamailio
+repo	main
+file	kamailio-carrierroute-6.0.6-r0.apk
+checksum	Q1iq5/94s2d3bMdZCypR66fao1ab4=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl

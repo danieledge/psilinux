@@ -1,0 +1,14 @@
+name	db-utils
+version	5.3.28-r7
+description	Utils for The Berkeley DB embedded database system
+url	https://www.oracle.com/technology/software/products/berkeley-db/index.html
+license	Sleepycat
+size	53564
+installed-size	180588
+depends	so:libc.musl-armhf.so.1 so:libdb-5.3.so
+origin	db
+repo	main
+file	db-utils-5.3.28-r7.apk
+checksum	Q1vwG/dVjdLx0OOraupqmnm8tHsQw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdb-5.3.so	db

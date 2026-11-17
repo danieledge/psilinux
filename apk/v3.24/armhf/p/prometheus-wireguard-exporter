@@ -1,0 +1,14 @@
+name	prometheus-wireguard-exporter
+version	3.6.6-r3
+description	A Prometheus exporter for WireGuard, written in Rust
+url	https://github.com/MindFlavor/prometheus_wireguard_exporter
+license	MIT
+size	755652
+installed-size	1601772
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	prometheus-wireguard-exporter
+repo	community
+file	prometheus-wireguard-exporter-3.6.6-r3.apk
+checksum	Q1N9rcMuIVeLgpWJTtpGyl8NzVzlI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

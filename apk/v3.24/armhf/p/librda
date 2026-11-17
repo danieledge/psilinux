@@ -1,0 +1,15 @@
+name	librda
+version	0.0.5-r1
+description	Remote Desktop Awareness Shared Library
+url	https://github.com/ArcticaProject/librda
+license	LGPL-2.0-or-later
+size	5179
+installed-size	11436
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libintl.so.8
+origin	librda
+repo	community
+file	librda-0.0.5-r1.apk
+checksum	Q1d0IX6HKrxzEYWHgarWQKjMg5qRE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libintl.so.8	libintl

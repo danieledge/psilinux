@@ -1,0 +1,33 @@
+name	guix
+version	1.5.0-r2
+description	Functional package manager based on Guile Scheme
+url	https://guix.gnu.org
+license	GPL-3.0-or-later
+size	83789269
+installed-size	378665177
+depends	guile guile-gcrypt guile-git guile-gnutls guile-json guile-lzlib guile-semver guile-sqlite3 guile-zlib guile-zstd shadow-subids /bin/sh so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgcrypt.so.20 so:libguile-3.0.so.1 so:libintl.so.8 so:libsqlite3.so.0 so:libstdc++.so.6 so:libz.so.1
+origin	guix
+repo	community
+file	guix-1.5.0-r2.apk
+checksum	Q1o8yEGNCsraNqrgZIOYFnK+MLEco=
+dep	guile	guile
+dep	guile-gcrypt	guile-gcrypt
+dep	guile-git	guile-git
+dep	guile-gnutls	guile-gnutls
+dep	guile-json	guile-json
+dep	guile-lzlib	guile-lzlib
+dep	guile-semver	guile-semver
+dep	guile-sqlite3	guile-sqlite3
+dep	guile-zlib	guile-zlib
+dep	guile-zstd	guile-zstd
+dep	shadow-subids	shadow-subids
+dep	/bin/sh	busybox-binsh
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libguile-3.0.so.1	guile-libs
+dep	so:libintl.so.8	libintl
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

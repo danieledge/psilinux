@@ -1,0 +1,14 @@
+name	dssim
+version	3.4.0-r0
+description	Tool for image similarity comparison, simulating human perception
+url	https://kornel.ski/dssim
+license	AGPL-3.0-only
+size	917217
+installed-size	1611240
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	dssim
+repo	community
+file	dssim-3.4.0-r0.apk
+checksum	Q1xy+5gZwb65F3xT4qaCNZwsFw8bc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

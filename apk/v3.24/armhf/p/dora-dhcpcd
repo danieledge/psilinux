@@ -1,0 +1,13 @@
+name	dora-dhcpcd
+version	0_git20220621-r4
+description	Command line dhcp client/test tool (dhcp client script)
+url	https://github.com/glitchub/dora
+license	MIT
+size	2960
+installed-size	3786
+depends	bash
+origin	dora
+repo	community
+file	dora-dhcpcd-0_git20220621-r4.apk
+checksum	Q1T2nxrC8EpFBbNvhpus2x++fXPHM=
+dep	bash	bash

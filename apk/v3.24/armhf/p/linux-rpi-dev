@@ -1,0 +1,19 @@
+name	linux-rpi-dev
+version	6.18.60-r0
+description	Headers and script for third party modules for rpi kernel
+url	https://github.com/raspberrypi/linux
+license	GPL-2.0-only
+size	21298210
+installed-size	83390794
+depends	perl gmp-dev elfutils-dev bash mpc1-dev mpfr-dev so:libc.musl-armhf.so.1
+origin	linux-rpi
+repo	main
+file	linux-rpi-dev-6.18.60-r0.apk
+checksum	Q1+V0ay8urjx5kl+kAw3F156XT31g=
+dep	perl	perl
+dep	gmp-dev	gmp-dev
+dep	elfutils-dev	elfutils-dev
+dep	bash	bash
+dep	mpc1-dev	mpc1-dev
+dep	mpfr-dev	mpfr-dev
+dep	so:libc.musl-armhf.so.1	musl

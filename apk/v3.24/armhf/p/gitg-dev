@@ -1,0 +1,21 @@
+name	gitg-dev
+version	44-r4
+description	gitg is the GNOME GUI client to view git repositories (development files)
+url	https://gitlab.gnome.org/GNOME/gitg
+license	GPL-2.0-or-later
+size	56051
+installed-size	632297
+depends	gitg=44-r4 pc:gee-0.8 pc:gio-2.0>=2.68 pc:glib-2.0>=2.68 pc:gpgme pc:gtk+-3.0>=3.20.0 pc:libdazzle-1.0 pc:libgit2-glib-1.0>=1.1.0 pkgconfig
+origin	gitg
+repo	community
+file	gitg-dev-44-r4.apk
+checksum	Q1LX1fosxWRMXJj1L6DLvzXFKt2nw=
+dep	gitg=44-r4	gitg
+dep	pc:gee-0.8	libgee-dev
+dep	pc:gio-2.0>=2.68	glib-dev
+dep	pc:glib-2.0>=2.68	glib-dev
+dep	pc:gpgme	gpgme-dev
+dep	pc:gtk+-3.0>=3.20.0	gtk+3.0-dev
+dep	pc:libdazzle-1.0	libdazzle-dev
+dep	pc:libgit2-glib-1.0>=1.1.0	libgit2-glib-dev
+dep	pkgconfig	pkgconf

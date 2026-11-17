@@ -1,0 +1,13 @@
+name	py3-libfdt-pyc
+version	1.7.2-r1
+description	Precompiled Python bytecode for py3-libfdt
+url	https://git.kernel.org/pub/scm/utils/dtc/dtc.git/
+license	GPL-2.0-or-later
+size	21700
+installed-size	69513
+depends	python3~3.14
+origin	dtc
+repo	main
+file	py3-libfdt-pyc-1.7.2-r1.apk
+checksum	Q124Z+GCuqRIp/QJIUHymfl5XCAVI=
+dep	python3~3.14	python3

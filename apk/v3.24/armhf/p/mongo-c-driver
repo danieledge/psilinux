@@ -1,0 +1,18 @@
+name	mongo-c-driver
+version	1.30.14-r0
+description	Client library written in C for MongoDB
+url	https://github.com/mongodb/mongo-c-driver
+license	Apache-2.0
+size	477413
+installed-size	1260676
+depends	so:libbson-1.0.so.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libsnappy.so.1 so:libssl.so.3 so:libzstd.so.1
+origin	mongo-c-driver
+repo	community
+file	mongo-c-driver-1.30.14-r0.apk
+checksum	Q1uCWSnnl24nSTTukfCTsfm4jjVvM=
+dep	so:libbson-1.0.so.0	libbson
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libsnappy.so.1	snappy
+dep	so:libssl.so.3	libssl3
+dep	so:libzstd.so.1	zstd-libs

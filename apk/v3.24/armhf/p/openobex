@@ -1,0 +1,14 @@
+name	openobex
+version	1.7.2-r7
+description	Implementation of the OBject EXchange (OBEX) protocol
+url	http://dev.zuckschwerdt.org/openobex/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	30737
+installed-size	68400
+depends	so:libc.musl-armhf.so.1 so:libusb-1.0.so.0
+origin	openobex
+repo	main
+file	openobex-1.7.2-r7.apk
+checksum	Q1xDI3C4vJwWZu7Gbf9lQbfz3dlbk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb

@@ -1,0 +1,16 @@
+name	redland
+version	1.0.17-r3
+description	high-level RDF library
+url	https://librdf.org/
+license	LGPL-2.1-or-later
+size	110380
+installed-size	275412
+depends	so:libc.musl-armhf.so.1 so:libraptor2.so.0 so:librasqal.so.3 so:libsqlite3.so.0
+origin	redland
+repo	community
+file	redland-1.0.17-r3.apk
+checksum	Q1g9ygx+gA6V9gIV6hdgged0XRY0g=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libraptor2.so.0	raptor2
+dep	so:librasqal.so.3	rasqal
+dep	so:libsqlite3.so.0	sqlite-libs

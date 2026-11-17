@@ -1,0 +1,24 @@
+name	ipython
+version	9.14.1-r1
+description	A rich toolkit to help you make the most of using Python interactively
+url	https://ipython.org/
+license	BSD-3-Clause
+size	568783
+installed-size	2020941
+depends	py3-backcall py3-decorator py3-jedi py3-matplotlib-inline py3-pexpect py3-pickleshare py3-prompt_toolkit<3.1.0 py3-psutil py3-pygments py3-stack_data py3-traitlets python3~3.14
+origin	ipython
+repo	community
+file	ipython-9.14.1-r1.apk
+checksum	Q1v/i6BX9XypUA8YH45fu9bydX/Ss=
+dep	py3-backcall	py3-backcall
+dep	py3-decorator	py3-decorator
+dep	py3-jedi	py3-jedi
+dep	py3-matplotlib-inline	py3-matplotlib-inline
+dep	py3-pexpect	py3-pexpect
+dep	py3-pickleshare	py3-pickleshare
+dep	py3-prompt_toolkit<3.1.0	py3-prompt_toolkit
+dep	py3-psutil	py3-psutil
+dep	py3-pygments	py3-pygments
+dep	py3-stack_data	py3-stack_data
+dep	py3-traitlets	py3-traitlets
+dep	python3~3.14	python3

@@ -1,0 +1,16 @@
+name	aws-c-event-stream
+version	0.7.1-r0
+description	AWS C99 implementation of the vnd.amazon.eventstream content-type
+url	https://github.com/awslabs/aws-c-event-stream
+license	Apache-2.0
+size	32589
+installed-size	83480
+depends	so:libaws-c-common.so.1 so:libaws-c-io.so.1.0.0 so:libaws-checksums.so.1.0.0 so:libc.musl-armhf.so.1
+origin	aws-c-event-stream
+repo	community
+file	aws-c-event-stream-0.7.1-r0.apk
+checksum	Q1CyQxd8vLlYolWbronjV6I43/YHo=
+dep	so:libaws-c-common.so.1	aws-c-common
+dep	so:libaws-c-io.so.1.0.0	aws-c-io
+dep	so:libaws-checksums.so.1.0.0	aws-checksums
+dep	so:libc.musl-armhf.so.1	musl

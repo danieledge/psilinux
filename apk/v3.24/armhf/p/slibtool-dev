@@ -1,0 +1,14 @@
+name	slibtool-dev
+version	0.7.4-r1
+description	Surrogate libtool implementation written in C (development files)
+url	https://git.foss21.org/slibtool
+license	MIT
+size	7154
+installed-size	24485
+depends	slibtool-libs=0.7.4-r1 pkgconfig
+origin	slibtool
+repo	community
+file	slibtool-dev-0.7.4-r1.apk
+checksum	Q1StPxIB61c7w1upjvTCjOSdBj3NA=
+dep	slibtool-libs=0.7.4-r1	slibtool-libs
+dep	pkgconfig	pkgconf

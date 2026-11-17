@@ -1,0 +1,16 @@
+name	stubby
+version	0.4.3-r2
+description	DNS Privacy stub resolver
+url	https://dnsprivacy.org/dns_privacy_daemon_-_stubby/
+license	BSD-3-Clause
+size	21305
+installed-size	50760
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libgetdns.so.10 so:libyaml-0.so.2
+origin	stubby
+repo	community
+file	stubby-0.4.3-r2.apk
+checksum	Q1oX+yJx6BbDEMxs2sy6/XKkv6ieg=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgetdns.so.10	getdns-libs
+dep	so:libyaml-0.so.2	yaml

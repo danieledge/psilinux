@@ -1,0 +1,14 @@
+name	py3-swapper
+version	1.4.0-r2
+description	Django Swappable Models
+url	https://github.com/openwisp/django-swappable-models
+license	MIT
+size	8260
+installed-size	17584
+depends	py3-django python3~3.14
+origin	py3-swapper
+repo	community
+file	py3-swapper-1.4.0-r2.apk
+checksum	Q1pSvWVZ3xeYRaNT0kZGrPRWWzts0=
+dep	py3-django	py3-django
+dep	python3~3.14	python3

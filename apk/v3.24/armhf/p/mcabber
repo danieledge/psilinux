@@ -1,0 +1,23 @@
+name	mcabber
+version	1.1.2-r6
+description	Small Jabber console client
+url	https://mcabber.com
+license	GPL-2.0-or-later
+size	256692
+installed-size	577679
+depends	beep so:libaspell.so.15 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgpgme.so.45 so:libidn.so.12 so:libloudmouth-1.so.0 so:libncursesw.so.6 so:libotr.so.5 so:libpanelw.so.6
+origin	mcabber
+repo	community
+file	mcabber-1.1.2-r6.apk
+checksum	Q1wzWmJLZRERdOzog8L1U4SasW+HA=
+dep	beep	beep
+dep	so:libaspell.so.15	aspell-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgpgme.so.45	gpgme
+dep	so:libidn.so.12	libidn
+dep	so:libloudmouth-1.so.0	loudmouth
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libotr.so.5	libotr
+dep	so:libpanelw.so.6	libpanelw

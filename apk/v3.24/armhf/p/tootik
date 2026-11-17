@@ -1,0 +1,15 @@
+name	tootik
+version	0.21.1-r4
+description	Federated nanoblogging service with Gemini frontend
+url	https://github.com/dimkr/tootik
+license	Apache-2.0
+size	4714152
+installed-size	12066321
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	tootik
+repo	community
+file	tootik-0.21.1-r4.apk
+checksum	Q1jRLUdJl1JQb69exZV9kUPQmywjc=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

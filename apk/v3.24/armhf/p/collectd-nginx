@@ -1,0 +1,15 @@
+name	collectd-nginx
+version	5.12.0-r25
+description	nginx pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	5878
+installed-size	9368
+depends	collectd so:libc.musl-armhf.so.1 so:libcurl.so.4
+origin	collectd
+repo	community
+file	collectd-nginx-5.12.0-r25.apk
+checksum	Q16yR+kuEeS5IzJnakQoM8jgTBWy4=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl

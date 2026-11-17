@@ -1,0 +1,14 @@
+name	libudfread-dev
+version	1.2.0-r1
+description	UDF reader library (development files)
+url	https://code.videolan.org/videolan/libudfread
+license	LGPL-2.1-or-later
+size	4848
+installed-size	11001
+depends	libudfread=1.2.0-r1 pkgconfig
+origin	libudfread
+repo	community
+file	libudfread-dev-1.2.0-r1.apk
+checksum	Q10/vfKVMQYqRiZDSG8ZCV5ZgFNk4=
+dep	libudfread=1.2.0-r1	libudfread
+dep	pkgconfig	pkgconf

@@ -1,0 +1,16 @@
+name	perl-test-unit
+version	0.29-r1
+description	Unit testing framework derived from JUnit
+url	https://metacpan.org/release/Test-Unit/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	36314
+installed-size	127444
+depends	perl perl-class-inner perl-devel-symdump perl-error
+origin	perl-test-unit
+repo	community
+file	perl-test-unit-0.29-r1.apk
+checksum	Q1FPKtVxTaC6rYNbt8JuHe8cMXAMk=
+dep	perl	perl
+dep	perl-class-inner	perl-class-inner
+dep	perl-devel-symdump	perl-devel-symdump
+dep	perl-error	perl-error

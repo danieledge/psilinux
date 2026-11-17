@@ -1,0 +1,29 @@
+name	zabbix-mysql
+version	7.4.12-r2
+description	Zabbix server with mysql database support
+url	https://www.zabbix.com/
+license	AGPL-3.0-only
+size	3400939
+installed-size	9032544
+depends	zabbix !zabbix-pgsql !zabbix-sqlite so:libOpenIPMI.so.0 so:libOpenIPMIposix.so.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libevent_core-2.1.so.7 so:libevent_extra-2.1.so.7 so:libevent_pthreads-2.1.so.7 so:libmariadb.so.3 so:libnetsnmp.so.45 so:libodbc.so.2 so:libpcre2-8.so.0 so:libssh2.so.1 so:libssl.so.3 so:libxml2.so.2 so:libz.so.1
+origin	zabbix
+repo	community
+file	zabbix-mysql-7.4.12-r2.apk
+checksum	Q1ihZuwDZADMLNwDD7aQUMW1mNe+c=
+dep	zabbix	zabbix
+dep	so:libOpenIPMI.so.0	openipmi-libs
+dep	so:libOpenIPMIposix.so.0	openipmi-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libevent_core-2.1.so.7	libevent
+dep	so:libevent_extra-2.1.so.7	libevent
+dep	so:libevent_pthreads-2.1.so.7	libevent
+dep	so:libmariadb.so.3	mariadb-connector-c
+dep	so:libnetsnmp.so.45	net-snmp-libs
+dep	so:libodbc.so.2	unixodbc
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libssh2.so.1	libssh2
+dep	so:libssl.so.3	libssl3
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

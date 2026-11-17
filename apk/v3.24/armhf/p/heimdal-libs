@@ -1,0 +1,17 @@
+name	heimdal-libs
+version	7.8.0-r5
+description	Heimdal libraries
+url	https://github.com/heimdal/
+license	BSD-3-Clause
+size	989221
+installed-size	2371167
+depends	krb5-conf so:libc.musl-armhf.so.1 so:libcom_err.so.2 so:libreadline.so.8 so:libsqlite3.so.0
+origin	heimdal
+repo	main
+file	heimdal-libs-7.8.0-r5.apk
+checksum	Q11LleW0y/PGBvEn9v4w0xqynDrgQ=
+dep	krb5-conf	krb5-conf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcom_err.so.2	libcom_err
+dep	so:libreadline.so.8	readline
+dep	so:libsqlite3.so.0	sqlite-libs

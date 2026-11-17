@@ -1,0 +1,13 @@
+name	libretro-bk
+version	0_git20241021-r0
+description	BK-0010/0011/Terak 8510a emulator
+url	https://github.com/libretro/bk-emulator
+license	custom
+size	50167
+installed-size	141820
+depends	so:libc.musl-armhf.so.1
+origin	libretro-bk
+repo	community
+file	libretro-bk-0_git20241021-r0.apk
+checksum	Q1fl3cgSAb5VH++zbe5GW7S3GiWMw=
+dep	so:libc.musl-armhf.so.1	musl

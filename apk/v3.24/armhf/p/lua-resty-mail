@@ -1,0 +1,13 @@
+name	lua-resty-mail
+version	1.0.2-r1
+description	High-level, easy to use, non-blocking email and SMTP library for OpenResty
+url	https://github.com/GUI/lua-resty-mail
+license	MIT
+size	6449
+installed-size	15784
+depends	lua-resty-core
+origin	lua-resty-mail
+repo	community
+file	lua-resty-mail-1.0.2-r1.apk
+checksum	Q1SAme9krCxpI2R9YonnpAPIkPACU=
+dep	lua-resty-core	lua-resty-core

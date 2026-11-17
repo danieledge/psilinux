@@ -1,0 +1,15 @@
+name	py3-libacl
+version	0.7.3-r1
+description	A python module for manipulating ACLs
+url	https://pylibacl.k1024.org/
+license	LGPL-2.0-or-later
+size	25777
+installed-size	64426
+depends	python3~3.14 so:libacl.so.1 so:libc.musl-armhf.so.1
+origin	py3-libacl
+repo	community
+file	py3-libacl-0.7.3-r1.apk
+checksum	Q1aSGethGWwTMhgouUph44nT8K2cw=
+dep	python3~3.14	python3
+dep	so:libacl.so.1	acl-libs
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	pingu
+version	1.5.1-r0
+description	Small daemon that pings hosts and executes a script when status change
+url	https://github.com/ncopa/pingu
+license	GPL
+size	22386
+installed-size	48686
+depends	so:libc.musl-armhf.so.1 so:libev.so.4
+origin	pingu
+repo	main
+file	pingu-1.5.1-r0.apk
+checksum	Q1JTGVgH9fYwcgvXqGZsH1bzYjDOU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libev.so.4	libev

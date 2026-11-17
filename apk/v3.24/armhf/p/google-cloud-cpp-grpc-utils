@@ -1,0 +1,32 @@
+name	google-cloud-cpp-grpc-utils
+version	2.47.0-r0
+description	C++ Client Libraries for Google Cloud Services (grpc-utils)
+url	https://cloud.google.com/sdk
+license	Apache-2.0
+size	148420
+installed-size	505216
+depends	so:libabsl_log_internal_check_op.so.2508.0.0 so:libabsl_log_internal_message.so.2508.0.0 so:libabsl_raw_hash_set.so.2508.0.0 so:libabsl_raw_logging_internal.so.2508.0.0 so:libabsl_strings.so.2508.0.0 so:libabsl_synchronization.so.2508.0.0 so:libabsl_time.so.2508.0.0 so:libabsl_time_zone.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgoogle_cloud_cpp_common.so.2 so:libgoogle_cloud_cpp_iam_credentials_v1_common_protos.so.2 so:libgoogle_cloud_cpp_iam_credentials_v1_iamcredentials_protos.so.2 so:libgoogle_cloud_cpp_longrunning_operations_protos.so.2 so:libgoogle_cloud_cpp_rpc_error_details_protos.so.2 so:libgoogle_cloud_cpp_rpc_status_protos.so.2 so:libgrpc++.so.1.78 so:libgrpc.so.52 so:libprotobuf.so.31 so:libstdc++.so.6
+origin	google-cloud-cpp
+repo	community
+file	google-cloud-cpp-grpc-utils-2.47.0-r0.apk
+checksum	Q12kV0BNqJ3pbsbEPg6+r5vKWwt18=
+dep	so:libabsl_log_internal_check_op.so.2508.0.0	abseil-cpp-log-internal-check-op
+dep	so:libabsl_log_internal_message.so.2508.0.0	abseil-cpp-log-internal-message
+dep	so:libabsl_raw_hash_set.so.2508.0.0	abseil-cpp-raw-hash-set
+dep	so:libabsl_raw_logging_internal.so.2508.0.0	abseil-cpp-raw-logging-internal
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libabsl_synchronization.so.2508.0.0	abseil-cpp-synchronization
+dep	so:libabsl_time.so.2508.0.0	abseil-cpp-time
+dep	so:libabsl_time_zone.so.2508.0.0	abseil-cpp-time-zone
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgoogle_cloud_cpp_common.so.2	google-cloud-cpp
+dep	so:libgoogle_cloud_cpp_iam_credentials_v1_common_protos.so.2	google-cloud-cpp-iam
+dep	so:libgoogle_cloud_cpp_iam_credentials_v1_iamcredentials_protos.so.2	google-cloud-cpp-iam
+dep	so:libgoogle_cloud_cpp_longrunning_operations_protos.so.2	google-cloud-cpp-longrunning-operations-protos
+dep	so:libgoogle_cloud_cpp_rpc_error_details_protos.so.2	google-cloud-cpp-rpc-error-details-protos
+dep	so:libgoogle_cloud_cpp_rpc_status_protos.so.2	google-cloud-cpp-rpc-status-protos
+dep	so:libgrpc++.so.1.78	grpc-cpp
+dep	so:libgrpc.so.52	libgrpc
+dep	so:libprotobuf.so.31	libprotobuf
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,25 @@
+name	folks
+version	0.15.12-r1
+description	GObject Library to aggregate people into metacontacts
+url	https://gitlab.gnome.org/GNOME/folks
+license	LGPL-2.1-or-later
+size	484680
+installed-size	1311722
+depends	so:libc.musl-armhf.so.1 so:libebook-1.2.so.21 so:libebook-contacts-1.2.so.5 so:libedataserver-1.2.so.27 so:libgee-0.8.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libreadline.so.8 so:libtelepathy-glib.so.0 so:libxml2.so.2
+origin	folks
+repo	community
+file	folks-0.15.12-r1.apk
+checksum	Q1wiCBlbjYuitLPC2fWITXa+UtOZg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libebook-1.2.so.21	evolution-data-server
+dep	so:libebook-contacts-1.2.so.5	evolution-data-server
+dep	so:libedataserver-1.2.so.27	evolution-data-server
+dep	so:libgee-0.8.so.2	libgee
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libreadline.so.8	readline
+dep	so:libtelepathy-glib.so.0	telepathy-glib
+dep	so:libxml2.so.2	libxml2

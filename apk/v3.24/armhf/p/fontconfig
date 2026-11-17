@@ -1,0 +1,16 @@
+name	fontconfig
+version	2.17.1-r1
+description	Library for configuring and customizing font access
+url	https://www.freedesktop.org/wiki/Software/fontconfig
+license	MIT
+size	157408
+installed-size	466565
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libexpat.so.1 so:libfreetype.so.6
+origin	fontconfig
+repo	main
+file	fontconfig-2.17.1-r1.apk
+checksum	Q12FjQG4gZVqCvvm/AvciaGee4S3k=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexpat.so.1	libexpat
+dep	so:libfreetype.so.6	freetype

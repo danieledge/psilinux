@@ -1,0 +1,32 @@
+name	ocaml-iso8601
+version	0.2.6-r3
+description	ISO 8601 and RFC 3999 date parsing
+url	https://github.com/ocaml-community/ISO8601.ml
+license	MIT
+size	52250
+installed-size	138209
+depends	ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2 ocaml4-impl:Stdlib__Array:9eddbccd0eee1badda286ca1fe116a0e ocaml4-impl:Stdlib__Format:e6a8c10e2ca30876ab1a7c9d82df6899 ocaml4-impl:Stdlib__Lexing:578902e2b2bbe50cacf3a0c2155cba44 ocaml4-impl:Stdlib__String:5c54069e57efa544d2be471c6a1fc73d ocaml4-impl:Unix:f178ae69c20aeb74201b0bb0f388ec23 ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15 ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91 ocaml4-intf:Stdlib__Array:622d88fad859d0d0f019e691fc4fa865 ocaml4-intf:Stdlib__Bigarray:994a14f10d5ae081663b52b790ee11d3 ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822 ocaml4-intf:Stdlib__Complex:4555217c759e89d65daa8f682eb09b35 ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9 ocaml4-intf:Stdlib__Format:b6edb97b685819e873481fe05723c8bc ocaml4-intf:Stdlib__Lexing:c9318c276ac7e383fd682c2dd06be434 ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962 ocaml4-intf:Stdlib__String:4933e1d855f54bfed0231b038f0dbb87 ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57 ocaml4-intf:Unix:d81af7730241956ddaf1c2d19ed2cb1c so:libc.musl-armhf.so.1
+origin	ocaml-iso8601
+repo	community
+file	ocaml-iso8601-0.2.6-r3.apk
+checksum	Q1TtOrKT2SOgSewDa9cs9kHdQjrb0=
+dep	ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2	ocaml
+dep	ocaml4-impl:Stdlib__Array:9eddbccd0eee1badda286ca1fe116a0e	ocaml
+dep	ocaml4-impl:Stdlib__Format:e6a8c10e2ca30876ab1a7c9d82df6899	ocaml
+dep	ocaml4-impl:Stdlib__Lexing:578902e2b2bbe50cacf3a0c2155cba44	ocaml
+dep	ocaml4-impl:Stdlib__String:5c54069e57efa544d2be471c6a1fc73d	ocaml
+dep	ocaml4-impl:Unix:f178ae69c20aeb74201b0bb0f388ec23	ocaml
+dep	ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15	ocaml
+dep	ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91	ocaml
+dep	ocaml4-intf:Stdlib__Array:622d88fad859d0d0f019e691fc4fa865	ocaml
+dep	ocaml4-intf:Stdlib__Bigarray:994a14f10d5ae081663b52b790ee11d3	ocaml
+dep	ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822	ocaml
+dep	ocaml4-intf:Stdlib__Complex:4555217c759e89d65daa8f682eb09b35	ocaml
+dep	ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9	ocaml
+dep	ocaml4-intf:Stdlib__Format:b6edb97b685819e873481fe05723c8bc	ocaml
+dep	ocaml4-intf:Stdlib__Lexing:c9318c276ac7e383fd682c2dd06be434	ocaml
+dep	ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962	ocaml
+dep	ocaml4-intf:Stdlib__String:4933e1d855f54bfed0231b038f0dbb87	ocaml
+dep	ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57	ocaml
+dep	ocaml4-intf:Unix:d81af7730241956ddaf1c2d19ed2cb1c	ocaml
+dep	so:libc.musl-armhf.so.1	musl

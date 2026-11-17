@@ -1,0 +1,15 @@
+name	xcb-imdkit-dev
+version	1.0.9-r1
+description	X input method support for XCB (development files)
+url	https://github.com/fcitx/xcb-imdkit
+license	LGPL-2.1-only
+size	18097
+installed-size	99524
+depends	xcb-imdkit=1.0.9-r1 pc:xcb-util pkgconfig
+origin	xcb-imdkit
+repo	community
+file	xcb-imdkit-dev-1.0.9-r1.apk
+checksum	Q1CBD15RDusoCuO+hY4F/b8L84OMI=
+dep	xcb-imdkit=1.0.9-r1	xcb-imdkit
+dep	pc:xcb-util	xcb-util-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,19 @@
+name	libxtst-dev
+version	1.2.6-r0
+description	X11 Testing -- Resource extension library (development files)
+url	https://wiki.freedesktop.org/xorg/
+license	MIT
+size	4415
+installed-size	8446
+depends	libxtst=1.2.6-r0 pc:recordproto pc:x11 pc:xext pc:xextproto pc:xi pkgconfig
+origin	libxtst
+repo	main
+file	libxtst-dev-1.2.6-r0.apk
+checksum	Q1/zJXaIpI4nMIh07IbxP0EgYzxsA=
+dep	libxtst=1.2.6-r0	libxtst
+dep	pc:recordproto	xorgproto
+dep	pc:x11	libx11-dev
+dep	pc:xext	libxext-dev
+dep	pc:xextproto	xorgproto
+dep	pc:xi	libxi-dev
+dep	pkgconfig	pkgconf

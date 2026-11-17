@@ -1,0 +1,21 @@
+name	bspwm
+version	0.9.12-r0
+description	Tiling window manager based on binary space partitioning
+url	https://github.com/baskerville/bspwm
+license	BSD-2-Clause
+size	77427
+installed-size	166355
+depends	so:libc.musl-armhf.so.1 so:libxcb-ewmh.so.2 so:libxcb-icccm.so.4 so:libxcb-keysyms.so.1 so:libxcb-randr.so.0 so:libxcb-shape.so.0 so:libxcb-util.so.1 so:libxcb-xinerama.so.0 so:libxcb.so.1
+origin	bspwm
+repo	community
+file	bspwm-0.9.12-r0.apk
+checksum	Q1KhFoREGq71uSEdeAdNCbExHR1XY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxcb-ewmh.so.2	xcb-util-wm
+dep	so:libxcb-icccm.so.4	xcb-util-wm
+dep	so:libxcb-keysyms.so.1	xcb-util-keysyms
+dep	so:libxcb-randr.so.0	libxcb
+dep	so:libxcb-shape.so.0	libxcb
+dep	so:libxcb-util.so.1	xcb-util
+dep	so:libxcb-xinerama.so.0	libxcb
+dep	so:libxcb.so.1	libxcb

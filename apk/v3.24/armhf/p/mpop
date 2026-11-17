@@ -1,0 +1,17 @@
+name	mpop
+version	1.4.21-r1
+description	Retrieve mail from POP3 mailboxes
+url	https://marlam.de/mpop/
+license	GPL-3.0-or-later
+size	67071
+installed-size	138620
+depends	so:libc.musl-armhf.so.1 so:libgnutls.so.30 so:libidn2.so.0 so:libintl.so.8 so:libsecret-1.so.0
+origin	mpop
+repo	community
+file	mpop-1.4.21-r1.apk
+checksum	Q1W9/AvysFVbp5HlkNBLnJFIWD0OE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgnutls.so.30	gnutls
+dep	so:libidn2.so.0	libidn2
+dep	so:libintl.so.8	libintl
+dep	so:libsecret-1.so.0	libsecret

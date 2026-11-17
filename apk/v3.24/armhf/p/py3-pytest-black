@@ -1,0 +1,16 @@
+name	py3-pytest-black
+version	0.6.0-r1
+description	pytest plugin to enable format checking with black
+url	https://github.com/coherent-oss/pytest-black
+license	MIT
+size	5798
+installed-size	8222
+depends	py3-pytest black py3-toml python3~3.14
+origin	py3-pytest-black
+repo	community
+file	py3-pytest-black-0.6.0-r1.apk
+checksum	Q1xK7DWBZugebHJjma/SI5DkZKgKU=
+dep	py3-pytest	py3-pytest
+dep	black	black
+dep	py3-toml	py3-toml
+dep	python3~3.14	python3

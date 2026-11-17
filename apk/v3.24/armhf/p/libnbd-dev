@@ -1,0 +1,14 @@
+name	libnbd-dev
+version	1.24.1-r1
+description	NBD client library in userspace (development files)
+url	https://gitlab.com/nbdkit/libnbd
+license	LGPL-2.0-or-later
+size	134126
+installed-size	471134
+depends	libnbd=1.24.1-r1 pkgconfig
+origin	libnbd
+repo	community
+file	libnbd-dev-1.24.1-r1.apk
+checksum	Q1d5dZvuxoNYHi6l60TrM7M+E+9SE=
+dep	libnbd=1.24.1-r1	libnbd
+dep	pkgconfig	pkgconf

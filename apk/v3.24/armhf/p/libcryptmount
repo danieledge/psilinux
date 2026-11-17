@@ -1,0 +1,16 @@
+name	libcryptmount
+version	2.22-r2
+description	Pluggable Authentication Module that can mount volumes for a user session (libcryptmount library)
+url	https://codeberg.org/jengelh/pam_mount
+license	LGPL-2.1-or-later
+size	9886
+installed-size	17744
+depends	so:libHX.so.43 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcryptsetup.so.12
+origin	pam_mount
+repo	community
+file	libcryptmount-2.22-r2.apk
+checksum	Q1913fdPo6UPlNnRtyaFcwxY8Dpf8=
+dep	so:libHX.so.43	libhx
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcryptsetup.so.12	cryptsetup-libs

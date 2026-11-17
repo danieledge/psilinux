@@ -1,0 +1,19 @@
+name	geocode-glib
+version	3.26.4-r5
+description	Geocoding helper library
+url	https://gitlab.gnome.org/GNOME/geocode-glib
+license	LGPL-2.0-or-later
+size	76741
+installed-size	245882
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libsoup-3.0.so.0
+origin	geocode-glib
+repo	community
+file	geocode-glib-3.26.4-r5.apk
+checksum	Q1N75L3MFuePIIi3F2fpu8BhBsAwo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libsoup-3.0.so.0	libsoup3

@@ -1,0 +1,14 @@
+name	lua5.4-bitop
+version	1.0.2-r2
+description	Bitwise operations on numbers (for Lua 5.4)
+url	https://bitop.luajit.org/
+license	MIT
+size	4009
+installed-size	9388
+depends	lua5.4 so:libc.musl-armhf.so.1
+origin	lua-bitop
+repo	community
+file	lua5.4-bitop-1.0.2-r2.apk
+checksum	Q140RHMp5ZDSdZjwbuTUq0/HbJobY=
+dep	lua5.4	lua5.4
+dep	so:libc.musl-armhf.so.1	musl

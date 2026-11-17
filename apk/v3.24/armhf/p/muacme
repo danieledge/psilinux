@@ -1,0 +1,15 @@
+name	muacme
+version	0.6.0-r0
+description	A convenient wrapper for the ACMEv2 client uacme
+url	https://github.com/jirutka/muacme
+license	MIT
+size	10483
+installed-size	21073
+depends	uacme openssl /bin/sh
+origin	muacme
+repo	community
+file	muacme-0.6.0-r0.apk
+checksum	Q1dE88mX6cz9+VDfWuMUjA2CtTu60=
+dep	uacme	uacme
+dep	openssl	openssl
+dep	/bin/sh	busybox-binsh

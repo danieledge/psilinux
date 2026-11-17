@@ -1,0 +1,13 @@
+name	rdnssd
+version	1.0.8-r1
+description	autoconfigures the list of DNS servers through slateless IPv6 autoconfiguration
+url	https://www.remlab.net/ndisc6
+license	GPL-2.0-or-later
+size	11069
+installed-size	20381
+depends	so:libc.musl-armhf.so.1
+origin	ndisc6
+repo	main
+file	rdnssd-1.0.8-r1.apk
+checksum	Q1jbGCIDJALQasVj2W0dxsTThIhwE=
+dep	so:libc.musl-armhf.so.1	musl

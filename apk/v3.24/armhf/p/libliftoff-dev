@@ -1,0 +1,15 @@
+name	libliftoff-dev
+version	0.5.0-r0
+description	Lightweight KMS plane library (development files)
+url	https://gitlab.freedesktop.org/emersion/libliftoff
+license	MIT
+size	4091
+installed-size	6640
+depends	libliftoff=0.5.0-r0 pc:libdrm>=2.4.108 pkgconfig
+origin	libliftoff
+repo	community
+file	libliftoff-dev-0.5.0-r0.apk
+checksum	Q1W5KFBQkeegDTWzFAVMlQKxU+rD0=
+dep	libliftoff=0.5.0-r0	libliftoff
+dep	pc:libdrm>=2.4.108	libdrm-dev
+dep	pkgconfig	pkgconf

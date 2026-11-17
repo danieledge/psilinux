@@ -1,0 +1,16 @@
+name	libpagemaker
+version	0.0.4-r9
+description	Import filter and tools for PageMaker
+url	https://wiki.documentfoundation.org/DLP/Libraries/libpagemaker
+license	MPL-2.0
+size	48636
+installed-size	107904
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:librevenge-0.0.so.0 so:libstdc++.so.6
+origin	libpagemaker
+repo	community
+file	libpagemaker-0.0.4-r9.apk
+checksum	Q1YofLaI0N/uctEpVmVjwBAWyKBd4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:librevenge-0.0.so.0	librevenge
+dep	so:libstdc++.so.6	libstdc++

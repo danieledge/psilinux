@@ -1,0 +1,18 @@
+name	c2rust
+version	0.22.1-r0
+description	Transpile C99-compliant code to (unsafe) Rust code
+url	https://github.com/immunant/c2rust
+license	BSD-3-Clause
+size	2121343
+installed-size	4552524
+depends	so:libLLVM.so.21.1 so:libc.musl-armhf.so.1 so:libclang-cpp.so.21.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libtinycbor.so.0
+origin	c2rust
+repo	community
+file	c2rust-0.22.1-r0.apk
+checksum	Q1tRfLv5M+YhYiIoM6PyXls5kxerM=
+dep	so:libLLVM.so.21.1	llvm21-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libclang-cpp.so.21.1	clang21-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtinycbor.so.0	libtinycbor

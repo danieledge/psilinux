@@ -1,0 +1,33 @@
+name	perl-code-tidyall
+version	0.85-r0
+description	all-in-one code tidier and validator
+url	https://metacpan.org/pod/Code::TidyAll
+license	GPL-1.0-only OR Artistic-1.0-Perl
+size	49348
+installed-size	176746
+depends	perl perl-capture-tiny perl-config-ini-reader-ordered perl-file-which perl-file-pushd perl-ipc-run perl-ipc-system-simple perl-lib-relative perl-list-compare perl-list-someutils perl-ipc-run3 perl-log-any perl-moo perl-scope-guard perl-specio perl-specio-library-path-tiny perl-test-differences perl-test-class-most perl-test-warnings perl-time-duration-parse perl-timedate
+origin	perl-code-tidyall
+repo	community
+file	perl-code-tidyall-0.85-r0.apk
+checksum	Q1/7LfjXwG5HqmmbWZvrW7NdKgGwg=
+dep	perl	perl
+dep	perl-capture-tiny	perl-capture-tiny
+dep	perl-config-ini-reader-ordered	perl-config-ini-reader-ordered
+dep	perl-file-which	perl-file-which
+dep	perl-file-pushd	perl-file-pushd
+dep	perl-ipc-run	perl-ipc-run
+dep	perl-ipc-system-simple	perl-ipc-system-simple
+dep	perl-lib-relative	perl-lib-relative
+dep	perl-list-compare	perl-list-compare
+dep	perl-list-someutils	perl-list-someutils
+dep	perl-ipc-run3	perl-ipc-run3
+dep	perl-log-any	perl-log-any
+dep	perl-moo	perl-moo
+dep	perl-scope-guard	perl-scope-guard
+dep	perl-specio	perl-specio
+dep	perl-specio-library-path-tiny	perl-specio-library-path-tiny
+dep	perl-test-differences	perl-test-differences
+dep	perl-test-class-most	perl-test-class-most
+dep	perl-test-warnings	perl-test-warnings
+dep	perl-time-duration-parse	perl-time-duration-parse
+dep	perl-timedate	perl-timedate

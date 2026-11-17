@@ -1,0 +1,15 @@
+name	open-lldp
+version	1.1-r3
+description	Open Source implementation of the IEEE standard 802.1AB Link Layer Discovery Protocol (LLDP)
+url	http://www.open-lldp.org
+license	GPL-2.0-only
+size	231998
+installed-size	522300
+depends	so:libc.musl-armhf.so.1 so:libconfig.so.15 so:libnl-3.so.200
+origin	open-lldp
+repo	main
+file	open-lldp-1.1-r3.apk
+checksum	Q173W9qtCZnFKoY54I8to00irHaic=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libconfig.so.15	libconfig
+dep	so:libnl-3.so.200	libnl3

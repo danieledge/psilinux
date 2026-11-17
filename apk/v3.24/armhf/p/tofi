@@ -1,0 +1,24 @@
+name	tofi
+version	0.9.1-r2
+description	Tiny dynamic menu for Wayland
+url	https://github.com/philj56/tofi
+license	MIT
+size	47489
+installed-size	104128
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libfreetype.so.6 so:libfts.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libharfbuzz.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libwayland-client.so.0 so:libxkbcommon.so.0
+origin	tofi
+repo	community
+file	tofi-0.9.1-r2.apk
+checksum	Q1nWP3mWDoKbSW3PZTUXtobTh/2Os=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libfreetype.so.6	freetype
+dep	so:libfts.so.0	musl-fts
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libxkbcommon.so.0	libxkbcommon

@@ -1,0 +1,14 @@
+name	ustream-ssl-dev
+version	20251003-r0
+description	ustream SSL library (development files)
+url	https://git.openwrt.org/project/ustream-ssl.git
+license	ISC
+size	2715
+installed-size	3247
+depends	libubox-dev openssl-dev
+origin	ustream-ssl
+repo	community
+file	ustream-ssl-dev-20251003-r0.apk
+checksum	Q1bYb5sUGX8RP/5yarbLk7TqBzI3s=
+dep	libubox-dev	libubox-dev
+dep	openssl-dev	openssl-dev

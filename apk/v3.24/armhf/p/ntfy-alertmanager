@@ -1,0 +1,14 @@
+name	ntfy-alertmanager
+version	1.0.0-r4
+description	Bridge between ntfy and Alertmanager
+url	https://hub.xenrox.net/~xenrox/ntfy-alertmanager
+license	AGPL-3.0-only
+size	4820093
+installed-size	13736947
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	ntfy-alertmanager
+repo	community
+file	ntfy-alertmanager-1.0.0-r4.apk
+checksum	Q16pJWGU1sqAgsFua+z4/1YGWzKlo=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

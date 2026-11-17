@@ -1,0 +1,13 @@
+name	tzdata-utils
+version	2026f-r0
+description	Timezone data
+url	https://www.iana.org/time-zones
+license	Public-Domain
+size	51541
+installed-size	98052
+depends	so:libc.musl-armhf.so.1
+origin	tzdata
+repo	main
+file	tzdata-utils-2026f-r0.apk
+checksum	Q17X3dmZnqsWB1uhSre07bqqtWAng=
+dep	so:libc.musl-armhf.so.1	musl

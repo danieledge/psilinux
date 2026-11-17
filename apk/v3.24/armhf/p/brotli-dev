@@ -1,0 +1,15 @@
+name	brotli-dev
+version	1.2.1-r0
+description	Generic lossless compressor (development files)
+url	https://github.com/google/brotli
+license	MIT
+size	14451
+installed-size	55281
+depends	brotli=1.2.1-r0 brotli-libs=1.2.1-r0 pkgconfig
+origin	brotli
+repo	main
+file	brotli-dev-1.2.1-r0.apk
+checksum	Q1308Z3lIkhWgZ6GeFjPP5pkLugWE=
+dep	brotli=1.2.1-r0	brotli
+dep	brotli-libs=1.2.1-r0	brotli-libs
+dep	pkgconfig	pkgconf

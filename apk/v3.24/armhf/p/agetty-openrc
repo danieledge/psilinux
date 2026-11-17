@@ -1,0 +1,14 @@
+name	agetty-openrc
+version	0.63.2-r0
+description	agetty program from util-linux (OpenRC init scripts)
+url	https://github.com/OpenRC/openrc
+license	BSD-2-Clause
+size	2481
+installed-size	1438
+depends	ifupdown-any openrc-user=0.63.2-r0
+origin	openrc
+repo	main
+file	agetty-openrc-0.63.2-r0.apk
+checksum	Q1GFi4e6MYR8BX/8knMb3evGr8iCg=
+dep	ifupdown-any	ifupdown-ng
+dep	openrc-user=0.63.2-r0	openrc-user

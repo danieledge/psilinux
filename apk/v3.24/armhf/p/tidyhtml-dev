@@ -1,0 +1,14 @@
+name	tidyhtml-dev
+version	5.8.0-r5
+description	Tool to tidy down your HTML code to a clean style (development files)
+url	https://www.html-tidy.org
+license	W3C
+size	43043
+installed-size	192888
+depends	tidyhtml-libs=5.8.0-r5 pkgconfig
+origin	tidyhtml
+repo	community
+file	tidyhtml-dev-5.8.0-r5.apk
+checksum	Q16oq2ZyuN5R4Rema36Twv9jfNnxU=
+dep	tidyhtml-libs=5.8.0-r5	tidyhtml-libs
+dep	pkgconfig	pkgconf

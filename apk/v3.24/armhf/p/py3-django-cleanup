@@ -1,0 +1,14 @@
+name	py3-django-cleanup
+version	9.0.0-r2
+description	Deletes old files.
+url	https://pypi.python.org/project/django-cleanup
+license	MIT
+size	10537
+installed-size	24330
+depends	py3-django python3~3.14
+origin	py3-django-cleanup
+repo	community
+file	py3-django-cleanup-9.0.0-r2.apk
+checksum	Q19SYwFb+C6tOvOfKFoaCeBL8TB8c=
+dep	py3-django	py3-django
+dep	python3~3.14	python3

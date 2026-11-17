@@ -1,0 +1,16 @@
+name	clutter-gtk-dev
+version	1.8.4-r5
+description	Gtk clutter embed library (development files)
+url	https://gitlab.gnome.org/Archive/clutter-gtk
+license	LGPL-2.0-or-later
+size	12348
+installed-size	71646
+depends	clutter-gtk=1.8.4-r5 pc:clutter-1.0 pc:gtk+-3.0 pkgconfig
+origin	clutter-gtk
+repo	community
+file	clutter-gtk-dev-1.8.4-r5.apk
+checksum	Q1oOk9lmQvfBAXwbdw86rc2WKw4bs=
+dep	clutter-gtk=1.8.4-r5	clutter-gtk
+dep	pc:clutter-1.0	clutter-dev
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pkgconfig	pkgconf

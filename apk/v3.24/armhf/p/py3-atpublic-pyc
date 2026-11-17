@@ -1,0 +1,13 @@
+name	py3-atpublic-pyc
+version	7.0.0-r1
+description	Precompiled Python bytecode for py3-atpublic
+url	https://gitlab.com/warsaw/public
+license	Apache-2.0
+size	5846
+installed-size	8299
+depends	python3~3.14
+origin	py3-atpublic
+repo	community
+file	py3-atpublic-pyc-7.0.0-r1.apk
+checksum	Q1c9raqTSX5QVUnqO0S7U5gsBYroo=
+dep	python3~3.14	python3

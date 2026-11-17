@@ -1,0 +1,36 @@
+name	openimageio
+version	3.1.13.1-r0
+description	Image I/O library supporting a multitude of image formats
+url	https://sites.google.com/site/openimageio/
+license	Apache-2.0
+size	3552789
+installed-size	8288024
+depends	so:libIex-3_4.so.33 so:libOpenColorIO.so.2.5 so:libOpenEXR-3_4.so.33 so:libOpenEXRCore-3_4.so.33 so:libPtex.so.2 so:libavcodec.so.62 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libgif.so.7 so:libheif.so.1 so:libjpeg.so.8 so:libjxl.so.0.11 so:libjxl_threads.so.0.11 so:libopenjp2.so.7 so:libpng16.so.16 so:libraw_r.so.25 so:libstdc++.so.6 so:libswscale.so.9 so:libtbb.so.12 so:libtiff.so.6 so:libz.so.1
+origin	openimageio
+repo	community
+file	openimageio-3.1.13.1-r0.apk
+checksum	Q1kvJyzjX+sbTmUSrKS6eNQjPru2Q=
+dep	so:libIex-3_4.so.33	openexr-libiex
+dep	so:libOpenColorIO.so.2.5	opencolorio
+dep	so:libOpenEXR-3_4.so.33	openexr-libopenexr
+dep	so:libOpenEXRCore-3_4.so.33	openexr-libopenexrcore
+dep	so:libPtex.so.2	ptex
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgif.so.7	giflib
+dep	so:libheif.so.1	libheif
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libjxl.so.0.11	libjxl
+dep	so:libjxl_threads.so.0.11	libjxl
+dep	so:libopenjp2.so.7	openjpeg
+dep	so:libpng16.so.16	libpng
+dep	so:libraw_r.so.25	libraw
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libswscale.so.9	ffmpeg-libswscale
+dep	so:libtbb.so.12	onetbb
+dep	so:libtiff.so.6	tiff
+dep	so:libz.so.1	zlib

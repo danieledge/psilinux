@@ -1,0 +1,23 @@
+name	nzbget
+version	26.0-r0
+description	Usenet downloader
+url	https://nzbget.com
+license	GPL-2.0-or-later
+size	5086192
+installed-size	8199291
+depends	7zip /bin/sh so:libboost_filesystem.so.1.84.0 so:libboost_json.so.1.84.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3 so:libstdc++.so.6 so:libxml2.so.2 so:libz.so.1
+origin	nzbget
+repo	community
+file	nzbget-26.0-r0.apk
+checksum	Q1+GUi147yYphK1LPO7BTC3fxK9Ro=
+dep	7zip	7zip
+dep	/bin/sh	busybox-binsh
+dep	so:libboost_filesystem.so.1.84.0	boost1.84-filesystem
+dep	so:libboost_json.so.1.84.0	boost1.84-json
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

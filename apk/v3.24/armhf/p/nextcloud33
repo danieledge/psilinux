@@ -1,0 +1,34 @@
+name	nextcloud33
+version	33.0.10-r0
+description	A safe home for all your data
+url	https://nextcloud.com/
+license	AGPL-3.0-only
+size	154761442
+installed-size	344768440
+depends	ca-certificates php85 php85-bcmath php85-ctype php85-curl php85-dom php85-gd php85-fileinfo php85-gmp php85-iconv php85-intl php85-mbstring php85-openssl php85-pcntl php85-posix php85-session php85-simplexml php85-xml php85-xmlreader php85-xmlwriter php85-zip /bin/sh
+origin	nextcloud33
+repo	community
+file	nextcloud33-33.0.10-r0.apk
+checksum	Q1r59U/DsBJTndbJ2hcgIYmCdnRn4=
+dep	ca-certificates	ca-certificates
+dep	php85	php85
+dep	php85-bcmath	php85-bcmath
+dep	php85-ctype	php85-ctype
+dep	php85-curl	php85-curl
+dep	php85-dom	php85-dom
+dep	php85-gd	php85-gd
+dep	php85-fileinfo	php85-fileinfo
+dep	php85-gmp	php85-gmp
+dep	php85-iconv	php85-iconv
+dep	php85-intl	php85-intl
+dep	php85-mbstring	php85-mbstring
+dep	php85-openssl	php85-openssl
+dep	php85-pcntl	php85-pcntl
+dep	php85-posix	php85-posix
+dep	php85-session	php85-session
+dep	php85-simplexml	php85-simplexml
+dep	php85-xml	php85-xml
+dep	php85-xmlreader	php85-xmlreader
+dep	php85-xmlwriter	php85-xmlwriter
+dep	php85-zip	php85-zip
+dep	/bin/sh	busybox-binsh

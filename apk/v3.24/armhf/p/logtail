@@ -1,0 +1,13 @@
+name	logtail
+version	3.22-r3
+description	Print new lines in log file since the last run (sf.net logtail-v3 ver)
+url	https://logtail-v3.sourceforge.net/
+license	GPL-2.0-or-later
+size	9481
+installed-size	25772
+depends	so:libc.musl-armhf.so.1
+origin	logtail
+repo	main
+file	logtail-3.22-r3.apk
+checksum	Q1r4u8igNOvyC1ms6ZB4uUqPZNgP0=
+dep	so:libc.musl-armhf.so.1	musl

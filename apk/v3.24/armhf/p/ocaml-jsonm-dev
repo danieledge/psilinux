@@ -1,0 +1,14 @@
+name	ocaml-jsonm-dev
+version	1.0.2-r3
+description	Non-blocking streaming JSON codec (development files)
+url	https://erratique.ch/software/jsonm
+license	ISC
+size	68742
+installed-size	204534
+depends	ocaml-jsonm=1.0.2-r3 ocaml-uutf-dev
+origin	ocaml-jsonm
+repo	community
+file	ocaml-jsonm-dev-1.0.2-r3.apk
+checksum	Q1008H9dneL9N9wsbRoDo5pZg+V+o=
+dep	ocaml-jsonm=1.0.2-r3	ocaml-jsonm
+dep	ocaml-uutf-dev	ocaml-uutf-dev

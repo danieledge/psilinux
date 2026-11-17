@@ -1,0 +1,13 @@
+name	py3-managesieve-pyc
+version	0.8.1-r1
+description	Precompiled Python bytecode for py3-managesieve
+url	https://managesieve.readthedocs.io/
+license	PSF-2.0 AND GPL-3.0-or-later
+size	13191
+installed-size	25422
+depends	python3~3.14
+origin	py3-managesieve
+repo	community
+file	py3-managesieve-pyc-0.8.1-r1.apk
+checksum	Q1smT4FVVAQr8ec+mlEB5b6BoPSCk=
+dep	python3~3.14	python3

@@ -1,0 +1,20 @@
+name	papers-nautilus
+version	50.2-r0
+description	papers (Nautilus extension)
+url	https://apps.gnome.org/Papers/
+license	GPL-2.0-or-later
+size	4971
+installed-size	9372
+depends	adwaita-icon-theme gsettings-desktop-schemas so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libnautilus-extension.so.4 so:libppsdocument-4.0.so.6
+origin	papers
+repo	community
+file	papers-nautilus-50.2-r0.apk
+checksum	Q1wuGZ3zcPAeD1M8WVnQ4Y/5K1Zlo=
+dep	adwaita-icon-theme	adwaita-icon-theme
+dep	gsettings-desktop-schemas	gsettings-desktop-schemas
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libnautilus-extension.so.4	nautilus
+dep	so:libppsdocument-4.0.so.6	papers-libs

@@ -1,0 +1,21 @@
+name	nymphcast-client
+version	0.2_alpha0-r5
+description	Audio and video casting system with support for custom applications
+url	http://nyanko.ws/product_nymphcast.php
+license	BSD-3-Clause
+size	757185
+installed-size	1494412
+depends	avahi so:libPocoNet.so.121 so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt5Widgets.so.5 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libnymphcast.so.0.2 so:libstdc++.so.6
+origin	nymphcast
+repo	community
+file	nymphcast-client-0.2_alpha0-r5.apk
+checksum	Q1VuL2REbeH3wiLgXB6eseNboz3uw=
+dep	avahi	avahi
+dep	so:libPocoNet.so.121	poco
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Gui.so.5	qt5-qtbase-x11
+dep	so:libQt5Widgets.so.5	qt5-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libnymphcast.so.0.2	libnymphcast
+dep	so:libstdc++.so.6	libstdc++

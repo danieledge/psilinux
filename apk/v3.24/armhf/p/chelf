@@ -1,0 +1,13 @@
+name	chelf
+version	0.2.2-r1
+description	Display or change the stack size of an ELF binary
+url	https://github.com/Gottox/chelf
+license	BSD-2-Clause
+size	4966
+installed-size	9392
+depends	so:libc.musl-armhf.so.1
+origin	chelf
+repo	community
+file	chelf-0.2.2-r1.apk
+checksum	Q13THby/z1mZ4QEhDuHeZ4XsdDBBw=
+dep	so:libc.musl-armhf.so.1	musl

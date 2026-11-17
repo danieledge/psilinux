@@ -1,0 +1,13 @@
+name	emacs-emacsql
+version	3.1.1_git20240714-r1
+description	High-level SQL database frontend
+url	https://github.com/magit/emacsql
+license	Unlicense
+size	23118
+installed-size	81891
+depends	cmd:emacs
+origin	emacs-emacsql
+repo	community
+file	emacs-emacsql-3.1.1_git20240714-r1.apk
+checksum	Q1KRekx4CoBDPX1lwcCU+PcBZwAwE=
+dep	cmd:emacs	emacs-gtk3

@@ -1,0 +1,16 @@
+name	havoc
+version	0.7.0-r0
+description	terminal emulator for Wayland
+url	https://github.com/ii8/havoc
+license	PD OR MIT
+size	55017
+installed-size	106048
+depends	so:libc.musl-armhf.so.1 so:libwayland-client.so.0 so:libwayland-cursor.so.0 so:libxkbcommon.so.0
+origin	havoc
+repo	community
+file	havoc-0.7.0-r0.apk
+checksum	Q1f80qiblfUqxfvxQeuKJX01hTBkc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor
+dep	so:libxkbcommon.so.0	libxkbcommon

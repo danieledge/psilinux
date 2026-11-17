@@ -1,0 +1,15 @@
+name	perl
+version	5.42.3-r0
+description	Larry Wall's Practical Extraction and Report Language
+url	https://www.perl.org/
+license	Artistic-1.0-Perl OR GPL-1.0-or-later
+size	9311964
+installed-size	33269097
+depends	so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libz.so.1
+origin	perl
+repo	main
+file	perl-5.42.3-r0.apk
+checksum	Q1ho0y/58MZ8boj+cePefAWku/Puk=
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libz.so.1	zlib

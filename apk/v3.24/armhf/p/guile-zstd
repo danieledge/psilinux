@@ -1,0 +1,14 @@
+name	guile-zstd
+version	0.1.1-r1
+description	Guile bindings to the zstd compression library
+url	https://codeberg.org/guile-compression/guile-zstd
+license	GPL-3.0-or-later
+size	24953
+installed-size	160602
+depends	guile zstd-dev
+origin	guile-zstd
+repo	community
+file	guile-zstd-0.1.1-r1.apk
+checksum	Q1fiNyn+J8gyL9Ji91rc029Pt+CZI=
+dep	guile	guile
+dep	zstd-dev	zstd-dev

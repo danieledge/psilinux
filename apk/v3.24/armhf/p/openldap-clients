@@ -1,0 +1,17 @@
+name	openldap-clients
+version	2.6.15-r0
+description	LDAP client utilities
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	256328
+installed-size	571248
+depends	so:libc.musl-armhf.so.1 so:liblber.so.2 so:libldap.so.2 so:libsasl2.so.3 so:libuuid.so.1
+origin	openldap
+repo	main
+file	openldap-clients-2.6.15-r0.apk
+checksum	Q1lRoQFuD9Os5jeTKBt5OU5NfpnAo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap
+dep	so:libsasl2.so.3	libsasl
+dep	so:libuuid.so.1	libuuid

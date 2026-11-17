@@ -1,0 +1,13 @@
+name	pcmciautils
+version	018-r6
+description	Utilities for inserting and removing PCMCIA cards
+url	http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html
+license	GPL-2.0-only
+size	9106
+installed-size	18737
+depends	so:libc.musl-armhf.so.1
+origin	pcmciautils
+repo	main
+file	pcmciautils-018-r6.apk
+checksum	Q1BqHAvZu5fDhv/dwOsWvQoVDuTLk=
+dep	so:libc.musl-armhf.so.1	musl

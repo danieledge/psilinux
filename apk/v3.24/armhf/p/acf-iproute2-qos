@@ -1,0 +1,15 @@
+name	acf-iproute2-qos
+version	0.4.0-r5
+description	ACF module for iproute2-qos
+url	https://gitlab.alpinelinux.org/acf/acf-iproute2-qos
+license	GPL-2.0-only
+size	5461
+installed-size	12637
+depends	acf-core iproute2-qos acf-alpine-baselayout>=0.5.7
+origin	acf-iproute2-qos
+repo	main
+file	acf-iproute2-qos-0.4.0-r5.apk
+checksum	Q1xWjXTCCJ1KOcmnkOqdD3DFmN5mA=
+dep	acf-core	acf-core
+dep	iproute2-qos	iproute2-qos
+dep	acf-alpine-baselayout>=0.5.7	acf-alpine-baselayout

@@ -1,0 +1,14 @@
+name	kamailio-tlsa
+version	6.0.6-r0
+description	Kamailio TLS support compiled statically against libssl and libcrypto
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	2036120
+installed-size	4489580
+depends	kamailio so:libc.musl-armhf.so.1
+origin	kamailio
+repo	main
+file	kamailio-tlsa-6.0.6-r0.apk
+checksum	Q1HalrIt0dBwW16KAHdsk0Y0qIK7Q=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl

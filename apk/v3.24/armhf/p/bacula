@@ -1,0 +1,23 @@
+name	bacula
+version	15.0.3-r0
+description	Enterprise ready, network based backup program
+url	https://www.bacula.org/
+license	AGPL-3.0-or-later WITH OpenSSL-Exception
+size	678214
+installed-size	1654979
+depends	/bin/sh so:libbac-15.0.3.so so:libbaccfg-15.0.3.so so:libbacfind-15.0.3.so so:libbacsd-15.0.3.so so:libbacsql-15.0.3.so so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblzo2.so.2 so:libstdc++.so.6 so:libz.so.1
+origin	bacula
+repo	main
+file	bacula-15.0.3-r0.apk
+checksum	Q1fFP/bTcPpU3Nt6xZfpS293ruU1g=
+dep	/bin/sh	busybox-binsh
+dep	so:libbac-15.0.3.so	bacula-libs
+dep	so:libbaccfg-15.0.3.so	bacula-libs
+dep	so:libbacfind-15.0.3.so	bacula-libs
+dep	so:libbacsd-15.0.3.so	bacula-libs
+dep	so:libbacsql-15.0.3.so	bacula-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblzo2.so.2	lzo
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

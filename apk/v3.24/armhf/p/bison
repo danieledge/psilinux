@@ -1,0 +1,14 @@
+name	bison
+version	3.8.2-r3
+description	The GNU general-purpose parser generator
+url	https://www.gnu.org/software/bison/bison.html
+license	GPL-3.0-or-later
+size	452909
+installed-size	1340073
+depends	m4 so:libc.musl-armhf.so.1
+origin	bison
+repo	main
+file	bison-3.8.2-r3.apk
+checksum	Q1Pddi64/P2EStTAeT9kiAbziMMVY=
+dep	m4	m4
+dep	so:libc.musl-armhf.so.1	musl

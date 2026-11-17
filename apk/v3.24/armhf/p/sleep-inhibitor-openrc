@@ -1,0 +1,12 @@
+name	sleep-inhibitor-openrc
+version	1.25-r2
+description	Simple program to inhibit sleep/suspend when using elogind (OpenRC init scripts)
+url	https://github.com/bulletmark/sleep-inhibitor
+license	GPL-3.0-or-later
+size	1845
+installed-size	248
+depends	
+origin	sleep-inhibitor
+repo	community
+file	sleep-inhibitor-openrc-1.25-r2.apk
+checksum	Q1oDdWr8TQqX5d8NtzqkfLN7ETP5w=

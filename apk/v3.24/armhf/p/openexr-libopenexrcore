@@ -1,0 +1,16 @@
+name	openexr-libopenexrcore
+version	3.4.15-r0
+description	High dynamic-range image file format library
+url	https://www.openexr.com/
+license	BSD-3-Clause
+size	252039
+installed-size	596736
+depends	so:libc.musl-armhf.so.1 so:libdeflate.so.0 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	openexr
+repo	community
+file	openexr-libopenexrcore-3.4.15-r0.apk
+checksum	Q1jFmLiT5sezi6LDvE947j/P4uxgc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdeflate.so.0	libdeflate
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

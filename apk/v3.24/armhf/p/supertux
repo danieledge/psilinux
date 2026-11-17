@@ -1,0 +1,28 @@
+name	supertux
+version	0.6.3-r9
+description	Open-source classic 2D jump'n run sidescroller game
+url	https://www.supertux.org/
+license	GPL-3.0-or-later
+size	1432808
+installed-size	3629340
+depends	supertux-data so:libGL.so.1 so:libGLEW.so.2.3 so:libSDL2-2.0.so.0 so:libSDL2_image-2.0.so.0 so:libboost_filesystem.so.1.84.0 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libfreetype.so.6 so:libgcc_s.so.1 so:libopenal.so.1 so:libphysfs.so.1 so:libpng16.so.16 so:libstdc++.so.6 so:libvorbisfile.so.3 so:libz.so.1
+origin	supertux
+repo	community
+file	supertux-0.6.3-r9.apk
+checksum	Q1DqKvtMlJZYhmbIPLGQxnNJgLXsM=
+dep	supertux-data	supertux-data
+dep	so:libGL.so.1	mesa-gl
+dep	so:libGLEW.so.2.3	glew
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libSDL2_image-2.0.so.0	sdl2_image
+dep	so:libboost_filesystem.so.1.84.0	boost1.84-filesystem
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libopenal.so.1	openal-soft-libs
+dep	so:libphysfs.so.1	physfs
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libvorbisfile.so.3	libvorbis
+dep	so:libz.so.1	zlib

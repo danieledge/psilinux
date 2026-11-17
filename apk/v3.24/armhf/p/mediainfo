@@ -1,0 +1,17 @@
+name	mediainfo
+version	26.01-r0
+description	Supplies technical and tag information about media files (CLI)
+url	https://mediaarea.net/en/MediaInfo
+license	BSD-2-Clause
+size	20642
+installed-size	46464
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libmediainfo.so.0 so:libstdc++.so.6 so:libzen.so.0
+origin	mediainfo
+repo	community
+file	mediainfo-26.01-r0.apk
+checksum	Q1iJiOBPDhHwmbG9tug7eVRlIyLPU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmediainfo.so.0	libmediainfo
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libzen.so.0	libzen

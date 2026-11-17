@@ -1,0 +1,14 @@
+name	apt-dev
+version	3.2.1-r0
+description	APT package management tool (development files)
+url	https://salsa.debian.org/apt-team/apt
+license	GPL-2.0-or-later
+size	124607
+installed-size	485284
+depends	apt-libs=3.2.1-r0 pkgconfig
+origin	apt
+repo	community
+file	apt-dev-3.2.1-r0.apk
+checksum	Q1Zwy0RRg+1cmmtbqWK+moaAPHYi8=
+dep	apt-libs=3.2.1-r0	apt-libs
+dep	pkgconfig	pkgconf

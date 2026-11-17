@@ -1,0 +1,21 @@
+name	pulseaudio-equalizer
+version	17.0-r7
+description	Equalizer for pulseaudio
+url	https://www.freedesktop.org/wiki/Software/PulseAudio/
+license	LGPL-2.1-or-later
+size	32581
+installed-size	83980
+depends	pulseaudio=17.0-r7 py3-qt5 py3-dbus so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libfftw3f.so.3 so:libintl.so.8 so:libpulsecommon-17.0.so so:libpulsecore-17.0.so
+origin	pulseaudio
+repo	community
+file	pulseaudio-equalizer-17.0-r7.apk
+checksum	Q17g5Va1ZW6g3b+CM71g/dia7BAoY=
+dep	pulseaudio=17.0-r7	pulseaudio
+dep	py3-qt5	py3-qt5
+dep	py3-dbus	py3-dbus
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libfftw3f.so.3	fftw-single-libs
+dep	so:libintl.so.8	libintl
+dep	so:libpulsecommon-17.0.so	libpulse
+dep	so:libpulsecore-17.0.so	libpulse

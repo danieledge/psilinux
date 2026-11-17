@@ -1,0 +1,17 @@
+name	meli
+version	0.8.13-r0
+description	terminal e-mail client
+url	https://meli-email.org/
+license	GPL-3.0-or-later
+size	5085877
+installed-size	10423232
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgcc_s.so.1 so:libssl.so.3
+origin	meli
+repo	community
+file	meli-0.8.13-r0.apk
+checksum	Q1K0c6YXXct5lyZo3XoU5oOUhMtVE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3

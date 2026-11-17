@@ -1,0 +1,13 @@
+name	ali
+version	0.8.0-r6
+description	Generate HTTP load and plot the results in real-time
+url	https://github.com/nakabonne/ali
+license	MIT
+size	3346075
+installed-size	8418908
+depends	so:libc.musl-armhf.so.1
+origin	ali
+repo	community
+file	ali-0.8.0-r6.apk
+checksum	Q1Ks5W68ZJydJnW4jy+Pq7ea+4i8M=
+dep	so:libc.musl-armhf.so.1	musl

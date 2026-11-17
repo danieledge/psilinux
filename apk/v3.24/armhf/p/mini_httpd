@@ -1,0 +1,16 @@
+name	mini_httpd
+version	1.30-r5
+description	Small forking webserver with ssl and ipv6 support
+url	http://www.acme.com/software/mini_httpd/
+license	BSD-2-Clause
+size	30927
+installed-size	68474
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	mini_httpd
+repo	main
+file	mini_httpd-1.30-r5.apk
+checksum	Q1bByijRGAFhSU8d7MIsQkHz8YTcM=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

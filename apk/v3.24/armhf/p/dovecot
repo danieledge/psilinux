@@ -1,0 +1,29 @@
+name	dovecot
+version	2.4.5-r0
+description	IMAP and POP3 server
+url	https://www.dovecot.org/
+license	MIT AND LGPL-2.1-or-later
+size	3358176
+installed-size	9478951
+depends	openssl>3 /bin/sh so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcap.so.2 so:libcrypto.so.3 so:libgssapi_krb5.so.2 so:libicui18n.so.78 so:libicuuc.so.78 so:libkrb5.so.3 so:liblz4.so.1 so:libpcre2-32.so.0 so:libsodium.so.26 so:libssl.so.3 so:libstemmer.so.2 so:libz.so.1 so:libzstd.so.1
+origin	dovecot
+repo	main
+file	dovecot-2.4.5-r0.apk
+checksum	Q1DdsLRwWdIPy9NjBYOoiQ2PPXZBI=
+dep	openssl>3	openssl
+dep	/bin/sh	busybox-binsh
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgssapi_krb5.so.2	krb5-libs
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libkrb5.so.3	krb5-libs
+dep	so:liblz4.so.1	lz4-libs
+dep	so:libpcre2-32.so.0	libpcre2-32
+dep	so:libsodium.so.26	libsodium
+dep	so:libssl.so.3	libssl3
+dep	so:libstemmer.so.2	libstemmer
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

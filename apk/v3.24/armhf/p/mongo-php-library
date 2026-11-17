@@ -1,0 +1,14 @@
+name	mongo-php-library
+version	2.3.0-r0
+description	High-level abstraction around the lower-level drivers for PHP
+url	https://github.com/mongodb/mongo-php-library
+license	Apache-2.0
+size	238782
+installed-size	1649713
+depends	php85-openssl php85-pecl-mongodb
+origin	mongo-php-library
+repo	community
+file	mongo-php-library-2.3.0-r0.apk
+checksum	Q1SEm4dYLI4rFZGyi9Yfxd9AZWAAM=
+dep	php85-openssl	php85-openssl
+dep	php85-pecl-mongodb	php85-pecl-mongodb

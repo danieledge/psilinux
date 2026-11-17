@@ -1,0 +1,17 @@
+name	trunk
+version	0.21.14-r0
+description	Build, bundle & ship your Rust WASM application to the web
+url	https://trunkrs.dev
+license	MIT OR Apache-2.0
+size	5565891
+installed-size	17281750
+depends	rust wasm-bindgen so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	trunk
+repo	community
+file	trunk-0.21.14-r0.apk
+checksum	Q1XosHOxWkIucmyIPm+5HLY64hHUo=
+dep	rust	rust
+dep	wasm-bindgen	wasm-bindgen
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

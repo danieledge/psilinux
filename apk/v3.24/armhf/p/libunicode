@@ -1,0 +1,15 @@
+name	libunicode
+version	0.7.0-r0
+description	Modern C++17 Unicode library
+url	https://contour-terminal.org
+license	Apache-2.0
+size	588014
+installed-size	2482684
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libunicode
+repo	community
+file	libunicode-0.7.0-r0.apk
+checksum	Q1pX8Vd/yEkOxCpqzB3MxiRTpezLk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,15 @@
+name	py3-libteam
+version	1.31-r8
+description	Python Bindings for libteam
+url	http://libteam.org
+license	LGPL-2.1-or-later
+size	34556
+installed-size	126313
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libteam.so.5
+origin	libteam
+repo	community
+file	py3-libteam-1.31-r8.apk
+checksum	Q1itRgqCQtjScOQGhWq8u0yF1v1Rk=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libteam.so.5	libteam

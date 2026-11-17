@@ -1,0 +1,18 @@
+name	radio-cli
+version	2.3.2-r0
+description	A simple radio CLI
+url	https://github.com/margual56/radio-cli
+license	GPL-2.0-only
+size	1504335
+installed-size	2892448
+depends	mpv yt-dlp so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
+origin	radio-cli
+repo	community
+file	radio-cli-2.3.2-r0.apk
+checksum	Q1+53z9YJ0Q1Bw6wzQBVeWMRaLInc=
+dep	mpv	mpv
+dep	yt-dlp	yt-dlp
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3

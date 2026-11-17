@@ -1,0 +1,16 @@
+name	libssh-dev
+version	0.12.2-r0
+description	Library for accessing ssh client services through C libraries (development files)
+url	https://www.libssh.org/
+license	LGPL-2.1-or-later BSD-2-Clause
+size	43556
+installed-size	200164
+depends	openssl-dev>3 zlib-dev libssh=0.12.2-r0 pkgconfig
+origin	libssh
+repo	community
+file	libssh-dev-0.12.2-r0.apk
+checksum	Q1wzixsjOKT9hNJlOx5+OxQ2hup5w=
+dep	openssl-dev>3	openssl-dev
+dep	zlib-dev	zlib-dev
+dep	libssh=0.12.2-r0	libssh
+dep	pkgconfig	pkgconf

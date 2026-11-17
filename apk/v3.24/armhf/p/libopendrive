@@ -1,0 +1,16 @@
+name	libopendrive
+version	0.6.1-r1
+description	Small, lightweight C++ library for handling OpenDRIVE files
+url	https://github.com/DLR-TS/libOpenDRIVE
+license	Apache-2.0
+size	328994
+installed-size	1501084
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpugixml.so.1 so:libstdc++.so.6
+origin	libopendrive
+repo	community
+file	libopendrive-0.6.1-r1.apk
+checksum	Q1OVkHeQggqtt3UNswm58yGEb2e64=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpugixml.so.1	pugixml
+dep	so:libstdc++.so.6	libstdc++

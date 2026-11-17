@@ -1,0 +1,14 @@
+name	confuse-dev
+version	3.3-r4
+description	C library for parsing configuration files (development files)
+url	https://github.com/libconfuse/libconfuse
+license	ISC
+size	12856
+installed-size	53632
+depends	confuse=3.3-r4 pkgconfig
+origin	confuse
+repo	main
+file	confuse-dev-3.3-r4.apk
+checksum	Q1erOFiBMdLAxdSKHTiC0gGBOFi70=
+dep	confuse=3.3-r4	confuse
+dep	pkgconfig	pkgconf

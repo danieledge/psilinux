@@ -1,0 +1,13 @@
+name	py3-incremental-pyc
+version	24.7.2-r1
+description	Precompiled Python bytecode for py3-incremental
+url	https://github.com/twisted/incremental
+license	MIT
+size	30568
+installed-size	102816
+depends	python3~3.14
+origin	py3-incremental
+repo	community
+file	py3-incremental-pyc-24.7.2-r1.apk
+checksum	Q1BrV+Qitjyd2/aaNo4j65KPPnrvs=
+dep	python3~3.14	python3

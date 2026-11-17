@@ -1,0 +1,15 @@
+name	tailscale
+version	1.98.10-r1
+description	The easiest, most secure way to use WireGuard and 2FA
+url	https://tailscale.com/
+license	BSD-3-Clause
+size	13365628
+installed-size	36544738
+depends	cmd:resolvconf /bin/sh so:libc.musl-armhf.so.1
+origin	tailscale
+repo	community
+file	tailscale-1.98.10-r1.apk
+checksum	Q1q4/8+1p6A/7qqFg5T8NPvvsGKcg=
+dep	cmd:resolvconf	openresolv
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

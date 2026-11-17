@@ -1,0 +1,19 @@
+name	qt6-qtserialbus-dev
+version	6.11.1-r0
+description	Qt module for general purpose serial bus access (development files)
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	58917
+installed-size	314991
+depends	qt6-qtbase-dev qt6-qtserialport-dev qt6-qtserialbus=6.11.1-r0 pc:Qt6Core pc:Qt6Network pc:Qt6SerialPort pkgconfig
+origin	qt6-qtserialbus
+repo	community
+file	qt6-qtserialbus-dev-6.11.1-r0.apk
+checksum	Q1xQyuQvcx8OoiMNzYnWSUm/OYBZM=
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	qt6-qtserialport-dev	qt6-qtserialport-dev
+dep	qt6-qtserialbus=6.11.1-r0	qt6-qtserialbus
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pc:Qt6Network	qt6-qtbase-dev
+dep	pc:Qt6SerialPort	qt6-qtserialport-dev
+dep	pkgconfig	pkgconf

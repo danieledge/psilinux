@@ -1,0 +1,13 @@
+name	rqlite-client
+version	9.4.1-r5
+description	Lightweight, distributed relational database built on SQLite (client)
+url	https://github.com/rqlite/rqlite
+license	MIT
+size	3124628
+installed-size	7680580
+depends	so:libc.musl-armhf.so.1
+origin	rqlite
+repo	community
+file	rqlite-client-9.4.1-r5.apk
+checksum	Q1SQTfAu8ZANR1Y9LBomWvUxvUwe0=
+dep	so:libc.musl-armhf.so.1	musl

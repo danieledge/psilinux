@@ -1,0 +1,16 @@
+name	perl-xml-enc
+version	0.16-r0
+description	Toolkit to help encrypt and decrypt XML Digital Signatures
+url	https://metacpan.org/release/XML-Enc/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	9413
+installed-size	38336
+depends	perl perl-crypt-openssl-x509 perl-cryptx perl-xml-libxml
+origin	perl-xml-enc
+repo	community
+file	perl-xml-enc-0.16-r0.apk
+checksum	Q148XDS2Bq+vIyRe+I3wXO+O8m9fw=
+dep	perl	perl
+dep	perl-crypt-openssl-x509	perl-crypt-openssl-x509
+dep	perl-cryptx	perl-cryptx
+dep	perl-xml-libxml	perl-xml-libxml

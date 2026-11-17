@@ -1,0 +1,15 @@
+name	php83-phar
+version	8.3.36-r0
+description	PHP83 extension: PHP Archive
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	122348
+installed-size	258261
+depends	php83-common php83 so:libc.musl-armhf.so.1
+origin	php83
+repo	community
+file	php83-phar-8.3.36-r0.apk
+checksum	Q15uSsLYVRt+8FJfxNMp80cGvYmac=
+dep	php83-common	php83-common
+dep	php83	php83
+dep	so:libc.musl-armhf.so.1	musl

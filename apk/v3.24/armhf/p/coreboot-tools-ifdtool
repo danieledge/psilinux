@@ -1,0 +1,13 @@
+name	coreboot-tools-ifdtool
+version	26.03-r1
+description	Extract and dump Intel Firmware Descriptor information
+url	https://review.coreboot.org/coreboot
+license	GPL-2.0-only
+size	24436
+installed-size	50404
+depends	so:libc.musl-armhf.so.1
+origin	coreboot-tools
+repo	community
+file	coreboot-tools-ifdtool-26.03-r1.apk
+checksum	Q1kehllwrhiUGafxyjsYb6jtUftMo=
+dep	so:libc.musl-armhf.so.1	musl

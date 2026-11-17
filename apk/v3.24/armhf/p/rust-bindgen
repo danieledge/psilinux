@@ -1,0 +1,14 @@
+name	rust-bindgen
+version	0.72.1-r1
+description	automatically generates Rust FFI bindings to C (and some C++) libraries
+url	https://github.com/rust-lang/rust-bindgen
+license	BSD-3-Clause
+size	1440757
+installed-size	3149700
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	rust-bindgen
+repo	main
+file	rust-bindgen-0.72.1-r1.apk
+checksum	Q1wq9y1UYycEMMaYIuxgWRptGy/is=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

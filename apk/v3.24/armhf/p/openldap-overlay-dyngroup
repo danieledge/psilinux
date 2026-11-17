@@ -1,0 +1,14 @@
+name	openldap-overlay-dyngroup
+version	2.6.15-r0
+description	OpenLDAP dyngroup overlay
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	4594
+installed-size	10604
+depends	so:libc.musl-armhf.so.1 so:liblber.so.2
+origin	openldap
+repo	main
+file	openldap-overlay-dyngroup-2.6.15-r0.apk
+checksum	Q1FoOqKF8fWRo03ixiNZ6zQFMmGAE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap

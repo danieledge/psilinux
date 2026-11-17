@@ -1,0 +1,22 @@
+name	gnome-taquin
+version	3.38.1-r4
+description	Move tiles so that they reach their places
+url	https://gitlab.gnome.org/GNOME/gnome-taquin
+license	GPL-3.0-or-later AND CC-BY-SA-3.0
+size	4425361
+installed-size	4963116
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgsound.so.0 so:libgtk-3.so.0 so:libintl.so.8
+origin	gnome-taquin
+repo	community
+file	gnome-taquin-3.38.1-r4.apk
+checksum	Q1XeOaeG+alPbIHc5BuPkC0xTakDk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgsound.so.0	gsound
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl

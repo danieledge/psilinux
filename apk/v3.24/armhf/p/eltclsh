@@ -1,0 +1,15 @@
+name	eltclsh
+version	1.20-r1
+description	Interactive Tcl shell using libedit
+url	https://homepages.laas.fr/mallet/soft/shell/eltclsh/
+license	BSD-2-Clause
+size	26505
+installed-size	68666
+depends	so:libc.musl-armhf.so.1 so:libedit.so.0 so:libtcl8.6.so
+origin	eltclsh
+repo	community
+file	eltclsh-1.20-r1.apk
+checksum	Q1Putiw8T7ksQOYYOMHsBu9gIn/2Y=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libedit.so.0	libedit
+dep	so:libtcl8.6.so	tcl

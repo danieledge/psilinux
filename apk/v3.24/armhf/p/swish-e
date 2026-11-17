@@ -1,0 +1,16 @@
+name	swish-e
+version	2.4.7-r19
+description	Simple Web Indexing System for Humans - Enhanced
+url	http://www.swish-e.org/
+license	GPL-2.0-or-later
+size	306091
+installed-size	837157
+depends	perl-html-parser perl-html-tagset perl-libwww so:libc.musl-armhf.so.1
+origin	swish-e
+repo	main
+file	swish-e-2.4.7-r19.apk
+checksum	Q1u7wncUbSr6d4BRTW6P1e65Ews+w=
+dep	perl-html-parser	perl-html-parser
+dep	perl-html-tagset	perl-html-tagset
+dep	perl-libwww	perl-libwww
+dep	so:libc.musl-armhf.so.1	musl

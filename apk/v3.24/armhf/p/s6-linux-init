@@ -1,0 +1,17 @@
+name	s6-linux-init
+version	1.2.0.1-r0
+description	Set of tools to create and run an s6-based init system
+url	https://skarnet.org/software/s6-linux-init/
+license	ISC
+size	40629
+installed-size	123240
+depends	execline s6 so:libc.musl-armhf.so.1 so:libs6.so.2.15 so:libskarnet.so.2.15
+origin	s6-linux-init
+repo	main
+file	s6-linux-init-1.2.0.1-r0.apk
+checksum	Q1UfgWxMK8zHeVoJNrirK6VJzEJas=
+dep	execline	execline
+dep	s6	s6
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libs6.so.2.15	s6-libs
+dep	so:libskarnet.so.2.15	skalibs-libs

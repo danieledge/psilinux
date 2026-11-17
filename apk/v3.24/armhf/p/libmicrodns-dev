@@ -1,0 +1,14 @@
+name	libmicrodns-dev
+version	0.2.0-r1
+description	Minimal mDNS library (development files)
+url	https://github.com/videolabs/libmicrodns
+license	LGPL-2.1-or-later
+size	5110
+installed-size	10778
+depends	libmicrodns=0.2.0-r1 pkgconfig
+origin	libmicrodns
+repo	community
+file	libmicrodns-dev-0.2.0-r1.apk
+checksum	Q1nbGtPbQmwbL4Yeb2nzPMCQyCD6I=
+dep	libmicrodns=0.2.0-r1	libmicrodns
+dep	pkgconfig	pkgconf

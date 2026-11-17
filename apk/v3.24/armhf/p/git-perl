@@ -1,0 +1,15 @@
+name	git-perl
+version	2.54.1-r0
+description	Additional Git commands that requires perl
+url	https://www.git-scm.com/
+license	GPL-2.0-only
+size	15278
+installed-size	41628
+depends	git=2.54.1-r0 perl-git=2.54.1-r0 perl
+origin	git
+repo	main
+file	git-perl-2.54.1-r0.apk
+checksum	Q1WBsJ/B8MmM85sJeNfZ1snXRBf78=
+dep	git=2.54.1-r0	git
+dep	perl-git=2.54.1-r0	perl-git
+dep	perl	perl

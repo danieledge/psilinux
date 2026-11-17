@@ -1,0 +1,12 @@
+name	amd-ucode
+version	20260519-r0
+description	Microcode update files for AMD CPUs
+url	https://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git;a=summary
+license	custom
+size	246810
+installed-size	307200
+depends	
+origin	linux-firmware
+repo	main
+file	amd-ucode-20260519-r0.apk
+checksum	Q17yhEZmMZe9L7lL1vK1Vi0Bp5c7Y=

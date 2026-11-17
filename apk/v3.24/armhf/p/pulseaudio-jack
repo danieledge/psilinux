@@ -1,0 +1,17 @@
+name	pulseaudio-jack
+version	17.0-r7
+description	Pulseaudio JACK support
+url	https://www.freedesktop.org/wiki/Software/PulseAudio/
+license	LGPL-2.1-or-later
+size	18494
+installed-size	52888
+depends	so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libjack.so.0 so:libpulsecommon-17.0.so so:libpulsecore-17.0.so
+origin	pulseaudio
+repo	community
+file	pulseaudio-jack-17.0-r7.apk
+checksum	Q18FDjuP/OhosGkv8kC2dUtHt9Z40=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libjack.so.0	jack
+dep	so:libpulsecommon-17.0.so	libpulse
+dep	so:libpulsecore-17.0.so	libpulse

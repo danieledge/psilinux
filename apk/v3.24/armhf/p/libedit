@@ -1,0 +1,14 @@
+name	libedit
+version	20260508.3.1-r1
+description	BSD line editing library
+url	https://www.thrysoee.dk/editline
+license	BSD-3-Clause
+size	70388
+installed-size	161060
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	libedit
+repo	main
+file	libedit-20260508.3.1-r1.apk
+checksum	Q1MJ5wqIYwcsDxP3dqnj4xJK12jLU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

@@ -1,0 +1,13 @@
+name	bmake
+version	20260508-r0
+description	Portable version of the NetBSD make build tool
+url	https://www.crufty.net/help/sjg/bmake.html
+license	BSD-2-Clause
+size	205205
+installed-size	532876
+depends	so:libc.musl-armhf.so.1
+origin	bmake
+repo	community
+file	bmake-20260508-r0.apk
+checksum	Q1KM1hSH/SrMJthTJY5aTtSsZ1ukE=
+dep	so:libc.musl-armhf.so.1	musl

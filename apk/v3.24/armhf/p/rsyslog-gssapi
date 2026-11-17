@@ -1,0 +1,15 @@
+name	rsyslog-gssapi
+version	8.2608.0-r0
+description	rsyslog lmgssutil and imgssapi and omgssapi module
+url	https://www.rsyslog.com/
+license	Apache-2.0 AND GPL-3.0-or-later AND LGPL-3.0-or-later
+size	16104
+installed-size	38268
+depends	rsyslog=8.2608.0-r0 so:libc.musl-armhf.so.1 so:libgssapi_krb5.so.2
+origin	rsyslog
+repo	main
+file	rsyslog-gssapi-8.2608.0-r0.apk
+checksum	Q12e6cS26UEU2/sRw1boArYFSZXs8=
+dep	rsyslog=8.2608.0-r0	rsyslog
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgssapi_krb5.so.2	krb5-libs

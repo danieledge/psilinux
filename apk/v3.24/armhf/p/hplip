@@ -1,0 +1,25 @@
+name	hplip
+version	3.26.6-r0
+description	Drivers for HP printers and scanners
+url	https://hplipopensource.com/
+license	GPL-2.0-only AND BSD-3-Clause AND MIT
+size	6011615
+installed-size	11774472
+depends	hplip-libs=3.26.6-r0 python3~3.14 so:libc.musl-armhf.so.1 so:libcups.so.2 so:libdbus-1.so.3 so:libgcc_s.so.1 so:libhpdiscovery.so.0 so:libhpipp.so.0 so:libhpmud.so.0 so:libjpeg.so.8 so:libsane.so.1 so:libstdc++.so.6 so:libz.so.1
+origin	hplip
+repo	community
+file	hplip-3.26.6-r0.apk
+checksum	Q1AxdnnK4GFQ0Ff5BvaJ+kM8z5CxQ=
+dep	hplip-libs=3.26.6-r0	hplip-libs
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcups.so.2	cups-libs
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libhpdiscovery.so.0	hplip-libs
+dep	so:libhpipp.so.0	hplip-libs
+dep	so:libhpmud.so.0	hplip-libs
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libsane.so.1	sane
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

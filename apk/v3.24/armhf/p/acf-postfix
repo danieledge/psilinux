@@ -1,0 +1,14 @@
+name	acf-postfix
+version	0.10.0-r4
+description	Web-based system administration interface for postfix
+url	https://gitlab.alpinelinux.org/acf/acf-postfix
+license	GPL-2.0-only
+size	5732
+installed-size	12255
+depends	acf-core postfix
+origin	acf-postfix
+repo	main
+file	acf-postfix-0.10.0-r4.apk
+checksum	Q1TKv+NBj7P7IvVRQKNAus6dNH7T8=
+dep	acf-core	acf-core
+dep	postfix	postfix

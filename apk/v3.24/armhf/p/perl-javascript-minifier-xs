@@ -1,0 +1,14 @@
+name	perl-javascript-minifier-xs
+version	0.16-r0
+description	XS based JavaScript minifier
+url	https://metacpan.org/release/JavaScript-Minifier-XS/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	9403
+installed-size	16736
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-javascript-minifier-xs
+repo	main
+file	perl-javascript-minifier-xs-0.16-r0.apk
+checksum	Q1RcV4Aw9yW4gYUKSCYCZ0ypUrjzk=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,27 @@
+name	graphviz-dev
+version	12.2.1-r3
+description	Graph Visualization Tools (development files)
+url	https://www.graphviz.org/
+license	EPL-1.0
+size	36627
+installed-size	117963
+depends	cairo-dev expat-dev fontconfig-dev freetype-dev gd-dev gmp-dev libjpeg-turbo-dev libpng-dev libsm-dev libxext-dev pango-dev python3-dev zlib-dev graphviz-libs=12.2.1-r3 pkgconfig
+origin	graphviz
+repo	main
+file	graphviz-dev-12.2.1-r3.apk
+checksum	Q1fFcEbiKAOir3HqKHPUcAJpI8k8s=
+dep	cairo-dev	cairo-dev
+dep	expat-dev	expat-dev
+dep	fontconfig-dev	fontconfig-dev
+dep	freetype-dev	freetype-dev
+dep	gd-dev	gd-dev
+dep	gmp-dev	gmp-dev
+dep	libjpeg-turbo-dev	libjpeg-turbo-dev
+dep	libpng-dev	libpng-dev
+dep	libsm-dev	libsm-dev
+dep	libxext-dev	libxext-dev
+dep	pango-dev	pango-dev
+dep	python3-dev	python3-dev
+dep	zlib-dev	zlib-dev
+dep	graphviz-libs=12.2.1-r3	graphviz-libs
+dep	pkgconfig	pkgconf

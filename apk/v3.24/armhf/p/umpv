@@ -1,0 +1,14 @@
+name	umpv
+version	0.41.0-r2
+description	Video player based on MPlayer/mplayer2 - script to add new videos to existing playlist instead of starting a new instance
+url	https://mpv.io/
+license	GPL-2.0-or-later
+size	3298
+installed-size	3845
+depends	mpv=0.41.0-r2 python3
+origin	mpv
+repo	community
+file	umpv-0.41.0-r2.apk
+checksum	Q1RqLnOx4f2H63dR4BWM7fg2EmzJw=
+dep	mpv=0.41.0-r2	mpv
+dep	python3	python3

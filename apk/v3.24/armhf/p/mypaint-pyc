@@ -1,0 +1,18 @@
+name	mypaint-pyc
+version	2.0.1-r5
+description	Precompiled Python bytecode for mypaint
+url	https://mypaint.app/
+license	GPL-2.0-or-later
+size	1190554
+installed-size	3085917
+depends	gtk+3.0 librsvg mypaint-brushes2 py3-cairo py3-gobject3 py3-numpy
+origin	mypaint
+repo	community
+file	mypaint-pyc-2.0.1-r5.apk
+checksum	Q1IQZ8jw6JEib3OF5iDcVOs5iJcC4=
+dep	gtk+3.0	gtk+3.0
+dep	librsvg	librsvg
+dep	mypaint-brushes2	mypaint-brushes2
+dep	py3-cairo	py3-cairo
+dep	py3-gobject3	py3-gobject3
+dep	py3-numpy	py3-numpy

@@ -1,0 +1,13 @@
+name	alpine-make-rootfs
+version	0.8.1-r0
+description	Make customized Alpine Linux rootfs (base image) for containers
+url	https://github.com/alpinelinux/alpine-make-rootfs
+license	MIT
+size	8532
+installed-size	17921
+depends	tar
+origin	alpine-make-rootfs
+repo	main
+file	alpine-make-rootfs-0.8.1-r0.apk
+checksum	Q1sZi/K7XB7IrcFnzU2auvhwlNzZc=
+dep	tar	tar

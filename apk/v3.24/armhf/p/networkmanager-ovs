@@ -1,0 +1,19 @@
+name	networkmanager-ovs
+version	1.52.2-r0
+description	Open vSwitch device plugin for NetworkManager
+url	https://networkmanager.dev
+license	GPL-2.0-or-later
+size	33488
+installed-size	74960
+depends	libnm=1.52.2-r0 dbus so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libjansson.so.4
+origin	networkmanager
+repo	community
+file	networkmanager-ovs-1.52.2-r0.apk
+checksum	Q1not75EKeQ2okvYIJ8ww+AAOWzt0=
+dep	libnm=1.52.2-r0	libnm
+dep	dbus	dbus
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libjansson.so.4	jansson

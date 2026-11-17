@@ -1,0 +1,15 @@
+name	usbguard-dev
+version	1.1.4-r1
+description	Software framework for implementing USB device authorization policies (development files)
+url	https://usbguard.github.io/
+license	GPL-2.0-or-later
+size	31019
+installed-size	163157
+depends	libusbguard=1.1.4-r1 pc:libqb pkgconfig
+origin	usbguard
+repo	community
+file	usbguard-dev-1.1.4-r1.apk
+checksum	Q1jGc+ohHgVYF+RRKNV3i4Vkw4iXU=
+dep	libusbguard=1.1.4-r1	libusbguard
+dep	pc:libqb	libqb-dev
+dep	pkgconfig	pkgconf

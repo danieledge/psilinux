@@ -1,0 +1,15 @@
+name	py3-matplotlib-wx
+version	3.10.6-r2
+description	WX backend for py3-matplotlib
+url	https://matplotlib.org
+license	PSF-2.0
+size	17058
+installed-size	53612
+depends	py3-matplotlib=3.10.6-r2 py3-wxpython python3~3.14
+origin	py3-matplotlib
+repo	community
+file	py3-matplotlib-wx-3.10.6-r2.apk
+checksum	Q1lCfEuAw9t8GmQ/akW+gS0YzaFxE=
+dep	py3-matplotlib=3.10.6-r2	py3-matplotlib
+dep	py3-wxpython	py3-wxpython
+dep	python3~3.14	python3

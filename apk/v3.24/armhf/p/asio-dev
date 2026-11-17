@@ -1,0 +1,15 @@
+name	asio-dev
+version	1.36.0-r0
+description	Cross-platform C++ library for network programming (development files)
+url	https://think-async.com/Asio/
+license	BSL-1.0
+size	682807
+installed-size	5106245
+depends	boost-dev openssl-dev>3 pkgconfig
+origin	asio
+repo	community
+file	asio-dev-1.36.0-r0.apk
+checksum	Q10jrJt6CLO1jP2nb5YvEG20qVz6Y=
+dep	boost-dev	boost-dev
+dep	openssl-dev>3	openssl-dev
+dep	pkgconfig	pkgconf

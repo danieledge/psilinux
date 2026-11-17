@@ -1,0 +1,14 @@
+name	systeroid-tui
+version	0.4.6-r0
+description	systeroid terminal user interface
+url	https://systeroid.cli.rs/
+license	Apache-2.0
+size	1050950
+installed-size	2176412
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	systeroid
+repo	community
+file	systeroid-tui-0.4.6-r0.apk
+checksum	Q1qvjkg1hMn8yO4UT4uCuMSI4D0wM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

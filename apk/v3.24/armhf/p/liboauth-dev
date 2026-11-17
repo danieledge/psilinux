@@ -1,0 +1,16 @@
+name	liboauth-dev
+version	1.0.3-r5
+description	OAuth library functions (development files)
+url	https://liboauth.sourceforge.net/
+license	MIT
+size	8359
+installed-size	28677
+depends	liboauth=1.0.3-r5 pc:libcurl pc:nss pkgconfig
+origin	liboauth
+repo	community
+file	liboauth-dev-1.0.3-r5.apk
+checksum	Q1DSxmO+Wcw0I55bLZRDOehW+6moY=
+dep	liboauth=1.0.3-r5	liboauth
+dep	pc:libcurl	curl-dev
+dep	pc:nss	nss-dev
+dep	pkgconfig	pkgconf

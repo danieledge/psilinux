@@ -1,0 +1,14 @@
+name	cloud-utils-ec2metadata
+version	0.33-r1
+description	Retrieve metadata on AWS EC2 (and compatible) VMs
+url	https://launchpad.net/cloud-utils/
+license	GPL-3.0-or-later
+size	4515
+installed-size	8583
+depends	python3 py3-urllib3
+origin	cloud-utils
+repo	community
+file	cloud-utils-ec2metadata-0.33-r1.apk
+checksum	Q1gPLa7JOy4F/hQLMOj+fKmBZjkCs=
+dep	python3	python3
+dep	py3-urllib3	py3-urllib3

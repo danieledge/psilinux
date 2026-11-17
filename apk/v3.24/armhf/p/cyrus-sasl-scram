@@ -1,0 +1,14 @@
+name	cyrus-sasl-scram
+version	2.1.28-r9
+description	Cyrus SASL plugin for scram
+url	https://www.cyrusimap.org/sasl/
+license	BSD-3-Clause-Attribution AND BSD-4-Clause
+size	18080
+installed-size	34572
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	cyrus-sasl
+repo	main
+file	cyrus-sasl-scram-2.1.28-r9.apk
+checksum	Q1MYoJ8bzNyzg0abn3Qh5y9bJuVvo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

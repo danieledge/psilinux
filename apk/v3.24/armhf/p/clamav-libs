@@ -1,0 +1,23 @@
+name	clamav-libs
+version	1.4.6-r0
+description	An anti-virus toolkit for UNIX eis-ng backport (libraries)
+url	https://www.clamav.net/
+license	GPL-2.0-only
+size	9421573
+installed-size	21467824
+depends	so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgcc_s.so.1 so:libjson-c.so.5 so:libmspack.so.0 so:libpcre2-8.so.0 so:libssl.so.3 so:libxml2.so.2 so:libz.so.1
+origin	clamav
+repo	community
+file	clamav-libs-1.4.6-r0.apk
+checksum	Q1a4IPlzcPUIzOpkENL86+fENu24A=
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjson-c.so.5	json-c
+dep	so:libmspack.so.0	libmspack
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libssl.so.3	libssl3
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

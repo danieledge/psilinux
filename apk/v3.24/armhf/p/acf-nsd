@@ -1,0 +1,14 @@
+name	acf-nsd
+version	0.0.1-r2
+description	Web-based system administration interface for nsd
+url	https://gitlab.alpinelinux.org/acf/acf-nsd
+license	GPL-2.0-only
+size	7524
+installed-size	24814
+depends	acf-core nsd
+origin	acf-nsd
+repo	main
+file	acf-nsd-0.0.1-r2.apk
+checksum	Q1hUMwz7T1DUJPre9MOrTKlCVC6mw=
+dep	acf-core	acf-core
+dep	nsd	nsd

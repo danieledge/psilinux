@@ -1,0 +1,14 @@
+name	font-noto-coptic
+version	2026.11.01-r0
+description	Noto Sans Coptic font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	28287
+installed-size	49177
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-coptic-2026.11.01-r0.apk
+checksum	Q1zO9rgjzKH4Nddq0uTPnRaECRy80=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

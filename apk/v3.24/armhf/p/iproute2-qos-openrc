@@ -1,0 +1,12 @@
+name	iproute2-qos-openrc
+version	0.6-r0
+description	Scripts to set up quality of service with iproute2 (OpenRC init scripts)
+url	https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/main/iproute2-qos
+license	GPL-2.0-only
+size	6646
+installed-size	23928
+depends	
+origin	iproute2-qos
+repo	main
+file	iproute2-qos-openrc-0.6-r0.apk
+checksum	Q1eHPXkiTUDGp1aptRnj0eVznI8Ks=

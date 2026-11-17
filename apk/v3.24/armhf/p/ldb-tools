@@ -1,0 +1,17 @@
+name	ldb-tools
+version	4.23.8-r0
+description	Tools to manage LDB files
+url	https://www.samba.org/
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	23744
+installed-size	79520
+depends	ldb=4.23.8-r0 so:libc.musl-armhf.so.1 so:libldb.so.2 so:libpopt.so.0 so:libtalloc.so.2
+origin	samba
+repo	main
+file	ldb-tools-4.23.8-r0.apk
+checksum	Q16U2O0HUFz+OSWTmIaPqLtUf6RfI=
+dep	ldb=4.23.8-r0	ldb
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libldb.so.2	ldb
+dep	so:libpopt.so.0	popt
+dep	so:libtalloc.so.2	talloc

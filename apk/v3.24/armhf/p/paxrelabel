@@ -1,0 +1,13 @@
+name	paxrelabel
+version	0.1.1-r3
+description	automatically manage system-wide PaX exceptions
+url	https://gitlab.alpinelinux.org/ariadne/paxrelabel
+license	ISC
+size	4836
+installed-size	9460
+depends	so:libc.musl-armhf.so.1
+origin	paxrelabel
+repo	main
+file	paxrelabel-0.1.1-r3.apk
+checksum	Q1rqTvQ/AAW1ew/xvOK2KcnDQDdB4=
+dep	so:libc.musl-armhf.so.1	musl

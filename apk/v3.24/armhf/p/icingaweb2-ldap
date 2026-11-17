@@ -1,0 +1,14 @@
+name	icingaweb2-ldap
+version	2.13.0-r1
+description	Icingaweb2 ldap support
+url	https://icinga.com/docs/icinga-web-2/latest/doc/01-About/
+license	GPL-2.0-only
+size	1289
+installed-size	0
+depends	icingaweb2 php85-ldap
+origin	icingaweb2
+repo	community
+file	icingaweb2-ldap-2.13.0-r1.apk
+checksum	Q128cOJAkkUR1Z5x5xamjhmtKpYjk=
+dep	icingaweb2	icingaweb2
+dep	php85-ldap	php85-ldap

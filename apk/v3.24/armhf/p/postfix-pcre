@@ -1,0 +1,14 @@
+name	postfix-pcre
+version	3.11.7-r0
+description	pcre map support for postfix
+url	https://www.postfix.org/
+license	IPL-1.0 EPL-2.0
+size	7089
+installed-size	13468
+depends	so:libc.musl-armhf.so.1 so:libpcre2-8.so.0
+origin	postfix
+repo	main
+file	postfix-pcre-3.11.7-r0.apk
+checksum	Q13DvQfPYtTSKYwNsUjkF43Aj4kJk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcre2-8.so.0	pcre2

@@ -1,0 +1,18 @@
+name	py3-scikit-build-core
+version	0.11.6-r1
+description	Build backend for Python that uses CMake to build extension modules
+url	https://github.com/scikit-build/scikit-build-core
+license	Apache-2.0
+size	157120
+installed-size	685635
+depends	cmake py3-packaging py3-pathspec py3-typing-extensions samurai python3~3.14
+origin	py3-scikit-build-core
+repo	community
+file	py3-scikit-build-core-0.11.6-r1.apk
+checksum	Q1OolTisyLiYuxE//iXluY+1cWjuo=
+dep	cmake	cmake
+dep	py3-packaging	py3-packaging
+dep	py3-pathspec	py3-pathspec
+dep	py3-typing-extensions	py3-typing-extensions
+dep	samurai	samurai
+dep	python3~3.14	python3

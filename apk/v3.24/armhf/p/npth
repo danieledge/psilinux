@@ -1,0 +1,13 @@
+name	npth
+version	1.8-r0
+description	The New GNU Portable Threads library
+url	https://gnupg.org/related_software/npth/
+license	LGPL-2.0-or-later
+size	5991
+installed-size	13540
+depends	so:libc.musl-armhf.so.1
+origin	npth
+repo	main
+file	npth-1.8-r0.apk
+checksum	Q13wJenD1W5+tgrHCi5bmULJYutI8=
+dep	so:libc.musl-armhf.so.1	musl

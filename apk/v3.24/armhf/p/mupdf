@@ -1,0 +1,13 @@
+name	mupdf
+version	1.27.2-r0
+description	Lightweight PDF and XPS viewer
+url	https://mupdf.com
+license	AGPL-3.0-or-later
+size	3635
+installed-size	3560
+depends	mupdf-viewer
+origin	mupdf
+repo	community
+file	mupdf-1.27.2-r0.apk
+checksum	Q1wVH5rPGAG0wGjP6gYogDLEfCjKA=
+dep	mupdf-viewer	mupdf-gl

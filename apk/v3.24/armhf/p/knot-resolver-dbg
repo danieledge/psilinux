@@ -1,0 +1,12 @@
+name	knot-resolver-dbg
+version	5.7.7-r0
+description	Minimalistic caching DNS resolver implementation (debug symbols)
+url	https://www.knot-resolver.cz/
+license	GPL-3.0-or-later
+size	1293382
+installed-size	2777468
+depends	!knot-resolver-mod-dnstap<5.7.7-r0 !knot-resolver-mod-dnstap>5.7.7-r0 !knot-resolver<5.7.7-r0 !knot-resolver>5.7.7-r0
+origin	knot-resolver
+repo	community
+file	knot-resolver-dbg-5.7.7-r0.apk
+checksum	Q1j8FQsRvHk8E47xskqufKPTMcNts=

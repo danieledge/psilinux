@@ -1,0 +1,16 @@
+name	cacti-setup
+version	1.2.31-r0
+description	The complete rrdtool-based graphing solution (initial setup)
+url	https://www.cacti.net/
+license	GPL-2.0-or-later
+size	1909816
+installed-size	2403309
+depends	cacti cacti-doc mariadb-client /bin/sh
+origin	cacti
+repo	community
+file	cacti-setup-1.2.31-r0.apk
+checksum	Q1Zd5gjbcTi9qxn0GFaTW1TctV2w0=
+dep	cacti	cacti
+dep	cacti-doc	cacti-doc
+dep	mariadb-client	mariadb-client
+dep	/bin/sh	busybox-binsh

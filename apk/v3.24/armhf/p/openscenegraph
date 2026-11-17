@@ -1,0 +1,24 @@
+name	openscenegraph
+version	3.6.5-r19
+description	High performance 3D graphics toolkit
+url	http://www.openscenegraph.org/
+license	LGPL-2.1-or-later
+size	7748678
+installed-size	23463288
+depends	so:libGL.so.1 so:libX11.so.6 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libfreetype.so.6 so:libgcc_s.so.1 so:libgdal.so.39 so:libgif.so.7 so:libjpeg.so.8 so:libpng16.so.16 so:libstdc++.so.6 so:libz.so.1
+origin	openscenegraph
+repo	community
+file	openscenegraph-3.6.5-r19.apk
+checksum	Q15CiNlcGiRQBD5CWE8JWFLjsNvbs=
+dep	so:libGL.so.1	mesa-gl
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libgif.so.7	giflib
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

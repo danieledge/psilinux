@@ -1,0 +1,13 @@
+name	dev86
+version	0.16.21-r4
+description	A real mode 80x86 assembler and linker
+url	https://github.com/lkundrak/dev86/
+license	GPL-2.0-or-later AND LGPL-2.0-or-later
+size	364603
+installed-size	902493
+depends	so:libc.musl-armhf.so.1
+origin	dev86
+repo	main
+file	dev86-0.16.21-r4.apk
+checksum	Q1rf3YwHGDnPqR3/jvgBkUbtBqH5c=
+dep	so:libc.musl-armhf.so.1	musl

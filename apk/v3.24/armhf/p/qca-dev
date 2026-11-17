@@ -1,0 +1,17 @@
+name	qca-dev
+version	2.3.10-r0
+description	Qt cryptographic architecture (development files)
+url	https://userbase.kde.org/QCA
+license	LGPL-2.1-or-later
+size	98924
+installed-size	463706
+depends	cyrus-sasl-dev qt5-qtbase-dev libqca-qt5=2.3.10-r0 pc:Qt5Core pkgconfig
+origin	qca
+repo	community
+file	qca-dev-2.3.10-r0.apk
+checksum	Q1YpSszuebPXyN/fnsCAlzPAnPCf8=
+dep	cyrus-sasl-dev	cyrus-sasl-dev
+dep	qt5-qtbase-dev	qt5-qtbase-dev
+dep	libqca-qt5=2.3.10-r0	libqca-qt5
+dep	pc:Qt5Core	qt5-qtbase-dev
+dep	pkgconfig	pkgconf

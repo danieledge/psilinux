@@ -1,0 +1,14 @@
+name	libcap
+version	2.78-r0
+description	POSIX 1003.1e capabilities
+url	https://sites.google.com/site/fullycapable/
+license	BSD-3-Clause OR GPL-2.0-only
+size	1298
+installed-size	0
+depends	libcap2=2.78-r0 libcap-utils=2.78-r0
+origin	libcap
+repo	main
+file	libcap-2.78-r0.apk
+checksum	Q11JzrLpfOd9PStTtNFcgsn+JZWVg=
+dep	libcap2=2.78-r0	libcap2
+dep	libcap-utils=2.78-r0	libcap-utils

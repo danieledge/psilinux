@@ -1,0 +1,21 @@
+name	incus-utils
+version	7.0.1-r2
+description	Incus utilities and scripts
+url	https://github.com/lxc/incus
+license	Apache-2.0
+size	37763634
+installed-size	98369617
+depends	incus py3-lxc jq losetup so:libacl.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libintl.so.8 so:libsqlite3.so.0
+origin	incus
+repo	community
+file	incus-utils-7.0.1-r2.apk
+checksum	Q1j62Q+bHwvOdLTyegd2sORPSYU9k=
+dep	incus	incus
+dep	py3-lxc	py3-lxc
+dep	jq	jq
+dep	losetup	losetup
+dep	so:libacl.so.1	acl-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libintl.so.8	libintl
+dep	so:libsqlite3.so.0	sqlite-libs

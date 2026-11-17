@@ -1,0 +1,15 @@
+name	qt5-qtx11extras
+version	5.15.18_git20250330-r0
+description	Provides platform-specific APIs for X11
+url	https://www.qt.io/developers/
+license	( LGPL-3.0-or-later OR GPL-3.0-only OR GPL-2.0-or-later ) AND Qt-GPL-exception-1.0
+size	6726
+installed-size	13596
+depends	so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libc.musl-armhf.so.1
+origin	qt5-qtx11extras
+repo	community
+file	qt5-qtx11extras-5.15.18_git20250330-r0.apk
+checksum	Q1ydD6gfL6tegxeGXUgNBEt81ohB8=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Gui.so.5	qt5-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl

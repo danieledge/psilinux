@@ -1,0 +1,13 @@
+name	nghttp2-static
+version	1.70.0-r0
+description	HTTP/2 C client, server and proxy (static library)
+url	https://nghttp2.org
+license	MIT
+size	953434
+installed-size	1215796
+depends	nghttp2-dev
+origin	nghttp2
+repo	main
+file	nghttp2-static-1.70.0-r0.apk
+checksum	Q1HpRK357CbTieJLchpV+hX4aVKZM=
+dep	nghttp2-dev	nghttp2-dev

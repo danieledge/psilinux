@@ -1,0 +1,14 @@
+name	obex-capabilities
+version	0.2.1-r9
+description	Script to generate Bluetooth OBEX capabilities XML files at runtime
+url	https://gitlab.postmarketos.org/postmarketOS/obex-capabilities
+license	GPL-3.0-or-later
+size	20455
+installed-size	54467
+depends	py3-dbus python3~3.14
+origin	obex-capabilities
+repo	community
+file	obex-capabilities-0.2.1-r9.apk
+checksum	Q1KC6DAJ/xau4ceZpD6PF/B9W6QS4=
+dep	py3-dbus	py3-dbus
+dep	python3~3.14	python3

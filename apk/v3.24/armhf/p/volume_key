@@ -1,0 +1,22 @@
+name	volume_key
+version	0.3.12-r9
+description	Library for manipulating storage volume encryption keys
+url	https://pagure.io/volume_key
+license	GPL-2.0-or-later
+size	152929
+installed-size	680175
+depends	so:libblkid.so.1 so:libc.musl-armhf.so.1 so:libcryptsetup.so.12 so:libglib-2.0.so.0 so:libgpgme.so.45 so:libintl.so.8 so:libnspr4.so so:libnss3.so so:libplc4.so so:libsmime3.so
+origin	volume_key
+repo	community
+file	volume_key-0.3.12-r9.apk
+checksum	Q1X9CrPnJMQU8P2eOVIXoPl1e24/8=
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcryptsetup.so.12	cryptsetup-libs
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgpgme.so.45	gpgme
+dep	so:libintl.so.8	libintl
+dep	so:libnspr4.so	nspr
+dep	so:libnss3.so	nss
+dep	so:libplc4.so	nspr
+dep	so:libsmime3.so	nss

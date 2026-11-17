@@ -1,0 +1,13 @@
+name	libmcrypt
+version	2.5.8-r11
+description	A library which provides a uniform interface to several symmetric encryption algorithms
+url	https://mcrypt.sourceforge.net/
+license	LGPL-2.1-or-later
+size	61407
+installed-size	149740
+depends	so:libc.musl-armhf.so.1
+origin	libmcrypt
+repo	community
+file	libmcrypt-2.5.8-r11.apk
+checksum	Q1LM7ETLHXyw59w6OMkDP8nEda5YQ=
+dep	so:libc.musl-armhf.so.1	musl

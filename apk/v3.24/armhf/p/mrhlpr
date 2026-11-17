@@ -1,0 +1,15 @@
+name	mrhlpr
+version	1.10.0-r2
+description	postmarketOS tools for interacting with gitlab MRs
+url	https://gitlab.postmarketos.org/postmarketOS/mrhlpr
+license	GPL-3.0-or-later
+size	1737
+installed-size	214
+depends	python3 git mrhlpr-common
+origin	mrhlpr
+repo	community
+file	mrhlpr-1.10.0-r2.apk
+checksum	Q1Afir42gwJShjO5/NzZUQwMKze6g=
+dep	python3	python3
+dep	git	git
+dep	mrhlpr-common	mrhlpr-common

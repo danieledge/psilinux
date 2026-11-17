@@ -1,0 +1,14 @@
+name	sqlite
+version	3.53.4-r0
+description	C library that implements an SQL database engine
+url	https://www.sqlite.org/
+license	blessing
+size	1029501
+installed-size	1916876
+depends	so:libc.musl-armhf.so.1 so:libreadline.so.8
+origin	sqlite
+repo	main
+file	sqlite-3.53.4-r0.apk
+checksum	Q1UlpTl+dUHlj20cj+cm8mHI0JVn4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libreadline.so.8	readline

@@ -1,0 +1,14 @@
+name	gutenprint-samples
+version	5.3.5-r0
+description	Sample test pattern generator for gutenprint-dev
+url	https://gimp-print.sourceforge.net/
+license	GPL-2.0-or-later
+size	648637
+installed-size	718781
+depends	so:libc.musl-armhf.so.1 so:libgutenprint.so.9
+origin	gutenprint
+repo	community
+file	gutenprint-samples-5.3.5-r0.apk
+checksum	Q1ZsHtz01BPJmUr+1XlkJf8/Gb8Mg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgutenprint.so.9	gutenprint-libs

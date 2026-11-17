@@ -1,0 +1,13 @@
+name	nextvi
+version	5.3-r0
+description	A small vi/ex terminal text editor (neatvi rewrite)
+url	https://github.com/kyx0r/nextvi/
+license	ISC
+size	88783
+installed-size	173936
+depends	so:libc.musl-armhf.so.1
+origin	nextvi
+repo	community
+file	nextvi-5.3-r0.apk
+checksum	Q1p0IaA+tUNtYHtpcBslIU1RpCrz0=
+dep	so:libc.musl-armhf.so.1	musl

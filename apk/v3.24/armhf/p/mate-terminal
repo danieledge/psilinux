@@ -1,0 +1,31 @@
+name	mate-terminal
+version	1.28.1-r0
+description	MATE terminal emulator
+url	https://github.com/mate-desktop/mate-terminal
+license	GPL-2.0-or-later
+size	151490
+installed-size	355578
+depends	mate-common mate-desktop yelp-tools so:libICE.so.6 so:libSM.so.6 so:libX11.so.6 so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdconf.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libvte-2.91.so.0
+origin	mate-terminal
+repo	community
+file	mate-terminal-1.28.1-r0.apk
+checksum	Q1vXCESIv3+J+KJrm3vsbovGmRXFs=
+dep	mate-common	mate-common
+dep	mate-desktop	mate-desktop
+dep	yelp-tools	yelp-tools
+dep	so:libICE.so.6	libice
+dep	so:libSM.so.6	libsm
+dep	so:libX11.so.6	libx11
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libdconf.so.1	dconf
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libvte-2.91.so.0	vte3

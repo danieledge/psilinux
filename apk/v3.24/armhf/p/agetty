@@ -1,0 +1,15 @@
+name	agetty
+version	2.42.3-r1
+description	agetty program from util-linux
+url	https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+license	Public-Domain
+size	26994
+installed-size	55212
+depends	so:libc.musl-armhf.so.1 so:libeconf.so.0 so:libutmps.so.0.1
+origin	util-linux
+repo	main
+file	agetty-2.42.3-r1.apk
+checksum	Q1OuyfKCuxYO1Sgd+HW9/n+JYgdkw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libeconf.so.0	libeconf
+dep	so:libutmps.so.0.1	utmps-libs

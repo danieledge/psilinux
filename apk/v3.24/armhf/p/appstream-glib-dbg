@@ -1,0 +1,12 @@
+name	appstream-glib-dbg
+version	0.8.3-r0
+description	Library for AppStream metadata (debug symbols)
+url	https://people.freedesktop.org/~hughsient/appstream-glib/
+license	LGPL-2.0-or-later
+size	842858
+installed-size	2086148
+depends	!appstream-glib-builder<0.8.3-r0 !appstream-glib-builder>0.8.3-r0 !appstream-glib<0.8.3-r0 !appstream-glib>0.8.3-r0
+origin	appstream-glib
+repo	community
+file	appstream-glib-dbg-0.8.3-r0.apk
+checksum	Q1NEF7ejtxiw3Q3KQS3//JJeOBT+g=

@@ -1,0 +1,14 @@
+name	libgnat
+version	15.2.0-r5
+description	GNU Ada runtime shared libraries
+url	https://gcc.gnu.org
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	1456405
+installed-size	4002256
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	gcc
+repo	main
+file	libgnat-15.2.0-r5.apk
+checksum	Q1a7SdHacmHk5cKTQSgxTbj/Mp3dE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

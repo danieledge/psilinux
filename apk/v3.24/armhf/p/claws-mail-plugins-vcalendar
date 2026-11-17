@@ -1,0 +1,24 @@
+name	claws-mail-plugins-vcalendar
+version	4.4.0-r0
+description	Handling of vCalendar messages in Claws Mail
+url	https://www.claws-mail.org
+license	GPL-3.0-or-later
+size	79077
+installed-size	175415
+depends	claws-mail=4.4.0-r0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcurl.so.4 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libical.so.3 so:libintl.so.8 so:libpango-1.0.so.0
+origin	claws-mail
+repo	community
+file	claws-mail-plugins-vcalendar-4.4.0-r0.apk
+checksum	Q1FF0WzoX2qYsFXl62MZ/NrJHRDnQ=
+dep	claws-mail=4.4.0-r0	claws-mail
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcurl.so.4	libcurl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libical.so.3	libical
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango

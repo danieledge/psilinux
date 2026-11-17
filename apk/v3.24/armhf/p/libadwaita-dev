@@ -1,0 +1,19 @@
+name	libadwaita-dev
+version	1.9.2-r0
+description	Building blocks for modern GNOME applications (development files)
+url	https://gitlab.gnome.org/GNOME/libadwaita
+license	LGPL-2.1-or-later
+size	271092
+installed-size	2697208
+depends	libadwaita=1.9.2-r0 pc:appstream pc:fribidi pc:gio-2.0>=2.84.0 pc:glib-2.0>=2.84.0 pc:gtk4>=4.21.1 pkgconfig
+origin	libadwaita
+repo	community
+file	libadwaita-dev-1.9.2-r0.apk
+checksum	Q1HJIH+6dj0ThOFclV68NHf66EUyU=
+dep	libadwaita=1.9.2-r0	libadwaita
+dep	pc:appstream	appstream-dev
+dep	pc:fribidi	fribidi-dev
+dep	pc:gio-2.0>=2.84.0	glib-dev
+dep	pc:glib-2.0>=2.84.0	glib-dev
+dep	pc:gtk4>=4.21.1	gtk4.0-dev
+dep	pkgconfig	pkgconf

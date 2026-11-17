@@ -1,0 +1,14 @@
+name	beanstalkd
+version	1.13-r1
+description	Beanstalk is a simple, fast work queue
+url	https://kr.github.io/beanstalkd/
+license	MIT
+size	28892
+installed-size	54808
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	beanstalkd
+repo	community
+file	beanstalkd-1.13-r1.apk
+checksum	Q1DVkMQRwsPuafGUzBzaPY6wRQDK8=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

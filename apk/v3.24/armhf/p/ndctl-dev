@@ -1,0 +1,14 @@
+name	ndctl-dev
+version	80-r1
+description	Utility library for managing the libnvdimm (non-volatile memory device) sub-system in the Linux kernel (development files)
+url	https://github.com/pmem/ndctl
+license	GPL-2.0-only AND LGPL-2.1-only
+size	15626
+installed-size	76026
+depends	ndctl-libs=80-r1 pkgconfig
+origin	ndctl
+repo	community
+file	ndctl-dev-80-r1.apk
+checksum	Q1KJQ2oJiG7LhOYjDWyHyIv8nx+jc=
+dep	ndctl-libs=80-r1	ndctl-libs
+dep	pkgconfig	pkgconf

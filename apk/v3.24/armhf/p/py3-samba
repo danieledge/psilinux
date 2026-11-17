@@ -1,0 +1,101 @@
+name	py3-samba
+version	4.23.8-r0
+description	Samba python libraries
+url	https://www.samba.org/
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	5090402
+installed-size	23774678
+depends	samba-client-libs=4.23.8-r0 samba-common-server-libs=4.23.8-r0 samba-dc-libs=4.23.8-r0 samba-libs=4.23.8-r0 samba-libs-py3=4.23.8-r0 samba-server-libs=4.23.8-r0 samba-util-libs=4.23.8-r0 ldb=4.23.8-r0 py3-tdb python3~3.14 so:libMESSAGING-SEND-private-samba.so so:libMESSAGING-private-samba.so so:libaddns-private-samba.so so:libads-private-samba.so so:libauth-unix-token-private-samba.so so:libauth4-private-samba.so so:libauthkrb5-private-samba.so so:libc.musl-armhf.so.1 so:libcli-ldap-private-samba.so so:libcli-nbt-private-samba.so so:libcli-smb-common-private-samba.so so:libcliauth-private-samba.so so:libcluster-private-samba.so so:libcmdline-contexts-private-samba.so so:libcmdline-private-samba.so so:libcommon-auth-private-samba.so so:libdb-glue-private-samba.so so:libdbwrap-private-samba.so so:libdcerpc-binding.so.0 so:libdcerpc-samba-private-samba.so so:libdcerpc-samba4-private-samba.so so:libdcerpc.so.0 so:libdnsserver-common-private-samba.so so:libdsdb-garbage-collect-tombstones-private-samba.so so:libevents-private-samba.so so:libflag-mapping-private-samba.so so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgnutls.so.30 so:libgpo-private-samba.so so:libgse-private-samba.so so:libkrb5-private-samba.so so:libkrb5samba-private-samba.so so:libldb.so.2 so:libldbsamba-private-samba.so so:liblibcli-lsa3-private-samba.so so:liblibcli-netlogon3-private-samba.so so:liblibsmb-private-samba.so so:libmsrpc3-private-samba.so so:libndr-krb5pac.so.0 so:libndr-nbt.so.0 so:libndr-samba-private-samba.so so:libndr-samba4-private-samba.so so:libndr-standard.so.0 so:libndr.so.6 so:libnetif-private-samba.so so:libposix-eadb-private-samba.so so:libpyldb-util.cpython-314-arm-linux-musleabihf-private-samba.so so:libpytalloc-util.cpython-314-arm-linux-musleabihf.so.2 so:libpython3.14.so.1.0 so:libregistry-private-samba.so so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-net-join.cpython-314-arm-linux-musleabihf-private-samba.so so:libsamba-net-private-samba.so so:libsamba-passdb.so.0 so:libsamba-policy.so.0 so:libsamba-python.cpython-314-arm-linux-musleabihf-private-samba.so so:libsamba-security-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsamdb-common-private-samba.so so:libsamdb.so.0 so:libscavenge-dns-records-private-samba.so so:libsecrets3-private-samba.so so:libserver-role-private-samba.so so:libsmbconf.so.0 so:libsmbd-base-private-samba.so so:libstable-sort-private-samba.so so:libtalloc.so.2 so:libtdb-wrap-private-samba.so so:libtevent-util.so.0 so:libtevent.so.0 so:libutil-crypt-private-samba.so so:libutil-reg-private-samba.so so:libxattr-tdb-private-samba.so
+origin	samba
+repo	main
+file	py3-samba-4.23.8-r0.apk
+checksum	Q1IwBZip4LMjJcIJ57CbYg/4bSBe4=
+dep	samba-client-libs=4.23.8-r0	samba-client-libs
+dep	samba-common-server-libs=4.23.8-r0	samba-common-server-libs
+dep	samba-dc-libs=4.23.8-r0	samba-dc-libs
+dep	samba-libs=4.23.8-r0	samba-libs
+dep	samba-libs-py3=4.23.8-r0	samba-libs-py3
+dep	samba-server-libs=4.23.8-r0	samba-server-libs
+dep	samba-util-libs=4.23.8-r0	samba-util-libs
+dep	ldb=4.23.8-r0	ldb
+dep	py3-tdb	py3-tdb
+dep	python3~3.14	python3
+dep	so:libMESSAGING-SEND-private-samba.so	samba-libs
+dep	so:libMESSAGING-private-samba.so	samba-libs
+dep	so:libaddns-private-samba.so	samba-libs
+dep	so:libads-private-samba.so	samba-libs
+dep	so:libauth-unix-token-private-samba.so	samba-dc-libs
+dep	so:libauth4-private-samba.so	samba-dc-libs
+dep	so:libauthkrb5-private-samba.so	samba-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcli-ldap-private-samba.so	samba-client-libs
+dep	so:libcli-nbt-private-samba.so	samba-libs
+dep	so:libcli-smb-common-private-samba.so	samba-libs
+dep	so:libcliauth-private-samba.so	samba-libs
+dep	so:libcluster-private-samba.so	samba-libs
+dep	so:libcmdline-contexts-private-samba.so	samba-client-libs
+dep	so:libcmdline-private-samba.so	samba-libs
+dep	so:libcommon-auth-private-samba.so	samba-libs
+dep	so:libdb-glue-private-samba.so	samba-dc-libs
+dep	so:libdbwrap-private-samba.so	samba-libs
+dep	so:libdcerpc-binding.so.0	samba-libs
+dep	so:libdcerpc-samba-private-samba.so	samba-libs
+dep	so:libdcerpc-samba4-private-samba.so	samba-server-libs
+dep	so:libdcerpc.so.0	samba-client-libs
+dep	so:libdnsserver-common-private-samba.so	samba-dc-libs
+dep	so:libdsdb-garbage-collect-tombstones-private-samba.so	samba-client-libs
+dep	so:libevents-private-samba.so	samba-libs
+dep	so:libflag-mapping-private-samba.so	samba-libs
+dep	so:libgenrand-private-samba.so	samba-util-libs
+dep	so:libgensec-private-samba.so	samba-libs
+dep	so:libgnutls.so.30	gnutls
+dep	so:libgpo-private-samba.so	samba-client-libs
+dep	so:libgse-private-samba.so	samba-libs
+dep	so:libkrb5-private-samba.so	samba-libs
+dep	so:libkrb5samba-private-samba.so	samba-libs
+dep	so:libldb.so.2	ldb
+dep	so:libldbsamba-private-samba.so	samba-libs
+dep	so:liblibcli-lsa3-private-samba.so	samba-libs
+dep	so:liblibcli-netlogon3-private-samba.so	samba-libs
+dep	so:liblibsmb-private-samba.so	samba-libs
+dep	so:libmsrpc3-private-samba.so	samba-libs
+dep	so:libndr-krb5pac.so.0	samba-libs
+dep	so:libndr-nbt.so.0	samba-libs
+dep	so:libndr-samba-private-samba.so	samba-libs
+dep	so:libndr-samba4-private-samba.so	samba-libs
+dep	so:libndr-standard.so.0	samba-libs
+dep	so:libndr.so.6	samba-libs
+dep	so:libnetif-private-samba.so	samba-client-libs
+dep	so:libposix-eadb-private-samba.so	samba-dc-libs
+dep	so:libpyldb-util.cpython-314-arm-linux-musleabihf-private-samba.so	py3-ldb
+dep	so:libpytalloc-util.cpython-314-arm-linux-musleabihf.so.2	py3-talloc
+dep	so:libpython3.14.so.1.0	python3
+dep	so:libregistry-private-samba.so	samba-client-libs
+dep	so:libreplace-private-samba.so	samba-util-libs
+dep	so:libsamba-credentials.so.1	samba-libs
+dep	so:libsamba-debug-private-samba.so	samba-util-libs
+dep	so:libsamba-errors.so.1	samba-libs
+dep	so:libsamba-hostconfig.so.0	samba-libs
+dep	so:libsamba-net-join.cpython-314-arm-linux-musleabihf-private-samba.so	samba-libs-py3
+dep	so:libsamba-net-private-samba.so	samba-libs-py3
+dep	so:libsamba-passdb.so.0	samba-libs
+dep	so:libsamba-policy.so.0	samba-dc-libs
+dep	so:libsamba-python.cpython-314-arm-linux-musleabihf-private-samba.so	samba-libs-py3
+dep	so:libsamba-security-private-samba.so	samba-libs
+dep	so:libsamba-util.so.0	samba-util-libs
+dep	so:libsamba3-util-private-samba.so	samba-libs
+dep	so:libsamdb-common-private-samba.so	samba-libs
+dep	so:libsamdb.so.0	samba-libs
+dep	so:libscavenge-dns-records-private-samba.so	samba-dc-libs
+dep	so:libsecrets3-private-samba.so	samba-libs
+dep	so:libserver-role-private-samba.so	samba-libs
+dep	so:libsmbconf.so.0	samba-libs
+dep	so:libsmbd-base-private-samba.so	samba-common-server-libs
+dep	so:libstable-sort-private-samba.so	samba-util-libs
+dep	so:libtalloc.so.2	talloc
+dep	so:libtdb-wrap-private-samba.so	samba-libs
+dep	so:libtevent-util.so.0	samba-libs
+dep	so:libtevent.so.0	tevent
+dep	so:libutil-crypt-private-samba.so	samba-libs
+dep	so:libutil-reg-private-samba.so	samba-libs
+dep	so:libxattr-tdb-private-samba.so	samba-server

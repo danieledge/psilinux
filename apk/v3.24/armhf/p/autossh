@@ -1,0 +1,14 @@
+name	autossh
+version	1.4g-r3
+description	Automatically restart SSH sessions and tunnels
+url	https://www.harding.motd.ca/autossh/
+license	MIT
+size	12875
+installed-size	23029
+depends	openssh-client so:libc.musl-armhf.so.1
+origin	autossh
+repo	community
+file	autossh-1.4g-r3.apk
+checksum	Q1YJnArbn2Xl+LJrrlxmts//Ac5S4=
+dep	openssh-client	openssh-client-default
+dep	so:libc.musl-armhf.so.1	musl

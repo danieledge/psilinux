@@ -1,0 +1,14 @@
+name	font-noto-osage
+version	2026.11.01-r0
+description	Noto Sans Osage font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	13597
+installed-size	20824
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-osage-2026.11.01-r0.apk
+checksum	Q1Fdhzs3P9yZZvwiHrUnE/uOo7bLA=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

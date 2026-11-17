@@ -1,0 +1,16 @@
+name	py3-bcrypt
+version	5.0.0-r1
+description	Modern password hashing for your software and your servers
+url	https://github.com/pyca/bcrypt
+license	Apache-2.0
+size	219863
+installed-size	411770
+depends	py3-cffi python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	py3-bcrypt
+repo	community
+file	py3-bcrypt-5.0.0-r1.apk
+checksum	Q1jzCRhIMbTbdErrdwkPp7AnIM104=
+dep	py3-cffi	py3-cffi
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

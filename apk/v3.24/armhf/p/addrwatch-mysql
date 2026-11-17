@@ -1,0 +1,15 @@
+name	addrwatch-mysql
+version	1.0.2-r1
+description	IPv4/IPv6 and ethernet address pairing monitoring - with MySQL output
+url	https://github.com/fln/addrwatch
+license	GPL-3.0-only
+size	18783
+installed-size	35257
+depends	addrwatch=1.0.2-r1 so:libc.musl-armhf.so.1 so:libmariadb.so.3
+origin	addrwatch
+repo	community
+file	addrwatch-mysql-1.0.2-r1.apk
+checksum	Q1R2rNR9f+w3ri9AgfWp/2EpB/mng=
+dep	addrwatch=1.0.2-r1	addrwatch
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmariadb.so.3	mariadb-connector-c

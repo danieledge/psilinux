@@ -1,0 +1,13 @@
+name	wolfssl-jni
+version	5.9.4-r0
+description	Embedded TLS Library (built without OpenSSL compatibility layer) - with jni support
+url	https://www.wolfssl.com/
+license	GPL-3.0-only
+size	690425
+installed-size	1401472
+depends	so:libc.musl-armhf.so.1
+origin	wolfssl
+repo	community
+file	wolfssl-jni-5.9.4-r0.apk
+checksum	Q1RK+wsNmOyNEfI829BRQlDOyB38k=
+dep	so:libc.musl-armhf.so.1	musl

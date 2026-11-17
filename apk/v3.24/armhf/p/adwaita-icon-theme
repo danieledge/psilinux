@@ -1,0 +1,13 @@
+name	adwaita-icon-theme
+version	50.0-r1
+description	Adwaita icon theme
+url	https://gitlab.gnome.org/GNOME/adwaita-icon-theme
+license	LGPL-3.0-or-later OR CC-BY-SA-3.0
+size	1895463
+installed-size	13218698
+depends	glycin-svg
+origin	adwaita-icon-theme
+repo	community
+file	adwaita-icon-theme-50.0-r1.apk
+checksum	Q16JfIzkJJxFz2CaiNmHXgxvuZCGs=
+dep	glycin-svg	glycin-svg

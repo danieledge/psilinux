@@ -1,0 +1,13 @@
+name	isa-l
+version	2.31.0-r1
+description	Intelligent Storage Acceleration Library
+url	https://github.com/intel/isa-l
+license	BSD-3-Clause
+size	68928
+installed-size	153736
+depends	so:libc.musl-armhf.so.1
+origin	isa-l
+repo	community
+file	isa-l-2.31.0-r1.apk
+checksum	Q1NR7gzcvHx5342a7zuOQW2I3UfAI=
+dep	so:libc.musl-armhf.so.1	musl

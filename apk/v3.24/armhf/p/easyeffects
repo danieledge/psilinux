@@ -1,0 +1,41 @@
+name	easyeffects
+version	7.2.5-r0
+description	audio plugins for PipeWire applications
+url	https://github.com/wwmm/easyeffects
+license	GPL-3.0-or-later
+size	1294595
+installed-size	6012118
+depends	lv2 /bin/sh so:libSoundTouch.so.2 so:libadwaita-1.so.0 so:libbs2b.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libebur128.so.1 so:libfftw3.so.3 so:libfftw3f.so.3 so:libfmt.so.11 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgsl.so.28 so:libgslcblas.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:liblilv-0.so.0 so:libpango-1.0.so.0 so:libpipewire-0.3.so.0 so:librnnoise.so.0 so:libsamplerate.so.0 so:libsigc-3.0.so.0 so:libsndfile.so.1 so:libspeexdsp.so.1 so:libstdc++.so.6 so:libzita-convolver.so.4
+origin	easyeffects
+repo	community
+file	easyeffects-7.2.5-r0.apk
+checksum	Q1wD7qwhWA/ClNBgv+WrAhMC5m27s=
+dep	lv2	lv2
+dep	/bin/sh	busybox-binsh
+dep	so:libSoundTouch.so.2	soundtouch
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libbs2b.so.0	libbs2b
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libebur128.so.1	libebur128
+dep	so:libfftw3.so.3	fftw-double-libs
+dep	so:libfftw3f.so.3	fftw-single-libs
+dep	so:libfmt.so.11	fmt
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgsl.so.28	gsl
+dep	so:libgslcblas.so.0	gsl
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:liblilv-0.so.0	lilv-libs
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpipewire-0.3.so.0	pipewire-libs
+dep	so:librnnoise.so.0	rnnoise
+dep	so:libsamplerate.so.0	libsamplerate
+dep	so:libsigc-3.0.so.0	libsigc++3
+dep	so:libsndfile.so.1	libsndfile
+dep	so:libspeexdsp.so.1	speexdsp
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libzita-convolver.so.4	zita-convolver

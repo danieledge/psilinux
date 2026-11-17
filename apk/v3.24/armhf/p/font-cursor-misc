@@ -1,0 +1,17 @@
+name	font-cursor-misc
+version	1.0.4-r1
+description	X.org misc font
+url	https://xorg.freedesktop.org/
+license	Public Domain
+size	6999
+installed-size	5225
+depends	encodings font-alias mkfontscale fontconfig util-macros
+origin	font-cursor-misc
+repo	main
+file	font-cursor-misc-1.0.4-r1.apk
+checksum	Q1Lgrq3soxO/cEYVdYzWvCYwVFTag=
+dep	encodings	encodings
+dep	font-alias	font-alias
+dep	mkfontscale	mkfontscale
+dep	fontconfig	fontconfig
+dep	util-macros	util-macros

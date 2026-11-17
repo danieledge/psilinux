@@ -1,0 +1,14 @@
+name	black-hole-solver-dev
+version	1.14.0-r0
+description	Solvers and statistics for 'Golf' solitaire, 'Black Hole' solitaire, 'All in a Row' solitaire and related card patience games (development files)
+url	https://www.shlomifish.org/open-source/projects/black-hole-solitaire-solver
+license	MIT
+size	3544
+installed-size	4897
+depends	black-hole-solver=1.14.0-r0 pkgconfig
+origin	black-hole-solver
+repo	community
+file	black-hole-solver-dev-1.14.0-r0.apk
+checksum	Q1gJ02zkwy7oPuWA5SQfJVw3eFClA=
+dep	black-hole-solver=1.14.0-r0	black-hole-solver
+dep	pkgconfig	pkgconf

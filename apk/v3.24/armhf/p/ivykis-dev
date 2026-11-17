@@ -1,0 +1,14 @@
+name	ivykis-dev
+version	0.43.2-r0
+description	Library for asynchronous I/O readiness notification (development files)
+url	https://github.com/buytenh/ivykis
+license	LGPL-2.1-or-later
+size	6571
+installed-size	24254
+depends	ivykis=0.43.2-r0 pkgconfig
+origin	ivykis
+repo	main
+file	ivykis-dev-0.43.2-r0.apk
+checksum	Q1I0kKXddHCBD2N7egPOwcSyH09+A=
+dep	ivykis=0.43.2-r0	ivykis
+dep	pkgconfig	pkgconf

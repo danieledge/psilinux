@@ -1,0 +1,14 @@
+name	collectd-teamspeak2
+version	5.12.0-r25
+description	teamspeak2 pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	6951
+installed-size	13444
+depends	collectd so:libc.musl-armhf.so.1
+origin	collectd
+repo	community
+file	collectd-teamspeak2-5.12.0-r25.apk
+checksum	Q1GXoMj//pJ616uVEzgCwUWe51WpU=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl

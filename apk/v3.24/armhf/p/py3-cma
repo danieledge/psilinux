@@ -1,0 +1,16 @@
+name	py3-cma
+version	4.4.4-r1
+description	Python implementation of CMA-ES
+url	https://github.com/CMA-ES/pycma
+license	BSD-3-Clause
+size	315871
+installed-size	1162776
+depends	python3 py3-matplotlib py3-numpy python3~3.14
+origin	py3-cma
+repo	community
+file	py3-cma-4.4.4-r1.apk
+checksum	Q1hfPpG+onc5gNrGUK8CzkyWGOpmY=
+dep	python3	python3
+dep	py3-matplotlib	py3-matplotlib
+dep	py3-numpy	py3-numpy
+dep	python3~3.14	python3

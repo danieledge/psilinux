@@ -1,0 +1,15 @@
+name	libjwt-tools
+version	3.3.3-r0
+description	Tools for JWT and JWK(S) from libjwt
+url	https://github.com/benmcollins/libjwt
+license	MPL-2.0
+size	66023
+installed-size	153364
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libjansson.so.4
+origin	libjwt
+repo	community
+file	libjwt-tools-3.3.3-r0.apk
+checksum	Q1I/mED877XVDQPeKaZmpsjWk0v/I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libjansson.so.4	jansson

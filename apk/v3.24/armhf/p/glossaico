@@ -1,0 +1,20 @@
+name	glossaico
+version	1.2-r3
+description	Language learning application based on LibreLingo
+url	https://codeberg.org/dimkard/glossaico
+license	GPL-3.0-or-later
+size	211983
+installed-size	693665
+depends	py3-importlib-metadata py3-librelingo-audios py3-librelingo-utils py3-librelingo-yaml-loader py3-requests py3-slugify py3-yaml python3~3.14
+origin	glossaico
+repo	community
+file	glossaico-1.2-r3.apk
+checksum	Q1ymbExW2ZveyaQecJkgL//2INKiI=
+dep	py3-importlib-metadata	py3-importlib-metadata
+dep	py3-librelingo-audios	py3-librelingo-audios
+dep	py3-librelingo-utils	py3-librelingo-utils
+dep	py3-librelingo-yaml-loader	py3-librelingo-yaml-loader
+dep	py3-requests	py3-requests
+dep	py3-slugify	py3-slugify
+dep	py3-yaml	py3-yaml
+dep	python3~3.14	python3

@@ -1,0 +1,14 @@
+name	audiofile-dev
+version	0.3.6-r3
+description	Silicon Graphics Audio File Library (development files)
+url	https://audiofile.68k.org/
+license	LGPL-2.1-or-later
+size	8929
+installed-size	28080
+depends	audiofile-libs=0.3.6-r3 pkgconfig
+origin	audiofile
+repo	community
+file	audiofile-dev-0.3.6-r3.apk
+checksum	Q1urq3hx9WyAxPR0IU0sa0O9mYF+s=
+dep	audiofile-libs=0.3.6-r3	audiofile-libs
+dep	pkgconfig	pkgconf

@@ -1,0 +1,17 @@
+name	php84-mysqlnd
+version	8.4.27-r0
+description	PHP84 extension: MySQLnd
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	75937
+installed-size	171098
+depends	php84-common php84-openssl so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libz.so.1
+origin	php84
+repo	community
+file	php84-mysqlnd-8.4.27-r0.apk
+checksum	Q1ybcY04nwVYCcB3TTQuB6nXVo02M=
+dep	php84-common	php84-common
+dep	php84-openssl	php84-openssl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libz.so.1	zlib

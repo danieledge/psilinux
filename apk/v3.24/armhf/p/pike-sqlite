@@ -1,0 +1,15 @@
+name	pike-sqlite
+version	8.0.2040-r1
+description	Pike programming language (SQLite support)
+url	https://pike.lysator.liu.se/
+license	GPL-2.0-or-later
+size	9599
+installed-size	19107
+depends	pike=8.0.2040-r1 so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	pike
+repo	community
+file	pike-sqlite-8.0.2040-r1.apk
+checksum	Q1BvxUQxgI6nWMNBdPn5kwkRtbyxw=
+dep	pike=8.0.2040-r1	pike
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

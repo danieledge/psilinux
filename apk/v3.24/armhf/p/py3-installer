@@ -1,0 +1,14 @@
+name	py3-installer
+version	1.0.0-r0
+description	low-level library for installing from a Python wheel distribution
+url	https://github.com/pypa/installer
+license	MIT
+size	465446
+installed-size	981038
+depends	python3 python3~3.14
+origin	py3-installer
+repo	main
+file	py3-installer-1.0.0-r0.apk
+checksum	Q1iOJvYofn/B/+Cei4Nv4/3D/RlnM=
+dep	python3	python3
+dep	python3~3.14	python3

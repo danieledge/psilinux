@@ -1,0 +1,13 @@
+name	tree-sitter-html
+version	0.23.2-r1
+description	HTML grammar for tree-sitter
+url	https://github.com/tree-sitter/tree-sitter-html
+license	MIT
+size	11040
+installed-size	26146
+depends	so:libc.musl-armhf.so.1
+origin	tree-sitter-html
+repo	community
+file	tree-sitter-html-0.23.2-r1.apk
+checksum	Q1Tz+QuvyoN1P4ITaez/GzH449GvE=
+dep	so:libc.musl-armhf.so.1	musl

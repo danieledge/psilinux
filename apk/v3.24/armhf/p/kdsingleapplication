@@ -1,0 +1,17 @@
+name	kdsingleapplication
+version	1.1.0-r0
+description	Helper class for single-instance policy applications
+url	https://www.kdab.com
+license	MIT
+size	14609
+installed-size	34364
+depends	so:libQt6Core.so.6 so:libQt6Network.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	kdsingleapplication
+repo	community
+file	kdsingleapplication-1.1.0-r0.apk
+checksum	Q1Dk0wiyyBIWYLXaSY1rmFpYQBmnM=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

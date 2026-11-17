@@ -1,0 +1,15 @@
+name	distrobox
+version	1.8.2.5-r0
+description	Use any Linux distribution inside your terminal
+url	https://distrobox.it/
+license	GPL-3.0-only
+size	190520
+installed-size	398997
+depends	findmnt podman /bin/sh
+origin	distrobox
+repo	community
+file	distrobox-1.8.2.5-r0.apk
+checksum	Q1cBwiB4whLZq/ELct5woiC/JSAE0=
+dep	findmnt	findmnt
+dep	podman	podman
+dep	/bin/sh	busybox-binsh

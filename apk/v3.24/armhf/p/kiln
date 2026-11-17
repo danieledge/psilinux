@@ -1,0 +1,13 @@
+name	kiln
+version	0.4.1-r17
+description	Simple static site generator for Gemini sites
+url	https://git.sr.ht/~adnano/kiln
+license	GPL-3.0-only
+size	1865719
+installed-size	4703569
+depends	so:libc.musl-armhf.so.1
+origin	kiln
+repo	community
+file	kiln-0.4.1-r17.apk
+checksum	Q1jiTat2NKrIE+rT8WmoPDueDBKKE=
+dep	so:libc.musl-armhf.so.1	musl

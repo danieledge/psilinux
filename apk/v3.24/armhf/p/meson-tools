@@ -1,0 +1,14 @@
+name	meson-tools
+version	0.1-r2
+description	Tools for Amlogic Meson ARM platforms
+url	https://github.com/afaerber/meson-tools
+license	GPL-2.0-or-later
+size	8392
+installed-size	28272
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	meson-tools
+repo	community
+file	meson-tools-0.1-r2.apk
+checksum	Q1/g87D8lYDh9e4o6Soxlr/MQduBU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

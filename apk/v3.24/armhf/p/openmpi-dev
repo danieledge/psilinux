@@ -1,0 +1,16 @@
+name	openmpi-dev
+version	4.1.6-r1
+description	Message passing library for high-performance computing (development files)
+url	https://www.open-mpi.org/
+license	custom
+size	54197
+installed-size	360944
+depends	openmpi=4.1.6-r1 pkgconfig so:libc.musl-armhf.so.1 so:libopen-pal.so.40
+origin	openmpi
+repo	community
+file	openmpi-dev-4.1.6-r1.apk
+checksum	Q1A4GL9idiRRqSLM5iliudODrJRI0=
+dep	openmpi=4.1.6-r1	openmpi
+dep	pkgconfig	pkgconf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libopen-pal.so.40	openmpi

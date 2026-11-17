@@ -1,0 +1,14 @@
+name	py3-coverage-conditional-plugin
+version	0.9.0-r1
+description	Conditional coverage based on any rules you define!
+url	https://github.com/wemake-services/coverage-conditional-plugin
+license	MIT
+size	8038
+installed-size	15482
+depends	py3-coverage python3~3.14
+origin	py3-coverage-conditional-plugin
+repo	community
+file	py3-coverage-conditional-plugin-0.9.0-r1.apk
+checksum	Q1U9Ze8nXoTgfdsJGNFUk1yoT6Rlc=
+dep	py3-coverage	py3-coverage
+dep	python3~3.14	python3

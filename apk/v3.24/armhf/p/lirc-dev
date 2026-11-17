@@ -1,0 +1,14 @@
+name	lirc-dev
+version	0.10.2-r4
+description	Infrared signal receiver and sender (development files)
+url	https://lirc.org/
+license	GPL-2.0-only
+size	53928
+installed-size	174715
+depends	lirc=0.10.2-r4 pkgconfig
+origin	lirc
+repo	community
+file	lirc-dev-0.10.2-r4.apk
+checksum	Q1/NLq60Pi85fySOiFdKPj/mrymGI=
+dep	lirc=0.10.2-r4	lirc
+dep	pkgconfig	pkgconf

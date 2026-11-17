@@ -1,0 +1,16 @@
+name	py3-psycopg-c
+version	3.3.4-r0
+description	PostgreSQL adapter for python - C optimisation distribution
+url	https://www.psycopg.org/
+license	LGPL-2.0-or-later
+size	927208
+installed-size	7427190
+depends	py3-psycopg=3.3.4-r0 python3~3.14 so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	py3-psycopg
+repo	community
+file	py3-psycopg-c-3.3.4-r0.apk
+checksum	Q1grizGBKnw0D6TauN5JwXv2YBkgA=
+dep	py3-psycopg=3.3.4-r0	py3-psycopg
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

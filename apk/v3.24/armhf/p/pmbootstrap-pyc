@@ -1,0 +1,13 @@
+name	pmbootstrap-pyc
+version	3.12.1-r0
+description	Precompiled Python bytecode for pmbootstrap
+url	https://gitlab.postmarketos.org/postmarketOS/pmbootstrap
+license	GPL-3.0-or-later
+size	475000
+installed-size	1156735
+depends	python3~3.14
+origin	pmbootstrap
+repo	community
+file	pmbootstrap-pyc-3.12.1-r0.apk
+checksum	Q1DbDuxsQqjRV51VfOXBUEWIfRos8=
+dep	python3~3.14	python3

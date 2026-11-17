@@ -1,0 +1,15 @@
+name	guile-git
+version	0.11.1-r0
+description	Guile bindings of libgit2
+url	https://codeberg.org/guile-git/guile-git
+license	GPL-3.0-or-later
+size	846311
+installed-size	5650531
+depends	guile guile-bytestructures libgit2-dev
+origin	guile-git
+repo	community
+file	guile-git-0.11.1-r0.apk
+checksum	Q1D6qkiChviuNl8zLKGThSt2qCRyI=
+dep	guile	guile
+dep	guile-bytestructures	guile-bytestructures
+dep	libgit2-dev	libgit2-dev

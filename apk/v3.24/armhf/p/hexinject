@@ -1,0 +1,14 @@
+name	hexinject
+version	1.6-r3
+description	Versatile packet injector and sniffer
+url	https://hexinject.sourceforge.net/
+license	BSD
+size	17375
+installed-size	60932
+depends	so:libc.musl-armhf.so.1 so:libpcap.so.1
+origin	hexinject
+repo	community
+file	hexinject-1.6-r3.apk
+checksum	Q1GWT/uZ3cZ/T6Tc7WLdbPYP2gp1I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcap.so.1	libpcap

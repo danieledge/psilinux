@@ -1,0 +1,14 @@
+name	perl-net-mqtt
+version	1.163170-r1
+description	Perl modules for the MQTT Protocol
+url	https://metacpan.org/release/Net-MQTT/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	12424
+installed-size	51932
+depends	perl perl-module-pluggable
+origin	perl-net-mqtt
+repo	community
+file	perl-net-mqtt-1.163170-r1.apk
+checksum	Q11nkAt/zXAz/TWGspdFculSY0TeI=
+dep	perl	perl
+dep	perl-module-pluggable	perl-module-pluggable

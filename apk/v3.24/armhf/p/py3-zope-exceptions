@@ -1,0 +1,15 @@
+name	py3-zope-exceptions
+version	6.0-r1
+description	Zope Exceptions
+url	https://github.com/zopefoundation/zope.exceptions
+license	ZPL-2.1
+size	17648
+installed-size	70061
+depends	py3-zope-interface py3-setuptools python3~3.14
+origin	py3-zope-exceptions
+repo	community
+file	py3-zope-exceptions-6.0-r1.apk
+checksum	Q1Y382JcbE6k1ZHNPzquQYoJXBiiY=
+dep	py3-zope-interface	py3-zope-interface
+dep	py3-setuptools	py3-setuptools
+dep	python3~3.14	python3

@@ -1,0 +1,21 @@
+name	tpm2-tools
+version	5.7-r1
+description	TPM2 Tools
+url	https://github.com/tpm2-software/tpm2-tools/
+license	BSD-2-Clause
+size	249579
+installed-size	730604
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libtss2-esys.so.0 so:libtss2-fapi.so.1 so:libtss2-mu.so.0 so:libtss2-rc.so.0 so:libtss2-sys.so.1 so:libtss2-tctildr.so.0
+origin	tpm2-tools
+repo	community
+file	tpm2-tools-5.7-r1.apk
+checksum	Q1QdUY94ZmyAlKybI7TMdKUe53P3s=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libtss2-esys.so.0	tpm2-tss-esys
+dep	so:libtss2-fapi.so.1	tpm2-tss-fapi
+dep	so:libtss2-mu.so.0	tpm2-tss-mu
+dep	so:libtss2-rc.so.0	tpm2-tss-rc
+dep	so:libtss2-sys.so.1	tpm2-tss-sys
+dep	so:libtss2-tctildr.so.0	tpm2-tss-tctildr

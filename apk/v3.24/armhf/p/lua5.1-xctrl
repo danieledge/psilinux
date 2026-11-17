@@ -1,0 +1,16 @@
+name	lua5.1-xctrl
+version	2015.04.10-r4
+description	Lua module that allows you to query and manipulate various aspects of an X11 window manager 5.1
+url	https://github.com/yetanothergeek/xctrl
+license	GPL-2.0-or-later
+size	18313
+installed-size	38228
+depends	lua5.1 so:libX11.so.6 so:libXmu.so.6 so:libc.musl-armhf.so.1
+origin	lua-xctrl
+repo	main
+file	lua5.1-xctrl-2015.04.10-r4.apk
+checksum	Q1HnQJGJ9s7S2ItMtPddemXnUW6ww=
+dep	lua5.1	lua5.1
+dep	so:libX11.so.6	libx11
+dep	so:libXmu.so.6	libxmu
+dep	so:libc.musl-armhf.so.1	musl

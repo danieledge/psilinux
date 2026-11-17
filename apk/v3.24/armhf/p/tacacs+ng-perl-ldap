@@ -1,0 +1,14 @@
+name	tacacs+ng-perl-ldap
+version	0_git20241212-r1
+description	MAVIS LDAP backend for TACACS+ NG
+url	https://www.pro-bono-publico.de/projects/tac_plus-ng.html
+license	MIT AND BSD-2-Clause
+size	12099
+installed-size	45028
+depends	tacacs+ng-perl=0_git20241212-r1 perl-ldap
+origin	tacacs+ng
+repo	community
+file	tacacs+ng-perl-ldap-0_git20241212-r1.apk
+checksum	Q1jDbEjjZlJmqFtZ61gajqYmf6gRc=
+dep	tacacs+ng-perl=0_git20241212-r1	tacacs+ng-perl
+dep	perl-ldap	perl-ldap

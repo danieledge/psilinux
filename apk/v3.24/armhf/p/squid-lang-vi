@@ -1,0 +1,13 @@
+name	squid-lang-vi
+version	7.6-r0
+description	squid language pack for vi
+url	https://www.squid-cache.org/
+license	GPL-2.0-or-later
+size	12343
+installed-size	58855
+depends	logrotate
+origin	squid
+repo	main
+file	squid-lang-vi-7.6-r0.apk
+checksum	Q1oo+pg5bE5DJcyfIaajuJ3jwN+H8=
+dep	logrotate	logrotate

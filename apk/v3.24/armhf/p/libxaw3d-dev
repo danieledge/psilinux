@@ -1,0 +1,19 @@
+name	libxaw3d-dev
+version	1.6.6-r0
+description	3D appearance variant of the X Athena Widget Set (development files)
+url	https://gitlab.freedesktop.org/xorg/lib/libxaw3d
+license	MIT
+size	55066
+installed-size	326524
+depends	libxaw3d=1.6.6-r0 pc:x11 pc:xext pc:xmu pc:xproto pc:xt pkgconfig
+origin	libxaw3d
+repo	community
+file	libxaw3d-dev-1.6.6-r0.apk
+checksum	Q1VPBlU2uYajp0L+njsTDMX7Kc2wQ=
+dep	libxaw3d=1.6.6-r0	libxaw3d
+dep	pc:x11	libx11-dev
+dep	pc:xext	libxext-dev
+dep	pc:xmu	libxmu-dev
+dep	pc:xproto	xorgproto
+dep	pc:xt	libxt-dev
+dep	pkgconfig	pkgconf

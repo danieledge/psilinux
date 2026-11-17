@@ -1,0 +1,27 @@
+name	cups
+version	2.4.19-r1
+description	The CUPS Printing System
+url	https://github.com/OpenPrinting/cups/
+license	Apache-2.0
+size	843228
+installed-size	1900694
+depends	cups-client poppler-utils openssl dbus /bin/sh cups-client=2.4.19-r1 so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-armhf.so.1 so:libcups.so.2 so:libdbus-1.so.3 so:libgcc_s.so.1 so:libpaper.so.2 so:libstdc++.so.6 so:libusb-1.0.so.0
+origin	cups
+repo	main
+file	cups-2.4.19-r1.apk
+checksum	Q1kes/G9wIlReKpdktXP7snyxF2oA=
+dep	cups-client	cups-client
+dep	poppler-utils	poppler-utils
+dep	openssl	openssl
+dep	dbus	dbus
+dep	/bin/sh	busybox-binsh
+dep	cups-client=2.4.19-r1	cups-client
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcups.so.2	cups-libs
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpaper.so.2	libpaper
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libusb-1.0.so.0	libusb

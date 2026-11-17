@@ -1,0 +1,14 @@
+name	singular-dev
+version	4.4.1_p5-r0
+description	Computer algebra system for polynomial computations (development files)
+url	https://www.singular.uni-kl.de/
+license	GPL-2.0-only OR GPL-3.0-only
+size	368231
+installed-size	1910038
+depends	singular=4.4.1_p5-r0 pkgconfig
+origin	singular
+repo	community
+file	singular-dev-4.4.1_p5-r0.apk
+checksum	Q15yuxw37tzM1gmMVXbgggm1ar540=
+dep	singular=4.4.1_p5-r0	singular
+dep	pkgconfig	pkgconf

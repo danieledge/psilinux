@@ -1,0 +1,15 @@
+name	php83-gettext
+version	8.3.36-r0
+description	PHP83 extension: GetText
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	5731
+installed-size	13654
+depends	php83-common so:libc.musl-armhf.so.1 so:libintl.so.8
+origin	php83
+repo	community
+file	php83-gettext-8.3.36-r0.apk
+checksum	Q1OVTyeRf3yVmCWMVuqp2u5FDvJbo=
+dep	php83-common	php83-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libintl.so.8	libintl

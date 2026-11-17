@@ -1,0 +1,15 @@
+name	openldap-overlay-syncprov
+version	2.6.15-r0
+description	OpenLDAP syncprov overlay
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	30518
+installed-size	60028
+depends	so:libc.musl-armhf.so.1 so:liblber.so.2 so:libldap.so.2
+origin	openldap
+repo	main
+file	openldap-overlay-syncprov-2.6.15-r0.apk
+checksum	Q1PINctBcv/Zq48Ie6Ir23TWm1c/0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap

@@ -1,0 +1,17 @@
+name	sane-saned
+version	1.4.0-r4
+description	Scanner Access Now Easy - universal scanner interface (network scanner server)
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	25957
+installed-size	56049
+depends	/bin/sh so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-armhf.so.1 so:libsane.so.1
+origin	sane
+repo	community
+file	sane-saned-1.4.0-r4.apk
+checksum	Q1/kenu1D70S13gUsZ1q4fXCUXhXg=
+dep	/bin/sh	busybox-binsh
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsane.so.1	sane

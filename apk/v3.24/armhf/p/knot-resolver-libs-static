@@ -1,0 +1,13 @@
+name	knot-resolver-libs-static
+version	5.7.7-r0
+description	Minimalistic caching DNS resolver implementation (static library)
+url	https://www.knot-resolver.cz/
+license	GPL-3.0-or-later
+size	899926
+installed-size	1935136
+depends	knot-resolver-dev=5.7.7-r0
+origin	knot-resolver
+repo	community
+file	knot-resolver-libs-static-5.7.7-r0.apk
+checksum	Q1ni8BUb4XpsKSkY6fiLlBQBK6mts=
+dep	knot-resolver-dev=5.7.7-r0	knot-resolver-dev

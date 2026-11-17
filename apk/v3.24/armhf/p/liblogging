@@ -1,0 +1,13 @@
+name	liblogging
+version	1.0.8-r0
+description	An easy to use logging library
+url	http://www.liblogging.org/
+license	BSD-2-Clause
+size	10309
+installed-size	22924
+depends	so:libc.musl-armhf.so.1
+origin	liblogging
+repo	main
+file	liblogging-1.0.8-r0.apk
+checksum	Q1LvZRnFtU4s4PHZlY5H622Jm6CPk=
+dep	so:libc.musl-armhf.so.1	musl

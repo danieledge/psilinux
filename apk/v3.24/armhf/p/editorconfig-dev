@@ -1,0 +1,14 @@
+name	editorconfig-dev
+version	0.12.11-r0
+description	core library written in C for use by plugins supporting EditorConfig parsing (development files)
+url	https://github.com/editorconfig/editorconfig-core-c
+license	BSD-2-Clause
+size	10236
+installed-size	29666
+depends	libeditorconfig=0.12.11-r0 pkgconfig
+origin	editorconfig
+repo	community
+file	editorconfig-dev-0.12.11-r0.apk
+checksum	Q14PRWjCXaEqaBTaEVpbcDEN++/lo=
+dep	libeditorconfig=0.12.11-r0	libeditorconfig
+dep	pkgconfig	pkgconf

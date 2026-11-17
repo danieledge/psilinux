@@ -1,0 +1,13 @@
+name	webhook
+version	2.8.3-r5
+description	Lightweight configurable webhooks server
+url	https://github.com/adnanh/webhook
+license	MIT
+size	3945176
+installed-size	9910180
+depends	so:libc.musl-armhf.so.1
+origin	webhook
+repo	community
+file	webhook-2.8.3-r5.apk
+checksum	Q1sI5d2AmTmoKooICfdTH+apqhzX4=
+dep	so:libc.musl-armhf.so.1	musl

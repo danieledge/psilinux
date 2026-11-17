@@ -1,0 +1,18 @@
+name	ncurses-dev
+version	6.6_p20260516-r0
+description	Console display library (development files)
+url	https://invisible-island.net/ncurses/
+license	X11
+size	71984
+installed-size	349626
+depends	libformw=6.6_p20260516-r0 libmenuw=6.6_p20260516-r0 libncurses++=6.6_p20260516-r0 libncursesw=6.6_p20260516-r0 libpanelw=6.6_p20260516-r0 pkgconfig
+origin	ncurses
+repo	main
+file	ncurses-dev-6.6_p20260516-r0.apk
+checksum	Q1ITHdqxM1qTLdvadNgP9b5yG4GZY=
+dep	libformw=6.6_p20260516-r0	libformw
+dep	libmenuw=6.6_p20260516-r0	libmenuw
+dep	libncurses++=6.6_p20260516-r0	libncurses++
+dep	libncursesw=6.6_p20260516-r0	libncursesw
+dep	libpanelw=6.6_p20260516-r0	libpanelw
+dep	pkgconfig	pkgconf

@@ -1,0 +1,15 @@
+name	alpine-conf
+version	3.22.0-r0
+description	Alpine configuration management scripts
+url	https://gitlab.alpinelinux.org/alpine/alpine-conf
+license	MIT
+size	66091
+installed-size	192291
+depends	openrc>=0.24.1-r6 busybox>=1.26.1-r3 so:libc.musl-armhf.so.1
+origin	alpine-conf
+repo	main
+file	alpine-conf-3.22.0-r0.apk
+checksum	Q1tFY9XGnseZYuWQL2hfEZOqu6beU=
+dep	openrc>=0.24.1-r6	openrc
+dep	busybox>=1.26.1-r3	busybox
+dep	so:libc.musl-armhf.so.1	musl

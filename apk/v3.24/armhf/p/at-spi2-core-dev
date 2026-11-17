@@ -1,0 +1,24 @@
+name	at-spi2-core-dev
+version	2.60.5-r0
+description	Protocol definitions and daemon for D-Bus at-spi (development files)
+url	https://www.freedesktop.org/wiki/Accessibility/AT-SPI2/
+license	LGPL-2.1-or-later
+size	257089
+installed-size	2201608
+depends	at-spi2-core-libs=2.60.5-r0 libatk-1.0=2.60.5-r0 libatk-bridge-2.0=2.60.5-r0 pc:dbus-1>=1.5 pc:gio-2.0>=2.28.0 pc:glib-2.0>=2.67.4 pc:gmodule-2.0>=2.0.0 pc:gobject-2.0>=2.0.0 pc:x11 pc:xi pc:xtst pkgconfig
+origin	at-spi2-core
+repo	main
+file	at-spi2-core-dev-2.60.5-r0.apk
+checksum	Q1uad9E+5yLKvETFDiRygLjkJTvt4=
+dep	at-spi2-core-libs=2.60.5-r0	at-spi2-core-libs
+dep	libatk-1.0=2.60.5-r0	libatk-1.0
+dep	libatk-bridge-2.0=2.60.5-r0	libatk-bridge-2.0
+dep	pc:dbus-1>=1.5	dbus-dev
+dep	pc:gio-2.0>=2.28.0	glib-dev
+dep	pc:glib-2.0>=2.67.4	glib-dev
+dep	pc:gmodule-2.0>=2.0.0	glib-dev
+dep	pc:gobject-2.0>=2.0.0	glib-dev
+dep	pc:x11	libx11-dev
+dep	pc:xi	libxi-dev
+dep	pc:xtst	libxtst-dev
+dep	pkgconfig	pkgconf

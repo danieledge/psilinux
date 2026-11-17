@@ -1,0 +1,23 @@
+name	libcurl
+version	8.23.0-r0
+description	The multiprotocol file transfer library
+url	https://curl.se/
+license	curl
+size	355784
+installed-size	740995
+depends	ca-certificates-bundle so:libbrotlidec.so.1 so:libc.musl-armhf.so.1 so:libcares.so.2 so:libcrypto.so.3 so:libidn2.so.0 so:libnghttp2.so.14 so:libpsl.so.5 so:libssl.so.3 so:libz.so.1 so:libzstd.so.1
+origin	curl
+repo	main
+file	libcurl-8.23.0-r0.apk
+checksum	Q1T6c1ovoByzD70AGb6Ts+Xx+0g8E=
+dep	ca-certificates-bundle	ca-certificates-bundle
+dep	so:libbrotlidec.so.1	brotli-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcares.so.2	c-ares
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libidn2.so.0	libidn2
+dep	so:libnghttp2.so.14	nghttp2-libs
+dep	so:libpsl.so.5	libpsl
+dep	so:libssl.so.3	libssl3
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

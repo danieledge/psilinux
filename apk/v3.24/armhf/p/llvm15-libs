@@ -1,0 +1,19 @@
+name	llvm15-libs
+version	15.0.7-r20
+description	LLVM 15 runtime library
+url	https://llvm.org/
+license	Apache-2.0
+size	43562225
+installed-size	123643876
+depends	so:libc.musl-armhf.so.1 so:libffi.so.8 so:libgcc_s.so.1 so:libstdc++.so.6 so:libxml2.so.2 so:libz.so.1 so:libzstd.so.1
+origin	llvm15
+repo	community
+file	llvm15-libs-15.0.7-r20.apk
+checksum	Q1BrPcCcpXaWAtWRmjD/xxOXfHOLs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libffi.so.8	libffi
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

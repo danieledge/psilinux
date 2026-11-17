@@ -1,0 +1,19 @@
+name	cassandra-cpp-driver
+version	2.17.1-r0
+description	Cassandra CPP Driver
+url	https://datastax.github.io/cpp-driver/
+license	Apache-2.0
+size	670045
+installed-size	1992116
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3 so:libstdc++.so.6 so:libuv.so.1 so:libz.so.1
+origin	cassandra-cpp-driver
+repo	community
+file	cassandra-cpp-driver-2.17.1-r0.apk
+checksum	Q13giuNFyXwgeFNPEDKHGSwAE22Jc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libuv.so.1	libuv
+dep	so:libz.so.1	zlib

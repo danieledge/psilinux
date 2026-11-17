@@ -1,0 +1,16 @@
+name	py3-hatch-vcs
+version	0.5.0-r1
+description	Hatch plugin for versioning with your preferred VCS
+url	https://github.com/ofek/hatch-vcs
+license	MIT
+size	8408
+installed-size	17343
+depends	python3 py3-hatchling py3-setuptools_scm python3~3.14
+origin	py3-hatch-vcs
+repo	main
+file	py3-hatch-vcs-0.5.0-r1.apk
+checksum	Q1TwLl7q5XFrrftsYG3mmZ/oEyl00=
+dep	python3	python3
+dep	py3-hatchling	py3-hatchling
+dep	py3-setuptools_scm	py3-setuptools_scm
+dep	python3~3.14	python3

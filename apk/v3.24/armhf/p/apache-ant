@@ -1,0 +1,13 @@
+name	apache-ant
+version	1.10.18-r0
+description	A java-based build tool
+url	https://ant.apache.org/
+license	Apache-2.0
+size	2721504
+installed-size	3278349
+depends	java-jdk
+origin	apache-ant
+repo	community
+file	apache-ant-1.10.18-r0.apk
+checksum	Q12sL6K3nKwDJrfaq4mOkmYhM3mac=
+dep	java-jdk	openjdk8-jdk

@@ -1,0 +1,16 @@
+name	nginx-mod-stream-js
+version	1.30.6-r0
+description	Nginx module stream-js
+url	https://www.nginx.org/
+license	BSD-2-Clause
+size	351438
+installed-size	845967
+depends	nginx=1.30.6-r0 nginx-mod-stream so:libc.musl-armhf.so.1 so:libxml2.so.2
+origin	nginx
+repo	main
+file	nginx-mod-stream-js-1.30.6-r0.apk
+checksum	Q1tY+gAwaH6Zmv9/N120UZVHY5uLk=
+dep	nginx=1.30.6-r0	nginx
+dep	nginx-mod-stream	nginx-mod-stream
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxml2.so.2	libxml2

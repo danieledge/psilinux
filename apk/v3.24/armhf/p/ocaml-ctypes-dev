@@ -1,0 +1,13 @@
+name	ocaml-ctypes-dev
+version	0.20.1-r5
+description	Combinators for binding to C libraries without writing any C (development files)
+url	https://github.com/ocamllabs/ocaml-ctypes
+license	MIT
+size	870587
+installed-size	2347935
+depends	ocaml-ctypes=0.20.1-r5
+origin	ocaml-ctypes
+repo	community
+file	ocaml-ctypes-dev-0.20.1-r5.apk
+checksum	Q1oAJy7s6xQArS/gWRxNf9gJ1hIX4=
+dep	ocaml-ctypes=0.20.1-r5	ocaml-ctypes

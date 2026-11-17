@@ -1,0 +1,15 @@
+name	collectd-python
+version	5.12.0-r25
+description	python pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	24654
+installed-size	62108
+depends	collectd so:libc.musl-armhf.so.1 so:libpython3.14.so.1.0
+origin	collectd
+repo	community
+file	collectd-python-5.12.0-r25.apk
+checksum	Q1cVgPMWBSd/2CFk9Wt75mq+RIBgU=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpython3.14.so.1.0	python3

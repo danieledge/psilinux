@@ -1,0 +1,18 @@
+name	gsoap
+version	2.8.139-r0
+description	Cross-platform C and C++ SDK for SOAP/XML Web services
+url	https://www.genivia.com/dev.html
+license	GPL-2.0-or-later gSOAP-1.3b
+size	705249
+installed-size	2008709
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1
+origin	gsoap
+repo	community
+file	gsoap-2.8.139-r0.apk
+checksum	Q1Y1F0CGjNSwah5vGDwOFZQQiznys=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

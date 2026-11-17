@@ -1,0 +1,14 @@
+name	libmustach-json-c
+version	1.2.10-r0
+description	C implementation of the mustache template specification (libmustach-json-c library)
+url	https://gitlab.com/jobol/mustach
+license	0BSD
+size	10339
+installed-size	21796
+depends	so:libc.musl-armhf.so.1 so:libjson-c.so.5
+origin	mustach
+repo	community
+file	libmustach-json-c-1.2.10-r0.apk
+checksum	Q1sE+hFy1mwrgc2O1R+UsFjy2mWMk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjson-c.so.5	json-c

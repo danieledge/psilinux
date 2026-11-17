@@ -1,0 +1,38 @@
+name	openldap-overlay-all
+version	2.6.15-r0
+description	Virtual package that installs all OpenLDAP overlays
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	1431
+installed-size	0
+depends	openldap-overlay-accesslog openldap-overlay-auditlog openldap-overlay-autoca openldap-overlay-collect openldap-overlay-constraint openldap-overlay-dds openldap-overlay-deref openldap-overlay-dyngroup openldap-overlay-dynlist openldap-overlay-homedir openldap-overlay-lastbind openldap-overlay-memberof openldap-overlay-mqtt openldap-overlay-otp openldap-overlay-ppolicy openldap-overlay-proxycache openldap-overlay-refint openldap-overlay-remoteauth openldap-overlay-retcode openldap-overlay-rwm openldap-overlay-seqmod openldap-overlay-sssvlv openldap-overlay-syncprov openldap-overlay-translucent openldap-overlay-unique openldap-overlay-valsort
+origin	openldap
+repo	main
+file	openldap-overlay-all-2.6.15-r0.apk
+checksum	Q1x6JHV6LN5rYvBuq/0b9fg6f+jqA=
+dep	openldap-overlay-accesslog	openldap-overlay-accesslog
+dep	openldap-overlay-auditlog	openldap-overlay-auditlog
+dep	openldap-overlay-autoca	openldap-overlay-autoca
+dep	openldap-overlay-collect	openldap-overlay-collect
+dep	openldap-overlay-constraint	openldap-overlay-constraint
+dep	openldap-overlay-dds	openldap-overlay-dds
+dep	openldap-overlay-deref	openldap-overlay-deref
+dep	openldap-overlay-dyngroup	openldap-overlay-dyngroup
+dep	openldap-overlay-dynlist	openldap-overlay-dynlist
+dep	openldap-overlay-homedir	openldap-overlay-homedir
+dep	openldap-overlay-lastbind	openldap-overlay-lastbind
+dep	openldap-overlay-memberof	openldap-overlay-memberof
+dep	openldap-overlay-mqtt	openldap-overlay-mqtt
+dep	openldap-overlay-otp	openldap-overlay-otp
+dep	openldap-overlay-ppolicy	openldap-overlay-ppolicy
+dep	openldap-overlay-proxycache	openldap-overlay-proxycache
+dep	openldap-overlay-refint	openldap-overlay-refint
+dep	openldap-overlay-remoteauth	openldap-overlay-remoteauth
+dep	openldap-overlay-retcode	openldap-overlay-retcode
+dep	openldap-overlay-rwm	openldap-overlay-rwm
+dep	openldap-overlay-seqmod	openldap-overlay-seqmod
+dep	openldap-overlay-sssvlv	openldap-overlay-sssvlv
+dep	openldap-overlay-syncprov	openldap-overlay-syncprov
+dep	openldap-overlay-translucent	openldap-overlay-translucent
+dep	openldap-overlay-unique	openldap-overlay-unique
+dep	openldap-overlay-valsort	openldap-overlay-valsort

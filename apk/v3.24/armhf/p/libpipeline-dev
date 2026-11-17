@@ -1,0 +1,14 @@
+name	libpipeline-dev
+version	1.5.8-r1
+description	C pipeline manipulation library (development files)
+url	https://libpipeline.gitlab.io/libpipeline/
+license	GPL-3.0-or-later
+size	7524
+installed-size	19338
+depends	libpipeline=1.5.8-r1 pkgconfig
+origin	libpipeline
+repo	community
+file	libpipeline-dev-1.5.8-r1.apk
+checksum	Q1pUJAYhwBIcTirtNrA9GHHpvBxkY=
+dep	libpipeline=1.5.8-r1	libpipeline
+dep	pkgconfig	pkgconf

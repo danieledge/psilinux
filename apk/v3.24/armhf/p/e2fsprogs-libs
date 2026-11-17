@@ -1,0 +1,14 @@
+name	e2fsprogs-libs
+version	1.47.4-r0
+description	Standard Ext2/3/4 filesystem utilities (libraries)
+url	https://e2fsprogs.sourceforge.net/
+license	GPL-2.0-or-later AND LGPL-2.0-or-later AND BSD-3-Clause AND MIT
+size	212907
+installed-size	427748
+depends	so:libc.musl-armhf.so.1 so:libcom_err.so.2
+origin	e2fsprogs
+repo	main
+file	e2fsprogs-libs-1.47.4-r0.apk
+checksum	Q1aG+EFnMlO+yqruwiM++3P5u+UY0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcom_err.so.2	libcom_err

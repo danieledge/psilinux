@@ -1,0 +1,18 @@
+name	libdrm-tests
+version	2.4.134-r0
+description	Userspace interface to kernel DRM services
+url	https://gitlab.freedesktop.org/mesa/drm
+license	MIT
+size	101965
+installed-size	309900
+depends	so:libc.musl-armhf.so.1 so:libdrm.so.2 so:libdrm_amdgpu.so.1 so:libdrm_etnaviv.so.1 so:libdrm_exynos.so.1 so:libdrm_tegra.so.0
+origin	libdrm
+repo	main
+file	libdrm-tests-2.4.134-r0.apk
+checksum	Q11y8oQ2Q/mrGrZ9e7BVeQj4ji6eM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm.so.2	libdrm
+dep	so:libdrm_amdgpu.so.1	libdrm
+dep	so:libdrm_etnaviv.so.1	libdrm
+dep	so:libdrm_exynos.so.1	libdrm
+dep	so:libdrm_tegra.so.0	libdrm

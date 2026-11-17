@@ -1,0 +1,15 @@
+name	perl-template-toolkit
+version	3.105-r0
+description	comprehensive template processing system
+url	https://metacpan.org/release/Template-Toolkit/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	192216
+installed-size	774397
+depends	perl perl-appconfig so:libc.musl-armhf.so.1
+origin	perl-template-toolkit
+repo	community
+file	perl-template-toolkit-3.105-r0.apk
+checksum	Q1d09KfmJjOX4FUAUGr/m+IRNDUqs=
+dep	perl	perl
+dep	perl-appconfig	perl-appconfig
+dep	so:libc.musl-armhf.so.1	musl

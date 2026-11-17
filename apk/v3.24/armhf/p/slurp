@@ -1,0 +1,17 @@
+name	slurp
+version	1.5.0-r0
+description	Interaction screen selection on Wayland compositors
+url	https://wayland.emersion.fr/slurp/
+license	MIT
+size	14935
+installed-size	30304
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libwayland-client.so.0 so:libwayland-cursor.so.0 so:libxkbcommon.so.0
+origin	slurp
+repo	community
+file	slurp-1.5.0-r0.apk
+checksum	Q1dmYA2nDyJAYzmO7iU4kaDTgNZG0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor
+dep	so:libxkbcommon.so.0	libxkbcommon

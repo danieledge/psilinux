@@ -1,0 +1,13 @@
+name	cddlib-static
+version	0.94m-r2
+description	Library implementing Double Description Method for convex polyhedra (static library)
+url	https://people.inf.ethz.ch/fukudak/cdd_home
+license	GPL-2.0-or-later
+size	240882
+installed-size	563034
+depends	cddlib-dev
+origin	cddlib
+repo	community
+file	cddlib-static-0.94m-r2.apk
+checksum	Q12GxkuYSFoi/UFL1BtI2cn9L6FFw=
+dep	cddlib-dev	cddlib-dev

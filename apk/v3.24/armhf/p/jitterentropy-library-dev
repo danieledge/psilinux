@@ -1,0 +1,13 @@
+name	jitterentropy-library-dev
+version	3.6.3-r1
+description	Jitterentropy library (development files)
+url	https://www.chronox.de/jent/
+license	BSD-3-Clause OR GPL-2.0-only
+size	12778
+installed-size	34218
+depends	jitterentropy-library=3.6.3-r1
+origin	jitterentropy-library
+repo	main
+file	jitterentropy-library-dev-3.6.3-r1.apk
+checksum	Q1DHGsIZcx1BGQV05YjKI1JZqX5h8=
+dep	jitterentropy-library=3.6.3-r1	jitterentropy-library

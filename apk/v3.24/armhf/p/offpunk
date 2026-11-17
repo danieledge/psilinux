@@ -1,0 +1,22 @@
+name	offpunk
+version	3.1-r1
+description	Offline-first browser for the small internet
+url	https://offpunk.net
+license	AGPL-3.0-or-later
+size	99872
+installed-size	361429
+depends	chafa file less py3-cryptography py3-lxml py3-readability-lxml py3-requests xdg-utils /bin/sh python3~3.14
+origin	offpunk
+repo	community
+file	offpunk-3.1-r1.apk
+checksum	Q18m/63fMM5m7/OyfpD2tFzqMfDOc=
+dep	chafa	chafa
+dep	file	file
+dep	less	less
+dep	py3-cryptography	py3-cryptography
+dep	py3-lxml	py3-lxml
+dep	py3-readability-lxml	py3-readability-lxml
+dep	py3-requests	py3-requests
+dep	xdg-utils	xdg-utils
+dep	/bin/sh	busybox-binsh
+dep	python3~3.14	python3

@@ -1,0 +1,16 @@
+name	erofs-utils
+version	1.9.1-r0
+description	userspace utilities for erofs filesystem
+url	https://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs-utils.git
+license	GPL-2.0-or-later
+size	310610
+installed-size	594696
+depends	so:libc.musl-armhf.so.1 so:liblz4.so.1 so:libuuid.so.1 so:libz.so.1
+origin	erofs-utils
+repo	community
+file	erofs-utils-1.9.1-r0.apk
+checksum	Q1JGP/LU9eMaNY6JGyOZetzxLAlAg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblz4.so.1	lz4-libs
+dep	so:libuuid.so.1	libuuid
+dep	so:libz.so.1	zlib

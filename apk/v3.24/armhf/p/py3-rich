@@ -1,0 +1,15 @@
+name	py3-rich
+version	15.0.0-r0
+description	Python library for rich text formatting and terminal formatting
+url	https://rich.readthedocs.io/en/latest/
+license	MIT
+size	239244
+installed-size	1245816
+depends	py3-markdown-it-py py3-pygments python3~3.14
+origin	py3-rich
+repo	community
+file	py3-rich-15.0.0-r0.apk
+checksum	Q1+KAc1ol6gbAa4lSV+pVNEMZXGzg=
+dep	py3-markdown-it-py	py3-markdown-it-py
+dep	py3-pygments	py3-pygments
+dep	python3~3.14	python3

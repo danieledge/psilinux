@@ -1,0 +1,14 @@
+name	libsodium-dev
+version	1.0.22-r0
+description	P(ortable|ackageable) NaCl-based crypto library (development files)
+url	https://github.com/jedisct1/libsodium
+license	ISC
+size	26309
+installed-size	189251
+depends	libsodium=1.0.22-r0 pkgconfig
+origin	libsodium
+repo	main
+file	libsodium-dev-1.0.22-r0.apk
+checksum	Q1zUBtbcZK7YJDE1cQ0ZDfd/vnPtE=
+dep	libsodium=1.0.22-r0	libsodium
+dep	pkgconfig	pkgconf

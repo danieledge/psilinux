@@ -1,0 +1,14 @@
+name	wlopm
+version	1.0.0-r0
+description	Wayland output power management
+url	https://sr.ht/~leon_plickat/wlopm/
+license	GPL-3.0-or-later
+size	6561
+installed-size	13552
+depends	so:libc.musl-armhf.so.1 so:libwayland-client.so.0
+origin	wlopm
+repo	community
+file	wlopm-1.0.0-r0.apk
+checksum	Q1T72ldjrhXqV+/EVJG66fG4pI/rA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libwayland-client.so.0	wayland-libs-client

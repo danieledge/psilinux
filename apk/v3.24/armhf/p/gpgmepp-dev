@@ -1,0 +1,16 @@
+name	gpgmepp-dev
+version	2.0.0-r0
+description	gnupg made easy (development files)
+url	https://www.gnupg.org/related_software/gpgme/
+license	LGPL-2.1-or-later AND GPL-3.0-or-later
+size	36649
+installed-size	171724
+depends	gpgmepp=2.0.0-r0 pc:gpg-error pc:gpgme pkgconfig
+origin	gpgmepp
+repo	community
+file	gpgmepp-dev-2.0.0-r0.apk
+checksum	Q16/dcso9qsbgE7Fk7vLfeCGflFS0=
+dep	gpgmepp=2.0.0-r0	gpgmepp
+dep	pc:gpg-error	libgpg-error-dev
+dep	pc:gpgme	gpgme-dev
+dep	pkgconfig	pkgconf

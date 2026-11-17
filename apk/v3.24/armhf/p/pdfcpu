@@ -1,0 +1,13 @@
+name	pdfcpu
+version	0.11.1-r8
+description	PDF processor written in Go
+url	https://pdfcpu.io
+license	Apache-2.0
+size	8476370
+installed-size	19744620
+depends	so:libc.musl-armhf.so.1
+origin	pdfcpu
+repo	community
+file	pdfcpu-0.11.1-r8.apk
+checksum	Q1Uz62ylfeCsGdyVCAD+81ruER7wQ=
+dep	so:libc.musl-armhf.so.1	musl

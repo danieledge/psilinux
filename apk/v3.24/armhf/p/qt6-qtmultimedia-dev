@@ -1,0 +1,32 @@
+name	qt6-qtmultimedia-dev
+version	6.11.1-r0
+description	Classes for audio, video, radio and camera functionality (development files)
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	90309639
+installed-size	234240225
+depends	qt6-qtmultimedia-ffmpeg=6.11.1-r0 qt6-qtmultimedia-gstreamer=6.11.1-r0 alsa-lib-dev ffmpeg-dev gst-plugins-bad-dev gst-plugins-base-dev gstreamer-dev libva-glx-dev libxrandr-dev pulseaudio-dev qt6-qtbase-dev qt6-qtbase-private-dev qt6-qtshadertools-dev qt6-qtsvg-dev qt6-qtmultimedia=6.11.1-r0 pc:Qt6Core pc:Qt6Gui pc:Qt6Network pc:Qt6Widgets pkgconfig
+origin	qt6-qtmultimedia
+repo	community
+file	qt6-qtmultimedia-dev-6.11.1-r0.apk
+checksum	Q1e7YCE2BbOz633dj50cXZRVIBueo=
+dep	qt6-qtmultimedia-ffmpeg=6.11.1-r0	qt6-qtmultimedia-ffmpeg
+dep	qt6-qtmultimedia-gstreamer=6.11.1-r0	qt6-qtmultimedia-gstreamer
+dep	alsa-lib-dev	alsa-lib-dev
+dep	ffmpeg-dev	ffmpeg-dev
+dep	gst-plugins-bad-dev	gst-plugins-bad-dev
+dep	gst-plugins-base-dev	gst-plugins-base-dev
+dep	gstreamer-dev	gstreamer-dev
+dep	libva-glx-dev	libva-glx-dev
+dep	libxrandr-dev	libxrandr-dev
+dep	pulseaudio-dev	pulseaudio-dev
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	qt6-qtbase-private-dev	qt6-qtbase-private-dev
+dep	qt6-qtshadertools-dev	qt6-qtshadertools-dev
+dep	qt6-qtsvg-dev	qt6-qtsvg-dev
+dep	qt6-qtmultimedia=6.11.1-r0	qt6-qtmultimedia
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pc:Qt6Gui	qt6-qtbase-dev
+dep	pc:Qt6Network	qt6-qtbase-dev
+dep	pc:Qt6Widgets	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	clipper-dev
+version	6.4.2-r5
+description	Polygon, line clipping and offsetting library (development files)
+url	https://sourceforge.net/projects/polyclipping/
+license	BSL-1.0
+size	6436
+installed-size	15681
+depends	clipper=6.4.2-r5 pkgconfig
+origin	clipper
+repo	community
+file	clipper-dev-6.4.2-r5.apk
+checksum	Q1Wr6OKV+D7OzxhXIj/dhEGNzyjjU=
+dep	clipper=6.4.2-r5	clipper
+dep	pkgconfig	pkgconf

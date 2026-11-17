@@ -1,0 +1,13 @@
+name	skalibs-libs
+version	2.15.0.0-r0
+description	Set of general-purpose C programming libraries for skarnet.org software. (libraries)
+url	https://skarnet.org/software/skalibs/
+license	ISC
+size	96493
+installed-size	227460
+depends	so:libc.musl-armhf.so.1
+origin	skalibs
+repo	main
+file	skalibs-libs-2.15.0.0-r0.apk
+checksum	Q18Xa67qIPB8YhreUDECnzNFhjWdY=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	libtirpc-static
+version	1.3.5-r1
+description	Transport Independent RPC library (SunRPC replacement) (static library)
+url	https://sourceforge.net/projects/libtirpc/
+license	BSD-3-Clause
+size	921216
+installed-size	2242230
+depends	libtirpc-dev
+origin	libtirpc
+repo	main
+file	libtirpc-static-1.3.5-r1.apk
+checksum	Q1Qn/Gdq3+K+F/Huiw6pepTHyhiDU=
+dep	libtirpc-dev	libtirpc-dev

@@ -1,0 +1,20 @@
+name	nickel-language-server
+version	1.16.0-r1
+description	LSP server for Nickel configuration language
+url	https://nickel-lang.org/
+license	MIT
+size	3469144
+installed-size	10018152
+depends	so:libc.musl-armhf.so.1 so:libgc.so.1 so:libgcc_s.so.1 so:libnixcmd.so so:libnixexpr.so so:libnixmain.so so:libnixutil.so so:libstdc++.so.6
+origin	nickel
+repo	community
+file	nickel-language-server-1.16.0-r1.apk
+checksum	Q1w2pCCQ4AosSioY9Pgx8i++Xj+/w=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgc.so.1	gc
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libnixcmd.so	nix
+dep	so:libnixexpr.so	nix
+dep	so:libnixmain.so	nix
+dep	so:libnixutil.so	nix
+dep	so:libstdc++.so.6	libstdc++

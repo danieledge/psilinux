@@ -1,0 +1,13 @@
+name	libhx
+version	5.4-r0
+description	library for queue, tree, I/O and utility functions
+url	https://inai.de/projects/libhx/
+license	GPL-3.0-only
+size	36942
+installed-size	71004
+depends	so:libc.musl-armhf.so.1
+origin	libhx
+repo	community
+file	libhx-5.4-r0.apk
+checksum	Q1Y5txD4su5fyznnnVJwWmYre5paU=
+dep	so:libc.musl-armhf.so.1	musl

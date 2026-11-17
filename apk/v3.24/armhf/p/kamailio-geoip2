@@ -1,0 +1,15 @@
+name	kamailio-geoip2
+version	6.0.6-r0
+description	Kamailio MaxMind GeoIP lookup support
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	24485
+installed-size	46616
+depends	kamailio so:libc.musl-armhf.so.1 so:libmaxminddb.so.0
+origin	kamailio
+repo	main
+file	kamailio-geoip2-6.0.6-r0.apk
+checksum	Q1ieQoFkhsFqEXaWUcmz4sbE945U8=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmaxminddb.so.0	libmaxminddb-libs

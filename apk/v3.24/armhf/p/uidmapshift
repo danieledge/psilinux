@@ -1,0 +1,15 @@
+name	uidmapshift
+version	0.1.0-r0
+description	Shift UIDs/GIDs of directory entries recursively by some offset
+url	https://github.com/jirutka/uidmapshift
+license	MIT
+size	3187
+installed-size	4465
+depends	lua lua-lunix lua-optarg
+origin	uidmapshift
+repo	community
+file	uidmapshift-0.1.0-r0.apk
+checksum	Q1Arbn5ELA72EKhvuimcsjXRNhpzE=
+dep	lua	lua5.5
+dep	lua-lunix	lua-lunix
+dep	lua-optarg	lua-optarg

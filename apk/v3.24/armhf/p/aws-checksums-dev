@@ -1,0 +1,13 @@
+name	aws-checksums-dev
+version	0.2.10-r0
+description	AWS Cross-Platform HW accelerated CRC32c and CRC32 with fallback to efficient SW implementations (development files)
+url	https://github.com/awslabs/aws-checksums
+license	Apache-2.0
+size	6185
+installed-size	15753
+depends	aws-checksums=0.2.10-r0
+origin	aws-checksums
+repo	community
+file	aws-checksums-dev-0.2.10-r0.apk
+checksum	Q1aUvKSro4IC7kXiqC07aWsL6Rk7c=
+dep	aws-checksums=0.2.10-r0	aws-checksums

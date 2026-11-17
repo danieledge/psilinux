@@ -1,0 +1,14 @@
+name	ruby-treetop
+version	1.6.12-r3
+description	A Parsing Expression Grammar (PEG) Parser generator DSL for Ruby
+url	https://github.com/cjheath/treetop
+license	MIT
+size	29881
+installed-size	183002
+depends	ruby ruby-polyglot
+origin	ruby-treetop
+repo	community
+file	ruby-treetop-1.6.12-r3.apk
+checksum	Q197iIYZWBQpCDnEBaG01WY9tyUkA=
+dep	ruby	ruby
+dep	ruby-polyglot	ruby-polyglot

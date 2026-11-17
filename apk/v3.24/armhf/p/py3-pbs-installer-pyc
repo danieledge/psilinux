@@ -1,0 +1,13 @@
+name	py3-pbs-installer-pyc
+version	2026.03.24-r1
+description	Precompiled Python bytecode for py3-pbs-installer
+url	https://github.com/frostming/pbs-installer
+license	MIT
+size	81693
+installed-size	348050
+depends	python3~3.14
+origin	py3-pbs-installer
+repo	community
+file	py3-pbs-installer-pyc-2026.03.24-r1.apk
+checksum	Q1TdHoGZcVbIW8vbkDSO2c0feuJjI=
+dep	python3~3.14	python3

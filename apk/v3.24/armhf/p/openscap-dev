@@ -1,0 +1,14 @@
+name	openscap-dev
+version	1.4.4-r0
+description	NIST Certified SCAP 1.2 toolkit (development files)
+url	https://www.open-scap.org/tools/openscap-base/
+license	LGPL-2.1-or-later
+size	87186
+installed-size	547748
+depends	openscap=1.4.4-r0 pkgconfig
+origin	openscap
+repo	community
+file	openscap-dev-1.4.4-r0.apk
+checksum	Q1nDG449/69MXNRt877MZMMUT17y0=
+dep	openscap=1.4.4-r0	openscap
+dep	pkgconfig	pkgconf

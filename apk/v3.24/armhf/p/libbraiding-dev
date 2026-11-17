@@ -1,0 +1,14 @@
+name	libbraiding-dev
+version	1.3.1-r1
+description	Computation on braid groups (development files)
+url	https://github.com/miguelmarco/libbraiding
+license	GPL-2.0-or-later
+size	15439
+installed-size	71358
+depends	libbraiding=1.3.1-r1 pkgconfig
+origin	libbraiding
+repo	community
+file	libbraiding-dev-1.3.1-r1.apk
+checksum	Q1DediSh1nU33PXBOKvty3+CJFWLI=
+dep	libbraiding=1.3.1-r1	libbraiding
+dep	pkgconfig	pkgconf

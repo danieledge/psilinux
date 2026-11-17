@@ -1,0 +1,18 @@
+name	perl-class-load
+version	0.25-r4
+description	A working (require Class::Name) and more
+url	https://metacpan.org/release/Class-Load/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6788
+installed-size	12846
+depends	perl perl-data-optlist perl-module-runtime perl-module-implementation perl-try-tiny perl-package-stash
+origin	perl-class-load
+repo	main
+file	perl-class-load-0.25-r4.apk
+checksum	Q1qfY1Oqj/5EPbHPVekF6Iw3uF6go=
+dep	perl	perl
+dep	perl-data-optlist	perl-data-optlist
+dep	perl-module-runtime	perl-module-runtime
+dep	perl-module-implementation	perl-module-implementation
+dep	perl-try-tiny	perl-try-tiny
+dep	perl-package-stash	perl-package-stash

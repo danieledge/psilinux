@@ -1,0 +1,17 @@
+name	avahi-tools
+version	0.9_rc4-r0
+description	Command line tools for mDNS browsing and publishing
+url	https://www.avahi.org/
+license	LGPL-2.1-or-later
+size	20948
+installed-size	62372
+depends	so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-armhf.so.1 so:libgdbm.so.6 so:libintl.so.8
+origin	avahi
+repo	main
+file	avahi-tools-0.9_rc4-r0.apk
+checksum	Q1lAMYHkUDRIjyTYy66X4LC+XtEAA=
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdbm.so.6	gdbm
+dep	so:libintl.so.8	libintl

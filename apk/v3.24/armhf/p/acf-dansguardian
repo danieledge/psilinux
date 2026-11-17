@@ -1,0 +1,14 @@
+name	acf-dansguardian
+version	0.8.0-r4
+description	Web-based system administration interface for dansguardian
+url	https://gitlab.alpinelinux.org/acf/acf-dansguardian
+license	GPL-2.0-only
+size	5979
+installed-size	13632
+depends	acf-core dansguardian
+origin	acf-dansguardian
+repo	main
+file	acf-dansguardian-0.8.0-r4.apk
+checksum	Q1yCGqKlEqdl9t707KUj6ZEjMne8Q=
+dep	acf-core	acf-core
+dep	dansguardian	dansguardian

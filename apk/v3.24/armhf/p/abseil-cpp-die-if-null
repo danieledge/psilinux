@@ -1,0 +1,16 @@
+name	abseil-cpp-die-if-null
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-die-if-null
+url	https://abseil.io/
+license	Apache-2.0
+size	3760
+installed-size	5344
+depends	so:libabsl_log_internal_message.so.2508.0.0 so:libabsl_strings.so.2508.0.0 so:libc.musl-armhf.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-die-if-null-20250814.1-r0.apk
+checksum	Q1Hs05bcqRtvOIwENmKCpE7eH8HZI=
+dep	so:libabsl_log_internal_message.so.2508.0.0	abseil-cpp-log-internal-message
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libstdc++.so.6	libstdc++

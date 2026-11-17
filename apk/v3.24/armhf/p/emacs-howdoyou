@@ -1,0 +1,15 @@
+name	emacs-howdoyou
+version	0_git20230927-r1
+description	Search StackOverflow & display results in an Org-mode buffer
+url	https://github.com/thanhvg/emacs-howdoyou
+license	GPL-3.0-or-later
+size	12024
+installed-size	35116
+depends	cmd:emacs emacs-promise emacs-request
+origin	emacs-howdoyou
+repo	community
+file	emacs-howdoyou-0_git20230927-r1.apk
+checksum	Q1lFSwKw1j+JDWyCcSabSkSnXsi9U=
+dep	cmd:emacs	emacs-gtk3
+dep	emacs-promise	emacs-promise
+dep	emacs-request	emacs-request

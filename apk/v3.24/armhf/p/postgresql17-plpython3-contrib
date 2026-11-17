@@ -1,0 +1,15 @@
+name	postgresql17-plpython3-contrib
+version	17.12-r0
+description	PL/Python 3 extension modules distributed with PostgreSQL
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	6993
+installed-size	16173
+depends	postgresql17-plpython3=17.12-r0 so:libc.musl-armhf.so.1 so:libpython3.14.so.1.0
+origin	postgresql17
+repo	main
+file	postgresql17-plpython3-contrib-17.12-r0.apk
+checksum	Q1FfnQTyGAXFakCLTMnRtEm7qPa/E=
+dep	postgresql17-plpython3=17.12-r0	postgresql17-plpython3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpython3.14.so.1.0	python3

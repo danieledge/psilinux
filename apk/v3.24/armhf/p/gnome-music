@@ -1,0 +1,24 @@
+name	gnome-music
+version	49.1-r2
+description	Play and organize your music collection
+url	https://apps.gnome.org/Music
+license	GPL-2.0-or-later
+size	131598
+installed-size	651383
+depends	gnome-online-accounts grilo grilo-plugins gst-plugins-good libdazzle libmediaart libsoup3 py3-cairo py3-gobject3 tinysparql localsearch python3~3.14
+origin	gnome-music
+repo	community
+file	gnome-music-49.1-r2.apk
+checksum	Q1iy957ZBXn+KFC1JOOlLSJvZWs5E=
+dep	gnome-online-accounts	gnome-online-accounts
+dep	grilo	grilo
+dep	grilo-plugins	grilo-plugins
+dep	gst-plugins-good	gst-plugins-good
+dep	libdazzle	libdazzle
+dep	libmediaart	libmediaart
+dep	libsoup3	libsoup3
+dep	py3-cairo	py3-cairo
+dep	py3-gobject3	py3-gobject3
+dep	tinysparql	tinysparql
+dep	localsearch	localsearch
+dep	python3~3.14	python3

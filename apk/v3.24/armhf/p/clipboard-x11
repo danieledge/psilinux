@@ -1,0 +1,16 @@
+name	clipboard-x11
+version	0.10.0-r0
+description	Cut, copy, and paste anything, anywhere, all from the terminal (x11 clipboard integration)
+url	https://github.com/Slackadays/Clipboard
+license	GPL-3.0-only
+size	63292
+installed-size	148864
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	clipboard
+repo	community
+file	clipboard-x11-0.10.0-r0.apk
+checksum	Q10EFMQMlvrsq1CCGGFkAFomj7JYU=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

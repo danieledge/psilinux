@@ -1,0 +1,13 @@
+name	ocaml-domain-name-dev
+version	0.4.0-r5
+description	RFC 1035 Internet domain names (development files)
+url	https://github.com/hannesm/domain-name
+license	ISC
+size	144701
+installed-size	366721
+depends	ocaml-domain-name=0.4.0-r5
+origin	ocaml-domain-name
+repo	community
+file	ocaml-domain-name-dev-0.4.0-r5.apk
+checksum	Q1S7LhHvwTIUbcKm5rjyQA64a8jyY=
+dep	ocaml-domain-name=0.4.0-r5	ocaml-domain-name

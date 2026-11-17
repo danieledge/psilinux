@@ -1,0 +1,13 @@
+name	lyrebird
+version	0.8.1-r7
+description	pluggable transport proxy for Tor, implementing obfs4
+url	https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/lyrebird
+license	BSD-3-Clause
+size	6359411
+installed-size	16625556
+depends	so:libc.musl-armhf.so.1
+origin	lyrebird
+repo	community
+file	lyrebird-0.8.1-r7.apk
+checksum	Q1XvfMhrWCTtJnp0Fjt0KLkrybBqg=
+dep	so:libc.musl-armhf.so.1	musl

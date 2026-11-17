@@ -1,0 +1,14 @@
+name	go-away
+version	0.7.0-r2
+description	Self-hosted abuse detection and rule enforcement against low-effort mass AI scraping and bots
+url	https://git.gammaspectra.live/git/go-away
+license	MIT
+size	8405473
+installed-size	23493576
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	go-away
+repo	community
+file	go-away-0.7.0-r2.apk
+checksum	Q1J9RDwdR4zHKLPOfkzTBRrqZwK9A=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	tree-sitter-rust
+version	0.24.0-r1
+description	Rust grammar for tree-sitter
+url	https://github.com/tree-sitter/tree-sitter-rust
+license	MIT
+size	116258
+installed-size	1116180
+depends	so:libc.musl-armhf.so.1
+origin	tree-sitter-rust
+repo	community
+file	tree-sitter-rust-0.24.0-r1.apk
+checksum	Q1UWnrBXSbcdwRSbiJJ666okr4/uA=
+dep	so:libc.musl-armhf.so.1	musl

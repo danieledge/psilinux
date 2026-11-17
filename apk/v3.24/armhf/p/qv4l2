@@ -1,0 +1,23 @@
+name	qv4l2
+version	1.32.0-r1
+description	QT v4l2 test control and streaming test application
+url	https://linuxtv.org/
+license	LGPL-2.0-or-later
+size	231540
+installed-size	504818
+depends	so:libGL.so.1 so:libQt6Core.so.6 so:libQt6Core5Compat.so.6 so:libQt6Gui.so.6 so:libQt6Widgets.so.6 so:libasound.so.2 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libv4l2.so.0 so:libv4lconvert.so.0
+origin	v4l-utils
+repo	community
+file	qv4l2-1.32.0-r1.apk
+checksum	Q1O41dDNBeEu6mqjV+HW6VF00DQXU=
+dep	so:libGL.so.1	mesa-gl
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Core5Compat.so.6	qt6-qt5compat
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libv4l2.so.0	v4l-utils-libs
+dep	so:libv4lconvert.so.0	v4l-utils-libs

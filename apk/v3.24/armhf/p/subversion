@@ -1,0 +1,25 @@
+name	subversion
+version	1.14.5-r1
+description	Replacement for CVS, another versioning system (svn)
+url	https://subversion.apache.org/
+license	Apache-2.0 AND BSD-2-Clause
+size	263106
+installed-size	779976
+depends	/bin/sh so:libapr-1.so.0 so:libaprutil-1.so.0 so:libc.musl-armhf.so.1 so:libsvn_client-1.so.0 so:libsvn_delta-1.so.0 so:libsvn_diff-1.so.0 so:libsvn_fs-1.so.0 so:libsvn_ra-1.so.0 so:libsvn_ra_svn-1.so.0 so:libsvn_repos-1.so.0 so:libsvn_subr-1.so.0 so:libsvn_wc-1.so.0
+origin	subversion
+repo	main
+file	subversion-1.14.5-r1.apk
+checksum	Q1tgbOnsBHE5Nbi4UDcFlpDRT/Ur8=
+dep	/bin/sh	busybox-binsh
+dep	so:libapr-1.so.0	apr
+dep	so:libaprutil-1.so.0	apr-util
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsvn_client-1.so.0	subversion-libs
+dep	so:libsvn_delta-1.so.0	subversion-libs
+dep	so:libsvn_diff-1.so.0	subversion-libs
+dep	so:libsvn_fs-1.so.0	subversion-libs
+dep	so:libsvn_ra-1.so.0	subversion-libs
+dep	so:libsvn_ra_svn-1.so.0	subversion-libs
+dep	so:libsvn_repos-1.so.0	subversion-libs
+dep	so:libsvn_subr-1.so.0	subversion-libs
+dep	so:libsvn_wc-1.so.0	subversion-libs

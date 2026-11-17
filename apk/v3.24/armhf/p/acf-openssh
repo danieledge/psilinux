@@ -1,0 +1,14 @@
+name	acf-openssh
+version	0.11.2-r2
+description	Web-based system administration interface for openssh
+url	https://gitlab.alpinelinux.org/acf/acf-openssh
+license	GPL-2.0-only
+size	7549
+installed-size	18867
+depends	acf-core openssh
+origin	acf-openssh
+repo	main
+file	acf-openssh-0.11.2-r2.apk
+checksum	Q1KSEcGk7vaT12QAx7vKzMr6fJHeo=
+dep	acf-core	acf-core
+dep	openssh	openssh

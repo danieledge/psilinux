@@ -1,0 +1,15 @@
+name	libretro-beetle-wswan
+version	0_git20241021-r0
+description	standalone fork of Mednafen WonderSwan to libretro
+url	https://github.com/libretro/beetle-wswan-libretro
+license	GPL-2.0-only
+size	122557
+installed-size	644808
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libretro-beetle-wswan
+repo	community
+file	libretro-beetle-wswan-0_git20241021-r0.apk
+checksum	Q15vWhaXJrY4rPYuYe3Jit4bvgId4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

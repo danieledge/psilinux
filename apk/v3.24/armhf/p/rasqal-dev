@@ -1,0 +1,16 @@
+name	rasqal-dev
+version	0.9.33-r3
+description	RDF query library (development files)
+url	https://librdf.org/
+license	LGPL-2.1-or-later
+size	235119
+installed-size	732038
+depends	raptor2-dev rasqal=0.9.33-r3 pc:raptor2>=2.0.7 pkgconfig
+origin	rasqal
+repo	community
+file	rasqal-dev-0.9.33-r3.apk
+checksum	Q1+2wnnq/4+wxaYn6nkANQAS5n61c=
+dep	raptor2-dev	raptor2-dev
+dep	rasqal=0.9.33-r3	rasqal
+dep	pc:raptor2>=2.0.7	raptor2-dev
+dep	pkgconfig	pkgconf

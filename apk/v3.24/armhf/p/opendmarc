@@ -1,0 +1,16 @@
+name	opendmarc
+version	1.4.2-r3
+description	A free open source implementation of the DMARC specification
+url	https://github.com/trusteddomainproject/OpenDMARC
+license	BSD-3-Clause Sendmail
+size	56165
+installed-size	157649
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libmilter.so.1.0.2 so:libopendmarc.so.2
+origin	opendmarc
+repo	community
+file	opendmarc-1.4.2-r3.apk
+checksum	Q19ihqQ/K5lG5gCiCtGjMwK0hLY24=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmilter.so.1.0.2	libmilter
+dep	so:libopendmarc.so.2	opendmarc-libs

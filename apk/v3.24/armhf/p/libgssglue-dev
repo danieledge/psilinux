@@ -1,0 +1,14 @@
+name	libgssglue-dev
+version	0.7-r0
+description	exports a gssapi interface which calls other random gssapi libraries (development files)
+url	https://gitlab.com/gsasl/libgssglue
+license	BSD-3-Clause
+size	26925
+installed-size	104343
+depends	libgssglue=0.7-r0 pkgconfig
+origin	libgssglue
+repo	community
+file	libgssglue-dev-0.7-r0.apk
+checksum	Q1o/UZvB31o4HhZYXrIG7g1SJpbjo=
+dep	libgssglue=0.7-r0	libgssglue
+dep	pkgconfig	pkgconf

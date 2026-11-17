@@ -1,0 +1,15 @@
+name	nagios-plugins-disk_smb
+version	2.5-r0
+description	Nagios plugin check_disk_smb
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	5463
+installed-size	10123
+depends	nagios-plugins samba-client perl
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-disk_smb-2.5-r0.apk
+checksum	Q1VuMTELiBPzGuEq7PrAwRQzkU1wU=
+dep	nagios-plugins	nagios-plugins
+dep	samba-client	samba-client
+dep	perl	perl

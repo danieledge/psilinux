@@ -1,0 +1,12 @@
+name	git-dbg
+version	2.54.1-r0
+description	Distributed version control system (debug symbols)
+url	https://www.git-scm.com/
+license	GPL-2.0-only
+size	25550735
+installed-size	56174880
+depends	!git-credential-libsecret<2.54.1-r0 !git-credential-libsecret>2.54.1-r0 !git-daemon<2.54.1-r0 !git-daemon>2.54.1-r0 !git-email<2.54.1-r0 !git-email>2.54.1-r0 !git-scalar<2.54.1-r0 !git-scalar>2.54.1-r0 !git<2.54.1-r0 !git>2.54.1-r0
+origin	git
+repo	main
+file	git-dbg-2.54.1-r0.apk
+checksum	Q1GXHr9ZLmXPK0XFRlfzyxKnJ2Oz4=

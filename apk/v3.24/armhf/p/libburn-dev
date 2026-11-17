@@ -1,0 +1,14 @@
+name	libburn-dev
+version	1.5.8-r0
+description	Library for reading, mastering and writing optical discs (development files)
+url	https://dev.lovelyhq.com/libburnia/web/wiki
+license	GPL-2.0-or-later
+size	59436
+installed-size	208562
+depends	libburn=1.5.8-r0 pkgconfig
+origin	libburn
+repo	main
+file	libburn-dev-1.5.8-r0.apk
+checksum	Q1Be3c44VOtu+3FRl1d9bMeyPnqcg=
+dep	libburn=1.5.8-r0	libburn
+dep	pkgconfig	pkgconf

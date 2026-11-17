@@ -1,0 +1,26 @@
+name	electrum
+version	4.7.2-r0
+description	Lightweight Bitcoin Wallet
+url	https://electrum.org/
+license	MIT
+size	4999794
+installed-size	10172300
+depends	libsecp256k1 py3-aiohttp py3-aiohttp-socks py3-aiorpcx py3-attrs py3-certifi py3-dnspython py3-electrum-aionostr py3-jsonpatch py3-protobuf py3-pycryptodomex py3-cryptography py3-qrcode python3~3.14
+origin	electrum
+repo	community
+file	electrum-4.7.2-r0.apk
+checksum	Q1aGqoG6Dq2QrHAz6ppCPQWbL1c94=
+dep	libsecp256k1	libsecp256k1
+dep	py3-aiohttp	py3-aiohttp
+dep	py3-aiohttp-socks	py3-aiohttp-socks
+dep	py3-aiorpcx	py3-aiorpcx
+dep	py3-attrs	py3-attrs
+dep	py3-certifi	py3-certifi
+dep	py3-dnspython	py3-dnspython
+dep	py3-electrum-aionostr	py3-electrum-aionostr
+dep	py3-jsonpatch	py3-jsonpatch
+dep	py3-protobuf	py3-protobuf
+dep	py3-pycryptodomex	py3-pycryptodomex
+dep	py3-cryptography	py3-cryptography
+dep	py3-qrcode	py3-qrcode
+dep	python3~3.14	python3

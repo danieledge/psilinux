@@ -1,0 +1,14 @@
+name	py3-lupa
+version	2.1-r2
+description	Python wrapper around Lua and LuaJIT
+url	https://pypi.org/project/lupa/
+license	MIT
+size	723332
+installed-size	1668546
+depends	python3~3.14 so:libc.musl-armhf.so.1
+origin	py3-lupa
+repo	community
+file	py3-lupa-2.1-r2.apk
+checksum	Q1cBgfuqm/6abRRhQDxq1Wg3oxHeo=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

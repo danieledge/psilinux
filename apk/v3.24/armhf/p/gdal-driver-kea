@@ -1,0 +1,19 @@
+name	gdal-driver-kea
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (KEA Image Format (.kea) driver)
+url	https://gdal.org/
+license	MIT
+size	46033
+installed-size	116108
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libhdf5.so.311 so:libhdf5_cpp.so.310 so:libkea.so.1.6 so:libstdc++.so.6
+origin	gdal
+repo	community
+file	gdal-driver-kea-3.13.3-r0.apk
+checksum	Q1963hRwP3i9mdixOQkjZBnqXClqg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libhdf5.so.311	hdf5
+dep	so:libhdf5_cpp.so.310	hdf5-cpp
+dep	so:libkea.so.1.6	kealib
+dep	so:libstdc++.so.6	libstdc++

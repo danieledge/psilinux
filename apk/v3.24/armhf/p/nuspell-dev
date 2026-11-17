@@ -1,0 +1,15 @@
+name	nuspell-dev
+version	5.1.7-r0
+description	Free and open source C++ spell checking library (development files)
+url	https://nuspell.github.io/
+license	LGPL-3.0-or-later
+size	22244
+installed-size	89593
+depends	nuspell-libs=5.1.7-r0 pc:icu-uc pkgconfig
+origin	nuspell
+repo	community
+file	nuspell-dev-5.1.7-r0.apk
+checksum	Q1aI9C7RvW0Lk/GtsQgH4VR40tFYU=
+dep	nuspell-libs=5.1.7-r0	nuspell-libs
+dep	pc:icu-uc	icu-dev
+dep	pkgconfig	pkgconf

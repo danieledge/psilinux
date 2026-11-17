@@ -1,0 +1,13 @@
+name	go-bindata
+version	3.1.3-r46
+description	A small utility which generates Go code from any file
+url	https://github.com/go-bindata/go-bindata
+license	CC0-1.0
+size	986828
+installed-size	2345396
+depends	so:libc.musl-armhf.so.1
+origin	go-bindata
+repo	community
+file	go-bindata-3.1.3-r46.apk
+checksum	Q1hWiat7N4uqj8Zb2xHwH2rW5U8v4=
+dep	so:libc.musl-armhf.so.1	musl

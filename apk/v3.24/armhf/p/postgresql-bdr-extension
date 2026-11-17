@@ -1,0 +1,16 @@
+name	postgresql-bdr-extension
+version	1.0.3-r2
+description	PostgreSQL bidirectional replication (BDR) extension
+url	https://wiki.postgresql.org/wiki/BDR_Administration
+license	PostgreSQL
+size	868753
+installed-size	3356392
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3 so:libz.so.1
+origin	postgresql-bdr-extension
+repo	community
+file	postgresql-bdr-extension-1.0.3-r2.apk
+checksum	Q1YmPWdHx0Wa01qOdCunWtmXC/Kjk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3
+dep	so:libz.so.1	zlib

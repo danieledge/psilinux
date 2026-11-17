@@ -1,0 +1,16 @@
+name	py3-httptools
+version	0.6.4-r3
+description	Fast HTTP parser
+url	https://github.com/MagicStack/httptools
+license	MIT
+size	73310
+installed-size	179469
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libhttp_parser.so.2.9 so:libllhttp.so.9.4
+origin	py3-httptools
+repo	community
+file	py3-httptools-0.6.4-r3.apk
+checksum	Q1r3nbnSjFKts120eJf2k4yicsXps=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libhttp_parser.so.2.9	http-parser
+dep	so:libllhttp.so.9.4	llhttp

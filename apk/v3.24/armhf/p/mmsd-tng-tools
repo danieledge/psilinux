@@ -1,0 +1,15 @@
+name	mmsd-tng-tools
+version	2.6.4-r25
+description	daemon for receiving and managing GSM MMS messages (tools)
+url	https://gitlab.com/kop316/mmsd
+license	GPL-2.0-only
+size	10309
+installed-size	23312
+depends	mobile-broadband-provider-info so:libc.musl-armhf.so.1 so:libglib-2.0.so.0
+origin	mmsd-tng
+repo	community
+file	mmsd-tng-tools-2.6.4-r25.apk
+checksum	Q1VYWP+nJb3d5xAs9ITCvXM/Vl764=
+dep	mobile-broadband-provider-info	mobile-broadband-provider-info
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib

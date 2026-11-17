@@ -1,0 +1,14 @@
+name	rnp-dev
+version	0.18.1-r1
+description	High performance C++ OpenPGP library used by Mozilla Thunderbird (development files)
+url	https://www.rnpgp.org/
+license	BSD-2-Clause
+size	44528
+installed-size	216602
+depends	librnp=0.18.1-r1 pkgconfig
+origin	rnp
+repo	community
+file	rnp-dev-0.18.1-r1.apk
+checksum	Q19Da97KH5MDv9vDOA8b7oTBy9VWY=
+dep	librnp=0.18.1-r1	librnp
+dep	pkgconfig	pkgconf

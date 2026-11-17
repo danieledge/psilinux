@@ -1,0 +1,16 @@
+name	ruby-augeas
+version	0.5.0-r15
+description	Ruby bindings for Augeas
+url	https://augeas.net/
+license	LGPL-2.1-or-later
+size	10329
+installed-size	20381
+depends	ruby so:libaugeas.so.0 so:libc.musl-armhf.so.1 so:libruby.so.3.4
+origin	ruby-augeas
+repo	main
+file	ruby-augeas-0.5.0-r15.apk
+checksum	Q1D+uDHl4Zn/Z3E7lqPxQLwlviBnU=
+dep	ruby	ruby
+dep	so:libaugeas.so.0	augeas-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libruby.so.3.4	ruby-libs

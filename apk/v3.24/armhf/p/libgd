@@ -1,0 +1,22 @@
+name	libgd
+version	2.3.3-r10
+description	Library for the dynamic creation of images by programmers (libraries)
+url	https://libgd.github.io/
+license	GD
+size	110080
+installed-size	329088
+depends	so:libXpm.so.4 so:libavif.so.16 so:libc.musl-armhf.so.1 so:libfontconfig.so.1 so:libfreetype.so.6 so:libjpeg.so.8 so:libpng16.so.16 so:libtiff.so.6 so:libwebp.so.7 so:libz.so.1
+origin	gd
+repo	main
+file	libgd-2.3.3-r10.apk
+checksum	Q1I179BC87EZXFxhGXDj4owHAZGG4=
+dep	so:libXpm.so.4	libxpm
+dep	so:libavif.so.16	libavif
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpng16.so.16	libpng
+dep	so:libtiff.so.6	tiff
+dep	so:libwebp.so.7	libwebp
+dep	so:libz.so.1	zlib

@@ -1,0 +1,12 @@
+name	nfs-utils-dbg
+version	2.6.4-r6
+description	kernel-mode NFS (debug symbols)
+url	https://linux-nfs.org/
+license	GPL-2.0-only
+size	1593022
+installed-size	3426164
+depends	!libnfsidmap-ldap<2.6.4-r6 !libnfsidmap-ldap>2.6.4-r6 !libnfsidmap<2.6.4-r6 !libnfsidmap>2.6.4-r6 !nfs-utils<2.6.4-r6 !nfs-utils>2.6.4-r6 !rpcgen<2.6.4-r6 !rpcgen>2.6.4-r6
+origin	nfs-utils
+repo	main
+file	nfs-utils-dbg-2.6.4-r6.apk
+checksum	Q1iVDarObJr4VweyUu0L7yOlCeD60=

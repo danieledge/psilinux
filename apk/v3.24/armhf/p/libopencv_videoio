@@ -1,0 +1,31 @@
+name	libopencv_videoio
+version	4.12.0-r7
+description	Open source computer vision and machine learning library (libopencv_videoio library)
+url	https://opencv.org/
+license	Apache-2.0
+size	248851
+installed-size	572672
+depends	so:libavcodec.so.62 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstapp-1.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstriff-1.0.so.0 so:libgstvideo-1.0.so.0 so:libopencv_core.so.412 so:libopencv_imgcodecs.so.412 so:libopencv_imgproc.so.412 so:libstdc++.so.6 so:libswscale.so.9
+origin	opencv
+repo	community
+file	libopencv_videoio-4.12.0-r7.apk
+checksum	Q1KRsxHPcrzzqX82bRWmP7Je0kK9Q=
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstapp-1.0.so.0	gst-plugins-base
+dep	so:libgstaudio-1.0.so.0	gst-plugins-base
+dep	so:libgstbase-1.0.so.0	gstreamer
+dep	so:libgstpbutils-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstriff-1.0.so.0	gst-plugins-base
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base
+dep	so:libopencv_core.so.412	libopencv_core
+dep	so:libopencv_imgcodecs.so.412	libopencv_imgcodecs
+dep	so:libopencv_imgproc.so.412	libopencv_imgproc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libswscale.so.9	ffmpeg-libswscale

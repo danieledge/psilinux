@@ -1,0 +1,14 @@
+name	py3-itsdangerous
+version	2.2.0-r1
+description	Python3 helper to pass trusted data to untrusted environments
+url	https://github.com/pallets/itsdangerous
+license	BSD-3-Clause
+size	14877
+installed-size	46892
+depends	python3 python3~3.14
+origin	py3-itsdangerous
+repo	community
+file	py3-itsdangerous-2.2.0-r1.apk
+checksum	Q1vHeUez61hZwRR23AZlYP1LmFly0=
+dep	python3	python3
+dep	python3~3.14	python3

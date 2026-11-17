@@ -1,0 +1,18 @@
+name	libaccounts-glib
+version	1.27-r0
+description	GLib-based client library for the accounts database
+url	https://gitlab.com/accounts-sso/libaccounts-glib
+license	LGPL-2.1-or-later
+size	57188
+installed-size	150874
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libsqlite3.so.0 so:libxml2.so.2
+origin	libaccounts-glib
+repo	community
+file	libaccounts-glib-1.27-r0.apk
+checksum	Q15pKWU7m3VKW3JXYQ/f+IYmB2MyE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libxml2.so.2	libxml2

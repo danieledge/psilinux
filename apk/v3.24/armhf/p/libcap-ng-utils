@@ -1,0 +1,14 @@
+name	libcap-ng-utils
+version	0.8.5-r2
+description	posix capabilities utils
+url	https://people.redhat.com/sgrubb/libcap-ng/index.html
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	13744
+installed-size	41652
+depends	so:libc.musl-armhf.so.1 so:libcap-ng.so.0
+origin	libcap-ng
+repo	main
+file	libcap-ng-utils-0.8.5-r2.apk
+checksum	Q1FGv5xX5ahFJshIk0LZQsmU0w+fI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap-ng.so.0	libcap-ng

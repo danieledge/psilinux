@@ -1,0 +1,18 @@
+name	libgit2-glib
+version	1.2.1-r2
+description	Glib wrapper library around libgit2
+url	https://gitlab.gnome.org/GNOME/libgit2-glib
+license	LGPL-2.1-or-later
+size	101513
+installed-size	302257
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libgit2.so.1.9 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	libgit2-glib
+repo	community
+file	libgit2-glib-1.2.1-r2.apk
+checksum	Q1XbeSFcY0VyK9aStAUiXhinh+GbU=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libgit2.so.1.9	libgit2
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

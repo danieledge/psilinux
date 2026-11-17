@@ -1,0 +1,18 @@
+name	gspell-dev
+version	1.14.4-r0
+description	Flexible API to add spell checking to a GTK+ application (development files)
+url	https://gitlab.gnome.org/GNOME/gspell
+license	LGPL-2.1-or-later
+size	20090
+installed-size	136643
+depends	gspell=1.14.4-r0 pc:enchant-2>=2.2 pc:gio-2.0>=2.44 pc:gtk+-3.0>=3.20 pc:icu-uc pkgconfig
+origin	gspell
+repo	community
+file	gspell-dev-1.14.4-r0.apk
+checksum	Q1RZxVxEjuhjua9SdSlTvNCDS/x6U=
+dep	gspell=1.14.4-r0	gspell
+dep	pc:enchant-2>=2.2	enchant2-dev
+dep	pc:gio-2.0>=2.44	glib-dev
+dep	pc:gtk+-3.0>=3.20	gtk+3.0-dev
+dep	pc:icu-uc	icu-dev
+dep	pkgconfig	pkgconf

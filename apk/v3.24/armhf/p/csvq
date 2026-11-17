@@ -1,0 +1,13 @@
+name	csvq
+version	1.18.1-r29
+description	SQL-like query language for csv format
+url	https://github.com/mithrandie/csvq
+license	MIT
+size	4737959
+installed-size	12649252
+depends	so:libc.musl-armhf.so.1
+origin	csvq
+repo	community
+file	csvq-1.18.1-r29.apk
+checksum	Q1mOaApj5xhWdtmmTN0iNFkxq2Df0=
+dep	so:libc.musl-armhf.so.1	musl

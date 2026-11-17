@@ -1,0 +1,48 @@
+name	geary
+version	46.0-r5
+description	Geary is an email application built around conversations
+url	https://gitlab.gnome.org/GNOME/geary
+license	LGPL-2.1-or-later AND CC-BY-3.0 AND BSD-2-Clause
+size	2872007
+installed-size	7679293
+depends	dbus:org.freedesktop.Secrets dbus:org.freedesktop.Telepathy.AccountManager iso-codes so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libenchant-2.so.2 so:libfolks.so.26 so:libgck-1.so.0 so:libgcr-base-3.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgee-0.8.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmime-3.0.so.0 so:libgoa-1.0.so.0 so:libgobject-2.0.so.0 so:libgsound.so.0 so:libgspell-1.so.3 so:libgtk-3.so.0 so:libhandy-1.so.0 so:libicuuc.so.78 so:libintl.so.8 so:libjavascriptcoregtk-4.1.so.0 so:libjson-glib-1.0.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpeas-1.0.so.1 so:libsecret-1.so.0 so:libsoup-3.0.so.0 so:libsqlite3.so.0 so:libstemmer.so.2 so:libwebkit2gtk-4.1.so.0 so:libxml2.so.2 so:libytnef.so.0
+origin	geary
+repo	community
+file	geary-46.0-r5.apk
+checksum	Q1GBhjwwzwrgfSIHiMK4zm4bFD0gE=
+dep	dbus:org.freedesktop.Secrets	gnome-keyring
+dep	dbus:org.freedesktop.Telepathy.AccountManager	telepathy-mission-control
+dep	iso-codes	iso-codes
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libenchant-2.so.2	enchant2-libs
+dep	so:libfolks.so.26	folks
+dep	so:libgck-1.so.0	gcr-base
+dep	so:libgcr-base-3.so.1	gcr-base
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgee-0.8.so.2	libgee
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmime-3.0.so.0	gmime
+dep	so:libgoa-1.0.so.0	gnome-online-accounts
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgsound.so.0	gsound
+dep	so:libgspell-1.so.3	gspell
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libhandy-1.so.0	libhandy1
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libintl.so.8	libintl
+dep	so:libjavascriptcoregtk-4.1.so.0	webkit2gtk-4.1
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpeas-1.0.so.1	libpeas
+dep	so:libsecret-1.so.0	libsecret
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstemmer.so.2	libstemmer
+dep	so:libwebkit2gtk-4.1.so.0	webkit2gtk-4.1
+dep	so:libxml2.so.2	libxml2
+dep	so:libytnef.so.0	ytnef-libs

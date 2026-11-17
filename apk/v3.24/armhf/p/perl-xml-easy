@@ -1,0 +1,16 @@
+name	perl-xml-easy
+version	0.014-r0
+description	XML processing with a clean interface
+url	https://metacpan.org/release/XML-Easy/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	39218
+installed-size	126711
+depends	perl perl-internals perl-params-classify so:libc.musl-armhf.so.1
+origin	perl-xml-easy
+repo	community
+file	perl-xml-easy-0.014-r0.apk
+checksum	Q1S5hngU9ENlvDDMNvOlwhsrqE/sM=
+dep	perl	perl
+dep	perl-internals	perl-internals
+dep	perl-params-classify	perl-params-classify
+dep	so:libc.musl-armhf.so.1	musl

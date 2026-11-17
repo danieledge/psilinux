@@ -1,0 +1,19 @@
+name	libgit2
+version	1.9.7-r0
+description	linkable library for Git
+url	https://libgit2.org/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	475002
+installed-size	965548
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libllhttp.so.9.4 so:libpcre2-8.so.0 so:libssh2.so.1 so:libssl.so.3 so:libz.so.1
+origin	libgit2
+repo	community
+file	libgit2-1.9.7-r0.apk
+checksum	Q1Xxo01Edea36jyeu2MUcDuLE3JYk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libllhttp.so.9.4	llhttp
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libssh2.so.1	libssh2
+dep	so:libssl.so.3	libssl3
+dep	so:libz.so.1	zlib

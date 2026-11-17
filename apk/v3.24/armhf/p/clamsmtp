@@ -1,0 +1,14 @@
+name	clamsmtp
+version	1.10-r23
+description	An SMTP Virus Filter
+url	http://thewalter.net/stef/software/clamsmtp/
+license	BSD-3-Clause
+size	21386
+installed-size	39694
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	clamsmtp
+repo	community
+file	clamsmtp-1.10-r23.apk
+checksum	Q1H0EL9CxTgua0TlmYWw8g/dYTIUs=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

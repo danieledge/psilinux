@@ -1,0 +1,16 @@
+name	py3-matplotlib-qt5
+version	3.10.6-r2
+description	Qt5 backend for py3-matplotlib
+url	https://matplotlib.org
+license	PSF-2.0
+size	2429
+installed-size	1431
+depends	py3-matplotlib=3.10.6-r2 py3-cairocffi py3-qt5 python3~3.14
+origin	py3-matplotlib
+repo	community
+file	py3-matplotlib-qt5-3.10.6-r2.apk
+checksum	Q1eE/7cjvf59/Y1KhkBC615T4VUzc=
+dep	py3-matplotlib=3.10.6-r2	py3-matplotlib
+dep	py3-cairocffi	py3-cairocffi
+dep	py3-qt5	py3-qt5
+dep	python3~3.14	python3

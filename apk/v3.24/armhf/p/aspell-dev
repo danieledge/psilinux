@@ -1,0 +1,14 @@
+name	aspell-dev
+version	0.60.8.2-r0
+description	A spell checker designed to eventually replace Ispell (development files)
+url	http://aspell.net/
+license	LGPL-2.1-or-later
+size	9243
+installed-size	37372
+depends	aspell-utils aspell-libs=0.60.8.2-r0
+origin	aspell
+repo	main
+file	aspell-dev-0.60.8.2-r0.apk
+checksum	Q1YVeagp09Oo07KL1oeqBnWXVGPKE=
+dep	aspell-utils	aspell-utils
+dep	aspell-libs=0.60.8.2-r0	aspell-libs

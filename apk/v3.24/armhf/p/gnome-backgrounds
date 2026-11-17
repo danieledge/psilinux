@@ -1,0 +1,13 @@
+name	gnome-backgrounds
+version	50.0-r0
+description	Default wallpaper set for GNOME
+url	https://gitlab.gnome.org/GNOME/gnome-backgrounds
+license	GPL-2.0-or-later AND CC-BY-2.0 AND CC-BY-SA-2.0 AND CC-BY-SA-3.0
+size	39144038
+installed-size	39623546
+depends	glycin-jxl
+origin	gnome-backgrounds
+repo	community
+file	gnome-backgrounds-50.0-r0.apk
+checksum	Q1MLsVPvP10PMueTzFqJvbVbK8H3Y=
+dep	glycin-jxl	glycin-jxl

@@ -1,0 +1,14 @@
+name	riff
+version	3.6.1-r1
+description	Diff wrapper that highlights changed portions of lines
+url	https://github.com/walles/riff
+license	MIT
+size	463341
+installed-size	878476
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	riff
+repo	community
+file	riff-3.6.1-r1.apk
+checksum	Q1yoTk8K8xTNQySNWMp0BpCaTMsmY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

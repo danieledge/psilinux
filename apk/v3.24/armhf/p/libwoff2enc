@@ -1,0 +1,17 @@
+name	libwoff2enc
+version	1.0.2-r4
+description	Web Open Font Format 2 reference implementation (decoder library)
+url	https://github.com/google/woff2
+license	GPL-3.0-or-later
+size	20623
+installed-size	38272
+depends	so:libbrotlidec.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libwoff2common.so.1.0.2
+origin	woff2
+repo	community
+file	libwoff2enc-1.0.2-r4.apk
+checksum	Q1yvh6Cma5wu9grWFQfVfMLNRDL6Q=
+dep	so:libbrotlidec.so.1	brotli-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwoff2common.so.1.0.2	libwoff2common

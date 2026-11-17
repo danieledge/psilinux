@@ -1,0 +1,17 @@
+name	py3-marisa
+version	0.2.6-r8
+description	MARISA: Matching Algorithm with Recursively Implemented StorAge (python module)
+url	https://github.com/s-yata/marisa-trie
+license	BSD-2-Clause OR LGPL-2.1-or-later
+size	31191
+installed-size	84954
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libmarisa.so.0 so:libstdc++.so.6
+origin	libmarisa
+repo	community
+file	py3-marisa-0.2.6-r8.apk
+checksum	Q1pOb0NE2m9wvrIymWrVWlZJ1vzjM=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmarisa.so.0	libmarisa
+dep	so:libstdc++.so.6	libstdc++

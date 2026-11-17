@@ -1,0 +1,15 @@
+name	py3-prompt_toolkit
+version	3.0.52-r1
+description	Library for building powerful interactive command lines in Python
+url	https://github.com/prompt-toolkit/python-prompt-toolkit
+license	BSD-3-Clause
+size	340737
+installed-size	1394684
+depends	python3 py3-wcwidth python3~3.14
+origin	py3-prompt_toolkit
+repo	community
+file	py3-prompt_toolkit-3.0.52-r1.apk
+checksum	Q1PxxFnKWAKB6812MigKBP4ZyvyDw=
+dep	python3	python3
+dep	py3-wcwidth	py3-wcwidth
+dep	python3~3.14	python3

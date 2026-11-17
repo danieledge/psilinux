@@ -1,0 +1,16 @@
+name	openobex-dev
+version	1.7.2-r7
+description	Implementation of the OBject EXchange (OBEX) protocol (development files)
+url	http://dev.zuckschwerdt.org/openobex/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	10441
+installed-size	27379
+depends	libusb-dev openobex=1.7.2-r7 pc:libusb-1.0 pkgconfig
+origin	openobex
+repo	main
+file	openobex-dev-1.7.2-r7.apk
+checksum	Q1WLwmvrlzQNI3gLaKKkY6JrxOPUg=
+dep	libusb-dev	libusb-dev
+dep	openobex=1.7.2-r7	openobex
+dep	pc:libusb-1.0	libusb-dev
+dep	pkgconfig	pkgconf

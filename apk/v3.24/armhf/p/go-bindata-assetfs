@@ -1,0 +1,14 @@
+name	go-bindata-assetfs
+version	1.0.1-r45
+description	small utility which generates Go code to serve any file with net/http
+url	https://github.com/elazarl/go-bindata-assetfs
+license	BSD-2-Clause
+size	859705
+installed-size	2022260
+depends	go-bindata so:libc.musl-armhf.so.1
+origin	go-bindata-assetfs
+repo	community
+file	go-bindata-assetfs-1.0.1-r45.apk
+checksum	Q1heQOvQsph3GGSZc3/NhhMXPNtW8=
+dep	go-bindata	go-bindata
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,18 @@
+name	libmediainfo-dev
+version	26.01-r0
+description	Shared library for mediainfo (development files)
+url	https://github.com/MediaArea/MediaInfoLib
+license	BSD-2-Clause
+size	24796
+installed-size	157711
+depends	libzen-dev zlib-dev libmediainfo=26.01-r0 pc:libcurl pc:libzen pkgconfig
+origin	libmediainfo
+repo	community
+file	libmediainfo-dev-26.01-r0.apk
+checksum	Q1+TJiQtlFO5ObglOw084W+0xm+Nk=
+dep	libzen-dev	libzen-dev
+dep	zlib-dev	zlib-dev
+dep	libmediainfo=26.01-r0	libmediainfo
+dep	pc:libcurl	curl-dev
+dep	pc:libzen	libzen-dev
+dep	pkgconfig	pkgconf

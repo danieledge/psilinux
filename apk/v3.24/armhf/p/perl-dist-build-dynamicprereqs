@@ -1,0 +1,16 @@
+name	perl-dist-build-dynamicprereqs
+version	0.022-r1
+description	Support dynamic prerequisites in Dist::Build
+url	https://metacpan.org/release/Dist-Build-DynamicPrereqs/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	2771
+installed-size	2354
+depends	perl perl-cpan-requirements-dynamic perl-dist-build perl-extutils-builder
+origin	perl-dist-build-dynamicprereqs
+repo	community
+file	perl-dist-build-dynamicprereqs-0.022-r1.apk
+checksum	Q1JqmH2LNJ+XxTPQ0B73TaeNbgH50=
+dep	perl	perl
+dep	perl-cpan-requirements-dynamic	perl-cpan-requirements-dynamic
+dep	perl-dist-build	perl-dist-build
+dep	perl-extutils-builder	perl-extutils-builder

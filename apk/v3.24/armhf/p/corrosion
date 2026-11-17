@@ -1,0 +1,15 @@
+name	corrosion
+version	0.6.1-r0
+description	Marrying Rust and CMake - Easy Rust and C/C++ Integration!
+url	https://github.com/corrosion-rs/corrosion
+license	MIT
+size	40859
+installed-size	170869
+depends	cargo cmake rust
+origin	corrosion
+repo	community
+file	corrosion-0.6.1-r0.apk
+checksum	Q1TrLfchjMLeB1u+9bBp4YTfNs6wU=
+dep	cargo	cargo
+dep	cmake	cmake
+dep	rust	rust

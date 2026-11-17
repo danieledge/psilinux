@@ -1,0 +1,23 @@
+name	ocaml-ppx_derivers
+version	1.2.1-r5
+description	Shared [@@deriving] plugins registry
+url	https://github.com/ocaml-ppx/ppx_derivers
+license	BSD-3-Clause
+size	9516
+installed-size	18925
+depends	ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2 ocaml4-impl:Stdlib__Hashtbl:28f814923ef9cfbba7b97f911bf899b6 ocaml4-impl:Stdlib__Printf:b4fd61498adcd7e6fe74938e03810e0a ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15 ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91 ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822 ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9 ocaml4-intf:Stdlib__Hashtbl:34c0fdd524bf2a75e4d5af64a6d34401 ocaml4-intf:Stdlib__Printf:bc8af6214197dc8f40eaa738a4cd6a28 ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962 ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57
+origin	ocaml-ppx_derivers
+repo	community
+file	ocaml-ppx_derivers-1.2.1-r5.apk
+checksum	Q1PlFt6PhIKgfaO0ju70B5joV4Wwo=
+dep	ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2	ocaml
+dep	ocaml4-impl:Stdlib__Hashtbl:28f814923ef9cfbba7b97f911bf899b6	ocaml
+dep	ocaml4-impl:Stdlib__Printf:b4fd61498adcd7e6fe74938e03810e0a	ocaml
+dep	ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15	ocaml
+dep	ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91	ocaml
+dep	ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822	ocaml
+dep	ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9	ocaml
+dep	ocaml4-intf:Stdlib__Hashtbl:34c0fdd524bf2a75e4d5af64a6d34401	ocaml
+dep	ocaml4-intf:Stdlib__Printf:bc8af6214197dc8f40eaa738a4cd6a28	ocaml
+dep	ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962	ocaml
+dep	ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57	ocaml

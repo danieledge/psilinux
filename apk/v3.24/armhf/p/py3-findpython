@@ -1,0 +1,15 @@
+name	py3-findpython
+version	0.8.0-r0
+description	Utility to find python versions on your system
+url	https://github.com/frostming/findpython/
+license	MIT
+size	18475
+installed-size	57687
+depends	py3-packaging py3-platformdirs python3~3.14
+origin	py3-findpython
+repo	community
+file	py3-findpython-0.8.0-r0.apk
+checksum	Q1Sf95tCniwkhDi7GN/d+08DB7k0o=
+dep	py3-packaging	py3-packaging
+dep	py3-platformdirs	py3-platformdirs
+dep	python3~3.14	python3

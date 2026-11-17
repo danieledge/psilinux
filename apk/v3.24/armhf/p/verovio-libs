@@ -1,0 +1,16 @@
+name	verovio-libs
+version	4.1.0-r2
+description	Music notation engraving for MEI with MusicXML and Humdrum support (libraries)
+url	https://www.verovio.org/index.xhtml
+license	LGPL-3.0-only
+size	3323045
+installed-size	8702432
+depends	verovio-data so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	verovio
+repo	community
+file	verovio-libs-4.1.0-r2.apk
+checksum	Q1GZqGKE8BSk0CQuHFsfWhPCs6x6Q=
+dep	verovio-data	verovio-data
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,14 @@
+name	perl-netaddr-ip
+version	4.079-r14
+description	Perl extension for managing IPv4 and IPv6 addresses and subnets
+url	https://metacpan.org/dist/NetAddr-IP
+license	Artistic-1.0-Perl OR GPL-1.0-or-later
+size	67174
+installed-size	213992
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-netaddr-ip
+repo	main
+file	perl-netaddr-ip-4.079-r14.apk
+checksum	Q1fsao3ss7Uph3Sb+jn/vcRAyXpyo=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

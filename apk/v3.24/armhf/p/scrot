@@ -1,0 +1,18 @@
+name	scrot
+version	2.0.0-r0
+description	Simple command-line screenshot utility for X
+url	https://github.com/resurrecting-open-source-projects/scrot
+license	MIT
+size	21003
+installed-size	40116
+depends	so:libImlib2.so.1 so:libX11.so.6 so:libXcomposite.so.1 so:libXfixes.so.3 so:libXrandr.so.2 so:libc.musl-armhf.so.1
+origin	scrot
+repo	community
+file	scrot-2.0.0-r0.apk
+checksum	Q1SSgwnrZJTSfT82sadEmTGLEdrs0=
+dep	so:libImlib2.so.1	imlib2
+dep	so:libX11.so.6	libx11
+dep	so:libXcomposite.so.1	libxcomposite
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libc.musl-armhf.so.1	musl

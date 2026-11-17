@@ -1,0 +1,17 @@
+name	eudev
+version	3.2.14-r6
+description	init system agnostic fork of systemd-udev
+url	https://github.com/eudev-project/eudev
+license	GPL-2.0-or-later
+size	269275
+installed-size	615497
+depends	udev-init-scripts /bin/sh so:libblkid.so.1 so:libc.musl-armhf.so.1 so:libkmod.so.2
+origin	eudev
+repo	main
+file	eudev-3.2.14-r6.apk
+checksum	Q1cLV8m/J435XEccLzC7tw9pkO398=
+dep	udev-init-scripts	udev-init-scripts
+dep	/bin/sh	busybox-binsh
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libkmod.so.2	kmod-libs

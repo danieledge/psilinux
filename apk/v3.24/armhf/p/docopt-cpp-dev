@@ -1,0 +1,14 @@
+name	docopt-cpp-dev
+version	0.6.3-r3
+description	Command line arguments parser for C++11 and later (development files)
+url	https://github.com/docopt/docopt.cpp/
+license	MIT
+size	13119
+installed-size	40664
+depends	docopt-cpp=0.6.3-r3 pkgconfig
+origin	docopt-cpp
+repo	community
+file	docopt-cpp-dev-0.6.3-r3.apk
+checksum	Q1UrtgxmgDZ4Suu3mcvlLAxSegapg=
+dep	docopt-cpp=0.6.3-r3	docopt-cpp
+dep	pkgconfig	pkgconf

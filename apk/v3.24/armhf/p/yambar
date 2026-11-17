@@ -1,0 +1,29 @@
+name	yambar
+version	1.11.0-r1
+description	Modular status panel for X11 and Wayland, inspired by Polybar
+url	https://codeberg.org/dnkl/yambar
+license	MIT
+size	118076
+installed-size	255901
+depends	so:libasound.so.2 so:libc.musl-armhf.so.1 so:libfcft.so.4 so:libjson-c.so.5 so:libmpdclient.so.2 so:libpipewire-0.3.so.0 so:libpixman-1.so.0 so:libudev.so.1 so:libwayland-client.so.0 so:libwayland-cursor.so.0 so:libxcb-cursor.so.0 so:libxcb-randr.so.0 so:libxcb-render.so.0 so:libxcb-util.so.1 so:libxcb-xkb.so.1 so:libxcb.so.1 so:libyaml-0.so.2
+origin	yambar
+repo	community
+file	yambar-1.11.0-r1.apk
+checksum	Q1+Wscqw01sqOB4VImtaWSZuJ7EXg=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfcft.so.4	fcft
+dep	so:libjson-c.so.5	json-c
+dep	so:libmpdclient.so.2	libmpdclient
+dep	so:libpipewire-0.3.so.0	pipewire-libs
+dep	so:libpixman-1.so.0	pixman
+dep	so:libudev.so.1	eudev-libs
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor
+dep	so:libxcb-cursor.so.0	xcb-util-cursor
+dep	so:libxcb-randr.so.0	libxcb
+dep	so:libxcb-render.so.0	libxcb
+dep	so:libxcb-util.so.1	xcb-util
+dep	so:libxcb-xkb.so.1	libxcb
+dep	so:libxcb.so.1	libxcb
+dep	so:libyaml-0.so.2	yaml

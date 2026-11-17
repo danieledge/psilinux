@@ -1,0 +1,13 @@
+name	virt-lightning-pyc
+version	2.4.0-r1
+description	Precompiled Python bytecode for virt-lightning
+url	https://github.com/virt-lightning/virt-lightning
+license	Apache-2.0
+size	51744
+installed-size	120100
+depends	python3~3.14
+origin	virt-lightning
+repo	community
+file	virt-lightning-pyc-2.4.0-r1.apk
+checksum	Q1ENa9zPnybSgI6TMBZbqN93zZ7EE=
+dep	python3~3.14	python3

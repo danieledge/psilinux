@@ -1,0 +1,14 @@
+name	abseil-cpp-random-internal-randen
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-random-internal-randen
+url	https://abseil.io/
+license	Apache-2.0
+size	3316
+installed-size	5344
+depends	so:libabsl_random_internal_randen_slow.so.2508.0.0 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-random-internal-randen-20250814.1-r0.apk
+checksum	Q1s+5wQAxdpHMPzZvSRJSB1oIxypA=
+dep	so:libabsl_random_internal_randen_slow.so.2508.0.0	abseil-cpp-random-internal-randen-slow
+dep	so:libstdc++.so.6	libstdc++

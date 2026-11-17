@@ -1,0 +1,12 @@
+name	xwayland-dbg
+version	24.1.15-r0
+description	Compact xserver to run under wayland for compatibility (debug symbols)
+url	https://www.x.org/wiki
+license	MIT
+size	4866126
+installed-size	11203020
+depends	!xwayland<24.1.15-r0 !xwayland>24.1.15-r0
+origin	xwayland
+repo	community
+file	xwayland-dbg-24.1.15-r0.apk
+checksum	Q1W+vLqrjwhf/Da5GWv4O86IjNe8w=

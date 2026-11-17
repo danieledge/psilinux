@@ -1,0 +1,14 @@
+name	texlive-mathscience
+version	2026.0-r0
+description	TeX Live mathematics, natural sciences, computer science tools
+url	https://tug.org/texlive/
+license	GPL-2.0-or-later AND GPL-3.0-or-later
+size	1692
+installed-size	1
+depends	texlive texmf-dist-mathscience
+origin	texlive
+repo	community
+file	texlive-mathscience-2026.0-r0.apk
+checksum	Q1Qa3RDpaaBvA4SbeJJzhIMD3Ivqg=
+dep	texlive	texlive
+dep	texmf-dist-mathscience	texmf-dist-mathscience

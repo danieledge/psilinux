@@ -1,0 +1,13 @@
+name	giflib-static
+version	5.2.2-r2
+description	A library for reading and writing GIF images (static library)
+url	https://sourceforge.net/projects/giflib/
+license	MIT
+size	15232
+installed-size	34132
+depends	giflib-dev
+origin	giflib
+repo	main
+file	giflib-static-5.2.2-r2.apk
+checksum	Q1in/vTakr81kk1sP+FOc1LA7yuRU=
+dep	giflib-dev	giflib-dev

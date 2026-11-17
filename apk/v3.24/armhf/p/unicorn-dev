@@ -1,0 +1,15 @@
+name	unicorn-dev
+version	2.1.4-r1
+description	Unicorn CPU emulator engine (development files)
+url	https://www.unicorn-engine.org/
+license	GPL-2.0-or-later
+size	8416191
+installed-size	26552039
+depends	python3~3.14 unicorn=2.1.4-r1 pkgconfig
+origin	unicorn
+repo	community
+file	unicorn-dev-2.1.4-r1.apk
+checksum	Q1GEtQy2Inqgjm90TCNrsUrvrBEd8=
+dep	python3~3.14	python3
+dep	unicorn=2.1.4-r1	unicorn
+dep	pkgconfig	pkgconf

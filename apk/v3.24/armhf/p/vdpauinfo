@@ -1,0 +1,17 @@
+name	vdpauinfo
+version	1.5-r0
+description	Command line utility for querying the capabilities of a VDPAU device
+url	https://gitlab.freedesktop.org/vdpau/vdpauinfo
+license	MIT
+size	9973
+installed-size	27052
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libvdpau.so.1
+origin	vdpauinfo
+repo	community
+file	vdpauinfo-1.5-r0.apk
+checksum	Q1qKqeEj25TxYsfGPgUUdCnSSdp9Q=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libvdpau.so.1	libvdpau

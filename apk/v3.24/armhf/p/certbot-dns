@@ -1,0 +1,25 @@
+name	certbot-dns
+version	5.6.0-r0
+description	Official DNS provider integrations for certbot
+url	https://github.com/certbot/certbot
+license	Apache-2.0
+size	1360
+installed-size	0
+depends	certbot-dns-cloudflare certbot-dns-digitalocean certbot-dns-dnsimple certbot-dns-dnsmadeeasy certbot-dns-gehirn certbot-dns-google certbot-dns-linode certbot-dns-luadns certbot-dns-nsone certbot-dns-ovh certbot-dns-rfc2136 certbot-dns-route53 certbot-dns-sakuracloud
+origin	certbot-dns
+repo	community
+file	certbot-dns-5.6.0-r0.apk
+checksum	Q10f/juuzSuzKQ7fmrNWreWrQaoEM=
+dep	certbot-dns-cloudflare	certbot-dns-cloudflare
+dep	certbot-dns-digitalocean	certbot-dns-digitalocean
+dep	certbot-dns-dnsimple	certbot-dns-dnsimple
+dep	certbot-dns-dnsmadeeasy	certbot-dns-dnsmadeeasy
+dep	certbot-dns-gehirn	certbot-dns-gehirn
+dep	certbot-dns-google	certbot-dns-google
+dep	certbot-dns-linode	certbot-dns-linode
+dep	certbot-dns-luadns	certbot-dns-luadns
+dep	certbot-dns-nsone	certbot-dns-nsone
+dep	certbot-dns-ovh	certbot-dns-ovh
+dep	certbot-dns-rfc2136	certbot-dns-rfc2136
+dep	certbot-dns-route53	certbot-dns-route53
+dep	certbot-dns-sakuracloud	certbot-dns-sakuracloud

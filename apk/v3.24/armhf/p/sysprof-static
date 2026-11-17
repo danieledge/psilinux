@@ -1,0 +1,13 @@
+name	sysprof-static
+version	50.0-r0
+description	System-wide profiler for Linux (static library)
+url	http://www.sysprof.com/
+license	GPL-2.0-or-later
+size	42905
+installed-size	116894
+depends	sysprof-dev
+origin	sysprof
+repo	community
+file	sysprof-static-50.0-r0.apk
+checksum	Q1CSCxD9+klxAq3i+xvZTokfbjigY=
+dep	sysprof-dev	sysprof-dev

@@ -1,0 +1,14 @@
+name	postgresql-mysql_fdw
+version	2.9.3-r0
+description	PostgreSQL foreign data wrapper for MySQL/MariaDB
+url	https://github.com/EnterpriseDB/mysql_fdw
+license	PostgreSQL
+size	137082
+installed-size	252888
+depends	postgresql18 so:libc.musl-armhf.so.1
+origin	postgresql-mysql_fdw
+repo	community
+file	postgresql-mysql_fdw-2.9.3-r0.apk
+checksum	Q18BEpoqwP/g91w0qgfYAxRC/cctY=
+dep	postgresql18	postgresql18
+dep	so:libc.musl-armhf.so.1	musl

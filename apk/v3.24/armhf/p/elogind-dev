@@ -1,0 +1,14 @@
+name	elogind-dev
+version	255.24-r0
+description	Standalone fork of systemd's elogind (development files)
+url	https://github.com/elogind/elogind
+license	GPL-2.0-or-later LGPL-2.1-or-later
+size	38996
+installed-size	180903
+depends	libelogind=255.24-r0 pkgconfig
+origin	elogind
+repo	community
+file	elogind-dev-255.24-r0.apk
+checksum	Q1RiZa7nb29+fAM5NlaoceCOyxA5A=
+dep	libelogind=255.24-r0	libelogind
+dep	pkgconfig	pkgconf

@@ -1,0 +1,16 @@
+name	libnjb-examples
+version	2.2.7-r7
+description	Example programs for libnjb
+url	https://libnjb.sourceforge.net/
+license	BSD-3-Clause
+size	38823
+installed-size	190420
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6 so:libnjb.so.5 so:libz.so.1
+origin	libnjb
+repo	community
+file	libnjb-examples-2.2.7-r7.apk
+checksum	Q19P718ECIpjbMn4I8e5+1CnQ/pI0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libnjb.so.5	libnjb
+dep	so:libz.so.1	zlib

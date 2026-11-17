@@ -1,0 +1,13 @@
+name	hut
+version	0.8.0-r4
+description	command-line tool for sr.ht
+url	https://sr.ht/~xenrox/hut
+license	AGPL-3.0-only
+size	3425048
+installed-size	8632908
+depends	so:libc.musl-armhf.so.1
+origin	hut
+repo	community
+file	hut-0.8.0-r4.apk
+checksum	Q1s8dCeLfco9juFUU9heDNLisrOvg=
+dep	so:libc.musl-armhf.so.1	musl

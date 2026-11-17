@@ -1,0 +1,16 @@
+name	cjose-dev
+version	0.6.2.4-r1
+description	A C library implementing the Javascript Object Signing and Encryption (development files)
+url	https://github.com/OpenIDC/cjose
+license	MIT
+size	11665
+installed-size	49866
+depends	cjose=0.6.2.4-r1 pc:jansson>=2.3 pc:libcrypto>=1.0.1 pkgconfig
+origin	cjose
+repo	community
+file	cjose-dev-0.6.2.4-r1.apk
+checksum	Q1vC3yKymS0rIEeLEVkhsYuXMf6y0=
+dep	cjose=0.6.2.4-r1	cjose
+dep	pc:jansson>=2.3	jansson-dev
+dep	pc:libcrypto>=1.0.1	openssl-dev
+dep	pkgconfig	pkgconf

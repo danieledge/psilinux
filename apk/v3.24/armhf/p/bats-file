@@ -1,0 +1,15 @@
+name	bats-file
+version	0.4.0-r0
+description	Common filesystem assertions for Bats
+url	https://github.com/bats-core/bats-file
+license	CC0-1.0
+size	6362
+installed-size	34578
+depends	bash bats-core bats-support
+origin	bats-file
+repo	main
+file	bats-file-0.4.0-r0.apk
+checksum	Q1tEhE80rF74EWGYdpWuT6xUxpSLU=
+dep	bash	bash
+dep	bats-core	bats-core
+dep	bats-support	bats-support

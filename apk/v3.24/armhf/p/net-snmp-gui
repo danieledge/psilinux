@@ -1,0 +1,14 @@
+name	net-snmp-gui
+version	5.9.5.2-r0
+description	An interactive graphical MIB browser for SNMP
+url	http://www.net-snmp.org/
+license	Net-SNMP
+size	9631
+installed-size	30903
+depends	net-snmp-perl perl-tk
+origin	net-snmp
+repo	main
+file	net-snmp-gui-5.9.5.2-r0.apk
+checksum	Q1TLmj0NEHJ3XTYW7MpvzCtlT1aUY=
+dep	net-snmp-perl	net-snmp-perl
+dep	perl-tk	perl-tk

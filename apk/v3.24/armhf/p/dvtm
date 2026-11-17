@@ -1,0 +1,15 @@
+name	dvtm
+version	0.15_git20210309-r3
+description	Dynamic virtual terminal manager
+url	https://www.brain-dump.org/projects/dvtm/
+license	MIT
+size	26551
+installed-size	51543
+depends	ncurses-terminfo so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	dvtm
+repo	community
+file	dvtm-0.15_git20210309-r3.apk
+checksum	Q1G45W5rSGhQI3veFZD65S4sPcuQI=
+dep	ncurses-terminfo	ncurses-terminfo
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

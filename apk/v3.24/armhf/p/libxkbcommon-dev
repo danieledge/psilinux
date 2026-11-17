@@ -1,0 +1,19 @@
+name	libxkbcommon-dev
+version	1.13.1-r0
+description	keyboard handling library (development files)
+url	https://xkbcommon.org/
+license	MIT AND MIT-open-group AND HPND AND HPND-sell-variant AND LicenseRef-digital-equipment-corporation
+size	85343
+installed-size	411333
+depends	libxkbcommon-x11=1.13.1-r0 libxkbcommon-x11=1.13.1-r0 libxkbcommon=1.13.1-r0 pc:libxml-2.0 pc:xcb-xkb>=1.10 pc:xcb>=1.10 pkgconfig
+origin	libxkbcommon
+repo	main
+file	libxkbcommon-dev-1.13.1-r0.apk
+checksum	Q1uT3MRESN52Sy8ESx4qyShqmP0Ks=
+dep	libxkbcommon-x11=1.13.1-r0	libxkbcommon-x11
+dep	libxkbcommon-x11=1.13.1-r0	libxkbcommon-x11
+dep	libxkbcommon=1.13.1-r0	libxkbcommon
+dep	pc:libxml-2.0	libxml2-dev
+dep	pc:xcb-xkb>=1.10	libxcb-dev
+dep	pc:xcb>=1.10	libxcb-dev
+dep	pkgconfig	pkgconf

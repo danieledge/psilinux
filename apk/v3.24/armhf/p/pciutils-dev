@@ -1,0 +1,14 @@
+name	pciutils-dev
+version	3.15.0-r0
+description	PCI bus configuration space access library and tools (development files)
+url	http://mj.ucw.cz/pciutils.html
+license	GPL-2.0-or-later
+size	32261
+installed-size	126755
+depends	pciutils-libs=3.15.0-r0 pkgconfig
+origin	pciutils
+repo	main
+file	pciutils-dev-3.15.0-r0.apk
+checksum	Q1sAlk2ahrmxweuksLUNIKJPFW2EA=
+dep	pciutils-libs=3.15.0-r0	pciutils-libs
+dep	pkgconfig	pkgconf

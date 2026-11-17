@@ -1,0 +1,14 @@
+name	texlive-bibtexextra
+version	2026.0-r0
+description	Extra BibTeX tools
+url	https://tug.org/texlive/
+license	GPL-2.0-or-later AND GPL-3.0-or-later
+size	2583
+installed-size	1
+depends	texlive texmf-dist-bibtexextra
+origin	texlive
+repo	community
+file	texlive-bibtexextra-2026.0-r0.apk
+checksum	Q19oyCpXcagwVPQ+VyYR9nhg4cqXQ=
+dep	texlive	texlive
+dep	texmf-dist-bibtexextra	texmf-dist-bibtexextra

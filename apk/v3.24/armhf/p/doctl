@@ -1,0 +1,13 @@
+name	doctl
+version	1.160.1-r2
+description	Official command line interface for the DigitalOcean API
+url	https://github.com/digitalocean/doctl
+license	Apache-2.0
+size	9756024
+installed-size	28717148
+depends	so:libc.musl-armhf.so.1
+origin	doctl
+repo	community
+file	doctl-1.160.1-r2.apk
+checksum	Q1ocedOrBKASqlf+btg0FeAr4YMV8=
+dep	so:libc.musl-armhf.so.1	musl

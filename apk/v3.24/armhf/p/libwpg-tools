@@ -1,0 +1,19 @@
+name	libwpg-tools
+version	0.3.4-r0
+description	Import filter and tools for WordPerfect Graphics
+url	https://sourceforge.net/projects/libwpg/
+license	MPL-2.0 LGPL-2.1-or-later
+size	8466
+installed-size	25068
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:librevenge-0.0.so.0 so:librevenge-generators-0.0.so.0 so:librevenge-stream-0.0.so.0 so:libstdc++.so.6 so:libwpg-0.3.so.3
+origin	libwpg
+repo	community
+file	libwpg-tools-0.3.4-r0.apk
+checksum	Q1OzJO0ZdJUOLbFgrYh24dHkvCJBI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:librevenge-0.0.so.0	librevenge
+dep	so:librevenge-generators-0.0.so.0	librevenge
+dep	so:librevenge-stream-0.0.so.0	librevenge
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwpg-0.3.so.3	libwpg

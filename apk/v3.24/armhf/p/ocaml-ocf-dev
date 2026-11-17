@@ -1,0 +1,15 @@
+name	ocaml-ocf-dev
+version	0.8.0-r6
+description	OCaml library to read and write configuration files in JSON syntax (development files)
+url	https://zoggy.frama.io/ocf/
+license	LGPL-3.0-only
+size	331349
+installed-size	791603
+depends	ocaml-ocf=0.8.0-r6 ocaml-ppxlib-dev ocaml-yojson-dev
+origin	ocaml-ocf
+repo	community
+file	ocaml-ocf-dev-0.8.0-r6.apk
+checksum	Q1Y1LzoJx0+O/NlT9MjlEpDcJ5o9E=
+dep	ocaml-ocf=0.8.0-r6	ocaml-ocf
+dep	ocaml-ppxlib-dev	ocaml-ppxlib-dev
+dep	ocaml-yojson-dev	ocaml-yojson-dev

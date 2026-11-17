@@ -1,0 +1,32 @@
+name	prismlauncher
+version	11.0.2-r0
+description	A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once
+url	https://prismlauncher.org/
+license	GPL-3.0-only AND Apache-2.0
+size	5621102
+installed-size	14820198
+depends	java-jre qt6-qtimageformats qt6-qtsvg /bin/sh so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6NetworkAuth.so.6 so:libQt6OpenGL.so.6 so:libQt6Widgets.so.6 so:libQt6Xml.so.6 so:libarchive.so.13 so:libc.musl-armhf.so.1 so:libcmark.so.0.31.2 so:libgcc_s.so.1 so:libqrencode.so.4 so:libstdc++.so.6 so:libtomlplusplus.so.3 so:libz.so.1
+origin	prismlauncher
+repo	community
+file	prismlauncher-11.0.2-r0.apk
+checksum	Q1ko/d9IxBBVtwrCFkutLJNfII3h8=
+dep	java-jre	openjdk8-jre
+dep	qt6-qtimageformats	qt6-qtimageformats
+dep	qt6-qtsvg	qt6-qtsvg
+dep	/bin/sh	busybox-binsh
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6DBus.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6NetworkAuth.so.6	qt6-qtnetworkauth
+dep	so:libQt6OpenGL.so.6	qt6-qtbase-x11
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libQt6Xml.so.6	qt6-qtbase
+dep	so:libarchive.so.13	libarchive
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcmark.so.0.31.2	libcmark
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libqrencode.so.4	libqrencode
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtomlplusplus.so.3	tomlplusplus
+dep	so:libz.so.1	zlib

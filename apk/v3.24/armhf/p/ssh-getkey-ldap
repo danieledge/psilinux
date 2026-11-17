@@ -1,0 +1,15 @@
+name	ssh-getkey-ldap
+version	0.1.2-r1
+description	A simple script to be used as AuthorizedKeysCommand in OpenSSH server to look up user's public keys in LDAP.
+url	https://github.com/jirutka/ssh-getkey-ldap
+license	MIT
+size	3593
+installed-size	3566
+depends	lua lua-ldap /bin/sh
+origin	ssh-getkey-ldap
+repo	main
+file	ssh-getkey-ldap-0.1.2-r1.apk
+checksum	Q1sXaC7oN6XXoa0eyjV4EvXUZoLNk=
+dep	lua	lua5.5
+dep	lua-ldap	lua-ldap
+dep	/bin/sh	busybox-binsh

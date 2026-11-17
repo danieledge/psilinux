@@ -1,0 +1,13 @@
+name	android-tools-repack_bootimg
+version	35.0.2-r21
+description	Android platform tools (repack_bootimg)
+url	https://sites.google.com/a/android.com/tools/
+license	Apache-2.0 MIT
+size	5617
+installed-size	14502
+depends	python3
+origin	android-tools
+repo	community
+file	android-tools-repack_bootimg-35.0.2-r21.apk
+checksum	Q1Uq/xFJp0QDRtWS30bKVu6vslGJA=
+dep	python3	python3

@@ -1,0 +1,18 @@
+name	ecryptfs-utils-dev
+version	111-r19
+description	Enterprise-class stacked cryptographic filesystem for Linux (development files)
+url	http://ecryptfs.org/
+license	GPL-2.0-or-later
+size	8188
+installed-size	21779
+depends	keyutils-dev linux-pam-dev nss-dev linux-headers ecryptfs-utils=111-r19 pkgconfig
+origin	ecryptfs-utils
+repo	community
+file	ecryptfs-utils-dev-111-r19.apk
+checksum	Q11P9n6sw8plJCxN0RnVC5mubaMgg=
+dep	keyutils-dev	keyutils-dev
+dep	linux-pam-dev	linux-pam-dev
+dep	nss-dev	nss-dev
+dep	linux-headers	linux-headers
+dep	ecryptfs-utils=111-r19	ecryptfs-utils
+dep	pkgconfig	pkgconf

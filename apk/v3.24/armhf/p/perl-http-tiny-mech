@@ -1,0 +1,15 @@
+name	perl-http-tiny-mech
+version	1.001002-r2
+description	Wrap a WWW::Mechanize instance in an HTTP::Tiny compatible interface.
+url	https://metacpan.org/release/HTTP-Tiny-Mech/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	3574
+installed-size	3669
+depends	perl perl-http-message perl-www-mechanize
+origin	perl-http-tiny-mech
+repo	community
+file	perl-http-tiny-mech-1.001002-r2.apk
+checksum	Q1Xu0NiSll5CfXFn6spdONp0y+99s=
+dep	perl	perl
+dep	perl-http-message	perl-http-message
+dep	perl-www-mechanize	perl-www-mechanize

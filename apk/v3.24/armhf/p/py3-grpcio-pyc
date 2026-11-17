@@ -1,0 +1,13 @@
+name	py3-grpcio-pyc
+version	1.78.1-r2
+description	Precompiled Python bytecode for py3-grpcio
+url	https://grpc.io/
+license	Apache-2.0 AND BSD-3-Clause AND MIT
+size	239780
+installed-size	801914
+depends	python3~3.14
+origin	grpc
+repo	community
+file	py3-grpcio-pyc-1.78.1-r2.apk
+checksum	Q1E1a2DxiiNFX2BTXyn0WexG+jtjY=
+dep	python3~3.14	python3

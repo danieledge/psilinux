@@ -1,0 +1,13 @@
+name	libm4rie-static
+version	20200125-r6
+description	Fast arithmetic with dense matrices over GF(2^e) for 2 <= e <= 16 (static library)
+url	https://bitbucket.org/malb/m4rie
+license	GPL-2.0-or-later
+size	246882
+installed-size	690256
+depends	libm4rie-dev
+origin	libm4rie
+repo	community
+file	libm4rie-static-20200125-r6.apk
+checksum	Q1f29doExaF2KvHAbauMUhgCYT+Ro=
+dep	libm4rie-dev	libm4rie-dev

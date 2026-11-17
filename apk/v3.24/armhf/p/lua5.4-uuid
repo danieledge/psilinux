@@ -1,0 +1,13 @@
+name	lua5.4-uuid
+version	0.3-r1
+description	A pure Lua uuid generator (modified from a Rackspace module) (for Lua 5.4)
+url	https://tieske.github.io/uuid/
+license	Apache-2.0
+size	5025
+installed-size	8943
+depends	lua5.4
+origin	lua-uuid
+repo	main
+file	lua5.4-uuid-0.3-r1.apk
+checksum	Q17weV3fhKBY+iprbsRY5WQ7go6f8=
+dep	lua5.4	lua5.4

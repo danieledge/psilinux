@@ -1,0 +1,62 @@
+name	gtk+3.0-dev
+version	3.24.52-r0
+description	The GTK+ Toolkit (v3) (development files)
+url	https://www.gtk.org/
+license	LGPL-2.1-or-later
+size	1624840
+installed-size	14124619
+depends	gdk-pixbuf-dev glib-dev libepoxy-dev libxext-dev libxi-dev libxinerama-dev libxkbcommon-dev wayland-libs-client wayland-libs-cursor wayland-protocols gtk+3.0=3.24.52-r0 pc:atk pc:atk-bridge-2.0 pc:atk>=2.35.1 pc:cairo pc:cairo-gobject>=1.14.0 pc:cairo-xlib pc:cairo>=1.14.0 pc:epoxy>=1.4 pc:fontconfig pc:fribidi>=0.19.7 pc:gdk-pixbuf-2.0>=2.30.0 pc:gio-2.0>=2.57.2 pc:gio-unix-2.0>=2.57.2 pc:pango>=1.41.0 pc:pangocairo>=1.41.0 pc:pangoft2 pc:wayland-client>=1.14.91 pc:wayland-cursor>=1.14.91 pc:wayland-egl pc:x11 pc:xcomposite pc:xcursor pc:xdamage pc:xext pc:xfixes pc:xi pc:xinerama pc:xkbcommon>=0.2.0 pc:xrandr pc:zlib pkgconfig so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8
+origin	gtk+3.0
+repo	community
+file	gtk+3.0-dev-3.24.52-r0.apk
+checksum	Q1AO3A71xvEUN8gquJrMsQsEA46bE=
+dep	gdk-pixbuf-dev	gdk-pixbuf-dev
+dep	glib-dev	glib-dev
+dep	libepoxy-dev	libepoxy-dev
+dep	libxext-dev	libxext-dev
+dep	libxi-dev	libxi-dev
+dep	libxinerama-dev	libxinerama-dev
+dep	libxkbcommon-dev	libxkbcommon-dev
+dep	wayland-libs-client	wayland-libs-client
+dep	wayland-libs-cursor	wayland-libs-cursor
+dep	wayland-protocols	wayland-protocols
+dep	gtk+3.0=3.24.52-r0	gtk+3.0
+dep	pc:atk	at-spi2-core-dev
+dep	pc:atk-bridge-2.0	at-spi2-core-dev
+dep	pc:atk>=2.35.1	at-spi2-core-dev
+dep	pc:cairo	cairo-dev
+dep	pc:cairo-gobject>=1.14.0	cairo-dev
+dep	pc:cairo-xlib	cairo-dev
+dep	pc:cairo>=1.14.0	cairo-dev
+dep	pc:epoxy>=1.4	libepoxy-dev
+dep	pc:fontconfig	fontconfig-dev
+dep	pc:fribidi>=0.19.7	fribidi-dev
+dep	pc:gdk-pixbuf-2.0>=2.30.0	gdk-pixbuf-dev
+dep	pc:gio-2.0>=2.57.2	glib-dev
+dep	pc:gio-unix-2.0>=2.57.2	glib-dev
+dep	pc:pango>=1.41.0	pango-dev
+dep	pc:pangocairo>=1.41.0	pango-dev
+dep	pc:pangoft2	pango-dev
+dep	pc:wayland-client>=1.14.91	wayland-dev
+dep	pc:wayland-cursor>=1.14.91	wayland-dev
+dep	pc:wayland-egl	wayland-dev
+dep	pc:x11	libx11-dev
+dep	pc:xcomposite	libxcomposite-dev
+dep	pc:xcursor	libxcursor-dev
+dep	pc:xdamage	libxdamage-dev
+dep	pc:xext	libxext-dev
+dep	pc:xfixes	libxfixes-dev
+dep	pc:xi	libxi-dev
+dep	pc:xinerama	libxinerama-dev
+dep	pc:xkbcommon>=0.2.0	libxkbcommon-dev
+dep	pc:xrandr	libxrandr-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl

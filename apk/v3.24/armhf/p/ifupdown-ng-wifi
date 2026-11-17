@@ -1,0 +1,13 @@
+name	ifupdown-ng-wifi
+version	0.13.0-r0
+description	ifupdown-ng integration for wifi
+url	https://github.com/ifupdown-ng/ifupdown-ng
+license	ISC
+size	3012
+installed-size	3468
+depends	wpa_supplicant
+origin	ifupdown-ng
+repo	main
+file	ifupdown-ng-wifi-0.13.0-r0.apk
+checksum	Q1k9NvzssONNV+aeKjyr0/2MsCa18=
+dep	wpa_supplicant	wpa_supplicant

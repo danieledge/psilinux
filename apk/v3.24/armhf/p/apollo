@@ -1,0 +1,13 @@
+name	apollo
+version	0.3.1-r12
+description	Web management and api services for Coventry
+url	https://gitlab.com/tychosoft/apollo
+license	GPL-3.0-or-later
+size	4864373
+installed-size	11909549
+depends	so:libc.musl-armhf.so.1
+origin	apollo
+repo	community
+file	apollo-0.3.1-r12.apk
+checksum	Q1HW8z9TJWXzVxURfnT4xCMUhtnMQ=
+dep	so:libc.musl-armhf.so.1	musl

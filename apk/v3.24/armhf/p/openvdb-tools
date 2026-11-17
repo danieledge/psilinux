@@ -1,0 +1,19 @@
+name	openvdb-tools
+version	13.0.0-r1
+description	Sparse volume data structure and tools (Tools)
+url	https://www.openvdb.org/
+license	MPL-2.0
+size	1009931
+installed-size	4661536
+depends	so:libblosc.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libopenvdb.so.13.0 so:libstdc++.so.6 so:libtbb.so.12 so:libz.so.1
+origin	openvdb
+repo	community
+file	openvdb-tools-13.0.0-r1.apk
+checksum	Q1eZ6r0HziyCR67HuKXUyre6i+CRg=
+dep	so:libblosc.so.1	blosc
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libopenvdb.so.13.0	openvdb
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtbb.so.12	onetbb
+dep	so:libz.so.1	zlib

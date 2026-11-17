@@ -1,0 +1,15 @@
+name	perl-data-checks
+version	0.11-r1
+description	Value constraint checking
+url	https://metacpan.org/release/Data-Checks/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	21711
+installed-size	49345
+depends	perl perl-file-sharedir so:libc.musl-armhf.so.1
+origin	perl-data-checks
+repo	community
+file	perl-data-checks-0.11-r1.apk
+checksum	Q1nT92RllB4Wf9aASnyeRxCT84dcA=
+dep	perl	perl
+dep	perl-file-sharedir	perl-file-sharedir
+dep	so:libc.musl-armhf.so.1	musl

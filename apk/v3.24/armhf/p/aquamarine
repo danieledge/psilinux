@@ -1,0 +1,25 @@
+name	aquamarine
+version	0.12.0-r0
+description	Aquamarine is a very light linux rendering backend library
+url	https://github.com/hyprwm/aquamarine
+license	BSD-3-Clause
+size	463164
+installed-size	1206464
+depends	so:libEGL.so.1 so:libGL.so.1 so:libc.musl-armhf.so.1 so:libdisplay-info.so.3 so:libdrm.so.2 so:libgbm.so.1 so:libgcc_s.so.1 so:libhyprutils.so.12 so:libinput.so.10 so:libseat.so.1 so:libstdc++.so.6 so:libudev.so.1 so:libwayland-client.so.0
+origin	aquamarine
+repo	community
+file	aquamarine-0.12.0-r0.apk
+checksum	Q121ae8b3kFEJDPLIPVckXfS4Z2Lo=
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libGL.so.1	mesa-gl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdisplay-info.so.3	libdisplay-info
+dep	so:libdrm.so.2	libdrm
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libhyprutils.so.12	hyprutils
+dep	so:libinput.so.10	libinput-libs
+dep	so:libseat.so.1	libseat
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libudev.so.1	eudev-libs
+dep	so:libwayland-client.so.0	wayland-libs-client

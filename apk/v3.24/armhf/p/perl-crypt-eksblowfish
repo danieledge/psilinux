@@ -1,0 +1,15 @@
+name	perl-crypt-eksblowfish
+version	0.009-r15
+description	the Eksblowfish block cipher
+url	https://metacpan.org/release/Crypt-Eksblowfish/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	23924
+installed-size	54337
+depends	perl perl-class-mix so:libc.musl-armhf.so.1
+origin	perl-crypt-eksblowfish
+repo	main
+file	perl-crypt-eksblowfish-0.009-r15.apk
+checksum	Q1m4t3pdPjlw4EkFp5jKo4znqVz+M=
+dep	perl	perl
+dep	perl-class-mix	perl-class-mix
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,17 @@
+name	presage
+version	0.9.1-r3
+description	An intelligent predictive text entry system
+url	https://presage.sourceforge.io/
+license	GPL-3.0-or-later
+size	40209574
+installed-size	68916955
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libsqlite3.so.0 so:libstdc++.so.6 so:libtinyxml.so.0
+origin	presage
+repo	community
+file	presage-0.9.1-r3.apk
+checksum	Q1BUiLFpwXCVAb0t+zCoGG1YaralY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtinyxml.so.0	tinyxml

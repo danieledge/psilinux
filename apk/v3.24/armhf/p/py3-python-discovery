@@ -1,0 +1,15 @@
+name	py3-python-discovery
+version	1.2.2-r0
+description	Python interpreter discovery
+url	https://pypi.org/project/python-discovery/
+license	mit
+size	28677
+installed-size	99700
+depends	py3-filelock py3-platformdirs python3~3.14
+origin	py3-python-discovery
+repo	main
+file	py3-python-discovery-1.2.2-r0.apk
+checksum	Q1FaOCsqCUU96X4ggMtOBULg78oqw=
+dep	py3-filelock	py3-filelock
+dep	py3-platformdirs	py3-platformdirs
+dep	python3~3.14	python3

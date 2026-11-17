@@ -1,0 +1,14 @@
+name	nginx-mod-http-cookie-flag
+version	1.30.6-r0
+description	Nginx third-party module http-cookie-flag (version v1.1.0)
+url	https://github.com/AirisX/nginx_cookie_flag_module
+license	BSD-2-Clause
+size	5126
+installed-size	9613
+depends	nginx=1.30.6-r0 so:libc.musl-armhf.so.1
+origin	nginx
+repo	main
+file	nginx-mod-http-cookie-flag-1.30.6-r0.apk
+checksum	Q1TEB9W2rP8NnE1vClfQoidznOvlk=
+dep	nginx=1.30.6-r0	nginx
+dep	so:libc.musl-armhf.so.1	musl

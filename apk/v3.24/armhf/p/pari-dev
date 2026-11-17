@@ -1,0 +1,16 @@
+name	pari-dev
+version	2.17.3-r1
+description	Computer algebra system designed for fast computations in number theory (development files)
+url	https://pari.math.u-bordeaux.fr/
+license	GPL-2.0-or-later
+size	108171
+installed-size	510474
+depends	pari=2.17.3-r1 gmp-dev readline-dev pari-libs=2.17.3-r1
+origin	pari
+repo	community
+file	pari-dev-2.17.3-r1.apk
+checksum	Q1d0dmO5Wezj3tQCyvdVRC1GJb75I=
+dep	pari=2.17.3-r1	pari
+dep	gmp-dev	gmp-dev
+dep	readline-dev	readline-dev
+dep	pari-libs=2.17.3-r1	pari-libs

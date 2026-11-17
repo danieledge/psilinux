@@ -1,0 +1,14 @@
+name	yubico-c-tools
+version	1.13-r1
+description	YubiKey C low-level library (CLI tools)
+url	https://developers.yubico.com/yubico-c/
+license	BSD-2-Clause
+size	7370
+installed-size	28488
+depends	so:libc.musl-armhf.so.1 so:libyubikey.so.0
+origin	yubico-c
+repo	community
+file	yubico-c-tools-1.13-r1.apk
+checksum	Q1xvOn905f+TRzk5IQghSquzaYBZo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libyubikey.so.0	yubico-c

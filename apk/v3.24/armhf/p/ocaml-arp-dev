@@ -1,0 +1,21 @@
+name	ocaml-arp-dev
+version	3.0.0-r5
+description	Address Resolution Protocol purely in OCaml (development files)
+url	https://github.com/mirage/arp
+license	ISC
+size	162841
+installed-size	387928
+depends	ocaml-arp=3.0.0-r5 ocaml-bisect_ppx-dev ocaml-cstruct-dev ocaml-duration-dev ocaml-ethernet-dev ocaml-ipaddr-dev ocaml-logs-dev ocaml-mirage-profile-dev ocaml-mirage-time-dev
+origin	ocaml-arp
+repo	community
+file	ocaml-arp-dev-3.0.0-r5.apk
+checksum	Q1jkReeUDSpjq1rGFcOzJC9jr1rVA=
+dep	ocaml-arp=3.0.0-r5	ocaml-arp
+dep	ocaml-bisect_ppx-dev	ocaml-bisect_ppx-dev
+dep	ocaml-cstruct-dev	ocaml-cstruct-dev
+dep	ocaml-duration-dev	ocaml-duration-dev
+dep	ocaml-ethernet-dev	ocaml-ethernet-dev
+dep	ocaml-ipaddr-dev	ocaml-ipaddr-dev
+dep	ocaml-logs-dev	ocaml-logs-dev
+dep	ocaml-mirage-profile-dev	ocaml-mirage-profile-dev
+dep	ocaml-mirage-time-dev	ocaml-mirage-time-dev

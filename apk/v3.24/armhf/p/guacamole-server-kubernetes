@@ -1,0 +1,19 @@
+name	guacamole-server-kubernetes
+version	1.6.0-r3
+description	Kubernetes pods terminal support for Guacamole daemon
+url	https://guacamole.apache.org/
+license	GPL-3.0-or-later
+size	23709
+installed-size	51836
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcrypto.so.3 so:libguac-terminal.so.2 so:libguac.so.25 so:libssl.so.3 so:libwebsockets.so.19
+origin	guacamole-server
+repo	community
+file	guacamole-server-kubernetes-1.6.0-r3.apk
+checksum	Q1dbBjmhXsSMhun7fr6uR2Nld97CA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libguac-terminal.so.2	guacamole-server-libs
+dep	so:libguac.so.25	guacamole-server-libs
+dep	so:libssl.so.3	libssl3
+dep	so:libwebsockets.so.19	libwebsockets

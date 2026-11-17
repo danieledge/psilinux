@@ -1,0 +1,18 @@
+name	proj
+version	9.8.1-r0
+description	PROJ coordinate transformation software library
+url	https://proj.org/
+license	MIT
+size	3155584
+installed-size	13470393
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgcc_s.so.1 so:libsqlite3.so.0 so:libstdc++.so.6 so:libtiff.so.6
+origin	proj
+repo	community
+file	proj-9.8.1-r0.apk
+checksum	Q111fY6vKOR/ZpXuvAPS9rbTLg4rQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtiff.so.6	tiff

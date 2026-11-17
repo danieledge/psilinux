@@ -1,0 +1,13 @@
+name	ir_keytable
+version	1.32.0-r1
+description	Alter keymaps of Remote Controller devices
+url	https://linuxtv.org/
+license	LGPL-2.0-or-later
+size	89949
+installed-size	261789
+depends	so:libc.musl-armhf.so.1
+origin	v4l-utils
+repo	community
+file	ir_keytable-1.32.0-r1.apk
+checksum	Q1C6OPDw0ciQYpdUOjqUeZ8beo7U8=
+dep	so:libc.musl-armhf.so.1	musl

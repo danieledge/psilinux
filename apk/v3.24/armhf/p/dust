@@ -1,0 +1,14 @@
+name	dust
+version	1.2.4-r0
+description	A more intuitive version of du in Rust
+url	https://github.com/bootandy/dust
+license	Apache-2.0
+size	799253
+installed-size	1761356
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	dust
+repo	community
+file	dust-1.2.4-r0.apk
+checksum	Q1ShkU+GcoNY/S5Zli6sJGI7OXC6k=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

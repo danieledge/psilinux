@@ -1,0 +1,15 @@
+name	rust-lldb
+version	1.96.1-r0
+description	LLDB pretty printers for Rust
+url	https://rustc-dev-guide.rust-lang.org/debugging-support-in-rustc.html
+license	Apache-2.0 OR MIT
+size	14140
+installed-size	61306
+depends	rust=1.96.1-r0 lldb py3-lldb
+origin	rust
+repo	main
+file	rust-lldb-1.96.1-r0.apk
+checksum	Q1mCFIwOsOBL0ePDkmiMrGhhMsjAY=
+dep	rust=1.96.1-r0	rust
+dep	lldb	lldb
+dep	py3-lldb	py3-lldb

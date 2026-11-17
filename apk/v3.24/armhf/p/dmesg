@@ -1,0 +1,14 @@
+name	dmesg
+version	2.42.3-r1
+description	dmesg tool from util-linux
+url	https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+license	GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
+size	27092
+installed-size	52776
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	util-linux
+repo	main
+file	dmesg-2.42.3-r1.apk
+checksum	Q1mFm5VHDHWpQbULT2U6P0oHqtB24=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

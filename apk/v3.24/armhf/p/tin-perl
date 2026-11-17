@@ -1,0 +1,13 @@
+name	tin-perl
+version	2.6.5-r2
+description	Threaded NNTP and spool-based Usenet newsreader (perl helper scripts)
+url	http://www.tin.org/
+license	BSD-3-Clause
+size	20929
+installed-size	62292
+depends	perl-io-socket-ssl
+origin	tin
+repo	community
+file	tin-perl-2.6.5-r2.apk
+checksum	Q178BpOA6dCJ75/FL3OayYFzPMv3s=
+dep	perl-io-socket-ssl	perl-io-socket-ssl

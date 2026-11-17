@@ -1,0 +1,14 @@
+name	btrbk
+version	0.32.6-r0
+description	Backup tool for btrfs subvolumes with atomic snapshots & incremental transfers
+url	https://digint.ch/btrbk
+license	GPL-3.0-or-later
+size	85491
+installed-size	331413
+depends	perl btrfs-progs
+origin	btrbk
+repo	community
+file	btrbk-0.32.6-r0.apk
+checksum	Q1OvdpvmS9vTsjVC50PiznB7pxvss=
+dep	perl	perl
+dep	btrfs-progs	btrfs-progs

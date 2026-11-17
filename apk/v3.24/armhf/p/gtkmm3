@@ -1,0 +1,26 @@
+name	gtkmm3
+version	3.24.10-r0
+description	C++ wrappers for GTK+
+url	https://www.gtkmm.org/
+license	LGPL-2.1-or-later
+size	940688
+installed-size	3398400
+depends	so:libatkmm-1.6.so.1 so:libc.musl-armhf.so.1 so:libcairomm-1.0.so.1 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgiomm-2.4.so.1 so:libglib-2.0.so.0 so:libglibmm-2.4.so.1 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libpangomm-1.4.so.1 so:libsigc-2.0.so.0 so:libstdc++.so.6
+origin	gtkmm3
+repo	community
+file	gtkmm3-3.24.10-r0.apk
+checksum	Q1saI7t089zpuIquz1Mbtm6wpxxN0=
+dep	so:libatkmm-1.6.so.1	atkmm2.28
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairomm-1.0.so.1	cairomm1.14
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgiomm-2.4.so.1	glibmm2.66
+dep	so:libglib-2.0.so.0	glib
+dep	so:libglibmm-2.4.so.1	glibmm2.66
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libpangomm-1.4.so.1	pangomm2.46
+dep	so:libsigc-2.0.so.0	libsigc++
+dep	so:libstdc++.so.6	libstdc++

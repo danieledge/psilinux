@@ -1,0 +1,14 @@
+name	ntfs-3g-dev
+version	2026.2.25-r0
+description	Stable, full-featured, read-write NTFS (development files)
+url	https://www.tuxera.com/company/open-source/
+license	GPL-2.0-only
+size	75030
+installed-size	282734
+depends	ntfs-3g-libs=2026.2.25-r0 pkgconfig
+origin	ntfs-3g
+repo	main
+file	ntfs-3g-dev-2026.2.25-r0.apk
+checksum	Q1N35AkyKbLZKrD2mWjx90OE6S1yQ=
+dep	ntfs-3g-libs=2026.2.25-r0	ntfs-3g-libs
+dep	pkgconfig	pkgconf

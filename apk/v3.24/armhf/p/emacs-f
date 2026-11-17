@@ -1,0 +1,15 @@
+name	emacs-f
+version	0.21.0-r1
+description	Modern API for working with files and directories in Emacs
+url	https://github.com/rejeep/f.el
+license	GPL-3.0-or-later
+size	16614
+installed-size	65222
+depends	cmd:emacs emacs-dash emacs-s
+origin	emacs-f
+repo	community
+file	emacs-f-0.21.0-r1.apk
+checksum	Q1kKNBZ5vg/ZMZWdfAon/hTsSpkjE=
+dep	cmd:emacs	emacs-gtk3
+dep	emacs-dash	emacs-dash
+dep	emacs-s	emacs-s

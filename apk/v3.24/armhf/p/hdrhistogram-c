@@ -1,0 +1,14 @@
+name	hdrhistogram-c
+version	0.11.9-r0
+description	High Dynamic Range (HDR) Histogram in C
+url	https://github.com/HdrHistogram/HdrHistogram_c
+license	BSD-2-Clause
+size	17427
+installed-size	34072
+depends	so:libc.musl-armhf.so.1 so:libz.so.1
+origin	hdrhistogram-c
+repo	community
+file	hdrhistogram-c-0.11.9-r0.apk
+checksum	Q1H709NCog31hC0lGvhxbJ2YGcLME=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libz.so.1	zlib

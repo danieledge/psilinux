@@ -1,0 +1,29 @@
+name	R-dev
+version	4.6.0-r0
+description	Language and environment for statistical computing (development files)
+url	https://www.R-project.org/
+license	( GPL-2.0-only OR GPL-3.0-only ) AND LGPL-2.1-or-later
+size	93657
+installed-size	440886
+depends	R=4.6.0-r0 bzip2-dev curl-dev>=7.28 gcc gfortran icu-dev libdeflate-dev libjpeg-turbo libpng-dev make musl-dev openblas-dev>=0.3.0 pcre2-dev readline-dev xz-dev zlib-dev pkgconfig
+origin	R
+repo	community
+file	R-dev-4.6.0-r0.apk
+checksum	Q1bsc5Uw0abM96h6L7zcMTDB1Hyv8=
+dep	R=4.6.0-r0	R
+dep	bzip2-dev	bzip2-dev
+dep	curl-dev>=7.28	curl-dev
+dep	gcc	gcc
+dep	gfortran	gfortran
+dep	icu-dev	icu-dev
+dep	libdeflate-dev	libdeflate-dev
+dep	libjpeg-turbo	libjpeg-turbo
+dep	libpng-dev	libpng-dev
+dep	make	make
+dep	musl-dev	musl-dev
+dep	openblas-dev>=0.3.0	openblas-dev
+dep	pcre2-dev	pcre2-dev
+dep	readline-dev	readline-dev
+dep	xz-dev	xz-dev
+dep	zlib-dev	zlib-dev
+dep	pkgconfig	pkgconf

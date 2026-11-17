@@ -1,0 +1,17 @@
+name	libmusicbrainz
+version	5.1.0-r3
+description	MusicBrainz Client Library
+url	https://musicbrainz.org/doc/libmusicbrainz
+license	LGPL-2.1-or-later
+size	130564
+installed-size	423296
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libneon.so.27 so:libstdc++.so.6 so:libxml2.so.2
+origin	libmusicbrainz
+repo	community
+file	libmusicbrainz-5.1.0-r3.apk
+checksum	Q1Pn73lMsEGRoZRsfqQ50CWuKBzbk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libneon.so.27	neon
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxml2.so.2	libxml2

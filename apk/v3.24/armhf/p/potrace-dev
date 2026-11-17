@@ -1,0 +1,14 @@
+name	potrace-dev
+version	1.16-r2
+description	Utility for tracing a bitmaps (development files)
+url	https://potrace.sourceforge.net/
+license	GPL-2.0-or-later
+size	15604
+installed-size	27623
+depends	zlib-dev potrace=1.16-r2
+origin	potrace
+repo	community
+file	potrace-dev-1.16-r2.apk
+checksum	Q1Ds7yKxNayijipKl85yinB5JPrG0=
+dep	zlib-dev	zlib-dev
+dep	potrace=1.16-r2	potrace

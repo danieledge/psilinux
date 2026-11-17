@@ -1,0 +1,17 @@
+name	qt-jdenticon
+version	0.3.1-r1
+description	Qt6 / C++14 Port of Jdenticon
+url	https://github.com/Nheko-Reborn/qt-jdenticon
+license	MIT
+size	30642
+installed-size	71220
+depends	so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	qt-jdenticon
+repo	community
+file	qt-jdenticon-0.3.1-r1.apk
+checksum	Q1LcQeWjNseo/tTAYVBGw6tBG/S9g=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

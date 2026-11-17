@@ -1,0 +1,13 @@
+name	yyjson
+version	0.12.0-r1
+description	High performance JSON library written in ANSI C
+url	https://github.com/ibireme/yyjson
+license	MIT
+size	182407
+installed-size	382176
+depends	so:libc.musl-armhf.so.1
+origin	yyjson
+repo	community
+file	yyjson-0.12.0-r1.apk
+checksum	Q1BKH+NLZPQfZcL5Nhg7xMwZUeWGs=
+dep	so:libc.musl-armhf.so.1	musl

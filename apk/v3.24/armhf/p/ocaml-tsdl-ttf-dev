@@ -1,0 +1,16 @@
+name	ocaml-tsdl-ttf-dev
+version	0.6-r3
+description	SDL2_Ttf bindings to go with ocaml-tsdl (development files)
+url	https://github.com/sanette/tsdl-ttf
+license	BSD-3-Clause
+size	111469
+installed-size	265150
+depends	ocaml-tsdl-ttf=0.6-r3 ocaml-ctypes-dev ocaml-tsdl-dev sdl2_ttf-dev
+origin	ocaml-tsdl-ttf
+repo	community
+file	ocaml-tsdl-ttf-dev-0.6-r3.apk
+checksum	Q1w47dzxSbt7Dfh6EEk5rh6wnLblk=
+dep	ocaml-tsdl-ttf=0.6-r3	ocaml-tsdl-ttf
+dep	ocaml-ctypes-dev	ocaml-ctypes-dev
+dep	ocaml-tsdl-dev	ocaml-tsdl-dev
+dep	sdl2_ttf-dev	sdl2_ttf-dev

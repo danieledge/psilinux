@@ -1,0 +1,18 @@
+name	py3-pytest
+version	9.0.3-r0
+description	Python3 testing library
+url	https://docs.pytest.org/en/latest/
+license	MIT
+size	348525
+installed-size	1333382
+depends	py3-iniconfig py3-packaging py3-pluggy py3-py py3-pygments python3~3.14
+origin	py3-pytest
+repo	main
+file	py3-pytest-9.0.3-r0.apk
+checksum	Q1KGQI0vNjlCst73zU7ISRFdqQftk=
+dep	py3-iniconfig	py3-iniconfig
+dep	py3-packaging	py3-packaging
+dep	py3-pluggy	py3-pluggy
+dep	py3-py	py3-py
+dep	py3-pygments	py3-pygments
+dep	python3~3.14	python3

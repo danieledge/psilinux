@@ -1,0 +1,15 @@
+name	irssi-proxy
+version	1.4.5-r7
+description	Irssi module for enabling bouncer-like functionality
+url	https://irssi.org/
+license	GPL-2.0-or-later WITH OpenSSL-Exception
+size	13719
+installed-size	25720
+depends	irssi=1.4.5-r7 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0
+origin	irssi
+repo	community
+file	irssi-proxy-1.4.5-r7.apk
+checksum	Q1EyFrQDlDngSJ1X29swSLGCaZ3dI=
+dep	irssi=1.4.5-r7	irssi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib

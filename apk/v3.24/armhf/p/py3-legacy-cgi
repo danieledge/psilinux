@@ -1,0 +1,14 @@
+name	py3-legacy-cgi
+version	2.6.4-r0
+description	Fork of the standard library cgi and cgitb modules removed in Python 3.13
+url	https://pypi.org/project/legacy-cgi/
+license	MIT
+size	21123
+installed-size	63974
+depends	python3 python3~3.14
+origin	py3-legacy-cgi
+repo	community
+file	py3-legacy-cgi-2.6.4-r0.apk
+checksum	Q1Yb0b4nD+1eSxQNMME/DsFI3Pyv4=
+dep	python3	python3
+dep	python3~3.14	python3

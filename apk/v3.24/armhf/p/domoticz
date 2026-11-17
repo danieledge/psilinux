@@ -1,0 +1,27 @@
+name	domoticz
+version	2024.7-r3
+description	Open source Home Automation System
+url	https://www.domoticz.com/
+license	GPL-3.0-or-later
+size	11968511
+installed-size	23219739
+depends	/bin/sh so:libboost_thread.so.1.84.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgcc_s.so.1 so:libjsoncpp.so.26 so:liblua-5.3.so.0 so:libminizip.so.1 so:libmosquitto.so.1 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libusb-0.1.so.4 so:libz.so.1
+origin	domoticz
+repo	community
+file	domoticz-2024.7-r3.apk
+checksum	Q1uGmXZFzKH63/uhJMO5Yvne4VB5k=
+dep	/bin/sh	busybox-binsh
+dep	so:libboost_thread.so.1.84.0	boost1.84-thread
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjsoncpp.so.26	jsoncpp
+dep	so:liblua-5.3.so.0	lua5.3-libs
+dep	so:libminizip.so.1	minizip
+dep	so:libmosquitto.so.1	mosquitto-libs
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libusb-0.1.so.4	libusb-compat
+dep	so:libz.so.1	zlib

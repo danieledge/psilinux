@@ -1,0 +1,13 @@
+name	scaleway-cli
+version	2.55.0-r2
+description	Command-line client for Scaleway Cloud
+url	https://www.scaleway.com/en/cli
+license	Apache-2.0
+size	17407120
+installed-size	55793468
+depends	so:libc.musl-armhf.so.1
+origin	scaleway-cli
+repo	community
+file	scaleway-cli-2.55.0-r2.apk
+checksum	Q1u3VH5RN99CVsUZxqRNt8EuMBFRE=
+dep	so:libc.musl-armhf.so.1	musl

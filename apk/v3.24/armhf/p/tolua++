@@ -1,0 +1,14 @@
+name	tolua++
+version	1.0.93-r5
+description	a tool to integrate C/C++ code with Lua
+url	https://github.com/LuaDist/toluapp
+license	MIT
+size	51857
+installed-size	200324
+depends	so:libc.musl-armhf.so.1 so:liblua.so.5
+origin	tolua++
+repo	main
+file	tolua++-1.0.93-r5.apk
+checksum	Q12SOst4JM4esWHWRYUGHVZRXtOp0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblua.so.5	lua5.1-libs

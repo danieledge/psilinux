@@ -1,0 +1,15 @@
+name	libvirt-dev
+version	12.3.0-r0
+description	Virtualization API for several hypervisor and container systems (development files)
+url	https://libvirt.org/
+license	LGPL-2.1-or-later
+size	299245
+installed-size	1862933
+depends	libvirt=12.3.0-r0 libvirt-libs=12.3.0-r0 pkgconfig
+origin	libvirt
+repo	community
+file	libvirt-dev-12.3.0-r0.apk
+checksum	Q1Z9rEgub4avOilYmPoq/DoEGOckw=
+dep	libvirt=12.3.0-r0	libvirt
+dep	libvirt-libs=12.3.0-r0	libvirt-libs
+dep	pkgconfig	pkgconf

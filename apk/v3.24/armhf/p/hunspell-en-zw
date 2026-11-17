@@ -1,0 +1,13 @@
+name	hunspell-en-zw
+version	2020.12.07-r4
+description	English hunspell dictionaries (ZW only)
+url	http://wordlist.aspell.net/dicts/
+license	custom
+size	1658
+installed-size	1
+depends	hunspell-en-gb=2020.12.07-r4
+origin	hunspell-en
+repo	main
+file	hunspell-en-zw-2020.12.07-r4.apk
+checksum	Q1l8fF2Dz0zoLLLSBXJWDoAJ0bxYo=
+dep	hunspell-en-gb=2020.12.07-r4	hunspell-en-gb

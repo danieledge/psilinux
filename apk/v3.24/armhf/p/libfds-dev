@@ -1,0 +1,15 @@
+name	libfds-dev
+version	0.6.0-r1
+description	Flow Data Storage library (development files)
+url	https://github.com/CESNET/libfds
+license	BSD-3-Clause OR GPL-2.0-or-later
+size	56919
+installed-size	262107
+depends	libfds=0.6.0-r1 pc:libxml-2.0 pkgconfig
+origin	libfds
+repo	community
+file	libfds-dev-0.6.0-r1.apk
+checksum	Q1e9gK1aZzYyjg6TbQXuWgzd2Juhs=
+dep	libfds=0.6.0-r1	libfds
+dep	pc:libxml-2.0	libxml2-dev
+dep	pkgconfig	pkgconf

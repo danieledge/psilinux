@@ -1,0 +1,12 @@
+name	glib-networking-dbg
+version	2.80.1-r2
+description	Networking support for GLib (debug symbols)
+url	https://gitlab.gnome.org/GNOME/glib-networking
+license	LGPL-2.0-or-later
+size	225435
+installed-size	528752
+depends	!glib-networking<2.80.1-r2 !glib-networking>2.80.1-r2
+origin	glib-networking
+repo	community
+file	glib-networking-dbg-2.80.1-r2.apk
+checksum	Q1I0djFeSTtWmOTrI3K5GpbZ1Hrr4=

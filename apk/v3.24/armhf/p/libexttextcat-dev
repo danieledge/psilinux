@@ -1,0 +1,14 @@
+name	libexttextcat-dev
+version	3.4.6-r0
+description	An N-Gram-Based Text Categorization library (development files)
+url	https://wiki.documentfoundation.org/Libexttextcat
+license	MPL-2.0
+size	14148
+installed-size	36476
+depends	libexttextcat=3.4.6-r0 pkgconfig
+origin	libexttextcat
+repo	community
+file	libexttextcat-dev-3.4.6-r0.apk
+checksum	Q12GOY6FNNkOpNSa2M5IgFWH+tn2M=
+dep	libexttextcat=3.4.6-r0	libexttextcat
+dep	pkgconfig	pkgconf

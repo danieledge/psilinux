@@ -1,0 +1,14 @@
+name	gutenprint-dev
+version	5.3.5-r0
+description	Top quality printer drivers for POSIX systems (development files)
+url	https://gimp-print.sourceforge.net/
+license	GPL-2.0-or-later
+size	35629
+installed-size	190058
+depends	gutenprint-libs=5.3.5-r0 pkgconfig
+origin	gutenprint
+repo	community
+file	gutenprint-dev-5.3.5-r0.apk
+checksum	Q1PQPShk97b9FyN/Cj5WN9VJQ+XIk=
+dep	gutenprint-libs=5.3.5-r0	gutenprint-libs
+dep	pkgconfig	pkgconf

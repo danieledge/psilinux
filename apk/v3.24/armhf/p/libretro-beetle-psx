@@ -1,0 +1,13 @@
+name	libretro-beetle-psx
+version	0_git20250131-r0
+description	Standalone port/fork of Mednafen PSX to the Libretro API
+url	https://github.com/libretro/beetle-psx-libretro
+license	GPL-2.0-or-later
+size	1543017
+installed-size	7078424
+depends	so:libc.musl-armhf.so.1
+origin	libretro-beetle-psx
+repo	community
+file	libretro-beetle-psx-0_git20250131-r0.apk
+checksum	Q1PsYDMfeJNFQx5taHYURMmoLFK6k=
+dep	so:libc.musl-armhf.so.1	musl

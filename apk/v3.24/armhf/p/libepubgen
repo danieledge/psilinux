@@ -1,0 +1,16 @@
+name	libepubgen
+version	0.1.1-r2
+description	EPUB generator for librevenge.
+url	https://sourceforge.net/projects/libepubgen/
+license	MPL-2.0
+size	105680
+installed-size	275876
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:librevenge-0.0.so.0 so:libstdc++.so.6
+origin	libepubgen
+repo	community
+file	libepubgen-0.1.1-r2.apk
+checksum	Q1YFjlQrDk594J66f9BKn08XSXOSg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:librevenge-0.0.so.0	librevenge
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,12 @@
+name	prometheus-wireguard-exporter-openrc
+version	3.6.6-r3
+description	A Prometheus exporter for WireGuard, written in Rust (OpenRC init scripts)
+url	https://github.com/MindFlavor/prometheus_wireguard_exporter
+license	MIT
+size	2003
+installed-size	521
+depends	
+origin	prometheus-wireguard-exporter
+repo	community
+file	prometheus-wireguard-exporter-openrc-3.6.6-r3.apk
+checksum	Q1ICUYRBeZgRI22I93Ez5BeiLHRQI=

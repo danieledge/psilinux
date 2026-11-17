@@ -1,0 +1,29 @@
+name	virt-viewer
+version	11.0-r3
+description	A lightweight interface for interacting with the graphical display of virtualized guest OS
+url	https://virt-manager.org
+license	GPL-2.0-or-later
+size	273629
+installed-size	669320
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgtk-vnc-2.0.so.0 so:libgvnc-1.0.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libspice-client-glib-2.0.so.8 so:libspice-client-gtk-3.0.so.5 so:libvirt-glib-1.0.so.0 so:libvirt.so.0 so:libxml2.so.2
+origin	virt-viewer
+repo	community
+file	virt-viewer-11.0-r3.apk
+checksum	Q1Q+WoNj5t8fPFclQrOG/S7yTWI+I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtk-vnc-2.0.so.0	gtk-vnc
+dep	so:libgvnc-1.0.so.0	gtk-vnc
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libspice-client-glib-2.0.so.8	spice-glib
+dep	so:libspice-client-gtk-3.0.so.5	spice-gtk
+dep	so:libvirt-glib-1.0.so.0	libvirt-glib
+dep	so:libvirt.so.0	libvirt-libs
+dep	so:libxml2.so.2	libxml2

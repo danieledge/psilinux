@@ -1,0 +1,15 @@
+name	ruby-sassc
+version	2.4.0-r5
+description	Use libsass with Ruby!
+url	https://github.com/sass/sassc-ruby
+license	MIT
+size	25259
+installed-size	81236
+depends	libsass ruby ruby-ffi
+origin	ruby-sassc
+repo	community
+file	ruby-sassc-2.4.0-r5.apk
+checksum	Q1DGjABLJ2N1Q2Y1m16bq9RChLmiI=
+dep	libsass	libsass
+dep	ruby	ruby
+dep	ruby-ffi	ruby-ffi

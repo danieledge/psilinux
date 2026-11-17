@@ -1,0 +1,15 @@
+name	libnumbertext
+version	1.0.11-r1
+description	Number to number name and money text conversion library
+url	https://github.com/Numbertext/libnumbertext
+license	BSD-3-Clause
+size	213986
+installed-size	685603
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libnumbertext
+repo	community
+file	libnumbertext-1.0.11-r1.apk
+checksum	Q1UAnHcejJccm07XEgeccea/Pu434=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

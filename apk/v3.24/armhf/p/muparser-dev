@@ -1,0 +1,14 @@
+name	muparser-dev
+version	2.3.4-r1
+description	Fast math parser library (development files)
+url	https://beltoforion.de/en/muparser/
+license	BSD-2-Clause
+size	26345
+installed-size	128903
+depends	muparser=2.3.4-r1 pkgconfig
+origin	muparser
+repo	community
+file	muparser-dev-2.3.4-r1.apk
+checksum	Q1o6Vb4ZQ+lddyD903ZRw1papa7dw=
+dep	muparser=2.3.4-r1	muparser
+dep	pkgconfig	pkgconf

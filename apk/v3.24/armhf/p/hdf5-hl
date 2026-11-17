@@ -1,0 +1,14 @@
+name	hdf5-hl
+version	1.14.4.2-r1
+description	High Level C API runtime files for serial platforms for HDF5 library
+url	https://www.hdfgroup.org/solutions/hdf5/
+license	custom
+size	53695
+installed-size	120288
+depends	so:libc.musl-armhf.so.1 so:libhdf5.so.311
+origin	hdf5
+repo	community
+file	hdf5-hl-1.14.4.2-r1.apk
+checksum	Q1F6TaApts1yjzCW72pthVj1kbIdA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libhdf5.so.311	hdf5

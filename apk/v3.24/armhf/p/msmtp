@@ -1,0 +1,19 @@
+name	msmtp
+version	1.8.32-r1
+description	SMTP client with a sendmail compatible interface
+url	https://marlam.de/msmtp/
+license	GPL-3.0-or-later
+size	63412
+installed-size	134752
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgsasl.so.18 so:libidn2.so.0 so:libintl.so.8 so:libsecret-1.so.0 so:libssl.so.3
+origin	msmtp
+repo	community
+file	msmtp-1.8.32-r1.apk
+checksum	Q12wGD0y8pNR5N6VOSKz7aIieBoQI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgsasl.so.18	libgsasl
+dep	so:libidn2.so.0	libidn2
+dep	so:libintl.so.8	libintl
+dep	so:libsecret-1.so.0	libsecret
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,16 @@
+name	sdl3_ttf-dev
+version	3.2.2-r0
+description	A library which allows you to use TrueType fonts in your SDL applications (development files)
+url	https://github.com/libsdl-org/SDL_ttf
+license	Zlib
+size	23927
+installed-size	128278
+depends	sdl3_ttf=3.2.2-r0 pc:freetype2 pc:harfbuzz pkgconfig
+origin	sdl3_ttf
+repo	community
+file	sdl3_ttf-dev-3.2.2-r0.apk
+checksum	Q1oeOiPaUzO2OqMRYEB75J0FU4l+s=
+dep	sdl3_ttf=3.2.2-r0	sdl3_ttf
+dep	pc:freetype2	freetype-dev
+dep	pc:harfbuzz	harfbuzz-dev
+dep	pkgconfig	pkgconf

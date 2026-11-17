@@ -1,0 +1,17 @@
+name	libetpan
+version	1.10-r0
+description	a portable middleware for email access
+url	http://www.etpan.org/
+license	custom:etpan
+size	251745
+installed-size	624764
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgnutls.so.30 so:libsasl2.so.3 so:libz.so.1
+origin	libetpan
+repo	community
+file	libetpan-1.10-r0.apk
+checksum	Q1iABCXNv+vpFJ1p5YxF97SK6sO1w=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgnutls.so.30	gnutls
+dep	so:libsasl2.so.3	libsasl
+dep	so:libz.so.1	zlib

@@ -1,0 +1,18 @@
+name	py3-pytest-postgresql
+version	8.0.0-r2
+description	Postgresql fixtures and fixture factories for Pytest.
+url	https://pypi.org/project/pytest-postgresql/
+license	Apache-2.0
+size	34049
+installed-size	104351
+depends	py3-pytest py3-port-for py3-psycopg py3-mirakuru postgresql python3~3.14
+origin	py3-pytest-postgresql
+repo	community
+file	py3-pytest-postgresql-8.0.0-r2.apk
+checksum	Q1d14Uj8i2+hD1jiI+059K5oCeMxY=
+dep	py3-pytest	py3-pytest
+dep	py3-port-for	py3-port-for
+dep	py3-psycopg	py3-psycopg
+dep	py3-mirakuru	py3-mirakuru
+dep	postgresql	postgresql18
+dep	python3~3.14	python3

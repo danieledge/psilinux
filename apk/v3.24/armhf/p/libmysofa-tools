@@ -1,0 +1,14 @@
+name	libmysofa-tools
+version	1.3.2-r0
+description	Set of C functions to read AES SOFA files (tools)
+url	https://github.com/hoene/libmysofa
+license	BSD-3-Clause-Clear
+size	1121548
+installed-size	1182690
+depends	so:libc.musl-armhf.so.1 so:libmysofa.so.1
+origin	libmysofa
+repo	community
+file	libmysofa-tools-1.3.2-r0.apk
+checksum	Q1a0gSCgw0jTRX2X5LbyRPFBw3aos=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmysofa.so.1	libmysofa

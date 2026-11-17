@@ -1,0 +1,15 @@
+name	rlottie
+version	0.2_git20250611-r1
+description	A platform independent standalone library that plays Lottie Animation
+url	https://github.com/Samsung/rlottie
+license	MIT AND BSD-3-Clause AND MPL-2.0
+size	175545
+installed-size	359040
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	rlottie
+repo	community
+file	rlottie-0.2_git20250611-r1.apk
+checksum	Q1iAVwt50stdMWsBYKrHENw1I3Dxg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

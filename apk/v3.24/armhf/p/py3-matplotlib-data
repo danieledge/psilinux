@@ -1,0 +1,14 @@
+name	py3-matplotlib-data
+version	3.10.6-r2
+description	Data used by py3-matplotlib
+url	https://matplotlib.org
+license	PSF-2.0
+size	525496
+installed-size	760511
+depends	py3-matplotlib-fonts=3.10.6-r2 python3~3.14
+origin	py3-matplotlib
+repo	community
+file	py3-matplotlib-data-3.10.6-r2.apk
+checksum	Q11xcr9djK76xRL2pnr2S/pA5f26I=
+dep	py3-matplotlib-fonts=3.10.6-r2	py3-matplotlib-fonts
+dep	python3~3.14	python3

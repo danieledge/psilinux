@@ -1,0 +1,13 @@
+name	dsfmt
+version	2.2.5-r1
+description	Double precision SIMD-oriented Fast Mersenne Twister
+url	https://github.com/MersenneTwister-Lab/dSFMT
+license	BSD-3-Clause
+size	7756
+installed-size	17528
+depends	so:libc.musl-armhf.so.1
+origin	dsfmt
+repo	community
+file	dsfmt-2.2.5-r1.apk
+checksum	Q1cVxSgEpGpfOA74XxM8FTrGUTRjQ=
+dep	so:libc.musl-armhf.so.1	musl

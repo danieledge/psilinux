@@ -1,0 +1,22 @@
+name	knot
+version	3.5.10-r0
+description	An high-performance authoritative-only DNS server
+url	https://www.knot-dns.cz/
+license	GPL-2.0-or-later
+size	704216
+installed-size	1532421
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcap-ng.so.0 so:libdnssec.so.10 so:libedit.so.0 so:libgnutls.so.30 so:libknot.so.16 so:liblmdb.so.0 so:liburcu.so.8 so:libzscanner.so.5
+origin	knot
+repo	main
+file	knot-3.5.10-r0.apk
+checksum	Q1pjOEE7r3bYdkLhyTLbkGBau6Bm8=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap-ng.so.0	libcap-ng
+dep	so:libdnssec.so.10	knot-libs
+dep	so:libedit.so.0	libedit
+dep	so:libgnutls.so.30	gnutls
+dep	so:libknot.so.16	knot-libs
+dep	so:liblmdb.so.0	lmdb
+dep	so:liburcu.so.8	userspace-rcu
+dep	so:libzscanner.so.5	knot-libs

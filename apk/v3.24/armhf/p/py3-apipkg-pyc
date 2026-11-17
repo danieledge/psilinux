@@ -1,0 +1,13 @@
+name	py3-apipkg-pyc
+version	3.0.2-r1
+description	Precompiled Python bytecode for py3-apipkg
+url	https://github.com/pytest-dev/apipkg
+license	MIT
+size	10804
+installed-size	18168
+depends	python3~3.14
+origin	py3-apipkg
+repo	community
+file	py3-apipkg-pyc-3.0.2-r1.apk
+checksum	Q1Rn1hygiECXLL0J2KI6wvhTKgbRY=
+dep	python3~3.14	python3

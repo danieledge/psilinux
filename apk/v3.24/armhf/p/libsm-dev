@@ -1,0 +1,17 @@
+name	libsm-dev
+version	1.2.6-r0
+description	X11 Session Management library (development files)
+url	https://xorg.freedesktop.org/
+license	MIT
+size	19969
+installed-size	57327
+depends	libsm=1.2.6-r0 pc:ice pc:uuid pc:xproto pkgconfig
+origin	libsm
+repo	main
+file	libsm-dev-1.2.6-r0.apk
+checksum	Q15ONetPRLCajMDUW+dYg9OUPTRpY=
+dep	libsm=1.2.6-r0	libsm
+dep	pc:ice	libice-dev
+dep	pc:uuid	util-linux-dev
+dep	pc:xproto	xorgproto
+dep	pkgconfig	pkgconf

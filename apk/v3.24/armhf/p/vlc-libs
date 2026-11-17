@@ -1,0 +1,15 @@
+name	vlc-libs
+version	3.0.23-r4
+description	Multi-platform MPEG, VCD/DVD, and DivX player (libraries)
+url	https://www.videolan.org/vlc/
+license	GPL-2.0-or-later
+size	552484
+installed-size	1126528
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libdbus-1.so.3
+origin	vlc
+repo	community
+file	vlc-libs-3.0.23-r4.apk
+checksum	Q1wOVnlQAd9x97aiLDnJxwnHwhS04=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs

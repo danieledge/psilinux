@@ -1,0 +1,13 @@
+name	merlin-emacs
+version	4.14-r3
+description	Context sensitive completion for OCaml in Emacs
+url	https://ocaml.github.io/merlin/
+license	MIT
+size	28896
+installed-size	113088
+depends	merlin=4.14-r3
+origin	merlin
+repo	community
+file	merlin-emacs-4.14-r3.apk
+checksum	Q1gtroCEAlylbPF89T1PsUj0u/FkI=
+dep	merlin=4.14-r3	merlin

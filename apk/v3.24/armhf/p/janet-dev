@@ -1,0 +1,14 @@
+name	janet-dev
+version	1.41.2-r0
+description	Dynamic Lisp dialect and bytecode VM (development files)
+url	https://janet-lang.org/
+license	MIT
+size	24674
+installed-size	93775
+depends	janet=1.41.2-r0 pkgconfig
+origin	janet
+repo	community
+file	janet-dev-1.41.2-r0.apk
+checksum	Q1Z4UEa4qKgVIV1v8EJRyGaN0JHVk=
+dep	janet=1.41.2-r0	janet
+dep	pkgconfig	pkgconf

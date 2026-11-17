@@ -1,0 +1,22 @@
+name	pingus
+version	0.7.6-r12
+description	Free Lemmings(TM) clone
+url	https://pingus.seul.org/
+license	GPL-2.0-only
+size	787052
+installed-size	1934812
+depends	pingus-data libmikmod so:libGL.so.1 so:libSDL-1.2.so.0 so:libSDL_image-1.2.so.0 so:libSDL_mixer-1.2.so.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpng16.so.16 so:libstdc++.so.6
+origin	pingus
+repo	community
+file	pingus-0.7.6-r12.apk
+checksum	Q1gYNgGdHLR4y1ga9SAZOyIidEa3A=
+dep	pingus-data	pingus-data
+dep	libmikmod	libmikmod
+dep	so:libGL.so.1	mesa-gl
+dep	so:libSDL-1.2.so.0	sdl12-compat
+dep	so:libSDL_image-1.2.so.0	sdl_image
+dep	so:libSDL_mixer-1.2.so.0	sdl_mixer
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++

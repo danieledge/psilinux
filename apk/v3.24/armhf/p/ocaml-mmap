@@ -1,0 +1,19 @@
+name	ocaml-mmap
+version	1.2.0-r6
+description	File mapping functionality
+url	https://github.com/mirage/mmap
+license	LGPL-2.1-only WITH OCaml-LGPL-linking-exception
+size	7120
+installed-size	11845
+depends	ocaml4-impl:Unix:f178ae69c20aeb74201b0bb0f388ec23 ocaml4-intf:Bigarray_compat:efc1dd92ff4cb7a73bcbd0e6fff7aa6c ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15 ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91 ocaml4-intf:Stdlib__Bigarray:994a14f10d5ae081663b52b790ee11d3 ocaml4-intf:Stdlib__Complex:4555217c759e89d65daa8f682eb09b35 ocaml4-intf:Unix:d81af7730241956ddaf1c2d19ed2cb1c
+origin	ocaml-mmap
+repo	community
+file	ocaml-mmap-1.2.0-r6.apk
+checksum	Q1AXwMfTpIG0JXx+e4B9snGCeUQ+k=
+dep	ocaml4-impl:Unix:f178ae69c20aeb74201b0bb0f388ec23	ocaml
+dep	ocaml4-intf:Bigarray_compat:efc1dd92ff4cb7a73bcbd0e6fff7aa6c	ocaml-bigarray-compat
+dep	ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15	ocaml
+dep	ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91	ocaml
+dep	ocaml4-intf:Stdlib__Bigarray:994a14f10d5ae081663b52b790ee11d3	ocaml
+dep	ocaml4-intf:Stdlib__Complex:4555217c759e89d65daa8f682eb09b35	ocaml
+dep	ocaml4-intf:Unix:d81af7730241956ddaf1c2d19ed2cb1c	ocaml

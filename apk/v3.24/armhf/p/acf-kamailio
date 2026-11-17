@@ -1,0 +1,15 @@
+name	acf-kamailio
+version	0.10.0-r4
+description	Web-based system administration interface for kamailio
+url	https://gitlab.alpinelinux.org/acf/acf-kamailio
+license	GPL-2.0-only
+size	8085
+installed-size	22532
+depends	acf-core kamailio acf-db-lib
+origin	acf-kamailio
+repo	main
+file	acf-kamailio-0.10.0-r4.apk
+checksum	Q1H/l3rJLD1E89I2XvedO6MlqKpaM=
+dep	acf-core	acf-core
+dep	kamailio	kamailio
+dep	acf-db-lib	acf-db-lib

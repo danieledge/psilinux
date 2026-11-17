@@ -1,0 +1,18 @@
+name	libwebsockets-dev
+version	4.3.5-r2
+description	C library for lightweight websocket clients and servers (development files)
+url	https://libwebsockets.org/
+license	MIT
+size	216035
+installed-size	817258
+depends	libwebsockets-evlib_ev libwebsockets-evlib_event libwebsockets-evlib_glib libwebsockets-evlib_uv libwebsockets=4.3.5-r2 pkgconfig
+origin	libwebsockets
+repo	main
+file	libwebsockets-dev-4.3.5-r2.apk
+checksum	Q1vcgwxaZiFSUF1WqBo2MQu7zBHqs=
+dep	libwebsockets-evlib_ev	libwebsockets-evlib_ev
+dep	libwebsockets-evlib_event	libwebsockets-evlib_event
+dep	libwebsockets-evlib_glib	libwebsockets-evlib_glib
+dep	libwebsockets-evlib_uv	libwebsockets-evlib_uv
+dep	libwebsockets=4.3.5-r2	libwebsockets
+dep	pkgconfig	pkgconf

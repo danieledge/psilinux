@@ -1,0 +1,22 @@
+name	grpc-plugins
+version	1.78.1-r2
+description	Protocol buffers compiler plugins for gRPC
+url	https://grpc.io/
+license	Apache-2.0 AND BSD-3-Clause AND MIT
+size	76480
+installed-size	186296
+depends	grpc-cpp=1.78.1-r2 protobuf so:libabsl_hash.so.2508.0.0 so:libabsl_raw_hash_set.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgrpc_plugin_support.so.1.78 so:libprotobuf.so.31 so:libprotoc.so.31 so:libstdc++.so.6
+origin	grpc
+repo	community
+file	grpc-plugins-1.78.1-r2.apk
+checksum	Q1xQlzoarNHxdR+7Bv2Ohzj8wwrI0=
+dep	grpc-cpp=1.78.1-r2	grpc-cpp
+dep	protobuf	protobuf
+dep	so:libabsl_hash.so.2508.0.0	abseil-cpp-hash
+dep	so:libabsl_raw_hash_set.so.2508.0.0	abseil-cpp-raw-hash-set
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgrpc_plugin_support.so.1.78	grpc-cpp
+dep	so:libprotobuf.so.31	libprotobuf
+dep	so:libprotoc.so.31	libprotoc
+dep	so:libstdc++.so.6	libstdc++

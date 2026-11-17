@@ -1,0 +1,17 @@
+name	libzeitgeist
+version	1.0.4-r5
+description	Activity logging framework (libraries)
+url	https://zeitgeist.freedesktop.org/
+license	LGPL-2.1-or-later
+size	143815
+installed-size	398560
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libsqlite3.so.0
+origin	zeitgeist
+repo	community
+file	libzeitgeist-1.0.4-r5.apk
+checksum	Q12TBSN5UI0GH0oe7uLApVaIazsmw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libsqlite3.so.0	sqlite-libs

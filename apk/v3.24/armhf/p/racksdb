@@ -1,0 +1,13 @@
+name	racksdb
+version	0.7.0-r2
+description	YAML-based database of datacenter infrastructures
+url	https://rackslab.io/en/solutions/racksdb/
+license	GPL-3.0-or-later
+size	6251
+installed-size	27376
+depends	py3-racksdb=0.7.0-r2
+origin	racksdb
+repo	community
+file	racksdb-0.7.0-r2.apk
+checksum	Q103CCZdq61psDg3l9x2MFEVwYnww=
+dep	py3-racksdb=0.7.0-r2	py3-racksdb

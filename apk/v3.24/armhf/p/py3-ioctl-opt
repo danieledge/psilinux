@@ -1,0 +1,13 @@
+name	py3-ioctl-opt
+version	1.3-r1
+description	Pythonified linux asm-generic/ioctl.h
+url	https://github.com/vpelletier/python-ioctl-opt
+license	GPL-2.0-or-later
+size	12332
+installed-size	27698
+depends	python3~3.14
+origin	py3-ioctl-opt
+repo	community
+file	py3-ioctl-opt-1.3-r1.apk
+checksum	Q17fyH0lOKwQfmPd3UzCjhY7VcuXY=
+dep	python3~3.14	python3

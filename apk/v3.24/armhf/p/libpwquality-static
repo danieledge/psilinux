@@ -1,0 +1,13 @@
+name	libpwquality-static
+version	1.4.5-r6
+description	Password quality checking library (static library)
+url	https://github.com/libpwquality/libpwquality
+license	BSD-3-Clause
+size	12654
+installed-size	28788
+depends	libpwquality-dev
+origin	libpwquality
+repo	community
+file	libpwquality-static-1.4.5-r6.apk
+checksum	Q1yNRdelGyETfqh2u72bOoLeaDdIs=
+dep	libpwquality-dev	libpwquality-dev

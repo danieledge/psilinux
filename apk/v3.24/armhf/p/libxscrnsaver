@@ -1,0 +1,15 @@
+name	libxscrnsaver
+version	1.2.5-r0
+description	X.Org screen saver extension
+url	https://cgit.freedesktop.org/xorg/lib/libXScrnSaver/
+license	MIT
+size	5359
+installed-size	9384
+depends	so:libX11.so.6 so:libXext.so.6 so:libc.musl-armhf.so.1
+origin	libxscrnsaver
+repo	community
+file	libxscrnsaver-1.2.5-r0.apk
+checksum	Q1w8KHA4b0dacMcLtrSjCYoCQmey4=
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libc.musl-armhf.so.1	musl

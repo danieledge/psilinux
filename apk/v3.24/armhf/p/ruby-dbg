@@ -1,0 +1,12 @@
+name	ruby-dbg
+version	3.4.12-r0
+description	An object-oriented language for quick and easy programming (debug symbols)
+url	https://www.ruby-lang.org/
+license	Ruby AND BSD-2-Clause AND MIT
+size	10986245
+installed-size	11973808
+depends	!ruby-libs<3.4.12-r0 !ruby-libs>3.4.12-r0 !ruby<3.4.12-r0 !ruby>3.4.12-r0
+origin	ruby
+repo	main
+file	ruby-dbg-3.4.12-r0.apk
+checksum	Q1oyV/KWvhwalaE9rxtC/u6cM0y1U=

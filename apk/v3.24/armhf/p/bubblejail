@@ -1,0 +1,20 @@
+name	bubblejail
+version	0.10.3-r0
+description	Bubblewrap based sandboxing for desktop applications
+url	https://github.com/igo95862/bubblejail
+license	GPL-3.0-or-later
+size	64778
+installed-size	203285
+depends	bubblewrap libseccomp py3-cattrs py3-lxns py3-tomli-w py3-xdg xdg-dbus-proxy python3~3.14
+origin	bubblejail
+repo	community
+file	bubblejail-0.10.3-r0.apk
+checksum	Q1SW1xSe/IyL9rSJObP5PDeOOTqbg=
+dep	bubblewrap	bubblewrap
+dep	libseccomp	libseccomp
+dep	py3-cattrs	py3-cattrs
+dep	py3-lxns	py3-lxns
+dep	py3-tomli-w	py3-tomli-w
+dep	py3-xdg	py3-xdg
+dep	xdg-dbus-proxy	xdg-dbus-proxy
+dep	python3~3.14	python3

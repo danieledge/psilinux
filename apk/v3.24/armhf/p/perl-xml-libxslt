@@ -1,0 +1,18 @@
+name	perl-xml-libxslt
+version	2.003000-r2
+description	Interface to GNOME libxslt library
+url	https://metacpan.org/release/XML-LibXSLT/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	32605
+installed-size	85874
+depends	perl perl-xml-libxml so:libc.musl-armhf.so.1 so:libexslt.so.0 so:libxml2.so.2 so:libxslt.so.1
+origin	perl-xml-libxslt
+repo	community
+file	perl-xml-libxslt-2.003000-r2.apk
+checksum	Q1YOml1xMbufkZ2vLUaj+xKKd4sD0=
+dep	perl	perl
+dep	perl-xml-libxml	perl-xml-libxml
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexslt.so.0	libxslt
+dep	so:libxml2.so.2	libxml2
+dep	so:libxslt.so.1	libxslt

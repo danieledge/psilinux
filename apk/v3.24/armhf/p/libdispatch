@@ -1,0 +1,14 @@
+name	libdispatch
+version	6.1.2-r0
+description	Comprehensive support for concurrent code execution on multicore hardware
+url	https://apple.github.io/swift-corelibs-libdispatch
+license	Apache-2.0
+size	85492
+installed-size	246428
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	libdispatch
+repo	community
+file	libdispatch-6.1.2-r0.apk
+checksum	Q1DPv17+qqiZa7bul/9aL9flXIylA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

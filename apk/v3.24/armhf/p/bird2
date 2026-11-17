@@ -1,0 +1,17 @@
+name	bird2
+version	2.19.3-r0
+description	BIRD Internet Routing Daemon
+url	https://bird.network.cz/
+license	GPL-2.0-or-later
+size	506200
+installed-size	1247585
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libncursesw.so.6 so:libreadline.so.8 so:libssh.so.4
+origin	bird2
+repo	community
+file	bird2-2.19.3-r0.apk
+checksum	Q1M36KKzfwcAvKnHuwJ7geAgwjRBk=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libreadline.so.8	readline
+dep	so:libssh.so.4	libssh

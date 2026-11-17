@@ -1,0 +1,15 @@
+name	postgresql17-plperl-contrib
+version	17.12-r0
+description	PL/Perl extension modules distributed with PostgreSQL
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	6342
+installed-size	10918
+depends	postgresql17-plperl=17.12-r0 so:libc.musl-armhf.so.1 so:libperl.so
+origin	postgresql17
+repo	main
+file	postgresql17-plperl-contrib-17.12-r0.apk
+checksum	Q1ant8yahFb4EDOOUZdbDQd4bNShQ=
+dep	postgresql17-plperl=17.12-r0	postgresql17-plperl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libperl.so	perl

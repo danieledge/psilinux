@@ -1,0 +1,18 @@
+name	openssh-server
+version	10.3_p1-r2
+description	OpenSSH server
+url	https://www.openssh.com/portable.html
+license	SSH-OpenSSH
+size	888586
+installed-size	1902092
+depends	openssh-keygen=10.3_p1-r2 openssh-server-common=10.3_p1-r2 /bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libz.so.1
+origin	openssh
+repo	main
+file	openssh-server-10.3_p1-r2.apk
+checksum	Q1Ml0171gX5t67ea2USvApGmlZo/Y=
+dep	openssh-keygen=10.3_p1-r2	openssh-keygen
+dep	openssh-server-common=10.3_p1-r2	openssh-server-common
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libz.so.1	zlib

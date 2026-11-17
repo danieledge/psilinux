@@ -1,0 +1,15 @@
+name	nginx-mod-http-zstd
+version	1.30.6-r0
+description	Nginx third-party module http-zstd (version 0.1.1)
+url	https://github.com/tokers/zstd-nginx-module
+license	BSD-2-Clause
+size	10066
+installed-size	23484
+depends	nginx=1.30.6-r0 so:libc.musl-armhf.so.1 so:libzstd.so.1
+origin	nginx
+repo	main
+file	nginx-mod-http-zstd-1.30.6-r0.apk
+checksum	Q13I9DdyiJcRdno9+EceJJZI8LlNU=
+dep	nginx=1.30.6-r0	nginx
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libzstd.so.1	zstd-libs

@@ -1,0 +1,14 @@
+name	ocaml-mirage-random-dev
+version	3.0.0-r5
+description	Random-related devices for MirageOS (development files)
+url	https://github.com/mirage/mirage-random
+license	ISC
+size	5430
+installed-size	8533
+depends	ocaml-mirage-random=3.0.0-r5 ocaml-cstruct-dev
+origin	ocaml-mirage-random
+repo	community
+file	ocaml-mirage-random-dev-3.0.0-r5.apk
+checksum	Q1VEE3ezV54DkMcn9q7T2wIyPolN8=
+dep	ocaml-mirage-random=3.0.0-r5	ocaml-mirage-random
+dep	ocaml-cstruct-dev	ocaml-cstruct-dev

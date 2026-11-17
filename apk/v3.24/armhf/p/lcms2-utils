@@ -1,0 +1,16 @@
+name	lcms2-utils
+version	2.19-r0
+description	Utility applications for lcms2
+url	https://www.littlecms.com
+license	MIT
+size	45463
+installed-size	134656
+depends	so:libc.musl-armhf.so.1 so:libjpeg.so.8 so:liblcms2.so.2 so:libtiff.so.6
+origin	lcms2
+repo	main
+file	lcms2-utils-2.19-r0.apk
+checksum	Q10zjEmu69J4K7784BK5Jx3nioH0M=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:liblcms2.so.2	lcms2
+dep	so:libtiff.so.6	tiff

@@ -1,0 +1,14 @@
+name	perl-data-uuid
+version	1.227-r2
+description	Globally/Universally Unique Identifiers (GUIDs/UUIDs)
+url	https://metacpan.org/release/Data-UUID/
+license	osf-1990(variant)
+size	12034
+installed-size	22112
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-data-uuid
+repo	main
+file	perl-data-uuid-1.227-r2.apk
+checksum	Q1/Ul9EeIUFbh44zUhNpIvGkke/bQ=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

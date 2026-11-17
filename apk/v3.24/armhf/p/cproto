@@ -1,0 +1,13 @@
+name	cproto
+version	4.7y-r1
+description	Generate C function prototypes from C source code
+url	https://invisible-island.net/cproto/
+license	Public-Domain
+size	34688
+installed-size	71044
+depends	so:libc.musl-armhf.so.1
+origin	cproto
+repo	community
+file	cproto-4.7y-r1.apk
+checksum	Q1QIYRcncVvLkZS6arW3iDo83NcRQ=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	axc-dev
+version	0.3.7-r2
+description	Client lib for libsignal-c (development files)
+url	https://github.com/gkdr/axc
+license	GPL-3.0-or-later
+size	6233
+installed-size	18278
+depends	axc=0.3.7-r2 pc:libsignal-protocol-c pkgconfig
+origin	axc
+repo	community
+file	axc-dev-0.3.7-r2.apk
+checksum	Q11UzrzzdErzff4mZe+mEwGCjPL7M=
+dep	axc=0.3.7-r2	axc
+dep	pc:libsignal-protocol-c	libsignal-protocol-c-dev
+dep	pkgconfig	pkgconf

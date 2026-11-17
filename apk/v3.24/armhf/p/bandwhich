@@ -1,0 +1,14 @@
+name	bandwhich
+version	0.23.1-r0
+description	Terminal bandwidth utilization tool
+url	https://github.com/imsnif/bandwhich
+license	MIT
+size	943419
+installed-size	1858260
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	bandwhich
+repo	community
+file	bandwhich-0.23.1-r0.apk
+checksum	Q1HTBGWbXToY31sGHjauLmPW0dNqU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

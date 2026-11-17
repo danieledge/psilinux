@@ -1,0 +1,13 @@
+name	ntfs-3g-static
+version	2026.2.25-r0
+description	Stable, full-featured, read-write NTFS (static library)
+url	https://www.tuxera.com/company/open-source/
+license	GPL-2.0-only
+size	198600
+installed-size	447010
+depends	ntfs-3g-dev
+origin	ntfs-3g
+repo	main
+file	ntfs-3g-static-2026.2.25-r0.apk
+checksum	Q17s3telj3UUEWgTPxewWYJyfzKF4=
+dep	ntfs-3g-dev	ntfs-3g-dev

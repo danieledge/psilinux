@@ -1,0 +1,13 @@
+name	py3-xxhash-pyc
+version	3.5.0-r1
+description	Precompiled Python bytecode for py3-xxhash
+url	https://github.com/ifduyue/python-xxhash
+license	BSD-2-Clause
+size	2418
+installed-size	1220
+depends	python3~3.14
+origin	py3-xxhash
+repo	community
+file	py3-xxhash-pyc-3.5.0-r1.apk
+checksum	Q1p99cmZuSiu/FoCmLXyptvKYI6Jc=
+dep	python3~3.14	python3

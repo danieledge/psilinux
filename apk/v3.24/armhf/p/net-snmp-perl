@@ -1,0 +1,16 @@
+name	net-snmp-perl
+version	5.9.5.2-r0
+description	The perl NET-SNMP module and the mib2c tool
+url	http://www.net-snmp.org/
+license	Net-SNMP
+size	284688
+installed-size	1097193
+depends	so:libc.musl-armhf.so.1 so:libnetsnmp.so.45 so:libnetsnmpagent.so.45 so:libnetsnmptrapd.so.45
+origin	net-snmp
+repo	main
+file	net-snmp-perl-5.9.5.2-r0.apk
+checksum	Q1RC/DLU4lWsSANYCgo1EcG/HDjZ0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnetsnmp.so.45	net-snmp-libs
+dep	so:libnetsnmpagent.so.45	net-snmp-agent-libs
+dep	so:libnetsnmptrapd.so.45	net-snmp-agent-libs

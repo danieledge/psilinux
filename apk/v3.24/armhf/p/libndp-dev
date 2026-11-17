@@ -1,0 +1,14 @@
+name	libndp-dev
+version	1.9-r1
+description	Library for IPv6 Neighbor Discovery Protocol (development files)
+url	http://libndp.org
+license	LGPL-2.1-or-later
+size	4084
+installed-size	8568
+depends	libndp=1.9-r1 pkgconfig
+origin	libndp
+repo	community
+file	libndp-dev-1.9-r1.apk
+checksum	Q1CsLCtlyqjYArig5kTbUw4aEHRCU=
+dep	libndp=1.9-r1	libndp
+dep	pkgconfig	pkgconf

@@ -1,0 +1,12 @@
+name	postgresql-bdr-openrc
+version	9.4.14_p1-r17
+description	A sophisticated object-relational DBMS with bidirectional replication support (BDR) (OpenRC init scripts)
+url	https://www.enterprisedb.com/products/bidirectional-replication-bdr-postgresql-database
+license	PostgreSQL
+size	4840
+installed-size	7028
+depends	
+origin	postgresql-bdr
+repo	community
+file	postgresql-bdr-openrc-9.4.14_p1-r17.apk
+checksum	Q1vZk/eukFU45h5lGOChUsJKuLewc=

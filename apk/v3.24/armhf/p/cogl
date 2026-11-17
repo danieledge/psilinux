@@ -1,0 +1,32 @@
+name	cogl
+version	1.22.8-r5
+description	An object oriented GL/GLES Abstraction/Utility Layer
+url	https://gitlab.gnome.org/Archive/cogl
+license	MIT
+size	488654
+installed-size	941060
+depends	so:libEGL.so.1 so:libX11.so.6 so:libXdamage.so.1 so:libXext.so.6 so:libXfixes.so.3 so:libXrandr.so.2 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdrm.so.2 so:libgbm.so.1 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libwayland-client.so.0 so:libwayland-egl.so.1 so:libwayland-server.so.0
+origin	cogl
+repo	community
+file	cogl-1.22.8-r5.apk
+checksum	Q1JtW9CuC1/6nuby3teqsArfJsPxA=
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libX11.so.6	libx11
+dep	so:libXdamage.so.1	libxdamage
+dep	so:libXext.so.6	libxext
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libdrm.so.2	libdrm
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-egl.so.1	wayland-libs-egl
+dep	so:libwayland-server.so.0	wayland-libs-server

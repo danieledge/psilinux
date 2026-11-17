@@ -1,0 +1,17 @@
+name	openrct2-cli
+version	0.5.1-r0
+description	Open-source re-implementation of Roller Coaster Tycoon 2
+url	https://openrct2.io
+license	GPL-3.0-only
+size	3941
+installed-size	5504
+depends	openrct2-data /bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libopenrct2.so
+origin	openrct2
+repo	community
+file	openrct2-cli-0.5.1-r0.apk
+checksum	Q1k8hSdyCi60238qcrGfDAAKZfU38=
+dep	openrct2-data	openrct2-data
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libopenrct2.so	openrct2

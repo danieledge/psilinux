@@ -1,0 +1,15 @@
+name	rabbitmq-c
+version	0.15.0-r0
+description	RabbitMQ C client
+url	https://github.com/alanxz/rabbitmq-c
+license	MIT
+size	35193
+installed-size	79180
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	rabbitmq-c
+repo	main
+file	rabbitmq-c-0.15.0-r0.apk
+checksum	Q1XUgbRhE3r8KlQPE+sZb8yuYM9XQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,22 @@
+name	malcontent-libs
+version	0.14.0-r0
+description	Parental control support for applications (libraries)
+url	https://gitlab.freedesktop.org/pwithnall/malcontent
+license	LGPL-2.1-or-later
+size	63206
+installed-size	167596
+depends	so:libaccountsservice.so.0 so:libadwaita-1.so.0 so:libappstream.so.5 so:libc.musl-armhf.so.1 so:libflatpak.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8
+origin	malcontent
+repo	community
+file	malcontent-libs-0.14.0-r0.apk
+checksum	Q1aK2MmWaytcbrQAYHsbJD/7aJ0Eg=
+dep	so:libaccountsservice.so.0	libaccountsservice
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libappstream.so.5	appstream
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libflatpak.so.0	flatpak-libs
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl

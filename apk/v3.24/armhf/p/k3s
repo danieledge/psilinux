@@ -1,0 +1,22 @@
+name	k3s
+version	1.36.1.1-r2
+description	Lightweight Kubernetes. 5 less than k8s
+url	https://k3s.io
+license	Apache-2.0
+size	63869765
+installed-size	201770079
+depends	cni-plugins cni-plugin-flannel conntrack-tools containerd coreutils dbus findutils ipset iptables /bin/sh
+origin	k3s
+repo	community
+file	k3s-1.36.1.1-r2.apk
+checksum	Q17UJtXKjTAESva19/ymanvh4GEu8=
+dep	cni-plugins	cni-plugins
+dep	cni-plugin-flannel	cni-plugin-flannel
+dep	conntrack-tools	conntrack-tools
+dep	containerd	containerd
+dep	coreutils	coreutils
+dep	dbus	dbus
+dep	findutils	findutils
+dep	ipset	ipset
+dep	iptables	iptables
+dep	/bin/sh	busybox-binsh

@@ -1,0 +1,15 @@
+name	alsa-plugins
+version	1.2.12-r2
+description	Advanced Linux Sound Architecture (ALSA) plugins
+url	https://alsa-project.org/
+license	GPL-2.0-or-later LGPL-2.1-or-later
+size	38335
+installed-size	108544
+depends	so:libasound.so.2 so:libc.musl-armhf.so.1 so:libsamplerate.so.0
+origin	alsa-plugins
+repo	community
+file	alsa-plugins-1.2.12-r2.apk
+checksum	Q10u2QjZXkgmkZ6Yiht7OTXRw8SUo=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsamplerate.so.0	libsamplerate

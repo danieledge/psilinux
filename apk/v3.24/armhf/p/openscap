@@ -1,0 +1,34 @@
+name	openscap
+version	1.4.4-r0
+description	NIST Certified SCAP 1.2 toolkit
+url	https://www.open-scap.org/tools/openscap-base/
+license	LGPL-2.1-or-later
+size	6102145
+installed-size	69773602
+depends	bash python3~3.14 so:libacl.so.1 so:libblkid.so.1 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcap.so.2 so:libcurl.so.4 so:libdbus-1.so.3 so:libexslt.so.0 so:libgcrypt.so.20 so:libopendbx.so.1 so:libpcre2-8.so.0 so:libprocps.so.8 so:libpython3.14.so.1.0 so:librpm.so.10 so:librpmio.so.10 so:libselinux.so.1 so:libxml2.so.2 so:libxmlsec1-openssl.so.1 so:libxmlsec1.so.1 so:libxslt.so.1
+origin	openscap
+repo	community
+file	openscap-1.4.4-r0.apk
+checksum	Q1I/7Bz/cIp45/oDpE4Q0HIEZKCJQ=
+dep	bash	bash
+dep	python3~3.14	python3
+dep	so:libacl.so.1	acl-libs
+dep	so:libblkid.so.1	libblkid
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libcurl.so.4	libcurl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libexslt.so.0	libxslt
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libopendbx.so.1	libopendbx
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libprocps.so.8	procps-compat-libs
+dep	so:libpython3.14.so.1.0	python3
+dep	so:librpm.so.10	rpm
+dep	so:librpmio.so.10	rpm
+dep	so:libselinux.so.1	libselinux
+dep	so:libxml2.so.2	libxml2
+dep	so:libxmlsec1-openssl.so.1	!
+dep	so:libxmlsec1.so.1	!
+dep	so:libxslt.so.1	libxslt

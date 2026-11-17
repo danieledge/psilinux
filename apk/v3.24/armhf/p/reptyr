@@ -1,0 +1,13 @@
+name	reptyr
+version	0.10.0-r0
+description	Reparent a running program to a new terminal
+url	https://github.com/nelhage/reptyr
+license	MIT
+size	14618
+installed-size	29948
+depends	so:libc.musl-armhf.so.1
+origin	reptyr
+repo	community
+file	reptyr-0.10.0-r0.apk
+checksum	Q1sZbRCgJqYOe6qvWI49GGK+7QIqE=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	ocamlnet-dev
+version	4.1.9-r5
+description	Network and system programming library for OCaml (development files)
+url	http://projects.camlcity.org/projects/ocamlnet.html
+license	zlib-acknowledgement AND BSD-3-Clause AND GPL-2.0-only
+size	6160006
+installed-size	17111780
+depends	ocamlnet=4.1.9-r5
+origin	ocamlnet
+repo	community
+file	ocamlnet-dev-4.1.9-r5.apk
+checksum	Q1RNcH0ZPPK8jESTvBCb8JpmOGiNQ=
+dep	ocamlnet=4.1.9-r5	ocamlnet

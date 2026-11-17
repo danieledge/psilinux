@@ -1,0 +1,15 @@
+name	thin-provisioning-tools
+version	1.3.2-r0
+description	suite of tools for manipulating the metadata of the dm-thin device-mapper target
+url	https://github.com/jthornber/thin-provisioning-tools
+license	GPL-3.0-only
+size	937268
+installed-size	1823828
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libudev.so.1
+origin	thin-provisioning-tools
+repo	community
+file	thin-provisioning-tools-1.3.2-r0.apk
+checksum	Q1+Nlk1rwCsgRu15ssmUX+v0ZtIPU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libudev.so.1	eudev-libs

@@ -1,0 +1,13 @@
+name	tree-sitter-ruby
+version	0.23.1-r1
+description	Ruby grammar for tree-sitter
+url	https://github.com/tree-sitter/tree-sitter-ruby
+license	MIT
+size	170001
+installed-size	2114995
+depends	so:libc.musl-armhf.so.1
+origin	tree-sitter-ruby
+repo	community
+file	tree-sitter-ruby-0.23.1-r1.apk
+checksum	Q1eKj26lrTh4LgQ3tA0zvaqeFVxOc=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	ruby-liquid
+version	4.0.4-r2
+description	A secure, non-evaling end user template engine with aesthetic markup
+url	https://shopify.github.io/liquid/
+license	MIT
+size	34276
+installed-size	104690
+depends	ruby ruby-bigdecimal
+origin	ruby-liquid
+repo	community
+file	ruby-liquid-4.0.4-r2.apk
+checksum	Q1h7qkvjRm77EUTT2Om00pn96aAhY=
+dep	ruby	ruby
+dep	ruby-bigdecimal	ruby-bigdecimal

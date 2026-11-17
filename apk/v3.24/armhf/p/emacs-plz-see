@@ -1,0 +1,14 @@
+name	emacs-plz-see
+version	0_git20231101-r1
+description	Interactive HTTP client based on Emacs-plz
+url	https://github.com/astoff/plz-see.el
+license	GPL-3.0-or-later
+size	8067
+installed-size	23936
+depends	cmd:emacs emacs-plz
+origin	emacs-plz-see
+repo	community
+file	emacs-plz-see-0_git20231101-r1.apk
+checksum	Q1fN0aGRYTJRU/QgShUfoDL/gl6Z8=
+dep	cmd:emacs	emacs-gtk3
+dep	emacs-plz	emacs-plz

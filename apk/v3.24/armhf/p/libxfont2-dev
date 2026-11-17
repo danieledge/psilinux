@@ -1,0 +1,19 @@
+name	libxfont2-dev
+version	2.0.8-r0
+description	X.Org X11 libXfont2 runtime library (development files)
+url	https://www.x.org
+license	MIT
+size	4133
+installed-size	5580
+depends	libxfont2=2.0.8-r0 pc:fontenc pc:fontsproto pc:freetype2 pc:xproto pc:zlib pkgconfig
+origin	libxfont2
+repo	community
+file	libxfont2-dev-2.0.8-r0.apk
+checksum	Q10dRIuwD6qyOlJchDn3pb1z96VUo=
+dep	libxfont2=2.0.8-r0	libxfont2
+dep	pc:fontenc	libfontenc-dev
+dep	pc:fontsproto	xorgproto
+dep	pc:freetype2	freetype-dev
+dep	pc:xproto	xorgproto
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

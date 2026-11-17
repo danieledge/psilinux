@@ -1,0 +1,15 @@
+name	py3-pytest-jupyter
+version	0.11.0-r1
+description	A pytest plugin for testing Jupyter core libraries and extensions.
+url	https://github.com/jupyter-server/pytest-jupyter
+license	BSD-3-Clause
+size	15335
+installed-size	44483
+depends	py3-pytest py3-jupyter_core python3~3.14
+origin	py3-pytest-jupyter
+repo	community
+file	py3-pytest-jupyter-0.11.0-r1.apk
+checksum	Q1bSL+G/+VdeuitNjrBEX9AwOCEiQ=
+dep	py3-pytest	py3-pytest
+dep	py3-jupyter_core	py3-jupyter_core
+dep	python3~3.14	python3

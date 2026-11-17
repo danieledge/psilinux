@@ -1,0 +1,14 @@
+name	darkhttpd
+version	1.17-r0
+description	A simple, single-threaded, static content webserver
+url	https://unix4lyfe.org/darkhttpd/
+license	ISC
+size	21218
+installed-size	38224
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	darkhttpd
+repo	main
+file	darkhttpd-1.17-r0.apk
+checksum	Q1XJkzNdG2VAQ9CZk6fksm3+V0D7k=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

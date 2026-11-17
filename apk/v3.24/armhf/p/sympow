@@ -1,0 +1,14 @@
+name	sympow
+version	2.023.7-r3
+description	Compute special values of symmetric power elliptic curve L-functions
+url	https://gitlab.com/rezozer/forks/sympow
+license	BSD-2-Clause
+size	1904839
+installed-size	5005505
+depends	pari so:libc.musl-armhf.so.1
+origin	sympow
+repo	community
+file	sympow-2.023.7-r3.apk
+checksum	Q15j5z3EZwcoPNTDM2kpb8DbOxjSY=
+dep	pari	pari
+dep	so:libc.musl-armhf.so.1	musl

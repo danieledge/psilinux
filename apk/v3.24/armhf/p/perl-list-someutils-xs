@@ -1,0 +1,14 @@
+name	perl-list-someutils-xs
+version	0.58-r9
+description	XS implementation for List::SomeUtils
+url	https://metacpan.org/release/List-SomeUtils-XS/
+license	Artistic-2.0
+size	27307
+installed-size	78308
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-list-someutils-xs
+repo	main
+file	perl-list-someutils-xs-0.58-r9.apk
+checksum	Q1L6CBn/hs3Ew5t/pzhESqgwo7JHw=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

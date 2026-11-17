@@ -1,0 +1,23 @@
+name	xfe-xfw
+version	2.1.6-r0
+description	MS-Explorer or Commander like file manager for X (text editor)
+url	http://roland65.free.fr/xfe/index.php?page=home
+license	GPL-2.0-only
+size	337118
+installed-size	795968
+depends	so:libFOX-1.6.so.0 so:libX11-xcb.so.1 so:libX11.so.6 so:libXft.so.2 so:libc.musl-armhf.so.1 so:libfontconfig.so.1 so:libgcc_s.so.1 so:libintl.so.8 so:libstdc++.so.6 so:libxcb-util.so.1 so:libxcb.so.1
+origin	xfe
+repo	community
+file	xfe-xfw-2.1.6-r0.apk
+checksum	Q1mzXa0YNCJ4oAKTOADTi8/9+BPY8=
+dep	so:libFOX-1.6.so.0	fox
+dep	so:libX11-xcb.so.1	libx11
+dep	so:libX11.so.6	libx11
+dep	so:libXft.so.2	libxft
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libintl.so.8	libintl
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxcb-util.so.1	xcb-util
+dep	so:libxcb.so.1	libxcb

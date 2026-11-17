@@ -1,0 +1,13 @@
+name	wiringpi
+version	3.16-r0
+description	command line interface for Raspberry Pi gpio
+url	https://github.com/WiringPi/WiringPi
+license	LGPL-3.0-or-later
+size	60273
+installed-size	135268
+depends	so:libc.musl-armhf.so.1
+origin	wiringpi
+repo	community
+file	wiringpi-3.16-r0.apk
+checksum	Q1+Y5Rn2N/kWgK6x2d+D0zxAv2LGw=
+dep	so:libc.musl-armhf.so.1	musl

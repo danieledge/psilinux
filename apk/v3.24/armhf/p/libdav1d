@@ -1,0 +1,13 @@
+name	libdav1d
+version	1.5.3-r0
+description	small and fast AV1 Decoder (libraries)
+url	https://code.videolan.org/videolan/dav1d
+license	BSD-2-Clause
+size	362233
+installed-size	742580
+depends	so:libc.musl-armhf.so.1
+origin	dav1d
+repo	main
+file	libdav1d-1.5.3-r0.apk
+checksum	Q1wt6+p/nIjA1ZvKou/VreEafyMBs=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	perl-encode-hanextra
+version	0.23-r15
+description	Extra sets of Chinese encodings
+url	https://metacpan.org/release/Encode-HanExtra/
+license	MIT
+size	2072211
+installed-size	5314810
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-encode-hanextra
+repo	main
+file	perl-encode-hanextra-0.23-r15.apk
+checksum	Q1Ushn5okQ6aPuRcQbK632hPKrNFo=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

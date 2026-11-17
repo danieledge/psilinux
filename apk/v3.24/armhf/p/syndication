@@ -1,0 +1,18 @@
+name	syndication
+version	6.26.0-r0
+description	An RSS/Atom parser library
+url	https://community.kde.org/Frameworks
+license	LGPL-2.0-or-later AND BSD-3-Clause
+size	247594
+installed-size	763949
+depends	so:libKF6Codecs.so.6 so:libQt6Core.so.6 so:libQt6Xml.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	syndication
+repo	community
+file	syndication-6.26.0-r0.apk
+checksum	Q14rKXAkM0hEsxQsjkbzbcDzQsH7A=
+dep	so:libKF6Codecs.so.6	kcodecs
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Xml.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

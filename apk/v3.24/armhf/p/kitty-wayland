@@ -1,0 +1,18 @@
+name	kitty-wayland
+version	0.47.0-r2
+description	Kitty GLFW backend for Wayland
+url	https://sw.kovidgoyal.net/kitty/
+license	GPL-3.0-only
+size	113997
+installed-size	331192
+depends	kitty=0.47.0-r2 wayland-libs-egl so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libwayland-client.so.0 so:libxkbcommon.so.0
+origin	kitty
+repo	community
+file	kitty-wayland-0.47.0-r2.apk
+checksum	Q1BFXyNRceljz8wV33tdHU3airbbQ=
+dep	kitty=0.47.0-r2	kitty
+dep	wayland-libs-egl	wayland-libs-egl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libxkbcommon.so.0	libxkbcommon

@@ -1,0 +1,13 @@
+name	pcre2
+version	10.49-r0
+description	Perl-compatible regular expression library
+url	https://pcre.org/
+license	BSD-3-Clause
+size	295016
+installed-size	735720
+depends	so:libc.musl-armhf.so.1
+origin	pcre2
+repo	main
+file	pcre2-10.49-r0.apk
+checksum	Q1UNQndxWxDAy3PrnEiSgqK+51Qx0=
+dep	so:libc.musl-armhf.so.1	musl

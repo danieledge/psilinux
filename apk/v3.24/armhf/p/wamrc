@@ -1,0 +1,16 @@
+name	wamrc
+version	2.4.4-r0
+description	WebAssembly Micro Runtime (WAMR) - AOT compiler
+url	https://github.com/bytecodealliance/wasm-micro-runtime
+license	Apache-2.0
+size	465047
+installed-size	1066180
+depends	so:libLLVM.so.20.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	wasm-micro-runtime
+repo	community
+file	wamrc-2.4.4-r0.apk
+checksum	Q1uHb+353XJTf9rXk63sfwnXicdrM=
+dep	so:libLLVM.so.20.1	llvm20-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

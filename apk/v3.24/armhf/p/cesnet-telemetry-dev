@@ -1,0 +1,14 @@
+name	cesnet-telemetry-dev
+version	1.4.0-r0
+description	CESNET library for the collection and processing of telemetry data (development files)
+url	https://github.com/CESNET/telemetry
+license	BSD-3-Clause
+size	8986
+installed-size	26264
+depends	cesnet-telemetry=1.4.0-r0 fuse3-dev
+origin	cesnet-telemetry
+repo	community
+file	cesnet-telemetry-dev-1.4.0-r0.apk
+checksum	Q1DoPZr/Oxq89wCXEeNva4FlNCGvE=
+dep	cesnet-telemetry=1.4.0-r0	cesnet-telemetry
+dep	fuse3-dev	fuse3-dev

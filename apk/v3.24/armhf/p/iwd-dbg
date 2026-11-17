@@ -1,0 +1,12 @@
+name	iwd-dbg
+version	3.12-r0
+description	Internet Wireless Daemon (debug symbols)
+url	https://iwd.wiki.kernel.org/
+license	LGPL-2.1-or-later
+size	3876831
+installed-size	8810300
+depends	!ead<3.12-r0 !ead>3.12-r0 !iwd<3.12-r0 !iwd>3.12-r0
+origin	iwd
+repo	community
+file	iwd-dbg-3.12-r0.apk
+checksum	Q1hmUwuvrcQmpfc7SHEEVQRjIuxBQ=

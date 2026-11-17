@@ -1,0 +1,17 @@
+name	libmatemixer-dev
+version	1.28.0-r0
+description	A mixer library for MATE desktop (development files)
+url	https://git.mate-desktop.org/libmatemixer/
+license	GPL-2.0-or-later
+size	10749
+installed-size	66131
+depends	libmatemixer=1.28.0-r0 pc:glib-2.0 pc:gmodule-2.0 pc:gobject-2.0 pkgconfig
+origin	libmatemixer
+repo	community
+file	libmatemixer-dev-1.28.0-r0.apk
+checksum	Q18kCEPl91lnGTIXnhGNLvT3LVnJU=
+dep	libmatemixer=1.28.0-r0	libmatemixer
+dep	pc:glib-2.0	glib-dev
+dep	pc:gmodule-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pkgconfig	pkgconf

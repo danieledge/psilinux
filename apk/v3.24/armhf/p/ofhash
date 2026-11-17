@@ -1,0 +1,17 @@
+name	ofhash
+version	1.5.7-r0
+description	Utility to hash files with various cryptographic hashes
+url	https://objfw.nil.im/
+license	LGPL-3.0-only
+size	12690
+installed-size	30179
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1 so:libobjfwtls.so.1
+origin	objfw
+repo	community
+file	ofhash-1.5.7-r0.apk
+checksum	Q1R8GyE9uLDo7Od/oZzd+B2fIpV0U=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libobjfw.so.1	libobjfw1
+dep	so:libobjfwrt.so.1	libobjfwrt1
+dep	so:libobjfwtls.so.1	libobjfwtls1

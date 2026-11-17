@@ -1,0 +1,29 @@
+name	freerdp2
+version	2.11.7-r1
+description	FreeRDP client, version 2
+url	https://www.freerdp.com/
+license	Apache-2.0
+size	121001
+installed-size	540224
+depends	so:libX11.so.6 so:libXcursor.so.1 so:libXext.so.6 so:libXfixes.so.3 so:libXi.so.6 so:libXinerama.so.1 so:libXrender.so.1 so:libc.musl-armhf.so.1 so:libfreerdp-client2.so.2 so:libfreerdp-server2.so.2 so:libfreerdp-shadow-subsystem2.so.2 so:libfreerdp-shadow2.so.2 so:libfreerdp2.so.2 so:librdpgfx-client.so so:libuwac0.so.0 so:libwinpr-tools2.so.2 so:libwinpr2.so.2
+origin	freerdp2
+repo	community
+file	freerdp2-2.11.7-r1.apk
+checksum	Q1Nuf8DIM0AtpvLQe0FOxnvTyYP9M=
+dep	so:libX11.so.6	libx11
+dep	so:libXcursor.so.1	libxcursor
+dep	so:libXext.so.6	libxext
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXi.so.6	libxi
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libXrender.so.1	libxrender
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreerdp-client2.so.2	freerdp2-libs
+dep	so:libfreerdp-server2.so.2	freerdp2-libs
+dep	so:libfreerdp-shadow-subsystem2.so.2	freerdp2-libs
+dep	so:libfreerdp-shadow2.so.2	freerdp2-libs
+dep	so:libfreerdp2.so.2	freerdp2-libs
+dep	so:librdpgfx-client.so	freerdp2-libs
+dep	so:libuwac0.so.0	freerdp2-libs
+dep	so:libwinpr-tools2.so.2	freerdp2-libs
+dep	so:libwinpr2.so.2	freerdp2-libs

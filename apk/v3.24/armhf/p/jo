@@ -1,0 +1,13 @@
+name	jo
+version	1.9-r2
+description	JSON output from a shell
+url	https://github.com/jpmens/jo
+license	GPL-2.0-or-later
+size	12522
+installed-size	21680
+depends	so:libc.musl-armhf.so.1
+origin	jo
+repo	community
+file	jo-1.9-r2.apk
+checksum	Q1rrzNvMYE1mLaKvSWCjbKKODtgjo=
+dep	so:libc.musl-armhf.so.1	musl

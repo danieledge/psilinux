@@ -1,0 +1,21 @@
+name	mympd
+version	25.1.1-r0
+description	Standalone and mobile friendly web-based MPD client
+url	https://jcorporation.github.io/myMPD/
+license	GPL-3.0-or-later
+size	943474
+installed-size	1420584
+depends	newt /bin/sh so:libFLAC.so.12 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libid3tag.so.0 so:liblua-5.4.so.0 so:libpcre2-8.so.0 so:libssl.so.3
+origin	mympd
+repo	community
+file	mympd-25.1.1-r0.apk
+checksum	Q1XHmdjBVJnjRL8Yk1qhR4alK0SuA=
+dep	newt	newt
+dep	/bin/sh	busybox-binsh
+dep	so:libFLAC.so.12	libflac
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libid3tag.so.0	libid3tag
+dep	so:liblua-5.4.so.0	lua5.4-libs
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libssl.so.3	libssl3

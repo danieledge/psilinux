@@ -1,0 +1,16 @@
+name	py3-ufolib2
+version	0.18.1-r1
+description	UFO font library
+url	https://github.com/fonttools/ufoLib2
+license	Apache-2.0
+size	44099
+installed-size	163995
+depends	py3-attrs py3-fonttools py3-fs python3~3.14
+origin	py3-ufolib2
+repo	community
+file	py3-ufolib2-0.18.1-r1.apk
+checksum	Q1KErn5imgu71vKUqI5LvP7F3bn2o=
+dep	py3-attrs	py3-attrs
+dep	py3-fonttools	py3-fonttools
+dep	py3-fs	py3-fs
+dep	python3~3.14	python3

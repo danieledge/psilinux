@@ -1,0 +1,17 @@
+name	gwenhywfar-gtk3
+version	5.14.1-r0
+description	Multi-platform helper library
+url	https://www.aquamaniac.de/
+license	LGPL-2.1-or-later
+size	27415
+installed-size	83064
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgwenhywfar.so.79
+origin	gwenhywfar
+repo	community
+file	gwenhywfar-gtk3-5.14.1-r0.apk
+checksum	Q1BgE4vT5UlvxFv5IUtTSlzrVQjS8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgwenhywfar.so.79	gwenhywfar

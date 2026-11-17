@@ -1,0 +1,15 @@
+name	cgreen
+version	1.6.4-r0
+description	A modern, portable, cross-language unit testing and mocking framework for C and C++
+url	https://github.com/cgreen-devs/cgreen
+license	ISC
+size	41525
+installed-size	102235
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libxml2.so.2
+origin	cgreen
+repo	community
+file	cgreen-1.6.4-r0.apk
+checksum	Q1kHz5gfpDanGm5w5IXdL1WkOTtWA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libxml2.so.2	libxml2

@@ -1,0 +1,24 @@
+name	libjxl-tools
+version	0.11.2-r1
+description	JPEG XL image format reference implementation tools (cjxl, djxl)
+url	https://jpeg.org/jpegxl/
+license	Apache-2.0
+size	221249
+installed-size	485836
+depends	so:libIex-3_4.so.33 so:libOpenEXR-3_4.so.33 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgif.so.7 so:libhwy.so.1 so:libjpeg.so.8 so:libjxl.so.0.11 so:libjxl_cms.so.0.11 so:libjxl_threads.so.0.11 so:libpng16.so.16 so:libstdc++.so.6
+origin	libjxl
+repo	community
+file	libjxl-tools-0.11.2-r1.apk
+checksum	Q1G4UUmZBXUmlcVJWPv0j9gew8iZY=
+dep	so:libIex-3_4.so.33	openexr-libiex
+dep	so:libOpenEXR-3_4.so.33	openexr-libopenexr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgif.so.7	giflib
+dep	so:libhwy.so.1	libhwy
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libjxl.so.0.11	libjxl
+dep	so:libjxl_cms.so.0.11	libjxl
+dep	so:libjxl_threads.so.0.11	libjxl
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++

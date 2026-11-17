@@ -1,0 +1,30 @@
+name	texlive
+version	2026.0-r0
+description	Comprehensive TeX document production system
+url	https://tug.org/texlive/
+license	GPL-2.0-or-later AND GPL-3.0-or-later
+size	5659239
+installed-size	13599712
+depends	ghostscript perl texmf-dist>=2025.0 texmf-dist-latex>=2025.0 /bin/sh so:libX11.so.6 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgcc_s.so.1 so:libgmp.so.10 so:libicui18n.so.78 so:libicuuc.so.78 so:libmpfr.so.6 so:libpixman-1.so.0 so:libpng16.so.16 so:libstdc++.so.6 so:libsynctex.so.2 so:libz.so.1
+origin	texlive
+repo	community
+file	texlive-2026.0-r0.apk
+checksum	Q1en47SvvzLf0kYVyE6bHlywjBjUo=
+dep	ghostscript	ghostscript
+dep	perl	perl
+dep	texmf-dist>=2025.0	texmf-dist
+dep	texmf-dist-latex>=2025.0	texmf-dist-latex
+dep	/bin/sh	busybox-binsh
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgmp.so.10	gmp
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libmpfr.so.6	mpfr4
+dep	so:libpixman-1.so.0	pixman
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libsynctex.so.2	libsynctex
+dep	so:libz.so.1	zlib

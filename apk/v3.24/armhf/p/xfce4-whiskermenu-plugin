@@ -1,0 +1,31 @@
+name	xfce4-whiskermenu-plugin
+version	2.10.1-r0
+description	Alternate application launcher for Xfce
+url	https://goodies.xfce.org/projects/panel-plugins/xfce4-whiskermenu-plugin
+license	GPL-2.0-or-later
+size	115297
+installed-size	220429
+depends	so:libaccountsservice.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libexo-2.so.0 so:libgarcon-1.so.0 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgtk-layer-shell.so.0 so:libintl.so.8 so:libstdc++.so.6 so:libxfce4panel-2.0.so.4 so:libxfce4ui-2.so.0 so:libxfce4util.so.7 so:libxfconf-0.so.3
+origin	xfce4-whiskermenu-plugin
+repo	community
+file	xfce4-whiskermenu-plugin-2.10.1-r0.apk
+checksum	Q1xzHO8eH94k+aaCA20a5joVkpQrk=
+dep	so:libaccountsservice.so.0	libaccountsservice
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libexo-2.so.0	exo-libs
+dep	so:libgarcon-1.so.0	garcon
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtk-layer-shell.so.0	gtk-layer-shell
+dep	so:libintl.so.8	libintl
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxfce4panel-2.0.so.4	libxfce4panel
+dep	so:libxfce4ui-2.so.0	libxfce4ui
+dep	so:libxfce4util.so.7	libxfce4util
+dep	so:libxfconf-0.so.3	xfconf

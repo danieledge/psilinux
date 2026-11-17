@@ -1,0 +1,13 @@
+name	vdirsyncer-google
+version	0.20.0-r2
+description	CLI Synchronization for CalDAV and CardDAV
+url	http://vdirsyncer.pimutils.org
+license	BSD-3-Clause
+size	1288
+installed-size	0
+depends	py3-aiohttp-oauthlib
+origin	vdirsyncer
+repo	community
+file	vdirsyncer-google-0.20.0-r2.apk
+checksum	Q1bRXMDNa4A1Hx/mbE8QlpMDWcIRI=
+dep	py3-aiohttp-oauthlib	py3-aiohttp-oauthlib

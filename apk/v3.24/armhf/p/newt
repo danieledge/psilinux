@@ -1,0 +1,15 @@
+name	newt
+version	0.52.25-r1
+description	Redhat's Newt windowing toolkit development files
+url	https://pagure.io/newt/
+license	LGPL-2.0-only
+size	42284
+installed-size	84856
+depends	so:libc.musl-armhf.so.1 so:libpopt.so.0 so:libslang.so.2
+origin	newt
+repo	main
+file	newt-0.52.25-r1.apk
+checksum	Q1/AxL1yQjD0j6+c57Rnp0nS6Dpvg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpopt.so.0	popt
+dep	so:libslang.so.2	slang

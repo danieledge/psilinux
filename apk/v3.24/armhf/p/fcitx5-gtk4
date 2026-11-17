@@ -1,0 +1,27 @@
+name	fcitx5-gtk4
+version	5.1.6-r0
+description	Fcitx5 GTK4 module
+url	https://github.com/fcitx/fcitx5-gtk/
+license	LGPL-2.1-or-later
+size	31723
+installed-size	66856
+depends	fcitx5 so:libFcitx5GClient.so.2 so:libX11.so.6 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libstdc++.so.6 so:libxkbcommon.so.0
+origin	fcitx5-gtk
+repo	community
+file	fcitx5-gtk4-5.1.6-r0.apk
+checksum	Q1Yy6+6g+T5QQwQBRF2Xs+EHqPqRY=
+dep	fcitx5	fcitx5
+dep	so:libFcitx5GClient.so.2	fcitx5-gtk
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxkbcommon.so.0	libxkbcommon

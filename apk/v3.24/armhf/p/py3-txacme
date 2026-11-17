@@ -1,0 +1,23 @@
+name	py3-txacme
+version	0.9.3-r9
+description	ACME protocol implementation for Twisted
+url	https://github.com/twisted/txacme
+license	MIT
+size	52330
+installed-size	231179
+depends	python3 py3-acme py3-attrs py3-eliot py3-josepy py3-pem py3-treq py3-twisted py3-txsni py3-openssl python3~3.14
+origin	py3-txacme
+repo	community
+file	py3-txacme-0.9.3-r9.apk
+checksum	Q1L2qvfy72ntOdiU3IysAdw+Rh4gE=
+dep	python3	python3
+dep	py3-acme	py3-acme
+dep	py3-attrs	py3-attrs
+dep	py3-eliot	py3-eliot
+dep	py3-josepy	py3-josepy
+dep	py3-pem	py3-pem
+dep	py3-treq	py3-treq
+dep	py3-twisted	py3-twisted
+dep	py3-txsni	py3-txsni
+dep	py3-openssl	py3-openssl
+dep	python3~3.14	python3

@@ -1,0 +1,14 @@
+name	ocaml-yojson-dev
+version	2.1.2-r2
+description	JSON parsing and pretty-printing library for OCaml (development files)
+url	https://github.com/ocaml-community/yojson
+license	BSD-3-Clause
+size	1747335
+installed-size	5088614
+depends	ocaml-yojson=2.1.2-r2 ocaml-seq-dev
+origin	ocaml-yojson
+repo	community
+file	ocaml-yojson-dev-2.1.2-r2.apk
+checksum	Q1vgSY+ZVghPZVLOYbuz1Kyc3FHQ0=
+dep	ocaml-yojson=2.1.2-r2	ocaml-yojson
+dep	ocaml-seq-dev	ocaml-seq-dev

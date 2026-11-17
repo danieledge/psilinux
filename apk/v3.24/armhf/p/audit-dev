@@ -1,0 +1,16 @@
+name	audit-dev
+version	4.1.2-r6
+description	User space tools for kernel auditing (development files)
+url	https://people.redhat.com/sgrubb/audit/
+license	LGPL-2.1-or-later
+size	14064
+installed-size	44342
+depends	linux-headers audit-libs=4.1.2-r6 pc:libcap-ng pkgconfig
+origin	audit
+repo	main
+file	audit-dev-4.1.2-r6.apk
+checksum	Q1xS5ENMDCQM0axdFvMV0EvgPOc8M=
+dep	linux-headers	linux-headers
+dep	audit-libs=4.1.2-r6	audit-libs
+dep	pc:libcap-ng	libcap-ng-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,13 @@
+name	clang22-static
+version	22.1.3-r2
+description	C language family front-end for LLVM (static library)
+url	https://llvm.org/
+license	Apache-2.0 WITH LLVM-exception
+size	81252690
+installed-size	325696496
+depends	clang22-dev
+origin	clang22
+repo	main
+file	clang22-static-22.1.3-r2.apk
+checksum	Q1HO0CiGB0G/xJ2lkmpWu1gMzEKW4=
+dep	clang22-dev	clang22-dev

@@ -1,0 +1,24 @@
+name	elfutils
+version	0.195-r0
+description	Utilities and DSOs to handle ELF files and DWARF data
+url	https://sourceware.org/elfutils/
+license	GPL-3.0-or-later AND ( GPL-2.0-or-later OR LGPL-3.0-or-later )
+size	1005648
+installed-size	2566579
+depends	libasm=0.195-r0 libdw=0.195-r0 libelf=0.195-r0 so:libarchive.so.13 so:libasm.so.1 so:libc.musl-armhf.so.1 so:libdebuginfod.so.1 so:libdw.so.1 so:libelf.so.1 so:libgcc_s.so.1 so:libobstack.so.1 so:libstdc++.so.6
+origin	elfutils
+repo	main
+file	elfutils-0.195-r0.apk
+checksum	Q1nXZtLByh+xc4ZDquAo5Hg4Li2Kw=
+dep	libasm=0.195-r0	libasm
+dep	libdw=0.195-r0	libdw
+dep	libelf=0.195-r0	libelf
+dep	so:libarchive.so.13	libarchive
+dep	so:libasm.so.1	libasm
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdebuginfod.so.1	libdebuginfod
+dep	so:libdw.so.1	libdw
+dep	so:libelf.so.1	libelf
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libobstack.so.1	musl-obstack
+dep	so:libstdc++.so.6	libstdc++

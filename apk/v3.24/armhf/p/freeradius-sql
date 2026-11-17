@@ -1,0 +1,14 @@
+name	freeradius-sql
+version	3.0.27-r3
+description	SQL module for FreeRADIUS server
+url	https://freeradius.org/
+license	GPL-2.0-or-later
+size	39944
+installed-size	109350
+depends	freeradius=3.0.27-r3 so:libc.musl-armhf.so.1
+origin	freeradius
+repo	main
+file	freeradius-sql-3.0.27-r3.apk
+checksum	Q1ZYODLWuCrrEN1Sg/Am4UUKu7gRY=
+dep	freeradius=3.0.27-r3	freeradius
+dep	so:libc.musl-armhf.so.1	musl

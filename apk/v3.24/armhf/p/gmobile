@@ -1,0 +1,17 @@
+name	gmobile
+version	0.7.2-r0
+description	Functions useful in mobile related, glib based projects
+url	https://gitlab.gnome.org/World/Phosh/gmobile
+license	GPL-3.0-only
+size	21921
+installed-size	52604
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libjson-glib-1.0.so.0
+origin	gmobile
+repo	community
+file	gmobile-0.7.2-r0.apk
+checksum	Q1H+Y2aB6XsiIAifS7vFcoSgwks+k=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libjson-glib-1.0.so.0	json-glib

@@ -1,0 +1,16 @@
+name	nagios-plugins-dig
+version	2.5-r0
+description	Nagios plugin check_dig
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	24027
+installed-size	46780
+depends	nagios-plugins bind-tools so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-dig-2.5-r0.apk
+checksum	Q17Ssq4/1HZs5OJMhUFxJg1jUbF68=
+dep	nagios-plugins	nagios-plugins
+dep	bind-tools	bind-tools
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

@@ -1,0 +1,14 @@
+name	perl-encode-jis2k
+version	0.05-r2
+description	Perl module for Encode-JIS2K
+url	https://metacpan.org/release/Encode-JIS2K/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	372593
+installed-size	1032762
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-encode-jis2k
+repo	community
+file	perl-encode-jis2k-0.05-r2.apk
+checksum	Q1z+bRELkcj9X7yNvruy1x/1rBkZw=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

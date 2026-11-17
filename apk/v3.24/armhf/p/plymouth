@@ -1,0 +1,24 @@
+name	plymouth
+version	26.134.222-r1
+description	graphical bootsplash on linux
+url	https://www.freedesktop.org/wiki/Software/Plymouth
+license	GPL-2.0-or-later
+size	305962
+installed-size	808078
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libevdev.so.2 so:libfreetype.so.6 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpng16.so.16 so:libudev.so.1 so:libxkbcommon.so.0
+origin	plymouth
+repo	community
+file	plymouth-26.134.222-r1.apk
+checksum	Q1JHDIx8n0BUSMUOOLSx05ZwyWGSI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libevdev.so.2	libevdev
+dep	so:libfreetype.so.6	freetype
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpng16.so.16	libpng
+dep	so:libudev.so.1	eudev-libs
+dep	so:libxkbcommon.so.0	libxkbcommon

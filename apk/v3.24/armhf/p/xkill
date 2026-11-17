@@ -1,0 +1,15 @@
+name	xkill
+version	1.0.7-r0
+description	Kill tool for the X Window System
+url	https://www.x.org/
+license	MIT
+size	5838
+installed-size	9388
+depends	so:libX11.so.6 so:libXmuu.so.1 so:libc.musl-armhf.so.1
+origin	xkill
+repo	community
+file	xkill-1.0.7-r0.apk
+checksum	Q1FrSyKnJkc7R/c8UzgMIWPJVH+Vk=
+dep	so:libX11.so.6	libx11
+dep	so:libXmuu.so.1	libxmu
+dep	so:libc.musl-armhf.so.1	musl

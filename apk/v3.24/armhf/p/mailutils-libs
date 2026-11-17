@@ -1,0 +1,15 @@
+name	mailutils-libs
+version	3.21-r1
+description	GNU swiss army knife of electronic mail handling (libraries)
+url	https://mailutils.org/
+license	GPL-3.0-or-later
+size	503571
+installed-size	1184476
+depends	so:libc.musl-armhf.so.1 so:libgnutls.so.30 so:libltdl.so.7
+origin	mailutils
+repo	community
+file	mailutils-libs-3.21-r1.apk
+checksum	Q1+IlIY8wPx5W2DQZF1yhZ+bj26HY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgnutls.so.30	gnutls
+dep	so:libltdl.so.7	libltdl

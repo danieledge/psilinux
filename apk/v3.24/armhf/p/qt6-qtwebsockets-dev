@@ -1,0 +1,19 @@
+name	qt6-qtwebsockets-dev
+version	6.11.1-r0
+description	Provides WebSocket communication compliant with RFC 6455 (development files)
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	29594
+installed-size	109870
+depends	qt6-qtbase-dev qt6-qtbase-private-dev qt6-qtwebsockets=6.11.1-r0 qt6-qtwebsockets-libs=6.11.1-r0 pc:Qt6Core pc:Qt6Network pkgconfig
+origin	qt6-qtwebsockets
+repo	community
+file	qt6-qtwebsockets-dev-6.11.1-r0.apk
+checksum	Q15onkQUAiEVhjIomvNJSOP9E3WpA=
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	qt6-qtbase-private-dev	qt6-qtbase-private-dev
+dep	qt6-qtwebsockets=6.11.1-r0	qt6-qtwebsockets
+dep	qt6-qtwebsockets-libs=6.11.1-r0	qt6-qtwebsockets-libs
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pc:Qt6Network	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,16 @@
+name	noise-suppression-for-voice
+version	1.03-r1
+description	Real-time noise suppression plugin for voice
+url	https://github.com/werman/noise-suppression-for-voice
+license	GPL-3.0-or-later
+size	108790
+installed-size	132480
+depends	so:libatomic.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	noise-suppression-for-voice
+repo	community
+file	noise-suppression-for-voice-1.03-r1.apk
+checksum	Q1n9e0mROFifz1xVL2/gyzOj7CDMw=
+dep	so:libatomic.so.1	libatomic
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

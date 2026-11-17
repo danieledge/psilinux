@@ -1,0 +1,15 @@
+name	py3-pytest-lazy-fixtures
+version	1.0.7-r3
+description	Use your fixtures in @pytest.mark.parametrize
+url	https://github.com/dev-petrov/pytest-lazy-fixtures
+license	MIT
+size	7107
+installed-size	13834
+depends	python3 py3-pytest python3~3.14
+origin	py3-pytest-lazy-fixtures
+repo	community
+file	py3-pytest-lazy-fixtures-1.0.7-r3.apk
+checksum	Q1rm/HbsLPX5XaGqVuOvOuKkXA2+c=
+dep	python3	python3
+dep	py3-pytest	py3-pytest
+dep	python3~3.14	python3

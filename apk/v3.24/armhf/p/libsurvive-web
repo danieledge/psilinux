@@ -1,0 +1,14 @@
+name	libsurvive-web
+version	1.01-r5
+description	Open Source Lighthouse Tracking System
+url	https://github.com/cntools/libsurvive
+license	MIT
+size	22646
+installed-size	79115
+depends	libsurvive websocketd
+origin	libsurvive
+repo	community
+file	libsurvive-web-1.01-r5.apk
+checksum	Q1uHtoDadrt2vkevGaavmEDEnjoME=
+dep	libsurvive	libsurvive
+dep	websocketd	websocketd

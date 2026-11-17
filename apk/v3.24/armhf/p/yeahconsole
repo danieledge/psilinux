@@ -1,0 +1,14 @@
+name	yeahconsole
+version	0.3.4-r3
+description	Drop-down X terminal emulator wrapper
+url	http://phrat.de/
+license	GPL-2.0-or-later
+size	7259
+installed-size	13484
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1
+origin	yeahconsole
+repo	community
+file	yeahconsole-0.3.4-r3.apk
+checksum	Q19EbySfD5wDqXOQg7uNBlLPb/AMo=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl

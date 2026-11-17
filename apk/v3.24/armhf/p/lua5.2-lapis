@@ -1,0 +1,25 @@
+name	lua5.2-lapis
+version	1.18.0-r0
+description	A web framework for Lua/MoonScript supporting OpenResty or http.server (for Lua 5.2)
+url	https://leafo.net/lapis/
+license	MIT
+size	107168
+installed-size	459300
+depends	lua5.2 lua5.2-ansicolors lua5.2-cjson lua-date lua5.2-etlua lua5.2-filesystem lua5.2-loadkit lua5.2-lpeg lua5.2-ossl lua5.2-pgmoon lua5.2-socket lua-argparse lua5.2-lsqlite3
+origin	lua-lapis
+repo	community
+file	lua5.2-lapis-1.18.0-r0.apk
+checksum	Q1QCFp/NFuT3e4kGrWa0sFe8JmBEg=
+dep	lua5.2	lua5.2
+dep	lua5.2-ansicolors	lua5.2-ansicolors
+dep	lua5.2-cjson	lua5.2-cjson
+dep	lua-date	lua-date
+dep	lua5.2-etlua	lua5.2-etlua
+dep	lua5.2-filesystem	lua5.2-filesystem
+dep	lua5.2-loadkit	lua5.2-loadkit
+dep	lua5.2-lpeg	lua5.2-lpeg
+dep	lua5.2-ossl	lua5.2-ossl
+dep	lua5.2-pgmoon	lua5.2-pgmoon
+dep	lua5.2-socket	lua5.2-socket
+dep	lua-argparse	lua-argparse
+dep	lua5.2-lsqlite3	lua5.2-lsqlite3

@@ -1,0 +1,16 @@
+name	nagios-plugins-mysql
+version	2.5-r0
+description	Nagios plugin check_mysql
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	42225
+installed-size	89548
+depends	nagios-plugins so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libmariadb.so.3
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-mysql-2.5-r0.apk
+checksum	Q1O1F3pvnxQQg3vV1gljL+OXCjMLY=
+dep	nagios-plugins	nagios-plugins
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libmariadb.so.3	mariadb-connector-c

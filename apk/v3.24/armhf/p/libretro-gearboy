@@ -1,0 +1,15 @@
+name	libretro-gearboy
+version	0_git20181103-r0
+description	Game Boy / Gameboy Color emulator for libretro
+url	https://github.com/libretro/Gearboy
+license	GPL-3.0-only
+size	114199
+installed-size	284132
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libretro-gearboy
+repo	community
+file	libretro-gearboy-0_git20181103-r0.apk
+checksum	Q1W0wlNZv3BzwvDnIzGldzhBIrh+Y=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

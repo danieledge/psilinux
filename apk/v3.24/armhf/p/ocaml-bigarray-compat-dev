@@ -1,0 +1,13 @@
+name	ocaml-bigarray-compat-dev
+version	1.1.0-r5
+description	Compatibility library to use Stdlib.Bigarray when possible (development files)
+url	https://github.com/mirage/bigarray-compat
+license	ISC
+size	12274
+installed-size	28534
+depends	ocaml-bigarray-compat=1.1.0-r5
+origin	ocaml-bigarray-compat
+repo	community
+file	ocaml-bigarray-compat-dev-1.1.0-r5.apk
+checksum	Q15bcwa3NNMyejzfQzjspw1gq1Z0I=
+dep	ocaml-bigarray-compat=1.1.0-r5	ocaml-bigarray-compat

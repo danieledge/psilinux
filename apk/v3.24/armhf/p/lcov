@@ -1,0 +1,23 @@
+name	lcov
+version	2.3.1-r1
+description	LCOV is an extension to GCOV. It provides a graphical frontend for converage information
+url	https://github.com/linux-test-project/lcov
+license	GPL-2.0-or-later
+size	430817
+installed-size	2177393
+depends	bash perl perl-capture-tiny perl-datetime perl-devel-cover perl-digest-md5 perl-json perl-json-xs perl-memory-process perl-time-hires perl-timedate
+origin	lcov
+repo	community
+file	lcov-2.3.1-r1.apk
+checksum	Q1hCIeFOv8jZMvIueAL8QoTAVPNjE=
+dep	bash	bash
+dep	perl	perl
+dep	perl-capture-tiny	perl-capture-tiny
+dep	perl-datetime	perl-datetime
+dep	perl-devel-cover	perl-devel-cover
+dep	perl-digest-md5	perl-digest-md5
+dep	perl-json	perl-json
+dep	perl-json-xs	perl-json-xs
+dep	perl-memory-process	perl-memory-process
+dep	perl-time-hires	perl-time-hires
+dep	perl-timedate	perl-timedate

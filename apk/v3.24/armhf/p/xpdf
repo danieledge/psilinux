@@ -1,0 +1,24 @@
+name	xpdf
+version	4.06-r0
+description	The classic X11 PDF viewer
+url	https://www.xpdfreader.com/
+license	GPL-2.0-or-later OR GPL-3.0-or-later
+size	707607
+installed-size	1708573
+depends	ghostscript-fonts so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6PrintSupport.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libcups.so.2 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	xpdf
+repo	community
+file	xpdf-4.06-r0.apk
+checksum	Q1i364zsQr0WmGFXBhOktJO3Hc5F4=
+dep	ghostscript-fonts	ghostscript-fonts
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6PrintSupport.so.6	qt6-qtbase-x11
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcups.so.2	cups-libs
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

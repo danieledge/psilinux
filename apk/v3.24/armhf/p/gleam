@@ -1,0 +1,15 @@
+name	gleam
+version	1.17.0-r0
+description	Statically-typed language that compiles to Erlang and JS
+url	https://gleam.run/
+license	Apache-2.0
+size	5175806
+installed-size	10534292
+depends	erlang-dev so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	gleam
+repo	community
+file	gleam-1.17.0-r0.apk
+checksum	Q18aKT0EdfkthFGlKHclkq4UVL/uQ=
+dep	erlang-dev	erlang27-dev
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,13 @@
+name	entr
+version	5.8-r0
+description	Event Notify Test Runner: Run arbitrary commands when files change
+url	https://eradman.com/entrproject
+license	ISC
+size	10983
+installed-size	21700
+depends	so:libc.musl-armhf.so.1
+origin	entr
+repo	community
+file	entr-5.8-r0.apk
+checksum	Q1GN9wY/KF1N9JsnlTOQ5B3s7iCXY=
+dep	so:libc.musl-armhf.so.1	musl

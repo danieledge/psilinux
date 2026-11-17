@@ -1,0 +1,15 @@
+name	libjaylink-dev
+version	0.4.0-r0
+description	C library to access SEGGER J-Link and other compatible devices (development files)
+url	https://gitlab.zapb.de/libjaylink/libjaylink
+license	GPL-2.0-or-later
+size	37037
+installed-size	126362
+depends	libjaylink=0.4.0-r0 pc:libusb-1.0 pkgconfig
+origin	libjaylink
+repo	community
+file	libjaylink-dev-0.4.0-r0.apk
+checksum	Q1UusSR+jwvvUMNRPr1gmnS0kmyoA=
+dep	libjaylink=0.4.0-r0	libjaylink
+dep	pc:libusb-1.0	libusb-dev
+dep	pkgconfig	pkgconf

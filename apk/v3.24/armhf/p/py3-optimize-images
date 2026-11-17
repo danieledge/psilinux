@@ -1,0 +1,15 @@
+name	py3-optimize-images
+version	2.0.0-r0
+description	A CLI utility to help you reduce the file size of images
+url	https://no-title.victordomingos.com/projects/optimize-images
+license	MIT
+size	27650
+installed-size	85786
+depends	py3-pillow py3-watchdog python3~3.14
+origin	py3-optimize-images
+repo	community
+file	py3-optimize-images-2.0.0-r0.apk
+checksum	Q1RpQN3c7al/CV823XHVcG8xGu1uU=
+dep	py3-pillow	py3-pillow
+dep	py3-watchdog	py3-watchdog
+dep	python3~3.14	python3

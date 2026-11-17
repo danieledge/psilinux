@@ -1,0 +1,17 @@
+name	rage
+version	0.11.1-r1
+description	Simple, modern and secure encryption tool
+url	https://github.com/str4d/rage
+license	MIT OR Apache-2.0
+size	3254844
+installed-size	6965424
+depends	so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libfuse3.so.4 so:libgcc_s.so.1 so:libzstd.so.1
+origin	rage
+repo	community
+file	rage-0.11.1-r1.apk
+checksum	Q1PsSjH9k+98x84sdAgCQQbqZ1Nag=
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfuse3.so.4	fuse3-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libzstd.so.1	zstd-libs

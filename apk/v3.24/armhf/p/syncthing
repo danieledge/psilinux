@@ -1,0 +1,15 @@
+name	syncthing
+version	2.1.0-r2
+description	Open Source Continuous File Synchronization
+url	https://syncthing.net/
+license	MPL-2.0
+size	10871266
+installed-size	25386522
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	syncthing
+repo	community
+file	syncthing-2.1.0-r2.apk
+checksum	Q1S5w/oFEhwd+gVURJNGEJm1bnb58=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

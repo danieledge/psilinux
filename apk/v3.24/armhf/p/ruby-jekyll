@@ -1,0 +1,32 @@
+name	ruby-jekyll
+version	4.4.1-r0
+description	A blog-aware static site generator in Ruby
+url	https://jekyllrb.com/
+license	MIT
+size	127966
+installed-size	457280
+depends	ruby ruby-webrick ruby-bundler ruby-addressable~2 ruby-base64 ruby-colorator~1 ruby-csv ruby-em-websocket~0 ruby-i18n~1 ruby-jekyll-sass-converter<=4 ruby-jekyll-watch~2 ruby-kramdown>=2.3.1 ruby-kramdown-parser-gfm~1 ruby-liquid~4 ruby-mercenary ruby-pathutil~0 ruby-resolv ruby-rouge<=5.0 ruby-safe_yaml~1 ruby-terminal-table<=4.0
+origin	jekyll
+repo	community
+file	ruby-jekyll-4.4.1-r0.apk
+checksum	Q1jHNRIP9HnBhJBlwFUG/a/XdqBog=
+dep	ruby	ruby
+dep	ruby-webrick	ruby-webrick
+dep	ruby-bundler	ruby-bundler
+dep	ruby-addressable~2	ruby-addressable
+dep	ruby-base64	ruby-base64
+dep	ruby-colorator~1	ruby-colorator
+dep	ruby-csv	ruby-csv
+dep	ruby-em-websocket~0	ruby-em-websocket
+dep	ruby-i18n~1	ruby-i18n
+dep	ruby-jekyll-sass-converter<=4	ruby-jekyll-sass-converter
+dep	ruby-jekyll-watch~2	ruby-jekyll-watch
+dep	ruby-kramdown>=2.3.1	ruby-kramdown
+dep	ruby-kramdown-parser-gfm~1	ruby-kramdown-parser-gfm
+dep	ruby-liquid~4	ruby-liquid
+dep	ruby-mercenary	ruby-mercenary
+dep	ruby-pathutil~0	ruby-pathutil
+dep	ruby-resolv	ruby-resolv
+dep	ruby-rouge<=5.0	ruby-rouge
+dep	ruby-safe_yaml~1	ruby-safe_yaml
+dep	ruby-terminal-table<=4.0	ruby-terminal-table

@@ -1,0 +1,15 @@
+name	emacs-git-commit
+version	3.3.0-r1
+description	Major mode for editing Git commit messages
+url	https://magit.vc/
+license	GPL-3.0-or-later
+size	25271
+installed-size	81903
+depends	cmd:emacs emacs-dash emacs-with-editor
+origin	emacs-magit
+repo	community
+file	emacs-git-commit-3.3.0-r1.apk
+checksum	Q1AzB+HnBr1CetCbb2u9CaIbfL8Dk=
+dep	cmd:emacs	emacs-gtk3
+dep	emacs-dash	emacs-dash
+dep	emacs-with-editor	emacs-with-editor

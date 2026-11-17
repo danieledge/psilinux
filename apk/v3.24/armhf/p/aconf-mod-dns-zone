@@ -1,0 +1,13 @@
+name	aconf-mod-dns-zone
+version	0.8.1-r4
+description	Alpine Configurator
+url	https://gitlab.alpinelinux.org/kunkku/aconf/
+license	BSD-2-Clause
+size	2603
+installed-size	2691
+depends	aconf=0.8.1-r4
+origin	aconf
+repo	main
+file	aconf-mod-dns-zone-0.8.1-r4.apk
+checksum	Q130ToCPxLLt4PBCFyKYrPo25wsXA=
+dep	aconf=0.8.1-r4	aconf

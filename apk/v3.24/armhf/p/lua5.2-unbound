@@ -1,0 +1,14 @@
+name	lua5.2-unbound
+version	1.0.0-r1
+description	Lua bindings to libunbound (for Lua 5.2)
+url	https://www.zash.se/luaunbound.html
+license	MIT
+size	6482
+installed-size	13552
+depends	so:libc.musl-armhf.so.1 so:libunbound.so.8
+origin	lua-unbound
+repo	community
+file	lua5.2-unbound-1.0.0-r1.apk
+checksum	Q1ieBo+tdkAPzRwf1GgPkXrEthIjk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libunbound.so.8	unbound-libs

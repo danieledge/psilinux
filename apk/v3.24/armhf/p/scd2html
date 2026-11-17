@@ -1,0 +1,13 @@
+name	scd2html
+version	1.0.0-r2
+description	Tool for generating HTML from scdoc files
+url	https://sr.ht/~bitfehler/scd2html
+license	MIT
+size	16930
+installed-size	34028
+depends	so:libc.musl-armhf.so.1
+origin	scd2html
+repo	community
+file	scd2html-1.0.0-r2.apk
+checksum	Q1i/8YQHgnCi0sWG/Np/hUMzdL1b8=
+dep	so:libc.musl-armhf.so.1	musl

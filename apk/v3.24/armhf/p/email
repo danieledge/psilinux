@@ -1,0 +1,14 @@
+name	email
+version	3.1.4-r14
+description	command line SMTP client that's simple
+url	http://www.cleancode.org/projects/email
+license	GPL-2.0-or-later
+size	36631
+installed-size	95721
+depends	openssl>3 so:libc.musl-armhf.so.1
+origin	email
+repo	main
+file	email-3.1.4-r14.apk
+checksum	Q1BZ6ji5nTwz6ThC1QmqFNNwAly0c=
+dep	openssl>3	openssl
+dep	so:libc.musl-armhf.so.1	musl

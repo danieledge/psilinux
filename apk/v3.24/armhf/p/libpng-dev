@@ -1,0 +1,15 @@
+name	libpng-dev
+version	1.6.59-r0
+description	Portable Network Graphics library (development files)
+url	http://www.libpng.org
+license	Libpng
+size	52481
+installed-size	185569
+depends	libpng=1.6.59-r0 pc:zlib pkgconfig
+origin	libpng
+repo	main
+file	libpng-dev-1.6.59-r0.apk
+checksum	Q1uh97DeleKMuqddLCSYaPJERb2DM=
+dep	libpng=1.6.59-r0	libpng
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

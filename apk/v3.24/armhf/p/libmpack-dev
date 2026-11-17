@@ -1,0 +1,14 @@
+name	libmpack-dev
+version	1.0.5-r0
+description	Simple implementation of msgpack in C (development files)
+url	https://github.com/libmpack/libmpack
+license	MIT
+size	44370
+installed-size	101904
+depends	libmpack=1.0.5-r0 pkgconfig
+origin	libmpack
+repo	community
+file	libmpack-dev-1.0.5-r0.apk
+checksum	Q1KgpEjjJDq0vQlNukXZrvCBvYMvY=
+dep	libmpack=1.0.5-r0	libmpack
+dep	pkgconfig	pkgconf

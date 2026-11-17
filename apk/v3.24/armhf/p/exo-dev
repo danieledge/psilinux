@@ -1,0 +1,16 @@
+name	exo-dev
+version	4.20.0-r0
+description	Extensions to Xfce by os-cillation (development files)
+url	https://docs.xfce.org/xfce/exo/start
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	13295
+installed-size	71431
+depends	exo-libs=4.20.0-r0 pc:gtk+-3.0 pc:libxfce4util-1.0 pkgconfig
+origin	exo
+repo	community
+file	exo-dev-4.20.0-r0.apk
+checksum	Q1Vq5nW0IRt0JZu5QEJA6LypVqb2Y=
+dep	exo-libs=4.20.0-r0	exo-libs
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pc:libxfce4util-1.0	libxfce4util-dev
+dep	pkgconfig	pkgconf

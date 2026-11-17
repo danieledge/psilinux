@@ -1,0 +1,20 @@
+name	sipp
+version	3.7.7-r0
+description	Test tool / traffic generator for the SIP protocol
+url	https://github.com/SIPp/sipp
+license	GPL-2.0-or-later
+size	298041
+installed-size	741056
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libncursesw.so.6 so:libpcap.so.1 so:libsctp.so.1 so:libssl.so.3 so:libstdc++.so.6
+origin	sipp
+repo	main
+file	sipp-3.7.7-r0.apk
+checksum	Q1Q1Bq1vvcKj5/fJBcycvpuu+1XUw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpcap.so.1	libpcap
+dep	so:libsctp.so.1	liblksctp
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++

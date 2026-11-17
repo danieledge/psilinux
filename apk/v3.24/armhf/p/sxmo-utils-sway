@@ -1,0 +1,18 @@
+name	sxmo-utils-sway
+version	1.18.1-r4
+description	Utility scripts, programs, and configs that hold the Sxmo UI environment together - sway dependencies
+url	https://git.sr.ht/~mil/sxmo-utils
+license	AGPL-3.0-only
+size	1982
+installed-size	87
+depends	sxmo-utils-wayland=1.18.1-r4 sway seatd xdg-desktop-portal-gtk xdg-desktop-portal-wlr /bin/sh
+origin	sxmo-utils
+repo	community
+file	sxmo-utils-sway-1.18.1-r4.apk
+checksum	Q1MpDDtDw7kprhgBV0PZuMjoyXQFY=
+dep	sxmo-utils-wayland=1.18.1-r4	sxmo-utils-wayland
+dep	sway	sway
+dep	seatd	seatd
+dep	xdg-desktop-portal-gtk	xdg-desktop-portal-gtk
+dep	xdg-desktop-portal-wlr	xdg-desktop-portal-wlr
+dep	/bin/sh	busybox-binsh

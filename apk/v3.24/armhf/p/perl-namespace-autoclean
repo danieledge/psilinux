@@ -1,0 +1,15 @@
+name	perl-namespace-autoclean
+version	0.31-r0
+description	Keep imports out of your namespace
+url	https://metacpan.org/release/namespace-autoclean/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	5450
+installed-size	12761
+depends	perl perl-b-hooks-endofscope perl-namespace-clean
+origin	perl-namespace-autoclean
+repo	main
+file	perl-namespace-autoclean-0.31-r0.apk
+checksum	Q1Y92gWjvAJaSzHVLSos3NyavL8c4=
+dep	perl	perl
+dep	perl-b-hooks-endofscope	perl-b-hooks-endofscope
+dep	perl-namespace-clean	perl-namespace-clean

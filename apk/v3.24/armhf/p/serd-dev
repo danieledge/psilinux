@@ -1,0 +1,14 @@
+name	serd-dev
+version	0.32.8-r0
+description	lightweight C library for RDF syntax (development files)
+url	https://drobilla.net/software/serd
+license	ISC
+size	10984
+installed-size	33606
+depends	serd-libs=0.32.8-r0 pkgconfig
+origin	serd
+repo	community
+file	serd-dev-0.32.8-r0.apk
+checksum	Q1c+/r7/Ppe/DUGkNlOsRmJC2v7QQ=
+dep	serd-libs=0.32.8-r0	serd-libs
+dep	pkgconfig	pkgconf

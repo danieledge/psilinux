@@ -1,0 +1,15 @@
+name	libopusenc-dev
+version	0.2.1-r0
+description	Library for encoding .opus audio files and live streams (development files)
+url	https://opus-codec.org
+license	BSD-3-Clause
+size	30453
+installed-size	65202
+depends	libopusenc=0.2.1-r0 pc:opus>=1.1 pkgconfig
+origin	libopusenc
+repo	community
+file	libopusenc-dev-0.2.1-r0.apk
+checksum	Q1yU4YaD7Yj2MRGqStBtONREnYQo8=
+dep	libopusenc=0.2.1-r0	libopusenc
+dep	pc:opus>=1.1	opus-dev
+dep	pkgconfig	pkgconf

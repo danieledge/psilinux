@@ -1,0 +1,14 @@
+name	olm-dev
+version	3.2.16-r2
+description	Implementation of the olm and megolm cryptographic ratchets (development files)
+url	https://gitlab.matrix.org/matrix-org/olm
+license	Apache-2.0
+size	14706
+installed-size	62944
+depends	olm=3.2.16-r2 pkgconfig
+origin	olm
+repo	community
+file	olm-dev-3.2.16-r2.apk
+checksum	Q1/0kmbLIJYilyxKPsK34bCGhRmGU=
+dep	olm=3.2.16-r2	olm
+dep	pkgconfig	pkgconf

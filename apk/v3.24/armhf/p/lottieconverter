@@ -1,0 +1,19 @@
+name	lottieconverter
+version	0.2_git20231219-r1
+description	Simple, dummy lottie converter
+url	https://github.com/sot-tech/LottieConverter
+license	BSD-3-Clause
+size	11053
+installed-size	21888
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgif.so.7 so:libpng16.so.16 so:librlottie.so.0 so:libstdc++.so.6 so:libz.so.1
+origin	lottieconverter
+repo	community
+file	lottieconverter-0.2_git20231219-r1.apk
+checksum	Q1dpd0w3S4J2fsmgPO8PhrtI6vH5U=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgif.so.7	giflib
+dep	so:libpng16.so.16	libpng
+dep	so:librlottie.so.0	rlottie
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

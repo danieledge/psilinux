@@ -1,0 +1,13 @@
+name	sdl3
+version	3.4.10-r0
+description	development library designed to provide low level access to audio, keyboard, mouse, joystick and graphics
+url	https://www.libsdl.org
+license	Zlib
+size	935336
+installed-size	2285156
+depends	so:libc.musl-armhf.so.1
+origin	sdl3
+repo	community
+file	sdl3-3.4.10-r0.apk
+checksum	Q1lPnn6pwVmxaZLhTNdWrNbmzjqKM=
+dep	so:libc.musl-armhf.so.1	musl

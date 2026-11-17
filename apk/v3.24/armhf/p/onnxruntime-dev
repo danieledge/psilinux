@@ -1,0 +1,14 @@
+name	onnxruntime-dev
+version	1.24.4-r1
+description	Cross-platform, high performance ML inferencing and training accelerator (development files)
+url	https://onnxruntime.ai/
+license	MIT
+size	166182
+installed-size	901816
+depends	onnxruntime=1.24.4-r1 pkgconfig
+origin	onnxruntime
+repo	community
+file	onnxruntime-dev-1.24.4-r1.apk
+checksum	Q1eebPwwBGLNij7pTDBO8cOAWhEUA=
+dep	onnxruntime=1.24.4-r1	onnxruntime
+dep	pkgconfig	pkgconf

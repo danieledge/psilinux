@@ -1,0 +1,15 @@
+name	pike-bzip2
+version	8.0.2040-r1
+description	Pike programming language (BZip2 support)
+url	https://pike.lysator.liu.se/
+license	GPL-2.0-or-later
+size	9894
+installed-size	18177
+depends	pike=8.0.2040-r1 so:libbz2.so.1 so:libc.musl-armhf.so.1
+origin	pike
+repo	community
+file	pike-bzip2-8.0.2040-r1.apk
+checksum	Q1syDYG0iJdwRMUZPOdjslyBWc8Us=
+dep	pike=8.0.2040-r1	pike
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl

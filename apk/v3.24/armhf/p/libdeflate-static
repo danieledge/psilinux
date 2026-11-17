@@ -1,0 +1,13 @@
+name	libdeflate-static
+version	1.25-r0
+description	Library for fast, whole-buffer DEFLATE-based compression and decompression (static library)
+url	https://github.com/ebiggers/libdeflate
+license	MIT
+size	53278
+installed-size	96320
+depends	libdeflate-dev
+origin	libdeflate
+repo	community
+file	libdeflate-static-1.25-r0.apk
+checksum	Q1cIov+KCePXiPGoARobbI7Kctx7I=
+dep	libdeflate-dev	libdeflate-dev

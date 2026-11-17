@@ -1,0 +1,14 @@
+name	iso-codes-dev
+version	4.20.1-r0
+description	ISO codes and their translations (development files)
+url	https://salsa.debian.org/iso-codes-team/iso-codes
+license	LGPL-2.1-or-later
+size	1922
+installed-size	538
+depends	iso-codes=4.20.1-r0 pkgconfig
+origin	iso-codes
+repo	main
+file	iso-codes-dev-4.20.1-r0.apk
+checksum	Q1elXfpOHOONXjMrBr4bYLYRtBMJk=
+dep	iso-codes=4.20.1-r0	iso-codes
+dep	pkgconfig	pkgconf

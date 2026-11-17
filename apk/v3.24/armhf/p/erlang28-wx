@@ -1,0 +1,28 @@
+name	erlang28-wx
+version	28.5.0.8-r0
+description	General-purpose programming language and runtime environment, version 28
+url	https://www.erlang.org/
+license	Apache-2.0
+size	7334717
+installed-size	16621635
+depends	erlang28=28.5.0.8-r0 xauth font-terminus so:libGLU.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libstdc++.so.6 so:libwx_baseu-3.2.so.0 so:libwx_gtk3u_aui-3.2.so.0 so:libwx_gtk3u_core-3.2.so.0 so:libwx_gtk3u_gl-3.2.so.0 so:libwx_gtk3u_html-3.2.so.0 so:libwx_gtk3u_stc-3.2.so.0 so:libwx_gtk3u_webview-3.2.so.0 so:libwx_gtk3u_xrc-3.2.so.0
+origin	erlang28
+repo	community
+file	erlang28-wx-28.5.0.8-r0.apk
+checksum	Q1PaDnG2Di25sLUqeHxVsaIWI5hz8=
+dep	erlang28=28.5.0.8-r0	erlang28
+dep	xauth	xauth
+dep	font-terminus	font-terminus
+dep	so:libGLU.so.1	glu
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwx_baseu-3.2.so.0	wxwidgets
+dep	so:libwx_gtk3u_aui-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_core-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_gl-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_html-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_stc-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_webview-3.2.so.0	wxwidgets-webview
+dep	so:libwx_gtk3u_xrc-3.2.so.0	wxwidgets-gtk3

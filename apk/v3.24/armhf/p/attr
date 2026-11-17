@@ -1,0 +1,14 @@
+name	attr
+version	2.5.2-r2
+description	utilities for managing filesystem extended attributes
+url	https://savannah.nongnu.org/projects/attr
+license	LGPL-2.1-or-later
+size	15350
+installed-size	37265
+depends	so:libattr.so.1 so:libc.musl-armhf.so.1
+origin	attr
+repo	main
+file	attr-2.5.2-r2.apk
+checksum	Q1koJahzBozAnnvtQXp9HWJraueyY=
+dep	so:libattr.so.1	libattr
+dep	so:libc.musl-armhf.so.1	musl

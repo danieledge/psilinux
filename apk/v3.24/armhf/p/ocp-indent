@@ -1,0 +1,13 @@
+name	ocp-indent
+version	1.9.0-r3
+description	OCaml source code indenter
+url	http://www.typerex.org/ocp-indent.html
+license	LGPL-2.1-only WITH OCaml-LGPL-linking-exception
+size	1592778
+installed-size	3532456
+depends	so:libc.musl-armhf.so.1
+origin	ocp-indent
+repo	community
+file	ocp-indent-1.9.0-r3.apk
+checksum	Q1+24Pyole4FI98aakBK/ZCK9Ooo4=
+dep	so:libc.musl-armhf.so.1	musl

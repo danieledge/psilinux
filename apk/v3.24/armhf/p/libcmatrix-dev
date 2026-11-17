@@ -1,0 +1,21 @@
+name	libcmatrix-dev
+version	0.0.4-r0
+description	Matrix protocol library written in C using GObject (development files)
+url	https://source.puri.sm/Librem5/libcmatrix
+license	LGPL-2.1-or-later
+size	236476
+installed-size	712838
+depends	libcmatrix=0.0.4-r0 pc:gio-2.0>=2.70 pc:json-glib-1.0>=1.8.0 pc:libgcrypt pc:libsecret-1 pc:libsoup-3.0>=3.4.4 pc:olm>=3.2.11 pc:sqlite3>=3.26.0 pkgconfig
+origin	libcmatrix
+repo	community
+file	libcmatrix-dev-0.0.4-r0.apk
+checksum	Q1fnVD0aY6RtGg6WWopw3MNXPX2OQ=
+dep	libcmatrix=0.0.4-r0	libcmatrix
+dep	pc:gio-2.0>=2.70	glib-dev
+dep	pc:json-glib-1.0>=1.8.0	json-glib-dev
+dep	pc:libgcrypt	libgcrypt-dev
+dep	pc:libsecret-1	libsecret-dev
+dep	pc:libsoup-3.0>=3.4.4	libsoup3-dev
+dep	pc:olm>=3.2.11	olm-dev
+dep	pc:sqlite3>=3.26.0	sqlite-dev
+dep	pkgconfig	pkgconf

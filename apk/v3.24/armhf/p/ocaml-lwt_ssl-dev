@@ -1,0 +1,15 @@
+name	ocaml-lwt_ssl-dev
+version	1.2.0-r3
+description	OpenSSL binding with concurrent I/O (development files)
+url	https://github.com/ocsigen/lwt_ssl
+license	LGPL-2.1-or-later WITH OpenSSL-Exception
+size	47793
+installed-size	123540
+depends	ocaml-lwt_ssl=1.2.0-r3 ocaml-lwt-dev ocaml-ssl-dev
+origin	ocaml-lwt_ssl
+repo	community
+file	ocaml-lwt_ssl-dev-1.2.0-r3.apk
+checksum	Q1b/p259lWnWAOIbm4Kt7wCrlhlpc=
+dep	ocaml-lwt_ssl=1.2.0-r3	ocaml-lwt_ssl
+dep	ocaml-lwt-dev	ocaml-lwt-dev
+dep	ocaml-ssl-dev	ocaml-ssl-dev

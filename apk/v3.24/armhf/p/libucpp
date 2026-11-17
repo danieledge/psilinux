@@ -1,0 +1,13 @@
+name	libucpp
+version	1.3.5-r2
+description	C preprocessor which is embeddable, quick, light and C99 compliant (libraries)
+url	https://gitlab.com/scarabeusiv/ucpp
+license	BSD-3-Clause
+size	38220
+installed-size	71160
+depends	so:libc.musl-armhf.so.1
+origin	ucpp
+repo	community
+file	libucpp-1.3.5-r2.apk
+checksum	Q1d+rodjrgYj8UofdJhHPj7BhDAik=
+dep	so:libc.musl-armhf.so.1	musl

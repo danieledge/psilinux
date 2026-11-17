@@ -1,0 +1,17 @@
+name	geany-plugins-geanyctags
+version	2.1-r0
+description	Generate and query ctags files for a Geany project
+url	https://plugins.geany.org/
+license	GPL-3.0-or-later
+size	12709
+installed-size	25784
+depends	so:libc.musl-armhf.so.1 so:libgeany.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0
+origin	geany-plugins
+repo	community
+file	geany-plugins-geanyctags-2.1-r0.apk
+checksum	Q1Fip32gBwbWAu+kZAop1dYvAHaBw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgeany.so.0	geany
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0

@@ -1,0 +1,15 @@
+name	oksh
+version	7.8-r1
+description	Portable OpenBSD ksh, based on the Public Domain KornShell (pdksh)
+url	https://github.com/ibara/oksh
+license	Public-Domain
+size	116086
+installed-size	218736
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	oksh
+repo	community
+file	oksh-7.8-r1.apk
+checksum	Q109M6AVuWccMhr3dLR6HNxQhWmVM=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

@@ -1,0 +1,16 @@
+name	sems-registrar
+version	2.1.0-r0
+description	Support for SEMS to register to a SIP server
+url	https://github.com/sems-server/sems/
+license	GPL-2.0-or-later
+size	36471
+installed-size	81391
+depends	sems so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	sems
+repo	community
+file	sems-registrar-2.1.0-r0.apk
+checksum	Q1t3TOZj4DxZWqg4upksQwUlL9iag=
+dep	sems	sems
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

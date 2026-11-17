@@ -1,0 +1,16 @@
+name	libdc1394-dev
+version	2.2.7-r0
+description	High level programming interface to control IEEE 1394 based cameras (development files)
+url	https://damien.douxchamps.net/ieee1394/libdc1394/
+license	LGPL-2.1-or-later
+size	134511
+installed-size	426647
+depends	libusb-dev libraw1394-dev libdc1394=2.2.7-r0 pkgconfig
+origin	libdc1394
+repo	community
+file	libdc1394-dev-2.2.7-r0.apk
+checksum	Q1/JWsD9r7aNkt1oydjmyEg5aiOdk=
+dep	libusb-dev	libusb-dev
+dep	libraw1394-dev	libraw1394-dev
+dep	libdc1394=2.2.7-r0	libdc1394
+dep	pkgconfig	pkgconf

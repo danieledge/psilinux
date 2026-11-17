@@ -1,0 +1,30 @@
+name	gnumeric
+version	1.12.60-r1
+description	GNOME Spreadsheet Program
+url	https://www.gnome.org/projects/gnumeric
+license	GPL-2.0-or-later OR GPL-3.0-or-later
+size	2544409
+installed-size	7787369
+depends	so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgoffice-0.10.so.10 so:libgsf-1.so.114 so:libgtk-3.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpython3.14.so.1.0 so:libxml2.so.2 so:libz.so.1
+origin	gnumeric
+repo	community
+file	gnumeric-1.12.60-r1.apk
+checksum	Q1Z20YYIDQbVJcckJtSpcuJhULdsY=
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgoffice-0.10.so.10	goffice
+dep	so:libgsf-1.so.114	libgsf
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpython3.14.so.1.0	python3
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

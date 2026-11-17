@@ -1,0 +1,13 @@
+name	perl-email-address-xs
+version	1.05-r3
+description	Parse and format RFC 5322 email addresses and groups
+url	https://metacpan.org/release/Email-Address-XS/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	22498
+installed-size	51459
+depends	so:libc.musl-armhf.so.1
+origin	perl-email-address-xs
+repo	community
+file	perl-email-address-xs-1.05-r3.apk
+checksum	Q1HhDXLhG2l4fjna+gDAtJFQY7x2s=
+dep	so:libc.musl-armhf.so.1	musl

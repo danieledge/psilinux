@@ -1,0 +1,14 @@
+name	isa-l_crypto-dev
+version	2.25.0-r0
+description	Intelligent Storage Acceleration Library with crypto (development files)
+url	https://github.com/intel/isa-l_crypto
+license	BSD-3-Clause
+size	21658
+installed-size	146026
+depends	isa-l_crypto=2.25.0-r0 pkgconfig
+origin	isa-l_crypto
+repo	community
+file	isa-l_crypto-dev-2.25.0-r0.apk
+checksum	Q16O7xum+OVjW4a6xhp7RkIjmyDts=
+dep	isa-l_crypto=2.25.0-r0	isa-l_crypto
+dep	pkgconfig	pkgconf

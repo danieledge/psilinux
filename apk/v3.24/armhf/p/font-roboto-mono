@@ -1,0 +1,14 @@
+name	font-roboto-mono
+version	3.000-r0
+description	Google Roboto Mono fonts
+url	https://github.com/googlefonts/RobotoMono
+license	Apache-2.0
+size	271801
+installed-size	382754
+depends	fontconfig mkfontscale
+origin	font-roboto-mono
+repo	community
+file	font-roboto-mono-3.000-r0.apk
+checksum	Q16pYRC553g3hl7WojoehAKACabi8=
+dep	fontconfig	fontconfig
+dep	mkfontscale	mkfontscale

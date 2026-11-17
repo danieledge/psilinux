@@ -1,0 +1,15 @@
+name	gdb-dashboard
+version	0.17.4-r1
+description	Modular visual interface for GDB in Python
+url	https://github.com/cyrus-and/gdb-dashboard
+license	MIT
+size	23290
+installed-size	94117
+depends	gdb py3-pygments /bin/sh
+origin	gdb-dashboard
+repo	community
+file	gdb-dashboard-0.17.4-r1.apk
+checksum	Q1cxjcftI8uIzIyf7/uZ6Owu4SNyM=
+dep	gdb	gdb
+dep	py3-pygments	py3-pygments
+dep	/bin/sh	busybox-binsh

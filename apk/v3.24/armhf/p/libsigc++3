@@ -1,0 +1,15 @@
+name	libsigc++3
+version	3.8.1-r0
+description	Typesafe callback system for standard C++
+url	https://github.com/libsigcplusplus/libsigcplusplus
+license	LGPL-3.0-or-later
+size	12544
+installed-size	34176
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libsigc++3
+repo	community
+file	libsigc++3-3.8.1-r0.apk
+checksum	Q1H7naplqtN+4620Jgp/EPmkYfukI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,16 @@
+name	dovecot-fts-solr
+version	2.4.5-r0
+description	FTS-Solr plugin for dovecot
+url	https://www.dovecot.org/
+license	MIT AND LGPL-2.1-or-later
+size	15537
+installed-size	30064
+depends	dovecot=2.4.5-r0 so:lib20_fts_plugin.so so:libc.musl-armhf.so.1 so:libexpat.so.1
+origin	dovecot
+repo	main
+file	dovecot-fts-solr-2.4.5-r0.apk
+checksum	Q1RgLqxf6iWG4zevA/tT3aagIOJnY=
+dep	dovecot=2.4.5-r0	dovecot
+dep	so:lib20_fts_plugin.so	dovecot
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexpat.so.1	libexpat

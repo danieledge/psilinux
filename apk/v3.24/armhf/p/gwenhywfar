@@ -1,0 +1,19 @@
+name	gwenhywfar
+version	5.14.1-r0
+description	Multi-platform helper library
+url	https://www.aquamaniac.de/
+license	LGPL-2.1-or-later
+size	746279
+installed-size	2034874
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgcrypt.so.20 so:libgnutls.so.30 so:libgpg-error.so.0 so:libintl.so.8 so:libstdc++.so.6
+origin	gwenhywfar
+repo	community
+file	gwenhywfar-5.14.1-r0.apk
+checksum	Q1qnyfIFM73qgbdGtRMVaGW3U0hYU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgnutls.so.30	gnutls
+dep	so:libgpg-error.so.0	libgpg-error
+dep	so:libintl.so.8	libintl
+dep	so:libstdc++.so.6	libstdc++

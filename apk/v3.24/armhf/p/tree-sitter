@@ -1,0 +1,13 @@
+name	tree-sitter
+version	0.26.7-r0
+description	Incremental parsing system for programming tools
+url	https://tree-sitter.github.io/
+license	MIT
+size	76153
+installed-size	148616
+depends	so:libc.musl-armhf.so.1
+origin	tree-sitter
+repo	community
+file	tree-sitter-0.26.7-r0.apk
+checksum	Q1P04+RUx1b1xXU0ERYKjEADruitA=
+dep	so:libc.musl-armhf.so.1	musl

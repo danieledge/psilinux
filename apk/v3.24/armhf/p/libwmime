@@ -1,0 +1,19 @@
+name	libwmime
+version	1.1.0-r0
+description	Library for working with RFC 5322, MIME messages and IMAP/POP/SMTP
+url	https://grommunio.com/
+license	GPL-3.0-only
+size	654815
+installed-size	1803712
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libgsasl.so.18 so:libicuuc.so.78 so:libssl.so.3 so:libstdc++.so.6
+origin	libwmime
+repo	community
+file	libwmime-1.1.0-r0.apk
+checksum	Q1MDfSI5kH+92/qPR1wBi0jy+6s6o=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgsasl.so.18	libgsasl
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++

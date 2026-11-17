@@ -1,0 +1,14 @@
+name	xremap-wlr
+version	0.15.8-r0
+description	Key remapper for Wayland
+url	https://github.com/k0kubun/xremap
+license	MIT
+size	1144462
+installed-size	2429564
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	xremap-wlr
+repo	community
+file	xremap-wlr-0.15.8-r0.apk
+checksum	Q1v3CrHTJLRbAOuXtM19DGatKF4F0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

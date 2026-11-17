@@ -1,0 +1,15 @@
+name	perl-tkx
+version	1.10-r1
+description	Yet another Tk interface
+url	https://metacpan.org/release/Tkx/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	12875
+installed-size	32132
+depends	perl perl-tcl tk
+origin	perl-tkx
+repo	community
+file	perl-tkx-1.10-r1.apk
+checksum	Q1dWXBjiiUG0MW7kTm8Q6Iwepo4Uo=
+dep	perl	perl
+dep	perl-tcl	perl-tcl
+dep	tk	tk

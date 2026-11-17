@@ -1,0 +1,13 @@
+name	datamash
+version	1.9-r1
+description	Command-line text/math processing
+url	https://www.gnu.org/software/datamash/
+license	GPL-3.0-or-later
+size	88955
+installed-size	197080
+depends	so:libc.musl-armhf.so.1
+origin	datamash
+repo	community
+file	datamash-1.9-r1.apk
+checksum	Q186xPwkCz+xS63dF+JUOntWiYD38=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	freeradius-client
+version	1.1.7-r7
+description	FreeRADIUS Client Software
+url	https://freeradius.org/sub_projects/
+license	BSD-2-Clause
+size	46404
+installed-size	134484
+depends	so:libc.musl-armhf.so.1 so:libnettle.so.8
+origin	freeradius-client
+repo	main
+file	freeradius-client-1.1.7-r7.apk
+checksum	Q12kk5gMAsf8LOwjyZHAllJtgSkJs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnettle.so.8	nettle

@@ -1,0 +1,14 @@
+name	py3-jsondiff
+version	2.2.1-r1
+description	Diff JSON and JSON-like structures in Python
+url	https://github.com/xlwings/jsondiff
+license	MIT
+size	14025
+installed-size	52237
+depends	py3-yaml python3~3.14
+origin	py3-jsondiff
+repo	community
+file	py3-jsondiff-2.2.1-r1.apk
+checksum	Q13hKQUPO1ekdkjQ8/MmeSk4PEl+U=
+dep	py3-yaml	py3-yaml
+dep	python3~3.14	python3

@@ -1,0 +1,25 @@
+name	aws-crt-cpp-dev
+version	0.40.0-r0
+description	C++ wrapper around the aws-c-* libraries. Provides Cross-Platform Transport Protocols and SSL/TLS implementations for C++ (development files)
+url	https://github.com/awslabs/aws-crt-cpp
+license	Apache-2.0
+size	101824
+installed-size	663901
+depends	aws-crt-cpp=0.40.0-r0 aws-c-auth-dev aws-c-cal-dev aws-c-common-dev aws-c-compression-dev aws-c-event-stream-dev aws-c-http-dev aws-c-io-dev aws-c-mqtt-dev aws-c-s3-dev aws-c-sdkutils-dev aws-checksums-dev s2n-tls-dev
+origin	aws-crt-cpp
+repo	community
+file	aws-crt-cpp-dev-0.40.0-r0.apk
+checksum	Q1Oor5ECWElCDV09JluPy7nMR3Saw=
+dep	aws-crt-cpp=0.40.0-r0	aws-crt-cpp
+dep	aws-c-auth-dev	aws-c-auth-dev
+dep	aws-c-cal-dev	aws-c-cal-dev
+dep	aws-c-common-dev	aws-c-common-dev
+dep	aws-c-compression-dev	aws-c-compression-dev
+dep	aws-c-event-stream-dev	aws-c-event-stream-dev
+dep	aws-c-http-dev	aws-c-http-dev
+dep	aws-c-io-dev	aws-c-io-dev
+dep	aws-c-mqtt-dev	aws-c-mqtt-dev
+dep	aws-c-s3-dev	aws-c-s3-dev
+dep	aws-c-sdkutils-dev	aws-c-sdkutils-dev
+dep	aws-checksums-dev	aws-checksums-dev
+dep	s2n-tls-dev	s2n-tls-dev

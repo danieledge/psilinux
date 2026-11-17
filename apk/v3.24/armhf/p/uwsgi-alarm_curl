@@ -1,0 +1,15 @@
+name	uwsgi-alarm_curl
+version	2.0.31-r2
+description	uWSGI plugin alarm_curl
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	5251
+installed-size	9684
+depends	uwsgi so:libc.musl-armhf.so.1 so:libcurl.so.4
+origin	uwsgi
+repo	main
+file	uwsgi-alarm_curl-2.0.31-r2.apk
+checksum	Q1xjJTQFqWkcLK/tAgPkc26mXSET8=
+dep	uwsgi	uwsgi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl

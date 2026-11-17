@@ -1,0 +1,14 @@
+name	perl-crypt-x509
+version	0.55-r1
+description	Parse a X.509 certificate
+url	https://metacpan.org/release/Crypt-X509/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	13295
+installed-size	54097
+depends	perl perl-convert-asn1
+origin	perl-crypt-x509
+repo	main
+file	perl-crypt-x509-0.55-r1.apk
+checksum	Q16NKGcThDTUKpmePG4pQ3AXqXNG4=
+dep	perl	perl
+dep	perl-convert-asn1	perl-convert-asn1

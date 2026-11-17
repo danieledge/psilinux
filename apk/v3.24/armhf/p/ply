@@ -1,0 +1,13 @@
+name	ply
+version	2.4.0-r0
+description	A light-weight, dynamic tracer based on BPF
+url	https://wkz.github.io/ply
+license	GPL-2.0-only
+size	144550
+installed-size	361978
+depends	so:libc.musl-armhf.so.1
+origin	ply
+repo	community
+file	ply-2.4.0-r0.apk
+checksum	Q1DUcGZSAdmzB/WL4Z3aVvv5IY/oI=
+dep	so:libc.musl-armhf.so.1	musl

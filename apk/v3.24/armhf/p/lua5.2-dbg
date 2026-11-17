@@ -1,0 +1,12 @@
+name	lua5.2-dbg
+version	5.2.4-r13
+description	Powerful light-weight programming language (debug symbols)
+url	https://www.lua.org/
+license	MIT
+size	490729
+installed-size	1078208
+depends	!lua5.2<5.2.4-r13 !lua5.2>5.2.4-r13
+origin	lua5.2
+repo	main
+file	lua5.2-dbg-5.2.4-r13.apk
+checksum	Q1fKFuKHpmqmQayeJFXS7M5aMhtY0=

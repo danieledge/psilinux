@@ -1,0 +1,14 @@
+name	vlc-daemon
+version	3.0.23-r4
+description	Support for running VLC as a daemon
+url	https://www.videolan.org/vlc/
+license	GPL-2.0-or-later
+size	2570
+installed-size	1105
+depends	vlc=3.0.23-r4 /bin/sh
+origin	vlc
+repo	community
+file	vlc-daemon-3.0.23-r4.apk
+checksum	Q161oVHjCt0RojLRg4D/hyHE6YlSE=
+dep	vlc=3.0.23-r4	vlc
+dep	/bin/sh	busybox-binsh

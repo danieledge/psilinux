@@ -1,0 +1,17 @@
+name	openresty-mod-http-lua
+version	1.31.1.1-r0
+description	Scalable Web Platform by Extending NGINX with Lua (module ngx_http_lua_module.so)
+url	https://openresty.org/
+license	BSD-2-Clause
+size	189418
+installed-size	414714
+depends	cmd:nginx openresty openresty-mod-devel-kit so:libc.musl-armhf.so.1 so:libluajit-5.1.so.2
+origin	openresty
+repo	community
+file	openresty-mod-http-lua-1.31.1.1-r0.apk
+checksum	Q1Imqzn5o7n3CpSl8AaYNM4Sr+ZFU=
+dep	cmd:nginx	nginx
+dep	openresty	openresty
+dep	openresty-mod-devel-kit	openresty-mod-devel-kit
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libluajit-5.1.so.2	luajit

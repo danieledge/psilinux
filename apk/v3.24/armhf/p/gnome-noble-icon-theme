@@ -1,0 +1,13 @@
+name	gnome-noble-icon-theme
+version	5.5.1-r5
+description	Purple variation of the GNOME-Colors icon theme
+url	https://github.com/gnome-colors/gnome-colors
+license	GPL-2.0-only
+size	390088
+installed-size	1645060
+depends	gnome-colors-common
+origin	gnome-colors
+repo	community
+file	gnome-noble-icon-theme-5.5.1-r5.apk
+checksum	Q169v8K2fJQe35ZG3SECZOXVOD5b4=
+dep	gnome-colors-common	gnome-colors-common

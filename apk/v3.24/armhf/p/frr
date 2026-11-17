@@ -1,0 +1,22 @@
+name	frr
+version	10.6.1-r0
+description	Free Range Routing is a fork of Quagga
+url	https://frrouting.org/
+license	GPL-2.0-or-later
+size	6740021
+installed-size	24867536
+depends	iproute2 bash /bin/sh so:libc.musl-armhf.so.1 so:libcap.so.2 so:libcares.so.2 so:libgcc_s.so.1 so:libjson-c.so.5 so:libreadline.so.8 so:libyang.so.3
+origin	frr
+repo	community
+file	frr-10.6.1-r0.apk
+checksum	Q1BLP4DQluOMqv1U/hj1xERF4oQzU=
+dep	iproute2	iproute2
+dep	bash	bash
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libcares.so.2	c-ares
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjson-c.so.5	json-c
+dep	so:libreadline.so.8	readline
+dep	so:libyang.so.3	libyang

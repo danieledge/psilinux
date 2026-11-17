@@ -1,0 +1,20 @@
+name	vala-language-server
+version	0.48.7-r1
+description	Code Intelligence for Vala
+url	https://github.com/vala-lang/vala-language-server
+license	LGPL-2.1-or-later
+size	302119
+installed-size	770896
+depends	so:libc.musl-armhf.so.1 so:libgee-0.8.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libjson-glib-1.0.so.0 so:libjsonrpc-glib-1.0.so.1 so:libvala-0.56.so.0
+origin	vala-language-server
+repo	community
+file	vala-language-server-0.48.7-r1.apk
+checksum	Q1mTfBv4vMsf3E34+6PIZRfrBSDvI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgee-0.8.so.2	libgee
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libjsonrpc-glib-1.0.so.1	jsonrpc-glib
+dep	so:libvala-0.56.so.0	vala

@@ -1,0 +1,13 @@
+name	c-stdaux-dev
+version	1.6.0-r0
+description	Auxiliary macros and functions for the C standard library (development files)
+url	https://github.com/c-util/c-stdaux
+license	Apache-2.0 OR LGPL-2.1-or-later
+size	13824
+installed-size	52204
+depends	pkgconfig
+origin	c-stdaux
+repo	community
+file	c-stdaux-dev-1.6.0-r0.apk
+checksum	Q1ocp6foM9/8hTCBaMH4eunVmBZuA=
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	meson
+version	1.11.1-r0
+description	Fast and user friendly build system
+url	https://mesonbuild.com
+license	Apache-2.0
+size	946564
+installed-size	4173824
+depends	samurai python3~3.14
+origin	meson
+repo	main
+file	meson-1.11.1-r0.apk
+checksum	Q1DfYrzls+PhYKZw3KWTlf45ydfpg=
+dep	samurai	samurai
+dep	python3~3.14	python3

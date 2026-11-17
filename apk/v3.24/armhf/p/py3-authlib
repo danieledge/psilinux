@@ -1,0 +1,15 @@
+name	py3-authlib
+version	1.6.11-r0
+description	Python library for building OAuth and OpenID Connect servers
+url	https://github.com/lepture/authlib
+license	BSD-3-Clause
+size	179784
+installed-size	751876
+depends	python3 py3-cryptography python3~3.14
+origin	py3-authlib
+repo	community
+file	py3-authlib-1.6.11-r0.apk
+checksum	Q11HL+AWW2aKs+Y7F032sJ/aYZ9g8=
+dep	python3	python3
+dep	py3-cryptography	py3-cryptography
+dep	python3~3.14	python3

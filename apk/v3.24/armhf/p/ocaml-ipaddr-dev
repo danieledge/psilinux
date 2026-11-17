@@ -1,0 +1,16 @@
+name	ocaml-ipaddr-dev
+version	5.3.1-r5
+description	Manipulate IP (and MAC) address representations (development files)
+url	https://github.com/mirage/ocaml-ipaddr
+license	ISC
+size	574476
+installed-size	1485380
+depends	ocaml-ipaddr=5.3.1-r5 ocaml-cstruct-dev ocaml-domain-name-dev ocaml-ppx_sexp_conv-dev
+origin	ocaml-ipaddr
+repo	community
+file	ocaml-ipaddr-dev-5.3.1-r5.apk
+checksum	Q1+CfdTCryKzlCc9TduFKmvdZLdOg=
+dep	ocaml-ipaddr=5.3.1-r5	ocaml-ipaddr
+dep	ocaml-cstruct-dev	ocaml-cstruct-dev
+dep	ocaml-domain-name-dev	ocaml-domain-name-dev
+dep	ocaml-ppx_sexp_conv-dev	ocaml-ppx_sexp_conv-dev

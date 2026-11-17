@@ -1,0 +1,14 @@
+name	step-kms-plugin
+version	0.17.0-r2
+description	Step plugin to manage keys and certs on KMSs and HSMs
+url	https://github.com/smallstep/step-kms-plugin
+license	Apache-2.0
+size	9409201
+installed-size	27503132
+depends	so:libc.musl-armhf.so.1 so:libpcsclite.so.1
+origin	step-kms-plugin
+repo	community
+file	step-kms-plugin-0.17.0-r2.apk
+checksum	Q1Xc/wF9yQ2dt2QaUVdHuAoyStjiQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcsclite.so.1	pcsc-lite-libs

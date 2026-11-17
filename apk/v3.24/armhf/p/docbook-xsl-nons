@@ -1,0 +1,16 @@
+name	docbook-xsl-nons
+version	1.79.2-r13
+description	XML stylesheets for Docbook-xml transformations (no-namespace version)
+url	https://docbook.org/
+license	LicenseRef-DMIT
+size	1863427
+installed-size	13761378
+depends	docbook-xml libxml2-utils libxslt /bin/sh
+origin	docbook-xsl
+repo	main
+file	docbook-xsl-nons-1.79.2-r13.apk
+checksum	Q1VDI8dgGuyrhH8vfsoH9PXECi6qo=
+dep	docbook-xml	docbook-xml
+dep	libxml2-utils	libxml2-utils
+dep	libxslt	libxslt
+dep	/bin/sh	busybox-binsh

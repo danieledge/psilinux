@@ -1,0 +1,20 @@
+name	btrfs-progs-extra
+version	6.17.1-r1
+description	BTRFS filesystem extra utilities
+url	https://btrfs.wiki.kernel.org
+license	GPL-2.0-or-later
+size	1943665
+installed-size	3544888
+depends	btrfs-progs so:libblkid.so.1 so:libc.musl-armhf.so.1 so:libcom_err.so.2 so:libext2fs.so.2 so:libudev.so.1 so:libuuid.so.1 so:libz.so.1
+origin	btrfs-progs
+repo	main
+file	btrfs-progs-extra-6.17.1-r1.apk
+checksum	Q10oRdvFJbUzqm4I94T1iMHWgxofY=
+dep	btrfs-progs	btrfs-progs
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcom_err.so.2	libcom_err
+dep	so:libext2fs.so.2	e2fsprogs-libs
+dep	so:libudev.so.1	eudev-libs
+dep	so:libuuid.so.1	libuuid
+dep	so:libz.so.1	zlib

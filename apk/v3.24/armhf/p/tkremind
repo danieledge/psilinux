@@ -1,0 +1,15 @@
+name	tkremind
+version	06.02.06-r0
+description	Sophisticated calendar and alarm program
+url	https://dianne.skoll.ca/projects/remind/
+license	GPL-2.0-only
+size	51726
+installed-size	195461
+depends	remind=06.02.06-r0 tk tcl-lib
+origin	remind
+repo	community
+file	tkremind-06.02.06-r0.apk
+checksum	Q1KZJZXBVzhjdJKAj5vTy2OxjZRpM=
+dep	remind=06.02.06-r0	remind
+dep	tk	tk
+dep	tcl-lib	tcl-lib

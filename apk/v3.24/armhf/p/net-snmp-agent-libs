@@ -1,0 +1,14 @@
+name	net-snmp-agent-libs
+version	5.9.5.2-r0
+description	The NET-SNMP runtime agent libraries
+url	http://www.net-snmp.org/
+license	Net-SNMP
+size	645492
+installed-size	1636404
+depends	so:libc.musl-armhf.so.1 so:libnetsnmp.so.45
+origin	net-snmp
+repo	main
+file	net-snmp-agent-libs-5.9.5.2-r0.apk
+checksum	Q1eRZXMLpw+NYXx6mJZKhwmeIsAZs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnetsnmp.so.45	net-snmp-libs

@@ -1,0 +1,18 @@
+name	libcanberra-gstreamer
+version	0.30-r12
+description	GStreamer backend for libcanberra
+url	https://0pointer.de/lennart/projects/libcanberra/
+license	LGPL-2.1-or-later
+size	8060
+installed-size	17528
+depends	libcanberra=0.30-r12 so:libc.musl-armhf.so.1 so:libcanberra.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstreamer-1.0.so.0
+origin	libcanberra
+repo	community
+file	libcanberra-gstreamer-0.30-r12.apk
+checksum	Q1u1HC8Tt/fhDuU/YUsvTwzkMhYj8=
+dep	libcanberra=0.30-r12	libcanberra
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcanberra.so.0	libcanberra
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstreamer-1.0.so.0	gstreamer

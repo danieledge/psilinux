@@ -1,0 +1,16 @@
+name	libnbd
+version	1.24.1-r1
+description	NBD client library in userspace
+url	https://gitlab.com/nbdkit/libnbd
+license	LGPL-2.0-or-later
+size	205355
+installed-size	641988
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libgnutls.so.30 so:libxml2.so.2
+origin	libnbd
+repo	community
+file	libnbd-1.24.1-r1.apk
+checksum	Q1IffBVhegns3Y2L+RiCAOOESqwOM=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgnutls.so.30	gnutls
+dep	so:libxml2.so.2	libxml2

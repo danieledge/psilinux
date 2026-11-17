@@ -1,0 +1,13 @@
+name	ell
+version	0.83-r0
+description	Linux library for embedded development
+url	https://01.org/ell
+license	LGPL-2.1-or-later
+size	204658
+installed-size	433428
+depends	so:libc.musl-armhf.so.1
+origin	ell
+repo	main
+file	ell-0.83-r0.apk
+checksum	Q1ZKAs4+W0vAqqHDnp4IBN2k+kjrE=
+dep	so:libc.musl-armhf.so.1	musl

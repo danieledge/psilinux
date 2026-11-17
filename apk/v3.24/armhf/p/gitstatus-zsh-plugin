@@ -1,0 +1,14 @@
+name	gitstatus-zsh-plugin
+version	1.5.5-r0
+description	Git status for Zsh prompt
+url	https://github.com/romkatv/gitstatus
+license	GPL-3.0-or-later
+size	30829
+installed-size	106554
+depends	gitstatus=1.5.5-r0 zsh
+origin	gitstatus
+repo	community
+file	gitstatus-zsh-plugin-1.5.5-r0.apk
+checksum	Q1fAxUglkP5rLQ6AJfMG1Hbt8YuxI=
+dep	gitstatus=1.5.5-r0	gitstatus
+dep	zsh	zsh

@@ -1,0 +1,13 @@
+name	ltunify
+version	0.3-r3
+description	Logitech Unifying tool for Linux
+url	https://git.lekensteyn.nl/ltunify/
+license	GPL-3.0-or-later
+size	13605
+installed-size	25888
+depends	so:libc.musl-armhf.so.1
+origin	ltunify
+repo	community
+file	ltunify-0.3-r3.apk
+checksum	Q1WDtsa4UlK/j/hlSC29yO4cR9buc=
+dep	so:libc.musl-armhf.so.1	musl

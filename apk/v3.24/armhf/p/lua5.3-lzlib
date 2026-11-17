@@ -1,0 +1,14 @@
+name	lua5.3-lzlib
+version	0.4.3-r3
+description	Lua bindings to the ZLib compression library for Lua 5.3
+url	https://github.com/LuaDist/lzlib
+license	MIT
+size	9454
+installed-size	19554
+depends	so:libc.musl-armhf.so.1 so:libz.so.1
+origin	lua-lzlib
+repo	main
+file	lua5.3-lzlib-0.4.3-r3.apk
+checksum	Q1/GFdnUGq7BsuOY3szELC88m7oJw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libz.so.1	zlib

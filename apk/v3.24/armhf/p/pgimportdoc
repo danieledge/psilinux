@@ -1,0 +1,14 @@
+name	pgimportdoc
+version	0.1.4-r2
+description	CLI tool for import XML, TEXT and BYTEA documents to PostgreSQL
+url	https://github.com/okbob/pgimportdoc
+license	BSD-2-Clause
+size	17279
+installed-size	33964
+depends	so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	pgimportdoc
+repo	community
+file	pgimportdoc-0.1.4-r2.apk
+checksum	Q1F5RnSYpYF+06P/roZaUWBhMNGTw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

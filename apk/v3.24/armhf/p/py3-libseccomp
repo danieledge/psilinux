@@ -1,0 +1,15 @@
+name	py3-libseccomp
+version	2.6.1-r0
+description	Python 3 bindings for libseccomp
+url	https://github.com/seccomp/libseccomp
+license	LGPL-2.1-or-later
+size	90743
+installed-size	216393
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libseccomp.so.2
+origin	libseccomp
+repo	main
+file	py3-libseccomp-2.6.1-r0.apk
+checksum	Q1KUfaY6/nMSuX90y5K3msUvPXOoU=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libseccomp.so.2	libseccomp

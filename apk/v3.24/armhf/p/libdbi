@@ -1,0 +1,13 @@
+name	libdbi
+version	0.9.0-r6
+description	Database independent abstraction layer for C
+url	https://libdbi.sourceforge.net/
+license	LGPL-2.1-or-later
+size	20403
+installed-size	47160
+depends	so:libc.musl-armhf.so.1
+origin	libdbi
+repo	main
+file	libdbi-0.9.0-r6.apk
+checksum	Q1nL4VJ1JNV7CHOlFNn0qifjOz+rg=
+dep	so:libc.musl-armhf.so.1	musl

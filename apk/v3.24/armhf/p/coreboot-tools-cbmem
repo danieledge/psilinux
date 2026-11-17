@@ -1,0 +1,13 @@
+name	coreboot-tools-cbmem
+version	26.03-r1
+description	CBMEM parser to read e.g. timestamps and console log
+url	https://review.coreboot.org/coreboot
+license	GPL-2.0-only
+size	24293
+installed-size	50784
+depends	so:libc.musl-armhf.so.1
+origin	coreboot-tools
+repo	community
+file	coreboot-tools-cbmem-26.03-r1.apk
+checksum	Q1iYenonwYJRkF7MK1+gvh2A4EDZg=
+dep	so:libc.musl-armhf.so.1	musl

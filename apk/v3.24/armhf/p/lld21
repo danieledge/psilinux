@@ -1,0 +1,23 @@
+name	lld21
+version	21.1.8-r1
+description	The LLVM Linker
+url	https://llvm.org/
+license	Apache-2.0
+size	11081
+installed-size	97584
+depends	so:libLLVM.so.21.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblldCOFF.so.21.1 so:liblldCommon.so.21.1 so:liblldELF.so.21.1 so:liblldMachO.so.21.1 so:liblldMinGW.so.21.1 so:liblldWasm.so.21.1 so:libscudo.so so:libstdc++.so.6
+origin	lld21
+repo	main
+file	lld21-21.1.8-r1.apk
+checksum	Q1LLzrTlx1r7ta2LPpDATkfNE6glc=
+dep	so:libLLVM.so.21.1	llvm21-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblldCOFF.so.21.1	lld21-libs
+dep	so:liblldCommon.so.21.1	lld21-libs
+dep	so:liblldELF.so.21.1	lld21-libs
+dep	so:liblldMachO.so.21.1	lld21-libs
+dep	so:liblldMinGW.so.21.1	lld21-libs
+dep	so:liblldWasm.so.21.1	lld21-libs
+dep	so:libscudo.so	scudo-malloc
+dep	so:libstdc++.so.6	libstdc++

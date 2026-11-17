@@ -1,0 +1,17 @@
+name	py3-pyseto
+version	1.9.2-r0
+description	A Python implementation of PASETO and PASERK.
+url	https://github.com/dajiaji/pyseto
+license	MIT
+size	23401
+installed-size	113386
+depends	py3-argon2-cffi py3-cryptography py3-iso8601 py3-pycryptodomex python3~3.14
+origin	py3-pyseto
+repo	community
+file	py3-pyseto-1.9.2-r0.apk
+checksum	Q1gO9oDtvCiOiCBElRo+tMBMHOua8=
+dep	py3-argon2-cffi	py3-argon2-cffi
+dep	py3-cryptography	py3-cryptography
+dep	py3-iso8601	py3-iso8601
+dep	py3-pycryptodomex	py3-pycryptodomex
+dep	python3~3.14	python3

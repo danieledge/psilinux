@@ -1,0 +1,13 @@
+name	ocaml-obuild
+version	0.1.11-r1
+description	Simple package build system for OCaml
+url	https://github.com/ocaml-obuild/obuild
+license	BSD-2-Clause
+size	1122568
+installed-size	2441028
+depends	so:libc.musl-armhf.so.1
+origin	ocaml-obuild
+repo	community
+file	ocaml-obuild-0.1.11-r1.apk
+checksum	Q1ms3O93Qb1frNHtFurX18Pi3Cjt0=
+dep	so:libc.musl-armhf.so.1	musl

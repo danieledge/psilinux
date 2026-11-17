@@ -1,0 +1,14 @@
+name	lame
+version	3.100-r5
+description	An MP3 encoder and graphical frame analyzer
+url	https://lame.sourceforge.net/
+license	LGPL-2.0-or-later
+size	150104
+installed-size	283988
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	lame
+repo	main
+file	lame-3.100-r5.apk
+checksum	Q1+lJ8PO7AIQtlPf0HbyAdSU/ar+8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

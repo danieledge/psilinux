@@ -1,0 +1,14 @@
+name	zk
+version	0.15.5-r2
+description	Plain text note-taking application with CLI interface
+url	https://github.com/zk-org/zk
+license	GPL-3.0-only
+size	5053960
+installed-size	12462680
+depends	fzf so:libc.musl-armhf.so.1
+origin	zk
+repo	community
+file	zk-0.15.5-r2.apk
+checksum	Q1dUiHUQy1aLllfNYfim8eMnn2FVI=
+dep	fzf	fzf
+dep	so:libc.musl-armhf.so.1	musl

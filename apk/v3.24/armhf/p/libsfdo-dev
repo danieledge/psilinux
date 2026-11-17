@@ -1,0 +1,14 @@
+name	libsfdo-dev
+version	0.1.4-r0
+description	A collection of libraries which implement freedesktop.org specifications (development files)
+url	https://gitlab.freedesktop.org/vyivel/libsfdo
+license	BSD-2-Clause
+size	7928
+installed-size	27067
+depends	libsfdo=0.1.4-r0 pkgconfig
+origin	libsfdo
+repo	community
+file	libsfdo-dev-0.1.4-r0.apk
+checksum	Q10RJx6JFnbyCStVF4EH3VxvhHoz4=
+dep	libsfdo=0.1.4-r0	libsfdo
+dep	pkgconfig	pkgconf

@@ -1,0 +1,17 @@
+name	abseil-cpp-raw-hash-set
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-raw-hash-set
+url	https://abseil.io/
+license	Apache-2.0
+size	12954
+installed-size	25924
+depends	so:libabsl_hash.so.2508.0.0 so:libabsl_hashtablez_sampler.so.2508.0.0 so:libabsl_raw_logging_internal.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-raw-hash-set-20250814.1-r0.apk
+checksum	Q1zEFBu5/btxZeQdJULm0/MIIH2PI=
+dep	so:libabsl_hash.so.2508.0.0	abseil-cpp-hash
+dep	so:libabsl_hashtablez_sampler.so.2508.0.0	abseil-cpp-hashtablez-sampler
+dep	so:libabsl_raw_logging_internal.so.2508.0.0	abseil-cpp-raw-logging-internal
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

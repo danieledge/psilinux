@@ -1,0 +1,15 @@
+name	onefetch
+version	2.26.1-r0
+description	Git repository summary on your terminal
+url	https://github.com/o2sh/onefetch
+license	MIT
+size	3990317
+installed-size	6829936
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libzstd.so.1
+origin	onefetch
+repo	community
+file	onefetch-2.26.1-r0.apk
+checksum	Q1pFgnWP8gDIHalATVcN8LoJ2ZGXU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libzstd.so.1	zstd-libs

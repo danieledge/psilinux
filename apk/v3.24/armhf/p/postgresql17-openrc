@@ -1,0 +1,13 @@
+name	postgresql17-openrc
+version	17.12-r0
+description	A sophisticated object-relational DBMS, version 17 (OpenRC init scripts)
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	1339
+installed-size	0
+depends	postgresql-common-openrc
+origin	postgresql17
+repo	main
+file	postgresql17-openrc-17.12-r0.apk
+checksum	Q1xE/iHfOcMI4vYuQjhY3fcxt+QC0=
+dep	postgresql-common-openrc	postgresql-common-openrc

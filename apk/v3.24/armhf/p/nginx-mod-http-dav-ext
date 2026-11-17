@@ -1,0 +1,15 @@
+name	nginx-mod-http-dav-ext
+version	1.30.6-r0
+description	Nginx third-party module http-dav-ext (version v3.0.0)
+url	https://github.com/arut/nginx-dav-ext-module
+license	BSD-2-Clause
+size	12845
+installed-size	22638
+depends	nginx=1.30.6-r0 so:libc.musl-armhf.so.1 so:libxml2.so.2
+origin	nginx
+repo	main
+file	nginx-mod-http-dav-ext-1.30.6-r0.apk
+checksum	Q113RzF3j7rKUC5DOGd7AugdO8yMo=
+dep	nginx=1.30.6-r0	nginx
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxml2.so.2	libxml2

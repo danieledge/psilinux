@@ -1,0 +1,15 @@
+name	py3-typeguard
+version	4.5.2-r0
+description	run-time type checker for Python 
+url	https://typeguard.readthedocs.io/
+license	MIT
+size	34270
+installed-size	137719
+depends	py3-bracex py3-typing-extensions python3~3.14
+origin	py3-typeguard
+repo	community
+file	py3-typeguard-4.5.2-r0.apk
+checksum	Q1u6CYrQ7zl+MKaIBeQz8ykdJTJ6g=
+dep	py3-bracex	py3-bracex
+dep	py3-typing-extensions	py3-typing-extensions
+dep	python3~3.14	python3

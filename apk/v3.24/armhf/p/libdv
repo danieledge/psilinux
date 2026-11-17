@@ -1,0 +1,13 @@
+name	libdv
+version	1.0.0-r8
+description	Software decoder for DV format video
+url	https://libdv.sourceforge.net/
+license	LGPL-2.0-or-later
+size	42566
+installed-size	83692
+depends	so:libc.musl-armhf.so.1
+origin	libdv
+repo	community
+file	libdv-1.0.0-r8.apk
+checksum	Q1nyO1XDvUAdHgvAo8muaIZ5dO8Pg=
+dep	so:libc.musl-armhf.so.1	musl

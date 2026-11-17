@@ -1,0 +1,21 @@
+name	icu-dev
+version	78.1-r0
+description	International Components for Unicode library (development files)
+url	https://icu.unicode.org/
+license	ICU
+size	1070319
+installed-size	5348379
+depends	icu=78.1-r0 icu-libs=78.1-r0 icu=78.1-r0 pkgconfig so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libicutu.so.78 so:libicuuc.so.78 so:libstdc++.so.6
+origin	icu
+repo	main
+file	icu-dev-78.1-r0.apk
+checksum	Q1AHfneZ/49gVXEkEItkanSKB5QEM=
+dep	icu=78.1-r0	icu
+dep	icu-libs=78.1-r0	icu-libs
+dep	icu=78.1-r0	icu
+dep	pkgconfig	pkgconf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libicutu.so.78	icu
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libstdc++.so.6	libstdc++

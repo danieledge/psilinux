@@ -1,0 +1,15 @@
+name	py3-hcloud
+version	2.17.1-r0
+description	Official Hetzner Cloud Python library
+url	https://github.com/hetznercloud/hcloud-python
+license	MIT
+size	86871
+installed-size	525531
+depends	py3-dateutil py3-requests python3~3.14
+origin	py3-hcloud
+repo	community
+file	py3-hcloud-2.17.1-r0.apk
+checksum	Q14dKcqgHAYbcxc0ZoPoi0wi5lkEQ=
+dep	py3-dateutil	py3-dateutil
+dep	py3-requests	py3-requests
+dep	python3~3.14	python3

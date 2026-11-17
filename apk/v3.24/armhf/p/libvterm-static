@@ -1,0 +1,13 @@
+name	libvterm-static
+version	0.3.3-r0
+description	Abstract library implementation of a VT220/xterm/ECMA-48 terminal emulator (static library)
+url	https://www.leonerd.org.uk/code/libvterm/
+license	MIT
+size	31766
+installed-size	68900
+depends	libvterm-dev
+origin	libvterm
+repo	community
+file	libvterm-static-0.3.3-r0.apk
+checksum	Q1OSUkmkp0lQOw/BOGn3ba8mfuT/8=
+dep	libvterm-dev	libvterm-dev

@@ -1,0 +1,75 @@
+name	grpc-dev
+version	1.78.1-r2
+description	The C based gRPC (development files)
+url	https://grpc.io/
+license	Apache-2.0 AND BSD-3-Clause AND MIT
+size	255030
+installed-size	1225232
+depends	grpc-cpp=1.78.1-r2 grpc-plugins=1.78.1-r2 grpc-cpp=1.78.1-r2 grpc=1.78.1-r2 libaddress_sorting=1.78.1-r2 libgpr=1.78.1-r2 libgrpc=1.78.1-r2 libgrpc_authorization_provider=1.78.1-r2 libgrpc_unsecure=1.78.1-r2 libupb_base_lib=1.78.1-r2 libupb_json_lib=1.78.1-r2 libupb_mem_lib=1.78.1-r2 libupb_message_lib=1.78.1-r2 libupb_textformat_lib=1.78.1-r2 pc:absl_absl_check pc:absl_absl_log pc:absl_algorithm_container pc:absl_any_invocable pc:absl_base pc:absl_bind_front pc:absl_bits pc:absl_btree pc:absl_check pc:absl_cleanup pc:absl_config pc:absl_cord pc:absl_core_headers pc:absl_dynamic_annotations pc:absl_flags pc:absl_flags_marshalling pc:absl_flat_hash_map pc:absl_flat_hash_set pc:absl_function_ref pc:absl_hash pc:absl_inlined_vector pc:absl_layout pc:absl_log pc:absl_log_globals pc:absl_log_severity pc:absl_memory pc:absl_no_destructor pc:absl_node_hash_map pc:absl_optional pc:absl_prefetch pc:absl_random_bit_gen_ref pc:absl_random_distributions pc:absl_random_random pc:absl_span pc:absl_status pc:absl_statusor pc:absl_str_format pc:absl_string_view pc:absl_strings pc:absl_strings_internal pc:absl_synchronization pc:absl_time pc:absl_type_traits pc:absl_utility pc:libcares pc:openssl pc:re2 pc:zlib pkgconfig
+origin	grpc
+repo	community
+file	grpc-dev-1.78.1-r2.apk
+checksum	Q1I1JH65/auHOQE0ILnmphNR/jPqM=
+dep	grpc-cpp=1.78.1-r2	grpc-cpp
+dep	grpc-plugins=1.78.1-r2	grpc-plugins
+dep	grpc-cpp=1.78.1-r2	grpc-cpp
+dep	grpc=1.78.1-r2	grpc
+dep	libaddress_sorting=1.78.1-r2	libaddress_sorting
+dep	libgpr=1.78.1-r2	libgpr
+dep	libgrpc=1.78.1-r2	libgrpc
+dep	libgrpc_authorization_provider=1.78.1-r2	libgrpc_authorization_provider
+dep	libgrpc_unsecure=1.78.1-r2	libgrpc_unsecure
+dep	libupb_base_lib=1.78.1-r2	libupb_base_lib
+dep	libupb_json_lib=1.78.1-r2	libupb_json_lib
+dep	libupb_mem_lib=1.78.1-r2	libupb_mem_lib
+dep	libupb_message_lib=1.78.1-r2	libupb_message_lib
+dep	libupb_textformat_lib=1.78.1-r2	libupb_textformat_lib
+dep	pc:absl_absl_check	abseil-cpp-dev
+dep	pc:absl_absl_log	abseil-cpp-dev
+dep	pc:absl_algorithm_container	abseil-cpp-dev
+dep	pc:absl_any_invocable	abseil-cpp-dev
+dep	pc:absl_base	abseil-cpp-dev
+dep	pc:absl_bind_front	abseil-cpp-dev
+dep	pc:absl_bits	abseil-cpp-dev
+dep	pc:absl_btree	abseil-cpp-dev
+dep	pc:absl_check	abseil-cpp-dev
+dep	pc:absl_cleanup	abseil-cpp-dev
+dep	pc:absl_config	abseil-cpp-dev
+dep	pc:absl_cord	abseil-cpp-dev
+dep	pc:absl_core_headers	abseil-cpp-dev
+dep	pc:absl_dynamic_annotations	abseil-cpp-dev
+dep	pc:absl_flags	abseil-cpp-dev
+dep	pc:absl_flags_marshalling	abseil-cpp-dev
+dep	pc:absl_flat_hash_map	abseil-cpp-dev
+dep	pc:absl_flat_hash_set	abseil-cpp-dev
+dep	pc:absl_function_ref	abseil-cpp-dev
+dep	pc:absl_hash	abseil-cpp-dev
+dep	pc:absl_inlined_vector	abseil-cpp-dev
+dep	pc:absl_layout	abseil-cpp-dev
+dep	pc:absl_log	abseil-cpp-dev
+dep	pc:absl_log_globals	abseil-cpp-dev
+dep	pc:absl_log_severity	abseil-cpp-dev
+dep	pc:absl_memory	abseil-cpp-dev
+dep	pc:absl_no_destructor	abseil-cpp-dev
+dep	pc:absl_node_hash_map	abseil-cpp-dev
+dep	pc:absl_optional	abseil-cpp-dev
+dep	pc:absl_prefetch	abseil-cpp-dev
+dep	pc:absl_random_bit_gen_ref	abseil-cpp-dev
+dep	pc:absl_random_distributions	abseil-cpp-dev
+dep	pc:absl_random_random	abseil-cpp-dev
+dep	pc:absl_span	abseil-cpp-dev
+dep	pc:absl_status	abseil-cpp-dev
+dep	pc:absl_statusor	abseil-cpp-dev
+dep	pc:absl_str_format	abseil-cpp-dev
+dep	pc:absl_string_view	abseil-cpp-dev
+dep	pc:absl_strings	abseil-cpp-dev
+dep	pc:absl_strings_internal	abseil-cpp-dev
+dep	pc:absl_synchronization	abseil-cpp-dev
+dep	pc:absl_time	abseil-cpp-dev
+dep	pc:absl_type_traits	abseil-cpp-dev
+dep	pc:absl_utility	abseil-cpp-dev
+dep	pc:libcares	c-ares-dev
+dep	pc:openssl	openssl-dev
+dep	pc:re2	re2-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

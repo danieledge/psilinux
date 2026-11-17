@@ -1,0 +1,17 @@
+name	redis
+version	8.8.0-r0
+description	Advanced key-value store
+url	https://redis.io/
+license	AGPL-3.0-only OR SSPL-1.0
+size	2002318
+installed-size	4373889
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
+origin	redis
+repo	community
+file	redis-8.8.0-r0.apk
+checksum	Q14gFPJAqkOdTL2H9ejJX0dkUPGRo=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3

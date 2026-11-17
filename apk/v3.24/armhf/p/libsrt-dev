@@ -1,0 +1,16 @@
+name	libsrt-dev
+version	1.5.3-r1
+description	Secure Reliable Transport (SRT) (development files)
+url	https://www.srtalliance.org/
+license	MPL-2.0
+size	23151
+installed-size	68688
+depends	libsrt=1.5.3-r1 pc:libcrypto pc:openssl pkgconfig
+origin	libsrt
+repo	community
+file	libsrt-dev-1.5.3-r1.apk
+checksum	Q1L5tBH6GXJCyRvYs7BnfBmBi6h8M=
+dep	libsrt=1.5.3-r1	libsrt
+dep	pc:libcrypto	openssl-dev
+dep	pc:openssl	openssl-dev
+dep	pkgconfig	pkgconf

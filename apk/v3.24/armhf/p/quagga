@@ -1,0 +1,19 @@
+name	quagga
+version	1.2.4-r11
+description	A free routing daemon replacing Zebra supporting RIP, OSPF, BGP and NHRP
+url	https://www.nongnu.org/quagga/
+license	GPL-2.0-or-later
+size	1580649
+installed-size	4997956
+depends	iproute2 /bin/sh so:libc.musl-armhf.so.1 so:libcares.so.2 so:libnetsnmp.so.45 so:libnetsnmpagent.so.45 so:libreadline.so.8
+origin	quagga
+repo	main
+file	quagga-1.2.4-r11.apk
+checksum	Q1la6EPT0MJVMldGRa9K0X6VHltzY=
+dep	iproute2	iproute2
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcares.so.2	c-ares
+dep	so:libnetsnmp.so.45	net-snmp-libs
+dep	so:libnetsnmpagent.so.45	net-snmp-agent-libs
+dep	so:libreadline.so.8	readline

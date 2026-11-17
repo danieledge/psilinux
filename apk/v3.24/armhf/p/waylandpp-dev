@@ -1,0 +1,18 @@
+name	waylandpp-dev
+version	1.0.0-r2
+description	Wayland C++ bindings (development files)
+url	https://github.com/NilsBrause/waylandpp
+license	MIT AND GPL-3.0-or-later
+size	248727
+installed-size	1262220
+depends	mesa-dev pugixml-dev wayland-dev waylandpp=1.0.0-r2 pc:egl pkgconfig
+origin	waylandpp
+repo	community
+file	waylandpp-dev-1.0.0-r2.apk
+checksum	Q1AKMk+Qw4zSIB4byKGRcSQOzo9iQ=
+dep	mesa-dev	mesa-dev
+dep	pugixml-dev	pugixml-dev
+dep	wayland-dev	wayland-dev
+dep	waylandpp=1.0.0-r2	waylandpp
+dep	pc:egl	mesa-dev
+dep	pkgconfig	pkgconf

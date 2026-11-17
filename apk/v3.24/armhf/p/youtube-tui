@@ -1,0 +1,20 @@
+name	youtube-tui
+version	0.9.3-r0
+description	Aesthetically pleasing YouTube TUI written in Rust
+url	https://tui.siri.ws/youtube/
+license	GPL-3.0-or-later
+size	3573890
+installed-size	7430600
+depends	yt-dlp so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libmpv.so.2 so:libsixel.so.1 so:libssl.so.3 so:libxcb.so.1
+origin	youtube-tui
+repo	community
+file	youtube-tui-0.9.3-r0.apk
+checksum	Q1Hleu1ZU8pUAvGR0Miv3Vx/RbIy0=
+dep	yt-dlp	yt-dlp
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmpv.so.2	mpv-libs
+dep	so:libsixel.so.1	libsixel
+dep	so:libssl.so.3	libssl3
+dep	so:libxcb.so.1	libxcb

@@ -1,0 +1,15 @@
+name	kde-qdoc-common
+version	1.0.0-r0
+description	Common files for KDE's API documentation (using QDoc)
+url	https://community.kde.org/Frameworks
+license	LGPL-2.1-or-later
+size	253518
+installed-size	506434
+depends	doxygen graphviz qt6-qttools
+origin	kde-qdoc-common
+repo	community
+file	kde-qdoc-common-1.0.0-r0.apk
+checksum	Q1yX2JNgtGjfmiMzLBtvhDMZ2s5oU=
+dep	doxygen	doxygen
+dep	graphviz	graphviz
+dep	qt6-qttools	qt6-qttools

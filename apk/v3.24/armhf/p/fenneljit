@@ -1,0 +1,15 @@
+name	fenneljit
+version	1.6.1-r0
+description	A Lua Lisp Language for Lua jit
+url	https://fennel-lang.org
+license	MIT
+size	138097
+installed-size	646782
+depends	luajit so:libc.musl-armhf.so.1 so:libluajit-5.1.so.2
+origin	fennel
+repo	community
+file	fenneljit-1.6.1-r0.apk
+checksum	Q1r9Ql1SyQOMKhBh3834ta57ghehk=
+dep	luajit	luajit
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libluajit-5.1.so.2	luajit

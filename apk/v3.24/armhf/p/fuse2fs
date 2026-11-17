@@ -1,0 +1,19 @@
+name	fuse2fs
+version	1.47.4-r0
+description	Ext2/3/4 filesystem driver for FUSE
+url	https://e2fsprogs.sourceforge.net/
+license	GPL-2.0-or-later AND LGPL-2.0-or-later AND BSD-3-Clause AND MIT
+size	37298
+installed-size	75620
+depends	so:libblkid.so.1 so:libc.musl-armhf.so.1 so:libcom_err.so.2 so:libe2p.so.2 so:libext2fs.so.2 so:libfuse3.so.4 so:libuuid.so.1
+origin	e2fsprogs
+repo	main
+file	fuse2fs-1.47.4-r0.apk
+checksum	Q1bb1af69uG2u082Iq+RBHFZtYV08=
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcom_err.so.2	libcom_err
+dep	so:libe2p.so.2	e2fsprogs-libs
+dep	so:libext2fs.so.2	e2fsprogs-libs
+dep	so:libfuse3.so.4	fuse3-libs
+dep	so:libuuid.so.1	libuuid

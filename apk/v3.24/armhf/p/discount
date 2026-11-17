@@ -1,0 +1,14 @@
+name	discount
+version	3.0.1.2-r1
+description	Markdown to HTML translator written in C
+url	https://www.pell.portland.or.us/~orc/Code/discount/
+license	BSD-3-Clause
+size	17212
+installed-size	50608
+depends	!markdown so:libc.musl-armhf.so.1 so:libmarkdown.so.3
+origin	discount
+repo	community
+file	discount-3.0.1.2-r1.apk
+checksum	Q1mgUqKK1Z11v7hUetQYFaJYUrqi8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmarkdown.so.3	discount-libs

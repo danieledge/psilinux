@@ -1,0 +1,13 @@
+name	runit
+version	2.3.1-r0
+description	UNIX init scheme with service supervision
+url	http://smarden.org/runit/
+license	BSD
+size	68717
+installed-size	204320
+depends	so:libc.musl-armhf.so.1
+origin	runit
+repo	community
+file	runit-2.3.1-r0.apk
+checksum	Q1CiwDg2wELwsXbBhXc4MNcV9ufXE=
+dep	so:libc.musl-armhf.so.1	musl

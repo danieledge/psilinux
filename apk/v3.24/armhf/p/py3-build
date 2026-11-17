@@ -1,0 +1,16 @@
+name	py3-build
+version	1.4.2-r0
+description	Correct PEP517 package builder
+url	https://github.com/pypa/build
+license	MIT
+size	23210
+installed-size	69854
+depends	python3 py3-packaging py3-pyproject-hooks python3~3.14
+origin	py3-build
+repo	main
+file	py3-build-1.4.2-r0.apk
+checksum	Q1NHi/WX/0JF9yIAwAeonWVzoyZGo=
+dep	python3	python3
+dep	py3-packaging	py3-packaging
+dep	py3-pyproject-hooks	py3-pyproject-hooks
+dep	python3~3.14	python3

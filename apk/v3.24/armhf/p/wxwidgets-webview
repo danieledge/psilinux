@@ -1,0 +1,25 @@
+name	wxwidgets-webview
+version	3.2.9-r0
+description	wxWidgets GUI library (WebView component)
+url	https://www.wxwidgets.org/
+license	custom:wxWidgets
+size	61621
+installed-size	150308
+depends	wxwidgets=3.2.9-r0 wxwidgets-gtk3=3.2.9-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libjavascriptcoregtk-4.1.so.0 so:libstdc++.so.6 so:libwebkit2gtk-4.1.so.0 so:libwx_baseu-3.2.so.0 so:libwx_gtk3u_core-3.2.so.0
+origin	wxwidgets
+repo	community
+file	wxwidgets-webview-3.2.9-r0.apk
+checksum	Q1ByDm49JgXGALka93njJu/GVIiCE=
+dep	wxwidgets=3.2.9-r0	wxwidgets
+dep	wxwidgets-gtk3=3.2.9-r0	wxwidgets-gtk3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libjavascriptcoregtk-4.1.so.0	webkit2gtk-4.1
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwebkit2gtk-4.1.so.0	webkit2gtk-4.1
+dep	so:libwx_baseu-3.2.so.0	wxwidgets
+dep	so:libwx_gtk3u_core-3.2.so.0	wxwidgets-gtk3

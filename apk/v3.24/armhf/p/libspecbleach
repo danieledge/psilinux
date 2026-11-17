@@ -1,0 +1,14 @@
+name	libspecbleach
+version	0.2.0-r0
+description	Standalone library based on the algorithms used in noise-repellent.
+url	https://github.com/lucianodato/libspecbleach
+license	LGPL-2.1-only
+size	19111
+installed-size	38008
+depends	so:libc.musl-armhf.so.1 so:libfftw3f.so.3
+origin	libspecbleach
+repo	community
+file	libspecbleach-0.2.0-r0.apk
+checksum	Q1GYI5RIJXuFKwViSieKjkGpf4leY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfftw3f.so.3	fftw-single-libs

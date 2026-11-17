@@ -1,0 +1,16 @@
+name	polkit-noelogind-libs
+version	127-r2
+description	Application development toolkit for controlling system-wide privileges (libraries)
+url	https://github.com/polkit-org/polkit
+license	GPL-2.0-or-later
+size	53808
+installed-size	141656
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	polkit
+repo	community
+file	polkit-noelogind-libs-127-r2.apk
+checksum	Q1QVrfrAV47YD+XPc95vUTR0G/i34=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

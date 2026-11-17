@@ -1,0 +1,17 @@
+name	newsraft
+version	0.38-r0
+description	Feed reader with text-based user interface
+url	https://codeberg.org/newsraft/newsraft
+license	ISC
+size	100671
+installed-size	220752
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libexpat.so.1 so:libgumbo.so.3 so:libsqlite3.so.0
+origin	newsraft
+repo	community
+file	newsraft-0.38-r0.apk
+checksum	Q1zdUnA9nkNfStoRbHCOdevR+IQs4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libexpat.so.1	libexpat
+dep	so:libgumbo.so.3	gumbo-parser
+dep	so:libsqlite3.so.0	sqlite-libs

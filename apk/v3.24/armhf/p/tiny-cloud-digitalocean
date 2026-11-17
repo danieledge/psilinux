@@ -1,0 +1,14 @@
+name	tiny-cloud-digitalocean
+version	3.4.2-r0
+description	Tiny Cloud - DigitalOcean module
+url	https://gitlab.alpinelinux.org/alpine/cloud/tiny-cloud
+license	MIT
+size	1420
+installed-size	1
+depends	tiny-cloud=3.4.2-r0 /bin/sh
+origin	tiny-cloud
+repo	main
+file	tiny-cloud-digitalocean-3.4.2-r0.apk
+checksum	Q1jnTNpkMDU0QYit3IAUqmDs/RMYY=
+dep	tiny-cloud=3.4.2-r0	tiny-cloud
+dep	/bin/sh	busybox-binsh

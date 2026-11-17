@@ -1,0 +1,14 @@
+name	vo-aacenc-dev
+version	0.1.3-r3
+description	VisualOn AAC encoder from Android (development files)
+url	https://sourceforge.net/projects/opencore-amr/
+license	Apache-2.0
+size	8982
+installed-size	29418
+depends	vo-aacenc=0.1.3-r3 pkgconfig
+origin	vo-aacenc
+repo	community
+file	vo-aacenc-dev-0.1.3-r3.apk
+checksum	Q1su3Fi0ZVEwQQ2y1td1r9gaFvxmc=
+dep	vo-aacenc=0.1.3-r3	vo-aacenc
+dep	pkgconfig	pkgconf

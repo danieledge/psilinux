@@ -1,0 +1,15 @@
+name	libvorbis-dev
+version	1.3.7-r2
+description	Vorbis codec library (development files)
+url	https://xiph.org/vorbis
+license	BSD-3-Clause
+size	12249
+installed-size	39309
+depends	libvorbis=1.3.7-r2 pc:ogg pkgconfig
+origin	libvorbis
+repo	main
+file	libvorbis-dev-1.3.7-r2.apk
+checksum	Q1sx93HIO0convNe/MKjP/ekMrWWE=
+dep	libvorbis=1.3.7-r2	libvorbis
+dep	pc:ogg	libogg-dev
+dep	pkgconfig	pkgconf

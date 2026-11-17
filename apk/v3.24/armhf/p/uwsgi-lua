@@ -1,0 +1,15 @@
+name	uwsgi-lua
+version	2.0.31-r2
+description	uWSGI plugin lua
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	10576
+installed-size	22128
+depends	uwsgi so:libc.musl-armhf.so.1 so:liblua-5.3.so.0
+origin	uwsgi
+repo	main
+file	uwsgi-lua-2.0.31-r2.apk
+checksum	Q1s9Gf4SjsKQ2+LAogH4imHX885Gw=
+dep	uwsgi	uwsgi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblua-5.3.so.0	lua5.3-libs

@@ -1,0 +1,13 @@
+name	xkcdpass
+version	1.30.0-r2
+description	Generate secure multiword passwords/passphrases
+url	https://github.com/redacted/XKCD-password-generator
+license	BSD-3-Clause
+size	1689
+installed-size	221
+depends	py3-xkcdpass=1.30.0-r2
+origin	xkcdpass
+repo	community
+file	xkcdpass-1.30.0-r2.apk
+checksum	Q1ZD/NLIdiczENy5HSENrFVR9dy9c=
+dep	py3-xkcdpass=1.30.0-r2	py3-xkcdpass

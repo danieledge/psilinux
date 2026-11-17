@@ -1,0 +1,26 @@
+name	sfml
+version	2.6.1-r0
+description	Simple and Fast Multimedia Library
+url	https://www.sfml-dev.org/
+license	Zlib
+size	355034
+installed-size	822288
+depends	so:libFLAC.so.12 so:libX11.so.6 so:libXcursor.so.1 so:libXrandr.so.2 so:libc.musl-armhf.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libogg.so.0 so:libopenal.so.1 so:libstdc++.so.6 so:libudev.so.1 so:libvorbis.so.0 so:libvorbisenc.so.2 so:libvorbisfile.so.3
+origin	sfml
+repo	community
+file	sfml-2.6.1-r0.apk
+checksum	Q1+m+MrDgqqHBMyVywqjGTLG6iduQ=
+dep	so:libFLAC.so.12	libflac
+dep	so:libX11.so.6	libx11
+dep	so:libXcursor.so.1	libxcursor
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libogg.so.0	libogg
+dep	so:libopenal.so.1	openal-soft-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libudev.so.1	eudev-libs
+dep	so:libvorbis.so.0	libvorbis
+dep	so:libvorbisenc.so.2	libvorbis
+dep	so:libvorbisfile.so.3	libvorbis

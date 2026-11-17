@@ -1,0 +1,13 @@
+name	libxkbcommon-static
+version	1.13.1-r0
+description	keyboard handling library (static library)
+url	https://xkbcommon.org/
+license	MIT AND MIT-open-group AND HPND AND HPND-sell-variant AND LicenseRef-digital-equipment-corporation
+size	215567
+installed-size	534370
+depends	libxkbcommon-dev
+origin	libxkbcommon
+repo	main
+file	libxkbcommon-static-1.13.1-r0.apk
+checksum	Q1a+3poEphuS7HrfMlU9I5jbFWCfY=
+dep	libxkbcommon-dev	libxkbcommon-dev

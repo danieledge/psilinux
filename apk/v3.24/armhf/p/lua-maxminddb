@@ -1,0 +1,17 @@
+name	lua-maxminddb
+version	0.1-r5
+description	libmaxminddb bindings for Lua
+url	https://github.com/fabled/lua-maxminddb
+license	MIT
+size	1279
+installed-size	0
+depends	lua5.1-maxminddb lua5.2-maxminddb lua5.3-maxminddb lua5.4-maxminddb lua5.5-maxminddb
+origin	lua-maxminddb
+repo	main
+file	lua-maxminddb-0.1-r5.apk
+checksum	Q1Ki4qRm86MmJUAA7guIjuEcK530Q=
+dep	lua5.1-maxminddb	lua5.1-maxminddb
+dep	lua5.2-maxminddb	lua5.2-maxminddb
+dep	lua5.3-maxminddb	lua5.3-maxminddb
+dep	lua5.4-maxminddb	lua5.4-maxminddb
+dep	lua5.5-maxminddb	lua5.5-maxminddb

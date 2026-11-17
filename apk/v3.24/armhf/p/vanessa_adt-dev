@@ -1,0 +1,14 @@
+name	vanessa_adt-dev
+version	0.0.9-r4
+description	Library of abstract data types (development files)
+url	https://projects.horms.net/projects/vanessa/
+license	LGPL-2.0-or-later
+size	10139
+installed-size	52367
+depends	vanessa_logger-dev vanessa_adt=0.0.9-r4
+origin	vanessa_adt
+repo	main
+file	vanessa_adt-dev-0.0.9-r4.apk
+checksum	Q1qWPSepPoP6RXhp4TJLDe1v1ja74=
+dep	vanessa_logger-dev	vanessa_logger-dev
+dep	vanessa_adt=0.0.9-r4	vanessa_adt

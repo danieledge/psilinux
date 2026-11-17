@@ -1,0 +1,13 @@
+name	libfltk_cairo
+version	1.3.11-r1
+description	A cross-platform C++ GUI toolkit
+url	https://www.fltk.org/
+license	LGPL-2.0-only WITH FLTK-exception
+size	3883
+installed-size	5400
+depends	so:libgcc_s.so.1
+origin	fltk
+repo	community
+file	libfltk_cairo-1.3.11-r1.apk
+checksum	Q1eW/9qGh74C7obe/seuu+NMEZgaI=
+dep	so:libgcc_s.so.1	libgcc

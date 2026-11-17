@@ -1,0 +1,15 @@
+name	sngtc_client
+version	1.3.11-r5
+description	Sangoma Media Transcode client and lib
+url	https://wiki.freepbx.org/display/MTC/Media+Transcoding
+license	custom AND GPL-2.0-or-later AND BSD-3-Clause
+size	91512
+installed-size	292380
+depends	so:libbctoolbox.so.1 so:libc.musl-armhf.so.1 so:libortp.so.15
+origin	sngtc_client
+repo	main
+file	sngtc_client-1.3.11-r5.apk
+checksum	Q1lueeJ2EradFeme/pg3L1JNTn8KY=
+dep	so:libbctoolbox.so.1	bctoolbox
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libortp.so.15	ortp

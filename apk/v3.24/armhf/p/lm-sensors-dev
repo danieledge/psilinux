@@ -1,0 +1,13 @@
+name	lm-sensors-dev
+version	3.6.0-r5
+description	Collection of user space tools for general SMBus access and hardware monitoring. (development files)
+url	https://github.com/lm-sensors/lm-sensors
+license	LGPL-2.1-or-later AND GPL-2.0-or-later
+size	30927
+installed-size	82917
+depends	lm-sensors-libs=3.6.0-r5
+origin	lm-sensors
+repo	main
+file	lm-sensors-dev-3.6.0-r5.apk
+checksum	Q1iRxAFnmTLsLgkvT++E6G0j12KuI=
+dep	lm-sensors-libs=3.6.0-r5	lm-sensors-libs

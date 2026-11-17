@@ -1,0 +1,15 @@
+name	spandsp3
+version	0_git20201102-r3
+description	SpanDSP is a library of DSP functions for telephony
+url	https://www.soft-switch.org/installing-spandsp.html
+license	LGPL-2.1-only
+size	311697
+installed-size	697968
+depends	so:libc.musl-armhf.so.1 so:libjpeg.so.8 so:libtiff.so.6
+origin	spandsp3
+repo	main
+file	spandsp3-0_git20201102-r3.apk
+checksum	Q1w/ayFH10a98FPYKWeWqY7QHKLxw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libtiff.so.6	tiff

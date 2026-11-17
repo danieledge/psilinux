@@ -1,0 +1,15 @@
+name	py3-pytest-xdist
+version	3.8.0-r1
+description	pytest xdist plugin for distributed testing and loop-on-failing modes
+url	https://pytest-xdist.readthedocs.io
+license	MIT
+size	38065
+installed-size	145739
+depends	py3-execnet py3-pytest python3~3.14
+origin	py3-pytest-xdist
+repo	main
+file	py3-pytest-xdist-3.8.0-r1.apk
+checksum	Q12EUyURb5seHVpaf+XIIMUWsOEl0=
+dep	py3-execnet	py3-execnet
+dep	py3-pytest	py3-pytest
+dep	python3~3.14	python3

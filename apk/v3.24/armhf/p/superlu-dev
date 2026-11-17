@@ -1,0 +1,14 @@
+name	superlu-dev
+version	7.0.1-r0
+description	Sparse LU factorization library (development files)
+url	https://portal.nersc.gov/project/sparse/superlu/
+license	BSD-3-Clause
+size	23284
+installed-size	106673
+depends	superlu=7.0.1-r0 pkgconfig
+origin	superlu
+repo	community
+file	superlu-dev-7.0.1-r0.apk
+checksum	Q1qfbJkNnJOPkdqLAx05GEWajaTnw=
+dep	superlu=7.0.1-r0	superlu
+dep	pkgconfig	pkgconf

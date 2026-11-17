@@ -1,0 +1,17 @@
+name	libcdio++
+version	2.3.0-r0
+description	libcdio bindings for C++
+url	https://www.gnu.org/software/libcdio/
+license	GPL-3.0-or-later
+size	7953
+installed-size	21045
+depends	so:libc.musl-armhf.so.1 so:libcdio.so.19 so:libgcc_s.so.1 so:libiso9660.so.12 so:libstdc++.so.6
+origin	libcdio
+repo	community
+file	libcdio++-2.3.0-r0.apk
+checksum	Q1KXIuVpmA+OZyNXvtbYvp5VUdvxo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcdio.so.19	libcdio
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libiso9660.so.12	libcdio
+dep	so:libstdc++.so.6	libstdc++

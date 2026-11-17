@@ -1,0 +1,15 @@
+name	lua5.5-apk
+version	3.0.9-r0
+description	Lua module for apk-tools
+url	https://gitlab.alpinelinux.org/alpine/apk-tools
+license	GPL-2.0-only
+size	5621
+installed-size	9516
+depends	so:libapk.so.3.0.0 so:libc.musl-armhf.so.1 so:liblua-5.5.so.0
+origin	apk-tools
+repo	main
+file	lua5.5-apk-3.0.9-r0.apk
+checksum	Q1uL42nVzK9yeo5gSEuiJHHBDMz08=
+dep	so:libapk.so.3.0.0	libapk
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblua-5.5.so.0	lua5.5-libs

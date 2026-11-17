@@ -1,0 +1,15 @@
+name	spirv-tools-dev
+version	1.4.341.0-r0
+description	API and commands for processing SPIR-V modules (development files)
+url	https://github.com/KhronosGroup/SPIRV-Tools
+license	Apache-2.0
+size	37879
+installed-size	171176
+depends	spirv-headers spirv-tools=1.4.341.0-r0 pkgconfig
+origin	spirv-tools
+repo	main
+file	spirv-tools-dev-1.4.341.0-r0.apk
+checksum	Q1ftJogwtP/tsNc5W6hYeBXg/0Qtc=
+dep	spirv-headers	spirv-headers
+dep	spirv-tools=1.4.341.0-r0	spirv-tools
+dep	pkgconfig	pkgconf

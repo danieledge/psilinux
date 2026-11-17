@@ -1,0 +1,14 @@
+name	pueue
+version	4.0.4-r1
+description	Manage your shell commands
+url	https://github.com/nukesor/pueue
+license	MIT
+size	3463099
+installed-size	6883120
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	pueue
+repo	community
+file	pueue-4.0.4-r1.apk
+checksum	Q16iqd8j46vokG8A17lam/8vLP3O4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

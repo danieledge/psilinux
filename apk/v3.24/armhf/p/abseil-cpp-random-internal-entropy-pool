@@ -1,0 +1,21 @@
+name	abseil-cpp-random-internal-entropy-pool
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-random-internal-entropy-pool
+url	https://abseil.io/
+license	Apache-2.0
+size	4799
+installed-size	9592
+depends	so:libabsl_base.so.2508.0.0 so:libabsl_random_internal_randen.so.2508.0.0 so:libabsl_random_internal_randen_slow.so.2508.0.0 so:libabsl_random_internal_seed_material.so.2508.0.0 so:libabsl_random_seed_gen_exception.so.2508.0.0 so:libabsl_spinlock_wait.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-random-internal-entropy-pool-20250814.1-r0.apk
+checksum	Q12t4V3Vn8MP6FHcaC/nBX4kEu5hQ=
+dep	so:libabsl_base.so.2508.0.0	abseil-cpp-base
+dep	so:libabsl_random_internal_randen.so.2508.0.0	abseil-cpp-random-internal-randen
+dep	so:libabsl_random_internal_randen_slow.so.2508.0.0	abseil-cpp-random-internal-randen-slow
+dep	so:libabsl_random_internal_seed_material.so.2508.0.0	abseil-cpp-random-internal-seed-material
+dep	so:libabsl_random_seed_gen_exception.so.2508.0.0	abseil-cpp-random-seed-gen-exception
+dep	so:libabsl_spinlock_wait.so.2508.0.0	abseil-cpp-spinlock-wait
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

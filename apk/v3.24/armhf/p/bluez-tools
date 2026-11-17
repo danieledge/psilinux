@@ -1,0 +1,17 @@
+name	bluez-tools
+version	0_git20201025-r0
+description	Tools to manage Bluetooth devices and networks
+url	https://github.com/khvzak/bluez-tools
+license	GPL-2.0-only
+size	238048
+installed-size	875524
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libreadline.so.8
+origin	bluez-tools
+repo	community
+file	bluez-tools-0_git20201025-r0.apk
+checksum	Q1smpMpswJ5s6fcT5mdtw2jmpNlcM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libreadline.so.8	readline

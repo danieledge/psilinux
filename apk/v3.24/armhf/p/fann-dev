@@ -1,0 +1,17 @@
+name	fann-dev
+version	2.2.0-r4
+description	Fast Artificial Neural Network Library (development files)
+url	https://github.com/libfann/fann/
+license	LGPL-2.0-or-later
+size	50805
+installed-size	265513
+depends	fann-double=2.2.0-r4 fann-fixed=2.2.0-r4 fann-float=2.2.0-r4 fann=2.2.0-r4 pkgconfig
+origin	fann
+repo	community
+file	fann-dev-2.2.0-r4.apk
+checksum	Q1XVH+tjo9jp9O6z4aT3HXzWmyjLk=
+dep	fann-double=2.2.0-r4	fann-double
+dep	fann-fixed=2.2.0-r4	fann-fixed
+dep	fann-float=2.2.0-r4	fann-float
+dep	fann=2.2.0-r4	fann
+dep	pkgconfig	pkgconf

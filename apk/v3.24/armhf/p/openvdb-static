@@ -1,0 +1,13 @@
+name	openvdb-static
+version	13.0.0-r1
+description	Sparse volume data structure and tools (static library)
+url	https://www.openvdb.org/
+license	MPL-2.0
+size	27274455
+installed-size	277189666
+depends	openvdb-dev
+origin	openvdb
+repo	community
+file	openvdb-static-13.0.0-r1.apk
+checksum	Q1Ztun/rFHiLldRgclAy7i70Df6Fo=
+dep	openvdb-dev	openvdb-dev

@@ -1,0 +1,18 @@
+name	libkdcraw
+version	26.04.2-r0
+description	RAW image file format support for KDE
+url	https://kde.org
+license	GPL-2.0-or-later AND LGPL-2.0-or-later
+size	35227
+installed-size	87702
+depends	so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libraw.so.25 so:libstdc++.so.6
+origin	libkdcraw
+repo	community
+file	libkdcraw-26.04.2-r0.apk
+checksum	Q1eTR9SlFOXOv8I+NUbr23mz5hzdU=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libraw.so.25	libraw
+dep	so:libstdc++.so.6	libstdc++

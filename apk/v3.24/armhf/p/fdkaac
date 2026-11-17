@@ -1,0 +1,14 @@
+name	fdkaac
+version	1.0.6-r0
+description	Command line frontend for libfdk-aac
+url	https://github.com/nu774/fdkaac
+license	BSD-4-Clause AND MIT AND Zlib
+size	34419
+installed-size	67324
+depends	so:libc.musl-armhf.so.1 so:libfdk-aac.so.2
+origin	fdkaac
+repo	community
+file	fdkaac-1.0.6-r0.apk
+checksum	Q1WynPqI6VRrni6wY9b7jK0lMjDLI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfdk-aac.so.2	fdk-aac

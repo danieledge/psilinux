@@ -1,0 +1,14 @@
+name	libchewing-dev
+version	0.12.0-r0
+description	Intelligent Chinese phonetic input method (development files)
+url	https://chewing.im/
+license	LGPL-2.1-only
+size	13671
+installed-size	57856
+depends	libchewing=0.12.0-r0 pkgconfig
+origin	libchewing
+repo	community
+file	libchewing-dev-0.12.0-r0.apk
+checksum	Q16+MhdkWAaTG+Xa/FFwURUVZiY4g=
+dep	libchewing=0.12.0-r0	libchewing
+dep	pkgconfig	pkgconf

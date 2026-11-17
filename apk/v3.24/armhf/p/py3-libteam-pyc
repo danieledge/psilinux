@@ -1,0 +1,13 @@
+name	py3-libteam-pyc
+version	1.31-r8
+description	Precompiled Python bytecode for py3-libteam
+url	http://libteam.org
+license	LGPL-2.1-or-later
+size	16674
+installed-size	79670
+depends	python3~3.14
+origin	libteam
+repo	community
+file	py3-libteam-pyc-1.31-r8.apk
+checksum	Q1bo/nZmJp0XogZAen2O4tmUA3ugQ=
+dep	python3~3.14	python3

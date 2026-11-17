@@ -1,0 +1,19 @@
+name	openvpn-auth-ldap
+version	2.0.4-r8
+description	LDAP authentication and authorization plugin for OpenVPN 2.x
+url	https://github.com/threerings/openvpn-auth-ldap/
+license	BSD-3-Clause
+size	40027
+installed-size	98152
+depends	openvpn /bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblber.so.2 so:libldap.so.2 so:libobjc.so.4
+origin	openvpn-auth-ldap
+repo	main
+file	openvpn-auth-ldap-2.0.4-r8.apk
+checksum	Q14VH5JWvDMvq+UN7c8GbP/Yu0rE8=
+dep	openvpn	openvpn
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap
+dep	so:libobjc.so.4	libobjc

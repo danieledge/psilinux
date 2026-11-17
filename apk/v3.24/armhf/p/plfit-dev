@@ -1,0 +1,14 @@
+name	plfit-dev
+version	1.0.1-r1
+description	Fit power-law distributions to empirical data (development files)
+url	https://github.com/ntamas/plfit
+license	GPL-2.0-or-later
+size	6628
+installed-size	19354
+depends	plfit-libs=1.0.1-r1 pkgconfig
+origin	plfit
+repo	community
+file	plfit-dev-1.0.1-r1.apk
+checksum	Q1gPPzv7mt8QyUGWnhghD4fSZsxv4=
+dep	plfit-libs=1.0.1-r1	plfit-libs
+dep	pkgconfig	pkgconf

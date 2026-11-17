@@ -1,0 +1,13 @@
+name	py3-mysqlclient-pyc
+version	2.2.8-r0
+description	Precompiled Python bytecode for py3-mysqlclient
+url	https://mysqlclient.readthedocs.io/
+license	GPL-2.0-or-later
+size	44514
+installed-size	98207
+depends	python3~3.14
+origin	py3-mysqlclient
+repo	community
+file	py3-mysqlclient-pyc-2.2.8-r0.apk
+checksum	Q1KOTzy8EdbgnPKaRtmH35Yuf5L+0=
+dep	python3~3.14	python3

@@ -1,0 +1,18 @@
+name	hyprwire
+version	0.3.1-r0
+description	Fast and consistent wire protocol for IPC
+url	https://github.com/hyprwm/hyprwire
+license	BSD-3-Clause
+size	201750
+installed-size	457700
+depends	so:libc.musl-armhf.so.1 so:libffi.so.8 so:libgcc_s.so.1 so:libhyprutils.so.12 so:libpugixml.so.1 so:libstdc++.so.6
+origin	hyprwire
+repo	community
+file	hyprwire-0.3.1-r0.apk
+checksum	Q1EnTRk47CwFGYUFgDHDPAMCjhDB0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libffi.so.8	libffi
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libhyprutils.so.12	hyprutils
+dep	so:libpugixml.so.1	pugixml
+dep	so:libstdc++.so.6	libstdc++

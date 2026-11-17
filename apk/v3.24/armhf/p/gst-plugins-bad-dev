@@ -1,0 +1,36 @@
+name	gst-plugins-bad-dev
+version	1.28.3-r0
+description	GStreamer streaming media framework bad plug-ins (development files)
+url	https://gstreamer.freedesktop.org/
+license	GPL-2.0-or-later LGPL-2.0-or-later
+size	633938
+installed-size	5683812
+depends	gst-plugins-bad=1.28.3-r0 pc:gmodule-no-export-2.0 pc:gstreamer-1.0>=1.28.0 pc:gstreamer-allocators-1.0>=1.28.0 pc:gstreamer-app-1.0>=1.28.0 pc:gstreamer-audio-1.0>=1.28.0 pc:gstreamer-base-1.0>=1.28.0 pc:gstreamer-gl-1.0>=1.28.0 pc:gstreamer-gl-prototypes-1.0>=1.28.0 pc:gstreamer-pbutils-1.0>=1.28.0 pc:gstreamer-sdp-1.0>=1.28.0 pc:gstreamer-tag-1.0>=1.28.0 pc:gstreamer-video-1.0>=1.28.0 pc:libdrm>=2.4.50 pc:libva-drm>=1.12 pc:libva>=1.12 pc:vulkan pc:wayland-client pc:wayland-client>=1.4 pc:xcb pc:xcb>=1.10 pc:xkbcommon pc:xkbcommon-x11 pkgconfig
+origin	gst-plugins-bad
+repo	community
+file	gst-plugins-bad-dev-1.28.3-r0.apk
+checksum	Q1OanFZdxT8oD/0XyFeeAIiBtvBnc=
+dep	gst-plugins-bad=1.28.3-r0	gst-plugins-bad
+dep	pc:gmodule-no-export-2.0	glib-dev
+dep	pc:gstreamer-1.0>=1.28.0	gstreamer-dev
+dep	pc:gstreamer-allocators-1.0>=1.28.0	gst-plugins-base-dev
+dep	pc:gstreamer-app-1.0>=1.28.0	gst-plugins-base-dev
+dep	pc:gstreamer-audio-1.0>=1.28.0	gst-plugins-base-dev
+dep	pc:gstreamer-base-1.0>=1.28.0	gstreamer-dev
+dep	pc:gstreamer-gl-1.0>=1.28.0	gst-plugins-base-dev
+dep	pc:gstreamer-gl-prototypes-1.0>=1.28.0	gst-plugins-base-dev
+dep	pc:gstreamer-pbutils-1.0>=1.28.0	gst-plugins-base-dev
+dep	pc:gstreamer-sdp-1.0>=1.28.0	gst-plugins-base-dev
+dep	pc:gstreamer-tag-1.0>=1.28.0	gst-plugins-base-dev
+dep	pc:gstreamer-video-1.0>=1.28.0	gst-plugins-base-dev
+dep	pc:libdrm>=2.4.50	libdrm-dev
+dep	pc:libva-drm>=1.12	libva-dev
+dep	pc:libva>=1.12	libva-dev
+dep	pc:vulkan	vulkan-loader-dev
+dep	pc:wayland-client	wayland-dev
+dep	pc:wayland-client>=1.4	wayland-dev
+dep	pc:xcb	libxcb-dev
+dep	pc:xcb>=1.10	libxcb-dev
+dep	pc:xkbcommon	libxkbcommon-dev
+dep	pc:xkbcommon-x11	libxkbcommon-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,13 @@
+name	s6-dns-static
+version	2.4.1.2-r0
+description	skarnet.org's DNS client libraries and command-line DNS client utilities (static library)
+url	https://skarnet.org/software/s6-dns/
+license	ISC
+size	44188
+installed-size	218818
+depends	s6-dns-dev
+origin	s6-dns
+repo	main
+file	s6-dns-static-2.4.1.2-r0.apk
+checksum	Q1OHUAiET8r3HR/1JxZGKu6nGYCeE=
+dep	s6-dns-dev	s6-dns-dev

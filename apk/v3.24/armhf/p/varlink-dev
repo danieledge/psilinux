@@ -1,0 +1,14 @@
+name	varlink-dev
+version	24.0.1-r0
+description	Varlink C library and command-line tool (development files)
+url	https://github.com/varlink/libvarlink
+license	Apache-2.0
+size	5003
+installed-size	14146
+depends	libvarlink=24.0.1-r0 pkgconfig
+origin	varlink
+repo	community
+file	varlink-dev-24.0.1-r0.apk
+checksum	Q1sRPIjMFMY/Wc2ghy5sBAAMYfFoQ=
+dep	libvarlink=24.0.1-r0	libvarlink
+dep	pkgconfig	pkgconf

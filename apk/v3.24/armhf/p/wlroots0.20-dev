@@ -1,0 +1,42 @@
+name	wlroots0.20-dev
+version	0.20.2-r0
+description	Modular Wayland compositor library (development files)
+url	https://gitlab.freedesktop.org/wlroots/wlroots
+license	MIT
+size	95199
+installed-size	401715
+depends	wlroots0.20=0.20.2-r0 pc:egl pc:gbm pc:glesv2 pc:lcms2 pc:libdisplay-info>=0.2.0 pc:libdrm>=2.4.129 pc:libinput>=1.19.0 pc:libliftoff>=0.4.0 pc:libseat>=0.2.0 pc:libudev pc:pixman-1>=0.43.0 pc:vulkan>=1.2.182 pc:wayland-client>=1.24.0 pc:wayland-protocols>=1.47 pc:wayland-server>=1.24.0 pc:xcb pc:xcb-composite pc:xcb-dri3 pc:xcb-ewmh pc:xcb-icccm pc:xcb-present pc:xcb-render pc:xcb-renderutil pc:xcb-res pc:xcb-shm pc:xcb-xfixes pc:xcb-xinput pc:xkbcommon>=1.8.0 pkgconfig
+origin	wlroots0.20
+repo	community
+file	wlroots0.20-dev-0.20.2-r0.apk
+checksum	Q164m0IgRXabG2onkqJAXr6SR+IuA=
+dep	wlroots0.20=0.20.2-r0	wlroots0.20
+dep	pc:egl	mesa-dev
+dep	pc:gbm	mesa-dev
+dep	pc:glesv2	mesa-dev
+dep	pc:lcms2	lcms2-dev
+dep	pc:libdisplay-info>=0.2.0	libdisplay-info-dev
+dep	pc:libdrm>=2.4.129	libdrm-dev
+dep	pc:libinput>=1.19.0	libinput-dev
+dep	pc:libliftoff>=0.4.0	libliftoff-dev
+dep	pc:libseat>=0.2.0	libseat-dev
+dep	pc:libudev	eudev-dev
+dep	pc:pixman-1>=0.43.0	pixman-dev
+dep	pc:vulkan>=1.2.182	vulkan-loader-dev
+dep	pc:wayland-client>=1.24.0	wayland-dev
+dep	pc:wayland-protocols>=1.47	wayland-protocols
+dep	pc:wayland-server>=1.24.0	wayland-dev
+dep	pc:xcb	libxcb-dev
+dep	pc:xcb-composite	libxcb-dev
+dep	pc:xcb-dri3	libxcb-dev
+dep	pc:xcb-ewmh	xcb-util-wm-dev
+dep	pc:xcb-icccm	xcb-util-wm-dev
+dep	pc:xcb-present	libxcb-dev
+dep	pc:xcb-render	libxcb-dev
+dep	pc:xcb-renderutil	xcb-util-renderutil-dev
+dep	pc:xcb-res	libxcb-dev
+dep	pc:xcb-shm	libxcb-dev
+dep	pc:xcb-xfixes	libxcb-dev
+dep	pc:xcb-xinput	libxcb-dev
+dep	pc:xkbcommon>=1.8.0	libxkbcommon-dev
+dep	pkgconfig	pkgconf

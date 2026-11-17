@@ -1,0 +1,13 @@
+name	pstree
+version	2.40-r2
+description	A small tool to list processes as a tree
+url	https://github.com/FredHucht/pstree
+license	GPL-3.0-or-later
+size	7844
+installed-size	13660
+depends	!psmisc so:libc.musl-armhf.so.1
+origin	pstree
+repo	main
+file	pstree-2.40-r2.apk
+checksum	Q1sVI0n1Bqp4bvFVnR+0erFyNaJl0=
+dep	so:libc.musl-armhf.so.1	musl

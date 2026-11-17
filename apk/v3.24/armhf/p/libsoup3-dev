@@ -1,0 +1,23 @@
+name	libsoup3-dev
+version	3.6.6-r0
+description	Gnome HTTP client/server Library (development files)
+url	https://libsoup.gnome.org
+license	LGPL-2.0-or-later
+size	136827
+installed-size	1070593
+depends	libsoup3=3.6.6-r0 pc:gio-2.0>=2.70.0 pc:glib-2.0>=2.70.0 pc:gmodule-no-export-2.0>=2.70.0 pc:gobject-2.0>=2.70.0 pc:libbrotlidec pc:libnghttp2 pc:libpsl>=0.20 pc:sqlite3 pc:zlib pkgconfig
+origin	libsoup3
+repo	community
+file	libsoup3-dev-3.6.6-r0.apk
+checksum	Q12uukSCQ9QyB5Lerma+e6ZnZwvDc=
+dep	libsoup3=3.6.6-r0	libsoup3
+dep	pc:gio-2.0>=2.70.0	glib-dev
+dep	pc:glib-2.0>=2.70.0	glib-dev
+dep	pc:gmodule-no-export-2.0>=2.70.0	glib-dev
+dep	pc:gobject-2.0>=2.70.0	glib-dev
+dep	pc:libbrotlidec	brotli-dev
+dep	pc:libnghttp2	nghttp2-dev
+dep	pc:libpsl>=0.20	libpsl-dev
+dep	pc:sqlite3	sqlite-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

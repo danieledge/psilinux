@@ -1,0 +1,15 @@
+name	perl-bit-vector
+version	7.4-r14
+description	Efficient bit vector, set of integers, and big int math library
+url	https://metacpan.org/release/Bit-Vector/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	93105
+installed-size	330089
+depends	perl perl-carp-clan so:libc.musl-armhf.so.1
+origin	perl-bit-vector
+repo	community
+file	perl-bit-vector-7.4-r14.apk
+checksum	Q17L5JJIWkLIHJEkjub63zP/jnw8w=
+dep	perl	perl
+dep	perl-carp-clan	perl-carp-clan
+dep	so:libc.musl-armhf.so.1	musl

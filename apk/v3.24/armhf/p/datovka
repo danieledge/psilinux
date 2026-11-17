@@ -1,0 +1,27 @@
+name	datovka
+version	4.29.1-r0
+description	A free graphical interface for Czech Databox
+url	https://www.datovka.cz/
+license	GPL-3.0-or-later WITH cryptsetup-OpenSSL-exception
+size	5638481
+installed-size	11328840
+depends	so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6PrintSupport.so.6 so:libQt6Sql.so.6 so:libQt6Svg.so.6 so:libQt6SvgWidgets.so.6 so:libQt6WebSockets.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libdatovka.so.8 so:libgcc_s.so.1 so:libquazip1-qt6.so.1.5.0 so:libstdc++.so.6
+origin	datovka
+repo	community
+file	datovka-4.29.1-r0.apk
+checksum	Q12RWYXA4RVqSdlzpwHNmZYFPXaZ0=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6PrintSupport.so.6	qt6-qtbase-x11
+dep	so:libQt6Sql.so.6	qt6-qtbase
+dep	so:libQt6Svg.so.6	qt6-qtsvg
+dep	so:libQt6SvgWidgets.so.6	qt6-qtsvg
+dep	so:libQt6WebSockets.so.6	qt6-qtwebsockets-libs
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libdatovka.so.8	libdatovka
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libquazip1-qt6.so.1.5.0	libquazip1-qt6
+dep	so:libstdc++.so.6	libstdc++

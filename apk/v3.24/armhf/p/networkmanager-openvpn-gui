@@ -1,0 +1,25 @@
+name	networkmanager-openvpn-gui
+version	1.12.2-r1
+description	NetworkManager VPN plugin for OpenVPN
+url	https://gitlab.gnome.org/GNOME/NetworkManager-openvpn
+license	GPL-2.0-or-later
+size	81254
+installed-size	325990
+depends	dbus:org.freedesktop.Secrets networkmanager-openvpn-minimal=1.12.2-r1 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libnm.so.0 so:libnma-gtk4.so.0 so:libnma.so.0 so:libsecret-1.so.0
+origin	networkmanager-openvpn
+repo	community
+file	networkmanager-openvpn-gui-1.12.2-r1.apk
+checksum	Q1sv0jgsvw3oDztYh7Qnd0bfm78Bk=
+dep	dbus:org.freedesktop.Secrets	gnome-keyring
+dep	networkmanager-openvpn-minimal=1.12.2-r1	networkmanager-openvpn-minimal
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libnm.so.0	libnm
+dep	so:libnma-gtk4.so.0	libnma-gtk4
+dep	so:libnma.so.0	libnma
+dep	so:libsecret-1.so.0	libsecret

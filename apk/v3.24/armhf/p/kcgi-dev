@@ -1,0 +1,14 @@
+name	kcgi-dev
+version	1.0.1-r0
+description	CGI and FastCGI library for C/C++ web applications (development files)
+url	https://kristaps.bsd.lv/kcgi
+license	ISC
+size	14434
+installed-size	48278
+depends	kcgi=1.0.1-r0 pkgconfig
+origin	kcgi
+repo	community
+file	kcgi-dev-1.0.1-r0.apk
+checksum	Q1dFXscHOxzyTuDUQPpx1AsMZTMvA=
+dep	kcgi=1.0.1-r0	kcgi
+dep	pkgconfig	pkgconf

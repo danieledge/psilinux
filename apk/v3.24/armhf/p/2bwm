@@ -1,0 +1,19 @@
+name	2bwm
+version	0.3-r3
+description	Fast floating window manager
+url	https://github.com/venam/2bwm
+license	ISC
+size	22657
+installed-size	48908
+depends	so:libc.musl-armhf.so.1 so:libxcb-ewmh.so.2 so:libxcb-icccm.so.4 so:libxcb-keysyms.so.1 so:libxcb-randr.so.0 so:libxcb-xrm.so.0 so:libxcb.so.1
+origin	2bwm
+repo	community
+file	2bwm-0.3-r3.apk
+checksum	Q1m/5HEvxbrwbRtB6YjGpUg9sSvL8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxcb-ewmh.so.2	xcb-util-wm
+dep	so:libxcb-icccm.so.4	xcb-util-wm
+dep	so:libxcb-keysyms.so.1	xcb-util-keysyms
+dep	so:libxcb-randr.so.0	libxcb
+dep	so:libxcb-xrm.so.0	xcb-util-xrm
+dep	so:libxcb.so.1	libxcb

@@ -1,0 +1,23 @@
+name	perl-ryu
+version	4.001-r1
+description	Stream and data flow handling for async code
+url	https://metacpan.org/release/Ryu/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	26362
+installed-size	93043
+depends	perl perl-curry perl-future perl-future-queue perl-indirect perl-json-maybexs perl-list-utilsby perl-log-any perl-ref-util perl-syntax-keyword-try perl-text-csv
+origin	perl-ryu
+repo	community
+file	perl-ryu-4.001-r1.apk
+checksum	Q1JDFaX0rbTZf9N5IBdK7QwucfVBo=
+dep	perl	perl
+dep	perl-curry	perl-curry
+dep	perl-future	perl-future
+dep	perl-future-queue	perl-future-queue
+dep	perl-indirect	perl-indirect
+dep	perl-json-maybexs	perl-json-maybexs
+dep	perl-list-utilsby	perl-list-utilsby
+dep	perl-log-any	perl-log-any
+dep	perl-ref-util	perl-ref-util
+dep	perl-syntax-keyword-try	perl-syntax-keyword-try
+dep	perl-text-csv	perl-text-csv

@@ -1,0 +1,13 @@
+name	raspberrypi-utils-rpifwcrypto-dev
+version	0.20260811-r0
+description	Shared library for the firmware cryptography service (development files)
+url	https://github.com/raspberrypi/utils
+license	BSD-3-Clause
+size	3424
+installed-size	7292
+depends	raspberrypi-utils-rpifwcrypto=0.20260811-r0
+origin	raspberrypi-utils
+repo	community
+file	raspberrypi-utils-rpifwcrypto-dev-0.20260811-r0.apk
+checksum	Q16pO5HmPRLp367+NzvnQx28FLJm0=
+dep	raspberrypi-utils-rpifwcrypto=0.20260811-r0	raspberrypi-utils-rpifwcrypto

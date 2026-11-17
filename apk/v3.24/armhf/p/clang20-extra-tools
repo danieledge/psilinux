@@ -1,0 +1,19 @@
+name	clang20-extra-tools
+version	20.1.8-r3
+description	Extra tools built using Clang's tooling APIs
+url	https://llvm.org/
+license	Apache-2.0 WITH LLVM-exception
+size	36119406
+installed-size	90781856
+depends	so:libLLVM.so.20.1 so:libc.musl-armhf.so.1 so:libclang-cpp.so.20.1 so:libclang.so.20.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libxml2.so.2
+origin	clang20
+repo	main
+file	clang20-extra-tools-20.1.8-r3.apk
+checksum	Q18Ro3Gx8KP7XxvRKCrxeD7wtRG5s=
+dep	so:libLLVM.so.20.1	llvm20-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libclang-cpp.so.20.1	clang20-libs
+dep	so:libclang.so.20.1	clang20-libclang
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxml2.so.2	libxml2

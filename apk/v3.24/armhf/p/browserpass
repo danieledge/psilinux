@@ -1,0 +1,14 @@
+name	browserpass
+version	3.1.0-r30
+description	Browser extension for pass
+url	https://github.com/browserpass/browserpass-native
+license	MIT
+size	1415142
+installed-size	3456684
+depends	pass so:libc.musl-armhf.so.1
+origin	browserpass
+repo	community
+file	browserpass-3.1.0-r30.apk
+checksum	Q1c9L9lnMW+JHs4lexV6s2vQlVGA8=
+dep	pass	pass
+dep	so:libc.musl-armhf.so.1	musl

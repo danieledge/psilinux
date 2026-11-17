@@ -1,0 +1,13 @@
+name	apg
+version	2.2.3-r7
+description	Automated Password Generator.
+url	https://linux.die.net/man/1/apg
+license	BSD-3-Clause
+size	49310
+installed-size	136300
+depends	so:libc.musl-armhf.so.1
+origin	apg
+repo	main
+file	apg-2.2.3-r7.apk
+checksum	Q1buMM8+7fO9/Aw8vyRKsAtzvefwA=
+dep	so:libc.musl-armhf.so.1	musl

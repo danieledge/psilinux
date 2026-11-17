@@ -1,0 +1,25 @@
+name	mce
+version	1.116.4-r0
+description	mce with support for tap-to-wake and tilt-to-wake
+url	https://github.com/sailfishos/mce
+license	LGPL-2.1-only
+size	443289
+installed-size	1217066
+depends	dsme so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libdsme.so.0 so:libelogind.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libiphb.so.0 so:libngf0-0.24.so.0 so:libthermalmanager_dbus_if.so.0 so:libudev.so.1
+origin	mce
+repo	community
+file	mce-1.116.4-r0.apk
+checksum	Q1ucpiuHljNVzQZZ0TKyC0xbrKaF4=
+dep	dsme	dsme
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libdsme.so.0	libdsme
+dep	so:libelogind.so.0	libelogind
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libiphb.so.0	libiphb
+dep	so:libngf0-0.24.so.0	libngf
+dep	so:libthermalmanager_dbus_if.so.0	libdsme
+dep	so:libudev.so.1	eudev-libs

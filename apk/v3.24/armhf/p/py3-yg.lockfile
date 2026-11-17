@@ -1,0 +1,16 @@
+name	py3-yg.lockfile
+version	2.3-r8
+description	Lockfile object with timeouts and context manager
+url	https://github.com/yougov/yg.lockfile
+license	MIT
+size	5764
+installed-size	8947
+depends	py3-jaraco.functools py3-tempora py3-zc.lockfile python3~3.14
+origin	py3-yg.lockfile
+repo	community
+file	py3-yg.lockfile-2.3-r8.apk
+checksum	Q1MbtQIo/uEd1jf+f1s4EnW+Cv2e0=
+dep	py3-jaraco.functools	py3-jaraco.functools
+dep	py3-tempora	py3-tempora
+dep	py3-zc.lockfile	py3-zc.lockfile
+dep	python3~3.14	python3

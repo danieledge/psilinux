@@ -1,0 +1,21 @@
+name	keepassxc-autotype
+version	2.7.12-r1
+description	KeePassXC Auto-Type feature for X11
+url	https://keepassxc.org/
+license	GPL-2.0-only OR GPL-3.0-only
+size	15385
+installed-size	30132
+depends	so:libQt5Core.so.5 so:libQt5Widgets.so.5 so:libQt5X11Extras.so.5 so:libX11.so.6 so:libXtst.so.6 so:libbotan-3.so.11 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	keepassxc
+repo	community
+file	keepassxc-autotype-2.7.12-r1.apk
+checksum	Q1zHv8soqkxFBIGpR+WdL+TZrI2uE=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Widgets.so.5	qt5-qtbase-x11
+dep	so:libQt5X11Extras.so.5	qt5-qtx11extras
+dep	so:libX11.so.6	libx11
+dep	so:libXtst.so.6	libxtst
+dep	so:libbotan-3.so.11	botan3-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

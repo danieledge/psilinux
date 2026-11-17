@@ -1,0 +1,23 @@
+name	mailutils-servers
+version	3.21-r1
+description	GNU swiss army knife of electronic mail handling (servers)
+url	https://mailutils.org/
+license	GPL-3.0-or-later
+size	75699
+installed-size	172164
+depends	so:libc.musl-armhf.so.1 so:libmailutils.so.9 so:libmu_auth.so.9 so:libmu_dotmail.so.9 so:libmu_imap.so.9 so:libmu_maildir.so.9 so:libmu_mbox.so.9 so:libmu_mh.so.9 so:libmu_pop.so.9 so:libmuaux.so.9 so:libunistring.so.5
+origin	mailutils
+repo	community
+file	mailutils-servers-3.21-r1.apk
+checksum	Q1bUMG+FiUiedyikfvgvzQUisED2I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmailutils.so.9	mailutils-libs
+dep	so:libmu_auth.so.9	mailutils-libs
+dep	so:libmu_dotmail.so.9	mailutils-libs
+dep	so:libmu_imap.so.9	mailutils-libs
+dep	so:libmu_maildir.so.9	mailutils-libs
+dep	so:libmu_mbox.so.9	mailutils-libs
+dep	so:libmu_mh.so.9	mailutils-libs
+dep	so:libmu_pop.so.9	mailutils-libs
+dep	so:libmuaux.so.9	mailutils-libs
+dep	so:libunistring.so.5	libunistring

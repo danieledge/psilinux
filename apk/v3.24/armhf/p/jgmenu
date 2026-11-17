@@ -1,0 +1,27 @@
+name	jgmenu
+version	4.5.0-r0
+description	Simple, independent X11 menu
+url	https://github.com/johanmalm/jgmenu
+license	GPL-2.0-or-later
+size	131054
+installed-size	308411
+depends	bash desktop-file-utils python3 so:libX11.so.6 so:libXrandr.so.2 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libmenu-cache.so.3 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpng16.so.16 so:librsvg-2.so.2 so:libxml2.so.2
+origin	jgmenu
+repo	community
+file	jgmenu-4.5.0-r0.apk
+checksum	Q1j4FKwgUwoZcRMmk9kIu1DUs2Sm8=
+dep	bash	bash
+dep	desktop-file-utils	desktop-file-utils
+dep	python3	python3
+dep	so:libX11.so.6	libx11
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libmenu-cache.so.3	menu-cache
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpng16.so.16	libpng
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libxml2.so.2	libxml2

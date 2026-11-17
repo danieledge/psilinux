@@ -1,0 +1,20 @@
+name	edgar
+version	1.36-r0
+description	2D platform game with a persistent world
+url	https://github.com/riksweeney/edgar
+license	GPL-2.0-or-later
+size	89736292
+installed-size	94041238
+depends	edgar-data so:libSDL2-2.0.so.0 so:libSDL2_image-2.0.so.0 so:libSDL2_mixer-2.0.so.0 so:libSDL2_ttf-2.0.so.0 so:libc.musl-armhf.so.1 so:libpng16.so.16 so:libz.so.1
+origin	edgar
+repo	community
+file	edgar-1.36-r0.apk
+checksum	Q1bk0MWkSHUBXtD6qJgo9yEAB8Oz0=
+dep	edgar-data	edgar-data
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libSDL2_image-2.0.so.0	sdl2_image
+dep	so:libSDL2_mixer-2.0.so.0	sdl2_mixer
+dep	so:libSDL2_ttf-2.0.so.0	sdl2_ttf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpng16.so.16	libpng
+dep	so:libz.so.1	zlib

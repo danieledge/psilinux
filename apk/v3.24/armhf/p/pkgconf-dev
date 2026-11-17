@@ -1,0 +1,14 @@
+name	pkgconf-dev
+version	2.5.1-r0
+description	development framework configuration tools (development files)
+url	https://gitea.treehouse.systems/ariadne/pkgconf
+license	ISC
+size	39956
+installed-size	117236
+depends	pkgconf=2.5.1-r0 pkgconfig
+origin	pkgconf
+repo	main
+file	pkgconf-dev-2.5.1-r0.apk
+checksum	Q1sP9g/7ktyx7L6FoiLC08nkoyQnw=
+dep	pkgconf=2.5.1-r0	pkgconf
+dep	pkgconfig	pkgconf

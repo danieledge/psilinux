@@ -1,0 +1,14 @@
+name	perl-promise-es6-io-async
+version	0.28-r1
+description	ES6-style promises in Perl (IO::Async backend)
+url	https://metacpan.org/release/Promise-ES6/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	2939
+installed-size	2569
+depends	perl-promise-es6=0.28-r1 perl-io-async
+origin	perl-promise-es6
+repo	community
+file	perl-promise-es6-io-async-0.28-r1.apk
+checksum	Q1fk0zYe9ySMmxl4qYNFLpXiY+Ze0=
+dep	perl-promise-es6=0.28-r1	perl-promise-es6
+dep	perl-io-async	perl-io-async

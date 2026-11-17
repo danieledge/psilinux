@@ -1,0 +1,16 @@
+name	qt5-qtfeedback-dev
+version	0_git20180903-r3
+description	Qt Tactile Feedback (development files)
+url	https://qt-project.org/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	11790
+installed-size	40951
+depends	qt5-qtdeclarative-dev qt5-qtfeedback=0_git20180903-r3 pc:Qt5Core pkgconfig
+origin	qt5-qtfeedback
+repo	community
+file	qt5-qtfeedback-dev-0_git20180903-r3.apk
+checksum	Q1yk+9KPAzjIxpQSkiQXmwhkfUvPE=
+dep	qt5-qtdeclarative-dev	qt5-qtdeclarative-dev
+dep	qt5-qtfeedback=0_git20180903-r3	qt5-qtfeedback
+dep	pc:Qt5Core	qt5-qtbase-dev
+dep	pkgconfig	pkgconf

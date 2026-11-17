@@ -1,0 +1,16 @@
+name	xf86-input-evdev
+version	2.11.0-r0
+description	X.org evdev input driver
+url	https://xorg.freedesktop.org
+license	MIT
+size	23881
+installed-size	48507
+depends	so:libc.musl-armhf.so.1 so:libevdev.so.2 so:libmtdev.so.1 so:libudev.so.1
+origin	xf86-input-evdev
+repo	community
+file	xf86-input-evdev-2.11.0-r0.apk
+checksum	Q1OlLUVZmGtsYpWpEuixah3hTGx0M=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevdev.so.2	libevdev
+dep	so:libmtdev.so.1	mtdev
+dep	so:libudev.so.1	eudev-libs

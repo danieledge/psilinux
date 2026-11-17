@@ -1,0 +1,17 @@
+name	py3-clikit
+version	0.6.2-r9
+description	Python3 library to create beautiful and testable command-line interfaces
+url	https://github.com/sdispater/clikit
+license	MIT
+size	67944
+installed-size	280289
+depends	python3 py3-crashtest py3-pastel py3-pylev python3~3.14
+origin	py3-clikit
+repo	community
+file	py3-clikit-0.6.2-r9.apk
+checksum	Q1zy0qBUTaw2txlPwsK79+UoyrwD8=
+dep	python3	python3
+dep	py3-crashtest	py3-crashtest
+dep	py3-pastel	py3-pastel
+dep	py3-pylev	py3-pylev
+dep	python3~3.14	python3

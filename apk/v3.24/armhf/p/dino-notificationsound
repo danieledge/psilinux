@@ -1,0 +1,20 @@
+name	dino-notificationsound
+version	0.5.1-r2
+description	Modern Jabber/XMPP client
+url	https://dino.im
+license	GPL-3.0-only
+size	4496
+installed-size	9388
+depends	gst-plugins-good gst-plugins-good-gtk icu-data-full so:libc.musl-armhf.so.1 so:libcanberra.so.0 so:libdino.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	dino
+repo	community
+file	dino-notificationsound-0.5.1-r2.apk
+checksum	Q1mP/iLISduILBx/G/EWQayYQuhWg=
+dep	gst-plugins-good	gst-plugins-good
+dep	gst-plugins-good-gtk	gst-plugins-good-gtk
+dep	icu-data-full	icu-data-full
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcanberra.so.0	libcanberra
+dep	so:libdino.so.0	dino
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

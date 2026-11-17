@@ -1,0 +1,12 @@
+name	webkit2gtk-6.0-dbg
+version	2.48.1-r4
+description	Portable web rendering engine WebKit for GTK+ - GTK4 version (debug symbols)
+url	https://webkitgtk.org/
+license	LGPL-2.0-or-later AND BSD-2-Clause
+size	133360222
+installed-size	453028852
+depends	!webkit2gtk-6.0<2.48.1-r4 !webkit2gtk-6.0>2.48.1-r4
+origin	webkit2gtk-6.0
+repo	community
+file	webkit2gtk-6.0-dbg-2.48.1-r4.apk
+checksum	Q19ip0I+zyNamX/zhr72URrHPkcTk=

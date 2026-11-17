@@ -1,0 +1,13 @@
+name	postgresql-common
+version	1.3-r0
+description	Common files for PostgreSQL
+url	https://www.postgresql.org/
+license	MIT
+size	4616
+installed-size	4577
+depends	/bin/sh
+origin	postgresql-common
+repo	main
+file	postgresql-common-1.3-r0.apk
+checksum	Q1rLkafguw0998X9QrJrqopzDuO9I=
+dep	/bin/sh	busybox-binsh

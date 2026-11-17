@@ -1,0 +1,19 @@
+name	czkawka-gui
+version	10.0.0-r0
+description	Multi functional app to find duplicates, empty folders, similar images etc. (GUI)
+url	https://github.com/qarmin/czkawka
+license	MIT AND CC-BY-4.0
+size	6850573
+installed-size	15987033
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1
+origin	czkawka
+repo	community
+file	czkawka-gui-10.0.0-r0.apk
+checksum	Q1By0F4m5ik+V1jJVkUd3qt8qCbVQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0

@@ -1,0 +1,20 @@
+name	strongswan
+version	6.0.7-r2
+description	IPsec-based VPN solution focused on security and ease of use, supporting IKEv1/IKEv2 and MOBIKE
+url	https://www.strongswan.org/
+license	GPL-2.0-or-later WITH OpenSSL-Exception
+size	1089592
+installed-size	2744898
+depends	iproute2 /bin/sh so:libc.musl-armhf.so.1 so:libcap.so.2 so:libcrypto.so.3 so:libcurl.so.4 so:libgmp.so.10 so:libsqlite3.so.0
+origin	strongswan
+repo	main
+file	strongswan-6.0.7-r2.apk
+checksum	Q1O3vLpr7yVWbnz7F8TvgAy637MtE=
+dep	iproute2	iproute2
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libgmp.so.10	gmp
+dep	so:libsqlite3.so.0	sqlite-libs

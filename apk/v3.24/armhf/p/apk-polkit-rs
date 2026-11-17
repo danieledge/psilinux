@@ -1,0 +1,21 @@
+name	apk-polkit-rs
+version	3.0.2-r0
+description	apk-polkit-rs exposes a DBus API for APK, the Alpine Package Keeper
+url	https://gitlab.alpinelinux.org/Cogitri/apk-polkit-rs
+license	GPL-3.0-or-later
+size	723550
+installed-size	1485693
+depends	polkit alpine-appstream-downloader /bin/sh so:libapk.so.3.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	apk-polkit-rs
+repo	community
+file	apk-polkit-rs-3.0.2-r0.apk
+checksum	Q1eKxZ4XsjsWCvqEYv6JVPWea5k9c=
+dep	polkit	polkit
+dep	alpine-appstream-downloader	alpine-appstream-downloader
+dep	/bin/sh	busybox-binsh
+dep	so:libapk.so.3.0.0	libapk
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

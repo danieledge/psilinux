@@ -1,0 +1,13 @@
+name	umoci
+version	0.4.7-r42
+description	umoci modifies Open Container images
+url	https://umo.ci/
+license	Apache-2.0
+size	2696792
+installed-size	7102364
+depends	so:libc.musl-armhf.so.1
+origin	umoci
+repo	community
+file	umoci-0.4.7-r42.apk
+checksum	Q1sY6fCo7hFBceR5nX4rV+OQxS+O8=
+dep	so:libc.musl-armhf.so.1	musl

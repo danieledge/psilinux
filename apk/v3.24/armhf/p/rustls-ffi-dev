@@ -1,0 +1,14 @@
+name	rustls-ffi-dev
+version	0.15.3-r2
+description	Use Rustls from any language (development files)
+url	https://github.com/rustls/rustls-ffi
+license	Apache-2.0 AND MIT AND ISC
+size	2179317
+installed-size	7748676
+depends	rustls-ffi=0.15.3-r2 pkgconfig
+origin	rustls-ffi
+repo	community
+file	rustls-ffi-dev-0.15.3-r2.apk
+checksum	Q1e6LJbRISd/ABENmqWZxFdNr1jSA=
+dep	rustls-ffi=0.15.3-r2	rustls-ffi
+dep	pkgconfig	pkgconf

@@ -1,0 +1,13 @@
+name	lockdev
+version	0_git20130107-r4
+description	Run-time shared library for locking devices, using _both_ FSSTND and SVr4 methods.
+url	https://packages.qa.debian.org/l/lockdev.html
+license	LGPL-2.1-or-later
+size	7801
+installed-size	18732
+depends	so:libc.musl-armhf.so.1
+origin	lockdev
+repo	community
+file	lockdev-0_git20130107-r4.apk
+checksum	Q12EplvCBO18XB/xcFzvTBw3iN8ns=
+dep	so:libc.musl-armhf.so.1	musl

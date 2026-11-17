@@ -1,0 +1,14 @@
+name	findutils-locate
+version	4.10.0-r1
+description	locate and updatedb from findutils
+url	https://www.gnu.org/software/findutils/
+license	GPL-3.0-or-later
+size	73354
+installed-size	142811
+depends	findutils=4.10.0-r1 so:libc.musl-armhf.so.1
+origin	findutils
+repo	main
+file	findutils-locate-4.10.0-r1.apk
+checksum	Q1EI7kJKrOVleA3YBab17O4npMd7A=
+dep	findutils=4.10.0-r1	findutils
+dep	so:libc.musl-armhf.so.1	musl

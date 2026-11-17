@@ -1,0 +1,15 @@
+name	py3-pylink-square
+version	2.0.0-r1
+description	Python interface for SEGGER J-Link
+url	https://github.com/Square/pylink
+license	Apache-2.0
+size	78035
+installed-size	374608
+depends	py3-psutil py3-six python3~3.14
+origin	py3-pylink-square
+repo	community
+file	py3-pylink-square-2.0.0-r1.apk
+checksum	Q1bWvgDmhAuKKjjgmkwVUtl4z1ZbU=
+dep	py3-psutil	py3-psutil
+dep	py3-six	py3-six
+dep	python3~3.14	python3

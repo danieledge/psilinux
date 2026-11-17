@@ -1,0 +1,16 @@
+name	perl-io-async-ssl
+version	0.25-r1
+description	Use SSL/TLS with IO::Async
+url	https://metacpan.org/release/IO-Async-SSL/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	7230
+installed-size	17011
+depends	perl perl-future perl-io-async perl-io-socket-ssl
+origin	perl-io-async-ssl
+repo	community
+file	perl-io-async-ssl-0.25-r1.apk
+checksum	Q1onK3cbge1EdzQbobe/ghkqwINvY=
+dep	perl	perl
+dep	perl-future	perl-future
+dep	perl-io-async	perl-io-async
+dep	perl-io-socket-ssl	perl-io-socket-ssl

@@ -1,0 +1,18 @@
+name	bordeaux-sip
+version	0.9.7-r0
+description	bordeaux sip driver
+url	https://gitlab.com/tychosoft/bordeaux
+license	GPL-3.0-or-later
+size	56903
+installed-size	116148
+depends	bordeaux so:libc.musl-armhf.so.1 so:libeXosip2.so.15 so:libgcc_s.so.1 so:libosipparser2.so.15 so:libstdc++.so.6
+origin	bordeaux
+repo	community
+file	bordeaux-sip-0.9.7-r0.apk
+checksum	Q1sg1xY7RNpwmW0hpVIY8CvKE+sXo=
+dep	bordeaux	bordeaux
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libeXosip2.so.15	libexosip2
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libosipparser2.so.15	libosip2
+dep	so:libstdc++.so.6	libstdc++

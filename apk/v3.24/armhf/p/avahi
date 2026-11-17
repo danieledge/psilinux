@@ -1,0 +1,20 @@
+name	avahi
+version	0.9_rc4-r0
+description	multicast/unicast DNS-SD framework
+url	https://www.avahi.org/
+license	LGPL-2.1-or-later
+size	154305
+installed-size	400083
+depends	/bin/sh so:libavahi-common.so.3 so:libc.musl-armhf.so.1 so:libcap.so.2 so:libdaemon.so.0 so:libdbus-1.so.3 so:libevent-2.1.so.7 so:libexpat.so.1
+origin	avahi
+repo	main
+file	avahi-0.9_rc4-r0.apk
+checksum	Q1iX9A1RATRFcsVwavr0cbh3LJC8k=
+dep	/bin/sh	busybox-binsh
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libdaemon.so.0	libdaemon
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libevent-2.1.so.7	libevent
+dep	so:libexpat.so.1	libexpat

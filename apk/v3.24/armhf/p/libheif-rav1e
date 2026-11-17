@@ -1,0 +1,18 @@
+name	libheif-rav1e
+version	1.23.7-r0
+description	libheif AVIF/AV1 encoder plugin using rav1e
+url	https://www.libde265.org/
+license	LGPL-3.0-or-later
+size	12399
+installed-size	26112
+depends	libheif=1.23.7-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:librav1e.so.0.8 so:libstdc++.so.6
+origin	libheif
+repo	community
+file	libheif-rav1e-1.23.7-r0.apk
+checksum	Q1eJ6FjNUuhAexZODu9I/DkfXVK64=
+dep	libheif=1.23.7-r0	libheif
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libheif.so.1	libheif
+dep	so:librav1e.so.0.8	rav1e-libs
+dep	so:libstdc++.so.6	libstdc++

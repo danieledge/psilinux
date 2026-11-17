@@ -1,0 +1,17 @@
+name	dunstify
+version	1.13.0-r0
+description	notify-send compatible command with additional features
+url	https://dunst-project.org/
+license	BSD-3-Clause
+size	6452
+installed-size	13944
+depends	so:libc.musl-armhf.so.1 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libnotify.so.4
+origin	dunst
+repo	community
+file	dunstify-1.13.0-r0.apk
+checksum	Q1FK+MnNG0snHediHRX9WzQbacvys=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libnotify.so.4	libnotify

@@ -1,0 +1,13 @@
+name	giblib
+version	1.2.4-r14
+description	Giblib is a library that feh uses as a wrapper to imlib2
+url	https://freshmeat.sourceforge.net/projects/giblib/
+license	MIT
+size	13594
+installed-size	29868
+depends	so:libc.musl-armhf.so.1
+origin	giblib
+repo	community
+file	giblib-1.2.4-r14.apk
+checksum	Q1q3tDPVdc+/02a+DTl7J7Pfvp2kY=
+dep	so:libc.musl-armhf.so.1	musl

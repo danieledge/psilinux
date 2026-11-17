@@ -1,0 +1,13 @@
+name	inotify-tools-dev
+version	4.23.9.0-r0
+description	C library and CLI tools providing a simple interface to inotify (development files)
+url	https://github.com/inotify-tools/inotify-tools
+license	GPL-2.0-only
+size	26438
+installed-size	65237
+depends	inotify-tools-libs=4.23.9.0-r0
+origin	inotify-tools
+repo	main
+file	inotify-tools-dev-4.23.9.0-r0.apk
+checksum	Q1UVba6HsIqkke1mdlsM4aKsUWBxY=
+dep	inotify-tools-libs=4.23.9.0-r0	inotify-tools-libs

@@ -1,0 +1,14 @@
+name	postfix-mysql
+version	3.11.7-r0
+description	mysql map support for postfix
+url	https://www.postfix.org/
+license	IPL-1.0 EPL-2.0
+size	7930
+installed-size	13579
+depends	so:libc.musl-armhf.so.1 so:libmariadb.so.3
+origin	postfix
+repo	main
+file	postfix-mysql-3.11.7-r0.apk
+checksum	Q1nQpdpBQvHiSErwxMz2krpo6canc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmariadb.so.3	mariadb-connector-c

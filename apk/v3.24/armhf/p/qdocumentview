@@ -1,0 +1,21 @@
+name	qdocumentview
+version	0.3.0.1-r1
+description	Multi-page Document Rendering class for Qt
+url	https://gitlab.com/extraqt/qdocumentview
+license	GPL-3.0-only
+size	91478
+installed-size	240188
+depends	so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6PrintSupport.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libcups.so.2 so:libgcc_s.so.1 so:libpoppler-qt6.so.3 so:libstdc++.so.6
+origin	qdocumentview
+repo	community
+file	qdocumentview-0.3.0.1-r1.apk
+checksum	Q1VupIoRtzQsHp1/0U1klKyGTs7BU=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6PrintSupport.so.6	qt6-qtbase-x11
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcups.so.2	cups-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpoppler-qt6.so.3	poppler-qt6
+dep	so:libstdc++.so.6	libstdc++

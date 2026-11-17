@@ -1,0 +1,16 @@
+name	hivex-perl
+version	1.3.24-r3
+description	System for extracting the contents of Windows Registry (Perl bindings)
+url	https://libguestfs.org/
+license	LGPL-2.1
+size	26070
+installed-size	74833
+depends	perl perl-io-stringy so:libc.musl-armhf.so.1 so:libhivex.so.0
+origin	hivex
+repo	community
+file	hivex-perl-1.3.24-r3.apk
+checksum	Q1ILDTiAfKB2QsJsjfl0RuYtO8920=
+dep	perl	perl
+dep	perl-io-stringy	perl-io-stringy
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libhivex.so.0	hivex

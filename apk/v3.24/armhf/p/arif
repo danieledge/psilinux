@@ -1,0 +1,15 @@
+name	arif
+version	0.3.0-r1
+description	Tab completion-based Readline input framework
+url	https://www.nongnu.org/arif/
+license	GPL-3.0-or-later
+size	16665
+installed-size	46920
+depends	so:libc.musl-armhf.so.1 so:libreadline.so.8 so:librime.so.1
+origin	arif
+repo	community
+file	arif-0.3.0-r1.apk
+checksum	Q1zHCkz3/8YcGlZ8Oe0u7bD7grj34=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libreadline.so.8	readline
+dep	so:librime.so.1	librime

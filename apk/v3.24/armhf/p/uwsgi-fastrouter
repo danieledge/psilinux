@@ -1,0 +1,15 @@
+name	uwsgi-fastrouter
+version	2.0.31-r2
+description	uWSGI plugin fastrouter
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	8106
+installed-size	18828
+depends	uwsgi uwsgi-corerouter so:libc.musl-armhf.so.1
+origin	uwsgi
+repo	main
+file	uwsgi-fastrouter-2.0.31-r2.apk
+checksum	Q11zGbbmAxRG7FucxaCypzh9E6EGY=
+dep	uwsgi	uwsgi
+dep	uwsgi-corerouter	uwsgi-corerouter
+dep	so:libc.musl-armhf.so.1	musl

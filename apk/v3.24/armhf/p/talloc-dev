@@ -1,0 +1,15 @@
+name	talloc-dev
+version	2.4.4-r1
+description	Memory pool management library (development files)
+url	https://talloc.samba.org
+license	LGPL-3.0-or-later
+size	17635
+installed-size	70751
+depends	py3-talloc=2.4.4-r1 talloc=2.4.4-r1 pkgconfig
+origin	talloc
+repo	main
+file	talloc-dev-2.4.4-r1.apk
+checksum	Q1HH6tJ7raXSwQYLr3FSmxgM+g//M=
+dep	py3-talloc=2.4.4-r1	py3-talloc
+dep	talloc=2.4.4-r1	talloc
+dep	pkgconfig	pkgconf

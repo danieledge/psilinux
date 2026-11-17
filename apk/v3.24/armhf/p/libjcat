@@ -1,0 +1,20 @@
+name	libjcat
+version	0.2.3-r2
+description	Library for reading and writing Jcat files
+url	https://github.com/hughsie/libjcat
+license	LGPL-2.1-or-later
+size	49900
+installed-size	107533
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgnutls.so.30 so:libgobject-2.0.so.0 so:libgpg-error.so.0 so:libgpgme.so.45 so:libjson-glib-1.0.so.0
+origin	libjcat
+repo	community
+file	libjcat-0.2.3-r2.apk
+checksum	Q1yPQxINp3BVCPosZwpBHsW0gWQjI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgnutls.so.30	gnutls
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgpg-error.so.0	libgpg-error
+dep	so:libgpgme.so.45	gpgme
+dep	so:libjson-glib-1.0.so.0	json-glib

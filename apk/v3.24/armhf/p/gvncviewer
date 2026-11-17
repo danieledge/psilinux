@@ -1,0 +1,23 @@
+name	gvncviewer
+version	1.5.0-r0
+description	Demo application for gtk-vnc
+url	https://gitlab.gnome.org/GNOME/gtk-vnc
+license	LGPL-2.1-or-later
+size	12928
+installed-size	30088
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgtk-vnc-2.0.so.0 so:libgvnc-1.0.so.0 so:libgvncpulse-1.0.so.0
+origin	gtk-vnc
+repo	community
+file	gvncviewer-1.5.0-r0.apk
+checksum	Q1sa7okrY00iAwK0fg2bhOB/fXoSA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtk-vnc-2.0.so.0	gtk-vnc
+dep	so:libgvnc-1.0.so.0	gtk-vnc
+dep	so:libgvncpulse-1.0.so.0	gtk-vnc

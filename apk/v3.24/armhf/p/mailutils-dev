@@ -1,0 +1,14 @@
+name	mailutils-dev
+version	3.21-r1
+description	GNU swiss army knife of electronic mail handling (development files)
+url	https://mailutils.org/
+license	GPL-3.0-or-later
+size	2991030
+installed-size	8220171
+depends	mailutils-libs=3.21-r1 mailutils-libs=3.21-r1
+origin	mailutils
+repo	community
+file	mailutils-dev-3.21-r1.apk
+checksum	Q1s/hCYR/N5AHmcazG+FeqGz/OSr0=
+dep	mailutils-libs=3.21-r1	mailutils-libs
+dep	mailutils-libs=3.21-r1	mailutils-libs

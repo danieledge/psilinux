@@ -1,0 +1,14 @@
+name	libsignal-protocol-c-dev
+version	2.3.3-r3
+description	Signal Protocol C Library (development files)
+url	https://github.com/signalapp/libsignal-protocol-c
+license	GPL-3.0-only
+size	19841
+installed-size	96454
+depends	libsignal-protocol-c=2.3.3-r3 pkgconfig
+origin	libsignal-protocol-c
+repo	community
+file	libsignal-protocol-c-dev-2.3.3-r3.apk
+checksum	Q1VOR6p1xFIkZQ6zLNknWvj9V++eE=
+dep	libsignal-protocol-c=2.3.3-r3	libsignal-protocol-c
+dep	pkgconfig	pkgconf

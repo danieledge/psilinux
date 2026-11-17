@@ -1,0 +1,18 @@
+name	gtk-frdp-viewer
+version	3.37.1_git20240313-r2
+description	Demo app for gtk-frdp
+url	https://gitlab.gnome.org/GNOME/gtk-frdp
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	3985
+installed-size	5292
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgtk-frdp-0.2.so
+origin	gtk-frdp
+repo	community
+file	gtk-frdp-viewer-3.37.1_git20240313-r2.apk
+checksum	Q1s1hx9RWdSNWv45gieWzaYs4aE6E=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtk-frdp-0.2.so	gtk-frdp

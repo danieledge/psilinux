@@ -1,0 +1,13 @@
+name	rqlite-bench
+version	9.4.1-r5
+description	Lightweight, distributed relational database built on SQLite (benchmark utility)
+url	https://github.com/rqlite/rqlite
+license	MIT
+size	2624790
+installed-size	6362892
+depends	so:libc.musl-armhf.so.1
+origin	rqlite
+repo	community
+file	rqlite-bench-9.4.1-r5.apk
+checksum	Q1FiARUEbBu2lser4EHJ/eovDvWJg=
+dep	so:libc.musl-armhf.so.1	musl

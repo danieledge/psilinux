@@ -1,0 +1,16 @@
+name	libssh2-dev
+version	1.11.1-r4
+description	library for accessing ssh1/ssh2 protocol servers (development files)
+url	https://libssh2.org/
+license	BSD-3-Clause
+size	19757
+installed-size	83594
+depends	libssh2=1.11.1-r4 pc:libcrypto pc:zlib pkgconfig
+origin	libssh2
+repo	main
+file	libssh2-dev-1.11.1-r4.apk
+checksum	Q1FxUuUDvdlvhQSkmHH+WZdzeQaa4=
+dep	libssh2=1.11.1-r4	libssh2
+dep	pc:libcrypto	openssl-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

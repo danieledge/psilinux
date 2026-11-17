@@ -1,0 +1,15 @@
+name	libxvmc
+version	1.0.15-r0
+description	X11 Video Motion Compensation extension library
+url	https://xorg.freedesktop.org/
+license	MIT
+size	11547
+installed-size	31060
+depends	so:libX11.so.6 so:libXext.so.6 so:libc.musl-armhf.so.1
+origin	libxvmc
+repo	community
+file	libxvmc-1.0.15-r0.apk
+checksum	Q1HTlN1fEuzRbaPF4q/7fRf01WyeA=
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,16 @@
+name	libisoburn
+version	1.5.8-r0
+description	Library to enable creation and expansion of ISO-9660 filesystems
+url	https://dev.lovelyhq.com/libburnia/libisoburn
+license	GPL-2.0-or-later
+size	403219
+installed-size	925272
+depends	so:libburn.so.4 so:libc.musl-armhf.so.1 so:libedit.so.0 so:libisofs.so.6
+origin	libisoburn
+repo	main
+file	libisoburn-1.5.8-r0.apk
+checksum	Q119cEacM683jMqokDbE17jA1I3Ug=
+dep	so:libburn.so.4	libburn
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libedit.so.0	libedit
+dep	so:libisofs.so.6	libisofs

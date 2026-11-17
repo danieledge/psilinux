@@ -1,0 +1,13 @@
+name	gtkspell3-static
+version	3.0.10-r3
+description	rovides word-processor-style highlighting and replacement of misspelled words in a GtkTextView widget (static library)
+url	https://gtkspell.sourceforge.net/
+license	GPL-2.0-or-later
+size	14712
+installed-size	35192
+depends	gtkspell3-dev
+origin	gtkspell3
+repo	community
+file	gtkspell3-static-3.0.10-r3.apk
+checksum	Q1jEe3dg3wlbKFS5BGvWNP0ZQqeJc=
+dep	gtkspell3-dev	gtkspell3-dev

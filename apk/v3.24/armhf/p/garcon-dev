@@ -1,0 +1,20 @@
+name	garcon-dev
+version	4.20.0-r0
+description	a freedesktop.org compliant menu implementation based on GLib and GIO (development files)
+url	https://xfce.org/
+license	GPL-2.0-or-later
+size	26623
+installed-size	257293
+depends	garcon=4.20.0-r0 pc:gio-2.0 pc:glib-2.0 pc:gobject-2.0 pc:gthread-2.0 pc:gtk+-3.0 pc:libxfce4ui-2 pkgconfig
+origin	garcon
+repo	community
+file	garcon-dev-4.20.0-r0.apk
+checksum	Q1FelE+7ndp1vDp88x9ZrobZLU2zg=
+dep	garcon=4.20.0-r0	garcon
+dep	pc:gio-2.0	glib-dev
+dep	pc:glib-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pc:gthread-2.0	glib-dev
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pc:libxfce4ui-2	libxfce4ui-dev
+dep	pkgconfig	pkgconf

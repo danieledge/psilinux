@@ -1,0 +1,15 @@
+name	php83-pecl-msgpack
+version	3.0.1-r0
+description	PHP 8.3 extension provides API for communicating with MessagePack serialization - PECL
+url	https://pecl.php.net/package/msgpack
+license	BSD-3-Clause
+size	28102
+installed-size	62324
+depends	php83-session php83-sockets so:libc.musl-armhf.so.1
+origin	php83-pecl-msgpack
+repo	community
+file	php83-pecl-msgpack-3.0.1-r0.apk
+checksum	Q1etopBGw/8an5MiKVJ3JCUKam8Qc=
+dep	php83-session	php83-session
+dep	php83-sockets	php83-sockets
+dep	so:libc.musl-armhf.so.1	musl

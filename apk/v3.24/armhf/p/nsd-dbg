@@ -1,0 +1,12 @@
+name	nsd-dbg
+version	4.14.3-r1
+description	Authoritative only, high performance and simple DNS server (debug symbols)
+url	https://www.nlnetlabs.nl/projects/nsd
+license	BSD-3-Clause
+size	3972556
+installed-size	9279228
+depends	!nsd<4.14.3-r1 !nsd>4.14.3-r1
+origin	nsd
+repo	main
+file	nsd-dbg-4.14.3-r1.apk
+checksum	Q1M6wMXuAIn5zR46UAbAoUQty5hgM=

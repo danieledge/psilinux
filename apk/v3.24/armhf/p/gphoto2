@@ -1,0 +1,18 @@
+name	gphoto2
+version	2.5.32-r0
+description	Commandline utilities for accessing cameras
+url	http://www.gphoto.org/
+license	LGPL-2.1-or-later
+size	50322
+installed-size	108000
+depends	so:libc.musl-armhf.so.1 so:libexif.so.12 so:libgphoto2.so.6 so:libgphoto2_port.so.12 so:libintl.so.8 so:libpopt.so.0
+origin	gphoto2
+repo	community
+file	gphoto2-2.5.32-r0.apk
+checksum	Q1weFAALCasPYM9ny6lKiWybNHSSY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexif.so.12	libexif
+dep	so:libgphoto2.so.6	libgphoto2
+dep	so:libgphoto2_port.so.12	libgphoto2
+dep	so:libintl.so.8	libintl
+dep	so:libpopt.so.0	popt

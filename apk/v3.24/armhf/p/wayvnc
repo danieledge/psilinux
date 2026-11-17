@@ -1,0 +1,21 @@
+name	wayvnc
+version	0.10.0-r0
+description	A VNC server for wlroots-based Wayland compositors
+url	https://github.com/any1/wayvnc
+license	ISC
+size	72050
+installed-size	165528
+depends	so:libaml.so.1 so:libc.musl-armhf.so.1 so:libdrm.so.2 so:libgbm.so.1 so:libjansson.so.4 so:libneatvnc.so.1 so:libpixman-1.so.0 so:libwayland-client.so.0 so:libxkbcommon.so.0
+origin	wayvnc
+repo	community
+file	wayvnc-0.10.0-r0.apk
+checksum	Q1p5OzTDckCOD5IBu9XjJzORw3vb0=
+dep	so:libaml.so.1	aml
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm.so.2	libdrm
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libjansson.so.4	jansson
+dep	so:libneatvnc.so.1	neatvnc
+dep	so:libpixman-1.so.0	pixman
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libxkbcommon.so.0	libxkbcommon

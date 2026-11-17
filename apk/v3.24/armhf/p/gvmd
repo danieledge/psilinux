@@ -1,0 +1,35 @@
+name	gvmd
+version	26.28.0-r0
+description	Greenbone Vulnerability Manager
+url	https://www.openvas.org/
+license	AGPL-3.0-or-later
+size	945730
+installed-size	3867744
+depends	rsync postgresql18 postgresql18-contrib libxslt sed gnutls-utils gvm-libs perl-xml-twig socat xmlstarlet zip so:libbsd.so.0 so:libc.musl-armhf.so.1 so:libcjson.so.1 so:libglib-2.0.so.0 so:libgnutls.so.30 so:libgpgme.so.45 so:libgvm_base.so.23 so:libgvm_gmp.so.23 so:libgvm_osp.so.23 so:libgvm_util.so.23 so:libical.so.3 so:libpq.so.5
+origin	gvmd
+repo	community
+file	gvmd-26.28.0-r0.apk
+checksum	Q18rJ2nz66wqhBN/m2ZTXszojHVDw=
+dep	rsync	rsync
+dep	postgresql18	postgresql18
+dep	postgresql18-contrib	postgresql18-contrib
+dep	libxslt	libxslt
+dep	sed	sed
+dep	gnutls-utils	gnutls-utils
+dep	gvm-libs	gvm-libs
+dep	perl-xml-twig	perl-xml-twig
+dep	socat	socat
+dep	xmlstarlet	xmlstarlet
+dep	zip	zip
+dep	so:libbsd.so.0	libbsd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcjson.so.1	cjson
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgnutls.so.30	gnutls
+dep	so:libgpgme.so.45	gpgme
+dep	so:libgvm_base.so.23	gvm-libs
+dep	so:libgvm_gmp.so.23	gvm-libs
+dep	so:libgvm_osp.so.23	gvm-libs
+dep	so:libgvm_util.so.23	gvm-libs
+dep	so:libical.so.3	libical
+dep	so:libpq.so.5	libpq

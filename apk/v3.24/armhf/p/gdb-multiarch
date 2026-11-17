@@ -1,0 +1,26 @@
+name	gdb-multiarch
+version	16.3-r4
+description	The GNU Debugger for all supported architectures
+url	https://www.gnu.org/software/gdb/
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	9335682
+installed-size	30168536
+depends	gdb so:libc.musl-armhf.so.1 so:libdebuginfod.so.1 so:libexpat.so.1 so:libgcc_s.so.1 so:libgmp.so.10 so:liblzma.so.5 so:libmpfr.so.6 so:libncursesw.so.6 so:libpython3.14.so.1.0 so:libreadline.so.8 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
+origin	gdb
+repo	main
+file	gdb-multiarch-16.3-r4.apk
+checksum	Q1ui742wozw9j8fI7p685KPBUfh/g=
+dep	gdb	gdb
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdebuginfod.so.1	libdebuginfod
+dep	so:libexpat.so.1	libexpat
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgmp.so.10	gmp
+dep	so:liblzma.so.5	xz-libs
+dep	so:libmpfr.so.6	mpfr4
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpython3.14.so.1.0	python3
+dep	so:libreadline.so.8	readline
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

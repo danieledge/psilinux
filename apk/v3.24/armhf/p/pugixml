@@ -1,0 +1,15 @@
+name	pugixml
+version	1.15-r0
+description	Light-weight, simple and fast XML parser for C++ with XPath support
+url	https://pugixml.org
+license	MIT
+size	70715
+installed-size	173448
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	pugixml
+repo	community
+file	pugixml-1.15-r0.apk
+checksum	Q1aWmFO3KNkq1duJlx3vHJGo6gUZQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

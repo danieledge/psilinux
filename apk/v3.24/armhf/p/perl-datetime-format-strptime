@@ -1,0 +1,18 @@
+name	perl-datetime-format-strptime
+version	1.80-r0
+description	Parse and format strp and strf time patterns
+url	https://metacpan.org/release/DateTime-Format-Strptime/
+license	Artistic-2.0
+size	14243
+installed-size	46800
+depends	perl-params-validate perl-datetime perl-try-tiny perl-package-deprecationmanager perl-datetime-timezone perl-datetime-locale
+origin	perl-datetime-format-strptime
+repo	community
+file	perl-datetime-format-strptime-1.80-r0.apk
+checksum	Q1CvS0mWNDGvEEWTMnUtxZxh1B2KA=
+dep	perl-params-validate	perl-params-validate
+dep	perl-datetime	perl-datetime
+dep	perl-try-tiny	perl-try-tiny
+dep	perl-package-deprecationmanager	perl-package-deprecationmanager
+dep	perl-datetime-timezone	perl-datetime-timezone
+dep	perl-datetime-locale	perl-datetime-locale

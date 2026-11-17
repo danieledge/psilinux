@@ -1,0 +1,13 @@
+name	pciutils-libs
+version	3.15.0-r0
+description	PCI bus configuration space access library and tools (libraries)
+url	http://mj.ucw.cz/pciutils.html
+license	GPL-2.0-or-later
+size	28661
+installed-size	58960
+depends	so:libc.musl-armhf.so.1
+origin	pciutils
+repo	main
+file	pciutils-libs-3.15.0-r0.apk
+checksum	Q1J8PrzTkUF7M+vSiqBNO/hGLtrZY=
+dep	so:libc.musl-armhf.so.1	musl

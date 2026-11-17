@@ -1,0 +1,21 @@
+name	objfw-dev
+version	1.5.7-r0
+description	Portable, lightweight framework for the Objective-C language
+url	https://objfw.nil.im/
+license	LGPL-3.0-only
+size	221353
+installed-size	1339954
+depends	clang22 libobjfw1=1.5.7-r0 libobjfwhid1=1.5.7-r0 libobjfwrt1=1.5.7-r0 libobjfwtls1=1.5.7-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1
+origin	objfw
+repo	community
+file	objfw-dev-1.5.7-r0.apk
+checksum	Q1vtWnHeN/iu0okXyyMiEj7LlO9FI=
+dep	clang22	clang22
+dep	libobjfw1=1.5.7-r0	libobjfw1
+dep	libobjfwhid1=1.5.7-r0	libobjfwhid1
+dep	libobjfwrt1=1.5.7-r0	libobjfwrt1
+dep	libobjfwtls1=1.5.7-r0	libobjfwtls1
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libobjfw.so.1	libobjfw1
+dep	so:libobjfwrt.so.1	libobjfwrt1

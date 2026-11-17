@@ -1,0 +1,17 @@
+name	libkml-dev
+version	1.3.0-r13
+description	Reference implementation of OGC KML 2.2 (development files)
+url	https://github.com/libkml/libkml
+license	BSD-3-Clause
+size	121727
+installed-size	682558
+depends	boost-dev expat-dev zlib-dev libkml=1.3.0-r13 pkgconfig
+origin	libkml
+repo	community
+file	libkml-dev-1.3.0-r13.apk
+checksum	Q1g5nz0a1mchdZQ/r6yHfpcaj1X3A=
+dep	boost-dev	boost-dev
+dep	expat-dev	expat-dev
+dep	zlib-dev	zlib-dev
+dep	libkml=1.3.0-r13	libkml
+dep	pkgconfig	pkgconf

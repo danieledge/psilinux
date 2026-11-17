@@ -1,0 +1,20 @@
+name	gnupg
+version	2.4.9-r1
+description	GNU Privacy Guard 2 - meta package for full GnuPG suite
+url	https://www.gnupg.org/
+license	GPL-3.0-or-later
+size	1333
+installed-size	0
+depends	gpg=2.4.9-r1 gpg-agent=2.4.9-r1 gpg-wks-server=2.4.9-r1 gpgsm=2.4.9-r1 gpgv=2.4.9-r1 gnupg-dirmngr=2.4.9-r1 gnupg-utils=2.4.9-r1 gnupg-wks-client=2.4.9-r1
+origin	gnupg
+repo	main
+file	gnupg-2.4.9-r1.apk
+checksum	Q1wl4OyoUmnx6303cR06Ezww/FXxU=
+dep	gpg=2.4.9-r1	gpg
+dep	gpg-agent=2.4.9-r1	gpg-agent
+dep	gpg-wks-server=2.4.9-r1	gpg-wks-server
+dep	gpgsm=2.4.9-r1	gpgsm
+dep	gpgv=2.4.9-r1	gpgv
+dep	gnupg-dirmngr=2.4.9-r1	gnupg-dirmngr
+dep	gnupg-utils=2.4.9-r1	gnupg-utils
+dep	gnupg-wks-client=2.4.9-r1	gnupg-wks-client

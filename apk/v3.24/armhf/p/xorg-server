@@ -1,0 +1,32 @@
+name	xorg-server
+version	21.1.26-r0
+description	X.Org X servers
+url	https://www.x.org/wiki
+license	MIT
+size	1247776
+installed-size	2697094
+depends	font-cursor-misc font-misc-misc mesa-egl xkbcomp xkeyboard-config xorg-server-common so:libGL.so.1 so:libXau.so.6 so:libXdmcp.so.6 so:libXfont2.so.2 so:libc.musl-armhf.so.1 so:libdrm.so.2 so:libepoxy.so.0 so:libgbm.so.1 so:libnettle.so.8 so:libpciaccess.so.0 so:libpixman-1.so.0 so:libudev.so.1 so:libxcvt.so.0 so:libxshmfence.so.1
+origin	xorg-server
+repo	community
+file	xorg-server-21.1.26-r0.apk
+checksum	Q1asXjOVTkgbYvILRgpwHquiWyT1c=
+dep	font-cursor-misc	font-cursor-misc
+dep	font-misc-misc	font-misc-misc
+dep	mesa-egl	mesa-egl
+dep	xkbcomp	xkbcomp
+dep	xkeyboard-config	xkeyboard-config
+dep	xorg-server-common	xorg-server-common
+dep	so:libGL.so.1	mesa-gl
+dep	so:libXau.so.6	libxau
+dep	so:libXdmcp.so.6	libxdmcp
+dep	so:libXfont2.so.2	libxfont2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm.so.2	libdrm
+dep	so:libepoxy.so.0	libepoxy
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libnettle.so.8	nettle
+dep	so:libpciaccess.so.0	libpciaccess
+dep	so:libpixman-1.so.0	pixman
+dep	so:libudev.so.1	eudev-libs
+dep	so:libxcvt.so.0	libxcvt
+dep	so:libxshmfence.so.1	libxshmfence

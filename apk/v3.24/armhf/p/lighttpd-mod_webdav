@@ -1,0 +1,15 @@
+name	lighttpd-mod_webdav
+version	1.4.85-r0
+description	WebDAV module for lighttpd
+url	https://www.lighttpd.net
+license	BSD-3-Clause
+size	25949
+installed-size	50460
+depends	so:libc.musl-armhf.so.1 so:libsqlite3.so.0 so:libxml2.so.2
+origin	lighttpd
+repo	main
+file	lighttpd-mod_webdav-1.4.85-r0.apk
+checksum	Q1Me2mD8a5DLoXSDS3i2tIxiD0SMI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libxml2.so.2	libxml2

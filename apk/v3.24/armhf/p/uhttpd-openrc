@@ -1,0 +1,12 @@
+name	uhttpd-openrc
+version	0_git20250406-r1
+description	Tiny HTTP server from OpenWrt (OpenRC init scripts)
+url	https://openwrt.org/docs/guide-user/services/webserver/uhttpd
+license	ISC
+size	4191
+installed-size	6247
+depends	
+origin	uhttpd
+repo	community
+file	uhttpd-openrc-0_git20250406-r1.apk
+checksum	Q12+Ply+MFHXTtdNZfC9DE1PiW35U=

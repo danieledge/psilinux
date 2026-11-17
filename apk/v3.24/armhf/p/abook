@@ -1,0 +1,16 @@
+name	abook
+version	0.6.2-r0
+description	Text-based addressbook designed for use with Mutt
+url	https://abook.sourceforge.net/
+license	GPL-3.0-or-later
+size	50590
+installed-size	102084
+depends	so:libc.musl-armhf.so.1 so:libintl.so.8 so:libncursesw.so.6 so:libreadline.so.8
+origin	abook
+repo	community
+file	abook-0.6.2-r0.apk
+checksum	Q1wjZSN1wqr+eRt6LOqL/EPMxv3qI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libintl.so.8	libintl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libreadline.so.8	readline

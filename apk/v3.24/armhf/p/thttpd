@@ -1,0 +1,14 @@
+name	thttpd
+version	2.29-r5
+description	Simple, small, portable, fast, and secure HTTP server
+url	http://www.acme.com/software/thttpd
+license	custom:BSD
+size	53729
+installed-size	114717
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	thttpd
+repo	community
+file	thttpd-2.29-r5.apk
+checksum	Q18aWV67lVKPhbjDwcMgw3JqmpIh4=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

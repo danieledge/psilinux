@@ -1,0 +1,36 @@
+name	icewm
+version	4.0.0-r1
+description	Window manager designed for speed, usability and consistency
+url	https://github.com/ice-wm/icewm
+license	LGPL-2.0-only
+size	1379972
+installed-size	2842766
+depends	so:libICE.so.6 so:libImlib2.so.1 so:libSM.so.6 so:libX11.so.6 so:libXcomposite.so.1 so:libXcursor.so.1 so:libXdamage.so.1 so:libXext.so.6 so:libXfixes.so.3 so:libXft.so.2 so:libXinerama.so.1 so:libXrandr.so.2 so:libXrender.so.1 so:libao.so.4 so:libasound.so.2 so:libc.musl-armhf.so.1 so:libfribidi.so.0 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:librsvg-2.so.2 so:libsndfile.so.1 so:libstdc++.so.6
+origin	icewm
+repo	community
+file	icewm-4.0.0-r1.apk
+checksum	Q1ymUFffe9rdGvGPZ3I9exNdnY2qI=
+dep	so:libICE.so.6	libice
+dep	so:libImlib2.so.1	imlib2
+dep	so:libSM.so.6	libsm
+dep	so:libX11.so.6	libx11
+dep	so:libXcomposite.so.1	libxcomposite
+dep	so:libXcursor.so.1	libxcursor
+dep	so:libXdamage.so.1	libxdamage
+dep	so:libXext.so.6	libxext
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXft.so.2	libxft
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libXrender.so.1	libxrender
+dep	so:libao.so.4	libao
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfribidi.so.0	fribidi
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libsndfile.so.1	libsndfile
+dep	so:libstdc++.so.6	libstdc++

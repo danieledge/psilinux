@@ -1,0 +1,23 @@
+name	gnome-bluetooth-libs
+version	47.2-r0
+description	The GNOME Bluetooth Subsystem (libraries)
+url	https://gitlab.gnome.org/GNOME/gnome-bluetooth
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	87042
+installed-size	219876
+depends	so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgsound.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libnotify.so.4 so:libudev.so.1 so:libupower-glib.so.3
+origin	gnome-bluetooth
+repo	community
+file	gnome-bluetooth-libs-47.2-r0.apk
+checksum	Q1ZfGC7u7sr4PxlKgH11KM1QPx+fQ=
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgsound.so.0	gsound
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libnotify.so.4	libnotify
+dep	so:libudev.so.1	eudev-libs
+dep	so:libupower-glib.so.3	upower

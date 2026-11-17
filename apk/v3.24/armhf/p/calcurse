@@ -1,0 +1,14 @@
+name	calcurse
+version	4.8.2-r1
+description	A text-based personal organizer
+url	https://calcurse.org/
+license	BSD-2-Clause
+size	125732
+installed-size	267922
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	calcurse
+repo	community
+file	calcurse-4.8.2-r1.apk
+checksum	Q1LcU39VZ5GJHxgBLDqgaEV2yKYsE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

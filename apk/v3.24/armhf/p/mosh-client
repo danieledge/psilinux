@@ -1,0 +1,24 @@
+name	mosh-client
+version	1.4.0-r18
+description	Mosh client
+url	https://mosh.org
+license	GPL-3.0-or-later
+size	126714
+installed-size	318232
+depends	openssh-client perl-io-tty so:libabsl_log_internal_check_op.so.2508.0.0 so:libabsl_log_internal_message.so.2508.0.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libncursesw.so.6 so:libprotobuf.so.31 so:libstdc++.so.6 so:libutf8_range.so.31.1.0 so:libz.so.1
+origin	mosh
+repo	main
+file	mosh-client-1.4.0-r18.apk
+checksum	Q1xq3naPMXXwY6glXv1IglhJnmwnI=
+dep	openssh-client	openssh-client-default
+dep	perl-io-tty	perl-io-tty
+dep	so:libabsl_log_internal_check_op.so.2508.0.0	abseil-cpp-log-internal-check-op
+dep	so:libabsl_log_internal_message.so.2508.0.0	abseil-cpp-log-internal-message
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libprotobuf.so.31	libprotobuf
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libutf8_range.so.31.1.0	protobuf
+dep	so:libz.so.1	zlib

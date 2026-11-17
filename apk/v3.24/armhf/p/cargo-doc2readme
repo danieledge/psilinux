@@ -1,0 +1,15 @@
+name	cargo-doc2readme
+version	0.7.3-r0
+description	Cargo subcommand to create a readme file containing the rustdoc comments from your code
+url	https://codeberg.org/msrd0/cargo-doc2readme
+license	Apache-2.0
+size	1328824
+installed-size	2720392
+depends	cargo so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	cargo-doc2readme
+repo	community
+file	cargo-doc2readme-0.7.3-r0.apk
+checksum	Q15xVkZySb8OA0w6SEuH/DrxzAEIQ=
+dep	cargo	cargo
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

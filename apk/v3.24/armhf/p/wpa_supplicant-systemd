@@ -1,0 +1,12 @@
+name	wpa_supplicant-systemd
+version	2.11-r4
+description	utility providing key negotiation for WPA wireless networks (systemd files)
+url	https://w1.fi/wpa_supplicant/
+license	BSD-3-Clause
+size	2235
+installed-size	1537
+depends	
+origin	wpa_supplicant
+repo	main
+file	wpa_supplicant-systemd-2.11-r4.apk
+checksum	Q1XJ6FaoXH5d7SOS4yFCi8U4Tselc=

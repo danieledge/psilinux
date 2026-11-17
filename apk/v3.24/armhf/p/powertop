@@ -1,0 +1,19 @@
+name	powertop
+version	2.15-r6
+description	Power consumption monitor
+url	https://github.com/fenrus75/powertop
+license	GPL-2.0-only
+size	168023
+installed-size	374292
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libncursesw.so.6 so:libnl-3.so.200 so:libnl-genl-3.so.200 so:libpci.so.3 so:libstdc++.so.6
+origin	powertop
+repo	community
+file	powertop-2.15-r6.apk
+checksum	Q1Kvrzzx5xRPPkwh5WdgHAICINhKc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libnl-3.so.200	libnl3
+dep	so:libnl-genl-3.so.200	libnl3
+dep	so:libpci.so.3	pciutils-libs
+dep	so:libstdc++.so.6	libstdc++

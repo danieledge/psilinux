@@ -1,0 +1,16 @@
+name	jc
+version	1.25.7-r0
+description	CLI & python library converting output of common tools, file-types & strings to JSON, YAML or dicts
+url	https://kellyjonbrazil.github.io/jc/
+license	MIT
+size	488774
+installed-size	2646074
+depends	py3-pygments py3-ruamel.yaml py3-xmltodict python3~3.14
+origin	jc
+repo	community
+file	jc-1.25.7-r0.apk
+checksum	Q1maasMlHjbyYPhedtdD3N0oDsEBk=
+dep	py3-pygments	py3-pygments
+dep	py3-ruamel.yaml	py3-ruamel.yaml
+dep	py3-xmltodict	py3-xmltodict
+dep	python3~3.14	python3

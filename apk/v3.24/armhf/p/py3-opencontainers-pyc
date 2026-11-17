@@ -1,0 +1,13 @@
+name	py3-opencontainers-pyc
+version	0.0.15-r1
+description	Precompiled Python bytecode for py3-opencontainers
+url	https://pypi.python.org/project/opencontainers
+license	MPL-2.0
+size	64023
+installed-size	161774
+depends	python3~3.14
+origin	py3-opencontainers
+repo	community
+file	py3-opencontainers-pyc-0.0.15-r1.apk
+checksum	Q1fiWP60PjuRwLZhfyxM42aLb3C1c=
+dep	python3~3.14	python3

@@ -1,0 +1,20 @@
+name	libcmis-dev
+version	0.6.2-r0
+description	CMIS protocol client library (development files)
+url	https://github.com/tdf/libcmis
+license	MPL-1.1 GPL-2.0-or-later LGPL-2.0-or-later
+size	1112038
+installed-size	4702005
+depends	curl-dev libxml2-dev cppunit-dev boost-dev libcmis=0.6.2-r0 pc:libcurl pc:libxml-2.0 pkgconfig
+origin	libcmis
+repo	community
+file	libcmis-dev-0.6.2-r0.apk
+checksum	Q1GFRVUGUdku7On3doMPp+PoK1mgc=
+dep	curl-dev	curl-dev
+dep	libxml2-dev	libxml2-dev
+dep	cppunit-dev	cppunit-dev
+dep	boost-dev	boost-dev
+dep	libcmis=0.6.2-r0	libcmis
+dep	pc:libcurl	curl-dev
+dep	pc:libxml-2.0	libxml2-dev
+dep	pkgconfig	pkgconf

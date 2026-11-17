@@ -1,0 +1,31 @@
+name	qt6-qtbase
+version	6.11.1-r0
+description	A cross-platform application and UI framework
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	5514208
+installed-size	15517285
+depends	tzdata so:libb2.so.1 so:libbrotlidec.so.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libdbus-1.so.3 so:libdouble-conversion.so.3 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libicui18n.so.78 so:libicuuc.so.78 so:libpcre2-16.so.0 so:libproxy.so.1 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
+origin	qt6-qtbase
+repo	community
+file	qt6-qtbase-6.11.1-r0.apk
+checksum	Q1ZKF7/zzN9on9ckCYceMgId28gig=
+dep	tzdata	tzdata
+dep	so:libb2.so.1	libb2
+dep	so:libbrotlidec.so.1	brotli-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libdouble-conversion.so.3	double-conversion
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libpcre2-16.so.0	libpcre2-16
+dep	so:libproxy.so.1	libproxy
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

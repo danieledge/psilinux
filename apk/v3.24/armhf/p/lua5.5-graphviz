@@ -1,0 +1,19 @@
+name	lua5.5-graphviz
+version	12.2.1-r3
+description	Lua5.5 extension for graphviz
+url	https://www.graphviz.org/
+license	EPL-1.0
+size	83642
+installed-size	234697
+depends	font-cantarell so:libc.musl-armhf.so.1 so:libcgraph.so.6 so:libgcc_s.so.1 so:libgvc.so.6 so:liblua-5.5.so.0 so:libstdc++.so.6
+origin	graphviz
+repo	main
+file	lua5.5-graphviz-12.2.1-r3.apk
+checksum	Q162c/0S1v0ssPDdRGnjf64g+GJcA=
+dep	font-cantarell	font-cantarell
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcgraph.so.6	graphviz-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgvc.so.6	graphviz-libs
+dep	so:liblua-5.5.so.0	lua5.5-libs
+dep	so:libstdc++.so.6	libstdc++

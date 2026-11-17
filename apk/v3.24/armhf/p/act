@@ -1,0 +1,15 @@
+name	act
+version	0.2.83-r7
+description	Run your GitHub Actions locally
+url	https://github.com/nektos/act
+license	MIT
+size	7841266
+installed-size	20794196
+depends	npm docker so:libc.musl-armhf.so.1
+origin	act
+repo	community
+file	act-0.2.83-r7.apk
+checksum	Q1NS8josQzS5f8tW7n0bmwjAZBeJs=
+dep	npm	npm
+dep	docker	docker
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,17 @@
+name	zbar
+version	0.23.93-r2
+description	Port of ZBAR BAR CODE READER
+url	https://zbar.sourceforge.net/
+license	LGPL-2.0-or-later
+size	11650
+installed-size	24958
+depends	py3-gobject3 so:libMagickWand-7.Q16HDRI.so.10 so:libc.musl-armhf.so.1 so:libintl.so.8 so:libzbar.so.0
+origin	zbar
+repo	community
+file	zbar-0.23.93-r2.apk
+checksum	Q1SyJr2Ti4fG0qc31LLLrVTYXFFzQ=
+dep	py3-gobject3	py3-gobject3
+dep	so:libMagickWand-7.Q16HDRI.so.10	imagemagick-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libintl.so.8	libintl
+dep	so:libzbar.so.0	libzbar

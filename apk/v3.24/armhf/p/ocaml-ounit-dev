@@ -1,0 +1,16 @@
+name	ocaml-ounit-dev
+version	2.2.7-r6
+description	Unit test framework for OCaml (development files)
+url	https://github.com/gildor478/ounit
+license	MIT
+size	1092102
+installed-size	2723088
+depends	ocaml-ounit=2.2.7-r6 ocaml-lwt-dev ocaml-seq-dev ocaml-stdlib-shims
+origin	ocaml-ounit
+repo	community
+file	ocaml-ounit-dev-2.2.7-r6.apk
+checksum	Q1/CbBKGujH+QePE+2F2TS2K8jofU=
+dep	ocaml-ounit=2.2.7-r6	ocaml-ounit
+dep	ocaml-lwt-dev	ocaml-lwt-dev
+dep	ocaml-seq-dev	ocaml-seq-dev
+dep	ocaml-stdlib-shims	ocaml-stdlib-shims

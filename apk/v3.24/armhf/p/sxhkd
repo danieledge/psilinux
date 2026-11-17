@@ -1,0 +1,16 @@
+name	sxhkd
+version	0.6.3-r0
+description	Simple X hotkey daemon
+url	https://github.com/baskerville/sxhkd
+license	BSD-2-Clause
+size	31853
+installed-size	83308
+depends	so:libc.musl-armhf.so.1 so:libxcb-keysyms.so.1 so:libxcb-xkb.so.1 so:libxcb.so.1
+origin	sxhkd
+repo	community
+file	sxhkd-0.6.3-r0.apk
+checksum	Q1u61344o9HAkS9M+a8DiAFe184K0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxcb-keysyms.so.1	xcb-util-keysyms
+dep	so:libxcb-xkb.so.1	libxcb
+dep	so:libxcb.so.1	libxcb

@@ -1,0 +1,14 @@
+name	geos-dev
+version	3.14.1-r0
+description	GEOS is a library providing OpenGIS and JTS spatial operations in C++. (development files)
+url	https://libgeos.org/
+license	LGPL-2.1-or-later
+size	625796
+installed-size	3314685
+depends	geos=3.14.1-r0 pkgconfig
+origin	geos
+repo	community
+file	geos-dev-3.14.1-r0.apk
+checksum	Q1EzfcKrEom9fAC45dH3rERfpOLns=
+dep	geos=3.14.1-r0	geos
+dep	pkgconfig	pkgconf

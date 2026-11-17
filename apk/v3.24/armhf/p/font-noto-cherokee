@@ -1,0 +1,14 @@
+name	font-noto-cherokee
+version	2026.11.01-r0
+description	Noto Sans Cherokee font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	505392
+installed-size	935819
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-cherokee-2026.11.01-r0.apk
+checksum	Q1M0A7nzokAP4bW4TwInKCsHXa3Tw=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

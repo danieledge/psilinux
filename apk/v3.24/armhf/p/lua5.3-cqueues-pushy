@@ -1,0 +1,21 @@
+name	lua5.3-cqueues-pushy
+version	0.20180530-r1
+description	Framework for logic control (based on cqueues) - Lua 5.3
+url	https://github.com/rameplayerorg/lua-cqueues-pushy
+license	GPL-2.0-only
+size	20329
+installed-size	56899
+depends	lua5.3-cqueues>=20150616 lua5.3-struct lua5.3-posix lua5.3-ldbus lua5.3-socket lua5.3-cjson lua5.3-penlight so:libc.musl-armhf.so.1 so:liblua-5.3.so.0
+origin	lua-cqueues-pushy
+repo	community
+file	lua5.3-cqueues-pushy-0.20180530-r1.apk
+checksum	Q11FnAjQLzjvl1va/XdL5m49RNEGo=
+dep	lua5.3-cqueues>=20150616	lua5.3-cqueues
+dep	lua5.3-struct	lua5.3-struct
+dep	lua5.3-posix	lua5.3-posix
+dep	lua5.3-ldbus	lua5.3-ldbus
+dep	lua5.3-socket	lua5.3-socket
+dep	lua5.3-cjson	lua5.3-cjson
+dep	lua5.3-penlight	lua5.3-penlight
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblua-5.3.so.0	lua5.3-libs

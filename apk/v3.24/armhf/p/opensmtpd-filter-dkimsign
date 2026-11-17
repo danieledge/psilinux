@@ -1,0 +1,16 @@
+name	opensmtpd-filter-dkimsign
+version	0.6-r2
+description	OpenSMTPD filter for DKIM signing
+url	http://imperialat.at/dev/filter-dkimsign/
+license	ISC
+size	13073
+installed-size	24549
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libopensmtpd.so.2
+origin	opensmtpd-filter-dkimsign
+repo	community
+file	opensmtpd-filter-dkimsign-0.6-r2.apk
+checksum	Q1OZ4MWBZ0QZhWi0mxSDtec9E2H+E=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libopensmtpd.so.2	libopensmtpd

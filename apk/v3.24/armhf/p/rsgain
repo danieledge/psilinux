@@ -1,0 +1,23 @@
+name	rsgain
+version	3.7-r0
+description	Simple, but powerful ReplayGain 2.0 tagging utility
+url	https://github.com/complexlogic/rsgain
+license	BSD-2-Clause
+size	87457
+installed-size	191333
+depends	so:libavcodec.so.62 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libebur128.so.1 so:libfmt.so.11 so:libgcc_s.so.1 so:libinih.so.0 so:libstdc++.so.6 so:libswresample.so.6 so:libtag.so.2
+origin	rsgain
+repo	community
+file	rsgain-3.7-r0.apk
+checksum	Q1N7NgIdhbpKGFcnCwfLwD5wZrE1w=
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libebur128.so.1	libebur128
+dep	so:libfmt.so.11	fmt
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libinih.so.0	inih
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libswresample.so.6	ffmpeg-libswresample
+dep	so:libtag.so.2	libtag

@@ -1,0 +1,18 @@
+name	libxmlb
+version	0.3.27-r0
+description	Library to help create and query binary XML blobs
+url	https://github.com/hughsie/libxmlb
+license	LGPL-2.1-or-later
+size	69978
+installed-size	165992
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:liblzma.so.5 so:libzstd.so.1
+origin	libxmlb
+repo	community
+file	libxmlb-0.3.27-r0.apk
+checksum	Q1ommcTHrfclADWXKgbyY8Ux75pxI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:liblzma.so.5	xz-libs
+dep	so:libzstd.so.1	zstd-libs

@@ -1,0 +1,13 @@
+name	krb5-server-openrc
+version	1.22.3-r0
+description	The KDC and related programs for Kerberos 5 (OpenRC init scripts)
+url	https://web.mit.edu/kerberos/www/
+license	MIT
+size	2008
+installed-size	1734
+depends	krb5-conf
+origin	krb5
+repo	main
+file	krb5-server-openrc-1.22.3-r0.apk
+checksum	Q1LeiLRDsDqDlRHsYNJrwzhMeL+gc=
+dep	krb5-conf	krb5-conf

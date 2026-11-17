@@ -1,0 +1,13 @@
+name	libxslt-static
+version	1.1.43-r4
+description	XML stylesheet transformation library (static library)
+url	http://xmlsoft.org/XSLT/
+license	X11
+size	149615
+installed-size	382692
+depends	libxslt-dev
+origin	libxslt
+repo	main
+file	libxslt-static-1.1.43-r4.apk
+checksum	Q1xlRYINW0A+RdUTtQR0KPA7j+EQo=
+dep	libxslt-dev	libxslt-dev

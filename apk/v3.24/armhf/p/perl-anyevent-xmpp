@@ -1,0 +1,21 @@
+name	perl-anyevent-xmpp
+version	0.55-r1
+description	AnyEvent implementation of the XMPP Protocol
+url	https://metacpan.org/release/AnyEvent-XMPP/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	89323
+installed-size	341216
+depends	perl perl-anyevent perl-authen-sasl perl-net-libidn perl-net-ssleay perl-object-event perl-xml-parser perl-xml-twig perl-xml-writer
+origin	perl-anyevent-xmpp
+repo	community
+file	perl-anyevent-xmpp-0.55-r1.apk
+checksum	Q13CROU9Me+u0/lLFXnEr8Bfca1oo=
+dep	perl	perl
+dep	perl-anyevent	perl-anyevent
+dep	perl-authen-sasl	perl-authen-sasl
+dep	perl-net-libidn	perl-net-libidn
+dep	perl-net-ssleay	perl-net-ssleay
+dep	perl-object-event	perl-object-event
+dep	perl-xml-parser	perl-xml-parser
+dep	perl-xml-twig	perl-xml-twig
+dep	perl-xml-writer	perl-xml-writer

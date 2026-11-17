@@ -1,0 +1,14 @@
+name	py3-jsonpickle
+version	4.1.1-r1
+description	Serializing any arbitrary object graph into JSON
+url	https://pypi.org/project/jsonpickle/
+license	BSD-3-Clause
+size	44535
+installed-size	155323
+depends	py3-tzdata python3~3.14
+origin	py3-jsonpickle
+repo	community
+file	py3-jsonpickle-4.1.1-r1.apk
+checksum	Q1tUU+I29qYt1vbFIVW2rPwm3tGgw=
+dep	py3-tzdata	py3-tzdata
+dep	python3~3.14	python3

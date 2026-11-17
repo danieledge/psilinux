@@ -1,0 +1,13 @@
+name	klibc-run-init
+version	2.0.14-r1
+description	A minimalistic libc subset for use with initramfs
+url	https://git.kernel.org/pub/scm/libs/klibc/klibc.git/
+license	GPL-2.0-or-later
+size	4428
+installed-size	4472
+depends	libklibc
+origin	klibc
+repo	community
+file	klibc-run-init-2.0.14-r1.apk
+checksum	Q1Be1/NdLbisRV4E38IGIMm99jXoE=
+dep	libklibc	libklibc

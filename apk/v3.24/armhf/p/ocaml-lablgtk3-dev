@@ -1,0 +1,15 @@
+name	ocaml-lablgtk3-dev
+version	3.1.2-r6
+description	OCaml interface to GTK+3 (development files)
+url	https://github.com/garrigue/lablgtk
+license	LGPL-2.1-or-later WITH OCaml-LGPL-linking-exception
+size	14463559
+installed-size	39813326
+depends	ocaml-lablgtk3=3.1.2-r6 ocaml-cairo2-dev gtksourceview-dev
+origin	ocaml-lablgtk3
+repo	community
+file	ocaml-lablgtk3-dev-3.1.2-r6.apk
+checksum	Q1eudj2W07CQyW2Dp3fFjlXDhEzQQ=
+dep	ocaml-lablgtk3=3.1.2-r6	ocaml-lablgtk3
+dep	ocaml-cairo2-dev	ocaml-cairo2-dev
+dep	gtksourceview-dev	gtksourceview-dev

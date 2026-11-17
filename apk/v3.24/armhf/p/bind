@@ -1,0 +1,31 @@
+name	bind
+version	9.20.30-r0
+description	The ISC DNS server
+url	https://www.isc.org/bind/
+license	MPL-2.0
+size	218724
+installed-size	525010
+depends	dns-root-hints bind-tools /bin/sh so:libc.musl-armhf.so.1 so:libcap.so.2 so:libcrypto.so.3 so:libdns-9.20.30.so so:libfstrm.so.0 so:libisc-9.20.30.so so:libisccc-9.20.30.so so:libisccfg-9.20.30.so so:libjson-c.so.5 so:libnghttp2.so.14 so:libns-9.20.30.so so:libprotobuf-c.so.1 so:liburcu.so.8 so:libuv.so.1 so:libxml2.so.2 so:libz.so.1
+origin	bind
+repo	main
+file	bind-9.20.30-r0.apk
+checksum	Q1ZhJTqun6veiXN1x7YVgb70WlcpY=
+dep	dns-root-hints	dns-root-hints
+dep	bind-tools	bind-tools
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libdns-9.20.30.so	bind-libs
+dep	so:libfstrm.so.0	fstrm
+dep	so:libisc-9.20.30.so	bind-libs
+dep	so:libisccc-9.20.30.so	bind-libs
+dep	so:libisccfg-9.20.30.so	bind-libs
+dep	so:libjson-c.so.5	json-c
+dep	so:libnghttp2.so.14	nghttp2-libs
+dep	so:libns-9.20.30.so	bind-libs
+dep	so:libprotobuf-c.so.1	protobuf-c
+dep	so:liburcu.so.8	userspace-rcu
+dep	so:libuv.so.1	libuv
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

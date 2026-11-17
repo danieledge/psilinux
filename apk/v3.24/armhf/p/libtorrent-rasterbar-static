@@ -1,0 +1,13 @@
+name	libtorrent-rasterbar-static
+version	2.0.11-r1
+description	Feature complete C++ bittorrent implementation (static library)
+url	https://www.rasterbar.com/products/libtorrent
+license	BSD-3-Clause
+size	5206284
+installed-size	28168566
+depends	libtorrent-rasterbar-dev
+origin	libtorrent-rasterbar
+repo	community
+file	libtorrent-rasterbar-static-2.0.11-r1.apk
+checksum	Q1Omof6Yv7P4EAWQBupJrhVZQchc8=
+dep	libtorrent-rasterbar-dev	libtorrent-rasterbar-dev

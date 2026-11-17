@@ -1,0 +1,15 @@
+name	openssh-keygen
+version	10.3_p1-r2
+description	ssh helper program for generating keys
+url	https://www.openssh.com/portable.html
+license	SSH-OpenSSH
+size	171734
+installed-size	366092
+depends	libcrypto3>=3.1.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	openssh
+repo	main
+file	openssh-keygen-10.3_p1-r2.apk
+checksum	Q10BuBvaF5CrhPa27+CbVPrNKOJmk=
+dep	libcrypto3>=3.1.0	libcrypto3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

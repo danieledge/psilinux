@@ -1,0 +1,15 @@
+name	libgsasl-dev
+version	2.2.2-r1
+description	An implementation of the Simple Authentication and Security Layer framework (development files)
+url	https://www.gnu.org/software/gsasl/
+license	LGPL-2.0-or-later
+size	9136
+installed-size	28355
+depends	libgsasl-tools=2.2.2-r1 libgsasl=2.2.2-r1 pkgconfig
+origin	libgsasl
+repo	community
+file	libgsasl-dev-2.2.2-r1.apk
+checksum	Q1qwOLnkEa449PrtNHxtM5pKeWbHo=
+dep	libgsasl-tools=2.2.2-r1	libgsasl-tools
+dep	libgsasl=2.2.2-r1	libgsasl
+dep	pkgconfig	pkgconf

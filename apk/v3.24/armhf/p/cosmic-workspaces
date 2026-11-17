@@ -1,0 +1,17 @@
+name	cosmic-workspaces
+version	1.0.15-r0
+description	Workspace component for the COSMIC Desktop Environment
+url	https://github.com/pop-os/cosmic-workspaces
+license	GPL-3.0-or-later
+size	7477318
+installed-size	15719176
+depends	cosmic-icons so:libc.musl-armhf.so.1 so:libgbm.so.1 so:libgcc_s.so.1 so:libxkbcommon.so.0
+origin	cosmic-workspaces
+repo	community
+file	cosmic-workspaces-1.0.15-r0.apk
+checksum	Q1CzT33NWXHLjncCUlgM/sRpjENvk=
+dep	cosmic-icons	cosmic-icons
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libxkbcommon.so.0	libxkbcommon

@@ -1,0 +1,25 @@
+name	mate-calc
+version	1.28.0-r0
+description	Calculator for MATE
+url	https://github.com/mate-desktop/mate-calc
+license	GPL-2.0-or-later
+size	160628
+installed-size	366437
+depends	mate-common so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libmpc.so.3 so:libmpfr.so.6 so:libpango-1.0.so.0 so:libxml2.so.2
+origin	mate-calc
+repo	community
+file	mate-calc-1.28.0-r0.apk
+checksum	Q1I+uZebdrZ6A1ZeYNBBQgUAleCYA=
+dep	mate-common	mate-common
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libmpc.so.3	mpc1
+dep	so:libmpfr.so.6	mpfr4
+dep	so:libpango-1.0.so.0	pango
+dep	so:libxml2.so.2	libxml2

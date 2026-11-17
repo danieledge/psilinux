@@ -1,0 +1,15 @@
+name	xcb-util-wm-dev
+version	0.4.2-r0
+description	X C-language Binding - helpers for ICCCM and EWMH (development files)
+url	https://xcb.freedesktop.org/
+license	MIT
+size	32173
+installed-size	201187
+depends	xcb-util-dev xcb-util-wm=0.4.2-r0 pkgconfig
+origin	xcb-util-wm
+repo	community
+file	xcb-util-wm-dev-0.4.2-r0.apk
+checksum	Q1kLqMOtRE2RZTNQ6DxH3PAU0mVQA=
+dep	xcb-util-dev	xcb-util-dev
+dep	xcb-util-wm=0.4.2-r0	xcb-util-wm
+dep	pkgconfig	pkgconf

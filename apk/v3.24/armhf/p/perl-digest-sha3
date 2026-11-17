@@ -1,0 +1,14 @@
+name	perl-digest-sha3
+version	1.05-r3
+description	Perl extension for SHA-3
+url	https://metacpan.org/release/Digest-SHA3/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	22165
+installed-size	49035
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-digest-sha3
+repo	community
+file	perl-digest-sha3-1.05-r3.apk
+checksum	Q1zqZ5K1HsqCCBKDU1sWguY5HyEX8=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

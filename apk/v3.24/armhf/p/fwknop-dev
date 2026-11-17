@@ -1,0 +1,13 @@
+name	fwknop-dev
+version	2.6.11-r2
+description	Single Packet Authorization (SPA) implementation (development files)
+url	https://cipherdyne.org/fwknop/
+license	GPL-2.0-or-later
+size	12738
+installed-size	58866
+depends	fwknop-libs=2.6.11-r2
+origin	fwknop
+repo	community
+file	fwknop-dev-2.6.11-r2.apk
+checksum	Q1SkOXbcnZS6z50RzoqI6xq0CYDy8=
+dep	fwknop-libs=2.6.11-r2	fwknop-libs

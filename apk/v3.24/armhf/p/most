@@ -1,0 +1,14 @@
+name	most
+version	5.2.0-r3
+description	Powerful paging program for UNIX
+url	https://www.jedsoft.org/most/
+license	GPL-2.0-or-later
+size	37888
+installed-size	72256
+depends	so:libc.musl-armhf.so.1 so:libslang.so.2
+origin	most
+repo	community
+file	most-5.2.0-r3.apk
+checksum	Q1gXATSLxBqdjLBD0BXzUtzftymR0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libslang.so.2	slang

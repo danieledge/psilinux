@@ -1,0 +1,19 @@
+name	libheif
+version	1.23.7-r0
+description	ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
+url	https://www.libde265.org/
+license	LGPL-3.0-or-later
+size	706493
+installed-size	1661315
+depends	libheif-dav1d libheif-libde265 /bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libsharpyuv.so.0 so:libstdc++.so.6
+origin	libheif
+repo	community
+file	libheif-1.23.7-r0.apk
+checksum	Q1stby6Gy9YgyQf0MX4lux/Uqo1Us=
+dep	libheif-dav1d	libheif-dav1d
+dep	libheif-libde265	libheif-libde265
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsharpyuv.so.0	libsharpyuv
+dep	so:libstdc++.so.6	libstdc++

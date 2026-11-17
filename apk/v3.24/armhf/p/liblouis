@@ -1,0 +1,13 @@
+name	liblouis
+version	3.38.0-r0
+description	Braille translator and back-translator
+url	https://liblouis.io/
+license	GPL-3.0-or-later
+size	3370268
+installed-size	13888358
+depends	so:libc.musl-armhf.so.1
+origin	liblouis
+repo	community
+file	liblouis-3.38.0-r0.apk
+checksum	Q1xsZJwJPxJpfPOg/NsGCfX3Dw/9M=
+dep	so:libc.musl-armhf.so.1	musl

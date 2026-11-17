@@ -1,0 +1,18 @@
+name	freetds
+version	1.5.14-r0
+description	Tabular Datastream Library
+url	https://www.freetds.org/
+license	GPL-2.0-or-later OR LGPL-2.0-or-later
+size	864599
+installed-size	1783059
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libodbc.so.2 so:libodbcinst.so.2 so:libreadline.so.8 so:libssl.so.3
+origin	freetds
+repo	main
+file	freetds-1.5.14-r0.apk
+checksum	Q1c874hjKfNYfzHDG82a1O+zM+Li8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libodbc.so.2	unixodbc
+dep	so:libodbcinst.so.2	unixodbc
+dep	so:libreadline.so.8	readline
+dep	so:libssl.so.3	libssl3

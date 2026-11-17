@@ -1,0 +1,15 @@
+name	ocaml-mirage-time-dev
+version	3.0.0-r6
+description	Time operations for MirageOS (development files)
+url	https://github.com/mirage/mirage-time
+license	ISC
+size	8172
+installed-size	21056
+depends	ocaml-mirage-time=3.0.0-r6 ocaml-lwt-dev ocaml-duration-dev
+origin	ocaml-mirage-time
+repo	community
+file	ocaml-mirage-time-dev-3.0.0-r6.apk
+checksum	Q13JxZixDE18Dol0idDoNrQ4lgRbg=
+dep	ocaml-mirage-time=3.0.0-r6	ocaml-mirage-time
+dep	ocaml-lwt-dev	ocaml-lwt-dev
+dep	ocaml-duration-dev	ocaml-duration-dev

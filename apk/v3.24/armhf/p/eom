@@ -1,0 +1,36 @@
+name	eom
+version	1.28.1-r0
+description	A simple graphics viewer for the MATE
+url	https://github.com/mate-desktop/eom
+license	GPL-2.0-or-later
+size	719659
+installed-size	1738964
+depends	mate-icon-theme libxml2-utils so:libMagickWand-7.Q16HDRI.so.10 so:libX11.so.6 so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libexif.so.12 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libgirepository-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libjpeg.so.8 so:liblcms2.so.2 so:libmate-desktop-2.so.17 so:libpeas-1.0.so.1 so:libpeas-gtk-1.0.so.1 so:librsvg-2.so.2 so:libxml2.so.2 so:libz.so.1
+origin	eom
+repo	community
+file	eom-1.28.1-r0.apk
+checksum	Q15aSweedL4sDV6Cfb3bh5dWLll6Y=
+dep	mate-icon-theme	mate-icon-theme
+dep	libxml2-utils	libxml2-utils
+dep	so:libMagickWand-7.Q16HDRI.so.10	imagemagick-libs
+dep	so:libX11.so.6	libx11
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libexif.so.12	libexif
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libgirepository-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:liblcms2.so.2	lcms2
+dep	so:libmate-desktop-2.so.17	mate-desktop
+dep	so:libpeas-1.0.so.1	libpeas
+dep	so:libpeas-gtk-1.0.so.1	libpeas
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

@@ -1,0 +1,14 @@
+name	libnfc-tools
+version	1.8.0-r2
+description	Platform independent Near Field Communication (NFC) library (tools)
+url	https://github.com/nfc-tools/libnfc
+license	LGPL-3.0-or-later
+size	61046
+installed-size	213820
+depends	so:libc.musl-armhf.so.1 so:libnfc.so.6
+origin	libnfc
+repo	community
+file	libnfc-tools-1.8.0-r2.apk
+checksum	Q1QxuetaJhlnxwFBz1D9SoYyoxHI4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnfc.so.6	libnfc

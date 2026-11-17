@@ -1,0 +1,13 @@
+name	capstone-static
+version	5.0.9-r0
+description	The Ultimate Disassembler (static library)
+url	https://www.capstone-engine.org
+license	BSD-3-Clause-Clear
+size	9006470
+installed-size	16644904
+depends	capstone-dev
+origin	capstone
+repo	community
+file	capstone-static-5.0.9-r0.apk
+checksum	Q1vFvbwbkRZW2hIe/FbnPKSzV/c8E=
+dep	capstone-dev	capstone-dev

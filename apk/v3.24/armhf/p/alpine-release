@@ -1,0 +1,13 @@
+name	alpine-release
+version	3.24.4-r0
+description	Alpine release data
+url	https://alpinelinux.org
+license	MIT
+size	2076
+installed-size	343
+depends	alpine-keys
+origin	alpine-base
+repo	main
+file	alpine-release-3.24.4-r0.apk
+checksum	Q1trM4D57Jg4mSgG3VMqmqWB61JP0=
+dep	alpine-keys	alpine-keys

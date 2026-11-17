@@ -1,0 +1,14 @@
+name	unixodbc
+version	2.3.14-r1
+description	Unix Open DataBase Connectivity sub-system and SDK
+url	https://www.unixodbc.org/
+license	LGPL-2.0-or-later
+size	254002
+installed-size	606720
+depends	so:libc.musl-armhf.so.1 so:libreadline.so.8
+origin	unixodbc
+repo	main
+file	unixodbc-2.3.14-r1.apk
+checksum	Q121wTOH4VAjQEAZXU8hMukeq+S7w=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libreadline.so.8	readline

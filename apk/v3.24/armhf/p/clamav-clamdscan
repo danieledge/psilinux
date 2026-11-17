@@ -1,0 +1,14 @@
+name	clamav-clamdscan
+version	1.4.6-r0
+description	ClamAV daemon client
+url	https://www.clamav.net/
+license	GPL-2.0-only
+size	51898
+installed-size	132532
+depends	so:libc.musl-armhf.so.1 so:libclamav.so.12
+origin	clamav
+repo	community
+file	clamav-clamdscan-1.4.6-r0.apk
+checksum	Q1GclLTVTA/WoTd2hcKZ60tmA5xvY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libclamav.so.12	clamav-libs

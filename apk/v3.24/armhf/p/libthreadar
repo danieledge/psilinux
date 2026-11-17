@@ -1,0 +1,15 @@
+name	libthreadar
+version	1.6.0-r0
+description	a C++ library that provides several classes to manipulate threads
+url	https://libthreadar.sourceforge.net/
+license	LGPL-3.0-or-later
+size	25442
+installed-size	58939
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libthreadar
+repo	community
+file	libthreadar-1.6.0-r0.apk
+checksum	Q1g0D2fZ2f08vEjJT4igUMI0axmJY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

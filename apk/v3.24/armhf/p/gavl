@@ -1,0 +1,13 @@
+name	gavl
+version	1.4.0-r4
+description	Low level library, upon which multimedia APIs can be built
+url	https://gmerlin.sourceforge.net/
+license	GPL-2.0-or-later
+size	3456821
+installed-size	4552264
+depends	so:libc.musl-armhf.so.1
+origin	gavl
+repo	community
+file	gavl-1.4.0-r4.apk
+checksum	Q18eOlOGtjd+/mbeTPEUZI1k2VNjM=
+dep	so:libc.musl-armhf.so.1	musl

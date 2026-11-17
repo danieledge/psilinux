@@ -1,0 +1,16 @@
+name	clamav-dev
+version	1.4.6-r0
+description	An anti-virus toolkit for UNIX eis-ng backport (development files)
+url	https://www.clamav.net/
+license	GPL-2.0-only
+size	19821
+installed-size	82041
+depends	openssl-dev>3 clamav-libs=1.4.6-r0 clamav-libunrar=1.4.6-r0 pkgconfig
+origin	clamav
+repo	community
+file	clamav-dev-1.4.6-r0.apk
+checksum	Q1lb3+lLDMfJGQnJROHWQSdTbC2T4=
+dep	openssl-dev>3	openssl-dev
+dep	clamav-libs=1.4.6-r0	clamav-libs
+dep	clamav-libunrar=1.4.6-r0	clamav-libunrar
+dep	pkgconfig	pkgconf

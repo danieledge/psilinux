@@ -1,0 +1,15 @@
+name	fwknop
+version	2.6.11-r2
+description	Single Packet Authorization (SPA) implementation
+url	https://cipherdyne.org/fwknop/
+license	GPL-2.0-or-later
+size	33332
+installed-size	73876
+depends	iptables so:libc.musl-armhf.so.1 so:libfko.so.3
+origin	fwknop
+repo	community
+file	fwknop-2.6.11-r2.apk
+checksum	Q1j2tL8LtaJExJazLMbMq99dA6XLE=
+dep	iptables	iptables
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfko.so.3	fwknop-libs

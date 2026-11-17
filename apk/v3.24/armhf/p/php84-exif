@@ -1,0 +1,15 @@
+name	php84-exif
+version	8.4.27-r0
+description	PHP84 extension: EXIF
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	32133
+installed-size	66895
+depends	php84-common php84-mbstring so:libc.musl-armhf.so.1
+origin	php84
+repo	community
+file	php84-exif-8.4.27-r0.apk
+checksum	Q1k0UfbJeNnPgqUaZIbzPijhkeVls=
+dep	php84-common	php84-common
+dep	php84-mbstring	php84-mbstring
+dep	so:libc.musl-armhf.so.1	musl

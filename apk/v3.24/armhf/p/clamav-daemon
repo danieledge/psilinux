@@ -1,0 +1,20 @@
+name	clamav-daemon
+version	1.4.6-r0
+description	ClamAV daemon scanner
+url	https://www.clamav.net/
+license	GPL-2.0-only
+size	159766
+installed-size	418168
+depends	freshclam clamav-clamdscan /bin/sh so:libc.musl-armhf.so.1 so:libclamav.so.12 so:libgcc_s.so.1 so:libncursesw.so.6 so:libz.so.1
+origin	clamav
+repo	community
+file	clamav-daemon-1.4.6-r0.apk
+checksum	Q1B4ClcWg6+fPbVUJl+jCoVS6FJ/I=
+dep	freshclam	freshclam
+dep	clamav-clamdscan	clamav-clamdscan
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libclamav.so.12	clamav-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libz.so.1	zlib

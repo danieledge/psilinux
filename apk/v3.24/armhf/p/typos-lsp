@@ -1,0 +1,14 @@
+name	typos-lsp
+version	0.1.53-r0
+description	Source code spell checker for Visual Studio Code and LSP clients
+url	https://github.com/tekumara/typos-lsp
+license	MIT
+size	3173805
+installed-size	9260220
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	typos-lsp
+repo	community
+file	typos-lsp-0.1.53-r0.apk
+checksum	Q1LPm5GLpkZjBzHz6RgttDnfAM0lc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

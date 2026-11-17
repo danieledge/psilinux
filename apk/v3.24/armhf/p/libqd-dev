@@ -1,0 +1,14 @@
+name	libqd-dev
+version	2.3.24-r0
+description	Double-double and quad-double library for Fortran and C++ (development files)
+url	https://www.davidhbailey.com/dhbsoftware
+license	BSD-3-Clause-LBNL
+size	58679
+installed-size	115451
+depends	libqd=2.3.24-r0 pkgconfig
+origin	libqd
+repo	community
+file	libqd-dev-2.3.24-r0.apk
+checksum	Q1/kv+uHaZ4YNYiTzq4w084wFjr9g=
+dep	libqd=2.3.24-r0	libqd
+dep	pkgconfig	pkgconf

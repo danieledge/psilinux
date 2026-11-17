@@ -1,0 +1,18 @@
+name	qt6-qtmqtt-dev
+version	6.11.1-r0
+description	Qt module that Provides MQTT communication (development files)
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	30202
+installed-size	110455
+depends	qt6-qtbase-dev qt6-qtbase-private-dev qt6-qtmqtt=6.11.1-r0 pc:Qt6Core pc:Qt6Network pkgconfig
+origin	qt6-qtmqtt
+repo	community
+file	qt6-qtmqtt-dev-6.11.1-r0.apk
+checksum	Q1loGzfIe6s2Z7ZCDC77eLqcSbrR4=
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	qt6-qtbase-private-dev	qt6-qtbase-private-dev
+dep	qt6-qtmqtt=6.11.1-r0	qt6-qtmqtt
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pc:Qt6Network	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

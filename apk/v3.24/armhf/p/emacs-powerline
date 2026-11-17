@@ -1,0 +1,13 @@
+name	emacs-powerline
+version	2.4_git20221110-r1
+description	Library for customizing the mode-line
+url	https://github.com/milkypostman/powerline
+license	GPL-3.0-or-later
+size	29376
+installed-size	160050
+depends	cmd:emacs
+origin	emacs-powerline
+repo	community
+file	emacs-powerline-2.4_git20221110-r1.apk
+checksum	Q1UGCxnQCVwdO/Y+fcompDWgeG7VQ=
+dep	cmd:emacs	emacs-gtk3

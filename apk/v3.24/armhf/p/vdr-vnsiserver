@@ -1,0 +1,13 @@
+name	vdr-vnsiserver
+version	2.6.1-r7
+description	Video Disk Recorder
+url	http://www.tvdr.de/
+license	GPL-2.0-or-later
+size	2203
+installed-size	722
+depends	vdr=2.6.1-r7
+origin	vdr
+repo	community
+file	vdr-vnsiserver-2.6.1-r7.apk
+checksum	Q1YkF1W5LHUSUiP+gdbSYNKAvqNXw=
+dep	vdr=2.6.1-r7	vdr

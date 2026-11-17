@@ -1,0 +1,14 @@
+name	sdl12-compat
+version	1.2.76-r1
+description	SDL-1.2 compat layer that uses SDL-2.0
+url	https://github.com/libsdl-org/sdl12-compat
+license	BSD-3-Clause
+size	79715
+installed-size	165360
+depends	so:libSDL2-2.0.so.0 so:libc.musl-armhf.so.1
+origin	sdl12-compat
+repo	community
+file	sdl12-compat-1.2.76-r1.apk
+checksum	Q1rYFQjnY/cO7CKunam+P/7apzlNY=
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,21 @@
+name	b4
+version	0.15.1-r0
+description	Tool to help with email-based patch workflows
+url	https://b4.docs.kernel.org/
+license	GPL-2.0-or-later
+size	285974
+installed-size	1223904
+depends	py3-requests git git-email git-filter-repo py3-dnspython py3-patatt py3-dkimpy py3-textual python3~3.14
+origin	b4
+repo	community
+file	b4-0.15.1-r0.apk
+checksum	Q1q10fKHhMiORn1VBawOnx9cMlNr8=
+dep	py3-requests	py3-requests
+dep	git	git
+dep	git-email	git-email
+dep	git-filter-repo	git-filter-repo
+dep	py3-dnspython	py3-dnspython
+dep	py3-patatt	py3-patatt
+dep	py3-dkimpy	py3-dkimpy
+dep	py3-textual	py3-textual
+dep	python3~3.14	python3

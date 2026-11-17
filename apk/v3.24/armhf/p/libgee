@@ -1,0 +1,16 @@
+name	libgee
+version	0.20.8-r1
+description	GObject collection library
+url	https://gitlab.gnome.org/GNOME/libgee
+license	LGPL-2.1-or-later
+size	224553
+installed-size	671240
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	libgee
+repo	community
+file	libgee-0.20.8-r1.apk
+checksum	Q1nxGs0glMLo7pY0oRgf0mDTRujNY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

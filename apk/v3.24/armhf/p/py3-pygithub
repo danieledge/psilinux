@@ -1,0 +1,19 @@
+name	py3-pygithub
+version	2.8.1-r1
+description	Typed interactions with the GitHub API v3
+url	https://github.com/PyGithub/PyGithub
+license	LGPL-3.0-or-later
+size	251357
+installed-size	1953874
+depends	py3-cryptography py3-jwt py3-pynacl py3-requests py3-typing-extensions py3-urllib3 python3~3.14
+origin	py3-pygithub
+repo	community
+file	py3-pygithub-2.8.1-r1.apk
+checksum	Q1sklFSXIz4To3g42dg8M5IhuB7uw=
+dep	py3-cryptography	py3-cryptography
+dep	py3-jwt	py3-jwt
+dep	py3-pynacl	py3-pynacl
+dep	py3-requests	py3-requests
+dep	py3-typing-extensions	py3-typing-extensions
+dep	py3-urllib3	py3-urllib3
+dep	python3~3.14	python3

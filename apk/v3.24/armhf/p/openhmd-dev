@@ -1,0 +1,15 @@
+name	openhmd-dev
+version	0.3.0-r4
+description	Free and Open Source API and drivers for immersive (VR) technology (development files)
+url	http://www.openhmd.net/
+license	BSL-1.0
+size	6805
+installed-size	18465
+depends	openhmd=0.3.0-r4 pc:hidapi-libusb pkgconfig
+origin	openhmd
+repo	community
+file	openhmd-dev-0.3.0-r4.apk
+checksum	Q1OvWKzOD1/mL5Zvb0B2w+l15z/YE=
+dep	openhmd=0.3.0-r4	openhmd
+dep	pc:hidapi-libusb	hidapi-dev
+dep	pkgconfig	pkgconf

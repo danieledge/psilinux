@@ -1,0 +1,21 @@
+name	py3-softlayer-zeep
+version	5.0.0-r7
+description	modern/fast Python SOAP client based on lxml / requests
+url	https://docs.python-zeep.org/en/master/
+license	MIT
+size	80401
+installed-size	348344
+depends	py3-attrs py3-isodate py3-lxml py3-platformdirs py3-requests py3-requests-file py3-requests-toolbelt py3-tz python3~3.14
+origin	py3-softlayer-zeep
+repo	community
+file	py3-softlayer-zeep-5.0.0-r7.apk
+checksum	Q1gyYi7xPH4l9DEQjNB8jMa+q+nFg=
+dep	py3-attrs	py3-attrs
+dep	py3-isodate	py3-isodate
+dep	py3-lxml	py3-lxml
+dep	py3-platformdirs	py3-platformdirs
+dep	py3-requests	py3-requests
+dep	py3-requests-file	py3-requests-file
+dep	py3-requests-toolbelt	py3-requests-toolbelt
+dep	py3-tz	py3-tz
+dep	python3~3.14	python3

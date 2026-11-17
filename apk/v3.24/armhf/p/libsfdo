@@ -1,0 +1,13 @@
+name	libsfdo
+version	0.1.4-r0
+description	A collection of libraries which implement freedesktop.org specifications
+url	https://gitlab.freedesktop.org/vyivel/libsfdo
+license	BSD-2-Clause
+size	30517
+installed-size	78312
+depends	so:libc.musl-armhf.so.1
+origin	libsfdo
+repo	community
+file	libsfdo-0.1.4-r0.apk
+checksum	Q1Jhckw+SBOvpaZ2TR5Zdm9YpjQGM=
+dep	so:libc.musl-armhf.so.1	musl

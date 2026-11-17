@@ -1,0 +1,19 @@
+name	py3-docker-py
+version	7.1.0-r1
+description	Python library for the Docker Engine API
+url	https://github.com/docker/docker-py
+license	Apache-2.0
+size	128554
+installed-size	511417
+depends	py3-hatchling py3-hatch-vcs py3-packaging py3-requests py3-urllib3 py3-websocket-client python3~3.14
+origin	py3-docker-py
+repo	community
+file	py3-docker-py-7.1.0-r1.apk
+checksum	Q1mEvpwp4TaCMmIrSLJP7ry63U96w=
+dep	py3-hatchling	py3-hatchling
+dep	py3-hatch-vcs	py3-hatch-vcs
+dep	py3-packaging	py3-packaging
+dep	py3-requests	py3-requests
+dep	py3-urllib3	py3-urllib3
+dep	py3-websocket-client	py3-websocket-client
+dep	python3~3.14	python3

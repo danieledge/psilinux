@@ -1,0 +1,14 @@
+name	libevhtp-dev
+version	1.2.18-r6
+description	Flexible replacement for libevent's httpd API (development files)
+url	https://github.com/Yellow-Camper/libevhtp
+license	BSD-3-Clause
+size	29216
+installed-size	162653
+depends	libevhtp=1.2.18-r6 pkgconfig
+origin	libevhtp
+repo	community
+file	libevhtp-dev-1.2.18-r6.apk
+checksum	Q1jbDmO1Eh8we0B2uqEUmQ5I2UMQk=
+dep	libevhtp=1.2.18-r6	libevhtp
+dep	pkgconfig	pkgconf

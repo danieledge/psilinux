@@ -1,0 +1,16 @@
+name	knot-mod-dnstap
+version	3.5.10-r0
+description	dnstap module for Knot DNS
+url	https://www.knot-dns.cz/
+license	GPL-2.0-or-later
+size	9574
+installed-size	21784
+depends	knot=3.5.10-r0 so:libc.musl-armhf.so.1 so:libfstrm.so.0 so:libprotobuf-c.so.1
+origin	knot
+repo	main
+file	knot-mod-dnstap-3.5.10-r0.apk
+checksum	Q18so9eCv0cjDZCDO8S+27AZ51yew=
+dep	knot=3.5.10-r0	knot
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfstrm.so.0	fstrm
+dep	so:libprotobuf-c.so.1	protobuf-c

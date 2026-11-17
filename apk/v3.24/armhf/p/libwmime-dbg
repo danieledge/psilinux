@@ -1,0 +1,12 @@
+name	libwmime-dbg
+version	1.1.0-r0
+description	Library for working with RFC 5322, MIME messages and IMAP/POP/SMTP (debug symbols)
+url	https://grommunio.com/
+license	GPL-3.0-only
+size	13624479
+installed-size	37146724
+depends	!libwmime<1.1.0-r0 !libwmime>1.1.0-r0
+origin	libwmime
+repo	community
+file	libwmime-dbg-1.1.0-r0.apk
+checksum	Q1u6Z6BL8hP8SWFtbqPqMu3J+CgYQ=

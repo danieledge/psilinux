@@ -1,0 +1,17 @@
+name	liblcf-tools
+version	0.8.1-r1
+description	Library to handle RPG Maker 2000/2003 and EasyRPG projects
+url	https://easyrpg.org/
+license	MIT
+size	38316
+installed-size	92928
+depends	shared-mime-info so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblcf.so.0 so:libstdc++.so.6
+origin	liblcf
+repo	community
+file	liblcf-tools-0.8.1-r1.apk
+checksum	Q1HHEkMAnIkaQ3L0nBnPYGAfNlioQ=
+dep	shared-mime-info	shared-mime-info
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblcf.so.0	liblcf
+dep	so:libstdc++.so.6	libstdc++

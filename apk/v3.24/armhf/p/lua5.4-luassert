@@ -1,0 +1,14 @@
+name	lua5.4-luassert
+version	1.9.0-r1
+description	Assertion library for Lua (for Lua 5.4)
+url	https://github.com/Olivine-Labs/luassert
+license	MIT
+size	24187
+installed-size	90580
+depends	lua5.4 lua5.4-say
+origin	lua-luassert
+repo	main
+file	lua5.4-luassert-1.9.0-r1.apk
+checksum	Q1i/7e/NDUB8GDyx8wgodm/TO7MuM=
+dep	lua5.4	lua5.4
+dep	lua5.4-say	lua5.4-say

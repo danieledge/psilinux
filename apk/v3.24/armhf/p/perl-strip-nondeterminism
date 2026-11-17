@@ -1,0 +1,14 @@
+name	perl-strip-nondeterminism
+version	1.15.0-r0
+description	Tool for stripping bits of non-deterministic information from files (perl module)
+url	https://salsa.debian.org/reproducible-builds/strip-nondeterminism
+license	GPL-3.0-only
+size	18340
+installed-size	58988
+depends	perl perl-archive-zip
+origin	perl-strip-nondeterminism
+repo	community
+file	perl-strip-nondeterminism-1.15.0-r0.apk
+checksum	Q1d7Iv0sQzaSFbOOBEdrwgqXFtMDk=
+dep	perl	perl
+dep	perl-archive-zip	perl-archive-zip

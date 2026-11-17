@@ -1,0 +1,19 @@
+name	llvm18-libs
+version	18.1.8-r10
+description	LLVM 18 runtime library
+url	https://llvm.org/
+license	Apache-2.0 WITH LLVM-exception
+size	37771715
+installed-size	96640756
+depends	so:libc.musl-armhf.so.1 so:libffi.so.8 so:libgcc_s.so.1 so:libstdc++.so.6 so:libxml2.so.2 so:libz.so.1 so:libzstd.so.1
+origin	llvm18
+repo	community
+file	llvm18-libs-18.1.8-r10.apk
+checksum	Q1I/TZD7bA+QW5NUI08I8r4vVkrSU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libffi.so.8	libffi
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

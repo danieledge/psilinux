@@ -1,0 +1,18 @@
+name	template-glib
+version	3.40.0-r0
+description	library for template expansion which supports calling into GObject Introspection from templates
+url	https://gitlab.gnome.org/GNOME/template-glib
+license	GPL-3.0-or-later
+size	56693
+installed-size	137424
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libgirepository-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8
+origin	template-glib
+repo	community
+file	template-glib-3.40.0-r0.apk
+checksum	Q13+rT2XXxz/nQMIlHuvSdWms+ICo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libgirepository-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl

@@ -1,0 +1,17 @@
+name	abseil-cpp-exception-safety-testing
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-exception-safety-testing
+url	https://abseil.io/
+license	Apache-2.0
+size	6785
+installed-size	13700
+depends	so:libabsl_strings.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgtest.so.1.17.0 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-exception-safety-testing-20250814.1-r0.apk
+checksum	Q1jKkafnkvZHYjEHDpoKjYv9Yk1Tw=
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgtest.so.1.17.0	gtest
+dep	so:libstdc++.so.6	libstdc++

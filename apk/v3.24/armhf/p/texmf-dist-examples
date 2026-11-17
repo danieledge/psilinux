@@ -1,0 +1,14 @@
+name	texmf-dist-examples
+version	2026.0-r0
+description	TeX Live texmf core distribution (examples and doc)
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	19550273
+installed-size	30356829
+depends	texmf-dist texmf-dist-doc
+origin	texmf-dist
+repo	community
+file	texmf-dist-examples-2026.0-r0.apk
+checksum	Q12agBSj0RIegwmP5+auZRZaIxalM=
+dep	texmf-dist	texmf-dist
+dep	texmf-dist-doc	texmf-dist-doc

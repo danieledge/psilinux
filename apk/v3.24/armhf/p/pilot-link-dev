@@ -1,0 +1,14 @@
+name	pilot-link-dev
+version	0.12.5_git20241124-r2
+description	A suite of tools for connecting to PalmOS handheld devices (development files)
+url	https://github.com/desrod/pilot-link
+license	GPL-2.0-only
+size	173498
+installed-size	559382
+depends	pilot-link-libs=0.12.5_git20241124-r2 pkgconfig
+origin	pilot-link
+repo	community
+file	pilot-link-dev-0.12.5_git20241124-r2.apk
+checksum	Q1ueo0Avp7dkSe0matdQRoDJfl8X8=
+dep	pilot-link-libs=0.12.5_git20241124-r2	pilot-link-libs
+dep	pkgconfig	pkgconf

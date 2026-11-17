@@ -1,0 +1,13 @@
+name	ck-static
+version	0.7.2-r1
+description	Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures (static library)
+url	https://concurrencykit.org/
+license	BSD-2-Clause AND Apache-2.0
+size	20290
+installed-size	46394
+depends	ck-dev
+origin	ck
+repo	community
+file	ck-static-0.7.2-r1.apk
+checksum	Q1iovtIZ/xrQcQ8tEopPGGKWXtGwQ=
+dep	ck-dev	ck-dev

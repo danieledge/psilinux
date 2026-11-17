@@ -1,0 +1,18 @@
+name	apache2-ssl
+version	2.4.71-r0
+description	SSL/TLS module for the Apache HTTP Server
+url	https://httpd.apache.org/
+license	Apache-2.0
+size	90855
+installed-size	215405
+depends	apache2 openssl>3 /bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	apache2
+repo	main
+file	apache2-ssl-2.4.71-r0.apk
+checksum	Q19UyGbQs/rabORAmfILM0kXf2IhY=
+dep	apache2	apache2
+dep	openssl>3	openssl
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

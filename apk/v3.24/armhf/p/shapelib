@@ -1,0 +1,13 @@
+name	shapelib
+version	1.6.2-r0
+description	C library for reading, writing and updating ESRI Shapefiles, and the associated attribute file
+url	http://shapelib.maptools.org/
+license	LGPL-2.0-only OR MIT
+size	36628
+installed-size	70776
+depends	so:libc.musl-armhf.so.1
+origin	shapelib
+repo	community
+file	shapelib-1.6.2-r0.apk
+checksum	Q10swEu8yUFsBQoqCeccQyUFmNWYU=
+dep	so:libc.musl-armhf.so.1	musl

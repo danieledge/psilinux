@@ -1,0 +1,17 @@
+name	pike-svg
+version	8.0.2040-r1
+description	Pike programming language (SVG support)
+url	https://pike.lysator.liu.se/
+license	GPL-2.0-or-later
+size	5078
+installed-size	9044
+depends	pike=8.0.2040-r1 so:libc.musl-armhf.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgobject-2.0.so.0 so:librsvg-2.so.2
+origin	pike
+repo	community
+file	pike-svg-8.0.2040-r1.apk
+checksum	Q18oNRwGEETlh9ZqQBb4VWzHdf4F8=
+dep	pike=8.0.2040-r1	pike
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgobject-2.0.so.0	glib
+dep	so:librsvg-2.so.2	librsvg

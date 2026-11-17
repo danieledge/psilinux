@@ -1,0 +1,15 @@
+name	libresource
+version	0.25.1-r2
+description	Nemo's libresource
+url	https://github.com/sailfishos/libresource
+license	LGPL-2.1-only AND (AFL-2.1 OR GPL-2.0-or-later)
+size	30301
+installed-size	75088
+depends	so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libglib-2.0.so.0
+origin	libresource
+repo	community
+file	libresource-0.25.1-r2.apk
+checksum	Q1aQj0g27M3L6bv0ggg/TuYaRamx4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libglib-2.0.so.0	glib

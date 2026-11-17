@@ -1,0 +1,17 @@
+name	mpg123
+version	1.33.5-r0
+description	Console-based MPEG Audio Player for Layers 1, 2 and 3
+url	https://www.mpg123.org/
+license	LGPL-2.1-only
+size	102084
+installed-size	237680
+depends	so:libasound.so.2 so:libc.musl-armhf.so.1 so:libmpg123.so.0 so:libout123.so.0 so:libsyn123.so.0
+origin	mpg123
+repo	main
+file	mpg123-1.33.5-r0.apk
+checksum	Q1zaxB6kPJp/vULwq/r7v+j6FjjHc=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmpg123.so.0	mpg123-libs
+dep	so:libout123.so.0	mpg123-libs
+dep	so:libsyn123.so.0	mpg123-libs

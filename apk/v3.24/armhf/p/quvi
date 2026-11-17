@@ -1,0 +1,17 @@
+name	quvi
+version	0.9.5-r6
+description	Command line tool for parsing video download links
+url	https://quvi.sourceforge.net/
+license	LGPL-2.0-or-later
+size	31588
+installed-size	66856
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libglib-2.0.so.0 so:libintl.so.8 so:libquvi-0.9-0.9.4.so
+origin	quvi
+repo	community
+file	quvi-0.9.5-r6.apk
+checksum	Q17vlLuYBc9QjbpC1Ufw+mIkviV9o=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libquvi-0.9-0.9.4.so	libquvi

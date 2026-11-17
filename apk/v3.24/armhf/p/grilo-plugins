@@ -1,0 +1,34 @@
+name	grilo-plugins
+version	0.3.16-r5
+description	GNOME media discovery framework plugins
+url	https://gitlab.gnome.org/GNOME/grilo-plugins
+license	LGPL-2.1-or-later
+size	820958
+installed-size	1287712
+depends	localsearch so:libarchive.so.13 so:libavahi-client.so.3 so:libavahi-glib.so.1 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgoa-1.0.so.0 so:libgobject-2.0.so.0 so:libgom-1.0.so.0 so:libgrilo-0.3.so.0 so:libgrlnet-0.3.so.0 so:libgrlpls-0.3.so.0 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:liblua-5.4.so.0 so:libmediaart-2.0.so.0 so:libsqlite3.so.0 so:libtinysparql-3.0.so.0 so:libtotem-plparser-mini.so.18 so:libtotem-plparser.so.18 so:libxml2.so.2
+origin	grilo-plugins
+repo	community
+file	grilo-plugins-0.3.16-r5.apk
+checksum	Q1LnJ5plfx6iNCLLsuOskAysjGXXw=
+dep	localsearch	localsearch
+dep	so:libarchive.so.13	libarchive
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-glib.so.1	avahi-glib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgoa-1.0.so.0	gnome-online-accounts
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgom-1.0.so.0	gom
+dep	so:libgrilo-0.3.so.0	grilo-libs
+dep	so:libgrlnet-0.3.so.0	grilo-libs
+dep	so:libgrlpls-0.3.so.0	grilo-libs
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:liblua-5.4.so.0	lua5.4-libs
+dep	so:libmediaart-2.0.so.0	libmediaart
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libtinysparql-3.0.so.0	libtinysparql
+dep	so:libtotem-plparser-mini.so.18	totem-pl-parser
+dep	so:libtotem-plparser.so.18	totem-pl-parser
+dep	so:libxml2.so.2	libxml2

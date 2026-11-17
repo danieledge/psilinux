@@ -1,0 +1,14 @@
+name	chafa-libs
+version	1.18.2-r0
+description	Terminal graphics for the 21st century (libraries)
+url	https://hpjansson.org/chafa
+license	LGPL-3.0-or-later
+size	112061
+installed-size	292396
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0
+origin	chafa
+repo	community
+file	chafa-libs-1.18.2-r0.apk
+checksum	Q1cvNaVfj7aGY2LsJlLei3PEszAcI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib

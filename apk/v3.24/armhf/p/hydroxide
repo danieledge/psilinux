@@ -1,0 +1,13 @@
+name	hydroxide
+version	0.2.29-r17
+description	Third-party, open-source ProtonMail CardDAV, IMAP and SMTP bridge
+url	https://github.com/emersion/hydroxide
+license	MIT
+size	4078733
+installed-size	10004116
+depends	so:libc.musl-armhf.so.1
+origin	hydroxide
+repo	community
+file	hydroxide-0.2.29-r17.apk
+checksum	Q1BwsPxXDvinxxAhmPqxvf7m/KbMI=
+dep	so:libc.musl-armhf.so.1	musl

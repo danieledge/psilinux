@@ -1,0 +1,16 @@
+name	heimdal-dev
+version	7.8.0-r5
+description	Implementation of Kerberos 5 (development files)
+url	https://github.com/heimdal/
+license	BSD-3-Clause
+size	1410465
+installed-size	4841904
+depends	openssl-dev>3 e2fsprogs-dev heimdal-libs=7.8.0-r5 pkgconfig
+origin	heimdal
+repo	main
+file	heimdal-dev-7.8.0-r5.apk
+checksum	Q12ezFr7fxfozgRlHST7LGR5UF9hY=
+dep	openssl-dev>3	openssl-dev
+dep	e2fsprogs-dev	e2fsprogs-dev
+dep	heimdal-libs=7.8.0-r5	heimdal-libs
+dep	pkgconfig	pkgconf

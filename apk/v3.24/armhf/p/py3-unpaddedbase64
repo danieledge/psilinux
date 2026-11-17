@@ -1,0 +1,13 @@
+name	py3-unpaddedbase64
+version	2.1.0-r9
+description	Base64 Encoding and Decoding without = padding
+url	https://github.com/matrix-org/python-unpaddedbase64
+license	Apache-2.0
+size	7175
+installed-size	13735
+depends	python3~3.14
+origin	py3-unpaddedbase64
+repo	community
+file	py3-unpaddedbase64-2.1.0-r9.apk
+checksum	Q1UkfO8acGVr+v8qtUa23t9q1Xmkc=
+dep	python3~3.14	python3

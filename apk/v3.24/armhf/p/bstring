@@ -1,0 +1,13 @@
+name	bstring
+version	1.1.0-r0
+description	The Better String Library for C
+url	https://mike.steinert.ca/bstring/
+license	BSD-3-Clause
+size	24534
+installed-size	46320
+depends	so:libc.musl-armhf.so.1
+origin	bstring
+repo	community
+file	bstring-1.1.0-r0.apk
+checksum	Q1hf90oji/ZgtLVRS8a53lCehrz1I=
+dep	so:libc.musl-armhf.so.1	musl

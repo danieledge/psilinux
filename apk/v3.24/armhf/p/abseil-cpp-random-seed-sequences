@@ -1,0 +1,16 @@
+name	abseil-cpp-random-seed-sequences
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-random-seed-sequences
+url	https://abseil.io/
+license	Apache-2.0
+size	4070
+installed-size	5452
+depends	so:libabsl_random_internal_entropy_pool.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-random-seed-sequences-20250814.1-r0.apk
+checksum	Q1kZflLeCM0efxdRNMi+MuUtJdA5Q=
+dep	so:libabsl_random_internal_entropy_pool.so.2508.0.0	abseil-cpp-random-internal-entropy-pool
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

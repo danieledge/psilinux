@@ -1,0 +1,16 @@
+name	py3-pyaudio
+version	0.2.14-r2
+description	Bindings for PortAudio v19, the cross-platform audio input/output stream library
+url	https://people.csail.mit.edu/hubert/pyaudio/
+license	MIT
+size	24480
+installed-size	72970
+depends	python3 python3~3.14 so:libc.musl-armhf.so.1 so:libportaudio.so.2
+origin	py3-pyaudio
+repo	community
+file	py3-pyaudio-0.2.14-r2.apk
+checksum	Q1U0lDR8PnH8wYYNV85chykg01d/Q=
+dep	python3	python3
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libportaudio.so.2	portaudio

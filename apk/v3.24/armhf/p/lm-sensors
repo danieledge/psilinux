@@ -1,0 +1,16 @@
+name	lm-sensors
+version	3.6.0-r5
+description	Collection of user space tools for general SMBus access and hardware monitoring.
+url	https://github.com/lm-sensors/lm-sensors
+license	LGPL-2.1-or-later AND GPL-2.0-or-later
+size	12476
+installed-size	28469
+depends	sysfsutils /bin/sh so:libc.musl-armhf.so.1 so:libsensors.so.5
+origin	lm-sensors
+repo	main
+file	lm-sensors-3.6.0-r5.apk
+checksum	Q1I2LsF6ikUBC4oYQnBuJ1hy07i0Q=
+dep	sysfsutils	sysfsutils
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsensors.so.5	lm-sensors-libs

@@ -1,0 +1,16 @@
+name	dinit-shutdown
+version	0.21.0-r0
+description	dinit shutdown utils
+url	https://github.com/davmac314/dinit
+license	Apache-2.0
+size	19093
+installed-size	34264
+depends	dinit=0.21.0-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	dinit
+repo	community
+file	dinit-shutdown-0.21.0-r0.apk
+checksum	Q1nazVGi7AbUzvgbZBIkFDc7QiZm4=
+dep	dinit=0.21.0-r0	dinit
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

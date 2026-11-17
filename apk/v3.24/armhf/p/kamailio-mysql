@@ -1,0 +1,16 @@
+name	kamailio-mysql
+version	6.0.6-r0
+description	Database drivers for Mysql
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	91379
+installed-size	219617
+depends	kamailio kamailio-db so:libc.musl-armhf.so.1 so:libmariadb.so.3
+origin	kamailio
+repo	main
+file	kamailio-mysql-6.0.6-r0.apk
+checksum	Q16+uyL11WBjCFMVyouFgdT5W2UVs=
+dep	kamailio	kamailio
+dep	kamailio-db	kamailio-db
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmariadb.so.3	mariadb-connector-c

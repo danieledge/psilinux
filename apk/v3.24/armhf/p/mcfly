@@ -1,0 +1,15 @@
+name	mcfly
+version	0.9.4-r0
+description	Fly through your shell history
+url	https://github.com/cantino/mcfly
+license	MIT
+size	825371
+installed-size	1655464
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libsqlite3.so.0
+origin	mcfly
+repo	community
+file	mcfly-0.9.4-r0.apk
+checksum	Q1LrFyaqPzmge4aPWuH8u4rlXbO4E=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsqlite3.so.0	sqlite-libs

@@ -1,0 +1,17 @@
+name	gdal-driver-pcidsk
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (PCIDSK Database File driver)
+url	https://gdal.org/
+license	MIT
+size	197873
+installed-size	468404
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libjpeg.so.8 so:libstdc++.so.6
+origin	gdal
+repo	community
+file	gdal-driver-pcidsk-3.13.3-r0.apk
+checksum	Q1/6uuOS3k5wO8zEcYgz/Uf5SnSFU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libstdc++.so.6	libstdc++

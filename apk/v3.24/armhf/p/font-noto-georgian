@@ -1,0 +1,14 @@
+name	font-noto-georgian
+version	2026.11.01-r0
+description	Noto Sans Georgian and Serif Georgian fonts
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	2335202
+installed-size	4260911
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-georgian-2026.11.01-r0.apk
+checksum	Q1Z/rMyUmqz5Gh8pn1a2Nq1GUTdM4=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

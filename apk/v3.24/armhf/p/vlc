@@ -1,0 +1,118 @@
+name	vlc
+version	3.0.23-r4
+description	Multi-platform MPEG, VCD/DVD, and DivX player
+url	https://www.videolan.org/vlc/
+license	GPL-2.0-or-later
+size	5268211
+installed-size	11666956
+depends	so:libBasicUsageEnvironment.so.2 so:libEGL.so.1 so:libFLAC.so.12 so:libGL.so.1 so:libUsageEnvironment.so.3 so:libX11.so.6 so:libXext.so.6 so:libXinerama.so.1 so:libXpm.so.4 so:liba52.so.0 so:libabsl_log_internal_check_op.so.2508.0.0 so:libabsl_log_internal_message.so.2508.0.0 so:libarchive.so.13 so:libasound.so.2 so:libass.so.9 so:libavahi-client.so.3 so:libavahi-common.so.3 so:libavc1394.so.0 so:libavcodec.so.61 so:libavformat.so.61 so:libavutil.so.59 so:libbluray.so.3 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcddb.so.2 so:libdav1d.so.7 so:libdbus-1.so.3 so:libdc1394.so.26 so:libdvbpsi.so.10 so:libdvdnav.so.4 so:libdvdread.so.8 so:libebml.so.5 so:libfaad.so.2 so:libfluidsynth.so.3 so:libfontconfig.so.1 so:libfreetype.so.6 so:libfribidi.so.0 so:libgcc_s.so.1 so:libgcrypt.so.20 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgnutls.so.30 so:libgobject-2.0.so.0 so:libgpg-error.so.0 so:libgroupsock.so.30 so:libgstapp-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libgtk-3.so.0 so:libharfbuzz.so.0 so:libixml.so.11 so:libjack.so.0 so:libjpeg.so.8 so:libliveMedia.so.107 so:liblua-5.2.so.0 so:libmad.so.0 so:libmatroska.so.7 so:libmicrodns.so.1 so:libmpg123.so.0 so:libncursesw.so.6 so:libnotify.so.4 so:libogg.so.0 so:libopus.so.0 so:libplacebo.so.264 so:libpng16.so.16 so:libpostproc.so.58 so:libprotobuf-lite.so.31 so:libpulse.so.0 so:libraw1394.so.11 so:librom1394.so.0 so:librsvg-2.so.2 so:libsamplerate.so.0 so:libsecret-1.so.0 so:libshout.so.3 so:libsmbclient.so.0 so:libspeex.so.1 so:libspeexdsp.so.1 so:libsrt.so.1.5 so:libstdc++.so.6 so:libswscale.so.8 so:libtag.so.2 so:libtheoradec.so.2 so:libtheoraenc.so.2 so:libudev.so.1 so:libupnp.so.20 so:libutf8_range.so.31.1.0 so:libva-drm.so.2 so:libva-x11.so.2 so:libva.so.2 so:libvlc.so.5 so:libvlccore.so.9 so:libvorbis.so.0 so:libvorbisenc.so.2 so:libvpx.so.11 so:libx264.so.164 so:libx265.so.215 so:libxcb-composite.so.0 so:libxcb-keysyms.so.1 so:libxcb-randr.so.0 so:libxcb-shm.so.0 so:libxcb-xv.so.0 so:libxcb.so.1 so:libxml2.so.2 so:libz.so.1
+origin	vlc
+repo	community
+file	vlc-3.0.23-r4.apk
+checksum	Q1d6IP+8LHpSP8OnrXP7E5hXxAJ+4=
+dep	so:libBasicUsageEnvironment.so.2	live-media
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libFLAC.so.12	libflac
+dep	so:libGL.so.1	mesa-gl
+dep	so:libUsageEnvironment.so.3	live-media
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libXpm.so.4	libxpm
+dep	so:liba52.so.0	a52dec
+dep	so:libabsl_log_internal_check_op.so.2508.0.0	abseil-cpp-log-internal-check-op
+dep	so:libabsl_log_internal_message.so.2508.0.0	abseil-cpp-log-internal-message
+dep	so:libarchive.so.13	libarchive
+dep	so:libasound.so.2	alsa-lib
+dep	so:libass.so.9	libass
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libavc1394.so.0	libavc1394
+dep	so:libavcodec.so.61	ffmpeg7-libavcodec
+dep	so:libavformat.so.61	ffmpeg7-libavformat
+dep	so:libavutil.so.59	ffmpeg7-libavutil
+dep	so:libbluray.so.3	libbluray
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcddb.so.2	libcddb
+dep	so:libdav1d.so.7	libdav1d
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libdc1394.so.26	libdc1394
+dep	so:libdvbpsi.so.10	libdvbpsi
+dep	so:libdvdnav.so.4	libdvdnav
+dep	so:libdvdread.so.8	libdvdread
+dep	so:libebml.so.5	libebml
+dep	so:libfaad.so.2	faad2-libs
+dep	so:libfluidsynth.so.3	fluidsynth-libs
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libfribidi.so.0	fribidi
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgnutls.so.30	gnutls
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgpg-error.so.0	libgpg-error
+dep	so:libgroupsock.so.30	live-media
+dep	so:libgstapp-1.0.so.0	gst-plugins-base
+dep	so:libgstbase-1.0.so.0	gstreamer
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:libixml.so.11	libupnp
+dep	so:libjack.so.0	jack
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libliveMedia.so.107	live-media
+dep	so:liblua-5.2.so.0	lua5.2-libs
+dep	so:libmad.so.0	libmad
+dep	so:libmatroska.so.7	libmatroska
+dep	so:libmicrodns.so.1	libmicrodns
+dep	so:libmpg123.so.0	mpg123-libs
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libnotify.so.4	libnotify
+dep	so:libogg.so.0	libogg
+dep	so:libopus.so.0	opus
+dep	so:libplacebo.so.264	libplacebo5
+dep	so:libpng16.so.16	libpng
+dep	so:libpostproc.so.58	ffmpeg7-libpostproc
+dep	so:libprotobuf-lite.so.31	libprotobuf-lite
+dep	so:libpulse.so.0	libpulse
+dep	so:libraw1394.so.11	libraw1394
+dep	so:librom1394.so.0	libavc1394
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libsamplerate.so.0	libsamplerate
+dep	so:libsecret-1.so.0	libsecret
+dep	so:libshout.so.3	libshout
+dep	so:libsmbclient.so.0	libsmbclient
+dep	so:libspeex.so.1	speex
+dep	so:libspeexdsp.so.1	speexdsp
+dep	so:libsrt.so.1.5	libsrt
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libswscale.so.8	ffmpeg7-libswscale
+dep	so:libtag.so.2	libtag
+dep	so:libtheoradec.so.2	libtheora
+dep	so:libtheoraenc.so.2	libtheora
+dep	so:libudev.so.1	eudev-libs
+dep	so:libupnp.so.20	libupnp
+dep	so:libutf8_range.so.31.1.0	protobuf
+dep	so:libva-drm.so.2	libva
+dep	so:libva-x11.so.2	libva
+dep	so:libva.so.2	libva
+dep	so:libvlc.so.5	vlc-libs
+dep	so:libvlccore.so.9	vlc-libs
+dep	so:libvorbis.so.0	libvorbis
+dep	so:libvorbisenc.so.2	libvorbis
+dep	so:libvpx.so.11	libvpx
+dep	so:libx264.so.164	x264-libs
+dep	so:libx265.so.215	x265-libs
+dep	so:libxcb-composite.so.0	libxcb
+dep	so:libxcb-keysyms.so.1	xcb-util-keysyms
+dep	so:libxcb-randr.so.0	libxcb
+dep	so:libxcb-shm.so.0	libxcb
+dep	so:libxcb-xv.so.0	libxcb
+dep	so:libxcb.so.1	libxcb
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

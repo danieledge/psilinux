@@ -1,0 +1,13 @@
+name	py3-geographiclib
+version	2.1-r2
+description	Geodesic routines from GeographicLib
+url	https://geographiclib.sourceforge.io/Python/doc/
+license	MIT
+size	38118
+installed-size	151085
+depends	python3~3.14
+origin	py3-geographiclib
+repo	community
+file	py3-geographiclib-2.1-r2.apk
+checksum	Q1NjyRQkNCDOj1hFE5J3U92NwjSAU=
+dep	python3~3.14	python3

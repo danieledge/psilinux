@@ -1,0 +1,17 @@
+name	texlive-dev
+version	2026.0-r0
+description	Comprehensive TeX document production system (development files)
+url	https://tug.org/texlive/
+license	GPL-2.0-or-later AND GPL-3.0-or-later
+size	70423
+installed-size	260541
+depends	libsynctex=2026.0-r0 texlive-luatex=2026.0-r0 texlive=2026.0-r0 pc:zlib pkgconfig
+origin	texlive
+repo	community
+file	texlive-dev-2026.0-r0.apk
+checksum	Q1f44ODpiUkZ32UYpPcWb9CpWImp4=
+dep	libsynctex=2026.0-r0	libsynctex
+dep	texlive-luatex=2026.0-r0	texlive-luatex
+dep	texlive=2026.0-r0	texlive
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

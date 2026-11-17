@@ -1,0 +1,16 @@
+name	perl-net-ssleay
+version	1.94-r3
+description	Perl extension for using OpenSSL
+url	https://metacpan.org/release/Net-SSLeay
+license	Artistic-2.0
+size	249797
+installed-size	1047557
+depends	perl so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	perl-net-ssleay
+repo	main
+file	perl-net-ssleay-1.94-r3.apk
+checksum	Q1rbJlaYntNsO6A9eeDlkEUNJ1WM4=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,14 @@
+name	zlib-ng-dev
+version	2.3.3-r0
+description	zlib replacement with optimizations for next generation systems (development files)
+url	https://github.com/zlib-ng/zlib-ng
+license	Zlib
+size	116928
+installed-size	290938
+depends	zlib-ng=2.3.3-r0 pkgconfig
+origin	zlib-ng
+repo	main
+file	zlib-ng-dev-2.3.3-r0.apk
+checksum	Q1woyg+hrHpwSIVCzKO1LBW6Y63e4=
+dep	zlib-ng=2.3.3-r0	zlib-ng
+dep	pkgconfig	pkgconf

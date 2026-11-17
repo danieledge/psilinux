@@ -1,0 +1,16 @@
+name	xbacklight
+version	1.2.4-r0
+description	Adjusts backlight level using the RandR 1.2 output property
+url	https://xorg.freedesktop.org/
+license	MIT
+size	6192
+installed-size	13484
+depends	so:libc.musl-armhf.so.1 so:libxcb-randr.so.0 so:libxcb-util.so.1 so:libxcb.so.1
+origin	xbacklight
+repo	community
+file	xbacklight-1.2.4-r0.apk
+checksum	Q1qbxvG4rmtBL0Vt5i7yB0KU3QqJw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxcb-randr.so.0	libxcb
+dep	so:libxcb-util.so.1	xcb-util
+dep	so:libxcb.so.1	libxcb

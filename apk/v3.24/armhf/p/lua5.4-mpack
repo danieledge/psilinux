@@ -1,0 +1,14 @@
+name	lua5.4-mpack
+version	1.0.13-r0
+description	Libmpack bindings for Lua 5.4
+url	https://github.com/libmpack/libmpack-lua
+license	MIT
+size	10483
+installed-size	21695
+depends	so:libc.musl-armhf.so.1 so:libmpack.so.0
+origin	lua-mpack
+repo	community
+file	lua5.4-mpack-1.0.13-r0.apk
+checksum	Q1hvhIjfir3k5n/uXW01C0mWUV+Qo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmpack.so.0	libmpack

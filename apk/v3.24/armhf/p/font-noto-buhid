@@ -1,0 +1,14 @@
+name	font-noto-buhid
+version	2026.11.01-r0
+description	Noto Sans Buhid font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	5035
+installed-size	5544
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-buhid-2026.11.01-r0.apk
+checksum	Q1IDQA9+cYCQ6iBkt1vWx7HHoqyjo=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

@@ -1,0 +1,14 @@
+name	vdesk
+version	1.2-r1
+description	vdesk is a virtual desktop manager
+url	https://offog.org/code/vdesk/
+license	MIT
+size	5027
+installed-size	9392
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1
+origin	vdesk
+repo	community
+file	vdesk-1.2-r1.apk
+checksum	Q1s0NZV0rpjloSckZa2f7adQMNLs4=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl

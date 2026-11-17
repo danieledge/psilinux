@@ -1,0 +1,12 @@
+name	eg25-manager-systemd
+version	0.5.2-r2
+description	Daemon for managing the Quectel EG25 modem (systemd files)
+url	https://gitlab.com/mobian1/devices/eg25-manager
+license	GPL-3.0-or-later
+size	1896
+installed-size	392
+depends	
+origin	eg25-manager
+repo	community
+file	eg25-manager-systemd-0.5.2-r2.apk
+checksum	Q1qmcY2nDUqDLC4YvY6kns+RPUgEc=

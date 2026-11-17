@@ -1,0 +1,16 @@
+name	xcursorgen
+version	1.0.9-r0
+description	Create and X cursor file from PNG images
+url	https://xorg.freedesktop.org/archive/individual/app/
+license	Custom
+size	6612
+installed-size	13592
+depends	so:libX11.so.6 so:libXcursor.so.1 so:libc.musl-armhf.so.1 so:libpng16.so.16
+origin	xcursorgen
+repo	community
+file	xcursorgen-1.0.9-r0.apk
+checksum	Q1X9plr3oJEj7Pg5CRzx/0Xr7I7Bk=
+dep	so:libX11.so.6	libx11
+dep	so:libXcursor.so.1	libxcursor
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpng16.so.16	libpng

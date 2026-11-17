@@ -1,0 +1,14 @@
+name	czkawka
+version	10.0.0-r0
+description	Multi functional app to find duplicates, empty folders, similar images etc. (CLI)
+url	https://github.com/qarmin/czkawka
+license	MIT
+size	5377857
+installed-size	12340652
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	czkawka
+repo	community
+file	czkawka-10.0.0-r0.apk
+checksum	Q1zTlmERxY3H05aqhyg5oO+DSEYps=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

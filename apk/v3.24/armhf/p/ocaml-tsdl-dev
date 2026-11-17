@@ -1,0 +1,16 @@
+name	ocaml-tsdl-dev
+version	1.0.0-r3
+description	Thin bindings to SDL (development files)
+url	https://erratique.ch/software/tsdl
+license	ISC
+size	589420
+installed-size	1725240
+depends	ocaml-tsdl=1.0.0-r3 ocaml-ctypes-dev ocaml-stdlib-shims sdl2-dev
+origin	ocaml-tsdl
+repo	community
+file	ocaml-tsdl-dev-1.0.0-r3.apk
+checksum	Q1eEXgvEx8nxNXsdCWOMid4pTSYc4=
+dep	ocaml-tsdl=1.0.0-r3	ocaml-tsdl
+dep	ocaml-ctypes-dev	ocaml-ctypes-dev
+dep	ocaml-stdlib-shims	ocaml-stdlib-shims
+dep	sdl2-dev	sdl2-dev

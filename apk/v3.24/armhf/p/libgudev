@@ -1,0 +1,16 @@
+name	libgudev
+version	238-r1
+description	GObject-based wrapper library for libudev
+url	https://gitlab.gnome.org/GNOME/libgudev
+license	LGPL-2.1-or-later
+size	14801
+installed-size	42544
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libudev.so.1
+origin	libgudev
+repo	community
+file	libgudev-238-r1.apk
+checksum	Q1oPfsbcNDv/59Jn+GPcQo7FP0eDM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libudev.so.1	eudev-libs

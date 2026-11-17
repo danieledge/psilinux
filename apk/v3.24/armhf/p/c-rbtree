@@ -1,0 +1,13 @@
+name	c-rbtree
+version	3.2.0-r0
+description	Intrusive Red-Black Tree Collection
+url	https://github.com/c-util/c-rbtree
+license	Apache-2.0 OR LGPL-2.1-or-later
+size	5515
+installed-size	9444
+depends	so:libc.musl-armhf.so.1
+origin	c-rbtree
+repo	community
+file	c-rbtree-3.2.0-r0.apk
+checksum	Q1Dn84isfQ+7mnkkWqU7dqhN3vcB4=
+dep	so:libc.musl-armhf.so.1	musl

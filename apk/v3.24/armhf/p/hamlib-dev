@@ -1,0 +1,16 @@
+name	hamlib-dev
+version	4.7.1-r0
+description	Library to control radio transceivers and receivers (development files)
+url	https://hamlib.github.io/
+license	LGPL-2.0-or-later
+size	321724
+installed-size	1575976
+depends	hamlib=4.7.1-r0 python3~3.14 pc:libusb-1.0 pkgconfig
+origin	hamlib
+repo	community
+file	hamlib-dev-4.7.1-r0.apk
+checksum	Q1upX33hLVnQ9q7YoTyXVLpz49u5Y=
+dep	hamlib=4.7.1-r0	hamlib
+dep	python3~3.14	python3
+dep	pc:libusb-1.0	libusb-dev
+dep	pkgconfig	pkgconf

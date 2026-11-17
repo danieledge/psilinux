@@ -1,0 +1,16 @@
+name	perl-sub-exporter
+version	0.991-r0
+description	a sophisticated exporter for custom-built routines
+url	https://metacpan.org/release/Sub-Exporter/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	30443
+installed-size	114450
+depends	perl perl-data-optlist perl-sub-install perl-params-util
+origin	perl-sub-exporter
+repo	main
+file	perl-sub-exporter-0.991-r0.apk
+checksum	Q1iJ2wqgvgi4HLmhq6vRTLQV9x7/k=
+dep	perl	perl
+dep	perl-data-optlist	perl-data-optlist
+dep	perl-sub-install	perl-sub-install
+dep	perl-params-util	perl-params-util

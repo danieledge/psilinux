@@ -1,0 +1,21 @@
+name	glib-networking
+version	2.80.1-r2
+description	Networking support for GLib
+url	https://gitlab.gnome.org/GNOME/glib-networking
+license	LGPL-2.0-or-later
+size	53944
+installed-size	136435
+depends	ca-certificates gsettings-desktop-schemas so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgnutls.so.30 so:libgobject-2.0.so.0 so:libintl.so.8 so:libproxy.so.1
+origin	glib-networking
+repo	community
+file	glib-networking-2.80.1-r2.apk
+checksum	Q15pgqpZKCpANXf9Lp7V49nR+g2PQ=
+dep	ca-certificates	ca-certificates
+dep	gsettings-desktop-schemas	gsettings-desktop-schemas
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgnutls.so.30	gnutls
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libproxy.so.1	libproxy

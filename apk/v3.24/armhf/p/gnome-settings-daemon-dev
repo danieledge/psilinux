@@ -1,0 +1,29 @@
+name	gnome-settings-daemon-dev
+version	50.1-r0
+description	GNOME settings daemon (development files)
+url	https://gitlab.gnome.org/GNOME/gnome-settings-daemon
+license	GPL-2.0-only AND LGPL-2.1-only
+size	3150
+installed-size	3131
+depends	alsa-lib-dev colord-dev cups-dev elogind-dev geoclue-dev geocode-glib-dev>=3.26.4-r1 libcanberra-dev libgweather4-dev libnotify-dev libwacom-dev modemmanager-dev networkmanager-dev pango-dev polkit-dev pulseaudio-dev upower-dev pkgconfig
+origin	gnome-settings-daemon
+repo	community
+file	gnome-settings-daemon-dev-50.1-r0.apk
+checksum	Q1tNOuRsNsaPhx4W6RPY71Bst57Uo=
+dep	alsa-lib-dev	alsa-lib-dev
+dep	colord-dev	colord-dev
+dep	cups-dev	cups-dev
+dep	elogind-dev	elogind-dev
+dep	geoclue-dev	geoclue-dev
+dep	geocode-glib-dev>=3.26.4-r1	geocode-glib-dev
+dep	libcanberra-dev	libcanberra-dev
+dep	libgweather4-dev	libgweather4-dev
+dep	libnotify-dev	libnotify-dev
+dep	libwacom-dev	libwacom-dev
+dep	modemmanager-dev	modemmanager-dev
+dep	networkmanager-dev	networkmanager-dev
+dep	pango-dev	pango-dev
+dep	polkit-dev	polkit-dev
+dep	pulseaudio-dev	pulseaudio-dev
+dep	upower-dev	upower-dev
+dep	pkgconfig	pkgconf

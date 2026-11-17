@@ -1,0 +1,14 @@
+name	perl-test-mocktime-hires
+version	0.08-r4
+description	Replaces actual time with simulated high resolution time
+url	https://metacpan.org/release/Test-MockTime-HiRes/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	3320
+installed-size	3988
+depends	perl perl-test-mocktime
+origin	perl-test-mocktime-hires
+repo	community
+file	perl-test-mocktime-hires-0.08-r4.apk
+checksum	Q11vhZf+83QzITEEKhLuJw4CBFNV8=
+dep	perl	perl
+dep	perl-test-mocktime	perl-test-mocktime

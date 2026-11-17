@@ -1,0 +1,20 @@
+name	waylandpp
+version	1.0.0-r2
+description	Wayland C++ bindings
+url	https://github.com/NilsBrause/waylandpp
+license	MIT AND GPL-3.0-or-later
+size	602750
+installed-size	2554288
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpugixml.so.1 so:libstdc++.so.6 so:libwayland-client.so.0 so:libwayland-cursor.so.0 so:libwayland-egl.so.1 so:libwayland-server.so.0
+origin	waylandpp
+repo	community
+file	waylandpp-1.0.0-r2.apk
+checksum	Q1qK+kMLm+dN+axDhsVjikOepEFu4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpugixml.so.1	pugixml
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor
+dep	so:libwayland-egl.so.1	wayland-libs-egl
+dep	so:libwayland-server.so.0	wayland-libs-server

@@ -1,0 +1,15 @@
+name	lua5.2-yaml
+version	1.1.2-r9
+description	LibYaml binding for Lua 5.2
+url	https://lubyk.github.io/lubyk/yaml.html
+license	MIT
+size	46824
+installed-size	112526
+depends	lua5.2 lua5.2-lub so:libc.musl-armhf.so.1
+origin	lua-yaml
+repo	main
+file	lua5.2-yaml-1.1.2-r9.apk
+checksum	Q1YlYCUNqZKoXiyyHbbet9PALQyag=
+dep	lua5.2	lua5.2
+dep	lua5.2-lub	lua-lub
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	ruby-repl_type_completor-doc
+version	0.1.9-r0
+description	Type based completion for REPL (ri docs)
+url	https://github.com/ruby/repl_type_completor
+license	BSD-2-Clause AND Ruby
+size	1576
+installed-size	1
+depends	ruby ruby-rbs
+origin	ruby-repl_type_completor
+repo	main
+file	ruby-repl_type_completor-doc-0.1.9-r0.apk
+checksum	Q1c1lUnVhUpYo7fL3slaYKbYsb2N4=
+dep	ruby	ruby
+dep	ruby-rbs	ruby-rbs

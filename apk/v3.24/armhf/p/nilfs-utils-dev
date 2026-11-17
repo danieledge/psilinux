@@ -1,0 +1,14 @@
+name	nilfs-utils-dev
+version	2.3.0-r0
+description	Utilities for managing NILFS v2 filesystems (development files)
+url	https://nilfs.sourceforge.net/
+license	GPL-2.0-or-later
+size	5598
+installed-size	11894
+depends	nilfs-utils-libs=2.3.0-r0 pkgconfig
+origin	nilfs-utils
+repo	community
+file	nilfs-utils-dev-2.3.0-r0.apk
+checksum	Q1V08DLpvmvwdeYvxzVbbIHexpgw8=
+dep	nilfs-utils-libs=2.3.0-r0	nilfs-utils-libs
+dep	pkgconfig	pkgconf

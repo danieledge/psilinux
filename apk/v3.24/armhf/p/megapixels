@@ -1,0 +1,31 @@
+name	megapixels
+version	2.1.0-r0
+description	GTK+4 camera app for mobile devices
+url	https://gitlab.com/megapixels-org/Megapixels
+license	GPL-3.0-only
+size	1750846
+installed-size	2362767
+depends	libraw-tools imagemagick exiftool so:libX11.so.6 so:libXrandr.so.2 so:libc.musl-armhf.so.1 so:libdng.so.1 so:libepoxy.so.0 so:libfeedback-0.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libjpeg.so.8 so:libmegapixels.so.1 so:libpulse-simple.so.0 so:libpulse.so.0 so:libwayland-client.so.0 so:libzbar.so.0
+origin	megapixels
+repo	community
+file	megapixels-2.1.0-r0.apk
+checksum	Q1lmMl4JY1vEsH9TTpaimh+6yMvcc=
+dep	libraw-tools	libraw-tools
+dep	imagemagick	imagemagick
+dep	exiftool	exiftool
+dep	so:libX11.so.6	libx11
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdng.so.1	libdng
+dep	so:libepoxy.so.0	libepoxy
+dep	so:libfeedback-0.0.so.0	feedbackd
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libmegapixels.so.1	libmegapixels
+dep	so:libpulse-simple.so.0	libpulse
+dep	so:libpulse.so.0	libpulse
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libzbar.so.0	libzbar

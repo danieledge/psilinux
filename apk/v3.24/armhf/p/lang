@@ -1,0 +1,13 @@
+name	lang
+version	0.1-r2
+description	Meta package for translations
+url	https://alpinelinux.org
+license	GPL-2.0-only
+size	1250
+installed-size	0
+depends	musl-locales
+origin	lang
+repo	main
+file	lang-0.1-r2.apk
+checksum	Q197CLgDnF7CXqcfZDU7TrZo+ehs8=
+dep	musl-locales	musl-locales

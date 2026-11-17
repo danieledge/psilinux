@@ -1,0 +1,23 @@
+name	depthcharge-tools
+version	0.6.4-r0
+description	Tools to manage the Chrome OS bootloader
+url	https://gitlab.postmarketos.org/postmarketOS/depthcharge-tools
+license	GPL-2.0-or-later
+size	76727
+installed-size	342796
+depends	cgpt dtc gzip lz4 py3-packaging py3-importlib-metadata py3-importlib-resources u-boot-tools vboot-utils xz python3~3.14
+origin	depthcharge-tools
+repo	community
+file	depthcharge-tools-0.6.4-r0.apk
+checksum	Q1BQjAuDkAjuRdy1wuo2qOxj6FesM=
+dep	cgpt	cgpt
+dep	dtc	dtc
+dep	gzip	gzip
+dep	lz4	lz4
+dep	py3-packaging	py3-packaging
+dep	py3-importlib-metadata	py3-importlib-metadata
+dep	py3-importlib-resources	py3-importlib-resources
+dep	u-boot-tools	u-boot-tools
+dep	vboot-utils	vboot-utils
+dep	xz	xz
+dep	python3~3.14	python3

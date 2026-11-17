@@ -1,0 +1,13 @@
+name	libselinux-static
+version	3.10-r1
+description	SELinux library and simple utilities (static library)
+url	https://github.com/SELinuxProject/selinux/wiki
+license	Public-Domain
+size	106611
+installed-size	303508
+depends	libselinux-dev
+origin	libselinux
+repo	community
+file	libselinux-static-3.10-r1.apk
+checksum	Q1D4rQiPNoTOenQRReUpNXYcBCogw=
+dep	libselinux-dev	libselinux-dev

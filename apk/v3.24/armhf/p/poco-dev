@@ -1,0 +1,22 @@
+name	poco-dev
+version	1.15.1-r0
+description	C++ class libraries for building network- and internet-based applications (development files)
+url	https://pocoproject.org/
+license	BSL-1.0
+size	860923
+installed-size	4665625
+depends	expat-dev libpng-dev libpq-dev mariadb-connector-c-dev openssl-dev pcre2-dev sqlite-dev unixodbc-dev zlib-dev poco=1.15.1-r0
+origin	poco
+repo	community
+file	poco-dev-1.15.1-r0.apk
+checksum	Q1GFjnEqv9Dfo0QqqUSM7Z1aZrx4E=
+dep	expat-dev	expat-dev
+dep	libpng-dev	libpng-dev
+dep	libpq-dev	libpq-dev
+dep	mariadb-connector-c-dev	mariadb-connector-c-dev
+dep	openssl-dev	openssl-dev
+dep	pcre2-dev	pcre2-dev
+dep	sqlite-dev	sqlite-dev
+dep	unixodbc-dev	unixodbc-dev
+dep	zlib-dev	zlib-dev
+dep	poco=1.15.1-r0	poco

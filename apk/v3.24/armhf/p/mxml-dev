@@ -1,0 +1,14 @@
+name	mxml-dev
+version	3.3.1-r0
+description	Small XML library that you can use to read and write XML files (development files)
+url	https://www.msweet.org/mxml/
+license	Apache-2.0
+size	4300
+installed-size	10651
+depends	mxml=3.3.1-r0 pkgconfig
+origin	mxml
+repo	community
+file	mxml-dev-3.3.1-r0.apk
+checksum	Q1/2oo1voWjA6YEEXBjvboD5papDk=
+dep	mxml=3.3.1-r0	mxml
+dep	pkgconfig	pkgconf

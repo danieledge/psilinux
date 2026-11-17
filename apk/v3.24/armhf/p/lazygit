@@ -1,0 +1,14 @@
+name	lazygit
+version	0.48.0-r14
+description	Simple terminal UI for git commands
+url	https://github.com/jesseduffield/lazygit
+license	MIT
+size	7313110
+installed-size	20547092
+depends	git so:libc.musl-armhf.so.1
+origin	lazygit
+repo	community
+file	lazygit-0.48.0-r14.apk
+checksum	Q1850a63Z8SNMYByZJ/Sq2V8utfXE=
+dep	git	git
+dep	so:libc.musl-armhf.so.1	musl

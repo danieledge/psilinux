@@ -1,0 +1,13 @@
+name	libuuid
+version	2.42.3-r1
+description	DCE compatible Universally Unique Identifier library
+url	https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+license	BSD-3-Clause
+size	15101
+installed-size	25976
+depends	so:libc.musl-armhf.so.1
+origin	util-linux
+repo	main
+file	libuuid-2.42.3-r1.apk
+checksum	Q19teSwqJ5Fq0e8q+mU5XIm3puBn8=
+dep	so:libc.musl-armhf.so.1	musl

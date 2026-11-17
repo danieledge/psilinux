@@ -1,0 +1,13 @@
+name	py3-minijinja-pyc
+version	2.21.0-r0
+description	Precompiled Python bytecode for py3-minijinja
+url	https://docs.rs/minijinja/latest/minijinja/
+license	Apache-2.0
+size	6641
+installed-size	10382
+depends	python3~3.14
+origin	minijinja-cli
+repo	community
+file	py3-minijinja-pyc-2.21.0-r0.apk
+checksum	Q1yLTE2h+KBn3dmOLx5Lx6k60nvUk=
+dep	python3~3.14	python3

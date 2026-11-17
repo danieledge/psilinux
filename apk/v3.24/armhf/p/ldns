@@ -1,0 +1,14 @@
+name	ldns
+version	1.8.4-r1
+description	Lowlevel DNS(SEC) library
+url	https://nlnetlabs.nl/projects/ldns/
+license	BSD-3-Clause
+size	138987
+installed-size	309708
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	ldns
+repo	main
+file	ldns-1.8.4-r1.apk
+checksum	Q1UzOkgVUO04c6luDpm4ZJe4UBi7o=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

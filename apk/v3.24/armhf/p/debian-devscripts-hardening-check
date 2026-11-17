@@ -1,0 +1,13 @@
+name	debian-devscripts-hardening-check
+version	2.26.5-r1
+description	Debian developer scripts (hardening-check)
+url	https://tracker.debian.org/pkg/devscripts
+license	GPL-2.0-or-later
+size	7894
+installed-size	20555
+depends	perl
+origin	debian-devscripts
+repo	main
+file	debian-devscripts-hardening-check-2.26.5-r1.apk
+checksum	Q15cRsmIF6LeW0B5Mz6khjVpV6oj8=
+dep	perl	perl

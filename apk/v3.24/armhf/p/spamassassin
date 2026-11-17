@@ -1,0 +1,14 @@
+name	spamassassin
+version	4.0.2-r1
+description	The Powerful #1 Open-Source Spam Filter
+url	https://metacpan.org/pod/Mail::SpamAssassin
+license	Apache-2.0
+size	96859
+installed-size	312407
+depends	perl-mail-spamassassin curl
+origin	spamassassin
+repo	main
+file	spamassassin-4.0.2-r1.apk
+checksum	Q14tkonBvm2095oh1M3ZlteLnoVk0=
+dep	perl-mail-spamassassin	perl-mail-spamassassin
+dep	curl	curl

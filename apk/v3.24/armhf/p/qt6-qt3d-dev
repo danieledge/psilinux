@@ -1,0 +1,20 @@
+name	qt6-qt3d-dev
+version	6.11.1-r0
+description	C++ and QML APIs for easy inclusion of 3D graphics (development files)
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	377413
+installed-size	2123157
+depends	qt6-qtshadertools-dev qt6-qt3d=6.11.1-r0 pc:Qt6Concurrent pc:Qt6Core pc:Qt6Gui pc:Qt6Network pc:Qt6OpenGL pkgconfig
+origin	qt6-qt3d
+repo	community
+file	qt6-qt3d-dev-6.11.1-r0.apk
+checksum	Q1TSd3EZfiWwy54IaWRLKpxi2E5OY=
+dep	qt6-qtshadertools-dev	qt6-qtshadertools-dev
+dep	qt6-qt3d=6.11.1-r0	qt6-qt3d
+dep	pc:Qt6Concurrent	qt6-qtbase-dev
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pc:Qt6Gui	qt6-qtbase-dev
+dep	pc:Qt6Network	qt6-qtbase-dev
+dep	pc:Qt6OpenGL	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

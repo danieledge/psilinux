@@ -1,0 +1,17 @@
+name	libcsys-dev
+version	5.0.0-r0
+description	Library for managing drive and getting system resource information in real time (development files)
+url	https://gitlab.com/cubocore
+license	GPL-3.0-or-later
+size	6942
+installed-size	22829
+depends	libcsys=5.0.0-r0 pc:Qt6Core pc:Qt6DBus pc:Qt6Network pkgconfig
+origin	libcsys
+repo	community
+file	libcsys-dev-5.0.0-r0.apk
+checksum	Q1mshm8zkA5mwBgGRlgpLrlUKzEk4=
+dep	libcsys=5.0.0-r0	libcsys
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pc:Qt6DBus	qt6-qtbase-dev
+dep	pc:Qt6Network	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

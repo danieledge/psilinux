@@ -1,0 +1,14 @@
+name	ffmpegthumbnailer-dev
+version	2.2.4-r0
+description	Lightweight video thumbnailer that can be used by file managers (development files)
+url	https://github.com/dirkvdb/ffmpegthumbnailer
+license	GPL-2.0-or-later
+size	5146
+installed-size	14252
+depends	ffmpegthumbnailer=2.2.4-r0 pkgconfig
+origin	ffmpegthumbnailer
+repo	community
+file	ffmpegthumbnailer-dev-2.2.4-r0.apk
+checksum	Q18bT6jF9uBImSn5inmobo4vaOv+w=
+dep	ffmpegthumbnailer=2.2.4-r0	ffmpegthumbnailer
+dep	pkgconfig	pkgconf

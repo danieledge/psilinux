@@ -1,0 +1,17 @@
+name	openssh-client-common
+version	10.3_p1-r2
+description	OpenBSD's SSH client common files
+url	https://www.openssh.com/portable.html
+license	SSH-OpenSSH
+size	716980
+installed-size	2266607
+depends	libcrypto3>=3.1.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libedit.so.0 so:libz.so.1
+origin	openssh
+repo	main
+file	openssh-client-common-10.3_p1-r2.apk
+checksum	Q1eAbR3I1BUGYqZZCx7h6x0sqA3rk=
+dep	libcrypto3>=3.1.0	libcrypto3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libedit.so.0	libedit
+dep	so:libz.so.1	zlib

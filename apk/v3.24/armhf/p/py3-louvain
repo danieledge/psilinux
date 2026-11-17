@@ -1,0 +1,16 @@
+name	py3-louvain
+version	0.16-r5
+description	Louvain community detection method
+url	https://github.com/taynaud/python-louvain
+license	BSD-3-Clause
+size	10030
+installed-size	26121
+depends	python3 py3-networkx py3-numpy python3~3.14
+origin	py3-louvain
+repo	community
+file	py3-louvain-0.16-r5.apk
+checksum	Q1OIBJQrWR8mdnaA70IbZSfTgz7vk=
+dep	python3	python3
+dep	py3-networkx	py3-networkx
+dep	py3-numpy	py3-numpy
+dep	python3~3.14	python3

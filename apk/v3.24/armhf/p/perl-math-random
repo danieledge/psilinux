@@ -1,0 +1,14 @@
+name	perl-math-random
+version	0.75-r1
+description	Collection of random number generators
+url	https://metacpan.org/release/Math-Random/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	35545
+installed-size	83526
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-math-random
+repo	community
+file	perl-math-random-0.75-r1.apk
+checksum	Q1zjizrD5COYqYb4ARmp6/0JWisRs=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

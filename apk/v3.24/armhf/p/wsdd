@@ -1,0 +1,14 @@
+name	wsdd
+version	0.9-r0
+description	Web Service Discovery host daemon
+url	https://github.com/christgau/wsdd
+license	MIT
+size	21464
+installed-size	79173
+depends	python3 /bin/sh
+origin	wsdd
+repo	community
+file	wsdd-0.9-r0.apk
+checksum	Q1lBiAPvyQWQaUnL3B51ZmJZf1zAo=
+dep	python3	python3
+dep	/bin/sh	busybox-binsh

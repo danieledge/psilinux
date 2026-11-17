@@ -1,0 +1,13 @@
+name	wlroots0.20-static
+version	0.20.2-r0
+description	Modular Wayland compositor library (static library)
+url	https://gitlab.freedesktop.org/wlroots/wlroots
+license	MIT
+size	9869070
+installed-size	14071960
+depends	wlroots0.20-dev
+origin	wlroots0.20
+repo	community
+file	wlroots0.20-static-0.20.2-r0.apk
+checksum	Q1oIOX4fAo6lTbNg2DohY9WX0W3rc=
+dep	wlroots0.20-dev	wlroots0.20-dev

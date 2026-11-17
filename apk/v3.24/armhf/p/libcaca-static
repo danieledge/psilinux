@@ -1,0 +1,13 @@
+name	libcaca-static
+version	0.99_beta20-r5
+description	graphics library that outputs text instead of pixels (static library)
+url	http://caca.zoy.org/wiki/libcaca
+license	WTFPL
+size	460207
+installed-size	1393330
+depends	libcaca-dev
+origin	libcaca
+repo	community
+file	libcaca-static-0.99_beta20-r5.apk
+checksum	Q1lTJa6nxM9uv4AYhuAhn2iXIyEhI=
+dep	libcaca-dev	libcaca-dev

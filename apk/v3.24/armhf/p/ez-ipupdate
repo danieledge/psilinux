@@ -1,0 +1,14 @@
+name	ez-ipupdate
+version	3.0.10-r13
+description	utility for updating your host name for many of the dynamic DNS services (ez-ip.net, dyndns.org, etc)
+url	http://ez-ipupdate.com/
+license	GPL-2.0-or-later
+size	31273
+installed-size	64612
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	ez-ipupdate
+repo	main
+file	ez-ipupdate-3.0.10-r13.apk
+checksum	Q1J9S4mPK73DkcUW640enSp39x4Bs=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

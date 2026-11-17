@@ -1,0 +1,21 @@
+name	py3-rpy2
+version	3.6.7-r0
+description	A very simple, yet robust, Python interface to the R Programming Language
+url	https://pypi.python.org/project/rpy2
+license	GPL-2.0-only
+size	192544
+installed-size	726862
+depends	py3-cffi py3-numpy py3-tz py3-tzlocal py3-jinja2 R python3~3.14 so:libR.so so:libc.musl-armhf.so.1
+origin	py3-rpy2
+repo	community
+file	py3-rpy2-3.6.7-r0.apk
+checksum	Q13pI9Dltw5Vky2RBn562ZP9vGpIg=
+dep	py3-cffi	py3-cffi
+dep	py3-numpy	py3-numpy
+dep	py3-tz	py3-tz
+dep	py3-tzlocal	py3-tzlocal
+dep	py3-jinja2	py3-jinja2
+dep	R	R
+dep	python3~3.14	python3
+dep	so:libR.so	R
+dep	so:libc.musl-armhf.so.1	musl

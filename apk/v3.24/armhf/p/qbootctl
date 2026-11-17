@@ -1,0 +1,13 @@
+name	qbootctl
+version	0.2.2-r1
+description	Tool for interacting with Android A/B slots
+url	https://github.com/linux-msm/qbootctl
+license	GPL-3.0-or-later
+size	14879
+installed-size	30000
+depends	so:libc.musl-armhf.so.1
+origin	qbootctl
+repo	community
+file	qbootctl-0.2.2-r1.apk
+checksum	Q1rIoS2Lx3WAIFmnklUL1cxACTnmU=
+dep	so:libc.musl-armhf.so.1	musl

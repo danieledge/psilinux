@@ -1,0 +1,25 @@
+name	pmacct
+version	1.7.9-r0
+description	Measure, account, classify, aggregate and export IPv4 and IPv6 traffic
+url	http://www.pmacct.net/
+license	GPL-2.0-or-later
+size	3085783
+installed-size	9232194
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libhiredis.so.1.3.0 so:libjansson.so.4 so:libmariadb.so.3 so:libmaxminddb.so.0 so:libnetfilter_log.so.1 so:libpcap.so.1 so:libpq.so.5 so:librabbitmq.so.4 so:librdkafka.so.1 so:libsqlite3.so.0 so:libstdc++.so.6
+origin	pmacct
+repo	community
+file	pmacct-1.7.9-r0.apk
+checksum	Q1pZuS9VUIlQZmSbIPlwTWRLULEuc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libhiredis.so.1.3.0	hiredis
+dep	so:libjansson.so.4	jansson
+dep	so:libmariadb.so.3	mariadb-connector-c
+dep	so:libmaxminddb.so.0	libmaxminddb-libs
+dep	so:libnetfilter_log.so.1	libnetfilter_log
+dep	so:libpcap.so.1	libpcap
+dep	so:libpq.so.5	libpq
+dep	so:librabbitmq.so.4	rabbitmq-c
+dep	so:librdkafka.so.1	librdkafka
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++

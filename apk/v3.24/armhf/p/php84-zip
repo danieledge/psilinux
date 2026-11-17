@@ -1,0 +1,15 @@
+name	php84-zip
+version	8.4.27-r0
+description	PHP84 extension: Zip
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	29945
+installed-size	79182
+depends	php84-common so:libc.musl-armhf.so.1 so:libzip.so.5
+origin	php84
+repo	community
+file	php84-zip-8.4.27-r0.apk
+checksum	Q1qxCbWo4EyyvTVnDBAc5RfKJZ6PI=
+dep	php84-common	php84-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libzip.so.5	libzip

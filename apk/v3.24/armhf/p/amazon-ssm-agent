@@ -1,0 +1,13 @@
+name	amazon-ssm-agent
+version	3.3.4624.0-r2
+description	Amazon SSM Agent for managing EC2 Instances using the SSM APIs.
+url	https://aws.amazon.com/documentation/systems-manager/
+license	Apache-2.0
+size	37708520
+installed-size	127651465
+depends	so:libc.musl-armhf.so.1
+origin	amazon-ssm-agent
+repo	community
+file	amazon-ssm-agent-3.3.4624.0-r2.apk
+checksum	Q1rDeAS6JE2EOF6JSkkuG3i0IMKo0=
+dep	so:libc.musl-armhf.so.1	musl

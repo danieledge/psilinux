@@ -1,0 +1,20 @@
+name	openrc-settingsd
+version	1.5.0-r2
+description	System settings D-Bus service for OpenRC
+url	https://gitlab.postmarketos.org/postmarketOS/openrc-settingsd
+license	GPL-2.0-or-later
+size	48545
+installed-size	139860
+depends	tzdata /bin/sh so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libpolkit-gobject-1.so.0 so:librc.so.1
+origin	openrc-settingsd
+repo	community
+file	openrc-settingsd-1.5.0-r2.apk
+checksum	Q1SPmXJ6/briHU3LpF5VEcE3s4vXw=
+dep	tzdata	tzdata
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpolkit-gobject-1.so.0	polkit-noelogind-libs
+dep	so:librc.so.1	openrc

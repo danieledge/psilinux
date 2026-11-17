@@ -1,0 +1,14 @@
+name	octave-dev
+version	11.1.0-r0
+description	High-level language for numerical computations (development files)
+url	https://octave.org/
+license	GPL-3.0-or-later
+size	579258
+installed-size	4341946
+depends	octave=11.1.0-r0 pkgconfig
+origin	octave
+repo	community
+file	octave-dev-11.1.0-r0.apk
+checksum	Q1MbcG9yiPmQXxJAVHBiTNs3MIfg8=
+dep	octave=11.1.0-r0	octave
+dep	pkgconfig	pkgconf

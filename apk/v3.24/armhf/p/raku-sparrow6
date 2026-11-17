@@ -1,0 +1,20 @@
+name	raku-sparrow6
+version	0.0.93-r1
+description	Raku-based automation framework
+url	https://github.com/melezhik/Sparrow6
+license	Artistic-2.0
+size	1476478
+installed-size	4169834
+depends	bash rakudo raku-data-dump raku-file-directory-tree raku-hash-merge raku-json-fast raku-terminal-ansicolor raku-yamlish
+origin	raku-sparrow6
+repo	community
+file	raku-sparrow6-0.0.93-r1.apk
+checksum	Q1W3X96fMmWKLneBwPmF1whOFMHA4=
+dep	bash	bash
+dep	rakudo	rakudo
+dep	raku-data-dump	raku-data-dump
+dep	raku-file-directory-tree	raku-file-directory-tree
+dep	raku-hash-merge	raku-hash-merge
+dep	raku-json-fast	raku-json-fast
+dep	raku-terminal-ansicolor	raku-terminal-ansicolor
+dep	raku-yamlish	raku-yamlish

@@ -1,0 +1,13 @@
+name	btrfs-progs-libs
+version	6.17.1-r1
+description	BTRFS filesystem utilities (libraries)
+url	https://btrfs.wiki.kernel.org
+license	GPL-2.0-or-later
+size	23975
+installed-size	47612
+depends	so:libc.musl-armhf.so.1
+origin	btrfs-progs
+repo	main
+file	btrfs-progs-libs-6.17.1-r1.apk
+checksum	Q1L2rHyAWR/pui21Th+ymmjWQ0LSQ=
+dep	so:libc.musl-armhf.so.1	musl

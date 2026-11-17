@@ -1,0 +1,17 @@
+name	logwatch
+version	7.13-r0
+description	Customizable, pluggable log-monitoring system
+url	https://sourceforge.net/projects/logwatch/
+license	MIT
+size	490115
+installed-size	2202519
+depends	perl perl-doc perl-date-manip perl-html-parser perl-net-cidr
+origin	logwatch
+repo	community
+file	logwatch-7.13-r0.apk
+checksum	Q1fJHU8CtbArtRO3q550TB2/cUcTA=
+dep	perl	perl
+dep	perl-doc	perl-doc
+dep	perl-date-manip	perl-date-manip
+dep	perl-html-parser	perl-html-parser
+dep	perl-net-cidr	perl-net-cidr

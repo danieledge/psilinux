@@ -1,0 +1,16 @@
+name	perl-future-q
+version	0.120-r1
+description	Future (or Promise or Deferred) with API like JavaScript's Q module
+url	https://metacpan.org/release/Future-Q/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	9769
+installed-size	29623
+depends	perl perl-devel-globaldestruction perl-future perl-try-tiny
+origin	perl-future-q
+repo	community
+file	perl-future-q-0.120-r1.apk
+checksum	Q1zW0yxRxELHF2zo1xMoIMwJXD2w0=
+dep	perl	perl
+dep	perl-devel-globaldestruction	perl-devel-globaldestruction
+dep	perl-future	perl-future
+dep	perl-try-tiny	perl-try-tiny

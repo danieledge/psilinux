@@ -1,0 +1,14 @@
+name	pipewire-jack-dev
+version	1.6.8-r4
+description	JACK development files (from pipewire)
+url	https://pipewire.org/
+license	MIT AND GPL-2.0-only AND LGPL-2.1-or-later
+size	46083
+installed-size	191610
+depends	pipewire-jack=1.6.8-r4 pkgconfig
+origin	pipewire
+repo	community
+file	pipewire-jack-dev-1.6.8-r4.apk
+checksum	Q1BoCaW9l0bEUauJMs/NdqmKoBs2U=
+dep	pipewire-jack=1.6.8-r4	pipewire-jack
+dep	pkgconfig	pkgconf

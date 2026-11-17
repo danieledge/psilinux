@@ -1,0 +1,14 @@
+name	havn
+version	0.1.17-r0
+description	A fast configurable port scanner with reasonable defaults
+url	https://github.com/mrjackwills/havn
+license	MIT
+size	448376
+installed-size	864068
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	havn
+repo	community
+file	havn-0.1.17-r0.apk
+checksum	Q1T5fvZx/Eav0EZZaNujWcyN6jjMk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

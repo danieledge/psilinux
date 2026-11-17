@@ -1,0 +1,14 @@
+name	acf-vlc-daemon
+version	0.5.0-r4
+description	Web-based system administration interface for vlc
+url	https://gitlab.alpinelinux.org/acf/acf-vlc-daemon
+license	GPL-2.0-only
+size	3056
+installed-size	2805
+depends	acf-core vlc-daemon
+origin	acf-vlc-daemon
+repo	community
+file	acf-vlc-daemon-0.5.0-r4.apk
+checksum	Q1nHLAz+BrypFFULTKJBXSm+F2lBY=
+dep	acf-core	acf-core
+dep	vlc-daemon	vlc-daemon

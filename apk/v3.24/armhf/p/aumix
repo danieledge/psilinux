@@ -1,0 +1,14 @@
+name	aumix
+version	2.9.1-r10
+description	color text mode sound mixer
+url	https://sourceforge.net/projects/aumix/
+license	GPL-2.0-or-later
+size	20311
+installed-size	40928
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	aumix
+repo	main
+file	aumix-2.9.1-r10.apk
+checksum	Q1Yk6zt7lCc919vue8t4EFqNE1nf4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

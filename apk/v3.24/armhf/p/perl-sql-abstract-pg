@@ -1,0 +1,14 @@
+name	perl-sql-abstract-pg
+version	1.0-r1
+description	PostgreSQL features for SQL::Abstract
+url	https://metacpan.org/release/SQL-Abstract-Pg/
+license	Artistic-2.0
+size	5117
+installed-size	11445
+depends	perl perl-sql-abstract
+origin	perl-sql-abstract-pg
+repo	community
+file	perl-sql-abstract-pg-1.0-r1.apk
+checksum	Q12kK9R7gjAMZ5jNYzU4x8Lr+cwE8=
+dep	perl	perl
+dep	perl-sql-abstract	perl-sql-abstract

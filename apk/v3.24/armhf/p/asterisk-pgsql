@@ -1,0 +1,14 @@
+name	asterisk-pgsql
+version	22.9.0-r0
+description	Modular Open Source PBX System
+url	https://www.asterisk.org/
+license	GPL-2.0-only WITH OpenSSL-Exception
+size	61375
+installed-size	135476
+depends	so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	asterisk
+repo	main
+file	asterisk-pgsql-22.9.0-r0.apk
+checksum	Q1ML6j4cIWNkV9aIgvVGziyqGqJQY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

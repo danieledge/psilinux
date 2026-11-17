@@ -1,0 +1,18 @@
+name	cacti-lang
+version	1.2.31-r0
+description	The complete rrdtool-based graphing solution (localisations)
+url	https://www.cacti.net/
+license	GPL-2.0-or-later
+size	3963739
+installed-size	12812368
+depends	bash perl coreutils net-snmp-tools rrdtool font-dejavu
+origin	cacti
+repo	community
+file	cacti-lang-1.2.31-r0.apk
+checksum	Q1a3K+oCllAT2CSj4XjIfnqFTEzno=
+dep	bash	bash
+dep	perl	perl
+dep	coreutils	coreutils
+dep	net-snmp-tools	net-snmp-tools
+dep	rrdtool	rrdtool
+dep	font-dejavu	font-dejavu

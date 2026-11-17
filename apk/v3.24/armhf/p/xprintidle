@@ -1,0 +1,16 @@
+name	xprintidle
+version	0.3.0-r0
+description	Query X server for user's idle time and print it in stdout
+url	https://github.com/g0hl1n/xprintidle
+license	GPL-2.0-only
+size	5132
+installed-size	9460
+depends	so:libX11.so.6 so:libXext.so.6 so:libXss.so.1 so:libc.musl-armhf.so.1
+origin	xprintidle
+repo	community
+file	xprintidle-0.3.0-r0.apk
+checksum	Q1+cCJ2lDrD1s8rrzxKbyiwmqmwyw=
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXss.so.1	libxscrnsaver
+dep	so:libc.musl-armhf.so.1	musl

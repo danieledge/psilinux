@@ -1,0 +1,14 @@
+name	py3-pytest-django
+version	4.11.1-r2
+description	Django plugin for pytest
+url	https://pytest-django.readthedocs.io/
+license	BSD-3-Clause
+size	23296
+installed-size	77518
+depends	py3-pytest python3~3.14
+origin	py3-pytest-django
+repo	community
+file	py3-pytest-django-4.11.1-r2.apk
+checksum	Q1xJ3wSNSIlsjr9zwHCV3JzgGCZXg=
+dep	py3-pytest	py3-pytest
+dep	python3~3.14	python3

@@ -1,0 +1,14 @@
+name	acf-snort
+version	0.8.1-r0
+description	Web-based system administration interface for snort
+url	https://gitlab.alpinelinux.org/acf/acf-snort
+license	GPL-2.0-only
+size	3823
+installed-size	5375
+depends	acf-core snort
+origin	acf-snort
+repo	main
+file	acf-snort-0.8.1-r0.apk
+checksum	Q1PdvP9lNK0jMFqRDoM1dB9sBiFAw=
+dep	acf-core	acf-core
+dep	snort	snort

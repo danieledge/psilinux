@@ -1,0 +1,17 @@
+name	libnotify
+version	0.8.8-r0
+description	Desktop notification library
+url	https://gitlab.gnome.org/GNOME/libnotify
+license	LGPL-2.1-or-later
+size	27023
+installed-size	62544
+depends	so:libc.musl-armhf.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	libnotify
+repo	community
+file	libnotify-0.8.8-r0.apk
+checksum	Q17EtbOxmn6pUZn6j78mS/1HZn25I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

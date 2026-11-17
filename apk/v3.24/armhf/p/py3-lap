@@ -1,0 +1,16 @@
+name	py3-lap
+version	0.5.13-r2
+description	Linear Assignment Problem solver (LAPJV/LAPMOD)
+url	https://github.com/gatagat/lap
+license	BSD-2-Clause
+size	1470564
+installed-size	1552028
+depends	py3-numpy python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	py3-lap
+repo	community
+file	py3-lap-0.5.13-r2.apk
+checksum	Q1rDjw3HF3ZhLLxG+6IOJXEyE+xb0=
+dep	py3-numpy	py3-numpy
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

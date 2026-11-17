@@ -1,0 +1,15 @@
+name	gotosocial
+version	0.21.2-r4
+description	An ActivityPub social network server
+url	https://codeberg.org/superseriousbusiness/gotosocial
+license	AGPL-3.0-only
+size	28516312
+installed-size	91429599
+depends	ffmpeg /bin/sh so:libc.musl-armhf.so.1
+origin	gotosocial
+repo	community
+file	gotosocial-0.21.2-r4.apk
+checksum	Q1EQf0X1QBXUOpPXv8WQ4gyEEwaoI=
+dep	ffmpeg	ffmpeg
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

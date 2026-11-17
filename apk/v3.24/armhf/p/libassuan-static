@@ -1,0 +1,13 @@
+name	libassuan-static
+version	3.0.2-r0
+description	IPC library used by some GnuPG related software (static library)
+url	https://www.gnupg.org/software/libassuan/index.html
+license	LGPL-2.1-or-later
+size	41214
+installed-size	113382
+depends	libassuan-dev
+origin	libassuan
+repo	main
+file	libassuan-static-3.0.2-r0.apk
+checksum	Q1hHEmaj4CsV0GEfem4pbtFh8XIec=
+dep	libassuan-dev	libassuan-dev

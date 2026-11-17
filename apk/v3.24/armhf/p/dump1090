@@ -1,0 +1,16 @@
+name	dump1090
+version	11.0-r0
+description	Simple Mode S decoder for RTLSDR devices
+url	https://github.com/flightaware/dump1090
+license	GPL-2.0-or-later
+size	2635162
+installed-size	10891377
+depends	so:libbladeRF.so.2 so:libc.musl-armhf.so.1 so:libncursesw.so.6 so:librtlsdr.so.0
+origin	dump1090
+repo	community
+file	dump1090-11.0-r0.apk
+checksum	Q1n8JwzMAgbZjdXTEB27EHtniPKQI=
+dep	so:libbladeRF.so.2	bladerf-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:librtlsdr.so.0	librtlsdr

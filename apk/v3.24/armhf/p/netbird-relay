@@ -1,0 +1,14 @@
+name	netbird-relay
+version	0.81.2-r0
+description	WireGuard-based overlay network and mesh VPN
+url	https://netbird.io/
+license	AGPL-3.0-only
+size	8507838
+installed-size	24615852
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	netbird
+repo	community
+file	netbird-relay-0.81.2-r0.apk
+checksum	Q1FRdNeMjmWVkaR24rxvVu2CxkDzk=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

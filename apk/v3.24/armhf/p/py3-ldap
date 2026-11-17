@@ -1,0 +1,18 @@
+name	py3-ldap
+version	3.4.7-r0
+description	Python modules for implementing LDAP clients
+url	https://github.com/python-ldap/python-ldap
+license	Python-2.0 AND MIT
+size	109692
+installed-size	347494
+depends	py3-asn1 py3-asn1-modules python3~3.14 so:libc.musl-armhf.so.1 so:liblber.so.2 so:libldap.so.2
+origin	py3-ldap
+repo	community
+file	py3-ldap-3.4.7-r0.apk
+checksum	Q1m6Wnc6KhRSFkRy94ffpxKEoXEqU=
+dep	py3-asn1	py3-asn1
+dep	py3-asn1-modules	py3-asn1-modules
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap

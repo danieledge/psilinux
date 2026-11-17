@@ -1,0 +1,18 @@
+name	libngf-dev
+version	0.28-r1
+description	Nemo's libngf (development files)
+url	https://github.com/sailfishos/libngf
+license	LGPL-2.1-or-later
+size	10252
+installed-size	27064
+depends	check-dev dbus-dev dbus-glib-dev glib-dev libngf=0.28-r1 pkgconfig
+origin	libngf
+repo	community
+file	libngf-dev-0.28-r1.apk
+checksum	Q1OD31B4vQoluvREDtPEp1UZkKpKY=
+dep	check-dev	check-dev
+dep	dbus-dev	dbus-dev
+dep	dbus-glib-dev	dbus-glib-dev
+dep	glib-dev	glib-dev
+dep	libngf=0.28-r1	libngf
+dep	pkgconfig	pkgconf

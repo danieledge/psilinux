@@ -1,0 +1,14 @@
+name	dash
+version	0.5.13.1-r2
+description	Small and fast POSIX-compliant shell
+url	http://gondor.apana.org.au/~herbert/dash/
+license	BSD-3-Clause AND GPL-2.0-or-later
+size	55375
+installed-size	104020
+depends	busybox so:libc.musl-armhf.so.1
+origin	dash
+repo	main
+file	dash-0.5.13.1-r2.apk
+checksum	Q1G/XeCEI2iUZxLoeNZscAVp+VvNc=
+dep	busybox	busybox
+dep	so:libc.musl-armhf.so.1	musl

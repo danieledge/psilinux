@@ -1,0 +1,14 @@
+name	imx_loader
+version	0_git20201102-r1
+description	serial loader for i.MX5/6/7/8 series
+url	https://github.com/boundarydevices/imx_usb_loader
+license	LGPL-2.1-only
+size	1287
+installed-size	1
+depends	imx_usb_loader imx_uart_loader
+origin	imx_loader
+repo	community
+file	imx_loader-0_git20201102-r1.apk
+checksum	Q1F4zNn43RZZmN8XgO94tXPPH7Jcw=
+dep	imx_usb_loader	imx_usb_loader
+dep	imx_uart_loader	imx_uart_loader

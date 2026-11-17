@@ -1,0 +1,15 @@
+name	py3-pytest-repeat
+version	0.9.4-r3
+description	pytest plugin for repeating tests
+url	https://github.com/pytest-dev/pytest-repeat
+license	BSD-3-Clause
+size	5009
+installed-size	7816
+depends	py3-pytest python3 python3~3.14
+origin	py3-pytest-repeat
+repo	community
+file	py3-pytest-repeat-0.9.4-r3.apk
+checksum	Q1rB0PuvxFMgd6vZDKeI++CUU9+28=
+dep	py3-pytest	py3-pytest
+dep	python3	python3
+dep	python3~3.14	python3

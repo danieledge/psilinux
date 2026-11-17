@@ -1,0 +1,14 @@
+name	libluv
+version	1.51.0.1-r1
+description	Bare libuv bindings for Lua (shared library)
+url	https://github.com/luvit/luv
+license	Apache-2.0
+size	56200
+installed-size	148696
+depends	so:libc.musl-armhf.so.1 so:libuv.so.1
+origin	lua-luv
+repo	community
+file	libluv-1.51.0.1-r1.apk
+checksum	Q1oyTvnGZJlIiS2PO2SzM/4omy7mI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libuv.so.1	libuv

@@ -1,0 +1,14 @@
+name	libspnav
+version	1.2-r0
+description	library for communicating with spacenavd or 3dxsrv
+url	https://spacenav.sourceforge.net/
+license	BSD-3-Clause
+size	12307
+installed-size	25872
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1
+origin	libspnav
+repo	community
+file	libspnav-1.2-r0.apk
+checksum	Q1qK/hb6SCO4by+lF9fLSO7FB3n0Y=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl

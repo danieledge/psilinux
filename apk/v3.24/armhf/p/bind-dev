@@ -1,0 +1,16 @@
+name	bind-dev
+version	9.20.30-r0
+description	The ISC DNS server (development files)
+url	https://www.isc.org/bind/
+license	MPL-2.0
+size	386096
+installed-size	1606994
+depends	bind bind-plugins bind-tools bind-libs=9.20.30-r0
+origin	bind
+repo	main
+file	bind-dev-9.20.30-r0.apk
+checksum	Q1ssqDvRUExhJnE7Zbo+Zp76C4U5E=
+dep	bind	bind
+dep	bind-plugins	bind-plugins
+dep	bind-tools	bind-tools
+dep	bind-libs=9.20.30-r0	bind-libs

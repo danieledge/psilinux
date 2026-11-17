@@ -1,0 +1,13 @@
+name	perl-text-charwidth
+version	0.04-r8
+description	Text:CharWidth perl module
+url	https://metacpan.org/pod/Text::CharWidth
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	5609
+installed-size	11376
+depends	so:libc.musl-armhf.so.1
+origin	perl-text-charwidth
+repo	community
+file	perl-text-charwidth-0.04-r8.apk
+checksum	Q1y2qQt2HRM1LX+UFwhBMK2cYyBGg=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	ocaml-lru-dev
+version	0.3.0-r5
+description	Scalable LRU caches (development files)
+url	https://github.com/pqwy/lru
+license	ISC
+size	166189
+installed-size	408664
+depends	ocaml-lru=0.3.0-r5 ocaml-psq-dev
+origin	ocaml-lru
+repo	community
+file	ocaml-lru-dev-0.3.0-r5.apk
+checksum	Q1rnnHTSqpot9wfvRkXxFdFFGJqWs=
+dep	ocaml-lru=0.3.0-r5	ocaml-lru
+dep	ocaml-psq-dev	ocaml-psq-dev

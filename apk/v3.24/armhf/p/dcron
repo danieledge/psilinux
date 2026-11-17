@@ -1,0 +1,13 @@
+name	dcron
+version	4.6-r0
+description	dillon's lightweight cron daemon
+url	https://github.com/ptchinster/dcron
+license	GPL-2.0-or-later
+size	21945
+installed-size	47772
+depends	so:libc.musl-armhf.so.1
+origin	dcron
+repo	community
+file	dcron-4.6-r0.apk
+checksum	Q1ykmaGTuQpJj/lXVqxUSSgc0I51I=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,18 @@
+name	perl-dist-build
+version	0.028-r0
+description	Modern module builder / Build.PL implementation
+url	https://metacpan.org/release/Dist-Build/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	15210
+installed-size	53369
+depends	perl perl-extutils-builder perl-extutils-builder-compiler perl-extutils-config perl-extutils-helpers perl-extutils-installpaths
+origin	perl-dist-build
+repo	community
+file	perl-dist-build-0.028-r0.apk
+checksum	Q1+Wh2IJyzmThdoAmqisgM97A2J8w=
+dep	perl	perl
+dep	perl-extutils-builder	perl-extutils-builder
+dep	perl-extutils-builder-compiler	perl-extutils-builder-compiler
+dep	perl-extutils-config	perl-extutils-config
+dep	perl-extutils-helpers	perl-extutils-helpers
+dep	perl-extutils-installpaths	perl-extutils-installpaths

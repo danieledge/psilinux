@@ -1,0 +1,12 @@
+name	net-tools-dbg
+version	2.10-r3
+description	Linux networking base tools (debug symbols)
+url	https://sourceforge.net/projects/net-tools/
+license	GPL-2.0-or-later
+size	365153
+installed-size	853884
+depends	!mii-tool<2.10-r3 !mii-tool>2.10-r3 !net-tools<2.10-r3 !net-tools>2.10-r3
+origin	net-tools
+repo	main
+file	net-tools-dbg-2.10-r3.apk
+checksum	Q1US8doe31OjOudnPAKe94IRYCUu4=

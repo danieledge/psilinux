@@ -1,0 +1,19 @@
+name	gdal-driver-libkml
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (Keyhole Markup Language (LIBKML) driver)
+url	https://gdal.org/
+license	MIT
+size	99832
+installed-size	230816
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libkmlbase.so.1 so:libkmldom.so.1 so:libkmlengine.so.1 so:libstdc++.so.6
+origin	gdal
+repo	community
+file	gdal-driver-libkml-3.13.3-r0.apk
+checksum	Q16RKOO7pgkJS/2FCq9F0lv+ur3bs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libkmlbase.so.1	libkml
+dep	so:libkmldom.so.1	libkml
+dep	so:libkmlengine.so.1	libkml
+dep	so:libstdc++.so.6	libstdc++

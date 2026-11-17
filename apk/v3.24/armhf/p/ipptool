@@ -1,0 +1,14 @@
+name	ipptool
+version	2.4.19-r1
+description	Perform internet printing protocol requests
+url	https://github.com/OpenPrinting/cups/
+license	Apache-2.0
+size	4013659
+installed-size	4509642
+depends	so:libc.musl-armhf.so.1 so:libcups.so.2
+origin	cups
+repo	main
+file	ipptool-2.4.19-r1.apk
+checksum	Q1CF0jth2ySXlZgNlzawO8ehcwF8g=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcups.so.2	cups-libs

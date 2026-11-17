@@ -1,0 +1,15 @@
+name	bats-assert
+version	2.2.4-r0
+description	Common assertions for Bats
+url	https://github.com/bats-core/bats-assert
+license	CC0-1.0
+size	10488
+installed-size	45903
+depends	bash bats-core bats-support
+origin	bats-assert
+repo	main
+file	bats-assert-2.2.4-r0.apk
+checksum	Q1wm1Rf/DFHFD27MBXsx5coZj4Fxs=
+dep	bash	bash
+dep	bats-core	bats-core
+dep	bats-support	bats-support

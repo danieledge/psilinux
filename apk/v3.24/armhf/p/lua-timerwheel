@@ -1,0 +1,14 @@
+name	lua-timerwheel
+version	1.0.2-r1
+description	Efficient timer for timeout related timers
+url	https://tieske.github.io/timerwheel.lua/
+license	MIT
+size	5277
+installed-size	9661
+depends	lua lua-coxpcall
+origin	lua-timerwheel
+repo	community
+file	lua-timerwheel-1.0.2-r1.apk
+checksum	Q1lkwT57gjGKXQtlwDu4mGr9d00/g=
+dep	lua	lua5.5
+dep	lua-coxpcall	lua-coxpcall

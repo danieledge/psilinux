@@ -1,0 +1,21 @@
+name	foot
+version	1.27.0-r0
+description	Fast, lightweight and minimalistic Wayland terminal emulator
+url	https://codeberg.org/dnkl/foot
+license	MIT
+size	239796
+installed-size	480028
+depends	ncurses-terminfo so:libc.musl-armhf.so.1 so:libfcft.so.4 so:libfontconfig.so.1 so:libpixman-1.so.0 so:libutf8proc.so.3 so:libwayland-client.so.0 so:libwayland-cursor.so.0 so:libxkbcommon.so.0
+origin	foot
+repo	community
+file	foot-1.27.0-r0.apk
+checksum	Q1chyu3dPFmtg/z3/5g3FwDLPUvvc=
+dep	ncurses-terminfo	ncurses-terminfo
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfcft.so.4	fcft
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libpixman-1.so.0	pixman
+dep	so:libutf8proc.so.3	utf8proc
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor
+dep	so:libxkbcommon.so.0	libxkbcommon

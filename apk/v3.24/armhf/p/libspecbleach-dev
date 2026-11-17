@@ -1,0 +1,16 @@
+name	libspecbleach-dev
+version	0.2.0-r0
+description	Standalone library based on the algorithms used in noise-repellent. (development files)
+url	https://github.com/lucianodato/libspecbleach
+license	LGPL-2.1-only
+size	4523
+installed-size	11140
+depends	libspecbleach=0.2.0-r0 libspecbleach=0.2.0-r0 pc:fftw3f pkgconfig
+origin	libspecbleach
+repo	community
+file	libspecbleach-dev-0.2.0-r0.apk
+checksum	Q1nRrB5NORrqLy7LnRPauGBu6kIUY=
+dep	libspecbleach=0.2.0-r0	libspecbleach
+dep	libspecbleach=0.2.0-r0	libspecbleach
+dep	pc:fftw3f	fftw-dev
+dep	pkgconfig	pkgconf

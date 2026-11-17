@@ -1,0 +1,14 @@
+name	flac
+version	1.4.3-r2
+description	Free Lossless Audio Codec
+url	https://xiph.org/flac/
+license	BSD-3-Clause AND GPL-2.0-or-later
+size	157256
+installed-size	341044
+depends	so:libFLAC.so.12 so:libc.musl-armhf.so.1
+origin	flac
+repo	main
+file	flac-1.4.3-r2.apk
+checksum	Q14R85f2w/R/ramQXorJSh5jMsqPg=
+dep	so:libFLAC.so.12	libflac
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,18 @@
+name	libgccjit
+version	15.2.0-r5
+description	GCC JIT Library
+url	https://gcc.gnu.org
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	12529563
+installed-size	28896132
+depends	so:libc.musl-armhf.so.1 so:libgmp.so.10 so:libisl.so.23 so:libmpc.so.3 so:libmpfr.so.6 so:libz.so.1
+origin	gcc
+repo	main
+file	libgccjit-15.2.0-r5.apk
+checksum	Q14N/9+oT07GEzxaARWEYH7ieGayw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgmp.so.10	gmp
+dep	so:libisl.so.23	isl25
+dep	so:libmpc.so.3	mpc1
+dep	so:libmpfr.so.6	mpfr4
+dep	so:libz.so.1	zlib

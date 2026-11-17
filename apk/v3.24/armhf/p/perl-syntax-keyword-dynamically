@@ -1,0 +1,15 @@
+name	perl-syntax-keyword-dynamically
+version	0.14-r2
+description	Dynamically change the value of a variable
+url	https://metacpan.org/release/Syntax-Keyword-Dynamically/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	14676
+installed-size	34049
+depends	perl perl-xs-parse-keyword so:libc.musl-armhf.so.1
+origin	perl-syntax-keyword-dynamically
+repo	community
+file	perl-syntax-keyword-dynamically-0.14-r2.apk
+checksum	Q1rXFr6A+ggBvmuU7mYuQn6CoSog4=
+dep	perl	perl
+dep	perl-xs-parse-keyword	perl-xs-parse-keyword
+dep	so:libc.musl-armhf.so.1	musl

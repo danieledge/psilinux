@@ -1,0 +1,14 @@
+name	ocaml-ca-certs-nss-tools
+version	3.89.1-r3
+description	X.509 trust anchors extracted from Mozilla's NSS (command line utilities)
+url	https://github.com/mirage/ca-certs-nss
+license	ISC
+size	1574741
+installed-size	3400544
+depends	so:libc.musl-armhf.so.1 so:libgmp.so.10
+origin	ocaml-ca-certs-nss
+repo	community
+file	ocaml-ca-certs-nss-tools-3.89.1-r3.apk
+checksum	Q1TOTWpfzMNAZbonRDR8xxuR+fTw4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgmp.so.10	gmp

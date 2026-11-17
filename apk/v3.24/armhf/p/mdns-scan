@@ -1,0 +1,13 @@
+name	mdns-scan
+version	0.5-r0
+description	Scan for mDNS/DNS-SD services published on the local network
+url	https://0pointer.de/lennart/projects/mdns-scan/
+license	GPL-2.0-or-later
+size	9858
+installed-size	21732
+depends	so:libc.musl-armhf.so.1
+origin	mdns-scan
+repo	community
+file	mdns-scan-0.5-r0.apk
+checksum	Q1pWGuxmbfaEcCHFKAdfEsGVPff5Y=
+dep	so:libc.musl-armhf.so.1	musl

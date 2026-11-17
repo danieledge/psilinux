@@ -1,0 +1,15 @@
+name	fungw-lua
+version	1.2.2-r3
+description	C function gateway for different programming languages (lua plugin)
+url	http://www.repo.hu/projects/fungw/
+license	LGPL-2.1-or-later
+size	13300
+installed-size	29780
+depends	fungw=1.2.2-r3 so:libc.musl-armhf.so.1 so:liblua.so.5
+origin	fungw
+repo	community
+file	fungw-lua-1.2.2-r3.apk
+checksum	Q19f0tU28wSH1FiGO38oMZC9Ck9sI=
+dep	fungw=1.2.2-r3	fungw
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblua.so.5	lua5.1-libs

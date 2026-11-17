@@ -1,0 +1,15 @@
+name	wasm-component-ld
+version	1.96.1-r0
+description	Command line linker for creating WebAssembly components
+url	https://github.com/bytecodealliance/wasm-component-ld
+license	Apache-2.0 OR MIT
+size	1866610
+installed-size	4221984
+depends	lld22 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	rust
+repo	main
+file	wasm-component-ld-1.96.1-r0.apk
+checksum	Q1gA9sHFzN1DSRs2h4BOrKYRPPUCc=
+dep	lld22	lld22
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,13 @@
+name	elvish
+version	0.21.0-r18
+description	Friendly and expressive Unix shell
+url	https://elv.sh/
+license	BSD-2-Clause
+size	3856413
+installed-size	9712068
+depends	so:libc.musl-armhf.so.1
+origin	elvish
+repo	community
+file	elvish-0.21.0-r18.apk
+checksum	Q1Y7QDaaUrFF5ldBheW31Rc9g5z+Q=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	py3-django-contact-form
+version	5.2.0-r2
+description	Generic contact-form application for Django
+url	https://github.com/ubernostrum/django-contact-form
+license	BSD-3-Clause
+size	17106
+installed-size	42385
+depends	py3-django python3~3.14
+origin	py3-django-contact-form
+repo	community
+file	py3-django-contact-form-5.2.0-r2.apk
+checksum	Q1bIKWhuH2Wo9ikvZcmXzpaDp1n2A=
+dep	py3-django	py3-django
+dep	python3~3.14	python3

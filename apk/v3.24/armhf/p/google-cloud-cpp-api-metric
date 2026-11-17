@@ -1,0 +1,22 @@
+name	google-cloud-cpp-api-metric
+version	2.47.0-r0
+description	C++ Client Libraries for Google Cloud Services (api-metric)
+url	https://cloud.google.com/sdk
+license	Apache-2.0
+size	31979
+installed-size	80852
+depends	so:libabsl_hash.so.2508.0.0 so:libabsl_log_internal_check_op.so.2508.0.0 so:libabsl_log_internal_message.so.2508.0.0 so:libabsl_log_internal_nullguard.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgoogle_cloud_cpp_api_label_protos.so.2 so:libgoogle_cloud_cpp_api_launch_stage_protos.so.2 so:libprotobuf.so.31 so:libstdc++.so.6
+origin	google-cloud-cpp
+repo	community
+file	google-cloud-cpp-api-metric-2.47.0-r0.apk
+checksum	Q1UqAjS5btO8ENqzOL20nJrLv3iIA=
+dep	so:libabsl_hash.so.2508.0.0	abseil-cpp-hash
+dep	so:libabsl_log_internal_check_op.so.2508.0.0	abseil-cpp-log-internal-check-op
+dep	so:libabsl_log_internal_message.so.2508.0.0	abseil-cpp-log-internal-message
+dep	so:libabsl_log_internal_nullguard.so.2508.0.0	abseil-cpp-log-internal-nullguard
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgoogle_cloud_cpp_api_label_protos.so.2	google-cloud-cpp-api-label
+dep	so:libgoogle_cloud_cpp_api_launch_stage_protos.so.2	google-cloud-cpp-api-launch-stage
+dep	so:libprotobuf.so.31	libprotobuf
+dep	so:libstdc++.so.6	libstdc++

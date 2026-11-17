@@ -1,0 +1,13 @@
+name	yarn
+version	1.22.22-r1
+description	Fast, reliable, and secure dependency management for Node.js
+url	https://classic.yarnpkg.com/
+license	BSD-2-Clause
+size	1240185
+installed-size	5340423
+depends	!yarn-berry nodejs
+origin	yarn
+repo	community
+file	yarn-1.22.22-r1.apk
+checksum	Q18hrya81STh47kaI8SNC1EDoCe1I=
+dep	nodejs	nodejs

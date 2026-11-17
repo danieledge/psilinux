@@ -1,0 +1,26 @@
+name	growlight
+version	1.2.38-r3
+description	Block device manager
+url	https://nick-black.com/dankwiki/index.php/Growlight
+license	GPL-3.0-or-later
+size	244050
+installed-size	444795
+depends	so:libatasmart.so.4 so:libblkid.so.1 so:libc.musl-armhf.so.1 so:libcap.so.2 so:libcryptsetup.so.12 so:libdevmapper.so.1.02 so:libgcc_s.so.1 so:libnettle.so.8 so:libnotcurses-core.so.3 so:libnotcurses.so.3 so:libpci.so.3 so:libpciaccess.so.0 so:libudev.so.1 so:libz.so.1
+origin	growlight
+repo	community
+file	growlight-1.2.38-r3.apk
+checksum	Q17uA004eR4KsqBkyeurs0eFcLt1Y=
+dep	so:libatasmart.so.4	libatasmart
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libcryptsetup.so.12	cryptsetup-libs
+dep	so:libdevmapper.so.1.02	device-mapper-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libnettle.so.8	nettle
+dep	so:libnotcurses-core.so.3	notcurses-libs
+dep	so:libnotcurses.so.3	notcurses-libs
+dep	so:libpci.so.3	pciutils-libs
+dep	so:libpciaccess.so.0	libpciaccess
+dep	so:libudev.so.1	eudev-libs
+dep	so:libz.so.1	zlib

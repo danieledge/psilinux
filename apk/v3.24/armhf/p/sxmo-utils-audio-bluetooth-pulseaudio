@@ -1,0 +1,14 @@
+name	sxmo-utils-audio-bluetooth-pulseaudio
+version	1.18.1-r4
+description	Utility scripts, programs, and configs that hold the Sxmo UI environment together
+url	https://git.sr.ht/~mil/sxmo-utils
+license	AGPL-3.0-only
+size	1368
+installed-size	0
+depends	bluez pulseaudio-bluez !sxmo-utils-audio-pipewire
+origin	sxmo-utils
+repo	community
+file	sxmo-utils-audio-bluetooth-pulseaudio-1.18.1-r4.apk
+checksum	Q1rXBGzEhjLfrfnxveX/iwHhJmeT0=
+dep	bluez	bluez
+dep	pulseaudio-bluez	pulseaudio-bluez

@@ -1,0 +1,13 @@
+name	go-swag
+version	1.16.6-r10
+description	Automatically generate RESTful API documentation with Swagger 2.0 for Go
+url	https://github.com/swaggo/swag
+license	MIT
+size	5251903
+installed-size	13398508
+depends	so:libc.musl-armhf.so.1
+origin	go-swag
+repo	community
+file	go-swag-1.16.6-r10.apk
+checksum	Q1GiElvTWT0RIALq4hMbVelixwWvE=
+dep	so:libc.musl-armhf.so.1	musl

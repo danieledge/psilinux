@@ -1,0 +1,14 @@
+name	perl-sys-syslog
+version	0.36-r6
+description	Perl interface to the UNIX syslog(3) calls
+url	https://metacpan.org/pod/Sys::Syslog
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	22953
+installed-size	61381
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-sys-syslog
+repo	community
+file	perl-sys-syslog-0.36-r6.apk
+checksum	Q1FiLL2IKroGeVjRZ1TaAfeY3AMoc=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

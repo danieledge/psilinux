@@ -1,0 +1,21 @@
+name	gtkmm4-dev
+version	4.22.0-r0
+description	C++ wrappers for GTK 4 (development files)
+url	https://www.gtkmm.org/
+license	LGPL-2.1-or-later
+size	841107
+installed-size	5153115
+depends	gtkmm4=4.22.0-r0 pc:cairomm-1.16>=1.15.4 pc:gdk-pixbuf-2.0>=2.35.5 pc:giomm-2.68>=2.75.0 pc:gtk4-unix-print pc:gtk4>=4.22.0 pc:pangomm-2.48>=2.50.0 pc:vulkan pkgconfig
+origin	gtkmm4
+repo	community
+file	gtkmm4-dev-4.22.0-r0.apk
+checksum	Q1AWxGdGchjNA2XnIaKjqrYxc9rbQ=
+dep	gtkmm4=4.22.0-r0	gtkmm4
+dep	pc:cairomm-1.16>=1.15.4	cairomm-dev
+dep	pc:gdk-pixbuf-2.0>=2.35.5	gdk-pixbuf-dev
+dep	pc:giomm-2.68>=2.75.0	glibmm-dev
+dep	pc:gtk4-unix-print	gtk4.0-dev
+dep	pc:gtk4>=4.22.0	gtk4.0-dev
+dep	pc:pangomm-2.48>=2.50.0	pangomm-dev
+dep	pc:vulkan	vulkan-loader-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,18 @@
+name	gtk-update-icon-cache
+version	3.24.52-r0
+description	The GTK+ Toolkit (v3)
+url	https://www.gtk.org/
+license	LGPL-2.1-or-later
+size	14452
+installed-size	26016
+depends	hicolor-icon-theme /bin/sh so:libc.musl-armhf.so.1 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libintl.so.8
+origin	gtk+3.0
+repo	community
+file	gtk-update-icon-cache-3.24.52-r0.apk
+checksum	Q11LPz0ZkgqE0LWv88wFnHqx2/sC0=
+dep	hicolor-icon-theme	hicolor-icon-theme
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libglib-2.0.so.0	glib
+dep	so:libintl.so.8	libintl

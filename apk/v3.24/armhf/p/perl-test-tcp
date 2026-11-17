@@ -1,0 +1,14 @@
+name	perl-test-tcp
+version	2.22-r3
+description	testing TCP program
+url	https://metacpan.org/release/Test-TCP/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	8217
+installed-size	20403
+depends	perl perl-test-sharedfork
+origin	perl-test-tcp
+repo	main
+file	perl-test-tcp-2.22-r3.apk
+checksum	Q1c1OSQj/CrQP/CUa1D5gfCUtRtgg=
+dep	perl	perl
+dep	perl-test-sharedfork	perl-test-sharedfork

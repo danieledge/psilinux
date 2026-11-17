@@ -1,0 +1,13 @@
+name	uchardet-static
+version	0.0.8-r2
+description	Encoding detector library ported from Mozilla (static library)
+url	https://www.freedesktop.org/wiki/Software/uchardet
+license	MPL-1.1
+size	101953
+installed-size	333578
+depends	uchardet-dev
+origin	uchardet
+repo	community
+file	uchardet-static-0.0.8-r2.apk
+checksum	Q1POSZxfMnt2r5GcKAhMxb+4xj6SA=
+dep	uchardet-dev	uchardet-dev

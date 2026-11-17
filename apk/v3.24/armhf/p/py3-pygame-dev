@@ -1,0 +1,22 @@
+name	py3-pygame-dev
+version	2.6.1-r1
+description	Python library for making applications and games based on SDL (development files)
+url	https://pygame.org
+license	LGPL-2.1-or-later
+size	66296
+installed-size	346163
+depends	freetype-dev libjpeg-turbo-dev libpng-dev portmidi-dev<=200 python3-dev sdl2-dev sdl2_gfx-dev sdl2_image-dev sdl2_mixer-dev sdl2_ttf-dev
+origin	py3-pygame
+repo	community
+file	py3-pygame-dev-2.6.1-r1.apk
+checksum	Q1B7MZaPRzbJwsAtpZQFIEG2MHTSA=
+dep	freetype-dev	freetype-dev
+dep	libjpeg-turbo-dev	libjpeg-turbo-dev
+dep	libpng-dev	libpng-dev
+dep	portmidi-dev<=200	portmidi-dev
+dep	python3-dev	python3-dev
+dep	sdl2-dev	sdl2-dev
+dep	sdl2_gfx-dev	sdl2_gfx-dev
+dep	sdl2_image-dev	sdl2_image-dev
+dep	sdl2_mixer-dev	sdl2_mixer-dev
+dep	sdl2_ttf-dev	sdl2_ttf-dev

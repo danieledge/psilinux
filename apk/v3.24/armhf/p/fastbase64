@@ -1,0 +1,14 @@
+name	fastbase64
+version	9.0.0-r0
+description	Unicode validation and transcoding at billions of characters per second
+url	https://simdutf.github.io/simdutf/
+license	Apache-2.0 OR MIT
+size	71394
+installed-size	169512
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	simdutf
+repo	main
+file	fastbase64-9.0.0-r0.apk
+checksum	Q1f2tGgNngMDiSfdW52GppaVUkf3E=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

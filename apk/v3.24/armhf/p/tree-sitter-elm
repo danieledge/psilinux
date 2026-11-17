@@ -1,0 +1,13 @@
+name	tree-sitter-elm
+version	5.9.0-r0
+description	Elm grammar for tree-sitter
+url	https://github.com/elm-tooling/tree-sitter-elm
+license	MIT
+size	43310
+installed-size	188659
+depends	so:libc.musl-armhf.so.1
+origin	tree-sitter-elm
+repo	community
+file	tree-sitter-elm-5.9.0-r0.apk
+checksum	Q15tmr9INQYf88vFN5T5MaNerYFe8=
+dep	so:libc.musl-armhf.so.1	musl

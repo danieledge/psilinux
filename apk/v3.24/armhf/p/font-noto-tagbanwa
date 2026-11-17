@@ -1,0 +1,14 @@
+name	font-noto-tagbanwa
+version	2026.11.01-r0
+description	Noto Sans Tagbanwa font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	5708
+installed-size	6171
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-tagbanwa-2026.11.01-r0.apk
+checksum	Q13hBUE9w4+VMreiyc1yA7EeDhMAc=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

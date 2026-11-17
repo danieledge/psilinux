@@ -1,0 +1,17 @@
+name	gdal-driver-png
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (Portable Network Graphics driver)
+url	https://gdal.org/
+license	MIT
+size	21419
+installed-size	50604
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libpng16.so.16 so:libstdc++.so.6
+origin	gdal
+repo	community
+file	gdal-driver-png-3.13.3-r0.apk
+checksum	Q1kzLm4KH8nWI/+sDhYaLwO1LjZ+E=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++

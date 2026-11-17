@@ -1,0 +1,16 @@
+name	nginx-mod-stream-keyval
+version	1.30.6-r0
+description	Nginx third-party module stream-keyval (version 0.5.0)
+url	https://github.com/kjdev/nginx-keyval
+license	BSD-2-Clause
+size	10499
+installed-size	21943
+depends	nginx=1.30.6-r0 nginx-mod-stream so:libc.musl-armhf.so.1 so:libhiredis.so.1.3.0
+origin	nginx
+repo	main
+file	nginx-mod-stream-keyval-1.30.6-r0.apk
+checksum	Q1h9Yru0Il/wpWktNNYT2AcRbVX70=
+dep	nginx=1.30.6-r0	nginx
+dep	nginx-mod-stream	nginx-mod-stream
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libhiredis.so.1.3.0	hiredis

@@ -1,0 +1,19 @@
+name	radare2-dev
+version	6.1.6-r0
+description	Opensource, crossplatform reverse engineering framework (development files)
+url	https://www.radare.org/
+license	GPL-3.0-or-later AND LGPL-2.0-or-later AND LGPL-2.1-or-later
+size	345724
+installed-size	1406402
+depends	radare2-libs=6.1.6-r0 pc:capstone>=4.0.0 pc:liblz4 pc:libxxhash pc:libzip pc:zlib pkgconfig
+origin	radare2
+repo	community
+file	radare2-dev-6.1.6-r0.apk
+checksum	Q1zwM9rZFIn5wqWGtEBRNr6VYh+Vo=
+dep	radare2-libs=6.1.6-r0	radare2-libs
+dep	pc:capstone>=4.0.0	capstone-dev
+dep	pc:liblz4	lz4-dev
+dep	pc:libxxhash	xxhash-dev
+dep	pc:libzip	libzip-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

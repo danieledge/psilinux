@@ -1,0 +1,14 @@
+name	wlr-randr
+version	0.5.0-r1
+description	Utility to manage outputs of a Wayland compositor
+url	https://gitlab.freedesktop.org/emersion/wlr-randr
+license	MIT
+size	10087
+installed-size	21776
+depends	so:libc.musl-armhf.so.1 so:libwayland-client.so.0
+origin	wlr-randr
+repo	community
+file	wlr-randr-0.5.0-r1.apk
+checksum	Q1UCMGW/MuU6XaHK+w/yS42b6At0M=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libwayland-client.so.0	wayland-libs-client

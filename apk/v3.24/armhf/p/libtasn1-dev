@@ -1,0 +1,15 @@
+name	libtasn1-dev
+version	4.21.0-r0
+description	The ASN.1 library used in GNUTLS (development files)
+url	https://www.gnu.org/software/gnutls/
+license	LGPL-2.1-or-later
+size	6285
+installed-size	19063
+depends	libtasn1-progs=4.21.0-r0 libtasn1=4.21.0-r0 pkgconfig
+origin	libtasn1
+repo	main
+file	libtasn1-dev-4.21.0-r0.apk
+checksum	Q1oaajESFgcPKRoIRajk+mTlkYAtw=
+dep	libtasn1-progs=4.21.0-r0	libtasn1-progs
+dep	libtasn1=4.21.0-r0	libtasn1
+dep	pkgconfig	pkgconf

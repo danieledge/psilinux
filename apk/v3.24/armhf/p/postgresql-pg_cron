@@ -1,0 +1,16 @@
+name	postgresql-pg_cron
+version	1.6.7-r0
+description	Cron-based scheduler for PostgreSQL 9.5+
+url	https://github.com/citusdata/pg_cron
+license	PostgreSQL
+size	97771
+installed-size	184081
+depends	postgresql18 /bin/sh so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	postgresql-pg_cron
+repo	community
+file	postgresql-pg_cron-1.6.7-r0.apk
+checksum	Q1iWt89DnsP8+m/6s7HgiDmvC49GQ=
+dep	postgresql18	postgresql18
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

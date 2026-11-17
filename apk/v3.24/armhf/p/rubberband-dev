@@ -1,0 +1,16 @@
+name	rubberband-dev
+version	4.0.0-r0
+description	library for audio time-stretching and pitch-shifting (development files)
+url	https://www.breakfastquay.com/rubberband
+license	GPL-2.0-only
+size	19698
+installed-size	70347
+depends	rubberband-libs=4.0.0-r0 pc:fftw3>=3.0.0 pc:samplerate>=0.1.8 pkgconfig
+origin	rubberband
+repo	community
+file	rubberband-dev-4.0.0-r0.apk
+checksum	Q1/RpUspKdxy7ZM4QY9X97lmK2CuE=
+dep	rubberband-libs=4.0.0-r0	rubberband-libs
+dep	pc:fftw3>=3.0.0	fftw-dev
+dep	pc:samplerate>=0.1.8	libsamplerate-dev
+dep	pkgconfig	pkgconf

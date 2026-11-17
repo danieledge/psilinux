@@ -1,0 +1,16 @@
+name	abiword-plugin-eml
+version	3.0.8-r0
+description	Abiword eml plugin
+url	https://gitlab.gnome.org/World/AbiWord
+license	GPL-2.0-or-later
+size	4968
+installed-size	9600
+depends	so:libabiword-3.0.so so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libstdc++.so.6
+origin	abiword
+repo	community
+file	abiword-plugin-eml-3.0.8-r0.apk
+checksum	Q1w3WpgQY+Qay3gF1hQVI/XFTFMTg=
+dep	so:libabiword-3.0.so	abiword
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libstdc++.so.6	libstdc++

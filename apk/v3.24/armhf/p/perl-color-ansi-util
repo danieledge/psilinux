@@ -1,0 +1,14 @@
+name	perl-color-ansi-util
+version	0.165-r1
+description	Routines for dealing with ANSI colors
+url	https://metacpan.org/release/Color-ANSI-Util/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	7390
+installed-size	25404
+depends	perl perl-color-rgb-util
+origin	perl-color-ansi-util
+repo	community
+file	perl-color-ansi-util-0.165-r1.apk
+checksum	Q1qyYu40mXmUbAFEUUrusoEKR3OYQ=
+dep	perl	perl
+dep	perl-color-rgb-util	perl-color-rgb-util

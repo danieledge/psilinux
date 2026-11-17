@@ -1,0 +1,35 @@
+name	labwc
+version	0.20.0-r0
+description	Wayland stacking compositor
+url	https://github.com/labwc/labwc
+license	GPL-2.0-only
+size	205253
+installed-size	443671
+depends	xwayland so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libinput.so.10 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpixman-1.so.0 so:libpng16.so.16 so:librsvg-2.so.2 so:libsfdo-basedir.so.0 so:libsfdo-desktop.so.0 so:libsfdo-icon.so.0 so:libwayland-client.so.0 so:libwayland-cursor.so.0 so:libwayland-server.so.0 so:libwlroots-0.20.so so:libxcb-ewmh.so.2 so:libxcb.so.1 so:libxkbcommon.so.0 so:libxml2.so.2
+origin	labwc
+repo	community
+file	labwc-0.20.0-r0.apk
+checksum	Q1wZUEk7rU4xVmm0ZPbJzYM9M3gjY=
+dep	xwayland	xwayland
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libinput.so.10	libinput-libs
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpixman-1.so.0	pixman
+dep	so:libpng16.so.16	libpng
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libsfdo-basedir.so.0	libsfdo
+dep	so:libsfdo-desktop.so.0	libsfdo
+dep	so:libsfdo-icon.so.0	libsfdo
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor
+dep	so:libwayland-server.so.0	wayland-libs-server
+dep	so:libwlroots-0.20.so	wlroots0.20
+dep	so:libxcb-ewmh.so.2	xcb-util-wm
+dep	so:libxcb.so.1	libxcb
+dep	so:libxkbcommon.so.0	libxkbcommon
+dep	so:libxml2.so.2	libxml2

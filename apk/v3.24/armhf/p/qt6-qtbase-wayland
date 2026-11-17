@@ -1,0 +1,25 @@
+name	qt6-qtbase-wayland
+version	6.11.1-r0
+description	Qt6 Wayland-related libraries
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	634429
+installed-size	2111029
+depends	tzdata so:libEGL.so.1 so:libGLESv2.so.2 so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6OpenGL.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libwayland-client.so.0 so:libwayland-cursor.so.0 so:libwayland-egl.so.1 so:libxkbcommon.so.0
+origin	qt6-qtbase
+repo	community
+file	qt6-qtbase-wayland-6.11.1-r0.apk
+checksum	Q1CVcLbTbCyQSBvI72fAdf7c+b/mE=
+dep	tzdata	tzdata
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libGLESv2.so.2	mesa-gles
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6OpenGL.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor
+dep	so:libwayland-egl.so.1	wayland-libs-egl
+dep	so:libxkbcommon.so.0	libxkbcommon

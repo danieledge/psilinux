@@ -1,0 +1,13 @@
+name	emacs-lingva
+version	0_git20250208-r1
+description	Basic interface to Lingva (Google Translate alternative front-end)
+url	https://codeberg.org/martianh/lingva.el
+license	GPL-3.0-or-later
+size	8998
+installed-size	23943
+depends	cmd:emacs
+origin	emacs-lingva
+repo	community
+file	emacs-lingva-0_git20250208-r1.apk
+checksum	Q1zkRKbO5qJROI6QS1ME4C+j3uYQU=
+dep	cmd:emacs	emacs-gtk3

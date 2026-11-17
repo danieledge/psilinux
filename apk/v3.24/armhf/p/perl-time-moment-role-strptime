@@ -1,0 +1,15 @@
+name	perl-time-moment-role-strptime
+version	0.001-r1
+description	strptime(3) constructor for Time::Moment
+url	https://metacpan.org/release/Time-Moment-Role-Strptime/
+license	Artistic-2.0
+size	2774
+installed-size	2279
+depends	perl perl-role-tiny perl-time-moment
+origin	perl-time-moment-role-strptime
+repo	community
+file	perl-time-moment-role-strptime-0.001-r1.apk
+checksum	Q12rwCT2iEbrdGI813iQ4i7smQK4E=
+dep	perl	perl
+dep	perl-role-tiny	perl-role-tiny
+dep	perl-time-moment	perl-time-moment

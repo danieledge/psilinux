@@ -1,0 +1,23 @@
+name	tor
+version	0.4.9.17-r0
+description	Anonymous network connectivity
+url	https://www.torproject.org/
+license	BSD-3-Clause AND GPL-3.0-only
+size	6675398
+installed-size	30870484
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcap.so.2 so:libcrypto.so.3 so:libevent-2.1.so.7 so:libgcc_s.so.1 so:liblzma.so.5 so:libseccomp.so.2 so:libssl.so.3 so:libz.so.1 so:libzstd.so.1
+origin	tor
+repo	community
+file	tor-0.4.9.17-r0.apk
+checksum	Q1O8mgif+Rb2jk1Q/HJ9LN85AAH18=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libevent-2.1.so.7	libevent
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblzma.so.5	xz-libs
+dep	so:libseccomp.so.2	libseccomp
+dep	so:libssl.so.3	libssl3
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

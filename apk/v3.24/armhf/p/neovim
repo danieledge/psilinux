@@ -1,0 +1,27 @@
+name	neovim
+version	0.12.2-r0
+description	Vim-fork focused on extensibility and agility
+url	https://neovim.io/
+license	Apache-2.0 AND Vim
+size	6163194
+installed-size	20653085
+depends	lua5.1-lpeg tree-sitter-c tree-sitter-lua tree-sitter-markdown tree-sitter-vim tree-sitter-vimdoc tree-sitter-query so:libc.musl-armhf.so.1 so:libintl.so.8 so:libluajit-5.1.so.2 so:libluv.so.1 so:libtree-sitter.so.0.26 so:libunibilium.so.4 so:libutf8proc.so.3 so:libuv.so.1
+origin	neovim
+repo	community
+file	neovim-0.12.2-r0.apk
+checksum	Q1vKelrr1hI3Gt/NoIucsRwQU306A=
+dep	lua5.1-lpeg	lua5.1-lpeg
+dep	tree-sitter-c	tree-sitter-c
+dep	tree-sitter-lua	tree-sitter-lua
+dep	tree-sitter-markdown	tree-sitter-markdown
+dep	tree-sitter-vim	tree-sitter-vim
+dep	tree-sitter-vimdoc	tree-sitter-vimdoc
+dep	tree-sitter-query	tree-sitter-query
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libintl.so.8	libintl
+dep	so:libluajit-5.1.so.2	luajit
+dep	so:libluv.so.1	libluv
+dep	so:libtree-sitter.so.0.26	tree-sitter
+dep	so:libunibilium.so.4	unibilium
+dep	so:libutf8proc.so.3	utf8proc
+dep	so:libuv.so.1	libuv

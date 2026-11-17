@@ -1,0 +1,14 @@
+name	iec16022-dev
+version	0.3.1-r0
+description	DataMatrix 2D barcode generator (development files)
+url	https://rdoeffinger.github.io/
+license	GPL-2.0-or-later
+size	15237
+installed-size	26379
+depends	iec16022=0.3.1-r0 pkgconfig
+origin	iec16022
+repo	community
+file	iec16022-dev-0.3.1-r0.apk
+checksum	Q1uzCSzhEYjuEfM4DWPaIw2JXGw4E=
+dep	iec16022=0.3.1-r0	iec16022
+dep	pkgconfig	pkgconf

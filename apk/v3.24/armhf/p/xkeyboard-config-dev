@@ -1,0 +1,14 @@
+name	xkeyboard-config-dev
+version	2.47-r0
+description	X keyboard configuration files (development files)
+url	https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config
+license	MIT
+size	1775
+installed-size	167
+depends	xkeyboard-config pkgconfig
+origin	xkeyboard-config
+repo	main
+file	xkeyboard-config-dev-2.47-r0.apk
+checksum	Q10FhY/loy1jpfXmmuanCmc2Ma9rQ=
+dep	xkeyboard-config	xkeyboard-config
+dep	pkgconfig	pkgconf

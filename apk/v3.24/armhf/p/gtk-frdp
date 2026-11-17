@@ -1,0 +1,24 @@
+name	gtk-frdp
+version	3.37.1_git20240313-r2
+description	RDP viewer widget for GTK
+url	https://gitlab.gnome.org/GNOME/gtk-frdp
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	28737
+installed-size	64876
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libfreerdp-client3.so.3 so:libfreerdp3.so.3 so:libfuse3.so.4 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libwinpr3.so.3
+origin	gtk-frdp
+repo	community
+file	gtk-frdp-3.37.1_git20240313-r2.apk
+checksum	Q1GBSLSVqGMYUBmD7TLMvYEY4KbhY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libfreerdp-client3.so.3	freerdp-libs
+dep	so:libfreerdp3.so.3	freerdp-libs
+dep	so:libfuse3.so.4	fuse3-libs
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libwinpr3.so.3	freerdp-libs

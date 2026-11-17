@@ -1,0 +1,21 @@
+name	spice-gtk-tools
+version	0.42-r0
+description	GTK+ widget for SPICE clients (tooling)
+url	https://www.spice-space.org/spice-gtk.html
+license	LGPL-2.1-or-later
+size	26411
+installed-size	68040
+depends	libcap-ng so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstreamer-1.0.so.0 so:libgtk-3.so.0 so:libspice-client-glib-2.0.so.8 so:libspice-client-gtk-3.0.so.5
+origin	spice-gtk
+repo	community
+file	spice-gtk-tools-0.42-r0.apk
+checksum	Q1XC7JQsO98VTzDXbQO79LpAmOC74=
+dep	libcap-ng	libcap-ng
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libspice-client-glib-2.0.so.8	spice-glib
+dep	so:libspice-client-gtk-3.0.so.5	spice-gtk

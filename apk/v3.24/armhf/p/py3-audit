@@ -1,0 +1,17 @@
+name	py3-audit
+version	4.1.2-r6
+description	Python audit module
+url	https://people.redhat.com/sgrubb/audit/
+license	LGPL-2.1-or-later
+size	50243
+installed-size	175895
+depends	python3 python3~3.14 so:libaudit.so.1 so:libauparse.so.0 so:libc.musl-armhf.so.1
+origin	audit
+repo	main
+file	py3-audit-4.1.2-r6.apk
+checksum	Q187b0V8jkYUgDBIAIYOqychIn4c8=
+dep	python3	python3
+dep	python3~3.14	python3
+dep	so:libaudit.so.1	audit-libs
+dep	so:libauparse.so.0	audit-libs
+dep	so:libc.musl-armhf.so.1	musl

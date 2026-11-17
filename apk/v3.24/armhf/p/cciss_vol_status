@@ -1,0 +1,13 @@
+name	cciss_vol_status
+version	1.12a-r2
+description	Drivers for the HP (previously Compaq) Smart Array controllers which provide hardware RAID capability
+url	https://cciss.sourceforge.net/
+license	GPL-2.0-or-later
+size	19929
+installed-size	39444
+depends	so:libc.musl-armhf.so.1
+origin	cciss_vol_status
+repo	main
+file	cciss_vol_status-1.12a-r2.apk
+checksum	Q1iO7p9euXdE8Ddz+pNIEZcy7ss/k=
+dep	so:libc.musl-armhf.so.1	musl

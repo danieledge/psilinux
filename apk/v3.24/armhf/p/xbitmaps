@@ -1,0 +1,14 @@
+name	xbitmaps
+version	1.1.4-r0
+description	X.org header files with bitmaps
+url	https://xorg.freedesktop.org/
+license	MIT
+size	27693
+installed-size	180762
+depends	util-macros pkgconfig
+origin	xbitmaps
+repo	community
+file	xbitmaps-1.1.4-r0.apk
+checksum	Q1hH0c0Yr4hGOyv0lMMQqycC8U17I=
+dep	util-macros	util-macros
+dep	pkgconfig	pkgconf

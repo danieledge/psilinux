@@ -1,0 +1,16 @@
+name	heirloom-doctools
+version	191015-r6
+description	The Heirloom Documentation Tools
+url	http://n-t-roff.github.io/heirloom/doctools.html
+license	CDDL-1.1
+size	1166420
+installed-size	3080308
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	heirloom-doctools
+repo	community
+file	heirloom-doctools-191015-r6.apk
+checksum	Q14DTTLTIRltxN1jTKpvwgH2QpQ+s=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

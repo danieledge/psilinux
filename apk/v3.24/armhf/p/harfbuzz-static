@@ -1,0 +1,13 @@
+name	harfbuzz-static
+version	13.2.1-r0
+description	Text shaping library (static library)
+url	https://harfbuzz.github.io/
+license	MIT
+size	41044943
+installed-size	57084146
+depends	harfbuzz-dev
+origin	harfbuzz
+repo	main
+file	harfbuzz-static-13.2.1-r0.apk
+checksum	Q1NGtK6I/ojHE7ntxisEYFnzUpdZc=
+dep	harfbuzz-dev	harfbuzz-dev

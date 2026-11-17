@@ -1,0 +1,17 @@
+name	drbd-utils
+version	9.34.0-r0
+description	Network-based RAID 1
+url	https://www.drbd.org
+license	GPL-2.0-or-later
+size	641425
+installed-size	1665686
+depends	bash so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkeyutils.so.1 so:libstdc++.so.6
+origin	drbd-utils
+repo	main
+file	drbd-utils-9.34.0-r0.apk
+checksum	Q1fFoz6QRSHZCy7mtcoX7I+eoFb0U=
+dep	bash	bash
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libkeyutils.so.1	keyutils-libs
+dep	so:libstdc++.so.6	libstdc++

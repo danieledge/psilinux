@@ -1,0 +1,15 @@
+name	sqlite-dev
+version	3.53.4-r0
+description	C library that implements an SQL database engine (development files)
+url	https://www.sqlite.org/
+license	blessing
+size	186437
+installed-size	730274
+depends	sqlite=3.53.4-r0 sqlite-libs=3.53.4-r0 pkgconfig
+origin	sqlite
+repo	main
+file	sqlite-dev-3.53.4-r0.apk
+checksum	Q1EkPjMx6RelkY7GRTEy7B7k+Kf1k=
+dep	sqlite=3.53.4-r0	sqlite
+dep	sqlite-libs=3.53.4-r0	sqlite-libs
+dep	pkgconfig	pkgconf

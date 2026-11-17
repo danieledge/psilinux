@@ -1,0 +1,13 @@
+name	s390-tools
+version	2.42.1-r0
+description	Tools for use with the s390 Linux kernel and device drivers
+url	https://github.com/ibm-s390-tools/s390-tools
+license	MIT
+size	11759
+installed-size	24148
+depends	bash
+origin	s390-tools
+repo	main
+file	s390-tools-2.42.1-r0.apk
+checksum	Q15PhoGXBopVOikxXqeBQzQIwcNRw=
+dep	bash	bash

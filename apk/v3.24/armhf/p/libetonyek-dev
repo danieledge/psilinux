@@ -1,0 +1,24 @@
+name	libetonyek-dev
+version	0.1.13-r0
+description	Import filter and tools for Apple Keynote presentations (development files)
+url	https://wiki.documentfoundation.org/DLP/Libraries/libetonyek
+license	MPL-2.0
+size	3849
+installed-size	5474
+depends	glm-dev boost-dev librevenge-dev libxml2-dev zlib-dev liblangtag-dev libetonyek=0.1.13-r0 pc:liblangtag pc:librevenge-0.0 pc:libxml-2.0 pc:zlib pkgconfig
+origin	libetonyek
+repo	community
+file	libetonyek-dev-0.1.13-r0.apk
+checksum	Q1B1YKxeryPYtYPzFYFN5/1K0MI2E=
+dep	glm-dev	glm-dev
+dep	boost-dev	boost-dev
+dep	librevenge-dev	librevenge-dev
+dep	libxml2-dev	libxml2-dev
+dep	zlib-dev	zlib-dev
+dep	liblangtag-dev	liblangtag-dev
+dep	libetonyek=0.1.13-r0	libetonyek
+dep	pc:liblangtag	liblangtag-dev
+dep	pc:librevenge-0.0	librevenge-dev
+dep	pc:libxml-2.0	libxml2-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

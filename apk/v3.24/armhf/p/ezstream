@@ -1,0 +1,16 @@
+name	ezstream
+version	1.0.2-r5
+description	Ezstream is a command line source client for Icecast media streaming servers
+url	https://icecast.org/ezstream/
+license	GPL-2.0
+size	59405
+installed-size	156915
+depends	so:libc.musl-armhf.so.1 so:libshout.so.3 so:libtag_c.so.2 so:libxml2.so.2
+origin	ezstream
+repo	community
+file	ezstream-1.0.2-r5.apk
+checksum	Q1/D+RocbQ63/HokdbyVJTD4QwSKI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libshout.so.3	libshout
+dep	so:libtag_c.so.2	libtag_c
+dep	so:libxml2.so.2	libxml2

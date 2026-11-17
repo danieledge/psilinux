@@ -1,0 +1,14 @@
+name	texmf-dist-langczechslovak
+version	2026.0-r0
+description	texmf-dist: Czech/Slovak
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	2388441
+installed-size	3884957
+depends	texmf-dist texmf-dist-latex
+origin	texmf-dist
+repo	community
+file	texmf-dist-langczechslovak-2026.0-r0.apk
+checksum	Q11PXC7AbMODVZnvXqijnS/JWiJgk=
+dep	texmf-dist	texmf-dist
+dep	texmf-dist-latex	texmf-dist-latex

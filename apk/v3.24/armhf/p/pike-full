@@ -1,0 +1,23 @@
+name	pike-full
+version	8.0.2040-r1
+description	Meta package for Pike programming language
+url	https://pike.lysator.liu.se/
+license	GPL-2.0-or-later
+size	1292
+installed-size	0
+depends	pike=8.0.2040-r1 pike-doc=8.0.2040-r1 pike-bzip2=8.0.2040-r1 pike-gdbm=8.0.2040-r1 pike-gl=8.0.2040-r1 pike-gtk=8.0.2040-r1 pike-image=8.0.2040-r1 pike-pcre=8.0.2040-r1 pike-sdl=8.0.2040-r1 pike-svg=8.0.2040-r1 pike-sqlite=8.0.2040-r1
+origin	pike
+repo	community
+file	pike-full-8.0.2040-r1.apk
+checksum	Q1PasNLPX5RawNUM+fXvdCXC06nNI=
+dep	pike=8.0.2040-r1	pike
+dep	pike-doc=8.0.2040-r1	pike-doc
+dep	pike-bzip2=8.0.2040-r1	pike-bzip2
+dep	pike-gdbm=8.0.2040-r1	pike-gdbm
+dep	pike-gl=8.0.2040-r1	pike-gl
+dep	pike-gtk=8.0.2040-r1	pike-gtk
+dep	pike-image=8.0.2040-r1	pike-image
+dep	pike-pcre=8.0.2040-r1	pike-pcre
+dep	pike-sdl=8.0.2040-r1	pike-sdl
+dep	pike-svg=8.0.2040-r1	pike-svg
+dep	pike-sqlite=8.0.2040-r1	pike-sqlite

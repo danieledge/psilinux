@@ -1,0 +1,16 @@
+name	xapian-bindings-perl
+version	2.0.0-r0
+description	Perl bindings for the Xapian search engine library
+url	http://www.xapian.org
+license	GPL-2.0-or-later
+size	373047
+installed-size	1419390
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libxapian.so.45
+origin	xapian-bindings
+repo	community
+file	xapian-bindings-perl-2.0.0-r0.apk
+checksum	Q16TsXwt8ZF4ejJMyqftPeZzgmRLo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxapian.so.45	libxapian

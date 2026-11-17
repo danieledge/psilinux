@@ -1,0 +1,15 @@
+name	freeradius-postgresql
+version	3.0.27-r3
+description	PostgreSQL module for FreeRADIUS server
+url	https://freeradius.org/
+license	GPL-2.0-or-later
+size	35220
+installed-size	119681
+depends	freeradius-sql=3.0.27-r3 so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	freeradius
+repo	main
+file	freeradius-postgresql-3.0.27-r3.apk
+checksum	Q1q6uX4DjtlOpFHhrbIdtAKujwN60=
+dep	freeradius-sql=3.0.27-r3	freeradius-sql
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

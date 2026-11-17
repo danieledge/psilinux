@@ -1,0 +1,16 @@
+name	imagemagick-pdf
+version	7.1.2.35-r0
+description	Collection of tools and libraries for many image formats (PDF support modules)
+url	https://imagemagick.org/
+license	ImageMagick
+size	53849
+installed-size	111538
+depends	so:libMagickCore-7.Q16HDRI.so.10 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgs.so.10
+origin	imagemagick
+repo	community
+file	imagemagick-pdf-7.1.2.35-r0.apk
+checksum	Q1TtE6yVw+KZbZ9hqO8jTXKxg3XxA=
+dep	so:libMagickCore-7.Q16HDRI.so.10	imagemagick-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgs.so.10	ghostscript

@@ -1,0 +1,13 @@
+name	lexbor
+version	2.6.0-r0
+description	Open source HTML Renderer library
+url	http://lexbor.com
+license	Apache-2.0
+size	1359216
+installed-size	5319600
+depends	so:libc.musl-armhf.so.1
+origin	lexbor
+repo	community
+file	lexbor-2.6.0-r0.apk
+checksum	Q1rrVmCkr7P1xZIswi9d8woW8sae0=
+dep	so:libc.musl-armhf.so.1	musl

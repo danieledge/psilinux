@@ -1,0 +1,14 @@
+name	netavark
+version	1.17.2-r0
+description	Container network stack
+url	https://github.com/containers/netavark
+license	Apache-2.0
+size	2210494
+installed-size	4762252
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	netavark
+repo	community
+file	netavark-1.17.2-r0.apk
+checksum	Q1AnJK5bg/Y065HlHWbIvGSKOEyCY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

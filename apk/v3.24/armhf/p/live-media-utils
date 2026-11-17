@@ -1,0 +1,19 @@
+name	live-media-utils
+version	2023.01.19-r0
+description	multimedia RTSP streaming tools
+url	http://live555.com/liveMedia
+license	LGPL-3.0-or-later
+size	95909
+installed-size	387488
+depends	so:libBasicUsageEnvironment.so.2 so:libUsageEnvironment.so.3 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgroupsock.so.30 so:libliveMedia.so.107 so:libstdc++.so.6
+origin	live-media
+repo	community
+file	live-media-utils-2023.01.19-r0.apk
+checksum	Q1W6jT8YAx8jjoSHECXsGSg3C+vaw=
+dep	so:libBasicUsageEnvironment.so.2	live-media
+dep	so:libUsageEnvironment.so.3	live-media
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgroupsock.so.30	live-media
+dep	so:libliveMedia.so.107	live-media
+dep	so:libstdc++.so.6	libstdc++

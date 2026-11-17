@@ -1,0 +1,14 @@
+name	direnv
+version	2.37.1-r9
+description	Environment variable switcher for the shell
+url	https://direnv.net
+license	MIT
+size	3477569
+installed-size	8659020
+depends	bash so:libc.musl-armhf.so.1
+origin	direnv
+repo	community
+file	direnv-2.37.1-r9.apk
+checksum	Q1CVHis5XHC4GBGCTfLYDPmIttGYM=
+dep	bash	bash
+dep	so:libc.musl-armhf.so.1	musl

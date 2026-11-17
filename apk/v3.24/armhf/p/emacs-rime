@@ -1,0 +1,18 @@
+name	emacs-rime
+version	1.0.5_git20251105-r1
+description	RIME in Emacs
+url	https://github.com/DogLooksGood/emacs-rime
+license	GPL-3.0-or-later
+size	34177
+installed-size	121176
+depends	cmd:emacs emacs-dash emacs-popup emacs-posframe so:libc.musl-armhf.so.1 so:librime.so.1
+origin	emacs-rime
+repo	community
+file	emacs-rime-1.0.5_git20251105-r1.apk
+checksum	Q1t4a4RyO8oD8ugpRRd7pWKHTPMMU=
+dep	cmd:emacs	emacs-gtk3
+dep	emacs-dash	emacs-dash
+dep	emacs-popup	emacs-popup
+dep	emacs-posframe	emacs-posframe
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:librime.so.1	librime

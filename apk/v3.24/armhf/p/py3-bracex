@@ -1,0 +1,14 @@
+name	py3-bracex
+version	2.6-r1
+description	brace expanding library (à la Bash) for Python
+url	https://facelessuser.github.io/bracex/
+license	MIT
+size	11292
+installed-size	29876
+depends	py3-hatchling python3~3.14
+origin	py3-bracex
+repo	community
+file	py3-bracex-2.6-r1.apk
+checksum	Q1ZjhQMKYf632xqwiAqlSnh0033eI=
+dep	py3-hatchling	py3-hatchling
+dep	python3~3.14	python3

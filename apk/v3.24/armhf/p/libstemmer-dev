@@ -1,0 +1,13 @@
+name	libstemmer-dev
+version	2.2.0-r0
+description	Header files and development libraries for libstemmer (development files)
+url	https://snowballstem.org/
+license	BSD-3-Clause
+size	297504
+installed-size	930567
+depends	libstemmer=2.2.0-r0
+origin	snowball
+repo	main
+file	libstemmer-dev-2.2.0-r0.apk
+checksum	Q1P6ymLXxtLKgUjmwvZWO+9cSHmCw=
+dep	libstemmer=2.2.0-r0	libstemmer

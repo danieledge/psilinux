@@ -1,0 +1,21 @@
+name	lpairs2
+version	2.3.2-r0
+description	Classical memory game
+url	https://lgames.sourceforge.io/LPairs/
+license	GPL-2.0-or-later
+size	143458
+installed-size	193162
+depends	lpairs2-data so:libSDL2-2.0.so.0 so:libSDL2_image-2.0.so.0 so:libSDL2_mixer-2.0.so.0 so:libSDL2_ttf-2.0.so.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libintl.so.8 so:libstdc++.so.6
+origin	lpairs2
+repo	community
+file	lpairs2-2.3.2-r0.apk
+checksum	Q1tURdDv092H8S0eky7kC2QYHAEnA=
+dep	lpairs2-data	lpairs2-data
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libSDL2_image-2.0.so.0	sdl2_image
+dep	so:libSDL2_mixer-2.0.so.0	sdl2_mixer
+dep	so:libSDL2_ttf-2.0.so.0	sdl2_ttf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libintl.so.8	libintl
+dep	so:libstdc++.so.6	libstdc++

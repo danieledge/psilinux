@@ -1,0 +1,19 @@
+name	sane-backend-genesys
+version	1.4.0-r4
+description	SANE backend for GL646, GL841, GL843, GL847 and GL124 based USB flatbed scanners
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	401094
+installed-size	984040
+depends	sane so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libtiff.so.6 so:libusb-1.0.so.0 so:libxml2.so.2
+origin	sane
+repo	community
+file	sane-backend-genesys-1.4.0-r4.apk
+checksum	Q1knHhFmXEj8QdPWCXnAB+WdabnSQ=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtiff.so.6	tiff
+dep	so:libusb-1.0.so.0	libusb
+dep	so:libxml2.so.2	libxml2

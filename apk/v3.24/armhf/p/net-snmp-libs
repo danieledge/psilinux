@@ -1,0 +1,14 @@
+name	net-snmp-libs
+version	5.9.5.2-r0
+description	The NET-SNMP runtime client libraries
+url	http://www.net-snmp.org/
+license	Net-SNMP
+size	614755
+installed-size	2379446
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	net-snmp
+repo	main
+file	net-snmp-libs-5.9.5.2-r0.apk
+checksum	Q1v6XQ3NtADXcDj9M0sACitLobz9Y=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

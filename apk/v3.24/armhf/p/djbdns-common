@@ -1,0 +1,13 @@
+name	djbdns-common
+version	1.05-r55
+description	Base utilities of djbdns
+url	https://cr.yp.to/djbdns.html
+license	Public-Domain
+size	27404
+installed-size	59976
+depends	so:libc.musl-armhf.so.1
+origin	djbdns
+repo	main
+file	djbdns-common-1.05-r55.apk
+checksum	Q191i0jxkNNnazIWRTxuZYu3UTc7k=
+dep	so:libc.musl-armhf.so.1	musl

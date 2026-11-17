@@ -1,0 +1,13 @@
+name	liburing
+version	2.14-r0
+description	Linux kernel io_uring access library
+url	https://git.kernel.dk/cgit/liburing/
+license	LGPL-2.1-or-later OR MIT
+size	11157
+installed-size	21732
+depends	so:libc.musl-armhf.so.1
+origin	liburing
+repo	main
+file	liburing-2.14-r0.apk
+checksum	Q14fe37bsI+KRS3hh60Lpl5QpzpC0=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,29 @@
+name	snort
+version	3.9.2.0-r0
+description	Open source network intrusion prevention and detection system
+url	https://www.snort.org/
+license	GPL-2.0-only
+size	1813728
+installed-size	7588252
+depends	bash /bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libdaq.so.3 so:libdnet.so.1 so:libgcc_s.so.1 so:libhwloc.so.15 so:libluajit-5.1.so.2 so:liblzma.so.5 so:libmnl.so.0 so:libpcap.so.1 so:libpcre2-8.so.0 so:libstdc++.so.6 so:libtirpc.so.3 so:libuuid.so.1 so:libz.so.1
+origin	snort
+repo	main
+file	snort-3.9.2.0-r0.apk
+checksum	Q1IZX8YLjpR4pIO6nV84ulMjq6fZ8=
+dep	bash	bash
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libdaq.so.3	daq
+dep	so:libdnet.so.1	libdnet
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libhwloc.so.15	hwloc
+dep	so:libluajit-5.1.so.2	luajit
+dep	so:liblzma.so.5	xz-libs
+dep	so:libmnl.so.0	libmnl
+dep	so:libpcap.so.1	libpcap
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtirpc.so.3	libtirpc
+dep	so:libuuid.so.1	libuuid
+dep	so:libz.so.1	zlib

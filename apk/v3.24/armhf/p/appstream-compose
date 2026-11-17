@@ -1,0 +1,25 @@
+name	appstream-compose
+version	1.1.2-r0
+description	Building blocks to compose AppStream metadata
+url	https://distributions.freedesktop.org/wiki/AppStream
+license	LGPL-2.1-or-later
+size	110120
+installed-size	281992
+depends	so:libappstream.so.5 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libfontconfig.so.1 so:libfreetype.so.6 so:libfyaml.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:librsvg-2.so.2
+origin	appstream
+repo	community
+file	appstream-compose-1.1.2-r0.apk
+checksum	Q1H3/Nz34QVmUrKsY0mzogIbKSTOw=
+dep	so:libappstream.so.5	appstream
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libfyaml.so.0	libfyaml
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:librsvg-2.so.2	librsvg

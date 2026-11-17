@@ -1,0 +1,21 @@
+name	networkmanager-initrd-generator
+version	1.52.2-r0
+description	Early boot NetworkManager configuration generator
+url	https://networkmanager.dev
+license	GPL-2.0-or-later
+size	252797
+installed-size	562940
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libnspr4.so so:libnss3.so so:libsmime3.so
+origin	networkmanager
+repo	community
+file	networkmanager-initrd-generator-1.52.2-r0.apk
+checksum	Q1Ig0hNr/dFZYrB0gR3HsfarGEqUA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libnspr4.so	nspr
+dep	so:libnss3.so	nss
+dep	so:libsmime3.so	nss

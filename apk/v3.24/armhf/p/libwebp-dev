@@ -1,0 +1,18 @@
+name	libwebp-dev
+version	1.6.0-r0
+description	Libraries for working with WebP images (development files)
+url	https://developers.google.com/speed/webp
+license	BSD-3-Clause
+size	30720
+installed-size	112455
+depends	libsharpyuv=1.6.0-r0 libwebp=1.6.0-r0 libwebpdecoder=1.6.0-r0 libwebpdemux=1.6.0-r0 libwebpmux=1.6.0-r0 pkgconfig
+origin	libwebp
+repo	main
+file	libwebp-dev-1.6.0-r0.apk
+checksum	Q1Hlz1NoqgMIF3p9euvFE3F2bIncQ=
+dep	libsharpyuv=1.6.0-r0	libsharpyuv
+dep	libwebp=1.6.0-r0	libwebp
+dep	libwebpdecoder=1.6.0-r0	libwebpdecoder
+dep	libwebpdemux=1.6.0-r0	libwebpdemux
+dep	libwebpmux=1.6.0-r0	libwebpmux
+dep	pkgconfig	pkgconf

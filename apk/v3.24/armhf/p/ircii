@@ -1,0 +1,16 @@
+name	ircii
+version	20260115-r1
+description	Universal IRC for Unix systems
+url	http://www.eterna23.net/ircii/
+license	BSD-3-Clause
+size	424728
+installed-size	1057823
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libncursesw.so.6 so:libssl.so.3
+origin	ircii
+repo	community
+file	ircii-20260115-r1.apk
+checksum	Q1/5fk0FA6HMMMNEFucyuBabuYw9o=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libssl.so.3	libssl3

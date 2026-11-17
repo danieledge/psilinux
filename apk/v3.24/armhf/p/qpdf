@@ -1,0 +1,16 @@
+name	qpdf
+version	12.3.2-r0
+description	Command-line tools and library for transforming PDF files
+url	https://github.com/qpdf/qpdf
+license	Apache-2.0
+size	8113
+installed-size	23400
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libqpdf.so.30 so:libstdc++.so.6
+origin	qpdf
+repo	community
+file	qpdf-12.3.2-r0.apk
+checksum	Q1TmjEiFwmAaWRKRdG8MamjGR7CkA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libqpdf.so.30	qpdf-libs
+dep	so:libstdc++.so.6	libstdc++

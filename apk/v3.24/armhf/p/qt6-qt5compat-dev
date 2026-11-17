@@ -1,0 +1,17 @@
+name	qt6-qt5compat-dev
+version	6.11.1-r0
+description	Module that contains unsupported Qt 5 APIs (development files)
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	45753
+installed-size	195097
+depends	qt6-qtbase-dev qt6-qtbase-private-dev qt6-qt5compat=6.11.1-r0 pc:Qt6Core pkgconfig
+origin	qt6-qt5compat
+repo	community
+file	qt6-qt5compat-dev-6.11.1-r0.apk
+checksum	Q1WjWQE9sBRhXBTveRvm6I0kG+HzM=
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	qt6-qtbase-private-dev	qt6-qtbase-private-dev
+dep	qt6-qt5compat=6.11.1-r0	qt6-qt5compat
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

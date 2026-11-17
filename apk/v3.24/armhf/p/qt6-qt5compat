@@ -1,0 +1,18 @@
+name	qt6-qt5compat
+version	6.11.1-r0
+description	Module that contains unsupported Qt 5 APIs
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	157186
+installed-size	358317
+depends	icu-data-full so:libQt6Core.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libicuuc.so.78 so:libstdc++.so.6
+origin	qt6-qt5compat
+repo	community
+file	qt6-qt5compat-6.11.1-r0.apk
+checksum	Q1uKZryfboNLhpKAj1RBeOkR6uqLE=
+dep	icu-data-full	icu-data-full
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libstdc++.so.6	libstdc++

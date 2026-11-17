@@ -1,0 +1,15 @@
+name	ofono-dev
+version	2.19-r1
+description	Infrastructure for building mobile telephony (GSM/UMTS) applications (development files)
+url	https://01.org/ofono
+license	GPL-2.0-only
+size	21123
+installed-size	94449
+depends	pc:dbus-1 pc:glib-2.0 pkgconfig
+origin	ofono
+repo	community
+file	ofono-dev-2.19-r1.apk
+checksum	Q1g4Szjgu7uHm7EOM69pavxRhVhP4=
+dep	pc:dbus-1	dbus-dev
+dep	pc:glib-2.0	glib-dev
+dep	pkgconfig	pkgconf

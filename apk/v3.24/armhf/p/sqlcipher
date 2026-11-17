@@ -1,0 +1,16 @@
+name	sqlcipher
+version	4.6.1-r1
+description	SQLCipher is an SQLite extension that provides 256 bit AES encryption of database files.
+url	https://www.zetetic.net/sqlcipher/
+license	BSD-3-Clause
+size	701725
+installed-size	1331412
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libreadline.so.8 so:libz.so.1
+origin	sqlcipher
+repo	community
+file	sqlcipher-4.6.1-r1.apk
+checksum	Q1ZXWcEI0dtnlN2A9Ci29vzO1NzWo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libreadline.so.8	readline
+dep	so:libz.so.1	zlib

@@ -1,0 +1,14 @@
+name	nginx-mod-http-cache-purge
+version	1.30.6-r0
+description	Nginx third-party module http-cache-purge (version 3.0.4)
+url	https://github.com/nginx-modules/ngx_cache_purge
+license	BSD-2-Clause
+size	13693
+installed-size	30362
+depends	nginx=1.30.6-r0 so:libc.musl-armhf.so.1
+origin	nginx
+repo	main
+file	nginx-mod-http-cache-purge-1.30.6-r0.apk
+checksum	Q131RiEpyobIL1DRzGzT6l5YkDv/M=
+dep	nginx=1.30.6-r0	nginx
+dep	so:libc.musl-armhf.so.1	musl

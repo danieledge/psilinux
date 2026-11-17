@@ -1,0 +1,18 @@
+name	py3-xmlsec
+version	1.3.17-r2
+description	Python bindings for the XML Security Library
+url	https://pypi.python.org/project/xmlsec
+license	MIT
+size	43997
+installed-size	137139
+depends	py3-lxml xmlsec python3~3.14 so:libc.musl-armhf.so.1 so:libxml2.so.2 so:libxmlsec1.so.10311
+origin	py3-xmlsec
+repo	community
+file	py3-xmlsec-1.3.17-r2.apk
+checksum	Q1T3hKZ3lE2kwwrJO+HFPH3V+nirY=
+dep	py3-lxml	py3-lxml
+dep	xmlsec	xmlsec
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxml2.so.2	libxml2
+dep	so:libxmlsec1.so.10311	xmlsec

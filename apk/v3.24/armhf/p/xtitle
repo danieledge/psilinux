@@ -1,0 +1,16 @@
+name	xtitle
+version	0.4.4-r2
+description	Outputs X window titles
+url	https://github.com/baskerville/xtitle
+license	Unlicense
+size	6166
+installed-size	13484
+depends	so:libc.musl-armhf.so.1 so:libxcb-ewmh.so.2 so:libxcb-icccm.so.4 so:libxcb.so.1
+origin	xtitle
+repo	community
+file	xtitle-0.4.4-r2.apk
+checksum	Q1C7BpnqA8OU5/iVuoeSAOhbl7FCA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxcb-ewmh.so.2	xcb-util-wm
+dep	so:libxcb-icccm.so.4	xcb-util-wm
+dep	so:libxcb.so.1	libxcb

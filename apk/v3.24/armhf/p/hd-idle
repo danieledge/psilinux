@@ -1,0 +1,13 @@
+name	hd-idle
+version	1.22-r8
+description	Spin down idle hard disks
+url	https://github.com/adelolmo/hd-idle
+license	GPL-3.0-only
+size	941837
+installed-size	2240388
+depends	so:libc.musl-armhf.so.1
+origin	hd-idle
+repo	community
+file	hd-idle-1.22-r8.apk
+checksum	Q193Yd3fGe2VbjxW9ijDSG7PZEltU=
+dep	so:libc.musl-armhf.so.1	musl

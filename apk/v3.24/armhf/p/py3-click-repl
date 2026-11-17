@@ -1,0 +1,17 @@
+name	py3-click-repl
+version	0.3.0-r6
+description	Subcommand REPL for click apps
+url	https://github.com/click-contrib/click-repl
+license	MIT
+size	10828
+installed-size	27479
+depends	python3 py3-click py3-prompt_toolkit py3-typing-extensions python3~3.14
+origin	py3-click-repl
+repo	community
+file	py3-click-repl-0.3.0-r6.apk
+checksum	Q1gyzyvy79+jT0FKZo8UDpb2WcMxI=
+dep	python3	python3
+dep	py3-click	py3-click
+dep	py3-prompt_toolkit	py3-prompt_toolkit
+dep	py3-typing-extensions	py3-typing-extensions
+dep	python3~3.14	python3

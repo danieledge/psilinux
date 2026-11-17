@@ -1,0 +1,13 @@
+name	lowdown-libs
+version	3.0.1-r0
+description	Simple markdown translator (libraries)
+url	https://kristaps.bsd.lv/lowdown/
+license	ISC
+size	116328
+installed-size	238960
+depends	so:libc.musl-armhf.so.1
+origin	lowdown
+repo	community
+file	lowdown-libs-3.0.1-r0.apk
+checksum	Q1d9M4bpn3FMccxPUTjAkuEJ9Mw9Q=
+dep	so:libc.musl-armhf.so.1	musl

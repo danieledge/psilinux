@@ -1,0 +1,15 @@
+name	git-gitk
+version	2.54.1-r0
+description	Gitk interface for git
+url	https://www.git-scm.com/
+license	GPL-2.0-only
+size	181492
+installed-size	906782
+depends	git=2.54.1-r0 tcl tk
+origin	git
+repo	main
+file	git-gitk-2.54.1-r0.apk
+checksum	Q1k/Zmttng56EkK7yo1tdIGYn0hpM=
+dep	git=2.54.1-r0	git
+dep	tcl	tcl
+dep	tk	tk

@@ -1,0 +1,13 @@
+name	yamlfmt
+version	0.21.0-r7
+description	An extensible command line tool or library to format yaml files
+url	https://github.com/google/yamlfmt
+license	Apache-2.0
+size	1911649
+installed-size	4779444
+depends	so:libc.musl-armhf.so.1
+origin	yamlfmt
+repo	community
+file	yamlfmt-0.21.0-r7.apk
+checksum	Q1+tX3RYf0GlEw2jkFdXef+J0uZIc=
+dep	so:libc.musl-armhf.so.1	musl

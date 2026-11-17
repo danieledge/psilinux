@@ -1,0 +1,13 @@
+name	sdb
+version	2.3.4-r1
+description	Key-value database with support for arrays and json
+url	https://github.com/radareorg/sdb
+license	MIT
+size	63205
+installed-size	140628
+depends	so:libc.musl-armhf.so.1
+origin	sdb
+repo	community
+file	sdb-2.3.4-r1.apk
+checksum	Q16uClJBGj24DY2ieIa1b4pErr6Ys=
+dep	so:libc.musl-armhf.so.1	musl

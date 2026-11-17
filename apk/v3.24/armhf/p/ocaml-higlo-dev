@@ -1,0 +1,15 @@
+name	ocaml-higlo-dev
+version	0.9-r3
+description	Syntax highlighting library (development files)
+url	https://framagit.org/zoggy/higlo
+license	LGPL-3.0-only
+size	692701
+installed-size	1930824
+depends	ocaml-higlo=0.9-r3 ocaml-sedlex-dev ocaml-xtmpl-dev
+origin	ocaml-higlo
+repo	community
+file	ocaml-higlo-dev-0.9-r3.apk
+checksum	Q1fS5T7VOzs9si0mC23JStx1NalZA=
+dep	ocaml-higlo=0.9-r3	ocaml-higlo
+dep	ocaml-sedlex-dev	ocaml-sedlex-dev
+dep	ocaml-xtmpl-dev	ocaml-xtmpl-dev

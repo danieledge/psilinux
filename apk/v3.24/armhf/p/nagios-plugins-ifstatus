@@ -1,0 +1,14 @@
+name	nagios-plugins-ifstatus
+version	2.5-r0
+description	Nagios plugin check_ifstatus
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	6310
+installed-size	14464
+depends	nagios-plugins perl
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-ifstatus-2.5-r0.apk
+checksum	Q1YKxYoU9IACTnf3Wi3oA8AOSgJ5I=
+dep	nagios-plugins	nagios-plugins
+dep	perl	perl

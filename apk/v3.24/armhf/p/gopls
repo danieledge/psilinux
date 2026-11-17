@@ -1,0 +1,13 @@
+name	gopls
+version	0.21.1-r5
+description	Language server for Go programming language
+url	https://github.com/golang/tools/blob/master/gopls
+license	BSD-3-Clause
+size	10877244
+installed-size	29350996
+depends	so:libc.musl-armhf.so.1
+origin	gopls
+repo	community
+file	gopls-0.21.1-r5.apk
+checksum	Q1x+ouwgWW4XqR2Oeq9p9pHzjvK0k=
+dep	so:libc.musl-armhf.so.1	musl

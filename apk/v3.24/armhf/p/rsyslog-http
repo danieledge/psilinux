@@ -1,0 +1,15 @@
+name	rsyslog-http
+version	8.2608.0-r0
+description	rsyslog omhttp and fmhttp module
+url	https://www.rsyslog.com/
+license	Apache-2.0 AND GPL-3.0-or-later AND LGPL-3.0-or-later
+size	25289
+installed-size	56516
+depends	rsyslog=8.2608.0-r0 so:libc.musl-armhf.so.1 so:libcurl.so.4
+origin	rsyslog
+repo	main
+file	rsyslog-http-8.2608.0-r0.apk
+checksum	Q1qgvQTrIJhXCMTB2nO6cFvJiAsew=
+dep	rsyslog=8.2608.0-r0	rsyslog
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl

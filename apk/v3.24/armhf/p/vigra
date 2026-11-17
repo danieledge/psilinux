@@ -1,0 +1,19 @@
+name	vigra
+version	1.12.3-r1
+description	An image processing and analysis library
+url	http://ukoethe.github.io/vigra/
+license	MIT
+size	126647
+installed-size	320896
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libjpeg.so.8 so:libpng16.so.16 so:libstdc++.so.6 so:libtiff.so.6 so:libz.so.1
+origin	vigra
+repo	community
+file	vigra-1.12.3-r1.apk
+checksum	Q1w6qUerqSQHbFsfAfajEITrdj9v0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtiff.so.6	tiff
+dep	so:libz.so.1	zlib

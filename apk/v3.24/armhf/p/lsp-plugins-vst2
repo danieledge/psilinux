@@ -1,0 +1,23 @@
+name	lsp-plugins-vst2
+version	1.2.29-r0
+description	Collection of free plugins compatible with LADSPA, LV2 and LinuxVST (vst2 plugins)
+url	https://lsp-plug.in
+license	LGPL-3.0-or-later
+size	3890197
+installed-size	11396488
+depends	liblsp-r3d-glx-lib=1.2.29-r0 so:libGL.so.1 so:libX11.so.6 so:libXrandr.so.2 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libsndfile.so.1 so:libstdc++.so.6
+origin	lsp-plugins
+repo	community
+file	lsp-plugins-vst2-1.2.29-r0.apk
+checksum	Q1lehJuYsQrMMKuBbX1zNlzaGQlbc=
+dep	liblsp-r3d-glx-lib=1.2.29-r0	liblsp-r3d-glx-lib
+dep	so:libGL.so.1	mesa-gl
+dep	so:libX11.so.6	libx11
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsndfile.so.1	libsndfile
+dep	so:libstdc++.so.6	libstdc++

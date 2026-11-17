@@ -1,0 +1,16 @@
+name	redict-compat
+version	7.3.6-r0
+description	Redict command symlinks and system group for compatibility with redis
+url	https://redict.io/
+license	LGPL-3.0-only
+size	2047
+installed-size	1
+depends	!redis !valkey-compat /bin/sh redict-benchmark=7.3.6-r0 redict-cli=7.3.6-r0 redict=7.3.6-r0
+origin	redict
+repo	community
+file	redict-compat-7.3.6-r0.apk
+checksum	Q1bJnNfX0nRmaA0E83mXNjTGtJOkw=
+dep	/bin/sh	busybox-binsh
+dep	redict-benchmark=7.3.6-r0	redict-benchmark
+dep	redict-cli=7.3.6-r0	redict-cli
+dep	redict=7.3.6-r0	redict

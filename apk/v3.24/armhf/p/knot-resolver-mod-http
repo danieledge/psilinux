@@ -1,0 +1,14 @@
+name	knot-resolver-mod-http
+version	5.7.7-r0
+description	Knot Resolver - HTTP/2 services
+url	https://www.knot-resolver.cz/
+license	GPL-3.0-or-later
+size	266446
+installed-size	899245
+depends	knot-resolver=5.7.7-r0 lua5.1-mmdb
+origin	knot-resolver
+repo	community
+file	knot-resolver-mod-http-5.7.7-r0.apk
+checksum	Q1DgCyMDRCUQIW8s9Q+gn1Pki0XEQ=
+dep	knot-resolver=5.7.7-r0	knot-resolver
+dep	lua5.1-mmdb	lua5.1-mmdb

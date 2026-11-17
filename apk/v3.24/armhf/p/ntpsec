@@ -1,0 +1,23 @@
+name	ntpsec
+version	1.2.5-r0
+description	NTP reference implementation, refactored for security
+url	https://www.ntpsec.org/
+license	BSD-2-Clause
+size	395174
+installed-size	1048810
+depends	bash python3 py3-gpsd python3~3.14 so:libbsd.so.0 so:libc.musl-armhf.so.1 so:libcap.so.2 so:libcrypto.so.3 so:libdns_sd.so.1 so:libgcc_s.so.1 so:libssl.so.3
+origin	ntpsec
+repo	community
+file	ntpsec-1.2.5-r0.apk
+checksum	Q1LvayPY4U6VBWlCtCiLGh+XgW5SA=
+dep	bash	bash
+dep	python3	python3
+dep	py3-gpsd	py3-gpsd
+dep	python3~3.14	python3
+dep	so:libbsd.so.0	libbsd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libdns_sd.so.1	avahi-compat-libdns_sd
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3

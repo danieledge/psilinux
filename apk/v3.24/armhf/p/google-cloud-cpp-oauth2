@@ -1,0 +1,16 @@
+name	google-cloud-cpp-oauth2
+version	2.47.0-r0
+description	C++ Client Libraries for Google Cloud Services (oauth2)
+url	https://cloud.google.com/sdk
+license	Apache-2.0
+size	4601
+installed-size	9600
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgoogle_cloud_cpp_rest_internal.so.2 so:libstdc++.so.6
+origin	google-cloud-cpp
+repo	community
+file	google-cloud-cpp-oauth2-2.47.0-r0.apk
+checksum	Q1yJ1Jnmp5G7a/DM/46lKUwXSPd+I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgoogle_cloud_cpp_rest_internal.so.2	google-cloud-cpp-rest_internal
+dep	so:libstdc++.so.6	libstdc++

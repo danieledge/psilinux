@@ -1,0 +1,21 @@
+name	perl-graphviz
+version	2.26-r1
+description	Interface to AT&T's GraphViz. Deprecated. See GraphViz2
+url	https://metacpan.org/release/GraphViz/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	26125
+installed-size	81626
+depends	perl perl-libwww perl-file-which perl-xml-twig perl-xml-xpath perl-ipc-run perl-parse-recdescent perl-module-build perl-test2-suite
+origin	perl-graphviz
+repo	community
+file	perl-graphviz-2.26-r1.apk
+checksum	Q1m1y7t/HcRezMF/SAvrN55pF+K2w=
+dep	perl	perl
+dep	perl-libwww	perl-libwww
+dep	perl-file-which	perl-file-which
+dep	perl-xml-twig	perl-xml-twig
+dep	perl-xml-xpath	perl-xml-xpath
+dep	perl-ipc-run	perl-ipc-run
+dep	perl-parse-recdescent	perl-parse-recdescent
+dep	perl-module-build	perl-module-build
+dep	perl-test2-suite	perl-test-simple

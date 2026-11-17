@@ -1,0 +1,19 @@
+name	libgedit-gtksourceview-dev
+version	299.7.0-r0
+description	Gedit Technology — source code editing widget (development files)
+url	https://gitlab.gnome.org/World/gedit/libgedit-gtksourceview
+license	LGPL-2.1-or-later
+size	105885
+installed-size	1066077
+depends	libgedit-gtksourceview=299.7.0-r0 pc:gio-2.0>=2.74 pc:gtk+-3.0>=3.24 pc:libgedit-amtk-5>=5.10 pc:libgedit-gfls-1>=0.4 pc:libxml-2.0 pkgconfig
+origin	libgedit-gtksourceview
+repo	community
+file	libgedit-gtksourceview-dev-299.7.0-r0.apk
+checksum	Q1HZGzZnH60fC9+Z52YADnu53Uxs8=
+dep	libgedit-gtksourceview=299.7.0-r0	libgedit-gtksourceview
+dep	pc:gio-2.0>=2.74	glib-dev
+dep	pc:gtk+-3.0>=3.24	gtk+3.0-dev
+dep	pc:libgedit-amtk-5>=5.10	libgedit-amtk-dev
+dep	pc:libgedit-gfls-1>=0.4	libgedit-gfls-dev
+dep	pc:libxml-2.0	libxml2-dev
+dep	pkgconfig	pkgconf

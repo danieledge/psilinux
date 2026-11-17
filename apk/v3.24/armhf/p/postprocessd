@@ -1,0 +1,23 @@
+name	postprocessd
+version	0.3.0-r7
+description	Queueing megapixels post-processor
+url	https://git.sr.ht/~martijnbraam/postprocessd
+license	GPL-3.0-only
+size	19323
+installed-size	56168
+depends	so:libc.musl-armhf.so.1 so:libexif.so.12 so:libgcc_s.so.1 so:libjpeg.so.8 so:libopencv_core.so.412 so:libopencv_imgproc.so.412 so:libopencv_video.so.412 so:libopencv_videostab.so.412 so:libraw.so.25 so:libstdc++.so.6 so:libtiff.so.6
+origin	postprocessd
+repo	community
+file	postprocessd-0.3.0-r7.apk
+checksum	Q1IUff5COA3cw6cUFf6UkqSiGdKFA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexif.so.12	libexif
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libopencv_core.so.412	libopencv_core
+dep	so:libopencv_imgproc.so.412	libopencv_imgproc
+dep	so:libopencv_video.so.412	libopencv_video
+dep	so:libopencv_videostab.so.412	libopencv_videostab
+dep	so:libraw.so.25	libraw
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtiff.so.6	tiff

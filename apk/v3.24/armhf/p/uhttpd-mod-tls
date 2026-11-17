@@ -1,0 +1,14 @@
+name	uhttpd-mod-tls
+version	0_git20250406-r1
+description	Tiny HTTP server from OpenWrt - TLS support
+url	https://openwrt.org/docs/guide-user/services/webserver/uhttpd
+license	ISC
+size	1312
+installed-size	0
+depends	uhttpd=0_git20250406-r1 ustream-ssl
+origin	uhttpd
+repo	community
+file	uhttpd-mod-tls-0_git20250406-r1.apk
+checksum	Q1Xbxs7AZ/668mJJg2ZZu4UXsLudk=
+dep	uhttpd=0_git20250406-r1	uhttpd
+dep	ustream-ssl	ustream-ssl

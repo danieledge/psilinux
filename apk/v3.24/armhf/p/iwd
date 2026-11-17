@@ -1,0 +1,15 @@
+name	iwd
+version	3.12-r0
+description	Internet Wireless Daemon
+url	https://iwd.wiki.kernel.org/
+license	LGPL-2.1-or-later
+size	940932
+installed-size	2204149
+depends	dbus so:libc.musl-armhf.so.1 so:libreadline.so.8
+origin	iwd
+repo	community
+file	iwd-3.12-r0.apk
+checksum	Q1f+ETaloJTpGQ9obydeUrjkdIGg0=
+dep	dbus	dbus
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libreadline.so.8	readline

@@ -1,0 +1,14 @@
+name	ckermit
+version	9.0.302-r7
+description	Portable scriptable network and serial communication software
+url	http://www.columbia.edu/kermit/ck90.html
+license	custom
+size	1073329
+installed-size	2633315
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	ckermit
+repo	community
+file	ckermit-9.0.302-r7.apk
+checksum	Q1dE0cI4znEA+/g/6kGawioD65h74=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

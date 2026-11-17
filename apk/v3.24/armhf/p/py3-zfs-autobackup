@@ -1,0 +1,14 @@
+name	py3-zfs-autobackup
+version	3.3-r1
+description	ZFS autobackup is used to periodically backup ZFS filesystems to other locations.
+url	https://github.com/psy0rz/zfs_autobackup
+license	GPL-3.0-only
+size	56313
+installed-size	200391
+depends	py3-colorama python3~3.14
+origin	py3-zfs-autobackup
+repo	community
+file	py3-zfs-autobackup-3.3-r1.apk
+checksum	Q1QpEVvSdc1KAryiuv67zTkXT3lP0=
+dep	py3-colorama	py3-colorama
+dep	python3~3.14	python3

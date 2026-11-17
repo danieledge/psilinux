@@ -1,0 +1,14 @@
+name	signify
+version	32-r1
+description	OpenBSD tool to sign and verify signatures on files
+url	https://github.com/aperezdc/signify
+license	ISC
+size	60554
+installed-size	161064
+depends	so:libbsd.so.0 so:libc.musl-armhf.so.1
+origin	signify
+repo	community
+file	signify-32-r1.apk
+checksum	Q16T681ytHn/vfhloYhZTsTNy4M5k=
+dep	so:libbsd.so.0	libbsd
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	texmf-dist-langchinese-examples
+version	2026.0-r0
+description	texmf-dist: Chinese (examples and documentation)
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	52720522
+installed-size	59689350
+depends	texmf-dist-langchinese texmf-dist-langchinese-doc
+origin	texmf-dist
+repo	community
+file	texmf-dist-langchinese-examples-2026.0-r0.apk
+checksum	Q1vWXpezQrje51lnnS4toJar6okLs=
+dep	texmf-dist-langchinese	texmf-dist-langchinese
+dep	texmf-dist-langchinese-doc	texmf-dist-langchinese-doc

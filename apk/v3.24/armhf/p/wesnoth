@@ -1,0 +1,35 @@
+name	wesnoth
+version	1.18.7-r0
+description	turn-based strategy game in fantasy world
+url	https://www.wesnoth.org
+license	GPL-2.0-only
+size	453252036
+installed-size	574724552
+depends	so:libSDL2-2.0.so.0 so:libSDL2_image-2.0.so.0 so:libSDL2_mixer-2.0.so.0 so:libboost_context.so.1.84.0 so:libboost_filesystem.so.1.84.0 so:libboost_iostreams.so.1.84.0 so:libboost_locale.so.1.84.0 so:libboost_program_options.so.1.84.0 so:libboost_random.so.1.84.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcrypto.so.3 so:libcurl.so.4 so:libdbus-1.so.3 so:libfontconfig.so.1 so:libgcc_s.so.1 so:libgobject-2.0.so.0 so:libhistory.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libvorbisfile.so.3
+origin	wesnoth
+repo	community
+file	wesnoth-1.18.7-r0.apk
+checksum	Q14M11/diewX9Yz8TLvVW+OrFKHMA=
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libSDL2_image-2.0.so.0	sdl2_image
+dep	so:libSDL2_mixer-2.0.so.0	sdl2_mixer
+dep	so:libboost_context.so.1.84.0	boost1.84-context
+dep	so:libboost_filesystem.so.1.84.0	boost1.84-filesystem
+dep	so:libboost_iostreams.so.1.84.0	boost1.84-iostreams
+dep	so:libboost_locale.so.1.84.0	boost1.84-locale
+dep	so:libboost_program_options.so.1.84.0	boost1.84-program_options
+dep	so:libboost_random.so.1.84.0	boost1.84-random
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libhistory.so.8	libhistory
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libvorbisfile.so.3	libvorbis

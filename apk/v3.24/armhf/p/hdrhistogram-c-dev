@@ -1,0 +1,15 @@
+name	hdrhistogram-c-dev
+version	0.11.9-r0
+description	High Dynamic Range (HDR) Histogram in C (development files)
+url	https://github.com/HdrHistogram/HdrHistogram_c
+license	BSD-2-Clause
+size	12231
+installed-size	43257
+depends	hdrhistogram-c=0.11.9-r0 pc:zlib pkgconfig
+origin	hdrhistogram-c
+repo	community
+file	hdrhistogram-c-dev-0.11.9-r0.apk
+checksum	Q1VcTmwWbxiuv+0NA0hRKnZTd6DvE=
+dep	hdrhistogram-c=0.11.9-r0	hdrhistogram-c
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

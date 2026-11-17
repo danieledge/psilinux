@@ -1,0 +1,16 @@
+name	collectd-openrc-plugin
+version	0.2.1-r1
+description	Collectd plugin that collects information about APK packages
+url	https://github.com/jirutka/collectd-apk
+license	GPL-2.0-or-later
+size	5259
+installed-size	9748
+depends	collectd>=5.12 so:libc.musl-armhf.so.1 so:libjson-c.so.5 so:librc.so.1
+origin	collectd-openrc-plugin
+repo	community
+file	collectd-openrc-plugin-0.2.1-r1.apk
+checksum	Q1xw5cWwCn5zb6qo+b6D2I73XfQMI=
+dep	collectd>=5.12	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjson-c.so.5	json-c
+dep	so:librc.so.1	openrc

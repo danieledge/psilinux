@@ -1,0 +1,14 @@
+name	py3-pytest-order
+version	1.4.0-r0
+description	pytest plugin that allows to customize the test execution order
+url	https://github.com/pytest-dev/pytest-order
+license	MIT
+size	14953
+installed-size	48602
+depends	py3-pytest python3~3.14
+origin	py3-pytest-order
+repo	community
+file	py3-pytest-order-1.4.0-r0.apk
+checksum	Q1coSeVMQHl+fSNzwIsJ+F8hIBiM8=
+dep	py3-pytest	py3-pytest
+dep	python3~3.14	python3

@@ -1,0 +1,24 @@
+name	libgweather4
+version	4.6.0-r0
+description	GNOME weather library
+url	https://gitlab.gnome.org/GNOME/libgweather
+license	LGPL-2.1-or-later
+size	67236
+installed-size	160623
+depends	tzdata gsettings-desktop-schemas gweather-locations so:libc.musl-armhf.so.1 so:libgeocode-glib-2.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libsoup-3.0.so.0 so:libxml2.so.2
+origin	libgweather4
+repo	community
+file	libgweather4-4.6.0-r0.apk
+checksum	Q1MJRA7pXSPp7/OxiCFT/nubOqq0w=
+dep	tzdata	tzdata
+dep	gsettings-desktop-schemas	gsettings-desktop-schemas
+dep	gweather-locations	gweather-locations
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgeocode-glib-2.so.0	geocode-glib
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libxml2.so.2	libxml2

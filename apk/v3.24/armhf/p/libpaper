@@ -1,0 +1,13 @@
+name	libpaper
+version	2.2.6-r0
+description	Library for handling paper characteristics
+url	https://github.com/rrthomas/libpaper/
+license	LGPL-2.1-or-later OR MIT
+size	26921
+installed-size	58389
+depends	so:libc.musl-armhf.so.1
+origin	libpaper
+repo	main
+file	libpaper-2.2.6-r0.apk
+checksum	Q1793d4C7wSThHGPU525WYelL6JAg=
+dep	so:libc.musl-armhf.so.1	musl

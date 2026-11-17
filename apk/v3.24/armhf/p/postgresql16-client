@@ -1,0 +1,20 @@
+name	postgresql16-client
+version	16.16-r0
+description	PostgreSQL client
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	1228426
+installed-size	2886703
+depends	postgresql-common so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:liblz4.so.1 so:libpq.so.5 so:libreadline.so.8 so:libz.so.1 so:libzstd.so.1
+origin	postgresql16
+repo	community
+file	postgresql16-client-16.16-r0.apk
+checksum	Q1FRDfAB+TcQP1g2uvP/iDXs/iKwI=
+dep	postgresql-common	postgresql-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:liblz4.so.1	lz4-libs
+dep	so:libpq.so.5	libpq
+dep	so:libreadline.so.8	readline
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

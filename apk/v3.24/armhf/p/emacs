@@ -1,0 +1,13 @@
+name	emacs
+version	30.2-r3
+description	Extensible, customizable, self-documenting real-time display editor (common files)
+url	https://www.gnu.org/software/emacs/emacs.html
+license	GPL-3.0-or-later
+size	6504521
+installed-size	15103967
+depends	so:libc.musl-armhf.so.1
+origin	emacs
+repo	community
+file	emacs-30.2-r3.apk
+checksum	Q1q4K8cSZyLsKr0I+2DjoQhOCG2kk=
+dep	so:libc.musl-armhf.so.1	musl

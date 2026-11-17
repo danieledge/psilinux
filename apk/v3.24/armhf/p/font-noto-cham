@@ -1,0 +1,14 @@
+name	font-noto-cham
+version	2026.11.01-r0
+description	Noto Sans Cham font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	142666
+installed-size	289655
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-cham-2026.11.01-r0.apk
+checksum	Q11qrUvwJMM9EqIVqbRCXE2LIeewk=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

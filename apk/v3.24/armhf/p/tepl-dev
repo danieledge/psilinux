@@ -1,0 +1,24 @@
+name	tepl-dev
+version	6.4.0-r6
+description	Text editor product line (development files)
+url	https://gitlab.gnome.org/swilmet/tepl
+license	GPL-3.0-or-later
+size	72443
+installed-size	571778
+depends	amtk-dev glib-dev gtk+3.0-dev tepl=6.4.0-r6 pc:amtk-5>=5.0 pc:gio-2.0>=2.62 pc:gsettings-desktop-schemas pc:gtk+-3.0>=3.22 pc:gtksourceview-4 pc:icu-i18n pc:icu-uc pkgconfig
+origin	tepl
+repo	community
+file	tepl-dev-6.4.0-r6.apk
+checksum	Q1lmYEeOBdbKKdeobRV5Smp+Wrl2M=
+dep	amtk-dev	amtk-dev
+dep	glib-dev	glib-dev
+dep	gtk+3.0-dev	gtk+3.0-dev
+dep	tepl=6.4.0-r6	tepl
+dep	pc:amtk-5>=5.0	amtk-dev
+dep	pc:gio-2.0>=2.62	glib-dev
+dep	pc:gsettings-desktop-schemas	gsettings-desktop-schemas-dev
+dep	pc:gtk+-3.0>=3.22	gtk+3.0-dev
+dep	pc:gtksourceview-4	gtksourceview4-dev
+dep	pc:icu-i18n	icu-dev
+dep	pc:icu-uc	icu-dev
+dep	pkgconfig	pkgconf

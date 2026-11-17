@@ -1,0 +1,17 @@
+name	perl-mail-spf
+version	3.20250505-r0
+description	An object-oriented implementation of Sender Policy Framework
+url	https://metacpan.org/release/Mail-SPF/
+license	BSD-3-Clause
+size	41106
+installed-size	192234
+depends	perl perl-error perl-net-dns perl-uri perl-netaddr-ip
+origin	perl-mail-spf
+repo	main
+file	perl-mail-spf-3.20250505-r0.apk
+checksum	Q1tUjxBhVKeTB4v+Ms2b68Jv/qGkM=
+dep	perl	perl
+dep	perl-error	perl-error
+dep	perl-net-dns	perl-net-dns
+dep	perl-uri	perl-uri
+dep	perl-netaddr-ip	perl-netaddr-ip

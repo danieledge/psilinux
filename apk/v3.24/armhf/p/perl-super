@@ -1,0 +1,14 @@
+name	perl-super
+version	1.20190531-r3
+description	Control superclass method dispatch
+url	https://metacpan.org/release/SUPER/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	4617
+installed-size	7203
+depends	perl perl-sub-identify
+origin	perl-super
+repo	main
+file	perl-super-1.20190531-r3.apk
+checksum	Q1gbLvuxqTE8SFgQKagndjjay7VEA=
+dep	perl	perl
+dep	perl-sub-identify	perl-sub-identify

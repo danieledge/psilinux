@@ -1,0 +1,16 @@
+name	enchant2-libs
+version	2.8.15-r0
+description	wrapper library for generic spell checking (v2) (libraries)
+url	https://rrthomas.github.io/enchant/
+license	LGPL-2.1-or-later
+size	25160
+installed-size	58552
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0
+origin	enchant2
+repo	community
+file	enchant2-libs-2.8.15-r0.apk
+checksum	Q1H87OT5DN4FPC0M6p81q6gKgnyPk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

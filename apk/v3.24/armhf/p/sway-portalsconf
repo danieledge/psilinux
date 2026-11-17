@@ -1,0 +1,13 @@
+name	sway-portalsconf
+version	1.12_rc3-r0
+description	xdg-desktop-portal configuration of compatible portals for Sway
+url	https://swaywm.org/
+license	MIT
+size	1926
+installed-size	28
+depends	/bin/sh
+origin	sway
+repo	community
+file	sway-portalsconf-1.12_rc3-r0.apk
+checksum	Q1mtwwIObC+hWaZpSrn61BlVSFJUw=
+dep	/bin/sh	busybox-binsh

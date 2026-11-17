@@ -1,0 +1,12 @@
+name	alsa-utils-dbg
+version	1.2.15.2-r1
+description	Advanced Linux Sound Architecture (ALSA) utilities (debug symbols)
+url	https://alsa-project.org/
+license	GPL-2.0-or-later
+size	820349
+installed-size	1848040
+depends	!alsa-utils<1.2.15.2-r1 !alsa-utils>1.2.15.2-r1
+origin	alsa-utils
+repo	main
+file	alsa-utils-dbg-1.2.15.2-r1.apk
+checksum	Q1OuwX/egHDJHFbNMcWKuNTN+8qTU=

@@ -1,0 +1,13 @@
+name	sdl12-compat-static
+version	1.2.76-r1
+description	SDL-1.2 compat layer that uses SDL-2.0 (static library)
+url	https://github.com/libsdl-org/sdl12-compat
+license	BSD-3-Clause
+size	845184
+installed-size	1011312
+depends	sdl12-compat-dev
+origin	sdl12-compat
+repo	community
+file	sdl12-compat-static-1.2.76-r1.apk
+checksum	Q1BWM3aOWIRRDxld2z0oiV72nGUD0=
+dep	sdl12-compat-dev	sdl12-compat-dev

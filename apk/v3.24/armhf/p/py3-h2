@@ -1,0 +1,16 @@
+name	py3-h2
+version	4.1.0-r4
+description	HTTP/2 State-Machine based protocol implementation
+url	https://github.com/python-hyper/h2
+license	MIT
+size	53949
+installed-size	226979
+depends	python3 py3-hyperframe py3-hpack python3~3.14
+origin	py3-h2
+repo	community
+file	py3-h2-4.1.0-r4.apk
+checksum	Q1OHuTygWN6EIxnCetU1rrzWmvCuQ=
+dep	python3	python3
+dep	py3-hyperframe	py3-hyperframe
+dep	py3-hpack	py3-hpack
+dep	python3~3.14	python3

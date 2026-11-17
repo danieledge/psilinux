@@ -1,0 +1,15 @@
+name	astyle-libs
+version	3.6.16-r0
+description	Automatic code formatter (libraries)
+url	https://sourceforge.net/projects/astyle/
+license	MIT
+size	103895
+installed-size	247068
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	astyle
+repo	community
+file	astyle-libs-3.6.16-r0.apk
+checksum	Q12YXHQsBYlYIcAVLDQBvqBvDDtog=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

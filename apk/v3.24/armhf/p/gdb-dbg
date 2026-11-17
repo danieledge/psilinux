@@ -1,0 +1,12 @@
+name	gdb-dbg
+version	16.3-r4
+description	The GNU Debugger (debug symbols)
+url	https://www.gnu.org/software/gdb/
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	20739075
+installed-size	59839724
+depends	!gdb-multiarch<16.3-r4 !gdb-multiarch>16.3-r4 !gdb<16.3-r4 !gdb>16.3-r4
+origin	gdb
+repo	main
+file	gdb-dbg-16.3-r4.apk
+checksum	Q1p7UaJy0LZ+NT9UNpbcrRK8yVe4A=

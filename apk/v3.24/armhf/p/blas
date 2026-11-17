@@ -1,0 +1,15 @@
+name	blas
+version	3.12.1-r1
+description	The Basic Linear Algebra Subprograms library
+url	https://www.netlib.org/lapack/
+license	BSD-3-Clause
+size	315177
+installed-size	664804
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgfortran.so.5
+origin	lapack
+repo	community
+file	blas-3.12.1-r1.apk
+checksum	Q1PSxgIJPLYiq6/Z77THR4FRFoQgE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgfortran.so.5	libgfortran

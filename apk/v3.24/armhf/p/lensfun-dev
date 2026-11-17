@@ -1,0 +1,15 @@
+name	lensfun-dev
+version	0.3.4-r2
+description	Image manipulation library to rectify lens defects (development files)
+url	https://lensfun.github.io/
+license	LGPL-3.0-or-later
+size	23243
+installed-size	97230
+depends	lensfun=0.3.4-r2 pc:glib-2.0 pkgconfig
+origin	lensfun
+repo	community
+file	lensfun-dev-0.3.4-r2.apk
+checksum	Q1v6K/ZfooA/2mZrwMvNTUJ+zvSjk=
+dep	lensfun=0.3.4-r2	lensfun
+dep	pc:glib-2.0	glib-dev
+dep	pkgconfig	pkgconf

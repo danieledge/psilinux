@@ -1,0 +1,18 @@
+name	coeurl-dev
+version	0.3.2-r0
+description	Asynchronous wrapper around libcurl (development files)
+url	https://nheko.im/nheko-reborn/coeurl
+license	MIT
+size	5728
+installed-size	15034
+depends	coeurl=0.3.2-r0 pc:libcurl pc:libevent_core pc:libevent_pthreads pc:spdlog pkgconfig
+origin	coeurl
+repo	community
+file	coeurl-dev-0.3.2-r0.apk
+checksum	Q1UAEn8U+Uyz4/UVGUl6y+yNuPfFQ=
+dep	coeurl=0.3.2-r0	coeurl
+dep	pc:libcurl	curl-dev
+dep	pc:libevent_core	libevent-dev
+dep	pc:libevent_pthreads	libevent-dev
+dep	pc:spdlog	spdlog-dev
+dep	pkgconfig	pkgconf

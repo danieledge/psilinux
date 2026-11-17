@@ -1,0 +1,21 @@
+name	ticcutils
+version	0.36-r2
+description	Common library with shared functions for Frog, ucto, libfolia, timbl
+url	https://github.com/LanguageMachines/ticcutils
+license	GPL-3.0-only
+size	141597
+installed-size	374656
+depends	so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libicui18n.so.78 so:libicuio.so.78 so:libicuuc.so.78 so:libstdc++.so.6 so:libxml2.so.2 so:libz.so.1
+origin	ticcutils
+repo	community
+file	ticcutils-0.36-r2.apk
+checksum	Q1z3uocckunAbZKHGxu2TgEwWmr5s=
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuio.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

@@ -1,0 +1,14 @@
+name	kubo
+version	0.41.0-r3
+description	Inter Platnetary File System (IPFS), a peer-to-peer hypermedia distribution protocol
+url	https://ipfs.tech/
+license	MIT Apache-2.0
+size	29498922
+installed-size	80788640
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	kubo
+repo	community
+file	kubo-0.41.0-r3.apk
+checksum	Q1MX++oHHwZIn9AAnT2hLAEI+5huQ=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

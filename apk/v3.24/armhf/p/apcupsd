@@ -1,0 +1,16 @@
+name	apcupsd
+version	3.14.14-r6
+description	A Daemon to control APC UPSes
+url	http://www.apcupsd.org
+license	GPL-2.0-or-later
+size	278933
+installed-size	632589
+depends	util-linux so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libusb-0.1.so.4
+origin	apcupsd
+repo	main
+file	apcupsd-3.14.14-r6.apk
+checksum	Q1Y+NqcowJod1SWV4zusZ/Wz5JOwc=
+dep	util-linux	util-linux
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libusb-0.1.so.4	libusb-compat

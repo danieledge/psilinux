@@ -1,0 +1,20 @@
+name	chezdav
+version	3.0-r6
+description	A simple WebDAV server program
+url	https://gitlab.gnome.org/GNOME/phodav
+license	LGPL-2.0-or-later
+size	7103
+installed-size	13596
+depends	avahi so:libavahi-gobject.so.0 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libphodav-3.0.so.0 so:libsoup-3.0.so.0
+origin	phodav
+repo	community
+file	chezdav-3.0-r6.apk
+checksum	Q1kPCHD6Jdle86ZtAFBy7MDXbB95Q=
+dep	avahi	avahi
+dep	so:libavahi-gobject.so.0	avahi-glib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libphodav-3.0.so.0	phodav
+dep	so:libsoup-3.0.so.0	libsoup3

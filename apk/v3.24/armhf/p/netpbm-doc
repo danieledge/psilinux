@@ -1,0 +1,14 @@
+name	netpbm-doc
+version	11.14.0-r0
+description	Toolkit for manipulation of graphic images (documentation)
+url	https://netpbm.sourceforge.net/
+license	IJG AND BSD-3-Clause AND GPL-2.0-only
+size	599044
+installed-size	2089668
+depends	lynx perl
+origin	netpbm
+repo	community
+file	netpbm-doc-11.14.0-r0.apk
+checksum	Q13lGwwL3ucIBGE/o6HSonN7UElfs=
+dep	lynx	lynx
+dep	perl	perl

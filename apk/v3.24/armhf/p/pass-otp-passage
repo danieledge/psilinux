@@ -1,0 +1,15 @@
+name	pass-otp-passage
+version	1.2.0_git20250809-r1
+description	Passage support for pass-otp
+url	https://github.com/tadfisher/pass-otp
+license	GPL-3.0-only
+size	1652
+installed-size	1
+depends	libqrencode oath-toolkit-oathtool pass-otp=1.2.0_git20250809-r1
+origin	pass-otp
+repo	community
+file	pass-otp-passage-1.2.0_git20250809-r1.apk
+checksum	Q1Lz7J7VWTN66MkLtvut2PAiOd+b0=
+dep	libqrencode	libqrencode
+dep	oath-toolkit-oathtool	oath-toolkit-oathtool
+dep	pass-otp=1.2.0_git20250809-r1	pass-otp

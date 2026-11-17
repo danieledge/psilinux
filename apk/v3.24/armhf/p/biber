@@ -1,0 +1,55 @@
+name	biber
+version	2.21-r2
+description	Backend processor for BibLaTeX
+url	https://github.com/plk/biber
+license	Artistic-2.0
+size	249169
+installed-size	1307494
+depends	biblatex~3.21 perl perl-autovivification perl-business-isbn perl-business-ismn perl-business-issn perl-class-accessor perl-data-compare perl-data-dump perl-data-uniqid perl-date-simple perl-datetime-calendar-julian perl-datetime-format-builder perl-encode-eucjpascii perl-encode-hanextra perl-encode-jis2k perl-file-slurp perl-file-slurper perl-io-string perl-ipc-run3 perl-lingua-translit perl-list-allutils perl-list-moreutils perl-list-moreutils-xs perl-log-log4perl perl-lwp-protocol-https perl-mime-charset perl-mozilla-ca perl-namespace-autoclean perl-parse-recdescent perl-perlio-utf8_strict perl-regexp-common perl-sort-key perl-text-bibtex perl-text-csv perl-text-csv_xs perl-text-roman perl-unicode-collate perl-unicode-linebreak perl-xml-libxml perl-xml-libxml-simple perl-xml-libxslt perl-xml-writer
+origin	biber
+repo	community
+file	biber-2.21-r2.apk
+checksum	Q1eoLbzlmzp754Dt4RylS3AkpS32A=
+dep	biblatex~3.21	biblatex
+dep	perl	perl
+dep	perl-autovivification	perl-autovivification
+dep	perl-business-isbn	perl-business-isbn
+dep	perl-business-ismn	perl-business-ismn
+dep	perl-business-issn	perl-business-issn
+dep	perl-class-accessor	perl-class-accessor
+dep	perl-data-compare	perl-data-compare
+dep	perl-data-dump	perl-data-dump
+dep	perl-data-uniqid	perl-data-uniqid
+dep	perl-date-simple	perl-date-simple
+dep	perl-datetime-calendar-julian	perl-datetime-calendar-julian
+dep	perl-datetime-format-builder	perl-datetime-format-builder
+dep	perl-encode-eucjpascii	perl-encode-eucjpascii
+dep	perl-encode-hanextra	perl-encode-hanextra
+dep	perl-encode-jis2k	perl-encode-jis2k
+dep	perl-file-slurp	perl-file-slurp
+dep	perl-file-slurper	perl-file-slurper
+dep	perl-io-string	perl-io-string
+dep	perl-ipc-run3	perl-ipc-run3
+dep	perl-lingua-translit	perl-lingua-translit
+dep	perl-list-allutils	perl-list-allutils
+dep	perl-list-moreutils	perl-list-moreutils
+dep	perl-list-moreutils-xs	perl-list-moreutils-xs
+dep	perl-log-log4perl	perl-log-log4perl
+dep	perl-lwp-protocol-https	perl-lwp-protocol-https
+dep	perl-mime-charset	perl-mime-charset
+dep	perl-mozilla-ca	perl-mozilla-ca
+dep	perl-namespace-autoclean	perl-namespace-autoclean
+dep	perl-parse-recdescent	perl-parse-recdescent
+dep	perl-perlio-utf8_strict	perl-perlio-utf8_strict
+dep	perl-regexp-common	perl-regexp-common
+dep	perl-sort-key	perl-sort-key
+dep	perl-text-bibtex	perl-text-bibtex
+dep	perl-text-csv	perl-text-csv
+dep	perl-text-csv_xs	perl-text-csv_xs
+dep	perl-text-roman	perl-text-roman
+dep	perl-unicode-collate	perl-unicode-collate
+dep	perl-unicode-linebreak	perl-unicode-linebreak
+dep	perl-xml-libxml	perl-xml-libxml
+dep	perl-xml-libxml-simple	perl-xml-libxml-simple
+dep	perl-xml-libxslt	perl-xml-libxslt
+dep	perl-xml-writer	perl-xml-writer

@@ -1,0 +1,19 @@
+name	giblib-dev
+version	1.2.4-r14
+description	Giblib is a library that feh uses as a wrapper to imlib2 (development files)
+url	https://freshmeat.sourceforge.net/projects/giblib/
+license	MIT
+size	7669
+installed-size	31106
+depends	imlib2-dev freetype-dev zlib-dev libx11-dev libxext-dev giblib=1.2.4-r14 pkgconfig
+origin	giblib
+repo	community
+file	giblib-dev-1.2.4-r14.apk
+checksum	Q13WOcp6pqXjNZYpg9ugisIhy+ukI=
+dep	imlib2-dev	imlib2-dev
+dep	freetype-dev	freetype-dev
+dep	zlib-dev	zlib-dev
+dep	libx11-dev	libx11-dev
+dep	libxext-dev	libxext-dev
+dep	giblib=1.2.4-r14	giblib
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	libmodplug-dev
+version	0.8.9.0-r3
+description	A MOD playing library (development files)
+url	https://modplug-xmms.sourceforge.net/
+license	custom
+size	16075
+installed-size	45083
+depends	libmodplug=0.8.9.0-r3 pkgconfig
+origin	libmodplug
+repo	community
+file	libmodplug-dev-0.8.9.0-r3.apk
+checksum	Q1yyg60YkWcY6yYrFPkYHyPSo1eG8=
+dep	libmodplug=0.8.9.0-r3	libmodplug
+dep	pkgconfig	pkgconf

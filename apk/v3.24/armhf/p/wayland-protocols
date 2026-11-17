@@ -1,0 +1,13 @@
+name	wayland-protocols
+version	1.48-r0
+description	Protocols and protocol extensions complementing the Wayland core protocol
+url	https://wayland.freedesktop.org
+license	MIT
+size	216052
+installed-size	1024990
+depends	pkgconfig
+origin	wayland-protocols
+repo	main
+file	wayland-protocols-1.48-r0.apk
+checksum	Q1HQe0eNiIoXe1CRPAfUblIKRAk5U=
+dep	pkgconfig	pkgconf

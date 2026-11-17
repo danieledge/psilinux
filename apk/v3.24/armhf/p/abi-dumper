@@ -1,0 +1,16 @@
+name	abi-dumper
+version	1.4-r3
+description	Dump ABI of an ELF object containing DWARF debug info
+url	https://github.com/lvc/abi-dumper
+license	LGPL-2.1-or-later
+size	37075
+installed-size	184964
+depends	build-base elfutils perl vtable-dumper
+origin	abi-dumper
+repo	community
+file	abi-dumper-1.4-r3.apk
+checksum	Q1A74SV18OeNB9sqbTayuDvIX/+NY=
+dep	build-base	build-base
+dep	elfutils	elfutils
+dep	perl	perl
+dep	vtable-dumper	vtable-dumper

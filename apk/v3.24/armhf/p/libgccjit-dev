@@ -1,0 +1,13 @@
+name	libgccjit-dev
+version	15.2.0-r5
+description	GCC JIT Library (development files)
+url	https://gcc.gnu.org
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	25274
+installed-size	120651
+depends	libgccjit
+origin	gcc
+repo	main
+file	libgccjit-dev-15.2.0-r5.apk
+checksum	Q1hal2/7QYbGiwiR/0HHPHkV42ilw=
+dep	libgccjit	libgccjit

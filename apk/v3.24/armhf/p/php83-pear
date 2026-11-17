@@ -1,0 +1,14 @@
+name	php83-pear
+version	8.3.36-r0
+description	PHP83 Extension and Application Repository
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	346198
+installed-size	1921104
+depends	php83 php83-xml
+origin	php83
+repo	community
+file	php83-pear-8.3.36-r0.apk
+checksum	Q1AfzOQDwzwaY/mddgkKwXS3HOWU4=
+dep	php83	php83
+dep	php83-xml	php83-xml

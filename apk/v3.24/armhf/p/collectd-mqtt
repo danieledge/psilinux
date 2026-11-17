@@ -1,0 +1,15 @@
+name	collectd-mqtt
+version	5.12.0-r25
+description	mqtt pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	7378
+installed-size	13540
+depends	collectd so:libc.musl-armhf.so.1 so:libmosquitto.so.1
+origin	collectd
+repo	community
+file	collectd-mqtt-5.12.0-r25.apk
+checksum	Q1LDPxO7LNAX5JXul9KtKzbjr05jc=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmosquitto.so.1	mosquitto-libs

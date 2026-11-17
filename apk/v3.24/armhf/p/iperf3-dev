@@ -1,0 +1,13 @@
+name	iperf3-dev
+version	3.20-r0
+description	Tool to measure IP bandwidth using UDP or TCP (development files)
+url	https://github.com/esnet/iperf
+license	BSD-3-Clause-LBNL
+size	8472
+installed-size	25483
+depends	iperf3=3.20-r0
+origin	iperf3
+repo	main
+file	iperf3-dev-3.20-r0.apk
+checksum	Q13TXmLN/N9Nr2h828/sQ8T9C/8b8=
+dep	iperf3=3.20-r0	iperf3

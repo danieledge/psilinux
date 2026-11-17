@@ -1,0 +1,15 @@
+name	py3-limits
+version	5.8.0-r1
+description	Rate limiting using various strategies and storage backends such as redis & memcached
+url	https://github.com/alisaifee/limits
+license	MIT
+size	44720
+installed-size	213234
+depends	py3-deprecated python3 python3~3.14
+origin	py3-limits
+repo	community
+file	py3-limits-5.8.0-r1.apk
+checksum	Q1eUuqHdVmFejscd9CLy5lXvbiPN0=
+dep	py3-deprecated	py3-deprecated
+dep	python3	python3
+dep	python3~3.14	python3

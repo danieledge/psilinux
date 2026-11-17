@@ -1,0 +1,15 @@
+name	php85-pecl-grpc
+version	1.81.0-r0
+description	PHP 8.5 extension provide a concrete implementation of the gRPC protocol, layered over HTTP/2.
+url	https://pecl.php.net/package/grpc
+license	Apache-2.0
+size	4578663
+installed-size	10341095
+depends	php85-common so:libc.musl-armhf.so.1 so:libstdc++.so.6
+origin	php85-pecl-grpc
+repo	community
+file	php85-pecl-grpc-1.81.0-r0.apk
+checksum	Q1BTLAasLvg/RH1vqyu2HnVkzjQ1U=
+dep	php85-common	php85-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libstdc++.so.6	libstdc++

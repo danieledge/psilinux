@@ -1,0 +1,16 @@
+name	baculum-web-lighttpd
+version	15.0.3-r0
+description	Lighttpd configuration for Baculum WebGUI
+url	https://bacula.org/
+license	AGPL-3.0-or-later
+size	2564
+installed-size	2238
+depends	baculum-web=15.0.3-r0 lighttpd lighttpd-mod_auth php83-cgi
+origin	baculum
+repo	community
+file	baculum-web-lighttpd-15.0.3-r0.apk
+checksum	Q1JoDyp3EKwnd3UNaKrLj7nqc2oUo=
+dep	baculum-web=15.0.3-r0	baculum-web
+dep	lighttpd	lighttpd
+dep	lighttpd-mod_auth	lighttpd-mod_auth
+dep	php83-cgi	php83-cgi

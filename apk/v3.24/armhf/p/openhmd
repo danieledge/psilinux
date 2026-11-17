@@ -1,0 +1,14 @@
+name	openhmd
+version	0.3.0-r4
+description	Free and Open Source API and drivers for immersive (VR) technology
+url	http://www.openhmd.net/
+license	BSL-1.0
+size	60028
+installed-size	116136
+depends	so:libc.musl-armhf.so.1 so:libhidapi-libusb.so.0
+origin	openhmd
+repo	community
+file	openhmd-0.3.0-r4.apk
+checksum	Q1sEa23aDEb96qOcQBoCJDce2d9kI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libhidapi-libusb.so.0	hidapi

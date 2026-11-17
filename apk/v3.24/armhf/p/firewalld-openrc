@@ -1,0 +1,12 @@
+name	firewalld-openrc
+version	2.4.1-r0
+description	Firewall daemon with D-Bus interface providing a dynamic firewall (OpenRC init scripts)
+url	https://github.com/firewalld/firewalld
+license	GPL-2.0-or-later
+size	1768
+installed-size	246
+depends	
+origin	firewalld
+repo	community
+file	firewalld-openrc-2.4.1-r0.apk
+checksum	Q1Elikd3TWRkDToVvy88zPYlFbr+c=

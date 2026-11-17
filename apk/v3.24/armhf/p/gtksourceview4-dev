@@ -1,0 +1,22 @@
+name	gtksourceview4-dev
+version	4.8.4-r4
+description	A text widget adding syntax highlighting and more to GNOME (development files)
+url	https://gitlab.gnome.org/GNOME/gtksourceview/-/tree/gtksourceview-4-8
+license	GPL-2.0-or-later
+size	119077
+installed-size	1207281
+depends	gtk+3.0-dev libxml2-dev gtksourceview4=4.8.4-r4 pc:fribidi>=0.19.7 pc:gio-2.0>=2.48 pc:glib-2.0>=2.48 pc:gobject-2.0>=2.48 pc:gtk+-3.0>=3.24 pc:libxml-2.0>=2.6 pkgconfig
+origin	gtksourceview4
+repo	community
+file	gtksourceview4-dev-4.8.4-r4.apk
+checksum	Q1JrGdwXfdd7GfVknHJEoqPvxX7tI=
+dep	gtk+3.0-dev	gtk+3.0-dev
+dep	libxml2-dev	libxml2-dev
+dep	gtksourceview4=4.8.4-r4	gtksourceview4
+dep	pc:fribidi>=0.19.7	fribidi-dev
+dep	pc:gio-2.0>=2.48	glib-dev
+dep	pc:glib-2.0>=2.48	glib-dev
+dep	pc:gobject-2.0>=2.48	glib-dev
+dep	pc:gtk+-3.0>=3.24	gtk+3.0-dev
+dep	pc:libxml-2.0>=2.6	libxml2-dev
+dep	pkgconfig	pkgconf

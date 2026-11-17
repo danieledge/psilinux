@@ -1,0 +1,14 @@
+name	fribidi-dev
+version	1.0.16-r3
+description	Free Implementation of the Unicode Bidirectional Algorithm (development files)
+url	https://github.com/fribidi/fribidi
+license	LGPL-2.1-or-later
+size	19507
+installed-size	79900
+depends	fribidi=1.0.16-r3 pkgconfig
+origin	fribidi
+repo	main
+file	fribidi-dev-1.0.16-r3.apk
+checksum	Q1dYKQpuFcYSweEGWbFWX8Ldv5HG4=
+dep	fribidi=1.0.16-r3	fribidi
+dep	pkgconfig	pkgconf

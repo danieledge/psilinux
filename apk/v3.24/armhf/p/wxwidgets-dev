@@ -1,0 +1,40 @@
+name	wxwidgets-dev
+version	3.2.9-r0
+description	wxWidgets GUI library (development files)
+url	https://www.wxwidgets.org/
+license	custom:wxWidgets
+size	1655626
+installed-size	7347181
+depends	expat-dev libjpeg-turbo-dev libsecret-dev libsm-dev curl-dev glu-dev gspell-dev gst-plugins-base-dev gstreamer-dev libnotify-dev pcre2-dev gtk+3.0-dev mesa-dev sdl2-dev webkit2gtk-4.1-dev tiff-dev qt5-qtbase-dev xz-dev zlib-dev wxwidgets-gtk3=3.2.9-r0 wxwidgets-qt5=3.2.9-r0 wxwidgets-webview=3.2.9-r0 wxwidgets=3.2.9-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libwx_baseu-3.2.so.0 so:libwx_baseu_xml-3.2.so.0
+origin	wxwidgets
+repo	community
+file	wxwidgets-dev-3.2.9-r0.apk
+checksum	Q1pv87fZmXcH4DB7scvNCTrSpf+a8=
+dep	expat-dev	expat-dev
+dep	libjpeg-turbo-dev	libjpeg-turbo-dev
+dep	libsecret-dev	libsecret-dev
+dep	libsm-dev	libsm-dev
+dep	curl-dev	curl-dev
+dep	glu-dev	glu-dev
+dep	gspell-dev	gspell-dev
+dep	gst-plugins-base-dev	gst-plugins-base-dev
+dep	gstreamer-dev	gstreamer-dev
+dep	libnotify-dev	libnotify-dev
+dep	pcre2-dev	pcre2-dev
+dep	gtk+3.0-dev	gtk+3.0-dev
+dep	mesa-dev	mesa-dev
+dep	sdl2-dev	sdl2-dev
+dep	webkit2gtk-4.1-dev	webkit2gtk-4.1-dev
+dep	tiff-dev	tiff-dev
+dep	qt5-qtbase-dev	qt5-qtbase-dev
+dep	xz-dev	xz-dev
+dep	zlib-dev	zlib-dev
+dep	wxwidgets-gtk3=3.2.9-r0	wxwidgets-gtk3
+dep	wxwidgets-qt5=3.2.9-r0	wxwidgets-qt5
+dep	wxwidgets-webview=3.2.9-r0	wxwidgets-webview
+dep	wxwidgets=3.2.9-r0	wxwidgets
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwx_baseu-3.2.so.0	wxwidgets
+dep	so:libwx_baseu_xml-3.2.so.0	wxwidgets

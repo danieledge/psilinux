@@ -1,0 +1,15 @@
+name	authephemeral
+version	6.0.6-r0
+description	Kamailio auth ephemeral (webrtc)
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	38880
+installed-size	92116
+depends	kamailio so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	kamailio
+repo	main
+file	authephemeral-6.0.6-r0.apk
+checksum	Q1o0eIq3k7jKjz0cvqNhJe/1PHSaE=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

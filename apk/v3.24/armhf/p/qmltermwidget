@@ -1,0 +1,21 @@
+name	qmltermwidget
+version	0.2.0_git20221028-r0
+description	QML port of qtermwidget
+url	https://github.com/gber/qmltermwidget
+license	GPL-2.0-or-later
+size	221103
+installed-size	599018
+depends	so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt5Network.so.5 so:libQt5Qml.so.5 so:libQt5Quick.so.5 so:libQt5Widgets.so.5 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	qmltermwidget
+repo	community
+file	qmltermwidget-0.2.0_git20221028-r0.apk
+checksum	Q1GjcVj7Q2UsbFnWXBMwjVvSlXAp4=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Gui.so.5	qt5-qtbase-x11
+dep	so:libQt5Network.so.5	qt5-qtbase
+dep	so:libQt5Qml.so.5	qt5-qtdeclarative
+dep	so:libQt5Quick.so.5	qt5-qtdeclarative
+dep	so:libQt5Widgets.so.5	qt5-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

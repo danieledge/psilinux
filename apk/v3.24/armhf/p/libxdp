@@ -1,0 +1,14 @@
+name	libxdp
+version	1.6.3-r1
+description	A library and utilities for use with XDP
+url	https://github.com/xdp-project/xdp-tools
+license	BSD-2-Clause AND GPL-2.0-only AND GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later
+size	36364
+installed-size	92004
+depends	so:libbpf.so.1 so:libc.musl-armhf.so.1
+origin	xdp-tools
+repo	community
+file	libxdp-1.6.3-r1.apk
+checksum	Q1Xi8DOhr0hds0iPnMBePsv/K8Zn4=
+dep	so:libbpf.so.1	libbpf
+dep	so:libc.musl-armhf.so.1	musl

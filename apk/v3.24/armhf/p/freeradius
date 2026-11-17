@@ -1,0 +1,22 @@
+name	freeradius
+version	3.0.27-r3
+description	RADIUS (Remote Authentication Dial-In User Service) server
+url	https://freeradius.org/
+license	GPL-2.0-or-later
+size	515462
+installed-size	1474612
+depends	freeradius-lib=3.0.27-r3 /bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libfreeradius-radius.so so:libfreeradius-server.so so:libgdbm.so.6 so:libreadline.so.8 so:libssl.so.3 so:libtalloc.so.2
+origin	freeradius
+repo	main
+file	freeradius-3.0.27-r3.apk
+checksum	Q1ZM9T4npACRYBTGqCYRKv9lri+0o=
+dep	freeradius-lib=3.0.27-r3	freeradius-lib
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libfreeradius-radius.so	freeradius-lib
+dep	so:libfreeradius-server.so	freeradius-lib
+dep	so:libgdbm.so.6	gdbm
+dep	so:libreadline.so.8	readline
+dep	so:libssl.so.3	libssl3
+dep	so:libtalloc.so.2	talloc

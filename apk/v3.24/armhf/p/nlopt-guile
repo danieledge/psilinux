@@ -1,0 +1,19 @@
+name	nlopt-guile
+version	2.11.0-r0
+description	Library for nonlinear optimization (Guile bindings)
+url	https://github.com/stevengj/nlopt
+license	LGPL-2.1-or-later
+size	43195
+installed-size	123025
+depends	nlopt=2.11.0-r0 guile so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libguile-3.0.so.1 so:libnlopt.so.1 so:libstdc++.so.6
+origin	nlopt
+repo	community
+file	nlopt-guile-2.11.0-r0.apk
+checksum	Q1XKC/2TTlCIMTcDw3efTCpwFQcrM=
+dep	nlopt=2.11.0-r0	nlopt
+dep	guile	guile
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libguile-3.0.so.1	guile-libs
+dep	so:libnlopt.so.1	nlopt
+dep	so:libstdc++.so.6	libstdc++

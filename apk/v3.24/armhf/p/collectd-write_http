@@ -1,0 +1,16 @@
+name	collectd-write_http
+version	5.12.0-r25
+description	write_http pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	15989
+installed-size	29868
+depends	collectd so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libyajl.so.2
+origin	collectd
+repo	community
+file	collectd-write_http-5.12.0-r25.apk
+checksum	Q1VgmrDiScXg3LXjflsYjp25jR+S4=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libyajl.so.2	yajl

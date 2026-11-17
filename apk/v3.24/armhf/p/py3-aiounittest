@@ -1,0 +1,14 @@
+name	py3-aiounittest
+version	1.5.0-r1
+description	Test python asyncio-based code with ease
+url	https://github.com/kwarunek/aiounittest
+license	MIT
+size	7496
+installed-size	14501
+depends	py3-wrapt python3~3.14
+origin	py3-aiounittest
+repo	community
+file	py3-aiounittest-1.5.0-r1.apk
+checksum	Q1z1R4XoHGygDhmeGAJnEOJemnyXI=
+dep	py3-wrapt	py3-wrapt
+dep	python3~3.14	python3

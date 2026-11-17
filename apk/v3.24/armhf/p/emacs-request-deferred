@@ -1,0 +1,14 @@
+name	emacs-request-deferred
+version	0.3.2_git20250219-r1
+description	Easy HTTP request library returning deferred object
+url	https://github.com/tkf/emacs-request
+license	GPL-3.0-or-later
+size	3113
+installed-size	3499
+depends	emacs-request=0.3.2_git20250219-r1 emacs-deferred
+origin	emacs-request
+repo	community
+file	emacs-request-deferred-0.3.2_git20250219-r1.apk
+checksum	Q1f44zOnpT0wr8nfG79LprwU8YH+E=
+dep	emacs-request=0.3.2_git20250219-r1	emacs-request
+dep	emacs-deferred	emacs-deferred

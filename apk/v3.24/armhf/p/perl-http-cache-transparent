@@ -1,0 +1,14 @@
+name	perl-http-cache-transparent
+version	1.4-r0
+description	Cache the result of http get-requests persistently.
+url	https://metacpan.org/release/HTTP-Cache-Transparent/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	7265
+installed-size	14434
+depends	perl perl-libwww
+origin	perl-http-cache-transparent
+repo	community
+file	perl-http-cache-transparent-1.4-r0.apk
+checksum	Q1kpZkXbA1KbSIz4mXhXuFrWyExQI=
+dep	perl	perl
+dep	perl-libwww	perl-libwww

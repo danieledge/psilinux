@@ -1,0 +1,17 @@
+name	py3-pygit2
+version	1.19.2-r0
+description	Python bindings for libgit2
+url	https://github.com/libgit2/pygit2
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	254795
+installed-size	928918
+depends	py3-cffi py3-cached-property python3~3.14 so:libc.musl-armhf.so.1 so:libgit2.so.1.9
+origin	py3-pygit2
+repo	community
+file	py3-pygit2-1.19.2-r0.apk
+checksum	Q1Xp4tple+R0LzESxXiCfWm0h/Z58=
+dep	py3-cffi	py3-cffi
+dep	py3-cached-property	py3-cached-property
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgit2.so.1.9	libgit2

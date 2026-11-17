@@ -1,0 +1,23 @@
+name	lld22
+version	22.1.3-r0
+description	The LLVM Linker
+url	https://llvm.org/
+license	Apache-2.0
+size	9427
+installed-size	76812
+depends	so:libLLVM.so.22.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblldCOFF.so.22.1 so:liblldCommon.so.22.1 so:liblldELF.so.22.1 so:liblldMachO.so.22.1 so:liblldMinGW.so.22.1 so:liblldWasm.so.22.1 so:libscudo.so so:libstdc++.so.6
+origin	lld22
+repo	main
+file	lld22-22.1.3-r0.apk
+checksum	Q1+5o7iVcd81ymmSkN4zKMzscpmlQ=
+dep	so:libLLVM.so.22.1	llvm22-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblldCOFF.so.22.1	lld22-libs
+dep	so:liblldCommon.so.22.1	lld22-libs
+dep	so:liblldELF.so.22.1	lld22-libs
+dep	so:liblldMachO.so.22.1	lld22-libs
+dep	so:liblldMinGW.so.22.1	lld22-libs
+dep	so:liblldWasm.so.22.1	lld22-libs
+dep	so:libscudo.so	scudo-malloc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,14 @@
+name	lua5.2-depgraph
+version	0.2.0-r1
+description	A library and CLI tool for analyzing graph of dependencies between Lua modules 5.2
+url	https://github.com/mpeterv/depgraph
+license	MIT
+size	24312
+installed-size	97130
+depends	lua5.2 lua5.2-filesystem
+origin	lua-depgraph
+repo	community
+file	lua5.2-depgraph-0.2.0-r1.apk
+checksum	Q1LRj8ll/0JetAkm/7wxOrprGLlMA=
+dep	lua5.2	lua5.2
+dep	lua5.2-filesystem	lua5.2-filesystem

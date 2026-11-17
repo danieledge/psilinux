@@ -1,0 +1,15 @@
+name	bcc-lua
+version	0.36.1-r1
+description	Standalone tool to run BCC tracers written in Lua
+url	https://github.com/iovisor/bcc/
+license	Apache-2.0
+size	327317
+installed-size	624068
+depends	bcc=0.36.1-r1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	bcc
+repo	community
+file	bcc-lua-0.36.1-r1.apk
+checksum	Q1TEejA82i3uZ7iqqKFLrovHr9vCE=
+dep	bcc=0.36.1-r1	bcc
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

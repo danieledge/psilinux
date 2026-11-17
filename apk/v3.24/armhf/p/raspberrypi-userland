@@ -1,0 +1,25 @@
+name	raspberrypi-userland
+version	0.20231020-r2
+description	Raspberry Pi tools for interfacing to GPU (deprecated)'
+url	https://github.com/raspberrypi/userland
+license	BSD-3-Clause
+size	201326
+installed-size	502244
+depends	so:libbcm_host.so so:libbrcmEGL.so so:libbrcmGLESv2.so so:libc.musl-armhf.so.1 so:libcontainers.so so:libdebug_sym.so so:libmmal.so so:libmmal_core.so so:libmmal_util.so so:libmmal_vc_client.so so:libvchiq_arm.so so:libvcos.so so:libvcsm.so
+origin	raspberrypi-userland
+repo	main
+file	raspberrypi-userland-0.20231020-r2.apk
+checksum	Q1TRLoNHh+zpiw9DI6KbM8xWHuXM0=
+dep	so:libbcm_host.so	raspberrypi-userland-libs
+dep	so:libbrcmEGL.so	raspberrypi-userland-libs
+dep	so:libbrcmGLESv2.so	raspberrypi-userland-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcontainers.so	raspberrypi-userland-libs
+dep	so:libdebug_sym.so	raspberrypi-userland-libs
+dep	so:libmmal.so	raspberrypi-userland-libs
+dep	so:libmmal_core.so	raspberrypi-userland-libs
+dep	so:libmmal_util.so	raspberrypi-userland-libs
+dep	so:libmmal_vc_client.so	raspberrypi-userland-libs
+dep	so:libvchiq_arm.so	raspberrypi-userland-libs
+dep	so:libvcos.so	raspberrypi-userland-libs
+dep	so:libvcsm.so	raspberrypi-userland-libs

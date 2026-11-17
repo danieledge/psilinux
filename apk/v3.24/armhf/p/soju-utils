@@ -1,0 +1,15 @@
+name	soju-utils
+version	0.10.1-r8
+description	Utilities for soju
+url	https://soju.im/
+license	AGPL-3.0-only
+size	12084007
+installed-size	31440604
+depends	ca-certificates so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	soju
+repo	community
+file	soju-utils-0.10.1-r8.apk
+checksum	Q1VFF37p6yd/Acxsu4C4HLulH6OjU=
+dep	ca-certificates	ca-certificates
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

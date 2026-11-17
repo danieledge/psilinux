@@ -1,0 +1,17 @@
+name	libnids
+version	1.26-r2
+description	An implementation of an E-component of Network Intrusion Detection System.
+url	https://libnids.sourceforge.net/
+license	GPL-2.0-only
+size	19082
+installed-size	34092
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgthread-2.0.so.0 so:libnet.so.9 so:libpcap.so.1
+origin	libnids
+repo	community
+file	libnids-1.26-r2.apk
+checksum	Q18gohjWr0S8dqzQWFVogMnbR2cl4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgthread-2.0.so.0	glib
+dep	so:libnet.so.9	libnet
+dep	so:libpcap.so.1	libpcap

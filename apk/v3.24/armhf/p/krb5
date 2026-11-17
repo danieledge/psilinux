@@ -1,0 +1,23 @@
+name	krb5
+version	1.22.3-r0
+description	The Kerberos network authentication system
+url	https://web.mit.edu/kerberos/www/
+license	MIT
+size	90078
+installed-size	239084
+depends	krb5-conf so:libc.musl-armhf.so.1 so:libcom_err.so.2 so:libgssapi_krb5.so.2 so:libk5crypto.so.3 so:libkadm5clnt_mit.so.12 so:libkadm5srv_mit.so.12 so:libkdb5.so.10 so:libkrb5.so.3 so:libkrb5support.so.0 so:libss.so.2
+origin	krb5
+repo	main
+file	krb5-1.22.3-r0.apk
+checksum	Q19GIgZzFAM7G+CapKzwZSBBfeO0g=
+dep	krb5-conf	krb5-conf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcom_err.so.2	libcom_err
+dep	so:libgssapi_krb5.so.2	krb5-libs
+dep	so:libk5crypto.so.3	krb5-libs
+dep	so:libkadm5clnt_mit.so.12	krb5-libs
+dep	so:libkadm5srv_mit.so.12	krb5-libs
+dep	so:libkdb5.so.10	krb5-libs
+dep	so:libkrb5.so.3	krb5-libs
+dep	so:libkrb5support.so.0	krb5-libs
+dep	so:libss.so.2	e2fsprogs-libs

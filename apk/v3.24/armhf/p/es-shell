@@ -1,0 +1,14 @@
+name	es-shell
+version	0.9.2_git20260118-r0
+description	Shell with higher-order functions
+url	https://wryun.github.io/es-shell/
+license	Public-Domain
+size	77476
+installed-size	172938
+depends	so:libc.musl-armhf.so.1 so:libreadline.so.8
+origin	es-shell
+repo	community
+file	es-shell-0.9.2_git20260118-r0.apk
+checksum	Q1Z/ZnMN5385NPjUkiEhJlSvjfgWI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libreadline.so.8	readline

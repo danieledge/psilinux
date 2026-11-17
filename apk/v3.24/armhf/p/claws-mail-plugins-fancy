@@ -1,0 +1,20 @@
+name	claws-mail-plugins-fancy
+version	4.4.0-r0
+description	Display HTML emails in Claws Mail
+url	https://www.claws-mail.org
+license	GPL-3.0-or-later
+size	15318
+installed-size	35347
+depends	claws-mail=4.4.0-r0 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libwebkit2gtk-4.1.so.0
+origin	claws-mail
+repo	community
+file	claws-mail-plugins-fancy-4.4.0-r0.apk
+checksum	Q1H9fmC8xXFpDMhHREnwPn1ssj0Yk=
+dep	claws-mail=4.4.0-r0	claws-mail
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libwebkit2gtk-4.1.so.0	webkit2gtk-4.1

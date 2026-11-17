@@ -1,0 +1,15 @@
+name	perl-devel-lexalias
+version	0.05-r6
+description	Alias lexical variables of subroutines
+url	https://metacpan.org/release/Devel-LexAlias/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	5189
+installed-size	7394
+depends	perl perl-devel-caller so:libc.musl-armhf.so.1
+origin	perl-devel-lexalias
+repo	community
+file	perl-devel-lexalias-0.05-r6.apk
+checksum	Q15gFLUxtQJojNWwR5UH0rLsyVEJI=
+dep	perl	perl
+dep	perl-devel-caller	perl-devel-caller
+dep	so:libc.musl-armhf.so.1	musl

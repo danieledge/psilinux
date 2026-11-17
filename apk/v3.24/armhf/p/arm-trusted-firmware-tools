@@ -1,0 +1,14 @@
+name	arm-trusted-firmware-tools
+version	2.14.0-r0
+description	ARM Trusted Firmware-A (TF-A) (tools)
+url	https://github.com/ARM-software/arm-trusted-firmware
+license	BSD-3-Clause
+size	27267
+installed-size	65184
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	arm-trusted-firmware
+repo	main
+file	arm-trusted-firmware-tools-2.14.0-r0.apk
+checksum	Q1Z1Pv8B/s6ITGOpASd16vXfeTc1s=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

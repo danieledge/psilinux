@@ -1,0 +1,12 @@
+name	strongswan-openrc
+version	6.0.7-r2
+description	IPsec-based VPN solution focused on security and ease of use, supporting IKEv1/IKEv2 and MOBIKE (OpenRC init scripts)
+url	https://www.strongswan.org/
+license	GPL-2.0-or-later WITH OpenSSL-Exception
+size	2130
+installed-size	955
+depends	
+origin	strongswan
+repo	main
+file	strongswan-openrc-6.0.7-r2.apk
+checksum	Q1xwaSeOopeim/yrqhpin7SF0osa0=

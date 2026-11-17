@@ -1,0 +1,13 @@
+name	time
+version	1.10-r0
+description	utility to measure execution time
+url	https://www.gnu.org/software/time/
+license	GPL-3.0-only
+size	13479
+installed-size	26300
+depends	so:libc.musl-armhf.so.1
+origin	time
+repo	community
+file	time-1.10-r0.apk
+checksum	Q1I4vdBfKOMR/oBCHNypnZtLfAmHk=
+dep	so:libc.musl-armhf.so.1	musl

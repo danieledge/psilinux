@@ -1,0 +1,17 @@
+name	icingaweb2-module-director
+version	1.11.8-r0
+description	Configuration frontend for Icinga 2, integrated automation
+url	https://icinga.com/docs/icinga-director/latest/doc/01-Introduction/
+license	GPL-2.0-or-later
+size	1030561
+installed-size	4728834
+depends	icingaweb2 php83-curl php83-pcntl icingaweb2-module-incubator /bin/sh
+origin	icingaweb2-module-director
+repo	community
+file	icingaweb2-module-director-1.11.8-r0.apk
+checksum	Q1F9zZGSbvsTKvXndFQyq7ePGrGr4=
+dep	icingaweb2	icingaweb2
+dep	php83-curl	php83-curl
+dep	php83-pcntl	php83-pcntl
+dep	icingaweb2-module-incubator	icingaweb2-module-incubator
+dep	/bin/sh	busybox-binsh

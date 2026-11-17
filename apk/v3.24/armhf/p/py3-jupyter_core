@@ -1,0 +1,15 @@
+name	py3-jupyter_core
+version	5.9.1-r1
+description	Core Jupyter functionality
+url	https://github.com/jupyter/jupyter_core
+license	BSD-3-Clause
+size	28298
+installed-size	91307
+depends	py3-traitlets py3-platformdirs python3~3.14
+origin	py3-jupyter_core
+repo	community
+file	py3-jupyter_core-5.9.1-r1.apk
+checksum	Q1Eqrj8tGK4GoGWLydm0zHhzdJWMk=
+dep	py3-traitlets	py3-traitlets
+dep	py3-platformdirs	py3-platformdirs
+dep	python3~3.14	python3

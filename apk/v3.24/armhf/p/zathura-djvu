@@ -1,0 +1,18 @@
+name	zathura-djvu
+version	2026.05.10-r0
+description	DjVu plugin for zathura
+url	https://pwmt.org/projects/zathura-djvu/
+license	Zlib
+size	9913
+installed-size	18860
+depends	zathura so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdjvulibre.so.21 so:libgirara.so.5 so:libglib-2.0.so.0
+origin	zathura-djvu
+repo	community
+file	zathura-djvu-2026.05.10-r0.apk
+checksum	Q1HgUTPpcyZ6VMzhglJnwzVb1Nnqs=
+dep	zathura	zathura
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libdjvulibre.so.21	djvulibre-libs
+dep	so:libgirara.so.5	girara
+dep	so:libglib-2.0.so.0	glib

@@ -1,0 +1,14 @@
+name	perl-git
+version	2.54.1-r0
+description	Perl interface to Git
+url	https://www.git-scm.com/
+license	GPL-2.0-only
+size	33181
+installed-size	91984
+depends	git=2.54.1-r0 perl-error
+origin	git
+repo	main
+file	perl-git-2.54.1-r0.apk
+checksum	Q1PzObs9WviNy+SCDLHg7owUixXGk=
+dep	git=2.54.1-r0	git
+dep	perl-error	perl-error

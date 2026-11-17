@@ -1,0 +1,35 @@
+name	imhex
+version	1.38.1-r3
+description	Hex editor for reverse engineers and programmers
+url	https://github.com/WerWolv/ImHex
+license	GPL-2.0-or-later
+size	14381691
+installed-size	49103933
+depends	so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcapstone.so.5 so:libcurl.so.4 so:libfmt.so.11 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libglfw.so.3 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:liblz4.so.1 so:liblzma.so.5 so:libmagic.so.1 so:libmbedx509.so.9 so:libssh2.so.1 so:libstdc++.so.6 so:libtfpsacrypto.so.2 so:libyara.so.10 so:libz.so.1 so:libzstd.so.1
+origin	imhex
+repo	community
+file	imhex-1.38.1-r3.apk
+checksum	Q1VR2P6URkYDRZJzcFriYgH6hk/ns=
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcapstone.so.5	capstone
+dep	so:libcurl.so.4	libcurl
+dep	so:libfmt.so.11	fmt
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libglfw.so.3	glfw
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:liblz4.so.1	lz4-libs
+dep	so:liblzma.so.5	xz-libs
+dep	so:libmagic.so.1	libmagic
+dep	so:libmbedx509.so.9	mbedtls
+dep	so:libssh2.so.1	libssh2
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtfpsacrypto.so.2	mbedtls
+dep	so:libyara.so.10	yara
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

@@ -1,0 +1,17 @@
+name	py3-flit
+version	3.12.0-r1
+description	simple packaging tool for simple packages
+url	https://flit.readthedocs.io/
+license	BSD-3-Clause
+size	47913
+installed-size	132004
+depends	py3-docutils py3-flit-core py3-requests py3-tomli-w python3~3.14
+origin	py3-flit
+repo	community
+file	py3-flit-3.12.0-r1.apk
+checksum	Q1GAdhyHfofbxHhaF1bi6ImKjtZl4=
+dep	py3-docutils	py3-docutils
+dep	py3-flit-core	py3-flit-core
+dep	py3-requests	py3-requests
+dep	py3-tomli-w	py3-tomli-w
+dep	python3~3.14	python3

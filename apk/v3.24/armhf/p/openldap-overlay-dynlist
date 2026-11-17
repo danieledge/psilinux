@@ -1,0 +1,15 @@
+name	openldap-overlay-dynlist
+version	2.6.15-r0
+description	OpenLDAP dynlist overlay
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	18554
+installed-size	39434
+depends	so:libc.musl-armhf.so.1 so:liblber.so.2 so:libldap.so.2
+origin	openldap
+repo	main
+file	openldap-overlay-dynlist-2.6.15-r0.apk
+checksum	Q1PDinZQLUJN1NDhHfGssicWpei3I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap

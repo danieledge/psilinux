@@ -1,0 +1,48 @@
+name	abiword-plugins
+version	3.0.8-r0
+description	Abiword plugins, all of them
+url	https://gitlab.gnome.org/World/AbiWord
+license	GPL-2.0-or-later
+size	1459
+installed-size	0
+depends	abiword-plugin-applix abiword-plugin-bmp abiword-plugin-clarisworks abiword-plugin-collab abiword-plugin-docbook abiword-plugin-command abiword-plugin-eml abiword-plugin-epub abiword-plugin-garble abiword-plugin-gdict abiword-plugin-gimp abiword-plugin-google abiword-plugin-hancom abiword-plugin-hrtext abiword-plugin-iscii abiword-plugin-kword abiword-plugin-latex abiword-plugin-loadbindings abiword-plugin-mht abiword-plugin-mif abiword-plugin-mswrite abiword-plugin-openwriter abiword-plugin-openxml abiword-plugin-opml abiword-plugin-paint abiword-plugin-passepartout abiword-plugin-pdb abiword-plugin-pdf abiword-plugin-presentation abiword-plugin-s5 abiword-plugin-sdw abiword-plugin-t602 abiword-plugin-urldict abiword-plugin-wikipedia abiword-plugin-wml abiword-plugin-xslfo
+origin	abiword
+repo	community
+file	abiword-plugins-3.0.8-r0.apk
+checksum	Q1weo7bT5xXqDFWqt8ado7Mbu2vW4=
+dep	abiword-plugin-applix	abiword-plugin-applix
+dep	abiword-plugin-bmp	abiword-plugin-bmp
+dep	abiword-plugin-clarisworks	abiword-plugin-clarisworks
+dep	abiword-plugin-collab	abiword-plugin-collab
+dep	abiword-plugin-docbook	abiword-plugin-docbook
+dep	abiword-plugin-command	abiword-plugin-command
+dep	abiword-plugin-eml	abiword-plugin-eml
+dep	abiword-plugin-epub	abiword-plugin-epub
+dep	abiword-plugin-garble	abiword-plugin-garble
+dep	abiword-plugin-gdict	abiword-plugin-gdict
+dep	abiword-plugin-gimp	abiword-plugin-gimp
+dep	abiword-plugin-google	abiword-plugin-google
+dep	abiword-plugin-hancom	abiword-plugin-hancom
+dep	abiword-plugin-hrtext	abiword-plugin-hrtext
+dep	abiword-plugin-iscii	abiword-plugin-iscii
+dep	abiword-plugin-kword	abiword-plugin-kword
+dep	abiword-plugin-latex	abiword-plugin-latex
+dep	abiword-plugin-loadbindings	abiword-plugin-loadbindings
+dep	abiword-plugin-mht	abiword-plugin-mht
+dep	abiword-plugin-mif	abiword-plugin-mif
+dep	abiword-plugin-mswrite	abiword-plugin-mswrite
+dep	abiword-plugin-openwriter	abiword-plugin-openwriter
+dep	abiword-plugin-openxml	abiword-plugin-openxml
+dep	abiword-plugin-opml	abiword-plugin-opml
+dep	abiword-plugin-paint	abiword-plugin-paint
+dep	abiword-plugin-passepartout	abiword-plugin-passepartout
+dep	abiword-plugin-pdb	abiword-plugin-pdb
+dep	abiword-plugin-pdf	abiword-plugin-pdf
+dep	abiword-plugin-presentation	abiword-plugin-presentation
+dep	abiword-plugin-s5	abiword-plugin-s5
+dep	abiword-plugin-sdw	abiword-plugin-sdw
+dep	abiword-plugin-t602	abiword-plugin-t602
+dep	abiword-plugin-urldict	abiword-plugin-urldict
+dep	abiword-plugin-wikipedia	abiword-plugin-wikipedia
+dep	abiword-plugin-wml	abiword-plugin-wml
+dep	abiword-plugin-xslfo	abiword-plugin-xslfo

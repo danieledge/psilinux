@@ -1,0 +1,14 @@
+name	libpciaccess
+version	0.19-r0
+description	X11 PCI access library
+url	https://xorg.freedesktop.org/
+license	X11
+size	14052
+installed-size	29884
+depends	hwdata-pci so:libc.musl-armhf.so.1
+origin	libpciaccess
+repo	main
+file	libpciaccess-0.19-r0.apk
+checksum	Q12CD7V5VCz51szRm6Ts9P2UD6lgI=
+dep	hwdata-pci	hwdata-pci
+dep	so:libc.musl-armhf.so.1	musl

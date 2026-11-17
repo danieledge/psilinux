@@ -1,0 +1,21 @@
+name	libgit2-dev
+version	1.9.7-r0
+description	linkable library for Git (development files)
+url	https://libgit2.org/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	846796
+installed-size	4674078
+depends	curl-dev libssh2-dev llhttp-dev libgit2=1.9.7-r0 pc:libpcre2-8 pc:libssh2 pc:openssl pc:zlib pkgconfig
+origin	libgit2
+repo	community
+file	libgit2-dev-1.9.7-r0.apk
+checksum	Q1oiRvNctnaFmI2KCmTHjebgWqhTo=
+dep	curl-dev	curl-dev
+dep	libssh2-dev	libssh2-dev
+dep	llhttp-dev	llhttp-dev
+dep	libgit2=1.9.7-r0	libgit2
+dep	pc:libpcre2-8	pcre2-dev
+dep	pc:libssh2	libssh2-dev
+dep	pc:openssl	openssl-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

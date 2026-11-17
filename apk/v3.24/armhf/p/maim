@@ -1,0 +1,26 @@
+name	maim
+version	5.8.1-r2
+description	Utility that takes screenshots of your desktop
+url	https://github.com/naelstrof/maim
+license	GPL-3.0-or-later
+size	76887
+installed-size	190388
+depends	so:libX11.so.6 so:libXcomposite.so.1 so:libXext.so.6 so:libXfixes.so.3 so:libXrandr.so.2 so:libXrender.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libicuuc.so.78 so:libjpeg.so.8 so:libpng16.so.16 so:libslopy.so.7.7 so:libstdc++.so.6 so:libwebp.so.7
+origin	maim
+repo	community
+file	maim-5.8.1-r2.apk
+checksum	Q1GumNAU/cmBISmMvUKZldeFoTVsc=
+dep	so:libX11.so.6	libx11
+dep	so:libXcomposite.so.1	libxcomposite
+dep	so:libXext.so.6	libxext
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libXrender.so.1	libxrender
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpng16.so.16	libpng
+dep	so:libslopy.so.7.7	slop-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwebp.so.7	libwebp

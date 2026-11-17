@@ -1,0 +1,14 @@
+name	py3-prettytable
+version	0.7.2-r13
+description	Python library for easily displaying tabular data
+url	https://github.com/jazzband/prettytable
+license	BSD-3-Clause
+size	13744
+installed-size	55273
+depends	python3 !py3-prettytable3 python3~3.14
+origin	py3-prettytable
+repo	community
+file	py3-prettytable-0.7.2-r13.apk
+checksum	Q1sNgKM0TbVpqaZyCYxLIr0VG5mMI=
+dep	python3	python3
+dep	python3~3.14	python3

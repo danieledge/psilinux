@@ -1,0 +1,35 @@
+name	conky
+version	1.24.0-r0
+description	Advanced, highly configurable system monitor for X based on torsmo
+url	https://github.com/brndnmtthws/conky
+license	GPL-3.0-or-later
+size	825857
+installed-size	1697752
+depends	so:libImlib2.so.1 so:libX11.so.6 so:libXdamage.so.1 so:libXext.so.6 so:libXfixes.so.3 so:libXft.so.2 so:libXi.so.6 so:libXinerama.so.1 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcurl.so.4 so:libfontconfig.so.1 so:libgcc_s.so.1 so:libgobject-2.0.so.0 so:libiw.so.30 so:liblua-5.4.so.0 so:libncursesw.so.6 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpangoft2-1.0.so.0 so:libstdc++.so.6 so:libwayland-client.so.0 so:libxml2.so.2
+origin	conky
+repo	community
+file	conky-1.24.0-r0.apk
+checksum	Q1I9uIMmnmOIchKHkqzPB0/IUrLiE=
+dep	so:libImlib2.so.1	imlib2
+dep	so:libX11.so.6	libx11
+dep	so:libXdamage.so.1	libxdamage
+dep	so:libXext.so.6	libxext
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXft.so.2	libxft
+dep	so:libXi.so.6	libxi
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcurl.so.4	libcurl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libiw.so.30	wireless-tools-libs
+dep	so:liblua-5.4.so.0	lua5.4-libs
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpangoft2-1.0.so.0	pango
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libxml2.so.2	libxml2

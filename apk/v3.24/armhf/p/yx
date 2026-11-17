@@ -1,0 +1,14 @@
+name	yx
+version	1.0.2-r0
+description	A small shell tool that allows extraction of targeted data from YAML
+url	https://gitlab.com/tomalok/yx
+license	MIT
+size	5882
+installed-size	9440
+depends	so:libc.musl-armhf.so.1 so:libyaml-0.so.2
+origin	yx
+repo	main
+file	yx-1.0.2-r0.apk
+checksum	Q1yUpl4u1k6xA0bj5ytxbFN4pA94Y=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libyaml-0.so.2	yaml

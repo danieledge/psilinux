@@ -1,0 +1,13 @@
+name	libutempter-dev
+version	1.2.3-r1
+description	Library interface to record user sessions in utmp/wtmp files (development files)
+url	http://freecode.com/projects/libutempter
+license	LGPL-2.1-or-later
+size	2576
+installed-size	1870
+depends	libutempter=1.2.3-r1
+origin	libutempter
+repo	main
+file	libutempter-dev-1.2.3-r1.apk
+checksum	Q1ibUzm07lMqlPpk9r4NfJU9T9Q4U=
+dep	libutempter=1.2.3-r1	libutempter

@@ -1,0 +1,28 @@
+name	deluge
+version	2.2.0-r3
+description	lightweight, Free Software, cross-platform BitTorrent client
+url	https://deluge-torrent.org/
+license	GPL-3.0-or-later
+size	2754589
+installed-size	8195074
+depends	py3-chardet py3-distro py3-idna py3-libtorrent-rasterbar py3-mako py3-openssl py3-pillow py3-rencode py3-service_identity py3-setproctitle py3-setuptools py3-twisted py3-wheel py3-xdg py3-zope-interface python3~3.14
+origin	deluge
+repo	community
+file	deluge-2.2.0-r3.apk
+checksum	Q1mNgaOPlLntWadFHyPX4N4jy1768=
+dep	py3-chardet	py3-chardet
+dep	py3-distro	py3-distro
+dep	py3-idna	py3-idna
+dep	py3-libtorrent-rasterbar	py3-libtorrent-rasterbar
+dep	py3-mako	py3-mako
+dep	py3-openssl	py3-openssl
+dep	py3-pillow	py3-pillow
+dep	py3-rencode	py3-rencode
+dep	py3-service_identity	py3-service_identity
+dep	py3-setproctitle	py3-setproctitle
+dep	py3-setuptools	py3-setuptools
+dep	py3-twisted	py3-twisted
+dep	py3-wheel	py3-wheel
+dep	py3-xdg	py3-xdg
+dep	py3-zope-interface	py3-zope-interface
+dep	python3~3.14	python3

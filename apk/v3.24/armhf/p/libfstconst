@@ -1,0 +1,17 @@
+name	libfstconst
+version	1.8.4-r0
+description	Finite-state transducers library
+url	https://www.openfst.org
+license	Apache-2.0
+size	82685
+installed-size	337176
+depends	openfst=1.8.4-r0 so:libc.musl-armhf.so.1 so:libfst.so.26 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	openfst
+repo	community
+file	libfstconst-1.8.4-r0.apk
+checksum	Q1Cm6YS03GJT46dUigHKq5aEHvbEI=
+dep	openfst=1.8.4-r0	openfst
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfst.so.26	libfst
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

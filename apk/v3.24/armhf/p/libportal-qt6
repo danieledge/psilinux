@@ -1,0 +1,21 @@
+name	libportal-qt6
+version	0.9.1-r10
+description	GIO-style async APIs for most Flatpak portals (Qt6 backend)
+url	https://github.com/flatpak/libportal
+license	LGPL-3.0-or-later
+size	17613
+installed-size	38332
+depends	so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libportal.so.1 so:libstdc++.so.6
+origin	libportal
+repo	community
+file	libportal-qt6-0.9.1-r10.apk
+checksum	Q1WVVVxYp69Scx6pX3RA19X857eCM=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libportal.so.1	libportal
+dep	so:libstdc++.so.6	libstdc++

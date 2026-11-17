@@ -1,0 +1,20 @@
+name	py3-dns-lexicon
+version	3.23.2-r1
+description	Manipulate DNS records on various DNS providers in a standardized/agnostic way
+url	https://github.com/dns-lexicon/dns-lexicon
+license	MIT
+size	174178
+installed-size	874005
+depends	py3-beautifulsoup4 py3-cryptography py3-dnspython py3-otp py3-requests py3-tldextract py3-yaml python3~3.14
+origin	py3-dns-lexicon
+repo	community
+file	py3-dns-lexicon-3.23.2-r1.apk
+checksum	Q1xLffxoSkI2H/2kW4irFmokO7ruo=
+dep	py3-beautifulsoup4	py3-beautifulsoup4
+dep	py3-cryptography	py3-cryptography
+dep	py3-dnspython	py3-dnspython
+dep	py3-otp	py3-otp
+dep	py3-requests	py3-requests
+dep	py3-tldextract	py3-tldextract
+dep	py3-yaml	py3-yaml
+dep	python3~3.14	python3

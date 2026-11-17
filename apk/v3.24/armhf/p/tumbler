@@ -1,0 +1,32 @@
+name	tumbler
+version	4.20.0-r0
+description	D-Bus thumbnail service
+url	https://gitlab.xfce.org/xfce/tumbler
+license	GPL-2.0-or-later
+size	127763
+installed-size	377722
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcurl.so.4 so:libffmpegthumbnailer.so.4 so:libfreetype.so.6 so:libgdk_pixbuf-2.0.so.0 so:libgepub-0.7.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgsf-1.so.114 so:libgstreamer-1.0.so.0 so:libgsttag-1.0.so.0 so:libintl.so.8 so:libjpeg.so.8 so:libopenrawgnome.so.9 so:libpng16.so.16 so:libpoppler-glib.so.8 so:libxfce4util.so.7
+origin	tumbler
+repo	community
+file	tumbler-4.20.0-r0.apk
+checksum	Q11bHBnOh3c1tIrXic1vVS2BgDejc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcurl.so.4	libcurl
+dep	so:libffmpegthumbnailer.so.4	ffmpegthumbnailer
+dep	so:libfreetype.so.6	freetype
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgepub-0.7.so.0	libgepub
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgsf-1.so.114	libgsf
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgsttag-1.0.so.0	gst-plugins-base
+dep	so:libintl.so.8	libintl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libopenrawgnome.so.9	libopenraw
+dep	so:libpng16.so.16	libpng
+dep	so:libpoppler-glib.so.8	poppler-glib
+dep	so:libxfce4util.so.7	libxfce4util

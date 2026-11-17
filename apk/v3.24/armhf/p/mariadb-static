@@ -1,0 +1,13 @@
+name	mariadb-static
+version	11.8.9-r0
+description	A fast SQL database server (static library)
+url	https://www.mariadb.org/
+license	GPL-2.0-only
+size	174374078
+installed-size	493548340
+depends	mariadb-dev
+origin	mariadb
+repo	main
+file	mariadb-static-11.8.9-r0.apk
+checksum	Q1llp3NPF+oL0OAZqsxWOxXj1kLGI=
+dep	mariadb-dev	mariadb-dev

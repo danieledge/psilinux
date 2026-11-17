@@ -1,0 +1,13 @@
+name	ocp-indent-emacs
+version	1.9.0-r3
+description	OCaml source code indenter for Emacs
+url	http://www.typerex.org/ocp-indent.html
+license	LGPL-2.1-only WITH OCaml-LGPL-linking-exception
+size	3768
+installed-size	5565
+depends	ocp-indent=1.9.0-r3
+origin	ocp-indent
+repo	community
+file	ocp-indent-emacs-1.9.0-r3.apk
+checksum	Q1pbtVkM3eRntu5aJQEXuL3HuUHgk=
+dep	ocp-indent=1.9.0-r3	ocp-indent

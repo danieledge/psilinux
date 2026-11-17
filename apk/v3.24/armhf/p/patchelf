@@ -1,0 +1,15 @@
+name	patchelf
+version	0.18.0-r3
+description	Small utility to modify the dynamic linker and RPATH of ELF executables
+url	https://nixos.org/patchelf.html
+license	GPL-3.0-or-later
+size	75663
+installed-size	173496
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	patchelf
+repo	main
+file	patchelf-0.18.0-r3.apk
+checksum	Q1rCdWaiGJcBf7DzlxBDypv5+naS0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

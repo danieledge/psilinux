@@ -1,0 +1,13 @@
+name	dasel
+version	2.8.1-r17
+description	Query and modify data structures using selector strings
+url	https://daseldocs.tomwright.me/
+license	MIT
+size	3733953
+installed-size	10377808
+depends	so:libc.musl-armhf.so.1
+origin	dasel
+repo	community
+file	dasel-2.8.1-r17.apk
+checksum	Q1aqt08Bg/IZtVOQ3I9TYeSzOSR4M=
+dep	so:libc.musl-armhf.so.1	musl

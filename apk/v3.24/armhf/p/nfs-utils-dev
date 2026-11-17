@@ -1,0 +1,14 @@
+name	nfs-utils-dev
+version	2.6.4-r6
+description	kernel-mode NFS (development files)
+url	https://linux-nfs.org/
+license	GPL-2.0-only
+size	3841
+installed-size	6354
+depends	libnfsidmap=2.6.4-r6 pkgconfig
+origin	nfs-utils
+repo	main
+file	nfs-utils-dev-2.6.4-r6.apk
+checksum	Q1HUOyUakIy/zhOyywjQKOFC7DhF4=
+dep	libnfsidmap=2.6.4-r6	libnfsidmap
+dep	pkgconfig	pkgconf

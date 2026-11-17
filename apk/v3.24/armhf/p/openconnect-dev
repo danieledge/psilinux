@@ -1,0 +1,22 @@
+name	openconnect-dev
+version	9.12-r2
+description	Open client for Cisco AnyConnect VPN (development files)
+url	https://www.infradead.org/openconnect/
+license	LGPL-2.1-or-later
+size	13016
+installed-size	35201
+depends	openconnect=9.12-r2 pc:liblz4 pc:libpcsclite pc:libproxy-1.0 pc:libpskc pc:libxml-2.0 pc:openssl pc:stoken pc:zlib pkgconfig
+origin	openconnect
+repo	community
+file	openconnect-dev-9.12-r2.apk
+checksum	Q1T4e5V3uX2TZjsAw/nrfLN6NjJuc=
+dep	openconnect=9.12-r2	openconnect
+dep	pc:liblz4	lz4-dev
+dep	pc:libpcsclite	pcsc-lite-dev
+dep	pc:libproxy-1.0	libproxy-dev
+dep	pc:libpskc	oath-toolkit-dev
+dep	pc:libxml-2.0	libxml2-dev
+dep	pc:openssl	openssl-dev
+dep	pc:stoken	stoken-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

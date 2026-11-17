@@ -1,0 +1,15 @@
+name	uwsgi-emperor_pg
+version	2.0.31-r2
+description	uWSGI plugin emperor_pg
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	4083
+installed-size	9540
+depends	uwsgi so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	uwsgi
+repo	main
+file	uwsgi-emperor_pg-2.0.31-r2.apk
+checksum	Q1ooly+NtMTX+KceWR+KaB6peMZZQ=
+dep	uwsgi	uwsgi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

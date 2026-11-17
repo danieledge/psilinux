@@ -1,0 +1,14 @@
+name	acf-freeradius3
+version	0.3.1-r2
+description	ACF for freeradius 3
+url	https://gitlab.alpinelinux.org/acf/acf-freeradius3
+license	GPL-2.0-only
+size	11736
+installed-size	43087
+depends	acf-core freeradius>3
+origin	acf-freeradius3
+repo	main
+file	acf-freeradius3-0.3.1-r2.apk
+checksum	Q1YHUyODHiDNh+H+vfoezQgmrCXus=
+dep	acf-core	acf-core
+dep	freeradius>3	freeradius

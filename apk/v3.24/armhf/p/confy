@@ -1,0 +1,19 @@
+name	confy
+version	0.9.0-r1
+description	Conferences schedule viewer for GNOME
+url	https://confy.kirgroup.net/
+license	GPL-3.0-or-later
+size	53455
+installed-size	223110
+depends	gtk4.0 py3-cairo py3-gobject3 py3-icalendar libadwaita libnotify python3~3.14
+origin	confy
+repo	community
+file	confy-0.9.0-r1.apk
+checksum	Q1Xn79a4bEMyJ4AIbuAlIdoc6d628=
+dep	gtk4.0	gtk4.0
+dep	py3-cairo	py3-cairo
+dep	py3-gobject3	py3-gobject3
+dep	py3-icalendar	py3-icalendar
+dep	libadwaita	libadwaita
+dep	libnotify	libnotify
+dep	python3~3.14	python3

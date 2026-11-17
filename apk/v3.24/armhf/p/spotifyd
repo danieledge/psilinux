@@ -1,0 +1,21 @@
+name	spotifyd
+version	0.4.2-r0
+description	Open source Spotify client running as a UNIX daemon
+url	https://github.com/Spotifyd/spotifyd
+license	GPL-3.0-or-later
+size	2909438
+installed-size	5812077
+depends	/bin/sh so:libasound.so.2 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libdbus-1.so.3 so:libgcc_s.so.1 so:libpulse-simple.so.0 so:libpulse.so.0 so:libssl.so.3
+origin	spotifyd
+repo	community
+file	spotifyd-0.4.2-r0.apk
+checksum	Q134kt3e2CmilsvW5054GhI5BERsg=
+dep	/bin/sh	busybox-binsh
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpulse-simple.so.0	libpulse
+dep	so:libpulse.so.0	libpulse
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,14 @@
+name	betula
+version	1.6.0-r5
+description	free single-user bookmarking software
+url	https://betula.mycorrhiza.wiki/
+license	AGPL-3.0-only
+size	5512076
+installed-size	14069512
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	betula
+repo	community
+file	betula-1.6.0-r5.apk
+checksum	Q14F+HmoI0SGCo7NgVosLScSaTphk=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

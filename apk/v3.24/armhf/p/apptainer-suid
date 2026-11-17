@@ -1,0 +1,15 @@
+name	apptainer-suid
+version	1.5.1-r2
+description	Application containers for Linux (SUID helper binary)
+url	https://apptainer.org/
+license	BSD-3-Clause AND BSD-3-Clause-LBNL
+size	8970933
+installed-size	23360036
+depends	apptainer=1.5.1-r2 so:libc.musl-armhf.so.1 so:libseccomp.so.2
+origin	apptainer
+repo	community
+file	apptainer-suid-1.5.1-r2.apk
+checksum	Q1yhfYyTIwBV7X7VTb2tmCu1ZIEt0=
+dep	apptainer=1.5.1-r2	apptainer
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libseccomp.so.2	libseccomp

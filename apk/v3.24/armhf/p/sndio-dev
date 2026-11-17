@@ -1,0 +1,14 @@
+name	sndio-dev
+version	1.10.0-r4
+description	Small audio and MIDI framework from the OpenBSD project (development files)
+url	https://sndio.org/
+license	ISC
+size	4454
+installed-size	7372
+depends	sndio-libs=1.10.0-r4 pkgconfig
+origin	sndio
+repo	community
+file	sndio-dev-1.10.0-r4.apk
+checksum	Q1FWq9s5jzh27sgRuhIWej9vdpsMw=
+dep	sndio-libs=1.10.0-r4	sndio-libs
+dep	pkgconfig	pkgconf

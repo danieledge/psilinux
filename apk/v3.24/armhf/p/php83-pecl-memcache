@@ -1,0 +1,15 @@
+name	php83-pecl-memcache
+version	8.2-r0
+description	PHP 8.3 memcache extension, provides handy OO and procedural interfaces, can be used as session handler - PECL
+url	https://pecl.php.net/package/memcache
+license	PHP-3.0
+size	43558
+installed-size	92695
+depends	php83-session so:libc.musl-armhf.so.1 so:libz.so.1
+origin	php83-pecl-memcache
+repo	community
+file	php83-pecl-memcache-8.2-r0.apk
+checksum	Q1iMrMYbm4AhuVUvE1BQAexRxu9A4=
+dep	php83-session	php83-session
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libz.so.1	zlib

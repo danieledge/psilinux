@@ -1,0 +1,13 @@
+name	glfw
+version	3.4-r1
+description	Multi-platform library for OpenGL and Vulkan application development
+url	https://www.glfw.org/
+license	Zlib
+size	101268
+installed-size	303516
+depends	so:libc.musl-armhf.so.1
+origin	glfw
+repo	community
+file	glfw-3.4-r1.apk
+checksum	Q1JmtyJ5JLmeMOKTKQwpQX0f4sueA=
+dep	so:libc.musl-armhf.so.1	musl

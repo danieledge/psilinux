@@ -1,0 +1,14 @@
+name	py3-openrazer
+version	3.12.3-r0
+description	Open source driver and user-space daemon to control Razer lighting and other features on GNU/Linux
+url	https://openrazer.github.io/
+license	GPL-2.0-only
+size	60710
+installed-size	242124
+depends	py3-numpy python3~3.14
+origin	openrazer
+repo	community
+file	py3-openrazer-3.12.3-r0.apk
+checksum	Q1bCQXbZKygm7woso5k7mJ7Ywf6Vo=
+dep	py3-numpy	py3-numpy
+dep	python3~3.14	python3

@@ -1,0 +1,38 @@
+name	libprotobuf
+version	31.1-r1
+description	Runtime library for C++ users of protocol buffers
+url	https://github.com/protocolbuffers/protobuf
+license	BSD-3-Clause
+size	1107551
+installed-size	2679696
+depends	so:libabsl_cord.so.2508.0.0 so:libabsl_cord_internal.so.2508.0.0 so:libabsl_cordz_info.so.2508.0.0 so:libabsl_die_if_null.so.2508.0.0 so:libabsl_hash.so.2508.0.0 so:libabsl_int128.so.2508.0.0 so:libabsl_log_internal_check_op.so.2508.0.0 so:libabsl_log_internal_conditions.so.2508.0.0 so:libabsl_log_internal_message.so.2508.0.0 so:libabsl_log_internal_nullguard.so.2508.0.0 so:libabsl_raw_hash_set.so.2508.0.0 so:libabsl_raw_logging_internal.so.2508.0.0 so:libabsl_spinlock_wait.so.2508.0.0 so:libabsl_status.so.2508.0.0 so:libabsl_statusor.so.2508.0.0 so:libabsl_str_format_internal.so.2508.0.0 so:libabsl_strings.so.2508.0.0 so:libabsl_synchronization.so.2508.0.0 so:libabsl_throw_delegate.so.2508.0.0 so:libabsl_time.so.2508.0.0 so:libabsl_time_zone.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libutf8_validity.so.31.1.0 so:libz.so.1
+origin	protobuf
+repo	main
+file	libprotobuf-31.1-r1.apk
+checksum	Q18Q955fYMX+pOnGM3pxM/5cEwiv0=
+dep	so:libabsl_cord.so.2508.0.0	abseil-cpp-cord
+dep	so:libabsl_cord_internal.so.2508.0.0	abseil-cpp-cord-internal
+dep	so:libabsl_cordz_info.so.2508.0.0	abseil-cpp-cordz-info
+dep	so:libabsl_die_if_null.so.2508.0.0	abseil-cpp-die-if-null
+dep	so:libabsl_hash.so.2508.0.0	abseil-cpp-hash
+dep	so:libabsl_int128.so.2508.0.0	abseil-cpp-int128
+dep	so:libabsl_log_internal_check_op.so.2508.0.0	abseil-cpp-log-internal-check-op
+dep	so:libabsl_log_internal_conditions.so.2508.0.0	abseil-cpp-log-internal-conditions
+dep	so:libabsl_log_internal_message.so.2508.0.0	abseil-cpp-log-internal-message
+dep	so:libabsl_log_internal_nullguard.so.2508.0.0	abseil-cpp-log-internal-nullguard
+dep	so:libabsl_raw_hash_set.so.2508.0.0	abseil-cpp-raw-hash-set
+dep	so:libabsl_raw_logging_internal.so.2508.0.0	abseil-cpp-raw-logging-internal
+dep	so:libabsl_spinlock_wait.so.2508.0.0	abseil-cpp-spinlock-wait
+dep	so:libabsl_status.so.2508.0.0	abseil-cpp-status
+dep	so:libabsl_statusor.so.2508.0.0	abseil-cpp-statusor
+dep	so:libabsl_str_format_internal.so.2508.0.0	abseil-cpp-str-format-internal
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libabsl_synchronization.so.2508.0.0	abseil-cpp-synchronization
+dep	so:libabsl_throw_delegate.so.2508.0.0	abseil-cpp-throw-delegate
+dep	so:libabsl_time.so.2508.0.0	abseil-cpp-time
+dep	so:libabsl_time_zone.so.2508.0.0	abseil-cpp-time-zone
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libutf8_validity.so.31.1.0	protobuf
+dep	so:libz.so.1	zlib

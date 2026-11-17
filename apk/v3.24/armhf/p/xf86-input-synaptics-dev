@@ -1,0 +1,13 @@
+name	xf86-input-synaptics-dev
+version	1.10.0-r0
+description	X.org synaptics input driver (development files)
+url	https://www.x.org
+license	MIT
+size	3831
+installed-size	6053
+depends	pkgconfig
+origin	xf86-input-synaptics
+repo	community
+file	xf86-input-synaptics-dev-1.10.0-r0.apk
+checksum	Q1Csh4QICnmDTWi8e6Ncw1oUzxedA=
+dep	pkgconfig	pkgconf

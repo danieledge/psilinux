@@ -1,0 +1,15 @@
+name	libverto-libevent
+version	0.3.2-r2
+description	libevent driver for libverto
+url	https://github.com/latchset/libverto
+license	MIT
+size	4473
+installed-size	9448
+depends	so:libc.musl-armhf.so.1 so:libevent-2.1.so.7 so:libverto.so.1
+origin	libverto
+repo	main
+file	libverto-libevent-0.3.2-r2.apk
+checksum	Q1Hf6pxMxZNUjQf4JM6uL5Irxu25s=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevent-2.1.so.7	libevent
+dep	so:libverto.so.1	libverto

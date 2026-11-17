@@ -1,0 +1,13 @@
+name	libusrsctp
+version	0.9.5.0-r2
+description	Portable SCTP userland stack
+url	https://github.com/sctplab/usrsctp
+license	BSD-3-Clause
+size	235457
+installed-size	494404
+depends	so:libc.musl-armhf.so.1
+origin	libusrsctp
+repo	community
+file	libusrsctp-0.9.5.0-r2.apk
+checksum	Q1bVde6ZwutI2AGSlHQC674EOt1dI=
+dep	so:libc.musl-armhf.so.1	musl

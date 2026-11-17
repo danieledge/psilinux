@@ -1,0 +1,13 @@
+name	foot-themes
+version	1.27.0-r0
+description	Fast, lightweight and minimalistic Wayland terminal emulator (color schemes)
+url	https://codeberg.org/dnkl/foot
+license	MIT
+size	20468
+installed-size	51828
+depends	ncurses-terminfo
+origin	foot
+repo	community
+file	foot-themes-1.27.0-r0.apk
+checksum	Q1HNhgaUedWnIBRfxkBYsTLzbVa34=
+dep	ncurses-terminfo	ncurses-terminfo

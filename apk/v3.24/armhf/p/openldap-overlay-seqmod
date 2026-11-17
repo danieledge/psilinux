@@ -1,0 +1,14 @@
+name	openldap-overlay-seqmod
+version	2.6.15-r0
+description	OpenLDAP seqmod overlay
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	4043
+installed-size	6328
+depends	so:libc.musl-armhf.so.1 so:libldap.so.2
+origin	openldap
+repo	main
+file	openldap-overlay-seqmod-2.6.15-r0.apk
+checksum	Q1XQIXLdFGOAEpbKHnEb9d/vvASXk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libldap.so.2	libldap

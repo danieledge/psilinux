@@ -1,0 +1,14 @@
+name	blocky
+version	0.30.0-r2
+description	DNS proxy ad-blocker for local network
+url	https://github.com/0xERR0R/blocky
+license	Apache-2.0
+size	10623517
+installed-size	30420292
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	blocky
+repo	community
+file	blocky-0.30.0-r2.apk
+checksum	Q1B5kI5zQx8vKvbJJkddhZkd/aLD8=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	nss_wrapper-dev
+version	1.1.12-r1
+description	A wrapper for the user, group and hosts NSS API (development files)
+url	https://cwrap.org/nss_wrapper.html
+license	BSD-3-Clause
+size	2125
+installed-size	534
+depends	nss_wrapper=1.1.12-r1 pkgconfig
+origin	nss_wrapper
+repo	community
+file	nss_wrapper-dev-1.1.12-r1.apk
+checksum	Q1zn+kueUD4AzbpwXMqfcNq0FA9N8=
+dep	nss_wrapper=1.1.12-r1	nss_wrapper
+dep	pkgconfig	pkgconf

@@ -1,0 +1,16 @@
+name	scsi-tgt-scripts
+version	1.0.98-r0
+description	user-space iSCSI target daemon (perl/bash scripts)
+url	https://github.com/fujita/tgt
+license	GPL-2.0-only
+size	14453
+installed-size	50484
+depends	scsi-tgt=1.0.98-r0 bash perl perl-config-general
+origin	scsi-tgt
+repo	community
+file	scsi-tgt-scripts-1.0.98-r0.apk
+checksum	Q1J4OHDI2U+u6PQUuNYtj7W3qTyA8=
+dep	scsi-tgt=1.0.98-r0	scsi-tgt
+dep	bash	bash
+dep	perl	perl
+dep	perl-config-general	perl-config-general

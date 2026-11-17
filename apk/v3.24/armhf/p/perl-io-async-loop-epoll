@@ -1,0 +1,16 @@
+name	perl-io-async-loop-epoll
+version	0.23-r1
+description	Use IO::Async with Linux::Epoll
+url	https://metacpan.org/release/IO-Async-Loop-Epoll/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	5713
+installed-size	12190
+depends	perl perl-io-async perl-linux-epoll perl-struct-dumb
+origin	perl-io-async-loop-epoll
+repo	community
+file	perl-io-async-loop-epoll-0.23-r1.apk
+checksum	Q1ADlCZ8Zs/kEHX3GhVQwywr9U8VI=
+dep	perl	perl
+dep	perl-io-async	perl-io-async
+dep	perl-linux-epoll	perl-linux-epoll
+dep	perl-struct-dumb	perl-struct-dumb

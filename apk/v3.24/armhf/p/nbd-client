@@ -1,0 +1,16 @@
+name	nbd-client
+version	3.26.1-r0
+description	Tools for network block devices (client)
+url	https://nbd.sourceforge.io/
+license	GPL-2.0-or-later
+size	23744
+installed-size	46884
+depends	so:libc.musl-armhf.so.1 so:libgnutls.so.30 so:libnl-3.so.200 so:libnl-genl-3.so.200
+origin	nbd
+repo	community
+file	nbd-client-3.26.1-r0.apk
+checksum	Q1t4hjcJ6Hfale0yItqim0GObudt8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgnutls.so.30	gnutls
+dep	so:libnl-3.so.200	libnl3
+dep	so:libnl-genl-3.so.200	libnl3

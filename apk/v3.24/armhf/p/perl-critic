@@ -1,0 +1,30 @@
+name	perl-critic
+version	1.156-r0
+description	Critique Perl source code for best-practices
+url	https://metacpan.org/dist/Perl-Critic
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	325540
+installed-size	1391970
+depends	perl perl-b-keywords perl-config-tiny perl-exception-class perl-file-which perl-list-someutils perl-module-build perl-module-pluggable perl-path-tiny perl-pod-parser perl-pod-spell perl-ppi perl-ppix-quotelike perl-ppix-regexp perl-ppix-utils perl-readonly perl-string-format perl-tidy
+origin	perl-critic
+repo	community
+file	perl-critic-1.156-r0.apk
+checksum	Q1Z7uKjYb+1ztXMbgundUus8f0z1E=
+dep	perl	perl
+dep	perl-b-keywords	perl-b-keywords
+dep	perl-config-tiny	perl-config-tiny
+dep	perl-exception-class	perl-exception-class
+dep	perl-file-which	perl-file-which
+dep	perl-list-someutils	perl-list-someutils
+dep	perl-module-build	perl-module-build
+dep	perl-module-pluggable	perl-module-pluggable
+dep	perl-path-tiny	perl-path-tiny
+dep	perl-pod-parser	perl-pod-parser
+dep	perl-pod-spell	perl-pod-spell
+dep	perl-ppi	perl-ppi
+dep	perl-ppix-quotelike	perl-ppix-quotelike
+dep	perl-ppix-regexp	perl-ppix-regexp
+dep	perl-ppix-utils	perl-ppix-utils
+dep	perl-readonly	perl-readonly
+dep	perl-string-format	perl-string-format
+dep	perl-tidy	perl-tidy

@@ -1,0 +1,18 @@
+name	modemmanager-dev
+version	1.25.95_git20260527-r1
+description	ModemManager library (development files)
+url	https://www.freedesktop.org/wiki/Software/ModemManager
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	442924
+installed-size	6293813
+depends	libmm-glib=1.25.95_git20260527-r1 pc:gio-2.0 pc:gio-unix-2.0 pc:glib-2.0>=2.56 pc:gobject-2.0 pkgconfig
+origin	modemmanager
+repo	community
+file	modemmanager-dev-1.25.95_git20260527-r1.apk
+checksum	Q14adflhl1aSjLbXiLYFXMfb4NOag=
+dep	libmm-glib=1.25.95_git20260527-r1	libmm-glib
+dep	pc:gio-2.0	glib-dev
+dep	pc:gio-unix-2.0	glib-dev
+dep	pc:glib-2.0>=2.56	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pkgconfig	pkgconf

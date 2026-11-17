@@ -1,0 +1,17 @@
+name	gdal-driver-gif
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (Graphics Interchange Format (.gif) driver)
+url	https://gdal.org/
+license	MIT
+size	17274
+installed-size	42380
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libgif.so.7 so:libstdc++.so.6
+origin	gdal
+repo	community
+file	gdal-driver-gif-3.13.3-r0.apk
+checksum	Q1xH1C/6VIeekFvIk/K+0Sk31IokA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libgif.so.7	giflib
+dep	so:libstdc++.so.6	libstdc++

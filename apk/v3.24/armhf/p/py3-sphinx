@@ -1,0 +1,29 @@
+name	py3-sphinx
+version	9.1.0-r1
+description	Python Documentation Generator
+url	https://www.sphinx-doc.org/
+license	BSD-2-Clause
+size	3642992
+installed-size	15024485
+depends	py3-babel py3-docutils py3-imagesize py3-jinja2 py3-packaging py3-pygments py3-requests py3-snowballstemmer py3-alabaster py3-roman-numerals py3-sphinxcontrib-applehelp py3-sphinxcontrib-devhelp py3-sphinxcontrib-htmlhelp py3-sphinxcontrib-jsmath py3-sphinxcontrib-serializinghtml py3-sphinxcontrib-qthelp python3~3.14
+origin	py3-sphinx
+repo	main
+file	py3-sphinx-9.1.0-r1.apk
+checksum	Q1Uw5bEdXC+HoTBy6+Gf7uSDh2rm0=
+dep	py3-babel	py3-babel
+dep	py3-docutils	py3-docutils
+dep	py3-imagesize	py3-imagesize
+dep	py3-jinja2	py3-jinja2
+dep	py3-packaging	py3-packaging
+dep	py3-pygments	py3-pygments
+dep	py3-requests	py3-requests
+dep	py3-snowballstemmer	py3-snowballstemmer
+dep	py3-alabaster	py3-alabaster
+dep	py3-roman-numerals	py3-roman-numerals
+dep	py3-sphinxcontrib-applehelp	py3-sphinxcontrib-applehelp
+dep	py3-sphinxcontrib-devhelp	py3-sphinxcontrib-devhelp
+dep	py3-sphinxcontrib-htmlhelp	py3-sphinxcontrib-htmlhelp
+dep	py3-sphinxcontrib-jsmath	py3-sphinxcontrib-jsmath
+dep	py3-sphinxcontrib-serializinghtml	py3-sphinxcontrib-serializinghtml
+dep	py3-sphinxcontrib-qthelp	py3-sphinxcontrib-qthelp
+dep	python3~3.14	python3

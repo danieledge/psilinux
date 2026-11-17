@@ -1,0 +1,15 @@
+name	collectd-log_logstash
+version	5.12.0-r25
+description	log_logstash pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	5006
+installed-size	9348
+depends	collectd so:libc.musl-armhf.so.1 so:libyajl.so.2
+origin	collectd
+repo	community
+file	collectd-log_logstash-5.12.0-r25.apk
+checksum	Q1VxBk+ZOtF1YxlMsRfNyPVe6i4+E=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libyajl.so.2	yajl

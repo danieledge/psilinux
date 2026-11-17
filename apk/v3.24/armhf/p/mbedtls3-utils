@@ -1,0 +1,16 @@
+name	mbedtls3-utils
+version	3.6.8-r0
+description	Utilities for mbedtls (including gen_key / cert_write)
+url	https://www.trustedfirmware.org/projects/mbed-tls/
+license	Apache-2.0 OR GPL-2.0-or-later
+size	2217968
+installed-size	6168536
+depends	so:libc.musl-armhf.so.1 so:libmbedcrypto.so.16 so:libmbedtls.so.21 so:libmbedx509.so.7
+origin	mbedtls3
+repo	community
+file	mbedtls3-utils-3.6.8-r0.apk
+checksum	Q1wW/sFsa5BGtZbrEZ96jZ6FNKBhY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmbedcrypto.so.16	mbedtls3
+dep	so:libmbedtls.so.21	mbedtls3
+dep	so:libmbedx509.so.7	mbedtls3

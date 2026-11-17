@@ -1,0 +1,14 @@
+name	proot
+version	5.4.0-r2
+description	User-space implementation of chroot, mount --bind, and binfmt_misc
+url	https://proot-me.github.io
+license	GPL-2.0-or-later
+size	68940
+installed-size	152716
+depends	so:libc.musl-armhf.so.1 so:libtalloc.so.2
+origin	proot
+repo	community
+file	proot-5.4.0-r2.apk
+checksum	Q1gA90PLns8UqgJjaWWF8sEdsa1LI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libtalloc.so.2	talloc

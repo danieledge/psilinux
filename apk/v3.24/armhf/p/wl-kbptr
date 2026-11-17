@@ -1,0 +1,16 @@
+name	wl-kbptr
+version	0.4.1-r1
+description	Control the mouse pointer with the keyboard on Wayland
+url	https://github.com/moverest/wl-kbptr
+license	GPL-3.0-or-later
+size	25788
+installed-size	52320
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libwayland-client.so.0 so:libxkbcommon.so.0
+origin	wl-kbptr
+repo	community
+file	wl-kbptr-0.4.1-r1.apk
+checksum	Q1pK5Eo7fLdfkMEExT8E6tQd/OYd0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libxkbcommon.so.0	libxkbcommon

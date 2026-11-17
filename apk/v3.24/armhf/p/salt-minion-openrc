@@ -1,0 +1,13 @@
+name	salt-minion-openrc
+version	3007.13-r3
+description	Client component for Salt, a parallel remote execution system (OpenRC init scripts)
+url	https://github.com/saltstack/salt
+license	Apache-2.0
+size	1865
+installed-size	319
+depends	openrc
+origin	salt
+repo	community
+file	salt-minion-openrc-3007.13-r3.apk
+checksum	Q1uNHyM/jsYlx5/VWhaUs97wjalSY=
+dep	openrc	openrc

@@ -1,0 +1,25 @@
+name	py3-ipyparallel
+version	9.2.0-r0
+description	Interactive parallel python computing
+url	https://github.com/ipython/ipyparallel
+license	BSD-3-Clause
+size	247422
+installed-size	994976
+depends	py3-traitlets py3-pyzmq py3-decorator ipython py3-tornado py3-jupyter_client py3-entrypoints py3-psutil py3-tqdm py3-jedi py3-matplotlib-inline py3-ipykernel python3~3.14
+origin	py3-ipyparallel
+repo	community
+file	py3-ipyparallel-9.2.0-r0.apk
+checksum	Q1ckwbhVlXVrIK1C+RAMVgdoXK/Ho=
+dep	py3-traitlets	py3-traitlets
+dep	py3-pyzmq	py3-pyzmq
+dep	py3-decorator	py3-decorator
+dep	ipython	ipython
+dep	py3-tornado	py3-tornado
+dep	py3-jupyter_client	py3-jupyter_client
+dep	py3-entrypoints	py3-entrypoints
+dep	py3-psutil	py3-psutil
+dep	py3-tqdm	py3-tqdm
+dep	py3-jedi	py3-jedi
+dep	py3-matplotlib-inline	py3-matplotlib-inline
+dep	py3-ipykernel	py3-ipykernel
+dep	python3~3.14	python3

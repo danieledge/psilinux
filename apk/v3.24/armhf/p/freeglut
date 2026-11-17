@@ -1,0 +1,17 @@
+name	freeglut
+version	3.8.0-r0
+description	free reimplementation of OpenGL Utility Toolkit (GLUT) library
+url	https://freeglut.sourceforge.net/
+license	MIT
+size	96984
+installed-size	251952
+depends	so:libGL.so.1 so:libX11.so.6 so:libXi.so.6 so:libXxf86vm.so.1 so:libc.musl-armhf.so.1
+origin	freeglut
+repo	community
+file	freeglut-3.8.0-r0.apk
+checksum	Q1qOcT5fKE22qGGvBvo017+q82L7U=
+dep	so:libGL.so.1	mesa-gl
+dep	so:libX11.so.6	libx11
+dep	so:libXi.so.6	libxi
+dep	so:libXxf86vm.so.1	libxxf86vm
+dep	so:libc.musl-armhf.so.1	musl

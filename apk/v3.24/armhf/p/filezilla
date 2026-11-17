@@ -1,0 +1,26 @@
+name	filezilla
+version	3.68.1-r0
+description	FTP Client
+url	https://filezilla-project.org/
+license	GPL-2.0-or-later
+size	2732880
+installed-size	5002355
+depends	so:libc.musl-armhf.so.1 so:libfilezilla.so.46 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgtk-3.so.0 so:libidn.so.12 so:libnettle.so.8 so:libpugixml.so.1 so:libsqlite3.so.0 so:libstdc++.so.6 so:libwx_baseu-3.2.so.0 so:libwx_gtk3u_aui-3.2.so.0 so:libwx_gtk3u_core-3.2.so.0 so:libwx_gtk3u_xrc-3.2.so.0
+origin	filezilla
+repo	community
+file	filezilla-3.68.1-r0.apk
+checksum	Q1YKYhGvU/mxm6AhlnboXDeCe87kM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfilezilla.so.46	libfilezilla
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libidn.so.12	libidn
+dep	so:libnettle.so.8	nettle
+dep	so:libpugixml.so.1	pugixml
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwx_baseu-3.2.so.0	wxwidgets
+dep	so:libwx_gtk3u_aui-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_core-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_xrc-3.2.so.0	wxwidgets-gtk3

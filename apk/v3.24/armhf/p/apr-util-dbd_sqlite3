@@ -1,0 +1,14 @@
+name	apr-util-dbd_sqlite3
+version	1.6.4-r0
+description	The Apache Portable Runtime Utility Library - SQLite3 driver
+url	https://apr.apache.org/
+license	Apache-2.0
+size	6373
+installed-size	13484
+depends	so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	apr-util
+repo	main
+file	apr-util-dbd_sqlite3-1.6.4-r0.apk
+checksum	Q10FrxdxhjxuwO/QzTQqovtr0JfTM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

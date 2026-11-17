@@ -1,0 +1,13 @@
+name	sntpc
+version	0.9-r12
+description	Simple NTP client
+url	https://git-old.alpinelinux.org/hosted/sntpc/
+license	GPL-2.0-only
+size	7331
+installed-size	13540
+depends	so:libc.musl-armhf.so.1
+origin	sntpc
+repo	main
+file	sntpc-0.9-r12.apk
+checksum	Q1HBbbZMVYlZMPs6hkt3AnQpUhysw=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	libite-dev
+version	2.6.2-r0
+description	that missing frog DNA you've been looking for (development files)
+url	https://github.com/troglobit/libite
+license	MIT
+size	35441
+installed-size	134437
+depends	libite=2.6.2-r0 pkgconfig
+origin	libite
+repo	community
+file	libite-dev-2.6.2-r0.apk
+checksum	Q1BufRXuRgbLEPkymKuCkiOCL7Qek=
+dep	libite=2.6.2-r0	libite
+dep	pkgconfig	pkgconf

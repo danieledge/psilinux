@@ -1,0 +1,17 @@
+name	vim
+version	9.2.1352-r0
+description	Improved vi-style text editor
+url	https://www.vim.org/
+license	Vim
+size	1850018
+installed-size	3631452
+depends	vim-common=9.2.1352-r0 xxd=9.2.1352-r0 so:libc.musl-armhf.so.1 so:libncursesw.so.6 so:libpixman-1.so.0
+origin	vim
+repo	community
+file	vim-9.2.1352-r0.apk
+checksum	Q1lq0TW5SBXhwV75DjBFDBEVw2S04=
+dep	vim-common=9.2.1352-r0	vim-common
+dep	xxd=9.2.1352-r0	xxd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpixman-1.so.0	pixman

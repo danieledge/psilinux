@@ -1,0 +1,13 @@
+name	mpc1-dev
+version	1.3.1-r1
+description	Multiprecision C library (development files)
+url	http://www.multiprecision.org/
+license	LGPL-3.0-or-later
+size	62728
+installed-size	225695
+depends	mpc1=1.3.1-r1
+origin	mpc1
+repo	main
+file	mpc1-dev-1.3.1-r1.apk
+checksum	Q1X5Mx+0I1TJsuFA0XQYFd8cg3jL8=
+dep	mpc1=1.3.1-r1	mpc1

@@ -1,0 +1,28 @@
+name	font-manager-common
+version	0.9.4-r1
+description	Common files/libraries for font-manager and font-viewer
+url	https://fontmanager.github.io/
+license	GPL-3.0-or-later
+size	1900782
+installed-size	8328616
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libharfbuzz.so.0 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libpango-1.0.so.0 so:libpangoft2-1.0.so.0 so:libsqlite3.so.0 so:libxml2.so.2
+origin	font-manager
+repo	community
+file	font-manager-common-0.9.4-r1.apk
+checksum	Q1gvbJEnlzHE9XykN4J1UGHwQxRXs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangoft2-1.0.so.0	pango
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libxml2.so.2	libxml2

@@ -1,0 +1,16 @@
+name	font-ibm-type1
+version	1.0.4-r1
+description	X.org ibm Type1 fonts
+url	https://xorg.freedesktop.org/
+license	custom
+size	321520
+installed-size	619970
+depends	encodings font-alias mkfontscale fontconfig
+origin	font-ibm-type1
+repo	main
+file	font-ibm-type1-1.0.4-r1.apk
+checksum	Q1pRAKIk07WifthSQrfUbbCuC6fuQ=
+dep	encodings	encodings
+dep	font-alias	font-alias
+dep	mkfontscale	mkfontscale
+dep	fontconfig	fontconfig

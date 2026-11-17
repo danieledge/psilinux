@@ -1,0 +1,20 @@
+name	libwebp-tools
+version	1.6.0-r0
+description	The WebP command line tools
+url	https://developers.google.com/speed/webp
+license	BSD-3-Clause
+size	79100
+installed-size	179848
+depends	so:libc.musl-armhf.so.1 so:libgif.so.7 so:libjpeg.so.8 so:libpng16.so.16 so:libsharpyuv.so.0 so:libwebp.so.7 so:libwebpdemux.so.2 so:libwebpmux.so.3
+origin	libwebp
+repo	main
+file	libwebp-tools-1.6.0-r0.apk
+checksum	Q18yQZOyoYeWKrIdVIvTI0RNMVHcI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgif.so.7	giflib
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpng16.so.16	libpng
+dep	so:libsharpyuv.so.0	libsharpyuv
+dep	so:libwebp.so.7	libwebp
+dep	so:libwebpdemux.so.2	libwebpdemux
+dep	so:libwebpmux.so.3	libwebpmux

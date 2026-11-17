@@ -1,0 +1,14 @@
+name	font-noto-test
+version	2026.11.01-r0
+description	Noto Sans and Serif Test fonts
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	5314
+installed-size	8499
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-test-2026.11.01-r0.apk
+checksum	Q1l7QQ7uRH951TzC10Tg6Hy5GyUHc=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

@@ -1,0 +1,14 @@
+name	ruby-sdbm
+version	1.0.0-r4
+description	Simple file-based key-value store with String keys and values for Ruby
+url	https://github.com/ruby/sdbm
+license	BSD-2-Clause
+size	13620
+installed-size	27880
+depends	so:libc.musl-armhf.so.1 so:libruby.so.3.4
+origin	ruby-sdbm
+repo	community
+file	ruby-sdbm-1.0.0-r4.apk
+checksum	Q1oH/qooVwrvlBnAWzUlv2aso5/ZY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libruby.so.3.4	ruby-libs

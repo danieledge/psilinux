@@ -1,0 +1,13 @@
+name	xmlrpc-c
+version	1.51.08-r5
+description	This library provides a modular implementation of XML-RPC for C and C++
+url	https://xmlrpc-c.sourceforge.net/
+license	BSD-3-Clause AND MIT
+size	88768
+installed-size	223132
+depends	so:libc.musl-armhf.so.1
+origin	xmlrpc-c
+repo	main
+file	xmlrpc-c-1.51.08-r5.apk
+checksum	Q1yBzpmagPvhm0PfdrFgDhPOM2h1A=
+dep	so:libc.musl-armhf.so.1	musl

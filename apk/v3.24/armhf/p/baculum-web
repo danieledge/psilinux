@@ -1,0 +1,15 @@
+name	baculum-web
+version	15.0.3-r0
+description	Baculum Web files
+url	https://bacula.org/
+license	AGPL-3.0-or-later
+size	587412
+installed-size	2727271
+depends	baculum-common=15.0.3-r0 php83-mbstring baculum-common=15.0.3-r0
+origin	baculum
+repo	community
+file	baculum-web-15.0.3-r0.apk
+checksum	Q1l2/Rr53LeymTQbotGX1Fwt6JXc0=
+dep	baculum-common=15.0.3-r0	baculum-common
+dep	php83-mbstring	php83-mbstring
+dep	baculum-common=15.0.3-r0	baculum-common

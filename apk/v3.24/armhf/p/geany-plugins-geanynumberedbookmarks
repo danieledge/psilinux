@@ -1,0 +1,18 @@
+name	geany-plugins-geanynumberedbookmarks
+version	2.1-r0
+description	Provide users 10 numbered Bookmarks
+url	https://plugins.geany.org/
+license	GPL-3.0-or-later
+size	12076
+installed-size	26648
+depends	so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgeany.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0
+origin	geany-plugins
+repo	community
+file	geany-plugins-geanynumberedbookmarks-2.1-r0.apk
+checksum	Q1rE76q+CtGhEMfunr2kHlfFVfxpY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgeany.so.0	geany
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0

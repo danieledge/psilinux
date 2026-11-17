@@ -1,0 +1,14 @@
+name	conmon
+version	2.2.1-r0
+description	OCI container runtime monitor
+url	https://github.com/containers/conmon
+license	Apache-2.0
+size	38902
+installed-size	158528
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0
+origin	conmon
+repo	community
+file	conmon-2.2.1-r0.apk
+checksum	Q10IrmqVlVxnOqDkYM6ouME9ZVRec=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib

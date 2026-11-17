@@ -1,0 +1,34 @@
+name	pluma
+version	1.28.1-r0
+description	A small and lightweight UTF-8 text editor for the MATE
+url	https://github.com/mate-desktop/pluma
+license	GPL-2.0-or-later
+size	546420
+installed-size	1790750
+depends	mate-desktop so:libICE.so.6 so:libSM.so.6 so:libX11.so.6 so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libenchant-2.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libgirepository-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgtksourceview-4.so.0 so:libintl.so.8 so:libmate-desktop-2.so.17 so:libpango-1.0.so.0 so:libpeas-1.0.so.1 so:libpeas-gtk-1.0.so.1 so:libxml2.so.2
+origin	pluma
+repo	community
+file	pluma-1.28.1-r0.apk
+checksum	Q1v53ZjJtm9p5RdisoQbN8tVdF7Hw=
+dep	mate-desktop	mate-desktop
+dep	so:libICE.so.6	libice
+dep	so:libSM.so.6	libsm
+dep	so:libX11.so.6	libx11
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libenchant-2.so.2	enchant2-libs
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libgirepository-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtksourceview-4.so.0	gtksourceview4
+dep	so:libintl.so.8	libintl
+dep	so:libmate-desktop-2.so.17	mate-desktop
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpeas-1.0.so.1	libpeas
+dep	so:libpeas-gtk-1.0.so.1	libpeas
+dep	so:libxml2.so.2	libxml2

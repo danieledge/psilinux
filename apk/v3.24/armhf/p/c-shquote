@@ -1,0 +1,13 @@
+name	c-shquote
+version	1.1.0-r0
+description	POSIX Shell Compatible Argument Parser
+url	https://github.com/c-util/c-shquote
+license	Apache-2.0 OR LGPL-2.1-or-later
+size	5523
+installed-size	9444
+depends	so:libc.musl-armhf.so.1
+origin	c-shquote
+repo	community
+file	c-shquote-1.1.0-r0.apk
+checksum	Q11TkbuhmnWtQynw5SmFCMx4v9i3k=
+dep	so:libc.musl-armhf.so.1	musl

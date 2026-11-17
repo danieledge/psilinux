@@ -1,0 +1,13 @@
+name	bearssl-static
+version	0.6_git20260508-r0
+description	The BearSSL implementation of the SSL/TLS protocol (static library)
+url	https://bearssl.org/
+license	MIT
+size	189212
+installed-size	647312
+depends	bearssl-dev
+origin	bearssl
+repo	main
+file	bearssl-static-0.6_git20260508-r0.apk
+checksum	Q1Q6CBVsAfqUSJqzcWS9Rs+l1xNjQ=
+dep	bearssl-dev	bearssl-dev

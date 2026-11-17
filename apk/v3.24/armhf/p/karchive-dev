@@ -1,0 +1,18 @@
+name	karchive-dev
+version	6.26.0-r0
+description	Qt addon providing access to numerous types of archives (development files)
+url	https://community.kde.org/Frameworks
+license	LGPL-2.0-or-later AND LGPL-2.1-or-later
+size	19378
+installed-size	71997
+depends	bzip2-dev qt6-qtbase-dev xz-dev karchive=6.26.0-r0 pc:Qt6Core pkgconfig
+origin	karchive
+repo	community
+file	karchive-dev-6.26.0-r0.apk
+checksum	Q1aq5YiBRZg83uSyqysA9pbQX2XkE=
+dep	bzip2-dev	bzip2-dev
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	xz-dev	xz-dev
+dep	karchive=6.26.0-r0	karchive
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

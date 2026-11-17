@@ -1,0 +1,15 @@
+name	freeradius-mysql
+version	3.0.27-r3
+description	MySQL module for FreeRADIUS server
+url	https://freeradius.org/
+license	GPL-2.0-or-later
+size	28555
+installed-size	100600
+depends	freeradius-sql=3.0.27-r3 so:libc.musl-armhf.so.1 so:libmariadb.so.3
+origin	freeradius
+repo	main
+file	freeradius-mysql-3.0.27-r3.apk
+checksum	Q1EG80uFWsyJ6RcbZAIU/65Nrb2+4=
+dep	freeradius-sql=3.0.27-r3	freeradius-sql
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmariadb.so.3	mariadb-connector-c

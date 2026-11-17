@@ -1,0 +1,16 @@
+name	mautrix-gvoice
+version	0.2605.0-r2
+description	Matrix-Google Voice puppeting bridge
+url	https://docs.mau.fi/bridges/go/gvoice/
+license	AGPL-3.0-or-later
+size	7879545
+installed-size	21565416
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libolm.so.3 so:libsqlite3.so.0
+origin	mautrix-gvoice
+repo	community
+file	mautrix-gvoice-0.2605.0-r2.apk
+checksum	Q17edC9N+G7blqqDZV6t3MXPio9mE=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libolm.so.3	olm
+dep	so:libsqlite3.so.0	sqlite-libs

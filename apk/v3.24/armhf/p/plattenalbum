@@ -1,0 +1,17 @@
+name	plattenalbum
+version	2.5.0-r0
+description	Browse music with MPD
+url	https://github.com/SoongNoonien/plattenalbum
+license	GPL-3.0-only
+size	41635
+installed-size	166057
+depends	gettext libadwaita py3-gobject3 py3-mpd2 python3
+origin	plattenalbum
+repo	community
+file	plattenalbum-2.5.0-r0.apk
+checksum	Q11RnLXEmD49BiSp5DSFCtmmf4zkA=
+dep	gettext	gettext
+dep	libadwaita	libadwaita
+dep	py3-gobject3	py3-gobject3
+dep	py3-mpd2	py3-mpd2
+dep	python3	python3

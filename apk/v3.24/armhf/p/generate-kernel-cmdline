@@ -1,0 +1,14 @@
+name	generate-kernel-cmdline
+version	1.0-r0
+description	Kernel command line generator using UAPI.6-compliant configuration
+url	https://gitlab.postmarketos.org/postmarketOS/generate-kernel-cmdline
+license	GPL-3.0-or-later
+size	164131
+installed-size	306144
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	generate-kernel-cmdline
+repo	community
+file	generate-kernel-cmdline-1.0-r0.apk
+checksum	Q1Z0jljObGkU8e9pMS/jjtF7FxiZk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

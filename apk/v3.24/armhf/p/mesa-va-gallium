@@ -1,0 +1,15 @@
+name	mesa-va-gallium
+version	26.1.6-r0
+description	Mesa gallium VAAPI drivers
+url	https://www.mesa3d.org
+license	MIT AND SGI-B-2.0 AND BSL-1.0
+size	1655
+installed-size	1
+depends	mesa=26.1.6-r0 libva mesa=26.1.6-r0
+origin	mesa
+repo	main
+file	mesa-va-gallium-26.1.6-r0.apk
+checksum	Q1R4CT9udqGiZBI4HSEKk7GsB5adw=
+dep	mesa=26.1.6-r0	mesa
+dep	libva	libva
+dep	mesa=26.1.6-r0	mesa

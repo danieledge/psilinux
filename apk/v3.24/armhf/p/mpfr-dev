@@ -1,0 +1,14 @@
+name	mpfr-dev
+version	4.2.2-r0
+description	multiple-precision floating-point library (development files)
+url	https://www.mpfr.org/
+license	LGPL-3.0-or-later
+size	289389
+installed-size	907227
+depends	mpfr4=4.2.2-r0 pkgconfig
+origin	mpfr4
+repo	main
+file	mpfr-dev-4.2.2-r0.apk
+checksum	Q1r6IfP/WkGbgM91b1GguuuA8IxkQ=
+dep	mpfr4=4.2.2-r0	mpfr4
+dep	pkgconfig	pkgconf

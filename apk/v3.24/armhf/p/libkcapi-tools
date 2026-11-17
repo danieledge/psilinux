@@ -1,0 +1,14 @@
+name	libkcapi-tools
+version	1.5.1-r0
+description	Linux Kernel Crypto API User Space Interface Library (commandline utilities)
+url	https://www.chronox.de/libkcapi/index.html
+license	BSD-3-Clause OR GPL-2.0-only
+size	328283
+installed-size	694921
+depends	so:libc.musl-armhf.so.1 so:libkcapi.so.1
+origin	libkcapi
+repo	main
+file	libkcapi-tools-1.5.1-r0.apk
+checksum	Q1jEUDdvVzXpS17BHYYk9zlpe/pXI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libkcapi.so.1	libkcapi

@@ -1,0 +1,25 @@
+name	awall
+version	1.14.0-r1
+description	Alpine Wall
+url	https://gitlab.alpinelinux.org/alpine/awall
+license	GPL-2.0-only
+size	31934
+installed-size	100764
+depends	drill ipset iptables lua5.4 lua5.4-alt-getopt lua5.4-cjson lua5.4-pc lua5.4-posix lua-schema lua5.4-stringy lua5.4-lyaml xtables-addons /bin/sh
+origin	awall
+repo	main
+file	awall-1.14.0-r1.apk
+checksum	Q1rEkS1//dlDwFueTFFkXBd1bhC1Q=
+dep	drill	drill
+dep	ipset	ipset
+dep	iptables	iptables
+dep	lua5.4	lua5.4
+dep	lua5.4-alt-getopt	lua5.4-alt-getopt
+dep	lua5.4-cjson	lua5.4-cjson
+dep	lua5.4-pc	lua5.4-pc
+dep	lua5.4-posix	lua5.4-posix
+dep	lua-schema	lua-schema
+dep	lua5.4-stringy	lua5.4-stringy
+dep	lua5.4-lyaml	lua5.4-lyaml
+dep	xtables-addons	xtables-addons
+dep	/bin/sh	busybox-binsh

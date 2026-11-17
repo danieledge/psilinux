@@ -1,0 +1,15 @@
+name	spvm-errno
+version	0.093-r2
+description	SPVM Language - Error Numbers
+url	https://metacpan.org/release/SPVM-Errno/
+license	MIT
+size	15813
+installed-size	132867
+depends	perl spvm so:libc.musl-armhf.so.1
+origin	spvm-errno
+repo	community
+file	spvm-errno-0.093-r2.apk
+checksum	Q1bICQhqjxN/CILLelB14jCrkegkc=
+dep	perl	perl
+dep	spvm	spvm
+dep	so:libc.musl-armhf.so.1	musl

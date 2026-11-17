@@ -1,0 +1,20 @@
+name	py3-inline-snapshot
+version	0.32.5-r1
+description	Create and update inline snapshots in your python tests
+url	https://github.com/15r10nk/inline-snapshot
+license	MIT
+size	68477
+installed-size	248802
+depends	black py3-asttokens py3-click py3-executing py3-rich py3-tomli py3-typing-extensions python3~3.14
+origin	py3-inline-snapshot
+repo	community
+file	py3-inline-snapshot-0.32.5-r1.apk
+checksum	Q12hF8vq+XZXdKQQozD5c47Rf2UMw=
+dep	black	black
+dep	py3-asttokens	py3-asttokens
+dep	py3-click	py3-click
+dep	py3-executing	py3-executing
+dep	py3-rich	py3-rich
+dep	py3-tomli	py3-tomli
+dep	py3-typing-extensions	py3-typing-extensions
+dep	python3~3.14	python3

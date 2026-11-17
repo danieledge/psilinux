@@ -1,0 +1,15 @@
+name	py3-cson
+version	0.8-r1
+description	A python parser for the Coffeescript Object Notation (CSON)
+url	https://github.com/avakar/pycson
+license	MIT
+size	7952
+installed-size	18810
+depends	py3-speg python3 python3~3.14
+origin	py3-cson
+repo	community
+file	py3-cson-0.8-r1.apk
+checksum	Q1iu+Tg6K9stapuhFTBXXUAbCIeFY=
+dep	py3-speg	py3-speg
+dep	python3	python3
+dep	python3~3.14	python3

@@ -1,0 +1,17 @@
+name	phodav-dev
+version	3.0-r6
+description	WebDAV server using libsoup (development files)
+url	https://gitlab.gnome.org/GNOME/phodav
+license	LGPL-2.0-or-later
+size	3381
+installed-size	5006
+depends	phodav=3.0-r6 pc:gio-unix-2.0>=2.44 pc:libsoup-3.0>=3.0.0 pc:libxml-2.0 pkgconfig
+origin	phodav
+repo	community
+file	phodav-dev-3.0-r6.apk
+checksum	Q1ux95wR/bcMyin1nAh0sf7LVXiKM=
+dep	phodav=3.0-r6	phodav
+dep	pc:gio-unix-2.0>=2.44	glib-dev
+dep	pc:libsoup-3.0>=3.0.0	libsoup3-dev
+dep	pc:libxml-2.0	libxml2-dev
+dep	pkgconfig	pkgconf

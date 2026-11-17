@@ -1,0 +1,13 @@
+name	ocaml-jsonm-tools
+version	1.0.2-r3
+description	Non-blocking streaming JSON codec (command line utilities)
+url	https://erratique.ch/software/jsonm
+license	ISC
+size	455581
+installed-size	985532
+depends	so:libc.musl-armhf.so.1
+origin	ocaml-jsonm
+repo	community
+file	ocaml-jsonm-tools-1.0.2-r3.apk
+checksum	Q1KVWt7kJiZHVtM6SSMdwGJ+72hW0=
+dep	so:libc.musl-armhf.so.1	musl

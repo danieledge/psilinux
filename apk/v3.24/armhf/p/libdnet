@@ -1,0 +1,13 @@
+name	libdnet
+version	1.18.0-r0
+description	simplified, portable interface to several low-level networking routines
+url	https://github.com/ofalk/libdnet
+license	BSD-3-Clause
+size	34251
+installed-size	72780
+depends	so:libc.musl-armhf.so.1
+origin	libdnet
+repo	main
+file	libdnet-1.18.0-r0.apk
+checksum	Q18be1y4pSgqboB45f1DwlQIr+U9U=
+dep	so:libc.musl-armhf.so.1	musl

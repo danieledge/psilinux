@@ -1,0 +1,14 @@
+name	oxipng
+version	9.1.5-r0
+description	Multithreaded PNG optimizer written in Rust
+url	https://github.com/shssoichiro/oxipng
+license	MIT
+size	501792
+installed-size	942012
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	oxipng
+repo	community
+file	oxipng-9.1.5-r0.apk
+checksum	Q1cmHsu1zSidbgMODUTbWXYHaubzU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

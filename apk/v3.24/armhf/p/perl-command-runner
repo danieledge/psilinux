@@ -1,0 +1,16 @@
+name	perl-command-runner
+version	0.201-r1
+description	Run external commands and Perl code refs
+url	https://metacpan.org/release/Command-Runner/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	5617
+installed-size	12146
+depends	perl perl-capture-tiny perl-file-pushd perl-string-shellquote
+origin	perl-command-runner
+repo	community
+file	perl-command-runner-0.201-r1.apk
+checksum	Q1GdihqCwb1gzWTsugND//hSGifa4=
+dep	perl	perl
+dep	perl-capture-tiny	perl-capture-tiny
+dep	perl-file-pushd	perl-file-pushd
+dep	perl-string-shellquote	perl-string-shellquote

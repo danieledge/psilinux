@@ -1,0 +1,14 @@
+name	libtheora
+version	1.2.0-r1
+description	An open video codec developed by the Xiph.org
+url	https://www.xiph.org
+license	BSD-3-Clause
+size	323654
+installed-size	561084
+depends	so:libc.musl-armhf.so.1 so:libogg.so.0
+origin	libtheora
+repo	main
+file	libtheora-1.2.0-r1.apk
+checksum	Q1K3E46DSqNY7mEfHsthLIU6v0B4g=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libogg.so.0	libogg

@@ -1,0 +1,15 @@
+name	linux-firmware-intel
+version	20260519-r0
+description	firmware files for linux (intel folder including iwlwifi)
+url	https://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git;a=summary
+license	custom
+size	121770202
+installed-size	121764870
+depends	linux-firmware-dell=20260519-r0 linux-firmware-hp=20260519-r0 linux-firmware-lenovo=20260519-r0
+origin	linux-firmware
+repo	main
+file	linux-firmware-intel-20260519-r0.apk
+checksum	Q19e+8L3awhvIVGdhFfO9heJ11q8E=
+dep	linux-firmware-dell=20260519-r0	linux-firmware-dell
+dep	linux-firmware-hp=20260519-r0	linux-firmware-hp
+dep	linux-firmware-lenovo=20260519-r0	linux-firmware-lenovo

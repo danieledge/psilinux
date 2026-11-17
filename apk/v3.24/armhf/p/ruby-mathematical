@@ -1,0 +1,58 @@
+name	ruby-mathematical
+version	1.6.20-r1
+description	Convert mathematical equations to SVGs, PNGs, or MathML
+url	https://www.gjtorikian.com/mathematical/
+license	MIT
+size	12203
+installed-size	36491
+depends	ruby ruby-base64 ruby-enum so:libX11.so.6 so:libXau.so.6 so:libXdmcp.so.6 so:libXext.so.6 so:libXft.so.2 so:libXrender.so.1 so:libatomic.so.1 so:libblkid.so.1 so:libbrotlicommon.so.1 so:libbrotlidec.so.1 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libexpat.so.1 so:libffi.so.8 so:libfontconfig.so.1 so:libfreetype.so.6 so:libfribidi.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libglycin-2.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphite2.so.3 so:libharfbuzz.so.0 so:libintl.so.8 so:liblasem-0.6.so.5 so:liblcms2.so.2 so:liblcms2_fast_float.so.2 so:liblcms2_threaded.so.2 so:libmount.so.1 so:libmtex2MML.so.1.3.1 so:libpango-1.0.so.0 so:libpcre2-8.so.0 so:libpixman-1.so.0 so:libpng16.so.16 so:libruby.so.3.4 so:libseccomp.so.2 so:libxcb-render.so.0 so:libxcb-shm.so.0 so:libxcb.so.1 so:libz.so.1
+origin	ruby-mathematical
+repo	community
+file	ruby-mathematical-1.6.20-r1.apk
+checksum	Q1TS14n1OGIxjxU/JrxASygv0pUVg=
+dep	ruby	ruby
+dep	ruby-base64	ruby-base64
+dep	ruby-enum	ruby-enum
+dep	so:libX11.so.6	libx11
+dep	so:libXau.so.6	libxau
+dep	so:libXdmcp.so.6	libxdmcp
+dep	so:libXext.so.6	libxext
+dep	so:libXft.so.2	libxft
+dep	so:libXrender.so.1	libxrender
+dep	so:libatomic.so.1	libatomic
+dep	so:libblkid.so.1	libblkid
+dep	so:libbrotlicommon.so.1	brotli-libs
+dep	so:libbrotlidec.so.1	brotli-libs
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libexpat.so.1	libexpat
+dep	so:libffi.so.8	libffi
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libfribidi.so.0	fribidi
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libglycin-2.so.0	libglycin
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphite2.so.3	graphite2
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:libintl.so.8	libintl
+dep	so:liblasem-0.6.so.5	lasem
+dep	so:liblcms2.so.2	lcms2
+dep	so:liblcms2_fast_float.so.2	lcms2-plugins
+dep	so:liblcms2_threaded.so.2	lcms2-plugins
+dep	so:libmount.so.1	libmount
+dep	so:libmtex2MML.so.1.3.1	mtex2mml-libs
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libpixman-1.so.0	pixman
+dep	so:libpng16.so.16	libpng
+dep	so:libruby.so.3.4	ruby-libs
+dep	so:libseccomp.so.2	libseccomp
+dep	so:libxcb-render.so.0	libxcb
+dep	so:libxcb-shm.so.0	libxcb
+dep	so:libxcb.so.1	libxcb
+dep	so:libz.so.1	zlib

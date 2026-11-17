@@ -1,0 +1,16 @@
+name	py3-pip-tools
+version	7.5.3-r0
+description	Tools to keep your pinned Python dependencies fresh
+url	https://pip-tools.rtfd.io
+license	BSD-3-Clause
+size	63290
+installed-size	214549
+depends	py3-build py3-click py3-pip python3~3.14
+origin	py3-pip-tools
+repo	community
+file	py3-pip-tools-7.5.3-r0.apk
+checksum	Q1QuqW9VvtU263BpnPq9E8FyzIJtc=
+dep	py3-build	py3-build
+dep	py3-click	py3-click
+dep	py3-pip	py3-pip
+dep	python3~3.14	python3

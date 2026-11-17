@@ -1,0 +1,18 @@
+name	gnome-autoar-dev
+version	0.4.5-r1
+description	GNOME archive extraction library (development files)
+url	https://www.gnome.org/
+license	LGPL-2.1-only
+size	19321
+installed-size	137168
+depends	gnome-autoar=0.4.5-r1 pc:gio-2.0>=2.35.6 pc:glib-2.0>=2.35.6 pc:gtk+-3.0>=3.2 pc:libarchive>=3.4.0 pkgconfig
+origin	gnome-autoar
+repo	community
+file	gnome-autoar-dev-0.4.5-r1.apk
+checksum	Q1UOlyfIILgAe10R6wmtANZ067SQ4=
+dep	gnome-autoar=0.4.5-r1	gnome-autoar
+dep	pc:gio-2.0>=2.35.6	glib-dev
+dep	pc:glib-2.0>=2.35.6	glib-dev
+dep	pc:gtk+-3.0>=3.2	gtk+3.0-dev
+dep	pc:libarchive>=3.4.0	libarchive-dev
+dep	pkgconfig	pkgconf

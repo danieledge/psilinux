@@ -1,0 +1,16 @@
+name	xcalib
+version	0.11-r0
+description	A tiny monitor calibration loader for X.org
+url	https://github.com/OpenICC/xcalib
+license	GPL-2.0-or-later
+size	113655
+installed-size	240995
+depends	so:libX11.so.6 so:libXrandr.so.2 so:libXxf86vm.so.1 so:libc.musl-armhf.so.1
+origin	xcalib
+repo	community
+file	xcalib-0.11-r0.apk
+checksum	Q1+aaWhn51J4kohTcTTAWYAgE7pms=
+dep	so:libX11.so.6	libx11
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libXxf86vm.so.1	libxxf86vm
+dep	so:libc.musl-armhf.so.1	musl

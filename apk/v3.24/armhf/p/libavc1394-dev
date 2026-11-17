@@ -1,0 +1,15 @@
+name	libavc1394-dev
+version	0.5.4-r3
+description	Audio/Video Control library for IEEE-1394 devices (development files)
+url	https://sourceforge.net/projects/libavc1394/
+license	GPL-2.0-or-later LGPL-2.0-or-later
+size	19736
+installed-size	62275
+depends	libavc1394=0.5.4-r3 pc:libraw1394 pkgconfig
+origin	libavc1394
+repo	community
+file	libavc1394-dev-0.5.4-r3.apk
+checksum	Q1O1iN6j1xU2NRYElVoelKoZkemG4=
+dep	libavc1394=0.5.4-r3	libavc1394
+dep	pc:libraw1394	libraw1394-dev
+dep	pkgconfig	pkgconf

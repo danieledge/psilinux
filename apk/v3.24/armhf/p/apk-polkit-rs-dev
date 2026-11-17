@@ -1,0 +1,15 @@
+name	apk-polkit-rs-dev
+version	3.0.2-r0
+description	apk-polkit-rs exposes a DBus API for APK, the Alpine Package Keeper (development files)
+url	https://gitlab.alpinelinux.org/Cogitri/apk-polkit-rs
+license	GPL-3.0-or-later
+size	4249
+installed-size	15678
+depends	apk-polkit-rs=3.0.2-r0 pc:gio-unix-2.0 pkgconfig
+origin	apk-polkit-rs
+repo	community
+file	apk-polkit-rs-dev-3.0.2-r0.apk
+checksum	Q10QVNy1n29KEG+sP0DEdPtGc3uQs=
+dep	apk-polkit-rs=3.0.2-r0	apk-polkit-rs
+dep	pc:gio-unix-2.0	glib-dev
+dep	pkgconfig	pkgconf

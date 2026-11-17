@@ -1,0 +1,14 @@
+name	apache-mod-auth-radius
+version	1.6.0-r3
+description	Apache authentication module to become RADIUS client for AAA requests
+url	http://freeradius.org/mod_auth_radius/
+license	Apache-1.0
+size	14576
+installed-size	42509
+depends	apache2 so:libc.musl-armhf.so.1
+origin	apache-mod-auth-radius
+repo	main
+file	apache-mod-auth-radius-1.6.0-r3.apk
+checksum	Q1VnWxtk+CqELA4tjsPMt7Sgie0Xc=
+dep	apache2	apache2
+dep	so:libc.musl-armhf.so.1	musl

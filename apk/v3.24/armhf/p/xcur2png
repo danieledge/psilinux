@@ -1,0 +1,15 @@
+name	xcur2png
+version	0.7.1-r2
+description	Convert X cursors to PNG images and xcursorgen config-file
+url	https://github.com/eworm-de/xcur2png
+license	GPL-3.0-or-later
+size	8956
+installed-size	17816
+depends	so:libXcursor.so.1 so:libc.musl-armhf.so.1 so:libpng16.so.16
+origin	xcur2png
+repo	community
+file	xcur2png-0.7.1-r2.apk
+checksum	Q1fmylzrFBXVZvBrjF3d9VPPO/1s4=
+dep	so:libXcursor.so.1	libxcursor
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpng16.so.16	libpng

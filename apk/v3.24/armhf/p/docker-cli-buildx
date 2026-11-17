@@ -1,0 +1,13 @@
+name	docker-cli-buildx
+version	0.38.1-r0
+description	A Docker CLI plugin for extended build capabilities
+url	https://docs.docker.com/engine/reference/commandline/buildx_build
+license	Apache-2.0
+size	23188007
+installed-size	68949700
+depends	so:libc.musl-armhf.so.1
+origin	docker-cli-buildx
+repo	community
+file	docker-cli-buildx-0.38.1-r0.apk
+checksum	Q1Sc/BFvpEgCZ+0Y/oYNJgs7Kujb8=
+dep	so:libc.musl-armhf.so.1	musl

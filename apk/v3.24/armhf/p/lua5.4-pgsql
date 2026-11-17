@@ -1,0 +1,16 @@
+name	lua5.4-pgsql
+version	1.6.7-r1
+description	Lua binding for PostgreSQL (for Lua 5.4)
+url	https://github.com/arcapos/luapgsql
+license	BSD-3-Clause-Clear
+size	14843
+installed-size	38996
+depends	lua5.4 so:libc.musl-armhf.so.1 so:liblua-5.4.so.0 so:libpq.so.5
+origin	lua-pgsql
+repo	community
+file	lua5.4-pgsql-1.6.7-r1.apk
+checksum	Q10J5jpOeiUXvnRUmdMVW80Zlb4CI=
+dep	lua5.4	lua5.4
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblua-5.4.so.0	lua5.4-libs
+dep	so:libpq.so.5	libpq

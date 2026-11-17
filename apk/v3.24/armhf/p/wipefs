@@ -1,0 +1,15 @@
+name	wipefs
+version	2.42.3-r1
+description	Utility to wipe filesystems from device from util-linux
+url	https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+license	GPL-2.0-or-later
+size	12657
+installed-size	25984
+depends	so:libblkid.so.1 so:libc.musl-armhf.so.1 so:libsmartcols.so.1
+origin	util-linux
+repo	main
+file	wipefs-2.42.3-r1.apk
+checksum	Q1Ui+oR9sz0TcaGBo1gZf0nWUOcyg=
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsmartcols.so.1	libsmartcols

@@ -1,0 +1,63 @@
+name	mpv-dev
+version	0.41.0-r2
+description	Video player based on MPlayer/mplayer2 (development files)
+url	https://mpv.io/
+license	GPL-2.0-or-later
+size	43499
+installed-size	138345
+depends	mpv-libs=0.41.0-r2 pc:alsa>=1.0.18 pc:caca>=0.99 pc:dvdnav>=4.2.0 pc:egl>=1.4.0 pc:gbm>=17.1.0 pc:jack pc:lcms2>=2.6 pc:libarchive>=3.4.0 pc:libass>=0.12.2 pc:libavcodec>=60.31.102 pc:libavdevice>=60.3.100 pc:libavfilter>=9.12.100 pc:libavformat>=60.16.100 pc:libavutil>=58.29.100 pc:libbluray>=0.5.0 pc:libcdio>=0.90 pc:libcdio_paranoia pc:libdisplay-info>=0.1.1 pc:libdrm>=2.4.105 pc:libjpeg pc:libpipewire-0.3>=0.3.57 pc:libplacebo>=6.338.2 pc:libpulse>=1.0 pc:libsixel>=1.5 pc:libswresample>=4.12.100 pc:libswscale>=7.5.100 pc:libva-drm>=1.1.0 pc:libva-wayland>=1.1.0 pc:libva-x11>=1.1.0 pc:libva>=1.1.0 pc:luajit>=2.0.0 pc:rubberband>=1.8.0 pc:sndio pc:uchardet pc:vulkan>=1.3.238 pc:wayland-client>=1.21.0 pc:wayland-cursor>=1.21.0 pc:wayland-egl>=9.0.0 pc:wayland-protocols>=1.31 pc:x11>=1.0.0 pc:xext>=1.0.0 pc:xfixes>=1.0.0 pc:xkbcommon>=0.3.0 pc:xpresent>=1.0.0 pc:xrandr>=1.4.0 pc:xscrnsaver>=1.0.0 pc:xv pc:zimg>=2.9 pc:zlib pkgconfig
+origin	mpv
+repo	community
+file	mpv-dev-0.41.0-r2.apk
+checksum	Q1GXtcD2eGdkPRTD1kzGdFnQ7HeHc=
+dep	mpv-libs=0.41.0-r2	mpv-libs
+dep	pc:alsa>=1.0.18	alsa-lib-dev
+dep	pc:caca>=0.99	libcaca-dev
+dep	pc:dvdnav>=4.2.0	libdvdnav-dev
+dep	pc:egl>=1.4.0	mesa-dev
+dep	pc:gbm>=17.1.0	mesa-dev
+dep	pc:jack	jack-dev
+dep	pc:lcms2>=2.6	lcms2-dev
+dep	pc:libarchive>=3.4.0	libarchive-dev
+dep	pc:libass>=0.12.2	libass-dev
+dep	pc:libavcodec>=60.31.102	ffmpeg-dev
+dep	pc:libavdevice>=60.3.100	ffmpeg-dev
+dep	pc:libavfilter>=9.12.100	ffmpeg-dev
+dep	pc:libavformat>=60.16.100	ffmpeg-dev
+dep	pc:libavutil>=58.29.100	ffmpeg-dev
+dep	pc:libbluray>=0.5.0	libbluray-dev
+dep	pc:libcdio>=0.90	libcdio-dev
+dep	pc:libcdio_paranoia	libcdio-paranoia-dev
+dep	pc:libdisplay-info>=0.1.1	libdisplay-info-dev
+dep	pc:libdrm>=2.4.105	libdrm-dev
+dep	pc:libjpeg	libjpeg-turbo-dev
+dep	pc:libpipewire-0.3>=0.3.57	pipewire-dev
+dep	pc:libplacebo>=6.338.2	libplacebo-dev
+dep	pc:libpulse>=1.0	pulseaudio-dev
+dep	pc:libsixel>=1.5	libsixel-dev
+dep	pc:libswresample>=4.12.100	ffmpeg-dev
+dep	pc:libswscale>=7.5.100	ffmpeg-dev
+dep	pc:libva-drm>=1.1.0	libva-dev
+dep	pc:libva-wayland>=1.1.0	libva-dev
+dep	pc:libva-x11>=1.1.0	libva-dev
+dep	pc:libva>=1.1.0	libva-dev
+dep	pc:luajit>=2.0.0	luajit-dev
+dep	pc:rubberband>=1.8.0	rubberband-dev
+dep	pc:sndio	sndio-dev
+dep	pc:uchardet	uchardet-dev
+dep	pc:vulkan>=1.3.238	vulkan-loader-dev
+dep	pc:wayland-client>=1.21.0	wayland-dev
+dep	pc:wayland-cursor>=1.21.0	wayland-dev
+dep	pc:wayland-egl>=9.0.0	wayland-dev
+dep	pc:wayland-protocols>=1.31	wayland-protocols
+dep	pc:x11>=1.0.0	libx11-dev
+dep	pc:xext>=1.0.0	libxext-dev
+dep	pc:xfixes>=1.0.0	libxfixes-dev
+dep	pc:xkbcommon>=0.3.0	libxkbcommon-dev
+dep	pc:xpresent>=1.0.0	libxpresent-dev
+dep	pc:xrandr>=1.4.0	libxrandr-dev
+dep	pc:xscrnsaver>=1.0.0	libxscrnsaver-dev
+dep	pc:xv	libxv-dev
+dep	pc:zimg>=2.9	zimg-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

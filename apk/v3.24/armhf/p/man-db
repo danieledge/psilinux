@@ -1,0 +1,21 @@
+name	man-db
+version	2.13.1-r1
+description	The man command and related utilities for examining on-line help files
+url	https://man-db.gitlab.io/man-db/
+license	GPL-2.0-or-later
+size	349691
+installed-size	830296
+depends	groff less /bin/sh so:libc.musl-armhf.so.1 so:libgdbm.so.6 so:libintl.so.8 so:libpipeline.so.1 so:libseccomp.so.2 so:libz.so.1
+origin	man-db
+repo	community
+file	man-db-2.13.1-r1.apk
+checksum	Q1xETC+IR5k6jOxeXzyF/6dEs/YTU=
+dep	groff	groff
+dep	less	less
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdbm.so.6	gdbm
+dep	so:libintl.so.8	libintl
+dep	so:libpipeline.so.1	libpipeline
+dep	so:libseccomp.so.2	libseccomp
+dep	so:libz.so.1	zlib

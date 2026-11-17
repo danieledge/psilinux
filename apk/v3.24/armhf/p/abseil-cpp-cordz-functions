@@ -1,0 +1,15 @@
+name	abseil-cpp-cordz-functions
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-cordz-functions
+url	https://abseil.io/
+license	Apache-2.0
+size	3755
+installed-size	5496
+depends	so:libabsl_exponential_biased.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-cordz-functions-20250814.1-r0.apk
+checksum	Q1sKV0hpWDAcUhhrun3VlTV8ZIozs=
+dep	so:libabsl_exponential_biased.so.2508.0.0	abseil-cpp-exponential-biased
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

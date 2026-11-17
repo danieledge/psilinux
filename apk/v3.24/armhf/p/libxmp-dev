@@ -1,0 +1,14 @@
+name	libxmp-dev
+version	4.6.3-r0
+description	Libxmp is a library that renders module files to PCM data (development files)
+url	https://github.com/libxmp/libxmp/
+license	LGPL-2.1-or-later
+size	8780
+installed-size	23354
+depends	libxmp=4.6.3-r0 pkgconfig
+origin	libxmp
+repo	community
+file	libxmp-dev-4.6.3-r0.apk
+checksum	Q1NBirZT7Vy2phUirf4hq0f8TZVAs=
+dep	libxmp=4.6.3-r0	libxmp
+dep	pkgconfig	pkgconf

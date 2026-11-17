@@ -1,0 +1,13 @@
+name	android-tools-unpack_bootimg
+version	35.0.2-r21
+description	Android platform tools (unpack_bootimg)
+url	https://sites.google.com/a/android.com/tools/
+license	Apache-2.0 MIT
+size	6520
+installed-size	23223
+depends	python3
+origin	android-tools
+repo	community
+file	android-tools-unpack_bootimg-35.0.2-r21.apk
+checksum	Q1+G/0TpN+Be+4dBFV8+Vh5uQFdvo=
+dep	python3	python3

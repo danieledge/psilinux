@@ -1,0 +1,15 @@
+name	ibus-emoji
+version	1.5.35-r0
+description	Next Generation Input Bus for Linux (emojis)
+url	https://github.com/ibus/ibus/wiki
+license	LGPL-2.1-or-later
+size	18655476
+installed-size	154311283
+depends	ibus unicode-character-database cldr-emoji-annotation
+origin	ibus
+repo	community
+file	ibus-emoji-1.5.35-r0.apk
+checksum	Q1j+blLvLrbqz65DdG7ieulja3J8w=
+dep	ibus	ibus
+dep	unicode-character-database	unicode-character-database
+dep	cldr-emoji-annotation	cldr-emoji-annotation

@@ -1,0 +1,14 @@
+name	ruby-addressable
+version	2.9.0-r0
+description	An alternative implementation to the URI implementation
+url	https://github.com/sporkmonger/addressable
+license	Apache-2.0
+size	66836
+installed-size	356205
+depends	ruby ruby-public_suffix
+origin	ruby-addressable
+repo	community
+file	ruby-addressable-2.9.0-r0.apk
+checksum	Q1gVgqfvMwTloaTRiUGzd6iCCNymQ=
+dep	ruby	ruby
+dep	ruby-public_suffix	ruby-public_suffix

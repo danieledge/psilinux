@@ -1,0 +1,32 @@
+name	ocaml-mirage-kv
+version	4.0.1-r6
+description	MirageOS signatures for key/value devices
+url	https://github.com/mirage/mirage-kv
+license	ISC
+size	20389
+installed-size	41482
+depends	ocaml4-impl:Fmt:f30d4a24fc2a22a1c521394204953fad ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2 ocaml4-impl:Stdlib__List:b42dc21c9462b2cabc74ab8825425e32 ocaml4-impl:Stdlib__String:5c54069e57efa544d2be471c6a1fc73d ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15 ocaml4-intf:Fmt:3cd862d1191e5d0a44f4aef159a1956b ocaml4-intf:Lwt:9d6b616c677c329464b7e7ddca72e57b ocaml4-intf:Lwt_sequence:0a721086ad2af7d69b049bb70357cac1 ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91 ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822 ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9 ocaml4-intf:Stdlib__Format:b6edb97b685819e873481fe05723c8bc ocaml4-intf:Stdlib__Hashtbl:34c0fdd524bf2a75e4d5af64a6d34401 ocaml4-intf:Stdlib__List:ee222542f6f8195441543b8b399b64b9 ocaml4-intf:Stdlib__Printexc:ae914d0568e8b6e482a66bbd62a4432f ocaml4-intf:Stdlib__Queue:b066724fe533c7b8fc9b521e37aedad8 ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962 ocaml4-intf:Stdlib__Stack:30ae8c258e7fc6fb7e6370a60256d724 ocaml4-intf:Stdlib__String:4933e1d855f54bfed0231b038f0dbb87 ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57
+origin	ocaml-mirage-kv
+repo	community
+file	ocaml-mirage-kv-4.0.1-r6.apk
+checksum	Q1Ax9jzb1NtReMcAKP8Vw1aEK7tu0=
+dep	ocaml4-impl:Fmt:f30d4a24fc2a22a1c521394204953fad	ocaml-fmt
+dep	ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2	ocaml
+dep	ocaml4-impl:Stdlib__List:b42dc21c9462b2cabc74ab8825425e32	ocaml
+dep	ocaml4-impl:Stdlib__String:5c54069e57efa544d2be471c6a1fc73d	ocaml
+dep	ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15	ocaml
+dep	ocaml4-intf:Fmt:3cd862d1191e5d0a44f4aef159a1956b	ocaml-fmt
+dep	ocaml4-intf:Lwt:9d6b616c677c329464b7e7ddca72e57b	ocaml-lwt
+dep	ocaml4-intf:Lwt_sequence:0a721086ad2af7d69b049bb70357cac1	ocaml-lwt
+dep	ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91	ocaml
+dep	ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822	ocaml
+dep	ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9	ocaml
+dep	ocaml4-intf:Stdlib__Format:b6edb97b685819e873481fe05723c8bc	ocaml
+dep	ocaml4-intf:Stdlib__Hashtbl:34c0fdd524bf2a75e4d5af64a6d34401	ocaml
+dep	ocaml4-intf:Stdlib__List:ee222542f6f8195441543b8b399b64b9	ocaml
+dep	ocaml4-intf:Stdlib__Printexc:ae914d0568e8b6e482a66bbd62a4432f	ocaml
+dep	ocaml4-intf:Stdlib__Queue:b066724fe533c7b8fc9b521e37aedad8	ocaml
+dep	ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962	ocaml
+dep	ocaml4-intf:Stdlib__Stack:30ae8c258e7fc6fb7e6370a60256d724	ocaml
+dep	ocaml4-intf:Stdlib__String:4933e1d855f54bfed0231b038f0dbb87	ocaml
+dep	ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57	ocaml

@@ -1,0 +1,15 @@
+name	cdparanoia
+version	10.2-r14
+description	An audio CD extraction application
+url	https://www.xiph.org/paranoia
+license	GPL-2.0-or-later
+size	25713
+installed-size	55152
+depends	so:libc.musl-armhf.so.1 so:libcdda_interface.so.0 so:libcdda_paranoia.so.0
+origin	cdparanoia
+repo	main
+file	cdparanoia-10.2-r14.apk
+checksum	Q1iDlloZ7T4Oywa/pj0d5zRb+FrNE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcdda_interface.so.0	cdparanoia-libs
+dep	so:libcdda_paranoia.so.0	cdparanoia-libs

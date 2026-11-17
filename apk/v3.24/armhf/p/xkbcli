@@ -1,0 +1,20 @@
+name	xkbcli
+version	1.13.1-r0
+description	xkb command-line tool with interactive debugger
+url	https://xkbcommon.org/
+license	MIT AND MIT-open-group AND HPND AND HPND-sell-variant AND LicenseRef-digital-equipment-corporation
+size	76495
+installed-size	276160
+depends	xkeyboard-config so:libc.musl-armhf.so.1 so:libwayland-client.so.0 so:libxcb-xkb.so.1 so:libxcb.so.1 so:libxkbcommon-x11.so.0 so:libxkbcommon.so.0 so:libxkbregistry.so.0
+origin	libxkbcommon
+repo	main
+file	xkbcli-1.13.1-r0.apk
+checksum	Q1jn4fiC+aw7MmK/JX8r6ReOPmUTA=
+dep	xkeyboard-config	xkeyboard-config
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libxcb-xkb.so.1	libxcb
+dep	so:libxcb.so.1	libxcb
+dep	so:libxkbcommon-x11.so.0	libxkbcommon-x11
+dep	so:libxkbcommon.so.0	libxkbcommon
+dep	so:libxkbregistry.so.0	libxkbcommon

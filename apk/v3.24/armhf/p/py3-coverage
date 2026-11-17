@@ -1,0 +1,14 @@
+name	py3-coverage
+version	7.14.1-r0
+description	Code coverage measurement for Python
+url	https://pypi.org/project/coverage
+license	Apache-2.0
+size	200210
+installed-size	719746
+depends	python3~3.14 so:libc.musl-armhf.so.1
+origin	py3-coverage
+repo	main
+file	py3-coverage-7.14.1-r0.apk
+checksum	Q1HBqJlITYDKAkalw+cuKloKpvsoE=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

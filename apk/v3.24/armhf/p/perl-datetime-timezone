@@ -1,0 +1,19 @@
+name	perl-datetime-timezone
+version	2.72-r0
+description	Time zone object base class and factory
+url	https://metacpan.org/release/DateTime-TimeZone/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	877523
+installed-size	6411649
+depends	perl perl-specio perl-class-singleton perl-module-runtime perl-params-validationcompiler perl-try-tiny perl-namespace-autoclean
+origin	perl-datetime-timezone
+repo	main
+file	perl-datetime-timezone-2.72-r0.apk
+checksum	Q16QpAmPsv7+LZFAzZhFmwNi6ZZBE=
+dep	perl	perl
+dep	perl-specio	perl-specio
+dep	perl-class-singleton	perl-class-singleton
+dep	perl-module-runtime	perl-module-runtime
+dep	perl-params-validationcompiler	perl-params-validationcompiler
+dep	perl-try-tiny	perl-try-tiny
+dep	perl-namespace-autoclean	perl-namespace-autoclean

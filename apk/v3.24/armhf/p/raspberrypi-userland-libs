@@ -1,0 +1,13 @@
+name	raspberrypi-userland-libs
+version	0.20231020-r2
+description	Raspberry Pi libraries for interfacing to GPU (deprecated)
+url	https://github.com/raspberrypi/userland
+license	BSD-3-Clause
+size	654307
+installed-size	1623116
+depends	so:libc.musl-armhf.so.1
+origin	raspberrypi-userland
+repo	main
+file	raspberrypi-userland-libs-0.20231020-r2.apk
+checksum	Q10n4kFKwmqXimGlVCVPiVZLChNzU=
+dep	so:libc.musl-armhf.so.1	musl

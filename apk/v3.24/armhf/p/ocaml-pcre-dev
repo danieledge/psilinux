@@ -1,0 +1,14 @@
+name	ocaml-pcre-dev
+version	7.5.0-r7
+description	OCaml bindings to the Perl Compatibility Regular Expressions (PCRE) library (development files)
+url	https://mmottl.github.io/pcre-ocaml
+license	LGPL-2.1-or-later WITH OCaml-LGPL-linking-exception
+size	309745
+installed-size	813948
+depends	ocaml-pcre=7.5.0-r7 pcre-dev
+origin	ocaml-pcre
+repo	community
+file	ocaml-pcre-dev-7.5.0-r7.apk
+checksum	Q13SZ5+EupKkUrJ0PUDj1h2HYavEE=
+dep	ocaml-pcre=7.5.0-r7	ocaml-pcre
+dep	pcre-dev	pcre-dev

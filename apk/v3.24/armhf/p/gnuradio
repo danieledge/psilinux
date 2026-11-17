@@ -1,0 +1,48 @@
+name	gnuradio
+version	3.10.12.0-r12
+description	General purpose DSP and SDR toolkit
+url	https://www.gnuradio.org
+license	GPL-3.0-or-later
+size	9327740
+installed-size	30378990
+depends	py3-cairo py3-click py3-click-plugins py3-gobject3 py3-mako py3-numpy py3-qtgraph py3-qt5 py3-scipy py3-yaml cppzmq python3~3.14 so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt5Widgets.so.5 so:libSoapySDR.so.0.8 so:libasound.so.2 so:libboost_program_options.so.1.84.0 so:libboost_thread.so.1.84.0 so:libc.musl-armhf.so.1 so:libfftw3f.so.3 so:libfftw3f_threads.so.3 so:libfmt.so.11 so:libgcc_s.so.1 so:libgmp.so.10 so:libgsl.so.28 so:libgslcblas.so.0 so:libgsm.so.1 so:libportaudio.so.2 so:libqwt-qt5.so.6.3 so:libsndfile.so.1 so:libspdlog.so.1.17 so:libstdc++.so.6 so:libuhd.so.4.9.0 so:libvolk.so.3.3 so:libzmq.so.5
+origin	gnuradio
+repo	community
+file	gnuradio-3.10.12.0-r12.apk
+checksum	Q1sOXeRnWZaGxqCZBYhT+H5nR43u4=
+dep	py3-cairo	py3-cairo
+dep	py3-click	py3-click
+dep	py3-click-plugins	py3-click-plugins
+dep	py3-gobject3	py3-gobject3
+dep	py3-mako	py3-mako
+dep	py3-numpy	py3-numpy
+dep	py3-qtgraph	py3-qtgraph
+dep	py3-qt5	py3-qt5
+dep	py3-scipy	py3-scipy
+dep	py3-yaml	py3-yaml
+dep	cppzmq	cppzmq
+dep	python3~3.14	python3
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Gui.so.5	qt5-qtbase-x11
+dep	so:libQt5Widgets.so.5	qt5-qtbase-x11
+dep	so:libSoapySDR.so.0.8	soapy-sdr-libs
+dep	so:libasound.so.2	alsa-lib
+dep	so:libboost_program_options.so.1.84.0	boost1.84-program_options
+dep	so:libboost_thread.so.1.84.0	boost1.84-thread
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfftw3f.so.3	fftw-single-libs
+dep	so:libfftw3f_threads.so.3	fftw-single-libs
+dep	so:libfmt.so.11	fmt
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgmp.so.10	gmp
+dep	so:libgsl.so.28	gsl
+dep	so:libgslcblas.so.0	gsl
+dep	so:libgsm.so.1	gsm
+dep	so:libportaudio.so.2	portaudio
+dep	so:libqwt-qt5.so.6.3	qt5-qwt
+dep	so:libsndfile.so.1	libsndfile
+dep	so:libspdlog.so.1.17	spdlog
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libuhd.so.4.9.0	uhd-libs
+dep	so:libvolk.so.3.3	libvolk
+dep	so:libzmq.so.5	libzmq

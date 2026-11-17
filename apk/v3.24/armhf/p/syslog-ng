@@ -1,0 +1,23 @@
+name	syslog-ng
+version	4.11.0-r0
+description	Next generation logging daemon
+url	https://www.syslog-ng.com/products/open-source-log-management/
+license	GPL-2.0-or-later
+size	1009356
+installed-size	2694097
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libivykis.so.0 so:libpcre2-8.so.0 so:libssl.so.3 so:libstdc++.so.6
+origin	syslog-ng
+repo	main
+file	syslog-ng-4.11.0-r0.apk
+checksum	Q1ftboGfk89XICd74HBUX2ajCHL2U=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libivykis.so.0	ivykis
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++

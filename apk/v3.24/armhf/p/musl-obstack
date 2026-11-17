@@ -1,0 +1,13 @@
+name	musl-obstack
+version	1.2.3-r2
+description	Standalone library to implement GNU libc's obstack
+url	https://github.com/void-linux/musl-obstack
+license	GPL-2.0-or-later
+size	4163
+installed-size	5244
+depends	so:libc.musl-armhf.so.1
+origin	musl-obstack
+repo	main
+file	musl-obstack-1.2.3-r2.apk
+checksum	Q1fs5l/3TNeJl17ubhk1EE3Ahn2cQ=
+dep	so:libc.musl-armhf.so.1	musl

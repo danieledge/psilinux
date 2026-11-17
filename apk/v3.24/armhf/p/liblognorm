@@ -1,0 +1,15 @@
+name	liblognorm
+version	2.0.6-r5
+description	A fast log-normalization library
+url	https://www.liblognorm.com/
+license	LGPL-2.1-or-later AND Apache-2.0
+size	60279
+installed-size	125280
+depends	so:libc.musl-armhf.so.1 so:libestr.so.0 so:libfastjson.so.4
+origin	liblognorm
+repo	main
+file	liblognorm-2.0.6-r5.apk
+checksum	Q1Tw8Nvr6LECXK9k3rr8HsEsRK3UQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libestr.so.0	libestr
+dep	so:libfastjson.so.4	libfastjson

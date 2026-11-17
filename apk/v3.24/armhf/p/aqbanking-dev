@@ -1,0 +1,14 @@
+name	aqbanking-dev
+version	6.8.4-r0
+description	A library for online banking and financial applications (development files)
+url	https://www.aquamaniac.de
+license	GPL-2.0-or-later
+size	42652
+installed-size	275947
+depends	aqbanking=6.8.4-r0 pkgconfig
+origin	aqbanking
+repo	community
+file	aqbanking-dev-6.8.4-r0.apk
+checksum	Q1AQyiAvOcKEG2tZrHtaOQz3V67IE=
+dep	aqbanking=6.8.4-r0	aqbanking
+dep	pkgconfig	pkgconf

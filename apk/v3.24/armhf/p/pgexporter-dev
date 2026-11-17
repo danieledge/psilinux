@@ -1,0 +1,13 @@
+name	pgexporter-dev
+version	0.7.0-r0
+description	Prometheus exporter for PostgreSQL (development files)
+url	https://pgexporter.github.io
+license	BSD-3-Clause
+size	1561
+installed-size	1
+depends	pgexporter=0.7.0-r0
+origin	pgexporter
+repo	community
+file	pgexporter-dev-0.7.0-r0.apk
+checksum	Q1zFrK8ZZ+hUSpUxnoS31+QfYinfY=
+dep	pgexporter=0.7.0-r0	pgexporter

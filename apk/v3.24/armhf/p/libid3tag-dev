@@ -1,0 +1,14 @@
+name	libid3tag-dev
+version	0.16.3-r0
+description	MAD ID3 tagger for MP3 audio files (development files)
+url	https://codeberg.org/tenacityteam/libid3tag
+license	GPL-2.0-or-later
+size	8076
+installed-size	20475
+depends	libid3tag=0.16.3-r0 pkgconfig
+origin	libid3tag
+repo	main
+file	libid3tag-dev-0.16.3-r0.apk
+checksum	Q19UTEKJLQBtlIRNGh7BlUTcozNak=
+dep	libid3tag=0.16.3-r0	libid3tag
+dep	pkgconfig	pkgconf

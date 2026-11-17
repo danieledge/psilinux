@@ -1,0 +1,15 @@
+name	libnftnl-dev
+version	1.3.1-r0
+description	Netfilter library providing interface to the nf_tables subsystem (development files)
+url	https://netfilter.org/projects/libnftnl
+license	GPL-2.0-or-later
+size	95561
+installed-size	392008
+depends	libnftnl=1.3.1-r0 pc:libmnl pkgconfig
+origin	libnftnl
+repo	main
+file	libnftnl-dev-1.3.1-r0.apk
+checksum	Q1bv3ugr6i3zpg2MAuITwHAtNIZqI=
+dep	libnftnl=1.3.1-r0	libnftnl
+dep	pc:libmnl	libmnl-dev
+dep	pkgconfig	pkgconf

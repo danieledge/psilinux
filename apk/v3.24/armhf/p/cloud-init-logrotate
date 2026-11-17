@@ -1,0 +1,12 @@
+name	cloud-init-logrotate
+version	26.1-r3
+description	Cloud instance init scripts (logrotate configuration)
+url	https://cloud-init.io
+license	Apache-2.0 OR GPL-3.0-only
+size	1642
+installed-size	126
+depends	
+origin	cloud-init
+repo	community
+file	cloud-init-logrotate-26.1-r3.apk
+checksum	Q1GRQnXk8HF9hAqimVcASns4TXg9I=

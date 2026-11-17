@@ -1,0 +1,14 @@
+name	py3-jsonschema-specifications
+version	2025.9.1-r2
+description	Support files exposing JSON from the JSON Schema specifications to Python
+url	https://github.com/python-jsonschema/jsonschema-specifications
+license	MIT
+size	10713
+installed-size	46155
+depends	py3-referencing python3~3.14
+origin	py3-jsonschema-specifications
+repo	community
+file	py3-jsonschema-specifications-2025.9.1-r2.apk
+checksum	Q16mx8Vq8Z/ZigquYD1ulAhB0RlQ4=
+dep	py3-referencing	py3-referencing
+dep	python3~3.14	python3

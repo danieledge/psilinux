@@ -1,0 +1,13 @@
+name	gmnitohtml
+version	0.1.3-r17
+description	Gemini text to HTML converter
+url	https://git.sr.ht/~adnano/gmnitohtml
+license	GPL-3.0-only
+size	2114686
+installed-size	5208588
+depends	so:libc.musl-armhf.so.1
+origin	gmnitohtml
+repo	community
+file	gmnitohtml-0.1.3-r17.apk
+checksum	Q1ty8V+p2lv46NsPmxHBsQPvaszJU=
+dep	so:libc.musl-armhf.so.1	musl

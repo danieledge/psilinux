@@ -1,0 +1,14 @@
+name	djvulibre-dev
+version	3.5.30-r0
+description	Utilities and Libraries for the DjVu image format (development files)
+url	https://djvu.sourceforge.net/
+license	GPL-2.0-only
+size	23722
+installed-size	82886
+depends	djvulibre-libs=3.5.30-r0 pkgconfig
+origin	djvulibre
+repo	community
+file	djvulibre-dev-3.5.30-r0.apk
+checksum	Q1HlIWBOeNeGDzWLdT0QTvOiXYTqU=
+dep	djvulibre-libs=3.5.30-r0	djvulibre-libs
+dep	pkgconfig	pkgconf

@@ -1,0 +1,26 @@
+name	libgedit-tepl-dev
+version	6.14.0-r2
+description	Gedit Technology — text editor product line (development files)
+url	https://gitlab.gnome.org/World/gedit/libgedit-tepl
+license	LGPL-3.0-or-later
+size	78814
+installed-size	650316
+depends	glib-dev gtk+3.0-dev libgedit-gtksourceview-dev libgedit-tepl=6.14.0-r2 pc:gio-2.0>=2.74 pc:gsettings-desktop-schemas>=42 pc:gtk+-3.0>=3.22 pc:icu-i18n pc:icu-uc pc:libgedit-amtk-5>=5.9 pc:libgedit-gfls-1>=0.3 pc:libgedit-gtksourceview-300>=299.6.0 pc:libhandy-1>=1.6 pkgconfig
+origin	libgedit-tepl
+repo	community
+file	libgedit-tepl-dev-6.14.0-r2.apk
+checksum	Q1tXrZzTGePPAyS/1yJ5T5YLM6cQ8=
+dep	glib-dev	glib-dev
+dep	gtk+3.0-dev	gtk+3.0-dev
+dep	libgedit-gtksourceview-dev	libgedit-gtksourceview-dev
+dep	libgedit-tepl=6.14.0-r2	libgedit-tepl
+dep	pc:gio-2.0>=2.74	glib-dev
+dep	pc:gsettings-desktop-schemas>=42	gsettings-desktop-schemas-dev
+dep	pc:gtk+-3.0>=3.22	gtk+3.0-dev
+dep	pc:icu-i18n	icu-dev
+dep	pc:icu-uc	icu-dev
+dep	pc:libgedit-amtk-5>=5.9	libgedit-amtk-dev
+dep	pc:libgedit-gfls-1>=0.3	libgedit-gfls-dev
+dep	pc:libgedit-gtksourceview-300>=299.6.0	libgedit-gtksourceview-dev
+dep	pc:libhandy-1>=1.6	libhandy1-dev
+dep	pkgconfig	pkgconf

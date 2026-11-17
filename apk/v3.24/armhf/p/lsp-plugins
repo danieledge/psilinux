@@ -1,0 +1,28 @@
+name	lsp-plugins
+version	1.2.29-r0
+description	Collection of free plugins compatible with LADSPA, LV2 and LinuxVST
+url	https://lsp-plug.in
+license	LGPL-3.0-or-later
+size	33952866
+installed-size	60195500
+depends	/bin/sh so:libGL.so.1 so:libX11.so.6 so:libXrandr.so.2 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstaudio-1.0.so.0 so:libgstreamer-1.0.so.0 so:libjack.so.0 so:libsndfile.so.1 so:libstdc++.so.6
+origin	lsp-plugins
+repo	community
+file	lsp-plugins-1.2.29-r0.apk
+checksum	Q1FFl9jR4UNOusKpQ9lBDNmBBZCpU=
+dep	/bin/sh	busybox-binsh
+dep	so:libGL.so.1	mesa-gl
+dep	so:libX11.so.6	libx11
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstaudio-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libjack.so.0	jack
+dep	so:libsndfile.so.1	libsndfile
+dep	so:libstdc++.so.6	libstdc++

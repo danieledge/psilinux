@@ -1,0 +1,18 @@
+name	hinsightd
+version	0.9.21-r0
+description	hinsightd a http/1.1 webserver with (hopefully) minimal goals
+url	https://tiotags.gitlab.io/hinsightd/
+license	BSD-3-Clause
+size	100267
+installed-size	204169
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:liblua.so.5 so:libssl.so.3 so:liburing.so.2 so:libz.so.1
+origin	hinsightd
+repo	community
+file	hinsightd-0.9.21-r0.apk
+checksum	Q1dN55oiLdV2QwOIc3zHQQmAdsJb0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:liblua.so.5	lua5.1-libs
+dep	so:libssl.so.3	libssl3
+dep	so:liburing.so.2	liburing
+dep	so:libz.so.1	zlib

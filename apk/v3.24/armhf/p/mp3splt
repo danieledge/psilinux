@@ -1,0 +1,14 @@
+name	mp3splt
+version	2.6.2-r1
+description	A command-line, AlbumWrap and mp3wrap file exctractor
+url	https://mp3splt.sourceforge.net/
+license	GPL-2.0-or-later
+size	19197
+installed-size	38060
+depends	so:libc.musl-armhf.so.1 so:libmp3splt.so.0
+origin	mp3splt
+repo	community
+file	mp3splt-2.6.2-r1.apk
+checksum	Q1mSudg5YuMw+VOw5ABJALaxajXVU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmp3splt.so.0	libmp3splt

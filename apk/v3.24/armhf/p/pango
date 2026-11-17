@@ -1,0 +1,24 @@
+name	pango
+version	1.57.1-r0
+description	library for layout and rendering of text
+url	https://www.pango.org/
+license	LGPL-2.1-or-later
+size	257940
+installed-size	600156
+depends	so:libX11.so.6 so:libXft.so.2 so:libXrender.so.1 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libfontconfig.so.1 so:libfreetype.so.6 so:libfribidi.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libharfbuzz.so.0
+origin	pango
+repo	main
+file	pango-1.57.1-r0.apk
+checksum	Q140AmGo+xHHiLJUU4m+nZbMbjPaw=
+dep	so:libX11.so.6	libx11
+dep	so:libXft.so.2	libxft
+dep	so:libXrender.so.1	libxrender
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libfribidi.so.0	fribidi
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libharfbuzz.so.0	harfbuzz

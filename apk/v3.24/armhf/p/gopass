@@ -1,0 +1,13 @@
+name	gopass
+version	1.16.1-r7
+description	The slightly more awesome Standard Unix Password Manager for Teams. Written in Go.
+url	https://www.gopass.pw
+license	MIT
+size	7760312
+installed-size	20050076
+depends	so:libc.musl-armhf.so.1
+origin	gopass
+repo	community
+file	gopass-1.16.1-r7.apk
+checksum	Q1/gHBP8oJohUOblbBe3BUjmzwwiE=
+dep	so:libc.musl-armhf.so.1	musl

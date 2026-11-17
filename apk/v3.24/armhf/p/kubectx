@@ -1,0 +1,13 @@
+name	kubectx
+version	0.11.0-r4
+description	Faster way to switch between clusters and namespaces in kubectl
+url	https://kubectx.dev/
+license	Apache-2.0
+size	17846294
+installed-size	54864432
+depends	so:libc.musl-armhf.so.1
+origin	kubectx
+repo	community
+file	kubectx-0.11.0-r4.apk
+checksum	Q1g4h56oEvJdn3aGALo1y6QzI/dC4=
+dep	so:libc.musl-armhf.so.1	musl

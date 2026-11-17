@@ -1,0 +1,19 @@
+name	enchant2
+version	2.8.15-r0
+description	wrapper library for generic spell checking (v2)
+url	https://rrthomas.github.io/enchant/
+license	LGPL-2.1-or-later
+size	14188
+installed-size	35212
+depends	enchant2-aspell=2.8.15-r0 enchant2-hunspell=2.8.15-r0 enchant2-nuspell=2.8.15-r0 so:libc.musl-armhf.so.1 so:libenchant-2.so.2 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	enchant2
+repo	community
+file	enchant2-2.8.15-r0.apk
+checksum	Q1TDpaeNNi9waQpXbkbAzBxPH8Hm4=
+dep	enchant2-aspell=2.8.15-r0	enchant2-aspell
+dep	enchant2-hunspell=2.8.15-r0	enchant2-hunspell
+dep	enchant2-nuspell=2.8.15-r0	enchant2-nuspell
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libenchant-2.so.2	enchant2-libs
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

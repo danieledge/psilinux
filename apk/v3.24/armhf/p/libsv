@@ -1,0 +1,13 @@
+name	libsv
+version	1.2-r1
+description	Public domain cross-platform semantic versioning in c99
+url	https://github.com/uael/sv
+license	Unlicense
+size	8286
+installed-size	17528
+depends	so:libc.musl-armhf.so.1
+origin	libsv
+repo	community
+file	libsv-1.2-r1.apk
+checksum	Q19qm1OUOQ7Gk42oCdsOqNqY3PfqE=
+dep	so:libc.musl-armhf.so.1	musl

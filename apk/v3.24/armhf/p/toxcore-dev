@@ -1,0 +1,17 @@
+name	toxcore-dev
+version	0.2.23-r0
+description	Tox communication project - C core (development files)
+url	https://tox.chat/
+license	GPL-3.0-or-later
+size	46312
+installed-size	229272
+depends	toxcore-libs=0.2.23-r0 pc:libsodium pc:opus pc:vpx pkgconfig
+origin	toxcore
+repo	community
+file	toxcore-dev-0.2.23-r0.apk
+checksum	Q1UfVGGZbnu+8NWkWbmo80SX9MqQo=
+dep	toxcore-libs=0.2.23-r0	toxcore-libs
+dep	pc:libsodium	libsodium-dev
+dep	pc:opus	opus-dev
+dep	pc:vpx	libvpx-dev
+dep	pkgconfig	pkgconf

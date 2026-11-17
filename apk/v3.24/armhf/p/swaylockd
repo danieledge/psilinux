@@ -1,0 +1,14 @@
+name	swaylockd
+version	0.1.0-r1
+description	A dumb launcher to spawn swaylock and ensure it runs no matter what
+url	https://github.com/jirutka/swaylockd
+license	MIT
+size	4454
+installed-size	9388
+depends	swaylock so:libc.musl-armhf.so.1
+origin	swaylockd
+repo	community
+file	swaylockd-0.1.0-r1.apk
+checksum	Q1+hS+T36NGgQ/k3ceIvUn8GvrCy4=
+dep	swaylock	swaylock
+dep	so:libc.musl-armhf.so.1	musl

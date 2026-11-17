@@ -1,0 +1,12 @@
+name	tvheadend-dbg
+version	4.3_git20260214-r1
+description	TV Streaming server for linux (debug symbols)
+url	https://tvheadend.org/
+license	GPL-3.0-only
+size	4450808
+installed-size	9617964
+depends	!tvheadend<4.3_git20260214-r1 !tvheadend>4.3_git20260214-r1
+origin	tvheadend
+repo	community
+file	tvheadend-dbg-4.3_git20260214-r1.apk
+checksum	Q12Fuila0U0qflbHLWBv2akMbeWW8=

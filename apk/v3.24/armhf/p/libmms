@@ -1,0 +1,13 @@
+name	libmms
+version	0.6.4-r2
+description	MMS stream protocol library
+url	https://sourceforge.net/projects/libmms/
+license	LGPL-2.0-or-later
+size	26597
+installed-size	54528
+depends	so:libc.musl-armhf.so.1
+origin	libmms
+repo	community
+file	libmms-0.6.4-r2.apk
+checksum	Q1sIPW/AKTSI9SdXHHYAnjGBF3waA=
+dep	so:libc.musl-armhf.so.1	musl

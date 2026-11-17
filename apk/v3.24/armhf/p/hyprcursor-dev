@@ -1,0 +1,14 @@
+name	hyprcursor-dev
+version	0.1.13-r0
+description	The hyprland cursor format, library and utilities. (development files)
+url	https://github.com/hyprwm/Hyprcursor
+license	BSD-3-Clause
+size	4970
+installed-size	17286
+depends	hyprcursor=0.1.13-r0 pkgconfig
+origin	hyprcursor
+repo	community
+file	hyprcursor-dev-0.1.13-r0.apk
+checksum	Q1Ho81IUv78hYShkSh9uFFS0HkWH4=
+dep	hyprcursor=0.1.13-r0	hyprcursor
+dep	pkgconfig	pkgconf

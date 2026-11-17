@@ -1,0 +1,22 @@
+name	limine
+version	12.10.0-r0
+description	Modern, secure, portable, multiprotocol bootloader and boot manager
+url	https://limine-bootloader.org
+license	BSD-2-Clause
+size	1320
+installed-size	0
+depends	limine-tool limine-efi-aarch64 limine-efi-loongarch64 limine-efi-riscv64 limine-efi-x86 limine-efi-x86_64 limine-efi-cd limine-bios limine-bios-pxe limine-bios-cd
+origin	limine
+repo	main
+file	limine-12.10.0-r0.apk
+checksum	Q1gOgndMCrQEohyBUpfB6Iv/EaJsw=
+dep	limine-tool	limine-tool
+dep	limine-efi-aarch64	limine-efi-aarch64
+dep	limine-efi-loongarch64	limine-efi-loongarch64
+dep	limine-efi-riscv64	limine-efi-riscv64
+dep	limine-efi-x86	limine-efi-x86
+dep	limine-efi-x86_64	limine-efi-x86_64
+dep	limine-efi-cd	limine-efi-cd
+dep	limine-bios	limine-bios
+dep	limine-bios-pxe	limine-bios-pxe
+dep	limine-bios-cd	limine-bios-cd

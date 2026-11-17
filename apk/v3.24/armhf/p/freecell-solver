@@ -1,0 +1,14 @@
+name	freecell-solver
+version	6.16.0-r0
+description	A program that automatically solves layouts of Freecell and similar variants of Card Solitaire
+url	https://fc-solve.shlomifish.org
+license	MIT
+size	122230
+installed-size	322929
+depends	so:libc.musl-armhf.so.1 so:libgmp.so.10
+origin	freecell-solver
+repo	community
+file	freecell-solver-6.16.0-r0.apk
+checksum	Q1qZ5jWTYjHyYky/YKwcdSa+IRvgU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgmp.so.10	gmp

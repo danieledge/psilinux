@@ -1,0 +1,14 @@
+name	tevent
+version	0.17.1-r1
+description	The tevent library
+url	https://tevent.samba.org/
+license	LGPL-3.0-or-later
+size	30799
+installed-size	66992
+depends	so:libc.musl-armhf.so.1 so:libtalloc.so.2
+origin	tevent
+repo	main
+file	tevent-0.17.1-r1.apk
+checksum	Q1wos85KjDEAbAzjlEKRnqfzmahEI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libtalloc.so.2	talloc

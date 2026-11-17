@@ -1,0 +1,14 @@
+name	abuild-meson
+version	1.11.1-r0
+description	Fast and user friendly build system (abuild wrapper)
+url	https://mesonbuild.com
+license	Apache-2.0
+size	2388
+installed-size	1754
+depends	meson=1.11.1-r0 abuild
+origin	meson
+repo	main
+file	abuild-meson-1.11.1-r0.apk
+checksum	Q1VCO3qQ7pCiko4TFeF7wZBSOgLJI=
+dep	meson=1.11.1-r0	meson
+dep	abuild	abuild

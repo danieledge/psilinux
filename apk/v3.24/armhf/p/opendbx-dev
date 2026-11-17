@@ -1,0 +1,19 @@
+name	opendbx-dev
+version	1.4.6-r2
+description	Database abstraction layer (development files)
+url	https://www.linuxnetworks.de/doc/index.php/OpenDBX
+license	GPL-2.0-or-later
+size	17953
+installed-size	69974
+depends	opendbx=1.4.6-r2 opendbx-backend-mysql=1.4.6-r2 opendbx-backend-postgres=1.4.6-r2 opendbx-backend-sqlite=1.4.6-r2 libopendbx=1.4.6-r2 libopendbxplus=1.4.6-r2 pkgconfig
+origin	opendbx
+repo	community
+file	opendbx-dev-1.4.6-r2.apk
+checksum	Q1M/w6Iy/s73Q8gVF20hAem8XC21A=
+dep	opendbx=1.4.6-r2	opendbx
+dep	opendbx-backend-mysql=1.4.6-r2	opendbx-backend-mysql
+dep	opendbx-backend-postgres=1.4.6-r2	opendbx-backend-postgres
+dep	opendbx-backend-sqlite=1.4.6-r2	opendbx-backend-sqlite
+dep	libopendbx=1.4.6-r2	libopendbx
+dep	libopendbxplus=1.4.6-r2	libopendbxplus
+dep	pkgconfig	pkgconf

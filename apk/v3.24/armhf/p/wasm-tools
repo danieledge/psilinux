@@ -1,0 +1,14 @@
+name	wasm-tools
+version	1.236.0-r0
+description	CLI for low-level manipulation of WebAssembly modules
+url	https://github.com/bytecodealliance/wasm-tools
+license	LICENSE-MIT
+size	3346769
+installed-size	7544164
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	wasm-tools
+repo	community
+file	wasm-tools-1.236.0-r0.apk
+checksum	Q1te2nu2bB2tgqPA2vkO5yqtwOCEI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

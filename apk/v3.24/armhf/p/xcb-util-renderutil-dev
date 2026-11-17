@@ -1,0 +1,16 @@
+name	xcb-util-renderutil-dev
+version	0.3.10-r0
+description	X C-language Binding - Convenience functions for XRender extension (development files)
+url	https://xcb.freedesktop.org/
+license	MIT
+size	7689
+installed-size	16288
+depends	xcb-util-dev xcb-util-renderutil=0.3.10-r0 pc:xcb-render pkgconfig
+origin	xcb-util-renderutil
+repo	community
+file	xcb-util-renderutil-dev-0.3.10-r0.apk
+checksum	Q1KBbvU0vTkDEdEJ9UugdAcbA80XI=
+dep	xcb-util-dev	xcb-util-dev
+dep	xcb-util-renderutil=0.3.10-r0	xcb-util-renderutil
+dep	pc:xcb-render	libxcb-dev
+dep	pkgconfig	pkgconf

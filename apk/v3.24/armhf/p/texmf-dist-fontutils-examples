@@ -1,0 +1,14 @@
+name	texmf-dist-fontutils-examples
+version	2026.0-r0
+description	texmf-dist: Graphics and font utilities (examples and documentation)
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	1594665
+installed-size	2407461
+depends	texmf-dist-fontutils texmf-dist-fontutils-doc
+origin	texmf-dist
+repo	community
+file	texmf-dist-fontutils-examples-2026.0-r0.apk
+checksum	Q1fu8gDSa+zZRzDxOwEWBVu0vpf2Y=
+dep	texmf-dist-fontutils	texmf-dist-fontutils
+dep	texmf-dist-fontutils-doc	texmf-dist-fontutils-doc

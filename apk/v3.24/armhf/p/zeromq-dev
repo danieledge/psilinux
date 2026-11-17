@@ -1,0 +1,15 @@
+name	zeromq-dev
+version	4.3.5-r2
+description	The ZeroMQ messaging library and tools (development files)
+url	https://zeromq.org/
+license	MPL-2.0
+size	12626
+installed-size	40362
+depends	libzmq=4.3.5-r2 pc:libsodium pkgconfig
+origin	zeromq
+repo	main
+file	zeromq-dev-4.3.5-r2.apk
+checksum	Q11kbpoLWTC+bGTGTcW/4pXbLsPgE=
+dep	libzmq=4.3.5-r2	libzmq
+dep	pc:libsodium	libsodium-dev
+dep	pkgconfig	pkgconf

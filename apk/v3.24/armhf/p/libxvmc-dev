@@ -1,0 +1,19 @@
+name	libxvmc-dev
+version	1.0.15-r0
+description	X11 Video Motion Compensation extension library (development files)
+url	https://xorg.freedesktop.org/
+license	MIT
+size	15511
+installed-size	40440
+depends	libxvmc=1.0.15-r0 pc:videoproto pc:x11>=1.6 pc:xext pc:xextproto pc:xv pkgconfig
+origin	libxvmc
+repo	community
+file	libxvmc-dev-1.0.15-r0.apk
+checksum	Q1k6KjVTfzO8qsSzv4HXtIJuImWqQ=
+dep	libxvmc=1.0.15-r0	libxvmc
+dep	pc:videoproto	xorgproto
+dep	pc:x11>=1.6	libx11-dev
+dep	pc:xext	libxext-dev
+dep	pc:xextproto	xorgproto
+dep	pc:xv	libxv-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	hexdump
+version	2.42.3-r1
+description	Hexdump from util-linux
+url	https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+license	BSD-4-Clause-UC
+size	18833
+installed-size	34076
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	util-linux
+repo	main
+file	hexdump-2.42.3-r1.apk
+checksum	Q1T9JumTayZZsihl7WaDU3GoGNwJQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

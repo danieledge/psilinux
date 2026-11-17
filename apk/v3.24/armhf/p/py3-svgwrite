@@ -1,0 +1,14 @@
+name	py3-svgwrite
+version	1.4.3-r4
+description	Python library to create SVG drawings
+url	https://github.com/mozman/svgwrite
+license	MIT
+size	56446
+installed-size	275750
+depends	py3-parsing python3~3.14
+origin	py3-svgwrite
+repo	community
+file	py3-svgwrite-1.4.3-r4.apk
+checksum	Q1z1no9eVZsZgH3OouX9uPxRTc6wc=
+dep	py3-parsing	py3-parsing
+dep	python3~3.14	python3

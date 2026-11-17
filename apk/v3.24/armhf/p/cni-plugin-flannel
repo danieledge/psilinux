@@ -1,0 +1,13 @@
+name	cni-plugin-flannel
+version	1.8.0-r8
+description	networking plugin, designed to work with flannel network fabric
+url	https://github.com/flannel-io/cni-plugin/
+license	Apache-2.0
+size	1212162
+installed-size	2938972
+depends	so:libc.musl-armhf.so.1
+origin	cni-plugin-flannel
+repo	community
+file	cni-plugin-flannel-1.8.0-r8.apk
+checksum	Q1z2FBgJuTpjVE0xD0VNt7T6yup/M=
+dep	so:libc.musl-armhf.so.1	musl

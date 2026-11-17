@@ -1,0 +1,19 @@
+name	pmbootstrap
+version	3.12.1-r0
+description	Sophisticated chroot/build/flash tool to develop and install postmarketOS
+url	https://gitlab.postmarketos.org/postmarketOS/pmbootstrap
+license	GPL-3.0-or-later
+size	270072
+installed-size	908529
+depends	git losetup cmd:kpartx openssl python3 /bin/sh python3~3.14
+origin	pmbootstrap
+repo	community
+file	pmbootstrap-3.12.1-r0.apk
+checksum	Q1136xumAy/m7m0On8hpvXntcSJTQ=
+dep	git	git
+dep	losetup	losetup
+dep	cmd:kpartx	kpartx
+dep	openssl	openssl
+dep	python3	python3
+dep	/bin/sh	busybox-binsh
+dep	python3~3.14	python3

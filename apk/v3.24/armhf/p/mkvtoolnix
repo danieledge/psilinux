@@ -1,0 +1,26 @@
+name	mkvtoolnix
+version	99.0-r1
+description	Set of tools to create, edit and inspect Matroska files
+url	https://mkvtoolnix.download/index.html
+license	GPL-2.0-only
+size	2809167
+installed-size	7440052
+depends	so:libFLAC.so.12 so:libQt6Core.so.6 so:libboost_filesystem.so.1.84.0 so:libc.musl-armhf.so.1 so:libebml.so.5 so:libfmt.so.11 so:libgcc_s.so.1 so:libgmp.so.10 so:libmatroska.so.7 so:libogg.so.0 so:libpugixml.so.1 so:libstdc++.so.6 so:libvorbis.so.0 so:libz.so.1
+origin	mkvtoolnix
+repo	community
+file	mkvtoolnix-99.0-r1.apk
+checksum	Q1wWGd8x1UgB1sBbc5THqmw2E9vR8=
+dep	so:libFLAC.so.12	libflac
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libboost_filesystem.so.1.84.0	boost1.84-filesystem
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libebml.so.5	libebml
+dep	so:libfmt.so.11	fmt
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgmp.so.10	gmp
+dep	so:libmatroska.so.7	libmatroska
+dep	so:libogg.so.0	libogg
+dep	so:libpugixml.so.1	pugixml
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libvorbis.so.0	libvorbis
+dep	so:libz.so.1	zlib

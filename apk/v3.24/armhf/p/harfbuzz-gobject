@@ -1,0 +1,15 @@
+name	harfbuzz-gobject
+version	13.2.1-r0
+description	Harfbuzz gobject library
+url	https://harfbuzz.github.io/
+license	MIT
+size	26438
+installed-size	87212
+depends	so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libharfbuzz.so.0
+origin	harfbuzz
+repo	main
+file	harfbuzz-gobject-13.2.1-r0.apk
+checksum	Q1sO9DWd+B3qRAGhAdZTIN8m4/zRc=
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libharfbuzz.so.0	harfbuzz

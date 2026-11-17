@@ -1,0 +1,19 @@
+name	fwsnort
+version	1.6.8-r4
+description	Application layer IDS/IPS by translating snort rules into iptables
+url	http://www.cipherdyne.org/fwsnort/
+license	GPL
+size	43538
+installed-size	180717
+depends	perl perl-netaddr-ip perl-iptables-parse iptables net-tools wget /bin/sh
+origin	fwsnort
+repo	community
+file	fwsnort-1.6.8-r4.apk
+checksum	Q1jATD5JPCnHN+8r0Yms+PM2EX/kY=
+dep	perl	perl
+dep	perl-netaddr-ip	perl-netaddr-ip
+dep	perl-iptables-parse	perl-iptables-parse
+dep	iptables	iptables
+dep	net-tools	net-tools
+dep	wget	wget
+dep	/bin/sh	busybox-binsh

@@ -1,0 +1,16 @@
+name	py3-llfuse
+version	1.5.1-r1
+description	Python-LLFUSE is a set of Python bindings for the low level FUSE API
+url	https://github.com/python-llfuse/python-llfuse/
+license	GPL-2.0-or-later
+size	142441
+installed-size	370018
+depends	python3 python3~3.14 so:libc.musl-armhf.so.1 so:libfuse.so.2
+origin	py3-llfuse
+repo	community
+file	py3-llfuse-1.5.1-r1.apk
+checksum	Q1MY/imv2haJuyN1Dmk6umLGfbgkk=
+dep	python3	python3
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfuse.so.2	fuse

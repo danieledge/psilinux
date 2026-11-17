@@ -1,0 +1,15 @@
+name	avizo-scripts
+version	1.3-r0
+description	Scripts to control sound volume and display backlight integrated with Avizo
+url	https://github.com/misterdanb/avizo
+license	GPL-3.0-only
+size	4263
+installed-size	8127
+depends	avizo brightnessctl pamixer
+origin	avizo
+repo	community
+file	avizo-scripts-1.3-r0.apk
+checksum	Q1yphuXucQi51Ar2b8MfXhCXQdKpk=
+dep	avizo	avizo
+dep	brightnessctl	brightnessctl
+dep	pamixer	pamixer

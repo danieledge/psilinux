@@ -1,0 +1,16 @@
+name	php84-pdo_odbc
+version	8.4.27-r0
+description	PHP84 extension: ODBC driver for PDO
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	14239
+installed-size	25947
+depends	php84-common php84-pdo so:libc.musl-armhf.so.1 so:libodbc.so.2
+origin	php84
+repo	community
+file	php84-pdo_odbc-8.4.27-r0.apk
+checksum	Q1CpaD6MBtlMcJJHHLbHALbbUuzUo=
+dep	php84-common	php84-common
+dep	php84-pdo	php84-pdo
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libodbc.so.2	unixodbc

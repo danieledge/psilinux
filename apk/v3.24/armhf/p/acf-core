@@ -1,0 +1,22 @@
+name	acf-core
+version	0.24.1-r0
+description	Web-based system administration interface framework
+url	https://gitlab.alpinelinux.org/acf/acf-core
+license	GPL-2.0-only
+size	47906
+installed-size	169621
+depends	acf-jquery acf-lib acf-skins haserl-lua5.4 lua5.4 lua5.4-posix lua5.4-md5 lua-json4 lua5.4-subprocess /bin/sh
+origin	acf-core
+repo	main
+file	acf-core-0.24.1-r0.apk
+checksum	Q1RaKpuNDn2pLghsbmhmCuzoEh5G0=
+dep	acf-jquery	acf-jquery
+dep	acf-lib	acf-lib
+dep	acf-skins	acf-skins
+dep	haserl-lua5.4	haserl-lua5.4
+dep	lua5.4	lua5.4
+dep	lua5.4-posix	lua5.4-posix
+dep	lua5.4-md5	lua5.4-md5
+dep	lua-json4	lua-json4
+dep	lua5.4-subprocess	lua5.4-subprocess
+dep	/bin/sh	busybox-binsh

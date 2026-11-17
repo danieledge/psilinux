@@ -1,0 +1,16 @@
+name	akms
+version	0.3.0-r0
+description	Alpine Kernel Module Support
+url	https://github.com/jirutka/akms
+license	MIT
+size	11855
+installed-size	28102
+depends	bubblewrap cmd:depmod kernel-hooks /bin/sh
+origin	akms
+repo	main
+file	akms-0.3.0-r0.apk
+checksum	Q184/1qjTwTBdSjL88tUvbNPWYkYk=
+dep	bubblewrap	bubblewrap
+dep	cmd:depmod	kmod
+dep	kernel-hooks	kernel-hooks
+dep	/bin/sh	busybox-binsh

@@ -1,0 +1,13 @@
+name	figlet
+version	2.2.5-r3
+description	Program for making large letters out of ordinary text
+url	http://www.figlet.org/
+license	BSD-3-Clause
+size	115489
+installed-size	631328
+depends	so:libc.musl-armhf.so.1
+origin	figlet
+repo	community
+file	figlet-2.2.5-r3.apk
+checksum	Q1JhD3AH6gAD2Jt9r071rxhyNIvZE=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,21 @@
+name	abseil-cpp-log-internal-log-sink-set
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-log-internal-log-sink-set
+url	https://abseil.io/
+license	Apache-2.0
+size	6399
+installed-size	13740
+depends	so:libabsl_log_globals.so.2508.0.0 so:libabsl_log_internal_globals.so.2508.0.0 so:libabsl_log_sink.so.2508.0.0 so:libabsl_raw_logging_internal.so.2508.0.0 so:libabsl_spinlock_wait.so.2508.0.0 so:libabsl_synchronization.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-log-internal-log-sink-set-20250814.1-r0.apk
+checksum	Q1jXwydSgH5dVGrbeXK03l6ZyOqvw=
+dep	so:libabsl_log_globals.so.2508.0.0	abseil-cpp-log-globals
+dep	so:libabsl_log_internal_globals.so.2508.0.0	abseil-cpp-log-internal-globals
+dep	so:libabsl_log_sink.so.2508.0.0	abseil-cpp-log-sink
+dep	so:libabsl_raw_logging_internal.so.2508.0.0	abseil-cpp-raw-logging-internal
+dep	so:libabsl_spinlock_wait.so.2508.0.0	abseil-cpp-spinlock-wait
+dep	so:libabsl_synchronization.so.2508.0.0	abseil-cpp-synchronization
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

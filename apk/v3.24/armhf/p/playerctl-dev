@@ -1,0 +1,17 @@
+name	playerctl-dev
+version	2.4.1-r3
+description	MPRIS command-line controller for music players (development files)
+url	https://github.com/altdesktop/playerctl
+license	LGPL-3.0-or-later
+size	13720
+installed-size	82290
+depends	playerctl=2.4.1-r3 pc:gio-2.0 pc:gio-unix-2.0 pc:gobject-2.0>=2.38 pkgconfig
+origin	playerctl
+repo	community
+file	playerctl-dev-2.4.1-r3.apk
+checksum	Q1/gmtl94i8y7m9yc9cgdhuBKQm+I=
+dep	playerctl=2.4.1-r3	playerctl
+dep	pc:gio-2.0	glib-dev
+dep	pc:gio-unix-2.0	glib-dev
+dep	pc:gobject-2.0>=2.38	glib-dev
+dep	pkgconfig	pkgconf

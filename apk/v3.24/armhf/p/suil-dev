@@ -1,0 +1,15 @@
+name	suil-dev
+version	0.10.24-r1
+description	C library for loading and wrapping LV2 plugin UIs (development files)
+url	https://drobilla.net/software/suil
+license	ISC
+size	4985
+installed-size	9005
+depends	suil=0.10.24-r1 pc:lv2>=1.18.4 pkgconfig
+origin	suil
+repo	community
+file	suil-dev-0.10.24-r1.apk
+checksum	Q1NJDb5YGnH+SKTX14JAtJrsdNlEY=
+dep	suil=0.10.24-r1	suil
+dep	pc:lv2>=1.18.4	lv2-dev
+dep	pkgconfig	pkgconf

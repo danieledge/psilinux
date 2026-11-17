@@ -1,0 +1,32 @@
+name	ocaml-xmlm
+version	1.4.0-r5
+description	Streaming XML codec for OCaml
+url	https://erratique.ch/software/xmlm
+license	ISC
+size	568944
+installed-size	1227895
+depends	ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2 ocaml4-impl:Stdlib__Buffer:2dba47b2f2e4a8a75ec36eb2fcaddd17 ocaml4-impl:Stdlib__Char:6b2d62594c65a43ddd8ad89b5edf3d73 ocaml4-impl:Stdlib__Format:e6a8c10e2ca30876ab1a7c9d82df6899 ocaml4-impl:Stdlib__Hashtbl:28f814923ef9cfbba7b97f911bf899b6 ocaml4-impl:Stdlib__List:b42dc21c9462b2cabc74ab8825425e32 ocaml4-impl:Stdlib__String:5c54069e57efa544d2be471c6a1fc73d ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15 ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91 ocaml4-intf:Stdlib__Array:622d88fad859d0d0f019e691fc4fa865 ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822 ocaml4-intf:Stdlib__Char:62afe57b49defcc078960a68b9efbbee ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9 ocaml4-intf:Stdlib__Format:b6edb97b685819e873481fe05723c8bc ocaml4-intf:Stdlib__Hashtbl:34c0fdd524bf2a75e4d5af64a6d34401 ocaml4-intf:Stdlib__List:ee222542f6f8195441543b8b399b64b9 ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962 ocaml4-intf:Stdlib__String:4933e1d855f54bfed0231b038f0dbb87 ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57 so:libc.musl-armhf.so.1
+origin	ocaml-xmlm
+repo	community
+file	ocaml-xmlm-1.4.0-r5.apk
+checksum	Q1Gkgnj+o+ZfaRxWZ2x3IHZ8pwqWk=
+dep	ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2	ocaml
+dep	ocaml4-impl:Stdlib__Buffer:2dba47b2f2e4a8a75ec36eb2fcaddd17	ocaml
+dep	ocaml4-impl:Stdlib__Char:6b2d62594c65a43ddd8ad89b5edf3d73	ocaml
+dep	ocaml4-impl:Stdlib__Format:e6a8c10e2ca30876ab1a7c9d82df6899	ocaml
+dep	ocaml4-impl:Stdlib__Hashtbl:28f814923ef9cfbba7b97f911bf899b6	ocaml
+dep	ocaml4-impl:Stdlib__List:b42dc21c9462b2cabc74ab8825425e32	ocaml
+dep	ocaml4-impl:Stdlib__String:5c54069e57efa544d2be471c6a1fc73d	ocaml
+dep	ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15	ocaml
+dep	ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91	ocaml
+dep	ocaml4-intf:Stdlib__Array:622d88fad859d0d0f019e691fc4fa865	ocaml
+dep	ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822	ocaml
+dep	ocaml4-intf:Stdlib__Char:62afe57b49defcc078960a68b9efbbee	ocaml
+dep	ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9	ocaml
+dep	ocaml4-intf:Stdlib__Format:b6edb97b685819e873481fe05723c8bc	ocaml
+dep	ocaml4-intf:Stdlib__Hashtbl:34c0fdd524bf2a75e4d5af64a6d34401	ocaml
+dep	ocaml4-intf:Stdlib__List:ee222542f6f8195441543b8b399b64b9	ocaml
+dep	ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962	ocaml
+dep	ocaml4-intf:Stdlib__String:4933e1d855f54bfed0231b038f0dbb87	ocaml
+dep	ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57	ocaml
+dep	so:libc.musl-armhf.so.1	musl

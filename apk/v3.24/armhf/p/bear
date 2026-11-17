@@ -1,0 +1,14 @@
+name	bear
+version	4.1.5-r0
+description	Tool that generates a compilation database for clang tooling
+url	https://github.com/rizsotto/Bear
+license	GPL-3.0-or-later
+size	1586709
+installed-size	2995294
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	bear
+repo	community
+file	bear-4.1.5-r0.apk
+checksum	Q1VvdE5ycFFsMSCFoeG7+xzwkvqd0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

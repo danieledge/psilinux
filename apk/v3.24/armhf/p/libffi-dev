@@ -1,0 +1,15 @@
+name	libffi-dev
+version	3.5.2-r1
+description	portable, high level programming interface to various calling conventions. (development files)
+url	https://sourceware.org/libffi/
+license	MIT
+size	76266
+installed-size	178220
+depends	linux-headers libffi=3.5.2-r1 pkgconfig
+origin	libffi
+repo	main
+file	libffi-dev-3.5.2-r1.apk
+checksum	Q1rA2r2oQ+2p9Lma0krgmlXHWh9Sg=
+dep	linux-headers	linux-headers
+dep	libffi=3.5.2-r1	libffi
+dep	pkgconfig	pkgconf

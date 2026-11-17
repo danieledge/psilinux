@@ -1,0 +1,15 @@
+name	ntpsec-doc-html
+version	1.2.5-r0
+description	NTP reference implementation, refactored for security (HTML documentation)
+url	https://www.ntpsec.org/
+license	BSD-2-Clause
+size	1434625
+installed-size	2516258
+depends	bash python3 py3-gpsd
+origin	ntpsec
+repo	community
+file	ntpsec-doc-html-1.2.5-r0.apk
+checksum	Q1ElGbPfN2tUfzB0MHJ15tVyUtcAg=
+dep	bash	bash
+dep	python3	python3
+dep	py3-gpsd	py3-gpsd

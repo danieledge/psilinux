@@ -1,0 +1,14 @@
+name	texlive-plaingeneric
+version	2026.0-r0
+description	TeX Live Plain (La)TeX tools
+url	https://tug.org/texlive/
+license	GPL-2.0-or-later AND GPL-3.0-or-later
+size	1995
+installed-size	1
+depends	texlive texmf-dist-plaingeneric
+origin	texlive
+repo	community
+file	texlive-plaingeneric-2026.0-r0.apk
+checksum	Q1eYNjM/cS1X1P8u/egW3xx+WoYRI=
+dep	texlive	texlive
+dep	texmf-dist-plaingeneric	texmf-dist-plaingeneric

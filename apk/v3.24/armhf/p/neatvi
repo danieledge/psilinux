@@ -1,0 +1,13 @@
+name	neatvi
+version	19-r0
+description	Small vi/ex editor for editing UTF-8 text
+url	https://github.com/aligrudi/neatvi
+license	ISC
+size	62426
+installed-size	131107
+depends	so:libc.musl-armhf.so.1
+origin	neatvi
+repo	community
+file	neatvi-19-r0.apk
+checksum	Q13hXj5NwdOitSFs84xAaIc1vCxcg=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	libsz
+version	1.1.6-r0
+description	Free drop-in replacement for the SZIP compression library
+url	https://gitlab.dkrz.de/k202009/libaec
+license	BSD-2-Clause
+size	16587
+installed-size	29816
+depends	so:libc.musl-armhf.so.1
+origin	libaec
+repo	community
+file	libsz-1.1.6-r0.apk
+checksum	Q1pHuntPIXcKVPFx0IvyyjY00J1Dc=
+dep	so:libc.musl-armhf.so.1	musl

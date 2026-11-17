@@ -1,0 +1,13 @@
+name	freeunit-openrc
+version	1.37.2-r0
+description	FreeUnit is a dynamic web application server (OpenRC init scripts)
+url	https://freeunit.org/
+license	Apache-2.0
+size	2797
+installed-size	2699
+depends	curl
+origin	freeunit
+repo	community
+file	freeunit-openrc-1.37.2-r0.apk
+checksum	Q1zqQXCWVDpmOMIk83lJ//f4ln8gU=
+dep	curl	curl

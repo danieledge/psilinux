@@ -1,0 +1,14 @@
+name	portmidi
+version	2.0.4-r0
+description	PortMidi is a platform independent library for MIDI input/output.
+url	https://portmedia.sourceforge.net/
+license	MIT
+size	16598
+installed-size	34068
+depends	so:libasound.so.2 so:libc.musl-armhf.so.1
+origin	portmidi
+repo	community
+file	portmidi-2.0.4-r0.apk
+checksum	Q1dyVMlJBeT9dSVBGO9hustGSwhnU=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl

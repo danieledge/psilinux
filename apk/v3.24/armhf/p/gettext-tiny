@@ -1,0 +1,13 @@
+name	gettext-tiny
+version	0.3.3-r0
+description	Tiny Internationalized Message Handling Library and tools
+url	https://github.com/sabotage-linux/gettext-tiny
+license	MIT
+size	60842
+installed-size	214418
+depends	so:libc.musl-armhf.so.1
+origin	gettext-tiny
+repo	main
+file	gettext-tiny-0.3.3-r0.apk
+checksum	Q1dBvMFtasxgShG438tuus/S+gBjw=
+dep	so:libc.musl-armhf.so.1	musl

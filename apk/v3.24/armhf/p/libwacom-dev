@@ -1,0 +1,17 @@
+name	libwacom-dev
+version	2.17.0-r1
+description	Library to help implement Wacom tablet settings (development files)
+url	https://github.com/linuxwacom/libwacom/wiki
+license	MIT
+size	9917
+installed-size	33038
+depends	libwacom=2.17.0-r1 pc:glib-2.0 pc:gudev-1.0 pc:libevdev pkgconfig
+origin	libwacom
+repo	community
+file	libwacom-dev-2.17.0-r1.apk
+checksum	Q1zLaWuKuUlRnGCIneyq7kjQYr6GI=
+dep	libwacom=2.17.0-r1	libwacom
+dep	pc:glib-2.0	glib-dev
+dep	pc:gudev-1.0	libgudev-dev
+dep	pc:libevdev	libevdev-dev
+dep	pkgconfig	pkgconf

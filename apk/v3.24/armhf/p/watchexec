@@ -1,0 +1,15 @@
+name	watchexec
+version	2.3.2-r1
+description	Executes commands in response to file modifications
+url	https://github.com/watchexec/watchexec
+license	Apache-2.0
+size	2275996
+installed-size	4849636
+depends	so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libgcc_s.so.1
+origin	watchexec
+repo	community
+file	watchexec-2.3.2-r1.apk
+checksum	Q1BkzeGEK1ROGsiF8/rulzFVs8Ibw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,13 @@
+name	radcli-compat-dev
+version	1.4.0-r0
+description	Development filees for compatibility with radiusclient-ng and freeradius-client
+url	https://github.com/radcli/radcli
+license	BSD-2-Clause AND MIT
+size	1805
+installed-size	54
+depends	radcli-dev=1.4.0-r0
+origin	radcli
+repo	community
+file	radcli-compat-dev-1.4.0-r0.apk
+checksum	Q1zo6WSIaYp887/sUgAXujvqC267I=
+dep	radcli-dev=1.4.0-r0	radcli-dev

@@ -1,0 +1,21 @@
+name	perl-www-noss
+version	2.02-r1
+description	Command-line RSS/Atom feed reader and aggregator
+url	https://metacpan.org/release/WWW-Noss/
+license	GPL-3.0-or-later
+size	55761
+installed-size	232301
+depends	curl dialog lynx perl perl-dbd-sqlite perl-dbi perl-json perl-parallel-forkmanager perl-xml-libxml
+origin	perl-www-noss
+repo	community
+file	perl-www-noss-2.02-r1.apk
+checksum	Q1b0OobZDKG1WR/XlzuWjqPqBUup0=
+dep	curl	curl
+dep	dialog	dialog
+dep	lynx	lynx
+dep	perl	perl
+dep	perl-dbd-sqlite	perl-dbd-sqlite
+dep	perl-dbi	perl-dbi
+dep	perl-json	perl-json
+dep	perl-parallel-forkmanager	perl-parallel-forkmanager
+dep	perl-xml-libxml	perl-xml-libxml

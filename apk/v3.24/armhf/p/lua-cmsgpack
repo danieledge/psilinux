@@ -1,0 +1,13 @@
+name	lua-cmsgpack
+version	0.4.0-r2
+description	MessagePack C implementation for Lua
+url	https://github.com/antirez/lua-cmsgpack
+license	BSD-2-Clause
+size	8933
+installed-size	17580
+depends	so:libc.musl-armhf.so.1
+origin	lua-cmsgpack
+repo	main
+file	lua-cmsgpack-0.4.0-r2.apk
+checksum	Q1A8i+yyNPe5H8+jdiqn+FwQwH6cU=
+dep	so:libc.musl-armhf.so.1	musl

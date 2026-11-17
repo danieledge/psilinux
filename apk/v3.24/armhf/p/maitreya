@@ -1,0 +1,20 @@
+name	maitreya
+version	8.2-r0
+description	Software for Vedic and western astrology
+url	https://saravali.github.io/
+license	GPL-2.0-or-later AND OFL-1.1-RFN AND CC-BY-4.0
+size	13255912
+installed-size	74396156
+depends	so:libc.musl-armhf.so.1 so:libfontconfig.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libwx_baseu-3.2.so.0 so:libwx_baseu_xml-3.2.so.0 so:libwx_gtk3u_core-3.2.so.0 so:libwx_gtk3u_html-3.2.so.0
+origin	maitreya
+repo	community
+file	maitreya-8.2-r0.apk
+checksum	Q1H3LhaBf9HmJ8iI5kiK63nWHchmE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwx_baseu-3.2.so.0	wxwidgets
+dep	so:libwx_baseu_xml-3.2.so.0	wxwidgets
+dep	so:libwx_gtk3u_core-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_html-3.2.so.0	wxwidgets-gtk3

@@ -1,0 +1,14 @@
+name	gflags-dev
+version	2.3.0-r0
+description	The gflags package contains a C++ library that implements commandline flags processing. (development files)
+url	https://gflags.github.io/gflags/
+license	BSD-3-Clause
+size	150832
+installed-size	504736
+depends	gflags=2.3.0-r0 pkgconfig
+origin	gflags
+repo	community
+file	gflags-dev-2.3.0-r0.apk
+checksum	Q1TwLBr2KRVh6XB8Z/LXHz7eWubzM=
+dep	gflags=2.3.0-r0	gflags
+dep	pkgconfig	pkgconf

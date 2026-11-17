@@ -1,0 +1,18 @@
+name	wpaperd
+version	1.2.2-r1
+description	Wallpaper daemon for Wayland
+url	https://github.com/danyspin97/wpaperd
+license	GPL-3.0-or-later
+size	2406284
+installed-size	5142996
+depends	so:libEGL.so.1 so:libc.musl-armhf.so.1 so:libdav1d.so.7 so:libgcc_s.so.1 so:libwayland-client.so.0 so:libwayland-egl.so.1
+origin	wpaperd
+repo	community
+file	wpaperd-1.2.2-r1.apk
+checksum	Q1dpsy4ATf6kCX+T2PM3OhJSFjMKU=
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdav1d.so.7	libdav1d
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-egl.so.1	wayland-libs-egl

@@ -1,0 +1,24 @@
+name	capnproto-dev
+version	1.4.0-r0
+description	Tools for working with the Cap'n Proto format (development files)
+url	https://capnproto.org/
+license	MIT
+size	705234
+installed-size	2908130
+depends	libucontext-dev openssl-dev zlib-dev capnproto=1.4.0-r0 pkgconfig so:libc.musl-armhf.so.1 so:libcapnp-json.so.1.4.0 so:libcapnp.so.1.4.0 so:libcapnpc.so.1.4.0 so:libgcc_s.so.1 so:libkj.so.1.4.0 so:libstdc++.so.6
+origin	capnproto
+repo	community
+file	capnproto-dev-1.4.0-r0.apk
+checksum	Q10+6+dGNblPkgo09Zex9NkFNm4Ig=
+dep	libucontext-dev	libucontext-dev
+dep	openssl-dev	openssl-dev
+dep	zlib-dev	zlib-dev
+dep	capnproto=1.4.0-r0	capnproto
+dep	pkgconfig	pkgconf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcapnp-json.so.1.4.0	capnproto
+dep	so:libcapnp.so.1.4.0	capnproto
+dep	so:libcapnpc.so.1.4.0	capnproto
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libkj.so.1.4.0	capnproto
+dep	so:libstdc++.so.6	libstdc++

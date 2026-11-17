@@ -1,0 +1,18 @@
+name	py3-gdal
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (Python3 bindings)
+url	https://gdal.org/
+license	MIT
+size	1066979
+installed-size	4317300
+depends	py3-numpy python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libstdc++.so.6
+origin	gdal
+repo	community
+file	py3-gdal-3.13.3-r0.apk
+checksum	Q1AfOIrm0OTYvflMe2mHZOMCKE0AM=
+dep	py3-numpy	py3-numpy
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libstdc++.so.6	libstdc++

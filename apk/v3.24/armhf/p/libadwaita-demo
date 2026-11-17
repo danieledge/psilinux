@@ -1,0 +1,20 @@
+name	libadwaita-demo
+version	1.9.2-r0
+description	Building blocks for modern GNOME applications (libadwaita demo)
+url	https://gitlab.gnome.org/GNOME/libadwaita
+license	LGPL-2.1-or-later
+size	62384
+installed-size	313227
+depends	adwaita-fonts so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8
+origin	libadwaita
+repo	community
+file	libadwaita-demo-1.9.2-r0.apk
+checksum	Q1eYzvUNaWn3qYg4Fj4HuVSTEiPxE=
+dep	adwaita-fonts	adwaita-fonts
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl

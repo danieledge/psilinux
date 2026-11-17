@@ -1,0 +1,13 @@
+name	dnsdist-common
+version	2.0.8-r0
+description	dnsdist common files
+url	https://dnsdist.org/
+license	GPL-2.0-only WITH OpenSSL-Exception
+size	3479
+installed-size	4520
+depends	/bin/sh
+origin	dnsdist
+repo	community
+file	dnsdist-common-2.0.8-r0.apk
+checksum	Q1Iix1MZne9DIJADVnunlsD5maljU=
+dep	/bin/sh	busybox-binsh

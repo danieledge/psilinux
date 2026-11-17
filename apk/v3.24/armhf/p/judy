@@ -1,0 +1,13 @@
+name	judy
+version	1.0.5-r1
+description	C library creating and accessing dynamic arrays
+url	https://judy.sourceforge.net/
+license	LGPL-2.0-only
+size	58410
+installed-size	115848
+depends	so:libc.musl-armhf.so.1
+origin	judy
+repo	main
+file	judy-1.0.5-r1.apk
+checksum	Q16NY8AYd47IPvfj/6XUUi7IlfJ5w=
+dep	so:libc.musl-armhf.so.1	musl

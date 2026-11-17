@@ -1,0 +1,16 @@
+name	py3-validators
+version	0.35.0-r2
+description	Python3 Data Validation for Humans
+url	https://github.com/python-validators/validators
+license	MIT
+size	37821
+installed-size	111456
+depends	py3-decorator py3-pycryptodome py3-eth-hash python3~3.14
+origin	py3-validators
+repo	community
+file	py3-validators-0.35.0-r2.apk
+checksum	Q1DfQydmKYJtbGtbN/ZgaJJ7OQRvI=
+dep	py3-decorator	py3-decorator
+dep	py3-pycryptodome	py3-pycryptodome
+dep	py3-eth-hash	py3-eth-hash
+dep	python3~3.14	python3

@@ -1,0 +1,26 @@
+name	postgis
+version	3.6.3-r0
+description	spatial database extender for PostgreSQL object-relational database
+url	https://postgis.net/
+license	GPL-2.0-or-later
+size	6490342
+installed-size	45793911
+depends	perl postgresql18 so:libSFCGAL.so.2 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libgeos_c.so.1 so:libjson-c.so.5 so:libpcre2-8.so.0 so:libpq.so.5 so:libproj.so.25 so:libprotobuf-c.so.1 so:libstdc++.so.6 so:libxml2.so.2
+origin	postgis
+repo	community
+file	postgis-3.6.3-r0.apk
+checksum	Q1GbZrVHtoUCAiWAeeeGmcnJYWGJE=
+dep	perl	perl
+dep	postgresql18	postgresql18
+dep	so:libSFCGAL.so.2	sfcgal
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libgeos_c.so.1	geos
+dep	so:libjson-c.so.5	json-c
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libpq.so.5	libpq
+dep	so:libproj.so.25	proj
+dep	so:libprotobuf-c.so.1	protobuf-c
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxml2.so.2	libxml2

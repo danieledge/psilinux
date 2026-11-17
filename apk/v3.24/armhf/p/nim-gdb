@@ -1,0 +1,14 @@
+name	nim-gdb
+version	2.2.0-r0
+description	A systems and applications programming language (gdb printers)
+url	https://nim-lang.org/
+license	MIT
+size	14977
+installed-size	67732
+depends	nim gdb
+origin	nim
+repo	community
+file	nim-gdb-2.2.0-r0.apk
+checksum	Q184xVxpcY0M4TrfQGg6EteUM5mmg=
+dep	nim	nim
+dep	gdb	gdb

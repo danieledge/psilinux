@@ -1,0 +1,23 @@
+name	clapper-enhancers
+version	0.10.0-r0
+description	Plugins enhancing Clapper library capabilities
+url	https://github.com/Rafostar/clapper-enhancers
+license	LGPL-2.1-or-later
+size	100566
+installed-size	289470
+depends	so:libc.musl-armhf.so.1 so:libclapper-0.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstreamer-1.0.so.0 so:libjson-glib-1.0.so.0 so:libmicrodns.so.1 so:libpeas-2.so.0 so:libsoup-3.0.so.0 so:libsqlite3.so.0
+origin	clapper-enhancers
+repo	community
+file	clapper-enhancers-0.10.0-r0.apk
+checksum	Q1M8qhgSD1HOkk8h9oyBmiDQGfJZs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libclapper-0.0.so.0	clapper-libs
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libmicrodns.so.1	libmicrodns
+dep	so:libpeas-2.so.0	libpeas2
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libsqlite3.so.0	sqlite-libs

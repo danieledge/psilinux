@@ -1,0 +1,17 @@
+name	postgresql16-jit
+version	16.16-r0
+description	Just-in-time compilation support for PostgreSQL
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	13107262
+installed-size	22823408
+depends	postgresql16=16.16-r0 so:libLLVM-16.so so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	postgresql16
+repo	community
+file	postgresql16-jit-16.16-r0.apk
+checksum	Q1lRoHNXoJKhgw0XT/y2wgNEr+oV8=
+dep	postgresql16=16.16-r0	postgresql16
+dep	so:libLLVM-16.so	llvm16-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

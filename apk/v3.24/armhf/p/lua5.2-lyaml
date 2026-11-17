@@ -1,0 +1,16 @@
+name	lua5.2-lyaml
+version	6.2.8-r1
+description	LibYAML binding for Lua 5.2
+url	https://github.com/gvvaughan/lyaml
+license	MIT
+size	17983
+installed-size	51609
+depends	lua5.2 lua5.2-stdlib-normalize so:libc.musl-armhf.so.1 so:libyaml-0.so.2
+origin	lua-lyaml
+repo	main
+file	lua5.2-lyaml-6.2.8-r1.apk
+checksum	Q1DOBtyu4Im+tCX/dPuJ01ZjOvGOE=
+dep	lua5.2	lua5.2
+dep	lua5.2-stdlib-normalize	lua-stdlib-normalize
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libyaml-0.so.2	yaml

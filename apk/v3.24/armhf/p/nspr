@@ -1,0 +1,13 @@
+name	nspr
+version	4.38.2-r0
+description	Netscape Portable Runtime
+url	https://www.mozilla.org/projects/nspr/
+license	MPL-2.0
+size	110366
+installed-size	234408
+depends	so:libc.musl-armhf.so.1
+origin	nspr
+repo	main
+file	nspr-4.38.2-r0.apk
+checksum	Q1dsZ4Amqoqd3qkdUYtrLP+epOtXk=
+dep	so:libc.musl-armhf.so.1	musl

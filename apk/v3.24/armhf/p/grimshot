@@ -1,0 +1,18 @@
+name	grimshot
+version	1.11-r1
+description	Script for taking screenshots with grim and slurp on Sway
+url	https://github.com/OctopusET/sway-contrib
+license	MIT
+size	4224
+installed-size	7663
+depends	cmd:grim cmd:jq cmd:notify-send cmd:slurp cmd:swaymsg cmd:wl-copy
+origin	sway-contrib
+repo	community
+file	grimshot-1.11-r1.apk
+checksum	Q1kcdtEfp0qNqFZefG2kem+892a+E=
+dep	cmd:grim	grim
+dep	cmd:jq	jq
+dep	cmd:notify-send	libnotify
+dep	cmd:slurp	slurp
+dep	cmd:swaymsg	sway
+dep	cmd:wl-copy	wl-clipboard

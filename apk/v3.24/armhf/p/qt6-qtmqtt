@@ -1,0 +1,16 @@
+name	qt6-qtmqtt
+version	6.11.1-r0
+description	Qt module that Provides MQTT communication
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	82328
+installed-size	265550
+depends	so:libQt6Core.so.6 so:libQt6Network.so.6 so:libc.musl-armhf.so.1 so:libstdc++.so.6
+origin	qt6-qtmqtt
+repo	community
+file	qt6-qtmqtt-6.11.1-r0.apk
+checksum	Q1EwOub7XwCW1W9vZsXD9pZR6xgj4=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libstdc++.so.6	libstdc++

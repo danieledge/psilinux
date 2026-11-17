@@ -1,0 +1,22 @@
+name	abseil-cpp-flags-internal
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-flags-internal
+url	https://abseil.io/
+license	Apache-2.0
+size	13827
+installed-size	30080
+depends	so:libabsl_flags_commandlineflag.so.2508.0.0 so:libabsl_flags_commandlineflag_internal.so.2508.0.0 so:libabsl_flags_config.so.2508.0.0 so:libabsl_raw_logging_internal.so.2508.0.0 so:libabsl_spinlock_wait.so.2508.0.0 so:libabsl_strings.so.2508.0.0 so:libabsl_synchronization.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-flags-internal-20250814.1-r0.apk
+checksum	Q1u01vU2YgOp+cmZst9/DL/dMhXIc=
+dep	so:libabsl_flags_commandlineflag.so.2508.0.0	abseil-cpp-flags-commandlineflag
+dep	so:libabsl_flags_commandlineflag_internal.so.2508.0.0	abseil-cpp-flags-commandlineflag-internal
+dep	so:libabsl_flags_config.so.2508.0.0	abseil-cpp-flags-config
+dep	so:libabsl_raw_logging_internal.so.2508.0.0	abseil-cpp-raw-logging-internal
+dep	so:libabsl_spinlock_wait.so.2508.0.0	abseil-cpp-spinlock-wait
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libabsl_synchronization.so.2508.0.0	abseil-cpp-synchronization
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

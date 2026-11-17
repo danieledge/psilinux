@@ -1,0 +1,13 @@
+name	emacs-pyim-cangjiedict
+version	0_git20250924-r1
+description	Cangjie dicts for Emacs-pyim
+url	https://github.com/cor5corpii/pyim-cangjiedict
+license	GPL-3.0-or-later
+size	1873796
+installed-size	6911400
+depends	cmd:emacs
+origin	emacs-pyim-cangjiedict
+repo	community
+file	emacs-pyim-cangjiedict-0_git20250924-r1.apk
+checksum	Q13UEVuMKZv4iU4f0xb/Y+BRhjUTw=
+dep	cmd:emacs	emacs-gtk3

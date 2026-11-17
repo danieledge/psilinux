@@ -1,0 +1,15 @@
+name	zziplib-dev
+version	0.13.80-r1
+description	Lightweight library to easily extract data from zip files (development files)
+url	https://github.com/gdraheim/zziplib
+license	LGPL-2.0-or-later OR MPL-1.1
+size	27865
+installed-size	110192
+depends	zziplib=0.13.80-r1 pc:zlib pkgconfig
+origin	zziplib
+repo	community
+file	zziplib-dev-0.13.80-r1.apk
+checksum	Q1uRD3/YlEJ1WPU9EbeOfHRM0R83I=
+dep	zziplib=0.13.80-r1	zziplib
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

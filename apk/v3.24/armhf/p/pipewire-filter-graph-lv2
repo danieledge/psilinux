@@ -1,0 +1,14 @@
+name	pipewire-filter-graph-lv2
+version	1.6.8-r4
+description	Multimedia processing graphs
+url	https://pipewire.org/
+license	MIT
+size	10566
+installed-size	21732
+depends	so:libc.musl-armhf.so.1 so:liblilv-0.so.0
+origin	pipewire
+repo	community
+file	pipewire-filter-graph-lv2-1.6.8-r4.apk
+checksum	Q1hRH4jlV7WUTmHoBzDvcMLd/aY9A=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblilv-0.so.0	lilv-libs

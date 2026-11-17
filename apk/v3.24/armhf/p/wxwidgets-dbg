@@ -1,0 +1,12 @@
+name	wxwidgets-dbg
+version	3.2.9-r0
+description	wxWidgets GUI library (debug symbols)
+url	https://www.wxwidgets.org/
+license	custom:wxWidgets
+size	24018237
+installed-size	72903456
+depends	!wxwidgets-dev<3.2.9-r0 !wxwidgets-dev>3.2.9-r0 !wxwidgets-gtk3<3.2.9-r0 !wxwidgets-gtk3>3.2.9-r0 !wxwidgets-qt5<3.2.9-r0 !wxwidgets-qt5>3.2.9-r0 !wxwidgets-webview<3.2.9-r0 !wxwidgets-webview>3.2.9-r0 !wxwidgets<3.2.9-r0 !wxwidgets>3.2.9-r0
+origin	wxwidgets
+repo	community
+file	wxwidgets-dbg-3.2.9-r0.apk
+checksum	Q1AK5cwTVj6gzPpN5jDGj3g9ye/B8=

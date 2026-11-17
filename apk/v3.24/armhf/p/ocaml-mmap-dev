@@ -1,0 +1,14 @@
+name	ocaml-mmap-dev
+version	1.2.0-r6
+description	File mapping functionality (development files)
+url	https://github.com/mirage/mmap
+license	LGPL-2.1-only WITH OCaml-LGPL-linking-exception
+size	6526
+installed-size	11570
+depends	ocaml-mmap=1.2.0-r6 ocaml-bigarray-compat-dev
+origin	ocaml-mmap
+repo	community
+file	ocaml-mmap-dev-1.2.0-r6.apk
+checksum	Q1M/qu9cTgxTCd3ST5Wzq4yjEDAn8=
+dep	ocaml-mmap=1.2.0-r6	ocaml-mmap
+dep	ocaml-bigarray-compat-dev	ocaml-bigarray-compat-dev

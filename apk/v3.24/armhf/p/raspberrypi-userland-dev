@@ -1,0 +1,15 @@
+name	raspberrypi-userland-dev
+version	0.20231020-r2
+description	Raspberry Pi tools for interfacing to GPU (deprecated development files) (development files)
+url	https://github.com/raspberrypi/userland
+license	BSD-3-Clause
+size	442748
+installed-size	2204312
+depends	linux-headers raspberrypi-userland-static raspberrypi-userland-libs
+origin	raspberrypi-userland
+repo	main
+file	raspberrypi-userland-dev-0.20231020-r2.apk
+checksum	Q1gym9u+0zLravtHorxYSHOZ8TsJ8=
+dep	linux-headers	linux-headers
+dep	raspberrypi-userland-static	raspberrypi-userland-static
+dep	raspberrypi-userland-libs	raspberrypi-userland-libs

@@ -1,0 +1,16 @@
+name	gamemode
+version	1.8.2-r0
+description	Optimise Linux system performance on demand
+url	https://github.com/FeralInteractive/gamemode
+license	BSD-3-Clause
+size	74438
+installed-size	195330
+depends	so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libelogind.so.0 so:libinih.so.0
+origin	gamemode
+repo	community
+file	gamemode-1.8.2-r0.apk
+checksum	Q1fXvfbvJKgRCHr84LQS73S/zni9c=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libelogind.so.0	libelogind
+dep	so:libinih.so.0	inih

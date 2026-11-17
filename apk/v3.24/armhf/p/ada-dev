@@ -1,0 +1,15 @@
+name	ada-dev
+version	4.0.0-r0
+description	WHATWG-compliant and fast URL parser written in modern C++ (development files)
+url	https://ada-url.github.io/ada
+license	( Apache-2.0 OR MIT ) AND MPL-2.0
+size	86700
+installed-size	448622
+depends	ada=4.0.0-r0 ada-libs=4.0.0-r0 pkgconfig
+origin	ada
+repo	main
+file	ada-dev-4.0.0-r0.apk
+checksum	Q1gmZ3LQ1ffNMViwWR2z7ScVa9jlM=
+dep	ada=4.0.0-r0	ada
+dep	ada-libs=4.0.0-r0	ada-libs
+dep	pkgconfig	pkgconf

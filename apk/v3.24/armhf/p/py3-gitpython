@@ -1,0 +1,16 @@
+name	py3-gitpython
+version	3.1.61-r0
+description	Python3 Git Library
+url	https://github.com/gitpython-developers/GitPython
+license	BSD-3-Clause
+size	203471
+installed-size	749708
+depends	git py3-gitdb2 py3-typing-extensions python3~3.14
+origin	py3-gitpython
+repo	community
+file	py3-gitpython-3.1.61-r0.apk
+checksum	Q1GA79EOMlADHjzVXoUZe5WaDkZww=
+dep	git	git
+dep	py3-gitdb2	py3-gitdb2
+dep	py3-typing-extensions	py3-typing-extensions
+dep	python3~3.14	python3

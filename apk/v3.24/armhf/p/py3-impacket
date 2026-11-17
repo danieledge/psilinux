@@ -1,0 +1,20 @@
+name	py3-impacket
+version	0.13.0-r2
+description	Collection of Python3 classes providing access to network packets
+url	https://github.com/SecureAuthCorp/impacket
+license	Apache-2.0
+size	1526180
+installed-size	7498648
+depends	py3-asn1 py3-chardet py3-flask py3-ldap3 py3-openssl py3-pycryptodomex py3-six python3~3.14
+origin	py3-impacket
+repo	community
+file	py3-impacket-0.13.0-r2.apk
+checksum	Q10tu1u2MqwCKhDjdyfEG3O1yIdyQ=
+dep	py3-asn1	py3-asn1
+dep	py3-chardet	py3-chardet
+dep	py3-flask	py3-flask
+dep	py3-ldap3	py3-ldap3
+dep	py3-openssl	py3-openssl
+dep	py3-pycryptodomex	py3-pycryptodomex
+dep	py3-six	py3-six
+dep	python3~3.14	python3

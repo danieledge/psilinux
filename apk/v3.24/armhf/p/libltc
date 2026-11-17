@@ -1,0 +1,13 @@
+name	libltc
+version	1.3.2-r1
+description	provides functionality to encode and decode LTC audio
+url	https://github.com/x42/libltc
+license	LGPL-3.0-only
+size	11530
+installed-size	21624
+depends	so:libc.musl-armhf.so.1
+origin	libltc
+repo	community
+file	libltc-1.3.2-r1.apk
+checksum	Q1Z/KoC+ROuls5EPFphHQbUh5bLSg=
+dep	so:libc.musl-armhf.so.1	musl

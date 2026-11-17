@@ -1,0 +1,17 @@
+name	lib3mf
+version	2.5.0-r0
+description	A C++ implementation of the 3D Manufacturing Format file standard
+url	https://github.com/3MFConsortium/lib3mf
+license	BSD-2-Clause
+size	849686
+installed-size	2864516
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1 so:libzip.so.5
+origin	lib3mf
+repo	community
+file	lib3mf-2.5.0-r0.apk
+checksum	Q1PSVAqxToly1E3NPnA9ZcPEfkp80=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib
+dep	so:libzip.so.5	libzip

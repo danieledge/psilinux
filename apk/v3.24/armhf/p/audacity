@@ -1,0 +1,48 @@
+name	audacity
+version	3.7.7-r0
+description	Multitrack audio editor
+url	https://www.audacityteam.org/
+license	GPL-3.0-or-later
+size	8953597
+installed-size	21717092
+depends	so:libFLAC++.so.10 so:libFLAC.so.12 so:libSoundTouch.so.2 so:libasound.so.2 so:libc.musl-armhf.so.1 so:libexpat.so.1 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libid3tag.so.0 so:liblilv-0.so.0 so:libmpg123.so.0 so:libogg.so.0 so:libopus.so.0 so:libopusfile.so.0 so:libportaudio.so.2 so:libportmidi.so.2 so:libsndfile.so.1 so:libsoxr.so.0 so:libsqlite3.so.0 so:libstdc++.so.6 so:libsuil-0.so.0 so:libuuid.so.1 so:libvamp-hostsdk.so.3 so:libvorbis.so.0 so:libvorbisenc.so.2 so:libvorbisfile.so.3 so:libwavpack.so.1 so:libwx_baseu-3.2.so.0 so:libwx_baseu_net-3.2.so.0 so:libwx_gtk3u_core-3.2.so.0 so:libwx_gtk3u_html-3.2.so.0 so:libwx_gtk3u_qa-3.2.so.0
+origin	audacity
+repo	community
+file	audacity-3.7.7-r0.apk
+checksum	Q1lakZRUTudZ+1hqWiWwveLBH9g3g=
+dep	so:libFLAC++.so.10	libflac++
+dep	so:libFLAC.so.12	libflac
+dep	so:libSoundTouch.so.2	soundtouch
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexpat.so.1	libexpat
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libid3tag.so.0	libid3tag
+dep	so:liblilv-0.so.0	lilv-libs
+dep	so:libmpg123.so.0	mpg123-libs
+dep	so:libogg.so.0	libogg
+dep	so:libopus.so.0	opus
+dep	so:libopusfile.so.0	opusfile
+dep	so:libportaudio.so.2	portaudio
+dep	so:libportmidi.so.2	portmidi
+dep	so:libsndfile.so.1	libsndfile
+dep	so:libsoxr.so.0	soxr
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libsuil-0.so.0	suil
+dep	so:libuuid.so.1	libuuid
+dep	so:libvamp-hostsdk.so.3	vamp-sdk-libs
+dep	so:libvorbis.so.0	libvorbis
+dep	so:libvorbisenc.so.2	libvorbis
+dep	so:libvorbisfile.so.3	libvorbis
+dep	so:libwavpack.so.1	wavpack-libs
+dep	so:libwx_baseu-3.2.so.0	wxwidgets
+dep	so:libwx_baseu_net-3.2.so.0	wxwidgets
+dep	so:libwx_gtk3u_core-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_html-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_qa-3.2.so.0	wxwidgets-gtk3

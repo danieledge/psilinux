@@ -1,0 +1,20 @@
+name	nickel
+version	1.16.0-r1
+description	Generic configuration language for less
+url	https://nickel-lang.org/
+license	MIT
+size	6758688
+installed-size	20384312
+depends	so:libc.musl-armhf.so.1 so:libgc.so.1 so:libgcc_s.so.1 so:libnixcmd.so so:libnixexpr.so so:libnixmain.so so:libnixutil.so so:libstdc++.so.6
+origin	nickel
+repo	community
+file	nickel-1.16.0-r1.apk
+checksum	Q1dr1miBVC5cAAnvPl0NJsv3LsbmU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgc.so.1	gc
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libnixcmd.so	nix
+dep	so:libnixexpr.so	nix
+dep	so:libnixmain.so	nix
+dep	so:libnixutil.so	nix
+dep	so:libstdc++.so.6	libstdc++

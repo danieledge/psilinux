@@ -1,0 +1,15 @@
+name	vulkan-loader-dev
+version	1.4.347-r0
+description	Vulkan Installable Client Driver (ICD) Loader (development files)
+url	https://www.khronos.org/vulkan
+license	Apache-2.0
+size	4523
+installed-size	8206
+depends	vulkan-headers vulkan-loader=1.4.347-r0 pkgconfig
+origin	vulkan-loader
+repo	main
+file	vulkan-loader-dev-1.4.347-r0.apk
+checksum	Q1fEzJMCy5zQa0mVAhBBoELlPo3BQ=
+dep	vulkan-headers	vulkan-headers
+dep	vulkan-loader=1.4.347-r0	vulkan-loader
+dep	pkgconfig	pkgconf

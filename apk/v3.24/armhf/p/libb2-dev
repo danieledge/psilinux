@@ -1,0 +1,14 @@
+name	libb2-dev
+version	0.98.1-r3
+description	C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp (development files)
+url	https://blake2.net/
+license	CC0-1.0
+size	3414
+installed-size	6264
+depends	libb2=0.98.1-r3 pkgconfig
+origin	libb2
+repo	community
+file	libb2-dev-0.98.1-r3.apk
+checksum	Q1oxYsvq6VbWWs/DoWQy/2UxOdEWk=
+dep	libb2=0.98.1-r3	libb2
+dep	pkgconfig	pkgconf

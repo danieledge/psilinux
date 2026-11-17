@@ -1,0 +1,15 @@
+name	libglibutil
+version	1.0.81-r0
+description	Library of glib utilities
+url	https://github.com/sailfishos/libglibutil
+license	BSD-3-Clause
+size	27435
+installed-size	58648
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	libglibutil
+repo	community
+file	libglibutil-1.0.81-r0.apk
+checksum	Q1lSSXNgu4qtBXSk6pmQCyUxFlyro=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

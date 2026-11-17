@@ -1,0 +1,13 @@
+name	lsof
+version	4.99.6-r0
+description	LiSt Open Files
+url	https://github.com/lsof-org/lsof
+license	custom
+size	100100
+installed-size	313456
+depends	so:libc.musl-armhf.so.1
+origin	lsof
+repo	main
+file	lsof-4.99.6-r0.apk
+checksum	Q1pr+SPuoKspXSLlpmMDBXpcqzx7A=
+dep	so:libc.musl-armhf.so.1	musl

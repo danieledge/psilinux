@@ -1,0 +1,17 @@
+name	libgphoto2-dev
+version	2.5.33-r1
+description	The core library of gphoto2, designed to allow access to digital camera by external programs (development files)
+url	http://www.gphoto.org
+license	LGPL-2.1-or-later
+size	25571
+installed-size	103327
+depends	libexif-dev libusb-dev libgphoto2=2.5.33-r1 pc:libexif>=0.6.13 pkgconfig
+origin	libgphoto2
+repo	community
+file	libgphoto2-dev-2.5.33-r1.apk
+checksum	Q1nLfcps+5csG60c8AD/UozJc6W1s=
+dep	libexif-dev	libexif-dev
+dep	libusb-dev	libusb-dev
+dep	libgphoto2=2.5.33-r1	libgphoto2
+dep	pc:libexif>=0.6.13	libexif-dev
+dep	pkgconfig	pkgconf

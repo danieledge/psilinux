@@ -1,0 +1,14 @@
+name	py3-automat
+version	24.8.1-r2
+description	Self-service finite-state machines for the programmer on the go
+url	https://automat.readthedocs.io/
+license	MIT
+size	40036
+installed-size	156611
+depends	py3-attrs python3~3.14
+origin	py3-automat
+repo	community
+file	py3-automat-24.8.1-r2.apk
+checksum	Q1h24JNUsZvIbsL2aG/EfqyT33iLA=
+dep	py3-attrs	py3-attrs
+dep	python3~3.14	python3

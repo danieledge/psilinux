@@ -1,0 +1,13 @@
+name	postgresql-pgvector-bitcode
+version	0.8.1-r0
+description	Open-source vector similarity search for PostgreSQL (bitcode for JIT)
+url	https://github.com/pgvector/pgvector
+license	PostgreSQL
+size	192775
+installed-size	362440
+depends	postgresql-pgvector=0.8.1-r0
+origin	postgresql-pgvector
+repo	community
+file	postgresql-pgvector-bitcode-0.8.1-r0.apk
+checksum	Q1ZlURU8Wl7TCD0+vtE31y4NPkUrk=
+dep	postgresql-pgvector=0.8.1-r0	postgresql-pgvector

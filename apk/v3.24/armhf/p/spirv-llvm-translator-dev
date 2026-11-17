@@ -1,0 +1,17 @@
+name	spirv-llvm-translator-dev
+version	22.1.0-r0
+description	Library for bi-directional translation between SPIR-V and LLVM IR (development files)
+url	https://github.com/KhronosGroup/SPIRV-LLVM-Translator
+license	NCSA
+size	9017
+installed-size	26408
+depends	spirv-llvm-translator=22.1.0-r0 llvm22-dev spirv-tools-dev spirv-llvm-translator-libs=22.1.0-r0 pkgconfig
+origin	spirv-llvm-translator
+repo	main
+file	spirv-llvm-translator-dev-22.1.0-r0.apk
+checksum	Q1+o0oCTfSeunksN3MxzbmEigF0mc=
+dep	spirv-llvm-translator=22.1.0-r0	spirv-llvm-translator
+dep	llvm22-dev	llvm22-dev
+dep	spirv-tools-dev	spirv-tools-dev
+dep	spirv-llvm-translator-libs=22.1.0-r0	spirv-llvm-translator-libs
+dep	pkgconfig	pkgconf

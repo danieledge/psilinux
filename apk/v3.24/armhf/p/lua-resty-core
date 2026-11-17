@@ -1,0 +1,14 @@
+name	lua-resty-core
+version	0.1.34_rc3-r0
+description	New FFI-based API for lua-nginx-module
+url	https://github.com/openresty/lua-resty-core
+license	BSD-2-Clause
+size	43276
+installed-size	248538
+depends	luajit lua-resty-lrucache
+origin	lua-resty-core
+repo	main
+file	lua-resty-core-0.1.34_rc3-r0.apk
+checksum	Q13+lSrnRVeUW1vuSOH7VjgrwyMVk=
+dep	luajit	luajit
+dep	lua-resty-lrucache	lua-resty-lrucache

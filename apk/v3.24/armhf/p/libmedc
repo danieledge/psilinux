@@ -1,0 +1,16 @@
+name	libmedc
+version	5.0.0-r2
+description	Open source library for numerical simulation
+url	https://www.salome-platform.org/
+license	GPL-3.0-or-later
+size	757340
+installed-size	1784917
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libhdf5.so.311 so:libstdc++.so.6
+origin	libmedc
+repo	community
+file	libmedc-5.0.0-r2.apk
+checksum	Q1ZkPGI0hssEDS4RJB+GKpsAy/UlA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libhdf5.so.311	hdf5
+dep	so:libstdc++.so.6	libstdc++

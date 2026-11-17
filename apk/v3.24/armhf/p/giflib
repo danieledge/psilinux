@@ -1,0 +1,13 @@
+name	giflib
+version	5.2.2-r2
+description	A library for reading and writing GIF images
+url	https://sourceforge.net/projects/giflib/
+license	MIT
+size	14847
+installed-size	29816
+depends	so:libc.musl-armhf.so.1
+origin	giflib
+repo	main
+file	giflib-5.2.2-r2.apk
+checksum	Q1M1lIbC79KC7XGxsqIbjWN00eL0Y=
+dep	so:libc.musl-armhf.so.1	musl

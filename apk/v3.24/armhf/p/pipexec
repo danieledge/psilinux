@@ -1,0 +1,13 @@
+name	pipexec
+version	2.6.2-r0
+description	Handling pipe of commands like a single command
+url	https://github.com/flonatel/pipexec
+license	GPL-2.0-or-later
+size	18694
+installed-size	44556
+depends	so:libc.musl-armhf.so.1
+origin	pipexec
+repo	community
+file	pipexec-2.6.2-r0.apk
+checksum	Q1CFo0W2s+yxB2IYAgJX2dXPTFcwY=
+dep	so:libc.musl-armhf.so.1	musl

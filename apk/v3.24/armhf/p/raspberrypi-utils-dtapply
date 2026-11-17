@@ -1,0 +1,14 @@
+name	raspberrypi-utils-dtapply
+version	0.20260811-r0
+description	A script that reads a Raspberry Pi config.txt and uses dtmerge to apply all its dtparam and dtoverlay directives to a base .dtb file.
+url	https://github.com/raspberrypi/utils
+license	BSD-3-Clause
+size	5354
+installed-size	12353
+depends	python3 raspberrypi-utils-dtmerge=0.20260811-r0
+origin	raspberrypi-utils
+repo	community
+file	raspberrypi-utils-dtapply-0.20260811-r0.apk
+checksum	Q13YFUyMtM/vp9DoZK8zflkSosZcQ=
+dep	python3	python3
+dep	raspberrypi-utils-dtmerge=0.20260811-r0	raspberrypi-utils-dtmerge

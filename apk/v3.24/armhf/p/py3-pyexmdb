@@ -1,0 +1,17 @@
+name	py3-pyexmdb
+version	1.11-r3
+description	C++ implementation of the exmdb wire protocol for grommunio (python bindings)
+url	https://grommunio.com/
+license	AGPL-3.0-or-later
+size	129980
+installed-size	317008
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libexmdbpp.so.0 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libexmdbpp
+repo	community
+file	py3-pyexmdb-1.11-r3.apk
+checksum	Q1CD9zFwHxXnhm7ztmHRgdDCZ5uF0=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexmdbpp.so.0	libexmdbpp
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

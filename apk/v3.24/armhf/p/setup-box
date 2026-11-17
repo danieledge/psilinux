@@ -1,0 +1,13 @@
+name	setup-box
+version	1.0.1-r2
+description	A tool to setup a variety of Alpine Linux Environments
+url	https://git-old.alpinelinux.org/user/alacerda/setup-box/
+license	MIT
+size	7377
+installed-size	16118
+depends	jq
+origin	setup-box
+repo	main
+file	setup-box-1.0.1-r2.apk
+checksum	Q1x+BDfNq/tbEwhbcbUWll3y0WpLc=
+dep	jq	jq

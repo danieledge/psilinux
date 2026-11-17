@@ -1,0 +1,14 @@
+name	linuxconsoletools
+version	1.8.1-r1
+description	Tools for connecting joysticks & legacy devices to the kernels input subsystem
+url	https://sourceforge.net/projects/linuxconsole/
+license	GPL-2.0-or-later
+size	42283
+installed-size	117856
+depends	so:libSDL2-2.0.so.0 so:libc.musl-armhf.so.1
+origin	linuxconsoletools
+repo	community
+file	linuxconsoletools-1.8.1-r1.apk
+checksum	Q1GukYXpT7xjCWtyHgJkymsg/q728=
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libc.musl-armhf.so.1	musl

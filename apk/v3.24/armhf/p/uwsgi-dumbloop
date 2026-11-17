@@ -1,0 +1,14 @@
+name	uwsgi-dumbloop
+version	2.0.31-r2
+description	uWSGI plugin dumbloop
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	3545
+installed-size	5588
+depends	uwsgi so:libc.musl-armhf.so.1
+origin	uwsgi
+repo	main
+file	uwsgi-dumbloop-2.0.31-r2.apk
+checksum	Q19yi+DV2cwCW3knlhnifxgp7Y4Tw=
+dep	uwsgi	uwsgi
+dep	so:libc.musl-armhf.so.1	musl

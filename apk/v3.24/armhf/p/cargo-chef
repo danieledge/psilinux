@@ -1,0 +1,14 @@
+name	cargo-chef
+version	0.1.77-r0
+description	A cargo sub-command to build project dependencies for optimal Docker layer caching.
+url	https://github.com/LukeMathWalker/cargo-chef
+license	MIT OR Apache-2.0
+size	1268331
+installed-size	2630156
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	cargo-chef
+repo	community
+file	cargo-chef-0.1.77-r0.apk
+checksum	Q190KvMNoLZfOdNMBDBQhK0/ilguE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

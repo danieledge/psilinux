@@ -1,0 +1,17 @@
+name	pspg
+version	5.8.16-r0
+description	A unix pager optimized for psql
+url	https://github.com/okbob/pspg
+license	BSD-2-Clause
+size	142269
+installed-size	285824
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6 so:libpanelw.so.6 so:libpq.so.5 so:libreadline.so.8
+origin	pspg
+repo	main
+file	pspg-5.8.16-r0.apk
+checksum	Q1UoS+3nULZNqSycyte0tKamIDvnA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpanelw.so.6	libpanelw
+dep	so:libpq.so.5	libpq
+dep	so:libreadline.so.8	readline

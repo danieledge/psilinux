@@ -1,0 +1,19 @@
+name	guacamole-server-vnc
+version	1.6.0-r3
+description	VNC support for Guacamole daemon
+url	https://guacamole.apache.org/
+license	GPL-3.0-or-later
+size	34661
+installed-size	76444
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcrypto.so.3 so:libguac.so.25 so:libpulse.so.0 so:libssh2.so.1 so:libvncclient.so.1
+origin	guacamole-server
+repo	community
+file	guacamole-server-vnc-1.6.0-r3.apk
+checksum	Q1oYQz0YncH5vSsvDBI74kFS3eQ2g=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libguac.so.25	guacamole-server-libs
+dep	so:libpulse.so.0	libpulse
+dep	so:libssh2.so.1	libssh2
+dep	so:libvncclient.so.1	libvncserver

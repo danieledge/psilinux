@@ -1,0 +1,18 @@
+name	py3-augeas
+version	1.2.0-r1
+description	Pure python bindings for augeas
+url	https://pypi.org/project/python-augeas
+license	LGPL-2.1-or-later
+size	36115
+installed-size	115228
+depends	augeas-libs py3-cffi python3 python3~3.14 so:libaugeas.so.0 so:libc.musl-armhf.so.1
+origin	py3-augeas
+repo	community
+file	py3-augeas-1.2.0-r1.apk
+checksum	Q1e6irHmZEN69h640SQaZ8qdW6BXU=
+dep	augeas-libs	augeas-libs
+dep	py3-cffi	py3-cffi
+dep	python3	python3
+dep	python3~3.14	python3
+dep	so:libaugeas.so.0	augeas-libs
+dep	so:libc.musl-armhf.so.1	musl

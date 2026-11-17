@@ -1,0 +1,13 @@
+name	nuttcp
+version	8.2.2-r1
+description	A network performance measurement tool
+url	http://www.nuttcp.net
+license	GPL-2.0-only
+size	72923
+installed-size	148840
+depends	so:libc.musl-armhf.so.1
+origin	nuttcp
+repo	community
+file	nuttcp-8.2.2-r1.apk
+checksum	Q1V82p4VGtNGesT6ABFqfyhl6ilkc=
+dep	so:libc.musl-armhf.so.1	musl

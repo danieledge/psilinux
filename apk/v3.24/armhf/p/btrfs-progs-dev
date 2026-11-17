@@ -1,0 +1,15 @@
+name	btrfs-progs-dev
+version	6.17.1-r1
+description	BTRFS filesystem utilities (development files)
+url	https://btrfs.wiki.kernel.org
+license	GPL-2.0-or-later
+size	38837
+installed-size	166872
+depends	linux-headers btrfs-progs-libs=6.17.1-r1 pkgconfig
+origin	btrfs-progs
+repo	main
+file	btrfs-progs-dev-6.17.1-r1.apk
+checksum	Q1f46r0BEagwls3C0Lf7O1NB2IQ+Q=
+dep	linux-headers	linux-headers
+dep	btrfs-progs-libs=6.17.1-r1	btrfs-progs-libs
+dep	pkgconfig	pkgconf

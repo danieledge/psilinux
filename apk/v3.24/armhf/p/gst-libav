@@ -1,0 +1,24 @@
+name	gst-libav
+version	1.28.3-r0
+description	GStreamer streaming media framework libav plugin
+url	https://gstreamer.freedesktop.org
+license	GPL-2.0-or-later LGPL-2.0-or-later
+size	117282
+installed-size	251812
+depends	so:libavcodec.so.62 so:libavfilter.so.11 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0
+origin	gst-libav
+repo	community
+file	gst-libav-1.28.3-r0.apk
+checksum	Q1VOEKGHEUcAlK1+gTpNHru/iWyJ8=
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavfilter.so.11	ffmpeg-libavfilter
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstaudio-1.0.so.0	gst-plugins-base
+dep	so:libgstbase-1.0.so.0	gstreamer
+dep	so:libgstpbutils-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base

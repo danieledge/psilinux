@@ -1,0 +1,13 @@
+name	libip4tc
+version	1.8.13-r0
+description	Linux kernel firewall, NAT and packet mangling tools (legacy libip4tc library)
+url	https://www.netfilter.org/projects/iptables/index.html
+license	GPL-2.0-or-later
+size	12806
+installed-size	21940
+depends	so:libc.musl-armhf.so.1
+origin	iptables
+repo	main
+file	libip4tc-1.8.13-r0.apk
+checksum	Q11wPVE2kklZwqJ5qeryCCtJVX2jQ=
+dep	so:libc.musl-armhf.so.1	musl

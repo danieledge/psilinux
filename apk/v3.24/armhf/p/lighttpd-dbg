@@ -1,0 +1,12 @@
+name	lighttpd-dbg
+version	1.4.85-r0
+description	Secure, fast, compliant and very flexible web-server (debug symbols)
+url	https://www.lighttpd.net
+license	BSD-3-Clause
+size	1325802
+installed-size	2881012
+depends	!lighttpd-mod_auth<1.4.85-r0 !lighttpd-mod_auth>1.4.85-r0 !lighttpd-mod_webdav<1.4.85-r0 !lighttpd-mod_webdav>1.4.85-r0 !lighttpd<1.4.85-r0 !lighttpd>1.4.85-r0
+origin	lighttpd
+repo	main
+file	lighttpd-dbg-1.4.85-r0.apk
+checksum	Q1fSv7jlXi8jRoo9x7kZ7CgNq/KXI=

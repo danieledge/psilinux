@@ -1,0 +1,13 @@
+name	crconf
+version	0_pre2-r3
+description	Linux crypto layer configuration tool
+url	https://sourceforge.net/projects/crconf/
+license	GPL-2.0-or-later
+size	11124
+installed-size	21732
+depends	so:libc.musl-armhf.so.1
+origin	crconf
+repo	main
+file	crconf-0_pre2-r3.apk
+checksum	Q1nQ87hrU7pIHySmBxy997NroxQJ0=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	geth-tools
+version	1.17.0-r5
+description	Official Go implementation of the Ethereum protocol (extra tools: abigen, clef, evm, rlpdump)
+url	https://geth.ethereum.org/
+license	LGPL-3.0-or-later
+size	41353128
+installed-size	106449756
+depends	so:libc.musl-armhf.so.1
+origin	geth
+repo	community
+file	geth-tools-1.17.0-r5.apk
+checksum	Q1TjE2BnFXlBuksAVZGGJRQKr5VQ4=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	gstreamer-ptp-helper
+version	1.28.3-r0
+description	GStreamer streaming media framework (ptp helper)
+url	https://gstreamer.freedesktop.org
+license	LGPL-2.0-or-later
+size	331914
+installed-size	748508
+depends	so:libc.musl-armhf.so.1 so:libcap.so.2 so:libgcc_s.so.1
+origin	gstreamer
+repo	main
+file	gstreamer-ptp-helper-1.28.3-r0.apk
+checksum	Q1iTV7pSoXHpzs/w/cGQdMH6uhq0Y=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libgcc_s.so.1	libgcc

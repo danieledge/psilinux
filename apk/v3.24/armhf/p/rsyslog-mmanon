@@ -1,0 +1,14 @@
+name	rsyslog-mmanon
+version	8.2608.0-r0
+description	rsyslog  module
+url	https://www.rsyslog.com/
+license	Apache-2.0 AND GPL-3.0-or-later AND LGPL-3.0-or-later
+size	11330
+installed-size	21952
+depends	rsyslog=8.2608.0-r0 so:libc.musl-armhf.so.1
+origin	rsyslog
+repo	main
+file	rsyslog-mmanon-8.2608.0-r0.apk
+checksum	Q1Pe1hHczOASEhaDURh2eq3ZIJk9c=
+dep	rsyslog=8.2608.0-r0	rsyslog
+dep	so:libc.musl-armhf.so.1	musl

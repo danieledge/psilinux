@@ -1,0 +1,13 @@
+name	cyrus-sasl-login
+version	2.1.28-r9
+description	Cyrus SASL plugin for login
+url	https://www.cyrusimap.org/sasl/
+license	BSD-3-Clause-Attribution AND BSD-4-Clause
+size	8515
+installed-size	17636
+depends	so:libc.musl-armhf.so.1
+origin	cyrus-sasl
+repo	main
+file	cyrus-sasl-login-2.1.28-r9.apk
+checksum	Q1JEzwxxOu/ORIlch/M4GIwvGIVV0=
+dep	so:libc.musl-armhf.so.1	musl

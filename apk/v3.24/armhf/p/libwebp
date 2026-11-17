@@ -1,0 +1,14 @@
+name	libwebp
+version	1.6.0-r0
+description	Libraries for working with WebP images
+url	https://developers.google.com/speed/webp
+license	BSD-3-Clause
+size	177935
+installed-size	312640
+depends	so:libc.musl-armhf.so.1 so:libsharpyuv.so.0
+origin	libwebp
+repo	main
+file	libwebp-1.6.0-r0.apk
+checksum	Q1xbTZW9y+Pgc0kpOebZgpW656QnM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsharpyuv.so.0	libsharpyuv

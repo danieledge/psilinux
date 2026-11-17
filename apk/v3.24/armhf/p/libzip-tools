@@ -1,0 +1,15 @@
+name	libzip-tools
+version	1.11.4-r2
+description	libzip cmp and merge tools
+url	https://libzip.org/
+license	BSD-3-Clause
+size	23365
+installed-size	58192
+depends	so:libc.musl-armhf.so.1 so:libz.so.1 so:libzip.so.5
+origin	libzip
+repo	community
+file	libzip-tools-1.11.4-r2.apk
+checksum	Q1p+cLbUlrcKbbXY16w0xTei3m5IA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libz.so.1	zlib
+dep	so:libzip.so.5	libzip

@@ -1,0 +1,17 @@
+name	elogind-common
+version	255.24-r0
+description	common components for elogind and related tools
+url	https://github.com/elogind/elogind
+license	GPL-2.0-or-later LGPL-2.1-or-later
+size	569928
+installed-size	1285576
+depends	so:libacl.so.1 so:libc.musl-armhf.so.1 so:libcap.so.2 so:libmount.so.1 so:libpam.so.0
+origin	elogind
+repo	community
+file	elogind-common-255.24-r0.apk
+checksum	Q1oHuJmP6Xv3jul4Jq+uUDteZbMJQ=
+dep	so:libacl.so.1	acl-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libmount.so.1	libmount
+dep	so:libpam.so.0	linux-pam

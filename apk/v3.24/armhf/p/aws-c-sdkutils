@@ -1,0 +1,14 @@
+name	aws-c-sdkutils
+version	0.2.4-r1
+description	C99 library implementing AWS SDK specific utilities
+url	https://github.com/awslabs/aws-c-sdkutils
+license	Apache-2.0
+size	33735
+installed-size	79484
+depends	so:libaws-c-common.so.1 so:libc.musl-armhf.so.1
+origin	aws-c-sdkutils
+repo	community
+file	aws-c-sdkutils-0.2.4-r1.apk
+checksum	Q1Co7XwwtoJIrHmbQNLfVgrTyciHQ=
+dep	so:libaws-c-common.so.1	aws-c-common
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	browserpass-librewolf
+version	3.1.0-r30
+description	Browserpass for librewolf
+url	https://github.com/browserpass/browserpass-native
+license	MIT
+size	1278
+installed-size	0
+depends	browserpass-mozilla=3.1.0-r30
+origin	browserpass
+repo	community
+file	browserpass-librewolf-3.1.0-r30.apk
+checksum	Q1fzz4nptq83CDFtkANfDQPnOdr0Y=
+dep	browserpass-mozilla=3.1.0-r30	browserpass-mozilla

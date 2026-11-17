@@ -1,0 +1,14 @@
+name	s6-portable-utils
+version	2.3.1.2-r0
+description	skarnet.org's tiny portable generic utilities
+url	https://skarnet.org/software/s6-portable-utils/
+license	ISC
+size	32068
+installed-size	62728
+depends	so:libc.musl-armhf.so.1 so:libskarnet.so.2.15
+origin	s6-portable-utils
+repo	main
+file	s6-portable-utils-2.3.1.2-r0.apk
+checksum	Q1dUAb9HvtpQYHA1EqPyPdbnt3wyc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libskarnet.so.2.15	skalibs-libs

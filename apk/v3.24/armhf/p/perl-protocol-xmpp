@@ -1,0 +1,19 @@
+name	perl-protocol-xmpp
+version	0.007-r1
+description	XMPP/Jabber protocol API
+url	https://metacpan.org/release/Protocol-XMPP/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	16048
+installed-size	48602
+depends	perl perl-authen-sasl perl-curry perl-future perl-mixin-event-dispatch perl-xml-libxml-sax-chunkparser perl-xml-sax
+origin	perl-protocol-xmpp
+repo	community
+file	perl-protocol-xmpp-0.007-r1.apk
+checksum	Q1Yx7Rn5g4qq9upnS00+crWNF05JU=
+dep	perl	perl
+dep	perl-authen-sasl	perl-authen-sasl
+dep	perl-curry	perl-curry
+dep	perl-future	perl-future
+dep	perl-mixin-event-dispatch	perl-mixin-event-dispatch
+dep	perl-xml-libxml-sax-chunkparser	perl-xml-libxml-sax-chunkparser
+dep	perl-xml-sax	perl-xml-sax

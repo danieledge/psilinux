@@ -1,0 +1,19 @@
+name	ruby-libs
+version	3.4.12-r0
+description	Libraries necessary to run Ruby
+url	https://www.ruby-lang.org/
+license	Ruby AND BSD-2-Clause AND MIT
+size	5141303
+installed-size	15175865
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libffi.so.8 so:libgmp.so.10 so:libssl.so.3 so:libyaml-0.so.2 so:libz.so.1
+origin	ruby
+repo	main
+file	ruby-libs-3.4.12-r0.apk
+checksum	Q1VTU5QPUjH/TJi2A17ev57RBCXy8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libffi.so.8	libffi
+dep	so:libgmp.so.10	gmp
+dep	so:libssl.so.3	libssl3
+dep	so:libyaml-0.so.2	yaml
+dep	so:libz.so.1	zlib

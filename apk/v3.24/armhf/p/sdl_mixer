@@ -1,0 +1,14 @@
+name	sdl_mixer
+version	1.2.12-r3
+description	A simple multi-channel audio mixer
+url	http://www.libsdl.org/projects/SDL_mixer/
+license	BSD-3-Clause
+size	61977
+installed-size	142820
+depends	so:libSDL-1.2.so.0 so:libc.musl-armhf.so.1
+origin	sdl_mixer
+repo	community
+file	sdl_mixer-1.2.12-r3.apk
+checksum	Q168fphihJGYwYFDhT0OqpOrMCqAM=
+dep	so:libSDL-1.2.so.0	sdl12-compat
+dep	so:libc.musl-armhf.so.1	musl

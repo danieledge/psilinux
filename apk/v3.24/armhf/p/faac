@@ -1,0 +1,13 @@
+name	faac
+version	1.31.1-r0
+description	FAAC is an AAC audio encoder.
+url	https://faac.sourceforge.net/
+license	GPL-3.0-or-later
+size	70566
+installed-size	134884
+depends	so:libc.musl-armhf.so.1
+origin	faac
+repo	community
+file	faac-1.31.1-r0.apk
+checksum	Q1ULUU4ZCILKm2dzm09FKiaW9AMOo=
+dep	so:libc.musl-armhf.so.1	musl

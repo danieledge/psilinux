@@ -1,0 +1,13 @@
+name	hunspell-en-hk
+version	2020.12.07-r4
+description	English hunspell dictionaries (HK only)
+url	http://wordlist.aspell.net/dicts/
+license	custom
+size	1649
+installed-size	1
+depends	hunspell-en-gb=2020.12.07-r4
+origin	hunspell-en
+repo	main
+file	hunspell-en-hk-2020.12.07-r4.apk
+checksum	Q1Y8iDQGGNpTgEpUnaRz+351s5CIc=
+dep	hunspell-en-gb=2020.12.07-r4	hunspell-en-gb

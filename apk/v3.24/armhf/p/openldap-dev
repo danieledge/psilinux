@@ -1,0 +1,18 @@
+name	openldap-dev
+version	2.6.15-r0
+description	LDAP Server (development files)
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	340696
+installed-size	948353
+depends	cyrus-sasl-dev libevent-dev libsodium-dev util-linux-dev libldap=2.6.15-r0 pkgconfig
+origin	openldap
+repo	main
+file	openldap-dev-2.6.15-r0.apk
+checksum	Q1qii0ZkEhW85+9ao9Jpv/fxEqy6w=
+dep	cyrus-sasl-dev	cyrus-sasl-dev
+dep	libevent-dev	libevent-dev
+dep	libsodium-dev	libsodium-dev
+dep	util-linux-dev	util-linux-dev
+dep	libldap=2.6.15-r0	libldap
+dep	pkgconfig	pkgconf

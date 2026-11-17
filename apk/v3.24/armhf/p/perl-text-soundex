@@ -1,0 +1,14 @@
+name	perl-text-soundex
+version	3.05-r11
+description	Perl module for Text-Soundex
+url	https://metacpan.org/release/Text-Soundex/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	8703
+installed-size	17681
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-text-soundex
+repo	main
+file	perl-text-soundex-3.05-r11.apk
+checksum	Q1Yv8FEDPETWihESCAN68pMoOpCqs=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

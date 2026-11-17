@@ -1,0 +1,14 @@
+name	perl-scalar-readonly
+version	0.03-r3
+description	Functions for controlling whether any scalar variable is read-only
+url	https://metacpan.org/release/Scalar-Readonly/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	5236
+installed-size	7665
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-scalar-readonly
+repo	community
+file	perl-scalar-readonly-0.03-r3.apk
+checksum	Q1zq8tn1IHZuMGXSI6wkLwdiXXokw=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

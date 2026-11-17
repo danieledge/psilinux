@@ -1,0 +1,13 @@
+name	lua-redis
+version	2.0.4-r5
+description	A Lua client library for the redis key value storage system
+url	https://github.com/nrk/redis-lua
+license	MIT
+size	1292
+installed-size	0
+depends	lua-socket
+origin	lua-redis
+repo	community
+file	lua-redis-2.0.4-r5.apk
+checksum	Q1zyxjWj90npYhUfJQeJ1JbRFkH6g=
+dep	lua-socket	lua-socket

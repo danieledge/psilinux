@@ -1,0 +1,20 @@
+name	py3-myst-parser
+version	4.0.1-r1
+description	Extended commonmark compliant parser
+url	https://myst-parser.readthedocs.io/
+license	MIT
+size	79078
+installed-size	300134
+depends	py3-docutils py3-jinja2 py3-markdown-it-py py3-mdit-py-plugins py3-sphinx py3-typing-extensions py3-yaml python3~3.14
+origin	py3-myst-parser
+repo	main
+file	py3-myst-parser-4.0.1-r1.apk
+checksum	Q1Y1+fu0kJijsz1cjnKHgF48jz2IQ=
+dep	py3-docutils	py3-docutils
+dep	py3-jinja2	py3-jinja2
+dep	py3-markdown-it-py	py3-markdown-it-py
+dep	py3-mdit-py-plugins	py3-mdit-py-plugins
+dep	py3-sphinx	py3-sphinx
+dep	py3-typing-extensions	py3-typing-extensions
+dep	py3-yaml	py3-yaml
+dep	python3~3.14	python3

@@ -1,0 +1,15 @@
+name	mle
+version	1.8.1-r0
+description	Flexible terminal-based text editor
+url	https://github.com/adsr/mle
+license	Apache-2.0
+size	110457
+installed-size	254576
+depends	so:libc.musl-armhf.so.1 so:liblua-5.4.so.0 so:libpcre2-8.so.0
+origin	mle
+repo	community
+file	mle-1.8.1-r0.apk
+checksum	Q1QoRCGXPYuvv+yTErJu4+ZAcUY/Y=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblua-5.4.so.0	lua5.4-libs
+dep	so:libpcre2-8.so.0	pcre2

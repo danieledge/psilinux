@@ -1,0 +1,20 @@
+name	apache-arrow-dev
+version	23.0.1-r2
+description	multi-language toolbox for accelerated data interchange and in-memory processing (development files)
+url	https://arrow.apache.org/
+license	Apache-2.0
+size	1695320
+installed-size	8715548
+depends	apache-arrow=23.0.1-r2 libarrow=23.0.1-r2 libarrow_acero=23.0.1-r2 libarrow_dataset=23.0.1-r2 libarrow_flight=23.0.1-r2 libparquet=23.0.1-r2 python3~3.14 pkgconfig
+origin	apache-arrow
+repo	community
+file	apache-arrow-dev-23.0.1-r2.apk
+checksum	Q1k2aEFpBWyrU4hjQLnsWhpYaFk3k=
+dep	apache-arrow=23.0.1-r2	apache-arrow
+dep	libarrow=23.0.1-r2	libarrow
+dep	libarrow_acero=23.0.1-r2	libarrow_acero
+dep	libarrow_dataset=23.0.1-r2	libarrow_dataset
+dep	libarrow_flight=23.0.1-r2	libarrow_flight
+dep	libparquet=23.0.1-r2	libparquet
+dep	python3~3.14	python3
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	py3-requests-unixsocket
+version	1.0.1-r1
+description	Use requests to talk HTTP via a UNIX domain socket
+url	https://gitlab.com/thelabnyc/requests-unixsocket2
+license	ISC
+size	6077
+installed-size	10109
+depends	py3-requests python3~3.14
+origin	py3-requests-unixsocket
+repo	community
+file	py3-requests-unixsocket-1.0.1-r1.apk
+checksum	Q1mTuZFTGxK0jhg9KTg9LbPGzVIng=
+dep	py3-requests	py3-requests
+dep	python3~3.14	python3

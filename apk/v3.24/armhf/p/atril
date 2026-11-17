@@ -1,0 +1,41 @@
+name	atril
+version	1.28.0-r3
+description	A document viewer for MATE
+url	https://github.com/mate-desktop/atril
+license	GPL-2.0-or-later
+size	523780
+installed-size	1288880
+depends	mate-icon-theme so:libICE.so.6 so:libSM.so.6 so:libarchive.so.13 so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcaja-extension.so.1 so:libdjvulibre.so.21 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libkpathsea.so.6 so:libmate-desktop-2.so.17 so:libpango-1.0.so.0 so:libpoppler-glib.so.8 so:libsecret-1.so.0 so:libspectre.so.1 so:libsynctex.so.2 so:libtiff.so.6 so:libwebkit2gtk-4.1.so.0 so:libxml2.so.2 so:libz.so.1
+origin	atril
+repo	community
+file	atril-1.28.0-r3.apk
+checksum	Q1ec6gwweH4IBi13eYvQRVCF6CBck=
+dep	mate-icon-theme	mate-icon-theme
+dep	so:libICE.so.6	libice
+dep	so:libSM.so.6	libsm
+dep	so:libarchive.so.13	libarchive
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcaja-extension.so.1	caja
+dep	so:libdjvulibre.so.21	djvulibre-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libkpathsea.so.6	texlive
+dep	so:libmate-desktop-2.so.17	mate-desktop
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpoppler-glib.so.8	poppler-glib
+dep	so:libsecret-1.so.0	libsecret
+dep	so:libspectre.so.1	libspectre
+dep	so:libsynctex.so.2	libsynctex
+dep	so:libtiff.so.6	tiff
+dep	so:libwebkit2gtk-4.1.so.0	webkit2gtk-4.1
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

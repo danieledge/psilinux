@@ -1,0 +1,13 @@
+name	py3-sensehat-pyc
+version	2.2.0-r9
+description	Precompiled Python bytecode for py3-sensehat
+url	https://www.raspberrypi.org/products/sense-hat/
+license	BSD-3-Clause
+size	21878
+installed-size	50995
+depends	python3~3.14
+origin	py3-sensehat
+repo	community
+file	py3-sensehat-pyc-2.2.0-r9.apk
+checksum	Q1Y1vrBZ+UTzUitUxTajZpx4IKHUw=
+dep	python3~3.14	python3

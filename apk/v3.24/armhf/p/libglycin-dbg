@@ -1,0 +1,12 @@
+name	libglycin-dbg
+version	2.1.5-r0
+description	Sandboxed and extendable image decoding (debug symbols)
+url	https://gitlab.gnome.org/GNOME/glycin
+license	MPL-2.0 OR LGPL-2.0-or-later
+size	11238392
+installed-size	48712176
+depends	!libglycin<2.1.5-r0 !libglycin>2.1.5-r0
+origin	libglycin
+repo	community
+file	libglycin-dbg-2.1.5-r0.apk
+checksum	Q1ajHU4FO+f7S9AdlUxhtQP3Wbdsw=

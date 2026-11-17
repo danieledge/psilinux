@@ -1,0 +1,17 @@
+name	aws-sdk-cpp-transfer
+version	1.11.700-r1
+description	Amazon Web Services SDK for C++ (transfer)
+url	https://github.com/aws/aws-sdk-cpp
+license	Apache-2.0
+size	58531
+installed-size	140568
+depends	so:libaws-cpp-sdk-core.so.1.11 so:libaws-cpp-sdk-s3.so.1.11 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	aws-sdk-cpp
+repo	community
+file	aws-sdk-cpp-transfer-1.11.700-r1.apk
+checksum	Q13pr2L8fNr8y5d7dy72+9S0wpU2o=
+dep	so:libaws-cpp-sdk-core.so.1.11	aws-sdk-cpp-core
+dep	so:libaws-cpp-sdk-s3.so.1.11	aws-sdk-cpp-s3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

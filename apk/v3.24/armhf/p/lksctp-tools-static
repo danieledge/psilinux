@@ -1,0 +1,13 @@
+name	lksctp-tools-static
+version	1.0.19-r5
+description	User-space access to Linux Kernel SCTP (static library)
+url	https://lksctp.sourceforge.net/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	7259
+installed-size	19522
+depends	lksctp-tools-dev
+origin	lksctp-tools
+repo	main
+file	lksctp-tools-static-1.0.19-r5.apk
+checksum	Q1ST5tcnDEDX52ejH6jx58qq71utA=
+dep	lksctp-tools-dev	lksctp-tools-dev

@@ -1,0 +1,17 @@
+name	djvulibre
+version	3.5.30-r0
+description	Utilities and Libraries for the DjVu image format
+url	https://djvu.sourceforge.net/
+license	GPL-2.0-only
+size	512423
+installed-size	1280163
+depends	so:libc.musl-armhf.so.1 so:libdjvulibre.so.21 so:libgcc_s.so.1 so:libstdc++.so.6 so:libtiff.so.6
+origin	djvulibre
+repo	community
+file	djvulibre-3.5.30-r0.apk
+checksum	Q1ysOuKcRu1NjoUNeyJAoAmr9ZXJY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdjvulibre.so.21	djvulibre-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtiff.so.6	tiff

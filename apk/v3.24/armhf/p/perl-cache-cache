@@ -1,0 +1,16 @@
+name	perl-cache-cache
+version	1.08-r5
+description	Perl module for Cache-Cache
+url	https://metacpan.org/release/Cache-Cache/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	24512
+installed-size	112482
+depends	perl perl-error perl-digest-sha1 perl-ipc-sharelite
+origin	perl-cache-cache
+repo	main
+file	perl-cache-cache-1.08-r5.apk
+checksum	Q1MjhmOgztEHNlmAIr8HIRLd8+pvI=
+dep	perl	perl
+dep	perl-error	perl-error
+dep	perl-digest-sha1	perl-digest-sha1
+dep	perl-ipc-sharelite	perl-ipc-sharelite

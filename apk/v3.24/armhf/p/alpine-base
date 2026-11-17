@@ -1,0 +1,22 @@
+name	alpine-base
+version	3.24.4-r0
+description	Meta package for minimal alpine base
+url	https://alpinelinux.org
+license	MIT
+size	1310
+installed-size	0
+depends	alpine-baselayout alpine-conf alpine-release apk-tools busybox busybox-mdev-openrc busybox-openrc busybox-suid musl-utils openrc
+origin	alpine-base
+repo	main
+file	alpine-base-3.24.4-r0.apk
+checksum	Q1z1vWSH3rU06HtLWw/fBHZJQ7X0o=
+dep	alpine-baselayout	alpine-baselayout
+dep	alpine-conf	alpine-conf
+dep	alpine-release	alpine-release
+dep	apk-tools	apk-tools
+dep	busybox	busybox
+dep	busybox-mdev-openrc	busybox-mdev-openrc
+dep	busybox-openrc	busybox-openrc
+dep	busybox-suid	busybox-suid
+dep	musl-utils	musl-utils
+dep	openrc	openrc

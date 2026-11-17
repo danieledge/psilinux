@@ -1,0 +1,13 @@
+name	dbus-libs
+version	1.16.2-r2
+description	D-BUS access libraries
+url	https://www.freedesktop.org/Software/dbus
+license	AFL-2.1 OR GPL-2.0-or-later
+size	120265
+installed-size	271736
+depends	so:libc.musl-armhf.so.1
+origin	dbus
+repo	main
+file	dbus-libs-1.16.2-r2.apk
+checksum	Q1ZBF6ZxuF/sNmjLucM9XPQSYMdJc=
+dep	so:libc.musl-armhf.so.1	musl

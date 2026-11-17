@@ -1,0 +1,14 @@
+name	sad
+version	0.4.23-r0
+description	CLI search and replace - a batch file edit tool
+url	https://github.com/ms-jpq/sad
+license	MIT
+size	766689
+installed-size	1659060
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	sad
+repo	community
+file	sad-0.4.23-r0.apk
+checksum	Q1sIxBEMWT1nLv5NRKetYIAG8BYSA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,16 @@
+name	py3-django-pglock
+version	1.8.0-r2
+description	Postgres advisory locks, table locks, and blocking lock management.
+url	https://pypi.python.org/project/django-pglock
+license	BSD-3-Clause
+size	17654
+installed-size	51521
+depends	py3-django py3-django-pgactivity py3-importlib-metadata python3~3.14
+origin	py3-django-pglock
+repo	community
+file	py3-django-pglock-1.8.0-r2.apk
+checksum	Q1rLgYyocr6N6kQr9nFCbTKh/r790=
+dep	py3-django	py3-django
+dep	py3-django-pgactivity	py3-django-pgactivity
+dep	py3-importlib-metadata	py3-importlib-metadata
+dep	python3~3.14	python3

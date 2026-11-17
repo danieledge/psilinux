@@ -1,0 +1,16 @@
+name	libarcus
+version	5.2.2-r10
+description	Communication library for Cura
+url	https://github.com/Ultimaker/libArcus
+license	LGPL-3.0-or-later
+size	31271
+installed-size	79232
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libprotobuf.so.31 so:libstdc++.so.6
+origin	libarcus
+repo	community
+file	libarcus-5.2.2-r10.apk
+checksum	Q1mRiFICqgevz75V8V+tV7RhYetaA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libprotobuf.so.31	libprotobuf
+dep	so:libstdc++.so.6	libstdc++

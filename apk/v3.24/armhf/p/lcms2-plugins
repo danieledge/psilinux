@@ -1,0 +1,14 @@
+name	lcms2-plugins
+version	2.19-r0
+description	Color Management Engine (threaded + fast_float plugins)
+url	https://www.littlecms.com
+license	GPL-3.0-or-later
+size	25655
+installed-size	51560
+depends	so:libc.musl-armhf.so.1 so:liblcms2.so.2
+origin	lcms2
+repo	main
+file	lcms2-plugins-2.19-r0.apk
+checksum	Q1kKUVi7EofMcZHgHrSvCs2DM9fmU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblcms2.so.2	lcms2

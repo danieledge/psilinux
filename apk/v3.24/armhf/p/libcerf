@@ -1,0 +1,13 @@
+name	libcerf
+version	3.3-r1
+description	Self-contained complex error function library
+url	https://jugit.fz-juelich.de/mlz/libcerf/
+license	MIT
+size	52356
+installed-size	62584
+depends	so:libc.musl-armhf.so.1
+origin	libcerf
+repo	community
+file	libcerf-3.3-r1.apk
+checksum	Q1nyyb84c+edP33I27PdP5KCLGgG4=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,17 @@
+name	perl-cpan-common-index
+version	0.010-r1
+description	Common library for searching CPAN modules, authors and distributions
+url	https://metacpan.org/release/CPAN-Common-Index/
+license	Apache-2.0
+size	9451
+installed-size	30555
+depends	perl perl-class-tiny perl-tie-handle-offset perl-uri perl-cpan-distnameinfo
+origin	perl-cpan-common-index
+repo	community
+file	perl-cpan-common-index-0.010-r1.apk
+checksum	Q19CemarpA/tTpLYBeNPF92VriqtQ=
+dep	perl	perl
+dep	perl-class-tiny	perl-class-tiny
+dep	perl-tie-handle-offset	perl-tie-handle-offset
+dep	perl-uri	perl-uri
+dep	perl-cpan-distnameinfo	perl-cpan-distnameinfo

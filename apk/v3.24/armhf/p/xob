@@ -1,0 +1,16 @@
+name	xob
+version	0.3-r2
+description	A lightweight overlay bar for the X Window System
+url	https://github.com/florentc/xob
+license	GPL-3.0-or-later
+size	9399
+installed-size	18413
+depends	so:libX11.so.6 so:libXrender.so.1 so:libc.musl-armhf.so.1 so:libconfig.so.15
+origin	xob
+repo	community
+file	xob-0.3-r2.apk
+checksum	Q1EPNmZzoQuz2+JIo9HmmCzki8VEs=
+dep	so:libX11.so.6	libx11
+dep	so:libXrender.so.1	libxrender
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libconfig.so.15	libconfig

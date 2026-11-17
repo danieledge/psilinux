@@ -1,0 +1,14 @@
+name	vamp-sdk-dev
+version	2.10.0-r3
+description	Framework for audio analysis and feature extraction (development files)
+url	https://vamp-plugins.org/develop.html
+license	BSD-3-Clause
+size	2088652
+installed-size	3198222
+depends	vamp-sdk-libs=2.10.0-r3 pkgconfig
+origin	vamp-sdk
+repo	community
+file	vamp-sdk-dev-2.10.0-r3.apk
+checksum	Q1t4miYoLWE95svULA+iSg0o3GC6Y=
+dep	vamp-sdk-libs=2.10.0-r3	vamp-sdk-libs
+dep	pkgconfig	pkgconf

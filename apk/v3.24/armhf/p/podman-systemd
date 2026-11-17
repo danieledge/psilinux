@@ -1,0 +1,13 @@
+name	podman-systemd
+version	5.8.10-r0
+description	Simple management tool for pods, containers and images (systemd files)
+url	https://podman.io/
+license	Apache-2.0
+size	1056636
+installed-size	2533436
+depends	so:libc.musl-armhf.so.1
+origin	podman
+repo	community
+file	podman-systemd-5.8.10-r0.apk
+checksum	Q1tl0c0hULpAivFBW5ezxn+ZdkkD4=
+dep	so:libc.musl-armhf.so.1	musl

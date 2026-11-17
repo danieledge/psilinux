@@ -1,0 +1,14 @@
+name	cloud-init-datasource-upcloud
+version	26.1-r3
+description	Cloud-init UpCloud datasource
+url	https://cloud-init.io
+license	Apache-2.0 OR GPL-3.0-only
+size	3586
+installed-size	5321
+depends	cloud-init=26.1-r3 python3~3.14
+origin	cloud-init
+repo	community
+file	cloud-init-datasource-upcloud-26.1-r3.apk
+checksum	Q1fAVbJbyFvBG2bnXyLPMcnm4U6CA=
+dep	cloud-init=26.1-r3	cloud-init
+dep	python3~3.14	python3

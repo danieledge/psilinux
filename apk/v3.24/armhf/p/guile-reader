@@ -1,0 +1,15 @@
+name	guile-reader
+version	0.6.3-r1
+description	A framework for building readers for GNU Guile
+url	http://www.nongnu.org/guile-reader/
+license	GPL-3.0-or-later
+size	108220
+installed-size	596156
+depends	guile so:libc.musl-armhf.so.1 so:libguile-3.0.so.1
+origin	guile-reader
+repo	community
+file	guile-reader-0.6.3-r1.apk
+checksum	Q1uJgglf6+ccxrf9dQlJowT1aSmuo=
+dep	guile	guile
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libguile-3.0.so.1	guile-libs

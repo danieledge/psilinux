@@ -1,0 +1,13 @@
+name	lua5.2-libs
+version	5.2.4-r13
+description	Lua dynamic library runtime
+url	https://www.lua.org/
+license	MIT
+size	74227
+installed-size	153694
+depends	so:libc.musl-armhf.so.1
+origin	lua5.2
+repo	main
+file	lua5.2-libs-5.2.4-r13.apk
+checksum	Q1d3oNUts7z6Ovvdz8xcAHkcMJVrA=
+dep	so:libc.musl-armhf.so.1	musl

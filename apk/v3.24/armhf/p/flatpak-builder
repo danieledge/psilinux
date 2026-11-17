@@ -1,0 +1,31 @@
+name	flatpak-builder
+version	1.4.11-r0
+description	Tool to build flatpaks from source
+url	https://flatpak.org
+license	LGPL-2.1-or-later
+size	162969
+installed-size	354729
+depends	appstream-compose elfutils flatpak git libarchive-tools patch /bin/sh so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libdw.so.1 so:libelf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libostree-1.so.1 so:libxml2.so.2 so:libyaml-0.so.2
+origin	flatpak-builder
+repo	community
+file	flatpak-builder-1.4.11-r0.apk
+checksum	Q1NEf71nv6hhWKMQemOoHl4MMcdmY=
+dep	appstream-compose	appstream-compose
+dep	elfutils	elfutils
+dep	flatpak	flatpak
+dep	git	git
+dep	libarchive-tools	libarchive-tools
+dep	patch	patch
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libdw.so.1	libdw
+dep	so:libelf.so.1	libelf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libostree-1.so.1	ostree
+dep	so:libxml2.so.2	libxml2
+dep	so:libyaml-0.so.2	yaml

@@ -1,0 +1,13 @@
+name	libphonenumber-static
+version	9.0.32-r0
+description	Library for parsing, formatting, and validating international phone numbers. (static library)
+url	https://github.com/google/libphonenumber
+license	Apache-2.0
+size	2182590
+installed-size	9179528
+depends	libphonenumber-dev
+origin	libphonenumber
+repo	community
+file	libphonenumber-static-9.0.32-r0.apk
+checksum	Q1M5cdT79vC76KkPBr5Ia1ifTql7s=
+dep	libphonenumber-dev	libphonenumber-dev

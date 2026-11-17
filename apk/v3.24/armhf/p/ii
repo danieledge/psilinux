@@ -1,0 +1,13 @@
+name	ii
+version	2.0-r2
+description	Minimalist FIFO and filesystem-based IRC client
+url	https://tools.suckless.org/ii
+license	MIT
+size	8984
+installed-size	17584
+depends	so:libc.musl-armhf.so.1
+origin	ii
+repo	community
+file	ii-2.0-r2.apk
+checksum	Q1zQ4MSGBnkG6Xz/nXObx7Vz17b8s=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,17 @@
+name	perl-app-speedtest
+version	0.31-r0
+description	Command line interface to speedtest.net
+url	https://metacpan.org/release/App-SpeedTest/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	14245
+installed-size	48949
+depends	perl perl-html-tree perl-xml-simple perl-libwww perl-data-peek !speedtest-cli
+origin	perl-app-speedtest
+repo	community
+file	perl-app-speedtest-0.31-r0.apk
+checksum	Q1P9jSU6kEjP/QcuDGzq9OEVJiRV8=
+dep	perl	perl
+dep	perl-html-tree	perl-html-tree
+dep	perl-xml-simple	perl-xml-simple
+dep	perl-libwww	perl-libwww
+dep	perl-data-peek	perl-data-peek

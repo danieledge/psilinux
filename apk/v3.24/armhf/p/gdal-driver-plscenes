@@ -1,0 +1,17 @@
+name	gdal-driver-plscenes
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (Planet Labs Scenes API driver)
+url	https://gdal.org/
+license	MIT
+size	30592
+installed-size	71040
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libjson-c.so.5 so:libstdc++.so.6
+origin	gdal
+repo	community
+file	gdal-driver-plscenes-3.13.3-r0.apk
+checksum	Q1amOHRyzbLiqkfwCMZioz2+JcXOI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libjson-c.so.5	json-c
+dep	so:libstdc++.so.6	libstdc++

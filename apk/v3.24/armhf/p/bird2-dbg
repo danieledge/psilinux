@@ -1,0 +1,12 @@
+name	bird2-dbg
+version	2.19.3-r0
+description	BIRD Internet Routing Daemon (debug symbols)
+url	https://bird.network.cz/
+license	GPL-2.0-or-later
+size	1867092
+installed-size	4047132
+depends	!bird2<2.19.3-r0 !bird2>2.19.3-r0
+origin	bird2
+repo	community
+file	bird2-dbg-2.19.3-r0.apk
+checksum	Q1VCHJbGp9Bo12oHznPJWcuu7RCZc=

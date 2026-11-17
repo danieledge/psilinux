@@ -1,0 +1,17 @@
+name	xf86-video-nouveau
+version	1.0.18-r0
+description	Open-source X.org drivers for nVidia video cards
+url	https://nouveau.freedesktop.org/
+license	MIT
+size	78315
+installed-size	161252
+depends	mesa-dri-gallium so:libc.musl-armhf.so.1 so:libdrm.so.2 so:libdrm_nouveau.so.2 so:libudev.so.1
+origin	xf86-video-nouveau
+repo	community
+file	xf86-video-nouveau-1.0.18-r0.apk
+checksum	Q1vHCHfonyb33H1p0GsHT7D7wA5+c=
+dep	mesa-dri-gallium	mesa-dri-gallium
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm.so.2	libdrm
+dep	so:libdrm_nouveau.so.2	libdrm
+dep	so:libudev.so.1	eudev-libs

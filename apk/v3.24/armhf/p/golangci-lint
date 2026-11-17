@@ -1,0 +1,13 @@
+name	golangci-lint
+version	2.5.0-r9
+description	Fast linters runner for Go
+url	https://golangci-lint.run/
+license	GPL-3.0-or-later
+size	17806033
+installed-size	47631820
+depends	so:libc.musl-armhf.so.1
+origin	golangci-lint
+repo	community
+file	golangci-lint-2.5.0-r9.apk
+checksum	Q1nISCOyztc8yJQRK55dIT5eQ4FuY=
+dep	so:libc.musl-armhf.so.1	musl

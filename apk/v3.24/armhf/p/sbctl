@@ -1,0 +1,16 @@
+name	sbctl
+version	0.18-r8
+description	Secure Boot key manager
+url	https://github.com/Foxboron/sbctl/
+license	MIT
+size	3832603
+installed-size	10008292
+depends	binutils lsblk so:libc.musl-armhf.so.1 so:libpcsclite.so.1
+origin	sbctl
+repo	community
+file	sbctl-0.18-r8.apk
+checksum	Q1YcwPa4RyOCdrZBb2PpJMh0tpV6A=
+dep	binutils	binutils
+dep	lsblk	lsblk
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcsclite.so.1	pcsc-lite-libs

@@ -1,0 +1,14 @@
+name	jasper-dev
+version	4.2.9-r0
+description	Software-based implementation of the codec specified in the emerging JPEG-2000 Part-1 standard (development files)
+url	https://www.ece.uvic.ca/~mdadams/jasper/
+license	custom:JasPer2.0
+size	41387
+installed-size	236281
+depends	jasper=4.2.9-r0 pkgconfig
+origin	jasper
+repo	community
+file	jasper-dev-4.2.9-r0.apk
+checksum	Q171gDH7f685r+3yDftA8j7vJ6tGs=
+dep	jasper=4.2.9-r0	jasper
+dep	pkgconfig	pkgconf

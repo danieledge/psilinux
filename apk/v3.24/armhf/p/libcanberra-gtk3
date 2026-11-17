@@ -1,0 +1,20 @@
+name	libcanberra-gtk3
+version	0.30-r12
+description	GTK+3.0 bindings for libcanberra
+url	https://0pointer.de/lennart/projects/libcanberra/
+license	LGPL-2.1-or-later
+size	18947
+installed-size	50896
+depends	libcanberra=0.30-r12 so:libX11.so.6 so:libc.musl-armhf.so.1 so:libcanberra.so.0 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0
+origin	libcanberra
+repo	community
+file	libcanberra-gtk3-0.30-r12.apk
+checksum	Q1YX8BvZv4u0e2WHYMYwGE3LUw8RY=
+dep	libcanberra=0.30-r12	libcanberra
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcanberra.so.0	libcanberra
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0

@@ -1,0 +1,15 @@
+name	openldap-overlay-dds
+version	2.6.15-r0
+description	OpenLDAP dds overlay
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	15506
+installed-size	31374
+depends	so:libc.musl-armhf.so.1 so:liblber.so.2 so:libldap.so.2
+origin	openldap
+repo	main
+file	openldap-overlay-dds-2.6.15-r0.apk
+checksum	Q10wOBkw6olzey7HkgTTOb3fMbNRM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap

@@ -1,0 +1,14 @@
+name	libupnp-dev
+version	1.18.5-r0
+description	Portable Open Source UPnP Development Kit (development files)
+url	https://pupnp.github.io/pupnp/
+license	BSD-3-Clause
+size	183183
+installed-size	664343
+depends	libupnp=1.18.5-r0 pkgconfig
+origin	libupnp
+repo	community
+file	libupnp-dev-1.18.5-r0.apk
+checksum	Q1fdlfKfck0koHHY2OiRYEQhYB42c=
+dep	libupnp=1.18.5-r0	libupnp
+dep	pkgconfig	pkgconf

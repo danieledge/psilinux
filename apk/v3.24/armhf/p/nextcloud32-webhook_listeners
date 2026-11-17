@@ -1,0 +1,13 @@
+name	nextcloud32-webhook_listeners
+version	32.0.15-r0
+description	Nextcloud Nextcloud webhook support app
+url	https://nextcloud.com/
+license	AGPL-3.0-only
+size	53623
+installed-size	283846
+depends	nextcloud32
+origin	nextcloud32
+repo	community
+file	nextcloud32-webhook_listeners-32.0.15-r0.apk
+checksum	Q1/IbOHlO0sNVTt2jtMHT1dFW3i1s=
+dep	nextcloud32	nextcloud32

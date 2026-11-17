@@ -1,0 +1,17 @@
+name	sandbar
+version	0.2_git20250909-r0
+description	dwm-like bar for the river wayland compositor
+url	https://github.com/kolunmi/sandbar
+license	GPL-3.0-or-later
+size	15403
+installed-size	34276
+depends	so:libc.musl-armhf.so.1 so:libfcft.so.4 so:libpixman-1.so.0 so:libwayland-client.so.0 so:libwayland-cursor.so.0
+origin	sandbar
+repo	community
+file	sandbar-0.2_git20250909-r0.apk
+checksum	Q1oXM/6K5Vj55eT+Aonqa8Pg0urTo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfcft.so.4	fcft
+dep	so:libpixman-1.so.0	pixman
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor

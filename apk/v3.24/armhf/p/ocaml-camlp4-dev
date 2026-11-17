@@ -1,0 +1,14 @@
+name	ocaml-camlp4-dev
+version	4.14.0-r6
+description	Caml preprocessor and pretty-printer (development files)
+url	https://github.com/camlp4/camlp4
+license	LGPL-2.0-or-later WITH OCaml-LGPL-linking-exception
+size	17895640
+installed-size	63051639
+depends	ocaml-camlp4=4.14.0-r6 so:libc.musl-armhf.so.1
+origin	ocaml-camlp4
+repo	community
+file	ocaml-camlp4-dev-4.14.0-r6.apk
+checksum	Q1q40pFzyt7yD1BMcqMnIjTrsVjgU=
+dep	ocaml-camlp4=4.14.0-r6	ocaml-camlp4
+dep	so:libc.musl-armhf.so.1	musl

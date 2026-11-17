@@ -1,0 +1,13 @@
+name	atinout
+version	0.9.1-r3
+description	AT commands as input are sent to modem and responses given as output
+url	https://atinout.sourceforge.net/index.html
+license	GPL-3.0-or-later
+size	5541
+installed-size	9456
+depends	so:libc.musl-armhf.so.1
+origin	atinout
+repo	community
+file	atinout-0.9.1-r3.apk
+checksum	Q1HimzGuyvubDk7vbrbMEvO1NAStU=
+dep	so:libc.musl-armhf.so.1	musl

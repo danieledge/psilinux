@@ -1,0 +1,16 @@
+name	fftw-dev
+version	3.3.11-r0
+description	Discrete Fourier transform (DFT) library (development files)
+url	http://www.fftw.org/
+license	GPL-2.0-or-later
+size	15052
+installed-size	146784
+depends	fftw-double-libs=3.3.11-r0 fftw-long-double-libs=3.3.11-r0 fftw-single-libs=3.3.11-r0 pkgconfig
+origin	fftw
+repo	main
+file	fftw-dev-3.3.11-r0.apk
+checksum	Q13mL93RGHVTY5WNtwsoL4ezgXXBU=
+dep	fftw-double-libs=3.3.11-r0	fftw-double-libs
+dep	fftw-long-double-libs=3.3.11-r0	fftw-long-double-libs
+dep	fftw-single-libs=3.3.11-r0	fftw-single-libs
+dep	pkgconfig	pkgconf

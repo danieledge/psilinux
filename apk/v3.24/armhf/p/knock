@@ -1,0 +1,15 @@
+name	knock
+version	0.8.2-r2
+description	A simple port-knocking daemon
+url	https://github.com/TDFKAOlli/knock
+license	GPL-2.0-or-later
+size	20203
+installed-size	52489
+depends	iptables so:libc.musl-armhf.so.1 so:libpcap.so.1
+origin	knock
+repo	main
+file	knock-0.8.2-r2.apk
+checksum	Q1qOtA/IwSjW5asO09NPUP+3nrqSE=
+dep	iptables	iptables
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcap.so.1	libpcap

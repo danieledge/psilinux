@@ -1,0 +1,32 @@
+name	libgnomekbd-dev
+version	3.28.1-r3
+description	GNOME keyboard library (development files)
+url	https://www.gnome.org/
+license	GPL-2.0-or-later
+size	14636
+installed-size	122026
+depends	gobject-introspection-dev gtk+3.0-dev libxau-dev libxcb-dev libxcomposite-dev libxcursor-dev libxdmcp-dev libxext-dev libxi-dev libxklavier-dev libxml2-dev libgnomekbd=3.28.1-r3 pc:gdk-3.0>=2.91.7 pc:gio-2.0>=2.44.0 pc:glib-2.0>=2.44.0 pc:gobject-2.0>=2.44.0 pc:gtk+-3.0>=2.90 pc:libxklavier>=5.2 pc:x11 pkgconfig
+origin	libgnomekbd
+repo	community
+file	libgnomekbd-dev-3.28.1-r3.apk
+checksum	Q1T5DXBDHnD2joOcv65tlNwwvva+M=
+dep	gobject-introspection-dev	gobject-introspection-dev
+dep	gtk+3.0-dev	gtk+3.0-dev
+dep	libxau-dev	libxau-dev
+dep	libxcb-dev	libxcb-dev
+dep	libxcomposite-dev	libxcomposite-dev
+dep	libxcursor-dev	libxcursor-dev
+dep	libxdmcp-dev	libxdmcp-dev
+dep	libxext-dev	libxext-dev
+dep	libxi-dev	libxi-dev
+dep	libxklavier-dev	libxklavier-dev
+dep	libxml2-dev	libxml2-dev
+dep	libgnomekbd=3.28.1-r3	libgnomekbd
+dep	pc:gdk-3.0>=2.91.7	gtk+3.0-dev
+dep	pc:gio-2.0>=2.44.0	glib-dev
+dep	pc:glib-2.0>=2.44.0	glib-dev
+dep	pc:gobject-2.0>=2.44.0	glib-dev
+dep	pc:gtk+-3.0>=2.90	gtk+3.0-dev
+dep	pc:libxklavier>=5.2	libxklavier-dev
+dep	pc:x11	libx11-dev
+dep	pkgconfig	pkgconf

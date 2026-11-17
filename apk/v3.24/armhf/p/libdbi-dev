@@ -1,0 +1,14 @@
+name	libdbi-dev
+version	0.9.0-r6
+description	Database independent abstraction layer for C (development files)
+url	https://libdbi.sourceforge.net/
+license	LGPL-2.1-or-later
+size	27818
+installed-size	91237
+depends	libdbi=0.9.0-r6 pkgconfig
+origin	libdbi
+repo	main
+file	libdbi-dev-0.9.0-r6.apk
+checksum	Q10BFOs7cpFgPDvlwmVGXBXVdDmVE=
+dep	libdbi=0.9.0-r6	libdbi
+dep	pkgconfig	pkgconf

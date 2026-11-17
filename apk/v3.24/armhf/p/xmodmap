@@ -1,0 +1,14 @@
+name	xmodmap
+version	1.0.11-r1
+description	Utility for modifying keymaps and pointer button mappings in X
+url	https://xorg.freedesktop.org/
+license	MIT
+size	14277
+installed-size	30076
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1
+origin	xmodmap
+repo	community
+file	xmodmap-1.0.11-r1.apk
+checksum	Q1w/N6w608O1hMSKJr4WzdrT/BStc=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl

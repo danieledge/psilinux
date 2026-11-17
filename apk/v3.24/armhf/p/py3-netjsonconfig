@@ -1,0 +1,16 @@
+name	py3-netjsonconfig
+version	1.2-r1
+description	Python library that converts NetJSON DeviceConfiguration objects into real router configurations
+url	http://netjsonconfig.openwisp.org/
+license	GPL-3.0-only
+size	98182
+installed-size	428575
+depends	py3-jinja2 py3-jsonschema py3-setuptools python3~3.14
+origin	py3-netjsonconfig
+repo	community
+file	py3-netjsonconfig-1.2-r1.apk
+checksum	Q1DI24Zqje6Emz9BScRTUVWjuPQtk=
+dep	py3-jinja2	py3-jinja2
+dep	py3-jsonschema	py3-jsonschema
+dep	py3-setuptools	py3-setuptools
+dep	python3~3.14	python3

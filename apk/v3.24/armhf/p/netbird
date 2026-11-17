@@ -1,0 +1,15 @@
+name	netbird
+version	0.81.2-r0
+description	WireGuard-based overlay network and mesh VPN
+url	https://netbird.io/
+license	BSD-3-Clause
+size	15481436
+installed-size	43459692
+depends	openresolv /bin/sh so:libc.musl-armhf.so.1
+origin	netbird
+repo	community
+file	netbird-0.81.2-r0.apk
+checksum	Q1n/L+u67w08N1cnFFg1hKMKpr+Sk=
+dep	openresolv	openresolv
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

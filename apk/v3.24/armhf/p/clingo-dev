@@ -1,0 +1,13 @@
+name	clingo-dev
+version	5.8.0-r2
+description	Grounder and solver for logic programs (development files)
+url	https://potassco.org/clingo/
+license	MIT
+size	66327
+installed-size	388414
+depends	clingo-libs=5.8.0-r2
+origin	clingo
+repo	community
+file	clingo-dev-5.8.0-r2.apk
+checksum	Q1qKr/RdIJL2mgRNizCOUT2A9L3t0=
+dep	clingo-libs=5.8.0-r2	clingo-libs

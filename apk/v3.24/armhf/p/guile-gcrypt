@@ -1,0 +1,14 @@
+name	guile-gcrypt
+version	0.5.0-r1
+description	Guile Scheme bindings for libgcrypt
+url	https://codeberg.org/guile-gcrypt/guile-gcrypt
+license	GPL-3.0-or-later
+size	243603
+installed-size	1298942
+depends	guile libgcrypt-dev
+origin	guile-gcrypt
+repo	community
+file	guile-gcrypt-0.5.0-r1.apk
+checksum	Q1qAUBA9Gs3LnsVJcKLKxIM5co8Kk=
+dep	guile	guile
+dep	libgcrypt-dev	libgcrypt-dev

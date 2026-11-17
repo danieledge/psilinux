@@ -1,0 +1,17 @@
+name	clingo
+version	5.8.0-r2
+description	Grounder and solver for logic programs
+url	https://potassco.org/clingo/
+license	MIT
+size	732539
+installed-size	1924724
+depends	!clasp so:libc.musl-armhf.so.1 so:libclingo.so.4 so:libgcc_s.so.1 so:libpython3.14.so.1.0 so:libstdc++.so.6
+origin	clingo
+repo	community
+file	clingo-5.8.0-r2.apk
+checksum	Q1ELBCzbQz+okumVlKLvXiWgD9mrE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libclingo.so.4	clingo-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpython3.14.so.1.0	python3
+dep	so:libstdc++.so.6	libstdc++

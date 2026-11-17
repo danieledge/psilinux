@@ -1,0 +1,14 @@
+name	cunit-dev
+version	2.1.3-r7
+description	Automated testing framework for C (development files)
+url	https://cunit.sourceforge.net/
+license	GPL-2.0-or-later
+size	46283
+installed-size	228694
+depends	cunit=2.1.3-r7 pkgconfig
+origin	cunit
+repo	main
+file	cunit-dev-2.1.3-r7.apk
+checksum	Q1OTxuANmU0ooB8SatOu/9WLhNsV4=
+dep	cunit=2.1.3-r7	cunit
+dep	pkgconfig	pkgconf

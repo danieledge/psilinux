@@ -1,0 +1,13 @@
+name	gosec
+version	2.23.0-r5
+description	Go source code static analyzer, focusing on security
+url	https://github.com/securego/gosec
+license	Apache-2.0
+size	10461517
+installed-size	32648804
+depends	so:libc.musl-armhf.so.1
+origin	gosec
+repo	community
+file	gosec-2.23.0-r5.apk
+checksum	Q11XaXQJlRAKxvAkj8/VkHQF8WCuE=
+dep	so:libc.musl-armhf.so.1	musl

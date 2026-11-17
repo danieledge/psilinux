@@ -1,0 +1,12 @@
+name	lxc-dbg
+version	7.0.0-r0
+description	Userspace interface for the Linux kernel containment features (debug symbols)
+url	https://linuxcontainers.org/lxc/
+license	LGPL-2.1-or-later
+size	16378298
+installed-size	40482464
+depends	!lxc-libs<7.0.0-r0 !lxc-libs>7.0.0-r0 !lxc-test-utils<7.0.0-r0 !lxc-test-utils>7.0.0-r0 !lxc-user-nic<7.0.0-r0 !lxc-user-nic>7.0.0-r0 !lxc<7.0.0-r0 !lxc>7.0.0-r0
+origin	lxc
+repo	main
+file	lxc-dbg-7.0.0-r0.apk
+checksum	Q1gwjGqsAUhJRS/0QVmNys34wE8aQ=

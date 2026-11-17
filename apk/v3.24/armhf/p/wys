@@ -1,0 +1,20 @@
+name	wys
+version	0.1.12-r0
+description	A daemon to bring up and take down PulseAudio loopbacks for phone call audio.
+url	https://source.puri.sm/Librem5/wys
+license	GPL-3.0-or-later
+size	16379
+installed-size	38506
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libmm-glib.so.0 so:libpulse-mainloop-glib.so.0 so:libpulse.so.0
+origin	wys
+repo	community
+file	wys-0.1.12-r0.apk
+checksum	Q1vcvWesaQmlflPpd7qiwyPF/O46M=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libmm-glib.so.0	libmm-glib
+dep	so:libpulse-mainloop-glib.so.0	libpulse-mainloop-glib
+dep	so:libpulse.so.0	libpulse

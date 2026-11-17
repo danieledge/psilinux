@@ -1,0 +1,19 @@
+name	grilo-dev
+version	0.3.19-r1
+description	GNOME media discovery framework (development files)
+url	https://gitlab.gnome.org/GNOME/grilo
+license	LGPL-2.1-or-later
+size	90739
+installed-size	872515
+depends	grilo-libs=0.3.19-r1 pc:gio-2.0>=2.66 pc:glib-2.0>=2.66 pc:gmodule-2.0>=2.66 pc:gobject-2.0>=2.66 pc:libxml-2.0 pkgconfig
+origin	grilo
+repo	community
+file	grilo-dev-0.3.19-r1.apk
+checksum	Q16IGe+uQZvypuJA1EziJOI+5Vm28=
+dep	grilo-libs=0.3.19-r1	grilo-libs
+dep	pc:gio-2.0>=2.66	glib-dev
+dep	pc:glib-2.0>=2.66	glib-dev
+dep	pc:gmodule-2.0>=2.66	glib-dev
+dep	pc:gobject-2.0>=2.66	glib-dev
+dep	pc:libxml-2.0	libxml2-dev
+dep	pkgconfig	pkgconf

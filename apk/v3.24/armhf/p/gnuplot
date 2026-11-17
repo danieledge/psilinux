@@ -1,0 +1,25 @@
+name	gnuplot
+version	6.0.4-r2
+description	Utility for plotting graphs
+url	https://gnuplot.sourceforge.net/
+license	MIT
+size	1099335
+installed-size	2678706
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcerf.so.3 so:libgcc_s.so.1 so:libgd.so.3 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libreadline.so.8 so:libwebp.so.7 so:libwebpmux.so.3
+origin	gnuplot
+repo	community
+file	gnuplot-6.0.4-r2.apk
+checksum	Q1Uvrn0P5//IXF5p1TZhk/LYCriOs=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcerf.so.3	libcerf
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgd.so.3	libgd
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libreadline.so.8	readline
+dep	so:libwebp.so.7	libwebp
+dep	so:libwebpmux.so.3	libwebpmux

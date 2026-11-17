@@ -1,0 +1,20 @@
+name	tkts
+version	3.0.2-r0
+description	CLI single user ticketing system
+url	https://lambdacreate.com/dev/tkts
+license	GPL-3.0-only
+size	33563
+installed-size	144556
+depends	lua5.4-lume lua5.4-lsqlite3 lua5.4-lyaml lua5.4-inspect sqlite groff so:libc.musl-armhf.so.1 so:liblua-5.4.so.0
+origin	tkts
+repo	community
+file	tkts-3.0.2-r0.apk
+checksum	Q140dc+ulBBOCCu7LsEX7GmtSenWw=
+dep	lua5.4-lume	lua5.4-lume
+dep	lua5.4-lsqlite3	lua5.4-lsqlite3
+dep	lua5.4-lyaml	lua5.4-lyaml
+dep	lua5.4-inspect	lua-inspect
+dep	sqlite	sqlite
+dep	groff	groff
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblua-5.4.so.0	lua5.4-libs

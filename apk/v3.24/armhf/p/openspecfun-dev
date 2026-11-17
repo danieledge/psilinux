@@ -1,0 +1,15 @@
+name	openspecfun-dev
+version	0.5.7-r0
+description	A collection of special mathematical functions. (development files)
+url	https://github.com/JuliaMath/openspecfun
+license	MIT Public-Domain
+size	85136
+installed-size	172231
+depends	openspecfun=0.5.7-r0 pc:openlibm pkgconfig
+origin	openspecfun
+repo	community
+file	openspecfun-dev-0.5.7-r0.apk
+checksum	Q1eP/vKYDrXESUpmuJdbdeHyA+xcY=
+dep	openspecfun=0.5.7-r0	openspecfun
+dep	pc:openlibm	openlibm-dev
+dep	pkgconfig	pkgconf

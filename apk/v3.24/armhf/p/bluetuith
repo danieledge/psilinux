@@ -1,0 +1,15 @@
+name	bluetuith
+version	0.2.6-r7
+description	TUI-based bluetooth connection manager
+url	https://github.com/darkhz/bluetuith
+license	MIT
+size	6941520
+installed-size	19835708
+depends	bluez dbus so:libc.musl-armhf.so.1
+origin	bluetuith
+repo	community
+file	bluetuith-0.2.6-r7.apk
+checksum	Q1mhkoHBiDqI/2J+2B22qfN2OFMrY=
+dep	bluez	bluez
+dep	dbus	dbus
+dep	so:libc.musl-armhf.so.1	musl

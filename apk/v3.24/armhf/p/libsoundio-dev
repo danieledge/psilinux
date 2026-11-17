@@ -1,0 +1,14 @@
+name	libsoundio-dev
+version	2.0.0-r2
+description	C library for cross-platform real-time audio input and output (development files)
+url	http://libsound.io
+license	MIT
+size	14019
+installed-size	56624
+depends	alsa-lib-dev libsoundio=2.0.0-r2
+origin	libsoundio
+repo	community
+file	libsoundio-dev-2.0.0-r2.apk
+checksum	Q1ZZroOpyO9V7RCpQXPXA2oSpJc+E=
+dep	alsa-lib-dev	alsa-lib-dev
+dep	libsoundio=2.0.0-r2	libsoundio

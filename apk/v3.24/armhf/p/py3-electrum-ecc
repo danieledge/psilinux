@@ -1,0 +1,14 @@
+name	py3-electrum-ecc
+version	0.0.7-r0
+description	Library for libsecp256k1 using ctypes
+url	https://github.com/spesmilo/electrum-ecc
+license	MIT
+size	11986
+installed-size	38780
+depends	libsecp256k1 python3~3.14
+origin	py3-electrum-ecc
+repo	community
+file	py3-electrum-ecc-0.0.7-r0.apk
+checksum	Q1cNKlDLZIplkMDvvLba/HEBF1ByQ=
+dep	libsecp256k1	libsecp256k1
+dep	python3~3.14	python3

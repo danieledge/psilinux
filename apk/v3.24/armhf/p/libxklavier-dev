@@ -1,0 +1,19 @@
+name	libxklavier-dev
+version	5.4-r8
+description	High-level API for X Keyboard Extension (development files)
+url	https://gswitchit.sourceforge.net/
+license	LGPL-2.0-or-later
+size	23034
+installed-size	180825
+depends	gettext-dev libxkbfile-dev libxklavier=5.4-r8 pc:glib-2.0 pc:gobject-2.0 pc:libxml-2.0 pkgconfig
+origin	libxklavier
+repo	community
+file	libxklavier-dev-5.4-r8.apk
+checksum	Q1UgN1nIPukgokh3TynbI+ibI+dWg=
+dep	gettext-dev	gettext-dev
+dep	libxkbfile-dev	libxkbfile-dev
+dep	libxklavier=5.4-r8	libxklavier
+dep	pc:glib-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pc:libxml-2.0	libxml2-dev
+dep	pkgconfig	pkgconf

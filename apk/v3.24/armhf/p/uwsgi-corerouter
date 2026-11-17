@@ -1,0 +1,14 @@
+name	uwsgi-corerouter
+version	2.0.31-r2
+description	uWSGI plugin corerouter
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	14557
+installed-size	30076
+depends	uwsgi so:libc.musl-armhf.so.1
+origin	uwsgi
+repo	main
+file	uwsgi-corerouter-2.0.31-r2.apk
+checksum	Q1C/lD+cowxmy7Nsq+0FaTRc5qZiU=
+dep	uwsgi	uwsgi
+dep	so:libc.musl-armhf.so.1	musl

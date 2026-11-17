@@ -1,0 +1,16 @@
+name	rofi-dev
+version	2.0.0-r0
+description	Window switcher, application launcher and dmenu replacement (development files)
+url	https://github.com/davatorium/rofi
+license	MIT
+size	12974
+installed-size	39765
+depends	pc:cairo pc:glib-2.0>=2.72 pc:gmodule-2.0 pkgconfig
+origin	rofi
+repo	community
+file	rofi-dev-2.0.0-r0.apk
+checksum	Q1CaRiWwlIZr1F8Wg8ft2GdkuDZZg=
+dep	pc:cairo	cairo-dev
+dep	pc:glib-2.0>=2.72	glib-dev
+dep	pc:gmodule-2.0	glib-dev
+dep	pkgconfig	pkgconf

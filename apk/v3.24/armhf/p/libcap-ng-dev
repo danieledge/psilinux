@@ -1,0 +1,15 @@
+name	libcap-ng-dev
+version	0.8.5-r2
+description	POSIX capabilities library (development files)
+url	https://people.redhat.com/sgrubb/libcap-ng/index.html
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	4326
+installed-size	5192
+depends	linux-headers libcap-ng=0.8.5-r2 pkgconfig
+origin	libcap-ng
+repo	main
+file	libcap-ng-dev-0.8.5-r2.apk
+checksum	Q1CtelGSLRsi0TJS4EkVwMIfs63M8=
+dep	linux-headers	linux-headers
+dep	libcap-ng=0.8.5-r2	libcap-ng
+dep	pkgconfig	pkgconf

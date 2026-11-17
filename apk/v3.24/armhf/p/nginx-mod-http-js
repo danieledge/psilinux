@@ -1,0 +1,15 @@
+name	nginx-mod-http-js
+version	1.30.6-r0
+description	Nginx module http-js
+url	https://www.nginx.org/
+license	BSD-2-Clause
+size	361921
+installed-size	867997
+depends	nginx=1.30.6-r0 so:libc.musl-armhf.so.1 so:libxml2.so.2
+origin	nginx
+repo	main
+file	nginx-mod-http-js-1.30.6-r0.apk
+checksum	Q1UdQiWwUqf7P9yPDqz7QHlso1M60=
+dep	nginx=1.30.6-r0	nginx
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxml2.so.2	libxml2

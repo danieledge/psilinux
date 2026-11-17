@@ -1,0 +1,15 @@
+name	postgresql18-plpython3-contrib
+version	18.7-r0
+description	PL/Python 3 extension modules distributed with PostgreSQL
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	7092
+installed-size	16352
+depends	postgresql18-plpython3=18.7-r0 so:libc.musl-armhf.so.1 so:libpython3.14.so.1.0
+origin	postgresql18
+repo	main
+file	postgresql18-plpython3-contrib-18.7-r0.apk
+checksum	Q1+LJBLszfI+AB3J/tw8URMN+mU40=
+dep	postgresql18-plpython3=18.7-r0	postgresql18-plpython3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpython3.14.so.1.0	python3

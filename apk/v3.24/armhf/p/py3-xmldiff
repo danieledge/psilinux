@@ -1,0 +1,14 @@
+name	py3-xmldiff
+version	2.7.0-r2
+description	Creates diffs of XML files
+url	https://github.com/Shoobx/xmldiff
+license	MIT
+size	43951
+installed-size	165030
+depends	py3-lxml python3~3.14
+origin	py3-xmldiff
+repo	community
+file	py3-xmldiff-2.7.0-r2.apk
+checksum	Q1bJvNeZVtwAOcKheoljg5Oz5chTs=
+dep	py3-lxml	py3-lxml
+dep	python3~3.14	python3

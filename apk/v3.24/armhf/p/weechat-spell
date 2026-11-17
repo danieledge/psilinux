@@ -1,0 +1,15 @@
+name	weechat-spell
+version	4.10.2-r0
+description	WeeChat spell plugin
+url	https://weechat.org
+license	GPL-3.0-or-later
+size	19954
+installed-size	43132
+depends	weechat so:libaspell.so.15 so:libc.musl-armhf.so.1
+origin	weechat
+repo	community
+file	weechat-spell-4.10.2-r0.apk
+checksum	Q17kjC+RB+fIBbUp5kbYx2hz5Zq14=
+dep	weechat	weechat
+dep	so:libaspell.so.15	aspell-libs
+dep	so:libc.musl-armhf.so.1	musl

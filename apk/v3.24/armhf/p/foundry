@@ -1,0 +1,18 @@
+name	foundry
+version	1.1.1-r0
+description	Companion command-line tool for IDE features of GNOME Builder
+url	https://gitlab.gnome.org/GNOME/foundry
+license	LGPL-2.1-or-later
+size	5523
+installed-size	14540
+depends	so:libc.musl-armhf.so.1 so:libdex-1.so.1 so:libfoundry-1.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8
+origin	foundry
+repo	community
+file	foundry-1.1.1-r0.apk
+checksum	Q1gpjBuPE+zspiJReDIgV7zUcNIS8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdex-1.so.1	libdex
+dep	so:libfoundry-1.so.1	foundry-libs
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl

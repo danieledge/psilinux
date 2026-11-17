@@ -1,0 +1,13 @@
+name	dora
+version	0_git20220621-r4
+description	Command line dhcp client/test tool
+url	https://github.com/glitchub/dora
+license	MIT
+size	17776
+installed-size	34016
+depends	so:libc.musl-armhf.so.1
+origin	dora
+repo	community
+file	dora-0_git20220621-r4.apk
+checksum	Q1ZgC/5ohsjNbNKLBK+2kGZdrDPKE=
+dep	so:libc.musl-armhf.so.1	musl

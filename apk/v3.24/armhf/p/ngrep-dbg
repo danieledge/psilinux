@@ -1,0 +1,12 @@
+name	ngrep-dbg
+version	1.49.0-r0
+description	A grep-like utility that allows you to search for network packets on an interface (debug symbols)
+url	https://ngrep.sourceforge.net/
+license	custom
+size	2349
+installed-size	1536
+depends	!ngrep<1.49.0-r0 !ngrep>1.49.0-r0
+origin	ngrep
+repo	main
+file	ngrep-dbg-1.49.0-r0.apk
+checksum	Q1T29QzyJL1qjZh8OcUnldzUeGcVg=

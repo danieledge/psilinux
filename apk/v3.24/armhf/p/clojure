@@ -1,0 +1,15 @@
+name	clojure
+version	1.12.5-r0
+description	The Clojure Programming Language
+url	https://clojure.org
+license	EPL-1.0
+size	16797119
+installed-size	18974623
+depends	bash java-jdk rlwrap
+origin	clojure
+repo	community
+file	clojure-1.12.5-r0.apk
+checksum	Q1tdRuV8mH72Fv5bD+WT/u8B8NyKU=
+dep	bash	bash
+dep	java-jdk	openjdk8-jdk
+dep	rlwrap	rlwrap

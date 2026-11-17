@@ -1,0 +1,16 @@
+name	py3-vcrpy
+version	8.1.1-r1
+description	Automatically mock your HTTP interactions to simplify and speed up testing
+url	https://github.com/kevin1024/vcrpy
+license	MIT
+size	38138
+installed-size	128009
+depends	py3-yarl py3-yaml py3-wrapt python3~3.14
+origin	py3-vcrpy
+repo	community
+file	py3-vcrpy-8.1.1-r1.apk
+checksum	Q1fp4zPbKULVQu1kjvdXgNCcgpM0w=
+dep	py3-yarl	py3-yarl
+dep	py3-yaml	py3-yaml
+dep	py3-wrapt	py3-wrapt
+dep	python3~3.14	python3

@@ -1,0 +1,13 @@
+name	notmuch-dev
+version	0.40-r2
+description	E-Mail index, search and tagging (development files)
+url	https://notmuchmail.org/
+license	GPL-3.0-or-later
+size	22036
+installed-size	93771
+depends	notmuch-libs=0.40-r2
+origin	notmuch
+repo	community
+file	notmuch-dev-0.40-r2.apk
+checksum	Q1P63/Zu0yz11hraxF1R+XMIEchm4=
+dep	notmuch-libs=0.40-r2	notmuch-libs

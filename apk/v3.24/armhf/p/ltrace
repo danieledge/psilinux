@@ -1,0 +1,14 @@
+name	ltrace
+version	0.7.3-r6
+description	Tracks runtime library calls in dynamically linked programs
+url	https://www.ltrace.org/
+license	GPL-2.0-or-later
+size	92447
+installed-size	202615
+depends	so:libc.musl-armhf.so.1 so:libelf.so.1
+origin	ltrace
+repo	main
+file	ltrace-0.7.3-r6.apk
+checksum	Q1qrTs0Go0Fc7SxgEG/A9NOwPmd90=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libelf.so.1	libelf

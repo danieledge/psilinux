@@ -1,0 +1,15 @@
+name	jless
+version	0.9.0-r0
+description	command-line pager for JSON data
+url	https://pauljuliusmartinez.github.io/
+license	MIT
+size	749411
+installed-size	1626208
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libxcb.so.1
+origin	jless
+repo	community
+file	jless-0.9.0-r0.apk
+checksum	Q1I7v3Ushn4Ae1BTIDMumcTi4ix3o=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libxcb.so.1	libxcb

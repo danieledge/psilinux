@@ -1,0 +1,13 @@
+name	tslib
+version	1.24-r0
+description	Touchscreen Access Library
+url	https://github.com/libts/tslib
+license	LGPL-2.0-or-later
+size	86875
+installed-size	288335
+depends	so:libc.musl-armhf.so.1
+origin	tslib
+repo	community
+file	tslib-1.24-r0.apk
+checksum	Q1mIKvsFiFY7M1pGBp1aoRxZgxDEw=
+dep	so:libc.musl-armhf.so.1	musl

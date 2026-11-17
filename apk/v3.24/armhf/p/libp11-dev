@@ -1,0 +1,14 @@
+name	libp11-dev
+version	0.4.18-r1
+description	PKCS#11 wrapper library (development files)
+url	https://github.com/OpenSC/libp11/wiki
+license	LGPL-2.1-or-later
+size	7649
+installed-size	23294
+depends	libp11=0.4.18-r1 pkgconfig
+origin	libp11
+repo	community
+file	libp11-dev-0.4.18-r1.apk
+checksum	Q1/le27v6ovu/T8gAp/mrzWNr64V8=
+dep	libp11=0.4.18-r1	libp11
+dep	pkgconfig	pkgconf

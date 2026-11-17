@@ -1,0 +1,14 @@
+name	py3-nftables
+version	1.1.6-r1
+description	Netfilter tables userspace tools (Python interface)
+url	https://netfilter.org/projects/nftables
+license	GPL-2.0-or-later
+size	7060
+installed-size	21534
+depends	nftables=1.1.6-r1 python3~3.14
+origin	nftables
+repo	main
+file	py3-nftables-1.1.6-r1.apk
+checksum	Q1weHf698xxxXa/6ctZ0XfFn0vW5I=
+dep	nftables=1.1.6-r1	nftables
+dep	python3~3.14	python3

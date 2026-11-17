@@ -1,0 +1,16 @@
+name	gn
+version	0_git20260924-r0
+description	Meta-build system that generates build files for Ninja
+url	https://gn.googlesource.com/gn
+license	BSD-3-Clause
+size	1009665
+installed-size	2164420
+depends	samurai so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	gn
+repo	community
+file	gn-0_git20260924-r0.apk
+checksum	Q1PdmmVoSo0gzEiJ7g3Re+Hj7LfCQ=
+dep	samurai	samurai
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

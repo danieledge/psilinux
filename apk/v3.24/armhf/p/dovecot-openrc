@@ -1,0 +1,12 @@
+name	dovecot-openrc
+version	2.4.5-r0
+description	IMAP and POP3 server (OpenRC init scripts)
+url	https://www.dovecot.org/
+license	MIT AND LGPL-2.1-or-later
+size	2096
+installed-size	1000
+depends	
+origin	dovecot
+repo	main
+file	dovecot-openrc-2.4.5-r0.apk
+checksum	Q1ySWD3/h3uaOotPSJ6grgVRRScic=

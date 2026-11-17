@@ -1,0 +1,21 @@
+name	gupnp
+version	1.6.10-r0
+description	GObject-based UPNP framework
+url	https://gitlab.gnome.org/GNOME/gupnp
+license	LGPL-2.1-or-later
+size	85806
+installed-size	232042
+depends	gsettings-desktop-schemas so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgssdp-1.6.so.0 so:libsoup-3.0.so.0 so:libxml2.so.2
+origin	gupnp
+repo	community
+file	gupnp-1.6.10-r0.apk
+checksum	Q1tM4BQ0T5W97FEAUdkgmkvkilD8A=
+dep	gsettings-desktop-schemas	gsettings-desktop-schemas
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgssdp-1.6.so.0	gssdp
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libxml2.so.2	libxml2

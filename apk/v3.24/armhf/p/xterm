@@ -1,0 +1,25 @@
+name	xterm
+version	410-r0
+description	X Terminal Emulator
+url	https://invisible-island.net/xterm
+license	MIT
+size	321449
+installed-size	727013
+depends	ncurses-terminfo-base so:libICE.so.6 so:libX11.so.6 so:libXaw.so.7 so:libXext.so.6 so:libXft.so.2 so:libXmu.so.6 so:libXpm.so.4 so:libXt.so.6 so:libc.musl-armhf.so.1 so:libfontconfig.so.1 so:libfreetype.so.6 so:libncursesw.so.6
+origin	xterm
+repo	community
+file	xterm-410-r0.apk
+checksum	Q1gqAr9Zus3KU6P4Rdu+w3ENpvS0s=
+dep	ncurses-terminfo-base	ncurses-terminfo-base
+dep	so:libICE.so.6	libice
+dep	so:libX11.so.6	libx11
+dep	so:libXaw.so.7	libxaw
+dep	so:libXext.so.6	libxext
+dep	so:libXft.so.2	libxft
+dep	so:libXmu.so.6	libxmu
+dep	so:libXpm.so.4	libxpm
+dep	so:libXt.so.6	libxt
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libncursesw.so.6	libncursesw

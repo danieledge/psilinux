@@ -1,0 +1,19 @@
+name	conntrack-tools
+version	1.4.9-r0
+description	Connection tracking userspace tools
+url	https://www.netfilter.org/projects/conntrack-tools/
+license	GPL-2.0-or-later
+size	136289
+installed-size	358203
+depends	so:libc.musl-armhf.so.1 so:libmnl.so.0 so:libnetfilter_conntrack.so.3 so:libnetfilter_cthelper.so.0 so:libnetfilter_cttimeout.so.1 so:libnetfilter_queue.so.1 so:libnfnetlink.so.0
+origin	conntrack-tools
+repo	main
+file	conntrack-tools-1.4.9-r0.apk
+checksum	Q1V36G54e8ejwHopTHnm3OvYEonEw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmnl.so.0	libmnl
+dep	so:libnetfilter_conntrack.so.3	libnetfilter_conntrack
+dep	so:libnetfilter_cthelper.so.0	libnetfilter_cthelper
+dep	so:libnetfilter_cttimeout.so.1	libnetfilter_cttimeout
+dep	so:libnetfilter_queue.so.1	libnetfilter_queue
+dep	so:libnfnetlink.so.0	libnfnetlink

@@ -1,0 +1,14 @@
+name	libidn2-dev
+version	2.3.8-r0
+description	Encode/Decode library for internationalized domain names (development files)
+url	https://www.gnu.org/software/libidn#libidn2
+license	GPL-2.0-or-later OR LGPL-3.0-or-later
+size	6103
+installed-size	14449
+depends	libidn2=2.3.8-r0 pkgconfig
+origin	libidn2
+repo	main
+file	libidn2-dev-2.3.8-r0.apk
+checksum	Q1MbVwvFL3h2ON2+/ceR28jW2giJE=
+dep	libidn2=2.3.8-r0	libidn2
+dep	pkgconfig	pkgconf

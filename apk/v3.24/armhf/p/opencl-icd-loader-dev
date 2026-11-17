@@ -1,0 +1,14 @@
+name	opencl-icd-loader-dev
+version	2.3.3-r0
+description	Generic OpenCL ICD Loader (development files)
+url	https://github.com/OCL-dev/ocl-icd
+license	BSD-2-Clause
+size	8190
+installed-size	58413
+depends	opencl-icd-loader=2.3.3-r0 pkgconfig
+origin	opencl-icd-loader
+repo	community
+file	opencl-icd-loader-dev-2.3.3-r0.apk
+checksum	Q1THHu+YIuxErgXpeGlOCeLA0bdsI=
+dep	opencl-icd-loader=2.3.3-r0	opencl-icd-loader
+dep	pkgconfig	pkgconf

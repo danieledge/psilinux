@@ -1,0 +1,14 @@
+name	libptytty
+version	2.0-r0
+description	OS independent pty/tty and utmp/wtmp/lastlog handling
+url	http://software.schmorp.de/pkg/libptytty.html
+license	GPL-2.0-or-later
+size	43149
+installed-size	99772
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	libptytty
+repo	community
+file	libptytty-2.0-r0.apk
+checksum	Q1fLBd8DwOhCEcfo8oFMizrjnqDdQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

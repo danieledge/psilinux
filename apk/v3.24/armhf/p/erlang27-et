@@ -1,0 +1,14 @@
+name	erlang27-et
+version	27.3.4.19-r0
+description	General-purpose programming language and runtime environment, version 27
+url	https://www.erlang.org/
+license	Apache-2.0
+size	189555
+installed-size	242836
+depends	erlang27=27.3.4.19-r0 erlang27-wx=27.3.4.19-r0
+origin	erlang27
+repo	community
+file	erlang27-et-27.3.4.19-r0.apk
+checksum	Q1/9hXT0GZnwhH03gxHSddiEyMqJY=
+dep	erlang27=27.3.4.19-r0	erlang27
+dep	erlang27-wx=27.3.4.19-r0	erlang27-wx

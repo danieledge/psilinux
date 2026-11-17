@@ -1,0 +1,13 @@
+name	libdvbcsa
+version	1.1.0-r2
+description	Free implementation of the DVB Common Scrambling Algorithm
+url	http://www.videolan.org/developers/libdvbcsa.html
+license	GPL-2.0-or-later
+size	25449
+installed-size	50296
+depends	so:libc.musl-armhf.so.1
+origin	libdvbcsa
+repo	community
+file	libdvbcsa-1.1.0-r2.apk
+checksum	Q1Gd76PgYMe4mE+NEP0wiYhmcVzjw=
+dep	so:libc.musl-armhf.so.1	musl

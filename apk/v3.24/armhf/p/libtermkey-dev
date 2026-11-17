@@ -1,0 +1,15 @@
+name	libtermkey-dev
+version	0.22-r4
+description	Library for easy processing of keyboard entry from terminal-based programs (development files)
+url	https://www.leonerd.org.uk/code/libtermkey
+license	MIT
+size	19486
+installed-size	40232
+depends	unibilium-dev libtermkey=0.22-r4 pkgconfig
+origin	libtermkey
+repo	community
+file	libtermkey-dev-0.22-r4.apk
+checksum	Q1SpM2VM/YUZ4QOzIkXBIi1YNEcRA=
+dep	unibilium-dev	unibilium-dev
+dep	libtermkey=0.22-r4	libtermkey
+dep	pkgconfig	pkgconf

@@ -1,0 +1,17 @@
+name	qt6-qtserialport-dev
+version	6.11.1-r0
+description	Provides access to hardware and virtual serial ports (development files)
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	23933
+installed-size	81550
+depends	qt6-qtbase-dev qt6-qtbase-private-dev qt6-qtserialport=6.11.1-r0 pc:Qt6Core pkgconfig
+origin	qt6-qtserialport
+repo	community
+file	qt6-qtserialport-dev-6.11.1-r0.apk
+checksum	Q1KkOdfuo/xmnoxT+lzfbUYy5esps=
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	qt6-qtbase-private-dev	qt6-qtbase-private-dev
+dep	qt6-qtserialport=6.11.1-r0	qt6-qtserialport
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

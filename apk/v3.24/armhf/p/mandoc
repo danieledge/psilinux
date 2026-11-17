@@ -1,0 +1,14 @@
+name	mandoc
+version	1.14.6-r15
+description	mandoc (formerly mdocml) UNIX manpage compiler toolset
+url	https://mandoc.bsd.lv/
+license	ISC
+size	184627
+installed-size	407224
+depends	so:libc.musl-armhf.so.1 so:libz.so.1
+origin	mandoc
+repo	main
+file	mandoc-1.14.6-r15.apk
+checksum	Q11fyUjNhKVVorjbcbgdquo3A72Hk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libz.so.1	zlib

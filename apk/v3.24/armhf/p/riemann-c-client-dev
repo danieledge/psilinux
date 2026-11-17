@@ -1,0 +1,15 @@
+name	riemann-c-client-dev
+version	2.2.2-r0
+description	A C client library for the Riemann monitoring system (development files)
+url	https://git.madhouse-project.org/algernon/riemann-c-client
+license	LGPL-3.0-or-later
+size	19260
+installed-size	69477
+depends	protobuf-c-dev riemann-c-client-libs=2.2.2-r0 pkgconfig
+origin	riemann-c-client
+repo	community
+file	riemann-c-client-dev-2.2.2-r0.apk
+checksum	Q1lsLclUBOTRTm8Nof5v5W0yCsZWY=
+dep	protobuf-c-dev	protobuf-c-dev
+dep	riemann-c-client-libs=2.2.2-r0	riemann-c-client-libs
+dep	pkgconfig	pkgconf

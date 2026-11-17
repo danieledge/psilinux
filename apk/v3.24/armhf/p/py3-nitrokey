@@ -1,0 +1,23 @@
+name	py3-nitrokey
+version	0.4.2-r2
+description	Nitrokey Python SDK
+url	https://github.com/Nitrokey/nitrokey-sdk-py
+license	Apache-2.0 AND MIT
+size	126926
+installed-size	533585
+depends	py3-crcmod py3-cryptography py3-fido2 py3-hidapi py3-hidapi py3-protobuf py3-requests py3-semver py3-pyserial py3-tlv8 python3~3.14
+origin	py3-nitrokey
+repo	community
+file	py3-nitrokey-0.4.2-r2.apk
+checksum	Q1p05ClvSI5tpcWRSnHRjYHnZkvFM=
+dep	py3-crcmod	py3-crcmod
+dep	py3-cryptography	py3-cryptography
+dep	py3-fido2	py3-fido2
+dep	py3-hidapi	py3-hidapi
+dep	py3-hidapi	py3-hidapi
+dep	py3-protobuf	py3-protobuf
+dep	py3-requests	py3-requests
+dep	py3-semver	py3-semver
+dep	py3-pyserial	py3-pyserial
+dep	py3-tlv8	py3-tlv8
+dep	python3~3.14	python3

@@ -1,0 +1,15 @@
+name	greetd-agreety
+version	0.10.3-r11
+description	Simple, text-based greeter
+url	https://git.sr.ht/~kennylevinsen/greetd
+license	GPL-3.0-only
+size	230003
+installed-size	429660
+depends	greetd=0.10.3-r11 !greetd-gtkgreet-config so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	greetd
+repo	community
+file	greetd-agreety-0.10.3-r11.apk
+checksum	Q1D8bedC3jrhIUQFVdfs6nj/JYp8w=
+dep	greetd=0.10.3-r11	greetd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

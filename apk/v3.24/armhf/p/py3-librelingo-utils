@@ -1,0 +1,16 @@
+name	py3-librelingo-utils
+version	2.6.2-r3
+description	Utilities to be used in LibreLingo-related-packages
+url	https://github.com/LibreLingo/LibreLingo
+license	AGPL-3.0-only
+size	4224
+installed-size	6566
+depends	py3-librelingo-types py3-regex python3 python3~3.14
+origin	py3-librelingo-utils
+repo	community
+file	py3-librelingo-utils-2.6.2-r3.apk
+checksum	Q1JG6sR6JIu93OCJQ0KYp8Bokqzlg=
+dep	py3-librelingo-types	py3-librelingo-types
+dep	py3-regex	py3-regex
+dep	python3	python3
+dep	python3~3.14	python3

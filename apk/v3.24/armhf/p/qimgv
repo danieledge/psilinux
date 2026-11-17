@@ -1,0 +1,23 @@
+name	qimgv
+version	1.0.2-r3
+description	Cross-platform image viewer with webm support
+url	https://github.com/easymodo/qimgv
+license	GPL-3.0-or-later
+size	553599
+installed-size	1407583
+depends	hicolor-icon-theme so:libQt6Core.so.6 so:libQt6Core5Compat.so.6 so:libQt6Gui.so.6 so:libQt6PrintSupport.so.6 so:libQt6Svg.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libexiv2.so.28 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	qimgv
+repo	community
+file	qimgv-1.0.2-r3.apk
+checksum	Q17S8Ncz3KC9kxrXv8tFsOULCtYtc=
+dep	hicolor-icon-theme	hicolor-icon-theme
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Core5Compat.so.6	qt6-qt5compat
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6PrintSupport.so.6	qt6-qtbase-x11
+dep	so:libQt6Svg.so.6	qt6-qtsvg
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexiv2.so.28	exiv2-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

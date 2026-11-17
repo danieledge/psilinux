@@ -1,0 +1,14 @@
+name	net-tools
+version	2.10-r3
+description	Linux networking base tools
+url	https://sourceforge.net/projects/net-tools/
+license	GPL-2.0-or-later
+size	134988
+installed-size	325752
+depends	mii-tool so:libc.musl-armhf.so.1
+origin	net-tools
+repo	main
+file	net-tools-2.10-r3.apk
+checksum	Q1ZxJTztgB5PnBca1YRYRw4yNyeXo=
+dep	mii-tool	mii-tool
+dep	so:libc.musl-armhf.so.1	musl

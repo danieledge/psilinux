@@ -1,0 +1,13 @@
+name	ocaml-result-dev
+version	1.5-r5
+description	Compatibility Result module (development files)
+url	https://github.com/janestreet/result
+license	BSD-3-Clause
+size	8040
+installed-size	16004
+depends	ocaml-result=1.5-r5
+origin	ocaml-result
+repo	community
+file	ocaml-result-dev-1.5-r5.apk
+checksum	Q189puIwQ4krAIOuioSahcsthoZVk=
+dep	ocaml-result=1.5-r5	ocaml-result

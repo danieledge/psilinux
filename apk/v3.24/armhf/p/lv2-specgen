@@ -1,0 +1,17 @@
+name	lv2-specgen
+version	1.18.10-r1
+description	extensible open standard for audio plugins (python specgen)
+url	https://lv2plug.in
+license	ISC
+size	55723
+installed-size	256950
+depends	py3-lxml py3-rdflib py3-markdown py3-pygments python3
+origin	lv2
+repo	community
+file	lv2-specgen-1.18.10-r1.apk
+checksum	Q1TybCYZ1MVXyTB+pXbRnzRTDsP68=
+dep	py3-lxml	py3-lxml
+dep	py3-rdflib	py3-rdflib
+dep	py3-markdown	py3-markdown
+dep	py3-pygments	py3-pygments
+dep	python3	python3

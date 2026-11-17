@@ -1,0 +1,16 @@
+name	openipmi-libs
+version	2.0.36-r1
+description	IPMI (Intelligent Platform Management Interface) library and tools (libraries)
+url	https://sourceforge.net/projects/openipmi/
+license	LGPL-2.0-or-later and GPL-2.0-or-later or BSD-3-Clause
+size	457678
+installed-size	1234996
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libglib-2.0.so.0 so:libncursesw.so.6
+origin	openipmi
+repo	community
+file	openipmi-libs-2.0.36-r1.apk
+checksum	Q1K8sB+2MDJJW+9WyGIFR+yDNiTXc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libglib-2.0.so.0	glib
+dep	so:libncursesw.so.6	libncursesw

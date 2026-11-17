@@ -1,0 +1,15 @@
+name	font-dejavu
+version	2.37-r6
+description	Font family based on the Bitstream Vera Fonts with a wider range of characters
+url	https://dejavu-fonts.github.io/
+license	Bitstream-Vera
+size	5394020
+installed-size	10230171
+depends	fontconfig encodings mkfontscale
+origin	font-dejavu
+repo	main
+file	font-dejavu-2.37-r6.apk
+checksum	Q1pgy3We8GkNdNzACSUI185RSsakg=
+dep	fontconfig	fontconfig
+dep	encodings	encodings
+dep	mkfontscale	mkfontscale

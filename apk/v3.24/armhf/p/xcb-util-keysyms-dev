@@ -1,0 +1,15 @@
+name	xcb-util-keysyms-dev
+version	0.4.1-r0
+description	X C-language Binding - X constants and keycodes (development files)
+url	https://xcb.freedesktop.org/
+license	MIT
+size	4888
+installed-size	6817
+depends	xcb-util-dev xcb-util-keysyms=0.4.1-r0 pkgconfig
+origin	xcb-util-keysyms
+repo	community
+file	xcb-util-keysyms-dev-0.4.1-r0.apk
+checksum	Q1Ee1byab2DskInEZXrJiaJZlL1Yk=
+dep	xcb-util-dev	xcb-util-dev
+dep	xcb-util-keysyms=0.4.1-r0	xcb-util-keysyms
+dep	pkgconfig	pkgconf

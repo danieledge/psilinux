@@ -1,0 +1,13 @@
+name	ddate
+version	0.2.2-r6
+description	Convert Gregorian dates to Discordian dates
+url	https://github.com/bo0ts/ddate
+license	Public-Domain
+size	5985
+installed-size	9608
+depends	so:libc.musl-armhf.so.1
+origin	ddate
+repo	main
+file	ddate-0.2.2-r6.apk
+checksum	Q1lvDLNoV+RCg46v2G33hfg3gbryM=
+dep	so:libc.musl-armhf.so.1	musl

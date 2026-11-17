@@ -1,0 +1,14 @@
+name	perl-http-tinyish-lwp
+version	0.19-r1
+description	HTTP::Tiny compatible HTTP client wrappers (LWP backend)
+url	https://metacpan.org/release/HTTP-Tinyish/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	2758
+installed-size	2942
+depends	perl-http-tinyish=0.19-r1 perl-lwp-protocol-https
+origin	perl-http-tinyish
+repo	community
+file	perl-http-tinyish-lwp-0.19-r1.apk
+checksum	Q19Te0ZJNWjSHQNDuQfrXGAbIW8rA=
+dep	perl-http-tinyish=0.19-r1	perl-http-tinyish
+dep	perl-lwp-protocol-https	perl-lwp-protocol-https

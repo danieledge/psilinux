@@ -1,0 +1,18 @@
+name	xfontsel
+version	1.1.1-r0
+description	Point and click selection of X11 font names
+url	https://xorg.freedesktop.org/
+license	MIT
+size	19024
+installed-size	35652
+depends	so:libX11.so.6 so:libXaw.so.7 so:libXmu.so.6 so:libXt.so.6 so:libc.musl-armhf.so.1 so:libintl.so.8
+origin	xfontsel
+repo	community
+file	xfontsel-1.1.1-r0.apk
+checksum	Q1b2gB6+EOdXYlN2QTgeXqMQLD3eg=
+dep	so:libX11.so.6	libx11
+dep	so:libXaw.so.7	libxaw
+dep	so:libXmu.so.6	libxmu
+dep	so:libXt.so.6	libxt
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libintl.so.8	libintl

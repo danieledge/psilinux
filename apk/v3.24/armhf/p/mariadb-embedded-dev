@@ -1,0 +1,14 @@
+name	mariadb-embedded-dev
+version	11.8.9-r0
+description	MariaDB as an embeddable library - development files
+url	https://www.mariadb.org/
+license	GPL-2.0-only
+size	1565
+installed-size	1
+depends	mariadb-common mariadb-embedded=11.8.9-r0
+origin	mariadb
+repo	main
+file	mariadb-embedded-dev-11.8.9-r0.apk
+checksum	Q1t17qnHbBtOoHEPOnv9SKp1iCou0=
+dep	mariadb-common	mariadb-common
+dep	mariadb-embedded=11.8.9-r0	mariadb-embedded

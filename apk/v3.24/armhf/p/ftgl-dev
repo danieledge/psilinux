@@ -1,0 +1,18 @@
+name	ftgl-dev
+version	2.4.0-r4
+description	freetype OpenGL layer (development files)
+url	https://github.com/frankheckenbach/ftgl
+license	MIT
+size	19941
+installed-size	131491
+depends	mesa-dev freeglut-dev bash ftgl=2.4.0-r4 pc:freetype2 pkgconfig
+origin	ftgl
+repo	community
+file	ftgl-dev-2.4.0-r4.apk
+checksum	Q15BJhIrWb3/ZpFTvDGxdDq2G7VxE=
+dep	mesa-dev	mesa-dev
+dep	freeglut-dev	freeglut-dev
+dep	bash	bash
+dep	ftgl=2.4.0-r4	ftgl
+dep	pc:freetype2	freetype-dev
+dep	pkgconfig	pkgconf

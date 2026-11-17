@@ -1,0 +1,20 @@
+name	mtd-utils
+version	2.2.1-r0
+description	Utilities for handling MTD devices, and for dealing with FTL, NFTL JFFS2, etc.
+url	http://www.linux-mtd.infradead.org/
+license	GPL-2.0-only
+size	395736
+installed-size	1158965
+depends	mtd-utils-flash mtd-utils-jffs mtd-utils-misc mtd-utils-nand mtd-utils-nor mtd-utils-ubi mtd-utils-dev so:libc.musl-armhf.so.1
+origin	mtd-utils
+repo	main
+file	mtd-utils-2.2.1-r0.apk
+checksum	Q1dXp/dMTlC0Bd86IfYRp8oFLmtRg=
+dep	mtd-utils-flash	mtd-utils-flash
+dep	mtd-utils-jffs	mtd-utils-jffs
+dep	mtd-utils-misc	mtd-utils-misc
+dep	mtd-utils-nand	mtd-utils-nand
+dep	mtd-utils-nor	mtd-utils-nor
+dep	mtd-utils-ubi	mtd-utils-ubi
+dep	mtd-utils-dev	mtd-utils-dev
+dep	so:libc.musl-armhf.so.1	musl

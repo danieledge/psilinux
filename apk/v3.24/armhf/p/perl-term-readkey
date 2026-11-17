@@ -1,0 +1,14 @@
+name	perl-term-readkey
+version	2.38-r12
+description	Change terminal modes, and perform non-blocking reads
+url	https://metacpan.org/release/TermReadKey/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	15086
+installed-size	32387
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-term-readkey
+repo	main
+file	perl-term-readkey-2.38-r12.apk
+checksum	Q1i+8wHXO7Ny5V4TpOgbYgp8v7B/o=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

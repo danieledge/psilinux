@@ -1,0 +1,14 @@
+name	perl-time-timegm
+version	0.01-r11
+description	UTC version of C<mktime()>
+url	https://metacpan.org/release/Time-timegm/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6569
+installed-size	9826
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-time-timegm
+repo	community
+file	perl-time-timegm-0.01-r11.apk
+checksum	Q1oFb/IeVor56ZcGaJT4XckC1sbis=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

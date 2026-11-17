@@ -1,0 +1,15 @@
+name	tcpdump
+version	4.99.6-r1
+description	Command-line packet analyzer
+url	https://www.tcpdump.org/
+license	BSD-3-Clause
+size	385660
+installed-size	897240
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libpcap.so.1
+origin	tcpdump
+repo	main
+file	tcpdump-4.99.6-r1.apk
+checksum	Q19rGtvymLv6S+z6Y3hfm1+PAljwQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libpcap.so.1	libpcap

@@ -1,0 +1,23 @@
+name	telepathy-farstream-dev
+version	0.6.2_git20190919-r1
+description	Telepathy GLib-based client library that uses Farstream to handle Call channels (development files)
+url	https://telepathy.freedesktop.org/components/telepathy-farstream/
+license	LGPL-2.1-or-later
+size	7958
+installed-size	37353
+depends	dbus-glib-dev telepathy-glib-dev gobject-introspection-dev telepathy-farstream=0.6.2_git20190919-r1 pc:dbus-glib-1>=0.73 pc:farstream-0.2 pc:glib-2.0>=2.10 pc:gobject-2.0>=2.10 pc:gstreamer-1.0 pc:telepathy-glib>=0.7.23 pkgconfig
+origin	telepathy-farstream
+repo	community
+file	telepathy-farstream-dev-0.6.2_git20190919-r1.apk
+checksum	Q1BOQAeaOymtdjPfjCwFHxu3ja3yM=
+dep	dbus-glib-dev	dbus-glib-dev
+dep	telepathy-glib-dev	telepathy-glib-dev
+dep	gobject-introspection-dev	gobject-introspection-dev
+dep	telepathy-farstream=0.6.2_git20190919-r1	telepathy-farstream
+dep	pc:dbus-glib-1>=0.73	dbus-glib-dev
+dep	pc:farstream-0.2	farstream-dev
+dep	pc:glib-2.0>=2.10	glib-dev
+dep	pc:gobject-2.0>=2.10	glib-dev
+dep	pc:gstreamer-1.0	gstreamer-dev
+dep	pc:telepathy-glib>=0.7.23	telepathy-glib-dev
+dep	pkgconfig	pkgconf

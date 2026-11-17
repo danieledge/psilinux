@@ -1,0 +1,13 @@
+name	raspberrypi-utils-ovmerge
+version	0.20260811-r0
+description	A tool for merging DT overlay source files (*-overlay.dts), flattening and sorting .dts files for easy comparison, displaying the include tree, etc.
+url	https://github.com/raspberrypi/utils
+license	BSD-3-Clause
+size	16934
+installed-size	66732
+depends	python3
+origin	raspberrypi-utils
+repo	community
+file	raspberrypi-utils-ovmerge-0.20260811-r0.apk
+checksum	Q1FB9tgMX9AidYZXHsd1+eM7tBVSc=
+dep	python3	python3

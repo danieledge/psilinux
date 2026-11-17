@@ -1,0 +1,15 @@
+name	log4cplus-unicode
+version	2.1.2-r0
+description	Logging Framework for C++ (Unicode)
+url	https://github.com/log4cplus/log4cplus
+license	Apache-2.0 AND BSD-2-Clause
+size	147282
+installed-size	403834
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	log4cplus
+repo	main
+file	log4cplus-unicode-2.1.2-r0.apk
+checksum	Q1cU8NFJm2pETMCnbMFrSD752Dhk0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

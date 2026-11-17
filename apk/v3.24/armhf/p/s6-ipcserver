@@ -1,0 +1,14 @@
+name	s6-ipcserver
+version	2.15.0.0-r0
+description	skarnet.org's small & secure supervision software suite.
+url	https://skarnet.org/software/s6/
+license	ISC
+size	13726
+installed-size	41852
+depends	so:libc.musl-armhf.so.1 so:libskarnet.so.2.15
+origin	s6
+repo	main
+file	s6-ipcserver-2.15.0.0-r0.apk
+checksum	Q1t8u1i+i1doAWkSYdF5QzKJJG6NM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libskarnet.so.2.15	skalibs-libs

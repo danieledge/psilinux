@@ -1,0 +1,14 @@
+name	apr-util-ldap
+version	1.6.4-r0
+description	The Apache Portable Runtime Utility Library - LDAP driver
+url	https://apr.apache.org/
+license	Apache-2.0
+size	5193
+installed-size	9480
+depends	so:libc.musl-armhf.so.1 so:libldap.so.2
+origin	apr-util
+repo	main
+file	apr-util-ldap-1.6.4-r0.apk
+checksum	Q1VKHeUw6rO4b1OB9Qkh0Q9Yhz8dU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libldap.so.2	libldap

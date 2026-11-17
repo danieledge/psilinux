@@ -1,0 +1,15 @@
+name	yubikey-touch-detector
+version	1.12.5-r16
+description	Tool to detect when your YubiKey is waiting for a touch
+url	https://github.com/maximbaz/yubikey-touch-detector
+license	ISC
+size	1869651
+installed-size	4497586
+depends	gpgme so:libc.musl-armhf.so.1 so:libgpgme.so.45
+origin	yubikey-touch-detector
+repo	community
+file	yubikey-touch-detector-1.12.5-r16.apk
+checksum	Q12gzRoZSJc6zCzDzfuYPgyiwu2G4=
+dep	gpgme	gpgme
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgpgme.so.45	gpgme

@@ -1,0 +1,13 @@
+name	salt-minion
+version	3007.13-r3
+description	Client component for Salt, a parallel remote execution system
+url	https://github.com/saltstack/salt
+license	Apache-2.0
+size	22641
+installed-size	68852
+depends	salt
+origin	salt
+repo	community
+file	salt-minion-3007.13-r3.apk
+checksum	Q1Mj2ahONhrWIwEDbGK40m9U46CPU=
+dep	salt	salt

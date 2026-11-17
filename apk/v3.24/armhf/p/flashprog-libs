@@ -1,0 +1,18 @@
+name	flashprog-libs
+version	1.5-r0
+description	A utility for identifying, reading, writing, verifying and erasing flash chips (libraries)
+url	https://flashprog.org
+license	GPL-2.0-or-later
+size	162213
+installed-size	796540
+depends	so:libc.musl-armhf.so.1 so:libftdi1.so.2 so:libgpiod.so.3 so:libjaylink.so.0 so:libpci.so.3 so:libusb-1.0.so.0
+origin	flashprog
+repo	community
+file	flashprog-libs-1.5-r0.apk
+checksum	Q17NVBn9zURhArqh6V0pgkpODns74=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libftdi1.so.2	libftdi1
+dep	so:libgpiod.so.3	libgpiod
+dep	so:libjaylink.so.0	libjaylink
+dep	so:libpci.so.3	pciutils-libs
+dep	so:libusb-1.0.so.0	libusb

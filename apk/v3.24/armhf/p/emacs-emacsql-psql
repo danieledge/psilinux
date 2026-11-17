@@ -1,0 +1,13 @@
+name	emacs-emacsql-psql
+version	3.1.1_git20240714-r1
+description	High-level SQL database frontend (PostgreSQL backend)
+url	https://github.com/magit/emacsql
+license	Unlicense
+size	5931
+installed-size	12482
+depends	emacs-emacsql=3.1.1_git20240714-r1
+origin	emacs-emacsql
+repo	community
+file	emacs-emacsql-psql-3.1.1_git20240714-r1.apk
+checksum	Q1b1P3T+RTjEsPVXjUSJYuuXNXi50=
+dep	emacs-emacsql=3.1.1_git20240714-r1	emacs-emacsql

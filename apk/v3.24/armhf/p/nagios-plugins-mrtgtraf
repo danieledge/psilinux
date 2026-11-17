@@ -1,0 +1,15 @@
+name	nagios-plugins-mrtgtraf
+version	2.5-r0
+description	Nagios plugin check_mrtgtraf
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	19760
+installed-size	38512
+depends	nagios-plugins so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-mrtgtraf-2.5-r0.apk
+checksum	Q1/HF23CjiL7X8sIZmK46QaJ44lz0=
+dep	nagios-plugins	nagios-plugins
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

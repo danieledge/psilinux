@@ -1,0 +1,15 @@
+name	tevent-dev
+version	0.17.1-r1
+description	The tevent library (development files)
+url	https://tevent.samba.org/
+license	LGPL-3.0-or-later
+size	22745
+installed-size	99233
+depends	tevent=0.17.1-r1 pc:talloc pkgconfig
+origin	tevent
+repo	main
+file	tevent-dev-0.17.1-r1.apk
+checksum	Q1Ha5Sx96Fms1yR2V6QYnLS3NPWik=
+dep	tevent=0.17.1-r1	tevent
+dep	pc:talloc	talloc-dev
+dep	pkgconfig	pkgconf

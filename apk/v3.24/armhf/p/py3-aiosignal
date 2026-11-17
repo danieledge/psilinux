@@ -1,0 +1,15 @@
+name	py3-aiosignal
+version	1.4.0-r1
+description	A list of registered asynchronous callbacks
+url	https://github.com/aio-libs/aiosignal
+license	Apache-2.0
+size	4542
+installed-size	5945
+depends	python3 py3-frozenlist python3~3.14
+origin	py3-aiosignal
+repo	community
+file	py3-aiosignal-1.4.0-r1.apk
+checksum	Q1l6WTPvEBkYX0IJ2NWCJAre2N3IQ=
+dep	python3	python3
+dep	py3-frozenlist	py3-frozenlist
+dep	python3~3.14	python3

@@ -1,0 +1,14 @@
+name	bctoolbox-dev
+version	5.3.81-r1
+description	Utilities library used by Belledonne Communications softwares like belle-sip, mediastreamer2 and linphone (development files)
+url	https://github.com/BelledonneCommunications/bctoolbox
+license	GPL-3.0-or-later
+size	35900
+installed-size	138587
+depends	bctoolbox=5.3.81-r1 pkgconfig
+origin	bctoolbox
+repo	main
+file	bctoolbox-dev-5.3.81-r1.apk
+checksum	Q1lyRkXSuIZg2EwDu2/FscLWareME=
+dep	bctoolbox=5.3.81-r1	bctoolbox
+dep	pkgconfig	pkgconf

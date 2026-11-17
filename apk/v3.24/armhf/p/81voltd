@@ -1,0 +1,19 @@
+name	81voltd
+version	1.2.0-r0
+description	Server-side implementation of IMS Data service on QMI/QRTR
+url	https://gitlab.postmarketos.org/modem/81voltd
+license	GPL-2.0-or-later
+size	12636
+installed-size	26920
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libmm-glib.so.0 so:libqmi-glib.so.5 so:libqrtr.so.1
+origin	81voltd
+repo	community
+file	81voltd-1.2.0-r0.apk
+checksum	Q1PrdDxQzE0NKFG0ABFMpPv/gnurg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libmm-glib.so.0	libmm-glib
+dep	so:libqmi-glib.so.5	libqmi
+dep	so:libqrtr.so.1	qrtr-libs

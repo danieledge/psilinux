@@ -1,0 +1,14 @@
+name	php83-fileinfo
+version	8.3.36-r0
+description	PHP83 extension: fileinfo
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	429938
+installed-size	8074619
+depends	php83-common so:libc.musl-armhf.so.1
+origin	php83
+repo	community
+file	php83-fileinfo-8.3.36-r0.apk
+checksum	Q1AU8N3EncooC1b+cQUFh1m5IPFR8=
+dep	php83-common	php83-common
+dep	so:libc.musl-armhf.so.1	musl

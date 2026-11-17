@@ -1,0 +1,16 @@
+name	mdbtools-odbc
+version	1.0.1-r2
+description	library for reading MS Access database files (ODBC driver for use with unixODBC)
+url	https://github.com/mdbtools/mdbtools
+license	GPL-2.0-or-later
+size	26162
+installed-size	63264
+depends	so:libc.musl-armhf.so.1 so:libmdb.so.3 so:libmdbsql.so.3 so:libodbcinst.so.2
+origin	mdbtools
+repo	community
+file	mdbtools-odbc-1.0.1-r2.apk
+checksum	Q1IZDlrB4S8t8vEFHmi4n+2bRXh4Q=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmdb.so.3	mdbtools
+dep	so:libmdbsql.so.3	mdbtools
+dep	so:libodbcinst.so.2	unixodbc

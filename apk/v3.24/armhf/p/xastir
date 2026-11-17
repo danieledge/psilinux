@@ -1,0 +1,21 @@
+name	xastir
+version	2.2.4-r1
+description	radio amateur mapping, tracking, messaging, weather, and Search & Rescue
+url	https://xastir.org
+license	GPL-2.0-or-later
+size	3316001
+installed-size	14399487
+depends	so:libX11.so.6 so:libXm.so.5 so:libXpm.so.4 so:libXt.so.6 so:libax25.so.1 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libpcre.so.1 so:libshp.so.4
+origin	xastir
+repo	community
+file	xastir-2.2.4-r1.apk
+checksum	Q1TYEuHOEids7hEuundafpY4FXUj4=
+dep	so:libX11.so.6	libx11
+dep	so:libXm.so.5	motif
+dep	so:libXpm.so.4	libxpm
+dep	so:libXt.so.6	libxt
+dep	so:libax25.so.1	libax25
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libpcre.so.1	pcre
+dep	so:libshp.so.4	shapelib

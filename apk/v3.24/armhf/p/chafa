@@ -1,0 +1,27 @@
+name	chafa
+version	1.18.2-r0
+description	Terminal graphics for the 21st century
+url	https://hpjansson.org/chafa
+license	LGPL-3.0-or-later
+size	84412
+installed-size	177628
+depends	so:libavif.so.16 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libchafa.so.0 so:libfreetype.so.6 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libheif.so.1 so:libjpeg.so.8 so:libjxl.so.0.11 so:libjxl_threads.so.0.11 so:librsvg-2.so.2 so:libtiff.so.6 so:libwebp.so.7 so:libwebpdemux.so.2
+origin	chafa
+repo	community
+file	chafa-1.18.2-r0.apk
+checksum	Q1gLMiG87JamBzMivcgMWVXOXnSWU=
+dep	so:libavif.so.16	libavif
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libchafa.so.0	chafa-libs
+dep	so:libfreetype.so.6	freetype
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libheif.so.1	libheif
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libjxl.so.0.11	libjxl
+dep	so:libjxl_threads.so.0.11	libjxl
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libtiff.so.6	tiff
+dep	so:libwebp.so.7	libwebp
+dep	so:libwebpdemux.so.2	libwebpdemux

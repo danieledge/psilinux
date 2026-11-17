@@ -1,0 +1,22 @@
+name	podofo-dev
+version	1.1.0-r0
+description	C++ library to work with the PDF file format (development files)
+url	https://podofo.sourceforge.net/
+license	GPL-2.0-only
+size	170217
+installed-size	833227
+depends	podofo=1.1.0-r0 pc:fontconfig pc:freetype2 pc:libjpeg pc:libpng pc:libssl pc:libtiff-4 pc:libxml-2.0 pc:zlib pkgconfig
+origin	podofo
+repo	community
+file	podofo-dev-1.1.0-r0.apk
+checksum	Q1Nha5jf4ZK2Sbme8jMjEF9cuZ4QY=
+dep	podofo=1.1.0-r0	podofo
+dep	pc:fontconfig	fontconfig-dev
+dep	pc:freetype2	freetype-dev
+dep	pc:libjpeg	libjpeg-turbo-dev
+dep	pc:libpng	libpng-dev
+dep	pc:libssl	openssl-dev
+dep	pc:libtiff-4	tiff-dev
+dep	pc:libxml-2.0	libxml2-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

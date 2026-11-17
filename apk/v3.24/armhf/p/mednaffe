@@ -1,0 +1,21 @@
+name	mednaffe
+version	0.9.3-r0
+description	front-end (GUI) for mednafen emulator
+url	https://github.com/AmatCoder/mednaffe
+license	GPL-3.0-only
+size	294785
+installed-size	3025393
+depends	mednafen gtk+3.0 so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0
+origin	mednaffe
+repo	community
+file	mednaffe-0.9.3-r0.apk
+checksum	Q1uiEn72mYYSZKnBYNB+nyldB/eeU=
+dep	mednafen	mednafen
+dep	gtk+3.0	gtk+3.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0

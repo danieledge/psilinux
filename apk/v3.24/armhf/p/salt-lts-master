@@ -1,0 +1,13 @@
+name	salt-lts-master
+version	3006.23-r1
+description	Management component for salt, a parallel remote execution system
+url	https://github.com/saltstack/salt
+license	Apache-2.0
+size	20466
+installed-size	58443
+depends	salt-lts
+origin	salt-lts
+repo	community
+file	salt-lts-master-3006.23-r1.apk
+checksum	Q1/XclhBXuNDM2Rh4IiVCmzeH10vw=
+dep	salt-lts	salt-lts

@@ -1,0 +1,14 @@
+name	ratbag-dev
+version	0.18-r1
+description	DBus daemon to configure input devices, mainly gaming mice (development files)
+url	https://github.com/libratbag/libratbag
+license	MIT
+size	4682
+installed-size	8436
+depends	ratbag=0.18-r1 pkgconfig
+origin	ratbag
+repo	community
+file	ratbag-dev-0.18-r1.apk
+checksum	Q1M6/WsKmnv6xEDrWLNy70dLc8Hkg=
+dep	ratbag=0.18-r1	ratbag
+dep	pkgconfig	pkgconf

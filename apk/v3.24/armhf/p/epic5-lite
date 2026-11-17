@@ -1,0 +1,16 @@
+name	epic5-lite
+version	3.0.3-r1
+description	Enhanced Programmable ircII Client, version 5 (dependency-lite variant)
+url	https://epicsol.org/
+license	BSD-3-Clause
+size	435533
+installed-size	961764
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libncursesw.so.6 so:libssl.so.3
+origin	epic5
+repo	community
+file	epic5-lite-3.0.3-r1.apk
+checksum	Q1dKlhZL10/x3fhqrB2D5kQLCQ8dY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libssl.so.3	libssl3

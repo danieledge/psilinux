@@ -1,0 +1,15 @@
+name	py3-xxhash
+version	3.5.0-r1
+description	Python Binding for xxHash
+url	https://github.com/ifduyue/python-xxhash
+license	BSD-2-Clause
+size	15745
+installed-size	41688
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libxxhash.so.0
+origin	py3-xxhash
+repo	community
+file	py3-xxhash-3.5.0-r1.apk
+checksum	Q1ZAWxTlJlxDhzDgqbR1cN3A246kY=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxxhash.so.0	libxxhash

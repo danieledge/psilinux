@@ -1,0 +1,15 @@
+name	postfix-ldap
+version	3.11.7-r0
+description	ldap map support for postfix
+url	https://www.postfix.org/
+license	IPL-1.0 EPL-2.0
+size	13439
+installed-size	25916
+depends	so:libc.musl-armhf.so.1 so:liblber.so.2 so:libldap.so.2
+origin	postfix
+repo	main
+file	postfix-ldap-3.11.7-r0.apk
+checksum	Q1C911hoyK7lXDE+GNz5Nh0pQfGCU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap

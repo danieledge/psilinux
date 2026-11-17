@@ -1,0 +1,16 @@
+name	libftdi1
+version	1.5-r5
+description	A library to talk to FTDI chips
+url	https://www.intra2net.com/en/developer/libftdi/download.php
+license	LGPL-2.1-or-later AND GPL-2.0-only
+size	34408
+installed-size	75499
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libconfuse.so.2 so:libusb-1.0.so.0
+origin	libftdi1
+repo	community
+file	libftdi1-1.5-r5.apk
+checksum	Q1sRDv06rJxOAJOhQBfKyXUwHruk0=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libconfuse.so.2	confuse
+dep	so:libusb-1.0.so.0	libusb

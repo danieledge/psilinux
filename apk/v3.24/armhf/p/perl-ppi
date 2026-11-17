@@ -1,0 +1,18 @@
+name	perl-ppi
+version	1.291-r0
+description	Parse, Analyze and Manipulate Perl (without perl)
+url	https://metacpan.org/pod/PPI
+license	Artistic-1.0-Perl
+size	133774
+installed-size	475420
+depends	perl perl-clone perl-params-util perl-safe-isa perl-task-weaken perl-yaml-pp
+origin	perl-ppi
+repo	community
+file	perl-ppi-1.291-r0.apk
+checksum	Q14cW50BEn9HkWX5cyni2i6jixtio=
+dep	perl	perl
+dep	perl-clone	perl-clone
+dep	perl-params-util	perl-params-util
+dep	perl-safe-isa	perl-safe-isa
+dep	perl-task-weaken	perl-task-weaken
+dep	perl-yaml-pp	perl-yaml-pp

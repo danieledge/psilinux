@@ -1,0 +1,14 @@
+name	libdovi-dev
+version	3.3.2-r0
+description	Library to read & write Dolby Vision metadata (development files)
+url	https://github.com/quietvoid/dovi_tool
+license	MIT
+size	6103
+installed-size	18795
+depends	libdovi=3.3.2-r0 pkgconfig
+origin	libdovi
+repo	community
+file	libdovi-dev-3.3.2-r0.apk
+checksum	Q14n12NOAy8aqKZ1UzBLCXQikbe6U=
+dep	libdovi=3.3.2-r0	libdovi
+dep	pkgconfig	pkgconf

@@ -1,0 +1,13 @@
+name	bzip3-static
+version	1.5.3-r0
+description	Better and stronger spiritual successor to BZip2 (static library)
+url	https://github.com/iczelia/bzip3
+license	LGPL-3.0-or-later
+size	31955
+installed-size	55400
+depends	bzip3-dev
+origin	bzip3
+repo	community
+file	bzip3-static-1.5.3-r0.apk
+checksum	Q1D2v7W8EB9nmM8VlCBUHl2vGYF1k=
+dep	bzip3-dev	bzip3-dev

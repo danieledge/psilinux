@@ -1,0 +1,15 @@
+name	py3-zict
+version	3.0.0-r3
+description	Mutable mapping tools
+url	http://zict.readthedocs.io/en/latest/
+license	BSD-3-Clause
+size	35851
+installed-size	133639
+depends	py3-heapdict py3-lmdb python3~3.14
+origin	py3-zict
+repo	community
+file	py3-zict-3.0.0-r3.apk
+checksum	Q1g/+4g+1U6BTu9a9Cx+g87R5KxpM=
+dep	py3-heapdict	py3-heapdict
+dep	py3-lmdb	py3-lmdb
+dep	python3~3.14	python3

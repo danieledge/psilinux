@@ -1,0 +1,30 @@
+name	jwm
+version	2.4.6-r2
+description	A lightweight window manager for the X11 Window System
+url	https://joewing.net/projects/jwm/
+license	MIT
+size	103041
+installed-size	205121
+depends	so:libX11.so.6 so:libXext.so.6 so:libXft.so.2 so:libXinerama.so.1 so:libXmu.so.6 so:libXpm.so.4 so:libXrender.so.1 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libjpeg.so.8 so:libpango-1.0.so.0 so:libpangoft2-1.0.so.0 so:libpangoxft-1.0.so.0 so:libpng16.so.16 so:librsvg-2.so.2
+origin	jwm
+repo	community
+file	jwm-2.4.6-r2.apk
+checksum	Q1L4+i30o5ttAsunwCy9691bbFSBo=
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXft.so.2	libxft
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libXmu.so.6	libxmu
+dep	so:libXpm.so.4	libxpm
+dep	so:libXrender.so.1	libxrender
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangoft2-1.0.so.0	pango
+dep	so:libpangoxft-1.0.so.0	pango
+dep	so:libpng16.so.16	libpng
+dep	so:librsvg-2.so.2	librsvg

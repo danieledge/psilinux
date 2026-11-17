@@ -1,0 +1,14 @@
+name	kamailio-sipdump
+version	6.0.6-r0
+description	Kamailio This module writes SIP traffic and some associated details into local files
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	31533
+installed-size	63252
+depends	kamailio so:libc.musl-armhf.so.1
+origin	kamailio
+repo	main
+file	kamailio-sipdump-6.0.6-r0.apk
+checksum	Q18sz0FYzEDB9Hg5hWK+NDWuaGtLk=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl

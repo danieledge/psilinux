@@ -1,0 +1,15 @@
+name	hwloc
+version	2.12.2-r0
+description	Portable abstraction of hierarchical hardware architectures
+url	https://www.open-mpi.org/
+license	BSD-3-Clause
+size	144738
+installed-size	307044
+depends	so:libc.musl-armhf.so.1 so:libudev.so.1 so:libxml2.so.2
+origin	hwloc
+repo	main
+file	hwloc-2.12.2-r0.apk
+checksum	Q1Djsx/4gQbYDlba1sVBwSyZwsCKI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libudev.so.1	eudev-libs
+dep	so:libxml2.so.2	libxml2

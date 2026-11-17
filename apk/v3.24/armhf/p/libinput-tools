@@ -1,0 +1,21 @@
+name	libinput-tools
+version	1.31.3-r0
+description	CLI helper tools for debugging libinput
+url	https://www.freedesktop.org/wiki/Software/libinput
+license	MIT
+size	102939
+installed-size	307441
+depends	libinput=1.31.3-r0 py3-libevdev py3-udev py3-yaml python3 so:libc.musl-armhf.so.1 so:libevdev.so.2 so:libinput.so.10 so:libudev.so.1
+origin	libinput
+repo	community
+file	libinput-tools-1.31.3-r0.apk
+checksum	Q1vX1EB1dSNUFv9hJpcJ0VBdaxX1w=
+dep	libinput=1.31.3-r0	libinput
+dep	py3-libevdev	py3-libevdev
+dep	py3-udev	py3-udev
+dep	py3-yaml	py3-yaml
+dep	python3	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevdev.so.2	libevdev
+dep	so:libinput.so.10	libinput-libs
+dep	so:libudev.so.1	eudev-libs

@@ -1,0 +1,15 @@
+name	libieee1284-dev
+version	0.2.11-r4
+description	A cross-platform library for parallel port access (development files)
+url	http://cyberelk.net/tim/libieee1284
+license	GPL-2.0-or-later
+size	8157
+installed-size	18960
+depends	libieee1284=0.2.11-r4 so:libc.musl-armhf.so.1 so:libieee1284.so.3
+origin	libieee1284
+repo	community
+file	libieee1284-dev-0.2.11-r4.apk
+checksum	Q1TrtYEcInXcyOgAR0LseMDmpcm9g=
+dep	libieee1284=0.2.11-r4	libieee1284
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libieee1284.so.3	libieee1284

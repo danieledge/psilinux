@@ -1,0 +1,18 @@
+name	libheif-x265
+version	1.23.7-r0
+description	libheif HEIC/HEVC (H.265) encoder plugin using x265
+url	https://www.libde265.org/
+license	LGPL-3.0-or-later
+size	20101
+installed-size	38396
+depends	libheif=1.23.7-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:libstdc++.so.6 so:libx265.so.215
+origin	libheif
+repo	community
+file	libheif-x265-1.23.7-r0.apk
+checksum	Q1XuHLHC6a44P7zRV/MY+AWJWqaxs=
+dep	libheif=1.23.7-r0	libheif
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libheif.so.1	libheif
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libx265.so.215	x265-libs

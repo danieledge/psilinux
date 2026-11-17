@@ -1,0 +1,17 @@
+name	libplacebo5-dev
+version	5.264.1-r8
+description	Reusable library for GPU-accelerated video/image rendering (v5) (development files)
+url	https://code.videolan.org/videolan/libplacebo
+license	LGPL-2.1-or-later
+size	127394
+installed-size	446681
+depends	!libplacebo-dev libplacebo5=5.264.1-r8 pc:lcms2>=2.9 pc:shaderc>=2019.1 pc:vulkan>=1.2.0 pkgconfig
+origin	libplacebo5
+repo	community
+file	libplacebo5-dev-5.264.1-r8.apk
+checksum	Q1qiztt/26zEcAcb2sIn9lPyO3q4Q=
+dep	libplacebo5=5.264.1-r8	libplacebo5
+dep	pc:lcms2>=2.9	lcms2-dev
+dep	pc:shaderc>=2019.1	shaderc-dev
+dep	pc:vulkan>=1.2.0	vulkan-loader-dev
+dep	pkgconfig	pkgconf

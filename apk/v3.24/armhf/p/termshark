@@ -1,0 +1,14 @@
+name	termshark
+version	2.4.0-r38
+description	terminal UI for tshark, inspired by Wireshark
+url	https://termshark.io
+license	MIT
+size	6764717
+installed-size	17506994
+depends	tshark so:libc.musl-armhf.so.1
+origin	termshark
+repo	community
+file	termshark-2.4.0-r38.apk
+checksum	Q1NIbqEjy6QSBb4GxA7Tcje7c77DE=
+dep	tshark	tshark
+dep	so:libc.musl-armhf.so.1	musl

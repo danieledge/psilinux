@@ -1,0 +1,14 @@
+name	py3-s3transfer
+version	0.16.0-r1
+description	Amazon S3 Transfer Manager for Python
+url	https://github.com/boto/s3transfer
+license	Apache-2.0
+size	73164
+installed-size	312925
+depends	py3-botocore python3~3.14
+origin	py3-s3transfer
+repo	community
+file	py3-s3transfer-0.16.0-r1.apk
+checksum	Q1EOoetqP/LTe1Daw7d8NjnSO7tas=
+dep	py3-botocore	py3-botocore
+dep	python3~3.14	python3

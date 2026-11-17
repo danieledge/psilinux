@@ -1,0 +1,13 @@
+name	java-common
+version	1.0-r2
+description	Java common (updates java links)
+url	https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/community/java-common
+license	GPL-2.0-or-later
+size	2038
+installed-size	1
+depends	/bin/sh
+origin	java-common
+repo	community
+file	java-common-1.0-r2.apk
+checksum	Q182g34GBH/ZjtDeueDouysYEJeIc=
+dep	/bin/sh	busybox-binsh

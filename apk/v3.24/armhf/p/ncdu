@@ -1,0 +1,14 @@
+name	ncdu
+version	1.22-r2
+description	Text-based disk usage viewer
+url	https://dev.yorhel.nl/ncdu
+license	MIT
+size	38137
+installed-size	75196
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	ncdu
+repo	main
+file	ncdu-1.22-r2.apk
+checksum	Q1Ryl33l+m1BdYplkh0OMnWDEgalc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

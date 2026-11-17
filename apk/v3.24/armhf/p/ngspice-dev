@@ -1,0 +1,14 @@
+name	ngspice-dev
+version	46-r0
+description	open source spice simulator for electric and electronic circuits (development files)
+url	https://ngspice.sourceforge.net/
+license	BSD-3-Clause
+size	19415
+installed-size	55742
+depends	ngspice=46-r0 pkgconfig
+origin	ngspice
+repo	community
+file	ngspice-dev-46-r0.apk
+checksum	Q1N5DDMtFRBYaQpfkwGCNYLWiHvJA=
+dep	ngspice=46-r0	ngspice
+dep	pkgconfig	pkgconf

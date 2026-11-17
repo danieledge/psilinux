@@ -1,0 +1,14 @@
+name	php85-pecl-excimer
+version	1.2.6-r0
+description	Interrupting timer and low-overhead sampling profiler PHP 8.5 - PECL
+url	https://pecl.php.net/package/excimer
+license	Apache-2.0
+size	20321
+installed-size	42298
+depends	php85-common so:libc.musl-armhf.so.1
+origin	php85-pecl-excimer
+repo	community
+file	php85-pecl-excimer-1.2.6-r0.apk
+checksum	Q1zHsFld8M3SaXcUeD5A0KWYgEi2w=
+dep	php85-common	php85-common
+dep	so:libc.musl-armhf.so.1	musl

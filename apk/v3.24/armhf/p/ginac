@@ -1,0 +1,17 @@
+name	ginac
+version	1.8.10-r0
+description	C++ library for symbolic computations
+url	https://www.ginac.de/
+license	GPL-2.0-or-later
+size	1185469
+installed-size	2916687
+depends	so:libc.musl-armhf.so.1 so:libcln.so.6 so:libgcc_s.so.1 so:libreadline.so.8 so:libstdc++.so.6
+origin	ginac
+repo	community
+file	ginac-1.8.10-r0.apk
+checksum	Q1iaHh+IWJGzkVeih8Ife1lUhqPVM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcln.so.6	cln
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libreadline.so.8	readline
+dep	so:libstdc++.so.6	libstdc++

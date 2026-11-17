@@ -1,0 +1,12 @@
+name	json-glib-dbg
+version	1.10.8-r0
+description	JSON library built on GLib (debug symbols)
+url	https://gitlab.gnome.org/GNOME/json-glib
+license	LGPL-2.1-or-later
+size	201270
+installed-size	486232
+depends	!json-glib-dev<1.10.8-r0 !json-glib-dev>1.10.8-r0 !json-glib-tests<1.10.8-r0 !json-glib-tests>1.10.8-r0 !json-glib<1.10.8-r0 !json-glib>1.10.8-r0
+origin	json-glib
+repo	community
+file	json-glib-dbg-1.10.8-r0.apk
+checksum	Q1+8d5Kq6CoFU4+0K2upjSQZDkBN0=

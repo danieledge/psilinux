@@ -1,0 +1,25 @@
+name	targetcli
+version	2.1.58-r4
+description	Administration shell for storage targets
+url	https://github.com/open-iscsi/targetcli-fb
+license	AGPL-3.0-or-later
+size	29685
+installed-size	125152
+depends	python3 py3-configobj py3-configshell py3-ethtool py3-parsing py3-rtslib py3-six py3-udev py3-dbus dbus py3-urwid py3-gobject3 python3~3.14
+origin	targetcli
+repo	community
+file	targetcli-2.1.58-r4.apk
+checksum	Q1nJY3zqTCATbdsOgK4hZOSmPYrto=
+dep	python3	python3
+dep	py3-configobj	py3-configobj
+dep	py3-configshell	py3-configshell
+dep	py3-ethtool	py3-ethtool
+dep	py3-parsing	py3-parsing
+dep	py3-rtslib	py3-rtslib
+dep	py3-six	py3-six
+dep	py3-udev	py3-udev
+dep	py3-dbus	py3-dbus
+dep	dbus	dbus
+dep	py3-urwid	py3-urwid
+dep	py3-gobject3	py3-gobject3
+dep	python3~3.14	python3

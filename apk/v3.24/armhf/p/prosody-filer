@@ -1,0 +1,14 @@
+name	prosody-filer
+version	1.0.3-r22
+description	Golang mod_http_upload_external server for Prosody and Ejabberd
+url	https://github.com/ThomasLeister/prosody-filer
+license	MIT
+size	2601647
+installed-size	6323668
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	prosody-filer
+repo	community
+file	prosody-filer-1.0.3-r22.apk
+checksum	Q1/QM6f3An50P1U9X0+AciwYyRuxQ=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	lua-gversion
+version	0.2.0-r4
+description	Lua library for Gentoo-style versioning format
+url	https://github.com/jirutka/gversion.lua
+license	MIT
+size	4467
+installed-size	7340
+depends	lua
+origin	lua-gversion
+repo	main
+file	lua-gversion-0.2.0-r4.apk
+checksum	Q1KQGErN5DhN38Eo4e2TDrbJ5WYBU=
+dep	lua	lua5.5

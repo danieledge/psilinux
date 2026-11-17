@@ -1,0 +1,13 @@
+name	exoscale
+version	1.93.0-r4
+description	Command-line tool for everything at Exoscale
+url	https://github.com/exoscale/cli
+license	Apache-2.0
+size	9298440
+installed-size	31971420
+depends	so:libc.musl-armhf.so.1
+origin	exoscale
+repo	community
+file	exoscale-1.93.0-r4.apk
+checksum	Q10fG0CmLqjYmRVIUTLGN9cIiFez8=
+dep	so:libc.musl-armhf.so.1	musl

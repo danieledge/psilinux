@@ -1,0 +1,15 @@
+name	perl-module-loader
+version	0.04-r1
+description	finding and loading modules in a given namespace
+url	https://metacpan.org/release/Module-Loader/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	4441
+installed-size	6020
+depends	perl perl-module-runtime perl-path-iterator-rule
+origin	perl-module-loader
+repo	community
+file	perl-module-loader-0.04-r1.apk
+checksum	Q1Z+kNjs+3l2a5nFpqx4OvAAF6lD4=
+dep	perl	perl
+dep	perl-module-runtime	perl-module-runtime
+dep	perl-path-iterator-rule	perl-path-iterator-rule

@@ -1,0 +1,34 @@
+name	tg_owt-dev
+version	0_git20250603-r1
+description	Telegram Desktop's fork of Google's WebRTC (development files)
+url	https://github.com/desktop-app/tg_owt
+license	BSD-3-Clause
+size	9858139
+installed-size	40614017
+depends	abseil-cpp-dev crc32c-dev libdrm-dev libepoxy-dev libsrtp-dev ffmpeg-dev mesa-dev glib-dev jpeg-dev openssl-dev>3 openh264-dev opus-dev pipewire-dev libvpx-dev libx11-dev libxcomposite-dev libxdamage-dev libxext-dev libxfixes-dev libxrender-dev libxrandr-dev libxtst-dev
+origin	tg_owt
+repo	community
+file	tg_owt-dev-0_git20250603-r1.apk
+checksum	Q12wT5xBjNi0F+AcKUsUgf1Nhquj0=
+dep	abseil-cpp-dev	abseil-cpp-dev
+dep	crc32c-dev	crc32c-dev
+dep	libdrm-dev	libdrm-dev
+dep	libepoxy-dev	libepoxy-dev
+dep	libsrtp-dev	libsrtp-dev
+dep	ffmpeg-dev	ffmpeg-dev
+dep	mesa-dev	mesa-dev
+dep	glib-dev	glib-dev
+dep	jpeg-dev	jpeg-dev
+dep	openssl-dev>3	openssl-dev
+dep	openh264-dev	openh264-dev
+dep	opus-dev	opus-dev
+dep	pipewire-dev	pipewire-dev
+dep	libvpx-dev	libvpx-dev
+dep	libx11-dev	libx11-dev
+dep	libxcomposite-dev	libxcomposite-dev
+dep	libxdamage-dev	libxdamage-dev
+dep	libxext-dev	libxext-dev
+dep	libxfixes-dev	libxfixes-dev
+dep	libxrender-dev	libxrender-dev
+dep	libxrandr-dev	libxrandr-dev
+dep	libxtst-dev	libxtst-dev

@@ -1,0 +1,15 @@
+name	orc-dev
+version	0.4.41-r0
+description	Oil Run-time Compiler (development files)
+url	https://gstreamer.freedesktop.org/modules/orc.html
+license	BSD-2-Clause
+size	36154
+installed-size	219803
+depends	orc-compiler=0.4.41-r0 orc=0.4.41-r0 pkgconfig
+origin	orc
+repo	main
+file	orc-dev-0.4.41-r0.apk
+checksum	Q1Q7ilWySbV9IXKhWO3/h/Shje4Ew=
+dep	orc-compiler=0.4.41-r0	orc-compiler
+dep	orc=0.4.41-r0	orc
+dep	pkgconfig	pkgconf

@@ -1,0 +1,16 @@
+name	scanssh
+version	2.1.4-r0
+description	Fast SSH server and open proxy scanner
+url	https://github.com/ofalk/scanssh
+license	BSD-3-Clause
+size	25428
+installed-size	50728
+depends	so:libc.musl-armhf.so.1 so:libdnet.so.1 so:libevent-2.1.so.7 so:libpcap.so.1
+origin	scanssh
+repo	community
+file	scanssh-2.1.4-r0.apk
+checksum	Q1NoK1SGgxXTHA10P0yHn012i5asM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdnet.so.1	libdnet
+dep	so:libevent-2.1.so.7	libevent
+dep	so:libpcap.so.1	libpcap

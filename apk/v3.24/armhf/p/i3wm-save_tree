@@ -1,0 +1,14 @@
+name	i3wm-save_tree
+version	4.24-r0
+description	Session export tool for i3wm
+url	https://i3wm.org
+license	BSD-3-Clause
+size	4669
+installed-size	7812
+depends	i3wm=4.24-r0 perl-anyevent-i3
+origin	i3wm
+repo	community
+file	i3wm-save_tree-4.24-r0.apk
+checksum	Q1GJv6HvgUPlJkltFHdymJNQEX3Nw=
+dep	i3wm=4.24-r0	i3wm
+dep	perl-anyevent-i3	perl-anyevent-i3

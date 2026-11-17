@@ -1,0 +1,13 @@
+name	libmilter
+version	1.0.2-r11
+description	Sendmail Mail Filter API (Milter)
+url	https://www.sendmail.com/sm/open_source
+license	Sendmail
+size	23748
+installed-size	46328
+depends	so:libc.musl-armhf.so.1
+origin	libmilter
+repo	main
+file	libmilter-1.0.2-r11.apk
+checksum	Q1EWpOgti2clM3BUgRUYpSwRX4prw=
+dep	so:libc.musl-armhf.so.1	musl

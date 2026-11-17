@@ -1,0 +1,15 @@
+name	libressl4.3-libtls
+version	4.3.1-r0
+description	libressl libtls library
+url	https://www.libressl.org/
+license	custom
+size	28271
+installed-size	62628
+depends	so:libc.musl-armhf.so.1 so:libressl:libcrypto.so.57 so:libressl:libssl.so.60
+origin	libressl
+repo	community
+file	libressl4.3-libtls-4.3.1-r0.apk
+checksum	Q11Ytdbu00TworwFKL4lHMuUuYz3Q=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libressl:libcrypto.so.57	libressl4.3-libcrypto
+dep	so:libressl:libssl.so.60	libressl4.3-libssl

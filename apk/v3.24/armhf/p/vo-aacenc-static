@@ -1,0 +1,13 @@
+name	vo-aacenc-static
+version	0.1.3-r3
+description	VisualOn AAC encoder from Android (static library)
+url	https://sourceforge.net/projects/opencore-amr/
+license	Apache-2.0
+size	65486
+installed-size	127204
+depends	vo-aacenc-dev
+origin	vo-aacenc
+repo	community
+file	vo-aacenc-static-0.1.3-r3.apk
+checksum	Q1LtXhY5saWD5CedH246sn+pbGpxQ=
+dep	vo-aacenc-dev	vo-aacenc-dev

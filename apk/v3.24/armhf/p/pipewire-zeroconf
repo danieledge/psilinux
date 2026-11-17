@@ -1,0 +1,18 @@
+name	pipewire-zeroconf
+version	1.6.8-r4
+description	Multimedia processing graphs - Zeroconf support
+url	https://pipewire.org/
+license	MIT
+size	94548
+installed-size	225116
+depends	so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libopus.so.0 so:libpipewire-0.3.so.0
+origin	pipewire
+repo	community
+file	pipewire-zeroconf-1.6.8-r4.apk
+checksum	Q1mnV9o1a3xwGtSH/sP4tU+9tcfZk=
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libopus.so.0	opus
+dep	so:libpipewire-0.3.so.0	pipewire-libs

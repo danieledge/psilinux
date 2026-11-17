@@ -1,0 +1,12 @@
+name	mutter-dbg
+version	50.2-r1
+description	clutter-based window manager and compositor (debug symbols)
+url	https://gitlab.gnome.org/GNOME/mutter
+license	GPL-2.0-or-later
+size	7998555
+installed-size	19211824
+depends	!mutter<50.2-r1 !mutter>50.2-r1
+origin	mutter
+repo	community
+file	mutter-dbg-50.2-r1.apk
+checksum	Q1e9ZoB205qHgO4O73yoxuKsCl+rs=

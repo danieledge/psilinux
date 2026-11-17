@@ -1,0 +1,14 @@
+name	lldpd-dev
+version	1.0.23-r0
+description	Implementation of IEEE 802.1ab (development files)
+url	https://lldpd.github.io/
+license	ISC
+size	21749
+installed-size	81581
+depends	lldpd=1.0.23-r0 pkgconfig
+origin	lldpd
+repo	community
+file	lldpd-dev-1.0.23-r0.apk
+checksum	Q1lkc5yR7mM8AoJrfxi4lKW7zfZV0=
+dep	lldpd=1.0.23-r0	lldpd
+dep	pkgconfig	pkgconf

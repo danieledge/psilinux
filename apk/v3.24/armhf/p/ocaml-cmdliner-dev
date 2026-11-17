@@ -1,0 +1,13 @@
+name	ocaml-cmdliner-dev
+version	1.1.1-r6
+description	Declarative definition of command line interfaces for OCaml (development files)
+url	https://erratique.ch/software/cmdliner
+license	ISC
+size	247005
+installed-size	692708
+depends	ocaml-cmdliner=1.1.1-r6
+origin	ocaml-cmdliner
+repo	community
+file	ocaml-cmdliner-dev-1.1.1-r6.apk
+checksum	Q1YmwT6posrBWOKRFksaznT3iC66Y=
+dep	ocaml-cmdliner=1.1.1-r6	ocaml-cmdliner

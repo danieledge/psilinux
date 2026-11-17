@@ -1,0 +1,20 @@
+name	networkmanager-bluetooth
+version	1.52.2-r0
+description	BlueTooth device plugin for NetworkManager
+url	https://networkmanager.dev
+license	GPL-2.0-or-later
+size	28207
+installed-size	58592
+depends	libnm=1.52.2-r0 dbus so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libnm-wwan.so
+origin	networkmanager
+repo	community
+file	networkmanager-bluetooth-1.52.2-r0.apk
+checksum	Q1WsKHB30Y5jBcZJ93ObvhjID25KA=
+dep	libnm=1.52.2-r0	libnm
+dep	dbus	dbus
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libnm-wwan.so	networkmanager-wwan

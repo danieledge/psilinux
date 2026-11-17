@@ -1,0 +1,14 @@
+name	ipcalc
+version	1.0.3-r1
+description	A modern IPv4/IPv6 ipcalc tool, assisting in network calculations in command line and as a tool for scripts.
+url	https://gitlab.com/ipcalc/ipcalc
+license	GPL-2.0-or-later
+size	20629
+installed-size	42208
+depends	libmaxminddb so:libc.musl-armhf.so.1
+origin	ipcalc
+repo	community
+file	ipcalc-1.0.3-r1.apk
+checksum	Q1mHS8ImsO499gorClqwvgB3eYWq0=
+dep	libmaxminddb	libmaxminddb
+dep	so:libc.musl-armhf.so.1	musl

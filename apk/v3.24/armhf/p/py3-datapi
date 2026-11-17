@@ -1,0 +1,17 @@
+name	py3-datapi
+version	0.4.0-r1
+description	ESEE Data Stores API Python Client
+url	https://github.com/ecmwf-projects/datapi
+license	Apache-2.0
+size	21243
+installed-size	91313
+depends	py3-attrs py3-requests py3-tqdm py3-setuptools_scm python3~3.14
+origin	py3-datapi
+repo	community
+file	py3-datapi-0.4.0-r1.apk
+checksum	Q1U1jGPzXfnOj1+JgovTPkvMsxpl8=
+dep	py3-attrs	py3-attrs
+dep	py3-requests	py3-requests
+dep	py3-tqdm	py3-tqdm
+dep	py3-setuptools_scm	py3-setuptools_scm
+dep	python3~3.14	python3

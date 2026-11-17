@@ -1,0 +1,15 @@
+name	oh-my-zsh
+version	0_git20260524-r0
+description	Delightful framework for managing zsh configurations including plugins and themes
+url	https://ohmyz.sh/
+license	MIT
+size	3326999
+installed-size	6859457
+depends	powerline-extra-symbols zsh /bin/sh
+origin	oh-my-zsh
+repo	community
+file	oh-my-zsh-0_git20260524-r0.apk
+checksum	Q1PTqg990eGJjYGMTx+MA9A4RskTk=
+dep	powerline-extra-symbols	powerline-extra-symbols
+dep	zsh	zsh
+dep	/bin/sh	busybox-binsh

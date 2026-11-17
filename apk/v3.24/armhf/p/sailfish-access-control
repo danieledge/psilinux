@@ -1,0 +1,16 @@
+name	sailfish-access-control
+version	0.0.12-r0
+description	A thin wrapper library on top of the getuid, getpwuid, getgrouplist, and friends
+url	https://github.com/sailfishos/sailfish-access-control
+license	LGPL-2.1-or-later
+size	5180
+installed-size	6696
+depends	pc:glib-2.0 pkgconfig so:libc.musl-armhf.so.1 so:libglib-2.0.so.0
+origin	sailfish-access-control
+repo	community
+file	sailfish-access-control-0.0.12-r0.apk
+checksum	Q1SNklk6tSA3DLzIAG6WathNs2dwQ=
+dep	pc:glib-2.0	glib-dev
+dep	pkgconfig	pkgconf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib

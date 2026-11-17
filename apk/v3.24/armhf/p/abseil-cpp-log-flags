@@ -1,0 +1,21 @@
+name	abseil-cpp-log-flags
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-log-flags
+url	https://abseil.io/
+license	Apache-2.0
+size	8522
+installed-size	18332
+depends	so:libabsl_flags_internal.so.2508.0.0 so:libabsl_flags_marshalling.so.2508.0.0 so:libabsl_flags_reflection.so.2508.0.0 so:libabsl_log_globals.so.2508.0.0 so:libabsl_strings.so.2508.0.0 so:libabsl_vlog_config_internal.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-log-flags-20250814.1-r0.apk
+checksum	Q1DN5qvnwP2XM9JVgiCMo7nF3zo7Q=
+dep	so:libabsl_flags_internal.so.2508.0.0	abseil-cpp-flags-internal
+dep	so:libabsl_flags_marshalling.so.2508.0.0	abseil-cpp-flags-marshalling
+dep	so:libabsl_flags_reflection.so.2508.0.0	abseil-cpp-flags-reflection
+dep	so:libabsl_log_globals.so.2508.0.0	abseil-cpp-log-globals
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libabsl_vlog_config_internal.so.2508.0.0	abseil-cpp-vlog-config-internal
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

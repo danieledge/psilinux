@@ -1,0 +1,14 @@
+name	lua5.2-b64
+version	0.1-r6
+description	Lua base64 implementation with support for urlsafe (for Lua 5.2)
+url	https://github.com/ncopa/lua-b64
+license	MIT
+size	4029
+installed-size	9396
+depends	lua5.2 so:libc.musl-armhf.so.1
+origin	lua-b64
+repo	main
+file	lua5.2-b64-0.1-r6.apk
+checksum	Q1ofFwguNtkUBo4HFzYwhMnfqzNEU=
+dep	lua5.2	lua5.2
+dep	so:libc.musl-armhf.so.1	musl

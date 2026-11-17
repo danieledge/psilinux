@@ -1,0 +1,15 @@
+name	libformw
+version	6.6_p20260516-r0
+description	Console display library (libformw)
+url	https://invisible-island.net/ncurses/
+license	X11
+size	24570
+installed-size	50928
+depends	ncurses-terminfo-base=6.6_p20260516-r0 so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	ncurses
+repo	main
+file	libformw-6.6_p20260516-r0.apk
+checksum	Q1lR9drxCmZ7aqzt5dY/YPUXweajM=
+dep	ncurses-terminfo-base=6.6_p20260516-r0	ncurses-terminfo-base
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

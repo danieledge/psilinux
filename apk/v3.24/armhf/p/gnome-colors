@@ -1,0 +1,20 @@
+name	gnome-colors
+version	5.5.1-r5
+description	gnome-colors icon themes meta package (all themes)
+url	https://github.com/gnome-colors/gnome-colors
+license	GPL-2.0-only
+size	1326
+installed-size	0
+depends	gnome-colors-common gnome-brave-icon-theme gnome-dust-icon-theme gnome-human-icon-theme gnome-illustrious-icon-theme gnome-noble-icon-theme gnome-wine-icon-theme gnome-wise-icon-theme
+origin	gnome-colors
+repo	community
+file	gnome-colors-5.5.1-r5.apk
+checksum	Q1j1DHyG0eVFKGpvRbe2kUy4UAhx8=
+dep	gnome-colors-common	gnome-colors-common
+dep	gnome-brave-icon-theme	gnome-brave-icon-theme
+dep	gnome-dust-icon-theme	gnome-dust-icon-theme
+dep	gnome-human-icon-theme	gnome-human-icon-theme
+dep	gnome-illustrious-icon-theme	gnome-illustrious-icon-theme
+dep	gnome-noble-icon-theme	gnome-noble-icon-theme
+dep	gnome-wine-icon-theme	gnome-wine-icon-theme
+dep	gnome-wise-icon-theme	gnome-wise-icon-theme

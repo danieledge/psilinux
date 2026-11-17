@@ -1,0 +1,18 @@
+name	bupstash
+version	0.12.0-r7
+description	Easy and efficient encrypted backups
+url	https://bupstash.io/
+license	MIT
+size	1034010
+installed-size	2105964
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblz4.so.1 so:libsodium.so.26 so:libsqlite3.so.0 so:libzstd.so.1
+origin	bupstash
+repo	community
+file	bupstash-0.12.0-r7.apk
+checksum	Q1v3t7+J/MiN2GBjjaY47NAhX2QKQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblz4.so.1	lz4-libs
+dep	so:libsodium.so.26	libsodium
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libzstd.so.1	zstd-libs

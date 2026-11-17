@@ -1,0 +1,13 @@
+name	barcode
+version	0.99-r1
+description	Convert text strings to printed bars in various standards
+url	https://www.gnu.org/software/barcode/
+license	GPL-3.0-or-later
+size	47163
+installed-size	94212
+depends	so:libc.musl-armhf.so.1
+origin	barcode
+repo	community
+file	barcode-0.99-r1.apk
+checksum	Q13eLreUUquTHg3MhfbIwnTVPOEyk=
+dep	so:libc.musl-armhf.so.1	musl

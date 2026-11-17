@@ -1,0 +1,15 @@
+name	py3-telethon
+version	1.43.2-r0
+description	Full-featured Telegram client library
+url	https://docs.telethon.dev/
+license	MIT
+size	710141
+installed-size	5484379
+depends	py3-pyaes py3-rsa python3~3.14
+origin	py3-telethon
+repo	community
+file	py3-telethon-1.43.2-r0.apk
+checksum	Q1O/dEcDzT1/znjhRnso4D2mvxauI=
+dep	py3-pyaes	py3-pyaes
+dep	py3-rsa	py3-rsa
+dep	python3~3.14	python3

@@ -1,0 +1,15 @@
+name	dovecot-mysql
+version	2.4.5-r0
+description	MySQL driver for Dovecot
+url	https://www.dovecot.org/
+license	MIT AND LGPL-2.1-or-later
+size	9700
+installed-size	21864
+depends	dovecot-sql=2.4.5-r0 so:libc.musl-armhf.so.1 so:libmariadb.so.3
+origin	dovecot
+repo	main
+file	dovecot-mysql-2.4.5-r0.apk
+checksum	Q1tGt2YVyW7pxDxxksqWPvUbuUd/Y=
+dep	dovecot-sql=2.4.5-r0	dovecot-sql
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmariadb.so.3	mariadb-connector-c

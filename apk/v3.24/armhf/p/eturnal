@@ -1,0 +1,19 @@
+name	eturnal
+version	1.12.2-r1
+description	STUN/TURN server
+url	https://eturnal.net
+license	Apache-2.0
+size	5601910
+installed-size	8274955
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libncursesw.so.6 so:libssl.so.3 so:libyaml-0.so.2 so:libz.so.1
+origin	eturnal
+repo	community
+file	eturnal-1.12.2-r1.apk
+checksum	Q1QlREOsiq/CECg2ku91Og3pmo3mY=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libssl.so.3	libssl3
+dep	so:libyaml-0.so.2	yaml
+dep	so:libz.so.1	zlib

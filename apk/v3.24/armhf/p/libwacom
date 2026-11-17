@@ -1,0 +1,19 @@
+name	libwacom
+version	2.17.0-r1
+description	Library to help implement Wacom tablet settings
+url	https://github.com/linuxwacom/libwacom/wiki
+license	MIT
+size	195349
+installed-size	1232331
+depends	eudev /bin/sh so:libc.musl-armhf.so.1 so:libevdev.so.2 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgudev-1.0.so.0
+origin	libwacom
+repo	community
+file	libwacom-2.17.0-r1.apk
+checksum	Q1N83OhBwuencu4jVRBu4CtacGbwI=
+dep	eudev	eudev
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevdev.so.2	libevdev
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgudev-1.0.so.0	libgudev

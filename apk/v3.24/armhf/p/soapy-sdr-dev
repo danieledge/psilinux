@@ -1,0 +1,14 @@
+name	soapy-sdr-dev
+version	0.8.1-r4
+description	Soapy SDR - vendor and platform neutral SDR support library (development files)
+url	https://github.com/pothosware/SoapySDR
+license	BSL-1.0
+size	36645
+installed-size	191530
+depends	soapy-sdr-libs=0.8.1-r4 pkgconfig
+origin	soapy-sdr
+repo	community
+file	soapy-sdr-dev-0.8.1-r4.apk
+checksum	Q1iFyaPFmb4RZj7pgKaaQXdyNwoX0=
+dep	soapy-sdr-libs=0.8.1-r4	soapy-sdr-libs
+dep	pkgconfig	pkgconf

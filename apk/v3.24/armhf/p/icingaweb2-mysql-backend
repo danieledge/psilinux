@@ -1,0 +1,14 @@
+name	icingaweb2-mysql-backend
+version	2.13.0-r1
+description	Icingaweb2 mysql backend
+url	https://icinga.com/docs/icinga-web-2/latest/doc/01-About/
+license	GPL-2.0-only
+size	3320
+installed-size	7671
+depends	icingaweb2 php85-pdo_mysql
+origin	icingaweb2
+repo	community
+file	icingaweb2-mysql-backend-2.13.0-r1.apk
+checksum	Q1WwDwXMT6Jg6As5hDBImw+R7CPQ0=
+dep	icingaweb2	icingaweb2
+dep	php85-pdo_mysql	php85-pdo_mysql

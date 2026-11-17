@@ -1,0 +1,13 @@
+name	gc-static
+version	8.2.12-r0
+description	garbage collector for C and C++ (static library)
+url	https://hboehm.info/gc/
+license	Boehm-GC
+size	444656
+installed-size	1026970
+depends	gc-dev
+origin	gc
+repo	main
+file	gc-static-8.2.12-r0.apk
+checksum	Q186S+oU2Q5aE768oRys+L+bq1ZaM=
+dep	gc-dev	gc-dev

@@ -1,0 +1,15 @@
+name	libfossil-apps
+version	0.20260124.1326-r1
+description	Unofficial Fossil SCM library (command-line apps)
+url	https://fossil.wanderinghorse.net/r/libfossil
+license	BSD-2-Clause
+size	92884
+installed-size	319836
+depends	libfossil=0.20260124.1326-r1 so:libc.musl-armhf.so.1 so:libfossil.so
+origin	libfossil
+repo	community
+file	libfossil-apps-0.20260124.1326-r1.apk
+checksum	Q1y0IrIdwcHZg5cT69M5QNK4OHLgA=
+dep	libfossil=0.20260124.1326-r1	libfossil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfossil.so	!

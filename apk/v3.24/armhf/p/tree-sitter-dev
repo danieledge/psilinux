@@ -1,0 +1,15 @@
+name	tree-sitter-dev
+version	0.26.7-r0
+description	Incremental parsing system for programming tools (development files)
+url	https://tree-sitter.github.io/
+license	MIT
+size	15135
+installed-size	48846
+depends	jq tree-sitter=0.26.7-r0 pkgconfig
+origin	tree-sitter
+repo	community
+file	tree-sitter-dev-0.26.7-r0.apk
+checksum	Q1z65wabUC79QqW7YcPt4nYfwNQjs=
+dep	jq	jq
+dep	tree-sitter=0.26.7-r0	tree-sitter
+dep	pkgconfig	pkgconf

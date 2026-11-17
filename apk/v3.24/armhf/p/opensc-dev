@@ -1,0 +1,18 @@
+name	opensc-dev
+version	0.26.1-r0
+description	Open source smart card tools and middleware (development files)
+url	https://github.com/OpenSC/OpenSC
+license	LGPL-2.1-or-later
+size	1150024
+installed-size	2876166
+depends	zlib-dev pcsc-lite-dev openssl-dev>3 readline-dev opensc=0.26.1-r0 pkgconfig
+origin	opensc
+repo	community
+file	opensc-dev-0.26.1-r0.apk
+checksum	Q1My0YZZq7Ah1PNW0iClFrC1yswv4=
+dep	zlib-dev	zlib-dev
+dep	pcsc-lite-dev	pcsc-lite-dev
+dep	openssl-dev>3	openssl-dev
+dep	readline-dev	readline-dev
+dep	opensc=0.26.1-r0	opensc
+dep	pkgconfig	pkgconf

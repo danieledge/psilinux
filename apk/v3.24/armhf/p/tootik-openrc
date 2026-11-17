@@ -1,0 +1,13 @@
+name	tootik-openrc
+version	0.21.1-r4
+description	Federated nanoblogging service with Gemini frontend (OpenRC init scripts)
+url	https://github.com/dimkr/tootik
+license	Apache-2.0
+size	3063
+installed-size	3310
+depends	openssl
+origin	tootik
+repo	community
+file	tootik-openrc-0.21.1-r4.apk
+checksum	Q1EvOqdWMd7pctslKZ7on3Maw9o6I=
+dep	openssl	openssl

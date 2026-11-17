@@ -1,0 +1,45 @@
+name	monado
+version	25.1.0-r0
+description	The open source OpenXR runtime
+url	https://monado.freedesktop.org
+license	BSL-1.0
+size	4926100
+installed-size	12068684
+depends	xr-hardware so:libSDL2-2.0.so.0 so:libX11-xcb.so.1 so:libX11.so.6 so:libbsd.so.0 so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libdrm.so.2 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstapp-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libhidapi-libusb.so.0 so:libjpeg.so.8 so:libopencv_calib3d.so.412 so:libopencv_core.so.412 so:libopencv_features2d.so.412 so:libopencv_highgui.so.412 so:libopencv_imgcodecs.so.412 so:libopencv_imgproc.so.412 so:libopencv_video.so.412 so:libopenhmd.so.0 so:libstdc++.so.6 so:libsurvive.so.0 so:libudev.so.1 so:libusb-1.0.so.0 so:libvulkan.so.1 so:libwayland-client.so.0 so:libxcb-randr.so.0 so:libxcb.so.1 so:libz.so.1
+origin	monado
+repo	community
+file	monado-25.1.0-r0.apk
+checksum	Q1CMoDvUouR/r2hfrAZOfRx4Js/ag=
+dep	xr-hardware	xr-hardware
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libX11-xcb.so.1	libx11
+dep	so:libX11.so.6	libx11
+dep	so:libbsd.so.0	libbsd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libdrm.so.2	libdrm
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstapp-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base
+dep	so:libhidapi-libusb.so.0	hidapi
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libopencv_calib3d.so.412	libopencv_calib3d
+dep	so:libopencv_core.so.412	libopencv_core
+dep	so:libopencv_features2d.so.412	libopencv_features2d
+dep	so:libopencv_highgui.so.412	libopencv_highgui
+dep	so:libopencv_imgcodecs.so.412	libopencv_imgcodecs
+dep	so:libopencv_imgproc.so.412	libopencv_imgproc
+dep	so:libopencv_video.so.412	libopencv_video
+dep	so:libopenhmd.so.0	openhmd
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libsurvive.so.0	libsurvive
+dep	so:libudev.so.1	eudev-libs
+dep	so:libusb-1.0.so.0	libusb
+dep	so:libvulkan.so.1	vulkan-loader
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libxcb-randr.so.0	libxcb
+dep	so:libxcb.so.1	libxcb
+dep	so:libz.so.1	zlib

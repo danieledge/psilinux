@@ -1,0 +1,13 @@
+name	libopensmtpd-dev
+version	1.0-r0
+description	Library for creating OpenSMTPD filters (development files)
+url	http://imperialat.at/dev/libopensmtpd/
+license	ISC
+size	3466
+installed-size	7228
+depends	libopensmtpd=1.0-r0
+origin	libopensmtpd
+repo	community
+file	libopensmtpd-dev-1.0-r0.apk
+checksum	Q1KvZEyzQFeyOT2LMSOxsCkF4JIa0=
+dep	libopensmtpd=1.0-r0	libopensmtpd

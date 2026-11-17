@@ -1,0 +1,22 @@
+name	g++-arm-none-eabi
+version	16.1.0-r0
+description	C++ compiler from the GNU Compiler Collection for arm-none-eabi targets
+url	https://gcc.gnu.org/
+license	GPL-3.0-or-later
+size	83862469
+installed-size	355198349
+depends	gcc binutils-arm-none-eabi newlib-arm-none-eabi gcc-arm-none-eabi~16.1.0 so:libc.musl-armhf.so.1 so:libgmp.so.10 so:libisl.so.23 so:libmpc.so.3 so:libmpfr.so.6 so:libz.so.1
+origin	g++-cross-embedded
+repo	community
+file	g++-arm-none-eabi-16.1.0-r0.apk
+checksum	Q1dL1MJ1JysCTC2uW9YzjpLUGy/X8=
+dep	gcc	gcc
+dep	binutils-arm-none-eabi	binutils-arm-none-eabi
+dep	newlib-arm-none-eabi	newlib-arm-none-eabi
+dep	gcc-arm-none-eabi~16.1.0	gcc-arm-none-eabi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgmp.so.10	gmp
+dep	so:libisl.so.23	isl25
+dep	so:libmpc.so.3	mpc1
+dep	so:libmpfr.so.6	mpfr4
+dep	so:libz.so.1	zlib

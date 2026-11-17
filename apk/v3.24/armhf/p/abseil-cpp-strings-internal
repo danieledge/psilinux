@@ -1,0 +1,16 @@
+name	abseil-cpp-strings-internal
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-strings-internal
+url	https://abseil.io/
+license	Apache-2.0
+size	6648
+installed-size	13696
+depends	so:libabsl_raw_logging_internal.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-strings-internal-20250814.1-r0.apk
+checksum	Q1QmO2C3yLs1soAfs2p/ZetGj1DwM=
+dep	so:libabsl_raw_logging_internal.so.2508.0.0	abseil-cpp-raw-logging-internal
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

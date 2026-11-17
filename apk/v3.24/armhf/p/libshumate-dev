@@ -1,0 +1,23 @@
+name	libshumate-dev
+version	1.6.2-r0
+description	GTK4 widget to display maps (development files)
+url	https://gitlab.gnome.org/GNOME/libshumate
+license	LGPL-2.1-or-later
+size	64479
+installed-size	608734
+depends	libshumate=1.6.2-r0 pc:cairo>=1.4 pc:gio-2.0>=2.74.0 pc:glib-2.0>=2.74.0 pc:gobject-2.0>=2.74.0 pc:gtk4 pc:json-glib-1.0>=1.6 pc:libprotobuf-c pc:libsoup-3.0>=3.0 pc:sqlite3>=1.12.0 pkgconfig
+origin	libshumate
+repo	community
+file	libshumate-dev-1.6.2-r0.apk
+checksum	Q1C9ogBlvAjWLD6yTT209qL4imCSg=
+dep	libshumate=1.6.2-r0	libshumate
+dep	pc:cairo>=1.4	cairo-dev
+dep	pc:gio-2.0>=2.74.0	glib-dev
+dep	pc:glib-2.0>=2.74.0	glib-dev
+dep	pc:gobject-2.0>=2.74.0	glib-dev
+dep	pc:gtk4	gtk4.0-dev
+dep	pc:json-glib-1.0>=1.6	json-glib-dev
+dep	pc:libprotobuf-c	protobuf-c-dev
+dep	pc:libsoup-3.0>=3.0	libsoup3-dev
+dep	pc:sqlite3>=1.12.0	sqlite-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	uwsgi-msgpack
+version	2.0.31-r2
+description	uWSGI plugin msgpack
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	5181
+installed-size	9540
+depends	uwsgi so:libc.musl-armhf.so.1
+origin	uwsgi
+repo	main
+file	uwsgi-msgpack-2.0.31-r2.apk
+checksum	Q1gSUQe84qpjhROAOJrpz48KJYfPQ=
+dep	uwsgi	uwsgi
+dep	so:libc.musl-armhf.so.1	musl

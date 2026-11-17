@@ -1,0 +1,40 @@
+name	freeswitch
+version	1.10.12-r6
+description	A communications platform written in C from the ground up
+url	https://www.freeswitch.org/
+license	MPL-1.1
+size	10474187
+installed-size	22700692
+depends	/bin/sh python3~3.14 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libedit.so.0 so:libgcc_s.so.1 so:libks2.so.2 so:libldns.so.3 so:liblua-5.3.so.0 so:libmp3lame.so.0 so:libmpg123.so.0 so:libncursesw.so.6 so:libodbc.so.2 so:libopus.so.0 so:libpcre.so.1 so:libportaudio.so.2 so:libpq.so.5 so:libshout.so.3 so:libsndfile.so.1 so:libsofia-sip-ua.so.0 so:libspandsp.so.3 so:libspeex.so.1 so:libspeexdsp.so.1 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libuuid.so.1
+origin	freeswitch
+repo	main
+file	freeswitch-1.10.12-r6.apk
+checksum	Q1hdKq1EhXbVUlee1uoSmd1THre/4=
+dep	/bin/sh	busybox-binsh
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libedit.so.0	libedit
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libks2.so.2	libks
+dep	so:libldns.so.3	ldns
+dep	so:liblua-5.3.so.0	lua5.3-libs
+dep	so:libmp3lame.so.0	lame-libs
+dep	so:libmpg123.so.0	mpg123-libs
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libodbc.so.2	unixodbc
+dep	so:libopus.so.0	opus
+dep	so:libpcre.so.1	pcre
+dep	so:libportaudio.so.2	portaudio
+dep	so:libpq.so.5	libpq
+dep	so:libshout.so.3	libshout
+dep	so:libsndfile.so.1	libsndfile
+dep	so:libsofia-sip-ua.so.0	sofia-sip
+dep	so:libspandsp.so.3	spandsp3
+dep	so:libspeex.so.1	speex
+dep	so:libspeexdsp.so.1	speexdsp
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libuuid.so.1	libuuid

@@ -1,0 +1,22 @@
+name	partclone
+version	0.3.47-r0
+description	utilities to save and restore used blocks on a partition
+url	https://partclone.org
+license	GPL-2.0-only
+size	1140439
+installed-size	2266776
+depends	so:libblkid.so.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libext2fs.so.2 so:libintl.so.8 so:libncursesw.so.6 so:libntfs-3g.so.89 so:liburcu.so.8 so:libuuid.so.1 so:libxxhash.so.0
+origin	partclone
+repo	community
+file	partclone-0.3.47-r0.apk
+checksum	Q1/RTX7EraykEdEMojH8c3wOqxLrE=
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libext2fs.so.2	e2fsprogs-libs
+dep	so:libintl.so.8	libintl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libntfs-3g.so.89	ntfs-3g-libs
+dep	so:liburcu.so.8	userspace-rcu
+dep	so:libuuid.so.1	libuuid
+dep	so:libxxhash.so.0	libxxhash

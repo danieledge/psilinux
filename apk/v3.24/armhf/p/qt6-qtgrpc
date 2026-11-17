@@ -1,0 +1,22 @@
+name	qt6-qtgrpc
+version	6.11.1-r0
+description	Providing protobuf and gRPC support for Qt
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	702625
+installed-size	2546107
+depends	so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libabsl_hash.so.2508.0.0 so:libabsl_raw_hash_set.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libprotobuf.so.31 so:libprotoc.so.31 so:libstdc++.so.6
+origin	qt6-qtgrpc
+repo	community
+file	qt6-qtgrpc-6.11.1-r0.apk
+checksum	Q1W50W2WL3TY85FvBs2D+U5OXi1oU=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libabsl_hash.so.2508.0.0	abseil-cpp-hash
+dep	so:libabsl_raw_hash_set.so.2508.0.0	abseil-cpp-raw-hash-set
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libprotobuf.so.31	libprotobuf
+dep	so:libprotoc.so.31	libprotoc
+dep	so:libstdc++.so.6	libstdc++

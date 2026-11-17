@@ -1,0 +1,13 @@
+name	grlx-farmer
+version	1.0.5-r18
+description	grlx control plane
+url	https://github.com/gogrlx/grlx
+license	0BSD
+size	14381188
+installed-size	29211716
+depends	/bin/sh
+origin	grlx
+repo	community
+file	grlx-farmer-1.0.5-r18.apk
+checksum	Q1P96BZppkjqMbFe27rQDPBsvBE6Y=
+dep	/bin/sh	busybox-binsh

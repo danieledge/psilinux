@@ -1,0 +1,15 @@
+name	abseil-cpp-strerror
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-strerror
+url	https://abseil.io/
+license	Apache-2.0
+size	4180
+installed-size	5452
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-strerror-20250814.1-r0.apk
+checksum	Q1dnkY+wDid2tqZTnYHFlKXsT3OHs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

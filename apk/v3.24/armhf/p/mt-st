@@ -1,0 +1,13 @@
+name	mt-st
+version	1.7-r0
+description	Linux SCSI tape driver aware magnetic tape control
+url	https://github.com/iustin/mt-st
+license	GPL-2.0-only
+size	17592
+installed-size	48716
+depends	so:libc.musl-armhf.so.1
+origin	mt-st
+repo	main
+file	mt-st-1.7-r0.apk
+checksum	Q1oYC9rOS1iodEWPIxV/CCZ5Azmpk=
+dep	so:libc.musl-armhf.so.1	musl

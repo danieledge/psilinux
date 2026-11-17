@@ -1,0 +1,13 @@
+name	libmustach-core
+version	1.2.10-r0
+description	C implementation of the mustache template specification (libmustach-core library)
+url	https://gitlab.com/jobol/mustach
+license	0BSD
+size	8423
+installed-size	13496
+depends	so:libc.musl-armhf.so.1
+origin	mustach
+repo	community
+file	libmustach-core-1.2.10-r0.apk
+checksum	Q1uVo80ctUz6lkqNa4HfO8ukvSf9Q=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,16 @@
+name	basisu
+version	1.16.4-r1
+description	Basis Universal GPU Texture Codec
+url	https://github.com/BinomialLLC/basis_universal
+license	Apache-2.0
+size	54941
+installed-size	120244
+depends	so:libbasisu.so.1.16.3 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	basisu
+repo	community
+file	basisu-1.16.4-r1.apk
+checksum	Q1pocmSb/aR+FhGevFOqEOc6WhGh0=
+dep	so:libbasisu.so.1.16.3	basisu-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

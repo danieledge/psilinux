@@ -1,0 +1,13 @@
+name	dmraid-dev
+version	1.0.0_rc16-r7
+description	Device mapper RAID interface (development files)
+url	https://people.redhat.com/~heinzm/sw/dmraid/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	11427
+installed-size	33780
+depends	dmraid=1.0.0_rc16-r7
+origin	dmraid
+repo	main
+file	dmraid-dev-1.0.0_rc16-r7.apk
+checksum	Q1sTrDI0GPmvAwOetUuAu5j2Nl7nI=
+dep	dmraid=1.0.0_rc16-r7	dmraid

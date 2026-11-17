@@ -1,0 +1,13 @@
+name	tree-sitter-yaml
+version	0.7.2-r0
+description	YAML grammar for tree-sitter
+url	https://github.com/tree-sitter-grammars/tree-sitter-yaml
+license	MIT
+size	37788
+installed-size	190574
+depends	so:libc.musl-armhf.so.1
+origin	tree-sitter-yaml
+repo	community
+file	tree-sitter-yaml-0.7.2-r0.apk
+checksum	Q1R5e76kl/8IakrA9d5LUgyb0+jBU=
+dep	so:libc.musl-armhf.so.1	musl

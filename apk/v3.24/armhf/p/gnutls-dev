@@ -1,0 +1,24 @@
+name	gnutls-dev
+version	3.8.13-r0
+description	TLS protocol implementation (development files)
+url	https://www.gnutls.org/
+license	LGPL-2.1-or-later
+size	74838
+installed-size	372339
+depends	gnutls-c++=3.8.13-r0 gnutls=3.8.13-r0 pc:hogweed pc:libbrotlidec pc:libbrotlienc pc:libidn2 pc:libtasn1 pc:libzstd pc:nettle pc:p11-kit-1 pc:zlib pkgconfig
+origin	gnutls
+repo	main
+file	gnutls-dev-3.8.13-r0.apk
+checksum	Q1dLzUFKQC1IS0+hyVyb60uRZJJkw=
+dep	gnutls-c++=3.8.13-r0	gnutls-c++
+dep	gnutls=3.8.13-r0	gnutls
+dep	pc:hogweed	nettle-dev
+dep	pc:libbrotlidec	brotli-dev
+dep	pc:libbrotlienc	brotli-dev
+dep	pc:libidn2	libidn2-dev
+dep	pc:libtasn1	libtasn1-dev
+dep	pc:libzstd	zstd-dev
+dep	pc:nettle	nettle-dev
+dep	pc:p11-kit-1	p11-kit-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

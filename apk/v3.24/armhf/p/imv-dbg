@@ -1,0 +1,12 @@
+name	imv-dbg
+version	5.0.1-r0
+description	Image viewer for X11/Wayland (debug symbols)
+url	https://sr.ht/~exec64/imv
+license	MIT
+size	270217
+installed-size	608004
+depends	!imv-wayland<5.0.1-r0 !imv-wayland>5.0.1-r0 !imv-x11<5.0.1-r0 !imv-x11>5.0.1-r0 !imv<5.0.1-r0 !imv>5.0.1-r0
+origin	imv
+repo	community
+file	imv-dbg-5.0.1-r0.apk
+checksum	Q1ju9LolA+srfQmbBDAbNpvifOKW8=

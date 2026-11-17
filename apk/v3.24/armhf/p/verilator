@@ -1,0 +1,14 @@
+name	verilator
+version	5.048-r0
+description	Convert Verilog and SystemVerilog to C++ or SystemC
+url	https://verilator.org
+license	LGPL-3.0-only
+size	9319926
+installed-size	27886249
+depends	perl so:libc.musl-armhf.so.1
+origin	verilator
+repo	community
+file	verilator-5.048-r0.apk
+checksum	Q1RAisoVesSoi+tfXvXCtaeDdv/DE=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

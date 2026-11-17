@@ -1,0 +1,16 @@
+name	imagemagick-heic
+version	7.1.2.35-r0
+description	Collection of tools and libraries for many image formats (HEIC support modules)
+url	https://imagemagick.org/
+license	ImageMagick
+size	20937
+installed-size	43439
+depends	so:libMagickCore-7.Q16HDRI.so.10 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libheif.so.1
+origin	imagemagick
+repo	community
+file	imagemagick-heic-7.1.2.35-r0.apk
+checksum	Q16EHF3YufCdViun2N/n25ksK9RxQ=
+dep	so:libMagickCore-7.Q16HDRI.so.10	imagemagick-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libheif.so.1	libheif

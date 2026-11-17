@@ -1,0 +1,13 @@
+name	bzip2-static
+version	1.0.8-r6
+description	A high-quality data compression program (static library)
+url	https://sourceware.org/bzip2/
+license	bzip2-1.0.6
+size	32974
+installed-size	71146
+depends	bzip2-dev
+origin	bzip2
+repo	main
+file	bzip2-static-1.0.8-r6.apk
+checksum	Q1DDqLSx61KUHyzQBGRdRYxb6pTBs=
+dep	bzip2-dev	bzip2-dev

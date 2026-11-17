@@ -1,0 +1,14 @@
+name	abseil-cpp-periodic-sampler
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-periodic-sampler
+url	https://abseil.io/
+license	Apache-2.0
+size	3483
+installed-size	5396
+depends	so:libabsl_exponential_biased.so.2508.0.0 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-periodic-sampler-20250814.1-r0.apk
+checksum	Q1HbUKzXZaAojLafNVz/yY0u9exJM=
+dep	so:libabsl_exponential_biased.so.2508.0.0	abseil-cpp-exponential-biased
+dep	so:libstdc++.so.6	libstdc++

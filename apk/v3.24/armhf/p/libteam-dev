@@ -1,0 +1,15 @@
+name	libteam-dev
+version	1.31-r8
+description	Library for controlling team network device (development files)
+url	http://libteam.org
+license	LGPL-2.1-or-later
+size	5061
+installed-size	14623
+depends	libteam=1.31-r8 pc:libnl-3.0 pkgconfig
+origin	libteam
+repo	community
+file	libteam-dev-1.31-r8.apk
+checksum	Q1pe+Bg/InftojMRnaDYbB6casUGA=
+dep	libteam=1.31-r8	libteam
+dep	pc:libnl-3.0	libnl3-dev
+dep	pkgconfig	pkgconf

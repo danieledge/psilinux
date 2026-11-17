@@ -1,0 +1,16 @@
+name	apache-mod-auth-ntlm-winbind
+version	0.1-r9
+description	Authentication module for Apache using NTLM protocol with winbind helper
+url	http://samba.org/ftp/unpacked/lorikeet/mod_auth_ntlm_winbind/
+license	Apache-2.0
+size	8770
+installed-size	17709
+depends	apache2 samba samba-winbind so:libc.musl-armhf.so.1
+origin	apache-mod-auth-ntlm-winbind
+repo	main
+file	apache-mod-auth-ntlm-winbind-0.1-r9.apk
+checksum	Q1L+vAi9hG2qRxetp5/utEGA8Tc2k=
+dep	apache2	apache2
+dep	samba	samba
+dep	samba-winbind	samba-winbind
+dep	so:libc.musl-armhf.so.1	musl

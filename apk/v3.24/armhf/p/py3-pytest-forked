@@ -1,0 +1,14 @@
+name	py3-pytest-forked
+version	1.6.0-r4
+description	extracted --boxed from pytest-xdist to ensure backward compat
+url	https://github.com/pytest-dev/pytest-forked
+license	MIT
+size	6134
+installed-size	9209
+depends	py3-pytest python3~3.14
+origin	py3-pytest-forked
+repo	main
+file	py3-pytest-forked-1.6.0-r4.apk
+checksum	Q1fcm6jORa/xadD3i9FRhJQgy2LXI=
+dep	py3-pytest	py3-pytest
+dep	python3~3.14	python3

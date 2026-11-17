@@ -1,0 +1,15 @@
+name	libsepol-dev
+version	3.10-r0
+description	SELinux binary policy manipulation library (development files)
+url	https://github.com/SELinuxProject/selinux/wiki
+license	LGPL-2.0-or-later
+size	445482
+installed-size	1251907
+depends	bsd-compat-headers libsepol=3.10-r0 pkgconfig
+origin	libsepol
+repo	community
+file	libsepol-dev-3.10-r0.apk
+checksum	Q1RfMl8ytLRS2VS9Qv+Eu5F5x3D9E=
+dep	bsd-compat-headers	bsd-compat-headers
+dep	libsepol=3.10-r0	libsepol
+dep	pkgconfig	pkgconf

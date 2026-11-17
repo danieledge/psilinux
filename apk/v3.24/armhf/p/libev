@@ -1,0 +1,13 @@
+name	libev
+version	4.33-r1
+description	event dispatch library
+url	http://software.schmorp.de/pkg/libev.html
+license	BSD-2-Clause OR GPL-2.0-or-later
+size	21814
+installed-size	42108
+depends	so:libc.musl-armhf.so.1
+origin	libev
+repo	main
+file	libev-4.33-r1.apk
+checksum	Q15eiYX3aWbLg3q1m3cH0n/EmVhwo=
+dep	so:libc.musl-armhf.so.1	musl

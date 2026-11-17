@@ -1,0 +1,15 @@
+name	fbkeyboard
+version	0.5-r0
+description	Framebuffer softkeyboard for use on devices with touchscreen input like smartphones
+url	https://github.com/ph0nix-foss/fbkeyboard
+license	GPL-3.0-or-later
+size	9910
+installed-size	17972
+depends	font-dejavu so:libc.musl-armhf.so.1 so:libfreetype.so.6
+origin	fbkeyboard
+repo	community
+file	fbkeyboard-0.5-r0.apk
+checksum	Q1NV9/nOmzzhUMJGUh2diNpzaOGZA=
+dep	font-dejavu	font-dejavu
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreetype.so.6	freetype

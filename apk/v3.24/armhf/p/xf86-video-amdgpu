@@ -1,0 +1,17 @@
+name	xf86-video-amdgpu
+version	23.0.0-r3
+description	AMD Rx/HDxxxx video driver
+url	https://xorg.freedesktop.org
+license	MIT
+size	56288
+installed-size	113774
+depends	mesa-dri-gallium so:libc.musl-armhf.so.1 so:libdrm_amdgpu.so.1 so:libgbm.so.1 so:libudev.so.1
+origin	xf86-video-amdgpu
+repo	community
+file	xf86-video-amdgpu-23.0.0-r3.apk
+checksum	Q1kNlcSkj45+et2rjtQ6syO+VbHXA=
+dep	mesa-dri-gallium	mesa-dri-gallium
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm_amdgpu.so.1	libdrm
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libudev.so.1	eudev-libs

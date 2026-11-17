@@ -1,0 +1,15 @@
+name	libxshmfence-dev
+version	1.3.3-r0
+description	X11 shared memory fences (development files)
+url	https://www.x.org/
+license	MIT
+size	2863
+installed-size	1957
+depends	linux-headers libxshmfence=1.3.3-r0 pkgconfig
+origin	libxshmfence
+repo	main
+file	libxshmfence-dev-1.3.3-r0.apk
+checksum	Q1Mw+aB7aD16sPB4duzpFnSE09ddc=
+dep	linux-headers	linux-headers
+dep	libxshmfence=1.3.3-r0	libxshmfence
+dep	pkgconfig	pkgconf

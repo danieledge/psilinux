@@ -1,0 +1,25 @@
+name	geoclue
+version	2.8.1-r0
+description	dbus geolocation service
+url	https://gitlab.freedesktop.org/geoclue/geoclue/-/wikis/home
+license	LGPL-2.1-or-later
+size	168951
+installed-size	463432
+depends	/bin/sh so:libavahi-client.so.3 so:libavahi-common.so.3 so:libavahi-glib.so.1 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libmm-glib.so.0 so:libnotify.so.4 so:libsoup-3.0.so.0
+origin	geoclue
+repo	community
+file	geoclue-2.8.1-r0.apk
+checksum	Q1hkNjdm5GMEg6pDGcWBY2yIVoZQk=
+dep	/bin/sh	busybox-binsh
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libavahi-glib.so.1	avahi-glib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libmm-glib.so.0	libmm-glib
+dep	so:libnotify.so.4	libnotify
+dep	so:libsoup-3.0.so.0	libsoup3

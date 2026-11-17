@@ -1,0 +1,17 @@
+name	gdal-driver-mysql
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (MySQL driver)
+url	https://gdal.org/
+license	MIT
+size	30570
+installed-size	71064
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libmariadb.so.3 so:libstdc++.so.6
+origin	gdal
+repo	community
+file	gdal-driver-mysql-3.13.3-r0.apk
+checksum	Q1dwDjMOtpWXkufsT+LYboDDzWp64=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libmariadb.so.3	mariadb-connector-c
+dep	so:libstdc++.so.6	libstdc++

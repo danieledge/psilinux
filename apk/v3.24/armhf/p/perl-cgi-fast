@@ -1,0 +1,15 @@
+name	perl-cgi-fast
+version	2.17-r2
+description	CGI Interface for Fast CGI
+url	https://metacpan.org/release/CGI-Fast/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	5489
+installed-size	9633
+depends	perl perl-cgi perl-fcgi
+origin	perl-cgi-fast
+repo	main
+file	perl-cgi-fast-2.17-r2.apk
+checksum	Q1hEoGxZc4h4addPMSBZ7I4C+DkeI=
+dep	perl	perl
+dep	perl-cgi	perl-cgi
+dep	perl-fcgi	perl-fcgi

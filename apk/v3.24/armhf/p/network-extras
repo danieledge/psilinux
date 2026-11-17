@@ -1,0 +1,27 @@
+name	network-extras
+version	2.1-r0
+description	Meta package to pull in ppp, vlan, bonding, bridge and wifi support
+url	https://alpinelinux.org/
+license	GPL-2.0-only
+size	1370
+installed-size	0
+depends	bridge bonding vlan wpa_supplicant iw ppp-atm ppp-chat ppp-daemon ppp-l2tp ppp-minconn ppp-passwordfd ppp-pppoe ppp-radius ppp-winbind usb-modeswitch
+origin	network-extras
+repo	main
+file	network-extras-2.1-r0.apk
+checksum	Q1oIUzzeBelHBmigAVq9jasrcG8R0=
+dep	bridge	bridge
+dep	bonding	bonding
+dep	vlan	vlan
+dep	wpa_supplicant	wpa_supplicant
+dep	iw	iw
+dep	ppp-atm	ppp-atm
+dep	ppp-chat	ppp-chat
+dep	ppp-daemon	ppp-daemon
+dep	ppp-l2tp	ppp-l2tp
+dep	ppp-minconn	ppp-minconn
+dep	ppp-passwordfd	ppp-passwordfd
+dep	ppp-pppoe	ppp-pppoe
+dep	ppp-radius	ppp-radius
+dep	ppp-winbind	ppp-winbind
+dep	usb-modeswitch	usb-modeswitch

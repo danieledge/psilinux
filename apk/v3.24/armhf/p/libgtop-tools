@@ -1,0 +1,16 @@
+name	libgtop-tools
+version	2.41.3-r1
+description	GNOME top library SETUID server for unsupported platforms
+url	https://www.gnome.org/
+license	LGPL-2.1-or-later
+size	12953
+installed-size	35212
+depends	so:libXau.so.6 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgtop-2.0.so.11
+origin	libgtop
+repo	community
+file	libgtop-tools-2.41.3-r1.apk
+checksum	Q1d6DIrdIKJ8VceqNPrdco/vQcQ/w=
+dep	so:libXau.so.6	libxau
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgtop-2.0.so.11	libgtop

@@ -1,0 +1,14 @@
+name	sway-contrib
+version	1.11-r1
+description	A collection of user-contributed scripts for Sway
+url	https://github.com/OctopusET/sway-contrib
+license	MIT
+size	12484
+installed-size	33570
+depends	python3 py3-i3ipc
+origin	sway-contrib
+repo	community
+file	sway-contrib-1.11-r1.apk
+checksum	Q1nFtVvxFnbPmqFXiJbRLFFgpXmxc=
+dep	python3	python3
+dep	py3-i3ipc	py3-i3ipc

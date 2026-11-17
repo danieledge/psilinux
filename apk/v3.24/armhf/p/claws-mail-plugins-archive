@@ -1,0 +1,19 @@
+name	claws-mail-plugins-archive
+version	4.4.0-r0
+description	Archiving features for Claws Mail
+url	https://www.claws-mail.org
+license	GPL-3.0-or-later
+size	23234
+installed-size	51703
+depends	claws-mail=4.4.0-r0 so:libarchive.so.13 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8
+origin	claws-mail
+repo	community
+file	claws-mail-plugins-archive-4.4.0-r0.apk
+checksum	Q1hpdIRw+C7PuX+hl5RLE/UqWQ9mQ=
+dep	claws-mail=4.4.0-r0	claws-mail
+dep	so:libarchive.so.13	libarchive
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl

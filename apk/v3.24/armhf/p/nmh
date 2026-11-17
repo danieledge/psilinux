@@ -1,0 +1,18 @@
+name	nmh
+version	1.8-r3
+description	Powerful electronic mail handling system
+url	https://www.nongnu.org/nmh/
+license	BSD-3-Clause
+size	2636651
+installed-size	5442468
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgdbm_compat.so.4 so:libncursesw.so.6 so:libreadline.so.8 so:libssl.so.3
+origin	nmh
+repo	community
+file	nmh-1.8-r3.apk
+checksum	Q114MIhTtovGOM78oEAFCG+bKnw10=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgdbm_compat.so.4	gdbm
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libreadline.so.8	readline
+dep	so:libssl.so.3	libssl3

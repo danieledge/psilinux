@@ -1,0 +1,16 @@
+name	pngquant
+version	3.0.3-r0
+description	Lossy PNG compressor
+url	https://pngquant.org/
+license	GPL-3.0-or-later
+size	309887
+installed-size	568992
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblcms2.so.2 so:libpng16.so.16
+origin	pngquant
+repo	community
+file	pngquant-3.0.3-r0.apk
+checksum	Q1MW9zMjApXz/Li9tGMMGZiIz3oeo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblcms2.so.2	lcms2
+dep	so:libpng16.so.16	libpng

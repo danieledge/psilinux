@@ -1,0 +1,24 @@
+name	openbox-dev
+version	3.6.1-r8
+description	A highly configurable and standards-compliant X11 window manager (development files)
+url	http://openbox.org
+license	GPL-2.0-or-later
+size	17022
+installed-size	63814
+depends	libxcursor-dev libxinerama-dev libxrandr-dev startup-notification-dev openbox-libs=3.6.1-r8 pc:glib-2.0 pc:imlib2 pc:librsvg-2.0 pc:libxml-2.0 pc:pangoxft pc:xft pkgconfig
+origin	openbox
+repo	community
+file	openbox-dev-3.6.1-r8.apk
+checksum	Q1VHxgySe7QGrGkgWdOsz3yb7P90E=
+dep	libxcursor-dev	libxcursor-dev
+dep	libxinerama-dev	libxinerama-dev
+dep	libxrandr-dev	libxrandr-dev
+dep	startup-notification-dev	startup-notification-dev
+dep	openbox-libs=3.6.1-r8	openbox-libs
+dep	pc:glib-2.0	glib-dev
+dep	pc:imlib2	imlib2-dev
+dep	pc:librsvg-2.0	librsvg-dev
+dep	pc:libxml-2.0	libxml2-dev
+dep	pc:pangoxft	pango-dev
+dep	pc:xft	libxft-dev
+dep	pkgconfig	pkgconf

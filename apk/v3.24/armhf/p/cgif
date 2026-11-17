@@ -1,0 +1,13 @@
+name	cgif
+version	0.5.4-r0
+description	Fast and lightweight GIF encoder written in C
+url	https://github.com/dloebl/cgif
+license	MIT
+size	8679
+installed-size	13484
+depends	so:libc.musl-armhf.so.1
+origin	cgif
+repo	community
+file	cgif-0.5.4-r0.apk
+checksum	Q1wlnkW6ocOvPrPkM0E3sah9H/W/E=
+dep	so:libc.musl-armhf.so.1	musl

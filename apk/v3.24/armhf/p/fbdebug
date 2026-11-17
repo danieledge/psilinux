@@ -1,0 +1,13 @@
+name	fbdebug
+version	1.0.1-r0
+description	Framebuffer debugging tool
+url	https://gitlab.postmarketos.org/postmarketOS/fbdebug
+license	GPL-3.0-or-later
+size	5411
+installed-size	9388
+depends	so:libc.musl-armhf.so.1
+origin	fbdebug
+repo	community
+file	fbdebug-1.0.1-r0.apk
+checksum	Q16goMJ/NSaL+Ow4rvI3ovwD6uCIA=
+dep	so:libc.musl-armhf.so.1	musl

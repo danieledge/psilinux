@@ -1,0 +1,22 @@
+name	ngspice
+version	46-r0
+description	open source spice simulator for electric and electronic circuits
+url	https://ngspice.sourceforge.net/
+license	BSD-3-Clause
+size	5229382
+installed-size	12007711
+depends	python3 so:libX11.so.6 so:libXaw.so.7 so:libXt.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgomp.so.1 so:libncursesw.so.6 so:libreadline.so.8 so:libstdc++.so.6
+origin	ngspice
+repo	community
+file	ngspice-46-r0.apk
+checksum	Q1MxQGNIluGo7cIMoNEnJGzJ747uI=
+dep	python3	python3
+dep	so:libX11.so.6	libx11
+dep	so:libXaw.so.7	libxaw
+dep	so:libXt.so.6	libxt
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgomp.so.1	libgomp
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libreadline.so.8	readline
+dep	so:libstdc++.so.6	libstdc++

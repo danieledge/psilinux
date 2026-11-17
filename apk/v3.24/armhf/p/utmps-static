@@ -1,0 +1,13 @@
+name	utmps-static
+version	0.1.3.3-r0
+description	A secure utmp/wtmp implementation (static library)
+url	https://skarnet.org/software/utmps/
+license	ISC
+size	6912
+installed-size	33382
+depends	skalibs-static
+origin	utmps
+repo	main
+file	utmps-static-0.1.3.3-r0.apk
+checksum	Q1CBMy4LXGFX/GNQbtWZUwr970g54=
+dep	skalibs-static	skalibs-static

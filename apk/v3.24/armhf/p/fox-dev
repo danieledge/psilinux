@@ -1,0 +1,14 @@
+name	fox-dev
+version	1.6.59-r0
+description	Free Objects for X (development files)
+url	http://www.fox-toolkit.org
+license	LGPL-3.0-or-later
+size	2089365
+installed-size	9875245
+depends	fox=1.6.59-r0 pkgconfig
+origin	fox
+repo	community
+file	fox-dev-1.6.59-r0.apk
+checksum	Q1JTHfGijWv0tDUiNR5gC4hhGhtaE=
+dep	fox=1.6.59-r0	fox
+dep	pkgconfig	pkgconf

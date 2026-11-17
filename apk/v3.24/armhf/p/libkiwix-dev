@@ -1,0 +1,23 @@
+name	libkiwix-dev
+version	14.2.0-r1
+description	Common code base for all Kiwix ports (development files)
+url	https://github.com/kiwix/libkiwix
+license	GPL-3.0-or-later
+size	17724
+installed-size	63909
+depends	libkiwix=14.2.0-r1 pc:icu-i18n pc:icu-uc pc:libcurl pc:libmicrohttpd pc:libzim<10.0.0 pc:libzim>=9.4.0 pc:pugixml pc:xapian-core pc:zlib pkgconfig
+origin	libkiwix
+repo	community
+file	libkiwix-dev-14.2.0-r1.apk
+checksum	Q1TPo7mY4riwno4RpIznJ43frDLmU=
+dep	libkiwix=14.2.0-r1	libkiwix
+dep	pc:icu-i18n	icu-dev
+dep	pc:icu-uc	icu-dev
+dep	pc:libcurl	curl-dev
+dep	pc:libmicrohttpd	libmicrohttpd-dev
+dep	pc:libzim<10.0.0	libzim-dev
+dep	pc:libzim>=9.4.0	libzim-dev
+dep	pc:pugixml	pugixml-dev
+dep	pc:xapian-core	xapian-core-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

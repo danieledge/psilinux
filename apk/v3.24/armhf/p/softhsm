@@ -1,0 +1,18 @@
+name	softhsm
+version	2.7.0-r0
+description	cryptographic store accessible through a PKCS #11
+url	https://github.com/softhsm/SoftHSMv2
+license	BSD-2-Clause
+size	433769
+installed-size	1126852
+depends	sqlite so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libsqlite3.so.0 so:libstdc++.so.6
+origin	softhsm
+repo	main
+file	softhsm-2.7.0-r0.apk
+checksum	Q1+n1HdC3wunWhJm157L2Ru5QfRBo=
+dep	sqlite	sqlite
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++

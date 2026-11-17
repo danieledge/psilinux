@@ -1,0 +1,19 @@
+name	g3k-dev
+version	0.16.0-r3
+description	A 3DUI widget toolkit (development files)
+url	https://gitlab.freedesktop.org/xrdesktop/g3k
+license	MIT AND CC-BY-SA-4.0
+size	12733
+installed-size	44104
+depends	json-glib-dev libcanberra-dev pango-dev shaderc-dev g3k=0.16.0-r3 pc:gxr-0.16 pkgconfig
+origin	g3k
+repo	community
+file	g3k-dev-0.16.0-r3.apk
+checksum	Q1jHkqZuoO6G8hZaxyscJHzrotuvE=
+dep	json-glib-dev	json-glib-dev
+dep	libcanberra-dev	libcanberra-dev
+dep	pango-dev	pango-dev
+dep	shaderc-dev	shaderc-dev
+dep	g3k=0.16.0-r3	g3k
+dep	pc:gxr-0.16	gxr-dev
+dep	pkgconfig	pkgconf

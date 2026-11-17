@@ -1,0 +1,17 @@
+name	libnice
+version	0.1.22-r0
+description	GLib ICE implementation
+url	https://libnice.freedesktop.org/
+license	LGPL-2.1-or-later AND MPL-1.1
+size	158292
+installed-size	347272
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgnutls.so.30 so:libgobject-2.0.so.0
+origin	libnice
+repo	community
+file	libnice-0.1.22-r0.apk
+checksum	Q17bgCm0hOjaHOyZp9DBOVzvdHAS4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgnutls.so.30	gnutls
+dep	so:libgobject-2.0.so.0	glib

@@ -1,0 +1,18 @@
+name	perl-code-tidyall-plugin-test-vars
+version	0.04-r2
+description	Provides Test::Vars plugin for Code::TidyAll
+url	https://metacpan.org/release/Code-TidyAll-Plugin-Test-Vars/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	4094
+installed-size	4281
+depends	perl perl-code-tidyall perl-moo perl-test-vars perl-ppi perl-path-tiny
+origin	perl-code-tidyall-plugin-test-vars
+repo	community
+file	perl-code-tidyall-plugin-test-vars-0.04-r2.apk
+checksum	Q1A2NlslOH4puInd59No5FhqkCdB0=
+dep	perl	perl
+dep	perl-code-tidyall	perl-code-tidyall
+dep	perl-moo	perl-moo
+dep	perl-test-vars	perl-test-vars
+dep	perl-ppi	perl-ppi
+dep	perl-path-tiny	perl-path-tiny

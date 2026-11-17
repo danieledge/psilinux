@@ -1,0 +1,20 @@
+name	llvm20
+version	20.1.8-r1
+description	Low Level Virtual Machine compiler system, version 20
+url	https://llvm.org/
+license	Apache-2.0
+size	18704938
+installed-size	43854165
+depends	llvm20-linker-tools=20.1.8-r1 so:libLLVM.so.20.1 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
+origin	llvm20
+repo	main
+file	llvm20-20.1.8-r1.apk
+checksum	Q14LHbLrhRc8v8Vbjyp/wSLGj2s7U=
+dep	llvm20-linker-tools=20.1.8-r1	llvm20-linker-tools
+dep	so:libLLVM.so.20.1	llvm20-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

@@ -1,0 +1,16 @@
+name	fox-shutterbug
+version	1.6.59-r0
+description	fox - screen snapshot application
+url	http://www.fox-toolkit.org
+license	GPL-2.0-or-later
+size	22725
+installed-size	66996
+depends	so:libFOX-1.6.so.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	fox
+repo	community
+file	fox-shutterbug-1.6.59-r0.apk
+checksum	Q1AwNTHXjTVGbfhZtU7eDYRgB8U8A=
+dep	so:libFOX-1.6.so.0	fox
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,16 @@
+name	connman-openvpn
+version	2.0-r0
+description	OpenVPN plugin for ConnMan
+url	https://git.kernel.org/pub/scm/network/connman/connman.git
+license	GPL-2.0-only
+size	13989
+installed-size	35993
+depends	connman=2.0-r0 openvpn so:libc.musl-armhf.so.1 so:libdbus-1.so.3
+origin	connman
+repo	community
+file	connman-openvpn-2.0-r0.apk
+checksum	Q19RzeHW/dIFmTioiqhvSUDKmHcdA=
+dep	connman=2.0-r0	connman
+dep	openvpn	openvpn
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs

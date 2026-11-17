@@ -1,0 +1,16 @@
+name	blake3-libs
+version	1.8.5-r0
+description	BLAKE3 hash function (libraries)
+url	https://github.com/BLAKE3-team/BLAKE3
+license	CC0-1.0 OR Apache-2.0
+size	15507
+installed-size	34072
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libtbb.so.12
+origin	b3sum
+repo	community
+file	blake3-libs-1.8.5-r0.apk
+checksum	Q1jGD9vTzUnQsWje4IKy573UVyOZU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtbb.so.12	onetbb

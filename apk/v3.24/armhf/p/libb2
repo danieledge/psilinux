@@ -1,0 +1,14 @@
+name	libb2
+version	0.98.1-r3
+description	C library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+url	https://blake2.net/
+license	CC0-1.0
+size	25706
+installed-size	46208
+depends	so:libc.musl-armhf.so.1 so:libgomp.so.1
+origin	libb2
+repo	community
+file	libb2-0.98.1-r3.apk
+checksum	Q1k9/reauJtf8FoowRlXjLuSauZM4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgomp.so.1	libgomp

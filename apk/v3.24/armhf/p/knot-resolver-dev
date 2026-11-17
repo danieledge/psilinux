@@ -1,0 +1,27 @@
+name	knot-resolver-dev
+version	5.7.7-r0
+description	Minimalistic caching DNS resolver implementation (development files)
+url	https://www.knot-resolver.cz/
+license	GPL-3.0-or-later
+size	53724
+installed-size	157537
+depends	knot-dev>=2.8.0 libedit-dev libuv-dev>=1.7 luajit-dev>=2.0 fstrm-dev protobuf-dev protobuf-c-dev knot-resolver=5.7.7-r0 pc:gnutls pc:libdnssec>=3.1 pc:libknot>=3.1 pc:libuv>=1.7 pc:lmdb pc:luajit pkgconfig
+origin	knot-resolver
+repo	community
+file	knot-resolver-dev-5.7.7-r0.apk
+checksum	Q1UlpYpFRmIbqs8Z5AzgyEBsqDztM=
+dep	knot-dev>=2.8.0	knot-dev
+dep	libedit-dev	libedit-dev
+dep	libuv-dev>=1.7	libuv-dev
+dep	luajit-dev>=2.0	luajit-dev
+dep	fstrm-dev	fstrm-dev
+dep	protobuf-dev	protobuf-dev
+dep	protobuf-c-dev	protobuf-c-dev
+dep	knot-resolver=5.7.7-r0	knot-resolver
+dep	pc:gnutls	gnutls-dev
+dep	pc:libdnssec>=3.1	knot-dev
+dep	pc:libknot>=3.1	knot-dev
+dep	pc:libuv>=1.7	libuv-dev
+dep	pc:lmdb	lmdb-dev
+dep	pc:luajit	luajit-dev
+dep	pkgconfig	pkgconf

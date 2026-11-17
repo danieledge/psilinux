@@ -1,0 +1,19 @@
+name	py3-saga-gis
+version	9.12.2-r0
+description	System for Automated Geoscientific Analyses (Python3 bindings)
+url	https://saga-gis.sourceforge.io/en/index.html
+license	GPL-2.0-or-later
+size	1894523
+installed-size	11278281
+depends	saga-gis-common python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpython3.14.so.1.0 so:libsaga_api.so.9 so:libstdc++.so.6
+origin	saga-gis
+repo	community
+file	py3-saga-gis-9.12.2-r0.apk
+checksum	Q1/rCcmhHIOKfzv1cJmTBZFujFSwg=
+dep	saga-gis-common	saga-gis-common
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpython3.14.so.1.0	python3
+dep	so:libsaga_api.so.9	saga-gis-api
+dep	so:libstdc++.so.6	libstdc++

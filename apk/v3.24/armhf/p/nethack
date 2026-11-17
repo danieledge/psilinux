@@ -1,0 +1,14 @@
+name	nethack
+version	3.6.7-r2
+description	A single player dungeon exploration game
+url	https://www.nethack.org/
+license	NGPL
+size	1779103
+installed-size	4185246
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	nethack
+repo	community
+file	nethack-3.6.7-r2.apk
+checksum	Q1c21rmj0OeSLo5lL/+UjZNrDzjRI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

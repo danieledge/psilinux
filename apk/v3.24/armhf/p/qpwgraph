@@ -1,0 +1,22 @@
+name	qpwgraph
+version	1.0.1-r0
+description	Graph manager for PipeWire
+url	https://gitlab.freedesktop.org/rncbc/qpwgraph
+license	GPL-2.0-or-later
+size	299386
+installed-size	687792
+depends	so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6Widgets.so.6 so:libQt6Xml.so.6 so:libasound.so.2 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpipewire-0.3.so.0 so:libstdc++.so.6
+origin	qpwgraph
+repo	community
+file	qpwgraph-1.0.1-r0.apk
+checksum	Q1NqZK3bd8SiT8Tsmb5JkP9zPFE3M=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libQt6Xml.so.6	qt6-qtbase
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpipewire-0.3.so.0	pipewire-libs
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,13 @@
+name	zabbix-agent2-plugin-postgresql
+version	6.4.11-r22
+description	Zabbix Agent 2 PostgreSQL loadable plugin
+url	https://git.zabbix.com/projects/AP/repos/postgresql/browse
+license	Apache-2.0
+size	3843770
+installed-size	9989861
+depends	so:libc.musl-armhf.so.1
+origin	zabbix-agent2-plugin-postgresql
+repo	community
+file	zabbix-agent2-plugin-postgresql-6.4.11-r22.apk
+checksum	Q1PBrMarLwTdjl4FuaiMt1PV/r70Q=
+dep	so:libc.musl-armhf.so.1	musl

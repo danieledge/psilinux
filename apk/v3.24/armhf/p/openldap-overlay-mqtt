@@ -1,0 +1,15 @@
+name	openldap-overlay-mqtt
+version	2.6.15-r0
+description	OpenLDAP mqtt overlay
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	6847
+installed-size	14898
+depends	so:libc.musl-armhf.so.1 so:liblber.so.2 so:libmosquitto.so.1
+origin	openldap
+repo	main
+file	openldap-overlay-mqtt-2.6.15-r0.apk
+checksum	Q18/StfuQ+v35PLzhfHTDLIKbor5E=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap
+dep	so:libmosquitto.so.1	mosquitto-libs

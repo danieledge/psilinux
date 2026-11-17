@@ -1,0 +1,18 @@
+name	libkexiv2
+version	26.04.2-r0
+description	Library to manipulate picture metadata
+url	https://www.kde.org/applications/graphics
+license	GPL-2.0-or-later
+size	175209
+installed-size	415318
+depends	so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libc.musl-armhf.so.1 so:libexiv2.so.28 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libkexiv2
+repo	community
+file	libkexiv2-26.04.2-r0.apk
+checksum	Q1yctxm7Nmf3mZNknCUWk6GAEZ+9U=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexiv2.so.28	exiv2-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,14 @@
+name	libpostal-dev
+version	1.1-r1
+description	A C library for parsing/normalizing street addresses around the world. Powered by statistical NLP and open geo data (development files)
+url	https://github.com/openvenues/libpostal
+license	MIT
+size	2510065
+installed-size	12775742
+depends	libpostal=1.1-r1 pkgconfig
+origin	libpostal
+repo	community
+file	libpostal-dev-1.1-r1.apk
+checksum	Q1cXlATgsDDKRTZnj+blhEePks/Mc=
+dep	libpostal=1.1-r1	libpostal
+dep	pkgconfig	pkgconf

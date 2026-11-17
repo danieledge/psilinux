@@ -1,0 +1,21 @@
+name	perdition
+version	2.2-r6
+description	A Mail retrieval proxy
+url	http://horms.net/projects/perdition/
+license	GPL-2.0-or-later
+size	85063
+installed-size	197237
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgdbm.so.6 so:libpopt.so.0 so:libssl.so.3 so:libvanessa_adt.so.1 so:libvanessa_logger.so.0 so:libvanessa_socket.so.2
+origin	perdition
+repo	main
+file	perdition-2.2-r6.apk
+checksum	Q1l9ti92TBljW5bDhl2tYqm1NZUiI=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgdbm.so.6	gdbm
+dep	so:libpopt.so.0	popt
+dep	so:libssl.so.3	libssl3
+dep	so:libvanessa_adt.so.1	vanessa_adt
+dep	so:libvanessa_logger.so.0	vanessa_logger
+dep	so:libvanessa_socket.so.2	vanessa_socket

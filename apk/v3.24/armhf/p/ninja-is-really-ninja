@@ -1,0 +1,13 @@
+name	ninja-is-really-ninja
+version	1.13.2-r1
+description	compat symlink to make ninja really ninja
+url	https://ninja-build.org/
+license	Apache-2.0
+size	1570
+installed-size	1
+depends	ninja-build=1.13.2-r1 !samurai
+origin	ninja-build
+repo	community
+file	ninja-is-really-ninja-1.13.2-r1.apk
+checksum	Q1bpD5p3pdt6bnYFgX8Ra+toMuj8w=
+dep	ninja-build=1.13.2-r1	ninja-build

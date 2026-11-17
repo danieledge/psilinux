@@ -1,0 +1,15 @@
+name	rapidcheck
+version	0_git20231214-r2
+description	QuickCheck-like property-based testing for C++
+url	https://github.com/emil-e/rapidcheck
+license	BSD-2-Clause
+size	109302
+installed-size	375499
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	rapidcheck
+repo	community
+file	rapidcheck-0_git20231214-r2.apk
+checksum	Q1XSZPWbAmUOYqdFQsIEXaqXH3Who=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

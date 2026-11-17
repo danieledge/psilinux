@@ -1,0 +1,13 @@
+name	vanessa_logger
+version	0.0.10-r4
+description	Logging library
+url	https://projects.horms.net/projects/vanessa/
+license	LGPL-2.0-or-later
+size	9527
+installed-size	23004
+depends	so:libc.musl-armhf.so.1
+origin	vanessa_logger
+repo	main
+file	vanessa_logger-0.0.10-r4.apk
+checksum	Q1dMg2UrG9hE+sVqEjVzJo+zAMFZg=
+dep	so:libc.musl-armhf.so.1	musl

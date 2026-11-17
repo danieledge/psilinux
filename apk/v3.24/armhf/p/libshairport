@@ -1,0 +1,13 @@
+name	libshairport
+version	1.2.1.20121215-r4
+description	AirPort Express emulator
+url	https://github.com/amejia1/libshairport
+license	MIT
+size	23895
+installed-size	42156
+depends	so:libc.musl-armhf.so.1
+origin	libshairport
+repo	community
+file	libshairport-1.2.1.20121215-r4.apk
+checksum	Q1mfWsMb9mu6DeZ0fnnC2AFtMNOl4=
+dep	so:libc.musl-armhf.so.1	musl

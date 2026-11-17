@@ -1,0 +1,17 @@
+name	qtxdg-tools
+version	4.4.0-r0
+description	Qt implementation of freedesktop.org xdg specifications
+url	https://github.com/lxqt/qtxdg-tools
+license	LGPL-2.1-or-later
+size	24108
+installed-size	79240
+depends	gtk+3.0 so:libQt6Core.so.6 so:libQt6Xdg.so.4 so:libc.musl-armhf.so.1 so:libstdc++.so.6
+origin	qtxdg-tools
+repo	community
+file	qtxdg-tools-4.4.0-r0.apk
+checksum	Q1zeLXC8vHrm7vZB7jOmOIDD7hOO4=
+dep	gtk+3.0	gtk+3.0
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Xdg.so.4	libqtxdg
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libstdc++.so.6	libstdc++

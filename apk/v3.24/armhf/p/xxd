@@ -1,0 +1,13 @@
+name	xxd
+version	9.2.1352-r0
+description	Tool to make (or reverse) a hex dump
+url	https://www.vim.org/
+license	Vim
+size	10458
+installed-size	17660
+depends	so:libc.musl-armhf.so.1
+origin	vim
+repo	community
+file	xxd-9.2.1352-r0.apk
+checksum	Q1S4WPqhQFvBKxIa/5vjZXvwfmAQo=
+dep	so:libc.musl-armhf.so.1	musl

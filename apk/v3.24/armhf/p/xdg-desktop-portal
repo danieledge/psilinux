@@ -1,0 +1,23 @@
+name	xdg-desktop-portal
+version	1.21.2-r0
+description	Desktop integration portal
+url	https://github.com/flatpak/xdg-desktop-portal
+license	LGPL-2.1-or-later
+size	331425
+installed-size	1156166
+depends	bubblewrap so:libc.musl-armhf.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libpipewire-0.3.so.0
+origin	xdg-desktop-portal
+repo	community
+file	xdg-desktop-portal-1.21.2-r0.apk
+checksum	Q1j01+RZJ0AchH0JvtRphCqkOhtr0=
+dep	bubblewrap	bubblewrap
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstpbutils-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libpipewire-0.3.so.0	pipewire-libs

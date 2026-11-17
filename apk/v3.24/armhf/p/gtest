@@ -1,0 +1,15 @@
+name	gtest
+version	1.17.0-r1
+description	Google Test - C++ testing utility based on the xUnit framework (like JUnit)
+url	https://github.com/google/googletest
+license	BSD-3-Clause
+size	141704
+installed-size	379544
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	gtest
+repo	main
+file	gtest-1.17.0-r1.apk
+checksum	Q1H7DeJ5LdA8B+O3hVk3oLAu47HqY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

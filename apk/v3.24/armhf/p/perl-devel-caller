@@ -1,0 +1,15 @@
+name	perl-devel-caller
+version	2.07-r5
+description	Enhanced versions of caller()
+url	https://metacpan.org/release/Devel-Caller/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6837
+installed-size	13652
+depends	perl perl-padwalker so:libc.musl-armhf.so.1
+origin	perl-devel-caller
+repo	community
+file	perl-devel-caller-2.07-r5.apk
+checksum	Q1ZTEWjUKkLrR2f0uTQWdzSh4AfiE=
+dep	perl	perl
+dep	perl-padwalker	perl-padwalker
+dep	so:libc.musl-armhf.so.1	musl

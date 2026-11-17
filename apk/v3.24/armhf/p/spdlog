@@ -1,0 +1,16 @@
+name	spdlog
+version	1.17.0-r0
+description	Fast C++ logging library
+url	https://github.com/gabime/spdlog
+license	MIT
+size	98574
+installed-size	341520
+depends	so:libc.musl-armhf.so.1 so:libfmt.so.11 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	spdlog
+repo	community
+file	spdlog-1.17.0-r0.apk
+checksum	Q1Bo0Ja8U5l9ykpYZ/uq51/laq/aM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfmt.so.11	fmt
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

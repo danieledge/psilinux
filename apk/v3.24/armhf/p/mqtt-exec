@@ -1,0 +1,14 @@
+name	mqtt-exec
+version	0.7.1-r0
+description	simple MQTT client that executes a command on messages
+url	https://github.com/ncopa/mqtt-exec
+license	MIT
+size	7738
+installed-size	14088
+depends	so:libc.musl-armhf.so.1 so:libmosquitto.so.1
+origin	mqtt-exec
+repo	main
+file	mqtt-exec-0.7.1-r0.apk
+checksum	Q1hEMG9NO1lbgI8M1qI44RVqgiP2I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmosquitto.so.1	mosquitto-libs

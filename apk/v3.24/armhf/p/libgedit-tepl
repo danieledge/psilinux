@@ -1,0 +1,27 @@
+name	libgedit-tepl
+version	6.14.0-r2
+description	Gedit Technology — text editor product line
+url	https://gitlab.gnome.org/World/gedit/libgedit-tepl
+license	LGPL-3.0-or-later
+size	106783
+installed-size	294504
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgedit-amtk-5.so.0 so:libgedit-gfls-1.so.0 so:libgedit-gtksourceview-300.so.5 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libhandy-1.so.0 so:libicui18n.so.78 so:libicuuc.so.78 so:libintl.so.8 so:libpango-1.0.so.0
+origin	libgedit-tepl
+repo	community
+file	libgedit-tepl-6.14.0-r2.apk
+checksum	Q1MTr+mAHQLbZIg4z/u/yYEgp8PMQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgedit-amtk-5.so.0	libgedit-amtk
+dep	so:libgedit-gfls-1.so.0	libgedit-gfls
+dep	so:libgedit-gtksourceview-300.so.5	libgedit-gtksourceview
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libhandy-1.so.0	libhandy1
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango

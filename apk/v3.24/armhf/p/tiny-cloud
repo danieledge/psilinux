@@ -1,0 +1,18 @@
+name	tiny-cloud
+version	3.4.2-r0
+description	Tiny Cloud instance bootstrapper
+url	https://gitlab.alpinelinux.org/alpine/cloud/tiny-cloud
+license	MIT
+size	32210
+installed-size	91557
+depends	e2fsprogs-extra partx sfdisk yx openssh-server /bin/sh
+origin	tiny-cloud
+repo	main
+file	tiny-cloud-3.4.2-r0.apk
+checksum	Q17FarT/pKd4xXvRH3CVuq2n0Ka74=
+dep	e2fsprogs-extra	e2fsprogs-extra
+dep	partx	partx
+dep	sfdisk	sfdisk
+dep	yx	yx
+dep	openssh-server	openssh-server
+dep	/bin/sh	busybox-binsh

@@ -1,0 +1,14 @@
+name	py3-mmh3
+version	5.2.1-r1
+description	Python wrapper for MurmurHash (MurmurHash3), a set of fast and robust hash functions
+url	https://github.com/hajimes/mmh3
+license	CC0-1.0
+size	25551
+installed-size	68611
+depends	python3~3.14 so:libc.musl-armhf.so.1
+origin	py3-mmh3
+repo	community
+file	py3-mmh3-5.2.1-r1.apk
+checksum	Q1qik4sHCIVqBF3zakstQoXJfvAco=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

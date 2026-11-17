@@ -1,0 +1,18 @@
+name	qt5-qtbase-tds
+version	5.15.18_git20251101-r0
+description	TDS driver for Qt5's SQL classes
+url	https://qt.io/developers/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	17285
+installed-size	38224
+depends	so:libQt5Core.so.5 so:libQt5Sql.so.5 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libsybdb.so.5
+origin	qt5-qtbase
+repo	community
+file	qt5-qtbase-tds-5.15.18_git20251101-r0.apk
+checksum	Q1YhnFP1BP7j2ptbN6AQmP4s+gGYY=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Sql.so.5	qt5-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libsybdb.so.5	freetds

@@ -1,0 +1,24 @@
+name	py3-ipykernel
+version	7.2.0-r1
+description	IPython kernel for jupyter
+url	https://github.com/ipython/ipykernel
+license	BSD-3-Clause
+size	107820
+installed-size	360761
+depends	ipython py3-comm py3-jupyter_client py3-jupyter_core py3-matplotlib-inline py3-nest_asyncio py3-packaging py3-psutil py3-pyzmq py3-tornado py3-traitlets python3~3.14
+origin	py3-ipykernel
+repo	community
+file	py3-ipykernel-7.2.0-r1.apk
+checksum	Q1AziDY0k+LmYkDsADeE0dH34nhqc=
+dep	ipython	ipython
+dep	py3-comm	py3-comm
+dep	py3-jupyter_client	py3-jupyter_client
+dep	py3-jupyter_core	py3-jupyter_core
+dep	py3-matplotlib-inline	py3-matplotlib-inline
+dep	py3-nest_asyncio	py3-nest_asyncio
+dep	py3-packaging	py3-packaging
+dep	py3-psutil	py3-psutil
+dep	py3-pyzmq	py3-pyzmq
+dep	py3-tornado	py3-tornado
+dep	py3-traitlets	py3-traitlets
+dep	python3~3.14	python3

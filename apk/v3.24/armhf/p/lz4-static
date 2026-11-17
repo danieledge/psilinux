@@ -1,0 +1,13 @@
+name	lz4-static
+version	1.10.0-r1
+description	LZ4 is lossless compression algorithm with fast decoder @ multiple GB/s per core. (static library)
+url	https://github.com/lz4/lz4
+license	BSD-2-Clause AND GPL-2.0-or-later
+size	628173
+installed-size	660986
+depends	lz4-dev
+origin	lz4
+repo	main
+file	lz4-static-1.10.0-r1.apk
+checksum	Q1Qe8HBnxI3087aUNhFecw5cMblQg=
+dep	lz4-dev	lz4-dev

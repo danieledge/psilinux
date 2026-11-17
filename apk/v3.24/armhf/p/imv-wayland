@@ -1,0 +1,32 @@
+name	imv-wayland
+version	5.0.1-r0
+description	Image viewer for Wayland
+url	https://sr.ht/~exec64/imv
+license	MIT
+size	40628
+installed-size	88624
+depends	imv=5.0.1-r0 so:libEGL.so.1 so:libGL.so.1 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgobject-2.0.so.0 so:libheif.so.1 so:libicuuc.so.78 so:libinih.so.0 so:libjxl.so.0.11 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpng16.so.16 so:librsvg-2.so.2 so:libturbojpeg.so.0 so:libwayland-client.so.0 so:libwayland-cursor.so.0 so:libwayland-egl.so.1 so:libwebpdecoder.so.3 so:libxkbcommon.so.0
+origin	imv
+repo	community
+file	imv-wayland-5.0.1-r0.apk
+checksum	Q1PbwOh8Sfbnz+1V9fYgCPGe67FGU=
+dep	imv=5.0.1-r0	imv
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libGL.so.1	mesa-gl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libheif.so.1	libheif
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libinih.so.0	inih
+dep	so:libjxl.so.0.11	libjxl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpng16.so.16	libpng
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libturbojpeg.so.0	libturbojpeg
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor
+dep	so:libwayland-egl.so.1	wayland-libs-egl
+dep	so:libwebpdecoder.so.3	libwebpdecoder
+dep	so:libxkbcommon.so.0	libxkbcommon

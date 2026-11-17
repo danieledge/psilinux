@@ -1,0 +1,15 @@
+name	iw
+version	6.17-r0
+description	nl80211 based CLI configuration utility for wireless devices
+url	https://wireless.docs.kernel.org/en/latest/en/users/documentation/iw.html
+license	ISC
+size	108623
+installed-size	252448
+depends	so:libc.musl-armhf.so.1 so:libnl-3.so.200 so:libnl-genl-3.so.200
+origin	iw
+repo	main
+file	iw-6.17-r0.apk
+checksum	Q1thybZhUPxfmlSucH8g1XBiDlcDg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnl-3.so.200	libnl3
+dep	so:libnl-genl-3.so.200	libnl3

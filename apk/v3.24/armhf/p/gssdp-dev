@@ -1,0 +1,18 @@
+name	gssdp-dev
+version	1.6.6-r0
+description	GObject-based API for handling resource discovery and announcement over SSDP (development files)
+url	https://gitlab.gnome.org/GNOME/gssdp
+license	LGPL-2.1-or-later
+size	16142
+installed-size	115322
+depends	gssdp=1.6.6-r0 pc:gio-2.0>=2.70 pc:glib-2.0>=2.70 pc:gobject-2.0>=2.70 pc:libsoup-3.0>=2.99.0 pkgconfig
+origin	gssdp
+repo	community
+file	gssdp-dev-1.6.6-r0.apk
+checksum	Q1eKDj+A27fv8aEvdeF9dZryUUdAE=
+dep	gssdp=1.6.6-r0	gssdp
+dep	pc:gio-2.0>=2.70	glib-dev
+dep	pc:glib-2.0>=2.70	glib-dev
+dep	pc:gobject-2.0>=2.70	glib-dev
+dep	pc:libsoup-3.0>=2.99.0	libsoup3-dev
+dep	pkgconfig	pkgconf

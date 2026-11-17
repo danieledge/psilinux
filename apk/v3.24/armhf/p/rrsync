@@ -1,0 +1,14 @@
+name	rrsync
+version	3.5.2-r1
+description	Restricted rsync, restricts rsync to a subdir declared in .ssh/authorized_keys
+url	https://rsync.samba.org/
+license	GPL-3.0-or-later
+size	15869
+installed-size	46201
+depends	rsync python3
+origin	rsync
+repo	main
+file	rrsync-3.5.2-r1.apk
+checksum	Q1LDqU3Znk7/UtzDtaciH47defDQQ=
+dep	rsync	rsync
+dep	python3	python3

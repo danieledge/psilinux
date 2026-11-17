@@ -1,0 +1,19 @@
+name	librime-plugin-predict
+version	1.17.0-r0
+description	Rime input method engine (predict plugin)
+url	https://github.com/rime/librime
+license	BSD-3-Clause
+size	40642
+installed-size	99712
+depends	librime=1.17.0-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglog.so.2 so:libmarisa.so.0 so:librime.so.1 so:libstdc++.so.6
+origin	librime
+repo	community
+file	librime-plugin-predict-1.17.0-r0.apk
+checksum	Q1W/7B/87ufQ66zNVIDNHdWSZnMq0=
+dep	librime=1.17.0-r0	librime
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglog.so.2	glog
+dep	so:libmarisa.so.0	libmarisa
+dep	so:librime.so.1	librime
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,18 @@
+name	tacacs+ng
+version	0_git20241212-r1
+description	TACACS+ NG authentication daemon
+url	https://www.pro-bono-publico.de/projects/tac_plus-ng.html
+license	MIT AND BSD-2-Clause
+size	253977
+installed-size	781411
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcares.so.2 so:libcrypto.so.3 so:libpcre2-8.so.0 so:libssl.so.3
+origin	tacacs+ng
+repo	community
+file	tacacs+ng-0_git20241212-r1.apk
+checksum	Q1Ns8Alm4lFV4+1HP4in2ESfRI23E=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcares.so.2	c-ares
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libssl.so.3	libssl3

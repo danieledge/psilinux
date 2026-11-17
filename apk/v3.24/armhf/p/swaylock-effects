@@ -1,0 +1,18 @@
+name	swaylock-effects
+version	1.7.0.0-r1
+description	Screen locker for Wayland with fancy effects
+url	https://github.com/jirutka/swaylock-effects
+license	MIT
+size	36178
+installed-size	77069
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgomp.so.1 so:libpam.so.0 so:libwayland-client.so.0 so:libxkbcommon.so.0
+origin	swaylock-effects
+repo	community
+file	swaylock-effects-1.7.0.0-r1.apk
+checksum	Q1XmGRfU095+J9DgIH+UWOZ4iWlro=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgomp.so.1	libgomp
+dep	so:libpam.so.0	linux-pam
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libxkbcommon.so.0	libxkbcommon

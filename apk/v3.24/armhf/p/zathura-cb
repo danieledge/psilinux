@@ -1,0 +1,23 @@
+name	zathura-cb
+version	2026.05.10-r0
+description	Comic book support for zathura
+url	https://pwmt.org/projects/zathura-cb/
+license	Zlib
+size	7250
+installed-size	14916
+depends	desktop-file-utils zathura so:libarchive.so.13 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libgirara.so.5 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	zathura-cb
+repo	community
+file	zathura-cb-2026.05.10-r0.apk
+checksum	Q1MYau7ENM5vVBvzH0IAxW4GidCDs=
+dep	desktop-file-utils	desktop-file-utils
+dep	zathura	zathura
+dep	so:libarchive.so.13	libarchive
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libgirara.so.5	girara
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

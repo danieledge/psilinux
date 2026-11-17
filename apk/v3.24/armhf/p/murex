@@ -1,0 +1,13 @@
+name	murex
+version	7.2.1001-r5
+description	Intuitive, typed and content aware shell
+url	https://murex.rocks/
+license	GPL-2.0-only
+size	6480844
+installed-size	16490220
+depends	so:libc.musl-armhf.so.1
+origin	murex
+repo	community
+file	murex-7.2.1001-r5.apk
+checksum	Q1WDbdHmHqdd9Te9HJD341oIGWP2s=
+dep	so:libc.musl-armhf.so.1	musl

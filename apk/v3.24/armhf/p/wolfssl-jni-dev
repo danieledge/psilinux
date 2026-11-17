@@ -1,0 +1,14 @@
+name	wolfssl-jni-dev
+version	5.9.4-r0
+description	Embedded TLS Library (built without OpenSSL compatibility layer)
+url	https://www.wolfssl.com/
+license	GPL-3.0-only
+size	1542856
+installed-size	5632849
+depends	wolfssl-jni=5.9.4-r0 !wolfssl-dev pkgconfig
+origin	wolfssl
+repo	community
+file	wolfssl-jni-dev-5.9.4-r0.apk
+checksum	Q191CS4cb6ccHVtge+D5D/KACOJHU=
+dep	wolfssl-jni=5.9.4-r0	wolfssl-jni
+dep	pkgconfig	pkgconf

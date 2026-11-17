@@ -1,0 +1,14 @@
+name	stylua
+version	2.5.2-r0
+description	Opinionated Lua code formatter
+url	https://github.com/JohnnyMorganz/StyLua
+license	MPL-2.0
+size	1599353
+installed-size	3342800
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	stylua
+repo	community
+file	stylua-2.5.2-r0.apk
+checksum	Q1blgQEjX5mU/yW2+t6PKjLLyGd44=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

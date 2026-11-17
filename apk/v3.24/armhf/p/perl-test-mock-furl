@@ -1,0 +1,15 @@
+name	perl-test-mock-furl
+version	0.05-r1
+description	Mocks Furl for testing
+url	https://metacpan.org/release/Test-Mock-Furl/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	4080
+installed-size	7860
+depends	perl perl-furl perl-test-mockobject
+origin	perl-test-mock-furl
+repo	community
+file	perl-test-mock-furl-0.05-r1.apk
+checksum	Q1Wlf73nNiUkoYDfvCdtJ6GMei8Pk=
+dep	perl	perl
+dep	perl-furl	perl-furl
+dep	perl-test-mockobject	perl-test-mockobject

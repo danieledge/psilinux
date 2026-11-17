@@ -1,0 +1,16 @@
+name	libflac++
+version	1.4.3-r2
+description	Free Lossless Audio Codec (libFLAC++)
+url	https://xiph.org/flac/
+license	BSD-3-Clause AND GPL-2.0-or-later
+size	25545
+installed-size	83328
+depends	so:libFLAC.so.12 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	flac
+repo	main
+file	libflac++-1.4.3-r2.apk
+checksum	Q1nqkzfWL9DFLgjPL7k7T0Uo7WLUE=
+dep	so:libFLAC.so.12	libflac
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

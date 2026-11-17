@@ -1,0 +1,18 @@
+name	ocaml-bos-dev
+version	0.2.1-r5
+description	Basic OS interaction for OCaml (development files)
+url	https://erratique.ch/software/bos
+license	ISC
+size	359041
+installed-size	938274
+depends	ocaml-bos=0.2.1-r5 ocaml-astring-dev ocaml-fmt-dev ocaml-fpath-dev ocaml-logs-dev ocaml-rresult-dev
+origin	ocaml-bos
+repo	community
+file	ocaml-bos-dev-0.2.1-r5.apk
+checksum	Q1BWwl7b1Gn1wn4z8StOb5+DBZWag=
+dep	ocaml-bos=0.2.1-r5	ocaml-bos
+dep	ocaml-astring-dev	ocaml-astring-dev
+dep	ocaml-fmt-dev	ocaml-fmt-dev
+dep	ocaml-fpath-dev	ocaml-fpath-dev
+dep	ocaml-logs-dev	ocaml-logs-dev
+dep	ocaml-rresult-dev	ocaml-rresult-dev

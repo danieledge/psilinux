@@ -1,0 +1,15 @@
+name	libnetfilter_conntrack-dev
+version	1.1.1-r0
+description	programming interface (API) to the in-kernel connection tracking state table (development files)
+url	https://www.netfilter.org/projects/libnetfilter_conntrack/
+license	GPL-2.0-or-later
+size	11632
+installed-size	39553
+depends	libnetfilter_conntrack=1.1.1-r0 pc:libnfnetlink pkgconfig
+origin	libnetfilter_conntrack
+repo	main
+file	libnetfilter_conntrack-dev-1.1.1-r0.apk
+checksum	Q1llzQMUiHvOTz4MmKNc+PF9pznhE=
+dep	libnetfilter_conntrack=1.1.1-r0	libnetfilter_conntrack
+dep	pc:libnfnetlink	libnfnetlink-dev
+dep	pkgconfig	pkgconf

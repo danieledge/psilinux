@@ -1,0 +1,19 @@
+name	perl-net-async-http
+version	0.50-r1
+description	Use HTTP with IO::Async
+url	https://metacpan.org/release/Net-Async-HTTP/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	19441
+installed-size	61068
+depends	perl perl-future perl-http-message perl-io-async-ssl perl-metrics-any perl-struct-dumb perl-uri
+origin	perl-net-async-http
+repo	community
+file	perl-net-async-http-0.50-r1.apk
+checksum	Q1M1TDXzEWKLOjO+38rIXDttldflA=
+dep	perl	perl
+dep	perl-future	perl-future
+dep	perl-http-message	perl-http-message
+dep	perl-io-async-ssl	perl-io-async-ssl
+dep	perl-metrics-any	perl-metrics-any
+dep	perl-struct-dumb	perl-struct-dumb
+dep	perl-uri	perl-uri

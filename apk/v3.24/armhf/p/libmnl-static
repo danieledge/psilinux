@@ -1,0 +1,13 @@
+name	libmnl-static
+version	1.0.5-r2
+description	Library for minimalistic netlink (static library)
+url	https://www.netfilter.org/projects/libmnl/
+license	LGPL-2.1-or-later
+size	7151
+installed-size	16682
+depends	libmnl-dev
+origin	libmnl
+repo	main
+file	libmnl-static-1.0.5-r2.apk
+checksum	Q1g8jecHCU6Qy2zCwTcL/MxV1VWlo=
+dep	libmnl-dev	libmnl-dev

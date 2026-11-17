@@ -1,0 +1,16 @@
+name	intltool
+version	0.51.0-r9
+description	The internationalization tool collection
+url	https://www.freedesktop.org/wiki/Software/intltool
+license	GPL-2.0-or-later
+size	39905
+installed-size	140438
+depends	perl perl-xml-parser gettext file
+origin	intltool
+repo	community
+file	intltool-0.51.0-r9.apk
+checksum	Q11FC5iGGsJj5Vpou6e+sdS0Tm7tY=
+dep	perl	perl
+dep	perl-xml-parser	perl-xml-parser
+dep	gettext	gettext
+dep	file	file

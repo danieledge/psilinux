@@ -1,0 +1,15 @@
+name	mycorrhiza
+version	1.15.1-r13
+description	Lightweight wiki engine based on Git
+url	https://mycorrhiza.wiki/
+license	AGPL-3.0-only
+size	4187386
+installed-size	10510452
+depends	git /bin/sh so:libc.musl-armhf.so.1
+origin	mycorrhiza
+repo	community
+file	mycorrhiza-1.15.1-r13.apk
+checksum	Q10D6YOXQJCb83Sf5mm1QW7ob4uv0=
+dep	git	git
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

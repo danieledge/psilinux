@@ -1,0 +1,15 @@
+name	collectd-apache
+version	5.12.0-r25
+description	apache pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	7944
+installed-size	13432
+depends	collectd so:libc.musl-armhf.so.1 so:libcurl.so.4
+origin	collectd
+repo	community
+file	collectd-apache-5.12.0-r25.apk
+checksum	Q1Ux7r2GaN+GVRumj7Wg4yQ8xyX/Y=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl

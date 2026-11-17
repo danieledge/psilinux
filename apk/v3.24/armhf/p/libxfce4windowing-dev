@@ -1,0 +1,23 @@
+name	libxfce4windowing-dev
+version	4.20.6-r0
+description	Windowing concept abstraction library for X11 and Wayland (development files)
+url	https://gitlab.xfce.org/xfce/libxfce4windowing
+license	LGPL-2.1-or-later
+size	38670
+installed-size	296325
+depends	libxfce4windowing=4.20.6-r0 pc:gdk-wayland-3.0>=3.24.10 pc:gdk-x11-3.0>=3.24.10 pc:gio-unix-2.0>=2.72.0 pc:gtk+-3.0>=3.24.10 pc:libdisplay-info>=0.1.1 pc:libwnck-3.0>=3.14 pc:wayland-client>=1.20 pc:x11>=1.6.7 pc:xrandr>=1.5.0 pkgconfig
+origin	libxfce4windowing
+repo	community
+file	libxfce4windowing-dev-4.20.6-r0.apk
+checksum	Q1kRhWOzoZJB7dgIy5t/Z9MdEifqE=
+dep	libxfce4windowing=4.20.6-r0	libxfce4windowing
+dep	pc:gdk-wayland-3.0>=3.24.10	gtk+3.0-dev
+dep	pc:gdk-x11-3.0>=3.24.10	gtk+3.0-dev
+dep	pc:gio-unix-2.0>=2.72.0	glib-dev
+dep	pc:gtk+-3.0>=3.24.10	gtk+3.0-dev
+dep	pc:libdisplay-info>=0.1.1	libdisplay-info-dev
+dep	pc:libwnck-3.0>=3.14	libwnck3-dev
+dep	pc:wayland-client>=1.20	wayland-dev
+dep	pc:x11>=1.6.7	libx11-dev
+dep	pc:xrandr>=1.5.0	libxrandr-dev
+dep	pkgconfig	pkgconf

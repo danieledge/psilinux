@@ -1,0 +1,15 @@
+name	py3-gobject3-dev
+version	3.56.3-r0
+description	Python bindings for the GObject library (development files)
+url	https://pygobject.gnome.org
+license	LGPL-2.1-or-later
+size	8560
+installed-size	30048
+depends	pc:gobject-2.0 pc:libffi pkgconfig
+origin	py3-gobject3
+repo	main
+file	py3-gobject3-dev-3.56.3-r0.apk
+checksum	Q1pYxa1x4X3lwZu9ckTdb5J6mqdNI=
+dep	pc:gobject-2.0	glib-dev
+dep	pc:libffi	libffi-dev
+dep	pkgconfig	pkgconf

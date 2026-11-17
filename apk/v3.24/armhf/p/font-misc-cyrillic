@@ -1,0 +1,16 @@
+name	font-misc-cyrillic
+version	1.0.4-r1
+description	X.org misc cyrillic fonts
+url	https://xorg.freedesktop.org/
+license	custom
+size	69060
+installed-size	67359
+depends	encodings font-alias mkfontscale fontconfig
+origin	font-misc-cyrillic
+repo	main
+file	font-misc-cyrillic-1.0.4-r1.apk
+checksum	Q16QJ+mz1gCZCBNayvX8yNFPChXos=
+dep	encodings	encodings
+dep	font-alias	font-alias
+dep	mkfontscale	mkfontscale
+dep	fontconfig	fontconfig

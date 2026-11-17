@@ -1,0 +1,21 @@
+name	gnupg-scdaemon
+version	2.4.9-r1
+description	GNU Privacy Guard 2 - smart card support daemon
+url	https://www.gnupg.org/
+license	GPL-3.0-or-later
+size	225374
+installed-size	458120
+depends	gpg-agent=2.4.9-r1 /bin/sh so:libassuan.so.9 so:libc.musl-armhf.so.1 so:libgcrypt.so.20 so:libgpg-error.so.0 so:libksba.so.8 so:libnpth.so.0 so:libusb-1.0.so.0
+origin	gnupg
+repo	main
+file	gnupg-scdaemon-2.4.9-r1.apk
+checksum	Q1UyhqG6jw6dleAoYE+uKxqop19IA=
+dep	gpg-agent=2.4.9-r1	gpg-agent
+dep	/bin/sh	busybox-binsh
+dep	so:libassuan.so.9	libassuan
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgpg-error.so.0	libgpg-error
+dep	so:libksba.so.8	libksba
+dep	so:libnpth.so.0	npth
+dep	so:libusb-1.0.so.0	libusb

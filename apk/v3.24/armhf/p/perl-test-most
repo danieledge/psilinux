@@ -1,0 +1,18 @@
+name	perl-test-most
+version	0.42-r0
+description	Most commonly needed test functions and features
+url	https://metacpan.org/release/Test-Most/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	11611
+installed-size	27880
+depends	perl perl-exception-class perl-test-differences perl-test-warn perl-test-exception perl-test-deep
+origin	perl-test-most
+repo	community
+file	perl-test-most-0.42-r0.apk
+checksum	Q1+eyyVMZg1ZH9sPlEUC/skCE6ZhE=
+dep	perl	perl
+dep	perl-exception-class	perl-exception-class
+dep	perl-test-differences	perl-test-differences
+dep	perl-test-warn	perl-test-warn
+dep	perl-test-exception	perl-test-exception
+dep	perl-test-deep	perl-test-deep

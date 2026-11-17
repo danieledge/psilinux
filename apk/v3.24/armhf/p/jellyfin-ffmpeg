@@ -1,0 +1,45 @@
+name	jellyfin-ffmpeg
+version	7.1.3_p5-r0
+description	Modified version of FFmpeg for Jellyfin
+url	https://github.com/jellyfin/jellyfin-ffmpeg
+license	GPL-3.0-only
+size	22024296
+installed-size	45140848
+depends	so:libOpenCL.so.1 so:libasound.so.2 so:libass.so.9 so:libbluray.so.3 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libchromaprint.so.1 so:libcrypto.so.3 so:libdav1d.so.7 so:libdrm.so.2 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgmp.so.10 so:liblzma.so.5 so:libmp3lame.so.0 so:libopenmpt.so.0 so:libopus.so.0 so:libplacebo.so.360 so:libshaderc_shared.so.1 so:libssl.so.3 so:libtheoradec.so.2 so:libtheoraenc.so.2 so:libva-drm.so.2 so:libva.so.2 so:libvorbis.so.0 so:libvorbisenc.so.2 so:libvpx.so.11 so:libwebp.so.7 so:libwebpmux.so.3 so:libx264.so.164 so:libx265.so.215 so:libz.so.1 so:libzimg.so.2
+origin	jellyfin-ffmpeg
+repo	community
+file	jellyfin-ffmpeg-7.1.3_p5-r0.apk
+checksum	Q160amRjeRkLcTqEQUqfMPiJLOc4M=
+dep	so:libOpenCL.so.1	opencl
+dep	so:libasound.so.2	alsa-lib
+dep	so:libass.so.9	libass
+dep	so:libbluray.so.3	libbluray
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libchromaprint.so.1	chromaprint-libs
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libdav1d.so.7	libdav1d
+dep	so:libdrm.so.2	libdrm
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libgmp.so.10	gmp
+dep	so:liblzma.so.5	xz-libs
+dep	so:libmp3lame.so.0	lame-libs
+dep	so:libopenmpt.so.0	libopenmpt
+dep	so:libopus.so.0	opus
+dep	so:libplacebo.so.360	libplacebo
+dep	so:libshaderc_shared.so.1	shaderc
+dep	so:libssl.so.3	libssl3
+dep	so:libtheoradec.so.2	libtheora
+dep	so:libtheoraenc.so.2	libtheora
+dep	so:libva-drm.so.2	libva
+dep	so:libva.so.2	libva
+dep	so:libvorbis.so.0	libvorbis
+dep	so:libvorbisenc.so.2	libvorbis
+dep	so:libvpx.so.11	libvpx
+dep	so:libwebp.so.7	libwebp
+dep	so:libwebpmux.so.3	libwebpmux
+dep	so:libx264.so.164	x264-libs
+dep	so:libx265.so.215	x265-libs
+dep	so:libz.so.1	zlib
+dep	so:libzimg.so.2	zimg

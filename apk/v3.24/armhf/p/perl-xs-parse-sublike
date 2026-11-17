@@ -1,0 +1,15 @@
+name	perl-xs-parse-sublike
+version	0.41-r0
+description	XS functions to assist in parsing C<sub>-like syntax
+url	https://metacpan.org/release/XS-Parse-Sublike/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	37393
+installed-size	84983
+depends	perl perl-file-sharedir so:libc.musl-armhf.so.1
+origin	perl-xs-parse-sublike
+repo	community
+file	perl-xs-parse-sublike-0.41-r0.apk
+checksum	Q1mP++IGmCA1nHcWKt/+BPpUTMBN8=
+dep	perl	perl
+dep	perl-file-sharedir	perl-file-sharedir
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	py3-pytest-console-scripts
+version	1.4.1-r4
+description	Pytest plugin for testing console scripts
+url	https://github.com/kvas-it/pytest-console-scripts
+license	MIT
+size	11711
+installed-size	28514
+depends	py3-pytest python3~3.14
+origin	py3-pytest-console-scripts
+repo	community
+file	py3-pytest-console-scripts-1.4.1-r4.apk
+checksum	Q1xl5/+EDvMJopRfXFRUWMEkpObyc=
+dep	py3-pytest	py3-pytest
+dep	python3~3.14	python3

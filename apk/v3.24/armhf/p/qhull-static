@@ -1,0 +1,13 @@
+name	qhull-static
+version	2020.2-r3
+description	Calculate convex hulls and related structures (static library)
+url	https://www.qhull.org/
+license	custom
+size	514651
+installed-size	1316650
+depends	qhull-dev
+origin	qhull
+repo	community
+file	qhull-static-2020.2-r3.apk
+checksum	Q1ILa7SgopTD4oEiwUUzLjpKOBIh8=
+dep	qhull-dev	qhull-dev

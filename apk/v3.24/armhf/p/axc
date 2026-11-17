@@ -1,0 +1,17 @@
+name	axc
+version	0.3.7-r2
+description	Client lib for libsignal-c
+url	https://github.com/gkdr/axc
+license	GPL-3.0-or-later
+size	21750
+installed-size	54500
+depends	so:libc.musl-armhf.so.1 so:libgcrypt.so.20 so:libglib-2.0.so.0 so:libsignal-protocol-c.so.2 so:libsqlite3.so.0
+origin	axc
+repo	community
+file	axc-0.3.7-r2.apk
+checksum	Q1arq/OKOv2wfmFmeP+CzficxPuRk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libglib-2.0.so.0	glib
+dep	so:libsignal-protocol-c.so.2	libsignal-protocol-c
+dep	so:libsqlite3.so.0	sqlite-libs

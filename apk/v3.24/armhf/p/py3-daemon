@@ -1,0 +1,15 @@
+name	py3-daemon
+version	3.1.2-r1
+description	Library to implement a well-behaved Unix daemon process
+url	https://pagure.io/python-daemon
+license	Apache-2.0 AND GPL-3.0-or-later
+size	30577
+installed-size	91452
+depends	py3-setuptools py3-lockfile python3~3.14
+origin	py3-daemon
+repo	community
+file	py3-daemon-3.1.2-r1.apk
+checksum	Q1Hh4Vcdsl9l+nuC/VpuyH05002GQ=
+dep	py3-setuptools	py3-setuptools
+dep	py3-lockfile	py3-lockfile
+dep	python3~3.14	python3

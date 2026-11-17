@@ -1,0 +1,13 @@
+name	qt6-qtbase-private-dev
+version	6.11.1-r0
+description	A cross-platform application and UI framework
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	1334162
+installed-size	6349075
+depends	tzdata
+origin	qt6-qtbase
+repo	community
+file	qt6-qtbase-private-dev-6.11.1-r0.apk
+checksum	Q1sGqDnaKHCm9tO/Vs1Yr3hWY//AQ=
+dep	tzdata	tzdata

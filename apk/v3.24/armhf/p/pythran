@@ -1,0 +1,18 @@
+name	pythran
+version	0.18.1-r1
+description	Ahead of Time compiler for numeric kernels
+url	https://github.com/serge-sans-paille/pythran
+license	BSD-3-Clause
+size	2657722
+installed-size	25261313
+depends	py3-beniget py3-gast py3-numpy py3-ply python3 python3~3.14
+origin	pythran
+repo	community
+file	pythran-0.18.1-r1.apk
+checksum	Q1DueCGIuzk+2daZgjJue8DlBfm8c=
+dep	py3-beniget	py3-beniget
+dep	py3-gast	py3-gast
+dep	py3-numpy	py3-numpy
+dep	py3-ply	py3-ply
+dep	python3	python3
+dep	python3~3.14	python3

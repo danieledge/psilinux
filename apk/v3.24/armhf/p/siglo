@@ -1,0 +1,22 @@
+name	siglo
+version	0.9.9-r2
+description	GTK app to sync InfiniTime watch with PinePhone
+url	https://github.com/theironrobin/siglo
+license	MPL-2.0
+size	26594
+installed-size	151455
+depends	bluez bluez-btmgmt gtk+3.0 py3-dbus py3-gatt py3-gobject3 py3-requests py3-setuptools py3-xdg python3
+origin	siglo
+repo	community
+file	siglo-0.9.9-r2.apk
+checksum	Q1bTdVJRCKzqQlogMSJGHMXq+Pfpc=
+dep	bluez	bluez
+dep	bluez-btmgmt	bluez-btmgmt
+dep	gtk+3.0	gtk+3.0
+dep	py3-dbus	py3-dbus
+dep	py3-gatt	py3-gatt
+dep	py3-gobject3	py3-gobject3
+dep	py3-requests	py3-requests
+dep	py3-setuptools	py3-setuptools
+dep	py3-xdg	py3-xdg
+dep	python3	python3

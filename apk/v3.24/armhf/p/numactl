@@ -1,0 +1,13 @@
+name	numactl
+version	2.0.19-r0
+description	Simple NUMA policy support
+url	https://github.com/numactl/numactl
+license	LGPL-2.1-only
+size	18453
+installed-size	38336
+depends	so:libc.musl-armhf.so.1
+origin	numactl
+repo	main
+file	numactl-2.0.19-r0.apk
+checksum	Q1xoWRQo0jOoCnOQAFO/Uld+STn3Y=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	targetcli-pyc
+version	2.1.58-r4
+description	Precompiled Python bytecode for targetcli
+url	https://github.com/open-iscsi/targetcli-fb
+license	AGPL-3.0-or-later
+size	56015
+installed-size	140854
+depends	python3~3.14
+origin	targetcli
+repo	community
+file	targetcli-pyc-2.1.58-r4.apk
+checksum	Q1GJmM4SiOo9PJRTtXIjdyc8T5V1E=
+dep	python3~3.14	python3

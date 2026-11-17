@@ -1,0 +1,12 @@
+name	pulseaudio-dbg
+version	17.0-r7
+description	featureful, general-purpose sound server (debug symbols)
+url	https://www.freedesktop.org/wiki/Software/PulseAudio/
+license	LGPL-2.1-or-later
+size	5103954
+installed-size	12079264
+depends	!libpulse-mainloop-glib<17.0-r7 !libpulse-mainloop-glib>17.0-r7 !libpulse<17.0-r7 !libpulse>17.0-r7 !pulseaudio-alsa<17.0-r7 !pulseaudio-alsa>17.0-r7 !pulseaudio-bluez<17.0-r7 !pulseaudio-bluez>17.0-r7 !pulseaudio-equalizer<17.0-r7 !pulseaudio-equalizer>17.0-r7 !pulseaudio-jack<17.0-r7 !pulseaudio-jack>17.0-r7 !pulseaudio-utils<17.0-r7 !pulseaudio-utils>17.0-r7 !pulseaudio-zeroconf<17.0-r7 !pulseaudio-zeroconf>17.0-r7 !pulseaudio<17.0-r7 !pulseaudio>17.0-r7
+origin	pulseaudio
+repo	community
+file	pulseaudio-dbg-17.0-r7.apk
+checksum	Q1QpxTX9h9p7CpaYv5/72qmAWszA4=

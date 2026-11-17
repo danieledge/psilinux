@@ -1,0 +1,19 @@
+name	libetonyek-tools
+version	0.1.13-r0
+description	Import filter and tools for Apple Keynote presentations
+url	https://wiki.documentfoundation.org/DLP/Libraries/libetonyek
+license	MPL-2.0
+size	20141
+installed-size	111444
+depends	so:libc.musl-armhf.so.1 so:libetonyek-0.1.so.1 so:libgcc_s.so.1 so:librevenge-0.0.so.0 so:librevenge-generators-0.0.so.0 so:librevenge-stream-0.0.so.0 so:libstdc++.so.6
+origin	libetonyek
+repo	community
+file	libetonyek-tools-0.1.13-r0.apk
+checksum	Q16hv7YGhhXN3QVSeEVVtmFVd2Vks=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libetonyek-0.1.so.1	libetonyek
+dep	so:libgcc_s.so.1	libgcc
+dep	so:librevenge-0.0.so.0	librevenge
+dep	so:librevenge-generators-0.0.so.0	librevenge
+dep	so:librevenge-stream-0.0.so.0	librevenge
+dep	so:libstdc++.so.6	libstdc++

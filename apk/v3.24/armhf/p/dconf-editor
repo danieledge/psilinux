@@ -1,0 +1,21 @@
+name	dconf-editor
+version	49.0-r1
+description	Dconf Editor is a viewer and editor of applications internal settings
+url	https://gitlab.gnome.org/GNOME/dconf-editor
+license	GPL-3.0-or-later
+size	280039
+installed-size	821513
+depends	so:libc.musl-armhf.so.1 so:libdconf.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libhandy-1.so.0 so:libintl.so.8
+origin	dconf-editor
+repo	community
+file	dconf-editor-49.0-r1.apk
+checksum	Q138xBho6OQ5xTVC0/jv/P6j1jV6M=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdconf.so.1	dconf
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libhandy-1.so.0	libhandy1
+dep	so:libintl.so.8	libintl

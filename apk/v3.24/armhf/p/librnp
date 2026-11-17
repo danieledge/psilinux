@@ -1,0 +1,20 @@
+name	librnp
+version	0.18.1-r1
+description	High performance C++ OpenPGP library used by Mozilla Thunderbird (libraries)
+url	https://www.rnpgp.org/
+license	BSD-2-Clause
+size	333209
+installed-size	746916
+depends	so:libbotan-3.so.11 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libjson-c.so.5 so:libsexpp.so.0 so:libstdc++.so.6 so:libz.so.1
+origin	rnp
+repo	community
+file	librnp-0.18.1-r1.apk
+checksum	Q1xqem0h+w11SMNW/b5kLxZTK+gcM=
+dep	so:libbotan-3.so.11	botan3-libs
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjson-c.so.5	json-c
+dep	so:libsexpp.so.0	sexpp
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

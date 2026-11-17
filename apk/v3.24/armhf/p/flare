@@ -1,0 +1,25 @@
+name	flare
+version	0.20.3-r0
+description	Unofficial Signal GTK client
+url	https://gitlab.com/schmiddi-on-mobile/flare
+license	AGPL-3.0-only
+size	5188716
+installed-size	11592757
+depends	so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libgtksourceview-5.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libspelling-1.so.2
+origin	flare
+repo	community
+file	flare-0.20.3-r0.apk
+checksum	Q1cNGMU/9JlTy1YboIf8foM9KENO8=
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libgtksourceview-5.so.0	gtksourceview5
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libspelling-1.so.2	libspelling

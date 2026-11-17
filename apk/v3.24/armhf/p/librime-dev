@@ -1,0 +1,15 @@
+name	librime-dev
+version	1.17.0-r0
+description	Rime input method engine (development files)
+url	https://github.com/rime/librime
+license	BSD-3-Clause
+size	9396
+installed-size	34574
+depends	librime-tools=1.17.0-r0 librime=1.17.0-r0 pkgconfig
+origin	librime
+repo	community
+file	librime-dev-1.17.0-r0.apk
+checksum	Q1fphj3jfzXDCPyuPBC4JPlZULdgQ=
+dep	librime-tools=1.17.0-r0	librime-tools
+dep	librime=1.17.0-r0	librime
+dep	pkgconfig	pkgconf

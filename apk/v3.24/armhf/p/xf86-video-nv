@@ -1,0 +1,13 @@
+name	xf86-video-nv
+version	2.1.23-r0
+description	Nvidia video driver
+url	https://xorg.freedesktop.org
+license	MIT
+size	62026
+installed-size	121424
+depends	so:libc.musl-armhf.so.1
+origin	xf86-video-nv
+repo	community
+file	xf86-video-nv-2.1.23-r0.apk
+checksum	Q1jH9rrTzykAwCovdnag+/pMd3pLU=
+dep	so:libc.musl-armhf.so.1	musl

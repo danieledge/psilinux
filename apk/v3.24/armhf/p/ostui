@@ -1,0 +1,14 @@
+name	ostui
+version	1.3.2-r0
+description	A terminal client for OpenSubsonic servers
+url	https://git.sr.ht/~ser/ostui
+license	GPL-3.0-or-later
+size	5119202
+installed-size	12113500
+depends	so:libc.musl-armhf.so.1 so:libmpv.so.2
+origin	ostui
+repo	community
+file	ostui-1.3.2-r0.apk
+checksum	Q1s3H8R+YeaWh/WtPuamGR51gQsos=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmpv.so.2	mpv-libs

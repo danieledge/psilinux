@@ -1,0 +1,12 @@
+name	openntpd-openrc
+version	6.8_p1-r12
+description	Lightweight NTP server ported from OpenBSD (OpenRC init scripts)
+url	https://openntpd.org/
+license	ISC
+size	1859
+installed-size	290
+depends	
+origin	openntpd
+repo	main
+file	openntpd-openrc-6.8_p1-r12.apk
+checksum	Q1XT/kCXiYdtXf6VowdQmIFQvvvKA=

@@ -1,0 +1,21 @@
+name	networkmanager-cli
+version	1.52.2-r0
+description	Network Management daemon (command line interface)
+url	https://networkmanager.dev
+license	GPL-2.0-or-later
+size	264680
+installed-size	717596
+depends	networkmanager=1.52.2-r0 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libnm.so.0 so:libreadline.so.8
+origin	networkmanager
+repo	community
+file	networkmanager-cli-1.52.2-r0.apk
+checksum	Q1ZrpYFrKko3RKyyx6QNoCqefoDoo=
+dep	networkmanager=1.52.2-r0	networkmanager
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libnm.so.0	libnm
+dep	so:libreadline.so.8	readline

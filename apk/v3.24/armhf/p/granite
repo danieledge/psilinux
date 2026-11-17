@@ -1,0 +1,26 @@
+name	granite
+version	6.2.0-r3
+description	Library that extends GTK with common widgets and utilities
+url	https://github.com/elementary/granite
+license	LGPL-3.0-or-later
+size	225511
+installed-size	646998
+depends	gsettings-desktop-schemas hicolor-icon-theme so:libc.musl-armhf.so.1 so:libcairo-gobject.so.2 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgee-0.8.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libpango-1.0.so.0
+origin	granite
+repo	community
+file	granite-6.2.0-r3.apk
+checksum	Q1nYY9eGnVNJyH0UeExwv5G7/Y3FM=
+dep	gsettings-desktop-schemas	gsettings-desktop-schemas
+dep	hicolor-icon-theme	hicolor-icon-theme
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo-gobject.so.2	cairo-gobject
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgee-0.8.so.2	libgee
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango

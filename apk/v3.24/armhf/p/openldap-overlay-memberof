@@ -1,0 +1,14 @@
+name	openldap-overlay-memberof
+version	2.6.15-r0
+description	OpenLDAP memberof overlay
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	14389
+installed-size	31548
+depends	so:libc.musl-armhf.so.1 so:liblber.so.2
+origin	openldap
+repo	main
+file	openldap-overlay-memberof-2.6.15-r0.apk
+checksum	Q1UoMFrSS6axwtWO1FIbkxWUsw9wY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap

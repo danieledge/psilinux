@@ -1,0 +1,18 @@
+name	libheif-openjpeg
+version	1.23.7-r0
+description	libheif JPEG 2000 encoder and decoder plugins using OpenJPEG
+url	https://www.libde265.org/
+license	LGPL-3.0-or-later
+size	13738
+installed-size	31844
+depends	libheif=1.23.7-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:libopenjp2.so.7 so:libstdc++.so.6
+origin	libheif
+repo	community
+file	libheif-openjpeg-1.23.7-r0.apk
+checksum	Q12M5jF9x7VvGD8Df8YEgfuQ3Dczs=
+dep	libheif=1.23.7-r0	libheif
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libheif.so.1	libheif
+dep	so:libopenjp2.so.7	openjpeg
+dep	so:libstdc++.so.6	libstdc++

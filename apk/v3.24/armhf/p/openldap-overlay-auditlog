@@ -1,0 +1,15 @@
+name	openldap-overlay-auditlog
+version	2.6.15-r0
+description	OpenLDAP auditlog overlay
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	4753
+installed-size	10604
+depends	so:libc.musl-armhf.so.1 so:liblber.so.2 so:libldap.so.2
+origin	openldap
+repo	main
+file	openldap-overlay-auditlog-2.6.15-r0.apk
+checksum	Q1CF/MELihY1AsNW4uPD4sk9LOXuY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap

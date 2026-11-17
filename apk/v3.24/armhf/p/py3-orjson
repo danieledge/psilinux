@@ -1,0 +1,15 @@
+name	py3-orjson
+version	3.11.9-r0
+description	Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
+url	https://github.com/ijl/orjson
+license	Apache-2.0 AND MIT
+size	333882
+installed-size	731416
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	py3-orjson
+repo	community
+file	py3-orjson-3.11.9-r0.apk
+checksum	Q1074xKQpT1L2jnMcV6+tHe7WxPfA=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

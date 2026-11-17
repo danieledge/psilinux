@@ -1,0 +1,15 @@
+name	postgresql16-plpython3-contrib
+version	16.16-r0
+description	PL/Python 3 extension modules distributed with PostgreSQL
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	7000
+installed-size	16173
+depends	postgresql16-plpython3=16.16-r0 so:libc.musl-armhf.so.1 so:libpython3.14.so.1.0
+origin	postgresql16
+repo	community
+file	postgresql16-plpython3-contrib-16.16-r0.apk
+checksum	Q1cB/2+wLUtvpSpqz8AV0WgyIy318=
+dep	postgresql16-plpython3=16.16-r0	postgresql16-plpython3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpython3.14.so.1.0	python3

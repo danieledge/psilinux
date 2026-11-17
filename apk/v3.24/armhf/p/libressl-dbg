@@ -1,0 +1,12 @@
+name	libressl-dbg
+version	4.3.1-r0
+description	Version of the TLS/crypto stack forked from OpenSSL (debug symbols)
+url	https://www.libressl.org/
+license	custom
+size	10973918
+installed-size	26594060
+depends	!libressl<4.3.1-r0 !libressl>4.3.1-r0
+origin	libressl
+repo	community
+file	libressl-dbg-4.3.1-r0.apk
+checksum	Q1aZuOquWz2Hwj7huMGBwtDfCruL0=

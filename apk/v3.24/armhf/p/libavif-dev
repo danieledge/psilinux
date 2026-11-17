@@ -1,0 +1,16 @@
+name	libavif-dev
+version	1.4.1-r0
+description	Library for encoding and decoding .avif files (development files)
+url	https://aomediacodec.github.io/av1-avif/
+license	BSD-2-Clause
+size	30931
+installed-size	101027
+depends	libavif=1.4.1-r0 pc:aom pc:dav1d pkgconfig
+origin	libavif
+repo	main
+file	libavif-dev-1.4.1-r0.apk
+checksum	Q1HTuDkv4Ye2L7qv1VLf2SFZ+RlTc=
+dep	libavif=1.4.1-r0	libavif
+dep	pc:aom	aom-dev
+dep	pc:dav1d	dav1d-dev
+dep	pkgconfig	pkgconf

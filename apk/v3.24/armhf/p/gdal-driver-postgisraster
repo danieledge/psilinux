@@ -1,0 +1,17 @@
+name	gdal-driver-postgisraster
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (PostGIS Raster driver driver)
+url	https://gdal.org/
+license	MIT
+size	45294
+installed-size	103808
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libpq.so.5 so:libstdc++.so.6
+origin	gdal
+repo	community
+file	gdal-driver-postgisraster-3.13.3-r0.apk
+checksum	Q12lPQq/yDIrhi/7MuY4/X81NbOV8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libpq.so.5	libpq
+dep	so:libstdc++.so.6	libstdc++

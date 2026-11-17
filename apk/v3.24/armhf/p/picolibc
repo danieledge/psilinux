@@ -1,0 +1,14 @@
+name	picolibc
+version	1.8.11-r0
+description	A C standard library based on newlib with focus on compact size
+url	https://github.com/picolibc/picolibc
+license	GPL-2.0-only AND LGPL-2.1-only AND 0BSD AND BSD-3-Clause AND GPL-3.0-only AND LGPL-3.0-only
+size	1337
+installed-size	0
+depends	picolibc-arm-none-eabi picolibc-riscv-none-elf
+origin	picolibc
+repo	community
+file	picolibc-1.8.11-r0.apk
+checksum	Q1GiQt9K/EMwdPT4TbQUiuY8C1fJc=
+dep	picolibc-arm-none-eabi	picolibc-arm-none-eabi
+dep	picolibc-riscv-none-elf	picolibc-riscv-none-elf

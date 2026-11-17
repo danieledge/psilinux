@@ -1,0 +1,14 @@
+name	py3-typogrify
+version	2.1.0-r1
+description	Filters to enhance web typography, including support for Django & Jinja templates
+url	https://github.com/justinmayer/typogrify
+license	BSD-3-Clause
+size	12885
+installed-size	32492
+depends	smartypants python3~3.14
+origin	py3-typogrify
+repo	community
+file	py3-typogrify-2.1.0-r1.apk
+checksum	Q1/L+RZmjH8sjeNwt+eIP2IvAqvXs=
+dep	smartypants	smartypants
+dep	python3~3.14	python3

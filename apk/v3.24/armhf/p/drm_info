@@ -1,0 +1,16 @@
+name	drm_info
+version	2.9.0-r0
+description	Small utility to dump info about DRM devices
+url	https://gitlab.freedesktop.org/emersion/drm_info
+license	MIT
+size	25851
+installed-size	54656
+depends	so:libc.musl-armhf.so.1 so:libdrm.so.2 so:libjson-c.so.5 so:libpci.so.3
+origin	drm_info
+repo	community
+file	drm_info-2.9.0-r0.apk
+checksum	Q1IVh7yYhVkeX39a9isxxlc9ENhc4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm.so.2	libdrm
+dep	so:libjson-c.so.5	json-c
+dep	so:libpci.so.3	pciutils-libs

@@ -1,0 +1,15 @@
+name	perl-curses
+version	1.46-r0
+description	terminal screen handling and optimization
+url	https://metacpan.org/release/Curses/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	60208
+installed-size	198825
+depends	perl so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	perl-curses
+repo	community
+file	perl-curses-1.46-r0.apk
+checksum	Q1eizz7haKGZpRlxcrlUtvKu8iaSQ=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

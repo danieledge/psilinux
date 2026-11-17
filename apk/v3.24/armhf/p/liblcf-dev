@@ -1,0 +1,16 @@
+name	liblcf-dev
+version	0.8.1-r1
+description	Library to handle RPG Maker 2000/2003 and EasyRPG projects (development files)
+url	https://easyrpg.org/
+license	MIT
+size	95062
+installed-size	491066
+depends	liblcf=0.8.1-r1 pc:expat pc:icu-i18n pkgconfig
+origin	liblcf
+repo	community
+file	liblcf-dev-0.8.1-r1.apk
+checksum	Q1R6PghzV8GvQlMAKRrGrwSb23fu0=
+dep	liblcf=0.8.1-r1	liblcf
+dep	pc:expat	expat-dev
+dep	pc:icu-i18n	icu-dev
+dep	pkgconfig	pkgconf

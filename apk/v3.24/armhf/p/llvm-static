@@ -1,0 +1,13 @@
+name	llvm-static
+version	22-r0
+description	LLVM 22 static libraries
+url	https://llvm.org/
+license	Apache-2.0
+size	1248
+installed-size	0
+depends	llvm22-static
+origin	llvm
+repo	main
+file	llvm-static-22-r0.apk
+checksum	Q1VhtmVVh2JBhOqhwnzjND7HrqO44=
+dep	llvm22-static	llvm22-static

@@ -1,0 +1,13 @@
+name	qhull-nonreentrant
+version	2020.2-r3
+description	Calculate convex hulls and related structures
+url	https://www.qhull.org/
+license	custom
+size	177359
+installed-size	386232
+depends	so:libc.musl-armhf.so.1
+origin	qhull
+repo	community
+file	qhull-nonreentrant-2020.2-r3.apk
+checksum	Q1WI20OpuHHKtJvERmnpHLnWv1x88=
+dep	so:libc.musl-armhf.so.1	musl

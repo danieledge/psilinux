@@ -1,0 +1,19 @@
+name	nushell-plugins
+version	0.104.1-r0
+description	Nushell plugins
+url	https://www.nushell.sh
+license	MIT
+size	10261245
+installed-size	26973156
+depends	nushell=0.104.1-r0 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgcc_s.so.1 so:libgit2.so.1.9 so:libssh2.so.1 so:libssl.so.3
+origin	nushell
+repo	community
+file	nushell-plugins-0.104.1-r0.apk
+checksum	Q1iIFmhi9CbQf7S1NwOpqWrWKv57o=
+dep	nushell=0.104.1-r0	nushell
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgit2.so.1.9	libgit2
+dep	so:libssh2.so.1	libssh2
+dep	so:libssl.so.3	libssl3

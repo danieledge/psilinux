@@ -1,0 +1,14 @@
+name	cloud-init-datasource-akamai
+version	26.1-r3
+description	Cloud-init Akamai datasource
+url	https://cloud-init.io
+license	Apache-2.0 OR GPL-3.0-only
+size	5228
+installed-size	12960
+depends	cloud-init=26.1-r3 python3~3.14
+origin	cloud-init
+repo	community
+file	cloud-init-datasource-akamai-26.1-r3.apk
+checksum	Q16cZnDFDQE4KzSI7ftXDBQ6lbrDk=
+dep	cloud-init=26.1-r3	cloud-init
+dep	python3~3.14	python3

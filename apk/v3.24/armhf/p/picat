@@ -1,0 +1,15 @@
+name	picat
+version	3.9.12-r0
+description	Logic-based multi-paradigm programming language
+url	https://picat-lang.org/
+license	MPL-2.0
+size	1567203
+installed-size	5982352
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	picat
+repo	community
+file	picat-3.9.12-r0.apk
+checksum	Q1CGlimUAm0QyZz3jlFNYiOTD5hwc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

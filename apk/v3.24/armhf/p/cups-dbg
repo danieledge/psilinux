@@ -1,0 +1,12 @@
+name	cups-dbg
+version	2.4.19-r1
+description	The CUPS Printing System (debug symbols)
+url	https://github.com/OpenPrinting/cups/
+license	Apache-2.0
+size	2865040
+installed-size	6796904
+depends	!cups-client<2.4.19-r1 !cups-client>2.4.19-r1 !cups-libs<2.4.19-r1 !cups-libs>2.4.19-r1 !cups<2.4.19-r1 !cups>2.4.19-r1 !ipptool<2.4.19-r1 !ipptool>2.4.19-r1
+origin	cups
+repo	main
+file	cups-dbg-2.4.19-r1.apk
+checksum	Q1DK8E8kdN4EE+6vgPL5fNb7VqCjg=

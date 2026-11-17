@@ -1,0 +1,16 @@
+name	emacs-pyim
+version	5.3.6-r1
+description	Chinese input method derived from Emacs-eim
+url	https://github.com/tumashu/pyim
+license	GPL-3.0-or-later
+size	365409
+installed-size	1010860
+depends	cmd:emacs emacs-async emacs-posframe emacs-xr
+origin	emacs-pyim
+repo	community
+file	emacs-pyim-5.3.6-r1.apk
+checksum	Q1cDhXYiMT9LCdGd4TJCc3VGU7vhE=
+dep	cmd:emacs	emacs-gtk3
+dep	emacs-async	emacs-async
+dep	emacs-posframe	emacs-posframe
+dep	emacs-xr	emacs-xr

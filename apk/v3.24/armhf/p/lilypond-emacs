@@ -1,0 +1,15 @@
+name	lilypond-emacs
+version	2.26.0-r0
+description	Music engraving program (emacs plugin)
+url	https://lilypond.org
+license	GPL-3.0-or-later
+size	31444
+installed-size	103668
+depends	ghostscript guile python3
+origin	lilypond
+repo	community
+file	lilypond-emacs-2.26.0-r0.apk
+checksum	Q1DEVR2yzEv4/CpA7rQ8X3ctTpwwU=
+dep	ghostscript	ghostscript
+dep	guile	guile
+dep	python3	python3

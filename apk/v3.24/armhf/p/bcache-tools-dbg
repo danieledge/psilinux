@@ -1,0 +1,12 @@
+name	bcache-tools-dbg
+version	1.1-r5
+description	tools for managing bcache (debug symbols)
+url	https://bcache.evilpiepirate.org/
+license	GPL-2.0-or-later
+size	85183
+installed-size	190256
+depends	!bcache-tools-udev<1.1-r5 !bcache-tools-udev>1.1-r5 !bcache-tools<1.1-r5 !bcache-tools>1.1-r5
+origin	bcache-tools
+repo	main
+file	bcache-tools-dbg-1.1-r5.apk
+checksum	Q1IPO39Flm4ZVW7loiL44QkKL/u8U=

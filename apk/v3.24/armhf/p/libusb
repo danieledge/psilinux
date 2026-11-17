@@ -1,0 +1,13 @@
+name	libusb
+version	1.0.30-r0
+description	Library that enables userspace access to USB devices
+url	https://libusb.info/
+license	LGPL-2.1-or-later
+size	48450
+installed-size	99620
+depends	so:libc.musl-armhf.so.1
+origin	libusb
+repo	main
+file	libusb-1.0.30-r0.apk
+checksum	Q1Ugd+7OfFP6u9Tlx3roQwIr/Qp0o=
+dep	so:libc.musl-armhf.so.1	musl

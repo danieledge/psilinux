@@ -1,0 +1,17 @@
+name	py3-cherrypy
+version	18.10.0-r1
+description	A pythonic, object-oriented web development framework
+url	https://cherrypy.dev/
+license	BSD-3-Clause
+size	177226
+installed-size	581271
+depends	py3-cheroot py3-jaraco.collections py3-portend py3-zc.lockfile python3~3.14
+origin	py3-cherrypy
+repo	community
+file	py3-cherrypy-18.10.0-r1.apk
+checksum	Q1h6EKYfY/6Z2jK6D+MGFFEMbBsW8=
+dep	py3-cheroot	py3-cheroot
+dep	py3-jaraco.collections	py3-jaraco.collections
+dep	py3-portend	py3-portend
+dep	py3-zc.lockfile	py3-zc.lockfile
+dep	python3~3.14	python3

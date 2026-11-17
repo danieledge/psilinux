@@ -1,0 +1,19 @@
+name	zef
+version	1.0.0-r3
+description	Raku / Perl6 Module Management
+url	https://github.com/ugexe/zef
+license	Artistic-2.0
+size	2191396
+installed-size	8909111
+depends	rakudo git wget curl tar unzip perl-utils
+origin	zef
+repo	community
+file	zef-1.0.0-r3.apk
+checksum	Q1CWpHrCPAyk91F7pF/A5j30+kUeo=
+dep	rakudo	rakudo
+dep	git	git
+dep	wget	wget
+dep	curl	curl
+dep	tar	tar
+dep	unzip	unzip
+dep	perl-utils	perl-utils

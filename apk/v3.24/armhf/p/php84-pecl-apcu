@@ -1,0 +1,14 @@
+name	php84-pecl-apcu
+version	5.1.28-r0
+description	PHP 8.4 extension APC User Cache - PECL
+url	https://pecl.php.net/package/apcu
+license	PHP-3.01
+size	55121
+installed-size	162090
+depends	php84-common so:libc.musl-armhf.so.1
+origin	php84-pecl-apcu
+repo	community
+file	php84-pecl-apcu-5.1.28-r0.apk
+checksum	Q1rOT2bBiXcjBZ2xoCydFH+YIUiFw=
+dep	php84-common	php84-common
+dep	so:libc.musl-armhf.so.1	musl

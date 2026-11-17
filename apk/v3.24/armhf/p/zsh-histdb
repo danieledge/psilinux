@@ -1,0 +1,15 @@
+name	zsh-histdb
+version	0_git20220118-r0
+description	A slightly better history for zsh
+url	https://github.com/larkery/zsh-histdb
+license	MIT
+size	9825
+installed-size	26840
+depends	cmd:column cmd:sqlite3 zsh
+origin	zsh-histdb
+repo	community
+file	zsh-histdb-0_git20220118-r0.apk
+checksum	Q112mwZbmHzJkYtFh0i89pqqycRJs=
+dep	cmd:column	util-linux-misc
+dep	cmd:sqlite3	sqlite
+dep	zsh	zsh

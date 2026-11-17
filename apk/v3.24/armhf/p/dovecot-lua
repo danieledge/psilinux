@@ -1,0 +1,17 @@
+name	dovecot-lua
+version	2.4.5-r0
+description	Lua plugins for Dovecot
+url	https://www.dovecot.org/
+license	MIT AND LGPL-2.1-or-later
+size	59972
+installed-size	154960
+depends	dovecot=2.4.5-r0 so:libc.musl-armhf.so.1 so:libdovecot-storage.so.0 so:libdovecot.so.0 so:liblua-5.3.so.0
+origin	dovecot
+repo	main
+file	dovecot-lua-2.4.5-r0.apk
+checksum	Q1BN29hr6lBmzgBn+jCXdIGDn9JJY=
+dep	dovecot=2.4.5-r0	dovecot
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdovecot-storage.so.0	dovecot
+dep	so:libdovecot.so.0	dovecot
+dep	so:liblua-5.3.so.0	lua5.3-libs

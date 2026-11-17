@@ -1,0 +1,20 @@
+name	incus-feature-utils
+version	7.0.0-r3
+description	Incus utilities and scripts
+url	https://github.com/lxc/incus
+license	Apache-2.0
+size	37456617
+installed-size	97552697
+depends	incus-feature py3-lxc jq so:libacl.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libintl.so.8 so:libsqlite3.so.0
+origin	incus-feature
+repo	community
+file	incus-feature-utils-7.0.0-r3.apk
+checksum	Q10CVfFuzVGPjVjjlMki1xNyG44Ow=
+dep	incus-feature	incus-feature
+dep	py3-lxc	py3-lxc
+dep	jq	jq
+dep	so:libacl.so.1	acl-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libintl.so.8	libintl
+dep	so:libsqlite3.so.0	sqlite-libs

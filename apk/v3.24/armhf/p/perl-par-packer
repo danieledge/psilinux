@@ -1,0 +1,19 @@
+name	perl-par-packer
+version	1.064-r4
+description	App::Packer::Backend interface, for generating stand-alone executables, perl scripts and PAR files
+url	https://metacpan.org/release/PAR-Packer/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	3446916
+installed-size	9164874
+depends	perl-archive-zip perl-par perl-module-scandeps perl-getopt-argvfile perl-par-dist so:libc.musl-armhf.so.1 so:libperl.so
+origin	perl-par-packer
+repo	community
+file	perl-par-packer-1.064-r4.apk
+checksum	Q1vGUQ2fOxJmi+KCA1P7BmoYcw1I4=
+dep	perl-archive-zip	perl-archive-zip
+dep	perl-par	perl-par
+dep	perl-module-scandeps	perl-module-scandeps
+dep	perl-getopt-argvfile	perl-getopt-argvfile
+dep	perl-par-dist	perl-par-dist
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libperl.so	perl

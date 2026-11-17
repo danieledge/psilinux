@@ -1,0 +1,16 @@
+name	ruby-ffi
+version	1.17.2-r0
+description	Ruby FFI library
+url	https://github.com/ffi/ffi
+license	BSD-3-Clause
+size	92634
+installed-size	288016
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libffi.so.8 so:libruby.so.3.4
+origin	ruby-ffi
+repo	community
+file	ruby-ffi-1.17.2-r0.apk
+checksum	Q18wqzwxzzmTyiAL40ExtqiK/mvPs=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libffi.so.8	libffi
+dep	so:libruby.so.3.4	ruby-libs

@@ -1,0 +1,14 @@
+name	cabextract
+version	1.11-r2
+description	Tool for extracting Microsoft cabinet files
+url	https://www.cabextract.org.uk/
+license	GPL-2.0-or-later
+size	13544
+installed-size	26120
+depends	so:libc.musl-armhf.so.1 so:libmspack.so.0
+origin	cabextract
+repo	community
+file	cabextract-1.11-r2.apk
+checksum	Q1SCdmnLX9+XqVfzHqGIFaJEK0c68=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmspack.so.0	libmspack

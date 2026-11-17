@@ -1,0 +1,15 @@
+name	texmf-dist-mathscience
+version	2026.0-r0
+description	texmf-dist: Mathematics, natural sciences, computer science packages
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	8242385
+installed-size	35515740
+depends	texmf-dist texmf-dist-fontsrecommended texmf-dist-latex
+origin	texmf-dist
+repo	community
+file	texmf-dist-mathscience-2026.0-r0.apk
+checksum	Q1rI5viDb/Kmefx4UY7/1VbXQkzBY=
+dep	texmf-dist	texmf-dist
+dep	texmf-dist-fontsrecommended	texmf-dist-fontsrecommended
+dep	texmf-dist-latex	texmf-dist-latex

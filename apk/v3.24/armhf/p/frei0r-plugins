@@ -1,0 +1,21 @@
+name	frei0r-plugins
+version	3.1.3-r0
+description	A minimalistic plugin API for video sources and filters
+url	https://frei0r.dyne.org/
+license	GPL-2.0-or-later
+size	656451
+installed-size	5300808
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgavl.so.1 so:libgcc_s.so.1 so:libopencv_core.so.412 so:libopencv_imgproc.so.412 so:libopencv_objdetect.so.412 so:libopencv_video.so.412 so:libstdc++.so.6
+origin	frei0r-plugins
+repo	community
+file	frei0r-plugins-3.1.3-r0.apk
+checksum	Q1QyNiFJ8CL6EnNOpoHy043hfLYHA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgavl.so.1	gavl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libopencv_core.so.412	libopencv_core
+dep	so:libopencv_imgproc.so.412	libopencv_imgproc
+dep	so:libopencv_objdetect.so.412	libopencv_objdetect
+dep	so:libopencv_video.so.412	libopencv_video
+dep	so:libstdc++.so.6	libstdc++

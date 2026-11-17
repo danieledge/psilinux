@@ -1,0 +1,14 @@
+name	opensmtpd-table-postgres
+version	1.1.1-r0
+description	OpenSMTPD PostgreSQL tables
+url	https://github.com/OpenSMTPD/table-postgres
+license	ISC
+size	10795
+installed-size	21760
+depends	so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	opensmtpd-table-postgres
+repo	community
+file	opensmtpd-table-postgres-1.1.1-r0.apk
+checksum	Q1E0/CAo3bWLL+WnXTNpvSSRDKVwg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

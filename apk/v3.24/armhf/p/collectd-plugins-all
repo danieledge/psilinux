@@ -1,0 +1,80 @@
+name	collectd-plugins-all
+version	5.12.0-r25
+description	Meta package for all collectd plugins
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	1640
+installed-size	0
+depends	collectd-amqp collectd-apache collectd-apcups collectd-ascent collectd-barometer collectd-battery collectd-bind collectd-capabilities collectd-ceph collectd-chrony collectd-connectivity collectd-curl collectd-dbi collectd-disk collectd-dns collectd-email collectd-exec collectd-gps collectd-hddtemp collectd-infiniband collectd-ipmi collectd-iptables collectd-log_logstash collectd-lua collectd-madwifi collectd-mbmon collectd-mcelog collectd-memcachec collectd-memcached collectd-modbus collectd-mqtt collectd-multimeter collectd-mysql collectd-network collectd-nginx collectd-notify_desktop collectd-olsrd collectd-onewire collectd-openldap collectd-openvpn collectd-ovs collectd-pcie_errors collectd-pinba collectd-ping collectd-postgresql collectd-powerdns collectd-python collectd-redis collectd-rrdtool collectd-sensors collectd-serial collectd-smart collectd-snmp collectd-statsd collectd-sysevent collectd-teamspeak2 collectd-ted collectd-varnish collectd-vserver collectd-wireless collectd-write_http collectd-write_kafka collectd-write_prometheus collectd-write_redis collectd-write_riemann collectd-write_stackdriver collectd-zookeeper collectd-virt
+origin	collectd
+repo	community
+file	collectd-plugins-all-5.12.0-r25.apk
+checksum	Q1FVUdYgeSXriXi14xcmMhnK81T80=
+dep	collectd-amqp	collectd-amqp
+dep	collectd-apache	collectd-apache
+dep	collectd-apcups	collectd-apcups
+dep	collectd-ascent	collectd-ascent
+dep	collectd-barometer	collectd-barometer
+dep	collectd-battery	collectd-battery
+dep	collectd-bind	collectd-bind
+dep	collectd-capabilities	collectd-capabilities
+dep	collectd-ceph	collectd-ceph
+dep	collectd-chrony	collectd-chrony
+dep	collectd-connectivity	collectd-connectivity
+dep	collectd-curl	collectd-curl
+dep	collectd-dbi	collectd-dbi
+dep	collectd-disk	collectd-disk
+dep	collectd-dns	collectd-dns
+dep	collectd-email	collectd-email
+dep	collectd-exec	collectd-exec
+dep	collectd-gps	collectd-gps
+dep	collectd-hddtemp	collectd-hddtemp
+dep	collectd-infiniband	collectd-infiniband
+dep	collectd-ipmi	collectd-ipmi
+dep	collectd-iptables	collectd-iptables
+dep	collectd-log_logstash	collectd-log_logstash
+dep	collectd-lua	collectd-lua
+dep	collectd-madwifi	collectd-madwifi
+dep	collectd-mbmon	collectd-mbmon
+dep	collectd-mcelog	collectd-mcelog
+dep	collectd-memcachec	collectd-memcachec
+dep	collectd-memcached	collectd-memcached
+dep	collectd-modbus	collectd-modbus
+dep	collectd-mqtt	collectd-mqtt
+dep	collectd-multimeter	collectd-multimeter
+dep	collectd-mysql	collectd-mysql
+dep	collectd-network	collectd-network
+dep	collectd-nginx	collectd-nginx
+dep	collectd-notify_desktop	collectd-notify_desktop
+dep	collectd-olsrd	collectd-olsrd
+dep	collectd-onewire	collectd-onewire
+dep	collectd-openldap	collectd-openldap
+dep	collectd-openvpn	collectd-openvpn
+dep	collectd-ovs	collectd-ovs
+dep	collectd-pcie_errors	collectd-pcie_errors
+dep	collectd-pinba	collectd-pinba
+dep	collectd-ping	collectd-ping
+dep	collectd-postgresql	collectd-postgresql
+dep	collectd-powerdns	collectd-powerdns
+dep	collectd-python	collectd-python
+dep	collectd-redis	collectd-redis
+dep	collectd-rrdtool	collectd-rrdtool
+dep	collectd-sensors	collectd-sensors
+dep	collectd-serial	collectd-serial
+dep	collectd-smart	collectd-smart
+dep	collectd-snmp	collectd-snmp
+dep	collectd-statsd	collectd-statsd
+dep	collectd-sysevent	collectd-sysevent
+dep	collectd-teamspeak2	collectd-teamspeak2
+dep	collectd-ted	collectd-ted
+dep	collectd-varnish	collectd-varnish
+dep	collectd-vserver	collectd-vserver
+dep	collectd-wireless	collectd-wireless
+dep	collectd-write_http	collectd-write_http
+dep	collectd-write_kafka	collectd-write_kafka
+dep	collectd-write_prometheus	collectd-write_prometheus
+dep	collectd-write_redis	collectd-write_redis
+dep	collectd-write_riemann	collectd-write_riemann
+dep	collectd-write_stackdriver	collectd-write_stackdriver
+dep	collectd-zookeeper	collectd-zookeeper
+dep	collectd-virt	collectd-virt

@@ -1,0 +1,14 @@
+name	soxr-dev
+version	0.1.3-r7
+description	High quality, one-dimensional sample-rate conversion library (development files)
+url	https://sourceforge.net/projects/soxr/
+license	LGPL-2.1-or-later
+size	7432
+installed-size	17433
+depends	soxr=0.1.3-r7 pkgconfig
+origin	soxr
+repo	community
+file	soxr-dev-0.1.3-r7.apk
+checksum	Q1u5eY/AVTOCXnzZtQjBR2XpsVGTw=
+dep	soxr=0.1.3-r7	soxr
+dep	pkgconfig	pkgconf

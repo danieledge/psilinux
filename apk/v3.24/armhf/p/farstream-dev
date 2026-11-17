@@ -1,0 +1,18 @@
+name	farstream-dev
+version	0.2.9-r2
+description	Libraries for videoconferencing (development files)
+url	https://www.freedesktop.org/wiki/Software/Farstream
+license	LGPL-2.0-or-later AND GPL-2.0-or-later
+size	47933
+installed-size	382380
+depends	libnice-dev gst-plugins-base-dev farstream=0.2.9-r2 pc:gstreamer-1.0 pc:gstreamer-base-1.0 pkgconfig
+origin	farstream
+repo	community
+file	farstream-dev-0.2.9-r2.apk
+checksum	Q1NX5qjN06z2JovC0hSL9S1jzLtaI=
+dep	libnice-dev	libnice-dev
+dep	gst-plugins-base-dev	gst-plugins-base-dev
+dep	farstream=0.2.9-r2	farstream
+dep	pc:gstreamer-1.0	gstreamer-dev
+dep	pc:gstreamer-base-1.0	gstreamer-dev
+dep	pkgconfig	pkgconf

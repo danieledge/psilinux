@@ -1,0 +1,13 @@
+name	libpcre32
+version	8.45-r4
+description	PCRE with 32 bit character support
+url	https://www.pcre.org/
+license	BSD-3-Clause
+size	122176
+installed-size	308416
+depends	so:libc.musl-armhf.so.1
+origin	pcre
+repo	main
+file	libpcre32-8.45-r4.apk
+checksum	Q1C/jqdyKuHpBTcP4G29CZkmQm3I8=
+dep	so:libc.musl-armhf.so.1	musl

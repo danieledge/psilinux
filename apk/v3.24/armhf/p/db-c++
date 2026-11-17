@@ -1,0 +1,15 @@
+name	db-c++
+version	5.3.28-r7
+description	C++ binding for libdb
+url	https://www.oracle.com/technology/software/products/berkeley-db/index.html
+license	Sleepycat
+size	718357
+installed-size	1586744
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	db
+repo	main
+file	db-c++-5.3.28-r7.apk
+checksum	Q1uk2pumU+V92KjFp4OzJgh6pL7ZI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

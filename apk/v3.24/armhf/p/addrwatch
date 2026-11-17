@@ -1,0 +1,17 @@
+name	addrwatch
+version	1.0.2-r1
+description	IPv4/IPv6 and ethernet address pairing monitoring
+url	https://github.com/fln/addrwatch
+license	GPL-3.0-only
+size	27752
+installed-size	66340
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libevent-2.1.so.7 so:libpcap.so.1 so:libsqlite3.so.0
+origin	addrwatch
+repo	community
+file	addrwatch-1.0.2-r1.apk
+checksum	Q1mndXzTslzcBpNV1mhlE0BvnMnkE=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevent-2.1.so.7	libevent
+dep	so:libpcap.so.1	libpcap
+dep	so:libsqlite3.so.0	sqlite-libs

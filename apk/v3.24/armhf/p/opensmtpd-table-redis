@@ -1,0 +1,14 @@
+name	opensmtpd-table-redis
+version	1.0.1-r0
+description	OpenSMTPD Redis tables
+url	https://github.com/OpenSMTPD/table-redis
+license	ISC
+size	10572
+installed-size	21760
+depends	so:libc.musl-armhf.so.1 so:libhiredis.so.1.3.0
+origin	opensmtpd-table-redis
+repo	community
+file	opensmtpd-table-redis-1.0.1-r0.apk
+checksum	Q1cXOxzGLve93w6/k3wmxIysP4twc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libhiredis.so.1.3.0	hiredis

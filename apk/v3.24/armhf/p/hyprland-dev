@@ -1,0 +1,31 @@
+name	hyprland-dev
+version	0.54.3-r0
+description	Independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks. (development files)
+url	https://hypr.land
+license	BSD-3-Clause
+size	229574
+installed-size	1336161
+depends	pc:aquamarine>=0.9.3 pc:cairo pc:egl pc:hyprcursor>=0.1.7 pc:hyprgraphics>=0.1.6 pc:hyprlang>=0.6.7 pc:hyprutils>=0.11.0 pc:libdrm pc:libinput>=1.28 pc:wayland-server>=1.22.91 pc:xcb pc:xcb-composite pc:xcb-errors pc:xcb-icccm pc:xcb-render pc:xcb-res pc:xcb-xfixes pc:xkbcommon>=1.11.0 pkgconfig
+origin	hyprland
+repo	community
+file	hyprland-dev-0.54.3-r0.apk
+checksum	Q1dn13kB+qdUC1gNg2cEncWHuG0mc=
+dep	pc:aquamarine>=0.9.3	aquamarine-dev
+dep	pc:cairo	cairo-dev
+dep	pc:egl	mesa-dev
+dep	pc:hyprcursor>=0.1.7	hyprcursor-dev
+dep	pc:hyprgraphics>=0.1.6	hyprgraphics-dev
+dep	pc:hyprlang>=0.6.7	hyprlang-dev
+dep	pc:hyprutils>=0.11.0	hyprutils-dev
+dep	pc:libdrm	libdrm-dev
+dep	pc:libinput>=1.28	libinput-dev
+dep	pc:wayland-server>=1.22.91	wayland-dev
+dep	pc:xcb	libxcb-dev
+dep	pc:xcb-composite	libxcb-dev
+dep	pc:xcb-errors	xcb-util-errors-dev
+dep	pc:xcb-icccm	xcb-util-wm-dev
+dep	pc:xcb-render	libxcb-dev
+dep	pc:xcb-res	libxcb-dev
+dep	pc:xcb-xfixes	libxcb-dev
+dep	pc:xkbcommon>=1.11.0	libxkbcommon-dev
+dep	pkgconfig	pkgconf

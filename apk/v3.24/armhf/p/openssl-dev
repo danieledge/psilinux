@@ -1,0 +1,15 @@
+name	openssl-dev
+version	3.5.9-r0
+description	Toolkit for Transport Layer Security (TLS) (development files)
+url	https://www.openssl.org/
+license	Apache-2.0
+size	366016
+installed-size	2007567
+depends	libcrypto3=3.5.9-r0 libssl3=3.5.9-r0 pkgconfig
+origin	openssl
+repo	main
+file	openssl-dev-3.5.9-r0.apk
+checksum	Q1Qh/V7J4oWKISSq7zFm1s4mDrFSs=
+dep	libcrypto3=3.5.9-r0	libcrypto3
+dep	libssl3=3.5.9-r0	libssl3
+dep	pkgconfig	pkgconf

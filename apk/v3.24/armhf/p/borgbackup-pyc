@@ -1,0 +1,13 @@
+name	borgbackup-pyc
+version	1.4.5-r0
+description	Precompiled Python bytecode for borgbackup
+url	https://www.borgbackup.org/
+license	BSD-3-Clause
+size	512558
+installed-size	1261177
+depends	python3~3.14
+origin	borgbackup
+repo	community
+file	borgbackup-pyc-1.4.5-r0.apk
+checksum	Q1ahuRrGP4ydbvqrLKz9apCafiXvA=
+dep	python3~3.14	python3

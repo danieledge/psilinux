@@ -1,0 +1,15 @@
+name	libsm
+version	1.2.6-r0
+description	X11 Session Management library
+url	https://xorg.freedesktop.org/
+license	MIT
+size	14626
+installed-size	29956
+depends	so:libICE.so.6 so:libc.musl-armhf.so.1 so:libuuid.so.1
+origin	libsm
+repo	main
+file	libsm-1.2.6-r0.apk
+checksum	Q1hNP5k623PY0zEh/Ihn9wCae1098=
+dep	so:libICE.so.6	libice
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libuuid.so.1	libuuid

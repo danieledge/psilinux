@@ -1,0 +1,15 @@
+name	uncrustify
+version	0.83.0-r0
+description	Source code beautifier
+url	https://github.com/uncrustify/uncrustify
+license	GPL-2.0-or-later
+size	735691
+installed-size	1930372
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	uncrustify
+repo	community
+file	uncrustify-0.83.0-r0.apk
+checksum	Q1xiasvKEqzS42sLkV96psWNR1l0k=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

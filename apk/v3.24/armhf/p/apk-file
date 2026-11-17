@@ -1,0 +1,13 @@
+name	apk-file
+version	0.3.6-r44
+description	Command line front end for pkgs.alpinelinux.org
+url	https://github.com/genuinetools/apk-file
+license	MIT
+size	2761989
+installed-size	6716620
+depends	so:libc.musl-armhf.so.1
+origin	apk-file
+repo	community
+file	apk-file-0.3.6-r44.apk
+checksum	Q1dVEyiM9fVwugTuBkIC/POGQKg60=
+dep	so:libc.musl-armhf.so.1	musl

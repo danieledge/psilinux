@@ -1,0 +1,13 @@
+name	mtu
+version	1.5.1-r0
+description	Utility to detect MTU
+url	https://github.com/ncopa/pingu
+license	GPL
+size	8691
+installed-size	17580
+depends	so:libc.musl-armhf.so.1
+origin	pingu
+repo	main
+file	mtu-1.5.1-r0.apk
+checksum	Q1J6Oyu+mw5B2OjYSGsNCAIExrLNU=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	freeipmi-dev
+version	1.6.19-r0
+description	IPMI library and utilities (development files)
+url	https://www.gnu.org/software/freeipmi/
+license	GPL-3.0-or-later
+size	278329
+installed-size	2329106
+depends	freeipmi-libs=1.6.19-r0 pkgconfig
+origin	freeipmi
+repo	community
+file	freeipmi-dev-1.6.19-r0.apk
+checksum	Q1QZNgs1LJUiMqpmQCx6xJZq8h6Jw=
+dep	freeipmi-libs=1.6.19-r0	freeipmi-libs
+dep	pkgconfig	pkgconf

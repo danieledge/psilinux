@@ -1,0 +1,15 @@
+name	openldap-overlay-constraint
+version	2.6.15-r0
+description	OpenLDAP constraint overlay
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	10459
+installed-size	18808
+depends	so:libc.musl-armhf.so.1 so:liblber.so.2 so:libldap.so.2
+origin	openldap
+repo	main
+file	openldap-overlay-constraint-2.6.15-r0.apk
+checksum	Q19jsed/u09qINrgj3JnojCDJQ2QE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap

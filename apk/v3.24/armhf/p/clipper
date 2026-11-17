@@ -1,0 +1,15 @@
+name	clipper
+version	6.4.2-r5
+description	Polygon, line clipping and offsetting library
+url	https://sourceforge.net/projects/polyclipping/
+license	BSL-1.0
+size	51650
+installed-size	107904
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	clipper
+repo	community
+file	clipper-6.4.2-r5.apk
+checksum	Q1veqA5Rb+wv0aBn6AHtutAZ1KsRs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

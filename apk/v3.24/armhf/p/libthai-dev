@@ -1,0 +1,15 @@
+name	libthai-dev
+version	0.1.30-r1
+description	Thai language library (development files)
+url	https://github.com/tlwg/libthai
+license	LGPL-2.1-or-later
+size	28074
+installed-size	100101
+depends	libthai=0.1.30-r1 pc:datrie-0.2 pkgconfig
+origin	libthai
+repo	community
+file	libthai-dev-0.1.30-r1.apk
+checksum	Q1kpc30VwV9kLi5i3fAYoYl9jFNOk=
+dep	libthai=0.1.30-r1	libthai
+dep	pc:datrie-0.2	libdatrie-dev
+dep	pkgconfig	pkgconf

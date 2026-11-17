@@ -1,0 +1,17 @@
+name	libqalculate-dev
+version	5.11.0-r0
+description	Library implementing a multi-purpose desktop calculator (development files)
+url	https://qalculate.github.io/
+license	GPL-2.0-or-later
+size	22526557
+installed-size	30323187
+depends	libqalculate=5.11.0-r0 pc:gmp pc:libxml-2.0>=2.3.8 pc:mpfr pkgconfig
+origin	libqalculate
+repo	community
+file	libqalculate-dev-5.11.0-r0.apk
+checksum	Q12uQdaQ/QAloiirvxmxO5O3EQtFA=
+dep	libqalculate=5.11.0-r0	libqalculate
+dep	pc:gmp	gmp-dev
+dep	pc:libxml-2.0>=2.3.8	libxml2-dev
+dep	pc:mpfr	mpfr-dev
+dep	pkgconfig	pkgconf

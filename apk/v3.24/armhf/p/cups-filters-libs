@@ -1,0 +1,23 @@
+name	cups-filters-libs
+version	1.28.17-r9
+description	OpenPrinting CUPS filters and backends - cupsfilters and fontembed libraries
+url	https://wiki.linuxfoundation.org/openprinting/cups-filters
+license	GPL-2.0-or-later LGPL-2.1-or-later MIT
+size	114817
+installed-size	244404
+depends	poppler-utils bc font-freefont ghostscript so:libc.musl-armhf.so.1 so:libcups.so.2 so:libdbus-1.so.3 so:libexif.so.12 so:libjpeg.so.8 so:libpng16.so.16 so:libtiff.so.6
+origin	cups-filters
+repo	community
+file	cups-filters-libs-1.28.17-r9.apk
+checksum	Q1d4OiYrkr7/GHVm2uX1w7BxrcaeI=
+dep	poppler-utils	poppler-utils
+dep	bc	bc
+dep	font-freefont	font-freefont
+dep	ghostscript	ghostscript
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcups.so.2	cups-libs
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libexif.so.12	libexif
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpng16.so.16	libpng
+dep	so:libtiff.so.6	tiff

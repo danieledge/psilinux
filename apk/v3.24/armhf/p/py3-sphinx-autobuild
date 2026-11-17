@@ -1,0 +1,20 @@
+name	py3-sphinx-autobuild
+version	2025.08.25-r1
+description	Watch a Sphinx directory and rebuild the documentation when a change is detected
+url	https://github.com/executablebooks/sphinx-autobuild
+license	MIT
+size	12552
+installed-size	29430
+depends	py3-colorama py3-livereload py3-sphinx py3-starlette py3-tornado py3-watchfiles uvicorn python3~3.14
+origin	py3-sphinx-autobuild
+repo	community
+file	py3-sphinx-autobuild-2025.08.25-r1.apk
+checksum	Q1dtVqFq89o1RFNQvzoBTCPFKXTe8=
+dep	py3-colorama	py3-colorama
+dep	py3-livereload	py3-livereload
+dep	py3-sphinx	py3-sphinx
+dep	py3-starlette	py3-starlette
+dep	py3-tornado	py3-tornado
+dep	py3-watchfiles	py3-watchfiles
+dep	uvicorn	uvicorn
+dep	python3~3.14	python3

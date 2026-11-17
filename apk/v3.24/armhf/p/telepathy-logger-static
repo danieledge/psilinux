@@ -1,0 +1,13 @@
+name	telepathy-logger-static
+version	0.8.2-r7
+description	Telepathy framework logging daemon (static library)
+url	https://telepathy.freedesktop.org/components/telepathy-logger/
+license	LGPL-2.1-or-later
+size	97914
+installed-size	306926
+depends	telepathy-logger-dev
+origin	telepathy-logger
+repo	community
+file	telepathy-logger-static-0.8.2-r7.apk
+checksum	Q17SMCvj6VY+0nkoucjqb6opayIRI=
+dep	telepathy-logger-dev	telepathy-logger-dev

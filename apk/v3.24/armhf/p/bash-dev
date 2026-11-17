@@ -1,0 +1,13 @@
+name	bash-dev
+version	5.3.9-r1
+description	The GNU Bourne Again shell (development files)
+url	https://www.gnu.org/software/bash/bash.html
+license	GPL-3.0-or-later
+size	87142
+installed-size	332680
+depends	pkgconfig
+origin	bash
+repo	main
+file	bash-dev-5.3.9-r1.apk
+checksum	Q1HbUt5EGxr8TCYux1DlGP/I6lq1M=
+dep	pkgconfig	pkgconf

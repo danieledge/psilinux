@@ -1,0 +1,19 @@
+name	glew-dev
+version	2.3.1-r0
+description	A cross-platform C/C++ extension loading library (development files)
+url	https://glew.sourceforge.net/
+license	GPL-2.0-or-later
+size	433565
+installed-size	2433288
+depends	libxmu-dev libxi-dev mesa-dev glu-dev glew=2.3.1-r0 pc:glu pkgconfig
+origin	glew
+repo	community
+file	glew-dev-2.3.1-r0.apk
+checksum	Q17qL95OPZlMU1tTeTnZTTgnPtgsU=
+dep	libxmu-dev	libxmu-dev
+dep	libxi-dev	libxi-dev
+dep	mesa-dev	mesa-dev
+dep	glu-dev	glu-dev
+dep	glew=2.3.1-r0	glew
+dep	pc:glu	glu-dev
+dep	pkgconfig	pkgconf

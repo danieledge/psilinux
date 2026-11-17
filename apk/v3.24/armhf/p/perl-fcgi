@@ -1,0 +1,14 @@
+name	perl-fcgi
+version	0.82-r5
+description	Perl Fast CGI module
+url	https://metacpan.org/pod/FCGI
+license	OML
+size	26785
+installed-size	52332
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-fcgi
+repo	main
+file	perl-fcgi-0.82-r5.apk
+checksum	Q1N7LZa3phUTFu2fUmnsmO/4QCNYA=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,18 @@
+name	wayback
+version	0.3-r2
+description	X11 compatibility layer leveraging wlroots and Xwayland
+url	https://wayback.freedesktop.org/
+license	MIT
+size	16926
+installed-size	45708
+depends	xwayland so:libc.musl-armhf.so.1 so:libwayland-client.so.0 so:libwayland-server.so.0 so:libwlroots-0.20.so so:libxkbcommon.so.0
+origin	wayback
+repo	community
+file	wayback-0.3-r2.apk
+checksum	Q1pgDTXbg7vZaS4XLPMZI993fkhaU=
+dep	xwayland	xwayland
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-server.so.0	wayland-libs-server
+dep	so:libwlroots-0.20.so	wlroots0.20
+dep	so:libxkbcommon.so.0	libxkbcommon

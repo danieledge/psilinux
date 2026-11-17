@@ -1,0 +1,13 @@
+name	glib-static
+version	2.88.1-r1
+description	Low-level core library that forms the basis for projects such as GTK and GNOME (static library)
+url	https://developer.gnome.org/glib/
+license	LGPL-2.1-or-later
+size	10015034
+installed-size	25047368
+depends	gettext-static
+origin	glib
+repo	main
+file	glib-static-2.88.1-r1.apk
+checksum	Q1WRUKjJMi4UdkK26e068bcykFtPA=
+dep	gettext-static	gettext-static

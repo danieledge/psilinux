@@ -1,0 +1,22 @@
+name	mkinitfs
+version	3.14.1-r0
+description	Tool to generate initramfs images for Alpine
+url	https://gitlab.alpinelinux.org/alpine/mkinitfs
+license	GPL-2.0-only
+size	36970
+installed-size	76147
+depends	apk-tools>=2.9.1 busybox-binsh busybox>=1.28.2-r1 kmod lddtree>=1.25 mdev-conf so:libblkid.so.1 so:libc.musl-armhf.so.1 so:libcryptsetup.so.12 so:libkmod.so.2
+origin	mkinitfs
+repo	main
+file	mkinitfs-3.14.1-r0.apk
+checksum	Q18sXbfPZF7fP9xjJrtpyc963d6JU=
+dep	apk-tools>=2.9.1	apk-tools
+dep	busybox-binsh	busybox-binsh
+dep	busybox>=1.28.2-r1	busybox
+dep	kmod	kmod
+dep	lddtree>=1.25	lddtree
+dep	mdev-conf	mdev-conf
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcryptsetup.so.12	cryptsetup-libs
+dep	so:libkmod.so.2	kmod-libs

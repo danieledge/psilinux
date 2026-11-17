@@ -1,0 +1,14 @@
+name	treedude
+version	1.0.8-r2
+description	Curses clone of the mini-game from Superhot
+url	https://gitlab.com/n-ivkovic/treedude
+license	GPL-3.0-or-later
+size	14725
+installed-size	29868
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	treedude
+repo	community
+file	treedude-1.0.8-r2.apk
+checksum	Q1UG9hKrEEgwAi/u560Vu2HFkKyzI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

@@ -1,0 +1,16 @@
+name	linux-tools
+version	7.1.5-r0
+description	Linux kernel tools meta package
+url	https://www.kernel.org/
+license	GPL-2.0-only
+size	1274
+installed-size	0
+depends	perf cpupower linux-tools-gpio linux-tools-iio
+origin	linux-tools
+repo	main
+file	linux-tools-7.1.5-r0.apk
+checksum	Q1L3OIraed+l0YpgT4l14GH1IKmrk=
+dep	perf	perf
+dep	cpupower	cpupower
+dep	linux-tools-gpio	linux-tools-gpio
+dep	linux-tools-iio	linux-tools-iio

@@ -1,0 +1,14 @@
+name	numix-icon-theme-circle-light
+version	23.05.15-r0
+description	Official icon theme from the Numix project (Light version)
+url	https://github.com/numixproject/numix-icon-theme-circle
+license	GPL-3.0-only
+size	2506
+installed-size	756
+depends	numix-icon-theme numix-icon-theme-circle=23.05.15-r0
+origin	numix-icon-theme-circle
+repo	community
+file	numix-icon-theme-circle-light-23.05.15-r0.apk
+checksum	Q1xLaMg3muTcKQHBp36gtAdRk6w1s=
+dep	numix-icon-theme	numix-icon-theme
+dep	numix-icon-theme-circle=23.05.15-r0	numix-icon-theme-circle

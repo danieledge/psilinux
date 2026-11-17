@@ -1,0 +1,17 @@
+name	bfs
+version	4.1-r1
+description	Breadth-first variant of the UNIX find command
+url	https://github.com/tavianator/bfs
+license	0BSD
+size	85156
+installed-size	181892
+depends	so:libacl.so.1 so:libc.musl-armhf.so.1 so:libcap.so.2 so:libonig.so.5 so:liburing.so.2
+origin	bfs
+repo	community
+file	bfs-4.1-r1.apk
+checksum	Q1365yUdZev6Ju8YBnHWrSSLCLdoU=
+dep	so:libacl.so.1	acl-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libonig.so.5	oniguruma
+dep	so:liburing.so.2	liburing

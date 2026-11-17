@@ -1,0 +1,13 @@
+name	lua5.2-mqtt-publish
+version	0.5-r1
+description	Lua module for simple MQTT connect, publish and disconnect for Lua 5.2
+url	https://github.com/ncopa/lua-mqtt-publish
+license	MIT
+size	2387
+installed-size	1737
+depends	lua5.2-mosquitto
+origin	lua-mqtt-publish
+repo	main
+file	lua5.2-mqtt-publish-0.5-r1.apk
+checksum	Q1ocUOgKLuiPoQs0G+3j4EvC4SgII=
+dep	lua5.2-mosquitto	lua5.2-mosquitto

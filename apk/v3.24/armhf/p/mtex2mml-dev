@@ -1,0 +1,14 @@
+name	mtex2mml-dev
+version	1.3.2-r0
+description	A Bison grammar to convert TeX math into MathML (development files)
+url	https://github.com/gjtorikian/mtex2MML
+license	GPL-2.0 MPL-2.0 LGPL-2.1
+size	112985
+installed-size	379462
+depends	mtex2mml-libs=1.3.2-r0 pkgconfig
+origin	mtex2mml
+repo	community
+file	mtex2mml-dev-1.3.2-r0.apk
+checksum	Q1I9Yv4dbK7BGxtSYknBbTDeWM12w=
+dep	mtex2mml-libs=1.3.2-r0	mtex2mml-libs
+dep	pkgconfig	pkgconf

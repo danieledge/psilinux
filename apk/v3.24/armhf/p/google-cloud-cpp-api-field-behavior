@@ -1,0 +1,15 @@
+name	google-cloud-cpp-api-field-behavior
+version	2.47.0-r0
+description	C++ Client Libraries for Google Cloud Services (api-field-behavior)
+url	https://cloud.google.com/sdk
+license	Apache-2.0
+size	4078
+installed-size	5568
+depends	so:libgcc_s.so.1 so:libprotobuf.so.31 so:libutf8_range_lib.so.52
+origin	google-cloud-cpp
+repo	community
+file	google-cloud-cpp-api-field-behavior-2.47.0-r0.apk
+checksum	Q1OgO0s/vAXrMm1l7UtXbjhWi9vPA=
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libprotobuf.so.31	libprotobuf
+dep	so:libutf8_range_lib.so.52	grpc

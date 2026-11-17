@@ -1,0 +1,13 @@
+name	tzdata-timed
+version	2025b-r0
+description	Data files for the time daemon, timed
+url	https://github.com/sailfishos/tzdata-timed
+license	PDDL-1.0
+size	12761
+installed-size	36345
+depends	tzdata
+origin	tzdata-timed
+repo	community
+file	tzdata-timed-2025b-r0.apk
+checksum	Q1I6/Mqyj3Rk04kvmvhbCnoMoW3us=
+dep	tzdata	tzdata

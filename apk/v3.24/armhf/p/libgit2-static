@@ -1,0 +1,13 @@
+name	libgit2-static
+version	1.9.7-r0
+description	linkable library for Git (static library)
+url	https://libgit2.org/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	3584617
+installed-size	8195372
+depends	libgit2-dev
+origin	libgit2
+repo	community
+file	libgit2-static-1.9.7-r0.apk
+checksum	Q1EwtWzuTwMK2qtLrxGZUhEBEEM1U=
+dep	libgit2-dev	libgit2-dev

@@ -1,0 +1,13 @@
+name	py3-fastimport-pyc
+version	0.9.16-r2
+description	Precompiled Python bytecode for py3-fastimport
+url	https://github.com/jelmer/python-fastimport
+license	GPL-2.0-or-later
+size	60313
+installed-size	162343
+depends	python3~3.14
+origin	py3-fastimport
+repo	community
+file	py3-fastimport-pyc-0.9.16-r2.apk
+checksum	Q1YBu2vEq0X0YSQy8WNZRBq5Sg8t0=
+dep	python3~3.14	python3

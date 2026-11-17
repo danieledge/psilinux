@@ -1,0 +1,13 @@
+name	ospd-openvas-pyc
+version	22.10.1-r0
+description	Precompiled Python bytecode for ospd-openvas
+url	https://github.com/greenbone/ospd-openvas
+license	AGPL-3.0-or-later
+size	198776
+installed-size	510147
+depends	python3~3.14
+origin	ospd-openvas
+repo	community
+file	ospd-openvas-pyc-22.10.1-r0.apk
+checksum	Q11iQzKTI942pk3f6qC1Ahxaajp4M=
+dep	python3~3.14	python3

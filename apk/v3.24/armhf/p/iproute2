@@ -1,0 +1,19 @@
+name	iproute2
+version	7.0.0-r0
+description	IP Routing Utilities
+url	https://wiki.linuxfoundation.org/networking/iproute2
+license	GPL-2.0-or-later
+size	187161
+installed-size	442530
+depends	iproute2-minimal iproute2-tc iproute2-ss /bin/sh so:libc.musl-armhf.so.1 so:libcap.so.2 so:libmnl.so.0
+origin	iproute2
+repo	main
+file	iproute2-7.0.0-r0.apk
+checksum	Q16ud/iccrHqWSGQp/E8bsiO3LfCc=
+dep	iproute2-minimal	iproute2-minimal
+dep	iproute2-tc	iproute2-tc
+dep	iproute2-ss	iproute2-ss
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libmnl.so.0	libmnl

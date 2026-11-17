@@ -1,0 +1,16 @@
+name	bats
+version	1.13.0-r1
+description	Meta package for Bats
+url	https://bats-core.readthedocs.io/
+license	MIT
+size	1259
+installed-size	0
+depends	bats-core bats-support bats-assert bats-file
+origin	bats
+repo	main
+file	bats-1.13.0-r1.apk
+checksum	Q1tPsKO3jwZgCscq54exxDE02/h9w=
+dep	bats-core	bats-core
+dep	bats-support	bats-support
+dep	bats-assert	bats-assert
+dep	bats-file	bats-file

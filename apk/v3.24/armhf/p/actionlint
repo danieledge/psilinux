@@ -1,0 +1,14 @@
+name	actionlint
+version	1.7.12-r3
+description	Static checker for GitHub Actions workflow files
+url	https://github.com/rhysd/actionlint
+license	MIT
+size	2245784
+installed-size	6367476
+depends	tzdata so:libc.musl-armhf.so.1
+origin	actionlint
+repo	community
+file	actionlint-1.7.12-r3.apk
+checksum	Q1KSm7nkABIsVDeAVLjOy8n26tWU8=
+dep	tzdata	tzdata
+dep	so:libc.musl-armhf.so.1	musl

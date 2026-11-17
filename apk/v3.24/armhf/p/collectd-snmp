@@ -1,0 +1,16 @@
+name	collectd-snmp
+version	5.12.0-r25
+description	snmp pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	28877
+installed-size	59684
+depends	collectd so:libc.musl-armhf.so.1 so:libnetsnmp.so.45 so:libnetsnmpagent.so.45
+origin	collectd
+repo	community
+file	collectd-snmp-5.12.0-r25.apk
+checksum	Q1cO9Xq49F50s7RGC8u2bgoGi2pfI=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnetsnmp.so.45	net-snmp-libs
+dep	so:libnetsnmpagent.so.45	net-snmp-agent-libs

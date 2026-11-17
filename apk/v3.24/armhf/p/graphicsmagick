@@ -1,0 +1,27 @@
+name	graphicsmagick
+version	1.3.47-r0
+description	Image processing system
+url	http://www.graphicsmagick.org/
+license	MIT
+size	1374875
+installed-size	3418760
+depends	ghostscript-fonts so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libfreetype.so.6 so:libheif.so.1 so:libjpeg.so.8 so:libltdl.so.7 so:libpng16.so.16 so:libtiff.so.6 so:libwebp.so.7 so:libwebpmux.so.3 so:libwmflite-0.2.so.7 so:libxml2.so.2 so:libz.so.1 so:libzstd.so.1
+origin	graphicsmagick
+repo	community
+file	graphicsmagick-1.3.47-r0.apk
+checksum	Q1sY+ohtZ0t28tvuFQ/l/qnwo6nIY=
+dep	ghostscript-fonts	ghostscript-fonts
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreetype.so.6	freetype
+dep	so:libheif.so.1	libheif
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libltdl.so.7	libltdl
+dep	so:libpng16.so.16	libpng
+dep	so:libtiff.so.6	tiff
+dep	so:libwebp.so.7	libwebp
+dep	so:libwebpmux.so.3	libwebpmux
+dep	so:libwmflite-0.2.so.7	libwmflite
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

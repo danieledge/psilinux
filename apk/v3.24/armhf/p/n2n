@@ -1,0 +1,14 @@
+name	n2n
+version	3.1.1-r1
+description	Peer-to-peer VPN
+url	https://github.com/ntop/n2n
+license	GPL-3.0-only
+size	234034
+installed-size	476991
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	n2n
+repo	community
+file	n2n-3.1.1-r1.apk
+checksum	Q1h/wbiSjWUap9S24KCl5ChYG6vMQ=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

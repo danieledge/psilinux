@@ -1,0 +1,17 @@
+name	irssi-otr
+version	1.4.5-r7
+description	Irssi module for enabling OTR functionality
+url	https://irssi.org/
+license	GPL-2.0-or-later WITH OpenSSL-Exception
+size	20538
+installed-size	49021
+depends	irssi=1.4.5-r7 so:libc.musl-armhf.so.1 so:libgcrypt.so.20 so:libglib-2.0.so.0 so:libotr.so.5
+origin	irssi
+repo	community
+file	irssi-otr-1.4.5-r7.apk
+checksum	Q1Va2NVv50iTRunn9le1EQJbm8Kwk=
+dep	irssi=1.4.5-r7	irssi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libglib-2.0.so.0	glib
+dep	so:libotr.so.5	libotr

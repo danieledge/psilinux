@@ -1,0 +1,14 @@
+name	lua5.1-bcrypt
+version	2.3-r0
+description	A Lua wrapper for bcrypt (for Lua 5.1)
+url	https://github.com/mikejsavage/lua-bcrypt
+license	MIT
+size	11486
+installed-size	17580
+depends	lua5.1 so:libc.musl-armhf.so.1
+origin	lua-bcrypt
+repo	community
+file	lua5.1-bcrypt-2.3-r0.apk
+checksum	Q1RRDcXbdPOyFtOvo77lcAmsqV3DU=
+dep	lua5.1	lua5.1
+dep	so:libc.musl-armhf.so.1	musl

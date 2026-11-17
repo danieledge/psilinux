@@ -1,0 +1,13 @@
+name	lua5.1-struct
+version	0.2-r5
+description	Library for Converting Data to and from C Structs for Lua - Lua 5.1
+url	http://www.inf.puc-rio.br/~roberto/struct/
+license	MIT
+size	6301
+installed-size	9388
+depends	so:libc.musl-armhf.so.1
+origin	lua-struct
+repo	main
+file	lua5.1-struct-0.2-r5.apk
+checksum	Q1ktVaLed0kTbJnU2POY4rqofgiJw=
+dep	so:libc.musl-armhf.so.1	musl

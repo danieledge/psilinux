@@ -1,0 +1,20 @@
+name	lib2geom
+version	1.4-r2
+description	Easy to use 2D geometry library for c++
+url	https://gitlab.com/inkscape/lib2geom
+license	MPL-1.1 OR LGPL-2.1-only
+size	400020
+installed-size	841088
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdouble-conversion.so.3 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgsl.so.28 so:libgslcblas.so.0 so:libstdc++.so.6
+origin	lib2geom
+repo	community
+file	lib2geom-1.4-r2.apk
+checksum	Q1OQWlKuzH/pTkr+dIDr6rGQezuns=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libdouble-conversion.so.3	double-conversion
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgsl.so.28	gsl
+dep	so:libgslcblas.so.0	gsl
+dep	so:libstdc++.so.6	libstdc++

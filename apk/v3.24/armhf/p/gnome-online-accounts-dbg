@@ -1,0 +1,12 @@
+name	gnome-online-accounts-dbg
+version	3.58.1-r0
+description	Single sign-on framework for GNOME (debug symbols)
+url	https://gitlab.gnome.org/GNOME/gnome-online-accounts/-/wikis/home
+license	GPL-2.0-or-later
+size	962459
+installed-size	2506408
+depends	!gnome-online-accounts<3.58.1-r0 !gnome-online-accounts>3.58.1-r0
+origin	gnome-online-accounts
+repo	community
+file	gnome-online-accounts-dbg-3.58.1-r0.apk
+checksum	Q1XyKv3mmQU68NynugwYtyFSeCslY=

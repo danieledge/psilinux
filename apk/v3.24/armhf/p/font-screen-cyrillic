@@ -1,0 +1,16 @@
+name	font-screen-cyrillic
+version	1.0.5-r1
+description	X.org screen cyrillic fonts
+url	https://xorg.freedesktop.org/
+license	custom
+size	10970
+installed-size	9184
+depends	encodings font-alias mkfontscale fontconfig
+origin	font-screen-cyrillic
+repo	main
+file	font-screen-cyrillic-1.0.5-r1.apk
+checksum	Q1so71Ydg0UTmZ0+Y7jits0xwLedM=
+dep	encodings	encodings
+dep	font-alias	font-alias
+dep	mkfontscale	mkfontscale
+dep	fontconfig	fontconfig

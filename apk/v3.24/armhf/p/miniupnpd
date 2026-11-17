@@ -1,0 +1,17 @@
+name	miniupnpd
+version	2.3.10-r0
+description	Lightweight UPnP IGD & PCP/NAT-PMP daemon
+url	https://miniupnp.tuxfamily.org/
+license	BSD-3-Clause
+size	84198
+installed-size	174790
+depends	uuidgen /bin/sh so:libc.musl-armhf.so.1 so:libip4tc.so.2 so:libip6tc.so.2
+origin	miniupnpd
+repo	community
+file	miniupnpd-2.3.10-r0.apk
+checksum	Q1cRyjTHHnLEdG1Dp/apH2MDkNx0I=
+dep	uuidgen	uuidgen
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libip4tc.so.2	libip4tc
+dep	so:libip6tc.so.2	libip6tc

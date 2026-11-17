@@ -1,0 +1,17 @@
+name	zola
+version	0.22.1-r1
+description	Opionated static site generator
+url	https://github.com/getzola/zola
+license	MIT
+size	9725044
+installed-size	25156564
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libonig.so.5 so:libssl.so.3
+origin	zola
+repo	community
+file	zola-0.22.1-r1.apk
+checksum	Q18/WUcSqT5qihW75OS8VuAWXCVUk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libonig.so.5	oniguruma
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,14 @@
+name	font-noto-newa
+version	2026.11.01-r0
+description	Noto Sans Newa font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	69595
+installed-size	152939
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-newa-2026.11.01-r0.apk
+checksum	Q1n1S1Fb4rYm3YpOcSlQ9+ITZ8QNY=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

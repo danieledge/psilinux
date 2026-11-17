@@ -1,0 +1,18 @@
+name	zathura-pdf-mupdf
+version	2026.05.10-r0
+description	mupdf plugin to zathura
+url	https://pwmt.org/projects/zathura-pdf-mupdf/
+license	Zlib
+size	10975
+installed-size	23219
+depends	zathura !zathura-pdf-poppler so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgirara.so.5 so:libglib-2.0.so.0 so:libmupdf.so.27.2
+origin	zathura-pdf-mupdf
+repo	community
+file	zathura-pdf-mupdf-2026.05.10-r0.apk
+checksum	Q1f2PUXIrucqm1tAzbsYN4jBIX1nI=
+dep	zathura	zathura
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgirara.so.5	girara
+dep	so:libglib-2.0.so.0	glib
+dep	so:libmupdf.so.27.2	mupdf-libs

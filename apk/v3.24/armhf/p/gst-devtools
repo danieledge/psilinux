@@ -1,0 +1,30 @@
+name	gst-devtools
+version	1.28.1-r1
+description	GStreamer devtools
+url	https://gstreamer.freedesktop.org
+license	LGPL-2.0-or-later
+size	509298
+installed-size	1376058
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgstapp-1.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstcheck-1.0.so.0 so:libgstcontroller-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgsttranscoder-1.0.so.0 so:libgstvideo-1.0.so.0 so:libgtk-3.so.0 so:libjson-glib-1.0.so.0
+origin	gst-devtools
+repo	community
+file	gst-devtools-1.28.1-r1.apk
+checksum	Q1LtrshUDWuMgFJFKSRC0OyJpIy7Y=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstapp-1.0.so.0	gst-plugins-base
+dep	so:libgstaudio-1.0.so.0	gst-plugins-base
+dep	so:libgstbase-1.0.so.0	gstreamer
+dep	so:libgstcheck-1.0.so.0	gstreamer-dev
+dep	so:libgstcontroller-1.0.so.0	gstreamer
+dep	so:libgstpbutils-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgsttranscoder-1.0.so.0	gst-plugins-bad
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libjson-glib-1.0.so.0	json-glib

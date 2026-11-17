@@ -1,0 +1,14 @@
+name	cloud-init-datasource-vmware-pyc
+version	26.1-r3
+description	Precompiled Python bytecode for cloud-init-datasource-vmware
+url	https://cloud-init.io
+license	Apache-2.0 OR GPL-3.0-only
+size	20803
+installed-size	44420
+depends	cloud-init-datasource-vmware=26.1-r3 python3~3.14
+origin	cloud-init
+repo	community
+file	cloud-init-datasource-vmware-pyc-26.1-r3.apk
+checksum	Q1cLNGcJW7KmQQD+2mWMZF2NR3kwA=
+dep	cloud-init-datasource-vmware=26.1-r3	cloud-init-datasource-vmware
+dep	python3~3.14	python3

@@ -1,0 +1,13 @@
+name	eventlog
+version	0.2.13-r4
+description	API to format and send structured log messages
+url	https://github.com/balabit/eventlog
+license	BSD-3-Clause
+size	8617
+installed-size	14912
+depends	so:libc.musl-armhf.so.1
+origin	eventlog
+repo	main
+file	eventlog-0.2.13-r4.apk
+checksum	Q1C2JWwnhFQAUs5JLX+GSBb0hJtFI=
+dep	so:libc.musl-armhf.so.1	musl

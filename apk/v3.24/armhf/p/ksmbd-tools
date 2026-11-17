@@ -1,0 +1,16 @@
+name	ksmbd-tools
+version	3.5.6-r0
+description	userspace tools for kernel smb server (ksmbd)
+url	https://github.com/cifsd-team/ksmbd-tools
+license	GPL-2.0-or-later
+size	51706
+installed-size	114245
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libnl-3.so.200 so:libnl-genl-3.so.200
+origin	ksmbd-tools
+repo	community
+file	ksmbd-tools-3.5.6-r0.apk
+checksum	Q1MipOBvB3lquUdnYkF7iefI4XU6c=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libnl-3.so.200	libnl3
+dep	so:libnl-genl-3.so.200	libnl3

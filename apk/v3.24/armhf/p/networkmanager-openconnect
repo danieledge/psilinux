@@ -1,0 +1,33 @@
+name	networkmanager-openconnect
+version	1.2.10-r1
+description	NetworkManager VPN plugin for OpenConnect
+url	https://networkmanager.dev/docs/vpn/
+license	GPL-2.0-or-later
+size	57718
+installed-size	184880
+depends	dbus:org.freedesktop.Secrets openconnect /bin/sh so:libc.musl-armhf.so.1 so:libgcr-base-3.so.1 so:libgcr-ui-3.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libnm.so.0 so:libnma-gtk4.so.0 so:libnma.so.0 so:libopenconnect.so.5 so:libsecret-1.so.0 so:libsoup-3.0.so.0 so:libwebkit2gtk-4.1.so.0 so:libxml2.so.2
+origin	networkmanager-openconnect
+repo	community
+file	networkmanager-openconnect-1.2.10-r1.apk
+checksum	Q1aoPpIP4yvysaIXz7bfYz0CYYR5Q=
+dep	dbus:org.freedesktop.Secrets	gnome-keyring
+dep	openconnect	openconnect
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcr-base-3.so.1	gcr-base
+dep	so:libgcr-ui-3.so.1	gcr-base
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libnm.so.0	libnm
+dep	so:libnma-gtk4.so.0	libnma-gtk4
+dep	so:libnma.so.0	libnma
+dep	so:libopenconnect.so.5	openconnect
+dep	so:libsecret-1.so.0	libsecret
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libwebkit2gtk-4.1.so.0	webkit2gtk-4.1
+dep	so:libxml2.so.2	libxml2

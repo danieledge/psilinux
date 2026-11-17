@@ -1,0 +1,17 @@
+name	znc-modperl
+version	1.10.3-r0
+description	Perl module for ZNC
+url	https://wiki.znc.in/ZNC
+license	Apache-2.0
+size	981417
+installed-size	3507818
+depends	znc=1.10.3-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libperl.so so:libstdc++.so.6
+origin	znc
+repo	community
+file	znc-modperl-1.10.3-r0.apk
+checksum	Q1ENJGdMy+cOEwa/yFefyz5JJlNQk=
+dep	znc=1.10.3-r0	znc
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libperl.so	perl
+dep	so:libstdc++.so.6	libstdc++

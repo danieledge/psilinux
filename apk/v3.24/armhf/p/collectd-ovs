@@ -1,0 +1,15 @@
+name	collectd-ovs
+version	5.12.0-r25
+description	ovs pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	26594
+installed-size	60792
+depends	collectd so:libc.musl-armhf.so.1 so:libyajl.so.2
+origin	collectd
+repo	community
+file	collectd-ovs-5.12.0-r25.apk
+checksum	Q1+0GkfbMP2g8AwNqAoe+X70sW+nE=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libyajl.so.2	yajl

@@ -1,0 +1,16 @@
+name	ocaml5-ctypes
+version	0.23.0-r4
+description	Combinators for binding to C libraries without writing any C
+url	https://github.com/ocamllabs/ocaml-ctypes
+license	MIT
+size	2632892
+installed-size	6394004
+depends	libffi-dev ocaml5-integers so:libc.musl-armhf.so.1 so:libffi.so.8
+origin	ocaml5-ctypes
+repo	community
+file	ocaml5-ctypes-0.23.0-r4.apk
+checksum	Q1bwmHQFvJirFjmdtm9doVrjIZOlw=
+dep	libffi-dev	libffi-dev
+dep	ocaml5-integers	ocaml5-integers
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libffi.so.8	libffi

@@ -1,0 +1,13 @@
+name	ocaml-markup-dev
+version	1.0.3-r6
+description	Error-recovering functional HTML5 and XML parsers and writers for OCaml (development files)
+url	https://aantron.github.io/markup.ml
+license	MIT
+size	2191381
+installed-size	5914344
+depends	ocaml-markup=1.0.3-r6
+origin	ocaml-markup
+repo	community
+file	ocaml-markup-dev-1.0.3-r6.apk
+checksum	Q1U26ESs65wcx17UcEvv/XJFuda5k=
+dep	ocaml-markup=1.0.3-r6	ocaml-markup

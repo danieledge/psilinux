@@ -1,0 +1,12 @@
+name	libadwaita-dbg
+version	1.9.2-r0
+description	Building blocks for modern GNOME applications (debug symbols)
+url	https://gitlab.gnome.org/GNOME/libadwaita
+license	LGPL-2.1-or-later
+size	495737
+installed-size	1627036
+depends	!libadwaita-demo<1.9.2-r0 !libadwaita-demo>1.9.2-r0 !libadwaita<1.9.2-r0 !libadwaita>1.9.2-r0
+origin	libadwaita
+repo	community
+file	libadwaita-dbg-1.9.2-r0.apk
+checksum	Q1dYhlo30poi7zAL/lX37A4rkTFJ8=

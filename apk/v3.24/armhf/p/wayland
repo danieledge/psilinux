@@ -1,0 +1,16 @@
+name	wayland
+version	1.25.0-r0
+description	A computer display server protocol
+url	https://wayland.freedesktop.org
+license	MIT
+size	1288
+installed-size	0
+depends	wayland-libs-client=1.25.0-r0 wayland-libs-cursor=1.25.0-r0 wayland-libs-egl=1.25.0-r0 wayland-libs-server=1.25.0-r0
+origin	wayland
+repo	main
+file	wayland-1.25.0-r0.apk
+checksum	Q1V4CvBrKOFGLEqrY9ladAWyVm5dQ=
+dep	wayland-libs-client=1.25.0-r0	wayland-libs-client
+dep	wayland-libs-cursor=1.25.0-r0	wayland-libs-cursor
+dep	wayland-libs-egl=1.25.0-r0	wayland-libs-egl
+dep	wayland-libs-server=1.25.0-r0	wayland-libs-server

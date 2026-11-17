@@ -1,0 +1,18 @@
+name	py3-jupyter-packaging
+version	0.12.3-r7
+description	Tools to help build and install Jupyter Python packages
+url	https://github.com/jupyter/jupyter-packaging
+license	BSD-3-Clause
+size	15225
+installed-size	46271
+depends	py3-deprecation py3-packaging py3-setuptools py3-tomlkit py3-wheel python3~3.14
+origin	py3-jupyter-packaging
+repo	community
+file	py3-jupyter-packaging-0.12.3-r7.apk
+checksum	Q1fAzpb8LFKShRAVBBxvetho0A7LM=
+dep	py3-deprecation	py3-deprecation
+dep	py3-packaging	py3-packaging
+dep	py3-setuptools	py3-setuptools
+dep	py3-tomlkit	py3-tomlkit
+dep	py3-wheel	py3-wheel
+dep	python3~3.14	python3

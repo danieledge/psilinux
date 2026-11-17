@@ -1,0 +1,26 @@
+name	pipewire-spa-bluez
+version	1.6.8-r4
+description	PipeWire BlueZ5 SPA plugin (Bluetooth)
+url	https://pipewire.org/
+license	MIT
+size	594929
+installed-size	1404400
+depends	so:libbluetooth.so.3 so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libfdk-aac.so.2 so:libfreeaptx.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:liblc3.so.1 so:libldacBT_abr.so.2 so:libldacBT_enc.so.2 so:libopus.so.0 so:libsbc.so.1 so:libusb-1.0.so.0
+origin	pipewire
+repo	community
+file	pipewire-spa-bluez-1.6.8-r4.apk
+checksum	Q1fO8f7MaUoIZbb4HYDd9jlMmuGts=
+dep	so:libbluetooth.so.3	bluez-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libfdk-aac.so.2	fdk-aac
+dep	so:libfreeaptx.so.0	libfreeaptx
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:liblc3.so.1	liblc3
+dep	so:libldacBT_abr.so.2	libldac
+dep	so:libldacBT_enc.so.2	libldac
+dep	so:libopus.so.0	opus
+dep	so:libsbc.so.1	sbc
+dep	so:libusb-1.0.so.0	libusb

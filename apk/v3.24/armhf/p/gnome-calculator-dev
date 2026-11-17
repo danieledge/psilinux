@@ -1,0 +1,17 @@
+name	gnome-calculator-dev
+version	50.0-r0
+description	Calculator for solving mathematical equations (development files)
+url	https://apps.gnome.org/Calculator
+license	GPL-3.0-or-later
+size	25856
+installed-size	272428
+depends	gnome-calculator=50.0-r0 pc:gee-0.8>=0.20 pc:gio-2.0>=2.50 pc:gtk4>=4.4.1 pkgconfig
+origin	gnome-calculator
+repo	community
+file	gnome-calculator-dev-50.0-r0.apk
+checksum	Q1oPKM2wnlqvmkQZ7c6sv65sk9pm4=
+dep	gnome-calculator=50.0-r0	gnome-calculator
+dep	pc:gee-0.8>=0.20	libgee-dev
+dep	pc:gio-2.0>=2.50	glib-dev
+dep	pc:gtk4>=4.4.1	gtk4.0-dev
+dep	pkgconfig	pkgconf

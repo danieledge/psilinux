@@ -1,0 +1,14 @@
+name	acf-openssl
+version	0.11.0-r0
+description	Web-based system administration interface for open/libressl
+url	https://gitlab.alpinelinux.org/acf/acf-openssl
+license	GPL-2.0-only
+size	17852
+installed-size	72042
+depends	acf-core openssl
+origin	acf-openssl
+repo	main
+file	acf-openssl-0.11.0-r0.apk
+checksum	Q1ecdoGaGRZ+v32yUTVmfMuQgvk7I=
+dep	acf-core	acf-core
+dep	openssl	openssl

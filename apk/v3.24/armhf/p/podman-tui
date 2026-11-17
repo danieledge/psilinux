@@ -1,0 +1,15 @@
+name	podman-tui
+version	1.9.0-r11
+description	Terminal user interface for Podman v4 & v5
+url	https://github.com/containers/podman-tui
+license	Apache-2.0
+size	12678097
+installed-size	34799852
+depends	podman so:libc.musl-armhf.so.1 so:libgpgme.so.45
+origin	podman-tui
+repo	community
+file	podman-tui-1.9.0-r11.apk
+checksum	Q14a4rh0T7sbmm2y+Czekk33pT1GM=
+dep	podman	podman
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgpgme.so.45	gpgme

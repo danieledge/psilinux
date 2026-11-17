@@ -1,0 +1,22 @@
+name	signal-estimator-gui
+version	0.1.0-r1
+description	Measure characteristics of a looped back signal (GUI)
+url	https://github.com/gavv/signal-estimator
+license	MIT
+size	198069
+installed-size	477208
+depends	so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt5Widgets.so.5 so:libasound.so.2 so:libc.musl-armhf.so.1 so:libfmt.so.11 so:libgcc_s.so.1 so:libkissfft-float.so.131 so:libqwt-qt5.so.6.3 so:libstdc++.so.6
+origin	signal-estimator
+repo	community
+file	signal-estimator-gui-0.1.0-r1.apk
+checksum	Q1xoVvPv8cWVNqyEwNzfLcYyhKEg8=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Gui.so.5	qt5-qtbase-x11
+dep	so:libQt5Widgets.so.5	qt5-qtbase-x11
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfmt.so.11	fmt
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libkissfft-float.so.131	kissfft-libs
+dep	so:libqwt-qt5.so.6.3	qt5-qwt
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,15 @@
+name	freeradius-python3
+version	3.0.27-r3
+description	Python 3 module for FreeRADIUS server
+url	https://freeradius.org/
+license	GPL-2.0-or-later
+size	15513
+installed-size	31326
+depends	freeradius=3.0.27-r3 so:libc.musl-armhf.so.1 so:libpython3.14.so.1.0
+origin	freeradius
+repo	main
+file	freeradius-python3-3.0.27-r3.apk
+checksum	Q1VvdlfheAlLzDsl5YpRBH3/hQHgk=
+dep	freeradius=3.0.27-r3	freeradius
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpython3.14.so.1.0	python3

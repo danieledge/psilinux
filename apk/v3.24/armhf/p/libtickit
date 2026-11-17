@@ -1,0 +1,15 @@
+name	libtickit
+version	0.4.6-r0
+description	library that provides an abstracted mechanism for building interactive full-screen terminal programs
+url	https://www.leonerd.org.uk/code/libtickit/
+license	MIT
+size	50005
+installed-size	103976
+depends	so:libc.musl-armhf.so.1 so:libtermkey.so.1 so:libunibilium.so.4
+origin	libtickit
+repo	community
+file	libtickit-0.4.6-r0.apk
+checksum	Q1qTH6s9Is5koeWrOe91dsclY6fzY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libtermkey.so.1	libtermkey
+dep	so:libunibilium.so.4	unibilium

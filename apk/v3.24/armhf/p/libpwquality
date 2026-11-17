@@ -1,0 +1,16 @@
+name	libpwquality
+version	1.4.5-r6
+description	Password quality checking library
+url	https://github.com/libpwquality/libpwquality
+license	BSD-3-Clause
+size	16962
+installed-size	48798
+depends	cracklib-words so:libc.musl-armhf.so.1 so:libcrack.so.2 so:libpam.so.0
+origin	libpwquality
+repo	community
+file	libpwquality-1.4.5-r6.apk
+checksum	Q10Jv7oEueFYKFMseZd8p8+fLk2Lw=
+dep	cracklib-words	cracklib-words
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrack.so.2	cracklib
+dep	so:libpam.so.0	linux-pam

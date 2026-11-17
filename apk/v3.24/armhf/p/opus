@@ -1,0 +1,13 @@
+name	opus
+version	1.6.1-r0
+description	Codec designed for interactive speech and audio transmission over the Internet
+url	https://www.opus-codec.org/
+license	BSD-3-Clause
+size	238128
+installed-size	390368
+depends	so:libc.musl-armhf.so.1
+origin	opus
+repo	main
+file	opus-1.6.1-r0.apk
+checksum	Q1GNdCz88nKllJxVJxkFEM7qoZykk=
+dep	so:libc.musl-armhf.so.1	musl

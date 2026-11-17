@@ -1,0 +1,14 @@
+name	libspng
+version	0.7.4-r1
+description	modern alternative to libpng
+url	https://github.com/randy408/libspng
+license	BSD-2-Clause
+size	29016
+installed-size	54532
+depends	so:libc.musl-armhf.so.1 so:libz.so.1
+origin	libspng
+repo	community
+file	libspng-0.7.4-r1.apk
+checksum	Q1B1mVfJL6OUcoUEk2rbe69eyds2I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libz.so.1	zlib

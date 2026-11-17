@@ -1,0 +1,12 @@
+name	libdex-dbg
+version	1.1.0-r2
+description	Future-based programming for GLib-based applications (debug symbols)
+url	https://gitlab.gnome.org/GNOME/libdex
+license	LGPL-2.1-or-later AND BSD-3-Clause
+size	232748
+installed-size	589300
+depends	!libdex<1.1.0-r2 !libdex>1.1.0-r2
+origin	libdex
+repo	community
+file	libdex-dbg-1.1.0-r2.apk
+checksum	Q1kFP9jZaBtt5VNnYjygAu6FtKLRc=

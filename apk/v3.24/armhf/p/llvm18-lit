@@ -1,0 +1,14 @@
+name	llvm18-lit
+version	18.1.8-r10
+description	LLVM 18 utilities for executing LLVM and Clang style test suites (llvm-lit)
+url	https://llvm.org/
+license	Apache-2.0 WITH LLVM-exception
+size	88282
+installed-size	322639
+depends	llvm18-test-utils=18.1.8-r10 python3~3.14
+origin	llvm18
+repo	community
+file	llvm18-lit-18.1.8-r10.apk
+checksum	Q1YGSJ+6NURoxVdOI6J1c/bMpwMi8=
+dep	llvm18-test-utils=18.1.8-r10	llvm18-test-utils
+dep	python3~3.14	python3

@@ -1,0 +1,13 @@
+name	ts
+version	1.0.3-r1
+description	Simple Unix batch system
+url	https://vicerveza.homeunix.net/~viric/soft/ts/
+license	GPL-2.0-or-later
+size	26145
+installed-size	54580
+depends	so:libc.musl-armhf.so.1
+origin	ts
+repo	community
+file	ts-1.0.3-r1.apk
+checksum	Q1B59o55z078EMunijhR4dPFFjtOg=
+dep	so:libc.musl-armhf.so.1	musl

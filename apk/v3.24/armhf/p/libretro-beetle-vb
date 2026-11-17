@@ -1,0 +1,15 @@
+name	libretro-beetle-vb
+version	0_git20241021-r0
+description	standalone port of Mednafen VB to libretro
+url	https://github.com/libretro/beetle-vb-libretro
+license	GPL-2.0-only
+size	68564
+installed-size	138408
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libretro-beetle-vb
+repo	community
+file	libretro-beetle-vb-0_git20241021-r0.apk
+checksum	Q1TNu1YWBhcErQZColhwUUMj+tJBo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

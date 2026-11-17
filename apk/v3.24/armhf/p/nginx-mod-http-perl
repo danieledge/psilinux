@@ -1,0 +1,15 @@
+name	nginx-mod-http-perl
+version	1.30.6-r0
+description	Nginx module http-perl
+url	https://www.nginx.org/
+license	BSD-2-Clause
+size	21806
+installed-size	49801
+depends	nginx=1.30.6-r0 so:libc.musl-armhf.so.1 so:libperl.so
+origin	nginx
+repo	main
+file	nginx-mod-http-perl-1.30.6-r0.apk
+checksum	Q13gWJqlX7rmMHwk3aRJ5AmD+AVJU=
+dep	nginx=1.30.6-r0	nginx
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libperl.so	perl

@@ -1,0 +1,23 @@
+name	mate-polkit
+version	1.28.1-r0
+description	MATE Authentication Agent for PolicyKit
+url	https://github.com/mate-desktop/mate-polkit
+license	GPL-2.0-or-later
+size	17952
+installed-size	41728
+depends	mate-common so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libpolkit-agent-1.so.0 so:libpolkit-gobject-1.so.0
+origin	mate-polkit
+repo	community
+file	mate-polkit-1.28.1-r0.apk
+checksum	Q1+W59QRNxscXBWCQOCdN9wBc6Mmg=
+dep	mate-common	mate-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libpolkit-agent-1.so.0	polkit-noelogind-libs
+dep	so:libpolkit-gobject-1.so.0	polkit-noelogind-libs

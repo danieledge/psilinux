@@ -1,0 +1,15 @@
+name	hdf5-tools
+version	1.14.4.2-r1
+description	Runtime tools for HDF5 library
+url	https://www.hdfgroup.org/solutions/hdf5/
+license	custom
+size	1198343
+installed-size	2845245
+depends	so:libc.musl-armhf.so.1 so:libhdf5.so.311 so:libhdf5_hl.so.310
+origin	hdf5
+repo	community
+file	hdf5-tools-1.14.4.2-r1.apk
+checksum	Q1dcDNLUEjKztLb+Vw77sOvoWJDt0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libhdf5.so.311	hdf5
+dep	so:libhdf5_hl.so.310	hdf5-hl

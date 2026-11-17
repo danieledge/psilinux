@@ -1,0 +1,18 @@
+name	xmlto
+version	0.0.29-r0
+description	Convert xml to many other formats
+url	https://pagure.io/xmlto/
+license	GPL-2.0-or-later
+size	23891
+installed-size	66798
+depends	libxslt perl-yaml-syck perl-test-pod bash docbook-xsl so:libc.musl-armhf.so.1
+origin	xmlto
+repo	main
+file	xmlto-0.0.29-r0.apk
+checksum	Q1iPytNc/hgMELI0jbX7u0NsiYGdI=
+dep	libxslt	libxslt
+dep	perl-yaml-syck	perl-yaml-syck
+dep	perl-test-pod	perl-test-pod
+dep	bash	bash
+dep	docbook-xsl	docbook-xsl
+dep	so:libc.musl-armhf.so.1	musl

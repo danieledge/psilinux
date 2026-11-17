@@ -1,0 +1,13 @@
+name	gnome-wise-icon-theme
+version	5.5.1-r5
+description	Green variation of the GNOME-Colors icon theme
+url	https://github.com/gnome-colors/gnome-colors
+license	GPL-2.0-only
+size	390720
+installed-size	1645684
+depends	gnome-colors-common
+origin	gnome-colors
+repo	community
+file	gnome-wise-icon-theme-5.5.1-r5.apk
+checksum	Q1P7XXAvhu74GR4BWSwlih3T6EAes=
+dep	gnome-colors-common	gnome-colors-common

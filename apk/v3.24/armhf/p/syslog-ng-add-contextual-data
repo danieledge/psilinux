@@ -1,0 +1,16 @@
+name	syslog-ng-add-contextual-data
+version	4.11.0-r0
+description	Next generation logging daemon (add contextual data module)
+url	https://www.syslog-ng.com/products/open-source-log-management/
+license	GPL-2.0-or-later
+size	18892
+installed-size	50556
+depends	so:libc.musl-armhf.so.1 so:libevtlog-4.11.so.0 so:libglib-2.0.so.0 so:libsyslog-ng-4.11.so.0
+origin	syslog-ng
+repo	main
+file	syslog-ng-add-contextual-data-4.11.0-r0.apk
+checksum	Q1dPCd+6Vsm8V6vOt+kyBacMRVgpI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevtlog-4.11.so.0	syslog-ng
+dep	so:libglib-2.0.so.0	glib
+dep	so:libsyslog-ng-4.11.so.0	syslog-ng

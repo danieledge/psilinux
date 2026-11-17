@@ -1,0 +1,16 @@
+name	py3-inform
+version	1.36-r1
+description	Print & Logging Utilities
+url	https://inform.readthedocs.io/
+license	GPL-3.0-or-later
+size	45083
+installed-size	158328
+depends	python3 py3-arrow py3-six python3~3.14
+origin	py3-inform
+repo	community
+file	py3-inform-1.36-r1.apk
+checksum	Q1745a7q5ObEyAZO6y3doU2+bufTI=
+dep	python3	python3
+dep	py3-arrow	py3-arrow
+dep	py3-six	py3-six
+dep	python3~3.14	python3

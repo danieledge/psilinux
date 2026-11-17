@@ -1,0 +1,29 @@
+name	gtk-vnc
+version	1.5.0-r0
+description	VNC viewer widget for GTK
+url	https://gitlab.gnome.org/GNOME/gtk-vnc
+license	LGPL-2.1-or-later
+size	101261
+installed-size	392408
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmp.so.10 so:libgnutls.so.30 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libpulse-simple.so.0 so:libpulse.so.0 so:libsasl2.so.3 so:libz.so.1
+origin	gtk-vnc
+repo	community
+file	gtk-vnc-1.5.0-r0.apk
+checksum	Q1ZsskU2jABjafhrcH6zifohpCDZ8=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmp.so.10	gmp
+dep	so:libgnutls.so.30	gnutls
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libpulse-simple.so.0	libpulse
+dep	so:libpulse.so.0	libpulse
+dep	so:libsasl2.so.3	libsasl
+dep	so:libz.so.1	zlib

@@ -1,0 +1,13 @@
+name	ctop
+version	0.7.7-r38
+description	Top-like interface for container metrics
+url	https://ctop.sh/
+license	MIT
+size	5555123
+installed-size	14843756
+depends	so:libc.musl-armhf.so.1
+origin	ctop
+repo	community
+file	ctop-0.7.7-r38.apk
+checksum	Q1CNSq+L7aFtgcGO674ZDXli3jAu4=
+dep	so:libc.musl-armhf.so.1	musl

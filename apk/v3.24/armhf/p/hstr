@@ -1,0 +1,15 @@
+name	hstr
+version	3.2-r0
+description	Bash and ZSH shell history suggest box
+url	https://github.com/dvorka/hstr
+license	Apache-2.0
+size	22277
+installed-size	46304
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6 so:libreadline.so.8
+origin	hstr
+repo	community
+file	hstr-3.2-r0.apk
+checksum	Q10PIsEFNFyeXhegP4xoCTM3E6JME=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libreadline.so.8	readline

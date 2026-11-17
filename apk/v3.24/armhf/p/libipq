@@ -1,0 +1,13 @@
+name	libipq
+version	1.8.13-r0
+description	Linux kernel firewall, NAT and packet mangling tools (legacy libipq library)
+url	https://www.netfilter.org/projects/iptables/index.html
+license	GPL-2.0-or-later
+size	4919
+installed-size	9472
+depends	so:libc.musl-armhf.so.1
+origin	iptables
+repo	main
+file	libipq-1.8.13-r0.apk
+checksum	Q1GqdVNIHIDG+D4IIOVVjbukAo8m0=
+dep	so:libc.musl-armhf.so.1	musl

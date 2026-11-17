@@ -1,0 +1,16 @@
+name	postsrsd
+version	2.0.12-r0
+description	Postfix Sender Rewriting Scheme daemon
+url	https://github.com/roehling/postsrsd
+license	GPL-3.0-only AND BSD-3-Clause AND FSFUL
+size	27128
+installed-size	55373
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libconfuse.so.2 so:libsqlite3.so.0
+origin	postsrsd
+repo	community
+file	postsrsd-2.0.12-r0.apk
+checksum	Q1KI9E96R5C+Ev3P7l6U8+szbaGN8=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libconfuse.so.2	confuse
+dep	so:libsqlite3.so.0	sqlite-libs

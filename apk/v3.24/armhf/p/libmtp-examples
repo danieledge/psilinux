@@ -1,0 +1,14 @@
+name	libmtp-examples
+version	1.1.22-r1
+description	Example programs for libmtp
+url	https://libmtp.sourceforge.net/
+license	LGPL-2.0-or-later
+size	41145
+installed-size	172032
+depends	so:libc.musl-armhf.so.1 so:libmtp.so.9
+origin	libmtp
+repo	community
+file	libmtp-examples-1.1.22-r1.apk
+checksum	Q1IxPogzeHGaNtNK9uBke5suUYrzQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmtp.so.9	libmtp

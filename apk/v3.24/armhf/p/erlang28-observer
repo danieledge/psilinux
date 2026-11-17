@@ -1,0 +1,15 @@
+name	erlang28-observer
+version	28.5.0.8-r0
+description	General-purpose programming language and runtime environment, version 28
+url	https://www.erlang.org/
+license	Apache-2.0
+size	1127440
+installed-size	1336966
+depends	erlang28=28.5.0.8-r0 erlang28-et=28.5.0.8-r0 erlang28-wx=28.5.0.8-r0
+origin	erlang28
+repo	community
+file	erlang28-observer-28.5.0.8-r0.apk
+checksum	Q1T6bZZJczQ72zJOma27906KWhXG8=
+dep	erlang28=28.5.0.8-r0	erlang28
+dep	erlang28-et=28.5.0.8-r0	erlang28-et
+dep	erlang28-wx=28.5.0.8-r0	erlang28-wx

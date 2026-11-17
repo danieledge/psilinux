@@ -1,0 +1,17 @@
+name	scryer-prolog
+version	0.10.0-r0
+description	Modern Prolog implementation written in Rust
+url	https://github.com/mthom/scryer-prolog
+license	BSD-3-Clause
+size	2776608
+installed-size	6798776
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libffi.so.8 so:libgcc_s.so.1 so:libssl.so.3
+origin	scryer-prolog
+repo	community
+file	scryer-prolog-0.10.0-r0.apk
+checksum	Q1RizofhzwerDjRXqRqKm1ngBBpvI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libffi.so.8	libffi
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3

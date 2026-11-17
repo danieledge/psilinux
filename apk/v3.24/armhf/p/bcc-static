@@ -1,0 +1,13 @@
+name	bcc-static
+version	0.36.1-r1
+description	A toolkit for creating efficient kernel tracing and manipulation programs (static library)
+url	https://github.com/iovisor/bcc/
+license	Apache-2.0
+size	1866058
+installed-size	8842504
+depends	bcc-dev
+origin	bcc
+repo	community
+file	bcc-static-0.36.1-r1.apk
+checksum	Q1789oCbmCo5EFea2jOeuTQRvHbzQ=
+dep	bcc-dev	bcc-dev

@@ -1,0 +1,14 @@
+name	cgpt
+version	6310032-r12
+description	ChromeOS GPT tool
+url	https://github.com/coreboot/vboot
+license	custom:chromiumos
+size	32467
+installed-size	67148
+depends	so:libc.musl-armhf.so.1 so:libuuid.so.1
+origin	vboot-utils
+repo	community
+file	cgpt-6310032-r12.apk
+checksum	Q1XI8CFO28C0boCVAhkjEBjAQT6AU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libuuid.so.1	libuuid

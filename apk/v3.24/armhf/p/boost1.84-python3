@@ -1,0 +1,16 @@
+name	boost1.84-python3
+version	1.84.0-r6
+description	Boost python3 shared library
+url	https://www.boost.org/
+license	BSL-1.0
+size	86067
+installed-size	236600
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpython3.14.so.1.0 so:libstdc++.so.6
+origin	boost1.84
+repo	main
+file	boost1.84-python3-1.84.0-r6.apk
+checksum	Q1jZbBnIMa5dTQMYTvayspq5bEx/k=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpython3.14.so.1.0	python3
+dep	so:libstdc++.so.6	libstdc++

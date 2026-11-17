@@ -1,0 +1,15 @@
+name	py3-murmurhash
+version	1.0.15-r1
+description	Cython bindings for MurmurHash2
+url	https://github.com/explosion/murmurhash
+license	MIT
+size	28623
+installed-size	60562
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	py3-murmurhash
+repo	community
+file	py3-murmurhash-1.0.15-r1.apk
+checksum	Q12QMd7ctVMz9w1Q9R/q1PDhpVU9s=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

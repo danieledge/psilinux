@@ -1,0 +1,13 @@
+name	lua5.3-libs
+version	5.3.6-r6
+description	Lua dynamic library runtime
+url	https://www.lua.org/
+license	MIT
+size	85433
+installed-size	178334
+depends	so:libc.musl-armhf.so.1
+origin	lua5.3
+repo	main
+file	lua5.3-libs-5.3.6-r6.apk
+checksum	Q14Z4PdQ7oynXNfYBDQXhSJeFa2iA=
+dep	so:libc.musl-armhf.so.1	musl

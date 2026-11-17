@@ -1,0 +1,18 @@
+name	emacspeak-server-espeak
+version	59.0-r2
+description	Emacs audio desktop for eyes-free computing (espeak-ng speech server)
+url	https://emacspeak.sourceforge.net/
+license	GPL-2.0-or-later
+size	20705
+installed-size	46945
+depends	tclx so:libc.musl-armhf.so.1 so:libespeak-ng.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libtcl8.6.so
+origin	emacspeak
+repo	community
+file	emacspeak-server-espeak-59.0-r2.apk
+checksum	Q1QV9wjZq0VJLFnl6sjrMP4NcDYJI=
+dep	tclx	tclx
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libespeak-ng.so.1	espeak-ng
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtcl8.6.so	tcl

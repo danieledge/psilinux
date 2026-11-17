@@ -1,0 +1,17 @@
+name	perl-html-parser
+version	3.85-r0
+description	HTML parser class
+url	https://metacpan.org/release/HTML-Parser/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	51288
+installed-size	132531
+depends	perl perl-html-tagset perl-http-message perl-uri so:libc.musl-armhf.so.1
+origin	perl-html-parser
+repo	main
+file	perl-html-parser-3.85-r0.apk
+checksum	Q1ucYhXmxS6OKKl+hjHrNsmHXPWeE=
+dep	perl	perl
+dep	perl-html-tagset	perl-html-tagset
+dep	perl-http-message	perl-http-message
+dep	perl-uri	perl-uri
+dep	so:libc.musl-armhf.so.1	musl

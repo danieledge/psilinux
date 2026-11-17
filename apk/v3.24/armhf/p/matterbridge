@@ -1,0 +1,14 @@
+name	matterbridge
+version	1.26.0-r30
+description	Bridges between a growing number of chat protocols
+url	https://github.com/42wim/matterbridge
+license	Apache-2.0
+size	14940593
+installed-size	56787700
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	matterbridge
+repo	community
+file	matterbridge-1.26.0-r30.apk
+checksum	Q1Mgp2EAyCtzz8xgXhSAN68rlhYG4=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

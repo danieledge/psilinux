@@ -1,0 +1,16 @@
+name	lua5.3-rapidjson
+version	0.7.2-r1
+description	A JSON module for Lua based on the very fast RapidJSON library (for Lua 5.3)
+url	https://github.com/xpol/lua-rapidjson
+license	MIT
+size	73895
+installed-size	206227
+depends	lua5.3 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	lua-rapidjson
+repo	community
+file	lua5.3-rapidjson-0.7.2-r1.apk
+checksum	Q1Zqp7EwteJVQVdD5UqpkniX0V1sA=
+dep	lua5.3	lua5.3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

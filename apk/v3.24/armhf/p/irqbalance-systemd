@@ -1,0 +1,12 @@
+name	irqbalance-systemd
+version	1.9.5-r0
+description	Daemon that distributes interrupts over the processors (systemd files)
+url	https://github.com/Irqbalance/irqbalance
+license	GPL-2.0-or-later
+size	2999
+installed-size	2520
+depends	
+origin	irqbalance
+repo	main
+file	irqbalance-systemd-1.9.5-r0.apk
+checksum	Q1nzT5BLxtze/odGTU6rNf3Zh6ouk=

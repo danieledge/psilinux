@@ -1,0 +1,19 @@
+name	os-installer
+version	0.5.1-r0
+description	generic OS-installer that can be customized by distributions
+url	https://gitlab.gnome.org/p3732/os-installer
+license	GPL-3.0-or-later
+size	97901
+installed-size	365530
+depends	epiphany gnome-control-center gnome-disk-utility py3-yaml udisks2 vte3 vte3-gtk4
+origin	os-installer
+repo	community
+file	os-installer-0.5.1-r0.apk
+checksum	Q1tsKLKbCDPqJ+QeTO/TlPm+/w6zA=
+dep	epiphany	epiphany
+dep	gnome-control-center	gnome-control-center
+dep	gnome-disk-utility	gnome-disk-utility
+dep	py3-yaml	py3-yaml
+dep	udisks2	udisks2
+dep	vte3	vte3
+dep	vte3-gtk4	vte3-gtk4

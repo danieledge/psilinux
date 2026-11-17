@@ -1,0 +1,20 @@
+name	ocaml-ca-certs-dev
+version	0.2.2-r4
+description	Detect root CA certificates from the operating system (development files)
+url	https://github.com/mirage/ca-certs
+license	ISC
+size	40893
+installed-size	90876
+depends	ocaml-ca-certs=0.2.2-r4 ocaml-astring-dev ocaml-bos-dev ocaml-fpath-dev ocaml-logs-dev ocaml-mirage-crypto-dev ocaml-ptime-dev ocaml-x509-dev
+origin	ocaml-ca-certs
+repo	community
+file	ocaml-ca-certs-dev-0.2.2-r4.apk
+checksum	Q1mGN6ThwFE9NPkCxg+x14VUvYjw8=
+dep	ocaml-ca-certs=0.2.2-r4	ocaml-ca-certs
+dep	ocaml-astring-dev	ocaml-astring-dev
+dep	ocaml-bos-dev	ocaml-bos-dev
+dep	ocaml-fpath-dev	ocaml-fpath-dev
+dep	ocaml-logs-dev	ocaml-logs-dev
+dep	ocaml-mirage-crypto-dev	ocaml-mirage-crypto-dev
+dep	ocaml-ptime-dev	ocaml-ptime-dev
+dep	ocaml-x509-dev	ocaml-x509-dev

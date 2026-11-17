@@ -1,0 +1,16 @@
+name	vile
+version	9.8z_p2-r0
+description	Vi Like Emacs, for Terminal (vile)
+url	https://invisible-island.net/vile/
+license	GPL-2.0-only
+size	775986
+installed-size	2058360
+depends	vile-common=9.8z_p2-r0 so:libc.musl-armhf.so.1 so:libncursesw.so.6 so:libperl.so
+origin	vile
+repo	community
+file	vile-9.8z_p2-r0.apk
+checksum	Q1yWTwMvNKcSTMBPyn6gesZqxNcws=
+dep	vile-common=9.8z_p2-r0	vile-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libperl.so	perl

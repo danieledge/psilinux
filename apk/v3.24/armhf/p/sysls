@@ -1,0 +1,13 @@
+name	sysls
+version	2-r4
+description	Nicer ls for sysfs directories
+url	https://git.sr.ht/~martijnbraam/sysls
+license	GPL-3.0-only
+size	18879
+installed-size	42296
+depends	python3~3.14
+origin	sysls
+repo	community
+file	sysls-2-r4.apk
+checksum	Q1EKbaNSnWl26V8rkM/R0EKdmRqmQ=
+dep	python3~3.14	python3

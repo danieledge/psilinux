@@ -1,0 +1,14 @@
+name	mdbook
+version	0.5.3-r0
+description	mdBook is a utility to create modern online books from Markdown files
+url	https://rust-lang.github.io/mdBook/
+license	MPL-2.0
+size	3402367
+installed-size	7967316
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	mdbook
+repo	community
+file	mdbook-0.5.3-r0.apk
+checksum	Q1MzkGZBBwC/mibbOJR6IgxkLVWmE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

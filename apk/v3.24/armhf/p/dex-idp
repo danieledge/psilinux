@@ -1,0 +1,14 @@
+name	dex-idp
+version	2.45.1-r5
+description	OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
+url	https://dexidp.io/
+license	Apache-2.0
+size	13407778
+installed-size	37913727
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	dex-idp
+repo	community
+file	dex-idp-2.45.1-r5.apk
+checksum	Q14AHTSs6EnjNLWf5TusGwUqKxgig=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

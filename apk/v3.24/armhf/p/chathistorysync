@@ -1,0 +1,13 @@
+name	chathistorysync
+version	0.2.1-r17
+description	A tool for syncing IRC logs via the CHATHISTORY extension
+url	https://sr.ht/~emersion/chathistorysync
+license	AGPL-3.0-only
+size	2055860
+installed-size	4957460
+depends	so:libc.musl-armhf.so.1
+origin	chathistorysync
+repo	community
+file	chathistorysync-0.2.1-r17.apk
+checksum	Q1QOiHyJe85wcBk8DndzP8FaRRI50=
+dep	so:libc.musl-armhf.so.1	musl

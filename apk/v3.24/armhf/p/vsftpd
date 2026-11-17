@@ -1,0 +1,18 @@
+name	vsftpd
+version	3.0.5-r3
+description	Very secure ftpd
+url	http://vsftpd.beasts.org
+license	GPL-2.0-only
+size	58266
+installed-size	125837
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcap.so.2 so:libcrypto.so.3 so:libpam.so.0 so:libssl.so.3
+origin	vsftpd
+repo	community
+file	vsftpd-3.0.5-r3.apk
+checksum	Q1ftg0zJ6ux7+fh9TVrUl/rRlpBg0=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libpam.so.0	linux-pam
+dep	so:libssl.so.3	libssl3

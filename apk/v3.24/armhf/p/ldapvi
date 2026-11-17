@@ -1,0 +1,20 @@
+name	ldapvi
+version	1.7-r16
+description	ldapvi is an interactive LDAP client for Unix terminals
+url	http://www.lichteblau.com/ldapvi/
+license	GPL-2.0-or-later
+size	45313
+installed-size	97172
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libglib-2.0.so.0 so:liblber.so.2 so:libldap.so.2 so:libncursesw.so.6 so:libpopt.so.0 so:libreadline.so.8
+origin	ldapvi
+repo	main
+file	ldapvi-1.7-r16.apk
+checksum	Q1BOlLgORqE0L8qLN881GjUMKHPOE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libglib-2.0.so.0	glib
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpopt.so.0	popt
+dep	so:libreadline.so.8	readline

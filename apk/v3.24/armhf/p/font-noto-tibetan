@@ -1,0 +1,14 @@
+name	font-noto-tibetan
+version	2026.11.01-r0
+description	Noto Serif Tibetan font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	2391772
+installed-size	5469178
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-tibetan-2026.11.01-r0.apk
+checksum	Q1YMah0qeEa4lVJDbguBQKa6v7cus=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

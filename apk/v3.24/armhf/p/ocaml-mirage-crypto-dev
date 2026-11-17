@@ -1,0 +1,19 @@
+name	ocaml-mirage-crypto-dev
+version	0.10.6-r6
+description	Simple symmetric cryptography for the modern age (development files)
+url	https://github.com/mirage/mirage-crypto
+license	ISC
+size	5752109
+installed-size	44508103
+depends	ocaml-mirage-crypto=0.10.6-r6 ocaml-cstruct-dev ocaml-duration-dev ocaml-eqaf-dev ocaml-logs-dev ocaml-mtime-dev ocaml-zarith
+origin	ocaml-mirage-crypto
+repo	community
+file	ocaml-mirage-crypto-dev-0.10.6-r6.apk
+checksum	Q1fAJjKoMYTH1bxRcxBWhz4a5UeJE=
+dep	ocaml-mirage-crypto=0.10.6-r6	ocaml-mirage-crypto
+dep	ocaml-cstruct-dev	ocaml-cstruct-dev
+dep	ocaml-duration-dev	ocaml-duration-dev
+dep	ocaml-eqaf-dev	ocaml-eqaf-dev
+dep	ocaml-logs-dev	ocaml-logs-dev
+dep	ocaml-mtime-dev	ocaml-mtime-dev
+dep	ocaml-zarith	ocaml-zarith

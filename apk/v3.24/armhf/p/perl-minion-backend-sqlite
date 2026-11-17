@@ -1,0 +1,15 @@
+name	perl-minion-backend-sqlite
+version	5.0.7-r1
+description	SQLite backend for Minion job queue
+url	https://metacpan.org/release/Minion-Backend-SQLite/
+license	Artistic-2.0
+size	10289
+installed-size	35154
+depends	perl perl-minion perl-mojo-sqlite
+origin	perl-minion-backend-sqlite
+repo	community
+file	perl-minion-backend-sqlite-5.0.7-r1.apk
+checksum	Q1WUMoTWqDvMRNXJsN8fRvDOHvidk=
+dep	perl	perl
+dep	perl-minion	perl-minion
+dep	perl-mojo-sqlite	perl-mojo-sqlite

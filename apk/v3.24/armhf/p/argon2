@@ -1,0 +1,13 @@
+name	argon2
+version	20190702-r5
+description	The password hash Argon2, winner of PHC
+url	https://github.com/P-H-C/phc-winner-argon2
+license	Apache-2.0 OR CC0-1.0
+size	24522
+installed-size	46360
+depends	so:libc.musl-armhf.so.1
+origin	argon2
+repo	main
+file	argon2-20190702-r5.apk
+checksum	Q1hhjSZ2bxCKqCyQ1AOLUXfOVi2kA=
+dep	so:libc.musl-armhf.so.1	musl

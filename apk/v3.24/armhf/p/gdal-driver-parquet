@@ -1,0 +1,20 @@
+name	gdal-driver-parquet
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats ((Geo)Parquet driver)
+url	https://gdal.org/
+license	MIT
+size	272294
+installed-size	681384
+depends	so:libarrow.so.2300 so:libarrow_compute.so.2300 so:libarrow_dataset.so.2300 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libparquet.so.2300 so:libstdc++.so.6
+origin	gdal
+repo	community
+file	gdal-driver-parquet-3.13.3-r0.apk
+checksum	Q1gN6EqMXrG9TjCjF9C4k14j3Kubo=
+dep	so:libarrow.so.2300	libarrow
+dep	so:libarrow_compute.so.2300	apache-arrow
+dep	so:libarrow_dataset.so.2300	libarrow_dataset
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libparquet.so.2300	libparquet
+dep	so:libstdc++.so.6	libstdc++

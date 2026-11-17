@@ -1,0 +1,13 @@
+name	cppcodec
+version	0.2-r2
+description	Library to encode/decode base64, base64url, base32, base32hex and hex (a.k.a. base16), plus Crockford's base32
+url	https://github.com/tplgy/cppcodec
+license	MIT
+size	18340
+installed-size	101305
+depends	pkgconfig
+origin	cppcodec
+repo	community
+file	cppcodec-0.2-r2.apk
+checksum	Q1Qleid0rXecpOJAfaGAGaR6Yivtw=
+dep	pkgconfig	pkgconf

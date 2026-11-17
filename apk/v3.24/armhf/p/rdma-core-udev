@@ -1,0 +1,14 @@
+name	rdma-core-udev
+version	61.0-r0
+description	RDMA core userspace libraries and daemons (udev rules)
+url	https://github.com/linux-rdma/rdma-core
+license	GPL-2.0-only OR BSD-2-Clause
+size	10501
+installed-size	20240
+depends	so:libc.musl-armhf.so.1 so:libnl-3.so.200
+origin	rdma-core
+repo	community
+file	rdma-core-udev-61.0-r0.apk
+checksum	Q1RezjToc/IGOkHLSc4UV9or2VvRU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnl-3.so.200	libnl3

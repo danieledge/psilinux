@@ -1,0 +1,13 @@
+name	brltty-static
+version	6.8-r2
+description	Refreshable braille display driver daemon (static library)
+url	http://brltty.app
+license	LGPL-2.1-or-later
+size	24129
+installed-size	53892
+depends	brltty-dev
+origin	brltty
+repo	community
+file	brltty-static-6.8-r2.apk
+checksum	Q1eTZfdOCaP7I5x7QdTxhcY9Ae7gk=
+dep	brltty-dev	brltty-dev

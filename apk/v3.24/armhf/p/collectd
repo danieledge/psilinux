@@ -1,0 +1,16 @@
+name	collectd
+version	5.12.0-r25
+description	The system statistics collection daemon
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	359052
+installed-size	1056801
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libmnl.so.0 so:libyajl.so.2
+origin	collectd
+repo	community
+file	collectd-5.12.0-r25.apk
+checksum	Q1ce7b+tJcXMCjGhe432UQKSCPShc=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmnl.so.0	libmnl
+dep	so:libyajl.so.2	yajl

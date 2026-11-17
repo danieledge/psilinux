@@ -1,0 +1,12 @@
+name	autofs-dbg
+version	5.1.9-r0
+description	A kernel-based automounter for Linux (debug symbols)
+url	https://www.kernel.org/pub/linux/daemons/autofs/
+license	GPL-2.0-or-later
+size	565449
+installed-size	1229324
+depends	!autofs<5.1.9-r0 !autofs>5.1.9-r0
+origin	autofs
+repo	community
+file	autofs-dbg-5.1.9-r0.apk
+checksum	Q1i5zblWhupA5ECohMpZr/3PbINNk=

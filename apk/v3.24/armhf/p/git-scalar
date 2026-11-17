@@ -1,0 +1,16 @@
+name	git-scalar
+version	2.54.1-r0
+description	Git scalar monorepo tool
+url	https://www.git-scm.com/
+license	GPL-2.0-only
+size	339131
+installed-size	675360
+depends	git=2.54.1-r0 so:libc.musl-armhf.so.1 so:libpcre2-8.so.0 so:libz.so.1
+origin	git
+repo	main
+file	git-scalar-2.54.1-r0.apk
+checksum	Q1o8Q9HVy50XQveofzYCXzxyVO/cg=
+dep	git=2.54.1-r0	git
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libz.so.1	zlib

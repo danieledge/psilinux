@@ -1,0 +1,17 @@
+name	sratom-dev
+version	0.6.20-r0
+description	library for serialising LV2 atoms to and from RDF (development files)
+url	https://drobilla.net/software/sratom
+license	ISC
+size	3827
+installed-size	5325
+depends	sratom=0.6.20-r0 pc:lv2>=1.18.4 pc:serd-0>=0.30.10 pc:sord-0>=0.16.16 pkgconfig
+origin	sratom
+repo	community
+file	sratom-dev-0.6.20-r0.apk
+checksum	Q1M163SDj5fgyeP6fbkyqhrRs81pk=
+dep	sratom=0.6.20-r0	sratom
+dep	pc:lv2>=1.18.4	lv2-dev
+dep	pc:serd-0>=0.30.10	serd-dev
+dep	pc:sord-0>=0.16.16	sord-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	beep
+version	1.4.12-r1
+description	A terminal bell
+url	https://github.com/spkr-beep/beep
+license	GPL-2.0-or-later
+size	10582
+installed-size	23668
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	beep
+repo	main
+file	beep-1.4.12-r1.apk
+checksum	Q1QBLeu+WKH0J0nYekoNEnLzrRB1E=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

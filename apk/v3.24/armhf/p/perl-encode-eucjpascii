@@ -1,0 +1,14 @@
+name	perl-encode-eucjpascii
+version	0.03-r13
+description	eucJP-ascii - An eucJP-open mapping
+url	https://metacpan.org/release/Encode-EUCJPASCII/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	131780
+installed-size	350922
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-encode-eucjpascii
+repo	community
+file	perl-encode-eucjpascii-0.03-r13.apk
+checksum	Q1hbIe8F3Tj0hbKpMM6oBVpOFrvdc=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

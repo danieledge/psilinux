@@ -1,0 +1,17 @@
+name	rnp
+version	0.18.1-r1
+description	High performance C++ OpenPGP library used by Mozilla Thunderbird (CLI tools)
+url	https://www.rnpgp.org/
+license	BSD-2-Clause
+size	151965
+installed-size	345712
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libjson-c.so.5 so:librnp.so.0 so:libstdc++.so.6
+origin	rnp
+repo	community
+file	rnp-0.18.1-r1.apk
+checksum	Q18T1QdwO8JK7hBiyWG2BMHhQIBiI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjson-c.so.5	json-c
+dep	so:librnp.so.0	librnp
+dep	so:libstdc++.so.6	libstdc++

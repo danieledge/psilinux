@@ -1,0 +1,13 @@
+name	salt-master
+version	3007.13-r3
+description	Management component for salt, a parallel remote execution system
+url	https://github.com/saltstack/salt
+license	Apache-2.0
+size	20490
+installed-size	55813
+depends	salt
+origin	salt
+repo	community
+file	salt-master-3007.13-r3.apk
+checksum	Q1VgbtmBgA9OQgydJbZtD9QNMOaGU=
+dep	salt	salt

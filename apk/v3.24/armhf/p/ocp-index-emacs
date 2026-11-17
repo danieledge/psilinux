@@ -1,0 +1,13 @@
+name	ocp-index-emacs
+version	1.4.0-r3
+description	Lightweight completion and documentation browsing for OCaml libraries in Emacs
+url	http://www.typerex.org/ocp-index.html
+license	LGPL-2.1-only WITH OCaml-LGPL-linking-exception AND GPL-3.0-only
+size	6366
+installed-size	17748
+depends	ocp-index=1.4.0-r3
+origin	ocp-index
+repo	community
+file	ocp-index-emacs-1.4.0-r3.apk
+checksum	Q1AJPPmmCycp653zlo4oAI3Pxluqc=
+dep	ocp-index=1.4.0-r3	ocp-index

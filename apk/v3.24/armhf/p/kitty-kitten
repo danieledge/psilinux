@@ -1,0 +1,13 @@
+name	kitty-kitten
+version	0.47.0-r2
+description	Kitty Kitten client
+url	https://sw.kovidgoyal.net/kitty/
+license	GPL-3.0-only
+size	9245057
+installed-size	25673228
+depends	so:libc.musl-armhf.so.1
+origin	kitty
+repo	community
+file	kitty-kitten-0.47.0-r2.apk
+checksum	Q1s82F7M9ReFfsxHyTqU9R4Xf4/9Q=
+dep	so:libc.musl-armhf.so.1	musl

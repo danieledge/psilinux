@@ -1,0 +1,17 @@
+name	prometheus-libvirt-exporter
+version	2.3.3-r26
+description	Prometheus libvirt exporter
+url	https://github.com/Tinkoff/libvirt-exporter
+license	Apache-2.0
+size	3941563
+installed-size	10304240
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libvirt-lxc.so.0 so:libvirt-qemu.so.0 so:libvirt.so.0
+origin	prometheus-libvirt-exporter
+repo	community
+file	prometheus-libvirt-exporter-2.3.3-r26.apk
+checksum	Q1CGyTXehA3fb5BCSBVlX9OSkj23U=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libvirt-lxc.so.0	libvirt-libs
+dep	so:libvirt-qemu.so.0	libvirt-libs
+dep	so:libvirt.so.0	libvirt-libs

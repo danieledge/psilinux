@@ -1,0 +1,12 @@
+name	smartmontools-dbg
+version	7.5-r0
+description	Control and monitor S.M.A.R.T. enabled hard drives (debug symbols)
+url	https://www.smartmontools.org/
+license	GPL-2.0-or-later
+size	2093866
+installed-size	5108616
+depends	!smartmontools<7.5-r0 !smartmontools>7.5-r0
+origin	smartmontools
+repo	main
+file	smartmontools-dbg-7.5-r0.apk
+checksum	Q1VFo3HGa/cHbhVm9eJ7pRZyJ7Z5Q=

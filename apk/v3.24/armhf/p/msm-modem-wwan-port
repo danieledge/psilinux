@@ -1,0 +1,13 @@
+name	msm-modem-wwan-port
+version	13-r1
+description	Common support for Qualcomm MSM modems (Open WWAN port)
+url	https://gitlab.postmarketos.org/postmarketOS/msm-modem#
+license	GPL-3.0-or-later
+size	2093
+installed-size	898
+depends	rmtfs
+origin	msm-modem
+repo	community
+file	msm-modem-wwan-port-13-r1.apk
+checksum	Q1OFxCO/eh3NKgJQ820AV+YfINmtA=
+dep	rmtfs	rmtfs

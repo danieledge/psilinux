@@ -1,0 +1,18 @@
+name	libnl3-cli
+version	3.11.0-r0
+description	Command line interface utils for libnl3
+url	http://www.infradead.org/~tgr/libnl/
+license	LGPL-2.1-or-later
+size	102098
+installed-size	522664
+depends	so:libc.musl-armhf.so.1 so:libnl-3.so.200 so:libnl-genl-3.so.200 so:libnl-idiag-3.so.200 so:libnl-nf-3.so.200 so:libnl-route-3.so.200
+origin	libnl3
+repo	main
+file	libnl3-cli-3.11.0-r0.apk
+checksum	Q1MtTsoQm9MWWPM8BuUR32qG57qX4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnl-3.so.200	libnl3
+dep	so:libnl-genl-3.so.200	libnl3
+dep	so:libnl-idiag-3.so.200	libnl3
+dep	so:libnl-nf-3.so.200	libnl3
+dep	so:libnl-route-3.so.200	libnl3

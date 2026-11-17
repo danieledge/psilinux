@@ -1,0 +1,14 @@
+name	gnuchess
+version	6.3.0-r0
+description	The GNU chess program
+url	https://www.gnu.org/software/chess/
+license	GPL-3.0-or-later
+size	236514
+installed-size	609560
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	gnuchess
+repo	community
+file	gnuchess-6.3.0-r0.apk
+checksum	Q1MlqFxrK9J6Y8AJmKIA8KJSsiYQo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

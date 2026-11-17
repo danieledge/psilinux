@@ -1,0 +1,16 @@
+name	lua5.2-ossl
+version	20250929-r1
+description	comprehensive OpenSSL Lua module for Lua 5.2
+url	https://25thandclement.com/~william/projects/luaossl.html
+license	MIT
+size	63599
+installed-size	162092
+depends	lua5.2 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	lua-ossl
+repo	main
+file	lua5.2-ossl-20250929-r1.apk
+checksum	Q1ZJqgq2T6Jk7WM6MqRy3ZoGDlaXg=
+dep	lua5.2	lua5.2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

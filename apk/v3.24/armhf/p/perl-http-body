@@ -1,0 +1,14 @@
+name	perl-http-body
+version	1.23-r0
+description	HTTP Body Parser
+url	https://metacpan.org/release/HTTP-Body/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	8664
+installed-size	24334
+depends	perl perl-http-message
+origin	perl-http-body
+repo	main
+file	perl-http-body-1.23-r0.apk
+checksum	Q1RaYxzwBs7xEeErmuwgApZYUOMdM=
+dep	perl	perl
+dep	perl-http-message	perl-http-message

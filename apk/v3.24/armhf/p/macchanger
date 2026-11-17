@@ -1,0 +1,13 @@
+name	macchanger
+version	1.7.0-r3
+description	An utility for viewing/manipulating the MAC address of network interfaces
+url	https://github.com/alobbs/macchanger
+license	GPL-3.0-or-later
+size	218513
+installed-size	598477
+depends	so:libc.musl-armhf.so.1
+origin	macchanger
+repo	community
+file	macchanger-1.7.0-r3.apk
+checksum	Q1+/gTdOGmXVKrmWX+IJFFzesHbgQ=
+dep	so:libc.musl-armhf.so.1	musl

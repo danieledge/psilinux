@@ -1,0 +1,16 @@
+name	autorandr
+version	1.15-r2
+description	Auto-detect the connected display hardware and load the appropriate X11 setup using xrandr
+url	https://github.com/phillipberndt/autorandr
+license	GPL-3.0-or-later
+size	21056
+installed-size	75378
+depends	py3-packaging python3 xdpyinfo xrandr
+origin	autorandr
+repo	community
+file	autorandr-1.15-r2.apk
+checksum	Q17PKknmiQFFIPSZ0gpvJcrjY4swk=
+dep	py3-packaging	py3-packaging
+dep	python3	python3
+dep	xdpyinfo	xdpyinfo
+dep	xrandr	xrandr

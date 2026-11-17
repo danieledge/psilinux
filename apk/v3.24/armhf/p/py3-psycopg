@@ -1,0 +1,14 @@
+name	py3-psycopg
+version	3.3.4-r0
+description	PostgreSQL adapter for python
+url	https://www.psycopg.org/
+license	LGPL-2.0-or-later
+size	204448
+installed-size	860049
+depends	py3-typing-extensions python3~3.14
+origin	py3-psycopg
+repo	community
+file	py3-psycopg-3.3.4-r0.apk
+checksum	Q1hAyhwDWCMdvwhNjGJ99RhkjP2t4=
+dep	py3-typing-extensions	py3-typing-extensions
+dep	python3~3.14	python3

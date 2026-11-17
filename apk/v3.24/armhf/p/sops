@@ -1,0 +1,13 @@
+name	sops
+version	3.12.2-r3
+description	Simple and flexible tool for managing secrets
+url	https://github.com/getsops/sops
+license	MPL-2.0
+size	15667999
+installed-size	50849908
+depends	so:libc.musl-armhf.so.1
+origin	sops
+repo	community
+file	sops-3.12.2-r3.apk
+checksum	Q1+MWxPlz9d5sEFLjJefPUp++jb5Y=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	lua5.1-pgmoon
+version	1.17.0-r0
+description	A pure Lua Postgres driver for use in OpenResty & more (for Lua 5.1)
+url	https://github.com/leafo/pgmoon
+license	MIT
+size	30309
+installed-size	104246
+depends	lua5.1
+origin	lua-pgmoon
+repo	community
+file	lua5.1-pgmoon-1.17.0-r0.apk
+checksum	Q1KfGM3tvSk1orBU+gQfeuSqvu/K4=
+dep	lua5.1	lua5.1

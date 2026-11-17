@@ -1,0 +1,17 @@
+name	efibootmgr
+version	18-r2
+description	Linux user-space application to modify the Intel Extensible Firmware Interface
+url	https://github.com/rhboot/efibootmgr
+license	GPL-2.0-or-later
+size	23864
+installed-size	52464
+depends	so:libc.musl-armhf.so.1 so:libefiboot.so.1 so:libefivar.so.1 so:libintl.so.8 so:libpopt.so.0
+origin	efibootmgr
+repo	main
+file	efibootmgr-18-r2.apk
+checksum	Q1Xx5IUVzCJm9sP7G3uwvO+NRLoxQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libefiboot.so.1	efivar-libs
+dep	so:libefivar.so.1	efivar-libs
+dep	so:libintl.so.8	libintl
+dep	so:libpopt.so.0	popt

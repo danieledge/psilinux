@@ -1,0 +1,13 @@
+name	wipe
+version	2.3.1-r5
+description	Secure file wiping utility
+url	https://wipe.sourceforge.net/
+license	GPL-2.0-only
+size	16447
+installed-size	29924
+depends	so:libc.musl-armhf.so.1
+origin	wipe
+repo	main
+file	wipe-2.3.1-r5.apk
+checksum	Q1hg9uzRrf4oKV7DOK8VI/gfbZY1w=
+dep	so:libc.musl-armhf.so.1	musl

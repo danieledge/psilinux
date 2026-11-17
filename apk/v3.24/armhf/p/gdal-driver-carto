@@ -1,0 +1,17 @@
+name	gdal-driver-carto
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (Carto driver)
+url	https://gdal.org/
+license	MIT
+size	36080
+installed-size	83328
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libjson-c.so.5 so:libstdc++.so.6
+origin	gdal
+repo	community
+file	gdal-driver-carto-3.13.3-r0.apk
+checksum	Q1PRqv4b4omB+ItPWxGEJN8r3yt94=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libjson-c.so.5	json-c
+dep	so:libstdc++.so.6	libstdc++

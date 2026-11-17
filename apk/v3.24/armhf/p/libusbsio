@@ -1,0 +1,14 @@
+name	libusbsio
+version	2.1.13-r2
+description	Library for USB-HID communication over SPI, I2C or GPIO
+url	https://www.nxp.com/design/software/development-software/library-for-windows-macos-and-ubuntu-linux:LIBUSBSIO
+license	BSD-3-Clause
+size	15097
+installed-size	29988
+depends	so:libc.musl-armhf.so.1 so:libudev.so.1
+origin	libusbsio
+repo	community
+file	libusbsio-2.1.13-r2.apk
+checksum	Q1N6JPBXlLEHmzAuPVZmJnxLaRRlo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libudev.so.1	eudev-libs

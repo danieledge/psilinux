@@ -1,0 +1,14 @@
+name	libproxy-bin
+version	0.5.12-r0
+description	Binary to test libproxy
+url	https://github.com/libproxy/libproxy
+license	LGPL-2.0-or-later
+size	3794
+installed-size	5400
+depends	so:libc.musl-armhf.so.1 so:libproxy.so.1
+origin	libproxy
+repo	community
+file	libproxy-bin-0.5.12-r0.apk
+checksum	Q1j0KNZxzoSKURVRpyEYmIAGtnn0E=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libproxy.so.1	libproxy

@@ -1,0 +1,12 @@
+name	mptcpize-dbg
+version	0.14-r0
+description	Force apps to use MPTCP instead of TCP (dbg)
+url	https://mptcpd.mptcp.dev
+license	BSD-3-Clause
+size	15534
+installed-size	31992
+depends	!mptcpize<0.14-r0 !mptcpize>0.14-r0
+origin	mptcpd
+repo	community
+file	mptcpize-dbg-0.14-r0.apk
+checksum	Q16G3/uL+29hSuh2ihQoj7OoRFxS8=

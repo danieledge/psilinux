@@ -1,0 +1,19 @@
+name	abseil-cpp-log-entry
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-log-entry
+url	https://abseil.io/
+license	Apache-2.0
+size	6919
+installed-size	13644
+depends	so:libabsl_log_internal_proto.so.2508.0.0 so:libabsl_log_severity.so.2508.0.0 so:libabsl_strings.so.2508.0.0 so:libabsl_time.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-log-entry-20250814.1-r0.apk
+checksum	Q1Rk9gusTaG142Bm9syS7jlovsWOk=
+dep	so:libabsl_log_internal_proto.so.2508.0.0	abseil-cpp-log-internal-proto
+dep	so:libabsl_log_severity.so.2508.0.0	abseil-cpp-log-severity
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libabsl_time.so.2508.0.0	abseil-cpp-time
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

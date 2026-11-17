@@ -1,0 +1,14 @@
+name	perl-dbi
+version	1.651-r0
+description	Database independent interface for Perl
+url	https://metacpan.org/release/DBI/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	577624
+installed-size	1989367
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-dbi
+repo	main
+file	perl-dbi-1.651-r0.apk
+checksum	Q1SHLgTerrebqQ0ZZAH24erS5AtTM=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	py3-nest_asyncio
+version	1.6.0-r4
+description	Asyncio patch to allow nested event loops
+url	https://github.com/erdewit/nest_asyncio
+license	BSD-2-Clause
+size	6396
+installed-size	12242
+depends	python3~3.14
+origin	py3-nest_asyncio
+repo	community
+file	py3-nest_asyncio-1.6.0-r4.apk
+checksum	Q1AkratNO4wXbJI0ksJN7WWk53JlQ=
+dep	python3~3.14	python3

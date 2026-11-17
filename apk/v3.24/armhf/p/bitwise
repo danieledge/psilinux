@@ -1,0 +1,16 @@
+name	bitwise
+version	0.50-r2
+description	Terminal based bit manipulator in ncurses
+url	https://github.com/mellowcandle/bitwise
+license	GPL-3.0-only
+size	18634
+installed-size	34236
+depends	so:libc.musl-armhf.so.1 so:libformw.so.6 so:libncursesw.so.6 so:libreadline.so.8
+origin	bitwise
+repo	community
+file	bitwise-0.50-r2.apk
+checksum	Q18YbHKBlRp7tWaME/Io3lKVYLIGo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libformw.so.6	libformw
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libreadline.so.8	readline

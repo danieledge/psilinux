@@ -1,0 +1,15 @@
+name	rootlesskit-docker-proxy
+version	2.3.5-r12
+description	Linux-native fake root for implementing rootless containers - Docker proxy
+url	https://github.com/rootless-containers/rootlesskit
+license	Apache-2.0
+size	2691380
+installed-size	6527852
+depends	shadow-subids iproute2-minimal so:libc.musl-armhf.so.1
+origin	rootlesskit
+repo	community
+file	rootlesskit-docker-proxy-2.3.5-r12.apk
+checksum	Q1VT8qZFfG3eaojomXUhpfM/Ee8KM=
+dep	shadow-subids	shadow-subids
+dep	iproute2-minimal	iproute2-minimal
+dep	so:libc.musl-armhf.so.1	musl

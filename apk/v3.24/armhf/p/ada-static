@@ -1,0 +1,13 @@
+name	ada-static
+version	4.0.0-r0
+description	WHATWG-compliant and fast URL parser written in modern C++ (static library)
+url	https://ada-url.github.io/ada
+license	( Apache-2.0 OR MIT ) AND MPL-2.0
+size	291300
+installed-size	956074
+depends	ada-dev
+origin	ada
+repo	main
+file	ada-static-4.0.0-r0.apk
+checksum	Q17d/9h8gLYJ+LhPXgRVFmRYmEaSM=
+dep	ada-dev	ada-dev

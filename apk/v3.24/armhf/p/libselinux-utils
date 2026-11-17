@@ -1,0 +1,17 @@
+name	libselinux-utils
+version	3.10-r1
+description	SELinux libselinux utilies
+url	https://github.com/SELinuxProject/selinux/wiki
+license	Public-Domain
+size	86951
+installed-size	298620
+depends	so:libc.musl-armhf.so.1 so:libfts.so.0 so:libpcre2-8.so.0 so:libselinux.so.1 so:libsepol.so.2
+origin	libselinux
+repo	community
+file	libselinux-utils-3.10-r1.apk
+checksum	Q1/taEvElV4p71pWbFmBf4DsUi6Lk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfts.so.0	musl-fts
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libselinux.so.1	libselinux
+dep	so:libsepol.so.2	libsepol

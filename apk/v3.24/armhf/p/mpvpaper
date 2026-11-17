@@ -1,0 +1,17 @@
+name	mpvpaper
+version	1.8-r0
+description	Video wallpaper setter for wlroots based compositors using mpv
+url	https://github.com/GhostNaN/mpvpaper
+license	GPL-3.0-or-later
+size	30347
+installed-size	81016
+depends	so:libEGL.so.1 so:libc.musl-armhf.so.1 so:libmpv.so.2 so:libwayland-client.so.0 so:libwayland-egl.so.1
+origin	mpvpaper
+repo	community
+file	mpvpaper-1.8-r0.apk
+checksum	Q1x7dzXZhwZZcUuy1oixQa3rQW0Mc=
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmpv.so.2	mpv-libs
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-egl.so.1	wayland-libs-egl

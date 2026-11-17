@@ -1,0 +1,14 @@
+name	py3-vici
+version	6.0.7-r2
+description	Native Python interface for strongSwan's VICI protocol
+url	https://www.strongswan.org/
+license	GPL-2.0-or-later WITH OpenSSL-Exception
+size	11593
+installed-size	36095
+depends	iproute2 python3~3.14
+origin	strongswan
+repo	main
+file	py3-vici-6.0.7-r2.apk
+checksum	Q1O1qz/Td65EA1UEe9omu9/+MNRdQ=
+dep	iproute2	iproute2
+dep	python3~3.14	python3

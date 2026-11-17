@@ -1,0 +1,14 @@
+name	mdadm-misc
+version	4.3-r3
+description	a tool for managing Linux Software RAID arrays (misc scripts)
+url	https://raid.wiki.kernel.org/index.php/A_guide_to_mdadm
+license	GPL-2.0-only
+size	3919
+installed-size	4650
+depends	mdadm bash
+origin	mdadm
+repo	main
+file	mdadm-misc-4.3-r3.apk
+checksum	Q1vZbEGuJMGjA6ZAUDSEwhP9Ko/88=
+dep	mdadm	mdadm
+dep	bash	bash

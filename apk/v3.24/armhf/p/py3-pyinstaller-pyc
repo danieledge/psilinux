@@ -1,0 +1,13 @@
+name	py3-pyinstaller-pyc
+version	6.19.0-r1
+description	Precompiled Python bytecode for py3-pyinstaller
+url	https://pyinstaller.org/
+license	(GPL-2.0-or-later WITH Bootloader-exception) AND Apache-2.0
+size	536361
+installed-size	1307354
+depends	python3~3.14
+origin	py3-pyinstaller
+repo	community
+file	py3-pyinstaller-pyc-6.19.0-r1.apk
+checksum	Q1fjMSBf+GUzHf4l/KDZtqOdeKiw0=
+dep	python3~3.14	python3

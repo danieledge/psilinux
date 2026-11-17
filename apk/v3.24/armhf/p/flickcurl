@@ -1,0 +1,16 @@
+name	flickcurl
+version	1.26-r6
+description	C library for the Flickr API
+url	https://librdf.org/flickcurl/
+license	GPL-2.0
+size	43743
+installed-size	117716
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libflickcurl.so.0 so:libraptor2.so.0
+origin	flickcurl
+repo	community
+file	flickcurl-1.26-r6.apk
+checksum	Q1Ssdk6kF9YPKm4qHfP29FTr87zzk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libflickcurl.so.0	flickcurl-libs
+dep	so:libraptor2.so.0	raptor2

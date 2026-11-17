@@ -1,0 +1,13 @@
+name	py3-sip-pyc
+version	6.15.3-r0
+description	Precompiled Python bytecode for py3-sip
+url	https://www.riverbankcomputing.com/software/sip/
+license	custom:sip
+size	487253
+installed-size	1281613
+depends	python3~3.14
+origin	py3-sip
+repo	community
+file	py3-sip-pyc-6.15.3-r0.apk
+checksum	Q1B3h+hvYQGOZrc/0fo0xeZhJ2qJA=
+dep	python3~3.14	python3

@@ -1,0 +1,17 @@
+name	fluidsynth
+version	2.5.4-r0
+description	A real-time software synthesizer based on the SoundFont 2 specifications
+url	https://www.fluidsynth.org/
+license	LGPL-2.1-or-later
+size	12201
+installed-size	25984
+depends	so:libc.musl-armhf.so.1 so:libfluidsynth.so.3 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libpipewire-0.3.so.0
+origin	fluidsynth
+repo	community
+file	fluidsynth-2.5.4-r0.apk
+checksum	Q1eAGk8bgGdynP9G2M5iN43M9628I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfluidsynth.so.3	fluidsynth-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libpipewire-0.3.so.0	pipewire-libs

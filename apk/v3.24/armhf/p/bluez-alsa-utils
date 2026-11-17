@@ -1,0 +1,20 @@
+name	bluez-alsa-utils
+version	4.3.1-r0
+description	Bluetooth Audio ALSA Backend utils
+url	https://github.com/Arkq/bluez-alsa
+license	MIT
+size	58459
+installed-size	134228
+depends	bluez so:libasound.so.2 so:libbluetooth.so.3 so:libbsd.so.0 so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libncursesw.so.6 so:libreadline.so.8
+origin	bluez-alsa
+repo	community
+file	bluez-alsa-utils-4.3.1-r0.apk
+checksum	Q1tayDpQknN4z9IbWN6Lb93Tq01JE=
+dep	bluez	bluez
+dep	so:libasound.so.2	alsa-lib
+dep	so:libbluetooth.so.3	bluez-libs
+dep	so:libbsd.so.0	libbsd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libreadline.so.8	readline

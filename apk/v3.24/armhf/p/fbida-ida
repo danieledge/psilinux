@@ -1,0 +1,24 @@
+name	fbida-ida
+version	2.15-r0
+description	ida tool from fbida
+url	https://www.kraxel.org/blog/linux/fbida/
+license	GPL-2.0-only
+size	114614
+installed-size	240953
+depends	so:libX11.so.6 so:libXext.so.6 so:libXm.so.5 so:libXpm.so.4 so:libXt.so.6 so:libc.musl-armhf.so.1 so:libexif.so.12 so:libgif.so.7 so:libjpeg.so.8 so:libpixman-1.so.0 so:libpng16.so.16 so:libtiff.so.6
+origin	fbida
+repo	community
+file	fbida-ida-2.15-r0.apk
+checksum	Q1OcoArfyi2Q4aA0no8Am7xzmrK50=
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXm.so.5	motif
+dep	so:libXpm.so.4	libxpm
+dep	so:libXt.so.6	libxt
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexif.so.12	libexif
+dep	so:libgif.so.7	giflib
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpixman-1.so.0	pixman
+dep	so:libpng16.so.16	libpng
+dep	so:libtiff.so.6	tiff

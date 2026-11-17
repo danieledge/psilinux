@@ -1,0 +1,19 @@
+name	libxcomposite-dev
+version	0.4.7-r0
+description	X11 Composite extension library (development files)
+url	https://xorg.freedesktop.org/
+license	MIT
+size	3673
+installed-size	4148
+depends	libxext-dev libxcomposite=0.4.7-r0 pc:compositeproto>=0.4 pc:x11 pc:xfixes pc:xproto>=7.0.22 pkgconfig
+origin	libxcomposite
+repo	main
+file	libxcomposite-dev-0.4.7-r0.apk
+checksum	Q1KGcUYhix1BwJ7m4LNaCMBP5cRP0=
+dep	libxext-dev	libxext-dev
+dep	libxcomposite=0.4.7-r0	libxcomposite
+dep	pc:compositeproto>=0.4	xorgproto
+dep	pc:x11	libx11-dev
+dep	pc:xfixes	libxfixes-dev
+dep	pc:xproto>=7.0.22	xorgproto
+dep	pkgconfig	pkgconf

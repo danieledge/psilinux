@@ -1,0 +1,14 @@
+name	gdu
+version	5.36.1-r2
+description	Fast disk usage calculator with console interface
+url	https://github.com/dundee/gdu
+license	MIT
+size	8306469
+installed-size	21558868
+depends	ncurses so:libc.musl-armhf.so.1
+origin	gdu
+repo	community
+file	gdu-5.36.1-r2.apk
+checksum	Q1fLnQysFQgskVfjBf9I/njyUef/o=
+dep	ncurses	ncurses
+dep	so:libc.musl-armhf.so.1	musl

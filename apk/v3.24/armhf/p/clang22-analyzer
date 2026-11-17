@@ -1,0 +1,16 @@
+name	clang22-analyzer
+version	22.1.3-r2
+description	Clang source code analysis framework
+url	https://llvm.org/
+license	Apache-2.0 WITH LLVM-exception
+size	46393
+installed-size	153196
+depends	clang22=22.1.3-r2 py3-clang22=22.1.3-r2 perl python3
+origin	clang22
+repo	main
+file	clang22-analyzer-22.1.3-r2.apk
+checksum	Q1nZR7dHrbvp9WkQd94KottHOtwh0=
+dep	clang22=22.1.3-r2	clang22
+dep	py3-clang22=22.1.3-r2	py3-clang22
+dep	perl	perl
+dep	python3	python3

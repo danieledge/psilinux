@@ -1,0 +1,14 @@
+name	py3-prawcore
+version	3.0.2-r1
+description	Low-level communication layer for PRAW 4+
+url	https://github.com/praw-dev/prawcore
+license	BSD-2-Clause
+size	16229
+installed-size	51678
+depends	py3-requests python3~3.14
+origin	py3-prawcore
+repo	community
+file	py3-prawcore-3.0.2-r1.apk
+checksum	Q1qTUXWhgSOeTNh6KBV/MQXWQOi5w=
+dep	py3-requests	py3-requests
+dep	python3~3.14	python3

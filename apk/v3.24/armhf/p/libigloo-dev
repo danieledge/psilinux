@@ -1,0 +1,14 @@
+name	libigloo-dev
+version	0.9.5-r0
+description	Generic C framework used and developed by the Icecast project (development files)
+url	https://icecast.org/
+license	GPL-2.0-only
+size	17047
+installed-size	69661
+depends	libigloo=0.9.5-r0 pkgconfig
+origin	libigloo
+repo	main
+file	libigloo-dev-0.9.5-r0.apk
+checksum	Q1Ppy9mjUwKlz9543Nf3WuePqlkeE=
+dep	libigloo=0.9.5-r0	libigloo
+dep	pkgconfig	pkgconf

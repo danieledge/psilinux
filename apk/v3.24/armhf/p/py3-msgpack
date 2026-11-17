@@ -1,0 +1,15 @@
+name	py3-msgpack
+version	1.1.2-r1
+description	Python3 module for MessagePack serialization/deserialization
+url	https://msgpack.org/
+license	Apache-2.0
+size	69851
+installed-size	172171
+depends	python3 python3~3.14 so:libc.musl-armhf.so.1
+origin	py3-msgpack
+repo	community
+file	py3-msgpack-1.1.2-r1.apk
+checksum	Q1n5gMOubcMBuaZe7DqXku8xxAKxQ=
+dep	python3	python3
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

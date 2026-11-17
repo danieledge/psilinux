@@ -1,0 +1,21 @@
+name	apprise
+version	1.11.0-r0
+description	Push Notifications that work with just about every platform
+url	https://github.com/caronc/apprise
+license	BSD-2-Clause
+size	1333610
+installed-size	4684975
+depends	py3-certifi py3-requests py3-requests-oauthlib py3-click py3-markdown py3-yaml py3-tzdata glib python3~3.14
+origin	apprise
+repo	community
+file	apprise-1.11.0-r0.apk
+checksum	Q1Ne0Rk+e40afS0AP0IcsYvwX4G8A=
+dep	py3-certifi	py3-certifi
+dep	py3-requests	py3-requests
+dep	py3-requests-oauthlib	py3-requests-oauthlib
+dep	py3-click	py3-click
+dep	py3-markdown	py3-markdown
+dep	py3-yaml	py3-yaml
+dep	py3-tzdata	py3-tzdata
+dep	glib	glib
+dep	python3~3.14	python3

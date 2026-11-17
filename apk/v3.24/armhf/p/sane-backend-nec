@@ -1,0 +1,14 @@
+name	sane-backend-nec
+version	1.4.0-r4
+description	SANE backend for NEC scanners
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	34377
+installed-size	68019
+depends	sane so:libc.musl-armhf.so.1
+origin	sane
+repo	community
+file	sane-backend-nec-1.4.0-r4.apk
+checksum	Q14AlHlh66SgZMrkELFA8f/3o8Dk0=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl

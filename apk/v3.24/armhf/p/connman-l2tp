@@ -1,0 +1,16 @@
+name	connman-l2tp
+version	2.0-r0
+description	L2TP VPN plugin for ConnMan
+url	https://git.kernel.org/pub/scm/network/connman/connman.git
+license	GPL-2.0-only
+size	12082
+installed-size	28072
+depends	connman=2.0-r0 xl2tpd so:libc.musl-armhf.so.1 so:libdbus-1.so.3
+origin	connman
+repo	community
+file	connman-l2tp-2.0-r0.apk
+checksum	Q1VcTH6oVvSMJKl3ug+7lxU+lamQI=
+dep	connman=2.0-r0	connman
+dep	xl2tpd	xl2tpd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs

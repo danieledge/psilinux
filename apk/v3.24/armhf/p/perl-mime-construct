@@ -1,0 +1,16 @@
+name	perl-mime-construct
+version	1.11-r9
+description	Construct and optionally mail MIME messages
+url	https://search.cpan.org/~rosch/mime-construct/mime-construct
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	12008
+installed-size	27050
+depends	perl perl-proc-waitstat perl-mime-types perl-mime-base64
+origin	perl-mime-construct
+repo	community
+file	perl-mime-construct-1.11-r9.apk
+checksum	Q1/BdLt4ae57n7UcV0JDiYH1RRvvc=
+dep	perl	perl
+dep	perl-proc-waitstat	perl-proc-waitstat
+dep	perl-mime-types	perl-mime-types
+dep	perl-mime-base64	perl-mime-base64

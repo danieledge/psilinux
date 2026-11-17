@@ -1,0 +1,23 @@
+name	py3-keepass
+version	4.1.1_p1-r0
+description	Python3 library to interact with keepass databases
+url	https://github.com/libkeepass/pykeepass
+license	GPL-3.0-only
+size	52715
+installed-size	177652
+depends	py3-argon2-cffi py3-cffi py3-construct py3-dateutil py3-importlib-metadata py3-lxml py3-otp py3-pycryptodomex py3-setuptools python3 python3~3.14
+origin	py3-keepass
+repo	community
+file	py3-keepass-4.1.1_p1-r0.apk
+checksum	Q1zLfbjKRMFeiJ/nZMOWkKHE9T7IE=
+dep	py3-argon2-cffi	py3-argon2-cffi
+dep	py3-cffi	py3-cffi
+dep	py3-construct	py3-construct
+dep	py3-dateutil	py3-dateutil
+dep	py3-importlib-metadata	py3-importlib-metadata
+dep	py3-lxml	py3-lxml
+dep	py3-otp	py3-otp
+dep	py3-pycryptodomex	py3-pycryptodomex
+dep	py3-setuptools	py3-setuptools
+dep	python3	python3
+dep	python3~3.14	python3

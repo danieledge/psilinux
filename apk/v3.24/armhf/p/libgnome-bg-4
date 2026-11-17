@@ -1,0 +1,20 @@
+name	libgnome-bg-4
+version	44.5-r0
+description	GNOME desktop core libraries
+url	https://gitlab.gnome.org/GNOME/gnome-desktop
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	20758
+installed-size	42464
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgnome-desktop-4.so.2 so:libgobject-2.0.so.0 so:libgtk-4.so.1
+origin	gnome-desktop
+repo	community
+file	libgnome-bg-4-44.5-r0.apk
+checksum	Q1FE/pRbSRTQNldQw+AnGOsKubPIg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgnome-desktop-4.so.2	libgnome-desktop-4
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0

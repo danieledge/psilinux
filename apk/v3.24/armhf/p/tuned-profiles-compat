@@ -1,0 +1,22 @@
+name	tuned-profiles-compat
+version	2.27.0-r1
+description	Additional tuned profiles mainly for backward compatibility with tuned 1.0
+url	https://github.com/redhat-performance/tuned
+license	GPL-2.0-only
+size	3647
+installed-size	2609
+depends	python3 pkgconf py3-gobject3 py3-udev py3-dbus py3-linux-procfs polkit dbus ethtool hdparm
+origin	tuned
+repo	community
+file	tuned-profiles-compat-2.27.0-r1.apk
+checksum	Q1aMdUCaQwN8QyBrA8WUZuV2L+obs=
+dep	python3	python3
+dep	pkgconf	pkgconf
+dep	py3-gobject3	py3-gobject3
+dep	py3-udev	py3-udev
+dep	py3-dbus	py3-dbus
+dep	py3-linux-procfs	py3-linux-procfs
+dep	polkit	polkit
+dep	dbus	dbus
+dep	ethtool	ethtool
+dep	hdparm	hdparm

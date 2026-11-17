@@ -1,0 +1,38 @@
+name	vtk
+version	9.5.2-r2
+description	A software system for 3D computer graphics, image processing and visualization
+url	https://vtk.org/
+license	BSD-3-Clause
+size	37617632
+installed-size	129971074
+depends	so:libX11.so.6 so:libXcursor.so.1 so:libc.musl-armhf.so.1 so:libdouble-conversion.so.3 so:libexpat.so.1 so:libfmt.so.11 so:libfreetype.so.6 so:libgcc_s.so.1 so:libhdf5.so.311 so:libhpdf.so.2.4 so:libjpeg.so.8 so:libjsoncpp.so.26 so:liblz4.so.1 so:liblzma.so.5 so:libnetcdf.so.22 so:libogg.so.0 so:libpng16.so.16 so:libproj.so.25 so:libpugixml.so.1 so:libsqlite3.so.0 so:libstdc++.so.6 so:libtheoradec.so.2 so:libtheoraenc.so.2 so:libtiff.so.6 so:libxml2.so.2 so:libz.so.1
+origin	vtk
+repo	community
+file	vtk-9.5.2-r2.apk
+checksum	Q1l3xOSN3u/PbWTeQtA1uoBEbkpj0=
+dep	so:libX11.so.6	libx11
+dep	so:libXcursor.so.1	libxcursor
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdouble-conversion.so.3	double-conversion
+dep	so:libexpat.so.1	libexpat
+dep	so:libfmt.so.11	fmt
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libhdf5.so.311	hdf5
+dep	so:libhpdf.so.2.4	libharu
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libjsoncpp.so.26	jsoncpp
+dep	so:liblz4.so.1	lz4-libs
+dep	so:liblzma.so.5	xz-libs
+dep	so:libnetcdf.so.22	netcdf
+dep	so:libogg.so.0	libogg
+dep	so:libpng16.so.16	libpng
+dep	so:libproj.so.25	proj
+dep	so:libpugixml.so.1	pugixml
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtheoradec.so.2	libtheora
+dep	so:libtheoraenc.so.2	libtheora
+dep	so:libtiff.so.6	tiff
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

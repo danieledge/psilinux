@@ -1,0 +1,14 @@
+name	emacs-ace-window
+version	0.10.0_git20220911-r1
+description	Quickly switch windows in Emacs
+url	https://github.com/abo-abo/ace-window
+license	GPL-3.0-or-later
+size	23236
+installed-size	75916
+depends	cmd:emacs emacs-avy
+origin	emacs-ace-window
+repo	community
+file	emacs-ace-window-0.10.0_git20220911-r1.apk
+checksum	Q1UgIy3fjA74ft/zIaGvjT4P4nb6c=
+dep	cmd:emacs	emacs-gtk3
+dep	emacs-avy	emacs-avy

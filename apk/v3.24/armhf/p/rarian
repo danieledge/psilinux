@@ -1,0 +1,16 @@
+name	rarian
+version	0.8.1-r12
+description	Documentation meta-data library, designed as a replacement for Scrollkeeper.
+url	https://rarian.freedesktop.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later AND Zlib
+size	143278
+installed-size	400019
+depends	bash so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	rarian
+repo	main
+file	rarian-0.8.1-r12.apk
+checksum	Q1qi1NsDSX4TW9N0GtknZ+OnF8iYY=
+dep	bash	bash
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,16 @@
+name	perl-future-mojo
+version	1.003-r1
+description	Use Future with Mojo::IOLoop
+url	https://metacpan.org/release/Future-Mojo/
+license	Artistic-2.0
+size	4151
+installed-size	6874
+depends	perl perl-future perl-mojolicious perl-role-tiny
+origin	perl-future-mojo
+repo	community
+file	perl-future-mojo-1.003-r1.apk
+checksum	Q1Uyf3/51T3n4HzQvXXktZEvaEsSM=
+dep	perl	perl
+dep	perl-future	perl-future
+dep	perl-mojolicious	perl-mojolicious
+dep	perl-role-tiny	perl-role-tiny

@@ -1,0 +1,14 @@
+name	acf-awall
+version	0.4.1-r4
+description	ACF for Alpine Wall
+url	https://gitlab.alpinelinux.org/acf/acf-awall
+license	GPL-2.0-only
+size	5643
+installed-size	12880
+depends	acf-core awall
+origin	acf-awall
+repo	main
+file	acf-awall-0.4.1-r4.apk
+checksum	Q1VmLNZH4ltzLOZthZdUXySrvb0rg=
+dep	acf-core	acf-core
+dep	awall	awall

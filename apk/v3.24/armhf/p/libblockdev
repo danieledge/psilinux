@@ -1,0 +1,38 @@
+name	libblockdev
+version	3.4.0-r1
+description	Library for manipulating block devices
+url	https://github.com/storaged-project/libblockdev
+license	LGPL-2.1-or-later
+size	305759
+installed-size	876128
+depends	so:libatasmart.so.4 so:libblkid.so.1 so:libbytesize.so.1 so:libc.musl-armhf.so.1 so:libcryptsetup.so.12 so:libdevmapper.so.1.02 so:libe2p.so.2 so:libext2fs.so.2 so:libfdisk.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libjson-glib-1.0.so.0 so:libkeyutils.so.1 so:libkmod.so.2 so:libmount.so.1 so:libndctl.so.6 so:libnss3.so so:libnvme.so.1 so:libparted-fs-resize.so.0 so:libparted.so.2 so:libsmime3.so so:libudev.so.1 so:libuuid.so.1 so:libvolume_key.so.1 so:libyaml-0.so.2
+origin	libblockdev
+repo	community
+file	libblockdev-3.4.0-r1.apk
+checksum	Q1zlz6mdfK9k569WAXqbI8g6iz5PU=
+dep	so:libatasmart.so.4	libatasmart
+dep	so:libblkid.so.1	libblkid
+dep	so:libbytesize.so.1	libbytesize
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcryptsetup.so.12	cryptsetup-libs
+dep	so:libdevmapper.so.1.02	device-mapper-libs
+dep	so:libe2p.so.2	e2fsprogs-libs
+dep	so:libext2fs.so.2	e2fsprogs-libs
+dep	so:libfdisk.so.1	libfdisk
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libkeyutils.so.1	keyutils-libs
+dep	so:libkmod.so.2	kmod-libs
+dep	so:libmount.so.1	libmount
+dep	so:libndctl.so.6	ndctl-libs
+dep	so:libnss3.so	nss
+dep	so:libnvme.so.1	libnvme
+dep	so:libparted-fs-resize.so.0	parted
+dep	so:libparted.so.2	parted
+dep	so:libsmime3.so	nss
+dep	so:libudev.so.1	eudev-libs
+dep	so:libuuid.so.1	libuuid
+dep	so:libvolume_key.so.1	volume_key
+dep	so:libyaml-0.so.2	yaml

@@ -1,0 +1,13 @@
+name	gotestsum
+version	1.13.0-r9
+description	Go test runner with output optimized for humans, JUnit XML for CI integration, and a summary of the test results
+url	https://github.com/gotestyourself/gotestsum
+license	Apache-2.0
+size	2581981
+installed-size	6258948
+depends	so:libc.musl-armhf.so.1
+origin	gotestsum
+repo	community
+file	gotestsum-1.13.0-r9.apk
+checksum	Q1ZQ5w1Tim6o8LJMoK/4JErivLUtI=
+dep	so:libc.musl-armhf.so.1	musl

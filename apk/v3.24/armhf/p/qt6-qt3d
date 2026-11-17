@@ -1,0 +1,22 @@
+name	qt6-qt3d
+version	6.11.1-r0
+description	C++ and QML APIs for easy inclusion of 3D graphics
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	3525576
+installed-size	10216615
+depends	so:libQt6Concurrent.so.6 so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6OpenGL.so.6 so:libQt6ShaderTools.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1
+origin	qt6-qt3d
+repo	community
+file	qt6-qt3d-6.11.1-r0.apk
+checksum	Q13Hlh1j0HyEBvZ9LVaL47uJqyjfY=
+dep	so:libQt6Concurrent.so.6	qt6-qtbase
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6OpenGL.so.6	qt6-qtbase-x11
+dep	so:libQt6ShaderTools.so.6	qt6-qtshadertools
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

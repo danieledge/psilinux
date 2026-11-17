@@ -1,0 +1,14 @@
+name	libdng-utils
+version	0.2.2-r0
+description	DNG manipulation utlities using libdng
+url	https://gitlab.com/megapixels-org/libdng
+license	MIT
+size	7433
+installed-size	19048
+depends	so:libc.musl-armhf.so.1 so:libdng.so.1
+origin	libdng
+repo	community
+file	libdng-utils-0.2.2-r0.apk
+checksum	Q1kyINM4CfNg+lLm4OzTTU6ef5kLE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdng.so.1	libdng

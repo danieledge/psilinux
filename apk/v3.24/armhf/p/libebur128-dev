@@ -1,0 +1,14 @@
+name	libebur128-dev
+version	1.2.6-r4
+description	Library implementing the EBU R128 loudness standard (development files)
+url	https://github.com/jiixyj/libebur128
+license	MIT
+size	5109
+installed-size	15813
+depends	libebur128=1.2.6-r4 pkgconfig
+origin	libebur128
+repo	community
+file	libebur128-dev-1.2.6-r4.apk
+checksum	Q1a+SDkTdOCAOUFiBYf7oTqxqu9Ac=
+dep	libebur128=1.2.6-r4	libebur128
+dep	pkgconfig	pkgconf

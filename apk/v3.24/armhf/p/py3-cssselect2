@@ -1,0 +1,14 @@
+name	py3-cssselect2
+version	0.8.0-r1
+description	CSS selectors for Python ElementTree
+url	https://pypi.org/project/cssselect2/
+license	BSD-3-Clause
+size	15732
+installed-size	58278
+depends	py3-tinycss2 python3~3.14
+origin	py3-cssselect2
+repo	community
+file	py3-cssselect2-0.8.0-r1.apk
+checksum	Q1gk0CTgl4JxFJrYsDrNBix3W+FOs=
+dep	py3-tinycss2	py3-tinycss2
+dep	python3~3.14	python3

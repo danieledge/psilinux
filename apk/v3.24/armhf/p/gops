@@ -1,0 +1,13 @@
+name	gops
+version	0.3.29-r4
+description	List and diagnose Go processes currently running on your system
+url	https://github.com/google/gops
+license	BSD-3-Clause
+size	1617513
+installed-size	3997148
+depends	so:libc.musl-armhf.so.1
+origin	gops
+repo	community
+file	gops-0.3.29-r4.apk
+checksum	Q1NRR9PE2g6GOv1kbxEb4hjsLE2tY=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,22 @@
+name	gcc-riscv-none-elf
+version	16.1.0-r0
+description	C compiler of the GNU Compiler Collection for riscv-none-elf targets
+url	https://gcc.gnu.org/
+license	GPL-3.0-or-later
+size	70218386
+installed-size	240157807
+depends	gcc binutils-riscv-none-elf so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgmp.so.10 so:libisl.so.23 so:libmpc.so.3 so:libmpfr.so.6 so:libstdc++.so.6 so:libz.so.1
+origin	gcc-cross-embedded
+repo	community
+file	gcc-riscv-none-elf-16.1.0-r0.apk
+checksum	Q1AYVJnYgfINzCHfpfAzAPHcKsJ9w=
+dep	gcc	gcc
+dep	binutils-riscv-none-elf	binutils-riscv-none-elf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgmp.so.10	gmp
+dep	so:libisl.so.23	isl25
+dep	so:libmpc.so.3	mpc1
+dep	so:libmpfr.so.6	mpfr4
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

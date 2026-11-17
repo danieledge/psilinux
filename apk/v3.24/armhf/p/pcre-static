@@ -1,0 +1,13 @@
+name	pcre-static
+version	8.45-r4
+description	Perl-compatible regular expression library (static library)
+url	https://www.pcre.org/
+license	BSD-3-Clause
+size	438215
+installed-size	1169226
+depends	pcre-dev
+origin	pcre
+repo	main
+file	pcre-static-8.45-r4.apk
+checksum	Q1Dp3FmhZsRPY9TaqKWJWzIFY8S8U=
+dep	pcre-dev	pcre-dev

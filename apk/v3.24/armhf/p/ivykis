@@ -1,0 +1,13 @@
+name	ivykis
+version	0.43.2-r0
+description	Library for asynchronous I/O readiness notification
+url	https://github.com/buytenh/ivykis
+license	LGPL-2.1-or-later
+size	22086
+installed-size	46520
+depends	so:libc.musl-armhf.so.1
+origin	ivykis
+repo	main
+file	ivykis-0.43.2-r0.apk
+checksum	Q1hcCQetIPvJc0+z+xrBK8lp2hftI=
+dep	so:libc.musl-armhf.so.1	musl

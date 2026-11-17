@@ -1,0 +1,19 @@
+name	nut-dev
+version	2.8.3-r5
+description	Network UPS tools (development files)
+url	https://networkupstools.org/
+license	GPL-2.0-or-later
+size	1832
+installed-size	1
+depends	openssl-dev>3 libmodbus-dev libusb-dev net-snmp-dev neon-dev nss-dev nut=2.8.3-r5
+origin	nut
+repo	community
+file	nut-dev-2.8.3-r5.apk
+checksum	Q1SiXUR90gp/M288nXfQhwd9RbjH0=
+dep	openssl-dev>3	openssl-dev
+dep	libmodbus-dev	libmodbus-dev
+dep	libusb-dev	libusb-dev
+dep	net-snmp-dev	net-snmp-dev
+dep	neon-dev	neon-dev
+dep	nss-dev	nss-dev
+dep	nut=2.8.3-r5	nut

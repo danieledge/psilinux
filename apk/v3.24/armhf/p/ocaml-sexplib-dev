@@ -1,0 +1,16 @@
+name	ocaml-sexplib-dev
+version	0.16.0-r3
+description	Library for serializing OCaml values to and from S-expressions (development files)
+url	https://github.com/janestreet/sexplib
+license	MIT
+size	839345
+installed-size	2226583
+depends	ocaml-sexplib=0.16.0-r3 ocaml-num-dev ocaml-parsexp-dev ocaml-sexplib0-dev
+origin	ocaml-sexplib
+repo	community
+file	ocaml-sexplib-dev-0.16.0-r3.apk
+checksum	Q19xv8SOrBmJ7QeClRJJ0zDrBG07Y=
+dep	ocaml-sexplib=0.16.0-r3	ocaml-sexplib
+dep	ocaml-num-dev	ocaml-num-dev
+dep	ocaml-parsexp-dev	ocaml-parsexp-dev
+dep	ocaml-sexplib0-dev	ocaml-sexplib0-dev

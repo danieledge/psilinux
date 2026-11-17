@@ -1,0 +1,19 @@
+name	php83-intl
+version	8.3.36-r0
+description	PHP83 extension: Internationalization
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	153857
+installed-size	456175
+depends	php83-common so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libicui18n.so.78 so:libicuio.so.78 so:libicuuc.so.78 so:libstdc++.so.6
+origin	php83
+repo	community
+file	php83-intl-8.3.36-r0.apk
+checksum	Q1/zixEr0vZxZTWaaYdYzLpAd0ha8=
+dep	php83-common	php83-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuio.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,14 @@
+name	pigz
+version	2.8-r1
+description	Parallel implementation of gzip
+url	https://zlib.net/pigz/
+license	Zlib
+size	77821
+installed-size	148916
+depends	so:libc.musl-armhf.so.1 so:libz.so.1
+origin	pigz
+repo	main
+file	pigz-2.8-r1.apk
+checksum	Q18uTWYWXHku5rMF9c+FfzfSv4pPM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libz.so.1	zlib

@@ -1,0 +1,29 @@
+name	kea-hook-ha
+version	3.0.3-r0
+description	Kea hook implementing High Availability failover and load-balancing modes
+url	https://kea.isc.org/
+license	MPL-2.0
+size	192631
+installed-size	481896
+depends	kea-hook-lease-cmds=3.0.3-r0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libkea-asiolink.so.88 so:libkea-cc.so.83 so:libkea-config.so.84 so:libkea-dhcp.so.109 so:libkea-dhcpsrv.so.131 so:libkea-exceptions.so.45 so:libkea-hooks.so.121 so:libkea-http.so.87 so:libkea-log.so.75 so:libkea-process.so.91 so:libkea-stats.so.53 so:libkea-util.so.102 so:libstdc++.so.6
+origin	kea
+repo	main
+file	kea-hook-ha-3.0.3-r0.apk
+checksum	Q10IZtB3rXBARthLBUzJSivPXZ99w=
+dep	kea-hook-lease-cmds=3.0.3-r0	kea-hook-lease-cmds
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libkea-asiolink.so.88	kea-common
+dep	so:libkea-cc.so.83	kea-common
+dep	so:libkea-config.so.84	kea-common
+dep	so:libkea-dhcp.so.109	kea-common
+dep	so:libkea-dhcpsrv.so.131	kea-common
+dep	so:libkea-exceptions.so.45	kea-common
+dep	so:libkea-hooks.so.121	kea-common
+dep	so:libkea-http.so.87	kea-common
+dep	so:libkea-log.so.75	kea-common
+dep	so:libkea-process.so.91	kea-common
+dep	so:libkea-stats.so.53	kea-common
+dep	so:libkea-util.so.102	kea-common
+dep	so:libstdc++.so.6	libstdc++

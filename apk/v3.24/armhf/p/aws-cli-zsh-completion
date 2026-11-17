@@ -1,0 +1,25 @@
+name	aws-cli-zsh-completion
+version	2.34.63-r0
+description	Universal Command Line Interface for Amazon Web Services (v2) (zsh completions)
+url	https://github.com/aws/aws-cli
+license	Apache-2.0
+size	2638
+installed-size	1808
+depends	py3-awscrt py3-certifi py3-colorama py3-cryptography py3-dateutil py3-distro py3-docutils py3-jmespath py3-prompt_toolkit py3-ruamel.yaml py3-urllib3 py3-zipp python3
+origin	aws-cli
+repo	community
+file	aws-cli-zsh-completion-2.34.63-r0.apk
+checksum	Q1qPlrJgsSwe0QQCamGpZ/pOf55l4=
+dep	py3-awscrt	py3-awscrt
+dep	py3-certifi	py3-certifi
+dep	py3-colorama	py3-colorama
+dep	py3-cryptography	py3-cryptography
+dep	py3-dateutil	py3-dateutil
+dep	py3-distro	py3-distro
+dep	py3-docutils	py3-docutils
+dep	py3-jmespath	py3-jmespath
+dep	py3-prompt_toolkit	py3-prompt_toolkit
+dep	py3-ruamel.yaml	py3-ruamel.yaml
+dep	py3-urllib3	py3-urllib3
+dep	py3-zipp	py3-zipp
+dep	python3	python3

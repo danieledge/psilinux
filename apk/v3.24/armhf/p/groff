@@ -1,0 +1,16 @@
+name	groff
+version	1.24.2-r0
+description	GNU troff text-formatting system
+url	https://www.gnu.org/software/groff/groff.html
+license	GPL-3.0-or-later
+size	2558952
+installed-size	8420751
+depends	perl so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	groff
+repo	main
+file	groff-1.24.2-r0.apk
+checksum	Q1ZwM+QQaGK7vQfMAtrmeqY4ei2Io=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

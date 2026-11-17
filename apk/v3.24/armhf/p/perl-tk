@@ -1,0 +1,16 @@
+name	perl-tk
+version	804.036-r8
+description	Tk - a Graphical User Interface Toolkit
+url	https://metacpan.org/release/Tk/
+license	TCL AND HPND-Pbmplus AND CC-BY-SA-3.0 AND MIT-open-group AND MIT
+size	2006051
+installed-size	6254927
+depends	perl so:libX11.so.6 so:libc.musl-armhf.so.1 so:libpng16.so.16
+origin	perl-tk
+repo	main
+file	perl-tk-804.036-r8.apk
+checksum	Q1Hgcyp2zbB0HpSwjhylGJzaEyfYk=
+dep	perl	perl
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpng16.so.16	libpng

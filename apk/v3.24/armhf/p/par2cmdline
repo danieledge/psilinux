@@ -1,0 +1,16 @@
+name	par2cmdline
+version	1.1.1-r0
+description	PAR 2.0 compatible file verification and repair tool
+url	https://github.com/Parchive/par2cmdline#par2cmdline
+license	GPL-2.0-or-later
+size	87239
+installed-size	169448
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgomp.so.1 so:libstdc++.so.6
+origin	par2cmdline
+repo	community
+file	par2cmdline-1.1.1-r0.apk
+checksum	Q1e7Fe9em4wd+sQEASEIFfJDKjN8M=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgomp.so.1	libgomp
+dep	so:libstdc++.so.6	libstdc++

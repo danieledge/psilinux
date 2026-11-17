@@ -1,0 +1,14 @@
+name	seatd-launch
+version	0.9.3-r0
+description	Command to start a process with its own seatd instance (SUID binary)
+url	https://sr.ht/~kennylevinsen/seatd/
+license	MIT
+size	4824
+installed-size	9388
+depends	seatd so:libc.musl-armhf.so.1
+origin	seatd
+repo	community
+file	seatd-launch-0.9.3-r0.apk
+checksum	Q1oq/jdkZfCLo+A2GfwXaMWgT5yCg=
+dep	seatd	seatd
+dep	so:libc.musl-armhf.so.1	musl

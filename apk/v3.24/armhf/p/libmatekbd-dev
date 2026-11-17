@@ -1,0 +1,18 @@
+name	libmatekbd-dev
+version	1.28.0-r0
+description	MATE keyboard library (development files)
+url	https://github.com/mate-desktop/libmatekbd
+license	LGPL-2.1-or-later
+size	6724
+installed-size	22820
+depends	libmatekbd=1.28.0-r0 pc:gdk-3.0>=3.22.0 pc:gio-2.0>=2.25.0 pc:gmodule-export-2.0 pc:libxklavier>=5.2 pkgconfig
+origin	libmatekbd
+repo	community
+file	libmatekbd-dev-1.28.0-r0.apk
+checksum	Q1sbKIAX1oHOpgOBiYMWkpwUt/rl8=
+dep	libmatekbd=1.28.0-r0	libmatekbd
+dep	pc:gdk-3.0>=3.22.0	gtk+3.0-dev
+dep	pc:gio-2.0>=2.25.0	glib-dev
+dep	pc:gmodule-export-2.0	glib-dev
+dep	pc:libxklavier>=5.2	libxklavier-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,12 @@
+name	docker-auth-openrc
+version	1.14.0-r9
+description	Authentication server for Docker Registry 2 (OpenRC init scripts)
+url	https://github.com/cesanta/docker_auth
+license	Apache-2.0
+size	2081
+installed-size	767
+depends	
+origin	docker-auth
+repo	community
+file	docker-auth-openrc-1.14.0-r9.apk
+checksum	Q17cICdKhUYby3Okhud7iFZOSJEnU=

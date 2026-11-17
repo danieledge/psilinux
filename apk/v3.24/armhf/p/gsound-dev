@@ -1,0 +1,17 @@
+name	gsound-dev
+version	1.0.3-r3
+description	Small library for playing system sounds (development files)
+url	https://gitlab.gnome.org/GNOME/gsound
+license	LGPL-2.1-or-later
+size	15280
+installed-size	86210
+depends	gsound=1.0.3-r3 pc:gio-2.0 pc:gobject-2.0 pc:libcanberra pkgconfig
+origin	gsound
+repo	community
+file	gsound-dev-1.0.3-r3.apk
+checksum	Q1+mreyBr7KFEIwPCLfqB0KdUIgUM=
+dep	gsound=1.0.3-r3	gsound
+dep	pc:gio-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pc:libcanberra	libcanberra-dev
+dep	pkgconfig	pkgconf

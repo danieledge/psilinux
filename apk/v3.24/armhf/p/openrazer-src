@@ -1,0 +1,13 @@
+name	openrazer-src
+version	3.12.3-r0
+description	Open source driver and user-space daemon to control Razer lighting and other features on GNU/Linux
+url	https://openrazer.github.io/
+license	GPL-2.0-only
+size	81335
+installed-size	929595
+depends	akms
+origin	openrazer
+repo	community
+file	openrazer-src-3.12.3-r0.apk
+checksum	Q1vulZ8x398PtWFQXmibGrZbrr2Bo=
+dep	akms	akms

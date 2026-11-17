@@ -1,0 +1,17 @@
+name	netcdf
+version	4.10.0-r0
+description	Libraries for the Unidata network Common Data Format
+url	https://www.unidata.ucar.edu/software/netcdf/
+license	BSD-3-Clause
+size	525655
+installed-size	1437702
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libhdf5.so.311 so:libhdf5_hl.so.310 so:libxml2.so.2
+origin	netcdf
+repo	community
+file	netcdf-4.10.0-r0.apk
+checksum	Q1XrHHevFoR0IwYlXPrr8Z7ufm4P8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libhdf5.so.311	hdf5
+dep	so:libhdf5_hl.so.310	hdf5-hl
+dep	so:libxml2.so.2	libxml2

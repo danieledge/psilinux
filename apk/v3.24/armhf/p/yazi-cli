@@ -1,0 +1,15 @@
+name	yazi-cli
+version	26.5.6-r0
+description	Blazing fast terminal file manager written in Rust, based on async I/O - CLI
+url	https://yazi-rs.github.io
+license	MIT
+size	687255
+installed-size	1292240
+depends	yazi=26.5.6-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	yazi
+repo	community
+file	yazi-cli-26.5.6-r0.apk
+checksum	Q1HeV9bhC9lbYL0VrMxvCqWLABqtk=
+dep	yazi=26.5.6-r0	yazi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,15 @@
+name	py3-pytest-toolbox
+version	0.4-r6
+description	Numerous useful plugins for pytest
+url	https://github.com/samuelcolvin/pytest-toolbox
+license	MIT
+size	6647
+installed-size	12333
+depends	py3-pytest-isort py3-setuptools python3~3.14
+origin	py3-pytest-toolbox
+repo	community
+file	py3-pytest-toolbox-0.4-r6.apk
+checksum	Q1JZCLkIob7hHb5EQPth7qdEtF2x0=
+dep	py3-pytest-isort	py3-pytest-isort
+dep	py3-setuptools	py3-setuptools
+dep	python3~3.14	python3

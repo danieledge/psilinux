@@ -1,0 +1,13 @@
+name	ldns-static
+version	1.8.4-r1
+description	Lowlevel DNS(SEC) library (static library)
+url	https://nlnetlabs.nl/projects/ldns/
+license	BSD-3-Clause
+size	170872
+installed-size	462308
+depends	ldns-dev
+origin	ldns
+repo	main
+file	ldns-static-1.8.4-r1.apk
+checksum	Q1sp7Y5xBhV05EqxwFukrz1R5SLDM=
+dep	ldns-dev	ldns-dev

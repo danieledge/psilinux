@@ -1,0 +1,15 @@
+name	xf86-input-libinput-dev
+version	1.5.0-r0
+description	X.Org input driver based on libinput (development files)
+url	https://xorg.freedesktop.org
+license	MIT
+size	4775
+installed-size	12260
+depends	libinput-dev xorg-server-dev pkgconfig
+origin	xf86-input-libinput
+repo	community
+file	xf86-input-libinput-dev-1.5.0-r0.apk
+checksum	Q1pt2pLiKJ4eZ+hjazY1f5MYRuLzI=
+dep	libinput-dev	libinput-dev
+dep	xorg-server-dev	xorg-server-dev
+dep	pkgconfig	pkgconf

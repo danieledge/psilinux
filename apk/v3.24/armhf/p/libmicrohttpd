@@ -1,0 +1,14 @@
+name	libmicrohttpd
+version	1.0.5-r0
+description	small C library that is supposed to make it easy to run an HTTP server as part of another application
+url	https://www.gnu.org/software/libmicrohttpd/
+license	LGPL-2.1-or-later
+size	80449
+installed-size	165200
+depends	so:libc.musl-armhf.so.1 so:libgnutls.so.30
+origin	libmicrohttpd
+repo	main
+file	libmicrohttpd-1.0.5-r0.apk
+checksum	Q1HzUZcykCQsXVfpO7BdVcStAypVE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgnutls.so.30	gnutls

@@ -1,0 +1,14 @@
+name	qxmpp-dev
+version	1.15.1-r0
+description	Cross-platform C++ XMPP client and server library (development files)
+url	https://invent.kde.org/libraries/qxmpp
+license	LGPL-2.1-or-later
+size	122560
+installed-size	554591
+depends	qxmpp=1.15.1-r0 pkgconfig
+origin	qxmpp
+repo	community
+file	qxmpp-dev-1.15.1-r0.apk
+checksum	Q1n1GrwQWpDW3oSU+t/wDWuXMS+Oc=
+dep	qxmpp=1.15.1-r0	qxmpp
+dep	pkgconfig	pkgconf

@@ -1,0 +1,24 @@
+name	vala
+version	0.56.19-r0
+description	Compiler for the GObject type system
+url	https://vala.dev
+license	LGPL-2.0-or-later
+size	2806238
+installed-size	13899562
+depends	glib-dev pc:glib-2.0 pc:gmodule-2.0 pc:gobject-2.0 pc:libgvc pkgconfig so:libc.musl-armhf.so.1 so:libcgraph.so.6 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgvc.so.6
+origin	vala
+repo	main
+file	vala-0.56.19-r0.apk
+checksum	Q1krlQNojoAvyGFS+nMsMhhhf4PDc=
+dep	glib-dev	glib-dev
+dep	pc:glib-2.0	glib-dev
+dep	pc:gmodule-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pc:libgvc	graphviz-dev
+dep	pkgconfig	pkgconf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcgraph.so.6	graphviz-libs
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgvc.so.6	graphviz-libs

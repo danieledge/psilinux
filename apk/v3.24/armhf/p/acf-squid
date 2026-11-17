@@ -1,0 +1,14 @@
+name	acf-squid
+version	0.11.0-r4
+description	Web-based system administration interface for squid
+url	https://gitlab.alpinelinux.org/acf/acf-squid
+license	GPL-2.0-only
+size	7087
+installed-size	19444
+depends	acf-core squid
+origin	acf-squid
+repo	main
+file	acf-squid-0.11.0-r4.apk
+checksum	Q1mZwnPjvNdGAFOQV8SqPhE63aqvQ=
+dep	acf-core	acf-core
+dep	squid	squid

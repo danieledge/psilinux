@@ -1,0 +1,14 @@
+name	sassc
+version	3.6.2-r5
+description	Libsass command line driver
+url	https://github.com/sass/sassc
+license	MIT
+size	6603
+installed-size	13724
+depends	so:libc.musl-armhf.so.1 so:libsass.so.1
+origin	sassc
+repo	community
+file	sassc-3.6.2-r5.apk
+checksum	Q1gN1krNlNdMqszisoL5duhakQ9iI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsass.so.1	libsass

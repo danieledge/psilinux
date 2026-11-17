@@ -1,0 +1,15 @@
+name	libmng-dev
+version	2.0.3-r2
+description	A collection of routines used to create and manipulate MNG format graphics files (development files)
+url	http://www.libmng.com/
+license	custom
+size	35528
+installed-size	221081
+depends	libjpeg-turbo-dev libmng=2.0.3-r2 pkgconfig
+origin	libmng
+repo	community
+file	libmng-dev-2.0.3-r2.apk
+checksum	Q1cpVa5zdt7gIk+ZL4fkhNgZ3U8cg=
+dep	libjpeg-turbo-dev	libjpeg-turbo-dev
+dep	libmng=2.0.3-r2	libmng
+dep	pkgconfig	pkgconf

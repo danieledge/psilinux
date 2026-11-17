@@ -1,0 +1,27 @@
+name	cacti-php
+version	1.2.31-r0
+description	The complete rrdtool-based graphing solution (php83 dependencies)
+url	https://www.cacti.net/
+license	GPL-2.0-or-later
+size	1976
+installed-size	322
+depends	php83 php83-gd php83-gmp php83-ldap php83-mbstring php83-pdo_mysql php83-opcache php83-openssl php83-posix php83-session php83-simplexml php83-snmp php83-sockets php83-xml php83-fpm
+origin	cacti
+repo	community
+file	cacti-php-1.2.31-r0.apk
+checksum	Q1fKihykStzw0fk6L3pUYRNUHxW0o=
+dep	php83	php83
+dep	php83-gd	php83-gd
+dep	php83-gmp	php83-gmp
+dep	php83-ldap	php83-ldap
+dep	php83-mbstring	php83-mbstring
+dep	php83-pdo_mysql	php83-pdo_mysql
+dep	php83-opcache	php83-opcache
+dep	php83-openssl	php83-openssl
+dep	php83-posix	php83-posix
+dep	php83-session	php83-session
+dep	php83-simplexml	php83-simplexml
+dep	php83-snmp	php83-snmp
+dep	php83-sockets	php83-sockets
+dep	php83-xml	php83-xml
+dep	php83-fpm	php83-fpm

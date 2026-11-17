@@ -1,0 +1,13 @@
+name	audiofile-static
+version	0.3.6-r3
+description	Silicon Graphics Audio File Library (static library)
+url	https://audiofile.68k.org/
+license	LGPL-2.1-or-later
+size	139401
+installed-size	428454
+depends	audiofile-dev
+origin	audiofile
+repo	community
+file	audiofile-static-0.3.6-r3.apk
+checksum	Q1rQKY7KvnkDXASOb5lksP6IvZUDQ=
+dep	audiofile-dev	audiofile-dev

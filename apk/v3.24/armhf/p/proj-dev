@@ -1,0 +1,17 @@
+name	proj-dev
+version	9.8.1-r0
+description	PROJ coordinate transformation software library (development files)
+url	https://proj.org/
+license	MIT
+size	97139
+installed-size	579951
+depends	proj=9.8.1-r0 pc:libcurl pc:libtiff-4 pc:sqlite3 pkgconfig
+origin	proj
+repo	community
+file	proj-dev-9.8.1-r0.apk
+checksum	Q1HUL8vOU1L1Usb9MRYPE5dUtAB90=
+dep	proj=9.8.1-r0	proj
+dep	pc:libcurl	curl-dev
+dep	pc:libtiff-4	tiff-dev
+dep	pc:sqlite3	sqlite-dev
+dep	pkgconfig	pkgconf

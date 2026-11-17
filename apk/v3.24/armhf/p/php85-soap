@@ -1,0 +1,16 @@
+name	php85-soap
+version	8.5.12-r0
+description	PHP85 extension: SOAP
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0 Apache-2.0
+size	137395
+installed-size	311055
+depends	php85-common php85-session so:libc.musl-armhf.so.1 so:libxml2.so.2
+origin	php85
+repo	community
+file	php85-soap-8.5.12-r0.apk
+checksum	Q1NxmRNrh1Y4UBxIShTxkKk0x1t/Y=
+dep	php85-common	php85-common
+dep	php85-session	php85-session
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxml2.so.2	libxml2

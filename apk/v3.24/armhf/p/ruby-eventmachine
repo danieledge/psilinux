@@ -1,0 +1,18 @@
+name	ruby-eventmachine
+version	1.2.7-r8
+description	Fast, simple event-processing library for Ruby programs
+url	https://github.com/eventmachine/eventmachine
+license	Ruby OR GPL-2.0-or-later
+size	177641
+installed-size	556732
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libruby.so.3.4 so:libssl.so.3 so:libstdc++.so.6
+origin	ruby-eventmachine
+repo	community
+file	ruby-eventmachine-1.2.7-r8.apk
+checksum	Q1PdDpmwxuHAMF19rrHyBAJMPDWhE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libruby.so.3.4	ruby-libs
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++

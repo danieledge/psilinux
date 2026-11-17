@@ -1,0 +1,13 @@
+name	ocaml-omake
+version	0.10.6-r1
+description	Build system designed for scalability and portability
+url	http://projects.camlcity.org/projects/omake.html
+license	GPL-2.0-only
+size	1693017
+installed-size	3767441
+depends	so:libc.musl-armhf.so.1
+origin	ocaml-omake
+repo	community
+file	ocaml-omake-0.10.6-r1.apk
+checksum	Q14pmj0kgr3/ePIiZ4qNQUSifSOvU=
+dep	so:libc.musl-armhf.so.1	musl

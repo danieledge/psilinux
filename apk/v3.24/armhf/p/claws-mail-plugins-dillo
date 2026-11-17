@@ -1,0 +1,20 @@
+name	claws-mail-plugins-dillo
+version	4.4.0-r0
+description	View HTML messages using the dillo web browser
+url	https://www.claws-mail.org
+license	GPL-3.0-or-later
+size	8026
+installed-size	18769
+depends	claws-mail=4.4.0-r0 dillo so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8
+origin	claws-mail
+repo	community
+file	claws-mail-plugins-dillo-4.4.0-r0.apk
+checksum	Q1E7jHSDz4SscJvmxjzPwRVTmIY94=
+dep	claws-mail=4.4.0-r0	claws-mail
+dep	dillo	dillo
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl

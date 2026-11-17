@@ -1,0 +1,13 @@
+name	wire-go
+version	0.6.0-r22
+description	Compile-time Dependency Injection for Go
+url	https://github.com/google/wire
+license	Apache-2.0
+size	2345580
+installed-size	5694244
+depends	so:libc.musl-armhf.so.1
+origin	wire-go
+repo	community
+file	wire-go-0.6.0-r22.apk
+checksum	Q1i2DyRGlUe6U0iApg5VOj+b45ZjQ=
+dep	so:libc.musl-armhf.so.1	musl

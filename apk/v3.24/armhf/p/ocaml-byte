@@ -1,0 +1,14 @@
+name	ocaml-byte
+version	4.14.4-r0
+description	Main implementation of the Caml programming language (bytecode executables)
+url	https://ocaml.org/
+license	LGPL-2.1-or-later WITH OCaml-LGPL-linking-exception
+size	48286265
+installed-size	114752158
+depends	ocaml-runtime=4.14.4-r0 gcc
+origin	ocaml
+repo	community
+file	ocaml-byte-4.14.4-r0.apk
+checksum	Q1jNWiui1/ieetaCzUzCBMS0KlAYU=
+dep	ocaml-runtime=4.14.4-r0	ocaml-runtime
+dep	gcc	gcc

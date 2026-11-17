@@ -1,0 +1,14 @@
+name	tar
+version	1.35-r5
+description	Utility used to store, backup, and transport files
+url	https://www.gnu.org/software/tar/
+license	GPL-3.0-or-later
+size	212963
+installed-size	414300
+depends	so:libacl.so.1 so:libc.musl-armhf.so.1
+origin	tar
+repo	main
+file	tar-1.35-r5.apk
+checksum	Q1Gfw7ysbjxKIcCKZKcChr9CGysuE=
+dep	so:libacl.so.1	acl-libs
+dep	so:libc.musl-armhf.so.1	musl

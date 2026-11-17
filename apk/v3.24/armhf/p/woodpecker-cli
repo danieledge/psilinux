@@ -1,0 +1,13 @@
+name	woodpecker-cli
+version	3.14.1-r3
+description	Woodpecker Server CLI
+url	https://woodpecker-ci.org
+license	Apache-2.0
+size	20033457
+installed-size	68424460
+depends	so:libc.musl-armhf.so.1
+origin	woodpecker
+repo	community
+file	woodpecker-cli-3.14.1-r3.apk
+checksum	Q1BqXWCuYjo/M/7QvdGNMBBQIatN4=
+dep	so:libc.musl-armhf.so.1	musl

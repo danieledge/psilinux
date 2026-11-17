@@ -1,0 +1,12 @@
+name	lld20-dbg
+version	20.1.8-r1
+description	The LLVM Linker (debug symbols)
+url	https://llvm.org/
+license	Apache-2.0
+size	5185571
+installed-size	16700780
+depends	!lld20-libs<20.1.8-r1 !lld20-libs>20.1.8-r1 !lld20<20.1.8-r1 !lld20>20.1.8-r1
+origin	lld20
+repo	main
+file	lld20-dbg-20.1.8-r1.apk
+checksum	Q1bLGeMaZDYY4SQ49RPZ83/ZGhD54=

@@ -1,0 +1,24 @@
+name	ocaml-x509-dev
+version	0.16.0-r4
+description	Public Key Infrastructure (RFC 5280, PKCS) purely in OCaml (development files)
+url	https://github.com/mirleft/ocaml-x509
+license	BSD-2-Clause
+size	1609647
+installed-size	3936991
+depends	ocaml-x509=0.16.0-r4 ocaml-asn1-combinators-dev ocaml-base64-dev ocaml-cstruct-dev ocaml-domain-name-dev ocaml-fmt-dev ocaml-gmap-dev ocaml-ipaddr-dev ocaml-logs-dev ocaml-mirage-crypto-dev ocaml-pbkdf-dev ocaml-ptime-dev
+origin	ocaml-x509
+repo	community
+file	ocaml-x509-dev-0.16.0-r4.apk
+checksum	Q1mV8DOi1+kIz69GNYfUmFlX2g7bU=
+dep	ocaml-x509=0.16.0-r4	ocaml-x509
+dep	ocaml-asn1-combinators-dev	ocaml-asn1-combinators-dev
+dep	ocaml-base64-dev	ocaml-base64-dev
+dep	ocaml-cstruct-dev	ocaml-cstruct-dev
+dep	ocaml-domain-name-dev	ocaml-domain-name-dev
+dep	ocaml-fmt-dev	ocaml-fmt-dev
+dep	ocaml-gmap-dev	ocaml-gmap-dev
+dep	ocaml-ipaddr-dev	ocaml-ipaddr-dev
+dep	ocaml-logs-dev	ocaml-logs-dev
+dep	ocaml-mirage-crypto-dev	ocaml-mirage-crypto-dev
+dep	ocaml-pbkdf-dev	ocaml-pbkdf-dev
+dep	ocaml-ptime-dev	ocaml-ptime-dev

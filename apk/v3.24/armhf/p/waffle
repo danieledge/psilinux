@@ -1,0 +1,16 @@
+name	waffle
+version	1.8.0-r0
+description	C library for selecting an OpenGL API and window system at runtime
+url	https://gitlab.freedesktop.org/mesa/waffle
+license	BSD-2-Clause
+size	35900
+installed-size	84904
+depends	so:libX11-xcb.so.1 so:libX11.so.6 so:libc.musl-armhf.so.1 so:libxcb.so.1
+origin	waffle
+repo	community
+file	waffle-1.8.0-r0.apk
+checksum	Q10HN2TCT3lgLPFNoRcHRnKcETvMs=
+dep	so:libX11-xcb.so.1	libx11
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxcb.so.1	libxcb

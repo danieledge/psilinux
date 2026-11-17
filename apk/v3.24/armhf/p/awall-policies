@@ -1,0 +1,13 @@
+name	awall-policies
+version	1.14.0-r1
+description	Alpine Wall
+url	https://gitlab.alpinelinux.org/alpine/awall
+license	GPL-2.0-only
+size	4272
+installed-size	4777
+depends	awall
+origin	awall
+repo	main
+file	awall-policies-1.14.0-r1.apk
+checksum	Q1WnkdVWnGUCYD/xUam6DvF7rbQYk=
+dep	awall	awall

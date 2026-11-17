@@ -1,0 +1,18 @@
+name	geany-plugins-geanyprj
+version	2.1-r0
+description	Alternate project management tool for Geany
+url	https://plugins.geany.org/
+license	GPL-3.0-or-later
+size	15684
+installed-size	34020
+depends	so:libc.musl-armhf.so.1 so:libgeany.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libpango-1.0.so.0
+origin	geany-plugins
+repo	community
+file	geany-plugins-geanyprj-2.1-r0.apk
+checksum	Q1LOa8dDSYwUG0tv6lbzvg7HntFn0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgeany.so.0	geany
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libpango-1.0.so.0	pango

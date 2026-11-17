@@ -1,0 +1,15 @@
+name	rsyslog-gnutls
+version	8.2608.0-r0
+description	rsyslog lmnsd_gtls module
+url	https://www.rsyslog.com/
+license	Apache-2.0 AND GPL-3.0-or-later AND LGPL-3.0-or-later
+size	18444
+installed-size	38816
+depends	rsyslog=8.2608.0-r0 so:libc.musl-armhf.so.1 so:libgnutls.so.30
+origin	rsyslog
+repo	main
+file	rsyslog-gnutls-8.2608.0-r0.apk
+checksum	Q176TaCQXLa2OEKkrRtAx3r9osD8c=
+dep	rsyslog=8.2608.0-r0	rsyslog
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgnutls.so.30	gnutls

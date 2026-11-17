@@ -1,0 +1,13 @@
+name	efm-langserver
+version	0.0.56-r4
+description	General purpose language server
+url	https://github.com/mattn/efm-langserver
+license	MIT
+size	1429899
+installed-size	3474308
+depends	so:libc.musl-armhf.so.1
+origin	efm-langserver
+repo	community
+file	efm-langserver-0.0.56-r4.apk
+checksum	Q10cwn5Y2z1F7F9t8EmzZMliOfa48=
+dep	so:libc.musl-armhf.so.1	musl

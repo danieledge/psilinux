@@ -1,0 +1,15 @@
+name	aws-c-cal
+version	0.9.14-r0
+description	AWS Crypto Abstraction Layer: Cross-Platform, C99 wrapper for cryptography primitives
+url	https://github.com/awslabs/aws-c-cal
+license	Apache-2.0
+size	28990
+installed-size	71712
+depends	so:libaws-c-common.so.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	aws-c-cal
+repo	community
+file	aws-c-cal-0.9.14-r0.apk
+checksum	Q1jkGalpFB+/yYX2ld9qkUZZczeGI=
+dep	so:libaws-c-common.so.1	aws-c-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

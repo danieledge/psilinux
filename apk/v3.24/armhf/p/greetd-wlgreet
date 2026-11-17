@@ -1,0 +1,16 @@
+name	greetd-wlgreet
+version	0.5.0-r0
+description	Raw wayland greeter for greetd
+url	https://git.sr.ht/~kennylevinsen/wlgreet
+license	GPL-3.0-only
+size	610129
+installed-size	1103960
+depends	greetd wayland-libs-client so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	greetd-wlgreet
+repo	community
+file	greetd-wlgreet-0.5.0-r0.apk
+checksum	Q1b31/vf+pV4Wl7OPdJjbBlmIVVmo=
+dep	greetd	greetd
+dep	wayland-libs-client	wayland-libs-client
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

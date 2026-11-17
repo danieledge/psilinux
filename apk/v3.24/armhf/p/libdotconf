@@ -1,0 +1,13 @@
+name	libdotconf
+version	1.4.1-r0
+description	dot.conf configuration file parser
+url	https://github.com/williamh/dotconf
+license	LGPL-2.1-only
+size	10703
+installed-size	21684
+depends	so:libc.musl-armhf.so.1
+origin	libdotconf
+repo	community
+file	libdotconf-1.4.1-r0.apk
+checksum	Q1XR338IQMMTeG/jI9Y9zZIu9sMAQ=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,17 @@
+name	rng-tools
+version	6.17-r2
+description	Random number generator daemon
+url	https://github.com/nhorman/rng-tools
+license	GPL-2.0-or-later
+size	57381
+installed-size	148340
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcap.so.2 so:libcrypto.so.3 so:libjitterentropy.so.3
+origin	rng-tools
+repo	main
+file	rng-tools-6.17-r2.apk
+checksum	Q1BKsFVxOnpJ7CxrHxA9beFMsOpTw=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libjitterentropy.so.3	jitterentropy-library

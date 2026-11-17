@@ -1,0 +1,14 @@
+name	sloci-image
+version	0.1.2-r1
+description	Simple script for creating single-layer OCI images
+url	https://github.com/jirutka/sloci-image
+license	MIT
+size	5842
+installed-size	11908
+depends	/bin/sh tar
+origin	sloci-image
+repo	community
+file	sloci-image-0.1.2-r1.apk
+checksum	Q1mYDUboBV+ElTjbpSERHzSqmXSyc=
+dep	/bin/sh	busybox-binsh
+dep	tar	tar

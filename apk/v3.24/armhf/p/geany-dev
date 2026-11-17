@@ -1,0 +1,16 @@
+name	geany-dev
+version	2.1-r0
+description	fast and lightweight IDE (development files)
+url	https://www.geany.org
+license	GPL-2.0-or-later
+size	104260
+installed-size	414518
+depends	geany=2.1-r0 pc:glib-2.0>=2.56 pc:gtk+-3.0>=3.24 pkgconfig
+origin	geany
+repo	community
+file	geany-dev-2.1-r0.apk
+checksum	Q1jHqxKX2IO8cVt2kqHOuEON5ft10=
+dep	geany=2.1-r0	geany
+dep	pc:glib-2.0>=2.56	glib-dev
+dep	pc:gtk+-3.0>=3.24	gtk+3.0-dev
+dep	pkgconfig	pkgconf

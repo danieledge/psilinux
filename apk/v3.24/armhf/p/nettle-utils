@@ -1,0 +1,16 @@
+name	nettle-utils
+version	3.10.2-r0
+description	Utils for nettle
+url	https://www.lysator.liu.se/~nisse/nettle/
+license	GPL-2.0-or-later OR LGPL-3.0-or-later
+size	22628
+installed-size	72312
+depends	so:libc.musl-armhf.so.1 so:libgmp.so.10 so:libhogweed.so.6 so:libnettle.so.8
+origin	nettle
+repo	main
+file	nettle-utils-3.10.2-r0.apk
+checksum	Q1s5eFQlngAi3uTD7lo5RTsoJdrD0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgmp.so.10	gmp
+dep	so:libhogweed.so.6	nettle
+dep	so:libnettle.so.8	nettle

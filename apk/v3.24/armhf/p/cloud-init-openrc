@@ -1,0 +1,12 @@
+name	cloud-init-openrc
+version	26.1-r3
+description	Cloud instance init scripts (OpenRC init scripts)
+url	https://cloud-init.io
+license	Apache-2.0 OR GPL-3.0-only
+size	2515
+installed-size	3125
+depends	
+origin	cloud-init
+repo	community
+file	cloud-init-openrc-26.1-r3.apk
+checksum	Q1JWo+QYJ6TTdtxfRZN5o6cH32Thw=

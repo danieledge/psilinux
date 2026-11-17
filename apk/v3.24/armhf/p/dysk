@@ -1,0 +1,14 @@
+name	dysk
+version	3.6.0-r0
+description	Get information on your mounted disks
+url	https://github.com/Canop/dysk
+license	MIT
+size	844959
+installed-size	1815220
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	dysk
+repo	community
+file	dysk-3.6.0-r0.apk
+checksum	Q1vcNkt8xofEX7qKPxylV8AzD7tJk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

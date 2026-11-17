@@ -1,0 +1,15 @@
+name	py3-patiencediff
+version	0.2.18-r2
+description	Patiencediff Python and Rust implementations
+url	https://www.breezy-vcs.org/
+license	GPL-2.0-or-later
+size	221983
+installed-size	449796
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	py3-patiencediff
+repo	community
+file	py3-patiencediff-0.2.18-r2.apk
+checksum	Q1/Mzfrt10rfbuiQAvSbaTOJG8lps=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

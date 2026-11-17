@@ -1,0 +1,14 @@
+name	ruby-test-unit-doc
+version	3.6.8-r0
+description	An xUnit family unit testing framework for Ruby (ri docs)
+url	https://test-unit.github.io
+license	BSD-2-Clause AND Python-2.0 AND Ruby
+size	1589
+installed-size	1
+depends	ruby ruby-power_assert
+origin	ruby-test-unit
+repo	main
+file	ruby-test-unit-doc-3.6.8-r0.apk
+checksum	Q1y9qUfkAlsVDy/uRuvLrldeWno5M=
+dep	ruby	ruby
+dep	ruby-power_assert	ruby-power_assert

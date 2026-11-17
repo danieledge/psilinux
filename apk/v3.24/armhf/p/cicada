@@ -1,0 +1,17 @@
+name	cicada
+version	1.2.2-r1
+description	A bash-like Unix shell
+url	https://github.com/mitnk/cicada
+license	MIT
+size	1122765
+installed-size	2392744
+depends	ncurses-terminfo-base /bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libsqlite3.so.0
+origin	cicada
+repo	community
+file	cicada-1.2.2-r1.apk
+checksum	Q1ZY+qVSOYNxPfQq7aJbAISitSE+Y=
+dep	ncurses-terminfo-base	ncurses-terminfo-base
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsqlite3.so.0	sqlite-libs

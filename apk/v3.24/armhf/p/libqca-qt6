@@ -1,0 +1,21 @@
+name	libqca-qt6
+version	2.3.10-r0
+description	Qt cryptographic architecture
+url	https://userbase.kde.org/QCA
+license	LGPL-2.1-or-later
+size	774640
+installed-size	2217064
+depends	so:libQt6Core.so.6 so:libQt6Core5Compat.so.6 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libgcrypt.so.20 so:libsasl2.so.3 so:libssl.so.3 so:libstdc++.so.6
+origin	qca
+repo	community
+file	libqca-qt6-2.3.10-r0.apk
+checksum	Q1L+jLkb+6mcJVwHCJw86faRL0u3k=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Core5Compat.so.6	qt6-qt5compat
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libsasl2.so.3	libsasl
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++

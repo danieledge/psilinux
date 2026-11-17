@@ -1,0 +1,22 @@
+name	monitoring-plugins
+version	2.4.0-r1
+description	Plugins for Icinga, Naemon, Nagios, Shinken, Sensu and other monitoring applications
+url	https://www.monitoring-plugins.org
+license	GPL-3.0-or-later
+size	1074289
+installed-size	2334643
+depends	iputils procps bind-tools so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libdbi.so.1 so:libintl.so.8 so:libmariadb.so.3 so:libpq.so.5 so:libssl.so.3
+origin	monitoring-plugins
+repo	community
+file	monitoring-plugins-2.4.0-r1.apk
+checksum	Q1mIko/j53daMZqIA2VjeV0pC6lhk=
+dep	iputils	iputils
+dep	procps	procps-ng
+dep	bind-tools	bind-tools
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libdbi.so.1	libdbi
+dep	so:libintl.so.8	libintl
+dep	so:libmariadb.so.3	mariadb-connector-c
+dep	so:libpq.so.5	libpq
+dep	so:libssl.so.3	libssl3

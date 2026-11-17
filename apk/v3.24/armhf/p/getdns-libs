@@ -1,0 +1,17 @@
+name	getdns-libs
+version	1.7.3-r0
+description	Modern asynchronous DNS API (libraries)
+url	https://getdnsapi.net
+license	BSD-3-Clause
+size	176897
+installed-size	387836
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libidn2.so.0 so:libssl.so.3 so:libunbound.so.8
+origin	getdns
+repo	community
+file	getdns-libs-1.7.3-r0.apk
+checksum	Q1wjw2HdQvUV3gaaoXZ91mQaGrewg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libidn2.so.0	libidn2
+dep	so:libssl.so.3	libssl3
+dep	so:libunbound.so.8	unbound-libs

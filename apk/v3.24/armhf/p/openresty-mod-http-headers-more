@@ -1,0 +1,15 @@
+name	openresty-mod-http-headers-more
+version	1.31.1.1-r0
+description	Scalable Web Platform by Extending NGINX with Lua (module ngx_http_headers_more_filter_module.so)
+url	https://openresty.org/
+license	BSD-2-Clause
+size	10960
+installed-size	18562
+depends	cmd:nginx openresty so:libc.musl-armhf.so.1
+origin	openresty
+repo	community
+file	openresty-mod-http-headers-more-1.31.1.1-r0.apk
+checksum	Q111iMn//rgkNtDCkO7CG4pvHsfpM=
+dep	cmd:nginx	nginx
+dep	openresty	openresty
+dep	so:libc.musl-armhf.so.1	musl

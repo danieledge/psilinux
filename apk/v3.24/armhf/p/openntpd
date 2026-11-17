@@ -1,0 +1,13 @@
+name	openntpd
+version	6.8_p1-r12
+description	Lightweight NTP server ported from OpenBSD
+url	https://openntpd.org/
+license	ISC
+size	41043
+installed-size	75534
+depends	so:libc.musl-armhf.so.1
+origin	openntpd
+repo	main
+file	openntpd-6.8_p1-r12.apk
+checksum	Q1fH6IWZnZA4gjMpL2mmE/thwQ8tg=
+dep	so:libc.musl-armhf.so.1	musl

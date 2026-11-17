@@ -1,0 +1,15 @@
+name	apr-dev
+version	1.7.6-r0
+description	The Apache Portable Runtime
+url	https://apr.apache.org/
+license	Apache-2.0
+size	319915
+installed-size	1241677
+depends	apr=1.7.6-r0 util-linux-dev pkgconfig
+origin	apr
+repo	main
+file	apr-dev-1.7.6-r0.apk
+checksum	Q1ciOscs0SoIjzRq6mTZEUUA3tiRs=
+dep	apr=1.7.6-r0	apr
+dep	util-linux-dev	util-linux-dev
+dep	pkgconfig	pkgconf

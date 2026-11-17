@@ -1,0 +1,14 @@
+name	collectd-chrony
+version	5.12.0-r25
+description	chrony pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	7123
+installed-size	13468
+depends	collectd so:libc.musl-armhf.so.1
+origin	collectd
+repo	community
+file	collectd-chrony-5.12.0-r25.apk
+checksum	Q1sZFa6SravQ8tii52v8rS5jr9i0w=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl

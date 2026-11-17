@@ -1,0 +1,13 @@
+name	lxc-bridge
+version	7.0.0-r0
+description	Bridge interface for LXC with dhcp
+url	https://linuxcontainers.org/lxc/
+license	LGPL-2.1-or-later
+size	1926
+installed-size	292
+depends	dnsmasq
+origin	lxc
+repo	main
+file	lxc-bridge-7.0.0-r0.apk
+checksum	Q1lF2wWOiWCb5VpBxMIb6Kk0E9m8s=
+dep	dnsmasq	dnsmasq

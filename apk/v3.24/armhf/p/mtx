@@ -1,0 +1,13 @@
+name	mtx
+version	1.3.12-r5
+description	SCSI Media Changer and Backup Device Control
+url	https://sourceforge.net/projects/mtx/
+license	GPL-2.0-only
+size	89861
+installed-size	202308
+depends	so:libc.musl-armhf.so.1
+origin	mtx
+repo	main
+file	mtx-1.3.12-r5.apk
+checksum	Q19OFAONKgrjsQUi3TcK1VwiN0b6c=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	pipewire-filter-graph-builtin
+version	1.6.8-r4
+description	Multimedia processing graphs
+url	https://pipewire.org/
+license	MIT
+size	319508
+installed-size	437756
+depends	so:libc.musl-armhf.so.1 so:libsndfile.so.1
+origin	pipewire
+repo	community
+file	pipewire-filter-graph-builtin-1.6.8-r4.apk
+checksum	Q1gYdsOm/8v/St49aR4VC5Tnw/Iuk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsndfile.so.1	libsndfile

@@ -1,0 +1,18 @@
+name	svkbd
+version	0.4.2-r0
+description	Simple virtual keyboard for X, ships with an international mobile-optimised layout
+url	https://tools.suckless.org/x/svkbd/
+license	MIT
+size	21993
+installed-size	76020
+depends	so:libX11.so.6 so:libXft.so.2 so:libXinerama.so.1 so:libXtst.so.6 so:libc.musl-armhf.so.1 so:libfontconfig.so.1
+origin	svkbd
+repo	community
+file	svkbd-0.4.2-r0.apk
+checksum	Q1ZoQZAJObVDHaF15xmU+e0mWQr7I=
+dep	so:libX11.so.6	libx11
+dep	so:libXft.so.2	libxft
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libXtst.so.6	libxtst
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig

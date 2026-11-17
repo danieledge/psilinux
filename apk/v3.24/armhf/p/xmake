@@ -1,0 +1,21 @@
+name	xmake
+version	3.0.9-r0
+description	A cross-platform build utility based on Lua
+url	https://xmake.io/
+license	Apache-2.0
+size	1381406
+installed-size	7248289
+depends	bash so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblua-5.4.so.0 so:liblz4.so.1 so:libncursesw.so.6 so:libreadline.so.8 so:libsv.so.1 so:libtbox.so.1
+origin	xmake
+repo	community
+file	xmake-3.0.9-r0.apk
+checksum	Q1VQ7KMw4EUMAyzhJ8UCfU0S2lrls=
+dep	bash	bash
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblua-5.4.so.0	lua5.4-libs
+dep	so:liblz4.so.1	lz4-libs
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libreadline.so.8	readline
+dep	so:libsv.so.1	libsv
+dep	so:libtbox.so.1	libtbox

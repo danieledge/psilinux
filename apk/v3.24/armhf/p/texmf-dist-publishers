@@ -1,0 +1,14 @@
+name	texmf-dist-publishers
+version	2026.0-r0
+description	texmf-dist: Publisher styles, theses, etc.
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	39639507
+installed-size	90146544
+depends	texmf-dist texmf-dist-latex
+origin	texmf-dist
+repo	community
+file	texmf-dist-publishers-2026.0-r0.apk
+checksum	Q1hQdePitgfbWw5Z+XtcfbsGTDKtc=
+dep	texmf-dist	texmf-dist
+dep	texmf-dist-latex	texmf-dist-latex

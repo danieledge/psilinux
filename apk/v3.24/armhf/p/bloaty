@@ -1,0 +1,21 @@
+name	bloaty
+version	1.1-r31
+description	Bloaty McBloatface: a size profiler for binaries
+url	https://github.com/google/bloaty
+license	Apache-2.0
+size	151020
+installed-size	338876
+depends	so:libabsl_raw_logging_internal.so.2508.0.0 so:libabsl_strings.so.2508.0.0 so:libc.musl-armhf.so.1 so:libcapstone.so.5 so:libgcc_s.so.1 so:libprotobuf.so.31 so:libre2.so.11 so:libstdc++.so.6 so:libutf8_range.so.31.1.0
+origin	bloaty
+repo	community
+file	bloaty-1.1-r31.apk
+checksum	Q1qMgNxinYsz1jAISYyt+gs/dZacY=
+dep	so:libabsl_raw_logging_internal.so.2508.0.0	abseil-cpp-raw-logging-internal
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcapstone.so.5	capstone
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libprotobuf.so.31	libprotobuf
+dep	so:libre2.so.11	re2
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libutf8_range.so.31.1.0	protobuf

@@ -1,0 +1,14 @@
+name	opendbx-backend-sqlite
+version	1.4.6-r2
+description	Database abstraction layer
+url	https://www.linuxnetworks.de/doc/index.php/OpenDBX
+license	GPL-2.0-or-later
+size	5618
+installed-size	9472
+depends	so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	opendbx
+repo	community
+file	opendbx-backend-sqlite-1.4.6-r2.apk
+checksum	Q1DaI2S3fupGnutayFlbPYRn0J9mc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

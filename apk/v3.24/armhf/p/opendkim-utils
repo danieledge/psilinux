@@ -1,0 +1,19 @@
+name	opendkim-utils
+version	2.11.0-r4
+description	DKIM signing and verifying filter for MTAs (key and zone utilities)
+url	http://www.opendkim.org
+license	custom
+size	48006
+installed-size	102849
+depends	opendkim openssl perl so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libopendkim.so.11 so:libssl.so.3
+origin	opendkim
+repo	community
+file	opendkim-utils-2.11.0-r4.apk
+checksum	Q1MsQDRj/LFuMyy2aVDp0TDsx8c1w=
+dep	opendkim	opendkim
+dep	openssl	openssl
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libopendkim.so.11	opendkim-libs
+dep	so:libssl.so.3	libssl3

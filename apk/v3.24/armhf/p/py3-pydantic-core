@@ -1,0 +1,16 @@
+name	py3-pydantic-core
+version	2.41.5-r0
+description	Core validation logic for pydantic written in rust
+url	https://github.com/pydantic/pydantic-core
+license	MIT
+size	1474225
+installed-size	3474640
+depends	py3-typing-extensions python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	py3-pydantic-core
+repo	community
+file	py3-pydantic-core-2.41.5-r0.apk
+checksum	Q13TPBImTsvC/fbQobQQ+uY3EUYgs=
+dep	py3-typing-extensions	py3-typing-extensions
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

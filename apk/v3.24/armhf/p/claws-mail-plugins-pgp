@@ -1,0 +1,23 @@
+name	claws-mail-plugins-pgp
+version	4.4.0-r0
+description	PGP plugin for signing and encrypting with Claws Mail
+url	https://www.claws-mail.org
+license	GPL-3.0-or-later
+size	47863
+installed-size	122335
+depends	claws-mail=4.4.0-r0 pinentry-gtk gnupg so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgpgme.so.45 so:libgtk-3.so.0 so:libintl.so.8
+origin	claws-mail
+repo	community
+file	claws-mail-plugins-pgp-4.4.0-r0.apk
+checksum	Q1mejZULsQ1lKk+U4stnEwWxmzvEw=
+dep	claws-mail=4.4.0-r0	claws-mail
+dep	pinentry-gtk	pinentry-gnome
+dep	gnupg	gnupg
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgpgme.so.45	gpgme
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl

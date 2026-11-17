@@ -1,0 +1,14 @@
+name	apr-util-dbd_mysql
+version	1.6.4-r0
+description	The Apache Portable Runtime Utility Library - MySQL driver
+url	https://apr.apache.org/
+license	Apache-2.0
+size	7926
+installed-size	17776
+depends	so:libc.musl-armhf.so.1 so:libmariadb.so.3
+origin	apr-util
+repo	main
+file	apr-util-dbd_mysql-1.6.4-r0.apk
+checksum	Q1PFx3RZJ6DkyEMAUVg+dwnzD6HJ8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmariadb.so.3	mariadb-connector-c

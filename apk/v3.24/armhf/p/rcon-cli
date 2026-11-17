@@ -1,0 +1,13 @@
+name	rcon-cli
+version	1.7.5-r2
+description	A little RCON cli based on james4k's RCON library for golang
+url	https://github.com/itzg/rcon-cli
+license	Apache-2.0
+size	2428830
+installed-size	5916076
+depends	so:libc.musl-armhf.so.1
+origin	rcon-cli
+repo	community
+file	rcon-cli-1.7.5-r2.apk
+checksum	Q1w1X33QpYmItp6eBEIDTAc8sipVg=
+dep	so:libc.musl-armhf.so.1	musl

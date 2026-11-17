@@ -1,0 +1,16 @@
+name	php85-pecl-brotli
+version	0.21.0-r0
+description	Brotli Extension for PHP 8.5 PECL
+url	https://github.com/kjdev/php-ext-brotli
+license	MIT
+size	15592
+installed-size	34565
+depends	php85-common so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-armhf.so.1
+origin	php85-pecl-brotli
+repo	community
+file	php85-pecl-brotli-0.21.0-r0.apk
+checksum	Q1lNj6mCDjQ5yCcDD4sh23ElrfvXM=
+dep	php85-common	php85-common
+dep	so:libbrotlidec.so.1	brotli-libs
+dep	so:libbrotlienc.so.1	brotli-libs
+dep	so:libc.musl-armhf.so.1	musl

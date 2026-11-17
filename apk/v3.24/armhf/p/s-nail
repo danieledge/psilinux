@@ -1,0 +1,17 @@
+name	s-nail
+version	14.9.25-r1
+description	SysV mail/BSD Mail/POSIX mailx: send and receive Internet mail
+url	https://www.sdaoden.eu/code.html#s-mailx
+license	BSD-3-Clause
+size	446694
+installed-size	868325
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libidn2.so.0 so:libncursesw.so.6 so:libssl.so.3
+origin	s-nail
+repo	community
+file	s-nail-14.9.25-r1.apk
+checksum	Q1dgKziNAsZImAv2rHDpSSXXsiEg0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libidn2.so.0	libidn2
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libssl.so.3	libssl3

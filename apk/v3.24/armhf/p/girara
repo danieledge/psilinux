@@ -1,0 +1,16 @@
+name	girara
+version	2026.02.04-r0
+description	GTK user interface that focuses on simplicity and minimalism
+url	https://pwmt.org/projects/girara/
+license	Zlib
+size	13728
+installed-size	29828
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	girara
+repo	community
+file	girara-2026.02.04-r0.apk
+checksum	Q1eMgQyqFpdX7gwzJsj4ws9rJkyPg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

@@ -1,0 +1,14 @@
+name	hackrf-dev
+version	2026.01.3-r1
+description	Driver for HackRF, allowing general purpose software defined radio (development files)
+url	https://github.com/greatscottgadgets/hackrf
+license	GPL-2.0-only
+size	28025
+installed-size	102164
+depends	hackrf-libs=2026.01.3-r1 pkgconfig
+origin	hackrf
+repo	community
+file	hackrf-dev-2026.01.3-r1.apk
+checksum	Q157Xbh1rWwGzt0MYOomyONj4Hgnc=
+dep	hackrf-libs=2026.01.3-r1	hackrf-libs
+dep	pkgconfig	pkgconf

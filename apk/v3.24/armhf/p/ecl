@@ -1,0 +1,16 @@
+name	ecl
+version	24.5.10-r2
+description	Embeddable Common Lisp
+url	https://ecl.common-lisp.dev/
+license	LGPL-2.1-or-later
+size	3095100
+installed-size	7900438
+depends	so:libc.musl-armhf.so.1 so:libffi.so.8 so:libgc.so.1 so:libgmp.so.10
+origin	ecl
+repo	main
+file	ecl-24.5.10-r2.apk
+checksum	Q11EaLZ+RarybABSeBaL3Bdm+dagI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libffi.so.8	libffi
+dep	so:libgc.so.1	gc
+dep	so:libgmp.so.10	gmp

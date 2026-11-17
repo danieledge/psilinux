@@ -1,0 +1,20 @@
+name	perl-nix
+version	2.31.5-r0
+description	The purely functional package manager (Perl bindings)
+url	https://nixos.org/nix/
+license	LGPL-2.1-or-later
+size	59291
+installed-size	149927
+depends	nix=2.31.5-r0 perl so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libnixstore.so so:libnixutil.so so:libsodium.so.26 so:libstdc++.so.6
+origin	nix
+repo	community
+file	perl-nix-2.31.5-r0.apk
+checksum	Q1gDfUtZ/0Q54y+rRYWrj1JXBefF8=
+dep	nix=2.31.5-r0	nix
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libnixstore.so	nix
+dep	so:libnixutil.so	nix
+dep	so:libsodium.so.26	libsodium
+dep	so:libstdc++.so.6	libstdc++

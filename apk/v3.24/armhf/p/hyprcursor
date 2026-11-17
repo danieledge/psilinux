@@ -1,0 +1,21 @@
+name	hyprcursor
+version	0.1.13-r0
+description	The hyprland cursor format, library and utilities.
+url	https://github.com/hyprwm/Hyprcursor
+license	BSD-3-Clause
+size	155957
+installed-size	362368
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgcc_s.so.1 so:libgobject-2.0.so.0 so:libhyprlang.so.2 so:librsvg-2.so.2 so:libstdc++.so.6 so:libtomlplusplus.so.3 so:libzip.so.5
+origin	hyprcursor
+repo	community
+file	hyprcursor-0.1.13-r0.apk
+checksum	Q1SIJWOPOCjYh8Nir7VKbCii/1eUY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libhyprlang.so.2	hyprlang
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtomlplusplus.so.3	tomlplusplus
+dep	so:libzip.so.5	libzip

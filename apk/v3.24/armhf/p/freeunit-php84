@@ -1,0 +1,15 @@
+name	freeunit-php84
+version	1.37.2-r0
+description	php84 module for FreeUnit
+url	https://freeunit.org/
+license	Apache-2.0
+size	40886
+installed-size	79440
+depends	freeunit=1.37.2-r0 php84-embed so:libc.musl-armhf.so.1
+origin	freeunit
+repo	community
+file	freeunit-php84-1.37.2-r0.apk
+checksum	Q1xY+s/ZxzMfOoAMpp/nTbkorG7rU=
+dep	freeunit=1.37.2-r0	freeunit
+dep	php84-embed	php84-embed
+dep	so:libc.musl-armhf.so.1	musl

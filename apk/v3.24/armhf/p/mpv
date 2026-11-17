@@ -1,0 +1,62 @@
+name	mpv
+version	0.41.0-r2
+description	Video player based on MPlayer/mplayer2
+url	https://mpv.io/
+license	GPL-2.0-or-later
+size	1160395
+installed-size	2570944
+depends	so:libEGL.so.1 so:libX11.so.6 so:libXext.so.6 so:libXfixes.so.3 so:libXpresent.so.1 so:libXrandr.so.2 so:libXss.so.1 so:libXv.so.1 so:libarchive.so.13 so:libasound.so.2 so:libass.so.9 so:libavcodec.so.62 so:libavdevice.so.62 so:libavfilter.so.11 so:libavformat.so.62 so:libavutil.so.60 so:libbluray.so.3 so:libc.musl-armhf.so.1 so:libcaca.so.0 so:libcdio.so.19 so:libcdio_cdda.so.2 so:libcdio_paranoia.so.2 so:libdisplay-info.so.3 so:libdrm.so.2 so:libdvdnav.so.4 so:libgbm.so.1 so:libjack.so.0 so:libjpeg.so.8 so:liblcms2.so.2 so:libluajit-5.1.so.2 so:libpipewire-0.3.so.0 so:libplacebo.so.360 so:libpulse.so.0 so:librubberband.so.3 so:libsixel.so.1 so:libsndio.so.7 so:libswresample.so.6 so:libswscale.so.9 so:libuchardet.so.0 so:libva-drm.so.2 so:libva-wayland.so.2 so:libva-x11.so.2 so:libva.so.2 so:libvulkan.so.1 so:libwayland-client.so.0 so:libwayland-cursor.so.0 so:libwayland-egl.so.1 so:libxkbcommon.so.0 so:libz.so.1 so:libzimg.so.2
+origin	mpv
+repo	community
+file	mpv-0.41.0-r2.apk
+checksum	Q12s2P6dGoSvZbfu/VmJG7ngyynyU=
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXpresent.so.1	libxpresent
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libXss.so.1	libxscrnsaver
+dep	so:libXv.so.1	libxv
+dep	so:libarchive.so.13	libarchive
+dep	so:libasound.so.2	alsa-lib
+dep	so:libass.so.9	libass
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavdevice.so.62	ffmpeg-libavdevice
+dep	so:libavfilter.so.11	ffmpeg-libavfilter
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libbluray.so.3	libbluray
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcaca.so.0	libcaca
+dep	so:libcdio.so.19	libcdio
+dep	so:libcdio_cdda.so.2	libcdio-paranoia
+dep	so:libcdio_paranoia.so.2	libcdio-paranoia
+dep	so:libdisplay-info.so.3	libdisplay-info
+dep	so:libdrm.so.2	libdrm
+dep	so:libdvdnav.so.4	libdvdnav
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libjack.so.0	jack
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:liblcms2.so.2	lcms2
+dep	so:libluajit-5.1.so.2	luajit
+dep	so:libpipewire-0.3.so.0	pipewire-libs
+dep	so:libplacebo.so.360	libplacebo
+dep	so:libpulse.so.0	libpulse
+dep	so:librubberband.so.3	rubberband-libs
+dep	so:libsixel.so.1	libsixel
+dep	so:libsndio.so.7	sndio-libs
+dep	so:libswresample.so.6	ffmpeg-libswresample
+dep	so:libswscale.so.9	ffmpeg-libswscale
+dep	so:libuchardet.so.0	uchardet-libs
+dep	so:libva-drm.so.2	libva
+dep	so:libva-wayland.so.2	libva
+dep	so:libva-x11.so.2	libva
+dep	so:libva.so.2	libva
+dep	so:libvulkan.so.1	vulkan-loader
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor
+dep	so:libwayland-egl.so.1	wayland-libs-egl
+dep	so:libxkbcommon.so.0	libxkbcommon
+dep	so:libz.so.1	zlib
+dep	so:libzimg.so.2	zimg

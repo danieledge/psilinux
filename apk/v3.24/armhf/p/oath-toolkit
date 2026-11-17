@@ -1,0 +1,14 @@
+name	oath-toolkit
+version	2.6.14-r1
+description	OATH Toolkit One-time password components
+url	https://nongnu.org/oath-toolkit/
+license	GPL-3.0-or-later
+size	16922
+installed-size	51871
+depends	so:libc.musl-armhf.so.1 so:libpskc.so.0
+origin	oath-toolkit
+repo	community
+file	oath-toolkit-2.6.14-r1.apk
+checksum	Q1tLJIS97foOEM5wHx9BAHxOk6PdQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpskc.so.0	oath-toolkit-libpskc

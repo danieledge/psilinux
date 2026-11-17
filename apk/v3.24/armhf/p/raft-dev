@@ -1,0 +1,14 @@
+name	raft-dev
+version	0.18.1-r0
+description	C implementation of the Raft consensus protocol (development files)
+url	https://github.com/canonical/raft
+license	LGPL-3.0-only WITH LGPL-3.0-linking-exception
+size	20217
+installed-size	69890
+depends	raft=0.18.1-r0 pkgconfig
+origin	raft
+repo	community
+file	raft-dev-0.18.1-r0.apk
+checksum	Q1z6FXYurKu0tDOGA3EAFi0uSz4Ms=
+dep	raft=0.18.1-r0	raft
+dep	pkgconfig	pkgconf

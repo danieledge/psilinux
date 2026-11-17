@@ -1,0 +1,17 @@
+name	cairomm
+version	1.18.1-r0
+description	C++ bindings to Cairo vector graphics library
+url	https://www.cairographics.org
+license	LGPL-2.0-or-later AND MPL-1.1
+size	40199
+installed-size	128384
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgcc_s.so.1 so:libsigc-3.0.so.0 so:libstdc++.so.6
+origin	cairomm
+repo	community
+file	cairomm-1.18.1-r0.apk
+checksum	Q1hUk5yuvlRqHw496JfG6u2iydw6Q=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsigc-3.0.so.0	libsigc++3
+dep	so:libstdc++.so.6	libstdc++

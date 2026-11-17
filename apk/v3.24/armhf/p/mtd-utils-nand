@@ -1,0 +1,13 @@
+name	mtd-utils-nand
+version	2.2.1-r0
+description	MTD utils (NAND and FTL commands)
+url	http://www.linux-mtd.infradead.org/
+license	GPL-2.0-only
+size	65745
+installed-size	151036
+depends	so:libc.musl-armhf.so.1
+origin	mtd-utils
+repo	main
+file	mtd-utils-nand-2.2.1-r0.apk
+checksum	Q1PQmQ4jzIk3vn0ytuYjkfndJ82PM=
+dep	so:libc.musl-armhf.so.1	musl

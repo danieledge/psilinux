@@ -1,0 +1,14 @@
+name	perl-io-socket-inet6
+version	2.73-r2
+description	[ DEPRECATED!! ] Object interface for AF_INET/AF_INET6 domain sockets
+url	https://metacpan.org/release/IO-Socket-INET6/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	8012
+installed-size	19471
+depends	perl perl-socket6
+origin	perl-io-socket-inet6
+repo	main
+file	perl-io-socket-inet6-2.73-r2.apk
+checksum	Q10PJCyu49icnQTob15rufiz56LPc=
+dep	perl	perl
+dep	perl-socket6	perl-socket6

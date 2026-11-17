@@ -1,0 +1,14 @@
+name	sane-backend-abaton
+version	1.4.0-r4
+description	SANE backend for Abaton flatbed scanners
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	27050
+installed-size	51520
+depends	sane so:libc.musl-armhf.so.1
+origin	sane
+repo	community
+file	sane-backend-abaton-1.4.0-r4.apk
+checksum	Q1YghRBcpu/1Gw3E/QU46NvrEaWAY=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl

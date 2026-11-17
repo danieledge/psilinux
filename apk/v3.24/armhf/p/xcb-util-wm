@@ -1,0 +1,14 @@
+name	xcb-util-wm
+version	0.4.2-r0
+description	X C-language Binding - helpers for ICCCM and EWMH
+url	https://xcb.freedesktop.org/
+license	MIT
+size	17766
+installed-size	55588
+depends	so:libc.musl-armhf.so.1 so:libxcb.so.1
+origin	xcb-util-wm
+repo	community
+file	xcb-util-wm-0.4.2-r0.apk
+checksum	Q1X5vKSvkMI1ByVF9rYIwRl2xw/j0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxcb.so.1	libxcb

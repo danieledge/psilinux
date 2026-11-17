@@ -1,0 +1,13 @@
+name	libspiro
+version	20240903-r0
+description	Library to simplify the drawing of beautiful curves
+url	https://github.com/fontforge/libspiro
+license	GPL-3.0-or-later
+size	12175
+installed-size	21624
+depends	so:libc.musl-armhf.so.1
+origin	libspiro
+repo	community
+file	libspiro-20240903-r0.apk
+checksum	Q12E3scchxFqv1zJ4fNs+EEreHsAg=
+dep	so:libc.musl-armhf.so.1	musl

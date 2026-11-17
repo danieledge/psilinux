@@ -1,0 +1,28 @@
+name	libvncserver-dev
+version	0.9.15-r0
+description	Library to make writing a vnc server easy (development files)
+url	https://libvncserver.sourceforge.net/
+license	GPL-2.0-or-later
+size	61980
+installed-size	234620
+depends	libgcrypt-dev libjpeg-turbo-dev libpng-dev libice-dev libx11-dev libxdamage-dev libxext-dev libxfixes-dev libxi-dev libxinerama-dev libxrandr-dev libxtst-dev openssl-dev>3 lzo-dev libvncserver=0.9.15-r0 pkgconfig
+origin	libvncserver
+repo	community
+file	libvncserver-dev-0.9.15-r0.apk
+checksum	Q1lSoHnILm9N9sdcnONioiuiOBNU0=
+dep	libgcrypt-dev	libgcrypt-dev
+dep	libjpeg-turbo-dev	libjpeg-turbo-dev
+dep	libpng-dev	libpng-dev
+dep	libice-dev	libice-dev
+dep	libx11-dev	libx11-dev
+dep	libxdamage-dev	libxdamage-dev
+dep	libxext-dev	libxext-dev
+dep	libxfixes-dev	libxfixes-dev
+dep	libxi-dev	libxi-dev
+dep	libxinerama-dev	libxinerama-dev
+dep	libxrandr-dev	libxrandr-dev
+dep	libxtst-dev	libxtst-dev
+dep	openssl-dev>3	openssl-dev
+dep	lzo-dev	lzo-dev
+dep	libvncserver=0.9.15-r0	libvncserver
+dep	pkgconfig	pkgconf

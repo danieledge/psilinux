@@ -1,0 +1,14 @@
+name	rav1e-dev
+version	0.8.1-r0
+description	The fastest and safest AV1 encoder (development files)
+url	https://github.com/xiph/rav1e
+license	BSD-2-Clause custom
+size	10156
+installed-size	47865
+depends	rav1e-libs=0.8.1-r0 pkgconfig
+origin	rav1e
+repo	community
+file	rav1e-dev-0.8.1-r0.apk
+checksum	Q1c0vWRLssLRaGWmNvsXDVcDQ4P58=
+dep	rav1e-libs=0.8.1-r0	rav1e-libs
+dep	pkgconfig	pkgconf

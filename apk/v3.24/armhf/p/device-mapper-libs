@@ -1,0 +1,13 @@
+name	device-mapper-libs
+version	2.03.35-r3
+description	Device-mapper shared library
+url	https://sourceware.org/lvm2/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	147900
+installed-size	325052
+depends	so:libc.musl-armhf.so.1
+origin	device-mapper
+repo	main
+file	device-mapper-libs-2.03.35-r3.apk
+checksum	Q1x09hDoRZ2rrP/mLeOuqSb6zU3Zk=
+dep	so:libc.musl-armhf.so.1	musl

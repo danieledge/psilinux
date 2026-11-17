@@ -1,0 +1,19 @@
+name	deluge-gtk
+version	2.2.0-r3
+description	lightweight, Free Software, cross-platform BitTorrent client (gtk ui)
+url	https://deluge-torrent.org/
+license	GPL-3.0-or-later
+size	495201
+installed-size	2275611
+depends	deluge=2.2.0-r3 gtk+3.0 librsvg py3-cairo py3-gobject3 xdg-utils python3~3.14
+origin	deluge
+repo	community
+file	deluge-gtk-2.2.0-r3.apk
+checksum	Q1JeHf+k2x7pCNYHXmQG++s5R7NAc=
+dep	deluge=2.2.0-r3	deluge
+dep	gtk+3.0	gtk+3.0
+dep	librsvg	librsvg
+dep	py3-cairo	py3-cairo
+dep	py3-gobject3	py3-gobject3
+dep	xdg-utils	xdg-utils
+dep	python3~3.14	python3

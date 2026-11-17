@@ -1,0 +1,25 @@
+name	kimageformats
+version	6.26.0-r0
+description	Image format plugins for Qt
+url	https://community.kde.org/Frameworks
+license	LGPL-2.1-or-later
+size	857270
+installed-size	2530968
+depends	so:libKF6Archive.so.6 so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6PrintSupport.so.6 so:libavif.so.16 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:libjxl.so.0.11 so:libjxl_cms.so.0.11 so:libjxl_threads.so.0.11 so:libraw.so.25 so:libstdc++.so.6
+origin	kimageformats
+repo	community
+file	kimageformats-6.26.0-r0.apk
+checksum	Q1vDRuNU+RSi9bEYP+BGc+LeVpQKg=
+dep	so:libKF6Archive.so.6	karchive
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6PrintSupport.so.6	qt6-qtbase-x11
+dep	so:libavif.so.16	libavif
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libheif.so.1	libheif
+dep	so:libjxl.so.0.11	libjxl
+dep	so:libjxl_cms.so.0.11	libjxl
+dep	so:libjxl_threads.so.0.11	libjxl
+dep	so:libraw.so.25	libraw
+dep	so:libstdc++.so.6	libstdc++

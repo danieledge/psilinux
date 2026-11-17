@@ -1,0 +1,16 @@
+name	libportal-gtk4
+version	0.9.1-r10
+description	GIO-style async APIs for most Flatpak portals (GTK4.0 backend)
+url	https://github.com/flatpak/libportal
+license	LGPL-3.0-or-later
+size	8431
+installed-size	18000
+depends	libportal=0.9.1-r10 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1
+origin	libportal
+repo	community
+file	libportal-gtk4-0.9.1-r10.apk
+checksum	Q13B0XvXxetPcDfY499nHz90Rty5g=
+dep	libportal=0.9.1-r10	libportal
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0

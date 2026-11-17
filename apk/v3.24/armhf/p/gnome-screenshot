@@ -1,0 +1,25 @@
+name	gnome-screenshot
+version	41.0-r1
+description	Screenshot capture utility for GNOME
+url	https://gitlab.gnome.org/GNOME/gnome-screenshot
+license	GPL-2.0-or-later
+size	47577
+installed-size	127649
+depends	desktop-file-utils so:libX11.so.6 so:libXext.so.6 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libhandy-1.so.0 so:libintl.so.8
+origin	gnome-screenshot
+repo	community
+file	gnome-screenshot-41.0-r1.apk
+checksum	Q1xvCWsuNpUm1gYNmlhvlfTPLkCQY=
+dep	desktop-file-utils	desktop-file-utils
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libhandy-1.so.0	libhandy1
+dep	so:libintl.so.8	libintl

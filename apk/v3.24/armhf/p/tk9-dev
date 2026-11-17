@@ -1,0 +1,19 @@
+name	tk9-dev
+version	9.0.3-r2
+description	GUI toolkit for the Tcl scripting language, version 9 (development files)
+url	https://www.tcl-lang.org/
+license	TCL
+size	83414
+installed-size	399532
+depends	tcl9-dev=9.0.3-r2 fontconfig-dev libx11-dev libxft-dev tk9=9.0.3-r2 !tk-dev pc:tcl>=8.6 pkgconfig
+origin	tcl9
+repo	main
+file	tk9-dev-9.0.3-r2.apk
+checksum	Q1bmGRsgNGY97jdBTX6F+6IlytpyA=
+dep	tcl9-dev=9.0.3-r2	tcl9-dev
+dep	fontconfig-dev	fontconfig-dev
+dep	libx11-dev	libx11-dev
+dep	libxft-dev	libxft-dev
+dep	tk9=9.0.3-r2	tk9
+dep	pc:tcl>=8.6	tcl-dev
+dep	pkgconfig	pkgconf

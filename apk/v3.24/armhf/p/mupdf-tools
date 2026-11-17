@@ -1,0 +1,16 @@
+name	mupdf-tools
+version	1.27.2-r0
+description	Tools for a lightweight PDF and XPS viewer
+url	https://mupdf.com
+license	AGPL-3.0-or-later
+size	172657
+installed-size	445760
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libmujs.so.3 so:libmupdf.so.27.2
+origin	mupdf
+repo	community
+file	mupdf-tools-1.27.2-r0.apk
+checksum	Q1oGYfxxNVcj1mAB/X4Qed3RCbB80=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libmujs.so.3	mujs-libs
+dep	so:libmupdf.so.27.2	mupdf-libs

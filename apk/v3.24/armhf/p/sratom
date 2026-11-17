@@ -1,0 +1,15 @@
+name	sratom
+version	0.6.20-r0
+description	library for serialising LV2 atoms to and from RDF
+url	https://drobilla.net/software/sratom
+license	ISC
+size	11656
+installed-size	25720
+depends	so:libc.musl-armhf.so.1 so:libserd-0.so.0 so:libsord-0.so.0
+origin	sratom
+repo	community
+file	sratom-0.6.20-r0.apk
+checksum	Q1jWJ4ZJnitZMDdkYS56qK1V2/GQI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libserd-0.so.0	serd-libs
+dep	so:libsord-0.so.0	sord-libs

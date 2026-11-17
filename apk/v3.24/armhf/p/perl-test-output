@@ -1,0 +1,14 @@
+name	perl-test-output
+version	1.036-r0
+description	Utilities to test STDOUT and STDERR messages
+url	https://metacpan.org/release/Test-Output/
+license	Artistic-2.0
+size	5978
+installed-size	22382
+depends	perl perl-capture-tiny
+origin	perl-test-output
+repo	main
+file	perl-test-output-1.036-r0.apk
+checksum	Q1I04ZK+G/R1NbJ26eVQm4puEXoZA=
+dep	perl	perl
+dep	perl-capture-tiny	perl-capture-tiny

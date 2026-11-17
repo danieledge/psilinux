@@ -1,0 +1,19 @@
+name	baculum-common
+version	15.0.3-r0
+description	Common libraries for Baculum
+url	https://bacula.org/
+license	AGPL-3.0-or-later
+size	1519281
+installed-size	3368011
+depends	php83-common php83-ctype php83-curl php83-dom php83-json php83-session php83-xml
+origin	baculum
+repo	community
+file	baculum-common-15.0.3-r0.apk
+checksum	Q1GJwYH/dd1kdPfp87MlzC5IN3Gmc=
+dep	php83-common	php83-common
+dep	php83-ctype	php83-ctype
+dep	php83-curl	php83-curl
+dep	php83-dom	php83-dom
+dep	php83-json	php83-common
+dep	php83-session	php83-session
+dep	php83-xml	php83-xml

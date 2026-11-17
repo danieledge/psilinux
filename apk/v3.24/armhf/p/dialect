@@ -1,0 +1,21 @@
+name	dialect
+version	2.6.1-r1
+description	Translation app for GNOME
+url	https://dialectapp.org/
+license	GPL-3.0-or-later
+size	100004
+installed-size	312762
+depends	desktop-file-utils gstreamer libadwaita libsoup3 py3-beautifulsoup4 py3-dbus py3-gobject3 py3-gst py3-gtts
+origin	dialect
+repo	community
+file	dialect-2.6.1-r1.apk
+checksum	Q1frEdj3GkCxYRF2dt9QW45xxTdUg=
+dep	desktop-file-utils	desktop-file-utils
+dep	gstreamer	gstreamer
+dep	libadwaita	libadwaita
+dep	libsoup3	libsoup3
+dep	py3-beautifulsoup4	py3-beautifulsoup4
+dep	py3-dbus	py3-dbus
+dep	py3-gobject3	py3-gobject3
+dep	py3-gst	py3-gst
+dep	py3-gtts	py3-gtts

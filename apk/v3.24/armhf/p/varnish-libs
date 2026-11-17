@@ -1,0 +1,18 @@
+name	varnish-libs
+version	7.7.3-r0
+description	Libraries for varnish
+url	https://www.varnish-cache.org/
+license	BSD-2-Clause
+size	103484
+installed-size	226848
+depends	gcc libc-dev libgcc so:libc.musl-armhf.so.1 so:libpcre2-8.so.0 so:libunwind.so.8
+origin	varnish
+repo	main
+file	varnish-libs-7.7.3-r0.apk
+checksum	Q11inyP0MPHjmn58GTGMKApbDeMg0=
+dep	gcc	gcc
+dep	libc-dev	musl-dev
+dep	libgcc	libgcc
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libunwind.so.8	libunwind

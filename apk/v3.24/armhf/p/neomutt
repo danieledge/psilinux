@@ -1,0 +1,25 @@
+name	neomutt
+version	20260504-r0
+description	Mutt with miscellaneous fixes and feature patches
+url	https://neomutt.org/
+license	GPL-2.0-or-later
+size	962069
+installed-size	2088464
+depends	gnupg so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgdbm.so.6 so:libgpgme.so.45 so:libidn2.so.0 so:libintl.so.8 so:libncursesw.so.6 so:libnotmuch.so.5 so:libpcre2-8.so.0 so:libsasl2.so.3 so:libssl.so.3 so:libz.so.1
+origin	neomutt
+repo	community
+file	neomutt-20260504-r0.apk
+checksum	Q1Dr8J/FWzhOezSfNCoPbFBPRjr14=
+dep	gnupg	gnupg
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgdbm.so.6	gdbm
+dep	so:libgpgme.so.45	gpgme
+dep	so:libidn2.so.0	libidn2
+dep	so:libintl.so.8	libintl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libnotmuch.so.5	notmuch-libs
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libsasl2.so.3	libsasl
+dep	so:libssl.so.3	libssl3
+dep	so:libz.so.1	zlib

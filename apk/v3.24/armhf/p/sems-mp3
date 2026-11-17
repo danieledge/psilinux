@@ -1,0 +1,15 @@
+name	sems-mp3
+version	2.1.0-r0
+description	MP3 support for SEMS
+url	https://github.com/sems-server/sems/
+license	GPL-2.0-or-later
+size	6953
+installed-size	13680
+depends	sems so:libc.musl-armhf.so.1 so:libmp3lame.so.0
+origin	sems
+repo	community
+file	sems-mp3-2.1.0-r0.apk
+checksum	Q1V0zam0YJ5KtsPCWBHY2n1VHzrBA=
+dep	sems	sems
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmp3lame.so.0	lame-libs

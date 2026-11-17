@@ -1,0 +1,14 @@
+name	sems-ilbc
+version	2.1.0-r0
+description	iLBC support for SEMS
+url	https://github.com/sems-server/sems/
+license	GPL-2.0-or-later
+size	38081
+installed-size	66112
+depends	sems so:libc.musl-armhf.so.1
+origin	sems
+repo	community
+file	sems-ilbc-2.1.0-r0.apk
+checksum	Q1zcP0E8Rpjmc1UGOkNuwrIZ1FOBI=
+dep	sems	sems
+dep	so:libc.musl-armhf.so.1	musl

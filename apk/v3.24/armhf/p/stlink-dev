@@ -1,0 +1,13 @@
+name	stlink-dev
+version	1.8.0-r1
+description	STM32 discovery line linux programmer (development files)
+url	https://github.com/stlink-org/stlink
+license	MIT
+size	77643
+installed-size	232571
+depends	stlink=1.8.0-r1
+origin	stlink
+repo	community
+file	stlink-dev-1.8.0-r1.apk
+checksum	Q15HRxUiprLumb9PtyX7XQDLXDSLE=
+dep	stlink=1.8.0-r1	stlink

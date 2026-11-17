@@ -1,0 +1,13 @@
+name	libpsl-static
+version	0.21.5-r3
+description	C library for the Publix Suffix List (static library)
+url	https://rockdaboot.github.io/libpsl
+license	MIT
+size	114739
+installed-size	122010
+depends	libpsl-dev
+origin	libpsl
+repo	main
+file	libpsl-static-0.21.5-r3.apk
+checksum	Q1FRek0Y1oD+TODBM6Q+9Cfx14SmQ=
+dep	libpsl-dev	libpsl-dev

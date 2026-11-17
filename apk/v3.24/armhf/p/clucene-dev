@@ -1,0 +1,17 @@
+name	clucene-dev
+version	2.3.3.4-r22
+description	A C++ port of Lucene (development files)
+url	https://www.sourceforge.net/projects/clucene/
+license	LGPL-2.0-or-later OR Apache-2.0
+size	289511
+installed-size	1247131
+depends	zlib-dev boost-dev clucene-contribs=2.3.3.4-r22 clucene=2.3.3.4-r22 pkgconfig
+origin	clucene
+repo	main
+file	clucene-dev-2.3.3.4-r22.apk
+checksum	Q1SSysRRzTJy5gKFaNCn2sXt8tih8=
+dep	zlib-dev	zlib-dev
+dep	boost-dev	boost-dev
+dep	clucene-contribs=2.3.3.4-r22	clucene-contribs
+dep	clucene=2.3.3.4-r22	clucene
+dep	pkgconfig	pkgconf

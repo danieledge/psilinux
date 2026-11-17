@@ -1,0 +1,15 @@
+name	perl-curses-ui
+version	0.9609-r3
+description	A curses based OO user interface framework
+url	https://metacpan.org/release/Curses-UI/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	108398
+installed-size	463503
+depends	perl perl-term-readkey perl-curses
+origin	perl-curses-ui
+repo	community
+file	perl-curses-ui-0.9609-r3.apk
+checksum	Q1A3+fbzVBm3pDdFm6GakQ/4w//Ac=
+dep	perl	perl
+dep	perl-term-readkey	perl-term-readkey
+dep	perl-curses	perl-curses

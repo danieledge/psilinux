@@ -1,0 +1,14 @@
+name	liblzf-dev
+version	3.6-r1
+description	A very small data compression library (development files)
+url	http://software.schmorp.de/pkg/liblzf.html
+license	BSD-2-Clause
+size	7724
+installed-size	14685
+depends	liblzf=3.6-r1 pkgconfig
+origin	liblzf
+repo	community
+file	liblzf-dev-3.6-r1.apk
+checksum	Q1LoB0ISudGItjUmHZAUht5axWqTY=
+dep	liblzf=3.6-r1	liblzf
+dep	pkgconfig	pkgconf

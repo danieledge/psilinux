@@ -1,0 +1,18 @@
+name	recastnavigation-dev
+version	1.6.0-r2
+description	Navigation-mesh Toolset for Games (development files)
+url	https://github.com/recastnavigation/recastnavigation
+license	Zlib
+size	59386
+installed-size	257641
+depends	libDebugUtils=1.6.0-r2 libDetour=1.6.0-r2 libDetourCrowd=1.6.0-r2 libDetourTileCache=1.6.0-r2 libRecast=1.6.0-r2 pkgconfig
+origin	recastnavigation
+repo	community
+file	recastnavigation-dev-1.6.0-r2.apk
+checksum	Q1yKRPFdKyj9Sxr07bW3E5If5Xbvk=
+dep	libDebugUtils=1.6.0-r2	libDebugUtils
+dep	libDetour=1.6.0-r2	libDetour
+dep	libDetourCrowd=1.6.0-r2	libDetourCrowd
+dep	libDetourTileCache=1.6.0-r2	libDetourTileCache
+dep	libRecast=1.6.0-r2	libRecast
+dep	pkgconfig	pkgconf

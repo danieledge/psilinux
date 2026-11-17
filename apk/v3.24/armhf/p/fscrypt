@@ -1,0 +1,14 @@
+name	fscrypt
+version	0.3.6-r8
+description	Manage Linux native filesystem encryption
+url	https://github.com/google/fscrypt
+license	Apache-2.0
+size	4747030
+installed-size	12715780
+depends	so:libc.musl-armhf.so.1 so:libpam.so.0
+origin	fscrypt
+repo	community
+file	fscrypt-0.3.6-r8.apk
+checksum	Q119Cv5IVhd7xZD0Ir4FtRKK7cU6g=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpam.so.0	linux-pam

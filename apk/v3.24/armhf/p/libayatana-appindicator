@@ -1,0 +1,21 @@
+name	libayatana-appindicator
+version	0.5.94-r0
+description	Ayatana Application Indicators Shared Library
+url	https://github.com/AyatanaIndicators/libayatana-appindicator
+license	LGPL-3.0-only
+size	22602
+installed-size	57592
+depends	so:libayatana-indicator3.so.7 so:libc.musl-armhf.so.1 so:libdbusmenu-glib.so.4 so:libdbusmenu-gtk3.so.4 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0
+origin	libayatana-appindicator
+repo	community
+file	libayatana-appindicator-0.5.94-r0.apk
+checksum	Q1QNAFsWBKY5vM5RL9Nrb9d5fzfak=
+dep	so:libayatana-indicator3.so.7	libayatana-indicator
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbusmenu-glib.so.4	libdbusmenu-glib
+dep	so:libdbusmenu-gtk3.so.4	libdbusmenu-gtk3
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0

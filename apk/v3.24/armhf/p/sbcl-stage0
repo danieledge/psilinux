@@ -1,0 +1,13 @@
+name	sbcl-stage0
+version	2.6.4-r0
+description	Steel Bank Common Lisp (for bootstrapping)
+url	https://www.sbcl.org/
+license	custom
+size	10799053
+installed-size	35739847
+depends	so:libc.musl-armhf.so.1
+origin	sbcl-stage0
+repo	community
+file	sbcl-stage0-2.6.4-r0.apk
+checksum	Q17RARyi2+inpr31m9ntmLeNoPaIQ=
+dep	so:libc.musl-armhf.so.1	musl

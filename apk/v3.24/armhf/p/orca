@@ -1,0 +1,22 @@
+name	orca
+version	50.2-r0
+description	Orca is an extensible screen reader
+url	https://orca.gnome.org
+license	LGPL-2.1-or-later
+size	654344
+installed-size	3925581
+depends	at-spi2-core gst-plugins-good gtk+3.0 libatk-1.0 py3-atspi py3-dasbus py3-gobject3 py3-xdg python3 python3~3.14
+origin	orca
+repo	community
+file	orca-50.2-r0.apk
+checksum	Q1saFWW9mIbdosrCsjOFVAexPHBuU=
+dep	at-spi2-core	at-spi2-core
+dep	gst-plugins-good	gst-plugins-good
+dep	gtk+3.0	gtk+3.0
+dep	libatk-1.0	libatk-1.0
+dep	py3-atspi	py3-atspi
+dep	py3-dasbus	py3-dasbus
+dep	py3-gobject3	py3-gobject3
+dep	py3-xdg	py3-xdg
+dep	python3	python3
+dep	python3~3.14	python3

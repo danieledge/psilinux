@@ -1,0 +1,13 @@
+name	gum
+version	0.16.2-r12
+description	Highly configurable utilities for writing interactive shell scripts
+url	https://github.com/charmbracelet/gum
+license	MIT
+size	4730232
+installed-size	14403156
+depends	so:libc.musl-armhf.so.1
+origin	gum
+repo	community
+file	gum-0.16.2-r12.apk
+checksum	Q1eF1r1CgN8OqSk7WW1Gr44GWPNeU=
+dep	so:libc.musl-armhf.so.1	musl

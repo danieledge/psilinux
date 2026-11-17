@@ -1,0 +1,13 @@
+name	dvtm-copymode
+version	0.15_git20210309-r3
+description	Dynamic virtual terminal manager (copymode support)
+url	https://www.brain-dump.org/projects/dvtm/
+license	MIT
+size	4807
+installed-size	9540
+depends	so:libc.musl-armhf.so.1
+origin	dvtm
+repo	community
+file	dvtm-copymode-0.15_git20210309-r3.apk
+checksum	Q12RpBLcbCGtE6LNSCi3pSX0MzRvI=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	loksh
+version	7.9-r0
+description	A Linux port of OpenBSD's ksh
+url	https://github.com/dimkr/loksh
+license	Public-Domain
+size	116556
+installed-size	218980
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	loksh
+repo	community
+file	loksh-7.9-r0.apk
+checksum	Q1rPEql97xNDC/WKzOkOWmqyhAF2E=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

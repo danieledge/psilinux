@@ -1,0 +1,23 @@
+name	gnome-keyring
+version	50.0-r0
+description	GNOME keyring
+url	https://gitlab.gnome.org/GNOME/gnome-keyring
+license	GPL-2.0-only LGPL-2.0-only
+size	1057191
+installed-size	2655971
+depends	gcr so:libc.musl-armhf.so.1 so:libcap-ng.so.0 so:libgck-1.so.0 so:libgcr-base-3.so.1 so:libgcrypt.so.20 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8
+origin	gnome-keyring
+repo	community
+file	gnome-keyring-50.0-r0.apk
+checksum	Q1RBHAGneKUR7LYRqx6GbWIq5Rwxw=
+dep	gcr	gcr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap-ng.so.0	libcap-ng
+dep	so:libgck-1.so.0	gcr-base
+dep	so:libgcr-base-3.so.1	gcr-base
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl

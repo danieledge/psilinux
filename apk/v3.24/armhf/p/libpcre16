@@ -1,0 +1,13 @@
+name	libpcre16
+version	8.45-r4
+description	PCRE with 16 bit character support
+url	https://www.pcre.org/
+license	BSD-3-Clause
+size	129524
+installed-size	324800
+depends	so:libc.musl-armhf.so.1
+origin	pcre
+repo	main
+file	libpcre16-8.45-r4.apk
+checksum	Q1nyLj+TY7FyjaupFkqrsb8Ona9q0=
+dep	so:libc.musl-armhf.so.1	musl

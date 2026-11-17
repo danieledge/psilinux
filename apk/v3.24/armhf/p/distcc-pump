@@ -1,0 +1,17 @@
+name	distcc-pump
+version	3.4-r10
+description	pump mode for distcc a distributed compiler client and server
+url	https://github.com/distcc/distcc
+license	GPL-2.0-or-later
+size	120862
+installed-size	379310
+depends	python3 py3-setuptools distcc=3.4-r10 python3~3.14 so:libc.musl-armhf.so.1
+origin	distcc
+repo	main
+file	distcc-pump-3.4-r10.apk
+checksum	Q1f7+4GNnjpBHdVANnz3665gQvIJU=
+dep	python3	python3
+dep	py3-setuptools	py3-setuptools
+dep	distcc=3.4-r10	distcc
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

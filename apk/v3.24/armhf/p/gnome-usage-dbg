@@ -1,0 +1,12 @@
+name	gnome-usage-dbg
+version	48.0-r0
+description	System resources status (debug symbols)
+url	https://gitlab.gnome.org/GNOME/gnome-usage
+license	GPL-3.0-or-later
+size	553514
+installed-size	1317024
+depends	!gnome-usage<48.0-r0 !gnome-usage>48.0-r0
+origin	gnome-usage
+repo	community
+file	gnome-usage-dbg-48.0-r0.apk
+checksum	Q1IhsyvYg1k+0Eab56Fp4E7et7Hq8=

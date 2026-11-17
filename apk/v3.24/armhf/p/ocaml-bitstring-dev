@@ -1,0 +1,15 @@
+name	ocaml-bitstring-dev
+version	4.1.0-r6
+description	Erlang-style bitstrings for OCaml (development files)
+url	https://github.com/xguerin/bitstring
+license	LGPL-2.0-or-later
+size	592899
+installed-size	1529884
+depends	ocaml-bitstring=4.1.0-r6 ocaml-ppxlib-dev ocaml-stdlib-shims
+origin	ocaml-bitstring
+repo	community
+file	ocaml-bitstring-dev-4.1.0-r6.apk
+checksum	Q16VDI2ZX0Y9bqfrcookAFxAbKARE=
+dep	ocaml-bitstring=4.1.0-r6	ocaml-bitstring
+dep	ocaml-ppxlib-dev	ocaml-ppxlib-dev
+dep	ocaml-stdlib-shims	ocaml-stdlib-shims

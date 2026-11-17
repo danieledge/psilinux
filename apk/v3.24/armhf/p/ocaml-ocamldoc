@@ -1,0 +1,14 @@
+name	ocaml-ocamldoc
+version	4.14.4-r0
+description	Main implementation of the Caml programming language (documentation generator)
+url	https://ocaml.org/
+license	LGPL-2.1-or-later WITH OCaml-LGPL-linking-exception
+size	4435393
+installed-size	10302633
+depends	ocaml=4.14.4-r0 so:libc.musl-armhf.so.1
+origin	ocaml
+repo	community
+file	ocaml-ocamldoc-4.14.4-r0.apk
+checksum	Q1lc9QdagvZEOjhDMPo/3Wc9tsBpE=
+dep	ocaml=4.14.4-r0	ocaml
+dep	so:libc.musl-armhf.so.1	musl

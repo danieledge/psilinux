@@ -1,0 +1,14 @@
+name	perl-local-lib
+version	2.000029-r1
+description	Create and use a local lib/ directory for Perl modules with PERL5LIB
+url	https://metacpan.org/release/local-lib/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	17125
+installed-size	44780
+depends	perl perl-module-build
+origin	perl-local-lib
+repo	community
+file	perl-local-lib-2.000029-r1.apk
+checksum	Q1/lr8V0ZpsHXPoeEOKY1GazxTlaE=
+dep	perl	perl
+dep	perl-module-build	perl-module-build

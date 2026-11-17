@@ -1,0 +1,13 @@
+name	snappy-static
+version	1.2.2-r0
+description	Fast compression and decompression library (static library)
+url	https://github.com/google/snappy
+license	BSD-3-Clause
+size	624507
+installed-size	1893884
+depends	snappy-dev
+origin	snappy
+repo	main
+file	snappy-static-1.2.2-r0.apk
+checksum	Q1MpsIGTIIVm0P7mpM7D3YtFl/M2g=
+dep	snappy-dev	snappy-dev

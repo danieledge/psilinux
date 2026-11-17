@@ -1,0 +1,13 @@
+name	btrfs-progs-static
+version	6.17.1-r1
+description	BTRFS filesystem utilities (static library)
+url	https://btrfs.wiki.kernel.org
+license	GPL-2.0-or-later
+size	24489
+installed-size	57702
+depends	btrfs-progs-dev
+origin	btrfs-progs
+repo	main
+file	btrfs-progs-static-6.17.1-r1.apk
+checksum	Q1GDcSENgHwzC9M5HCp8a1f6rZ5sc=
+dep	btrfs-progs-dev	btrfs-progs-dev

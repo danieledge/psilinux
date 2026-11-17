@@ -1,0 +1,13 @@
+name	postgresql-uint-bitcode
+version	1.20250815-r0
+description	Unsigned and other extra integer types for PostgreSQL (bitcode for JIT)
+url	https://github.com/petere/pguint
+license	PostgreSQL
+size	148211
+installed-size	421984
+depends	postgresql-uint=1.20250815-r0
+origin	postgresql-uint
+repo	community
+file	postgresql-uint-bitcode-1.20250815-r0.apk
+checksum	Q1CQGJ2XX/vek4iSazF8ZT4WBC9qI=
+dep	postgresql-uint=1.20250815-r0	postgresql-uint

@@ -1,0 +1,14 @@
+name	libgpiod-dev
+version	2.2.4-r0
+description	C library and tools for interacting with the linux GPIO character device (development files)
+url	https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git/
+license	LGPL-2.1-or-later
+size	10694
+installed-size	44033
+depends	libgpiod=2.2.4-r0 pkgconfig
+origin	libgpiod
+repo	community
+file	libgpiod-dev-2.2.4-r0.apk
+checksum	Q1x1UQqsPI/l/5vSDcjrhAUyxRt/o=
+dep	libgpiod=2.2.4-r0	libgpiod
+dep	pkgconfig	pkgconf

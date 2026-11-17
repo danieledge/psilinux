@@ -1,0 +1,13 @@
+name	sysklogd
+version	1.5.1-r8
+description	System and kernel log daemons
+url	https://www.infodrom.org/projects/sysklogd
+license	GPL-2.0-or-later
+size	29230
+installed-size	60006
+depends	so:libc.musl-armhf.so.1
+origin	sysklogd
+repo	main
+file	sysklogd-1.5.1-r8.apk
+checksum	Q1Cc3VH462z+CiN87yd71mhUpi3PM=
+dep	so:libc.musl-armhf.so.1	musl

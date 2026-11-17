@@ -1,0 +1,15 @@
+name	jack-dev
+version	1.9.22-r4
+description	The Jack Audio Connection Kit (development files)
+url	https://jackaudio.org/
+license	GPL-2.0-or-later
+size	45750
+installed-size	190794
+depends	jack=1.9.22-r4 jack=1.9.22-r4 pkgconfig
+origin	jack
+repo	main
+file	jack-dev-1.9.22-r4.apk
+checksum	Q1TFzo4c3zimflM+1YIBQQVuAlXNk=
+dep	jack=1.9.22-r4	jack
+dep	jack=1.9.22-r4	jack
+dep	pkgconfig	pkgconf

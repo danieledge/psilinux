@@ -1,0 +1,22 @@
+name	libopencv_videostab
+version	4.12.0-r7
+description	Open source computer vision and machine learning library (libopencv_videostab library)
+url	https://opencv.org/
+license	Apache-2.0
+size	68403
+installed-size	151388
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libopencv_calib3d.so.412 so:libopencv_core.so.412 so:libopencv_features2d.so.412 so:libopencv_imgproc.so.412 so:libopencv_photo.so.412 so:libopencv_video.so.412 so:libopencv_videoio.so.412 so:libstdc++.so.6
+origin	opencv
+repo	community
+file	libopencv_videostab-4.12.0-r7.apk
+checksum	Q1sqGk9A2L0gL5k8bQl6NO+x2oLfU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libopencv_calib3d.so.412	libopencv_calib3d
+dep	so:libopencv_core.so.412	libopencv_core
+dep	so:libopencv_features2d.so.412	libopencv_features2d
+dep	so:libopencv_imgproc.so.412	libopencv_imgproc
+dep	so:libopencv_photo.so.412	libopencv_photo
+dep	so:libopencv_video.so.412	libopencv_video
+dep	so:libopencv_videoio.so.412	libopencv_videoio
+dep	so:libstdc++.so.6	libstdc++

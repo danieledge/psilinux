@@ -1,0 +1,22 @@
+name	gcc-go
+version	15.2.0-r5
+description	GCC Go frontend (intended for bootstrapping community/go)
+url	https://gcc.gnu.org
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	30586113
+installed-size	100192628
+depends	gcc=15.2.0-r5 libgo=15.2.0-r5 !go libgo=15.2.0-r5 so:libc.musl-armhf.so.1 so:libgmp.so.10 so:libgo.so.24 so:libisl.so.23 so:libmpc.so.3 so:libmpfr.so.6 so:libz.so.1
+origin	gcc
+repo	main
+file	gcc-go-15.2.0-r5.apk
+checksum	Q1GbEEvIA+NZ9LL4MOmyNPhvnhlDg=
+dep	gcc=15.2.0-r5	gcc
+dep	libgo=15.2.0-r5	libgo
+dep	libgo=15.2.0-r5	libgo
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgmp.so.10	gmp
+dep	so:libgo.so.24	libgo
+dep	so:libisl.so.23	isl25
+dep	so:libmpc.so.3	mpc1
+dep	so:libmpfr.so.6	mpfr4
+dep	so:libz.so.1	zlib

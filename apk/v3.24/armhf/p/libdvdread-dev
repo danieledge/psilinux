@@ -1,0 +1,15 @@
+name	libdvdread-dev
+version	6.1.3-r2
+description	Simple foundation for reading DVD video disks (development files)
+url	http://dvdnav.mplayerhq.hu/
+license	GPL-2.0-or-later
+size	15919
+installed-size	58064
+depends	libdvdread=6.1.3-r2 pc:libdvdcss>=1.2 pkgconfig
+origin	libdvdread
+repo	community
+file	libdvdread-dev-6.1.3-r2.apk
+checksum	Q1KxP3N01CjSzx5QEbRRMkFgVplnE=
+dep	libdvdread=6.1.3-r2	libdvdread
+dep	pc:libdvdcss>=1.2	libdvdcss-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,16 @@
+name	uacme
+version	1.8.1-r0
+description	Lightweight client for the RFC8555 ACMEv2 protocol
+url	https://github.com/ndilieto/uacme
+license	GPL-3.0-or-later AND ISC AND MIT
+size	81610
+installed-size	175604
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libssl.so.3
+origin	uacme
+repo	community
+file	uacme-1.8.1-r0.apk
+checksum	Q1dtLHs55QsZEe4NSeiui/KFhvsQo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libssl.so.3	libssl3

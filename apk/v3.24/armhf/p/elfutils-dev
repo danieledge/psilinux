@@ -1,0 +1,20 @@
+name	elfutils-dev
+version	0.195-r0
+description	Utilities and DSOs to handle ELF files and DWARF data (development files)
+url	https://sourceware.org/elfutils/
+license	GPL-3.0-or-later AND ( GPL-2.0-or-later OR LGPL-3.0-or-later )
+size	495606
+installed-size	1712510
+depends	libasm=0.195-r0 libdebuginfod=0.195-r0 libdw=0.195-r0 libelf=0.195-r0 pc:liblzma pc:libzstd pc:zlib pkgconfig
+origin	elfutils
+repo	main
+file	elfutils-dev-0.195-r0.apk
+checksum	Q1pZVAQkQUwSvpkYOhsl1HueuEq3U=
+dep	libasm=0.195-r0	libasm
+dep	libdebuginfod=0.195-r0	libdebuginfod
+dep	libdw=0.195-r0	libdw
+dep	libelf=0.195-r0	libelf
+dep	pc:liblzma	xz-dev
+dep	pc:libzstd	zstd-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

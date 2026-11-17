@@ -1,0 +1,12 @@
+name	libgit2-dbg
+version	1.9.7-r0
+description	linkable library for Git (debug symbols)
+url	https://libgit2.org/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	3532763
+installed-size	8204820
+depends	!libgit2-tools<1.9.7-r0 !libgit2-tools>1.9.7-r0 !libgit2<1.9.7-r0 !libgit2>1.9.7-r0
+origin	libgit2
+repo	community
+file	libgit2-dbg-1.9.7-r0.apk
+checksum	Q1MsaM/PFJTUTzQKCjyY0igGig1PY=

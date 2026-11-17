@@ -1,0 +1,27 @@
+name	perl-gitlab-api-v4
+version	0.27-r1
+description	A complete GitLab API v4 client for Perl
+url	https://metacpan.org/release/GitLab-API-v4/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	40751
+installed-size	429452
+depends	perl perl-strictures perl-io-prompter perl-type-tiny perl-path-tiny perl-json-maybexs perl-uri perl-moo perl-log-any perl-try-tiny perl-http-tiny-multipart perl-namespace-clean perl-const-fast perl-io-socket-ssl perl-log-any-adapter-screen
+origin	perl-gitlab-api-v4
+repo	community
+file	perl-gitlab-api-v4-0.27-r1.apk
+checksum	Q1lKnDoi5jOw6BHkwYWBy5OrS2i3s=
+dep	perl	perl
+dep	perl-strictures	perl-strictures
+dep	perl-io-prompter	perl-io-prompter
+dep	perl-type-tiny	perl-type-tiny
+dep	perl-path-tiny	perl-path-tiny
+dep	perl-json-maybexs	perl-json-maybexs
+dep	perl-uri	perl-uri
+dep	perl-moo	perl-moo
+dep	perl-log-any	perl-log-any
+dep	perl-try-tiny	perl-try-tiny
+dep	perl-http-tiny-multipart	perl-http-tiny-multipart
+dep	perl-namespace-clean	perl-namespace-clean
+dep	perl-const-fast	perl-const-fast
+dep	perl-io-socket-ssl	perl-io-socket-ssl
+dep	perl-log-any-adapter-screen	perl-log-any-adapter-screen

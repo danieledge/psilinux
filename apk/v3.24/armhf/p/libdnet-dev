@@ -1,0 +1,13 @@
+name	libdnet-dev
+version	1.18.0-r0
+description	simplified, portable interface to several low-level networking routines (development files)
+url	https://github.com/ofalk/libdnet
+license	BSD-3-Clause
+size	45957
+installed-size	129920
+depends	libdnet=1.18.0-r0
+origin	libdnet
+repo	main
+file	libdnet-dev-1.18.0-r0.apk
+checksum	Q1/J+jrKo02bSWUMA/Ul+eEWglo+w=
+dep	libdnet=1.18.0-r0	libdnet

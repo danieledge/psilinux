@@ -1,0 +1,16 @@
+name	vali-dev
+version	0.1.1-r1
+description	C library and code generator for Varlink (development files)
+url	https://gitlab.freedesktop.org/emersion/vali
+license	MIT
+size	4395
+installed-size	10301
+depends	vali=0.1.1-r1 pc:aml1 pc:json-c pkgconfig
+origin	vali
+repo	community
+file	vali-dev-0.1.1-r1.apk
+checksum	Q1ppV2WUoUhBvrTdaVuV7FUv33NQY=
+dep	vali=0.1.1-r1	vali
+dep	pc:aml1	aml-dev
+dep	pc:json-c	json-c-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	lzo-dev
+version	2.10-r5
+description	LZO -- a real-time data compression library (development files)
+url	https://www.oberhumer.com/opensource/lzo
+license	GPL-2.0-or-later
+size	95194
+installed-size	402046
+depends	lzo=2.10-r5 pkgconfig
+origin	lzo
+repo	main
+file	lzo-dev-2.10-r5.apk
+checksum	Q1BHCac+KXxzsamIk6dd3zBqDLKOE=
+dep	lzo=2.10-r5	lzo
+dep	pkgconfig	pkgconf

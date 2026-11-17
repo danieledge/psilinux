@@ -1,0 +1,13 @@
+name	ostree-push-pyc
+version	1.2.0-r1
+description	Precompiled Python bytecode for ostree-push
+url	https://github.com/dbnicholson/ostree-push
+license	GPL-2.0-only
+size	39163
+installed-size	88683
+depends	python3~3.14
+origin	ostree-push
+repo	community
+file	ostree-push-pyc-1.2.0-r1.apk
+checksum	Q1GGDHvDgrbrq8VKC1pkUgpsKTpeQ=
+dep	python3~3.14	python3

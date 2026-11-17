@@ -1,0 +1,17 @@
+name	bmon
+version	4.0-r2
+description	bandwidth monitor and rate estimator
+url	https://github.com/tgraf/bmon
+license	BSD MIT
+size	41153
+installed-size	90396
+depends	so:libc.musl-armhf.so.1 so:libconfuse.so.2 so:libncursesw.so.6 so:libnl-3.so.200 so:libnl-route-3.so.200
+origin	bmon
+repo	community
+file	bmon-4.0-r2.apk
+checksum	Q1h3qPUc53AYgV+rluFMjUlh3wJnQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libconfuse.so.2	confuse
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libnl-3.so.200	libnl3
+dep	so:libnl-route-3.so.200	libnl3

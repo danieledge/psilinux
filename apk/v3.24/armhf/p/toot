@@ -1,0 +1,23 @@
+name	toot
+version	0.52.1-r0
+description	mastodon cli & tui
+url	https://github.com/ihabunek/toot
+license	GPL-3.0-only
+size	104287
+installed-size	371618
+depends	py3-beautifulsoup4 py3-dateutil py3-click py3-pillow py3-requests py3-term-image py3-tomlkit py3-urwid py3-urwidgets py3-wcwidth python3~3.14
+origin	toot
+repo	community
+file	toot-0.52.1-r0.apk
+checksum	Q1D+3tK1YOixbJy4KcSzRA1JIHZEA=
+dep	py3-beautifulsoup4	py3-beautifulsoup4
+dep	py3-dateutil	py3-dateutil
+dep	py3-click	py3-click
+dep	py3-pillow	py3-pillow
+dep	py3-requests	py3-requests
+dep	py3-term-image	py3-term-image
+dep	py3-tomlkit	py3-tomlkit
+dep	py3-urwid	py3-urwid
+dep	py3-urwidgets	py3-urwidgets
+dep	py3-wcwidth	py3-wcwidth
+dep	python3~3.14	python3

@@ -1,0 +1,14 @@
+name	leptonica-dev
+version	1.87.0-r0
+description	Software that is broadly useful for image processing and image analysis applications (development files)
+url	http://www.leptonica.com/
+license	custom
+size	129497
+installed-size	580485
+depends	leptonica=1.87.0-r0 pkgconfig
+origin	leptonica
+repo	community
+file	leptonica-dev-1.87.0-r0.apk
+checksum	Q11DunSV+qDupZFl2zetwi8HU/288=
+dep	leptonica=1.87.0-r0	leptonica
+dep	pkgconfig	pkgconf

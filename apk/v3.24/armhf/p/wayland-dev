@@ -1,0 +1,23 @@
+name	wayland-dev
+version	1.25.0-r0
+description	A computer display server protocol (development files)
+url	https://wayland.freedesktop.org
+license	MIT
+size	148491
+installed-size	676078
+depends	expat-dev libffi-dev wayland-libs-client=1.25.0-r0 wayland-libs-cursor=1.25.0-r0 wayland-libs-egl=1.25.0-r0 wayland-libs-server=1.25.0-r0 pc:libffi pkgconfig so:libc.musl-armhf.so.1 so:libexpat.so.1 so:libxml2.so.2
+origin	wayland
+repo	main
+file	wayland-dev-1.25.0-r0.apk
+checksum	Q1FZroe4Va59IJ0fE8/P/YvWVT/pQ=
+dep	expat-dev	expat-dev
+dep	libffi-dev	libffi-dev
+dep	wayland-libs-client=1.25.0-r0	wayland-libs-client
+dep	wayland-libs-cursor=1.25.0-r0	wayland-libs-cursor
+dep	wayland-libs-egl=1.25.0-r0	wayland-libs-egl
+dep	wayland-libs-server=1.25.0-r0	wayland-libs-server
+dep	pc:libffi	libffi-dev
+dep	pkgconfig	pkgconf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexpat.so.1	libexpat
+dep	so:libxml2.so.2	libxml2

@@ -1,0 +1,23 @@
+name	matchbox-keyboard
+version	0.1.1-r2
+description	An on screen virtual keyboard
+url	https://www.yoctoproject.org/software-item/matchbox/
+license	GPL-2.0-only
+size	25572
+installed-size	98011
+depends	so:libX11.so.6 so:libXrender.so.1 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libexpat.so.1 so:libfakekey.so.0 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libpng16.so.16
+origin	matchbox-keyboard
+repo	community
+file	matchbox-keyboard-0.1.1-r2.apk
+checksum	Q13w0v/RLN4HYc5pXE/5dQWmlHP3M=
+dep	so:libX11.so.6	libx11
+dep	so:libXrender.so.1	libxrender
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libexpat.so.1	libexpat
+dep	so:libfakekey.so.0	libfakekey
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libpng16.so.16	libpng

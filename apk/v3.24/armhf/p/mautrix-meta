@@ -1,0 +1,16 @@
+name	mautrix-meta
+version	0.2605.1-r2
+description	Matrix-Facebook Messenger and Instagram DM puppeting bridge
+url	https://go.mau.fi/mautrix-meta/
+license	AGPL-3.0-or-later
+size	10559666
+installed-size	30674066
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libolm.so.3 so:libsqlite3.so.0
+origin	mautrix-meta
+repo	community
+file	mautrix-meta-0.2605.1-r2.apk
+checksum	Q1QIzR61Ccob+5wcj/nSQH2J3UoGs=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libolm.so.3	olm
+dep	so:libsqlite3.so.0	sqlite-libs

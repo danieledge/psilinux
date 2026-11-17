@@ -1,0 +1,21 @@
+name	qt6-qwt
+version	6.3.0-r0
+description	Qt Widgets for Technical Applications
+url	https://qwt.sourceforge.io/
+license	custom
+size	627333
+installed-size	1558344
+depends	so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6OpenGL.so.6 so:libQt6OpenGLWidgets.so.6 so:libQt6Svg.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	qwt
+repo	community
+file	qt6-qwt-6.3.0-r0.apk
+checksum	Q1oO+M6qVW1gL3e7BuYmJcGUlhA0U=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6OpenGL.so.6	qt6-qtbase-x11
+dep	so:libQt6OpenGLWidgets.so.6	qt6-qtbase-x11
+dep	so:libQt6Svg.so.6	qt6-qtsvg
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

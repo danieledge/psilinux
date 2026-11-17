@@ -1,0 +1,16 @@
+name	libtorrent-dev
+version	0.16.12-r0
+description	BitTorrent library written in C++ (development files)
+url	https://rakshasa.github.io/rtorrent
+license	GPL-2.0-or-later
+size	67312
+installed-size	298114
+depends	libtorrent=0.16.12-r0 pc:libcrypto pc:zlib pkgconfig
+origin	libtorrent
+repo	community
+file	libtorrent-dev-0.16.12-r0.apk
+checksum	Q11AeM9MHBdRXT7fKHoeydtNNPGZM=
+dep	libtorrent=0.16.12-r0	libtorrent
+dep	pc:libcrypto	openssl-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

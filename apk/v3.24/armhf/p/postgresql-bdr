@@ -1,0 +1,18 @@
+name	postgresql-bdr
+version	9.4.14_p1-r17
+description	A sophisticated object-relational DBMS with bidirectional replication support (BDR)
+url	https://www.enterprisedb.com/products/bidirectional-replication-bdr-postgresql-database
+license	PostgreSQL
+size	4603221
+installed-size	11057213
+depends	bash /bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libpq.so.5 so:libssl.so.3
+origin	postgresql-bdr
+repo	community
+file	postgresql-bdr-9.4.14_p1-r17.apk
+checksum	Q1rydFAKji0lUT8gK6QP0fFpjdDiU=
+dep	bash	bash
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libpq.so.5	libpq
+dep	so:libssl.so.3	libssl3

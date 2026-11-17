@@ -1,0 +1,20 @@
+name	geany-plugins-scope
+version	2.1-r0
+description	Graphical GDB front-end
+url	https://plugins.geany.org/
+license	GPL-3.0-or-later
+size	144239
+installed-size	631558
+depends	so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgeany.so.0 so:libgeanypluginutils.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libvte-2.91.so.0
+origin	geany-plugins
+repo	community
+file	geany-plugins-scope-2.1-r0.apk
+checksum	Q1mhUuDfrVp9wCNx28DcbulOkYV1I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgeany.so.0	geany
+dep	so:libgeanypluginutils.so.0	geany-plugins-utils
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libvte-2.91.so.0	vte3

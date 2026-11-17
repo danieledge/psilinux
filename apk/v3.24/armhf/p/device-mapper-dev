@@ -1,0 +1,15 @@
+name	device-mapper-dev
+version	2.03.35-r3
+description	Device mapper userspace library and tools from LVM2 (development files)
+url	https://sourceware.org/lvm2/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	39489
+installed-size	141909
+depends	device-mapper-event-libs=2.03.35-r3 device-mapper-libs=2.03.35-r3 pkgconfig
+origin	device-mapper
+repo	main
+file	device-mapper-dev-2.03.35-r3.apk
+checksum	Q15TYCH9m1LXgkLuuVWs8Of8fwWY8=
+dep	device-mapper-event-libs=2.03.35-r3	device-mapper-event-libs
+dep	device-mapper-libs=2.03.35-r3	device-mapper-libs
+dep	pkgconfig	pkgconf

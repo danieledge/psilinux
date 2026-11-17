@@ -1,0 +1,14 @@
+name	lzop
+version	1.04-r1
+description	lzop is a very fast file compressor
+url	https://www.lzop.org/
+license	GPL-2.0-only
+size	30458
+installed-size	58792
+depends	so:libc.musl-armhf.so.1 so:liblzo2.so.2
+origin	lzop
+repo	community
+file	lzop-1.04-r1.apk
+checksum	Q1ICj76MeXO8y6zR7AsOktIbI1VsY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblzo2.so.2	lzo

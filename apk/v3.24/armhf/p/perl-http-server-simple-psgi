@@ -1,0 +1,14 @@
+name	perl-http-server-simple-psgi
+version	0.16-r4
+description	PSGI handler for HTTP::Server::Simple
+url	https://metacpan.org/release/HTTP-Server-Simple-PSGI/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	4752
+installed-size	6727
+depends	perl perl-http-server-simple
+origin	perl-http-server-simple-psgi
+repo	community
+file	perl-http-server-simple-psgi-0.16-r4.apk
+checksum	Q1jjzYCO6EclysDbsLP5fEzuvdmOQ=
+dep	perl	perl
+dep	perl-http-server-simple	perl-http-server-simple

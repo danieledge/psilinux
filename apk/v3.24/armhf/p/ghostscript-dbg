@@ -1,0 +1,12 @@
+name	ghostscript-dbg
+version	10.08.0-r0
+description	Interpreter for the PostScript language and for PDF (debug symbols)
+url	https://ghostscript.com/
+license	AGPL-3.0-or-later
+size	35129781
+installed-size	72818144
+depends	!ghostscript-gtk<10.08.0-r0 !ghostscript-gtk>10.08.0-r0 !ghostscript<10.08.0-r0 !ghostscript>10.08.0-r0
+origin	ghostscript
+repo	community
+file	ghostscript-dbg-10.08.0-r0.apk
+checksum	Q1zJqfJ47aixBv6AlgjPDWXGgmCbc=

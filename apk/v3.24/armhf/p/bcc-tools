@@ -1,0 +1,16 @@
+name	bcc-tools
+version	0.36.1-r1
+description	Command line tools for BPF Compiler Collection (BCC)
+url	https://github.com/iovisor/bcc/
+license	Apache-2.0
+size	290241
+installed-size	1210401
+depends	py3-bcc=0.36.1-r1 so:libbcc_bpf.so.0 so:libbpf.so.1 so:libc.musl-armhf.so.1
+origin	bcc
+repo	community
+file	bcc-tools-0.36.1-r1.apk
+checksum	Q1YPiXv8aKvt+SjpHhHAdKmUatLkU=
+dep	py3-bcc=0.36.1-r1	py3-bcc
+dep	so:libbcc_bpf.so.0	bcc
+dep	so:libbpf.so.1	libbpf
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,20 @@
+name	tinyfugue
+version	5.2.2-r1
+description	Powerful curses-based MUD client
+url	https://github.com/ingwarsw/tinyfugue
+license	GPL-2.0-or-later
+size	416191
+installed-size	1150784
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libicuuc.so.78 so:libncursesw.so.6 so:libpcre2-8.so.0 so:libpython3.14.so.1.0 so:libssl.so.3 so:libz.so.1
+origin	tinyfugue
+repo	community
+file	tinyfugue-5.2.2-r1.apk
+checksum	Q1PsoHHenyzGRAAeDhSrTr7gUCVSQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libpython3.14.so.1.0	python3
+dep	so:libssl.so.3	libssl3
+dep	so:libz.so.1	zlib

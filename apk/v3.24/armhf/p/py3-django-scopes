@@ -1,0 +1,14 @@
+name	py3-django-scopes
+version	2.0.0-r3
+description	Scope querys in multi-tenant django applications
+url	https://pypi.python.org/project/django-scopes
+license	Apache-2.0
+size	16062
+installed-size	35865
+depends	py3-django python3~3.14
+origin	py3-django-scopes
+repo	community
+file	py3-django-scopes-2.0.0-r3.apk
+checksum	Q1TryevyKBDeTew1z37fdoZgS7NVI=
+dep	py3-django	py3-django
+dep	python3~3.14	python3

@@ -1,0 +1,16 @@
+name	libusb-moded-qt-dev
+version	1.13-r0
+description	Mer's libusb-moded-qt (development files)
+url	https://github.com/sailfishos/libusb-moded-qt
+license	BSD-2-Clause
+size	4838
+installed-size	13543
+depends	qt6-qtbase-dev usb-moded-dev libusb-moded-qt=1.13-r0 pkgconfig
+origin	libusb-moded-qt
+repo	community
+file	libusb-moded-qt-dev-1.13-r0.apk
+checksum	Q1x6RSvHUU9XeSq524AC/fuIhiE54=
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	usb-moded-dev	usb-moded-dev
+dep	libusb-moded-qt=1.13-r0	libusb-moded-qt
+dep	pkgconfig	pkgconf

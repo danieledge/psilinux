@@ -1,0 +1,53 @@
+name	texmf-dist-most-examples
+version	2026.0-r0
+description	Examples and documentation for texmf-dist-most
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	1517
+installed-size	0
+depends	texmf-dist texmf-dist-bibtexextra-doc texmf-dist-bibtexextra-examples texmf-dist-binextra-doc texmf-dist-binextra-examples texmf-dist-context-doc texmf-dist-context-examples texmf-dist-fontsrecommended-doc texmf-dist-fontsrecommended-examples texmf-dist-fontutils-doc texmf-dist-fontutils-examples texmf-dist-formatsextra-doc texmf-dist-formatsextra-examples texmf-dist-games-doc texmf-dist-games-examples texmf-dist-humanities-doc texmf-dist-humanities-examples texmf-dist-latex-doc texmf-dist-latex-examples texmf-dist-latexextra-doc texmf-dist-latexextra-examples texmf-dist-latexrecommended-doc texmf-dist-latexrecommended-examples texmf-dist-luatex-doc texmf-dist-luatex-examples texmf-dist-mathscience-doc texmf-dist-mathscience-examples texmf-dist-metapost-doc texmf-dist-metapost-examples texmf-dist-music-doc texmf-dist-music-examples texmf-dist-pictures-doc texmf-dist-pictures-examples texmf-dist-plaingeneric-doc texmf-dist-plaingeneric-examples texmf-dist-pstricks-doc texmf-dist-pstricks-examples texmf-dist-publishers-doc texmf-dist-publishers-examples texmf-dist-xetex-doc texmf-dist-xetex-examples
+origin	texmf-dist
+repo	community
+file	texmf-dist-most-examples-2026.0-r0.apk
+checksum	Q16BIEgTFhbTvUSPeiIvm1Okee2hk=
+dep	texmf-dist	texmf-dist
+dep	texmf-dist-bibtexextra-doc	texmf-dist-bibtexextra-doc
+dep	texmf-dist-bibtexextra-examples	texmf-dist-bibtexextra-examples
+dep	texmf-dist-binextra-doc	texmf-dist-binextra-doc
+dep	texmf-dist-binextra-examples	texmf-dist-binextra-examples
+dep	texmf-dist-context-doc	texmf-dist-context-doc
+dep	texmf-dist-context-examples	texmf-dist-context-examples
+dep	texmf-dist-fontsrecommended-doc	texmf-dist-fontsrecommended-doc
+dep	texmf-dist-fontsrecommended-examples	texmf-dist-fontsrecommended-examples
+dep	texmf-dist-fontutils-doc	texmf-dist-fontutils-doc
+dep	texmf-dist-fontutils-examples	texmf-dist-fontutils-examples
+dep	texmf-dist-formatsextra-doc	texmf-dist-formatsextra-doc
+dep	texmf-dist-formatsextra-examples	texmf-dist-formatsextra-examples
+dep	texmf-dist-games-doc	texmf-dist-games-doc
+dep	texmf-dist-games-examples	texmf-dist-games-examples
+dep	texmf-dist-humanities-doc	texmf-dist-humanities-doc
+dep	texmf-dist-humanities-examples	texmf-dist-humanities-examples
+dep	texmf-dist-latex-doc	texmf-dist-latex-doc
+dep	texmf-dist-latex-examples	texmf-dist-latex-examples
+dep	texmf-dist-latexextra-doc	texmf-dist-latexextra-doc
+dep	texmf-dist-latexextra-examples	texmf-dist-latexextra-examples
+dep	texmf-dist-latexrecommended-doc	texmf-dist-latexrecommended-doc
+dep	texmf-dist-latexrecommended-examples	texmf-dist-latexrecommended-examples
+dep	texmf-dist-luatex-doc	texmf-dist-luatex-doc
+dep	texmf-dist-luatex-examples	texmf-dist-luatex-examples
+dep	texmf-dist-mathscience-doc	texmf-dist-mathscience-doc
+dep	texmf-dist-mathscience-examples	texmf-dist-mathscience-examples
+dep	texmf-dist-metapost-doc	texmf-dist-metapost-doc
+dep	texmf-dist-metapost-examples	texmf-dist-metapost-examples
+dep	texmf-dist-music-doc	texmf-dist-music-doc
+dep	texmf-dist-music-examples	texmf-dist-music-examples
+dep	texmf-dist-pictures-doc	texmf-dist-pictures-doc
+dep	texmf-dist-pictures-examples	texmf-dist-pictures-examples
+dep	texmf-dist-plaingeneric-doc	texmf-dist-plaingeneric-doc
+dep	texmf-dist-plaingeneric-examples	texmf-dist-plaingeneric-examples
+dep	texmf-dist-pstricks-doc	texmf-dist-pstricks-doc
+dep	texmf-dist-pstricks-examples	texmf-dist-pstricks-examples
+dep	texmf-dist-publishers-doc	texmf-dist-publishers-doc
+dep	texmf-dist-publishers-examples	texmf-dist-publishers-examples
+dep	texmf-dist-xetex-doc	texmf-dist-xetex-doc
+dep	texmf-dist-xetex-examples	texmf-dist-xetex-examples

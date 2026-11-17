@@ -1,0 +1,13 @@
+name	s6-networking-static
+version	2.8.0.0-r0
+description	skarnet.org's UCSPI TCP and TLS tools, access control tools, and network time management utilities. (static library)
+url	https://skarnet.org/software/s6-networking/
+license	ISC
+size	33952
+installed-size	128540
+depends	s6-networking-dev
+origin	s6-networking
+repo	main
+file	s6-networking-static-2.8.0.0-r0.apk
+checksum	Q1ZdL9ZeIWulXneviga+kS/lK8M1o=
+dep	s6-networking-dev	s6-networking-dev

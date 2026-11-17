@@ -1,0 +1,14 @@
+name	md4c-dev
+version	0.5.3-r0
+description	Fast Markdown parser written in C (development files)
+url	https://github.com/mity/md4c
+license	MIT
+size	10049
+installed-size	24394
+depends	md4c-libs=0.5.3-r0 pkgconfig
+origin	md4c
+repo	community
+file	md4c-dev-0.5.3-r0.apk
+checksum	Q1VBZaRPZc2A0MzWicqvSVxy17KwA=
+dep	md4c-libs=0.5.3-r0	md4c-libs
+dep	pkgconfig	pkgconf

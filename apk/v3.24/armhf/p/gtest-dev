@@ -1,0 +1,17 @@
+name	gtest-dev
+version	1.17.0-r1
+description	Google Test - C++ testing utility based on the xUnit framework (like JUnit) (development files)
+url	https://github.com/google/googletest
+license	BSD-3-Clause
+size	241743
+installed-size	1062908
+depends	gtest=1.17.0-r1 gmock=1.17.0-r1 gmock=1.17.0-r1 gtest=1.17.0-r1 pkgconfig
+origin	gtest
+repo	main
+file	gtest-dev-1.17.0-r1.apk
+checksum	Q1uHxS1Ewm+8xZOvFCF+HPikyREeU=
+dep	gtest=1.17.0-r1	gtest
+dep	gmock=1.17.0-r1	gmock
+dep	gmock=1.17.0-r1	gmock
+dep	gtest=1.17.0-r1	gtest
+dep	pkgconfig	pkgconf

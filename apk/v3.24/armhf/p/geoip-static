@@ -1,0 +1,13 @@
+name	geoip-static
+version	1.6.12-r6
+description	Lookup countries by IP addresses (static library)
+url	http://www.maxmind.com/app/ip-location
+license	LGPL-2.1-or-later
+size	135771
+installed-size	416362
+depends	geoip-dev
+origin	geoip
+repo	main
+file	geoip-static-1.6.12-r6.apk
+checksum	Q1tAB7Lgl3J51m8xWb8htbGCtTijU=
+dep	geoip-dev	geoip-dev

@@ -1,0 +1,14 @@
+name	tinyxml2-dev
+version	11.0.0-r0
+description	Simple, small and efficient C++ XML parser (development files)
+url	https://github.com/leethomason/tinyxml2
+license	Zlib
+size	19736
+installed-size	74656
+depends	tinyxml2=11.0.0-r0 pkgconfig
+origin	tinyxml2
+repo	main
+file	tinyxml2-dev-11.0.0-r0.apk
+checksum	Q17Qx+mMwr2Zb5rnooC0vyiHEf/bE=
+dep	tinyxml2=11.0.0-r0	tinyxml2
+dep	pkgconfig	pkgconf

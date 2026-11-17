@@ -1,0 +1,15 @@
+name	ocaml-otoml-dev
+version	1.0.5-r3
+description	TOML parsing, manipulation, and pretty-printing library (development files)
+url	https://github.com/dmbaturin/otoml
+license	MIT
+size	798325
+installed-size	2432901
+depends	ocaml-otoml=1.0.5-r3 ocaml-menhir-dev ocaml-uutf-dev
+origin	ocaml-otoml
+repo	community
+file	ocaml-otoml-dev-1.0.5-r3.apk
+checksum	Q1SmyM9UOE6053FAErX0LT12jApkQ=
+dep	ocaml-otoml=1.0.5-r3	ocaml-otoml
+dep	ocaml-menhir-dev	ocaml-menhir-dev
+dep	ocaml-uutf-dev	ocaml-uutf-dev

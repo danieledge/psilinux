@@ -1,0 +1,40 @@
+name	remmina
+version	1.4.43-r0
+description	Remmina is a remote desktop client written in GTK+
+url	https://www.remmina.org/
+license	GPL-2.0-or-later
+size	539321
+installed-size	1507036
+depends	so:libavahi-client.so.3 so:libavahi-common.so.3 so:libavahi-ui-gtk3.so.0 so:libayatana-appindicator3.so.1 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcrypto.so.3 so:libcurl.so.4 so:libfreerdp-client3.so.3 so:libfreerdp3.so.3 so:libgcrypt.so.20 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libpango-1.0.so.0 so:libpython3.14.so.1.0 so:libsecret-1.so.0 so:libsodium.so.26 so:libssh.so.4 so:libvncclient.so.1 so:libvte-2.91.so.0 so:libwinpr3.so.3
+origin	remmina
+repo	community
+file	remmina-1.4.43-r0.apk
+checksum	Q19tiMu3iaRFr1Q03e5Tgx1AgEglk=
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libavahi-ui-gtk3.so.0	avahi-ui-gtk3
+dep	so:libayatana-appindicator3.so.1	libayatana-appindicator
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libfreerdp-client3.so.3	freerdp-libs
+dep	so:libfreerdp3.so.3	freerdp-libs
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpython3.14.so.1.0	python3
+dep	so:libsecret-1.so.0	libsecret
+dep	so:libsodium.so.26	libsodium
+dep	so:libssh.so.4	libssh
+dep	so:libvncclient.so.1	libvncserver
+dep	so:libvte-2.91.so.0	vte3
+dep	so:libwinpr3.so.3	freerdp-libs

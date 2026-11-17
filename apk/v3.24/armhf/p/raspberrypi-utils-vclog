@@ -1,0 +1,13 @@
+name	raspberrypi-utils-vclog
+version	0.20260811-r0
+description	A tool to get VideoCore 'assert' or 'msg' logs with optional -f to wait for new logs to arrive.
+url	https://github.com/raspberrypi/utils
+license	BSD-3-Clause
+size	6047
+installed-size	9448
+depends	so:libc.musl-armhf.so.1
+origin	raspberrypi-utils
+repo	community
+file	raspberrypi-utils-vclog-0.20260811-r0.apk
+checksum	Q1R8/Vdw4hJAgAeA8h8QwmcmbFD6w=
+dep	so:libc.musl-armhf.so.1	musl

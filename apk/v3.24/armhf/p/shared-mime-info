@@ -1,0 +1,19 @@
+name	shared-mime-info
+version	2.4-r7
+description	Freedesktop.org Shared MIME Info
+url	https://www.freedesktop.org/Software/shared-mime-info
+license	GPL-2.0-or-later
+size	369930
+installed-size	2544514
+depends	/bin/sh pkgconfig so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libstdc++.so.6 so:libxml2.so.2
+origin	shared-mime-info
+repo	main
+file	shared-mime-info-2.4-r7.apk
+checksum	Q16RAfULBxFG34LwoAhb5vAcHQi2o=
+dep	/bin/sh	busybox-binsh
+dep	pkgconfig	pkgconf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxml2.so.2	libxml2

@@ -1,0 +1,13 @@
+name	ocaml-seq-dev
+version	0.3.1-r4
+description	Compatibility package for the standard OCaml iterator type (development files)
+url	https://github.com/c-cube/seq
+license	LGPL-2.1-only
+size	20238
+installed-size	51373
+depends	ocaml-seq=0.3.1-r4
+origin	ocaml-seq
+repo	community
+file	ocaml-seq-dev-0.3.1-r4.apk
+checksum	Q1+UU5H1DnKE39+vMXzPTMo9ba5Z8=
+dep	ocaml-seq=0.3.1-r4	ocaml-seq

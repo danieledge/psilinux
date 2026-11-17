@@ -1,0 +1,15 @@
+name	lua5.4-yaml
+version	1.1.2-r9
+description	LibYaml binding for Lua 5.4
+url	https://lubyk.github.io/lubyk/yaml.html
+license	MIT
+size	46874
+installed-size	112526
+depends	lua5.4 lua5.4-lub so:libc.musl-armhf.so.1
+origin	lua-yaml
+repo	main
+file	lua5.4-yaml-1.1.2-r9.apk
+checksum	Q139iZ39ZUljIWxBpwfw01yMTZ0zY=
+dep	lua5.4	lua5.4
+dep	lua5.4-lub	lua-lub
+dep	so:libc.musl-armhf.so.1	musl

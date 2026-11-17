@@ -1,0 +1,13 @@
+name	pkgconf
+version	2.5.1-r0
+description	development framework configuration tools
+url	https://gitea.treehouse.systems/ariadne/pkgconf
+license	ISC
+size	52725
+installed-size	121567
+depends	so:libc.musl-armhf.so.1
+origin	pkgconf
+repo	main
+file	pkgconf-2.5.1-r0.apk
+checksum	Q1145zBMD1/r85senCh3Oi1I+qRnU=
+dep	so:libc.musl-armhf.so.1	musl

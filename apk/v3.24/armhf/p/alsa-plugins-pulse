@@ -1,0 +1,15 @@
+name	alsa-plugins-pulse
+version	1.2.12-r2
+description	Pulseaudio support plugins for alsa-only applications
+url	https://alsa-project.org/
+license	GPL-2.0-or-later LGPL-2.1-or-later
+size	17529
+installed-size	45423
+depends	so:libasound.so.2 so:libc.musl-armhf.so.1 so:libpulse.so.0
+origin	alsa-plugins
+repo	community
+file	alsa-plugins-pulse-1.2.12-r2.apk
+checksum	Q17EuPxQT/uAML2+SPEUktfUYJGgE=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpulse.so.0	libpulse

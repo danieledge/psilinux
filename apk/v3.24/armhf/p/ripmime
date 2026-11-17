@@ -1,0 +1,13 @@
+name	ripmime
+version	1.4.0.10-r3
+description	Tool to extract the attached files out of a MIME package
+url	https://pldaniels.com/ripmime/
+license	BSD-3-Clause
+size	60692
+installed-size	135232
+depends	so:libc.musl-armhf.so.1
+origin	ripmime
+repo	community
+file	ripmime-1.4.0.10-r3.apk
+checksum	Q1NAwuW9qywU/bDkBSSyf+vcikeUQ=
+dep	so:libc.musl-armhf.so.1	musl

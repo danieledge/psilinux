@@ -1,0 +1,19 @@
+name	colord-colorhug
+version	1.4.8-r4
+description	System daemon for managing color devices (ColorHug support)
+url	https://www.freedesktop.org/software/colord
+license	GPL-2.0-or-later
+size	46989
+installed-size	122320
+depends	libcolord=1.4.8-r4 so:libc.musl-armhf.so.1 so:libcolordprivate.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgusb.so.2
+origin	colord
+repo	community
+file	colord-colorhug-1.4.8-r4.apk
+checksum	Q16nej+owBZA56HebkdvbJrqoBvL8=
+dep	libcolord=1.4.8-r4	libcolord
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcolordprivate.so.2	libcolord
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgusb.so.2	libgusb

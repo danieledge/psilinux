@@ -1,0 +1,19 @@
+name	libopenmpt-dev
+version	0.8.10-r0
+description	Cross-platform library to render tracker music to a PCM audio stream (development files)
+url	https://lib.openmpt.org/libopenmpt/
+license	BSD-3-Clause
+size	41422
+installed-size	258267
+depends	libopenmpt=0.8.10-r0 pc:libmpg123 pc:ogg pc:vorbis pc:vorbisfile pc:zlib pkgconfig
+origin	libopenmpt
+repo	community
+file	libopenmpt-dev-0.8.10-r0.apk
+checksum	Q1890LEVLLjFA5zmL+TihVIxpRaQI=
+dep	libopenmpt=0.8.10-r0	libopenmpt
+dep	pc:libmpg123	mpg123-dev
+dep	pc:ogg	libogg-dev
+dep	pc:vorbis	libvorbis-dev
+dep	pc:vorbisfile	libvorbis-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

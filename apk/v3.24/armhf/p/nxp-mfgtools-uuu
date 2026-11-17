@@ -1,0 +1,21 @@
+name	nxp-mfgtools-uuu
+version	1.5.233-r0
+description	Freescale/NXP i.MX Chip image deploy tools
+url	https://github.com/NXPmicro/mfgtools
+license	LGPL-2.1-only
+size	199845
+installed-size	473776
+depends	so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libssl.so.3 so:libstdc++.so.6 so:libtinyxml2.so.11 so:libusb-1.0.so.0 so:libz.so.1 so:libzstd.so.1
+origin	nxp-mfgtools
+repo	community
+file	nxp-mfgtools-uuu-1.5.233-r0.apk
+checksum	Q10OW+4L9ux18SOQleSSJM2gt7LQg=
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtinyxml2.so.11	tinyxml2
+dep	so:libusb-1.0.so.0	libusb
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

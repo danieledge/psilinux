@@ -1,0 +1,15 @@
+name	liburing-dev
+version	2.14-r0
+description	Linux kernel io_uring access library (development files)
+url	https://git.kernel.dk/cgit/liburing/
+license	LGPL-2.1-or-later OR MIT
+size	47036
+installed-size	164923
+depends	liburing-ffi=2.14-r0 liburing=2.14-r0 pkgconfig
+origin	liburing
+repo	main
+file	liburing-dev-2.14-r0.apk
+checksum	Q1qTkfbAqmHcctn173StkBSjF+g/w=
+dep	liburing-ffi=2.14-r0	liburing-ffi
+dep	liburing=2.14-r0	liburing
+dep	pkgconfig	pkgconf

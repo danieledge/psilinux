@@ -1,0 +1,22 @@
+name	osinfo-db-tools
+version	1.12.0-r0
+description	Tools for managing the osinfo database
+url	https://libosinfo.org/
+license	GPL-2.0-or-later
+size	23244
+installed-size	75276
+depends	so:libarchive.so.13 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libsoup-3.0.so.0 so:libxml2.so.2
+origin	osinfo-db-tools
+repo	community
+file	osinfo-db-tools-1.12.0-r0.apk
+checksum	Q1zSp3gEDtVmHghj6py4QpwCNvZEQ=
+dep	so:libarchive.so.13	libarchive
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libxml2.so.2	libxml2

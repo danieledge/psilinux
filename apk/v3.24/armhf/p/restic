@@ -1,0 +1,13 @@
+name	restic
+version	0.18.1-r9
+description	Fast, secure, efficient backup program
+url	https://restic.net/
+license	BSD-2-Clause
+size	13996461
+installed-size	43239172
+depends	so:libc.musl-armhf.so.1
+origin	restic
+repo	community
+file	restic-0.18.1-r9.apk
+checksum	Q12AxttRt3vx4V6kIXNuDXYr9ulYs=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	ocaml-runtime
+version	4.14.4-r0
+description	Main implementation of the Caml programming language (runtime environment)
+url	https://ocaml.org/
+license	LGPL-2.1-or-later WITH OCaml-LGPL-linking-exception
+size	3946194
+installed-size	9619314
+depends	so:libc.musl-armhf.so.1
+origin	ocaml
+repo	community
+file	ocaml-runtime-4.14.4-r0.apk
+checksum	Q1ylAPt74kI6w8Ph1F4iMlzIsdQk4=
+dep	so:libc.musl-armhf.so.1	musl

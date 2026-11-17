@@ -1,0 +1,13 @@
+name	py3-fido2-pyc
+version	2.1.1-r1
+description	Precompiled Python bytecode for py3-fido2
+url	https://developers.yubico.com/python-fido2/
+license	BSD-2-Clause AND Apache-2.0 AND MPL-2.0
+size	213522
+installed-size	557572
+depends	python3~3.14
+origin	py3-fido2
+repo	community
+file	py3-fido2-pyc-2.1.1-r1.apk
+checksum	Q1lEORcOrwAvKaXFgEOvGjZJyS96c=
+dep	python3~3.14	python3

@@ -1,0 +1,16 @@
+name	sysbench
+version	1.0.20-r5
+description	Scriptable database and system performance benchmark
+url	https://github.com/akopytov/sysbench
+license	GPL-2.0-or-later
+size	102567
+installed-size	426804
+depends	so:libaio.so.1 so:libc.musl-armhf.so.1 so:libluajit-5.1.so.2 so:libmariadb.so.3
+origin	sysbench
+repo	community
+file	sysbench-1.0.20-r5.apk
+checksum	Q1k/DHS1MXbMUq1QPH4TsaLokVjs8=
+dep	so:libaio.so.1	libaio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libluajit-5.1.so.2	luajit
+dep	so:libmariadb.so.3	mariadb-connector-c

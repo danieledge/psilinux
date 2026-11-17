@@ -1,0 +1,14 @@
+name	perl-promise-es6-future
+version	0.28-r1
+description	ES6-style promises in Perl (Future interface)
+url	https://metacpan.org/release/Promise-ES6/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	2309
+installed-size	1314
+depends	perl-promise-es6=0.28-r1 perl-future
+origin	perl-promise-es6
+repo	community
+file	perl-promise-es6-future-0.28-r1.apk
+checksum	Q18v/g/jaHEnxZPAsAM1tdSBPdM3s=
+dep	perl-promise-es6=0.28-r1	perl-promise-es6
+dep	perl-future	perl-future

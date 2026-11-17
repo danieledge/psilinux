@@ -1,0 +1,14 @@
+name	xmlindent
+version	0.2.17-r3
+description	An XML indenting utility
+url	https://xmlindent.sourceforge.net/
+license	GPL-3.0-or-later
+size	12956
+installed-size	33968
+depends	so:libc.musl-armhf.so.1 so:libfl.so.2
+origin	xmlindent
+repo	main
+file	xmlindent-0.2.17-r3.apk
+checksum	Q1yNkTIcYUlnZeuPszLv1Ez0CfRc4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfl.so.2	flex-libs

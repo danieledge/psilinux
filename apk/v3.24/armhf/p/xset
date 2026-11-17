@@ -1,0 +1,16 @@
+name	xset
+version	1.2.5-r1
+description	X.Org xset application
+url	https://xorg.freedesktop.org/
+license	MIT
+size	12684
+installed-size	25772
+depends	so:libX11.so.6 so:libXext.so.6 so:libXmuu.so.1 so:libc.musl-armhf.so.1
+origin	xset
+repo	community
+file	xset-1.2.5-r1.apk
+checksum	Q1qJCPqvjNDghqFoJ55DrABzbsHjo=
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXmuu.so.1	libxmu
+dep	so:libc.musl-armhf.so.1	musl

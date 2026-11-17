@@ -1,0 +1,12 @@
+name	gtk+2.0-dbg
+version	2.24.33-r11
+description	The GTK+ Toolkit (v2) (debug symbols)
+url	https://www.gtk.org/
+license	LGPL-2.0-or-later
+size	8945397
+installed-size	21299120
+depends	!gtk+2.0-dev<2.24.33-r11 !gtk+2.0-dev>2.24.33-r11 !gtk+2.0<2.24.33-r11 !gtk+2.0>2.24.33-r11
+origin	gtk+2.0
+repo	community
+file	gtk+2.0-dbg-2.24.33-r11.apk
+checksum	Q1PpPL6gRFMCxZ5TaMXU2BsQv9lFw=

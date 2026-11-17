@@ -1,0 +1,18 @@
+name	perl-test-easy
+version	1.11-r4
+description	facilitates easy testing patterns
+url	https://metacpan.org/release/Test-Easy/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	14633
+installed-size	38892
+depends	perl perl-data-denter perl-data-difflet perl-functional-utility perl-hash-mostutils perl-test-resub
+origin	perl-test-easy
+repo	community
+file	perl-test-easy-1.11-r4.apk
+checksum	Q1Qo8Q1BsElgk6VP7hKOXtJkE1a1A=
+dep	perl	perl
+dep	perl-data-denter	perl-data-denter
+dep	perl-data-difflet	perl-data-difflet
+dep	perl-functional-utility	perl-functional-utility
+dep	perl-hash-mostutils	perl-hash-mostutils
+dep	perl-test-resub	perl-test-resub

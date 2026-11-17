@@ -1,0 +1,19 @@
+name	lavalauncher
+version	2.1.1-r1
+description	Simple launcher panel for Wayland desktops
+url	https://git.sr.ht/~leon_plickat/lavalauncher
+license	GPL-3.0-or-later
+size	28522
+installed-size	63800
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgobject-2.0.so.0 so:librsvg-2.so.2 so:libwayland-client.so.0 so:libwayland-cursor.so.0 so:libxkbcommon.so.0
+origin	lavalauncher
+repo	community
+file	lavalauncher-2.1.1-r1.apk
+checksum	Q12aHTlrUfutI7W/na3NWJxWC3MM8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgobject-2.0.so.0	glib
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor
+dep	so:libxkbcommon.so.0	libxkbcommon

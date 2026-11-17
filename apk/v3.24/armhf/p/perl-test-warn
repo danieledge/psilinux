@@ -1,0 +1,14 @@
+name	perl-test-warn
+version	0.37-r2
+description	Perl extension to test methods for warnings
+url	https://metacpan.org/release/Test-Warn/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	7221
+installed-size	15955
+depends	perl perl-sub-uplevel
+origin	perl-test-warn
+repo	main
+file	perl-test-warn-0.37-r2.apk
+checksum	Q1PYIpsr3cVK67BgCsh0xBT22HpGw=
+dep	perl	perl
+dep	perl-sub-uplevel	perl-sub-uplevel

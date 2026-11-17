@@ -1,0 +1,15 @@
+name	php85-pecl-smbclient
+version	1.2.0_pre-r0
+description	PHP 8.5 extension that uses Samba's libsmbclient library to provide Samba related functions and 'smb' streams to PHP programs.
+url	https://pecl.php.net/package/smbclient
+license	BSD-2-Clause
+size	20879
+installed-size	50788
+depends	php85-common so:libc.musl-armhf.so.1 so:libsmbclient.so.0
+origin	php85-pecl-smbclient
+repo	community
+file	php85-pecl-smbclient-1.2.0_pre-r0.apk
+checksum	Q1F4csnwotEjVMyArY2SmQkzQJdPQ=
+dep	php85-common	php85-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsmbclient.so.0	libsmbclient

@@ -1,0 +1,28 @@
+name	udisks2
+version	2.11.0-r2
+description	daemon, tools and libraries to manipulate disks
+url	https://www.freedesktop.org/wiki/Software/udisks/
+license	GPL-2.0-or-later
+size	649286
+installed-size	1894813
+depends	dbus so:libacl.so.1 so:libbd_utils.so.3 so:libblkid.so.1 so:libblockdev.so.3 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgudev-1.0.so.0 so:libmount.so.1 so:libpolkit-agent-1.so.0 so:libpolkit-gobject-1.so.0 so:libudisks2.so.0 so:libuuid.so.1
+origin	udisks2
+repo	community
+file	udisks2-2.11.0-r2.apk
+checksum	Q1Jn+tM0NGe0qwscLFMfxIHgNT6uw=
+dep	dbus	dbus
+dep	so:libacl.so.1	acl-libs
+dep	so:libbd_utils.so.3	libblockdev
+dep	so:libblkid.so.1	libblkid
+dep	so:libblockdev.so.3	libblockdev
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgudev-1.0.so.0	libgudev
+dep	so:libmount.so.1	libmount
+dep	so:libpolkit-agent-1.so.0	polkit-noelogind-libs
+dep	so:libpolkit-gobject-1.so.0	polkit-noelogind-libs
+dep	so:libudisks2.so.0	udisks2-libs
+dep	so:libuuid.so.1	libuuid

@@ -1,0 +1,15 @@
+name	ruby-tzinfo
+version	2.0.6-r2
+description	Ruby Timezone Library
+url	https://github.com/tzinfo/tzinfo
+license	MIT
+size	61115
+installed-size	282977
+depends	ruby ruby-concurrent-ruby tzdata
+origin	ruby-tzinfo
+repo	community
+file	ruby-tzinfo-2.0.6-r2.apk
+checksum	Q1O/LvEwhwyaSb0b8ojThcadwkyZI=
+dep	ruby	ruby
+dep	ruby-concurrent-ruby	ruby-concurrent-ruby
+dep	tzdata	tzdata

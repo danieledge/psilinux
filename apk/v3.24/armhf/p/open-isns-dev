@@ -1,0 +1,15 @@
+name	open-isns-dev
+version	0.102-r2
+description	iSNS server and client for Linux (development files)
+url	https://github.com/open-iscsi/open-isns
+license	LGPL-2.1-or-later
+size	16040
+installed-size	61375
+depends	open-isns-lib=0.102-r2 pc:libcrypto pkgconfig
+origin	open-isns
+repo	main
+file	open-isns-dev-0.102-r2.apk
+checksum	Q13RzGgj/MfP/vodg+tQ9wYnDDOaQ=
+dep	open-isns-lib=0.102-r2	open-isns-lib
+dep	pc:libcrypto	openssl-dev
+dep	pkgconfig	pkgconf

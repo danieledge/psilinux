@@ -1,0 +1,13 @@
+name	html-xml-utils
+version	8.7-r0
+description	A number of simple utilities for manipulating HTML and XML files.
+url	https://www.w3.org/Tools/HTML-XML-utils/
+license	W3C
+size	622042
+installed-size	2425898
+depends	so:libc.musl-armhf.so.1
+origin	html-xml-utils
+repo	community
+file	html-xml-utils-8.7-r0.apk
+checksum	Q1T0kbvMPC4KV9V+h2ljwGX79Mk9Y=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	i3blocks
+version	1.5-r0
+description	A minimalist scheduler for your status line scripts
+url	https://github.com/vivien/i3blocks
+license	GPL-3.0-or-later
+size	15889
+installed-size	34506
+depends	so:libc.musl-armhf.so.1
+origin	i3blocks
+repo	community
+file	i3blocks-1.5-r0.apk
+checksum	Q1mJw86r7YhMy64QiLquTdUTD4wx4=
+dep	so:libc.musl-armhf.so.1	musl

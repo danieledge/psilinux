@@ -1,0 +1,15 @@
+name	lsyncd
+version	2.3.1-r1
+description	Live Syncing (Mirror) Daemon
+url	https://github.com/lsyncd/lsyncd
+license	GPL-2.0-or-later
+size	74069
+installed-size	170865
+depends	rsync so:libc.musl-armhf.so.1 so:liblua-5.4.so.0
+origin	lsyncd
+repo	main
+file	lsyncd-2.3.1-r1.apk
+checksum	Q1YvfVLyr5B2BNj9JWG1dZmd4xey8=
+dep	rsync	rsync
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblua-5.4.so.0	lua5.4-libs

@@ -1,0 +1,14 @@
+name	rav1e-libs
+version	0.8.1-r0
+description	The fastest and safest AV1 encoder (libraries)
+url	https://github.com/xiph/rav1e
+license	BSD-2-Clause custom
+size	626946
+installed-size	1385348
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	rav1e
+repo	community
+file	rav1e-libs-0.8.1-r0.apk
+checksum	Q1NkQrOk7BeAw+i3U45NV2DT6MlOc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

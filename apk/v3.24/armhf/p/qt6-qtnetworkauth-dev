@@ -1,0 +1,18 @@
+name	qt6-qtnetworkauth-dev
+version	6.11.1-r0
+description	Network authentication module (development files)
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	31047
+installed-size	122229
+depends	qt6-qtbase-dev qt6-qtbase-private-dev qt6-qtnetworkauth=6.11.1-r0 pc:Qt6Core pc:Qt6Network pkgconfig
+origin	qt6-qtnetworkauth
+repo	community
+file	qt6-qtnetworkauth-dev-6.11.1-r0.apk
+checksum	Q1wcVcCnuxl5O8Z3qb4V/tAG2GDVs=
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	qt6-qtbase-private-dev	qt6-qtbase-private-dev
+dep	qt6-qtnetworkauth=6.11.1-r0	qt6-qtnetworkauth
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pc:Qt6Network	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

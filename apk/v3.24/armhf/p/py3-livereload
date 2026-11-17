@@ -1,0 +1,14 @@
+name	py3-livereload
+version	2.7.1-r0
+description	livereload server in python
+url	https://github.com/lepture/python-livereload
+license	BSD-3-Clause
+size	23112
+installed-size	73413
+depends	py3-tornado python3~3.14
+origin	py3-livereload
+repo	community
+file	py3-livereload-2.7.1-r0.apk
+checksum	Q1xb5SvZVFuz/qKAsYHhSU9BQtQwA=
+dep	py3-tornado	py3-tornado
+dep	python3~3.14	python3

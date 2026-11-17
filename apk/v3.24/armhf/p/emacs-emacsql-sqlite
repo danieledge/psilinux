@@ -1,0 +1,15 @@
+name	emacs-emacsql-sqlite
+version	3.1.1_git20240714-r1
+description	High-level SQL database frontend (SQLite backends)
+url	https://github.com/magit/emacsql
+license	Unlicense
+size	17355
+installed-size	52095
+depends	emacs-emacsql=3.1.1_git20240714-r1 so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	emacs-emacsql
+repo	community
+file	emacs-emacsql-sqlite-3.1.1_git20240714-r1.apk
+checksum	Q1juO2kepKp9ySs+JLpXF5107d5aE=
+dep	emacs-emacsql=3.1.1_git20240714-r1	emacs-emacsql
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

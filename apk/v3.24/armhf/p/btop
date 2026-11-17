@@ -1,0 +1,15 @@
+name	btop
+version	1.4.6-r0
+description	Resource monitor
+url	https://github.com/aristocratos/btop
+license	Apache-2.0
+size	654143
+installed-size	1442146
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	btop
+repo	community
+file	btop-1.4.6-r0.apk
+checksum	Q1ECey9B3MyOiQfPFhXVfk3Ql4EZ8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,13 @@
+name	tree-sitter-css
+version	0.23.2-r1
+description	CSS grammar for tree-sitter
+url	https://github.com/tree-sitter/tree-sitter-css
+license	MIT
+size	27643
+installed-size	121284
+depends	so:libc.musl-armhf.so.1
+origin	tree-sitter-css
+repo	community
+file	tree-sitter-css-0.23.2-r1.apk
+checksum	Q1JhEWQDAfM7JXt8rHoAMKmiUc/Cw=
+dep	so:libc.musl-armhf.so.1	musl

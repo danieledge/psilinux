@@ -1,0 +1,15 @@
+name	nginx-mod-http-brotli
+version	1.30.6-r0
+description	Nginx third-party module http-brotli (version v1.0.0rc)
+url	https://github.com/google/ngx_brotli
+license	BSD-2-Clause
+size	9105
+installed-size	23580
+depends	nginx=1.30.6-r0 so:libbrotlienc.so.1 so:libc.musl-armhf.so.1
+origin	nginx
+repo	main
+file	nginx-mod-http-brotli-1.30.6-r0.apk
+checksum	Q1qFN6BKT1Rq5pcuEsH8fYSRkNs8M=
+dep	nginx=1.30.6-r0	nginx
+dep	so:libbrotlienc.so.1	brotli-libs
+dep	so:libc.musl-armhf.so.1	musl

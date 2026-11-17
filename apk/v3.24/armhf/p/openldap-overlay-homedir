@@ -1,0 +1,15 @@
+name	openldap-overlay-homedir
+version	2.6.15-r0
+description	OpenLDAP homedir overlay
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	16681
+installed-size	35486
+depends	so:libc.musl-armhf.so.1 so:liblber.so.2 so:libldap.so.2
+origin	openldap
+repo	main
+file	openldap-overlay-homedir-2.6.15-r0.apk
+checksum	Q1fvt1Nt4RZWycypVU6S4aTNyjkbU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap

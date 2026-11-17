@@ -1,0 +1,22 @@
+name	perl-dancer
+version	1.3522-r0
+description	lightweight yet powerful web application framework
+url	https://metacpan.org/release/Dancer/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	215464
+installed-size	662330
+depends	perl perl-module-runtime perl-try-tiny perl-hash-merge-simple perl-mime-types perl-http-server-simple-psgi perl-http-body perl-http-message perl-http-date perl-uri
+origin	perl-dancer
+repo	community
+file	perl-dancer-1.3522-r0.apk
+checksum	Q1kQN0+LdbDBZnTCGsEcz7x4sIj7M=
+dep	perl	perl
+dep	perl-module-runtime	perl-module-runtime
+dep	perl-try-tiny	perl-try-tiny
+dep	perl-hash-merge-simple	perl-hash-merge-simple
+dep	perl-mime-types	perl-mime-types
+dep	perl-http-server-simple-psgi	perl-http-server-simple-psgi
+dep	perl-http-body	perl-http-body
+dep	perl-http-message	perl-http-message
+dep	perl-http-date	perl-http-date
+dep	perl-uri	perl-uri

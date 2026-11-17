@@ -1,0 +1,27 @@
+name	poppler-qt5-dev
+version	25.12.0-r1
+description	PDF rendering library based on xpdf 3.0 (qt5 development files)
+url	https://poppler.freedesktop.org/
+license	GPL-2.0-only
+size	44139
+installed-size	178454
+depends	boost-dev cairo-dev fontconfig-dev jpeg-dev lcms2-dev libjpeg-turbo-dev libpng-dev libxml2-dev openjpeg-dev poppler-dev>=25.12.0 tiff-dev zlib-dev poppler-qt5=25.12.0-r1 pc:freetype2>=2.11 pkgconfig
+origin	poppler-qt
+repo	community
+file	poppler-qt5-dev-25.12.0-r1.apk
+checksum	Q13JTOrVQXgyhAD/7xBU0g0ZAlh5g=
+dep	boost-dev	boost-dev
+dep	cairo-dev	cairo-dev
+dep	fontconfig-dev	fontconfig-dev
+dep	jpeg-dev	jpeg-dev
+dep	lcms2-dev	lcms2-dev
+dep	libjpeg-turbo-dev	libjpeg-turbo-dev
+dep	libpng-dev	libpng-dev
+dep	libxml2-dev	libxml2-dev
+dep	openjpeg-dev	openjpeg-dev
+dep	poppler-dev>=25.12.0	poppler-dev
+dep	tiff-dev	tiff-dev
+dep	zlib-dev	zlib-dev
+dep	poppler-qt5=25.12.0-r1	poppler-qt5
+dep	pc:freetype2>=2.11	freetype-dev
+dep	pkgconfig	pkgconf

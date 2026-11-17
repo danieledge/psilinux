@@ -1,0 +1,16 @@
+name	atuin-sync
+version	18.6.1-r1
+description	Magical shell history - client with history sync
+url	https://github.com/atuinsh/atuin
+license	MIT
+size	3729119
+installed-size	7892408
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
+origin	atuin
+repo	community
+file	atuin-sync-18.6.1-r1.apk
+checksum	Q12zOuvAjHwXjg+ouaaE3+5R6sFLc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,16 @@
+name	kamailio-sqlite
+version	6.0.6-r0
+description	Database drivers for SQlite
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	35828
+installed-size	96970
+depends	kamailio kamailio-db so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	kamailio
+repo	main
+file	kamailio-sqlite-6.0.6-r0.apk
+checksum	Q1MyLWSDsmZk6apPg2yohkjGXGam8=
+dep	kamailio	kamailio
+dep	kamailio-db	kamailio-db
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

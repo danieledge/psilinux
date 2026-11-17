@@ -1,0 +1,19 @@
+name	libcdr-tools
+version	0.1.8-r3
+description	Import filter and tools for Corel DRAW files
+url	https://wiki.documentfoundation.org/DLP/Libraries/libcdr
+license	MPL-2.0
+size	12762
+installed-size	57600
+depends	so:libc.musl-armhf.so.1 so:libcdr-0.1.so.1 so:libgcc_s.so.1 so:librevenge-0.0.so.0 so:librevenge-generators-0.0.so.0 so:librevenge-stream-0.0.so.0 so:libstdc++.so.6
+origin	libcdr
+repo	community
+file	libcdr-tools-0.1.8-r3.apk
+checksum	Q12047233dPw01HMeScXu2RS51QWQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcdr-0.1.so.1	libcdr
+dep	so:libgcc_s.so.1	libgcc
+dep	so:librevenge-0.0.so.0	librevenge
+dep	so:librevenge-generators-0.0.so.0	librevenge
+dep	so:librevenge-stream-0.0.so.0	librevenge
+dep	so:libstdc++.so.6	libstdc++

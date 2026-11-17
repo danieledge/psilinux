@@ -1,0 +1,16 @@
+name	py3-mf2py
+version	2.0.1-r3
+description	Python Microformats2 parser
+url	https://microformats.github.io/mf2py/
+license	MIT
+size	23281
+installed-size	75071
+depends	py3-beautifulsoup4 py3-html5lib py3-requests python3~3.14
+origin	py3-mf2py
+repo	community
+file	py3-mf2py-2.0.1-r3.apk
+checksum	Q1znv/LZH4bD44XBIrY3iBLfEVmpk=
+dep	py3-beautifulsoup4	py3-beautifulsoup4
+dep	py3-html5lib	py3-html5lib
+dep	py3-requests	py3-requests
+dep	python3~3.14	python3

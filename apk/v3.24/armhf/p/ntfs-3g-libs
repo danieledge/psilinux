@@ -1,0 +1,13 @@
+name	ntfs-3g-libs
+version	2026.2.25-r0
+description	Stable, full-featured, read-write NTFS (libraries)
+url	https://www.tuxera.com/company/open-source/
+license	GPL-2.0-only
+size	163221
+installed-size	316988
+depends	so:libc.musl-armhf.so.1
+origin	ntfs-3g
+repo	main
+file	ntfs-3g-libs-2026.2.25-r0.apk
+checksum	Q1lFLX9FhJxnJh4HnmMH87MN36+ZM=
+dep	so:libc.musl-armhf.so.1	musl

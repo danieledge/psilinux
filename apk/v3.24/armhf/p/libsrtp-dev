@@ -1,0 +1,14 @@
+name	libsrtp-dev
+version	2.7.0-r0
+description	implementation of the Secure Real-time Transport Protocol (SRTP) (development files)
+url	https://github.com/cisco/libsrtp
+license	BSD-3-Clause
+size	17376
+installed-size	91827
+depends	libsrtp=2.7.0-r0 pkgconfig
+origin	libsrtp
+repo	main
+file	libsrtp-dev-2.7.0-r0.apk
+checksum	Q1zR9EqMsxTtmIVt8MCpu+ohe/W0w=
+dep	libsrtp=2.7.0-r0	libsrtp
+dep	pkgconfig	pkgconf

@@ -1,0 +1,13 @@
+name	helm
+version	3.19.0-r9
+description	The Kubernetes Package Manager
+url	https://helm.sh/
+license	Apache-2.0
+size	24044732
+installed-size	77000132
+depends	so:libc.musl-armhf.so.1
+origin	helm
+repo	community
+file	helm-3.19.0-r9.apk
+checksum	Q1q6m/VxpFII3G/EkiJBq6jht+/aY=
+dep	so:libc.musl-armhf.so.1	musl

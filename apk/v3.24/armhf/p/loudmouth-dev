@@ -1,0 +1,20 @@
+name	loudmouth-dev
+version	1.5.4-r4
+description	A lightweight Jabber client library (development files)
+url	http://groups.google.com/group/loudmouth-dev
+license	LGPL-2.0-or-later
+size	8913
+installed-size	36175
+depends	pkgconfig gnutls-dev libidn-dev libasyncns-dev check-dev autoconf loudmouth=1.5.4-r4 pc:glib-2.0
+origin	loudmouth
+repo	community
+file	loudmouth-dev-1.5.4-r4.apk
+checksum	Q1Hnog5QVLHb8HnHa/JpKCd52zpLM=
+dep	pkgconfig	pkgconf
+dep	gnutls-dev	gnutls-dev
+dep	libidn-dev	libidn-dev
+dep	libasyncns-dev	libasyncns-dev
+dep	check-dev	check-dev
+dep	autoconf	autoconf
+dep	loudmouth=1.5.4-r4	loudmouth
+dep	pc:glib-2.0	glib-dev

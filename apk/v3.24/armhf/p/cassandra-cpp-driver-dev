@@ -1,0 +1,16 @@
+name	cassandra-cpp-driver-dev
+version	2.17.1-r0
+description	Cassandra CPP Driver (development files)
+url	https://datastax.github.io/cpp-driver/
+license	Apache-2.0
+size	1941690
+installed-size	9442512
+depends	cassandra-cpp-driver=2.17.1-r0 pc:libuv pc:openssl pkgconfig
+origin	cassandra-cpp-driver
+repo	community
+file	cassandra-cpp-driver-dev-2.17.1-r0.apk
+checksum	Q1apL4Ki1KFeZLApYuhKyo5LQ8tTY=
+dep	cassandra-cpp-driver=2.17.1-r0	cassandra-cpp-driver
+dep	pc:libuv	libuv-dev
+dep	pc:openssl	openssl-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,13 @@
+name	dune-emacs
+version	3.22.2-r1
+description	Emacs plugins for dune
+url	https://dune.build/
+license	MIT
+size	10511
+installed-size	30883
+depends	dune
+origin	dune
+repo	community
+file	dune-emacs-3.22.2-r1.apk
+checksum	Q1FIVYlqUq3hpmNg6Lo071ZvdlPu0=
+dep	dune	dune

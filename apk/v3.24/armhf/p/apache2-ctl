@@ -1,0 +1,13 @@
+name	apache2-ctl
+version	2.4.71-r0
+description	Apache control script
+url	https://httpd.apache.org/
+license	Apache-2.0
+size	3092
+installed-size	3398
+depends	lynx
+origin	apache2
+repo	main
+file	apache2-ctl-2.4.71-r0.apk
+checksum	Q1fylEWpFPzUz6Q9RDzjxf3Z9NIXA=
+dep	lynx	lynx

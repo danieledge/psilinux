@@ -1,0 +1,19 @@
+name	llvm20-libs
+version	20.1.8-r1
+description	LLVM 20 runtime library
+url	https://llvm.org/
+license	Apache-2.0
+size	41967625
+installed-size	107278792
+depends	so:libc.musl-armhf.so.1 so:libffi.so.8 so:libgcc_s.so.1 so:libstdc++.so.6 so:libxml2.so.2 so:libz.so.1 so:libzstd.so.1
+origin	llvm20
+repo	main
+file	llvm20-libs-20.1.8-r1.apk
+checksum	Q1n1ZxXgz/s5Cv4MniF5kzYAwhqzc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libffi.so.8	libffi
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

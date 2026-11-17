@@ -1,0 +1,22 @@
+name	py3-pytest-mypy-plugins
+version	4.0.0-r1
+description	Pytest plugin for testing mypy types, stubs, and plugins
+url	https://github.com/typeddjango/pytest-mypy-plugins
+license	MIT
+size	20345
+installed-size	60498
+depends	py3-decorator py3-jinja2 py3-jsonschema py3-mypy py3-packaging py3-pytest py3-yaml py3-regex py3-tomlkit python3~3.14
+origin	py3-pytest-mypy-plugins
+repo	community
+file	py3-pytest-mypy-plugins-4.0.0-r1.apk
+checksum	Q1ejsryRG+WsBk01E6gVODwmTSQbE=
+dep	py3-decorator	py3-decorator
+dep	py3-jinja2	py3-jinja2
+dep	py3-jsonschema	py3-jsonschema
+dep	py3-mypy	py3-mypy
+dep	py3-packaging	py3-packaging
+dep	py3-pytest	py3-pytest
+dep	py3-yaml	py3-yaml
+dep	py3-regex	py3-regex
+dep	py3-tomlkit	py3-tomlkit
+dep	python3~3.14	python3

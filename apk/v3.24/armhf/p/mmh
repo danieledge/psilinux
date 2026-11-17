@@ -1,0 +1,14 @@
+name	mmh
+version	0.4-r3
+description	MUA for users who like the unix philosophy
+url	http://marmaro.de/prog/mmh/
+license	BSD-3-Clause
+size	1066546
+installed-size	2252673
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	mmh
+repo	community
+file	mmh-0.4-r3.apk
+checksum	Q1la2IbcRsq3bCvYUHsuHJTuQt8F8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

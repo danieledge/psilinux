@@ -1,0 +1,16 @@
+name	mlite-dev
+version	0.5.5-r4
+description	Useful classes originating from MeeGo Touch (development files)
+url	https://github.com/sailfishos/mlite
+license	LGPL-2.1-only
+size	15162
+installed-size	58562
+depends	dconf-dev mlite=0.5.5-r4 pc:Qt6DBus pkgconfig
+origin	mlite
+repo	community
+file	mlite-dev-0.5.5-r4.apk
+checksum	Q1rv8fy6l4mlX924cD1NnY/Lx1a+U=
+dep	dconf-dev	dconf-dev
+dep	mlite=0.5.5-r4	mlite
+dep	pc:Qt6DBus	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,12 @@
+name	epiphany-dbg
+version	50.4-r0
+description	Simple, clean, beautiful view of the web (debug symbols)
+url	https://apps.gnome.org/Epiphany
+license	GPL-3.0-or-later
+size	2266861
+installed-size	5495488
+depends	!epiphany<50.4-r0 !epiphany>50.4-r0
+origin	epiphany
+repo	community
+file	epiphany-dbg-50.4-r0.apk
+checksum	Q19ZoQVj1UYrSp1PqGO+d1XO8KCG0=

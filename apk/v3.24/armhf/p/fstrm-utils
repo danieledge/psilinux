@@ -1,0 +1,15 @@
+name	fstrm-utils
+version	0.6.1-r4
+description	fstrm utilities
+url	https://github.com/farsightsec/fstrm
+license	MIT
+size	39138
+installed-size	87704
+depends	so:libc.musl-armhf.so.1 so:libevent-2.1.so.7 so:libfstrm.so.0
+origin	fstrm
+repo	main
+file	fstrm-utils-0.6.1-r4.apk
+checksum	Q1tSArmWelIjI/tvQSdu+VQ5E+YqM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevent-2.1.so.7	libevent
+dep	so:libfstrm.so.0	fstrm

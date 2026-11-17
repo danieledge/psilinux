@@ -1,0 +1,30 @@
+name	xdg-desktop-portal-gnome
+version	50.0-r0
+description	backend implementation for xdg-desktop-portal for the GNOME desktop environment
+url	https://gitlab.gnome.org/GNOME/xdg-desktop-portal-gnome
+license	LGPL-2.1-or-later
+size	154917
+installed-size	479437
+depends	nautilus xdg-desktop-portal xdg-desktop-portal-gtk so:libX11.so.6 so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libfontconfig.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgnome-bg-4.so.2 so:libgnome-desktop-4.so.2 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libwayland-client.so.0
+origin	xdg-desktop-portal-gnome
+repo	community
+file	xdg-desktop-portal-gnome-50.0-r0.apk
+checksum	Q17VxAvioQ8qMQAuFFPSwowo8s6S8=
+dep	nautilus	nautilus
+dep	xdg-desktop-portal	xdg-desktop-portal
+dep	xdg-desktop-portal-gtk	xdg-desktop-portal-gtk
+dep	so:libX11.so.6	libx11
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgnome-bg-4.so.2	libgnome-bg-4
+dep	so:libgnome-desktop-4.so.2	libgnome-desktop-4
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libwayland-client.so.0	wayland-libs-client

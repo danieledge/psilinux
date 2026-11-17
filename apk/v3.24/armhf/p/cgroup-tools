@@ -1,0 +1,15 @@
+name	cgroup-tools
+version	3.2.0-r0
+description	cgroup library (tools)
+url	https://github.com/libcgroup/libcgroup
+license	LGPL-2.1-only
+size	58530
+installed-size	206452
+depends	so:libc.musl-armhf.so.1 so:libcgroup.so.3 so:libfts.so.0
+origin	libcgroup
+repo	community
+file	cgroup-tools-3.2.0-r0.apk
+checksum	Q15dB9dBW34lTIPAfMImPXtSiX8FQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcgroup.so.3	libcgroup
+dep	so:libfts.so.0	musl-fts

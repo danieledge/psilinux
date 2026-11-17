@@ -1,0 +1,14 @@
+name	ruby-rb-inotify
+version	0.11.1-r1
+description	A Ruby wrapper for Linux inotify, using FFI
+url	https://github.com/guard/rb-inotify
+license	MIT
+size	10616
+installed-size	23943
+depends	ruby ruby-ffi
+origin	ruby-rb-inotify
+repo	community
+file	ruby-rb-inotify-0.11.1-r1.apk
+checksum	Q17rTJtDg/h5ZtSxuahRVJFTifM38=
+dep	ruby	ruby
+dep	ruby-ffi	ruby-ffi

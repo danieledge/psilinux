@@ -1,0 +1,20 @@
+name	openal-soft-dev
+version	1.25.2-r0
+description	software implementation of OpenAL API (development files)
+url	https://openal-soft.org/
+license	LGPL-2.0-or-later
+size	105443
+installed-size	380749
+depends	openal-soft-libs=1.25.2-r0 pkgconfig so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	openal-soft
+repo	community
+file	openal-soft-dev-1.25.2-r0.apk
+checksum	Q1cMcuOwM8/lTnMmWFfpsZhyQG5Pg=
+dep	openal-soft-libs=1.25.2-r0	openal-soft-libs
+dep	pkgconfig	pkgconf
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

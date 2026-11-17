@@ -1,0 +1,13 @@
+name	nq
+version	1.0-r2
+description	Unix command line queue utility
+url	https://github.com/leahneukirchen/nq
+license	CC0-1.0
+size	8534
+installed-size	19392
+depends	so:libc.musl-armhf.so.1
+origin	nq
+repo	community
+file	nq-1.0-r2.apk
+checksum	Q189SyrDYEt9+DzJP5NSFDZjLcrA8=
+dep	so:libc.musl-armhf.so.1	musl

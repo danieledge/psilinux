@@ -1,0 +1,16 @@
+name	shorewall
+version	5.2.8-r1
+description	An iptables front end for firewall configuration
+url	https://shorewall.org/
+license	GPL-2.0-or-later
+size	441568
+installed-size	1763636
+depends	shorewall-core perl iptables iproute2
+origin	shorewall
+repo	main
+file	shorewall-5.2.8-r1.apk
+checksum	Q1Blon3Ke1KcqaK34j3tXaJlwj5HA=
+dep	shorewall-core	shorewall-core
+dep	perl	perl
+dep	iptables	iptables
+dep	iproute2	iproute2

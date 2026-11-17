@@ -1,0 +1,14 @@
+name	uwsgi-emperor_amqp
+version	2.0.31-r2
+description	uWSGI plugin emperor_amqp
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	9778
+installed-size	21828
+depends	uwsgi so:libc.musl-armhf.so.1
+origin	uwsgi
+repo	main
+file	uwsgi-emperor_amqp-2.0.31-r2.apk
+checksum	Q1qJHLJtPxJcq+oRXGNJHc2hs31mw=
+dep	uwsgi	uwsgi
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	uwsgi-logfile
+version	2.0.31-r2
+description	uWSGI plugin logfile
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	3885
+installed-size	5444
+depends	uwsgi so:libc.musl-armhf.so.1
+origin	uwsgi
+repo	main
+file	uwsgi-logfile-2.0.31-r2.apk
+checksum	Q1/kML7T4wRX1BgrAVnc5sq8lHe/Y=
+dep	uwsgi	uwsgi
+dep	so:libc.musl-armhf.so.1	musl

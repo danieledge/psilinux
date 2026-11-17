@@ -1,0 +1,14 @@
+name	php85-pecl-mailparse
+version	3.2.0-r0
+description	PHP 8.5 extension for parsing and working with email messages - PECL
+url	https://pecl.php.net/package/mailparse
+license	PHP-3.01
+size	24593
+installed-size	51216
+depends	php85-mbstring so:libc.musl-armhf.so.1
+origin	php85-pecl-mailparse
+repo	community
+file	php85-pecl-mailparse-3.2.0-r0.apk
+checksum	Q1nVxBaA4nvPBwyCPlhUarB4/BMnw=
+dep	php85-mbstring	php85-mbstring
+dep	so:libc.musl-armhf.so.1	musl

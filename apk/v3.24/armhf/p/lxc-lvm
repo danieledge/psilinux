@@ -1,0 +1,15 @@
+name	lxc-lvm
+version	7.0.0-r0
+description	LVM support for LXC
+url	https://linuxcontainers.org/lxc/
+license	LGPL-2.1-or-later
+size	1291
+installed-size	0
+depends	lxc=7.0.0-r0 lvm2 util-linux
+origin	lxc
+repo	main
+file	lxc-lvm-7.0.0-r0.apk
+checksum	Q1awV0uAXATj8WXFm+Trdb5IbZfR4=
+dep	lxc=7.0.0-r0	lxc
+dep	lvm2	lvm2
+dep	util-linux	util-linux

@@ -1,0 +1,15 @@
+name	py3-pylspci
+version	0.4.3-r5
+description	Python wrapper for lspci
+url	https://lucidiot.tildepages.org/pylspci
+license	GPL-3.0-only
+size	27593
+installed-size	86903
+depends	py3-cached-property>=1.5.1 pciutils python3~3.14
+origin	py3-pylspci
+repo	community
+file	py3-pylspci-0.4.3-r5.apk
+checksum	Q14yIe9U5HJD/97luKSeizM4jSd7o=
+dep	py3-cached-property>=1.5.1	py3-cached-property
+dep	pciutils	pciutils
+dep	python3~3.14	python3

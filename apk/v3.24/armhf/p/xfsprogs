@@ -1,0 +1,17 @@
+name	xfsprogs
+version	7.0.1-r0
+description	XFS filesystem utilities
+url	https://xfs.org/index.php/Main_Page
+license	LGPL-2.1-or-later
+size	619817
+installed-size	1274934
+depends	so:libblkid.so.1 so:libc.musl-armhf.so.1 so:libinih.so.0 so:liburcu.so.8 so:libuuid.so.1
+origin	xfsprogs
+repo	main
+file	xfsprogs-7.0.1-r0.apk
+checksum	Q1qXqIBjCymQKW3cUotAR0hZmGs38=
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libinih.so.0	inih
+dep	so:liburcu.so.8	userspace-rcu
+dep	so:libuuid.so.1	libuuid

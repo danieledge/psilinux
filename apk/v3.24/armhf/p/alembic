@@ -1,0 +1,16 @@
+name	alembic
+version	1.8.11-r0
+description	Open framework for storing and sharing scene data
+url	https://www.alembic.io/
+license	BSD-3-Clause
+size	337684
+installed-size	804584
+depends	so:libAlembic.so.1.8 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	alembic
+repo	community
+file	alembic-1.8.11-r0.apk
+checksum	Q1KubhyHI2FC3fDWi7/KBShCXlSFA=
+dep	so:libAlembic.so.1.8	alembic-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

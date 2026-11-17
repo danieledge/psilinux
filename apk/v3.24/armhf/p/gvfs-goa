@@ -1,0 +1,20 @@
+name	gvfs-goa
+version	1.60.1-r0
+description	GNOME Online Accounts support for gvfs
+url	https://gitlab.gnome.org/GNOME/gvfs
+license	LGPL-2.0-or-later
+size	27892
+installed-size	71143
+depends	gsettings-desktop-schemas dbus:org.freedesktop.Secrets so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgoa-1.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8
+origin	gvfs
+repo	community
+file	gvfs-goa-1.60.1-r0.apk
+checksum	Q1SOCIAjNTym0dOCKiFAZ5OSFgpCA=
+dep	gsettings-desktop-schemas	gsettings-desktop-schemas
+dep	dbus:org.freedesktop.Secrets	gnome-keyring
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgoa-1.0.so.0	gnome-online-accounts
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl

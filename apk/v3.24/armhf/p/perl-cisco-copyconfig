@@ -1,0 +1,14 @@
+name	perl-cisco-copyconfig
+version	1.4-r5
+description	Perl module for Cisco-CopyConfig
+url	https://metacpan.org/release/Cisco-CopyConfig/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	5898
+installed-size	10569
+depends	perl perl-net-snmp
+origin	perl-cisco-copyconfig
+repo	community
+file	perl-cisco-copyconfig-1.4-r5.apk
+checksum	Q13aE4OA8FvlacEfCfx3gKknPk/sA=
+dep	perl	perl
+dep	perl-net-snmp	perl-net-snmp

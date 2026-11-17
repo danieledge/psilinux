@@ -1,0 +1,13 @@
+name	libmd
+version	1.2.0-r0
+description	Message Digest functions from BSD systems
+url	https://www.hadrons.org/software/libmd/
+license	BSD-3-Clause AND BSD-2-Clause AND ISC AND Beerware AND Public Domain
+size	26413
+installed-size	54616
+depends	so:libc.musl-armhf.so.1
+origin	libmd
+repo	main
+file	libmd-1.2.0-r0.apk
+checksum	Q13Coo7NCIoj2OOvkCEB4ACu+W3HI=
+dep	so:libc.musl-armhf.so.1	musl

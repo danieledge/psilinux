@@ -1,0 +1,13 @@
+name	cosmic-greeter-openrc
+version	1.0.15-r0
+description	Greeter for the COSMIC Desktop Environment (OpenRC init scripts)
+url	https://github.com/pop-os/cosmic-greeter
+license	GPL-3.0-only
+size	1990
+installed-size	454
+depends	/bin/sh
+origin	cosmic-greeter
+repo	community
+file	cosmic-greeter-openrc-1.0.15-r0.apk
+checksum	Q1hx3/DWYSiNGnGS5p4g5EdgSkJ0U=
+dep	/bin/sh	busybox-binsh

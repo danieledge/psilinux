@@ -1,0 +1,13 @@
+name	openvdb-dev
+version	13.0.0-r1
+description	Sparse volume data structure and tools (development files)
+url	https://www.openvdb.org/
+license	MPL-2.0
+size	842668
+installed-size	4607667
+depends	openvdb=13.0.0-r1
+origin	openvdb
+repo	community
+file	openvdb-dev-13.0.0-r1.apk
+checksum	Q1l/KYbYLDHRmyGxrISU3BGDwdQg0=
+dep	openvdb=13.0.0-r1	openvdb

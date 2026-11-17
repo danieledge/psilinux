@@ -1,0 +1,13 @@
+name	stfl
+version	0.24-r4
+description	The Structured Terminal Forms Language/Library
+url	http://bygone.clairexen.net/stfl/
+license	LGPL-3.0-or-later
+size	28011
+installed-size	58908
+depends	so:libc.musl-armhf.so.1
+origin	stfl
+repo	community
+file	stfl-0.24-r4.apk
+checksum	Q1ko7G3mWwLeLqsGlwhHtx9tdeRRA=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	acf-db
+version	0.2.1-r4
+description	Web-based system administration interface for databases
+url	https://gitlab.alpinelinux.org/acf/acf-db
+license	GPL-2.0-only
+size	2645
+installed-size	676
+depends	acf-core acf-db-lib acf-db-lib=0.2.1-r4
+origin	acf-db
+repo	main
+file	acf-db-0.2.1-r4.apk
+checksum	Q14y8GTf8SuPpos6Yoqg88bdkYTFc=
+dep	acf-core	acf-core
+dep	acf-db-lib	acf-db-lib
+dep	acf-db-lib=0.2.1-r4	acf-db-lib

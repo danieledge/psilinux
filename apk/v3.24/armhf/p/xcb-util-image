@@ -1,0 +1,16 @@
+name	xcb-util-image
+version	0.4.1-r0
+description	X C-language Binding - port of Xlib XImage and XShmImage
+url	https://xcb.freedesktop.org/
+license	MIT
+size	7897
+installed-size	13432
+depends	so:libc.musl-armhf.so.1 so:libxcb-shm.so.0 so:libxcb-util.so.1 so:libxcb.so.1
+origin	xcb-util-image
+repo	community
+file	xcb-util-image-0.4.1-r0.apk
+checksum	Q1SX4sBI9mqRNbnLeII8uLaF97pzE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxcb-shm.so.0	libxcb
+dep	so:libxcb-util.so.1	xcb-util
+dep	so:libxcb.so.1	libxcb

@@ -1,0 +1,16 @@
+name	liblsp-r3d-glx-lib
+version	1.2.29-r0
+description	Collection of free plugins compatible with LADSPA, LV2 and LinuxVST (lsp-plugins gfx library)
+url	https://lsp-plug.in
+license	LGPL-3.0-or-later
+size	8786
+installed-size	18452
+depends	so:libGL.so.1 so:libX11.so.6 so:libc.musl-armhf.so.1 so:libstdc++.so.6
+origin	lsp-plugins
+repo	community
+file	liblsp-r3d-glx-lib-1.2.29-r0.apk
+checksum	Q1bFfYrUxB6j6FXw5wnrTP/d8KA6Y=
+dep	so:libGL.so.1	mesa-gl
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libstdc++.so.6	libstdc++

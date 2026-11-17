@@ -1,0 +1,13 @@
+name	uwsgi-dummy
+version	2.0.31-r2
+description	uWSGI plugin dummy
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	2932
+installed-size	5444
+depends	uwsgi
+origin	uwsgi
+repo	main
+file	uwsgi-dummy-2.0.31-r2.apk
+checksum	Q14f5Y5Llz7Nar5hvAJBOQP96E0JQ=
+dep	uwsgi	uwsgi

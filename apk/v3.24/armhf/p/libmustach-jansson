@@ -1,0 +1,14 @@
+name	libmustach-jansson
+version	1.2.10-r0
+description	C implementation of the mustache template specification (libmustach-jansson library)
+url	https://gitlab.com/jobol/mustach
+license	0BSD
+size	10089
+installed-size	17592
+depends	so:libc.musl-armhf.so.1 so:libjansson.so.4
+origin	mustach
+repo	community
+file	libmustach-jansson-1.2.10-r0.apk
+checksum	Q1ruJlknidvPb7/KyxUVkqX5LT7IY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjansson.so.4	jansson

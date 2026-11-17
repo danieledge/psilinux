@@ -1,0 +1,12 @@
+name	networkmanager-dbg
+version	1.52.2-r0
+description	Network Management daemon (debug symbols)
+url	https://networkmanager.dev
+license	GPL-2.0-or-later
+size	12755614
+installed-size	32053764
+depends	!libnm<1.52.2-r0 !libnm>1.52.2-r0 !networkmanager-adsl<1.52.2-r0 !networkmanager-adsl>1.52.2-r0 !networkmanager-bluetooth<1.52.2-r0 !networkmanager-bluetooth>1.52.2-r0 !networkmanager-cli<1.52.2-r0 !networkmanager-cli>1.52.2-r0 !networkmanager-initrd-generator<1.52.2-r0 !networkmanager-initrd-generator>1.52.2-r0 !networkmanager-ovs<1.52.2-r0 !networkmanager-ovs>1.52.2-r0 !networkmanager-ppp<1.52.2-r0 !networkmanager-ppp>1.52.2-r0 !networkmanager-tui<1.52.2-r0 !networkmanager-tui>1.52.2-r0 !networkmanager-wifi<1.52.2-r0 !networkmanager-wifi>1.52.2-r0 !networkmanager-wwan<1.52.2-r0 !networkmanager-wwan>1.52.2-r0 !networkmanager<1.52.2-r0 !networkmanager>1.52.2-r0
+origin	networkmanager
+repo	community
+file	networkmanager-dbg-1.52.2-r0.apk
+checksum	Q1RUgKC6t9+JqpQ1Qm1wags31AbUg=

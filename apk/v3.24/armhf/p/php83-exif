@@ -1,0 +1,15 @@
+name	php83-exif
+version	8.3.36-r0
+description	PHP83 extension: EXIF
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	32059
+installed-size	66895
+depends	php83-common php83-mbstring so:libc.musl-armhf.so.1
+origin	php83
+repo	community
+file	php83-exif-8.3.36-r0.apk
+checksum	Q1FYYVQQkpRDrmuUvpaH/idc7c+jA=
+dep	php83-common	php83-common
+dep	php83-mbstring	php83-mbstring
+dep	so:libc.musl-armhf.so.1	musl

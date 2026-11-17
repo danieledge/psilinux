@@ -1,0 +1,14 @@
+name	acpid
+version	2.0.34-r8
+description	The ACPI Daemon (acpid) With Netlink Support
+url	https://sourceforge.net/projects/acpid2/
+license	GPL-2.0-or-later
+size	34177
+installed-size	73273
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	acpid
+repo	main
+file	acpid-2.0.34-r8.apk
+checksum	Q19uS1utNTa4h5HVlVKbecQ/Pc1GE=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

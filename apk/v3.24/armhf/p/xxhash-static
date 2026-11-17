@@ -1,0 +1,13 @@
+name	xxhash-static
+version	0.8.3-r1
+description	Extremely fast non-cryptographic hash algorithm (static library)
+url	https://cyan4973.github.io/xxHash/
+license	BSD-2-Clause
+size	153559
+installed-size	161888
+depends	xxhash-dev
+origin	xxhash
+repo	main
+file	xxhash-static-0.8.3-r1.apk
+checksum	Q1sfvTqzqSxby9dA4GfIuW3wrhDL8=
+dep	xxhash-dev	xxhash-dev

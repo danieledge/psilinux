@@ -1,0 +1,38 @@
+name	vdr
+version	2.6.1-r7
+description	Video Disk Recorder
+url	http://www.tvdr.de/
+license	GPL-2.0-or-later
+size	2075359
+installed-size	5015670
+depends	/bin/sh so:libX11-xcb.so.1 so:libX11.so.6 so:libXrandr.so.2 so:libc.musl-armhf.so.1 so:libcap.so.2 so:libcdio.so.19 so:libcrypto.so.3 so:libdrm.so.2 so:libdvbcsa.so.1 so:libexif.so.12 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libintl.so.8 so:libjansson.so.4 so:libjpeg.so.8 so:libmount.so.1 so:libmpv.so.2 so:libncursesw.so.6 so:libssl.so.3 so:libstdc++.so.6 so:libtinyxml2.so.11 so:libwebsockets.so.19 so:libxcb.so.1 so:libz.so.1
+origin	vdr
+repo	community
+file	vdr-2.6.1-r7.apk
+checksum	Q1nQlBFy8lB9VKQ4qEr0e0lolUX8Q=
+dep	/bin/sh	busybox-binsh
+dep	so:libX11-xcb.so.1	libx11
+dep	so:libX11.so.6	libx11
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libcdio.so.19	libcdio
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libdrm.so.2	libdrm
+dep	so:libdvbcsa.so.1	libdvbcsa
+dep	so:libexif.so.12	libexif
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libintl.so.8	libintl
+dep	so:libjansson.so.4	jansson
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libmount.so.1	libmount
+dep	so:libmpv.so.2	mpv-libs
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtinyxml2.so.11	tinyxml2
+dep	so:libwebsockets.so.19	libwebsockets
+dep	so:libxcb.so.1	libxcb
+dep	so:libz.so.1	zlib

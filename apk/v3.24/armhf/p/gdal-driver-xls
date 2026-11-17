@@ -1,0 +1,17 @@
+name	gdal-driver-xls
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (MS Excel format driver)
+url	https://gdal.org/
+license	MIT
+size	10051
+installed-size	25984
+depends	so:libc.musl-armhf.so.1 so:libfreexl.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libstdc++.so.6
+origin	gdal
+repo	community
+file	gdal-driver-xls-3.13.3-r0.apk
+checksum	Q1PwngfejzH6ImbxmzSagh9DhQBO4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreexl.so.1	freexl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libstdc++.so.6	libstdc++

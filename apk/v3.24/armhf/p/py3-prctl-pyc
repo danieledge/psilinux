@@ -1,0 +1,13 @@
+name	py3-prctl-pyc
+version	1.8.1-r1
+description	Precompiled Python bytecode for py3-prctl
+url	https://github.com/seveas/python-prctl
+license	GPL-3.0-or-later
+size	7708
+installed-size	14225
+depends	python3~3.14
+origin	py3-prctl
+repo	community
+file	py3-prctl-pyc-1.8.1-r1.apk
+checksum	Q1nEgyIacSkdJLbB5eCAQWrnR8lxY=
+dep	python3~3.14	python3

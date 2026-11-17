@@ -1,0 +1,14 @@
+name	eventlog-dev
+version	0.2.13-r4
+description	API to format and send structured log messages (development files)
+url	https://github.com/balabit/eventlog
+license	BSD-3-Clause
+size	4909
+installed-size	9332
+depends	eventlog=0.2.13-r4 pkgconfig
+origin	eventlog
+repo	main
+file	eventlog-dev-0.2.13-r4.apk
+checksum	Q1FCTKy4upJRUW1TKWBmwZIrU3c5M=
+dep	eventlog=0.2.13-r4	eventlog
+dep	pkgconfig	pkgconf

@@ -1,0 +1,13 @@
+name	rp-pppoe
+version	4.0-r1
+description	PPP over Ethernet client (for xDSL support)
+url	https://dianne.skoll.ca/projects/rp-pppoe/
+license	GPL-2.0-or-later
+size	82423
+installed-size	174912
+depends	so:libc.musl-armhf.so.1
+origin	rp-pppoe
+repo	main
+file	rp-pppoe-4.0-r1.apk
+checksum	Q18uFDnsNkbQUfNsBaBpnt89NQgnU=
+dep	so:libc.musl-armhf.so.1	musl

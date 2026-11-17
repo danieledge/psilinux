@@ -1,0 +1,14 @@
+name	rtrlib
+version	0.8.0-r6
+description	Open-source C implementation of the RPKI/Router Protocol client
+url	https://github.com/rtrlib/rtrlib
+license	MIT
+size	54237
+installed-size	130760
+depends	so:libc.musl-armhf.so.1 so:libssh.so.4
+origin	rtrlib
+repo	community
+file	rtrlib-0.8.0-r6.apk
+checksum	Q1EPK+9JHwqT4KDTZxKcvZJ6wGXY4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libssh.so.4	libssh

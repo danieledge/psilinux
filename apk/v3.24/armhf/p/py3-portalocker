@@ -1,0 +1,18 @@
+name	py3-portalocker
+version	3.2.0-r1
+description	An extended version of portalocker to lock files in Python using the with statement
+url	http://portalocker.readthedocs.io/en/latest/
+license	PSF-2.0
+size	21556
+installed-size	67786
+depends	py3-babel py3-imagesize py3-requests py3-snowballstemmer python3 python3~3.14
+origin	py3-portalocker
+repo	community
+file	py3-portalocker-3.2.0-r1.apk
+checksum	Q1lL5zSGRJzT7hj/5eVqEzWMNKR6A=
+dep	py3-babel	py3-babel
+dep	py3-imagesize	py3-imagesize
+dep	py3-requests	py3-requests
+dep	py3-snowballstemmer	py3-snowballstemmer
+dep	python3	python3
+dep	python3~3.14	python3

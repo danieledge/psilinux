@@ -1,0 +1,13 @@
+name	supercronic
+version	0.2.49-r1
+description	Cron for containers
+url	https://github.com/aptible/supercronic
+license	MIT
+size	3993133
+installed-size	10117052
+depends	so:libc.musl-armhf.so.1
+origin	supercronic
+repo	community
+file	supercronic-0.2.49-r1.apk
+checksum	Q1ehoKp8w5xdGLZqviTL9RZV3rB7Q=
+dep	so:libc.musl-armhf.so.1	musl

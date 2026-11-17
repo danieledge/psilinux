@@ -1,0 +1,14 @@
+name	openvpn-ad-check
+version	1.1-r4
+description	Authenticate OpenVPN users against AD server and verify if they are member of a specific group.
+url	https://sourceforge.net/p/openvpnadcheck
+license	GPL-3.0-only
+size	3007
+installed-size	4225
+depends	openvpn lua-ldap
+origin	openvpn-ad-check
+repo	main
+file	openvpn-ad-check-1.1-r4.apk
+checksum	Q1oTKcHK0SBaTbd2rDLDz6qYSPfnw=
+dep	openvpn	openvpn
+dep	lua-ldap	lua-ldap

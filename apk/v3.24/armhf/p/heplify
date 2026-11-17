@@ -1,0 +1,15 @@
+name	heplify
+version	1.67.0-r11
+description	Multi-Protocol Go HEP Capture Agent made Simple
+url	http://sipcapture.io
+license	AGPL-3.0-or-later
+size	5235364
+installed-size	14187300
+depends	so:libc.musl-armhf.so.1 so:libluajit-5.1.so.2 so:libpcap.so.1
+origin	heplify
+repo	community
+file	heplify-1.67.0-r11.apk
+checksum	Q1ymm59iZYVa6NJRPY05hCNlBbG6A=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libluajit-5.1.so.2	luajit
+dep	so:libpcap.so.1	libpcap

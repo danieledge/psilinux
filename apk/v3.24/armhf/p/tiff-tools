@@ -1,0 +1,15 @@
+name	tiff-tools
+version	4.7.2-r0
+description	Command-line utility programs for manipulating TIFF files
+url	https://gitlab.com/libtiff/libtiff
+license	libtiff
+size	193893
+installed-size	470592
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libtiff.so.6
+origin	tiff
+repo	main
+file	tiff-tools-4.7.2-r0.apk
+checksum	Q1bp7e3tX2oXLtnCrwnBVwR3vp/n4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libtiff.so.6	tiff

@@ -1,0 +1,14 @@
+name	perl-text-bibtex
+version	0.91-r1
+description	interface to read and parse BibTeX files
+url	https://metacpan.org/release/Text-BibTeX/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	120274
+installed-size	333815
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-text-bibtex
+repo	community
+file	perl-text-bibtex-0.91-r1.apk
+checksum	Q1pZs8/6y6aYY02kyWDnNSiTrokeQ=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

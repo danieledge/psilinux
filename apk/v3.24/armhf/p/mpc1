@@ -1,0 +1,15 @@
+name	mpc1
+version	1.3.1-r1
+description	Multiprecision C library
+url	http://www.multiprecision.org/
+license	LGPL-3.0-or-later
+size	45575
+installed-size	99500
+depends	so:libc.musl-armhf.so.1 so:libgmp.so.10 so:libmpfr.so.6
+origin	mpc1
+repo	main
+file	mpc1-1.3.1-r1.apk
+checksum	Q1y+8d/zWuvt21VJ++PW2nkxdW5AY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgmp.so.10	gmp
+dep	so:libmpfr.so.6	mpfr4

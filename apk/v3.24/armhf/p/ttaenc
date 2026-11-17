@@ -1,0 +1,13 @@
+name	ttaenc
+version	3.4.1-r2
+description	TrueAudio lossless compressor
+url	https://sourceforge.net/projects/tta/
+license	GPL-2.0-only
+size	22629
+installed-size	42160
+depends	so:libc.musl-armhf.so.1
+origin	ttaenc
+repo	community
+file	ttaenc-3.4.1-r2.apk
+checksum	Q1WLrLTqVc9k620PaiyX5J5CPBAX4=
+dep	so:libc.musl-armhf.so.1	musl

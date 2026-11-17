@@ -1,0 +1,13 @@
+name	salt-lts-syndic-openrc
+version	3006.23-r1
+description	Master-of-master component for Salt, a parallel remote execution system (OpenRC init scripts)
+url	https://github.com/saltstack/salt
+license	Apache-2.0
+size	2068
+installed-size	579
+depends	openrc
+origin	salt-lts
+repo	community
+file	salt-lts-syndic-openrc-3006.23-r1.apk
+checksum	Q1GSc2jurhuuYoGVN+V/iD9ldF3aQ=
+dep	openrc	openrc

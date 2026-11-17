@@ -1,0 +1,16 @@
+name	nedit
+version	5.7-r4
+description	The Nirvana Editor, a multi-purpose X11 editor that's easy to use
+url	https://sourceforge.net/projects/nedit/
+license	GPL-2.0-or-later
+size	533912
+installed-size	1317836
+depends	so:libX11.so.6 so:libXm.so.5 so:libXt.so.6 so:libc.musl-armhf.so.1
+origin	nedit
+repo	community
+file	nedit-5.7-r4.apk
+checksum	Q1yW6MzLSlsK0N/rNfZZf2P4VDRj4=
+dep	so:libX11.so.6	libx11
+dep	so:libXm.so.5	motif
+dep	so:libXt.so.6	libxt
+dep	so:libc.musl-armhf.so.1	musl

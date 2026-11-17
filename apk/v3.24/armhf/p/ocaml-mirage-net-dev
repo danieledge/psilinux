@@ -1,0 +1,16 @@
+name	ocaml-mirage-net-dev
+version	4.0.0-r6
+description	Network signatures for MirageOS (development files)
+url	https://github.com/mirage/mirage-net
+license	ISC
+size	19888
+installed-size	49751
+depends	ocaml-mirage-net=4.0.0-r6 ocaml-cstruct-dev ocaml-lwt-dev ocaml-ipaddr-dev
+origin	ocaml-mirage-net
+repo	community
+file	ocaml-mirage-net-dev-4.0.0-r6.apk
+checksum	Q1GxYmwXC3jIuY3DdCgLtrRiOP5mE=
+dep	ocaml-mirage-net=4.0.0-r6	ocaml-mirage-net
+dep	ocaml-cstruct-dev	ocaml-cstruct-dev
+dep	ocaml-lwt-dev	ocaml-lwt-dev
+dep	ocaml-ipaddr-dev	ocaml-ipaddr-dev

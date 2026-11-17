@@ -1,0 +1,14 @@
+name	freeradius-dhcp
+version	3.0.27-r3
+description	DHCP module for FreeRADIUS server
+url	https://freeradius.org/
+license	GPL-2.0-or-later
+size	28419
+installed-size	70999
+depends	freeradius=3.0.27-r3 so:libc.musl-armhf.so.1
+origin	freeradius
+repo	main
+file	freeradius-dhcp-3.0.27-r3.apk
+checksum	Q103umuh0lf1HYHS/05jzP7khenIo=
+dep	freeradius=3.0.27-r3	freeradius
+dep	so:libc.musl-armhf.so.1	musl

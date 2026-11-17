@@ -1,0 +1,17 @@
+name	geoclue-dev
+version	2.8.1-r0
+description	dbus geolocation service (development files)
+url	https://gitlab.freedesktop.org/geoclue/geoclue/-/wikis/home
+license	LGPL-2.1-or-later
+size	29946
+installed-size	347240
+depends	geoclue=2.8.1-r0 pc:gio-2.0>=2.74.0 pc:gio-unix-2.0>=2.74.0 pc:glib-2.0>=2.74.0 pkgconfig
+origin	geoclue
+repo	community
+file	geoclue-dev-2.8.1-r0.apk
+checksum	Q1Hfg6xNS7+EOqt45BWi3ukYyYyLk=
+dep	geoclue=2.8.1-r0	geoclue
+dep	pc:gio-2.0>=2.74.0	glib-dev
+dep	pc:gio-unix-2.0>=2.74.0	glib-dev
+dep	pc:glib-2.0>=2.74.0	glib-dev
+dep	pkgconfig	pkgconf

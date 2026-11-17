@@ -1,0 +1,21 @@
+name	py3-trio
+version	0.33.0-r1
+description	A friendly Python library for async concurrency and I/O
+url	https://trio.readthedocs.io/
+license	MIT OR Apache-2.0
+size	455569
+installed-size	1795464
+depends	py3-attrs py3-async_generator py3-idna py3-cffi py3-openssl py3-outcome py3-sniffio py3-sortedcontainers python3~3.14
+origin	py3-trio
+repo	community
+file	py3-trio-0.33.0-r1.apk
+checksum	Q1ih6RJEPcZaxslemvDPABSMqbDp8=
+dep	py3-attrs	py3-attrs
+dep	py3-async_generator	py3-async_generator
+dep	py3-idna	py3-idna
+dep	py3-cffi	py3-cffi
+dep	py3-openssl	py3-openssl
+dep	py3-outcome	py3-outcome
+dep	py3-sniffio	py3-sniffio
+dep	py3-sortedcontainers	py3-sortedcontainers
+dep	python3~3.14	python3

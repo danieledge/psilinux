@@ -1,0 +1,38 @@
+name	gtk+2.0
+version	2.24.33-r11
+description	The GTK+ Toolkit (v2)
+url	https://www.gtk.org/
+license	LGPL-2.0-or-later
+size	2299898
+installed-size	5828815
+depends	shared-mime-info gtk-update-icon-cache /bin/sh so:libX11.so.6 so:libXcomposite.so.1 so:libXcursor.so.1 so:libXdamage.so.1 so:libXext.so.6 so:libXfixes.so.3 so:libXi.so.6 so:libXrandr.so.2 so:libXrender.so.1 so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcups.so.2 so:libfontconfig.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpangoft2-1.0.so.0
+origin	gtk+2.0
+repo	community
+file	gtk+2.0-2.24.33-r11.apk
+checksum	Q1u+TUl212aCGvrMv6dtpzRod6eXQ=
+dep	shared-mime-info	shared-mime-info
+dep	gtk-update-icon-cache	gtk-update-icon-cache
+dep	/bin/sh	busybox-binsh
+dep	so:libX11.so.6	libx11
+dep	so:libXcomposite.so.1	libxcomposite
+dep	so:libXcursor.so.1	libxcursor
+dep	so:libXdamage.so.1	libxdamage
+dep	so:libXext.so.6	libxext
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXi.so.6	libxi
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libXrender.so.1	libxrender
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcups.so.2	cups-libs
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpangoft2-1.0.so.0	pango

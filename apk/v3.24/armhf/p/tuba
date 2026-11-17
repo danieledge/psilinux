@@ -1,0 +1,31 @@
+name	tuba
+version	0.10.3-r2
+description	Browse the Fediverse
+url	https://tuba.geopjr.dev/
+license	GPL-3.0-or-later
+size	851318
+installed-size	2296080
+depends	glycin-image-rs so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgee-0.8.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libgtksourceview-5.so.0 so:libicuuc.so.78 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libpango-1.0.so.0 so:libsecret-1.so.0 so:libsoup-3.0.so.0 so:libspelling-1.so.2 so:libxml2.so.2
+origin	tuba
+repo	community
+file	tuba-0.10.3-r2.apk
+checksum	Q1/lQxE52G9hKZ3OpjnNhMX3qLQ9Q=
+dep	glycin-image-rs	glycin-image-rs
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgee-0.8.so.2	libgee
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libgtksourceview-5.so.0	gtksourceview5
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libsecret-1.so.0	libsecret
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libspelling-1.so.2	libspelling
+dep	so:libxml2.so.2	libxml2

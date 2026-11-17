@@ -1,0 +1,17 @@
+name	jupyter-nbclient
+version	0.11.0-r0
+description	Client library for executing notebooks
+url	https://github.com/jupyter/nbclient
+license	BSD-3-Clause
+size	24165
+installed-size	81394
+depends	py3-jupyter_client jupyter-nbformat py3-nest_asyncio py3-traitlets python3~3.14
+origin	jupyter-nbclient
+repo	community
+file	jupyter-nbclient-0.11.0-r0.apk
+checksum	Q1z7zHcSHEfY4oV3vIK0T53iGSioE=
+dep	py3-jupyter_client	py3-jupyter_client
+dep	jupyter-nbformat	jupyter-nbformat
+dep	py3-nest_asyncio	py3-nest_asyncio
+dep	py3-traitlets	py3-traitlets
+dep	python3~3.14	python3

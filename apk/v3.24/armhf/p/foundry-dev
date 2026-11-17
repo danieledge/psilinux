@@ -1,0 +1,38 @@
+name	foundry-dev
+version	1.1.1-r0
+description	Companion command-line tool for IDE features of GNOME Builder (development files)
+url	https://gitlab.gnome.org/GNOME/foundry
+license	LGPL-2.1-or-later
+size	310752
+installed-size	3995580
+depends	foundry-libs=1.1.1-r0 pc:editorconfig pc:flatpak pc:gio-2.0>=2.82 pc:gio-unix-2.0>=2.82 pc:gom-1.0>=0.5.0 pc:gtk4>=4.20 pc:gtksourceview-5>=5.18 pc:json-glib-1.0>=1.8 pc:libadwaita-1>=1.7 pc:libcmark>=0.29.0 pc:libdex-1>=1.1 pc:libgit2>=1.6 pc:libpanel-1>=1.8 pc:libpeas-2>=2.0 pc:libsecret-1 pc:libsoup-3.0 pc:libspelling-1>=0.4 pc:libssh2 pc:libxml-2.0 pc:sysprof-capture-4 pc:template-glib-1.0 pc:vte-2.91-gtk4>=0.80 pc:webkitgtk-6.0 pc:yaml-0.1 pkgconfig
+origin	foundry
+repo	community
+file	foundry-dev-1.1.1-r0.apk
+checksum	Q1i57xkiqb41T7sowMSFPTWh8Ch7U=
+dep	foundry-libs=1.1.1-r0	foundry-libs
+dep	pc:editorconfig	editorconfig-dev
+dep	pc:flatpak	flatpak-dev
+dep	pc:gio-2.0>=2.82	glib-dev
+dep	pc:gio-unix-2.0>=2.82	glib-dev
+dep	pc:gom-1.0>=0.5.0	gom-dev
+dep	pc:gtk4>=4.20	gtk4.0-dev
+dep	pc:gtksourceview-5>=5.18	gtksourceview5-dev
+dep	pc:json-glib-1.0>=1.8	json-glib-dev
+dep	pc:libadwaita-1>=1.7	libadwaita-dev
+dep	pc:libcmark>=0.29.0	cmark-dev
+dep	pc:libdex-1>=1.1	libdex-dev
+dep	pc:libgit2>=1.6	libgit2-dev
+dep	pc:libpanel-1>=1.8	libpanel-dev
+dep	pc:libpeas-2>=2.0	libpeas2-dev
+dep	pc:libsecret-1	libsecret-dev
+dep	pc:libsoup-3.0	libsoup3-dev
+dep	pc:libspelling-1>=0.4	libspelling-dev
+dep	pc:libssh2	libssh2-dev
+dep	pc:libxml-2.0	libxml2-dev
+dep	pc:sysprof-capture-4	sysprof-dev
+dep	pc:template-glib-1.0	template-glib-dev
+dep	pc:vte-2.91-gtk4>=0.80	vte3-dev
+dep	pc:webkitgtk-6.0	webkit2gtk-6.0-dev
+dep	pc:yaml-0.1	yaml-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,17 @@
+name	dzen
+version	0.9.5-r7
+description	A general purpose messaging, notification and menuing program for X11
+url	https://github.com/robm/dzen
+license	MIT
+size	20289
+installed-size	38592
+depends	so:libX11.so.6 so:libXft.so.2 so:libXinerama.so.1 so:libXpm.so.4 so:libc.musl-armhf.so.1
+origin	dzen
+repo	community
+file	dzen-0.9.5-r7.apk
+checksum	Q1TKMXXvQuw1FarRMaWJhvYoKmDoE=
+dep	so:libX11.so.6	libx11
+dep	so:libXft.so.2	libxft
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libXpm.so.4	libxpm
+dep	so:libc.musl-armhf.so.1	musl

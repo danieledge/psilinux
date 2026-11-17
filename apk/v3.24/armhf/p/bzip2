@@ -1,0 +1,13 @@
+name	bzip2
+version	1.0.8-r6
+description	A high-quality data compression program
+url	https://sourceware.org/bzip2/
+license	bzip2-1.0.6
+size	134921
+installed-size	285945
+depends	so:libc.musl-armhf.so.1
+origin	bzip2
+repo	main
+file	bzip2-1.0.8-r6.apk
+checksum	Q16fO2xNDXLlg/WUNtn02AHX/VGyc=
+dep	so:libc.musl-armhf.so.1	musl

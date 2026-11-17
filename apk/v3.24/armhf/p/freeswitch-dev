@@ -1,0 +1,14 @@
+name	freeswitch-dev
+version	1.10.12-r6
+description	A communications platform written in C from the ground up (development files)
+url	https://www.freeswitch.org/
+license	MPL-1.1
+size	214114
+installed-size	980431
+depends	freeswitch=1.10.12-r6 pkgconfig
+origin	freeswitch
+repo	main
+file	freeswitch-dev-1.10.12-r6.apk
+checksum	Q1TNsx449Rbqe9et+CLh8irdEHpxo=
+dep	freeswitch=1.10.12-r6	freeswitch
+dep	pkgconfig	pkgconf

@@ -1,0 +1,13 @@
+name	libcmph
+version	2.0.2-r6
+description	A minimal perfect hash C library
+url	https://cmph.sourceforge.net/
+license	LGPL-2.0-or-later AND MPL-1.1
+size	48322
+installed-size	103644
+depends	so:libc.musl-armhf.so.1
+origin	cmph
+repo	main
+file	libcmph-2.0.2-r6.apk
+checksum	Q1UdISTH+MqRvG1BOqEFNc4xjLbGY=
+dep	so:libc.musl-armhf.so.1	musl

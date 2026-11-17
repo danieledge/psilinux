@@ -1,0 +1,14 @@
+name	abseil-cpp-random-seed-gen-exception
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-random-seed-gen-exception
+url	https://abseil.io/
+license	Apache-2.0
+size	3638
+installed-size	5452
+depends	so:libgcc_s.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-random-seed-gen-exception-20250814.1-r0.apk
+checksum	Q1bZ78VKJGhA7ul2/P25iHAPw72Kc=
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,13 @@
+name	gotestfmt
+version	2.5.0-r17
+description	tool to format output of go test
+url	https://github.com/GoTestTools/gotestfmt
+license	Unlicense
+size	1514592
+installed-size	3826420
+depends	so:libc.musl-armhf.so.1
+origin	gotestfmt
+repo	community
+file	gotestfmt-2.5.0-r17.apk
+checksum	Q1VYk5j5fmyfO7po5tbRNFPSr+E/Y=
+dep	so:libc.musl-armhf.so.1	musl

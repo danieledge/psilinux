@@ -1,0 +1,13 @@
+name	raspberrypi-utils-vcmailbox
+version	0.20260811-r0
+description	A low-level tool giving access the VideoCore mailbox interface.
+url	https://github.com/raspberrypi/utils
+license	BSD-3-Clause
+size	3686
+installed-size	5292
+depends	so:libc.musl-armhf.so.1
+origin	raspberrypi-utils
+repo	community
+file	raspberrypi-utils-vcmailbox-0.20260811-r0.apk
+checksum	Q1HivU50s29RntdxDcTKaPh/yYpsI=
+dep	so:libc.musl-armhf.so.1	musl

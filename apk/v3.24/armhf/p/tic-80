@@ -1,0 +1,22 @@
+name	tic-80
+version	1.1.2837-r11
+description	Fantasy computer for making, playing and sharing tiny games
+url	https://tic80.com/
+license	MIT
+size	15077998
+installed-size	37123463
+depends	so:libSDL2-2.0.so.0 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgcc_s.so.1 so:libgif.so.7 so:libjanet.so.1.41 so:liblua-5.3.so.0 so:libpng16.so.16 so:libstdc++.so.6 so:libz.so.1
+origin	tic-80
+repo	community
+file	tic-80-1.1.2837-r11.apk
+checksum	Q1LyqoO1s4oeSsOpR7a9i/Wh+M4Ks=
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgif.so.7	giflib
+dep	so:libjanet.so.1.41	janet
+dep	so:liblua-5.3.so.0	lua5.3-libs
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

@@ -1,0 +1,14 @@
+name	netpbm-dev
+version	11.14.0-r0
+description	Toolkit for manipulation of graphic images (development files)
+url	https://netpbm.sourceforge.net/
+license	IJG AND BSD-3-Clause AND GPL-2.0-only
+size	41007
+installed-size	137973
+depends	netpbm=11.14.0-r0 pkgconfig
+origin	netpbm
+repo	community
+file	netpbm-dev-11.14.0-r0.apk
+checksum	Q1/G1RmvKvS6K3p6U1ikNMOpeGXbw=
+dep	netpbm=11.14.0-r0	netpbm
+dep	pkgconfig	pkgconf

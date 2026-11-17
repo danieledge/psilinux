@@ -1,0 +1,14 @@
+name	acf-tinydns
+version	0.11.1-r0
+description	Web-based system administration interface for tinydns
+url	https://gitlab.alpinelinux.org/acf/acf-tinydns
+license	GPL-2.0-only
+size	12359
+installed-size	42573
+depends	acf-core tinydns
+origin	acf-tinydns
+repo	main
+file	acf-tinydns-0.11.1-r0.apk
+checksum	Q1WydkaVyY7a3i60m665/vAiSDIR4=
+dep	acf-core	acf-core
+dep	tinydns	tinydns

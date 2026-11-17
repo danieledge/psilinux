@@ -1,0 +1,13 @@
+name	promu
+version	0.17.0-r20
+description	Prometheus Utility Tool
+url	https://github.com/prometheus/promu
+license	Apache-2.0
+size	3709967
+installed-size	9336060
+depends	so:libc.musl-armhf.so.1
+origin	promu
+repo	community
+file	promu-0.17.0-r20.apk
+checksum	Q1b9u81K5+sNVQYkT0hglHCFr9zXM=
+dep	so:libc.musl-armhf.so.1	musl

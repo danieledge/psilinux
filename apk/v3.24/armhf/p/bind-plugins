@@ -1,0 +1,14 @@
+name	bind-plugins
+version	9.20.30-r0
+description	The ISC DNS server plugins
+url	https://www.isc.org/bind/
+license	MPL-2.0
+size	8894
+installed-size	29032
+depends	bind so:libc.musl-armhf.so.1
+origin	bind
+repo	main
+file	bind-plugins-9.20.30-r0.apk
+checksum	Q1GXRKq/L9z0SUDeaxJnJRPquMm5k=
+dep	bind	bind
+dep	so:libc.musl-armhf.so.1	musl

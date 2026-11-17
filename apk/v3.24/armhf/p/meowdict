@@ -1,0 +1,18 @@
+name	meowdict
+version	0.10.5-r3
+description	CLI web client for moedict.tw
+url	https://github.com/eatradish/meowdict
+license	MIT
+size	1156129
+installed-size	2152381
+depends	opencc so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libopencc.so.1.3 so:libssl.so.3
+origin	meowdict
+repo	community
+file	meowdict-0.10.5-r3.apk
+checksum	Q1HhTU3tMsnrxo1FPSlyFTPvVJ2Ks=
+dep	opencc	opencc
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libopencc.so.1.3	opencc-libs
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,13 @@
+name	libxi-static
+version	1.8.4-r0
+description	X11 Input extension library (static library)
+url	https://www.x.org
+license	MIT AND X11
+size	34288
+installed-size	129282
+depends	libxi-dev
+origin	libxi
+repo	main
+file	libxi-static-1.8.4-r0.apk
+checksum	Q1+4oLphiq1kKCsSSpSnByPaEdycw=
+dep	libxi-dev	libxi-dev

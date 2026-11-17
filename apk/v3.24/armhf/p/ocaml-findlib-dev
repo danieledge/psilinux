@@ -1,0 +1,14 @@
+name	ocaml-findlib-dev
+version	1.9.6-r8
+description	OCaml package manager (development files)
+url	http://projects.camlcity.org/projects/findlib.html
+license	MIT
+size	106868
+installed-size	281494
+depends	ocaml-findlib=1.9.6-r8 ocaml
+origin	ocaml-findlib
+repo	community
+file	ocaml-findlib-dev-1.9.6-r8.apk
+checksum	Q12hpFvIpRuyDOoNVUfU0ZFyP5EsM=
+dep	ocaml-findlib=1.9.6-r8	ocaml-findlib
+dep	ocaml	ocaml

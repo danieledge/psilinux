@@ -1,0 +1,21 @@
+name	lldpd
+version	1.0.23-r0
+description	Implementation of IEEE 802.1ab
+url	https://lldpd.github.io/
+license	ISC
+size	167261
+installed-size	391154
+depends	/bin/sh so:libbsd.so.0 so:libc.musl-armhf.so.1 so:libevent-2.1.so.7 so:libnetsnmp.so.45 so:libnetsnmpagent.so.45 so:libnetsnmpmibs.so.45 so:libreadline.so.8 so:libxml2.so.2
+origin	lldpd
+repo	community
+file	lldpd-1.0.23-r0.apk
+checksum	Q1l6xmo2dcqXSKuKlvllHjKQl+YiA=
+dep	/bin/sh	busybox-binsh
+dep	so:libbsd.so.0	libbsd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevent-2.1.so.7	libevent
+dep	so:libnetsnmp.so.45	net-snmp-libs
+dep	so:libnetsnmpagent.so.45	net-snmp-agent-libs
+dep	so:libnetsnmpmibs.so.45	net-snmp-agent-libs
+dep	so:libreadline.so.8	readline
+dep	so:libxml2.so.2	libxml2

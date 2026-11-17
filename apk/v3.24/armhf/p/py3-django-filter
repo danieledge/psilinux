@@ -1,0 +1,14 @@
+name	py3-django-filter
+version	25.1-r3
+description	Generic system for filtering Django QuerySets based on user selections
+url	https://github.com/carltongibson/django-filter
+license	BSD-3-Clause
+size	58734
+installed-size	217112
+depends	py3-django python3~3.14
+origin	py3-django-filter
+repo	community
+file	py3-django-filter-25.1-r3.apk
+checksum	Q1aodWO/QhFg3H4jLwdOA77N8HGiM=
+dep	py3-django	py3-django
+dep	python3~3.14	python3

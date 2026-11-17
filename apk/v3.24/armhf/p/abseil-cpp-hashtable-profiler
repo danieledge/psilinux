@@ -1,0 +1,22 @@
+name	abseil-cpp-hashtable-profiler
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-hashtable-profiler
+url	https://abseil.io/
+license	Apache-2.0
+size	11136
+installed-size	25984
+depends	so:libabsl_hash.so.2508.0.0 so:libabsl_hashtablez_sampler.so.2508.0.0 so:libabsl_profile_builder.so.2508.0.0 so:libabsl_raw_hash_set.so.2508.0.0 so:libabsl_strings.so.2508.0.0 so:libabsl_synchronization.so.2508.0.0 so:libabsl_time.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-hashtable-profiler-20250814.1-r0.apk
+checksum	Q133IE7SjZtCQZ2PhcdAKsDm3nDuc=
+dep	so:libabsl_hash.so.2508.0.0	abseil-cpp-hash
+dep	so:libabsl_hashtablez_sampler.so.2508.0.0	abseil-cpp-hashtablez-sampler
+dep	so:libabsl_profile_builder.so.2508.0.0	abseil-cpp-profile-builder
+dep	so:libabsl_raw_hash_set.so.2508.0.0	abseil-cpp-raw-hash-set
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libabsl_synchronization.so.2508.0.0	abseil-cpp-synchronization
+dep	so:libabsl_time.so.2508.0.0	abseil-cpp-time
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

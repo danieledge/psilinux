@@ -1,0 +1,16 @@
+name	openresty-mod-http-lua-upstream
+version	1.31.1.1-r0
+description	Scalable Web Platform by Extending NGINX with Lua (module ngx_http_lua_upstream_module.so)
+url	https://openresty.org/
+license	BSD-2-Clause
+size	6215
+installed-size	9539
+depends	cmd:nginx openresty openresty-mod-http-lua so:libc.musl-armhf.so.1
+origin	openresty
+repo	community
+file	openresty-mod-http-lua-upstream-1.31.1.1-r0.apk
+checksum	Q1gb48Vf8k/DWY5L4Xd50ZOvNS6K8=
+dep	cmd:nginx	nginx
+dep	openresty	openresty
+dep	openresty-mod-http-lua	openresty-mod-http-lua
+dep	so:libc.musl-armhf.so.1	musl

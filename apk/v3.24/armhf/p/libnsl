@@ -1,0 +1,15 @@
+name	libnsl
+version	2.0.1-r2
+description	Public client interface for NIS(YP) and NIS+ in a IPv6 ready version
+url	https://github.com/thkukuk/libnsl
+license	LGPL-2.0-or-later
+size	10865
+installed-size	21832
+depends	so:libc.musl-armhf.so.1 so:libintl.so.8 so:libtirpc.so.3
+origin	libnsl
+repo	community
+file	libnsl-2.0.1-r2.apk
+checksum	Q1WFYl1lpSnK7rSpXm3RBLAfhOViE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libintl.so.8	libintl
+dep	so:libtirpc.so.3	libtirpc

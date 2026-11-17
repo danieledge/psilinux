@@ -1,0 +1,14 @@
+name	py3-poetry-plugin-export
+version	1.9.0-r2
+description	Poetry plugin to export the dependencies to various formats
+url	https://github.com/python-poetry/poetry-plugin-export
+license	MIT
+size	11177
+installed-size	30948
+depends	poetry python3~3.14
+origin	py3-poetry-plugin-export
+repo	community
+file	py3-poetry-plugin-export-1.9.0-r2.apk
+checksum	Q1Mti19p4CKATYOgNNrwPgDfJizNg=
+dep	poetry	poetry
+dep	python3~3.14	python3

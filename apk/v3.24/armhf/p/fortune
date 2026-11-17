@@ -1,0 +1,14 @@
+name	fortune
+version	0.1-r5
+description	Fortune cookie program ported from OpenBSD
+url	https://git.sr.ht/~ahills/fortune
+license	BSD-3-Clause
+size	1424028
+installed-size	3343040
+depends	so:libbsd.so.0 so:libc.musl-armhf.so.1
+origin	fortune
+repo	community
+file	fortune-0.1-r5.apk
+checksum	Q1k47hR91FKxooLT7yW5S4x8ZGE6E=
+dep	so:libbsd.so.0	libbsd
+dep	so:libc.musl-armhf.so.1	musl

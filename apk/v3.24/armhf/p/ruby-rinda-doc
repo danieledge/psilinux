@@ -1,0 +1,14 @@
+name	ruby-rinda-doc
+version	0.2.0-r0
+description	The Linda distributed computing paradigm in Ruby (ri docs)
+url	https://github.com/ruby/rinda
+license	BSD-2-Clause AND Ruby
+size	1576
+installed-size	1
+depends	ruby ruby-drb
+origin	ruby-rinda
+repo	main
+file	ruby-rinda-doc-0.2.0-r0.apk
+checksum	Q1w7McY14FzSNx9/+WOQDYmLOKwlQ=
+dep	ruby	ruby
+dep	ruby-drb	ruby-drb

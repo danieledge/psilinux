@@ -1,0 +1,14 @@
+name	nil
+version	2025.06.13-r0
+description	An incremental analysis assistant for writing in Nix
+url	https://github.com/oxalica/nil
+license	MIT OR Apache-2.0
+size	1827762
+installed-size	4224137
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	nil
+repo	community
+file	nil-2025.06.13-r0.apk
+checksum	Q1KL0ulz7bPm2GvpznbDCf1Ncyl4U=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

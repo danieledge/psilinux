@@ -1,0 +1,15 @@
+name	lilypond-vim
+version	2.26.0-r0
+description	Vim syntax for lilypond
+url	https://lilypond.org
+license	GPL-3.0-or-later
+size	16097
+installed-size	43894
+depends	ghostscript guile python3
+origin	lilypond
+repo	community
+file	lilypond-vim-2.26.0-r0.apk
+checksum	Q1ib+hqQU3zdALaXikt0W51246Tc4=
+dep	ghostscript	ghostscript
+dep	guile	guile
+dep	python3	python3

@@ -1,0 +1,13 @@
+name	fplll-static
+version	5.5.0-r1
+description	Lattice algorithms using floating-point arithmetic (static library)
+url	https://github.com/fplll/fplll
+license	LGPL-2.1-or-later
+size	8225683
+installed-size	39451800
+depends	fplll-dev
+origin	fplll
+repo	community
+file	fplll-static-5.5.0-r1.apk
+checksum	Q1jMHjT0KYiBRm8VFc35+IqPoqxxY=
+dep	fplll-dev	fplll-dev

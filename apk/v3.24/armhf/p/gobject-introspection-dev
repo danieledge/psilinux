@@ -1,0 +1,26 @@
+name	gobject-introspection-dev
+version	1.86.0-r1
+description	Introspection system for GObject-based libraries (development files)
+url	https://gi.readthedocs.io
+license	LGPL-2.0-or-later AND GPL-2.0-or-later AND MIT
+size	418109
+installed-size	2185432
+depends	cairo-dev libtool py3-setuptools python3 gobject-introspection=1.86.0-r1 pc:glib-2.0>=2.82.0 pc:gobject-2.0>=2.82.0 pkgconfig so:libc.musl-armhf.so.1 so:libffi.so.8 so:libgio-2.0.so.0 so:libgirepository-1.0.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	gobject-introspection
+repo	main
+file	gobject-introspection-dev-1.86.0-r1.apk
+checksum	Q1cg/o/mUCHl3ACGqizIoQuG3D9tg=
+dep	cairo-dev	cairo-dev
+dep	libtool	libtool
+dep	py3-setuptools	py3-setuptools
+dep	python3	python3
+dep	gobject-introspection=1.86.0-r1	gobject-introspection
+dep	pc:glib-2.0>=2.82.0	glib-dev
+dep	pc:gobject-2.0>=2.82.0	glib-dev
+dep	pkgconfig	pkgconf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libffi.so.8	libffi
+dep	so:libgio-2.0.so.0	glib
+dep	so:libgirepository-1.0.so.1	gobject-introspection
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

@@ -1,0 +1,13 @@
+name	xf86-video-r128
+version	6.13.0-r0
+description	ATI Rage128 video driver
+url	https://xorg.freedesktop.org
+license	MIT
+size	27942
+installed-size	57036
+depends	so:libc.musl-armhf.so.1
+origin	xf86-video-r128
+repo	community
+file	xf86-video-r128-6.13.0-r0.apk
+checksum	Q1k+nKJNdGH92DkPNBSc7rMxeX+dE=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,18 @@
+name	knot-dev
+version	3.5.10-r0
+description	An high-performance authoritative-only DNS server (development files)
+url	https://www.knot-dns.cz/
+license	GPL-2.0-or-later
+size	69525
+installed-size	287024
+depends	knot=3.5.10-r0 knot-libs-static=3.5.10-r0 knot-utils=3.5.10-r0 knot-libs=3.5.10-r0 pc:gnutls>=3.3 pkgconfig
+origin	knot
+repo	main
+file	knot-dev-3.5.10-r0.apk
+checksum	Q1Qo96SfPqCYsBjWnWkHIevHiZ6Hw=
+dep	knot=3.5.10-r0	knot
+dep	knot-libs-static=3.5.10-r0	knot-libs-static
+dep	knot-utils=3.5.10-r0	knot-utils
+dep	knot-libs=3.5.10-r0	knot-libs
+dep	pc:gnutls>=3.3	gnutls-dev
+dep	pkgconfig	pkgconf

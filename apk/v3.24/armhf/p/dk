@@ -1,0 +1,21 @@
+name	dk
+version	2.3-r2
+description	Tiling window manager taking inspiration from dwm, bspwm, and xmonad
+url	https://bitbucket.org/natemaia/dk
+license	MIT
+size	71142
+installed-size	142607
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libxcb-cursor.so.0 so:libxcb-icccm.so.4 so:libxcb-keysyms.so.1 so:libxcb-randr.so.0 so:libxcb-res.so.0 so:libxcb-util.so.1 so:libxcb.so.1
+origin	dk
+repo	community
+file	dk-2.3-r2.apk
+checksum	Q1xISnjniTZHckKsN7lUVmczonvB4=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxcb-cursor.so.0	xcb-util-cursor
+dep	so:libxcb-icccm.so.4	xcb-util-wm
+dep	so:libxcb-keysyms.so.1	xcb-util-keysyms
+dep	so:libxcb-randr.so.0	libxcb
+dep	so:libxcb-res.so.0	libxcb
+dep	so:libxcb-util.so.1	xcb-util
+dep	so:libxcb.so.1	libxcb

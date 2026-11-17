@@ -1,0 +1,13 @@
+name	clamav-static
+version	1.4.6-r0
+description	An anti-virus toolkit for UNIX eis-ng backport (static library)
+url	https://www.clamav.net/
+license	GPL-2.0-only
+size	48499398
+installed-size	196726996
+depends	clamav-dev
+origin	clamav
+repo	community
+file	clamav-static-1.4.6-r0.apk
+checksum	Q1b1S5ozGhb3wFcsW2zzDuRxSFsxI=
+dep	clamav-dev	clamav-dev

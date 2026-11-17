@@ -1,0 +1,15 @@
+name	py3-libmount
+version	2.42.3-r1
+description	python3 bindings to libmount
+url	https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+license	LGPL-2.1-or-later
+size	26197
+installed-size	75650
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libmount.so.1
+origin	util-linux
+repo	main
+file	py3-libmount-2.42.3-r1.apk
+checksum	Q18l5vUTQrzRLh6TyCTbmJAWobM6k=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmount.so.1	libmount

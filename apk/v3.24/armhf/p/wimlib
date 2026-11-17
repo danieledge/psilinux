@@ -1,0 +1,15 @@
+name	wimlib
+version	1.14.4-r1
+description	Create, extract, and modify Windows Imaging archives
+url	https://wimlib.net/
+license	GPL-3.0-or-later
+size	221533
+installed-size	435803
+depends	so:libc.musl-armhf.so.1 so:libfuse3.so.4 so:libntfs-3g.so.89
+origin	wimlib
+repo	community
+file	wimlib-1.14.4-r1.apk
+checksum	Q1n+PXY8Ryg404/dZF9kiUTCSj3Vc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfuse3.so.4	fuse3-libs
+dep	so:libntfs-3g.so.89	ntfs-3g-libs

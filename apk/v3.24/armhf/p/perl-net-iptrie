@@ -1,0 +1,15 @@
+name	perl-net-iptrie
+version	0.7-r5
+description	Perl module for building IPv4 and IPv6 address space hierarchies
+url	https://metacpan.org/release/Net-IPTrie/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6474
+installed-size	15198
+depends	perl perl-netaddr-ip perl-module-build
+origin	perl-net-iptrie
+repo	community
+file	perl-net-iptrie-0.7-r5.apk
+checksum	Q13oCH84g5uDjitjFaQBUoMOZqSjk=
+dep	perl	perl
+dep	perl-netaddr-ip	perl-netaddr-ip
+dep	perl-module-build	perl-module-build

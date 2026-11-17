@@ -1,0 +1,30 @@
+name	jupyter-server
+version	2.19.0-r0
+description	Backend for Jupyter web applications
+url	https://github.com/jupyter-server/jupyter_server
+license	BSD-3-Clause
+size	359199
+installed-size	1715954
+depends	jupyter-nbconvert jupyter-nbformat jupyter-server-terminals py3-anyio py3-argon2-cffi py3-jinja2 py3-jupyter-events py3-jupyter_client py3-jupyter_core py3-overrides py3-packaging py3-prometheus-client py3-send2trash py3-terminado py3-tornado py3-traitlets py3-websocket-client python3~3.14
+origin	jupyter-server
+repo	community
+file	jupyter-server-2.19.0-r0.apk
+checksum	Q1tCfKm7KCdvMM6tMA/Q2s7a+c7+0=
+dep	jupyter-nbconvert	jupyter-nbconvert
+dep	jupyter-nbformat	jupyter-nbformat
+dep	jupyter-server-terminals	jupyter-server-terminals
+dep	py3-anyio	py3-anyio
+dep	py3-argon2-cffi	py3-argon2-cffi
+dep	py3-jinja2	py3-jinja2
+dep	py3-jupyter-events	py3-jupyter-events
+dep	py3-jupyter_client	py3-jupyter_client
+dep	py3-jupyter_core	py3-jupyter_core
+dep	py3-overrides	py3-overrides
+dep	py3-packaging	py3-packaging
+dep	py3-prometheus-client	py3-prometheus-client
+dep	py3-send2trash	py3-send2trash
+dep	py3-terminado	py3-terminado
+dep	py3-tornado	py3-tornado
+dep	py3-traitlets	py3-traitlets
+dep	py3-websocket-client	py3-websocket-client
+dep	python3~3.14	python3

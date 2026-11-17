@@ -1,0 +1,13 @@
+name	c-ares
+version	1.34.9-r0
+description	Asynchronous DNS/names resolver library
+url	https://c-ares.org/
+license	MIT
+size	98255
+installed-size	206060
+depends	so:libc.musl-armhf.so.1
+origin	c-ares
+repo	main
+file	c-ares-1.34.9-r0.apk
+checksum	Q127VU1kr5fZqTm2wos86nhPU3Xb4=
+dep	so:libc.musl-armhf.so.1	musl

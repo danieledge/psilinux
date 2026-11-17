@@ -1,0 +1,18 @@
+name	serf
+version	1.3.10-r0
+description	High-Performance Asynchronous HTTP Client Library
+url	https://serf.apache.org/
+license	Apache-2.0
+size	41315
+installed-size	87320
+depends	so:libapr-1.so.0 so:libaprutil-1.so.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3 so:libz.so.1
+origin	serf
+repo	main
+file	serf-1.3.10-r0.apk
+checksum	Q1DQ6I9evxN8gMdclUHpapMkSR5cE=
+dep	so:libapr-1.so.0	apr
+dep	so:libaprutil-1.so.0	apr-util
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3
+dep	so:libz.so.1	zlib

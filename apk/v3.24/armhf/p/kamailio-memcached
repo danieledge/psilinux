@@ -1,0 +1,15 @@
+name	kamailio-memcached
+version	6.0.6-r0
+description	Kamailio memcached support
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	22336
+installed-size	42432
+depends	kamailio so:libc.musl-armhf.so.1 so:libmemcached.so.11
+origin	kamailio
+repo	main
+file	kamailio-memcached-6.0.6-r0.apk
+checksum	Q1Q6hrNvT4K9v2me5J9VLSIee1vM8=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmemcached.so.11	libmemcached-libs

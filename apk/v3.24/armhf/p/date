@@ -1,0 +1,15 @@
+name	date
+version	3.0.4-r0
+description	Date and time library based on the C++11/14/17 <chrono> header
+url	https://howardhinnant.github.io/date/date.html
+license	MIT
+size	30944
+installed-size	66936
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	date
+repo	community
+file	date-3.0.4-r0.apk
+checksum	Q1IJPdVS/9/uhLllJh2m1VyRaZBjI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,14 @@
+name	raku-cbor-simple
+version	0.1.4-r3
+description	Simple codec for the CBOR serialization format
+url	https://github.com/japhb/CBOR-Simple
+license	Artistic-2.0
+size	178183
+installed-size	643802
+depends	rakudo raku-tinyfloats
+origin	raku-cbor-simple
+repo	community
+file	raku-cbor-simple-0.1.4-r3.apk
+checksum	Q1xswGPe0HKfwsIfel62Eo+WtntTg=
+dep	rakudo	rakudo
+dep	raku-tinyfloats	raku-tinyfloats

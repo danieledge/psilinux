@@ -1,0 +1,14 @@
+name	ruby-listen
+version	3.9.0-r1
+description	Listens to file modifications and notifies you about the changes
+url	https://github.com/guard/listen
+license	MIT
+size	23291
+installed-size	65604
+depends	ruby ruby-rb-inotify
+origin	ruby-listen
+repo	community
+file	ruby-listen-3.9.0-r1.apk
+checksum	Q1KmrD53YdM1w0vI+o+xudX9O7P+M=
+dep	ruby	ruby
+dep	ruby-rb-inotify	ruby-rb-inotify

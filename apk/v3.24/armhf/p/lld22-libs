@@ -1,0 +1,18 @@
+name	lld22-libs
+version	22.1.3-r0
+description	The LLVM Linker (libraries)
+url	https://llvm.org/
+license	Apache-2.0
+size	2748774
+installed-size	6968220
+depends	so:libLLVM.so.22.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
+origin	lld22
+repo	main
+file	lld22-libs-22.1.3-r0.apk
+checksum	Q1k4jg4zO7zCtD1fh8Lj/CEamatgE=
+dep	so:libLLVM.so.22.1	llvm22-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

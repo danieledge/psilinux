@@ -1,0 +1,15 @@
+name	pimsync
+version	0.5.10-r0
+description	Synchronise calendars and contacts using CalDAV, CardDAV and others
+url	https://pimsync.whynothugo.nl/
+license	EUPL-1.2
+size	1365241
+installed-size	2834240
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libsqlite3.so.0
+origin	pimsync
+repo	community
+file	pimsync-0.5.10-r0.apk
+checksum	Q1dZ4bthnZFERTEJYb186tU8eDaS4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsqlite3.so.0	sqlite-libs

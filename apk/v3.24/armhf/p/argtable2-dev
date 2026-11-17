@@ -1,0 +1,14 @@
+name	argtable2-dev
+version	2.13-r1
+description	Command-line argument parsing library (development files)
+url	https://argtable.sourceforge.io/
+license	LGPL-2.0-or-later
+size	15768
+installed-size	45155
+depends	argtable2=2.13-r1 pkgconfig
+origin	argtable2
+repo	main
+file	argtable2-dev-2.13-r1.apk
+checksum	Q14bGxnXrdelaa1NS+5Hd02e14+bA=
+dep	argtable2=2.13-r1	argtable2
+dep	pkgconfig	pkgconf

@@ -1,0 +1,18 @@
+name	plocate
+version	1.1.24-r2
+description	Posting-list based locate(1) for finding files
+url	https://plocate.sesse.net/
+license	GPL-2.0-or-later
+size	107483
+installed-size	222356
+depends	!mlocate /bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:liburing.so.2 so:libzstd.so.1
+origin	plocate
+repo	community
+file	plocate-1.1.24-r2.apk
+checksum	Q1vb3b4d398AoC24ZvljxkSzcQ0gw=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:liburing.so.2	liburing
+dep	so:libzstd.so.1	zstd-libs

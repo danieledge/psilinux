@@ -1,0 +1,14 @@
+name	lttng-ust-tools
+version	2.14.2-r0
+description	tools from lttng-ust
+url	https://lttng.org/
+license	LGPL-2.1-only AND GPL-2.0-only AND MIT
+size	4252
+installed-size	9718
+depends	lttng-ust=2.14.2-r0 python3
+origin	lttng-ust
+repo	main
+file	lttng-ust-tools-2.14.2-r0.apk
+checksum	Q1eylGncrWeM1cMaUlhPKfGiSO46g=
+dep	lttng-ust=2.14.2-r0	lttng-ust
+dep	python3	python3

@@ -1,0 +1,13 @@
+name	enca
+version	1.19-r4
+description	Charset analyser and converter
+url	http://freshmeat.net/projects/enca/
+license	GPL-2.0-only
+size	84495
+installed-size	227909
+depends	so:libc.musl-armhf.so.1
+origin	enca
+repo	community
+file	enca-1.19-r4.apk
+checksum	Q1pnamrk4L91CbJKWAC/eMggYaqO0=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	abseil-cpp-spinlock-wait
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-spinlock-wait
+url	https://abseil.io/
+license	Apache-2.0
+size	3765
+installed-size	5452
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-spinlock-wait-20250814.1-r0.apk
+checksum	Q1C4VVAwxbQk4Ej087+iBCRlCTJjI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

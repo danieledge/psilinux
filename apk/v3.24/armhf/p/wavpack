@@ -1,0 +1,14 @@
+name	wavpack
+version	5.9.0-r0
+description	Audio compression format with lossless, lossy, and hybrid compression modes
+url	https://www.wavpack.com/
+license	BSD-3-Clause
+size	131161
+installed-size	255448
+depends	so:libc.musl-armhf.so.1 so:libwavpack.so.1
+origin	wavpack
+repo	community
+file	wavpack-5.9.0-r0.apk
+checksum	Q1JZs4Ko4GvWWD6QEutWl3pXYBiko=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libwavpack.so.1	wavpack-libs

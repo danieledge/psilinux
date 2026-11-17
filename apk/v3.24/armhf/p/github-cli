@@ -1,0 +1,14 @@
+name	github-cli
+version	2.97.0-r2
+description	CLI for dealing with GitHub
+url	https://cli.github.com
+license	MIT
+size	14285235
+installed-size	40535256
+depends	git so:libc.musl-armhf.so.1
+origin	github-cli
+repo	community
+file	github-cli-2.97.0-r2.apk
+checksum	Q1mukBD/r1bVn8nRJWP179MnhnZrI=
+dep	git	git
+dep	so:libc.musl-armhf.so.1	musl

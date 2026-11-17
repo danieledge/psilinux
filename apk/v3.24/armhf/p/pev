@@ -1,0 +1,14 @@
+name	pev
+version	0.82-r0
+description	PE file analysis toolkit
+url	https://github.com/mentebinaria/readpe
+license	GPL-2.0-or-later AND MIT AND BSD-2-Clause
+size	219530
+installed-size	1093579
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	pev
+repo	community
+file	pev-0.82-r0.apk
+checksum	Q10NmlPGOfTT4XKpsYOkpFsfZwCos=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

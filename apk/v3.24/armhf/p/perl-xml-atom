@@ -1,0 +1,22 @@
+name	perl-xml-atom
+version	0.43-r1
+description	Atom feed and API implementation
+url	https://metacpan.org/release/XML-Atom/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	19569
+installed-size	65629
+depends	perl perl-class-data-inheritable perl-datetime perl-datetime-format-atom perl-datetime-timezone perl-html-parser perl-libwww perl-uri perl-xml-libxml perl-xml-xpath
+origin	perl-xml-atom
+repo	community
+file	perl-xml-atom-0.43-r1.apk
+checksum	Q11/rKgC21KDRoLLQUXeL0WijZCG4=
+dep	perl	perl
+dep	perl-class-data-inheritable	perl-class-data-inheritable
+dep	perl-datetime	perl-datetime
+dep	perl-datetime-format-atom	perl-datetime-format-atom
+dep	perl-datetime-timezone	perl-datetime-timezone
+dep	perl-html-parser	perl-html-parser
+dep	perl-libwww	perl-libwww
+dep	perl-uri	perl-uri
+dep	perl-xml-libxml	perl-xml-libxml
+dep	perl-xml-xpath	perl-xml-xpath

@@ -1,0 +1,15 @@
+name	php84-pecl-imap
+version	1.0.3-r0
+description	PHP 8.4 extension to operate with the IMAP protocol, as well as the NNTP, POP3, and local mailbox access methods - PECL
+url	https://pecl.php.net/package/imap
+license	PHP-3.01
+size	34486
+installed-size	83223
+depends	php84-common so:libc-client.so.1 so:libc.musl-armhf.so.1
+origin	php84-pecl-imap
+repo	community
+file	php84-pecl-imap-1.0.3-r0.apk
+checksum	Q119Ef4xYGaoJNzVq9Yt8dfwAxM98=
+dep	php84-common	php84-common
+dep	so:libc-client.so.1	c-client
+dep	so:libc.musl-armhf.so.1	musl

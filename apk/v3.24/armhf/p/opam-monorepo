@@ -1,0 +1,14 @@
+name	opam-monorepo
+version	0.4.3-r1
+description	Opam plugin that assembles a self-contained Dune workspace based on a precise lock file
+url	https://github.com/tarides/opam-monorepo
+license	ISC
+size	2658022
+installed-size	5804236
+depends	opam so:libc.musl-armhf.so.1
+origin	opam-monorepo
+repo	community
+file	opam-monorepo-0.4.3-r1.apk
+checksum	Q1M3lf0GytvdoCrUBDIiMpnOae1I0=
+dep	opam	opam
+dep	so:libc.musl-armhf.so.1	musl

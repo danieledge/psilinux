@@ -1,0 +1,14 @@
+name	tdb
+version	1.4.15-r1
+description	The tdb library
+url	https://tdb.samba.org/
+license	LGPL-3.0-or-later
+size	16223
+installed-size	46424
+depends	so:libc.musl-armhf.so.1 so:libtdb.so.1
+origin	tdb
+repo	main
+file	tdb-1.4.15-r1.apk
+checksum	Q1ql1e/VYyR9EZTwc+mIfDT/aY8U0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libtdb.so.1	tdb-libs

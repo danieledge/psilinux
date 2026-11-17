@@ -1,0 +1,25 @@
+name	sane-backend-escl
+version	1.4.0-r4
+description	SANE backend for eSCL scanners
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	35504
+installed-size	73421
+depends	sane so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcurl.so.4 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libjpeg.so.8 so:libpng16.so.16 so:libpoppler-glib.so.8 so:libtiff.so.6 so:libxml2.so.2
+origin	sane
+repo	community
+file	sane-backend-escl-1.4.0-r4.apk
+checksum	Q1GPkOXs37uyRrRLojj10UX8ajmU4=
+dep	sane	sane
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcurl.so.4	libcurl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpng16.so.16	libpng
+dep	so:libpoppler-glib.so.8	poppler-glib
+dep	so:libtiff.so.6	tiff
+dep	so:libxml2.so.2	libxml2

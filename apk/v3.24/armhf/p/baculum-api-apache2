@@ -1,0 +1,15 @@
+name	baculum-api-apache2
+version	15.0.3-r0
+description	Apache configuration for Baculum API
+url	https://bacula.org/
+license	AGPL-3.0-or-later
+size	2267
+installed-size	1753
+depends	baculum-api=15.0.3-r0 apache2 php83-apache2
+origin	baculum
+repo	community
+file	baculum-api-apache2-15.0.3-r0.apk
+checksum	Q1tf7G48gSwcScKO3B69/apnaIU/Y=
+dep	baculum-api=15.0.3-r0	baculum-api
+dep	apache2	apache2
+dep	php83-apache2	php83-apache2

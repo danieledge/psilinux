@@ -1,0 +1,13 @@
+name	tree
+version	2.3.2-r0
+description	Recursive directory indented listing of files
+url	https://oldmanprogrammer.net/source.php?dir=projects/tree
+license	GPL-2.0-or-later
+size	34902
+installed-size	71728
+depends	so:libc.musl-armhf.so.1
+origin	tree
+repo	main
+file	tree-2.3.2-r0.apk
+checksum	Q1d0nHyC3oJ4s/RUO+Fvh2H4qAfas=
+dep	so:libc.musl-armhf.so.1	musl

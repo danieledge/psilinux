@@ -1,0 +1,18 @@
+name	sendpage
+version	1.0.3-r11
+description	SNPP server, client, queueing engine, modem control and TAP system
+url	https://sourceforge.net/projects/sendpage/
+license	GPL-2.0-or-later
+size	52700
+installed-size	172437
+depends	perl-mailtools perl-net-snpp perl-device-serialport perl-dbi perl-sys-hostname-long perl-test-mockobject
+origin	sendpage
+repo	main
+file	sendpage-1.0.3-r11.apk
+checksum	Q1GZFKO7XCQH9lf9z2vRDttq+z9yw=
+dep	perl-mailtools	perl-mailtools
+dep	perl-net-snpp	perl-net-snpp
+dep	perl-device-serialport	perl-device-serialport
+dep	perl-dbi	perl-dbi
+dep	perl-sys-hostname-long	perl-sys-hostname-long
+dep	perl-test-mockobject	perl-test-mockobject

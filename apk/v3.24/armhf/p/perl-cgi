@@ -1,0 +1,15 @@
+name	perl-cgi
+version	4.72-r0
+description	Handle Common Gateway Interface requests and responses
+url	https://metacpan.org/release/CGI/
+license	Artistic-2.0
+size	60852
+installed-size	188419
+depends	perl perl-html-parser perl-uri
+origin	perl-cgi
+repo	main
+file	perl-cgi-4.72-r0.apk
+checksum	Q1IFCIKZfK7cXG9cJADxtgrFF/Fgs=
+dep	perl	perl
+dep	perl-html-parser	perl-html-parser
+dep	perl-uri	perl-uri

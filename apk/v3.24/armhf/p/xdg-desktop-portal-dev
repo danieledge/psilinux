@@ -1,0 +1,14 @@
+name	xdg-desktop-portal-dev
+version	1.21.2-r0
+description	Desktop integration portal (development files)
+url	https://github.com/flatpak/xdg-desktop-portal
+license	LGPL-2.1-or-later
+size	1727
+installed-size	187
+depends	xdg-desktop-portal=1.21.2-r0 pkgconfig
+origin	xdg-desktop-portal
+repo	community
+file	xdg-desktop-portal-dev-1.21.2-r0.apk
+checksum	Q1pebMHEbAJudYp+rVpKMn5OLYa5g=
+dep	xdg-desktop-portal=1.21.2-r0	xdg-desktop-portal
+dep	pkgconfig	pkgconf

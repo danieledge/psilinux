@@ -1,0 +1,69 @@
+name	samba-client-libs
+version	4.23.8-r0
+description	Samba libraries used by clients
+url	https://www.samba.org/
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	363724
+installed-size	957336
+depends	samba-libs=4.23.8-r0 samba-util-libs=4.23.8-r0 ldb=4.23.8-r0 libauth-samba=4.23.8-r0 so:libMESSAGING-SEND-private-samba.so so:libMESSAGING-private-samba.so so:libaddns-private-samba.so so:libads-private-samba.so so:libasn1util-private-samba.so so:libauth-private-samba.so so:libauthkrb5-private-samba.so so:libc.musl-armhf.so.1 so:libcli-cldap-private-samba.so so:libcli-ldap-common-private-samba.so so:libcli-nbt-private-samba.so so:libcli-smb-common-private-samba.so so:libcli-spoolss-private-samba.so so:libcliauth-private-samba.so so:libclidns-private-samba.so so:libcommon-auth-private-samba.so so:libdcerpc-binding.so.0 so:libdcerpc-pkt-auth-private-samba.so so:libdcerpc-samba-private-samba.so so:libflag-mapping-private-samba.so so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgnutls.so.30 so:libgse-private-samba.so so:libinterfaces-private-samba.so so:libldb.so.2 so:libldbsamba-private-samba.so so:liblibsmb-private-samba.so so:libndr-nbt.so.0 so:libndr-samba-private-samba.so so:libndr-standard.so.0 so:libndr.so.6 so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-modules-private-samba.so so:libsamba-passdb.so.0 so:libsamba-security-private-samba.so so:libsamba-sockets-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsamdb-common-private-samba.so so:libsamdb.so.0 so:libsmbconf.so.0 so:libsocket-blocking-private-samba.so so:libsys-rw-private-samba.so so:libtalloc.so.2 so:libtasn1.so.6 so:libtevent-util.so.0 so:libtevent.so.0 so:libutil-reg-private-samba.so
+origin	samba
+repo	main
+file	samba-client-libs-4.23.8-r0.apk
+checksum	Q1q3+Jq0FrM2JVQ8SH8KwNqgqeW8o=
+dep	samba-libs=4.23.8-r0	samba-libs
+dep	samba-util-libs=4.23.8-r0	samba-util-libs
+dep	ldb=4.23.8-r0	ldb
+dep	libauth-samba=4.23.8-r0	libauth-samba
+dep	so:libMESSAGING-SEND-private-samba.so	samba-libs
+dep	so:libMESSAGING-private-samba.so	samba-libs
+dep	so:libaddns-private-samba.so	samba-libs
+dep	so:libads-private-samba.so	samba-libs
+dep	so:libasn1util-private-samba.so	samba-libs
+dep	so:libauth-private-samba.so	libauth-samba
+dep	so:libauthkrb5-private-samba.so	samba-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcli-cldap-private-samba.so	samba-libs
+dep	so:libcli-ldap-common-private-samba.so	samba-libs
+dep	so:libcli-nbt-private-samba.so	samba-libs
+dep	so:libcli-smb-common-private-samba.so	samba-libs
+dep	so:libcli-spoolss-private-samba.so	samba-libs
+dep	so:libcliauth-private-samba.so	samba-libs
+dep	so:libclidns-private-samba.so	samba-libs
+dep	so:libcommon-auth-private-samba.so	samba-libs
+dep	so:libdcerpc-binding.so.0	samba-libs
+dep	so:libdcerpc-pkt-auth-private-samba.so	samba-libs
+dep	so:libdcerpc-samba-private-samba.so	samba-libs
+dep	so:libflag-mapping-private-samba.so	samba-libs
+dep	so:libgenrand-private-samba.so	samba-util-libs
+dep	so:libgensec-private-samba.so	samba-libs
+dep	so:libgnutls.so.30	gnutls
+dep	so:libgse-private-samba.so	samba-libs
+dep	so:libinterfaces-private-samba.so	samba-libs
+dep	so:libldb.so.2	ldb
+dep	so:libldbsamba-private-samba.so	samba-libs
+dep	so:liblibsmb-private-samba.so	samba-libs
+dep	so:libndr-nbt.so.0	samba-libs
+dep	so:libndr-samba-private-samba.so	samba-libs
+dep	so:libndr-standard.so.0	samba-libs
+dep	so:libndr.so.6	samba-libs
+dep	so:libreplace-private-samba.so	samba-util-libs
+dep	so:libsamba-credentials.so.1	samba-libs
+dep	so:libsamba-debug-private-samba.so	samba-util-libs
+dep	so:libsamba-errors.so.1	samba-libs
+dep	so:libsamba-hostconfig.so.0	samba-libs
+dep	so:libsamba-modules-private-samba.so	samba-libs
+dep	so:libsamba-passdb.so.0	samba-libs
+dep	so:libsamba-security-private-samba.so	samba-libs
+dep	so:libsamba-sockets-private-samba.so	samba-libs
+dep	so:libsamba-util.so.0	samba-util-libs
+dep	so:libsamba3-util-private-samba.so	samba-libs
+dep	so:libsamdb-common-private-samba.so	samba-libs
+dep	so:libsamdb.so.0	samba-libs
+dep	so:libsmbconf.so.0	samba-libs
+dep	so:libsocket-blocking-private-samba.so	samba-util-libs
+dep	so:libsys-rw-private-samba.so	samba-util-libs
+dep	so:libtalloc.so.2	talloc
+dep	so:libtasn1.so.6	libtasn1
+dep	so:libtevent-util.so.0	samba-libs
+dep	so:libtevent.so.0	tevent
+dep	so:libutil-reg-private-samba.so	samba-libs

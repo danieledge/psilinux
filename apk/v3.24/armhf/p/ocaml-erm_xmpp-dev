@@ -1,0 +1,16 @@
+name	ocaml-erm_xmpp-dev
+version	0_git20220404-r5
+description	XMPP protocol implementation for OCaml (development files)
+url	https://github.com/hannesm/xmpp
+license	BSD-3-Clause
+size	1736711
+installed-size	4469866
+depends	ocaml-erm_xmpp=0_git20220404-r5 ocaml-base64-dev ocaml-erm_xml-dev ocaml-mirage-crypto-dev
+origin	ocaml-erm_xmpp
+repo	community
+file	ocaml-erm_xmpp-dev-0_git20220404-r5.apk
+checksum	Q1NMGwBwxeEMeQVupbvWr5ZOxwqbc=
+dep	ocaml-erm_xmpp=0_git20220404-r5	ocaml-erm_xmpp
+dep	ocaml-base64-dev	ocaml-base64-dev
+dep	ocaml-erm_xml-dev	ocaml-erm_xml-dev
+dep	ocaml-mirage-crypto-dev	ocaml-mirage-crypto-dev

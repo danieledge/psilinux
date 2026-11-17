@@ -1,0 +1,18 @@
+name	perl-test-http-localserver
+version	0.76-r1
+description	Spawn a local HTTP server for testing
+url	https://metacpan.org/release/Test-HTTP-LocalServer/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	14050
+installed-size	29562
+depends	perl perl-cgi perl-http-daemon perl-http-message perl-http-request-ascgi perl-uri
+origin	perl-test-http-localserver
+repo	community
+file	perl-test-http-localserver-0.76-r1.apk
+checksum	Q1J9Ksf1PpC+eyXY9ZK+O2mcSyRnw=
+dep	perl	perl
+dep	perl-cgi	perl-cgi
+dep	perl-http-daemon	perl-http-daemon
+dep	perl-http-message	perl-http-message
+dep	perl-http-request-ascgi	perl-http-request-ascgi
+dep	perl-uri	perl-uri

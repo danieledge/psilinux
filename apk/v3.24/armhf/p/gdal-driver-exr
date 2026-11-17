@@ -1,0 +1,18 @@
+name	gdal-driver-exr
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (Extended Dynamic Range Image File Format driver)
+url	https://gdal.org/
+license	MIT
+size	34219
+installed-size	83328
+depends	so:libImath-3_2.so.30 so:libOpenEXR-3_4.so.33 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libstdc++.so.6
+origin	gdal
+repo	community
+file	gdal-driver-exr-3.13.3-r0.apk
+checksum	Q1cvopYIGhg6mU46POzireGoMGET0=
+dep	so:libImath-3_2.so.30	imath
+dep	so:libOpenEXR-3_4.so.33	openexr-libopenexr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libstdc++.so.6	libstdc++

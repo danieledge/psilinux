@@ -1,0 +1,15 @@
+name	gnome-browser-connector
+version	42.1-r5
+description	OS-native connector for the GNOME browser extension
+url	https://gitlab.gnome.org/GNOME/gnome-browser-connector
+license	GPL-3.0-or-later
+size	15124
+installed-size	33412
+depends	python3 py3-gobject3 python3~3.14
+origin	gnome-browser-connector
+repo	community
+file	gnome-browser-connector-42.1-r5.apk
+checksum	Q1XvvCLJaAvPUOjG07IWqf0mNWmZw=
+dep	python3	python3
+dep	py3-gobject3	py3-gobject3
+dep	python3~3.14	python3

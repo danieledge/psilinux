@@ -1,0 +1,13 @@
+name	aws-c-s3-dev
+version	0.12.3-r0
+description	AWS C99 library implementation for communicating with the S3 service (development files)
+url	https://github.com/awslabs/aws-c-s3
+license	Apache-2.0
+size	25311
+installed-size	96489
+depends	aws-c-s3=0.12.3-r0
+origin	aws-c-s3
+repo	community
+file	aws-c-s3-dev-0.12.3-r0.apk
+checksum	Q1Yqoz01xrasovs505pLnq6nOKMh4=
+dep	aws-c-s3=0.12.3-r0	aws-c-s3

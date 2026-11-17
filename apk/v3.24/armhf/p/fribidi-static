@@ -1,0 +1,13 @@
+name	fribidi-static
+version	1.0.16-r3
+description	Free Implementation of the Unicode Bidirectional Algorithm (static library)
+url	https://github.com/fribidi/fribidi
+license	LGPL-2.1-or-later
+size	29211
+installed-size	146074
+depends	fribidi-dev
+origin	fribidi
+repo	main
+file	fribidi-static-1.0.16-r3.apk
+checksum	Q1Ew2nDP/7U2d/w0xhabwX01h0BiM=
+dep	fribidi-dev	fribidi-dev

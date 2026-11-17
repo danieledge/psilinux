@@ -1,0 +1,18 @@
+name	libxaw
+version	1.0.16-r1
+description	X Athena Widget Set
+url	https://www.x.org/
+license	MIT
+size	158766
+installed-size	333828
+depends	so:libX11.so.6 so:libXext.so.6 so:libXmu.so.6 so:libXpm.so.4 so:libXt.so.6 so:libc.musl-armhf.so.1
+origin	libxaw
+repo	main
+file	libxaw-1.0.16-r1.apk
+checksum	Q1w0EcTx52nHaA93RhAcCoe09NTOw=
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXmu.so.6	libxmu
+dep	so:libXpm.so.4	libxpm
+dep	so:libXt.so.6	libxt
+dep	so:libc.musl-armhf.so.1	musl

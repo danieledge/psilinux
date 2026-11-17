@@ -1,0 +1,14 @@
+name	bullet-dev
+version	3.25-r3
+description	A 3D Collision Detection and Rigid Body Dynamics Library for games and animation (development files)
+url	https://pybullet.org/Bullet/phpBB3/
+license	Zlib
+size	3556093
+installed-size	18244635
+depends	bullet=3.25-r3 pkgconfig
+origin	bullet
+repo	community
+file	bullet-dev-3.25-r3.apk
+checksum	Q1Fz1heq3M4O1lOVBhPPbnLVl1XoE=
+dep	bullet=3.25-r3	bullet
+dep	pkgconfig	pkgconf

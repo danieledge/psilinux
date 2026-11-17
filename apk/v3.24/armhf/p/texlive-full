@@ -1,0 +1,31 @@
+name	texlive-full
+version	2026.0-r0
+description	A complete TeX distribution
+url	https://tug.org/texlive/
+license	GPL-2.0-or-later AND GPL-3.0-or-later
+size	1393
+installed-size	0
+depends	texlive texlive-bibtexextra texlive-binextra texlive-context texlive-dvi texlive-fontutils texlive-games texlive-humanities texlive-latexextra texlive-latexrecommended texlive-luatex texlive-mathscience texlive-music texlive-pictures texlive-plaingeneric texlive-pstricks texlive-xetex xdvik texmf-dist-full
+origin	texlive
+repo	community
+file	texlive-full-2026.0-r0.apk
+checksum	Q1kqArnFh9Bho5spE9kDOjtAo1Z2E=
+dep	texlive	texlive
+dep	texlive-bibtexextra	texlive-bibtexextra
+dep	texlive-binextra	texlive-binextra
+dep	texlive-context	texlive-context
+dep	texlive-dvi	texlive-dvi
+dep	texlive-fontutils	texlive-fontutils
+dep	texlive-games	texlive-games
+dep	texlive-humanities	texlive-humanities
+dep	texlive-latexextra	texlive-latexextra
+dep	texlive-latexrecommended	texlive-latexrecommended
+dep	texlive-luatex	texlive-luatex
+dep	texlive-mathscience	texlive-mathscience
+dep	texlive-music	texlive-music
+dep	texlive-pictures	texlive-pictures
+dep	texlive-plaingeneric	texlive-plaingeneric
+dep	texlive-pstricks	texlive-pstricks
+dep	texlive-xetex	texlive-xetex
+dep	xdvik	xdvik
+dep	texmf-dist-full	texmf-dist-full

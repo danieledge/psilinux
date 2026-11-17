@@ -1,0 +1,14 @@
+name	umix
+version	1.0.2-r10
+description	Program for adjusting soundcard volumes
+url	https://umix.sourceforge.net/
+license	GPL-2.0-or-later
+size	16058
+installed-size	30492
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	umix
+repo	main
+file	umix-1.0.2-r10.apk
+checksum	Q1TD3g81sgAJAmHtKWg+tBQW7bs4Q=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

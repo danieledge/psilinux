@@ -1,0 +1,12 @@
+name	oidentd-dbg
+version	3.1.0-r0
+description	Configurable IDENT server that supports NAT/IP masq (debug symbols)
+url	https://oidentd.janikrabe.com
+license	GPL-2.0-only
+size	65722
+installed-size	138628
+depends	!oidentd<3.1.0-r0 !oidentd>3.1.0-r0
+origin	oidentd
+repo	main
+file	oidentd-dbg-3.1.0-r0.apk
+checksum	Q1zgHDkeixcmymNL+m12b463ZwVC8=

@@ -1,0 +1,15 @@
+name	wimlib-dev
+version	1.14.4-r1
+description	Create, extract, and modify Windows Imaging archives (development files)
+url	https://wimlib.net/
+license	GPL-3.0-or-later
+size	295728
+installed-size	756884
+depends	wimlib=1.14.4-r1 pc:libntfs-3g pkgconfig
+origin	wimlib
+repo	community
+file	wimlib-dev-1.14.4-r1.apk
+checksum	Q1lEulE6KQ+zwWuZ4ZTvGQtm1csfM=
+dep	wimlib=1.14.4-r1	wimlib
+dep	pc:libntfs-3g	ntfs-3g-dev
+dep	pkgconfig	pkgconf

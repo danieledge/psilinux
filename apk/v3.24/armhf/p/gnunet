@@ -1,0 +1,33 @@
+name	gnunet
+version	0.27.0-r0
+description	A framework for secure and privacy enhancing peer-to-peer networking
+url	https://gnunet.org
+license	AGPL-3.0-only
+size	2727386
+installed-size	6564063
+depends	gnutls-utils iptables nss-tools openssl runit which /bin/sh so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgcrypt.so.20 so:libgmp.so.10 so:libgnutls.so.30 so:libidn2.so.0 so:libjansson.so.4 so:libjose.so.0 so:libltdl.so.7 so:libmicrohttpd.so.12 so:libsodium.so.26 so:libsqlite3.so.0 so:libunistring.so.5 so:libz.so.1
+origin	gnunet
+repo	community
+file	gnunet-0.27.0-r0.apk
+checksum	Q16wp0jw9x9mxAdlFGKDJODnmDfRY=
+dep	gnutls-utils	gnutls-utils
+dep	iptables	iptables
+dep	nss-tools	nss-tools
+dep	openssl	openssl
+dep	runit	runit
+dep	which	which
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgmp.so.10	gmp
+dep	so:libgnutls.so.30	gnutls
+dep	so:libidn2.so.0	libidn2
+dep	so:libjansson.so.4	jansson
+dep	so:libjose.so.0	libjose
+dep	so:libltdl.so.7	libltdl
+dep	so:libmicrohttpd.so.12	libmicrohttpd
+dep	so:libsodium.so.26	libsodium
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libunistring.so.5	libunistring
+dep	so:libz.so.1	zlib

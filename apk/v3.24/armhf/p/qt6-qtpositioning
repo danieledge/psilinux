@@ -1,0 +1,19 @@
+name	qt6-qtpositioning
+version	6.11.1-r0
+description	Provides access to position, satellite and area monitoring classes
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	275597
+installed-size	728583
+depends	xdg-utils so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Network.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	qt6-qtpositioning
+repo	community
+file	qt6-qtpositioning-6.11.1-r0.apk
+checksum	Q1chZFng4RZtTQTKUb1jkp9eEsv6E=
+dep	xdg-utils	xdg-utils
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6DBus.so.6	qt6-qtbase
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,14 @@
+name	php83-pecl-pcov
+version	1.0.12-r0
+description	Code coverage driver for PHP 8.3 - PECL
+url	https://pecl.php.net/package/pcov
+license	PHP-3.01
+size	9599
+installed-size	17707
+depends	php83-common so:libc.musl-armhf.so.1
+origin	php83-pecl-pcov
+repo	community
+file	php83-pecl-pcov-1.0.12-r0.apk
+checksum	Q1yN4Qe93w/mbZxKF+F0scmZpiDXI=
+dep	php83-common	php83-common
+dep	so:libc.musl-armhf.so.1	musl

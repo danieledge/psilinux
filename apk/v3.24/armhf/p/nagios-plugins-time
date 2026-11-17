@@ -1,0 +1,15 @@
+name	nagios-plugins-time
+version	2.5-r0
+description	Nagios plugin check_time
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	20545
+installed-size	42572
+depends	nagios-plugins so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-time-2.5-r0.apk
+checksum	Q1v6amm5EeE+CvHAu7XBGDnoJ2b9w=
+dep	nagios-plugins	nagios-plugins
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

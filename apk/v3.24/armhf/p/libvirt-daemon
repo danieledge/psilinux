@@ -1,0 +1,29 @@
+name	libvirt-daemon
+version	12.3.0-r0
+description	libvirt daemon package
+url	https://libvirt.org/
+license	LGPL-2.1-or-later
+size	170811
+installed-size	541598
+depends	libvirt-client=12.3.0-r0 bridge-utils dmidecode dnsmasq iproute2-tc iptables util-linux-misc so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libtirpc.so.3 so:libvirt-lxc.so.0 so:libvirt-qemu.so.0 so:libvirt.so.0
+origin	libvirt
+repo	community
+file	libvirt-daemon-12.3.0-r0.apk
+checksum	Q1fuEs4UHeIu9UjFrsJHBfhm5klPc=
+dep	libvirt-client=12.3.0-r0	libvirt-client
+dep	bridge-utils	bridge-utils
+dep	dmidecode	dmidecode
+dep	dnsmasq	dnsmasq
+dep	iproute2-tc	iproute2-tc
+dep	iptables	iptables
+dep	util-linux-misc	util-linux-misc
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libtirpc.so.3	libtirpc
+dep	so:libvirt-lxc.so.0	libvirt-libs
+dep	so:libvirt-qemu.so.0	libvirt-libs
+dep	so:libvirt.so.0	libvirt-libs

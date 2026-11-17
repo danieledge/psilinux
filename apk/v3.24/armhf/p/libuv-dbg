@@ -1,0 +1,12 @@
+name	libuv-dbg
+version	1.52.1-r0
+description	Cross-platform asychronous I/O (debug symbols)
+url	https://libuv.org/
+license	MIT
+size	326642
+installed-size	744200
+depends	!libuv<1.52.1-r0 !libuv>1.52.1-r0
+origin	libuv
+repo	main
+file	libuv-dbg-1.52.1-r0.apk
+checksum	Q1b9N/rOnVOVdGMXRD1gRU0hUa0so=

@@ -1,0 +1,18 @@
+name	sxmo-utils
+version	1.18.1-r4
+description	Utility scripts, programs, and configs that hold the Sxmo UI environment together
+url	https://git.sr.ht/~mil/sxmo-utils
+license	AGPL-3.0-only
+size	872323
+installed-size	1513290
+depends	coreutils gawk curl doas jq so:libc.musl-armhf.so.1
+origin	sxmo-utils
+repo	community
+file	sxmo-utils-1.18.1-r4.apk
+checksum	Q1ed8guCc0qKAXZYmbPDomuT0pDFY=
+dep	coreutils	coreutils
+dep	gawk	gawk
+dep	curl	curl
+dep	doas	doas
+dep	jq	jq
+dep	so:libc.musl-armhf.so.1	musl

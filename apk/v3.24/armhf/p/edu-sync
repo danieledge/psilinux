@@ -1,0 +1,14 @@
+name	edu-sync
+version	0.3.2-r2
+description	Moodle synchronization utility
+url	https://github.com/mkroening/edu-sync
+license	GPL-3.0-only
+size	2028389
+installed-size	4142292
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	edu-sync
+repo	community
+file	edu-sync-0.3.2-r2.apk
+checksum	Q1iwkxIOvx+2eF4eyi6E9A+Ah95/M=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,13 @@
+name	py3-zope-proxy-pyc
+version	7.1-r1
+description	Precompiled Python bytecode for py3-zope-proxy
+url	https://github.com/zopefoundation/zope.proxy
+license	ZPL-2.1
+size	36591
+installed-size	134187
+depends	python3~3.14
+origin	py3-zope-proxy
+repo	community
+file	py3-zope-proxy-pyc-7.1-r1.apk
+checksum	Q1nDdeSCMV5iA9JnfjpvcDs2P3h10=
+dep	python3~3.14	python3

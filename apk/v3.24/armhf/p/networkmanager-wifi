@@ -1,0 +1,19 @@
+name	networkmanager-wifi
+version	1.52.2-r0
+description	WiFi device plugin for NetworkManager
+url	https://networkmanager.dev
+license	GPL-2.0-or-later
+size	109049
+installed-size	251596
+depends	nm-wifi-backend /bin/sh so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8
+origin	networkmanager
+repo	community
+file	networkmanager-wifi-1.52.2-r0.apk
+checksum	Q1LDrH0yK3f0xQf4wDysmwx9zuj+A=
+dep	nm-wifi-backend	wpa_supplicant
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl

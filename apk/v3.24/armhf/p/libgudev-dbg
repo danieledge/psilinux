@@ -1,0 +1,12 @@
+name	libgudev-dbg
+version	238-r1
+description	GObject-based wrapper library for libudev (debug symbols)
+url	https://gitlab.gnome.org/GNOME/libgudev
+license	LGPL-2.1-or-later
+size	42334
+installed-size	107256
+depends	!libgudev<238-r1 !libgudev>238-r1
+origin	libgudev
+repo	community
+file	libgudev-dbg-238-r1.apk
+checksum	Q1F7/zx6Zwz9+XMcCvPjJW85arKr8=

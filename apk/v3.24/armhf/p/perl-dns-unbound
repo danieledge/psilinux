@@ -1,0 +1,19 @@
+name	perl-dns-unbound
+version	0.29-r3
+description	Query DNS recursively via libunbound
+url	https://metacpan.org/release/DNS-Unbound/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	23132
+installed-size	57389
+depends	perl perl-class-xsaccessor perl-net-dns perl-promise-es6 perl-x-tiny so:libc.musl-armhf.so.1 so:libunbound.so.8
+origin	perl-dns-unbound
+repo	community
+file	perl-dns-unbound-0.29-r3.apk
+checksum	Q1hIg8rCQuzp1JFODqVHWR5GTmHkM=
+dep	perl	perl
+dep	perl-class-xsaccessor	perl-class-xsaccessor
+dep	perl-net-dns	perl-net-dns
+dep	perl-promise-es6	perl-promise-es6
+dep	perl-x-tiny	perl-x-tiny
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libunbound.so.8	unbound-libs

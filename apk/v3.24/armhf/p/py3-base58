@@ -1,0 +1,14 @@
+name	py3-base58
+version	2.1.1-r4
+description	Bitcoin-compatible Base58 and Base58Check implementation
+url	https://github.com/keis/base58
+license	MIT
+size	6932
+installed-size	10531
+depends	python3 python3~3.14
+origin	py3-base58
+repo	community
+file	py3-base58-2.1.1-r4.apk
+checksum	Q1g32Yo5E7+HucFXsRjZs+Zw4wy34=
+dep	python3	python3
+dep	python3~3.14	python3

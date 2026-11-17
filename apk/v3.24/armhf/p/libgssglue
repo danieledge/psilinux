@@ -1,0 +1,15 @@
+name	libgssglue
+version	0.7-r0
+description	exports a gssapi interface which calls other random gssapi libraries
+url	https://gitlab.com/gsasl/libgssglue
+license	BSD-3-Clause
+size	15813
+installed-size	31158
+depends	heimdal-dev heimdal-libs so:libc.musl-armhf.so.1
+origin	libgssglue
+repo	community
+file	libgssglue-0.7-r0.apk
+checksum	Q1AhW0hQ6o0+GlRVaDGrJ4CpiJD+o=
+dep	heimdal-dev	heimdal-dev
+dep	heimdal-libs	heimdal-libs
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,16 @@
+name	ruby-httparty
+version	0.24.2-r0
+description	Makes http fun! Also, makes consuming restful web services dead easy.
+url	https://rubygems.org/gems/httparty
+license	MIT
+size	25600
+installed-size	85832
+depends	ruby ruby-multi_xml ruby-csv ruby-mini_mime
+origin	ruby-httparty
+repo	community
+file	ruby-httparty-0.24.2-r0.apk
+checksum	Q1fSaBxy++taol/cnpJLyxtoVPwm0=
+dep	ruby	ruby
+dep	ruby-multi_xml	ruby-multi_xml
+dep	ruby-csv	ruby-csv
+dep	ruby-mini_mime	ruby-mini_mime

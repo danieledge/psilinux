@@ -1,0 +1,13 @@
+name	lm-sensors-fancontrol-openrc
+version	3.6.0-r5
+description	fancontrol daemon (OpenRC init scripts)
+url	https://github.com/lm-sensors/lm-sensors
+license	LGPL-2.1-or-later AND GPL-2.0-or-later
+size	2000
+installed-size	727
+depends	sysfsutils
+origin	lm-sensors
+repo	main
+file	lm-sensors-fancontrol-openrc-3.6.0-r5.apk
+checksum	Q1dlG/6VK60eKx2/iP9WxWuz26kAo=
+dep	sysfsutils	sysfsutils

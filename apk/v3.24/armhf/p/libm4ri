@@ -1,0 +1,15 @@
+name	libm4ri
+version	20240729-r3
+description	Fast arithmetic with dense matrices over F2
+url	https://github.com/malb/m4ri
+license	GPL-2.0-or-later
+size	143776
+installed-size	267544
+depends	so:libc.musl-armhf.so.1 so:libgomp.so.1 so:libpng16.so.16
+origin	libm4ri
+repo	community
+file	libm4ri-20240729-r3.apk
+checksum	Q1jV+3oIVoTMYbGk+f4/6WhwImhjM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgomp.so.1	libgomp
+dep	so:libpng16.so.16	libpng

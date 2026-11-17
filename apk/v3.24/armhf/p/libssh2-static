@@ -1,0 +1,13 @@
+name	libssh2-static
+version	1.11.1-r4
+description	library for accessing ssh1/ssh2 protocol servers (static library)
+url	https://libssh2.org/
+license	BSD-3-Clause
+size	655467
+installed-size	1534258
+depends	libssh2-dev
+origin	libssh2
+repo	main
+file	libssh2-static-1.11.1-r4.apk
+checksum	Q1ivk7QZV2hdXlT7vl5pkev6ta1iU=
+dep	libssh2-dev	libssh2-dev

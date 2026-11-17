@@ -1,0 +1,15 @@
+name	baculum-web-apache2
+version	15.0.3-r0
+description	Apache configuration for Baculum WebGUI
+url	https://bacula.org/
+license	AGPL-3.0-or-later
+size	2309
+installed-size	1982
+depends	baculum-web=15.0.3-r0 apache2 php83-apache2
+origin	baculum
+repo	community
+file	baculum-web-apache2-15.0.3-r0.apk
+checksum	Q16ViHjsamuXiehcGG/Si175e8yio=
+dep	baculum-web=15.0.3-r0	baculum-web
+dep	apache2	apache2
+dep	php83-apache2	php83-apache2

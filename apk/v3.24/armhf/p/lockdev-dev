@@ -1,0 +1,14 @@
+name	lockdev-dev
+version	0_git20130107-r4
+description	Run-time shared library for locking devices, using _both_ FSSTND and SVr4 methods. (development files)
+url	https://packages.qa.debian.org/l/lockdev.html
+license	LGPL-2.1-or-later
+size	3179
+installed-size	3482
+depends	lockdev=0_git20130107-r4 pkgconfig
+origin	lockdev
+repo	community
+file	lockdev-dev-0_git20130107-r4.apk
+checksum	Q1BxJM/EXwx4gWyzMMIGIpQEHndzI=
+dep	lockdev=0_git20130107-r4	lockdev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,15 @@
+name	libgc++
+version	8.2.12-r0
+description	garbage collector for C and C++
+url	https://hboehm.info/gc/
+license	Boehm-GC
+size	3608
+installed-size	6406
+depends	so:libgc.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	gc
+repo	main
+file	libgc++-8.2.12-r0.apk
+checksum	Q1WLS3eNcVA093tGB6C3+gpItwtgo=
+dep	so:libgc.so.1	gc
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

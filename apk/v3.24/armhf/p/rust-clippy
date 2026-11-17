@@ -1,0 +1,16 @@
+name	rust-clippy
+version	1.96.1-r0
+description	Lints to catch common mistakes and improve your Rust code
+url	https://doc.rust-lang.org/clippy/
+license	MIT or Apache-2.0
+size	4416351
+installed-size	11186380
+depends	cargo=1.96.1-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:librustc_driver-69a452e1c981a366.so
+origin	rust
+repo	main
+file	rust-clippy-1.96.1-r0.apk
+checksum	Q1MWlurJO21j9N2edeJRh8BhcHty8=
+dep	cargo=1.96.1-r0	cargo
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:librustc_driver-69a452e1c981a366.so	rust

@@ -1,0 +1,13 @@
+name	awall-masquerade
+version	1.14.0-r1
+description	Alpine Wall
+url	https://gitlab.alpinelinux.org/alpine/awall
+license	GPL-2.0-only
+size	2197
+installed-size	697
+depends	awall
+origin	awall
+repo	main
+file	awall-masquerade-1.14.0-r1.apk
+checksum	Q1zMvWpVT0EQsZB5JX2exXCreHPR0=
+dep	awall	awall

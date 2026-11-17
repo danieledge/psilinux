@@ -1,0 +1,15 @@
+name	kamailio-uuid
+version	6.0.6-r0
+description	Kamailio UUID generator using libuuid
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	6649
+installed-size	13856
+depends	kamailio so:libc.musl-armhf.so.1 so:libuuid.so.1
+origin	kamailio
+repo	main
+file	kamailio-uuid-6.0.6-r0.apk
+checksum	Q1IY01pxqm85R2iRCobD9PAXeF6m4=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libuuid.so.1	libuuid

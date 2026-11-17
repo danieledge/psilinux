@@ -1,0 +1,30 @@
+name	ocaml-lwt_react
+version	5.7.0-r3
+description	OCaml promises and concurrent I/O (for FRP)
+url	https://github.com/ocsigen/lwt
+license	MIT
+size	122339
+installed-size	280817
+depends	ocaml4-impl:Lwt:baa2ae1339429598139ca8f1ac3ebfee ocaml4-impl:Lwt_mutex:5edaa755aaad037cce71a442b784d2e8 ocaml4-impl:Lwt_stream:1088913311ba2079ae025a285a2e4461 ocaml4-impl:React:ef06f6b030032325622e497b2c2d2a02 ocaml4-impl:Stdlib__Gc:964e050fdb62f138f6733a17ac557d41 ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15 ocaml4-intf:Lwt:9d6b616c677c329464b7e7ddca72e57b ocaml4-intf:Lwt_mutex:2867486b043ee0a170b94ef48fc2d5bc ocaml4-intf:Lwt_seq:dbb77d2aa19832d681fa77ccfb4579d4 ocaml4-intf:Lwt_sequence:0a721086ad2af7d69b049bb70357cac1 ocaml4-intf:Lwt_stream:fbabdc62f9ffd1f6e75ca8a9a20238ac ocaml4-intf:React:897e17bd09def5b66ca66fef0b5fa3b5 ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91 ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9 ocaml4-intf:Stdlib__Gc:c3ec15218bd26e175e6d959e216eb39a ocaml4-intf:Stdlib__Printexc:ae914d0568e8b6e482a66bbd62a4432f ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962 ocaml4-intf:Stdlib__Sys:7726a14ce36f5c6c3abb04975cec748b
+origin	ocaml-lwt
+repo	community
+file	ocaml-lwt_react-5.7.0-r3.apk
+checksum	Q1j1wcyCO0+gU3fi1m0DsQwHRkldo=
+dep	ocaml4-impl:Lwt:baa2ae1339429598139ca8f1ac3ebfee	ocaml-lwt
+dep	ocaml4-impl:Lwt_mutex:5edaa755aaad037cce71a442b784d2e8	ocaml-lwt
+dep	ocaml4-impl:Lwt_stream:1088913311ba2079ae025a285a2e4461	ocaml-lwt
+dep	ocaml4-impl:React:ef06f6b030032325622e497b2c2d2a02	ocaml-react
+dep	ocaml4-impl:Stdlib__Gc:964e050fdb62f138f6733a17ac557d41	ocaml
+dep	ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15	ocaml
+dep	ocaml4-intf:Lwt:9d6b616c677c329464b7e7ddca72e57b	ocaml-lwt
+dep	ocaml4-intf:Lwt_mutex:2867486b043ee0a170b94ef48fc2d5bc	ocaml-lwt
+dep	ocaml4-intf:Lwt_seq:dbb77d2aa19832d681fa77ccfb4579d4	ocaml-lwt
+dep	ocaml4-intf:Lwt_sequence:0a721086ad2af7d69b049bb70357cac1	ocaml-lwt
+dep	ocaml4-intf:Lwt_stream:fbabdc62f9ffd1f6e75ca8a9a20238ac	ocaml-lwt
+dep	ocaml4-intf:React:897e17bd09def5b66ca66fef0b5fa3b5	ocaml-react
+dep	ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91	ocaml
+dep	ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9	ocaml
+dep	ocaml4-intf:Stdlib__Gc:c3ec15218bd26e175e6d959e216eb39a	ocaml
+dep	ocaml4-intf:Stdlib__Printexc:ae914d0568e8b6e482a66bbd62a4432f	ocaml
+dep	ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962	ocaml
+dep	ocaml4-intf:Stdlib__Sys:7726a14ce36f5c6c3abb04975cec748b	ocaml

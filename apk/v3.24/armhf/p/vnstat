@@ -1,0 +1,16 @@
+name	vnstat
+version	2.13-r1
+description	Console-based network traffic monitor
+url	https://humdi.net/vnstat
+license	GPL-2.0-or-later
+size	169733
+installed-size	371880
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libgd.so.3 so:libsqlite3.so.0
+origin	vnstat
+repo	community
+file	vnstat-2.13-r1.apk
+checksum	Q1UInHGOqnGM23W3JHNzfNtKQJ7os=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgd.so.3	libgd
+dep	so:libsqlite3.so.0	sqlite-libs

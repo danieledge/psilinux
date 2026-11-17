@@ -1,0 +1,17 @@
+name	razor
+version	2.86-r1
+description	Vipul's Razor is a distributed, collaborative spam detection and filtering network
+url	https://metacpan.org/dist/Razor2-Client-Agent
+license	Artistic-2.0
+size	63325
+installed-size	213792
+depends	perl perl-digest-sha1 perl-getopt-long perl-uri so:libc.musl-armhf.so.1
+origin	razor
+repo	main
+file	razor-2.86-r1.apk
+checksum	Q1sYrM3qPiVXaihKfUvTkcH/t4JG8=
+dep	perl	perl
+dep	perl-digest-sha1	perl-digest-sha1
+dep	perl-getopt-long	perl-getopt-long
+dep	perl-uri	perl-uri
+dep	so:libc.musl-armhf.so.1	musl

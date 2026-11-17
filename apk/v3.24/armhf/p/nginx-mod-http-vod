@@ -1,0 +1,17 @@
+name	nginx-mod-http-vod
+version	1.30.6-r0
+description	Nginx third-party module http-vod (version 1.33)
+url	https://github.com/kaltura/nginx-vod-module
+license	BSD-2-Clause
+size	225167
+installed-size	464810
+depends	nginx=1.30.6-r0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libxml2.so.2 so:libz.so.1
+origin	nginx
+repo	main
+file	nginx-mod-http-vod-1.30.6-r0.apk
+checksum	Q1MFRAI/LfXAD1hgG/bsl/J85LDmQ=
+dep	nginx=1.30.6-r0	nginx
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

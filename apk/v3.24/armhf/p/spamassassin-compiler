@@ -1,0 +1,18 @@
+name	spamassassin-compiler
+version	4.0.2-r1
+description	SpamAssassin rules compiler
+url	https://metacpan.org/pod/Mail::SpamAssassin
+license	Apache-2.0
+size	9770
+installed-size	22472
+depends	re2c gcc make libc-dev perl-dev perl-mail-spamassassin
+origin	spamassassin
+repo	main
+file	spamassassin-compiler-4.0.2-r1.apk
+checksum	Q1j3cviPhkByP+UP33GXOyWv9kQ2E=
+dep	re2c	re2c
+dep	gcc	gcc
+dep	make	make
+dep	libc-dev	musl-dev
+dep	perl-dev	perl-dev
+dep	perl-mail-spamassassin	perl-mail-spamassassin

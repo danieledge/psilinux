@@ -1,0 +1,33 @@
+name	samba-server-libs
+version	4.23.8-r0
+description	Samba libraries shared by server and windbind
+url	https://www.samba.org/
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	53052
+installed-size	188312
+depends	samba-libs=4.23.8-r0 samba-util-libs=4.23.8-r0 so:libc.musl-armhf.so.1 so:libdbwrap-private-samba.so so:libdcerpc-binding.so.0 so:libgenrand-private-samba.so so:libndr-samba4-private-samba.so so:libndr.so.6 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-modules-private-samba.so so:libsamba-passdb.so.0 so:libsamba-security-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsecrets3-private-samba.so so:libsmbconf.so.0 so:libtalloc.so.2 so:libtevent-util.so.0 so:libtevent.so.0 so:libutil-tdb-private-samba.so
+origin	samba
+repo	main
+file	samba-server-libs-4.23.8-r0.apk
+checksum	Q1Vkpi+lQP9ABemJo28thhJOkudiQ=
+dep	samba-libs=4.23.8-r0	samba-libs
+dep	samba-util-libs=4.23.8-r0	samba-util-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbwrap-private-samba.so	samba-libs
+dep	so:libdcerpc-binding.so.0	samba-libs
+dep	so:libgenrand-private-samba.so	samba-util-libs
+dep	so:libndr-samba4-private-samba.so	samba-libs
+dep	so:libndr.so.6	samba-libs
+dep	so:libsamba-debug-private-samba.so	samba-util-libs
+dep	so:libsamba-errors.so.1	samba-libs
+dep	so:libsamba-modules-private-samba.so	samba-libs
+dep	so:libsamba-passdb.so.0	samba-libs
+dep	so:libsamba-security-private-samba.so	samba-libs
+dep	so:libsamba-util.so.0	samba-util-libs
+dep	so:libsamba3-util-private-samba.so	samba-libs
+dep	so:libsecrets3-private-samba.so	samba-libs
+dep	so:libsmbconf.so.0	samba-libs
+dep	so:libtalloc.so.2	talloc
+dep	so:libtevent-util.so.0	samba-libs
+dep	so:libtevent.so.0	tevent
+dep	so:libutil-tdb-private-samba.so	samba-libs

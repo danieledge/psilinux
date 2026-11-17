@@ -1,0 +1,16 @@
+name	dnsfunnel
+version	0.0.3.2-r0
+description	A small local DNS cache daemon
+url	https://skarnet.org/software/dnsfunnel/
+license	ISC
+size	13933
+installed-size	31733
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libs6dns.so.2.4 so:libskarnet.so.2.15
+origin	dnsfunnel
+repo	main
+file	dnsfunnel-0.0.3.2-r0.apk
+checksum	Q1Gjruuf2159l3wPawAw7LzdlRMMQ=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libs6dns.so.2.4	s6-dns-libs
+dep	so:libskarnet.so.2.15	skalibs-libs

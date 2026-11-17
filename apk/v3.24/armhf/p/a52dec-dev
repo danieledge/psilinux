@@ -1,0 +1,14 @@
+name	a52dec-dev
+version	0.8.0-r11
+description	A free library for decoding ATSC A/52 streams. (development files)
+url	https://liba52.sourceforge.net/
+license	GPL-2.0-or-later
+size	3693
+installed-size	6431
+depends	a52dec=0.8.0-r11 pkgconfig
+origin	a52dec
+repo	community
+file	a52dec-dev-0.8.0-r11.apk
+checksum	Q1RuagGuhJg5ec2Zy+5B/1m94u1Sc=
+dep	a52dec=0.8.0-r11	a52dec
+dep	pkgconfig	pkgconf

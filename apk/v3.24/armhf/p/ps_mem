@@ -1,0 +1,13 @@
+name	ps_mem
+version	3.14-r0
+description	A utility to report core memory usage per program
+url	https://github.com/pixelb/ps_mem
+license	LGPL-2.1-or-later
+size	8817
+installed-size	23835
+depends	python3
+origin	ps_mem
+repo	community
+file	ps_mem-3.14-r0.apk
+checksum	Q180nKwaB0v71P8MO35LXwHqtMA2Y=
+dep	python3	python3

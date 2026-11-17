@@ -1,0 +1,15 @@
+name	handlr
+version	0.10.0-r0
+description	A better xdg-utils - manage mimeapps.list and default applications with ease
+url	https://github.com/Anomalocaridid/handlr-regex
+license	MIT
+size	823216
+installed-size	1647772
+depends	shared-mime-info so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	handlr
+repo	community
+file	handlr-0.10.0-r0.apk
+checksum	Q1sJiaWnYy26dmJHMjVlnYdoRYeWY=
+dep	shared-mime-info	shared-mime-info
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

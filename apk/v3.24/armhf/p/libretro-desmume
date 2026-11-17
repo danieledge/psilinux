@@ -1,0 +1,16 @@
+name	libretro-desmume
+version	0_git20241021-r0
+description	Nintendo DS core for libretro
+url	https://github.com/libretro/desmume
+license	GPL-2.0-or-later
+size	1051888
+installed-size	3160240
+depends	so:libGL.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libretro-desmume
+repo	community
+file	libretro-desmume-0_git20241021-r0.apk
+checksum	Q1K9Qg8JSzRx3bUxq85DHuD3R0y7c=
+dep	so:libGL.so.1	mesa-gl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,14 @@
+name	ssu-sysinfo-dev
+version	1.5.0-r0
+description	Mer's ssu-sysinfo (development files)
+url	https://github.com/sailfishos/ssu-sysinfo
+license	LGPL-2.1-or-later AND BSD-3-Clause
+size	7007
+installed-size	20107
+depends	ssu-sysinfo=1.5.0-r0 pkgconfig
+origin	ssu-sysinfo
+repo	community
+file	ssu-sysinfo-dev-1.5.0-r0.apk
+checksum	Q16Fa667SXU40WtsWaCZWAorahNRI=
+dep	ssu-sysinfo=1.5.0-r0	ssu-sysinfo
+dep	pkgconfig	pkgconf

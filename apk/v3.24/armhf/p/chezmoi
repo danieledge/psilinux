@@ -1,0 +1,13 @@
+name	chezmoi
+version	2.70.5-r2
+description	Manage your dotfiles across multiple machines, securely.
+url	https://www.chezmoi.io/
+license	MIT
+size	16968505
+installed-size	47259900
+depends	so:libc.musl-armhf.so.1
+origin	chezmoi
+repo	community
+file	chezmoi-2.70.5-r2.apk
+checksum	Q1XbqdnJpyAka7RqF/gqmO4uOWNUM=
+dep	so:libc.musl-armhf.so.1	musl

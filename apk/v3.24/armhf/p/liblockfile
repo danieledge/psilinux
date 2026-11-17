@@ -1,0 +1,13 @@
+name	liblockfile
+version	1.17-r4
+description	Shared library with NFS-safe locking functions
+url	https://github.com/miquels/liblockfile
+license	LGPL-2.0-or-later AND GPL-2.0-or-later
+size	9333
+installed-size	22820
+depends	so:libc.musl-armhf.so.1
+origin	liblockfile
+repo	main
+file	liblockfile-1.17-r4.apk
+checksum	Q1lwfQ33V55hQ8DTe5Zf1GCl/xQ5E=
+dep	so:libc.musl-armhf.so.1	musl

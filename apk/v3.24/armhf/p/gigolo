@@ -1,0 +1,19 @@
+name	gigolo
+version	0.5.3-r0
+description	GIO management application
+url	https://www.uvena.de/gigolo/
+license	GPL-2.0-only
+size	67534
+installed-size	160130
+depends	so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8
+origin	gigolo
+repo	community
+file	gigolo-0.5.3-r0.apk
+checksum	Q1sEoQ+pKGdf+/U0IASe3w2vg9asw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl

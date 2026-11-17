@@ -1,0 +1,15 @@
+name	tpm2-tss-tcti-pcap
+version	4.1.2-r0
+description	TPM 2.0 PCAP TCTI
+url	https://github.com/tpm2-software/tpm2-tss/
+license	BSD-2-Clause
+size	12924
+installed-size	25792
+depends	so:libc.musl-armhf.so.1 so:libtss2-mu.so.0 so:libtss2-tctildr.so.0
+origin	tpm2-tss
+repo	community
+file	tpm2-tss-tcti-pcap-4.1.2-r0.apk
+checksum	Q1js+ZtttrVhrPav9OB9yBpRP8PD8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libtss2-mu.so.0	tpm2-tss-mu
+dep	so:libtss2-tctildr.so.0	tpm2-tss-tctildr

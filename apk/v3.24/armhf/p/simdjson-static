@@ -1,0 +1,13 @@
+name	simdjson-static
+version	4.2.4-r0
+description	Parsing gigabytes of JSON per second (static library)
+url	https://simdjson.org/
+license	Apache-2.0 OR MIT
+size	55713
+installed-size	113730
+depends	simdjson-dev
+origin	simdjson
+repo	main
+file	simdjson-static-4.2.4-r0.apk
+checksum	Q1j0M26sxRehcwsgQYomvpfC4TWR8=
+dep	simdjson-dev	simdjson-dev

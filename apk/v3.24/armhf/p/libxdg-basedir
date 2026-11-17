@@ -1,0 +1,13 @@
+name	libxdg-basedir
+version	1.2.3-r1
+description	library for XDG base dir specification
+url	https://github.com/davmac314/libxdg-basedir
+license	MIT
+size	5711
+installed-size	9356
+depends	so:libc.musl-armhf.so.1
+origin	libxdg-basedir
+repo	community
+file	libxdg-basedir-1.2.3-r1.apk
+checksum	Q1H2lgXjE1naaRblOsOo+qD8RJdsg=
+dep	so:libc.musl-armhf.so.1	musl

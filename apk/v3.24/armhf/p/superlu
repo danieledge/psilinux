@@ -1,0 +1,14 @@
+name	superlu
+version	7.0.1-r0
+description	Sparse LU factorization library
+url	https://portal.nersc.gov/project/sparse/superlu/
+license	BSD-3-Clause
+size	244694
+installed-size	439416
+depends	openblas so:libc.musl-armhf.so.1
+origin	superlu
+repo	community
+file	superlu-7.0.1-r0.apk
+checksum	Q1S8ogssaWhBP21oOxIiZ6R/ljqBI=
+dep	openblas	openblas
+dep	so:libc.musl-armhf.so.1	musl

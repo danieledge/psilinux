@@ -1,0 +1,16 @@
+name	jsonnet
+version	0.21.0-r0
+description	The data templating language
+url	https://jsonnet.org/
+license	Apache-2.0
+size	42359
+installed-size	88832
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libjsonnet.so.0 so:libstdc++.so.6
+origin	jsonnet
+repo	community
+file	jsonnet-0.21.0-r0.apk
+checksum	Q1BCRwm9zPz3BFkvNbEwMtO/R0nmE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjsonnet.so.0	jsonnet-libs
+dep	so:libstdc++.so.6	libstdc++

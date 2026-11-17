@@ -1,0 +1,24 @@
+name	ocaml-psq
+version	0.2.0-r5
+description	Functional Priority Search Queues
+url	https://github.com/pqwy/psq
+license	ISC
+size	99040
+installed-size	218023
+depends	ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2 ocaml4-impl:Stdlib__Format:e6a8c10e2ca30876ab1a7c9d82df6899 ocaml4-impl:Stdlib__List:b42dc21c9462b2cabc74ab8825425e32 ocaml4-impl:Stdlib__Seq:4746b90b65bf20702412e575777f309e ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15 ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91 ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822 ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9 ocaml4-intf:Stdlib__Format:b6edb97b685819e873481fe05723c8bc ocaml4-intf:Stdlib__List:ee222542f6f8195441543b8b399b64b9 ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962 ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57
+origin	ocaml-psq
+repo	community
+file	ocaml-psq-0.2.0-r5.apk
+checksum	Q1oem7LIKjfT5xF93YilJqYOxNxH4=
+dep	ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2	ocaml
+dep	ocaml4-impl:Stdlib__Format:e6a8c10e2ca30876ab1a7c9d82df6899	ocaml
+dep	ocaml4-impl:Stdlib__List:b42dc21c9462b2cabc74ab8825425e32	ocaml
+dep	ocaml4-impl:Stdlib__Seq:4746b90b65bf20702412e575777f309e	ocaml
+dep	ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15	ocaml
+dep	ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91	ocaml
+dep	ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822	ocaml
+dep	ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9	ocaml
+dep	ocaml4-intf:Stdlib__Format:b6edb97b685819e873481fe05723c8bc	ocaml
+dep	ocaml4-intf:Stdlib__List:ee222542f6f8195441543b8b399b64b9	ocaml
+dep	ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962	ocaml
+dep	ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57	ocaml

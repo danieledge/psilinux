@@ -1,0 +1,14 @@
+name	libksba
+version	1.7.0-r0
+description	Libksba is a CMS and X.509 access library
+url	https://www.gnupg.org/software/libksba/index.html
+license	LGPL-3.0-only AND GPL-2.0-only AND GPL-3.0-only
+size	90639
+installed-size	197980
+depends	so:libc.musl-armhf.so.1 so:libgpg-error.so.0
+origin	libksba
+repo	main
+file	libksba-1.7.0-r0.apk
+checksum	Q1ZVnSfuetSlWfspwh1iMp5XDgSTo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgpg-error.so.0	libgpg-error

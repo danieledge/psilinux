@@ -1,0 +1,37 @@
+name	gajim-lang
+version	2.4.6-r0
+description	Languages for package gajim
+url	https://gajim.org/
+license	GPL-3.0-or-later AND GPL-2.0-or-later
+size	989545
+installed-size	2659587
+depends	libadwaita dbus gtk4.0 gtksourceview5 libsoup3 py3-cairo py3-css-parser py3-emoji py3-gobject3 py3-httpx py3-h2 py3-keyring py3-nbxmpp py3-omemo-dr py3-openssl py3-packaging py3-pillow py3-precis-i18n py3-qrcode py3-socksio py3-sqlalchemy py3-truststore sqlite pango python3~3.14
+origin	gajim
+repo	community
+file	gajim-lang-2.4.6-r0.apk
+checksum	Q1GzhXb872Yp2Hc0ECh4yRY0cCUGY=
+dep	libadwaita	libadwaita
+dep	dbus	dbus
+dep	gtk4.0	gtk4.0
+dep	gtksourceview5	gtksourceview5
+dep	libsoup3	libsoup3
+dep	py3-cairo	py3-cairo
+dep	py3-css-parser	py3-css-parser
+dep	py3-emoji	py3-emoji
+dep	py3-gobject3	py3-gobject3
+dep	py3-httpx	py3-httpx
+dep	py3-h2	py3-h2
+dep	py3-keyring	py3-keyring
+dep	py3-nbxmpp	py3-nbxmpp
+dep	py3-omemo-dr	py3-omemo-dr
+dep	py3-openssl	py3-openssl
+dep	py3-packaging	py3-packaging
+dep	py3-pillow	py3-pillow
+dep	py3-precis-i18n	py3-precis-i18n
+dep	py3-qrcode	py3-qrcode
+dep	py3-socksio	py3-socksio
+dep	py3-sqlalchemy	py3-sqlalchemy
+dep	py3-truststore	py3-truststore
+dep	sqlite	sqlite
+dep	pango	pango
+dep	python3~3.14	python3

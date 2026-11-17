@@ -1,0 +1,13 @@
+name	libplist-static
+version	2.7.0-r1
+description	library to handle Apple Property List format whereas it's binary or XML (static library)
+url	https://libimobiledevice.org
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	74910
+installed-size	235876
+depends	libplist-dev
+origin	libplist
+repo	community
+file	libplist-static-2.7.0-r1.apk
+checksum	Q15AEArEctY8EjK2+lXMfIA18BvQA=
+dep	libplist-dev	libplist-dev

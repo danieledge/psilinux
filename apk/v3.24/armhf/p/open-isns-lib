@@ -1,0 +1,14 @@
+name	open-isns-lib
+version	0.102-r2
+description	iSNS server and client for Linux
+url	https://github.com/open-iscsi/open-isns
+license	LGPL-2.1-or-later
+size	83913
+installed-size	312116
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	open-isns
+repo	main
+file	open-isns-lib-0.102-r2.apk
+checksum	Q1gMBm6MkHEfEfHPe3UaUfoAxr76w=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

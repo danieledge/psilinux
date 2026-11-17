@@ -1,0 +1,16 @@
+name	mongo-c-driver-dev
+version	1.30.14-r0
+description	Client library written in C for MongoDB (development files)
+url	https://github.com/mongodb/mongo-c-driver
+license	Apache-2.0
+size	40418
+installed-size	234928
+depends	libbson-dev mongo-c-driver=1.30.14-r0 pc:libbson-1.0 pkgconfig
+origin	mongo-c-driver
+repo	community
+file	mongo-c-driver-dev-1.30.14-r0.apk
+checksum	Q1mQhaQMMFxHu0cqc6AUG+OWTJL9o=
+dep	libbson-dev	libbson-dev
+dep	mongo-c-driver=1.30.14-r0	mongo-c-driver
+dep	pc:libbson-1.0	libbson-dev
+dep	pkgconfig	pkgconf

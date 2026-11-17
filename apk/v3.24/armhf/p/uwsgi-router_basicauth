@@ -1,0 +1,14 @@
+name	uwsgi-router_basicauth
+version	2.0.31-r2
+description	uWSGI plugin router_basicauth
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	4557
+installed-size	9540
+depends	uwsgi so:libc.musl-armhf.so.1
+origin	uwsgi
+repo	main
+file	uwsgi-router_basicauth-2.0.31-r2.apk
+checksum	Q1hjvY+91ijLZCB58jVpbytcQXFB4=
+dep	uwsgi	uwsgi
+dep	so:libc.musl-armhf.so.1	musl

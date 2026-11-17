@@ -1,0 +1,14 @@
+name	py3-django-environ
+version	0.13.0-r3
+description	A package that allows you to utilize 12factor inspired environment variables to configure your Django application.
+url	https://pypi.python.org/project/django-environ
+license	MIT
+size	20340
+installed-size	65068
+depends	py3-django python3~3.14
+origin	py3-django-environ
+repo	community
+file	py3-django-environ-0.13.0-r3.apk
+checksum	Q1EZt+Hk7JyGq1S7FeK7TT2yXCwBo=
+dep	py3-django	py3-django
+dep	python3~3.14	python3

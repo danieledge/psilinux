@@ -1,0 +1,14 @@
+name	py3-clustershell
+version	1.9.3-r1
+description	clustershell python3 bindings
+url	https://clustershell.readthedocs.io/en/latest/
+license	LGPL-2.1-or-later
+size	153506
+installed-size	620914
+depends	python3 python3~3.14
+origin	clustershell
+repo	community
+file	py3-clustershell-1.9.3-r1.apk
+checksum	Q1IslXJgGV53LApw6S1H39xF4ZcZ4=
+dep	python3	python3
+dep	python3~3.14	python3

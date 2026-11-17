@@ -1,0 +1,17 @@
+name	gdal-driver-vfk
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (Czech Cadastral Exchange Data Format driver)
+url	https://gdal.org/
+license	MIT
+size	47867
+installed-size	107904
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libsqlite3.so.0 so:libstdc++.so.6
+origin	gdal
+repo	community
+file	gdal-driver-vfk-3.13.3-r0.apk
+checksum	Q1DpxJeqyngJ4q7nmoocvak+VZPWU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++

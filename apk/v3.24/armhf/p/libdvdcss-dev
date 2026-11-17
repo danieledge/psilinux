@@ -1,0 +1,14 @@
+name	libdvdcss-dev
+version	1.4.3-r0
+description	Library for accessing DVDs like a block device without having to bother about the decryption (development files)
+url	http://www.videolan.org/developers/libdvdcss.html
+license	GPL-2.0-or-later
+size	22598
+installed-size	45106
+depends	libdvdcss=1.4.3-r0 pkgconfig
+origin	libdvdcss
+repo	community
+file	libdvdcss-dev-1.4.3-r0.apk
+checksum	Q1N+tzkh59wQ2kck3yO4WwWIhtWlQ=
+dep	libdvdcss=1.4.3-r0	libdvdcss
+dep	pkgconfig	pkgconf

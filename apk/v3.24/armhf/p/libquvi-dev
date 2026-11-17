@@ -1,0 +1,17 @@
+name	libquvi-dev
+version	0.9.4-r4
+description	library for parsing video download links (development files)
+url	https://quvi.sourceforge.net/
+license	LGPL-2.0-or-later
+size	7264
+installed-size	27753
+depends	libquvi-scripts-dev curl-dev lua5.1-dev libquvi=0.9.4-r4 pkgconfig
+origin	libquvi
+repo	community
+file	libquvi-dev-0.9.4-r4.apk
+checksum	Q1vuqfc5QUJyQvSuKioWY/bZCdc1I=
+dep	libquvi-scripts-dev	libquvi-scripts-dev
+dep	curl-dev	curl-dev
+dep	lua5.1-dev	lua5.1-dev
+dep	libquvi=0.9.4-r4	libquvi
+dep	pkgconfig	pkgconf

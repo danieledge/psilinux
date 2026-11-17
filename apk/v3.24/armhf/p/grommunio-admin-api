@@ -1,0 +1,35 @@
+name	grommunio-admin-api
+version	1.18-r0
+description	Backend for grommunio management
+url	https://grommunio.com/
+license	AGPL-3.0-only
+size	250423
+installed-size	1804727
+depends	grommunio-admin-common grommunio-gromox py3-argcomplete py3-cryptography py3-dateutil py3-dnspython py3-flask py3-idna py3-jsonschema py3-jwt py3-ldap3 py3-mattermostdriver py3-multidict py3-mysqlclient py3-openapi-core py3-psutil py3-pyexmdb py3-redis py3-requests py3-sqlalchemy py3-yaml uwsgi uwsgi-python3
+origin	grommunio-admin-api
+repo	community
+file	grommunio-admin-api-1.18-r0.apk
+checksum	Q18rAMMjACb9KJhoZEd5URQMUWcDQ=
+dep	grommunio-admin-common	grommunio-admin-common
+dep	grommunio-gromox	grommunio-gromox
+dep	py3-argcomplete	py3-argcomplete
+dep	py3-cryptography	py3-cryptography
+dep	py3-dateutil	py3-dateutil
+dep	py3-dnspython	py3-dnspython
+dep	py3-flask	py3-flask
+dep	py3-idna	py3-idna
+dep	py3-jsonschema	py3-jsonschema
+dep	py3-jwt	py3-jwt
+dep	py3-ldap3	py3-ldap3
+dep	py3-mattermostdriver	py3-mattermostdriver
+dep	py3-multidict	py3-multidict
+dep	py3-mysqlclient	py3-mysqlclient
+dep	py3-openapi-core	py3-openapi-core
+dep	py3-psutil	py3-psutil
+dep	py3-pyexmdb	py3-pyexmdb
+dep	py3-redis	py3-redis
+dep	py3-requests	py3-requests
+dep	py3-sqlalchemy	py3-sqlalchemy
+dep	py3-yaml	py3-yaml
+dep	uwsgi	uwsgi
+dep	uwsgi-python3	uwsgi-python3

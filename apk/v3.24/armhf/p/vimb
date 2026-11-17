@@ -1,0 +1,21 @@
+name	vimb
+version	3.7.0-r0
+description	The vim like browser
+url	https://fanglingsu.github.io/vimb/
+license	GPL-3.0-or-later
+size	65210
+installed-size	147220
+depends	so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libjavascriptcoregtk-4.1.so.0 so:libsoup-3.0.so.0 so:libwebkit2gtk-4.1.so.0
+origin	vimb
+repo	community
+file	vimb-3.7.0-r0.apk
+checksum	Q14bFH1ilDXIFOrbPKyZ/UYjgJjDQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libjavascriptcoregtk-4.1.so.0	webkit2gtk-4.1
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libwebkit2gtk-4.1.so.0	webkit2gtk-4.1

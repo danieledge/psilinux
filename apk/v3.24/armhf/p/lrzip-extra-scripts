@@ -1,0 +1,14 @@
+name	lrzip-extra-scripts
+version	0.660-r0
+description	compression utility that excels at compressing large files (bash scripts)
+url	https://github.com/ckolivas/lrzip
+license	GPL-2.0-or-later
+size	3617
+installed-size	5409
+depends	bash lrzip=0.660-r0
+origin	lrzip
+repo	community
+file	lrzip-extra-scripts-0.660-r0.apk
+checksum	Q1DQVVEoMQh5NpcA8j77V5kVrb/1o=
+dep	bash	bash
+dep	lrzip=0.660-r0	lrzip

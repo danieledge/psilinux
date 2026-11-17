@@ -1,0 +1,12 @@
+name	shadow-dbg
+version	4.18.0-r1
+description	PAM-using login and passwd utilities (usermod, useradd, ...) (debug symbols)
+url	https://github.com/shadow-maint/shadow
+license	BSD-3-Clause
+size	2358291
+installed-size	5907668
+depends	!shadow-conv<4.18.0-r1 !shadow-conv>4.18.0-r1 !shadow-libs<4.18.0-r1 !shadow-libs>4.18.0-r1 !shadow-login<4.18.0-r1 !shadow-login>4.18.0-r1 !shadow-subids<4.18.0-r1 !shadow-subids>4.18.0-r1 !shadow<4.18.0-r1 !shadow>4.18.0-r1
+origin	shadow
+repo	community
+file	shadow-dbg-4.18.0-r1.apk
+checksum	Q1epOUz2flXGDsolhb69MlagezOWo=

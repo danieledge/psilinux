@@ -1,0 +1,13 @@
+name	cyrus-sasl-static
+version	2.1.28-r9
+description	Cyrus Simple Authentication Service Layer (SASL) (static library)
+url	https://www.cyrusimap.org/sasl/
+license	BSD-3-Clause-Attribution AND BSD-4-Clause
+size	241268
+installed-size	653434
+depends	cyrus-sasl-dev
+origin	cyrus-sasl
+repo	main
+file	cyrus-sasl-static-2.1.28-r9.apk
+checksum	Q1dWL/rmZPF637h2joqmxjYzcOfic=
+dep	cyrus-sasl-dev	cyrus-sasl-dev

@@ -1,0 +1,20 @@
+name	librime-plugin-lua
+version	1.17.0-r0
+description	Rime input method engine (lua plugin)
+url	https://github.com/rime/librime
+license	BSD-3-Clause
+size	225206
+installed-size	657436
+depends	librime=1.17.0-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglog.so.2 so:liblua-5.4.so.0 so:libopencc.so.1.3 so:librime.so.1 so:libstdc++.so.6
+origin	librime
+repo	community
+file	librime-plugin-lua-1.17.0-r0.apk
+checksum	Q15w607MZ7BmQZte7N6KtLJZAGbUU=
+dep	librime=1.17.0-r0	librime
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglog.so.2	glog
+dep	so:liblua-5.4.so.0	lua5.4-libs
+dep	so:libopencc.so.1.3	opencc-libs
+dep	so:librime.so.1	librime
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,17 @@
+name	xcb-util-cursor
+version	0.1.5-r0
+description	X C-language Binding - cursor library (port of libXcursor)
+url	https://gitlab.freedesktop.org/xorg/lib/libxcb-cursor
+license	MIT
+size	9016
+installed-size	18144
+depends	so:libc.musl-armhf.so.1 so:libxcb-image.so.0 so:libxcb-render-util.so.0 so:libxcb-render.so.0 so:libxcb.so.1
+origin	xcb-util-cursor
+repo	community
+file	xcb-util-cursor-0.1.5-r0.apk
+checksum	Q1oOWeQr0CI9yEbANORA0hoCYTVcw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxcb-image.so.0	xcb-util-image
+dep	so:libxcb-render-util.so.0	xcb-util-renderutil
+dep	so:libxcb-render.so.0	libxcb
+dep	so:libxcb.so.1	libxcb

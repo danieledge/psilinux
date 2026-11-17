@@ -1,0 +1,16 @@
+name	coova-chilli
+version	1.7-r0
+description	CoovaChilli is an open source access controller for wireless LAN
+url	http://www.coova.org/
+license	GPL-3.0-or-later
+size	318927
+installed-size	701525
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	coova-chilli
+repo	community
+file	coova-chilli-1.7-r0.apk
+checksum	Q1eTeq+SmI11+l19uoDV0WvC4UQI4=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

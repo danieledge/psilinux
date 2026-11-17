@@ -1,0 +1,13 @@
+name	micro-tetris
+version	1.5.0-r0
+description	Micro Tetris, based on 1989 IOCCC Obfuscated Tetris
+url	https://github.com/troglobit/tetris
+license	ISC
+size	7541
+installed-size	13872
+depends	so:libc.musl-armhf.so.1
+origin	micro-tetris
+repo	community
+file	micro-tetris-1.5.0-r0.apk
+checksum	Q1A93kD8pbHaVrH3S2AwoFnxc6cZU=
+dep	so:libc.musl-armhf.so.1	musl

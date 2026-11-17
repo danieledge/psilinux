@@ -1,0 +1,16 @@
+name	proftpd-utils
+version	1.3.9e-r1
+description	Highly configurable FTP server software (utilities)
+url	https://github.com/proftpd/proftpd
+license	GPL-2.0-or-later
+size	108402
+installed-size	294443
+depends	proftpd perl-mail-sendmail so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	proftpd
+repo	community
+file	proftpd-utils-1.3.9e-r1.apk
+checksum	Q1Gv291yNTTh6q7LvJ+ql70UU3z4U=
+dep	proftpd	proftpd
+dep	perl-mail-sendmail	perl-mail-sendmail
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

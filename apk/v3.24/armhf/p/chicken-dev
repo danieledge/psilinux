@@ -1,0 +1,13 @@
+name	chicken-dev
+version	5.4.0-r0
+description	R5RS and R7RS compatible scheme compiler and interpreter (development files)
+url	https://call-cc.org/
+license	BSD-3-Clause
+size	1652115
+installed-size	5352949
+depends	chicken-libs=5.4.0-r0
+origin	chicken
+repo	community
+file	chicken-dev-5.4.0-r0.apk
+checksum	Q1xBoZQYP0GGy211pKLT9MEdaUvnM=
+dep	chicken-libs=5.4.0-r0	chicken-libs

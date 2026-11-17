@@ -1,0 +1,13 @@
+name	boringproxy
+version	0.10.0-r32
+description	Simple tunneling reverse proxy with a fast web UI and auto HTTPS
+url	https://github.com/boringproxy/boringproxy
+license	MIT
+size	4638336
+installed-size	11834860
+depends	so:libc.musl-armhf.so.1
+origin	boringproxy
+repo	community
+file	boringproxy-0.10.0-r32.apk
+checksum	Q1TiEH7jQvJkuvkpuzYFgCjCNddKM=
+dep	so:libc.musl-armhf.so.1	musl

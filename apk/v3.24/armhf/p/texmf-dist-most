@@ -1,0 +1,33 @@
+name	texmf-dist-most
+version	2026.0-r0
+description	TeX Live texmf distribution including most packages
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	1434
+installed-size	0
+depends	texmf-dist texmf-dist-bibtexextra texmf-dist-binextra texmf-dist-context texmf-dist-fontsrecommended texmf-dist-fontutils texmf-dist-formatsextra texmf-dist-games texmf-dist-humanities texmf-dist-latex texmf-dist-latexextra texmf-dist-latexrecommended texmf-dist-luatex texmf-dist-mathscience texmf-dist-metapost texmf-dist-music texmf-dist-pictures texmf-dist-plaingeneric texmf-dist-pstricks texmf-dist-publishers texmf-dist-xetex
+origin	texmf-dist
+repo	community
+file	texmf-dist-most-2026.0-r0.apk
+checksum	Q1IqSw292c7BjF7D39rp8wn8bFiM0=
+dep	texmf-dist	texmf-dist
+dep	texmf-dist-bibtexextra	texmf-dist-bibtexextra
+dep	texmf-dist-binextra	texmf-dist-binextra
+dep	texmf-dist-context	texmf-dist-context
+dep	texmf-dist-fontsrecommended	texmf-dist-fontsrecommended
+dep	texmf-dist-fontutils	texmf-dist-fontutils
+dep	texmf-dist-formatsextra	texmf-dist-formatsextra
+dep	texmf-dist-games	texmf-dist-games
+dep	texmf-dist-humanities	texmf-dist-humanities
+dep	texmf-dist-latex	texmf-dist-latex
+dep	texmf-dist-latexextra	texmf-dist-latexextra
+dep	texmf-dist-latexrecommended	texmf-dist-latexrecommended
+dep	texmf-dist-luatex	texmf-dist-luatex
+dep	texmf-dist-mathscience	texmf-dist-mathscience
+dep	texmf-dist-metapost	texmf-dist-metapost
+dep	texmf-dist-music	texmf-dist-music
+dep	texmf-dist-pictures	texmf-dist-pictures
+dep	texmf-dist-plaingeneric	texmf-dist-plaingeneric
+dep	texmf-dist-pstricks	texmf-dist-pstricks
+dep	texmf-dist-publishers	texmf-dist-publishers
+dep	texmf-dist-xetex	texmf-dist-xetex

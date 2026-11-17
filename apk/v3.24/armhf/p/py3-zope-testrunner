@@ -1,0 +1,17 @@
+name	py3-zope-testrunner
+version	8.2-r1
+description	Zope testrunner script
+url	https://github.com/zopefoundation/zope.testrunner
+license	ZPL-2.1
+size	145604
+installed-size	775512
+depends	python3 py3-setuptools py3-zope-exceptions py3-zope-interface python3~3.14
+origin	py3-zope-testrunner
+repo	community
+file	py3-zope-testrunner-8.2-r1.apk
+checksum	Q17+/zZH38Jixkz4bOeepHCKvQuhY=
+dep	python3	python3
+dep	py3-setuptools	py3-setuptools
+dep	py3-zope-exceptions	py3-zope-exceptions
+dep	py3-zope-interface	py3-zope-interface
+dep	python3~3.14	python3

@@ -1,0 +1,36 @@
+name	eog
+version	50.2-r0
+description	Image viewer for GNOME
+url	https://gitlab.gnome.org/GNOME/eog
+license	GPL-2.0-or-later
+size	276239
+installed-size	909627
+depends	gsettings-desktop-schemas so:libX11.so.6 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libexempi.so.8 so:libexif.so.12 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libgirepository-2.0.so.0 so:libglib-2.0.so.0 so:libgnome-desktop-3.so.20 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libhandy-1.so.0 so:libintl.so.8 so:libjpeg.so.8 so:liblcms2.so.2 so:libpeas-1.0.so.1 so:libpeas-gtk-1.0.so.1 so:libportal-gtk3.so.1 so:libportal.so.1 so:librsvg-2.so.2 so:libz.so.1
+origin	eog
+repo	community
+file	eog-50.2-r0.apk
+checksum	Q1eBLBTlyWY1EXI0gNcXT/6e4etFo=
+dep	gsettings-desktop-schemas	gsettings-desktop-schemas
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libexempi.so.8	exempi-libs
+dep	so:libexif.so.12	libexif
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libgirepository-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgnome-desktop-3.so.20	libgnome-desktop-3
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libhandy-1.so.0	libhandy1
+dep	so:libintl.so.8	libintl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:liblcms2.so.2	lcms2
+dep	so:libpeas-1.0.so.1	libpeas
+dep	so:libpeas-gtk-1.0.so.1	libpeas
+dep	so:libportal-gtk3.so.1	libportal-gtk3
+dep	so:libportal.so.1	libportal
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libz.so.1	zlib

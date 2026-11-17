@@ -1,0 +1,16 @@
+name	kamailio-extras
+version	6.0.6-r0
+description	Kamailio extra modules
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	1331306
+installed-size	2784064
+depends	kamailio so:libc.musl-armhf.so.1 so:libevent-2.1.so.7 so:libhiredis.so.1.3.0
+origin	kamailio
+repo	main
+file	kamailio-extras-6.0.6-r0.apk
+checksum	Q18ugIF5d4FmHBlxLgQXFAW5z2mg0=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevent-2.1.so.7	libevent
+dep	so:libhiredis.so.1.3.0	hiredis

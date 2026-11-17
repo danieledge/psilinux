@@ -1,0 +1,17 @@
+name	mate-desktop-dev
+version	1.28.2-r1
+description	The MATE Desktop Environment (development files)
+url	https://mate-desktop.org/
+license	GPL-2.0-or-later AND LGPL-2.0-or-later
+size	15330
+installed-size	70905
+depends	mate-desktop=1.28.2-r1 pc:dconf pc:gtk+-3.0 pc:libstartup-notification-1.0 pkgconfig
+origin	mate-desktop
+repo	community
+file	mate-desktop-dev-1.28.2-r1.apk
+checksum	Q1m0SEXVOlF7ZEm7g+Flvp2ubZgmU=
+dep	mate-desktop=1.28.2-r1	mate-desktop
+dep	pc:dconf	dconf-dev
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pc:libstartup-notification-1.0	startup-notification-dev
+dep	pkgconfig	pkgconf

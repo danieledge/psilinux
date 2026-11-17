@@ -1,0 +1,15 @@
+name	laszip
+version	3.5.0-r0
+description	LASzip point cloud compression library
+url	https://github.com/laszip/laszip
+license	LGPL-2.0-or-later
+size	185224
+installed-size	527380
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	laszip
+repo	community
+file	laszip-3.5.0-r0.apk
+checksum	Q12xLkHbV7+wECDNHAC9hb8Ljax4I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

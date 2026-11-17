@@ -1,0 +1,15 @@
+name	rdma-core-dev
+version	61.0-r0
+description	RDMA core userspace libraries and daemons (development files)
+url	https://github.com/linux-rdma/rdma-core
+license	GPL-2.0-only OR BSD-2-Clause
+size	63950
+installed-size	278815
+depends	rdma-core=61.0-r0 rdma-core-libs=61.0-r0 pkgconfig
+origin	rdma-core
+repo	community
+file	rdma-core-dev-61.0-r0.apk
+checksum	Q15IghLWZlTeXVEnIiWUIQoNMfneU=
+dep	rdma-core=61.0-r0	rdma-core
+dep	rdma-core-libs=61.0-r0	rdma-core-libs
+dep	pkgconfig	pkgconf

@@ -1,0 +1,15 @@
+name	protobuf-c-dev
+version	1.5.2-r2
+description	Protocol Buffers implementation in C (development files)
+url	https://github.com/protobuf-c/protobuf-c
+license	BSD-2-Clause
+size	155674
+installed-size	191360
+depends	protobuf-c-compiler=1.5.2-r2 protobuf-c=1.5.2-r2 pkgconfig
+origin	protobuf-c
+repo	main
+file	protobuf-c-dev-1.5.2-r2.apk
+checksum	Q1BcQBHYmWqeb7M1hEcgL57px/jV0=
+dep	protobuf-c-compiler=1.5.2-r2	protobuf-c-compiler
+dep	protobuf-c=1.5.2-r2	protobuf-c
+dep	pkgconfig	pkgconf

@@ -1,0 +1,15 @@
+name	lvm2-lockd
+version	2.03.35-r2
+description	LVM2 locking daemon
+url	https://sourceware.org/lvm2/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-2-Clause
+size	244231
+installed-size	536716
+depends	sanlock so:libc.musl-armhf.so.1 so:libsanlock_client.so.1
+origin	lvm2
+repo	main
+file	lvm2-lockd-2.03.35-r2.apk
+checksum	Q1q6kf3ERaELEpbkum0diCzUfZsXY=
+dep	sanlock	sanlock
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsanlock_client.so.1	sanlock

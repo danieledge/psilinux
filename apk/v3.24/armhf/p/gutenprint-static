@@ -1,0 +1,13 @@
+name	gutenprint-static
+version	5.3.5-r0
+description	Top quality printer drivers for POSIX systems (static library)
+url	https://gimp-print.sourceforge.net/
+license	GPL-2.0-or-later
+size	587733
+installed-size	2176348
+depends	gutenprint-dev
+origin	gutenprint
+repo	community
+file	gutenprint-static-5.3.5-r0.apk
+checksum	Q1+xqiu141nk0x0sn6ea+EHtzaqOQ=
+dep	gutenprint-dev	gutenprint-dev

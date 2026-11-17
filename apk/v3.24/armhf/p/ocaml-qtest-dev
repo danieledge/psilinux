@@ -1,0 +1,13 @@
+name	ocaml-qtest-dev
+version	2.11.2-r4
+description	Lightweight inline test extraction from comments (development files)
+url	https://github.com/vincent-hugot/qtest
+license	GPL-3.0-or-later
+size	3623
+installed-size	3770
+depends	ocaml-qtest=2.11.2-r4
+origin	ocaml-qtest
+repo	community
+file	ocaml-qtest-dev-2.11.2-r4.apk
+checksum	Q1WGoLnEKgV6jT59OLxQPhin1N0nc=
+dep	ocaml-qtest=2.11.2-r4	ocaml-qtest

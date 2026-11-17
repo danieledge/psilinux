@@ -1,0 +1,21 @@
+name	gcc-avr
+version	15.2.0-r0
+description	The GNU Compiler Collection for AVR targets
+url	https://gcc.gnu.org/
+license	GPL-3.0-or-later
+size	55233891
+installed-size	212964292
+depends	binutils-avr so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgmp.so.10 so:libisl.so.23 so:libmpc.so.3 so:libmpfr.so.6 so:libstdc++.so.6 so:libz.so.1
+origin	gcc-avr
+repo	community
+file	gcc-avr-15.2.0-r0.apk
+checksum	Q1BMvqtkj8HLNKELXv6lINIADDJ60=
+dep	binutils-avr	binutils-avr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgmp.so.10	gmp
+dep	so:libisl.so.23	isl25
+dep	so:libmpc.so.3	mpc1
+dep	so:libmpfr.so.6	mpfr4
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

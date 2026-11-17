@@ -1,0 +1,13 @@
+name	ginkgo
+version	2.28.1-r3
+description	Modern Testing Framework for Go
+url	https://onsi.github.io/ginkgo/
+license	MIT
+size	5116332
+installed-size	12852988
+depends	so:libc.musl-armhf.so.1
+origin	ginkgo
+repo	community
+file	ginkgo-2.28.1-r3.apk
+checksum	Q15+wNnB2ynzEGt4ZbOfAkQmi4yJs=
+dep	so:libc.musl-armhf.so.1	musl

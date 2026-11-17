@@ -1,0 +1,16 @@
+name	py3-yoyo-migrations
+version	8.2.0-r1
+description	Database migrations with SQL
+url	https://ollycope.com/software/yoyo/latest/
+license	Apache-2.0
+size	38145
+installed-size	132760
+depends	py3-sqlparse py3-tabulate py3-importlib-metadata python3~3.14
+origin	py3-yoyo-migrations
+repo	community
+file	py3-yoyo-migrations-8.2.0-r1.apk
+checksum	Q1Lz30kXV+4tVghN+MRqKUmC7Ovfc=
+dep	py3-sqlparse	py3-sqlparse
+dep	py3-tabulate	py3-tabulate
+dep	py3-importlib-metadata	py3-importlib-metadata
+dep	python3~3.14	python3

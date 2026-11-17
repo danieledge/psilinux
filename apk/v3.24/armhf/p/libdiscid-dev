@@ -1,0 +1,14 @@
+name	libdiscid-dev
+version	0.6.5-r1
+description	C library for creating MusicBrainz DiscIDs from audio CDs (development files)
+url	https://musicbrainz.org/doc/libdiscid
+license	LGPL-2.1-or-later
+size	6771
+installed-size	16617
+depends	libdiscid=0.6.5-r1 pkgconfig
+origin	libdiscid
+repo	community
+file	libdiscid-dev-0.6.5-r1.apk
+checksum	Q1FomfTCvPOBaavbmKowFDM+z9yTw=
+dep	libdiscid=0.6.5-r1	libdiscid
+dep	pkgconfig	pkgconf

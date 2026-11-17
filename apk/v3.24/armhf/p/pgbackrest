@@ -1,0 +1,23 @@
+name	pgbackrest
+version	2.58.0-r0
+description	Reliable PostgreSQL backup & restore
+url	https://www.pgbackrest.org/
+license	MIT
+size	478867
+installed-size	990519
+depends	postgresql so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:liblz4.so.1 so:libpq.so.5 so:libssh2.so.1 so:libssl.so.3 so:libxml2.so.2 so:libz.so.1 so:libzstd.so.1
+origin	pgbackrest
+repo	community
+file	pgbackrest-2.58.0-r0.apk
+checksum	Q1vMQruBoCGYSbgpx/QHOhpZ+bbpQ=
+dep	postgresql	postgresql18
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:liblz4.so.1	lz4-libs
+dep	so:libpq.so.5	libpq
+dep	so:libssh2.so.1	libssh2
+dep	so:libssl.so.3	libssl3
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

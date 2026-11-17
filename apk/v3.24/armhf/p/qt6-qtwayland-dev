@@ -1,0 +1,20 @@
+name	qt6-qtwayland-dev
+version	6.11.1-r0
+description	Provides APIs for Wayland (development files)
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	196236
+installed-size	1306641
+depends	qt6-qtbase-dev qt6-qtbase-private-dev vulkan-headers qt6-qtwayland=6.11.1-r0 pc:Qt6Core pc:Qt6Gui pc:Qt6OpenGL pkgconfig
+origin	qt6-qtwayland
+repo	community
+file	qt6-qtwayland-dev-6.11.1-r0.apk
+checksum	Q1/RaTe/HzZ4cipnBTAlJ5BQZhXp4=
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	qt6-qtbase-private-dev	qt6-qtbase-private-dev
+dep	vulkan-headers	vulkan-headers
+dep	qt6-qtwayland=6.11.1-r0	qt6-qtwayland
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pc:Qt6Gui	qt6-qtbase-dev
+dep	pc:Qt6OpenGL	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

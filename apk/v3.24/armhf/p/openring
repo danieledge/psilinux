@@ -1,0 +1,13 @@
+name	openring
+version	1.0.1-r38
+description	a webring for static site generators
+url	https://sr.ht/~sircmpwn/openring/
+license	GPL-3.0-only and CC0-1.0
+size	3616389
+installed-size	9445964
+depends	so:libc.musl-armhf.so.1
+origin	openring
+repo	community
+file	openring-1.0.1-r38.apk
+checksum	Q1QJfhcWUkDegldwMMMA6ZAGvitr0=
+dep	so:libc.musl-armhf.so.1	musl

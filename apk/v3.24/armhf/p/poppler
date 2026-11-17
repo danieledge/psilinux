@@ -1,0 +1,27 @@
+name	poppler
+version	25.12.0-r1
+description	PDF rendering library based on xpdf 3.0
+url	https://poppler.freedesktop.org/
+license	GPL-2.0-or-later
+size	1024069
+installed-size	2721082
+depends	so:libc.musl-armhf.so.1 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libjpeg.so.8 so:liblcms2.so.2 so:libnspr4.so so:libnss3.so so:libopenjp2.so.7 so:libplc4.so so:libpng16.so.16 so:libsmime3.so so:libstdc++.so.6 so:libtiff.so.6 so:libz.so.1
+origin	poppler
+repo	main
+file	poppler-25.12.0-r1.apk
+checksum	Q1/iWO3Mx+r2ugnbBCS28Re/Hgmec=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:liblcms2.so.2	lcms2
+dep	so:libnspr4.so	nspr
+dep	so:libnss3.so	nss
+dep	so:libopenjp2.so.7	openjpeg
+dep	so:libplc4.so	nspr
+dep	so:libpng16.so.16	libpng
+dep	so:libsmime3.so	nss
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtiff.so.6	tiff
+dep	so:libz.so.1	zlib

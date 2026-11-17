@@ -1,0 +1,14 @@
+name	libmegapixels
+version	0.2.3-r0
+description	Device abstraction for the Megapixels application
+url	https://libme.gapixels.me
+license	GPL-3.0-or-later
+size	30288
+installed-size	92904
+depends	so:libc.musl-armhf.so.1 so:libconfig.so.15
+origin	libmegapixels
+repo	community
+file	libmegapixels-0.2.3-r0.apk
+checksum	Q1Cvj0dJhJ16cAzTEkjfOd0jZejuA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libconfig.so.15	libconfig

@@ -1,0 +1,13 @@
+name	yaml-static
+version	0.2.5-r2
+description	YAML 1.1 parser and emitter written in C (static library)
+url	https://pyyaml.org/wiki/LibYAML
+license	MIT
+size	48452
+installed-size	128784
+depends	yaml-dev
+origin	yaml
+repo	main
+file	yaml-static-0.2.5-r2.apk
+checksum	Q1M6ggM4DpMTMFARXMFedEZeZ4TPY=
+dep	yaml-dev	yaml-dev

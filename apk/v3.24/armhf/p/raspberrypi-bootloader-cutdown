@@ -1,0 +1,13 @@
+name	raspberrypi-bootloader-cutdown
+version	1.20260915-r0
+description	Cut-down firmware for lower memory settings
+url	https://github.com/raspberrypi/firmware
+license	custom
+size	1092369
+installed-size	1695320
+depends	raspberrypi-bootloader-common=1.20260915-r0
+origin	raspberrypi-bootloader
+repo	main
+file	raspberrypi-bootloader-cutdown-1.20260915-r0.apk
+checksum	Q1dJV8FLiUXknLmeS86v5JqvS133Q=
+dep	raspberrypi-bootloader-common=1.20260915-r0	raspberrypi-bootloader-common

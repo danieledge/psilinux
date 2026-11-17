@@ -1,0 +1,13 @@
+name	mtd-utils-nor
+version	2.2.1-r0
+description	MTD utils (NOR flash commands)
+url	http://www.linux-mtd.infradead.org/
+license	GPL-2.0-only
+size	7616
+installed-size	18932
+depends	so:libc.musl-armhf.so.1
+origin	mtd-utils
+repo	main
+file	mtd-utils-nor-2.2.1-r0.apk
+checksum	Q1m8DTKAAdCgqrnFFkPACu1F3Cqbc=
+dep	so:libc.musl-armhf.so.1	musl

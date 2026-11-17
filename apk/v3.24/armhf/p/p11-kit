@@ -1,0 +1,15 @@
+name	p11-kit
+version	0.26.2-r0
+description	Library for loading and sharing PKCS#11 modules
+url	https://p11-glue.freedesktop.org/
+license	BSD-3-Clause
+size	398668
+installed-size	1661319
+depends	so:libc.musl-armhf.so.1 so:libffi.so.8 so:libtasn1.so.6
+origin	p11-kit
+repo	main
+file	p11-kit-0.26.2-r0.apk
+checksum	Q15t4fcsvi/rndhzaawyysF3nlLf8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libffi.so.8	libffi
+dep	so:libtasn1.so.6	libtasn1

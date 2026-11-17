@@ -1,0 +1,16 @@
+name	xmessage
+version	1.0.7-r0
+description	Display a message or query in a window
+url	https://xorg.freedesktop.org/
+license	MIT
+size	9130
+installed-size	15084
+depends	so:libX11.so.6 so:libXaw.so.7 so:libXt.so.6 so:libc.musl-armhf.so.1
+origin	xmessage
+repo	community
+file	xmessage-1.0.7-r0.apk
+checksum	Q1G0+xfQ47x52l1AUsRJDaQq28UME=
+dep	so:libX11.so.6	libx11
+dep	so:libXaw.so.7	libxaw
+dep	so:libXt.so.6	libxt
+dep	so:libc.musl-armhf.so.1	musl

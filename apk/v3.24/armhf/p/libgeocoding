@@ -1,0 +1,17 @@
+name	libgeocoding
+version	9.0.32-r0
+description	Library for parsing, formatting, and validating international phone numbers.
+url	https://github.com/google/libphonenumber
+license	Apache-2.0
+size	1811714
+installed-size	7601720
+depends	so:libabsl_synchronization.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libicuuc.so.78 so:libstdc++.so.6
+origin	libphonenumber
+repo	community
+file	libgeocoding-9.0.32-r0.apk
+checksum	Q1EHUtod+P8HLm/8EM0laNnskNuLg=
+dep	so:libabsl_synchronization.so.2508.0.0	abseil-cpp-synchronization
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,14 @@
+name	ipmiutil
+version	3.2.1-r0
+description	IPMI Management Utilities
+url	https://ipmiutil.sourceforge.net/
+license	BSD-2-Clause BSD-3-Clause GPL-2.0-or-later
+size	499345
+installed-size	1072179
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	ipmiutil
+repo	community
+file	ipmiutil-3.2.1-r0.apk
+checksum	Q1wz9PZYMHhOvOohQqZ6rA2BYDmts=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

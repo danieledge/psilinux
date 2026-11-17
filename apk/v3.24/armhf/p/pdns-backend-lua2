@@ -1,0 +1,19 @@
+name	pdns-backend-lua2
+version	5.0.7-r0
+description	lua2 backend module for PowerDNS
+url	https://www.powerdns.com/
+license	GPL-2.0-only WITH OpenSSL-Exception
+size	87371
+installed-size	284056
+depends	pdns lua luajit so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libluajit-5.1.so.2 so:libstdc++.so.6
+origin	pdns
+repo	community
+file	pdns-backend-lua2-5.0.7-r0.apk
+checksum	Q1yDF1hEwDXinMypukGMlLnglfeDs=
+dep	pdns	pdns
+dep	lua	lua5.5
+dep	luajit	luajit
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libluajit-5.1.so.2	luajit
+dep	so:libstdc++.so.6	libstdc++

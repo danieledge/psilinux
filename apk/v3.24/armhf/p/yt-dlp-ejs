@@ -1,0 +1,14 @@
+name	yt-dlp-ejs
+version	0.8.0-r1
+description	External JavaScript for yt-dlp
+url	https://github.com/yt-dlp/ejs
+license	Unlicense
+size	53777
+installed-size	165368
+depends	yt-dlp-ejs-rt=0.8.0-r1 python3~3.14
+origin	yt-dlp-ejs
+repo	community
+file	yt-dlp-ejs-0.8.0-r1.apk
+checksum	Q1wTaKjaza7dCURN7GZIyoy/gMSWE=
+dep	yt-dlp-ejs-rt=0.8.0-r1	yt-dlp-ejs-rt-quickjs
+dep	python3~3.14	python3

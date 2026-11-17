@@ -1,0 +1,23 @@
+name	spice-vdagent
+version	0.23.0-r1
+description	Spice guest agent for Linux
+url	https://spice-space.org/
+license	GPL-3.0-or-later
+size	56377
+installed-size	121966
+depends	so:libX11.so.6 so:libXfixes.so.3 so:libXinerama.so.1 so:libXrandr.so.2 so:libasound.so.2 so:libc.musl-armhf.so.1 so:libdrm.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libpciaccess.so.0
+origin	spice-vdagent
+repo	community
+file	spice-vdagent-0.23.0-r1.apk
+checksum	Q1gjoqMc6Rg0BsmNs5Z9wJG4CfSHM=
+dep	so:libX11.so.6	libx11
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm.so.2	libdrm
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpciaccess.so.0	libpciaccess

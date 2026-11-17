@@ -1,0 +1,14 @@
+name	sdl_image
+version	1.2.12-r6
+description	A simple library to load images of various formats as SDL surfaces
+url	http://www.libsdl.org/projects/SDL_image/
+license	Zlib
+size	24316
+installed-size	46252
+depends	so:libSDL-1.2.so.0 so:libc.musl-armhf.so.1
+origin	sdl_image
+repo	community
+file	sdl_image-1.2.12-r6.apk
+checksum	Q1nHFD3z+TT7LwWlpwgyiAYIxBwFs=
+dep	so:libSDL-1.2.so.0	sdl12-compat
+dep	so:libc.musl-armhf.so.1	musl

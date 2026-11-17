@@ -1,0 +1,23 @@
+name	mutt
+version	2.3.2-r1
+description	Small and very powerful text-mode email client
+url	http://www.mutt.org
+license	GPL-2.0-or-later
+size	531883
+installed-size	1164717
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgdbm.so.6 so:libgpg-error.so.0 so:libgpgme.so.45 so:libgsasl.so.18 so:libidn2.so.0 so:libintl.so.8 so:libncursesw.so.6 so:libssl.so.3
+origin	mutt
+repo	community
+file	mutt-2.3.2-r1.apk
+checksum	Q1JHu9Ya+ILOr5nmKSqqmb+IlFjHs=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgdbm.so.6	gdbm
+dep	so:libgpg-error.so.0	libgpg-error
+dep	so:libgpgme.so.45	gpgme
+dep	so:libgsasl.so.18	libgsasl
+dep	so:libidn2.so.0	libidn2
+dep	so:libintl.so.8	libintl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libssl.so.3	libssl3

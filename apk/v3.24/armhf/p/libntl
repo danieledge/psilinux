@@ -1,0 +1,17 @@
+name	libntl
+version	11.6.0-r1
+description	Library for doing number theory
+url	https://libntl.org
+license	LGPL-2.1-or-later
+size	1084761
+installed-size	2455020
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgf2x.so.3 so:libgmp.so.10 so:libstdc++.so.6
+origin	libntl
+repo	community
+file	libntl-11.6.0-r1.apk
+checksum	Q1DsgpbbCbyQmjKK2+N3XJxdSJ+n8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgf2x.so.3	gf2x
+dep	so:libgmp.so.10	gmp
+dep	so:libstdc++.so.6	libstdc++

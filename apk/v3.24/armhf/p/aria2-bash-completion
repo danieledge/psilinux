@@ -1,0 +1,13 @@
+name	aria2-bash-completion
+version	1.37.0-r2
+description	Bash completions for aria2
+url	https://aria2.github.io/
+license	GPL-2.0-or-later
+size	3788
+installed-size	8153
+depends	ca-certificates
+origin	aria2
+repo	community
+file	aria2-bash-completion-1.37.0-r2.apk
+checksum	Q13k8kxBVp3facaRyukfmF754b25U=
+dep	ca-certificates	ca-certificates

@@ -1,0 +1,16 @@
+name	gpgmepp
+version	2.0.0-r0
+description	gnupg made easy
+url	https://www.gnupg.org/related_software/gpgme/
+license	LGPL-2.1-or-later AND GPL-3.0-or-later
+size	139849
+installed-size	390548
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgpgme.so.45 so:libstdc++.so.6
+origin	gpgmepp
+repo	community
+file	gpgmepp-2.0.0-r0.apk
+checksum	Q1bRJmG1rY3aZ4zMJeStw8wVW+IDU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgpgme.so.45	gpgme
+dep	so:libstdc++.so.6	libstdc++

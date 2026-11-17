@@ -1,0 +1,20 @@
+name	pdns-backend-geoip
+version	5.0.7-r0
+description	geoip backend module for PowerDNS
+url	https://www.powerdns.com/
+license	GPL-2.0-only WITH OpenSSL-Exception
+size	101144
+installed-size	255360
+depends	pdns geoip so:libGeoIP.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libmaxminddb.so.0 so:libstdc++.so.6 so:libyaml-cpp.so.0.9
+origin	pdns
+repo	community
+file	pdns-backend-geoip-5.0.7-r0.apk
+checksum	Q1GrEKQOFuwKVELV5dTaEIJE4M6Ww=
+dep	pdns	pdns
+dep	geoip	geoip
+dep	so:libGeoIP.so.1	geoip
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmaxminddb.so.0	libmaxminddb-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libyaml-cpp.so.0.9	yaml-cpp

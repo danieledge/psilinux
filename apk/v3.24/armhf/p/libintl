@@ -1,0 +1,13 @@
+name	libintl
+version	1.0-r0
+description	GNU gettext runtime library
+url	https://www.gnu.org/software/gettext/gettext.html
+license	LGPL-2.1-or-later
+size	35670
+installed-size	124092
+depends	so:libc.musl-armhf.so.1
+origin	gettext
+repo	main
+file	libintl-1.0-r0.apk
+checksum	Q1D4gt3nVYlZONBjwxrQLSag2VIeE=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	perl-crypt-des
+version	2.07-r18
+description	Perl DES encryption module
+url	https://metacpan.org/release/Crypt-DES/
+license	BSD-Systemics
+size	8812
+installed-size	16946
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-crypt-des
+repo	main
+file	perl-crypt-des-2.07-r18.apk
+checksum	Q1N0Se++GBd46ndlOU7Vxt//cuOfc=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

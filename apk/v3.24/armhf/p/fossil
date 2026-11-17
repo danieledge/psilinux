@@ -1,0 +1,16 @@
+name	fossil
+version	2.28-r0
+description	Simple, high-reliability, distributed software configuration management
+url	https://www.fossil-scm.org/
+license	BSD-2-Clause
+size	2093111
+installed-size	4840444
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3 so:libz.so.1
+origin	fossil
+repo	community
+file	fossil-2.28-r0.apk
+checksum	Q1JFe66qOmh7uEOSgXiWNF+XM3SFc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3
+dep	so:libz.so.1	zlib

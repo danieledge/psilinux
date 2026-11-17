@@ -1,0 +1,13 @@
+name	imagemagick-static
+version	7.1.2.35-r0
+description	Collection of tools and libraries for many image formats (static library)
+url	https://imagemagick.org/
+license	ImageMagick
+size	2267538
+installed-size	6629162
+depends	imagemagick-dev
+origin	imagemagick
+repo	community
+file	imagemagick-static-7.1.2.35-r0.apk
+checksum	Q1MuAnP1yHHDLVyQ3fl+mifgdFXGE=
+dep	imagemagick-dev	imagemagick-dev

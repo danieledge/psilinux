@@ -1,0 +1,17 @@
+name	knot-resolver-mod-dnstap
+version	5.7.7-r0
+description	Knot Resolver - dnstap logging
+url	https://www.knot-resolver.cz/
+license	GPL-3.0-or-later
+size	12626
+installed-size	25912
+depends	knot-resolver=5.7.7-r0 so:libc.musl-armhf.so.1 so:libfstrm.so.0 so:libprotobuf-c.so.1 so:libuv.so.1
+origin	knot-resolver
+repo	community
+file	knot-resolver-mod-dnstap-5.7.7-r0.apk
+checksum	Q12vpe1x7Z0eHQNeLiM+03TkDXX+U=
+dep	knot-resolver=5.7.7-r0	knot-resolver
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfstrm.so.0	fstrm
+dep	so:libprotobuf-c.so.1	protobuf-c
+dep	so:libuv.so.1	libuv

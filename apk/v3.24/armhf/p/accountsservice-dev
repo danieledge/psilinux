@@ -1,0 +1,19 @@
+name	accountsservice-dev
+version	23.13.9-r3
+description	D-Bus interface for user account query and manipulation (development files)
+url	https://www.freedesktop.org/software/accountsservice/
+license	GPL-3.0-or-later
+size	16978
+installed-size	146358
+depends	gobject-introspection-dev libaccountsservice=23.13.9-r3 pc:gio-2.0 pc:glib-2.0 pc:gobject-2.0 pc:polkit-gobject-1 pkgconfig
+origin	accountsservice
+repo	community
+file	accountsservice-dev-23.13.9-r3.apk
+checksum	Q1FPTq553vYfcTdFDiZHmm8qEC6ZA=
+dep	gobject-introspection-dev	gobject-introspection-dev
+dep	libaccountsservice=23.13.9-r3	libaccountsservice
+dep	pc:gio-2.0	glib-dev
+dep	pc:glib-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pc:polkit-gobject-1	polkit-dev
+dep	pkgconfig	pkgconf

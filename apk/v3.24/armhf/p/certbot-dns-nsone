@@ -1,0 +1,14 @@
+name	certbot-dns-nsone
+version	5.6.0-r0
+description	Official DNS provider integrations for certbot
+url	https://github.com/certbot/certbot
+license	Apache-2.0
+size	10149
+installed-size	20371
+depends	py3-dns-lexicon python3~3.14
+origin	certbot-dns
+repo	community
+file	certbot-dns-nsone-5.6.0-r0.apk
+checksum	Q10gXbPMjAbAEX+m3GGHBEcn8EqR0=
+dep	py3-dns-lexicon	py3-dns-lexicon
+dep	python3~3.14	python3

@@ -1,0 +1,15 @@
+name	sofia-sip-dev
+version	1.13.17-r1
+description	RFC3261 compliant SIP User-Agent library (development files)
+url	https://github.com/freeswitch/sofia-sip
+license	LGPL-2.1-only
+size	257661
+installed-size	2257133
+depends	sofia-sip=1.13.17-r1 pc:glib-2.0 pkgconfig
+origin	sofia-sip
+repo	main
+file	sofia-sip-dev-1.13.17-r1.apk
+checksum	Q11WA+p/u4nVRDOIj3lHtiNZh2IG8=
+dep	sofia-sip=1.13.17-r1	sofia-sip
+dep	pc:glib-2.0	glib-dev
+dep	pkgconfig	pkgconf

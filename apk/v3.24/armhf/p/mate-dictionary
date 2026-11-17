@@ -1,0 +1,23 @@
+name	mate-dictionary
+version	1.28.0-r1
+description	Dictionary from the MATE Desktop
+url	https://github.com/mate-desktop/mate-utils
+license	GPL-2.0-or-later
+size	92980
+installed-size	265295
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libmate-desktop-2.so.17 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0
+origin	mate-utils
+repo	community
+file	mate-dictionary-1.28.0-r1.apk
+checksum	Q1nyZ967Ad69PeV/z972I0HfOhvkg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libmate-desktop-2.so.17	mate-desktop
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango

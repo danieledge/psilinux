@@ -1,0 +1,20 @@
+name	py3-mizani
+version	0.14.4-r1
+description	A scales package for python
+url	https://github.com/has2k1/mizani
+license	MIT
+size	124412
+installed-size	447324
+depends	python3 py3-numpy py3-scipy py3-pandas py3-matplotlib py3-palettable py3-tzdata python3~3.14
+origin	py3-mizani
+repo	community
+file	py3-mizani-0.14.4-r1.apk
+checksum	Q1YGXpro0RC2huK3fZmmIei33p/L8=
+dep	python3	python3
+dep	py3-numpy	py3-numpy
+dep	py3-scipy	py3-scipy
+dep	py3-pandas	py3-pandas
+dep	py3-matplotlib	py3-matplotlib
+dep	py3-palettable	py3-palettable
+dep	py3-tzdata	py3-tzdata
+dep	python3~3.14	python3

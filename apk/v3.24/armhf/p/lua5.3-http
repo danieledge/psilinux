@@ -1,0 +1,20 @@
+name	lua5.3-http
+version	0.4-r2
+description	HTTP Library for Lua that supports HTTP(S) 1.0, 1.1 and 2.0 (for Lua 5.3)
+url	https://github.com/daurnimator/lua-http
+license	MIT
+size	79807
+installed-size	319712
+depends	lua5.3 lua5.3-binaryheap lua5.3-cqueues lua5.3-basexx lua5.3-fifo lua5.3-lpeg lua5.3-lpeg_patterns>=0.5 lua5.3-ossl
+origin	lua-http
+repo	community
+file	lua5.3-http-0.4-r2.apk
+checksum	Q15b9CmTZlIuza3lXNTUOA/5F7iOM=
+dep	lua5.3	lua5.3
+dep	lua5.3-binaryheap	lua-binaryheap
+dep	lua5.3-cqueues	lua5.3-cqueues
+dep	lua5.3-basexx	lua5.3-basexx
+dep	lua5.3-fifo	lua5.3-fifo
+dep	lua5.3-lpeg	lua5.3-lpeg
+dep	lua5.3-lpeg_patterns>=0.5	lua5.3-lpeg_patterns
+dep	lua5.3-ossl	lua5.3-ossl

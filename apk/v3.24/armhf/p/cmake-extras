@@ -1,0 +1,13 @@
+name	cmake-extras
+version	1.9-r0
+description	A collection of add-ons for the CMake build tool
+url	https://gitlab.com/ubports/development/core/cmake-extras
+license	LGPL-3.0-only
+size	56213
+installed-size	198417
+depends	cmake
+origin	cmake-extras
+repo	community
+file	cmake-extras-1.9-r0.apk
+checksum	Q1FF5uDtnrOjw2+omO8qoI9SBZtBc=
+dep	cmake	cmake

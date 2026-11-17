@@ -1,0 +1,13 @@
+name	confd
+version	0.30.0-r5
+description	manage local application configuration files using templates and data from multiple backends
+url	https://github.com/abtreece/confd
+license	MIT
+size	8669544
+installed-size	28031427
+depends	so:libc.musl-armhf.so.1
+origin	confd
+repo	community
+file	confd-0.30.0-r5.apk
+checksum	Q1gQqjNzPeJYmS0eO3zJQYY2slyug=
+dep	so:libc.musl-armhf.so.1	musl

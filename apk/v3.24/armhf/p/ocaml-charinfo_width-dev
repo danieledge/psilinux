@@ -1,0 +1,15 @@
+name	ocaml-charinfo_width-dev
+version	1.1.0-r6
+description	Determine column width for a character in OCaml (development files)
+url	https://github.com/kandu/charinfo_width/
+license	MIT
+size	193399
+installed-size	515210
+depends	ocaml-charinfo_width=1.1.0-r6 ocaml-camomile-dev ocaml-result-dev
+origin	ocaml-charinfo_width
+repo	community
+file	ocaml-charinfo_width-dev-1.1.0-r6.apk
+checksum	Q1o2Ebjlyxgfr+XKLUbAk5Gb0t/oI=
+dep	ocaml-charinfo_width=1.1.0-r6	ocaml-charinfo_width
+dep	ocaml-camomile-dev	ocaml-camomile-dev
+dep	ocaml-result-dev	ocaml-result-dev

@@ -1,0 +1,13 @@
+name	tree-sitter-cmake
+version	0.7.2-r0
+description	CMake grammar for tree-sitter
+url	https://github.com/uyha/tree-sitter-cmake
+license	MIT
+size	20593
+installed-size	86065
+depends	so:libc.musl-armhf.so.1
+origin	tree-sitter-cmake
+repo	community
+file	tree-sitter-cmake-0.7.2-r0.apk
+checksum	Q1F77aSu/NWipYyler50RZJBaIEVM=
+dep	so:libc.musl-armhf.so.1	musl

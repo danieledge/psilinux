@@ -1,0 +1,21 @@
+name	openmpt123
+version	0.8.10-r0
+description	Command-line module file player
+url	https://lib.openmpt.org/libopenmpt/
+license	BSD-3-Clause
+size	110985
+installed-size	259508
+depends	so:libFLAC.so.12 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libopenmpt.so.0 so:libportaudio.so.2 so:libpulse-simple.so.0 so:libpulse.so.0 so:libsndfile.so.1 so:libstdc++.so.6
+origin	libopenmpt
+repo	community
+file	openmpt123-0.8.10-r0.apk
+checksum	Q1rYVI9u+6JEB2liHkgQ/AxEw8Ozc=
+dep	so:libFLAC.so.12	libflac
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libopenmpt.so.0	libopenmpt
+dep	so:libportaudio.so.2	portaudio
+dep	so:libpulse-simple.so.0	libpulse
+dep	so:libpulse.so.0	libpulse
+dep	so:libsndfile.so.1	libsndfile
+dep	so:libstdc++.so.6	libstdc++

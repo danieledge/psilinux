@@ -1,0 +1,14 @@
+name	perl-extutils-makemaker-cpanfile
+version	0.09-r1
+description	CPANfile support for ExtUtils::MakeMaker
+url	https://metacpan.org/release/ExtUtils-MakeMaker-CPANfile/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	4647
+installed-size	7704
+depends	perl perl-module-cpanfile
+origin	perl-extutils-makemaker-cpanfile
+repo	community
+file	perl-extutils-makemaker-cpanfile-0.09-r1.apk
+checksum	Q1AnVgMZDpK6AiYg5H5kujhBm+n6g=
+dep	perl	perl
+dep	perl-module-cpanfile	perl-module-cpanfile

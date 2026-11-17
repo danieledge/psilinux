@@ -1,0 +1,15 @@
+name	cosmic-randr
+version	1.0.15-r0
+description	Display configuration library for the COSMIC Desktop Environment
+url	https://github.com/pop-os/cosmic-randr
+license	MPL-2.0
+size	535542
+installed-size	1011956
+depends	wayland so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	cosmic-randr
+repo	community
+file	cosmic-randr-1.0.15-r0.apk
+checksum	Q1ZCvwKBufrmVGxa7mC9dPv7poYgE=
+dep	wayland	wayland
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

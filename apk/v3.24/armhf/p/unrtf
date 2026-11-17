@@ -1,0 +1,13 @@
+name	unrtf
+version	0.21.13-r0
+description	Command-line program which converts RTF documents to other formats
+url	https://www.gnu.org/software/unrtf
+license	GPL-3.0-or-later
+size	43041
+installed-size	106456
+depends	so:libc.musl-armhf.so.1
+origin	unrtf
+repo	community
+file	unrtf-0.21.13-r0.apk
+checksum	Q1nC0pe/+zWerFnHJI6wJ5wTN+35s=
+dep	so:libc.musl-armhf.so.1	musl

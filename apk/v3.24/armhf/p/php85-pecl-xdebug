@@ -1,0 +1,15 @@
+name	php85-pecl-xdebug
+version	3.5.3-r0
+description	PHP 8.5 extension that provides functions for function traces and profiling - PECL
+url	https://pecl.php.net/package/xdebug
+license	PHP-3.0
+size	158111
+installed-size	348110
+depends	php85-common so:libc.musl-armhf.so.1 so:libz.so.1
+origin	php85-pecl-xdebug
+repo	community
+file	php85-pecl-xdebug-3.5.3-r0.apk
+checksum	Q1N0jBinYWMWVUuksOevN1bfbMXl0=
+dep	php85-common	php85-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libz.so.1	zlib

@@ -1,0 +1,42 @@
+name	vips-dev
+version	8.18.2-r0
+description	fast image processing library with low memory needs (development files)
+url	https://www.libvips.org/
+license	LGPL-2.1-or-later
+size	315712
+installed-size	2687938
+depends	vips-cpp=8.18.2-r0 vips=8.18.2-r0 pc:OpenEXR>=1.2.2 pc:cairo>=1.2 pc:cfitsio pc:cgif>=0.2.0 pc:expat pc:fftw3 pc:fontconfig pc:gio-2.0 pc:glib-2.0>=2.52 pc:gmodule-no-export-2.0 pc:gobject-2.0 pc:imagequant pc:lcms2 pc:libarchive>=3.0.0 pc:libexif>=0.6 pc:libhwy>=1.0.5 pc:libjpeg pc:libopenjp2>=2.4 pc:libpng>=1.2.9 pc:librsvg-2.0>=2.40.3 pc:libtiff-4 pc:libwebp>=0.6 pc:libwebpdemux>=0.6 pc:libwebpmux>=0.6 pc:pangocairo>=1.32.6 pc:pangoft2>=1.32.6 pc:zlib>=0.4 pkgconfig
+origin	vips
+repo	community
+file	vips-dev-8.18.2-r0.apk
+checksum	Q17nrMMKD9GPTsevGEmMIJCzucv9E=
+dep	vips-cpp=8.18.2-r0	vips-cpp
+dep	vips=8.18.2-r0	vips
+dep	pc:OpenEXR>=1.2.2	openexr-dev
+dep	pc:cairo>=1.2	cairo-dev
+dep	pc:cfitsio	cfitsio-dev
+dep	pc:cgif>=0.2.0	cgif-dev
+dep	pc:expat	expat-dev
+dep	pc:fftw3	fftw-dev
+dep	pc:fontconfig	fontconfig-dev
+dep	pc:gio-2.0	glib-dev
+dep	pc:glib-2.0>=2.52	glib-dev
+dep	pc:gmodule-no-export-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pc:imagequant	libimagequant-dev
+dep	pc:lcms2	lcms2-dev
+dep	pc:libarchive>=3.0.0	libarchive-dev
+dep	pc:libexif>=0.6	libexif-dev
+dep	pc:libhwy>=1.0.5	highway-dev
+dep	pc:libjpeg	libjpeg-turbo-dev
+dep	pc:libopenjp2>=2.4	openjpeg-dev
+dep	pc:libpng>=1.2.9	libpng-dev
+dep	pc:librsvg-2.0>=2.40.3	librsvg-dev
+dep	pc:libtiff-4	tiff-dev
+dep	pc:libwebp>=0.6	libwebp-dev
+dep	pc:libwebpdemux>=0.6	libwebp-dev
+dep	pc:libwebpmux>=0.6	libwebp-dev
+dep	pc:pangocairo>=1.32.6	pango-dev
+dep	pc:pangoft2>=1.32.6	pango-dev
+dep	pc:zlib>=0.4	zlib-dev
+dep	pkgconfig	pkgconf

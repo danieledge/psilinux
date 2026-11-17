@@ -1,0 +1,12 @@
+name	sleep-inhibitor-systemd
+version	1.25-r2
+description	Simple program to inhibit sleep/suspend when using elogind (systemd files)
+url	https://github.com/bulletmark/sleep-inhibitor
+license	GPL-3.0-or-later
+size	1736
+installed-size	111
+depends	
+origin	sleep-inhibitor
+repo	community
+file	sleep-inhibitor-systemd-1.25-r2.apk
+checksum	Q10YCfGrFSjgZpEsr0ssEdTsvr8+c=

@@ -1,0 +1,17 @@
+name	libgtop
+version	2.41.3-r1
+description	GNOME top library
+url	https://www.gnome.org/
+license	LGPL-2.1-or-later
+size	44779
+installed-size	115060
+depends	so:libXau.so.6 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8
+origin	libgtop
+repo	community
+file	libgtop-2.41.3-r1.apk
+checksum	Q1DVWbEtCdBrutp7OcNuaaC4C6zTg=
+dep	so:libXau.so.6	libxau
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl

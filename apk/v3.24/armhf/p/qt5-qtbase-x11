@@ -1,0 +1,59 @@
+name	qt5-qtbase-x11
+version	5.15.18_git20251101-r0
+description	Qt5 GUI-related libraries
+url	https://qt.io/developers/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	5635744
+installed-size	13319780
+depends	hicolor-icon-theme xdg-utils so:libEGL.so.1 so:libGLESv2.so.2 so:libICE.so.6 so:libQt5Core.so.5 so:libQt5DBus.so.5 so:libQt5Network.so.5 so:libSM.so.6 so:libX11-xcb.so.1 so:libX11.so.6 so:libc.musl-armhf.so.1 so:libcups.so.2 so:libdrm.so.2 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgbm.so.1 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libharfbuzz.so.0 so:libinput.so.10 so:libjpeg.so.8 so:libmtdev.so.1 so:libpango-1.0.so.0 so:libpng16.so.16 so:libstdc++.so.6 so:libudev.so.1 so:libxcb-icccm.so.4 so:libxcb-image.so.0 so:libxcb-keysyms.so.1 so:libxcb-randr.so.0 so:libxcb-render-util.so.0 so:libxcb-render.so.0 so:libxcb-shape.so.0 so:libxcb-shm.so.0 so:libxcb-sync.so.1 so:libxcb-xfixes.so.0 so:libxcb-xinerama.so.0 so:libxcb-xinput.so.0 so:libxcb-xkb.so.1 so:libxcb.so.1 so:libxkbcommon-x11.so.0 so:libxkbcommon.so.0 so:libz.so.1
+origin	qt5-qtbase
+repo	community
+file	qt5-qtbase-x11-5.15.18_git20251101-r0.apk
+checksum	Q1A/7t4bx9LdVeCIMzOKLXKJYQHgc=
+dep	hicolor-icon-theme	hicolor-icon-theme
+dep	xdg-utils	xdg-utils
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libGLESv2.so.2	mesa-gles
+dep	so:libICE.so.6	libice
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5DBus.so.5	qt5-qtbase
+dep	so:libQt5Network.so.5	qt5-qtbase
+dep	so:libSM.so.6	libsm
+dep	so:libX11-xcb.so.1	libx11
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcups.so.2	cups-libs
+dep	so:libdrm.so.2	libdrm
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:libinput.so.10	libinput-libs
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libmtdev.so.1	mtdev
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libudev.so.1	eudev-libs
+dep	so:libxcb-icccm.so.4	xcb-util-wm
+dep	so:libxcb-image.so.0	xcb-util-image
+dep	so:libxcb-keysyms.so.1	xcb-util-keysyms
+dep	so:libxcb-randr.so.0	libxcb
+dep	so:libxcb-render-util.so.0	xcb-util-renderutil
+dep	so:libxcb-render.so.0	libxcb
+dep	so:libxcb-shape.so.0	libxcb
+dep	so:libxcb-shm.so.0	libxcb
+dep	so:libxcb-sync.so.1	libxcb
+dep	so:libxcb-xfixes.so.0	libxcb
+dep	so:libxcb-xinerama.so.0	libxcb
+dep	so:libxcb-xinput.so.0	libxcb
+dep	so:libxcb-xkb.so.1	libxcb
+dep	so:libxcb.so.1	libxcb
+dep	so:libxkbcommon-x11.so.0	libxkbcommon-x11
+dep	so:libxkbcommon.so.0	libxkbcommon
+dep	so:libz.so.1	zlib

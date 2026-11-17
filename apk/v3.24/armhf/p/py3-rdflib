@@ -1,0 +1,16 @@
+name	py3-rdflib
+version	7.6.0-r1
+description	A Python library for working with RDF, a simple yet powerful language for representing information
+url	https://rdflib.readthedocs.org/
+license	BSD-3-Clause
+size	564680
+installed-size	2360113
+depends	py3-html5lib py3-isodate py3-parsing python3~3.14
+origin	py3-rdflib
+repo	community
+file	py3-rdflib-7.6.0-r1.apk
+checksum	Q1NY1dr/Q3zcsdxsSEnWDJmUlNyQk=
+dep	py3-html5lib	py3-html5lib
+dep	py3-isodate	py3-isodate
+dep	py3-parsing	py3-parsing
+dep	python3~3.14	python3

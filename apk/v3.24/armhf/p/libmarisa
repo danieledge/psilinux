@@ -1,0 +1,15 @@
+name	libmarisa
+version	0.2.6-r8
+description	MARISA: Matching Algorithm with Recursively Implemented StorAge
+url	https://github.com/s-yata/marisa-trie
+license	BSD-2-Clause OR LGPL-2.1-or-later
+size	69844
+installed-size	217204
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libmarisa
+repo	community
+file	libmarisa-0.2.6-r8.apk
+checksum	Q1s+rH9++tRgCwpvA0O1eqRV0woeQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

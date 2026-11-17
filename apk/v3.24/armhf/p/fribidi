@@ -1,0 +1,13 @@
+name	fribidi
+version	1.0.16-r3
+description	Free Implementation of the Unicode Bidirectional Algorithm
+url	https://github.com/fribidi/fribidi
+license	LGPL-2.1-or-later
+size	30689
+installed-size	138052
+depends	so:libc.musl-armhf.so.1
+origin	fribidi
+repo	main
+file	fribidi-1.0.16-r3.apk
+checksum	Q1mLGgubMoQyFazhM45UURQV/lwlQ=
+dep	so:libc.musl-armhf.so.1	musl

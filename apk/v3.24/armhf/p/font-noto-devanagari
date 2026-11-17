@@ -1,0 +1,14 @@
+name	font-noto-devanagari
+version	2026.11.01-r0
+description	Noto Sans Devanagari (UI) and Serif Devanagari fonts
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	11551780
+installed-size	27566016
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-devanagari-2026.11.01-r0.apk
+checksum	Q1z7h6vBkEP0gSRrsmZJp7BGRaIIg=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

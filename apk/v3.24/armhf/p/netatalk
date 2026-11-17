@@ -1,0 +1,22 @@
+name	netatalk
+version	4.5.0-r0
+description	Open Source AFP fileserver
+url	https://netatalk.io/
+license	GPL-2.0-or-later
+size	592913
+installed-size	1385256
+depends	so:libacl.so.1 so:libbstring.so.1 so:libc.musl-armhf.so.1 so:libdb-5.3.so so:libevent-2.1.so.7 so:libgcrypt.so.20 so:libiniparser.so.4 so:libmariadb.so.3 so:libsqlite3.so.0 so:libtalloc.so.2
+origin	netatalk
+repo	community
+file	netatalk-4.5.0-r0.apk
+checksum	Q1FaYzIE6Hy0u+pxcjRgdwIDfHJPY=
+dep	so:libacl.so.1	acl-libs
+dep	so:libbstring.so.1	bstring
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdb-5.3.so	db
+dep	so:libevent-2.1.so.7	libevent
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libiniparser.so.4	iniparser
+dep	so:libmariadb.so.3	mariadb-connector-c
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libtalloc.so.2	talloc

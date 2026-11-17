@@ -1,0 +1,25 @@
+name	openbox
+version	3.6.1-r8
+description	A highly configurable and standards-compliant X11 window manager
+url	http://openbox.org
+license	GPL-2.0-or-later
+size	177928
+installed-size	409654
+depends	so:libICE.so.6 so:libSM.so.6 so:libX11.so.6 so:libXcursor.so.1 so:libXext.so.6 so:libXinerama.so.1 so:libXrandr.so.2 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libintl.so.8 so:libobrender.so.32 so:libobt.so.2 so:libstartup-notification-1.so.0
+origin	openbox
+repo	community
+file	openbox-3.6.1-r8.apk
+checksum	Q1omsX9o/0r+Ji9zIeqTSPKlrTa4g=
+dep	so:libICE.so.6	libice
+dep	so:libSM.so.6	libsm
+dep	so:libX11.so.6	libx11
+dep	so:libXcursor.so.1	libxcursor
+dep	so:libXext.so.6	libxext
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libobrender.so.32	openbox-libs
+dep	so:libobt.so.2	openbox-libs
+dep	so:libstartup-notification-1.so.0	startup-notification

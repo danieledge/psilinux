@@ -1,0 +1,15 @@
+name	ngrep
+version	1.49.0-r0
+description	A grep-like utility that allows you to search for network packets on an interface
+url	https://ngrep.sourceforge.net/
+license	custom
+size	17524
+installed-size	34020
+depends	so:libc.musl-armhf.so.1 so:libpcap.so.1 so:libpcre2-8.so.0
+origin	ngrep
+repo	main
+file	ngrep-1.49.0-r0.apk
+checksum	Q1QX3h+WdLpLoLx8+VtFcLDiYSrgE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcap.so.1	libpcap
+dep	so:libpcre2-8.so.0	pcre2

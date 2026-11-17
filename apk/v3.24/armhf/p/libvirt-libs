@@ -1,0 +1,28 @@
+name	libvirt-libs
+version	12.3.0-r0
+description	Virtualization API for several hypervisor and container systems (libraries)
+url	https://libvirt.org/
+license	LGPL-2.1-or-later
+size	1761285
+installed-size	4336156
+depends	so:libacl.so.1 so:libc.musl-armhf.so.1 so:libcap-ng.so.0 so:libcurl.so.4 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgnutls.so.30 so:libgobject-2.0.so.0 so:libintl.so.8 so:libjson-c.so.5 so:libnl-3.so.200 so:libsasl2.so.3 so:libssh2.so.1 so:libtirpc.so.3 so:libxml2.so.2
+origin	libvirt
+repo	community
+file	libvirt-libs-12.3.0-r0.apk
+checksum	Q1j9myElRTVjAH+DGqZzloR4c0bPk=
+dep	so:libacl.so.1	acl-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap-ng.so.0	libcap-ng
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgnutls.so.30	gnutls
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libjson-c.so.5	json-c
+dep	so:libnl-3.so.200	libnl3
+dep	so:libsasl2.so.3	libsasl
+dep	so:libssh2.so.1	libssh2
+dep	so:libtirpc.so.3	libtirpc
+dep	so:libxml2.so.2	libxml2

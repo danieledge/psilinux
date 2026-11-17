@@ -1,0 +1,16 @@
+name	perl-datetime-format-pg
+version	0.16014-r1
+description	Parse and format PostgreSQL dates and times
+url	https://metacpan.org/release/DateTime-Format-Pg/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	10262
+installed-size	28799
+depends	perl perl-datetime-format-builder perl-datetime-timezone perl-datetime
+origin	perl-datetime-format-pg
+repo	community
+file	perl-datetime-format-pg-0.16014-r1.apk
+checksum	Q1nW4AFLZXuMYcgSxKId6wmnGmIJE=
+dep	perl	perl
+dep	perl-datetime-format-builder	perl-datetime-format-builder
+dep	perl-datetime-timezone	perl-datetime-timezone
+dep	perl-datetime	perl-datetime

@@ -1,0 +1,14 @@
+name	perl-proc-wait3
+version	0.05-r12
+description	Perl extension for wait3 system call
+url	https://metacpan.org/release/Proc-Wait3/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6232
+installed-size	12033
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-proc-wait3
+repo	main
+file	perl-proc-wait3-0.05-r12.apk
+checksum	Q1lai0VJ9qYR79XY3sJgKBjNlf2iA=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

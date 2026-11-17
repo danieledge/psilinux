@@ -1,0 +1,14 @@
+name	libfossil
+version	0.20260124.1326-r1
+description	Unofficial Fossil SCM library
+url	https://fossil.wanderinghorse.net/r/libfossil
+license	BSD-2-Clause
+size	1032438
+installed-size	2085488
+depends	so:libc.musl-armhf.so.1 so:libz.so.1
+origin	libfossil
+repo	community
+file	libfossil-0.20260124.1326-r1.apk
+checksum	Q1L8Y6pwCuvbVwrASAhsIvjh6vdiA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libz.so.1	zlib

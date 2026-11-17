@@ -1,0 +1,13 @@
+name	websocketd
+version	0.4.2-r3
+description	Like inetd, but for WebSockets. Turn any application that uses STDIO/STDOUT into a WebSocket server.
+url	https://github.com/joewalnes/websocketd
+license	BSD-2-Clause
+size	2941409
+installed-size	7192019
+depends	so:libc.musl-armhf.so.1
+origin	websocketd
+repo	community
+file	websocketd-0.4.2-r3.apk
+checksum	Q1qd57QSEyponXa7H9A3y5/ji7mFM=
+dep	so:libc.musl-armhf.so.1	musl

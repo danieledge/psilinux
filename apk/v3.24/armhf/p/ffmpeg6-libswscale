@@ -1,0 +1,14 @@
+name	ffmpeg6-libswscale
+version	6.1.6-r0
+description	Complete and free Internet live audio and video broadcasting solution for Linux/Unix (libswscale library)
+url	https://ffmpeg.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	151094
+installed-size	382356
+depends	so:libavutil.so.58 so:libc.musl-armhf.so.1
+origin	ffmpeg6
+repo	community
+file	ffmpeg6-libswscale-6.1.6-r0.apk
+checksum	Q1gl0JfoCNFKaw5P8UO97p8FjQpHk=
+dep	so:libavutil.so.58	ffmpeg6-libavutil
+dep	so:libc.musl-armhf.so.1	musl

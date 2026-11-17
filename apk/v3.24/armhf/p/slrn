@@ -1,0 +1,16 @@
+name	slrn
+version	1.0.3-r9
+description	Threaded text-based news client
+url	https://slrn.info/
+license	GPL-2.0-or-later
+size	226369
+installed-size	498614
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libslang.so.2 so:libssl.so.3
+origin	slrn
+repo	community
+file	slrn-1.0.3-r9.apk
+checksum	Q1OIceUUZc1/Xepp9TjJvVzZSCDcc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libslang.so.2	slang
+dep	so:libssl.so.3	libssl3

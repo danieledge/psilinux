@@ -1,0 +1,19 @@
+name	dragon-drop
+version	1.2.0-r1
+description	Drag and drop source/target for X or Wayland
+url	https://github.com/mwh/dragon
+license	GPL-3.0-or-later
+size	9482
+installed-size	21680
+depends	so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0
+origin	dragon-drop
+repo	community
+file	dragon-drop-1.2.0-r1.apk
+checksum	Q1J6nyJld+biNeh7Ri6PJulSv2mvM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0

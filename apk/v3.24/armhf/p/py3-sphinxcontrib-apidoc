@@ -1,0 +1,14 @@
+name	py3-sphinxcontrib-apidoc
+version	0.6.0-r1
+description	A Sphinx extension for running sphinx-apidoc on each build
+url	https://github.com/sphinx-contrib/apidoc
+license	BSD-2-Clause
+size	9049
+installed-size	19742
+depends	py3-sphinx python3~3.14
+origin	py3-sphinxcontrib-apidoc
+repo	community
+file	py3-sphinxcontrib-apidoc-0.6.0-r1.apk
+checksum	Q18FqhTkBfBk3yDTWbGfCX896kmJk=
+dep	py3-sphinx	py3-sphinx
+dep	python3~3.14	python3

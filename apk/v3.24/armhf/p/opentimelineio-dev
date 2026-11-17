@@ -1,0 +1,14 @@
+name	opentimelineio-dev
+version	0.18.1-r0
+description	Open Source API and interchange format for editorial timeline information (development files)
+url	https://opentimeline.io
+license	Apache-2.0
+size	34746
+installed-size	177240
+depends	imath-dev opentimelineio=0.18.1-r0
+origin	opentimelineio
+repo	community
+file	opentimelineio-dev-0.18.1-r0.apk
+checksum	Q1YIoXMRnIO0DFx7ltK4Pv6Z4keW0=
+dep	imath-dev	imath-dev
+dep	opentimelineio=0.18.1-r0	opentimelineio

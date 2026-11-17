@@ -1,0 +1,18 @@
+name	usbmuxd
+version	1.1.1_git20250201-r11
+description	Socket Daemon to multiplex connections from iOS
+url	https://libimobiledevice.org
+license	GPL-2.0-or-later
+size	36377
+installed-size	75240
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libimobiledevice-1.0.so.6 so:libimobiledevice-glue-1.0.so.0 so:libplist-2.0.so.4 so:libusb-1.0.so.0
+origin	usbmuxd
+repo	community
+file	usbmuxd-1.1.1_git20250201-r11.apk
+checksum	Q19HnbWFEf1PNkByuvYoIe4qPL9JY=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libimobiledevice-1.0.so.6	libimobiledevice
+dep	so:libimobiledevice-glue-1.0.so.0	libimobiledevice-glue
+dep	so:libplist-2.0.so.4	libplist
+dep	so:libusb-1.0.so.0	libusb

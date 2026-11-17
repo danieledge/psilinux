@@ -1,0 +1,15 @@
+name	libxdmcp-dev
+version	1.1.5-r1
+description	X11 Display Manager Control Protocol library (development files)
+url	https://xorg.freedesktop.org/
+license	MIT
+size	11315
+installed-size	30819
+depends	libxdmcp=1.1.5-r1 pc:xproto pkgconfig
+origin	libxdmcp
+repo	main
+file	libxdmcp-dev-1.1.5-r1.apk
+checksum	Q1KLndPYYgvzyTeVKpaewF6s6HgW0=
+dep	libxdmcp=1.1.5-r1	libxdmcp
+dep	pc:xproto	xorgproto
+dep	pkgconfig	pkgconf

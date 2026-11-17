@@ -1,0 +1,15 @@
+name	venc
+version	3.2.7-r1
+description	Static blog generator
+url	https://venc.software/
+license	GPL-3.0-or-later
+size	254416
+installed-size	623065
+depends	py3-yaml py3-unidecode python3~3.14
+origin	venc
+repo	community
+file	venc-3.2.7-r1.apk
+checksum	Q1s5XIb3HWdpnOAnR2hzaN0SBORSQ=
+dep	py3-yaml	py3-yaml
+dep	py3-unidecode	py3-unidecode
+dep	python3~3.14	python3

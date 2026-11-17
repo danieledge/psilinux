@@ -1,0 +1,12 @@
+name	fakeroot-dbg
+version	1.37.2-r0
+description	Gives a fake root environment, useful for building packages as a non-privileged user (debug symbols)
+url	https://packages.debian.org/fakeroot
+license	GPL-3.0-or-later
+size	61740
+installed-size	142756
+depends	!fakeroot<1.37.2-r0 !fakeroot>1.37.2-r0
+origin	fakeroot
+repo	main
+file	fakeroot-dbg-1.37.2-r0.apk
+checksum	Q1gvvhkDqavc3mLR0fdeYFeDqvRPE=

@@ -1,0 +1,13 @@
+name	lua5.4-posixtz
+version	0.5-r5
+description	Lua 5.4 module to extract POSIX timezone from tzdata
+url	http://git.alpinelinux.org/cgit/posixtz.git/
+license	GPL-2.0-only
+size	5793
+installed-size	10539
+depends	so:libc.musl-armhf.so.1
+origin	lua-posixtz
+repo	main
+file	lua5.4-posixtz-0.5-r5.apk
+checksum	Q1vwrVXMNwFNR0W+YmEjv/0k00Fv8=
+dep	so:libc.musl-armhf.so.1	musl

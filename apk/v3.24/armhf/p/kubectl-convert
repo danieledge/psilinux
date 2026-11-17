@@ -1,0 +1,13 @@
+name	kubectl-convert
+version	1.36.1-r2
+description	Kubernetes - kubectl-convert
+url	https://kubernetes.io/
+license	Apache-2.0
+size	18156799
+installed-size	63300892
+depends	kubectl
+origin	kubernetes
+repo	community
+file	kubectl-convert-1.36.1-r2.apk
+checksum	Q1QAWx+oIAHcmiVx2lmsB5ldGGgfA=
+dep	kubectl	kubectl

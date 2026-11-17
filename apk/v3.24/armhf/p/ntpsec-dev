@@ -1,0 +1,13 @@
+name	ntpsec-dev
+version	1.2.5-r0
+description	NTP reference implementation, refactored for security (development files)
+url	https://www.ntpsec.org/
+license	BSD-2-Clause
+size	1572
+installed-size	1
+depends	ntpsec=1.2.5-r0
+origin	ntpsec
+repo	community
+file	ntpsec-dev-1.2.5-r0.apk
+checksum	Q1AiMLpCdyccT9jYgG92d/SbJX3Eo=
+dep	ntpsec=1.2.5-r0	ntpsec

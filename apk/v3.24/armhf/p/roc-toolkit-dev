@@ -1,0 +1,23 @@
+name	roc-toolkit-dev
+version	0.4.0-r1
+description	Real-time audio streaming over the network (development files)
+url	https://roc-streaming.org/
+license	MPL-2.0
+size	25274
+installed-size	116832
+depends	libsndfile-dev libunwind-dev libuv-dev openssl-dev speexdsp-dev roc-toolkit-libs=0.4.0-r1 pc:libssl pc:libunwind pc:libuv pc:speexdsp pkgconfig
+origin	roc-toolkit
+repo	community
+file	roc-toolkit-dev-0.4.0-r1.apk
+checksum	Q1I1Rs7gnjtqLsAOTGgdEvBX2528s=
+dep	libsndfile-dev	libsndfile-dev
+dep	libunwind-dev	libunwind-dev
+dep	libuv-dev	libuv-dev
+dep	openssl-dev	openssl-dev
+dep	speexdsp-dev	speexdsp-dev
+dep	roc-toolkit-libs=0.4.0-r1	roc-toolkit-libs
+dep	pc:libssl	openssl-dev
+dep	pc:libunwind	libunwind-dev
+dep	pc:libuv	libuv-dev
+dep	pc:speexdsp	speexdsp-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	libvorbis
+version	1.3.7-r2
+description	Vorbis codec library
+url	https://xiph.org/vorbis
+license	BSD-3-Clause
+size	187318
+installed-size	708092
+depends	so:libc.musl-armhf.so.1 so:libogg.so.0
+origin	libvorbis
+repo	main
+file	libvorbis-1.3.7-r2.apk
+checksum	Q1aM+D39g8gXYoRMURtFXF/obv8Lw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libogg.so.0	libogg

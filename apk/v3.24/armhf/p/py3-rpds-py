@@ -1,0 +1,15 @@
+name	py3-rpds-py
+version	0.30.0-r2
+description	Python bindings to the Rust Persistent Data Structures (rpds) crate
+url	https://github.com/crate-py/rpds
+license	MIT
+size	247913
+installed-size	516399
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	py3-rpds-py
+repo	community
+file	py3-rpds-py-0.30.0-r2.apk
+checksum	Q16+VuFq42T88x1BR2c4kBKS5EXJg=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,22 @@
+name	claws-mail-plugins-smime
+version	4.4.0-r0
+description	S/MIME support for Claws Mail
+url	https://www.claws-mail.org
+license	GPL-3.0-or-later
+size	12784
+installed-size	27013
+depends	claws-mail=4.4.0-r0 claws-mail-plugins-pgp gpgsm so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgpg-error.so.0 so:libgpgme.so.45 so:libintl.so.8
+origin	claws-mail
+repo	community
+file	claws-mail-plugins-smime-4.4.0-r0.apk
+checksum	Q1B7CX0jetuM7nGzy4PZyc5KxIzXI=
+dep	claws-mail=4.4.0-r0	claws-mail
+dep	claws-mail-plugins-pgp	claws-mail-plugins-pgp
+dep	gpgsm	gpgsm
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgpg-error.so.0	libgpg-error
+dep	so:libgpgme.so.45	gpgme
+dep	so:libintl.so.8	libintl

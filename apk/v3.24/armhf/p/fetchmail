@@ -1,0 +1,16 @@
+name	fetchmail
+version	6.6.1-r1
+description	remote-mail retrieval and forwarding utility
+url	https://www.fetchmail.info/
+license	GPL-2.0-or-later WITH OpenSSL-Exception AND Public-Domain
+size	134309
+installed-size	272124
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	fetchmail
+repo	community
+file	fetchmail-6.6.1-r1.apk
+checksum	Q1AboDGIwLj+NpMSRpmxevGGDNB54=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,45 @@
+name	py3-spsdk
+version	2.2.0-r3
+description	Open Source Secure Provisioning SDK for NXP MCU/MPU
+url	https://github.com/NXPmicro/spsdk
+license	BSD-3-Clause
+size	1085663
+installed-size	10792905
+depends	pcsc-lite-libs py3-asn1crypto py3-astunparse py3-bincopy py3-bitstring py3-click py3-click-command-tree py3-click-option-group py3-cmsis-pack-manager py3-colorama py3-crcmod py3-cryptography py3-deepmerge py3-fastjsonschema py3-hexdump py3-importlib-metadata py3-jinja2 py3-libusbsio py3-oscrypto py3-packaging py3-platformdirs py3-prettytable3 py3-pycryptodome py3-pylink-square py3-pyocd py3-pyscard py3-pyserial py3-requests py3-ruamel.yaml py3-sly py3-typing-extensions python3 python3~3.14
+origin	py3-spsdk
+repo	community
+file	py3-spsdk-2.2.0-r3.apk
+checksum	Q1fR28VMBeb2J8s4258SJwygdb8Sc=
+dep	pcsc-lite-libs	pcsc-lite-libs
+dep	py3-asn1crypto	py3-asn1crypto
+dep	py3-astunparse	py3-astunparse
+dep	py3-bincopy	py3-bincopy
+dep	py3-bitstring	py3-bitstring
+dep	py3-click	py3-click
+dep	py3-click-command-tree	py3-click-command-tree
+dep	py3-click-option-group	py3-click-option-group
+dep	py3-cmsis-pack-manager	py3-cmsis-pack-manager
+dep	py3-colorama	py3-colorama
+dep	py3-crcmod	py3-crcmod
+dep	py3-cryptography	py3-cryptography
+dep	py3-deepmerge	py3-deepmerge
+dep	py3-fastjsonschema	py3-fastjsonschema
+dep	py3-hexdump	py3-hexdump
+dep	py3-importlib-metadata	py3-importlib-metadata
+dep	py3-jinja2	py3-jinja2
+dep	py3-libusbsio	py3-libusbsio
+dep	py3-oscrypto	py3-oscrypto
+dep	py3-packaging	py3-packaging
+dep	py3-platformdirs	py3-platformdirs
+dep	py3-prettytable3	py3-prettytable3
+dep	py3-pycryptodome	py3-pycryptodome
+dep	py3-pylink-square	py3-pylink-square
+dep	py3-pyocd	py3-pyocd
+dep	py3-pyscard	py3-pyscard
+dep	py3-pyserial	py3-pyserial
+dep	py3-requests	py3-requests
+dep	py3-ruamel.yaml	py3-ruamel.yaml
+dep	py3-sly	py3-sly
+dep	py3-typing-extensions	py3-typing-extensions
+dep	python3	python3
+dep	python3~3.14	python3

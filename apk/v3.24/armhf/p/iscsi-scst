@@ -1,0 +1,13 @@
+name	iscsi-scst
+version	2.2.1-r8
+description	ISCSI target for SCST - userspace tools
+url	https://scst.sourceforge.net/
+license	GPL-2.0-only
+size	59223
+installed-size	123327
+depends	so:libc.musl-armhf.so.1
+origin	iscsi-scst
+repo	main
+file	iscsi-scst-2.2.1-r8.apk
+checksum	Q10JQREwOvCAam6+aWKuIHmQdLerI=
+dep	so:libc.musl-armhf.so.1	musl

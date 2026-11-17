@@ -1,0 +1,13 @@
+name	font-droid
+version	20200215-r5
+description	General-purpose fonts released by Google as part of Android.
+url	https://code.google.com/android/
+license	Apache-2.0
+size	711963
+installed-size	1247600
+depends	fontconfig
+origin	font-droid
+repo	main
+file	font-droid-20200215-r5.apk
+checksum	Q1pZZaXPocV/ZA2TOICRR6VdZUuY8=
+dep	fontconfig	fontconfig

@@ -1,0 +1,14 @@
+name	py3-pynamecheap
+version	0.0.3-r6
+description	Namecheap API client in Python
+url	https://github.com/Bemmu/PyNamecheap
+license	MIT
+size	7211
+installed-size	18013
+depends	py3-requests python3~3.14
+origin	py3-pynamecheap
+repo	community
+file	py3-pynamecheap-0.0.3-r6.apk
+checksum	Q1DyXXFd5qJRLDFDv6YH15dwV6Y6Q=
+dep	py3-requests	py3-requests
+dep	python3~3.14	python3

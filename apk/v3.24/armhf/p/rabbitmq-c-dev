@@ -1,0 +1,15 @@
+name	rabbitmq-c-dev
+version	0.15.0-r0
+description	RabbitMQ C client (development files)
+url	https://github.com/alanxz/rabbitmq-c
+license	MIT
+size	34988
+installed-size	167645
+depends	popt-dev rabbitmq-c=0.15.0-r0 pkgconfig
+origin	rabbitmq-c
+repo	main
+file	rabbitmq-c-dev-0.15.0-r0.apk
+checksum	Q1CyUazy1Ek0kiKPnanopTUwVBmBQ=
+dep	popt-dev	popt-dev
+dep	rabbitmq-c=0.15.0-r0	rabbitmq-c
+dep	pkgconfig	pkgconf

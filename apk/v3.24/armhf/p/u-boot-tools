@@ -1,0 +1,15 @@
+name	u-boot-tools
+version	2026.04-r1
+description	u-boot bootloader utility tools
+url	https://www.denx.de/wiki/U-Boot/
+license	GPL-2.0-or-later OFL-1.1 BSD-2-Clause BSD-3-Clause WITH eCos-exception-2.0 IBM-pibs ISC LGPL-2.0-only LGPL-2.1-only X11
+size	683599
+installed-size	1398839
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	u-boot
+repo	main
+file	u-boot-tools-2026.04-r1.apk
+checksum	Q1q/wma67HbntZbTC7kjo5PAYjQc4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

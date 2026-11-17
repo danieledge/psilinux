@@ -1,0 +1,13 @@
+name	partclone-utils
+version	0.4.3-r1
+description	access and mount images made by partclone, ntfsclone and dd
+url	https://sourceforge.net/projects/partclone-utils/
+license	GPL-2.0-only
+size	25202
+installed-size	69384
+depends	so:libc.musl-armhf.so.1
+origin	partclone-utils
+repo	community
+file	partclone-utils-0.4.3-r1.apk
+checksum	Q1fZYQMLZEKrnbls2nB9q1j2k8wqE=
+dep	so:libc.musl-armhf.so.1	musl

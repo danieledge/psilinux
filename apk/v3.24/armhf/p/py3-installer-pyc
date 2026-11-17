@@ -1,0 +1,13 @@
+name	py3-installer-pyc
+version	1.0.0-r0
+description	Precompiled Python bytecode for py3-installer
+url	https://github.com/pypa/installer
+license	MIT
+size	35162
+installed-size	79379
+depends	python3~3.14
+origin	py3-installer
+repo	main
+file	py3-installer-pyc-1.0.0-r0.apk
+checksum	Q16tojFEGZmJzTkO4+YEUH0j0jR+I=
+dep	python3~3.14	python3

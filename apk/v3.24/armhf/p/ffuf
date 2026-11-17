@@ -1,0 +1,13 @@
+name	ffuf
+version	2.1.0-r24
+description	fast web fuzzer written in Go
+url	https://github.com/ffuf/ffuf
+license	MIT
+size	3987728
+installed-size	9981340
+depends	so:libc.musl-armhf.so.1
+origin	ffuf
+repo	community
+file	ffuf-2.1.0-r24.apk
+checksum	Q173duULi+pY8js0vJjzOcRDD7weY=
+dep	so:libc.musl-armhf.so.1	musl

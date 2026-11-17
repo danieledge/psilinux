@@ -1,0 +1,14 @@
+name	cmocka-dev
+version	1.1.7-r2
+description	An elegant unit testing framework for C with support for mock objects (development files)
+url	https://cmocka.org/
+license	Apache-2.0
+size	17632
+installed-size	85003
+depends	cmocka=1.1.7-r2 pkgconfig
+origin	cmocka
+repo	main
+file	cmocka-dev-1.1.7-r2.apk
+checksum	Q1uh2ZHalbAI4puRIi0JDPlCGrgmU=
+dep	cmocka=1.1.7-r2	cmocka
+dep	pkgconfig	pkgconf

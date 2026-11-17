@@ -1,0 +1,13 @@
+name	cntlm
+version	0.92.3-r5
+description	NTLM Session Response / NTLMv2 authenticating HTTP proxy
+url	https://cntlm.sourceforge.net/
+license	GPL-2.0-or-later
+size	51449
+installed-size	103455
+depends	so:libc.musl-armhf.so.1
+origin	cntlm
+repo	community
+file	cntlm-0.92.3-r5.apk
+checksum	Q1PDCuD86NXgo18R/eAaKU5l0oAik=
+dep	so:libc.musl-armhf.so.1	musl

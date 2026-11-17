@@ -1,0 +1,13 @@
+name	squid-lang-sr
+version	7.6-r0
+description	squid language pack for sr
+url	https://www.squid-cache.org/
+license	GPL-2.0-or-later
+size	22015
+installed-size	115440
+depends	logrotate
+origin	squid
+repo	main
+file	squid-lang-sr-7.6-r0.apk
+checksum	Q1kMyBfbn5GNrf2DYR3HXEQpw/quk=
+dep	logrotate	logrotate

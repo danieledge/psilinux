@@ -1,0 +1,18 @@
+name	amtk
+version	5.6.1-r4
+description	Actions, Menus and Toolbars Kit for GTK+ applications
+url	https://gitlab.gnome.org/World/gedit/libgedit-amtk
+license	LGPL-2.1-or-later
+size	23258
+installed-size	62208
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8
+origin	amtk
+repo	community
+file	amtk-5.6.1-r4.apk
+checksum	Q18TX8VjyyJJXN3UA6ektEM2lp90s=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl

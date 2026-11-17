@@ -1,0 +1,13 @@
+name	tidyhtml-static
+version	5.8.0-r5
+description	Tool to tidy down your HTML code to a clean style (static library)
+url	https://www.html-tidy.org
+license	W3C
+size	210954
+installed-size	715762
+depends	tidyhtml-dev
+origin	tidyhtml
+repo	community
+file	tidyhtml-static-5.8.0-r5.apk
+checksum	Q1M5Dy4bUkf5CWi24ZAZ5+VB3wTk0=
+dep	tidyhtml-dev	tidyhtml-dev

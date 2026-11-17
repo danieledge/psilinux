@@ -1,0 +1,13 @@
+name	py3-bcrypt-ceph-pyc
+version	4.0.1-r2
+description	Precompiled Python bytecode for py3-bcrypt-ceph
+url	https://github.com/pyca/bcrypt
+license	Apache-2.0
+size	4299
+installed-size	5040
+depends	python3~3.14
+origin	py3-bcrypt-ceph
+repo	community
+file	py3-bcrypt-ceph-pyc-4.0.1-r2.apk
+checksum	Q1JnoHVwn81IwSoGRpVnXVnMsu4LA=
+dep	python3~3.14	python3

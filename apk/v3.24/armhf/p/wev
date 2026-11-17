@@ -1,0 +1,15 @@
+name	wev
+version	1.1.0-r0
+description	Wayland event viewer
+url	https://git.sr.ht/~sircmpwn/wev
+license	MIT
+size	13786
+installed-size	30228
+depends	so:libc.musl-armhf.so.1 so:libwayland-client.so.0 so:libxkbcommon.so.0
+origin	wev
+repo	community
+file	wev-1.1.0-r0.apk
+checksum	Q1XlTaMCtQyCqFtKah/2llrn0pACM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libxkbcommon.so.0	libxkbcommon

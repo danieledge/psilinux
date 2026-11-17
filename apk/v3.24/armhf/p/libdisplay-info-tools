@@ -1,0 +1,14 @@
+name	libdisplay-info-tools
+version	0.3.0-r0
+description	EDID and DisplayID library (tools)
+url	https://gitlab.freedesktop.org/emersion/libdisplay-info
+license	MIT
+size	26842
+installed-size	58644
+depends	so:libc.musl-armhf.so.1 so:libdisplay-info.so.3
+origin	libdisplay-info
+repo	main
+file	libdisplay-info-tools-0.3.0-r0.apk
+checksum	Q1dw43fcofLBLocLFvtzC4ZR9etQw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdisplay-info.so.3	libdisplay-info

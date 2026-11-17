@@ -1,0 +1,14 @@
+name	containerd-stress
+version	2.3.7-r0
+description	containerd-stress utility
+url	https://containerd.io/
+license	Apache-2.0
+size	7371271
+installed-size	20688740
+depends	runc so:libc.musl-armhf.so.1
+origin	containerd
+repo	community
+file	containerd-stress-2.3.7-r0.apk
+checksum	Q1bzfRWQM4nLUnYii3lUDrHv8NwQ8=
+dep	runc	runc
+dep	so:libc.musl-armhf.so.1	musl

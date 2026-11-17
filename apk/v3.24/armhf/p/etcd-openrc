@@ -1,0 +1,12 @@
+name	etcd-openrc
+version	3.6.11-r3
+description	A highly-available key value store for shared configuration and service discovery (OpenRC init scripts)
+url	https://github.com/etcd-io/etcd
+license	Apache-2.0
+size	2126
+installed-size	738
+depends	
+origin	etcd
+repo	community
+file	etcd-openrc-3.6.11-r3.apk
+checksum	Q1fK54JI5AnoMkcYi/cxon4Jx796g=

@@ -1,0 +1,16 @@
+name	soju
+version	0.10.1-r8
+description	User-friendly IRC bouncer
+url	https://soju.im/
+license	AGPL-3.0-only
+size	10542373
+installed-size	27353608
+depends	ca-certificates /bin/sh so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	soju
+repo	community
+file	soju-0.10.1-r8.apk
+checksum	Q1ePtDUk7a4A+CWpNh7v6VENlGjC4=
+dep	ca-certificates	ca-certificates
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

@@ -1,0 +1,14 @@
+name	font-noto-bamum
+version	2026.11.01-r0
+description	Noto Sans Bamum font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	588506
+installed-size	921836
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-bamum-2026.11.01-r0.apk
+checksum	Q1Ubwdg/nrsNUXQ3W+f5Y6qsfwPCI=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

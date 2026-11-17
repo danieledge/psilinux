@@ -1,0 +1,16 @@
+name	perl-nice-try
+version	1.3.17-r1
+description	Try-Catch block implementation using Perl filter
+url	https://metacpan.org/release/Nice-Try/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	28473
+installed-size	120532
+depends	perl perl-ppi perl-ppi-xs perl-want
+origin	perl-nice-try
+repo	community
+file	perl-nice-try-1.3.17-r1.apk
+checksum	Q15aj5/+Cd+SzeTRAo1BWRbmNx2zc=
+dep	perl	perl
+dep	perl-ppi	perl-ppi
+dep	perl-ppi-xs	perl-ppi-xs
+dep	perl-want	perl-want

@@ -1,0 +1,14 @@
+name	py3-webob
+version	1.8.9-r1
+description	A Python WSGI request and response objects
+url	https://webob.org/
+license	MIT
+size	111110
+installed-size	491538
+depends	py3-legacy-cgi python3~3.14
+origin	py3-webob
+repo	community
+file	py3-webob-1.8.9-r1.apk
+checksum	Q1zC6/iz5TCuANjbBmGTrZ3+EAw54=
+dep	py3-legacy-cgi	py3-legacy-cgi
+dep	python3~3.14	python3

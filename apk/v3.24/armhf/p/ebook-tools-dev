@@ -1,0 +1,15 @@
+name	ebook-tools-dev
+version	0.2.2-r5
+description	Tools for accessing and converting various ebook file formats. (development files)
+url	https://sourceforge.net/projects/ebook-tools/
+license	MIT
+size	3798
+installed-size	7776
+depends	libxml2-dev libzip-dev ebook-tools=0.2.2-r5
+origin	ebook-tools
+repo	community
+file	ebook-tools-dev-0.2.2-r5.apk
+checksum	Q1usm9hm1+EoQfTkTbSHzHaOmC0cU=
+dep	libxml2-dev	libxml2-dev
+dep	libzip-dev	libzip-dev
+dep	ebook-tools=0.2.2-r5	ebook-tools

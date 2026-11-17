@@ -1,0 +1,25 @@
+name	ocaml-perl-bridge
+version	0.01-r8
+description	Perl embedded in OCaml
+url	https://github.com/stevan/ocaml-perl-bridge
+license	LGPL-2.0-or-later
+size	40856
+installed-size	105730
+depends	ocaml-runtime ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2 ocaml4-impl:Stdlib__Callback:fe6100b13eea0a3451fec7c15832f1a8 ocaml4-impl:Stdlib__List:b42dc21c9462b2cabc74ab8825425e32 ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15 ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91 ocaml4-intf:Stdlib__Callback:fe29a598e1902f0b901e88a9865c26ef ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9 ocaml4-intf:Stdlib__Int32:a71ea5238030770647165f659f80b1ab ocaml4-intf:Stdlib__List:ee222542f6f8195441543b8b399b64b9 ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962 so:libc.musl-armhf.so.1 so:libperl.so
+origin	ocaml-perl-bridge
+repo	community
+file	ocaml-perl-bridge-0.01-r8.apk
+checksum	Q1uwjaAJLWQtDE/8MvKYJ+QZK7yv0=
+dep	ocaml-runtime	ocaml-runtime
+dep	ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2	ocaml
+dep	ocaml4-impl:Stdlib__Callback:fe6100b13eea0a3451fec7c15832f1a8	ocaml
+dep	ocaml4-impl:Stdlib__List:b42dc21c9462b2cabc74ab8825425e32	ocaml
+dep	ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15	ocaml
+dep	ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91	ocaml
+dep	ocaml4-intf:Stdlib__Callback:fe29a598e1902f0b901e88a9865c26ef	ocaml
+dep	ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9	ocaml
+dep	ocaml4-intf:Stdlib__Int32:a71ea5238030770647165f659f80b1ab	ocaml
+dep	ocaml4-intf:Stdlib__List:ee222542f6f8195441543b8b399b64b9	ocaml
+dep	ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962	ocaml
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libperl.so	perl

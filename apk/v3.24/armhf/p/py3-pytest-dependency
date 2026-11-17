@@ -1,0 +1,14 @@
+name	py3-pytest-dependency
+version	0.6.0-r1
+description	Manage dependencies of tests
+url	https://github.com/RKrahl/pytest-dependency
+license	MIT
+size	9798
+installed-size	22012
+depends	py3-pytest python3~3.14
+origin	py3-pytest-dependency
+repo	community
+file	py3-pytest-dependency-0.6.0-r1.apk
+checksum	Q1g0SycUJFbE9CFQ1ZubupnRIorTM=
+dep	py3-pytest	py3-pytest
+dep	python3~3.14	python3

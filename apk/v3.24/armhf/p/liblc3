@@ -1,0 +1,13 @@
+name	liblc3
+version	1.0.4-r0
+description	An efficient low latency audio codec
+url	https://github.com/google/liblc3
+license	Apache-2.0
+size	64019
+installed-size	99848
+depends	so:libc.musl-armhf.so.1
+origin	liblc3
+repo	community
+file	liblc3-1.0.4-r0.apk
+checksum	Q1JyOeJLeX2nkMUCrP4/3jEof6a54=
+dep	so:libc.musl-armhf.so.1	musl

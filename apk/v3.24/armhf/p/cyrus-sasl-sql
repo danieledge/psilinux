@@ -1,0 +1,14 @@
+name	cyrus-sasl-sql
+version	2.1.28-r9
+description	Cyrus SASL plugin for sql
+url	https://www.cyrusimap.org/sasl/
+license	BSD-3-Clause-Attribution AND BSD-4-Clause
+size	11411
+installed-size	21704
+depends	so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	cyrus-sasl
+repo	main
+file	cyrus-sasl-sql-2.1.28-r9.apk
+checksum	Q1Ge3DcRzOfM0sYQefFKGAF+nW/lU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

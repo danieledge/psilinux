@@ -1,0 +1,16 @@
+name	libressl-dev
+version	4.3.1-r0
+description	Version of the TLS/crypto stack forked from OpenSSL (development files)
+url	https://www.libressl.org/
+license	custom
+size	230560
+installed-size	1156054
+depends	!openssl-dev !openssl-libs-static libressl4.3-libcrypto=4.3.1-r0 libressl4.3-libssl=4.3.1-r0 libressl4.3-libtls=4.3.1-r0 pkgconfig
+origin	libressl
+repo	community
+file	libressl-dev-4.3.1-r0.apk
+checksum	Q1coWmGMLndT/WgJnbRPj+cZWa0QE=
+dep	libressl4.3-libcrypto=4.3.1-r0	libressl4.3-libcrypto
+dep	libressl4.3-libssl=4.3.1-r0	libressl4.3-libssl
+dep	libressl4.3-libtls=4.3.1-r0	libressl4.3-libtls
+dep	pkgconfig	pkgconf

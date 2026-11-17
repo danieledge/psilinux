@@ -1,0 +1,15 @@
+name	wezterm-fonts
+version	20240203.110809-r6
+description	Meta package for fonts bundled in Wezterm
+url	https://wezfurlong.org/wezterm/
+license	MIT
+size	1297
+installed-size	0
+depends	font-jetbrains-mono-vf font-noto-emoji font-roboto
+origin	wezterm
+repo	community
+file	wezterm-fonts-20240203.110809-r6.apk
+checksum	Q1GvTh2UYNYbTZ07keZzvtxvElIDo=
+dep	font-jetbrains-mono-vf	font-jetbrains-mono-vf
+dep	font-noto-emoji	font-noto-emoji
+dep	font-roboto	font-roboto

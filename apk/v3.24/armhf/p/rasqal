@@ -1,0 +1,14 @@
+name	rasqal
+version	0.9.33-r3
+description	RDF query library
+url	https://librdf.org/
+license	LGPL-2.1-or-later
+size	177818
+installed-size	420572
+depends	so:libc.musl-armhf.so.1 so:libraptor2.so.0
+origin	rasqal
+repo	community
+file	rasqal-0.9.33-r3.apk
+checksum	Q11QKob+C30AEqdL55XebFhfvPbqQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libraptor2.so.0	raptor2

@@ -1,0 +1,13 @@
+name	tinyalsa-dev
+version	2.0.0-r4
+description	Tiny library to interface with ALSA in the Linux kernel (development files)
+url	https://github.com/tinyalsa/tinyalsa
+license	BSD-3-Clause
+size	9524
+installed-size	34065
+depends	tinyalsa-libs=2.0.0-r4
+origin	tinyalsa
+repo	community
+file	tinyalsa-dev-2.0.0-r4.apk
+checksum	Q1pc3LS+FXnKl6V5Ff8pI6YTSRm/8=
+dep	tinyalsa-libs=2.0.0-r4	tinyalsa-libs

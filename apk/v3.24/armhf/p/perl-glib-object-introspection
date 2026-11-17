@@ -1,0 +1,22 @@
+name	perl-glib-object-introspection
+version	0.052-r0
+description	Dynamically create Perl language bindings
+url	https://metacpan.org/release/Glib-Object-Introspection/
+license	GPL-2.0-or-later
+size	57578
+installed-size	167272
+depends	perl perl-glib perl-extutils-pkgconfig perl-extutils-depends so:libc.musl-armhf.so.1 so:libffi.so.8 so:libgirepository-1.0.so.1 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0
+origin	perl-glib-object-introspection
+repo	community
+file	perl-glib-object-introspection-0.052-r0.apk
+checksum	Q1LGyVeu5Pl5VQMBlyNFpmu/fD9ys=
+dep	perl	perl
+dep	perl-glib	perl-glib
+dep	perl-extutils-pkgconfig	perl-extutils-pkgconfig
+dep	perl-extutils-depends	perl-extutils-depends
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libffi.so.8	libffi
+dep	so:libgirepository-1.0.so.1	gobject-introspection
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

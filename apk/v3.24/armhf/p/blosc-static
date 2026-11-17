@@ -1,0 +1,13 @@
+name	blosc-static
+version	1.21.6-r0
+description	A blocking, shuffling and lossless compression library (static library)
+url	https://blosc.org
+license	BSD-3-Clause
+size	17978
+installed-size	38288
+depends	blosc-dev
+origin	blosc
+repo	community
+file	blosc-static-1.21.6-r0.apk
+checksum	Q1tgfbtIt88roJIKslhGeNRAU6zS8=
+dep	blosc-dev	blosc-dev

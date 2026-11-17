@@ -1,0 +1,16 @@
+name	perl-html-formattext-withlinks-andtables
+version	0.07-r4
+description	Converts HTML to Text with tables intact
+url	https://metacpan.org/release/HTML-FormatText-WithLinks-AndTables/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6546
+installed-size	12926
+depends	perl perl-html-formattext-withlinks perl-html-tree perl-html-formatter
+origin	perl-html-formattext-withlinks-andtables
+repo	main
+file	perl-html-formattext-withlinks-andtables-0.07-r4.apk
+checksum	Q1F+338jk16WDKlRnhrQ7yrRS3ijE=
+dep	perl	perl
+dep	perl-html-formattext-withlinks	perl-html-formattext-withlinks
+dep	perl-html-tree	perl-html-tree
+dep	perl-html-formatter	perl-html-formatter

@@ -1,0 +1,23 @@
+name	xfce4-dev-tools
+version	4.20.0-r0
+description	Xfce developer tools
+url	https://xfce.org/
+license	GPL-2.0-or-later
+size	26450
+installed-size	74656
+depends	automake autoconf make intltool pkgconfig libtool gtk-doc glib-dev meson so:libc.musl-armhf.so.1 so:libglib-2.0.so.0
+origin	xfce4-dev-tools
+repo	community
+file	xfce4-dev-tools-4.20.0-r0.apk
+checksum	Q1wQalaEyPxKHDpl7isU8Z418qS6s=
+dep	automake	automake
+dep	autoconf	autoconf
+dep	make	make
+dep	intltool	intltool
+dep	pkgconfig	pkgconf
+dep	libtool	libtool
+dep	gtk-doc	gtk-doc
+dep	glib-dev	glib-dev
+dep	meson	meson
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib

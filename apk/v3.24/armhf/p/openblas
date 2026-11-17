@@ -1,0 +1,14 @@
+name	openblas
+version	0.3.30-r2
+description	fast BSD-licensed BLAS based on gotoBLAS2, with LAPACK
+url	https://www.openblas.net/
+license	BSD-3-Clause
+size	4480337
+installed-size	10393908
+depends	so:libc.musl-armhf.so.1 so:libgfortran.so.5
+origin	openblas
+repo	community
+file	openblas-0.3.30-r2.apk
+checksum	Q1vhiJpCgMLA97V32x4jsXdYmPhVg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgfortran.so.5	libgfortran

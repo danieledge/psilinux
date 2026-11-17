@@ -1,0 +1,14 @@
+name	quickjs-ng-dev
+version	0.11.0-r2
+description	Embeddable JavaScript engine in C (NG fork) (development files)
+url	https://quickjs-ng.github.io/quickjs/
+license	MIT
+size	14673
+installed-size	57085
+depends	quickjs-ng-libs=0.11.0-r2 pkgconfig
+origin	quickjs-ng
+repo	main
+file	quickjs-ng-dev-0.11.0-r2.apk
+checksum	Q1dRyZJw1/5KcHyZa7dwkH7u6rxro=
+dep	quickjs-ng-libs=0.11.0-r2	quickjs-ng-libs
+dep	pkgconfig	pkgconf

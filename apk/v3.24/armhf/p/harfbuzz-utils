@@ -1,0 +1,25 @@
+name	harfbuzz-utils
+version	13.2.1-r0
+description	Text shaping library (utilities)
+url	https://harfbuzz.github.io/
+license	MIT
+size	139337
+installed-size	315140
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libfreetype.so.6 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libharfbuzz-cairo.so.0 so:libharfbuzz-gobject.so.0 so:libharfbuzz-raster.so.0 so:libharfbuzz-subset.so.0 so:libharfbuzz-vector.so.0 so:libharfbuzz.so.0 so:libstdc++.so.6
+origin	harfbuzz
+repo	main
+file	harfbuzz-utils-13.2.1-r0.apk
+checksum	Q1W7WlcAvKj0eMpTSV6e+EtfOGZhI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libharfbuzz-cairo.so.0	harfbuzz-cairo
+dep	so:libharfbuzz-gobject.so.0	harfbuzz-gobject
+dep	so:libharfbuzz-raster.so.0	harfbuzz
+dep	so:libharfbuzz-subset.so.0	harfbuzz-subset
+dep	so:libharfbuzz-vector.so.0	harfbuzz
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:libstdc++.so.6	libstdc++

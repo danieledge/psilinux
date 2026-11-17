@@ -1,0 +1,13 @@
+name	gsm-dev
+version	1.0.23-r0
+description	Shared libraries for GSM speech compressor (development files)
+url	https://www.quut.com/gsm/
+license	TU-Berlin-2.0
+size	2590
+installed-size	1765
+depends	gsm=1.0.23-r0
+origin	gsm
+repo	main
+file	gsm-dev-1.0.23-r0.apk
+checksum	Q1pVY966cvYRYOc3pFxhzw1zxWRnY=
+dep	gsm=1.0.23-r0	gsm

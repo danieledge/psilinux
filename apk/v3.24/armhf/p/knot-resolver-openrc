@@ -1,0 +1,13 @@
+name	knot-resolver-openrc
+version	5.7.7-r0
+description	Minimalistic caching DNS resolver implementation (OpenRC init scripts)
+url	https://www.knot-resolver.cz/
+license	GPL-3.0-or-later
+size	3583
+installed-size	3263
+depends	/bin/sh
+origin	knot-resolver
+repo	community
+file	knot-resolver-openrc-5.7.7-r0.apk
+checksum	Q1reuV04WVwmKLlXW0J/SoQMP+IRo=
+dep	/bin/sh	busybox-binsh

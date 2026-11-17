@@ -1,0 +1,13 @@
+name	libmpack
+version	1.0.5-r0
+description	Simple implementation of msgpack in C
+url	https://github.com/libmpack/libmpack
+license	MIT
+size	10312
+installed-size	17528
+depends	so:libc.musl-armhf.so.1
+origin	libmpack
+repo	community
+file	libmpack-1.0.5-r0.apk
+checksum	Q1iKsrL8zEPitFk1P0Qr0TUkC8buA=
+dep	so:libc.musl-armhf.so.1	musl

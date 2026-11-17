@@ -1,0 +1,15 @@
+name	py3-fsspec
+version	2026.4.0-r0
+description	A specification for pythonic filesystems
+url	https://github.com/intake/filesystem_spec
+license	BSD-3-Clause
+size	180613
+installed-size	740774
+depends	py3-aiohttp py3-requests python3~3.14
+origin	py3-fsspec
+repo	community
+file	py3-fsspec-2026.4.0-r0.apk
+checksum	Q1vKSmE00vcDmGxSrJOCt1/LCvrVE=
+dep	py3-aiohttp	py3-aiohttp
+dep	py3-requests	py3-requests
+dep	python3~3.14	python3

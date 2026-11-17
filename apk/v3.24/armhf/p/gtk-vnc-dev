@@ -1,0 +1,24 @@
+name	gtk-vnc-dev
+version	1.5.0-r0
+description	VNC viewer widget for GTK (development files)
+url	https://gitlab.gnome.org/GNOME/gtk-vnc
+license	LGPL-2.1-or-later
+size	43213
+installed-size	391958
+depends	gtk-vnc=1.5.0-r0 pc:gdk-pixbuf-2.0>=2.36.0 pc:gio-2.0>=2.56.0 pc:gmp>=6.0.0 pc:gnutls>=3.6.0 pc:gobject-2.0>=2.56.0 pc:gtk+-3.0>=3.22.0 pc:libpulse-simple>=11.0 pc:libsasl2>=2.1.27 pc:x11>=1.6.5 pc:zlib>=1.2.11 pkgconfig
+origin	gtk-vnc
+repo	community
+file	gtk-vnc-dev-1.5.0-r0.apk
+checksum	Q15CpJxjxM8kxD3ic2Q6HCUxOnFH0=
+dep	gtk-vnc=1.5.0-r0	gtk-vnc
+dep	pc:gdk-pixbuf-2.0>=2.36.0	gdk-pixbuf-dev
+dep	pc:gio-2.0>=2.56.0	glib-dev
+dep	pc:gmp>=6.0.0	gmp-dev
+dep	pc:gnutls>=3.6.0	gnutls-dev
+dep	pc:gobject-2.0>=2.56.0	glib-dev
+dep	pc:gtk+-3.0>=3.22.0	gtk+3.0-dev
+dep	pc:libpulse-simple>=11.0	pulseaudio-dev
+dep	pc:libsasl2>=2.1.27	cyrus-sasl-dev
+dep	pc:x11>=1.6.5	libx11-dev
+dep	pc:zlib>=1.2.11	zlib-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,22 @@
+name	gxr
+version	0.16.0-r1
+description	A glib wrapper for the OpenVR and the OpenXR APIs
+url	https://gitlab.freedesktop.org/xrdesktop/gxr
+license	MIT AND CC-BY-SA-4.0
+size	32713
+installed-size	74988
+depends	so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgulkan-0.16.so.0 so:libjson-glib-1.0.so.0 so:libopenxr_loader.so.1 so:libvulkan.so.1
+origin	gxr
+repo	community
+file	gxr-0.16.0-r1.apk
+checksum	Q11fzA2j6Az6R6ARBwAj7n31gw3gI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgulkan-0.16.so.0	gulkan-libs
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libopenxr_loader.so.1	openxr
+dep	so:libvulkan.so.1	vulkan-loader

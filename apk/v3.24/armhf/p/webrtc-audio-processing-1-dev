@@ -1,0 +1,19 @@
+name	webrtc-audio-processing-1-dev
+version	1.3-r3
+description	AudioProcessing module from the WebRTC project (development files)
+url	https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/
+license	custom
+size	44284
+installed-size	165396
+depends	webrtc-audio-processing-1=1.3-r3 pc:absl_bad_optional_access pc:absl_base pc:absl_flags pc:absl_strings pc:absl_synchronization pkgconfig
+origin	webrtc-audio-processing-1
+repo	community
+file	webrtc-audio-processing-1-dev-1.3-r3.apk
+checksum	Q1GcxbKMa/jFbskikpY8dqKGr1zs8=
+dep	webrtc-audio-processing-1=1.3-r3	webrtc-audio-processing-1
+dep	pc:absl_bad_optional_access	abseil-cpp-dev
+dep	pc:absl_base	abseil-cpp-dev
+dep	pc:absl_flags	abseil-cpp-dev
+dep	pc:absl_strings	abseil-cpp-dev
+dep	pc:absl_synchronization	abseil-cpp-dev
+dep	pkgconfig	pkgconf

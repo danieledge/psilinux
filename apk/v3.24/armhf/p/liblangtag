@@ -1,0 +1,14 @@
+name	liblangtag
+version	0.6.7-r0
+description	Interface library to access/deal with tags for identifying languages
+url	https://bitbucket.org/tagoh/liblangtag
+license	LGPL-3.0-or-later OR MPL-2.0
+size	304996
+installed-size	2346721
+depends	so:libc.musl-armhf.so.1 so:libxml2.so.2
+origin	liblangtag
+repo	community
+file	liblangtag-0.6.7-r0.apk
+checksum	Q1CPNWCVBZ6X/3FuNyUtg/hPiXJyk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxml2.so.2	libxml2

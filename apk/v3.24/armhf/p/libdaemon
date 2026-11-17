@@ -1,0 +1,13 @@
+name	libdaemon
+version	0.14-r6
+description	A lightweight C library which eases the writing of UNIX daemons
+url	https://0pointer.de/lennart/projects/libdaemon/
+license	MIT
+size	10409
+installed-size	21652
+depends	so:libc.musl-armhf.so.1
+origin	libdaemon
+repo	main
+file	libdaemon-0.14-r6.apk
+checksum	Q1p6XWo1BFUBBojre2Vc1It3qEMWA=
+dep	so:libc.musl-armhf.so.1	musl

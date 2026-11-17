@@ -1,0 +1,14 @@
+name	spandsp-dev
+version	0.0.6-r5
+description	SpanDSP is a library of DSP functions for telephony (development files)
+url	https://www.soft-switch.org/installing-spandsp.html
+license	LGPL-2.1-only
+size	506052
+installed-size	1718871
+depends	spandsp=0.0.6-r5 pkgconfig
+origin	spandsp
+repo	main
+file	spandsp-dev-0.0.6-r5.apk
+checksum	Q1RPk/nTqOn+4TOKvGNrmV0odA478=
+dep	spandsp=0.0.6-r5	spandsp
+dep	pkgconfig	pkgconf

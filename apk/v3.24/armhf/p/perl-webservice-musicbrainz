@@ -1,0 +1,15 @@
+name	perl-webservice-musicbrainz
+version	1.0.7-r1
+description	Web service API to MusicBrainz database
+url	https://metacpan.org/release/WebService-MusicBrainz/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	5436
+installed-size	12372
+depends	perl perl-io-socket-ssl perl-mojolicious
+origin	perl-webservice-musicbrainz
+repo	community
+file	perl-webservice-musicbrainz-1.0.7-r1.apk
+checksum	Q1uu9E2fgsNGKQOokRwOlJsKeLr00=
+dep	perl	perl
+dep	perl-io-socket-ssl	perl-io-socket-ssl
+dep	perl-mojolicious	perl-mojolicious

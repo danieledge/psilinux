@@ -1,0 +1,14 @@
+name	choose
+version	1.3.7-r0
+description	A human-friendly and fast alternative to cut and (sometimes) awk
+url	https://github.com/theryangeary/choose
+license	GPL-3.0-or-later
+size	659383
+installed-size	1449560
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	choose
+repo	community
+file	choose-1.3.7-r0.apk
+checksum	Q1DohPvFjPSpNLxDmHmvFa9f8kRjE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

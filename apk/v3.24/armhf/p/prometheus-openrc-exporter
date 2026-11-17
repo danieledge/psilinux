@@ -1,0 +1,15 @@
+name	prometheus-openrc-exporter
+version	0.0.2-r37
+description	Prometheus exporter which exposes metrics on services managed by OpenRC
+url	https://git.sr.ht/~tomleb/openrc-exporter
+license	AGPL-3.0-only
+size	3887721
+installed-size	10136132
+depends	/bin/sh so:libc.musl-armhf.so.1 so:librc.so.1
+origin	prometheus-openrc-exporter
+repo	community
+file	prometheus-openrc-exporter-0.0.2-r37.apk
+checksum	Q11FqYAF+Rpt0313mfwG+AUZIelO4=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:librc.so.1	openrc

@@ -1,0 +1,14 @@
+name	mp3gain
+version	1.6.2-r4
+description	Analyze and adjust the volume of MP3 files
+url	https://mp3gain.sourceforge.net/
+license	LGPL-2.1-or-later
+size	33328
+installed-size	62656
+depends	so:libc.musl-armhf.so.1 so:libmpg123.so.0
+origin	mp3gain
+repo	community
+file	mp3gain-1.6.2-r4.apk
+checksum	Q1wDijWzxzu+5uwf3EEPlttugQZNM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmpg123.so.0	mpg123-libs

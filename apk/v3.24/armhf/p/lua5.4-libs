@@ -1,0 +1,13 @@
+name	lua5.4-libs
+version	5.4.8-r0
+description	Lua dynamic library runtime
+url	https://www.lua.org/
+license	MIT
+size	98065
+installed-size	207005
+depends	so:libc.musl-armhf.so.1
+origin	lua5.4
+repo	main
+file	lua5.4-libs-5.4.8-r0.apk
+checksum	Q1TA3SHS9h29iUJMu8UILFDRaRaGY=
+dep	so:libc.musl-armhf.so.1	musl

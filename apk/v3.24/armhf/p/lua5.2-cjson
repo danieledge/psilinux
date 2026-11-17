@@ -1,0 +1,14 @@
+name	lua5.2-cjson
+version	2.1.0-r12
+description	fast JSON parsing and encoding support for Lua 5.2
+url	https://www.kyne.au/~mark/software/lua-cjson.php
+license	MIT
+size	12582
+installed-size	25931
+depends	lua5.2 so:libc.musl-armhf.so.1
+origin	lua-cjson
+repo	main
+file	lua5.2-cjson-2.1.0-r12.apk
+checksum	Q1xy4z4ab73WGRBsldzI1VH2XYgF0=
+dep	lua5.2	lua5.2
+dep	so:libc.musl-armhf.so.1	musl

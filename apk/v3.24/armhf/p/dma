@@ -1,0 +1,15 @@
+name	dma
+version	0.14-r1
+description	A small Mail Transport Agent from DragonFly BSD
+url	https://github.com/corecode/dma
+license	BSD-3-Clause
+size	32922
+installed-size	62829
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	dma
+repo	community
+file	dma-0.14-r1.apk
+checksum	Q1o/8jYvClwMlO0OptOzhugaQ48m0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

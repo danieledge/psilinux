@@ -1,0 +1,28 @@
+name	gtk+3.0-demo
+version	3.24.52-r0
+description	The GTK+ Toolkit (v3) (demonstration application)
+url	https://www.gtk.org/
+license	LGPL-2.1-or-later
+size	1627477
+installed-size	3583186
+depends	gobject-introspection shared-mime-info so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libepoxy.so.0 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libharfbuzz.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0
+origin	gtk+3.0
+repo	community
+file	gtk+3.0-demo-3.24.52-r0.apk
+checksum	Q1Ng1Tx2YalLUmGmVI/tGAedfvmNs=
+dep	gobject-introspection	gobject-introspection
+dep	shared-mime-info	shared-mime-info
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libepoxy.so.0	libepoxy
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango

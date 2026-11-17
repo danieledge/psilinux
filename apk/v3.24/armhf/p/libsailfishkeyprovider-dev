@@ -1,0 +1,15 @@
+name	libsailfishkeyprovider-dev
+version	1.0.10-r1
+description	Provides a class which can provide decoded keys to client applications (development files)
+url	https://github.com/sailfishos/libsailfishkeyprovider
+license	LGPL-2.1-only
+size	3566
+installed-size	6720
+depends	qt6-qtbase-dev libsailfishkeyprovider=1.0.10-r1 pkgconfig
+origin	libsailfishkeyprovider
+repo	community
+file	libsailfishkeyprovider-dev-1.0.10-r1.apk
+checksum	Q1G7xyCRUPEx/saLmNXY7QMM9yIP8=
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	libsailfishkeyprovider=1.0.10-r1	libsailfishkeyprovider
+dep	pkgconfig	pkgconf

@@ -1,0 +1,16 @@
+name	moreutils
+version	0.70-r1
+description	A growing collection of the unix tools that nobody thought to write thirty years ago
+url	https://joeyh.name/code/moreutils/
+license	GPL-2.0-or-later
+size	35282
+installed-size	104135
+depends	perl perl-timedate perl-ipc-run so:libc.musl-armhf.so.1
+origin	moreutils
+repo	community
+file	moreutils-0.70-r1.apk
+checksum	Q1rEeUmdRfpbHlkx/09/z0fXleDgc=
+dep	perl	perl
+dep	perl-timedate	perl-timedate
+dep	perl-ipc-run	perl-ipc-run
+dep	so:libc.musl-armhf.so.1	musl

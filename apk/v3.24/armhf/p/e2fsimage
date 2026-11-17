@@ -1,0 +1,15 @@
+name	e2fsimage
+version	0.2.3-r4
+description	create and populate an ext2/3/4 filesystem image as non-root user
+url	https://github.com/Ledest/e2fsimage
+license	BSD-3-Clause
+size	13332
+installed-size	25772
+depends	so:libc.musl-armhf.so.1 so:libcom_err.so.2 so:libext2fs.so.2
+origin	e2fsimage
+repo	community
+file	e2fsimage-0.2.3-r4.apk
+checksum	Q1Ezw32LAPXoiXdSC8PaUBQS31Jc0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcom_err.so.2	libcom_err
+dep	so:libext2fs.so.2	e2fsprogs-libs

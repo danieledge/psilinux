@@ -1,0 +1,14 @@
+name	font-noto-wancho
+version	2026.11.01-r0
+description	Noto Sans Wancho font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	12591
+installed-size	18677
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-wancho-2026.11.01-r0.apk
+checksum	Q1gTGG81nL3p6eMILmGsqyqLF13Hs=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

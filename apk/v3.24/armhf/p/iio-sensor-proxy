@@ -1,0 +1,20 @@
+name	iio-sensor-proxy
+version	3.9-r2
+description	IIO sensors to D-Bus proxy
+url	https://gitlab.freedesktop.org/hadess/iio-sensor-proxy
+license	GPL-2.0-or-later
+size	35707
+installed-size	91063
+depends	dbus so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgudev-1.0.so.0 so:libpolkit-gobject-1.so.0 so:libssc.so.2
+origin	iio-sensor-proxy
+repo	community
+file	iio-sensor-proxy-3.9-r2.apk
+checksum	Q1fvD6P3A8sHJtOvHsmOAFDwLPb/8=
+dep	dbus	dbus
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgudev-1.0.so.0	libgudev
+dep	so:libpolkit-gobject-1.so.0	polkit-noelogind-libs
+dep	so:libssc.so.2	libssc

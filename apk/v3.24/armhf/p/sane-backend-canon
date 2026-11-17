@@ -1,0 +1,14 @@
+name	sane-backend-canon
+version	1.4.0-r4
+description	SANE backend for Canon SCSI scanners
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	44080
+installed-size	88402
+depends	sane so:libc.musl-armhf.so.1
+origin	sane
+repo	community
+file	sane-backend-canon-1.4.0-r4.apk
+checksum	Q1bolpw4QlTj1SK4ewroRJ+sZE9bg=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl

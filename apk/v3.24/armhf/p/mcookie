@@ -1,0 +1,13 @@
+name	mcookie
+version	2.42.3-r1
+description	Generate random numbers for xauth from util-linux
+url	https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+license	Public-Domain
+size	9494
+installed-size	17732
+depends	so:libc.musl-armhf.so.1
+origin	util-linux
+repo	main
+file	mcookie-2.42.3-r1.apk
+checksum	Q1V5E7DJWfr6Gr+pADTeIW3OQmSlc=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	bzip2-dev
+version	1.0.8-r6
+description	A high-quality data compression program (development files)
+url	https://sourceware.org/bzip2/
+license	bzip2-1.0.6
+size	3603
+installed-size	6466
+depends	libbz2=1.0.8-r6 pkgconfig
+origin	bzip2
+repo	main
+file	bzip2-dev-1.0.8-r6.apk
+checksum	Q1FFIpZM6rH6Jom0SSulMX3o9INtk=
+dep	libbz2=1.0.8-r6	libbz2
+dep	pkgconfig	pkgconf

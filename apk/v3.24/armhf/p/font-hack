@@ -1,0 +1,14 @@
+name	font-hack
+version	3.003-r5
+description	A typeface designed for source code
+url	https://sourcefoundry.org/hack/
+license	MIT
+size	613947
+installed-size	1265480
+depends	fontconfig mkfontscale
+origin	font-hack
+repo	community
+file	font-hack-3.003-r5.apk
+checksum	Q1wR130IgEpnk2c2G5onxP+UgmyoU=
+dep	fontconfig	fontconfig
+dep	mkfontscale	mkfontscale

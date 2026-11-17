@@ -1,0 +1,16 @@
+name	perl-net-smtp-tls-butmaintained
+version	0.24-r6
+description	SMTP client supporting TLS and AUTH
+url	https://metacpan.org/release/Net-SMTP-TLS-ButMaintained/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6540
+installed-size	13161
+depends	perl perl-digest-hmac perl-io-socket-ssl perl-net-ssleay
+origin	perl-net-smtp-tls-butmaintained
+repo	main
+file	perl-net-smtp-tls-butmaintained-0.24-r6.apk
+checksum	Q1Sw37nroRsnwXJDmSQaB5nPiHCeU=
+dep	perl	perl
+dep	perl-digest-hmac	perl-digest-hmac
+dep	perl-io-socket-ssl	perl-io-socket-ssl
+dep	perl-net-ssleay	perl-net-ssleay

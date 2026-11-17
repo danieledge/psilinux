@@ -1,0 +1,13 @@
+name	libarcus-dev
+version	5.2.2-r10
+description	Communication library for Cura (development files)
+url	https://github.com/Ultimaker/libArcus
+license	LGPL-3.0-or-later
+size	8319
+installed-size	21538
+depends	libarcus=5.2.2-r10
+origin	libarcus
+repo	community
+file	libarcus-dev-5.2.2-r10.apk
+checksum	Q11r6GL111WrjmImlv/t1SLXmfoss=
+dep	libarcus=5.2.2-r10	libarcus

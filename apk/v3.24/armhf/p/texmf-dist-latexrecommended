@@ -1,0 +1,14 @@
+name	texmf-dist-latexrecommended
+version	2026.0-r0
+description	texmf-dist: LaTeX recommended packages
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	15082423
+installed-size	41004692
+depends	texmf-dist texmf-dist-latex
+origin	texmf-dist
+repo	community
+file	texmf-dist-latexrecommended-2026.0-r0.apk
+checksum	Q1rvi6Md9S21V9QQSr4Tj81ZgHGYU=
+dep	texmf-dist	texmf-dist
+dep	texmf-dist-latex	texmf-dist-latex

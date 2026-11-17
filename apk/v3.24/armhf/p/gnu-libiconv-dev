@@ -1,0 +1,14 @@
+name	gnu-libiconv-dev
+version	1.18-r0
+description	GNU charset conversion library for libc which doesn't implement it (development files)
+url	https://www.gnu.org/software/libiconv
+license	LGPL-2.1-or-later
+size	6445
+installed-size	17511
+depends	gnu-libiconv=1.18-r0 gnu-libiconv-libs=1.18-r0
+origin	gnu-libiconv
+repo	community
+file	gnu-libiconv-dev-1.18-r0.apk
+checksum	Q1eIJXOZuun6UPPFrR6k13KfBUGu0=
+dep	gnu-libiconv=1.18-r0	gnu-libiconv
+dep	gnu-libiconv-libs=1.18-r0	gnu-libiconv-libs

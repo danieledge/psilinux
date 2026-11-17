@@ -1,0 +1,13 @@
+name	lddtree
+version	1.27-r0
+description	List dynamic dependencies as a tree
+url	https://github.com/ncopa/lddtree
+license	GPL-2.0-only
+size	5431
+installed-size	9965
+depends	scanelf
+origin	lddtree
+repo	main
+file	lddtree-1.27-r0.apk
+checksum	Q1YvmNGAYIh//F80CDgZ7aMS4bk78=
+dep	scanelf	scanelf

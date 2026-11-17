@@ -1,0 +1,16 @@
+name	mosquitto-dev
+version	2.1.2-r1
+description	open source MQTT broker (development files)
+url	https://mosquitto.org/
+license	EPL-1.0 OR EPL-2.0
+size	47734
+installed-size	257654
+depends	cjson-dev mosquitto-libs++=2.1.2-r1 mosquitto-libs=2.1.2-r1 pkgconfig
+origin	mosquitto
+repo	main
+file	mosquitto-dev-2.1.2-r1.apk
+checksum	Q1tRFUuFTOWQqLRJxQCNz0xYydO/s=
+dep	cjson-dev	cjson-dev
+dep	mosquitto-libs++=2.1.2-r1	mosquitto-libs++
+dep	mosquitto-libs=2.1.2-r1	mosquitto-libs
+dep	pkgconfig	pkgconf

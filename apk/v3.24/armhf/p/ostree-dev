@@ -1,0 +1,22 @@
+name	ostree-dev
+version	2025.7-r1
+description	Operating system and container binary deployment and upgrades (development files)
+url	https://github.com/ostreedev/ostree
+license	LGPL-2.0-or-later
+size	134523
+installed-size	1128813
+depends	ostree=2025.7-r1 pc:gio-unix-2.0 pc:gpg-error pc:gpgme>=1.8.0 pc:libarchive>=2.8.0 pc:libcrypto>=1.0.1 pc:libcurl>=7.29.0 pc:liblzma>=5.0.5 pc:zlib pkgconfig
+origin	ostree
+repo	community
+file	ostree-dev-2025.7-r1.apk
+checksum	Q1tps+ehnfQdunZMyLxnhbmIjJxfw=
+dep	ostree=2025.7-r1	ostree
+dep	pc:gio-unix-2.0	glib-dev
+dep	pc:gpg-error	libgpg-error-dev
+dep	pc:gpgme>=1.8.0	gpgme-dev
+dep	pc:libarchive>=2.8.0	libarchive-dev
+dep	pc:libcrypto>=1.0.1	openssl-dev
+dep	pc:libcurl>=7.29.0	curl-dev
+dep	pc:liblzma>=5.0.5	xz-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

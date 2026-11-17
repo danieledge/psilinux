@@ -1,0 +1,16 @@
+name	ipset-dev
+version	7.24-r0
+description	Manage Linux IP sets (development files)
+url	https://ipset.netfilter.org/
+license	GPL-2.0-only
+size	73809
+installed-size	278271
+depends	libmnl-dev ipset=7.24-r0 pc:libmnl>=1 pkgconfig
+origin	ipset
+repo	main
+file	ipset-dev-7.24-r0.apk
+checksum	Q1GIwf/sf40nk3Fwzc3jKTmGxyTU8=
+dep	libmnl-dev	libmnl-dev
+dep	ipset=7.24-r0	ipset
+dep	pc:libmnl>=1	libmnl-dev
+dep	pkgconfig	pkgconf

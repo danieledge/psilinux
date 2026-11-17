@@ -1,0 +1,14 @@
+name	hyperlink
+version	0.2.0-r0
+description	Very fast link checker for CI
+url	https://github.com/untitaker/hyperlink
+license	MIT
+size	529633
+installed-size	1215572
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	hyperlink
+repo	community
+file	hyperlink-0.2.0-r0.apk
+checksum	Q1AqAzu+8/i+2WHu8Ncc7sheXHXPU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,26 @@
+name	libfm-qt
+version	2.4.0-r1
+description	Qt port of libfm
+url	https://github.com/lxqt/libfm-qt
+license	LGPL-2.0-or-later
+size	568995
+installed-size	1456135
+depends	lxqt-menu-data so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libexif.so.12 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libmenu-cache.so.3 so:libstdc++.so.6 so:libxcb.so.1
+origin	libfm-qt
+repo	community
+file	libfm-qt-2.4.0-r1.apk
+checksum	Q1HK5TpociRAjjnMYbXvctfv6QhRI=
+dep	lxqt-menu-data	lxqt-menu-data
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexif.so.12	libexif
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libmenu-cache.so.3	menu-cache
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxcb.so.1	libxcb

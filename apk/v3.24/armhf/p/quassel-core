@@ -1,0 +1,22 @@
+name	quassel-core
+version	0.14.0-r17
+description	Distributed IRC client - server
+url	https://www.quassel-irc.org/
+license	GPL-2.0-or-later
+size	8606
+installed-size	17844
+depends	qt5-qtbase-postgresql qt5-qtbase-sqlite quassel-common=0.14.0-r17 /bin/sh so:libQt5Core.so.5 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libquassel-common.so.0.14.0 so:libquassel-core.so.0.14.0 so:libstdc++.so.6
+origin	quassel
+repo	community
+file	quassel-core-0.14.0-r17.apk
+checksum	Q19SGSfZQeZhuYNuY9loEmOEivuPA=
+dep	qt5-qtbase-postgresql	qt5-qtbase-postgresql
+dep	qt5-qtbase-sqlite	qt5-qtbase-sqlite
+dep	quassel-common=0.14.0-r17	quassel-common
+dep	/bin/sh	busybox-binsh
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libquassel-common.so.0.14.0	quassel-libs-common
+dep	so:libquassel-core.so.0.14.0	quassel-libs-core
+dep	so:libstdc++.so.6	libstdc++

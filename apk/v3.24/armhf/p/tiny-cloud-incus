@@ -1,0 +1,14 @@
+name	tiny-cloud-incus
+version	3.4.2-r0
+description	Tiny Cloud - Incus module
+url	https://gitlab.alpinelinux.org/alpine/cloud/tiny-cloud
+license	MIT
+size	1412
+installed-size	1
+depends	tiny-cloud=3.4.2-r0 /bin/sh
+origin	tiny-cloud
+repo	main
+file	tiny-cloud-incus-3.4.2-r0.apk
+checksum	Q1R1wIECag4j+5z/6caqeyU/q0EH4=
+dep	tiny-cloud=3.4.2-r0	tiny-cloud
+dep	/bin/sh	busybox-binsh

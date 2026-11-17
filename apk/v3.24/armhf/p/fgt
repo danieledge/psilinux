@@ -1,0 +1,15 @@
+name	fgt
+version	0.4.11-r0
+description	C++ library for fast Gauss transforms.
+url	https://github.com/gadomski/fgt
+license	LGPL-2.0-or-later
+size	26711
+installed-size	62848
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	fgt
+repo	community
+file	fgt-0.4.11-r0.apk
+checksum	Q1dqa4ZdavrnQJcVfxtKbtTZsncKM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

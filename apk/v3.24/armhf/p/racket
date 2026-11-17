@@ -1,0 +1,19 @@
+name	racket
+version	9.2-r0
+description	Racket CS - general purpose programming language in the Lisp-Scheme family
+url	https://racket-lang.org/
+license	Apache-2.0 OR MIT
+size	40175654
+installed-size	154520265
+depends	ca-certificates libcrypto3 libssl3 so:libc.musl-armhf.so.1 so:liblz4.so.1 so:libncursesw.so.6 so:libz.so.1
+origin	racket
+repo	community
+file	racket-9.2-r0.apk
+checksum	Q1h+P9RIXTK6npJ8oaHSKDYpLI2C4=
+dep	ca-certificates	ca-certificates
+dep	libcrypto3	libcrypto3
+dep	libssl3	libssl3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblz4.so.1	lz4-libs
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libz.so.1	zlib

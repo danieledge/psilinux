@@ -1,0 +1,16 @@
+name	boost1.84
+version	1.84.0-r6
+description	Free peer-reviewed portable C++ source libraries
+url	https://www.boost.org/
+license	BSL-1.0
+size	474628
+installed-size	1023368
+depends	boost1.84-libs so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	boost1.84
+repo	main
+file	boost1.84-1.84.0-r6.apk
+checksum	Q1WWhxsv5/zR8QT7qWV0A2gmsYwNw=
+dep	boost1.84-libs	boost1.84-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

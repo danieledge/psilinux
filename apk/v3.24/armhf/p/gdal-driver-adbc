@@ -1,0 +1,16 @@
+name	gdal-driver-adbc
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (Arrow Database Connectivity driver)
+url	https://gdal.org/
+license	MIT
+size	52689
+installed-size	120192
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libstdc++.so.6
+origin	gdal
+repo	community
+file	gdal-driver-adbc-3.13.3-r0.apk
+checksum	Q1+CkYZ0VWy5YzgAj6HPocCFtXWWk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libstdc++.so.6	libstdc++

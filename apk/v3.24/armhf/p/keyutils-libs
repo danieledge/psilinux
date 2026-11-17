@@ -1,0 +1,13 @@
+name	keyutils-libs
+version	1.6.3-r4
+description	Key utilities library
+url	https://people.redhat.com/~dhowells/keyutils/
+license	GPL-2.0-or-later AND LGPL-2.0-or-later
+size	7039
+installed-size	13540
+depends	so:libc.musl-armhf.so.1
+origin	keyutils
+repo	main
+file	keyutils-libs-1.6.3-r4.apk
+checksum	Q1Rpxdtp+fOYqoAZOxhy0j0jqBtkw=
+dep	so:libc.musl-armhf.so.1	musl

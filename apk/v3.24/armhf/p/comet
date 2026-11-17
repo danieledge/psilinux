@@ -1,0 +1,14 @@
+name	comet
+version	0.3.2-r0
+description	Open Source implementation of GOG Galaxy's Communication Service
+url	https://github.com/imLinguin/comet
+license	Apache-2.0
+size	2888531
+installed-size	5675804
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	comet
+repo	community
+file	comet-0.3.2-r0.apk
+checksum	Q1zvkE4DiQCPN87I5TnuKYirGi3BA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

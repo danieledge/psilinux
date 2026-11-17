@@ -1,0 +1,14 @@
+name	audit-libs
+version	4.1.2-r6
+description	User space tools for kernel auditing (libraries)
+url	https://people.redhat.com/sgrubb/audit/
+license	LGPL-2.1-or-later
+size	119182
+installed-size	290312
+depends	so:libc.musl-armhf.so.1 so:libcap-ng.so.0
+origin	audit
+repo	main
+file	audit-libs-4.1.2-r6.apk
+checksum	Q1r8BtBCR6QThXAjt8K3ev1EJwws0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap-ng.so.0	libcap-ng

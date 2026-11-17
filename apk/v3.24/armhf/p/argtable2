@@ -1,0 +1,13 @@
+name	argtable2
+version	2.13-r1
+description	Command-line argument parsing library
+url	https://argtable.sourceforge.io/
+license	LGPL-2.0-or-later
+size	10928
+installed-size	21624
+depends	so:libc.musl-armhf.so.1
+origin	argtable2
+repo	main
+file	argtable2-2.13-r1.apk
+checksum	Q1jsQmJAuaysoV/5bahxSui0DH8lY=
+dep	so:libc.musl-armhf.so.1	musl

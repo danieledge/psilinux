@@ -1,0 +1,19 @@
+name	purple-bonjour
+version	2.14.14-r0
+description	bonjour plugin for libpurple
+url	https://pidgin.im/
+license	GPL-2.0-or-later
+size	29214
+installed-size	68405
+depends	so:libavahi-client.so.3 so:libavahi-common.so.3 so:libavahi-glib.so.1 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libintl.so.8 so:libxml2.so.2
+origin	pidgin
+repo	community
+file	purple-bonjour-2.14.14-r0.apk
+checksum	Q1ifodTYGUanWllRvXNlvM/KOtsVM=
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libavahi-glib.so.1	avahi-glib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libxml2.so.2	libxml2

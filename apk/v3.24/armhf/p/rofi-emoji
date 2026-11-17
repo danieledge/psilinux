@@ -1,0 +1,15 @@
+name	rofi-emoji
+version	4.1.0-r0
+description	Emoji selector plugin for Rofi
+url	https://github.com/Mange/rofi-emoji
+license	MIT
+size	84956
+installed-size	662064
+depends	cmd:rofi so:libc.musl-armhf.so.1 so:libglib-2.0.so.0
+origin	rofi-emoji
+repo	community
+file	rofi-emoji-4.1.0-r0.apk
+checksum	Q1ur2ELiTjgSr9/izqUQBsYiQVUm8=
+dep	cmd:rofi	rofi-wayland
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib

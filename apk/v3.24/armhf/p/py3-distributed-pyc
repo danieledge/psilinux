@@ -1,0 +1,13 @@
+name	py3-distributed-pyc
+version	2026.3.0-r1
+description	Precompiled Python bytecode for py3-distributed
+url	https://distributed.dask.org/
+license	BSD-3-Clause
+size	1310376
+installed-size	3233176
+depends	python3~3.14
+origin	py3-distributed
+repo	community
+file	py3-distributed-pyc-2026.3.0-r1.apk
+checksum	Q1jUeFPQX90VJ0Mo6uxXt7yzTOoB0=
+dep	python3~3.14	python3

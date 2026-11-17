@@ -1,0 +1,13 @@
+name	drbd-utils-pacemaker
+version	9.34.0-r0
+description	Network-based RAID 1
+url	https://www.drbd.org
+license	GPL-2.0-or-later
+size	26413
+installed-size	78694
+depends	drbd-utils=9.34.0-r0
+origin	drbd-utils
+repo	main
+file	drbd-utils-pacemaker-9.34.0-r0.apk
+checksum	Q1CD24LIlfbKX67840sOgfUvZwNko=
+dep	drbd-utils=9.34.0-r0	drbd-utils

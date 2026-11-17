@@ -1,0 +1,14 @@
+name	nim-dbg
+version	2.2.0-r0
+description	A systems and applications programming language (debug build)
+url	https://nim-lang.org/
+license	MIT
+size	4728231
+installed-size	10771932
+depends	libucontext-dev so:libc.musl-armhf.so.1
+origin	nim
+repo	community
+file	nim-dbg-2.2.0-r0.apk
+checksum	Q1Z2/pkEHar7tYadQDjIDfJkRL4vY=
+dep	libucontext-dev	libucontext-dev
+dep	so:libc.musl-armhf.so.1	musl

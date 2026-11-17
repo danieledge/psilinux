@@ -1,0 +1,20 @@
+name	notmuch-libs
+version	0.40-r2
+description	E-Mail index, search and tagging (libraries)
+url	https://notmuchmail.org/
+license	GPL-3.0-or-later
+size	81149
+installed-size	183092
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgmime-3.0.so.0 so:libgobject-2.0.so.0 so:libstdc++.so.6 so:libtalloc.so.2 so:libxapian.so.45
+origin	notmuch
+repo	community
+file	notmuch-libs-0.40-r2.apk
+checksum	Q1lziQ7KbVa+8cfpou0l+mcT9bqNg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmime-3.0.so.0	gmime
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtalloc.so.2	talloc
+dep	so:libxapian.so.45	libxapian

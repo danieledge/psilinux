@@ -1,0 +1,14 @@
+name	postgresql-pg_roaringbitmap
+version	1.1.0-r0
+description	RoaringBitmap extension for PostgreSQL
+url	https://github.com/ChenHuajun/pg_roaringbitmap
+license	Apache-2.0
+size	155584
+installed-size	369168
+depends	postgresql18 so:libc.musl-armhf.so.1
+origin	postgresql-pg_roaringbitmap
+repo	community
+file	postgresql-pg_roaringbitmap-1.1.0-r0.apk
+checksum	Q1B2cARubC5hWDrdnAgwUiQGSr73A=
+dep	postgresql18	postgresql18
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,17 @@
+name	py3-pandas-tests
+version	3.0.3-r0
+description	Powerful data structures for data analysis, time series, and statistics
+url	https://pandas.pydata.org/
+license	BSD-3-Clause
+size	2423386
+installed-size	13037530
+depends	py3-dateutil py3-numpy py3-tz py3-tzdata python3~3.14
+origin	py3-pandas
+repo	community
+file	py3-pandas-tests-3.0.3-r0.apk
+checksum	Q103GBDtlvKQQktcyyPWTUH4Y6ZV8=
+dep	py3-dateutil	py3-dateutil
+dep	py3-numpy	py3-numpy
+dep	py3-tz	py3-tz
+dep	py3-tzdata	py3-tzdata
+dep	python3~3.14	python3

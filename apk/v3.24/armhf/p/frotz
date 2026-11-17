@@ -1,0 +1,18 @@
+name	frotz
+version	2.55-r0
+description	Portable Z-Machine Interpreter
+url	https://davidgriffith.gitlab.io/frotz/
+license	GPL-2.0-or-later
+size	56112
+installed-size	108872
+depends	so:libao.so.4 so:libc.musl-armhf.so.1 so:libmodplug.so.1 so:libncursesw.so.6 so:libsamplerate.so.0 so:libsndfile.so.1
+origin	frotz
+repo	community
+file	frotz-2.55-r0.apk
+checksum	Q1uArS+HZK1AZk40aiJMmpdk9MHCs=
+dep	so:libao.so.4	libao
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmodplug.so.1	libmodplug
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libsamplerate.so.0	libsamplerate
+dep	so:libsndfile.so.1	libsndfile

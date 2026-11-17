@@ -1,0 +1,13 @@
+name	ifupdown-ng-ppp
+version	0.13.0-r0
+description	ifupdown-ng integration for ppp
+url	https://github.com/ifupdown-ng/ifupdown-ng
+license	ISC
+size	1715
+installed-size	191
+depends	ppp-daemon
+origin	ifupdown-ng
+repo	main
+file	ifupdown-ng-ppp-0.13.0-r0.apk
+checksum	Q1LA0J2+5/SUKEdlaEbRBH8tJVaGM=
+dep	ppp-daemon	ppp-daemon

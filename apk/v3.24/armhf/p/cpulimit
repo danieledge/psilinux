@@ -1,0 +1,13 @@
+name	cpulimit
+version	0.2-r4
+description	CPU usage limiter for Linux
+url	https://github.com/opsengine/cpulimit
+license	GPL-2.0-or-later
+size	9686
+installed-size	17708
+depends	so:libc.musl-armhf.so.1
+origin	cpulimit
+repo	community
+file	cpulimit-0.2-r4.apk
+checksum	Q1h6G4qKjbjR6d0gm67fTl6crXosM=
+dep	so:libc.musl-armhf.so.1	musl

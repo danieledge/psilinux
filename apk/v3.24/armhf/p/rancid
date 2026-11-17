@@ -1,0 +1,18 @@
+name	rancid
+version	3.14-r0
+description	RANCID - Really Awesome New Cisco confIg Differ
+url	http://www.shrubbery.net/rancid/
+license	BSD-3-Clause-No-Nuclear-License-2014
+size	431802
+installed-size	1943613
+depends	expect perl logrotate iputils-ping /bin/sh so:libc.musl-armhf.so.1
+origin	rancid
+repo	community
+file	rancid-3.14-r0.apk
+checksum	Q1rmqNQktXJBFIKYsD5s5wJwpKCww=
+dep	expect	expect
+dep	perl	perl
+dep	logrotate	logrotate
+dep	iputils-ping	iputils-ping
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

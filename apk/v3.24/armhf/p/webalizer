@@ -1,0 +1,16 @@
+name	webalizer
+version	2.23.08-r9
+description	web server log file analysis program producing HTML reports
+url	https://webalizer.net/
+license	GPL-2.0-or-later
+size	82376
+installed-size	195696
+depends	so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libgd.so.3 so:libz.so.1
+origin	webalizer
+repo	community
+file	webalizer-2.23.08-r9.apk
+checksum	Q1L2OrvAADDWMmr1Eh14XEvSXoIaY=
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgd.so.3	libgd
+dep	so:libz.so.1	zlib

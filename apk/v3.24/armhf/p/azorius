@@ -1,0 +1,15 @@
+name	azorius
+version	0.3.4-r22
+description	Social link aggregator and comment forum with ActivityPub
+url	https://azorius.net/
+license	ISC
+size	4799624
+installed-size	12137510
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	azorius
+repo	community
+file	azorius-0.3.4-r22.apk
+checksum	Q18CQi670SvKdRCjLynduKC5Sck3c=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

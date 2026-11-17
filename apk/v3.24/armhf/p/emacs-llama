@@ -1,0 +1,13 @@
+name	emacs-llama
+version	1.0.3-r1
+description	Compact syntax for short lambda
+url	https://github.com/tarsius/llama
+license	GPL-3.0-or-later
+size	12861
+installed-size	43147
+depends	cmd:emacs
+origin	emacs-llama
+repo	community
+file	emacs-llama-1.0.3-r1.apk
+checksum	Q191jk5D2ujTP6IS+Z/tqFVeZWQW0=
+dep	cmd:emacs	emacs-gtk3

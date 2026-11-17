@@ -1,0 +1,14 @@
+name	uwsgi-cgi
+version	2.0.31-r2
+description	uWSGI plugin cgi
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	11055
+installed-size	22412
+depends	uwsgi so:libc.musl-armhf.so.1
+origin	uwsgi
+repo	main
+file	uwsgi-cgi-2.0.31-r2.apk
+checksum	Q1ypihwQjybBm0XHEQ7Al+KvXo3BU=
+dep	uwsgi	uwsgi
+dep	so:libc.musl-armhf.so.1	musl

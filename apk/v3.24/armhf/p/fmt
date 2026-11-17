@@ -1,0 +1,15 @@
+name	fmt
+version	11.2.0-r1
+description	Open-source formatting library for C++
+url	https://fmt.dev/latest/index.html
+license	MIT
+size	47113
+installed-size	95616
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	fmt
+repo	main
+file	fmt-11.2.0-r1.apk
+checksum	Q1fpFBnS9C6MFnvW4LyXKnCAlo1Iw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

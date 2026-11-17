@@ -1,0 +1,14 @@
+name	font-noto-rejang
+version	2026.11.01-r0
+description	Noto Sans Rejang font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	6439
+installed-size	7933
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-rejang-2026.11.01-r0.apk
+checksum	Q1TRmhrKyTEXM9z0vx0rRi6U8Jy7M=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

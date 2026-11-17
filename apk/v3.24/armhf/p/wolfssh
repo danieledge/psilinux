@@ -1,0 +1,14 @@
+name	wolfssh
+version	1.6.0-r1
+description	Small, fast, portable SSH implementation, including SCP and SFTP
+url	https://www.wolfssl.com
+license	GPL-3.0-only
+size	188664
+installed-size	413360
+depends	so:libc.musl-armhf.so.1 so:libwolfssl.so.46
+origin	wolfssh
+repo	community
+file	wolfssh-1.6.0-r1.apk
+checksum	Q12+zZoCqS3o75cilF9n7AWsN+LJ4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libwolfssl.so.46	wolfssl

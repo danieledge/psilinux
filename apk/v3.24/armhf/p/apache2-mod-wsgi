@@ -1,0 +1,16 @@
+name	apache2-mod-wsgi
+version	5.0.2-r1
+description	Python WSGI Module for Apache2
+url	https://github.com/GrahamDumpleton/mod_wsgi
+license	Apache-2.0
+size	90734
+installed-size	217295
+depends	apache2 /bin/sh so:libc.musl-armhf.so.1 so:libpython3.14.so.1.0
+origin	apache2-mod-wsgi
+repo	main
+file	apache2-mod-wsgi-5.0.2-r1.apk
+checksum	Q1BGkEP148AlJj85Zeu/8gmrIUPXE=
+dep	apache2	apache2
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpython3.14.so.1.0	python3

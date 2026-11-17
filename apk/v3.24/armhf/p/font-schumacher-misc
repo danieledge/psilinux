@@ -1,0 +1,16 @@
+name	font-schumacher-misc
+version	1.1.3-r1
+description	X.org misc font
+url	https://xorg.freedesktop.org/
+license	NTP
+size	162061
+installed-size	163577
+depends	encodings font-alias mkfontscale fontconfig
+origin	font-schumacher-misc
+repo	main
+file	font-schumacher-misc-1.1.3-r1.apk
+checksum	Q1Rs74zS4SvZOnAWxUIpUe5m+BsHQ=
+dep	encodings	encodings
+dep	font-alias	font-alias
+dep	mkfontscale	mkfontscale
+dep	fontconfig	fontconfig

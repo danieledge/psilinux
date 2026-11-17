@@ -1,0 +1,13 @@
+name	py3-cppy
+version	1.3.1-r1
+description	Collection of C++ headers for writing Python C extensions
+url	https://github.com/nucleic/cppy
+license	BSD-3-Clause
+size	8236
+installed-size	21110
+depends	python3~3.14
+origin	py3-cppy
+repo	community
+file	py3-cppy-1.3.1-r1.apk
+checksum	Q1TJO4XVQUDR+5KRbBp2axuhBU4WE=
+dep	python3~3.14	python3

@@ -1,0 +1,18 @@
+name	py3-jupyter_client
+version	8.9.0-r0
+description	Jupyter protocol client APIs
+url	https://github.com/jupyter/jupyter_client
+license	BSD-3-Clause
+size	95733
+installed-size	361226
+depends	py3-dateutil py3-jupyter_core py3-pyzmq py3-tornado py3-traitlets python3~3.14
+origin	py3-jupyter_client
+repo	community
+file	py3-jupyter_client-8.9.0-r0.apk
+checksum	Q1QwwQfWPujvQnpwIZRbC1dZh/94Y=
+dep	py3-dateutil	py3-dateutil
+dep	py3-jupyter_core	py3-jupyter_core
+dep	py3-pyzmq	py3-pyzmq
+dep	py3-tornado	py3-tornado
+dep	py3-traitlets	py3-traitlets
+dep	python3~3.14	python3

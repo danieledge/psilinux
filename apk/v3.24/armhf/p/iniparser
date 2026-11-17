@@ -1,0 +1,13 @@
+name	iniparser
+version	4.2.6-r0
+description	C library for parsing INI-style files
+url	https://github.com/ndevilla/iniparser
+license	MIT
+size	7942
+installed-size	13436
+depends	so:libc.musl-armhf.so.1
+origin	iniparser
+repo	main
+file	iniparser-4.2.6-r0.apk
+checksum	Q1bT/3Rw5dm4BxQvNiI7uhi2TlJLU=
+dep	so:libc.musl-armhf.so.1	musl

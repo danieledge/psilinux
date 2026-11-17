@@ -1,0 +1,14 @@
+name	perl-config-inifiles
+version	3.002000-r0
+description	A module for reading .ini-style configuration files.
+url	https://metacpan.org/release/Config-IniFiles/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	25017
+installed-size	89852
+depends	perl perl-io-stringy
+origin	perl-config-inifiles
+repo	main
+file	perl-config-inifiles-3.002000-r0.apk
+checksum	Q1vy9I2hUCan4QA0jUqs7l4rw7xC8=
+dep	perl	perl
+dep	perl-io-stringy	perl-io-stringy

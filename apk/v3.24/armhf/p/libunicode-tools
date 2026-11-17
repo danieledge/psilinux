@@ -1,0 +1,17 @@
+name	libunicode-tools
+version	0.7.0-r0
+description	Modern C++17 Unicode library - query tools
+url	https://contour-terminal.org
+license	Apache-2.0
+size	27928
+installed-size	58752
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libunicode.so.0.7 so:libunicode_ucd.so.0.7
+origin	libunicode
+repo	community
+file	libunicode-tools-0.7.0-r0.apk
+checksum	Q14gVPl8uQNpeUaNSxDy6MYKCw0yM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libunicode.so.0.7	libunicode
+dep	so:libunicode_ucd.so.0.7	libunicode

@@ -1,0 +1,14 @@
+name	xcb-util
+version	0.4.1-r3
+description	Utility libraries for X C-language Binding
+url	https://xcb.freedesktop.org/
+license	MIT
+size	7386
+installed-size	17580
+depends	so:libc.musl-armhf.so.1 so:libxcb.so.1
+origin	xcb-util
+repo	main
+file	xcb-util-0.4.1-r3.apk
+checksum	Q12usKN0ZIrvRrlehECHNTKaLOPk4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxcb.so.1	libxcb

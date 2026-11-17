@@ -1,0 +1,15 @@
+name	php84-pecl-xhprof-assets
+version	2.3.10-r1
+description	A Hierarchical Profiler for PHP (UI assets)
+url	https://pecl.php.net/package/xhprof
+license	Apache-2.0
+size	826490
+installed-size	1140976
+depends	php84-ctype graphviz ghostscript-fonts
+origin	php84-pecl-xhprof
+repo	community
+file	php84-pecl-xhprof-assets-2.3.10-r1.apk
+checksum	Q1PIYERyip36oyXMmHSWBjW2GEeUY=
+dep	php84-ctype	php84-ctype
+dep	graphviz	graphviz
+dep	ghostscript-fonts	ghostscript-fonts

@@ -1,0 +1,16 @@
+name	perl-dbd-odbc
+version	1.61-r7
+description	Perl CPAN DBD::ODBC module
+url	https://metacpan.org/release/DBD-ODBC/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	151041
+installed-size	402929
+depends	perl perl-dbi so:libc.musl-armhf.so.1 so:libodbc.so.2
+origin	perl-dbd-odbc
+repo	main
+file	perl-dbd-odbc-1.61-r7.apk
+checksum	Q1f7aNztS5dkTlGw4vNaYHs/Df/zY=
+dep	perl	perl
+dep	perl-dbi	perl-dbi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libodbc.so.2	unixodbc

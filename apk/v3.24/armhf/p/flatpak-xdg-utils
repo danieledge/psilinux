@@ -1,0 +1,16 @@
+name	flatpak-xdg-utils
+version	1.0.6-r0
+description	Simple portal-based commandline tools for use inside flatpak sandboxes
+url	https://github.com/flatpak/flatpak-xdg-utils
+license	LGPL-2.1-only
+size	19223
+installed-size	49036
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	flatpak-xdg-utils
+repo	community
+file	flatpak-xdg-utils-1.0.6-r0.apk
+checksum	Q1niSiUDYyNpYHhzIliMQRZJiAYOc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

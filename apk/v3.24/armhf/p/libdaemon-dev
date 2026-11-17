@@ -1,0 +1,14 @@
+name	libdaemon-dev
+version	0.14-r6
+description	A lightweight C library which eases the writing of UNIX daemons (development files)
+url	https://0pointer.de/lennart/projects/libdaemon/
+license	MIT
+size	17746
+installed-size	51942
+depends	libdaemon=0.14-r6 pkgconfig
+origin	libdaemon
+repo	main
+file	libdaemon-dev-0.14-r6.apk
+checksum	Q1+yClCZUxhqm5VhsBE4OjRjus1w8=
+dep	libdaemon=0.14-r6	libdaemon
+dep	pkgconfig	pkgconf

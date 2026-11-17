@@ -1,0 +1,15 @@
+name	cracklib
+version	2.10.3-r1
+description	Library used to enforce strong passwords
+url	https://github.com/cracklib/cracklib
+license	LGPL-2.1-or-later
+size	174141
+installed-size	200029
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libz.so.1
+origin	cracklib
+repo	main
+file	cracklib-2.10.3-r1.apk
+checksum	Q1J8UChlvXzszlWCp20klC0Vn2oms=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libz.so.1	zlib

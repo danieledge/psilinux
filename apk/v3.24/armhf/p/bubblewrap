@@ -1,0 +1,14 @@
+name	bubblewrap
+version	0.12.0-r0
+description	Unprivileged sandboxing tool
+url	https://github.com/containers/bubblewrap
+license	LGPL-2.1-or-later
+size	30138
+installed-size	66956
+depends	so:libc.musl-armhf.so.1 so:libcap.so.2
+origin	bubblewrap
+repo	main
+file	bubblewrap-0.12.0-r0.apk
+checksum	Q11lpI8gjQuWIitaB2nzEe/d1/MK0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2

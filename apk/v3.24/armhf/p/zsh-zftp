@@ -1,0 +1,14 @@
+name	zsh-zftp
+version	5.9-r7
+description	Zftp Function System for ZSH
+url	https://www.zsh.org/
+license	MIT-Modern-Variant AND GPL-2.0-only
+size	38962
+installed-size	89728
+depends	zsh=5.9-r7 so:libc.musl-armhf.so.1
+origin	zsh
+repo	main
+file	zsh-zftp-5.9-r7.apk
+checksum	Q1Y62Zq5/dHIjWlyqVYL8XJEw0W/4=
+dep	zsh=5.9-r7	zsh
+dep	so:libc.musl-armhf.so.1	musl

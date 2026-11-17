@@ -1,0 +1,13 @@
+name	raspberrypi-bootloader-experimental
+version	1.20260915-r0
+description	Experimental firmware with additional codecs
+url	https://github.com/raspberrypi/firmware
+license	custom
+size	3952314
+installed-size	6834807
+depends	raspberrypi-bootloader-common=1.20260915-r0
+origin	raspberrypi-bootloader
+repo	main
+file	raspberrypi-bootloader-experimental-1.20260915-r0.apk
+checksum	Q1bk+IG73jbR/uYcwfv0l9R7cpplA=
+dep	raspberrypi-bootloader-common=1.20260915-r0	raspberrypi-bootloader-common

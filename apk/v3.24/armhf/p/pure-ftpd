@@ -1,0 +1,16 @@
+name	pure-ftpd
+version	1.0.54-r0
+description	Pure FTPD FTP daemon
+url	https://pureftpd.org/
+license	ISC
+size	90934
+installed-size	216812
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libsodium.so.26 so:libssl.so.3
+origin	pure-ftpd
+repo	community
+file	pure-ftpd-1.0.54-r0.apk
+checksum	Q1+AEeCQ3Gt2VbVriMUlRv/JOK2kk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libsodium.so.26	libsodium
+dep	so:libssl.so.3	libssl3

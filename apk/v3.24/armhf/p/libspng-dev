@@ -1,0 +1,15 @@
+name	libspng-dev
+version	0.7.4-r1
+description	modern alternative to libpng (development files)
+url	https://github.com/randy408/libspng
+license	BSD-2-Clause
+size	5282
+installed-size	13542
+depends	libspng=0.7.4-r1 pc:zlib pkgconfig
+origin	libspng
+repo	community
+file	libspng-dev-0.7.4-r1.apk
+checksum	Q1uTo8SXga5qnfXRzNrL4X48wFCc0=
+dep	libspng=0.7.4-r1	libspng
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

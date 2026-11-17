@@ -1,0 +1,14 @@
+name	perl-digest-md5
+version	2.59-r3
+description	Perl interface to the MD-5 algorithm
+url	https://metacpan.org/release/Digest-MD5/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	13944
+installed-size	28632
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-digest-md5
+repo	main
+file	perl-digest-md5-2.59-r3.apk
+checksum	Q1MyXDl2sloWgXYiCjmLMne+YbUMU=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

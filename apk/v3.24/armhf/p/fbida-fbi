@@ -1,0 +1,24 @@
+name	fbida-fbi
+version	2.15-r0
+description	fbi tool from fbida
+url	https://www.kraxel.org/blog/linux/fbida/
+license	GPL-2.0-only
+size	48674
+installed-size	97988
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdrm.so.2 so:libexif.so.12 so:libgif.so.7 so:libinput.so.10 so:libjpeg.so.8 so:libpixman-1.so.0 so:libpng16.so.16 so:libtiff.so.6 so:libudev.so.1 so:libxkbcommon.so.0
+origin	fbida
+repo	community
+file	fbida-fbi-2.15-r0.apk
+checksum	Q1SWWxG0ZfRYCAh064Xsq5J+ZkdHw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libdrm.so.2	libdrm
+dep	so:libexif.so.12	libexif
+dep	so:libgif.so.7	giflib
+dep	so:libinput.so.10	libinput-libs
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpixman-1.so.0	pixman
+dep	so:libpng16.so.16	libpng
+dep	so:libtiff.so.6	tiff
+dep	so:libudev.so.1	eudev-libs
+dep	so:libxkbcommon.so.0	libxkbcommon

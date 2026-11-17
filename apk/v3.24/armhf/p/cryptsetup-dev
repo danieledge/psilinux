@@ -1,0 +1,19 @@
+name	cryptsetup-dev
+version	2.8.6-r0
+description	Userspace setup tool for transparent encryption of block devices using the Linux 2.6 cryptoapi (development files)
+url	https://gitlab.com/cryptsetup/cryptsetup
+license	GPL-2.0-or-later WITH cryptsetup-OpenSSL-exception
+size	25804
+installed-size	116112
+depends	cryptsetup-libs=2.8.6-r0 pc:blkid pc:devmapper pc:json-c pc:openssl pc:uuid pkgconfig
+origin	cryptsetup
+repo	main
+file	cryptsetup-dev-2.8.6-r0.apk
+checksum	Q1ZzIAD9REuLVdjcKxgTBnokviaL8=
+dep	cryptsetup-libs=2.8.6-r0	cryptsetup-libs
+dep	pc:blkid	util-linux-dev
+dep	pc:devmapper	device-mapper-dev
+dep	pc:json-c	json-c-dev
+dep	pc:openssl	openssl-dev
+dep	pc:uuid	util-linux-dev
+dep	pkgconfig	pkgconf

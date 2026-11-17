@@ -1,0 +1,15 @@
+name	libmustach-jansson-dev
+version	1.2.10-r0
+description	C implementation of the mustache template specification (libmustach-jansson development files)
+url	https://gitlab.com/jobol/mustach
+license	0BSD
+size	2764
+installed-size	3729
+depends	jansson-dev libmustach-jansson=1.2.10-r0 pkgconfig
+origin	mustach
+repo	community
+file	libmustach-jansson-dev-1.2.10-r0.apk
+checksum	Q1j/LS1m2PIFNJScKO5EndXM8bvxk=
+dep	jansson-dev	jansson-dev
+dep	libmustach-jansson=1.2.10-r0	libmustach-jansson
+dep	pkgconfig	pkgconf

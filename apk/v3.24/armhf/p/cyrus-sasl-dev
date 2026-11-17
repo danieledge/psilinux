@@ -1,0 +1,14 @@
+name	cyrus-sasl-dev
+version	2.1.28-r9
+description	Cyrus Simple Authentication Service Layer (SASL) (development files)
+url	https://www.cyrusimap.org/sasl/
+license	BSD-3-Clause-Attribution AND BSD-4-Clause
+size	29394
+installed-size	101158
+depends	libsasl=2.1.28-r9 pkgconfig
+origin	cyrus-sasl
+repo	main
+file	cyrus-sasl-dev-2.1.28-r9.apk
+checksum	Q13s1QTykRbKmRxvN3VJFNWTSBPS0=
+dep	libsasl=2.1.28-r9	libsasl
+dep	pkgconfig	pkgconf

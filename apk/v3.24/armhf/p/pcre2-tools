@@ -1,0 +1,19 @@
+name	pcre2-tools
+version	10.49-r0
+description	Auxiliary utilities for PCRE2
+url	https://pcre.org/
+license	BSD-3-Clause
+size	158648
+installed-size	350680
+depends	so:libc.musl-armhf.so.1 so:libedit.so.0 so:libpcre2-16.so.0 so:libpcre2-32.so.0 so:libpcre2-8.so.0 so:libpcre2-posix.so.3 so:libz.so.1
+origin	pcre2
+repo	main
+file	pcre2-tools-10.49-r0.apk
+checksum	Q1rs0toRhZNqBE2K8vdOg5dPQP1Dk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libedit.so.0	libedit
+dep	so:libpcre2-16.so.0	libpcre2-16
+dep	so:libpcre2-32.so.0	libpcre2-32
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libpcre2-posix.so.3	pcre2
+dep	so:libz.so.1	zlib

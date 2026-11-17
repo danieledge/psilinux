@@ -1,0 +1,14 @@
+name	libqb-tools
+version	2.0.10-r0
+description	Tools to use with libqb
+url	https://clusterlabs.github.io/libqb
+license	LGPL-2.1-or-later
+size	3338
+installed-size	5292
+depends	so:libc.musl-armhf.so.1 so:libqb.so.100
+origin	libqb
+repo	community
+file	libqb-tools-2.0.10-r0.apk
+checksum	Q1YmfIDt9SUzvDYL5RhtDlBc15QIY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libqb.so.100	libqb

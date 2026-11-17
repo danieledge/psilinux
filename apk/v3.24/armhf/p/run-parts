@@ -1,0 +1,13 @@
+name	run-parts
+version	5.23.2-r1
+description	run-parts from the debianutils package
+url	https://packages.qa.debian.org/d/debianutils.html
+license	GPL-2.0-or-later
+size	9144
+installed-size	17840
+depends	so:libc.musl-armhf.so.1
+origin	run-parts
+repo	main
+file	run-parts-5.23.2-r1.apk
+checksum	Q1fYN1e43l//2MfvVvyRKVdDO60cE=
+dep	so:libc.musl-armhf.so.1	musl

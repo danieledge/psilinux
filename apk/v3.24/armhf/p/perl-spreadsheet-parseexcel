@@ -1,0 +1,17 @@
+name	perl-spreadsheet-parseexcel
+version	0.66-r0
+description	Read information from an Excel file
+url	https://metacpan.org/release/Spreadsheet-ParseExcel/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	58119
+installed-size	266591
+depends	perl perl-digest-perl-md5 perl-ole-storage_lite perl-io-stringy perl-crypt-rc4
+origin	perl-spreadsheet-parseexcel
+repo	community
+file	perl-spreadsheet-parseexcel-0.66-r0.apk
+checksum	Q10JXe6eRCZmFKSOSM5Nm0LVTNnyw=
+dep	perl	perl
+dep	perl-digest-perl-md5	perl-digest-perl-md5
+dep	perl-ole-storage_lite	perl-ole-storage_lite
+dep	perl-io-stringy	perl-io-stringy
+dep	perl-crypt-rc4	perl-crypt-rc4

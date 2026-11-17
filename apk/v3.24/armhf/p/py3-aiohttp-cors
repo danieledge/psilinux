@@ -1,0 +1,14 @@
+name	py3-aiohttp-cors
+version	0.8.1-r1
+description	CORS support for aiohttp
+url	https://github.com/aio-libs/aiohttp-cors
+license	Apache-2.0
+size	17511
+installed-size	61526
+depends	py3-aiohttp python3~3.14
+origin	py3-aiohttp-cors
+repo	community
+file	py3-aiohttp-cors-0.8.1-r1.apk
+checksum	Q1MTgiJsAnlByNIi1O7XbLfYTI2OE=
+dep	py3-aiohttp	py3-aiohttp
+dep	python3~3.14	python3

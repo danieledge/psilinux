@@ -1,0 +1,15 @@
+name	py3-uvloop
+version	0.22.1-r1
+description	Ultra fast asyncio event loop
+url	https://github.com/MagicStack/uvloop
+license	MIT OR Apache-2.0
+size	654775
+installed-size	1915915
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libuv.so.1
+origin	py3-uvloop
+repo	community
+file	py3-uvloop-0.22.1-r1.apk
+checksum	Q1iRp9S1trUG8dVKx+4j5h73zbTOw=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libuv.so.1	libuv

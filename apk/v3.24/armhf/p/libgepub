@@ -1,0 +1,20 @@
+name	libgepub
+version	0.7.1-r1
+description	GObject based library for handling epub documents
+url	https://gitlab.gnome.org/GNOME/libgepub
+license	LGPL-2.1-or-later
+size	19064
+installed-size	45112
+depends	so:libarchive.so.13 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libjavascriptcoregtk-4.1.so.0 so:libwebkit2gtk-4.1.so.0 so:libxml2.so.2
+origin	libgepub
+repo	community
+file	libgepub-0.7.1-r1.apk
+checksum	Q18Pwb59EaOqEgPkOXRj4Sl6BMVWs=
+dep	so:libarchive.so.13	libarchive
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libjavascriptcoregtk-4.1.so.0	webkit2gtk-4.1
+dep	so:libwebkit2gtk-4.1.so.0	webkit2gtk-4.1
+dep	so:libxml2.so.2	libxml2

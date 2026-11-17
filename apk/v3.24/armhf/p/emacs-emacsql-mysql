@@ -1,0 +1,13 @@
+name	emacs-emacsql-mysql
+version	3.1.1_git20240714-r1
+description	High-level SQL database frontend (MySQL backend)
+url	https://github.com/magit/emacsql
+license	Unlicense
+size	6152
+installed-size	13431
+depends	emacs-emacsql=3.1.1_git20240714-r1
+origin	emacs-emacsql
+repo	community
+file	emacs-emacsql-mysql-3.1.1_git20240714-r1.apk
+checksum	Q1ujzHgQBKc0mMRO46PLfRy2xFI/A=
+dep	emacs-emacsql=3.1.1_git20240714-r1	emacs-emacsql

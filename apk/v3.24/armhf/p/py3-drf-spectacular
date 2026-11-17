@@ -1,0 +1,20 @@
+name	py3-drf-spectacular
+version	0.29.0-r2
+description	Sane and flexible OpenAPI 3 schema generation for Django REST framework
+url	https://pypi.python.org/project/drf-spectacular
+license	BSD-3-Clause
+size	95837
+installed-size	398942
+depends	py3-django-rest-framework py3-jsonschema py3-uritemplate py3-yaml py3-inflection py3-django-oauth-toolkit py3-jwcrypto python3~3.14
+origin	py3-drf-spectacular
+repo	community
+file	py3-drf-spectacular-0.29.0-r2.apk
+checksum	Q1h8e8L+UWgOfzrbfwV2JtSAl8qyM=
+dep	py3-django-rest-framework	py3-django-rest-framework
+dep	py3-jsonschema	py3-jsonschema
+dep	py3-uritemplate	py3-uritemplate
+dep	py3-yaml	py3-yaml
+dep	py3-inflection	py3-inflection
+dep	py3-django-oauth-toolkit	py3-django-oauth-toolkit
+dep	py3-jwcrypto	py3-jwcrypto
+dep	python3~3.14	python3

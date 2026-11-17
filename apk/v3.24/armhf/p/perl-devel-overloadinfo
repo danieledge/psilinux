@@ -1,0 +1,15 @@
+name	perl-devel-overloadinfo
+version	0.008-r0
+description	introspect overloaded operators
+url	https://metacpan.org/release/Devel-OverloadInfo/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	4106
+installed-size	8488
+depends	perl perl-mro-compat perl-package-stash
+origin	perl-devel-overloadinfo
+repo	main
+file	perl-devel-overloadinfo-0.008-r0.apk
+checksum	Q1KCVmHAPDRY8ipY87TzFUl/X7AIo=
+dep	perl	perl
+dep	perl-mro-compat	perl-mro-compat
+dep	perl-package-stash	perl-package-stash

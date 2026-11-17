@@ -1,0 +1,17 @@
+name	sniproxy
+version	0.7.0-r1
+description	Proxies incoming HTTP and TLS connections based on the hostname
+url	https://github.com/dlundquist/sniproxy
+license	BSD-2-Clause
+size	28615
+installed-size	59527
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libev.so.4 so:libpcre.so.1 so:libudns.so.0
+origin	sniproxy
+repo	community
+file	sniproxy-0.7.0-r1.apk
+checksum	Q1cGyTZmF2gOabKHNcy0LbxNyWCY8=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libev.so.4	libev
+dep	so:libpcre.so.1	pcre
+dep	so:libudns.so.0	udns

@@ -1,0 +1,19 @@
+name	urfkill
+version	0.5.0_git20210401-r6
+description	Handle rfkill events in userspace
+url	https://www.freedesktop.org/wiki/Software/urfkill/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	47439
+installed-size	128243
+depends	so:libc.musl-armhf.so.1 so:libexpat.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libpolkit-gobject-1.so.0 so:libudev.so.1
+origin	urfkill
+repo	community
+file	urfkill-0.5.0_git20210401-r6.apk
+checksum	Q1GB6jW1MJc9e6xORRj7AlF/+kge4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexpat.so.1	libexpat
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpolkit-gobject-1.so.0	polkit-noelogind-libs
+dep	so:libudev.so.1	eudev-libs

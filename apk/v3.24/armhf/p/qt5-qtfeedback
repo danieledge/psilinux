@@ -1,0 +1,17 @@
+name	qt5-qtfeedback
+version	0_git20180903-r3
+description	Qt Tactile Feedback
+url	https://qt-project.org/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	31261
+installed-size	85314
+depends	so:libQt5Core.so.5 so:libQt5Qml.so.5 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	qt5-qtfeedback
+repo	community
+file	qt5-qtfeedback-0_git20180903-r3.apk
+checksum	Q1S+Q/6lvTFeopk0W7lzLkTVLgfmo=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Qml.so.5	qt5-qtdeclarative
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

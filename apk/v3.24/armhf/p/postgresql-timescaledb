@@ -1,0 +1,14 @@
+name	postgresql-timescaledb
+version	2.25.2-r0
+description	PostgreSQL extension for time‑series data
+url	https://github.com/timescale/timescaledb
+license	Apache-2.0
+size	2601654
+installed-size	14317342
+depends	postgresql18 so:libc.musl-armhf.so.1
+origin	postgresql-timescaledb
+repo	community
+file	postgresql-timescaledb-2.25.2-r0.apk
+checksum	Q17bPdH9ExrWodA2XW4DlAgF/5Tqg=
+dep	postgresql18	postgresql18
+dep	so:libc.musl-armhf.so.1	musl

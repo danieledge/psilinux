@@ -1,0 +1,13 @@
+name	raspberrypi-bootloader-common
+version	1.20260915-r0
+description	Common files used by Raspberry Pi bootloaders
+url	https://github.com/raspberrypi/firmware
+license	custom
+size	34305
+installed-size	54380
+depends	/bin/sh
+origin	raspberrypi-bootloader
+repo	main
+file	raspberrypi-bootloader-common-1.20260915-r0.apk
+checksum	Q1h3zWXzrxTnCtRHDRYTLyAdXwrCU=
+dep	/bin/sh	busybox-binsh

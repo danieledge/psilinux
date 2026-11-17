@@ -1,0 +1,15 @@
+name	lua5.3-dbi-mysql
+version	0.7.5-r0
+description	database interface library for Lua 5.3 and mysql
+url	https://github.com/mwild1/luadbi
+license	MIT
+size	10381
+installed-size	19583
+depends	lua5.3 so:libc.musl-armhf.so.1 so:libmariadb.so.3
+origin	lua-dbi
+repo	main
+file	lua5.3-dbi-mysql-0.7.5-r0.apk
+checksum	Q1SR994RGWRSHeCZErQ/h1PhBYeoA=
+dep	lua5.3	lua5.3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmariadb.so.3	mariadb-connector-c

@@ -1,0 +1,31 @@
+name	scummvm
+version	2.9.1-r1
+description	Engine for several graphical adventure games
+url	https://www.scummvm.org/
+license	GPL-2.0-or-later
+size	114636768
+installed-size	178341704
+depends	so:libFLAC.so.12 so:libSDL2-2.0.so.0 so:libasound.so.2 so:libc.musl-armhf.so.1 so:libfaad.so.2 so:libfluidsynth.so.3 so:libfreetype.so.6 so:libgcc_s.so.1 so:libgif.so.7 so:libjpeg.so.8 so:libmad.so.0 so:libmpeg2.so.0 so:libogg.so.0 so:libpng16.so.16 so:libstdc++.so.6 so:libtheoradec.so.2 so:libvorbis.so.0 so:libvorbisfile.so.3 so:libz.so.1
+origin	scummvm
+repo	community
+file	scummvm-2.9.1-r1.apk
+checksum	Q1JJ62n62ioKb/x5TV+bCXK3dV3ME=
+dep	so:libFLAC.so.12	libflac
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfaad.so.2	faad2-libs
+dep	so:libfluidsynth.so.3	fluidsynth-libs
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgif.so.7	giflib
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libmad.so.0	libmad
+dep	so:libmpeg2.so.0	libmpeg2
+dep	so:libogg.so.0	libogg
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtheoradec.so.2	libtheora
+dep	so:libvorbis.so.0	libvorbis
+dep	so:libvorbisfile.so.3	libvorbis
+dep	so:libz.so.1	zlib

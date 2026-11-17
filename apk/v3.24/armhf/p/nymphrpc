@@ -1,0 +1,17 @@
+name	nymphrpc
+version	0.1.1-r3
+description	Versatile and fast remote procedure call library
+url	https://github.com/MayaPosch/NymphRPC
+license	BSD-3-Clause
+size	67538
+installed-size	157076
+depends	so:libPocoFoundation.so.121 so:libPocoNet.so.121 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	nymphrpc
+repo	community
+file	nymphrpc-0.1.1-r3.apk
+checksum	Q1Wv5dkwwdEPw715imuJqrlDUyaUo=
+dep	so:libPocoFoundation.so.121	poco
+dep	so:libPocoNet.so.121	poco
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

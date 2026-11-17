@@ -1,0 +1,17 @@
+name	cmis-client
+version	0.6.2-r0
+description	CMIS protocol client library
+url	https://github.com/tdf/libcmis
+license	MPL-1.1 GPL-2.0-or-later LGPL-2.0-or-later
+size	45462
+installed-size	107956
+depends	so:libboost_program_options.so.1.84.0 so:libc.musl-armhf.so.1 so:libcmis-0.6.so.6 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libcmis
+repo	community
+file	cmis-client-0.6.2-r0.apk
+checksum	Q1S/Tkp4hwrnEH80aN15vyLUzitxg=
+dep	so:libboost_program_options.so.1.84.0	boost1.84-program_options
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcmis-0.6.so.6	libcmis
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

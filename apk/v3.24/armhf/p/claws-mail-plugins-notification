@@ -1,0 +1,22 @@
+name	claws-mail-plugins-notification
+version	4.4.0-r0
+description	Various ways to notify about new messages in Claws Mail
+url	https://www.claws-mail.org
+license	GPL-3.0-or-later
+size	51011
+installed-size	122536
+depends	claws-mail=4.4.0-r0 so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libnotify.so.4
+origin	claws-mail
+repo	community
+file	claws-mail-plugins-notification-4.4.0-r0.apk
+checksum	Q17BrEGEeMwILOLuVsFsTu2XrqFrs=
+dep	claws-mail=4.4.0-r0	claws-mail
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libnotify.so.4	libnotify

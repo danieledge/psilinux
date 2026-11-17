@@ -1,0 +1,15 @@
+name	py3-ijson
+version	3.5.0-r0
+description	Iterative JSON parser with standard Python iterator interfaces
+url	https://github.com/ICRAR/ijson
+license	BSD-3-Clause
+size	44021
+installed-size	132437
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libyajl.so.2
+origin	py3-ijson
+repo	community
+file	py3-ijson-3.5.0-r0.apk
+checksum	Q1+L7bq18IT3MLqfs8sxY9Hn1rsIg=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libyajl.so.2	yajl

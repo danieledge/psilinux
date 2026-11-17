@@ -1,0 +1,13 @@
+name	physfs
+version	3.2.0-r2
+description	Library providing access to various archives, for use in video games
+url	https://icculus.org/physfs/
+license	Zlib
+size	65437
+installed-size	128236
+depends	so:libc.musl-armhf.so.1
+origin	physfs
+repo	community
+file	physfs-3.2.0-r2.apk
+checksum	Q1hI05ADUn/DHpXqDmAVl69418+Eg=
+dep	so:libc.musl-armhf.so.1	musl

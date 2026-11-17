@@ -1,0 +1,37 @@
+name	mumble
+version	1.5.857-r2
+description	Low-latency, high quality voice chat software
+url	https://wiki.mumble.info/
+license	BSD-3-Clause
+size	5695286
+installed-size	10381873
+depends	qt5-qtbase-sqlite so:libPocoFoundation.so.121 so:libPocoXML.so.121 so:libPocoZip.so.121 so:libQt5Core.so.5 so:libQt5DBus.so.5 so:libQt5Gui.so.5 so:libQt5Network.so.5 so:libQt5Sql.so.5 so:libQt5Svg.so.5 so:libQt5Widgets.so.5 so:libQt5Xml.so.5 so:libX11.so.6 so:libXi.so.6 so:libasound.so.2 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libdns_sd.so.1 so:libgcc_s.so.1 so:libopus.so.0 so:libprotobuf.so.31 so:libsndfile.so.1 so:libspeexdsp.so.1 so:libssl.so.3 so:libstdc++.so.6
+origin	mumble
+repo	community
+file	mumble-1.5.857-r2.apk
+checksum	Q1gp66Dm54j++l8oNGRWYeN3KszRo=
+dep	qt5-qtbase-sqlite	qt5-qtbase-sqlite
+dep	so:libPocoFoundation.so.121	poco
+dep	so:libPocoXML.so.121	poco
+dep	so:libPocoZip.so.121	poco
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5DBus.so.5	qt5-qtbase
+dep	so:libQt5Gui.so.5	qt5-qtbase-x11
+dep	so:libQt5Network.so.5	qt5-qtbase
+dep	so:libQt5Sql.so.5	qt5-qtbase
+dep	so:libQt5Svg.so.5	qt5-qtsvg
+dep	so:libQt5Widgets.so.5	qt5-qtbase-x11
+dep	so:libQt5Xml.so.5	qt5-qtbase
+dep	so:libX11.so.6	libx11
+dep	so:libXi.so.6	libxi
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libdns_sd.so.1	avahi-compat-libdns_sd
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libopus.so.0	opus
+dep	so:libprotobuf.so.31	libprotobuf
+dep	so:libsndfile.so.1	libsndfile
+dep	so:libspeexdsp.so.1	speexdsp
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++

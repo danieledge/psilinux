@@ -1,0 +1,13 @@
+name	wlr-protocols
+version	0_git20250702-r0
+description	Wayland protocol extensions for wlroots and other compositors
+url	https://gitlab.freedesktop.org/wlroots/wlr-protocols
+license	MIT
+size	24693
+installed-size	110200
+depends	pkgconfig
+origin	wlr-protocols
+repo	community
+file	wlr-protocols-0_git20250702-r0.apk
+checksum	Q1NxVktMugHKmoVXkaEYrK9e4slfE=
+dep	pkgconfig	pkgconf

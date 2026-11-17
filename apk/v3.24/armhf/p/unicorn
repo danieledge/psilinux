@@ -1,0 +1,13 @@
+name	unicorn
+version	2.1.4-r1
+description	Unicorn CPU emulator engine
+url	https://www.unicorn-engine.org/
+license	GPL-2.0-or-later
+size	7263870
+installed-size	19745508
+depends	so:libc.musl-armhf.so.1
+origin	unicorn
+repo	community
+file	unicorn-2.1.4-r1.apk
+checksum	Q1UjBGWfPlHr7qE3PglhkOWACAbFM=
+dep	so:libc.musl-armhf.so.1	musl

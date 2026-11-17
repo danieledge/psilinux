@@ -1,0 +1,14 @@
+name	swayrbar
+version	0.4.2-r0
+description	A status command for Sway's swaybar
+url	https://sr.ht/~tsdh/swayr/
+license	GPL-3.0-or-later
+size	953588
+installed-size	2072904
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	swayrbar
+repo	community
+file	swayrbar-0.4.2-r0.apk
+checksum	Q1sGYD3kC8QLaYMm7eRa3J4HzVnQQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

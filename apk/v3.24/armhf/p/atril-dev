@@ -1,0 +1,17 @@
+name	atril-dev
+version	1.28.0-r3
+description	A document viewer for MATE (development files)
+url	https://github.com/mate-desktop/atril
+license	GPL-2.0-or-later
+size	29800
+installed-size	178046
+depends	atril=1.28.0-r3 pc:gio-2.0>=2.54.0 pc:gthread-2.0 pc:gtk+-3.0>=3.22.0 pkgconfig
+origin	atril
+repo	community
+file	atril-dev-1.28.0-r3.apk
+checksum	Q1RBazPvi9Un+GpyKCB06UIaDx8CA=
+dep	atril=1.28.0-r3	atril
+dep	pc:gio-2.0>=2.54.0	glib-dev
+dep	pc:gthread-2.0	glib-dev
+dep	pc:gtk+-3.0>=3.22.0	gtk+3.0-dev
+dep	pkgconfig	pkgconf

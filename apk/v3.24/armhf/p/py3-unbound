@@ -1,0 +1,16 @@
+name	py3-unbound
+version	1.25.2-r2
+description	Python bindings to libunbound
+url	https://nlnetlabs.nl/projects/unbound/about/
+license	BSD-3-Clause
+size	51817
+installed-size	227751
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libpython3.14.so.1.0 so:libunbound.so.8
+origin	unbound
+repo	main
+file	py3-unbound-1.25.2-r2.apk
+checksum	Q13yMh1qOV0bmEosJhchUYseL4/ec=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpython3.14.so.1.0	python3
+dep	so:libunbound.so.8	unbound-libs

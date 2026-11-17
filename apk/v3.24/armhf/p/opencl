@@ -1,0 +1,13 @@
+name	opencl
+version	2026.05.29-r0
+description	OpenCL ICD Loader
+url	https://khronos.org/opencl
+license	Apache-2.0
+size	72701
+installed-size	179487
+depends	so:libc.musl-armhf.so.1
+origin	opencl
+repo	community
+file	opencl-2026.05.29-r0.apk
+checksum	Q1Yip+WplyZ8KT6RcwAuYMtj2xdPQ=
+dep	so:libc.musl-armhf.so.1	musl

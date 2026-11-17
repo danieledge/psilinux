@@ -1,0 +1,18 @@
+name	libnice-gstreamer
+version	0.1.22-r0
+description	Gstreamer 1.0 plugin for libnice
+url	https://libnice.freedesktop.org/
+license	LGPL-2.1-or-later AND MPL-1.1
+size	9252
+installed-size	21752
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstbase-1.0.so.0 so:libgstreamer-1.0.so.0 so:libnice.so.10
+origin	libnice
+repo	community
+file	libnice-gstreamer-0.1.22-r0.apk
+checksum	Q1eYidU3Ai9TQ4Po5p3C+M5Y6BU3M=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstbase-1.0.so.0	gstreamer
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libnice.so.10	libnice

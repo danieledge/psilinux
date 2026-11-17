@@ -1,0 +1,16 @@
+name	openipmi-dev
+version	2.0.36-r1
+description	IPMI (Intelligent Platform Management Interface) library and tools (development files)
+url	https://sourceforge.net/projects/openipmi/
+license	LGPL-2.0-or-later and GPL-2.0-or-later or BSD-3-Clause
+size	152102
+installed-size	724605
+depends	openipmi-lanserv=2.0.36-r1 openipmi-libs=2.0.36-r1 pc:ncurses pkgconfig
+origin	openipmi
+repo	community
+file	openipmi-dev-2.0.36-r1.apk
+checksum	Q1XmatgWIN/xWP0LSEy1p4YGLxWnE=
+dep	openipmi-lanserv=2.0.36-r1	openipmi-lanserv
+dep	openipmi-libs=2.0.36-r1	openipmi-libs
+dep	pc:ncurses	ncurses-dev
+dep	pkgconfig	pkgconf

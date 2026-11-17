@@ -1,0 +1,16 @@
+name	libmng
+version	2.0.3-r2
+description	A collection of routines used to create and manipulate MNG format graphics files
+url	http://www.libmng.com/
+license	custom
+size	137413
+installed-size	348888
+depends	so:libc.musl-armhf.so.1 so:libjpeg.so.8 so:liblcms2.so.2 so:libz.so.1
+origin	libmng
+repo	community
+file	libmng-2.0.3-r2.apk
+checksum	Q1mXs9ZeofIL7F8sczJKoAjT9MzyQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:liblcms2.so.2	lcms2
+dep	so:libz.so.1	zlib

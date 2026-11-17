@@ -1,0 +1,13 @@
+name	py3-curl-pyc
+version	7.45.7-r1
+description	Precompiled Python bytecode for py3-curl
+url	http://pycurl.io/
+license	LGPL-2.0-or-later OR MIT
+size	6654
+installed-size	13381
+depends	python3~3.14
+origin	py3-curl
+repo	community
+file	py3-curl-pyc-7.45.7-r1.apk
+checksum	Q1vy8E7FoW27kKLsyGN76Gb2SsgGw=
+dep	python3~3.14	python3

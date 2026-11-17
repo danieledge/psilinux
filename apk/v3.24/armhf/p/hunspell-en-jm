@@ -1,0 +1,13 @@
+name	hunspell-en-jm
+version	2020.12.07-r4
+description	English hunspell dictionaries (JM only)
+url	http://wordlist.aspell.net/dicts/
+license	custom
+size	1654
+installed-size	1
+depends	hunspell-en-gb=2020.12.07-r4
+origin	hunspell-en
+repo	main
+file	hunspell-en-jm-2020.12.07-r4.apk
+checksum	Q16ZukMmEW1oGCzrM1Z1H10MDjyyM=
+dep	hunspell-en-gb=2020.12.07-r4	hunspell-en-gb

@@ -1,0 +1,21 @@
+name	cri-o
+version	1.36.0-r2
+description	OCI-based implementation of Kubernetes Container Runtime Interface
+url	https://github.com/cri-o/cri-o/
+license	Apache-2.0
+size	17570793
+installed-size	50795373
+depends	cni-plugins conmon conntrack-tools containers-common iproute2 oci-runtime so:libc.musl-armhf.so.1 so:libseccomp.so.2 so:libsqlite3.so.0
+origin	cri-o
+repo	community
+file	cri-o-1.36.0-r2.apk
+checksum	Q1B0YfjRUSaAQNZAQvDnnpWQzxZQM=
+dep	cni-plugins	cni-plugins
+dep	conmon	conmon
+dep	conntrack-tools	conntrack-tools
+dep	containers-common	containers-common
+dep	iproute2	iproute2
+dep	oci-runtime	crun
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libseccomp.so.2	libseccomp
+dep	so:libsqlite3.so.0	sqlite-libs

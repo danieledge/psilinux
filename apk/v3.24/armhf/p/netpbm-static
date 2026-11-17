@@ -1,0 +1,13 @@
+name	netpbm-static
+version	11.14.0-r0
+description	Toolkit for manipulation of graphic images (static library)
+url	https://netpbm.sourceforge.net/
+license	IJG AND BSD-3-Clause AND GPL-2.0-only
+size	114003
+installed-size	331552
+depends	netpbm-dev
+origin	netpbm
+repo	community
+file	netpbm-static-11.14.0-r0.apk
+checksum	Q1Q+DfmKM/hF1KcK7P5Yn/B19fY1o=
+dep	netpbm-dev	netpbm-dev

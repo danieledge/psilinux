@@ -1,0 +1,22 @@
+name	usb-moded-dev
+version	0.86.0.69-r1
+description	A daemon activating a certain USB profile based on the usb cable connection status (development files)
+url	https://github.com/sailfishos/usb-moded
+license	GPL-2.0-only
+size	16845
+installed-size	91260
+depends	eudev-dev elogind-dev glib-dev gobject-introspection-dev kmod-dev libdsme-dev sailfish-access-control ssu-sysinfo-dev pc:dbus-1 pkgconfig
+origin	usb-moded
+repo	community
+file	usb-moded-dev-0.86.0.69-r1.apk
+checksum	Q1W9ljm2yhYY26iOSWywUPsokxwO4=
+dep	eudev-dev	eudev-dev
+dep	elogind-dev	elogind-dev
+dep	glib-dev	glib-dev
+dep	gobject-introspection-dev	gobject-introspection-dev
+dep	kmod-dev	kmod-dev
+dep	libdsme-dev	libdsme-dev
+dep	sailfish-access-control	sailfish-access-control
+dep	ssu-sysinfo-dev	ssu-sysinfo-dev
+dep	pc:dbus-1	dbus-dev
+dep	pkgconfig	pkgconf

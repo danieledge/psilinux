@@ -1,0 +1,18 @@
+name	mwm
+version	2.5.2-r0
+description	Motif Window Manager
+url	https://github.com/thentenaar/motif
+license	LGPL-2.1-or-later
+size	155051
+installed-size	309348
+depends	xbitmaps so:libX11.so.6 so:libXext.so.6 so:libXm.so.5 so:libXt.so.6 so:libc.musl-armhf.so.1
+origin	motif
+repo	community
+file	mwm-2.5.2-r0.apk
+checksum	Q1FlfWLVXdGc2m0y+U/KBlzi8mmPY=
+dep	xbitmaps	xbitmaps
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXm.so.5	motif
+dep	so:libXt.so.6	libxt
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,18 @@
+name	stoken-dev
+version	0.93-r0
+description	RSA SecurID-compatible software token for Linux/UNIX systems (development files)
+url	https://github.com/cernekee/stoken
+license	LGPL-2.1-or-later
+size	4863
+installed-size	7740
+depends	stoken=0.93-r0 pc:gmp pc:hogweed pc:libxml-2.0 pc:nettle pkgconfig
+origin	stoken
+repo	community
+file	stoken-dev-0.93-r0.apk
+checksum	Q1thyhPhF6bNenz9v1ReB+aMCza0I=
+dep	stoken=0.93-r0	stoken
+dep	pc:gmp	gmp-dev
+dep	pc:hogweed	nettle-dev
+dep	pc:libxml-2.0	libxml2-dev
+dep	pc:nettle	nettle-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	libplist-util
+version	2.7.0-r1
+description	Util for libplist
+url	https://libimobiledevice.org
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	6226
+installed-size	13484
+depends	so:libc.musl-armhf.so.1 so:libplist-2.0.so.4
+origin	libplist
+repo	community
+file	libplist-util-2.7.0-r1.apk
+checksum	Q1S7d1p7u65MICPGGS5E/tJqcfWRQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libplist-2.0.so.4	libplist

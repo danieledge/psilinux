@@ -1,0 +1,30 @@
+name	networkmanager-l2tp
+version	1.52.0-r0
+description	L2TP support for NetworkManager
+url	https://github.com/nm-l2tp/NetworkManager-l2tp
+license	GPL-2.0-only
+size	116426
+installed-size	356339
+depends	ppp xl2tpd strongswan so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libnm.so.0 so:libnma-gtk4.so.0 so:libnma.so.0 so:libnspr4.so so:libnss3.so so:libsecret-1.so.0 so:libsmime3.so
+origin	networkmanager-l2tp
+repo	community
+file	networkmanager-l2tp-1.52.0-r0.apk
+checksum	Q1QL+ZvdQ99/lxdOO42RNjhh93YUE=
+dep	ppp	ppp
+dep	xl2tpd	xl2tpd
+dep	strongswan	strongswan
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libnm.so.0	libnm
+dep	so:libnma-gtk4.so.0	libnma-gtk4
+dep	so:libnma.so.0	libnma
+dep	so:libnspr4.so	nspr
+dep	so:libnss3.so	nss
+dep	so:libsecret-1.so.0	libsecret
+dep	so:libsmime3.so	nss

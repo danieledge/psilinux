@@ -1,0 +1,13 @@
+name	emacs-circe
+version	2.14-r1
+description	Client for IRC in Emacs
+url	https://github.com/emacs-circe/circe
+license	GPL-3.0-or-later
+size	168806
+installed-size	686975
+depends	cmd:emacs
+origin	emacs-circe
+repo	community
+file	emacs-circe-2.14-r1.apk
+checksum	Q1mMtHt+D5QqgKzuE3eoko1Bwx5LI=
+dep	cmd:emacs	emacs-gtk3

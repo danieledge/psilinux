@@ -1,0 +1,17 @@
+name	conduit
+version	0.10.16-r0
+description	Simple, fast and reliable chat server powered by Matrix
+url	https://conduit.rs/
+license	Apache-2.0
+size	8154626
+installed-size	17450417
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:librocksdb.so.11.0 so:libsqlite3.so.0
+origin	conduit
+repo	community
+file	conduit-0.10.16-r0.apk
+checksum	Q1mFU79oicIyOYwhEMehJbBQSYpWY=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:librocksdb.so.11.0	rocksdb
+dep	so:libsqlite3.so.0	sqlite-libs

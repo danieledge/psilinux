@@ -1,0 +1,16 @@
+name	gtk-layer-shell-dev
+version	0.10.1-r0
+description	Create panels and other desktop components in Wayland using the Layer Shell protocol (development files)
+url	https://github.com/wmww/gtk-layer-shell
+license	LGPL-3.0-or-later AND MIT
+size	11583
+installed-size	55852
+depends	gtk-layer-shell=0.10.1-r0 pc:gtk+-3.0>=3.22.0 pc:wayland-client>=1.10.0 pkgconfig
+origin	gtk-layer-shell
+repo	community
+file	gtk-layer-shell-dev-0.10.1-r0.apk
+checksum	Q124Aqvc38x7oDV4H+EdurURe9p3o=
+dep	gtk-layer-shell=0.10.1-r0	gtk-layer-shell
+dep	pc:gtk+-3.0>=3.22.0	gtk+3.0-dev
+dep	pc:wayland-client>=1.10.0	wayland-dev
+dep	pkgconfig	pkgconf

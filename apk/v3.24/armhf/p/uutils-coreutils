@@ -1,0 +1,14 @@
+name	uutils-coreutils
+version	0.11.0-r1
+description	Rust rewrite of the GNU coreutils
+url	https://uutils.github.io/coreutils/
+license	MIT
+size	4743
+installed-size	1
+depends	uutils uutils=0.11.0-r1
+origin	uutils
+repo	community
+file	uutils-coreutils-0.11.0-r1.apk
+checksum	Q1B2A/jFq9iqe1FhsOombkbuhPWYQ=
+dep	uutils	uutils
+dep	uutils=0.11.0-r1	uutils

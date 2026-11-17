@@ -1,0 +1,18 @@
+name	pcre2-dev
+version	10.49-r0
+description	Perl-compatible regular expression library (development files)
+url	https://pcre.org/
+license	BSD-3-Clause
+size	17152
+installed-size	63232
+depends	libedit-dev zlib-dev libpcre2-16=10.49-r0 libpcre2-32=10.49-r0 pcre2=10.49-r0 pkgconfig
+origin	pcre2
+repo	main
+file	pcre2-dev-10.49-r0.apk
+checksum	Q1CY6LUdnASShkZfd3JZqZzI0T9HQ=
+dep	libedit-dev	libedit-dev
+dep	zlib-dev	zlib-dev
+dep	libpcre2-16=10.49-r0	libpcre2-16
+dep	libpcre2-32=10.49-r0	libpcre2-32
+dep	pcre2=10.49-r0	pcre2
+dep	pkgconfig	pkgconf

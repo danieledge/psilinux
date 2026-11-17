@@ -1,0 +1,22 @@
+name	libdatachannel
+version	0.24.3-r0
+description	C/C++ WebRTC network library featuring Data Channels, Media Transport, and WebSockets
+url	https://libdatachannel.org
+license	MPL-2.0
+size	829094
+installed-size	2451380
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libnice.so.10 so:libsrtp2.so.1 so:libssl.so.3 so:libstdc++.so.6 so:libusrsctp.so.2
+origin	libdatachannel
+repo	community
+file	libdatachannel-0.24.3-r0.apk
+checksum	Q1AaKpiU9NJKw9GhdGYaUGu1KLZj8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libnice.so.10	libnice
+dep	so:libsrtp2.so.1	libsrtp
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libusrsctp.so.2	libusrsctp

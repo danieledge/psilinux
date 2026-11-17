@@ -1,0 +1,23 @@
+name	gnome-software-dev
+version	50.3-r0
+description	Software lets you install and update applications and system extensions (development files)
+url	https://apps.gnome.org/Software
+license	GPL-2.0-or-later
+size	36153
+installed-size	170784
+depends	gnome-software-lib=50.3-r0 pc:appstream>=0.16.4 pc:gio-unix-2.0>=2.56.0 pc:glib-2.0>=2.76.0 pc:gmodule-2.0 pc:gtk4>=4.17.5 pc:json-glib-1.0>=1.6.0 pc:libsoup-3.0>=3.0 pc:polkit-gobject-1 pc:xmlb>=0.3.4 pkgconfig
+origin	gnome-software
+repo	community
+file	gnome-software-dev-50.3-r0.apk
+checksum	Q1PGSSglYhuX7uYV6ILFpJecyECL8=
+dep	gnome-software-lib=50.3-r0	gnome-software-lib
+dep	pc:appstream>=0.16.4	appstream-dev
+dep	pc:gio-unix-2.0>=2.56.0	glib-dev
+dep	pc:glib-2.0>=2.76.0	glib-dev
+dep	pc:gmodule-2.0	glib-dev
+dep	pc:gtk4>=4.17.5	gtk4.0-dev
+dep	pc:json-glib-1.0>=1.6.0	json-glib-dev
+dep	pc:libsoup-3.0>=3.0	libsoup3-dev
+dep	pc:polkit-gobject-1	polkit-dev
+dep	pc:xmlb>=0.3.4	libxmlb-dev
+dep	pkgconfig	pkgconf

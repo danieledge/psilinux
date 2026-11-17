@@ -1,0 +1,12 @@
+name	feedbackd-systemd
+version	0.8.9-r2
+description	Daemon to provide haptic, LED, and audio feedback triggered by application events (systemd files)
+url	https://gitlab.freedesktop.org/feedbackd/feedbackd
+license	GPL-3.0-or-later
+size	1803
+installed-size	213
+depends	
+origin	feedbackd
+repo	community
+file	feedbackd-systemd-0.8.9-r2.apk
+checksum	Q1KeAqQ7OMzSwEehUYjYpid9tCk0Q=

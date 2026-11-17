@@ -1,0 +1,14 @@
+name	wiggle
+version	1.3-r0
+description	Tool for applying patches with conflicts
+url	https://github.com/neilbrown/wiggle
+license	GPL-2.0-or-later
+size	47574
+installed-size	150520
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	wiggle
+repo	community
+file	wiggle-1.3-r0.apk
+checksum	Q1z/0Be7CCu03YpdETgzNj8TcaQ+g=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

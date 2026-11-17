@@ -1,0 +1,19 @@
+name	soqt-dev
+version	1.6.4-r1
+description	GUI binding library for coin (development files)
+url	https://github.com/coin3d/soqt
+license	BSD-3-Clause
+size	85873
+installed-size	1163355
+depends	soqt=1.6.4-r1 pc:Coin pc:Qt6Core pc:Qt6Gui pc:Qt6OpenGL pc:Qt6Widgets pkgconfig
+origin	soqt
+repo	community
+file	soqt-dev-1.6.4-r1.apk
+checksum	Q13QVMTP7cKyGRIZ7uPeZtYkyS3TY=
+dep	soqt=1.6.4-r1	soqt
+dep	pc:Coin	coin-dev
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pc:Qt6Gui	qt6-qtbase-dev
+dep	pc:Qt6OpenGL	qt6-qtbase-dev
+dep	pc:Qt6Widgets	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

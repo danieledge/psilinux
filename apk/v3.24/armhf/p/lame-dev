@@ -1,0 +1,14 @@
+name	lame-dev
+version	3.100-r5
+description	An MP3 encoder and graphical frame analyzer (development files)
+url	https://lame.sourceforge.net/
+license	LGPL-2.0-or-later
+size	161248
+installed-size	368736
+depends	lame-libs=3.100-r5 pkgconfig
+origin	lame
+repo	main
+file	lame-dev-3.100-r5.apk
+checksum	Q1srJeNq911pBbqdbAZeyy1lsm/XQ=
+dep	lame-libs=3.100-r5	lame-libs
+dep	pkgconfig	pkgconf

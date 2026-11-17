@@ -1,0 +1,17 @@
+name	hwloc-tools
+version	2.12.2-r0
+description	Portable hardware locality tools
+url	https://www.open-mpi.org/
+license	BSD-3-Clause
+size	197483
+installed-size	447530
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libhwloc.so.15 so:libncursesw.so.6
+origin	hwloc
+repo	main
+file	hwloc-tools-2.12.2-r0.apk
+checksum	Q1iWXSDIHeSlwU+wvjnfTK4w1rhAQ=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libhwloc.so.15	hwloc
+dep	so:libncursesw.so.6	libncursesw

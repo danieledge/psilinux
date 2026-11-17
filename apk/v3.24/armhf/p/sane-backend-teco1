@@ -1,0 +1,14 @@
+name	sane-backend-teco1
+version	1.4.0-r4
+description	SANE backend for TECO / RELISYS scanners
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	30095
+installed-size	60115
+depends	sane so:libc.musl-armhf.so.1
+origin	sane
+repo	community
+file	sane-backend-teco1-1.4.0-r4.apk
+checksum	Q1Alz8w9VZzholxxpkOZAtMSHQ0Kg=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl

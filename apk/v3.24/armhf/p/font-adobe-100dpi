@@ -1,0 +1,16 @@
+name	font-adobe-100dpi
+version	1.0.4-r2
+description	X.org adobe 100dpi font
+url	https://xorg.freedesktop.org/
+license	MIT
+size	6385543
+installed-size	6381246
+depends	encodings font-alias mkfontscale fontconfig
+origin	font-adobe-100dpi
+repo	main
+file	font-adobe-100dpi-1.0.4-r2.apk
+checksum	Q1g4uDdzUbIVZ0Dg3De7kpz5Jc7Dg=
+dep	encodings	encodings
+dep	font-alias	font-alias
+dep	mkfontscale	mkfontscale
+dep	fontconfig	fontconfig

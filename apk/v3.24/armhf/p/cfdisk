@@ -1,0 +1,17 @@
+name	cfdisk
+version	2.42.3-r1
+description	Curses based partition table manipulator from util-linux
+url	https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+license	GPL-2.0-or-later
+size	34202
+installed-size	71216
+depends	so:libc.musl-armhf.so.1 so:libfdisk.so.1 so:libmount.so.1 so:libncursesw.so.6 so:libsmartcols.so.1
+origin	util-linux
+repo	main
+file	cfdisk-2.42.3-r1.apk
+checksum	Q17Jot75TZdzc8+Vb5pWR3xRP2PKc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfdisk.so.1	libfdisk
+dep	so:libmount.so.1	libmount
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libsmartcols.so.1	libsmartcols

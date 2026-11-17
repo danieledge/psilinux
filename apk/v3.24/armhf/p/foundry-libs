@@ -1,0 +1,40 @@
+name	foundry-libs
+version	1.1.1-r0
+description	Companion command-line tool for IDE features of GNOME Builder (libraries)
+url	https://gitlab.gnome.org/GNOME/foundry
+license	LGPL-2.1-or-later
+size	1313695
+installed-size	3551798
+depends	flatpak-xdg-utils so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcmark.so.0.31.2 so:libdex-1.so.1 so:libeditorconfig.so.0 so:libflatpak.so.0 so:libgio-2.0.so.0 so:libgit2.so.1.9 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgom-1.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libgtksourceview-5.so.0 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libpanel-1.so.1 so:libpango-1.0.so.0 so:libpeas-2.so.0 so:libsecret-1.so.0 so:libsoup-3.0.so.0 so:libspelling-1.so.2 so:libtemplate_glib-1.0.so.0 so:libvte-2.91-gtk4.so.0 so:libwebkitgtk-6.0.so.4 so:libxml2.so.2 so:libyaml-0.so.2
+origin	foundry
+repo	community
+file	foundry-libs-1.1.1-r0.apk
+checksum	Q13lizm3mnAwX3EScVt2LzbNy/l1A=
+dep	flatpak-xdg-utils	flatpak-xdg-utils
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcmark.so.0.31.2	libcmark
+dep	so:libdex-1.so.1	libdex
+dep	so:libeditorconfig.so.0	libeditorconfig
+dep	so:libflatpak.so.0	flatpak-libs
+dep	so:libgio-2.0.so.0	glib
+dep	so:libgit2.so.1.9	libgit2
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgom-1.0.so.0	gom
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libgtksourceview-5.so.0	gtksourceview5
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libpanel-1.so.1	libpanel
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpeas-2.so.0	libpeas2
+dep	so:libsecret-1.so.0	libsecret
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libspelling-1.so.2	libspelling
+dep	so:libtemplate_glib-1.0.so.0	template-glib
+dep	so:libvte-2.91-gtk4.so.0	vte3-gtk4
+dep	so:libwebkitgtk-6.0.so.4	webkit2gtk-6.0
+dep	so:libxml2.so.2	libxml2
+dep	so:libyaml-0.so.2	yaml

@@ -1,0 +1,14 @@
+name	buildkit
+version	0.29.0-r3
+description	Concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit
+url	https://github.com/moby/buildkit
+license	Apache-2.0
+size	18338319
+installed-size	54865868
+depends	oci-runtime so:libc.musl-armhf.so.1
+origin	buildkit
+repo	community
+file	buildkit-0.29.0-r3.apk
+checksum	Q17kOfL3YyVPVduA1YzM2OpPNH7W4=
+dep	oci-runtime	crun
+dep	so:libc.musl-armhf.so.1	musl

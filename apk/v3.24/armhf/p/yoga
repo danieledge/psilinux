@@ -1,0 +1,15 @@
+name	yoga
+version	3.2.1-r0
+description	Embeddable layout engine targeting web standards
+url	https://github.com/facebook/yoga
+license	MIT
+size	157962
+installed-size	411112
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	yoga
+repo	community
+file	yoga-3.2.1-r0.apk
+checksum	Q1f0jtdW4CJ8vtFktBXZ2DacBaVNI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

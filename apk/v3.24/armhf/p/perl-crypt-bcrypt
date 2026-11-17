@@ -1,0 +1,14 @@
+name	perl-crypt-bcrypt
+version	0.011-r3
+description	Modern implementation of the bcrypt password hash
+url	https://metacpan.org/release/Crypt-Bcrypt/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	15907
+installed-size	27844
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-crypt-bcrypt
+repo	community
+file	perl-crypt-bcrypt-0.011-r3.apk
+checksum	Q1aM0s+B+fUGj+js4Tb20zgyPirvk=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

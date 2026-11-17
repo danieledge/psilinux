@@ -1,0 +1,21 @@
+name	poppler-qt5
+version	25.12.0-r1
+description	PDF rendering library based on xpdf 3.0 (qt5 component)
+url	https://poppler.freedesktop.org/
+license	GPL-2.0-only
+size	159731
+installed-size	427292
+depends	so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt5Xml.so.5 so:libc.musl-armhf.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:liblcms2.so.2 so:libpoppler.so.155 so:libstdc++.so.6
+origin	poppler-qt
+repo	community
+file	poppler-qt5-25.12.0-r1.apk
+checksum	Q15iVWXCoAHY79VjPkwvKP09i0jcw=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Gui.so.5	qt5-qtbase-x11
+dep	so:libQt5Xml.so.5	qt5-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblcms2.so.2	lcms2
+dep	so:libpoppler.so.155	poppler
+dep	so:libstdc++.so.6	libstdc++

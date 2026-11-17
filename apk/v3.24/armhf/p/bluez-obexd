@@ -1,0 +1,17 @@
+name	bluez-obexd
+version	5.86-r2
+description	Bluez OBEX daemon
+url	https://www.bluez.org/
+license	GPL-2.0-or-later AND BSD-2-Clause AND MIT
+size	119395
+installed-size	276057
+depends	dbus so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libglib-2.0.so.0 so:libicalvcal.so.3
+origin	bluez
+repo	main
+file	bluez-obexd-5.86-r2.apk
+checksum	Q1FAvZ+6Z8C/CwQGJkbXYgE76cI+U=
+dep	dbus	dbus
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libglib-2.0.so.0	glib
+dep	so:libicalvcal.so.3	libical

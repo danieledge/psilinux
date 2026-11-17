@@ -1,0 +1,13 @@
+name	enet
+version	1.3.18-r0
+description	Reliable UDP networking library
+url	http://enet.bespin.org
+license	MIT
+size	22528
+installed-size	42168
+depends	so:libc.musl-armhf.so.1
+origin	enet
+repo	community
+file	enet-1.3.18-r0.apk
+checksum	Q1YXXdEOMaIGZnCc83U3iCraU5DF0=
+dep	so:libc.musl-armhf.so.1	musl

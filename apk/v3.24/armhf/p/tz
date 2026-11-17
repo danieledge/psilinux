@@ -1,0 +1,14 @@
+name	tz
+version	0.8.0-r15
+description	interactive TUI program that displays time across a few time zones of your choosing
+url	https://github.com/oz/tz
+license	GPL-3.0-or-later
+size	1586619
+installed-size	4069772
+depends	tzdata so:libc.musl-armhf.so.1
+origin	tz
+repo	community
+file	tz-0.8.0-r15.apk
+checksum	Q101E6BvgcfT0XCHx1nt1PSc2egsw=
+dep	tzdata	tzdata
+dep	so:libc.musl-armhf.so.1	musl

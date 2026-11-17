@@ -1,0 +1,35 @@
+name	mate-panel
+version	1.28.2-r0
+description	The MATE panel is the area on your desktop from which you can run applications
+url	https://github.com/mate-desktop/mate-panel
+license	GPL-2.0-or-later AND LGPL-2.0-or-later
+size	989286
+installed-size	1831641
+depends	dconf-editor mate-common so:libICE.so.6 so:libSM.so.6 so:libX11.so.6 so:libXrandr.so.2 so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo-gobject.so.2 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libmate-desktop-2.so.17 so:libmate-menu.so.2 so:libmateweather.so.1 so:libpango-1.0.so.0 so:libwnck-3.so.0
+origin	mate-panel
+repo	community
+file	mate-panel-1.28.2-r0.apk
+checksum	Q1C+lstLu1y2y0poh7Kw9nqkngjOw=
+dep	dconf-editor	dconf-editor
+dep	mate-common	mate-common
+dep	so:libICE.so.6	libice
+dep	so:libSM.so.6	libsm
+dep	so:libX11.so.6	libx11
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo-gobject.so.2	cairo-gobject
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libmate-desktop-2.so.17	mate-desktop
+dep	so:libmate-menu.so.2	mate-menus
+dep	so:libmateweather.so.1	libmateweather
+dep	so:libpango-1.0.so.0	pango
+dep	so:libwnck-3.so.0	libwnck3

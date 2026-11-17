@@ -1,0 +1,13 @@
+name	raku-http-hpack
+version	1.0.3-r3
+description	HPACK header compression algorithm for HTTP/2
+url	https://github.com/raku-community-modules/HTTP-HPACK
+license	Artistic-2.0
+size	90103
+installed-size	345738
+depends	rakudo
+origin	raku-http-hpack
+repo	community
+file	raku-http-hpack-1.0.3-r3.apk
+checksum	Q1FFCqVp8bc7DavnRQ3NDh8SLsxiE=
+dep	rakudo	rakudo

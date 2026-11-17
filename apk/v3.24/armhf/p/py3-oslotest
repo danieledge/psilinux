@@ -1,0 +1,14 @@
+name	py3-oslotest
+version	4.5.0-r5
+description	Oslo test framework
+url	https://docs.openstack.org/oslotest/latest/
+license	Apache-2.0
+size	20133
+installed-size	68891
+depends	python3 python3~3.14
+origin	py3-oslotest
+repo	community
+file	py3-oslotest-4.5.0-r5.apk
+checksum	Q1cGxVLRF0KfL30nh3Eo3TN1CsLkg=
+dep	python3	python3
+dep	python3~3.14	python3

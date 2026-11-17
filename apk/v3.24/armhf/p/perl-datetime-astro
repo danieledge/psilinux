@@ -1,0 +1,17 @@
+name	perl-datetime-astro
+version	1.04-r1
+description	Functions for astronomical calendars
+url	https://metacpan.org/release/DateTime-Astro/
+license	Artistic-2.0
+size	34713
+installed-size	85620
+depends	perl perl-datetime perl-datetime-set so:libc.musl-armhf.so.1 so:libmpfr.so.6
+origin	perl-datetime-astro
+repo	community
+file	perl-datetime-astro-1.04-r1.apk
+checksum	Q1AUzGT1uldwwrdUxHLMlrVjkX1Vw=
+dep	perl	perl
+dep	perl-datetime	perl-datetime
+dep	perl-datetime-set	perl-datetime-set
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmpfr.so.6	mpfr4

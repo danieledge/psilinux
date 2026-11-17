@@ -1,0 +1,14 @@
+name	libeconf-dev
+version	0.8.3-r0
+description	Enhanced Config File Parser (development files)
+url	https://github.com/openSUSE/libeconf
+license	MIT
+size	10142
+installed-size	49304
+depends	libeconf=0.8.3-r0 pkgconfig
+origin	libeconf
+repo	main
+file	libeconf-dev-0.8.3-r0.apk
+checksum	Q1SmzKiSdHHtp8+LqG2v4ORZvS+ao=
+dep	libeconf=0.8.3-r0	libeconf
+dep	pkgconfig	pkgconf

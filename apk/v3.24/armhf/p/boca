@@ -1,0 +1,23 @@
+name	boca
+version	1.0.7-r2
+description	A component library used by the fre:ac audio converter
+url	https://github.com/enzo1982/boca
+license	GPL-2.0-or-later
+size	1625709
+installed-size	4238435
+depends	so:libc.musl-armhf.so.1 so:libcdio.so.19 so:libcdio_cdda.so.2 so:libcdio_paranoia.so.2 so:libexpat.so.1 so:libgcc_s.so.1 so:libpulse.so.0 so:libsmooth-0.9.so.0 so:libstdc++.so.6 so:liburiparser.so.1 so:libz.so.1
+origin	boca
+repo	community
+file	boca-1.0.7-r2.apk
+checksum	Q1jaWAZjkVJrMpkANda6QNMD+2Sy4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcdio.so.19	libcdio
+dep	so:libcdio_cdda.so.2	libcdio-paranoia
+dep	so:libcdio_paranoia.so.2	libcdio-paranoia
+dep	so:libexpat.so.1	libexpat
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpulse.so.0	libpulse
+dep	so:libsmooth-0.9.so.0	smooth
+dep	so:libstdc++.so.6	libstdc++
+dep	so:liburiparser.so.1	liburiparser
+dep	so:libz.so.1	zlib

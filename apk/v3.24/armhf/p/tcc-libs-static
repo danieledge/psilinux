@@ -1,0 +1,13 @@
+name	tcc-libs-static
+version	0.9.27_git20250619-r1
+description	Tiny C Compiler (static library)
+url	https://repo.or.cz/w/tinycc.git
+license	LGPL-2.1-or-later
+size	10914
+installed-size	39772
+depends	tcc-dev
+origin	tcc
+repo	community
+file	tcc-libs-static-0.9.27_git20250619-r1.apk
+checksum	Q1fy9P8nMGN6Z+yBYqGM/y/d4TzI0=
+dep	tcc-dev	tcc-dev

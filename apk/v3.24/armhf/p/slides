@@ -1,0 +1,13 @@
+name	slides
+version	0.9.0-r34
+description	Terminal based presentation tool
+url	http://maaslalani.com/slides
+license	MIT
+size	6627825
+installed-size	19832260
+depends	so:libc.musl-armhf.so.1
+origin	slides
+repo	community
+file	slides-0.9.0-r34.apk
+checksum	Q1CyCsn+UkR1fKVVLc7DKWE8dioes=
+dep	so:libc.musl-armhf.so.1	musl

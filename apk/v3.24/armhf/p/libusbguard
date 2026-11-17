@@ -1,0 +1,22 @@
+name	libusbguard
+version	1.1.4-r1
+description	Software framework for implementing USB device authorization policies (libraries)
+url	https://usbguard.github.io/
+license	GPL-2.0-or-later
+size	294864
+installed-size	963536
+depends	so:libabsl_log_internal_check_op.so.2508.0.0 so:libabsl_log_internal_message.so.2508.0.0 so:libabsl_log_internal_nullguard.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libprotobuf.so.31 so:libqb.so.100 so:libsodium.so.26 so:libstdc++.so.6 so:libutf8_range.so.31.1.0
+origin	usbguard
+repo	community
+file	libusbguard-1.1.4-r1.apk
+checksum	Q1z34mELDE+brlOAK2puQ5+Al5zME=
+dep	so:libabsl_log_internal_check_op.so.2508.0.0	abseil-cpp-log-internal-check-op
+dep	so:libabsl_log_internal_message.so.2508.0.0	abseil-cpp-log-internal-message
+dep	so:libabsl_log_internal_nullguard.so.2508.0.0	abseil-cpp-log-internal-nullguard
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libprotobuf.so.31	libprotobuf
+dep	so:libqb.so.100	libqb
+dep	so:libsodium.so.26	libsodium
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libutf8_range.so.31.1.0	protobuf

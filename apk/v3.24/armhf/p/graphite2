@@ -1,0 +1,14 @@
+name	graphite2
+version	1.3.14-r6
+description	reimplementation of the SIL Graphite text processing engine
+url	https://graphite.sil.org/
+license	LGPL-2.1-or-later OR MPL-1.1
+size	56334
+installed-size	99608
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	graphite2
+repo	main
+file	graphite2-1.3.14-r6.apk
+checksum	Q1mF/nbeMrb16Oe19NmbR/1SZQyfI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,12 @@
+name	openrc-dbg
+version	0.63.2-r0
+description	OpenRC manages the services, startup and shutdown of a host (debug symbols)
+url	https://github.com/OpenRC/openrc
+license	BSD-2-Clause
+size	529270
+installed-size	1930292
+depends	!openrc-init<0.63.2-r0 !openrc-init>0.63.2-r0 !openrc-user-pam<0.63.2-r0 !openrc-user-pam>0.63.2-r0 !openrc-user<0.63.2-r0 !openrc-user>0.63.2-r0 !openrc<0.63.2-r0 !openrc>0.63.2-r0
+origin	openrc
+repo	main
+file	openrc-dbg-0.63.2-r0.apk
+checksum	Q10yo+2NrFSj2vtlGnDLF24e+c3ec=

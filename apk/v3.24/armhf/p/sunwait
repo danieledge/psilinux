@@ -1,0 +1,14 @@
+name	sunwait
+version	0.8-r1
+description	Sunwait calculates sunrise or sunset times with civil, nautical, astronomical and custom twilights.
+url	https://sourceforge.net/projects/sunwait4windows/
+license	GPL-3.0-only
+size	15805
+installed-size	38280
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	sunwait
+repo	community
+file	sunwait-0.8-r1.apk
+checksum	Q1kgXrHqABfRnt24RUivoIvFE2Fdg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

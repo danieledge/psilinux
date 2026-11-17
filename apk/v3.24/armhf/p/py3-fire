@@ -1,0 +1,14 @@
+name	py3-fire
+version	0.7.1-r1
+description	A library for automatically generating command line interfaces
+url	https://github.com/google/python-fire
+license	Apache-2.0
+size	92069
+installed-size	379062
+depends	py3-termcolor python3~3.14
+origin	py3-fire
+repo	community
+file	py3-fire-0.7.1-r1.apk
+checksum	Q18W4wwlGxxCNk21ehReM8er95JMY=
+dep	py3-termcolor	py3-termcolor
+dep	python3~3.14	python3

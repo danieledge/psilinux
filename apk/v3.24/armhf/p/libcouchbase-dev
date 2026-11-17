@@ -1,0 +1,16 @@
+name	libcouchbase-dev
+version	3.3.18-r0
+description	C client library for Couchbase (development files)
+url	https://developer.couchbase.com/community
+license	Apache-2.0
+size	110523
+installed-size	450109
+depends	openssl-dev>3 snappy-dev libcouchbase=3.3.18-r0 pkgconfig
+origin	libcouchbase
+repo	community
+file	libcouchbase-dev-3.3.18-r0.apk
+checksum	Q19n6MDcwgbQgK562lbhZUZmDJIAI=
+dep	openssl-dev>3	openssl-dev
+dep	snappy-dev	snappy-dev
+dep	libcouchbase=3.3.18-r0	libcouchbase
+dep	pkgconfig	pkgconf

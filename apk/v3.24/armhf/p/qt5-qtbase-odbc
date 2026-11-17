@@ -1,0 +1,18 @@
+name	qt5-qtbase-odbc
+version	5.15.18_git20251101-r0
+description	ODBC driver for Qt5's SQL classes
+url	https://qt.io/developers/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	31100
+installed-size	70996
+depends	so:libQt5Core.so.5 so:libQt5Sql.so.5 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libodbc.so.2 so:libstdc++.so.6
+origin	qt5-qtbase
+repo	community
+file	qt5-qtbase-odbc-5.15.18_git20251101-r0.apk
+checksum	Q1S9cApcvtozlxyuqHr6U0RmN8e3o=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Sql.so.5	qt5-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libodbc.so.2	unixodbc
+dep	so:libstdc++.so.6	libstdc++

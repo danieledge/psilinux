@@ -1,0 +1,49 @@
+name	strawberry
+version	1.2.19-r1
+description	Strawberry Music Player
+url	https://strawberrymusicplayer.org
+license	GPL-3.0-or-later
+size	8179298
+installed-size	14155534
+depends	gst-plugins-base gst-plugins-good qt6-qtbase-sqlite icu-data-full so:libQt6Concurrent.so.6 so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6Sql.so.6 so:libQt6Widgets.so.6 so:libX11.so.6 so:libasound.so.2 so:libc.musl-armhf.so.1 so:libcdio.so.19 so:libchromaprint.so.1 so:libebur128.so.1 so:libfftw3.so.3 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgpod.so.4 so:libgstapp-1.0.so.0 so:libgstaudio-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgsttag-1.0.so.0 so:libicui18n.so.78 so:libicuuc.so.78 so:libkdsingleapplication-qt6.so.1.1 so:libmtp.so.9 so:libpulse.so.0 so:libsqlite3.so.0 so:libstdc++.so.6 so:libtag.so.2
+origin	strawberry
+repo	community
+file	strawberry-1.2.19-r1.apk
+checksum	Q16DoTG8GqMKq1EanPojdiqJMhwp4=
+dep	gst-plugins-base	gst-plugins-base
+dep	gst-plugins-good	gst-plugins-good
+dep	qt6-qtbase-sqlite	qt6-qtbase-sqlite
+dep	icu-data-full	icu-data-full
+dep	so:libQt6Concurrent.so.6	qt6-qtbase
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6DBus.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6Sql.so.6	qt6-qtbase
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libX11.so.6	libx11
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcdio.so.19	libcdio
+dep	so:libchromaprint.so.1	chromaprint-libs
+dep	so:libebur128.so.1	libebur128
+dep	so:libfftw3.so.3	fftw-double-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgpod.so.4	libgpod
+dep	so:libgstapp-1.0.so.0	gst-plugins-base
+dep	so:libgstaudio-1.0.so.0	gst-plugins-base
+dep	so:libgstpbutils-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgsttag-1.0.so.0	gst-plugins-base
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libkdsingleapplication-qt6.so.1.1	kdsingleapplication
+dep	so:libmtp.so.9	libmtp
+dep	so:libpulse.so.0	libpulse
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtag.so.2	libtag

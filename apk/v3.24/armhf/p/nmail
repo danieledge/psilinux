@@ -1,0 +1,27 @@
+name	nmail
+version	5.12.6-r0
+description	Terminal-based email client
+url	https://github.com/d99kris/nmail
+license	MIT
+size	481164
+installed-size	1252735
+depends	bash cyrus-sasl-login w3m so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libetpan.so.20 so:libgcc_s.so.1 so:libmagic.so.1 so:libncursesw.so.6 so:libsasl2.so.3 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libuuid.so.1 so:libxapian.so.45
+origin	nmail
+repo	community
+file	nmail-5.12.6-r0.apk
+checksum	Q194XUD81zYjm0/hYwBDC5vuauBf0=
+dep	bash	bash
+dep	cyrus-sasl-login	cyrus-sasl-login
+dep	w3m	w3m
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libetpan.so.20	libetpan
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmagic.so.1	libmagic
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libsasl2.so.3	libsasl
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libuuid.so.1	libuuid
+dep	so:libxapian.so.45	libxapian

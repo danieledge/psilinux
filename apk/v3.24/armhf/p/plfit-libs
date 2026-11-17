@@ -1,0 +1,13 @@
+name	plfit-libs
+version	1.0.1-r1
+description	Fit power-law distributions to empirical data (libraries)
+url	https://github.com/ntamas/plfit
+license	GPL-2.0-or-later
+size	28437
+installed-size	54568
+depends	so:libc.musl-armhf.so.1
+origin	plfit
+repo	community
+file	plfit-libs-1.0.1-r1.apk
+checksum	Q1ZK4bKZn0qcj4SUBLSj2S/szcPJg=
+dep	so:libc.musl-armhf.so.1	musl

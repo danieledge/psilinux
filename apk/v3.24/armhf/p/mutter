@@ -1,0 +1,67 @@
+name	mutter
+version	50.2-r1
+description	clutter-based window manager and compositor
+url	https://gitlab.gnome.org/GNOME/mutter
+license	GPL-2.0-or-later
+size	2074340
+installed-size	8554032
+depends	gnome-settings-daemon gsettings-desktop-schemas mutter-schemas xkeyboard-config so:libEGL.so.1 so:libGL.so.1 so:libGLESv2.so.2 so:libX11-xcb.so.1 so:libX11.so.6 so:libXau.so.6 so:libXcomposite.so.1 so:libXcursor.so.1 so:libXext.so.6 so:libXfixes.so.3 so:libXi.so.6 so:libXinerama.so.1 so:libXrandr.so.2 so:libadwaita-1.so.0 so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcanberra.so.0 so:libcolord.so.2 so:libdisplay-info.so.3 so:libdrm.so.2 so:libei.so.1 so:libeis.so.1 so:libelogind.so.0 so:libfribidi.so.0 so:libgbm.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libglycin-2.so.0 so:libgmodule-2.0.so.0 so:libgnome-desktop-4.so.2 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libgudev-1.0.so.0 so:libharfbuzz.so.0 so:libinput.so.10 so:libintl.so.8 so:liblcms2.so.2 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpipewire-0.3.so.0 so:libpixman-1.so.0 so:libstartup-notification-1.so.0 so:libudev.so.1 so:libwacom.so.9 so:libwayland-server.so.0 so:libxcb-res.so.0 so:libxcb.so.1 so:libxkbcommon.so.0 so:libxkbregistry.so.0
+origin	mutter
+repo	community
+file	mutter-50.2-r1.apk
+checksum	Q1hLKoNvOaxi8IW8z09DMS6cRowZI=
+dep	gnome-settings-daemon	gnome-settings-daemon
+dep	gsettings-desktop-schemas	gsettings-desktop-schemas
+dep	mutter-schemas	mutter-schemas
+dep	xkeyboard-config	xkeyboard-config
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libGL.so.1	mesa-gl
+dep	so:libGLESv2.so.2	mesa-gles
+dep	so:libX11-xcb.so.1	libx11
+dep	so:libX11.so.6	libx11
+dep	so:libXau.so.6	libxau
+dep	so:libXcomposite.so.1	libxcomposite
+dep	so:libXcursor.so.1	libxcursor
+dep	so:libXext.so.6	libxext
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXi.so.6	libxi
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcanberra.so.0	libcanberra
+dep	so:libcolord.so.2	libcolord
+dep	so:libdisplay-info.so.3	libdisplay-info
+dep	so:libdrm.so.2	libdrm
+dep	so:libei.so.1	libei
+dep	so:libeis.so.1	libeis
+dep	so:libelogind.so.0	libelogind
+dep	so:libfribidi.so.0	fribidi
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libglycin-2.so.0	libglycin
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgnome-desktop-4.so.2	libgnome-desktop-4
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libgudev-1.0.so.0	libgudev
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:libinput.so.10	libinput-libs
+dep	so:libintl.so.8	libintl
+dep	so:liblcms2.so.2	lcms2
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpipewire-0.3.so.0	pipewire-libs
+dep	so:libpixman-1.so.0	pixman
+dep	so:libstartup-notification-1.so.0	startup-notification
+dep	so:libudev.so.1	eudev-libs
+dep	so:libwacom.so.9	libwacom
+dep	so:libwayland-server.so.0	wayland-libs-server
+dep	so:libxcb-res.so.0	libxcb
+dep	so:libxcb.so.1	libxcb
+dep	so:libxkbcommon.so.0	libxkbcommon
+dep	so:libxkbregistry.so.0	libxkbcommon

@@ -1,0 +1,14 @@
+name	iotop-c
+version	1.31-r0
+description	simple top-like I/O monitor (implemented in C)
+url	https://github.com/Tomas-M/iotop
+license	GPL-2.0-or-later
+size	44934
+installed-size	93716
+depends	!iotop so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	iotop-c
+repo	community
+file	iotop-c-1.31-r0.apk
+checksum	Q1kFxDJotwuuhFPA3qlxIeLMdONv8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

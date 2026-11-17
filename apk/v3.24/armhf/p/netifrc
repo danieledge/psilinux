@@ -1,0 +1,13 @@
+name	netifrc
+version	0.7.14-r0
+description	Gentoo Network Interface Management Scripts
+url	https://gitweb.gentoo.org/proj/netifrc.git/
+license	BSD-2-Clause
+size	49311
+installed-size	165603
+depends	udev
+origin	netifrc
+repo	community
+file	netifrc-0.7.14-r0.apk
+checksum	Q1G7Cc2KgVllLPXzFlZcPmyRTEAh4=
+dep	udev	eudev

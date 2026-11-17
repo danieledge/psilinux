@@ -1,0 +1,14 @@
+name	mdadm
+version	4.3-r3
+description	a tool for managing Linux Software RAID arrays
+url	https://raid.wiki.kernel.org/index.php/A_guide_to_mdadm
+license	GPL-2.0-only
+size	454261
+installed-size	902763
+depends	lsblk so:libc.musl-armhf.so.1
+origin	mdadm
+repo	main
+file	mdadm-4.3-r3.apk
+checksum	Q1VF8cJrl0jk/hu97xuHmAIrrjZlo=
+dep	lsblk	lsblk
+dep	so:libc.musl-armhf.so.1	musl

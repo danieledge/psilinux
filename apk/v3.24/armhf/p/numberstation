@@ -1,0 +1,18 @@
+name	numberstation
+version	1.4.0-r0
+description	TOTP Authentication application for mobile
+url	https://git.sr.ht/~martijnbraam/numberstation
+license	GPL-3.0-or-later
+size	19141
+installed-size	101853
+depends	gtk+3.0 libhandy1 py3-gobject3 py3-keyring py3-otp python3
+origin	numberstation
+repo	community
+file	numberstation-1.4.0-r0.apk
+checksum	Q1uLIIQJPrPobobVnZ1SeJcPXINQA=
+dep	gtk+3.0	gtk+3.0
+dep	libhandy1	libhandy1
+dep	py3-gobject3	py3-gobject3
+dep	py3-keyring	py3-keyring
+dep	py3-otp	py3-otp
+dep	python3	python3

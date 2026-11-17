@@ -1,0 +1,17 @@
+name	sems-dsm
+version	2.1.0-r0
+description	The state machine interpreter for SEMS
+url	https://github.com/sems-server/sems/
+license	GPL-2.0-or-later
+size	619867
+installed-size	1728186
+depends	sems so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpython3.14.so.1.0 so:libstdc++.so.6
+origin	sems
+repo	community
+file	sems-dsm-2.1.0-r0.apk
+checksum	Q1KZWUeYf9CBMzWBmdt+kMczy8PCU=
+dep	sems	sems
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpython3.14.so.1.0	python3
+dep	so:libstdc++.so.6	libstdc++

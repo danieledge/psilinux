@@ -1,0 +1,19 @@
+name	xdpyinfo
+version	1.4.0-r0
+description	display information utility for X
+url	https://xorg.freedesktop.org/
+license	custom
+size	10918
+installed-size	21992
+depends	so:libX11-xcb.so.1 so:libX11.so.6 so:libXext.so.6 so:libXi.so.6 so:libXtst.so.6 so:libc.musl-armhf.so.1 so:libxcb.so.1
+origin	xdpyinfo
+repo	community
+file	xdpyinfo-1.4.0-r0.apk
+checksum	Q1Sgg7Ud80vqkHQnbgGF70bnxHa+M=
+dep	so:libX11-xcb.so.1	libx11
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXi.so.6	libxi
+dep	so:libXtst.so.6	libxtst
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxcb.so.1	libxcb

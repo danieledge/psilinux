@@ -1,0 +1,17 @@
+name	ruby-sqlite3
+version	2.9.4-r0
+description	Ruby bindings for SQLite3
+url	https://rubygems.org/gems/sqlite3
+license	BSD-3-Clause
+size	56063
+installed-size	145552
+depends	ruby ruby-mini_portile2 so:libc.musl-armhf.so.1 so:libruby.so.3.4 so:libsqlite3.so.0
+origin	ruby-sqlite3
+repo	community
+file	ruby-sqlite3-2.9.4-r0.apk
+checksum	Q14NDIdYu9Q/AT+SmRrnySxvbD91Q=
+dep	ruby	ruby
+dep	ruby-mini_portile2	ruby-mini_portile2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libruby.so.3.4	ruby-libs
+dep	so:libsqlite3.so.0	sqlite-libs

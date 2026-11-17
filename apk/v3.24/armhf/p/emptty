@@ -1,0 +1,14 @@
+name	emptty
+version	0.16.1-r4
+description	Dead simple CLI Display Manager on TTY
+url	https://github.com/tvrzna/emptty
+license	MIT
+size	1530503
+installed-size	3846334
+depends	so:libc.musl-armhf.so.1 so:libpam.so.0
+origin	emptty
+repo	community
+file	emptty-0.16.1-r4.apk
+checksum	Q13Guao0zpGrkulJIClE9q816RUbE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpam.so.0	linux-pam

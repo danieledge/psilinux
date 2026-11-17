@@ -1,0 +1,18 @@
+name	acf-weblog
+version	0.11.1-r4
+description	ACF for web proxy (squid and dansguardian) logfiles
+url	https://gitlab.alpinelinux.org/acf/acf-weblog
+license	GPL-2.0-only
+size	24267
+installed-size	94852
+depends	acf-core lua-sql-postgres wget postgresql-client lua-subprocess /bin/sh
+origin	acf-weblog
+repo	main
+file	acf-weblog-0.11.1-r4.apk
+checksum	Q1nXuClgwUdFoLINe+in7i65coZMk=
+dep	acf-core	acf-core
+dep	lua-sql-postgres	lua-sql-postgres
+dep	wget	wget
+dep	postgresql-client	postgresql18-client
+dep	lua-subprocess	lua-subprocess
+dep	/bin/sh	busybox-binsh

@@ -1,0 +1,13 @@
+name	godap
+version	2.11.0-r5
+description	A complete TUI for LDAP
+url	https://github.com/Macmod/godap
+license	MIT
+size	4729390
+installed-size	12386972
+depends	so:libc.musl-armhf.so.1
+origin	godap
+repo	community
+file	godap-2.11.0-r5.apk
+checksum	Q16siGmb8B9OCLxsJLakNmoFb062k=
+dep	so:libc.musl-armhf.so.1	musl

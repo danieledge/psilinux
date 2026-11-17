@@ -1,0 +1,15 @@
+name	rdma-core-libs
+version	61.0-r0
+description	RDMA core userspace libraries and daemons (libraries)
+url	https://github.com/linux-rdma/rdma-core
+license	GPL-2.0-only OR BSD-2-Clause
+size	171901
+installed-size	386144
+depends	so:libc.musl-armhf.so.1 so:libnl-3.so.200 so:libnl-route-3.so.200
+origin	rdma-core
+repo	community
+file	rdma-core-libs-61.0-r0.apk
+checksum	Q1v+3o0QjpTziI4xJHDglXv8QAv28=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnl-3.so.200	libnl3
+dep	so:libnl-route-3.so.200	libnl3

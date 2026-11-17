@@ -1,0 +1,12 @@
+name	lpac-dbg
+version	2.3.0-r0
+description	C-based eUICC LPA (debug symbols)
+url	https://github.com/estkme-group/lpac
+license	AGPL-3.0-only AND LGPL-2.0-only AND MIT
+size	184365
+installed-size	466004
+depends	!lpac<2.3.0-r0 !lpac>2.3.0-r0
+origin	lpac
+repo	community
+file	lpac-dbg-2.3.0-r0.apk
+checksum	Q1n8GrgjzxIoirUGNCcxJChCOK2t4=

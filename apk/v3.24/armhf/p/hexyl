@@ -1,0 +1,14 @@
+name	hexyl
+version	0.17.0-r0
+description	Command-line hex viewer with colored output
+url	https://github.com/sharkdp/hexyl
+license	MIT OR Apache-2.0
+size	387394
+installed-size	761668
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	hexyl
+repo	community
+file	hexyl-0.17.0-r0.apk
+checksum	Q1a7ubY4hs8p7VGsWnzKrIy4gtS90=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

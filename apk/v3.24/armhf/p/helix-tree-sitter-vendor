@@ -1,0 +1,15 @@
+name	helix-tree-sitter-vendor
+version	25.07.1-r3
+description	A post-modern modal text editor
+url	https://helix-editor.com/
+license	MPL-2.0
+size	20111785
+installed-size	194385414
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	helix
+repo	community
+file	helix-tree-sitter-vendor-25.07.1-r3.apk
+checksum	Q14KMjFPwBe3TcoocLG70JoQ4cIVc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

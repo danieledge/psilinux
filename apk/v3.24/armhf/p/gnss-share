@@ -1,0 +1,13 @@
+name	gnss-share
+version	0.8.2-r21
+description	GNSS location provider, supporting multiple concurrent clients
+url	https://gitlab.postmarketos.org/postmarketOS/gnss-share
+license	GPL-3.0-or-later
+size	1461797
+installed-size	3564875
+depends	so:libc.musl-armhf.so.1
+origin	gnss-share
+repo	community
+file	gnss-share-0.8.2-r21.apk
+checksum	Q1zFI3sW3SZHOl/N79nB1/SMiimr8=
+dep	so:libc.musl-armhf.so.1	musl

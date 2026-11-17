@@ -1,0 +1,14 @@
+name	openldap-back-lload
+version	2.6.15-r0
+description	OpenLDAP load balancer backend (module)
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	100360
+installed-size	232449
+depends	so:libc.musl-armhf.so.1 so:libevent-2.1.so.7
+origin	openldap
+repo	main
+file	openldap-back-lload-2.6.15-r0.apk
+checksum	Q10wzZBpZaGlwWZrCAYvsreiW3hc8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevent-2.1.so.7	libevent

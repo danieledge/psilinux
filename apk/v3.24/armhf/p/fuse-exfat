@@ -1,0 +1,14 @@
+name	fuse-exfat
+version	1.4.0-r2
+description	Free exFAT file system implementation
+url	https://github.com/relan/exfat
+license	GPL-2.0-or-later
+size	24380
+installed-size	46612
+depends	so:libc.musl-armhf.so.1 so:libfuse3.so.4
+origin	fuse-exfat
+repo	community
+file	fuse-exfat-1.4.0-r2.apk
+checksum	Q1mpiQCr737JS7gnqXeM12hOb5KKA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfuse3.so.4	fuse3-libs

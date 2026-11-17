@@ -1,0 +1,15 @@
+name	collectd-modbus
+version	5.12.0-r25
+description	modbus pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	8567
+installed-size	17528
+depends	collectd so:libc.musl-armhf.so.1 so:libmodbus.so.5
+origin	collectd
+repo	community
+file	collectd-modbus-5.12.0-r25.apk
+checksum	Q1V/00VWwuUtnSE/CSUbjnkRd/D3w=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmodbus.so.5	libmodbus

@@ -1,0 +1,14 @@
+name	rustypaste-cli
+version	0.9.3-r0
+description	CLI tool for rustypaste
+url	https://github.com/orhun/rustypaste-cli
+license	MIT
+size	834349
+installed-size	1639088
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	rustypaste-cli
+repo	community
+file	rustypaste-cli-0.9.3-r0.apk
+checksum	Q1nKopV4X04Cw0tgGBLSRvJ2lMr38=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

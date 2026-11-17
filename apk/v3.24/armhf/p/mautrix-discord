@@ -1,0 +1,17 @@
+name	mautrix-discord
+version	0.7.6-r5
+description	Matrix-Discord puppeting bridge
+url	https://go.mau.fi/mautrix-discord/
+license	AGPL-3.0-or-later
+size	6754731
+installed-size	17885863
+depends	lottieconverter /bin/sh so:libc.musl-armhf.so.1 so:libolm.so.3 so:libsqlite3.so.0
+origin	mautrix-discord
+repo	community
+file	mautrix-discord-0.7.6-r5.apk
+checksum	Q1e6FkUldRQsMaegYqjTFuR5qdW6I=
+dep	lottieconverter	lottieconverter
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libolm.so.3	olm
+dep	so:libsqlite3.so.0	sqlite-libs

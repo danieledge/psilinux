@@ -1,0 +1,15 @@
+name	perl-convert-uulib
+version	1.8-r6
+description	Perl module for Convert-UUlib
+url	https://metacpan.org/release/Convert-UUlib/
+license	(GPL-1.0-or-later OR Artistic-1.0-Perl) AND GPL-2.0-or-later AND Zlib
+size	101615
+installed-size	266544
+depends	perl perl-common-sense so:libc.musl-armhf.so.1
+origin	perl-convert-uulib
+repo	main
+file	perl-convert-uulib-1.8-r6.apk
+checksum	Q1ib5LTvpblH9eRfQpVh/Aqb6jsOo=
+dep	perl	perl
+dep	perl-common-sense	perl-common-sense
+dep	so:libc.musl-armhf.so.1	musl

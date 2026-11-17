@@ -1,0 +1,14 @@
+name	netcf-dev
+version	0.2.8-r14
+description	Cross-platform network configuration library (development files)
+url	https://fedorahosted.org/released/netcf
+license	LGPL-2.1-or-later
+size	44353
+installed-size	120392
+depends	netcf-libs=0.2.8-r14 pkgconfig
+origin	netcf
+repo	main
+file	netcf-dev-0.2.8-r14.apk
+checksum	Q1OiSQWkntzngT+Qhfw23FpJaNwKU=
+dep	netcf-libs=0.2.8-r14	netcf-libs
+dep	pkgconfig	pkgconf

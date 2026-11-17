@@ -1,0 +1,16 @@
+name	php83-dev
+version	8.3.36-r0
+description	The PHP83 language runtime engine (development files)
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	1015872
+installed-size	6133403
+depends	php83=8.3.36-r0 autoconf pcre2-dev re2c
+origin	php83
+repo	community
+file	php83-dev-8.3.36-r0.apk
+checksum	Q1BQXidGg0fAQwVXYW33RKxnADTVU=
+dep	php83=8.3.36-r0	php83
+dep	autoconf	autoconf
+dep	pcre2-dev	pcre2-dev
+dep	re2c	re2c

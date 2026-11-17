@@ -1,0 +1,15 @@
+name	py3-slack-sdk
+version	3.41.0-r0
+description	The Slack API Platform SDK for Python
+url	https://pypi.python.org/project/slack_sdk
+license	MIT
+size	259204
+installed-size	1610446
+depends	py3-aiohttp py3-aiodns python3~3.14
+origin	py3-slack-sdk
+repo	community
+file	py3-slack-sdk-3.41.0-r0.apk
+checksum	Q1RrzTxttVdLVleXZqzs9B8cjl/1o=
+dep	py3-aiohttp	py3-aiohttp
+dep	py3-aiodns	py3-aiodns
+dep	python3~3.14	python3

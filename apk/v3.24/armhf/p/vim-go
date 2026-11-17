@@ -1,0 +1,16 @@
+name	vim-go
+version	1.28-r14
+description	Go development plugin for Vim
+url	https://github.com/fatih/vim-go
+license	BSD-3-Clause
+size	191024
+installed-size	710201
+depends	vim go gopls git
+origin	vim-go
+repo	community
+file	vim-go-1.28-r14.apk
+checksum	Q1vKzfJxhfarcVFia/0uH4ZJbiym4=
+dep	vim	vim
+dep	go	go
+dep	gopls	gopls
+dep	git	git

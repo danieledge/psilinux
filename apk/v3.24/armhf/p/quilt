@@ -1,0 +1,18 @@
+name	quilt
+version	0.69-r1
+description	Easily manage large numbers of patches
+url	https://savannah.nongnu.org/projects/quilt
+license	GPL-2.0-only
+size	62671
+installed-size	206174
+depends	bash bzip2 diffutils gawk gettext patch
+origin	quilt
+repo	community
+file	quilt-0.69-r1.apk
+checksum	Q1ERn3BrOvQh2HFxFZ9RoVpGV9p98=
+dep	bash	bash
+dep	bzip2	bzip2
+dep	diffutils	diffutils
+dep	gawk	gawk
+dep	gettext	gettext
+dep	patch	patch

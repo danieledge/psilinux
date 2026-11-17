@@ -1,0 +1,17 @@
+name	lsblk
+version	2.42.3-r1
+description	Block device list tool from util-linux
+url	https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+license	GPL-2.0-or-later
+size	59384
+installed-size	128388
+depends	so:libblkid.so.1 so:libc.musl-armhf.so.1 so:libmount.so.1 so:libncursesw.so.6 so:libsmartcols.so.1
+origin	util-linux
+repo	main
+file	lsblk-2.42.3-r1.apk
+checksum	Q1Yj4drvudofDbdIFLwHVzsi1CcH0=
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmount.so.1	libmount
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libsmartcols.so.1	libsmartcols

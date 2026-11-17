@@ -1,0 +1,14 @@
+name	nextcloud32-files_sharing
+version	32.0.15-r0
+description	Nextcloud File sharing app
+url	https://nextcloud.com/
+license	AGPL-3.0-only
+size	882655
+installed-size	4184188
+depends	nextcloud32 nextcloud32-federatedfilesharing
+origin	nextcloud32
+repo	community
+file	nextcloud32-files_sharing-32.0.15-r0.apk
+checksum	Q1GL296RIBNuQxA/s0mvnkPXxDhyk=
+dep	nextcloud32	nextcloud32
+dep	nextcloud32-federatedfilesharing	nextcloud32

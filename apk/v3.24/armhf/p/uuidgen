@@ -1,0 +1,14 @@
+name	uuidgen
+version	2.42.3-r1
+description	UUID generator from util-linux
+url	https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+license	GPL-1.0-only
+size	6474
+installed-size	13644
+depends	so:libc.musl-armhf.so.1 so:libuuid.so.1
+origin	util-linux
+repo	main
+file	uuidgen-2.42.3-r1.apk
+checksum	Q1n0wtzyaLYaf8hO9cLGNL33c0Nxw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libuuid.so.1	libuuid

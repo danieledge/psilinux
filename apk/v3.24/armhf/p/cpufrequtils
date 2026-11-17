@@ -1,0 +1,14 @@
+name	cpufrequtils
+version	008-r7
+description	Userspace tools for the kernel cpufreq subsystem
+url	https://www.kernel.org/pub/linux/utils/kernel/cpufreq/
+license	GPL-2.0-only
+size	17640
+installed-size	46000
+depends	sysfsutils so:libc.musl-armhf.so.1
+origin	cpufrequtils
+repo	community
+file	cpufrequtils-008-r7.apk
+checksum	Q1AKwDjKcpK4WYnXxdzQj4GFhWBIY=
+dep	sysfsutils	sysfsutils
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	perl-text-aspell
+version	0.09-r10
+description	Perl interface to the GNU Aspell library
+url	https://metacpan.org/release/Text-Aspell
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	14952
+installed-size	36859
+depends	so:libaspell.so.15 so:libc.musl-armhf.so.1
+origin	perl-text-aspell
+repo	community
+file	perl-text-aspell-0.09-r10.apk
+checksum	Q16PYhp1HE8UWdOIIuZaf4DM6Eb/I=
+dep	so:libaspell.so.15	aspell-libs
+dep	so:libc.musl-armhf.so.1	musl

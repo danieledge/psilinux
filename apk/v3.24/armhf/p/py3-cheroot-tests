@@ -1,0 +1,14 @@
+name	py3-cheroot-tests
+version	11.1.2-r1
+description	High-performance, pure-Python HTTP server used by CherryPy
+url	https://cheroot.cherrypy.dev/
+license	BSD-3-Clause
+size	118688
+installed-size	361063
+depends	py3-cheroot python3~3.14
+origin	py3-cheroot
+repo	community
+file	py3-cheroot-tests-11.1.2-r1.apk
+checksum	Q16ShzkEq0CajSKKsXeG88zifqkXs=
+dep	py3-cheroot	py3-cheroot
+dep	python3~3.14	python3

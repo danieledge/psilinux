@@ -1,0 +1,12 @@
+name	frr-dbg
+version	10.6.1-r0
+description	Free Range Routing is a fork of Quagga (debug symbols)
+url	https://frrouting.org/
+license	GPL-2.0-or-later
+size	23440148
+installed-size	63594172
+depends	!frr-rpki<10.6.1-r0 !frr-rpki>10.6.1-r0 !frr-snmp<10.6.1-r0 !frr-snmp>10.6.1-r0 !frr<10.6.1-r0 !frr>10.6.1-r0
+origin	frr
+repo	community
+file	frr-dbg-10.6.1-r0.apk
+checksum	Q1t6spqLEsiC5QyIEkA3Qnx3sMBO8=

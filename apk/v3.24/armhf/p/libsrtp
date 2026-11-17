@@ -1,0 +1,14 @@
+name	libsrtp
+version	2.7.0-r0
+description	implementation of the Secure Real-time Transport Protocol (SRTP)
+url	https://github.com/cisco/libsrtp
+license	BSD-3-Clause
+size	31291
+installed-size	62888
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	libsrtp
+repo	main
+file	libsrtp-2.7.0-r0.apk
+checksum	Q189cUcrHWe7VvltQiok/CxWkNLvc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

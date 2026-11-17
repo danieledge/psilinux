@@ -1,0 +1,14 @@
+name	pcsc-perl
+version	1.4.16-r2
+description	Perl library allows to communicate with a smart card using PC/SC
+url	https://pcsc-perl.apdu.fr/
+license	GPL-2.0
+size	26130
+installed-size	78579
+depends	perl so:libc.musl-armhf.so.1
+origin	pcsc-perl
+repo	community
+file	pcsc-perl-1.4.16-r2.apk
+checksum	Q1Lxtgi/Xz7B9Mme8feiblraMi5b8=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

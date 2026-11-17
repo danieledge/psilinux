@@ -1,0 +1,15 @@
+name	perl-test-allmodules
+version	0.18-r1
+description	do some tests for modules in search path
+url	https://metacpan.org/release/Test-AllModules/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	4804
+installed-size	9177
+depends	perl perl-module-pluggable perl-test-sharedfork
+origin	perl-test-allmodules
+repo	community
+file	perl-test-allmodules-0.18-r1.apk
+checksum	Q1k+E4ekfm8wiyCNyHdhzyUhrKOS0=
+dep	perl	perl
+dep	perl-module-pluggable	perl-module-pluggable
+dep	perl-test-sharedfork	perl-test-sharedfork

@@ -1,0 +1,13 @@
+name	libnfnetlink
+version	1.0.2-r3
+description	low-level library for netfilter related kernel/userspace communication
+url	https://www.netfilter.org/projects/libnfnetlink/
+license	GPL-2.0-only
+size	12350
+installed-size	25492
+depends	so:libc.musl-armhf.so.1
+origin	libnfnetlink
+repo	main
+file	libnfnetlink-1.0.2-r3.apk
+checksum	Q1E5tSddFFJnHKm1TFGvPIIiNRPI8=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	font-util
+version	1.4.2-r0
+description	X.org font utilities
+url	https://gitlab.freedesktop.org/xorg/font/util
+license	custom
+size	28150
+installed-size	191342
+depends	perl so:libc.musl-armhf.so.1
+origin	font-util
+repo	main
+file	font-util-1.4.2-r0.apk
+checksum	Q1dS2PuIn5WaTOavDbFsnui6hT/Gg=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

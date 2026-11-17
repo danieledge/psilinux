@@ -1,0 +1,22 @@
+name	tinysparql-dev
+version	3.11.1-r0
+description	Personal search tool and storage system (development files)
+url	https://tracker.gnome.org/
+license	GPL-2.0-or-later
+size	91953
+installed-size	814229
+depends	libtinysparql=3.11.1-r0 pc:gio-2.0>2.52.0 pc:gio-unix-2.0>2.52.0 pc:glib-2.0>2.52.0 pc:gmodule-2.0>2.52.0 pc:gobject-2.0>2.52.0 pc:json-glib-1.0>=1.4 pc:libxml-2.0>2.6 pc:sqlite3>3.24.0 pkgconfig
+origin	tinysparql
+repo	community
+file	tinysparql-dev-3.11.1-r0.apk
+checksum	Q1eKEgPg+MsskUmfIw6Wpqjab+XOc=
+dep	libtinysparql=3.11.1-r0	libtinysparql
+dep	pc:gio-2.0>2.52.0	glib-dev
+dep	pc:gio-unix-2.0>2.52.0	glib-dev
+dep	pc:glib-2.0>2.52.0	glib-dev
+dep	pc:gmodule-2.0>2.52.0	glib-dev
+dep	pc:gobject-2.0>2.52.0	glib-dev
+dep	pc:json-glib-1.0>=1.4	json-glib-dev
+dep	pc:libxml-2.0>2.6	libxml2-dev
+dep	pc:sqlite3>3.24.0	sqlite-dev
+dep	pkgconfig	pkgconf

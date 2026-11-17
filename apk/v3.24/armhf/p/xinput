@@ -1,0 +1,17 @@
+name	xinput
+version	1.6.4-r2
+description	Utility to configure and test XInput devices
+url	https://xorg.freedesktop.org/
+license	MIT
+size	22122
+installed-size	46632
+depends	so:libX11.so.6 so:libXi.so.6 so:libXinerama.so.1 so:libXrandr.so.2 so:libc.musl-armhf.so.1
+origin	xinput
+repo	community
+file	xinput-1.6.4-r2.apk
+checksum	Q1VclnzOhiDB502uAx3yI3W2AT+rM=
+dep	so:libX11.so.6	libx11
+dep	so:libXi.so.6	libxi
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,20 @@
+name	lingot-dev
+version	1.1.1-r2
+description	Musical instrument tuner (development files)
+url	https://github.com/ibancg/lingot
+license	GPL-2.0-or-later
+size	32010
+installed-size	89066
+depends	lingot=1.1.1-r2 pc:alsa pc:fftw3>=3.2.2 pc:fftw3f>=3.2.2 pc:gtk+-3.0>=3.10 pc:jack>=0.117.0 pc:libpulse-simple>=0.9.10 pkgconfig
+origin	lingot
+repo	community
+file	lingot-dev-1.1.1-r2.apk
+checksum	Q1b9jWfAniDxfC3m+eJ9I3Qzee9gM=
+dep	lingot=1.1.1-r2	lingot
+dep	pc:alsa	alsa-lib-dev
+dep	pc:fftw3>=3.2.2	fftw-dev
+dep	pc:fftw3f>=3.2.2	fftw-dev
+dep	pc:gtk+-3.0>=3.10	gtk+3.0-dev
+dep	pc:jack>=0.117.0	jack-dev
+dep	pc:libpulse-simple>=0.9.10	pulseaudio-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,13 @@
+name	libcom_err
+version	1.47.4-r0
+description	Common error description library
+url	https://e2fsprogs.sourceforge.net/
+license	GPL-2.0-or-later AND LGPL-2.0-or-later AND BSD-3-Clause AND MIT
+size	6209
+installed-size	9388
+depends	so:libc.musl-armhf.so.1
+origin	e2fsprogs
+repo	main
+file	libcom_err-1.47.4-r0.apk
+checksum	Q1NmqMLQF1OphewTcTlNcWKxGpaJY=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	nginx-mod-http-echo
+version	1.30.6-r0
+description	Nginx third-party module http-echo (version v0.65)
+url	https://github.com/openresty/echo-nginx-module
+license	BSD-2-Clause
+size	16699
+installed-size	35111
+depends	nginx=1.30.6-r0 so:libc.musl-armhf.so.1
+origin	nginx
+repo	main
+file	nginx-mod-http-echo-1.30.6-r0.apk
+checksum	Q1vut1DCKdT7wXMOQ0019swPasy6I=
+dep	nginx=1.30.6-r0	nginx
+dep	so:libc.musl-armhf.so.1	musl

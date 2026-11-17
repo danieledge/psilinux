@@ -1,0 +1,22 @@
+name	zfs
+version	2.4.4-r0
+description	Advanced filesystem and volume manager
+url	https://openzfs.org
+license	CDDL-1.0
+size	489695
+installed-size	1293656
+depends	so:libblkid.so.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libintl.so.8 so:libnvpair.so.3 so:libuuid.so.1 so:libuutil.so.3 so:libzfs.so.7 so:libzfs_core.so.3 so:libzpool.so.7
+origin	zfs
+repo	main
+file	zfs-2.4.4-r0.apk
+checksum	Q1MpHOTiDn0SSRU4ybmmuwdyvvdDg=
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libintl.so.8	libintl
+dep	so:libnvpair.so.3	zfs-libs
+dep	so:libuuid.so.1	libuuid
+dep	so:libuutil.so.3	zfs-libs
+dep	so:libzfs.so.7	zfs-libs
+dep	so:libzfs_core.so.3	zfs-libs
+dep	so:libzpool.so.7	zfs-libs

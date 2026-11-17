@@ -1,0 +1,15 @@
+name	pipewire-jack
+version	1.6.8-r4
+description	JACK support for pipewire
+url	https://pipewire.org/
+license	GPL-2.0-only
+size	271872
+installed-size	617704
+depends	pipewire-session-manager so:libc.musl-armhf.so.1 so:libpipewire-0.3.so.0
+origin	pipewire
+repo	community
+file	pipewire-jack-1.6.8-r4.apk
+checksum	Q1/hmKfix34rmFQV/V8NNajNIM/EM=
+dep	pipewire-session-manager	wireplumber
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpipewire-0.3.so.0	pipewire-libs

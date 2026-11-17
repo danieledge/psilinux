@@ -1,0 +1,17 @@
+name	trealla
+version	2.92.16-r0
+description	Compact and efficient Prolog interpreter
+url	https://github.com/trealla-prolog/trealla
+license	MIT
+size	803415
+installed-size	2719124
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libffi.so.8 so:libreadline.so.8 so:libssl.so.3
+origin	trealla
+repo	community
+file	trealla-2.92.16-r0.apk
+checksum	Q1BWOokNF5j0TTX2M2igH3J1ovdYs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libffi.so.8	libffi
+dep	so:libreadline.so.8	readline
+dep	so:libssl.so.3	libssl3

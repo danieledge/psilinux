@@ -1,0 +1,17 @@
+name	ocaml-uri-dev
+version	4.2.0-r5
+description	RFC3986 URI/URL parsing library for OCaml (development files)
+url	https://github.com/mirage/ocaml-uri
+license	ISC
+size	4474558
+installed-size	12890211
+depends	ocaml-uri=4.2.0-r5 ocaml-angstrom-dev ocaml-stringext-dev ocaml-ppx_sexp_conv-dev ocaml-re-dev
+origin	ocaml-uri
+repo	community
+file	ocaml-uri-dev-4.2.0-r5.apk
+checksum	Q1V76r4uMJuzNqsM8pGQQQZdIQvgU=
+dep	ocaml-uri=4.2.0-r5	ocaml-uri
+dep	ocaml-angstrom-dev	ocaml-angstrom-dev
+dep	ocaml-stringext-dev	ocaml-stringext-dev
+dep	ocaml-ppx_sexp_conv-dev	ocaml-ppx_sexp_conv-dev
+dep	ocaml-re-dev	ocaml-re-dev

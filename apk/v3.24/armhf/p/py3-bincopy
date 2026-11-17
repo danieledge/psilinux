@@ -1,0 +1,16 @@
+name	py3-bincopy
+version	20.0.0-r2
+description	Mangling of various file formats that conveys binary information (Motorola S-Record, Intel HEX and binary files)
+url	https://github.com/eerimoq/bincopy
+license	MIT
+size	20127
+installed-size	82999
+depends	py3-argparse_addons py3-humanfriendly py3-elftools python3~3.14
+origin	py3-bincopy
+repo	community
+file	py3-bincopy-20.0.0-r2.apk
+checksum	Q11kkme16/3C7Alk8p/GNnu/JY9Rc=
+dep	py3-argparse_addons	py3-argparse_addons
+dep	py3-humanfriendly	py3-humanfriendly
+dep	py3-elftools	py3-elftools
+dep	python3~3.14	python3

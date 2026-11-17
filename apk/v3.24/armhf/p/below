@@ -1,0 +1,16 @@
+name	below
+version	0.11.0-r1
+description	A time traveling resource monitor for modern Linux systems
+url	https://github.com/facebookincubator/below
+license	Apache-2.0
+size	3011225
+installed-size	7003218
+depends	so:libbpf.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libzstd.so.1
+origin	below
+repo	community
+file	below-0.11.0-r1.apk
+checksum	Q1BEKyxOcbjaK4O50niP9UqoE4JIM=
+dep	so:libbpf.so.1	libbpf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libzstd.so.1	zstd-libs

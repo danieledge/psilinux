@@ -1,0 +1,13 @@
+name	ocaml-qtest
+version	2.11.2-r4
+description	Lightweight inline test extraction from comments
+url	https://github.com/vincent-hugot/qtest
+license	GPL-3.0-or-later
+size	333124
+installed-size	730009
+depends	so:libc.musl-armhf.so.1
+origin	ocaml-qtest
+repo	community
+file	ocaml-qtest-2.11.2-r4.apk
+checksum	Q1VZ4HVrJiOVWRWxf8GEcu/fOwuwE=
+dep	so:libc.musl-armhf.so.1	musl

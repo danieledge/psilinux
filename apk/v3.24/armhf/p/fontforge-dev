@@ -1,0 +1,13 @@
+name	fontforge-dev
+version	20251009-r1
+description	Free (libre) font editor (development files)
+url	https://fontforge.org/
+license	GPL-3.0-or-later
+size	1548
+installed-size	1
+depends	fontforge-libs=20251009-r1
+origin	fontforge
+repo	community
+file	fontforge-dev-20251009-r1.apk
+checksum	Q12PQhgCeUKQHwRXtSgAVEYfYjNh4=
+dep	fontforge-libs=20251009-r1	fontforge-libs

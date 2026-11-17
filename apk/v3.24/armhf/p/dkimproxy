@@ -1,0 +1,16 @@
+name	dkimproxy
+version	1.4.1-r9
+description	SMTP-proxy that signs and/or verifies emails, using the Mail::DKIM module
+url	https://dkimproxy.sourceforge.net/
+license	GPL-2.0-or-later
+size	21366
+installed-size	68301
+depends	perl-mail-dkim perl-net-server perl-error /bin/sh
+origin	dkimproxy
+repo	main
+file	dkimproxy-1.4.1-r9.apk
+checksum	Q1yewXKrw70CJ0EZtvMFaJRXf2V2k=
+dep	perl-mail-dkim	perl-mail-dkim
+dep	perl-net-server	perl-net-server
+dep	perl-error	perl-error
+dep	/bin/sh	busybox-binsh

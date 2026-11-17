@@ -1,0 +1,14 @@
+name	raylib
+version	5.0-r0
+description	a simple and easy to use game development library
+url	https://www.raylib.com
+license	Zlib
+size	587134
+installed-size	1282536
+depends	so:libc.musl-armhf.so.1 so:libglfw.so.3
+origin	raylib
+repo	community
+file	raylib-5.0-r0.apk
+checksum	Q1yvIvsMW7lntCbEpBZIXdK/mq4ys=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglfw.so.3	glfw

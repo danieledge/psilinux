@@ -1,0 +1,14 @@
+name	git-shuffle
+version	1.0.0-r4
+description	Randomize Git commit timestamps to enhance privacy
+url	https://github.com/nmeum/git-shuffle
+license	GPL-3.0-or-later
+size	5191
+installed-size	9388
+depends	so:libc.musl-armhf.so.1 so:libgit2.so.1.9
+origin	git-shuffle
+repo	community
+file	git-shuffle-1.0.0-r4.apk
+checksum	Q197/q/+VENvwF1NZPZ8jU2ZYrG7I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgit2.so.1.9	libgit2

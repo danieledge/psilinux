@@ -1,0 +1,15 @@
+name	mailx
+version	8.1.2_git20220412-r1
+description	commandline utility for sending email
+url	http://www.opengroup.org/onlinepubs/007908799/xcu/mailx.html
+license	BSD-4-Clause-UC
+size	46097
+installed-size	90592
+depends	so:libbsd.so.0 so:libc.musl-armhf.so.1 so:liblockfile.so.1
+origin	mailx
+repo	main
+file	mailx-8.1.2_git20220412-r1.apk
+checksum	Q16LE3Pp6C9v9Kaa0nD6C+YCJNDZU=
+dep	so:libbsd.so.0	libbsd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblockfile.so.1	liblockfile

@@ -1,0 +1,13 @@
+name	lua-luv-static
+version	1.51.0.1-r1
+description	Bare libuv bindings for Lua (static library)
+url	https://github.com/luvit/luv
+license	Apache-2.0
+size	67590
+installed-size	206890
+depends	lua-luv-dev
+origin	lua-luv
+repo	community
+file	lua-luv-static-1.51.0.1-r1.apk
+checksum	Q1bJb6Nb2Y+YO0Kvin+0qnqzrac6c=
+dep	lua-luv-dev	lua-luv-dev

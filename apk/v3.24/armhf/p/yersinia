@@ -1,0 +1,17 @@
+name	yersinia
+version	0.8.2-r6
+description	Framework for performing layer 2 attacks
+url	https://github.com/tomac/yersinia
+license	GPL-2.0-or-later
+size	139553
+installed-size	292520
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6 so:libnet.so.9 so:libpanelw.so.6 so:libpcap.so.1
+origin	yersinia
+repo	community
+file	yersinia-0.8.2-r6.apk
+checksum	Q1M2sPAq4Dxml64Gt2VBUpMejBV34=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libnet.so.9	libnet
+dep	so:libpanelw.so.6	libpanelw
+dep	so:libpcap.so.1	libpcap

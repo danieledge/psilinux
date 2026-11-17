@@ -1,0 +1,16 @@
+name	sharutils
+version	4.15.2-r6
+description	Utilities for manipulating shell archives
+url	https://www.gnu.org/software/sharutils/
+license	GPL-3.0-or-later
+size	206523
+installed-size	429248
+depends	bzip2 xz so:libc.musl-armhf.so.1 so:libintl.so.8
+origin	sharutils
+repo	main
+file	sharutils-4.15.2-r6.apk
+checksum	Q1+t66wkh0zWHCr9eYFa5TFIIHhQ4=
+dep	bzip2	bzip2
+dep	xz	xz
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libintl.so.8	libintl

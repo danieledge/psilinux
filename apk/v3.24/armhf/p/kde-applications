@@ -1,0 +1,24 @@
+name	kde-applications
+version	26.04.2-r0
+description	KDE Applications meta package
+url	https://kde.org/applications/
+license	GPL-3.0-or-later
+size	1321
+installed-size	0
+depends	kde-applications-accessibility kde-applications-admin kde-applications-base kde-applications-edu kde-applications-games kde-applications-graphics kde-applications-multimedia kde-applications-network kde-applications-pim kde-applications-sdk kde-applications-utils kde-applications-webdev
+origin	kde-applications
+repo	community
+file	kde-applications-26.04.2-r0.apk
+checksum	Q1UQhHV+PhISzMJkZTtGMOl3+ZqH0=
+dep	kde-applications-accessibility	kde-applications-accessibility
+dep	kde-applications-admin	kde-applications-admin
+dep	kde-applications-base	kde-applications-base
+dep	kde-applications-edu	kde-applications-edu
+dep	kde-applications-games	kde-applications-games
+dep	kde-applications-graphics	kde-applications-graphics
+dep	kde-applications-multimedia	kde-applications-multimedia
+dep	kde-applications-network	kde-applications-network
+dep	kde-applications-pim	kde-applications-pim
+dep	kde-applications-sdk	kde-applications-sdk
+dep	kde-applications-utils	kde-applications-utils
+dep	kde-applications-webdev	kde-applications-webdev

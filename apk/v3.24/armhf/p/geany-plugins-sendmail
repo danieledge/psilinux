@@ -1,0 +1,18 @@
+name	geany-plugins-sendmail
+version	2.1-r0
+description	Send E-Mails from within Geany
+url	https://plugins.geany.org/
+license	GPL-3.0-or-later
+size	8287
+installed-size	17704
+depends	so:libc.musl-armhf.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgeany.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0
+origin	geany-plugins
+repo	community
+file	geany-plugins-sendmail-2.1-r0.apk
+checksum	Q1X1g2uq3Qfpu/urEyAMOXhQcO8zE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgeany.so.0	geany
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0

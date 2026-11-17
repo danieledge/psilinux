@@ -1,0 +1,15 @@
+name	py3-setuptools-git
+version	1.2-r10
+description	Setuptools plugin for Git
+url	https://github.com/msabramo/setuptools-git
+license	BSD-3-Clause
+size	10072
+installed-size	28047
+depends	python3 git python3~3.14
+origin	py3-setuptools-git
+repo	community
+file	py3-setuptools-git-1.2-r10.apk
+checksum	Q1mZ7jNe7vc394G+WPL060yTdBxcs=
+dep	python3	python3
+dep	git	git
+dep	python3~3.14	python3

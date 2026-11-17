@@ -1,0 +1,17 @@
+name	openjpeg-tools
+version	2.5.4-r2
+description	Open-source implementation of JPEG2000 image codec - tools
+url	https://www.openjpeg.org/
+license	BSD-2-Clause
+size	138729
+installed-size	279112
+depends	so:libc.musl-armhf.so.1 so:liblcms2.so.2 so:libopenjp2.so.7 so:libpng16.so.16 so:libtiff.so.6
+origin	openjpeg
+repo	main
+file	openjpeg-tools-2.5.4-r2.apk
+checksum	Q19kY9GiNpXdLuillL70ETPJTqjkA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblcms2.so.2	lcms2
+dep	so:libopenjp2.so.7	openjpeg
+dep	so:libpng16.so.16	libpng
+dep	so:libtiff.so.6	tiff

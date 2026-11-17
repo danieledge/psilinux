@@ -1,0 +1,30 @@
+name	mesa-dev
+version	26.1.6-r0
+description	Mesa DRI OpenGL library (development files)
+url	https://www.mesa3d.org
+license	MIT AND SGI-B-2.0 AND BSL-1.0
+size	345054
+installed-size	2371250
+depends	libdrm-dev libxdamage-dev libxshmfence-dev mesa-egl=26.1.6-r0 mesa-gbm=26.1.6-r0 mesa-gl=26.1.6-r0 mesa-gles=26.1.6-r0 pc:libdrm>=2.4.121 pc:libdrm>=2.4.75 pc:x11 pc:x11-xcb pc:xcb pc:xcb-dri2>=1.8 pc:xcb-glx>=1.8.1 pc:xext pc:xfixes pc:xxf86vm pkgconfig
+origin	mesa
+repo	main
+file	mesa-dev-26.1.6-r0.apk
+checksum	Q1NqtEa+gVdpmlypqXTXhBIAQ00Lc=
+dep	libdrm-dev	libdrm-dev
+dep	libxdamage-dev	libxdamage-dev
+dep	libxshmfence-dev	libxshmfence-dev
+dep	mesa-egl=26.1.6-r0	mesa-egl
+dep	mesa-gbm=26.1.6-r0	mesa-gbm
+dep	mesa-gl=26.1.6-r0	mesa-gl
+dep	mesa-gles=26.1.6-r0	mesa-gles
+dep	pc:libdrm>=2.4.121	libdrm-dev
+dep	pc:libdrm>=2.4.75	libdrm-dev
+dep	pc:x11	libx11-dev
+dep	pc:x11-xcb	libx11-dev
+dep	pc:xcb	libxcb-dev
+dep	pc:xcb-dri2>=1.8	libxcb-dev
+dep	pc:xcb-glx>=1.8.1	libxcb-dev
+dep	pc:xext	libxext-dev
+dep	pc:xfixes	libxfixes-dev
+dep	pc:xxf86vm	libxxf86vm-dev
+dep	pkgconfig	pkgconf

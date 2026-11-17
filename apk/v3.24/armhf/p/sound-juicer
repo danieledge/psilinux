@@ -1,0 +1,29 @@
+name	sound-juicer
+version	3.40.0-r2
+description	Sound Juicer is a CD ripping tool using GTK+ and GStreamer
+url	https://gitlab.gnome.org/GNOME/sound-juicer
+license	GPL-2.0-or-later
+size	188411
+installed-size	339216
+depends	iso-codes gsettings-desktop-schemas gst-plugins-good so:libbrasero-media3.so.1 so:libc.musl-armhf.so.1 so:libcanberra-gtk3.so.0 so:libdiscid.so.0 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libmusicbrainz5.so.1 so:libpango-1.0.so.0
+origin	sound-juicer
+repo	community
+file	sound-juicer-3.40.0-r2.apk
+checksum	Q1t1LEzQA3m1ZrOdNO3JlDdSGjt6c=
+dep	iso-codes	iso-codes
+dep	gsettings-desktop-schemas	gsettings-desktop-schemas
+dep	gst-plugins-good	gst-plugins-good
+dep	so:libbrasero-media3.so.1	brasero
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcanberra-gtk3.so.0	libcanberra-gtk3
+dep	so:libdiscid.so.0	libdiscid
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstpbutils-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libmusicbrainz5.so.1	libmusicbrainz
+dep	so:libpango-1.0.so.0	pango

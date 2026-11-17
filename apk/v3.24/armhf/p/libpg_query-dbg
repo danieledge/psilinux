@@ -1,0 +1,12 @@
+name	libpg_query-dbg
+version	16.5.1.0-r0
+description	C library for accessing the PostgreSQL parser outside of the server (debug symbols)
+url	https://github.com/pganalyze/libpg_query
+license	BSD-3-Clause
+size	1627830
+installed-size	4349132
+depends	!libpg_query<16.5.1.0-r0 !libpg_query>16.5.1.0-r0
+origin	libpg_query
+repo	community
+file	libpg_query-dbg-16.5.1.0-r0.apk
+checksum	Q1cWF6vDnUat8tlshnZ12vapq0vUw=

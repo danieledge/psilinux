@@ -1,0 +1,15 @@
+name	perl-module-build-using-pkgconfig
+version	0.03-r1
+description	Extend Module::Build with platform libraries provided by pkg-config
+url	https://metacpan.org/release/Module-Build-Using-PkgConfig/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6246
+installed-size	12808
+depends	perl perl-extutils-pkgconfig perl-module-build
+origin	perl-module-build-using-pkgconfig
+repo	community
+file	perl-module-build-using-pkgconfig-0.03-r1.apk
+checksum	Q1TosuG7AUN+L2fsI1qnZXKXX3dfs=
+dep	perl	perl
+dep	perl-extutils-pkgconfig	perl-extutils-pkgconfig
+dep	perl-module-build	perl-module-build

@@ -1,0 +1,13 @@
+name	systemc-static
+version	2.3.4-r0
+description	C++ library for modeling and describing complex hardware systems (static library)
+url	https://www.accellera.org/downloads/standards/systemc
+license	Apache-2.0
+size	767550
+installed-size	3442268
+depends	systemc-dev
+origin	systemc
+repo	community
+file	systemc-static-2.3.4-r0.apk
+checksum	Q1uvFE9QDoeSAcwQRWcFGjciZbVOY=
+dep	systemc-dev	systemc-dev

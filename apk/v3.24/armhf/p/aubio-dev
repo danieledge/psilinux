@@ -1,0 +1,14 @@
+name	aubio-dev
+version	0.4.9-r6
+description	tool designed for the extraction of annotations from audio signals (development files)
+url	https://aubio.org
+license	GPL-3.0-or-later
+size	38317
+installed-size	201336
+depends	aubio=0.4.9-r6 pkgconfig
+origin	aubio
+repo	community
+file	aubio-dev-0.4.9-r6.apk
+checksum	Q126xspnLy3EwOVZmrs6VK4+gqEnw=
+dep	aubio=0.4.9-r6	aubio
+dep	pkgconfig	pkgconf

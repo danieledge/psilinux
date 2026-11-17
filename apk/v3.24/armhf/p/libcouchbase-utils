@@ -1,0 +1,19 @@
+name	libcouchbase-utils
+version	3.3.18-r0
+description	C client library for Couchbase (command line utilities)
+url	https://developer.couchbase.com/community
+license	Apache-2.0
+size	400555
+installed-size	906100
+depends	libcouchbase=3.3.18-r0 so:libc.musl-armhf.so.1 so:libcouchbase.so.8 so:libcrypto.so.3 so:libevent_core-2.1.so.7 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libcouchbase
+repo	community
+file	libcouchbase-utils-3.3.18-r0.apk
+checksum	Q1dG+2TTOa/NnBayVgY9DOzzZiulE=
+dep	libcouchbase=3.3.18-r0	libcouchbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcouchbase.so.8	libcouchbase
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libevent_core-2.1.so.7	libevent
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,13 @@
+name	llvm-test-utils
+version	22-r0
+description	LLVM utilities for executing LLVM and Clang style test suites
+url	https://llvm.org/
+license	Apache-2.0
+size	1690
+installed-size	1
+depends	llvm22-test-utils
+origin	llvm
+repo	main
+file	llvm-test-utils-22-r0.apk
+checksum	Q14Fo7BSmZ+aPkGsM8G61/a2sy+aQ=
+dep	llvm22-test-utils	llvm22-test-utils

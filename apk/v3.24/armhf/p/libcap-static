@@ -1,0 +1,13 @@
+name	libcap-static
+version	2.78-r0
+description	POSIX 1003.1e capabilities (static library)
+url	https://sites.google.com/site/fullycapable/
+license	BSD-3-Clause OR GPL-2.0-only
+size	20530
+installed-size	50108
+depends	libcap-dev
+origin	libcap
+repo	main
+file	libcap-static-2.78-r0.apk
+checksum	Q17mQHza0s530NkKRunufywZ2G+Q0=
+dep	libcap-dev	libcap-dev

@@ -1,0 +1,12 @@
+name	gst-libav-dbg
+version	1.28.3-r0
+description	GStreamer streaming media framework libav plugin (debug symbols)
+url	https://gstreamer.freedesktop.org
+license	GPL-2.0-or-later LGPL-2.0-or-later
+size	441588
+installed-size	947608
+depends	!gst-libav<1.28.3-r0 !gst-libav>1.28.3-r0
+origin	gst-libav
+repo	community
+file	gst-libav-dbg-1.28.3-r0.apk
+checksum	Q1OOqaBhYRwWuS1n4K7L69R2KW2Tk=

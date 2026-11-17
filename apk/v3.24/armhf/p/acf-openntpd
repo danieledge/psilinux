@@ -1,0 +1,14 @@
+name	acf-openntpd
+version	0.9.1-r0
+description	Web-based system administration interface for openntpd
+url	https://gitlab.alpinelinux.org/acf/acf-openntpd
+license	GPL-2.0-only
+size	4597
+installed-size	7963
+depends	acf-core openntpd
+origin	acf-openntpd
+repo	main
+file	acf-openntpd-0.9.1-r0.apk
+checksum	Q1K75lNJw1eUkDppkER0AYgsJwWk4=
+dep	acf-core	acf-core
+dep	openntpd	openntpd

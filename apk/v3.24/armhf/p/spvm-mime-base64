@@ -1,0 +1,17 @@
+name	spvm-mime-base64
+version	1.003-r2
+description	SPVM Language - Base64 Encoding/Decoding
+url	https://metacpan.org/release/SPVM-MIME-Base64/
+license	MIT
+size	13820
+installed-size	40302
+depends	perl spvm so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	spvm-mime-base64
+repo	community
+file	spvm-mime-base64-1.003-r2.apk
+checksum	Q1w+/hmcDs48sEdEZ9uXCQZ/Nv0FI=
+dep	perl	perl
+dep	spvm	spvm
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

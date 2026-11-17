@@ -1,0 +1,16 @@
+name	py3-autograd
+version	1.8.0-r2
+description	Efficiently computes derivatives of numpy code
+url	https://github.com/HIPS/autograd
+license	MIT
+size	45858
+installed-size	158174
+depends	python3 py3-numpy py3-scipy python3~3.14
+origin	py3-autograd
+repo	community
+file	py3-autograd-1.8.0-r2.apk
+checksum	Q1/wJvziOJHO8UeZRRczdHs8LBXMw=
+dep	python3	python3
+dep	py3-numpy	py3-numpy
+dep	py3-scipy	py3-scipy
+dep	python3~3.14	python3

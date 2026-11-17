@@ -1,0 +1,13 @@
+name	abseil-cpp-log-internal-structured-proto
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-log-internal-structured-proto
+url	https://abseil.io/
+license	Apache-2.0
+size	3316
+installed-size	5292
+depends	so:libabsl_log_internal_proto.so.2508.0.0
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-log-internal-structured-proto-20250814.1-r0.apk
+checksum	Q1TxDqDPq6MTTsA6Rg+tW1nHu6rgo=
+dep	so:libabsl_log_internal_proto.so.2508.0.0	abseil-cpp-log-internal-proto

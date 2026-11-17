@@ -1,0 +1,22 @@
+name	sngrep
+version	1.8.3-r2
+description	display SIP call message flows from a terminal
+url	https://github.com/irontec/sngrep
+license	GPL-3.0-or-later
+size	78418
+installed-size	223779
+depends	sed so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libformw.so.6 so:libmenuw.so.6 so:libncursesw.so.6 so:libpanelw.so.6 so:libpcap.so.1 so:libpcre2-8.so.0 so:libssl.so.3
+origin	sngrep
+repo	community
+file	sngrep-1.8.3-r2.apk
+checksum	Q1cJYQacZLVj4U2e4WLU/KVgs4xYU=
+dep	sed	sed
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libformw.so.6	libformw
+dep	so:libmenuw.so.6	libmenuw
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpanelw.so.6	libpanelw
+dep	so:libpcap.so.1	libpcap
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libssl.so.3	libssl3

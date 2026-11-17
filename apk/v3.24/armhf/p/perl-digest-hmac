@@ -1,0 +1,15 @@
+name	perl-digest-hmac
+version	1.05-r0
+description	Keyed-Hashing for Message Authentication Perl module
+url	https://metacpan.org/release/Digest-HMAC/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	3432
+installed-size	5491
+depends	perl perl-digest-sha1 perl-digest-md5
+origin	perl-digest-hmac
+repo	main
+file	perl-digest-hmac-1.05-r0.apk
+checksum	Q1i0JBmeGxQbALv1zMpeStjvcCiiA=
+dep	perl	perl
+dep	perl-digest-sha1	perl-digest-sha1
+dep	perl-digest-md5	perl-digest-md5

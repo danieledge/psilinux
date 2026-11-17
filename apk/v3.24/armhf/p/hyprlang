@@ -1,0 +1,16 @@
+name	hyprlang
+version	0.6.8-r0
+description	The official implementation library for the hypr config language.
+url	https://hyprland.org/hyprlang/
+license	LGPL-3.0-only
+size	100601
+installed-size	226688
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libhyprutils.so.12 so:libstdc++.so.6
+origin	hyprlang
+repo	community
+file	hyprlang-0.6.8-r0.apk
+checksum	Q1rX31wIVFRA95JRVv0eyttDcFKO0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libhyprutils.so.12	hyprutils
+dep	so:libstdc++.so.6	libstdc++

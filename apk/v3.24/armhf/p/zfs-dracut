@@ -1,0 +1,12 @@
+name	zfs-dracut
+version	2.4.4-r0
+description	Advanced filesystem and volume manager (dracut)
+url	https://openzfs.org
+license	CDDL-1.0
+size	9742
+installed-size	23320
+depends	
+origin	zfs
+repo	main
+file	zfs-dracut-2.4.4-r0.apk
+checksum	Q12tQjwRldt+pqJFNMkDhhN89XBkU=

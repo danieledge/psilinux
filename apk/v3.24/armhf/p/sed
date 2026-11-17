@@ -1,0 +1,14 @@
+name	sed
+version	4.9-r2
+description	GNU stream editor
+url	https://www.gnu.org/software/sed
+license	GPL-3.0-or-later
+size	69276
+installed-size	124304
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	sed
+repo	main
+file	sed-4.9-r2.apk
+checksum	Q1FsGnjb2xe0oxTFHu2vHGBUI9fDk=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

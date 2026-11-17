@@ -1,0 +1,21 @@
+name	upmpdcli
+version	1.9.17-r0
+description	upmpdcli is a UPnP Media Renderer front-end for MPD, the Music Player Daemon
+url	https://www.lesbonscomptes.com/upmpdcli
+license	LGPL-2.1-or-later
+size	992177
+installed-size	3803443
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgcc_s.so.1 so:libjsoncpp.so.26 so:libmicrohttpd.so.12 so:libmpdclient.so.2 so:libstdc++.so.6 so:libupnpp.so.17
+origin	upmpdcli
+repo	community
+file	upmpdcli-1.9.17-r0.apk
+checksum	Q11Wy++R5t7Fj7zGBQJFmY5OFpCi8=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjsoncpp.so.26	jsoncpp
+dep	so:libmicrohttpd.so.12	libmicrohttpd
+dep	so:libmpdclient.so.2	libmpdclient
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libupnpp.so.17	libupnpp

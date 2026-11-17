@@ -1,0 +1,14 @@
+name	makepasswd
+version	0.5.4-r4
+description	Generates (pseudo-)random passwords of a desired length
+url	https://www.defora.org/os/project/117/makepasswd
+license	GPL-3.0-only
+size	7951
+installed-size	13632
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	makepasswd
+repo	community
+file	makepasswd-0.5.4-r4.apk
+checksum	Q1qIC8OA7agolWPYYBbTiFJCUE3os=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

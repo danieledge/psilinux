@@ -1,0 +1,14 @@
+name	speex-dev
+version	1.2.1-r2
+description	an audio compression format designed for speech (development files)
+url	https://www.speex.org/
+license	BSD-3-Clause
+size	12178
+installed-size	41271
+depends	speex=1.2.1-r2 pkgconfig
+origin	speex
+repo	main
+file	speex-dev-1.2.1-r2.apk
+checksum	Q1wojvZBDfloYsqAQqXiQG1nHnRJs=
+dep	speex=1.2.1-r2	speex
+dep	pkgconfig	pkgconf

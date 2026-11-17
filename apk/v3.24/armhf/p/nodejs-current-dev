@@ -1,0 +1,13 @@
+name	nodejs-current-dev
+version	26.13.1-r0
+description	JavaScript runtime built on V8 engine - current stable version (development files)
+url	https://nodejs.org/
+license	MIT
+size	285926
+installed-size	1237780
+depends	libuv-dev
+origin	nodejs-current
+repo	community
+file	nodejs-current-dev-26.13.1-r0.apk
+checksum	Q1CPWFwJRSz2OaRPqO5toZPhkanz0=
+dep	libuv-dev	libuv-dev

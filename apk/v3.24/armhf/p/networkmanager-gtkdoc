@@ -1,0 +1,14 @@
+name	networkmanager-gtkdoc
+version	1.52.2-r0
+description	Network Management daemon (gtk docs)
+url	https://networkmanager.dev
+license	GPL-2.0-or-later
+size	994341
+installed-size	9130002
+depends	libnm=1.52.2-r0 dbus
+origin	networkmanager
+repo	community
+file	networkmanager-gtkdoc-1.52.2-r0.apk
+checksum	Q1h7pCPOypJpIrtm862r6Ok0WHoHw=
+dep	libnm=1.52.2-r0	libnm
+dep	dbus	dbus

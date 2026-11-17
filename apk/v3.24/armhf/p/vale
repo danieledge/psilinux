@@ -1,0 +1,15 @@
+name	vale
+version	3.13.0-r8
+description	A markup-aware linter for prose built with speed and extensibility in mind
+url	https://vale.sh/
+license	MIT
+size	10209298
+installed-size	40527852
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	vale
+repo	community
+file	vale-3.13.0-r8.apk
+checksum	Q1F/KQG3cbWTd4IPJ7dFDz5YoaMo8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

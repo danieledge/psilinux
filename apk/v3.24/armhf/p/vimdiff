@@ -1,0 +1,14 @@
+name	vimdiff
+version	9.2.1352-r0
+description	Improved vi-style text editor (diff view mode)
+url	https://www.vim.org/
+license	Vim
+size	1551
+installed-size	1
+depends	diffutils vim=9.2.1352-r0
+origin	vim
+repo	community
+file	vimdiff-9.2.1352-r0.apk
+checksum	Q1FmoiM1sDJj7htVE7OCSBzDu6xYA=
+dep	diffutils	diffutils
+dep	vim=9.2.1352-r0	vim

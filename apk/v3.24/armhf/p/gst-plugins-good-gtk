@@ -1,0 +1,22 @@
+name	gst-plugins-good-gtk
+version	1.28.3-r0
+description	Gstreamer gtk-3 plugin
+url	https://gstreamer.freedesktop.org
+license	GPL-2.0-or-later LGPL-2.0-or-later
+size	22169
+installed-size	50424
+depends	libsoup3 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstgl-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libgtk-3.so.0
+origin	gst-plugins-good
+repo	community
+file	gst-plugins-good-gtk-1.28.3-r0.apk
+checksum	Q197ZkPratf/OZjUTZ+cZIVgn/v3Y=
+dep	libsoup3	libsoup3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstgl-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base
+dep	so:libgtk-3.so.0	gtk+3.0

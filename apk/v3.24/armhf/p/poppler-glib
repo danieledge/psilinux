@@ -1,0 +1,21 @@
+name	poppler-glib
+version	25.12.0-r1
+description	Glib wrapper for poppler
+url	https://poppler.freedesktop.org/
+license	GPL-2.0-or-later
+size	174476
+installed-size	489312
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libfreetype.so.6 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libpoppler.so.155 so:libstdc++.so.6
+origin	poppler
+repo	main
+file	poppler-glib-25.12.0-r1.apk
+checksum	Q18zKE7S2NxUuC3zoGWQfd5mGv8EA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpoppler.so.155	poppler
+dep	so:libstdc++.so.6	libstdc++

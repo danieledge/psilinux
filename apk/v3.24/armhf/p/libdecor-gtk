@@ -1,0 +1,23 @@
+name	libdecor-gtk
+version	0.2.5-r0
+description	Client-side decorations library for Wayland clients (GTK plugin)
+url	https://gitlab.freedesktop.org/libdecor/libdecor
+license	MIT
+size	18613
+installed-size	42496
+depends	libdecor=0.2.5-r0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdbus-1.so.3 so:libdecor-0.so.0 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libwayland-client.so.0 so:libwayland-cursor.so.0
+origin	libdecor
+repo	community
+file	libdecor-gtk-0.2.5-r0.apk
+checksum	Q1Kg+JzoqGWmI86tr6QDE4Xe97Mtw=
+dep	libdecor=0.2.5-r0	libdecor
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libdecor-0.so.0	libdecor
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor

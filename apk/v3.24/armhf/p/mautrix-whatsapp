@@ -1,0 +1,16 @@
+name	mautrix-whatsapp
+version	0.2605.0-r2
+description	Matrix-WhatsApp puppeting bridge
+url	https://maunium.net/go/mautrix-whatsapp
+license	AGPL-3.0-or-later
+size	10395499
+installed-size	30054537
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libolm.so.3 so:libsqlite3.so.0
+origin	mautrix-whatsapp
+repo	community
+file	mautrix-whatsapp-0.2605.0-r2.apk
+checksum	Q1Ym7PV4mhDaqFC1/QeR8NStpvTes=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libolm.so.3	olm
+dep	so:libsqlite3.so.0	sqlite-libs

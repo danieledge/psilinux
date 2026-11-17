@@ -1,0 +1,15 @@
+name	piow
+version	0.6.0-r1
+description	Put Icons On your sway Workspaces
+url	https://github.com/KuabeM/piow
+license	MIT OR Apache-2.0
+size	863760
+installed-size	1873217
+depends	sway so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	piow
+repo	community
+file	piow-0.6.0-r1.apk
+checksum	Q1WjwfCeEuNKIrKbgExRcEaJh33PA=
+dep	sway	sway
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

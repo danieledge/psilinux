@@ -1,0 +1,23 @@
+name	zeitgeist-dev
+version	1.0.4-r5
+description	Activity logging framework (development files)
+url	https://zeitgeist.freedesktop.org/
+license	LGPL-2.1-or-later
+size	31062
+installed-size	388048
+depends	sqlite-dev gobject-introspection-dev xapian-core-dev telepathy-glib-dev gtk+3.0-dev json-glib-dev libzeitgeist=1.0.4-r5 pc:gio-2.0 pc:glib-2.0 pc:gobject-2.0 pkgconfig
+origin	zeitgeist
+repo	community
+file	zeitgeist-dev-1.0.4-r5.apk
+checksum	Q1n8bVMt6yJHHveosz7Y+IvCAuTTo=
+dep	sqlite-dev	sqlite-dev
+dep	gobject-introspection-dev	gobject-introspection-dev
+dep	xapian-core-dev	xapian-core-dev
+dep	telepathy-glib-dev	telepathy-glib-dev
+dep	gtk+3.0-dev	gtk+3.0-dev
+dep	json-glib-dev	json-glib-dev
+dep	libzeitgeist=1.0.4-r5	libzeitgeist
+dep	pc:gio-2.0	glib-dev
+dep	pc:glib-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pkgconfig	pkgconf

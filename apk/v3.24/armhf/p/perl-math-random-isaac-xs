@@ -1,0 +1,14 @@
+name	perl-math-random-isaac-xs
+version	1.004-r10
+description	C implementation of the ISAAC PRNG algorithm
+url	https://metacpan.org/release/Math-Random-ISAAC-XS/
+license	Public-Domain
+size	7382
+installed-size	12333
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-math-random-isaac-xs
+repo	community
+file	perl-math-random-isaac-xs-1.004-r10.apk
+checksum	Q1p0PqI5RmaUhFOYGSUB/6tOKN2f8=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

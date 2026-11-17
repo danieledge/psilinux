@@ -1,0 +1,15 @@
+name	py3-html2markdown
+version	0.1.7-r5
+description	Conservatively convert html to markdown
+url	https://github.com/dlon/html2markdown
+license	MIT
+size	6339
+installed-size	12266
+depends	py3-beautifulsoup4 python3 python3~3.14
+origin	py3-html2markdown
+repo	community
+file	py3-html2markdown-0.1.7-r5.apk
+checksum	Q1PT/xGXqJOPxl7iOaOOklelUN3tE=
+dep	py3-beautifulsoup4	py3-beautifulsoup4
+dep	python3	python3
+dep	python3~3.14	python3

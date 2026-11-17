@@ -1,0 +1,14 @@
+name	rsyslog-testing
+version	8.2608.0-r0
+description	rsyslog omtesting module
+url	https://www.rsyslog.com/
+license	Apache-2.0 AND GPL-3.0-or-later AND LGPL-3.0-or-later
+size	5925
+installed-size	9408
+depends	rsyslog=8.2608.0-r0 so:libc.musl-armhf.so.1
+origin	rsyslog
+repo	main
+file	rsyslog-testing-8.2608.0-r0.apk
+checksum	Q1jzUi/o0+h0PG1UNxMHSgvuLezSg=
+dep	rsyslog=8.2608.0-r0	rsyslog
+dep	so:libc.musl-armhf.so.1	musl

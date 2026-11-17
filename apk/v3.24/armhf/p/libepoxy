@@ -1,0 +1,13 @@
+name	libepoxy
+version	1.5.10-r1
+description	Direct Rendering Manager runtime library
+url	https://github.com/anholt/libepoxy
+license	MIT
+size	217940
+installed-size	912372
+depends	so:libc.musl-armhf.so.1
+origin	libepoxy
+repo	main
+file	libepoxy-1.5.10-r1.apk
+checksum	Q1gdFmrJmbm2fRKgy/v+T0ZWv9jjo=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	kamailio-sctp
+version	6.0.6-r0
+description	Kamailio SCTP transport for Kamailio
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	55989
+installed-size	113048
+depends	kamailio so:libc.musl-armhf.so.1 so:libsctp.so.1
+origin	kamailio
+repo	main
+file	kamailio-sctp-6.0.6-r0.apk
+checksum	Q1re80AbKMCAaAqAlNxfZcS5f3FGk=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsctp.so.1	liblksctp

@@ -1,0 +1,16 @@
+name	oo7-portal-systemd
+version	0.6.0-r4
+description	An implementation of org.freedesktop.impl.portal.Secret (systemd files)
+url	https://github.com/linux-credentials/oo7
+license	MIT
+size	1935
+installed-size	296
+depends	oo7-cli oo7-pam oo7-portal oo7-server
+origin	oo7
+repo	community
+file	oo7-portal-systemd-0.6.0-r4.apk
+checksum	Q16ob+ez/5NuWeo1Vo3VYvRgVpAHc=
+dep	oo7-cli	oo7-cli
+dep	oo7-pam	oo7-pam
+dep	oo7-portal	oo7-portal
+dep	oo7-server	oo7-server

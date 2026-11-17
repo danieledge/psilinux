@@ -1,0 +1,32 @@
+name	wt
+version	4.13.2-r0
+description	C++ library and application server for developing and deploying web applications
+url	https://www.webtoolkit.eu/
+license	GPL-2.0-only WITH openssl-exception
+size	4668376
+installed-size	12963262
+depends	so:libGraphicsMagick.so.3 so:libboost_filesystem.so.1.84.0 so:libboost_program_options.so.1.84.0 so:libboost_thread.so.1.84.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libfcgi++.so.0 so:libfcgi.so.0 so:libfontconfig.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libhpdf.so.2.4 so:libpango-1.0.so.0 so:libpangoft2-1.0.so.0 so:libpq.so.5 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1
+origin	wt
+repo	community
+file	wt-4.13.2-r0.apk
+checksum	Q1oYLAxEAtDSgdN72Umi/Nu5cJcrg=
+dep	so:libGraphicsMagick.so.3	graphicsmagick
+dep	so:libboost_filesystem.so.1.84.0	boost1.84-filesystem
+dep	so:libboost_program_options.so.1.84.0	boost1.84-program_options
+dep	so:libboost_thread.so.1.84.0	boost1.84-thread
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libfcgi++.so.0	fcgi++
+dep	so:libfcgi.so.0	fcgi
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libhpdf.so.2.4	libharu
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangoft2-1.0.so.0	pango
+dep	so:libpq.so.5	libpq
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

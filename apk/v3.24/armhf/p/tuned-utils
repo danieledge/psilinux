@@ -1,0 +1,16 @@
+name	tuned-utils
+version	2.27.0-r1
+description	Various tuned utilities
+url	https://github.com/redhat-performance/tuned
+license	GPL-2.0-only
+size	10791
+installed-size	33258
+depends	powertop polkit tuned python3
+origin	tuned
+repo	community
+file	tuned-utils-2.27.0-r1.apk
+checksum	Q1w3gYzMNmynAFVJACNin91poxltc=
+dep	powertop	powertop
+dep	polkit	polkit
+dep	tuned	tuned
+dep	python3	python3

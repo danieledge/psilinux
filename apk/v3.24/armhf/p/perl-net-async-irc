@@ -1,0 +1,16 @@
+name	perl-net-async-irc
+version	0.12-r1
+description	Use IRC with IO::Async
+url	https://metacpan.org/release/Net-Async-IRC/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	8964
+installed-size	22830
+depends	perl perl-future-asyncawait perl-io-async perl-protocol-irc
+origin	perl-net-async-irc
+repo	community
+file	perl-net-async-irc-0.12-r1.apk
+checksum	Q1auSX5JNcZBTW7NxsbI/HDTcKlL4=
+dep	perl	perl
+dep	perl-future-asyncawait	perl-future-asyncawait
+dep	perl-io-async	perl-io-async
+dep	perl-protocol-irc	perl-protocol-irc

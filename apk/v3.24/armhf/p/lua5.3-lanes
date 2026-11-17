@@ -1,0 +1,14 @@
+name	lua5.3-lanes
+version	3.17.2-r0
+description	portable, message passing multithreading library (for Lua 5.3)
+url	https://github.com/LuaLanes/lanes
+license	MIT
+size	61912
+installed-size	162237
+depends	lua5.3 so:libc.musl-armhf.so.1
+origin	lua-lanes
+repo	community
+file	lua5.3-lanes-3.17.2-r0.apk
+checksum	Q1ylGr0vL5vX+OCwfi75Syya4TqL4=
+dep	lua5.3	lua5.3
+dep	so:libc.musl-armhf.so.1	musl

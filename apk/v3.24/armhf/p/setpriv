@@ -1,0 +1,15 @@
+name	setpriv
+version	2.42.3-r1
+description	Run a program with different Linux privilege settings
+url	https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+license	GPL-2.0-or-later
+size	15605
+installed-size	34128
+depends	so:libc.musl-armhf.so.1 so:libcap-ng.so.0 so:libeconf.so.0
+origin	util-linux
+repo	main
+file	setpriv-2.42.3-r1.apk
+checksum	Q1aHTh+3AS0udNh5U8leIQwrTHsBY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap-ng.so.0	libcap-ng
+dep	so:libeconf.so.0	libeconf

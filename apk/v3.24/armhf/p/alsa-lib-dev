@@ -1,0 +1,14 @@
+name	alsa-lib-dev
+version	1.2.15.3-r0
+description	Advanced Linux Sound Architecture (ALSA) library (development files)
+url	https://alsa-project.org/
+license	LGPL-2.1-or-later
+size	102812
+installed-size	506610
+depends	alsa-lib=1.2.15.3-r0 pkgconfig
+origin	alsa-lib
+repo	main
+file	alsa-lib-dev-1.2.15.3-r0.apk
+checksum	Q16PkVXgdx3H4QQmYU7D7sxtshdgM=
+dep	alsa-lib=1.2.15.3-r0	alsa-lib
+dep	pkgconfig	pkgconf

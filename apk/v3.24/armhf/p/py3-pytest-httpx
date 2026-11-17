@@ -1,0 +1,15 @@
+name	py3-pytest-httpx
+version	0.36.2-r0
+description	send responses to httpx
+url	https://colin-b.github.io/pytest_httpx/
+license	MIT
+size	19814
+installed-size	76407
+depends	py3-httpx py3-pytest python3~3.14
+origin	py3-pytest-httpx
+repo	community
+file	py3-pytest-httpx-0.36.2-r0.apk
+checksum	Q1Jn9ogf6eN0rT5iV57itfUNuUYww=
+dep	py3-httpx	py3-httpx
+dep	py3-pytest	py3-pytest
+dep	python3~3.14	python3

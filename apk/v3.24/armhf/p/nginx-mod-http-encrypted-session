@@ -1,0 +1,15 @@
+name	nginx-mod-http-encrypted-session
+version	1.30.6-r0
+description	Nginx third-party module http-encrypted-session (version v0.10)
+url	https://github.com/openresty/encrypted-session-nginx-module
+license	BSD-2-Clause
+size	5961
+installed-size	9744
+depends	nginx=1.30.6-r0 nginx-mod-devel-kit so:libc.musl-armhf.so.1
+origin	nginx
+repo	main
+file	nginx-mod-http-encrypted-session-1.30.6-r0.apk
+checksum	Q1FMuHAwSLEoIlXG4qBNk/s24X1Ng=
+dep	nginx=1.30.6-r0	nginx
+dep	nginx-mod-devel-kit	nginx-mod-devel-kit
+dep	so:libc.musl-armhf.so.1	musl

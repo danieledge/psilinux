@@ -1,0 +1,32 @@
+name	android-tools
+version	35.0.2-r21
+description	Android platform tools
+url	https://sites.google.com/a/android.com/tools/
+license	Apache-2.0 MIT
+size	1395
+installed-size	0
+depends	android-tools-adb android-tools-append2simg android-tools-avbtool android-tools-e2fsdroid android-tools-ext2simg android-tools-fastboot android-tools-img2simg android-tools-lpadd android-tools-lpdump android-tools-lpflash android-tools-lpmake android-tools-lpunpack android-tools-make_f2fs android-tools-mkbootimg android-tools-mkdtboimg android-tools-mke2fs.android android-tools-repack_bootimg android-tools-simg2img android-tools-sload_f2fs android-tools-unpack_bootimg
+origin	android-tools
+repo	community
+file	android-tools-35.0.2-r21.apk
+checksum	Q1MMHIl9b2AZz+owvD6MdYzQuXJL4=
+dep	android-tools-adb	android-tools-adb
+dep	android-tools-append2simg	android-tools-append2simg
+dep	android-tools-avbtool	android-tools-avbtool
+dep	android-tools-e2fsdroid	android-tools-e2fsdroid
+dep	android-tools-ext2simg	android-tools-ext2simg
+dep	android-tools-fastboot	android-tools-fastboot
+dep	android-tools-img2simg	android-tools-img2simg
+dep	android-tools-lpadd	android-tools-lpadd
+dep	android-tools-lpdump	android-tools-lpdump
+dep	android-tools-lpflash	android-tools-lpflash
+dep	android-tools-lpmake	android-tools-lpmake
+dep	android-tools-lpunpack	android-tools-lpunpack
+dep	android-tools-make_f2fs	android-tools-make_f2fs
+dep	android-tools-mkbootimg	android-tools-mkbootimg
+dep	android-tools-mkdtboimg	android-tools-mkdtboimg
+dep	android-tools-mke2fs.android	android-tools-mke2fs.android
+dep	android-tools-repack_bootimg	android-tools-repack_bootimg
+dep	android-tools-simg2img	android-tools-simg2img
+dep	android-tools-sload_f2fs	android-tools-sload_f2fs
+dep	android-tools-unpack_bootimg	android-tools-unpack_bootimg

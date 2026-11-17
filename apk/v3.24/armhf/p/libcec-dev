@@ -1,0 +1,19 @@
+name	libcec-dev
+version	7.1.1-r1
+description	libcec for the Pulse-Eight USB-CEC adapter (development files)
+url	https://github.com/Pulse-Eight/libcec
+license	GPL-2.0-or-later
+size	341026
+installed-size	1343928
+depends	eudev-dev libxrandr-dev python3-dev swig libcec=7.1.1-r1 pc:p8-platform pkgconfig
+origin	libcec
+repo	community
+file	libcec-dev-7.1.1-r1.apk
+checksum	Q1+eBsTHV2ocFPvJmawVwZuzx8W1s=
+dep	eudev-dev	eudev-dev
+dep	libxrandr-dev	libxrandr-dev
+dep	python3-dev	python3-dev
+dep	swig	swig
+dep	libcec=7.1.1-r1	libcec
+dep	pc:p8-platform	p8-platform-dev
+dep	pkgconfig	pkgconf

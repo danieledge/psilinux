@@ -1,0 +1,14 @@
+name	libusrsctp-dev
+version	0.9.5.0-r2
+description	Portable SCTP userland stack (development files)
+url	https://github.com/sctplab/usrsctp
+license	BSD-3-Clause
+size	13037
+installed-size	43253
+depends	libusrsctp=0.9.5.0-r2 pkgconfig
+origin	libusrsctp
+repo	community
+file	libusrsctp-dev-0.9.5.0-r2.apk
+checksum	Q1NzjyxmK96KJJKuCP3GiuPdxI6n8=
+dep	libusrsctp=0.9.5.0-r2	libusrsctp
+dep	pkgconfig	pkgconf

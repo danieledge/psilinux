@@ -1,0 +1,17 @@
+name	openvswitch
+version	3.7.1-r0
+description	production quality, multilayer virtual switch
+url	https://www.openvswitch.org/
+license	Apache-2.0
+size	332120
+installed-size	1075637
+depends	so:libc.musl-armhf.so.1 so:libofproto-3.7.so.0 so:libopenvswitch-3.7.so.0 so:libovsdb-3.7.so.0 so:libvtep-3.7.so.0
+origin	openvswitch
+repo	community
+file	openvswitch-3.7.1-r0.apk
+checksum	Q1USj7Z0KD0O3Ilxy30btsbSwAR+s=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libofproto-3.7.so.0	openvswitch-libs
+dep	so:libopenvswitch-3.7.so.0	openvswitch-libs
+dep	so:libovsdb-3.7.so.0	openvswitch-libs
+dep	so:libvtep-3.7.so.0	openvswitch-libs

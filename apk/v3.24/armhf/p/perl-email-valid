@@ -1,0 +1,17 @@
+name	perl-email-valid
+version	1.204-r0
+description	Check validity of Internet email addresses
+url	https://metacpan.org/release/Email-Valid/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	9887
+installed-size	33421
+depends	perl perl-mailtools perl-net-domain-tld perl-capture-tiny perl-net-dns
+origin	perl-email-valid
+repo	community
+file	perl-email-valid-1.204-r0.apk
+checksum	Q18HFjjEIEDNoxxPO8h/L9uRQboLc=
+dep	perl	perl
+dep	perl-mailtools	perl-mailtools
+dep	perl-net-domain-tld	perl-net-domain-tld
+dep	perl-capture-tiny	perl-capture-tiny
+dep	perl-net-dns	perl-net-dns

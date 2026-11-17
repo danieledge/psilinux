@@ -1,0 +1,14 @@
+name	ocaml-mew-dev
+version	0.1.0-r6
+description	Modal editing witch (development files)
+url	https://github.com/kandu/mew
+license	MIT
+size	97727
+installed-size	247430
+depends	ocaml-mew=0.1.0-r6 ocaml-trie-dev
+origin	ocaml-mew
+repo	community
+file	ocaml-mew-dev-0.1.0-r6.apk
+checksum	Q1iNnpyCX99TF9csE8ISkrBCc6ywk=
+dep	ocaml-mew=0.1.0-r6	ocaml-mew
+dep	ocaml-trie-dev	ocaml-trie-dev

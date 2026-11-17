@@ -1,0 +1,14 @@
+name	lxc-templates-oci
+version	7.0.0-r0
+description	OCI Template for LXC
+url	https://linuxcontainers.org/lxc/
+license	LGPL-2.1-or-later
+size	5973
+installed-size	13703
+depends	bash jq
+origin	lxc
+repo	main
+file	lxc-templates-oci-7.0.0-r0.apk
+checksum	Q1VaY3WahQ3gLPsmr8DVLt7cv1H74=
+dep	bash	bash
+dep	jq	jq

@@ -1,0 +1,13 @@
+name	basu-static
+version	0.2.1-r2
+description	The sd-bus library, extracted from systemd (static library)
+url	https://sr.ht/~emersion/basu/
+license	LGPL-2.1-or-later
+size	254761
+installed-size	788090
+depends	basu-dev
+origin	basu
+repo	community
+file	basu-static-0.2.1-r2.apk
+checksum	Q1YltXHP4lUwawFd+O82jRA7699jw=
+dep	basu-dev	basu-dev

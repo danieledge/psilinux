@@ -1,0 +1,14 @@
+name	py3-django-widget-tweaks
+version	1.5.1-r2
+description	Tweak the form field rendering in templates, not in python-level form definitions
+url	https://github.com/jazzband/django-widget-tweaks
+license	MIT
+size	10524
+installed-size	25912
+depends	py3-django python3~3.14
+origin	py3-django-widget-tweaks
+repo	community
+file	py3-django-widget-tweaks-1.5.1-r2.apk
+checksum	Q1LVMDa8rcsXngx2jGUjy0A2WdrP0=
+dep	py3-django	py3-django
+dep	python3~3.14	python3

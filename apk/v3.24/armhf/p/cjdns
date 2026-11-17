@@ -1,0 +1,15 @@
+name	cjdns
+version	22.3-r0
+description	A routing engine designed for security, scalability, speed and ease of use
+url	https://github.com/cjdelisle/cjdns
+license	GPL-3.0-or-later
+size	4140414
+installed-size	8726168
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	cjdns
+repo	community
+file	cjdns-22.3-r0.apk
+checksum	Q1S9rQgtNnP8D3k6UttFggBY5UmgM=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

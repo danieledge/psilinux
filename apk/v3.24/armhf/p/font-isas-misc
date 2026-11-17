@@ -1,0 +1,16 @@
+name	font-isas-misc
+version	1.0.4-r1
+description	X.org misc font
+url	https://xorg.freedesktop.org/
+license	custom
+size	808098
+installed-size	945123
+depends	encodings font-alias mkfontscale fontconfig
+origin	font-isas-misc
+repo	main
+file	font-isas-misc-1.0.4-r1.apk
+checksum	Q1Ukqj2LCglYw57SBHk4IzGCOQ4AU=
+dep	encodings	encodings
+dep	font-alias	font-alias
+dep	mkfontscale	mkfontscale
+dep	fontconfig	fontconfig

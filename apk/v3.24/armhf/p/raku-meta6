@@ -1,0 +1,15 @@
+name	raku-meta6
+version	0.0.31-r0
+description	Work with Raku META files
+url	https://github.com/jonathanstowe/META6
+license	Artistic-2.0
+size	111334
+installed-size	913902
+depends	rakudo raku-json-class raku-json-name
+origin	raku-meta6
+repo	community
+file	raku-meta6-0.0.31-r0.apk
+checksum	Q1hb+iUn7o4AT1YMov4Qvt149mA08=
+dep	rakudo	rakudo
+dep	raku-json-class	raku-json-class
+dep	raku-json-name	raku-json-name

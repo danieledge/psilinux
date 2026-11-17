@@ -1,0 +1,13 @@
+name	kubelet
+version	1.36.1-r2
+description	Kubernetes - kubelet
+url	https://kubernetes.io/
+license	Apache-2.0
+size	19779756
+installed-size	62357581
+depends	iptables
+origin	kubernetes
+repo	community
+file	kubelet-1.36.1-r2.apk
+checksum	Q1QqN+N/Xr+M1jP/yAMyFEVed3fKo=
+dep	iptables	iptables

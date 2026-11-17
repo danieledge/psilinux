@@ -1,0 +1,24 @@
+name	tvheadend
+version	4.3_git20260214-r1
+description	TV Streaming server for linux
+url	https://tvheadend.org/
+license	GPL-3.0-only
+size	9870107
+installed-size	21288275
+depends	/bin/sh so:libavcodec.so.62 so:libavfilter.so.11 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libdvbcsa.so.1 so:libiconv.so.2 so:libssl.so.3 so:liburiparser.so.1 so:libz.so.1
+origin	tvheadend
+repo	community
+file	tvheadend-4.3_git20260214-r1.apk
+checksum	Q1U12na3Ac7u2Yltg6Mk+AiUq2eXo=
+dep	/bin/sh	busybox-binsh
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavfilter.so.11	ffmpeg-libavfilter
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libdvbcsa.so.1	libdvbcsa
+dep	so:libiconv.so.2	gnu-libiconv-libs
+dep	so:libssl.so.3	libssl3
+dep	so:liburiparser.so.1	liburiparser
+dep	so:libz.so.1	zlib

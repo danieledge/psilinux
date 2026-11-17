@@ -1,0 +1,24 @@
+name	knot-utils
+version	3.5.10-r0
+description	Knot and DNS client utilities shipped with the Knot DNS server
+url	https://www.knot-dns.cz/
+license	GPL-2.0-or-later
+size	1729592
+installed-size	3808976
+depends	so:libc.musl-armhf.so.1 so:libdnssec.so.10 so:libedit.so.0 so:libgnutls.so.30 so:libidn2.so.0 so:libknot.so.16 so:liblmdb.so.0 so:libnghttp2.so.14 so:libngtcp2.so.16 so:libngtcp2_crypto_gnutls.so.8 so:liburcu.so.8 so:libzscanner.so.5
+origin	knot
+repo	main
+file	knot-utils-3.5.10-r0.apk
+checksum	Q1boU5iPcuuWyf/NIFK7iutr+Qz7U=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdnssec.so.10	knot-libs
+dep	so:libedit.so.0	libedit
+dep	so:libgnutls.so.30	gnutls
+dep	so:libidn2.so.0	libidn2
+dep	so:libknot.so.16	knot-libs
+dep	so:liblmdb.so.0	lmdb
+dep	so:libnghttp2.so.14	nghttp2-libs
+dep	so:libngtcp2.so.16	ngtcp2
+dep	so:libngtcp2_crypto_gnutls.so.8	ngtcp2-gnutls
+dep	so:liburcu.so.8	userspace-rcu
+dep	so:libzscanner.so.5	knot-libs

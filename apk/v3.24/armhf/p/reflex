@@ -1,0 +1,15 @@
+name	reflex
+version	20260131-r0
+description	Relocalizable fast lexical scanner
+url	https://invisible-island.net/reflex/
+license	BSD-3-Clause-flex
+size	69466
+installed-size	173468
+depends	reflex-dev=20260131-r0 byacc so:libc.musl-armhf.so.1
+origin	reflex
+repo	community
+file	reflex-20260131-r0.apk
+checksum	Q12iDf7s6b4AeyvjTsD7r8j/6gLBw=
+dep	reflex-dev=20260131-r0	reflex-dev
+dep	byacc	byacc
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	perl-sub-prototype
+version	0.03-r3
+description	Set a subroutine's prototype
+url	https://metacpan.org/release/Sub-Prototype/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	4821
+installed-size	6741
+depends	perl perl-sub-exporter so:libc.musl-armhf.so.1
+origin	perl-sub-prototype
+repo	community
+file	perl-sub-prototype-0.03-r3.apk
+checksum	Q1tqAMeTd2yjVWd7defadzrt88Iig=
+dep	perl	perl
+dep	perl-sub-exporter	perl-sub-exporter
+dep	so:libc.musl-armhf.so.1	musl

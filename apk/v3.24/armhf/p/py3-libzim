@@ -1,0 +1,18 @@
+name	py3-libzim
+version	3.10.0-r0
+description	Python binding for libzim
+url	https://github.com/openzim/python-libzim
+license	GPL-3.0-or-later
+size	399379
+installed-size	2549136
+depends	libzim python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libzim.so.9
+origin	py3-libzim
+repo	community
+file	py3-libzim-3.10.0-r0.apk
+checksum	Q1QagLd1jB/KKTaKa9oHSZCtMYMI8=
+dep	libzim	libzim
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libzim.so.9	libzim

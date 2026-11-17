@@ -1,0 +1,14 @@
+name	keyutils-dev
+version	1.6.3-r4
+description	Linux Key Management Utilities (development files)
+url	https://people.redhat.com/~dhowells/keyutils/
+license	GPL-2.0-or-later AND LGPL-2.0-or-later
+size	5296
+installed-size	11953
+depends	keyutils-libs=1.6.3-r4 pkgconfig
+origin	keyutils
+repo	main
+file	keyutils-dev-1.6.3-r4.apk
+checksum	Q1rje4y+puW0vhHITIP1YFnA0agWo=
+dep	keyutils-libs=1.6.3-r4	keyutils-libs
+dep	pkgconfig	pkgconf

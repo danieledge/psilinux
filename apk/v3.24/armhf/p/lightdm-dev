@@ -1,0 +1,20 @@
+name	lightdm-dev
+version	1.32.0-r12
+description	cross-desktop display manager (development files)
+url	https://www.freedesktop.org/wiki/Software/LightDM
+license	GPL-3.0-or-later
+size	74144
+installed-size	347118
+depends	lightdm=1.32.0-r12 pc:gio-2.0 pc:gio-unix-2.0 pc:glib-2.0 pc:gobject-2.0 pc:libxklavier pc:x11 pkgconfig
+origin	lightdm
+repo	community
+file	lightdm-dev-1.32.0-r12.apk
+checksum	Q1MSE+TTnRNzYeVzLPBYTZGbxR9ow=
+dep	lightdm=1.32.0-r12	lightdm
+dep	pc:gio-2.0	glib-dev
+dep	pc:gio-unix-2.0	glib-dev
+dep	pc:glib-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pc:libxklavier	libxklavier-dev
+dep	pc:x11	libx11-dev
+dep	pkgconfig	pkgconf

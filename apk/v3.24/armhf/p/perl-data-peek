@@ -1,0 +1,14 @@
+name	perl-data-peek
+version	0.53-r1
+description	Modified and extended debugging facilities
+url	https://metacpan.org/release/Data-Peek/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	13669
+installed-size	29786
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-data-peek
+repo	community
+file	perl-data-peek-0.53-r1.apk
+checksum	Q1dC6oIsLQLJu674NB1BR7RkGRCUc=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

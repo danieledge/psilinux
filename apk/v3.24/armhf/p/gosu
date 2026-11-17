@@ -1,0 +1,13 @@
+name	gosu
+version	1.19-r6
+description	Simple Go-based setuid+setgid+setgroups+exec
+url	https://github.com/tianon/gosu
+license	Apache-2.0
+size	781069
+installed-size	1819756
+depends	so:libc.musl-armhf.so.1
+origin	gosu
+repo	community
+file	gosu-1.19-r6.apk
+checksum	Q133iJlgdpHj0o00rBnnHtVD0CiCM=
+dep	so:libc.musl-armhf.so.1	musl

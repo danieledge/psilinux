@@ -1,0 +1,15 @@
+name	connman-vpnc
+version	2.0-r0
+description	IPsec (Cisco/Juniper) VPN plugin for ConnMan
+url	https://git.kernel.org/pub/scm/network/connman/connman.git
+license	GPL-2.0-only
+size	9949
+installed-size	22388
+depends	connman=2.0-r0 vpnc so:libc.musl-armhf.so.1
+origin	connman
+repo	community
+file	connman-vpnc-2.0-r0.apk
+checksum	Q1GWhyRt5hK9SnL/fLbzoz9ehIdUk=
+dep	connman=2.0-r0	connman
+dep	vpnc	vpnc
+dep	so:libc.musl-armhf.so.1	musl

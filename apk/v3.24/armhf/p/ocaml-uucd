@@ -1,0 +1,35 @@
+name	ocaml-uucd
+version	14.0.0-r5
+description	Unicode character database decoder for OCaml
+url	https://erratique.ch/software/uucd
+license	ISC
+size	285318
+installed-size	658344
+depends	ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2 ocaml4-impl:Stdlib__Hashtbl:28f814923ef9cfbba7b97f911bf899b6 ocaml4-impl:Stdlib__Int64:07574e234ed9bfb5e7f340e15749061d ocaml4-impl:Stdlib__List:b42dc21c9462b2cabc74ab8825425e32 ocaml4-impl:Stdlib__Map:63d09314450d20359192b1ccd9beca41 ocaml4-impl:Stdlib__Printf:b4fd61498adcd7e6fe74938e03810e0a ocaml4-impl:Stdlib__String:5c54069e57efa544d2be471c6a1fc73d ocaml4-impl:Xmlm:c3aa3d0e525305dc7a763394c82bda4a ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15 ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91 ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822 ocaml4-intf:Stdlib__Char:62afe57b49defcc078960a68b9efbbee ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9 ocaml4-intf:Stdlib__Format:b6edb97b685819e873481fe05723c8bc ocaml4-intf:Stdlib__Hashtbl:34c0fdd524bf2a75e4d5af64a6d34401 ocaml4-intf:Stdlib__Int64:0fa5587c47baf16a06837c7dedfc2518 ocaml4-intf:Stdlib__List:ee222542f6f8195441543b8b399b64b9 ocaml4-intf:Stdlib__Map:978f82916b5a172c11d2b72719d85680 ocaml4-intf:Stdlib__Printf:bc8af6214197dc8f40eaa738a4cd6a28 ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962 ocaml4-intf:Stdlib__String:4933e1d855f54bfed0231b038f0dbb87 ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57 ocaml4-intf:Xmlm:783b8872a3c0f3af8655ab9d95a2857c
+origin	ocaml-uucd
+repo	community
+file	ocaml-uucd-14.0.0-r5.apk
+checksum	Q1OuxJWJ0TMqCAmblLu/K0bt/cH+I=
+dep	ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2	ocaml
+dep	ocaml4-impl:Stdlib__Hashtbl:28f814923ef9cfbba7b97f911bf899b6	ocaml
+dep	ocaml4-impl:Stdlib__Int64:07574e234ed9bfb5e7f340e15749061d	ocaml
+dep	ocaml4-impl:Stdlib__List:b42dc21c9462b2cabc74ab8825425e32	ocaml
+dep	ocaml4-impl:Stdlib__Map:63d09314450d20359192b1ccd9beca41	ocaml
+dep	ocaml4-impl:Stdlib__Printf:b4fd61498adcd7e6fe74938e03810e0a	ocaml
+dep	ocaml4-impl:Stdlib__String:5c54069e57efa544d2be471c6a1fc73d	ocaml
+dep	ocaml4-impl:Xmlm:c3aa3d0e525305dc7a763394c82bda4a	ocaml-xmlm
+dep	ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15	ocaml
+dep	ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91	ocaml
+dep	ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822	ocaml
+dep	ocaml4-intf:Stdlib__Char:62afe57b49defcc078960a68b9efbbee	ocaml
+dep	ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9	ocaml
+dep	ocaml4-intf:Stdlib__Format:b6edb97b685819e873481fe05723c8bc	ocaml
+dep	ocaml4-intf:Stdlib__Hashtbl:34c0fdd524bf2a75e4d5af64a6d34401	ocaml
+dep	ocaml4-intf:Stdlib__Int64:0fa5587c47baf16a06837c7dedfc2518	ocaml
+dep	ocaml4-intf:Stdlib__List:ee222542f6f8195441543b8b399b64b9	ocaml
+dep	ocaml4-intf:Stdlib__Map:978f82916b5a172c11d2b72719d85680	ocaml
+dep	ocaml4-intf:Stdlib__Printf:bc8af6214197dc8f40eaa738a4cd6a28	ocaml
+dep	ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962	ocaml
+dep	ocaml4-intf:Stdlib__String:4933e1d855f54bfed0231b038f0dbb87	ocaml
+dep	ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57	ocaml
+dep	ocaml4-intf:Xmlm:783b8872a3c0f3af8655ab9d95a2857c	ocaml-xmlm

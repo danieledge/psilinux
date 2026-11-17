@@ -1,0 +1,14 @@
+name	libfastjson-dev
+version	1.2304.0-r4
+description	fork of the json-c library for rsyslog, optimized for liblognorm processing. (development files)
+url	https://www.rsyslog.com/
+license	MIT
+size	17587
+installed-size	59136
+depends	libfastjson=1.2304.0-r4 pkgconfig
+origin	libfastjson
+repo	main
+file	libfastjson-dev-1.2304.0-r4.apk
+checksum	Q1k2FuK9y1BgFT3StHJTGImJfeWrE=
+dep	libfastjson=1.2304.0-r4	libfastjson
+dep	pkgconfig	pkgconf

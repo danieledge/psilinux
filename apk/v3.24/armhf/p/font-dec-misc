@@ -1,0 +1,16 @@
+name	font-dec-misc
+version	1.0.4-r1
+description	X.org misc font
+url	https://xorg.freedesktop.org/
+license	HPND-sell-variant
+size	5131
+installed-size	3296
+depends	encodings font-alias mkfontscale fontconfig
+origin	font-dec-misc
+repo	main
+file	font-dec-misc-1.0.4-r1.apk
+checksum	Q1jE2bJQz7C0dzgrsJpFXWJufhhhA=
+dep	encodings	encodings
+dep	font-alias	font-alias
+dep	mkfontscale	mkfontscale
+dep	fontconfig	fontconfig

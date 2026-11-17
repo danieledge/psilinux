@@ -1,0 +1,15 @@
+name	boost1.84-chrono
+version	1.84.0-r6
+description	Boost chrono shared library
+url	https://www.boost.org/
+license	BSL-1.0
+size	13243
+installed-size	30124
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	boost1.84
+repo	main
+file	boost1.84-chrono-1.84.0-r6.apk
+checksum	Q1E3A8TTe3/rLPc29cdZWlIRFW5Xc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

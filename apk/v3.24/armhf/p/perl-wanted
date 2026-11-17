@@ -1,0 +1,14 @@
+name	perl-wanted
+version	0.1.0-r1
+description	Extended caller context detection
+url	https://metacpan.org/release/Wanted/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	19443
+installed-size	49032
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-wanted
+repo	community
+file	perl-wanted-0.1.0-r1.apk
+checksum	Q1pKf8dKfV3SQm7BBOncOjQH/0lJg=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

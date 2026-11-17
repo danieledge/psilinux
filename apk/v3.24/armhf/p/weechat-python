@@ -1,0 +1,15 @@
+name	weechat-python
+version	4.10.2-r0
+description	WeeChat python plugin
+url	https://weechat.org
+license	GPL-3.0-or-later
+size	63009
+installed-size	234872
+depends	weechat so:libc.musl-armhf.so.1 so:libpython3.14.so.1.0
+origin	weechat
+repo	community
+file	weechat-python-4.10.2-r0.apk
+checksum	Q1fLHjIZoLbZIpxmrNINKlxpF/D1M=
+dep	weechat	weechat
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpython3.14.so.1.0	python3

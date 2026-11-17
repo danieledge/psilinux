@@ -1,0 +1,14 @@
+name	mlt-dev
+version	7.36.1-r1
+description	MLT Multimedia Framework (development files)
+url	https://www.mltframework.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later AND GPL-3.0-or-later
+size	41983
+installed-size	207022
+depends	mlt=7.36.1-r1 pkgconfig
+origin	mlt
+repo	community
+file	mlt-dev-7.36.1-r1.apk
+checksum	Q1O4hPHmwDiQa/U3v8riJCcUGw53c=
+dep	mlt=7.36.1-r1	mlt
+dep	pkgconfig	pkgconf

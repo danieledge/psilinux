@@ -1,0 +1,14 @@
+name	exempi-dev
+version	2.6.6-r0
+description	Library to parse XMP metadata (development files)
+url	https://wiki.freedesktop.org/libopenraw/Exempi/
+license	BSD-3-Clause
+size	1399364
+installed-size	4768872
+depends	exempi-libs=2.6.6-r0 pkgconfig
+origin	exempi
+repo	community
+file	exempi-dev-2.6.6-r0.apk
+checksum	Q1jw1TE9rWPA3O0eh1798HQno5SRY=
+dep	exempi-libs=2.6.6-r0	exempi-libs
+dep	pkgconfig	pkgconf

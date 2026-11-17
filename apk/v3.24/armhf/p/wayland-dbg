@@ -1,0 +1,12 @@
+name	wayland-dbg
+version	1.25.0-r0
+description	A computer display server protocol (debug symbols)
+url	https://wayland.freedesktop.org
+license	MIT
+size	206711
+installed-size	457528
+depends	!wayland-dev<1.25.0-r0 !wayland-dev>1.25.0-r0 !wayland-libs-client<1.25.0-r0 !wayland-libs-client>1.25.0-r0 !wayland-libs-cursor<1.25.0-r0 !wayland-libs-cursor>1.25.0-r0 !wayland-libs-egl<1.25.0-r0 !wayland-libs-egl>1.25.0-r0 !wayland-libs-server<1.25.0-r0 !wayland-libs-server>1.25.0-r0
+origin	wayland
+repo	main
+file	wayland-dbg-1.25.0-r0.apk
+checksum	Q1mB7StLbqgdyiP2qAGfAlBYhoxFY=

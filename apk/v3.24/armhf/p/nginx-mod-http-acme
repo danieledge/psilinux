@@ -1,0 +1,17 @@
+name	nginx-mod-http-acme
+version	0.4.1-r5
+description	NGINX module implementing automatic certificate management (ACMEv2) protocol
+url	https://github.com/nginx/nginx-acme
+license	Apache-2.0
+size	435242
+installed-size	820019
+depends	nginx~1.30.6 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
+origin	nginx-mod-http-acme
+repo	community
+file	nginx-mod-http-acme-0.4.1-r5.apk
+checksum	Q1bu0ynP5ZMMFVM1WjsEl5AGEY5xQ=
+dep	nginx~1.30.6	nginx
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,17 @@
+name	acme-redirect
+version	0.8.1-r1
+description	Tiny http daemon that answers acme challenges and redirects everything else to https
+url	https://github.com/kpcyrd/acme-redirect
+license	GPL-3.0-or-later
+size	1790488
+installed-size	3616519
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
+origin	acme-redirect
+repo	community
+file	acme-redirect-0.8.1-r1.apk
+checksum	Q1kVY8MCbr1ljLyud8u4Sr1mwXh/Y=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3

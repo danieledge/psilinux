@@ -1,0 +1,15 @@
+name	bubblejail-config
+version	0.10.3-r0
+description	Bubblewrap based sandboxing for desktop applications
+url	https://github.com/igo95862/bubblejail
+license	GPL-3.0-or-later
+size	6416
+installed-size	23320
+depends	bubblejail=0.10.3-r0 py3-qt6 python3~3.14
+origin	bubblejail
+repo	community
+file	bubblejail-config-0.10.3-r0.apk
+checksum	Q1NJzawtKUzX0RIBgnPXXPurZubCw=
+dep	bubblejail=0.10.3-r0	bubblejail
+dep	py3-qt6	!
+dep	python3~3.14	python3

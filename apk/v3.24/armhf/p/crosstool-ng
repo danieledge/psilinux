@@ -1,0 +1,34 @@
+name	crosstool-ng
+version	1.28.0-r1
+description	Versatile tool for building (cross-)toolchains
+url	https://crosstool-ng.github.io/
+license	LGPL-2.1-or-later AND GPL-2.0-or-later AND CC-BY-SA-2.5
+size	5763314
+installed-size	31003246
+depends	autoconf automake bash bison cvs file flex g++ gawk gperf libtool make patch rsync sed texinfo wget xz so:libc.musl-armhf.so.1 so:libmenuw.so.6 so:libncursesw.so.6 so:libpanelw.so.6
+origin	crosstool-ng
+repo	community
+file	crosstool-ng-1.28.0-r1.apk
+checksum	Q1jhvkt/OLyrVn2Rnpsx0RA4HATRk=
+dep	autoconf	autoconf
+dep	automake	automake
+dep	bash	bash
+dep	bison	bison
+dep	cvs	cvs
+dep	file	file
+dep	flex	flex
+dep	g++	g++
+dep	gawk	gawk
+dep	gperf	gperf
+dep	libtool	libtool
+dep	make	make
+dep	patch	patch
+dep	rsync	rsync
+dep	sed	sed
+dep	texinfo	texinfo
+dep	wget	wget
+dep	xz	xz
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmenuw.so.6	libmenuw
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpanelw.so.6	libpanelw

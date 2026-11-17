@@ -1,0 +1,35 @@
+name	mate-system-monitor
+version	1.28.1-r1
+description	A system monitor for MATE
+url	https://github.com/mate-desktop/mate-system-monitor
+license	GPL-2.0-or-later
+size	138775
+installed-size	350082
+depends	mate-icon-theme so:libc.musl-armhf.so.1 so:libcairo-gobject.so.2 so:libcairo.so.2 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libgiomm-2.4.so.1 so:libglib-2.0.so.0 so:libglibmm-2.4.so.1 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgtkmm-3.0.so.1 so:libgtop-2.0.so.11 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:librsvg-2.so.2 so:libsigc-2.0.so.0 so:libstdc++.so.6 so:libxml2.so.2
+origin	mate-system-monitor
+repo	community
+file	mate-system-monitor-1.28.1-r1.apk
+checksum	Q1GRuE3qeDAuyb1NNxhOlnh+iqyNo=
+dep	mate-icon-theme	mate-icon-theme
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo-gobject.so.2	cairo-gobject
+dep	so:libcairo.so.2	cairo
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libgiomm-2.4.so.1	glibmm2.66
+dep	so:libglib-2.0.so.0	glib
+dep	so:libglibmm-2.4.so.1	glibmm2.66
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtkmm-3.0.so.1	gtkmm3
+dep	so:libgtop-2.0.so.11	libgtop
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libsigc-2.0.so.0	libsigc++
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxml2.so.2	libxml2

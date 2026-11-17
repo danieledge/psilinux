@@ -1,0 +1,18 @@
+name	py3-pytest-trio
+version	0.8.0-r4
+description	pytest plugin for trio
+url	https://github.com/python-trio/pytest-trio
+license	MIT OR Apache-2.0
+size	18767
+installed-size	66686
+depends	python3 py3-pytest py3-trio py3-outcome py3-async_generator python3~3.14
+origin	py3-pytest-trio
+repo	community
+file	py3-pytest-trio-0.8.0-r4.apk
+checksum	Q130puOL+ZgI0IrP+wfUsAL5WKWzE=
+dep	python3	python3
+dep	py3-pytest	py3-pytest
+dep	py3-trio	py3-trio
+dep	py3-outcome	py3-outcome
+dep	py3-async_generator	py3-async_generator
+dep	python3~3.14	python3

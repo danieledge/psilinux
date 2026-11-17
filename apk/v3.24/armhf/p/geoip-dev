@@ -1,0 +1,14 @@
+name	geoip-dev
+version	1.6.12-r6
+description	Lookup countries by IP addresses (development files)
+url	http://www.maxmind.com/app/ip-location
+license	LGPL-2.1-or-later
+size	6189
+installed-size	20405
+depends	geoip=1.6.12-r6 pkgconfig
+origin	geoip
+repo	main
+file	geoip-dev-1.6.12-r6.apk
+checksum	Q1paO26jXGZ73hY9mTjpYJWZ9EpZw=
+dep	geoip=1.6.12-r6	geoip
+dep	pkgconfig	pkgconf

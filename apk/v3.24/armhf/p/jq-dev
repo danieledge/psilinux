@@ -1,0 +1,14 @@
+name	jq-dev
+version	1.8.2-r0
+description	A lightweight and flexible command-line JSON processor (development files)
+url	https://jqlang.github.io/jq/
+license	MIT
+size	208798
+installed-size	528285
+depends	jq=1.8.2-r0 pkgconfig
+origin	jq
+repo	main
+file	jq-dev-1.8.2-r0.apk
+checksum	Q1iQNHRmvMoVaPzRucSZ6D3xzm1lY=
+dep	jq=1.8.2-r0	jq
+dep	pkgconfig	pkgconf

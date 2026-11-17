@@ -1,0 +1,12 @@
+name	autorandr-udev
+version	1.15-r2
+description	Auto-detect the connected display hardware and load the appropriate X11 setup using xrandr (udev rules)
+url	https://github.com/phillipberndt/autorandr
+license	GPL-3.0-or-later
+size	1741
+installed-size	98
+depends	
+origin	autorandr
+repo	community
+file	autorandr-udev-1.15-r2.apk
+checksum	Q1QbnpcS/T4J0Ka84k9qAFW1qM9Fo=

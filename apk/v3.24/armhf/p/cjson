@@ -1,0 +1,13 @@
+name	cjson
+version	1.7.19-r1
+description	Lighweight JSON parser in C
+url	https://github.com/DaveGamble/cJSON
+license	MIT
+size	11751
+installed-size	21636
+depends	so:libc.musl-armhf.so.1
+origin	cjson
+repo	main
+file	cjson-1.7.19-r1.apk
+checksum	Q1urBssNzRuWf4ulThjSCXup2hUCM=
+dep	so:libc.musl-armhf.so.1	musl

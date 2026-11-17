@@ -1,0 +1,17 @@
+name	hyprwayland-scanner
+version	0.4.6-r0
+description	Hyprland implementation of wayland-scanner for C++
+url	https://github.com/hyprwm/hyprwayland-scanner
+license	BSD-3-Clause
+size	90916
+installed-size	189338
+depends	pkgconfig so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpugixml.so.1 so:libstdc++.so.6
+origin	hyprwayland-scanner
+repo	community
+file	hyprwayland-scanner-0.4.6-r0.apk
+checksum	Q1S4ROv1hGSgKIT76F3SpE5GPyHaI=
+dep	pkgconfig	pkgconf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpugixml.so.1	pugixml
+dep	so:libstdc++.so.6	libstdc++

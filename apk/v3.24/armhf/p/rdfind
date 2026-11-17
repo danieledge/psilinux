@@ -1,0 +1,17 @@
+name	rdfind
+version	1.8.0-r0
+description	Redundant data find - a program that finds duplicate files
+url	https://rdfind.pauldreik.se
+license	GPL-2.0-or-later
+size	31699
+installed-size	66996
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libnettle.so.8 so:libstdc++.so.6 so:libxxhash.so.0
+origin	rdfind
+repo	main
+file	rdfind-1.8.0-r0.apk
+checksum	Q12qIoo3BeEVKA1o18bOpx9ZHKNYs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libnettle.so.8	nettle
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxxhash.so.0	libxxhash

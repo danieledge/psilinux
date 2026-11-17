@@ -1,0 +1,24 @@
+name	libass-dev
+version	0.17.4-r1
+description	Portable library for SSA/ASS subtitle rendering (development files)
+url	https://github.com/libass/libass
+license	ISC
+size	17405
+installed-size	46276
+depends	fontconfig-dev fribidi-dev freetype-dev harfbuzz-dev libunibreak-dev libass=0.17.4-r1 pc:fontconfig>=2.10.92 pc:freetype2>=9.17.3 pc:fribidi>=0.19.1 pc:harfbuzz>=1.2.3 pc:libunibreak>=1.1 pkgconfig
+origin	libass
+repo	community
+file	libass-dev-0.17.4-r1.apk
+checksum	Q1WXykbcuF600V6UKAeBiKiGKf6jI=
+dep	fontconfig-dev	fontconfig-dev
+dep	fribidi-dev	fribidi-dev
+dep	freetype-dev	freetype-dev
+dep	harfbuzz-dev	harfbuzz-dev
+dep	libunibreak-dev	libunibreak-dev
+dep	libass=0.17.4-r1	libass
+dep	pc:fontconfig>=2.10.92	fontconfig-dev
+dep	pc:freetype2>=9.17.3	freetype-dev
+dep	pc:fribidi>=0.19.1	fribidi-dev
+dep	pc:harfbuzz>=1.2.3	harfbuzz-dev
+dep	pc:libunibreak>=1.1	libunibreak-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	font-noto-ahom
+version	2026.11.01-r0
+description	Noto Serif Ahom font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	13702
+installed-size	21435
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-ahom-2026.11.01-r0.apk
+checksum	Q1VRAVR5uOxZzBjBlkTBQW7uLiH9w=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

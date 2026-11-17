@@ -1,0 +1,13 @@
+name	apparmor-profiles-api
+version	4.1.7-r1
+description	AppArmor api / abi definition files
+url	https://gitlab.com/apparmor/apparmor/wikis/home
+license	GPL-2.0-or-later
+size	4002
+installed-size	11886
+depends	apparmor
+origin	apparmor
+repo	main
+file	apparmor-profiles-api-4.1.7-r1.apk
+checksum	Q1ARBVMrGTNiKt5U1OOQ42VYRaeqM=
+dep	apparmor	apparmor

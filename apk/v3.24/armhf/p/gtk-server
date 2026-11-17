@@ -1,0 +1,18 @@
+name	gtk-server
+version	2.4.6-r2
+description	Interpreted GUI Programming for GTK
+url	https://www.gtk-server.org/
+license	GPL-2.0-or-later
+size	111503
+installed-size	347195
+depends	so:libc.musl-armhf.so.1 so:libffi.so.8 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0
+origin	gtk-server
+repo	community
+file	gtk-server-2.4.6-r2.apk
+checksum	Q1JeeVdZDW4bimMh3sDetrMMmkZRk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libffi.so.8	libffi
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0

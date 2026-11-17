@@ -1,0 +1,15 @@
+name	imagemagick-perlmagick
+version	7.1.2.35-r0
+description	PerlMagick Perl Modules for ImageMagick
+url	https://imagemagick.org/
+license	ImageMagick
+size	109618
+installed-size	326057
+depends	so:libMagickCore-7.Q16HDRI.so.10 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	imagemagick
+repo	community
+file	imagemagick-perlmagick-7.1.2.35-r0.apk
+checksum	Q18vZBxiLq5gyVQxYOxL31Vjzc90o=
+dep	so:libMagickCore-7.Q16HDRI.so.10	imagemagick-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

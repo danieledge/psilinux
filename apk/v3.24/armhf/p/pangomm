@@ -1,0 +1,23 @@
+name	pangomm
+version	2.56.1-r0
+description	C++ bindings for pango
+url	https://www.gtkmm.org/
+license	LGPL-2.1-or-later AND GPL-2.0-or-later
+size	58859
+installed-size	193920
+depends	so:libc.musl-armhf.so.1 so:libcairomm-1.16.so.1 so:libgcc_s.so.1 so:libgiomm-2.68.so.1 so:libglib-2.0.so.0 so:libglibmm-2.68.so.1 so:libgobject-2.0.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libsigc-3.0.so.0 so:libstdc++.so.6
+origin	pangomm
+repo	community
+file	pangomm-2.56.1-r0.apk
+checksum	Q16+ZjU3dyE/DbGIrD3fy6MGSSFAc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairomm-1.16.so.1	cairomm
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgiomm-2.68.so.1	glibmm
+dep	so:libglib-2.0.so.0	glib
+dep	so:libglibmm-2.68.so.1	glibmm
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libsigc-3.0.so.0	libsigc++3
+dep	so:libstdc++.so.6	libstdc++

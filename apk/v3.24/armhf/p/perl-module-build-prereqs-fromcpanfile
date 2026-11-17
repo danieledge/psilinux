@@ -1,0 +1,15 @@
+name	perl-module-build-prereqs-fromcpanfile
+version	0.02-r1
+description	Construct prereq parameters of Module::Build from cpanfile
+url	https://metacpan.org/release/Module-Build-Prereqs-FromCPANfile/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	3453
+installed-size	4359
+depends	perl perl-module-build perl-module-cpanfile
+origin	perl-module-build-prereqs-fromcpanfile
+repo	community
+file	perl-module-build-prereqs-fromcpanfile-0.02-r1.apk
+checksum	Q1/sQRoWqcz/PbYml2dbOGBAhCs0A=
+dep	perl	perl
+dep	perl-module-build	perl-module-build
+dep	perl-module-cpanfile	perl-module-cpanfile

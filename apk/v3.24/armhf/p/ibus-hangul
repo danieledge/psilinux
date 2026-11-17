@@ -1,0 +1,21 @@
+name	ibus-hangul
+version	1.5.5-r3
+description	Korean input method engine for IBus
+url	https://github.com/libhangul/ibus-hangul
+license	GPL-2.0-only
+size	50761
+installed-size	138685
+depends	py3-gobject3 gtk-update-icon-cache so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libhangul.so.1 so:libibus-1.0.so.5 so:libintl.so.8
+origin	ibus-hangul
+repo	community
+file	ibus-hangul-1.5.5-r3.apk
+checksum	Q1/2BOlAGbn1WzBX9TU9cq+OMMaNA=
+dep	py3-gobject3	py3-gobject3
+dep	gtk-update-icon-cache	gtk-update-icon-cache
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libhangul.so.1	libhangul
+dep	so:libibus-1.0.so.5	ibus
+dep	so:libintl.so.8	libintl

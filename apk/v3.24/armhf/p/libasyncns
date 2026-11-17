@@ -1,0 +1,13 @@
+name	libasyncns
+version	0.8-r5
+description	Asynchronous Name Service Library
+url	https://0pointer.de/lennart/projects/libasyncns/
+license	LGPL-2.0-or-later
+size	10358
+installed-size	17528
+depends	so:libc.musl-armhf.so.1
+origin	libasyncns
+repo	community
+file	libasyncns-0.8-r5.apk
+checksum	Q1tbfANVV6JxVh5FifBaZQTqcBw8c=
+dep	so:libc.musl-armhf.so.1	musl

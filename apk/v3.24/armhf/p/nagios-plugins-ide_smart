@@ -1,0 +1,15 @@
+name	nagios-plugins-ide_smart
+version	2.5-r0
+description	Nagios plugin check_ide_smart
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	18786
+installed-size	38516
+depends	nagios-plugins so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-ide_smart-2.5-r0.apk
+checksum	Q1a7HbSkCtpvMveSlmtKyh88gEOVc=
+dep	nagios-plugins	nagios-plugins
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

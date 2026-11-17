@@ -1,0 +1,14 @@
+name	abseil-cpp-city
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-city
+url	https://abseil.io/
+license	Apache-2.0
+size	6392
+installed-size	9496
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-city-20250814.1-r0.apk
+checksum	Q1L8eVUslLIRbyj5AZosiF2QwoEJk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

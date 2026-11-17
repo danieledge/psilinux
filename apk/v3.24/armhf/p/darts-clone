@@ -1,0 +1,15 @@
+name	darts-clone
+version	0.32h-r1
+description	C++ header library for a static double-array trie structure
+url	https://github.com/s-yata/darts-clone
+license	BSD-2-Clause
+size	37768
+installed-size	86300
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	darts-clone
+repo	community
+file	darts-clone-0.32h-r1.apk
+checksum	Q1rYrx7dFc1ohB0Q9NXsvDAk5zck4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

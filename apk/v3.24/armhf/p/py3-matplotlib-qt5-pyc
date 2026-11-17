@@ -1,0 +1,14 @@
+name	py3-matplotlib-qt5-pyc
+version	3.10.6-r2
+description	Precompiled Python bytecode for py3-matplotlib-qt5
+url	https://matplotlib.org
+license	PSF-2.0
+size	3297
+installed-size	2991
+depends	py3-matplotlib-qt5=3.10.6-r2 python3~3.14
+origin	py3-matplotlib
+repo	community
+file	py3-matplotlib-qt5-pyc-3.10.6-r2.apk
+checksum	Q1xqo9K1i5XyBkbuFwqlM7DpyKQAM=
+dep	py3-matplotlib-qt5=3.10.6-r2	py3-matplotlib-qt5
+dep	python3~3.14	python3

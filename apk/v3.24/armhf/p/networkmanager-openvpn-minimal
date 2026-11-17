@@ -1,0 +1,21 @@
+name	networkmanager-openvpn-minimal
+version	1.12.2-r1
+description	NetworkManager VPN plugin for OpenVPN
+url	https://gitlab.gnome.org/GNOME/NetworkManager-openvpn
+license	GPL-2.0-or-later
+size	56674
+installed-size	127734
+depends	openvpn /bin/sh so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libnm.so.0
+origin	networkmanager-openvpn
+repo	community
+file	networkmanager-openvpn-minimal-1.12.2-r1.apk
+checksum	Q1mRzNTsijZMBHVbpAXZZyBXtuFPc=
+dep	openvpn	openvpn
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libnm.so.0	libnm

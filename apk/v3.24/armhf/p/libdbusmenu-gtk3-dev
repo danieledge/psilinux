@@ -1,0 +1,20 @@
+name	libdbusmenu-gtk3-dev
+version	16.04.0-r6
+description	Library for passing menus over DBus (GTK+3) (development files)
+url	https://launchpad.net/libdbusmenu
+license	GPL-3.0-or-later AND LGPL-2.1-or-later AND LGPL-3.0-or-later
+size	11223
+installed-size	56394
+depends	libdbusmenu-glib-dev=16.04.0-r6 gtk+3.0-dev gdk-pixbuf-dev libdbusmenu-gtk3=16.04.0-r6 pc:dbusmenu-glib-0.4 pc:gdk-pixbuf-2.0 pc:gtk+-3.0 pkgconfig
+origin	libdbusmenu-glib
+repo	community
+file	libdbusmenu-gtk3-dev-16.04.0-r6.apk
+checksum	Q1l2TbGm6j+peUpG+VzRor06Ekgrk=
+dep	libdbusmenu-glib-dev=16.04.0-r6	libdbusmenu-glib-dev
+dep	gtk+3.0-dev	gtk+3.0-dev
+dep	gdk-pixbuf-dev	gdk-pixbuf-dev
+dep	libdbusmenu-gtk3=16.04.0-r6	libdbusmenu-gtk3
+dep	pc:dbusmenu-glib-0.4	libdbusmenu-glib-dev
+dep	pc:gdk-pixbuf-2.0	gdk-pixbuf-dev
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pkgconfig	pkgconf

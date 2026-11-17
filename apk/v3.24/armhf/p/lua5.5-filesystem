@@ -1,0 +1,14 @@
+name	lua5.5-filesystem
+version	1.8.0-r5
+description	Filesystem functions for Lua 5.5
+url	https://lunarmodules.github.io/luafilesystem/
+license	MIT
+size	7493
+installed-size	13635
+depends	lua5.5 so:libc.musl-armhf.so.1
+origin	lua-filesystem
+repo	main
+file	lua5.5-filesystem-1.8.0-r5.apk
+checksum	Q1VR/CzgOQcv2evGBULFu3HMOZwHE=
+dep	lua5.5	lua5.5
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	mtd-utils-misc
+version	2.2.1-r0
+description	MTD utils (miscellaneous commands)
+url	http://www.linux-mtd.infradead.org/
+license	GPL-2.0-only
+size	59894
+installed-size	157448
+depends	so:libc.musl-armhf.so.1
+origin	mtd-utils
+repo	main
+file	mtd-utils-misc-2.2.1-r0.apk
+checksum	Q1nGZd5GR6J73p2OdPaO0RmIZ38qI=
+dep	so:libc.musl-armhf.so.1	musl

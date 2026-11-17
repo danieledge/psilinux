@@ -1,0 +1,17 @@
+name	libdbusmenu-glib
+version	16.04.0-r6
+description	Library for passing menus over DBus
+url	https://launchpad.net/libdbusmenu
+license	GPL-3.0-or-later AND LGPL-2.1-or-later AND LGPL-3.0-or-later
+size	49733
+installed-size	129420
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libjson-glib-1.0.so.0
+origin	libdbusmenu-glib
+repo	community
+file	libdbusmenu-glib-16.04.0-r6.apk
+checksum	Q1s7C66SKH/GlHRC1nLwkqgA8H2VU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libjson-glib-1.0.so.0	json-glib

@@ -1,0 +1,15 @@
+name	nagios-plugins-ntp
+version	2.5-r0
+description	Nagios plugin check_ntp
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	69661
+installed-size	148504
+depends	nagios-plugins so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-ntp-2.5-r0.apk
+checksum	Q1ZCwZH3jGW9IrY3eIvfO/ZnIEsHA=
+dep	nagios-plugins	nagios-plugins
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

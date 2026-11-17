@@ -1,0 +1,14 @@
+name	hickory-dns-utils
+version	0.26.3-r0
+description	A safe and secure DNS server with DNSSEC support
+url	https://hickory-dns.org/
+license	Apache-2.0 OR MIT
+size	6114929
+installed-size	12181216
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	hickory-dns
+repo	community
+file	hickory-dns-utils-0.26.3-r0.apk
+checksum	Q1TZ2rvSTO11PSqnYYedfiXDHddNg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

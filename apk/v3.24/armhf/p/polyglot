@@ -1,0 +1,13 @@
+name	polyglot
+version	2.0.4-r2
+description	Protocol adapter to run UCI chess engines under XBoard
+url	https://www.chessprogramming.org/PolyGlot
+license	GPL-2.0-or-later
+size	65567
+installed-size	128436
+depends	so:libc.musl-armhf.so.1
+origin	polyglot
+repo	community
+file	polyglot-2.0.4-r2.apk
+checksum	Q1HGoOawGYMpVI+zM1EZwMwdKK57A=
+dep	so:libc.musl-armhf.so.1	musl

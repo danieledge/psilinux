@@ -1,0 +1,30 @@
+name	perl-mastodon-client
+version	0.017-r1
+description	Talk to a Mastodon server
+url	https://metacpan.org/release/Mastodon-Client/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	21878
+installed-size	78858
+depends	perl perl-class-load perl-datetime perl-datetime-format-strptime perl-future perl-http-message perl-http-thin perl-image-info perl-io-async perl-json-maybexs perl-log-any perl-moo perl-net-async-http perl-role-eventemitter perl-try-tiny perl-type-tiny perl-types-path-tiny perl-uri
+origin	perl-mastodon-client
+repo	community
+file	perl-mastodon-client-0.017-r1.apk
+checksum	Q1u0aN9iJG60kXQI05aMoJBwlkz8k=
+dep	perl	perl
+dep	perl-class-load	perl-class-load
+dep	perl-datetime	perl-datetime
+dep	perl-datetime-format-strptime	perl-datetime-format-strptime
+dep	perl-future	perl-future
+dep	perl-http-message	perl-http-message
+dep	perl-http-thin	perl-http-thin
+dep	perl-image-info	perl-image-info
+dep	perl-io-async	perl-io-async
+dep	perl-json-maybexs	perl-json-maybexs
+dep	perl-log-any	perl-log-any
+dep	perl-moo	perl-moo
+dep	perl-net-async-http	perl-net-async-http
+dep	perl-role-eventemitter	perl-role-eventemitter
+dep	perl-try-tiny	perl-try-tiny
+dep	perl-type-tiny	perl-type-tiny
+dep	perl-types-path-tiny	perl-types-path-tiny
+dep	perl-uri	perl-uri

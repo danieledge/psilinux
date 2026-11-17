@@ -1,0 +1,13 @@
+name	imap-dev
+version	2007f-r16
+description	An IMAP/POP server (development files)
+url	http://www.washington.edu/imap
+license	Apache-2.0
+size	34617
+installed-size	130768
+depends	c-client=2007f-r16
+origin	imap
+repo	main
+file	imap-dev-2007f-r16.apk
+checksum	Q1tRoE+/gJkZnxsCp9Id5zHXBwCV8=
+dep	c-client=2007f-r16	c-client

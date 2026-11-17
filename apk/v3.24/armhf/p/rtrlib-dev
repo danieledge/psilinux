@@ -1,0 +1,14 @@
+name	rtrlib-dev
+version	0.8.0-r6
+description	Open-source C implementation of the RPKI/Router Protocol client (development files)
+url	https://github.com/rtrlib/rtrlib
+license	MIT
+size	12141
+installed-size	38172
+depends	rtrlib=0.8.0-r6 pkgconfig
+origin	rtrlib
+repo	community
+file	rtrlib-dev-0.8.0-r6.apk
+checksum	Q1yatFIxaOuT9WK7wJvDwmnlaRtk0=
+dep	rtrlib=0.8.0-r6	rtrlib
+dep	pkgconfig	pkgconf

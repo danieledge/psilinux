@@ -1,0 +1,13 @@
+name	xmlrpc-c-static
+version	1.51.08-r5
+description	This library provides a modular implementation of XML-RPC for C and C++ (static library)
+url	https://xmlrpc-c.sourceforge.net/
+license	BSD-3-Clause AND MIT
+size	2378892
+installed-size	6917820
+depends	xmlrpc-c-dev
+origin	xmlrpc-c
+repo	main
+file	xmlrpc-c-static-1.51.08-r5.apk
+checksum	Q130WsPeWAPkRHirPaybANTC8fwXw=
+dep	xmlrpc-c-dev	xmlrpc-c-dev

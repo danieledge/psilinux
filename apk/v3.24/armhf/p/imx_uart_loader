@@ -1,0 +1,13 @@
+name	imx_uart_loader
+version	0_git20201102-r1
+description	serial loader for i.MX5/6/7/8 series (UART)
+url	https://github.com/boundarydevices/imx_usb_loader
+license	LGPL-2.1-only
+size	16472
+installed-size	30016
+depends	so:libc.musl-armhf.so.1
+origin	imx_loader
+repo	community
+file	imx_uart_loader-0_git20201102-r1.apk
+checksum	Q1YLctZzK/PpFAlG5Qhm/dP9i25YA=
+dep	so:libc.musl-armhf.so.1	musl

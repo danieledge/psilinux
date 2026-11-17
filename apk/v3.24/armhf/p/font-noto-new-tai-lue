@@ -1,0 +1,14 @@
+name	font-noto-new-tai-lue
+version	2026.11.01-r0
+description	Noto Sans New Tai Lue font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	33389
+installed-size	79010
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-new-tai-lue-2026.11.01-r0.apk
+checksum	Q15ugDvYhY/+LZHSPognaUGUoLz2w=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

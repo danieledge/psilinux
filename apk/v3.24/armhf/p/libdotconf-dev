@@ -1,0 +1,14 @@
+name	libdotconf-dev
+version	1.4.1-r0
+description	dot.conf configuration file parser (development files)
+url	https://github.com/williamh/dotconf
+license	LGPL-2.1-only
+size	24197
+installed-size	59455
+depends	libdotconf=1.4.1-r0 pkgconfig
+origin	libdotconf
+repo	community
+file	libdotconf-dev-1.4.1-r0.apk
+checksum	Q1QzdCOoCFyq89gXoIBRRTzopdx5c=
+dep	libdotconf=1.4.1-r0	libdotconf
+dep	pkgconfig	pkgconf

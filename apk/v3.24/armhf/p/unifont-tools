@@ -1,0 +1,15 @@
+name	unifont-tools
+version	17.0.04-r0
+description	GNU Unifont glyphs
+url	https://unifoundry.com/unifont/index.html
+license	GFDL-1.3-or-later GPL-2.0-or-later WITH Font-exception-2.0
+size	96484
+installed-size	281392
+depends	bdftopcf perl-gd so:libc.musl-armhf.so.1
+origin	font-unifont
+repo	main
+file	unifont-tools-17.0.04-r0.apk
+checksum	Q1vmA6ZKC105/kwtWyyHzXaiai+ro=
+dep	bdftopcf	bdftopcf
+dep	perl-gd	perl-gd
+dep	so:libc.musl-armhf.so.1	musl

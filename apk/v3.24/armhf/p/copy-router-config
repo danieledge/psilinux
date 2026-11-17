@@ -1,0 +1,14 @@
+name	copy-router-config
+version	1.0-r1
+description	copy-router-config and merge-router-config to copy and merge Cisco Routers Configuration
+url	https://www.offensive-security.com/
+license	GPL-2.0
+size	2166
+installed-size	2040
+depends	perl perl-cisco-copyconfig
+origin	copy-router-config
+repo	community
+file	copy-router-config-1.0-r1.apk
+checksum	Q1A9TJe9ehpNP5glnYW+vfO+yC428=
+dep	perl	perl
+dep	perl-cisco-copyconfig	perl-cisco-copyconfig

@@ -1,0 +1,15 @@
+name	sndio
+version	1.10.0-r4
+description	Small audio and MIDI framework from the OpenBSD project
+url	https://sndio.org/
+license	ISC
+size	73817
+installed-size	149052
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libsndio.so.7
+origin	sndio
+repo	community
+file	sndio-1.10.0-r4.apk
+checksum	Q1xK4g8RwxhScfdv0I6ws0qCU7Vbc=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsndio.so.7	sndio-libs

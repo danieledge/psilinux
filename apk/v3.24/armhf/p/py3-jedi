@@ -1,0 +1,14 @@
+name	py3-jedi
+version	0.20.0-r0
+description	Awesome autocompletion and static analysis library for Python
+url	https://jedi.readthedocs.io
+license	MIT
+size	3257846
+installed-size	14580081
+depends	py3-parso python3~3.14
+origin	py3-jedi
+repo	community
+file	py3-jedi-0.20.0-r0.apk
+checksum	Q1W+M9ifCRJvuwZx4U63kQHQwdnZM=
+dep	py3-parso	py3-parso
+dep	python3~3.14	python3

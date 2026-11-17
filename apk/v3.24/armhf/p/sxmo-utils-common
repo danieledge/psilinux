@@ -1,0 +1,53 @@
+name	sxmo-utils-common
+version	1.18.1-r4
+description	Utility scripts, programs, and configs that hold the Sxmo UI environment together - common dependencies
+url	https://git.sr.ht/~mil/sxmo-utils
+license	AGPL-3.0-only
+size	1583
+installed-size	0
+depends	sxmo-utils=1.18.1-r4 sxmo-utils-audio sxmo-utils-wm adwaita-icon-theme alsa-utils bemenu brightnessctl busctl codemadness-frontends conky dnsmasq dunst dunstify evtest expect file font-dejavu font-dejavu-sans-mono-nerd geoclue iio-sensor-proxy inotify-tools lisgd mediainfo mmsd-tng mmsd-tng-tools mnc modemmanager mpv ncurses pnc polkit pulseaudio-utils superd tinydm tzdata upower v4l-utils vim vvmd xdg-user-dirs yt-dlp
+origin	sxmo-utils
+repo	community
+file	sxmo-utils-common-1.18.1-r4.apk
+checksum	Q1ex4IlPKsR0MK98T4u/3pHtdhvgo=
+dep	sxmo-utils=1.18.1-r4	sxmo-utils
+dep	sxmo-utils-audio	sxmo-utils-audio-pipewire
+dep	sxmo-utils-wm	sxmo-utils-sway
+dep	adwaita-icon-theme	adwaita-icon-theme
+dep	alsa-utils	alsa-utils
+dep	bemenu	bemenu
+dep	brightnessctl	brightnessctl
+dep	busctl	busctl
+dep	codemadness-frontends	codemadness-frontends
+dep	conky	conky
+dep	dnsmasq	dnsmasq
+dep	dunst	dunst
+dep	dunstify	dunstify
+dep	evtest	evtest
+dep	expect	expect
+dep	file	file
+dep	font-dejavu	font-dejavu
+dep	font-dejavu-sans-mono-nerd	font-dejavu-sans-mono-nerd
+dep	geoclue	geoclue
+dep	iio-sensor-proxy	iio-sensor-proxy
+dep	inotify-tools	inotify-tools
+dep	lisgd	lisgd
+dep	mediainfo	mediainfo
+dep	mmsd-tng	mmsd-tng
+dep	mmsd-tng-tools	mmsd-tng-tools
+dep	mnc	mnc
+dep	modemmanager	modemmanager
+dep	mpv	mpv
+dep	ncurses	ncurses
+dep	pnc	pnc
+dep	polkit	polkit
+dep	pulseaudio-utils	pulseaudio-utils
+dep	superd	superd
+dep	tinydm	tinydm
+dep	tzdata	tzdata
+dep	upower	upower
+dep	v4l-utils	v4l-utils
+dep	vim	vim
+dep	vvmd	vvmd
+dep	xdg-user-dirs	xdg-user-dirs
+dep	yt-dlp	yt-dlp

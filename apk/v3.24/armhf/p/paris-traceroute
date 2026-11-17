@@ -1,0 +1,13 @@
+name	paris-traceroute
+version	0.93-r3
+description	advanced traceroute utility
+url	https://github.com/libparistraceroute/libparistraceroute
+license	GPL-3.0-only
+size	62765
+installed-size	140652
+depends	so:libc.musl-armhf.so.1
+origin	paris-traceroute
+repo	community
+file	paris-traceroute-0.93-r3.apk
+checksum	Q1IsF5AqpxHU6LocJDd5DyshXJRbQ=
+dep	so:libc.musl-armhf.so.1	musl

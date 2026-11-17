@@ -1,0 +1,13 @@
+name	libdmtx-libs
+version	0.7.8-r0
+description	A software for reading and writing Data Matrix 2D barcodes (libraries)
+url	https://github.com/dmtx
+license	BSD-2-Clause
+size	37937
+installed-size	70852
+depends	so:libc.musl-armhf.so.1
+origin	libdmtx
+repo	community
+file	libdmtx-libs-0.7.8-r0.apk
+checksum	Q1iS6VcQzwap/C+dxZ+KZvm6OkwI0=
+dep	so:libc.musl-armhf.so.1	musl

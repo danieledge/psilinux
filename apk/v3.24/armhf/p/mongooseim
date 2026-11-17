@@ -1,0 +1,24 @@
+name	mongooseim
+version	6.3.3-r19
+description	Robust, scalable and efficient XMPP server aimed at large installations
+url	https://www.erlang-solutions.com/products/mongooseim.html
+license	GPL-2.0-or-later
+size	20356409
+installed-size	36485442
+depends	bash erlang>100 runuser /bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libncursesw.so.6 so:libodbc.so.2 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1
+origin	mongooseim
+repo	community
+file	mongooseim-6.3.3-r19.apk
+checksum	Q1U/c4yoE08N/4tkfXU8zXnhXQwwU=
+dep	bash	bash
+dep	erlang>100	erlang27
+dep	runuser	runuser
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libodbc.so.2	unixodbc
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

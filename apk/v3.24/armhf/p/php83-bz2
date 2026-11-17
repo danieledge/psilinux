@@ -1,0 +1,15 @@
+name	php83-bz2
+version	8.3.36-r0
+description	PHP83 extension: Bzip2
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	9486
+installed-size	17742
+depends	php83-common so:libbz2.so.1 so:libc.musl-armhf.so.1
+origin	php83
+repo	community
+file	php83-bz2-8.3.36-r0.apk
+checksum	Q1Jz/YSu9Oy1AH3/pRP3ragRsx9OA=
+dep	php83-common	php83-common
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl

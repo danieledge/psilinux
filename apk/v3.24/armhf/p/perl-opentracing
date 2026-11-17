@@ -1,0 +1,23 @@
+name	perl-opentracing
+version	1.006-r1
+description	Application process monitoring, as defined by opentracing.io
+url	https://metacpan.org/release/OpenTracing/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	17741
+installed-size	53528
+depends	perl perl-bytes-random-secure perl-class-method-modifiers perl-indirect perl-json-maybeutf8 perl-json-maybexs perl-log-any perl-module-pluggable perl-net-address-ip-local perl-role-tiny perl-syntax-keyword-try
+origin	perl-opentracing
+repo	community
+file	perl-opentracing-1.006-r1.apk
+checksum	Q1e151SZoRNf++toV4cFjOVBia1MY=
+dep	perl	perl
+dep	perl-bytes-random-secure	perl-bytes-random-secure
+dep	perl-class-method-modifiers	perl-class-method-modifiers
+dep	perl-indirect	perl-indirect
+dep	perl-json-maybeutf8	perl-json-maybeutf8
+dep	perl-json-maybexs	perl-json-maybexs
+dep	perl-log-any	perl-log-any
+dep	perl-module-pluggable	perl-module-pluggable
+dep	perl-net-address-ip-local	perl-net-address-ip-local
+dep	perl-role-tiny	perl-role-tiny
+dep	perl-syntax-keyword-try	perl-syntax-keyword-try

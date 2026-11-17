@@ -1,0 +1,13 @@
+name	py3-maturin-pyc
+version	1.11.5-r1
+description	Precompiled Python bytecode for py3-maturin
+url	https://github.com/PyO3/maturin
+license	Apache-2.0 OR MIT
+size	9424
+installed-size	17664
+depends	python3~3.14
+origin	maturin
+repo	main
+file	py3-maturin-pyc-1.11.5-r1.apk
+checksum	Q1rUMuxO6JEBcH7mVfvtwBe3RdWfY=
+dep	python3~3.14	python3

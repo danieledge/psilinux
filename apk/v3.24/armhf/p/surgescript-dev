@@ -1,0 +1,14 @@
+name	surgescript-dev
+version	0.5.6.1-r0
+description	scripting language for games (development files)
+url	https://docs.opensurge2d.org
+license	Apache-2.0
+size	161837
+installed-size	584879
+depends	surgescript=0.5.6.1-r0 pkgconfig
+origin	surgescript
+repo	community
+file	surgescript-dev-0.5.6.1-r0.apk
+checksum	Q1OdLrERjNOK60ox5rTNrk+8vp3UM=
+dep	surgescript=0.5.6.1-r0	surgescript
+dep	pkgconfig	pkgconf

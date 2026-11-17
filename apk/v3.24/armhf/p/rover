@@ -1,0 +1,14 @@
+name	rover
+version	1.0.1-r4
+description	Simple file browser for the terminal
+url	https://lecram.github.io/p/rover/
+license	Public-Domain
+size	17748
+installed-size	34044
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	rover
+repo	community
+file	rover-1.0.1-r4.apk
+checksum	Q1yOlu0JafaiwTV+0pcfIajjShEjw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

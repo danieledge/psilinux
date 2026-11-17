@@ -1,0 +1,20 @@
+name	qt5-qtquickcontrols
+version	5.15.18_git20250330-r0
+description	Qt5 - module with set of QtQuick controls
+url	https://www.qt.io/developers/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	1411476
+installed-size	4722068
+depends	so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt5Qml.so.5 so:libQt5Quick.so.5 so:libQt5Widgets.so.5 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	qt5-qtquickcontrols
+repo	community
+file	qt5-qtquickcontrols-5.15.18_git20250330-r0.apk
+checksum	Q16ziFgaGSgDX8iRNkwr5C1Lf+7lY=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Gui.so.5	qt5-qtbase-x11
+dep	so:libQt5Qml.so.5	qt5-qtdeclarative
+dep	so:libQt5Quick.so.5	qt5-qtdeclarative
+dep	so:libQt5Widgets.so.5	qt5-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

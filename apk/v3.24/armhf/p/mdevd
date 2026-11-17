@@ -1,0 +1,14 @@
+name	mdevd
+version	0.1.8.2-r0
+description	A netlink-listening device manager using mdev's configuration files
+url	https://skarnet.org/software/mdevd/
+license	ISC
+size	21501
+installed-size	47997
+depends	so:libc.musl-armhf.so.1 so:libskarnet.so.2.15
+origin	mdevd
+repo	main
+file	mdevd-0.1.8.2-r0.apk
+checksum	Q18AnQ/Pu1eTWef4V3qspxroJnbN8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libskarnet.so.2.15	skalibs-libs

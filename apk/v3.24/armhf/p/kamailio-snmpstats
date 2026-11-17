@@ -1,0 +1,16 @@
+name	kamailio-snmpstats
+version	6.0.6-r0
+description	Kamailio SNMP statistics support
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	91171
+installed-size	286326
+depends	kamailio so:libc.musl-armhf.so.1 so:libnetsnmp.so.45 so:libnetsnmpagent.so.45
+origin	kamailio
+repo	main
+file	kamailio-snmpstats-6.0.6-r0.apk
+checksum	Q1HRXyCgVCcUGerkETC3lo5BmBjs4=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnetsnmp.so.45	net-snmp-libs
+dep	so:libnetsnmpagent.so.45	net-snmp-agent-libs

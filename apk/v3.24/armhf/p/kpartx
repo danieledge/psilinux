@@ -1,0 +1,15 @@
+name	kpartx
+version	0.13.0-r0
+description	Create device maps from partition tables (from multipath-tools)
+url	http://christophe.varoqui.free.fr/
+license	LGPL-2.0-only
+size	21324
+installed-size	38288
+depends	so:libc.musl-armhf.so.1 so:libdevmapper.so.1.02 so:libgcc_s.so.1
+origin	multipath-tools
+repo	main
+file	kpartx-0.13.0-r0.apk
+checksum	Q16PqqYiFQ3UOiyZBExcvhYqE2jO8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdevmapper.so.1.02	device-mapper-libs
+dep	so:libgcc_s.so.1	libgcc

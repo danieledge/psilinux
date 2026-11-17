@@ -1,0 +1,14 @@
+name	ocaml-base-dev
+version	0.16.3-r3
+description	Full standard library replacement for OCaml (development files)
+url	https://github.com/janestreet/base
+license	MIT
+size	10099282
+installed-size	26298659
+depends	ocaml-base=0.16.3-r3 ocaml-sexplib0-dev
+origin	ocaml-base
+repo	community
+file	ocaml-base-dev-0.16.3-r3.apk
+checksum	Q1l8Tcac8Pc4h/Sb+L44o8YRKX2bo=
+dep	ocaml-base=0.16.3-r3	ocaml-base
+dep	ocaml-sexplib0-dev	ocaml-sexplib0-dev

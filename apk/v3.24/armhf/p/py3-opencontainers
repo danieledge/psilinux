@@ -1,0 +1,14 @@
+name	py3-opencontainers
+version	0.0.15-r1
+description	Python module for oci specifications
+url	https://pypi.python.org/project/opencontainers
+license	MPL-2.0
+size	44047
+installed-size	160122
+depends	py3-requests python3~3.14
+origin	py3-opencontainers
+repo	community
+file	py3-opencontainers-0.0.15-r1.apk
+checksum	Q1JMJhVXxCy0SFaOCiPvD+NC13leE=
+dep	py3-requests	py3-requests
+dep	python3~3.14	python3

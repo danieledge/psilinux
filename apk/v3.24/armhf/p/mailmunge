@@ -1,0 +1,23 @@
+name	mailmunge
+version	3.20-r0
+description	email filtering framework that uses libmilter to interface with Postfix or Sendmail
+url	https://mailmunge.org
+license	GPL-2.0-only
+size	135487
+installed-size	426030
+depends	perl-io-socket-ssl perl-html-parser perl-mail-dkim perl-mime-tools perl-socket perl-time-local perl-unix-syslog tzdata /bin/sh so:libc.musl-armhf.so.1 so:libmilter.so.1.0.2
+origin	mailmunge
+repo	community
+file	mailmunge-3.20-r0.apk
+checksum	Q1ox/XjpBjYFRcQWwC5YrwtnSY0iw=
+dep	perl-io-socket-ssl	perl-io-socket-ssl
+dep	perl-html-parser	perl-html-parser
+dep	perl-mail-dkim	perl-mail-dkim
+dep	perl-mime-tools	perl-mime-tools
+dep	perl-socket	perl-socket
+dep	perl-time-local	perl-time-local
+dep	perl-unix-syslog	perl-unix-syslog
+dep	tzdata	tzdata
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmilter.so.1.0.2	libmilter

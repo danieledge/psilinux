@@ -1,0 +1,14 @@
+name	py3-inotify
+version	0.9.6-r15
+description	Linux filesystem events monitoring
+url	https://pypi.org/project/pyinotify
+license	MIT
+size	28138
+installed-size	97207
+depends	python3~3.14 so:libc.musl-armhf.so.1
+origin	py3-inotify
+repo	community
+file	py3-inotify-0.9.6-r15.apk
+checksum	Q1VSskSzWhvsOmnIYE0n9slqWxxy4=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,42 @@
+name	cloud-init-datasources
+version	26.1-r3
+description	Cloud-init all datasources (meta-package)
+url	https://cloud-init.io
+license	Apache-2.0 OR GPL-3.0-only
+size	1467
+installed-size	0
+depends	cloud-init-datasource-akamai=26.1-r3 cloud-init-datasource-aliyun=26.1-r3 cloud-init-datasource-altcloud=26.1-r3 cloud-init-datasource-azure=26.1-r3 cloud-init-datasource-bigstep=26.1-r3 cloud-init-datasource-cloudcix=26.1-r3 cloud-init-datasource-cloudsigma=26.1-r3 cloud-init-datasource-cloudstack=26.1-r3 cloud-init-datasource-configdrive=26.1-r3 cloud-init-datasource-digitalocean=26.1-r3 cloud-init-datasource-ec2=26.1-r3 cloud-init-datasource-exoscale=26.1-r3 cloud-init-datasource-gce=26.1-r3 cloud-init-datasource-hetzner=26.1-r3 cloud-init-datasource-ibmcloud=26.1-r3 cloud-init-datasource-lxd=26.1-r3 cloud-init-datasource-maas=26.1-r3 cloud-init-datasource-nocloud=26.1-r3 cloud-init-datasource-nwcs=26.1-r3 cloud-init-datasource-opennebula=26.1-r3 cloud-init-datasource-openstack=26.1-r3 cloud-init-datasource-oracle=26.1-r3 cloud-init-datasource-ovf=26.1-r3 cloud-init-datasource-rbx=26.1-r3 cloud-init-datasource-scaleway=26.1-r3 cloud-init-datasource-smartos=26.1-r3 cloud-init-datasource-upcloud=26.1-r3 cloud-init-datasource-vmware=26.1-r3 cloud-init-datasource-vultr=26.1-r3 cloud-init-datasource-wsl=26.1-r3
+origin	cloud-init
+repo	community
+file	cloud-init-datasources-26.1-r3.apk
+checksum	Q1zVHVRDdQlzrfyphjNVxAnrwLpU8=
+dep	cloud-init-datasource-akamai=26.1-r3	cloud-init-datasource-akamai
+dep	cloud-init-datasource-aliyun=26.1-r3	cloud-init-datasource-aliyun
+dep	cloud-init-datasource-altcloud=26.1-r3	cloud-init-datasource-altcloud
+dep	cloud-init-datasource-azure=26.1-r3	cloud-init-datasource-azure
+dep	cloud-init-datasource-bigstep=26.1-r3	cloud-init-datasource-bigstep
+dep	cloud-init-datasource-cloudcix=26.1-r3	cloud-init-datasource-cloudcix
+dep	cloud-init-datasource-cloudsigma=26.1-r3	cloud-init-datasource-cloudsigma
+dep	cloud-init-datasource-cloudstack=26.1-r3	cloud-init-datasource-cloudstack
+dep	cloud-init-datasource-configdrive=26.1-r3	cloud-init-datasource-configdrive
+dep	cloud-init-datasource-digitalocean=26.1-r3	cloud-init-datasource-digitalocean
+dep	cloud-init-datasource-ec2=26.1-r3	cloud-init-datasource-ec2
+dep	cloud-init-datasource-exoscale=26.1-r3	cloud-init-datasource-exoscale
+dep	cloud-init-datasource-gce=26.1-r3	cloud-init-datasource-gce
+dep	cloud-init-datasource-hetzner=26.1-r3	cloud-init-datasource-hetzner
+dep	cloud-init-datasource-ibmcloud=26.1-r3	cloud-init-datasource-ibmcloud
+dep	cloud-init-datasource-lxd=26.1-r3	cloud-init-datasource-lxd
+dep	cloud-init-datasource-maas=26.1-r3	cloud-init-datasource-maas
+dep	cloud-init-datasource-nocloud=26.1-r3	cloud-init-datasource-nocloud
+dep	cloud-init-datasource-nwcs=26.1-r3	cloud-init-datasource-nwcs
+dep	cloud-init-datasource-opennebula=26.1-r3	cloud-init-datasource-opennebula
+dep	cloud-init-datasource-openstack=26.1-r3	cloud-init-datasource-openstack
+dep	cloud-init-datasource-oracle=26.1-r3	cloud-init-datasource-oracle
+dep	cloud-init-datasource-ovf=26.1-r3	cloud-init-datasource-ovf
+dep	cloud-init-datasource-rbx=26.1-r3	cloud-init-datasource-rbx
+dep	cloud-init-datasource-scaleway=26.1-r3	cloud-init-datasource-scaleway
+dep	cloud-init-datasource-smartos=26.1-r3	cloud-init-datasource-smartos
+dep	cloud-init-datasource-upcloud=26.1-r3	cloud-init-datasource-upcloud
+dep	cloud-init-datasource-vmware=26.1-r3	cloud-init-datasource-vmware
+dep	cloud-init-datasource-vultr=26.1-r3	cloud-init-datasource-vultr
+dep	cloud-init-datasource-wsl=26.1-r3	cloud-init-datasource-wsl

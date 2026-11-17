@@ -1,0 +1,20 @@
+name	grilo
+version	0.3.19-r1
+description	GNOME media discovery framework
+url	https://gitlab.gnome.org/GNOME/grilo
+license	LGPL-2.1-or-later
+size	49430
+installed-size	141052
+depends	so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgrilo-0.3.so.0 so:libgtk-3.so.0 so:liboauth.so.0
+origin	grilo
+repo	community
+file	grilo-0.3.19-r1.apk
+checksum	Q1PToE+KruPvEMa8nyuZQUBjspjac=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgrilo-0.3.so.0	grilo-libs
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:liboauth.so.0	liboauth

@@ -1,0 +1,17 @@
+name	nerdctl
+version	2.2.1-r6
+description	Docker-compatible CLI for containerd
+url	https://github.com/containerd/nerdctl/
+license	Apache-2.0
+size	11491618
+installed-size	31260148
+depends	ca-certificates containerd cni-plugins iptables so:libc.musl-armhf.so.1
+origin	nerdctl
+repo	community
+file	nerdctl-2.2.1-r6.apk
+checksum	Q1CvM2tv7WUin3+FfaVa0TN33EK8M=
+dep	ca-certificates	ca-certificates
+dep	containerd	containerd
+dep	cni-plugins	cni-plugins
+dep	iptables	iptables
+dep	so:libc.musl-armhf.so.1	musl

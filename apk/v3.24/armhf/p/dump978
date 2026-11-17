@@ -1,0 +1,18 @@
+name	dump978
+version	11.0-r0
+description	FlightAware's 978MHz UAT demodulator
+url	https://github.com/flightaware/dump978
+license	BSD-2-Clause
+size	729145
+installed-size	1689172
+depends	so:libSoapySDR.so.0.8 so:libboost_filesystem.so.1.84.0 so:libboost_program_options.so.1.84.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	dump978
+repo	community
+file	dump978-11.0-r0.apk
+checksum	Q15RO7Fuek5SB5Pirf4bQJhLU9muY=
+dep	so:libSoapySDR.so.0.8	soapy-sdr-libs
+dep	so:libboost_filesystem.so.1.84.0	boost1.84-filesystem
+dep	so:libboost_program_options.so.1.84.0	boost1.84-program_options
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

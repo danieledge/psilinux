@@ -1,0 +1,13 @@
+name	gnome-control-center-dev
+version	50.3-r0
+description	GNOME control center (development files)
+url	https://gitlab.gnome.org/GNOME/gnome-control-center
+license	GPL-2.0-or-later
+size	2583
+installed-size	1594
+depends	pkgconfig
+origin	gnome-control-center
+repo	community
+file	gnome-control-center-dev-50.3-r0.apk
+checksum	Q1JM18OwANpSklfCJ93QkCY7esagA=
+dep	pkgconfig	pkgconf

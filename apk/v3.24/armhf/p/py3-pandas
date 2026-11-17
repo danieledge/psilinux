@@ -1,0 +1,20 @@
+name	py3-pandas
+version	3.0.3-r0
+description	Powerful data structures for data analysis, time series, and statistics
+url	https://pandas.pydata.org/
+license	BSD-3-Clause
+size	7732096
+installed-size	23809388
+depends	py3-dateutil py3-numpy py3-tz py3-tzdata python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	py3-pandas
+repo	community
+file	py3-pandas-3.0.3-r0.apk
+checksum	Q148wMG5ufoM4Bnr2oHVk5pFy1Q1U=
+dep	py3-dateutil	py3-dateutil
+dep	py3-numpy	py3-numpy
+dep	py3-tz	py3-tz
+dep	py3-tzdata	py3-tzdata
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

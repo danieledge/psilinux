@@ -1,0 +1,14 @@
+name	gd
+version	2.3.3-r10
+description	Library for the dynamic creation of images by programmers
+url	https://libgd.github.io/
+license	GD
+size	13651
+installed-size	66404
+depends	so:libc.musl-armhf.so.1 so:libgd.so.3
+origin	gd
+repo	main
+file	gd-2.3.3-r10.apk
+checksum	Q18yiDM2Q2GWl7mcOg/ft/JUAwwfY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgd.so.3	libgd

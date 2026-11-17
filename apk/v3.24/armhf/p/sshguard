@@ -1,0 +1,14 @@
+name	sshguard
+version	2.5.1-r0
+description	Protects hosts from brute-force attacks against SSH and other services
+url	https://www.sshguard.net/
+license	ISC
+size	366211
+installed-size	1475166
+depends	iptables so:libc.musl-armhf.so.1
+origin	sshguard
+repo	main
+file	sshguard-2.5.1-r0.apk
+checksum	Q17ytRR3HYNgJVhyi1RiKi7YK/RdY=
+dep	iptables	iptables
+dep	so:libc.musl-armhf.so.1	musl

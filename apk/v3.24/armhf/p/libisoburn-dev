@@ -1,0 +1,14 @@
+name	libisoburn-dev
+version	1.5.8-r0
+description	Library to enable creation and expansion of ISO-9660 filesystems (development files)
+url	https://dev.lovelyhq.com/libburnia/libisoburn
+license	GPL-2.0-or-later
+size	56276
+installed-size	241760
+depends	libisoburn=1.5.8-r0 pkgconfig
+origin	libisoburn
+repo	main
+file	libisoburn-dev-1.5.8-r0.apk
+checksum	Q1FpBnjCBUXpznn1F9ic4qJG5+QAE=
+dep	libisoburn=1.5.8-r0	libisoburn
+dep	pkgconfig	pkgconf

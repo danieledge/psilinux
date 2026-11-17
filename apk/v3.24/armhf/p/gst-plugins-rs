@@ -1,0 +1,24 @@
+name	gst-plugins-rs
+version	0.15.2-r0
+description	Gstreamer rust plugins
+url	https://gitlab.freedesktop.org/gstreamer/gst-plugins-rs
+license	MIT AND Apache-2.0 AND MPL-2.0 AND LGPL-2.1-or-later
+size	10114089
+installed-size	20813896
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstanalytics-1.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvalidate-1.0.so.0 so:libgstvideo-1.0.so.0
+origin	gst-plugins-rs
+repo	community
+file	gst-plugins-rs-0.15.2-r0.apk
+checksum	Q1Qr+69nSkcc6WyP1vZk91v64pYLU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstanalytics-1.0.so.0	gst-plugins-bad
+dep	so:libgstaudio-1.0.so.0	gst-plugins-base
+dep	so:libgstbase-1.0.so.0	gstreamer
+dep	so:libgstpbutils-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstvalidate-1.0.so.0	gst-devtools
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base

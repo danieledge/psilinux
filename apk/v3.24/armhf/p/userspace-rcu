@@ -1,0 +1,13 @@
+name	userspace-rcu
+version	0.15.3-r0
+description	Userspace RCU (read-copy-update) library
+url	https://liburcu.org/
+license	LGPL-2.1-or-later
+size	80938
+installed-size	202128
+depends	so:libc.musl-armhf.so.1
+origin	userspace-rcu
+repo	main
+file	userspace-rcu-0.15.3-r0.apk
+checksum	Q1nHMfBULHB4PyDg4KvuPJmeuxQu8=
+dep	so:libc.musl-armhf.so.1	musl

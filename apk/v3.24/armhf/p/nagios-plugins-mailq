@@ -1,0 +1,14 @@
+name	nagios-plugins-mailq
+version	2.5-r0
+description	Nagios plugin check_mailq
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	7247
+installed-size	25712
+depends	nagios-plugins perl
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-mailq-2.5-r0.apk
+checksum	Q1slUOv/1TSrsue0RrC1DI4I6/00o=
+dep	nagios-plugins	nagios-plugins
+dep	perl	perl

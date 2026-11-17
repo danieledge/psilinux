@@ -1,0 +1,13 @@
+name	xwiimote-static
+version	2_git20131227-r2
+description	Open-source Nintendo Wii Remote Linux Device Driver (static library)
+url	https://github.com/dvdhrm/xwiimote
+license	MIT
+size	11958
+installed-size	156674
+depends	xwiimote-dev
+origin	xwiimote
+repo	community
+file	xwiimote-static-2_git20131227-r2.apk
+checksum	Q1mGmu8PmjD9flhCIssUY5h14elbY=
+dep	xwiimote-dev	xwiimote-dev

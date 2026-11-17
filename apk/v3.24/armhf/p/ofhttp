@@ -1,0 +1,17 @@
+name	ofhttp
+version	1.5.7-r0
+description	Command line downloader for HTTP(S)
+url	https://objfw.nil.im/
+license	LGPL-3.0-only
+size	37138
+installed-size	93504
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1 so:libobjfwtls.so.1
+origin	objfw
+repo	community
+file	ofhttp-1.5.7-r0.apk
+checksum	Q1le+2pCaL4lmLZ15dh3LIgmtMKBA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libobjfw.so.1	libobjfw1
+dep	so:libobjfwrt.so.1	libobjfwrt1
+dep	so:libobjfwtls.so.1	libobjfwtls1

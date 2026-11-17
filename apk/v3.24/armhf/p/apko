@@ -1,0 +1,13 @@
+name	apko
+version	0.9.0-r27
+description	declarative APK-based container building tool with support for Sigstore signatures
+url	https://github.com/chainguard-dev/apko
+license	Apache-2.0
+size	10299854
+installed-size	28506412
+depends	so:libc.musl-armhf.so.1
+origin	apko
+repo	community
+file	apko-0.9.0-r27.apk
+checksum	Q1L1Ca1sZn9O/+xY4WsVP5Lay8WTw=
+dep	so:libc.musl-armhf.so.1	musl

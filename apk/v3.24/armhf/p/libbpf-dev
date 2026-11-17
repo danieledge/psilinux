@@ -1,0 +1,16 @@
+name	libbpf-dev
+version	1.7.0-r1
+description	A library for interacting with the Linux kernel's Berkeley Packet Filter (BPF) facility from user space (development files)
+url	https://github.com/libbpf/libbpf
+license	LGPL-2.1-only OR BSD-2-Clause
+size	380007
+installed-size	1191972
+depends	libbpf=1.7.0-r1 pc:libelf pc:zlib pkgconfig
+origin	libbpf
+repo	main
+file	libbpf-dev-1.7.0-r1.apk
+checksum	Q1+0yiIrlqATU4pT5TVVU20TQoqjc=
+dep	libbpf=1.7.0-r1	libbpf
+dep	pc:libelf	elfutils-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

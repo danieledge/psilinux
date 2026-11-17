@@ -1,0 +1,19 @@
+name	fwupd-dev
+version	2.0.20-r4
+description	Firmware update daemon (development files)
+url	https://fwupd.org/
+license	LGPL-2.1-or-later
+size	113634
+installed-size	1355165
+depends	fwupd=2.0.20-r4 pc:gio-2.0 pc:gio-unix-2.0>=2.68.0 pc:jcat>=0.2.0 pc:json-glib-1.0>=1.6.0 pc:libcurl>=7.62.0 pkgconfig
+origin	fwupd
+repo	community
+file	fwupd-dev-2.0.20-r4.apk
+checksum	Q1/0t0Q+br/tCM/DOq3UH8eqLtUXA=
+dep	fwupd=2.0.20-r4	fwupd
+dep	pc:gio-2.0	glib-dev
+dep	pc:gio-unix-2.0>=2.68.0	glib-dev
+dep	pc:jcat>=0.2.0	libjcat-dev
+dep	pc:json-glib-1.0>=1.6.0	json-glib-dev
+dep	pc:libcurl>=7.62.0	curl-dev
+dep	pkgconfig	pkgconf

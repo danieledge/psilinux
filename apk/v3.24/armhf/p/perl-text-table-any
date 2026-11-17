@@ -1,0 +1,14 @@
+name	perl-text-table-any
+version	0.117-r1
+description	Generate text table using one of several backends
+url	https://metacpan.org/release/Text-Table-Any/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	8208
+installed-size	43259
+depends	perl perl-text-table-sprintf
+origin	perl-text-table-any
+repo	community
+file	perl-text-table-any-0.117-r1.apk
+checksum	Q1lm3iJjg4N1nSFpb2hKF6O74KJio=
+dep	perl	perl
+dep	perl-text-table-sprintf	perl-text-table-sprintf

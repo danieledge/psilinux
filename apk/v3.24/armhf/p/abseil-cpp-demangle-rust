@@ -1,0 +1,15 @@
+name	abseil-cpp-demangle-rust
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-demangle-rust
+url	https://abseil.io/
+license	Apache-2.0
+size	6627
+installed-size	13592
+depends	so:libabsl_decode_rust_punycode.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-demangle-rust-20250814.1-r0.apk
+checksum	Q1JwI7BpauUplEjAU8lf/altBymCw=
+dep	so:libabsl_decode_rust_punycode.so.2508.0.0	abseil-cpp-decode-rust-punycode
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,13 @@
+name	hvtools
+version	4.11.9-r4
+description	Hyper-v tools
+url	https://www.kernel.org/
+license	GPL-2.0-only
+size	16478
+installed-size	48808
+depends	so:libc.musl-armhf.so.1
+origin	hvtools
+repo	main
+file	hvtools-4.11.9-r4.apk
+checksum	Q1dvcIq7bgITIwJFQh5Sx+ag+63yg=
+dep	so:libc.musl-armhf.so.1	musl

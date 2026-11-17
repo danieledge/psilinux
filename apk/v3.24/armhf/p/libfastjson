@@ -1,0 +1,13 @@
+name	libfastjson
+version	1.2304.0-r4
+description	fork of the json-c library for rsyslog, optimized for liblognorm processing.
+url	https://www.rsyslog.com/
+license	MIT
+size	18123
+installed-size	38408
+depends	so:libc.musl-armhf.so.1
+origin	libfastjson
+repo	main
+file	libfastjson-1.2304.0-r4.apk
+checksum	Q1hJ9dcZ8RKzoh0vCJrQhdiVgHqqo=
+dep	so:libc.musl-armhf.so.1	musl

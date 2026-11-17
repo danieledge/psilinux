@@ -1,0 +1,15 @@
+name	openldap-overlay-proxycache
+version	2.6.15-r0
+description	OpenLDAP proxycache overlay
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	36049
+installed-size	72988
+depends	so:libc.musl-armhf.so.1 so:liblber.so.2 so:libldap.so.2
+origin	openldap
+repo	main
+file	openldap-overlay-proxycache-2.6.15-r0.apk
+checksum	Q1DXrNSHspkL44BH4GZssouWSpDFk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap

@@ -1,0 +1,23 @@
+name	ibus-libpinyin
+version	1.16.5-r0
+description	Intelligent Pinyin engine based on libpinyin for IBus
+url	https://github.com/libpinyin/ibus-libpinyin
+license	GPL-3.0-only
+size	965682
+installed-size	2513520
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libibus-1.0.so.5 so:libintl.so.8 so:libnotify.so.4 so:libpinyin.so.15 so:libsqlite3.so.0 so:libstdc++.so.6
+origin	ibus-libpinyin
+repo	community
+file	ibus-libpinyin-1.16.5-r0.apk
+checksum	Q1S/TnHxmfjvO13M693zjBZLPehbo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libibus-1.0.so.5	ibus
+dep	so:libintl.so.8	libintl
+dep	so:libnotify.so.4	libnotify
+dep	so:libpinyin.so.15	libpinyin
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++

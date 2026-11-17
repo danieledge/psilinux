@@ -1,0 +1,14 @@
+name	v4l-utils-dvbv5
+version	1.32.0-r1
+description	Backwards compatible DVBv5 command line utilities
+url	https://linuxtv.org/
+license	LGPL-2.0-or-later
+size	82016
+installed-size	183232
+depends	so:libc.musl-armhf.so.1 so:libdvbv5.so.0
+origin	v4l-utils
+repo	community
+file	v4l-utils-dvbv5-1.32.0-r1.apk
+checksum	Q12rl2jqgvNYfFM1FbgCmpVODa+pU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdvbv5.so.0	libdvbv5

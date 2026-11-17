@@ -1,0 +1,17 @@
+name	google-cloud-cpp-cloud-extended-operations-protos
+version	2.47.0-r0
+description	C++ Client Libraries for Google Cloud Services (cloud-extended-operations-protos)
+url	https://cloud.google.com/sdk
+license	Apache-2.0
+size	5030
+installed-size	9696
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libprotobuf.so.31 so:libstdc++.so.6 so:libutf8_range_lib.so.52
+origin	google-cloud-cpp
+repo	community
+file	google-cloud-cpp-cloud-extended-operations-protos-2.47.0-r0.apk
+checksum	Q1eprPAtcqeI+KTrloETy8+RK1XbA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libprotobuf.so.31	libprotobuf
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libutf8_range_lib.so.52	grpc

@@ -1,0 +1,16 @@
+name	ocaml-iri-dev
+version	1.0.0-r3
+description	Implementation of Internationalized Resource Identifiers (IRIs) (development files)
+url	https://framagit.org/zoggy/ocaml-iri
+license	LGPL-3.0-only
+size	788543
+installed-size	2260167
+depends	ocaml-iri=1.0.0-r3 ocaml-sedlex-dev ocaml-uunf-dev ocaml-uutf-dev
+origin	ocaml-iri
+repo	community
+file	ocaml-iri-dev-1.0.0-r3.apk
+checksum	Q1iDXKupMLTYzQbqh8cl1oklc1GG4=
+dep	ocaml-iri=1.0.0-r3	ocaml-iri
+dep	ocaml-sedlex-dev	ocaml-sedlex-dev
+dep	ocaml-uunf-dev	ocaml-uunf-dev
+dep	ocaml-uutf-dev	ocaml-uutf-dev

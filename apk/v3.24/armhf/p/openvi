@@ -1,0 +1,14 @@
+name	openvi
+version	7.7.32-r0
+description	OpenVi is a fork of the vi / ex editor included with OpenBSD
+url	https://github.com/johnsonjh/OpenVi
+license	BSD-3-Clause
+size	174964
+installed-size	350038
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	openvi
+repo	community
+file	openvi-7.7.32-r0.apk
+checksum	Q13r7YpPOepBC0g1cCa/MdLJiT81s=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

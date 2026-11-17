@@ -1,0 +1,17 @@
+name	ws
+version	11.4.6-r1
+description	WebSocket and HTTP client and server
+url	https://github.com/machinezone/IXWebSocket
+license	BSD-3-Clause
+size	192060
+installed-size	472636
+depends	so:libc.musl-armhf.so.1 so:libfmt.so.11 so:libgcc_s.so.1 so:libixwebsocket.so.11.4.6 so:libstdc++.so.6
+origin	ws
+repo	community
+file	ws-11.4.6-r1.apk
+checksum	Q1iuHD3d/2PO2iNAcJt9SUTRaQ8ok=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfmt.so.11	fmt
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libixwebsocket.so.11.4.6	ixwebsocket-libs
+dep	so:libstdc++.so.6	libstdc++

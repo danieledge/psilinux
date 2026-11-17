@@ -1,0 +1,13 @@
+name	libretro-mgba
+version	0_git20250125-r0
+description	Nintendo Game Boy Advance core
+url	https://github.com/libretro/mgba
+license	MPL-2.0
+size	424874
+installed-size	1951108
+depends	so:libc.musl-armhf.so.1
+origin	libretro-mgba
+repo	community
+file	libretro-mgba-0_git20250125-r0.apk
+checksum	Q1D3pfQCfVD5ld7g41Aaz2f3qASok=
+dep	so:libc.musl-armhf.so.1	musl

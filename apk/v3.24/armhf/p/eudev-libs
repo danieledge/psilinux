@@ -1,0 +1,13 @@
+name	eudev-libs
+version	3.2.14-r6
+description	Dynamic library to access udev device information
+url	https://github.com/eudev-project/eudev
+license	GPL-2.0-or-later
+size	25189
+installed-size	50520
+depends	so:libc.musl-armhf.so.1
+origin	eudev
+repo	main
+file	eudev-libs-3.2.14-r6.apk
+checksum	Q1mhc9VdcyHzgHkeYmDRjtQFvb9Fw=
+dep	so:libc.musl-armhf.so.1	musl

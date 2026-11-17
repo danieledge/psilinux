@@ -1,0 +1,13 @@
+name	emacs-fsm
+version	0.2.1_git20221212-r1
+description	State machine library inspired by Erlang's gen_fsm
+url	https://elpa.gnu.org/packages/fsm.html
+license	GPL-2.0-or-later
+size	10375
+installed-size	28880
+depends	cmd:emacs
+origin	emacs-fsm
+repo	community
+file	emacs-fsm-0.2.1_git20221212-r1.apk
+checksum	Q1DHD7wsga1MUHzIiF5N6zeyj2Psw=
+dep	cmd:emacs	emacs-gtk3

@@ -1,0 +1,19 @@
+name	libzim-dev
+version	9.7.0-r2
+description	Reference implementation of the ZIM file format (development files)
+url	https://openzim.org/
+license	GPL-2.0-or-later
+size	27114
+installed-size	111231
+depends	libzim=9.7.0-r2 pc:icu-i18n pc:icu-uc pc:liblzma pc:libzstd pc:xapian-core>=1.4.12 pkgconfig
+origin	libzim
+repo	community
+file	libzim-dev-9.7.0-r2.apk
+checksum	Q18ipZJbdGjl58UuG5JVR/sViOWzY=
+dep	libzim=9.7.0-r2	libzim
+dep	pc:icu-i18n	icu-dev
+dep	pc:icu-uc	icu-dev
+dep	pc:liblzma	xz-dev
+dep	pc:libzstd	zstd-dev
+dep	pc:xapian-core>=1.4.12	xapian-core-dev
+dep	pkgconfig	pkgconf

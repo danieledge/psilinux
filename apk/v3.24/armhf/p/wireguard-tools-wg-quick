@@ -1,0 +1,16 @@
+name	wireguard-tools-wg-quick
+version	1.0.20260223-r0
+description	Next generation secure network tunnel: userspace tools (wg-quick)
+url	https://www.wireguard.com
+license	GPL-2.0-only
+size	6181
+installed-size	13710
+depends	wireguard-tools-wg=1.0.20260223-r0 bash cmd:resolvconf iproute2
+origin	wireguard-tools
+repo	main
+file	wireguard-tools-wg-quick-1.0.20260223-r0.apk
+checksum	Q1CUrvu7rPj+vyPHFVsP6zAL8FgVQ=
+dep	wireguard-tools-wg=1.0.20260223-r0	wireguard-tools-wg
+dep	bash	bash
+dep	cmd:resolvconf	openresolv
+dep	iproute2	iproute2

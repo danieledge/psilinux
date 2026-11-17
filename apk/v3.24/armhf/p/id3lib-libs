@@ -1,0 +1,15 @@
+name	id3lib-libs
+version	3.8.3-r3
+description	library for reading, writing, and manipulating ID3v1 and ID3v2 tags (libraries)
+url	https://id3lib.sourceforge.net/
+license	GPL-2.0-only
+size	71671
+installed-size	185464
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	id3lib
+repo	community
+file	id3lib-libs-3.8.3-r3.apk
+checksum	Q1q61SFmioyZntRWUYQLeblZcCudY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

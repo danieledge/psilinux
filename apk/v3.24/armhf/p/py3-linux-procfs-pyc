@@ -1,0 +1,13 @@
+name	py3-linux-procfs-pyc
+version	0.7.4-r1
+description	Precompiled Python bytecode for py3-linux-procfs
+url	https://git.kernel.org/pub/scm/libs/python/python-linux-procfs/python-linux-procfs.git/
+license	GPL-2.0-only
+size	23601
+installed-size	55042
+depends	python3~3.14
+origin	py3-linux-procfs
+repo	community
+file	py3-linux-procfs-pyc-0.7.4-r1.apk
+checksum	Q1cs2XiITFPFRqBApeAJ6SUsgQxsw=
+dep	python3~3.14	python3

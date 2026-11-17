@@ -1,0 +1,16 @@
+name	libmypaint
+version	1.6.1-r0
+description	library for making brushstrokes
+url	http://mypaint.org/
+license	ISC
+size	47759
+installed-size	108860
+depends	so:libc.musl-armhf.so.1 so:libgobject-2.0.so.0 so:libintl.so.8 so:libjson-c.so.5
+origin	libmypaint
+repo	community
+file	libmypaint-1.6.1-r0.apk
+checksum	Q1KH5Nd3Tdfi/5zXSoD/GXEmTaJIY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libjson-c.so.5	json-c

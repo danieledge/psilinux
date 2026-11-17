@@ -1,0 +1,30 @@
+name	libarrow_flight
+version	23.0.1-r2
+description	multi-language toolbox for accelerated data interchange and in-memory processing (libarrow_flight library)
+url	https://arrow.apache.org/
+license	Apache-2.0
+size	319461
+installed-size	1085952
+depends	apache-arrow=23.0.1-r2 so:libabsl_cord.so.2508.0.0 so:libabsl_cordz_functions.so.2508.0.0 so:libabsl_cordz_info.so.2508.0.0 so:libabsl_hash.so.2508.0.0 so:libabsl_log_internal_check_op.so.2508.0.0 so:libabsl_log_internal_message.so.2508.0.0 so:libabsl_log_internal_nullguard.so.2508.0.0 so:libabsl_strings.so.2508.0.0 so:libabsl_synchronization.so.2508.0.0 so:libarrow.so.2300 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgpr.so.52 so:libgrpc++.so.1.78 so:libgrpc.so.52 so:libprotobuf.so.31 so:libstdc++.so.6
+origin	apache-arrow
+repo	community
+file	libarrow_flight-23.0.1-r2.apk
+checksum	Q1GFD2x3twXyIie3Tf97Aqqmi0uuI=
+dep	apache-arrow=23.0.1-r2	apache-arrow
+dep	so:libabsl_cord.so.2508.0.0	abseil-cpp-cord
+dep	so:libabsl_cordz_functions.so.2508.0.0	abseil-cpp-cordz-functions
+dep	so:libabsl_cordz_info.so.2508.0.0	abseil-cpp-cordz-info
+dep	so:libabsl_hash.so.2508.0.0	abseil-cpp-hash
+dep	so:libabsl_log_internal_check_op.so.2508.0.0	abseil-cpp-log-internal-check-op
+dep	so:libabsl_log_internal_message.so.2508.0.0	abseil-cpp-log-internal-message
+dep	so:libabsl_log_internal_nullguard.so.2508.0.0	abseil-cpp-log-internal-nullguard
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libabsl_synchronization.so.2508.0.0	abseil-cpp-synchronization
+dep	so:libarrow.so.2300	libarrow
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgpr.so.52	libgpr
+dep	so:libgrpc++.so.1.78	grpc-cpp
+dep	so:libgrpc.so.52	libgrpc
+dep	so:libprotobuf.so.31	libprotobuf
+dep	so:libstdc++.so.6	libstdc++

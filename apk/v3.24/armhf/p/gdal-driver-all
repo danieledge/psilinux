@@ -1,0 +1,48 @@
+name	gdal-driver-all
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (all drivers)
+url	https://gdal.org/
+license	MIT
+size	1460
+installed-size	0
+depends	gdal-driver-adbc=3.13.3-r0 gdal-driver-avif=3.13.3-r0 gdal-driver-basisu_ktx2=3.13.3-r0 gdal-driver-exr=3.13.3-r0 gdal-driver-fits=3.13.3-r0 gdal-driver-gif=3.13.3-r0 gdal-driver-hdf5=3.13.3-r0 gdal-driver-heif=3.13.3-r0 gdal-driver-jp2openjpeg=3.13.3-r0 gdal-driver-jpeg=3.13.3-r0 gdal-driver-jpegxl=3.13.3-r0 gdal-driver-kea=3.13.3-r0 gdal-driver-pcidsk=3.13.3-r0 gdal-driver-pcraster=3.13.3-r0 gdal-driver-pdf=3.13.3-r0 gdal-driver-png=3.13.3-r0 gdal-driver-postgisraster=3.13.3-r0 gdal-driver-webp=3.13.3-r0 gdal-driver-wms=3.13.3-r0 gdal-driver-cad=3.13.3-r0 gdal-driver-carto=3.13.3-r0 gdal-driver-elastic=3.13.3-r0 gdal-driver-gmlas=3.13.3-r0 gdal-driver-hana=3.13.3-r0 gdal-driver-libkml=3.13.3-r0 gdal-driver-mssqlspatial=3.13.3-r0 gdal-driver-mysql=3.13.3-r0 gdal-driver-odbc=3.13.3-r0 gdal-driver-pg=3.13.3-r0 gdal-driver-plscenes=3.13.3-r0 gdal-driver-vfk=3.13.3-r0 gdal-driver-xls=3.13.3-r0 gdal-driver-xodr=3.13.3-r0 gdal-driver-arrow=3.13.3-r0 gdal-driver-parquet=3.13.3-r0 gdal-driver-netcdf=3.13.3-r0
+origin	gdal
+repo	community
+file	gdal-driver-all-3.13.3-r0.apk
+checksum	Q1wJ9ib16afl4Sv0UunD2QcO6R28Q=
+dep	gdal-driver-adbc=3.13.3-r0	gdal-driver-adbc
+dep	gdal-driver-avif=3.13.3-r0	gdal-driver-avif
+dep	gdal-driver-basisu_ktx2=3.13.3-r0	gdal-driver-basisu_ktx2
+dep	gdal-driver-exr=3.13.3-r0	gdal-driver-exr
+dep	gdal-driver-fits=3.13.3-r0	gdal-driver-fits
+dep	gdal-driver-gif=3.13.3-r0	gdal-driver-gif
+dep	gdal-driver-hdf5=3.13.3-r0	gdal-driver-hdf5
+dep	gdal-driver-heif=3.13.3-r0	gdal-driver-heif
+dep	gdal-driver-jp2openjpeg=3.13.3-r0	gdal-driver-jp2openjpeg
+dep	gdal-driver-jpeg=3.13.3-r0	gdal-driver-jpeg
+dep	gdal-driver-jpegxl=3.13.3-r0	gdal-driver-jpegxl
+dep	gdal-driver-kea=3.13.3-r0	gdal-driver-kea
+dep	gdal-driver-pcidsk=3.13.3-r0	gdal-driver-pcidsk
+dep	gdal-driver-pcraster=3.13.3-r0	gdal-driver-pcraster
+dep	gdal-driver-pdf=3.13.3-r0	gdal-driver-pdf
+dep	gdal-driver-png=3.13.3-r0	gdal-driver-png
+dep	gdal-driver-postgisraster=3.13.3-r0	gdal-driver-postgisraster
+dep	gdal-driver-webp=3.13.3-r0	gdal-driver-webp
+dep	gdal-driver-wms=3.13.3-r0	gdal-driver-wms
+dep	gdal-driver-cad=3.13.3-r0	gdal-driver-cad
+dep	gdal-driver-carto=3.13.3-r0	gdal-driver-carto
+dep	gdal-driver-elastic=3.13.3-r0	gdal-driver-elastic
+dep	gdal-driver-gmlas=3.13.3-r0	gdal-driver-gmlas
+dep	gdal-driver-hana=3.13.3-r0	gdal-driver-hana
+dep	gdal-driver-libkml=3.13.3-r0	gdal-driver-libkml
+dep	gdal-driver-mssqlspatial=3.13.3-r0	gdal-driver-mssqlspatial
+dep	gdal-driver-mysql=3.13.3-r0	gdal-driver-mysql
+dep	gdal-driver-odbc=3.13.3-r0	gdal-driver-odbc
+dep	gdal-driver-pg=3.13.3-r0	gdal-driver-pg
+dep	gdal-driver-plscenes=3.13.3-r0	gdal-driver-plscenes
+dep	gdal-driver-vfk=3.13.3-r0	gdal-driver-vfk
+dep	gdal-driver-xls=3.13.3-r0	gdal-driver-xls
+dep	gdal-driver-xodr=3.13.3-r0	gdal-driver-xodr
+dep	gdal-driver-arrow=3.13.3-r0	gdal-driver-arrow
+dep	gdal-driver-parquet=3.13.3-r0	gdal-driver-parquet
+dep	gdal-driver-netcdf=3.13.3-r0	gdal-driver-netcdf

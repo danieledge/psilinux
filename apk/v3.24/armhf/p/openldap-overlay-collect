@@ -1,0 +1,14 @@
+name	openldap-overlay-collect
+version	2.6.15-r0
+description	OpenLDAP collect overlay
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	5691
+installed-size	10598
+depends	so:libc.musl-armhf.so.1 so:liblber.so.2
+origin	openldap
+repo	main
+file	openldap-overlay-collect-2.6.15-r0.apk
+checksum	Q1VsCil5gKwJKd6A4nVjJf+B9exto=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap

@@ -1,0 +1,18 @@
+name	gtk-layer-shell-demo
+version	0.10.1-r0
+description	Demo of GTK Layer Shell
+url	https://github.com/wmww/gtk-layer-shell
+license	LGPL-3.0-or-later AND MIT
+size	10079
+installed-size	21732
+depends	so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgtk-layer-shell.so.0
+origin	gtk-layer-shell
+repo	community
+file	gtk-layer-shell-demo-0.10.1-r0.apk
+checksum	Q19y64sKy3amVNe1if/55um4mRdyc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtk-layer-shell.so.0	gtk-layer-shell

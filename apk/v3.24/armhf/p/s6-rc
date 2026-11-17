@@ -1,0 +1,18 @@
+name	s6-rc
+version	0.6.1.1-r0
+description	Service manager for s6-based systems
+url	https://skarnet.org/software/s6-rc/
+license	ISC
+size	100375
+installed-size	313732
+depends	so:libc.musl-armhf.so.1 so:libexecline.so.2.9 so:libs6.so.2.15 so:libs6rc.so.0.6 so:libs6rcrepo.so.0.6 so:libskarnet.so.2.15
+origin	s6-rc
+repo	main
+file	s6-rc-0.6.1.1-r0.apk
+checksum	Q1CmlJrESkFe6UJ+0qpAhyT7lKQ8E=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexecline.so.2.9	execline-libs
+dep	so:libs6.so.2.15	s6-libs
+dep	so:libs6rc.so.0.6	s6-rc-libs
+dep	so:libs6rcrepo.so.0.6	s6-rc-libs
+dep	so:libskarnet.so.2.15	skalibs-libs

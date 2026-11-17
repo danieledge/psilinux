@@ -1,0 +1,16 @@
+name	py3-libplist
+version	2.7.0-r1
+description	Python bindings for libplist
+url	https://libimobiledevice.org
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	75531
+installed-size	196234
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libplist-2.0.so.4 so:libpython3.14.so.1.0
+origin	libplist
+repo	community
+file	py3-libplist-2.7.0-r1.apk
+checksum	Q1zkZEkDYoHBKBqn/piWMwQ3pGt9g=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libplist-2.0.so.4	libplist
+dep	so:libpython3.14.so.1.0	python3

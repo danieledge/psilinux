@@ -1,0 +1,13 @@
+name	wayland-static
+version	1.25.0-r0
+description	A computer display server protocol (static library)
+url	https://wayland.freedesktop.org
+license	MIT
+size	838491
+installed-size	1054496
+depends	wayland-dev
+origin	wayland
+repo	main
+file	wayland-static-1.25.0-r0.apk
+checksum	Q13qIoEv1klZ2aG18Sh9bB6D90wt4=
+dep	wayland-dev	wayland-dev

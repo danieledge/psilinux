@@ -1,0 +1,18 @@
+name	kyua
+version	0.14.1-r0
+description	testing framework for infrastructure software
+url	https://github.com/freebsd/kyua
+license	BSD-3-Clause
+size	9232730
+installed-size	22755507
+depends	so:libatf-c++.so.2 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblutok.so.3 so:libsqlite3.so.0 so:libstdc++.so.6
+origin	kyua
+repo	main
+file	kyua-0.14.1-r0.apk
+checksum	Q1x+GZseR+h/jGMfcsguQX3k1PkOI=
+dep	so:libatf-c++.so.2	atf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblutok.so.3	lutok
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++

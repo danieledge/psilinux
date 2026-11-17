@@ -1,0 +1,18 @@
+name	libquazip1-qt5
+version	1.5-r0
+description	C++ wrapper for the Gilles Vollant's ZIP/UNZIP C package (qt5)
+url	https://github.com/stachenov/quazip
+license	LGPL-2.1-or-later WITH custom-static-linking-exception
+size	67035
+installed-size	157060
+depends	so:libQt5Core.so.5 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1
+origin	quazip
+repo	community
+file	libquazip1-qt5-1.5-r0.apk
+checksum	Q1Ti1jBoWYIdmMlAi+d5Ic74T2q4A=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

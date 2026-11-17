@@ -1,0 +1,13 @@
+name	rekor
+version	1.5.0-r6
+description	Signature transparency log
+url	https://github.com/sigstore/rekor
+license	Apache-2.0
+size	12456294
+installed-size	39340876
+depends	so:libc.musl-armhf.so.1
+origin	rekor
+repo	community
+file	rekor-1.5.0-r6.apk
+checksum	Q1F61K6yAVmgmOJsUhpMHhb1mGFNc=
+dep	so:libc.musl-armhf.so.1	musl

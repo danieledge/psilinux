@@ -1,0 +1,15 @@
+name	txr
+version	302-r2
+description	Programming language for convenient data munging
+url	https://www.nongnu.org/txr/
+license	BSD-2-Clause
+size	871225
+installed-size	3229063
+depends	so:libc.musl-armhf.so.1 so:libffi.so.8 so:libz.so.1
+origin	txr
+repo	main
+file	txr-302-r2.apk
+checksum	Q1whFH8YLhZocbERHpVYMUF9p/Iys=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libffi.so.8	libffi
+dep	so:libz.so.1	zlib

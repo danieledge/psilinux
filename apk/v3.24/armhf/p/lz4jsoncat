@@ -1,0 +1,14 @@
+name	lz4jsoncat
+version	2-r0
+description	C decompress tool for mozilla lz4json format
+url	https://github.com/andikleen/lz4json
+license	BSD-2-Clause
+size	3862
+installed-size	5292
+depends	so:libc.musl-armhf.so.1 so:liblz4.so.1
+origin	lz4jsoncat
+repo	community
+file	lz4jsoncat-2-r0.apk
+checksum	Q18icaFzgm1hI3WbFOzTsns9RHDAI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblz4.so.1	lz4-libs

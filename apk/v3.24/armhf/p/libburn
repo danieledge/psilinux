@@ -1,0 +1,13 @@
+name	libburn
+version	1.5.8-r0
+description	Library for reading, mastering and writing optical discs
+url	https://dev.lovelyhq.com/libburnia/web/wiki
+license	GPL-2.0-or-later
+size	200998
+installed-size	402404
+depends	so:libc.musl-armhf.so.1
+origin	libburn
+repo	main
+file	libburn-1.5.8-r0.apk
+checksum	Q1JcFBEPUQkzoTmcjXQiaoe0rtyJs=
+dep	so:libc.musl-armhf.so.1	musl

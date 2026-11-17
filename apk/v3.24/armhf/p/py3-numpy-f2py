@@ -1,0 +1,14 @@
+name	py3-numpy-f2py
+version	2.4.6-r0
+description	f2py for numpy (for python3)
+url	https://www.numpy.org/
+license	BSD-3-Clause
+size	1708
+installed-size	216
+depends	py3-numpy=2.4.6-r0 python3-dev
+origin	py3-numpy
+repo	community
+file	py3-numpy-f2py-2.4.6-r0.apk
+checksum	Q1ubfhLaV1Aab4IoxsWwXieRCgflU=
+dep	py3-numpy=2.4.6-r0	py3-numpy
+dep	python3-dev	python3-dev

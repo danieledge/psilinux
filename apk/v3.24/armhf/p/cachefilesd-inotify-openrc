@@ -1,0 +1,12 @@
+name	cachefilesd-inotify-openrc
+version	0.11.1-r0
+description	Userspace daemon acting as a backend for FS-Cache (uses INOTIFY instead of DNOTIFY) (OpenRC init scripts)
+url	https://gitlab.com/tomalok/cachefilesd-inotify
+license	GPL-2.0-or-later
+size	2453
+installed-size	1668
+depends	
+origin	cachefilesd-inotify
+repo	community
+file	cachefilesd-inotify-openrc-0.11.1-r0.apk
+checksum	Q1b5h/8aHLwowOJ77eJX77B1te/cI=

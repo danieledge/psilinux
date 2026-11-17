@@ -1,0 +1,15 @@
+name	libretro-vbam
+version	0_git20241021-r0
+description	a fork of VBA-M with libretro integration
+url	https://github.com/libretro/vbam-libretro
+license	GPL-2.0-only
+size	303199
+installed-size	1148508
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libretro-vbam
+repo	community
+file	libretro-vbam-0_git20241021-r0.apk
+checksum	Q1bIJ2/ZAfbI/ytMtEpwv6D+fqncs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

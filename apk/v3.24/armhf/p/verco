@@ -1,0 +1,14 @@
+name	verco
+version	6.12.0-r1
+description	Simple Git/Mercurial/PlasticSCM tui client based on keyboard shortcuts
+url	https://git.sr.ht/~lessa/verco
+license	GPL-3.0-or-later
+size	260491
+installed-size	523468
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	verco
+repo	community
+file	verco-6.12.0-r1.apk
+checksum	Q1PkogsW6dmMEzxeZhQY4PqoUdDyg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

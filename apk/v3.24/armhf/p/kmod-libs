@@ -1,0 +1,17 @@
+name	kmod-libs
+version	34.2-r1
+description	Linux kernel module management utilities (libraries)
+url	http://git.kernel.org/?p=utils/kernel/kmod/kmod.git;a=summary
+license	LGPL-2.1-or-later
+size	39522
+installed-size	79236
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:liblzma.so.5 so:libz.so.1 so:libzstd.so.1
+origin	kmod
+repo	main
+file	kmod-libs-34.2-r1.apk
+checksum	Q1It1WxmgKdMDwPEbp3Hw6lcfHNbs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:liblzma.so.5	xz-libs
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

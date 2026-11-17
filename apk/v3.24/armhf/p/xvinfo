@@ -1,0 +1,15 @@
+name	xvinfo
+version	1.1.5-r1
+description	Print out X-Video extension adaptor information
+url	https://xorg.freedesktop.org/
+license	MIT
+size	5975
+installed-size	9388
+depends	so:libX11.so.6 so:libXv.so.1 so:libc.musl-armhf.so.1
+origin	xvinfo
+repo	community
+file	xvinfo-1.1.5-r1.apk
+checksum	Q19q5cAZnrNls59471lmtgNphwEq8=
+dep	so:libX11.so.6	libx11
+dep	so:libXv.so.1	libxv
+dep	so:libc.musl-armhf.so.1	musl

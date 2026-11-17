@@ -1,0 +1,24 @@
+name	rsvg-convert
+version	2.62.3-r0
+description	CLI utility to convert SVG files to PNG format
+url	https://gitlab.gnome.org/GNOME/librsvg
+license	LGPL-2.1-or-later
+size	1788690
+installed-size	3792104
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdav1d.so.7 so:libfontconfig.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libharfbuzz.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libxml2.so.2
+origin	librsvg
+repo	community
+file	rsvg-convert-2.62.3-r0.apk
+checksum	Q1MzQZybsZfcVwp7AeXacKjNIDovY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libdav1d.so.7	libdav1d
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libxml2.so.2	libxml2

@@ -1,0 +1,14 @@
+name	font-noto-rashi-hebrew
+version	2026.11.01-r0
+description	Noto Rashi Hebrew font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	80565
+installed-size	237253
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-rashi-hebrew-2026.11.01-r0.apk
+checksum	Q1agKe9dHdUDBhE7eA/arr/dWsg/w=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

@@ -1,0 +1,15 @@
+name	clamav-milter
+version	1.4.6-r0
+description	ClamAV milter
+url	https://www.clamav.net/
+license	GPL-2.0-only
+size	52936
+installed-size	134129
+depends	so:libc.musl-armhf.so.1 so:libclamav.so.12 so:libmilter.so.1.0.2
+origin	clamav
+repo	community
+file	clamav-milter-1.4.6-r0.apk
+checksum	Q1HYI5E+SEqweG2+j1lPTQ4EmoIDM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libclamav.so.12	clamav-libs
+dep	so:libmilter.so.1.0.2	libmilter

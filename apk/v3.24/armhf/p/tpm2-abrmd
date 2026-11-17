@@ -1,0 +1,23 @@
+name	tpm2-abrmd
+version	3.0.0-r1
+description	TPM2 Access Broker & Resource Management Daemon implementing the TCG spec.
+url	https://github.com/tpm2-software/tpm2-abrmd
+license	BSD-2-Clause
+size	51488
+installed-size	141622
+depends	dbus libtss2-tcti-armbd /bin/sh so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libtss2-mu.so.0 so:libtss2-rc.so.0 so:libtss2-sys.so.1 so:libtss2-tctildr.so.0
+origin	tpm2-abrmd
+repo	community
+file	tpm2-abrmd-3.0.0-r1.apk
+checksum	Q1E9DC3BCM157PVknsvq+0hnXiUbE=
+dep	dbus	dbus
+dep	libtss2-tcti-armbd	libtss2-tcti-armbd
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libtss2-mu.so.0	tpm2-tss-mu
+dep	so:libtss2-rc.so.0	tpm2-tss-rc
+dep	so:libtss2-sys.so.1	tpm2-tss-sys
+dep	so:libtss2-tctildr.so.0	tpm2-tss-tctildr

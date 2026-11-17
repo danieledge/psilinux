@@ -1,0 +1,18 @@
+name	pnc-gawk
+version	0.9.5-r32
+description	libphonenumber command-line wrapper - Sxmo extended
+url	https://git.sr.ht/~anjan/pnc/
+license	GPL-3.0-only
+size	9608
+installed-size	22032
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgeocoding.so.9 so:libicuuc.so.78 so:libphonenumber.so.9 so:libstdc++.so.6
+origin	pnc
+repo	community
+file	pnc-gawk-0.9.5-r32.apk
+checksum	Q1JMVakJqzJwNZgsQ3pyPnts551eM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgeocoding.so.9	libgeocoding
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libphonenumber.so.9	libphonenumber
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,15 @@
+name	bento4
+version	1.6.0.641-r0
+description	Full-featured MP4 format, MPEG DASH, HLS, CMAF SDK and tools
+url	https://bento4.com
+license	GPL-2.0-only
+size	5237953
+installed-size	12178504
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	bento4
+repo	community
+file	bento4-1.6.0.641-r0.apk
+checksum	Q1Fgq61zmJ3+rmrnU3Wzya8PsMVdE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

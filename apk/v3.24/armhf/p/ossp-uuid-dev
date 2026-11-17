@@ -1,0 +1,15 @@
+name	ossp-uuid-dev
+version	1.6.6-r0
+description	Open Source Software Project Universally Unique Identifier (UUID) (development files)
+url	https://git.sr.ht/~nabijaczleweli/ossp-uuid
+license	MIT
+size	4661
+installed-size	9545
+depends	libmd-dev ossp-uuid-libs=1.6.6-r0 pkgconfig
+origin	ossp-uuid
+repo	community
+file	ossp-uuid-dev-1.6.6-r0.apk
+checksum	Q1+NmbIj+vQV0bdfXKkMy8vKWGHWc=
+dep	libmd-dev	libmd-dev
+dep	ossp-uuid-libs=1.6.6-r0	ossp-uuid-libs
+dep	pkgconfig	pkgconf

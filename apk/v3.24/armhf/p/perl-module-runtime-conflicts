@@ -1,0 +1,15 @@
+name	perl-module-runtime-conflicts
+version	0.003-r4
+description	Provide information on conflicts for Module::Runtime
+url	https://metacpan.org/release/Module-Runtime-Conflicts/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	3150
+installed-size	2365
+depends	perl perl-module-runtime perl-dist-checkconflicts
+origin	perl-module-runtime-conflicts
+repo	community
+file	perl-module-runtime-conflicts-0.003-r4.apk
+checksum	Q1A3eWeqJ8LRKylNyN4nZvvDJ4J00=
+dep	perl	perl
+dep	perl-module-runtime	perl-module-runtime
+dep	perl-dist-checkconflicts	perl-dist-checkconflicts

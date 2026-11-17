@@ -1,0 +1,38 @@
+name	ocaml-num
+version	1.4-r6
+description	Arbitray-precision rational arithmetic for OCaml
+url	https://github.com/ocaml/num
+license	LGPL-2.1-only WITH OCaml-LGPL-linking-exception AND MIT
+size	262130
+installed-size	579032
+depends	ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2 ocaml4-impl:Stdlib__Bytes:d3c880c3d8f0d027b21650509ad72a51 ocaml4-impl:Stdlib__Char:6b2d62594c65a43ddd8ad89b5edf3d73 ocaml4-impl:Stdlib__Int64:07574e234ed9bfb5e7f340e15749061d ocaml4-impl:Stdlib__Nativeint:617d35e90048fe8303291c0e8a458e9f ocaml4-impl:Stdlib__String:5c54069e57efa544d2be471c6a1fc73d ocaml4-impl:Stdlib__Sys:3400312f3fb438b11df6dc66f5ab79ae ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15 ocaml4-intf:Longident:dddbcb2c78e865fd75e9911c4b82a7e2 ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91 ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822 ocaml4-intf:Stdlib__Bytes:3d02c33317c0108c61e7a5eefa37519a ocaml4-intf:Stdlib__Char:62afe57b49defcc078960a68b9efbbee ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9 ocaml4-intf:Stdlib__Format:b6edb97b685819e873481fe05723c8bc ocaml4-intf:Stdlib__Int32:a71ea5238030770647165f659f80b1ab ocaml4-intf:Stdlib__Int64:0fa5587c47baf16a06837c7dedfc2518 ocaml4-intf:Stdlib__List:ee222542f6f8195441543b8b399b64b9 ocaml4-intf:Stdlib__Nativeint:989149bf8f2ce1a89fecbc3f5f40f52c ocaml4-intf:Stdlib__Obj:25794d29f7f4018768ea900e331a2bf3 ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962 ocaml4-intf:Stdlib__String:4933e1d855f54bfed0231b038f0dbb87 ocaml4-intf:Stdlib__Sys:7726a14ce36f5c6c3abb04975cec748b ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57 ocaml4-intf:Topdirs:895b140490a1769cb31ff36fb54760b8 so:libc.musl-armhf.so.1
+origin	ocaml-num
+repo	community
+file	ocaml-num-1.4-r6.apk
+checksum	Q17At7kXeeraMumNrvCJVdOe5lZpg=
+dep	ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2	ocaml
+dep	ocaml4-impl:Stdlib__Bytes:d3c880c3d8f0d027b21650509ad72a51	ocaml
+dep	ocaml4-impl:Stdlib__Char:6b2d62594c65a43ddd8ad89b5edf3d73	ocaml
+dep	ocaml4-impl:Stdlib__Int64:07574e234ed9bfb5e7f340e15749061d	ocaml
+dep	ocaml4-impl:Stdlib__Nativeint:617d35e90048fe8303291c0e8a458e9f	ocaml
+dep	ocaml4-impl:Stdlib__String:5c54069e57efa544d2be471c6a1fc73d	ocaml
+dep	ocaml4-impl:Stdlib__Sys:3400312f3fb438b11df6dc66f5ab79ae	ocaml
+dep	ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15	ocaml
+dep	ocaml4-intf:Longident:dddbcb2c78e865fd75e9911c4b82a7e2	ocaml-compiler-libs
+dep	ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91	ocaml
+dep	ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822	ocaml
+dep	ocaml4-intf:Stdlib__Bytes:3d02c33317c0108c61e7a5eefa37519a	ocaml
+dep	ocaml4-intf:Stdlib__Char:62afe57b49defcc078960a68b9efbbee	ocaml
+dep	ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9	ocaml
+dep	ocaml4-intf:Stdlib__Format:b6edb97b685819e873481fe05723c8bc	ocaml
+dep	ocaml4-intf:Stdlib__Int32:a71ea5238030770647165f659f80b1ab	ocaml
+dep	ocaml4-intf:Stdlib__Int64:0fa5587c47baf16a06837c7dedfc2518	ocaml
+dep	ocaml4-intf:Stdlib__List:ee222542f6f8195441543b8b399b64b9	ocaml
+dep	ocaml4-intf:Stdlib__Nativeint:989149bf8f2ce1a89fecbc3f5f40f52c	ocaml
+dep	ocaml4-intf:Stdlib__Obj:25794d29f7f4018768ea900e331a2bf3	ocaml
+dep	ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962	ocaml
+dep	ocaml4-intf:Stdlib__String:4933e1d855f54bfed0231b038f0dbb87	ocaml
+dep	ocaml4-intf:Stdlib__Sys:7726a14ce36f5c6c3abb04975cec748b	ocaml
+dep	ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57	ocaml
+dep	ocaml4-intf:Topdirs:895b140490a1769cb31ff36fb54760b8	ocaml
+dep	so:libc.musl-armhf.so.1	musl

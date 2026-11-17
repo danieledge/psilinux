@@ -1,0 +1,24 @@
+name	bpftrace
+version	0.26.1-r0
+description	High-level tracing language for Linux eBPF
+url	https://github.com/bpftrace/bpftrace
+license	Apache-2.0
+size	2632024
+installed-size	6940145
+depends	so:libLLVM.so.20.1 so:libbcc_bpf.so.0 so:libbfd-2.45.1.so so:libc.musl-armhf.so.1 so:libclang-cpp.so.20.1 so:libclang.so.20.1 so:libdw.so.1 so:libelf.so.1 so:libgcc_s.so.1 so:libopcodes-2.45.1.so so:libstdc++.so.6 so:libz.so.1
+origin	bpftrace
+repo	community
+file	bpftrace-0.26.1-r0.apk
+checksum	Q1aSo5TBDmpoXWbBpP9Ne6C9dIlUY=
+dep	so:libLLVM.so.20.1	llvm20-libs
+dep	so:libbcc_bpf.so.0	bcc
+dep	so:libbfd-2.45.1.so	binutils
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libclang-cpp.so.20.1	clang20-libs
+dep	so:libclang.so.20.1	clang20-libclang
+dep	so:libdw.so.1	libdw
+dep	so:libelf.so.1	libelf
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libopcodes-2.45.1.so	binutils
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

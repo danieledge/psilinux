@@ -1,0 +1,13 @@
+name	containerd-openrc
+version	2.3.7-r0
+description	An open and reliable container runtime (OpenRC init scripts)
+url	https://containerd.io/
+license	Apache-2.0
+size	2849
+installed-size	2609
+depends	log_proxy
+origin	containerd
+repo	community
+file	containerd-openrc-2.3.7-r0.apk
+checksum	Q1S//1ZAa05nJxMU0WRXlYDA+dr50=
+dep	log_proxy	log_proxy

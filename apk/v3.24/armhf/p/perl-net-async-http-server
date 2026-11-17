@@ -1,0 +1,16 @@
+name	perl-net-async-http-server
+version	0.15-r1
+description	Serve HTTP with IO::Async
+url	https://metacpan.org/release/Net-Async-HTTP-Server/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	11010
+installed-size	30306
+depends	perl perl-http-message perl-io-async perl-metrics-any
+origin	perl-net-async-http-server
+repo	community
+file	perl-net-async-http-server-0.15-r1.apk
+checksum	Q1nZpYxd5db1Zzk9wN6pq9aIAdO9g=
+dep	perl	perl
+dep	perl-http-message	perl-http-message
+dep	perl-io-async	perl-io-async
+dep	perl-metrics-any	perl-metrics-any

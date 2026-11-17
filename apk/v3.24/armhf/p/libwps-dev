@@ -1,0 +1,16 @@
+name	libwps-dev
+version	0.4.14-r0
+description	Import filter and tools for Microsoft Works files (development files)
+url	https://sourceforge.net/projects/libwps/
+license	MPL-2.0
+size	4284
+installed-size	6542
+depends	librevenge-dev libwps=0.4.14-r0 pc:librevenge-0.0 pkgconfig
+origin	libwps
+repo	community
+file	libwps-dev-0.4.14-r0.apk
+checksum	Q1vMBux9Icnns1r4EKw37kp5kJ4KU=
+dep	librevenge-dev	librevenge-dev
+dep	libwps=0.4.14-r0	libwps
+dep	pc:librevenge-0.0	librevenge-dev
+dep	pkgconfig	pkgconf

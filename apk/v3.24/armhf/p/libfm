@@ -1,0 +1,26 @@
+name	libfm
+version	1.4.0-r0
+description	Library for file management
+url	https://github.com/lxde/libfm
+license	GPL-2.0-or-later
+size	310156
+installed-size	852172
+depends	so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libexif.so.12 so:libfm-extra.so.4 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libmenu-cache.so.3 so:libpango-1.0.so.0
+origin	libfm
+repo	community
+file	libfm-1.4.0-r0.apk
+checksum	Q1r5fFqN3CG3UZ4iF9dDe2fZ4E0Zo=
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libexif.so.12	libexif
+dep	so:libfm-extra.so.4	libfm-extra
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libmenu-cache.so.3	menu-cache
+dep	so:libpango-1.0.so.0	pango

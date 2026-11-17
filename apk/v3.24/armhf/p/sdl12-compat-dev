@@ -1,0 +1,14 @@
+name	sdl12-compat-dev
+version	1.2.76-r1
+description	SDL-1.2 compat layer that uses SDL-2.0 (development files)
+url	https://github.com/libsdl-org/sdl12-compat
+license	BSD-3-Clause
+size	77296
+installed-size	492965
+depends	sdl12-compat=1.2.76-r1 pkgconfig
+origin	sdl12-compat
+repo	community
+file	sdl12-compat-dev-1.2.76-r1.apk
+checksum	Q1NddS3P8OR6G1ze0P0x89ZpaayOw=
+dep	sdl12-compat=1.2.76-r1	sdl12-compat
+dep	pkgconfig	pkgconf

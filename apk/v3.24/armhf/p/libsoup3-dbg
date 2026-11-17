@@ -1,0 +1,12 @@
+name	libsoup3-dbg
+version	3.6.6-r0
+description	Gnome HTTP client/server Library (debug symbols)
+url	https://libsoup.gnome.org
+license	LGPL-2.0-or-later
+size	898432
+installed-size	2163512
+depends	!libsoup3<3.6.6-r0 !libsoup3>3.6.6-r0
+origin	libsoup3
+repo	community
+file	libsoup3-dbg-3.6.6-r0.apk
+checksum	Q1oseWuetGKT73uf1GjXJHkmV5kMc=

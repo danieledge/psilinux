@@ -1,0 +1,14 @@
+name	perl-variable-magic
+version	0.64-r2
+description	Associate user-defined magic to variables from Perl
+url	https://metacpan.org/release/Variable-Magic/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	23812
+installed-size	53825
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-variable-magic
+repo	main
+file	perl-variable-magic-0.64-r2.apk
+checksum	Q1qgDuDh7cTYvdZI75qjZsu8FgJuM=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

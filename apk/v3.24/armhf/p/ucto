@@ -1,0 +1,22 @@
+name	ucto
+version	0.35-r2
+description	advanced rule-based (regular-expression) and unicode-aware tokenizer for various languages
+url	https://github.com/LanguageMachines/ucto
+license	GPL-3.0-only
+size	153836
+installed-size	439321
+depends	uctodata so:libc.musl-armhf.so.1 so:libexttextcat-2.0.so.0 so:libfolia.so.22 so:libgcc_s.so.1 so:libgomp.so.1 so:libicuio.so.78 so:libicuuc.so.78 so:libstdc++.so.6 so:libticcutils.so.10
+origin	ucto
+repo	community
+file	ucto-0.35-r2.apk
+checksum	Q1D+iszgMDMO0gsZB/Pe0Jb6NGDNo=
+dep	uctodata	uctodata
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexttextcat-2.0.so.0	libexttextcat
+dep	so:libfolia.so.22	libfolia
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgomp.so.1	libgomp
+dep	so:libicuio.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libticcutils.so.10	ticcutils

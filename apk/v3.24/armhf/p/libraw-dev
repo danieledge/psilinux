@@ -1,0 +1,15 @@
+name	libraw-dev
+version	0.22.2-r0
+description	Library for reading RAW files obtained from digital photo cameras (development files)
+url	https://www.libraw.org/
+license	CDDL-1.0 OR LGPL-2.1-only
+size	31022
+installed-size	107763
+depends	libraw=0.22.2-r0 pc:lcms2 pkgconfig
+origin	libraw
+repo	community
+file	libraw-dev-0.22.2-r0.apk
+checksum	Q1aljHi7CgdeNhvcI4MnbIkHhLCmA=
+dep	libraw=0.22.2-r0	libraw
+dep	pc:lcms2	lcms2-dev
+dep	pkgconfig	pkgconf

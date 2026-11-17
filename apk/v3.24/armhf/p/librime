@@ -1,0 +1,20 @@
+name	librime
+version	1.17.0-r0
+description	Rime input method engine
+url	https://github.com/rime/librime
+license	BSD-3-Clause
+size	596816
+installed-size	1481528
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglog.so.2 so:libleveldb.so.1 so:libmarisa.so.0 so:libopencc.so.1.3 so:libstdc++.so.6 so:libyaml-cpp.so.0.9
+origin	librime
+repo	community
+file	librime-1.17.0-r0.apk
+checksum	Q1MHfRGwWnF68O3RJlLm9/4pWiprs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglog.so.2	glog
+dep	so:libleveldb.so.1	leveldb
+dep	so:libmarisa.so.0	libmarisa
+dep	so:libopencc.so.1.3	opencc-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libyaml-cpp.so.0.9	yaml-cpp

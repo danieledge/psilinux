@@ -1,0 +1,15 @@
+name	libwebsockets
+version	4.3.5-r2
+description	C library for lightweight websocket clients and servers
+url	https://libwebsockets.org/
+license	MIT
+size	159912
+installed-size	312856
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	libwebsockets
+repo	main
+file	libwebsockets-4.3.5-r2.apk
+checksum	Q11LDkTShY2KAB1wl2sA/2gIuwxNs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

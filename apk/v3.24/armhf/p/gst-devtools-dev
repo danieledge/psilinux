@@ -1,0 +1,24 @@
+name	gst-devtools-dev
+version	1.28.1-r1
+description	GStreamer devtools (development files)
+url	https://gstreamer.freedesktop.org
+license	LGPL-2.0-or-later
+size	21555
+installed-size	108868
+depends	gst-devtools=1.28.1-r1 pc:gio-2.0>=2.64.0 pc:gmodule-no-export-2.0 pc:gstreamer-1.0>=1.28.0 pc:gstreamer-app-1.0>=1.28.0 pc:gstreamer-base-1.0>=1.28.0 pc:gstreamer-check-1.0>=1.28.0 pc:gstreamer-controller-1.0>=1.28.0 pc:gstreamer-pbutils-1.0>=1.28.0 pc:gstreamer-video-1.0>=1.28.0 pc:json-glib-1.0 pkgconfig
+origin	gst-devtools
+repo	community
+file	gst-devtools-dev-1.28.1-r1.apk
+checksum	Q1+46TFN6U/MiWo0R54OZMsG0uNC4=
+dep	gst-devtools=1.28.1-r1	gst-devtools
+dep	pc:gio-2.0>=2.64.0	glib-dev
+dep	pc:gmodule-no-export-2.0	glib-dev
+dep	pc:gstreamer-1.0>=1.28.0	gstreamer-dev
+dep	pc:gstreamer-app-1.0>=1.28.0	gst-plugins-base-dev
+dep	pc:gstreamer-base-1.0>=1.28.0	gstreamer-dev
+dep	pc:gstreamer-check-1.0>=1.28.0	gstreamer-dev
+dep	pc:gstreamer-controller-1.0>=1.28.0	gstreamer-dev
+dep	pc:gstreamer-pbutils-1.0>=1.28.0	gst-plugins-base-dev
+dep	pc:gstreamer-video-1.0>=1.28.0	gst-plugins-base-dev
+dep	pc:json-glib-1.0	json-glib-dev
+dep	pkgconfig	pkgconf

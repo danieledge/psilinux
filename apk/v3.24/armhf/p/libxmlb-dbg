@@ -1,0 +1,12 @@
+name	libxmlb-dbg
+version	0.3.27-r0
+description	Library to help create and query binary XML blobs (debug symbols)
+url	https://github.com/hughsie/libxmlb
+license	LGPL-2.1-or-later
+size	277754
+installed-size	630832
+depends	!libxmlb-dev<0.3.27-r0 !libxmlb-dev>0.3.27-r0 !libxmlb<0.3.27-r0 !libxmlb>0.3.27-r0
+origin	libxmlb
+repo	community
+file	libxmlb-dbg-0.3.27-r0.apk
+checksum	Q1T+Iyr1Do87YymD+w0KVhP7Q/ESM=

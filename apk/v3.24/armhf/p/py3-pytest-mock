@@ -1,0 +1,15 @@
+name	py3-pytest-mock
+version	3.15.1-r1
+description	Thin-wrapper around the mock package for easier use with py.test
+url	https://github.com/pytest-dev/pytest-mock
+license	MIT
+size	10852
+installed-size	33779
+depends	py3-mock py3-pytest python3~3.14
+origin	py3-pytest-mock
+repo	main
+file	py3-pytest-mock-3.15.1-r1.apk
+checksum	Q137pzxnL5VCSyg4FwKGia3Y28YfU=
+dep	py3-mock	py3-mock
+dep	py3-pytest	py3-pytest
+dep	python3~3.14	python3

@@ -1,0 +1,13 @@
+name	scanelf
+version	1.3.9-r1
+description	Scan ELF binaries for stuff
+url	https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities
+license	GPL-2.0-only
+size	36266
+installed-size	70952
+depends	so:libc.musl-armhf.so.1
+origin	pax-utils
+repo	main
+file	scanelf-1.3.9-r1.apk
+checksum	Q1E3eZORWpnu0nQmZZg8GTQ0kxTXU=
+dep	so:libc.musl-armhf.so.1	musl

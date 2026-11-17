@@ -1,0 +1,13 @@
+name	ocaml-magic-mime-dev
+version	1.3.1-r3
+description	Map filenames to common MIME types (development files)
+url	https://github.com/mirage/ocaml-magic-mime
+license	ISC
+size	328088
+installed-size	892800
+depends	ocaml-magic-mime=1.3.1-r3
+origin	ocaml-magic-mime
+repo	community
+file	ocaml-magic-mime-dev-1.3.1-r3.apk
+checksum	Q1bYBxnYFGoz5rZtplm+cMH0MUlHw=
+dep	ocaml-magic-mime=1.3.1-r3	ocaml-magic-mime

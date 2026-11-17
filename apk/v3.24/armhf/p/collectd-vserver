@@ -1,0 +1,14 @@
+name	collectd-vserver
+version	5.12.0-r25
+description	vserver pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	5032
+installed-size	9336
+depends	collectd so:libc.musl-armhf.so.1
+origin	collectd
+repo	community
+file	collectd-vserver-5.12.0-r25.apk
+checksum	Q1JxP/RhJZ3YQq+oIqag5avWhUhmM=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl

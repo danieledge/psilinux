@@ -1,0 +1,13 @@
+name	kuroko-dev
+version	1.4.0-r0
+description	Lightweight Python dialect with explicit variables and block scoping. (development files)
+url	https://github.com/kuroko-lang/kuroko
+license	MIT
+size	522429
+installed-size	1360743
+depends	so:libc.musl-armhf.so.1
+origin	kuroko
+repo	community
+file	kuroko-dev-1.4.0-r0.apk
+checksum	Q19ak8NKSOOGYwwHciwJxTeQx5c1E=
+dep	so:libc.musl-armhf.so.1	musl

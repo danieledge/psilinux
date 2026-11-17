@@ -1,0 +1,17 @@
+name	tk
+version	8.6.17-r1
+description	GUI toolkit for the Tcl scripting language
+url	https://www.tcl-lang.org/
+license	TCL
+size	766940
+installed-size	1951665
+depends	so:libX11.so.6 so:libXft.so.2 so:libc.musl-armhf.so.1 so:libfontconfig.so.1 so:libtcl8.6.so
+origin	tk
+repo	main
+file	tk-8.6.17-r1.apk
+checksum	Q1M6A3iRvS+WDc1NFXDUKONi8QiMk=
+dep	so:libX11.so.6	libx11
+dep	so:libXft.so.2	libxft
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libtcl8.6.so	tcl

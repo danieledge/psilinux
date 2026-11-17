@@ -1,0 +1,24 @@
+name	pulseaudio-zeroconf
+version	17.0-r7
+description	Pulseaudio Zeroconf support
+url	https://www.freedesktop.org/wiki/Software/PulseAudio/
+license	LGPL-2.1-or-later
+size	50548
+installed-size	134520
+depends	avahi so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libdbus-1.so.3 so:libintl.so.8 so:libprotocol-native.so so:libpulse.so.0 so:libpulsecommon-17.0.so so:libpulsecore-17.0.so so:librtp.so
+origin	pulseaudio
+repo	community
+file	pulseaudio-zeroconf-17.0-r7.apk
+checksum	Q1nhZ4eO1bQf6lLoDEUH06zKD34nk=
+dep	avahi	avahi
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libintl.so.8	libintl
+dep	so:libprotocol-native.so	pulseaudio
+dep	so:libpulse.so.0	libpulse
+dep	so:libpulsecommon-17.0.so	libpulse
+dep	so:libpulsecore-17.0.so	libpulse
+dep	so:librtp.so	pulseaudio

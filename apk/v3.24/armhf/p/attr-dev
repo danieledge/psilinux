@@ -1,0 +1,14 @@
+name	attr-dev
+version	2.5.2-r2
+description	utilities for managing filesystem extended attributes (development files)
+url	https://savannah.nongnu.org/projects/attr
+license	LGPL-2.1-or-later
+size	5502
+installed-size	11220
+depends	libattr=2.5.2-r2 pkgconfig
+origin	attr
+repo	main
+file	attr-dev-2.5.2-r2.apk
+checksum	Q1eynjW4I9CN+maUWoaTajfRTAUng=
+dep	libattr=2.5.2-r2	libattr
+dep	pkgconfig	pkgconf

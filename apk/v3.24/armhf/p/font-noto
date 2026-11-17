@@ -1,0 +1,16 @@
+name	font-noto
+version	2026.11.01-r0
+description	Noto font families for Latin, Cyrillic and Greek scripts
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	4690635
+installed-size	9453915
+depends	fontconfig font-noto-common=2026.11.01-r0 font-noto-math=2026.11.01-r0 font-noto-symbols=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-2026.11.01-r0.apk
+checksum	Q12iJnHN7NFf7eZknoKV0RgBMfmG0=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common
+dep	font-noto-math=2026.11.01-r0	font-noto-math
+dep	font-noto-symbols=2026.11.01-r0	font-noto-symbols

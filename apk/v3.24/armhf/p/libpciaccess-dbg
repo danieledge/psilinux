@@ -1,0 +1,12 @@
+name	libpciaccess-dbg
+version	0.19-r0
+description	X11 PCI access library (debug symbols)
+url	https://xorg.freedesktop.org/
+license	X11
+size	48881
+installed-size	116184
+depends	!libpciaccess<0.19-r0 !libpciaccess>0.19-r0
+origin	libpciaccess
+repo	main
+file	libpciaccess-dbg-0.19-r0.apk
+checksum	Q1pfc/MFt1ra+12ElZ/2uRXnHhhcc=

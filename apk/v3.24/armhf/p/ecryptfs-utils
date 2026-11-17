@@ -1,0 +1,22 @@
+name	ecryptfs-utils
+version	111-r19
+description	Enterprise-class stacked cryptographic filesystem for Linux
+url	http://ecryptfs.org/
+license	GPL-2.0-or-later
+size	94722
+installed-size	302559
+depends	cryptsetup keyutils gettext rsync lsof so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libkeyutils.so.1 so:libnss3.so so:libpam.so.0
+origin	ecryptfs-utils
+repo	community
+file	ecryptfs-utils-111-r19.apk
+checksum	Q1iL5I4lVhg/A8bSW3VQXfn90LdqI=
+dep	cryptsetup	cryptsetup
+dep	keyutils	keyutils
+dep	gettext	gettext
+dep	rsync	rsync
+dep	lsof	lsof
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libkeyutils.so.1	keyutils-libs
+dep	so:libnss3.so	nss
+dep	so:libpam.so.0	linux-pam

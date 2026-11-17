@@ -1,0 +1,14 @@
+name	chibi-scheme-dev
+version	0.12-r0
+description	Minimal implementation of the R7RS scheme standard (development files)
+url	https://github.com/ashinn/chibi-scheme
+license	BSD-3-Clause
+size	35954
+installed-size	159379
+depends	chibi-scheme=0.12-r0 pkgconfig
+origin	chibi-scheme
+repo	community
+file	chibi-scheme-dev-0.12-r0.apk
+checksum	Q1QbbOZilc9SU/94HSEJoKBthV2ZM=
+dep	chibi-scheme=0.12-r0	chibi-scheme
+dep	pkgconfig	pkgconf

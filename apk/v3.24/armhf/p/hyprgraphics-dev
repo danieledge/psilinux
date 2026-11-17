@@ -1,0 +1,14 @@
+name	hyprgraphics-dev
+version	0.5.1-r1
+description	Hyprland graphics / resource utilities (development files)
+url	https://github.com/hyprwm/hyprgraphics
+license	BSD-3-Clause
+size	5999
+installed-size	14118
+depends	hyprgraphics=0.5.1-r1 pkgconfig
+origin	hyprgraphics
+repo	community
+file	hyprgraphics-dev-0.5.1-r1.apk
+checksum	Q1RmIMj6DyUNiKgZfdsJghR+9xKss=
+dep	hyprgraphics=0.5.1-r1	hyprgraphics
+dep	pkgconfig	pkgconf

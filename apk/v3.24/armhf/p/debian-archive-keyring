@@ -1,0 +1,13 @@
+name	debian-archive-keyring
+version	2025.1-r1
+description	GnuPG archive keys of the Debian archive
+url	https://packages.debian.org/sid/debian-archive-keyring
+license	GPL-2.0-or-later
+size	212266
+installed-size	260922
+depends	gnupg
+origin	debian-archive-keyring
+repo	main
+file	debian-archive-keyring-2025.1-r1.apk
+checksum	Q1O7d49KtVIXgYw8ial3gLu0N+494=
+dep	gnupg	gnupg

@@ -1,0 +1,16 @@
+name	zsh
+version	5.9-r7
+description	Very advanced and programmable command interpreter (shell)
+url	https://www.zsh.org/
+license	MIT-Modern-Variant AND GPL-2.0-only
+size	1601100
+installed-size	4116127
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcap.so.2 so:libncursesw.so.6
+origin	zsh
+repo	main
+file	zsh-5.9-r7.apk
+checksum	Q1CJ88/2Etaj/mt+tixV7elNk83rs=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libncursesw.so.6	libncursesw

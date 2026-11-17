@@ -1,0 +1,12 @@
+name	eudev-netifnames
+version	3.2.14-r6
+description	udev rules for systemd-style interface names
+url	https://github.com/eudev-project/eudev
+license	GPL-2.0-or-later
+size	1865
+installed-size	491
+depends	!eudev-rule-generator
+origin	eudev
+repo	main
+file	eudev-netifnames-3.2.14-r6.apk
+checksum	Q1/B/i0Is2bvitxroNiz+Q7Pd45aY=

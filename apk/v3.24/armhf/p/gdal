@@ -1,0 +1,49 @@
+name	gdal
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats
+url	https://gdal.org/
+license	MIT
+size	9348604
+installed-size	24634526
+depends	so:libLerc.so.4 so:libSFCGAL.so.2 so:libaec.so.0 so:libarchive.so.13 so:libarmadillo.so.15 so:libblosc.so.1 so:libbrunslidec-c.so.0.1 so:libbrunslienc-c.so.0.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libdeflate.so.0 so:libexpat.so.1 so:libgcc_s.so.1 so:libgeos_c.so.1 so:libgomp.so.1 so:libiconv.so.2 so:libjpeg.so.8 so:libjson-c.so.5 so:libjxl.so.0.11 so:liblz4.so.1 so:liblzma.so.5 so:libmuparser.so.2 so:libodbc.so.2 so:libodbcinst.so.2 so:libpcre2-8.so.0 so:libpng16.so.16 so:libproj.so.25 so:libqhull_r.so.8.0 so:libspatialite.so.8 so:libsqlite3.so.0 so:libstdc++.so.6 so:libwebp.so.7 so:libxerces-c-3.2.so so:libxml2.so.2 so:libz.so.1 so:libzstd.so.1
+origin	gdal
+repo	community
+file	gdal-3.13.3-r0.apk
+checksum	Q1eG0spzkhmHYP0NA/HOy4i2agtPU=
+dep	so:libLerc.so.4	lerc
+dep	so:libSFCGAL.so.2	sfcgal
+dep	so:libaec.so.0	libaec
+dep	so:libarchive.so.13	libarchive
+dep	so:libarmadillo.so.15	armadillo
+dep	so:libblosc.so.1	blosc
+dep	so:libbrunslidec-c.so.0.1	brunsli-libs
+dep	so:libbrunslienc-c.so.0.1	brunsli-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libdeflate.so.0	libdeflate
+dep	so:libexpat.so.1	libexpat
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgeos_c.so.1	geos
+dep	so:libgomp.so.1	libgomp
+dep	so:libiconv.so.2	gnu-libiconv-libs
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libjson-c.so.5	json-c
+dep	so:libjxl.so.0.11	libjxl
+dep	so:liblz4.so.1	lz4-libs
+dep	so:liblzma.so.5	xz-libs
+dep	so:libmuparser.so.2	muparser
+dep	so:libodbc.so.2	unixodbc
+dep	so:libodbcinst.so.2	unixodbc
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libpng16.so.16	libpng
+dep	so:libproj.so.25	proj
+dep	so:libqhull_r.so.8.0	qhull
+dep	so:libspatialite.so.8	libspatialite
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwebp.so.7	libwebp
+dep	so:libxerces-c-3.2.so	xerces-c
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

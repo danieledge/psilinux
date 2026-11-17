@@ -1,0 +1,16 @@
+name	py3-django-guardian
+version	3.3.1-r0
+description	Implementation of per object permissions on top of Django’s authorization backend
+url	https://pypi.python.org/project/django-guardian
+license	MIT
+size	115806
+installed-size	626416
+depends	py3-django py3-django-environ py3-typing-extensions python3~3.14
+origin	py3-django-guardian
+repo	community
+file	py3-django-guardian-3.3.1-r0.apk
+checksum	Q1+kpRNfm8HdfgqGobxkKg85ZyWy8=
+dep	py3-django	py3-django
+dep	py3-django-environ	py3-django-environ
+dep	py3-typing-extensions	py3-typing-extensions
+dep	python3~3.14	python3

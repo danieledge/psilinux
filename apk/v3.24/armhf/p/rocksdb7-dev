@@ -1,0 +1,21 @@
+name	rocksdb7-dev
+version	7.9.2-r2
+description	persistent key-value store for fast storage environments (development files)
+url	https://rocksdb.org
+license	Apache-2.0 OR GPL-2.0-only
+size	321047
+installed-size	1333874
+depends	bzip2-dev gflags-dev liburing-dev lz4-dev snappy-dev zlib-dev zstd-dev rocksdb7=7.9.2-r2 pkgconfig
+origin	rocksdb7
+repo	community
+file	rocksdb7-dev-7.9.2-r2.apk
+checksum	Q1zJGBrMFZqILApM1VivxlO3ZXeQw=
+dep	bzip2-dev	bzip2-dev
+dep	gflags-dev	gflags-dev
+dep	liburing-dev	liburing-dev
+dep	lz4-dev	lz4-dev
+dep	snappy-dev	snappy-dev
+dep	zlib-dev	zlib-dev
+dep	zstd-dev	zstd-dev
+dep	rocksdb7=7.9.2-r2	rocksdb7
+dep	pkgconfig	pkgconf

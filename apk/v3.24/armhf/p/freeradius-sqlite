@@ -1,0 +1,15 @@
+name	freeradius-sqlite
+version	3.0.27-r3
+description	SQLite module for FreeRADIUS server
+url	https://freeradius.org/
+license	GPL-2.0-or-later
+size	23133
+installed-size	72358
+depends	freeradius-sql=3.0.27-r3 so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	freeradius
+repo	main
+file	freeradius-sqlite-3.0.27-r3.apk
+checksum	Q1yPy7kDGb3qAUydgxPCl82+cOPvM=
+dep	freeradius-sql=3.0.27-r3	freeradius-sql
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

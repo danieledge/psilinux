@@ -1,0 +1,14 @@
+name	postgresql-orafce
+version	4.10.0-r2
+description	Oracle's compatibility functions and packages for PostgreSQL
+url	https://github.com/orafce/orafce
+license	0BSD
+size	136939
+installed-size	487280
+depends	postgresql18 so:libc.musl-armhf.so.1
+origin	postgresql-orafce
+repo	community
+file	postgresql-orafce-4.10.0-r2.apk
+checksum	Q1VwOk0mG2xfCKts2Wo2dkiDAPmUw=
+dep	postgresql18	postgresql18
+dep	so:libc.musl-armhf.so.1	musl

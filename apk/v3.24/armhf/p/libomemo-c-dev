@@ -1,0 +1,14 @@
+name	libomemo-c-dev
+version	0.5.0-r0
+description	Fork of libsignal-protocol-c adding support for OMEMO XEP-0384 0.5.0+  (development files)
+url	https://github.com/dino/libomemo-c
+license	GPL-3.0-only
+size	16833
+installed-size	83164
+depends	libomemo-c=0.5.0-r0 pkgconfig
+origin	libomemo-c
+repo	community
+file	libomemo-c-dev-0.5.0-r0.apk
+checksum	Q1pCVVXpFmXleOQRQpzs2E3J/TqWE=
+dep	libomemo-c=0.5.0-r0	libomemo-c
+dep	pkgconfig	pkgconf

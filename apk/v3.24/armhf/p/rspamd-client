@@ -1,0 +1,21 @@
+name	rspamd-client
+version	4.0.1-r0
+description	Fast, free and open-source spam filtering system (console client)
+url	https://rspamd.com/
+license	Apache-2.0 BSD-1-Clause BSD-2-Clause BSD-3-Clause CC0-1.0 LGPL-2.1-or-later LGPL-3.0-only MIT Zlib
+size	98461
+installed-size	211844
+depends	icu-data-full so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:librspamd-ev.so so:librspamd-server.so so:libsodium.so.26 so:libstdc++.so.6 so:libzstd.so.1
+origin	rspamd
+repo	community
+file	rspamd-client-4.0.1-r0.apk
+checksum	Q1IJ/qP+kG61zE3NPfzKgoTSJownc=
+dep	icu-data-full	icu-data-full
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:librspamd-ev.so	rspamd-libs
+dep	so:librspamd-server.so	rspamd-libs
+dep	so:libsodium.so.26	libsodium
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libzstd.so.1	zstd-libs

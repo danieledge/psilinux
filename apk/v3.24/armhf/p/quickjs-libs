@@ -1,0 +1,13 @@
+name	quickjs-libs
+version	0.20250913-r0
+description	Small and embeddable Javascript engine (libraries)
+url	https://bellard.org/quickjs/
+license	MIT
+size	405994
+installed-size	800020
+depends	so:libc.musl-armhf.so.1
+origin	quickjs
+repo	community
+file	quickjs-libs-0.20250913-r0.apk
+checksum	Q1BfLAUT1LMk+i5NkuKN+zc7kFx9U=
+dep	so:libc.musl-armhf.so.1	musl

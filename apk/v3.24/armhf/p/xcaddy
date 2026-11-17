@@ -1,0 +1,14 @@
+name	xcaddy
+version	0.4.6-r0
+description	Build Caddy with plugins
+url	https://github.com/caddyserver/xcaddy
+license	Apache-2.0
+size	1905207
+installed-size	4954116
+depends	go so:libc.musl-armhf.so.1
+origin	xcaddy
+repo	community
+file	xcaddy-0.4.6-r0.apk
+checksum	Q1hyE5VDqQW3t/i+abqmPwKB3tA5Q=
+dep	go	go
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	popt-dev
+version	1.19-r4
+description	commandline option parser (development files)
+url	https://github.com/rpm-software-management/popt
+license	MIT
+size	6937
+installed-size	17889
+depends	popt=1.19-r4 pkgconfig
+origin	popt
+repo	main
+file	popt-dev-1.19-r4.apk
+checksum	Q12abbApmE3hoJ42A6TJZj0DeABq0=
+dep	popt=1.19-r4	popt
+dep	pkgconfig	pkgconf

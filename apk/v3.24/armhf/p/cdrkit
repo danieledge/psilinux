@@ -1,0 +1,18 @@
+name	cdrkit
+version	1.1.11-r6
+description	Suite of programs for CD/DVD recording, ISO image creation, and audio CD extraction
+url	http://cdrkit.org/
+license	GPL-2.0-only
+size	921195
+installed-size	2110426
+depends	file bzip2 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcap.so.2 so:libz.so.1
+origin	cdrkit
+repo	community
+file	cdrkit-1.1.11-r6.apk
+checksum	Q1cE7uqii1SpmQzdoYGqK415HCRxI=
+dep	file	file
+dep	bzip2	bzip2
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libz.so.1	zlib

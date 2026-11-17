@@ -1,0 +1,13 @@
+name	which
+version	2.23-r0
+description	A utility to show the full path of commands
+url	https://savannah.gnu.org/projects/which
+license	GPL-2.0-or-later
+size	10168
+installed-size	17852
+depends	so:libc.musl-armhf.so.1
+origin	which
+repo	main
+file	which-2.23-r0.apk
+checksum	Q130MRUHi+CUXYaNvijjzVIloAI/Y=
+dep	so:libc.musl-armhf.so.1	musl

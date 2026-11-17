@@ -1,0 +1,14 @@
+name	perl-net-dns-resolver-mock
+version	1.20230216-r1
+description	Mock a DNS Resolver object for testing
+url	https://metacpan.org/release/Net-DNS-Resolver-Mock/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	3884
+installed-size	5230
+depends	perl perl-net-dns
+origin	perl-net-dns-resolver-mock
+repo	main
+file	perl-net-dns-resolver-mock-1.20230216-r1.apk
+checksum	Q1HWBhcCSCsd2dxvcf7yJdCY/AOEI=
+dep	perl	perl
+dep	perl-net-dns	perl-net-dns

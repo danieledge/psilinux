@@ -1,0 +1,20 @@
+name	perl-test-expander
+version	2.5.1-r1
+description	Collection of frequently used test functionalities
+url	https://metacpan.org/release/Test-Expander/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	7190
+installed-size	18739
+depends	perl perl-const-fast perl-file-chdir perl-importer perl-padwalker perl-path-tiny perl-scalar-readonly perl-test2-tools-explain
+origin	perl-test-expander
+repo	community
+file	perl-test-expander-2.5.1-r1.apk
+checksum	Q1ADgxoN5kjDHJyw40IZinS7/utAw=
+dep	perl	perl
+dep	perl-const-fast	perl-const-fast
+dep	perl-file-chdir	perl-file-chdir
+dep	perl-importer	perl-importer
+dep	perl-padwalker	perl-padwalker
+dep	perl-path-tiny	perl-path-tiny
+dep	perl-scalar-readonly	perl-scalar-readonly
+dep	perl-test2-tools-explain	perl-test2-tools-explain

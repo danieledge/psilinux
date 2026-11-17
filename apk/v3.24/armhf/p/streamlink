@@ -1,0 +1,25 @@
+name	streamlink
+version	8.4.0-r0
+description	CLI for extracting streams from various websites to a video player of your choosing
+url	https://streamlink.github.io/
+license	BSD-2-Clause
+size	440295
+installed-size	1923962
+depends	python3 py3-certifi py3-isodate py3-lxml py3-pycountry py3-pycryptodome py3-pysocks py3-requests py3-trio py3-trio-websocket py3-urllib3 py3-websocket-client python3~3.14
+origin	streamlink
+repo	community
+file	streamlink-8.4.0-r0.apk
+checksum	Q1jobbR74JJYj3mC72T69W4/mxog4=
+dep	python3	python3
+dep	py3-certifi	py3-certifi
+dep	py3-isodate	py3-isodate
+dep	py3-lxml	py3-lxml
+dep	py3-pycountry	py3-pycountry
+dep	py3-pycryptodome	py3-pycryptodome
+dep	py3-pysocks	py3-pysocks
+dep	py3-requests	py3-requests
+dep	py3-trio	py3-trio
+dep	py3-trio-websocket	py3-trio-websocket
+dep	py3-urllib3	py3-urllib3
+dep	py3-websocket-client	py3-websocket-client
+dep	python3~3.14	python3

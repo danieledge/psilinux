@@ -1,0 +1,19 @@
+name	rest1
+version	0.9.1-r1
+description	Library for access to RESTful web services
+url	https://www.gnome.org/
+license	LGPL-2.0-or-later
+size	48698
+installed-size	126540
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libjson-glib-1.0.so.0 so:libsoup-3.0.so.0 so:libxml2.so.2
+origin	rest1
+repo	community
+file	rest1-0.9.1-r1.apk
+checksum	Q1D2grrqW8xfevBsEmiyYeB/1i1RY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libxml2.so.2	libxml2

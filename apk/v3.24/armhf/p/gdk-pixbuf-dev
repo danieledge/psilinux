@@ -1,0 +1,20 @@
+name	gdk-pixbuf-dev
+version	2.44.7-r1
+description	GTK+ image loading library (development files)
+url	https://gitlab.gnome.org/GNOME/gdk-pixbuf
+license	LGPL-2.1-or-later
+size	61486
+installed-size	456506
+depends	gdk-pixbuf=2.44.7-r1 pc:gio-2.0>=2.56.0 pc:glib-2.0>=2.56.0 pc:glycin-2>=2.0.1 pc:gmodule-no-export-2.0>=2.56.0 pc:gobject-2.0>=2.56.0 pc:shared-mime-info pkgconfig
+origin	gdk-pixbuf
+repo	community
+file	gdk-pixbuf-dev-2.44.7-r1.apk
+checksum	Q1caXiHuNUeGH9GyWK+/UZ03atiWo=
+dep	gdk-pixbuf=2.44.7-r1	gdk-pixbuf
+dep	pc:gio-2.0>=2.56.0	glib-dev
+dep	pc:glib-2.0>=2.56.0	glib-dev
+dep	pc:glycin-2>=2.0.1	libglycin-dev
+dep	pc:gmodule-no-export-2.0>=2.56.0	glib-dev
+dep	pc:gobject-2.0>=2.56.0	glib-dev
+dep	pc:shared-mime-info	shared-mime-info
+dep	pkgconfig	pkgconf

@@ -1,0 +1,15 @@
+name	libevent
+version	2.1.13-r0
+description	An event notification library
+url	https://libevent.org/
+license	BSD-3-Clause
+size	279973
+installed-size	629284
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	libevent
+repo	main
+file	libevent-2.1.13-r0.apk
+checksum	Q1m6wxeYxzluVDmipsd1VaeJWCwOA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

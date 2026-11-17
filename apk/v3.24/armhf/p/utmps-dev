@@ -1,0 +1,15 @@
+name	utmps-dev
+version	0.1.3.3-r0
+description	A secure utmp/wtmp implementation (development files)
+url	https://skarnet.org/software/utmps/
+license	ISC
+size	3705
+installed-size	5394
+depends	utmps-libs=0.1.3.3-r0 pc:libskarnet>=2.15.0.0 pkgconfig
+origin	utmps
+repo	main
+file	utmps-dev-0.1.3.3-r0.apk
+checksum	Q1g0EDqeoUuuDxQ+ae3c4gM7n/KqE=
+dep	utmps-libs=0.1.3.3-r0	utmps-libs
+dep	pc:libskarnet>=2.15.0.0	skalibs-dev
+dep	pkgconfig	pkgconf

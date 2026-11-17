@@ -1,0 +1,15 @@
+name	kamailio-lua
+version	6.0.6-r0
+description	Kamailio Lua script support
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	79089
+installed-size	182240
+depends	kamailio so:libc.musl-armhf.so.1 so:liblua.so.5
+origin	kamailio
+repo	main
+file	kamailio-lua-6.0.6-r0.apk
+checksum	Q1kVx6UY1x3MjsIJix4980xgs10YA=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblua.so.5	lua5.1-libs

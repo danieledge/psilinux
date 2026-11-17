@@ -1,0 +1,14 @@
+name	mu4e
+version	1.14.1-r1
+description	Emacs-based e-mail client which uses mu as its back-end
+url	https://www.djcbsoftware.nl/code/mu/
+license	GPL-3.0-or-later
+size	262779
+installed-size	1030339
+depends	mu=1.14.1-r1 cmd:emacs
+origin	mu
+repo	community
+file	mu4e-1.14.1-r1.apk
+checksum	Q1RDhg8T4EVCU+cS2IMefGL0zcemw=
+dep	mu=1.14.1-r1	mu
+dep	cmd:emacs	emacs-gtk3

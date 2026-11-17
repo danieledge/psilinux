@@ -1,0 +1,17 @@
+name	py3-mypy
+version	1.19.1-r2
+description	Optional static typing for Python (PEP484)
+url	https://mypy-lang.org/
+license	MIT
+size	2128143
+installed-size	9614870
+depends	py3-librt py3-mypy-extensions py3-pathspec py3-typing-extensions python3~3.14
+origin	py3-mypy
+repo	community
+file	py3-mypy-1.19.1-r2.apk
+checksum	Q1Ep1NN0k5daUT9KVclDrIywJqaY8=
+dep	py3-librt	py3-librt
+dep	py3-mypy-extensions	py3-mypy-extensions
+dep	py3-pathspec	py3-pathspec
+dep	py3-typing-extensions	py3-typing-extensions
+dep	python3~3.14	python3

@@ -1,0 +1,13 @@
+name	zix-libs
+version	0.8.0-r0
+description	lightweight C99 portability and data structure library (libraries)
+url	http://drobilla.net/category/zix
+license	ISC
+size	19619
+installed-size	38084
+depends	so:libc.musl-armhf.so.1
+origin	zix
+repo	community
+file	zix-libs-0.8.0-r0.apk
+checksum	Q1OE3MGVBjvx/QW7YHxeGXtIYF4KM=
+dep	so:libc.musl-armhf.so.1	musl

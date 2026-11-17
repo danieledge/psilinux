@@ -1,0 +1,14 @@
+name	nagios-plugins-ssl_validity
+version	2.5-r0
+description	Nagios plugin check_ssl_validity
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	5608
+installed-size	12544
+depends	nagios-plugins perl
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-ssl_validity-2.5-r0.apk
+checksum	Q1zdHICHJvvpIe4yUhPdT0FImazZE=
+dep	nagios-plugins	nagios-plugins
+dep	perl	perl

@@ -1,0 +1,14 @@
+name	sliding-sync
+version	0.99.19-r17
+description	Matrix protocol sliding sync specification
+url	https://github.com/matrix-org/sliding-sync
+license	Apache-2.0
+size	7004737
+installed-size	18778604
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	sliding-sync
+repo	community
+file	sliding-sync-0.99.19-r17.apk
+checksum	Q17F/Q7gCupUmosp7wCNlHflKZuOg=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

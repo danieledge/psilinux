@@ -1,0 +1,19 @@
+name	kdsoap-dev
+version	2.3.0-r0
+description	A Qt-based client-side and server-side SOAP component (development files)
+url	https://www.kdab.com/development-resources/qt-tools/kd-soap/
+license	LGPL-2.1-only AND LGPL-3.0-only AND (GPL-2.0-only OR GPL-3.0-only) AND AGPL-3.0-only
+size	316165
+installed-size	761225
+depends	kdsoap=2.3.0-r0 so:libQt6Core.so.6 so:libQt6Network.so.6 so:libQt6Xml.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	kdsoap
+repo	community
+file	kdsoap-dev-2.3.0-r0.apk
+checksum	Q1TBl0IFrNCYxnKpntzLMzCImCcTQ=
+dep	kdsoap=2.3.0-r0	kdsoap
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6Xml.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

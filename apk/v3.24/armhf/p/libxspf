@@ -1,0 +1,17 @@
+name	libxspf
+version	1.2.1-r3
+description	Brings XSPF playlist reading and writing support to C++ application
+url	https://libspiff.sourceforge.net/
+license	BSD-3-Clause
+size	64243
+installed-size	176268
+depends	so:libc.musl-armhf.so.1 so:libexpat.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:liburiparser.so.1
+origin	libxspf
+repo	community
+file	libxspf-1.2.1-r3.apk
+checksum	Q1QfPZ58sVMfoZHoVvFJjF2AIbMr4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexpat.so.1	libexpat
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:liburiparser.so.1	liburiparser

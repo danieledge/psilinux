@@ -1,0 +1,16 @@
+name	libgee-dev
+version	0.20.8-r1
+description	GObject collection library (development files)
+url	https://gitlab.gnome.org/GNOME/libgee
+license	LGPL-2.1-or-later
+size	62564
+installed-size	1014778
+depends	libgee=0.20.8-r1 pc:glib-2.0 pc:gobject-2.0 pkgconfig
+origin	libgee
+repo	community
+file	libgee-dev-0.20.8-r1.apk
+checksum	Q1Zd0aNZqvhxqeWGeJtWz2JQ5AYhU=
+dep	libgee=0.20.8-r1	libgee
+dep	pc:glib-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pkgconfig	pkgconf

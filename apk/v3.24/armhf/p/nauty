@@ -1,0 +1,13 @@
+name	nauty
+version	2.9.3-r1
+description	Compute automorphism groups of graphs and digraphs
+url	https://pallini.di.uniroma1.it/
+license	Apache-2.0
+size	5435594
+installed-size	11021228
+depends	so:libc.musl-armhf.so.1
+origin	nauty
+repo	community
+file	nauty-2.9.3-r1.apk
+checksum	Q1f2N2k0T3nqxQa0S4zUH6HCTXU+4=
+dep	so:libc.musl-armhf.so.1	musl

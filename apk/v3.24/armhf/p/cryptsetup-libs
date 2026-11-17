@@ -1,0 +1,18 @@
+name	cryptsetup-libs
+version	2.8.6-r0
+description	Cryptsetup shared library
+url	https://gitlab.com/cryptsetup/cryptsetup
+license	GPL-2.0-or-later WITH cryptsetup-OpenSSL-exception
+size	229506
+installed-size	479012
+depends	so:libblkid.so.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libdevmapper.so.1.02 so:libjson-c.so.5 so:libuuid.so.1
+origin	cryptsetup
+repo	main
+file	cryptsetup-libs-2.8.6-r0.apk
+checksum	Q1t9ReRx5h/LI4Oxyq+LHny5ID0P8=
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libdevmapper.so.1.02	device-mapper-libs
+dep	so:libjson-c.so.5	json-c
+dep	so:libuuid.so.1	libuuid

@@ -1,0 +1,48 @@
+name	boost1.84-libs
+version	1.84.0-r6
+description	Boost shared libraries
+url	https://www.boost.org/
+license	BSL-1.0
+size	17003
+installed-size	34124
+depends	boost1.84-atomic boost1.84-chrono boost1.84-container boost1.84-context boost1.84-contract boost1.84-coroutine boost1.84-date_time boost1.84-fiber boost1.84-filesystem boost1.84-graph boost1.84-iostreams boost1.84-locale boost1.84-log_setup boost1.84-log boost1.84-math boost1.84-prg_exec_monitor boost1.84-program_options boost1.84-python3 boost1.84-random boost1.84-regex boost1.84-serialization boost1.84-stacktrace_basic boost1.84-stacktrace_noop boost1.84-system boost1.84-thread boost1.84-timer boost1.84-type_erasure boost1.84-unit_test_framework boost1.84-url boost1.84-wave boost1.84-wserialization boost1.84-json boost1.84-nowide so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	boost1.84
+repo	main
+file	boost1.84-libs-1.84.0-r6.apk
+checksum	Q1NzQzXyMsbo4Yx82yEr52chWcVd8=
+dep	boost1.84-atomic	boost1.84-atomic
+dep	boost1.84-chrono	boost1.84-chrono
+dep	boost1.84-container	boost1.84-container
+dep	boost1.84-context	boost1.84-context
+dep	boost1.84-contract	boost1.84-contract
+dep	boost1.84-coroutine	boost1.84-coroutine
+dep	boost1.84-date_time	boost1.84-date_time
+dep	boost1.84-fiber	boost1.84-fiber
+dep	boost1.84-filesystem	boost1.84-filesystem
+dep	boost1.84-graph	boost1.84-graph
+dep	boost1.84-iostreams	boost1.84-iostreams
+dep	boost1.84-locale	boost1.84-locale
+dep	boost1.84-log_setup	boost1.84-log_setup
+dep	boost1.84-log	boost1.84-log
+dep	boost1.84-math	boost1.84-math
+dep	boost1.84-prg_exec_monitor	boost1.84-prg_exec_monitor
+dep	boost1.84-program_options	boost1.84-program_options
+dep	boost1.84-python3	boost1.84-python3
+dep	boost1.84-random	boost1.84-random
+dep	boost1.84-regex	boost1.84-regex
+dep	boost1.84-serialization	boost1.84-serialization
+dep	boost1.84-stacktrace_basic	boost1.84-stacktrace_basic
+dep	boost1.84-stacktrace_noop	boost1.84-stacktrace_noop
+dep	boost1.84-system	boost1.84-system
+dep	boost1.84-thread	boost1.84-thread
+dep	boost1.84-timer	boost1.84-timer
+dep	boost1.84-type_erasure	boost1.84-type_erasure
+dep	boost1.84-unit_test_framework	boost1.84-unit_test_framework
+dep	boost1.84-url	boost1.84-url
+dep	boost1.84-wave	boost1.84-wave
+dep	boost1.84-wserialization	boost1.84-wserialization
+dep	boost1.84-json	boost1.84-json
+dep	boost1.84-nowide	boost1.84-nowide
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

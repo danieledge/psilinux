@@ -1,0 +1,13 @@
+name	bombadillo
+version	2.4.0-r39
+description	Non-web (gopher, gemini, finger) browser for the terminal
+url	https://bombadillo.colorfield.space/
+license	GPL-3.0-or-later
+size	2846277
+installed-size	6900987
+depends	so:libc.musl-armhf.so.1
+origin	bombadillo
+repo	community
+file	bombadillo-2.4.0-r39.apk
+checksum	Q1ivPsVU+yY0bfiU03BbrS7UbNsDI=
+dep	so:libc.musl-armhf.so.1	musl

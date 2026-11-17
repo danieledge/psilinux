@@ -1,0 +1,16 @@
+name	perl-test-class
+version	0.52-r1
+description	Easily create test classes in an xUnit/JUnit style
+url	https://metacpan.org/release/Test-Class/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	24472
+installed-size	72361
+depends	perl perl-module-runtime perl-mro-compat perl-try-tiny
+origin	perl-test-class
+repo	community
+file	perl-test-class-0.52-r1.apk
+checksum	Q1d85nz370bAOMCty4BFXocHLTQbE=
+dep	perl	perl
+dep	perl-module-runtime	perl-module-runtime
+dep	perl-mro-compat	perl-mro-compat
+dep	perl-try-tiny	perl-try-tiny

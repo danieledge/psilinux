@@ -1,0 +1,14 @@
+name	libcoap-dev
+version	4.3.5b-r0
+description	A CoAP (RFC 7252) implementation (development files)
+url	https://libcoap.net/
+license	BSD-2-Clause
+size	321231
+installed-size	994541
+depends	libcoap=4.3.5b-r0 pkgconfig
+origin	libcoap
+repo	community
+file	libcoap-dev-4.3.5b-r0.apk
+checksum	Q1XBouoN81Jk+Knzj7O5w2uBx1QUY=
+dep	libcoap=4.3.5b-r0	libcoap
+dep	pkgconfig	pkgconf

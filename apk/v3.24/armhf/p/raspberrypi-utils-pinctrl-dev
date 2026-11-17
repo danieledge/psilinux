@@ -1,0 +1,13 @@
+name	raspberrypi-utils-pinctrl-dev
+version	0.20260811-r0
+description	gpiolib library for Raspberry Pi devices (development files)
+url	https://github.com/raspberrypi/utils
+license	BSD-3-Clause
+size	2386
+installed-size	2109
+depends	raspberrypi-utils-pinctrl=0.20260811-r0
+origin	raspberrypi-utils
+repo	community
+file	raspberrypi-utils-pinctrl-dev-0.20260811-r0.apk
+checksum	Q1mn417XfUw5e6XMJYcLkB/o0AuoU=
+dep	raspberrypi-utils-pinctrl=0.20260811-r0	raspberrypi-utils-pinctrl

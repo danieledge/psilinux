@@ -1,0 +1,14 @@
+name	mpdecimal-dev
+version	4.0.1-r0
+description	complete implementation of the General Decimal Arithmetic Specification (development files)
+url	https://www.bytereef.org/mpdecimal/index.html
+license	BSD-2-Clause
+size	110073
+installed-size	370896
+depends	mpdecimal=4.0.1-r0 pkgconfig
+origin	mpdecimal
+repo	main
+file	mpdecimal-dev-4.0.1-r0.apk
+checksum	Q1ySQ1XZq7q8f8VYHx9LDQZQqU+Qs=
+dep	mpdecimal=4.0.1-r0	mpdecimal
+dep	pkgconfig	pkgconf

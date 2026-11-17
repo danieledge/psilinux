@@ -1,0 +1,14 @@
+name	sunxi-tools
+version	1.4.2-r0
+description	A collection of command line tools for ARM devices with Allwinner SoCs
+url	https://github.com/linux-sunxi/sunxi-tools
+license	GPL-2.0-or-later
+size	48140
+installed-size	116400
+depends	so:libc.musl-armhf.so.1 so:libusb-1.0.so.0
+origin	sunxi-tools
+repo	community
+file	sunxi-tools-1.4.2-r0.apk
+checksum	Q1QXLS/n6U7VvAiI53oQqy5jmv3eg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb

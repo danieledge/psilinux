@@ -1,0 +1,20 @@
+name	ripdrag
+version	0.4.12-r0
+description	Drag and Drop utilty written in Rust and GTK4
+url	https://github.com/nik012003/ripdrag
+license	GPL-3.0-only
+size	341867
+installed-size	672216
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libpango-1.0.so.0
+origin	ripdrag
+repo	community
+file	ripdrag-0.4.12-r0.apk
+checksum	Q1/ccgvRNiFRVK1DBq6yE/ldpELKU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libpango-1.0.so.0	pango

@@ -1,0 +1,16 @@
+name	rstcheck
+version	6.2.5-r2
+description	Checks syntax of reStructuredText and code blocks nested within it
+url	https://github.com/rstcheck/rstcheck
+license	MIT
+size	9696
+installed-size	20917
+depends	python3 py3-typer rstcheck-core python3~3.14
+origin	rstcheck
+repo	community
+file	rstcheck-6.2.5-r2.apk
+checksum	Q1VIHHX0YZBICPHphScA3KWwVLQKw=
+dep	python3	python3
+dep	py3-typer	py3-typer
+dep	rstcheck-core	rstcheck-core
+dep	python3~3.14	python3

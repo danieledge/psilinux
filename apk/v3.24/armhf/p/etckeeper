@@ -1,0 +1,15 @@
+name	etckeeper
+version	1.18.23-r1
+description	Store /etc in git.
+url	https://etckeeper.branchable.com/
+license	GPL-2.0-or-later
+size	18020
+installed-size	38483
+depends	findutils git /bin/sh
+origin	etckeeper
+repo	main
+file	etckeeper-1.18.23-r1.apk
+checksum	Q1Cg3kkgfHNBBiLstT7X1NdIIgXMg=
+dep	findutils	findutils
+dep	git	git
+dep	/bin/sh	busybox-binsh

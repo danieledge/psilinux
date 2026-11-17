@@ -1,0 +1,34 @@
+name	caja
+version	1.28.0-r0
+description	The file manager for the MATE desktop
+url	https://github.com/mate-desktop/caja
+license	GPL-2.0-or-later AND LGPL-2.0-or-later
+size	1606195
+installed-size	3277488
+depends	mate-common so:libICE.so.6 so:libSM.so.6 so:libX11.so.6 so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo-gobject.so.2 so:libcairo.so.2 so:libgailutil-3.so.0 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libmate-desktop-2.so.17 so:libnotify.so.4 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libxml2.so.2
+origin	caja
+repo	community
+file	caja-1.28.0-r0.apk
+checksum	Q1kUTvdvmINnJ6qIM/Y3TAQ16BlT8=
+dep	mate-common	mate-common
+dep	so:libICE.so.6	libice
+dep	so:libSM.so.6	libsm
+dep	so:libX11.so.6	libx11
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo-gobject.so.2	cairo-gobject
+dep	so:libcairo.so.2	cairo
+dep	so:libgailutil-3.so.0	gtk+3.0
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libmate-desktop-2.so.17	mate-desktop
+dep	so:libnotify.so.4	libnotify
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libxml2.so.2	libxml2

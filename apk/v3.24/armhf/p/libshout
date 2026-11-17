@@ -1,0 +1,19 @@
+name	libshout
+version	2.4.6-r4
+description	Library for accessing a shoutcast/icecast server
+url	https://icecast.org/
+license	GPL-2.0-only
+size	48829
+installed-size	107432
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libogg.so.0 so:libspeex.so.1 so:libssl.so.3 so:libtheora.so.1 so:libvorbis.so.0
+origin	libshout
+repo	main
+file	libshout-2.4.6-r4.apk
+checksum	Q1+zp6DBy7RlcsB2rajvOPmpYzajw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libogg.so.0	libogg
+dep	so:libspeex.so.1	speex
+dep	so:libssl.so.3	libssl3
+dep	so:libtheora.so.1	libtheora
+dep	so:libvorbis.so.0	libvorbis

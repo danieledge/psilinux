@@ -1,0 +1,13 @@
+name	libdvdread-static
+version	6.1.3-r2
+description	Simple foundation for reading DVD video disks (static library)
+url	http://dvdnav.mplayerhq.hu/
+license	GPL-2.0-or-later
+size	61955
+installed-size	157758
+depends	libdvdread-dev
+origin	libdvdread
+repo	community
+file	libdvdread-static-6.1.3-r2.apk
+checksum	Q1DUiieV9bxqvM8i7Mt9316u7038E=
+dep	libdvdread-dev	libdvdread-dev

@@ -1,0 +1,20 @@
+name	mtr-gtk
+version	0.96-r2
+description	The GTK+ interface for mtr
+url	https://www.bitwizard.nl/mtr/
+license	GPL-2.0-only
+size	59297
+installed-size	132859
+depends	so:libc.musl-armhf.so.1 so:libcap.so.2 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libjansson.so.4 so:libncursesw.so.6
+origin	mtr
+repo	community
+file	mtr-gtk-0.96-r2.apk
+checksum	Q1pYSQzLoFB7qFs8T2CQj3uMuz0Uc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libjansson.so.4	jansson
+dep	so:libncursesw.so.6	libncursesw

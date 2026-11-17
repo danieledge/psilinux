@@ -1,0 +1,13 @@
+name	picotts-libs
+version	0.1_git20190912-r1
+description	Pico TTS: text to speech voice synthesizer from SVox (libraries)
+url	https://github.com/naggety/picotts
+license	Apache-2.0
+size	128802
+installed-size	242808
+depends	so:libc.musl-armhf.so.1
+origin	picotts
+repo	community
+file	picotts-libs-0.1_git20190912-r1.apk
+checksum	Q1Rqle26xML0nyfDd0vEVCdj/ZEOk=
+dep	so:libc.musl-armhf.so.1	musl

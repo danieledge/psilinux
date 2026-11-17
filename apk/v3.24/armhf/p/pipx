@@ -1,0 +1,18 @@
+name	pipx
+version	1.14.0-r0
+description	Install and Run Python Applications in Isolated Environments
+url	https://github.com/pypa/pipx
+license	MIT
+size	79088
+installed-size	303129
+depends	py3-argcomplete py3-colorama py3-packaging py3-platformdirs py3-userpath python3~3.14
+origin	pipx
+repo	community
+file	pipx-1.14.0-r0.apk
+checksum	Q1W/ePkgkIAXjmuMyYx8LnHREBdA4=
+dep	py3-argcomplete	py3-argcomplete
+dep	py3-colorama	py3-colorama
+dep	py3-packaging	py3-packaging
+dep	py3-platformdirs	py3-platformdirs
+dep	py3-userpath	py3-userpath
+dep	python3~3.14	python3

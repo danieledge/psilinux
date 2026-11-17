@@ -1,0 +1,14 @@
+name	libmpdclient-dev
+version	2.23-r0
+description	An asynchronous API library for interfacing MPD in the C, C++ & Objective C languages (development files)
+url	https://www.musicpd.org/libs/libmpdclient
+license	BSD-3-Clause
+size	37175
+installed-size	199886
+depends	libmpdclient=2.23-r0 pkgconfig
+origin	libmpdclient
+repo	community
+file	libmpdclient-dev-2.23-r0.apk
+checksum	Q15/J65tkUkTkZUA81XVSlODUqogw=
+dep	libmpdclient=2.23-r0	libmpdclient
+dep	pkgconfig	pkgconf

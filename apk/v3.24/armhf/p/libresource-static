@@ -1,0 +1,13 @@
+name	libresource-static
+version	0.25.1-r2
+description	Nemo's libresource (static library)
+url	https://github.com/sailfishos/libresource
+license	LGPL-2.1-only AND (AFL-2.1 OR GPL-2.0-or-later)
+size	22791
+installed-size	59048
+depends	libresource-dev
+origin	libresource
+repo	community
+file	libresource-static-0.25.1-r2.apk
+checksum	Q1eNfBeU5H/dfZsJP39kkFKD1g0XQ=
+dep	libresource-dev	libresource-dev

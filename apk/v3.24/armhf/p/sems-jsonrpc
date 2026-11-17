@@ -1,0 +1,17 @@
+name	sems-jsonrpc
+version	2.1.0-r0
+description	Jsonrpc support for SEMS
+url	https://github.com/sems-server/sems/
+license	GPL-2.0-or-later
+size	53075
+installed-size	120404
+depends	sems so:libc.musl-armhf.so.1 so:libev.so.4 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	sems
+repo	community
+file	sems-jsonrpc-2.1.0-r0.apk
+checksum	Q1FWigJ5HW9ilk06X4s5iec4/2Ozo=
+dep	sems	sems
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libev.so.4	libev
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

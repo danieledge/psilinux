@@ -1,0 +1,23 @@
+name	pidgin-sipe
+version	1.25.0-r2
+description	Pidgin protocol plugin to connect to MS Office Communicator
+url	https://sipe.sourceforge.net/
+license	GPL-2.0-or-later
+size	200729
+installed-size	507715
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgmime-3.0.so.0 so:libgobject-2.0.so.0 so:libgssapi.so.3 so:libintl.so.8 so:libnspr4.so so:libnss3.so so:libpurple.so.0 so:libsmime3.so so:libxml2.so.2
+origin	pidgin-sipe
+repo	community
+file	pidgin-sipe-1.25.0-r2.apk
+checksum	Q1gHlqdymzvsMjjevmlpL87/XRCnE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmime-3.0.so.0	gmime
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgssapi.so.3	heimdal-libs
+dep	so:libintl.so.8	libintl
+dep	so:libnspr4.so	nspr
+dep	so:libnss3.so	nss
+dep	so:libpurple.so.0	libpurple
+dep	so:libsmime3.so	nss
+dep	so:libxml2.so.2	libxml2

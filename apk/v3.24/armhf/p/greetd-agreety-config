@@ -1,0 +1,13 @@
+name	greetd-agreety-config
+version	0.10.3-r11
+description	greetd config for agreety
+url	https://git.sr.ht/~kennylevinsen/greetd
+license	GPL-3.0-only
+size	1900
+installed-size	535
+depends	greetd=0.10.3-r11 !greetd-gtkgreet-config
+origin	greetd
+repo	community
+file	greetd-agreety-config-0.10.3-r11.apk
+checksum	Q1fPUkPehUZBFA+VKD97ZfGinXqXg=
+dep	greetd=0.10.3-r11	greetd

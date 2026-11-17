@@ -1,0 +1,13 @@
+name	postgresql18-contrib-jit
+version	18.7-r0
+description	Extension modules distributed with PostgreSQL (JIT support)
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	1456195
+installed-size	2876576
+depends	postgresql18-contrib=18.7-r0
+origin	postgresql18
+repo	main
+file	postgresql18-contrib-jit-18.7-r0.apk
+checksum	Q1LibH12mQnGIGAZ7Zc85Mqu5PPG4=
+dep	postgresql18-contrib=18.7-r0	postgresql18-contrib

@@ -1,0 +1,15 @@
+name	php83-sodium
+version	8.3.36-r0
+description	PHP83 extension: Sodium
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	27691
+installed-size	83281
+depends	php83-common so:libc.musl-armhf.so.1 so:libsodium.so.26
+origin	php83
+repo	community
+file	php83-sodium-8.3.36-r0.apk
+checksum	Q1Winv3tCumRVmq7g0I+ndOaJsXx8=
+dep	php83-common	php83-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsodium.so.26	libsodium

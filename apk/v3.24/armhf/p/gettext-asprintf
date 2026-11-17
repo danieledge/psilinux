@@ -1,0 +1,15 @@
+name	gettext-asprintf
+version	1.0-r0
+description	GNU gettext asprintf library
+url	https://www.gnu.org/software/gettext/gettext.html
+license	LGPL-2.1-or-later
+size	17775
+installed-size	87380
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	gettext
+repo	main
+file	gettext-asprintf-1.0-r0.apk
+checksum	Q1HrkdBB10I1EdDjIWM3iJUetwKwE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

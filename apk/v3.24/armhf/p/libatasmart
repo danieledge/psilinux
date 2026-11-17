@@ -1,0 +1,14 @@
+name	libatasmart
+version	0.19-r4
+description	ATA S.M.A.R.T. Reading and Parsing Library
+url	https://0pointer.de/blog/projects/being-smart.html
+license	LGPL-2.1-or-later
+size	27947
+installed-size	61148
+depends	so:libc.musl-armhf.so.1 so:libudev.so.1
+origin	libatasmart
+repo	community
+file	libatasmart-0.19-r4.apk
+checksum	Q17J+U3cNF+kGpa1ZPArV8+9xc9I4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libudev.so.1	eudev-libs

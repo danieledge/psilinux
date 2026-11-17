@@ -1,0 +1,16 @@
+name	ruby-tomlib
+version	0.7.3-r0
+description	Fast and standards-compliant TOML parser and generator for Ruby
+url	https://github.com/kgiszczak/tomlib
+license	MIT
+size	24023
+installed-size	48153
+depends	ruby ruby-bigdecimal so:libc.musl-armhf.so.1 so:libruby.so.3.4
+origin	ruby-tomlib
+repo	community
+file	ruby-tomlib-0.7.3-r0.apk
+checksum	Q1yEuIJsC5DTheK9iwi0J1r8YFeKo=
+dep	ruby	ruby
+dep	ruby-bigdecimal	ruby-bigdecimal
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libruby.so.3.4	ruby-libs

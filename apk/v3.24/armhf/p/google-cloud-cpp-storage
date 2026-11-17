@@ -1,0 +1,50 @@
+name	google-cloud-cpp-storage
+version	2.47.0-r0
+description	C++ Client Libraries for Google Cloud Services (storage)
+url	https://cloud.google.com/sdk
+license	Apache-2.0
+size	1654818
+installed-size	6160292
+depends	so:libabsl_cord.so.2508.0.0 so:libabsl_cordz_functions.so.2508.0.0 so:libabsl_cordz_info.so.2508.0.0 so:libabsl_crc32c.so.2508.0.0 so:libabsl_hash.so.2508.0.0 so:libabsl_log_internal_check_op.so.2508.0.0 so:libabsl_log_internal_message.so.2508.0.0 so:libabsl_log_internal_nullguard.so.2508.0.0 so:libabsl_raw_logging_internal.so.2508.0.0 so:libabsl_str_format_internal.so.2508.0.0 so:libabsl_strings.so.2508.0.0 so:libabsl_strings_internal.so.2508.0.0 so:libabsl_synchronization.so.2508.0.0 so:libabsl_time.so.2508.0.0 so:libc.musl-armhf.so.1 so:libcrc32c.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgcc_s.so.1 so:libgoogle_cloud_cpp_api_client_protos.so.2 so:libgoogle_cloud_cpp_api_field_behavior_protos.so.2 so:libgoogle_cloud_cpp_api_resource_protos.so.2 so:libgoogle_cloud_cpp_api_routing_protos.so.2 so:libgoogle_cloud_cpp_common.so.2 so:libgoogle_cloud_cpp_grpc_utils.so.2 so:libgoogle_cloud_cpp_iam_credentials_v1_common_protos.so.2 so:libgoogle_cloud_cpp_iam_v1_iam_policy_protos.so.2 so:libgoogle_cloud_cpp_iam_v1_options_protos.so.2 so:libgoogle_cloud_cpp_iam_v1_policy_protos.so.2 so:libgoogle_cloud_cpp_rest_internal.so.2 so:libgoogle_cloud_cpp_rpc_status_protos.so.2 so:libgoogle_cloud_cpp_type_date_protos.so.2 so:libgoogle_cloud_cpp_type_expr_protos.so.2 so:libgpr.so.52 so:libgrpc++.so.1.78 so:libgrpc.so.52 so:libprotobuf.so.31 so:libstdc++.so.6
+origin	google-cloud-cpp
+repo	community
+file	google-cloud-cpp-storage-2.47.0-r0.apk
+checksum	Q17yQ9FQYVMCuLeCn8ju7kZQyw35Y=
+dep	so:libabsl_cord.so.2508.0.0	abseil-cpp-cord
+dep	so:libabsl_cordz_functions.so.2508.0.0	abseil-cpp-cordz-functions
+dep	so:libabsl_cordz_info.so.2508.0.0	abseil-cpp-cordz-info
+dep	so:libabsl_crc32c.so.2508.0.0	abseil-cpp-crc32c
+dep	so:libabsl_hash.so.2508.0.0	abseil-cpp-hash
+dep	so:libabsl_log_internal_check_op.so.2508.0.0	abseil-cpp-log-internal-check-op
+dep	so:libabsl_log_internal_message.so.2508.0.0	abseil-cpp-log-internal-message
+dep	so:libabsl_log_internal_nullguard.so.2508.0.0	abseil-cpp-log-internal-nullguard
+dep	so:libabsl_raw_logging_internal.so.2508.0.0	abseil-cpp-raw-logging-internal
+dep	so:libabsl_str_format_internal.so.2508.0.0	abseil-cpp-str-format-internal
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libabsl_strings_internal.so.2508.0.0	abseil-cpp-strings-internal
+dep	so:libabsl_synchronization.so.2508.0.0	abseil-cpp-synchronization
+dep	so:libabsl_time.so.2508.0.0	abseil-cpp-time
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrc32c.so.1	crc32c
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgoogle_cloud_cpp_api_client_protos.so.2	google-cloud-cpp-api-client
+dep	so:libgoogle_cloud_cpp_api_field_behavior_protos.so.2	google-cloud-cpp-api-field-behavior
+dep	so:libgoogle_cloud_cpp_api_resource_protos.so.2	google-cloud-cpp-api-resource
+dep	so:libgoogle_cloud_cpp_api_routing_protos.so.2	google-cloud-cpp-api-routing
+dep	so:libgoogle_cloud_cpp_common.so.2	google-cloud-cpp
+dep	so:libgoogle_cloud_cpp_grpc_utils.so.2	google-cloud-cpp-grpc-utils
+dep	so:libgoogle_cloud_cpp_iam_credentials_v1_common_protos.so.2	google-cloud-cpp-iam
+dep	so:libgoogle_cloud_cpp_iam_v1_iam_policy_protos.so.2	google-cloud-cpp-iam
+dep	so:libgoogle_cloud_cpp_iam_v1_options_protos.so.2	google-cloud-cpp-iam
+dep	so:libgoogle_cloud_cpp_iam_v1_policy_protos.so.2	google-cloud-cpp-iam
+dep	so:libgoogle_cloud_cpp_rest_internal.so.2	google-cloud-cpp-rest_internal
+dep	so:libgoogle_cloud_cpp_rpc_status_protos.so.2	google-cloud-cpp-rpc-status-protos
+dep	so:libgoogle_cloud_cpp_type_date_protos.so.2	google-cloud-cpp-type-date
+dep	so:libgoogle_cloud_cpp_type_expr_protos.so.2	google-cloud-cpp-type-expr
+dep	so:libgpr.so.52	libgpr
+dep	so:libgrpc++.so.1.78	grpc-cpp
+dep	so:libgrpc.so.52	libgrpc
+dep	so:libprotobuf.so.31	libprotobuf
+dep	so:libstdc++.so.6	libstdc++

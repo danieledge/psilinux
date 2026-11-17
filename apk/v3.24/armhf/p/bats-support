@@ -1,0 +1,14 @@
+name	bats-support
+version	0.3.0-r0
+description	Supporting library for Bats test helpers
+url	https://github.com/bats-core/bats-support
+license	CC0-1.0
+size	4855
+installed-size	9844
+depends	bash bats-core
+origin	bats-support
+repo	main
+file	bats-support-0.3.0-r0.apk
+checksum	Q1gVG0hdNRfun3feSbMNrlak2a2ys=
+dep	bash	bash
+dep	bats-core	bats-core

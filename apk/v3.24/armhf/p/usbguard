@@ -1,0 +1,20 @@
+name	usbguard
+version	1.1.4-r1
+description	Software framework for implementing USB device authorization policies
+url	https://usbguard.github.io/
+license	GPL-2.0-or-later
+size	101790
+installed-size	232243
+depends	/bin/sh so:libaudit.so.1 so:libc.musl-armhf.so.1 so:libcap-ng.so.0 so:libgcc_s.so.1 so:libseccomp.so.2 so:libstdc++.so.6 so:libusbguard.so.1
+origin	usbguard
+repo	community
+file	usbguard-1.1.4-r1.apk
+checksum	Q1iDAX35gJpVObkptIvMQfTVmH3/s=
+dep	/bin/sh	busybox-binsh
+dep	so:libaudit.so.1	audit-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap-ng.so.0	libcap-ng
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libseccomp.so.2	libseccomp
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libusbguard.so.1	libusbguard

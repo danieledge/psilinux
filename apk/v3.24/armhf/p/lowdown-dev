@@ -1,0 +1,15 @@
+name	lowdown-dev
+version	3.0.1-r0
+description	Simple markdown translator (development files)
+url	https://kristaps.bsd.lv/lowdown/
+license	ISC
+size	153919
+installed-size	362341
+depends	lowdown=3.0.1-r0 lowdown-libs=3.0.1-r0 pkgconfig
+origin	lowdown
+repo	community
+file	lowdown-dev-3.0.1-r0.apk
+checksum	Q1t5xWhMWFlWslGpRIim18Qp3Hix0=
+dep	lowdown=3.0.1-r0	lowdown
+dep	lowdown-libs=3.0.1-r0	lowdown-libs
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	snapcast
+version	0.35.0-r0
+description	Synchronous multi-room audio player
+url	https://github.com/badaix/snapcast
+license	GPL-3.0-or-later
+size	1281
+installed-size	0
+depends	snapcast-client snapcast-server
+origin	snapcast
+repo	community
+file	snapcast-0.35.0-r0.apk
+checksum	Q1AZGOKOL19trUno7CwnWK/OfneZ0=
+dep	snapcast-client	snapcast-client
+dep	snapcast-server	snapcast-server

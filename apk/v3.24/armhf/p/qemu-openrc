@@ -1,0 +1,15 @@
+name	qemu-openrc
+version	0.12.0-r1
+description	OpenRC init scripts for QEMU/KVM
+url	https://github.com/jirutka/qemu-openrc
+license	MIT
+size	8640
+installed-size	17924
+depends	qemu socat /bin/sh
+origin	qemu-openrc
+repo	community
+file	qemu-openrc-0.12.0-r1.apk
+checksum	Q1tAsqFE5/5syOT6gqTUDve+O05ms=
+dep	qemu	!
+dep	socat	socat
+dep	/bin/sh	busybox-binsh

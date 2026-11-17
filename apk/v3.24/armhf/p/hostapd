@@ -1,0 +1,17 @@
+name	hostapd
+version	2.11-r4
+description	daemon for wireless software access points
+url	https://w1.fi/hostapd/
+license	BSD-3-Clause
+size	672339
+installed-size	1488901
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libnl-3.so.200 so:libnl-genl-3.so.200 so:libssl.so.3
+origin	hostapd
+repo	main
+file	hostapd-2.11-r4.apk
+checksum	Q1rtMDzC1aqA+YxITWC2gXlXVV1Vk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libnl-3.so.200	libnl3
+dep	so:libnl-genl-3.so.200	libnl3
+dep	so:libssl.so.3	libssl3

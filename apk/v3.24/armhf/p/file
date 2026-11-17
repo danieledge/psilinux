@@ -1,0 +1,14 @@
+name	file
+version	5.47-r2
+description	File type identification utility
+url	https://www.darwinsys.com/file/
+license	BSD-2-Clause
+size	10000
+installed-size	21972
+depends	so:libc.musl-armhf.so.1 so:libmagic.so.1
+origin	file
+repo	main
+file	file-5.47-r2.apk
+checksum	Q13J5i3ywjmINiu9XE2mUi+RiFPCE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmagic.so.1	libmagic

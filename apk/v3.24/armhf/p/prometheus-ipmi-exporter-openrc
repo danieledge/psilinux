@@ -1,0 +1,12 @@
+name	prometheus-ipmi-exporter-openrc
+version	1.10.1-r0
+description	Remote IPMI exporter for Prometheus (OpenRC init scripts)
+url	https://github.com/prometheus-community/ipmi_exporter
+license	MIT
+size	1971
+installed-size	504
+depends	
+origin	prometheus-ipmi-exporter
+repo	community
+file	prometheus-ipmi-exporter-openrc-1.10.1-r0.apk
+checksum	Q1Q5a/1vsiw1LoLhd8bvVdnsfYfww=

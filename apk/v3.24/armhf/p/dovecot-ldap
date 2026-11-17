@@ -1,0 +1,17 @@
+name	dovecot-ldap
+version	2.4.5-r0
+description	LDAP auth plugin for Dovecot
+url	https://www.dovecot.org/
+license	MIT AND LGPL-2.1-or-later
+size	61102
+installed-size	139304
+depends	dovecot=2.4.5-r0 so:libc.musl-armhf.so.1 so:libdovecot.so.0 so:liblber.so.2 so:libldap.so.2
+origin	dovecot
+repo	main
+file	dovecot-ldap-2.4.5-r0.apk
+checksum	Q1eZHKro+OJLYIUuOz/l7hK7AboTs=
+dep	dovecot=2.4.5-r0	dovecot
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdovecot.so.0	dovecot
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap

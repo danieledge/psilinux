@@ -1,0 +1,13 @@
+name	apk-post-messages
+version	0.13-r0
+description	Print apk post-install messages
+url	https://alpinelinux.org
+license	GPL-2.0-or-later
+size	1517
+installed-size	1
+depends	/bin/sh
+origin	apk-post-messages
+repo	community
+file	apk-post-messages-0.13-r0.apk
+checksum	Q1eJKd3JirRS45lrxNMcSvFQQndTM=
+dep	/bin/sh	busybox-binsh

@@ -1,0 +1,18 @@
+name	perl-datetime-format-iso8601
+version	0.19-r0
+description	Parses ISO8601 formats
+url	https://metacpan.org/release/DateTime-Format-ISO8601/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	9977
+installed-size	48136
+depends	perl perl-datetime perl-datetime-format-builder perl-specio perl-namespace-autoclean perl-params-validationcompiler
+origin	perl-datetime-format-iso8601
+repo	community
+file	perl-datetime-format-iso8601-0.19-r0.apk
+checksum	Q17jMF0suYwDMu9kJk28SnAocsD9g=
+dep	perl	perl
+dep	perl-datetime	perl-datetime
+dep	perl-datetime-format-builder	perl-datetime-format-builder
+dep	perl-specio	perl-specio
+dep	perl-namespace-autoclean	perl-namespace-autoclean
+dep	perl-params-validationcompiler	perl-params-validationcompiler

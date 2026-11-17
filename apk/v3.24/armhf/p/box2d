@@ -1,0 +1,15 @@
+name	box2d
+version	2.4.2-r0
+description	2D Physics Engine for Games
+url	https://box2d.org/
+license	MIT
+size	78608
+installed-size	157076
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	box2d
+repo	community
+file	box2d-2.4.2-r0.apk
+checksum	Q1mZfqm7cGmOte/+cLHVfx32e64As=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,13 @@
+name	nodeinfo
+version	1.0.0-r13
+description	A command line tool to query nodeinfo based on a given domain
+url	https://codeberg.org/thefederationinfo/nodeinfo-go
+license	MIT
+size	2637013
+installed-size	6392412
+depends	so:libc.musl-armhf.so.1
+origin	nodeinfo
+repo	community
+file	nodeinfo-1.0.0-r13.apk
+checksum	Q1FBeVDND8p3VO93JataGKOqY74gk=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	py3-pickle-secure
+version	0.99.9-r3
+description	Easily create encrypted pickle files
+url	https://pypi.org/project/pickle-secure/
+license	LGPL-3.0-or-later
+size	7429
+installed-size	15506
+depends	py3-cryptography python3~3.14
+origin	py3-pickle-secure
+repo	community
+file	py3-pickle-secure-0.99.9-r3.apk
+checksum	Q1vdN2IQZ2tBHU5Lf4VEKF7pOil88=
+dep	py3-cryptography	py3-cryptography
+dep	python3~3.14	python3

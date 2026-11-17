@@ -1,0 +1,14 @@
+name	libhx-dev
+version	5.4-r0
+description	library for queue, tree, I/O and utility functions (development files)
+url	https://inai.de/projects/libhx/
+license	GPL-3.0-only
+size	17438
+installed-size	54398
+depends	libhx=5.4-r0 pkgconfig
+origin	libhx
+repo	community
+file	libhx-dev-5.4-r0.apk
+checksum	Q1jrwVuUccKyuLMFE34NqlPZQK3Uo=
+dep	libhx=5.4-r0	libhx
+dep	pkgconfig	pkgconf

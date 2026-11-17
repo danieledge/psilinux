@@ -1,0 +1,14 @@
+name	sane-backend-p5
+version	1.4.0-r4
+description	SANE backend for the Primax PagePartner
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	25169
+installed-size	51764
+depends	sane so:libc.musl-armhf.so.1
+origin	sane
+repo	community
+file	sane-backend-p5-1.4.0-r4.apk
+checksum	Q16De8R6dsnxBi3CVSEHVl169O+ts=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl

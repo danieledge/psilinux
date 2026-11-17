@@ -1,0 +1,14 @@
+name	pulseaudio-openrc
+version	17.0-r7
+description	featureful, general-purpose sound server (OpenRC init scripts)
+url	https://www.freedesktop.org/wiki/Software/PulseAudio/
+license	LGPL-2.1-or-later
+size	2936
+installed-size	2626
+depends	alsa-utils alsa-utils-openrc
+origin	pulseaudio
+repo	community
+file	pulseaudio-openrc-17.0-r7.apk
+checksum	Q1yDxDEMYdQ8BRjbagIxaih6sI6JM=
+dep	alsa-utils	alsa-utils
+dep	alsa-utils-openrc	alsa-utils-openrc

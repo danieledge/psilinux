@@ -1,0 +1,19 @@
+name	ayatana-indicator-session
+version	24.5.1-r0
+description	Ayatana Indicator Session Applet
+url	https://github.com/AyatanaIndicators/ayatana-indicator-session
+license	GPL-3.0-only
+size	134170
+installed-size	408768
+depends	so:libayatana-common.so.0 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:librda.so.0
+origin	ayatana-indicator-session
+repo	community
+file	ayatana-indicator-session-24.5.1-r0.apk
+checksum	Q1w+AENCER/ZOAXqRhhd4YJNbdMns=
+dep	so:libayatana-common.so.0	libayatana-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:librda.so.0	librda

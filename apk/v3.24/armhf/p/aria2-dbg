@@ -1,0 +1,12 @@
+name	aria2-dbg
+version	1.37.0-r2
+description	Download utility for HTTP(S), (S)FTP, Bittorrent, and Metalink (debug symbols)
+url	https://aria2.github.io/
+license	GPL-2.0-or-later
+size	29804166
+installed-size	74000832
+depends	!aria2<1.37.0-r2 !aria2>1.37.0-r2
+origin	aria2
+repo	community
+file	aria2-dbg-1.37.0-r2.apk
+checksum	Q1pQvYv49tkaepUC4lhbQcEtFYaxo=

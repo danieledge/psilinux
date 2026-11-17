@@ -1,0 +1,52 @@
+name	retroarch
+version	1.22.2-r1
+description	Reference frontend for the libretro API
+url	https://retroarch.com
+license	GPL-2.0-only
+size	5103796
+installed-size	14579773
+depends	retroarch-assets retroarch-joypad-autoconfig libretro-core-info libretro-database so:libEGL.so.1 so:libGL.so.1 so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6Widgets.so.6 so:libSDL2-2.0.so.0 so:libX11-xcb.so.1 so:libX11.so.6 so:libXi.so.6 so:libXxf86vm.so.1 so:libasound.so.2 so:libavcodec.so.62 so:libavdevice.so.62 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libdrm.so.2 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgbm.so.1 so:libgcc_s.so.1 so:liblzma.so.5 so:libmbedcrypto.so.16 so:libmbedtls.so.21 so:libmbedx509.so.7 so:libpulse.so.0 so:libstdc++.so.6 so:libswresample.so.6 so:libswscale.so.9 so:libudev.so.1 so:libwayland-client.so.0 so:libwayland-cursor.so.0 so:libwayland-egl.so.1 so:libxkbcommon.so.0 so:libz.so.1
+origin	retroarch
+repo	community
+file	retroarch-1.22.2-r1.apk
+checksum	Q1vY8WGAtg2y9aFVVL0v3UP2tE1ss=
+dep	retroarch-assets	retroarch-assets
+dep	retroarch-joypad-autoconfig	retroarch-joypad-autoconfig
+dep	libretro-core-info	libretro-core-info
+dep	libretro-database	libretro-database
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libGL.so.1	mesa-gl
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libX11-xcb.so.1	libx11
+dep	so:libX11.so.6	libx11
+dep	so:libXi.so.6	libxi
+dep	so:libXxf86vm.so.1	libxxf86vm
+dep	so:libasound.so.2	alsa-lib
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavdevice.so.62	ffmpeg-libavdevice
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm.so.2	libdrm
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblzma.so.5	xz-libs
+dep	so:libmbedcrypto.so.16	mbedtls3
+dep	so:libmbedtls.so.21	mbedtls3
+dep	so:libmbedx509.so.7	mbedtls3
+dep	so:libpulse.so.0	libpulse
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libswresample.so.6	ffmpeg-libswresample
+dep	so:libswscale.so.9	ffmpeg-libswscale
+dep	so:libudev.so.1	eudev-libs
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor
+dep	so:libwayland-egl.so.1	wayland-libs-egl
+dep	so:libxkbcommon.so.0	libxkbcommon
+dep	so:libz.so.1	zlib

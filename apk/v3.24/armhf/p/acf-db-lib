@@ -1,0 +1,15 @@
+name	acf-db-lib
+version	0.2.1-r4
+description	ACF database support library
+url	https://gitlab.alpinelinux.org/acf/acf-db
+license	GPL-2.0-only
+size	8935
+installed-size	34684
+depends	acf-core lua acf-lib
+origin	acf-db
+repo	main
+file	acf-db-lib-0.2.1-r4.apk
+checksum	Q1mpIU3lFFSKH6hir8+oDkJviYVnA=
+dep	acf-core	acf-core
+dep	lua	lua5.5
+dep	acf-lib	acf-lib

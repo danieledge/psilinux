@@ -1,0 +1,14 @@
+name	postgresql-uint
+version	1.20250815-r0
+description	Unsigned and other extra integer types for PostgreSQL
+url	https://github.com/petere/pguint
+license	PostgreSQL
+size	67644
+installed-size	361994
+depends	postgresql18 so:libc.musl-armhf.so.1
+origin	postgresql-uint
+repo	community
+file	postgresql-uint-1.20250815-r0.apk
+checksum	Q1RN9bIKjPGYS3sUJYE2c65Qfyh9k=
+dep	postgresql18	postgresql18
+dep	so:libc.musl-armhf.so.1	musl

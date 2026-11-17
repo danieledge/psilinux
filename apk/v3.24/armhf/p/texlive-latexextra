@@ -1,0 +1,14 @@
+name	texlive-latexextra
+version	2026.0-r0
+description	TeX Live additional LaTeX tools
+url	https://tug.org/texlive/
+license	GPL-2.0-or-later AND GPL-3.0-or-later
+size	2931
+installed-size	1
+depends	texlive texmf-dist-latexextra
+origin	texlive
+repo	community
+file	texlive-latexextra-2026.0-r0.apk
+checksum	Q1st9PTJUNMWshRrU0JYW1+vVbOFo=
+dep	texlive	texlive
+dep	texmf-dist-latexextra	texmf-dist-latexextra

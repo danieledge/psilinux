@@ -1,0 +1,13 @@
+name	libcoro-dev
+version	6.513-r0
+description	Coroutines (cooperative multitasking) in a portable fashion implemented in C (development files)
+url	http://software.schmorp.de/pkg/libcoro.html
+license	BSD-2-Clause
+size	9657
+installed-size	19680
+depends	libcoro=6.513-r0
+origin	libcoro
+repo	community
+file	libcoro-dev-6.513-r0.apk
+checksum	Q1NfCyH2AxV/lH1MMeZWZfcOJNdwM=
+dep	libcoro=6.513-r0	libcoro

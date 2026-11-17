@@ -1,0 +1,14 @@
+name	birdwatcher
+version	2.2.5-r24
+description	A JSON API for BIRD
+url	https://github.com/alice-lg/birdwatcher
+license	BSD-3-Clause
+size	3222753
+installed-size	8063868
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	birdwatcher
+repo	community
+file	birdwatcher-2.2.5-r24.apk
+checksum	Q15vfZe14y9hAFbYarOp+LbhHELpg=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

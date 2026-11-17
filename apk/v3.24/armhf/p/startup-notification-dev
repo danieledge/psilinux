@@ -1,0 +1,16 @@
+name	startup-notification-dev
+version	0.12-r8
+description	Monitor and display application startup (development files)
+url	https://www.freedesktop.org/wiki/Software/startup-notification
+license	LGPL-2.0-or-later
+size	69958
+installed-size	184467
+depends	libsm-dev xcb-util-dev startup-notification=0.12-r8 pkgconfig
+origin	startup-notification
+repo	community
+file	startup-notification-dev-0.12-r8.apk
+checksum	Q1POxsanzs9x30LDYsG5x/ZsFMdFc=
+dep	libsm-dev	libsm-dev
+dep	xcb-util-dev	xcb-util-dev
+dep	startup-notification=0.12-r8	startup-notification
+dep	pkgconfig	pkgconf

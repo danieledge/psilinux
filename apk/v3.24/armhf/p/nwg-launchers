@@ -1,0 +1,15 @@
+name	nwg-launchers
+version	0.7.1.1-r0
+description	GTK+ launchers for sway, i3 and some other window managers
+url	https://github.com/nwg-piotr/nwg-launchers
+license	GPL-3.0-or-later
+size	6623
+installed-size	14753
+depends	nwg-launchers-bar=0.7.1.1-r0 nwg-launchers-dmenu=0.7.1.1-r0 nwg-launchers-grid=0.7.1.1-r0
+origin	nwg-launchers
+repo	community
+file	nwg-launchers-0.7.1.1-r0.apk
+checksum	Q1toDeekEDb4q6+BIO6bOPn8pDX5U=
+dep	nwg-launchers-bar=0.7.1.1-r0	nwg-launchers-bar
+dep	nwg-launchers-dmenu=0.7.1.1-r0	nwg-launchers-dmenu
+dep	nwg-launchers-grid=0.7.1.1-r0	nwg-launchers-grid

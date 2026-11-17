@@ -1,0 +1,14 @@
+name	libsv-dev
+version	1.2-r1
+description	Public domain cross-platform semantic versioning in c99 (development files)
+url	https://github.com/uael/sv
+license	Unlicense
+size	4145
+installed-size	7681
+depends	libsv=1.2-r1 pkgconfig
+origin	libsv
+repo	community
+file	libsv-dev-1.2-r1.apk
+checksum	Q1vbCEv0L/dHow1n4KgpYAoiqbTU4=
+dep	libsv=1.2-r1	libsv
+dep	pkgconfig	pkgconf

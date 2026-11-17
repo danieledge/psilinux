@@ -1,0 +1,16 @@
+name	py3-cffi
+version	2.0.0-r0
+description	Foreign function interface for calling C code from Python3
+url	https://cffi.readthedocs.io/
+license	MIT
+size	168822
+installed-size	544265
+depends	py3-cparser python3~3.14 so:libc.musl-armhf.so.1 so:libffi.so.8
+origin	py3-cffi
+repo	main
+file	py3-cffi-2.0.0-r0.apk
+checksum	Q1EhbQwQykM0m7CtmtW6ShGsMyjvg=
+dep	py3-cparser	py3-cparser
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libffi.so.8	libffi

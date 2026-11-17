@@ -1,0 +1,18 @@
+name	vbindiff
+version	3.0_beta5-r3
+description	ncurses hex editor with diff mode for binary file comparison, supports files up to 4GB
+url	https://www.cjmweb.net/vbindiff/
+license	GPL-2.0-or-later
+size	20417
+installed-size	38352
+depends	ncurses-dev so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libncursesw.so.6 so:libpanelw.so.6 so:libstdc++.so.6
+origin	vbindiff
+repo	community
+file	vbindiff-3.0_beta5-r3.apk
+checksum	Q19PTJtqFHdiKi5xA/8ZHZBVRW1TQ=
+dep	ncurses-dev	ncurses-dev
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpanelw.so.6	libpanelw
+dep	so:libstdc++.so.6	libstdc++

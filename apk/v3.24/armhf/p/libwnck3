@@ -1,0 +1,27 @@
+name	libwnck3
+version	43.3-r0
+description	Window Navigator Construction Kit
+url	https://gitlab.gnome.org/GNOME/libwnck
+license	LGPL-2.0-or-later
+size	118460
+installed-size	304368
+depends	so:libX11.so.6 so:libXRes.so.1 so:libXrender.so.1 so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libstartup-notification-1.so.0
+origin	libwnck3
+repo	community
+file	libwnck3-43.3-r0.apk
+checksum	Q1Mp8UsTHCPm/n+x0uqBxI6esXvBk=
+dep	so:libX11.so.6	libx11
+dep	so:libXRes.so.1	libxres
+dep	so:libXrender.so.1	libxrender
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libstartup-notification-1.so.0	startup-notification

@@ -1,0 +1,13 @@
+name	gwsocket
+version	0.4-r0
+description	A simple, standalone, language-agnostic, RFC6455 compliant WebSocket Server
+url	http://gwsocket.io
+license	MIT
+size	22054
+installed-size	42420
+depends	so:libc.musl-armhf.so.1
+origin	gwsocket
+repo	community
+file	gwsocket-0.4-r0.apk
+checksum	Q10xXqRbN8p+9TRNlYrt0W9Om0+mQ=
+dep	so:libc.musl-armhf.so.1	musl

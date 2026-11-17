@@ -1,0 +1,13 @@
+name	font-fira-ttf
+version	4.202-r2
+description	Mozilla's new typeface OTF, used in Firefox OS (TTF version)
+url	http://mozilla.github.io/Fira/
+license	OFL-1.1
+size	6495654
+installed-size	13938124
+depends	fontconfig
+origin	font-fira
+repo	community
+file	font-fira-ttf-4.202-r2.apk
+checksum	Q1UhaBKAz5ktIrn/SMjL8M64UBGWs=
+dep	fontconfig	fontconfig

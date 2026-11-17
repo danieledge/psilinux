@@ -1,0 +1,30 @@
+name	wlvncc
+version	0.0.0_git20260429-r0
+description	Wayland native VNC client
+url	https://github.com/any1/wlvncc
+license	ISC AND GPL-2.0-or-later
+size	75840
+installed-size	169972
+depends	so:libEGL.so.1 so:libGLESv2.so.2 so:libaml.so.1 so:libavcodec.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libdrm.so.2 so:libgbm.so.1 so:libgcrypt.so.20 so:libgnutls.so.30 so:libjpeg.so.8 so:liblzo2.so.2 so:libpixman-1.so.0 so:libsasl2.so.3 so:libwayland-client.so.0 so:libwayland-cursor.so.0 so:libxkbcommon.so.0 so:libz.so.1
+origin	wlvncc
+repo	community
+file	wlvncc-0.0.0_git20260429-r0.apk
+checksum	Q1N6C8Dd6KtcPiv8J64hBuBFqB7v0=
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libGLESv2.so.2	mesa-gles
+dep	so:libaml.so.1	aml
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm.so.2	libdrm
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgnutls.so.30	gnutls
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:liblzo2.so.2	lzo
+dep	so:libpixman-1.so.0	pixman
+dep	so:libsasl2.so.3	libsasl
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor
+dep	so:libxkbcommon.so.0	libxkbcommon
+dep	so:libz.so.1	zlib

@@ -1,0 +1,15 @@
+name	perl-anyevent-mocktcpserver
+version	1.172150-r1
+description	Mock TCP Server using AnyEvent
+url	https://metacpan.org/release/AnyEvent-MockTCPServer/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	4968
+installed-size	12231
+depends	perl perl-anyevent perl-sub-name
+origin	perl-anyevent-mocktcpserver
+repo	community
+file	perl-anyevent-mocktcpserver-1.172150-r1.apk
+checksum	Q1mrYFfUXvYXQlJxfenHSgEKe47SU=
+dep	perl	perl
+dep	perl-anyevent	perl-anyevent
+dep	perl-sub-name	perl-sub-name

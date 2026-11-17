@@ -1,0 +1,15 @@
+name	libspatialindex
+version	2.1.0-r2
+description	Extensible framework for robust spatial indexing methods
+url	https://libspatialindex.org/
+license	MIT
+size	314280
+installed-size	838488
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libspatialindex
+repo	community
+file	libspatialindex-2.1.0-r2.apk
+checksum	Q1IJimb74UUhAwRJJRt/k6qiPUbOc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

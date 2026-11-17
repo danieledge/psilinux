@@ -1,0 +1,15 @@
+name	fuse3
+version	3.18.3-r0
+description	Reference implementation of the Linux FUSE (Filesystem in Userspace) interface
+url	https://github.com/libfuse/libfuse
+license	GPL-2.0-only AND LGPL-2.1-only
+size	19871
+installed-size	39460
+depends	fuse-common so:libc.musl-armhf.so.1 so:libfuse3.so.4
+origin	fuse3
+repo	main
+file	fuse3-3.18.3-r0.apk
+checksum	Q1fBgJawPzb3Z71cmDb4TjqP/SqNo=
+dep	fuse-common	fuse-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfuse3.so.4	fuse3-libs

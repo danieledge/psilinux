@@ -1,0 +1,101 @@
+name	sane-backends
+version	1.4.0-r4
+description	Scanner Access Now Easy - universal scanner interface (metapackage)
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	1727
+installed-size	0
+depends	sane-utils sane-saned sane-backend-abaton sane-backend-agfafocus sane-backend-apple sane-backend-artec sane-backend-artec_eplus48u sane-backend-as6e sane-backend-avision sane-backend-bh sane-backend-canon sane-backend-canon630u sane-backend-canon_dr sane-backend-canon_pp sane-backend-cardscan sane-backend-coolscan sane-backend-coolscan2 sane-backend-coolscan3 sane-backend-dc25 sane-backend-dc210 sane-backend-dc240 sane-backend-dell1600n_net sane-backend-dmc sane-backend-epjitsu sane-backend-epson sane-backend-epson2 sane-backend-epsonds sane-backend-escl sane-backend-fujitsu sane-backend-genesys sane-backend-gphoto2 sane-backend-gt68xx sane-backend-hp sane-backend-hp3500 sane-backend-hp3900 sane-backend-hp4200 sane-backend-hp5400 sane-backend-hp5590 sane-backend-hpsj5s sane-backend-hpljm1005 sane-backend-hs2p sane-backend-ibm sane-backend-kodak sane-backend-kodakaio sane-backend-kvs1025 sane-backend-kvs20xx sane-backend-kvs40xx sane-backend-leo sane-backend-lexmark sane-backend-ma1509 sane-backend-magicolor sane-backend-matsushita sane-backend-microtek sane-backend-microtek2 sane-backend-mustek sane-backend-mustek_pp sane-backend-mustek_usb sane-backend-mustek_usb2 sane-backend-nec sane-backend-net sane-backend-niash sane-backend-p5 sane-backend-pie sane-backend-pieusb sane-backend-pixma sane-backend-plustek sane-backend-plustek_pp sane-backend-ricoh sane-backend-ricoh2 sane-backend-rts8891 sane-backend-s9036 sane-backend-sceptre sane-backend-sharp sane-backend-sm3600 sane-backend-sm3840 sane-backend-snapscan sane-backend-sp15c sane-backend-st400 sane-backend-stv680 sane-backend-tamarack sane-backend-teco1 sane-backend-teco2 sane-backend-teco3 sane-backend-u12 sane-backend-umax sane-backend-umax_pp sane-backend-umax1220u sane-backend-v4l sane-backend-xerox_mfp
+origin	sane
+repo	community
+file	sane-backends-1.4.0-r4.apk
+checksum	Q1CE1AM9WAuOR+87UoUCll5DVU23o=
+dep	sane-utils	sane-utils
+dep	sane-saned	sane-saned
+dep	sane-backend-abaton	sane-backend-abaton
+dep	sane-backend-agfafocus	sane-backend-agfafocus
+dep	sane-backend-apple	sane-backend-apple
+dep	sane-backend-artec	sane-backend-artec
+dep	sane-backend-artec_eplus48u	sane-backend-artec_eplus48u
+dep	sane-backend-as6e	sane-backend-as6e
+dep	sane-backend-avision	sane-backend-avision
+dep	sane-backend-bh	sane-backend-bh
+dep	sane-backend-canon	sane-backend-canon
+dep	sane-backend-canon630u	sane-backend-canon630u
+dep	sane-backend-canon_dr	sane-backend-canon_dr
+dep	sane-backend-canon_pp	sane-backend-canon_pp
+dep	sane-backend-cardscan	sane-backend-cardscan
+dep	sane-backend-coolscan	sane-backend-coolscan
+dep	sane-backend-coolscan2	sane-backend-coolscan2
+dep	sane-backend-coolscan3	sane-backend-coolscan3
+dep	sane-backend-dc25	sane-backend-dc25
+dep	sane-backend-dc210	sane-backend-dc210
+dep	sane-backend-dc240	sane-backend-dc240
+dep	sane-backend-dell1600n_net	sane-backend-dell1600n_net
+dep	sane-backend-dmc	sane-backend-dmc
+dep	sane-backend-epjitsu	sane-backend-epjitsu
+dep	sane-backend-epson	sane-backend-epson
+dep	sane-backend-epson2	sane-backend-epson2
+dep	sane-backend-epsonds	sane-backend-epsonds
+dep	sane-backend-escl	sane-backend-escl
+dep	sane-backend-fujitsu	sane-backend-fujitsu
+dep	sane-backend-genesys	sane-backend-genesys
+dep	sane-backend-gphoto2	sane-backend-gphoto2
+dep	sane-backend-gt68xx	sane-backend-gt68xx
+dep	sane-backend-hp	sane-backend-hp
+dep	sane-backend-hp3500	sane-backend-hp3500
+dep	sane-backend-hp3900	sane-backend-hp3900
+dep	sane-backend-hp4200	sane-backend-hp4200
+dep	sane-backend-hp5400	sane-backend-hp5400
+dep	sane-backend-hp5590	sane-backend-hp5590
+dep	sane-backend-hpsj5s	sane-backend-hpsj5s
+dep	sane-backend-hpljm1005	sane-backend-hpljm1005
+dep	sane-backend-hs2p	sane-backend-hs2p
+dep	sane-backend-ibm	sane-backend-ibm
+dep	sane-backend-kodak	sane-backend-kodak
+dep	sane-backend-kodakaio	sane-backend-kodakaio
+dep	sane-backend-kvs1025	sane-backend-kvs1025
+dep	sane-backend-kvs20xx	sane-backend-kvs20xx
+dep	sane-backend-kvs40xx	sane-backend-kvs40xx
+dep	sane-backend-leo	sane-backend-leo
+dep	sane-backend-lexmark	sane-backend-lexmark
+dep	sane-backend-ma1509	sane-backend-ma1509
+dep	sane-backend-magicolor	sane-backend-magicolor
+dep	sane-backend-matsushita	sane-backend-matsushita
+dep	sane-backend-microtek	sane-backend-microtek
+dep	sane-backend-microtek2	sane-backend-microtek2
+dep	sane-backend-mustek	sane-backend-mustek
+dep	sane-backend-mustek_pp	sane-backend-mustek_pp
+dep	sane-backend-mustek_usb	sane-backend-mustek_usb
+dep	sane-backend-mustek_usb2	sane-backend-mustek_usb2
+dep	sane-backend-nec	sane-backend-nec
+dep	sane-backend-net	sane-backend-net
+dep	sane-backend-niash	sane-backend-niash
+dep	sane-backend-p5	sane-backend-p5
+dep	sane-backend-pie	sane-backend-pie
+dep	sane-backend-pieusb	sane-backend-pieusb
+dep	sane-backend-pixma	sane-backend-pixma
+dep	sane-backend-plustek	sane-backend-plustek
+dep	sane-backend-plustek_pp	sane-backend-plustek_pp
+dep	sane-backend-ricoh	sane-backend-ricoh
+dep	sane-backend-ricoh2	sane-backend-ricoh2
+dep	sane-backend-rts8891	sane-backend-rts8891
+dep	sane-backend-s9036	sane-backend-s9036
+dep	sane-backend-sceptre	sane-backend-sceptre
+dep	sane-backend-sharp	sane-backend-sharp
+dep	sane-backend-sm3600	sane-backend-sm3600
+dep	sane-backend-sm3840	sane-backend-sm3840
+dep	sane-backend-snapscan	sane-backend-snapscan
+dep	sane-backend-sp15c	sane-backend-sp15c
+dep	sane-backend-st400	sane-backend-st400
+dep	sane-backend-stv680	sane-backend-stv680
+dep	sane-backend-tamarack	sane-backend-tamarack
+dep	sane-backend-teco1	sane-backend-teco1
+dep	sane-backend-teco2	sane-backend-teco2
+dep	sane-backend-teco3	sane-backend-teco3
+dep	sane-backend-u12	sane-backend-u12
+dep	sane-backend-umax	sane-backend-umax
+dep	sane-backend-umax_pp	sane-backend-umax_pp
+dep	sane-backend-umax1220u	sane-backend-umax1220u
+dep	sane-backend-v4l	sane-backend-v4l
+dep	sane-backend-xerox_mfp	sane-backend-xerox_mfp

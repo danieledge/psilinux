@@ -1,0 +1,13 @@
+name	urfkill-static
+version	0.5.0_git20210401-r6
+description	Handle rfkill events in userspace (static library)
+url	https://www.freedesktop.org/wiki/Software/urfkill/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	13317
+installed-size	35804
+depends	urfkill-dev
+origin	urfkill
+repo	community
+file	urfkill-static-0.5.0_git20210401-r6.apk
+checksum	Q17hLmBxBXwR1S14MAW4mn1DP/yTU=
+dep	urfkill-dev	urfkill-dev

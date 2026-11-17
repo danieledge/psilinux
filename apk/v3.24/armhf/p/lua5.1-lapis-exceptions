@@ -1,0 +1,14 @@
+name	lua5.1-lapis-exceptions
+version	2.5.0-r0
+description	This module makes the error handler in Lapis save the errors to database. Optionally you can make it email you the exceptions. (for Lua 5.1)
+url	https://github.com/leafo/lapis-exceptions
+license	MIT
+size	17212
+installed-size	56794
+depends	lua5.1 lua5.1-lapis
+origin	lua-lapis-exceptions
+repo	community
+file	lua5.1-lapis-exceptions-2.5.0-r0.apk
+checksum	Q1OdNn78taKTFcISWw4cYj0+j+5p0=
+dep	lua5.1	lua5.1
+dep	lua5.1-lapis	lua5.1-lapis

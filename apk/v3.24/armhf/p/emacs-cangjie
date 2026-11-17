@@ -1,0 +1,16 @@
+name	emacs-cangjie
+version	0.7.4_git20230218-r1
+description	Lookup Cangjie encoding of a Han character
+url	https://github.com/kisaragi-hiu/cangjie.el
+license	GPL-3.0-or-later
+size	10008
+installed-size	29913
+depends	cmd:emacs emacs-dash emacs-f emacs-s
+origin	emacs-cangjie
+repo	community
+file	emacs-cangjie-0.7.4_git20230218-r1.apk
+checksum	Q1zhVoKQPiRm7BB1N1XsAoe8tpix4=
+dep	cmd:emacs	emacs-gtk3
+dep	emacs-dash	emacs-dash
+dep	emacs-f	emacs-f
+dep	emacs-s	emacs-s

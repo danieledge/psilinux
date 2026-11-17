@@ -1,0 +1,15 @@
+name	oo7-server
+version	0.6.0-r4
+description	D-Bus Secret Service provider
+url	https://github.com/linux-credentials/oo7
+license	MIT
+size	1717784
+installed-size	3718353
+depends	dbus so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	oo7
+repo	community
+file	oo7-server-0.6.0-r4.apk
+checksum	Q10n/CkvHJU+msMzBAecb8Ob0DdJk=
+dep	dbus	dbus
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,14 @@
+name	openbao
+version	2.6.4-r1
+description	solution to manage, store, and distribute sensitive data including secrets, certificates, and keys
+url	https://openbao.org/
+license	MPL-2.0
+size	38475736
+installed-size	134628123
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	openbao
+repo	community
+file	openbao-2.6.4-r1.apk
+checksum	Q1A0NZQHTJ0PeLv9qrqsrCmYpjx7A=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

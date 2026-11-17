@@ -1,0 +1,14 @@
+name	texlive-humanities
+version	2026.0-r0
+description	TeX Live humanities tools
+url	https://tug.org/texlive/
+license	GPL-2.0-or-later AND GPL-3.0-or-later
+size	1602
+installed-size	1
+depends	texlive texmf-dist-humanities
+origin	texlive
+repo	community
+file	texlive-humanities-2026.0-r0.apk
+checksum	Q1NZgs2msSFAryNB4L5A7oO5I45To=
+dep	texlive	texlive
+dep	texmf-dist-humanities	texmf-dist-humanities

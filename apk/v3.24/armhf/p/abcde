@@ -1,0 +1,16 @@
+name	abcde
+version	2.9.3-r5
+description	A command line CD encoder that reads your CD, downloads the track information from a CDDB provider, and rips your CD
+url	https://abcde.einval.com/
+license	GPL-2.0-or-later
+size	65254
+installed-size	219414
+depends	bash cd-discid eyed3 perl-webservice-musicbrainz
+origin	abcde
+repo	community
+file	abcde-2.9.3-r5.apk
+checksum	Q167Um1LsVKD8fHTiB8kBl4W194gE=
+dep	bash	bash
+dep	cd-discid	cd-discid
+dep	eyed3	eyed3
+dep	perl-webservice-musicbrainz	perl-webservice-musicbrainz

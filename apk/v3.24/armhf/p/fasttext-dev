@@ -1,0 +1,14 @@
+name	fasttext-dev
+version	0.9.2-r3
+description	Library for fast text representation and classification (development files)
+url	https://fasttext.cc/
+license	MIT
+size	471244
+installed-size	1266843
+depends	fasttext-libs=0.9.2-r3 pkgconfig
+origin	fasttext
+repo	community
+file	fasttext-dev-0.9.2-r3.apk
+checksum	Q1BC6o5S24k2m0K2lIiW9UqoftVYw=
+dep	fasttext-libs=0.9.2-r3	fasttext-libs
+dep	pkgconfig	pkgconf

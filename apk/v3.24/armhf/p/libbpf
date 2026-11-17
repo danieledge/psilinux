@@ -1,0 +1,15 @@
+name	libbpf
+version	1.7.0-r1
+description	A library for interacting with the Linux kernel's Berkeley Packet Filter (BPF) facility from user space
+url	https://github.com/libbpf/libbpf
+license	LGPL-2.1-only OR BSD-2-Clause
+size	161561
+installed-size	345568
+depends	so:libc.musl-armhf.so.1 so:libelf.so.1 so:libz.so.1
+origin	libbpf
+repo	main
+file	libbpf-1.7.0-r1.apk
+checksum	Q1unhshoIopn8zRqmGn7S5B5I7neg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libelf.so.1	libelf
+dep	so:libz.so.1	zlib

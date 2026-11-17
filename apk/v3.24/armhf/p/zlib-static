@@ -1,0 +1,13 @@
+name	zlib-static
+version	1.4-r0
+description	A compression/decompression Library (static library)
+url	https://zlib.net/
+license	Zlib
+size	51967
+installed-size	103846
+depends	zlib-dev
+origin	zlib
+repo	main
+file	zlib-static-1.4-r0.apk
+checksum	Q1Hhu4hrNn8QVuTiWBlbZMyTr43LI=
+dep	zlib-dev	zlib-dev

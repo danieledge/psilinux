@@ -1,0 +1,13 @@
+name	lua5.1-socket
+version	3.1.0-r2
+description	Networking library for Lua 5.1
+url	https://lunarmodules.github.io/luasocket/
+license	MIT
+size	64382
+installed-size	197308
+depends	so:libc.musl-armhf.so.1
+origin	lua-socket
+repo	main
+file	lua5.1-socket-3.1.0-r2.apk
+checksum	Q1w7IpN1mBiJvr2uGF4UNJnkIzLqQ=
+dep	so:libc.musl-armhf.so.1	musl

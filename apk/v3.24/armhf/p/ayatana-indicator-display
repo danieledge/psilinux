@@ -1,0 +1,25 @@
+name	ayatana-indicator-display
+version	24.5.2-r0
+description	Ayatana Indicator Display
+url	https://github.com/AyatanaIndicators/ayatana-indicator-display
+license	GPL-3.0-only
+size	62097
+installed-size	243049
+depends	so:libX11.so.6 so:libXrandr.so.2 so:libaccountsservice.so.0 so:libayatana-common.so.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgeoclue-2.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:librda.so.0 so:libstdc++.so.6
+origin	ayatana-indicator-display
+repo	community
+file	ayatana-indicator-display-24.5.2-r0.apk
+checksum	Q1djHG1Op+dArqx/w6SAqIuzRmUDg=
+dep	so:libX11.so.6	libx11
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libaccountsservice.so.0	libaccountsservice
+dep	so:libayatana-common.so.0	libayatana-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgeoclue-2.so.0	geoclue
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:librda.so.0	librda
+dep	so:libstdc++.so.6	libstdc++

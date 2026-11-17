@@ -1,0 +1,13 @@
+name	e2fsprogs-static
+version	1.47.4-r0
+description	Standard Ext2/3/4 filesystem utilities (static library)
+url	https://e2fsprogs.sourceforge.net/
+license	GPL-2.0-or-later AND LGPL-2.0-or-later AND BSD-3-Clause AND MIT
+size	4820865
+installed-size	7645554
+depends	e2fsprogs-dev
+origin	e2fsprogs
+repo	main
+file	e2fsprogs-static-1.47.4-r0.apk
+checksum	Q15AZ7tJNJzWrU2pvWXyHAXrJQ97s=
+dep	e2fsprogs-dev	e2fsprogs-dev

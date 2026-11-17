@@ -1,0 +1,15 @@
+name	perl-net-libidn
+version	0.12-r17
+description	Perl bindings for GNU Libidn
+url	http://www.net-dns.org/
+license	Artistic-1.0-Perl OR GPL-1.0-or-later
+size	12328
+installed-size	29246
+depends	perl so:libc.musl-armhf.so.1 so:libidn.so.12
+origin	perl-net-libidn
+repo	main
+file	perl-net-libidn-0.12-r17.apk
+checksum	Q1Yiv6z0VKndKedqb2DH1yur6URjY=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libidn.so.12	libidn

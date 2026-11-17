@@ -1,0 +1,13 @@
+name	gdbm
+version	1.26-r0
+description	GNU dbm is a set of database routines that use extensible hashing
+url	https://www.gnu.org/software/gdbm/
+license	GPL-3.0-or-later
+size	32292
+installed-size	63960
+depends	so:libc.musl-armhf.so.1
+origin	gdbm
+repo	main
+file	gdbm-1.26-r0.apk
+checksum	Q18ARcY/uGLGytQ6Y1ynGwnaCqaeE=
+dep	so:libc.musl-armhf.so.1	musl

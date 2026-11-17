@@ -1,0 +1,14 @@
+name	collectd-mbmon
+version	5.12.0-r25
+description	mbmon pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	4493
+installed-size	9348
+depends	collectd so:libc.musl-armhf.so.1
+origin	collectd
+repo	community
+file	collectd-mbmon-5.12.0-r25.apk
+checksum	Q15Hsde4ZHZhUg2OHxZkzpBWq2l1o=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,26 @@
+name	xorg-server-xnest
+version	21.1.26-r0
+description	A nested Xorg server
+url	https://www.x.org/wiki
+license	MIT
+size	528968
+installed-size	1063836
+depends	font-cursor-misc font-misc-misc mesa-egl xkbcomp xkeyboard-config xorg-server-common so:libX11.so.6 so:libXau.so.6 so:libXdmcp.so.6 so:libXext.so.6 so:libXfont2.so.2 so:libc.musl-armhf.so.1 so:libnettle.so.8 so:libpixman-1.so.0
+origin	xorg-server
+repo	community
+file	xorg-server-xnest-21.1.26-r0.apk
+checksum	Q1mG4/G4zagHNncPfCSNi/5o0DXgI=
+dep	font-cursor-misc	font-cursor-misc
+dep	font-misc-misc	font-misc-misc
+dep	mesa-egl	mesa-egl
+dep	xkbcomp	xkbcomp
+dep	xkeyboard-config	xkeyboard-config
+dep	xorg-server-common	xorg-server-common
+dep	so:libX11.so.6	libx11
+dep	so:libXau.so.6	libxau
+dep	so:libXdmcp.so.6	libxdmcp
+dep	so:libXext.so.6	libxext
+dep	so:libXfont2.so.2	libxfont2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnettle.so.8	nettle
+dep	so:libpixman-1.so.0	pixman

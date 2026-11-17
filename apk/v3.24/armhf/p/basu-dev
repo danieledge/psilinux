@@ -1,0 +1,15 @@
+name	basu-dev
+version	0.2.1-r2
+description	The sd-bus library, extracted from systemd (development files)
+url	https://sr.ht/~emersion/basu/
+license	LGPL-2.1-or-later
+size	10505
+installed-size	49357
+depends	basu=0.2.1-r2 pc:libcap pkgconfig
+origin	basu
+repo	community
+file	basu-dev-0.2.1-r2.apk
+checksum	Q1t0Ujz/rXlN+PFtluND2XBpIeOso=
+dep	basu=0.2.1-r2	basu
+dep	pc:libcap	libcap-dev
+dep	pkgconfig	pkgconf

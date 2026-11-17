@@ -1,0 +1,12 @@
+name	ulogd-openrc
+version	2.0.9-r0
+description	Userspace logging daemon for netfilter/iptables related logging (OpenRC init scripts)
+url	https://netfilter.org/projects/ulogd/
+license	GPL-2.0-only
+size	2157
+installed-size	858
+depends	
+origin	ulogd
+repo	main
+file	ulogd-openrc-2.0.9-r0.apk
+checksum	Q1QVmSAcOP+iOL68kIGLdADFOwAi4=

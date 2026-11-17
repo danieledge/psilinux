@@ -1,0 +1,14 @@
+name	postfix-sqlite
+version	3.11.7-r0
+description	sqlite map support for postfix
+url	https://www.postfix.org/
+license	IPL-1.0 EPL-2.0
+size	5523
+installed-size	9378
+depends	so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	postfix
+repo	main
+file	postfix-sqlite-3.11.7-r0.apk
+checksum	Q1NkgfqDi4s4ZHdKFe0ZieiZ2YOqk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

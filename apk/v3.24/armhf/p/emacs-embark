@@ -1,0 +1,14 @@
+name	emacs-embark
+version	1.1-r1
+description	Conveniently act on minibuffer completions
+url	https://github.com/oantolin/embark
+license	GPL-3.0-or-later
+size	113511
+installed-size	419514
+depends	cmd:emacs emacs-compat
+origin	emacs-embark
+repo	community
+file	emacs-embark-1.1-r1.apk
+checksum	Q1VyipfxdSgS4XgwYokpdLRg8OZsk=
+dep	cmd:emacs	emacs-gtk3
+dep	emacs-compat	emacs-compat

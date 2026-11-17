@@ -1,0 +1,14 @@
+name	librttopo
+version	1.1.0-r6
+description	RT Topology Library
+url	https://git.osgeo.org/gitea/rttopo/librttopo
+license	GPL-2.0-or-later
+size	164781
+installed-size	366780
+depends	so:libc.musl-armhf.so.1 so:libgeos_c.so.1
+origin	librttopo
+repo	community
+file	librttopo-1.1.0-r6.apk
+checksum	Q1fx8VXmmfI+KHBAqgBhvAFXqUJG8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgeos_c.so.1	geos

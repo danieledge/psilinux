@@ -1,0 +1,16 @@
+name	x11-calc
+version	0.26.0251-r0
+description	HP Calculator Simulator
+url	https://github.com/mike632t/x11-calc
+license	GPL-3.0-or-later
+size	811927
+installed-size	1916673
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgtk-3.so.0
+origin	x11-calc
+repo	community
+file	x11-calc-0.26.0251-r0.apk
+checksum	Q15xIUXLzmADSZfw29LcpwJF64yxc=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0

@@ -1,0 +1,14 @@
+name	erlang28-dialyzer
+version	28.5.0.8-r0
+description	General-purpose programming language and runtime environment, version 28
+url	https://www.erlang.org/
+license	Apache-2.0
+size	1142088
+installed-size	1429314
+depends	erlang28=28.5.0.8-r0 erlang28-wx=28.5.0.8-r0
+origin	erlang28
+repo	community
+file	erlang28-dialyzer-28.5.0.8-r0.apk
+checksum	Q19ZaRCnEWoYHbmTY3BxAvGlqk1I0=
+dep	erlang28=28.5.0.8-r0	erlang28
+dep	erlang28-wx=28.5.0.8-r0	erlang28-wx

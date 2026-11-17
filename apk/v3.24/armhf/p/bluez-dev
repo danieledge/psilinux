@@ -1,0 +1,14 @@
+name	bluez-dev
+version	5.86-r2
+description	Tools for the Bluetooth protocol stack (development files)
+url	https://www.bluez.org/
+license	GPL-2.0-or-later AND BSD-2-Clause AND MIT
+size	31718
+installed-size	138215
+depends	bluez-libs=5.86-r2 pkgconfig
+origin	bluez
+repo	main
+file	bluez-dev-5.86-r2.apk
+checksum	Q1GkBuSAYN8pqfcRaQdh/NDYwbIpA=
+dep	bluez-libs=5.86-r2	bluez-libs
+dep	pkgconfig	pkgconf

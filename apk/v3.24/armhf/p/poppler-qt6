@@ -1,0 +1,20 @@
+name	poppler-qt6
+version	25.12.0-r1
+description	PDF rendering library based on xpdf 3.0 (qt6 component)
+url	https://poppler.freedesktop.org/
+license	GPL-2.0-only
+size	154762
+installed-size	415192
+depends	so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libc.musl-armhf.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:liblcms2.so.2 so:libpoppler.so.155 so:libstdc++.so.6
+origin	poppler-qt
+repo	community
+file	poppler-qt6-25.12.0-r1.apk
+checksum	Q10LvTF266SJNb7cTJLGIMPvzMHAE=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblcms2.so.2	lcms2
+dep	so:libpoppler.so.155	poppler
+dep	so:libstdc++.so.6	libstdc++

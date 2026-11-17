@@ -1,0 +1,15 @@
+name	samba
+version	4.23.8-r0
+description	Tools to access a server's filespace and printers via SMB
+url	https://www.samba.org/
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	1316
+installed-size	0
+depends	samba-server=4.23.8-r0 samba-client=4.23.8-r0 samba-common-tools=4.23.8-r0
+origin	samba
+repo	main
+file	samba-4.23.8-r0.apk
+checksum	Q1kai1XNJ3I6d1MMC3y87NxYjeRAc=
+dep	samba-server=4.23.8-r0	samba-server
+dep	samba-client=4.23.8-r0	samba-client
+dep	samba-common-tools=4.23.8-r0	samba-common-tools

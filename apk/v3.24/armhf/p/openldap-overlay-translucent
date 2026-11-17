@@ -1,0 +1,15 @@
+name	openldap-overlay-translucent
+version	2.6.15-r0
+description	OpenLDAP translucent overlay
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	12027
+installed-size	27322
+depends	so:libc.musl-armhf.so.1 so:liblber.so.2 so:libldap.so.2
+origin	openldap
+repo	main
+file	openldap-overlay-translucent-2.6.15-r0.apk
+checksum	Q10M7LabQ3NCGx2E4Y9dRnTwVNuoQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap

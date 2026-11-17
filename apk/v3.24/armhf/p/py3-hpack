@@ -1,0 +1,13 @@
+name	py3-hpack
+version	4.1.0-r1
+description	HTTP/2 framing layer for Python
+url	https://python-hyper.org/projects/hpack/en/latest/
+license	MIT
+size	34314
+installed-size	220155
+depends	python3~3.14
+origin	py3-hpack
+repo	community
+file	py3-hpack-4.1.0-r1.apk
+checksum	Q1x1c6HdE/pha9a3vpA3KjQWXHDls=
+dep	python3~3.14	python3

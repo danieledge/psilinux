@@ -1,0 +1,26 @@
+name	podman
+version	5.8.10-r0
+description	Simple management tool for pods, containers and images
+url	https://podman.io/
+license	Apache-2.0
+size	17813867
+installed-size	47729940
+depends	conmon oci-runtime passt cmd:newgidmap cmd:newuidmap containers-common netavark aardvark-dns catatonit /bin/sh so:libc.musl-armhf.so.1 so:libgpgme.so.45 so:libseccomp.so.2 so:libsqlite3.so.0
+origin	podman
+repo	community
+file	podman-5.8.10-r0.apk
+checksum	Q1UIIaA5dQr/w84sDfx6kz/Nxa7O0=
+dep	conmon	conmon
+dep	oci-runtime	crun
+dep	passt	passt
+dep	cmd:newgidmap	shadow-subids
+dep	cmd:newuidmap	shadow-subids
+dep	containers-common	containers-common
+dep	netavark	netavark
+dep	aardvark-dns	aardvark-dns
+dep	catatonit	catatonit
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgpgme.so.45	gpgme
+dep	so:libseccomp.so.2	libseccomp
+dep	so:libsqlite3.so.0	sqlite-libs

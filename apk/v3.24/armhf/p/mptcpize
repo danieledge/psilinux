@@ -1,0 +1,13 @@
+name	mptcpize
+version	0.14-r0
+description	Force apps to use MPTCP instead of TCP
+url	https://mptcpd.mptcp.dev
+license	BSD-3-Clause
+size	19164
+installed-size	40947
+depends	so:libc.musl-armhf.so.1
+origin	mptcpd
+repo	community
+file	mptcpize-0.14-r0.apk
+checksum	Q1hqhFJr/cYpBheto3OgfVEypFqBk=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,17 @@
+name	sord
+version	0.16.22-r0
+description	C library for storing RDF data in memory
+url	https://drobilla.net/software/sord
+license	ISC
+size	11315
+installed-size	26968
+depends	so:libc.musl-armhf.so.1 so:libpcre2-8.so.0 so:libserd-0.so.0 so:libsord-0.so.0 so:libzix-0.so.0
+origin	sord
+repo	community
+file	sord-0.16.22-r0.apk
+checksum	Q13F5DHPK5xr5d054Y/VHd1eZBQ0o=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libserd-0.so.0	serd-libs
+dep	so:libsord-0.so.0	sord-libs
+dep	so:libzix-0.so.0	zix-libs

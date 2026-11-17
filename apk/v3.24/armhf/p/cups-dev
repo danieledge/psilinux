@@ -1,0 +1,19 @@
+name	cups-dev
+version	2.4.19-r1
+description	The CUPS Printing System (development files)
+url	https://github.com/OpenPrinting/cups/
+license	Apache-2.0
+size	43517
+installed-size	188684
+depends	libgcrypt-dev gnutls-dev zlib-dev cups-libs=2.4.19-r1 pc:avahi-client pc:gnutls pkgconfig
+origin	cups
+repo	main
+file	cups-dev-2.4.19-r1.apk
+checksum	Q1Gf69bVJy75kzhQCFAloA4rS6cR0=
+dep	libgcrypt-dev	libgcrypt-dev
+dep	gnutls-dev	gnutls-dev
+dep	zlib-dev	zlib-dev
+dep	cups-libs=2.4.19-r1	cups-libs
+dep	pc:avahi-client	avahi-dev
+dep	pc:gnutls	gnutls-dev
+dep	pkgconfig	pkgconf

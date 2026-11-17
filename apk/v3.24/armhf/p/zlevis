@@ -1,0 +1,15 @@
+name	zlevis
+version	2.2-r0
+description	Tool that enables automatic decryption of ZFS root-pools with TPM2
+url	https://git.ampel.dev/ampel/zlevis
+license	GPL-3.0-only
+size	5286
+installed-size	14256
+depends	jose tpm2-tools tpm2-tss-tcti-device
+origin	zlevis
+repo	community
+file	zlevis-2.2-r0.apk
+checksum	Q1GB+lgQ5dTbYxFRsq4WAsMUoGFdE=
+dep	jose	jose
+dep	tpm2-tools	tpm2-tools
+dep	tpm2-tss-tcti-device	tpm2-tss-tcti-device

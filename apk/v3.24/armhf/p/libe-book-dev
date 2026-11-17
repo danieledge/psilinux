@@ -1,0 +1,25 @@
+name	libe-book-dev
+version	0.1.3-r26
+description	Import filter and tools for various ebook formats (development files)
+url	https://sourceforge.net/projects/libebook/
+license	MPL-2.0
+size	3748
+installed-size	4755
+depends	boost-dev icu-dev librevenge-dev libxml2-dev zlib-dev liblangtag-dev libe-book=0.1.3-r26 pc:icu-uc pc:liblangtag pc:librevenge-0.0 pc:libxml-2.0 pc:zlib pkgconfig
+origin	libe-book
+repo	community
+file	libe-book-dev-0.1.3-r26.apk
+checksum	Q1LQJaFNz+Hohu2n0zesfPXvPFkV8=
+dep	boost-dev	boost-dev
+dep	icu-dev	icu-dev
+dep	librevenge-dev	librevenge-dev
+dep	libxml2-dev	libxml2-dev
+dep	zlib-dev	zlib-dev
+dep	liblangtag-dev	liblangtag-dev
+dep	libe-book=0.1.3-r26	libe-book
+dep	pc:icu-uc	icu-dev
+dep	pc:liblangtag	liblangtag-dev
+dep	pc:librevenge-0.0	librevenge-dev
+dep	pc:libxml-2.0	libxml2-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

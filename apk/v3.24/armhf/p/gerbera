@@ -1,0 +1,39 @@
+name	gerbera
+version	2.6.1-r6
+description	A UPnP Media Server
+url	https://gerbera.io/
+license	GPL-2.0-or-later
+size	2598686
+installed-size	6986794
+depends	/bin/sh so:libavcodec.so.62 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libduktape.so.207 so:libebml.so.5 so:libexif.so.12 so:libexiv2.so.28 so:libffmpegthumbnailer.so.4 so:libfmt.so.11 so:libgcc_s.so.1 so:libicui18n.so.78 so:libicuio.so.78 so:libicuuc.so.78 so:libixml.so.11 so:libjsoncpp.so.26 so:libmagic.so.1 so:libmatroska.so.7 so:libpugixml.so.1 so:libspdlog.so.1.17 so:libsqlite3.so.0 so:libstdc++.so.6 so:libtag.so.2 so:libupnp.so.20 so:libuuid.so.1
+origin	gerbera
+repo	community
+file	gerbera-2.6.1-r6.apk
+checksum	Q1D6wpsGfIuCtKWhkOxeIXC90Wedw=
+dep	/bin/sh	busybox-binsh
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libduktape.so.207	duktape-libs
+dep	so:libebml.so.5	libebml
+dep	so:libexif.so.12	libexif
+dep	so:libexiv2.so.28	exiv2-libs
+dep	so:libffmpegthumbnailer.so.4	ffmpegthumbnailer
+dep	so:libfmt.so.11	fmt
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuio.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libixml.so.11	libupnp
+dep	so:libjsoncpp.so.26	jsoncpp
+dep	so:libmagic.so.1	libmagic
+dep	so:libmatroska.so.7	libmatroska
+dep	so:libpugixml.so.1	pugixml
+dep	so:libspdlog.so.1.17	spdlog
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtag.so.2	libtag
+dep	so:libupnp.so.20	libupnp
+dep	so:libuuid.so.1	libuuid

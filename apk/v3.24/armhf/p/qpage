@@ -1,0 +1,14 @@
+name	qpage
+version	3.3-r4
+description	Sends messages to an alphanumeric pager via TAP protocol.
+url	https://web.archive.org/web/20241213130709/http://www.qpage.org/
+license	Custom
+size	40248
+installed-size	79629
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	qpage
+repo	community
+file	qpage-3.3-r4.apk
+checksum	Q1AT640KAToTns5FF0X39s6YmN7uw=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,12 @@
+name	alpine-baselayout-data
+version	3.7.2-r1
+description	Alpine base dir structure and init scripts
+url	https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/main/alpine-baselayout
+license	GPL-2.0-only
+size	10782
+installed-size	19034
+depends	
+origin	alpine-baselayout
+repo	main
+file	alpine-baselayout-data-3.7.2-r1.apk
+checksum	Q1MzfIPSHI6xFODUuydeVh3TSTvbg=

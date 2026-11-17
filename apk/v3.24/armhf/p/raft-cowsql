@@ -1,0 +1,15 @@
+name	raft-cowsql
+version	0.22.1-r0
+description	Asynchronous C implementation of the Raft consensus protocol
+url	https://github.com/cowsql/raft
+license	LGPL-3.0-only WITH LGPL-3.0-linking-exception
+size	88375
+installed-size	185816
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libuv.so.1
+origin	raft-cowsql
+repo	community
+file	raft-cowsql-0.22.1-r0.apk
+checksum	Q14yvXOYkwC3lFWB4AaPGWkxsa/0I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libuv.so.1	libuv

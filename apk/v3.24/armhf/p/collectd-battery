@@ -1,0 +1,14 @@
+name	collectd-battery
+version	5.12.0-r25
+description	battery pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	6879
+installed-size	13604
+depends	collectd so:libc.musl-armhf.so.1
+origin	collectd
+repo	community
+file	collectd-battery-5.12.0-r25.apk
+checksum	Q1scstXEvJ/0wCB09n32Lw4xHjhdE=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl

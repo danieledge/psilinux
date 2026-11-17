@@ -1,0 +1,14 @@
+name	perl-xml-canonicalizexml
+version	0.10-r11
+description	Perl extension for inclusive (1.0 and 1.1) and exclusive canonicalization of XML using libxml2
+url	https://metacpan.org/release/XML-CanonicalizeXML/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	7657
+installed-size	12431
+depends	so:libc.musl-armhf.so.1 so:libxml2.so.2
+origin	perl-xml-canonicalizexml
+repo	community
+file	perl-xml-canonicalizexml-0.10-r11.apk
+checksum	Q1ZcY23nZp90TwpTh6poIZdN66kis=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxml2.so.2	libxml2

@@ -1,0 +1,41 @@
+name	fwupd
+version	2.0.20-r4
+description	Firmware update daemon
+url	https://fwupd.org/
+license	LGPL-2.1-or-later
+size	1999087
+installed-size	5319348
+depends	dbus hwdata-usb so:libarchive.so.13 so:libblkid.so.1 so:libc.musl-armhf.so.1 so:libcbor.so.0.13 so:libcurl.so.4 so:libdrm.so.2 so:libdrm_amdgpu.so.1 so:libflashrom.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgnutls.so.30 so:libgobject-2.0.so.0 so:libintl.so.8 so:libjcat.so.1 so:libjson-glib-1.0.so.0 so:liblzma.so.5 so:libmbim-glib.so.4 so:libmm-glib.so.0 so:libpolkit-gobject-1.so.0 so:libprotobuf-c.so.1 so:libqmi-glib.so.5 so:libsqlite3.so.0 so:libtss2-esys.so.0 so:libusb-1.0.so.0 so:libxmlb.so.2 so:libz.so.1
+origin	fwupd
+repo	community
+file	fwupd-2.0.20-r4.apk
+checksum	Q1DaJjn+6XRj5VA4EK+YnXoEQV8Es=
+dep	dbus	dbus
+dep	hwdata-usb	hwdata-usb
+dep	so:libarchive.so.13	libarchive
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcbor.so.0.13	libcbor
+dep	so:libcurl.so.4	libcurl
+dep	so:libdrm.so.2	libdrm
+dep	so:libdrm_amdgpu.so.1	libdrm
+dep	so:libflashrom.so.1	flashrom-libs
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgnutls.so.30	gnutls
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libjcat.so.1	libjcat
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:liblzma.so.5	xz-libs
+dep	so:libmbim-glib.so.4	libmbim
+dep	so:libmm-glib.so.0	libmm-glib
+dep	so:libpolkit-gobject-1.so.0	polkit-noelogind-libs
+dep	so:libprotobuf-c.so.1	protobuf-c
+dep	so:libqmi-glib.so.5	libqmi
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libtss2-esys.so.0	tpm2-tss-esys
+dep	so:libusb-1.0.so.0	libusb
+dep	so:libxmlb.so.2	libxmlb
+dep	so:libz.so.1	zlib

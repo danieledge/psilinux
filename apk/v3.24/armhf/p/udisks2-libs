@@ -1,0 +1,16 @@
+name	udisks2-libs
+version	2.11.0-r2
+description	Dynamic library to access the udisks daemon (libraries)
+url	https://www.freedesktop.org/wiki/Software/udisks/
+license	GPL-2.0-or-later
+size	216876
+installed-size	779516
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	udisks2
+repo	community
+file	udisks2-libs-2.11.0-r2.apk
+checksum	Q1ITDWlDZq/Y2RXDTWYGkMz0mFXyU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

@@ -1,0 +1,16 @@
+name	ngtcp2-dev
+version	1.22.1-r0
+description	Implementation of IETF QUIC protocol (development files)
+url	https://nghttp2.org/ngtcp2/
+license	MIT
+size	54242
+installed-size	281715
+depends	ngtcp2-gnutls=1.22.1-r0 ngtcp2=1.22.1-r0 pc:gnutls pkgconfig
+origin	ngtcp2
+repo	main
+file	ngtcp2-dev-1.22.1-r0.apk
+checksum	Q1kSmRXXtx//4YmJdRRnRBVPKWYmQ=
+dep	ngtcp2-gnutls=1.22.1-r0	ngtcp2-gnutls
+dep	ngtcp2=1.22.1-r0	ngtcp2
+dep	pc:gnutls	gnutls-dev
+dep	pkgconfig	pkgconf

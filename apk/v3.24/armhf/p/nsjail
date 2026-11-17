@@ -1,0 +1,23 @@
+name	nsjail
+version	3.6-r1
+description	A light-weight process isolation tool
+url	https://github.com/google/nsjail
+license	Apache-2.0
+size	216583
+installed-size	625892
+depends	so:libabsl_log_internal_check_op.so.2508.0.0 so:libabsl_log_internal_message.so.2508.0.0 so:libabsl_log_internal_nullguard.so.2508.0.0 so:libabsl_status.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libnl-3.so.200 so:libnl-route-3.so.200 so:libprotobuf.so.31 so:libstdc++.so.6 so:libutf8_range.so.31.1.0
+origin	nsjail
+repo	community
+file	nsjail-3.6-r1.apk
+checksum	Q1vG2ipDwItW4JyfI6OLzjjmKG8kA=
+dep	so:libabsl_log_internal_check_op.so.2508.0.0	abseil-cpp-log-internal-check-op
+dep	so:libabsl_log_internal_message.so.2508.0.0	abseil-cpp-log-internal-message
+dep	so:libabsl_log_internal_nullguard.so.2508.0.0	abseil-cpp-log-internal-nullguard
+dep	so:libabsl_status.so.2508.0.0	abseil-cpp-status
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libnl-3.so.200	libnl3
+dep	so:libnl-route-3.so.200	libnl3
+dep	so:libprotobuf.so.31	libprotobuf
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libutf8_range.so.31.1.0	protobuf

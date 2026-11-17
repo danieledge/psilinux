@@ -1,0 +1,14 @@
+name	lua5.4-stringy
+version	0.5.1-r4
+description	Lua string utility library (for Lua 5.4)
+url	https://github.com/brentp/lua-stringy/
+license	MIT
+size	5032
+installed-size	9407
+depends	lua5.4 so:libc.musl-armhf.so.1
+origin	lua-stringy
+repo	main
+file	lua5.4-stringy-0.5.1-r4.apk
+checksum	Q1YsZ7eQYrbQpJzO6uKSvV5xkTH8k=
+dep	lua5.4	lua5.4
+dep	so:libc.musl-armhf.so.1	musl

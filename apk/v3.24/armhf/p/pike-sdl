@@ -1,0 +1,16 @@
+name	pike-sdl
+version	8.0.2040-r1
+description	Pike programming language (SDL support)
+url	https://pike.lysator.liu.se/
+license	GPL-2.0-or-later
+size	30412
+installed-size	82772
+depends	pike-image=8.0.2040-r1 so:libSDL-1.2.so.0 so:libSDL_mixer-1.2.so.0 so:libc.musl-armhf.so.1
+origin	pike
+repo	community
+file	pike-sdl-8.0.2040-r1.apk
+checksum	Q1OTKY2Y4bTcIPoBXXwQKQM/zsa6E=
+dep	pike-image=8.0.2040-r1	pike-image
+dep	so:libSDL-1.2.so.0	sdl12-compat
+dep	so:libSDL_mixer-1.2.so.0	sdl_mixer
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,16 @@
+name	libvalkey-tls
+version	0.5.0-r0
+description	Valkey client library in C (TLS support)
+url	https://github.com/valkey-io/libvalkey
+license	BSD-3-Clause
+size	6154
+installed-size	13580
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3 so:libvalkey.so.0
+origin	libvalkey
+repo	community
+file	libvalkey-tls-0.5.0-r0.apk
+checksum	Q1Dk5CMr62w0bKdnknfZltfM50MWs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3
+dep	so:libvalkey.so.0	libvalkey

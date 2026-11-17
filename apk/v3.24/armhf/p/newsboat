@@ -1,0 +1,22 @@
+name	newsboat
+version	2.43-r0
+description	RSS/Atom feed reader for text terminals
+url	https://newsboat.org/
+license	MIT
+size	2519830
+installed-size	5630204
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgcc_s.so.1 so:libintl.so.8 so:libjson-c.so.5 so:libncursesw.so.6 so:libsqlite3.so.0 so:libstdc++.so.6 so:libstfl.so.0 so:libxml2.so.2
+origin	newsboat
+repo	community
+file	newsboat-2.43-r0.apk
+checksum	Q16EEGtsgPzbJm1bHRsSOc5l5JFOI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libintl.so.8	libintl
+dep	so:libjson-c.so.5	json-c
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libstfl.so.0	stfl
+dep	so:libxml2.so.2	libxml2

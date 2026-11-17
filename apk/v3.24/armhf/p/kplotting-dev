@@ -1,0 +1,14 @@
+name	kplotting-dev
+version	6.26.0-r0
+description	Lightweight plotting framework (development files)
+url	https://community.kde.org/Frameworks
+license	LGPL-2.1-or-later
+size	13688
+installed-size	44347
+depends	qt6-qtbase-dev kplotting=6.26.0-r0
+origin	kplotting
+repo	community
+file	kplotting-dev-6.26.0-r0.apk
+checksum	Q1WpP1MDpDRdvk3p5uFQVoU+Jd0J0=
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	kplotting=6.26.0-r0	kplotting

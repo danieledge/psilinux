@@ -1,0 +1,13 @@
+name	libgpg-error
+version	1.61-r0
+description	Support library for libgcrypt
+url	https://www.gnupg.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	72359
+installed-size	158584
+depends	so:libc.musl-armhf.so.1
+origin	libgpg-error
+repo	main
+file	libgpg-error-1.61-r0.apk
+checksum	Q12yykrcKUFOEx91NaMmV4v3NDu/8=
+dep	so:libc.musl-armhf.so.1	musl

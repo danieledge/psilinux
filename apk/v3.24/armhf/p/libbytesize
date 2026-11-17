@@ -1,0 +1,17 @@
+name	libbytesize
+version	2.12-r1
+description	Library for working with arbitrary big sizes in bytes
+url	https://github.com/storaged-project/libbytesize
+license	LGPL-2.1-or-later
+size	9835
+installed-size	21728
+depends	so:libc.musl-armhf.so.1 so:libgmp.so.10 so:libintl.so.8 so:libmpfr.so.6 so:libpcre2-8.so.0
+origin	libbytesize
+repo	community
+file	libbytesize-2.12-r1.apk
+checksum	Q1DbAVBSAnXfjvi7SvxFKFcTHLv6o=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgmp.so.10	gmp
+dep	so:libintl.so.8	libintl
+dep	so:libmpfr.so.6	mpfr4
+dep	so:libpcre2-8.so.0	pcre2

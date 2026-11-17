@@ -1,0 +1,13 @@
+name	curl-static
+version	8.23.0-r0
+description	URL retrieval utility and library (static library)
+url	https://curl.se/
+license	curl
+size	3865589
+installed-size	8496832
+depends	curl-dev
+origin	curl
+repo	main
+file	curl-static-8.23.0-r0.apk
+checksum	Q1IZDuwo/fenHyQht7mQ59LuQaJ88=
+dep	curl-dev	curl-dev

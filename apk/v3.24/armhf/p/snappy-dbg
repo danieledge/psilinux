@@ -1,0 +1,12 @@
+name	snappy-dbg
+version	1.2.2-r0
+description	Fast compression and decompression library (debug symbols)
+url	https://github.com/google/snappy
+license	BSD-3-Clause
+size	149478
+installed-size	722148
+depends	!snappy<1.2.2-r0 !snappy>1.2.2-r0
+origin	snappy
+repo	main
+file	snappy-dbg-1.2.2-r0.apk
+checksum	Q1puEjUaydEJ2M0TDp0oyb13mcTbs=

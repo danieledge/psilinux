@@ -1,0 +1,14 @@
+name	libvdpau-dev
+version	1.5-r4
+description	Hardware-accelerated video playback library (development files)
+url	https://gitlab.freedesktop.org/vdpau/libvdpau
+license	MIT
+size	46572
+installed-size	212480
+depends	libvdpau=1.5-r4 pkgconfig
+origin	libvdpau
+repo	main
+file	libvdpau-dev-1.5-r4.apk
+checksum	Q14OnZNkdvXOSfQKSZagq9bhlIEIs=
+dep	libvdpau=1.5-r4	libvdpau
+dep	pkgconfig	pkgconf

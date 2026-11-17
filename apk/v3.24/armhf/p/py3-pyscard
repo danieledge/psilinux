@@ -1,0 +1,15 @@
+name	py3-pyscard
+version	2.3.1-r1
+description	pyscard smartcard library for python
+url	https://github.com/LudovicRousseau/pyscard
+license	LGPL-2.1-or-later
+size	98741
+installed-size	463584
+depends	pcsc-lite python3~3.14 so:libc.musl-armhf.so.1
+origin	py3-pyscard
+repo	community
+file	py3-pyscard-2.3.1-r1.apk
+checksum	Q1BCg++iz2IP0dSM1MsTjkWBdqVKU=
+dep	pcsc-lite	pcsc-lite
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

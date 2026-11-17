@@ -1,0 +1,16 @@
+name	libgmpxx
+version	6.3.0-r4
+description	C++ support for gmp
+url	https://gmplib.org/
+license	LGPL-3.0-or-later OR GPL-2.0-or-later
+size	8939
+installed-size	21888
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgmp.so.10 so:libstdc++.so.6
+origin	gmp
+repo	main
+file	libgmpxx-6.3.0-r4.apk
+checksum	Q1EEVPcjJWoYKMYjP8ebBMDtYlgcQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgmp.so.10	gmp
+dep	so:libstdc++.so.6	libstdc++

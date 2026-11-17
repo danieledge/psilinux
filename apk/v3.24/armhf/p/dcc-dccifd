@@ -1,0 +1,15 @@
+name	dcc-dccifd
+version	2.3.169-r3
+description	Distributed Checksum Clearinghouses or DCC spam filter (dccifd server)
+url	https://www.dcc-servers.net/dcc/
+license	custom
+size	337913
+installed-size	802638
+depends	dcc so:libc.musl-armhf.so.1 so:libmd.so.0
+origin	dcc
+repo	community
+file	dcc-dccifd-2.3.169-r3.apk
+checksum	Q1mILrRGPQvrCXc/JMQ9ILO2RD6pE=
+dep	dcc	dcc
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmd.so.0	libmd

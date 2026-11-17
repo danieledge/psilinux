@@ -1,0 +1,38 @@
+name	abiword
+version	3.0.8-r0
+description	A fully-featured word processor
+url	https://gitlab.gnome.org/World/AbiWord
+license	GPL-2.0-or-later
+size	5054958
+installed-size	17445500
+depends	so:libX11.so.6 so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libenchant-2.so.2 so:libfontconfig.so.1 so:libfribidi.so.0 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgoffice-0.10.so.10 so:libgsf-1.so.114 so:libgtk-3.so.0 so:libjpeg.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpng16.so.16 so:librsvg-2.so.2 so:libstdc++.so.6 so:libwv-1.2.so.4 so:libxml2.so.2 so:libxslt.so.1 so:libz.so.1
+origin	abiword
+repo	community
+file	abiword-3.0.8-r0.apk
+checksum	Q1xXe0a6cIPcYYMTWBmfGftJbromA=
+dep	so:libX11.so.6	libx11
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libenchant-2.so.2	enchant2-libs
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfribidi.so.0	fribidi
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgoffice-0.10.so.10	goffice
+dep	so:libgsf-1.so.114	libgsf
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpng16.so.16	libpng
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwv-1.2.so.4	wv
+dep	so:libxml2.so.2	libxml2
+dep	so:libxslt.so.1	libxslt
+dep	so:libz.so.1	zlib

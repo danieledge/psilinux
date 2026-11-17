@@ -1,0 +1,21 @@
+name	animatch
+version	1.0.3-r6
+description	Animatch is a match-three game with cute animals
+url	https://gitlab.com/HolyPangolin/animatch
+license	GPL-3.0-or-later
+size	9757903
+installed-size	10383524
+depends	so:liballegro.so.5.2 so:liballegro_acodec.so.5.2 so:liballegro_audio.so.5.2 so:liballegro_font.so.5.2 so:liballegro_image.so.5.2 so:liballegro_primitives.so.5.2 so:liballegro_ttf.so.5.2 so:liballegro_video.so.5.2 so:libc.musl-armhf.so.1
+origin	animatch
+repo	community
+file	animatch-1.0.3-r6.apk
+checksum	Q1n6E388ysJSC4Jtt+6jdwco12eR0=
+dep	so:liballegro.so.5.2	allegro
+dep	so:liballegro_acodec.so.5.2	allegro
+dep	so:liballegro_audio.so.5.2	allegro
+dep	so:liballegro_font.so.5.2	allegro
+dep	so:liballegro_image.so.5.2	allegro
+dep	so:liballegro_primitives.so.5.2	allegro
+dep	so:liballegro_ttf.so.5.2	allegro
+dep	so:liballegro_video.so.5.2	allegro
+dep	so:libc.musl-armhf.so.1	musl

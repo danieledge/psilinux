@@ -1,0 +1,14 @@
+name	cargo-edit
+version	0.13.10-r1
+description	Managing cargo dependencies from the command line
+url	https://github.com/killercup/cargo-edit
+license	MIT OR Apache-2.0
+size	3103508
+installed-size	5951040
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	cargo-edit
+repo	community
+file	cargo-edit-0.13.10-r1.apk
+checksum	Q1bIOfsxuBzrT5fIWDhaWISYw9fTA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

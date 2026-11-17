@@ -1,0 +1,15 @@
+name	imath-dev
+version	3.2.2-r1
+description	C++ and python library of 2D and 3D vector, matrix, and math operations for computer graphics (development files)
+url	https://github.com/AcademySoftwareFoundation/Imath
+license	BSD-3-Clause
+size	155963
+installed-size	1028695
+depends	imath=3.2.2-r1 py3-imath=3.2.2-r1 pkgconfig
+origin	imath
+repo	community
+file	imath-dev-3.2.2-r1.apk
+checksum	Q1DRjwBw7eZSVd3vb5D+5McbehIHQ=
+dep	imath=3.2.2-r1	imath
+dep	py3-imath=3.2.2-r1	py3-imath
+dep	pkgconfig	pkgconf

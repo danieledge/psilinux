@@ -1,0 +1,16 @@
+name	py3-notmuch
+version	0.40-r2
+description	E-Mail index, search and tagging (for python3)
+url	https://notmuchmail.org/
+license	GPL-3.0-or-later
+size	57014
+installed-size	220502
+depends	py3-cffi python3~3.14 so:libc.musl-armhf.so.1 so:libnotmuch.so.5
+origin	notmuch
+repo	community
+file	py3-notmuch-0.40-r2.apk
+checksum	Q1YlAz3VwnjgZ5P0qfxojbw5TrOtI=
+dep	py3-cffi	py3-cffi
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnotmuch.so.5	notmuch-libs

@@ -1,0 +1,15 @@
+name	qtermwidget-dev
+version	2.4.0-r0
+description	Terminal widget for QTerminal (development files)
+url	https://github.com/lxqt/qtermwidget
+license	LGPL-2.0-or-later
+size	23014
+installed-size	78262
+depends	qtermwidget=2.4.0-r0 pc:Qt6Widgets pkgconfig
+origin	qtermwidget
+repo	community
+file	qtermwidget-dev-2.4.0-r0.apk
+checksum	Q1qVjl3SK20W2uUoaAf2a3WSP9Zeg=
+dep	qtermwidget=2.4.0-r0	qtermwidget
+dep	pc:Qt6Widgets	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

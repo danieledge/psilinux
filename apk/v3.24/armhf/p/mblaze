@@ -1,0 +1,14 @@
+name	mblaze
+version	1.4-r0
+description	Unix utilities to deal with Maildir
+url	https://git.vuxu.org/mblaze/
+license	CC0-1.0
+size	164587
+installed-size	513496
+depends	file so:libc.musl-armhf.so.1
+origin	mblaze
+repo	community
+file	mblaze-1.4-r0.apk
+checksum	Q1F8dtK6DLTDNHJ7peLHNiS6fxWqo=
+dep	file	file
+dep	so:libc.musl-armhf.so.1	musl

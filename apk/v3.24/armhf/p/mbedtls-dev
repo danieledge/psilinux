@@ -1,0 +1,14 @@
+name	mbedtls-dev
+version	4.1.2-r0
+description	Light-weight cryptographic and SSL/TLS library (development files)
+url	https://www.trustedfirmware.org/projects/mbed-tls/
+license	Apache-2.0 OR GPL-2.0-or-later
+size	384632
+installed-size	2073868
+depends	mbedtls=4.1.2-r0 pkgconfig
+origin	mbedtls
+repo	main
+file	mbedtls-dev-4.1.2-r0.apk
+checksum	Q1cmVmTe0kxStBezD+VHRkoCyEIu8=
+dep	mbedtls=4.1.2-r0	mbedtls
+dep	pkgconfig	pkgconf

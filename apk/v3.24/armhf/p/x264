@@ -1,0 +1,13 @@
+name	x264
+version	0.164.3108-r1
+description	Free library for encoding H264/AVC video streams
+url	https://www.videolan.org/developers/x264.html
+license	GPL-2.0-or-later
+size	908491
+installed-size	1810672
+depends	so:libc.musl-armhf.so.1
+origin	x264
+repo	community
+file	x264-0.164.3108-r1.apk
+checksum	Q1+qr8vxPpB7cmth0ZTn65Mfp8BOY=
+dep	so:libc.musl-armhf.so.1	musl

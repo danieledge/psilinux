@@ -1,0 +1,21 @@
+name	sfml-dev
+version	2.6.1-r0
+description	Simple and Fast Multimedia Library (development files)
+url	https://www.sfml-dev.org/
+license	Zlib
+size	161965
+installed-size	1000906
+depends	sfml=2.6.1-r0 pc:flac pc:freetype2 pc:ogg pc:openal pc:vorbis pc:vorbisenc pc:vorbisfile pkgconfig
+origin	sfml
+repo	community
+file	sfml-dev-2.6.1-r0.apk
+checksum	Q1j0yGq3edwOjJT3jjDHDJCNnrkOk=
+dep	sfml=2.6.1-r0	sfml
+dep	pc:flac	flac-dev
+dep	pc:freetype2	freetype-dev
+dep	pc:ogg	libogg-dev
+dep	pc:openal	openal-soft-dev
+dep	pc:vorbis	libvorbis-dev
+dep	pc:vorbisenc	libvorbis-dev
+dep	pc:vorbisfile	libvorbis-dev
+dep	pkgconfig	pkgconf

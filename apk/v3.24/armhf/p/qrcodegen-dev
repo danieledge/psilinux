@@ -1,0 +1,14 @@
+name	qrcodegen-dev
+version	1.8.0-r0
+description	High-quality QR Code generator library (development files)
+url	https://www.nayuki.io/page/qr-code-generator-library
+license	MIT
+size	17635
+installed-size	40206
+depends	qrcodegen=1.8.0-r0 pkgconfig
+origin	qrcodegen
+repo	community
+file	qrcodegen-dev-1.8.0-r0.apk
+checksum	Q1WePmYqZNCov2mGaj0nPhaa0xuCs=
+dep	qrcodegen=1.8.0-r0	qrcodegen
+dep	pkgconfig	pkgconf

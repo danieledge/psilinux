@@ -1,0 +1,16 @@
+name	mpv-mpris
+version	1.2-r0
+description	MPRIS plugin for mpv
+url	https://github.com/hoyon/mpv-mpris
+license	MIT
+size	13976
+installed-size	30012
+depends	so:libavformat.so.62 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0
+origin	mpv-mpris
+repo	community
+file	mpv-mpris-1.2-r0.apk
+checksum	Q1LYeHqT/Dchbb3D6M6aD2lFo7Xt4=
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib

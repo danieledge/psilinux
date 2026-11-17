@@ -1,0 +1,25 @@
+name	weasyprint
+version	68.1-r1
+description	A visual rendering engine for HTML and CSS that can export to PDF
+url	https://weasyprint.org
+license	BSD-3-Clause
+size	298676
+installed-size	1309061
+depends	harfbuzz-subset pango py3-brotli py3-cffi py3-cssselect2 py3-fonttools py3-pillow py3-pydyf py3-pyphen py3-tinycss2 py3-tinyhtml5 py3-zopfli python3~3.14
+origin	weasyprint
+repo	community
+file	weasyprint-68.1-r1.apk
+checksum	Q1fkHNz75FnwM7UB/M+bmFnS7qpPo=
+dep	harfbuzz-subset	harfbuzz-subset
+dep	pango	pango
+dep	py3-brotli	py3-brotli
+dep	py3-cffi	py3-cffi
+dep	py3-cssselect2	py3-cssselect2
+dep	py3-fonttools	py3-fonttools
+dep	py3-pillow	py3-pillow
+dep	py3-pydyf	py3-pydyf
+dep	py3-pyphen	py3-pyphen
+dep	py3-tinycss2	py3-tinycss2
+dep	py3-tinyhtml5	py3-tinyhtml5
+dep	py3-zopfli	py3-zopfli
+dep	python3~3.14	python3

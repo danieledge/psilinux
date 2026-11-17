@@ -1,0 +1,13 @@
+name	libdatachannel-dev
+version	0.24.3-r0
+description	C/C++ WebRTC network library featuring Data Channels, Media Transport, and WebSockets (development files)
+url	https://libdatachannel.org
+license	MPL-2.0
+size	33152
+installed-size	126774
+depends	libdatachannel=0.24.3-r0
+origin	libdatachannel
+repo	community
+file	libdatachannel-dev-0.24.3-r0.apk
+checksum	Q1gj4cvl009qMN3aStYUPBKEoSt7I=
+dep	libdatachannel=0.24.3-r0	libdatachannel

@@ -1,0 +1,14 @@
+name	xcb-util-errors
+version	1.0.1-r0
+description	XCB utility library that gives human readable names to error, event, & request codes
+url	https://gitlab.freedesktop.org/xorg/lib/libxcb-errors
+license	X11-distribute-modifications-variant
+size	10838
+installed-size	33964
+depends	so:libc.musl-armhf.so.1 so:libxcb.so.1
+origin	xcb-util-errors
+repo	community
+file	xcb-util-errors-1.0.1-r0.apk
+checksum	Q1HtQtig/ef8NZ+I2VDpCZrkn3XR0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxcb.so.1	libxcb

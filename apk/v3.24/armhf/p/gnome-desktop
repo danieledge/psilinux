@@ -1,0 +1,16 @@
+name	gnome-desktop
+version	44.5-r0
+description	GNOME desktop core libraries
+url	https://gitlab.gnome.org/GNOME/gnome-desktop
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	1295
+installed-size	0
+depends	libgnome-bg-4=44.5-r0 libgnome-desktop-3=44.5-r0 libgnome-desktop-4=44.5-r0 libgnome-rr-4=44.5-r0
+origin	gnome-desktop
+repo	community
+file	gnome-desktop-44.5-r0.apk
+checksum	Q1Ba4MVOS32SXxWeCMLthVcpbxkoY=
+dep	libgnome-bg-4=44.5-r0	libgnome-bg-4
+dep	libgnome-desktop-3=44.5-r0	libgnome-desktop-3
+dep	libgnome-desktop-4=44.5-r0	libgnome-desktop-4
+dep	libgnome-rr-4=44.5-r0	libgnome-rr-4

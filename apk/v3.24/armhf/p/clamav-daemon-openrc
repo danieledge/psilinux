@@ -1,0 +1,13 @@
+name	clamav-daemon-openrc
+version	1.4.6-r0
+description	ClamAV anti-virus scanner daemon (OpenRC init scripts)
+url	https://www.clamav.net/
+license	GPL-2.0-only
+size	2681
+installed-size	2249
+depends	freshclam-openrc
+origin	clamav
+repo	community
+file	clamav-daemon-openrc-1.4.6-r0.apk
+checksum	Q17+jIyB1uUOD4RhEv8+uD8RvlyLc=
+dep	freshclam-openrc	freshclam-openrc

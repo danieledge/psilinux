@@ -1,0 +1,14 @@
+name	jshon
+version	20131105-r2
+description	JSON parser designed for maximum convenience within the shell
+url	http://kmkeen.com/jshon/
+license	MIT
+size	9438
+installed-size	17608
+depends	so:libc.musl-armhf.so.1 so:libjansson.so.4
+origin	jshon
+repo	community
+file	jshon-20131105-r2.apk
+checksum	Q1DzkdrcT4fmty3BfkEPJWNzoo3FM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjansson.so.4	jansson

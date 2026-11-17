@@ -1,0 +1,14 @@
+name	stfl-dev
+version	0.24-r4
+description	The Structured Terminal Forms Language/Library (development files)
+url	http://bygone.clairexen.net/stfl/
+license	LGPL-3.0-or-later
+size	127406
+installed-size	311723
+depends	stfl=0.24-r4 pkgconfig
+origin	stfl
+repo	community
+file	stfl-dev-0.24-r4.apk
+checksum	Q1NVaaf+zTRtN5k0fYIc9pUz+z38w=
+dep	stfl=0.24-r4	stfl
+dep	pkgconfig	pkgconf

@@ -1,0 +1,12 @@
+name	gnote-dbg
+version	50.1-r0
+description	Gnote is a port of Tomboy to C++ (debug symbols)
+url	https://gitlab.gnome.org/GNOME/gnote
+license	GPL-3.0-or-later
+size	13988755
+installed-size	44108236
+depends	!gnote<50.1-r0 !gnote>50.1-r0
+origin	gnote
+repo	community
+file	gnote-dbg-50.1-r0.apk
+checksum	Q1gxnOlOUE/znb/qYo0mPvGE0iC/4=

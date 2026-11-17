@@ -1,0 +1,19 @@
+name	dnsmasq-dnssec-nftset
+version	2.92_p2-r0
+description	A lightweight DNS, DHCP, RA, TFTP and PXE server with DNSSEC and nftables set support
+url	https://www.thekelleys.org.uk/dnsmasq/
+license	GPL-2.0-or-later
+size	192184
+installed-size	357964
+depends	dnsmasq-common=2.92_p2-r0 /bin/sh so:libc.musl-armhf.so.1 so:libgmp.so.10 so:libhogweed.so.6 so:libnettle.so.8 so:libnftables.so.1
+origin	dnsmasq
+repo	main
+file	dnsmasq-dnssec-nftset-2.92_p2-r0.apk
+checksum	Q1OLzsC1485eWQReOhTmtArWZHlS4=
+dep	dnsmasq-common=2.92_p2-r0	dnsmasq-common
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgmp.so.10	gmp
+dep	so:libhogweed.so.6	nettle
+dep	so:libnettle.so.8	nettle
+dep	so:libnftables.so.1	nftables

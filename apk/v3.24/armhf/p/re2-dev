@@ -1,0 +1,30 @@
+name	re2-dev
+version	2025.11.05-r3
+description	Efficient, principled regular expression library (development files)
+url	https://github.com/google/re2
+license	BSD-3-Clause
+size	20742
+installed-size	60177
+depends	re2=2025.11.05-r3 pc:absl_absl_check pc:absl_absl_log pc:absl_base pc:absl_core_headers pc:absl_fixed_array pc:absl_flags pc:absl_flat_hash_map pc:absl_flat_hash_set pc:absl_hash pc:absl_inlined_vector pc:absl_optional pc:absl_span pc:absl_str_format pc:absl_strings pc:absl_synchronization pc:icu-uc pkgconfig
+origin	re2
+repo	community
+file	re2-dev-2025.11.05-r3.apk
+checksum	Q1NWJzKD9AvoA3rDqu+2aYgQE7gZY=
+dep	re2=2025.11.05-r3	re2
+dep	pc:absl_absl_check	abseil-cpp-dev
+dep	pc:absl_absl_log	abseil-cpp-dev
+dep	pc:absl_base	abseil-cpp-dev
+dep	pc:absl_core_headers	abseil-cpp-dev
+dep	pc:absl_fixed_array	abseil-cpp-dev
+dep	pc:absl_flags	abseil-cpp-dev
+dep	pc:absl_flat_hash_map	abseil-cpp-dev
+dep	pc:absl_flat_hash_set	abseil-cpp-dev
+dep	pc:absl_hash	abseil-cpp-dev
+dep	pc:absl_inlined_vector	abseil-cpp-dev
+dep	pc:absl_optional	abseil-cpp-dev
+dep	pc:absl_span	abseil-cpp-dev
+dep	pc:absl_str_format	abseil-cpp-dev
+dep	pc:absl_strings	abseil-cpp-dev
+dep	pc:absl_synchronization	abseil-cpp-dev
+dep	pc:icu-uc	icu-dev
+dep	pkgconfig	pkgconf

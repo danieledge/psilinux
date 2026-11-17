@@ -1,0 +1,15 @@
+name	libharu
+version	2.4.6-r0
+description	C library for generating PDF documents
+url	https://github.com/libharu/libharu
+license	custom
+size	483880
+installed-size	693528
+depends	so:libc.musl-armhf.so.1 so:libpng16.so.16 so:libz.so.1
+origin	libharu
+repo	community
+file	libharu-2.4.6-r0.apk
+checksum	Q1YuSWycxH8bILl/Dgk+33K/Q+M7c=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpng16.so.16	libpng
+dep	so:libz.so.1	zlib

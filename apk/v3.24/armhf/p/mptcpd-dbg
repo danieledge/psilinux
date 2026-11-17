@@ -1,0 +1,12 @@
+name	mptcpd-dbg
+version	0.14-r0
+description	Multipath TCP Daemon (debug symbols)
+url	https://mptcpd.mptcp.dev
+license	BSD-3-Clause
+size	119786
+installed-size	301592
+depends	!mptcpd<0.14-r0 !mptcpd>0.14-r0
+origin	mptcpd
+repo	community
+file	mptcpd-dbg-0.14-r0.apk
+checksum	Q1M7TLvAUvMureqwZs8L7MVXxUBGE=

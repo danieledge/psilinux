@@ -1,0 +1,16 @@
+name	flac-dev
+version	1.4.3-r2
+description	Free Lossless Audio Codec (development files)
+url	https://xiph.org/flac/
+license	BSD-3-Clause AND GPL-2.0-or-later
+size	80902
+installed-size	432099
+depends	libflac++=1.4.3-r2 libflac=1.4.3-r2 pc:ogg pkgconfig
+origin	flac
+repo	main
+file	flac-dev-1.4.3-r2.apk
+checksum	Q1PmUf7H47VZO0t+/aZ61DB//7PAI=
+dep	libflac++=1.4.3-r2	libflac++
+dep	libflac=1.4.3-r2	libflac
+dep	pc:ogg	libogg-dev
+dep	pkgconfig	pkgconf

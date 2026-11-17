@@ -1,0 +1,14 @@
+name	uwsgi-carbon
+version	2.0.31-r2
+description	uWSGI plugin carbon
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	7356
+installed-size	14140
+depends	uwsgi so:libc.musl-armhf.so.1
+origin	uwsgi
+repo	main
+file	uwsgi-carbon-2.0.31-r2.apk
+checksum	Q1LpchfBMLWoJ01aM6E1PsY4zbYy8=
+dep	uwsgi	uwsgi
+dep	so:libc.musl-armhf.so.1	musl

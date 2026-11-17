@@ -1,0 +1,13 @@
+name	eigen-dev
+version	3.4.0-r10
+description	Eigen is a C++ template library for linear algebra (development files)
+url	https://eigen.tuxfamily.org/
+license	MPL-2.0
+size	1496142
+installed-size	8678442
+depends	pkgconfig
+origin	eigen
+repo	community
+file	eigen-dev-3.4.0-r10.apk
+checksum	Q1A97hEPuH3eagqc+sAL+cffYPNTk=
+dep	pkgconfig	pkgconf

@@ -1,0 +1,17 @@
+name	tpm2-tss-engine
+version	1.2.0-r3
+description	tpm2tss engine for openssl
+url	https://github.com/tpm2-software/tpm2-tss-engine/
+license	BSD-2-Clause
+size	25266
+installed-size	61628
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libtss2-esys.so.0 so:libtss2-mu.so.0 so:libtss2-tctildr.so.0
+origin	tpm2-tss-engine
+repo	community
+file	tpm2-tss-engine-1.2.0-r3.apk
+checksum	Q1a33VuBGckqV6/szSsZTPC725bYk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libtss2-esys.so.0	tpm2-tss-esys
+dep	so:libtss2-mu.so.0	tpm2-tss-mu
+dep	so:libtss2-tctildr.so.0	tpm2-tss-tctildr

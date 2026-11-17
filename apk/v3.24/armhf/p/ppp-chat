@@ -1,0 +1,13 @@
+name	ppp-chat
+version	2.5.3-r0
+description	a program for automatic ppp session establishment
+url	https://ppp.samba.org/
+license	Public-Domain
+size	11813
+installed-size	21688
+depends	so:libc.musl-armhf.so.1
+origin	ppp
+repo	main
+file	ppp-chat-2.5.3-r0.apk
+checksum	Q13z5SARoTgLJDeoeMt08Ic5NTKbY=
+dep	so:libc.musl-armhf.so.1	musl

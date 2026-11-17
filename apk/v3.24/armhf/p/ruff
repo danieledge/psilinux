@@ -1,0 +1,15 @@
+name	ruff
+version	0.15.15-r0
+description	Extremely fast Python linter
+url	https://github.com/astral-sh/ruff
+license	MIT
+size	8391012
+installed-size	19078840
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libjemalloc.so.2
+origin	ruff
+repo	community
+file	ruff-0.15.15-r0.apk
+checksum	Q1GqthtLCa4FJxjiQlX3a+pCnBGKc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjemalloc.so.2	jemalloc

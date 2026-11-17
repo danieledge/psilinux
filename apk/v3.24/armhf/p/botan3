@@ -1,0 +1,16 @@
+name	botan3
+version	3.11.1-r0
+description	Crypto and TLS for C++11 (v3)
+url	https://botan.randombit.net/
+license	BSD-2-Clause
+size	655016
+installed-size	1595204
+depends	so:libbotan-3.so.11 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	botan3
+repo	main
+file	botan3-3.11.1-r0.apk
+checksum	Q1kkAzIv7uITpS271UdTlwF7zLMME=
+dep	so:libbotan-3.so.11	botan3-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,15 @@
+name	wireguard-go
+version	0.0.20250522-r11
+description	Next generation secure network tunnel: userspace implementation in go
+url	https://www.wireguard.com
+license	GPL-2.0-only
+size	1441110
+installed-size	3370772
+depends	wireguard-tools-wg wireguard-tools-wg-quick so:libc.musl-armhf.so.1
+origin	wireguard-go
+repo	community
+file	wireguard-go-0.0.20250522-r11.apk
+checksum	Q1OilJ/Z9JKG0ufJym1Y8Kg3KX36Y=
+dep	wireguard-tools-wg	wireguard-tools-wg
+dep	wireguard-tools-wg-quick	wireguard-tools-wg-quick
+dep	so:libc.musl-armhf.so.1	musl

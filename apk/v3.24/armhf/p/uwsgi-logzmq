@@ -1,0 +1,15 @@
+name	uwsgi-logzmq
+version	2.0.31-r2
+description	uWSGI plugin logzmq
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	3763
+installed-size	5512
+depends	uwsgi so:libc.musl-armhf.so.1 so:libzmq.so.5
+origin	uwsgi
+repo	main
+file	uwsgi-logzmq-2.0.31-r2.apk
+checksum	Q1DdZ5kTAVYlCPeBdWi8nx9jf6SDE=
+dep	uwsgi	uwsgi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libzmq.so.5	libzmq

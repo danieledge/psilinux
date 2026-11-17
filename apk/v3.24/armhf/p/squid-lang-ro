@@ -1,0 +1,13 @@
+name	squid-lang-ro
+version	7.6-r0
+description	squid language pack for ro
+url	https://www.squid-cache.org/
+license	GPL-2.0-or-later
+size	12411
+installed-size	59242
+depends	logrotate
+origin	squid
+repo	main
+file	squid-lang-ro-7.6-r0.apk
+checksum	Q1XH7HJIRaLWla6tpFXqRlGLHTFVI=
+dep	logrotate	logrotate

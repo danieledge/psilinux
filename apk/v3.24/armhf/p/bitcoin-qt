@@ -1,0 +1,26 @@
+name	bitcoin-qt
+version	30.2-r2
+description	Bitcoin with a Qt frontend & QR Code support
+url	https://www.bitcoincore.org/
+license	MIT
+size	9759570
+installed-size	17810664
+depends	so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libevent_core-2.1.so.7 so:libevent_extra-2.1.so.7 so:libevent_pthreads-2.1.so.7 so:libgcc_s.so.1 so:libqrencode.so.4 so:libsqlite3.so.0 so:libstdc++.so.6 so:libzmq.so.5
+origin	bitcoin
+repo	community
+file	bitcoin-qt-30.2-r2.apk
+checksum	Q1Ue7uolttvJU4ZAXcGyT4LlE7qy0=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6DBus.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevent_core-2.1.so.7	libevent
+dep	so:libevent_extra-2.1.so.7	libevent
+dep	so:libevent_pthreads-2.1.so.7	libevent
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libqrencode.so.4	libqrencode
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libzmq.so.5	libzmq

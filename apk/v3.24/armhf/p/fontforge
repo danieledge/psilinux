@@ -1,0 +1,16 @@
+name	fontforge
+version	20251009-r1
+description	Free (libre) font editor (CLI tools)
+url	https://fontforge.org/
+license	GPL-3.0-or-later
+size	1381197
+installed-size	2224631
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libfontforge.so.4 so:libintl.so.8
+origin	fontforge
+repo	community
+file	fontforge-20251009-r1.apk
+checksum	Q1PljG/DB0JO5/yzCGMAElJJP01bM=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontforge.so.4	fontforge-libs
+dep	so:libintl.so.8	libintl

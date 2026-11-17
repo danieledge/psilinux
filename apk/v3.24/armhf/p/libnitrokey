@@ -1,0 +1,17 @@
+name	libnitrokey
+version	3.8-r1
+description	Communicate with Nitrokey devices in a clean and easy manner
+url	https://nitrokey.com/
+license	LGPL-3.0-or-later
+size	368105
+installed-size	1467780
+depends	nitrokey-udev-rules so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libhidapi-libusb.so.0 so:libstdc++.so.6
+origin	libnitrokey
+repo	community
+file	libnitrokey-3.8-r1.apk
+checksum	Q1YCUIMW1i7Yalzv7CIN4hWY99Xrg=
+dep	nitrokey-udev-rules	nitrokey-udev-rules
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libhidapi-libusb.so.0	hidapi
+dep	so:libstdc++.so.6	libstdc++

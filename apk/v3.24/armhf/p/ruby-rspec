@@ -1,0 +1,16 @@
+name	ruby-rspec
+version	3.13.2-r0
+description	Behaviour Driven Development for Ruby
+url	http://rspec.info/
+license	MIT
+size	3481
+installed-size	3281
+depends	ruby ruby-rspec-core~3.13 ruby-rspec-expectations~3.13 ruby-rspec-mocks~3.13
+origin	ruby-rspec
+repo	community
+file	ruby-rspec-3.13.2-r0.apk
+checksum	Q1WH1GaV810SEXhP14DYtLVPZ303Q=
+dep	ruby	ruby
+dep	ruby-rspec-core~3.13	ruby-rspec-core
+dep	ruby-rspec-expectations~3.13	ruby-rspec-expectations
+dep	ruby-rspec-mocks~3.13	ruby-rspec-mocks

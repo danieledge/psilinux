@@ -1,0 +1,17 @@
+name	sleuthkit-libs
+version	4.15.0-r0
+description	File system and media management forensic analysis tools (libraries)
+url	http://www.sleuthkit.org/sleuthkit
+license	custom
+size	364687
+installed-size	806472
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libsqlite3.so.0 so:libstdc++.so.6 so:libz.so.1
+origin	sleuthkit
+repo	community
+file	sleuthkit-libs-4.15.0-r0.apk
+checksum	Q1vD8CgV3KTAQkTOM6ZfepyQ3bmY0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

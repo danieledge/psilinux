@@ -1,0 +1,12 @@
+name	python3-dbg
+version	3.14.10-r1
+description	High-level scripting language (debug symbols)
+url	https://www.python.org/
+license	PSF-2.0
+size	16564488
+installed-size	39114144
+depends	!python3-gdbm<3.14.10-r1 !python3-gdbm>3.14.10-r1 !python3<3.14.10-r1 !python3>3.14.10-r1
+origin	python3
+repo	main
+file	python3-dbg-3.14.10-r1.apk
+checksum	Q1ftODSg49W9vcqzoCRM90k5bgGn4=

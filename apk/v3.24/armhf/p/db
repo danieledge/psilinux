@@ -1,0 +1,13 @@
+name	db
+version	5.3.28-r7
+description	The Berkeley DB embedded database system
+url	https://www.oracle.com/technology/software/products/berkeley-db/index.html
+license	Sleepycat
+size	686874
+installed-size	1480032
+depends	so:libc.musl-armhf.so.1
+origin	db
+repo	main
+file	db-5.3.28-r7.apk
+checksum	Q1leYoonpiNFLoavUJjWd+pDv2idw=
+dep	so:libc.musl-armhf.so.1	musl

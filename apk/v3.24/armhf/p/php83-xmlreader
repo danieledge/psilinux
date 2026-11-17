@@ -1,0 +1,16 @@
+name	php83-xmlreader
+version	8.3.36-r0
+description	PHP83 extension: XMLReader
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	13117
+installed-size	30148
+depends	php83-common php83-dom so:libc.musl-armhf.so.1 so:libxml2.so.2
+origin	php83
+repo	community
+file	php83-xmlreader-8.3.36-r0.apk
+checksum	Q1DyMXRkO5uizOugMBAmSXo1+WSzY=
+dep	php83-common	php83-common
+dep	php83-dom	php83-dom
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxml2.so.2	libxml2

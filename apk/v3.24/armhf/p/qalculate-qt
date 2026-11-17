@@ -1,0 +1,21 @@
+name	qalculate-qt
+version	5.11.0-r0
+description	Multi-purpose desktop calculator - Qt version
+url	https://github.com/Qalculate/qalculate-qt
+license	GPL-2.0-or-later
+size	1740204
+installed-size	4367837
+depends	gnuplot so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libqalculate.so.23 so:libstdc++.so.6
+origin	qalculate-qt
+repo	community
+file	qalculate-qt-5.11.0-r0.apk
+checksum	Q12jen2cnSzzB+YbopJ+j0xfPisVg=
+dep	gnuplot	gnuplot
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libqalculate.so.23	libqalculate
+dep	so:libstdc++.so.6	libstdc++

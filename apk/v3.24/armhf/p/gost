@@ -1,0 +1,13 @@
+name	gost
+version	3.2.6-r7
+description	GO Simple Tunnel - a simple tunnel written in golang
+url	https://github.com/go-gost/gost
+license	MIT
+size	13100592
+installed-size	37194428
+depends	so:libc.musl-armhf.so.1
+origin	gost
+repo	community
+file	gost-3.2.6-r7.apk
+checksum	Q1qnKy4UGBOsUQMCqvKBPlorbhB14=
+dep	so:libc.musl-armhf.so.1	musl

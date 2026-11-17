@@ -1,0 +1,14 @@
+name	anthy-dev
+version	9100h-r4
+description	Hiragana text to Kana Kanji mixed text Japanese input method (development files)
+url	https://sourceforge.jp/projects/anthy/
+license	LGPL-2.1-or-later
+size	162359
+installed-size	452039
+depends	anthy=9100h-r4 pkgconfig
+origin	anthy
+repo	community
+file	anthy-dev-9100h-r4.apk
+checksum	Q1I10/cNbNyDzFsrp7JhvCHPoOwSg=
+dep	anthy=9100h-r4	anthy
+dep	pkgconfig	pkgconf

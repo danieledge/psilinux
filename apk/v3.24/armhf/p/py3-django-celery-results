@@ -1,0 +1,15 @@
+name	py3-django-celery-results
+version	2.6.0-r3
+description	Celery result backends for Django.
+url	https://pypi.python.org/project/django-celery-results
+license	BSD-3-Clause
+size	28953
+installed-size	99681
+depends	py3-django py3-celery python3~3.14
+origin	py3-django-celery-results
+repo	community
+file	py3-django-celery-results-2.6.0-r3.apk
+checksum	Q1rTt4IkvwZTf1d7ES3K081+bUXAw=
+dep	py3-django	py3-django
+dep	py3-celery	celery
+dep	python3~3.14	python3

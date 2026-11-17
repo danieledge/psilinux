@@ -1,0 +1,17 @@
+name	aaudit
+version	0.7.2-r3
+description	Alpine Auditor
+url	https://alpinelinux.org
+license	Unknown
+size	3289
+installed-size	3097
+depends	lua5.2 lua5.2-posix lua5.2-cjson lua5.2-pc lua5.2-socket
+origin	aaudit
+repo	main
+file	aaudit-0.7.2-r3.apk
+checksum	Q1MpCfAMlYMjfiOZtcyRvzBYHiD1o=
+dep	lua5.2	lua5.2
+dep	lua5.2-posix	lua5.2-posix
+dep	lua5.2-cjson	lua5.2-cjson
+dep	lua5.2-pc	lua5.2-pc
+dep	lua5.2-socket	lua5.2-socket

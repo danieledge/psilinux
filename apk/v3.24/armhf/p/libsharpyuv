@@ -1,0 +1,13 @@
+name	libsharpyuv
+version	1.6.0-r0
+description	Libraries for working with WebP images (libsharpyuv library)
+url	https://developers.google.com/speed/webp
+license	BSD-3-Clause
+size	10486
+installed-size	17532
+depends	so:libc.musl-armhf.so.1
+origin	libwebp
+repo	main
+file	libsharpyuv-1.6.0-r0.apk
+checksum	Q1Hv4pJs62msxjKXBYpH9E0MTkTO0=
+dep	so:libc.musl-armhf.so.1	musl

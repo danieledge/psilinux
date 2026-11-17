@@ -1,0 +1,14 @@
+name	php84-pear
+version	8.4.27-r0
+description	PHP84 Extension and Application Repository
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	346185
+installed-size	1921104
+depends	php84 php84-xml
+origin	php84
+repo	community
+file	php84-pear-8.4.27-r0.apk
+checksum	Q10la/dTdIOR8gogjeECsdVuPL/8o=
+dep	php84	php84
+dep	php84-xml	php84-xml

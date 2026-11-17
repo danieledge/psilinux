@@ -1,0 +1,13 @@
+name	libunistring-static
+version	1.4.2-r0
+description	Library for manipulating Unicode strings and C strings (static library)
+url	https://www.gnu.org/software/libunistring/
+license	GPL-2.0-or-later OR LGPL-3.0-or-later
+size	802684
+installed-size	2558278
+depends	libunistring-dev
+origin	libunistring
+repo	main
+file	libunistring-static-1.4.2-r0.apk
+checksum	Q1g5EsDTAS/dP2mqnCthMGMp7yX1o=
+dep	libunistring-dev	libunistring-dev

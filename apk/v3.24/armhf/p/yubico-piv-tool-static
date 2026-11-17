@@ -1,0 +1,13 @@
+name	yubico-piv-tool-static
+version	2.7.3-r0
+description	PIV Tools for yubikey (static library)
+url	https://developers.yubico.com/yubico-piv-tool
+license	BSD-2-Clause
+size	147140
+installed-size	384542
+depends	yubico-piv-tool-dev
+origin	yubico-piv-tool
+repo	community
+file	yubico-piv-tool-static-2.7.3-r0.apk
+checksum	Q1hbT2SSWzr69rJW6sbRq+PzJOYrw=
+dep	yubico-piv-tool-dev	yubico-piv-tool-dev

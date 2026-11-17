@@ -1,0 +1,13 @@
+name	perl-dev
+version	5.42.3-r0
+description	Larry Wall's Practical Extraction and Report Language (development files)
+url	https://www.perl.org/
+license	Artistic-1.0-Perl OR GPL-1.0-or-later
+size	1021672
+installed-size	4708923
+depends	perl-utils=5.42.3-r0
+origin	perl
+repo	main
+file	perl-dev-5.42.3-r0.apk
+checksum	Q15oO311p3e3T/Kp1Wlev1B9Xxshw=
+dep	perl-utils=5.42.3-r0	perl-utils

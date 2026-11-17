@@ -1,0 +1,14 @@
+name	cmph-dev
+version	2.0.2-r6
+description	A minimal hash C library - utility application (development files)
+url	https://cmph.sourceforge.net/
+license	LGPL-2.0-or-later AND MPL-1.1
+size	4216
+installed-size	9517
+depends	libcmph=2.0.2-r6 pkgconfig
+origin	cmph
+repo	main
+file	cmph-dev-2.0.2-r6.apk
+checksum	Q1BQWgO7y7w5Qtg/epnk8ikzD2ngs=
+dep	libcmph=2.0.2-r6	libcmph
+dep	pkgconfig	pkgconf

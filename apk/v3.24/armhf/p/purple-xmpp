@@ -1,0 +1,19 @@
+name	purple-xmpp
+version	2.14.14-r0
+description	Jabber/XMPP plugins for libpurple
+url	https://pidgin.im/
+license	GPL-2.0-or-later
+size	147489
+installed-size	338052
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libidn.so.12 so:libintl.so.8 so:libsasl2.so.3 so:libxml2.so.2
+origin	pidgin
+repo	community
+file	purple-xmpp-2.14.14-r0.apk
+checksum	Q1b0DVNL6UqhvPM2+nn4aSKChtXGM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libidn.so.12	libidn
+dep	so:libintl.so.8	libintl
+dep	so:libsasl2.so.3	libsasl
+dep	so:libxml2.so.2	libxml2

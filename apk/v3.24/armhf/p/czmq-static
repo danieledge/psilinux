@@ -1,0 +1,13 @@
+name	czmq-static
+version	4.2.1-r4
+description	High-level C binding for ZeroMQ (static library)
+url	http://czmq.zeromq.org/
+license	MPL-2.0
+size	154644
+installed-size	461174
+depends	czmq-dev
+origin	czmq
+repo	main
+file	czmq-static-4.2.1-r4.apk
+checksum	Q1NNiInkAIy/TMC6EvzGbK5hzxRm0=
+dep	czmq-dev	czmq-dev

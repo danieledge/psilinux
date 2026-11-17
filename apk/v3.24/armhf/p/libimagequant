@@ -1,0 +1,14 @@
+name	libimagequant
+version	4.2.2-r0
+description	Rust library for high-quality conversion of RGBA images to 8-bit indexed-color (palette) images
+url	https://pngquant.org/lib/
+license	GPL-3.0-or-later
+size	243523
+installed-size	449944
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	libimagequant
+repo	community
+file	libimagequant-4.2.2-r0.apk
+checksum	Q12Zs/hJ5AxI/DZWThB9nLKo/6xNE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

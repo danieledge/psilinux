@@ -1,0 +1,17 @@
+name	gmobile-dev
+version	0.7.2-r0
+description	Functions useful in mobile related, glib based projects (development files)
+url	https://gitlab.gnome.org/World/Phosh/gmobile
+license	GPL-3.0-only
+size	103564
+installed-size	294596
+depends	gmobile=0.7.2-r0 pc:gio-2.0>=2.78 pc:glib-2.0>=2.78 pc:json-glib-1.0>=1.6.2 pkgconfig
+origin	gmobile
+repo	community
+file	gmobile-dev-0.7.2-r0.apk
+checksum	Q1YYtZJ1VG0qcVKxJUm0b2xX6MwfY=
+dep	gmobile=0.7.2-r0	gmobile
+dep	pc:gio-2.0>=2.78	glib-dev
+dep	pc:glib-2.0>=2.78	glib-dev
+dep	pc:json-glib-1.0>=1.6.2	json-glib-dev
+dep	pkgconfig	pkgconf

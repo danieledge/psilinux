@@ -1,0 +1,14 @@
+name	cargo-deny
+version	0.18.6-r1
+description	Cargo plugin for linting your dependencies
+url	https://github.com/EmbarkStudios/cargo-deny
+license	MIT OR Apache-2.0
+size	5299710
+installed-size	9256880
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	cargo-deny
+repo	community
+file	cargo-deny-0.18.6-r1.apk
+checksum	Q14Q97Fb3C+099fnOk1q6+IPn4yKI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

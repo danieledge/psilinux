@@ -1,0 +1,14 @@
+name	tiny-cloud-nocloud
+version	3.4.2-r0
+description	Tiny Cloud - NoCloud module
+url	https://gitlab.alpinelinux.org/alpine/cloud/tiny-cloud
+license	MIT
+size	1426
+installed-size	1
+depends	tiny-cloud=3.4.2-r0 /bin/sh
+origin	tiny-cloud
+repo	main
+file	tiny-cloud-nocloud-3.4.2-r0.apk
+checksum	Q1zUuwomUMi1rZHbcRQEh7ewrce/o=
+dep	tiny-cloud=3.4.2-r0	tiny-cloud
+dep	/bin/sh	busybox-binsh

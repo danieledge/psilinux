@@ -1,0 +1,18 @@
+name	py3-qtgraph
+version	0.13.7-r1
+description	Scientific Graphics and GUI Library for Python
+url	https://www.pyqtgraph.org/
+license	MIT
+size	1798082
+installed-size	4040088
+depends	py3-numpy py3-opengl py3-qt5 py3-scipy python3 python3~3.14
+origin	py3-qtgraph
+repo	community
+file	py3-qtgraph-0.13.7-r1.apk
+checksum	Q1M+hsZcwPHR0VNSTjdpFcxrAOb3E=
+dep	py3-numpy	py3-numpy
+dep	py3-opengl	py3-opengl
+dep	py3-qt5	py3-qt5
+dep	py3-scipy	py3-scipy
+dep	python3	python3
+dep	python3~3.14	python3

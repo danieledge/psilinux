@@ -1,0 +1,15 @@
+name	fna3d-dev
+version	25.08-r0
+description	3D Graphics Library for FNA (development files)
+url	http://fna-xna.github.io
+license	Zlib
+size	16789
+installed-size	63274
+depends	fna3d=25.08-r0 pc:sdl3 pkgconfig
+origin	fna3d
+repo	community
+file	fna3d-dev-25.08-r0.apk
+checksum	Q1h6fKdYpqIx3fZ+TrFaxapHX8buI=
+dep	fna3d=25.08-r0	fna3d
+dep	pc:sdl3	sdl3-dev
+dep	pkgconfig	pkgconf

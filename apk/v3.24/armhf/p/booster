@@ -1,0 +1,15 @@
+name	booster
+version	0.12-r17
+description	Fast and secure initramfs generator
+url	https://github.com/anatol/booster
+license	MIT
+size	5527750
+installed-size	13603116
+depends	kbd /bin/sh so:libc.musl-armhf.so.1
+origin	booster
+repo	community
+file	booster-0.12-r17.apk
+checksum	Q1EDSb2YsvecDFJhPnx+4fLHrTR3U=
+dep	kbd	kbd
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

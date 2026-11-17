@@ -1,0 +1,18 @@
+name	ftgl
+version	2.4.0-r4
+description	freetype OpenGL layer
+url	https://github.com/frankheckenbach/ftgl
+license	MIT
+size	54771
+installed-size	144768
+depends	so:libGL.so.1 so:libGLU.so.1 so:libc.musl-armhf.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	ftgl
+repo	community
+file	ftgl-2.4.0-r4.apk
+checksum	Q1+XIJcQ3zf6jBPy66tx54x7W8Hjg=
+dep	so:libGL.so.1	mesa-gl
+dep	so:libGLU.so.1	glu
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

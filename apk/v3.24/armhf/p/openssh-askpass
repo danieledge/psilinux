@@ -1,0 +1,18 @@
+name	openssh-askpass
+version	10.2_p1-r0
+description	A passphrase dialog for OpenSSH and GTK
+url	http://www.openssh.org/portable.html
+license	BSD-3-Clause
+size	5825
+installed-size	9448
+depends	openssh-client so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0
+origin	openssh-askpass
+repo	community
+file	openssh-askpass-10.2_p1-r0.apk
+checksum	Q1rBkKs0Hcgn2Rem/uadbMLINNM3c=
+dep	openssh-client	openssh-client-default
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0

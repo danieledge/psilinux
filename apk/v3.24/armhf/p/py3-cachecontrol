@@ -1,0 +1,15 @@
+name	py3-cachecontrol
+version	0.14.3-r1
+description	httplib2 caching for requests
+url	https://github.com/psf/cachecontrol
+license	Apache-2.0
+size	19198
+installed-size	56687
+depends	py3-msgpack py3-requests python3~3.14
+origin	py3-cachecontrol
+repo	community
+file	py3-cachecontrol-0.14.3-r1.apk
+checksum	Q18NvGyQREpvzlZnc3wLIF50YvP3c=
+dep	py3-msgpack	py3-msgpack
+dep	py3-requests	py3-requests
+dep	python3~3.14	python3

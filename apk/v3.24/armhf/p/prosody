@@ -1,0 +1,26 @@
+name	prosody
+version	13.0.6-r0
+description	Lua based Jabber/XMPP server
+url	https://prosody.im/
+license	MIT
+size	565135
+installed-size	2152993
+depends	ca-certificates icu-data-full lua5.4 lua5.4-busted lua5.4-expat lua5.4-filesystem lua5.4-sec lua5.4-socket lua5.4-unbound /bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libicui18n.so.78 so:libicuuc.so.78
+origin	prosody
+repo	community
+file	prosody-13.0.6-r0.apk
+checksum	Q15QcggrYjFIdjE06gShO5XjKS5Ns=
+dep	ca-certificates	ca-certificates
+dep	icu-data-full	icu-data-full
+dep	lua5.4	lua5.4
+dep	lua5.4-busted	lua5.4-busted
+dep	lua5.4-expat	lua5.4-expat
+dep	lua5.4-filesystem	lua5.4-filesystem
+dep	lua5.4-sec	lua5.4-sec
+dep	lua5.4-socket	lua5.4-socket
+dep	lua5.4-unbound	lua5.4-unbound
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs

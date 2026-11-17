@@ -1,0 +1,15 @@
+name	msttcorefonts-installer
+version	3.8.1-r1
+description	Installer for Microsoft TrueType core fonts
+url	https://packages.debian.org/sid/ttf-mscorefonts-installer
+license	GPL-2.0-or-later
+size	6312
+installed-size	9302
+depends	cabextract wget /bin/sh
+origin	msttcorefonts-installer
+repo	community
+file	msttcorefonts-installer-3.8.1-r1.apk
+checksum	Q1J9usMqbiZsL6xo5ejggal/y8fAs=
+dep	cabextract	cabextract
+dep	wget	wget
+dep	/bin/sh	busybox-binsh

@@ -1,0 +1,15 @@
+name	getdns
+version	1.7.3-r0
+description	Modern asynchronous DNS API
+url	https://getdnsapi.net
+license	BSD-3-Clause
+size	31436
+installed-size	74384
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgetdns.so.10
+origin	getdns
+repo	community
+file	getdns-1.7.3-r0.apk
+checksum	Q1Ul6a32vmIWzc35Vfd28Cll5sSMc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgetdns.so.10	getdns-libs

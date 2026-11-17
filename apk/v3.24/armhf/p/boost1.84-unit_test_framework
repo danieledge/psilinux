@@ -1,0 +1,15 @@
+name	boost1.84-unit_test_framework
+version	1.84.0-r6
+description	Boost unit_test_framework shared library
+url	https://www.boost.org/
+license	BSL-1.0
+size	274306
+installed-size	664996
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	boost1.84
+repo	main
+file	boost1.84-unit_test_framework-1.84.0-r6.apk
+checksum	Q11MCpOvyYJ/qU4zNVrMDbMlJAeEg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

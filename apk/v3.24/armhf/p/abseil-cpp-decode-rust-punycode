@@ -1,0 +1,15 @@
+name	abseil-cpp-decode-rust-punycode
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-decode-rust-punycode
+url	https://abseil.io/
+license	Apache-2.0
+size	4468
+installed-size	9496
+depends	so:libabsl_utf8_for_code_point.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-decode-rust-punycode-20250814.1-r0.apk
+checksum	Q1Eq59x96Ew/OPJiKYSeImwPZoW30=
+dep	so:libabsl_utf8_for_code_point.so.2508.0.0	abseil-cpp-utf8-for-code-point
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

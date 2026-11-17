@@ -1,0 +1,16 @@
+name	py3-bcrypt-ceph
+version	4.0.1-r2
+description	Modern password hashing for your software and your servers
+url	https://github.com/pyca/bcrypt
+license	Apache-2.0
+size	216494
+installed-size	405984
+depends	py3-cffi python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	py3-bcrypt-ceph
+repo	community
+file	py3-bcrypt-ceph-4.0.1-r2.apk
+checksum	Q1Ust89gcXqmv+aF+LxaAu4gtcTNk=
+dep	py3-cffi	py3-cffi
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

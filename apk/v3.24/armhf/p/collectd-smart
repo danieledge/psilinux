@@ -1,0 +1,16 @@
+name	collectd-smart
+version	5.12.0-r25
+description	smart pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	9739
+installed-size	17772
+depends	collectd so:libatasmart.so.4 so:libc.musl-armhf.so.1 so:libudev.so.1
+origin	collectd
+repo	community
+file	collectd-smart-5.12.0-r25.apk
+checksum	Q1RASOaOoNwy4lUDYvLd6zofuEH04=
+dep	collectd	collectd
+dep	so:libatasmart.so.4	libatasmart
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libudev.so.1	eudev-libs

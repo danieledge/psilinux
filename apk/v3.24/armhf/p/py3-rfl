@@ -1,0 +1,18 @@
+name	py3-rfl
+version	1.8.0-r0
+description	Rackslab Foundation Library: meta package
+url	https://github.com/rackslab/RFL
+license	GPL-3.0-or-later
+size	1300
+installed-size	0
+depends	py3-rfl-core py3-rfl-authentication py3-rfl-build py3-rfl-log py3-rfl-permissions py3-rfl-web
+origin	py3-rfl
+repo	community
+file	py3-rfl-1.8.0-r0.apk
+checksum	Q1YGvvSgcDAA30BnaiFbjdxjg5dxk=
+dep	py3-rfl-core	py3-rfl-core
+dep	py3-rfl-authentication	py3-rfl-authentication
+dep	py3-rfl-build	py3-rfl-build
+dep	py3-rfl-log	py3-rfl-log
+dep	py3-rfl-permissions	py3-rfl-permissions
+dep	py3-rfl-web	py3-rfl-web

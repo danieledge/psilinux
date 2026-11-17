@@ -1,0 +1,16 @@
+name	aerc
+version	0.21.0-r10
+description	email client for your terminal
+url	https://aerc-mail.org
+license	MIT
+size	6922089
+installed-size	17684267
+depends	less ncurses so:libc.musl-armhf.so.1 so:libnotmuch.so.5
+origin	aerc
+repo	community
+file	aerc-0.21.0-r10.apk
+checksum	Q195U0kJrUcfiwXfkfNCHJCu4nQrw=
+dep	less	less
+dep	ncurses	ncurses
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnotmuch.so.5	notmuch-libs

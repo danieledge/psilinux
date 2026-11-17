@@ -1,0 +1,14 @@
+name	date-dev
+version	3.0.4-r0
+description	Date and time library based on the C++11/14/17 <chrono> header (development files)
+url	https://howardhinnant.github.io/date/date.html
+license	MIT
+size	78402
+installed-size	601459
+depends	date=3.0.4-r0 pkgconfig
+origin	date
+repo	community
+file	date-dev-3.0.4-r0.apk
+checksum	Q1E/01anjd2eKt8SAVwvUTTbZtA5g=
+dep	date=3.0.4-r0	date
+dep	pkgconfig	pkgconf

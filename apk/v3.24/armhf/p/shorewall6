@@ -1,0 +1,16 @@
+name	shorewall6
+version	5.2.8-r1
+description	Files for the IPV6 Shorewall Firewall
+url	https://shorewall.org/
+license	GPL-2.0-or-later
+size	103532
+installed-size	361178
+depends	shorewall-core perl iproute2 perl-socket6
+origin	shorewall6
+repo	main
+file	shorewall6-5.2.8-r1.apk
+checksum	Q16vu/u0r7EZPpxRryFNylqFEBQOM=
+dep	shorewall-core	shorewall-core
+dep	perl	perl
+dep	iproute2	iproute2
+dep	perl-socket6	perl-socket6

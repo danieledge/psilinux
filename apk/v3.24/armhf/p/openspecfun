@@ -1,0 +1,16 @@
+name	openspecfun
+version	0.5.7-r0
+description	A collection of special mathematical functions.
+url	https://github.com/JuliaMath/openspecfun
+license	MIT Public-Domain
+size	73833
+installed-size	120056
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgfortran.so.5 so:libopenlibm.so.4
+origin	openspecfun
+repo	community
+file	openspecfun-0.5.7-r0.apk
+checksum	Q1c0o9Sdm6qV9uidL2O97dPTOsohI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgfortran.so.5	libgfortran
+dep	so:libopenlibm.so.4	openlibm

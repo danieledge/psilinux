@@ -1,0 +1,13 @@
+name	nasm
+version	3.01-r0
+description	80x86 assembler designed for portability and modularity
+url	https://www.nasm.us
+license	BSD-2-Clause
+size	589739
+installed-size	2767588
+depends	so:libc.musl-armhf.so.1
+origin	nasm
+repo	main
+file	nasm-3.01-r0.apk
+checksum	Q1aFh+jbNhBDkN2NTiW/GMfQts8hs=
+dep	so:libc.musl-armhf.so.1	musl

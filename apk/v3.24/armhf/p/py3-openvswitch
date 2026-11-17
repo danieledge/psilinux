@@ -1,0 +1,13 @@
+name	py3-openvswitch
+version	3.7.1-r0
+description	Python modules for Open vSwitch
+url	https://www.openvswitch.org/
+license	Apache-2.0
+size	157210
+installed-size	721035
+depends	python3~3.14
+origin	openvswitch
+repo	community
+file	py3-openvswitch-3.7.1-r0.apk
+checksum	Q1GZ8Jbr4nSrxwkinjOBNtzfxMbZA=
+dep	python3~3.14	python3

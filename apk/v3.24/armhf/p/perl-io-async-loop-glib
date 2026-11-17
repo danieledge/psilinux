@@ -1,0 +1,15 @@
+name	perl-io-async-loop-glib
+version	0.22-r1
+description	Use IO::Async with Glib or GTK
+url	https://metacpan.org/release/IO-Async-Loop-Glib/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	4589
+installed-size	7862
+depends	perl perl-io-async perl-glib
+origin	perl-io-async-loop-glib
+repo	community
+file	perl-io-async-loop-glib-0.22-r1.apk
+checksum	Q16N5MYuqLZ2dlcB0JVhEzGw6hAU4=
+dep	perl	perl
+dep	perl-io-async	perl-io-async
+dep	perl-glib	perl-glib

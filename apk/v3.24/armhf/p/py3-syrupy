@@ -1,0 +1,15 @@
+name	py3-syrupy
+version	5.1.0-r1
+description	Pytest Snapshot Test Utility
+url	https://github.com/syrupy-project/syrupy
+license	MIT
+size	45875
+installed-size	177208
+depends	python3 py3-pytest python3~3.14
+origin	py3-syrupy
+repo	community
+file	py3-syrupy-5.1.0-r1.apk
+checksum	Q1Di/PS5nMLMYMHRPi85q1TIxvilM=
+dep	python3	python3
+dep	py3-pytest	py3-pytest
+dep	python3~3.14	python3

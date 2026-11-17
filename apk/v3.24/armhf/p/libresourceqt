@@ -1,0 +1,20 @@
+name	libresourceqt
+version	1.33.0-r0
+description	Resource policy Qt API
+url	https://github.com/sailfishos/libresourceqt
+license	LGPL-2.1-or-later
+size	415163
+installed-size	1373978
+depends	so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Test.so.6 so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libgcc_s.so.1 so:libresource.so.0 so:libstdc++.so.6
+origin	libresourceqt
+repo	community
+file	libresourceqt-1.33.0-r0.apk
+checksum	Q1mmZ5HqNtz49cH2mS6MPm/DHTQhE=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6DBus.so.6	qt6-qtbase
+dep	so:libQt6Test.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libresource.so.0	libresource
+dep	so:libstdc++.so.6	libstdc++

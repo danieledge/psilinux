@@ -1,0 +1,14 @@
+name	perl-sys-mmap
+version	0.21-r0
+description	Uses mmap to map in a file as a Perl variable
+url	https://metacpan.org/pod/Sys::Mmap
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	12446
+installed-size	24976
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-sys-mmap
+repo	main
+file	perl-sys-mmap-0.21-r0.apk
+checksum	Q1Yhenpi3L5c8bab/8WdOI3UCh4Bc=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

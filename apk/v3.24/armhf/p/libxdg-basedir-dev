@@ -1,0 +1,14 @@
+name	libxdg-basedir-dev
+version	1.2.3-r1
+description	library for XDG base dir specification (development files)
+url	https://github.com/davmac314/libxdg-basedir
+license	MIT
+size	4740
+installed-size	10473
+depends	libxdg-basedir=1.2.3-r1 pkgconfig
+origin	libxdg-basedir
+repo	community
+file	libxdg-basedir-dev-1.2.3-r1.apk
+checksum	Q1ds+ilm/83782xIUySeGtrKC0W+Y=
+dep	libxdg-basedir=1.2.3-r1	libxdg-basedir
+dep	pkgconfig	pkgconf

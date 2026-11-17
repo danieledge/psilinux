@@ -1,0 +1,13 @@
+name	uwsgi-transformation_chunked
+version	2.0.31-r2
+description	uWSGI plugin transformation_chunked
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	3282
+installed-size	5444
+depends	uwsgi
+origin	uwsgi
+repo	main
+file	uwsgi-transformation_chunked-2.0.31-r2.apk
+checksum	Q1ZfUZTsb3IkPeoNAWr9Np1gDzw5w=
+dep	uwsgi	uwsgi

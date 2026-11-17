@@ -1,0 +1,13 @@
+name	njs-libs-static
+version	0.9.9-r0
+description	NGINX JavaScript interpreter CLI (static library)
+url	https://nginx.org/en/docs/njs/
+license	BSD-2-Clause
+size	818508
+installed-size	2192848
+depends	njs-dev
+origin	njs
+repo	community
+file	njs-libs-static-0.9.9-r0.apk
+checksum	Q1CwggRfVL1yBP3u5x8eorXMd8Qdk=
+dep	njs-dev	njs-dev

@@ -1,0 +1,13 @@
+name	sqlite-static
+version	3.53.4-r0
+description	C library that implements an SQL database engine (static library)
+url	https://www.sqlite.org/
+license	blessing
+size	877493
+installed-size	1736518
+depends	sqlite-dev
+origin	sqlite
+repo	main
+file	sqlite-static-3.53.4-r0.apk
+checksum	Q1lr13Ptb/4/hItNPnHez9f8ikP7k=
+dep	sqlite-dev	sqlite-dev

@@ -1,0 +1,17 @@
+name	uhttpmock
+version	0.11.0-r0
+description	HTTP web service mocking library
+url	https://gitlab.freedesktop.org/pwithnall/uhttpmock/
+license	LGPL-2.1-or-later
+size	26811
+installed-size	61208
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libsoup-3.0.so.0
+origin	uhttpmock
+repo	community
+file	uhttpmock-0.11.0-r0.apk
+checksum	Q1DX1/0BAdIrteBzuklt5nRCwNbY8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libsoup-3.0.so.0	libsoup3

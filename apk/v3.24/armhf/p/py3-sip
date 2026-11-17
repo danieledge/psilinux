@@ -1,0 +1,17 @@
+name	py3-sip
+version	6.15.3-r0
+description	A tool that makes it easy to create Python bindings for C and C++ libraries
+url	https://www.riverbankcomputing.com/software/sip/
+license	custom:sip
+size	2603257
+installed-size	12463346
+depends	py3-packaging py3-ply py3-setuptools py3-toml python3~3.14
+origin	py3-sip
+repo	community
+file	py3-sip-6.15.3-r0.apk
+checksum	Q1fyIl8x5q5wNYHnmeI4TVHVsDPsI=
+dep	py3-packaging	py3-packaging
+dep	py3-ply	py3-ply
+dep	py3-setuptools	py3-setuptools
+dep	py3-toml	py3-toml
+dep	python3~3.14	python3

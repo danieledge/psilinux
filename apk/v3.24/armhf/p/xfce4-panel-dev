@@ -1,0 +1,20 @@
+name	xfce4-panel-dev
+version	4.20.7-r0
+description	Panel for the Xfce desktop environment (development files)
+url	https://xfce.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	35153
+installed-size	260840
+depends	xfconf-dev libxfce4panel=4.20.7-r0 pc:glib-2.0 pc:gmodule-2.0 pc:gtk+-3.0 pc:libxfce4ui-2 pc:libxfce4util-1.0 pkgconfig
+origin	xfce4-panel
+repo	community
+file	xfce4-panel-dev-4.20.7-r0.apk
+checksum	Q1FuGxVDDh6iHa5tLlKIIrtkTSuG4=
+dep	xfconf-dev	xfconf-dev
+dep	libxfce4panel=4.20.7-r0	libxfce4panel
+dep	pc:glib-2.0	glib-dev
+dep	pc:gmodule-2.0	glib-dev
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pc:libxfce4ui-2	libxfce4ui-dev
+dep	pc:libxfce4util-1.0	libxfce4util-dev
+dep	pkgconfig	pkgconf

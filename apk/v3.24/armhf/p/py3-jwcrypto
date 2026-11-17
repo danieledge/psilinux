@@ -1,0 +1,16 @@
+name	py3-jwcrypto
+version	1.5.6-r1
+description	Python module implementing JOSE Web standards
+url	https://github.com/latchset/jwcrypto
+license	LGPL-3.0-only
+size	87250
+installed-size	334778
+depends	python3 py3-typing-extensions py3-cryptography python3~3.14
+origin	py3-jwcrypto
+repo	community
+file	py3-jwcrypto-1.5.6-r1.apk
+checksum	Q1kl/Pef4Gymlw7jIdIiM9VXqD1gY=
+dep	python3	python3
+dep	py3-typing-extensions	py3-typing-extensions
+dep	py3-cryptography	py3-cryptography
+dep	python3~3.14	python3

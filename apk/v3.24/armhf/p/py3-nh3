@@ -1,0 +1,15 @@
+name	py3-nh3
+version	0.3.5-r0
+description	Python bindings to the ammonia HTML sanitization library
+url	https://github.com/messense/nh3
+license	MIT
+size	571883
+installed-size	1332329
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	py3-nh3
+repo	community
+file	py3-nh3-0.3.5-r0.apk
+checksum	Q1P9lihaMtIb7U2NHUCzMIlzJjiV4=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

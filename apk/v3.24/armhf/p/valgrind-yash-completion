@@ -1,0 +1,13 @@
+name	valgrind-yash-completion
+version	2.60-r0
+description	Yash completions for valgrind
+url	https://magicant.github.io/yash/
+license	GPL-2.0-or-later
+size	4269
+installed-size	9673
+depends	yash-completion
+origin	yash
+repo	main
+file	valgrind-yash-completion-2.60-r0.apk
+checksum	Q1l9633WMBaBZ2fYUgVpy4Azz2+VE=
+dep	yash-completion	yash-completion

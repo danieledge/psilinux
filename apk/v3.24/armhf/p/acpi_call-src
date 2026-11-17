@@ -1,0 +1,12 @@
+name	acpi_call-src
+version	1.2.2-r0
+description	A kernel module for calling ACPI methods via /proc/acpi/call (sources, AKMS)
+url	https://github.com/nix-community/acpi_call
+license	GPL-3.0-or-later
+size	6048
+installed-size	14565
+depends	
+origin	acpi_call-src
+repo	community
+file	acpi_call-src-1.2.2-r0.apk
+checksum	Q1FhWjPqzhDjJGKbDGzP9YDMgEbEk=

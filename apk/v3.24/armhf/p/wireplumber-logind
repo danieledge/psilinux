@@ -1,0 +1,19 @@
+name	wireplumber-logind
+version	0.5.15-r0
+description	wireplumbers optional (e)logind integration needed by GDM users
+url	https://pipewire.org/
+license	LGPL-2.1-or-later
+size	4807
+installed-size	9468
+depends	elogind so:libc.musl-armhf.so.1 so:libelogind.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libwireplumber-0.5.so.0
+origin	wireplumber
+repo	community
+file	wireplumber-logind-0.5.15-r0.apk
+checksum	Q15GqCYm9Mgj7wvflEJakN57Sotq4=
+dep	elogind	elogind
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libelogind.so.0	libelogind
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libwireplumber-0.5.so.0	wireplumber-libs

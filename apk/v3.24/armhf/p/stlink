@@ -1,0 +1,14 @@
+name	stlink
+version	1.8.0-r1
+description	STM32 discovery line linux programmer
+url	https://github.com/stlink-org/stlink
+license	MIT
+size	87425
+installed-size	236066
+depends	so:libc.musl-armhf.so.1 so:libusb-1.0.so.0
+origin	stlink
+repo	community
+file	stlink-1.8.0-r1.apk
+checksum	Q1yZ1ojHqFvcDDZSpOiBEK2kvHXeo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb

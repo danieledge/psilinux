@@ -1,0 +1,14 @@
+name	py3-django-hcaptcha
+version	0.2.0-r3
+description	Django hCaptcha provides a simple way to protect your django forms using hCaptcha
+url	https://pypi.python.org/project/django-hCaptcha
+license	BSD-3-Clause
+size	7169
+installed-size	10758
+depends	py3-django python3~3.14
+origin	py3-django-hcaptcha
+repo	community
+file	py3-django-hcaptcha-0.2.0-r3.apk
+checksum	Q1m+v7e/VDS4cKQw1b5RC8IJbgzqU=
+dep	py3-django	py3-django
+dep	python3~3.14	python3

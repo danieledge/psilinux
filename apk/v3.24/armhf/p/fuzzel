@@ -1,0 +1,23 @@
+name	fuzzel
+version	1.14.1-r0
+description	Application launcher for wlroots-based Wayland compositors
+url	https://codeberg.org/dnkl/fuzzel
+license	MIT
+size	94524
+installed-size	197397
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libfcft.so.4 so:libfontconfig.so.1 so:libgobject-2.0.so.0 so:libpixman-1.so.0 so:libpng16.so.16 so:librsvg-2.so.2 so:libwayland-client.so.0 so:libwayland-cursor.so.0 so:libxkbcommon.so.0
+origin	fuzzel
+repo	community
+file	fuzzel-1.14.1-r0.apk
+checksum	Q1AUUM1+ASGM44vJxnKngY+sZ79tE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libfcft.so.4	fcft
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpixman-1.so.0	pixman
+dep	so:libpng16.so.16	libpng
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor
+dep	so:libxkbcommon.so.0	libxkbcommon

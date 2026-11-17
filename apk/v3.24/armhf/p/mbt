@@ -1,0 +1,20 @@
+name	mbt
+version	3.11-r2
+description	Memory-based Tagger and Tagger Generator
+url	https://github.com/LanguageMachines/mbt
+license	GPL-3.0-only
+size	85870
+installed-size	208928
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgomp.so.1 so:libicuio.so.78 so:libicuuc.so.78 so:libstdc++.so.6 so:libticcutils.so.10 so:libtimbl.so.7
+origin	mbt
+repo	community
+file	mbt-3.11-r2.apk
+checksum	Q1QccfQpXiZDn/qTWssuPSqsist8o=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgomp.so.1	libgomp
+dep	so:libicuio.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libticcutils.so.10	ticcutils
+dep	so:libtimbl.so.7	timbl

@@ -1,0 +1,14 @@
+name	guile-zlib
+version	0.2.2-r1
+description	Guile bindings for zlib
+url	https://codeberg.org/guile-compression/guile-zlib
+license	GPL-3.0-or-later
+size	62625
+installed-size	289587
+depends	guile zlib-dev
+origin	guile-zlib
+repo	community
+file	guile-zlib-0.2.2-r1.apk
+checksum	Q1cRtnB5miVC1WHEFR1QmsYzGML8U=
+dep	guile	guile
+dep	zlib-dev	zlib-dev

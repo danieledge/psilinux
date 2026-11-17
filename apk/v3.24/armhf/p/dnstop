@@ -1,0 +1,15 @@
+name	dnstop
+version	20140915-r8
+description	A DNS traffic capture utility
+url	http://dns.measurement-factory.com/tools/dnstop/
+license	BSD-3-Clause
+size	26156
+installed-size	55324
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6 so:libpcap.so.1
+origin	dnstop
+repo	main
+file	dnstop-20140915-r8.apk
+checksum	Q16refO+qaEckvQzRAtBgxnF3m3us=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpcap.so.1	libpcap

@@ -1,0 +1,14 @@
+name	tacacs+ng-perl
+version	0_git20241212-r1
+description	MAVIS backends written in Perl for TACACS+ NG
+url	https://www.pro-bono-publico.de/projects/tac_plus-ng.html
+license	MIT AND BSD-2-Clause
+size	11021
+installed-size	31138
+depends	tacacs+ng=0_git20241212-r1 perl
+origin	tacacs+ng
+repo	community
+file	tacacs+ng-perl-0_git20241212-r1.apk
+checksum	Q1IKACcsPq/p1cIG8i89ClmE5vRgI=
+dep	tacacs+ng=0_git20241212-r1	tacacs+ng
+dep	perl	perl

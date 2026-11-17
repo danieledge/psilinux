@@ -1,0 +1,18 @@
+name	py3-niaautoarm
+version	0.1.2-r3
+description	AutoML method for constructing the full ARM pipelines
+url	https://github.com/firefly-cpp/NiaAutoARM
+license	MIT
+size	12035
+installed-size	34137
+depends	python3 py3-niaarm py3-niapy py3-pandas py3-scikit-learn python3~3.14
+origin	py3-niaautoarm
+repo	community
+file	py3-niaautoarm-0.1.2-r3.apk
+checksum	Q1MBAt5JBlRR21e2M6jdBihYnOdMo=
+dep	python3	python3
+dep	py3-niaarm	py3-niaarm
+dep	py3-niapy	py3-niapy
+dep	py3-pandas	py3-pandas
+dep	py3-scikit-learn	py3-scikit-learn
+dep	python3~3.14	python3

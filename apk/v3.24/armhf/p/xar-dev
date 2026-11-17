@@ -1,0 +1,14 @@
+name	xar-dev
+version	1.8.0.498-r0
+description	The eXtensible ARchiver for Apple's .pkg (development files)
+url	https://github.com/apple-oss-distributions/xar
+license	BSD-3-Clause
+size	55341
+installed-size	151124
+depends	xar=1.8.0.498-r0 libxar=1.8.0.498-r0
+origin	xar
+repo	community
+file	xar-dev-1.8.0.498-r0.apk
+checksum	Q1E+BYnne1SrEvmWteBfscdAmst24=
+dep	xar=1.8.0.498-r0	xar
+dep	libxar=1.8.0.498-r0	libxar

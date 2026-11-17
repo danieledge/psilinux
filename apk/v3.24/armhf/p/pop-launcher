@@ -1,0 +1,16 @@
+name	pop-launcher
+version	1.2.7-r0
+description	Modular IPC-based desktop launcher service
+url	https://github.com/pop-os/launcher
+license	MPL-2.0 AND GPL-3.0-only
+size	2437362
+installed-size	5076798
+depends	fd xdg-utils so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	pop-launcher
+repo	community
+file	pop-launcher-1.2.7-r0.apk
+checksum	Q1TuTdKTTeQsktiTebPFjNTHSBT0g=
+dep	fd	fd
+dep	xdg-utils	xdg-utils
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

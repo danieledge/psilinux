@@ -1,0 +1,12 @@
+name	evince-dbg
+version	48.4-r0
+description	Simple document viewer for GTK+ (debug symbols)
+url	https://apps.gnome.org/Evince
+license	GPL-2.0-or-later
+size	1849621
+installed-size	4437164
+depends	!evince-libs<48.4-r0 !evince-libs>48.4-r0 !evince<48.4-r0 !evince>48.4-r0
+origin	evince
+repo	community
+file	evince-dbg-48.4-r0.apk
+checksum	Q1vZ3PAm3lfxauHWXozk+uOg/sFA0=

@@ -1,0 +1,22 @@
+name	obexd-enhanced
+version	5.86-r1
+description	OBEXD with enhanced capabilities such as PBAP
+url	https://www.bluez.org/
+license	GPL-2.0-or-later
+size	220692
+installed-size	538366
+depends	!bluez-obexd bluez~5.86 dbus obex-capabilities so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libebook-1.2.so.21 so:libebook-contacts-1.2.so.5 so:libedataserver-1.2.so.27 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	obexd-enhanced
+repo	community
+file	obexd-enhanced-5.86-r1.apk
+checksum	Q1Ra55VDzDSK2aAVDHRY/7YIqwZyc=
+dep	bluez~5.86	bluez
+dep	dbus	dbus
+dep	obex-capabilities	obex-capabilities
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libebook-1.2.so.21	evolution-data-server
+dep	so:libebook-contacts-1.2.so.5	evolution-data-server
+dep	so:libedataserver-1.2.so.27	evolution-data-server
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

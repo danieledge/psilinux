@@ -1,0 +1,17 @@
+name	gvpe
+version	3.1-r6
+description	GNU Virtual Private Ethernet
+url	http://software.schmorp.de/pkg/gvpe.html
+license	GPL-2.0-or-later
+size	90283
+installed-size	176009
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libgmp.so.10 so:libstdc++.so.6
+origin	gvpe
+repo	main
+file	gvpe-3.1-r6.apk
+checksum	Q1yOEY8sImK3YTxpI7yFEBbBnlmuw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgmp.so.10	gmp
+dep	so:libstdc++.so.6	libstdc++

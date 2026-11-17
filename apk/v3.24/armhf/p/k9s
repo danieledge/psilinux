@@ -1,0 +1,13 @@
+name	k9s
+version	0.50.18-r7
+description	Kubernetes TUI
+url	https://k9scli.io
+license	Apache-2.0
+size	54258132
+installed-size	167151912
+depends	so:libc.musl-armhf.so.1
+origin	k9s
+repo	community
+file	k9s-0.50.18-r7.apk
+checksum	Q1T0wbZig/wP3Hcnc8nmRE5nn+pPo=
+dep	so:libc.musl-armhf.so.1	musl

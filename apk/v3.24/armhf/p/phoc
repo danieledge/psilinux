@@ -1,0 +1,52 @@
+name	phoc
+version	0.55.1-r0
+description	wlroots based Phone compositor for the Phosh shell
+url	https://gitlab.gnome.org/World/Phosh/phoc
+license	GPL-3.0-only
+size	527174
+installed-size	1222243
+depends	phoc-schemas dbus gsettings-desktop-schemas mutter-schemas so:libEGL.so.1 so:libGLESv2.so.2 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdisplay-info.so.3 so:libdrm.so.2 so:libgbm.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmobile.so.0 so:libgnome-desktop-3.so.20 so:libgobject-2.0.so.0 so:libinput.so.10 so:libintl.so.8 so:liblcms2.so.2 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpixman-1.so.0 so:libseat.so.1 so:libudev.so.1 so:libvulkan.so.1 so:libwayland-client.so.0 so:libwayland-server.so.0 so:libxcb-composite.so.0 so:libxcb-dri3.so.0 so:libxcb-ewmh.so.2 so:libxcb-icccm.so.4 so:libxcb-present.so.0 so:libxcb-render-util.so.0 so:libxcb-render.so.0 so:libxcb-res.so.0 so:libxcb-shm.so.0 so:libxcb-xfixes.so.0 so:libxcb-xinput.so.0 so:libxcb.so.1 so:libxkbcommon.so.0
+origin	phoc
+repo	community
+file	phoc-0.55.1-r0.apk
+checksum	Q1v9kmxAIR5eQlrpg5nkXT2BHEY1U=
+dep	phoc-schemas	phoc-schemas
+dep	dbus	dbus
+dep	gsettings-desktop-schemas	gsettings-desktop-schemas
+dep	mutter-schemas	mutter-schemas
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libGLESv2.so.2	mesa-gles
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libdisplay-info.so.3	libdisplay-info
+dep	so:libdrm.so.2	libdrm
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmobile.so.0	gmobile
+dep	so:libgnome-desktop-3.so.20	libgnome-desktop-3
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libinput.so.10	libinput-libs
+dep	so:libintl.so.8	libintl
+dep	so:liblcms2.so.2	lcms2
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpixman-1.so.0	pixman
+dep	so:libseat.so.1	libseat
+dep	so:libudev.so.1	eudev-libs
+dep	so:libvulkan.so.1	vulkan-loader
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-server.so.0	wayland-libs-server
+dep	so:libxcb-composite.so.0	libxcb
+dep	so:libxcb-dri3.so.0	libxcb
+dep	so:libxcb-ewmh.so.2	xcb-util-wm
+dep	so:libxcb-icccm.so.4	xcb-util-wm
+dep	so:libxcb-present.so.0	libxcb
+dep	so:libxcb-render-util.so.0	xcb-util-renderutil
+dep	so:libxcb-render.so.0	libxcb
+dep	so:libxcb-res.so.0	libxcb
+dep	so:libxcb-shm.so.0	libxcb
+dep	so:libxcb-xfixes.so.0	libxcb
+dep	so:libxcb-xinput.so.0	libxcb
+dep	so:libxcb.so.1	libxcb
+dep	so:libxkbcommon.so.0	libxkbcommon

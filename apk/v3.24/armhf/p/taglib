@@ -1,0 +1,17 @@
+name	taglib
+version	2.2.1-r0
+description	Library for reading and editing metadata of several popular audio formats
+url	https://taglib.github.io/
+license	LGPL-2.1-only OR MPL-1.1
+size	23569
+installed-size	68372
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libtag.so.2 so:libtag_c.so.2
+origin	taglib
+repo	community
+file	taglib-2.2.1-r0.apk
+checksum	Q1uo7GuRmMIlGGYrL/l9ASTMLUWaY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtag.so.2	libtag
+dep	so:libtag_c.so.2	libtag_c

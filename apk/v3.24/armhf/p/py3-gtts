@@ -1,0 +1,15 @@
+name	py3-gtts
+version	2.5.4-r1
+description	A Python library and CLI tool to interface with Google Translate text-to-speech API
+url	https://github.com/pndurette/gTTS
+license	MIT
+size	20826
+installed-size	51407
+depends	py3-click py3-requests python3~3.14
+origin	py3-gtts
+repo	community
+file	py3-gtts-2.5.4-r1.apk
+checksum	Q18RZnHGiD4yTBPZS0a5KTYY8AgE8=
+dep	py3-click	py3-click
+dep	py3-requests	py3-requests
+dep	python3~3.14	python3

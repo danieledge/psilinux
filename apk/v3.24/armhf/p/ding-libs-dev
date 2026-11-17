@@ -1,0 +1,14 @@
+name	ding-libs-dev
+version	0.6.2-r6
+description	'D is not GLib' utility libraries (development files)
+url	https://pagure.io/SSSD/ding-libs/
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	68790
+installed-size	418475
+depends	ding-libs=0.6.2-r6 pkgconfig
+origin	ding-libs
+repo	community
+file	ding-libs-dev-0.6.2-r6.apk
+checksum	Q1pmzMqgd+tuHPRKjUJrywmQt+ezg=
+dep	ding-libs=0.6.2-r6	ding-libs
+dep	pkgconfig	pkgconf

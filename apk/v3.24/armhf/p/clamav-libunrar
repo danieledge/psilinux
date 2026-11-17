@@ -1,0 +1,15 @@
+name	clamav-libunrar
+version	1.4.6-r0
+description	ClamAV unrar libraries
+url	https://www.clamav.net/
+license	GPL-2.0-only
+size	121206
+installed-size	224948
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	clamav
+repo	community
+file	clamav-libunrar-1.4.6-r0.apk
+checksum	Q1xXSONMn/yLyALzio6+CmURMOL5w=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

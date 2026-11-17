@@ -1,0 +1,15 @@
+name	xautolock
+version	2.2-r8
+description	An automatic X screen-locker/screen-saver
+url	https://www.ibiblio.org/pub/linux/X11/screensavers/
+license	GPL-2.0-only
+size	13873
+installed-size	30000
+depends	so:libX11.so.6 so:libXss.so.1 so:libc.musl-armhf.so.1
+origin	xautolock
+repo	community
+file	xautolock-2.2-r8.apk
+checksum	Q1GZJ4rGbqJ+DJ7Wsi31E2W3nYjTY=
+dep	so:libX11.so.6	libx11
+dep	so:libXss.so.1	libxscrnsaver
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	libglibutil-dev
+version	1.0.81-r0
+description	Library of glib utilities (development files)
+url	https://github.com/sailfishos/libglibutil
+license	BSD-3-Clause
+size	13867
+installed-size	70841
+depends	libglibutil=1.0.81-r0 pc:glib-2.0 pkgconfig
+origin	libglibutil
+repo	community
+file	libglibutil-dev-1.0.81-r0.apk
+checksum	Q1t7ssjRuVETjKwZkcdibb1gqy3/U=
+dep	libglibutil=1.0.81-r0	libglibutil
+dep	pc:glib-2.0	glib-dev
+dep	pkgconfig	pkgconf

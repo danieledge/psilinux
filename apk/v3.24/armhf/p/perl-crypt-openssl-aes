@@ -1,0 +1,15 @@
+name	perl-crypt-openssl-aes
+version	0.21-r2
+description	Perl wrapper around OpenSSL's AES library
+url	https://metacpan.org/release/Crypt-OpenSSL-AES/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	9923
+installed-size	20099
+depends	perl so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	perl-crypt-openssl-aes
+repo	community
+file	perl-crypt-openssl-aes-0.21-r2.apk
+checksum	Q1a/iC1UsPRfRYrkP/dn/T8jjZul8=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

@@ -1,0 +1,17 @@
+name	lsp-plugins-ladspa
+version	1.2.29-r0
+description	Collection of free plugins compatible with LADSPA, LV2 and LinuxVST (ladspa integration)
+url	https://lsp-plug.in
+license	LGPL-3.0-or-later
+size	1372542
+installed-size	5728816
+depends	liblsp-r3d-glx-lib=1.2.29-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libsndfile.so.1 so:libstdc++.so.6
+origin	lsp-plugins
+repo	community
+file	lsp-plugins-ladspa-1.2.29-r0.apk
+checksum	Q1/nH0GxQeBdtcGLq2JORMqBmXu/A=
+dep	liblsp-r3d-glx-lib=1.2.29-r0	liblsp-r3d-glx-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsndfile.so.1	libsndfile
+dep	so:libstdc++.so.6	libstdc++

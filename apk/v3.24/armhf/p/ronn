@@ -1,0 +1,18 @@
+name	ronn
+version	0.10.1-r0
+description	Convert Markdown files to manpages
+url	https://github.com/apjanke/ronn-ng
+license	MIT
+size	23787
+installed-size	64748
+depends	groff ruby ruby-kramdown ruby-kramdown-parser-gfm ruby-mustache ruby-nokogiri
+origin	ronn
+repo	community
+file	ronn-0.10.1-r0.apk
+checksum	Q1xC3ThEazBU2CMiLlXKhY+WfdKiU=
+dep	groff	groff
+dep	ruby	ruby
+dep	ruby-kramdown	ruby-kramdown
+dep	ruby-kramdown-parser-gfm	ruby-kramdown-parser-gfm
+dep	ruby-mustache	ruby-mustache
+dep	ruby-nokogiri	ruby-nokogiri

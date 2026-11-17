@@ -1,0 +1,13 @@
+name	aws-c-sdkutils-dev
+version	0.2.4-r1
+description	C99 library implementing AWS SDK specific utilities (development files)
+url	https://github.com/awslabs/aws-c-sdkutils
+license	Apache-2.0
+size	8925
+installed-size	29135
+depends	aws-c-sdkutils=0.2.4-r1
+origin	aws-c-sdkutils
+repo	community
+file	aws-c-sdkutils-dev-0.2.4-r1.apk
+checksum	Q1lMnRMDgC9Sc5cA8clX/kJ/rxJLc=
+dep	aws-c-sdkutils=0.2.4-r1	aws-c-sdkutils

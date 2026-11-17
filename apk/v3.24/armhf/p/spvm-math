@@ -1,0 +1,15 @@
+name	spvm-math
+version	1.006-r2
+description	SPVM Language - Mathematical Functions
+url	https://metacpan.org/release/SPVM-Math/
+license	MIT
+size	18428
+installed-size	120931
+depends	perl spvm so:libc.musl-armhf.so.1
+origin	spvm-math
+repo	community
+file	spvm-math-1.006-r2.apk
+checksum	Q1KlQkrPVizDOdqjK1u2zdMtpDtOU=
+dep	perl	perl
+dep	spvm	spvm
+dep	so:libc.musl-armhf.so.1	musl

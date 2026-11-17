@@ -1,0 +1,15 @@
+name	dnsmasq
+version	2.92_p2-r0
+description	A lightweight DNS, DHCP, RA, TFTP and PXE server
+url	https://www.thekelleys.org.uk/dnsmasq/
+license	GPL-2.0-or-later
+size	202262
+installed-size	378428
+depends	dnsmasq-common=2.92_p2-r0 /bin/sh so:libc.musl-armhf.so.1
+origin	dnsmasq
+repo	main
+file	dnsmasq-2.92_p2-r0.apk
+checksum	Q1IL3oBuWgEuSFb/r1xIalpw9u1ow=
+dep	dnsmasq-common=2.92_p2-r0	dnsmasq-common
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

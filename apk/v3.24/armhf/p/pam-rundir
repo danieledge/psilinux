@@ -1,0 +1,14 @@
+name	pam-rundir
+version	1.0.0-r4
+description	Provides user runtime directory (XDG_RUNTIME_DIR) on Linux systems
+url	https://jjacky.com/pam_rundir/
+license	GPL-2.0-or-later
+size	5689
+installed-size	13540
+depends	so:libc.musl-armhf.so.1 so:libpam.so.0
+origin	pam-rundir
+repo	community
+file	pam-rundir-1.0.0-r4.apk
+checksum	Q1xDblXR5dR+f/wjcmtNNzr1Vyo9M=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpam.so.0	linux-pam

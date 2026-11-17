@@ -1,0 +1,14 @@
+name	nextcloud33-files_sharing
+version	33.0.10-r0
+description	Nextcloud File sharing app
+url	https://nextcloud.com/
+license	AGPL-3.0-only
+size	895093
+installed-size	4239164
+depends	nextcloud33 nextcloud33-federatedfilesharing
+origin	nextcloud33
+repo	community
+file	nextcloud33-files_sharing-33.0.10-r0.apk
+checksum	Q1GSV6JvSSZmDagnfnsaxz5jf8QdQ=
+dep	nextcloud33	nextcloud33
+dep	nextcloud33-federatedfilesharing	nextcloud33

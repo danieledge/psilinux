@@ -1,0 +1,14 @@
+name	py3-urwid
+version	3.0.5-r1
+description	A console user interface library for Python3
+url	https://urwid.org/
+license	LGPL-2.1-only
+size	252749
+installed-size	1090122
+depends	py3-wcwidth python3~3.14
+origin	py3-urwid
+repo	community
+file	py3-urwid-3.0.5-r1.apk
+checksum	Q1PvbOPl5Te/KXBU+Ih1YsRDt4b7M=
+dep	py3-wcwidth	py3-wcwidth
+dep	python3~3.14	python3

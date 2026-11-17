@@ -1,0 +1,14 @@
+name	bc
+version	1.08.2-r1
+description	Arbitrary precision numeric processing language (calculator)
+url	https://www.gnu.org/software/bc/bc.html
+license	GPL-3.0-or-later
+size	54445
+installed-size	109304
+depends	so:libc.musl-armhf.so.1 so:libreadline.so.8
+origin	bc
+repo	main
+file	bc-1.08.2-r1.apk
+checksum	Q1sOdy8iS0v8UZyOyuJwvmHry25SM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libreadline.so.8	readline

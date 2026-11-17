@@ -1,0 +1,14 @@
+name	coin-dev
+version	4.0.8-r0
+description	OpenGL OpenInventor compatible graphics library (development files)
+url	https://github.com/coin3d/coin
+license	BSD-3-Clause
+size	334417
+installed-size	2973632
+depends	coin=4.0.8-r0 pkgconfig
+origin	coin
+repo	community
+file	coin-dev-4.0.8-r0.apk
+checksum	Q1LESuhTKuTc+o9b36u199S8atRTg=
+dep	coin=4.0.8-r0	coin
+dep	pkgconfig	pkgconf

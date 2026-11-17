@@ -1,0 +1,18 @@
+name	sdl2_pango
+version	2.1.5-r2
+description	Pango SDL binding
+url	https://github.com/markuskimius/SDL2_Pango
+license	LGPL-2.1-or-later
+size	7328
+installed-size	13452
+depends	so:libSDL2-2.0.so.0 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libpango-1.0.so.0 so:libpangoft2-1.0.so.0
+origin	sdl2_pango
+repo	community
+file	sdl2_pango-2.1.5-r2.apk
+checksum	Q1Tu+fga/WrmHiJzSMNWR37Tpqhi4=
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangoft2-1.0.so.0	pango

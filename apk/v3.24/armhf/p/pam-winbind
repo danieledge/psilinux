@@ -1,0 +1,15 @@
+name	pam-winbind
+version	4.23.8-r0
+description	PAM module for winbind
+url	https://www.samba.org/
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	29894
+installed-size	62888
+depends	so:libc.musl-armhf.so.1 so:libpam.so.0 so:libtalloc.so.2
+origin	samba
+repo	main
+file	pam-winbind-4.23.8-r0.apk
+checksum	Q1e21CkK5/SnPB47IGpOQClVdhsVg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpam.so.0	linux-pam
+dep	so:libtalloc.so.2	talloc

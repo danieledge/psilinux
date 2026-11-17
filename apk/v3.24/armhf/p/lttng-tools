@@ -1,0 +1,24 @@
+name	lttng-tools
+version	2.14.0-r1
+description	LTTng 2.0 control and utility programs
+url	https://lttng.org
+license	GPL-2.0-only AND LGPL-2.1-only
+size	2210907
+installed-size	5364705
+depends	babeltrace so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkmod.so.2 so:liblttng-ust-common.so.1 so:liblttng-ust-ctl.so.6 so:libpopt.so.0 so:libstdc++.so.6 so:liburcu-cds.so.8 so:liburcu-common.so.8 so:liburcu.so.8 so:libxml2.so.2
+origin	lttng-tools
+repo	community
+file	lttng-tools-2.14.0-r1.apk
+checksum	Q1tF6+6c1gp7ygFKKNPIOAW8ZHPyA=
+dep	babeltrace	babeltrace
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libkmod.so.2	kmod-libs
+dep	so:liblttng-ust-common.so.1	lttng-ust
+dep	so:liblttng-ust-ctl.so.6	lttng-ust
+dep	so:libpopt.so.0	popt
+dep	so:libstdc++.so.6	libstdc++
+dep	so:liburcu-cds.so.8	userspace-rcu
+dep	so:liburcu-common.so.8	userspace-rcu
+dep	so:liburcu.so.8	userspace-rcu
+dep	so:libxml2.so.2	libxml2

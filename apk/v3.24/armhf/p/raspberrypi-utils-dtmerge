@@ -1,0 +1,14 @@
+name	raspberrypi-utils-dtmerge
+version	0.20260811-r0
+description	A tool for applying compiled DT overlays (*.dtbo) to base Device Tree files (*.dtb).
+url	https://github.com/raspberrypi/utils
+license	BSD-3-Clause
+size	32339
+installed-size	69360
+depends	so:libc.musl-armhf.so.1 so:libfdt.so.1
+origin	raspberrypi-utils
+repo	community
+file	raspberrypi-utils-dtmerge-0.20260811-r0.apk
+checksum	Q1Eg4tMXyuMHp9b3IaD5FgPijKPz0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfdt.so.1	libfdt

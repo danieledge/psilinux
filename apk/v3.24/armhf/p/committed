@@ -1,0 +1,15 @@
+name	committed
+version	1.1.11-r0
+description	Nitpicking your commit history
+url	https://github.com/crate-ci/committed
+license	MIT OR Apache-2.0
+size	916724
+installed-size	1956160
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgit2.so.1.9
+origin	committed
+repo	community
+file	committed-1.1.11-r0.apk
+checksum	Q1+Z1ybur/g3GuViUM+VgKa7aJljk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgit2.so.1.9	libgit2

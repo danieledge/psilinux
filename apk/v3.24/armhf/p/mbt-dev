@@ -1,0 +1,15 @@
+name	mbt-dev
+version	3.11-r2
+description	Memory-based Tagger and Tagger Generator (development files)
+url	https://github.com/LanguageMachines/mbt
+license	GPL-3.0-only
+size	1634497
+installed-size	6318964
+depends	mbt=3.11-r2 pc:timbl>=6.4.2 pkgconfig
+origin	mbt
+repo	community
+file	mbt-dev-3.11-r2.apk
+checksum	Q1Xejh/3IdyumqfPx1BsQ6v7quWWQ=
+dep	mbt=3.11-r2	mbt
+dep	pc:timbl>=6.4.2	timbl-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,15 @@
+name	perl-crypt-jwt
+version	0.038-r0
+description	JSON Web Token
+url	https://metacpan.org/release/Crypt-JWT/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	26237
+installed-size	94910
+depends	perl perl-json perl-cryptx
+origin	perl-crypt-jwt
+repo	community
+file	perl-crypt-jwt-0.038-r0.apk
+checksum	Q1/BPURtW4AndsESP5UpFa+4wW4qs=
+dep	perl	perl
+dep	perl-json	perl-json
+dep	perl-cryptx	perl-cryptx

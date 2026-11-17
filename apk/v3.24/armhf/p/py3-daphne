@@ -1,0 +1,16 @@
+name	py3-daphne
+version	4.2.3-r0
+description	HTTP, HTTP2 and WebSocket protocol server for ASGI and ASGI-HTTP
+url	https://github.com/django/daphne
+license	BSD-3-Clause
+size	27906
+installed-size	89606
+depends	py3-twisted py3-autobahn py3-asgiref python3~3.14
+origin	py3-daphne
+repo	community
+file	py3-daphne-4.2.3-r0.apk
+checksum	Q1yGfxL37IwuHOsBH3TzrSONPRh4g=
+dep	py3-twisted	py3-twisted
+dep	py3-autobahn	py3-autobahn
+dep	py3-asgiref	py3-asgiref
+dep	python3~3.14	python3

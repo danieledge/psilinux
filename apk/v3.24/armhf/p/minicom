@@ -1,0 +1,15 @@
+name	minicom
+version	2.10-r0
+description	menu driven communications program for terminals
+url	https://tracker.debian.org/pkg/minicom
+license	GPL-2.0-or-later
+size	98071
+installed-size	217950
+depends	so:libc.musl-armhf.so.1 so:libintl.so.8 so:libncursesw.so.6
+origin	minicom
+repo	main
+file	minicom-2.10-r0.apk
+checksum	Q1X0RTL0UEAJ5UNfrktLHznnIq2qc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libintl.so.8	libintl
+dep	so:libncursesw.so.6	libncursesw

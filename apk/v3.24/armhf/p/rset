@@ -1,0 +1,13 @@
+name	rset
+version	3.3-r1
+description	Configure systems using any scripting language
+url	https://scriptedconfiguration.org/
+license	ISC
+size	30147
+installed-size	64072
+depends	so:libc.musl-armhf.so.1
+origin	rset
+repo	community
+file	rset-3.3-r1.apk
+checksum	Q1dTCHOr7rSJefm693O8E9tHgTb1M=
+dep	so:libc.musl-armhf.so.1	musl

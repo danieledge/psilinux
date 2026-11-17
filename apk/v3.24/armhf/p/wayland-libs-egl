@@ -1,0 +1,13 @@
+name	wayland-libs-egl
+version	1.25.0-r0
+description	A computer display server protocol (egl library)
+url	https://wayland.freedesktop.org
+license	MIT
+size	3269
+installed-size	5256
+depends	so:libc.musl-armhf.so.1
+origin	wayland
+repo	main
+file	wayland-libs-egl-1.25.0-r0.apk
+checksum	Q1wOZ33xBWzqFZg3G+g08U+wN25Wg=
+dep	so:libc.musl-armhf.so.1	musl

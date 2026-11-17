@@ -1,0 +1,15 @@
+name	perl-authen-radius
+version	0.37-r0
+description	Perl module for Authen-Radius
+url	https://metacpan.org/release/Authen-Radius/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	40658
+installed-size	168869
+depends	perl perl-net-ip perl-data-hexdump
+origin	perl-authen-radius
+repo	community
+file	perl-authen-radius-0.37-r0.apk
+checksum	Q1R3nu8HrnowgeQ2ERve83QXUcnJs=
+dep	perl	perl
+dep	perl-net-ip	perl-net-ip
+dep	perl-data-hexdump	perl-data-hexdump

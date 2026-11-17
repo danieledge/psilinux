@@ -1,0 +1,13 @@
+name	outils-signify
+version	0.14-r0
+description	signify tool from outils
+url	https://github.com/leahneukirchen/outils
+license	BSD-3-Clause ISC
+size	67089
+installed-size	173272
+depends	so:libc.musl-armhf.so.1
+origin	outils
+repo	community
+file	outils-signify-0.14-r0.apk
+checksum	Q1JY/yJpZKHKiaquynUJj9e7ySGYk=
+dep	so:libc.musl-armhf.so.1	musl

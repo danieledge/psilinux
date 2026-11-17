@@ -1,0 +1,22 @@
+name	mariadb-test
+version	11.8.9-r0
+description	The test suite distributed with MariaDB
+url	https://www.mariadb.org/
+license	GPL-2.0-only
+size	43515931
+installed-size	270788086
+depends	mariadb-common so:libaio.so.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libpcre2-8.so.0 so:libpcre2-posix.so.3 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1
+origin	mariadb
+repo	main
+file	mariadb-test-11.8.9-r0.apk
+checksum	Q1GR1HacZgNsD2XbwkWf3fcxniGLo=
+dep	mariadb-common	mariadb-common
+dep	so:libaio.so.1	libaio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libpcre2-posix.so.3	pcre2
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

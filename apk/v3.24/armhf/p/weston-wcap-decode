@@ -1,0 +1,14 @@
+name	weston-wcap-decode
+version	14.0.2-r5
+description	Weston client: wcap-decode
+url	https://wayland.freedesktop.org/
+license	MIT
+size	6376
+installed-size	9388
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2
+origin	weston
+repo	community
+file	weston-wcap-decode-14.0.2-r5.apk
+checksum	Q19j3iWrQO0qkVaeoK9yt4MRXLmpE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo

@@ -1,0 +1,15 @@
+name	sane-backend-plustek_pp
+version	1.4.0-r4
+description	SANE backend for Plustek parallel port flatbed scanners
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	83190
+installed-size	158780
+depends	sane so:libc.musl-armhf.so.1 so:libieee1284.so.3
+origin	sane
+repo	community
+file	sane-backend-plustek_pp-1.4.0-r4.apk
+checksum	Q1AkPNhH3oLuG9gQsKrguhMHA9CY8=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libieee1284.so.3	libieee1284

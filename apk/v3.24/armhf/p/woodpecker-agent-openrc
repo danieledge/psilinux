@@ -1,0 +1,13 @@
+name	woodpecker-agent-openrc
+version	3.14.1-r3
+description	Woodpecker CI agent (OpenRC init scripts)
+url	https://woodpecker-ci.org
+license	Apache-2.0
+size	2086
+installed-size	1198
+depends	openrc
+origin	woodpecker
+repo	community
+file	woodpecker-agent-openrc-3.14.1-r3.apk
+checksum	Q1TtIIoh7lWFPYTSY9qW83AQXORrc=
+dep	openrc	openrc

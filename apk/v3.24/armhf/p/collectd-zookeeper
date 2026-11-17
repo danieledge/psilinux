@@ -1,0 +1,14 @@
+name	collectd-zookeeper
+version	5.12.0-r25
+description	zookeeper pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	5329
+installed-size	9344
+depends	collectd so:libc.musl-armhf.so.1
+origin	collectd
+repo	community
+file	collectd-zookeeper-5.12.0-r25.apk
+checksum	Q1TCYIlAkqS2y6Xfi1uMIVtt46P70=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl

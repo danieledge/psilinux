@@ -1,0 +1,19 @@
+name	sane-backend-epsonds
+version	1.4.0-r4
+description	SANE backend for EPSON ESC/I-2 scanners
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	68049
+installed-size	154442
+depends	sane so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-armhf.so.1 so:libjpeg.so.8 so:libusb-1.0.so.0 so:libxml2.so.2
+origin	sane
+repo	community
+file	sane-backend-epsonds-1.4.0-r4.apk
+checksum	Q1vnl+xjkaZNDKhkvM946l16GodyA=
+dep	sane	sane
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libusb-1.0.so.0	libusb
+dep	so:libxml2.so.2	libxml2

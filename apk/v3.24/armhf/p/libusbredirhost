@@ -1,0 +1,15 @@
+name	libusbredirhost
+version	0.14.0-r0
+description	USB network redirection protocol libraries
+url	https://www.spice-space.org/usbredir.html
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	15537
+installed-size	29980
+depends	so:libc.musl-armhf.so.1 so:libusb-1.0.so.0 so:libusbredirparser.so.1
+origin	usbredir
+repo	community
+file	libusbredirhost-0.14.0-r0.apk
+checksum	Q1gaP+jwSAEdci1QkaLobkh9sjELo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb
+dep	so:libusbredirparser.so.1	libusbredirparser

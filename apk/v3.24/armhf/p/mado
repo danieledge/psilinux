@@ -1,0 +1,14 @@
+name	mado
+version	0.3.0-r0
+description	A fast Markdown linter written in Rust
+url	https://github.com/akiomik/mado
+license	Apache-2.0
+size	1359705
+installed-size	3094112
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	mado
+repo	community
+file	mado-0.3.0-r0.apk
+checksum	Q1lwU6Fn5lBZPR837z10XodM2MLqo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

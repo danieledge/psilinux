@@ -1,0 +1,18 @@
+name	libpagemaker-dev
+version	0.0.4-r9
+description	Import filter and tools for PageMaker (development files)
+url	https://wiki.documentfoundation.org/DLP/Libraries/libpagemaker
+license	MPL-2.0
+size	2996
+installed-size	2598
+depends	boost-dev librevenge-dev libpagemaker=0.0.4-r9 pc:librevenge-0.0 pc:librevenge-stream-0.0 pkgconfig
+origin	libpagemaker
+repo	community
+file	libpagemaker-dev-0.0.4-r9.apk
+checksum	Q1Fsy+YYadbsI+rkebirLz+EA3Aa0=
+dep	boost-dev	boost-dev
+dep	librevenge-dev	librevenge-dev
+dep	libpagemaker=0.0.4-r9	libpagemaker
+dep	pc:librevenge-0.0	librevenge-dev
+dep	pc:librevenge-stream-0.0	librevenge-dev
+dep	pkgconfig	pkgconf

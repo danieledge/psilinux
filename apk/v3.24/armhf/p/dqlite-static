@@ -1,0 +1,13 @@
+name	dqlite-static
+version	1.18.6-r0
+description	Embeddable, replicated and fault tolerant SQL engine (static library)
+url	https://dqlite.io/
+license	LGPL-3.0-only
+size	6335003
+installed-size	16758548
+depends	dqlite-dev
+origin	dqlite
+repo	community
+file	dqlite-static-1.18.6-r0.apk
+checksum	Q1+7Q710Ib3gqpVXovhRBGdA+i60s=
+dep	dqlite-dev	dqlite-dev

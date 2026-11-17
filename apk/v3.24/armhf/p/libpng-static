@@ -1,0 +1,13 @@
+name	libpng-static
+version	1.6.59-r0
+description	Portable Network Graphics library (static library)
+url	http://www.libpng.org
+license	Libpng
+size	109704
+installed-size	252142
+depends	libpng-dev
+origin	libpng
+repo	main
+file	libpng-static-1.6.59-r0.apk
+checksum	Q17VqtPRHBBJdHtQ3AwaunypYdC1w=
+dep	libpng-dev	libpng-dev

@@ -1,0 +1,23 @@
+name	ayatana-indicator-sound
+version	24.5.2-r0
+description	Ayatana Indicator Sound Applet
+url	https://github.com/AyatanaIndicators/ayatana-indicator-sound
+license	GPL-3.0-only
+size	115958
+installed-size	301461
+depends	so:libaccountsservice.so.0 so:libayatana-common.so.0 so:libc.musl-armhf.so.1 so:libgee-0.8.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libnotify.so.4 so:libpulse-mainloop-glib.so.0 so:libpulse.so.0
+origin	ayatana-indicator-sound
+repo	community
+file	ayatana-indicator-sound-24.5.2-r0.apk
+checksum	Q1TPOXGLjo7P/l2l6qFQ2vcMORcAU=
+dep	so:libaccountsservice.so.0	libaccountsservice
+dep	so:libayatana-common.so.0	libayatana-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgee-0.8.so.2	libgee
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libnotify.so.4	libnotify
+dep	so:libpulse-mainloop-glib.so.0	libpulse-mainloop-glib
+dep	so:libpulse.so.0	libpulse

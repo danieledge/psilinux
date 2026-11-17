@@ -1,0 +1,18 @@
+name	frr-snmp
+version	10.6.1-r0
+description	Free Range Routing is a fork of Quagga (net-snmp bindings)
+url	https://frrouting.org/
+license	GPL-2.0-or-later
+size	75212
+installed-size	518740
+depends	iproute2 bash so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libnetsnmp.so.45 so:libnetsnmpagent.so.45
+origin	frr
+repo	community
+file	frr-snmp-10.6.1-r0.apk
+checksum	Q1mTvzkHeGgB6YRBk+VDv2rXe4zi8=
+dep	iproute2	iproute2
+dep	bash	bash
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libnetsnmp.so.45	net-snmp-libs
+dep	so:libnetsnmpagent.so.45	net-snmp-agent-libs

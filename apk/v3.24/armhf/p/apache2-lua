@@ -1,0 +1,15 @@
+name	apache2-lua
+version	2.4.71-r0
+description	Lua support for the Apache HTTP server
+url	https://httpd.apache.org/
+license	Apache-2.0
+size	43103
+installed-size	103749
+depends	apache2 so:libc.musl-armhf.so.1 so:liblua.so.5
+origin	apache2
+repo	main
+file	apache2-lua-2.4.71-r0.apk
+checksum	Q1hq9tvneSwIsCz0Rok+s0Zetn4gY=
+dep	apache2	apache2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblua.so.5	lua5.1-libs

@@ -1,0 +1,13 @@
+name	linux-firmware-ath12k
+version	20260519-r0
+description	firmware files for linux (ath12k folder)
+url	https://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git;a=summary
+license	custom
+size	16648834
+installed-size	16645269
+depends	linux-firmware-ath11k=20260519-r0
+origin	linux-firmware
+repo	main
+file	linux-firmware-ath12k-20260519-r0.apk
+checksum	Q1nMpNt1aM9Lheo9eqbJU3ft4BCx4=
+dep	linux-firmware-ath11k=20260519-r0	linux-firmware-ath11k

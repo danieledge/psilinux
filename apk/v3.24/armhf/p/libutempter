@@ -1,0 +1,15 @@
+name	libutempter
+version	1.2.3-r1
+description	Library interface to record user sessions in utmp/wtmp files
+url	http://freecode.com/projects/libutempter
+license	LGPL-2.1-or-later
+size	6022
+installed-size	14740
+depends	so:libc.musl-armhf.so.1 so:libskarnet.so.2.15 so:libutmps.so.0.1
+origin	libutempter
+repo	main
+file	libutempter-1.2.3-r1.apk
+checksum	Q1AGrtE6PQSKpkBqJBNxakCt/Rn3I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libskarnet.so.2.15	skalibs-libs
+dep	so:libutmps.so.0.1	utmps-libs

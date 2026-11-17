@@ -1,0 +1,13 @@
+name	libxau
+version	1.0.12-r0
+description	X11 authorisation library
+url	https://xorg.freedesktop.org/
+license	MIT
+size	5385
+installed-size	9336
+depends	so:libc.musl-armhf.so.1
+origin	libxau
+repo	main
+file	libxau-1.0.12-r0.apk
+checksum	Q1e26v+ZSTub8dU8EdNOIUaEf+xJI=
+dep	so:libc.musl-armhf.so.1	musl

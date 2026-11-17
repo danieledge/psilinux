@@ -1,0 +1,13 @@
+name	chicken-libs
+version	5.4.0-r0
+description	R5RS and R7RS compatible scheme compiler and interpreter (libraries)
+url	https://call-cc.org/
+license	BSD-3-Clause
+size	1199972
+installed-size	3636436
+depends	so:libc.musl-armhf.so.1
+origin	chicken
+repo	community
+file	chicken-libs-5.4.0-r0.apk
+checksum	Q129HFdbxtmtk0HqdLVHuLFRsVAuM=
+dep	so:libc.musl-armhf.so.1	musl

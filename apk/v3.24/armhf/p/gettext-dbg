@@ -1,0 +1,12 @@
+name	gettext-dbg
+version	1.0-r0
+description	GNU locale utilities (debug symbols)
+url	https://www.gnu.org/software/gettext/gettext.html
+license	GPL-3.0-or-later AND LGPL-2.1-or-later AND MIT
+size	3752910
+installed-size	9094968
+depends	!gettext-asprintf<1.0-r0 !gettext-asprintf>1.0-r0 !gettext-envsubst<1.0-r0 !gettext-envsubst>1.0-r0 !gettext-libs<1.0-r0 !gettext-libs>1.0-r0 !gettext<1.0-r0 !gettext>1.0-r0 !libintl<1.0-r0 !libintl>1.0-r0
+origin	gettext
+repo	main
+file	gettext-dbg-1.0-r0.apk
+checksum	Q1H4dFJv4Qws2TUAOOVTZhhXKKMtg=

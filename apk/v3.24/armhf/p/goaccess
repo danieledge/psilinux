@@ -1,0 +1,16 @@
+name	goaccess
+version	1.10.2-r0
+description	Real-time web log analyzer and interactive viewer
+url	https://goaccess.io/
+license	MIT
+size	628470
+installed-size	2317694
+depends	so:libc.musl-armhf.so.1 so:libintl.so.8 so:libmaxminddb.so.0 so:libncursesw.so.6
+origin	goaccess
+repo	main
+file	goaccess-1.10.2-r0.apk
+checksum	Q15bQXqPm79uWiRx9+TVAtcmbaalQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libintl.so.8	libintl
+dep	so:libmaxminddb.so.0	libmaxminddb-libs
+dep	so:libncursesw.so.6	libncursesw

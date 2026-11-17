@@ -1,0 +1,14 @@
+name	perl-lv-backend-magic
+version	0.006-r1
+description	Create lvalue subroutines (Variable::Magic backend)
+url	https://metacpan.org/release/LV/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	2101
+installed-size	651
+depends	perl-lv=0.006-r1 perl-variable-magic
+origin	perl-lv
+repo	community
+file	perl-lv-backend-magic-0.006-r1.apk
+checksum	Q1q+vssiIuehyXzy/WdGk+8kycSX8=
+dep	perl-lv=0.006-r1	perl-lv
+dep	perl-variable-magic	perl-variable-magic

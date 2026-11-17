@@ -1,0 +1,16 @@
+name	ocaml-zed-dev
+version	3.1.0-r6
+description	Abstract engine for text edition in OCaml (development files)
+url	https://github.com/ocaml-community/zed
+license	BSD-3-Clause
+size	1180975
+installed-size	3054869
+depends	ocaml-zed=3.1.0-r6 ocaml-camomile-dev ocaml-charinfo_width-dev ocaml-react-dev
+origin	ocaml-zed
+repo	community
+file	ocaml-zed-dev-3.1.0-r6.apk
+checksum	Q1kwyXb4+jacA2QS40OBUc8aGyZhI=
+dep	ocaml-zed=3.1.0-r6	ocaml-zed
+dep	ocaml-camomile-dev	ocaml-camomile-dev
+dep	ocaml-charinfo_width-dev	ocaml-charinfo_width-dev
+dep	ocaml-react-dev	ocaml-react-dev

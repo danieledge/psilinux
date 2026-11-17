@@ -1,0 +1,13 @@
+name	pdpmake
+version	2.0.4-r0
+description	An implementation of POSIX make
+url	https://frippery.org/make/
+license	Public Domain
+size	20173
+installed-size	38116
+depends	so:libc.musl-armhf.so.1
+origin	pdpmake
+repo	community
+file	pdpmake-2.0.4-r0.apk
+checksum	Q1u/30UJ1VT6kO1a5W3cwKjI9btoo=
+dep	so:libc.musl-armhf.so.1	musl

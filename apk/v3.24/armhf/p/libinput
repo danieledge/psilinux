@@ -1,0 +1,17 @@
+name	libinput
+version	1.31.3-r0
+description	Library for handling input devices
+url	https://www.freedesktop.org/wiki/Software/libinput
+license	MIT
+size	29370
+installed-size	71630
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libevdev.so.2 so:libinput.so.10 so:libudev.so.1
+origin	libinput
+repo	community
+file	libinput-1.31.3-r0.apk
+checksum	Q1gcAE75D4My8ogZI0QJ+IYyBAdJM=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevdev.so.2	libevdev
+dep	so:libinput.so.10	libinput-libs
+dep	so:libudev.so.1	eudev-libs

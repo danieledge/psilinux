@@ -1,0 +1,13 @@
+name	abseil-cpp-flags-commandlineflag-internal
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-flags-commandlineflag-internal
+url	https://abseil.io/
+license	Apache-2.0
+size	3252
+installed-size	5344
+depends	so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-flags-commandlineflag-internal-20250814.1-r0.apk
+checksum	Q1kjMGQVhBYW5FtXWt/Hsrblrsug4=
+dep	so:libstdc++.so.6	libstdc++

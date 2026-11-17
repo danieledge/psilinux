@@ -1,0 +1,14 @@
+name	raku-digest-sha1-native
+version	1.0.1-r0
+description	Fast SHA1 computation using NativeCall to C
+url	https://github.com/bduggan/raku-digest-sha1-native
+license	Artistic-2.0
+size	47917
+installed-size	119311
+depends	rakudo so:libc.musl-armhf.so.1
+origin	raku-digest-sha1-native
+repo	community
+file	raku-digest-sha1-native-1.0.1-r0.apk
+checksum	Q1UjmSJNdfvA9cAivkBA2hnTlklaU=
+dep	rakudo	rakudo
+dep	so:libc.musl-armhf.so.1	musl

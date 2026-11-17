@@ -1,0 +1,31 @@
+name	gvim
+version	9.2.1352-r0
+description	Improved vi-style text editor (GTK3 GUI)
+url	https://www.vim.org/
+license	Vim
+size	1983940
+installed-size	3898421
+depends	vim-common=9.2.1352-r0 xxd=9.2.1352-r0 so:libICE.so.6 so:libSM.so.6 so:libX11.so.6 so:libXt.so.6 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libncursesw.so.6 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpixman-1.so.0 so:libwayland-client.so.0
+origin	vim
+repo	community
+file	gvim-9.2.1352-r0.apk
+checksum	Q1BOwGArNihFY4n37PiyK3Q6yhmcI=
+dep	vim-common=9.2.1352-r0	vim-common
+dep	xxd=9.2.1352-r0	xxd
+dep	so:libICE.so.6	libice
+dep	so:libSM.so.6	libsm
+dep	so:libX11.so.6	libx11
+dep	so:libXt.so.6	libxt
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpixman-1.so.0	pixman
+dep	so:libwayland-client.so.0	wayland-libs-client

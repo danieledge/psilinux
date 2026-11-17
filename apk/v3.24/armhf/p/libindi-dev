@@ -1,0 +1,14 @@
+name	libindi-dev
+version	2.1.5.1-r2
+description	implementation of the INDI protocol for astronomical instrumentation control (development files)
+url	https://indilib.org
+license	LGPL-2.1-only AND GPL-2.0-only AND BSD-3-Clause
+size	20223822
+installed-size	71273022
+depends	libindi=2.1.5.1-r2 pkgconfig
+origin	libindi
+repo	community
+file	libindi-dev-2.1.5.1-r2.apk
+checksum	Q1Ehcp+U4S1GncKxmesy8HN92CABA=
+dep	libindi=2.1.5.1-r2	libindi
+dep	pkgconfig	pkgconf

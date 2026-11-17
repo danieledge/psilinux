@@ -1,0 +1,15 @@
+name	ion-shell
+version	1.0.5_git20260216-r0
+description	modern system shell with simple, yet powerful, syntax
+url	https://doc.redox-os.org/ion-manual/
+license	MIT
+size	1032929
+installed-size	2003640
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	ion-shell
+repo	community
+file	ion-shell-1.0.5_git20260216-r0.apk
+checksum	Q1nsjj4GJzloPacKhELgwVP+ecYnk=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

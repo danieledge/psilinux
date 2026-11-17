@@ -1,0 +1,16 @@
+name	libxt
+version	1.3.1-r0
+description	X11 toolkit intrinsics library
+url	https://xorg.freedesktop.org/
+license	MIT
+size	148315
+installed-size	320264
+depends	so:libICE.so.6 so:libSM.so.6 so:libX11.so.6 so:libc.musl-armhf.so.1
+origin	libxt
+repo	main
+file	libxt-1.3.1-r0.apk
+checksum	Q12jGJkbdlsqMglJLH7G2aHgVWvFs=
+dep	so:libICE.so.6	libice
+dep	so:libSM.so.6	libsm
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl

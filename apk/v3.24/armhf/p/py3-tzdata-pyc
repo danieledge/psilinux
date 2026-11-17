@@ -1,0 +1,13 @@
+name	py3-tzdata-pyc
+version	2026.4-r0
+description	Precompiled Python bytecode for py3-tzdata
+url	https://github.com/python/tzdata
+license	Apache-2.0
+size	4705
+installed-size	3757
+depends	python3~3.14
+origin	py3-tzdata
+repo	community
+file	py3-tzdata-pyc-2026.4-r0.apk
+checksum	Q1o3jnXSdQ/fM2w8KhcowfR4brMPE=
+dep	python3~3.14	python3

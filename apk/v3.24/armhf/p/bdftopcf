@@ -1,0 +1,13 @@
+name	bdftopcf
+version	1.1.2-r0
+description	X.Org font utility
+url	https://xorg.freedesktop.org/
+license	MIT
+size	18590
+installed-size	34028
+depends	so:libc.musl-armhf.so.1
+origin	bdftopcf
+repo	main
+file	bdftopcf-1.1.2-r0.apk
+checksum	Q1BAlwbzXK56BgiT0GEVLJV5anKBo=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	freexl-dev
+version	2.0.0-r0
+description	Library to extract valid data from within an Excel (.xls) spreadsheet (development files)
+url	https://www.gaia-gis.it/fossil/freexl/index
+license	MPL-1.1 GPL-2.0-only LGPL-2.1-only
+size	326862
+installed-size	365972
+depends	freexl=2.0.0-r0 pkgconfig
+origin	freexl
+repo	community
+file	freexl-dev-2.0.0-r0.apk
+checksum	Q1IbwwkVY6naQlXZ9t0pBWnaA+kqw=
+dep	freexl=2.0.0-r0	freexl
+dep	pkgconfig	pkgconf

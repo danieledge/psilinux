@@ -1,0 +1,14 @@
+name	libnetfilter_cthelper-dev
+version	1.0.1-r2
+description	A Netfilter netlink library for connection tracking helpers (development files)
+url	https://www.netfilter.org/projects/libnetfilter_cthelper/
+license	GPL-2.0-only
+size	2634
+installed-size	3278
+depends	libnetfilter_cthelper=1.0.1-r2 pkgconfig
+origin	libnetfilter_cthelper
+repo	main
+file	libnetfilter_cthelper-dev-1.0.1-r2.apk
+checksum	Q1mJEhFw4Z7Gh8jKgfDQsEZB62qcs=
+dep	libnetfilter_cthelper=1.0.1-r2	libnetfilter_cthelper
+dep	pkgconfig	pkgconf

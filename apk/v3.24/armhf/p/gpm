@@ -1,0 +1,13 @@
+name	gpm
+version	1.20.7-r6
+description	A mouse server for the console
+url	https://www.nico.schottelius.org/software/gpm/
+license	GPL-2.0-or-later
+size	46905
+installed-size	90960
+depends	so:libc.musl-armhf.so.1
+origin	gpm
+repo	main
+file	gpm-1.20.7-r6.apk
+checksum	Q1bKEKf+SfQCMt2N9jVmyKH6t9sdo=
+dep	so:libc.musl-armhf.so.1	musl

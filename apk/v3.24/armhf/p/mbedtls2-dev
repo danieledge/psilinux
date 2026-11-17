@@ -1,0 +1,14 @@
+name	mbedtls2-dev
+version	2.28.10-r0
+description	Light-weight cryptographic and SSL/TLS library (development files)
+url	https://www.trustedfirmware.org/projects/mbed-tls/
+license	Apache-2.0 OR GPL-2.0-or-later
+size	415925
+installed-size	2288298
+depends	mbedtls2=2.28.10-r0 pkgconfig
+origin	mbedtls2
+repo	community
+file	mbedtls2-dev-2.28.10-r0.apk
+checksum	Q1rH2hJogWxuVtwqTFdi++4Ures9M=
+dep	mbedtls2=2.28.10-r0	mbedtls2
+dep	pkgconfig	pkgconf

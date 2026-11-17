@@ -1,0 +1,14 @@
+name	cppunit-dev
+version	1.15.1-r4
+description	C++ unit testing framework (development files)
+url	https://www.freedesktop.org/wiki/Software/cppunit/
+license	LGPL-2.1-or-later
+size	207593
+installed-size	857547
+depends	cppunit=1.15.1-r4 pkgconfig
+origin	cppunit
+repo	main
+file	cppunit-dev-1.15.1-r4.apk
+checksum	Q17TQAZiyWBIgZUAhs3xVrgrBpNNs=
+dep	cppunit=1.15.1-r4	cppunit
+dep	pkgconfig	pkgconf

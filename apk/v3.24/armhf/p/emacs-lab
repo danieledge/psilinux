@@ -1,0 +1,21 @@
+name	emacs-lab
+version	2.2.2-r1
+description	Emacs interface for GitLab
+url	https://github.com/isamert/lab.el
+license	GPL-3.0-or-later
+size	42244
+installed-size	144319
+depends	cmd:curl cmd:emacs emacs-async-await emacs-compat emacs-f emacs-memoize emacs-promise emacs-request emacs-s
+origin	emacs-lab
+repo	community
+file	emacs-lab-2.2.2-r1.apk
+checksum	Q1yYnBFA4vkUCZTqm1X+1aGNSptRs=
+dep	cmd:curl	curl
+dep	cmd:emacs	emacs-gtk3
+dep	emacs-async-await	emacs-async-await
+dep	emacs-compat	emacs-compat
+dep	emacs-f	emacs-f
+dep	emacs-memoize	emacs-memoize
+dep	emacs-promise	emacs-promise
+dep	emacs-request	emacs-request
+dep	emacs-s	emacs-s

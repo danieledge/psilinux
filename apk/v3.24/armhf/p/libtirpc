@@ -1,0 +1,15 @@
+name	libtirpc
+version	1.3.5-r1
+description	Transport Independent RPC library (SunRPC replacement)
+url	https://sourceforge.net/projects/libtirpc/
+license	BSD-3-Clause
+size	74441
+installed-size	157288
+depends	libtirpc-conf so:libc.musl-armhf.so.1 so:libgssapi_krb5.so.2
+origin	libtirpc
+repo	main
+file	libtirpc-1.3.5-r1.apk
+checksum	Q1jYqQGUt3F28Eh/Ou2mq8tOHQ7Zg=
+dep	libtirpc-conf	libtirpc-conf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgssapi_krb5.so.2	krb5-libs

@@ -1,0 +1,14 @@
+name	ocaml-eqaf-dev
+version	0.8-r5
+description	Constant-time equal function on string (development files)
+url	https://github.com/mirage/eqaf
+license	MIT
+size	122311
+installed-size	316145
+depends	ocaml-eqaf=0.8-r5 ocaml-cstruct-dev
+origin	ocaml-eqaf
+repo	community
+file	ocaml-eqaf-dev-0.8-r5.apk
+checksum	Q13UM1+mKAGRI0yLa6b0aWg7ZwmyU=
+dep	ocaml-eqaf=0.8-r5	ocaml-eqaf
+dep	ocaml-cstruct-dev	ocaml-cstruct-dev

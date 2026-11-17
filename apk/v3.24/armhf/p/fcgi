@@ -1,0 +1,13 @@
+name	fcgi
+version	2.4.6-r0
+description	FAST CGI(fcgi) is a language independent, high performant extension to CGI
+url	https://github.com/FastCGI-Archives/fcgi2
+license	OML
+size	22949
+installed-size	47420
+depends	so:libc.musl-armhf.so.1
+origin	fcgi
+repo	main
+file	fcgi-2.4.6-r0.apk
+checksum	Q1r6fYWii9zIwTuj4ooFIRRfNxG88=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	libwmf-dev
+version	0.2.13-r1
+description	A library for reading vector images in Microsoft's native Windows Metafile Format (WMF). (development files)
+url	https://wvware.sourceforge.net/libwmf.html
+license	LGPL-2.0-or-later
+size	1277466
+installed-size	1524445
+depends	libwmf=0.2.13-r1 libwmflite=0.2.13-r1 pkgconfig
+origin	libwmf
+repo	community
+file	libwmf-dev-0.2.13-r1.apk
+checksum	Q1SXZcYDexZRdvvXojDtOrfXZzM9E=
+dep	libwmf=0.2.13-r1	libwmf
+dep	libwmflite=0.2.13-r1	libwmflite
+dep	pkgconfig	pkgconf

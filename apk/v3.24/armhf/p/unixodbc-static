@@ -1,0 +1,13 @@
+name	unixodbc-static
+version	2.3.14-r1
+description	Unix Open DataBase Connectivity sub-system and SDK (static library)
+url	https://www.unixodbc.org/
+license	LGPL-2.0-or-later
+size	335333
+installed-size	1222972
+depends	unixodbc-dev
+origin	unixodbc
+repo	main
+file	unixodbc-static-2.3.14-r1.apk
+checksum	Q1VJIPLMF1yXAOl4lkqiTAFaSdnv0=
+dep	unixodbc-dev	unixodbc-dev

@@ -1,0 +1,17 @@
+name	libsignon-glib
+version	2.1-r8
+description	GLib library to interface with the Signon Daemon
+url	https://gitlab.com/accounts-sso/libsignon-glib
+license	LGPL-2.1-only
+size	39270
+installed-size	111713
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	libsignon-glib
+repo	community
+file	libsignon-glib-2.1-r8.apk
+checksum	Q19fJs2o8t/QmEmR+skgvUO7LhJnM=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

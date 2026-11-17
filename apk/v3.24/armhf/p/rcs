@@ -1,0 +1,15 @@
+name	rcs
+version	5.10.1-r2
+description	Revision Control System
+url	https://www.gnu.org/software/rcs
+license	GPL-3.0-or-later
+size	176961
+installed-size	357119
+depends	diffutils ed so:libc.musl-armhf.so.1
+origin	rcs
+repo	community
+file	rcs-5.10.1-r2.apk
+checksum	Q1W+DzrcCbLK+Gz36HZ8hGE05Le+s=
+dep	diffutils	diffutils
+dep	ed	ed
+dep	so:libc.musl-armhf.so.1	musl

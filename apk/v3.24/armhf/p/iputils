@@ -1,0 +1,16 @@
+name	iputils
+version	20250605-r2
+description	IP Configuration Utilities
+url	https://github.com/iputils/iputils/
+license	BSD-3-Clause AND GPL-2.0-or-later
+size	1319
+installed-size	0
+depends	iputils-arping=20250605-r2 iputils-clockdiff=20250605-r2 iputils-ping=20250605-r2 iputils-tracepath=20250605-r2
+origin	iputils
+repo	main
+file	iputils-20250605-r2.apk
+checksum	Q1yt3GO2D7tVNue02sA2GJePiKyls=
+dep	iputils-arping=20250605-r2	iputils-arping
+dep	iputils-clockdiff=20250605-r2	iputils-clockdiff
+dep	iputils-ping=20250605-r2	iputils-ping
+dep	iputils-tracepath=20250605-r2	iputils-tracepath

@@ -1,0 +1,13 @@
+name	endlessh
+version	1.1-r2
+description	SSH tarpit that very slowly sends an endless, random SSH banner
+url	https://github.com/skeeto/endlessh
+license	Unlicense
+size	9600
+installed-size	17688
+depends	so:libc.musl-armhf.so.1
+origin	endlessh
+repo	community
+file	endlessh-1.1-r2.apk
+checksum	Q1TWJ1CE4KE72aNNvfZXFgKRmqbgU=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,16 @@
+name	sfdisk
+version	2.42.3-r1
+description	Partition table manipulator from util-linux
+url	https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+license	GPL-1.0-or-later
+size	37608
+installed-size	79232
+depends	so:libc.musl-armhf.so.1 so:libfdisk.so.1 so:libncursesw.so.6 so:libsmartcols.so.1
+origin	util-linux
+repo	main
+file	sfdisk-2.42.3-r1.apk
+checksum	Q177JJXLXWwKRH4Dru6Am1eeJsX5w=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfdisk.so.1	libfdisk
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libsmartcols.so.1	libsmartcols

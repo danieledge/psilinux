@@ -1,0 +1,18 @@
+name	syslog-ng-amqp
+version	4.11.0-r0
+description	Next generation logging daemon (amqp module)
+url	https://www.syslog-ng.com/products/open-source-log-management/
+license	GPL-2.0-or-later
+size	20144
+installed-size	54952
+depends	so:libc.musl-armhf.so.1 so:libevtlog-4.11.so.0 so:libglib-2.0.so.0 so:libivykis.so.0 so:librabbitmq.so.4 so:libsyslog-ng-4.11.so.0
+origin	syslog-ng
+repo	main
+file	syslog-ng-amqp-4.11.0-r0.apk
+checksum	Q1k9IM/CjpZSc/B5zjqU4Tu1DAq/Q=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevtlog-4.11.so.0	syslog-ng
+dep	so:libglib-2.0.so.0	glib
+dep	so:libivykis.so.0	ivykis
+dep	so:librabbitmq.so.4	rabbitmq-c
+dep	so:libsyslog-ng-4.11.so.0	syslog-ng

@@ -1,0 +1,20 @@
+name	perl-crypt-random-source
+version	0.14-r1
+description	Get weak or strong random data from pluggable sources
+url	https://metacpan.org/release/Crypt-Random-Source/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	8880
+installed-size	25803
+depends	perl perl-capture-tiny perl-module-find perl-module-runtime perl-moo perl-namespace-clean perl-sub-exporter perl-type-tiny
+origin	perl-crypt-random-source
+repo	community
+file	perl-crypt-random-source-0.14-r1.apk
+checksum	Q1AZ19idce/SK+YckzlutXXtxqfFo=
+dep	perl	perl
+dep	perl-capture-tiny	perl-capture-tiny
+dep	perl-module-find	perl-module-find
+dep	perl-module-runtime	perl-module-runtime
+dep	perl-moo	perl-moo
+dep	perl-namespace-clean	perl-namespace-clean
+dep	perl-sub-exporter	perl-sub-exporter
+dep	perl-type-tiny	perl-type-tiny

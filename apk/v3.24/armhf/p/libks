@@ -1,0 +1,17 @@
+name	libks
+version	2.0.11-r0
+description	Foundational support for signalwire C products
+url	https://github.com/signalwire/libks
+license	MIT
+size	81444
+installed-size	169408
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3 so:libuuid.so.1
+origin	libks
+repo	main
+file	libks-2.0.11-r0.apk
+checksum	Q1UcBbzNpF0x33q8Qpoe+BOKBPwNg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3
+dep	so:libuuid.so.1	libuuid

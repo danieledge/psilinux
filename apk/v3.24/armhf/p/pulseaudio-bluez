@@ -1,0 +1,23 @@
+name	pulseaudio-bluez
+version	17.0-r7
+description	Pulseaudio Bluetooth support
+url	https://www.freedesktop.org/wiki/Software/PulseAudio/
+license	LGPL-2.1-or-later
+size	110069
+installed-size	272720
+depends	so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstapp-1.0.so.0 so:libgstreamer-1.0.so.0 so:libintl.so.8 so:libpulse.so.0 so:libpulsecommon-17.0.so so:libpulsecore-17.0.so so:libsbc.so.1
+origin	pulseaudio
+repo	community
+file	pulseaudio-bluez-17.0-r7.apk
+checksum	Q1TS5lT7O1OajG4wWt3w73UCE2hbo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstapp-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libintl.so.8	libintl
+dep	so:libpulse.so.0	libpulse
+dep	so:libpulsecommon-17.0.so	libpulse
+dep	so:libpulsecore-17.0.so	libpulse
+dep	so:libsbc.so.1	sbc

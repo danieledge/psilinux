@@ -1,0 +1,14 @@
+name	fuse3-dev
+version	3.18.3-r0
+description	Reference implementation of the Linux FUSE (Filesystem in Userspace) interface (development files)
+url	https://github.com/libfuse/libfuse
+license	GPL-2.0-only AND LGPL-2.1-only
+size	49656
+installed-size	179734
+depends	fuse3-libs=3.18.3-r0 pkgconfig
+origin	fuse3
+repo	main
+file	fuse3-dev-3.18.3-r0.apk
+checksum	Q1a2G/zqtbjKA055lowUK54QtravQ=
+dep	fuse3-libs=3.18.3-r0	fuse3-libs
+dep	pkgconfig	pkgconf

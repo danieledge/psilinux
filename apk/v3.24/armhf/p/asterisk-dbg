@@ -1,0 +1,12 @@
+name	asterisk-dbg
+version	22.9.0-r0
+description	Modular Open Source PBX System (debug symbols)
+url	https://www.asterisk.org/
+license	GPL-2.0-only WITH OpenSSL-Exception
+size	41616095
+installed-size	100413228
+depends	!asterisk-curl<22.9.0-r0 !asterisk-curl>22.9.0-r0 !asterisk-fax<22.9.0-r0 !asterisk-fax>22.9.0-r0 !asterisk-ldap<22.9.0-r0 !asterisk-ldap>22.9.0-r0 !asterisk-mobile<22.9.0-r0 !asterisk-mobile>22.9.0-r0 !asterisk-odbc<22.9.0-r0 !asterisk-odbc>22.9.0-r0 !asterisk-opus<22.9.0-r0 !asterisk-opus>22.9.0-r0 !asterisk-pgsql<22.9.0-r0 !asterisk-pgsql>22.9.0-r0 !asterisk-prometheus<22.9.0-r0 !asterisk-prometheus>22.9.0-r0 !asterisk-speex<22.9.0-r0 !asterisk-speex>22.9.0-r0 !asterisk-srtp<22.9.0-r0 !asterisk-srtp>22.9.0-r0 !asterisk-tds<22.9.0-r0 !asterisk-tds>22.9.0-r0 !asterisk<22.9.0-r0 !asterisk>22.9.0-r0
+origin	asterisk
+repo	main
+file	asterisk-dbg-22.9.0-r0.apk
+checksum	Q1t/3EwvqkRUueHGWaFcFWkelc644=

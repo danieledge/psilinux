@@ -1,0 +1,15 @@
+name	perl-test-script
+version	1.31-r0
+description	Basic cross-platform tests for scripts
+url	https://metacpan.org/release/Test-Script/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	7668
+installed-size	21134
+depends	perl perl-probe-perl perl-capture-tiny
+origin	perl-test-script
+repo	main
+file	perl-test-script-1.31-r0.apk
+checksum	Q1ZmVnB9of+lXp0o+ZypgVJJ1V8WI=
+dep	perl	perl
+dep	perl-probe-perl	perl-probe-perl
+dep	perl-capture-tiny	perl-capture-tiny

@@ -1,0 +1,16 @@
+name	libxkbfile-dev
+version	1.2.0-r0
+description	X11 keyboard file manipulation library (development files)
+url	https://xorg.freedesktop.org/
+license	MIT
+size	10525
+installed-size	40565
+depends	libxkbfile=1.2.0-r0 pc:kbproto pc:x11 pkgconfig
+origin	libxkbfile
+repo	main
+file	libxkbfile-dev-1.2.0-r0.apk
+checksum	Q1z6zqMxT2GsEG/PWYAGa2cIWEDPs=
+dep	libxkbfile=1.2.0-r0	libxkbfile
+dep	pc:kbproto	xorgproto
+dep	pc:x11	libx11-dev
+dep	pkgconfig	pkgconf

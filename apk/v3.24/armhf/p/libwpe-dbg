@@ -1,0 +1,12 @@
+name	libwpe-dbg
+version	1.16.3-r0
+description	General-purpose library specifically developed for the WPE-flavored port of WebKit (debug symbols)
+url	https://wpewebkit.org/
+license	BSD-2-Clause
+size	70131
+installed-size	221936
+depends	!libwpe<1.16.3-r0 !libwpe>1.16.3-r0
+origin	libwpe
+repo	community
+file	libwpe-dbg-1.16.3-r0.apk
+checksum	Q1yEtPCA+v/kME2jaLNeuArt1ymvg=

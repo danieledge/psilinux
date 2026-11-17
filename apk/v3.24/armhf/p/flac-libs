@@ -1,0 +1,14 @@
+name	flac-libs
+version	1.4.3-r2
+description	Free Lossless Audio Codec
+url	https://xiph.org/flac/
+license	BSD-3-Clause AND GPL-2.0-or-later
+size	1292
+installed-size	0
+depends	libflac=1.4.3-r2 libflac++=1.4.3-r2
+origin	flac
+repo	main
+file	flac-libs-1.4.3-r2.apk
+checksum	Q1mIIi1hFf7p5CSUByqY9nZteW9/M=
+dep	libflac=1.4.3-r2	libflac
+dep	libflac++=1.4.3-r2	libflac++

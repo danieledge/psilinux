@@ -1,0 +1,16 @@
+name	libnma-dev
+version	1.10.6-r4
+description	NetworkManager GUI client library (development files)
+url	https://gitlab.gnome.org/GNOME/libnma
+license	LGPL-2.1-or-later
+size	38129
+installed-size	359826
+depends	libnma-gtk4=1.10.6-r4 libnma=1.10.6-r4 pc:libnm pkgconfig
+origin	libnma
+repo	community
+file	libnma-dev-1.10.6-r4.apk
+checksum	Q1UuZsgdktWJOTEf1q80py6c07GxM=
+dep	libnma-gtk4=1.10.6-r4	libnma-gtk4
+dep	libnma=1.10.6-r4	libnma
+dep	pc:libnm	networkmanager-dev
+dep	pkgconfig	pkgconf

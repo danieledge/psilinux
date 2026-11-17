@@ -1,0 +1,15 @@
+name	acsccid
+version	1.1.13-r1
+description	PCSC driver for ACS CCID smart card reader
+url	https://github.com/acshk/acsccid
+license	LGPL-2.1-or-later
+size	67572
+installed-size	144145
+depends	pcsc-lite so:libc.musl-armhf.so.1 so:libusb-1.0.so.0
+origin	acsccid
+repo	community
+file	acsccid-1.1.13-r1.apk
+checksum	Q1NaKgZv+M7KyKqG6ZqRv9P9yD2QM=
+dep	pcsc-lite	pcsc-lite
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb

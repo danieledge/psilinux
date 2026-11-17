@@ -1,0 +1,14 @@
+name	font-noto-sunuwar
+version	2026.11.01-r0
+description	Noto Sans Sunuwar font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	10978
+installed-size	14826
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-sunuwar-2026.11.01-r0.apk
+checksum	Q1W13yihNBFMSC68iO7QFoT/oXyKI=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

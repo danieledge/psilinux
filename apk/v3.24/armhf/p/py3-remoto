@@ -1,0 +1,14 @@
+name	py3-remoto
+version	1.2.1-r7
+description	Execute remote commands or processes
+url	https://github.com/alfredodeza/remoto
+license	MIT
+size	15890
+installed-size	38929
+depends	py3-execnet python3~3.14
+origin	py3-remoto
+repo	community
+file	py3-remoto-1.2.1-r7.apk
+checksum	Q1Venx+Qz3u6iaNmfS8wTmXMffoDc=
+dep	py3-execnet	py3-execnet
+dep	python3~3.14	python3

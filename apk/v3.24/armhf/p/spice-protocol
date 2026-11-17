@@ -1,0 +1,13 @@
+name	spice-protocol
+version	0.14.5-r0
+description	Spice protocol header files
+url	http://www.spice-space.org/
+license	BSD-3-Clause AND LGPL-2.1-or-later
+size	22360
+installed-size	93052
+depends	pkgconfig
+origin	spice-protocol
+repo	main
+file	spice-protocol-0.14.5-r0.apk
+checksum	Q1rrDqezkdQNVqn11X7aPumUshxHk=
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	libgme-dev
+version	0.6.3-r1
+description	Video game music file emulation/playback library (development files)
+url	https://bitbucket.org/mpyne/game-music-emu/wiki/Home
+license	LGPL-2.1-only
+size	7209
+installed-size	14620
+depends	libgme=0.6.3-r1 pkgconfig
+origin	libgme
+repo	community
+file	libgme-dev-0.6.3-r1.apk
+checksum	Q10S4eM89w9kvV3r6THzvHGKX5X8M=
+dep	libgme=0.6.3-r1	libgme
+dep	pkgconfig	pkgconf

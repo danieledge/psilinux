@@ -1,0 +1,14 @@
+name	php83-pecl-opentelemetry
+version	1.2.1-r0
+description	PHP 8.3 extension for OpenTelemetry auto-instrumentation support - PECL
+url	https://pecl.php.net/package/amqp
+license	Apache-2.0
+size	12341
+installed-size	25900
+depends	php83-common so:libc.musl-armhf.so.1
+origin	php83-pecl-opentelemetry
+repo	community
+file	php83-pecl-opentelemetry-1.2.1-r0.apk
+checksum	Q1eu7qAkkea2ka9Ilbbs4fgXU2wuA=
+dep	php83-common	php83-common
+dep	so:libc.musl-armhf.so.1	musl

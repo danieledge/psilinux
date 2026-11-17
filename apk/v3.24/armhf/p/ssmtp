@@ -1,0 +1,15 @@
+name	ssmtp
+version	2.64-r23
+description	Extremely simple MTA to get mail off the system to a mail hub
+url	https://packages.debian.org/stable/mail/ssmtp
+license	GPL-2.0-or-later
+size	14372
+installed-size	26608
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	ssmtp
+repo	main
+file	ssmtp-2.64-r23.apk
+checksum	Q1SXRrKwLQLQhWOef03KaSdDaLLgI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

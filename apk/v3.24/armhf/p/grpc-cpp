@@ -1,0 +1,41 @@
+name	grpc-cpp
+version	1.78.1-r2
+description	C++ language bindings for gRPC
+url	https://grpc.io/
+license	Apache-2.0 AND BSD-3-Clause AND MIT
+size	793284
+installed-size	2227676
+depends	grpc=1.78.1-r2 so:libabsl_cord.so.2508.0.0 so:libabsl_cordz_functions.so.2508.0.0 so:libabsl_cordz_info.so.2508.0.0 so:libabsl_hash.so.2508.0.0 so:libabsl_log_internal_check_op.so.2508.0.0 so:libabsl_log_internal_message.so.2508.0.0 so:libabsl_log_internal_nullguard.so.2508.0.0 so:libabsl_raw_hash_set.so.2508.0.0 so:libabsl_raw_logging_internal.so.2508.0.0 so:libabsl_status.so.2508.0.0 so:libabsl_statusor.so.2508.0.0 so:libabsl_str_format_internal.so.2508.0.0 so:libabsl_strings.so.2508.0.0 so:libabsl_synchronization.so.2508.0.0 so:libabsl_vlog_config_internal.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgpr.so.52 so:libgrpc.so.52 so:libgrpc_unsecure.so.52 so:libprotobuf.so.31 so:libprotoc.so.31 so:libstdc++.so.6 so:libupb_hash_lib.so.52 so:libupb_mem_lib.so.52 so:libupb_message_lib.so.52 so:libupb_wire_lib.so.52 so:libutf8_range_lib.so.52
+origin	grpc
+repo	community
+file	grpc-cpp-1.78.1-r2.apk
+checksum	Q1OMDX6vVTlWhGEHIite58d9y2g48=
+dep	grpc=1.78.1-r2	grpc
+dep	so:libabsl_cord.so.2508.0.0	abseil-cpp-cord
+dep	so:libabsl_cordz_functions.so.2508.0.0	abseil-cpp-cordz-functions
+dep	so:libabsl_cordz_info.so.2508.0.0	abseil-cpp-cordz-info
+dep	so:libabsl_hash.so.2508.0.0	abseil-cpp-hash
+dep	so:libabsl_log_internal_check_op.so.2508.0.0	abseil-cpp-log-internal-check-op
+dep	so:libabsl_log_internal_message.so.2508.0.0	abseil-cpp-log-internal-message
+dep	so:libabsl_log_internal_nullguard.so.2508.0.0	abseil-cpp-log-internal-nullguard
+dep	so:libabsl_raw_hash_set.so.2508.0.0	abseil-cpp-raw-hash-set
+dep	so:libabsl_raw_logging_internal.so.2508.0.0	abseil-cpp-raw-logging-internal
+dep	so:libabsl_status.so.2508.0.0	abseil-cpp-status
+dep	so:libabsl_statusor.so.2508.0.0	abseil-cpp-statusor
+dep	so:libabsl_str_format_internal.so.2508.0.0	abseil-cpp-str-format-internal
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libabsl_synchronization.so.2508.0.0	abseil-cpp-synchronization
+dep	so:libabsl_vlog_config_internal.so.2508.0.0	abseil-cpp-vlog-config-internal
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgpr.so.52	libgpr
+dep	so:libgrpc.so.52	libgrpc
+dep	so:libgrpc_unsecure.so.52	libgrpc_unsecure
+dep	so:libprotobuf.so.31	libprotobuf
+dep	so:libprotoc.so.31	libprotoc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libupb_hash_lib.so.52	grpc
+dep	so:libupb_mem_lib.so.52	libupb_mem_lib
+dep	so:libupb_message_lib.so.52	libupb_message_lib
+dep	so:libupb_wire_lib.so.52	grpc
+dep	so:libutf8_range_lib.so.52	grpc

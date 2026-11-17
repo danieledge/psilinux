@@ -1,0 +1,20 @@
+name	pjsua
+version	2.17-r0
+description	Open source command line SIP user agent (softphone)
+url	https://www.pjsip.org/pjsua.htm
+license	GPL-2.0-or-later
+size	56579
+installed-size	126592
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpj.so.2 so:libpjlib-util.so.2 so:libpjmedia.so.2 so:libpjsip-simple.so.2 so:libpjsip.so.2 so:libpjsua.so.2
+origin	pjproject
+repo	main
+file	pjsua-2.17-r0.apk
+checksum	Q1LRfwBe37/DugY4g1RTWVm3b3o5k=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpj.so.2	pjproject
+dep	so:libpjlib-util.so.2	pjproject
+dep	so:libpjmedia.so.2	pjproject
+dep	so:libpjsip-simple.so.2	pjproject
+dep	so:libpjsip.so.2	pjproject
+dep	so:libpjsua.so.2	pjproject

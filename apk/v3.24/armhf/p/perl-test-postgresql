@@ -1,0 +1,14 @@
+name	perl-test-postgresql
+version	1.29-r1
+description	PostgreSQL runner for tests
+url	https://metacpan.org/release/Test-PostgreSQL/
+license	Artistic-2.0
+size	11605
+installed-size	29055
+depends	perl perl-class-accessor-lite
+origin	perl-test-postgresql
+repo	community
+file	perl-test-postgresql-1.29-r1.apk
+checksum	Q1U0/wTZzWEcVTAfDAijOjffUyAt0=
+dep	perl	perl
+dep	perl-class-accessor-lite	perl-class-accessor-lite

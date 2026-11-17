@@ -1,0 +1,17 @@
+name	kanshi
+version	1.9.0-r0
+description	Dynamic display configuration for Wayland
+url	https://gitlab.freedesktop.org/emersion/kanshi
+license	MIT
+size	19006
+installed-size	47836
+depends	so:libc.musl-armhf.so.1 so:libjson-c.so.5 so:libscfg.so.2 so:libvali.so.1 so:libwayland-client.so.0
+origin	kanshi
+repo	community
+file	kanshi-1.9.0-r0.apk
+checksum	Q1O09xWDJxquRolVQUi0ZCk6xtdZQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjson-c.so.5	json-c
+dep	so:libscfg.so.2	libscfg
+dep	so:libvali.so.1	vali
+dep	so:libwayland-client.so.0	wayland-libs-client

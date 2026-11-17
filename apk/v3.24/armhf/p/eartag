@@ -1,0 +1,24 @@
+name	eartag
+version	1.0.2-r0
+description	Small and simple music tag editor that doesn't try to manage your entire library
+url	https://gitlab.gnome.org/World/eartag
+license	MIT
+size	120753
+installed-size	565184
+depends	python3 py3-gobject3 gtk4.0 libadwaita py3-aiofiles py3-aiohttp py3-aiohttp-retry py3-filetype py3-mutagen py3-pillow py3-pyacoustid py3-xxhash
+origin	eartag
+repo	community
+file	eartag-1.0.2-r0.apk
+checksum	Q1vDGvRrI4BRnz1cl75rA7PiQ8I9M=
+dep	python3	python3
+dep	py3-gobject3	py3-gobject3
+dep	gtk4.0	gtk4.0
+dep	libadwaita	libadwaita
+dep	py3-aiofiles	py3-aiofiles
+dep	py3-aiohttp	py3-aiohttp
+dep	py3-aiohttp-retry	py3-aiohttp-retry
+dep	py3-filetype	py3-filetype
+dep	py3-mutagen	py3-mutagen
+dep	py3-pillow	py3-pillow
+dep	py3-pyacoustid	py3-pyacoustid
+dep	py3-xxhash	py3-xxhash

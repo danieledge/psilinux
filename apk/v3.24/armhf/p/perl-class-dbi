@@ -1,0 +1,19 @@
+name	perl-class-dbi
+version	3.0.17-r6
+description	Simple Database Abstraction
+url	https://metacpan.org/release/Class-DBI/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	49435
+installed-size	143013
+depends	perl perl-class-accessor perl-class-trigger perl-universal-moniker perl-class-data-inheritable perl-ima-dbi perl-clone
+origin	perl-class-dbi
+repo	community
+file	perl-class-dbi-3.0.17-r6.apk
+checksum	Q1iItNlVo5ksQbZy0gRmn5idxw7Xg=
+dep	perl	perl
+dep	perl-class-accessor	perl-class-accessor
+dep	perl-class-trigger	perl-class-trigger
+dep	perl-universal-moniker	perl-universal-moniker
+dep	perl-class-data-inheritable	perl-class-data-inheritable
+dep	perl-ima-dbi	perl-ima-dbi
+dep	perl-clone	perl-clone

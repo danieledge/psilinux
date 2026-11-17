@@ -1,0 +1,15 @@
+name	openobex-apps
+version	1.7.2-r7
+description	Applications for using OBEX
+url	http://dev.zuckschwerdt.org/openobex/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	22526
+installed-size	72764
+depends	so:libbluetooth.so.3 so:libc.musl-armhf.so.1 so:libopenobex.so.2
+origin	openobex
+repo	main
+file	openobex-apps-1.7.2-r7.apk
+checksum	Q1jeXULNMeD+4oxKvfyf5jFIY21LE=
+dep	so:libbluetooth.so.3	bluez-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libopenobex.so.2	openobex

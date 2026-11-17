@@ -1,0 +1,21 @@
+name	ocaml-lwt-dev
+version	5.7.0-r3
+description	OCaml promises and concurrent I/O (development files)
+url	https://github.com/ocsigen/lwt
+license	MIT
+size	3270995
+installed-size	8876453
+depends	libev-dev ocaml-mmap-dev ocaml-ocplib-endian-dev ocaml-ppxlib-dev ocaml-react-dev ocaml-result-dev ocaml-lwt=5.7.0-r3 ocaml-lwt_react=5.7.0-r3 ocaml-lwt_ppx=5.7.0-r3
+origin	ocaml-lwt
+repo	community
+file	ocaml-lwt-dev-5.7.0-r3.apk
+checksum	Q1ryvUjJouPf6aAwSompchjQ9qyJ4=
+dep	libev-dev	libev-dev
+dep	ocaml-mmap-dev	ocaml-mmap-dev
+dep	ocaml-ocplib-endian-dev	ocaml-ocplib-endian-dev
+dep	ocaml-ppxlib-dev	ocaml-ppxlib-dev
+dep	ocaml-react-dev	ocaml-react-dev
+dep	ocaml-result-dev	ocaml-result-dev
+dep	ocaml-lwt=5.7.0-r3	ocaml-lwt
+dep	ocaml-lwt_react=5.7.0-r3	ocaml-lwt_react
+dep	ocaml-lwt_ppx=5.7.0-r3	ocaml-lwt_ppx

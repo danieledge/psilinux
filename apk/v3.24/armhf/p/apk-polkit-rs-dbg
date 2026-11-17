@@ -1,0 +1,12 @@
+name	apk-polkit-rs-dbg
+version	3.0.2-r0
+description	apk-polkit-rs exposes a DBus API for APK, the Alpine Package Keeper (debug symbols)
+url	https://gitlab.alpinelinux.org/Cogitri/apk-polkit-rs
+license	GPL-3.0-or-later
+size	3617492
+installed-size	14411944
+depends	!apk-polkit-rs<3.0.2-r0 !apk-polkit-rs>3.0.2-r0
+origin	apk-polkit-rs
+repo	community
+file	apk-polkit-rs-dbg-3.0.2-r0.apk
+checksum	Q1PtMn7W1QJtvrdklwa8Kb0IhiUME=

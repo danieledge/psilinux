@@ -1,0 +1,18 @@
+name	php84-apache2
+version	8.4.27-r0
+description	PHP84 Module for Apache2
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	1921069
+installed-size	4702010
+depends	php84-common apache2 so:libc.musl-armhf.so.1 so:libpcre2-8.so.0 so:libxml2.so.2 so:libz.so.1
+origin	php84
+repo	community
+file	php84-apache2-8.4.27-r0.apk
+checksum	Q1/V3FIc/yoz1V5VGrtOlnqVwyM8s=
+dep	php84-common	php84-common
+dep	apache2	apache2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

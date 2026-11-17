@@ -1,0 +1,13 @@
+name	subversion-yash-completion
+version	2.60-r0
+description	Yash completions for subversion
+url	https://magicant.github.io/yash/
+license	GPL-2.0-or-later
+size	7318
+installed-size	31511
+depends	yash-completion
+origin	yash
+repo	main
+file	subversion-yash-completion-2.60-r0.apk
+checksum	Q1q+Qyjv73vfcEAypES0iVhTyfzFg=
+dep	yash-completion	yash-completion

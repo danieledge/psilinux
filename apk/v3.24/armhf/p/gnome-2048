@@ -1,0 +1,22 @@
+name	gnome-2048
+version	50.1-r0
+description	Obtain the 2048 tile
+url	https://gitlab.gnome.org/GNOME/gnome-2048
+license	GPL-3.0-or-later
+size	317853
+installed-size	660090
+depends	so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libpango-1.0.so.0
+origin	gnome-2048
+repo	community
+file	gnome-2048-50.1-r0.apk
+checksum	Q1V7drmPnDritUFaSQ7rtE3VquILo=
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango

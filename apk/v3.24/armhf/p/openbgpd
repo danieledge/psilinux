@@ -1,0 +1,14 @@
+name	openbgpd
+version	9.1-r0
+description	Free implementation of the Border Gateway Protocol, Version 4
+url	https://www.openbgpd.org
+license	ISC
+size	267389
+installed-size	554286
+depends	so:libc.musl-armhf.so.1 so:libevent-2.1.so.7
+origin	openbgpd
+repo	community
+file	openbgpd-9.1-r0.apk
+checksum	Q12XPG4OTH48aRbj34DU6MOobmcFg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevent-2.1.so.7	libevent

@@ -1,0 +1,13 @@
+name	grlx-sprout
+version	1.0.5-r18
+description	grlx remote control agent
+url	https://github.com/gogrlx/grlx
+license	0BSD
+size	7299526
+installed-size	14155375
+depends	/bin/sh
+origin	grlx
+repo	community
+file	grlx-sprout-1.0.5-r18.apk
+checksum	Q1l+SZRNCwqdVo4uCDU/DVumaCByk=
+dep	/bin/sh	busybox-binsh

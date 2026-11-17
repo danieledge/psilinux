@@ -1,0 +1,14 @@
+name	fstrcmp-dev
+version	0.7-r4
+description	Make fuzzy comparisons of strings and byte arrays (development files)
+url	https://fstrcmp.sourceforge.net/
+license	GPL-3.0-or-later
+size	3794
+installed-size	9661
+depends	fstrcmp=0.7-r4 pkgconfig
+origin	fstrcmp
+repo	community
+file	fstrcmp-dev-0.7-r4.apk
+checksum	Q119kI1uHBpvmfml4GC1bR0d3Zv4U=
+dep	fstrcmp=0.7-r4	fstrcmp
+dep	pkgconfig	pkgconf

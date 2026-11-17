@@ -1,0 +1,14 @@
+name	py3-requests-file
+version	2.1.0-r1
+description	Transport adapter for fetching file:// URLs with the requests python library
+url	https://github.com/dashea/requests-file
+license	Apache-2.0
+size	5376
+installed-size	7745
+depends	py3-requests python3~3.14
+origin	py3-requests-file
+repo	community
+file	py3-requests-file-2.1.0-r1.apk
+checksum	Q1/vMV7vINpY1NmmIVfaxJN4Hj0MQ=
+dep	py3-requests	py3-requests
+dep	python3~3.14	python3

@@ -1,0 +1,13 @@
+name	libxtables
+version	1.8.13-r0
+description	Linux kernel firewall, NAT and packet mangling tools (xtables library)
+url	https://www.netfilter.org/projects/iptables/index.html
+license	GPL-2.0-or-later
+size	25715
+installed-size	50404
+depends	so:libc.musl-armhf.so.1
+origin	iptables
+repo	main
+file	libxtables-1.8.13-r0.apk
+checksum	Q1H8308siUaiqq9Czlk2XnH+hLQvY=
+dep	so:libc.musl-armhf.so.1	musl

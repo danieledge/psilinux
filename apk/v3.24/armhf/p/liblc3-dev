@@ -1,0 +1,14 @@
+name	liblc3-dev
+version	1.0.4-r0
+description	An efficient low latency audio codec (development files)
+url	https://github.com/google/liblc3
+license	Apache-2.0
+size	7875
+installed-size	23511
+depends	liblc3=1.0.4-r0 pkgconfig
+origin	liblc3
+repo	community
+file	liblc3-dev-1.0.4-r0.apk
+checksum	Q1sH8V00KZ4uEuF8hJsjFB8xaVnyc=
+dep	liblc3=1.0.4-r0	liblc3
+dep	pkgconfig	pkgconf

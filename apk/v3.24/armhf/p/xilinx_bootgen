@@ -1,0 +1,16 @@
+name	xilinx_bootgen
+version	2025.2-r0
+description	Xilinx Bootgen - Convert FPGA bitstreams/bif to bin files
+url	https://github.com/Xilinx/bootgen
+license	Apache-2.0
+size	696294
+installed-size	1715144
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	xilinx_bootgen
+repo	community
+file	xilinx_bootgen-2025.2-r0.apk
+checksum	Q1FD9oNLC+uWzzYyhUKgidNm3Ggi4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

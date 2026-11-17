@@ -1,0 +1,13 @@
+name	ocaml-bigstringaf-dev
+version	0.9.0-r5
+description	Bigstring intrinsics and fast blits based on memcpy/memmove (development files)
+url	https://github.com/inhabitedtype/bigstringaf
+license	BSD-3-Clause
+size	92972
+installed-size	270319
+depends	ocaml-bigstringaf=0.9.0-r5
+origin	ocaml-bigstringaf
+repo	community
+file	ocaml-bigstringaf-dev-0.9.0-r5.apk
+checksum	Q1w8f+bFV5tqt+CzkjQE/6xkk5w8k=
+dep	ocaml-bigstringaf=0.9.0-r5	ocaml-bigstringaf

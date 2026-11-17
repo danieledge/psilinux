@@ -1,0 +1,14 @@
+name	libzen-dev
+version	0.4.41-r0
+description	A shared library for libmediainfo and mediainfo (development files)
+url	https://github.com/MediaArea/ZenLib
+license	Zlib
+size	26686
+installed-size	152979
+depends	libzen=0.4.41-r0 pkgconfig
+origin	libzen
+repo	community
+file	libzen-dev-0.4.41-r0.apk
+checksum	Q1Qqgk6eu7z5mh63L2E2R4czr6TTk=
+dep	libzen=0.4.41-r0	libzen
+dep	pkgconfig	pkgconf

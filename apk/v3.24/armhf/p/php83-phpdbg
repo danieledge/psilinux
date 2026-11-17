@@ -1,0 +1,19 @@
+name	php83-phpdbg
+version	8.3.36-r0
+description	Interactive PHP83 debugger
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	1934053
+installed-size	4697552
+depends	php83-common so:libargon2.so.1 so:libc.musl-armhf.so.1 so:libedit.so.0 so:libpcre2-8.so.0 so:libxml2.so.2 so:libz.so.1
+origin	php83
+repo	community
+file	php83-phpdbg-8.3.36-r0.apk
+checksum	Q1oyalAc4zYRPNCHhnVp4ZJQOgjPA=
+dep	php83-common	php83-common
+dep	so:libargon2.so.1	argon2-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libedit.so.0	libedit
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

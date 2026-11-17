@@ -1,0 +1,15 @@
+name	libmustach-cjson-dev
+version	1.2.10-r0
+description	C implementation of the mustache template specification (libmustach-cjson development files)
+url	https://gitlab.com/jobol/mustach
+license	0BSD
+size	2768
+installed-size	3690
+depends	cjson-dev libmustach-cjson=1.2.10-r0 pkgconfig
+origin	mustach
+repo	community
+file	libmustach-cjson-dev-1.2.10-r0.apk
+checksum	Q1SxjB98gWEfUAXvXFArc15wdxXZo=
+dep	cjson-dev	cjson-dev
+dep	libmustach-cjson=1.2.10-r0	libmustach-cjson
+dep	pkgconfig	pkgconf

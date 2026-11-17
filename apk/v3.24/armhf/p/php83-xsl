@@ -1,0 +1,18 @@
+name	php83-xsl
+version	8.3.36-r0
+description	PHP83 extension: XSL
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	12601
+installed-size	26042
+depends	php83-common php83-dom so:libc.musl-armhf.so.1 so:libexslt.so.0 so:libxml2.so.2 so:libxslt.so.1
+origin	php83
+repo	community
+file	php83-xsl-8.3.36-r0.apk
+checksum	Q1w4TUAZmW+9WFPLDw91EfBLkTIns=
+dep	php83-common	php83-common
+dep	php83-dom	php83-dom
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexslt.so.0	libxslt
+dep	so:libxml2.so.2	libxml2
+dep	so:libxslt.so.1	libxslt

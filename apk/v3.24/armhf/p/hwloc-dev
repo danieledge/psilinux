@@ -1,0 +1,15 @@
+name	hwloc-dev
+version	2.12.2-r0
+description	Portable abstraction of hierarchical hardware architectures (development files)
+url	https://www.open-mpi.org/
+license	BSD-3-Clause
+size	95183
+installed-size	437473
+depends	hwloc=2.12.2-r0 pc:libxml-2.0 pkgconfig
+origin	hwloc
+repo	main
+file	hwloc-dev-2.12.2-r0.apk
+checksum	Q1gzamht421v9bZuzKi0SQ29KN3Mo=
+dep	hwloc=2.12.2-r0	hwloc
+dep	pc:libxml-2.0	libxml2-dev
+dep	pkgconfig	pkgconf

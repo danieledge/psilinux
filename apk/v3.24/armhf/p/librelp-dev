@@ -1,0 +1,14 @@
+name	librelp-dev
+version	1.12.0-r0
+description	The Reliable Event Logging Protocol library (development files)
+url	https://www.rsyslog.com
+license	GPL-3.0-or-later
+size	6596
+installed-size	15046
+depends	librelp=1.12.0-r0 pkgconfig
+origin	librelp
+repo	main
+file	librelp-dev-1.12.0-r0.apk
+checksum	Q1wmlDRexypWIsYY4qkn/hTVytBr8=
+dep	librelp=1.12.0-r0	librelp
+dep	pkgconfig	pkgconf

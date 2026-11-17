@@ -1,0 +1,14 @@
+name	hwinfo-dev
+version	25.4-r0
+description	Hardware information tool (development files)
+url	https://github.com/openSUSE/hwinfo
+license	GPL-2.0-or-later
+size	1131633
+installed-size	3675199
+depends	hwinfo-libs=25.4-r0 pkgconfig
+origin	hwinfo
+repo	community
+file	hwinfo-dev-25.4-r0.apk
+checksum	Q1j/GZmW+eP9rN9oxH30pF7RjQVt4=
+dep	hwinfo-libs=25.4-r0	hwinfo-libs
+dep	pkgconfig	pkgconf

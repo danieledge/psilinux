@@ -1,0 +1,14 @@
+name	nginx-mod-devel-kit
+version	1.30.6-r0
+description	Nginx third-party module devel-kit (version v0.3.5)
+url	https://github.com/dvershinin/ngx_devel_kit
+license	BSD-2-Clause
+size	6674
+installed-size	13678
+depends	nginx=1.30.6-r0 so:libc.musl-armhf.so.1
+origin	nginx
+repo	main
+file	nginx-mod-devel-kit-1.30.6-r0.apk
+checksum	Q1GHNZyDfYT75Ny5pJEfvdrbyLw/0=
+dep	nginx=1.30.6-r0	nginx
+dep	so:libc.musl-armhf.so.1	musl

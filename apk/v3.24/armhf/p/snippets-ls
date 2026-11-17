@@ -1,0 +1,13 @@
+name	snippets-ls
+version	0.0.4_git20240617-r18
+description	simple language server for inserting custom snippets into text editors
+url	https://github.com/quantonganh/snippets-ls
+license	MIT
+size	1404876
+installed-size	3628504
+depends	so:libc.musl-armhf.so.1
+origin	snippets-ls
+repo	community
+file	snippets-ls-0.0.4_git20240617-r18.apk
+checksum	Q15QCFDm42cwDIAFn4hV26AiwPmMI=
+dep	so:libc.musl-armhf.so.1	musl

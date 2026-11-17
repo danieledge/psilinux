@@ -1,0 +1,25 @@
+name	fcitx5-kkc
+version	5.1.10-r0
+description	libkkc input method support for fcitx5
+url	https://github.com/fcitx/fcitx5-kkc
+license	GPL-3.0-or-later
+size	79457
+installed-size	180979
+depends	so:libFcitx5Config.so.6 so:libFcitx5Core.so.7 so:libFcitx5Qt6WidgetsAddons.so.2 so:libFcitx5Utils.so.2 so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libkkc.so.2 so:libstdc++.so.6
+origin	fcitx5-kkc
+repo	community
+file	fcitx5-kkc-5.1.10-r0.apk
+checksum	Q1DJG10gRRXAdLEYFf2qn7gC5Kd3c=
+dep	so:libFcitx5Config.so.6	fcitx5
+dep	so:libFcitx5Core.so.7	fcitx5
+dep	so:libFcitx5Qt6WidgetsAddons.so.2	fcitx5-qt
+dep	so:libFcitx5Utils.so.2	fcitx5
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libkkc.so.2	libkkc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,14 @@
+name	uwsgi-zabbix
+version	2.0.31-r2
+description	uWSGI plugin zabbix
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	5051
+installed-size	9612
+depends	uwsgi so:libc.musl-armhf.so.1
+origin	uwsgi
+repo	main
+file	uwsgi-zabbix-2.0.31-r2.apk
+checksum	Q1jwTZmXGS+utmr50hCowTDs+vWAU=
+dep	uwsgi	uwsgi
+dep	so:libc.musl-armhf.so.1	musl

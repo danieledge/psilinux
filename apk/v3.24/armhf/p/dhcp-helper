@@ -1,0 +1,13 @@
+name	dhcp-helper
+version	1.2-r3
+description	DHCP relay server
+url	http://www.thekelleys.org.uk/dhcp-helper/
+license	GPL-2.0-only OR GPL-3.0-only
+size	6331
+installed-size	13484
+depends	so:libc.musl-armhf.so.1
+origin	dhcp-helper
+repo	community
+file	dhcp-helper-1.2-r3.apk
+checksum	Q1mqVZKr8e2WCi3sa6cY9CJ/9QmkE=
+dep	so:libc.musl-armhf.so.1	musl

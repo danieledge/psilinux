@@ -1,0 +1,16 @@
+name	font-bitstream-100dpi
+version	1.0.4-r2
+description	X.Org Bitstream bitmap fonts
+url	https://xorg.freedesktop.org/
+license	MIT
+size	163140
+installed-size	159368
+depends	encodings font-alias mkfontscale fontconfig
+origin	font-bitstream-100dpi
+repo	main
+file	font-bitstream-100dpi-1.0.4-r2.apk
+checksum	Q1yDGGt0kHwWuHr+P4+fqvtgtAqyk=
+dep	encodings	encodings
+dep	font-alias	font-alias
+dep	mkfontscale	mkfontscale
+dep	fontconfig	fontconfig

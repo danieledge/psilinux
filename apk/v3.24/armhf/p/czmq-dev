@@ -1,0 +1,16 @@
+name	czmq-dev
+version	4.2.1-r4
+description	High-level C binding for ZeroMQ (development files)
+url	http://czmq.zeromq.org/
+license	MPL-2.0
+size	87443
+installed-size	512471
+depends	czmq=4.2.1-r4 pc:libzmq pc:uuid pkgconfig
+origin	czmq
+repo	main
+file	czmq-dev-4.2.1-r4.apk
+checksum	Q1pe2pBqo7pgapkTXzAD4ARoYPOTE=
+dep	czmq=4.2.1-r4	czmq
+dep	pc:libzmq	zeromq-dev
+dep	pc:uuid	util-linux-dev
+dep	pkgconfig	pkgconf

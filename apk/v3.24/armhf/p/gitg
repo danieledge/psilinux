@@ -1,0 +1,36 @@
+name	gitg
+version	44-r4
+description	gitg is the GNOME GUI client to view git repositories
+url	https://gitlab.gnome.org/GNOME/gitg
+license	GPL-2.0-or-later
+size	576977
+installed-size	1480295
+depends	gsettings-desktop-schemas python3~3.14 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdazzle-1.0.so.0 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgee-0.8.so.2 so:libgio-2.0.so.0 so:libgirepository-2.0.so.0 so:libgit2-glib-1.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgpgme.so.45 so:libgspell-1.so.3 so:libgtk-3.so.0 so:libgtksourceview-4.so.0 so:libhandy-1.so.0 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libpango-1.0.so.0 so:libpeas-1.0.so.1 so:libsecret-1.so.0 so:libxml2.so.2
+origin	gitg
+repo	community
+file	gitg-44-r4.apk
+checksum	Q1YyyfQnRMBqwAVXZFtbnSHELyHpY=
+dep	gsettings-desktop-schemas	gsettings-desktop-schemas
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libdazzle-1.0.so.0	libdazzle
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgee-0.8.so.2	libgee
+dep	so:libgio-2.0.so.0	glib
+dep	so:libgirepository-2.0.so.0	glib
+dep	so:libgit2-glib-1.0.so.0	libgit2-glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgpgme.so.45	gpgme
+dep	so:libgspell-1.so.3	gspell
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtksourceview-4.so.0	gtksourceview4
+dep	so:libhandy-1.so.0	libhandy1
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpeas-1.0.so.1	libpeas
+dep	so:libsecret-1.so.0	libsecret
+dep	so:libxml2.so.2	libxml2

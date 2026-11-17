@@ -1,0 +1,15 @@
+name	clang21-dev
+version	21.1.8-r3
+description	C language family front-end for LLVM (development files)
+url	https://llvm.org/
+license	Apache-2.0 WITH LLVM-exception
+size	4147473
+installed-size	31706502
+depends	clang21=21.1.8-r3 clang21-libclang=21.1.8-r3 clang21-libs=21.1.8-r3
+origin	clang21
+repo	main
+file	clang21-dev-21.1.8-r3.apk
+checksum	Q1VnuZUv9FAAegRjk13EQIIdJBIPc=
+dep	clang21=21.1.8-r3	clang21
+dep	clang21-libclang=21.1.8-r3	clang21-libclang
+dep	clang21-libs=21.1.8-r3	clang21-libs

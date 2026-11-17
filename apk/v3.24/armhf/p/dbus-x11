@@ -1,0 +1,16 @@
+name	dbus-x11
+version	1.16.2-r2
+description	X11 add-ons for D-BUS
+url	https://www.freedesktop.org/Software/dbus
+license	AFL-2.1 OR GPL-2.0-or-later
+size	11101
+installed-size	21788
+depends	dbus=1.16.2-r2 so:libX11.so.6 so:libc.musl-armhf.so.1 so:libdbus-1.so.3
+origin	dbus
+repo	main
+file	dbus-x11-1.16.2-r2.apk
+checksum	Q13U5rfVNrJU1+dQE+JAoxlOP/zoE=
+dep	dbus=1.16.2-r2	dbus
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs

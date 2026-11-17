@@ -1,0 +1,17 @@
+name	iptables
+version	1.8.13-r0
+description	Linux kernel firewall, NAT and packet mangling tools
+url	https://www.netfilter.org/projects/iptables/index.html
+license	GPL-2.0-or-later
+size	300443
+installed-size	1142797
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libmnl.so.0 so:libnftnl.so.11 so:libxtables.so.12
+origin	iptables
+repo	main
+file	iptables-1.8.13-r0.apk
+checksum	Q1yqUja0pnIcRLXAzaCjt13x5yfn0=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmnl.so.0	libmnl
+dep	so:libnftnl.so.11	libnftnl
+dep	so:libxtables.so.12	libxtables

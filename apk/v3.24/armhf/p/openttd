@@ -1,0 +1,27 @@
+name	openttd
+version	15.3-r0
+description	Open source version of the Transport Tycoon Deluxe simulator
+url	https://www.openttd.org
+license	GPL-2.0-or-later
+size	7149834
+installed-size	17343759
+depends	so:libSDL2-2.0.so.0 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libfluidsynth.so.3 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libharfbuzz.so.0 so:libicui18n.so.78 so:libicuuc.so.78 so:liblzma.so.5 so:liblzo2.so.2 so:libpng16.so.16 so:libstdc++.so.6 so:libz.so.1
+origin	openttd
+repo	community
+file	openttd-15.3-r0.apk
+checksum	Q1Cmh0w5Hd96KOf8SrfDi/vwbGqDc=
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libfluidsynth.so.3	fluidsynth-libs
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:liblzma.so.5	xz-libs
+dep	so:liblzo2.so.2	lzo
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

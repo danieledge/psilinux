@@ -1,0 +1,14 @@
+name	font-noto-mende-kikakui
+version	2026.11.01-r0
+description	Noto Sans Mende Kikakui font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	20031
+installed-size	35432
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-mende-kikakui-2026.11.01-r0.apk
+checksum	Q1jZ1HQb20SczVG9rzxMv22+mHpFQ=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

@@ -1,0 +1,21 @@
+name	cfengine
+version	3.27.1-r0
+description	A systems administration tool for networks
+url	https://www.cfengine.com/
+license	GPL-3.0-only
+size	792113
+installed-size	1868847
+depends	procps /bin/sh so:libacl.so.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:liblmdb.so.0 so:libpcre2-8.so.0 so:librsync.so.2 so:libssl.so.3
+origin	cfengine
+repo	community
+file	cfengine-3.27.1-r0.apk
+checksum	Q16io3xWPhlUajks3BY8upBSmqGgM=
+dep	procps	procps-ng
+dep	/bin/sh	busybox-binsh
+dep	so:libacl.so.1	acl-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:liblmdb.so.0	lmdb
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:librsync.so.2	librsync
+dep	so:libssl.so.3	libssl3

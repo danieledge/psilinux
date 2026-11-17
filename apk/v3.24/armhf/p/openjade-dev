@@ -1,0 +1,13 @@
+name	openjade-dev
+version	1.3.2-r9
+description	Implementation of the DSSSL style language (development files)
+url	https://openjade.sourceforge.net/
+license	custom
+size	929637
+installed-size	4350612
+depends	openjade-libs=1.3.2-r9
+origin	openjade
+repo	main
+file	openjade-dev-1.3.2-r9.apk
+checksum	Q1/VvmPIGjMGmRHQ6w0qWyfvXqlDk=
+dep	openjade-libs=1.3.2-r9	openjade-libs

@@ -1,0 +1,18 @@
+name	dovecot-pigeonhole-plugin-ldap
+version	2.4.5-r0
+description	Sieve and managesieve plugin for Dovecot (LDAP support)
+url	https://www.dovecot.org/
+license	MIT AND LGPL-2.1-or-later
+size	26340
+installed-size	58720
+depends	dovecot-pigeonhole-plugin=2.4.5-r0 dovecot-ldap=2.4.5-r0 so:libc.musl-armhf.so.1 so:libdovecot.so.0 so:liblber.so.2 so:libldap.so.2
+origin	dovecot
+repo	main
+file	dovecot-pigeonhole-plugin-ldap-2.4.5-r0.apk
+checksum	Q16HG9QsEk9OeRzJPP6LffXhO+YUY=
+dep	dovecot-pigeonhole-plugin=2.4.5-r0	dovecot-pigeonhole-plugin
+dep	dovecot-ldap=2.4.5-r0	dovecot-ldap
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdovecot.so.0	dovecot
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap

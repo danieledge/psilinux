@@ -1,0 +1,17 @@
+name	gdal-driver-netcdf
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (Network Common Data Format driver)
+url	https://gdal.org/
+license	MIT
+size	236101
+installed-size	550320
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libnetcdf.so.22 so:libstdc++.so.6
+origin	gdal
+repo	community
+file	gdal-driver-netcdf-3.13.3-r0.apk
+checksum	Q1Tzc/NWX0lnPPhv3Cwak0WoZbIdY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libnetcdf.so.22	netcdf
+dep	so:libstdc++.so.6	libstdc++

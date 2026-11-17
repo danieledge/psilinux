@@ -1,0 +1,14 @@
+name	libspnav-dev
+version	1.2-r0
+description	library for communicating with spacenavd or 3dxsrv (development files)
+url	https://spacenav.sourceforge.net/
+license	BSD-3-Clause
+size	7509
+installed-size	16896
+depends	libspnav=1.2-r0 pkgconfig
+origin	libspnav
+repo	community
+file	libspnav-dev-1.2-r0.apk
+checksum	Q1kv64t3v8ZxEpCnxvcW0V9iQG2ug=
+dep	libspnav=1.2-r0	libspnav
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	miniflux
+version	2.3.1-r2
+description	Minimalist and opionated feed reader
+url	https://miniflux.app/
+license	Apache-2.0
+size	8279373
+installed-size	22280982
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	miniflux
+repo	community
+file	miniflux-2.3.1-r2.apk
+checksum	Q1l8HX13oeI/CZ7U3POljgZgsbClo=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

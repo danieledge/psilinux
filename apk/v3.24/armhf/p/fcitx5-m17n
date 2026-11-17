@@ -1,0 +1,20 @@
+name	fcitx5-m17n
+version	5.1.6-r0
+description	m17n extra input method support for fcitx5
+url	https://github.com/fcitx/fcitx5-m17n
+license	LGPL-2.1-or-later
+size	54397
+installed-size	116249
+depends	so:libFcitx5Config.so.6 so:libFcitx5Core.so.7 so:libFcitx5Utils.so.2 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libm17n-core.so.0 so:libm17n.so.0 so:libstdc++.so.6
+origin	fcitx5-m17n
+repo	community
+file	fcitx5-m17n-5.1.6-r0.apk
+checksum	Q1de9Yb4uMeGueftSjKqM24jlb2Vg=
+dep	so:libFcitx5Config.so.6	fcitx5
+dep	so:libFcitx5Core.so.7	fcitx5
+dep	so:libFcitx5Utils.so.2	fcitx5
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libm17n-core.so.0	libm17n-core
+dep	so:libm17n.so.0	m17n-lib
+dep	so:libstdc++.so.6	libstdc++

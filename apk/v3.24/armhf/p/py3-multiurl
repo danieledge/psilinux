@@ -1,0 +1,17 @@
+name	py3-multiurl
+version	0.3.7-r1
+description	A package to download several URL as one, as well as supporting multi-part URLs
+url	https://github.com/ecmwf/multiurl
+license	Apache-2.0
+size	18529
+installed-size	61158
+depends	py3-dateutil py3-tqdm py3-tz py3-requests python3~3.14
+origin	py3-multiurl
+repo	community
+file	py3-multiurl-0.3.7-r1.apk
+checksum	Q17YeOJAwUa2rPXgZxFGngsUHbr+I=
+dep	py3-dateutil	py3-dateutil
+dep	py3-tqdm	py3-tqdm
+dep	py3-tz	py3-tz
+dep	py3-requests	py3-requests
+dep	python3~3.14	python3

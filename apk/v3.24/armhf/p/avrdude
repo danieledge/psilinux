@@ -1,0 +1,14 @@
+name	avrdude
+version	8.1-r0
+description	Download/upload/manipulate the ROM and EEPROM contents of AVR microcontrollers
+url	https://github.com/avrdudes/avrdude
+license	GPL-2.0-or-later
+size	108688
+installed-size	972825
+depends	so:libavrdude.so.3 so:libc.musl-armhf.so.1
+origin	avrdude
+repo	community
+file	avrdude-8.1-r0.apk
+checksum	Q1B4mZfVR/8XVwKxx/6xD25N/57mc=
+dep	so:libavrdude.so.3	avrdude-libs
+dep	so:libc.musl-armhf.so.1	musl

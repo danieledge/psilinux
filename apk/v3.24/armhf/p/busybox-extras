@@ -1,0 +1,14 @@
+name	busybox-extras
+version	1.37.0-r31
+description	Additional binaries of Busybox
+url	https://busybox.net/
+license	GPL-2.0-only
+size	72733
+installed-size	129981
+depends	busybox=1.37.0-r31 so:libc.musl-armhf.so.1
+origin	busybox
+repo	main
+file	busybox-extras-1.37.0-r31.apk
+checksum	Q1k7NoLqJ50qz9Lk7Itw0gFVQU1UI=
+dep	busybox=1.37.0-r31	busybox
+dep	so:libc.musl-armhf.so.1	musl

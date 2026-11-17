@@ -1,0 +1,25 @@
+name	rtpengine-recording
+version	12.2.1.4-r2
+description	Proxy for RTP traffic and other UDP based media traffic
+url	https://github.com/sipwise/rtpengine
+license	GPL-3.0-only
+size	102456
+installed-size	225483
+depends	rtpengine so:libavcodec.so.61 so:libavfilter.so.10 so:libavformat.so.61 so:libavutil.so.59 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libglib-2.0.so.0 so:libmariadb.so.3 so:libopus.so.0 so:libssl.so.3 so:libswresample.so.5
+origin	rtpengine
+repo	community
+file	rtpengine-recording-12.2.1.4-r2.apk
+checksum	Q18+CGgxUJCwkUwhiDaqitlzRRU8o=
+dep	rtpengine	rtpengine
+dep	so:libavcodec.so.61	ffmpeg7-libavcodec
+dep	so:libavfilter.so.10	ffmpeg7-libavfilter
+dep	so:libavformat.so.61	ffmpeg7-libavformat
+dep	so:libavutil.so.59	ffmpeg7-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libmariadb.so.3	mariadb-connector-c
+dep	so:libopus.so.0	opus
+dep	so:libssl.so.3	libssl3
+dep	so:libswresample.so.5	ffmpeg7-libswresample

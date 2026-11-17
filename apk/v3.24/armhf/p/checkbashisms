@@ -1,0 +1,13 @@
+name	checkbashisms
+version	2.26.5-r1
+description	Debian developer scripts (checkbashisms)
+url	https://tracker.debian.org/pkg/devscripts
+license	GPL-2.0-or-later
+size	10978
+installed-size	32313
+depends	perl
+origin	debian-devscripts
+repo	main
+file	checkbashisms-2.26.5-r1.apk
+checksum	Q1exjfJW+5owoOpV12TIlOialeT/U=
+dep	perl	perl

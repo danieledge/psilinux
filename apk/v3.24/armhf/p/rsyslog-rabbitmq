@@ -1,0 +1,15 @@
+name	rsyslog-rabbitmq
+version	8.2608.0-r0
+description	rsyslog omrabbitmq module
+url	https://www.rsyslog.com/
+license	Apache-2.0 AND GPL-3.0-or-later AND LGPL-3.0-or-later
+size	12399
+installed-size	26452
+depends	rsyslog=8.2608.0-r0 so:libc.musl-armhf.so.1 so:librabbitmq.so.4
+origin	rsyslog
+repo	main
+file	rsyslog-rabbitmq-8.2608.0-r0.apk
+checksum	Q1pzcac5HwbHAVFMLIKoSOIYAL0uE=
+dep	rsyslog=8.2608.0-r0	rsyslog
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:librabbitmq.so.4	rabbitmq-c

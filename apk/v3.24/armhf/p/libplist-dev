@@ -1,0 +1,15 @@
+name	libplist-dev
+version	2.7.0-r1
+description	library to handle Apple Property List format whereas it's binary or XML (development files)
+url	https://libimobiledevice.org
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	15224
+installed-size	81006
+depends	libplist++=2.7.0-r1 libplist=2.7.0-r1 pkgconfig
+origin	libplist
+repo	community
+file	libplist-dev-2.7.0-r1.apk
+checksum	Q1um5JJN0Clx6wfTcxFKeopIY5UcM=
+dep	libplist++=2.7.0-r1	libplist++
+dep	libplist=2.7.0-r1	libplist
+dep	pkgconfig	pkgconf

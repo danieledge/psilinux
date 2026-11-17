@@ -1,0 +1,13 @@
+name	acf-lib
+version	0.11.1-r1
+description	Lua libraries for ACF
+url	https://gitlab.alpinelinux.org/acf/acf-lib
+license	GPL-2.0-only
+size	1268
+installed-size	0
+depends	lua-subprocess
+origin	acf-lib
+repo	main
+file	acf-lib-0.11.1-r1.apk
+checksum	Q1OuIgCxmUFbkTtBDAtlJI82vUu6w=
+dep	lua-subprocess	lua-subprocess

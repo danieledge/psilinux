@@ -1,0 +1,14 @@
+name	rakudo-dev
+version	2025.11-r0
+description	Compiler for the Raku programming language (development files)
+url	https://rakudo.org/
+license	Artistic-2.0
+size	262034
+installed-size	1111616
+depends	so:libc.musl-armhf.so.1 so:libmoar.so
+origin	rakudo
+repo	community
+file	rakudo-dev-2025.11-r0.apk
+checksum	Q1VrV9lzj6Z/ZsEwuY8mtb+Lnd+JQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmoar.so	moarvm

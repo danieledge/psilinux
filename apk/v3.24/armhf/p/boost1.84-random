@@ -1,0 +1,15 @@
+name	boost1.84-random
+version	1.84.0-r6
+description	Boost random shared library
+url	https://www.boost.org/
+license	BSL-1.0
+size	11905
+installed-size	26028
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	boost1.84
+repo	main
+file	boost1.84-random-1.84.0-r6.apk
+checksum	Q1FAI6/7gu9W5FyX/8lt1TVVY7jfo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

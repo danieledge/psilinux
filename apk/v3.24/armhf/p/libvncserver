@@ -1,0 +1,20 @@
+name	libvncserver
+version	0.9.15-r0
+description	Library to make writing a vnc server easy
+url	https://libvncserver.sourceforge.net/
+license	GPL-2.0-or-later
+size	177447
+installed-size	388612
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcrypt.so.20 so:libjpeg.so.8 so:liblzo2.so.2 so:libpng16.so.16 so:libssl.so.3 so:libz.so.1
+origin	libvncserver
+repo	community
+file	libvncserver-0.9.15-r0.apk
+checksum	Q1SexiuVwabW/OVWk3Xm3qQOsWPB0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:liblzo2.so.2	lzo
+dep	so:libpng16.so.16	libpng
+dep	so:libssl.so.3	libssl3
+dep	so:libz.so.1	zlib

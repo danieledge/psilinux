@@ -1,0 +1,18 @@
+name	testdisk
+version	7.2-r1
+description	A data recovery suite
+url	https://www.cgsecurity.org/wiki/TestDisk
+license	GPL-2.0-or-later
+size	536316
+installed-size	1154140
+depends	so:libc.musl-armhf.so.1 so:libext2fs.so.2 so:libjpeg.so.8 so:libncursesw.so.6 so:libntfs-3g.so.89 so:libz.so.1
+origin	testdisk
+repo	main
+file	testdisk-7.2-r1.apk
+checksum	Q1PDXgkmHpA89sT6bE1bqYEwwEOEc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libext2fs.so.2	e2fsprogs-libs
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libntfs-3g.so.89	ntfs-3g-libs
+dep	so:libz.so.1	zlib

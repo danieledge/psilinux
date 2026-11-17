@@ -1,0 +1,41 @@
+name	janus-gateway
+version	1.4.1-r0
+description	Janus WebRTC Server
+url	https://janus.conf.meetecho.com/
+license	GPL-3.0-only
+size	6781499
+installed-size	10854060
+depends	/bin/sh pc:glib-2.0>=2.34 pc:jansson>=2.5 pkgconfig so:libavcodec.so.62 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libconfig.so.15 so:libcrypto.so.3 so:libcurl.so.4 so:libduktape.so.207 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libjansson.so.4 so:liblua-5.3.so.0 so:libmicrohttpd.so.12 so:libnice.so.10 so:libogg.so.0 so:libopus.so.0 so:libpaho-mqtt3as.so.1 so:librabbitmq.so.4 so:libsofia-sip-ua.so.0 so:libsrtp2.so.1 so:libssl.so.3 so:libusrsctp.so.2 so:libwebsockets.so.19 so:libz.so.1
+origin	janus-gateway
+repo	community
+file	janus-gateway-1.4.1-r0.apk
+checksum	Q1Wnjm7eg4JVLwl/fC90PI12FnCH0=
+dep	/bin/sh	busybox-binsh
+dep	pc:glib-2.0>=2.34	glib-dev
+dep	pc:jansson>=2.5	jansson-dev
+dep	pkgconfig	pkgconf
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libconfig.so.15	libconfig
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libduktape.so.207	duktape-libs
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libjansson.so.4	jansson
+dep	so:liblua-5.3.so.0	lua5.3-libs
+dep	so:libmicrohttpd.so.12	libmicrohttpd
+dep	so:libnice.so.10	libnice
+dep	so:libogg.so.0	libogg
+dep	so:libopus.so.0	opus
+dep	so:libpaho-mqtt3as.so.1	paho-mqtt-c
+dep	so:librabbitmq.so.4	rabbitmq-c
+dep	so:libsofia-sip-ua.so.0	sofia-sip
+dep	so:libsrtp2.so.1	libsrtp
+dep	so:libssl.so.3	libssl3
+dep	so:libusrsctp.so.2	libusrsctp
+dep	so:libwebsockets.so.19	libwebsockets
+dep	so:libz.so.1	zlib

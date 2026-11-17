@@ -1,0 +1,27 @@
+name	rpm-dev
+version	4.19.1.1-r5
+description	Redhat Package Management utilities (RPM) (development files)
+url	https://rpm.org/
+license	GPL-2.0-or-later
+size	73926
+installed-size	293254
+depends	acl-dev binutils-dev bzip2-dev file-dev libarchive-dev libcap-dev lua5.4-dev openssl-dev popt-dev sqlite-dev xz-dev zlib-dev rpm=4.19.1.1-r5 pc:popt pkgconfig
+origin	rpm
+repo	community
+file	rpm-dev-4.19.1.1-r5.apk
+checksum	Q1ApOq/9JOpJFFXzQXUYLdZ+8yPXo=
+dep	acl-dev	acl-dev
+dep	binutils-dev	binutils-dev
+dep	bzip2-dev	bzip2-dev
+dep	file-dev	file-dev
+dep	libarchive-dev	libarchive-dev
+dep	libcap-dev	libcap-dev
+dep	lua5.4-dev	lua5.4-dev
+dep	openssl-dev	openssl-dev
+dep	popt-dev	popt-dev
+dep	sqlite-dev	sqlite-dev
+dep	xz-dev	xz-dev
+dep	zlib-dev	zlib-dev
+dep	rpm=4.19.1.1-r5	rpm
+dep	pc:popt	popt-dev
+dep	pkgconfig	pkgconf

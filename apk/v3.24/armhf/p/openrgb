@@ -1,0 +1,24 @@
+name	openrgb
+version	0.9-r3
+description	Open source RGB lighting control that doesn't depend on manufacturer software
+url	https://gitlab.com/CalcProgrammer1/OpenRGB
+license	GPL-2.0-only
+size	2003362
+installed-size	4956645
+depends	/bin/sh so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt5Widgets.so.5 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libhidapi-hidraw.so.0 so:libmbedcrypto.so.16 so:libmbedtls.so.21 so:libmbedx509.so.7 so:libstdc++.so.6 so:libusb-1.0.so.0
+origin	openrgb
+repo	community
+file	openrgb-0.9-r3.apk
+checksum	Q1hoPUgyWGgpsA7oWuwS09hDfQaO8=
+dep	/bin/sh	busybox-binsh
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Gui.so.5	qt5-qtbase-x11
+dep	so:libQt5Widgets.so.5	qt5-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libhidapi-hidraw.so.0	hidapi
+dep	so:libmbedcrypto.so.16	mbedtls3
+dep	so:libmbedtls.so.21	mbedtls3
+dep	so:libmbedx509.so.7	mbedtls3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libusb-1.0.so.0	libusb

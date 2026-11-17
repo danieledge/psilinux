@@ -1,0 +1,13 @@
+name	py3-stestr-pyc
+version	4.1.0-r3
+description	Precompiled Python bytecode for py3-stestr
+url	http://stestr.readthedocs.io/en/latest/
+license	Apache-2.0
+size	144804
+installed-size	408610
+depends	python3~3.14
+origin	py3-stestr
+repo	community
+file	py3-stestr-pyc-4.1.0-r3.apk
+checksum	Q1z8sk2smv+j6MuN86iSCycf81kSk=
+dep	python3~3.14	python3

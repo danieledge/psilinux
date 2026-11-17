@@ -1,0 +1,15 @@
+name	raft
+version	0.18.1-r0
+description	C implementation of the Raft consensus protocol
+url	https://github.com/canonical/raft
+license	LGPL-3.0-only WITH LGPL-3.0-linking-exception
+size	81128
+installed-size	177684
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libuv.so.1
+origin	raft
+repo	community
+file	raft-0.18.1-r0.apk
+checksum	Q1TadJ+KMJIwQAi7lXkECNULFOQ+A=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libuv.so.1	libuv

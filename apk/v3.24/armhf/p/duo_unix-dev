@@ -1,0 +1,14 @@
+name	duo_unix-dev
+version	1.12.1-r2
+description	Duo two-factor authentication for Unix systems with Pluggable Authentication Modules (PAM) (development files)
+url	https://duo.com/docs/duounix
+license	GPL-2.0-only
+size	11700
+installed-size	94173
+depends	pc:openssl pkgconfig
+origin	duo_unix
+repo	community
+file	duo_unix-dev-1.12.1-r2.apk
+checksum	Q13yV4nnROPGoZ6OqcAlaqLHrpDHA=
+dep	pc:openssl	openssl-dev
+dep	pkgconfig	pkgconf

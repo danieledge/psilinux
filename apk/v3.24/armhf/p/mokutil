@@ -1,0 +1,16 @@
+name	mokutil
+version	0.7.2-r0
+description	Utility to manipulate the machine owner keys (MOK) stored in the database of shim
+url	https://github.com/lcp/mokutil
+license	GPL-3.0-or-later
+size	25459
+installed-size	55404
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libefivar.so.1 so:libkeyutils.so.1
+origin	mokutil
+repo	community
+file	mokutil-0.7.2-r0.apk
+checksum	Q1ZOvQoig2o9DRqorbH0WYHCZF3zc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libefivar.so.1	efivar-libs
+dep	so:libkeyutils.so.1	keyutils-libs

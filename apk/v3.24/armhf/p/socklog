@@ -1,0 +1,14 @@
+name	socklog
+version	2.1.0-r6
+description	System and kernel logging services for runit
+url	http://smarden.org/socklog/
+license	BSD
+size	27486
+installed-size	102226
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	socklog
+repo	community
+file	socklog-2.1.0-r6.apk
+checksum	Q1aXq84C6eZmEewnfT98hLtfvLYHk=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

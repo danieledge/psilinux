@@ -1,0 +1,14 @@
+name	ipset
+version	7.24-r0
+description	Manage Linux IP sets
+url	https://ipset.netfilter.org/
+license	GPL-2.0-only
+size	92775
+installed-size	308100
+depends	so:libc.musl-armhf.so.1 so:libmnl.so.0
+origin	ipset
+repo	main
+file	ipset-7.24-r0.apk
+checksum	Q1ilC2dlU3D5ug7+GAYCfTW1Fwh1o=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmnl.so.0	libmnl

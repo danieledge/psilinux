@@ -1,0 +1,13 @@
+name	py3-pybind11-pyc
+version	3.0.1-r1
+description	Precompiled Python bytecode for py3-pybind11
+url	https://github.com/pybind/pybind11
+license	MPL-2.0
+size	17562
+installed-size	33791
+depends	python3~3.14
+origin	py3-pybind11
+repo	community
+file	py3-pybind11-pyc-3.0.1-r1.apk
+checksum	Q1XfaX9U7LyfPpf0yPUisrUcjOLq8=
+dep	python3~3.14	python3

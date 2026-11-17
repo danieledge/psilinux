@@ -1,0 +1,15 @@
+name	py3-h3
+version	3.7.7-r1
+description	Python bindings for H3, a hierarchical hexagonal geospatial indexing system 
+url	https://github.com/uber/h3-py
+license	Apache-2.0
+size	932132
+installed-size	2530146
+depends	py3-numpy python3~3.14 so:libc.musl-armhf.so.1
+origin	py3-h3
+repo	community
+file	py3-h3-3.7.7-r1.apk
+checksum	Q1b72GM8TmGZKnOJUdZOKav2ddTyc=
+dep	py3-numpy	py3-numpy
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

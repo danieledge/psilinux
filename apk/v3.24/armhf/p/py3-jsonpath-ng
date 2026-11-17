@@ -1,0 +1,14 @@
+name	py3-jsonpath-ng
+version	1.8.0-r1
+description	A final implementation of JSONPath for Python that aims to be standard compliant
+url	https://pypi.python.org/project/jsonpath-ng
+license	Apache-2.0
+size	64051
+installed-size	275265
+depends	py3-ply python3~3.14
+origin	py3-jsonpath-ng
+repo	community
+file	py3-jsonpath-ng-1.8.0-r1.apk
+checksum	Q1YVxh3q2sOWrYQu+Za2u21lVO2Dw=
+dep	py3-ply	py3-ply
+dep	python3~3.14	python3

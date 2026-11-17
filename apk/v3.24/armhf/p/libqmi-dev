@@ -1,0 +1,20 @@
+name	libqmi-dev
+version	1.38.0_git20260414-r0
+description	QMI modem protocol helper library (development files)
+url	https://www.freedesktop.org/wiki/Software/libqmi
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	938456
+installed-size	15879002
+depends	libqmi=1.38.0_git20260414-r0 pc:gio-2.0 pc:gio-unix-2.0 pc:glib-2.0>=2.56 pc:gobject-2.0 pc:mbim-glib>=1.18.0 pc:qrtr-glib>=1.0.0 pkgconfig
+origin	libqmi
+repo	community
+file	libqmi-dev-1.38.0_git20260414-r0.apk
+checksum	Q1Xiy20ZKPACIWAht369gU9mTshTI=
+dep	libqmi=1.38.0_git20260414-r0	libqmi
+dep	pc:gio-2.0	glib-dev
+dep	pc:gio-unix-2.0	glib-dev
+dep	pc:glib-2.0>=2.56	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pc:mbim-glib>=1.18.0	libmbim-dev
+dep	pc:qrtr-glib>=1.0.0	libqrtr-glib-dev
+dep	pkgconfig	pkgconf

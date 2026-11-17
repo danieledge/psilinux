@@ -1,0 +1,19 @@
+name	zathura-pdf-poppler
+version	2026.05.10-r0
+description	Poppler plugin adds PDF support to zathura
+url	https://pwmt.org/projects/zathura-pdf-poppler/
+license	Zlib
+size	9196
+installed-size	18881
+depends	zathura so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgirara.so.5 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libpoppler-glib.so.8
+origin	zathura-pdf-poppler
+repo	community
+file	zathura-pdf-poppler-2026.05.10-r0.apk
+checksum	Q1sL7rCi8taWSUizt9OSsyrwC0Prw=
+dep	zathura	zathura
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgirara.so.5	girara
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpoppler-glib.so.8	poppler-glib

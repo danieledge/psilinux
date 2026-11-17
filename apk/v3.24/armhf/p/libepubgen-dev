@@ -1,0 +1,15 @@
+name	libepubgen-dev
+version	0.1.1-r2
+description	EPUB generator for librevenge. (development files)
+url	https://sourceforge.net/projects/libepubgen/
+license	MPL-2.0
+size	6136
+installed-size	26012
+depends	libepubgen=0.1.1-r2 pc:librevenge-0.0 pkgconfig
+origin	libepubgen
+repo	community
+file	libepubgen-dev-0.1.1-r2.apk
+checksum	Q1XOQGNuUw7m7XzeyQiea5m4x5y5s=
+dep	libepubgen=0.1.1-r2	libepubgen
+dep	pc:librevenge-0.0	librevenge-dev
+dep	pkgconfig	pkgconf

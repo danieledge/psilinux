@@ -1,0 +1,21 @@
+name	indi-3rdparty-gphoto
+version	2.1.5.1-r2
+description	gphoto 3rd party INDI driver
+url	https://github.com/indilib/indi-3rdparty
+license	LGPL-2.1-only
+size	96334
+installed-size	234733
+depends	so:libc.musl-armhf.so.1 so:libcfitsio.so.10 so:libgcc_s.so.1 so:libgphoto2.so.6 so:libgphoto2_port.so.12 so:libindidriver.so.2 so:libjpeg.so.8 so:libraw.so.25 so:libstdc++.so.6
+origin	indi-3rdparty
+repo	community
+file	indi-3rdparty-gphoto-2.1.5.1-r2.apk
+checksum	Q1p4sgbKH1tg7ZdUjAYJ1eYhyqPkc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcfitsio.so.10	cfitsio
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgphoto2.so.6	libgphoto2
+dep	so:libgphoto2_port.so.12	libgphoto2
+dep	so:libindidriver.so.2	libindi
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libraw.so.25	libraw
+dep	so:libstdc++.so.6	libstdc++

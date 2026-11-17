@@ -1,0 +1,15 @@
+name	perl-io-gzip
+version	0.20-r11
+description	Perl extension to provide a PerlIO layer to gzip/gunzip
+url	https://metacpan.org/release/PerlIO-gzip/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	9914
+installed-size	16830
+depends	perl so:libc.musl-armhf.so.1 so:libz.so.1
+origin	perl-io-gzip
+repo	community
+file	perl-io-gzip-0.20-r11.apk
+checksum	Q1jZzY1qY1odUPsk6BoB8ogvowS74=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libz.so.1	zlib

@@ -1,0 +1,25 @@
+name	grommunio-dav
+version	1.6-r0
+description	CalDAV and CardDAV interface for grommunio
+url	https://grommunio.com/
+license	AGPL-3.0-only
+size	615661
+installed-size	2608300
+depends	grommunio-gromox grommunio-mapi-header-php php84 php84-ctype php84-curl php84-dom php84-iconv php84-mbstring php84-pdo_sqlite php84-xml php84-xmlreader php84-xmlwriter /bin/sh
+origin	grommunio-dav
+repo	community
+file	grommunio-dav-1.6-r0.apk
+checksum	Q1E2qKm5WWXuDH3zGcqSvKrxoDa70=
+dep	grommunio-gromox	grommunio-gromox
+dep	grommunio-mapi-header-php	grommunio-mapi-header-php
+dep	php84	php84
+dep	php84-ctype	php84-ctype
+dep	php84-curl	php84-curl
+dep	php84-dom	php84-dom
+dep	php84-iconv	php84-iconv
+dep	php84-mbstring	php84-mbstring
+dep	php84-pdo_sqlite	php84-pdo_sqlite
+dep	php84-xml	php84-xml
+dep	php84-xmlreader	php84-xmlreader
+dep	php84-xmlwriter	php84-xmlwriter
+dep	/bin/sh	busybox-binsh

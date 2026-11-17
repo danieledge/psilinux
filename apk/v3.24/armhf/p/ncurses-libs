@@ -1,0 +1,16 @@
+name	ncurses-libs
+version	6.6_p20260516-r0
+description	Ncurses libraries (old compat to pull sublibs)
+url	https://invisible-island.net/ncurses/
+license	X11
+size	1324
+installed-size	0
+depends	libformw=6.6_p20260516-r0 libmenuw=6.6_p20260516-r0 libncursesw=6.6_p20260516-r0 libpanelw=6.6_p20260516-r0
+origin	ncurses
+repo	main
+file	ncurses-libs-6.6_p20260516-r0.apk
+checksum	Q1KMBdi5BQLtWaP+i/hg2IJyRIIQo=
+dep	libformw=6.6_p20260516-r0	libformw
+dep	libmenuw=6.6_p20260516-r0	libmenuw
+dep	libncursesw=6.6_p20260516-r0	libncursesw
+dep	libpanelw=6.6_p20260516-r0	libpanelw

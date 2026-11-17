@@ -1,0 +1,16 @@
+name	ocaml-amqp-client-dev
+version	2.3.0-r3
+description	AMQP 0.9.1 client library (development files)
+url	https://github.com/andersfugmann/amqp-client
+license	BSD-3-Clause
+size	1065450
+installed-size	2857722
+depends	ocaml-amqp-client=2.3.0-r3 ocaml-lwt-dev ocaml-lwt_log-dev ocaml-uri-dev
+origin	ocaml-amqp-client
+repo	community
+file	ocaml-amqp-client-dev-2.3.0-r3.apk
+checksum	Q1xpw32Bb1U4qBf8lyKwZQtwyCCkY=
+dep	ocaml-amqp-client=2.3.0-r3	ocaml-amqp-client
+dep	ocaml-lwt-dev	ocaml-lwt-dev
+dep	ocaml-lwt_log-dev	ocaml-lwt_log-dev
+dep	ocaml-uri-dev	ocaml-uri-dev

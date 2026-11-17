@@ -1,0 +1,15 @@
+name	libmowgli
+version	2.1.3-r6
+description	C library framework designed to reduce writing of boilerplate code
+url	https://github.com/atheme/libmowgli-2
+license	ISC
+size	61557
+installed-size	140904
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	libmowgli
+repo	community
+file	libmowgli-2.1.3-r6.apk
+checksum	Q1New1ezGj931LG5EEffddjGXmwas=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

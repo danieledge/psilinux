@@ -1,0 +1,15 @@
+name	sdl2_gfx-dev
+version	1.0.4-r1
+description	SDL2 graphics drawing primitives and other support functions (development files)
+url	https://www.ferzkopp.net/wordpress/2016/01/02/sdl_gfx-sdl2_gfx/
+license	Zlib
+size	28826
+installed-size	80207
+depends	sdl2_gfx=1.0.4-r1 pc:sdl2>=2.0.0 pkgconfig
+origin	sdl2_gfx
+repo	community
+file	sdl2_gfx-dev-1.0.4-r1.apk
+checksum	Q10yy5zZ2wfS2V7NSxtI8nCd+qlVc=
+dep	sdl2_gfx=1.0.4-r1	sdl2_gfx
+dep	pc:sdl2>=2.0.0	sdl2-compat-dev
+dep	pkgconfig	pkgconf

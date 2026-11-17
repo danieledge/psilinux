@@ -1,0 +1,14 @@
+name	crypto++-dev
+version	8.9.0-r2
+description	Free C++ class library of cryptographic schemes (development files)
+url	https://github.com/weidai11/cryptopp
+license	BSL-1.0
+size	475294
+installed-size	2359023
+depends	crypto++=8.9.0-r2 pkgconfig
+origin	crypto++
+repo	community
+file	crypto++-dev-8.9.0-r2.apk
+checksum	Q10K3acpD2TrjZ43uQvJ9v2gyJRTs=
+dep	crypto++=8.9.0-r2	crypto++
+dep	pkgconfig	pkgconf

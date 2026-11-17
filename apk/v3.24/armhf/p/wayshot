@@ -1,0 +1,14 @@
+name	wayshot
+version	1.3.1-r1
+description	A native screenshot tool for wlroots based compositors
+url	https://github.com/waycrate/wayshot
+license	BSD-2-Clause
+size	519460
+installed-size	981112
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	wayshot
+repo	community
+file	wayshot-1.3.1-r1.apk
+checksum	Q1aDR5sJ01gC3Ox1CAR7aIzHb2LfU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

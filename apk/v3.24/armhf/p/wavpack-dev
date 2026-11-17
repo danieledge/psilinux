@@ -1,0 +1,14 @@
+name	wavpack-dev
+version	5.9.0-r0
+description	Audio compression format with lossless, lossy, and hybrid compression modes (development files)
+url	https://www.wavpack.com/
+license	BSD-3-Clause
+size	8370
+installed-size	21243
+depends	wavpack-libs=5.9.0-r0 pkgconfig
+origin	wavpack
+repo	community
+file	wavpack-dev-5.9.0-r0.apk
+checksum	Q1cyVXKhNFoAIRIEoT5xcEnTco4Vg=
+dep	wavpack-libs=5.9.0-r0	wavpack-libs
+dep	pkgconfig	pkgconf

@@ -1,0 +1,15 @@
+name	openexr-libiex
+version	3.4.15-r0
+description	High dynamic-range image file format library
+url	https://www.openexr.com/
+license	BSD-3-Clause
+size	95375
+installed-size	431488
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	openexr
+repo	community
+file	openexr-libiex-3.4.15-r0.apk
+checksum	Q1bdAYlv8K822NRmEms3So+J80T6g=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

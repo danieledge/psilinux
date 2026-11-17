@@ -1,0 +1,17 @@
+name	imagemagick-c++
+version	7.1.2.35-r0
+description	ImageMagick Magick++ library (C++ bindings)
+url	https://imagemagick.org/
+license	ImageMagick
+size	155085
+installed-size	509324
+depends	so:libMagickCore-7.Q16HDRI.so.10 so:libMagickWand-7.Q16HDRI.so.10 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	imagemagick
+repo	community
+file	imagemagick-c++-7.1.2.35-r0.apk
+checksum	Q1X1eeqFwcxrX4WzoEuX31RmiPh9k=
+dep	so:libMagickCore-7.Q16HDRI.so.10	imagemagick-libs
+dep	so:libMagickWand-7.Q16HDRI.so.10	imagemagick-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

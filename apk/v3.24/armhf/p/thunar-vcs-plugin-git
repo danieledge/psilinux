@@ -1,0 +1,20 @@
+name	thunar-vcs-plugin-git
+version	0.3.0-r0
+description	Git support for thunar-vcs-plugin
+url	https://docs.xfce.org/xfce/thunar/thunar-vcs-plugin
+license	GPL-2.0-or-later
+size	29024
+installed-size	67415
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libexo-2.so.0 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libxfce4util.so.7
+origin	thunar-vcs-plugin
+repo	community
+file	thunar-vcs-plugin-git-0.3.0-r0.apk
+checksum	Q19YbUqjP7qvHm65W7qk/BjcFY8Yw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libexo-2.so.0	exo-libs
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libxfce4util.so.7	libxfce4util

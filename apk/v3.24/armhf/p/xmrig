@@ -1,0 +1,17 @@
+name	xmrig
+version	6.26.0-r0
+description	XMRig is a high performance Monero (XMR) miner
+url	https://xmrig.com/
+license	GPL-3.0-or-later
+size	1400301
+installed-size	3579760
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libhwloc.so.15 so:libssl.so.3 so:libuv.so.1
+origin	xmrig
+repo	community
+file	xmrig-6.26.0-r0.apk
+checksum	Q1fr4g+btnjKN09i61wJaxFFwUKvA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libhwloc.so.15	hwloc
+dep	so:libssl.so.3	libssl3
+dep	so:libuv.so.1	libuv

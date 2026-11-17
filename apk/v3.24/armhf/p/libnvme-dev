@@ -1,0 +1,20 @@
+name	libnvme-dev
+version	1.16.2-r0
+description	C Library for NVM Express on Linux (development files)
+url	https://github.com/linux-nvme/libnvme/
+license	LGPL-2.1-or-later
+size	172143
+installed-size	871671
+depends	json-c-dev linux-headers openssl-dev libnvme=1.16.2-r0 libnvmemi=1.16.2-r0 pc:json-c>=0.13 pc:openssl>=3.0.0 pkgconfig
+origin	libnvme
+repo	main
+file	libnvme-dev-1.16.2-r0.apk
+checksum	Q1H6Mb5Nd8BK2uH6e47rwNg277zGM=
+dep	json-c-dev	json-c-dev
+dep	linux-headers	linux-headers
+dep	openssl-dev	openssl-dev
+dep	libnvme=1.16.2-r0	libnvme
+dep	libnvmemi=1.16.2-r0	libnvmemi
+dep	pc:json-c>=0.13	json-c-dev
+dep	pc:openssl>=3.0.0	openssl-dev
+dep	pkgconfig	pkgconf

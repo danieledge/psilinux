@@ -1,0 +1,13 @@
+name	libmspack
+version	0.11_alpha-r1
+description	Library for Microsoft CAB compression formats
+url	https://www.cabextract.org.uk/libmspack/
+license	LGPL-2.1-only
+size	31926
+installed-size	58604
+depends	so:libc.musl-armhf.so.1
+origin	libmspack
+repo	community
+file	libmspack-0.11_alpha-r1.apk
+checksum	Q1lLu28Zr0b8o+Ugntf4vjk3ueH+Y=
+dep	so:libc.musl-armhf.so.1	musl

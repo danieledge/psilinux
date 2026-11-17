@@ -1,0 +1,13 @@
+name	linux-tools-gpio
+version	7.1.5-r0
+description	Linux kernel GPIO tools
+url	https://www.kernel.org/
+license	GPL-2.0-only
+size	12653
+installed-size	37716
+depends	so:libc.musl-armhf.so.1
+origin	linux-tools
+repo	main
+file	linux-tools-gpio-7.1.5-r0.apk
+checksum	Q1Q8u8LjlhlU6/Fb/0XaoAtZjsfmI=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,16 @@
+name	ustream-ssl
+version	20251003-r0
+description	ustream SSL library
+url	https://git.openwrt.org/project/ustream-ssl.git
+license	ISC
+size	6601
+installed-size	13592
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3 so:libubox.so
+origin	ustream-ssl
+repo	community
+file	ustream-ssl-20251003-r0.apk
+checksum	Q1EV2WbJFmTM6smAWJPGxe5Bgztqo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3
+dep	so:libubox.so	libubox

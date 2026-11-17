@@ -1,0 +1,13 @@
+name	tsocks
+version	1.8_beta5-r1
+description	Transparent SOCKS proxying library
+url	https://tsocks.sourceforge.net/
+license	GPL-2.0-or-later
+size	14054
+installed-size	27677
+depends	so:libc.musl-armhf.so.1
+origin	tsocks
+repo	community
+file	tsocks-1.8_beta5-r1.apk
+checksum	Q1gRrQ3wImcOmX1S+z9k2FRda5fgk=
+dep	so:libc.musl-armhf.so.1	musl

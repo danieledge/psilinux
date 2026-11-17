@@ -1,0 +1,13 @@
+name	yq-go
+version	4.53.3-r2
+description	Portable command-line YAML processor written in Go
+url	https://github.com/mikefarah/yq
+license	MIT
+size	5500295
+installed-size	14220540
+depends	so:libc.musl-armhf.so.1
+origin	yq-go
+repo	community
+file	yq-go-4.53.3-r2.apk
+checksum	Q1GY9Mxfs9H5KnAvQD2xlRIn3+3Kc=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,25 @@
+name	xdg-desktop-portal-gtk
+version	1.15.3-r1
+description	Gtk implementation of xdg-desktop-portal
+url	https://github.com/flatpak/xdg-desktop-portal-gtk
+license	LGPL-2.1-or-later
+size	78555
+installed-size	236415
+depends	gsettings-desktop-schemas xdg-desktop-portal so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libfontconfig.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgnome-desktop-3.so.20 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8
+origin	xdg-desktop-portal-gtk
+repo	community
+file	xdg-desktop-portal-gtk-1.15.3-r1.apk
+checksum	Q1dk8ISAsVpYnxVwrjZCSpLWHjYpM=
+dep	gsettings-desktop-schemas	gsettings-desktop-schemas
+dep	xdg-desktop-portal	xdg-desktop-portal
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgnome-desktop-3.so.20	libgnome-desktop-3
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl

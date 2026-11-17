@@ -1,0 +1,21 @@
+name	lbreakouthd
+version	1.2.2-r0
+description	Ball-and-paddle game (LBreakout2 successor)
+url	https://lgames.sourceforge.io/LBreakoutHD/
+license	GPL-2.0-or-later
+size	139726
+installed-size	266817
+depends	lbreakouthd-data so:libSDL2-2.0.so.0 so:libSDL2_image-2.0.so.0 so:libSDL2_mixer-2.0.so.0 so:libSDL2_ttf-2.0.so.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libintl.so.8 so:libstdc++.so.6
+origin	lbreakouthd
+repo	community
+file	lbreakouthd-1.2.2-r0.apk
+checksum	Q1S2CaYqtteuaHbp9s+q/WFIVA7y4=
+dep	lbreakouthd-data	lbreakouthd-data
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libSDL2_image-2.0.so.0	sdl2_image
+dep	so:libSDL2_mixer-2.0.so.0	sdl2_mixer
+dep	so:libSDL2_ttf-2.0.so.0	sdl2_ttf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libintl.so.8	libintl
+dep	so:libstdc++.so.6	libstdc++

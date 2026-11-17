@@ -1,0 +1,15 @@
+name	k2
+version	0_git20260430-r0
+description	Chess engine with UCI and Xboard interface
+url	https://github.com/serg-meus/k2
+license	GPL-3.0-or-later
+size	97794
+installed-size	169480
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	k2
+repo	community
+file	k2-0_git20260430-r0.apk
+checksum	Q14cZgPFgQIKh6LmP2ESFfuAZ+Ajo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

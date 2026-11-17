@@ -1,0 +1,14 @@
+name	harfbuzz-subset
+version	13.2.1-r0
+description	Harfbuzz subset library
+url	https://harfbuzz.github.io/
+license	MIT
+size	569517
+installed-size	1086784
+depends	so:libc.musl-armhf.so.1 so:libharfbuzz.so.0
+origin	harfbuzz
+repo	main
+file	harfbuzz-subset-13.2.1-r0.apk
+checksum	Q1s+f1/TWPvgccPjfRjUY0eNmRp2M=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libharfbuzz.so.0	harfbuzz

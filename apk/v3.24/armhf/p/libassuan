@@ -1,0 +1,14 @@
+name	libassuan
+version	3.0.2-r0
+description	IPC library used by some GnuPG related software
+url	https://www.gnupg.org/software/libassuan/index.html
+license	LGPL-2.1-or-later
+size	31561
+installed-size	62872
+depends	so:libc.musl-armhf.so.1 so:libgpg-error.so.0
+origin	libassuan
+repo	main
+file	libassuan-3.0.2-r0.apk
+checksum	Q19hEHOSQeF4fdb3HiiCrrxMUKpxA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgpg-error.so.0	libgpg-error

@@ -1,0 +1,25 @@
+name	clang21
+version	21.1.8-r3
+description	C language family front-end for LLVM
+url	https://llvm.org/
+license	Apache-2.0 WITH LLVM-exception
+size	620231
+installed-size	1366186
+depends	clang21-headers=21.1.8-r3 clang21-libs=21.1.8-r3 fortify-headers>=1.1-r2 libgcc-static libstdc++-dev llvm21-linker-tools musl-dev clang21-headers=21.1.8-r3 so:libLLVM.so.21.1 so:libc.musl-armhf.so.1 so:libclang-cpp.so.21.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	clang21
+repo	main
+file	clang21-21.1.8-r3.apk
+checksum	Q15EZUY1h5qM9x1bp4VcVBiakCCCs=
+dep	clang21-headers=21.1.8-r3	clang21-headers
+dep	clang21-libs=21.1.8-r3	clang21-libs
+dep	fortify-headers>=1.1-r2	fortify-headers
+dep	libgcc-static	libgcc-static
+dep	libstdc++-dev	libstdc++-dev
+dep	llvm21-linker-tools	llvm21-linker-tools
+dep	musl-dev	musl-dev
+dep	clang21-headers=21.1.8-r3	clang21-headers
+dep	so:libLLVM.so.21.1	llvm21-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libclang-cpp.so.21.1	clang21-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

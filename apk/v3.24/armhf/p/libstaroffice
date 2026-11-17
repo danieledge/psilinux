@@ -1,0 +1,19 @@
+name	libstaroffice
+version	0.0.7-r8
+description	Import filter for StarOffice documents
+url	https://github.com/fosnola/libstaroffice
+license	MPL-2.0
+size	772331
+installed-size	1874016
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:librevenge-0.0.so.0 so:librevenge-generators-0.0.so.0 so:librevenge-stream-0.0.so.0 so:libstdc++.so.6 so:libz.so.1
+origin	libstaroffice
+repo	community
+file	libstaroffice-0.0.7-r8.apk
+checksum	Q1NfBpGJs7jaTsGpb3IiJH4+y+Sac=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:librevenge-0.0.so.0	librevenge
+dep	so:librevenge-generators-0.0.so.0	librevenge
+dep	so:librevenge-stream-0.0.so.0	librevenge
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

@@ -1,0 +1,19 @@
+name	xfsprogs-extra
+version	7.0.1-r0
+description	XFS filesystem extra utilities
+url	https://xfs.org/index.php/Main_Page
+license	LGPL-2.1-or-later
+size	844425
+installed-size	1789216
+depends	xfsprogs python3 so:libc.musl-armhf.so.1 so:libdevmapper.so.1.02 so:libedit.so.0 so:liburcu.so.8 so:libuuid.so.1
+origin	xfsprogs
+repo	main
+file	xfsprogs-extra-7.0.1-r0.apk
+checksum	Q1NSFJ2lBACTI9vOnnWV2fkb12+RA=
+dep	xfsprogs	xfsprogs
+dep	python3	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdevmapper.so.1.02	device-mapper-libs
+dep	so:libedit.so.0	libedit
+dep	so:liburcu.so.8	userspace-rcu
+dep	so:libuuid.so.1	libuuid

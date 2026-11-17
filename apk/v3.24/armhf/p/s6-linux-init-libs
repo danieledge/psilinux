@@ -1,0 +1,13 @@
+name	s6-linux-init-libs
+version	1.2.0.1-r0
+description	Set of tools to create and run an s6-based init system (libraries)
+url	https://skarnet.org/software/s6-linux-init/
+license	ISC
+size	3187
+installed-size	5280
+depends	so:libskarnet.so.2.15
+origin	s6-linux-init
+repo	main
+file	s6-linux-init-libs-1.2.0.1-r0.apk
+checksum	Q1Qzw5WYJs/adPzSvWC38wzPvdtEI=
+dep	so:libskarnet.so.2.15	skalibs-libs

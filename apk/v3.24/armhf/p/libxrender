@@ -1,0 +1,14 @@
+name	libxrender
+version	0.9.13-r0
+description	X Rendering Extension client library
+url	https://xorg.freedesktop.org/
+license	MIT
+size	15938
+installed-size	38196
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1
+origin	libxrender
+repo	main
+file	libxrender-0.9.13-r0.apk
+checksum	Q135YUEzh39Aa556O36ZwWSioJCHE=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl

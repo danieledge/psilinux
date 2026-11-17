@@ -1,0 +1,18 @@
+name	gitstatus
+version	1.5.5-r0
+description	Git status for Bash and Zsh prompt
+url	https://github.com/romkatv/gitstatus
+license	GPL-3.0-or-later
+size	340962
+installed-size	674268
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libhttp_parser.so.2.9 so:libpcre2-8.so.0 so:libstdc++.so.6 so:libz.so.1
+origin	gitstatus
+repo	community
+file	gitstatus-1.5.5-r0.apk
+checksum	Q1QYj2Y8sb+5/0Ec5/176Xzt/XtuY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libhttp_parser.so.2.9	http-parser
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

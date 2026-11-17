@@ -1,0 +1,13 @@
+name	efi-mkuki
+version	1.0.0-r0
+description	EFI Unified Kernel Image Maker
+url	https://github.com/jirutka/efi-mkuki
+license	MIT
+size	3965
+installed-size	5283
+depends	binutils
+origin	efi-mkuki
+repo	main
+file	efi-mkuki-1.0.0-r0.apk
+checksum	Q1q8wd2dcZmfUJ43YCZeukGg1qprQ=
+dep	binutils	binutils

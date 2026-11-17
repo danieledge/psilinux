@@ -1,0 +1,15 @@
+name	libblobmsg
+version	2026.02.13-r0
+description	OpenWrt utility and data structures library
+url	https://git.openwrt.org/project/ustream-ssl.git
+license	ISC
+size	9975
+installed-size	22952
+depends	so:libc.musl-armhf.so.1 so:libjson-c.so.5 so:libubox.so
+origin	libubox
+repo	community
+file	libblobmsg-2026.02.13-r0.apk
+checksum	Q1HSFulH1wtPQAeKu0ibN1SS1aq5U=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjson-c.so.5	json-c
+dep	so:libubox.so	libubox

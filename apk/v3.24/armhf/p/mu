@@ -1,0 +1,21 @@
+name	mu
+version	1.14.1-r1
+description	Utilities for indexing and searching Maildirs
+url	https://www.djcbsoftware.nl/code/mu/
+license	GPL-3.0-or-later
+size	521500
+installed-size	1276132
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmime-3.0.so.0 so:libgobject-2.0.so.0 so:libreadline.so.8 so:libstdc++.so.6 so:libxapian.so.45
+origin	mu
+repo	community
+file	mu-1.14.1-r1.apk
+checksum	Q10tK8lAVRP4PYipW/dMZ7KyWXtsE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmime-3.0.so.0	gmime
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libreadline.so.8	readline
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxapian.so.45	libxapian

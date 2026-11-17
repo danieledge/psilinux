@@ -1,0 +1,13 @@
+name	py3-durationpy
+version	0.10-r1
+description	Module for converting between datetime.timedelta and Go's Duration strings
+url	https://github.com/icholy/durationpy
+license	MIT
+size	5011
+installed-size	6697
+depends	python3~3.14
+origin	py3-durationpy
+repo	community
+file	py3-durationpy-0.10-r1.apk
+checksum	Q1hyUg06eFfp4az/5XFcJFecL+op4=
+dep	python3~3.14	python3

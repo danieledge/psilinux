@@ -1,0 +1,13 @@
+name	makedepend
+version	1.0.9-r0
+description	utility for making makefile dependencies
+url	https://www.freedesktop.org/
+license	MIT-open-group
+size	15750
+installed-size	29948
+depends	so:libc.musl-armhf.so.1
+origin	makedepend
+repo	main
+file	makedepend-1.0.9-r0.apk
+checksum	Q1Mop262wmSO4xF3+tF5yNfzhfNKc=
+dep	so:libc.musl-armhf.so.1	musl

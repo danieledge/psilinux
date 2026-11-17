@@ -1,0 +1,15 @@
+name	netcdf-utils
+version	4.10.0-r0
+description	Libraries for the Unidata network Common Data Format
+url	https://www.unidata.ucar.edu/software/netcdf/
+license	BSD-3-Clause
+size	177190
+installed-size	366884
+depends	so:libc.musl-armhf.so.1 so:libhdf5.so.311 so:libnetcdf.so.22
+origin	netcdf
+repo	community
+file	netcdf-utils-4.10.0-r0.apk
+checksum	Q16qHpMZNRiTMzHARNwvu8cjvVv2s=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libhdf5.so.311	hdf5
+dep	so:libnetcdf.so.22	netcdf

@@ -1,0 +1,20 @@
+name	pam_mount
+version	2.22-r2
+description	Pluggable Authentication Module that can mount volumes for a user session
+url	https://codeberg.org/jengelh/pam_mount
+license	LGPL-2.1-or-later
+size	50852
+installed-size	121055
+depends	so:libHX.so.43 so:libc.musl-armhf.so.1 so:libcryptmount.so.0 so:libcryptsetup.so.12 so:libmount.so.1 so:libpam.so.0 so:libpcre2-8.so.0 so:libxml2.so.2
+origin	pam_mount
+repo	community
+file	pam_mount-2.22-r2.apk
+checksum	Q1LXLKbogdmaO8U43rw9qiTvEnyAY=
+dep	so:libHX.so.43	libhx
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcryptmount.so.0	libcryptmount
+dep	so:libcryptsetup.so.12	cryptsetup-libs
+dep	so:libmount.so.1	libmount
+dep	so:libpam.so.0	linux-pam
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libxml2.so.2	libxml2

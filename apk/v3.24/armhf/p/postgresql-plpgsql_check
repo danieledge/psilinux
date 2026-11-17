@@ -1,0 +1,14 @@
+name	postgresql-plpgsql_check
+version	2.8.3-r0
+description	Additional tools for plpgsql functions validation
+url	https://github.com/okbob/plpgsql_check
+license	MIT
+size	335409
+installed-size	626558
+depends	postgresql18 so:libc.musl-armhf.so.1
+origin	postgresql-plpgsql_check
+repo	community
+file	postgresql-plpgsql_check-2.8.3-r0.apk
+checksum	Q1JHaEqrfApfQNMDIRgapRE1nhtU0=
+dep	postgresql18	postgresql18
+dep	so:libc.musl-armhf.so.1	musl

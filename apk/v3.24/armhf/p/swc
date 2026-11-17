@@ -1,0 +1,14 @@
+name	swc
+version	1.15.7-r0
+description	A super-fast TypeScript / JavaScript compiler written in Rust
+url	https://swc.rs
+license	Apache-2.0
+size	5383795
+installed-size	14757180
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	swc
+repo	community
+file	swc-1.15.7-r0.apk
+checksum	Q17rzBG/pKY7+Ws42HsEr0XgIUql8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

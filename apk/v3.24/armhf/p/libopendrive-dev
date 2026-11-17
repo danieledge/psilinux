@@ -1,0 +1,14 @@
+name	libopendrive-dev
+version	0.6.1-r1
+description	Small, lightweight C++ library for handling OpenDRIVE files (development files)
+url	https://github.com/DLR-TS/libOpenDRIVE
+license	Apache-2.0
+size	23511
+installed-size	87192
+depends	pugixml-dev libopendrive=0.6.1-r1
+origin	libopendrive
+repo	community
+file	libopendrive-dev-0.6.1-r1.apk
+checksum	Q1sZlgGC6ZdTg27ya2qkFCsow81y8=
+dep	pugixml-dev	pugixml-dev
+dep	libopendrive=0.6.1-r1	libopendrive

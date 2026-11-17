@@ -1,0 +1,15 @@
+name	sxmo-utils-audio-pulseaudio
+version	1.18.1-r4
+description	Utility scripts, programs, and configs that hold the Sxmo UI environment together
+url	https://git.sr.ht/~mil/sxmo-utils
+license	AGPL-3.0-only
+size	1351
+installed-size	0
+depends	pulseaudio pulseaudio-alsa callaudiod
+origin	sxmo-utils
+repo	community
+file	sxmo-utils-audio-pulseaudio-1.18.1-r4.apk
+checksum	Q1jtQ93HTv85Y6Cmw1TII/eqKSogw=
+dep	pulseaudio	pulseaudio
+dep	pulseaudio-alsa	pulseaudio-alsa
+dep	callaudiod	callaudiod

@@ -1,0 +1,30 @@
+name	svxlink
+version	25.05.1-r1
+description	advanced radio repeater controller and EchoLink
+url	http://www.svxlink.org
+license	GPL-2.0-or-later
+size	2797133
+installed-size	6760949
+depends	/bin/sh so:libasound.so.2 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgcc_s.so.1 so:libgcrypt.so.20 so:libgsm.so.1 so:libjsoncpp.so.26 so:libogg.so.0 so:libopus.so.0 so:libpopt.so.0 so:librtlsdr.so.0 so:libsigc-2.0.so.0 so:libspeex.so.1 so:libssl.so.3 so:libstdc++.so.6 so:libtcl8.6.so
+origin	svxlink
+repo	community
+file	svxlink-25.05.1-r1.apk
+checksum	Q18RMuZfZLIjkgGkpDEb124knHnig=
+dep	/bin/sh	busybox-binsh
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgsm.so.1	gsm
+dep	so:libjsoncpp.so.26	jsoncpp
+dep	so:libogg.so.0	libogg
+dep	so:libopus.so.0	opus
+dep	so:libpopt.so.0	popt
+dep	so:librtlsdr.so.0	librtlsdr
+dep	so:libsigc-2.0.so.0	libsigc++
+dep	so:libspeex.so.1	speex
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtcl8.6.so	tcl

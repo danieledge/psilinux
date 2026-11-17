@@ -1,0 +1,28 @@
+name	gnome-online-accounts
+version	3.58.1-r0
+description	Single sign-on framework for GNOME
+url	https://gitlab.gnome.org/GNOME/gnome-online-accounts/-/wikis/home
+license	GPL-2.0-or-later
+size	273778
+installed-size	794979
+depends	dbus:org.freedesktop.Secrets so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libgcr-4.so.4 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libkeyutils.so.1 so:libkrb5.so.3 so:librest-1.0.so.0 so:libsecret-1.so.0 so:libsoup-3.0.so.0 so:libxml2.so.2
+origin	gnome-online-accounts
+repo	community
+file	gnome-online-accounts-3.58.1-r0.apk
+checksum	Q11HpwiiG8PUbITnBi0RTGBLS9UA4=
+dep	dbus:org.freedesktop.Secrets	gnome-keyring
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcr-4.so.4	gcr4-base
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libkeyutils.so.1	keyutils-libs
+dep	so:libkrb5.so.3	krb5-libs
+dep	so:librest-1.0.so.0	rest1
+dep	so:libsecret-1.so.0	libsecret
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libxml2.so.2	libxml2

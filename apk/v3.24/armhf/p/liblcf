@@ -1,0 +1,21 @@
+name	liblcf
+version	0.8.1-r1
+description	Library to handle RPG Maker 2000/2003 and EasyRPG projects
+url	https://easyrpg.org/
+license	MIT
+size	495404
+installed-size	1916542
+depends	shared-mime-info /bin/sh so:libc.musl-armhf.so.1 so:libexpat.so.1 so:libgcc_s.so.1 so:libicui18n.so.78 so:libicuuc.so.78 so:libinih.so.0 so:libstdc++.so.6
+origin	liblcf
+repo	community
+file	liblcf-0.8.1-r1.apk
+checksum	Q1F90QtgZiiWSHT6Ck0PR2oDrdfNY=
+dep	shared-mime-info	shared-mime-info
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexpat.so.1	libexpat
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libinih.so.0	inih
+dep	so:libstdc++.so.6	libstdc++

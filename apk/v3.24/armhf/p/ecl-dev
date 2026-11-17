@@ -1,0 +1,17 @@
+name	ecl-dev
+version	24.5.10-r2
+description	Embeddable Common Lisp (development files)
+url	https://ecl.common-lisp.dev/
+license	LGPL-2.1-or-later
+size	858995
+installed-size	2970560
+depends	gc-dev gmp-dev libatomic_ops-dev libffi-dev ecl=24.5.10-r2
+origin	ecl
+repo	main
+file	ecl-dev-24.5.10-r2.apk
+checksum	Q1Lqz3DXpuCTiDAoALbj4m5XkZiWc=
+dep	gc-dev	gc-dev
+dep	gmp-dev	gmp-dev
+dep	libatomic_ops-dev	libatomic_ops-dev
+dep	libffi-dev	libffi-dev
+dep	ecl=24.5.10-r2	ecl

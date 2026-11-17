@@ -1,0 +1,14 @@
+name	libraw1394-tools
+version	2.1.2-r5
+description	Tools for libraw1394
+url	https://sourceforge.net/projects/libraw1394/
+license	LGPL-2.1-or-later
+size	12258
+installed-size	32528
+depends	so:libc.musl-armhf.so.1 so:libraw1394.so.11
+origin	libraw1394
+repo	community
+file	libraw1394-tools-2.1.2-r5.apk
+checksum	Q1HKxym/zY2lqensNoh/b0ALLDwTc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libraw1394.so.11	libraw1394

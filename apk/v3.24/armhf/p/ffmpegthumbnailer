@@ -1,0 +1,21 @@
+name	ffmpegthumbnailer
+version	2.2.4-r0
+description	Lightweight video thumbnailer that can be used by file managers
+url	https://github.com/dirkvdb/ffmpegthumbnailer
+license	GPL-2.0-or-later
+size	83866
+installed-size	237560
+depends	so:libavcodec.so.62 so:libavfilter.so.11 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libjpeg.so.8 so:libpng16.so.16 so:libstdc++.so.6
+origin	ffmpegthumbnailer
+repo	community
+file	ffmpegthumbnailer-2.2.4-r0.apk
+checksum	Q1BBScvIIK1DNG6204WlVHMPsAVwc=
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavfilter.so.11	ffmpeg-libavfilter
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++

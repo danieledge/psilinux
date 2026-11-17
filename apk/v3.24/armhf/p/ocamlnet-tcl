@@ -1,0 +1,50 @@
+name	ocamlnet-tcl
+version	4.1.9-r5
+description	Network and system programming library for OCaml (Tcl event system)
+url	http://projects.camlcity.org/projects/ocamlnet.html
+license	zlib-acknowledgement AND BSD-3-Clause AND GPL-2.0-only
+size	50456
+installed-size	112784
+depends	ocaml4-impl:CamlinternalOO:a91c05376d5fcc32bc79cbe1bc7c32c3 ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2 ocaml4-impl:Stdlib__Hashtbl:28f814923ef9cfbba7b97f911bf899b6 ocaml4-impl:Stdlib__List:b42dc21c9462b2cabc74ab8825425e32 ocaml4-impl:Unix:f178ae69c20aeb74201b0bb0f388ec23 ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15 ocaml4-intf:CamlinternalOO:aea913efb75d4b8c0600eeba0222f7d8 ocaml4-intf:Equeue:965be7d58d2b022f7a0761e14284df07 ocaml4-intf:Netexn:2c459cfecb3c4aa736d10ab76c275500 ocaml4-intf:Netlog:e07e1fe9aea9ee3972805e85840a0fd1 ocaml4-intf:Netsys:651e913725374ad572340c2ba637fe47 ocaml4-intf:Netsys_crypto_types:609265754feca8fd37448980f2a2a402 ocaml4-intf:Netsys_signal:00545369a6ba22d75f7d9d9d2690475a ocaml4-intf:Netsys_types:2338a0b03e19d088840df462d1d09180 ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91 ocaml4-intf:Stdlib__Bigarray:994a14f10d5ae081663b52b790ee11d3 ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822 ocaml4-intf:Stdlib__Bytes:3d02c33317c0108c61e7a5eefa37519a ocaml4-intf:Stdlib__Complex:4555217c759e89d65daa8f682eb09b35 ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9 ocaml4-intf:Stdlib__Hashtbl:34c0fdd524bf2a75e4d5af64a6d34401 ocaml4-intf:Stdlib__Int32:a71ea5238030770647165f659f80b1ab ocaml4-intf:Stdlib__Int64:0fa5587c47baf16a06837c7dedfc2518 ocaml4-intf:Stdlib__List:ee222542f6f8195441543b8b399b64b9 ocaml4-intf:Stdlib__Obj:25794d29f7f4018768ea900e331a2bf3 ocaml4-intf:Stdlib__Oo:8c5c50b941bc74bdefd1c7cd303567f7 ocaml4-intf:Stdlib__Pervasives:dc77fedcffc67c0119b789c66d5ef7bf ocaml4-intf:Stdlib__Printf:bc8af6214197dc8f40eaa738a4cd6a28 ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962 ocaml4-intf:Stdlib__Set:871d2ee2167ac9e7977fa13994cf4658 ocaml4-intf:Stdlib__Sys:7726a14ce36f5c6c3abb04975cec748b ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57 ocaml4-intf:Unix:d81af7730241956ddaf1c2d19ed2cb1c ocaml4-intf:Unixqueue:509e812dd021c25a8e49868405d63db5 ocaml4-intf:Unixqueue_select:67d237ce3ecf76190a0a29952e5477b7 ocaml4-intf:Unixqueue_util:1ab0ba12da45a86ec37da11754d09b68 so:libc.musl-armhf.so.1 so:libtcl8.6.so
+origin	ocamlnet
+repo	community
+file	ocamlnet-tcl-4.1.9-r5.apk
+checksum	Q1InCjiq6E4vd/ob5p6zVxug4oRhA=
+dep	ocaml4-impl:CamlinternalOO:a91c05376d5fcc32bc79cbe1bc7c32c3	ocaml
+dep	ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2	ocaml
+dep	ocaml4-impl:Stdlib__Hashtbl:28f814923ef9cfbba7b97f911bf899b6	ocaml
+dep	ocaml4-impl:Stdlib__List:b42dc21c9462b2cabc74ab8825425e32	ocaml
+dep	ocaml4-impl:Unix:f178ae69c20aeb74201b0bb0f388ec23	ocaml
+dep	ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15	ocaml
+dep	ocaml4-intf:CamlinternalOO:aea913efb75d4b8c0600eeba0222f7d8	ocaml
+dep	ocaml4-intf:Equeue:965be7d58d2b022f7a0761e14284df07	ocamlnet
+dep	ocaml4-intf:Netexn:2c459cfecb3c4aa736d10ab76c275500	ocamlnet
+dep	ocaml4-intf:Netlog:e07e1fe9aea9ee3972805e85840a0fd1	ocamlnet
+dep	ocaml4-intf:Netsys:651e913725374ad572340c2ba637fe47	ocamlnet
+dep	ocaml4-intf:Netsys_crypto_types:609265754feca8fd37448980f2a2a402	ocamlnet
+dep	ocaml4-intf:Netsys_signal:00545369a6ba22d75f7d9d9d2690475a	ocamlnet
+dep	ocaml4-intf:Netsys_types:2338a0b03e19d088840df462d1d09180	ocamlnet
+dep	ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91	ocaml
+dep	ocaml4-intf:Stdlib__Bigarray:994a14f10d5ae081663b52b790ee11d3	ocaml
+dep	ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822	ocaml
+dep	ocaml4-intf:Stdlib__Bytes:3d02c33317c0108c61e7a5eefa37519a	ocaml
+dep	ocaml4-intf:Stdlib__Complex:4555217c759e89d65daa8f682eb09b35	ocaml
+dep	ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9	ocaml
+dep	ocaml4-intf:Stdlib__Hashtbl:34c0fdd524bf2a75e4d5af64a6d34401	ocaml
+dep	ocaml4-intf:Stdlib__Int32:a71ea5238030770647165f659f80b1ab	ocaml
+dep	ocaml4-intf:Stdlib__Int64:0fa5587c47baf16a06837c7dedfc2518	ocaml
+dep	ocaml4-intf:Stdlib__List:ee222542f6f8195441543b8b399b64b9	ocaml
+dep	ocaml4-intf:Stdlib__Obj:25794d29f7f4018768ea900e331a2bf3	ocaml
+dep	ocaml4-intf:Stdlib__Oo:8c5c50b941bc74bdefd1c7cd303567f7	ocaml
+dep	ocaml4-intf:Stdlib__Pervasives:dc77fedcffc67c0119b789c66d5ef7bf	ocaml
+dep	ocaml4-intf:Stdlib__Printf:bc8af6214197dc8f40eaa738a4cd6a28	ocaml
+dep	ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962	ocaml
+dep	ocaml4-intf:Stdlib__Set:871d2ee2167ac9e7977fa13994cf4658	ocaml
+dep	ocaml4-intf:Stdlib__Sys:7726a14ce36f5c6c3abb04975cec748b	ocaml
+dep	ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57	ocaml
+dep	ocaml4-intf:Unix:d81af7730241956ddaf1c2d19ed2cb1c	ocaml
+dep	ocaml4-intf:Unixqueue:509e812dd021c25a8e49868405d63db5	ocamlnet
+dep	ocaml4-intf:Unixqueue_select:67d237ce3ecf76190a0a29952e5477b7	ocamlnet
+dep	ocaml4-intf:Unixqueue_util:1ab0ba12da45a86ec37da11754d09b68	ocamlnet
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libtcl8.6.so	tcl

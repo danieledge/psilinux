@@ -1,0 +1,16 @@
+name	gpsd
+version	3.27.3-r1
+description	GPS daemon
+url	https://gpsd.io/
+license	BSD-2-Clause
+size	549437
+installed-size	1145329
+depends	so:libc.musl-armhf.so.1 so:libcap.so.2 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	gpsd
+repo	main
+file	gpsd-3.27.3-r1.apk
+checksum	Q1js5kXNx5sh7xLIqN+rW9HKCgbxw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

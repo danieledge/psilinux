@@ -1,0 +1,30 @@
+name	timg
+version	1.6.3-r0
+description	24-Bit color image viewer for terminal
+url	https://github.com/hzeller/timg
+license	GPL-2.0-only
+size	118928
+installed-size	235036
+depends	so:libGraphicsMagick++.so.12 so:libGraphicsMagick.so.3 so:libavcodec.so.62 so:libavdevice.so.62 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdeflate.so.0 so:libexif.so.12 so:libgcc_s.so.1 so:libgobject-2.0.so.0 so:libpoppler-glib.so.8 so:librsvg-2.so.2 so:libsixel.so.1 so:libstdc++.so.6 so:libswscale.so.9 so:libturbojpeg.so.0
+origin	timg
+repo	community
+file	timg-1.6.3-r0.apk
+checksum	Q1qxmr33pc6NnxY26jdTDX4GjSyl8=
+dep	so:libGraphicsMagick++.so.12	graphicsmagick-c++
+dep	so:libGraphicsMagick.so.3	graphicsmagick
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavdevice.so.62	ffmpeg-libavdevice
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libdeflate.so.0	libdeflate
+dep	so:libexif.so.12	libexif
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpoppler-glib.so.8	poppler-glib
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libsixel.so.1	libsixel
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libswscale.so.9	ffmpeg-libswscale
+dep	so:libturbojpeg.so.0	libturbojpeg

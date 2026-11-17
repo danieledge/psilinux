@@ -1,0 +1,13 @@
+name	zps
+version	2.0.0-r0
+description	Utility for listing and reaping zombie processes
+url	https://github.com/orhun/zps
+license	GPL-3.0-only
+size	8425
+installed-size	13536
+depends	so:libc.musl-armhf.so.1
+origin	zps
+repo	community
+file	zps-2.0.0-r0.apk
+checksum	Q1o8Tj1giSnIaFWrTqkSkryXa9m90=
+dep	so:libc.musl-armhf.so.1	musl

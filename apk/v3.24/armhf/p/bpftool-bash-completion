@@ -1,0 +1,16 @@
+name	bpftool-bash-completion
+version	7.1.5-r0
+description	Bash completion for bpftool
+url	https://www.kernel.org/
+license	GPL-2.0-only
+size	7220
+installed-size	46487
+depends	perf cpupower linux-tools-gpio linux-tools-iio
+origin	linux-tools
+repo	main
+file	bpftool-bash-completion-7.1.5-r0.apk
+checksum	Q1ilUz40iUerIqx/E05sFJnyZP05o=
+dep	perf	perf
+dep	cpupower	cpupower
+dep	linux-tools-gpio	linux-tools-gpio
+dep	linux-tools-iio	linux-tools-iio

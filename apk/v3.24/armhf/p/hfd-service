@@ -1,0 +1,23 @@
+name	hfd-service
+version	0.2.3-r1
+description	Service that manages human feedback devices on mobile devices
+url	https://gitlab.com/ubports/development/core/hfd-service
+license	LGPL-3.0-only
+size	187719
+installed-size	480501
+depends	accountsservice so:libQt5Core.so.5 so:libQt5DBus.so.5 so:libQt5Feedback.so.0 so:libQt5Gui.so.5 so:libc.musl-armhf.so.1 so:libdeviceinfo.so.0 so:libgbinder.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libudev.so.1
+origin	hfd-service
+repo	community
+file	hfd-service-0.2.3-r1.apk
+checksum	Q11mm3yrtR6RbQWfQMkNDTfHZGF9g=
+dep	accountsservice	accountsservice
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5DBus.so.5	qt5-qtbase
+dep	so:libQt5Feedback.so.0	qt5-qtfeedback
+dep	so:libQt5Gui.so.5	qt5-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdeviceinfo.so.0	lomiri-deviceinfo
+dep	so:libgbinder.so.1	libgbinder
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libudev.so.1	eudev-libs

@@ -1,0 +1,16 @@
+name	liblangtag-dev
+version	0.6.7-r0
+description	Interface library to access/deal with tags for identifying languages (development files)
+url	https://bitbucket.org/tagoh/liblangtag
+license	LGPL-3.0-or-later OR MPL-2.0
+size	16181
+installed-size	71773
+depends	glib-dev liblangtag=0.6.7-r0 pc:libxml-2.0 pkgconfig
+origin	liblangtag
+repo	community
+file	liblangtag-dev-0.6.7-r0.apk
+checksum	Q1qRnijUG2AvrfupjCxcJeCrjXmb8=
+dep	glib-dev	glib-dev
+dep	liblangtag=0.6.7-r0	liblangtag
+dep	pc:libxml-2.0	libxml2-dev
+dep	pkgconfig	pkgconf

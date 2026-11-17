@@ -1,0 +1,15 @@
+name	uvncrepeater
+version	014-r11
+description	VNC repeater based on ultravnc repeater
+url	http://koti.mbnet.fi/jtko/
+license	GPL-2.0-or-later
+size	21918
+installed-size	48612
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	uvncrepeater
+repo	main
+file	uvncrepeater-014-r11.apk
+checksum	Q1BT7TWDalsIsnv5HcKYHHm0qxj8A=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

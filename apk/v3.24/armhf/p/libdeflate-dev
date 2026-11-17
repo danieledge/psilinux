@@ -1,0 +1,14 @@
+name	libdeflate-dev
+version	1.25-r0
+description	Library for fast, whole-buffer DEFLATE-based compression and decompression (development files)
+url	https://github.com/ebiggers/libdeflate
+license	MIT
+size	9526
+installed-size	27361
+depends	libdeflate=1.25-r0 pkgconfig
+origin	libdeflate
+repo	community
+file	libdeflate-dev-1.25-r0.apk
+checksum	Q1oDZ5N4Tl2hlCHg5zgFEfp/Ej6hA=
+dep	libdeflate=1.25-r0	libdeflate
+dep	pkgconfig	pkgconf

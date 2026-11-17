@@ -1,0 +1,15 @@
+name	greetd-tuigreet
+version	0.9.1-r0
+description	Graphical console greeter for greetd
+url	https://github.com/apognu/tuigreet
+license	GPL-3.0
+size	1028525
+installed-size	2308848
+depends	greetd so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	greetd-tuigreet
+repo	community
+file	greetd-tuigreet-0.9.1-r0.apk
+checksum	Q1LUrKa7Q8RwxTaKB4E/vCHyXsKpA=
+dep	greetd	greetd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

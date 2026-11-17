@@ -1,0 +1,17 @@
+name	py3-duecredit
+version	0.11.2-r1
+description	Automated collection and reporting of citations for used software/methods/datasets
+url	https://github.com/duecredit/duecredit
+license	BSD-2-Clause-Views
+size	74400
+installed-size	246057
+depends	python3 py3-citeproc-py py3-importlib-metadata py3-requests python3~3.14
+origin	py3-duecredit
+repo	community
+file	py3-duecredit-0.11.2-r1.apk
+checksum	Q1aMakG2tgV3Uw7+eXfwmEP+/l69w=
+dep	python3	python3
+dep	py3-citeproc-py	py3-citeproc-py
+dep	py3-importlib-metadata	py3-importlib-metadata
+dep	py3-requests	py3-requests
+dep	python3~3.14	python3

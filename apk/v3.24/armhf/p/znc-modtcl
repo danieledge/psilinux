@@ -1,0 +1,17 @@
+name	znc-modtcl
+version	1.10.3-r0
+description	TCL module for ZNC
+url	https://wiki.znc.in/ZNC
+license	Apache-2.0
+size	22956
+installed-size	56269
+depends	znc=1.10.3-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libtcl8.6.so
+origin	znc
+repo	community
+file	znc-modtcl-1.10.3-r0.apk
+checksum	Q1lTUryYFd1RK03nntSOVMUoG2CFY=
+dep	znc=1.10.3-r0	znc
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtcl8.6.so	tcl

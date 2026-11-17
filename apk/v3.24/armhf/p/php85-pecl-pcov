@@ -1,0 +1,14 @@
+name	php85-pecl-pcov
+version	1.0.12-r0
+description	Code coverage driver for PHP 8.5 - PECL
+url	https://pecl.php.net/package/pcov
+license	PHP-3.01
+size	9601
+installed-size	17707
+depends	php85-common so:libc.musl-armhf.so.1
+origin	php85-pecl-pcov
+repo	community
+file	php85-pecl-pcov-1.0.12-r0.apk
+checksum	Q1R8HUfBITEZLk7SUBU5aR7YWO/4E=
+dep	php85-common	php85-common
+dep	so:libc.musl-armhf.so.1	musl

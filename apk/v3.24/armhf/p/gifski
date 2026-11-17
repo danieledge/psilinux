@@ -1,0 +1,18 @@
+name	gifski
+version	1.34.0-r3
+description	Highest-quality GIF encoder based on pngquant
+url	https://gif.ski/
+license	AGPL-3.0-or-later
+size	613291
+installed-size	1138956
+depends	so:libavcodec.so.62 so:libavfilter.so.11 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	gifski
+repo	community
+file	gifski-1.34.0-r3.apk
+checksum	Q16BNkRHSTSogUoXtsgbZeZmRV6Is=
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavfilter.so.11	ffmpeg-libavfilter
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

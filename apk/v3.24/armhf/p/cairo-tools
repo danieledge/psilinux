@@ -1,0 +1,14 @@
+name	cairo-tools
+version	1.18.4-r1
+description	A vector graphics library (development tools)
+url	https://cairographics.org/
+license	LGPL-2.1-or-later OR MPL-1.1
+size	7314
+installed-size	12300
+depends	so:libc.musl-armhf.so.1 so:libz.so.1
+origin	cairo
+repo	main
+file	cairo-tools-1.18.4-r1.apk
+checksum	Q1pji9oGLmFEAfMY0AJ/aNpiupbBw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libz.so.1	zlib

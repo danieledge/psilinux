@@ -1,0 +1,14 @@
+name	perl-time-hires
+version	1.9764-r9
+description	High resolution alarm, sleep, gettimeofday, interval timers
+url	https://metacpan.org/release/Time-HiRes/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	21824
+installed-size	51409
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-time-hires
+repo	main
+file	perl-time-hires-1.9764-r9.apk
+checksum	Q1az5krmHzKSdxuIZ+LenvDC6nrf8=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	rpcgen
+version	2.6.4-r6
+description	Remote Procedure Call (RPC) protocol compiler
+url	https://linux-nfs.org/
+license	GPL-2.0-only
+size	35102
+installed-size	71120
+depends	rpcbind python3 so:libc.musl-armhf.so.1
+origin	nfs-utils
+repo	main
+file	rpcgen-2.6.4-r6.apk
+checksum	Q19CPTALyM3zUIVAmg1VNAbybXQR4=
+dep	rpcbind	rpcbind
+dep	python3	python3
+dep	so:libc.musl-armhf.so.1	musl

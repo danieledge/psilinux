@@ -1,0 +1,13 @@
+name	lua-resty-http
+version	0.17.2-r0
+description	Lua HTTP client cosocket driver for OpenResty / ngx_lua
+url	https://github.com/ledgetech/lua-resty-http
+license	BSD-2-Clause
+size	13687
+installed-size	46998
+depends	lua
+origin	lua-resty-http
+repo	community
+file	lua-resty-http-0.17.2-r0.apk
+checksum	Q1+Fko+oM+uCcx7bssZm8Kl8T3G/Y=
+dep	lua	lua5.5

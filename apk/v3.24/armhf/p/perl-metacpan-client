@@ -1,0 +1,21 @@
+name	perl-metacpan-client
+version	2.043000-r0
+description	A comprehensive, DWIM-featured client to the MetaCPAN API
+url	https://metacpan.org/release/MetaCPAN-Client/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	23051
+installed-size	85021
+depends	perl perl-net-ssleay perl-type-tiny perl-moo perl-json-maybexs perl-safe-isa perl-io-socket-ssl perl-ref-util perl-uri
+origin	perl-metacpan-client
+repo	community
+file	perl-metacpan-client-2.043000-r0.apk
+checksum	Q1PVrV3YwwCYHlSqzAQABVnw+rSS8=
+dep	perl	perl
+dep	perl-net-ssleay	perl-net-ssleay
+dep	perl-type-tiny	perl-type-tiny
+dep	perl-moo	perl-moo
+dep	perl-json-maybexs	perl-json-maybexs
+dep	perl-safe-isa	perl-safe-isa
+dep	perl-io-socket-ssl	perl-io-socket-ssl
+dep	perl-ref-util	perl-ref-util
+dep	perl-uri	perl-uri

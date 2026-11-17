@@ -1,0 +1,14 @@
+name	libtermkey
+version	0.22-r4
+description	Library for easy processing of keyboard entry from terminal-based programs
+url	https://www.leonerd.org.uk/code/libtermkey
+license	MIT
+size	15625
+installed-size	29916
+depends	so:libc.musl-armhf.so.1 so:libunibilium.so.4
+origin	libtermkey
+repo	community
+file	libtermkey-0.22-r4.apk
+checksum	Q14z5yTtXIE44svgrCbgKfj990LIk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libunibilium.so.4	unibilium

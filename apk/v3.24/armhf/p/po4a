@@ -1,0 +1,17 @@
+name	po4a
+version	0.74-r1
+description	Tools for helping translation of documentation
+url	https://po4a.org/
+license	GPL-2.0-or-later
+size	214738
+installed-size	904673
+depends	diffutils gettext perl perl-pod-parser perl-syntax-keyword-try
+origin	po4a
+repo	main
+file	po4a-0.74-r1.apk
+checksum	Q1900ESQ7bf6gfkn+f7Xm0jv0rn3I=
+dep	diffutils	diffutils
+dep	gettext	gettext
+dep	perl	perl
+dep	perl-pod-parser	perl-pod-parser
+dep	perl-syntax-keyword-try	perl-syntax-keyword-try

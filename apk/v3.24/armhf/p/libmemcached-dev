@@ -1,0 +1,16 @@
+name	libmemcached-dev
+version	1.1.4-r1
+description	Client library and command line tools for memcached server (resurrected) (development files)
+url	https://github.com/awesomized/libmemcached
+license	BSD-3-Clause
+size	41566
+installed-size	259261
+depends	cyrus-sasl-dev libmemcached-libs=1.1.4-r1 pc:libsasl2 pkgconfig
+origin	libmemcached
+repo	main
+file	libmemcached-dev-1.1.4-r1.apk
+checksum	Q1P5Kf+VdCjKgiwaWWimiwJ0dROZI=
+dep	cyrus-sasl-dev	cyrus-sasl-dev
+dep	libmemcached-libs=1.1.4-r1	libmemcached-libs
+dep	pc:libsasl2	cyrus-sasl-dev
+dep	pkgconfig	pkgconf

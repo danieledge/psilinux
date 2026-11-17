@@ -1,0 +1,12 @@
+name	iaxmodem-dbg
+version	1.3.4-r1
+description	Softmodem for hylafax that connects to VOIP gateway with IAX (debug symbols)
+url	https://iaxmodem.sourceforge.net/
+license	GPL-2.0-or-later
+size	2404
+installed-size	1672
+depends	!iaxmodem<1.3.4-r1 !iaxmodem>1.3.4-r1
+origin	iaxmodem
+repo	main
+file	iaxmodem-dbg-1.3.4-r1.apk
+checksum	Q1RRBOqJE7VX9oOwtJabZT//QTMhU=

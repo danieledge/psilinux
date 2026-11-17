@@ -1,0 +1,16 @@
+name	lshw
+version	02.20-r1
+description	Hardware Lister
+url	https://ezix.org/project/wiki/HardwareLiSter
+license	GPL-2.0-only
+size	2372314
+installed-size	3071293
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1
+origin	lshw
+repo	community
+file	lshw-02.20-r1.apk
+checksum	Q1ijYPPLhAI5lF3rnsav1h5TZ0EVY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

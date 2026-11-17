@@ -1,0 +1,19 @@
+name	sfcgal
+version	2.2.0-r0
+description	Library for ISO 19107:2013 and OGC SFA 1.2 for 3D operations
+url	https://sfcgal.gitlab.io/SFCGAL/index.html
+license	LGPL-2.0-or-later
+size	3585127
+installed-size	17321744
+depends	so:libboost_serialization.so.1.84.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgmp.so.10 so:libgmpxx.so.4 so:libmpfr.so.6 so:libstdc++.so.6
+origin	sfcgal
+repo	community
+file	sfcgal-2.2.0-r0.apk
+checksum	Q1ZdnwgZiq2zA7evFMraRLTDrZ5Mc=
+dep	so:libboost_serialization.so.1.84.0	boost1.84-serialization
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgmp.so.10	gmp
+dep	so:libgmpxx.so.4	libgmpxx
+dep	so:libmpfr.so.6	mpfr4
+dep	so:libstdc++.so.6	libstdc++

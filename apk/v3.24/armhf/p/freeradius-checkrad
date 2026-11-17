@@ -1,0 +1,16 @@
+name	freeradius-checkrad
+version	3.0.27-r3
+description	Check if a user is (still) logged in on a certain port
+url	https://freeradius.org/
+license	GPL-2.0-or-later
+size	13737
+installed-size	38411
+depends	perl perl-net-telnet perl-snmp-session net-snmp-tools
+origin	freeradius
+repo	main
+file	freeradius-checkrad-3.0.27-r3.apk
+checksum	Q1DXnur8xZ6GNkW9vC6TA+a+rxxno=
+dep	perl	perl
+dep	perl-net-telnet	perl-net-telnet
+dep	perl-snmp-session	perl-snmp-session
+dep	net-snmp-tools	net-snmp-tools

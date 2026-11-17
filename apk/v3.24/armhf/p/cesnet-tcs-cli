@@ -1,0 +1,15 @@
+name	cesnet-tcs-cli
+version	0.4.0-r1
+description	Client utility for CESNET TCS API
+url	https://github.com/jirutka/cesnet-tcs-cli
+license	MIT
+size	9381
+installed-size	23465
+depends	ca-certificates curl openssl
+origin	cesnet-tcs-cli
+repo	community
+file	cesnet-tcs-cli-0.4.0-r1.apk
+checksum	Q1tKmPGgr7xhfunKaKMLyb0AI0FLM=
+dep	ca-certificates	ca-certificates
+dep	curl	curl
+dep	openssl	openssl

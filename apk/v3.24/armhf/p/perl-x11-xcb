@@ -1,0 +1,25 @@
+name	perl-x11-xcb
+version	0.25-r1
+description	Perl bindings for libXcb
+url	https://metacpan.org/release/X11-XCB/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	164034
+installed-size	694905
+depends	perl perl-mouse perl-try-tiny perl-data-dump perl-xml-descent perl-xml-simple perl-xs-object-magic so:libc.musl-armhf.so.1 so:libxcb-composite.so.0 so:libxcb-randr.so.0 so:libxcb-xinerama.so.0 so:libxcb-xkb.so.1 so:libxcb.so.1
+origin	perl-x11-xcb
+repo	community
+file	perl-x11-xcb-0.25-r1.apk
+checksum	Q1pTnTyyRErzE4uQOzxTc0d8alUA8=
+dep	perl	perl
+dep	perl-mouse	perl-mouse
+dep	perl-try-tiny	perl-try-tiny
+dep	perl-data-dump	perl-data-dump
+dep	perl-xml-descent	perl-xml-descent
+dep	perl-xml-simple	perl-xml-simple
+dep	perl-xs-object-magic	perl-xs-object-magic
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxcb-composite.so.0	libxcb
+dep	so:libxcb-randr.so.0	libxcb
+dep	so:libxcb-xinerama.so.0	libxcb
+dep	so:libxcb-xkb.so.1	libxcb
+dep	so:libxcb.so.1	libxcb

@@ -1,0 +1,14 @@
+name	py3-rfl-log
+version	1.8.0-r0
+description	Rackslab Foundation Library: log package
+url	https://github.com/rackslab/RFL
+license	GPL-3.0-or-later
+size	7017
+installed-size	36670
+depends	py3-rfl-core python3~3.14
+origin	py3-rfl
+repo	community
+file	py3-rfl-log-1.8.0-r0.apk
+checksum	Q1FyLtmCHVAETir40HbD7ORj2pFBE=
+dep	py3-rfl-core	py3-rfl-core
+dep	python3~3.14	python3

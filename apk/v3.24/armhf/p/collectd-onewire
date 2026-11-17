@@ -1,0 +1,15 @@
+name	collectd-onewire
+version	5.12.0-r25
+description	onewire pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	6785
+installed-size	17348
+depends	collectd so:libc.musl-armhf.so.1 so:libowcapi-3.2.so.4
+origin	collectd
+repo	community
+file	collectd-onewire-5.12.0-r25.apk
+checksum	Q1UXhCHOhfnXgbQFm12HyIwhZcF5g=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libowcapi-3.2.so.4	owfs

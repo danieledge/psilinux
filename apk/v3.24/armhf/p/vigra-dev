@@ -1,0 +1,17 @@
+name	vigra-dev
+version	1.12.3-r1
+description	An image processing and analysis library (development files)
+url	http://ukoethe.github.io/vigra/
+license	MIT
+size	1129704
+installed-size	6991897
+depends	tiff-dev libjpeg-turbo-dev libpng-dev boost-dev vigra=1.12.3-r1
+origin	vigra
+repo	community
+file	vigra-dev-1.12.3-r1.apk
+checksum	Q103E3ie2+bOHcgUpaG/HjKly7aB8=
+dep	tiff-dev	tiff-dev
+dep	libjpeg-turbo-dev	libjpeg-turbo-dev
+dep	libpng-dev	libpng-dev
+dep	boost-dev	boost-dev
+dep	vigra=1.12.3-r1	vigra

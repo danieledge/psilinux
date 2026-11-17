@@ -1,0 +1,14 @@
+name	py3-liblouis
+version	3.38.0-r0
+description	Braille translator and back-translator (python ctypes bindings)
+url	https://liblouis.io/
+license	GPL-3.0-or-later
+size	9344
+installed-size	29089
+depends	liblouis=3.38.0-r0 python3~3.14
+origin	liblouis
+repo	community
+file	py3-liblouis-3.38.0-r0.apk
+checksum	Q1MSZdL3RbAg7rFt0GHyjmCMGbqSE=
+dep	liblouis=3.38.0-r0	liblouis
+dep	python3~3.14	python3

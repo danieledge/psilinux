@@ -1,0 +1,13 @@
+name	flite-static
+version	2.2-r6
+description	Small, fast speech synthesis engine (text-to-speech) (static library)
+url	http://cmuflite.org/
+license	BSD-4-Clause
+size	14498578
+installed-size	23409414
+depends	flite-dev
+origin	flite
+repo	main
+file	flite-static-2.2-r6.apk
+checksum	Q1LEO9+Po99WyfRDwlxE8e6MeyQvc=
+dep	flite-dev	flite-dev

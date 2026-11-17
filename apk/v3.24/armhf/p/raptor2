@@ -1,0 +1,17 @@
+name	raptor2
+version	2.0.16-r1
+description	RDF parser toolkit for Redland
+url	https://librdf.org/raptor
+license	LGPL-2.1-or-later
+size	151153
+installed-size	342632
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libxml2.so.2 so:libxslt.so.1 so:libyajl.so.2
+origin	raptor2
+repo	community
+file	raptor2-2.0.16-r1.apk
+checksum	Q11Ktl7yU2jVjcqQ6AFE6jIJGyqPc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libxml2.so.2	libxml2
+dep	so:libxslt.so.1	libxslt
+dep	so:libyajl.so.2	yajl

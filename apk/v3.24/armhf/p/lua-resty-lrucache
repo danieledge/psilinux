@@ -1,0 +1,13 @@
+name	lua-resty-lrucache
+version	0.13-r1
+description	Lua-land LRU Cache based on LuaJIT FFI
+url	https://github.com/openresty/lua-resty-lrucache
+license	BSD-2-Clause
+size	9445
+installed-size	25743
+depends	luajit
+origin	lua-resty-lrucache
+repo	main
+file	lua-resty-lrucache-0.13-r1.apk
+checksum	Q1NT9CwFygSGGzVHLNP7DkSo7FVBs=
+dep	luajit	luajit

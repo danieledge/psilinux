@@ -1,0 +1,19 @@
+name	vips-jxl
+version	8.18.2-r0
+description	JpegXL support for vips
+url	https://www.libvips.org/
+license	LGPL-2.1-or-later
+size	14802
+installed-size	34084
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libjxl.so.0.11 so:libjxl_threads.so.0.11 so:libvips.so.42
+origin	vips
+repo	community
+file	vips-jxl-8.18.2-r0.apk
+checksum	Q1cfI2OenBXVbwYcwm/vyMDpiZPAk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libjxl.so.0.11	libjxl
+dep	so:libjxl_threads.so.0.11	libjxl
+dep	so:libvips.so.42	vips

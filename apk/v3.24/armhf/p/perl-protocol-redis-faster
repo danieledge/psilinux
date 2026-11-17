@@ -1,0 +1,14 @@
+name	perl-protocol-redis-faster
+version	0.004-r1
+description	Optimized pure-perl Redis protocol parser/encoder
+url	https://metacpan.org/release/Protocol-Redis-Faster/
+license	Artistic-2.0
+size	2233
+installed-size	906
+depends	perl perl-protocol-redis
+origin	perl-protocol-redis-faster
+repo	community
+file	perl-protocol-redis-faster-0.004-r1.apk
+checksum	Q1gpchefzZ4FFoJD2TyJBayHU9tro=
+dep	perl	perl
+dep	perl-protocol-redis	perl-protocol-redis

@@ -1,0 +1,13 @@
+name	libfido2-udev
+version	1.16.0-r4
+description	library for FIDO 2.0 functionality (udev rules)
+url	https://github.com/Yubico/libfido2
+license	BSD-2-Clause
+size	4247
+installed-size	15935
+depends	/bin/sh
+origin	libfido2
+repo	main
+file	libfido2-udev-1.16.0-r4.apk
+checksum	Q1B9pHxZ5NsZOLDYoDVbxHs7xx7/o=
+dep	/bin/sh	busybox-binsh

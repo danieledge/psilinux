@@ -1,0 +1,44 @@
+name	ruby-full
+version	3.4.12-r0
+description	Ruby with all bundled gems
+url	https://www.ruby-lang.org/
+license	Ruby AND BSD-2-Clause AND MIT
+size	1542
+installed-size	0
+depends	ruby ruby-rdoc ruby-bundler ruby-minitest>=5.25.4 ruby-power_assert>=2.0.5 ruby-rake>=13.2.1 ruby-test-unit>=3.6.7 ruby-rexml>=3.4.4 ruby-rss>=0.3.1 ruby-net-ftp>=0.3.8 ruby-net-imap>=0.5.15 ruby-net-pop>=0.1.2 ruby-net-smtp>=0.5.1 ruby-matrix>=0.4.2 ruby-prime>=0.1.3 ruby-rbs>=3.8.0 ruby-typeprof>=0.30.1 ruby-debug>=1.11.0 ruby-racc>=1.8.1 ruby-mutex_m>=0.3.0 ruby-getoptlong>=0.2.1 ruby-base64>=0.2.0 ruby-bigdecimal>=3.1.8 ruby-observer>=0.1.2 ruby-abbrev>=0.1.2 ruby-resolv-replace>=0.1.1 ruby-rinda>=0.2.0 ruby-drb>=2.2.1 ruby-nkf>=0.2.0 ruby-syslog>=0.2.0 ruby-csv>=3.3.2 ruby-repl_type_completor>=0.1.9
+origin	ruby
+repo	main
+file	ruby-full-3.4.12-r0.apk
+checksum	Q1K1NWvF8gaB1t9czA6yC2955tMuc=
+dep	ruby	ruby
+dep	ruby-rdoc	ruby-rdoc
+dep	ruby-bundler	ruby-bundler
+dep	ruby-minitest>=5.25.4	ruby-minitest
+dep	ruby-power_assert>=2.0.5	ruby-power_assert
+dep	ruby-rake>=13.2.1	ruby-rake
+dep	ruby-test-unit>=3.6.7	ruby-test-unit
+dep	ruby-rexml>=3.4.4	ruby-rexml
+dep	ruby-rss>=0.3.1	ruby-rss
+dep	ruby-net-ftp>=0.3.8	ruby-net-ftp
+dep	ruby-net-imap>=0.5.15	ruby-net-imap
+dep	ruby-net-pop>=0.1.2	ruby-net-pop
+dep	ruby-net-smtp>=0.5.1	ruby-net-smtp
+dep	ruby-matrix>=0.4.2	ruby-matrix
+dep	ruby-prime>=0.1.3	ruby-prime
+dep	ruby-rbs>=3.8.0	ruby-rbs
+dep	ruby-typeprof>=0.30.1	ruby-typeprof
+dep	ruby-debug>=1.11.0	ruby-debug
+dep	ruby-racc>=1.8.1	ruby-racc
+dep	ruby-mutex_m>=0.3.0	ruby-mutex_m
+dep	ruby-getoptlong>=0.2.1	ruby-getoptlong
+dep	ruby-base64>=0.2.0	ruby-base64
+dep	ruby-bigdecimal>=3.1.8	ruby-bigdecimal
+dep	ruby-observer>=0.1.2	ruby-observer
+dep	ruby-abbrev>=0.1.2	ruby-abbrev
+dep	ruby-resolv-replace>=0.1.1	ruby-resolv-replace
+dep	ruby-rinda>=0.2.0	ruby-rinda
+dep	ruby-drb>=2.2.1	ruby-drb
+dep	ruby-nkf>=0.2.0	ruby-nkf
+dep	ruby-syslog>=0.2.0	ruby-syslog
+dep	ruby-csv>=3.3.2	ruby-csv
+dep	ruby-repl_type_completor>=0.1.9	ruby-repl_type_completor

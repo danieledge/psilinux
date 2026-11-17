@@ -1,0 +1,13 @@
+name	hunspell-en-ie
+version	2020.12.07-r4
+description	English hunspell dictionaries (IE only)
+url	http://wordlist.aspell.net/dicts/
+license	custom
+size	1650
+installed-size	1
+depends	hunspell-en-gb=2020.12.07-r4
+origin	hunspell-en
+repo	main
+file	hunspell-en-ie-2020.12.07-r4.apk
+checksum	Q1rnupycAnJ1nXjFU0v79How4BQF8=
+dep	hunspell-en-gb=2020.12.07-r4	hunspell-en-gb

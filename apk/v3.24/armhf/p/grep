@@ -1,0 +1,14 @@
+name	grep
+version	3.12-r0
+description	Searches input files for lines containing a match to a specified pattern
+url	https://www.gnu.org/software/grep/grep.html
+license	GPL-3.0-or-later
+size	87651
+installed-size	157280
+depends	so:libc.musl-armhf.so.1 so:libpcre2-8.so.0
+origin	grep
+repo	main
+file	grep-3.12-r0.apk
+checksum	Q1kmNSckFfrZ0dSHFCWbyHvae4dDw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcre2-8.so.0	pcre2

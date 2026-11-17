@@ -1,0 +1,33 @@
+name	freeciv-client-gtk4
+version	3.2.4-r0
+description	Free and Open Source empire-building strategy game (gtk4 client)
+url	http://www.freeciv.org
+license	GPL-2.0-or-later
+size	1056665
+installed-size	2552184
+depends	freeciv-data freeciv-common-client freeciv-server so:libSDL2-2.0.so.0 so:libSDL2_mixer-2.0.so.0 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcurl.so.4 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libicuuc.so.78 so:libintl.so.8 so:liblzma.so.5 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libz.so.1 so:libzstd.so.1
+origin	freeciv
+repo	community
+file	freeciv-client-gtk4-3.2.4-r0.apk
+checksum	Q1K02hLClGIdVRwyvFGCSk79ba4hI=
+dep	freeciv-data	freeciv-data
+dep	freeciv-common-client	freeciv-common-client
+dep	freeciv-server	freeciv-server
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libSDL2_mixer-2.0.so.0	sdl2_mixer
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcurl.so.4	libcurl
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libintl.so.8	libintl
+dep	so:liblzma.so.5	xz-libs
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

@@ -1,0 +1,14 @@
+name	libdispatch-dev
+version	6.1.2-r0
+description	Comprehensive support for concurrent code execution on multicore hardware (development files)
+url	https://apple.github.io/swift-corelibs-libdispatch
+license	Apache-2.0
+size	43516
+installed-size	209595
+depends	libdispatch bsd-compat-headers
+origin	libdispatch
+repo	community
+file	libdispatch-dev-6.1.2-r0.apk
+checksum	Q1STp6sfvEoT74NQ+eVMJC1NmIk+8=
+dep	libdispatch	libdispatch
+dep	bsd-compat-headers	bsd-compat-headers

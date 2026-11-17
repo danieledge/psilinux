@@ -1,0 +1,13 @@
+name	libfaketime
+version	0.9.13-r0
+description	Intercept system calls related to time and return user-defined values
+url	https://github.com/wolfcw/libfaketime
+license	GPL-2.0-or-later
+size	65796
+installed-size	143868
+depends	so:libc.musl-armhf.so.1
+origin	libfaketime
+repo	community
+file	libfaketime-0.9.13-r0.apk
+checksum	Q1VvRVUnIgfxvxZLyk+oDSckB/RX4=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	py3-wtforms
+version	3.1.2-r2
+description	Flexible forms validation and rendering library
+url	https://wtforms.readthedocs.io/
+license	BSD-3-Clause
+size	36608
+installed-size	126932
+depends	python3 py3-markupsafe python3~3.14
+origin	py3-wtforms
+repo	community
+file	py3-wtforms-3.1.2-r2.apk
+checksum	Q1l17peQ6fSSZVC5GeL8hc6T6R6CI=
+dep	python3	python3
+dep	py3-markupsafe	py3-markupsafe
+dep	python3~3.14	python3

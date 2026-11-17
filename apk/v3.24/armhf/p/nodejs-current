@@ -1,0 +1,33 @@
+name	nodejs-current
+version	26.13.1-r0
+description	JavaScript runtime built on V8 engine - current stable version
+url	https://nodejs.org/
+license	MIT
+size	24565405
+installed-size	65625656
+depends	ca-certificates so:libada.so.4 so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-armhf.so.1 so:libcares.so.2 so:libcrypto.so.3 so:libffi.so.8 so:libgcc_s.so.1 so:libhdr_histogram.so.6 so:libicui18n.so.78 so:libicuuc.so.78 so:libllhttp.so.9.4 so:libnghttp2.so.14 so:libsimdjson.so.29 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libuv.so.1 so:libz.so.1 so:libzstd.so.1
+origin	nodejs-current
+repo	community
+file	nodejs-current-26.13.1-r0.apk
+checksum	Q1p3cxdDAZGXRIKzSnVA5u6udLAR8=
+dep	ca-certificates	ca-certificates
+dep	so:libada.so.4	ada-libs
+dep	so:libbrotlidec.so.1	brotli-libs
+dep	so:libbrotlienc.so.1	brotli-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcares.so.2	c-ares
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libffi.so.8	libffi
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libhdr_histogram.so.6	hdrhistogram-c
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libllhttp.so.9.4	llhttp
+dep	so:libnghttp2.so.14	nghttp2-libs
+dep	so:libsimdjson.so.29	simdjson
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libuv.so.1	libuv
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

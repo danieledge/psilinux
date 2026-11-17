@@ -1,0 +1,14 @@
+name	cjson-dev
+version	1.7.19-r1
+description	Lighweight JSON parser in C (development files)
+url	https://github.com/DaveGamble/cJSON
+license	MIT
+size	9237
+installed-size	22879
+depends	cjson=1.7.19-r1 pkgconfig
+origin	cjson
+repo	main
+file	cjson-dev-1.7.19-r1.apk
+checksum	Q1TnXu1Th8OwqNFEa2H3aIzOHujK0=
+dep	cjson=1.7.19-r1	cjson
+dep	pkgconfig	pkgconf

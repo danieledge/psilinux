@@ -1,0 +1,17 @@
+name	fido2
+version	1.16.0-r4
+description	commandline utilities for FIDO 2.0
+url	https://github.com/Yubico/libfido2
+license	BSD-2-Clause
+size	38800
+installed-size	110408
+depends	so:libc.musl-armhf.so.1 so:libcbor.so.0.13 so:libcrypto.so.3 so:libfido2.so.1 so:libz.so.1
+origin	libfido2
+repo	main
+file	fido2-1.16.0-r4.apk
+checksum	Q1ETEEdXcAR6qkc+ZsLjtWeOO1Hlw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcbor.so.0.13	libcbor
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libfido2.so.1	libfido2
+dep	so:libz.so.1	zlib

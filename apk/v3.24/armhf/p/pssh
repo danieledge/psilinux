@@ -1,0 +1,15 @@
+name	pssh
+version	2.3.5-r3
+description	PSSH provides parallel versions of OpenSSH and related tools: pssh, pscp, prsync, pnuke, and pslurp
+url	https://github.com/lilydjwg/pssh
+license	BSD-3-Clause
+size	20448
+installed-size	65056
+depends	python3 cmd:ssh python3~3.14
+origin	pssh
+repo	main
+file	pssh-2.3.5-r3.apk
+checksum	Q1UZ5TW/dCb2lKQdP5LJhY7F2UHiU=
+dep	python3	python3
+dep	cmd:ssh	openssh-client-default
+dep	python3~3.14	python3

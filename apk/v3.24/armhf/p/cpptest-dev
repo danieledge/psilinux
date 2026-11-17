@@ -1,0 +1,14 @@
+name	cpptest-dev
+version	2.0.0-r2
+description	Portable and powerful unit testing framework for handling automated tests in C++ (development files)
+url	https://github.com/cpptest/cpptest
+license	LGPL-2.0-or-later
+size	44235
+installed-size	159720
+depends	cpptest=2.0.0-r2 pkgconfig
+origin	cpptest
+repo	community
+file	cpptest-dev-2.0.0-r2.apk
+checksum	Q15T9K2jZECW3sm2Af/pqOS/8oZXI=
+dep	cpptest=2.0.0-r2	cpptest
+dep	pkgconfig	pkgconf

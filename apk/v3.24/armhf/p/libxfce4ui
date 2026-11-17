@@ -1,0 +1,29 @@
+name	libxfce4ui
+version	4.20.1-r1
+description	Widgets library for the Xfce desktop environment
+url	https://xfce.org/
+license	GPL-2.0-only
+size	148455
+installed-size	364404
+depends	so:libICE.so.6 so:libSM.so.6 so:libX11.so.6 so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libepoxy.so.0 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgtop-2.0.so.11 so:libintl.so.8 so:libstartup-notification-1.so.0 so:libxfce4util.so.7 so:libxfconf-0.so.3
+origin	libxfce4ui
+repo	community
+file	libxfce4ui-4.20.1-r1.apk
+checksum	Q1tMcme+E2R3+fXDLNOMhx7FC1Fps=
+dep	so:libICE.so.6	libice
+dep	so:libSM.so.6	libsm
+dep	so:libX11.so.6	libx11
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libepoxy.so.0	libepoxy
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtop-2.0.so.11	libgtop
+dep	so:libintl.so.8	libintl
+dep	so:libstartup-notification-1.so.0	startup-notification
+dep	so:libxfce4util.so.7	libxfce4util
+dep	so:libxfconf-0.so.3	xfconf

@@ -1,0 +1,15 @@
+name	postgresql-pg_graphql
+version	1.6.1-r0
+description	GraphQL support for PostgreSQL
+url	https://supabase.github.io/pg_graphql/
+license	Apache-2.0
+size	601443
+installed-size	1313520
+depends	postgresql18 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	postgresql-pg_graphql
+repo	community
+file	postgresql-pg_graphql-1.6.1-r0.apk
+checksum	Q1VOm6LtJmhDtMJRrc9UIWSX/dLmY=
+dep	postgresql18	postgresql18
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

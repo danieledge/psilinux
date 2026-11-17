@@ -1,0 +1,13 @@
+name	tidyhtml-libs
+version	5.8.0-r5
+description	Tool to tidy down your HTML code to a clean style (libraries)
+url	https://www.html-tidy.org
+license	W3C
+size	162108
+installed-size	566864
+depends	so:libc.musl-armhf.so.1
+origin	tidyhtml
+repo	community
+file	tidyhtml-libs-5.8.0-r5.apk
+checksum	Q1+mmMFcYnNwpqnrhABcGnLChjGjU=
+dep	so:libc.musl-armhf.so.1	musl

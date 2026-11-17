@@ -1,0 +1,31 @@
+name	solvespace
+version	3.2-r0
+description	A parametric 3D CAD program
+url	https://solvespace.com
+license	GPL-3.0-only
+size	4787390
+installed-size	8332415
+depends	so:libGL.so.1 so:libatkmm-1.6.so.1 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgdkmm-3.0.so.1 so:libglib-2.0.so.0 so:libglibmm-2.4.so.1 so:libgtk-3.so.0 so:libgtkmm-3.0.so.1 so:libjson-c.so.5 so:libpangomm-1.4.so.1 so:libpng16.so.16 so:libsigc-2.0.so.0 so:libstdc++.so.6 so:libz.so.1
+origin	solvespace
+repo	community
+file	solvespace-3.2-r0.apk
+checksum	Q1sdnfK0Q+GQdnZBWyNFh4LDz1jyQ=
+dep	so:libGL.so.1	mesa-gl
+dep	so:libatkmm-1.6.so.1	atkmm2.28
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdkmm-3.0.so.1	gtkmm3
+dep	so:libglib-2.0.so.0	glib
+dep	so:libglibmm-2.4.so.1	glibmm2.66
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtkmm-3.0.so.1	gtkmm3
+dep	so:libjson-c.so.5	json-c
+dep	so:libpangomm-1.4.so.1	pangomm2.46
+dep	so:libpng16.so.16	libpng
+dep	so:libsigc-2.0.so.0	libsigc++
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

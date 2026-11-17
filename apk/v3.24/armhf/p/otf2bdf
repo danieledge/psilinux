@@ -1,0 +1,14 @@
+name	otf2bdf
+version	3.1_p1-r0
+description	OpenType to BDF Converter
+url	http://sofia.nmsu.edu/~mleisher/Software/otf2bdf/
+license	MIT
+size	13420
+installed-size	26052
+depends	so:libc.musl-armhf.so.1 so:libfreetype.so.6
+origin	otf2bdf
+repo	community
+file	otf2bdf-3.1_p1-r0.apk
+checksum	Q17yZRbXsq7fPrVu9PSfF5VFA3N5A=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreetype.so.6	freetype

@@ -1,0 +1,15 @@
+name	sleep-inhibitor
+version	1.25-r2
+description	Simple program to inhibit sleep/suspend when using elogind
+url	https://github.com/bulletmark/sleep-inhibitor
+license	GPL-3.0-or-later
+size	13315
+installed-size	27368
+depends	elogind py3-ruamel.yaml python3~3.14
+origin	sleep-inhibitor
+repo	community
+file	sleep-inhibitor-1.25-r2.apk
+checksum	Q1qOVCSawF1FpiFi3ytfSv7n8xBa8=
+dep	elogind	elogind
+dep	py3-ruamel.yaml	py3-ruamel.yaml
+dep	python3~3.14	python3

@@ -1,0 +1,16 @@
+name	weechat-perl
+version	4.10.2-r0
+description	WeeChat perl plugin
+url	https://weechat.org
+license	GPL-3.0-or-later
+size	74185
+installed-size	263960
+depends	weechat perl-pod-parser so:libc.musl-armhf.so.1 so:libperl.so
+origin	weechat
+repo	community
+file	weechat-perl-4.10.2-r0.apk
+checksum	Q18pA+pXSJMG2yx5TxpfEccTi8m2Q=
+dep	weechat	weechat
+dep	perl-pod-parser	perl-pod-parser
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libperl.so	perl

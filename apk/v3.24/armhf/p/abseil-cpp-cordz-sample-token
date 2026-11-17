@@ -1,0 +1,14 @@
+name	abseil-cpp-cordz-sample-token
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-cordz-sample-token
+url	https://abseil.io/
+license	Apache-2.0
+size	3512
+installed-size	5400
+depends	so:libabsl_cordz_info.so.2508.0.0 so:libgcc_s.so.1
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-cordz-sample-token-20250814.1-r0.apk
+checksum	Q1GsLjolptb15zUnoJB1kUcmgfrlE=
+dep	so:libabsl_cordz_info.so.2508.0.0	abseil-cpp-cordz-info
+dep	so:libgcc_s.so.1	libgcc

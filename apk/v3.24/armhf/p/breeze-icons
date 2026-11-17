@@ -1,0 +1,16 @@
+name	breeze-icons
+version	6.26.0-r0
+description	Breeze icon themes
+url	https://community.kde.org/Frameworks
+license	LGPL-3.0-or-later
+size	25125718
+installed-size	86999991
+depends	so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libc.musl-armhf.so.1 so:libstdc++.so.6
+origin	breeze-icons
+repo	community
+file	breeze-icons-6.26.0-r0.apk
+checksum	Q1dYyzSdseMvnBBZO2tzL7S52YNOg=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libstdc++.so.6	libstdc++

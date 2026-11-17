@@ -1,0 +1,13 @@
+name	t1utils
+version	1.42-r0
+description	Utilities for manipulating Adobe Type 1 font software
+url	https://github.com/kohler/t1utils
+license	custom
+size	93470
+installed-size	201632
+depends	so:libc.musl-armhf.so.1
+origin	t1utils
+repo	community
+file	t1utils-1.42-r0.apk
+checksum	Q1IOIxIjhpguLSgetLVZ34u8SrTyA=
+dep	so:libc.musl-armhf.so.1	musl

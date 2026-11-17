@@ -1,0 +1,14 @@
+name	google-cloud-cpp-api-annotations
+version	2.47.0-r0
+description	C++ Client Libraries for Google Cloud Services (api-annotations)
+url	https://cloud.google.com/sdk
+license	Apache-2.0
+size	3728
+installed-size	5460
+depends	so:libgoogle_cloud_cpp_api_http_protos.so.2 so:libprotobuf.so.31
+origin	google-cloud-cpp
+repo	community
+file	google-cloud-cpp-api-annotations-2.47.0-r0.apk
+checksum	Q1mbUrFSx6E2NqNeWnGnVw9LIeFRU=
+dep	so:libgoogle_cloud_cpp_api_http_protos.so.2	google-cloud-cpp-api-http
+dep	so:libprotobuf.so.31	libprotobuf

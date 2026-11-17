@@ -1,0 +1,14 @@
+name	texmf-dist-langother-examples
+version	2026.0-r0
+description	texmf-dist: Other languages (examples and documentation)
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	13768357
+installed-size	16575334
+depends	texmf-dist-langother texmf-dist-langother-doc
+origin	texmf-dist
+repo	community
+file	texmf-dist-langother-examples-2026.0-r0.apk
+checksum	Q1uqk5RSlho1qf8X8HPOuldsPvJpY=
+dep	texmf-dist-langother	texmf-dist-langother
+dep	texmf-dist-langother-doc	texmf-dist-langother-doc

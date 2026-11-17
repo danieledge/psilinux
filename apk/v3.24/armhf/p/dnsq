@@ -1,0 +1,13 @@
+name	dnsq
+version	0.19.12-r5
+description	Feature-rich command line DNS client
+url	https://github.com/natesales/q
+license	GPL-3.0-only
+size	4412293
+installed-size	11401116
+depends	so:libc.musl-armhf.so.1
+origin	dnsq
+repo	community
+file	dnsq-0.19.12-r5.apk
+checksum	Q1khj8QrdlNWQqAqlOf7D5fd6C500=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,17 @@
+name	net-snmp
+version	5.9.5.2-r0
+description	Simple Network Management Protocol
+url	http://www.net-snmp.org/
+license	Net-SNMP
+size	29628
+installed-size	76827
+depends	so:libc.musl-armhf.so.1 so:libnetsnmp.so.45 so:libnetsnmpagent.so.45 so:libnetsnmpmibs.so.45 so:libnetsnmptrapd.so.45
+origin	net-snmp
+repo	main
+file	net-snmp-5.9.5.2-r0.apk
+checksum	Q11Thgvy1eilX1FdrXvMBAgetFmGY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnetsnmp.so.45	net-snmp-libs
+dep	so:libnetsnmpagent.so.45	net-snmp-agent-libs
+dep	so:libnetsnmpmibs.so.45	net-snmp-agent-libs
+dep	so:libnetsnmptrapd.so.45	net-snmp-agent-libs

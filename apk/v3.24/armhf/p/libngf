@@ -1,0 +1,16 @@
+name	libngf
+version	0.28-r1
+description	Nemo's libngf
+url	https://github.com/sailfishos/libngf
+license	LGPL-2.1-or-later
+size	10716
+installed-size	23036
+depends	so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libdbus-glib-1.so.2 so:libglib-2.0.so.0
+origin	libngf
+repo	community
+file	libngf-0.28-r1.apk
+checksum	Q1jEITGrBtSCLMoUmzF3+w9wXLCIE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libdbus-glib-1.so.2	dbus-glib
+dep	so:libglib-2.0.so.0	glib

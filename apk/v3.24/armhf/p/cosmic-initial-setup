@@ -1,0 +1,15 @@
+name	cosmic-initial-setup
+version	1.0.15-r0
+description	Initial setup for the COSMIC Desktop Environment
+url	https://github.com/pop-os/cosmic-initial-setup
+license	GPL-3.0-or-later
+size	13168214
+installed-size	27331495
+depends	cosmic-icons so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	cosmic-initial-setup
+repo	community
+file	cosmic-initial-setup-1.0.15-r0.apk
+checksum	Q1fFNWQFJl58WwOgzDm+rnbyElIT4=
+dep	cosmic-icons	cosmic-icons
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

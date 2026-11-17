@@ -1,0 +1,16 @@
+name	libqrtr-glib
+version	1.4.0-r0
+description	Qualcomm IPC Router protocol helper library
+url	https://gitlab.freedesktop.org/mobile-broadband/libqrtr-glib
+license	LGPL-2.1-or-later
+size	15020
+installed-size	35440
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	libqrtr-glib
+repo	community
+file	libqrtr-glib-1.4.0-r0.apk
+checksum	Q11XfvJuVdMKe4xkJia3ylLd7cda8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

@@ -1,0 +1,31 @@
+name	abiword-dev
+version	3.0.8-r0
+description	A fully-featured word processor (development files)
+url	https://gitlab.gnome.org/World/AbiWord
+license	GPL-2.0-or-later
+size	7269
+installed-size	25411
+depends	pc:cairo-fc pc:cairo-pdf pc:cairo-ps pc:enchant-2>=1.2.0 pc:fribidi>=0.10.4 pc:gio-2.0 pc:glib-2.0>=2.6.0 pc:gobject-2.0>=2.6.0 pc:gthread-2.0>=2.6.0 pc:gtk+-3.0>=3.0.8 pc:gtk+-unix-print-3.0 pc:libgoffice-0.10>=0.10.0 pc:libgsf-1>=1.14.18 pc:librsvg-2.0>=2.16.0 pc:libxslt pc:pangocairo pc:wv-1.0>=1.2.0 pc:x11 pkgconfig
+origin	abiword
+repo	community
+file	abiword-dev-3.0.8-r0.apk
+checksum	Q1okSDJfv7mmXSsyLKBtODXJ4yBic=
+dep	pc:cairo-fc	cairo-dev
+dep	pc:cairo-pdf	cairo-dev
+dep	pc:cairo-ps	cairo-dev
+dep	pc:enchant-2>=1.2.0	enchant2-dev
+dep	pc:fribidi>=0.10.4	fribidi-dev
+dep	pc:gio-2.0	glib-dev
+dep	pc:glib-2.0>=2.6.0	glib-dev
+dep	pc:gobject-2.0>=2.6.0	glib-dev
+dep	pc:gthread-2.0>=2.6.0	glib-dev
+dep	pc:gtk+-3.0>=3.0.8	gtk+3.0-dev
+dep	pc:gtk+-unix-print-3.0	gtk+3.0-dev
+dep	pc:libgoffice-0.10>=0.10.0	goffice-dev
+dep	pc:libgsf-1>=1.14.18	libgsf-dev
+dep	pc:librsvg-2.0>=2.16.0	librsvg-dev
+dep	pc:libxslt	libxslt-dev
+dep	pc:pangocairo	pango-dev
+dep	pc:wv-1.0>=1.2.0	wv-dev
+dep	pc:x11	libx11-dev
+dep	pkgconfig	pkgconf

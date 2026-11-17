@@ -1,0 +1,15 @@
+name	py3-scim2-filter-parser
+version	0.7.0-r2
+description	A customizable parser/transpiler for SCIM2.0 filters
+url	https://pypi.python.org/project/scim2-filter-parser
+license	MIT
+size	21278
+installed-size	68955
+depends	py3-django py3-sly python3~3.14
+origin	py3-scim2-filter-parser
+repo	community
+file	py3-scim2-filter-parser-0.7.0-r2.apk
+checksum	Q1rvuEqNXB9S4KYahM7QSsR8/jqfA=
+dep	py3-django	py3-django
+dep	py3-sly	py3-sly
+dep	python3~3.14	python3

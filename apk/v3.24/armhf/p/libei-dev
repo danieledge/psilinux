@@ -1,0 +1,17 @@
+name	libei-dev
+version	1.5.0-r0
+description	Emulated Input library (development files)
+url	https://gitlab.freedesktop.org/libinput/libei
+license	MIT
+size	33096
+installed-size	128180
+depends	libei=1.5.0-r0 libeis=1.5.0-r0 liboeffis=1.5.0-r0 pc:basu pkgconfig
+origin	libei
+repo	community
+file	libei-dev-1.5.0-r0.apk
+checksum	Q14CdYIdqGtsQJs1cDapGrB3HZ9i8=
+dep	libei=1.5.0-r0	libei
+dep	libeis=1.5.0-r0	libeis
+dep	liboeffis=1.5.0-r0	liboeffis
+dep	pc:basu	basu-dev
+dep	pkgconfig	pkgconf

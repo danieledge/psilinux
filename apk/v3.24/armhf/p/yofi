@@ -1,0 +1,15 @@
+name	yofi
+version	0.2.2-r0
+description	A minimalistic menu for wayland
+url	https://github.com/l4l/yofi
+license	MIT
+size	1328240
+installed-size	2679460
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libxkbcommon.so.0
+origin	yofi
+repo	community
+file	yofi-0.2.2-r0.apk
+checksum	Q1TxRlyvdu9cZU3t9kYHtvf+ryeQ0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libxkbcommon.so.0	libxkbcommon

@@ -1,0 +1,15 @@
+name	gpm-utils
+version	1.20.7-r6
+description	Mouse utilities for console
+url	https://www.nico.schottelius.org/software/gpm/
+license	GPL-2.0-or-later
+size	63836
+installed-size	149116
+depends	gpm so:libc.musl-armhf.so.1 so:libgpm.so.2
+origin	gpm
+repo	main
+file	gpm-utils-1.20.7-r6.apk
+checksum	Q1EZVrGIsTNWAbvy0zonrr3zokv90=
+dep	gpm	gpm
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgpm.so.2	gpm-libs

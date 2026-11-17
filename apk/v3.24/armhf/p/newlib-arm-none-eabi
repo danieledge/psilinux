@@ -1,0 +1,14 @@
+name	newlib-arm-none-eabi
+version	4.6.0.20260123-r0
+description	A C standard library implementation intended for arm-none-eabi
+url	https://www.sourceware.org/newlib/
+license	GPL-2.0-only AND LGPL-2.1-only AND 0BSD AND BSD-3-Clause AND GPL-3.0-only AND LGPL-3.0-only
+size	20375282
+installed-size	90547611
+depends	binutils-arm-none-eabi gcc-arm-none-eabi
+origin	newlib
+repo	community
+file	newlib-arm-none-eabi-4.6.0.20260123-r0.apk
+checksum	Q1kNShjGYrHixlXOJWnLDbVGGlVyw=
+dep	binutils-arm-none-eabi	binutils-arm-none-eabi
+dep	gcc-arm-none-eabi	gcc-arm-none-eabi

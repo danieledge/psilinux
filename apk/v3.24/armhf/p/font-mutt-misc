@@ -1,0 +1,16 @@
+name	font-mutt-misc
+version	1.0.4-r1
+description	X.orgmiscfont
+url	https://xorg.freedesktop.org/
+license	custom
+size	212896
+installed-size	240289
+depends	encodings font-alias mkfontscale fontconfig
+origin	font-mutt-misc
+repo	main
+file	font-mutt-misc-1.0.4-r1.apk
+checksum	Q1y/hfPNT0n+l9MbZeQ+kbCBeDCyo=
+dep	encodings	encodings
+dep	font-alias	font-alias
+dep	mkfontscale	mkfontscale
+dep	fontconfig	fontconfig

@@ -1,0 +1,16 @@
+name	libshairport-dev
+version	1.2.1.20121215-r4
+description	AirPort Express emulator (development files)
+url	https://github.com/amejia1/libshairport
+license	MIT
+size	2158
+installed-size	1119
+depends	avahi-dev libao-dev openssl-dev>3 libshairport=1.2.1.20121215-r4
+origin	libshairport
+repo	community
+file	libshairport-dev-1.2.1.20121215-r4.apk
+checksum	Q1l737LD1Ls/h3ltH7tMLq62MxJa0=
+dep	avahi-dev	avahi-dev
+dep	libao-dev	libao-dev
+dep	openssl-dev>3	openssl-dev
+dep	libshairport=1.2.1.20121215-r4	libshairport

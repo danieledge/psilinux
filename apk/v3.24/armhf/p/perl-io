@@ -1,0 +1,14 @@
+name	perl-io
+version	1.55-r3
+description	Perl core IO modules
+url	https://metacpan.org/release/IO/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	36410
+installed-size	113251
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-io
+repo	main
+file	perl-io-1.55-r3.apk
+checksum	Q1Iith9/XtaVb+5f9+9hzlAlvdjqk=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

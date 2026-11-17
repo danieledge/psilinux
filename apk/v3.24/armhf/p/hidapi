@@ -1,0 +1,15 @@
+name	hidapi
+version	0.15.0-r0
+description	Simple library for communicating with USB and Bluetooth HID devices
+url	https://github.com/libusb/hidapi
+license	GPL-3.0-only OR BSD-3-Clause
+size	18979
+installed-size	44988
+depends	so:libc.musl-armhf.so.1 so:libudev.so.1 so:libusb-1.0.so.0
+origin	hidapi
+repo	community
+file	hidapi-0.15.0-r0.apk
+checksum	Q1iujDzS/RqW6HKuTygHfZnz0RVU4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libudev.so.1	eudev-libs
+dep	so:libusb-1.0.so.0	libusb

@@ -1,0 +1,14 @@
+name	chromaprint-dev
+version	1.6.0-r0
+description	C library for generating audio fingerprints used by AcoustID (development files)
+url	https://acoustid.org/chromaprint
+license	MIT
+size	8445
+installed-size	24024
+depends	chromaprint-libs=1.6.0-r0 pkgconfig
+origin	chromaprint
+repo	community
+file	chromaprint-dev-1.6.0-r0.apk
+checksum	Q1Xp9zLN//zOt2G7+Sn3aVxUcDDV8=
+dep	chromaprint-libs=1.6.0-r0	chromaprint-libs
+dep	pkgconfig	pkgconf

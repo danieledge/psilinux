@@ -1,0 +1,15 @@
+name	mercurial-chg
+version	7.2.4-r0
+description	Client for Mercurial command server with cHg extension
+url	https://www.mercurial-scm.org/
+license	GPL-2.0-or-later
+size	255587
+installed-size	483096
+depends	mercurial=7.2.4-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	mercurial
+repo	community
+file	mercurial-chg-7.2.4-r0.apk
+checksum	Q1GsokGUjB43qadh700pW69+TSAZI=
+dep	mercurial=7.2.4-r0	mercurial
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

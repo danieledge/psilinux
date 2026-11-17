@@ -1,0 +1,14 @@
+name	drawing
+version	1.0.2-r0
+description	Simple image editor for Linux
+url	https://github.com/maoschanz/drawing
+license	GPL-3.0-or-later
+size	5347282
+installed-size	6201359
+depends	py3-cairo py3-gobject3
+origin	drawing
+repo	community
+file	drawing-1.0.2-r0.apk
+checksum	Q18/XrGWjnP1QFXaIeq5LcjaO6Oxc=
+dep	py3-cairo	py3-cairo
+dep	py3-gobject3	py3-gobject3

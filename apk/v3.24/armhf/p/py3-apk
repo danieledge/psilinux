@@ -1,0 +1,15 @@
+name	py3-apk
+version	3.0.9-r0
+description	Python module for apk-tools
+url	https://gitlab.alpinelinux.org/alpine/apk-tools
+license	GPL-2.0-only
+size	4076
+installed-size	5440
+depends	python3~3.14 so:libapk.so.3.0.0 so:libc.musl-armhf.so.1
+origin	apk-tools
+repo	main
+file	py3-apk-3.0.9-r0.apk
+checksum	Q1vDEwAnQVO6xcD/wn9J+Hkui2gXQ=
+dep	python3~3.14	python3
+dep	so:libapk.so.3.0.0	libapk
+dep	so:libc.musl-armhf.so.1	musl

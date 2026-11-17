@@ -1,0 +1,15 @@
+name	acf-quagga
+version	0.10.1-r3
+description	Web-based system administration interface for quagga
+url	https://gitlab.alpinelinux.org/acf/acf-quagga
+license	GPL-2.0-only
+size	5106
+installed-size	13855
+depends	acf-core lua-socket quagga
+origin	acf-quagga
+repo	main
+file	acf-quagga-0.10.1-r3.apk
+checksum	Q1VgXla2wqPvWTFnDJUY3AfuEc/eM=
+dep	acf-core	acf-core
+dep	lua-socket	lua-socket
+dep	quagga	quagga

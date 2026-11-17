@@ -1,0 +1,14 @@
+name	zeromq-gsl
+version	4.1.5-r1
+description	A universal code generator
+url	https://zeromq.org/
+license	GPL-3.0-or-later
+size	222966
+installed-size	535532
+depends	so:libc.musl-armhf.so.1 so:libpcre.so.1
+origin	zeromq-gsl
+repo	community
+file	zeromq-gsl-4.1.5-r1.apk
+checksum	Q1kI5/NbkvOVMhOTjQEkwWD00buvA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcre.so.1	pcre

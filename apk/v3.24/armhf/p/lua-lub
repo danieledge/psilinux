@@ -1,0 +1,14 @@
+name	lua-lub
+version	1.1.0-r3
+description	Lubyk base module for Lua
+url	http://doc.lubyk.org/lub.html
+license	MIT
+size	15007
+installed-size	40347
+depends	lua lua-filesystem
+origin	lua-lub
+repo	main
+file	lua-lub-1.1.0-r3.apk
+checksum	Q1JX5qbNGZE6efeQsW3qEPaqi8D/8=
+dep	lua	lua5.5
+dep	lua-filesystem	lua-filesystem

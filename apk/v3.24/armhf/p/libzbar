@@ -1,0 +1,17 @@
+name	libzbar
+version	0.23.93-r2
+description	Port of ZBAR BAR CODE READER (library)
+url	https://zbar.sourceforge.net/
+license	LGPL-2.0-or-later
+size	98144
+installed-size	181744
+depends	so:libX11.so.6 so:libXv.so.1 so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libjpeg.so.8
+origin	zbar
+repo	community
+file	libzbar-0.23.93-r2.apk
+checksum	Q1vjbTK5eKKG/28aETrqAXNfE+y44=
+dep	so:libX11.so.6	libx11
+dep	so:libXv.so.1	libxv
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libjpeg.so.8	libjpeg-turbo

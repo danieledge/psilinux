@@ -1,0 +1,22 @@
+name	podman-remote
+version	5.8.10-r0
+description	Remote CLI for Podman
+url	https://podman.io/
+license	Apache-2.0
+size	11926297
+installed-size	31931192
+depends	conmon oci-runtime passt cmd:newgidmap cmd:newuidmap containers-common netavark aardvark-dns catatonit so:libc.musl-armhf.so.1
+origin	podman
+repo	community
+file	podman-remote-5.8.10-r0.apk
+checksum	Q1HR0OisUjR7THSlxja9/wXKwjkyA=
+dep	conmon	conmon
+dep	oci-runtime	crun
+dep	passt	passt
+dep	cmd:newgidmap	shadow-subids
+dep	cmd:newuidmap	shadow-subids
+dep	containers-common	containers-common
+dep	netavark	netavark
+dep	aardvark-dns	aardvark-dns
+dep	catatonit	catatonit
+dep	so:libc.musl-armhf.so.1	musl

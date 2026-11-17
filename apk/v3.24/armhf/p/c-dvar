@@ -1,0 +1,14 @@
+name	c-dvar
+version	1.2.0-r0
+description	D-Bus Variant Type-System
+url	https://github.com/c-util/c-dvar
+license	Apache-2.0 OR LGPL-2.1-or-later
+size	10245
+installed-size	17744
+depends	so:libc.musl-armhf.so.1 so:libcutf8-1.so.0
+origin	c-dvar
+repo	community
+file	c-dvar-1.2.0-r0.apk
+checksum	Q17nLdrsNCg9//tt9VpJcrTQzZ1mU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcutf8-1.so.0	c-utf8

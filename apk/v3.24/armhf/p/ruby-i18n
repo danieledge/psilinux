@@ -1,0 +1,14 @@
+name	ruby-i18n
+version	1.14.8-r0
+description	New wave Internationalization support for Ruby
+url	https://github.com/ruby-i18n/i18n
+license	MIT
+size	38010
+installed-size	120661
+depends	ruby ruby-concurrent-ruby
+origin	ruby-i18n
+repo	community
+file	ruby-i18n-1.14.8-r0.apk
+checksum	Q1CtqrNzSyu+R+hiiveohJw3niHPE=
+dep	ruby	ruby
+dep	ruby-concurrent-ruby	ruby-concurrent-ruby

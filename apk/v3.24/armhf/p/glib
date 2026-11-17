@@ -1,0 +1,19 @@
+name	glib
+version	2.88.1-r1
+description	Low-level core library that forms the basis for projects such as GTK and GNOME
+url	https://developer.gnome.org/glib/
+license	LGPL-2.1-or-later
+size	1900844
+installed-size	4886180
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libffi.so.8 so:libintl.so.8 so:libmount.so.1 so:libpcre2-8.so.0 so:libz.so.1
+origin	glib
+repo	main
+file	glib-2.88.1-r1.apk
+checksum	Q1IJUNHLq1enPcP/7TuBix4ZHPuXo=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libffi.so.8	libffi
+dep	so:libintl.so.8	libintl
+dep	so:libmount.so.1	libmount
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libz.so.1	zlib

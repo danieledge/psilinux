@@ -1,0 +1,21 @@
+name	abseil-cpp-cord
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-cord
+url	https://abseil.io/
+license	Apache-2.0
+size	29595
+installed-size	70988
+depends	so:libabsl_cord_internal.so.2508.0.0 so:libabsl_cordz_functions.so.2508.0.0 so:libabsl_cordz_info.so.2508.0.0 so:libabsl_crc_cord_state.so.2508.0.0 so:libabsl_raw_logging_internal.so.2508.0.0 so:libabsl_strings.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-cord-20250814.1-r0.apk
+checksum	Q12DrmJrscUom6hE8HkGC32IZyQ5o=
+dep	so:libabsl_cord_internal.so.2508.0.0	abseil-cpp-cord-internal
+dep	so:libabsl_cordz_functions.so.2508.0.0	abseil-cpp-cordz-functions
+dep	so:libabsl_cordz_info.so.2508.0.0	abseil-cpp-cordz-info
+dep	so:libabsl_crc_cord_state.so.2508.0.0	abseil-cpp-crc-cord-state
+dep	so:libabsl_raw_logging_internal.so.2508.0.0	abseil-cpp-raw-logging-internal
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

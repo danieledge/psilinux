@@ -1,0 +1,13 @@
+name	libx11-static
+version	1.8.14-r0
+description	X11 client-side library (static library)
+url	https://xorg.freedesktop.org/
+license	X11
+size	9219000
+installed-size	21326074
+depends	libx11-dev
+origin	libx11
+repo	main
+file	libx11-static-1.8.14-r0.apk
+checksum	Q1n9368IRWW53hJS4THUXo71hxIt8=
+dep	libx11-dev	libx11-dev

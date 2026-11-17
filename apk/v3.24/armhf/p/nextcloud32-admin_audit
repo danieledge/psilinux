@@ -1,0 +1,13 @@
+name	nextcloud32-admin_audit
+version	32.0.15-r0
+description	Nextcloud Auditing / Logging app
+url	https://nextcloud.com/
+license	AGPL-3.0-only
+size	55607
+installed-size	179187
+depends	nextcloud32
+origin	nextcloud32
+repo	community
+file	nextcloud32-admin_audit-32.0.15-r0.apk
+checksum	Q1fpOxIb8FS6Z8FksEea+VtwQ/2hU=
+dep	nextcloud32	nextcloud32

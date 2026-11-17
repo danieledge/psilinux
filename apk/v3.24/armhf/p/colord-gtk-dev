@@ -1,0 +1,16 @@
+name	colord-gtk-dev
+version	0.3.1-r0
+description	GTK support library for colord (development files)
+url	https://www.freedesktop.org/software/colord/
+license	LGPL-2.1-or-later
+size	9322
+installed-size	44315
+depends	colord-gtk=0.3.1-r0 pc:gtk+-3.0 pc:gtk4 pkgconfig
+origin	colord-gtk
+repo	community
+file	colord-gtk-dev-0.3.1-r0.apk
+checksum	Q1AdQTSeHLeLZiKnsy4r5MW9ZQjn0=
+dep	colord-gtk=0.3.1-r0	colord-gtk
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pc:gtk4	gtk4.0-dev
+dep	pkgconfig	pkgconf

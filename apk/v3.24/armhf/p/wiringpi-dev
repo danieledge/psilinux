@@ -1,0 +1,13 @@
+name	wiringpi-dev
+version	3.16-r0
+description	command line interface for Raspberry Pi gpio (development files)
+url	https://github.com/WiringPi/WiringPi
+license	LGPL-3.0-or-later
+size	20451
+installed-size	133807
+depends	wiringpi=3.16-r0
+origin	wiringpi
+repo	community
+file	wiringpi-dev-3.16-r0.apk
+checksum	Q1hIusIULVCBZ5Wfv9tIXAov4i7a0=
+dep	wiringpi=3.16-r0	wiringpi

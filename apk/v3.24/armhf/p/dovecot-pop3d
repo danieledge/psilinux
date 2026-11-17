@@ -1,0 +1,16 @@
+name	dovecot-pop3d
+version	2.4.5-r0
+description	IMAP and POP3 server (POP3 daemon)
+url	https://www.dovecot.org/
+license	MIT AND LGPL-2.1-or-later
+size	23203
+installed-size	46512
+depends	dovecot=2.4.5-r0 so:libc.musl-armhf.so.1 so:libdovecot-storage.so.0 so:libdovecot.so.0
+origin	dovecot
+repo	main
+file	dovecot-pop3d-2.4.5-r0.apk
+checksum	Q13N0Up9X0ecQ/npCiP/qi7NbZ5l0=
+dep	dovecot=2.4.5-r0	dovecot
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdovecot-storage.so.0	dovecot
+dep	so:libdovecot.so.0	dovecot

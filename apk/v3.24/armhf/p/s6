@@ -1,0 +1,19 @@
+name	s6
+version	2.15.0.0-r0
+description	skarnet.org's small & secure supervision software suite.
+url	https://skarnet.org/software/s6/
+license	ISC
+size	186248
+installed-size	670356
+depends	s6-ipcserver execline /bin/sh so:libc.musl-armhf.so.1 so:libexecline.so.2.9 so:libs6.so.2.15 so:libskarnet.so.2.15
+origin	s6
+repo	main
+file	s6-2.15.0.0-r0.apk
+checksum	Q1FTeeNBKdmIjLDOgA10tfduV1whs=
+dep	s6-ipcserver	s6-ipcserver
+dep	execline	execline
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexecline.so.2.9	execline-libs
+dep	so:libs6.so.2.15	s6-libs
+dep	so:libskarnet.so.2.15	skalibs-libs

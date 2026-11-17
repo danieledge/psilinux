@@ -1,0 +1,16 @@
+name	enchant2-dev
+version	2.8.15-r0
+description	wrapper library for generic spell checking (v2) (development files)
+url	https://rrthomas.github.io/enchant/
+license	LGPL-2.1-or-later
+size	7166
+installed-size	20716
+depends	enchant2-libs=2.8.15-r0 pc:glib-2.0 pc:gmodule-no-export-2.0 pkgconfig
+origin	enchant2
+repo	community
+file	enchant2-dev-2.8.15-r0.apk
+checksum	Q1n3ynnz+6QSJ3kbFOEKIg9XPIBAk=
+dep	enchant2-libs=2.8.15-r0	enchant2-libs
+dep	pc:glib-2.0	glib-dev
+dep	pc:gmodule-no-export-2.0	glib-dev
+dep	pkgconfig	pkgconf

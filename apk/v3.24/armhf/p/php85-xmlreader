@@ -1,0 +1,16 @@
+name	php85-xmlreader
+version	8.5.12-r0
+description	PHP85 extension: XMLReader
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0 Apache-2.0
+size	15002
+installed-size	38340
+depends	php85-common php85-dom so:libc.musl-armhf.so.1 so:libxml2.so.2
+origin	php85
+repo	community
+file	php85-xmlreader-8.5.12-r0.apk
+checksum	Q14oEmmp/Z0l9PZJySmDhPRUWN+bg=
+dep	php85-common	php85-common
+dep	php85-dom	php85-dom
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxml2.so.2	libxml2

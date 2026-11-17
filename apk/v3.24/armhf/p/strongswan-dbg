@@ -1,0 +1,12 @@
+name	strongswan-dbg
+version	6.0.7-r2
+description	IPsec-based VPN solution focused on security and ease of use, supporting IKEv1/IKEv2 and MOBIKE (debug symbols)
+url	https://www.strongswan.org/
+license	GPL-2.0-or-later WITH OpenSSL-Exception
+size	9868593
+installed-size	20526288
+depends	!strongswan<6.0.7-r2 !strongswan>6.0.7-r2
+origin	strongswan
+repo	main
+file	strongswan-dbg-6.0.7-r2.apk
+checksum	Q1dg517RaUu0H5c2gvoGBUe5Sx2Z8=

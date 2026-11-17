@@ -1,0 +1,13 @@
+name	jitterentropy-library
+version	3.6.3-r1
+description	Jitterentropy library
+url	https://www.chronox.de/jent/
+license	BSD-3-Clause OR GPL-2.0-only
+size	14390
+installed-size	33984
+depends	so:libc.musl-armhf.so.1
+origin	jitterentropy-library
+repo	main
+file	jitterentropy-library-3.6.3-r1.apk
+checksum	Q16eMEniA0NdZX7hZwEmufuug8amA=
+dep	so:libc.musl-armhf.so.1	musl

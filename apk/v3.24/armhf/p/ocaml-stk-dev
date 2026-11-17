@@ -1,0 +1,27 @@
+name	ocaml-stk-dev
+version	0.1.0-r3
+description	SDL-based GUI toolkit (development files)
+url	https://framagit.org/zoggy/ocaml-stk
+license	GPL-3.0-only
+size	10367686
+installed-size	27660524
+depends	ocaml-stk=0.1.0-r3 ocaml-ctypes-dev ocaml-fmt-dev ocaml-higlo-dev ocaml-logs-dev ocaml-lwt-dev ocaml-ocf-dev ocaml-pcre-dev ocaml-ppx_blob-dev ocaml-sedlex-dev ocaml-tsdl-dev ocaml-tsdl-image-dev ocaml-tsdl-ttf-dev ocaml-uunf-dev ocaml-uutf-dev
+origin	ocaml-stk
+repo	community
+file	ocaml-stk-dev-0.1.0-r3.apk
+checksum	Q1shCAvZTZyafZ4QBoXpdRrorNK9M=
+dep	ocaml-stk=0.1.0-r3	ocaml-stk
+dep	ocaml-ctypes-dev	ocaml-ctypes-dev
+dep	ocaml-fmt-dev	ocaml-fmt-dev
+dep	ocaml-higlo-dev	ocaml-higlo-dev
+dep	ocaml-logs-dev	ocaml-logs-dev
+dep	ocaml-lwt-dev	ocaml-lwt-dev
+dep	ocaml-ocf-dev	ocaml-ocf-dev
+dep	ocaml-pcre-dev	ocaml-pcre-dev
+dep	ocaml-ppx_blob-dev	ocaml-ppx_blob-dev
+dep	ocaml-sedlex-dev	ocaml-sedlex-dev
+dep	ocaml-tsdl-dev	ocaml-tsdl-dev
+dep	ocaml-tsdl-image-dev	ocaml-tsdl-image-dev
+dep	ocaml-tsdl-ttf-dev	ocaml-tsdl-ttf-dev
+dep	ocaml-uunf-dev	ocaml-uunf-dev
+dep	ocaml-uutf-dev	ocaml-uutf-dev

@@ -1,0 +1,15 @@
+name	libcgroup-pam
+version	3.2.0-r0
+description	cgroup library (pam module)
+url	https://github.com/libcgroup/libcgroup
+license	LGPL-2.1-only
+size	3766
+installed-size	6332
+depends	so:libc.musl-armhf.so.1 so:libcgroup.so.3 so:libpam.so.0
+origin	libcgroup
+repo	community
+file	libcgroup-pam-3.2.0-r0.apk
+checksum	Q1CWZliYidCiqFXqQI1HRbyuoYE0o=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcgroup.so.3	libcgroup
+dep	so:libpam.so.0	linux-pam

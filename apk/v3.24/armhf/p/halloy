@@ -1,0 +1,16 @@
+name	halloy
+version	2026.7.1-r0
+description	Rust graphical IRC client supporting IRCv3.2 capabilities
+url	https://github.com/squidowl/halloy
+license	GPL-3.0-or-later
+size	14662017
+installed-size	34585468
+depends	so:libasound.so.2 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libxcb.so.1
+origin	halloy
+repo	community
+file	halloy-2026.7.1-r0.apk
+checksum	Q1MuNfm3UOr7F7B2jzknEajCGpvT8=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libxcb.so.1	libxcb

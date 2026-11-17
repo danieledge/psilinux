@@ -1,0 +1,13 @@
+name	mobile-broadband-provider-info
+version	20251101-r1
+description	Mobile broadband settings for various service providers
+url	https://gitlab.gnome.org/GNOME/mobile-broadband-provider-info/
+license	CC-PDDC
+size	79069
+installed-size	522077
+depends	pkgconfig
+origin	mobile-broadband-provider-info
+repo	community
+file	mobile-broadband-provider-info-20251101-r1.apk
+checksum	Q1HlYqgorqdfwvADS1iw0IKaQU8CA=
+dep	pkgconfig	pkgconf

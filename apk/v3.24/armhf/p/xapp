@@ -1,0 +1,27 @@
+name	xapp
+version	3.2.2-r1
+description	Components which are common to X-Apps
+url	https://github.com/linuxmint/xapp
+license	LGPL-3.0-only
+size	147715
+installed-size	497802
+depends	python3~3.14 so:libX11.so.6 so:libc.musl-armhf.so.1 so:libcairo-gobject.so.2 so:libcairo.so.2 so:libdbusmenu-gtk3.so.4 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgnomekbdui.so.8 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libpango-1.0.so.0
+origin	xapp
+repo	community
+file	xapp-3.2.2-r1.apk
+checksum	Q1UE0uyE8GGr7IS2/vjluVC5NjMZ0=
+dep	python3~3.14	python3
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo-gobject.so.2	cairo-gobject
+dep	so:libcairo.so.2	cairo
+dep	so:libdbusmenu-gtk3.so.4	libdbusmenu-gtk3
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgnomekbdui.so.8	libgnomekbd
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libpango-1.0.so.0	pango

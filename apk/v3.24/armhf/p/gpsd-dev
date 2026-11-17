@@ -1,0 +1,14 @@
+name	gpsd-dev
+version	3.27.3-r1
+description	GPS daemon (development files)
+url	https://gpsd.io/
+license	BSD-2-Clause
+size	37173
+installed-size	144313
+depends	gpsd=3.27.3-r1 pkgconfig
+origin	gpsd
+repo	main
+file	gpsd-dev-3.27.3-r1.apk
+checksum	Q1bQhMqAgnEXc9+kMn4vJfNWW3qB8=
+dep	gpsd=3.27.3-r1	gpsd
+dep	pkgconfig	pkgconf

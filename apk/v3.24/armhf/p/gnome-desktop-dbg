@@ -1,0 +1,12 @@
+name	gnome-desktop-dbg
+version	44.5-r0
+description	GNOME desktop core libraries (debug symbols)
+url	https://gitlab.gnome.org/GNOME/gnome-desktop
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	649603
+installed-size	1577532
+depends	!gnome-desktop-debug<44.5-r0 !gnome-desktop-debug>44.5-r0 !libgnome-bg-4<44.5-r0 !libgnome-bg-4>44.5-r0 !libgnome-desktop-3<44.5-r0 !libgnome-desktop-3>44.5-r0 !libgnome-desktop-4<44.5-r0 !libgnome-desktop-4>44.5-r0 !libgnome-rr-4<44.5-r0 !libgnome-rr-4>44.5-r0
+origin	gnome-desktop
+repo	community
+file	gnome-desktop-dbg-44.5-r0.apk
+checksum	Q15qHYF/dfIQw9HPd8REc7e14h8Rc=

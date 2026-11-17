@@ -1,0 +1,17 @@
+name	slirp4netns
+version	1.3.3-r0
+description	User-mode networking for unprivileged network namespaces
+url	https://github.com/rootless-containers/slirp4netns
+license	GPL-2.0-or-later
+size	26974
+installed-size	59120
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libseccomp.so.2 so:libslirp.so.0
+origin	slirp4netns
+repo	community
+file	slirp4netns-1.3.3-r0.apk
+checksum	Q1dLM/CBIw8P7bP5lVUQ3KKI8w77M=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libseccomp.so.2	libseccomp
+dep	so:libslirp.so.0	libslirp

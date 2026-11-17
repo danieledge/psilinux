@@ -1,0 +1,15 @@
+name	usb-modeswitch-udev
+version	2.6.1-r5
+description	udev support for usb-modeswitch
+url	https://www.draisberghof.de/usb_modeswitch/
+license	GPL-2.0-or-later
+size	17785
+installed-size	71765
+depends	eudev tcl usb-modeswitch=2.6.1-r5
+origin	usb-modeswitch
+repo	main
+file	usb-modeswitch-udev-2.6.1-r5.apk
+checksum	Q1Zd4TAFIlYCh5D+wozpGfxF8hnLA=
+dep	eudev	eudev
+dep	tcl	tcl
+dep	usb-modeswitch=2.6.1-r5	usb-modeswitch

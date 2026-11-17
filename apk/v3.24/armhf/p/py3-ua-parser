@@ -1,0 +1,14 @@
+name	py3-ua-parser
+version	1.0.2-r0
+description	Python port of Browserscope's user agent parser
+url	https://pypi.python.org/project/ua-parser
+license	Apache-2.0
+size	115794
+installed-size	487439
+depends	py3-pyaml python3~3.14
+origin	py3-ua-parser
+repo	community
+file	py3-ua-parser-1.0.2-r0.apk
+checksum	Q1O0Elq4K9TvumS/Nrnn4udNlXALI=
+dep	py3-pyaml	py3-pyaml
+dep	python3~3.14	python3

@@ -1,0 +1,19 @@
+name	virt-manager-common
+version	5.1.0-r0
+description	Common files used by virt-manager and virt-install
+url	https://virt-manager.org/
+license	GPL-2.0-or-later
+size	190596
+installed-size	792436
+depends	libosinfo libvirt-glib py3-gobject3 py3-libvirt py3-libxml2 py3-requests qemu-img
+origin	virt-manager
+repo	community
+file	virt-manager-common-5.1.0-r0.apk
+checksum	Q18bVJS23AApAZ4oohxQ84CHVfdE0=
+dep	libosinfo	libosinfo
+dep	libvirt-glib	libvirt-glib
+dep	py3-gobject3	py3-gobject3
+dep	py3-libvirt	py3-libvirt
+dep	py3-libxml2	py3-libxml2
+dep	py3-requests	py3-requests
+dep	qemu-img	!

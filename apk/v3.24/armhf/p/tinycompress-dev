@@ -1,0 +1,14 @@
+name	tinycompress-dev
+version	1.2.13-r3
+description	Userspace library for ALSA compressed APIs (development files)
+url	https://alsa-project.org/
+license	BSD-3-Clause OR LGPL-2.1-only
+size	5381
+installed-size	11183
+depends	tinycompress=1.2.13-r3 pkgconfig
+origin	tinycompress
+repo	community
+file	tinycompress-dev-1.2.13-r3.apk
+checksum	Q1A2aGk2Z1z+acNXMK+BqYE2GVkbg=
+dep	tinycompress=1.2.13-r3	tinycompress
+dep	pkgconfig	pkgconf

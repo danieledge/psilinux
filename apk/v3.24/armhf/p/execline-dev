@@ -1,0 +1,15 @@
+name	execline-dev
+version	2.9.9.1-r0
+description	A small scripting language, to be used in place of a shell in non-interactive scripts. (development files)
+url	https://skarnet.org/software/execline/
+license	ISC
+size	3211
+installed-size	3837
+depends	execline-libs=2.9.9.1-r0 pc:libskarnet>=2.15.0.0 pkgconfig
+origin	execline
+repo	main
+file	execline-dev-2.9.9.1-r0.apk
+checksum	Q1/MeTmIAmrfmxZY4gOf+XuqbMiD0=
+dep	execline-libs=2.9.9.1-r0	execline-libs
+dep	pc:libskarnet>=2.15.0.0	skalibs-dev
+dep	pkgconfig	pkgconf

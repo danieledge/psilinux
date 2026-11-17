@@ -1,0 +1,14 @@
+name	wolfssh-dev
+version	1.6.0-r1
+description	Small, fast, portable SSH implementation, including SCP and SFTP (development files)
+url	https://www.wolfssl.com
+license	GPL-3.0-only
+size	249923
+installed-size	697899
+depends	wolfssl-dev wolfssh=1.6.0-r1
+origin	wolfssh
+repo	community
+file	wolfssh-dev-1.6.0-r1.apk
+checksum	Q17dqbeJuHKsvCKELo0sIqDQAux+w=
+dep	wolfssl-dev	wolfssl-dev
+dep	wolfssh=1.6.0-r1	wolfssh

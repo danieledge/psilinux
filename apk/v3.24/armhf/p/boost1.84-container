@@ -1,0 +1,15 @@
+name	boost1.84-container
+version	1.84.0-r6
+description	Boost container shared library
+url	https://www.boost.org/
+license	BSL-1.0
+size	34092
+installed-size	75144
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	boost1.84
+repo	main
+file	boost1.84-container-1.84.0-r6.apk
+checksum	Q1lCpmghrisAw678KS+dUp1gYjclk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

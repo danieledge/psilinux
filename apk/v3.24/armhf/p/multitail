@@ -1,0 +1,17 @@
+name	multitail
+version	7.1.5-r0
+description	MultiTail lets you view one or multiple files like the original tail program
+url	http://www.vanheusden.com/multitail
+license	Apache-2.0
+size	137280
+installed-size	302876
+depends	ncurses coreutils so:libc.musl-armhf.so.1 so:libncursesw.so.6 so:libpanelw.so.6
+origin	multitail
+repo	community
+file	multitail-7.1.5-r0.apk
+checksum	Q13yAMbxiKeCQNuxfFKxIh3zlUO/w=
+dep	ncurses	ncurses
+dep	coreutils	coreutils
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpanelw.so.6	libpanelw

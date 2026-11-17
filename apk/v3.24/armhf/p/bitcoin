@@ -1,0 +1,31 @@
+name	bitcoin
+version	30.2-r2
+description	Decentralized P2P electronic cash system
+url	https://www.bitcoincore.org/
+license	MIT
+size	25796519
+installed-size	51207853
+depends	/bin/sh so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libcapnp-rpc.so.1.4.0 so:libcapnp.so.1.4.0 so:libevent_core-2.1.so.7 so:libevent_extra-2.1.so.7 so:libevent_pthreads-2.1.so.7 so:libgcc_s.so.1 so:libkj-async.so.1.4.0 so:libkj.so.1.4.0 so:libqrencode.so.4 so:libsqlite3.so.0 so:libstdc++.so.6 so:libzmq.so.5
+origin	bitcoin
+repo	community
+file	bitcoin-30.2-r2.apk
+checksum	Q1di8l1fOET778eTXsYxkQ5TMH06U=
+dep	/bin/sh	busybox-binsh
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6DBus.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcapnp-rpc.so.1.4.0	capnproto
+dep	so:libcapnp.so.1.4.0	capnproto
+dep	so:libevent_core-2.1.so.7	libevent
+dep	so:libevent_extra-2.1.so.7	libevent
+dep	so:libevent_pthreads-2.1.so.7	libevent
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libkj-async.so.1.4.0	capnproto
+dep	so:libkj.so.1.4.0	capnproto
+dep	so:libqrencode.so.4	libqrencode
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libzmq.so.5	libzmq

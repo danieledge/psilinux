@@ -1,0 +1,13 @@
+name	vulkan-loader
+version	1.4.347-r0
+description	Vulkan Installable Client Driver (ICD) Loader
+url	https://www.khronos.org/vulkan
+license	Apache-2.0
+size	173333
+installed-size	591144
+depends	so:libc.musl-armhf.so.1
+origin	vulkan-loader
+repo	main
+file	vulkan-loader-1.4.347-r0.apk
+checksum	Q1FiXWJQ1hpB7VuNLngJRN4EDxXYo=
+dep	so:libc.musl-armhf.so.1	musl

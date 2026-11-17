@@ -1,0 +1,14 @@
+name	perl-mouse
+version	2.6.2-r0
+description	Moose minus the antlers
+url	https://metacpan.org/release/Mouse/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	113384
+installed-size	372253
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-mouse
+repo	community
+file	perl-mouse-2.6.2-r0.apk
+checksum	Q1+vwAvvj1BEjEbCmcu94Fyw1iIcw=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

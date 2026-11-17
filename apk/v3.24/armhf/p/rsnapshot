@@ -1,0 +1,15 @@
+name	rsnapshot
+version	1.5.1-r0
+description	Local and remote filesystem snapshot utility
+url	https://rsnapshot.org/
+license	GPL-2.0-or-later
+size	62304
+installed-size	238471
+depends	perl rsync openssh-client
+origin	rsnapshot
+repo	main
+file	rsnapshot-1.5.1-r0.apk
+checksum	Q1kYhIhCtdKDRS181ktjnVIV0DOOI=
+dep	perl	perl
+dep	rsync	rsync
+dep	openssh-client	openssh-client-default

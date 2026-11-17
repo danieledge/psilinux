@@ -1,0 +1,14 @@
+name	assimp-dev
+version	6.0.4-r0
+description	Open Asset Import Library imports and exports 3D model formats (development files)
+url	https://www.assimp.org/
+license	BSD-3-Clause
+size	192596
+installed-size	957766
+depends	assimp-libs=6.0.4-r0 pkgconfig
+origin	assimp
+repo	community
+file	assimp-dev-6.0.4-r0.apk
+checksum	Q11/y8AQzRzzo18d9yyjpzVIzU7eg=
+dep	assimp-libs=6.0.4-r0	assimp-libs
+dep	pkgconfig	pkgconf

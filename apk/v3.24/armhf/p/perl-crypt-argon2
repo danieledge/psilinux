@@ -1,0 +1,14 @@
+name	perl-crypt-argon2
+version	0.031-r0
+description	Perl interface to the Argon2 key derivation functions
+url	https://metacpan.org/release/Crypt-Argon2/
+license	Apache-2.0
+size	26699
+installed-size	52432
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-crypt-argon2
+repo	community
+file	perl-crypt-argon2-0.031-r0.apk
+checksum	Q1ZeMIrS2rVgARpxABfCNZqxRL7Y8=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

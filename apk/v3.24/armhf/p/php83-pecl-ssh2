@@ -1,0 +1,15 @@
+name	php83-pecl-ssh2
+version	1.5.0-r0
+description	PHP 8.3 extension provide bindings for the libssh2 library - PECL
+url	https://pecl.php.net/package/ssh2
+license	PHP-3.01
+size	29029
+installed-size	68099
+depends	php83-common so:libc.musl-armhf.so.1 so:libssh2.so.1
+origin	php83-pecl-ssh2
+repo	community
+file	php83-pecl-ssh2-1.5.0-r0.apk
+checksum	Q1z+QJGzaj/dA59LR/9eJXB+Ic8wU=
+dep	php83-common	php83-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libssh2.so.1	libssh2

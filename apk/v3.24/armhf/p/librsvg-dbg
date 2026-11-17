@@ -1,0 +1,12 @@
+name	librsvg-dbg
+version	2.62.3-r0
+description	Library to render SVG images to Cairo surfaces (debug symbols)
+url	https://gitlab.gnome.org/GNOME/librsvg
+license	LGPL-2.1-or-later
+size	6496333
+installed-size	24242452
+depends	!librsvg<2.62.3-r0 !librsvg>2.62.3-r0 !rsvg-convert<2.62.3-r0 !rsvg-convert>2.62.3-r0
+origin	librsvg
+repo	community
+file	librsvg-dbg-2.62.3-r0.apk
+checksum	Q1KlxQg3pV9S1loHl1wWifQvNjmJU=

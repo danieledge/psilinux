@@ -1,0 +1,19 @@
+name	pacman-dev
+version	7.1.0-r2
+description	Simple library-based package manager (development files)
+url	https://www.archlinux.org/pacman/
+license	GPL-2.0-or-later
+size	25932
+installed-size	111789
+depends	gettext-dev pacman=7.1.0-r2 pc:gpgme pc:libarchive pc:libcrypto pc:libcurl pkgconfig
+origin	pacman
+repo	community
+file	pacman-dev-7.1.0-r2.apk
+checksum	Q19EsfOLeXPKUHCvtXgpndwnxt9LY=
+dep	gettext-dev	gettext-dev
+dep	pacman=7.1.0-r2	pacman
+dep	pc:gpgme	gpgme-dev
+dep	pc:libarchive	libarchive-dev
+dep	pc:libcrypto	openssl-dev
+dep	pc:libcurl	curl-dev
+dep	pkgconfig	pkgconf

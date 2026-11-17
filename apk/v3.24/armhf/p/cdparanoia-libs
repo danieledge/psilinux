@@ -1,0 +1,13 @@
+name	cdparanoia-libs
+version	10.2-r14
+description	Libraries for libcdda_paranoia (Paranoia III)
+url	https://www.xiph.org/paranoia
+license	LGPL-2.1-or-later
+size	39319
+installed-size	81000
+depends	so:libc.musl-armhf.so.1
+origin	cdparanoia
+repo	main
+file	cdparanoia-libs-10.2-r14.apk
+checksum	Q12w0LSpDvo5jsK31yd57e8GPBGB8=
+dep	so:libc.musl-armhf.so.1	musl

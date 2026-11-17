@@ -1,0 +1,17 @@
+name	libpinyin
+version	2.11.91-r0
+description	Library to deal with pinyin
+url	https://github.com/libpinyin/libpinyin
+license	GPL-3.0-or-later
+size	13799368
+installed-size	41454334
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libkyotocabinet.so.16 so:libstdc++.so.6
+origin	libpinyin
+repo	community
+file	libpinyin-2.11.91-r0.apk
+checksum	Q1IkjizTNgrN0OKaYfscKx/N8aY1A=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libkyotocabinet.so.16	kyotocabinet
+dep	so:libstdc++.so.6	libstdc++

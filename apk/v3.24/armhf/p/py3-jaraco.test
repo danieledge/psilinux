@@ -1,0 +1,17 @@
+name	py3-jaraco.test
+version	5.6.0-r0
+description	jaraco test module
+url	https://github.com/jaraco/jaraco.test
+license	MIT
+size	5326
+installed-size	6944
+depends	py3-jaraco.collections py3-jaraco.context py3-jaraco.functools python3-tests python3~3.14
+origin	py3-jaraco.test
+repo	community
+file	py3-jaraco.test-5.6.0-r0.apk
+checksum	Q1hh4TErnP77l2djfOxAgRqPJkDDw=
+dep	py3-jaraco.collections	py3-jaraco.collections
+dep	py3-jaraco.context	py3-jaraco.context
+dep	py3-jaraco.functools	py3-jaraco.functools
+dep	python3-tests	python3-tests
+dep	python3~3.14	python3

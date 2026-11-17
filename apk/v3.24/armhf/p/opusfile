@@ -1,0 +1,17 @@
+name	opusfile
+version	0.12-r6
+description	High-level API for decoding and seeking within .opus files
+url	https://www.opus-codec.org/
+license	BSD-3-Clause
+size	38312
+installed-size	72236
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libogg.so.0 so:libopus.so.0 so:libssl.so.3
+origin	opusfile
+repo	main
+file	opusfile-0.12-r6.apk
+checksum	Q1nOVM9d1lfCAH5PErEGkmuvcAFso=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libogg.so.0	libogg
+dep	so:libopus.so.0	opus
+dep	so:libssl.so.3	libssl3

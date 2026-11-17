@@ -1,0 +1,16 @@
+name	perl-http-daemon
+version	6.17-r0
+description	A simple http server class
+url	https://metacpan.org/release/HTTP-Daemon/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	19707
+installed-size	54020
+depends	perl perl-http-date perl-http-message perl-lwp-mediatypes
+origin	perl-http-daemon
+repo	main
+file	perl-http-daemon-6.17-r0.apk
+checksum	Q1X8qsCk/drCfnxUFYeNqMKRtCSn8=
+dep	perl	perl
+dep	perl-http-date	perl-http-date
+dep	perl-http-message	perl-http-message
+dep	perl-lwp-mediatypes	perl-lwp-mediatypes

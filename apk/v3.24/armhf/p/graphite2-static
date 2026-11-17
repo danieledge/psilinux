@@ -1,0 +1,13 @@
+name	graphite2-static
+version	1.3.14-r6
+description	reimplementation of the SIL Graphite text processing engine (static library)
+url	https://graphite.sil.org/
+license	LGPL-2.1-or-later OR MPL-1.1
+size	77051
+installed-size	195848
+depends	graphite2-dev
+origin	graphite2
+repo	main
+file	graphite2-static-1.3.14-r6.apk
+checksum	Q19STuSN8LIHfKHNWpb6EsyOGGz5Q=
+dep	graphite2-dev	graphite2-dev

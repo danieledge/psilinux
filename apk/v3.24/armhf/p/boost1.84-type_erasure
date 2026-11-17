@@ -1,0 +1,16 @@
+name	boost1.84-type_erasure
+version	1.84.0-r6
+description	Boost type_erasure shared library
+url	https://www.boost.org/
+license	BSL-1.0
+size	18336
+installed-size	46508
+depends	so:libboost_thread.so.1.84.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	boost1.84
+repo	main
+file	boost1.84-type_erasure-1.84.0-r6.apk
+checksum	Q11qGejYSqucIJPFA3BYhqZmAFwA8=
+dep	so:libboost_thread.so.1.84.0	boost1.84-thread
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

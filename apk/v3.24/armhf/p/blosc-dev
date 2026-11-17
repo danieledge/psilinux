@@ -1,0 +1,14 @@
+name	blosc-dev
+version	1.21.6-r0
+description	A blocking, shuffling and lossless compression library (development files)
+url	https://blosc.org
+license	BSD-3-Clause
+size	8097
+installed-size	21424
+depends	blosc=1.21.6-r0 pkgconfig
+origin	blosc
+repo	community
+file	blosc-dev-1.21.6-r0.apk
+checksum	Q1dT3khoTbZWCzajHmgDzxbMrwRYY=
+dep	blosc=1.21.6-r0	blosc
+dep	pkgconfig	pkgconf

@@ -1,0 +1,13 @@
+name	ntpsec-pyc
+version	1.2.5-r0
+description	Precompiled Python bytecode for ntpsec
+url	https://www.ntpsec.org/
+license	BSD-2-Clause
+size	185372
+installed-size	519646
+depends	python3~3.14
+origin	ntpsec
+repo	community
+file	ntpsec-pyc-1.2.5-r0.apk
+checksum	Q10yyWQIb2Fl570NS11zm7bLBBjqI=
+dep	python3~3.14	python3

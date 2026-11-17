@@ -1,0 +1,14 @@
+name	cflow
+version	1.8-r0
+description	A C program flow analyzer
+url	https://www.gnu.org/software/cflow/
+license	GPL-3.0-or-later
+size	58305
+installed-size	120033
+depends	so:libc.musl-armhf.so.1 so:libintl.so.8
+origin	cflow
+repo	community
+file	cflow-1.8-r0.apk
+checksum	Q1ezkjAvTBrXm4AQOsE4WLBxFICqk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libintl.so.8	libintl

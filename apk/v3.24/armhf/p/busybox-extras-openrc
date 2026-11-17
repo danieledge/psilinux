@@ -1,0 +1,14 @@
+name	busybox-extras-openrc
+version	1.37.0-r31
+description	Size optimized toolbox of many common UNIX utilities
+url	https://busybox.net/
+license	GPL-2.0-only
+size	2006
+installed-size	826
+depends	openrc>=0.24.1-r6 busybox-extras
+origin	busybox
+repo	main
+file	busybox-extras-openrc-1.37.0-r31.apk
+checksum	Q1E5kLobi3u9YT0qnS3j80tMMGVVo=
+dep	openrc>=0.24.1-r6	openrc
+dep	busybox-extras	busybox-extras

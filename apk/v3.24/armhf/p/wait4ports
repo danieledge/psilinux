@@ -1,0 +1,13 @@
+name	wait4ports
+version	0.3.3-r1
+description	A small utility to wait for network peer availability.
+url	https://github.com/erikogan/wait4ports
+license	MPL-2.0
+size	5966
+installed-size	13488
+depends	so:libc.musl-armhf.so.1
+origin	wait4ports
+repo	community
+file	wait4ports-0.3.3-r1.apk
+checksum	Q1JQSaKPQCltw7UBhL0v7XnKMDpXE=
+dep	so:libc.musl-armhf.so.1	musl

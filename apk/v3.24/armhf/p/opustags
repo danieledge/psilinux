@@ -1,0 +1,16 @@
+name	opustags
+version	1.10.1-r0
+description	Ogg Opus tags editor
+url	https://github.com/fmang/opustags
+license	BSD-3-Clause
+size	33644
+installed-size	71356
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libogg.so.0 so:libstdc++.so.6
+origin	opustags
+repo	community
+file	opustags-1.10.1-r0.apk
+checksum	Q1L/NT9D6IMhs5V6x2TPzrV6gff7E=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libogg.so.0	libogg
+dep	so:libstdc++.so.6	libstdc++

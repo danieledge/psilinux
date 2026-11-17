@@ -1,0 +1,18 @@
+name	icinga-director-openrc
+version	1.11.8-r0
+description	Configuration frontend for Icinga 2, integrated automation (OpenRC init scripts)
+url	https://icinga.com/docs/icinga-director/latest/doc/01-Introduction/
+license	GPL-2.0-or-later
+size	1946
+installed-size	318
+depends	php83-cli php83-posix php83-iconv php83-sockets php83-curl php83-gettext
+origin	icingaweb2-module-director
+repo	community
+file	icinga-director-openrc-1.11.8-r0.apk
+checksum	Q1V7cswmeve+KAKe/ESkaXV03SQ9Q=
+dep	php83-cli	php83
+dep	php83-posix	php83-posix
+dep	php83-iconv	php83-iconv
+dep	php83-sockets	php83-sockets
+dep	php83-curl	php83-curl
+dep	php83-gettext	php83-gettext

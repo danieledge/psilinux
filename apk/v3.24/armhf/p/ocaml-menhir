@@ -1,0 +1,13 @@
+name	ocaml-menhir
+version	20220210-r6
+description	LR(1) parser generator for OCaml
+url	http://gallium.inria.fr/~fpottier/menhir/
+license	GPL-2.0-only
+size	1341711
+installed-size	3027208
+depends	so:libc.musl-armhf.so.1
+origin	ocaml-menhir
+repo	community
+file	ocaml-menhir-20220210-r6.apk
+checksum	Q1xTxj9K292lX5WsjVsOg6tesjVZY=
+dep	so:libc.musl-armhf.so.1	musl

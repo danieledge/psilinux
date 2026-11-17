@@ -1,0 +1,13 @@
+name	croaring
+version	4.6.1-r0
+description	fast compressed bitmaps in C (and C++)
+url	https://github.com/RoaringBitmap/CRoaring
+license	Apache-2.0 OR MIT
+size	142861
+installed-size	287940
+depends	so:libc.musl-armhf.so.1
+origin	croaring
+repo	community
+file	croaring-4.6.1-r0.apk
+checksum	Q1C64LmBjsry4l1CxVa/M/4n9XBaw=
+dep	so:libc.musl-armhf.so.1	musl

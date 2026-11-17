@@ -1,0 +1,20 @@
+name	coeurl
+version	0.3.2-r0
+description	Asynchronous wrapper around libcurl
+url	https://nheko.im/nheko-reborn/coeurl
+license	MIT
+size	28210
+installed-size	71060
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libevent_core-2.1.so.7 so:libevent_pthreads-2.1.so.7 so:libfmt.so.11 so:libgcc_s.so.1 so:libspdlog.so.1.17 so:libstdc++.so.6
+origin	coeurl
+repo	community
+file	coeurl-0.3.2-r0.apk
+checksum	Q1ZA9bGan2+HbI9jK8imAPnpnO8MY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libevent_core-2.1.so.7	libevent
+dep	so:libevent_pthreads-2.1.so.7	libevent
+dep	so:libfmt.so.11	fmt
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libspdlog.so.1.17	spdlog
+dep	so:libstdc++.so.6	libstdc++

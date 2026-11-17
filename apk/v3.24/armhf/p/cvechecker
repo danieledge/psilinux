@@ -1,0 +1,21 @@
+name	cvechecker
+version	4.0-r6
+description	A local CVE checker tool
+url	https://github.com/sjvermeu/cvechecker/wiki
+license	GPL-3.0-or-later
+size	53067
+installed-size	136634
+depends	gawk wget libxslt jq /bin/sh so:libc.musl-armhf.so.1 so:libconfig.so.15 so:libmariadb.so.3 so:libsqlite3.so.0
+origin	cvechecker
+repo	main
+file	cvechecker-4.0-r6.apk
+checksum	Q1yZMPPQgxnxZkzwjNt6uUxNEYaiE=
+dep	gawk	gawk
+dep	wget	wget
+dep	libxslt	libxslt
+dep	jq	jq
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libconfig.so.15	libconfig
+dep	so:libmariadb.so.3	mariadb-connector-c
+dep	so:libsqlite3.so.0	sqlite-libs

@@ -1,0 +1,13 @@
+name	flashcache-utils
+version	3.1.3-r3
+description	Userspace utilities for flashcache
+url	https://github.com/facebookarchive/flashcache
+license	GPL-2.0-or-later
+size	13376
+installed-size	42896
+depends	so:libc.musl-armhf.so.1
+origin	flashcache-utils
+repo	main
+file	flashcache-utils-3.1.3-r3.apk
+checksum	Q1JcefOhH092CZSdFED5qWBjtLxA0=
+dep	so:libc.musl-armhf.so.1	musl

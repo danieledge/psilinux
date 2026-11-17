@@ -1,0 +1,19 @@
+name	lilv-dev
+version	0.24.26-r1
+description	C library for simpler use of LV2 plugins (development files)
+url	https://drobilla.net/software/lilv
+license	ISC
+size	20193
+installed-size	74942
+depends	lilv-libs=0.24.26-r1 pc:lv2>=1.18.2 pc:serd-0>=0.30.10 pc:sord-0>=0.16.16 pc:sratom-0>=0.6.10 pc:zix-0>=0.6.0 pkgconfig
+origin	lilv
+repo	community
+file	lilv-dev-0.24.26-r1.apk
+checksum	Q1aGoihp2U3LKo+ziKk9qUXypIMVA=
+dep	lilv-libs=0.24.26-r1	lilv-libs
+dep	pc:lv2>=1.18.2	lv2-dev
+dep	pc:serd-0>=0.30.10	serd-dev
+dep	pc:sord-0>=0.16.16	sord-dev
+dep	pc:sratom-0>=0.6.10	sratom-dev
+dep	pc:zix-0>=0.6.0	zix-dev
+dep	pkgconfig	pkgconf

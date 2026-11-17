@@ -1,0 +1,14 @@
+name	tomlplusplus-dev
+version	3.4.0-r1
+description	Header-only TOML config file parser and serializer for C++17. (development files)
+url	https://marzer.github.io/tomlplusplus/
+license	MIT
+size	124250
+installed-size	652764
+depends	tomlplusplus=3.4.0-r1 pkgconfig
+origin	tomlplusplus
+repo	community
+file	tomlplusplus-dev-3.4.0-r1.apk
+checksum	Q1fd63SBBroBXQVcruN1DKrcuyxJY=
+dep	tomlplusplus=3.4.0-r1	tomlplusplus
+dep	pkgconfig	pkgconf

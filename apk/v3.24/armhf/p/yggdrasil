@@ -1,0 +1,14 @@
+name	yggdrasil
+version	0.5.13-r4
+description	An experiment in scalable routing as an encrypted IPv6 overlay network
+url	https://yggdrasil-network.github.io/
+license	LGPL-3.0-only
+size	7704964
+installed-size	19221236
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	yggdrasil
+repo	community
+file	yggdrasil-0.5.13-r4.apk
+checksum	Q1AAD06jbXZ7HeVB6mNJmrKHcR8YY=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

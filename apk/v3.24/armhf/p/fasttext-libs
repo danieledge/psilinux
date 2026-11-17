@@ -1,0 +1,15 @@
+name	fasttext-libs
+version	0.9.2-r3
+description	Library for fast text representation and classification (libraries)
+url	https://fasttext.cc/
+license	MIT
+size	168244
+installed-size	333184
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	fasttext
+repo	community
+file	fasttext-libs-0.9.2-r3.apk
+checksum	Q1cBYuokP+T4a7FfVCQvONjaIdpHA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

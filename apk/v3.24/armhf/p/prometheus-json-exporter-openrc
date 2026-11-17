@@ -1,0 +1,12 @@
+name	prometheus-json-exporter-openrc
+version	0.7.0-r5
+description	Prometheus exporter which scrapes remote JSON by JSONPath (OpenRC init scripts)
+url	https://github.com/prometheus-community/json_exporter
+license	Apache-2.0
+size	1995
+installed-size	533
+depends	
+origin	prometheus-json-exporter
+repo	community
+file	prometheus-json-exporter-openrc-0.7.0-r5.apk
+checksum	Q1LrdoWTh5Sa03y7lntZ0WN5Uz14k=

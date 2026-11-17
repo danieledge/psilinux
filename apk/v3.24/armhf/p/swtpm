@@ -1,0 +1,22 @@
+name	swtpm
+version	0.10.2-r0
+description	Libtpms-based TPM emulator with socket, character device, and Linux CUSE interface
+url	https://github.com/stefanberger/swtpm
+license	BSD-3-Clause
+size	304362
+installed-size	1079908
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libglib-2.0.so.0 so:libgmp.so.10 so:libgnutls.so.30 so:libgobject-2.0.so.0 so:libjson-glib-1.0.so.0 so:libseccomp.so.2 so:libtasn1.so.6 so:libtpms.so.0
+origin	swtpm
+repo	community
+file	swtpm-0.10.2-r0.apk
+checksum	Q1ZGNOJ3olTdYjrQ3I1zdAS+TKuq4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmp.so.10	gmp
+dep	so:libgnutls.so.30	gnutls
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libseccomp.so.2	libseccomp
+dep	so:libtasn1.so.6	libtasn1
+dep	so:libtpms.so.0	libtpms

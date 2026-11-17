@@ -1,0 +1,17 @@
+name	libjcat-dev
+version	0.2.3-r2
+description	Library for reading and writing Jcat files (development files)
+url	https://github.com/hughsie/libjcat
+license	LGPL-2.1-or-later
+size	18112
+installed-size	158759
+depends	libjcat=0.2.3-r2 pc:gio-2.0>=2.45.8 pc:gnutls>=3.6.0 pc:json-glib-1.0>=1.1.1 pkgconfig
+origin	libjcat
+repo	community
+file	libjcat-dev-0.2.3-r2.apk
+checksum	Q1nzfEXRAavoFmhuJWjCV3dgwUEgA=
+dep	libjcat=0.2.3-r2	libjcat
+dep	pc:gio-2.0>=2.45.8	glib-dev
+dep	pc:gnutls>=3.6.0	gnutls-dev
+dep	pc:json-glib-1.0>=1.1.1	json-glib-dev
+dep	pkgconfig	pkgconf

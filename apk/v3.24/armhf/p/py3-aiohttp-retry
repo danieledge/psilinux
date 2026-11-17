@@ -1,0 +1,15 @@
+name	py3-aiohttp-retry
+version	2.9.1-r1
+description	Simple retry client for aiohttp.
+url	https://github.com/inyutin/aiohttp_retry
+license	MIT
+size	10434
+installed-size	32742
+depends	py3-aiohttp py3-yarl python3~3.14
+origin	py3-aiohttp-retry
+repo	community
+file	py3-aiohttp-retry-2.9.1-r1.apk
+checksum	Q1k+skSEISgYrZkmXBj5azeO5CKsk=
+dep	py3-aiohttp	py3-aiohttp
+dep	py3-yarl	py3-yarl
+dep	python3~3.14	python3

@@ -1,0 +1,17 @@
+name	libaccountsservice
+version	23.13.9-r3
+description	D-Bus interface for user account query and manipulation (libraries)
+url	https://www.freedesktop.org/software/accountsservice/
+license	GPL-3.0-or-later
+size	54803
+installed-size	152884
+depends	so:libc.musl-armhf.so.1 so:libelogind.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	accountsservice
+repo	community
+file	libaccountsservice-23.13.9-r3.apk
+checksum	Q1iLbD1iA8ZUEInGv1/7Fd7IpRK7I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libelogind.so.0	libelogind
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

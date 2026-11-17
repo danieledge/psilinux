@@ -1,0 +1,13 @@
+name	libressl
+version	4.3.1-r0
+description	Version of the TLS/crypto stack forked from OpenSSL
+url	https://www.libressl.org/
+license	custom
+size	1516280
+installed-size	3252588
+depends	so:libc.musl-armhf.so.1
+origin	libressl
+repo	community
+file	libressl-4.3.1-r0.apk
+checksum	Q1+UoMFKkuOylvDljFgclkQu1/xoQ=
+dep	so:libc.musl-armhf.so.1	musl

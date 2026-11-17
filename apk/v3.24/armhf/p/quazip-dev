@@ -1,0 +1,18 @@
+name	quazip-dev
+version	1.5-r0
+description	C++ wrapper for the Gilles Vollant's ZIP/UNZIP C package (development files)
+url	https://github.com/stachenov/quazip
+license	LGPL-2.1-or-later WITH custom-static-linking-exception
+size	77807
+installed-size	331334
+depends	libquazip1-qt5=1.5-r0 libquazip1-qt6=1.5-r0 pc:Qt5Core pc:Qt6Core pc:zlib pkgconfig
+origin	quazip
+repo	community
+file	quazip-dev-1.5-r0.apk
+checksum	Q1DqxA85/RNqjtHOngH2ujjO8jnrM=
+dep	libquazip1-qt5=1.5-r0	libquazip1-qt5
+dep	libquazip1-qt6=1.5-r0	libquazip1-qt6
+dep	pc:Qt5Core	qt5-qtbase-dev
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

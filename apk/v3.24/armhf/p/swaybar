@@ -1,0 +1,23 @@
+name	swaybar
+version	1.12_rc3-r0
+description	Standard bar for Sway
+url	https://swaywm.org/
+license	MIT
+size	43886
+installed-size	91828
+depends	so:libbasu.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libjson-c.so.5 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libwayland-client.so.0 so:libwayland-cursor.so.0
+origin	sway
+repo	community
+file	swaybar-1.12_rc3-r0.apk
+checksum	Q1sVxbmhysG1PjNYH5hH7hP4U7SEs=
+dep	so:libbasu.so.0	basu
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libjson-c.so.5	json-c
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor

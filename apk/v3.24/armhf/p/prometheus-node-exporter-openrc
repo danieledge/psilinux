@@ -1,0 +1,12 @@
+name	prometheus-node-exporter-openrc
+version	1.11.1-r0
+description	Prometheus exporter for machine metrics (OpenRC init scripts)
+url	https://github.com/prometheus/node_exporter
+license	Apache-2.0
+size	2008
+installed-size	598
+depends	
+origin	prometheus-node-exporter
+repo	community
+file	prometheus-node-exporter-openrc-1.11.1-r0.apk
+checksum	Q16TtHYsReV8+FZ2lZFwWGoM1aBKU=

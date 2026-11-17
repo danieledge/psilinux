@@ -1,0 +1,15 @@
+name	perl-params-validate
+version	1.31-r4
+description	Validate method/function parameters
+url	https://metacpan.org/release/Params-Validate/
+license	Artistic-2.0
+size	40124
+installed-size	99128
+depends	perl perl-module-implementation so:libc.musl-armhf.so.1
+origin	perl-params-validate
+repo	main
+file	perl-params-validate-1.31-r4.apk
+checksum	Q1NbiwOOM8mPkFJ9iJQKg449ncgJA=
+dep	perl	perl
+dep	perl-module-implementation	perl-module-implementation
+dep	so:libc.musl-armhf.so.1	musl

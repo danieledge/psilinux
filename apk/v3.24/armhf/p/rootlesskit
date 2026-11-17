@@ -1,0 +1,15 @@
+name	rootlesskit
+version	2.3.5-r12
+description	Linux-native fake root for implementing rootless containers
+url	https://github.com/rootless-containers/rootlesskit
+license	Apache-2.0
+size	7518173
+installed-size	18884648
+depends	shadow-subids iproute2-minimal so:libc.musl-armhf.so.1
+origin	rootlesskit
+repo	community
+file	rootlesskit-2.3.5-r12.apk
+checksum	Q1nS6YSwYsIW8rrrU1/pVZ4OXYYeA=
+dep	shadow-subids	shadow-subids
+dep	iproute2-minimal	iproute2-minimal
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,17 @@
+name	postfix-stats
+version	1.6-r2
+description	Retrieve stats from postfix
+url	https://github.com/fcolista/postfix-stats
+license	MIT GPL-2.0
+size	4462
+installed-size	6724
+depends	perl perl-file-tail perl-db_file so:libc.musl-armhf.so.1 so:libdb-5.3.so
+origin	postfix-stats
+repo	community
+file	postfix-stats-1.6-r2.apk
+checksum	Q1sEr9WargZs4bOzvc+X9AlNZDIp0=
+dep	perl	perl
+dep	perl-file-tail	perl-file-tail
+dep	perl-db_file	perl-db_file
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdb-5.3.so	db

@@ -1,0 +1,13 @@
+name	libntl-static
+version	11.6.0-r1
+description	Library for doing number theory (static library)
+url	https://libntl.org
+license	LGPL-2.1-or-later
+size	1633540
+installed-size	4877630
+depends	libntl-dev
+origin	libntl
+repo	community
+file	libntl-static-11.6.0-r1.apk
+checksum	Q1VHuljyU/Vf/ly1h/SNwbPiVLllA=
+dep	libntl-dev	libntl-dev

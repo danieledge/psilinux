@@ -1,0 +1,22 @@
+name	gspell
+version	1.14.4-r0
+description	Flexible API to add spell checking to a GTK+ application
+url	https://gitlab.gnome.org/GNOME/gspell
+license	LGPL-2.1-or-later
+size	110630
+installed-size	307708
+depends	iso-codes so:libc.musl-armhf.so.1 so:libenchant-2.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libicuuc.so.78 so:libintl.so.8 so:libpango-1.0.so.0
+origin	gspell
+repo	community
+file	gspell-1.14.4-r0.apk
+checksum	Q1gWshOTNVPg33TnoFBYgLW9yhdSY=
+dep	iso-codes	iso-codes
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libenchant-2.so.2	enchant2-libs
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango

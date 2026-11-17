@@ -1,0 +1,14 @@
+name	perl-rxperl
+version	6.29.8-r1
+description	Implementation of Reactive Extensions / rxjs for Perl
+url	https://metacpan.org/release/RxPerl/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	26327
+installed-size	141780
+depends	perl perl-hash-ordered
+origin	perl-rxperl
+repo	community
+file	perl-rxperl-6.29.8-r1.apk
+checksum	Q1uYoQWkAQnITUbvwlDhYXznaZ6i8=
+dep	perl	perl
+dep	perl-hash-ordered	perl-hash-ordered

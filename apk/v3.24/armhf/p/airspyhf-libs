@@ -1,0 +1,14 @@
+name	airspyhf-libs
+version	1.6.8-r2
+description	User mode driver for Airspy HF+ (libraries)
+url	https://github.com/airspy/airspyhf
+license	BSD-3-Clause
+size	12696
+installed-size	21676
+depends	so:libc.musl-armhf.so.1 so:libusb-1.0.so.0
+origin	airspyhf
+repo	community
+file	airspyhf-libs-1.6.8-r2.apk
+checksum	Q12f9A3wN9ZJFpanHmLn/JYJsBqQ8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb

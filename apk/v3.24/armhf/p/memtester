@@ -1,0 +1,13 @@
+name	memtester
+version	4.7.1-r0
+description	userspace utility for testing the memory subsystem for faults
+url	https://pyropus.ca/software/memtester/
+license	GPL-2.0-or-later
+size	9566
+installed-size	17728
+depends	so:libc.musl-armhf.so.1
+origin	memtester
+repo	community
+file	memtester-4.7.1-r0.apk
+checksum	Q1E+FjkS7D4GVTkwtngTcTy/yKFJA=
+dep	so:libc.musl-armhf.so.1	musl

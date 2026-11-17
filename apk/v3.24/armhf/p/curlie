@@ -1,0 +1,14 @@
+name	curlie
+version	1.8.2-r15
+description	Curlie is a frontend to curl that adds the ease of use of httpie
+url	https://curlie.io/
+license	MIT
+size	1154359
+installed-size	2780260
+depends	curl so:libc.musl-armhf.so.1
+origin	curlie
+repo	community
+file	curlie-1.8.2-r15.apk
+checksum	Q16Br3qii9kisXBWHwBs9EUYNM7fE=
+dep	curl	curl
+dep	so:libc.musl-armhf.so.1	musl

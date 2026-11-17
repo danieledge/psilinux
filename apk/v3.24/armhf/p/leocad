@@ -1,0 +1,25 @@
+name	leocad
+version	26.09-r0
+description	CAD application for creating virtual LEGO models
+url	https://www.leocad.org/
+license	GPL-2.0-or-later
+size	144189702
+installed-size	148715294
+depends	so:libQt6Concurrent.so.6 so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6OpenGL.so.6 so:libQt6OpenGLWidgets.so.6 so:libQt6PrintSupport.so.6 so:libQt6Widgets.so.6 so:libQt6Xml.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1
+origin	leocad
+repo	community
+file	leocad-26.09-r0.apk
+checksum	Q18zlFq3nf72e8m2qN5MPWgmUVnr0=
+dep	so:libQt6Concurrent.so.6	qt6-qtbase
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6OpenGL.so.6	qt6-qtbase-x11
+dep	so:libQt6OpenGLWidgets.so.6	qt6-qtbase-x11
+dep	so:libQt6PrintSupport.so.6	qt6-qtbase-x11
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libQt6Xml.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

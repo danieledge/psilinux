@@ -1,0 +1,13 @@
+name	hiredict
+version	1.3.1-r1
+description	C client library for Redict
+url	https://codeberg.org/redict/hiredict
+license	BSD-3-Clause
+size	26687
+installed-size	54560
+depends	so:libc.musl-armhf.so.1
+origin	hiredict
+repo	community
+file	hiredict-1.3.1-r1.apk
+checksum	Q1WBU5TU4f3H7aCjoVuP20pXdIU0M=
+dep	so:libc.musl-armhf.so.1	musl

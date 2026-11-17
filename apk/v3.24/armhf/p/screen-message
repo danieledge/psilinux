@@ -1,0 +1,20 @@
+name	screen-message
+version	0.29-r0
+description	Simple tool to display some text as large as possible
+url	https://github.com/nomeata/screen-message
+license	GPL-2.0-or-later
+size	10084
+installed-size	19075
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0
+origin	screen-message
+repo	community
+file	screen-message-0.29-r0.apk
+checksum	Q1avLrz7e8J/+qBYYM4gBc+MGUHXk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango

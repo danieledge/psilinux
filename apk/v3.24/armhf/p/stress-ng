@@ -1,0 +1,17 @@
+name	stress-ng
+version	0.21.02-r0
+description	stress-ng will stress test a computer system in various selectable ways
+url	https://github.com/ColinIanKing/stress-ng
+license	GPL-2.0-or-later
+size	1258344
+installed-size	3212156
+depends	so:libJudy.so.1 so:libbsd.so.0 so:libc.musl-armhf.so.1 so:libsctp.so.1 so:libz.so.1
+origin	stress-ng
+repo	community
+file	stress-ng-0.21.02-r0.apk
+checksum	Q14zhBaUEvvx0Gr00LVUVPI6B/Mzg=
+dep	so:libJudy.so.1	judy
+dep	so:libbsd.so.0	libbsd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsctp.so.1	liblksctp
+dep	so:libz.so.1	zlib

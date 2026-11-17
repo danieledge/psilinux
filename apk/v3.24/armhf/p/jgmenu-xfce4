@@ -1,0 +1,23 @@
+name	jgmenu-xfce4
+version	4.5.0-r0
+description	Simple, independent X11 menu (xfce4 panel integration)
+url	https://github.com/johanmalm/jgmenu
+license	GPL-2.0-or-later
+size	7181
+installed-size	13648
+depends	bash desktop-file-utils python3 so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libxfce4panel-2.0.so.4 so:libxfce4util.so.7
+origin	jgmenu
+repo	community
+file	jgmenu-xfce4-4.5.0-r0.apk
+checksum	Q1UGPU9yDZxdTZHevY4dNoS3WTIkE=
+dep	bash	bash
+dep	desktop-file-utils	desktop-file-utils
+dep	python3	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libxfce4panel-2.0.so.4	libxfce4panel
+dep	so:libxfce4util.so.7	libxfce4util

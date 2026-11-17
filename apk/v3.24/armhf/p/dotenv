@@ -1,0 +1,14 @@
+name	dotenv
+version	1.2.2-r0
+description	Reads the key-value pair from .env file and adds them to environment variable.
+url	https://github.com/theskumar/python-dotenv
+license	BSD-3-Clause
+size	1739
+installed-size	212
+depends	py3-dotenv py3-click
+origin	py3-dotenv
+repo	main
+file	dotenv-1.2.2-r0.apk
+checksum	Q1qitc7zPpwZ//G6ZCOWNrm7Qbuec=
+dep	py3-dotenv	py3-dotenv
+dep	py3-click	py3-click

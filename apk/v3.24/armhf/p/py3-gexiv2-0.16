@@ -1,0 +1,13 @@
+name	py3-gexiv2-0.16
+version	0.16.1-r0
+description	GObject-based wrapper around the Exiv2 library
+url	https://gitlab.gnome.org/GNOME/gexiv2
+license	GPL-2.0-or-later
+size	2689
+installed-size	2894
+depends	python3~3.14
+origin	gexiv2-0.16
+repo	community
+file	py3-gexiv2-0.16-0.16.1-r0.apk
+checksum	Q1hSFww8/FrYudp2TI4b3iGWu6ma4=
+dep	python3~3.14	python3

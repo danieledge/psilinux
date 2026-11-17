@@ -1,0 +1,20 @@
+name	libxdamage-dev
+version	1.1.7-r0
+description	X11 damaged region extension library (development files)
+url	https://xorg.freedesktop.org/
+license	MIT
+size	3260
+installed-size	2639
+depends	libxdamage=1.1.7-r0 pc:damageproto>=1.1 pc:fixesproto pc:x11 pc:xextproto pc:xfixes pc:xproto>=7.0.22 pkgconfig
+origin	libxdamage
+repo	main
+file	libxdamage-dev-1.1.7-r0.apk
+checksum	Q1ltcwB4TFjw4u1v29fwMmtKf85/Q=
+dep	libxdamage=1.1.7-r0	libxdamage
+dep	pc:damageproto>=1.1	xorgproto
+dep	pc:fixesproto	xorgproto
+dep	pc:x11	libx11-dev
+dep	pc:xextproto	xorgproto
+dep	pc:xfixes	libxfixes-dev
+dep	pc:xproto>=7.0.22	xorgproto
+dep	pkgconfig	pkgconf

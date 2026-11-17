@@ -1,0 +1,19 @@
+name	galculator
+version	2.1.4-r5
+description	GTK+3 based scientific calculator
+url	https://github.com/galculator/galculator
+license	GPL-2.0-or-later
+size	89423
+installed-size	839866
+depends	so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libpango-1.0.so.0
+origin	galculator
+repo	community
+file	galculator-2.1.4-r5.apk
+checksum	Q1G5p9WwtDNRH4QiyHAGP95402aDg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango

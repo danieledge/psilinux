@@ -1,0 +1,13 @@
+name	kapp
+version	0.66.0-r2
+description	deployment tool focused on the concept of a kubernetes application
+url	https://carvel.dev/kapp
+license	Apache-2.0
+size	15627797
+installed-size	53482388
+depends	so:libc.musl-armhf.so.1
+origin	kapp
+repo	community
+file	kapp-0.66.0-r2.apk
+checksum	Q1yBXHKgzIMaEwMn8i34hXc09xkWg=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,20 @@
+name	usbguard-notifier
+version	0.1.1-r0
+description	Notifies on USBGuard policy and device presence changes
+url	https://github.com/Cropi/usbguard-notifier
+license	GPL-2.0-or-later
+size	32502
+installed-size	76652
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libnotify.so.4 so:librsvg-2.so.2 so:libstdc++.so.6 so:libusbguard.so.1
+origin	usbguard-notifier
+repo	community
+file	usbguard-notifier-0.1.1-r0.apk
+checksum	Q1VdMp655ZYT8FSQRQrXBOML1R81g=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libnotify.so.4	libnotify
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libusbguard.so.1	libusbguard

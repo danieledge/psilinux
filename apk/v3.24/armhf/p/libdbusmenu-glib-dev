@@ -1,0 +1,15 @@
+name	libdbusmenu-glib-dev
+version	16.04.0-r6
+description	Library for passing menus over DBus (development files)
+url	https://launchpad.net/libdbusmenu
+license	GPL-3.0-or-later AND LGPL-2.1-or-later AND LGPL-3.0-or-later
+size	33033
+installed-size	250328
+depends	libdbusmenu-glib=16.04.0-r6 pc:json-glib-1.0 pkgconfig
+origin	libdbusmenu-glib
+repo	community
+file	libdbusmenu-glib-dev-16.04.0-r6.apk
+checksum	Q1eMMscsxGuf1YpYCq2TH194ye50U=
+dep	libdbusmenu-glib=16.04.0-r6	libdbusmenu-glib
+dep	pc:json-glib-1.0	json-glib-dev
+dep	pkgconfig	pkgconf

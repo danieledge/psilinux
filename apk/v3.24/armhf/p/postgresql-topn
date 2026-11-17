@@ -1,0 +1,13 @@
+name	postgresql-topn
+version	2.7.0-r0
+description	PostgreSQL extension that returns the top values in database according to some criteria
+url	https://github.com/citusdata/postgresql-topn
+license	AGPL-3.0-only
+size	10441
+installed-size	20715
+depends	so:libc.musl-armhf.so.1
+origin	postgresql-topn
+repo	community
+file	postgresql-topn-2.7.0-r0.apk
+checksum	Q1fUpm0sTXU3wFzjALKQqj3UCQn74=
+dep	so:libc.musl-armhf.so.1	musl

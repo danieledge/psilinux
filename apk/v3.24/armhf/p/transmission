@@ -1,0 +1,13 @@
+name	transmission
+version	4.1.2-r0
+description	Lightweight GTK BitTorrent client
+url	https://transmissionbt.com/
+license	GPL-3.0-only
+size	1261
+installed-size	0
+depends	transmission-gtk=4.1.2-r0
+origin	transmission
+repo	community
+file	transmission-4.1.2-r0.apk
+checksum	Q1peTTu9Qo/hW1ufjrNq6HbZYZiHQ=
+dep	transmission-gtk=4.1.2-r0	transmission-gtk

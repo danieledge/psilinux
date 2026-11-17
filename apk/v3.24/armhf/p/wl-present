@@ -1,0 +1,15 @@
+name	wl-present
+version	0.18.5-r0
+description	Start wl-mirror and control the mirrored output and region
+url	https://github.com/Ferdi265/wl-mirror
+license	GPL-3.0-or-later
+size	3453
+installed-size	6427
+depends	bash pipectl wl-mirror
+origin	wl-mirror
+repo	community
+file	wl-present-0.18.5-r0.apk
+checksum	Q1PhN5bEz6x6mi4F/ScLSPsCVUcdk=
+dep	bash	bash
+dep	pipectl	pipectl
+dep	wl-mirror	wl-mirror

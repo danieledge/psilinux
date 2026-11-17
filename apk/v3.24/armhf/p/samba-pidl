@@ -1,0 +1,13 @@
+name	samba-pidl
+version	4.23.8-r0
+description	Perl IDL compiler
+url	https://www.samba.org/
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	101947
+installed-size	505612
+depends	perl
+origin	samba
+repo	main
+file	samba-pidl-4.23.8-r0.apk
+checksum	Q1xnw60Vw0CBMaAEZgQ50/vOAW01I=
+dep	perl	perl

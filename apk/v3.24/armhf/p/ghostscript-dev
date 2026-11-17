@@ -1,0 +1,14 @@
+name	ghostscript-dev
+version	10.08.0-r0
+description	Interpreter for the PostScript language and for PDF (development files)
+url	https://ghostscript.com/
+license	AGPL-3.0-or-later
+size	17416
+installed-size	62847
+depends	ghostscript=10.08.0-r0 pkgconfig
+origin	ghostscript
+repo	community
+file	ghostscript-dev-10.08.0-r0.apk
+checksum	Q1c5RJL1Qa+5q27W+NTXFrJ+M5Fxs=
+dep	ghostscript=10.08.0-r0	ghostscript
+dep	pkgconfig	pkgconf

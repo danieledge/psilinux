@@ -1,0 +1,18 @@
+name	wpa_gui
+version	2.11-r0
+description	Grafical User Interface for wpa_supplicant
+url	https://w1.fi/wpa_supplicant/
+license	BSD-3-Clause
+size	294619
+installed-size	670452
+depends	so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	wpa_gui
+repo	community
+file	wpa_gui-2.11-r0.apk
+checksum	Q1Gl8+hJm73ZBg/ppuFLbsNvda1qs=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

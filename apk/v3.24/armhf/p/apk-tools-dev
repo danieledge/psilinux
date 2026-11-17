@@ -1,0 +1,16 @@
+name	apk-tools-dev
+version	3.0.9-r0
+description	Alpine Package Keeper - package manager for alpine (development files)
+url	https://gitlab.alpinelinux.org/alpine/apk-tools
+license	GPL-2.0-only
+size	24627
+installed-size	91928
+depends	libapk=3.0.9-r0 pc:openssl pc:zlib pkgconfig
+origin	apk-tools
+repo	main
+file	apk-tools-dev-3.0.9-r0.apk
+checksum	Q1adM6vw4av9AbM2kwoSaLKtEJmQo=
+dep	libapk=3.0.9-r0	libapk
+dep	pc:openssl	openssl-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

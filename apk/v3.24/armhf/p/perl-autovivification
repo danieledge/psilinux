@@ -1,0 +1,14 @@
+name	perl-autovivification
+version	0.18-r10
+description	Lexically disable autovivification.
+url	https://metacpan.org/release/autovivification/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	15936
+installed-size	33372
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-autovivification
+repo	community
+file	perl-autovivification-0.18-r10.apk
+checksum	Q1wXKqLzZegrVlUuj7atu8QyR1dD8=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

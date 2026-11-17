@@ -1,0 +1,25 @@
+name	gnome-calculator
+version	50.0-r0
+description	Calculator for solving mathematical equations
+url	https://apps.gnome.org/Calculator
+license	GPL-3.0-or-later
+size	565448
+installed-size	1646942
+depends	so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libgee-0.8.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libgtksourceview-5.so.0 so:libintl.so.8 so:libmpc.so.3 so:libmpfr.so.6 so:libsoup-3.0.so.0 so:libxml2.so.2
+origin	gnome-calculator
+repo	community
+file	gnome-calculator-50.0-r0.apk
+checksum	Q1RTiVrtsnVVVXc9gkx3WkH3bOJHU=
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgee-0.8.so.2	libgee
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libgtksourceview-5.so.0	gtksourceview5
+dep	so:libintl.so.8	libintl
+dep	so:libmpc.so.3	mpc1
+dep	so:libmpfr.so.6	mpfr4
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libxml2.so.2	libxml2

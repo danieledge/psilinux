@@ -1,0 +1,15 @@
+name	libusb-compat-dev
+version	0.1.9-r0
+description	Compatility for older libusb (development files)
+url	https://libusb.info/
+license	LGPL-2.1-or-later
+size	13306
+installed-size	29229
+depends	libusb-compat=0.1.9-r0 pc:libusb-1.0 pkgconfig
+origin	libusb-compat
+repo	main
+file	libusb-compat-dev-0.1.9-r0.apk
+checksum	Q10NPifw791upP6aeLyLg/vXuG9Cc=
+dep	libusb-compat=0.1.9-r0	libusb-compat
+dep	pc:libusb-1.0	libusb-dev
+dep	pkgconfig	pkgconf

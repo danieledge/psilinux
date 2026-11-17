@@ -1,0 +1,19 @@
+name	perl-json-path
+version	1.0.6-r1
+description	Search nested hashref/arrayref structures using JSONPath
+url	https://metacpan.org/release/JSON-Path/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	16418
+installed-size	52443
+depends	perl perl-carp-assert perl-exporter-tiny perl-json-maybexs perl-lv perl-readonly perl-try-tiny
+origin	perl-json-path
+repo	community
+file	perl-json-path-1.0.6-r1.apk
+checksum	Q1v4oXM9iyNZ+i4DtALATZQB+LOAE=
+dep	perl	perl
+dep	perl-carp-assert	perl-carp-assert
+dep	perl-exporter-tiny	perl-exporter-tiny
+dep	perl-json-maybexs	perl-json-maybexs
+dep	perl-lv	perl-lv
+dep	perl-readonly	perl-readonly
+dep	perl-try-tiny	perl-try-tiny

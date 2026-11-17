@@ -1,0 +1,12 @@
+name	gst-plugins-bad-dbg
+version	1.28.3-r0
+description	GStreamer streaming media framework bad plug-ins (debug symbols)
+url	https://gstreamer.freedesktop.org/
+license	GPL-2.0-or-later LGPL-2.0-or-later
+size	21695414
+installed-size	50880304
+depends	!gst-plugins-bad<1.28.3-r0 !gst-plugins-bad>1.28.3-r0
+origin	gst-plugins-bad
+repo	community
+file	gst-plugins-bad-dbg-1.28.3-r0.apk
+checksum	Q1z20tHKI87I143GeI34F3ozYTCWE=

@@ -1,0 +1,19 @@
+name	fcitx5-rime
+version	5.1.13-r0
+description	librime input method support for fcitx5
+url	https://github.com/fcitx/fcitx5-rime
+license	GPL-3.0-or-later
+size	79199
+installed-size	175261
+depends	so:libFcitx5Config.so.6 so:libFcitx5Core.so.7 so:libFcitx5Utils.so.2 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:librime.so.1 so:libstdc++.so.6
+origin	fcitx5-rime
+repo	community
+file	fcitx5-rime-5.1.13-r0.apk
+checksum	Q1b4q5Oa58JKvCiTLH033Vyx2bLKc=
+dep	so:libFcitx5Config.so.6	fcitx5
+dep	so:libFcitx5Core.so.7	fcitx5
+dep	so:libFcitx5Utils.so.2	fcitx5
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:librime.so.1	librime
+dep	so:libstdc++.so.6	libstdc++

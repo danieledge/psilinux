@@ -1,0 +1,19 @@
+name	open-iscsi
+version	2.1.12-r0
+description	High performance, transport independent, multi-platform iSCSI initiator
+url	https://www.open-iscsi.com
+license	GPL-2.0-only
+size	429153
+installed-size	957073
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libisns.so.0 so:libkmod.so.2 so:libmount.so.1 so:libopeniscsiusr.so.0
+origin	open-iscsi
+repo	main
+file	open-iscsi-2.1.12-r0.apk
+checksum	Q1X9BLpoPRLqTVcbQ2R9q2rZAs+7s=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libisns.so.0	open-isns-lib
+dep	so:libkmod.so.2	kmod-libs
+dep	so:libmount.so.1	libmount
+dep	so:libopeniscsiusr.so.0	open-iscsi-libs

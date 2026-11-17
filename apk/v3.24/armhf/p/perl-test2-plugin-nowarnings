@@ -1,0 +1,14 @@
+name	perl-test2-plugin-nowarnings
+version	0.10-r1
+description	Fail tests if warnings are generated
+url	https://metacpan.org/release/Test2-Plugin-NoWarnings/
+license	Artistic-2.0
+size	3886
+installed-size	5100
+depends	perl perl-test-simple
+origin	perl-test2-plugin-nowarnings
+repo	main
+file	perl-test2-plugin-nowarnings-0.10-r1.apk
+checksum	Q1nBS7zLEWkrRSwLNuA0YB2CXszd4=
+dep	perl	perl
+dep	perl-test-simple	perl-test-simple

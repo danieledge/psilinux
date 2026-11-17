@@ -1,0 +1,14 @@
+name	minijinja-cli
+version	2.21.0-r0
+description	CLI using MiniJinja to render Jinja2 templates from the command line to stdout
+url	https://docs.rs/minijinja/latest/minijinja/
+license	Apache-2.0
+size	1547061
+installed-size	4453176
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	minijinja-cli
+repo	community
+file	minijinja-cli-2.21.0-r0.apk
+checksum	Q1zj2hYytzDfYxh/isgjRZjV+LJb4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

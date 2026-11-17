@@ -1,0 +1,14 @@
+name	ruby-kramdown-parser-gfm
+version	1.1.0-r5
+description	A kramdown parser for the GFM dialect of Markdown
+url	https://github.com/kramdown/parser-gfm
+license	MIT
+size	5872
+installed-size	10321
+depends	ruby ruby-kramdown~2
+origin	ruby-kramdown-parser-gfm
+repo	community
+file	ruby-kramdown-parser-gfm-1.1.0-r5.apk
+checksum	Q1WtdRhje0Y2ERfRBfrirVgdq5Kv8=
+dep	ruby	ruby
+dep	ruby-kramdown~2	ruby-kramdown

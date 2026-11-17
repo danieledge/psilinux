@@ -1,0 +1,17 @@
+name	glog
+version	0.7.1-r3
+description	C++ implementation of the Google logging module
+url	https://github.com/google/glog
+license	BSD-3-Clause
+size	84813
+installed-size	204877
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgflags.so.2.3 so:libstdc++.so.6 so:libunwind.so.8
+origin	glog
+repo	community
+file	glog-0.7.1-r3.apk
+checksum	Q1LosFUVMGC0OQtoQuk2xesNYXGvQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgflags.so.2.3	gflags
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libunwind.so.8	libunwind

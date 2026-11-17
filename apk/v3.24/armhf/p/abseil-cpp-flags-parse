@@ -1,0 +1,26 @@
+name	abseil-cpp-flags-parse
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-flags-parse
+url	https://abseil.io/
+license	Apache-2.0
+size	23440
+installed-size	55036
+depends	so:libabsl_flags_config.so.2508.0.0 so:libabsl_flags_internal.so.2508.0.0 so:libabsl_flags_marshalling.so.2508.0.0 so:libabsl_flags_private_handle_accessor.so.2508.0.0 so:libabsl_flags_program_name.so.2508.0.0 so:libabsl_flags_reflection.so.2508.0.0 so:libabsl_flags_usage.so.2508.0.0 so:libabsl_flags_usage_internal.so.2508.0.0 so:libabsl_raw_logging_internal.so.2508.0.0 so:libabsl_strings.so.2508.0.0 so:libabsl_synchronization.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-flags-parse-20250814.1-r0.apk
+checksum	Q1T23S0/N+k6LNyBYVTiLnPHQ+uOU=
+dep	so:libabsl_flags_config.so.2508.0.0	abseil-cpp-flags-config
+dep	so:libabsl_flags_internal.so.2508.0.0	abseil-cpp-flags-internal
+dep	so:libabsl_flags_marshalling.so.2508.0.0	abseil-cpp-flags-marshalling
+dep	so:libabsl_flags_private_handle_accessor.so.2508.0.0	abseil-cpp-flags-private-handle-accessor
+dep	so:libabsl_flags_program_name.so.2508.0.0	abseil-cpp-flags-program-name
+dep	so:libabsl_flags_reflection.so.2508.0.0	abseil-cpp-flags-reflection
+dep	so:libabsl_flags_usage.so.2508.0.0	abseil-cpp-flags-usage
+dep	so:libabsl_flags_usage_internal.so.2508.0.0	abseil-cpp-flags-usage-internal
+dep	so:libabsl_raw_logging_internal.so.2508.0.0	abseil-cpp-raw-logging-internal
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libabsl_synchronization.so.2508.0.0	abseil-cpp-synchronization
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

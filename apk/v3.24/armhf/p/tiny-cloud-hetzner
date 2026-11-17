@@ -1,0 +1,14 @@
+name	tiny-cloud-hetzner
+version	3.4.2-r0
+description	Tiny Cloud - Hetzner Cloud module
+url	https://gitlab.alpinelinux.org/alpine/cloud/tiny-cloud
+license	MIT
+size	1414
+installed-size	1
+depends	tiny-cloud=3.4.2-r0 /bin/sh
+origin	tiny-cloud
+repo	main
+file	tiny-cloud-hetzner-3.4.2-r0.apk
+checksum	Q1Emxi1QqG7RxDbyTnWOC0LTW9304=
+dep	tiny-cloud=3.4.2-r0	tiny-cloud
+dep	/bin/sh	busybox-binsh

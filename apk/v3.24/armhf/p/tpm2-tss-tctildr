@@ -1,0 +1,13 @@
+name	tpm2-tss-tctildr
+version	4.1.2-r0
+description	TPM 2.0 TCTI loader libraries
+url	https://github.com/tpm2-software/tpm2-tss/
+license	BSD-2-Clause
+size	11647
+installed-size	25888
+depends	so:libc.musl-armhf.so.1
+origin	tpm2-tss
+repo	community
+file	tpm2-tss-tctildr-4.1.2-r0.apk
+checksum	Q1soaoqyIVo4165jmMAphEMYdqCS8=
+dep	so:libc.musl-armhf.so.1	musl

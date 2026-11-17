@@ -1,0 +1,13 @@
+name	setserial
+version	2.17-r4
+description	tool for change various attributes of a serial device
+url	https://setserial.sourceforge.net/
+license	GPL-2.0-only
+size	8780
+installed-size	18444
+depends	so:libc.musl-armhf.so.1
+origin	setserial
+repo	community
+file	setserial-2.17-r4.apk
+checksum	Q1jNAZrfmHBlf4pDaFswYk4pq+4E8=
+dep	so:libc.musl-armhf.so.1	musl

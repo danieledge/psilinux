@@ -1,0 +1,13 @@
+name	aws-c-common-dev
+version	0.12.6-r1
+description	Core c99 package for AWS SDK for C including cross-platform primitives, configuration, data structures, and error handling (development files)
+url	https://github.com/awslabs/aws-c-common
+license	Apache-2.0
+size	142869
+installed-size	729538
+depends	aws-c-common=0.12.6-r1
+origin	aws-c-common
+repo	community
+file	aws-c-common-dev-0.12.6-r1.apk
+checksum	Q1XOhlGeAtDJfLy7NYpQJHZyTyRoY=
+dep	aws-c-common=0.12.6-r1	aws-c-common

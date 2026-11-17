@@ -1,0 +1,18 @@
+name	zmap
+version	4.3.4-r0
+description	High performance internet scanner
+url	https://www.zmap.io/
+license	Apache-2.0
+size	126768
+installed-size	281561
+depends	so:libJudy.so.1 so:libc.musl-armhf.so.1 so:libgmp.so.10 so:libjson-c.so.5 so:libpcap.so.1 so:libunistring.so.5
+origin	zmap
+repo	main
+file	zmap-4.3.4-r0.apk
+checksum	Q1ubwynbr7cMMG/NJg5J03nsvtdcI=
+dep	so:libJudy.so.1	judy
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgmp.so.10	gmp
+dep	so:libjson-c.so.5	json-c
+dep	so:libpcap.so.1	libpcap
+dep	so:libunistring.so.5	libunistring

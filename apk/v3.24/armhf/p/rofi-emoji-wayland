@@ -1,0 +1,13 @@
+name	rofi-emoji-wayland
+version	4.1.0-r0
+description	Emoji selector plugin for Rofi - dependencies for clipboard adapter on Wayland
+url	https://github.com/Mange/rofi-emoji
+license	MIT
+size	1322
+installed-size	0
+depends	cmd:wl-copy
+origin	rofi-emoji
+repo	community
+file	rofi-emoji-wayland-4.1.0-r0.apk
+checksum	Q1vn2x1gzHm0oPCm9AVfi1F3E920k=
+dep	cmd:wl-copy	wl-clipboard

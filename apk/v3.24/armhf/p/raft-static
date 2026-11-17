@@ -1,0 +1,13 @@
+name	raft-static
+version	0.18.1-r0
+description	C implementation of the Raft consensus protocol (static library)
+url	https://github.com/canonical/raft
+license	LGPL-3.0-only WITH LGPL-3.0-linking-exception
+size	675555
+installed-size	1613672
+depends	raft-dev
+origin	raft
+repo	community
+file	raft-static-0.18.1-r0.apk
+checksum	Q1697rPYEgTu4QYYQPy2v4PXBtyIk=
+dep	raft-dev	raft-dev

@@ -1,0 +1,14 @@
+name	py3-invoke
+version	2.2.1-r1
+description	Pythonic task execution
+url	https://www.pyinvoke.org/
+license	BSD-2-Clause
+size	148262
+installed-size	565932
+depends	py3-yaml python3~3.14
+origin	py3-invoke
+repo	community
+file	py3-invoke-2.2.1-r1.apk
+checksum	Q1Hjo5kVk3Xqf8SZufidQxejf8aSo=
+dep	py3-yaml	py3-yaml
+dep	python3~3.14	python3

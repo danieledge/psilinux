@@ -1,0 +1,14 @@
+name	deutex
+version	5.2.3-r0
+description	WAD composer for Doom, Heretic, Hexen, and Strife
+url	https://github.com/Doom-Utils/deutex
+license	GPL-2.0-or-later
+size	72584
+installed-size	143036
+depends	so:libc.musl-armhf.so.1 so:libpng16.so.16
+origin	deutex
+repo	community
+file	deutex-5.2.3-r0.apk
+checksum	Q1DzGuyW4mVPB5QwsAXhd9Y7XXHGU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpng16.so.16	libpng

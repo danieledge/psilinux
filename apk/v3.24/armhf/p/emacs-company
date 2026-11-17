@@ -1,0 +1,13 @@
+name	emacs-company
+version	1.0.2-r1
+description	Modular in-buffer completion framework
+url	https://github.com/company-mode/company-mode
+license	GPL-3.0-or-later
+size	163178
+installed-size	660027
+depends	cmd:emacs
+origin	emacs-company
+repo	community
+file	emacs-company-1.0.2-r1.apk
+checksum	Q1jqFDthBxvTgqUXKy1twKzzla7qA=
+dep	cmd:emacs	emacs-gtk3

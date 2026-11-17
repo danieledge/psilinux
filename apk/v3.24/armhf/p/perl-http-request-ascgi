@@ -1,0 +1,16 @@
+name	perl-http-request-ascgi
+version	1.2-r1
+description	Set up a CGI environment from an HTTP::Request
+url	https://metacpan.org/release/HTTP-Request-AsCGI/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	5511
+installed-size	10358
+depends	perl perl-class-accessor perl-http-message perl-uri
+origin	perl-http-request-ascgi
+repo	community
+file	perl-http-request-ascgi-1.2-r1.apk
+checksum	Q1LHKdrHuFB5Qha7QlRjdjAHzGlgw=
+dep	perl	perl
+dep	perl-class-accessor	perl-class-accessor
+dep	perl-http-message	perl-http-message
+dep	perl-uri	perl-uri

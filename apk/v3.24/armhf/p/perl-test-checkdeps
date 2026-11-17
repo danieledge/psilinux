@@ -1,0 +1,14 @@
+name	perl-test-checkdeps
+version	0.010-r1
+description	Check for presence of dependencies
+url	https://metacpan.org/release/Test-CheckDeps/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	3283
+installed-size	3830
+depends	perl perl-cpan-meta-check
+origin	perl-test-checkdeps
+repo	community
+file	perl-test-checkdeps-0.010-r1.apk
+checksum	Q1e8mSEEm6nGm3NaM7SmeB323OM2c=
+dep	perl	perl
+dep	perl-cpan-meta-check	perl-cpan-meta-check

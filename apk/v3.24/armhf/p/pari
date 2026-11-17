@@ -1,0 +1,16 @@
+name	pari
+version	2.17.3-r1
+description	Computer algebra system designed for fast computations in number theory
+url	https://pari.math.u-bordeaux.fr/
+license	GPL-2.0-or-later
+size	598899
+installed-size	1974819
+depends	pari-libs=2.17.3-r1 so:libc.musl-armhf.so.1 so:libpari-gmp-tls.so.9 so:libreadline.so.8
+origin	pari
+repo	community
+file	pari-2.17.3-r1.apk
+checksum	Q1fKKt5HgBDCN9/8Tu5vWP2FLK314=
+dep	pari-libs=2.17.3-r1	pari-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpari-gmp-tls.so.9	pari-libs
+dep	so:libreadline.so.8	readline

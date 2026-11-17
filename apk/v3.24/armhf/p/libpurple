@@ -1,0 +1,24 @@
+name	libpurple
+version	2.14.14-r0
+description	multi-protocol instant messaging library
+url	https://pidgin.im/
+license	GPL-2.0-or-later
+size	1112857
+installed-size	2139122
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libidn.so.12 so:libintl.so.8 so:libnspr4.so so:libnss3.so so:libsasl2.so.3 so:libsmime3.so so:libssl3.so so:libxml2.so.2
+origin	pidgin
+repo	community
+file	libpurple-2.14.14-r0.apk
+checksum	Q1/c6Fp2s260bOd1nfbbQHHhQCZxM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libidn.so.12	libidn
+dep	so:libintl.so.8	libintl
+dep	so:libnspr4.so	nspr
+dep	so:libnss3.so	nss
+dep	so:libsasl2.so.3	libsasl
+dep	so:libsmime3.so	nss
+dep	so:libssl3.so	nss
+dep	so:libxml2.so.2	libxml2

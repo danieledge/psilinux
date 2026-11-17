@@ -1,0 +1,14 @@
+name	lirc-python
+version	0.10.2-r4
+description	Python3 bindings for lirc
+url	https://lirc.org/
+license	GPL-2.0-only
+size	62940
+installed-size	339381
+depends	lirc=0.10.2-r4 python3~3.14
+origin	lirc
+repo	community
+file	lirc-python-0.10.2-r4.apk
+checksum	Q1K0doyR9QfQYFtwOYPSVp2SOsPR4=
+dep	lirc=0.10.2-r4	lirc
+dep	python3~3.14	python3

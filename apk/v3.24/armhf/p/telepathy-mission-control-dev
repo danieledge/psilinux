@@ -1,0 +1,19 @@
+name	telepathy-mission-control-dev
+version	5.16.6-r3
+description	An account manager and channel dispatcher for the Telepathy framework (development files)
+url	https://telepathy.freedesktop.org
+license	LGPL-2.1-or-later
+size	24869
+installed-size	99753
+depends	dbus-dev dbus-glib-dev glib-dev networkmanager-dev telepathy-mission-control=5.16.6-r3 pc:telepathy-glib pkgconfig
+origin	telepathy-mission-control
+repo	community
+file	telepathy-mission-control-dev-5.16.6-r3.apk
+checksum	Q1IL0XLX3HupvwIHySUJtD3WyaYSU=
+dep	dbus-dev	dbus-dev
+dep	dbus-glib-dev	dbus-glib-dev
+dep	glib-dev	glib-dev
+dep	networkmanager-dev	networkmanager-dev
+dep	telepathy-mission-control=5.16.6-r3	telepathy-mission-control
+dep	pc:telepathy-glib	telepathy-glib-dev
+dep	pkgconfig	pkgconf

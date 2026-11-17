@@ -1,0 +1,15 @@
+name	sdl2_image-dev
+version	2.8.12-r0
+description	A simple library to load images of various formats as SDL surfaces (development files)
+url	https://github.com/libsdl-org/SDL_image
+license	Zlib
+size	13854
+installed-size	84527
+depends	sdl2_image=2.8.12-r0 pc:sdl2>=2.0.9 pkgconfig
+origin	sdl2_image
+repo	community
+file	sdl2_image-dev-2.8.12-r0.apk
+checksum	Q1DIeF0BHvj0Lb7BuFXzOg+4BSsg4=
+dep	sdl2_image=2.8.12-r0	sdl2_image
+dep	pc:sdl2>=2.0.9	sdl2-compat-dev
+dep	pkgconfig	pkgconf

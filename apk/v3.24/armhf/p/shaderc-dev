@@ -1,0 +1,14 @@
+name	shaderc-dev
+version	2026.1-r0
+description	Collection of tools, libraries, and tests for Vulkan shader compilation (development files)
+url	https://github.com/google/shaderc
+license	Apache-2.0
+size	14593
+installed-size	64250
+depends	shaderc=2026.1-r0 pkgconfig
+origin	shaderc
+repo	community
+file	shaderc-dev-2026.1-r0.apk
+checksum	Q12Xfl9B43ldAVmUQZuTSMZqGXBZk=
+dep	shaderc=2026.1-r0	shaderc
+dep	pkgconfig	pkgconf

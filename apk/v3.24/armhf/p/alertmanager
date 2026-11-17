@@ -1,0 +1,15 @@
+name	alertmanager
+version	0.32.1-r3
+description	Prometheus Alertmanager
+url	https://github.com/prometheus/alertmanager
+license	Apache-2.0
+size	17450200
+installed-size	48303007
+depends	tzdata /bin/sh so:libc.musl-armhf.so.1
+origin	alertmanager
+repo	community
+file	alertmanager-0.32.1-r3.apk
+checksum	Q1U4kGQmM7nyDuFgAFnySE9bU4jnc=
+dep	tzdata	tzdata
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

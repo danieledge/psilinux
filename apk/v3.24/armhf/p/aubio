@@ -1,0 +1,20 @@
+name	aubio
+version	0.4.9-r6
+description	tool designed for the extraction of annotations from audio signals
+url	https://aubio.org
+license	GPL-3.0-or-later
+size	86353
+installed-size	247676
+depends	so:libavcodec.so.61 so:libavformat.so.61 so:libavutil.so.59 so:libc.musl-armhf.so.1 so:libjack.so.0 so:libsamplerate.so.0 so:libsndfile.so.1 so:libswresample.so.5
+origin	aubio
+repo	community
+file	aubio-0.4.9-r6.apk
+checksum	Q1+V+5C+nDAi6rpahEDBd5TaBCubs=
+dep	so:libavcodec.so.61	ffmpeg7-libavcodec
+dep	so:libavformat.so.61	ffmpeg7-libavformat
+dep	so:libavutil.so.59	ffmpeg7-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjack.so.0	jack
+dep	so:libsamplerate.so.0	libsamplerate
+dep	so:libsndfile.so.1	libsndfile
+dep	so:libswresample.so.5	ffmpeg7-libswresample

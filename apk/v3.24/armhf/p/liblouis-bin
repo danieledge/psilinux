@@ -1,0 +1,19 @@
+name	liblouis-bin
+version	3.38.0-r0
+description	Braille translator and back-translator (tools)
+url	https://liblouis.io/
+license	GPL-3.0-or-later
+size	47885
+installed-size	164444
+depends	bash make perl py3-liblouis cmd:patgen so:libc.musl-armhf.so.1 so:liblouis.so.20
+origin	liblouis
+repo	community
+file	liblouis-bin-3.38.0-r0.apk
+checksum	Q1Pwpb7hb0Ud4RTBCPSxl8+I0zbjE=
+dep	bash	bash
+dep	make	make
+dep	perl	perl
+dep	py3-liblouis	py3-liblouis
+dep	cmd:patgen	texlive
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblouis.so.20	liblouis

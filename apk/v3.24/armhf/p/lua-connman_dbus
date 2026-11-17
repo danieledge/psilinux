@@ -1,0 +1,14 @@
+name	lua-connman_dbus
+version	0.5.0-r1
+description	Get network information with Connman over DBus
+url	https://github.com/stefano-m/lua-connman_dbus
+license	Apache-2.0
+size	1287
+installed-size	0
+depends	connman lua-dbus_proxy
+origin	lua-connman_dbus
+repo	community
+file	lua-connman_dbus-0.5.0-r1.apk
+checksum	Q1ExReAWv/WMglj49LRT1vGveUKmQ=
+dep	connman	connman
+dep	lua-dbus_proxy	lua-dbus_proxy

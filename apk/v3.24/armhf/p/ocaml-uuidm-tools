@@ -1,0 +1,13 @@
+name	ocaml-uuidm-tools
+version	0.9.8-r5
+description	Universally unique identifiers (UUIDs) for OCaml (command line utilities)
+url	https://erratique.ch/software/uuidm
+license	ISC
+size	451422
+installed-size	972836
+depends	so:libc.musl-armhf.so.1
+origin	ocaml-uuidm
+repo	community
+file	ocaml-uuidm-tools-0.9.8-r5.apk
+checksum	Q1TekQhSO3mUPWMZEv+PDq6sBO7i8=
+dep	so:libc.musl-armhf.so.1	musl

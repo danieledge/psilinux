@@ -1,0 +1,15 @@
+name	ocaml-dns-tools
+version	6.2.2-r5
+description	Opinionated Domain Name System (DNS) library (command line utilities)
+url	https://github.com/mirage/ocaml-dns
+license	BSD-2-Clause
+size	11066051
+installed-size	23639308
+depends	so:libc.musl-armhf.so.1 so:libev.so.4 so:libgmp.so.10
+origin	ocaml-dns
+repo	community
+file	ocaml-dns-tools-6.2.2-r5.apk
+checksum	Q1L3Nwokr/UjgEYw/FSe2zt0w8Xjk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libev.so.4	libev
+dep	so:libgmp.so.10	gmp

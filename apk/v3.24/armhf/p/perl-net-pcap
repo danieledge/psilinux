@@ -1,0 +1,15 @@
+name	perl-net-pcap
+version	0.21-r3
+description	Interface to the pcap(3) LBL packet capture library
+url	https://metacpan.org/release/Net-Pcap/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	38282
+installed-size	104958
+depends	perl so:libc.musl-armhf.so.1 so:libpcap.so.1
+origin	perl-net-pcap
+repo	community
+file	perl-net-pcap-0.21-r3.apk
+checksum	Q1Ewp9xbX/FK1Unm0tbqSK0ZZKQ4k=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcap.so.1	libpcap

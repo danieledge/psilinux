@@ -1,0 +1,13 @@
+name	open-plc-utils
+version	0_git20250712-r1
+description	Qualcomm Atheros Open Powerline Toolkit
+url	https://github.com/qca/open-plc-utils
+license	BSD-3-Clause-Clear
+size	1178796
+installed-size	3652408
+depends	so:libc.musl-armhf.so.1
+origin	open-plc-utils
+repo	community
+file	open-plc-utils-0_git20250712-r1.apk
+checksum	Q1UYGw4wIj8rUsz8tWMQhDHOYOE6g=
+dep	so:libc.musl-armhf.so.1	musl

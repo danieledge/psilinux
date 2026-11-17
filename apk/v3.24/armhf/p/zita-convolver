@@ -1,0 +1,16 @@
+name	zita-convolver
+version	4.0.3-r1
+description	fast, partitioned convolution engine library
+url	https://kokkinizita.linuxaudio.org/linuxaudio
+license	GPL-3.0-only
+size	13521
+installed-size	25992
+depends	so:libc.musl-armhf.so.1 so:libfftw3f.so.3 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	zita-convolver
+repo	community
+file	zita-convolver-4.0.3-r1.apk
+checksum	Q1z/H/0cDtshDR1xkHpygJ8sm7/W0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfftw3f.so.3	fftw-single-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,14 @@
+name	uutils-coreutils-uptime
+version	0.11.0-r1
+description	Rust rewrite of the GNU coreutils - cmd:uptime
+url	https://uutils.github.io/coreutils/
+license	MIT
+size	1550
+installed-size	1
+depends	uutils uutils=0.11.0-r1
+origin	uutils
+repo	community
+file	uutils-coreutils-uptime-0.11.0-r1.apk
+checksum	Q1tLRMXDcZghQE4kWjZ45hoNGyKlM=
+dep	uutils	uutils
+dep	uutils=0.11.0-r1	uutils

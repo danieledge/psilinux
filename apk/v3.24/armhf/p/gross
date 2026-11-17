@@ -1,0 +1,15 @@
+name	gross
+version	1.0.4-r1
+description	Greylisting of suspicious sources
+url	https://codeberg.org/bizdelnick/gross
+license	BSD-3-Clause
+size	53354
+installed-size	117319
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcares.so.2
+origin	gross
+repo	main
+file	gross-1.0.4-r1.apk
+checksum	Q1txmZ/UsViDkfbBWLP95PF5KAEW8=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcares.so.2	c-ares

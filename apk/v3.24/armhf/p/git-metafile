@@ -1,0 +1,15 @@
+name	git-metafile
+version	0.2.3-r2
+description	Store and restore files metadata in a git repository
+url	https://github.com/jirutka/git-metafile
+license	MIT
+size	223857
+installed-size	425808
+depends	git so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	git-metafile
+repo	community
+file	git-metafile-0.2.3-r2.apk
+checksum	Q13bNrsDhTQsSgnl4DUDjrECLktrA=
+dep	git	git
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

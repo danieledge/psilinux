@@ -1,0 +1,14 @@
+name	postgresql-hypopg
+version	1.4.2-r0
+description	An extension adding hypothetical indexes in PostgreSQL
+url	https://github.com/HypoPG/hypopg
+license	PostgreSQL
+size	61628
+installed-size	120575
+depends	postgresql18 so:libc.musl-armhf.so.1
+origin	postgresql-hypopg
+repo	community
+file	postgresql-hypopg-1.4.2-r0.apk
+checksum	Q1pOyowZ5FlWJ6zO2HOfcDPHVjlrA=
+dep	postgresql18	postgresql18
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,51 @@
+name	samba-libs-py3
+version	4.23.8-r0
+description	Libraries that require libpython
+url	https://www.samba.org/
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	100641
+installed-size	287764
+depends	samba-client-libs=4.23.8-r0 samba-libs=4.23.8-r0 samba-util-libs=4.23.8-r0 ldb=4.23.8-r0 py3-ldb=4.23.8-r0 so:libMESSAGING-private-samba.so so:libc.musl-armhf.so.1 so:libcli-cldap-private-samba.so so:libcli-ldap-private-samba.so so:libcliauth-private-samba.so so:libdcerpc-binding.so.0 so:libdcerpc-samba-private-samba.so so:libdcerpc.so.0 so:libevents-private-samba.so so:libgenrand-private-samba.so so:libgnutls.so.30 so:libgse-private-samba.so so:libldb.so.2 so:libldbsamba-private-samba.so so:libndr-samba-private-samba.so so:libndr-standard.so.0 so:libndr.so.6 so:libpyldb-util.cpython-314-arm-linux-musleabihf-private-samba.so so:libpytalloc-util.cpython-314-arm-linux-musleabihf.so.2 so:libpython3.14.so.1.0 so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-security-private-samba.so so:libsamba-sockets-private-samba.so so:libsamba-util.so.0 so:libsamdb-common-private-samba.so so:libsamdb.so.0 so:libserver-role-private-samba.so so:libtalloc.so.2 so:libtevent-util.so.0 so:libtevent.so.0
+origin	samba
+repo	main
+file	samba-libs-py3-4.23.8-r0.apk
+checksum	Q1AkmuTvGqaQ0kl4f+yM6TxVobacw=
+dep	samba-client-libs=4.23.8-r0	samba-client-libs
+dep	samba-libs=4.23.8-r0	samba-libs
+dep	samba-util-libs=4.23.8-r0	samba-util-libs
+dep	ldb=4.23.8-r0	ldb
+dep	py3-ldb=4.23.8-r0	py3-ldb
+dep	so:libMESSAGING-private-samba.so	samba-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcli-cldap-private-samba.so	samba-libs
+dep	so:libcli-ldap-private-samba.so	samba-client-libs
+dep	so:libcliauth-private-samba.so	samba-libs
+dep	so:libdcerpc-binding.so.0	samba-libs
+dep	so:libdcerpc-samba-private-samba.so	samba-libs
+dep	so:libdcerpc.so.0	samba-client-libs
+dep	so:libevents-private-samba.so	samba-libs
+dep	so:libgenrand-private-samba.so	samba-util-libs
+dep	so:libgnutls.so.30	gnutls
+dep	so:libgse-private-samba.so	samba-libs
+dep	so:libldb.so.2	ldb
+dep	so:libldbsamba-private-samba.so	samba-libs
+dep	so:libndr-samba-private-samba.so	samba-libs
+dep	so:libndr-standard.so.0	samba-libs
+dep	so:libndr.so.6	samba-libs
+dep	so:libpyldb-util.cpython-314-arm-linux-musleabihf-private-samba.so	py3-ldb
+dep	so:libpytalloc-util.cpython-314-arm-linux-musleabihf.so.2	py3-talloc
+dep	so:libpython3.14.so.1.0	python3
+dep	so:libreplace-private-samba.so	samba-util-libs
+dep	so:libsamba-credentials.so.1	samba-libs
+dep	so:libsamba-debug-private-samba.so	samba-util-libs
+dep	so:libsamba-errors.so.1	samba-libs
+dep	so:libsamba-hostconfig.so.0	samba-libs
+dep	so:libsamba-security-private-samba.so	samba-libs
+dep	so:libsamba-sockets-private-samba.so	samba-libs
+dep	so:libsamba-util.so.0	samba-util-libs
+dep	so:libsamdb-common-private-samba.so	samba-libs
+dep	so:libsamdb.so.0	samba-libs
+dep	so:libserver-role-private-samba.so	samba-libs
+dep	so:libtalloc.so.2	talloc
+dep	so:libtevent-util.so.0	samba-libs
+dep	so:libtevent.so.0	tevent

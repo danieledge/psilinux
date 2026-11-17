@@ -1,0 +1,22 @@
+name	polkit-elogind
+version	127-r2
+description	Polkit with elogind session tracking
+url	https://github.com/polkit-org/polkit
+license	GPL-2.0-or-later
+size	44854
+installed-size	103980
+depends	polkit-elogind-libs=127-r2 polkit-common=127-r2 so:libc.musl-armhf.so.1 so:libduktape.so.207 so:libelogind.so.0 so:libexpat.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libpolkit-gobject-1.so.0
+origin	polkit
+repo	community
+file	polkit-elogind-127-r2.apk
+checksum	Q1mJKeF+lGWVWlZ5zYlnGJYS7NSqs=
+dep	polkit-elogind-libs=127-r2	polkit-elogind-libs
+dep	polkit-common=127-r2	polkit-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libduktape.so.207	duktape-libs
+dep	so:libelogind.so.0	libelogind
+dep	so:libexpat.so.1	libexpat
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpolkit-gobject-1.so.0	polkit-noelogind-libs

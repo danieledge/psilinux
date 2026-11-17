@@ -1,0 +1,18 @@
+name	perl-http-entity-parser
+version	0.25-r3
+description	PSGI compliant HTTP Entity Parser
+url	https://metacpan.org/release/HTTP-Entity-Parser/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6694
+installed-size	16261
+depends	perl perl-hash-multivalue perl-http-multipartparser perl-json-maybexs perl-stream-buffered perl-www-form-urlencoded
+origin	perl-http-entity-parser
+repo	community
+file	perl-http-entity-parser-0.25-r3.apk
+checksum	Q16adoiKMXm0sPs6/T1wAuIFHz6FM=
+dep	perl	perl
+dep	perl-hash-multivalue	perl-hash-multivalue
+dep	perl-http-multipartparser	perl-http-multipartparser
+dep	perl-json-maybexs	perl-json-maybexs
+dep	perl-stream-buffered	perl-stream-buffered
+dep	perl-www-form-urlencoded	perl-www-form-urlencoded

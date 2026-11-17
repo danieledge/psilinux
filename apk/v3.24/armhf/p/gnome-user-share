@@ -1,0 +1,22 @@
+name	gnome-user-share
+version	48.3-r0
+description	Easy to use user-level file sharing for GNOME
+url	https://gitlab.gnome.org/GNOME/gnome-user-share
+license	GPL-2.0-or-later
+size	309922
+installed-size	731366
+depends	apache2 apache2-webdav mod_dnssd so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libselinux.so.1
+origin	gnome-user-share
+repo	community
+file	gnome-user-share-48.3-r0.apk
+checksum	Q1pkFfv4WtNMZfNA5Z/pMWhXk9P4I=
+dep	apache2	apache2
+dep	apache2-webdav	apache2-webdav
+dep	mod_dnssd	mod_dnssd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libselinux.so.1	libselinux

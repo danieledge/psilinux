@@ -1,0 +1,15 @@
+name	py3-starlette
+version	1.1.0-r0
+description	Lightweight ASGI framework/toolkit, which is ideal for building async web services in Python
+url	https://github.com/encode/starlette
+license	MIT
+size	62349
+installed-size	253654
+depends	py3-anyio py3-typing-extensions python3~3.14
+origin	py3-starlette
+repo	community
+file	py3-starlette-1.1.0-r0.apk
+checksum	Q1MA8w1DjvO7F1o9CvIUG+fYR/RyQ=
+dep	py3-anyio	py3-anyio
+dep	py3-typing-extensions	py3-typing-extensions
+dep	python3~3.14	python3

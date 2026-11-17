@@ -1,0 +1,15 @@
+name	libixion
+version	0.20.0-r0
+description	A general purpose formula parser & interpreter
+url	https://gitlab.com/ixion/ixion
+license	MPL-2.0
+size	352404
+installed-size	857496
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libixion
+repo	community
+file	libixion-0.20.0-r0.apk
+checksum	Q1JeTiee+Fg3BaxBe9RfZGM3BTFT8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

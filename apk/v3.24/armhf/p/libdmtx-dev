@@ -1,0 +1,14 @@
+name	libdmtx-dev
+version	0.7.8-r0
+description	A software for reading and writing Data Matrix 2D barcodes (development files)
+url	https://github.com/dmtx
+license	BSD-2-Clause
+size	7665
+installed-size	23446
+depends	libdmtx-libs=0.7.8-r0 pkgconfig
+origin	libdmtx
+repo	community
+file	libdmtx-dev-0.7.8-r0.apk
+checksum	Q18bVppA0azq5Vkk311L1YXm++z44=
+dep	libdmtx-libs=0.7.8-r0	libdmtx-libs
+dep	pkgconfig	pkgconf

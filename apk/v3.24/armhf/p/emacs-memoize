@@ -1,0 +1,13 @@
+name	emacs-memoize
+version	1.1_git20200103-r1
+description	Elisp memoization functions
+url	https://github.com/skeeto/emacs-memoize
+license	Unlicense
+size	5562
+installed-size	12763
+depends	cmd:emacs
+origin	emacs-memoize
+repo	community
+file	emacs-memoize-1.1_git20200103-r1.apk
+checksum	Q1ZlObJYQ/2hsgT2AUATkrd58/RXM=
+dep	cmd:emacs	emacs-gtk3

@@ -1,0 +1,16 @@
+name	greenbone-feed-sync
+version	25.2.0-r0
+description	New script for syncing the Greenbone Community Feed
+url	https://github.com/greenbone/greenbone-feed-sync
+license	GPL-3.0-or-later
+size	32059
+installed-size	121578
+depends	py3-rich python3 rsync python3~3.14
+origin	greenbone-feed-sync
+repo	community
+file	greenbone-feed-sync-25.2.0-r0.apk
+checksum	Q1meASYodZRNyUfueOp/miugIZJiE=
+dep	py3-rich	py3-rich
+dep	python3	python3
+dep	rsync	rsync
+dep	python3~3.14	python3

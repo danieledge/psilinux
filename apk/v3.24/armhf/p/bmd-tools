@@ -1,0 +1,14 @@
+name	bmd-tools
+version	1.0.2-r5
+description	Tools for Blackmagic USB video encoders
+url	https://github.com/fabled/bmd-tools
+license	MIT
+size	17472
+installed-size	36352
+depends	so:libc.musl-armhf.so.1 so:libusb-1.0.so.0
+origin	bmd-tools
+repo	main
+file	bmd-tools-1.0.2-r5.apk
+checksum	Q1BZHQggzswAFa8s5ouSaVi06Iwr0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb

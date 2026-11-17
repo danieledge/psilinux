@@ -1,0 +1,14 @@
+name	openh264-dev
+version	2.6.0-r0
+description	OpenH264 is a codec library which supports H.264 encoding and decoding (development files)
+url	https://github.com/cisco/openh264
+license	BSD-2-Clause
+size	672745
+installed-size	1841727
+depends	openh264=2.6.0-r0 pkgconfig
+origin	openh264
+repo	community
+file	openh264-dev-2.6.0-r0.apk
+checksum	Q1GlMYXnqwXkQOaYQ9p7u6cK5RcXM=
+dep	openh264=2.6.0-r0	openh264
+dep	pkgconfig	pkgconf

@@ -1,0 +1,13 @@
+name	alpine-make-vm-image
+version	0.13.4-r0
+description	Make customized Alpine Linux disk image for virtual machines
+url	https://github.com/alpinelinux/alpine-make-vm-image
+license	MIT
+size	12415
+installed-size	26912
+depends	qemu-img
+origin	alpine-make-vm-image
+repo	community
+file	alpine-make-vm-image-0.13.4-r0.apk
+checksum	Q1yLa/LsO/kQA4VMQj0O7c7mv1HWI=
+dep	qemu-img	!

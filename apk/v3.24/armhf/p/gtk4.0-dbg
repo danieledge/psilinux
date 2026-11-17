@@ -1,0 +1,12 @@
+name	gtk4.0-dbg
+version	4.22.4-r0
+description	The GTK Toolkit (v4) (debug symbols)
+url	https://www.gtk.org/
+license	LGPL-2.1-or-later
+size	49668756
+installed-size	116555972
+depends	!gtk4.0-demo<4.22.4-r0 !gtk4.0-demo>4.22.4-r0 !gtk4.0-dev<4.22.4-r0 !gtk4.0-dev>4.22.4-r0 !gtk4.0<4.22.4-r0 !gtk4.0>4.22.4-r0
+origin	gtk4.0
+repo	community
+file	gtk4.0-dbg-4.22.4-r0.apk
+checksum	Q1WaGpZQpGY/a3WOF5msF3w7lviSA=

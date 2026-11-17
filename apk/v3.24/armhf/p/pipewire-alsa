@@ -1,0 +1,15 @@
+name	pipewire-alsa
+version	1.6.8-r4
+description	ALSA support for pipewire
+url	https://pipewire.org/
+license	MIT
+size	60470
+installed-size	129488
+depends	so:libasound.so.2 so:libc.musl-armhf.so.1 so:libpipewire-0.3.so.0
+origin	pipewire
+repo	community
+file	pipewire-alsa-1.6.8-r4.apk
+checksum	Q1gs2IOzVvEinkrTsrmBYyTCEofDc=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpipewire-0.3.so.0	pipewire-libs

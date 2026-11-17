@@ -1,0 +1,14 @@
+name	vidstab-dev
+version	1.1.1-r0
+description	Video stabilization library (development files)
+url	http://public.hronopik.de/vid.stab/
+license	GPL-2.0-or-later
+size	16067
+installed-size	61643
+depends	vidstab=1.1.1-r0 pkgconfig
+origin	vidstab
+repo	community
+file	vidstab-dev-1.1.1-r0.apk
+checksum	Q1fmTHgozAuwipO7gJBR9k6Sn1vgI=
+dep	vidstab=1.1.1-r0	vidstab
+dep	pkgconfig	pkgconf

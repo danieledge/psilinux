@@ -1,0 +1,17 @@
+name	cups-libs
+version	2.4.19-r1
+description	CUPS libraries
+url	https://github.com/OpenPrinting/cups/
+license	Apache-2.0
+size	227889
+installed-size	494004
+depends	so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-armhf.so.1 so:libgnutls.so.30 so:libz.so.1
+origin	cups
+repo	main
+file	cups-libs-2.4.19-r1.apk
+checksum	Q15znJGVRJrnOO+yo1jNodCJaGYQE=
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgnutls.so.30	gnutls
+dep	so:libz.so.1	zlib

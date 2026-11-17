@@ -1,0 +1,21 @@
+name	py3-matrix-nio
+version	0.25.2-r3
+description	Python Matrix client library
+url	https://github.com/matrix-nio/matrix-nio
+license	ISC
+size	159462
+installed-size	827890
+depends	py3-aiofiles py3-aiohttp py3-aiohttp-socks py3-h11 py3-h2 py3-jsonschema py3-pycryptodome py3-unpaddedbase64 python3~3.14
+origin	py3-matrix-nio
+repo	community
+file	py3-matrix-nio-0.25.2-r3.apk
+checksum	Q1EMy0nneLK+BB/toj25jMwNyO/v4=
+dep	py3-aiofiles	py3-aiofiles
+dep	py3-aiohttp	py3-aiohttp
+dep	py3-aiohttp-socks	py3-aiohttp-socks
+dep	py3-h11	py3-h11
+dep	py3-h2	py3-h2
+dep	py3-jsonschema	py3-jsonschema
+dep	py3-pycryptodome	py3-pycryptodome
+dep	py3-unpaddedbase64	py3-unpaddedbase64
+dep	python3~3.14	python3

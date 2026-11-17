@@ -1,0 +1,18 @@
+name	guacamole-server-ssh
+version	1.6.0-r3
+description	SSH support for Guacamole daemon
+url	https://guacamole.apache.org/
+license	GPL-3.0-or-later
+size	29983
+installed-size	68212
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcrypto.so.3 so:libguac-terminal.so.2 so:libguac.so.25 so:libssh2.so.1
+origin	guacamole-server
+repo	community
+file	guacamole-server-ssh-1.6.0-r3.apk
+checksum	Q16QypVB6VJhEashBfXm66PdTtzJg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libguac-terminal.so.2	guacamole-server-libs
+dep	so:libguac.so.25	guacamole-server-libs
+dep	so:libssh2.so.1	libssh2

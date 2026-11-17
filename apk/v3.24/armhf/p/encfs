@@ -1,0 +1,20 @@
+name	encfs
+version	1.9.5-r25
+description	EncFS provides an encrypted filesystem in user-space
+url	https://vgough.github.io/encfs/
+license	GPL-3.0-or-later
+size	37209
+installed-size	83949
+depends	encfs-libs=1.9.5-r25 so:libc.musl-armhf.so.1 so:libencfs.so.1.9 so:libfuse.so.2 so:libgcc_s.so.1 so:libintl.so.8 so:libssl.so.3 so:libstdc++.so.6
+origin	encfs
+repo	community
+file	encfs-1.9.5-r25.apk
+checksum	Q1U2SjPRydQTSDabgjM5A57696q54=
+dep	encfs-libs=1.9.5-r25	encfs-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libencfs.so.1.9	encfs-libs
+dep	so:libfuse.so.2	fuse
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libintl.so.8	libintl
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,12 @@
+name	openssh-dbg
+version	10.3_p1-r2
+description	Port of OpenBSD's free SSH release (debug symbols)
+url	https://www.openssh.com/portable.html
+license	SSH-OpenSSH
+size	12214889
+installed-size	27790868
+depends	!openssh-client-common<10.3_p1-r2 !openssh-client-common>10.3_p1-r2 !openssh-client-default<10.3_p1-r2 !openssh-client-default>10.3_p1-r2 !openssh-client-krb5<10.3_p1-r2 !openssh-client-krb5>10.3_p1-r2 !openssh-keygen<10.3_p1-r2 !openssh-keygen>10.3_p1-r2 !openssh-keysign<10.3_p1-r2 !openssh-keysign>10.3_p1-r2 !openssh-server-krb5<10.3_p1-r2 !openssh-server-krb5>10.3_p1-r2 !openssh-server-pam<10.3_p1-r2 !openssh-server-pam>10.3_p1-r2 !openssh-server<10.3_p1-r2 !openssh-server>10.3_p1-r2 !openssh-sftp-server<10.3_p1-r2 !openssh-sftp-server>10.3_p1-r2 !openssh-sk-helper<10.3_p1-r2 !openssh-sk-helper>10.3_p1-r2 !openssh<10.3_p1-r2 !openssh>10.3_p1-r2
+origin	openssh
+repo	main
+file	openssh-dbg-10.3_p1-r2.apk
+checksum	Q1EJg+85b1cUCbUi6qyci597oniqA=

@@ -1,0 +1,14 @@
+name	texlive-pstricks
+version	2026.0-r0
+description	TeX Live PSTricks tools
+url	https://tug.org/texlive/
+license	GPL-2.0-or-later AND GPL-3.0-or-later
+size	1598
+installed-size	1
+depends	texlive texmf-dist-pstricks
+origin	texlive
+repo	community
+file	texlive-pstricks-2026.0-r0.apk
+checksum	Q1FhmeHI95Ptxa5xzesPLfoBRaS7w=
+dep	texlive	texlive
+dep	texmf-dist-pstricks	texmf-dist-pstricks

@@ -1,0 +1,15 @@
+name	openldap-back-passwd
+version	2.6.15-r0
+description	OpenLDAP passwd backend
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	6450
+installed-size	14718
+depends	so:libc.musl-armhf.so.1 so:liblber.so.2 so:libldap.so.2
+origin	openldap
+repo	main
+file	openldap-back-passwd-2.6.15-r0.apk
+checksum	Q1sjlo+ciPfZsVnHCLftb0xyn2YDk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap

@@ -1,0 +1,32 @@
+name	xscreensaver
+version	6.15-r0
+description	Screensavers for X11 environment
+url	https://www.jwz.org/xscreensaver/
+license	GPL-2.0-or-later GPL-3.0-or-later 0BSD MIT
+size	395301
+installed-size	1092422
+depends	bc so:libX11.so.6 so:libXext.so.6 so:libXft.so.2 so:libXi.so.6 so:libXinerama.so.1 so:libXrandr.so.2 so:libXt.so.6 so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libfontconfig.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libwayland-client.so.0 so:libwayland-server.so.0 so:libxml2.so.2
+origin	xscreensaver
+repo	community
+file	xscreensaver-6.15-r0.apk
+checksum	Q1YyaJLC7fdkYhKK9woVy470gNDqU=
+dep	bc	bc
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXft.so.2	libxft
+dep	so:libXi.so.6	libxi
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libXt.so.6	libxt
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-server.so.0	wayland-libs-server
+dep	so:libxml2.so.2	libxml2

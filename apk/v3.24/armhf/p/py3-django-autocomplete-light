@@ -1,0 +1,17 @@
+name	py3-django-autocomplete-light
+version	4.0.1-r0
+description	Fresh autocompletes for Django
+url	https://pypi.python.org/project/django-autocomplete-light
+license	MIT
+size	69654
+installed-size	226693
+depends	py3-django-querysetsequence py3-django-taggit py3-django-extensions py3-django-nested-admin python3~3.14
+origin	py3-django-autocomplete-light
+repo	community
+file	py3-django-autocomplete-light-4.0.1-r0.apk
+checksum	Q1BpwSrbDAx0TVdz4+5/HxY3J9JF4=
+dep	py3-django-querysetsequence	py3-django-querysetsequence
+dep	py3-django-taggit	py3-django-taggit
+dep	py3-django-extensions	py3-django-extensions
+dep	py3-django-nested-admin	py3-django-nested-admin
+dep	python3~3.14	python3

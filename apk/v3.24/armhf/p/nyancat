@@ -1,0 +1,13 @@
+name	nyancat
+version	1.5.2-r1
+description	Nyancat in your terminal, rendered through ANSI escape sequences
+url	https://nyancat.dakko.us/
+license	NCSA
+size	12115
+installed-size	37368
+depends	so:libc.musl-armhf.so.1
+origin	nyancat
+repo	community
+file	nyancat-1.5.2-r1.apk
+checksum	Q1nSIEE64FrExeiAz3Txcq6vLcTzM=
+dep	so:libc.musl-armhf.so.1	musl

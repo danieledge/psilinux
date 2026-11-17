@@ -1,0 +1,19 @@
+name	postgresql18-contrib
+version	18.7-r0
+description	Extension modules distributed with PostgreSQL
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	651359
+installed-size	1906378
+depends	postgresql18=18.7-r0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libpq.so.5 so:libuuid.so.1 so:libxml2.so.2 so:libz.so.1
+origin	postgresql18
+repo	main
+file	postgresql18-contrib-18.7-r0.apk
+checksum	Q1OFz009sb3tyw4tCp24rmuCOz9lY=
+dep	postgresql18=18.7-r0	postgresql18
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libpq.so.5	libpq
+dep	so:libuuid.so.1	libuuid
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

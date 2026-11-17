@@ -1,0 +1,14 @@
+name	py3-nodeenv
+version	1.10.0-r2
+description	Node.js virtual environment builder
+url	https://ekalinin.github.io/nodeenv/
+license	BSD-3-Clause
+size	24790
+installed-size	76112
+depends	py3-setuptools python3~3.14
+origin	py3-nodeenv
+repo	community
+file	py3-nodeenv-1.10.0-r2.apk
+checksum	Q12WEFlVzCcSxcQz9Dx+sxRtjTT8A=
+dep	py3-setuptools	py3-setuptools
+dep	python3~3.14	python3

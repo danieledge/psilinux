@@ -1,0 +1,12 @@
+name	ofono-dbg
+version	2.19-r1
+description	Infrastructure for building mobile telephony (GSM/UMTS) applications (debug symbols)
+url	https://01.org/ofono
+license	GPL-2.0-only
+size	2828139
+installed-size	6675704
+depends	!ofono<2.19-r1 !ofono>2.19-r1
+origin	ofono
+repo	community
+file	ofono-dbg-2.19-r1.apk
+checksum	Q17WTL9lqBMbpkvFtMmL0CX33Loxs=

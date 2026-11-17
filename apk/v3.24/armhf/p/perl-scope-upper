@@ -1,0 +1,14 @@
+name	perl-scope-upper
+version	0.34-r4
+description	Act on upper scopes.
+url	https://metacpan.org/release/Scope-Upper/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	28072
+installed-size	64375
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-scope-upper
+repo	main
+file	perl-scope-upper-0.34-r4.apk
+checksum	Q1LXyqJQhNT8K6LR+F1gtvIdyD5U4=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	cosmic-idle
+version	1.0.15-r0
+description	Idle daemon for the COSMIC Desktop Environment
+url	https://github.com/pop-os/cosmic-idle
+license	GPL-3.0-only
+size	1140919
+installed-size	2346764
+depends	cosmic-icons so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	cosmic-idle
+repo	community
+file	cosmic-idle-1.0.15-r0.apk
+checksum	Q1OTzpRLkSWHIPxmRVfgYIxpiXRk4=
+dep	cosmic-icons	cosmic-icons
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

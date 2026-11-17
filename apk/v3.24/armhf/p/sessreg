@@ -1,0 +1,13 @@
+name	sessreg
+version	1.1.4-r0
+description	manage utmp/wtmp entries for non-init clients
+url	https://wiki.freedesktop.org/xorg/
+license	ICU
+size	5574
+installed-size	9388
+depends	so:libc.musl-armhf.so.1
+origin	sessreg
+repo	community
+file	sessreg-1.1.4-r0.apk
+checksum	Q1yAc62Gc16exim5HNUWsyyEecnGs=
+dep	so:libc.musl-armhf.so.1	musl

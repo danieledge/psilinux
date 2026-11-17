@@ -1,0 +1,13 @@
+name	limine-tool
+version	12.10.0-r0
+description	Limine host tool
+url	https://limine-bootloader.org
+license	BSD-2-Clause
+size	44022
+installed-size	58592
+depends	so:libc.musl-armhf.so.1
+origin	limine
+repo	main
+file	limine-tool-12.10.0-r0.apk
+checksum	Q1H2ySeP/o2R6z7TxD01M0mUxZoWA=
+dep	so:libc.musl-armhf.so.1	musl

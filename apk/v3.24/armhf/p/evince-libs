@@ -1,0 +1,33 @@
+name	evince-libs
+version	48.4-r0
+description	Simple document viewer for GTK+ (libraries)
+url	https://apps.gnome.org/Evince
+license	GPL-2.0-or-later
+size	294943
+installed-size	762617
+depends	so:libarchive.so.13 so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdjvulibre.so.21 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgspell-1.so.3 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libpoppler-glib.so.8 so:libtiff.so.6 so:libxml2.so.2 so:libz.so.1
+origin	evince
+repo	community
+file	evince-libs-48.4-r0.apk
+checksum	Q1oZhKyzPoJB4GsKCUUBvUFtQHIec=
+dep	so:libarchive.so.13	libarchive
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libdjvulibre.so.21	djvulibre-libs
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgspell-1.so.3	gspell
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpoppler-glib.so.8	poppler-glib
+dep	so:libtiff.so.6	tiff
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

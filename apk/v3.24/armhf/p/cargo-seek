@@ -1,0 +1,16 @@
+name	cargo-seek
+version	0.1.0-r0
+description	TUI for searching, adding and installing cargo crates
+url	https://github.com/tareqimbasher/cargo-seek
+license	MIT
+size	2310532
+installed-size	4702848
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
+origin	cargo-seek
+repo	community
+file	cargo-seek-0.1.0-r0.apk
+checksum	Q1r/AdqHvnNrBPOz0EzueK9S0qbM4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3

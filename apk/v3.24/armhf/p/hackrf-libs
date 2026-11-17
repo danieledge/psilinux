@@ -1,0 +1,14 @@
+name	hackrf-libs
+version	2026.01.3-r1
+description	Driver for HackRF, allowing general purpose software defined radio (libraries)
+url	https://github.com/greatscottgadgets/hackrf
+license	GPL-2.0-only
+size	14918
+installed-size	33964
+depends	so:libc.musl-armhf.so.1 so:libusb-1.0.so.0
+origin	hackrf
+repo	community
+file	hackrf-libs-2026.01.3-r1.apk
+checksum	Q1kaZ7oEDmEpcdiWLhA4afa7VojwM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb

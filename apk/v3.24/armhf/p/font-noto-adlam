@@ -1,0 +1,14 @@
+name	font-noto-adlam
+version	2026.11.01-r0
+description	Noto Sans Adlam (Unjoined) fonts
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	125184
+installed-size	259778
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-adlam-2026.11.01-r0.apk
+checksum	Q1JV4OoIlHm/dStNhvo3f0jrJw4ZY=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

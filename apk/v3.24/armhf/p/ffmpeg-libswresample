@@ -1,0 +1,15 @@
+name	ffmpeg-libswresample
+version	8.1.3-r0
+description	Complete and free Internet live audio and video broadcasting solution for Linux/Unix (libswresample library)
+url	https://ffmpeg.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	43257
+installed-size	83352
+depends	so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libsoxr.so.0
+origin	ffmpeg
+repo	community
+file	ffmpeg-libswresample-8.1.3-r0.apk
+checksum	Q1x7nycbJUIto2ogofjJaThJagVZQ=
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsoxr.so.0	soxr

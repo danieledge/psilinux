@@ -1,0 +1,17 @@
+name	desktop-file-utils
+version	0.28-r0
+description	Command line utilities for working with desktop entries
+url	https://www.freedesktop.org/wiki/Software/desktop-file-utils
+license	GPL-2.0-or-later
+size	50767
+installed-size	133436
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libintl.so.8
+origin	desktop-file-utils
+repo	community
+file	desktop-file-utils-0.28-r0.apk
+checksum	Q15Qewk7T5X7pvRezDSjPgZTKpKqY=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libintl.so.8	libintl

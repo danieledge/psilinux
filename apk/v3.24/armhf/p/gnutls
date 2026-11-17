@@ -1,0 +1,24 @@
+name	gnutls
+version	3.8.13-r0
+description	TLS protocol implementation
+url	https://www.gnutls.org/
+license	LGPL-2.1-or-later
+size	1084492
+installed-size	2257076
+depends	so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-armhf.so.1 so:libgmp.so.10 so:libhogweed.so.6 so:libidn2.so.0 so:libnettle.so.8 so:libp11-kit.so.0 so:libtasn1.so.6 so:libunistring.so.5 so:libz.so.1 so:libzstd.so.1
+origin	gnutls
+repo	main
+file	gnutls-3.8.13-r0.apk
+checksum	Q1PNfRSlttE+5JGeUaeS91dAGODEY=
+dep	so:libbrotlidec.so.1	brotli-libs
+dep	so:libbrotlienc.so.1	brotli-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgmp.so.10	gmp
+dep	so:libhogweed.so.6	nettle
+dep	so:libidn2.so.0	libidn2
+dep	so:libnettle.so.8	nettle
+dep	so:libp11-kit.so.0	p11-kit
+dep	so:libtasn1.so.6	libtasn1
+dep	so:libunistring.so.5	libunistring
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

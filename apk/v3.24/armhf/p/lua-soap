@@ -1,0 +1,14 @@
+name	lua-soap
+version	3.0-r1
+description	Lua library to ease the use of SOAP
+url	http://tomasguisasola.github.io/luasoap/
+license	MIT
+size	8047
+installed-size	25138
+depends	lua-expat lua-socket
+origin	lua-soap
+repo	main
+file	lua-soap-3.0-r1.apk
+checksum	Q18F05pqC5y8718k5QTjlFDziSAQo=
+dep	lua-expat	lua-expat
+dep	lua-socket	lua-socket

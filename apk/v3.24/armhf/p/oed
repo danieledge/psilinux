@@ -1,0 +1,13 @@
+name	oed
+version	7.4-r1
+description	Portable version of the OpenBSD ed text editor
+url	https://github.com/ibara/oed
+license	BSD-2-Clause AND ISC
+size	34157
+installed-size	66808
+depends	so:libc.musl-armhf.so.1
+origin	oed
+repo	community
+file	oed-7.4-r1.apk
+checksum	Q19Ux0Vm0ILOtITPAvMf2fH7jj9W4=
+dep	so:libc.musl-armhf.so.1	musl

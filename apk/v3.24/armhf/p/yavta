@@ -1,0 +1,14 @@
+name	yavta
+version	0_git20240914-r0
+description	Yet Another V4L2 Test Application
+url	https://git.ideasonboard.org/yavta.git/
+license	GPL-2.0-or-later
+size	19505
+installed-size	39700
+depends	linux-headers so:libc.musl-armhf.so.1
+origin	yavta
+repo	community
+file	yavta-0_git20240914-r0.apk
+checksum	Q1m5WETLnxuC6ut1kJlYxZOaz2Ls0=
+dep	linux-headers	linux-headers
+dep	so:libc.musl-armhf.so.1	musl

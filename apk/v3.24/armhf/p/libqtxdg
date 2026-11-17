@@ -1,0 +1,25 @@
+name	libqtxdg
+version	4.4.0-r1
+description	Qt implementation of freedesktop.org xdg specifications
+url	https://github.com/lxqt/libqtxdg
+license	LGPL-2.0-or-later
+size	165305
+installed-size	378266
+depends	gtk+3.0 so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Gui.so.6 so:libQt6Svg.so.6 so:libQt6Widgets.so.6 so:libQt6Xml.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libstdc++.so.6
+origin	libqtxdg
+repo	community
+file	libqtxdg-4.4.0-r1.apk
+checksum	Q16FNstVvSeC12dws1ZxNQm5J/13Y=
+dep	gtk+3.0	gtk+3.0
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6DBus.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Svg.so.6	qt6-qtsvg
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libQt6Xml.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libstdc++.so.6	libstdc++

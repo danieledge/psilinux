@@ -1,0 +1,14 @@
+name	gsettings-desktop-schemas-dev
+version	50.1-r0
+description	A collection of GSettings schemas (development files)
+url	https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas
+license	LGPL-2.0-or-later
+size	6873
+installed-size	34011
+depends	gsettings-desktop-schemas=50.1-r0 pkgconfig
+origin	gsettings-desktop-schemas
+repo	community
+file	gsettings-desktop-schemas-dev-50.1-r0.apk
+checksum	Q1YWr+8v1KlcjfF70jyEN9mwJW6CQ=
+dep	gsettings-desktop-schemas=50.1-r0	gsettings-desktop-schemas
+dep	pkgconfig	pkgconf

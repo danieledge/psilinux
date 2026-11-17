@@ -1,0 +1,24 @@
+name	thunar-volman
+version	4.20.0-r0
+description	Thunar extension for volumes management
+url	https://goodies.xfce.org/projects/thunar-plugins/thunar-volman
+license	GPL-2.0-or-later
+size	39987
+installed-size	90453
+depends	thunar so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgudev-1.0.so.0 so:libnotify.so.4 so:libpango-1.0.so.0 so:libxfce4ui-2.so.0 so:libxfce4util.so.7 so:libxfconf-0.so.3
+origin	thunar-volman
+repo	community
+file	thunar-volman-4.20.0-r0.apk
+checksum	Q1IRzSuV9nfYCey311ojKVwvMkCqI=
+dep	thunar	thunar
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgudev-1.0.so.0	libgudev
+dep	so:libnotify.so.4	libnotify
+dep	so:libpango-1.0.so.0	pango
+dep	so:libxfce4ui-2.so.0	libxfce4ui
+dep	so:libxfce4util.so.7	libxfce4util
+dep	so:libxfconf-0.so.3	xfconf

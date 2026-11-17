@@ -1,0 +1,16 @@
+name	ldns-dev
+version	1.8.4-r1
+description	Lowlevel DNS(SEC) library (development files)
+url	https://nlnetlabs.nl/projects/ldns/
+license	BSD-3-Clause
+size	81117
+installed-size	383465
+depends	openssl-dev>3 ldns=1.8.4-r1 pc:libcrypto pkgconfig
+origin	ldns
+repo	main
+file	ldns-dev-1.8.4-r1.apk
+checksum	Q1nAJ+B0BDOIBjkPxgM8Mb+L1wse0=
+dep	openssl-dev>3	openssl-dev
+dep	ldns=1.8.4-r1	ldns
+dep	pc:libcrypto	openssl-dev
+dep	pkgconfig	pkgconf

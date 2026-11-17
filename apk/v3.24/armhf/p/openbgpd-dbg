@@ -1,0 +1,12 @@
+name	openbgpd-dbg
+version	9.1-r0
+description	Free implementation of the Border Gateway Protocol, Version 4 (debug symbols)
+url	https://www.openbgpd.org
+license	ISC
+size	803493
+installed-size	1754256
+depends	!openbgpd<9.1-r0 !openbgpd>9.1-r0
+origin	openbgpd
+repo	community
+file	openbgpd-dbg-9.1-r0.apk
+checksum	Q1PXIrEFltchab4RI9d3yqOMdV8Sg=

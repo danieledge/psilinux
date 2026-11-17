@@ -1,0 +1,15 @@
+name	perl-json-maybeutf8
+version	2.000-r1
+description	Simple wrapper for explicit JSON Unicode text/UTF-8 byte functions
+url	https://metacpan.org/release/JSON-MaybeUTF8/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	3134
+installed-size	3679
+depends	perl perl-json-maybexs perl-unicode-utf8
+origin	perl-json-maybeutf8
+repo	community
+file	perl-json-maybeutf8-2.000-r1.apk
+checksum	Q1+El0CeAIVXu5oXj/vkpuhO0Tmho=
+dep	perl	perl
+dep	perl-json-maybexs	perl-json-maybexs
+dep	perl-unicode-utf8	perl-unicode-utf8

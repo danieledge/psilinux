@@ -1,0 +1,14 @@
+name	musl-obstack-dev
+version	1.2.3-r2
+description	Standalone library to implement GNU libc's obstack (development files)
+url	https://github.com/void-linux/musl-obstack
+license	GPL-2.0-or-later
+size	10219
+installed-size	27419
+depends	musl-obstack=1.2.3-r2 pkgconfig
+origin	musl-obstack
+repo	main
+file	musl-obstack-dev-1.2.3-r2.apk
+checksum	Q1jB0X6cs/dsn1zsUfc59NmScy6iE=
+dep	musl-obstack=1.2.3-r2	musl-obstack
+dep	pkgconfig	pkgconf

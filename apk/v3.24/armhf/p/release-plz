@@ -1,0 +1,19 @@
+name	release-plz
+version	0.3.158-r0
+description	Release Rust packages without using the command line
+url	https://github.com/MarcoIeni/release-plz
+license	MIT OR Apache-2.0
+size	7268921
+installed-size	15848596
+depends	git so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libgit2.so.1.9 so:libssl.so.3 so:libz.so.1
+origin	release-plz
+repo	community
+file	release-plz-0.3.158-r0.apk
+checksum	Q1mwGsi/ShJpE5DvEzJkgojGOv0nw=
+dep	git	git
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgit2.so.1.9	libgit2
+dep	so:libssl.so.3	libssl3
+dep	so:libz.so.1	zlib

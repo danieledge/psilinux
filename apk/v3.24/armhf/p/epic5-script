@@ -1,0 +1,13 @@
+name	epic5-script
+version	3.0.3-r1
+description	Enhanced Programmable ircII Client, version 5 (bundled scripts)
+url	https://epicsol.org/
+license	BSD-3-Clause
+size	158697
+installed-size	524252
+depends	cmd:epic5=3.0.3-r1
+origin	epic5
+repo	community
+file	epic5-script-3.0.3-r1.apk
+checksum	Q17KeRckzx4eIMVGoCBhQzajIVpl8=
+dep	cmd:epic5=3.0.3-r1	epic5

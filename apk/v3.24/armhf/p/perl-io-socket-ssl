@@ -1,0 +1,16 @@
+name	perl-io-socket-ssl
+version	2.093-r0
+description	Nearly transparent SSL encapsulation for IO::Socket::INET
+url	https://metacpan.org/release/IO-Socket-SSL/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	136646
+installed-size	487360
+depends	perl ca-certificates perl-net-ssleay perl-mozilla-ca
+origin	perl-io-socket-ssl
+repo	main
+file	perl-io-socket-ssl-2.093-r0.apk
+checksum	Q1ue9zSnyC2jnUL9Sl3gpRndmzTw4=
+dep	perl	perl
+dep	ca-certificates	ca-certificates
+dep	perl-net-ssleay	perl-net-ssleay
+dep	perl-mozilla-ca	perl-mozilla-ca

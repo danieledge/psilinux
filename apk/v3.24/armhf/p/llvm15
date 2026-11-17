@@ -1,0 +1,20 @@
+name	llvm15
+version	15.0.7-r20
+description	Low Level Virtual Machine compiler system, version 15
+url	https://llvm.org/
+license	Apache-2.0
+size	24025237
+installed-size	55944987
+depends	/bin/sh so:libLLVM-15.so so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
+origin	llvm15
+repo	community
+file	llvm15-15.0.7-r20.apk
+checksum	Q1NoUB+SFN0jqUdTWwA+dJcl9v5Ow=
+dep	/bin/sh	busybox-binsh
+dep	so:libLLVM-15.so	llvm15-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

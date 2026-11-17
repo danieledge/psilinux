@@ -1,0 +1,17 @@
+name	pidgin-dev
+version	2.14.14-r0
+description	Graphical, multi-protocol instant messaging client (development files)
+url	https://pidgin.im/
+license	GPL-2.0-or-later
+size	241128
+installed-size	1247062
+depends	libpurple=2.14.14-r0 pc:glib-2.0 pc:gnt pc:gtk+-2.0 pkgconfig
+origin	pidgin
+repo	community
+file	pidgin-dev-2.14.14-r0.apk
+checksum	Q1V6yk8zXJtnQ0/0YHHDX8dcVAlP4=
+dep	libpurple=2.14.14-r0	libpurple
+dep	pc:glib-2.0	glib-dev
+dep	pc:gnt	libgnt-dev
+dep	pc:gtk+-2.0	gtk+2.0-dev
+dep	pkgconfig	pkgconf

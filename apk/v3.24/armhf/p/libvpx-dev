@@ -1,0 +1,14 @@
+name	libvpx-dev
+version	1.15.2-r1
+description	Library for the vp8/vp9 codecs (development files)
+url	https://www.webmproject.org/
+license	BSD-3-Clause
+size	39750
+installed-size	160452
+depends	libvpx=1.15.2-r1 pkgconfig
+origin	libvpx
+repo	community
+file	libvpx-dev-1.15.2-r1.apk
+checksum	Q1CFVHyp/DBPZctIH8DQZYSzCq5B4=
+dep	libvpx=1.15.2-r1	libvpx
+dep	pkgconfig	pkgconf

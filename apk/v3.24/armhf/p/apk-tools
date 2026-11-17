@@ -1,0 +1,19 @@
+name	apk-tools
+version	3.0.9-r0
+description	Alpine Package Keeper - package manager for alpine
+url	https://gitlab.alpinelinux.org/alpine/apk-tools
+license	GPL-2.0-only
+size	55171
+installed-size	100948
+depends	musl>=1.2.3_git20230424 libcrypto3>=3.5 libapk=3.0.9-r0 ca-certificates-bundle so:libapk.so.3.0.0 so:libc.musl-armhf.so.1 so:libz.so.1
+origin	apk-tools
+repo	main
+file	apk-tools-3.0.9-r0.apk
+checksum	Q1/y4R5tPTV25ghFlFsNfDG008AiI=
+dep	musl>=1.2.3_git20230424	musl
+dep	libcrypto3>=3.5	libcrypto3
+dep	libapk=3.0.9-r0	libapk
+dep	ca-certificates-bundle	ca-certificates-bundle
+dep	so:libapk.so.3.0.0	libapk
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libz.so.1	zlib

@@ -1,0 +1,14 @@
+name	net-cpp-dev
+version	3.2.1-r0
+description	A simple yet beautiful networking API for C++11 (development files)
+url	https://gitlab.com/ubports/core/lib-cpp/net-cpp
+license	LGPL-3.0-only
+size	10346
+installed-size	42226
+depends	net-cpp=3.2.1-r0 pkgconfig
+origin	net-cpp
+repo	community
+file	net-cpp-dev-3.2.1-r0.apk
+checksum	Q1e2hVGjtgrP6LaEmnSuokm5IAmFY=
+dep	net-cpp=3.2.1-r0	net-cpp
+dep	pkgconfig	pkgconf

@@ -1,0 +1,15 @@
+name	tio
+version	3.9-r0
+description	Simple TTY Terminal I/O Application
+url	https://github.com/tio/tio
+license	GPL-2.0-or-later
+size	65178
+installed-size	162120
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:liblua-5.4.so.0
+origin	tio
+repo	community
+file	tio-3.9-r0.apk
+checksum	Q1blKS643myZBlMsH1bidAvqP3CDk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:liblua-5.4.so.0	lua5.4-libs

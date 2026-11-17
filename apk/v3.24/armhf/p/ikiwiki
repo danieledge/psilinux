@@ -1,0 +1,26 @@
+name	ikiwiki
+version	3.20260201-r0
+description	Ikiwiki is a wiki compiler. It converts wiki pages into HTML pages suitable for publishing on a website.
+url	https://ikiwiki.info
+license	GPL-2.0-or-later
+size	977998
+installed-size	2789159
+depends	perl-cgi-formbuilder perl-cgi-session perl-html-parser perl-html-scrubber perl-html-template perl-locale-gettext perl-mail-sendmail perl-rpc-xml perl-text-markdown perl-timedate perl-time-duration perl-uri perl-yaml perl-yaml-libyaml
+origin	ikiwiki
+repo	community
+file	ikiwiki-3.20260201-r0.apk
+checksum	Q1rQiTy37r1p+bcwrb41GhDgsRt0w=
+dep	perl-cgi-formbuilder	perl-cgi-formbuilder
+dep	perl-cgi-session	perl-cgi-session
+dep	perl-html-parser	perl-html-parser
+dep	perl-html-scrubber	perl-html-scrubber
+dep	perl-html-template	perl-html-template
+dep	perl-locale-gettext	perl-locale-gettext
+dep	perl-mail-sendmail	perl-mail-sendmail
+dep	perl-rpc-xml	perl-rpc-xml
+dep	perl-text-markdown	perl-text-markdown
+dep	perl-timedate	perl-timedate
+dep	perl-time-duration	perl-time-duration
+dep	perl-uri	perl-uri
+dep	perl-yaml	perl-yaml
+dep	perl-yaml-libyaml	perl-yaml-libyaml

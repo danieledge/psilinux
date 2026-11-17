@@ -1,0 +1,22 @@
+name	xca
+version	2.9.0-r0
+description	X certificate and key management
+url	https://hohnstaedt.de/xca/
+license	BSD-3-Clause
+size	1436727
+installed-size	3606348
+depends	qt6-qtbase-sqlite so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Help.so.6 so:libQt6Sql.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	xca
+repo	community
+file	xca-2.9.0-r0.apk
+checksum	Q18uTIQ/pwd8rQbWXKMHiUKSS7EWU=
+dep	qt6-qtbase-sqlite	qt6-qtbase-sqlite
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Help.so.6	qt6-qttools-libs
+dep	so:libQt6Sql.so.6	qt6-qtbase
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,14 @@
+name	opendbx-backend-postgres
+version	1.4.6-r2
+description	Database abstraction layer
+url	https://www.linuxnetworks.de/doc/index.php/OpenDBX
+license	GPL-2.0-or-later
+size	5220
+installed-size	9420
+depends	so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	opendbx
+repo	community
+file	opendbx-backend-postgres-1.4.6-r2.apk
+checksum	Q1A6Jor27OSK8pJ2RQhzqd6zC+As8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

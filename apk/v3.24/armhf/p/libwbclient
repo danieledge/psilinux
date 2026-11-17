@@ -1,0 +1,13 @@
+name	libwbclient
+version	4.23.8-r0
+description	Samba winbind client libraries
+url	https://www.samba.org/
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	27724
+installed-size	58644
+depends	so:libc.musl-armhf.so.1
+origin	samba
+repo	main
+file	libwbclient-4.23.8-r0.apk
+checksum	Q1YczIyBDrHhfhGQaGu2HFNe5JPwI=
+dep	so:libc.musl-armhf.so.1	musl

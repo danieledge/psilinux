@@ -1,0 +1,12 @@
+name	wayvnc-dbg
+version	0.10.0-r0
+description	A VNC server for wlroots-based Wayland compositors (debug symbols)
+url	https://github.com/any1/wayvnc
+license	ISC
+size	255683
+installed-size	579556
+depends	!wayvnc<0.10.0-r0 !wayvnc>0.10.0-r0
+origin	wayvnc
+repo	community
+file	wayvnc-dbg-0.10.0-r0.apk
+checksum	Q1rK3MQZyQEx/PydOR1gJKk15UC0Q=

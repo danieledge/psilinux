@@ -1,0 +1,19 @@
+name	lua5.1-lgi
+version	0.9.2_git20241227-r2
+description	Lua 5.1 binding to GObject libraries using introspection
+url	https://github.com/lgi-devs/lgi
+license	MIT
+size	88742
+installed-size	271748
+depends	lua5.1 so:libc.musl-armhf.so.1 so:libffi.so.8 so:libgirepository-1.0.so.1 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0
+origin	lua-lgi
+repo	community
+file	lua5.1-lgi-0.9.2_git20241227-r2.apk
+checksum	Q1Of6R1K0b5ocm2VAQIxK4F1Z6irs=
+dep	lua5.1	lua5.1
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libffi.so.8	libffi
+dep	so:libgirepository-1.0.so.1	gobject-introspection
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

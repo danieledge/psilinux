@@ -1,0 +1,30 @@
+name	codeblocks-contrib
+version	25.03-r0
+description	Cross-platform C/C++ and Fortran IDE (contrib plugins)
+url	https://codeblocks.org
+license	GPL-3.0-or-later
+size	9762787
+installed-size	21324127
+depends	so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcodeblocks.so.0 so:libfontconfig.so.1 so:libgcc_s.so.1 so:libhunspell-1.7.so.0 so:libstdc++.so.6 so:libwx_baseu-3.2.so.0 so:libwx_baseu_net-3.2.so.0 so:libwx_baseu_xml-3.2.so.0 so:libwx_gtk3u_aui-3.2.so.0 so:libwx_gtk3u_core-3.2.so.0 so:libwx_gtk3u_html-3.2.so.0 so:libwx_gtk3u_propgrid-3.2.so.0 so:libwx_gtk3u_richtext-3.2.so.0 so:libwx_gtk3u_xrc-3.2.so.0 so:libwxsmithlib.so.0 so:libz.so.1
+origin	codeblocks
+repo	community
+file	codeblocks-contrib-25.03-r0.apk
+checksum	Q1EnjAqwqg1jwJy2+HMWypkeCCBME=
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcodeblocks.so.0	codeblocks
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libhunspell-1.7.so.0	libhunspell
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwx_baseu-3.2.so.0	wxwidgets
+dep	so:libwx_baseu_net-3.2.so.0	wxwidgets
+dep	so:libwx_baseu_xml-3.2.so.0	wxwidgets
+dep	so:libwx_gtk3u_aui-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_core-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_html-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_propgrid-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_richtext-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_xrc-3.2.so.0	wxwidgets-gtk3
+dep	so:libwxsmithlib.so.0	codeblocks
+dep	so:libz.so.1	zlib

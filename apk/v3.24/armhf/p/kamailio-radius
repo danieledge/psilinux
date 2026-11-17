@@ -1,0 +1,15 @@
+name	kamailio-radius
+version	6.0.6-r0
+description	Kamailio RADIUS modules for Kamailio
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	97657
+installed-size	215276
+depends	kamailio so:libc.musl-armhf.so.1 so:libfreeradius-client.so.2
+origin	kamailio
+repo	main
+file	kamailio-radius-6.0.6-r0.apk
+checksum	Q1jHVx6l26V4trNhXe11kL4oJFB6Y=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreeradius-client.so.2	freeradius-client

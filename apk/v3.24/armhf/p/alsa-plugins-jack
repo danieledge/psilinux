@@ -1,0 +1,15 @@
+name	alsa-plugins-jack
+version	1.2.12-r2
+description	Allows native ALSA applications to work with jackd
+url	https://alsa-project.org/
+license	GPL-2.0-or-later LGPL-2.1-or-later
+size	8266
+installed-size	13776
+depends	so:libasound.so.2 so:libc.musl-armhf.so.1 so:libjack.so.0
+origin	alsa-plugins
+repo	community
+file	alsa-plugins-jack-1.2.12-r2.apk
+checksum	Q1G2bGdpQE7a3O8NJs5Kqmr1rWBMg=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjack.so.0	jack

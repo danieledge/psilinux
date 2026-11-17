@@ -1,0 +1,15 @@
+name	breeze-plymouth
+version	6.6.6-r0
+description	Breeze theme for Plymouth
+url	https://kde.org/
+license	GPL-2.0-or-later
+size	98638
+installed-size	153642
+depends	so:libc.musl-armhf.so.1 so:libply-splash-core.so.5 so:libply.so.5
+origin	breeze-plymouth
+repo	community
+file	breeze-plymouth-6.6.6-r0.apk
+checksum	Q1AwvHuEb2UOiuE4Elawg+c183jkE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libply-splash-core.so.5	plymouth
+dep	so:libply.so.5	plymouth

@@ -1,0 +1,14 @@
+name	libev-dev
+version	4.33-r1
+description	event dispatch library (development files)
+url	http://software.schmorp.de/pkg/libev.html
+license	BSD-2-Clause OR GPL-2.0-or-later
+size	35121
+installed-size	97946
+depends	libev=4.33-r1 pkgconfig
+origin	libev
+repo	main
+file	libev-dev-4.33-r1.apk
+checksum	Q1CsnW5GH+tkKKUFIeDSiLhDoFzJk=
+dep	libev=4.33-r1	libev
+dep	pkgconfig	pkgconf

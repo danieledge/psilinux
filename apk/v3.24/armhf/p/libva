@@ -1,0 +1,21 @@
+name	libva
+version	2.23.0-r0
+description	Video Acceleration (VA) API for Linux
+url	https://01.org/linuxmedia
+license	MIT
+size	83405
+installed-size	226316
+depends	so:libX11-xcb.so.1 so:libX11.so.6 so:libXext.so.6 so:libXfixes.so.3 so:libc.musl-armhf.so.1 so:libdrm.so.2 so:libwayland-client.so.0 so:libxcb-dri3.so.0 so:libxcb.so.1
+origin	libva
+repo	main
+file	libva-2.23.0-r0.apk
+checksum	Q1HO6GbooaiAHql7T6Fgz1k0I/ocg=
+dep	so:libX11-xcb.so.1	libx11
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm.so.2	libdrm
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libxcb-dri3.so.0	libxcb
+dep	so:libxcb.so.1	libxcb

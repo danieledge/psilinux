@@ -1,0 +1,15 @@
+name	sparse
+version	0.6.4-r2
+description	A semantic parser of source files
+url	http://sparse.wiki.kernel.org/
+license	MIT
+size	301580
+installed-size	672647
+depends	gcc so:libc.musl-armhf.so.1 so:libxml2.so.2
+origin	sparse
+repo	community
+file	sparse-0.6.4-r2.apk
+checksum	Q1TMOns9fAZGDkwonUMYzddfBJz6E=
+dep	gcc	gcc
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxml2.so.2	libxml2

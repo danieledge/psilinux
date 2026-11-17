@@ -1,0 +1,13 @@
+name	docker-openrc
+version	29.9.3-r1
+description	Pack, ship and run any application as a lightweight container (OpenRC init scripts)
+url	https://www.docker.io/
+license	Apache-2.0
+size	2917
+installed-size	2839
+depends	log_proxy
+origin	docker
+repo	community
+file	docker-openrc-29.9.3-r1.apk
+checksum	Q1tTAsq4tvqLCzBGU3I5ZMfbBCLyM=
+dep	log_proxy	log_proxy

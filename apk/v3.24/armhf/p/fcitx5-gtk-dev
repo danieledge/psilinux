@@ -1,0 +1,16 @@
+name	fcitx5-gtk-dev
+version	5.1.6-r0
+description	Fcitx5 GTK module (development files)
+url	https://github.com/fcitx/fcitx5-gtk/
+license	LGPL-2.1-or-later
+size	10152
+installed-size	54912
+depends	fcitx5-gtk=5.1.6-r0 pc:gio-2.0 pc:gobject-2.0 pkgconfig
+origin	fcitx5-gtk
+repo	community
+file	fcitx5-gtk-dev-5.1.6-r0.apk
+checksum	Q1M45VVsAq5CDOcZOt2uq7f10GBe4=
+dep	fcitx5-gtk=5.1.6-r0	fcitx5-gtk
+dep	pc:gio-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pkgconfig	pkgconf

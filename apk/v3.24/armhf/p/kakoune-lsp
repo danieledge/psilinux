@@ -1,0 +1,14 @@
+name	kakoune-lsp
+version	21.0.0-r0
+description	Kakoune Language Server Protocol Client
+url	https://github.com/kakoune-lsp/kakoune-lsp
+license	Unlicense OR MIT
+size	2221287
+installed-size	4753016
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	kakoune-lsp
+repo	community
+file	kakoune-lsp-21.0.0-r0.apk
+checksum	Q1VGDxRTOyByvmYNWUyvTN/9PHivU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

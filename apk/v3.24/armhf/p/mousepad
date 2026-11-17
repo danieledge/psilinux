@@ -1,0 +1,25 @@
+name	mousepad
+version	0.7.0-r0
+description	Simple Text Editor for Xfce4
+url	https://gitlab.xfce.org/apps/mousepad
+license	GPL-2.0-or-later
+size	186736
+installed-size	529600
+depends	desktop-file-utils so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgspell-1.so.3 so:libgtk-3.so.0 so:libgtksourceview-4.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libxfce4kbd-private-3.so.0
+origin	mousepad
+repo	community
+file	mousepad-0.7.0-r0.apk
+checksum	Q11CazRTS4P8fXoFl2bTQFZEV/IlE=
+dep	desktop-file-utils	desktop-file-utils
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgspell-1.so.3	gspell
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtksourceview-4.so.0	gtksourceview4
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libxfce4kbd-private-3.so.0	libxfce4ui

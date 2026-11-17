@@ -1,0 +1,13 @@
+name	libiphb
+version	1.2.7-r2
+description	Nemo's libiphb
+url	https://github.com/sailfishos/libiphb
+license	LGPL-2.1-or-later
+size	4519
+installed-size	9336
+depends	so:libc.musl-armhf.so.1
+origin	libiphb
+repo	community
+file	libiphb-1.2.7-r2.apk
+checksum	Q1E5rG2QBxYXqD0YZVeyFoPbuEtMA=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,16 @@
+name	sord-dev
+version	0.16.22-r0
+description	C library for storing RDF data in memory (development files)
+url	https://drobilla.net/software/sord
+license	ISC
+size	10165
+installed-size	34439
+depends	sord-libs=0.16.22-r0 pc:serd-0>=0.30.10 pc:zix-0>=0.4.0 pkgconfig
+origin	sord
+repo	community
+file	sord-dev-0.16.22-r0.apk
+checksum	Q1DvpF8XSk8jZpgqRXaZGhbCBhebA=
+dep	sord-libs=0.16.22-r0	sord-libs
+dep	pc:serd-0>=0.30.10	serd-dev
+dep	pc:zix-0>=0.4.0	zix-dev
+dep	pkgconfig	pkgconf

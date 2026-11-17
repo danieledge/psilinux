@@ -1,0 +1,13 @@
+name	emacs-iter2
+version	2.2-r1
+description	Reimplementation of Elisp generators
+url	https://github.com/doublep/iter2
+license	GPL-3.0-or-later
+size	23035
+installed-size	91606
+depends	cmd:emacs
+origin	emacs-iter2
+repo	community
+file	emacs-iter2-2.2-r1.apk
+checksum	Q1HGN0eKuwG32Ud4sYbR0N5zxr0No=
+dep	cmd:emacs	emacs-gtk3

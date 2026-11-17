@@ -1,0 +1,24 @@
+name	gst-rtsp-server
+version	1.28.3-r0
+description	GStreamer RTSP server
+url	https://gstreamer.freedesktop.org
+license	LGPL-2.0-or-later
+size	236547
+installed-size	575656
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstapp-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstnet-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstrtp-1.0.so.0 so:libgstrtsp-1.0.so.0 so:libgstsdp-1.0.so.0 so:libgstvideo-1.0.so.0
+origin	gst-rtsp-server
+repo	community
+file	gst-rtsp-server-1.28.3-r0.apk
+checksum	Q1QoNnTrcv2PZQxzyw+my7Rzq7UYk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstapp-1.0.so.0	gst-plugins-base
+dep	so:libgstbase-1.0.so.0	gstreamer
+dep	so:libgstnet-1.0.so.0	gstreamer
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstrtp-1.0.so.0	gst-plugins-base
+dep	so:libgstrtsp-1.0.so.0	gst-plugins-base
+dep	so:libgstsdp-1.0.so.0	gst-plugins-base
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base

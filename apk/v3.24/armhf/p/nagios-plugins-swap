@@ -1,0 +1,15 @@
+name	nagios-plugins-swap
+version	2.5-r0
+description	Nagios plugin check_swap
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	18805
+installed-size	38424
+depends	nagios-plugins so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-swap-2.5-r0.apk
+checksum	Q16eFyRQkzx300x5C8PC+Dvx7WDjo=
+dep	nagios-plugins	nagios-plugins
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

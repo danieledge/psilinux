@@ -1,0 +1,27 @@
+name	ncmpcpp
+version	0.10.1-r4
+description	Ncurses based MPD client inspired by ncmpc
+url	http://rybczak.net/ncmpcpp
+license	GPL-2.0-or-later
+size	581387
+installed-size	1464240
+depends	so:libboost_filesystem.so.1.84.0 so:libboost_locale.so.1.84.0 so:libboost_program_options.so.1.84.0 so:libboost_thread.so.1.84.0 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libfftw3.so.3 so:libgcc_s.so.1 so:libicui18n.so.78 so:libicuuc.so.78 so:libmpdclient.so.2 so:libncursesw.so.6 so:libreadline.so.8 so:libstdc++.so.6 so:libtag.so.2
+origin	ncmpcpp
+repo	community
+file	ncmpcpp-0.10.1-r4.apk
+checksum	Q1t8ZEw+TwxHVM7FG3OTvP7Q+NxTQ=
+dep	so:libboost_filesystem.so.1.84.0	boost1.84-filesystem
+dep	so:libboost_locale.so.1.84.0	boost1.84-locale
+dep	so:libboost_program_options.so.1.84.0	boost1.84-program_options
+dep	so:libboost_thread.so.1.84.0	boost1.84-thread
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libfftw3.so.3	fftw-double-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libmpdclient.so.2	libmpdclient
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libreadline.so.8	readline
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtag.so.2	libtag

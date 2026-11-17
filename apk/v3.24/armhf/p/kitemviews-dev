@@ -1,0 +1,14 @@
+name	kitemviews-dev
+version	6.26.0-r0
+description	Widget addons for Qt Model/View (development files)
+url	https://community.kde.org/Frameworks
+license	GPL-2.0-only AND LGPL-2.1-only
+size	17407
+installed-size	57224
+depends	qt6-qtbase-dev kitemviews=6.26.0-r0
+origin	kitemviews
+repo	community
+file	kitemviews-dev-6.26.0-r0.apk
+checksum	Q1m2mmdcD7hUab3NXCnaFPmRKbNb4=
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	kitemviews=6.26.0-r0	kitemviews

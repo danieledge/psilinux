@@ -1,0 +1,22 @@
+name	sxmo-dwm
+version	6.3.1-r0
+description	Dwm fork for Sxmo UI; supports volume-key hotkeys, swallow, keyboard, among other patches
+url	https://git.sr.ht/~mil/sxmo-dwm
+license	MIT
+size	25510
+installed-size	51872
+depends	xorg-server so:libX11-xcb.so.1 so:libX11.so.6 so:libXft.so.2 so:libXinerama.so.1 so:libc.musl-armhf.so.1 so:libgobject-2.0.so.0 so:libpango-1.0.so.0 so:libpangoxft-1.0.so.0 so:libxcb-res.so.0
+origin	sxmo-dwm
+repo	community
+file	sxmo-dwm-6.3.1-r0.apk
+checksum	Q1YPilgRJgCGv9UV8+v17o5ykMGE4=
+dep	xorg-server	xorg-server
+dep	so:libX11-xcb.so.1	libx11
+dep	so:libX11.so.6	libx11
+dep	so:libXft.so.2	libxft
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangoxft-1.0.so.0	pango
+dep	so:libxcb-res.so.0	libxcb

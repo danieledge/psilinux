@@ -1,0 +1,15 @@
+name	perl-sereal-decoder
+version	5.004-r3
+description	Fast, compact, powerful binary deserialization
+url	https://metacpan.org/release/Sereal-Decoder/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	106747
+installed-size	260978
+depends	perl so:libc.musl-armhf.so.1 so:libzstd.so.1
+origin	perl-sereal-decoder
+repo	community
+file	perl-sereal-decoder-5.004-r3.apk
+checksum	Q1zl7JnUbRvcWvp+5Z7yBk0MczMXs=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libzstd.so.1	zstd-libs

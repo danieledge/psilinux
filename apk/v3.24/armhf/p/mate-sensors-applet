@@ -1,0 +1,24 @@
+name	mate-sensors-applet
+version	1.28.0-r0
+description	Applet for the MATE Panel to display readings from hardware sensors
+url	https://github.com/mate-desktop/mate-sensors-applet
+license	GPL-2.0-or-later
+size	67280
+installed-size	189722
+depends	perl-xml-parser so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libmate-panel-applet-4.so.1 so:libnotify.so.4
+origin	mate-sensors-applet
+repo	community
+file	mate-sensors-applet-1.28.0-r0.apk
+checksum	Q1H8OzlCYOEEZUkuF9k4VR3EhbYIo=
+dep	perl-xml-parser	perl-xml-parser
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libmate-panel-applet-4.so.1	mate-panel
+dep	so:libnotify.so.4	libnotify

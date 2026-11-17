@@ -1,0 +1,21 @@
+name	pre-commit
+version	4.6.0-r0
+description	framework for managing and maintaining multi-language pre-commit hooks
+url	https://pre-commit.com
+license	MIT
+size	206377
+installed-size	380506
+depends	python3 py3-cfgv py3-identify py3-nodeenv py3-yaml py3-toml py3-virtualenv py3-platformdirs python3~3.14
+origin	pre-commit
+repo	community
+file	pre-commit-4.6.0-r0.apk
+checksum	Q1B7fd6gZznEHHdkbo/eB4lmmR3lg=
+dep	python3	python3
+dep	py3-cfgv	py3-cfgv
+dep	py3-identify	py3-identify
+dep	py3-nodeenv	py3-nodeenv
+dep	py3-yaml	py3-yaml
+dep	py3-toml	py3-toml
+dep	py3-virtualenv	py3-virtualenv
+dep	py3-platformdirs	py3-platformdirs
+dep	python3~3.14	python3

@@ -1,0 +1,13 @@
+name	libsepol
+version	3.10-r0
+description	SELinux binary policy manipulation library
+url	https://github.com/SELinuxProject/selinux/wiki
+license	LGPL-2.0-or-later
+size	289430
+installed-size	726004
+depends	so:libc.musl-armhf.so.1
+origin	libsepol
+repo	community
+file	libsepol-3.10-r0.apk
+checksum	Q1NRWAPJicdoggJu8alnQO35bVzyU=
+dep	so:libc.musl-armhf.so.1	musl

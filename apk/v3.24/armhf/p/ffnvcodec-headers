@@ -1,0 +1,13 @@
+name	ffnvcodec-headers
+version	13.0.19.0-r0
+description	FFmpeg version of headers required to interface with Nvidias codec APIs
+url	https://git.videolan.org/?p=ffmpeg/nv-codec-headers.git
+license	MIT
+size	84761
+installed-size	454973
+depends	pkgconfig
+origin	ffnvcodec-headers
+repo	community
+file	ffnvcodec-headers-13.0.19.0-r0.apk
+checksum	Q16O36FzcIRDzQFbzlSEVgIKRTqSo=
+dep	pkgconfig	pkgconf

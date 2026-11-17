@@ -1,0 +1,17 @@
+name	pcre-dev
+version	8.45-r4
+description	Perl-compatible regular expression library (development files)
+url	https://www.pcre.org/
+license	BSD-3-Clause
+size	24310
+installed-size	87284
+depends	libpcre16=8.45-r4 libpcre32=8.45-r4 libpcrecpp=8.45-r4 pcre=8.45-r4 pkgconfig
+origin	pcre
+repo	main
+file	pcre-dev-8.45-r4.apk
+checksum	Q1YZ+fwb4zACyBpH1ovrdSyapNlLg=
+dep	libpcre16=8.45-r4	libpcre16
+dep	libpcre32=8.45-r4	libpcre32
+dep	libpcrecpp=8.45-r4	libpcrecpp
+dep	pcre=8.45-r4	pcre
+dep	pkgconfig	pkgconf

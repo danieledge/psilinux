@@ -1,0 +1,16 @@
+name	font-xfree86-type1
+version	1.0.5-r1
+description	X.org xfree86 Type1 fonts
+url	https://xorg.freedesktop.org/
+license	X11
+size	32635
+installed-size	54843
+depends	encodings font-alias mkfontscale fontconfig
+origin	font-xfree86-type1
+repo	main
+file	font-xfree86-type1-1.0.5-r1.apk
+checksum	Q1iQwtYUmPbL2y2/7Eboq4B1tbLJo=
+dep	encodings	encodings
+dep	font-alias	font-alias
+dep	mkfontscale	mkfontscale
+dep	fontconfig	fontconfig

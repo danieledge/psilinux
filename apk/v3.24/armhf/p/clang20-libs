@@ -1,0 +1,16 @@
+name	clang20-libs
+version	20.1.8-r3
+description	C language family front-end for LLVM (libraries)
+url	https://llvm.org/
+license	Apache-2.0 WITH LLVM-exception
+size	33544745
+installed-size	84831936
+depends	so:libLLVM.so.20.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	clang20
+repo	main
+file	clang20-libs-20.1.8-r3.apk
+checksum	Q1qg668TFXVjkSyRq5FWnKCavjPLI=
+dep	so:libLLVM.so.20.1	llvm20-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,15 @@
+name	flickcurl-dev
+version	1.26-r6
+description	C library for the Flickr API (development files)
+url	https://librdf.org/flickcurl/
+license	GPL-2.0
+size	135635
+installed-size	499776
+depends	flickcurl-libs=1.26-r6 pc:raptor2>=2.0.0 pkgconfig
+origin	flickcurl
+repo	community
+file	flickcurl-dev-1.26-r6.apk
+checksum	Q1g5b2tkRI1OMaeHHDHfhnxRXe29Y=
+dep	flickcurl-libs=1.26-r6	flickcurl-libs
+dep	pc:raptor2>=2.0.0	raptor2-dev
+dep	pkgconfig	pkgconf

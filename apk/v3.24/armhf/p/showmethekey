@@ -1,0 +1,29 @@
+name	showmethekey
+version	1.18.4-r0
+description	Show keys you typed on screen
+url	https://github.com/AlynxZhou/showmethekey
+license	Apache-2.0
+size	58483
+installed-size	144492
+depends	so:libX11.so.6 so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libevdev.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libinput.so.10 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libudev.so.1 so:libxkbcommon.so.0 so:libxkbregistry.so.0
+origin	showmethekey
+repo	community
+file	showmethekey-1.18.4-r0.apk
+checksum	Q1FdjG6SkSQ+so97wJ8dlxaayoq3I=
+dep	so:libX11.so.6	libx11
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libevdev.so.2	libevdev
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libinput.so.10	libinput-libs
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libudev.so.1	eudev-libs
+dep	so:libxkbcommon.so.0	libxkbcommon
+dep	so:libxkbregistry.so.0	libxkbcommon

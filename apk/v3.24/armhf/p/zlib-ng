@@ -1,0 +1,13 @@
+name	zlib-ng
+version	2.3.3-r0
+description	zlib replacement with optimizations for next generation systems
+url	https://github.com/zlib-ng/zlib-ng
+license	Zlib
+size	73454
+installed-size	128396
+depends	so:libc.musl-armhf.so.1
+origin	zlib-ng
+repo	main
+file	zlib-ng-2.3.3-r0.apk
+checksum	Q1aU8CPOTt1HwEd0343wVlhxvWGx0=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,17 @@
+name	tig
+version	2.6.1-r0
+description	Text-mode interface for the git revision control system
+url	https://jonas.github.io/tig/
+license	GPL-2.0-or-later
+size	204273
+installed-size	648077
+depends	git so:libc.musl-armhf.so.1 so:libncursesw.so.6 so:libpcre2-8.so.0 so:libpcre2-posix.so.3
+origin	tig
+repo	main
+file	tig-2.6.1-r0.apk
+checksum	Q14vU3lxECcDbAQlzCZT52QgdKu/0=
+dep	git	git
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libpcre2-posix.so.3	pcre2

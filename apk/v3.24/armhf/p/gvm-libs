@@ -1,0 +1,32 @@
+name	gvm-libs
+version	23.1.2-r0
+description	Greenbone Vulnerability Management Libraries
+url	https://www.openvas.org/
+license	GPL-2.0-or-later
+size	494604
+installed-size	1057660
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcjson.so.1 so:libcurl.so.4 so:libfreeradius-client.so.2 so:libgcrypt.so.20 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgnutls.so.30 so:libgobject-2.0.so.0 so:libgpgme.so.45 so:libhiredis.so.1.3.0 so:libldap.so.2 so:libnet.so.9 so:libpaho-mqtt3c.so.1 so:libpcap.so.1 so:libssh.so.4 so:libuuid.so.1 so:libxml2.so.2 so:libz.so.1
+origin	gvm-libs
+repo	community
+file	gvm-libs-23.1.2-r0.apk
+checksum	Q1VESRXTImt+FSmn9CW9ZPNukXLIU=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcjson.so.1	cjson
+dep	so:libcurl.so.4	libcurl
+dep	so:libfreeradius-client.so.2	freeradius-client
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgnutls.so.30	gnutls
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgpgme.so.45	gpgme
+dep	so:libhiredis.so.1.3.0	hiredis
+dep	so:libldap.so.2	libldap
+dep	so:libnet.so.9	libnet
+dep	so:libpaho-mqtt3c.so.1	paho-mqtt-c
+dep	so:libpcap.so.1	libpcap
+dep	so:libssh.so.4	libssh
+dep	so:libuuid.so.1	libuuid
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

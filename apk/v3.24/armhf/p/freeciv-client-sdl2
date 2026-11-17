@@ -1,0 +1,28 @@
+name	freeciv-client-sdl2
+version	3.2.4-r0
+description	Free and Open Source empire-building strategy game (sdl2 client)
+url	http://www.freeciv.org
+license	GPL-2.0-or-later
+size	1030756
+installed-size	2486282
+depends	freeciv-data freeciv-common-client freeciv-server so:libSDL2-2.0.so.0 so:libSDL2_gfx-1.0.so.0 so:libSDL2_image-2.0.so.0 so:libSDL2_mixer-2.0.so.0 so:libSDL2_ttf-2.0.so.0 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libicuuc.so.78 so:libintl.so.8 so:liblzma.so.5 so:libz.so.1 so:libzstd.so.1
+origin	freeciv
+repo	community
+file	freeciv-client-sdl2-3.2.4-r0.apk
+checksum	Q18ttndJ9WMyChzUQzVnSQEAtXXOs=
+dep	freeciv-data	freeciv-data
+dep	freeciv-common-client	freeciv-common-client
+dep	freeciv-server	freeciv-server
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libSDL2_gfx-1.0.so.0	sdl2_gfx
+dep	so:libSDL2_image-2.0.so.0	sdl2_image
+dep	so:libSDL2_mixer-2.0.so.0	sdl2_mixer
+dep	so:libSDL2_ttf-2.0.so.0	sdl2_ttf
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libintl.so.8	libintl
+dep	so:liblzma.so.5	xz-libs
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

@@ -1,0 +1,16 @@
+name	sccache-dist
+version	0.15.0-r1
+description	shared compilation cache for C/C++ and Rust (dist server)
+url	https://github.com/mozilla/sccache/
+license	Apache-2.0
+size	2103406
+installed-size	4350496
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
+origin	sccache
+repo	community
+file	sccache-dist-0.15.0-r1.apk
+checksum	Q1QrG/PpZUaaCORIXtw8koDd/Fx60=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3

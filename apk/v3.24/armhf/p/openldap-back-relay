@@ -1,0 +1,14 @@
+name	openldap-back-relay
+version	2.6.15-r0
+description	OpenLDAP relay backend
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	6519
+installed-size	14712
+depends	so:libc.musl-armhf.so.1 so:liblber.so.2
+origin	openldap
+repo	main
+file	openldap-back-relay-2.6.15-r0.apk
+checksum	Q18lw8vEdb2k14XERmxiAZOkJqfM8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap

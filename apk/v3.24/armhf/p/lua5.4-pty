@@ -1,0 +1,14 @@
+name	lua5.4-pty
+version	1.2.2-r3
+description	Lua module to control other programs via PTYs (for Lua 5.4)
+url	https://www.tset.de/lpty/
+license	MIT
+size	11558
+installed-size	21699
+depends	lua5.4 so:libc.musl-armhf.so.1
+origin	lua-pty
+repo	main
+file	lua5.4-pty-1.2.2-r3.apk
+checksum	Q1xYwvIXNS4hkO5PUDcMBFzbeAFMw=
+dep	lua5.4	lua5.4
+dep	so:libc.musl-armhf.so.1	musl

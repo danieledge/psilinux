@@ -1,0 +1,13 @@
+name	judo
+version	0.6-r23
+description	Simple orchestration & configuration management
+url	https://github.com/rollcat/judo
+license	MIT
+size	992468
+installed-size	2359476
+depends	so:libc.musl-armhf.so.1
+origin	judo
+repo	community
+file	judo-0.6-r23.apk
+checksum	Q1Kr+xSHh32Dgearn70k4xmg7qOK8=
+dep	so:libc.musl-armhf.so.1	musl

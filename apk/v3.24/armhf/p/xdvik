@@ -1,0 +1,21 @@
+name	xdvik
+version	2026.0-r0
+description	Xdvi from texlive, using the texlive libraries
+url	https://tug.org/texlive/
+license	GPL-2.0-or-later AND GPL-3.0-or-later
+size	290823
+installed-size	612161
+depends	texlive so:libX11.so.6 so:libXaw.so.7 so:libXmu.so.6 so:libXpm.so.4 so:libXt.so.6 so:libc.musl-armhf.so.1 so:libfreetype.so.6 so:libkpathsea.so.6
+origin	texlive
+repo	community
+file	xdvik-2026.0-r0.apk
+checksum	Q1cQpo+2UpsZGY/fhuuht0l1XvxJ8=
+dep	texlive	texlive
+dep	so:libX11.so.6	libx11
+dep	so:libXaw.so.7	libxaw
+dep	so:libXmu.so.6	libxmu
+dep	so:libXpm.so.4	libxpm
+dep	so:libXt.so.6	libxt
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreetype.so.6	freetype
+dep	so:libkpathsea.so.6	texlive

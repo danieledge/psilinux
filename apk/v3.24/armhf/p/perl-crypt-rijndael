@@ -1,0 +1,14 @@
+name	perl-crypt-rijndael
+version	1.16-r8
+description	Crypt::CBC compliant Rijndael encryption module
+url	https://metacpan.org/release/Crypt-Rijndael/
+license	LGPL-2.0-or-later
+size	14751
+installed-size	24754
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-crypt-rijndael
+repo	main
+file	perl-crypt-rijndael-1.16-r8.apk
+checksum	Q1g88J72Xjr24aNlXFHqyNEwug3po=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

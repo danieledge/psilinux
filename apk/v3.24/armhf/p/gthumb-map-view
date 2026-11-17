@@ -1,0 +1,22 @@
+name	gthumb-map-view
+version	3.12.8.1-r3
+description	gThumb extension for viewing the photo position on the map
+url	https://gitlab.gnome.org/GNOME/gthumb
+license	GPL-2.0-or-later
+size	18210
+installed-size	45001
+depends	gthumb=3.12.8.1-r3 so:libc.musl-armhf.so.1 so:libchamplain-0.12.so.0 so:libchamplain-gtk-0.12.so.0 so:libclutter-1.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8
+origin	gthumb
+repo	community
+file	gthumb-map-view-3.12.8.1-r3.apk
+checksum	Q1FvMltzMGnBT2OyDvCKGpYlbicAA=
+dep	gthumb=3.12.8.1-r3	gthumb
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libchamplain-0.12.so.0	libchamplain
+dep	so:libchamplain-gtk-0.12.so.0	libchamplain
+dep	so:libclutter-1.0.so.0	clutter
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl

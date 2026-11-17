@@ -1,0 +1,13 @@
+name	py3-babeltrace-pyc
+version	2.0.6-r1
+description	Precompiled Python bytecode for py3-babeltrace
+url	https://www.efficios.com/babeltrace
+license	MIT
+size	171257
+installed-size	617542
+depends	python3~3.14
+origin	babeltrace
+repo	community
+file	py3-babeltrace-pyc-2.0.6-r1.apk
+checksum	Q1Vlml8dByTi2cowRk5//QWDfq4s8=
+dep	python3~3.14	python3

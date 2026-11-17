@@ -1,0 +1,13 @@
+name	glslang-static
+version	1.4.341.0-r0
+description	Khronos reference front-end for GLSL, ESSL, and sample SPIR-V generator (static library)
+url	https://github.com/KhronosGroup/glslang
+license	BSD-3-Clause AND BSD-2-Clause AND MIT AND Apache-2.0 AND GPL-3.0-or-later
+size	1586557
+installed-size	5538844
+depends	glslang-dev
+origin	glslang
+repo	main
+file	glslang-static-1.4.341.0-r0.apk
+checksum	Q1jIsWMev+x/fg8SZyGWVIhVfn8ew=
+dep	glslang-dev	glslang-dev

@@ -1,0 +1,13 @@
+name	nfpm
+version	2.46.3-r2
+description	a simple apk, Deb and RPM packager without external dependencies
+url	https://nfpm.goreleaser.com/
+license	MIT
+size	6042600
+installed-size	15329436
+depends	so:libc.musl-armhf.so.1
+origin	nfpm
+repo	community
+file	nfpm-2.46.3-r2.apk
+checksum	Q1q91VI0z0xJ6Y1w+9Kp15z1/B0nE=
+dep	so:libc.musl-armhf.so.1	musl

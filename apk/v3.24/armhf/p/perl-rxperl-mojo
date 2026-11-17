@@ -1,0 +1,15 @@
+name	perl-rxperl-mojo
+version	6.8.2-r1
+description	Mojo::IOLoop adapter for RxPerl
+url	https://metacpan.org/release/RxPerl-Mojo/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	2876
+installed-size	2483
+depends	perl perl-mojolicious perl-rxperl
+origin	perl-rxperl-mojo
+repo	community
+file	perl-rxperl-mojo-6.8.2-r1.apk
+checksum	Q1zuyqgdlCWeORm3EdS+3fwGISwvQ=
+dep	perl	perl
+dep	perl-mojolicious	perl-mojolicious
+dep	perl-rxperl	perl-rxperl

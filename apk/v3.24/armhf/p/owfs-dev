@@ -1,0 +1,14 @@
+name	owfs-dev
+version	3.2_p4-r1
+description	OWFS — the one-wire filesystem (development files)
+url	https://github.com/owfs/owfs-doc/wiki
+license	GPL-2.0-only
+size	6536
+installed-size	13423
+depends	owfs=3.2_p4-r1 pkgconfig
+origin	owfs
+repo	community
+file	owfs-dev-3.2_p4-r1.apk
+checksum	Q1AZi/mXuUSzBhDdibtQnHAe5IEjM=
+dep	owfs=3.2_p4-r1	owfs
+dep	pkgconfig	pkgconf

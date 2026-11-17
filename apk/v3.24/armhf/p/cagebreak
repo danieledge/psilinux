@@ -1,0 +1,26 @@
+name	cagebreak
+version	3.2.0-r0
+description	Wayland tiling compositor inspired by Ratpoison
+url	https://github.com/project-repo/cagebreak
+license	MIT
+size	56620
+installed-size	131320
+depends	xwayland so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libevdev.so.2 so:libfontconfig.so.1 so:libgobject-2.0.so.0 so:libinput.so.10 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpixman-1.so.0 so:libudev.so.1 so:libwayland-server.so.0 so:libwlroots-0.20.so so:libxkbcommon.so.0
+origin	cagebreak
+repo	community
+file	cagebreak-3.2.0-r0.apk
+checksum	Q1k/X/1amfckEb8C9IJkM1y0LhKQk=
+dep	xwayland	xwayland
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libevdev.so.2	libevdev
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libinput.so.10	libinput-libs
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpixman-1.so.0	pixman
+dep	so:libudev.so.1	eudev-libs
+dep	so:libwayland-server.so.0	wayland-libs-server
+dep	so:libwlroots-0.20.so	wlroots0.20
+dep	so:libxkbcommon.so.0	libxkbcommon

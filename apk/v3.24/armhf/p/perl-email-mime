@@ -1,0 +1,20 @@
+name	perl-email-mime
+version	1.954-r0
+description	easy MIME message handling
+url	https://metacpan.org/release/Email-MIME/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	19526
+installed-size	78753
+depends	perl perl-email-mime-contenttype perl-email-mime-encodings perl-email-simple perl-email-messageid perl-mime-types perl-email-address-xs perl-module-runtime
+origin	perl-email-mime
+repo	community
+file	perl-email-mime-1.954-r0.apk
+checksum	Q19vCjIckky7o8hvKXk1m9ynwnla8=
+dep	perl	perl
+dep	perl-email-mime-contenttype	perl-email-mime-contenttype
+dep	perl-email-mime-encodings	perl-email-mime-encodings
+dep	perl-email-simple	perl-email-simple
+dep	perl-email-messageid	perl-email-messageid
+dep	perl-mime-types	perl-mime-types
+dep	perl-email-address-xs	perl-email-address-xs
+dep	perl-module-runtime	perl-module-runtime

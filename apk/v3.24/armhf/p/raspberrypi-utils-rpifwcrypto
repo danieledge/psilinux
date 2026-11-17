@@ -1,0 +1,14 @@
+name	raspberrypi-utils-rpifwcrypto
+version	0.20260811-r0
+description	A command line application for the firmware cryptography service.
+url	https://github.com/raspberrypi/utils
+license	BSD-3-Clause
+size	11768
+installed-size	31120
+depends	so:libc.musl-armhf.so.1 so:libgnutls.so.30
+origin	raspberrypi-utils
+repo	community
+file	raspberrypi-utils-rpifwcrypto-0.20260811-r0.apk
+checksum	Q18Dclj+MesfGEPK/+RQHwVBTiWqs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgnutls.so.30	gnutls

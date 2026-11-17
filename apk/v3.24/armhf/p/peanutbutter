@@ -1,0 +1,18 @@
+name	peanutbutter
+version	0.5.1-r0
+description	A lock screen for linux mobile - specially designed for Sxmo (sway edition)
+url	https://git.sr.ht/~anjan/peanutbutter
+license	AGPL-3.0-only
+size	314819
+installed-size	618632
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgcc_s.so.1 so:libgobject-2.0.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0
+origin	peanutbutter
+repo	community
+file	peanutbutter-0.5.1-r0.apk
+checksum	Q1U4gMd9Nbhp8dlEzGUKJ0tti9/Pc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango

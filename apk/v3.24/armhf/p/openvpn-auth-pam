@@ -1,0 +1,15 @@
+name	openvpn-auth-pam
+version	2.7.7-r0
+description	OpenVPN plugin for PAM authentication
+url	https://openvpn.net/
+license	GPL-2.0-only WITH openvpn-openssl-exception
+size	8210
+installed-size	14550
+depends	iproute2-minimal so:libc.musl-armhf.so.1 so:libpam.so.0
+origin	openvpn
+repo	main
+file	openvpn-auth-pam-2.7.7-r0.apk
+checksum	Q1sj+sverJZc5ImTy4sVCf+XLbM38=
+dep	iproute2-minimal	iproute2-minimal
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpam.so.0	linux-pam

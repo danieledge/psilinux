@@ -1,0 +1,14 @@
+name	homer-app
+version	1.5.10-r11
+description	HOMER 7.x Front-End and API Server
+url	http://sipcapture.io
+license	AGPL-3.0-or-later
+size	17625912
+installed-size	33389974
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	homer-app
+repo	community
+file	homer-app-1.5.10-r11.apk
+checksum	Q1pLL6J3InZT5bx6GyFsEoPClYBxM=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

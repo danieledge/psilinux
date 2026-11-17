@@ -1,0 +1,13 @@
+name	tinyalsa-static
+version	2.0.0-r4
+description	Tiny library to interface with ALSA in the Linux kernel (static library)
+url	https://github.com/tinyalsa/tinyalsa
+license	BSD-3-Clause
+size	19977
+installed-size	48422
+depends	tinyalsa-dev
+origin	tinyalsa
+repo	community
+file	tinyalsa-static-2.0.0-r4.apk
+checksum	Q1rrQTRnIUTU8jvsh5NRYqkShq2U4=
+dep	tinyalsa-dev	tinyalsa-dev

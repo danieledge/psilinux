@@ -1,0 +1,15 @@
+name	libbsd
+version	0.12.2-r0
+description	commonly-used BSD functions not implemented by all libcs
+url	https://libbsd.freedesktop.org/
+license	BSD-3-Clause
+size	29516
+installed-size	55304
+depends	musl so:libc.musl-armhf.so.1 so:libmd.so.0
+origin	libbsd
+repo	main
+file	libbsd-0.12.2-r0.apk
+checksum	Q13YtelqPfFb2e7AO3o9cbWn+KXrY=
+dep	musl	musl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmd.so.0	libmd

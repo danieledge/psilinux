@@ -1,0 +1,19 @@
+name	claws-mail-plugins-spamassassin
+version	4.4.0-r0
+description	GTK+ based e-mail client
+url	https://www.claws-mail.org
+license	GPL-3.0-or-later
+size	23778
+installed-size	47839
+depends	claws-mail=4.4.0-r0 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libz.so.1
+origin	claws-mail
+repo	community
+file	claws-mail-plugins-spamassassin-4.4.0-r0.apk
+checksum	Q1kI7+C5tesG/00N6WyznNgGAvH/o=
+dep	claws-mail=4.4.0-r0	claws-mail
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libz.so.1	zlib

@@ -1,0 +1,15 @@
+name	postgresql18-plperl-contrib
+version	18.7-r0
+description	PL/Perl extension modules distributed with PostgreSQL
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	6400
+installed-size	11046
+depends	postgresql18-plperl=18.7-r0 so:libc.musl-armhf.so.1 so:libperl.so
+origin	postgresql18
+repo	main
+file	postgresql18-plperl-contrib-18.7-r0.apk
+checksum	Q1qTpm8MV7bASz71lre4uVjZktrWM=
+dep	postgresql18-plperl=18.7-r0	postgresql18-plperl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libperl.so	perl

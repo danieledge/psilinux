@@ -1,0 +1,19 @@
+name	qt6-qtgrpc-dev
+version	6.11.1-r0
+description	Providing protobuf and gRPC support for Qt (development files)
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	158442
+installed-size	744529
+depends	protobuf-dev qt6-qtbase-dev qt6-qtbase-private-dev qt6-qtgrpc=6.11.1-r0 pc:Qt6Core pc:Qt6Network pkgconfig
+origin	qt6-qtgrpc
+repo	community
+file	qt6-qtgrpc-dev-6.11.1-r0.apk
+checksum	Q1vf0qhPhP5YbiOhDalZMgrQ6BZdc=
+dep	protobuf-dev	protobuf-dev
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	qt6-qtbase-private-dev	qt6-qtbase-private-dev
+dep	qt6-qtgrpc=6.11.1-r0	qt6-qtgrpc
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pc:Qt6Network	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,18 @@
+name	libdex
+version	1.1.0-r2
+description	Future-based programming for GLib-based applications
+url	https://gitlab.gnome.org/GNOME/libdex
+license	LGPL-2.1-or-later AND BSD-3-Clause
+size	55892
+installed-size	149406
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libucontext.so.1
+origin	libdex
+repo	community
+file	libdex-1.1.0-r2.apk
+checksum	Q1VDJNo0zqXq6UDxZu594gS0xOl4w=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libucontext.so.1	libucontext

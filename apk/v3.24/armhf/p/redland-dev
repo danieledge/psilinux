@@ -1,0 +1,20 @@
+name	redland-dev
+version	1.0.17-r3
+description	high-level RDF library (development files)
+url	https://librdf.org/
+license	LGPL-2.1-or-later
+size	149951
+installed-size	533049
+depends	raptor2-dev rasqal-dev sqlite-dev redland=1.0.17-r3 pc:raptor2>=2.0.7 pc:rasqal<=0.9.99 pc:rasqal>=0.9.25 pkgconfig
+origin	redland
+repo	community
+file	redland-dev-1.0.17-r3.apk
+checksum	Q1ILnEss6BHd0DpkCAw4wJqZA5U7M=
+dep	raptor2-dev	raptor2-dev
+dep	rasqal-dev	rasqal-dev
+dep	sqlite-dev	sqlite-dev
+dep	redland=1.0.17-r3	redland
+dep	pc:raptor2>=2.0.7	raptor2-dev
+dep	pc:rasqal<=0.9.99	rasqal-dev
+dep	pc:rasqal>=0.9.25	rasqal-dev
+dep	pkgconfig	pkgconf

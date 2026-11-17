@@ -1,0 +1,15 @@
+name	sipsak
+version	0.9.8.1-r1
+description	SIP swiss army knife
+url	https://github.com/nils-ohlmeier/sipsak
+license	GPL-2.0-or-later
+size	37672
+installed-size	84008
+depends	so:libc.musl-armhf.so.1 so:libcares.so.2 so:libcrypto.so.3
+origin	sipsak
+repo	main
+file	sipsak-0.9.8.1-r1.apk
+checksum	Q1j7dArfxLSM2+WOShQ+VQ06aouws=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcares.so.2	c-ares
+dep	so:libcrypto.so.3	libcrypto3

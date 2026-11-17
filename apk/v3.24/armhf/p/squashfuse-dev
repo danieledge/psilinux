@@ -1,0 +1,14 @@
+name	squashfuse-dev
+version	0.6.1-r1
+description	FUSE filesystem to mount squashfs archives (development files)
+url	https://github.com/vasi/squashfuse
+license	BSD-2-Clause
+size	55920
+installed-size	184123
+depends	squashfuse-libs=0.6.1-r1 pkgconfig
+origin	squashfuse
+repo	community
+file	squashfuse-dev-0.6.1-r1.apk
+checksum	Q1iBe4iVnyn/KhbXG6CyhoHsUw+DU=
+dep	squashfuse-libs=0.6.1-r1	squashfuse-libs
+dep	pkgconfig	pkgconf

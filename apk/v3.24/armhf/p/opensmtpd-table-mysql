@@ -1,0 +1,14 @@
+name	opensmtpd-table-mysql
+version	1.2.1-r0
+description	OpenSMTPD MySQL tables
+url	https://github.com/OpenSMTPD/table-mysql
+license	ISC
+size	11288
+installed-size	21868
+depends	so:libc.musl-armhf.so.1 so:libmariadb.so.3
+origin	opensmtpd-table-mysql
+repo	community
+file	opensmtpd-table-mysql-1.2.1-r0.apk
+checksum	Q191VhKw7IZrWboQmbEvqk8s8kgJw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmariadb.so.3	mariadb-connector-c

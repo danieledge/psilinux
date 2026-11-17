@@ -1,0 +1,15 @@
+name	ytfzf
+version	2.6.2-r0
+description	Posix script to find and watch Youtube videos from the terminal
+url	https://github.com/pystardust/ytfzf
+license	GPL-3.0-only
+size	56657
+installed-size	180490
+depends	curl jq /bin/sh
+origin	ytfzf
+repo	community
+file	ytfzf-2.6.2-r0.apk
+checksum	Q1Upk8yWo8DlvZVgAZhLdojS8Altc=
+dep	curl	curl
+dep	jq	jq
+dep	/bin/sh	busybox-binsh

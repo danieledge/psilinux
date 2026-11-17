@@ -1,0 +1,14 @@
+name	cargo2junit
+version	0.1.14-r0
+description	Converts cargo's json output to JUnit XML
+url	https://github.com/johnterickson/cargo2junit
+license	MIT
+size	262624
+installed-size	475746
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	cargo2junit
+repo	community
+file	cargo2junit-0.1.14-r0.apk
+checksum	Q1Q011DlFExG/J+4WKQRuMalr7OEk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

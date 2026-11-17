@@ -1,0 +1,15 @@
+name	qrtr-dev
+version	1.2-r1
+description	Userspace reference for net/qrtr in the Linux kernel (development files)
+url	https://github.com/linux-msm/qrtr
+license	BSD-3-Clause
+size	3680
+installed-size	5484
+depends	linux-headers qrtr-libs=1.2-r1 pkgconfig
+origin	qrtr
+repo	community
+file	qrtr-dev-1.2-r1.apk
+checksum	Q1OY9xTf0blyL2pLd1tiiCwC6CLF8=
+dep	linux-headers	linux-headers
+dep	qrtr-libs=1.2-r1	qrtr-libs
+dep	pkgconfig	pkgconf

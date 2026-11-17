@@ -1,0 +1,16 @@
+name	php84-xmlreader
+version	8.4.27-r0
+description	PHP84 extension: XMLReader
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	14878
+installed-size	38340
+depends	php84-common php84-dom so:libc.musl-armhf.so.1 so:libxml2.so.2
+origin	php84
+repo	community
+file	php84-xmlreader-8.4.27-r0.apk
+checksum	Q1Nf+4C5h3UYDMaVp4kJ+txAyS0/k=
+dep	php84-common	php84-common
+dep	php84-dom	php84-dom
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxml2.so.2	libxml2

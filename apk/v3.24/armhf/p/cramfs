@@ -1,0 +1,14 @@
+name	cramfs
+version	1.1-r7
+description	Linux filesystem designed to be simple, small, and to compress things well
+url	https://sourceforge.net/projects/cramfs/
+license	GPL-2.0-or-later
+size	14145
+installed-size	31092
+depends	so:libc.musl-armhf.so.1 so:libz.so.1
+origin	cramfs
+repo	main
+file	cramfs-1.1-r7.apk
+checksum	Q1k0++vLX/PKUy7HlFbmEIGAcBFdU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libz.so.1	zlib

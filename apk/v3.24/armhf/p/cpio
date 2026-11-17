@@ -1,0 +1,13 @@
+name	cpio
+version	2.15-r0
+description	tool to copy files into or out of a cpio or tar archive
+url	https://www.gnu.org/software/cpio
+license	GPL-3.0-or-later
+size	65830
+installed-size	134384
+depends	so:libc.musl-armhf.so.1
+origin	cpio
+repo	community
+file	cpio-2.15-r0.apk
+checksum	Q1xPqOnm/SF1mh3mmxF3aeIzpywgk=
+dep	so:libc.musl-armhf.so.1	musl

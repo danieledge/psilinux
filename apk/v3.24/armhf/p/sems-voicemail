@@ -1,0 +1,16 @@
+name	sems-voicemail
+version	2.1.0-r0
+description	Play greeting and record voicemail for SEMS
+url	https://github.com/sems-server/sems/
+license	GPL-2.0-or-later
+size	100948
+installed-size	275441
+depends	sems so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	sems
+repo	community
+file	sems-voicemail-2.1.0-r0.apk
+checksum	Q1fvjiacC+v54DJdQUgCZ+Cz4XUxs=
+dep	sems	sems
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

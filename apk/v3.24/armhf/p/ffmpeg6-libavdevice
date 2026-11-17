@@ -1,0 +1,26 @@
+name	ffmpeg6-libavdevice
+version	6.1.6-r0
+description	Complete and free Internet live audio and video broadcasting solution for Linux/Unix (libavdevice library)
+url	https://ffmpeg.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	48521
+installed-size	107928
+depends	so:libSDL2-2.0.so.0 so:libasound.so.2 so:libavcodec.so.60 so:libavfilter.so.9 so:libavformat.so.60 so:libavutil.so.58 so:libc.musl-armhf.so.1 so:libdrm.so.2 so:libpulse.so.0 so:libv4l2.so.0 so:libxcb-shape.so.0 so:libxcb-shm.so.0 so:libxcb-xfixes.so.0 so:libxcb.so.1
+origin	ffmpeg6
+repo	community
+file	ffmpeg6-libavdevice-6.1.6-r0.apk
+checksum	Q1GfPltxpwI5Hrism9OUfs99f1i74=
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libasound.so.2	alsa-lib
+dep	so:libavcodec.so.60	ffmpeg6-libavcodec
+dep	so:libavfilter.so.9	ffmpeg6-libavfilter
+dep	so:libavformat.so.60	ffmpeg6-libavformat
+dep	so:libavutil.so.58	ffmpeg6-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm.so.2	libdrm
+dep	so:libpulse.so.0	libpulse
+dep	so:libv4l2.so.0	v4l-utils-libs
+dep	so:libxcb-shape.so.0	libxcb
+dep	so:libxcb-shm.so.0	libxcb
+dep	so:libxcb-xfixes.so.0	libxcb
+dep	so:libxcb.so.1	libxcb

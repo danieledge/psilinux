@@ -1,0 +1,24 @@
+name	rspamd
+version	4.0.1-r0
+description	Fast, free and open-source spam filtering system
+url	https://rspamd.com/
+license	Apache-2.0 BSD-1-Clause BSD-2-Clause BSD-3-Clause CC0-1.0 LGPL-2.1-or-later LGPL-3.0-only MIT Zlib
+size	2461516
+installed-size	7937778
+depends	icu-data-full /bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:liblua-5.4.so.0 so:librspamd-ev.so so:librspamd-replxx.so so:librspamd-server.so so:libsodium.so.26 so:libsqlite3.so.0 so:libzstd.so.1
+origin	rspamd
+repo	community
+file	rspamd-4.0.1-r0.apk
+checksum	Q1H290sJk/MKy+/Rr43HQODYnMp9k=
+dep	icu-data-full	icu-data-full
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:liblua-5.4.so.0	lua5.4-libs
+dep	so:librspamd-ev.so	rspamd-libs
+dep	so:librspamd-replxx.so	rspamd-libs
+dep	so:librspamd-server.so	rspamd-libs
+dep	so:libsodium.so.26	libsodium
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libzstd.so.1	zstd-libs

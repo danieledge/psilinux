@@ -1,0 +1,16 @@
+name	sdl2_pango-dev
+version	2.1.5-r2
+description	Pango SDL binding (development files)
+url	https://github.com/markuskimius/SDL2_Pango
+license	LGPL-2.1-or-later
+size	3533
+installed-size	5382
+depends	pango-dev sdl2_pango=2.1.5-r2 pc:pango pkgconfig
+origin	sdl2_pango
+repo	community
+file	sdl2_pango-dev-2.1.5-r2.apk
+checksum	Q1vnHZA3k1yGNSIfgUzl98ptdipf0=
+dep	pango-dev	pango-dev
+dep	sdl2_pango=2.1.5-r2	sdl2_pango
+dep	pc:pango	pango-dev
+dep	pkgconfig	pkgconf

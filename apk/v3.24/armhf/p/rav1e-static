@@ -1,0 +1,13 @@
+name	rav1e-static
+version	0.8.1-r0
+description	The fastest and safest AV1 encoder (static library)
+url	https://github.com/xiph/rav1e
+license	BSD-2-Clause custom
+size	1126337
+installed-size	4344870
+depends	rav1e-dev
+origin	rav1e
+repo	community
+file	rav1e-static-0.8.1-r0.apk
+checksum	Q1GcGalghKgOPoNMFyVq3W76Yp8Lk=
+dep	rav1e-dev	rav1e-dev

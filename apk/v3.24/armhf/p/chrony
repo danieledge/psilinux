@@ -1,0 +1,17 @@
+name	chrony
+version	4.8-r7
+description	NTP client and server programs (without NTS and SHA/AES)
+url	https://chrony-project.org/
+license	GPL-2.0-or-later
+size	164382
+installed-size	306040
+depends	chrony-common=4.8-r7 /bin/sh so:libc.musl-armhf.so.1 so:libcap.so.2 so:libseccomp.so.2
+origin	chrony
+repo	main
+file	chrony-4.8-r7.apk
+checksum	Q10zZjPj52t5YMzejURGnhnRzqeHM=
+dep	chrony-common=4.8-r7	chrony-common
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libseccomp.so.2	libseccomp

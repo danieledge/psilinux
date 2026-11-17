@@ -1,0 +1,14 @@
+name	sscregistrygen
+version	2.0.0-r0
+description	Registry generator for the Qualcomm Snapdragon Sensor Core
+url	https://gitlab.com/flamingradian/sensh
+license	GPL-3.0-or-later
+size	5336
+installed-size	9496
+depends	so:libc.musl-armhf.so.1 so:libjson-c.so.5
+origin	sscregistrygen
+repo	community
+file	sscregistrygen-2.0.0-r0.apk
+checksum	Q1jJg9Kwhh5xbMlXO5QF+y/aruCKo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjson-c.so.5	json-c

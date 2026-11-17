@@ -1,0 +1,13 @@
+name	libidn2-static
+version	2.3.8-r0
+description	Encode/Decode library for internationalized domain names (static library)
+url	https://www.gnu.org/software/libidn#libidn2
+license	GPL-2.0-or-later OR LGPL-3.0-or-later
+size	113608
+installed-size	241376
+depends	libidn2-dev
+origin	libidn2
+repo	main
+file	libidn2-static-2.3.8-r0.apk
+checksum	Q1FtT5KsJ/4FKOQBDkT/Sg/ly6Hgw=
+dep	libidn2-dev	libidn2-dev

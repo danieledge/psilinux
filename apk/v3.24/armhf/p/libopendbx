@@ -1,0 +1,13 @@
+name	libopendbx
+version	1.4.6-r2
+description	Database abstraction layer
+url	https://www.linuxnetworks.de/doc/index.php/OpenDBX
+license	GPL-2.0-or-later
+size	5426
+installed-size	9388
+depends	so:libc.musl-armhf.so.1
+origin	opendbx
+repo	community
+file	libopendbx-1.4.6-r2.apk
+checksum	Q1w9GE2CgtxKb36I0Iq5E/PtPxm84=
+dep	so:libc.musl-armhf.so.1	musl

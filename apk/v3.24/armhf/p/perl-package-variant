@@ -1,0 +1,17 @@
+name	perl-package-variant
+version	1.003002-r4
+description	Parameterizable packages
+url	https://metacpan.org/release/Package-Variant/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6838
+installed-size	14796
+depends	perl perl-import-into perl-module-runtime perl-strictures perl-moo
+origin	perl-package-variant
+repo	community
+file	perl-package-variant-1.003002-r4.apk
+checksum	Q1NvnfWREVshycnnMwxDuWNhgDWY8=
+dep	perl	perl
+dep	perl-import-into	perl-import-into
+dep	perl-module-runtime	perl-module-runtime
+dep	perl-strictures	perl-strictures
+dep	perl-moo	perl-moo

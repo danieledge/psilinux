@@ -1,0 +1,31 @@
+name	mesa-demos
+version	9.0.0-r6
+description	Mesa demos
+url	https://mesa3d.org
+license	custom
+size	8305808
+installed-size	25038808
+depends	mesa-utils so:libEGL.so.1 so:libGL.so.1 so:libGLESv2.so.2 so:libGLU.so.1 so:libX11.so.6 so:libXext.so.6 so:libc.musl-armhf.so.1 so:libdecor-0.so.0 so:libdrm.so.2 so:libgbm.so.1 so:libgcc_s.so.1 so:libglut.so.3 so:libvulkan.so.1 so:libwayland-client.so.0 so:libwayland-egl.so.1 so:libxcb.so.1 so:libxkbcommon-x11.so.0 so:libxkbcommon.so.0
+origin	mesa-demos
+repo	community
+file	mesa-demos-9.0.0-r6.apk
+checksum	Q15VS5yb26SpdEKm4eg/JMghG8DTU=
+dep	mesa-utils	mesa-utils
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libGL.so.1	mesa-gl
+dep	so:libGLESv2.so.2	mesa-gles
+dep	so:libGLU.so.1	glu
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdecor-0.so.0	libdecor
+dep	so:libdrm.so.2	libdrm
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglut.so.3	freeglut
+dep	so:libvulkan.so.1	vulkan-loader
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-egl.so.1	wayland-libs-egl
+dep	so:libxcb.so.1	libxcb
+dep	so:libxkbcommon-x11.so.0	libxkbcommon-x11
+dep	so:libxkbcommon.so.0	libxkbcommon

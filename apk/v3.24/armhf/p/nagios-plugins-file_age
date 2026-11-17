@@ -1,0 +1,14 @@
+name	nagios-plugins-file_age
+version	2.5-r0
+description	Nagios plugin check_file_age
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	3592
+installed-size	5055
+depends	nagios-plugins perl
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-file_age-2.5-r0.apk
+checksum	Q17AiV4UatQfAUl0Nge3M8Zqy7KOc=
+dep	nagios-plugins	nagios-plugins
+dep	perl	perl

@@ -1,0 +1,20 @@
+name	thrift-dev
+version	0.23.0-r0
+description	Language-independent software stack for RPC implementation (development files)
+url	https://thrift.apache.org/
+license	Apache-2.0
+size	131705
+installed-size	699868
+depends	thrift=0.23.0-r0 libevent-dev libthrift-glib=0.23.0-r0 libthrift-qt=0.23.0-r0 libthrift=0.23.0-r0 libthriftnb=0.23.0-r0 libthriftz=0.23.0-r0 pkgconfig
+origin	thrift
+repo	community
+file	thrift-dev-0.23.0-r0.apk
+checksum	Q1/XWXI0rYAdTYD3ZFW4PtLMwfJcc=
+dep	thrift=0.23.0-r0	thrift
+dep	libevent-dev	libevent-dev
+dep	libthrift-glib=0.23.0-r0	libthrift-glib
+dep	libthrift-qt=0.23.0-r0	libthrift-qt
+dep	libthrift=0.23.0-r0	libthrift
+dep	libthriftnb=0.23.0-r0	libthriftnb
+dep	libthriftz=0.23.0-r0	libthriftz
+dep	pkgconfig	pkgconf

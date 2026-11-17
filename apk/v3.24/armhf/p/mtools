@@ -1,0 +1,13 @@
+name	mtools
+version	4.0.49-r0
+description	collection of utilities to access MS-DOS disks from Unix without mounting them
+url	https://www.gnu.org/software/mtools/
+license	GPL-3.0-or-later
+size	93191
+installed-size	179138
+depends	so:libc.musl-armhf.so.1
+origin	mtools
+repo	main
+file	mtools-4.0.49-r0.apk
+checksum	Q1ND2CnWGNl0LN4AZsPeCp1UQT6O8=
+dep	so:libc.musl-armhf.so.1	musl

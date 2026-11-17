@@ -1,0 +1,21 @@
+name	libaccounts-qt5
+version	1.17-r2
+description	Qt-based client library for the accounts database
+url	https://gitlab.com/accounts-sso/libaccounts-qt
+license	LGPL-2.1-or-later
+size	32328
+installed-size	91416
+depends	so:libQt5Core.so.5 so:libQt5Xml.so.5 so:libaccounts-glib.so.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libstdc++.so.6
+origin	libaccounts-qt
+repo	community
+file	libaccounts-qt5-1.17-r2.apk
+checksum	Q1TAkcl2wd/4UukNzahI4zwM65nhw=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Xml.so.5	qt5-qtbase
+dep	so:libaccounts-glib.so.0	libaccounts-glib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libstdc++.so.6	libstdc++

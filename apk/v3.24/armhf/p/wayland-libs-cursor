@@ -1,0 +1,14 @@
+name	wayland-libs-cursor
+version	1.25.0-r0
+description	A computer display server protocol (cursor library)
+url	https://wayland.freedesktop.org
+license	MIT
+size	9132
+installed-size	26108
+depends	so:libc.musl-armhf.so.1 so:libwayland-client.so.0
+origin	wayland
+repo	main
+file	wayland-libs-cursor-1.25.0-r0.apk
+checksum	Q15t3q/I2rjIeOzm0SKvvPeurKjEw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libwayland-client.so.0	wayland-libs-client

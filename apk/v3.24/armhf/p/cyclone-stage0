@@ -1,0 +1,14 @@
+name	cyclone-stage0
+version	0.36.0-r2
+description	Cyclone version used to initially bootstrap the Cyclone compiler
+url	https://justinethier.github.io/cyclone/
+license	MIT
+size	14901513
+installed-size	50686622
+depends	!cyclone so:libc.musl-armhf.so.1 so:libck.so.0
+origin	cyclone-stage0
+repo	community
+file	cyclone-stage0-0.36.0-r2.apk
+checksum	Q1FuWdD40++Cl1Mdch320fvm5NBx0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libck.so.0	ck

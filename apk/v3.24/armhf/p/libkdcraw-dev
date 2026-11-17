@@ -1,0 +1,15 @@
+name	libkdcraw-dev
+version	26.04.2-r0
+description	RAW image file format support for KDE (development files)
+url	https://kde.org
+license	GPL-2.0-or-later AND LGPL-2.0-or-later
+size	14092
+installed-size	42478
+depends	libraw-dev qt6-qtbase-dev libkdcraw=26.04.2-r0
+origin	libkdcraw
+repo	community
+file	libkdcraw-dev-26.04.2-r0.apk
+checksum	Q1nAhk0IYO8K5yWZF+WitdpvI9/uw=
+dep	libraw-dev	libraw-dev
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	libkdcraw=26.04.2-r0	libkdcraw

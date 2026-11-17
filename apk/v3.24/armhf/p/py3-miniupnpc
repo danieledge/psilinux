@@ -1,0 +1,14 @@
+name	py3-miniupnpc
+version	2.3.3-r2
+description	Python bindings for miniupnpc
+url	http://miniupnp.free.fr
+license	BSD-3-Clause
+size	29394
+installed-size	58862
+depends	python3~3.14 so:libc.musl-armhf.so.1
+origin	miniupnpc
+repo	community
+file	py3-miniupnpc-2.3.3-r2.apk
+checksum	Q1liNYBMz19VNgFGHBkgiQm/mwYhg=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

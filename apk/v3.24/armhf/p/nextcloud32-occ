@@ -1,0 +1,34 @@
+name	nextcloud32-occ
+version	32.0.15-r0
+description	Nextcloud OCC cmd
+url	https://nextcloud.com/
+license	AGPL-3.0-only
+size	2325
+installed-size	860
+depends	ca-certificates php83 php83-bcmath php83-ctype php83-curl php83-dom php83-gd php83-fileinfo php83-gmp php83-iconv php83-intl php83-mbstring php83-opcache php83-openssl php83-pcntl php83-posix php83-session php83-simplexml php83-xml php83-xmlreader php83-xmlwriter php83-zip
+origin	nextcloud32
+repo	community
+file	nextcloud32-occ-32.0.15-r0.apk
+checksum	Q1cwElxwpR4vLGggX56IjypP0zgeM=
+dep	ca-certificates	ca-certificates
+dep	php83	php83
+dep	php83-bcmath	php83-bcmath
+dep	php83-ctype	php83-ctype
+dep	php83-curl	php83-curl
+dep	php83-dom	php83-dom
+dep	php83-gd	php83-gd
+dep	php83-fileinfo	php83-fileinfo
+dep	php83-gmp	php83-gmp
+dep	php83-iconv	php83-iconv
+dep	php83-intl	php83-intl
+dep	php83-mbstring	php83-mbstring
+dep	php83-opcache	php83-opcache
+dep	php83-openssl	php83-openssl
+dep	php83-pcntl	php83-pcntl
+dep	php83-posix	php83-posix
+dep	php83-session	php83-session
+dep	php83-simplexml	php83-simplexml
+dep	php83-xml	php83-xml
+dep	php83-xmlreader	php83-xmlreader
+dep	php83-xmlwriter	php83-xmlwriter
+dep	php83-zip	php83-zip

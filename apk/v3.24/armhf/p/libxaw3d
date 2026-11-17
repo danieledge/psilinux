@@ -1,0 +1,17 @@
+name	libxaw3d
+version	1.6.6-r0
+description	3D appearance variant of the X Athena Widget Set
+url	https://gitlab.freedesktop.org/xorg/lib/libxaw3d
+license	MIT
+size	122700
+installed-size	262036
+depends	so:libX11.so.6 so:libXext.so.6 so:libXmu.so.6 so:libXt.so.6 so:libc.musl-armhf.so.1
+origin	libxaw3d
+repo	community
+file	libxaw3d-1.6.6-r0.apk
+checksum	Q1rJN9IDcxcFRuD9uV6mqVyfm+Nbs=
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXmu.so.6	libxmu
+dep	so:libXt.so.6	libxt
+dep	so:libc.musl-armhf.so.1	musl

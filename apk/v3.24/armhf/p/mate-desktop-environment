@@ -1,0 +1,39 @@
+name	mate-desktop-environment
+version	1.28.0-r1
+description	Metapackage for MATE desktop environment
+url	https://mate-desktop.org/
+license	GPL-2.0-or-later LGPL-2.0-or-later
+size	1435
+installed-size	0
+depends	caja caja-extensions>=1.28.0 marco>=1.28.0 mozo>=1.28.0 pluma>=1.28.0 mate-applets>=1.28.0 mate-backgrounds>=1.28.0 mate-control-center>=1.28.0 mate-desktop>=1.28.0 mate-icon-theme>=1.28.0 mate-media>=1.28.0 mate-menus>=1.28.0 mate-notification-daemon>=1.28.0 mate-panel>=1.28.0 mate-polkit>=1.28.0 mate-power-manager>=1.28.0 mate-screensaver>=1.28.0 mate-sensors-applet>=1.28.0 mate-session-manager>=1.28.0 mate-settings-daemon>=1.28.0 mate-system-monitor>=1.28.0 mate-terminal>=1.28.0 mate-themes>=1.28.0 mate-user-guide>=1.28.0 mate-utils>=1.28.0 mate-calc>=1.28.0 hicolor-icon-theme
+origin	mate-desktop-environment
+repo	community
+file	mate-desktop-environment-1.28.0-r1.apk
+checksum	Q1to4lDSWJR//xrOVbRDPXsvJyVwY=
+dep	caja	caja
+dep	caja-extensions>=1.28.0	caja-extensions
+dep	marco>=1.28.0	marco
+dep	mozo>=1.28.0	mozo
+dep	pluma>=1.28.0	pluma
+dep	mate-applets>=1.28.0	mate-applets
+dep	mate-backgrounds>=1.28.0	mate-backgrounds
+dep	mate-control-center>=1.28.0	mate-control-center
+dep	mate-desktop>=1.28.0	mate-desktop
+dep	mate-icon-theme>=1.28.0	mate-icon-theme
+dep	mate-media>=1.28.0	mate-media
+dep	mate-menus>=1.28.0	mate-menus
+dep	mate-notification-daemon>=1.28.0	mate-notification-daemon
+dep	mate-panel>=1.28.0	mate-panel
+dep	mate-polkit>=1.28.0	mate-polkit
+dep	mate-power-manager>=1.28.0	mate-power-manager
+dep	mate-screensaver>=1.28.0	mate-screensaver
+dep	mate-sensors-applet>=1.28.0	mate-sensors-applet
+dep	mate-session-manager>=1.28.0	mate-session-manager
+dep	mate-settings-daemon>=1.28.0	mate-settings-daemon
+dep	mate-system-monitor>=1.28.0	mate-system-monitor
+dep	mate-terminal>=1.28.0	mate-terminal
+dep	mate-themes>=1.28.0	mate-themes
+dep	mate-user-guide>=1.28.0	mate-user-guide
+dep	mate-utils>=1.28.0	mate-utils
+dep	mate-calc>=1.28.0	mate-calc
+dep	hicolor-icon-theme	hicolor-icon-theme

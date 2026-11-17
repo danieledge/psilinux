@@ -1,0 +1,14 @@
+name	cachefilesd-inotify
+version	0.11.1-r0
+description	Userspace daemon acting as a backend for FS-Cache (uses INOTIFY instead of DNOTIFY)
+url	https://gitlab.com/tomalok/cachefilesd-inotify
+license	GPL-2.0-or-later
+size	15025
+installed-size	30827
+depends	attr so:libc.musl-armhf.so.1
+origin	cachefilesd-inotify
+repo	community
+file	cachefilesd-inotify-0.11.1-r0.apk
+checksum	Q1hvdAUNaCU+9NGbGxvhEmerfaPPU=
+dep	attr	attr
+dep	so:libc.musl-armhf.so.1	musl

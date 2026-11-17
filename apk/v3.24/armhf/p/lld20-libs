@@ -1,0 +1,18 @@
+name	lld20-libs
+version	20.1.8-r1
+description	The LLVM Linker (libraries)
+url	https://llvm.org/
+license	Apache-2.0
+size	2525040
+installed-size	6415260
+depends	so:libLLVM.so.20.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
+origin	lld20
+repo	main
+file	lld20-libs-20.1.8-r1.apk
+checksum	Q1y3VpuYtuYz/jebNNDomi8CISOq8=
+dep	so:libLLVM.so.20.1	llvm20-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

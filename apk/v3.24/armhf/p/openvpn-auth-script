@@ -1,0 +1,14 @@
+name	openvpn-auth-script
+version	0_git20180315-r0
+description	OpenVPN plugin to auth connections using non-blocking external script
+url	https://github.com/fac/auth-script-openvpn
+license	Apache-2.0
+size	4590
+installed-size	9336
+depends	openvpn so:libc.musl-armhf.so.1
+origin	openvpn-auth-script
+repo	community
+file	openvpn-auth-script-0_git20180315-r0.apk
+checksum	Q1i5JNBKW5vqRhYWRh8CYM4pWdim0=
+dep	openvpn	openvpn
+dep	so:libc.musl-armhf.so.1	musl

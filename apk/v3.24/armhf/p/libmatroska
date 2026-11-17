@@ -1,0 +1,16 @@
+name	libmatroska
+version	1.7.1-r0
+description	Extensible multimedia container format based on EBML
+url	https://www.matroska.org/
+license	LGPL-2.1-or-later
+size	107578
+installed-size	382336
+depends	so:libc.musl-armhf.so.1 so:libebml.so.5 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libmatroska
+repo	community
+file	libmatroska-1.7.1-r0.apk
+checksum	Q1vE2ePN484MU2sb4n51XQX0Gy+Mk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libebml.so.5	libebml
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

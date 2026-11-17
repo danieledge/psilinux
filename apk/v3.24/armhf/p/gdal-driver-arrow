@@ -1,0 +1,17 @@
+name	gdal-driver-arrow
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats ((Geo)Arrow IPC File Format / Stream driver)
+url	https://gdal.org/
+license	MIT
+size	174748
+installed-size	443788
+depends	so:libarrow.so.2300 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libstdc++.so.6
+origin	gdal
+repo	community
+file	gdal-driver-arrow-3.13.3-r0.apk
+checksum	Q1chdjfeCYQ+uLDz4gRbAQauA3pGk=
+dep	so:libarrow.so.2300	libarrow
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libstdc++.so.6	libstdc++

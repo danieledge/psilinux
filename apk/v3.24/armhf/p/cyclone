@@ -1,0 +1,14 @@
+name	cyclone
+version	0.36.0-r3
+description	A compiler for application development with R7RS Scheme
+url	https://justinethier.github.io/cyclone/
+license	MIT
+size	8480150
+installed-size	28746533
+depends	so:libc.musl-armhf.so.1 so:libck.so.0
+origin	cyclone
+repo	community
+file	cyclone-0.36.0-r3.apk
+checksum	Q1trXupuRD/ACATmTJyywBclCpTSE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libck.so.0	ck

@@ -1,0 +1,13 @@
+name	salt-lts-minion-openrc
+version	3006.23-r1
+description	Client component for Salt, a parallel remote execution system (OpenRC init scripts)
+url	https://github.com/saltstack/salt
+license	Apache-2.0
+size	1870
+installed-size	319
+depends	openrc
+origin	salt-lts
+repo	community
+file	salt-lts-minion-openrc-3006.23-r1.apk
+checksum	Q172tFBhb4FC5r/jK2VFmaAJaFzyE=
+dep	openrc	openrc

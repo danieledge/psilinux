@@ -1,0 +1,16 @@
+name	ocaml-asn1-combinators-dev
+version	0.2.6-r5
+description	Embed typed ASN.1 grammars in OCaml (development files)
+url	https://github.com/mirleft/ocaml-asn1-combinators
+license	ISC
+size	587181
+installed-size	1400942
+depends	ocaml-asn1-combinators=0.2.6-r5 ocaml-cstruct-dev ocaml-ptime-dev ocaml-zarith
+origin	ocaml-asn1-combinators
+repo	community
+file	ocaml-asn1-combinators-dev-0.2.6-r5.apk
+checksum	Q1hylhAvBzQ81X5+9IOmCYZQIU8Ak=
+dep	ocaml-asn1-combinators=0.2.6-r5	ocaml-asn1-combinators
+dep	ocaml-cstruct-dev	ocaml-cstruct-dev
+dep	ocaml-ptime-dev	ocaml-ptime-dev
+dep	ocaml-zarith	ocaml-zarith

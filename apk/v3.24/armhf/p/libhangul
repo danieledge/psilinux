@@ -1,0 +1,14 @@
+name	libhangul
+version	0.2.0-r0
+description	Library for Korean input method logic
+url	https://github.com/libhangul/libhangul
+license	LGPL-2.1-or-later
+size	2444287
+installed-size	6518473
+depends	so:libc.musl-armhf.so.1 so:libintl.so.8
+origin	libhangul
+repo	community
+file	libhangul-0.2.0-r0.apk
+checksum	Q1ezzylPN9E+vLbXEjdp1K9kO2h0A=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libintl.so.8	libintl

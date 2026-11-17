@@ -1,0 +1,20 @@
+name	perl-test-lwp-useragent
+version	0.036-r1
+description	LWP::UserAgent subclass for simulating and testing network calls
+url	https://metacpan.org/release/Test-LWP-UserAgent/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	9990
+installed-size	25131
+depends	perl perl-http-date perl-http-message perl-libwww perl-namespace-clean perl-safe-isa perl-try-tiny perl-uri
+origin	perl-test-lwp-useragent
+repo	community
+file	perl-test-lwp-useragent-0.036-r1.apk
+checksum	Q1eKnWIwves46liYAqDKC79JM+SjE=
+dep	perl	perl
+dep	perl-http-date	perl-http-date
+dep	perl-http-message	perl-http-message
+dep	perl-libwww	perl-libwww
+dep	perl-namespace-clean	perl-namespace-clean
+dep	perl-safe-isa	perl-safe-isa
+dep	perl-try-tiny	perl-try-tiny
+dep	perl-uri	perl-uri

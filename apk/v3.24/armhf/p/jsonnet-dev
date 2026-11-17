@@ -1,0 +1,13 @@
+name	jsonnet-dev
+version	0.21.0-r0
+description	The data templating language (development files)
+url	https://jsonnet.org/
+license	Apache-2.0
+size	6505
+installed-size	21694
+depends	jsonnet-libs=0.21.0-r0
+origin	jsonnet
+repo	community
+file	jsonnet-dev-0.21.0-r0.apk
+checksum	Q1cIHgEDZixM+l+Kew2YLQFVh45Gw=
+dep	jsonnet-libs=0.21.0-r0	jsonnet-libs

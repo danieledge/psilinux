@@ -1,0 +1,25 @@
+name	gd-dev
+version	2.3.3-r10
+description	Library for the dynamic creation of images by programmers (development files)
+url	https://libgd.github.io/
+license	GD
+size	160618
+installed-size	544006
+depends	gd perl libgd=2.3.3-r10 pc:fontconfig pc:freetype2>=9.8.3 pc:libavif>=0.8.2 pc:libjpeg pc:libpng pc:libtiff-4 pc:libwebp>=0.2.0 pc:xpm pc:zlib pkgconfig
+origin	gd
+repo	main
+file	gd-dev-2.3.3-r10.apk
+checksum	Q16PS8sg457mdfgpJa7Ju9X0QsbLw=
+dep	gd	gd
+dep	perl	perl
+dep	libgd=2.3.3-r10	libgd
+dep	pc:fontconfig	fontconfig-dev
+dep	pc:freetype2>=9.8.3	freetype-dev
+dep	pc:libavif>=0.8.2	libavif-dev
+dep	pc:libjpeg	libjpeg-turbo-dev
+dep	pc:libpng	libpng-dev
+dep	pc:libtiff-4	tiff-dev
+dep	pc:libwebp>=0.2.0	libwebp-dev
+dep	pc:xpm	libxpm-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

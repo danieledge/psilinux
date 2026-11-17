@@ -1,0 +1,23 @@
+name	resources
+version	1.10.2-r1
+description	Powerful monitor for your system resources and processes
+url	https://gitlab.gnome.org/GNOME/Incubator/resources
+license	GPL-2.0-or-later
+size	2541515
+installed-size	5698443
+depends	lscpu so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8
+origin	resources
+repo	community
+file	resources-1.10.2-r1.apk
+checksum	Q13WSei44vh3paLL+zrZC4m0pHyhI=
+dep	lscpu	lscpu
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl

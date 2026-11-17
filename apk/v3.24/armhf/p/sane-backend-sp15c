@@ -1,0 +1,14 @@
+name	sane-backend-sp15c
+version	1.4.0-r4
+description	SANE backend for Fujitsu ScanPartner 15C flatbed scanner 
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	30817
+installed-size	59854
+depends	sane so:libc.musl-armhf.so.1
+origin	sane
+repo	community
+file	sane-backend-sp15c-1.4.0-r4.apk
+checksum	Q1WOuB4jdBsPDFyw/5k6TPngx8Dnw=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl

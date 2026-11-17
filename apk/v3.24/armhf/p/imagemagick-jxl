@@ -1,0 +1,17 @@
+name	imagemagick-jxl
+version	7.1.2.35-r0
+description	Collection of tools and libraries for many image formats (JpegXL support modules)
+url	https://imagemagick.org/
+license	ImageMagick
+size	13704
+installed-size	27062
+depends	so:libMagickCore-7.Q16HDRI.so.10 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libjxl.so.0.11 so:libjxl_threads.so.0.11
+origin	imagemagick
+repo	community
+file	imagemagick-jxl-7.1.2.35-r0.apk
+checksum	Q1IK3HecMDmCb5A4owwyrSD1VaWAU=
+dep	so:libMagickCore-7.Q16HDRI.so.10	imagemagick-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjxl.so.0.11	libjxl
+dep	so:libjxl_threads.so.0.11	libjxl

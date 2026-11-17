@@ -1,0 +1,17 @@
+name	dbus-glib
+version	0.114-r0
+description	GLib bindings for DBUS
+url	https://www.freedesktop.org/wiki/Software/DBusBindings
+license	AFL-2.1 OR GPL-2.0-or-later
+size	53412
+installed-size	128292
+depends	so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	dbus-glib
+repo	main
+file	dbus-glib-0.114-r0.apk
+checksum	Q1xe1BvCXYgwDBPKyUpK/lDa/3pU0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

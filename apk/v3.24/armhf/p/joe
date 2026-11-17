@@ -1,0 +1,14 @@
+name	joe
+version	4.8-r0
+description	Full featured terminal-based screen editor
+url	https://joe-editor.sourceforge.net/
+license	GPL-2.0-or-later
+size	550113
+installed-size	1703639
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	joe
+repo	main
+file	joe-4.8-r0.apk
+checksum	Q1nGuViX2YlgF+G0lP2Mngy07YepQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

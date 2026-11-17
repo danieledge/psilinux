@@ -1,0 +1,14 @@
+name	lxc-templates-legacy
+version	3.0.4-r0
+description	Legacy LXC container templates
+url	https://linuxcontainers.org
+license	LGPL-2.1-or-later
+size	122106
+installed-size	442686
+depends	bash tar
+origin	lxc-templates-legacy
+repo	main
+file	lxc-templates-legacy-3.0.4-r0.apk
+checksum	Q1Wj6FyGkohAb2w4yC/oEZbmZD3+c=
+dep	bash	bash
+dep	tar	tar

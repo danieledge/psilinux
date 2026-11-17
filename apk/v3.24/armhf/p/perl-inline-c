@@ -1,0 +1,15 @@
+name	perl-inline-c
+version	0.82-r4
+description	C Language Support for Inline
+url	https://metacpan.org/release/Inline-C/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	40301
+installed-size	119192
+depends	perl perl-parse-recdescent perl-inline
+origin	perl-inline-c
+repo	main
+file	perl-inline-c-0.82-r4.apk
+checksum	Q1V1pD31fLYoKBTe4j3oYqkxVItlI=
+dep	perl	perl
+dep	perl-parse-recdescent	perl-parse-recdescent
+dep	perl-inline	perl-inline

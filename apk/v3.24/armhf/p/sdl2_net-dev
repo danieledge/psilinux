@@ -1,0 +1,15 @@
+name	sdl2_net-dev
+version	2.2.0-r0
+description	A small sample cross-platform networking library (development files)
+url	https://github.com/libsdl-org/SDL_net
+license	Zlib
+size	14015
+installed-size	45759
+depends	sdl2_net=2.2.0-r0 pc:sdl2>=2.0.4 pkgconfig
+origin	sdl2_net
+repo	community
+file	sdl2_net-dev-2.2.0-r0.apk
+checksum	Q1zsZf8Aw0f0SLSihBJWshnKbNQe0=
+dep	sdl2_net=2.2.0-r0	sdl2_net
+dep	pc:sdl2>=2.0.4	sdl2-compat-dev
+dep	pkgconfig	pkgconf

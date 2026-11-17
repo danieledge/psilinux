@@ -1,0 +1,13 @@
+name	kcgi-static
+version	1.0.1-r0
+description	CGI and FastCGI library for C/C++ web applications (static library)
+url	https://kristaps.bsd.lv/kcgi
+license	ISC
+size	91339
+installed-size	216278
+depends	kcgi-dev
+origin	kcgi
+repo	community
+file	kcgi-static-1.0.1-r0.apk
+checksum	Q1s3XqSQzO46uPj5WGsAkYjbqNOZ4=
+dep	kcgi-dev	kcgi-dev

@@ -1,0 +1,26 @@
+name	dosbox-staging
+version	0.82.2-r1
+description	revitalized dosbox DOS-emulator
+url	https://dosbox-staging.github.io/
+license	GPL-2.0-or-later
+size	2639877
+installed-size	14151923
+depends	so:libGL.so.1 so:libSDL2-2.0.so.0 so:libSDL2_net-2.0.so.0 so:libasound.so.2 so:libc.musl-armhf.so.1 so:libfluidsynth.so.3 so:libgcc_s.so.1 so:libiir.so.1 so:libopusfile.so.0 so:libpng16.so.16 so:libslirp.so.0 so:libspeexdsp.so.1 so:libstdc++.so.6 so:libz.so.1
+origin	dosbox-staging
+repo	community
+file	dosbox-staging-0.82.2-r1.apk
+checksum	Q1CqDhPmyMuOURBWUqrVXFoNor9N8=
+dep	so:libGL.so.1	mesa-gl
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libSDL2_net-2.0.so.0	sdl2_net
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfluidsynth.so.3	fluidsynth-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libiir.so.1	iir1
+dep	so:libopusfile.so.0	opusfile
+dep	so:libpng16.so.16	libpng
+dep	so:libslirp.so.0	libslirp
+dep	so:libspeexdsp.so.1	speexdsp
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

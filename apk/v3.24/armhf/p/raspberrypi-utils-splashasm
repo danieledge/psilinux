@@ -1,0 +1,13 @@
+name	raspberrypi-utils-splashasm
+version	0.20260811-r0
+description	A tool for writing spi & i2c dumps for fast display at boot
+url	https://github.com/raspberrypi/utils
+license	BSD-3-Clause
+size	10483
+installed-size	31503
+depends	so:libc.musl-armhf.so.1
+origin	raspberrypi-utils
+repo	community
+file	raspberrypi-utils-splashasm-0.20260811-r0.apk
+checksum	Q1LGrptf5IrZJsFqyGgvcLiQ9/7OI=
+dep	so:libc.musl-armhf.so.1	musl

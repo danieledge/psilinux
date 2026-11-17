@@ -1,0 +1,14 @@
+name	haproxy-dataplaneapi3
+version	3.2.5-r8
+description	HAProxy data plane API
+url	https://github.com/haproxytech/dataplaneapi
+license	Apache-2.0
+size	11894141
+installed-size	41621697
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	haproxy-dataplaneapi3
+repo	community
+file	haproxy-dataplaneapi3-3.2.5-r8.apk
+checksum	Q1F6ptf8cZYAWpifAoyt/g47oXp9c=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	olm
+version	3.2.16-r2
+description	Implementation of the olm and megolm cryptographic ratchets
+url	https://gitlab.matrix.org/matrix-org/olm
+license	Apache-2.0
+size	99660
+installed-size	164148
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	olm
+repo	community
+file	olm-3.2.16-r2.apk
+checksum	Q12s2JHidkRSRqmFZaHTKE32pdSL0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

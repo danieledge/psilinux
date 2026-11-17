@@ -1,0 +1,18 @@
+name	qt6-qtbase-mysql
+version	6.11.1-r0
+description	MySQL driver for Qt6's SQL classes
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	33546
+installed-size	79964
+depends	tzdata so:libQt6Core.so.6 so:libQt6Sql.so.6 so:libc.musl-armhf.so.1 so:libmariadb.so.3 so:libstdc++.so.6
+origin	qt6-qtbase
+repo	community
+file	qt6-qtbase-mysql-6.11.1-r0.apk
+checksum	Q1tfYGRN4vqz9ZfhdpZfu/ql1dCJU=
+dep	tzdata	tzdata
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Sql.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmariadb.so.3	mariadb-connector-c
+dep	so:libstdc++.so.6	libstdc++

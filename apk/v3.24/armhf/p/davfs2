@@ -1,0 +1,15 @@
+name	davfs2
+version	1.7.2-r0
+description	Linux FUSE (or coda) driver that allows you to mount a WebDAV resource
+url	http://savannah.nongnu.org/projects/davfs2
+license	GPL-3.0-or-later
+size	59159
+installed-size	127366
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libneon.so.27
+origin	davfs2
+repo	community
+file	davfs2-1.7.2-r0.apk
+checksum	Q1tZX/ve9hkP9xsx3rOLPHXgvxD70=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libneon.so.27	neon

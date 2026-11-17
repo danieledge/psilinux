@@ -1,0 +1,25 @@
+name	weston-backend-drm
+version	14.0.2-r5
+description	Weston backend: drm
+url	https://wayland.freedesktop.org/
+license	MIT
+size	64058
+installed-size	137232
+depends	so:libc.musl-armhf.so.1 so:libdisplay-info.so.3 so:libdrm.so.2 so:libgbm.so.1 so:libinput.so.10 so:libpixman-1.so.0 so:libseat.so.1 so:libudev.so.1 so:libva-drm.so.2 so:libva.so.2 so:libwayland-client.so.0 so:libwayland-server.so.0 so:libweston-14.so.0
+origin	weston
+repo	community
+file	weston-backend-drm-14.0.2-r5.apk
+checksum	Q1uS6bPXAdf0xuSBD8YT34e1RRtzU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdisplay-info.so.3	libdisplay-info
+dep	so:libdrm.so.2	libdrm
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libinput.so.10	libinput-libs
+dep	so:libpixman-1.so.0	pixman
+dep	so:libseat.so.1	libseat
+dep	so:libudev.so.1	eudev-libs
+dep	so:libva-drm.so.2	libva
+dep	so:libva.so.2	libva
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-server.so.0	wayland-libs-server
+dep	so:libweston-14.so.0	libweston

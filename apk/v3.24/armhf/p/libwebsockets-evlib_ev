@@ -1,0 +1,15 @@
+name	libwebsockets-evlib_ev
+version	4.3.5-r2
+description	libwebsocket evlib_ev plugin
+url	https://libwebsockets.org/
+license	MIT
+size	5343
+installed-size	9388
+depends	so:libc.musl-armhf.so.1 so:libev.so.4 so:libwebsockets.so.19
+origin	libwebsockets
+repo	main
+file	libwebsockets-evlib_ev-4.3.5-r2.apk
+checksum	Q1XFWb6Pb9IIrubepSVjYNEKpdygI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libev.so.4	libev
+dep	so:libwebsockets.so.19	libwebsockets

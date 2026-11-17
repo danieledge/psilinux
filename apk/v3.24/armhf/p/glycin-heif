@@ -1,0 +1,16 @@
+name	glycin-heif
+version	2.1.5-r0
+description	Sandboxed and extendable image decoding (glycin-heif loader)
+url	https://gitlab.gnome.org/GNOME/glycin
+license	MPL-2.0 OR LGPL-2.0-or-later
+size	782364
+installed-size	1770627
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:libseccomp.so.2
+origin	glycin
+repo	community
+file	glycin-heif-2.1.5-r0.apk
+checksum	Q1XeVoFkuk9uZs3xlQNwvDS4YfD4s=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libheif.so.1	libheif
+dep	so:libseccomp.so.2	libseccomp

@@ -1,0 +1,14 @@
+name	py3-typing-inspection
+version	0.4.2-r1
+description	Provides tools to inspect type annotations at runtime
+url	https://github.com/pydantic/typing-inspection
+license	MIT
+size	13972
+installed-size	53614
+depends	py3-typing-extensions python3~3.14
+origin	py3-typing-inspection
+repo	community
+file	py3-typing-inspection-0.4.2-r1.apk
+checksum	Q1zsbmi8wyoHdVbYHlZaTmGOq/XtQ=
+dep	py3-typing-extensions	py3-typing-extensions
+dep	python3~3.14	python3

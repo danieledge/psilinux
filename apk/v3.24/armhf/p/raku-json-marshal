@@ -1,0 +1,16 @@
+name	raku-json-marshal
+version	0.0.25-r3
+description	Simple serialization of Objects into JSON
+url	https://github.com/jonathanstowe/JSON-Marshal
+license	Artistic-2.0
+size	72748
+installed-size	259068
+depends	rakudo raku-json-fast raku-json-name raku-json-optin
+origin	raku-json-marshal
+repo	community
+file	raku-json-marshal-0.0.25-r3.apk
+checksum	Q1ow33d+LXj965llsgEYj7KcxHx7s=
+dep	rakudo	rakudo
+dep	raku-json-fast	raku-json-fast
+dep	raku-json-name	raku-json-name
+dep	raku-json-optin	raku-json-optin

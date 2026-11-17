@@ -1,0 +1,15 @@
+name	gadget-tool
+version	0_git20220508-r4
+description	Linux command line tool for setting USB gadget using configFS
+url	https://github.com/linux-usb-gadgets/gt
+license	Apache-2.0
+size	25434
+installed-size	65338
+depends	so:libc.musl-armhf.so.1 so:libconfig.so.15 so:libusbgx.so.3
+origin	gadget-tool
+repo	community
+file	gadget-tool-0_git20220508-r4.apk
+checksum	Q14gyZhg5/eUdoPaVQwLplfjZFlDY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libconfig.so.15	libconfig
+dep	so:libusbgx.so.3	libusbgx

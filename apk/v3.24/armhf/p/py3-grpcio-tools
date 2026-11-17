@@ -1,0 +1,22 @@
+name	py3-grpcio-tools
+version	1.78.1-r2
+description	Python protobuf generator for GRPC
+url	https://grpc.io/
+license	Apache-2.0 AND BSD-3-Clause AND MIT
+size	145409
+installed-size	375335
+depends	py3-grpcio python3~3.14 so:libabsl_hash.so.2508.0.0 so:libabsl_raw_hash_set.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libprotobuf.so.31 so:libprotoc.so.31 so:libstdc++.so.6 so:libutf8_range.so.31.1.0
+origin	grpc
+repo	community
+file	py3-grpcio-tools-1.78.1-r2.apk
+checksum	Q1dNij3Z4fjKr9MHN7K4EfZVjGiF4=
+dep	py3-grpcio	py3-grpcio
+dep	python3~3.14	python3
+dep	so:libabsl_hash.so.2508.0.0	abseil-cpp-hash
+dep	so:libabsl_raw_hash_set.so.2508.0.0	abseil-cpp-raw-hash-set
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libprotobuf.so.31	libprotobuf
+dep	so:libprotoc.so.31	libprotoc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libutf8_range.so.31.1.0	protobuf

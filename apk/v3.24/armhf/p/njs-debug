@@ -1,0 +1,17 @@
+name	njs-debug
+version	0.9.9-r0
+description	njs built with additional runtime checks and debug symbols
+url	https://nginx.org/en/docs/njs/
+license	BSD-2-Clause
+size	366750
+installed-size	930712
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libedit.so.0 so:libpcre2-8.so.0 so:libz.so.1
+origin	njs
+repo	community
+file	njs-debug-0.9.9-r0.apk
+checksum	Q1dIVxugNZzfU0StjT/AjnPvfPsyE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libedit.so.0	libedit
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libz.so.1	zlib

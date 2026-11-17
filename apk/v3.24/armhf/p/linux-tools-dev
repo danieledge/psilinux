@@ -1,0 +1,17 @@
+name	linux-tools-dev
+version	7.1.5-r0
+description	Linux kernel tools meta package (development files)
+url	https://www.kernel.org/
+license	GPL-2.0-only
+size	34061
+installed-size	92992
+depends	pciutils-dev readline-dev gettext-dev cpupower=7.1.5-r0 linux-tools-usbip=7.1.5-r0
+origin	linux-tools
+repo	main
+file	linux-tools-dev-7.1.5-r0.apk
+checksum	Q16BmflsAdLvpee9UKC4t7gHNV6RM=
+dep	pciutils-dev	pciutils-dev
+dep	readline-dev	readline-dev
+dep	gettext-dev	gettext-dev
+dep	cpupower=7.1.5-r0	cpupower
+dep	linux-tools-usbip=7.1.5-r0	linux-tools-usbip

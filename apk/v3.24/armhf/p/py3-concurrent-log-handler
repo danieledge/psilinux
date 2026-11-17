@@ -1,0 +1,14 @@
+name	py3-concurrent-log-handler
+version	0.9.29-r1
+description	RotatingFileHandler replacement with concurrency, gzip and Windows support
+url	https://pypi.python.org/project/concurrent-log-handler
+license	Apache-2.0
+size	32434
+installed-size	101771
+depends	py3-portalocker python3~3.14
+origin	py3-concurrent-log-handler
+repo	community
+file	py3-concurrent-log-handler-0.9.29-r1.apk
+checksum	Q1I1PVrs9sbkPT962nTxOzEdBVrMo=
+dep	py3-portalocker	py3-portalocker
+dep	python3~3.14	python3

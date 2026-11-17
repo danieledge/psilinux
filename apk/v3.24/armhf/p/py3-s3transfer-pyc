@@ -1,0 +1,13 @@
+name	py3-s3transfer-pyc
+version	0.16.0-r1
+description	Precompiled Python bytecode for py3-s3transfer
+url	https://github.com/boto/s3transfer
+license	Apache-2.0
+size	130048
+installed-size	340338
+depends	python3~3.14
+origin	py3-s3transfer
+repo	community
+file	py3-s3transfer-pyc-0.16.0-r1.apk
+checksum	Q1MQRNNY3N9biBY7zKZ44nXpj8fN8=
+dep	python3~3.14	python3

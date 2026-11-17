@@ -1,0 +1,15 @@
+name	ocaml-uuseg-dev
+version	14.0.0-r5
+description	Unicode text segmentation for OCaml (development files)
+url	https://erratique.ch/software/uuseg
+license	ISC
+size	46978
+installed-size	144905
+depends	ocaml-uuseg=14.0.0-r5 ocaml-uucp-dev ocaml-uutf-dev
+origin	ocaml-uuseg
+repo	community
+file	ocaml-uuseg-dev-14.0.0-r5.apk
+checksum	Q1yjwUbQ53WoBlxLFY8scJ5j6/FvI=
+dep	ocaml-uuseg=14.0.0-r5	ocaml-uuseg
+dep	ocaml-uucp-dev	ocaml-uucp-dev
+dep	ocaml-uutf-dev	ocaml-uutf-dev

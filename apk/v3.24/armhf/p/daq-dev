@@ -1,0 +1,14 @@
+name	daq-dev
+version	3.0.19-r0
+description	Data Acquisition library - packet I/O library (development files)
+url	https://www.snort.org/
+license	GPL-2.0-only
+size	30781
+installed-size	94779
+depends	daq=3.0.19-r0 pkgconfig
+origin	daq
+repo	main
+file	daq-dev-3.0.19-r0.apk
+checksum	Q1xrqRZZc6qAY41+3Itqonsp7F+t8=
+dep	daq=3.0.19-r0	daq
+dep	pkgconfig	pkgconf

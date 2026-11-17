@@ -1,0 +1,18 @@
+name	libimobiledevice-dev
+version	1.4.0-r0
+description	Library that talks iPhone and iPod Touch protocols on Linux (development files)
+url	https://libimobiledevice.org
+license	LGPL-2.1-or-later
+size	45521
+installed-size	278916
+depends	libimobiledevice=1.4.0-r0 pc:libimobiledevice-glue-1.0>=1.3.0 pc:libplist-2.0>=2.3.0 pc:libusbmuxd-2.0>=2.0.2 pc:openssl>=0.9.8 pkgconfig
+origin	libimobiledevice
+repo	community
+file	libimobiledevice-dev-1.4.0-r0.apk
+checksum	Q1UhXROeLycOBgWie5txwpHEtOhuY=
+dep	libimobiledevice=1.4.0-r0	libimobiledevice
+dep	pc:libimobiledevice-glue-1.0>=1.3.0	libimobiledevice-glue-dev
+dep	pc:libplist-2.0>=2.3.0	libplist-dev
+dep	pc:libusbmuxd-2.0>=2.0.2	libusbmuxd-dev
+dep	pc:openssl>=0.9.8	openssl-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,13 @@
+name	dropbear-convert
+version	2026.91-r0
+description	dropbear dropbearconvert command
+url	https://matt.ucc.asn.au/dropbear/dropbear.html
+license	MIT
+size	74377
+installed-size	144772
+depends	so:libc.musl-armhf.so.1
+origin	dropbear
+repo	main
+file	dropbear-convert-2026.91-r0.apk
+checksum	Q1iLIT53wnBNT1hBk5yuJyXeP6xBM=
+dep	so:libc.musl-armhf.so.1	musl

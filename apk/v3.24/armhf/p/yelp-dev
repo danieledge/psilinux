@@ -1,0 +1,26 @@
+name	yelp-dev
+version	49.1-r0
+description	Help browser for GNOME desktop (development files)
+url	https://apps.gnome.org/Yelp
+license	GPL-2.0-or-later
+size	8974
+installed-size	49799
+depends	yelp=49.1-r0 pc:bzip2 pc:gio-2.0>=2.67.4 pc:gio-unix-2.0 pc:gtk4>=4.16.0 pc:libadwaita-1>=1.6.0 pc:libexslt>=0.8.1 pc:liblzma>=4.9 pc:libxml-2.0>=2.6.5 pc:libxslt>=1.1.4 pc:sqlite3 pc:webkitgtk-6.0 pc:yelp-xsl>=42.3 pkgconfig
+origin	yelp
+repo	community
+file	yelp-dev-49.1-r0.apk
+checksum	Q1Zidaup977w+cEvvp+Zq4TcNEKOo=
+dep	yelp=49.1-r0	yelp
+dep	pc:bzip2	bzip2-dev
+dep	pc:gio-2.0>=2.67.4	glib-dev
+dep	pc:gio-unix-2.0	glib-dev
+dep	pc:gtk4>=4.16.0	gtk4.0-dev
+dep	pc:libadwaita-1>=1.6.0	libadwaita-dev
+dep	pc:libexslt>=0.8.1	libxslt-dev
+dep	pc:liblzma>=4.9	xz-dev
+dep	pc:libxml-2.0>=2.6.5	libxml2-dev
+dep	pc:libxslt>=1.1.4	libxslt-dev
+dep	pc:sqlite3	sqlite-dev
+dep	pc:webkitgtk-6.0	webkit2gtk-6.0-dev
+dep	pc:yelp-xsl>=42.3	yelp-xsl
+dep	pkgconfig	pkgconf

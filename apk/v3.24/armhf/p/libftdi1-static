@@ -1,0 +1,13 @@
+name	libftdi1-static
+version	1.5-r5
+description	A library to talk to FTDI chips (static library)
+url	https://www.intra2net.com/en/developer/libftdi/download.php
+license	LGPL-2.1-or-later AND GPL-2.0-only
+size	25973
+installed-size	57710
+depends	libftdi1-dev
+origin	libftdi1
+repo	community
+file	libftdi1-static-1.5-r5.apk
+checksum	Q1tr3ROdk29bZWyG6UigxbVAM6rmM=
+dep	libftdi1-dev	libftdi1-dev

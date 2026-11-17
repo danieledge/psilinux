@@ -1,0 +1,14 @@
+name	rshijack
+version	0.5.2-r0
+description	TCP connection hijacker, Rust rewrite of shijack
+url	https://github.com/kpcyrd/rshijack
+license	GPL-3.0-or-later
+size	598198
+installed-size	1163080
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	rshijack
+repo	community
+file	rshijack-0.5.2-r0.apk
+checksum	Q1T8TzBmesvQzh2Z1AIOdis31eeeI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

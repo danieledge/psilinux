@@ -1,0 +1,15 @@
+name	rbw
+version	1.15.0-r0
+description	Unofficial command line client for Bitwarden.
+url	https://git.tozt.net/rbw
+license	MIT
+size	3850169
+installed-size	8060800
+depends	pinentry so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	rbw
+repo	community
+file	rbw-1.15.0-r0.apk
+checksum	Q1KHymOYrLfgXQCo74JsmRHsiR+u0=
+dep	pinentry	pinentry
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

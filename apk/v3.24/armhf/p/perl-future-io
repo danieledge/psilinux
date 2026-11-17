@@ -1,0 +1,15 @@
+name	perl-future-io
+version	0.23-r0
+description	Future-returning IO methods
+url	https://metacpan.org/release/Future-IO/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	14385
+installed-size	43118
+depends	perl perl-future perl-struct-dumb
+origin	perl-future-io
+repo	community
+file	perl-future-io-0.23-r0.apk
+checksum	Q15Q/DKqHnJwSCeCab7Ch9kRfITIM=
+dep	perl	perl
+dep	perl-future	perl-future
+dep	perl-struct-dumb	perl-struct-dumb

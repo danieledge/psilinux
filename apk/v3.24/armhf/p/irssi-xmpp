@@ -1,0 +1,16 @@
+name	irssi-xmpp
+version	0.54-r4
+description	An irssi plugin to connect to the Jabber network
+url	https://github.com/cdidier/irssi-xmpp
+license	GPL-2.0-only
+size	64695
+installed-size	150779
+depends	irssi so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libloudmouth-1.so.0
+origin	irssi-xmpp
+repo	community
+file	irssi-xmpp-0.54-r4.apk
+checksum	Q1d5T5D2vf19Lux0eYGps/uAVnakc=
+dep	irssi	irssi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libloudmouth-1.so.0	loudmouth

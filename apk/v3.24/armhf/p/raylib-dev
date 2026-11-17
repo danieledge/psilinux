@@ -1,0 +1,15 @@
+name	raylib-dev
+version	5.0-r0
+description	a simple and easy to use game development library (development files)
+url	https://www.raylib.com
+license	Zlib
+size	87676
+installed-size	421054
+depends	raylib=5.0-r0 pc:glfw3 pkgconfig
+origin	raylib
+repo	community
+file	raylib-dev-5.0-r0.apk
+checksum	Q1NEN861Dfgu36t85ifK2BuUqXVmA=
+dep	raylib=5.0-r0	raylib
+dep	pc:glfw3	glfw-dev
+dep	pkgconfig	pkgconf

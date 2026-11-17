@@ -1,0 +1,13 @@
+name	duplicity-pyc
+version	3.0.7-r1
+description	Precompiled Python bytecode for duplicity
+url	https://duplicity.gitlab.io/duplicity-web/
+license	GPL-2.0-or-later
+size	515499
+installed-size	1275208
+depends	python3~3.14
+origin	duplicity
+repo	community
+file	duplicity-pyc-3.0.7-r1.apk
+checksum	Q1vGPg9/EW3i7263Le5+ekwBY/PbE=
+dep	python3~3.14	python3

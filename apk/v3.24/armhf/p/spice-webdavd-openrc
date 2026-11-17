@@ -1,0 +1,13 @@
+name	spice-webdavd-openrc
+version	3.0-r6
+description	Spice daemon for the DAV channel (OpenRC init scripts)
+url	https://gitlab.gnome.org/GNOME/phodav
+license	LGPL-2.0-or-later
+size	1745
+installed-size	207
+depends	avahi
+origin	phodav
+repo	community
+file	spice-webdavd-openrc-3.0-r6.apk
+checksum	Q1lNFMtNwH/4AcEgdfccQAYp8RATk=
+dep	avahi	avahi

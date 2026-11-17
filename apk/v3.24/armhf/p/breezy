@@ -1,0 +1,21 @@
+name	breezy
+version	3.3.15-r3
+description	Decentralized revision control system
+url	https://www.breezy-vcs.org/
+license	GPL-2.0-or-later
+size	2908095
+installed-size	9916446
+depends	py3-configobj py3-dulwich py3-patiencediff py3-yaml py3-fastbencode python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpython3.14.so.1.0
+origin	breezy
+repo	community
+file	breezy-3.3.15-r3.apk
+checksum	Q1eLWvxKm1VjO2sDIXOn0kER7iuVc=
+dep	py3-configobj	py3-configobj
+dep	py3-dulwich	py3-dulwich
+dep	py3-patiencediff	py3-patiencediff
+dep	py3-yaml	py3-yaml
+dep	py3-fastbencode	py3-fastbencode
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpython3.14.so.1.0	python3

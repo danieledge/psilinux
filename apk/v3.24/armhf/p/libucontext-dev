@@ -1,0 +1,14 @@
+name	libucontext-dev
+version	1.5.1-r0
+description	ucontext function implementations (development files)
+url	https://github.com/kaniini/libucontext
+license	ISC
+size	4218
+installed-size	8109
+depends	libucontext=1.5.1-r0 pkgconfig
+origin	libucontext
+repo	main
+file	libucontext-dev-1.5.1-r0.apk
+checksum	Q1f0tPyRICwqdboNVV2nHaSc1SRCA=
+dep	libucontext=1.5.1-r0	libucontext
+dep	pkgconfig	pkgconf

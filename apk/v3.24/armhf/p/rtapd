@@ -1,0 +1,15 @@
+name	rtapd
+version	1.7-r10
+description	daemon for routing packets to rtnppd
+url	https://sourceforge.net/projects/rtnppd/
+license	BSD-2-Clause
+size	41957
+installed-size	92287
+depends	rtnppd so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	rtapd
+repo	main
+file	rtapd-1.7-r10.apk
+checksum	Q1MJ09g/a1dwxukCnCEDpWfsPvKQ0=
+dep	rtnppd	rtnppd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

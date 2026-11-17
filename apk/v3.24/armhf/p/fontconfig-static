@@ -1,0 +1,13 @@
+name	fontconfig-static
+version	2.17.1-r1
+description	Library for configuring and customizing font access (static library)
+url	https://www.freedesktop.org/wiki/Software/fontconfig
+license	MIT
+size	151298
+installed-size	375368
+depends	fontconfig-dev
+origin	fontconfig
+repo	main
+file	fontconfig-static-2.17.1-r1.apk
+checksum	Q1kd1vGQpV8roFVUuSwXLmCqzQMhQ=
+dep	fontconfig-dev	fontconfig-dev

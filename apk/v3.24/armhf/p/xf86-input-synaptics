@@ -1,0 +1,17 @@
+name	xf86-input-synaptics
+version	1.10.0-r0
+description	X.org synaptics input driver
+url	https://www.x.org
+license	MIT
+size	40174
+installed-size	87381
+depends	so:libX11.so.6 so:libXi.so.6 so:libXtst.so.6 so:libc.musl-armhf.so.1 so:libevdev.so.2
+origin	xf86-input-synaptics
+repo	community
+file	xf86-input-synaptics-1.10.0-r0.apk
+checksum	Q13ifRWOB7JxM4ZxNzbWV7zKSeKko=
+dep	so:libX11.so.6	libx11
+dep	so:libXi.so.6	libxi
+dep	so:libXtst.so.6	libxtst
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevdev.so.2	libevdev

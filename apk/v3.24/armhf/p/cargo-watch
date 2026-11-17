@@ -1,0 +1,14 @@
+name	cargo-watch
+version	8.5.3-r0
+description	Utility for Cargo to compile projects when sources change
+url	https://github.com/watchexec/cargo-watch
+license	CC0-1.0
+size	1421818
+installed-size	3050712
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	cargo-watch
+repo	community
+file	cargo-watch-8.5.3-r0.apk
+checksum	Q1/UZsZGo+zonVDnLZc8xCEuVfy1Y=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,14 @@
+name	sqlite-tools
+version	3.53.4-r0
+description	Helper tools for SQLite
+url	https://www.sqlite.org/
+license	blessing
+size	57060
+installed-size	126212
+depends	so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	sqlite-tools
+repo	main
+file	sqlite-tools-3.53.4-r0.apk
+checksum	Q1PqTcmo32ESBDC1E+TmOHj79gVxI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

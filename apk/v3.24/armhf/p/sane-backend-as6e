@@ -1,0 +1,14 @@
+name	sane-backend-as6e
+version	1.4.0-r4
+description	SANE backend for using the Artec AS6E parallel port interface scanner. 
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	16266
+installed-size	30833
+depends	sane so:libc.musl-armhf.so.1
+origin	sane
+repo	community
+file	sane-backend-as6e-1.4.0-r4.apk
+checksum	Q1+cvJP/n9H10XSnx+NcVM7obxsTw=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl

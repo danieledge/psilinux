@@ -1,0 +1,18 @@
+name	libiphb-dev
+version	1.2.7-r2
+description	Nemo's libiphb (development files)
+url	https://github.com/sailfishos/libiphb
+license	LGPL-2.1-or-later
+size	5643
+installed-size	11554
+depends	dbus-dev glib-dev libdsme-dev mce-dev libiphb=1.2.7-r2 pkgconfig
+origin	libiphb
+repo	community
+file	libiphb-dev-1.2.7-r2.apk
+checksum	Q1IhxQPo6DuG75+poqwaQRQWrndyc=
+dep	dbus-dev	dbus-dev
+dep	glib-dev	glib-dev
+dep	libdsme-dev	libdsme-dev
+dep	mce-dev	mce-dev
+dep	libiphb=1.2.7-r2	libiphb
+dep	pkgconfig	pkgconf

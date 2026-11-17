@@ -1,0 +1,16 @@
+name	py3-joblib
+version	1.5.3-r1
+description	Computing with Python functions
+url	https://joblib.readthedocs.org/en/latest/
+license	BSD-3-Clause
+size	105833
+installed-size	378913
+depends	py3-cloudpickle py3-distributed py3-loky python3~3.14
+origin	py3-joblib
+repo	community
+file	py3-joblib-1.5.3-r1.apk
+checksum	Q16UdnMrINGTuOvOrwLnYZR6JMebo=
+dep	py3-cloudpickle	py3-cloudpickle
+dep	py3-distributed	py3-distributed
+dep	py3-loky	py3-loky
+dep	python3~3.14	python3

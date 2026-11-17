@@ -1,0 +1,21 @@
+name	lttng-tools-dev
+version	2.14.0-r1
+description	LTTng 2.0 control and utility programs (development files)
+url	https://lttng.org
+license	GPL-2.0-only AND LGPL-2.1-only
+size	74537
+installed-size	477814
+depends	babeltrace-dev kmod-dev libxml2-dev lttng-ust-dev popt-dev userspace-rcu-dev util-linux-dev lttng-tools=2.14.0-r1 pkgconfig
+origin	lttng-tools
+repo	community
+file	lttng-tools-dev-2.14.0-r1.apk
+checksum	Q1nh56gmAGorkHMShATztlOJEIcbs=
+dep	babeltrace-dev	babeltrace-dev
+dep	kmod-dev	kmod-dev
+dep	libxml2-dev	libxml2-dev
+dep	lttng-ust-dev	lttng-ust-dev
+dep	popt-dev	popt-dev
+dep	userspace-rcu-dev	userspace-rcu-dev
+dep	util-linux-dev	util-linux-dev
+dep	lttng-tools=2.14.0-r1	lttng-tools
+dep	pkgconfig	pkgconf

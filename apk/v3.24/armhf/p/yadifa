@@ -1,0 +1,16 @@
+name	yadifa
+version	3.0.9-r0
+description	Lightweight authoritative Name Server with DNSSEC capabilities
+url	https://www.yadifa.eu/
+license	BSD-3-Clause
+size	754685
+installed-size	1730683
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	yadifa
+repo	community
+file	yadifa-3.0.9-r0.apk
+checksum	Q1Bq9hzvh+w9gmxJiAM/0cRk+mHe8=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

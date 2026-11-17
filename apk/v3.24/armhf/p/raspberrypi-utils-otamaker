@@ -1,0 +1,13 @@
+name	raspberrypi-utils-otamaker
+version	0.20260811-r0
+description	A tool for building Remote Update artefacts, as used by Raspberry Pi Connect Remote Update.
+url	https://github.com/raspberrypi/utils
+license	BSD-3-Clause
+size	4437
+installed-size	7620
+depends	python3
+origin	raspberrypi-utils
+repo	community
+file	raspberrypi-utils-otamaker-0.20260811-r0.apk
+checksum	Q1zv2NK5pnBT8IsUY9GjXYL4VqPcE=
+dep	python3	python3

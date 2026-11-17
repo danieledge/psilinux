@@ -1,0 +1,16 @@
+name	bpftop
+version	0.8.0-r1
+description	Dynamic real-time view of running eBPF programs
+url	https://github.com/Netflix/bpftop
+license	Apache-2.0
+size	649309
+installed-size	1264348
+depends	so:libc.musl-armhf.so.1 so:libelf.so.1 so:libgcc_s.so.1 so:libz.so.1
+origin	bpftop
+repo	community
+file	bpftop-0.8.0-r1.apk
+checksum	Q1+xC9eKRd74U65WjvpuXjMunTn/U=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libelf.so.1	libelf
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libz.so.1	zlib

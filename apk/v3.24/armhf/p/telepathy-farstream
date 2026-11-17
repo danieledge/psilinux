@@ -1,0 +1,20 @@
+name	telepathy-farstream
+version	0.6.2_git20190919-r1
+description	Telepathy GLib-based client library that uses Farstream to handle Call channels
+url	https://telepathy.freedesktop.org/components/telepathy-farstream/
+license	LGPL-2.1-or-later
+size	57598
+installed-size	139408
+depends	so:libc.musl-armhf.so.1 so:libdbus-glib-1.so.2 so:libfarstream-0.2.so.5 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstreamer-1.0.so.0 so:libtelepathy-glib.so.0
+origin	telepathy-farstream
+repo	community
+file	telepathy-farstream-0.6.2_git20190919-r1.apk
+checksum	Q1yKkpuWFFboFBEgzvWRK0iiGrUUM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-glib-1.so.2	dbus-glib
+dep	so:libfarstream-0.2.so.5	farstream
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libtelepathy-glib.so.0	telepathy-glib

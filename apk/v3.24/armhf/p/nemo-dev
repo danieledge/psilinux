@@ -1,0 +1,17 @@
+name	nemo-dev
+version	6.6.4-r0
+description	File manager for the Cinnamon desktop environment (development files)
+url	https://github.com/linuxmint/nemo
+license	GPL-2.0-only
+size	18459
+installed-size	148018
+depends	nemo=6.6.4-r0 pc:gio-2.0 pc:glib-2.0 pc:gtk+-3.0 pkgconfig
+origin	nemo
+repo	community
+file	nemo-dev-6.6.4-r0.apk
+checksum	Q1kW1ADZ8pmGJEVRDEvu82jWjmULQ=
+dep	nemo=6.6.4-r0	nemo
+dep	pc:gio-2.0	glib-dev
+dep	pc:glib-2.0	glib-dev
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pkgconfig	pkgconf

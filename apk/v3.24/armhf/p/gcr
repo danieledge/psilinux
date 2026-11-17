@@ -1,0 +1,20 @@
+name	gcr
+version	3.41.2-r2
+description	library for bits of crypto UI and parsing
+url	https://gitlab.gnome.org/GNOME/gcr/-/tree/gcr-3-41
+license	LGPL-2.0-or-later
+size	70853
+installed-size	105907
+depends	so:libc.musl-armhf.so.1 so:libgcr-base-3.so.1 so:libgcr-ui-3.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8
+origin	gcr
+repo	community
+file	gcr-3.41.2-r2.apk
+checksum	Q1iBnD6EHy47X9kGwkWe+Hf8mI3SA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcr-base-3.so.1	gcr-base
+dep	so:libgcr-ui-3.so.1	gcr-base
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl

@@ -1,0 +1,14 @@
+name	perl-socket6
+version	0.29-r11
+description	Perl module for Socket6
+url	https://metacpan.org/release/Socket6/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	13223
+installed-size	27311
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-socket6
+repo	main
+file	perl-socket6-0.29-r11.apk
+checksum	Q1WJ1Z8PiIq8ZB8bOjrTa7BUGtatk=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

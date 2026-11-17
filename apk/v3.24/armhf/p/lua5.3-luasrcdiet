@@ -1,0 +1,13 @@
+name	lua5.3-luasrcdiet
+version	1.0.0-r3
+description	Compresses Lua source code by removing unnecessary characters (for Lua 5.3)
+url	https://github.com/jirutka/luasrcdiet
+license	MIT
+size	36830
+installed-size	128942
+depends	lua5.3
+origin	luasrcdiet
+repo	community
+file	lua5.3-luasrcdiet-1.0.0-r3.apk
+checksum	Q1yI3GmpJA7d4jddm9sSNurDNFPDE=
+dep	lua5.3	lua5.3

@@ -1,0 +1,15 @@
+name	perl-mojo-reactor-ioasync
+version	1.002-r1
+description	IO::Async backend for Mojo::Reactor
+url	https://metacpan.org/release/Mojo-Reactor-IOAsync/
+license	Artistic-2.0
+size	4780
+installed-size	8789
+depends	perl perl-io-async perl-mojolicious
+origin	perl-mojo-reactor-ioasync
+repo	community
+file	perl-mojo-reactor-ioasync-1.002-r1.apk
+checksum	Q1HNqvB8wbi6gW2sdIzOxZXxoxHtc=
+dep	perl	perl
+dep	perl-io-async	perl-io-async
+dep	perl-mojolicious	perl-mojolicious

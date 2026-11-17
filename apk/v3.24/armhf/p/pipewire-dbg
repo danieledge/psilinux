@@ -1,0 +1,12 @@
+name	pipewire-dbg
+version	1.6.8-r4
+description	Multimedia processing graphs (debug symbols)
+url	https://pipewire.org/
+license	MIT
+size	16384689
+installed-size	39875976
+depends	!gst-plugin-pipewire<1.6.8-r4 !gst-plugin-pipewire>1.6.8-r4 !pipewire-alsa<1.6.8-r4 !pipewire-alsa>1.6.8-r4 !pipewire-dev<1.6.8-r4 !pipewire-dev>1.6.8-r4 !pipewire-echo-cancel<1.6.8-r4 !pipewire-echo-cancel>1.6.8-r4 !pipewire-filter-graph-builtin<1.6.8-r4 !pipewire-filter-graph-builtin>1.6.8-r4 !pipewire-filter-graph-ebur128<1.6.8-r4 !pipewire-filter-graph-ebur128>1.6.8-r4 !pipewire-filter-graph-ladspa<1.6.8-r4 !pipewire-filter-graph-ladspa>1.6.8-r4 !pipewire-filter-graph-lv2<1.6.8-r4 !pipewire-filter-graph-lv2>1.6.8-r4 !pipewire-filter-graph-onnx<1.6.8-r4 !pipewire-filter-graph-onnx>1.6.8-r4 !pipewire-filter-graph-sofa<1.6.8-r4 !pipewire-filter-graph-sofa>1.6.8-r4 !pipewire-filter-graph<1.6.8-r4 !pipewire-filter-graph>1.6.8-r4 !pipewire-jack<1.6.8-r4 !pipewire-jack>1.6.8-r4 !pipewire-libs<1.6.8-r4 !pipewire-libs>1.6.8-r4 !pipewire-pulse<1.6.8-r4 !pipewire-pulse>1.6.8-r4 !pipewire-spa-bluez<1.6.8-r4 !pipewire-spa-bluez>1.6.8-r4 !pipewire-spa-tools<1.6.8-r4 !pipewire-spa-tools>1.6.8-r4 !pipewire-spa-vulkan<1.6.8-r4 !pipewire-spa-vulkan>1.6.8-r4 !pipewire-tools<1.6.8-r4 !pipewire-tools>1.6.8-r4 !pipewire-x11<1.6.8-r4 !pipewire-x11>1.6.8-r4 !pipewire-zeroconf<1.6.8-r4 !pipewire-zeroconf>1.6.8-r4 !pipewire<1.6.8-r4 !pipewire>1.6.8-r4
+origin	pipewire
+repo	community
+file	pipewire-dbg-1.6.8-r4.apk
+checksum	Q1cqOexL73dRN+V2nWQs0ewC92lQA=

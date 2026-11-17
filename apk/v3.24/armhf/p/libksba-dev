@@ -1,0 +1,15 @@
+name	libksba-dev
+version	1.7.0-r0
+description	Libksba is a CMS and X.509 access library (development files)
+url	https://www.gnupg.org/software/libksba/index.html
+license	LGPL-3.0-only AND GPL-2.0-only AND GPL-3.0-only
+size	11965
+installed-size	39530
+depends	libksba=1.7.0-r0 pc:gpg-error pkgconfig
+origin	libksba
+repo	main
+file	libksba-dev-1.7.0-r0.apk
+checksum	Q1XkaDRNd88Zfy3kuwGkLIpKLzOgE=
+dep	libksba=1.7.0-r0	libksba
+dep	pc:gpg-error	libgpg-error-dev
+dep	pkgconfig	pkgconf

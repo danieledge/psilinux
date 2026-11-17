@@ -1,0 +1,12 @@
+name	dash-dbg
+version	0.5.13.1-r2
+description	Small and fast POSIX-compliant shell (debug symbols)
+url	http://gondor.apana.org.au/~herbert/dash/
+license	BSD-3-Clause AND GPL-2.0-or-later
+size	167744
+installed-size	350760
+depends	!dash<0.5.13.1-r2 !dash>0.5.13.1-r2
+origin	dash
+repo	main
+file	dash-dbg-0.5.13.1-r2.apk
+checksum	Q1qnb4lYrnEQ2MgqPEY+zmos/Rv2o=

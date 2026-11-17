@@ -1,0 +1,16 @@
+name	libedit-dev
+version	20260508.3.1-r1
+description	BSD line editing library (development files)
+url	https://www.thrysoee.dk/editline
+license	BSD-3-Clause
+size	7755
+installed-size	19730
+depends	bsd-compat-headers ncurses-dev libedit=20260508.3.1-r1 pkgconfig
+origin	libedit
+repo	main
+file	libedit-dev-20260508.3.1-r1.apk
+checksum	Q1C1pRz560Y9EamNnl3qtFGh46qlU=
+dep	bsd-compat-headers	bsd-compat-headers
+dep	ncurses-dev	ncurses-dev
+dep	libedit=20260508.3.1-r1	libedit
+dep	pkgconfig	pkgconf

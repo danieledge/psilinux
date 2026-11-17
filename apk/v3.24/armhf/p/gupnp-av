@@ -1,0 +1,16 @@
+name	gupnp-av
+version	0.14.5-r0
+description	Small utility library that aims to ease the handling and implementation of UPnP A/V profiles
+url	https://gitlab.gnome.org/GNOME/gupnp-av
+license	LGPL-2.1-or-later
+size	76162
+installed-size	268055
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libxml2.so.2
+origin	gupnp-av
+repo	community
+file	gupnp-av-0.14.5-r0.apk
+checksum	Q1xkldNy3jMJ12YmjCYbeESp+1itk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libxml2.so.2	libxml2

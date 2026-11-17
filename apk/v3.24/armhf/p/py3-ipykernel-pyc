@@ -1,0 +1,13 @@
+name	py3-ipykernel-pyc
+version	7.2.0-r1
+description	Precompiled Python bytecode for py3-ipykernel
+url	https://github.com/ipython/ipykernel
+license	BSD-3-Clause
+size	176703
+installed-size	415673
+depends	python3~3.14
+origin	py3-ipykernel
+repo	community
+file	py3-ipykernel-pyc-7.2.0-r1.apk
+checksum	Q1skfFkmQsZCG+8juU0iPudkWqeo8=
+dep	python3~3.14	python3

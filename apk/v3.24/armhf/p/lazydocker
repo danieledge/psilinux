@@ -1,0 +1,14 @@
+name	lazydocker
+version	0.24.4-r6
+description	Simple terminal UI for both docker and docker-compose
+url	https://github.com/jesseduffield/lazydocker
+license	MIT
+size	4949646
+installed-size	13017316
+depends	ncurses so:libc.musl-armhf.so.1
+origin	lazydocker
+repo	community
+file	lazydocker-0.24.4-r6.apk
+checksum	Q1+Z1aulBRhH1yjcGyMnfcEzu0ri8=
+dep	ncurses	ncurses
+dep	so:libc.musl-armhf.so.1	musl

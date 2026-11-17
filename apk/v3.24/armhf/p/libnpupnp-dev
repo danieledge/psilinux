@@ -1,0 +1,16 @@
+name	libnpupnp-dev
+version	6.3.0-r0
+description	UPnP library based on libupnp, but extensively rewritten (development files)
+url	https://www.lesbonscomptes.com/upmpdcli/npupnp-doc/libnpupnp.html
+license	BSD-3-Clause
+size	26302
+installed-size	111970
+depends	libnpupnp=6.3.0-r0 pc:libcurl pc:libmicrohttpd pkgconfig
+origin	libnpupnp
+repo	community
+file	libnpupnp-dev-6.3.0-r0.apk
+checksum	Q1N7larkfQfuCzFPP/7YewaPA3bFo=
+dep	libnpupnp=6.3.0-r0	libnpupnp
+dep	pc:libcurl	curl-dev
+dep	pc:libmicrohttpd	libmicrohttpd-dev
+dep	pkgconfig	pkgconf

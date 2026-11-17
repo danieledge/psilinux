@@ -1,0 +1,13 @@
+name	unfurl
+version	0.4.3-r36
+description	Pull out bits of URLs provided on stdin
+url	https://github.com/tomnomnom/unfurl
+license	MIT
+size	1758505
+installed-size	4110124
+depends	so:libc.musl-armhf.so.1
+origin	unfurl
+repo	community
+file	unfurl-0.4.3-r36.apk
+checksum	Q16/mfTiG/1KCjzZQW5Avacb6aX4w=
+dep	so:libc.musl-armhf.so.1	musl

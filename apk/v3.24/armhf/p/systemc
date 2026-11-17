@@ -1,0 +1,15 @@
+name	systemc
+version	2.3.4-r0
+description	C++ library for modeling and describing complex hardware systems
+url	https://www.accellera.org/downloads/standards/systemc
+license	Apache-2.0
+size	395537
+installed-size	1275056
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	systemc
+repo	community
+file	systemc-2.3.4-r0.apk
+checksum	Q1xAqzkeKnYesX0/QidJcffidMOMI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

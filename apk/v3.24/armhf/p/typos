@@ -1,0 +1,14 @@
+name	typos
+version	1.47.1-r0
+description	Source code spell checker
+url	https://github.com/crate-ci/typos
+license	MIT OR Apache-2.0
+size	3097890
+installed-size	8862476
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	typos
+repo	community
+file	typos-1.47.1-r0.apk
+checksum	Q1zfumrFYofKSegN6nFJPEYyYdmBQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

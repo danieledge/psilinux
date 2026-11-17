@@ -1,0 +1,21 @@
+name	ffmpeg6-dev
+version	6.1.6-r0
+description	Complete and free Internet live audio and video broadcasting solution for Linux/Unix (development files)
+url	https://ffmpeg.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	349948
+installed-size	1455472
+depends	ffmpeg6-libavcodec=6.1.6-r0 ffmpeg6-libavdevice=6.1.6-r0 ffmpeg6-libavfilter=6.1.6-r0 ffmpeg6-libavformat=6.1.6-r0 ffmpeg6-libavutil=6.1.6-r0 ffmpeg6-libpostproc=6.1.6-r0 ffmpeg6-libswresample=6.1.6-r0 ffmpeg6-libswscale=6.1.6-r0 pkgconfig
+origin	ffmpeg6
+repo	community
+file	ffmpeg6-dev-6.1.6-r0.apk
+checksum	Q1WubRb0LqZxDjenEc4GDP74BPQUs=
+dep	ffmpeg6-libavcodec=6.1.6-r0	ffmpeg6-libavcodec
+dep	ffmpeg6-libavdevice=6.1.6-r0	ffmpeg6-libavdevice
+dep	ffmpeg6-libavfilter=6.1.6-r0	ffmpeg6-libavfilter
+dep	ffmpeg6-libavformat=6.1.6-r0	ffmpeg6-libavformat
+dep	ffmpeg6-libavutil=6.1.6-r0	ffmpeg6-libavutil
+dep	ffmpeg6-libpostproc=6.1.6-r0	ffmpeg6-libpostproc
+dep	ffmpeg6-libswresample=6.1.6-r0	ffmpeg6-libswresample
+dep	ffmpeg6-libswscale=6.1.6-r0	ffmpeg6-libswscale
+dep	pkgconfig	pkgconf

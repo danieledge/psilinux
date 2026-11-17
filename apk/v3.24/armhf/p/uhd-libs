@@ -1,0 +1,21 @@
+name	uhd-libs
+version	4.9.0.0-r2
+description	USRP Hardware Driver (libraries)
+url	https://github.com/EttusResearch/uhd
+license	GPL-3.0-or-later
+size	3805343
+installed-size	10158272
+depends	so:libboost_chrono.so.1.84.0 so:libboost_filesystem.so.1.84.0 so:libboost_serialization.so.1.84.0 so:libboost_thread.so.1.84.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpython3.14.so.1.0 so:libstdc++.so.6 so:libusb-1.0.so.0
+origin	uhd
+repo	community
+file	uhd-libs-4.9.0.0-r2.apk
+checksum	Q1XIulqEUMgSf+Mpw5s+gVNS5AjXk=
+dep	so:libboost_chrono.so.1.84.0	boost1.84-chrono
+dep	so:libboost_filesystem.so.1.84.0	boost1.84-filesystem
+dep	so:libboost_serialization.so.1.84.0	boost1.84-serialization
+dep	so:libboost_thread.so.1.84.0	boost1.84-thread
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpython3.14.so.1.0	python3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libusb-1.0.so.0	libusb

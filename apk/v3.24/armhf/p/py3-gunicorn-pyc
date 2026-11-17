@@ -1,0 +1,13 @@
+name	py3-gunicorn-pyc
+version	25.2.0-r1
+description	Precompiled Python bytecode for py3-gunicorn
+url	https://gunicorn.org/
+license	MIT
+size	389141
+installed-size	1001711
+depends	python3~3.14
+origin	py3-gunicorn
+repo	community
+file	py3-gunicorn-pyc-25.2.0-r1.apk
+checksum	Q1q1hxYgbI28l0R5xWSLbIdcGXYuU=
+dep	python3~3.14	python3

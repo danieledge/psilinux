@@ -1,0 +1,13 @@
+name	libltdl
+version	2.6.0-r1
+description	Runtime libraries for GNU Libtool Dynamic Module Loader
+url	https://www.gnu.org/software/libtool/
+license	LGPL-2.0-or-later AND GPL-2.0-or-later
+size	15444
+installed-size	29876
+depends	so:libc.musl-armhf.so.1
+origin	libtool
+repo	main
+file	libltdl-2.6.0-r1.apk
+checksum	Q1vs7AgtqJvc9PUXOByw6Gfai9Yik=
+dep	so:libc.musl-armhf.so.1	musl

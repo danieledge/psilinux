@@ -1,0 +1,15 @@
+name	libnitrokey-dev
+version	3.8-r1
+description	Communicate with Nitrokey devices in a clean and easy manner (development files)
+url	https://nitrokey.com/
+license	LGPL-3.0-or-later
+size	32315
+installed-size	171374
+depends	libnitrokey=3.8-r1 pc:hidapi-libusb pkgconfig
+origin	libnitrokey
+repo	community
+file	libnitrokey-dev-3.8-r1.apk
+checksum	Q18kMCz6ziZ5FwFiSqgz33J04iK2k=
+dep	libnitrokey=3.8-r1	libnitrokey
+dep	pc:hidapi-libusb	hidapi-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,20 @@
+name	libxaw3dxft-dev
+version	1.6.4-r1
+description	XPaint version of libxaw3d library (development files)
+url	https://github.com/DaveFlater/libXaw3dXft
+license	MIT
+size	56556
+installed-size	335563
+depends	libxaw3dxft=1.6.4-r1 pc:x11 pc:xext pc:xft pc:xmu pc:xproto pc:xt pkgconfig
+origin	libxaw3dxft
+repo	community
+file	libxaw3dxft-dev-1.6.4-r1.apk
+checksum	Q1KDnCtWu0A31GRvo+dMSTManjsTI=
+dep	libxaw3dxft=1.6.4-r1	libxaw3dxft
+dep	pc:x11	libx11-dev
+dep	pc:xext	libxext-dev
+dep	pc:xft	libxft-dev
+dep	pc:xmu	libxmu-dev
+dep	pc:xproto	xorgproto
+dep	pc:xt	libxt-dev
+dep	pkgconfig	pkgconf

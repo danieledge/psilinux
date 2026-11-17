@@ -1,0 +1,22 @@
+name	vte3-dev
+version	0.84.0-r2
+description	Virtual Terminal Emulator library (development files)
+url	https://gitlab.gnome.org/GNOME/vte
+license	LGPL-2.0-or-later
+size	144503
+installed-size	1221188
+depends	vte3-gtk4=0.84.0-r2 vte3=0.84.0-r2 pc:cairo>=1.0 pc:gio-2.0>=2.72.0 pc:glib-2.0>=2.72.0 pc:gobject-2.0 pc:gtk+-3.0>=3.24.0 pc:gtk4>=4.14.0 pc:pango>=1.22.0 pkgconfig
+origin	vte3
+repo	community
+file	vte3-dev-0.84.0-r2.apk
+checksum	Q1kx8YFcXSDx+OwJMACTcPRj9ACEw=
+dep	vte3-gtk4=0.84.0-r2	vte3-gtk4
+dep	vte3=0.84.0-r2	vte3
+dep	pc:cairo>=1.0	cairo-dev
+dep	pc:gio-2.0>=2.72.0	glib-dev
+dep	pc:glib-2.0>=2.72.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pc:gtk+-3.0>=3.24.0	gtk+3.0-dev
+dep	pc:gtk4>=4.14.0	gtk4.0-dev
+dep	pc:pango>=1.22.0	pango-dev
+dep	pkgconfig	pkgconf

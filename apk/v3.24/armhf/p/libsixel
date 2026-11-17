@@ -1,0 +1,15 @@
+name	libsixel
+version	1.10.5-r0
+description	SIXEL encoder/decoder implementation
+url	https://github.com/libsixel/libsixel
+license	MIT
+size	87256
+installed-size	234840
+depends	so:libc.musl-armhf.so.1 so:libjpeg.so.8 so:libpng16.so.16
+origin	libsixel
+repo	community
+file	libsixel-1.10.5-r0.apk
+checksum	Q1xefotVV3OW90dYPxmeZDEfIbOg4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpng16.so.16	libpng

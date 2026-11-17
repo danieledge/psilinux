@@ -1,0 +1,25 @@
+name	perl-reply
+version	0.42-r3
+description	REPL (read, eval, print, loop) for Perl
+url	https://metacpan.org/release/Reply/
+license	MIT
+size	21971
+installed-size	72078
+depends	perl perl-config-ini-reader-ordered perl-data-dump perl-data-printer perl-devel-lexalias perl-eval-closure perl-file-homedir perl-module-runtime perl-package-stash perl-padwalker perl-term-readkey perl-term-readline-gnu perl-try-tiny
+origin	perl-reply
+repo	community
+file	perl-reply-0.42-r3.apk
+checksum	Q1Wk398A4QftXHOi0zQZZsY0Jqecw=
+dep	perl	perl
+dep	perl-config-ini-reader-ordered	perl-config-ini-reader-ordered
+dep	perl-data-dump	perl-data-dump
+dep	perl-data-printer	perl-data-printer
+dep	perl-devel-lexalias	perl-devel-lexalias
+dep	perl-eval-closure	perl-eval-closure
+dep	perl-file-homedir	perl-file-homedir
+dep	perl-module-runtime	perl-module-runtime
+dep	perl-package-stash	perl-package-stash
+dep	perl-padwalker	perl-padwalker
+dep	perl-term-readkey	perl-term-readkey
+dep	perl-term-readline-gnu	perl-term-readline-gnu
+dep	perl-try-tiny	perl-try-tiny

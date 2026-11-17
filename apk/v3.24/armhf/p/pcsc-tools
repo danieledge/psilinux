@@ -1,0 +1,15 @@
+name	pcsc-tools
+version	1.7.3-r1
+description	tools to test a PC/SC driver, card or reader or send commands
+url	https://pcsc-tools.apdu.fr/
+license	GPL-2.0-or-later
+size	179872
+installed-size	612341
+depends	pcsc-perl so:libc.musl-armhf.so.1 so:libpcsclite.so.1
+origin	pcsc-tools
+repo	community
+file	pcsc-tools-1.7.3-r1.apk
+checksum	Q1OKIwLki7HwE52fy72LxZiFTUzqY=
+dep	pcsc-perl	pcsc-perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcsclite.so.1	pcsc-lite-libs

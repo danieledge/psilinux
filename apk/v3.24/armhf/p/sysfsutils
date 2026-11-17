@@ -1,0 +1,13 @@
+name	sysfsutils
+version	2.1.1-r3
+description	System Utilities Based on Sysfs
+url	https://github.com/linux-ras/sysfsutils
+license	GPL-2.0-only AND LGPL-2.1-only
+size	21418
+installed-size	51508
+depends	so:libc.musl-armhf.so.1
+origin	sysfsutils
+repo	main
+file	sysfsutils-2.1.1-r3.apk
+checksum	Q10HrODUU0TMDOpWlFDqhZCzGklNc=
+dep	so:libc.musl-armhf.so.1	musl

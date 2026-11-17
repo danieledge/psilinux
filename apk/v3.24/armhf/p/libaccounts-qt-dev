@@ -1,0 +1,20 @@
+name	libaccounts-qt-dev
+version	1.17-r2
+description	Qt-based client library for the accounts database (development files)
+url	https://gitlab.com/accounts-sso/libaccounts-qt
+license	LGPL-2.1-or-later
+size	15103
+installed-size	63467
+depends	libaccounts-qt5 libaccounts-qt6 libaccounts-glib-dev pc:Qt5Core pc:Qt5Xml pc:Qt6Core pc:Qt6Xml pkgconfig
+origin	libaccounts-qt
+repo	community
+file	libaccounts-qt-dev-1.17-r2.apk
+checksum	Q1givef9OBWpvphmqbhbzUC3ItoZE=
+dep	libaccounts-qt5	libaccounts-qt5
+dep	libaccounts-qt6	libaccounts-qt6
+dep	libaccounts-glib-dev	libaccounts-glib-dev
+dep	pc:Qt5Core	qt5-qtbase-dev
+dep	pc:Qt5Xml	qt5-qtbase-dev
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pc:Qt6Xml	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

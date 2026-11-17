@@ -1,0 +1,19 @@
+name	py3-django-prometheus
+version	2.5.0-r0
+description	Django middlewares to monitor your application with Prometheus.io.
+url	https://pypi.python.org/project/django-prometheus
+license	MIT
+size	26642
+installed-size	82448
+depends	py3-django py3-prometheus-client py3-psycopg2 py3-mysqlclient py3-python-memcached py3-django-redis python3~3.14
+origin	py3-django-prometheus
+repo	community
+file	py3-django-prometheus-2.5.0-r0.apk
+checksum	Q1LL39qdL2s8px9vQzZGA163S1s7Y=
+dep	py3-django	py3-django
+dep	py3-prometheus-client	py3-prometheus-client
+dep	py3-psycopg2	py3-psycopg2
+dep	py3-mysqlclient	py3-mysqlclient
+dep	py3-python-memcached	py3-python-memcached
+dep	py3-django-redis	py3-django-redis
+dep	python3~3.14	python3

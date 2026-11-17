@@ -1,0 +1,26 @@
+name	sxmo-utils-wayland
+version	1.18.1-r4
+description	Utility scripts, programs, and configs that hold the Sxmo UI environment together - wayland dependencies
+url	https://git.sr.ht/~mil/sxmo-utils
+license	AGPL-3.0-only
+size	1395
+installed-size	0
+depends	sxmo-utils-common=1.18.1-r4 foot grim slurp swaybg swayidle wl-clipboard wlr-randr wlopm wob wofi wtype wvkbd xwayland
+origin	sxmo-utils
+repo	community
+file	sxmo-utils-wayland-1.18.1-r4.apk
+checksum	Q1NEUEe9IWtB+cXWp3gdxy2R4YiyU=
+dep	sxmo-utils-common=1.18.1-r4	sxmo-utils-common
+dep	foot	foot
+dep	grim	grim
+dep	slurp	slurp
+dep	swaybg	swaybg
+dep	swayidle	swayidle
+dep	wl-clipboard	wl-clipboard
+dep	wlr-randr	wlr-randr
+dep	wlopm	wlopm
+dep	wob	wob
+dep	wofi	wofi
+dep	wtype	wtype
+dep	wvkbd	wvkbd
+dep	xwayland	xwayland

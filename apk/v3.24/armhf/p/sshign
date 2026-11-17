@@ -1,0 +1,13 @@
+name	sshign
+version	0.2.1-r44
+description	Small program to sign & verify files with your SSH key
+url	https://git.sr.ht/~minus/sshign
+license	MIT
+size	1525534
+installed-size	3625828
+depends	so:libc.musl-armhf.so.1
+origin	sshign
+repo	community
+file	sshign-0.2.1-r44.apk
+checksum	Q1TSFG9vfkf/QXP3qWxjzDm347Uy0=
+dep	so:libc.musl-armhf.so.1	musl

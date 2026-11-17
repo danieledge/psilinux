@@ -1,0 +1,17 @@
+name	libportal-gtk3
+version	0.9.1-r10
+description	GIO-style async APIs for most Flatpak portals (GTK+3.0 backend)
+url	https://github.com/flatpak/libportal
+license	LGPL-3.0-or-later
+size	8426
+installed-size	18000
+depends	libportal=0.9.1-r10 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0
+origin	libportal
+repo	community
+file	libportal-gtk3-0.9.1-r10.apk
+checksum	Q1JomvlKkeIf4WGoH+hC11GbBZcC0=
+dep	libportal=0.9.1-r10	libportal
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0

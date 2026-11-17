@@ -1,0 +1,22 @@
+name	gst-rtsp-server-dev
+version	1.28.3-r0
+description	GStreamer RTSP server (development files)
+url	https://gstreamer.freedesktop.org
+license	LGPL-2.0-or-later
+size	96583
+installed-size	1018972
+depends	gst-plugins-base-dev gst-rtsp-server=1.28.3-r0 pc:gstreamer-1.0>=1.28.0 pc:gstreamer-app-1.0>=1.28.0 pc:gstreamer-net-1.0>=1.28.0 pc:gstreamer-rtp-1.0>=1.28.0 pc:gstreamer-rtsp-1.0>=1.28.0 pc:gstreamer-sdp-1.0>=1.28.0 pc:gstreamer-video-1.0>=1.28.0 pkgconfig
+origin	gst-rtsp-server
+repo	community
+file	gst-rtsp-server-dev-1.28.3-r0.apk
+checksum	Q13eV1HHret8CErez7HUALxRgvs3M=
+dep	gst-plugins-base-dev	gst-plugins-base-dev
+dep	gst-rtsp-server=1.28.3-r0	gst-rtsp-server
+dep	pc:gstreamer-1.0>=1.28.0	gstreamer-dev
+dep	pc:gstreamer-app-1.0>=1.28.0	gst-plugins-base-dev
+dep	pc:gstreamer-net-1.0>=1.28.0	gstreamer-dev
+dep	pc:gstreamer-rtp-1.0>=1.28.0	gst-plugins-base-dev
+dep	pc:gstreamer-rtsp-1.0>=1.28.0	gst-plugins-base-dev
+dep	pc:gstreamer-sdp-1.0>=1.28.0	gst-plugins-base-dev
+dep	pc:gstreamer-video-1.0>=1.28.0	gst-plugins-base-dev
+dep	pkgconfig	pkgconf

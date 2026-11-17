@@ -1,0 +1,16 @@
+name	jupyter-nbclassic
+version	1.3.3-r1
+description	Jupyter notebook as jupyter server extension
+url	https://github.com/jupyter/nbclassic
+license	BSD-3-Clause
+size	10339661
+installed-size	40098103
+depends	py3-traitlets jupyter-server jupyter-notebook-shim python3~3.14
+origin	jupyter-nbclassic
+repo	community
+file	jupyter-nbclassic-1.3.3-r1.apk
+checksum	Q1GTTTnM8rzQZWr6aqzAHUK6eMpC0=
+dep	py3-traitlets	py3-traitlets
+dep	jupyter-server	jupyter-server
+dep	jupyter-notebook-shim	jupyter-notebook-shim
+dep	python3~3.14	python3

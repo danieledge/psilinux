@@ -1,0 +1,15 @@
+name	presage-dev
+version	0.9.1-r3
+description	An intelligent predictive text entry system (development files)
+url	https://presage.sourceforge.io/
+license	GPL-3.0-or-later
+size	6812
+installed-size	18864
+depends	sqlite-dev tinyxml-dev presage=0.9.1-r3
+origin	presage
+repo	community
+file	presage-dev-0.9.1-r3.apk
+checksum	Q1mB8zAXkf6T8p2CbipFxwnsJ+s+g=
+dep	sqlite-dev	sqlite-dev
+dep	tinyxml-dev	tinyxml-dev
+dep	presage=0.9.1-r3	presage

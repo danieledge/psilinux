@@ -1,0 +1,12 @@
+name	gnome-control-center-dbg
+version	50.3-r0
+description	GNOME control center (debug symbols)
+url	https://gitlab.gnome.org/GNOME/gnome-control-center
+license	GPL-2.0-or-later
+size	3589766
+installed-size	8995348
+depends	!gnome-control-center<50.3-r0 !gnome-control-center>50.3-r0
+origin	gnome-control-center
+repo	community
+file	gnome-control-center-dbg-50.3-r0.apk
+checksum	Q1L6d9hkGpgbKciaHwjiGAEEyYCA4=

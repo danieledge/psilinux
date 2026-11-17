@@ -1,0 +1,14 @@
+name	libdv-dev
+version	1.0.0-r8
+description	Software decoder for DV format video (development files)
+url	https://libdv.sourceforge.net/
+license	LGPL-2.0-or-later
+size	200303
+installed-size	460638
+depends	libdv=1.0.0-r8 pkgconfig
+origin	libdv
+repo	community
+file	libdv-dev-1.0.0-r8.apk
+checksum	Q1deuTG8fDDuLsud9dFvZJ/nk/eYg=
+dep	libdv=1.0.0-r8	libdv
+dep	pkgconfig	pkgconf

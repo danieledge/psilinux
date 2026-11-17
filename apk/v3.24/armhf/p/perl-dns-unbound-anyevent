@@ -1,0 +1,14 @@
+name	perl-dns-unbound-anyevent
+version	0.29-r3
+description	Query DNS recursively via libunbound and AnyEvent
+url	https://metacpan.org/release/DNS-Unbound/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	2356
+installed-size	1317
+depends	perl-dns-unbound=0.29-r3 perl-anyevent
+origin	perl-dns-unbound
+repo	community
+file	perl-dns-unbound-anyevent-0.29-r3.apk
+checksum	Q1xzgnm+wGbrToxxKhiMCCtarrYBE=
+dep	perl-dns-unbound=0.29-r3	perl-dns-unbound
+dep	perl-anyevent	perl-anyevent

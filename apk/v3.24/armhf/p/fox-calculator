@@ -1,0 +1,16 @@
+name	fox-calculator
+version	1.6.59-r0
+description	Free Objects for X - calculator
+url	http://www.fox-toolkit.org
+license	GPL-2.0-or-later
+size	36495
+installed-size	112052
+depends	so:libFOX-1.6.so.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	fox
+repo	community
+file	fox-calculator-1.6.59-r0.apk
+checksum	Q1UO6vVcujvT+WqLQFdwtTuOwzyfk=
+dep	so:libFOX-1.6.so.0	fox
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,16 @@
+name	php84-pdo_pgsql
+version	8.4.27-r0
+description	PHP84 extension: PostgreSQL driver for PDO
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	21484
+installed-size	46424
+depends	php84-common php84-pdo so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	php84
+repo	community
+file	php84-pdo_pgsql-8.4.27-r0.apk
+checksum	Q1IRQQCneCvwkDEg3GSHmRHTZ/guU=
+dep	php84-common	php84-common
+dep	php84-pdo	php84-pdo
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

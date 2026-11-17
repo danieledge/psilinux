@@ -1,0 +1,15 @@
+name	imath
+version	3.2.2-r1
+description	C++ and python library of 2D and 3D vector, matrix, and math operations for computer graphics
+url	https://github.com/AcademySoftwareFoundation/Imath
+license	BSD-3-Clause
+size	83730
+installed-size	300316
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	imath
+repo	community
+file	imath-3.2.2-r1.apk
+checksum	Q15nTZA/9PXqOOuyuQL9gtc6IUZEs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,14 @@
+name	perl-b-cow
+version	0.007-r4
+description	B::COW additional B helpers to check COW status
+url	https://metacpan.org/release/B-COW/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	5550
+installed-size	8390
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-b-cow
+repo	main
+file	perl-b-cow-0.007-r4.apk
+checksum	Q1t4jwl6O4F1jRgYlj0buFjTSewN8=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

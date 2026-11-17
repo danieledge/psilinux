@@ -1,0 +1,14 @@
+name	libopenv2g-dev
+version	0.9.5-r0
+description	Implements ISO IEC 15118 and also the DIN 70121 vehicle to grid (V2G) communication interface (development files)
+url	https://openv2g.sourceforge.net/
+license	LGPL-3.0-or-later
+size	216016
+installed-size	1433179
+depends	libopenv2g=0.9.5-r0 pkgconfig
+origin	openv2g
+repo	community
+file	libopenv2g-dev-0.9.5-r0.apk
+checksum	Q1dlzAN59Yd/M53hMKIrJbabvjhMU=
+dep	libopenv2g=0.9.5-r0	libopenv2g
+dep	pkgconfig	pkgconf

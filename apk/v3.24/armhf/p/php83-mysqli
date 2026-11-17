@@ -1,0 +1,16 @@
+name	php83-mysqli
+version	8.3.36-r0
+description	PHP83 extension: MySQLi
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	42144
+installed-size	116049
+depends	php83-common php83-mysqlnd php83-openssl so:libc.musl-armhf.so.1
+origin	php83
+repo	community
+file	php83-mysqli-8.3.36-r0.apk
+checksum	Q1wHJMud+Wvug/IkG1dwUwFlU2eO8=
+dep	php83-common	php83-common
+dep	php83-mysqlnd	php83-mysqlnd
+dep	php83-openssl	php83-openssl
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	xcb-proto
+version	1.17.0-r1
+description	XML-XCB protocol descriptions
+url	https://xcb.freedesktop.org
+license	MIT
+size	119698
+installed-size	789170
+depends	python3~3.14 pkgconfig
+origin	xcb-proto
+repo	main
+file	xcb-proto-1.17.0-r1.apk
+checksum	Q1E191ZSF7mYawE3KnlfhqFbDQjX4=
+dep	python3~3.14	python3
+dep	pkgconfig	pkgconf

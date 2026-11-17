@@ -1,0 +1,17 @@
+name	acf-mariadb
+version	0.2.0-r5
+description	ACF module for mariadb
+url	https://gitlab.alpinelinux.org/acf/acf-mariadb
+license	GPL-2.0-only
+size	3788
+installed-size	3604
+depends	acf-core mariadb mariadb-client lua-sql-mysql acf-db-lib
+origin	acf-mariadb
+repo	main
+file	acf-mariadb-0.2.0-r5.apk
+checksum	Q1yc9GJjGzf6YgR4Spjifc9w6IPTg=
+dep	acf-core	acf-core
+dep	mariadb	mariadb
+dep	mariadb-client	mariadb-client
+dep	lua-sql-mysql	lua-sql-mysql
+dep	acf-db-lib	acf-db-lib

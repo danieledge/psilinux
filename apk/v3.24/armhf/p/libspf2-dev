@@ -1,0 +1,13 @@
+name	libspf2-dev
+version	1.2.11-r4
+description	Sender Policy Framework library, a part of the SPF/SRS protocol pair. (development files)
+url	https://www.libspf2.org/
+license	LGPL-2.1-or-later OR BSD-2-Clause
+size	66598
+installed-size	191857
+depends	libspf2=1.2.11-r4
+origin	libspf2
+repo	main
+file	libspf2-dev-1.2.11-r4.apk
+checksum	Q1ZIKUCOq9eMq5W7cucrX7Zk+lQDw=
+dep	libspf2=1.2.11-r4	libspf2

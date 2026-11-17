@@ -1,0 +1,15 @@
+name	perl-crypt-openssl-random
+version	0.17-r1
+description	OpenSSL/LibreSSL pseudo-random number generator access
+url	https://metacpan.org/release/Crypt-OpenSSL-Random/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6207
+installed-size	12612
+depends	perl so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	perl-crypt-openssl-random
+repo	main
+file	perl-crypt-openssl-random-0.17-r1.apk
+checksum	Q1fCcgXPifSPCRGsAKFLY1kke/eXw=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

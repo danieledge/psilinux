@@ -1,0 +1,28 @@
+name	xwayland-dev
+version	24.1.15-r0
+description	Compact xserver to run under wayland for compatibility (development files)
+url	https://www.x.org/wiki
+license	MIT
+size	1976
+installed-size	541
+depends	dbus-dev font-util-dev libdrm-dev libepoxy-dev libtirpc-dev libmd-dev libxcvt-dev libxfont2-dev libxkbfile-dev mesa-dev pixman-dev wayland-dev wayland-protocols xorgproto xtrans pkgconfig
+origin	xwayland
+repo	community
+file	xwayland-dev-24.1.15-r0.apk
+checksum	Q1HmY2xu0D/0voBIAUzjs8mUm/A3o=
+dep	dbus-dev	dbus-dev
+dep	font-util-dev	font-util-dev
+dep	libdrm-dev	libdrm-dev
+dep	libepoxy-dev	libepoxy-dev
+dep	libtirpc-dev	libtirpc-dev
+dep	libmd-dev	libmd-dev
+dep	libxcvt-dev	libxcvt-dev
+dep	libxfont2-dev	libxfont2-dev
+dep	libxkbfile-dev	libxkbfile-dev
+dep	mesa-dev	mesa-dev
+dep	pixman-dev	pixman-dev
+dep	wayland-dev	wayland-dev
+dep	wayland-protocols	wayland-protocols
+dep	xorgproto	xorgproto
+dep	xtrans	xtrans
+dep	pkgconfig	pkgconf

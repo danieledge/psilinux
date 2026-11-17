@@ -1,0 +1,13 @@
+name	libupnp
+version	1.18.5-r0
+description	Portable Open Source UPnP Development Kit
+url	https://pupnp.github.io/pupnp/
+license	BSD-3-Clause
+size	103677
+installed-size	221612
+depends	so:libc.musl-armhf.so.1
+origin	libupnp
+repo	community
+file	libupnp-1.18.5-r0.apk
+checksum	Q1r1Ht4aMN7kc4EaRt6e3bHi72pq4=
+dep	so:libc.musl-armhf.so.1	musl

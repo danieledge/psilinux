@@ -1,0 +1,14 @@
+name	bzrtp-dev
+version	5.3.38-r0
+description	BZRTP is an opensource implementation of ZRTP keys exchange protocol (development files)
+url	https://gitlab.linphone.org/BC/public/bzrtp
+license	GPL-3.0-only
+size	14317
+installed-size	47836
+depends	bzrtp=5.3.38-r0 pkgconfig
+origin	bzrtp
+repo	community
+file	bzrtp-dev-5.3.38-r0.apk
+checksum	Q1Ao2qZjznyiXR5s7/+Zkg6WzjQRw=
+dep	bzrtp=5.3.38-r0	bzrtp
+dep	pkgconfig	pkgconf

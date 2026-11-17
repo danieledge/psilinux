@@ -1,0 +1,14 @@
+name	cowsql-dev
+version	1.15.9-r0
+description	Embeddable, replicated and fault tolerant SQL engine (development files)
+url	https://github.com/cowsql/cowsql
+license	LGPL-3.0-only WITH LGPL-3.0-linking-exception
+size	9060
+installed-size	25691
+depends	cowsql=1.15.9-r0 pkgconfig
+origin	cowsql
+repo	community
+file	cowsql-dev-1.15.9-r0.apk
+checksum	Q1YX1zwV/7EfZP38SnVtxrbLpYrPQ=
+dep	cowsql=1.15.9-r0	cowsql
+dep	pkgconfig	pkgconf

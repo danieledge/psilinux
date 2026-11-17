@@ -1,0 +1,17 @@
+name	gdal-driver-wms
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (OGC Web Map Service driver)
+url	https://gdal.org/
+license	MIT
+size	81868
+installed-size	185728
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgcc_s.so.1 so:libgdal.so.39 so:libstdc++.so.6
+origin	gdal
+repo	community
+file	gdal-driver-wms-3.13.3-r0.apk
+checksum	Q1AiFk4fctij7ywRgxUlWEpxpGi8Y=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libstdc++.so.6	libstdc++

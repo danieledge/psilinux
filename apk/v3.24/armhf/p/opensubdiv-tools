@@ -1,0 +1,22 @@
+name	opensubdiv-tools
+version	3.6.1-r1
+description	An Open-Source subdivision surface library (tools)
+url	https://graphics.pixar.com/opensubdiv
+license	Apache-2.0
+size	4951744
+installed-size	17460892
+depends	so:libGL.so.1 so:libOpenCL.so.1 so:libPtex.so.2 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglfw.so.3 so:libosdCPU.so.3.6.1 so:libosdGPU.so.3.6.1 so:libstdc++.so.6 so:libtbb.so.12
+origin	opensubdiv
+repo	community
+file	opensubdiv-tools-3.6.1-r1.apk
+checksum	Q12Z11bWaOXLwD7pmr8q8DrTpXjMo=
+dep	so:libGL.so.1	mesa-gl
+dep	so:libOpenCL.so.1	opencl
+dep	so:libPtex.so.2	ptex
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglfw.so.3	glfw
+dep	so:libosdCPU.so.3.6.1	opensubdiv
+dep	so:libosdGPU.so.3.6.1	opensubdiv
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtbb.so.12	onetbb

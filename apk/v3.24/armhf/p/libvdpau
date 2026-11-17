@@ -1,0 +1,16 @@
+name	libvdpau
+version	1.5-r4
+description	Hardware-accelerated video playback library
+url	https://gitlab.freedesktop.org/vdpau/libvdpau
+license	MIT
+size	26055
+installed-size	63951
+depends	so:libX11.so.6 so:libXext.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	libvdpau
+repo	main
+file	libvdpau-1.5-r4.apk
+checksum	Q1IrdIhS/bEyFWOKIOx2ZDFRRnnWE=
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

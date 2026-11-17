@@ -1,0 +1,13 @@
+name	clamav-db
+version	1.4.6-r0
+description	ClamAV dummy package for compatibility
+url	https://www.clamav.net/
+license	GPL-2.0-only
+size	1628
+installed-size	1
+depends	freshclam
+origin	clamav
+repo	community
+file	clamav-db-1.4.6-r0.apk
+checksum	Q1WDswrV/pH8JnJgPUuCeKeTzi8g4=
+dep	freshclam	freshclam

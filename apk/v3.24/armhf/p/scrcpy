@@ -1,0 +1,21 @@
+name	scrcpy
+version	4.0-r0
+description	Display and control your Android device
+url	https://github.com/Genymobile/scrcpy
+license	Apache-2.0
+size	826554
+installed-size	938291
+depends	android-tools so:libSDL3.so.0 so:libavcodec.so.62 so:libavdevice.so.62 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libswresample.so.6 so:libusb-1.0.so.0
+origin	scrcpy
+repo	community
+file	scrcpy-4.0-r0.apk
+checksum	Q1/f0aQcAdBxUwbw1aPQqBC58f1aw=
+dep	android-tools	android-tools
+dep	so:libSDL3.so.0	sdl3
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavdevice.so.62	ffmpeg-libavdevice
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libswresample.so.6	ffmpeg-libswresample
+dep	so:libusb-1.0.so.0	libusb

@@ -1,0 +1,14 @@
+name	flite
+version	2.2-r6
+description	Small, fast speech synthesis engine (text-to-speech)
+url	http://cmuflite.org/
+license	BSD-4-Clause
+size	13848218
+installed-size	19903572
+depends	so:libasound.so.2 so:libc.musl-armhf.so.1
+origin	flite
+repo	main
+file	flite-2.2-r6.apk
+checksum	Q1YVsWbBnH3+6Udw0G6WpPTzJcc8g=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	ruby-xmlrpc-doc
+version	0.3.3-r2
+description	XMLRPC library for Ruby (ri docs)
+url	https://github.com/ruby/xmlrpc
+license	BSD-2-Clause
+size	1559
+installed-size	1
+depends	ruby ruby-webrick
+origin	ruby-xmlrpc
+repo	community
+file	ruby-xmlrpc-doc-0.3.3-r2.apk
+checksum	Q1Kv6yS1Nm7RekF7plpIhLknXVJXY=
+dep	ruby	ruby
+dep	ruby-webrick	ruby-webrick

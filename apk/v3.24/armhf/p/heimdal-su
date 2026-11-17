@@ -1,0 +1,18 @@
+name	heimdal-su
+version	7.8.0-r5
+description	Heimdal su binary with Kerberos support
+url	https://github.com/heimdal/
+license	BSD-3-Clause
+size	7746
+installed-size	13844
+depends	krb5-conf so:libc.musl-armhf.so.1 so:libhcrypto.so.4 so:libkafs.so.0 so:libkrb5.so.26 so:libroken.so.18
+origin	heimdal
+repo	main
+file	heimdal-su-7.8.0-r5.apk
+checksum	Q1QpscOZco78hEihv3wiEC4b0SYTY=
+dep	krb5-conf	krb5-conf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libhcrypto.so.4	heimdal-libs
+dep	so:libkafs.so.0	heimdal-libs
+dep	so:libkrb5.so.26	heimdal-libs
+dep	so:libroken.so.18	heimdal-libs

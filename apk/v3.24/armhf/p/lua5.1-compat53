@@ -1,0 +1,14 @@
+name	lua5.1-compat53
+version	0.14.4-r0
+description	Compatibility module providing Lua-5.3-style APIs for Lua 5.1
+url	https://github.com/lunarmodules/lua-compat-5.3
+license	MIT
+size	22652
+installed-size	73370
+depends	lua5.1 so:libc.musl-armhf.so.1
+origin	lua-compat53
+repo	community
+file	lua5.1-compat53-0.14.4-r0.apk
+checksum	Q15XolucH2zkK+MfgbMOT9OH2zfd4=
+dep	lua5.1	lua5.1
+dep	so:libc.musl-armhf.so.1	musl

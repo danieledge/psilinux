@@ -1,0 +1,13 @@
+name	emacs-compat
+version	30.0.2.0-r1
+description	Forwards-compatibility library for Emacs Lisp
+url	https://github.com/emacs-compat/compat
+license	GPL-3.0-or-later
+size	59719
+installed-size	209735
+depends	cmd:emacs
+origin	emacs-compat
+repo	community
+file	emacs-compat-30.0.2.0-r1.apk
+checksum	Q1LKh2yWlLEBPQR+rziX1/GdhoxP8=
+dep	cmd:emacs	emacs-gtk3

@@ -1,0 +1,14 @@
+name	sdl2-compat
+version	2.32.68-r0
+description	SDL2 compatibility layer that uses SDL3 behind the scenes
+url	https://github.com/libsdl-org/sdl2-compat
+license	Zlib
+size	116642
+installed-size	315900
+depends	so:libSDL3.so.0 so:libc.musl-armhf.so.1
+origin	sdl2-compat
+repo	community
+file	sdl2-compat-2.32.68-r0.apk
+checksum	Q1KRSRclqY9oy51g0sX+eEd9mEXMI=
+dep	so:libSDL3.so.0	sdl3
+dep	so:libc.musl-armhf.so.1	musl

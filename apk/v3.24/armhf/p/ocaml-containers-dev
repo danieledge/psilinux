@@ -1,0 +1,14 @@
+name	ocaml-containers-dev
+version	3.7-r6
+description	Modular, clean and powerful extension of the OCaml standard library (development files)
+url	https://github.com/c-cube/ocaml-containers
+license	BSD-2-Clause
+size	7053830
+installed-size	17925201
+depends	ocaml-containers=3.7-r6 ocaml-compiler-libs
+origin	ocaml-containers
+repo	community
+file	ocaml-containers-dev-3.7-r6.apk
+checksum	Q1EPoxMWlUaIr/TeBi+yjaSXqUS4U=
+dep	ocaml-containers=3.7-r6	ocaml-containers
+dep	ocaml-compiler-libs	ocaml-compiler-libs

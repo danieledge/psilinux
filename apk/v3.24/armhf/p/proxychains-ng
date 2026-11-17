@@ -1,0 +1,13 @@
+name	proxychains-ng
+version	4.17-r1
+description	This tool provides proxy server support to any app.
+url	https://github.com/rofl0r/proxychains-ng
+license	GPL-2.0-only
+size	31923
+installed-size	71075
+depends	so:libc.musl-armhf.so.1
+origin	proxychains-ng
+repo	main
+file	proxychains-ng-4.17-r1.apk
+checksum	Q1b9PMRt1IjxEq9vrfV4vbSYRdi6Y=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	libretro-prosystem
+version	0_git20241021-r0
+description	port of ProSystem to the libretro API
+url	https://github.com/libretro/prosystem-libretro
+license	GPL-2.0-only
+size	52394
+installed-size	167240
+depends	so:libc.musl-armhf.so.1
+origin	libretro-prosystem
+repo	community
+file	libretro-prosystem-0_git20241021-r0.apk
+checksum	Q14Ji2AHCTRTVyCGmrv612JJJluiA=
+dep	so:libc.musl-armhf.so.1	musl

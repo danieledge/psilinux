@@ -1,0 +1,13 @@
+name	xz-static
+version	5.8.4-r0
+description	Library and CLI tools for XZ and LZMA compressed files (static library)
+url	https://tukaani.org/xz/
+license	GPL-2.0-or-later AND 0BSD AND Public-Domain AND LGPL-2.1-or-later
+size	135481
+installed-size	324172
+depends	xz-dev
+origin	xz
+repo	main
+file	xz-static-5.8.4-r0.apk
+checksum	Q1J8L7ghnwX760HAAKJnw4/l0QUZ8=
+dep	xz-dev	xz-dev

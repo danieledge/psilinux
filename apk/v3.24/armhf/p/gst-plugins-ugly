@@ -1,0 +1,28 @@
+name	gst-plugins-ugly
+version	1.28.3-r0
+description	GStreamer streaming media framework ugly plug-ins
+url	https://gstreamer.freedesktop.org
+license	GPL-2.0-or-later LGPL-2.0-or-later
+size	165792
+installed-size	353182
+depends	so:liba52.so.0 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstriff-1.0.so.0 so:libgstrtp-1.0.so.0 so:libgstrtsp-1.0.so.0 so:libgstsdp-1.0.so.0 so:libgsttag-1.0.so.0 so:libgstvideo-1.0.so.0 so:libintl.so.8 so:libx264.so.164
+origin	gst-plugins-ugly
+repo	community
+file	gst-plugins-ugly-1.28.3-r0.apk
+checksum	Q1RwDH9ulJxfSEms12XfNt/BQScvE=
+dep	so:liba52.so.0	a52dec
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstaudio-1.0.so.0	gst-plugins-base
+dep	so:libgstbase-1.0.so.0	gstreamer
+dep	so:libgstpbutils-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstriff-1.0.so.0	gst-plugins-base
+dep	so:libgstrtp-1.0.so.0	gst-plugins-base
+dep	so:libgstrtsp-1.0.so.0	gst-plugins-base
+dep	so:libgstsdp-1.0.so.0	gst-plugins-base
+dep	so:libgsttag-1.0.so.0	gst-plugins-base
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base
+dep	so:libintl.so.8	libintl
+dep	so:libx264.so.164	x264-libs

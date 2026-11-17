@@ -1,0 +1,13 @@
+name	openjpeg
+version	2.5.4-r2
+description	Open-source implementation of JPEG2000 image codec
+url	https://www.openjpeg.org/
+license	BSD-2-Clause
+size	135843
+installed-size	308448
+depends	so:libc.musl-armhf.so.1
+origin	openjpeg
+repo	main
+file	openjpeg-2.5.4-r2.apk
+checksum	Q1ZavD1O4elYiwaYXiQxRajtLppy8=
+dep	so:libc.musl-armhf.so.1	musl

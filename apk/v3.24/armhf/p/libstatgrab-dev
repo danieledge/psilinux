@@ -1,0 +1,15 @@
+name	libstatgrab-dev
+version	0.92.1-r1
+description	Cross platform library for accessing system statistics (development files)
+url	https://libstatgrab.org/
+license	LGPL-2.0-or-later
+size	7766
+installed-size	21750
+depends	ncurses-dev libstatgrab=0.92.1-r1 pkgconfig
+origin	libstatgrab
+repo	community
+file	libstatgrab-dev-0.92.1-r1.apk
+checksum	Q19D4YMqftIilqdtht9iP/6N3yqE8=
+dep	ncurses-dev	ncurses-dev
+dep	libstatgrab=0.92.1-r1	libstatgrab
+dep	pkgconfig	pkgconf

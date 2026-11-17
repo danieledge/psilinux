@@ -1,0 +1,14 @@
+name	font-noto-lepcha
+version	2026.11.01-r0
+description	Noto Sans Lepcha font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	16518
+installed-size	26313
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-lepcha-2026.11.01-r0.apk
+checksum	Q1TyrtYkuULrUivwfNvrfR83nslLo=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

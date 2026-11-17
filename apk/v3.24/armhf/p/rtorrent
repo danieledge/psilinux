@@ -1,0 +1,19 @@
+name	rtorrent
+version	0.16.12-r0
+description	Ncurses BitTorrent client based on libTorrent
+url	https://rakshasa.github.io/rtorrent/
+license	GPL-2.0-or-later
+size	523788
+installed-size	1358067
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblua-5.4.so.0 so:libncursesw.so.6 so:libstdc++.so.6 so:libtorrent.so.42 so:libz.so.1
+origin	rtorrent
+repo	community
+file	rtorrent-0.16.12-r0.apk
+checksum	Q16asa9oxTADyYvi6Ut+Zv5Z5+p68=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblua-5.4.so.0	lua5.4-libs
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtorrent.so.42	libtorrent
+dep	so:libz.so.1	zlib

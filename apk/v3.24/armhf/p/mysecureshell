@@ -1,0 +1,15 @@
+name	mysecureshell
+version	2.00-r1
+description	A solution which has been made to bring more features to sftp/scp protocol given by OpenSSH.
+url	https://github.com/mysecureshell/mysecureshell
+license	GPL
+size	59088
+installed-size	134084
+depends	openssh /bin/sh so:libc.musl-armhf.so.1
+origin	mysecureshell
+repo	community
+file	mysecureshell-2.00-r1.apk
+checksum	Q1bZE9Rl2wN5u85brLx4kcEiDmQQA=
+dep	openssh	openssh
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

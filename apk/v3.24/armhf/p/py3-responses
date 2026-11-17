@@ -1,0 +1,17 @@
+name	py3-responses
+version	0.25.0-r2
+description	Utility library for mocking out the requests Python library
+url	https://pypi.org/project/responses/
+license	Apache-2.0
+size	53407
+installed-size	252928
+depends	py3-requests py3-toml py3-urllib3 py3-yaml python3~3.14
+origin	py3-responses
+repo	community
+file	py3-responses-0.25.0-r2.apk
+checksum	Q1uYRENMx8aTNHF9Q7T6N0itCkxKI=
+dep	py3-requests	py3-requests
+dep	py3-toml	py3-toml
+dep	py3-urllib3	py3-urllib3
+dep	py3-yaml	py3-yaml
+dep	python3~3.14	python3

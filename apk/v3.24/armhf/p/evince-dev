@@ -1,0 +1,23 @@
+name	evince-dev
+version	48.4-r0
+description	Simple document viewer for GTK+ (development files)
+url	https://apps.gnome.org/Evince
+license	GPL-2.0-or-later
+size	84724
+installed-size	969457
+depends	gobject-introspection-dev gtk+3.0-dev libspectre-dev libxml2-dev poppler-dev tiff-dev evince-libs=48.4-r0 pc:gio-2.0>=2.44.0 pc:gthread-2.0>=2.44.0 pc:gtk+-3.0>=3.22.0 pkgconfig
+origin	evince
+repo	community
+file	evince-dev-48.4-r0.apk
+checksum	Q1yUCFch05jlkm35TsfXKbrg30suM=
+dep	gobject-introspection-dev	gobject-introspection-dev
+dep	gtk+3.0-dev	gtk+3.0-dev
+dep	libspectre-dev	libspectre-dev
+dep	libxml2-dev	libxml2-dev
+dep	poppler-dev	poppler-dev
+dep	tiff-dev	tiff-dev
+dep	evince-libs=48.4-r0	evince-libs
+dep	pc:gio-2.0>=2.44.0	glib-dev
+dep	pc:gthread-2.0>=2.44.0	glib-dev
+dep	pc:gtk+-3.0>=3.22.0	gtk+3.0-dev
+dep	pkgconfig	pkgconf

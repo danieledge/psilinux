@@ -1,0 +1,15 @@
+name	nagios-plugins-nwstat
+version	2.5-r0
+description	Nagios plugin check_nwstat
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	27666
+installed-size	58944
+depends	nagios-plugins so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-nwstat-2.5-r0.apk
+checksum	Q1pKE4maWy6Hd10jPKFygdZI2OH8E=
+dep	nagios-plugins	nagios-plugins
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

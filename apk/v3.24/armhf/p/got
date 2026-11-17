@@ -1,0 +1,22 @@
+name	got
+version	0.126-r0
+description	A VCS which prioritizes ease of use and simplicity over flexibility
+url	https://gameoftrees.org/
+license	ISC
+size	1810470
+installed-size	3843664
+depends	so:libbsd.so.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libevent_core-2.1.so.7 so:libmd.so.0 so:libncursesw.so.6 so:libpanelw.so.6 so:libtls.so.10 so:libuuid.so.1 so:libz.so.1
+origin	got
+repo	community
+file	got-0.126-r0.apk
+checksum	Q1yHHfGkybsCd9UEEwc4ttmn3s39A=
+dep	so:libbsd.so.0	libbsd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libevent_core-2.1.so.7	libevent
+dep	so:libmd.so.0	libmd
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpanelw.so.6	libpanelw
+dep	so:libtls.so.10	libretls
+dep	so:libuuid.so.1	libuuid
+dep	so:libz.so.1	zlib

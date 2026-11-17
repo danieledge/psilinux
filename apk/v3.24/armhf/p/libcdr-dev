@@ -1,0 +1,19 @@
+name	libcdr-dev
+version	0.1.8-r3
+description	Import filter and tools for Corel DRAW files (development files)
+url	https://wiki.documentfoundation.org/DLP/Libraries/libcdr
+license	MPL-2.0
+size	2993
+installed-size	3156
+depends	boost-dev libcdr=0.1.8-r3 pc:icu-i18n pc:lcms2 pc:librevenge-0.0 pc:zlib pkgconfig
+origin	libcdr
+repo	community
+file	libcdr-dev-0.1.8-r3.apk
+checksum	Q1R58GMV1zBjEeZB+IzVoSd7o6EUY=
+dep	boost-dev	boost-dev
+dep	libcdr=0.1.8-r3	libcdr
+dep	pc:icu-i18n	icu-dev
+dep	pc:lcms2	lcms2-dev
+dep	pc:librevenge-0.0	librevenge-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

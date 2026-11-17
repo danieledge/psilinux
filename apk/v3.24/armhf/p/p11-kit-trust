@@ -1,0 +1,15 @@
+name	p11-kit-trust
+version	0.26.2-r0
+description	System trust module from p11-kit
+url	https://p11-glue.freedesktop.org/
+license	BSD-3-Clause
+size	153558
+installed-size	372654
+depends	so:libc.musl-armhf.so.1 so:libp11-kit.so.0 so:libtasn1.so.6
+origin	p11-kit
+repo	main
+file	p11-kit-trust-0.26.2-r0.apk
+checksum	Q1/u2uO8V8d7uDulEnkIf+nepK7j8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libp11-kit.so.0	p11-kit
+dep	so:libtasn1.so.6	libtasn1

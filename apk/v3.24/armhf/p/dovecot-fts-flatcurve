@@ -1,0 +1,19 @@
+name	dovecot-fts-flatcurve
+version	2.4.5-r0
+description	FTS-flatcurve plugin for dovecot
+url	https://www.dovecot.org/
+license	MIT AND LGPL-2.1-or-later
+size	34335
+installed-size	80740
+depends	dovecot=2.4.5-r0 so:lib20_fts_plugin.so so:libc.musl-armhf.so.1 so:libdovecot.so.0 so:libgcc_s.so.1 so:libstdc++.so.6 so:libxapian.so.45
+origin	dovecot
+repo	main
+file	dovecot-fts-flatcurve-2.4.5-r0.apk
+checksum	Q1KOCR6DwBmV+620li9ws4xw1wbhI=
+dep	dovecot=2.4.5-r0	dovecot
+dep	so:lib20_fts_plugin.so	dovecot
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdovecot.so.0	dovecot
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxapian.so.45	libxapian

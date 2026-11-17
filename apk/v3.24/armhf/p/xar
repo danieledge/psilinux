@@ -1,0 +1,15 @@
+name	xar
+version	1.8.0.498-r0
+description	The eXtensible ARchiver for Apple's .pkg
+url	https://github.com/apple-oss-distributions/xar
+license	BSD-3-Clause
+size	12380
+installed-size	26140
+depends	so:libc.musl-armhf.so.1 so:libfts.so.0 so:libxar.so.1
+origin	xar
+repo	community
+file	xar-1.8.0.498-r0.apk
+checksum	Q1eOSEZGcmznDvd+VVdOay00vkPdM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfts.so.0	musl-fts
+dep	so:libxar.so.1	libxar

@@ -1,0 +1,21 @@
+name	gnome-desktop-debug
+version	44.5-r0
+description	GNOME desktop core libraries
+url	https://gitlab.gnome.org/GNOME/gnome-desktop
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	12053
+installed-size	45292
+depends	so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgnome-desktop-3.so.20 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8
+origin	gnome-desktop
+repo	community
+file	gnome-desktop-debug-44.5-r0.apk
+checksum	Q1bgHqfIZ+6dJIZJHqZ/KQR0zl7d8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgnome-desktop-3.so.20	libgnome-desktop-3
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl

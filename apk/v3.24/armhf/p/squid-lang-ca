@@ -1,0 +1,13 @@
+name	squid-lang-ca
+version	7.6-r0
+description	squid language pack for ca
+url	https://www.squid-cache.org/
+license	GPL-2.0-or-later
+size	11914
+installed-size	58805
+depends	logrotate
+origin	squid
+repo	main
+file	squid-lang-ca-7.6-r0.apk
+checksum	Q1rysA+EMQJT/9UQT6f5tuMOyUySw=
+dep	logrotate	logrotate

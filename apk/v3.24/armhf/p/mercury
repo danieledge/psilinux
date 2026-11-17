@@ -1,0 +1,14 @@
+name	mercury
+version	22.01.8-r1
+description	Compiler for the Mercury language
+url	https://www.mercurylang.org
+license	GPL-2.0-only
+size	28126424
+installed-size	103637347
+depends	mercury-libs so:libc.musl-armhf.so.1
+origin	mercury
+repo	community
+file	mercury-22.01.8-r1.apk
+checksum	Q1OLPvQSfDuiJtRIt/kOYabbPw6pE=
+dep	mercury-libs	mercury-libs
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,45 @@
+name	gamescope
+version	3.16.23-r1
+description	SteamOS session compositing window manager
+url	https://github.com/ValveSoftware/gamescope
+license	BSD-2-Clause
+size	1380471
+installed-size	3831783
+depends	so:libSDL2-2.0.so.0 so:libX11-xcb.so.1 so:libX11.so.6 so:libXRes.so.1 so:libXcomposite.so.1 so:libXcursor.so.1 so:libXdamage.so.1 so:libXext.so.6 so:libXfixes.so.3 so:libXi.so.6 so:libXmu.so.6 so:libXrender.so.1 so:libXtst.so.6 so:libXxf86vm.so.1 so:libavif.so.16 so:libc.musl-armhf.so.1 so:libcap.so.2 so:libdecor-0.so.0 so:libdisplay-info.so.3 so:libdrm.so.2 so:libeis.so.1 so:libgcc_s.so.1 so:libinput.so.10 so:libluajit-5.1.so.2 so:libpipewire-0.3.so.0 so:libpixman-1.so.0 so:libseat.so.1 so:libstdc++.so.6 so:libudev.so.1 so:libwayland-client.so.0 so:libwayland-server.so.0 so:libxcb.so.1 so:libxkbcommon.so.0
+origin	gamescope
+repo	community
+file	gamescope-3.16.23-r1.apk
+checksum	Q1Y5NNg/GKG9gm/CJHEMlOQDIljO8=
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libX11-xcb.so.1	libx11
+dep	so:libX11.so.6	libx11
+dep	so:libXRes.so.1	libxres
+dep	so:libXcomposite.so.1	libxcomposite
+dep	so:libXcursor.so.1	libxcursor
+dep	so:libXdamage.so.1	libxdamage
+dep	so:libXext.so.6	libxext
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXi.so.6	libxi
+dep	so:libXmu.so.6	libxmu
+dep	so:libXrender.so.1	libxrender
+dep	so:libXtst.so.6	libxtst
+dep	so:libXxf86vm.so.1	libxxf86vm
+dep	so:libavif.so.16	libavif
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libdecor-0.so.0	libdecor
+dep	so:libdisplay-info.so.3	libdisplay-info
+dep	so:libdrm.so.2	libdrm
+dep	so:libeis.so.1	libeis
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libinput.so.10	libinput-libs
+dep	so:libluajit-5.1.so.2	luajit
+dep	so:libpipewire-0.3.so.0	pipewire-libs
+dep	so:libpixman-1.so.0	pixman
+dep	so:libseat.so.1	libseat
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libudev.so.1	eudev-libs
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-server.so.0	wayland-libs-server
+dep	so:libxcb.so.1	libxcb
+dep	so:libxkbcommon.so.0	libxkbcommon

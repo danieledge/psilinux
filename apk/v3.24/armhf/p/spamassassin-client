@@ -1,0 +1,13 @@
+name	spamassassin-client
+version	4.0.2-r1
+description	SpamAssassin client
+url	https://metacpan.org/pod/Mail::SpamAssassin
+license	Apache-2.0
+size	19023
+installed-size	38636
+depends	so:libc.musl-armhf.so.1
+origin	spamassassin
+repo	main
+file	spamassassin-client-4.0.2-r1.apk
+checksum	Q12S+UrF4TOICHb5pOq4XcL05PHms=
+dep	so:libc.musl-armhf.so.1	musl

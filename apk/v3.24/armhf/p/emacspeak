@@ -1,0 +1,16 @@
+name	emacspeak
+version	59.0-r2
+description	Emacs audio desktop for eyes-free computing
+url	https://emacspeak.sourceforge.net/
+license	GPL-2.0-or-later
+size	1353010
+installed-size	5401748
+depends	cmd:emacs emacspeak-sounds emacspeak-server-espeak so:libc.musl-armhf.so.1
+origin	emacspeak
+repo	community
+file	emacspeak-59.0-r2.apk
+checksum	Q1Mrz6jqz7EhY+8Il217WxFeWiapI=
+dep	cmd:emacs	emacs-gtk3
+dep	emacspeak-sounds	emacspeak-sounds
+dep	emacspeak-server-espeak	emacspeak-server-espeak
+dep	so:libc.musl-armhf.so.1	musl

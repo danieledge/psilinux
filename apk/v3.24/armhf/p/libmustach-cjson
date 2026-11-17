@@ -1,0 +1,14 @@
+name	libmustach-cjson
+version	1.2.10-r0
+description	C implementation of the mustache template specification (libmustach-cjson library)
+url	https://gitlab.com/jobol/mustach
+license	0BSD
+size	9888
+installed-size	17592
+depends	so:libc.musl-armhf.so.1 so:libcjson.so.1
+origin	mustach
+repo	community
+file	libmustach-cjson-1.2.10-r0.apk
+checksum	Q1Pnv6iAzBuJ8fMwBL9L4ob+dI5W8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcjson.so.1	cjson

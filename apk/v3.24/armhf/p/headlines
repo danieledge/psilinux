@@ -1,0 +1,39 @@
+name	headlines
+version	0.7.2-r10
+description	GTK4 Reddit client written in C++
+url	https://gitlab.com/caveman250/Headlines
+license	GPL-3.0-only
+size	556689
+installed-size	1369854
+depends	ffmpeg gst-plugins-bad gst-plugins-base gst-plugins-good yt-dlp so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcairomm-1.16.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libgiomm-2.68.so.1 so:libglib-2.0.so.0 so:libglibmm-2.68.so.1 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libgtkmm-4.0.so.0 so:libjsoncpp.so.26 so:libmicrohttpd.so.12 so:libpangomm-2.48.so.1 so:libsecret-1.so.0 so:libsigc-3.0.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libxml2.so.2
+origin	headlines
+repo	community
+file	headlines-0.7.2-r10.apk
+checksum	Q17mBxntf8BDlBm7cHObtSfXIxXZs=
+dep	ffmpeg	ffmpeg
+dep	gst-plugins-bad	gst-plugins-bad
+dep	gst-plugins-base	gst-plugins-base
+dep	gst-plugins-good	gst-plugins-good
+dep	yt-dlp	yt-dlp
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcairomm-1.16.so.1	cairomm
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libgiomm-2.68.so.1	glibmm
+dep	so:libglib-2.0.so.0	glib
+dep	so:libglibmm-2.68.so.1	glibmm
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libgtkmm-4.0.so.0	gtkmm4
+dep	so:libjsoncpp.so.26	jsoncpp
+dep	so:libmicrohttpd.so.12	libmicrohttpd
+dep	so:libpangomm-2.48.so.1	pangomm
+dep	so:libsecret-1.so.0	libsecret
+dep	so:libsigc-3.0.so.0	libsigc++3
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxml2.so.2	libxml2

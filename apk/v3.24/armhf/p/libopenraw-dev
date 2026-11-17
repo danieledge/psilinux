@@ -1,0 +1,14 @@
+name	libopenraw-dev
+version	0.3.7-r3
+description	Desktop agnostic effort to support digital camera RAW files (development files)
+url	https://libopenraw.freedesktop.org/
+license	LGPL-3.0-or-later
+size	20163
+installed-size	81598
+depends	libopenraw=0.3.7-r3 pkgconfig
+origin	libopenraw
+repo	community
+file	libopenraw-dev-0.3.7-r3.apk
+checksum	Q1T5rYwHvEMSsKiPntuDk7fT6Pxps=
+dep	libopenraw=0.3.7-r3	libopenraw
+dep	pkgconfig	pkgconf

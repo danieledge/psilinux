@@ -1,0 +1,14 @@
+name	s6-dns-libs
+version	2.4.1.2-r0
+description	skarnet.org's DNS client libraries and command-line DNS client utilities (libraries)
+url	https://skarnet.org/software/s6-dns/
+license	ISC
+size	30627
+installed-size	85008
+depends	so:libc.musl-armhf.so.1 so:libskarnet.so.2.15
+origin	s6-dns
+repo	main
+file	s6-dns-libs-2.4.1.2-r0.apk
+checksum	Q1MM1xBorJS7927zmG+W/9cXSlVUc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libskarnet.so.2.15	skalibs-libs

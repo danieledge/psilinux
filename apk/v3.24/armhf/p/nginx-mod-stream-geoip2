@@ -1,0 +1,16 @@
+name	nginx-mod-stream-geoip2
+version	1.30.6-r0
+description	Nginx third-party module stream-geoip2 (version 3.4)
+url	https://github.com/leev/ngx_http_geoip2_module
+license	BSD-2-Clause
+size	6863
+installed-size	13679
+depends	nginx=1.30.6-r0 nginx-mod-stream so:libc.musl-armhf.so.1 so:libmaxminddb.so.0
+origin	nginx
+repo	main
+file	nginx-mod-stream-geoip2-1.30.6-r0.apk
+checksum	Q1SjslGbYLfh+HRiqIYUeya9x0Fkk=
+dep	nginx=1.30.6-r0	nginx
+dep	nginx-mod-stream	nginx-mod-stream
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmaxminddb.so.0	libmaxminddb-libs

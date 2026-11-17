@@ -1,0 +1,15 @@
+name	lua5.4-lzmq
+version	0.4.4-r7
+description	Lua bindings to ZeroMQ 5.4
+url	https://github.com/zeromq/lzmq
+license	MIT
+size	57383
+installed-size	175440
+depends	so:libc.musl-armhf.so.1 so:liblua.so.5 so:libzmq.so.5
+origin	lua-lzmq
+repo	main
+file	lua5.4-lzmq-0.4.4-r7.apk
+checksum	Q1KgGavH+5jv/hgmlkjKuy7Q+zV58=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblua.so.5	lua5.1-libs
+dep	so:libzmq.so.5	libzmq

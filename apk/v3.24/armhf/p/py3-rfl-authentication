@@ -1,0 +1,16 @@
+name	py3-rfl-authentication
+version	1.8.0-r0
+description	Rackslab Foundation Library: authentication package
+url	https://github.com/rackslab/RFL
+license	GPL-3.0-or-later
+size	11571
+installed-size	86053
+depends	py3-rfl-core py3-ldap py3-jwt python3~3.14
+origin	py3-rfl
+repo	community
+file	py3-rfl-authentication-1.8.0-r0.apk
+checksum	Q1ECB2pWfZFRoQymZGk4sX4P9gOd8=
+dep	py3-rfl-core	py3-rfl-core
+dep	py3-ldap	py3-ldap
+dep	py3-jwt	py3-jwt
+dep	python3~3.14	python3

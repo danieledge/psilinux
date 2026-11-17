@@ -1,0 +1,15 @@
+name	dropbear
+version	2026.91-r0
+description	small SSH 2 client/server designed for small memory environments
+url	https://matt.ucc.asn.au/dropbear/dropbear.html
+license	MIT
+size	214714
+installed-size	417276
+depends	so:libc.musl-armhf.so.1 so:libutmps.so.0.1 so:libz.so.1
+origin	dropbear
+repo	main
+file	dropbear-2026.91-r0.apk
+checksum	Q1PNmCLx9CB1ZFoINuf0z7nI7MsOM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libutmps.so.0.1	utmps-libs
+dep	so:libz.so.1	zlib

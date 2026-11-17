@@ -1,0 +1,17 @@
+name	megacmd
+version	1.6.3-r0
+description	Command Line Interactive and Scriptable Application to access MEGA
+url	https://github.com/meganz/megacmd
+license	BSD-2-Clause AND GPL-3.0-or-later
+size	412815
+installed-size	940637
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libmega.so.41701 so:libreadline.so.8 so:libstdc++.so.6
+origin	megacmd
+repo	community
+file	megacmd-1.6.3-r0.apk
+checksum	Q1HCKyXuCDEdhwr6NqRmY+hNuvfPM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmega.so.41701	megasdk
+dep	so:libreadline.so.8	readline
+dep	so:libstdc++.so.6	libstdc++

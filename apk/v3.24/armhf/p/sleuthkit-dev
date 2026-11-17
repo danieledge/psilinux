@@ -1,0 +1,16 @@
+name	sleuthkit-dev
+version	4.15.0-r0
+description	File system and media management forensic analysis tools (development files)
+url	http://www.sleuthkit.org/sleuthkit
+license	custom
+size	124096
+installed-size	507635
+depends	sleuthkit-libs=4.15.0-r0 pc:sqlite3 pc:zlib pkgconfig
+origin	sleuthkit
+repo	community
+file	sleuthkit-dev-4.15.0-r0.apk
+checksum	Q1lL3UiKWLtd/br+AbCSDJhK+Ofqg=
+dep	sleuthkit-libs=4.15.0-r0	sleuthkit-libs
+dep	pc:sqlite3	sqlite-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

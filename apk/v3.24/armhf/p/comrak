@@ -1,0 +1,15 @@
+name	comrak
+version	0.55.0-r0
+description	CommonMark + GFM compatible Markdown parser and renderer
+url	https://github.com/kivikakk/comrak
+license	BSD-2-Clause
+size	1009961
+installed-size	1991360
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libonig.so.5
+origin	comrak
+repo	community
+file	comrak-0.55.0-r0.apk
+checksum	Q11pgJDKu9iNxZDslrRRlu2909llY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libonig.so.5	oniguruma

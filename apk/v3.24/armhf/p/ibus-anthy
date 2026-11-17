@@ -1,0 +1,19 @@
+name	ibus-anthy
+version	1.5.18-r1
+description	Japanese input method Anthy IMEngine for IBus Framework
+url	https://github.com/ibus/ibus-anthy
+license	GPL-2.0-only
+size	1133715
+installed-size	8582564
+depends	ibus py3-gobject3 so:libanthy.so.0 so:libanthydic.so.0 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	ibus-anthy
+repo	community
+file	ibus-anthy-1.5.18-r1.apk
+checksum	Q10Y3XGuO5x8K0JuUgir1fEYKgZYo=
+dep	ibus	ibus
+dep	py3-gobject3	py3-gobject3
+dep	so:libanthy.so.0	anthy
+dep	so:libanthydic.so.0	anthy
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

@@ -1,0 +1,17 @@
+name	mod_dnssd
+version	0.6-r1
+description	Zeroconf module for Apache
+url	https://0pointer.de/lennart/projects/mod_dnssd
+license	Apache-2.0
+size	8425
+installed-size	17648
+depends	apache2 so:libapr-1.so.0 so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-armhf.so.1
+origin	mod_dnssd
+repo	community
+file	mod_dnssd-0.6-r1.apk
+checksum	Q1C9LBP5fBq1nCXBcOkVy7DhUyrus=
+dep	apache2	apache2
+dep	so:libapr-1.so.0	apr
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,12 @@
+name	k3s-systemd
+version	1.36.1.1-r2
+description	Lightweight Kubernetes. 5 less than k8s (systemd files)
+url	https://k3s.io
+license	Apache-2.0
+size	2077
+installed-size	804
+depends	
+origin	k3s
+repo	community
+file	k3s-systemd-1.36.1.1-r2.apk
+checksum	Q11RYEknRMeh3fAFdiAEyh7T+rSow=

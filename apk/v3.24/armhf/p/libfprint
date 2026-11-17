@@ -1,0 +1,20 @@
+name	libfprint
+version	1.94.9-r1
+description	Library for fingerprint readers
+url	https://fprint.freedesktop.org/
+license	LGPL-2.1-or-later
+size	281662
+installed-size	655820
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgudev-1.0.so.0 so:libgusb.so.2 so:libpixman-1.so.0
+origin	libfprint
+repo	community
+file	libfprint-1.94.9-r1.apk
+checksum	Q1A3UorRsrMksFT0Q0DFcydXY/ulI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgudev-1.0.so.0	libgudev
+dep	so:libgusb.so.2	libgusb
+dep	so:libpixman-1.so.0	pixman

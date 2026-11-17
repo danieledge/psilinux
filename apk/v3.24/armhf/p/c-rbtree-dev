@@ -1,0 +1,15 @@
+name	c-rbtree-dev
+version	3.2.0-r0
+description	Intrusive Red-Black Tree Collection (development files)
+url	https://github.com/c-util/c-rbtree
+license	Apache-2.0 OR LGPL-2.1-or-later
+size	11075
+installed-size	29749
+depends	c-rbtree=3.2.0-r0 pc:libcstdaux-1>=1.5.0 pkgconfig
+origin	c-rbtree
+repo	community
+file	c-rbtree-dev-3.2.0-r0.apk
+checksum	Q1kqadzhXDeUOrVEeVVKBcINPbKAs=
+dep	c-rbtree=3.2.0-r0	c-rbtree
+dep	pc:libcstdaux-1>=1.5.0	c-stdaux-dev
+dep	pkgconfig	pkgconf

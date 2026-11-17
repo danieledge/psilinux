@@ -1,0 +1,18 @@
+name	libtorrent
+version	0.16.12-r0
+description	BitTorrent library written in C++
+url	https://rakshasa.github.io/rtorrent
+license	GPL-2.0-or-later
+size	467932
+installed-size	1123916
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1
+origin	libtorrent
+repo	community
+file	libtorrent-0.16.12-r0.apk
+checksum	Q1W6Pkla1BoSH3R/HnDrrytw/oA+8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

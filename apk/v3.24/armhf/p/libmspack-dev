@@ -1,0 +1,14 @@
+name	libmspack-dev
+version	0.11_alpha-r1
+description	Library for Microsoft CAB compression formats (development files)
+url	https://www.cabextract.org.uk/libmspack/
+license	LGPL-2.1-only
+size	20947
+installed-size	91896
+depends	libmspack=0.11_alpha-r1 pkgconfig
+origin	libmspack
+repo	community
+file	libmspack-dev-0.11_alpha-r1.apk
+checksum	Q1uf+s1wSHuLXCD1oE8GCUi0LCC1Y=
+dep	libmspack=0.11_alpha-r1	libmspack
+dep	pkgconfig	pkgconf

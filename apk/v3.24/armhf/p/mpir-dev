@@ -1,0 +1,14 @@
+name	mpir-dev
+version	3.0.0-r3
+description	Multiple Precision Integers and Rationals (development files)
+url	https://github.com/wbhart/mpir
+license	LGPL-3.0-or-later
+size	35716
+installed-size	220233
+depends	mpir=3.0.0-r3 pkgconfig
+origin	mpir
+repo	community
+file	mpir-dev-3.0.0-r3.apk
+checksum	Q1ox1pRU2zZ5VMAEIPl6hm+tCGMF0=
+dep	mpir=3.0.0-r3	mpir
+dep	pkgconfig	pkgconf

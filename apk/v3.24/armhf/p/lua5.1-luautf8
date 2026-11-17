@@ -1,0 +1,14 @@
+name	lua5.1-luautf8
+version	0.1.5-r0
+description	A UTF-8 support module for Lua 5.1
+url	https://github.com/starwing/luautf8
+license	MIT
+size	28571
+installed-size	73088
+depends	lua5.1 so:libc.musl-armhf.so.1
+origin	lua-luautf8
+repo	community
+file	lua5.1-luautf8-0.1.5-r0.apk
+checksum	Q1hiO+zsiCDrZnnJJH+FVJNdfw8QQ=
+dep	lua5.1	lua5.1
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,19 @@
+name	flashprog-dev
+version	1.5-r0
+description	A utility for identifying, reading, writing, verifying and erasing flash chips (development files)
+url	https://flashprog.org
+license	GPL-2.0-or-later
+size	249827
+installed-size	1074550
+depends	flashprog-libs=1.5-r0 pc:libftdi1 pc:libgpiod pc:libjaylink pc:libpci pc:libusb-1.0 pkgconfig
+origin	flashprog
+repo	community
+file	flashprog-dev-1.5-r0.apk
+checksum	Q1UhmlxihIcTl5tu8Cwnlczn/FMqo=
+dep	flashprog-libs=1.5-r0	flashprog-libs
+dep	pc:libftdi1	libftdi1-dev
+dep	pc:libgpiod	libgpiod-dev
+dep	pc:libjaylink	libjaylink-dev
+dep	pc:libpci	pciutils-dev
+dep	pc:libusb-1.0	libusb-dev
+dep	pkgconfig	pkgconf

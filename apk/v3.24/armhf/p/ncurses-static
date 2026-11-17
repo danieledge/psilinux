@@ -1,0 +1,13 @@
+name	ncurses-static
+version	6.6_p20260516-r0
+description	Console display library (static library)
+url	https://invisible-island.net/ncurses/
+license	X11
+size	2203360
+installed-size	6082920
+depends	ncurses-dev
+origin	ncurses
+repo	main
+file	ncurses-static-6.6_p20260516-r0.apk
+checksum	Q1dNXkBnNSt+FuI8WSjWnn0sFUTHU=
+dep	ncurses-dev	ncurses-dev

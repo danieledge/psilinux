@@ -1,0 +1,17 @@
+name	perl-crypt-random
+version	1.57-r0
+description	Perl module for Crypt-Random
+url	https://metacpan.org/release/Crypt-Random/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	8061
+installed-size	19172
+depends	perl perl-math-pari perl-statistics-chisquare perl-class-loader perl-crypt-urandom
+origin	perl-crypt-random
+repo	community
+file	perl-crypt-random-1.57-r0.apk
+checksum	Q1AQGJi25f8rVyc9W1MzvGN2TsJ0I=
+dep	perl	perl
+dep	perl-math-pari	perl-math-pari
+dep	perl-statistics-chisquare	perl-statistics-chisquare
+dep	perl-class-loader	perl-class-loader
+dep	perl-crypt-urandom	perl-crypt-urandom

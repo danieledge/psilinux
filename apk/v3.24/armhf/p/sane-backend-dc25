@@ -1,0 +1,14 @@
+name	sane-backend-dc25
+version	1.4.0-r4
+description	SANE backend for Kodak DC20/DC25 Digital Cameras
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	22382
+installed-size	44396
+depends	sane so:libc.musl-armhf.so.1
+origin	sane
+repo	community
+file	sane-backend-dc25-1.4.0-r4.apk
+checksum	Q1qfgxt/e25mdt/FbI6efGsSh8upQ=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl

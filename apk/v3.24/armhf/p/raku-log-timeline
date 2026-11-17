@@ -1,0 +1,15 @@
+name	raku-log-timeline
+version	0.5.2-r3
+description	Module for logging of events and tasks
+url	https://github.com/raku-community-modules/Log-Timeline
+license	Artistic-2.0
+size	287137
+installed-size	839781
+depends	rakudo raku-cbor-simple raku-json-fast
+origin	raku-log-timeline
+repo	community
+file	raku-log-timeline-0.5.2-r3.apk
+checksum	Q1g5+slQdlPdHurMTKbE2W/4LnDVU=
+dep	rakudo	rakudo
+dep	raku-cbor-simple	raku-cbor-simple
+dep	raku-json-fast	raku-json-fast

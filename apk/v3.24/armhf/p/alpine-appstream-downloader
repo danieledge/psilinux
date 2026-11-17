@@ -1,0 +1,15 @@
+name	alpine-appstream-downloader
+version	0.6-r4
+description	Sets up AppStream data according to the AppStream specification
+url	https://gitlab.alpinelinux.org/postmarketOS/alpine-appstream-downloader
+license	GPL-3.0-or-later
+size	3449
+installed-size	4484
+depends	appstream py3-requests python3
+origin	alpine-appstream-downloader
+repo	community
+file	alpine-appstream-downloader-0.6-r4.apk
+checksum	Q1V5qtNCiKR48zAQRS9HAzsIoCxuk=
+dep	appstream	appstream
+dep	py3-requests	py3-requests
+dep	python3	python3

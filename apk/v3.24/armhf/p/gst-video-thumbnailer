@@ -1,0 +1,21 @@
+name	gst-video-thumbnailer
+version	1.0.0-r0
+description	Thumbnail generator using GStreamer (video)
+url	https://gitlab.gnome.org/GNOME/gst-thumbnailers
+license	GPL-3.0-only
+size	290505
+installed-size	549836
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libglycin-2.so.0 so:libgobject-2.0.so.0 so:libgstapp-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0
+origin	gst-thumbnailers
+repo	community
+file	gst-video-thumbnailer-1.0.0-r0.apk
+checksum	Q1W61XHMTJhRd2rvlGs3maQ5XOCpk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libglycin-2.so.0	libglycin
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstapp-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base

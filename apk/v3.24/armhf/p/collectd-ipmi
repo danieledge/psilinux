@@ -1,0 +1,16 @@
+name	collectd-ipmi
+version	5.12.0-r25
+description	ipmi pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	12010
+installed-size	25824
+depends	collectd so:libOpenIPMI.so.0 so:libOpenIPMIpthread.so.0 so:libc.musl-armhf.so.1
+origin	collectd
+repo	community
+file	collectd-ipmi-5.12.0-r25.apk
+checksum	Q1VP3RRjlZn8211l1HNJ1nvjCwkhU=
+dep	collectd	collectd
+dep	so:libOpenIPMI.so.0	openipmi-libs
+dep	so:libOpenIPMIpthread.so.0	openipmi-libs
+dep	so:libc.musl-armhf.so.1	musl

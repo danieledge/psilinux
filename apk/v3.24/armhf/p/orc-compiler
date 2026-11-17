@@ -1,0 +1,14 @@
+name	orc-compiler
+version	0.4.41-r0
+description	Orc compiler
+url	https://gstreamer.freedesktop.org/modules/orc.html
+license	BSD-2-Clause
+size	16184
+installed-size	34020
+depends	so:libc.musl-armhf.so.1 so:liborc-0.4.so.0
+origin	orc
+repo	main
+file	orc-compiler-0.4.41-r0.apk
+checksum	Q1qfkvuDKvgdvi6LQATBWMTtclZOU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liborc-0.4.so.0	orc

@@ -1,0 +1,13 @@
+name	zfs-udev
+version	2.4.4-r0
+description	Advanced filesystem and volume manager (udev rules)
+url	https://openzfs.org
+license	CDDL-1.0
+size	11930
+installed-size	29754
+depends	so:libc.musl-armhf.so.1
+origin	zfs
+repo	main
+file	zfs-udev-2.4.4-r0.apk
+checksum	Q14WucVeWtPMbXFdR4JL1KZHMQCQM=
+dep	so:libc.musl-armhf.so.1	musl

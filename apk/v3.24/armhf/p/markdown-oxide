@@ -1,0 +1,14 @@
+name	markdown-oxide
+version	0.25.10-r0
+description	PKM (Personal-Knowledge-Management System) for your favorite text-editor through the Language-Server-Protocol
+url	https://oxide.md
+license	Apache-2.0
+size	1786809
+installed-size	3885124
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	markdown-oxide
+repo	community
+file	markdown-oxide-0.25.10-r0.apk
+checksum	Q1RU7UhAjH8p1B3VUEzZZcinyvGe0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

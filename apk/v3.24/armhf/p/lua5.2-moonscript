@@ -1,0 +1,16 @@
+name	lua5.2-moonscript
+version	0.5.0-r3
+description	A language that compiles to Lua (for Lua 5.2)
+url	https://moonscript.org
+license	MIT
+size	40737
+installed-size	166678
+depends	lua5.2 lua5.2-alt-getopt lua5.2-filesystem lua5.2-lpeg
+origin	moonscript
+repo	community
+file	lua5.2-moonscript-0.5.0-r3.apk
+checksum	Q1B4Qq7ZRUPiYDJTtt2ggP+bjwqr4=
+dep	lua5.2	lua5.2
+dep	lua5.2-alt-getopt	lua5.2-alt-getopt
+dep	lua5.2-filesystem	lua5.2-filesystem
+dep	lua5.2-lpeg	lua5.2-lpeg

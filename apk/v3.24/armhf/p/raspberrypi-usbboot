@@ -1,0 +1,14 @@
+name	raspberrypi-usbboot
+version	20250227-r0
+description	rpiboot and bin2c from Raspberry Pi
+url	https://github.com/raspberrypi/usbboot
+license	Apache-2.0
+size	907764
+installed-size	2068234
+depends	so:libc.musl-armhf.so.1 so:libusb-1.0.so.0
+origin	raspberrypi-usbboot
+repo	community
+file	raspberrypi-usbboot-20250227-r0.apk
+checksum	Q1vFUUeFjCT5ry+/yfJdUs06I+23k=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb

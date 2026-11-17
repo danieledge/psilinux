@@ -1,0 +1,15 @@
+name	darkstat
+version	3.0.722-r1
+description	Network traffic analyzer with reports served over HTTP
+url	https://unix4lyfe.org/darkstat/
+license	GPL-2.0-only
+size	49067
+installed-size	104476
+depends	so:libc.musl-armhf.so.1 so:libpcap.so.1 so:libz.so.1
+origin	darkstat
+repo	community
+file	darkstat-3.0.722-r1.apk
+checksum	Q1KuI7KMWzJ7NX6O4+XLj3HcNPQ9c=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcap.so.1	libpcap
+dep	so:libz.so.1	zlib

@@ -1,0 +1,15 @@
+name	libretro-nestopia
+version	0_git20250119-r0
+description	Nintendo Entertainment System core for libretro
+url	https://github.com/libretro/nestopia
+license	GPL-2.0-or-later
+size	604642
+installed-size	3535480
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libretro-nestopia
+repo	community
+file	libretro-nestopia-0_git20250119-r0.apk
+checksum	Q1pr+13JIwCR5S7JRk9iUAsBw+dDU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

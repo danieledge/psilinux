@@ -1,0 +1,15 @@
+name	airspyhf-dev
+version	1.6.8-r2
+description	User mode driver for Airspy HF+ (development files)
+url	https://github.com/airspy/airspyhf
+license	BSD-3-Clause
+size	94167
+installed-size	111253
+depends	airspyhf=1.6.8-r2 airspyhf-libs=1.6.8-r2 pkgconfig
+origin	airspyhf
+repo	community
+file	airspyhf-dev-1.6.8-r2.apk
+checksum	Q1XRqnmSRm6W1BtN0pNAD47KlOvoU=
+dep	airspyhf=1.6.8-r2	airspyhf
+dep	airspyhf-libs=1.6.8-r2	airspyhf-libs
+dep	pkgconfig	pkgconf

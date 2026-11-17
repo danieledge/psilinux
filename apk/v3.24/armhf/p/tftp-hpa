@@ -1,0 +1,13 @@
+name	tftp-hpa
+version	5.2-r7
+description	Official tftp server
+url	https://www.kernel.org/pub/software/network/tftp/
+license	BSD-4-Clause
+size	29671
+installed-size	60476
+depends	so:libc.musl-armhf.so.1
+origin	tftp-hpa
+repo	main
+file	tftp-hpa-5.2-r7.apk
+checksum	Q1OZr1eyNPDMF8m03RQiHoQBEs7c0=
+dep	so:libc.musl-armhf.so.1	musl

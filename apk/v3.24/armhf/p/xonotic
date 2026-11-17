@@ -1,0 +1,15 @@
+name	xonotic
+version	0.8.6-r0
+description	A free, fast-paced crossplatform first-person shooter
+url	https://www.xonotic.org/
+license	GPL-2.0-or-later
+size	353469
+installed-size	396762
+depends	xonotic-data so:libc.musl-armhf.so.1 so:libgmp.so.10
+origin	xonotic
+repo	community
+file	xonotic-0.8.6-r0.apk
+checksum	Q1879Tg953CQokDpKoBW0BVxUN6XM=
+dep	xonotic-data	xonotic-data
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgmp.so.10	gmp

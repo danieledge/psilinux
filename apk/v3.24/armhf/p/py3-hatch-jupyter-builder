@@ -1,0 +1,14 @@
+name	py3-hatch-jupyter-builder
+version	0.9.1-r4
+description	A hatch plugin to help build Jupyter packages
+url	https://github.com/jupyterlab/hatch-jupyter-builder
+license	BSD-3-Clause
+size	16302
+installed-size	42581
+depends	py3-hatchling python3~3.14
+origin	py3-hatch-jupyter-builder
+repo	community
+file	py3-hatch-jupyter-builder-0.9.1-r4.apk
+checksum	Q1xPrEkzQ/cMv2Pqtcr5/WHcSywPc=
+dep	py3-hatchling	py3-hatchling
+dep	python3~3.14	python3

@@ -1,0 +1,14 @@
+name	ruby-pathutil
+version	0.16.2-r5
+description	A faster pure Ruby implementation of Pathname with extra bits
+url	https://github.com/envygeeks/pathutil
+license	MIT
+size	8785
+installed-size	26720
+depends	ruby ruby-forwardable-extended
+origin	ruby-pathutil
+repo	community
+file	ruby-pathutil-0.16.2-r5.apk
+checksum	Q1xBDt1Eo0175gOTKAUR7vxROagp8=
+dep	ruby	ruby
+dep	ruby-forwardable-extended	ruby-forwardable-extended

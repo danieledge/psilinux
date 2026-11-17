@@ -1,0 +1,13 @@
+name	emacs-taxy
+version	0.10.2-r1
+description	Programmable taxonomical grouping for arbitrary objects
+url	https://elpa.gnu.org/packages/taxy.html
+license	GPL-3.0-or-later
+size	11679
+installed-size	41690
+depends	cmd:emacs
+origin	emacs-taxy
+repo	community
+file	emacs-taxy-0.10.2-r1.apk
+checksum	Q1Cli+j8NKY9YCVXCU3UiIYlxaJqY=
+dep	cmd:emacs	emacs-gtk3

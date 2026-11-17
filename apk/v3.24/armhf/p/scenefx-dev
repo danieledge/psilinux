@@ -1,0 +1,22 @@
+name	scenefx-dev
+version	0.4.1-r1
+description	A drop-in replacement for the wlroots scene API with eye-candy effects (development files)
+url	https://github.com/wlrfx/scenefx
+license	MIT
+size	11094
+installed-size	35883
+depends	scenefx=0.4.1-r1 pc:egl pc:gbm pc:glesv2 pc:libdrm pc:pixman-1 pc:wayland-server pc:wlroots-0.19 pc:xkbcommon pkgconfig
+origin	scenefx
+repo	community
+file	scenefx-dev-0.4.1-r1.apk
+checksum	Q120FmtcaW0BtvJekKtXhhUkRjk+Y=
+dep	scenefx=0.4.1-r1	scenefx
+dep	pc:egl	mesa-dev
+dep	pc:gbm	mesa-dev
+dep	pc:glesv2	mesa-dev
+dep	pc:libdrm	libdrm-dev
+dep	pc:pixman-1	pixman-dev
+dep	pc:wayland-server	wayland-dev
+dep	pc:wlroots-0.19	wlroots0.19-dev
+dep	pc:xkbcommon	libxkbcommon-dev
+dep	pkgconfig	pkgconf

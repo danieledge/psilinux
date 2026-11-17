@@ -1,0 +1,15 @@
+name	php85-pecl-msgpack
+version	3.0.1-r0
+description	PHP 8.5 extension provides API for communicating with MessagePack serialization - PECL
+url	https://pecl.php.net/package/msgpack
+license	BSD-3-Clause
+size	28309
+installed-size	62476
+depends	php85-session php85-sockets so:libc.musl-armhf.so.1
+origin	php85-pecl-msgpack
+repo	community
+file	php85-pecl-msgpack-3.0.1-r0.apk
+checksum	Q1iaRm0I8xH+f9zRKvzXhmHNduQHs=
+dep	php85-session	php85-session
+dep	php85-sockets	php85-sockets
+dep	so:libc.musl-armhf.so.1	musl

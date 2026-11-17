@@ -1,0 +1,13 @@
+name	antiword
+version	0.37-r6
+description	A free MS Word reader
+url	http://www.winfield.demon.nl
+license	GPL-2.0-only
+size	127980
+installed-size	526218
+depends	so:libc.musl-armhf.so.1
+origin	antiword
+repo	community
+file	antiword-0.37-r6.apk
+checksum	Q1Wzg9/Vmgfb8nOWzZl3Duc5iFHtM=
+dep	so:libc.musl-armhf.so.1	musl

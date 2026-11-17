@@ -1,0 +1,14 @@
+name	jfsutils
+version	1.1.15-r9
+description	JFS filesystem utilities
+url	https://jfs.sourceforge.net/
+license	GPL-2.0-or-later
+size	261375
+installed-size	1004348
+depends	so:libc.musl-armhf.so.1 so:libuuid.so.1
+origin	jfsutils
+repo	community
+file	jfsutils-1.1.15-r9.apk
+checksum	Q1qjQ9tookaROymr9Ek+YRIofOQR8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libuuid.so.1	libuuid

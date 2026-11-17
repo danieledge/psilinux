@@ -1,0 +1,18 @@
+name	abseil-cpp-spinlock-test-common
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-spinlock-test-common
+url	https://abseil.io/
+license	Apache-2.0
+size	17772
+installed-size	46468
+depends	so:libabsl_base.so.2508.0.0 so:libabsl_synchronization.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgtest.so.1.17.0 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-spinlock-test-common-20250814.1-r0.apk
+checksum	Q1AShQ2AuyEapvuseauE2gnWixA0M=
+dep	so:libabsl_base.so.2508.0.0	abseil-cpp-base
+dep	so:libabsl_synchronization.so.2508.0.0	abseil-cpp-synchronization
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgtest.so.1.17.0	gtest
+dep	so:libstdc++.so.6	libstdc++

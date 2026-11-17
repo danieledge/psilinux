@@ -1,0 +1,13 @@
+name	lua-resty-string
+version	0.15-r1
+description	String functions for OpenResty
+url	https://github.com/openresty/lua-resty-string
+license	BSD-2-Clause
+size	5664
+installed-size	18281
+depends	openresty-mod-http-lua
+origin	lua-resty-string
+repo	community
+file	lua-resty-string-0.15-r1.apk
+checksum	Q12CxbvWi7i3NctAE6SBMf8vco71c=
+dep	openresty-mod-http-lua	openresty-mod-http-lua

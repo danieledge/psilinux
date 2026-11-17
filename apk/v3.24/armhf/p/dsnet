@@ -1,0 +1,13 @@
+name	dsnet
+version	0.8.1-r12
+description	Fast command to manage a centralised wireguard VPN
+url	https://github.com/naggie/dsnet
+license	MIT
+size	4267170
+installed-size	10845388
+depends	so:libc.musl-armhf.so.1
+origin	dsnet
+repo	community
+file	dsnet-0.8.1-r12.apk
+checksum	Q1hJZKRefagVGq98Ud7+6ay2aaLM4=
+dep	so:libc.musl-armhf.so.1	musl

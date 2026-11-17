@@ -1,0 +1,14 @@
+name	discount-dev
+version	3.0.1.2-r1
+description	Markdown to HTML translator written in C (development files)
+url	https://www.pell.portland.or.us/~orc/Code/discount/
+license	BSD-3-Clause
+size	3914
+installed-size	5332
+depends	discount-libs=3.0.1.2-r1 pkgconfig
+origin	discount
+repo	community
+file	discount-dev-3.0.1.2-r1.apk
+checksum	Q1Xlz3VAL2+jOWyUKao7kACxy3gvo=
+dep	discount-libs=3.0.1.2-r1	discount-libs
+dep	pkgconfig	pkgconf

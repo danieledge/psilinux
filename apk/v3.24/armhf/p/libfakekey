@@ -1,0 +1,15 @@
+name	libfakekey
+version	0.3-r1
+description	X virtual keyboard library
+url	https://www.yoctoproject.org/software-item/matchbox/
+license	GPL-2.0-or-later
+size	4707
+installed-size	9336
+depends	so:libX11.so.6 so:libXtst.so.6 so:libc.musl-armhf.so.1
+origin	libfakekey
+repo	community
+file	libfakekey-0.3-r1.apk
+checksum	Q1fyV4ru9LIbd4hRjHswvgAwbp1Q0=
+dep	so:libX11.so.6	libx11
+dep	so:libXtst.so.6	libxtst
+dep	so:libc.musl-armhf.so.1	musl

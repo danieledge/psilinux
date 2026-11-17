@@ -1,0 +1,14 @@
+name	lmdb-tools
+version	0.9.35-r0
+description	Lightning Memory-Mapped Database
+url	https://symas.com/lmdb/
+license	OLDAP-2.8
+size	14213
+installed-size	37692
+depends	so:libc.musl-armhf.so.1 so:liblmdb.so.0
+origin	lmdb
+repo	main
+file	lmdb-tools-0.9.35-r0.apk
+checksum	Q1qWc5Knp7E39jL7FJm7aylIJs5/c=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblmdb.so.0	lmdb

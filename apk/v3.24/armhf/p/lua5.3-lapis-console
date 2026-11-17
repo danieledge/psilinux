@@ -1,0 +1,14 @@
+name	lua5.3-lapis-console
+version	1.2.0-r1
+description	An interactive console for the Lapis web framework. (for Lua 5.3)
+url	https://github.com/leafo/lapis-console
+license	MIT
+size	102735
+installed-size	343017
+depends	lua5.3 lua5.3-lapis
+origin	lua-lapis-console
+repo	community
+file	lua5.3-lapis-console-1.2.0-r1.apk
+checksum	Q1kFVgey0EHDxsrYOET/cR671DT8s=
+dep	lua5.3	lua5.3
+dep	lua5.3-lapis	lua5.3-lapis

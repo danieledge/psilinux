@@ -1,0 +1,15 @@
+name	gsoap-dev
+version	2.8.139-r0
+description	Cross-platform C and C++ SDK for SOAP/XML Web services (development files)
+url	https://www.genivia.com/dev.html
+license	GPL-2.0-or-later gSOAP-1.3b
+size	532809
+installed-size	2904094
+depends	gsoap-tools=2.8.139-r0 gsoap=2.8.139-r0 pkgconfig
+origin	gsoap
+repo	community
+file	gsoap-dev-2.8.139-r0.apk
+checksum	Q1B9f8G70C6sdSsycPuAwluqC0yjg=
+dep	gsoap-tools=2.8.139-r0	gsoap-tools
+dep	gsoap=2.8.139-r0	gsoap
+dep	pkgconfig	pkgconf

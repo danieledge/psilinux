@@ -1,0 +1,33 @@
+name	poetry
+version	2.3.3-r0
+description	Python3 dependency management and packaging system
+url	https://python-poetry.org/
+license	MIT
+size	233442
+installed-size	930550
+depends	py3-poetry-core py3-build py3-cachecontrol py3-cleo py3-dulwich py3-fastjsonschema py3-installer py3-keyring py3-packaging py3-pkginfo py3-platformdirs py3-pyproject-hooks py3-requests py3-requests-toolbelt py3-shellingham py3-tomlkit py3-trove-classifiers py3-virtualenv py3-findpython py3-pbs-installer python3~3.14
+origin	poetry
+repo	community
+file	poetry-2.3.3-r0.apk
+checksum	Q1TsvrXGTf4lbHdjWjyOayKEMsGcQ=
+dep	py3-poetry-core	py3-poetry-core
+dep	py3-build	py3-build
+dep	py3-cachecontrol	py3-cachecontrol
+dep	py3-cleo	py3-cleo
+dep	py3-dulwich	py3-dulwich
+dep	py3-fastjsonschema	py3-fastjsonschema
+dep	py3-installer	py3-installer
+dep	py3-keyring	py3-keyring
+dep	py3-packaging	py3-packaging
+dep	py3-pkginfo	py3-pkginfo
+dep	py3-platformdirs	py3-platformdirs
+dep	py3-pyproject-hooks	py3-pyproject-hooks
+dep	py3-requests	py3-requests
+dep	py3-requests-toolbelt	py3-requests-toolbelt
+dep	py3-shellingham	py3-shellingham
+dep	py3-tomlkit	py3-tomlkit
+dep	py3-trove-classifiers	py3-trove-classifiers
+dep	py3-virtualenv	py3-virtualenv
+dep	py3-findpython	py3-findpython
+dep	py3-pbs-installer	py3-pbs-installer
+dep	python3~3.14	python3

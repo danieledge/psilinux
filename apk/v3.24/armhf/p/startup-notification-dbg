@@ -1,0 +1,12 @@
+name	startup-notification-dbg
+version	0.12-r8
+description	Monitor and display application startup (debug symbols)
+url	https://www.freedesktop.org/wiki/Software/startup-notification
+license	LGPL-2.0-or-later
+size	41771
+installed-size	93148
+depends	!startup-notification<0.12-r8 !startup-notification>0.12-r8
+origin	startup-notification
+repo	community
+file	startup-notification-dbg-0.12-r8.apk
+checksum	Q1LOzu8WR5ruh4lqxIeiUWfABt6hE=

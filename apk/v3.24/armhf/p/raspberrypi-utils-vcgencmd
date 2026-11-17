@@ -1,0 +1,13 @@
+name	raspberrypi-utils-vcgencmd
+version	0.20260811-r0
+description	A tool to send commands to the VideoCore firmware and display the results
+url	https://github.com/raspberrypi/utils
+license	BSD-3-Clause
+size	4322
+installed-size	9388
+depends	so:libc.musl-armhf.so.1
+origin	raspberrypi-utils
+repo	community
+file	raspberrypi-utils-vcgencmd-0.20260811-r0.apk
+checksum	Q1/AiDRjHKsG4EtojtlytldVFKmLM=
+dep	so:libc.musl-armhf.so.1	musl

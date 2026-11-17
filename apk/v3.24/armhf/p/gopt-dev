@@ -1,0 +1,13 @@
+name	gopt-dev
+version	10.0-r0
+description	C library for parsing POSIX and GNU style command line arguments (development files)
+url	http://www.purposeful.co.uk/software/gopt/
+license	TFL
+size	6857
+installed-size	13003
+depends	gopt=10.0-r0
+origin	gopt
+repo	community
+file	gopt-dev-10.0-r0.apk
+checksum	Q1Vnp2nfEm4wuaxxQ1Sl3Y5LD1eIQ=
+dep	gopt=10.0-r0	gopt

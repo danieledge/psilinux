@@ -1,0 +1,14 @@
+name	radcli
+version	1.4.0-r0
+description	A simple RADIUS client library
+url	https://github.com/radcli/radcli
+license	BSD-2-Clause AND MIT
+size	43812
+installed-size	112013
+depends	so:libc.musl-armhf.so.1 so:libgnutls.so.30
+origin	radcli
+repo	community
+file	radcli-1.4.0-r0.apk
+checksum	Q1GIB71vhtRSDvYngja6sDq0jw7qo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgnutls.so.30	gnutls

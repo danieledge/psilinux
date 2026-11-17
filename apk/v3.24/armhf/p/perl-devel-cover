@@ -1,0 +1,15 @@
+name	perl-devel-cover
+version	1.52-r0
+description	Code coverage metrics for Perl
+url	https://metacpan.org/release/Devel-Cover/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	124002
+installed-size	436811
+depends	perl perl-html-parser so:libc.musl-armhf.so.1
+origin	perl-devel-cover
+repo	community
+file	perl-devel-cover-1.52-r0.apk
+checksum	Q1hrHj/+kvcjIMCGY9gXfJvB5lXN4=
+dep	perl	perl
+dep	perl-html-parser	perl-html-parser
+dep	so:libc.musl-armhf.so.1	musl

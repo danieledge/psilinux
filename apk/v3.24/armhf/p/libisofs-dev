@@ -1,0 +1,14 @@
+name	libisofs-dev
+version	1.5.8-r0
+description	Library to pack up hard disk files and directories into a ISO 9660 disk image (development files)
+url	https://dev.lovelyhq.com/libburnia/libisofs
+license	GPL-2.0-or-later
+size	92428
+installed-size	370925
+depends	libisofs=1.5.8-r0 pkgconfig
+origin	libisofs
+repo	main
+file	libisofs-dev-1.5.8-r0.apk
+checksum	Q1NGjLvgyeSRdnAYf6Wn5HpKzv1hk=
+dep	libisofs=1.5.8-r0	libisofs
+dep	pkgconfig	pkgconf

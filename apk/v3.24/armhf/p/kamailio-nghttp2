@@ -1,0 +1,19 @@
+name	kamailio-nghttp2
+version	6.0.6-r0
+description	Kamailio HTTP2 server implementation using nghttp2 library
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	29469
+installed-size	59108
+depends	kamailio so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libevent-2.1.so.7 so:libevent_openssl-2.1.so.7 so:libnghttp2.so.14 so:libssl.so.3
+origin	kamailio
+repo	main
+file	kamailio-nghttp2-6.0.6-r0.apk
+checksum	Q1+cm6pigoU00iV+0vwPKfjhaGUYQ=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libevent-2.1.so.7	libevent
+dep	so:libevent_openssl-2.1.so.7	libevent
+dep	so:libnghttp2.so.14	nghttp2-libs
+dep	so:libssl.so.3	libssl3

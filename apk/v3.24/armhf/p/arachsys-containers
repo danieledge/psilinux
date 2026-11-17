@@ -1,0 +1,13 @@
+name	arachsys-containers
+version	1.7-r0
+description	Lightweight containers using Linux user namespaces
+url	https://github.com/arachsys/containers
+license	MIT
+size	15701
+installed-size	48644
+depends	so:libc.musl-armhf.so.1
+origin	arachsys-containers
+repo	community
+file	arachsys-containers-1.7-r0.apk
+checksum	Q1lboqThIMP6j6j0MQH3Lj0sRedss=
+dep	so:libc.musl-armhf.so.1	musl

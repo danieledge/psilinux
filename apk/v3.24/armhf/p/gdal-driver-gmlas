@@ -1,0 +1,18 @@
+name	gdal-driver-gmlas
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (Geography Markup Language (GML)  driver)
+url	https://gdal.org/
+license	MIT
+size	177231
+installed-size	407304
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libjson-c.so.5 so:libstdc++.so.6 so:libxerces-c-3.2.so
+origin	gdal
+repo	community
+file	gdal-driver-gmlas-3.13.3-r0.apk
+checksum	Q1WYwmC5BJxwFvlXmbDFC/Ux7Pg0k=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libjson-c.so.5	json-c
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxerces-c-3.2.so	xerces-c

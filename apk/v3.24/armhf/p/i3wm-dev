@@ -1,0 +1,13 @@
+name	i3wm-dev
+version	4.24-r0
+description	Improved dynamic tiling window manager (development files)
+url	https://i3wm.org
+license	BSD-3-Clause
+size	2792
+installed-size	3513
+depends	i3wm=4.24-r0
+origin	i3wm
+repo	community
+file	i3wm-dev-4.24-r0.apk
+checksum	Q1O7rGUWjo8DDa9/pmlUQ6BGuavek=
+dep	i3wm=4.24-r0	i3wm

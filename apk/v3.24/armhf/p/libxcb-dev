@@ -1,0 +1,18 @@
+name	libxcb-dev
+version	1.17.0-r2
+description	X11 client-side library (development files)
+url	https://xcb.freedesktop.org/
+license	MIT
+size	193952
+installed-size	2138639
+depends	libxau-dev xcb-proto libxcb=1.17.0-r2 pc:xau>=0.99.2 pc:xdmcp pkgconfig
+origin	libxcb
+repo	main
+file	libxcb-dev-1.17.0-r2.apk
+checksum	Q1Qg2sAgphiAS6/3gSrfuMyLzZgLE=
+dep	libxau-dev	libxau-dev
+dep	xcb-proto	xcb-proto
+dep	libxcb=1.17.0-r2	libxcb
+dep	pc:xau>=0.99.2	libxau-dev
+dep	pc:xdmcp	libxdmcp-dev
+dep	pkgconfig	pkgconf

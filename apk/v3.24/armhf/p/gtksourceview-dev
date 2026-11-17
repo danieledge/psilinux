@@ -1,0 +1,20 @@
+name	gtksourceview-dev
+version	3.24.11-r4
+description	A text widget adding syntax highlighting and more to GNOME (development files)
+url	https://gitlab.gnome.org/GNOME/gtksourceview/-/tree/gnome-3-24
+license	LGPL-2.1-or-later
+size	114816
+installed-size	1167463
+depends	gtk+3.0-dev libxml2-dev gtksourceview=3.24.11-r4 pc:gio-2.0>=2.48 pc:glib-2.0>=2.48 pc:gtk+-3.0>=3.20 pc:libxml-2.0>=2.6 pkgconfig
+origin	gtksourceview
+repo	community
+file	gtksourceview-dev-3.24.11-r4.apk
+checksum	Q16lR0jwxb+IcXgXki9EzcWRurG2E=
+dep	gtk+3.0-dev	gtk+3.0-dev
+dep	libxml2-dev	libxml2-dev
+dep	gtksourceview=3.24.11-r4	gtksourceview
+dep	pc:gio-2.0>=2.48	glib-dev
+dep	pc:glib-2.0>=2.48	glib-dev
+dep	pc:gtk+-3.0>=3.20	gtk+3.0-dev
+dep	pc:libxml-2.0>=2.6	libxml2-dev
+dep	pkgconfig	pkgconf

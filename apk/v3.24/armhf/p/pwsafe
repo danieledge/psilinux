@@ -1,0 +1,18 @@
+name	pwsafe
+version	0.2.0_git20210320-r3
+description	Password database
+url	https://github.com/nsd20463/pwsafe
+license	GPL-2.0-or-later
+size	38859
+installed-size	79292
+depends	so:libX11.so.6 so:libXmu.so.6 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	pwsafe
+repo	community
+file	pwsafe-0.2.0_git20210320-r3.apk
+checksum	Q1ywsNpA31HDbSzoPe46vI3YKU478=
+dep	so:libX11.so.6	libx11
+dep	so:libXmu.so.6	libxmu
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

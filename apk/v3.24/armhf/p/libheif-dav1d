@@ -1,0 +1,18 @@
+name	libheif-dav1d
+version	1.23.7-r0
+description	libheif AVIF/AV1 decoder plugin using dav1d
+url	https://www.libde265.org/
+license	LGPL-3.0-or-later
+size	8041
+installed-size	13748
+depends	libheif=1.23.7-r0 so:libc.musl-armhf.so.1 so:libdav1d.so.7 so:libgcc_s.so.1 so:libheif.so.1 so:libstdc++.so.6
+origin	libheif
+repo	community
+file	libheif-dav1d-1.23.7-r0.apk
+checksum	Q1rTMUQKtAnK6I6lPbwH2hqwqNq9c=
+dep	libheif=1.23.7-r0	libheif
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdav1d.so.7	libdav1d
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libheif.so.1	libheif
+dep	so:libstdc++.so.6	libstdc++

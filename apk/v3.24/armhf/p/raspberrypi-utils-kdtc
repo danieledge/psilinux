@@ -1,0 +1,14 @@
+name	raspberrypi-utils-kdtc
+version	0.20260811-r0
+description	A tool for compiling overlays with #includes, etc., as used in the kernel tree.
+url	https://github.com/raspberrypi/utils
+license	BSD-3-Clause
+size	3747
+installed-size	5731
+depends	dtc perl
+origin	raspberrypi-utils
+repo	community
+file	raspberrypi-utils-kdtc-0.20260811-r0.apk
+checksum	Q13aqcJNc+wib07nX+uHsX8rWPVGI=
+dep	dtc	dtc
+dep	perl	perl

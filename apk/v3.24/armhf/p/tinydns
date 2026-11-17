@@ -1,0 +1,14 @@
+name	tinydns
+version	1.05-r55
+description	A small and secure DNS server
+url	https://cr.yp.to/djbdns.html
+license	Public-Domain
+size	46739
+installed-size	125276
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	djbdns
+repo	main
+file	tinydns-1.05-r55.apk
+checksum	Q1Cbz9cWvc6SQIKKbn9bluiRo45Vo=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

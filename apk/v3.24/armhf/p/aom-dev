@@ -1,0 +1,15 @@
+name	aom-dev
+version	3.14.1-r0
+description	Alliance for Open Media (AOM) AV1 codec SDK (development files)
+url	https://aomedia.org/
+license	BSD-2-Clause AND custom
+size	65271
+installed-size	262862
+depends	aom=3.14.1-r0 aom-libs=3.14.1-r0 pkgconfig
+origin	aom
+repo	main
+file	aom-dev-3.14.1-r0.apk
+checksum	Q1wZcwG2YULoOqFOdfFC39tBEpqlI=
+dep	aom=3.14.1-r0	aom
+dep	aom-libs=3.14.1-r0	aom-libs
+dep	pkgconfig	pkgconf

@@ -1,0 +1,31 @@
+name	grommunio-web
+version	3.17-r0
+description	Web user interface for grommunio
+url	https://grommunio.com/
+license	AGPL-3.0-only
+size	22759988
+installed-size	91261826
+depends	grommunio-gromox grommunio-mapi-header-php mailcap php84 php84-bcmath php84-ctype php84-curl php84-dom php84-gd php84-gettext php84-mbstring php84-openssl php84-session php84-simplexml php84-sodium php84-sqlite3 php84-sysvshm php84-zip /bin/sh
+origin	grommunio-web
+repo	community
+file	grommunio-web-3.17-r0.apk
+checksum	Q1dC7oMWcBuRfkbgR1XE34oe2gzpM=
+dep	grommunio-gromox	grommunio-gromox
+dep	grommunio-mapi-header-php	grommunio-mapi-header-php
+dep	mailcap	mailcap
+dep	php84	php84
+dep	php84-bcmath	php84-bcmath
+dep	php84-ctype	php84-ctype
+dep	php84-curl	php84-curl
+dep	php84-dom	php84-dom
+dep	php84-gd	php84-gd
+dep	php84-gettext	php84-gettext
+dep	php84-mbstring	php84-mbstring
+dep	php84-openssl	php84-openssl
+dep	php84-session	php84-session
+dep	php84-simplexml	php84-simplexml
+dep	php84-sodium	php84-sodium
+dep	php84-sqlite3	php84-sqlite3
+dep	php84-sysvshm	php84-sysvshm
+dep	php84-zip	php84-zip
+dep	/bin/sh	busybox-binsh

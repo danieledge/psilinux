@@ -1,0 +1,53 @@
+name	boost1.84-dev
+version	1.84.0-r6
+description	Free peer-reviewed portable C++ source libraries (development files)
+url	https://www.boost.org/
+license	BSL-1.0
+size	16401866
+installed-size	144942910
+depends	boost1.84 linux-headers bzip2-dev icu-dev xz-dev zlib-dev zstd-dev boost1.84-atomic=1.84.0-r6 boost1.84-chrono=1.84.0-r6 boost1.84-container=1.84.0-r6 boost1.84-context=1.84.0-r6 boost1.84-contract=1.84.0-r6 boost1.84-coroutine=1.84.0-r6 boost1.84-date_time=1.84.0-r6 boost1.84-fiber=1.84.0-r6 boost1.84-filesystem=1.84.0-r6 boost1.84-graph=1.84.0-r6 boost1.84-iostreams=1.84.0-r6 boost1.84-json=1.84.0-r6 boost1.84-libs=1.84.0-r6 boost1.84-locale=1.84.0-r6 boost1.84-log=1.84.0-r6 boost1.84-log_setup=1.84.0-r6 boost1.84-math=1.84.0-r6 boost1.84-nowide=1.84.0-r6 boost1.84-prg_exec_monitor=1.84.0-r6 boost1.84-program_options=1.84.0-r6 boost1.84-python3=1.84.0-r6 boost1.84-random=1.84.0-r6 boost1.84-regex=1.84.0-r6 boost1.84-serialization=1.84.0-r6 boost1.84-stacktrace_basic=1.84.0-r6 boost1.84-stacktrace_noop=1.84.0-r6 boost1.84-system=1.84.0-r6 boost1.84-thread=1.84.0-r6 boost1.84-timer=1.84.0-r6 boost1.84-type_erasure=1.84.0-r6 boost1.84-unit_test_framework=1.84.0-r6 boost1.84-url=1.84.0-r6 boost1.84-wave=1.84.0-r6 boost1.84-wserialization=1.84.0-r6
+origin	boost1.84
+repo	main
+file	boost1.84-dev-1.84.0-r6.apk
+checksum	Q18/aEGRS9AvMDc61JFAIPcWY2YmM=
+dep	boost1.84	boost1.84
+dep	linux-headers	linux-headers
+dep	bzip2-dev	bzip2-dev
+dep	icu-dev	icu-dev
+dep	xz-dev	xz-dev
+dep	zlib-dev	zlib-dev
+dep	zstd-dev	zstd-dev
+dep	boost1.84-atomic=1.84.0-r6	boost1.84-atomic
+dep	boost1.84-chrono=1.84.0-r6	boost1.84-chrono
+dep	boost1.84-container=1.84.0-r6	boost1.84-container
+dep	boost1.84-context=1.84.0-r6	boost1.84-context
+dep	boost1.84-contract=1.84.0-r6	boost1.84-contract
+dep	boost1.84-coroutine=1.84.0-r6	boost1.84-coroutine
+dep	boost1.84-date_time=1.84.0-r6	boost1.84-date_time
+dep	boost1.84-fiber=1.84.0-r6	boost1.84-fiber
+dep	boost1.84-filesystem=1.84.0-r6	boost1.84-filesystem
+dep	boost1.84-graph=1.84.0-r6	boost1.84-graph
+dep	boost1.84-iostreams=1.84.0-r6	boost1.84-iostreams
+dep	boost1.84-json=1.84.0-r6	boost1.84-json
+dep	boost1.84-libs=1.84.0-r6	boost1.84-libs
+dep	boost1.84-locale=1.84.0-r6	boost1.84-locale
+dep	boost1.84-log=1.84.0-r6	boost1.84-log
+dep	boost1.84-log_setup=1.84.0-r6	boost1.84-log_setup
+dep	boost1.84-math=1.84.0-r6	boost1.84-math
+dep	boost1.84-nowide=1.84.0-r6	boost1.84-nowide
+dep	boost1.84-prg_exec_monitor=1.84.0-r6	boost1.84-prg_exec_monitor
+dep	boost1.84-program_options=1.84.0-r6	boost1.84-program_options
+dep	boost1.84-python3=1.84.0-r6	boost1.84-python3
+dep	boost1.84-random=1.84.0-r6	boost1.84-random
+dep	boost1.84-regex=1.84.0-r6	boost1.84-regex
+dep	boost1.84-serialization=1.84.0-r6	boost1.84-serialization
+dep	boost1.84-stacktrace_basic=1.84.0-r6	boost1.84-stacktrace_basic
+dep	boost1.84-stacktrace_noop=1.84.0-r6	boost1.84-stacktrace_noop
+dep	boost1.84-system=1.84.0-r6	boost1.84-system
+dep	boost1.84-thread=1.84.0-r6	boost1.84-thread
+dep	boost1.84-timer=1.84.0-r6	boost1.84-timer
+dep	boost1.84-type_erasure=1.84.0-r6	boost1.84-type_erasure
+dep	boost1.84-unit_test_framework=1.84.0-r6	boost1.84-unit_test_framework
+dep	boost1.84-url=1.84.0-r6	boost1.84-url
+dep	boost1.84-wave=1.84.0-r6	boost1.84-wave
+dep	boost1.84-wserialization=1.84.0-r6	boost1.84-wserialization

@@ -1,0 +1,15 @@
+name	prometheus-snmp-exporter
+version	0.29.0-r11
+description	SNMP Exporter for Prometheus
+url	https://github.com/prometheus/snmp_exporter
+license	Apache-2.0
+size	7741712
+installed-size	21353872
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libnetsnmp.so.45
+origin	prometheus-snmp-exporter
+repo	community
+file	prometheus-snmp-exporter-0.29.0-r11.apk
+checksum	Q13dwokR2Zv0RlvWoxbPGmdD+khGI=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnetsnmp.so.45	net-snmp-libs

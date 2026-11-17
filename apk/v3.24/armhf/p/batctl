@@ -1,0 +1,15 @@
+name	batctl
+version	2025.2-r0
+description	B.A.T.M.A.N. advanced control and management tool
+url	https://www.open-mesh.org/
+license	GPL-2.0-only AND MIT
+size	54860
+installed-size	119104
+depends	so:libc.musl-armhf.so.1 so:libnl-3.so.200 so:libnl-genl-3.so.200
+origin	batctl
+repo	main
+file	batctl-2025.2-r0.apk
+checksum	Q1TpUkcNN5+iOOxGUckMKrGdQ8fBE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnl-3.so.200	libnl3
+dep	so:libnl-genl-3.so.200	libnl3

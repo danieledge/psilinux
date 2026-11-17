@@ -1,0 +1,22 @@
+name	libspelling
+version	0.4.10-r0
+description	Spellcheck library for GTK 4
+url	https://gitlab.gnome.org/GNOME/libspelling
+license	LGPL-2.1-or-later
+size	49528
+installed-size	125068
+depends	so:libc.musl-armhf.so.1 so:libenchant-2.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libgtksourceview-5.so.0 so:libicuuc.so.78 so:libintl.so.8 so:libpango-1.0.so.0
+origin	libspelling
+repo	community
+file	libspelling-0.4.10-r0.apk
+checksum	Q1mj/e+kLnpl9Q0WCIZj+dEZd6v2g=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libenchant-2.so.2	enchant2-libs
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libgtksourceview-5.so.0	gtksourceview5
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango

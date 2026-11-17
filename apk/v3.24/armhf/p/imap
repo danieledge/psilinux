@@ -1,0 +1,15 @@
+name	imap
+version	2007f-r16
+description	An IMAP/POP server
+url	http://www.washington.edu/imap
+license	Apache-2.0
+size	1466621
+installed-size	2886808
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	imap
+repo	main
+file	imap-2007f-r16.apk
+checksum	Q1dP1dD8zj7jMgDtVLIuHhZ5uJ6hY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,13 @@
+name	hackrf-static
+version	2026.01.3-r1
+description	Driver for HackRF, allowing general purpose software defined radio (static library)
+url	https://github.com/greatscottgadgets/hackrf
+license	GPL-2.0-only
+size	14417
+installed-size	38246
+depends	hackrf-dev
+origin	hackrf
+repo	community
+file	hackrf-static-2026.01.3-r1.apk
+checksum	Q17JEiQ+HfHFaSM9jWnjPXh5u6fyw=
+dep	hackrf-dev	hackrf-dev

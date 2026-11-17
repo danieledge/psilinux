@@ -1,0 +1,14 @@
+name	novnc
+version	1.6.0-r1
+description	VNC client using HTML5 (WebSockets, Canvas) with encryption (wss://) support
+url	https://novnc.com/
+license	MPL-2.0
+size	396505
+installed-size	1951098
+depends	net-tools websockify
+origin	novnc
+repo	community
+file	novnc-1.6.0-r1.apk
+checksum	Q1/08x04nHzmnUbXw/DyQeZ/U/t7w=
+dep	net-tools	net-tools
+dep	websockify	websockify

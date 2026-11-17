@@ -1,0 +1,13 @@
+name	py3-oci-pyc
+version	2.169.0-r1
+description	Precompiled Python bytecode for py3-oci
+url	https://docs.oracle.com/en-us/iaas/tools/python/2.53.1/index.html
+license	Apache-2.0
+size	29505886
+installed-size	189226971
+depends	python3~3.14
+origin	py3-oci
+repo	community
+file	py3-oci-pyc-2.169.0-r1.apk
+checksum	Q1flW3Id7UyyVqNj8nDE0KcAtS9g0=
+dep	python3~3.14	python3

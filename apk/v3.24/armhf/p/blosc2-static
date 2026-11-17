@@ -1,0 +1,13 @@
+name	blosc2-static
+version	2.23.1-r0
+description	A fast, compressed, persistent binary data store library for C (static library)
+url	https://www.blosc.org
+license	BSD-3-Clause
+size	290296
+installed-size	1110308
+depends	blosc2-dev
+origin	blosc2
+repo	community
+file	blosc2-static-2.23.1-r0.apk
+checksum	Q1Q+buvzaebF4EKgh0IFiiIRXMkDI=
+dep	blosc2-dev	blosc2-dev

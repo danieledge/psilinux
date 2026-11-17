@@ -1,0 +1,19 @@
+name	rebuilderd
+version	0.23.1-r0
+description	Independent verification system of binary packages
+url	https://github.com/kpcyrd/rebuilderd
+license	GPL-3.0-or-later
+size	3709517
+installed-size	7765700
+depends	rebuilderd-tools shared-mime-info /bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libsqlite3.so.0 so:libzstd.so.1
+origin	rebuilderd
+repo	community
+file	rebuilderd-0.23.1-r0.apk
+checksum	Q1v4WX98BsOqal81EnhWo1G/ZS788=
+dep	rebuilderd-tools	rebuilderd-tools
+dep	shared-mime-info	shared-mime-info
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libzstd.so.1	zstd-libs

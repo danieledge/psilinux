@@ -1,0 +1,15 @@
+name	s6-dns-dev
+version	2.4.1.2-r0
+description	skarnet.org's DNS client libraries and command-line DNS client utilities (development files)
+url	https://skarnet.org/software/s6-dns/
+license	ISC
+size	11397
+installed-size	47361
+depends	s6-dns-libs=2.4.1.2-r0 pc:libskarnet>=2.15.0.0 pkgconfig
+origin	s6-dns
+repo	main
+file	s6-dns-dev-2.4.1.2-r0.apk
+checksum	Q18V03G2n+wfGQ1lsonvHaOiWguYc=
+dep	s6-dns-libs=2.4.1.2-r0	s6-dns-libs
+dep	pc:libskarnet>=2.15.0.0	skalibs-dev
+dep	pkgconfig	pkgconf

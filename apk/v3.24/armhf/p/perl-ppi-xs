@@ -1,0 +1,15 @@
+name	perl-ppi-xs
+version	0.910-r3
+description	(Minor) XS acceleration for PPI
+url	https://metacpan.org/release/PPI-XS/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	5720
+installed-size	9053
+depends	perl perl-ppi so:libc.musl-armhf.so.1
+origin	perl-ppi-xs
+repo	community
+file	perl-ppi-xs-0.910-r3.apk
+checksum	Q1hUJQPP2rDTEF7X4JCkLkpOhrxWk=
+dep	perl	perl
+dep	perl-ppi	perl-ppi
+dep	so:libc.musl-armhf.so.1	musl

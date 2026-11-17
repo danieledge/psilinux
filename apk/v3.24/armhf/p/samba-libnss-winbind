@@ -1,0 +1,13 @@
+name	samba-libnss-winbind
+version	4.23.8-r0
+description	Samba winbind NSS plugin
+url	https://www.samba.org/
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	13673
+installed-size	35368
+depends	so:libc.musl-armhf.so.1
+origin	samba
+repo	main
+file	samba-libnss-winbind-4.23.8-r0.apk
+checksum	Q1Bgz6medeL3Unzut5w90yXKspQqA=
+dep	so:libc.musl-armhf.so.1	musl

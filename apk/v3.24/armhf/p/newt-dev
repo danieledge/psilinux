@@ -1,0 +1,15 @@
+name	newt-dev
+version	0.52.25-r1
+description	Redhat's Newt windowing toolkit development files (development files)
+url	https://pagure.io/newt/
+license	LGPL-2.0-only
+size	6168
+installed-size	16465
+depends	newt=0.52.25-r1 pc:slang pkgconfig
+origin	newt
+repo	main
+file	newt-dev-0.52.25-r1.apk
+checksum	Q1mhq7O3patJh1XNGqZvOw+Ka8h14=
+dep	newt=0.52.25-r1	newt
+dep	pc:slang	slang-dev
+dep	pkgconfig	pkgconf

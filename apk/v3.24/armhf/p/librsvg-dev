@@ -1,0 +1,28 @@
+name	librsvg-dev
+version	2.62.3-r0
+description	Library to render SVG images to Cairo surfaces (development files)
+url	https://gitlab.gnome.org/GNOME/librsvg
+license	LGPL-2.1-or-later
+size	42782
+installed-size	237155
+depends	rsvg-convert=2.62.3-r0 librsvg=2.62.3-r0 pc:cairo-gobject>=1.18.0 pc:cairo-png>=1.18.0 pc:cairo>=1.18.0 pc:dav1d>=1.3.0 pc:freetype2>=20.0.14 pc:gdk-pixbuf-2.0>=2.20 pc:gio-2.0>=2.50.0 pc:glib-2.0>=2.50.0 pc:gmodule-2.0>=2.50.0 pc:harfbuzz>=2.0.0 pc:libxml-2.0>=2.9.0 pc:pangocairo>=1.50.0 pc:pangoft2>=1.50.0 pkgconfig
+origin	librsvg
+repo	community
+file	librsvg-dev-2.62.3-r0.apk
+checksum	Q1U3f21nJnqi5CkhjrVN0Oew7zSlA=
+dep	rsvg-convert=2.62.3-r0	rsvg-convert
+dep	librsvg=2.62.3-r0	librsvg
+dep	pc:cairo-gobject>=1.18.0	cairo-dev
+dep	pc:cairo-png>=1.18.0	cairo-dev
+dep	pc:cairo>=1.18.0	cairo-dev
+dep	pc:dav1d>=1.3.0	dav1d-dev
+dep	pc:freetype2>=20.0.14	freetype-dev
+dep	pc:gdk-pixbuf-2.0>=2.20	gdk-pixbuf-dev
+dep	pc:gio-2.0>=2.50.0	glib-dev
+dep	pc:glib-2.0>=2.50.0	glib-dev
+dep	pc:gmodule-2.0>=2.50.0	glib-dev
+dep	pc:harfbuzz>=2.0.0	harfbuzz-dev
+dep	pc:libxml-2.0>=2.9.0	libxml2-dev
+dep	pc:pangocairo>=1.50.0	pango-dev
+dep	pc:pangoft2>=1.50.0	pango-dev
+dep	pkgconfig	pkgconf

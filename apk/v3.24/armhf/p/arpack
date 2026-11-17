@@ -1,0 +1,15 @@
+name	arpack
+version	3.9.1-r0
+description	Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems
+url	https://github.com/opencollab/arpack-ng
+license	BSD-3-Clause
+size	125822
+installed-size	472364
+depends	openblas so:libc.musl-armhf.so.1 so:libgfortran.so.5
+origin	arpack
+repo	community
+file	arpack-3.9.1-r0.apk
+checksum	Q11FUJQfKHhHmcpPyD/xbqL6LXa2o=
+dep	openblas	openblas
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgfortran.so.5	libgfortran

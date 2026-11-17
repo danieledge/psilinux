@@ -1,0 +1,13 @@
+name	ocaml-camlzip-dev
+version	1.13-r3
+description	Access compressed files in ZIP, GZIP and JAR format (development files)
+url	https://github.com/xavierleroy/camlzip
+license	LGPL-2.1-or-later WITH OCaml-LGPL-linking-exception
+size	270158
+installed-size	660762
+depends	ocaml-camlzip=1.13-r3
+origin	ocaml-camlzip
+repo	community
+file	ocaml-camlzip-dev-1.13-r3.apk
+checksum	Q12gbpmgNlpSg0x8bccVvvuLCeKd4=
+dep	ocaml-camlzip=1.13-r3	ocaml-camlzip

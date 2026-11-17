@@ -1,0 +1,14 @@
+name	gumbo-parser-dev
+version	0.13.2-r0
+description	An HTML5 parsing library in pure C99 (development files)
+url	https://codeberg.org/grisha/gumbo-parser
+license	Apache-2.0
+size	10995
+installed-size	26613
+depends	gumbo-parser=0.13.2-r0 pkgconfig
+origin	gumbo-parser
+repo	community
+file	gumbo-parser-dev-0.13.2-r0.apk
+checksum	Q1FyaNhaMf10CzIsQojh/g7WAmeLk=
+dep	gumbo-parser=0.13.2-r0	gumbo-parser
+dep	pkgconfig	pkgconf

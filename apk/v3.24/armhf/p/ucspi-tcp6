@@ -1,0 +1,13 @@
+name	ucspi-tcp6
+version	1.13.06-r0
+description	IPv6 enabled ucspi-tcp superserver
+url	http://www.fehcom.de/ipnet/ucspi-tcp6.html
+license	Public-Domain
+size	135780
+installed-size	356595
+depends	so:libc.musl-armhf.so.1
+origin	ucspi-tcp6
+repo	community
+file	ucspi-tcp6-1.13.06-r0.apk
+checksum	Q17qQ0gn41em08iqmGGkBfs1Gb7Dc=
+dep	so:libc.musl-armhf.so.1	musl

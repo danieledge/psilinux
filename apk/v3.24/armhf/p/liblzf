@@ -1,0 +1,13 @@
+name	liblzf
+version	3.6-r1
+description	A very small data compression library
+url	http://software.schmorp.de/pkg/liblzf.html
+license	BSD-2-Clause
+size	9386
+installed-size	18856
+depends	so:libc.musl-armhf.so.1
+origin	liblzf
+repo	community
+file	liblzf-3.6-r1.apk
+checksum	Q1SAXc6xEnHuNMKDCJAhkGOZjPW/I=
+dep	so:libc.musl-armhf.so.1	musl

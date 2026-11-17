@@ -1,0 +1,13 @@
+name	leveldb-dev
+version	1.23-r1
+description	A fast and lightweight key/value database library by Google (development files)
+url	https://github.com/google/leveldb
+license	BSD-3-Clause
+size	25001
+installed-size	83027
+depends	leveldb=1.23-r1
+origin	leveldb
+repo	community
+file	leveldb-dev-1.23-r1.apk
+checksum	Q1YHk8vJJotoSLvT7BmSVZy4OUZIM=
+dep	leveldb=1.23-r1	leveldb

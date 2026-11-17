@@ -1,0 +1,16 @@
+name	qpdf-fix-qdf
+version	12.3.2-r0
+description	Repair PDF files in QDF form after editing
+url	https://github.com/qpdf/qpdf
+license	Apache-2.0
+size	47755
+installed-size	116660
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libqpdf.so.30 so:libstdc++.so.6
+origin	qpdf
+repo	community
+file	qpdf-fix-qdf-12.3.2-r0.apk
+checksum	Q14L9b7uNLqUyGbifpaHRJlYbBlOU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libqpdf.so.30	qpdf-libs
+dep	so:libstdc++.so.6	libstdc++

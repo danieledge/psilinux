@@ -1,0 +1,14 @@
+name	java-hdf5
+version	1.14.4.2-r1
+description	Java bindings for HDF5 library
+url	https://www.hdfgroup.org/solutions/hdf5/
+license	custom
+size	191219
+installed-size	524395
+depends	so:libc.musl-armhf.so.1 so:libhdf5.so.311
+origin	hdf5
+repo	community
+file	java-hdf5-1.14.4.2-r1.apk
+checksum	Q1ziWp7mcw98VstlHBSX1TF5fFYfw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libhdf5.so.311	hdf5

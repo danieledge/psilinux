@@ -1,0 +1,13 @@
+name	libiptcdata
+version	1.0.5-r1
+description	libiptcdata is a C library for manipulating IPTC metadata within multimedia
+url	https://github.com/ianw/libiptcdata
+license	LGPL-2.0-or-later
+size	20817
+installed-size	48152
+depends	so:libc.musl-armhf.so.1
+origin	libiptcdata
+repo	community
+file	libiptcdata-1.0.5-r1.apk
+checksum	Q1aBqyTGYPi4Cg25bRv2Ps+hlZ+CI=
+dep	so:libc.musl-armhf.so.1	musl

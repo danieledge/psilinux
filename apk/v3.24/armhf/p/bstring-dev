@@ -1,0 +1,14 @@
+name	bstring-dev
+version	1.1.0-r0
+description	The Better String Library for C (development files)
+url	https://mike.steinert.ca/bstring/
+license	BSD-3-Clause
+size	21394
+installed-size	83470
+depends	bstring=1.1.0-r0 pkgconfig
+origin	bstring
+repo	community
+file	bstring-dev-1.1.0-r0.apk
+checksum	Q1XKMt5QyxTRDH67KwNQrjBzNd8oM=
+dep	bstring=1.1.0-r0	bstring
+dep	pkgconfig	pkgconf

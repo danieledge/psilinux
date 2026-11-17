@@ -1,0 +1,17 @@
+name	acf-freeswitch-vmail
+version	0.6.2-r5
+description	ACF for a web interface for freeswitch voicemail
+url	https://gitlab.alpinelinux.org/acf/acf-freeswitch-vmail
+license	GPL-2.0-only
+size	17142
+installed-size	68636
+depends	acf-core lua-sql-sqlite3 lua-socket freeswitch /bin/sh
+origin	acf-freeswitch-vmail
+repo	main
+file	acf-freeswitch-vmail-0.6.2-r5.apk
+checksum	Q1Jm2ekhfeE30/YmtVRT3/0sIspvQ=
+dep	acf-core	acf-core
+dep	lua-sql-sqlite3	lua-sql-sqlite3
+dep	lua-socket	lua-socket
+dep	freeswitch	freeswitch
+dep	/bin/sh	busybox-binsh

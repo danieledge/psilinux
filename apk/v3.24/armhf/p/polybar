@@ -1,0 +1,36 @@
+name	polybar
+version	3.7.2-r3
+description	fast and easy-to-use tool for creating status bars
+url	https://polybar.github.io/
+license	MIT
+size	673412
+installed-size	1691088
+depends	/bin/sh so:libasound.so.2 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcurl.so.4 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libjsoncpp.so.26 so:libmpdclient.so.2 so:libnl-3.so.200 so:libnl-genl-3.so.200 so:libpulse.so.0 so:libstdc++.so.6 so:libuv.so.1 so:libxcb-composite.so.0 so:libxcb-cursor.so.0 so:libxcb-ewmh.so.2 so:libxcb-icccm.so.4 so:libxcb-randr.so.0 so:libxcb-util.so.1 so:libxcb-xkb.so.1 so:libxcb-xrm.so.0 so:libxcb.so.1
+origin	polybar
+repo	community
+file	polybar-3.7.2-r3.apk
+checksum	Q1R4VkJ/kal0tIVTyAySOojhvXSNc=
+dep	/bin/sh	busybox-binsh
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcurl.so.4	libcurl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjsoncpp.so.26	jsoncpp
+dep	so:libmpdclient.so.2	libmpdclient
+dep	so:libnl-3.so.200	libnl3
+dep	so:libnl-genl-3.so.200	libnl3
+dep	so:libpulse.so.0	libpulse
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libuv.so.1	libuv
+dep	so:libxcb-composite.so.0	libxcb
+dep	so:libxcb-cursor.so.0	xcb-util-cursor
+dep	so:libxcb-ewmh.so.2	xcb-util-wm
+dep	so:libxcb-icccm.so.4	xcb-util-wm
+dep	so:libxcb-randr.so.0	libxcb
+dep	so:libxcb-util.so.1	xcb-util
+dep	so:libxcb-xkb.so.1	libxcb
+dep	so:libxcb-xrm.so.0	xcb-util-xrm
+dep	so:libxcb.so.1	libxcb

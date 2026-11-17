@@ -1,0 +1,13 @@
+name	libm4ri-static
+version	20240729-r3
+description	Fast arithmetic with dense matrices over F2 (static library)
+url	https://github.com/malb/m4ri
+license	GPL-2.0-or-later
+size	153913
+installed-size	306920
+depends	libm4ri-dev
+origin	libm4ri
+repo	community
+file	libm4ri-static-20240729-r3.apk
+checksum	Q1LqkLVN9BHd83iubIYYsjl7Ytgg4=
+dep	libm4ri-dev	libm4ri-dev

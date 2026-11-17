@@ -1,0 +1,13 @@
+name	sshpass
+version	1.10-r0
+description	Non-interactive SSH authentication utility
+url	https://sourceforge.net/projects/sshpass/
+license	GPL-2.0-or-later
+size	7196
+installed-size	13492
+depends	so:libc.musl-armhf.so.1
+origin	sshpass
+repo	main
+file	sshpass-1.10-r0.apk
+checksum	Q1YM1Uj+ZhRL5gtmigCzSLYfggJH0=
+dep	so:libc.musl-armhf.so.1	musl

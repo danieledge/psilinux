@@ -1,0 +1,16 @@
+name	rsyslog-pmnormalize
+version	8.2608.0-r0
+description	rsyslog  module
+url	https://www.rsyslog.com/
+license	Apache-2.0 AND GPL-3.0-or-later AND LGPL-3.0-or-later
+size	6189
+installed-size	13964
+depends	rsyslog=8.2608.0-r0 so:libc.musl-armhf.so.1 so:libfastjson.so.4 so:liblognorm.so.5
+origin	rsyslog
+repo	main
+file	rsyslog-pmnormalize-8.2608.0-r0.apk
+checksum	Q1OUG8HvpDHUo8F+87M0IGdD4hwao=
+dep	rsyslog=8.2608.0-r0	rsyslog
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfastjson.so.4	libfastjson
+dep	so:liblognorm.so.5	liblognorm

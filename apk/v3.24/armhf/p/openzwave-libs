@@ -1,0 +1,15 @@
+name	openzwave-libs
+version	1.6.974-r2
+description	a C++ and DotNet library to control Z-Wave Networks via a Z-Wave Controller. (libraries)
+url	https://github.com/OpenZWave/open-zwave
+license	LGPL-3.0-or-later GPL-3.0-or-later Apache-2.0
+size	477204
+installed-size	1304212
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	openzwave
+repo	community
+file	openzwave-libs-1.6.974-r2.apk
+checksum	Q1gQoZENDG2ty5REGMNYWMfmj+pTI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

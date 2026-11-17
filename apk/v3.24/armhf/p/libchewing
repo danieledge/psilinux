@@ -1,0 +1,15 @@
+name	libchewing
+version	0.12.0-r0
+description	Intelligent Chinese phonetic input method
+url	https://chewing.im/
+license	LGPL-2.1-only
+size	2839051
+installed-size	6426922
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libsqlite3.so.0
+origin	libchewing
+repo	community
+file	libchewing-0.12.0-r0.apk
+checksum	Q1ONJmYSizIqaKZQTLOAKZLwH1GL0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsqlite3.so.0	sqlite-libs

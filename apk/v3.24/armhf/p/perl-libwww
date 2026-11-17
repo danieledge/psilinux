@@ -1,0 +1,25 @@
+name	perl-libwww
+version	6.83-r0
+description	The World-Wide Web library for Perl
+url	https://metacpan.org/release/libwww-perl/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	86511
+installed-size	271649
+depends	perl perl-http-date perl-http-cookies perl-net-http perl-html-parser perl-file-listing perl-www-robotrules perl-http-negotiate perl-uri perl-http-message perl-lwp-mediatypes perl-encode-locale perl-try-tiny
+origin	perl-libwww
+repo	main
+file	perl-libwww-6.83-r0.apk
+checksum	Q1s1WKKOY76RAJLi8dPFYrfsT3NSY=
+dep	perl	perl
+dep	perl-http-date	perl-http-date
+dep	perl-http-cookies	perl-http-cookies
+dep	perl-net-http	perl-net-http
+dep	perl-html-parser	perl-html-parser
+dep	perl-file-listing	perl-file-listing
+dep	perl-www-robotrules	perl-www-robotrules
+dep	perl-http-negotiate	perl-http-negotiate
+dep	perl-uri	perl-uri
+dep	perl-http-message	perl-http-message
+dep	perl-lwp-mediatypes	perl-lwp-mediatypes
+dep	perl-encode-locale	perl-encode-locale
+dep	perl-try-tiny	perl-try-tiny

@@ -1,0 +1,27 @@
+name	aircrack-ng
+version	1.7-r5
+description	Key cracker for the 802.11 WEP and WPA-PSK protocols
+url	http://www.aircrack-ng.org
+license	GPL-2.0-or-later
+size	827260
+installed-size	1828646
+depends	ethtool wireless-tools iw sqlite grep so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libnl-3.so.200 so:libnl-genl-3.so.200 so:libpcap.so.1 so:libpcre.so.1 so:libsqlite3.so.0 so:libstdc++.so.6 so:libz.so.1
+origin	aircrack-ng
+repo	community
+file	aircrack-ng-1.7-r5.apk
+checksum	Q1dzmhk1B3fqOj3pMIRh+Ge02MSVM=
+dep	ethtool	ethtool
+dep	wireless-tools	wireless-tools
+dep	iw	iw
+dep	sqlite	sqlite
+dep	grep	grep
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libnl-3.so.200	libnl3
+dep	so:libnl-genl-3.so.200	libnl3
+dep	so:libpcap.so.1	libpcap
+dep	so:libpcre.so.1	pcre
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

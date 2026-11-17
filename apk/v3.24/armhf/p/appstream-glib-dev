@@ -1,0 +1,19 @@
+name	appstream-glib-dev
+version	0.8.3-r0
+description	Library for AppStream metadata (development files)
+url	https://people.freedesktop.org/~hughsient/appstream-glib/
+license	LGPL-2.0-or-later
+size	94295
+installed-size	980992
+depends	appstream-glib=0.8.3-r0 pc:gdk-pixbuf-2.0 pc:glib-2.0 pc:gobject-2.0 pc:libarchive pc:uuid pkgconfig
+origin	appstream-glib
+repo	community
+file	appstream-glib-dev-0.8.3-r0.apk
+checksum	Q1GEYaRPZ7DmS8p1bcJpNzyxkOTNQ=
+dep	appstream-glib=0.8.3-r0	appstream-glib
+dep	pc:gdk-pixbuf-2.0	gdk-pixbuf-dev
+dep	pc:glib-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pc:libarchive	libarchive-dev
+dep	pc:uuid	util-linux-dev
+dep	pkgconfig	pkgconf

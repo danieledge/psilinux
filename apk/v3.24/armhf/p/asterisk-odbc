@@ -1,0 +1,14 @@
+name	asterisk-odbc
+version	22.9.0-r0
+description	Modular Open Source PBX System
+url	https://www.asterisk.org/
+license	GPL-2.0-only WITH OpenSSL-Exception
+size	97604
+installed-size	218892
+depends	so:libc.musl-armhf.so.1 so:libodbc.so.2
+origin	asterisk
+repo	main
+file	asterisk-odbc-22.9.0-r0.apk
+checksum	Q1eP2Do+Pn5SOH3J6nwQpY4RHi5vM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libodbc.so.2	unixodbc

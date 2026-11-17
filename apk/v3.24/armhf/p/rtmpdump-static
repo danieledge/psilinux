@@ -1,0 +1,13 @@
+name	rtmpdump-static
+version	2.4_git20190330-r5
+description	A tool to download rtmp:// and rtmpe:// streams (static library)
+url	http://rtmpdump.mplayerhq.hu/
+license	GPL-2.0-or-later
+size	65456
+installed-size	134750
+depends	rtmpdump-dev
+origin	rtmpdump
+repo	main
+file	rtmpdump-static-2.4_git20190330-r5.apk
+checksum	Q1Dz19fYwfalWDDBCqxf9qqXXFU60=
+dep	rtmpdump-dev	rtmpdump-dev

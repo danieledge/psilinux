@@ -1,0 +1,18 @@
+name	sane-backend-kodakaio
+version	1.4.0-r4
+description	SANE backend for Kodak aio printer / scanners 
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	59536
+installed-size	131326
+depends	sane so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-armhf.so.1 so:libusb-1.0.so.0 so:libxml2.so.2
+origin	sane
+repo	community
+file	sane-backend-kodakaio-1.4.0-r4.apk
+checksum	Q1br7WKDIF/MHiL6fhdZ+tTMP7OOg=
+dep	sane	sane
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb
+dep	so:libxml2.so.2	libxml2

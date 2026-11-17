@@ -1,0 +1,26 @@
+name	psad
+version	2.4.6-r4
+description	3 lightweight system daemons that analyze iptables log messages to detect port scans and other suspicious traffic
+url	https://cipherdyne.org/psad/
+license	GPL-2.0-or-later
+size	150720
+installed-size	626176
+depends	perl iptables ssmtp mailx psmisc perl-bit-vector perl-date-calc perl-iptables-chainmgr perl-iptables-parse perl-net-ipv4addr perl-unix-syslog net-tools whois so:libc.musl-armhf.so.1
+origin	psad
+repo	community
+file	psad-2.4.6-r4.apk
+checksum	Q1+atIhG9HPovINJKgsDp2fJ4fZCg=
+dep	perl	perl
+dep	iptables	iptables
+dep	ssmtp	ssmtp
+dep	mailx	mailx
+dep	psmisc	psmisc
+dep	perl-bit-vector	perl-bit-vector
+dep	perl-date-calc	perl-date-calc
+dep	perl-iptables-chainmgr	perl-iptables-chainmgr
+dep	perl-iptables-parse	perl-iptables-parse
+dep	perl-net-ipv4addr	perl-net-ipv4addr
+dep	perl-unix-syslog	perl-unix-syslog
+dep	net-tools	net-tools
+dep	whois	whois
+dep	so:libc.musl-armhf.so.1	musl

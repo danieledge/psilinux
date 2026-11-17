@@ -1,0 +1,17 @@
+name	daq
+version	3.0.19-r0
+description	Data Acquisition library - packet I/O library
+url	https://www.snort.org/
+license	GPL-2.0-only
+size	52939
+installed-size	144144
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libmnl.so.0 so:libpcap.so.1 so:libstdc++.so.6
+origin	daq
+repo	main
+file	daq-3.0.19-r0.apk
+checksum	Q1ov7+zT61ce1nd5BR1MMrGBAlvRw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmnl.so.0	libmnl
+dep	so:libpcap.so.1	libpcap
+dep	so:libstdc++.so.6	libstdc++

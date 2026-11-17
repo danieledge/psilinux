@@ -1,0 +1,14 @@
+name	polyml-dev
+version	5.9.2-r0
+description	ML97 compatible Standard ML implementation (development files)
+url	https://www.polyml.org/
+license	LGPL-2.1-only
+size	302446
+installed-size	922647
+depends	polyml=5.9.2-r0 pkgconfig
+origin	polyml
+repo	community
+file	polyml-dev-5.9.2-r0.apk
+checksum	Q1oL3zOe3EQ3/Y0YKS4BqCDTKgARA=
+dep	polyml=5.9.2-r0	polyml
+dep	pkgconfig	pkgconf

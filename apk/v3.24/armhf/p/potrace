@@ -1,0 +1,14 @@
+name	potrace
+version	1.16-r2
+description	Utility for tracing a bitmaps
+url	https://potrace.sourceforge.net/
+license	GPL-2.0-or-later
+size	69326
+installed-size	136148
+depends	so:libc.musl-armhf.so.1 so:libz.so.1
+origin	potrace
+repo	community
+file	potrace-1.16-r2.apk
+checksum	Q1Qm+VWKfpn9P/fx4AwMnX7jpRMF8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libz.so.1	zlib

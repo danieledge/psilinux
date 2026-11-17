@@ -1,0 +1,15 @@
+name	mg
+version	20260222-r0
+description	microscopic EMACS style editor
+url	https://github.com/hboetes/mg
+license	Public Domain
+size	82687
+installed-size	167440
+depends	so:libbsd.so.0 so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	mg
+repo	main
+file	mg-20260222-r0.apk
+checksum	Q1yLyoshUs95Vo+HWIrL4v4kQe43I=
+dep	so:libbsd.so.0	libbsd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

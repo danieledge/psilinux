@@ -1,0 +1,14 @@
+name	mcman
+version	0.4.5-r0
+description	Powerful Minecraft Server Manager CLI
+url	https://github.com/ParadigmMC/mcman
+license	GPL-3.0-only
+size	2914918
+installed-size	5944404
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	mcman
+repo	community
+file	mcman-0.4.5-r0.apk
+checksum	Q166U7KHpBpYXqlcvtsF+UgExd2XU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

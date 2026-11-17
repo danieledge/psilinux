@@ -1,0 +1,14 @@
+name	dar-dev
+version	2.8.5-r0
+description	Disk ARchive (development files)
+url	http://dar.linux.free.fr/
+license	GPL-2.0-or-later
+size	125464
+installed-size	614872
+depends	dar-libs=2.8.5-r0 pkgconfig
+origin	dar
+repo	community
+file	dar-dev-2.8.5-r0.apk
+checksum	Q18k1x6eywH96CwkFpf+H3Yu23/pg=
+dep	dar-libs=2.8.5-r0	dar-libs
+dep	pkgconfig	pkgconf

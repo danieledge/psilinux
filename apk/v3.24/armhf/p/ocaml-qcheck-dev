@@ -1,0 +1,13 @@
+name	ocaml-qcheck-dev
+version	0.18.1-r6
+description	QuickCheck inspired property-based testing for OCaml (development files)
+url	https://github.com/c-cube/qcheck
+license	BSD-2-Clause
+size	1410304
+installed-size	3587793
+depends	ocaml-qcheck=0.18.1-r6
+origin	ocaml-qcheck
+repo	community
+file	ocaml-qcheck-dev-0.18.1-r6.apk
+checksum	Q1UbVBkiIk/CPRwJCAxuLyN42bu90=
+dep	ocaml-qcheck=0.18.1-r6	ocaml-qcheck

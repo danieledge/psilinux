@@ -1,0 +1,19 @@
+name	phodav
+version	3.0-r6
+description	WebDAV server using libsoup
+url	https://gitlab.gnome.org/GNOME/phodav
+license	LGPL-2.0-or-later
+size	25951
+installed-size	54660
+depends	avahi so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libsoup-3.0.so.0 so:libxml2.so.2
+origin	phodav
+repo	community
+file	phodav-3.0-r6.apk
+checksum	Q1bonv8sx5/9jf0BdjdeHE6jehHQ8=
+dep	avahi	avahi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libxml2.so.2	libxml2

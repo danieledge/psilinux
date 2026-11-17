@@ -1,0 +1,15 @@
+name	py3-cli_helpers
+version	2.14.0-r0
+description	A helper library for command-line interfaces
+url	https://pypi.org/project/cli-helpers
+license	BSD-3-Clause
+size	19051
+installed-size	59545
+depends	py3-tabulate py3-configobj python3~3.14
+origin	py3-cli_helpers
+repo	community
+file	py3-cli_helpers-2.14.0-r0.apk
+checksum	Q1ObVSizGdvJaYcjPkNYXvVJCAuy0=
+dep	py3-tabulate	py3-tabulate
+dep	py3-configobj	py3-configobj
+dep	python3~3.14	python3

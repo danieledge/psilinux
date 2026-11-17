@@ -1,0 +1,18 @@
+name	avahi-ui-dev
+version	0.8-r9
+description	Gtk user interface library for Avahi (development files)
+url	https://www.avahi.org/
+license	LGPL-2.1-or-later
+size	4324
+installed-size	7418
+depends	gdbm-dev avahi-ui-gtk3=0.8-r9 pc:avahi-client pc:avahi-glib pc:gtk+-3.0 pkgconfig
+origin	avahi-ui
+repo	community
+file	avahi-ui-dev-0.8-r9.apk
+checksum	Q1Aas38saoS49i/Ylb8Iqukgei8wU=
+dep	gdbm-dev	gdbm-dev
+dep	avahi-ui-gtk3=0.8-r9	avahi-ui-gtk3
+dep	pc:avahi-client	avahi-dev
+dep	pc:avahi-glib	avahi-dev
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pkgconfig	pkgconf

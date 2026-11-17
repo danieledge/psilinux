@@ -1,0 +1,21 @@
+name	pacman
+version	7.1.0-r2
+description	Simple library-based package manager
+url	https://www.archlinux.org/pacman/
+license	GPL-2.0-or-later
+size	246262
+installed-size	683619
+depends	bash file libarchive-tools so:libarchive.so.13 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgpgme.so.45 so:libintl.so.8
+origin	pacman
+repo	community
+file	pacman-7.1.0-r2.apk
+checksum	Q1UIaPa8mjqCfBNQCzGN1yizwqsco=
+dep	bash	bash
+dep	file	file
+dep	libarchive-tools	libarchive-tools
+dep	so:libarchive.so.13	libarchive
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libgpgme.so.45	gpgme
+dep	so:libintl.so.8	libintl

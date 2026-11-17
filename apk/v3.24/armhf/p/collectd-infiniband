@@ -1,0 +1,14 @@
+name	collectd-infiniband
+version	5.12.0-r25
+description	infiniband pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	6505
+installed-size	13440
+depends	collectd so:libc.musl-armhf.so.1
+origin	collectd
+repo	community
+file	collectd-infiniband-5.12.0-r25.apk
+checksum	Q1fv0zs0z9kkZcr6SX49kXfxApXAE=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl

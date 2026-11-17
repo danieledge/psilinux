@@ -1,0 +1,15 @@
+name	dcc-dccd
+version	2.3.169-r3
+description	Distributed Checksum Clearinghouses or DCC spam filter (dccd server with grey listing)
+url	https://www.dcc-servers.net/dcc/
+license	custom
+size	303959
+installed-size	583456
+depends	dcc so:libc.musl-armhf.so.1 so:libmd.so.0
+origin	dcc
+repo	community
+file	dcc-dccd-2.3.169-r3.apk
+checksum	Q1hOhu1dhR9HJmL9JTJn0yisswCkk=
+dep	dcc	dcc
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmd.so.0	libmd

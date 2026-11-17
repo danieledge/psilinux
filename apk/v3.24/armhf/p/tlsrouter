@@ -1,0 +1,14 @@
+name	tlsrouter
+version	0_git20250222-r7
+description	TLS proxy that routes connections based on SNI
+url	https://github.com/inetaf/tcpproxy/tree/master/cmd/tlsrouter
+license	Apache-2.0
+size	1170662
+installed-size	2835884
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	tlsrouter
+repo	community
+file	tlsrouter-0_git20250222-r7.apk
+checksum	Q1c68J0eSwRDikNNxh9zVEYFPphy4=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	cd-discid
+version	1.4-r7
+description	A backend utility to get CDDB discid information from a CD-ROM disc
+url	https://linukz.org/cd-discid.shtml
+license	GPL-2.0-or-later OR GPL-1.0-or-later OR Artistic-1.0-Perl
+size	4828
+installed-size	9388
+depends	so:libc.musl-armhf.so.1
+origin	cd-discid
+repo	community
+file	cd-discid-1.4-r7.apk
+checksum	Q1deXg8I9ycLBxU8EuRwEoZulB9uc=
+dep	so:libc.musl-armhf.so.1	musl

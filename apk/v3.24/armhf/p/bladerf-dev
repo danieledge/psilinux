@@ -1,0 +1,14 @@
+name	bladerf-dev
+version	2024.05-r1
+description	Host-side libraries, drivers and utilities for bladeRF platform (development files)
+url	https://github.com/Nuand/bladeRF
+license	GPL-2.0-or-later AND LGPL-2.1-or-later AND MIT
+size	47792
+installed-size	218225
+depends	bladerf-libs=2024.05-r1 pkgconfig
+origin	bladerf
+repo	community
+file	bladerf-dev-2024.05-r1.apk
+checksum	Q1emiRrl/Fxyv58Rs7gnS6bdwt2i0=
+dep	bladerf-libs=2024.05-r1	bladerf-libs
+dep	pkgconfig	pkgconf

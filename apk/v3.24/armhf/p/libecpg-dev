@@ -1,0 +1,17 @@
+name	libecpg-dev
+version	18.7-r0
+description	ECPG - Embedded SQL in C (development files)
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	240451
+installed-size	1073893
+depends	libpq-dev=18.7-r0 libecpg=18.7-r0 pc:libpq pkgconfig so:libc.musl-armhf.so.1
+origin	postgresql18
+repo	main
+file	libecpg-dev-18.7-r0.apk
+checksum	Q1EFI5dBLZ3SKSAn4BJHxfP5fjjjk=
+dep	libpq-dev=18.7-r0	libpq-dev
+dep	libecpg=18.7-r0	libecpg
+dep	pc:libpq	libpq-dev
+dep	pkgconfig	pkgconf
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	nftables-static
+version	1.1.6-r1
+description	Netfilter tables userspace tools (static library)
+url	https://netfilter.org/projects/nftables
+license	GPL-2.0-or-later
+size	1906913
+installed-size	4529088
+depends	nftables-dev
+origin	nftables
+repo	main
+file	nftables-static-1.1.6-r1.apk
+checksum	Q1flH8DjQub4hgMitU9bb2Lx8NMpU=
+dep	nftables-dev	nftables-dev

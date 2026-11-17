@@ -1,0 +1,16 @@
+name	libmm-glib
+version	1.25.95_git20260527-r1
+description	ModemManager library
+url	https://www.freedesktop.org/wiki/Software/ModemManager
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	359047
+installed-size	1296420
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	modemmanager
+repo	community
+file	libmm-glib-1.25.95_git20260527-r1.apk
+checksum	Q13NRDKNnYhi3bdbXivwVPsoWGU2E=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

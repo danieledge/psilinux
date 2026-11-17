@@ -1,0 +1,30 @@
+name	vino
+version	3.22.0-r6
+description	The GNOME desktop sharing server
+url	https://gitlab.gnome.org/Archive/vino
+license	GPL-2.0-or-later
+size	113666
+installed-size	243322
+depends	so:libICE.so.6 so:libSM.so.6 so:libX11.so.6 so:libXdamage.so.1 so:libXext.so.6 so:libXfixes.so.3 so:libXtst.so.6 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libjpeg.so.8 so:libnotify.so.4 so:libz.so.1
+origin	vino
+repo	community
+file	vino-3.22.0-r6.apk
+checksum	Q1m8Ba5FVdAPW0LRy/MTVJ+Do2+ms=
+dep	so:libICE.so.6	libice
+dep	so:libSM.so.6	libsm
+dep	so:libX11.so.6	libx11
+dep	so:libXdamage.so.1	libxdamage
+dep	so:libXext.so.6	libxext
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXtst.so.6	libxtst
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libnotify.so.4	libnotify
+dep	so:libz.so.1	zlib

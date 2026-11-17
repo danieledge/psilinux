@@ -1,0 +1,12 @@
+name	samba-nftrules
+version	4.23.8-r0
+description	Tools to access a server's filespace and printers via SMB (nftables ruleset)
+url	https://www.samba.org/
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	1715
+installed-size	109
+depends	
+origin	samba
+repo	main
+file	samba-nftrules-4.23.8-r0.apk
+checksum	Q1lSU4BssKWKSAy20pE4fbjrv3imE=

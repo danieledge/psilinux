@@ -1,0 +1,14 @@
+name	less
+version	702-r0
+description	File pager
+url	https://www.greenwoodsoftware.com/less/
+license	GPL-3.0-or-later OR BSD-2-Clause
+size	111197
+installed-size	236961
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	less
+repo	main
+file	less-702-r0.apk
+checksum	Q16ca57JW2CqP5fG2CGrO75L7vH2Q=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

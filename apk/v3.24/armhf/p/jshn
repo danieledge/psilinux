@@ -1,0 +1,16 @@
+name	jshn
+version	2026.02.13-r0
+description	OpenWrt utility and data structures library
+url	https://git.openwrt.org/project/ustream-ssl.git
+license	ISC
+size	8811
+installed-size	21165
+depends	so:libblobmsg_json.so so:libc.musl-armhf.so.1 so:libjson-c.so.5 so:libubox.so
+origin	libubox
+repo	community
+file	jshn-2026.02.13-r0.apk
+checksum	Q1wIDb1QjAERaRF9xW75Np0+CYGSc=
+dep	so:libblobmsg_json.so	libblobmsg
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjson-c.so.5	json-c
+dep	so:libubox.so	libubox

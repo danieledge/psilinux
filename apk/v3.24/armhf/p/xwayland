@@ -1,0 +1,27 @@
+name	xwayland
+version	24.1.15-r0
+description	Compact xserver to run under wayland for compatibility
+url	https://www.x.org/wiki
+license	MIT
+size	800634
+installed-size	1679483
+depends	xorg-server-common xkbcomp so:libGL.so.1 so:libXau.so.6 so:libXfont2.so.2 so:libc.musl-armhf.so.1 so:libdrm.so.2 so:libepoxy.so.0 so:libgbm.so.1 so:libmd.so.0 so:libpixman-1.so.0 so:libtirpc-nokrb.so.3 so:libwayland-client.so.0 so:libxcvt.so.0 so:libxshmfence.so.1
+origin	xwayland
+repo	community
+file	xwayland-24.1.15-r0.apk
+checksum	Q166U0v823/3BA3gjGmAPSxLPPd9I=
+dep	xorg-server-common	xorg-server-common
+dep	xkbcomp	xkbcomp
+dep	so:libGL.so.1	mesa-gl
+dep	so:libXau.so.6	libxau
+dep	so:libXfont2.so.2	libxfont2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm.so.2	libdrm
+dep	so:libepoxy.so.0	libepoxy
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libmd.so.0	libmd
+dep	so:libpixman-1.so.0	pixman
+dep	so:libtirpc-nokrb.so.3	libtirpc-nokrb
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libxcvt.so.0	libxcvt
+dep	so:libxshmfence.so.1	libxshmfence

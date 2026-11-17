@@ -1,0 +1,12 @@
+name	paris-traceroute-dbg
+version	0.93-r3
+description	advanced traceroute utility (debug symbols)
+url	https://github.com/libparistraceroute/libparistraceroute
+license	GPL-3.0-only
+size	214205
+installed-size	490216
+depends	!paris-traceroute-ping<0.93-r3 !paris-traceroute-ping>0.93-r3 !paris-traceroute<0.93-r3 !paris-traceroute>0.93-r3
+origin	paris-traceroute
+repo	community
+file	paris-traceroute-dbg-0.93-r3.apk
+checksum	Q1dx2nTfkj2V4Xoa90xi8l1hVOBFA=

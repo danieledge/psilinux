@@ -1,0 +1,14 @@
+name	openldap-overlay-deref
+version	2.6.15-r0
+description	OpenLDAP deref overlay
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	6295
+installed-size	10418
+depends	so:libc.musl-armhf.so.1 so:liblber.so.2
+origin	openldap
+repo	main
+file	openldap-overlay-deref-2.6.15-r0.apk
+checksum	Q1W30gmgJr0nxVWPkodltpKeMbYc0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap

@@ -1,0 +1,14 @@
+name	dockviz
+version	0.6.4-r34
+description	Visualizing Docker Data
+url	https://github.com/justone/dockviz
+license	Apache-2.0
+size	3102278
+installed-size	7717364
+depends	docker so:libc.musl-armhf.so.1
+origin	dockviz
+repo	community
+file	dockviz-0.6.4-r34.apk
+checksum	Q16b43Afss2otlvIH1d+Kns4W7PEI=
+dep	docker	docker
+dep	so:libc.musl-armhf.so.1	musl

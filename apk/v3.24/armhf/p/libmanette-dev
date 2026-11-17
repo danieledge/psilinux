@@ -1,0 +1,20 @@
+name	libmanette-dev
+version	0.2.12-r0
+description	Simple GObject game controller library (development files)
+url	https://gnome.pages.gitlab.gnome.org/libmanette/
+license	LGPL-2.1-or-later
+size	10948
+installed-size	65808
+depends	libmanette=0.2.12-r0 pc:gio-2.0>=2.50 pc:glib-2.0>=2.50 pc:gobject-2.0>=2.50 pc:gudev-1.0>=1.0 pc:hidapi-hidraw pc:libevdev>=1.4.5 pkgconfig
+origin	libmanette
+repo	community
+file	libmanette-dev-0.2.12-r0.apk
+checksum	Q1NtJJokfVanJ59xIg2U3JRJ0XE3Q=
+dep	libmanette=0.2.12-r0	libmanette
+dep	pc:gio-2.0>=2.50	glib-dev
+dep	pc:glib-2.0>=2.50	glib-dev
+dep	pc:gobject-2.0>=2.50	glib-dev
+dep	pc:gudev-1.0>=1.0	libgudev-dev
+dep	pc:hidapi-hidraw	hidapi-dev
+dep	pc:libevdev>=1.4.5	libevdev-dev
+dep	pkgconfig	pkgconf

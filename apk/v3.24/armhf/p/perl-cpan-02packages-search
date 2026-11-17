@@ -1,0 +1,14 @@
+name	perl-cpan-02packages-search
+version	0.100-r1
+description	Search packages in 02packages.details.txt
+url	https://metacpan.org/release/CPAN-02Packages-Search/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	3366
+installed-size	3220
+depends	perl perl-tie-handle-offset
+origin	perl-cpan-02packages-search
+repo	community
+file	perl-cpan-02packages-search-0.100-r1.apk
+checksum	Q1cG4xrxNbqMxeWSyG6CKMf5ZlpTw=
+dep	perl	perl
+dep	perl-tie-handle-offset	perl-tie-handle-offset

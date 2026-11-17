@@ -1,0 +1,14 @@
+name	minisign
+version	0.12-r2
+description	Simple tool to sign files and verify signatures
+url	https://jedisct1.github.io/minisign/
+license	ISC
+size	12723
+installed-size	25772
+depends	so:libc.musl-armhf.so.1 so:libsodium.so.26
+origin	minisign
+repo	community
+file	minisign-0.12-r2.apk
+checksum	Q1G5MpfIRf0sKmYCY70UjpIABxCV4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsodium.so.26	libsodium

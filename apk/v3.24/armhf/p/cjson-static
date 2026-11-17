@@ -1,0 +1,13 @@
+name	cjson-static
+version	1.7.19-r1
+description	Lighweight JSON parser in C (static library)
+url	https://github.com/DaveGamble/cJSON
+license	MIT
+size	11139
+installed-size	23054
+depends	cjson-dev
+origin	cjson
+repo	main
+file	cjson-static-1.7.19-r1.apk
+checksum	Q1Vu/N8eGyQ0Hg1yxvA4iyDAxAFyc=
+dep	cjson-dev	cjson-dev

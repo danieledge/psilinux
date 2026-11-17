@@ -1,0 +1,14 @@
+name	swish-e-dev
+version	2.4.7-r19
+description	Simple Web Indexing System for Humans - Enhanced (development files)
+url	http://www.swish-e.org/
+license	GPL-2.0-or-later
+size	135770
+installed-size	374854
+depends	swish-e=2.4.7-r19 pkgconfig
+origin	swish-e
+repo	main
+file	swish-e-dev-2.4.7-r19.apk
+checksum	Q1HEzV7DwzYrfbooapX9bS5ObAOtY=
+dep	swish-e=2.4.7-r19	swish-e
+dep	pkgconfig	pkgconf

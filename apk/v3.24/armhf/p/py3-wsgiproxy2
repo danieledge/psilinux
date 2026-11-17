@@ -1,0 +1,15 @@
+name	py3-wsgiproxy2
+version	0.5.1-r6
+description	WSGI Proxy with various http client backends
+url	https://github.com/gawel/WSGIProxy2/
+license	MIT
+size	9170
+installed-size	22589
+depends	python3 py3-webob python3~3.14
+origin	py3-wsgiproxy2
+repo	community
+file	py3-wsgiproxy2-0.5.1-r6.apk
+checksum	Q1vSvQe7C0hViy7ZU6TnUtwOS/y4g=
+dep	python3	python3
+dep	py3-webob	py3-webob
+dep	python3~3.14	python3

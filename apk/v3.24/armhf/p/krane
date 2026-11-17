@@ -1,0 +1,13 @@
+name	krane
+version	0.20.7-r6
+description	Drop-in replacement for crane with built-in cloud workload identity auth
+url	https://github.com/google/go-containerregistry/tree/main/cmd/krane
+license	Apache-2.0
+size	6515221
+installed-size	18763116
+depends	so:libc.musl-armhf.so.1
+origin	krane
+repo	community
+file	krane-0.20.7-r6.apk
+checksum	Q1DvieykSfrCRuPZkN3bTgDmZYYRE=
+dep	so:libc.musl-armhf.so.1	musl

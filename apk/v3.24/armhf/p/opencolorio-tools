@@ -1,0 +1,24 @@
+name	opencolorio-tools
+version	2.5.2-r0
+description	OpenColorIO color management framework tools
+url	https://opencolorio.org/
+license	BSD-3-Clause AND GPL-2.0-or-later
+size	337734
+installed-size	762660
+depends	so:libGL.so.1 so:libGLEW.so.2.3 so:libGLU.so.1 so:libOpenColorIO.so.2.5 so:libOpenEXR-3_4.so.33 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglut.so.3 so:liblcms2.so.2 so:libminizip-ng.so.1 so:libpystring.so.1 so:libstdc++.so.6
+origin	opencolorio
+repo	community
+file	opencolorio-tools-2.5.2-r0.apk
+checksum	Q1w+PwzFcD9HLurlV57bLqXhq1egk=
+dep	so:libGL.so.1	mesa-gl
+dep	so:libGLEW.so.2.3	glew
+dep	so:libGLU.so.1	glu
+dep	so:libOpenColorIO.so.2.5	opencolorio
+dep	so:libOpenEXR-3_4.so.33	openexr-libopenexr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglut.so.3	freeglut
+dep	so:liblcms2.so.2	lcms2
+dep	so:libminizip-ng.so.1	minizip-ng
+dep	so:libpystring.so.1	pystring
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,14 @@
+name	libiec61883
+version	1.2.0-r4
+description	Streaming library for IEEE1394
+url	https://ieee1394.docs.kernel.org/en/latest/libiec61883.html
+license	LGPL-2.1-or-later
+size	20743
+installed-size	46304
+depends	so:libc.musl-armhf.so.1 so:libraw1394.so.11
+origin	libiec61883
+repo	community
+file	libiec61883-1.2.0-r4.apk
+checksum	Q18tq4ObImF8sWw7zWrYHlNAZCDdA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libraw1394.so.11	libraw1394

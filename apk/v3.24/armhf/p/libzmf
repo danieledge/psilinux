@@ -1,0 +1,21 @@
+name	libzmf
+version	0.0.2-r22
+description	Import filter and tools for Zoner Callisto/Draw documents
+url	https://wiki.documentfoundation.org/DLP/Libraries/libzmf
+license	MPL-2.0
+size	58350
+installed-size	139392
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libicuuc.so.78 so:libpng16.so.16 so:librevenge-0.0.so.0 so:librevenge-generators-0.0.so.0 so:librevenge-stream-0.0.so.0 so:libstdc++.so.6 so:libz.so.1
+origin	libzmf
+repo	community
+file	libzmf-0.0.2-r22.apk
+checksum	Q1uhbdA62/lQrLbWPA9i1l8sEndrw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libpng16.so.16	libpng
+dep	so:librevenge-0.0.so.0	librevenge
+dep	so:librevenge-generators-0.0.so.0	librevenge
+dep	so:librevenge-stream-0.0.so.0	librevenge
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

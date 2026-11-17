@@ -1,0 +1,14 @@
+name	py3-redis
+version	8.0.0-r0
+description	Python3 client for Redis key-value store
+url	https://github.com/andymccurdy/redis-py
+license	MIT
+size	465515
+installed-size	2351441
+depends	py3-hiredis python3~3.14
+origin	py3-redis
+repo	community
+file	py3-redis-8.0.0-r0.apk
+checksum	Q195ieK2bfxEDgDZQx8IWGkOiPEcU=
+dep	py3-hiredis	py3-hiredis
+dep	python3~3.14	python3

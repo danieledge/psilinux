@@ -1,0 +1,15 @@
+name	perl-rxperl-ioasync
+version	6.9.1-r1
+description	IO::Async adapter for RxPerl
+url	https://metacpan.org/release/RxPerl-IOAsync/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	2840
+installed-size	2601
+depends	perl perl-io-async perl-rxperl
+origin	perl-rxperl-ioasync
+repo	community
+file	perl-rxperl-ioasync-6.9.1-r1.apk
+checksum	Q1AZULhGBsb4oBRwBBz31vWBEXeso=
+dep	perl	perl
+dep	perl-io-async	perl-io-async
+dep	perl-rxperl	perl-rxperl

@@ -1,0 +1,20 @@
+name	gcr-ssh-agent
+version	4.4.0.1-r1
+description	Library for bits of crypto UI and parsing (ssh agent daemon)
+url	https://gitlab.gnome.org/GNOME/gcr
+license	LGPL-2.0-or-later
+size	23234
+installed-size	46953
+depends	gcr4 so:libc.musl-armhf.so.1 so:libgck-2.so.2 so:libgcr-4.so.4 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libsecret-1.so.0
+origin	gcr4
+repo	community
+file	gcr-ssh-agent-4.4.0.1-r1.apk
+checksum	Q1N8ZYxMCXvg7B3Pu0+YvArWW6rOk=
+dep	gcr4	gcr4
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgck-2.so.2	gcr4-base
+dep	so:libgcr-4.so.4	gcr4-base
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libsecret-1.so.0	libsecret

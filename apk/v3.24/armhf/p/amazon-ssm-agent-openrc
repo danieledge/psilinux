@@ -1,0 +1,12 @@
+name	amazon-ssm-agent-openrc
+version	3.3.4624.0-r2
+description	Amazon SSM Agent for managing EC2 Instances using the SSM APIs. (OpenRC init scripts)
+url	https://aws.amazon.com/documentation/systems-manager/
+license	Apache-2.0
+size	1767
+installed-size	217
+depends	
+origin	amazon-ssm-agent
+repo	community
+file	amazon-ssm-agent-openrc-3.3.4624.0-r2.apk
+checksum	Q1vkqlMwMMejOxbc5hYQoTRI8YPAA=

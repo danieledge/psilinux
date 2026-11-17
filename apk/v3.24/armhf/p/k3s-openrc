@@ -1,0 +1,12 @@
+name	k3s-openrc
+version	1.36.1.1-r2
+description	Lightweight Kubernetes. 5 less than k8s (OpenRC init scripts)
+url	https://k3s.io
+license	Apache-2.0
+size	2045
+installed-size	660
+depends	
+origin	k3s
+repo	community
+file	k3s-openrc-1.36.1.1-r2.apk
+checksum	Q1W44PgQ7uflIo153hXLd8b4VP25c=

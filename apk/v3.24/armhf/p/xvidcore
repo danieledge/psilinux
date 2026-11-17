@@ -1,0 +1,13 @@
+name	xvidcore
+version	1.3.7-r2
+description	XviD is an open source MPEG-4 video codec
+url	https://www.xvid.com/
+license	GPL-2.0-or-later
+size	148179
+installed-size	354168
+depends	so:libc.musl-armhf.so.1
+origin	xvidcore
+repo	community
+file	xvidcore-1.3.7-r2.apk
+checksum	Q1lTyiwTa4saILgQxoWd91/nwVpuk=
+dep	so:libc.musl-armhf.so.1	musl

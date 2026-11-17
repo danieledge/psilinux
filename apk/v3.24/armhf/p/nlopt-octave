@@ -1,0 +1,20 @@
+name	nlopt-octave
+version	2.11.0-r0
+description	Library for nonlinear optimization (Octave bindings)
+url	https://github.com/stevengj/nlopt
+license	LGPL-2.1-or-later
+size	25587
+installed-size	58913
+depends	nlopt=2.11.0-r0 octave so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libnlopt.so.1 so:liboctave.so.13 so:liboctinterp.so.15 so:libstdc++.so.6
+origin	nlopt
+repo	community
+file	nlopt-octave-2.11.0-r0.apk
+checksum	Q11l8L+5NeOTPvVLgypYXpS/P7eno=
+dep	nlopt=2.11.0-r0	nlopt
+dep	octave	octave
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libnlopt.so.1	nlopt
+dep	so:liboctave.so.13	octave
+dep	so:liboctinterp.so.15	octave
+dep	so:libstdc++.so.6	libstdc++

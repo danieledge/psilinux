@@ -1,0 +1,14 @@
+name	directfb-dev
+version	1.7.7-r8
+description	Library for hw graphics acceleration, input dev, windowing system on top of the Linux fb device (development files)
+url	https://github.com/deniskropp/DirectFB
+license	LGPL-2.0-or-later
+size	1867086
+installed-size	5436100
+depends	directfb=1.7.7-r8 pkgconfig
+origin	directfb
+repo	community
+file	directfb-dev-1.7.7-r8.apk
+checksum	Q1bFZ/YE4FNjLq7oXBpUUZZ/j6CdM=
+dep	directfb=1.7.7-r8	directfb
+dep	pkgconfig	pkgconf

@@ -1,0 +1,15 @@
+name	hamlib-tcl
+version	4.7.1-r0
+description	Tcl bindings for hamlib
+url	https://hamlib.github.io/
+license	LGPL-2.0-or-later
+size	189024
+installed-size	948258
+depends	so:libc.musl-armhf.so.1 so:libhamlib.so.4 so:libtcl8.6.so
+origin	hamlib
+repo	community
+file	hamlib-tcl-4.7.1-r0.apk
+checksum	Q1w4jykoQ7p1/6uez3ds7+2HTUFD0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libhamlib.so.4	hamlib
+dep	so:libtcl8.6.so	tcl

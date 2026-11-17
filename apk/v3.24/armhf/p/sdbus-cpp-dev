@@ -1,0 +1,19 @@
+name	sdbus-cpp-dev
+version	2.2.1-r0
+description	unofficial, high-level C++ dbus bindings (development files)
+url	https://github.com/Kistler-Group/sdbus-cpp/
+license	LGPL-2.1-or-later
+size	114216
+installed-size	450554
+depends	sdbus-cpp=2.2.1-r0 pc:libsystemd pkgconfig so:libc.musl-armhf.so.1 so:libexpat.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	sdbus-cpp
+repo	community
+file	sdbus-cpp-dev-2.2.1-r0.apk
+checksum	Q115yHNYDVrI1HFHIid8+VytRGtbA=
+dep	sdbus-cpp=2.2.1-r0	sdbus-cpp
+dep	pc:libsystemd	elogind-dev
+dep	pkgconfig	pkgconf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexpat.so.1	libexpat
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

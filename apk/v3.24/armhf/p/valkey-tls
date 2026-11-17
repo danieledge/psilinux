@@ -1,0 +1,17 @@
+name	valkey-tls
+version	9.0.7-r0
+description	TLS module for Valkey
+url	https://valkey.io/
+license	BSD-3-Clause AND BSD-2-Clause AND MIT
+size	26857
+installed-size	75262
+depends	valkey=9.0.7-r0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
+origin	valkey
+repo	main
+file	valkey-tls-9.0.7-r0.apk
+checksum	Q1oXOQrgGrtCDC2tTSrA/XzU7LiMo=
+dep	valkey=9.0.7-r0	valkey
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,15 @@
+name	dinit
+version	0.21.0-r0
+description	Service monitoring/init system
+url	https://github.com/davmac314/dinit
+license	Apache-2.0
+size	216828
+installed-size	457612
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	dinit
+repo	community
+file	dinit-0.21.0-r0.apk
+checksum	Q1N+diQEaVcPd3cFIWH22O2F8oPcg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

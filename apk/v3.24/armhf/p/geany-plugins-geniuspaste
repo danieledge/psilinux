@@ -1,0 +1,18 @@
+name	geany-plugins-geniuspaste
+version	2.1-r0
+description	A plugin to paste the code from Geany into different pastebins
+url	https://plugins.geany.org/
+license	GPL-3.0-or-later
+size	16747
+installed-size	35999
+depends	so:libc.musl-armhf.so.1 so:libgeany.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libsoup-3.0.so.0
+origin	geany-plugins
+repo	community
+file	geany-plugins-geniuspaste-2.1-r0.apk
+checksum	Q1kZETJKtwQ9CSXZmbPSVdH1tKM1I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgeany.so.0	geany
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libsoup-3.0.so.0	libsoup3

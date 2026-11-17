@@ -1,0 +1,15 @@
+name	lzip
+version	1.26-r0
+description	Lzip is a lossless data compressor
+url	https://www.nongnu.org/lzip/
+license	GPL-2.0-or-later
+size	42552
+installed-size	79680
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	lzip
+repo	main
+file	lzip-1.26-r0.apk
+checksum	Q1IzFQz/EIIqY2XHWm5yemCf4EbXw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

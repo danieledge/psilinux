@@ -1,0 +1,14 @@
+name	py3-arrow
+version	1.4.0-r1
+description	Python3 library to create and manipulate dates, times, and timestamps
+url	https://arrow.readthedocs.io/
+license	Apache-2.0
+size	68208
+installed-size	305594
+depends	py3-dateutil python3~3.14
+origin	py3-arrow
+repo	community
+file	py3-arrow-1.4.0-r1.apk
+checksum	Q1fAWvRn2vJrZd2dEKn/OMgfD5agQ=
+dep	py3-dateutil	py3-dateutil
+dep	python3~3.14	python3

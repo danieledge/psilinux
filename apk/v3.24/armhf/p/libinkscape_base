@@ -1,0 +1,61 @@
+name	libinkscape_base
+version	1.4.2-r8
+description	base libinkscape_base.so to share with inkview
+url	https://inkscape.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	9277365
+installed-size	23702856
+depends	so:lib2geom.so.1.4.0 so:libGraphicsMagick++.so.12 so:libatkmm-1.6.so.1 so:libboost_filesystem.so.1.84.0 so:libc.musl-armhf.so.1 so:libcairo-gobject.so.2 so:libcairo.so.2 so:libcairomm-1.0.so.1 so:libcdr-0.1.so.1 so:libepoxy.so.0 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgc.so.1 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgdkmm-3.0.so.1 so:libgio-2.0.so.0 so:libgiomm-2.4.so.1 so:libglib-2.0.so.0 so:libglibmm-2.4.so.1 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgomp.so.1 so:libgsl.so.28 so:libgslcblas.so.0 so:libgspell-1.so.3 so:libgtk-3.so.0 so:libgtkmm-3.0.so.1 so:libharfbuzz.so.0 so:libintl.so.8 so:libjpeg.so.8 so:liblcms2.so.2 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpangoft2-1.0.so.0 so:libpangomm-1.4.so.1 so:libpng16.so.16 so:libpoppler-glib.so.8 so:libpoppler.so.155 so:libpotrace.so.0 so:librevenge-0.0.so.0 so:librevenge-stream-0.0.so.0 so:libsigc-2.0.so.0 so:libstdc++.so.6 so:libvisio-0.1.so.1 so:libxml2.so.2 so:libxslt.so.1 so:libz.so.1
+origin	inkscape
+repo	community
+file	libinkscape_base-1.4.2-r8.apk
+checksum	Q1Rnh0s7Q+ECo947x+KpxWs+UrPoQ=
+dep	so:lib2geom.so.1.4.0	lib2geom
+dep	so:libGraphicsMagick++.so.12	graphicsmagick-c++
+dep	so:libatkmm-1.6.so.1	atkmm2.28
+dep	so:libboost_filesystem.so.1.84.0	boost1.84-filesystem
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo-gobject.so.2	cairo-gobject
+dep	so:libcairo.so.2	cairo
+dep	so:libcairomm-1.0.so.1	cairomm1.14
+dep	so:libcdr-0.1.so.1	libcdr
+dep	so:libepoxy.so.0	libepoxy
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libgc.so.1	gc
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgdkmm-3.0.so.1	gtkmm3
+dep	so:libgio-2.0.so.0	glib
+dep	so:libgiomm-2.4.so.1	glibmm2.66
+dep	so:libglib-2.0.so.0	glib
+dep	so:libglibmm-2.4.so.1	glibmm2.66
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgomp.so.1	libgomp
+dep	so:libgsl.so.28	gsl
+dep	so:libgslcblas.so.0	gsl
+dep	so:libgspell-1.so.3	gspell
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtkmm-3.0.so.1	gtkmm3
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:libintl.so.8	libintl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:liblcms2.so.2	lcms2
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpangoft2-1.0.so.0	pango
+dep	so:libpangomm-1.4.so.1	pangomm2.46
+dep	so:libpng16.so.16	libpng
+dep	so:libpoppler-glib.so.8	poppler-glib
+dep	so:libpoppler.so.155	poppler
+dep	so:libpotrace.so.0	potrace
+dep	so:librevenge-0.0.so.0	librevenge
+dep	so:librevenge-stream-0.0.so.0	librevenge
+dep	so:libsigc-2.0.so.0	libsigc++
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libvisio-0.1.so.1	libvisio
+dep	so:libxml2.so.2	libxml2
+dep	so:libxslt.so.1	libxslt
+dep	so:libz.so.1	zlib

@@ -1,0 +1,15 @@
+name	libnetfilter_queue
+version	1.0.5-r2
+description	API to packets that have been queued by the kernel packet filter
+url	https://www.netfilter.org/projects/libnetfilter_queue/
+license	GPL-2.0-or-later
+size	10651
+installed-size	21440
+depends	so:libc.musl-armhf.so.1 so:libmnl.so.0 so:libnfnetlink.so.0
+origin	libnetfilter_queue
+repo	main
+file	libnetfilter_queue-1.0.5-r2.apk
+checksum	Q1NPEk5rN1W6XbU79cLfB0D6HJEYE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmnl.so.0	libmnl
+dep	so:libnfnetlink.so.0	libnfnetlink

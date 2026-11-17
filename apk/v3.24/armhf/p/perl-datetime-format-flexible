@@ -1,0 +1,16 @@
+name	perl-datetime-format-flexible
+version	0.37-r1
+description	Flexibly parse strings and turn them into DateTime objects
+url	https://metacpan.org/release/DateTime-Format-Flexible/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	18486
+installed-size	78335
+depends	perl perl-datetime perl-datetime-format-builder perl-datetime-timezone
+origin	perl-datetime-format-flexible
+repo	community
+file	perl-datetime-format-flexible-0.37-r1.apk
+checksum	Q1Irevfrx9Iid6G19n+qqJrFS/tKw=
+dep	perl	perl
+dep	perl-datetime	perl-datetime
+dep	perl-datetime-format-builder	perl-datetime-format-builder
+dep	perl-datetime-timezone	perl-datetime-timezone

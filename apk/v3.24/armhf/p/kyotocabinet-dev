@@ -1,0 +1,14 @@
+name	kyotocabinet-dev
+version	1.2.80-r1
+description	library of routines for managing a database (development files)
+url	https://dbmx.net/kyotocabinet/
+license	GPL-3.0-or-later
+size	168464
+installed-size	1008572
+depends	kyotocabinet=1.2.80-r1 pkgconfig
+origin	kyotocabinet
+repo	community
+file	kyotocabinet-dev-1.2.80-r1.apk
+checksum	Q1upM9Y1QqCMRrOSsl/oPh0/9qmkM=
+dep	kyotocabinet=1.2.80-r1	kyotocabinet
+dep	pkgconfig	pkgconf

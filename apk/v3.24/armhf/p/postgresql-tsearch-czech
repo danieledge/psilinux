@@ -1,0 +1,14 @@
+name	postgresql-tsearch-czech
+version	0_git20120119-r10
+description	Czech ispell dictionary (UTF-8) for fulltext search in PostgreSQL
+url	https://github.com/tvondra/ispell_czech
+license	GPL-3.0
+size	1028428
+installed-size	4292598
+depends	postgresql18 /bin/sh
+origin	postgresql-tsearch-czech
+repo	community
+file	postgresql-tsearch-czech-0_git20120119-r10.apk
+checksum	Q1la1/DYG0NSxTiRx5lst5B/jJhT0=
+dep	postgresql18	postgresql18
+dep	/bin/sh	busybox-binsh

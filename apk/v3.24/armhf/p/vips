@@ -1,0 +1,43 @@
+name	vips
+version	8.18.2-r0
+description	fast image processing library with low memory needs
+url	https://www.libvips.org/
+license	LGPL-2.1-or-later
+size	1196297
+installed-size	2383208
+depends	so:libOpenEXR-3_4.so.33 so:libarchive.so.13 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcfitsio.so.10 so:libcgif.so.0 so:libexif.so.12 so:libexpat.so.1 so:libfftw3.so.3 so:libfontconfig.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libhwy.so.1 so:libimagequant.so.0.0.4 so:libintl.so.8 so:libjpeg.so.8 so:liblcms2.so.2 so:libopenjp2.so.7 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpangoft2-1.0.so.0 so:libpng16.so.16 so:librsvg-2.so.2 so:libtiff.so.6 so:libwebp.so.7 so:libwebpdemux.so.2 so:libwebpmux.so.3 so:libz.so.1
+origin	vips
+repo	community
+file	vips-8.18.2-r0.apk
+checksum	Q1+BgSeyEK5QiZN7ESB/IxJXifK5w=
+dep	so:libOpenEXR-3_4.so.33	openexr-libopenexr
+dep	so:libarchive.so.13	libarchive
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcfitsio.so.10	cfitsio
+dep	so:libcgif.so.0	cgif
+dep	so:libexif.so.12	libexif
+dep	so:libexpat.so.1	libexpat
+dep	so:libfftw3.so.3	fftw-double-libs
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libhwy.so.1	libhwy
+dep	so:libimagequant.so.0.0.4	libimagequant
+dep	so:libintl.so.8	libintl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:liblcms2.so.2	lcms2
+dep	so:libopenjp2.so.7	openjpeg
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpangoft2-1.0.so.0	pango
+dep	so:libpng16.so.16	libpng
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libtiff.so.6	tiff
+dep	so:libwebp.so.7	libwebp
+dep	so:libwebpdemux.so.2	libwebpdemux
+dep	so:libwebpmux.so.3	libwebpmux
+dep	so:libz.so.1	zlib

@@ -1,0 +1,14 @@
+name	kubie
+version	0.27.0-r0
+description	A more powerful alternative to kubectx and kubens
+url	https://github.com/sbstp/kubie
+license	Zlib
+size	1278574
+installed-size	2688288
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	kubie
+repo	community
+file	kubie-0.27.0-r0.apk
+checksum	Q1CXqrJgwI8DMBiuRQfYPcSsXrjxk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

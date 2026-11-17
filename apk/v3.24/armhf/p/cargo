@@ -1,0 +1,21 @@
+name	cargo
+version	1.96.1-r0
+description	The Rust package manager
+url	https://doc.rust-lang.org/cargo/
+license	(Apache-2.0 OR MIT) AND UNLICENSE
+size	9583650
+installed-size	20646484
+depends	rust=1.96.1-r0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgcc_s.so.1 so:libsqlite3.so.0 so:libssh2.so.1 so:libssl.so.3 so:libz.so.1
+origin	rust
+repo	main
+file	cargo-1.96.1-r0.apk
+checksum	Q13OasBmez5bqzeE3g1QC8o4zXQfU=
+dep	rust=1.96.1-r0	rust
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libssh2.so.1	libssh2
+dep	so:libssl.so.3	libssl3
+dep	so:libz.so.1	zlib

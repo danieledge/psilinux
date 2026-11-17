@@ -1,0 +1,13 @@
+name	mate-sensors-applet-dev
+version	1.28.0-r0
+description	Applet for the MATE Panel to display readings from hardware sensors (development files)
+url	https://github.com/mate-desktop/mate-sensors-applet
+license	GPL-2.0-or-later
+size	3125
+installed-size	5100
+depends	mate-sensors-applet=1.28.0-r0
+origin	mate-sensors-applet
+repo	community
+file	mate-sensors-applet-dev-1.28.0-r0.apk
+checksum	Q1gqoNEjDDNBs2o7pQIUONgCHgcmY=
+dep	mate-sensors-applet=1.28.0-r0	mate-sensors-applet

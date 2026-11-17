@@ -1,0 +1,13 @@
+name	zsh-completions
+version	0.35.0-r0
+description	Additional completion definitions for Zsh (packaged as a plugin)
+url	https://github.com/zsh-users/zsh-completions
+license	BSD-3-Clause AND Apache-2.0 AND MIT
+size	332280
+installed-size	1405991
+depends	zsh
+origin	zsh-completions
+repo	community
+file	zsh-completions-0.35.0-r0.apk
+checksum	Q1+1bFb91TNBriXMcVJRsUknJBrWs=
+dep	zsh	zsh

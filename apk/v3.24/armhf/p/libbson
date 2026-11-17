@@ -1,0 +1,13 @@
+name	libbson
+version	1.30.14-r0
+description	Building, parsing, and iterating BSON documents
+url	https://github.com/mongodb/mongo-c-driver
+license	Apache-2.0
+size	88499
+installed-size	206268
+depends	so:libc.musl-armhf.so.1
+origin	mongo-c-driver
+repo	community
+file	libbson-1.30.14-r0.apk
+checksum	Q1z8kXQeZQsHSwwKztZnwJ3MFO1U8=
+dep	so:libc.musl-armhf.so.1	musl

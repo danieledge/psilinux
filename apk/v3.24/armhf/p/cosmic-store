@@ -1,0 +1,21 @@
+name	cosmic-store
+version	1.0.15-r0
+description	App store for the COSMIC Desktop Environment
+url	https://github.com/pop-os/cosmic-store
+license	GPL-3.0-only
+size	10267955
+installed-size	21979481
+depends	cosmic-icons so:libc.musl-armhf.so.1 so:libflatpak.so.0 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libxkbcommon.so.0
+origin	cosmic-store
+repo	community
+file	cosmic-store-1.0.15-r0.apk
+checksum	Q1npox5U7VYAMkCw8GL3ExXw9/9hQ=
+dep	cosmic-icons	cosmic-icons
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libflatpak.so.0	flatpak-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libxkbcommon.so.0	libxkbcommon

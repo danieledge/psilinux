@@ -1,0 +1,16 @@
+name	websocat
+version	1.14.1-r0
+description	Netcat, curl and socat for WebSockets
+url	https://github.com/vi/websocat
+license	MIT
+size	977955
+installed-size	2022892
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
+origin	websocat
+repo	community
+file	websocat-1.14.1-r0.apk
+checksum	Q1NtH/SHiXbon7YHL/9y3w9hcV0+Y=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3

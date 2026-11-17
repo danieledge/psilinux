@@ -1,0 +1,13 @@
+name	iwasm-gc
+version	2.4.4-r0
+description	WebAssembly Micro Runtime (WAMR) - CLI (with GC)
+url	https://github.com/bytecodealliance/wasm-micro-runtime
+license	Apache-2.0
+size	255919
+installed-size	644032
+depends	so:libc.musl-armhf.so.1
+origin	wasm-micro-runtime
+repo	community
+file	iwasm-gc-2.4.4-r0.apk
+checksum	Q1UNTDpODYkpJx5XtkM9NzfV+nEa0=
+dep	so:libc.musl-armhf.so.1	musl

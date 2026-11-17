@@ -1,0 +1,15 @@
+name	py3-nvme
+version	1.16.2-r0
+description	C Library for NVM Express on Linux (python bindings)
+url	https://github.com/linux-nvme/libnvme/
+license	LGPL-2.1-or-later
+size	80076
+installed-size	323457
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libnvme.so.1
+origin	libnvme
+repo	main
+file	py3-nvme-1.16.2-r0.apk
+checksum	Q1B69fy/B1IXMmsa9ZBdb2dllIe7o=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnvme.so.1	libnvme

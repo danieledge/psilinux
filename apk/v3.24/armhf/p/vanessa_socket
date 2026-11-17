@@ -1,0 +1,15 @@
+name	vanessa_socket
+version	0.0.13-r3
+description	User space TCP/IP pipe
+url	https://projects.horms.net/projects/vanessa/
+license	LGPL-2.0-or-later
+size	15225
+installed-size	35524
+depends	so:libc.musl-armhf.so.1 so:libpopt.so.0 so:libvanessa_logger.so.0
+origin	vanessa_socket
+repo	main
+file	vanessa_socket-0.0.13-r3.apk
+checksum	Q1u5U2muzJzBsPigKsBuw8O8DpFnw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpopt.so.0	popt
+dep	so:libvanessa_logger.so.0	vanessa_logger

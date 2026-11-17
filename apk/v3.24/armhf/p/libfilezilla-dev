@@ -1,0 +1,17 @@
+name	libfilezilla-dev
+version	0.49.0-r0
+description	C++ library for filezilla (development files)
+url	https://lib.filezilla-project.org/
+license	GPL-2.0-or-later
+size	84590
+installed-size	312698
+depends	libfilezilla=0.49.0-r0 pc:gnutls>=3.7.0 pc:hogweed>=3.3 pc:nettle>=3.3 pkgconfig
+origin	libfilezilla
+repo	community
+file	libfilezilla-dev-0.49.0-r0.apk
+checksum	Q11u1eikDP2wZC2zTFd6uZB3X+mag=
+dep	libfilezilla=0.49.0-r0	libfilezilla
+dep	pc:gnutls>=3.7.0	gnutls-dev
+dep	pc:hogweed>=3.3	nettle-dev
+dep	pc:nettle>=3.3	nettle-dev
+dep	pkgconfig	pkgconf

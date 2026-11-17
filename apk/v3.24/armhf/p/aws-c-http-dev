@@ -1,0 +1,13 @@
+name	aws-c-http-dev
+version	0.11.0-r0
+description	AWS C99 implementation of the HTTP/1.1 and HTTP/2 specifications (development files)
+url	https://github.com/awslabs/aws-c-http
+license	Apache-2.0
+size	38267
+installed-size	162515
+depends	aws-c-http=0.11.0-r0
+origin	aws-c-http
+repo	community
+file	aws-c-http-dev-0.11.0-r0.apk
+checksum	Q1YQBmtTk5h0KvmIzu1sdQSFp7xtg=
+dep	aws-c-http=0.11.0-r0	aws-c-http

@@ -1,0 +1,14 @@
+name	texmf-dist-langitalian-examples
+version	2026.0-r0
+description	texmf-dist: Italian (examples and documentation)
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	11631297
+installed-size	13288284
+depends	texmf-dist-langitalian texmf-dist-langitalian-doc
+origin	texmf-dist
+repo	community
+file	texmf-dist-langitalian-examples-2026.0-r0.apk
+checksum	Q1TXU6lgkMjCxtWki9B4DAEsE1jdc=
+dep	texmf-dist-langitalian	texmf-dist-langitalian
+dep	texmf-dist-langitalian-doc	texmf-dist-langitalian-doc

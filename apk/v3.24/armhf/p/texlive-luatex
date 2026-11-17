@@ -1,0 +1,27 @@
+name	texlive-luatex
+version	2026.0-r0
+description	LuaTeX is an extended version of pdfTeX, scriptable in Lua
+url	https://tug.org/texlive/
+license	GPL-2.0-or-later AND GPL-3.0-or-later
+size	9436631
+installed-size	24621628
+depends	bash biblatex texmf-dist-fontsrecommended texmf-dist-fontutils texmf-dist-luatex texlive so:libX11.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libharfbuzz.so.0 so:libkpathsea.so.6 so:libpng16.so.16 so:libpotrace.so.0 so:libz.so.1 so:libzzip.so.13
+origin	texlive
+repo	community
+file	texlive-luatex-2026.0-r0.apk
+checksum	Q1mDnYCJRZnDTJLMUxTjr1zino27Q=
+dep	bash	bash
+dep	biblatex	biblatex
+dep	texmf-dist-fontsrecommended	texmf-dist-fontsrecommended
+dep	texmf-dist-fontutils	texmf-dist-fontutils
+dep	texmf-dist-luatex	texmf-dist-luatex
+dep	texlive	texlive
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:libkpathsea.so.6	texlive
+dep	so:libpng16.so.16	libpng
+dep	so:libpotrace.so.0	potrace
+dep	so:libz.so.1	zlib
+dep	so:libzzip.so.13	zziplib

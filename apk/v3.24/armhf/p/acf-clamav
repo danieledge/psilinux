@@ -1,0 +1,14 @@
+name	acf-clamav
+version	0.8.0-r4
+description	Web-based system administration interface for clamav
+url	https://gitlab.alpinelinux.org/acf/acf-clamav
+license	GPL-2.0-only
+size	3923
+installed-size	5589
+depends	acf-core clamav
+origin	acf-clamav
+repo	community
+file	acf-clamav-0.8.0-r4.apk
+checksum	Q1c+1x3gZNHNn092AN4Cc2PWrRYz8=
+dep	acf-core	acf-core
+dep	clamav	clamav

@@ -1,0 +1,15 @@
+name	py3-pytest-codspeed
+version	5.0.3-r0
+description	Pytest plugin to create CodSpeed benchmarks
+url	https://codspeed.io/
+license	MIT
+size	317609
+installed-size	3181119
+depends	py3-pytest py3-rich python3~3.14
+origin	py3-pytest-codspeed
+repo	community
+file	py3-pytest-codspeed-5.0.3-r0.apk
+checksum	Q15kk45otkptBsrCKFSxEgOTJkxDw=
+dep	py3-pytest	py3-pytest
+dep	py3-rich	py3-rich
+dep	python3~3.14	python3

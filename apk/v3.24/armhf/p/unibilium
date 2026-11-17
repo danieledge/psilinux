@@ -1,0 +1,13 @@
+name	unibilium
+version	2.1.2-r0
+description	Terminfo parsing library
+url	https://github.com/neovim/unibilium
+license	LGPL-3.0-or-later
+size	21680
+installed-size	46252
+depends	so:libc.musl-armhf.so.1
+origin	unibilium
+repo	community
+file	unibilium-2.1.2-r0.apk
+checksum	Q1vUS9taT9NxPSz88Plz9u8XiHW40=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,34 @@
+name	tuxpaint
+version	0.9.35-r0
+description	Drawing program designed for young children
+url	https://tuxpaint.org/
+license	GPL-2.0-or-later
+size	20121229
+installed-size	27018271
+depends	hicolor-icon-theme xdg-utils so:libSDL2-2.0.so.0 so:libSDL2_Pango.so.4 so:libSDL2_gfx-1.0.so.0 so:libSDL2_image-2.0.so.0 so:libSDL2_mixer-2.0.so.0 so:libSDL2_ttf-2.0.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libfontconfig.so.1 so:libfribidi.so.0 so:libgobject-2.0.so.0 so:libimagequant.so.0.0.4 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangoft2-1.0.so.0 so:libpaper.so.2 so:libpng16.so.16 so:librsvg-2.so.2 so:libxml2.so.2 so:libz.so.1
+origin	tuxpaint
+repo	community
+file	tuxpaint-0.9.35-r0.apk
+checksum	Q13zyRb8+RfQ6ulYbJQirS8O/ASe8=
+dep	hicolor-icon-theme	hicolor-icon-theme
+dep	xdg-utils	xdg-utils
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libSDL2_Pango.so.4	sdl2_pango
+dep	so:libSDL2_gfx-1.0.so.0	sdl2_gfx
+dep	so:libSDL2_image-2.0.so.0	sdl2_image
+dep	so:libSDL2_mixer-2.0.so.0	sdl2_mixer
+dep	so:libSDL2_ttf-2.0.so.0	sdl2_ttf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfribidi.so.0	fribidi
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libimagequant.so.0.0.4	libimagequant
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangoft2-1.0.so.0	pango
+dep	so:libpaper.so.2	libpaper
+dep	so:libpng16.so.16	libpng
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

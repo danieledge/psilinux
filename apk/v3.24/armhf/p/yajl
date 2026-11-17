@@ -1,0 +1,13 @@
+name	yajl
+version	2.1.0-r9
+description	Yet Another JSON Library (YAJL)
+url	https://lloyd.github.io/yajl/
+license	MIT
+size	13665
+installed-size	29868
+depends	so:libc.musl-armhf.so.1
+origin	yajl
+repo	main
+file	yajl-2.1.0-r9.apk
+checksum	Q1AKP7+rDCDWz4HY8uedPTKBY4glA=
+dep	so:libc.musl-armhf.so.1	musl

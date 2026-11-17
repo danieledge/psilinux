@@ -1,0 +1,16 @@
+name	hwdata
+version	0.408-r0
+description	Hardware identification and configuration data
+url	https://github.com/vcrhonek/hwdata
+license	GPL-2.0-or-later OR XFree86-1.1
+size	1328
+installed-size	0
+depends	hwdata-usb=0.408-r0 hwdata-pci=0.408-r0 hwdata-pnp=0.408-r0 hwdata-net=0.408-r0
+origin	hwdata
+repo	main
+file	hwdata-0.408-r0.apk
+checksum	Q1T2jy+D8N7U7ipN5mkz8YWvp5dmc=
+dep	hwdata-usb=0.408-r0	hwdata-usb
+dep	hwdata-pci=0.408-r0	hwdata-pci
+dep	hwdata-pnp=0.408-r0	hwdata-pnp
+dep	hwdata-net=0.408-r0	hwdata-net

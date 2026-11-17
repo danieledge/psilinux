@@ -1,0 +1,14 @@
+name	taskwarrior-tui
+version	0.26.10-r0
+description	A terminal user interface for taskwarrior
+url	https://kdheepak.com/taskwarrior-tui
+license	MIT
+size	1298617
+installed-size	2693676
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	taskwarrior-tui
+repo	community
+file	taskwarrior-tui-0.26.10-r0.apk
+checksum	Q1yniO5P/gYqRmH8i3nKSvuVTvd6A=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

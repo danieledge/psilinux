@@ -1,0 +1,19 @@
+name	ocaml-alcotest-dev
+version	1.5.0-r7
+description	Lightweight and colourful test framework (development files)
+url	https://github.com/mirage/alcotest
+license	ISC
+size	838510
+installed-size	2094714
+depends	ocaml-alcotest=1.5.0-r7 ocaml-astring-dev ocaml-cmdliner-dev ocaml-fmt-dev ocaml-re-dev ocaml-stdlib-shims ocaml-uutf-dev
+origin	ocaml-alcotest
+repo	community
+file	ocaml-alcotest-dev-1.5.0-r7.apk
+checksum	Q1hfQAC6bWCV2eHt+S0M+3d1nW0CE=
+dep	ocaml-alcotest=1.5.0-r7	ocaml-alcotest
+dep	ocaml-astring-dev	ocaml-astring-dev
+dep	ocaml-cmdliner-dev	ocaml-cmdliner-dev
+dep	ocaml-fmt-dev	ocaml-fmt-dev
+dep	ocaml-re-dev	ocaml-re-dev
+dep	ocaml-stdlib-shims	ocaml-stdlib-shims
+dep	ocaml-uutf-dev	ocaml-uutf-dev

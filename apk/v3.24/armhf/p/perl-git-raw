@@ -1,0 +1,15 @@
+name	perl-git-raw
+version	0.90-r5
+description	Perl bindings to the Git linkable library (libgit2)
+url	https://metacpan.org/release/Git-Raw/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	167198
+installed-size	516134
+depends	perl so:libc.musl-armhf.so.1 so:libgit2.so.1.9
+origin	perl-git-raw
+repo	community
+file	perl-git-raw-0.90-r5.apk
+checksum	Q149lvz4dzp6VPThv/fIddaG5i86M=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgit2.so.1.9	libgit2

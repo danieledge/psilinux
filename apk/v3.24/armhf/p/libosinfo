@@ -1,0 +1,23 @@
+name	libosinfo
+version	1.12.0-r0
+description	library for managing OS information for virtualization
+url	https://libosinfo.org/
+license	LGPL-2.0-or-later
+size	121158
+installed-size	377076
+depends	hwdata osinfo-db so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libsoup-3.0.so.0 so:libxml2.so.2 so:libxslt.so.1
+origin	libosinfo
+repo	community
+file	libosinfo-1.12.0-r0.apk
+checksum	Q1sdtnl7WAUGPsph28yT6k3pnwjsg=
+dep	hwdata	hwdata
+dep	osinfo-db	osinfo-db
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libxml2.so.2	libxml2
+dep	so:libxslt.so.1	libxslt

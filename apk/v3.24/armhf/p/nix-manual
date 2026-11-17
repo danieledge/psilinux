@@ -1,0 +1,13 @@
+name	nix-manual
+version	2.31.5-r0
+description	The purely functional package manager (HTML manual)
+url	https://nixos.org/nix/
+license	LGPL-2.1-or-later
+size	4547198
+installed-size	27950212
+depends	ca-certificates
+origin	nix
+repo	community
+file	nix-manual-2.31.5-r0.apk
+checksum	Q1yWFpSm+D9n4u+P0d5yH0OOS1YDg=
+dep	ca-certificates	ca-certificates

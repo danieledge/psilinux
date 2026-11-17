@@ -1,0 +1,17 @@
+name	iptstate
+version	2.2.7-r0
+description	Top-like interface to netfilter connection-tracking table
+url	https://www.phildev.net/iptstate/
+license	MIT
+size	27353
+installed-size	55048
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libncursesw.so.6 so:libnetfilter_conntrack.so.3 so:libstdc++.so.6
+origin	iptstate
+repo	community
+file	iptstate-2.2.7-r0.apk
+checksum	Q1gK7FUy/L/DH1xSN8O1EkH4lpxiY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libnetfilter_conntrack.so.3	libnetfilter_conntrack
+dep	so:libstdc++.so.6	libstdc++

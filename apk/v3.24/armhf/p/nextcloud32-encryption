@@ -1,0 +1,14 @@
+name	nextcloud32-encryption
+version	32.0.15-r0
+description	Nextcloud Default encryption module app
+url	https://nextcloud.com/
+license	AGPL-3.0-only
+size	189440
+installed-size	1699520
+depends	nextcloud32 php83-openssl
+origin	nextcloud32
+repo	community
+file	nextcloud32-encryption-32.0.15-r0.apk
+checksum	Q1QBb3p/zeU5TC7T1FEQaAWHH+cQI=
+dep	nextcloud32	nextcloud32
+dep	php83-openssl	php83-openssl

@@ -1,0 +1,16 @@
+name	freeradius-lib
+version	3.0.27-r3
+description	Freeradius shared libraries
+url	https://freeradius.org/
+license	GPL-2.0-or-later
+size	400241
+installed-size	1437623
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libpcap.so.1 so:libtalloc.so.2
+origin	freeradius
+repo	main
+file	freeradius-lib-3.0.27-r3.apk
+checksum	Q1GNyqJld1NXuc4sVmzYJTPA5hqsg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libpcap.so.1	libpcap
+dep	so:libtalloc.so.2	talloc

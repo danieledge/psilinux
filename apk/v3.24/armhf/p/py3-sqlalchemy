@@ -1,0 +1,15 @@
+name	py3-sqlalchemy
+version	2.0.49-r0
+description	object relational mapper for Python
+url	https://pypi.org/project/SQLAlchemy
+license	MIT
+size	1975330
+installed-size	8572448
+depends	py3-greenlet python3~3.14 so:libc.musl-armhf.so.1
+origin	py3-sqlalchemy
+repo	community
+file	py3-sqlalchemy-2.0.49-r0.apk
+checksum	Q1qsJNqmQfs5cfhSesyJ8G25N7Y3Q=
+dep	py3-greenlet	py3-greenlet
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

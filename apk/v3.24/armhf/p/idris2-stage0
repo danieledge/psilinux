@@ -1,0 +1,15 @@
+name	idris2-stage0
+version	0.8.0-r2
+description	Idris 2 version used to bootstrap the Idris 2 compiler
+url	https://www.idris-lang.org
+license	BSD-3-Clause
+size	30167514
+installed-size	127546348
+depends	chez-scheme gmp-dev so:libc.musl-armhf.so.1
+origin	idris2-stage0
+repo	community
+file	idris2-stage0-0.8.0-r2.apk
+checksum	Q1aWP1o9/8ZkiDMNSVFeNfTgjtKxA=
+dep	chez-scheme	chez-scheme
+dep	gmp-dev	gmp-dev
+dep	so:libc.musl-armhf.so.1	musl

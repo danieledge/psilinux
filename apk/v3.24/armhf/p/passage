@@ -1,0 +1,15 @@
+name	passage
+version	1.7.4_alpha2-r2
+description	A fork of password-store that uses age as backend
+url	https://github.com/FiloSottile/passage
+license	GPL-2.0-or-later
+size	8253
+installed-size	22480
+depends	bash tree age
+origin	passage
+repo	community
+file	passage-1.7.4_alpha2-r2.apk
+checksum	Q1drv6O3gEXf0ZWC/3Vcf7F0k5EQE=
+dep	bash	bash
+dep	tree	tree
+dep	age	age

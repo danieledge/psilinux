@@ -1,0 +1,21 @@
+name	totem-video-thumbnailer
+version	43.2-r4
+description	Video thumbnailer for the GNOME desktop
+url	https://apps.gnome.org/Totem
+license	GPL-2.0-or-later
+size	14645
+installed-size	32127
+depends	so:libc.musl-armhf.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstreamer-1.0.so.0 so:libgsttag-1.0.so.0 so:libintl.so.8 so:libtotem-plparser.so.18
+origin	totem
+repo	community
+file	totem-video-thumbnailer-43.2-r4.apk
+checksum	Q101+5A6v6ibrxVXfgP+uflvHyfS0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgsttag-1.0.so.0	gst-plugins-base
+dep	so:libintl.so.8	libintl
+dep	so:libtotem-plparser.so.18	totem-pl-parser

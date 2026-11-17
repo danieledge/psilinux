@@ -1,0 +1,26 @@
+name	mypaint
+version	2.0.1-r5
+description	Fast and dead-simple painting app for artists
+url	https://mypaint.app/
+license	GPL-2.0-or-later
+size	4015090
+installed-size	6708431
+depends	gtk+3.0 librsvg mypaint-brushes2 py3-cairo py3-gobject3 py3-numpy so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgomp.so.1 so:liblcms2.so.2 so:libmypaint.so.0 so:libpng16.so.16 so:libstdc++.so.6
+origin	mypaint
+repo	community
+file	mypaint-2.0.1-r5.apk
+checksum	Q1Fax3PaDsYRQmrAbv3ja+PrdLtrg=
+dep	gtk+3.0	gtk+3.0
+dep	librsvg	librsvg
+dep	mypaint-brushes2	mypaint-brushes2
+dep	py3-cairo	py3-cairo
+dep	py3-gobject3	py3-gobject3
+dep	py3-numpy	py3-numpy
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgomp.so.1	libgomp
+dep	so:liblcms2.so.2	lcms2
+dep	so:libmypaint.so.0	libmypaint
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++

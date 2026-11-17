@@ -1,0 +1,16 @@
+name	mautrix-bluesky
+version	0.2510.0-r8
+description	Matrix-Bluesky puppeting bridge
+url	https://docs.mau.fi/bridges/go/bluesky/
+license	AGPL-3.0-or-later
+size	9201965
+installed-size	24372467
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libolm.so.3 so:libsqlite3.so.0
+origin	mautrix-bluesky
+repo	community
+file	mautrix-bluesky-0.2510.0-r8.apk
+checksum	Q1b37wnmRlHhyMfkhRd5m3Sa6rH/A=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libolm.so.3	olm
+dep	so:libsqlite3.so.0	sqlite-libs

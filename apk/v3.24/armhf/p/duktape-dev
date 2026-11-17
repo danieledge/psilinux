@@ -1,0 +1,14 @@
+name	duktape-dev
+version	2.7.0-r3
+description	Embeddable Javascript engine with a focus on portability and compact footprint (development files)
+url	https://duktape.org
+license	MIT
+size	43414
+installed-size	202672
+depends	duktape-libs=2.7.0-r3 pkgconfig
+origin	duktape
+repo	community
+file	duktape-dev-2.7.0-r3.apk
+checksum	Q1M7RGqhNalIxxKFkI6SraXx+m0No=
+dep	duktape-libs=2.7.0-r3	duktape-libs
+dep	pkgconfig	pkgconf

@@ -1,0 +1,12 @@
+name	pushgateway-openrc
+version	1.11.3-r2
+description	Prometheus push acceptor for ephemeral and batch jobs (OpenRC init scripts)
+url	https://github.com/prometheus/pushgateway
+license	Apache-2.0
+size	1920
+installed-size	558
+depends	
+origin	pushgateway
+repo	community
+file	pushgateway-openrc-1.11.3-r2.apk
+checksum	Q10bJ6U//Qxzs7PKt4/ztJE0ED2v0=

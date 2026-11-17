@@ -1,0 +1,12 @@
+name	moarvm-dbg
+version	2025.11-r0
+description	VM with adaptive optimization and JIT compilation, built for Rakudo (debug symbols)
+url	https://moarvm.org/
+license	Artistic-2.0
+size	6485848
+installed-size	14151092
+depends	!moarvm<2025.11-r0 !moarvm>2025.11-r0
+origin	moarvm
+repo	community
+file	moarvm-dbg-2025.11-r0.apk
+checksum	Q1RQCfGR2qzqLn85EzlASwSyPehls=

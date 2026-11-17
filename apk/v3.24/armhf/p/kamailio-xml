@@ -1,0 +1,15 @@
+name	kamailio-xml
+version	6.0.6-r0
+description	Kamailio XML related modules: xhttp_pi xmlrpc xmlops
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	189831
+installed-size	564253
+depends	kamailio so:libc.musl-armhf.so.1 so:libxml2.so.2
+origin	kamailio
+repo	main
+file	kamailio-xml-6.0.6-r0.apk
+checksum	Q1WT9Ii1ufMH80kMddYWN0adAokl4=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxml2.so.2	libxml2

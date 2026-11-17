@@ -1,0 +1,17 @@
+name	sxmo-dmenu
+version	5.0.14-r1
+description	Dmenu fork for Sxmo UI; supports highlight, centering, volume-key navigation and more
+url	https://git.sr.ht/~mil/sxmo-dmenu
+license	MIT
+size	20826
+installed-size	43730
+depends	so:libX11.so.6 so:libXft.so.2 so:libXinerama.so.1 so:libc.musl-armhf.so.1 so:libfontconfig.so.1
+origin	sxmo-dmenu
+repo	community
+file	sxmo-dmenu-5.0.14-r1.apk
+checksum	Q1/j534Vg1tCwEXRT108DWkj4tc5U=
+dep	so:libX11.so.6	libx11
+dep	so:libXft.so.2	libxft
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig

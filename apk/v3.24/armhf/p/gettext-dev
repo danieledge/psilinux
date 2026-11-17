@@ -1,0 +1,17 @@
+name	gettext-dev
+version	1.0-r0
+description	GNU locale utilities (development files)
+url	https://www.gnu.org/software/gettext/gettext.html
+license	GPL-3.0-or-later AND LGPL-2.1-or-later AND MIT
+size	712643
+installed-size	1087954
+depends	!musl-libintl xz gettext-asprintf=1.0-r0 gettext-libs=1.0-r0 gettext=1.0-r0 libintl=1.0-r0
+origin	gettext
+repo	main
+file	gettext-dev-1.0-r0.apk
+checksum	Q1ot6aE4O4Wa8tDQFIrPPxpuPHEM4=
+dep	xz	xz
+dep	gettext-asprintf=1.0-r0	gettext-asprintf
+dep	gettext-libs=1.0-r0	gettext-libs
+dep	gettext=1.0-r0	gettext
+dep	libintl=1.0-r0	libintl

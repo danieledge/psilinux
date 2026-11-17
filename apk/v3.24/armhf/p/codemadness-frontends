@@ -1,0 +1,14 @@
+name	codemadness-frontends
+version	0.8-r3
+description	Experimental (cli, web, and gopher) frontends for youtube
+url	https://www.codemadness.org/idiotbox.html
+license	ISC
+size	49622
+installed-size	123856
+depends	libressl4.3-libtls so:libc.musl-armhf.so.1
+origin	codemadness-frontends
+repo	community
+file	codemadness-frontends-0.8-r3.apk
+checksum	Q1sfse3pG5DZhqkCKTYGNfepzNKG0=
+dep	libressl4.3-libtls	libressl4.3-libtls
+dep	so:libc.musl-armhf.so.1	musl

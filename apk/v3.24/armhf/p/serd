@@ -1,0 +1,14 @@
+name	serd
+version	0.32.8-r0
+description	lightweight C library for RDF syntax
+url	https://drobilla.net/software/serd
+license	ISC
+size	6525
+installed-size	13536
+depends	so:libc.musl-armhf.so.1 so:libserd-0.so.0
+origin	serd
+repo	community
+file	serd-0.32.8-r0.apk
+checksum	Q14xwkY8Aq4ogaoNmh0mZnFwALqQQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libserd-0.so.0	serd-libs

@@ -1,0 +1,13 @@
+name	zsh-vcs
+version	5.9-r7
+description	Version Control Information module for ZSH (vcs_info)
+url	https://www.zsh.org/
+license	MIT-Modern-Variant AND GPL-2.0-only
+size	25732
+installed-size	76726
+depends	zsh=5.9-r7
+origin	zsh
+repo	main
+file	zsh-vcs-5.9-r7.apk
+checksum	Q1s2dvQMs3A5N7EjNBGoCeD+ejwPc=
+dep	zsh=5.9-r7	zsh

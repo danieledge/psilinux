@@ -1,0 +1,15 @@
+name	libseccomp-dev
+version	2.6.1-r0
+description	interface to the Linux Kernel's syscall filtering mechanism (development files)
+url	https://github.com/seccomp/libseccomp
+license	LGPL-2.1-or-later
+size	18374
+installed-size	81634
+depends	linux-headers libseccomp=2.6.1-r0 pkgconfig
+origin	libseccomp
+repo	main
+file	libseccomp-dev-2.6.1-r0.apk
+checksum	Q1lblS2T9/O8xH0TYAhSJguaO+qwc=
+dep	linux-headers	linux-headers
+dep	libseccomp=2.6.1-r0	libseccomp
+dep	pkgconfig	pkgconf

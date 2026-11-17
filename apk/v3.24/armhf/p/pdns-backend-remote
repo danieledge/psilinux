@@ -1,0 +1,17 @@
+name	pdns-backend-remote
+version	5.0.7-r0
+description	remote backend module for PowerDNS
+url	https://www.powerdns.com/
+license	GPL-2.0-only WITH OpenSSL-Exception
+size	130916
+installed-size	324992
+depends	pdns so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libzmq.so.5
+origin	pdns
+repo	community
+file	pdns-backend-remote-5.0.7-r0.apk
+checksum	Q1vbkIVWtfYIeBGP1aOc5jB3BGexI=
+dep	pdns	pdns
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libzmq.so.5	libzmq

@@ -1,0 +1,13 @@
+name	wolfssl
+version	5.9.4-r0
+description	Embedded TLS Library (built without OpenSSL compatibility layer)
+url	https://www.wolfssl.com/
+license	GPL-3.0-only
+size	357684
+installed-size	685356
+depends	so:libc.musl-armhf.so.1
+origin	wolfssl
+repo	community
+file	wolfssl-5.9.4-r0.apk
+checksum	Q12qPIlA11ESjBtnPD7LTfvwdQCcM=
+dep	so:libc.musl-armhf.so.1	musl

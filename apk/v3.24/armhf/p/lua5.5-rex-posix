@@ -1,0 +1,13 @@
+name	lua5.5-rex-posix
+version	2.9.2-r1
+description	Lua 5.5 bindings to posix regular expressions library
+url	http://lrexlib.luaforge.net/
+license	MIT
+size	10369
+installed-size	21856
+depends	so:libc.musl-armhf.so.1
+origin	lua-rex
+repo	main
+file	lua5.5-rex-posix-2.9.2-r1.apk
+checksum	Q1q/D/q87aJ/EWdsvB6kej97kioX8=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	lightdm-settings
+version	2.1.1-r0
+description	LightDM configuration tool – supports slick-greeter only
+url	https://github.com/linuxmint/lightdm-settings
+license	GPL-3.0-or-later
+size	31970
+installed-size	79899
+depends	py3-setproctitle xrandr
+origin	lightdm-settings
+repo	community
+file	lightdm-settings-2.1.1-r0.apk
+checksum	Q1GHvLWXUM3xWhLHKv04Ai3XzqONY=
+dep	py3-setproctitle	py3-setproctitle
+dep	xrandr	xrandr

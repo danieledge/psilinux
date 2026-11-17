@@ -1,0 +1,15 @@
+name	jackline
+version	0.1.0-r4
+description	Minimalistic and secure XMPP client written in OCaml
+url	https://github.com/hannesm/jackline
+license	BSD-2-Clause
+size	4090070
+installed-size	9697573
+depends	so:libc.musl-armhf.so.1 so:libev.so.4 so:libgmp.so.10
+origin	jackline
+repo	community
+file	jackline-0.1.0-r4.apk
+checksum	Q1PtRsfPY1DH3Rr5IqK4A5ufp6RjA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libev.so.4	libev
+dep	so:libgmp.so.10	gmp

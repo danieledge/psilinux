@@ -1,0 +1,16 @@
+name	xwayland-satellite
+version	0.8.1-r0
+description	Xwayland manager for Wayland
+url	https://github.com/Supreeeme/xwayland-satellite
+license	MPL-2.0
+size	1390090
+installed-size	2861744
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libxcb-cursor.so.0 so:libxcb.so.1
+origin	xwayland-satellite
+repo	community
+file	xwayland-satellite-0.8.1-r0.apk
+checksum	Q13zuqa+pkuykTmo10NS15PUSctHU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libxcb-cursor.so.0	xcb-util-cursor
+dep	so:libxcb.so.1	libxcb

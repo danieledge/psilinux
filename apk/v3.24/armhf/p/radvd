@@ -1,0 +1,14 @@
+name	radvd
+version	2.21-r0
+description	IPv6 router advertisement daemon
+url	http://www.litech.org/radvd
+license	BSD-Advertising-Acknowledgement
+size	54424
+installed-size	118232
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	radvd
+repo	main
+file	radvd-2.21-r0.apk
+checksum	Q10w0mDpFFvf3nZ3rDcGgk7TttWGE=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

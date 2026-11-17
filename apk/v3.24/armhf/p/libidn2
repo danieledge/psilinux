@@ -1,0 +1,14 @@
+name	libidn2
+version	2.3.8-r0
+description	Encode/Decode library for internationalized domain names
+url	https://www.gnu.org/software/libidn#libidn2
+license	GPL-2.0-or-later OR LGPL-3.0-or-later
+size	103320
+installed-size	189772
+depends	so:libc.musl-armhf.so.1 so:libunistring.so.5
+origin	libidn2
+repo	main
+file	libidn2-2.3.8-r0.apk
+checksum	Q1pDZLRSdbUZamQOJbsJMIYwHjI0w=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libunistring.so.5	libunistring

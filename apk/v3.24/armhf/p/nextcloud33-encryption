@@ -1,0 +1,14 @@
+name	nextcloud33-encryption
+version	33.0.10-r0
+description	Nextcloud Default Encryption Module app
+url	https://nextcloud.com/
+license	AGPL-3.0-only
+size	194246
+installed-size	1765132
+depends	nextcloud33 php85-openssl
+origin	nextcloud33
+repo	community
+file	nextcloud33-encryption-33.0.10-r0.apk
+checksum	Q10d9UFa0pqV8JnlQlNon0isoJx9E=
+dep	nextcloud33	nextcloud33
+dep	php85-openssl	php85-openssl

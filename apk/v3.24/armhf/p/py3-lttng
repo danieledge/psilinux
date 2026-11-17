@@ -1,0 +1,15 @@
+name	py3-lttng
+version	2.14.2-r0
+description	lttng-ust python agent
+url	https://lttng.org/
+license	LGPL-2.1-only AND GPL-2.0-only AND MIT
+size	13714
+installed-size	38637
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:liblttng-ust.so.1
+origin	lttng-ust
+repo	main
+file	py3-lttng-2.14.2-r0.apk
+checksum	Q1ZC4aznKzRdlRFSXXpb8fcJnjM9A=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblttng-ust.so.1	lttng-ust

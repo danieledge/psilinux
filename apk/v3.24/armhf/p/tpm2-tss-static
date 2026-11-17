@@ -1,0 +1,13 @@
+name	tpm2-tss-static
+version	4.1.2-r0
+description	TPM 2.0 TSS (static library)
+url	https://github.com/tpm2-software/tpm2-tss/
+license	BSD-2-Clause
+size	1507388
+installed-size	5225482
+depends	tpm2-tss-dev
+origin	tpm2-tss
+repo	community
+file	tpm2-tss-static-4.1.2-r0.apk
+checksum	Q1LtEiDTzihoUhJjNn6n7wTsqCvqM=
+dep	tpm2-tss-dev	tpm2-tss-dev

@@ -1,0 +1,16 @@
+name	miniupnpd-nftables
+version	2.3.10-r0
+description	Lightweight UPnP IGD & PCP/NAT-PMP daemon
+url	https://miniupnp.tuxfamily.org/
+license	BSD-3-Clause
+size	88064
+installed-size	183110
+depends	uuidgen so:libc.musl-armhf.so.1 so:libmnl.so.0 so:libnftnl.so.11
+origin	miniupnpd
+repo	community
+file	miniupnpd-nftables-2.3.10-r0.apk
+checksum	Q1L1m6XCHna2KDpCfON/aEm1pNlW4=
+dep	uuidgen	uuidgen
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmnl.so.0	libmnl
+dep	so:libnftnl.so.11	libnftnl

@@ -1,0 +1,16 @@
+name	snac
+version	2.92-r0
+description	Simple, minimalistic ActivityPub instance written in portable C
+url	https://codeberg.org/grunfink/snac2
+license	MIT
+size	222196
+installed-size	461464
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4
+origin	snac
+repo	community
+file	snac-2.92-r0.apk
+checksum	Q15D6ownUvCpUr3tLsaSq7jRVXbk8=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl

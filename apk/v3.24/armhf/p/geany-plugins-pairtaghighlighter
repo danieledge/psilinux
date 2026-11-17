@@ -1,0 +1,17 @@
+name	geany-plugins-pairtaghighlighter
+version	2.1-r0
+description	Finds and highlights matching HTML tag
+url	https://plugins.geany.org/
+license	GPL-3.0-or-later
+size	5973
+installed-size	9448
+depends	so:libc.musl-armhf.so.1 so:libgeany.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0
+origin	geany-plugins
+repo	community
+file	geany-plugins-pairtaghighlighter-2.1-r0.apk
+checksum	Q1WPrxqZcC9c/T4yAKl9j98nuBETY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgeany.so.0	geany
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0

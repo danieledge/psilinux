@@ -1,0 +1,13 @@
+name	miniupnpc
+version	2.3.3-r2
+description	Library and tool to control NAT in UPnP-enabled routers
+url	http://miniupnp.free.fr
+license	BSD-3-Clause
+size	34786
+installed-size	77529
+depends	so:libc.musl-armhf.so.1
+origin	miniupnpc
+repo	community
+file	miniupnpc-2.3.3-r2.apk
+checksum	Q1XaSwocNxWGP2C8Y+IfRPyXJHg14=
+dep	so:libc.musl-armhf.so.1	musl

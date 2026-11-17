@@ -1,0 +1,13 @@
+name	liblouis-static
+version	3.38.0-r0
+description	Braille translator and back-translator (static library)
+url	https://liblouis.io/
+license	GPL-3.0-or-later
+size	84766
+installed-size	178472
+depends	liblouis-dev
+origin	liblouis
+repo	community
+file	liblouis-static-3.38.0-r0.apk
+checksum	Q1+g9nPp0Kwxck+bQZ7MGKNNowkeE=
+dep	liblouis-dev	liblouis-dev

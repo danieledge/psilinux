@@ -1,0 +1,16 @@
+name	libiodata
+version	0.19.14-r0
+description	Library for reading and writing simple structured data
+url	https://github.com/sailfishos/libiodata
+license	LGPL-2.1-only
+size	84171
+installed-size	193637
+depends	so:libQt6Core.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libiodata
+repo	community
+file	libiodata-0.19.14-r0.apk
+checksum	Q1Zudd7nfGN+mHywM091kaKPqiJh8=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

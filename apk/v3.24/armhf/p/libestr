@@ -1,0 +1,13 @@
+name	libestr
+version	0.1.11-r4
+description	essentials for string handling (and a bit more)
+url	https://libestr.adiscon.com/
+license	LGPL-2.1-or-later
+size	6025
+installed-size	9388
+depends	so:libc.musl-armhf.so.1
+origin	libestr
+repo	main
+file	libestr-0.1.11-r4.apk
+checksum	Q1+TN3nrTQ66DGUpUuuQq20EQDpzQ=
+dep	so:libc.musl-armhf.so.1	musl

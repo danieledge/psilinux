@@ -1,0 +1,15 @@
+name	swaysome
+version	2.3.2-r0
+description	Helps you configure sway to work a bit more like AwesomeWM
+url	https://gitlab.com/hyask/swaysome
+license	MIT
+size	332735
+installed-size	609700
+depends	sway so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	swaysome
+repo	community
+file	swaysome-2.3.2-r0.apk
+checksum	Q1WwI2bErwdKl69GMapSlRITPd8r8=
+dep	sway	sway
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

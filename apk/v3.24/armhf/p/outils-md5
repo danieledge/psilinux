@@ -1,0 +1,13 @@
+name	outils-md5
+version	0.14-r0
+description	md5 tool from outils
+url	https://github.com/leahneukirchen/outils
+license	BSD-3-Clause ISC
+size	24483
+installed-size	46808
+depends	so:libc.musl-armhf.so.1
+origin	outils
+repo	community
+file	outils-md5-0.14-r0.apk
+checksum	Q1b55gctZZfossMobRuN2DKckKTxA=
+dep	so:libc.musl-armhf.so.1	musl

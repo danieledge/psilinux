@@ -1,0 +1,22 @@
+name	libquotient
+version	0.9.6.1-r2
+description	Qt library for cross-platform clients for Matrix
+url	https://github.com/quotient-im/libQuotient
+license	LGPL-2.1-or-later
+size	704085
+installed-size	2028980
+depends	so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6Sql.so.6 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libolm.so.3 so:libqt6keychain.so.1 so:libstdc++.so.6
+origin	libquotient
+repo	community
+file	libquotient-0.9.6.1-r2.apk
+checksum	Q1/7A/W4dMSBa5QcyrHuGKrIPVE8U=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6Sql.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libolm.so.3	olm
+dep	so:libqt6keychain.so.1	qtkeychain
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,12 @@
+name	ffmpeg7-dbg
+version	7.1.5-r0
+description	Complete and free Internet live audio and video broadcasting solution for Linux/Unix (debug symbols)
+url	https://ffmpeg.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	35554524
+installed-size	98750420
+depends	!ffmpeg7-libavcodec<7.1.5-r0 !ffmpeg7-libavcodec>7.1.5-r0 !ffmpeg7-libavdevice<7.1.5-r0 !ffmpeg7-libavdevice>7.1.5-r0 !ffmpeg7-libavfilter<7.1.5-r0 !ffmpeg7-libavfilter>7.1.5-r0 !ffmpeg7-libavformat<7.1.5-r0 !ffmpeg7-libavformat>7.1.5-r0 !ffmpeg7-libavutil<7.1.5-r0 !ffmpeg7-libavutil>7.1.5-r0 !ffmpeg7-libpostproc<7.1.5-r0 !ffmpeg7-libpostproc>7.1.5-r0 !ffmpeg7-libswresample<7.1.5-r0 !ffmpeg7-libswresample>7.1.5-r0 !ffmpeg7-libswscale<7.1.5-r0 !ffmpeg7-libswscale>7.1.5-r0 !ffmpeg7<7.1.5-r0 !ffmpeg7>7.1.5-r0
+origin	ffmpeg7
+repo	community
+file	ffmpeg7-dbg-7.1.5-r0.apk
+checksum	Q1I9K3AsICgKyQpT27agSXfENWy6A=

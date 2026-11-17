@@ -1,0 +1,15 @@
+name	idn2-utils
+version	2.3.8-r0
+description	Encode/Decode library for internationalized domain names (CLI utilities)
+url	https://www.gnu.org/software/libidn#libidn2
+license	GPL-3.0-or-later
+size	11861
+installed-size	22072
+depends	so:libc.musl-armhf.so.1 so:libidn2.so.0 so:libunistring.so.5
+origin	libidn2
+repo	main
+file	idn2-utils-2.3.8-r0.apk
+checksum	Q1U/r1NuxGydDKgquzgi1LvTspOMM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libidn2.so.0	libidn2
+dep	so:libunistring.so.5	libunistring

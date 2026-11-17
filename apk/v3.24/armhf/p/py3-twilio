@@ -1,0 +1,17 @@
+name	py3-twilio
+version	9.10.9-r0
+description	Twilio API client and TwiML generator
+url	https://pypi.python.org/project/twilio
+license	MIT
+size	1833663
+installed-size	22019783
+depends	py3-requests py3-jwt py3-aiohttp py3-aiohttp-retry python3~3.14
+origin	py3-twilio
+repo	community
+file	py3-twilio-9.10.9-r0.apk
+checksum	Q1hPZf61q+S2ylWeWpIp4ZHsziiEM=
+dep	py3-requests	py3-requests
+dep	py3-jwt	py3-jwt
+dep	py3-aiohttp	py3-aiohttp
+dep	py3-aiohttp-retry	py3-aiohttp-retry
+dep	python3~3.14	python3

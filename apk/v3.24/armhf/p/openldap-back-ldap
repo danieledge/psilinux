@@ -1,0 +1,15 @@
+name	openldap-back-ldap
+version	2.6.15-r0
+description	OpenLDAP ldap backend
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	58385
+installed-size	128430
+depends	so:libc.musl-armhf.so.1 so:liblber.so.2 so:libldap.so.2
+origin	openldap
+repo	main
+file	openldap-back-ldap-2.6.15-r0.apk
+checksum	Q13mf9nNXjwCQ+QGfkm2cs/3Jvvsk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap

@@ -1,0 +1,14 @@
+name	libmaxminddb-dev
+version	1.13.3-r0
+description	Maxmind GeoIP2 database library (development files)
+url	https://github.com/maxmind/libmaxminddb
+license	Apache-2.0
+size	4580
+installed-size	9491
+depends	libmaxminddb-libs=1.13.3-r0 pkgconfig
+origin	libmaxminddb
+repo	main
+file	libmaxminddb-dev-1.13.3-r0.apk
+checksum	Q1SQ8Q792FyuaX99TbtBLVeg7e5tc=
+dep	libmaxminddb-libs=1.13.3-r0	libmaxminddb-libs
+dep	pkgconfig	pkgconf

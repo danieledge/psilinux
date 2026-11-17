@@ -1,0 +1,17 @@
+name	ocaml-mirage-profile-dev
+version	0.9.1-r6
+description	Collect runtime profiling information in CTF format (development files)
+url	https://github.com/mirage/mirage-profile
+license	BSD-2-Clause
+size	31275
+installed-size	86329
+depends	ocaml-mirage-profile=0.9.1-r6 ocaml-cstruct-dev ocaml-lwt-dev ocaml-ocplib-endian-dev ocaml-mtime-dev
+origin	ocaml-mirage-profile
+repo	community
+file	ocaml-mirage-profile-dev-0.9.1-r6.apk
+checksum	Q1/UcX8afIM1n0rEJqzXqPdkJo4bk=
+dep	ocaml-mirage-profile=0.9.1-r6	ocaml-mirage-profile
+dep	ocaml-cstruct-dev	ocaml-cstruct-dev
+dep	ocaml-lwt-dev	ocaml-lwt-dev
+dep	ocaml-ocplib-endian-dev	ocaml-ocplib-endian-dev
+dep	ocaml-mtime-dev	ocaml-mtime-dev

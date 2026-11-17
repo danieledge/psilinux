@@ -1,0 +1,22 @@
+name	py3-quart
+version	0.20.0-r1
+description	Python ASGI web framework with the same API as Flask
+url	https://quart.palletsprojects.com/en/latest/
+license	MIT
+size	70041
+installed-size	292258
+depends	py3-aiofiles py3-blinker py3-click py3-flask py3-hypercorn py3-itsdangerous py3-jinja2 py3-markupsafe py3-werkzeug python3~3.14
+origin	py3-quart
+repo	community
+file	py3-quart-0.20.0-r1.apk
+checksum	Q1dysK4OnQaXMJHoIlFRcQjSffBk8=
+dep	py3-aiofiles	py3-aiofiles
+dep	py3-blinker	py3-blinker
+dep	py3-click	py3-click
+dep	py3-flask	py3-flask
+dep	py3-hypercorn	py3-hypercorn
+dep	py3-itsdangerous	py3-itsdangerous
+dep	py3-jinja2	py3-jinja2
+dep	py3-markupsafe	py3-markupsafe
+dep	py3-werkzeug	py3-werkzeug
+dep	python3~3.14	python3

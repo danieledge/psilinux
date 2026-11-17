@@ -1,0 +1,22 @@
+name	perl-mail-spamassassin
+version	4.0.2-r1
+description	SpamAssassin perl library
+url	https://metacpan.org/pod/Mail::SpamAssassin
+license	Apache-2.0
+size	781598
+installed-size	2796874
+depends	perl-html-parser perl-digest-sha1 perl-netaddr-ip perl-net-dns perl-mail-dkim perl-mime-base64 perl-time-hires perl-libwww perl gpg
+origin	spamassassin
+repo	main
+file	perl-mail-spamassassin-4.0.2-r1.apk
+checksum	Q1Zn0ZEQaI4ZYWQiGgiOvigHXSvws=
+dep	perl-html-parser	perl-html-parser
+dep	perl-digest-sha1	perl-digest-sha1
+dep	perl-netaddr-ip	perl-netaddr-ip
+dep	perl-net-dns	perl-net-dns
+dep	perl-mail-dkim	perl-mail-dkim
+dep	perl-mime-base64	perl-mime-base64
+dep	perl-time-hires	perl-time-hires
+dep	perl-libwww	perl-libwww
+dep	perl	perl
+dep	gpg	gpg

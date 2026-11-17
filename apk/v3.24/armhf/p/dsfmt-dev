@@ -1,0 +1,14 @@
+name	dsfmt-dev
+version	2.2.5-r1
+description	Double precision SIMD-oriented Fast Mersenne Twister (development files)
+url	https://github.com/MersenneTwister-Lab/dSFMT
+license	BSD-3-Clause
+size	7005
+installed-size	28822
+depends	dsfmt=2.2.5-r1 pkgconfig
+origin	dsfmt
+repo	community
+file	dsfmt-dev-2.2.5-r1.apk
+checksum	Q1Ab3O5QgCat3OqnWuax4VJpF951A=
+dep	dsfmt=2.2.5-r1	dsfmt
+dep	pkgconfig	pkgconf

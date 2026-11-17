@@ -1,0 +1,15 @@
+name	texmf-dist-full
+version	2026.0-r0
+description	Full TeX Live texmf distribution
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	1317
+installed-size	0
+depends	texmf-dist-most texmf-dist-lang texmf-dist-fontsextra
+origin	texmf-dist
+repo	community
+file	texmf-dist-full-2026.0-r0.apk
+checksum	Q1lPd57gdYwA+sW/pL1ss78nlHZvI=
+dep	texmf-dist-most	texmf-dist-most
+dep	texmf-dist-lang	texmf-dist-lang
+dep	texmf-dist-fontsextra	texmf-dist-fontsextra

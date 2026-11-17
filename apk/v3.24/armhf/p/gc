@@ -1,0 +1,15 @@
+name	gc
+version	8.2.12-r0
+description	garbage collector for C and C++
+url	https://hboehm.info/gc/
+license	Boehm-GC
+size	90626
+installed-size	197188
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	gc
+repo	main
+file	gc-8.2.12-r0.apk
+checksum	Q173d151tEvGWBsM1T10Hmq8NyYGg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

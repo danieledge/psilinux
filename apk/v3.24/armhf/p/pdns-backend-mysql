@@ -1,0 +1,18 @@
+name	pdns-backend-mysql
+version	5.0.7-r0
+description	gmysql backend module for PowerDNS
+url	https://www.powerdns.com/
+license	GPL-2.0-only WITH OpenSSL-Exception
+size	35044
+installed-size	87468
+depends	pdns mariadb-client so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libmariadb.so.3 so:libstdc++.so.6
+origin	pdns
+repo	community
+file	pdns-backend-mysql-5.0.7-r0.apk
+checksum	Q1i74riJTDrxBJAq0wge1tPNz9LEA=
+dep	pdns	pdns
+dep	mariadb-client	mariadb-client
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmariadb.so.3	mariadb-connector-c
+dep	so:libstdc++.so.6	libstdc++

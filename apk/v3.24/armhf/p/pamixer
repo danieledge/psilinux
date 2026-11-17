@@ -1,0 +1,16 @@
+name	pamixer
+version	1.6-r2
+description	pulseaudio command line mixer
+url	https://github.com/cdemoulins/pamixer
+license	GPL-3.0-only
+size	73525
+installed-size	186292
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpulse.so.0 so:libstdc++.so.6
+origin	pamixer
+repo	community
+file	pamixer-1.6-r2.apk
+checksum	Q1WOJkhj+eltwb2oPgFCivMKoacvg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpulse.so.0	libpulse
+dep	so:libstdc++.so.6	libstdc++

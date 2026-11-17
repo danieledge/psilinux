@@ -1,0 +1,21 @@
+name	wl-kbptr-full
+version	0.4.1-r1
+description	Control the mouse pointer with the keyboard on Wayland (w/ floating mode support)
+url	https://github.com/moverest/wl-kbptr
+license	GPL-3.0-or-later
+size	31832
+installed-size	68808
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgcc_s.so.1 so:libopencv_core.so.412 so:libopencv_imgproc.so.412 so:libpixman-1.so.0 so:libstdc++.so.6 so:libwayland-client.so.0 so:libxkbcommon.so.0
+origin	wl-kbptr
+repo	community
+file	wl-kbptr-full-0.4.1-r1.apk
+checksum	Q1iq9X4Ak/ECxRb2ZONYQBXgRUt4w=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libopencv_core.so.412	libopencv_core
+dep	so:libopencv_imgproc.so.412	libopencv_imgproc
+dep	so:libpixman-1.so.0	pixman
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libxkbcommon.so.0	libxkbcommon

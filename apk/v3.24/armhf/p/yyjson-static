@@ -1,0 +1,13 @@
+name	yyjson-static
+version	0.12.0-r1
+description	High performance JSON library written in ANSI C (static library)
+url	https://github.com/ibireme/yyjson
+license	MIT
+size	187528
+installed-size	402842
+depends	yyjson-dev
+origin	yyjson
+repo	community
+file	yyjson-static-0.12.0-r1.apk
+checksum	Q1y2fA/bTYaiNoCYo6cTMaVLwKLlQ=
+dep	yyjson-dev	yyjson-dev

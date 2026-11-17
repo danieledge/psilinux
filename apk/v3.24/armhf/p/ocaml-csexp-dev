@@ -1,0 +1,13 @@
+name	ocaml-csexp-dev
+version	1.5.1-r5
+description	Parsing and printing of S-expressions in Canonical form (development files)
+url	https://github.com/ocaml-dune/csexp
+license	MIT
+size	113561
+installed-size	278564
+depends	ocaml-csexp=1.5.1-r5
+origin	ocaml-csexp
+repo	community
+file	ocaml-csexp-dev-1.5.1-r5.apk
+checksum	Q1hGozfFNxc8E0K3EWI/Ql/QUoYZo=
+dep	ocaml-csexp=1.5.1-r5	ocaml-csexp

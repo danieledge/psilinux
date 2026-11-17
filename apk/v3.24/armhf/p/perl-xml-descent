@@ -1,0 +1,14 @@
+name	perl-xml-descent
+version	1.04-r1
+description	Recursive descent XML parsing
+url	https://metacpan.org/release/XML-Descent/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	7599
+installed-size	17094
+depends	perl perl-xml-tokeparser
+origin	perl-xml-descent
+repo	community
+file	perl-xml-descent-1.04-r1.apk
+checksum	Q1w3x7BxEuFV82An9MhvT/Eh69T7I=
+dep	perl	perl
+dep	perl-xml-tokeparser	perl-xml-tokeparser

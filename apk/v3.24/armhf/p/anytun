@@ -1,0 +1,18 @@
+name	anytun
+version	0.3.8-r12
+description	Secure anycast tunneling protocol implementation for flexible and fault-tolerant VPNs
+url	https://www.anytun.org/
+license	GPL-3.0-or-later
+size	423257
+installed-size	1149878
+depends	so:libboost_serialization.so.1.84.0 so:libboost_thread.so.1.84.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	anytun
+repo	community
+file	anytun-0.3.8-r12.apk
+checksum	Q12gD4d+XGGTrDQPh4miZ42Cn6KC8=
+dep	so:libboost_serialization.so.1.84.0	boost1.84-serialization
+dep	so:libboost_thread.so.1.84.0	boost1.84-thread
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

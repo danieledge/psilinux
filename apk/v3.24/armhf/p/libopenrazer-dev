@@ -1,0 +1,18 @@
+name	libopenrazer-dev
+version	0.4.0-r0
+description	Qt wrapper around the D-Bus API from OpenRazer (development files)
+url	https://github.com/z3ntu/libopenrazer
+license	GPL-3.0-or-later
+size	9369
+installed-size	36469
+depends	libopenrazer=0.4.0-r0 pc:Qt6Core pc:Qt6DBus pc:Qt6Gui pc:Qt6Xml pkgconfig
+origin	libopenrazer
+repo	community
+file	libopenrazer-dev-0.4.0-r0.apk
+checksum	Q1Vo28QxrLbnxoeAoXOFL1raCVuQo=
+dep	libopenrazer=0.4.0-r0	libopenrazer
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pc:Qt6DBus	qt6-qtbase-dev
+dep	pc:Qt6Gui	qt6-qtbase-dev
+dep	pc:Qt6Xml	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

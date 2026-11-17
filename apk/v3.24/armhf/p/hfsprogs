@@ -1,0 +1,14 @@
+name	hfsprogs
+version	540.1_p3-r5
+description	Tools to create/check Apple HFS+ filesystems
+url	https://src.fedoraproject.org/rpms/hfsplus-tools
+license	APSL-2.0
+size	158599
+installed-size	415148
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	hfsprogs
+repo	community
+file	hfsprogs-540.1_p3-r5.apk
+checksum	Q1/3VhGY7vrIJw12oUaLg/dIgO2GU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

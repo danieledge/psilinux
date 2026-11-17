@@ -1,0 +1,19 @@
+name	subversion-dev
+version	1.14.5-r1
+description	Replacement for CVS, another versioning system (svn) (development files)
+url	https://subversion.apache.org/
+license	Apache-2.0 AND BSD-2-Clause
+size	375240
+installed-size	1810445
+depends	perl-subversion=1.14.5-r1 subversion-libs=1.14.5-r1 pc:apr-1 pc:apr-util-1 pc:serf-1 pc:sqlite3 pkgconfig
+origin	subversion
+repo	main
+file	subversion-dev-1.14.5-r1.apk
+checksum	Q1p+kYThlsEabK1YZKHnPTjyjvb9g=
+dep	perl-subversion=1.14.5-r1	perl-subversion
+dep	subversion-libs=1.14.5-r1	subversion-libs
+dep	pc:apr-1	apr-dev
+dep	pc:apr-util-1	apr-util-dev
+dep	pc:serf-1	serf-dev
+dep	pc:sqlite3	sqlite-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,17 @@
+name	py3-jsonschema
+version	4.26.0-r0
+description	JSON Schema validation for Python
+url	https://github.com/python-jsonschema/jsonschema
+license	MIT
+size	50517
+installed-size	286310
+depends	py3-attrs py3-jsonschema-specifications py3-referencing py3-rpds-py python3~3.14
+origin	py3-jsonschema
+repo	community
+file	py3-jsonschema-4.26.0-r0.apk
+checksum	Q1J3PKIkqmq+tZsIiK0SmPykabL8c=
+dep	py3-attrs	py3-attrs
+dep	py3-jsonschema-specifications	py3-jsonschema-specifications
+dep	py3-referencing	py3-referencing
+dep	py3-rpds-py	py3-rpds-py
+dep	python3~3.14	python3

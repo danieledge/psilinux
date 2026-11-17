@@ -1,0 +1,16 @@
+name	glog-dev
+version	0.7.1-r3
+description	C++ implementation of the Google logging module (development files)
+url	https://github.com/google/glog
+license	BSD-3-Clause
+size	33522
+installed-size	120164
+depends	gflags-dev libunwind-dev glog=0.7.1-r3 pkgconfig
+origin	glog
+repo	community
+file	glog-dev-0.7.1-r3.apk
+checksum	Q1uUGawgTmkRbPB982zy2IbRufibk=
+dep	gflags-dev	gflags-dev
+dep	libunwind-dev	libunwind-dev
+dep	glog=0.7.1-r3	glog
+dep	pkgconfig	pkgconf

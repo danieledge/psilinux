@@ -1,0 +1,13 @@
+name	ocp-index
+version	1.4.0-r3
+description	Lightweight completion and documentation browsing for OCaml libraries
+url	http://www.typerex.org/ocp-index.html
+license	LGPL-2.1-only WITH OCaml-LGPL-linking-exception AND GPL-3.0-only
+size	5726887
+installed-size	12289520
+depends	so:libc.musl-armhf.so.1
+origin	ocp-index
+repo	community
+file	ocp-index-1.4.0-r3.apk
+checksum	Q1mu8QBbpud72B13W65yTrpNAWOvw=
+dep	so:libc.musl-armhf.so.1	musl

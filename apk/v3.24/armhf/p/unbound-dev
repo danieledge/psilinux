@@ -1,0 +1,17 @@
+name	unbound-dev
+version	1.25.2-r2
+description	Unbound is a validating, recursive, and caching DNS resolver (development files)
+url	https://nlnetlabs.nl/projects/unbound/about/
+license	BSD-3-Clause
+size	13807
+installed-size	43213
+depends	expat-dev unbound-libs=1.25.2-r2 pc:libevent pc:python3 pkgconfig
+origin	unbound
+repo	main
+file	unbound-dev-1.25.2-r2.apk
+checksum	Q1WuhaZdx99JHIHsq/bHQ2R0xEQNU=
+dep	expat-dev	expat-dev
+dep	unbound-libs=1.25.2-r2	unbound-libs
+dep	pc:libevent	libevent-dev
+dep	pc:python3	python3-dev
+dep	pkgconfig	pkgconf

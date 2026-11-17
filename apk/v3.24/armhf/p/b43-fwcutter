@@ -1,0 +1,13 @@
+name	b43-fwcutter
+version	019-r3
+description	Tool to extract firmware from Broadcom drivers
+url	https://wireless.wiki.kernel.org/en/users/Drivers/b43
+license	BSD-2-Clause
+size	18222
+installed-size	42144
+depends	so:libc.musl-armhf.so.1
+origin	b43-fwcutter
+repo	main
+file	b43-fwcutter-019-r3.apk
+checksum	Q1xXNJ435c+csoRsvSZvNcCTWBLuM=
+dep	so:libc.musl-armhf.so.1	musl

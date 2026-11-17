@@ -1,0 +1,14 @@
+name	libuv-dev
+version	1.52.1-r0
+description	Cross-platform asychronous I/O (development files)
+url	https://libuv.org/
+license	MIT
+size	24613
+installed-size	109593
+depends	libuv=1.52.1-r0 pkgconfig
+origin	libuv
+repo	main
+file	libuv-dev-1.52.1-r0.apk
+checksum	Q17gAcZH2iBVUVk/YA00E2qgmqX08=
+dep	libuv=1.52.1-r0	libuv
+dep	pkgconfig	pkgconf

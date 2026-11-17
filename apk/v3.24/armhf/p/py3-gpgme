@@ -1,0 +1,15 @@
+name	py3-gpgme
+version	2.0.0-r1
+description	gnupg made easy
+url	https://www.gnupg.org/related_software/gpgme/
+license	LGPL-2.1-or-later AND GPL-3.0-or-later
+size	218336
+installed-size	956293
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libgpgme.so.45
+origin	py3-gpgme
+repo	community
+file	py3-gpgme-2.0.0-r1.apk
+checksum	Q1l2yYoj6n30EI+ngtbEgigvMYCKg=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgpgme.so.45	gpgme

@@ -1,0 +1,22 @@
+name	libva-utils
+version	2.23.0-r0
+description	Intel VA-API Media Applications and Scripts for libva
+url	https://github.com/intel/libva-utils
+license	MIT
+size	1912656
+installed-size	3102500
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1 so:libdrm.so.2 so:libgcc_s.so.1 so:libstdc++.so.6 so:libva-drm.so.2 so:libva-wayland.so.2 so:libva-x11.so.2 so:libva.so.2 so:libwayland-client.so.0
+origin	libva-utils
+repo	community
+file	libva-utils-2.23.0-r0.apk
+checksum	Q1NGxlkmwSjmjm6gqGtsiuQZhSSAQ=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm.so.2	libdrm
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libva-drm.so.2	libva
+dep	so:libva-wayland.so.2	libva
+dep	so:libva-x11.so.2	libva
+dep	so:libva.so.2	libva
+dep	so:libwayland-client.so.0	wayland-libs-client

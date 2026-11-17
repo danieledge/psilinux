@@ -1,0 +1,16 @@
+name	tinc
+version	1.0.36-r6
+description	Virtual Private Network (VPN) daemon
+url	https://www.tinc-vpn.org
+license	GPL-2.0-or-later WITH OpenSSL-Exception
+size	67857
+installed-size	136800
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:liblzo2.so.2 so:libz.so.1
+origin	tinc
+repo	main
+file	tinc-1.0.36-r6.apk
+checksum	Q1aYatLzImqiyO3/qUDH3p86j+MNY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:liblzo2.so.2	lzo
+dep	so:libz.so.1	zlib

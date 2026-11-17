@@ -1,0 +1,16 @@
+name	guile-gnutls
+version	4.0.1-r0
+description	Guile Scheme bindings for GnuTLS
+url	https://gitlab.com/gnutls/guile
+license	LGPL-2.1-or-later
+size	120792
+installed-size	505057
+depends	guile so:libc.musl-armhf.so.1 so:libgnutls.so.30 so:libguile-3.0.so.1
+origin	guile-gnutls
+repo	community
+file	guile-gnutls-4.0.1-r0.apk
+checksum	Q1litBtxdckN0l1Czf2myhAWv3lxk=
+dep	guile	guile
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgnutls.so.30	gnutls
+dep	so:libguile-3.0.so.1	guile-libs

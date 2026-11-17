@@ -1,0 +1,14 @@
+name	xdelta3
+version	3.1.0-r2
+description	A diff utility which works with binary files
+url	http://xdelta.org/
+license	GPL-2.0-or-later
+size	73328
+installed-size	140800
+depends	so:libc.musl-armhf.so.1 so:liblzma.so.5
+origin	xdelta3
+repo	community
+file	xdelta3-3.1.0-r2.apk
+checksum	Q1xEgNht/GnkzKS9sbnuU82vRSvX4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblzma.so.5	xz-libs

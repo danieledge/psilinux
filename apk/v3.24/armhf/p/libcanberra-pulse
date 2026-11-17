@@ -1,0 +1,16 @@
+name	libcanberra-pulse
+version	0.30-r12
+description	Pulseaudio backend for libcanberra
+url	https://0pointer.de/lennart/projects/libcanberra/
+license	LGPL-2.1-or-later
+size	12260
+installed-size	25828
+depends	libcanberra=0.30-r12 so:libc.musl-armhf.so.1 so:libcanberra.so.0 so:libpulse.so.0
+origin	libcanberra
+repo	community
+file	libcanberra-pulse-0.30-r12.apk
+checksum	Q1XCs4kLFJvBuUb3GwL+TMiRBCYaY=
+dep	libcanberra=0.30-r12	libcanberra
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcanberra.so.0	libcanberra
+dep	so:libpulse.so.0	libpulse

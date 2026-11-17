@@ -1,0 +1,13 @@
+name	linux-tools-spi
+version	7.1.5-r0
+description	Linux kernel SPI tools
+url	https://www.kernel.org/
+license	GPL-2.0-only
+size	9818
+installed-size	22968
+depends	so:libc.musl-armhf.so.1
+origin	linux-tools
+repo	main
+file	linux-tools-spi-7.1.5-r0.apk
+checksum	Q1CH231aWcQu6aeoIhhyRnWS3aOmc=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	libscfg-dev
+version	0.2.0-r0
+description	C library for scfg (development files)
+url	https://codeberg.org/emersion/libscfg
+license	MIT
+size	2139
+installed-size	774
+depends	libscfg=0.2.0-r0 pkgconfig
+origin	libscfg
+repo	community
+file	libscfg-dev-0.2.0-r0.apk
+checksum	Q1+DhUJXySvON6O56U/UmDDOurnAs=
+dep	libscfg=0.2.0-r0	libscfg
+dep	pkgconfig	pkgconf

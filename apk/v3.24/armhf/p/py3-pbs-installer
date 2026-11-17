@@ -1,0 +1,13 @@
+name	py3-pbs-installer
+version	2026.03.24-r1
+description	Installer for python-build-standalone
+url	https://github.com/frostming/pbs-installer
+license	MIT
+size	72580
+installed-size	424206
+depends	python3~3.14
+origin	py3-pbs-installer
+repo	community
+file	py3-pbs-installer-2026.03.24-r1.apk
+checksum	Q1a8Jz+pot1qgGRnB90M5na1ux+go=
+dep	python3~3.14	python3

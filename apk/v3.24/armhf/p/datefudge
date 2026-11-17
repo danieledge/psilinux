@@ -1,0 +1,14 @@
+name	datefudge
+version	1.24-r3
+description	Tool to fake the system date
+url	https://packages.debian.org/sid/datefudge
+license	GPL-2.0-or-later
+size	4578
+installed-size	7391
+depends	coreutils so:libc.musl-armhf.so.1
+origin	datefudge
+repo	main
+file	datefudge-1.24-r3.apk
+checksum	Q1nYyuBLCOkMLj03tzDAl+TBjU3Bo=
+dep	coreutils	coreutils
+dep	so:libc.musl-armhf.so.1	musl

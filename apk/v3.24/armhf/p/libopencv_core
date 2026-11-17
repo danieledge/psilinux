@@ -1,0 +1,19 @@
+name	libopencv_core
+version	4.12.0-r7
+description	Open source computer vision and machine learning library (libopencv_core library)
+url	https://opencv.org/
+license	Apache-2.0
+size	1207454
+installed-size	2849180
+depends	openblas so:libGL.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libtbb.so.12 so:libz.so.1
+origin	opencv
+repo	community
+file	libopencv_core-4.12.0-r7.apk
+checksum	Q1Xd4sCQ/RBPo2v0E91BeiHA/ldfk=
+dep	openblas	openblas
+dep	so:libGL.so.1	mesa-gl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtbb.so.12	onetbb
+dep	so:libz.so.1	zlib

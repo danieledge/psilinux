@@ -1,0 +1,16 @@
+name	pipr
+version	0.0.16-r1
+description	A tool to interactively write shell pipelines
+url	https://github.com/elkowar/pipr
+license	MIT
+size	1024924
+installed-size	1684620
+depends	bubblewrap so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libonig.so.5
+origin	pipr
+repo	community
+file	pipr-0.0.16-r1.apk
+checksum	Q17+76Os+Y5fdxs8Z7acVTSaTRe5Q=
+dep	bubblewrap	bubblewrap
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libonig.so.5	oniguruma

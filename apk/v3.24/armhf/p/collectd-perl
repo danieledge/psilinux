@@ -1,0 +1,14 @@
+name	collectd-perl
+version	5.12.0-r25
+description	perl bindings to collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	29689
+installed-size	77388
+depends	so:libc.musl-armhf.so.1 so:libperl.so
+origin	collectd
+repo	community
+file	collectd-perl-5.12.0-r25.apk
+checksum	Q1gudLxzJbRaIWkUhzMl3FULJatoc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libperl.so	perl

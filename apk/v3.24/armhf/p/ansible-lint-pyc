@@ -1,0 +1,13 @@
+name	ansible-lint-pyc
+version	26.4.0-r0
+description	Precompiled Python bytecode for ansible-lint
+url	https://github.com/ansible/ansible-lint
+license	MIT
+size	346765
+installed-size	840147
+depends	python3~3.14
+origin	ansible-lint
+repo	community
+file	ansible-lint-pyc-26.4.0-r0.apk
+checksum	Q1R9/1922dnVeYM7hvI+W+/kPwxRE=
+dep	python3~3.14	python3

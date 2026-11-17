@@ -1,0 +1,17 @@
+name	clamav-scanner
+version	1.4.6-r0
+description	ClamAV command-line scanner and utils
+url	https://www.clamav.net/
+license	GPL-2.0-only
+size	9263471
+installed-size	21063228
+depends	freshclam so:libc.musl-armhf.so.1 so:libclamav.so.12 so:libgcc_s.so.1 so:libz.so.1
+origin	clamav
+repo	community
+file	clamav-scanner-1.4.6-r0.apk
+checksum	Q1TANh8w5MQ+ZR1kEg+HxvYuHHDkQ=
+dep	freshclam	freshclam
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libclamav.so.12	clamav-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libz.so.1	zlib

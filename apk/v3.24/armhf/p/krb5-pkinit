@@ -1,0 +1,19 @@
+name	krb5-pkinit
+version	1.22.3-r0
+description	The PKINIT module for Kerberos 5
+url	https://web.mit.edu/kerberos/www/
+license	MIT
+size	43739
+installed-size	91824
+depends	krb5-conf so:libc.musl-armhf.so.1 so:libcom_err.so.2 so:libcrypto.so.3 so:libk5crypto.so.3 so:libkrb5.so.3 so:libkrb5support.so.0
+origin	krb5
+repo	main
+file	krb5-pkinit-1.22.3-r0.apk
+checksum	Q1mg1jOOz+CLii3x68Uv0dMp/c+tQ=
+dep	krb5-conf	krb5-conf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcom_err.so.2	libcom_err
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libk5crypto.so.3	krb5-libs
+dep	so:libkrb5.so.3	krb5-libs
+dep	so:libkrb5support.so.0	krb5-libs

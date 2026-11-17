@@ -1,0 +1,22 @@
+name	claws-mail-plugins-pdf-viewer
+version	4.4.0-r0
+description	GTK+ based e-mail client
+url	https://www.claws-mail.org
+license	GPL-3.0-or-later
+size	18486
+installed-size	43270
+depends	claws-mail=4.4.0-r0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libpoppler-glib.so.8
+origin	claws-mail
+repo	community
+file	claws-mail-plugins-pdf-viewer-4.4.0-r0.apk
+checksum	Q1CtI//21idYqb0U2EDmyQRmAttYI=
+dep	claws-mail=4.4.0-r0	claws-mail
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libpoppler-glib.so.8	poppler-glib

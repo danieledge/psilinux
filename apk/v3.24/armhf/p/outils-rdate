@@ -1,0 +1,13 @@
+name	outils-rdate
+version	0.14-r0
+description	rdate tool from outils
+url	https://github.com/leahneukirchen/outils
+license	BSD-3-Clause ISC
+size	16713
+installed-size	29880
+depends	so:libc.musl-armhf.so.1
+origin	outils
+repo	community
+file	outils-rdate-0.14-r0.apk
+checksum	Q1xS8v/tCMEFgHw4pYopLE/s8u+LM=
+dep	so:libc.musl-armhf.so.1	musl

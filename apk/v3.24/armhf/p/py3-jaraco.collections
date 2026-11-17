@@ -1,0 +1,15 @@
+name	py3-jaraco.collections
+version	5.2.1-r1
+description	jaraco - Module for text manipulation
+url	https://github.com/jaraco/jaraco.collections
+license	MIT
+size	12613
+installed-size	32863
+depends	py3-jaraco.classes py3-jaraco.text python3~3.14
+origin	py3-jaraco.collections
+repo	community
+file	py3-jaraco.collections-5.2.1-r1.apk
+checksum	Q1Ds0IQpcUEm+Dpv6aGvnWN7JMJsc=
+dep	py3-jaraco.classes	py3-jaraco.classes
+dep	py3-jaraco.text	py3-jaraco.text
+dep	python3~3.14	python3

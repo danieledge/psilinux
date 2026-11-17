@@ -1,0 +1,25 @@
+name	clang18
+version	18.1.8-r10
+description	C language family front-end for LLVM
+url	https://llvm.org/
+license	Apache-2.0 WITH LLVM-exception
+size	1188868
+installed-size	2550953
+depends	llvm18-linker-tools=18.1.8-r10 clang18-headers=18.1.8-r10 clang18-libs=18.1.8-r10 fortify-headers>=1.1-r2 libgcc-static libstdc++-dev musl-dev clang18-headers=18.1.8-r10 so:libLLVM.so.18.1 so:libc.musl-armhf.so.1 so:libclang-cpp.so.18.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	llvm18
+repo	community
+file	clang18-18.1.8-r10.apk
+checksum	Q1tLMEdG2dZ7R+0+nbZXTHW02J2j0=
+dep	llvm18-linker-tools=18.1.8-r10	llvm18-linker-tools
+dep	clang18-headers=18.1.8-r10	clang18-headers
+dep	clang18-libs=18.1.8-r10	clang18-libs
+dep	fortify-headers>=1.1-r2	fortify-headers
+dep	libgcc-static	libgcc-static
+dep	libstdc++-dev	libstdc++-dev
+dep	musl-dev	musl-dev
+dep	clang18-headers=18.1.8-r10	clang18-headers
+dep	so:libLLVM.so.18.1	llvm18-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libclang-cpp.so.18.1	clang18-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

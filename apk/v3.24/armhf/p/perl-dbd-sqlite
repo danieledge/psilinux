@@ -1,0 +1,16 @@
+name	perl-dbd-sqlite
+version	1.78-r0
+description	Self Contained SQLite RDBMS in a DBI Driver
+url	https://metacpan.org/release/DBD-SQLite/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	112987
+installed-size	357761
+depends	perl perl-dbi so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	perl-dbd-sqlite
+repo	main
+file	perl-dbd-sqlite-1.78-r0.apk
+checksum	Q1D+HDXq62LbeXt76UmDfCqoLBJEw=
+dep	perl	perl
+dep	perl-dbi	perl-dbi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

@@ -1,0 +1,14 @@
+name	rnnoise-dev
+version	0.2-r0
+description	Recurrent neural network for audio noise reduction (development files)
+url	https://jmvalin.ca/demo/rnnoise/
+license	BSD-3-Clause
+size	1216649
+installed-size	1467237
+depends	rnnoise=0.2-r0 pkgconfig
+origin	rnnoise
+repo	community
+file	rnnoise-dev-0.2-r0.apk
+checksum	Q1rQ4qLRjCdgMmdYX6wzwSuAE1ie0=
+dep	rnnoise=0.2-r0	rnnoise
+dep	pkgconfig	pkgconf

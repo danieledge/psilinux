@@ -1,0 +1,16 @@
+name	sane-backend-lexmark
+version	1.4.0-r4
+description	SANE backend for Lexmark X1100/X1200 Series scanners
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	50988
+installed-size	109571
+depends	sane so:libc.musl-armhf.so.1 so:libusb-1.0.so.0 so:libxml2.so.2
+origin	sane
+repo	community
+file	sane-backend-lexmark-1.4.0-r4.apk
+checksum	Q1eJQrV3f62pLfjXQDM5sQi7J8ZQU=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb
+dep	so:libxml2.so.2	libxml2

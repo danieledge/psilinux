@@ -1,0 +1,14 @@
+name	py3-pytelegrambotapi
+version	4.33.0-r0
+description	A simple, but extensible Python implementation for the Telegram Bot API.
+url	https://pypi.org/project/pyTelegramBotAPI/
+license	GPL-2.0-only
+size	297575
+installed-size	2071062
+depends	py3-requests python3~3.14
+origin	py3-pytelegrambotapi
+repo	community
+file	py3-pytelegrambotapi-4.33.0-r0.apk
+checksum	Q1jpLsHmi24OjgMeTALqbVKjsmplU=
+dep	py3-requests	py3-requests
+dep	python3~3.14	python3

@@ -1,0 +1,17 @@
+name	py3-verovio
+version	4.1.0-r2
+description	Music notation engraving for MEI with MusicXML and Humdrum support (python module)
+url	https://www.verovio.org/index.xhtml
+license	LGPL-3.0-only
+size	3493598
+installed-size	9184040
+depends	verovio-data python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	verovio
+repo	community
+file	py3-verovio-4.1.0-r2.apk
+checksum	Q1aUeS6q/gFybpe6oBSNtt4FPwW7E=
+dep	verovio-data	verovio-data
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

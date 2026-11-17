@@ -1,0 +1,18 @@
+name	java-libkml
+version	1.3.0-r13
+description	Java bindings for libkml
+url	https://github.com/libkml/libkml
+license	BSD-3-Clause
+size	273544
+installed-size	652928
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkmlbase.so.1 so:libkmldom.so.1 so:libkmlengine.so.1 so:libstdc++.so.6
+origin	libkml
+repo	community
+file	java-libkml-1.3.0-r13.apk
+checksum	Q1LveCWcd6An2lGFeDgIkUNBpcG6Q=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libkmlbase.so.1	libkml
+dep	so:libkmldom.so.1	libkml
+dep	so:libkmlengine.so.1	libkml
+dep	so:libstdc++.so.6	libstdc++

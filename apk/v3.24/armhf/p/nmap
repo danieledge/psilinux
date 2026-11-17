@@ -1,0 +1,21 @@
+name	nmap
+version	7.99-r0
+description	network exploration tool and security/port scanner
+url	https://nmap.org
+license	custom
+size	2879043
+installed-size	13749881
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:liblua-5.4.so.0 so:libpcap.so.1 so:libssh2.so.1 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1
+origin	nmap
+repo	main
+file	nmap-7.99-r0.apk
+checksum	Q1f/jsNr3IkX9G+Yo49BjOI51HINk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblua-5.4.so.0	lua5.4-libs
+dep	so:libpcap.so.1	libpcap
+dep	so:libssh2.so.1	libssh2
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

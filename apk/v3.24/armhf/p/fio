@@ -1,0 +1,16 @@
+name	fio
+version	3.41-r0
+description	Flexible I/O Tester
+url	https://github.com/axboe/fio
+license	GPL-2.0-only
+size	436409
+installed-size	1626925
+depends	so:libaio.so.1 so:libc.musl-armhf.so.1 so:libnuma.so.1 so:libz.so.1
+origin	fio
+repo	community
+file	fio-3.41-r0.apk
+checksum	Q1pJfqtWfqiuU7L75N7cBZke0gYZA=
+dep	so:libaio.so.1	libaio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnuma.so.1	numactl
+dep	so:libz.so.1	zlib

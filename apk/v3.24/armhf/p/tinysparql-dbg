@@ -1,0 +1,12 @@
+name	tinysparql-dbg
+version	3.11.1-r0
+description	Personal search tool and storage system (debug symbols)
+url	https://tracker.gnome.org/
+license	GPL-2.0-or-later
+size	2173232
+installed-size	5425700
+depends	!libtinysparql<3.11.1-r0 !libtinysparql>3.11.1-r0 !tinysparql<3.11.1-r0 !tinysparql>3.11.1-r0
+origin	tinysparql
+repo	community
+file	tinysparql-dbg-3.11.1-r0.apk
+checksum	Q1jnJVqNEnoOxh17IqtGdpuaZa0Jw=

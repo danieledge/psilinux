@@ -1,0 +1,15 @@
+name	libmustach-json-c-dev
+version	1.2.10-r0
+description	C implementation of the mustache template specification (libmustach-json-c development files)
+url	https://gitlab.com/jobol/mustach
+license	0BSD
+size	2949
+installed-size	6144
+depends	json-c-dev libmustach-json-c=1.2.10-r0 pkgconfig
+origin	mustach
+repo	community
+file	libmustach-json-c-dev-1.2.10-r0.apk
+checksum	Q11v4zQDCcXM/fItMkQmqP4rOuiic=
+dep	json-c-dev	json-c-dev
+dep	libmustach-json-c=1.2.10-r0	libmustach-json-c
+dep	pkgconfig	pkgconf

@@ -1,0 +1,15 @@
+name	fungw-duktape
+version	1.2.2-r3
+description	C function gateway for different programming languages (duktape plugin)
+url	http://www.repo.hu/projects/fungw/
+license	LGPL-2.1-or-later
+size	15498
+installed-size	37844
+depends	fungw=1.2.2-r3 so:libc.musl-armhf.so.1 so:libduktape.so.207
+origin	fungw
+repo	community
+file	fungw-duktape-1.2.2-r3.apk
+checksum	Q1RZxiNiyvMMTpYNB3RudqWpRROcg=
+dep	fungw=1.2.2-r3	fungw
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libduktape.so.207	duktape-libs

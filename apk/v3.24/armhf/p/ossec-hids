@@ -1,0 +1,15 @@
+name	ossec-hids
+version	3.8.0-r1
+description	Open Source Host-based Intrusion Detection System - meta package
+url	https://www.ossec.net/
+license	GPL-2.0-only WITH openssl-exception
+size	2824
+installed-size	5217
+depends	inotify-tools procps ossec-hids-users
+origin	ossec-hids
+repo	community
+file	ossec-hids-3.8.0-r1.apk
+checksum	Q1C/zj9TcqQHyaEkALJKH3qa1poQg=
+dep	inotify-tools	inotify-tools
+dep	procps	procps-ng
+dep	ossec-hids-users	ossec-hids-users

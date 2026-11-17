@@ -1,0 +1,27 @@
+name	x11vnc
+version	0.9.17-r1
+description	VNC server for real X displays
+url	https://github.com/LibVNC/x11vnc
+license	GPL-2.0-or-later
+size	649742
+installed-size	1670277
+depends	so:libX11.so.6 so:libXdamage.so.1 so:libXext.so.6 so:libXfixes.so.3 so:libXi.so.6 so:libXinerama.so.1 so:libXrandr.so.2 so:libXtst.so.6 so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3 so:libvncclient.so.1 so:libvncserver.so.1
+origin	x11vnc
+repo	community
+file	x11vnc-0.9.17-r1.apk
+checksum	Q1pstFocLMzotogyvYt5qEALpQLrw=
+dep	so:libX11.so.6	libx11
+dep	so:libXdamage.so.1	libxdamage
+dep	so:libXext.so.6	libxext
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXi.so.6	libxi
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libXtst.so.6	libxtst
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3
+dep	so:libvncclient.so.1	libvncserver
+dep	so:libvncserver.so.1	libvncserver

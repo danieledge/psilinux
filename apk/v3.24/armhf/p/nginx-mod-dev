@@ -1,0 +1,20 @@
+name	nginx-mod-dev
+version	1.30.6-r0
+description	NGINX module development files
+url	https://www.nginx.org/
+license	BSD-2-Clause
+size	1732428
+installed-size	10304247
+depends	gd-dev geoip-dev libxslt-dev linux-headers openssl-dev pcre2-dev perl-dev zlib-dev
+origin	nginx
+repo	main
+file	nginx-mod-dev-1.30.6-r0.apk
+checksum	Q1ej1kWjeR4Xp3z55taphKfWlscg4=
+dep	gd-dev	gd-dev
+dep	geoip-dev	geoip-dev
+dep	libxslt-dev	libxslt-dev
+dep	linux-headers	linux-headers
+dep	openssl-dev	openssl-dev
+dep	pcre2-dev	pcre2-dev
+dep	perl-dev	perl-dev
+dep	zlib-dev	zlib-dev

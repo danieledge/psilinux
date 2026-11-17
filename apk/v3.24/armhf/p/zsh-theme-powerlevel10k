@@ -1,0 +1,14 @@
+name	zsh-theme-powerlevel10k
+version	1.20.0-r0
+description	Theme for Zsh. It emphasizes speed, flexibility and out-of-the-box experience.
+url	https://github.com/romkatv/powerlevel10k
+license	MIT
+size	510527
+installed-size	1938969
+depends	gitstatus-zsh-plugin zsh
+origin	zsh-theme-powerlevel10k
+repo	community
+file	zsh-theme-powerlevel10k-1.20.0-r0.apk
+checksum	Q1xk9UaMPYBtJm1yvQHF31i62BvKU=
+dep	gitstatus-zsh-plugin	gitstatus-zsh-plugin
+dep	zsh	zsh

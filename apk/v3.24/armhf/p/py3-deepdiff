@@ -1,0 +1,16 @@
+name	py3-deepdiff
+version	9.0.0-r0
+description	Deep Difference and Search of any Python object/data
+url	https://github.com/seperman/deepdiff
+license	MIT
+size	156107
+installed-size	620851
+depends	py3-orderly-set py3-orjson py3-click python3~3.14
+origin	py3-deepdiff
+repo	community
+file	py3-deepdiff-9.0.0-r0.apk
+checksum	Q1+lypSpkTSH3lrJRbS4raO+eiEGY=
+dep	py3-orderly-set	py3-orderly-set
+dep	py3-orjson	py3-orjson
+dep	py3-click	py3-click
+dep	python3~3.14	python3

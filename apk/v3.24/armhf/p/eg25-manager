@@ -1,0 +1,21 @@
+name	eg25-manager
+version	0.5.2-r2
+description	Daemon for managing the Quectel EG25 modem
+url	https://gitlab.com/mobian1/devices/eg25-manager
+license	GPL-3.0-or-later
+size	34641
+installed-size	92797
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgpiod.so.3 so:libgudev-1.0.so.0 so:libmm-glib.so.0 so:libusb-1.0.so.0
+origin	eg25-manager
+repo	community
+file	eg25-manager-0.5.2-r2.apk
+checksum	Q1UqHTk924oiHSbb+/UAlPK6HODkg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgpiod.so.3	libgpiod
+dep	so:libgudev-1.0.so.0	libgudev
+dep	so:libmm-glib.so.0	libmm-glib
+dep	so:libusb-1.0.so.0	libusb

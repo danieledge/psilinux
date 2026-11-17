@@ -1,0 +1,14 @@
+name	libpcap-dev
+version	1.10.7-r0
+description	Portable library for network traffic capture (development files)
+url	https://www.tcpdump.org/
+license	BSD-3-Clause
+size	184184
+installed-size	492748
+depends	libpcap=1.10.7-r0 pkgconfig
+origin	libpcap
+repo	main
+file	libpcap-dev-1.10.7-r0.apk
+checksum	Q1125l75zJV84S3M3yH9R81z72kDc=
+dep	libpcap=1.10.7-r0	libpcap
+dep	pkgconfig	pkgconf

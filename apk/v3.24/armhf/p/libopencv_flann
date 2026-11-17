@@ -1,0 +1,16 @@
+name	libopencv_flann
+version	4.12.0-r7
+description	Open source computer vision and machine learning library (libopencv_flann library)
+url	https://opencv.org/
+license	Apache-2.0
+size	168899
+installed-size	353724
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libopencv_core.so.412 so:libstdc++.so.6
+origin	opencv
+repo	community
+file	libopencv_flann-4.12.0-r7.apk
+checksum	Q1KgQRjdigb03cVqS00BBkz/2joXs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libopencv_core.so.412	libopencv_core
+dep	so:libstdc++.so.6	libstdc++

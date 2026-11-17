@@ -1,0 +1,14 @@
+name	java-sigar-native
+version	1.6.4-r1
+description	System Information Gatherer And Reporter (native library)
+url	https://github.com/hyperic/sigar/
+license	Apache-2.0
+size	75890
+installed-size	183000
+depends	so:libc.musl-armhf.so.1 so:libtirpc.so.3
+origin	java-sigar
+repo	community
+file	java-sigar-native-1.6.4-r1.apk
+checksum	Q1PQXCwh5t+PdrYuQF9YpL2+sJKSg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libtirpc.so.3	libtirpc

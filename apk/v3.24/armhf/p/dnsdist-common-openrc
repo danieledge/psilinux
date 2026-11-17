@@ -1,0 +1,13 @@
+name	dnsdist-common-openrc
+version	2.0.8-r0
+description	dnsdist is a highly DNS-, DoS-, and abuse-aware loadbalancer.
+url	https://dnsdist.org/
+license	GPL-2.0-only WITH OpenSSL-Exception
+size	1937
+installed-size	758
+depends	dnsdist-common
+origin	dnsdist
+repo	community
+file	dnsdist-common-openrc-2.0.8-r0.apk
+checksum	Q1xNX9HjGc8BFhYdeh5xituVaqaUg=
+dep	dnsdist-common	dnsdist-common

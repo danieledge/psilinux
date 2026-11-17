@@ -1,0 +1,14 @@
+name	raspberrypi-utils-otpset
+version	0.20260811-r0
+description	A short script to help with reading and setting the customer OTP bits.
+url	https://github.com/raspberrypi/utils
+license	BSD-3-Clause
+size	3820
+installed-size	5934
+depends	python3 raspberrypi-utils-vcmailbox=0.20260811-r0
+origin	raspberrypi-utils
+repo	community
+file	raspberrypi-utils-otpset-0.20260811-r0.apk
+checksum	Q1YroDTi2uUwbeahxN9s9ppiFV7Uc=
+dep	python3	python3
+dep	raspberrypi-utils-vcmailbox=0.20260811-r0	raspberrypi-utils-vcmailbox

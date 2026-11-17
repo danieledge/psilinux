@@ -1,0 +1,14 @@
+name	font-noto-kaithi
+version	2026.11.01-r0
+description	Noto Sans Kaithi font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	32990
+installed-size	69913
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-kaithi-2026.11.01-r0.apk
+checksum	Q1ywtfdkTi3oIwHMYeQ7JDYIerG3Q=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

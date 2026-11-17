@@ -1,0 +1,16 @@
+name	perl-anyevent-http
+version	2.25-r5
+description	Simple but non-blocking HTTP/HTTPS client
+url	https://metacpan.org/release/AnyEvent-HTTP/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	19108
+installed-size	51915
+depends	perl perl-anyevent perl-common-sense perl-uri
+origin	perl-anyevent-http
+repo	community
+file	perl-anyevent-http-2.25-r5.apk
+checksum	Q1521UkB4VWtJDB7fy3cgdTwcqz2E=
+dep	perl	perl
+dep	perl-anyevent	perl-anyevent
+dep	perl-common-sense	perl-common-sense
+dep	perl-uri	perl-uri

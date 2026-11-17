@@ -1,0 +1,13 @@
+name	cs-firewall-bouncer-awall
+version	0.0.34-r11
+description	crowdsec bouncer awall policy
+url	https://github.com/crowdsecurity/cs-firewall-bouncer
+license	MIT
+size	1832
+installed-size	608
+depends	cs-firewall-bouncer
+origin	cs-firewall-bouncer
+repo	community
+file	cs-firewall-bouncer-awall-0.0.34-r11.apk
+checksum	Q1bxjkRrebLjOWwGouQFLuEggYnA4=
+dep	cs-firewall-bouncer	cs-firewall-bouncer

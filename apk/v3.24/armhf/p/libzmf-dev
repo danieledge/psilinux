@@ -1,0 +1,19 @@
+name	libzmf-dev
+version	0.0.2-r22
+description	Import filter and tools for Zoner Callisto/Draw documents (development files)
+url	https://wiki.documentfoundation.org/DLP/Libraries/libzmf
+license	MPL-2.0
+size	3153
+installed-size	2851
+depends	boost-dev icu-dev libpng-dev zlib-dev libzmf=0.0.2-r22 pc:librevenge-0.0 pkgconfig
+origin	libzmf
+repo	community
+file	libzmf-dev-0.0.2-r22.apk
+checksum	Q1OnKD6DOgdgrOHQPmNRPNf+ISxHc=
+dep	boost-dev	boost-dev
+dep	icu-dev	icu-dev
+dep	libpng-dev	libpng-dev
+dep	zlib-dev	zlib-dev
+dep	libzmf=0.0.2-r22	libzmf
+dep	pc:librevenge-0.0	librevenge-dev
+dep	pkgconfig	pkgconf

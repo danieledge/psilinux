@@ -1,0 +1,15 @@
+name	minizip-ng-dev
+version	4.0.10-r0
+description	zlib-ng fork of minizip (development files)
+url	https://github.com/zlib-ng/minizip-ng
+license	Zlib
+size	19275
+installed-size	90946
+depends	minizip-ng=4.0.10-r0 pc:zlib-ng pkgconfig
+origin	minizip-ng
+repo	community
+file	minizip-ng-dev-4.0.10-r0.apk
+checksum	Q11bUCYwcc5QKeU5gxW6SDxK6Ra9Q=
+dep	minizip-ng=4.0.10-r0	minizip-ng
+dep	pc:zlib-ng	zlib-ng-dev
+dep	pkgconfig	pkgconf

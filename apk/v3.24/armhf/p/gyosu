@@ -1,0 +1,13 @@
+name	gyosu
+version	0.2.2-r2
+description	simple C documentation generator
+url	https://codeberg.org/emersion/gyosu
+license	AGPL-3.0-only
+size	1964830
+installed-size	5087852
+depends	so:libc.musl-armhf.so.1
+origin	gyosu
+repo	community
+file	gyosu-0.2.2-r2.apk
+checksum	Q16zDken6w55rjCqrv8i/aEpmM36U=
+dep	so:libc.musl-armhf.so.1	musl

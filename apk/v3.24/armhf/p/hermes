@@ -1,0 +1,19 @@
+name	hermes
+version	1.9-r10
+description	Hermes is an anti-spam transparent SMTP proxy
+url	https://hermes-project.com/
+license	GPL-2.0-only
+size	57098
+installed-size	124384
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libspf2.so.2 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6
+origin	hermes
+repo	community
+file	hermes-1.9-r10.apk
+checksum	Q1YKBsJ8I+ifYe0oCurTRY7JF1z7g=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libspf2.so.2	libspf2
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++

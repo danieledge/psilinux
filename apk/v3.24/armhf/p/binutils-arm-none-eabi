@@ -1,0 +1,14 @@
+name	binutils-arm-none-eabi
+version	2.45.1-r0
+description	Tools necessary to build programs for arm-none-eabi
+url	https://www.gnu.org/software/binutils/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-3-Clause
+size	6166766
+installed-size	14110437
+depends	so:libc.musl-armhf.so.1 so:libzstd.so.1
+origin	binutils-cross-embedded
+repo	community
+file	binutils-arm-none-eabi-2.45.1-r0.apk
+checksum	Q1mcTHpSav6EmH6LHoha0YcsLl+Xk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libzstd.so.1	zstd-libs

@@ -1,0 +1,24 @@
+name	opencv
+version	4.12.0-r7
+description	Open source computer vision and machine learning library
+url	https://opencv.org/
+license	Apache-2.0
+size	1624021
+installed-size	10310218
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libopencv_calib3d.so.412 so:libopencv_core.so.412 so:libopencv_dnn.so.412 so:libopencv_features2d.so.412 so:libopencv_highgui.so.412 so:libopencv_imgcodecs.so.412 so:libopencv_imgproc.so.412 so:libopencv_objdetect.so.412 so:libopencv_videoio.so.412 so:libstdc++.so.6
+origin	opencv
+repo	community
+file	opencv-4.12.0-r7.apk
+checksum	Q1gjbe4v/a07VEZVvccO4m7VzKPqY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libopencv_calib3d.so.412	libopencv_calib3d
+dep	so:libopencv_core.so.412	libopencv_core
+dep	so:libopencv_dnn.so.412	libopencv_dnn
+dep	so:libopencv_features2d.so.412	libopencv_features2d
+dep	so:libopencv_highgui.so.412	libopencv_highgui
+dep	so:libopencv_imgcodecs.so.412	libopencv_imgcodecs
+dep	so:libopencv_imgproc.so.412	libopencv_imgproc
+dep	so:libopencv_objdetect.so.412	libopencv_objdetect
+dep	so:libopencv_videoio.so.412	libopencv_videoio
+dep	so:libstdc++.so.6	libstdc++

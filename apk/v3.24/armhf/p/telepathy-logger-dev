@@ -1,0 +1,16 @@
+name	telepathy-logger-dev
+version	0.8.2-r7
+description	Telepathy framework logging daemon (development files)
+url	https://telepathy.freedesktop.org/components/telepathy-logger/
+license	LGPL-2.1-or-later
+size	14287
+installed-size	106402
+depends	telepathy-logger=0.8.2-r7 pc:libxml-2.0 pc:telepathy-glib pkgconfig
+origin	telepathy-logger
+repo	community
+file	telepathy-logger-dev-0.8.2-r7.apk
+checksum	Q1rYyKrHodVe3Nz4LLxsqMHoKukH8=
+dep	telepathy-logger=0.8.2-r7	telepathy-logger
+dep	pc:libxml-2.0	libxml2-dev
+dep	pc:telepathy-glib	telepathy-glib-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,23 @@
+name	ddcutil
+version	2.2.7-r1
+description	Query and change Linux monitor settings using DDC/CI and USB
+url	https://github.com/rockowitz/ddcutil
+license	GPL-2.0-only
+size	1054237
+installed-size	2376493
+depends	so:libX11.so.6 so:libXext.so.6 so:libXrandr.so.2 so:libacl.so.1 so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libdrm.so.2 so:libglib-2.0.so.0 so:libjansson.so.4 so:libudev.so.1 so:libusb-1.0.so.0
+origin	ddcutil
+repo	community
+file	ddcutil-2.2.7-r1.apk
+checksum	Q1OYLQqD6Ulwe7isKm/XXpau649+w=
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libacl.so.1	acl-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libdrm.so.2	libdrm
+dep	so:libglib-2.0.so.0	glib
+dep	so:libjansson.so.4	jansson
+dep	so:libudev.so.1	eudev-libs
+dep	so:libusb-1.0.so.0	libusb

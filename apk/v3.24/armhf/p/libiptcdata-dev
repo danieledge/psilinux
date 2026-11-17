@@ -1,0 +1,14 @@
+name	libiptcdata-dev
+version	1.0.5-r1
+description	libiptcdata is a C library for manipulating IPTC metadata within multimedia (development files)
+url	https://github.com/ianw/libiptcdata
+license	LGPL-2.0-or-later
+size	6558
+installed-size	19437
+depends	libiptcdata=1.0.5-r1 pkgconfig
+origin	libiptcdata
+repo	community
+file	libiptcdata-dev-1.0.5-r1.apk
+checksum	Q1L/hJAdxEv1TLkKN5a6Q8fMuqhJc=
+dep	libiptcdata=1.0.5-r1	libiptcdata
+dep	pkgconfig	pkgconf

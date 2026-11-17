@@ -1,0 +1,13 @@
+name	qhull
+version	2020.2-r3
+description	Calculate convex hulls and related structures
+url	https://www.qhull.org/
+license	custom
+size	1159499
+installed-size	2550572
+depends	so:libc.musl-armhf.so.1
+origin	qhull
+repo	community
+file	qhull-2020.2-r3.apk
+checksum	Q11JPwC149YgTQnkAFrOGptY4DVQ0=
+dep	so:libc.musl-armhf.so.1	musl

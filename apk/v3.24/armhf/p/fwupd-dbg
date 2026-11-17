@@ -1,0 +1,12 @@
+name	fwupd-dbg
+version	2.0.20-r4
+description	Firmware update daemon (debug symbols)
+url	https://fwupd.org/
+license	LGPL-2.1-or-later
+size	9472139
+installed-size	24795336
+depends	!fwupd-tests<2.0.20-r4 !fwupd-tests>2.0.20-r4 !fwupd<2.0.20-r4 !fwupd>2.0.20-r4
+origin	fwupd
+repo	community
+file	fwupd-dbg-2.0.20-r4.apk
+checksum	Q1i7jPKEGCsuOmIEYRRHVW7ocXJk8=

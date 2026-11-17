@@ -1,0 +1,14 @@
+name	ticcutils-dev
+version	0.36-r2
+description	Common library with shared functions for Frog, ucto, libfolia, timbl (development files)
+url	https://github.com/LanguageMachines/ticcutils
+license	GPL-3.0-only
+size	2249174
+installed-size	8040289
+depends	ticcutils=0.36-r2 pkgconfig
+origin	ticcutils
+repo	community
+file	ticcutils-dev-0.36-r2.apk
+checksum	Q1BcB5IWMGBRXhtDDzad1+LdApu6I=
+dep	ticcutils=0.36-r2	ticcutils
+dep	pkgconfig	pkgconf

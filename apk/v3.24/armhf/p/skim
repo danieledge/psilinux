@@ -1,0 +1,15 @@
+name	skim
+version	0.20.5-r0
+description	Fuzzy finder written in Rust
+url	https://github.com/lotabout/skim
+license	MIT
+size	1122113
+installed-size	2442196
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	skim
+repo	community
+file	skim-0.20.5-r0.apk
+checksum	Q1X2532H+JJBkHncBk2P1WQWecUxs=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

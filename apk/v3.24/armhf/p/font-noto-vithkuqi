@@ -1,0 +1,14 @@
+name	font-noto-vithkuqi
+version	2026.11.01-r0
+description	Noto Serif and Sans Vithkuqi fonts
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	76171
+installed-size	149969
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-vithkuqi-2026.11.01-r0.apk
+checksum	Q1I/fkyeoWWdsEirYQ2OF6IbG/ImM=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

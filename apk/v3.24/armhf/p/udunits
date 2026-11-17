@@ -1,0 +1,14 @@
+name	udunits
+version	2.2.28-r0
+description	Library for handling of units of physical quantities
+url	https://www.unidata.ucar.edu/software/udunits/
+license	UCAR
+size	64565
+installed-size	216911
+depends	so:libc.musl-armhf.so.1 so:libexpat.so.1
+origin	udunits
+repo	community
+file	udunits-2.2.28-r0.apk
+checksum	Q1yxiFxiFbdYK+FDTkQy27m+CwdcE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexpat.so.1	libexpat

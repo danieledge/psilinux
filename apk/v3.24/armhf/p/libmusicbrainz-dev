@@ -1,0 +1,16 @@
+name	libmusicbrainz-dev
+version	5.1.0-r3
+description	MusicBrainz Client Library (development files)
+url	https://musicbrainz.org/doc/libmusicbrainz
+license	LGPL-2.1-or-later
+size	29865
+installed-size	244365
+depends	libmusicbrainz=5.1.0-r3 pc:libxml-2.0 pc:neon>=0.25 pkgconfig
+origin	libmusicbrainz
+repo	community
+file	libmusicbrainz-dev-5.1.0-r3.apk
+checksum	Q1839BiMX7BCUQSIJoh3xK+nY674A=
+dep	libmusicbrainz=5.1.0-r3	libmusicbrainz
+dep	pc:libxml-2.0	libxml2-dev
+dep	pc:neon>=0.25	neon-dev
+dep	pkgconfig	pkgconf

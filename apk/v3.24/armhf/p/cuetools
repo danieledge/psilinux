@@ -1,0 +1,13 @@
+name	cuetools
+version	1.4.1-r3
+description	cuetools is a set of utilities for working with cue files and toc files
+url	https://github.com/svend/cuetools
+license	GPL-2.0-only
+size	77840
+installed-size	184356
+depends	so:libc.musl-armhf.so.1
+origin	cuetools
+repo	community
+file	cuetools-1.4.1-r3.apk
+checksum	Q1vheETdakD7ruQ54I0vzY5RYWVss=
+dep	so:libc.musl-armhf.so.1	musl

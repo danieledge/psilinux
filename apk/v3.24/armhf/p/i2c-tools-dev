@@ -1,0 +1,13 @@
+name	i2c-tools-dev
+version	4.4-r3
+description	Tools for monitoring I2C devices (development files)
+url	https://i2c.wiki.kernel.org/index.php/I2C_Tools
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	4220
+installed-size	7066
+depends	i2c-tools=4.4-r3
+origin	i2c-tools
+repo	community
+file	i2c-tools-dev-4.4-r3.apk
+checksum	Q1NMeqoqctCiXQBs81Y0VSQmOtGMY=
+dep	i2c-tools=4.4-r3	i2c-tools

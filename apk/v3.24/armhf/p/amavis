@@ -1,0 +1,35 @@
+name	amavis
+version	2.14.0-r0
+description	High-performance interface between mailer (MTA) and content checkers
+url	https://gitlab.com/amavis/amavis
+license	GPL-2.0-or-later BSD-2-Clause-Views
+size	465850
+installed-size	1647656
+depends	sed file perl perl-archive-zip perl-carp perl-convert-tnef perl-compress-raw-zlib perl-convert-uulib perl-digest-md5 perl-io perl-io-stringy perl-mime-tools perl-mailtools perl-socket perl-net-libidn perl-net-server perl-time-hires perl-unix-syslog perl-mail-dkim perl-io-socket-inet6 perl-io-socket-ssl perl-mail-spamassassin /bin/sh
+origin	amavis
+repo	main
+file	amavis-2.14.0-r0.apk
+checksum	Q1ICnQInLPxzT3SBticoE6BENSUig=
+dep	sed	sed
+dep	file	file
+dep	perl	perl
+dep	perl-archive-zip	perl-archive-zip
+dep	perl-carp	perl-carp
+dep	perl-convert-tnef	perl-convert-tnef
+dep	perl-compress-raw-zlib	perl-compress-raw-zlib
+dep	perl-convert-uulib	perl-convert-uulib
+dep	perl-digest-md5	perl-digest-md5
+dep	perl-io	perl-io
+dep	perl-io-stringy	perl-io-stringy
+dep	perl-mime-tools	perl-mime-tools
+dep	perl-mailtools	perl-mailtools
+dep	perl-socket	perl-socket
+dep	perl-net-libidn	perl-net-libidn
+dep	perl-net-server	perl-net-server
+dep	perl-time-hires	perl-time-hires
+dep	perl-unix-syslog	perl-unix-syslog
+dep	perl-mail-dkim	perl-mail-dkim
+dep	perl-io-socket-inet6	perl-io-socket-inet6
+dep	perl-io-socket-ssl	perl-io-socket-ssl
+dep	perl-mail-spamassassin	perl-mail-spamassassin
+dep	/bin/sh	busybox-binsh

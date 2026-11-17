@@ -1,0 +1,13 @@
+name	zfs-src
+version	2.4.4-r0
+description	ZFS for Linux (sources, AKMS)
+url	https://zfsonlinux.org
+license	CDDL-1.0
+size	34651149
+installed-size	62387691
+depends	akms
+origin	zfs-src
+repo	community
+file	zfs-src-2.4.4-r0.apk
+checksum	Q1G1aDC5HuSD2sqLQYzx3Ds0/GqSs=
+dep	akms	akms

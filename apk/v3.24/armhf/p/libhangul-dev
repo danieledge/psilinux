@@ -1,0 +1,14 @@
+name	libhangul-dev
+version	0.2.0-r0
+description	Library for Korean input method logic (development files)
+url	https://github.com/libhangul/libhangul
+license	LGPL-2.1-or-later
+size	26246
+installed-size	67926
+depends	libhangul=0.2.0-r0 pkgconfig
+origin	libhangul
+repo	community
+file	libhangul-dev-0.2.0-r0.apk
+checksum	Q1dHOOwMinkrhhv0JPn65pIjseuks=
+dep	libhangul=0.2.0-r0	libhangul
+dep	pkgconfig	pkgconf

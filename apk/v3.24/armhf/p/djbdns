@@ -1,0 +1,13 @@
+name	djbdns
+version	1.05-r55
+description	Excellent high-performance DNS services
+url	https://cr.yp.to/djbdns.html
+license	Public-Domain
+size	146962
+installed-size	456076
+depends	so:libc.musl-armhf.so.1
+origin	djbdns
+repo	main
+file	djbdns-1.05-r55.apk
+checksum	Q1ucE4sSiatsOA9cE/J1QuaUgQ1Ec=
+dep	so:libc.musl-armhf.so.1	musl

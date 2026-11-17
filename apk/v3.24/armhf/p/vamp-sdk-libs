@@ -1,0 +1,14 @@
+name	vamp-sdk-libs
+version	2.10.0-r3
+description	Framework for audio analysis and feature extraction (libraries)
+url	https://vamp-plugins.org/develop.html
+license	BSD-3-Clause
+size	82982
+installed-size	191016
+depends	so:libc.musl-armhf.so.1 so:libstdc++.so.6
+origin	vamp-sdk
+repo	community
+file	vamp-sdk-libs-2.10.0-r3.apk
+checksum	Q10hAq6+2gSEHUHxmXE3r4DGWaqts=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,15 @@
+name	py3-num2words
+version	0.5.14-r1
+description	Modules to convert numbers to words
+url	https://github.com/savoirfairelinux/num2words
+license	LGPL-2.1-or-later
+size	117681
+installed-size	545432
+depends	py3-delegator py3-docopt python3~3.14
+origin	py3-num2words
+repo	community
+file	py3-num2words-0.5.14-r1.apk
+checksum	Q1i70ax2XzP94XEZn1k87r0q0x/pE=
+dep	py3-delegator	py3-delegator
+dep	py3-docopt	py3-docopt
+dep	python3~3.14	python3

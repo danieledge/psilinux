@@ -1,0 +1,14 @@
+name	bottom
+version	0.12.3-r0
+description	Graphical process/system monitor with a customizable interface
+url	https://github.com/ClementTsang/bottom
+license	MIT
+size	1395132
+installed-size	3038964
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	bottom
+repo	community
+file	bottom-0.12.3-r0.apk
+checksum	Q1T05aZva30JU4ZJGraHa+aZSVNjI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

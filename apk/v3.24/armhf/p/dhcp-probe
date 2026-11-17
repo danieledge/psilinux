@@ -1,0 +1,15 @@
+name	dhcp-probe
+version	1.3.1-r3
+description	Allows network administrators to make calculations that will assist in subnetting a network
+url	https://www.net.princeton.edu/software/dhcp_probe/
+license	GPL
+size	26484
+installed-size	69959
+depends	so:libc.musl-armhf.so.1 so:libnet.so.9 so:libpcap.so.1
+origin	dhcp-probe
+repo	community
+file	dhcp-probe-1.3.1-r3.apk
+checksum	Q1Fa1OqQn4e5gkCh+OT5DopumaGOk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnet.so.9	libnet
+dep	so:libpcap.so.1	libpcap

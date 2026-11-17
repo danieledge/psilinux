@@ -1,0 +1,27 @@
+name	nwg-menu
+version	0.1.9-r11
+description	MenuStart for sway and other wlroots-based compositors
+url	https://github.com/nwg-piotr/nwg-menu
+license	MIT
+size	1725315
+installed-size	5198416
+depends	xdg-utils so:libc.musl-armhf.so.1 so:libcairo-gobject.so.2 so:libcairo.so.2 so:libfontconfig.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgtk-layer-shell.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0
+origin	nwg-menu
+repo	community
+file	nwg-menu-0.1.9-r11.apk
+checksum	Q1J+VBWkzoeuL+FaSSF9QYkIiq90c=
+dep	xdg-utils	xdg-utils
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo-gobject.so.2	cairo-gobject
+dep	so:libcairo.so.2	cairo
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtk-layer-shell.so.0	gtk-layer-shell
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango

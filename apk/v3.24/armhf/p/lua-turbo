@@ -1,0 +1,19 @@
+name	lua-turbo
+version	2.1.3-r10
+description	framework built for LuaJIT 2 and Linux
+url	https://github.com/kernelsauce/turbo
+license	Apache-2.0
+size	123055
+installed-size	510345
+depends	luajit lua5.1-cjson lua5.1-sec ca-certificates so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	lua-turbo
+repo	community
+file	lua-turbo-2.1.3-r10.apk
+checksum	Q1dR9vhD/LUfrLlOidqEmIezDtcgE=
+dep	luajit	luajit
+dep	lua5.1-cjson	lua5.1-cjson
+dep	lua5.1-sec	lua5.1-sec
+dep	ca-certificates	ca-certificates
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

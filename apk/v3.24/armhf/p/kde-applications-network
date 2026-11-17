@@ -1,0 +1,15 @@
+name	kde-applications-network
+version	26.04.2-r0
+description	KDE Applications meta package
+url	https://kde.org/applications/
+license	GPL-3.0-or-later
+size	1276
+installed-size	0
+depends	kget kio-zeroconf kio-extras
+origin	kde-applications
+repo	community
+file	kde-applications-network-26.04.2-r0.apk
+checksum	Q11w15WmkYPmVPzu9+uyANp56w8Z4=
+dep	kget	!
+dep	kio-zeroconf	!
+dep	kio-extras	!

@@ -1,0 +1,17 @@
+name	chawan
+version	0.4.4-r0
+description	TUI web browser
+url	https://git.sr.ht/~bptato/chawan
+license	Unlicense
+size	3525792
+installed-size	5958432
+depends	so:libbrotlidec.so.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssh2.so.1 so:libssl.so.3
+origin	chawan
+repo	community
+file	chawan-0.4.4-r0.apk
+checksum	Q1i4iDvGXV1ADokHcDeyb6qC8KxuQ=
+dep	so:libbrotlidec.so.1	brotli-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssh2.so.1	libssh2
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,18 @@
+name	ocaml-ethernet-dev
+version	3.0.0-r6
+description	OCaml Ethernet (IEEE 802.3) layer, used in MirageOS (development files)
+url	https://github.com/mirage/ethernet
+license	ISC
+size	84386
+installed-size	208282
+depends	ocaml-ethernet=3.0.0-r6 ocaml-cstruct-dev ocaml-logs-dev ocaml-ipaddr-dev ocaml-mirage-net-dev ocaml-mirage-profile-dev
+origin	ocaml-ethernet
+repo	community
+file	ocaml-ethernet-dev-3.0.0-r6.apk
+checksum	Q1Gjbk206knG6rXeyIdmIzpI41Eu8=
+dep	ocaml-ethernet=3.0.0-r6	ocaml-ethernet
+dep	ocaml-cstruct-dev	ocaml-cstruct-dev
+dep	ocaml-logs-dev	ocaml-logs-dev
+dep	ocaml-ipaddr-dev	ocaml-ipaddr-dev
+dep	ocaml-mirage-net-dev	ocaml-mirage-net-dev
+dep	ocaml-mirage-profile-dev	ocaml-mirage-profile-dev

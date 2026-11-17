@@ -1,0 +1,16 @@
+name	py3-pecan
+version	1.8.0-r1
+description	WSGI object-dispatching web framework, designed to be lean and fast, with few dependencies
+url	https://github.com/pecan/pecan
+license	BSD-3-Clause
+size	82309
+installed-size	204976
+depends	py3-mako py3-setuptools py3-webob python3~3.14
+origin	py3-pecan
+repo	community
+file	py3-pecan-1.8.0-r1.apk
+checksum	Q1aCE3zedojPwB1WuD/b4qWpVMCY0=
+dep	py3-mako	py3-mako
+dep	py3-setuptools	py3-setuptools
+dep	py3-webob	py3-webob
+dep	python3~3.14	python3

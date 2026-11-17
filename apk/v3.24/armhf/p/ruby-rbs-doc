@@ -1,0 +1,14 @@
+name	ruby-rbs-doc
+version	3.8.1-r0
+description	Type Signature for Ruby (ri docs)
+url	https://github.com/ruby/rbs
+license	BSD-2-Clause AND Ruby
+size	1560
+installed-size	1
+depends	ruby ruby-bundler
+origin	ruby-rbs
+repo	main
+file	ruby-rbs-doc-3.8.1-r0.apk
+checksum	Q1ur30biwdQfL2DUbHatqRkQBQ638=
+dep	ruby	ruby
+dep	ruby-bundler	ruby-bundler

@@ -1,0 +1,17 @@
+name	suggpicker
+version	0.1.4-r0
+description	Floating on-screen picker to complement your wayland virtual keyboard
+url	https://sr.ht/~earboxer/suggpicker
+license	GPL-3.0-only
+size	12035
+installed-size	30104
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libwayland-client.so.0
+origin	suggpicker
+repo	community
+file	suggpicker-0.1.4-r0.apk
+checksum	Q1kPBxqH8DATmogEfsq21TQ7v2Plg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libwayland-client.so.0	wayland-libs-client

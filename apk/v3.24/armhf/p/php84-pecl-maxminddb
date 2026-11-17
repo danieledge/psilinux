@@ -1,0 +1,15 @@
+name	php84-pecl-maxminddb
+version	1.13.0-r0
+description	PHP 8.4 MaxMind DB Reader extension - PECL
+url	https://pecl.php.net/package/maxminddb
+license	Apache-2.0
+size	8402
+installed-size	17916
+depends	php84-bcmath so:libc.musl-armhf.so.1 so:libmaxminddb.so.0
+origin	php84-pecl-maxminddb
+repo	community
+file	php84-pecl-maxminddb-1.13.0-r0.apk
+checksum	Q11EBARIbM/fcHqeeN8212Z5P5C5c=
+dep	php84-bcmath	php84-bcmath
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmaxminddb.so.0	libmaxminddb-libs

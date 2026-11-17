@@ -1,0 +1,13 @@
+name	udftools
+version	2.3-r2
+description	Tools for UDF filesystems and DVD/CD-R(W) drives
+url	https://github.com/pali/udftools/
+license	GPL-2.0-or-later
+size	165755
+installed-size	358219
+depends	so:libc.musl-armhf.so.1
+origin	udftools
+repo	community
+file	udftools-2.3-r2.apk
+checksum	Q1GatQFbWn0XvUFQ3IZBmZIGebGJc=
+dep	so:libc.musl-armhf.so.1	musl

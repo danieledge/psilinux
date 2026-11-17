@@ -1,0 +1,14 @@
+name	libcypher-parser-dev
+version	0.6.2-r1
+description	Parsing library for the Cypher query language (development files)
+url	https://github.com/cleishm/libcypher-parser
+license	Apache-2.0
+size	175485
+installed-size	886014
+depends	libcypher-parser=0.6.2-r1 pkgconfig
+origin	libcypher-parser
+repo	community
+file	libcypher-parser-dev-0.6.2-r1.apk
+checksum	Q1AVcO3iPKw9oiEpaf09mTazhbAOU=
+dep	libcypher-parser=0.6.2-r1	libcypher-parser
+dep	pkgconfig	pkgconf

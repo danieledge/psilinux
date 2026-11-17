@@ -1,0 +1,15 @@
+name	py3-psycopg2
+version	2.9.12-r0
+description	PostgreSQL adapter for python
+url	http://initd.org/psycopg
+license	LGPL-2.0-or-later
+size	134322
+installed-size	377701
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	py3-psycopg2
+repo	community
+file	py3-psycopg2-2.9.12-r0.apk
+checksum	Q1lYv5+9zMX1v2pNm4/gi7tAjvTWg=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

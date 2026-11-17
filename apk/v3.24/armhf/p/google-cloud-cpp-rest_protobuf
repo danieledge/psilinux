@@ -1,0 +1,20 @@
+name	google-cloud-cpp-rest_protobuf
+version	2.47.0-r0
+description	C++ Client Libraries for Google Cloud Services (rest_protobuf)
+url	https://cloud.google.com/sdk
+license	Apache-2.0
+size	52205
+installed-size	185728
+depends	so:libabsl_status.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgoogle_cloud_cpp_common.so.2 so:libgoogle_cloud_cpp_longrunning_operations_protos.so.2 so:libgoogle_cloud_cpp_rest_internal.so.2 so:libprotobuf.so.31 so:libstdc++.so.6
+origin	google-cloud-cpp
+repo	community
+file	google-cloud-cpp-rest_protobuf-2.47.0-r0.apk
+checksum	Q1Ct8aqxOL1WJMlVJTZdjq6vaZG5w=
+dep	so:libabsl_status.so.2508.0.0	abseil-cpp-status
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgoogle_cloud_cpp_common.so.2	google-cloud-cpp
+dep	so:libgoogle_cloud_cpp_longrunning_operations_protos.so.2	google-cloud-cpp-longrunning-operations-protos
+dep	so:libgoogle_cloud_cpp_rest_internal.so.2	google-cloud-cpp-rest_internal
+dep	so:libprotobuf.so.31	libprotobuf
+dep	so:libstdc++.so.6	libstdc++

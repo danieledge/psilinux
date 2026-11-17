@@ -1,0 +1,17 @@
+name	pcsc-lite-dev
+version	2.4.0-r4
+description	Middleware to access a smart card using SCard API (PC/SC) (development files)
+url	https://pcsclite.apdu.fr/
+license	BSD-3-Clause AND BSD-2-Clause AND ISC
+size	20405
+installed-size	74826
+depends	pcsc-lite-libs=2.4.0-r4 eudev-dev pcsc-lite-libs=2.4.0-r4 pcsc-lite-spy-libs=2.4.0-r4 pkgconfig
+origin	pcsc-lite
+repo	main
+file	pcsc-lite-dev-2.4.0-r4.apk
+checksum	Q12qkeYTKaEvf2zzgV8+YiUbE1XYE=
+dep	pcsc-lite-libs=2.4.0-r4	pcsc-lite-libs
+dep	eudev-dev	eudev-dev
+dep	pcsc-lite-libs=2.4.0-r4	pcsc-lite-libs
+dep	pcsc-lite-spy-libs=2.4.0-r4	pcsc-lite-spy-libs
+dep	pkgconfig	pkgconf

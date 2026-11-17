@@ -1,0 +1,13 @@
+name	libmaxminddb-static
+version	1.13.3-r0
+description	Maxmind GeoIP2 database library (static library)
+url	https://github.com/maxmind/libmaxminddb
+license	Apache-2.0
+size	41673
+installed-size	85396
+depends	libmaxminddb-dev
+origin	libmaxminddb
+repo	main
+file	libmaxminddb-static-1.13.3-r0.apk
+checksum	Q15pp1hwMPE58v9/jQ1MkJVYXRuYA=
+dep	libmaxminddb-dev	libmaxminddb-dev

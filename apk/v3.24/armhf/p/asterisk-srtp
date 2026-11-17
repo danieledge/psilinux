@@ -1,0 +1,15 @@
+name	asterisk-srtp
+version	22.9.0-r0
+description	Modular Open Source PBX System
+url	https://www.asterisk.org/
+license	GPL-2.0-only WITH OpenSSL-Exception
+size	14113
+installed-size	26008
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libsrtp2.so.1
+origin	asterisk
+repo	main
+file	asterisk-srtp-22.9.0-r0.apk
+checksum	Q1sIUUjgWQwNJJroT8TgXG+GfpSbw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libsrtp2.so.1	libsrtp

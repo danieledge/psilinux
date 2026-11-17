@@ -1,0 +1,14 @@
+name	libopensmtpd
+version	1.0-r0
+description	Library for creating OpenSMTPD filters
+url	http://imperialat.at/dev/libopensmtpd/
+license	ISC
+size	18563
+installed-size	43564
+depends	so:libc.musl-armhf.so.1 so:libevent-2.1.so.7
+origin	libopensmtpd
+repo	community
+file	libopensmtpd-1.0-r0.apk
+checksum	Q1wlTahC74GpiapQdfiAXjsg5rAb0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevent-2.1.so.7	libevent

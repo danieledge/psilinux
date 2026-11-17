@@ -1,0 +1,17 @@
+name	openal-soft
+version	1.25.2-r0
+description	software implementation of OpenAL API
+url	https://openal-soft.org/
+license	LGPL-2.0-or-later
+size	386843
+installed-size	748876
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libopenal.so.1 so:libsndfile.so.1 so:libstdc++.so.6
+origin	openal-soft
+repo	community
+file	openal-soft-1.25.2-r0.apk
+checksum	Q1J7oURa/8+UpJhv2tWzLi6UfzdsY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libopenal.so.1	openal-soft-libs
+dep	so:libsndfile.so.1	libsndfile
+dep	so:libstdc++.so.6	libstdc++

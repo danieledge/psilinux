@@ -1,0 +1,14 @@
+name	mlocate
+version	0.26-r9
+description	Utility for finding files by name quickly
+url	https://pagure.io/mlocate
+license	GPL-2.0-only
+size	45606
+installed-size	85654
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	mlocate
+repo	community
+file	mlocate-0.26-r9.apk
+checksum	Q1JICKCaz3wmzHxwKI/yoXtrD6gDc=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

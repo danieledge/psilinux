@@ -1,0 +1,15 @@
+name	lerc
+version	4.1.0-r0
+description	Limited Error Raster Compression
+url	https://github.com/esri/lerc
+license	Apache-2.0
+size	142792
+installed-size	427392
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	lerc
+repo	community
+file	lerc-4.1.0-r0.apk
+checksum	Q1v+rcBzZnpGncAuSz1459umjRm7M=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

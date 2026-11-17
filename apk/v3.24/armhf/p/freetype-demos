@@ -1,0 +1,15 @@
+name	freetype-demos
+version	2.14.3-r0
+description	A collection of FreeType demos
+url	https://www.freetype.org/
+license	FTL OR GPL-2.0-or-later
+size	303043
+installed-size	702404
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1 so:libfreetype.so.6
+origin	freetype
+repo	main
+file	freetype-demos-2.14.3-r0.apk
+checksum	Q1yuY2HvhKkaILGS0Aybff+umQGOg=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreetype.so.6	freetype

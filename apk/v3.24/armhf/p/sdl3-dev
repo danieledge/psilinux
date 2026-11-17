@@ -1,0 +1,16 @@
+name	sdl3-dev
+version	3.4.10-r0
+description	development library designed to provide low level access to audio, keyboard, mouse, joystick and graphics (development files)
+url	https://www.libsdl.org
+license	Zlib
+size	31800764
+installed-size	60358446
+depends	sdl3 mesa-dev sdl3=3.4.10-r0 pkgconfig
+origin	sdl3
+repo	community
+file	sdl3-dev-3.4.10-r0.apk
+checksum	Q1HXz7UetyYKGDIjOEmNWauUh0czE=
+dep	sdl3	sdl3
+dep	mesa-dev	mesa-dev
+dep	sdl3=3.4.10-r0	sdl3
+dep	pkgconfig	pkgconf

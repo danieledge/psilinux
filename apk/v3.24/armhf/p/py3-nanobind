@@ -1,0 +1,14 @@
+name	py3-nanobind
+version	2.12.0-r1
+description	tiny and efficient C++/Python bindings
+url	https://pypi.org/project/nanobind/
+license	BSD-3-Clause
+size	192856
+installed-size	816518
+depends	robin-map python3~3.14
+origin	py3-nanobind
+repo	community
+file	py3-nanobind-2.12.0-r1.apk
+checksum	Q1cmr4qAtXTA3+7hNb127Gb/4R4Sk=
+dep	robin-map	robin-map
+dep	python3~3.14	python3

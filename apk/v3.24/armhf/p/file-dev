@@ -1,0 +1,14 @@
+name	file-dev
+version	5.47-r2
+description	File type identification utility (development files)
+url	https://www.darwinsys.com/file/
+license	BSD-2-Clause
+size	4155
+installed-size	6300
+depends	libmagic=5.47-r2 pkgconfig
+origin	file
+repo	main
+file	file-dev-5.47-r2.apk
+checksum	Q1B2XiTBetOMoEGRXzzqfAnlBjXuU=
+dep	libmagic=5.47-r2	libmagic
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	ell-dev
+version	0.83-r0
+description	Linux library for embedded development (development files)
+url	https://01.org/ell
+license	LGPL-2.1-or-later
+size	30444
+installed-size	130261
+depends	ell=0.83-r0 pkgconfig
+origin	ell
+repo	main
+file	ell-dev-0.83-r0.apk
+checksum	Q1dCWrfeaqoPyWZEUc5LJo4IlVq/E=
+dep	ell=0.83-r0	ell
+dep	pkgconfig	pkgconf

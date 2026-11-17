@@ -1,0 +1,15 @@
+name	py3-bluez
+version	0.23-r9
+description	Python API for the BlueZ bluetooth stack
+url	https://github.com/pybluez/pybluez
+license	GPL-2.0-or-later
+size	53538
+installed-size	171809
+depends	python3~3.14 so:libbluetooth.so.3 so:libc.musl-armhf.so.1
+origin	py3-bluez
+repo	community
+file	py3-bluez-0.23-r9.apk
+checksum	Q1NJitUuz/A0JhJb1gps8QseLYBak=
+dep	python3~3.14	python3
+dep	so:libbluetooth.so.3	bluez-libs
+dep	so:libc.musl-armhf.so.1	musl

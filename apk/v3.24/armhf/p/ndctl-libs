@@ -1,0 +1,16 @@
+name	ndctl-libs
+version	80-r1
+description	Utility library for managing the libnvdimm (non-volatile memory device) sub-system in the Linux kernel (libraries)
+url	https://github.com/pmem/ndctl
+license	GPL-2.0-only AND LGPL-2.1-only
+size	101185
+installed-size	246776
+depends	so:libc.musl-armhf.so.1 so:libkmod.so.2 so:libudev.so.1 so:libuuid.so.1
+origin	ndctl
+repo	community
+file	ndctl-libs-80-r1.apk
+checksum	Q1Gj9QYjWqfsXkMxF7Ybl3ih4UMvw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libkmod.so.2	kmod-libs
+dep	so:libudev.so.1	eudev-libs
+dep	so:libuuid.so.1	libuuid

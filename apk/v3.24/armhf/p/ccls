@@ -1,0 +1,17 @@
+name	ccls
+version	0.20250815.1-r1
+description	C/C++/Objective-C language server
+url	https://github.com/MaskRay/ccls
+license	Apache-2.0
+size	592785
+installed-size	1292376
+depends	so:libLLVM.so.22.1 so:libc.musl-armhf.so.1 so:libclang-cpp.so.22.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	ccls
+repo	community
+file	ccls-0.20250815.1-r1.apk
+checksum	Q1/iaSBTsJSGGZenc1QJ0jBf2LyMY=
+dep	so:libLLVM.so.22.1	llvm22-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libclang-cpp.so.22.1	clang22-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

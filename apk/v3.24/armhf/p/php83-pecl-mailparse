@@ -1,0 +1,14 @@
+name	php83-pecl-mailparse
+version	3.2.0-r0
+description	PHP 8.3 extension for parsing and working with email messages - PECL
+url	https://pecl.php.net/package/mailparse
+license	PHP-3.01
+size	24574
+installed-size	51000
+depends	php83-mbstring so:libc.musl-armhf.so.1
+origin	php83-pecl-mailparse
+repo	community
+file	php83-pecl-mailparse-3.2.0-r0.apk
+checksum	Q1SYckDAdx9kVyLdyi8OF1Tr3D8N0=
+dep	php83-mbstring	php83-mbstring
+dep	so:libc.musl-armhf.so.1	musl

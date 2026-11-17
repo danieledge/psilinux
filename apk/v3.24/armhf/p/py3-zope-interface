@@ -1,0 +1,14 @@
+name	py3-zope-interface
+version	7.2-r1
+description	Separate distribution of the zope.interface package used in Zope
+url	https://zopeinterface.readthedocs.io
+license	ZPL-2.1
+size	183410
+installed-size	948466
+depends	python3~3.14 so:libc.musl-armhf.so.1
+origin	py3-zope-interface
+repo	community
+file	py3-zope-interface-7.2-r1.apk
+checksum	Q1kbxgDQi7Pm9clrYDEmjh+Rqu6Kc=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	nanomsg-dev
+version	1.2.2-r0
+description	Socket library that provides several common communication patterns (development files)
+url	https://nanomsg.org
+license	MIT
+size	10886
+installed-size	39067
+depends	nanomsg=1.2.2-r0 pkgconfig
+origin	nanomsg
+repo	community
+file	nanomsg-dev-1.2.2-r0.apk
+checksum	Q1drbba+OckmHyfy1hK0LTxr9I4wg=
+dep	nanomsg=1.2.2-r0	nanomsg
+dep	pkgconfig	pkgconf

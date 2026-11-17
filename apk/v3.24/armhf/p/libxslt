@@ -1,0 +1,14 @@
+name	libxslt
+version	1.1.43-r4
+description	XML stylesheet transformation library
+url	http://xmlsoft.org/XSLT/
+license	X11
+size	127207
+installed-size	286640
+depends	so:libc.musl-armhf.so.1 so:libxml2.so.2
+origin	libxslt
+repo	main
+file	libxslt-1.1.43-r4.apk
+checksum	Q1ZPf3HmE7Po/Z719fVBSKYYDpTq8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxml2.so.2	libxml2

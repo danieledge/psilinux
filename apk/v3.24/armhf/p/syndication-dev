@@ -1,0 +1,15 @@
+name	syndication-dev
+version	6.26.0-r0
+description	An RSS/Atom parser library (development files)
+url	https://community.kde.org/Frameworks
+license	LGPL-2.0-or-later AND BSD-3-Clause
+size	32895
+installed-size	117224
+depends	kcodecs-dev qt6-qtbase-dev syndication=6.26.0-r0
+origin	syndication
+repo	community
+file	syndication-dev-6.26.0-r0.apk
+checksum	Q18+Qh76vkqdTzWDL33EIjK/wi57w=
+dep	kcodecs-dev	kcodecs-dev
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	syndication=6.26.0-r0	syndication

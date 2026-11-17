@@ -1,0 +1,17 @@
+name	gnupg-gpgconf
+version	2.4.9-r1
+description	GNU Privacy Guard 2 - core configuration utilities
+url	https://www.gnupg.org/
+license	GPL-3.0-or-later
+size	110091
+installed-size	227145
+depends	pinentry so:libassuan.so.9 so:libc.musl-armhf.so.1 so:libgcrypt.so.20 so:libgpg-error.so.0
+origin	gnupg
+repo	main
+file	gnupg-gpgconf-2.4.9-r1.apk
+checksum	Q1duDywQmkwafHl4zkZ+Orukh5Nd8=
+dep	pinentry	pinentry
+dep	so:libassuan.so.9	libassuan
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgpg-error.so.0	libgpg-error

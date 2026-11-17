@@ -1,0 +1,13 @@
+name	xsimd-dev
+version	14.0.0-r0
+description	C++ wrappers for SIMD intrinsics and parallelized, optimized mathematical functions (SSE, AVX, NEON, AVX512) (development files)
+url	https://github.com/xtensor-stack/xsimd
+license	BSD-3-Clause
+size	203839
+installed-size	1704702
+depends	pkgconfig
+origin	xsimd
+repo	community
+file	xsimd-dev-14.0.0-r0.apk
+checksum	Q1SCWT5VX0min8cO3S/qRVzVJ4n/w=
+dep	pkgconfig	pkgconf

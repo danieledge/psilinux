@@ -1,0 +1,15 @@
+name	freeunit-php85
+version	1.37.2-r0
+description	php85 module for FreeUnit
+url	https://freeunit.org/
+license	Apache-2.0
+size	40689
+installed-size	79444
+depends	freeunit=1.37.2-r0 php85-embed so:libc.musl-armhf.so.1
+origin	freeunit
+repo	community
+file	freeunit-php85-1.37.2-r0.apk
+checksum	Q1IxaLfrF14tdc+si8c+kVPHILa8c=
+dep	freeunit=1.37.2-r0	freeunit
+dep	php85-embed	php85-embed
+dep	so:libc.musl-armhf.so.1	musl

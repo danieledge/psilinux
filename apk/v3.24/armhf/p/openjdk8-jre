@@ -1,0 +1,31 @@
+name	openjdk8-jre
+version	8.512.01-r0
+description	OpenJDK 8 Java Runtime
+url	https://icedtea.classpath.org/
+license	custom
+size	329848
+installed-size	778188
+depends	font-dejavu so:libX11.so.6 so:libXcomposite.so.1 so:libXext.so.6 so:libXi.so.6 so:libXrender.so.1 so:libXtst.so.6 so:libasound.so.2 so:libc.musl-armhf.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libgif.so.7 so:libjpeg.so.8 so:libpng16.so.16 so:libstdc++.so.6 so:openjdk8:libawt.so so:openjdk8:libjava.so so:openjdk8:libjli.so so:openjdk8:libjvm.so
+origin	openjdk8
+repo	community
+file	openjdk8-jre-8.512.01-r0.apk
+checksum	Q1XjD5OC7Wd9K45fJs90bdypzvczI=
+dep	font-dejavu	font-dejavu
+dep	so:libX11.so.6	libx11
+dep	so:libXcomposite.so.1	libxcomposite
+dep	so:libXext.so.6	libxext
+dep	so:libXi.so.6	libxi
+dep	so:libXrender.so.1	libxrender
+dep	so:libXtst.so.6	libxtst
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgif.so.7	giflib
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++
+dep	so:openjdk8:libawt.so	openjdk8-jre-base
+dep	so:openjdk8:libjava.so	openjdk8-jre-base
+dep	so:openjdk8:libjli.so	openjdk8-jre-base
+dep	so:openjdk8:libjvm.so	openjdk8-jre-base

@@ -1,0 +1,14 @@
+name	rrdcollect
+version	0.2.10-r5
+description	Read system statistical data and feed it to RRDtool
+url	https://rrdcollect.sourceforge.net/
+license	GPL-2.0-or-later
+size	12202
+installed-size	23514
+depends	rrdtool so:libc.musl-armhf.so.1
+origin	rrdcollect
+repo	main
+file	rrdcollect-0.2.10-r5.apk
+checksum	Q1f2jpG2gJE9ExlG9IPrF+9QJ/tHg=
+dep	rrdtool	rrdtool
+dep	so:libc.musl-armhf.so.1	musl

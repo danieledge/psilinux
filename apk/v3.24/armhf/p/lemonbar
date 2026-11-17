@@ -1,0 +1,15 @@
+name	lemonbar
+version	1.5-r2
+description	Featherlight, lemon-scented, bar based on xcb
+url	https://github.com/Lemonboy/bar
+license	MIT
+size	13671
+installed-size	25824
+depends	so:libc.musl-armhf.so.1 so:libxcb-randr.so.0 so:libxcb.so.1
+origin	lemonbar
+repo	community
+file	lemonbar-1.5-r2.apk
+checksum	Q1KAa/P29UsdSBYxaDfU2QToVklSI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxcb-randr.so.0	libxcb
+dep	so:libxcb.so.1	libxcb

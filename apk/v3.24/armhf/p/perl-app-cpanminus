@@ -1,0 +1,14 @@
+name	perl-app-cpanminus
+version	1.7048-r0
+description	Get, unpack, build and install modules from CPAN
+url	https://metacpan.org/release/App-cpanminus/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	286198
+installed-size	1076369
+depends	perl wget
+origin	perl-app-cpanminus
+repo	community
+file	perl-app-cpanminus-1.7048-r0.apk
+checksum	Q1JlHPk3RF+YVGhLmIUqIiab33zBw=
+dep	perl	perl
+dep	wget	wget

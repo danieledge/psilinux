@@ -1,0 +1,14 @@
+name	libfreeaptx-tools
+version	0.2.2-r0
+description	Free implementation of Audio Processing Technology codec (aptX) (commandline utils)
+url	https://github.com/iamthehorker/libfreeaptx
+license	LGPL-2.1-or-later
+size	6638
+installed-size	18776
+depends	so:libc.musl-armhf.so.1 so:libfreeaptx.so.0
+origin	libfreeaptx
+repo	community
+file	libfreeaptx-tools-0.2.2-r0.apk
+checksum	Q1ebGD6GyTFPUpVB4xrumaMGpml4k=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreeaptx.so.0	libfreeaptx

@@ -1,0 +1,17 @@
+name	libverto-dev
+version	0.3.2-r2
+description	Main loop abstraction library (development files)
+url	https://github.com/latchset/libverto
+license	MIT
+size	22110
+installed-size	65854
+depends	libverto-glib=0.3.2-r2 libverto-libev=0.3.2-r2 libverto-libevent=0.3.2-r2 libverto=0.3.2-r2 pkgconfig
+origin	libverto
+repo	main
+file	libverto-dev-0.3.2-r2.apk
+checksum	Q1aBYMoa0hgqylcVdc1vFwlsGG6AE=
+dep	libverto-glib=0.3.2-r2	libverto-glib
+dep	libverto-libev=0.3.2-r2	libverto-libev
+dep	libverto-libevent=0.3.2-r2	libverto-libevent
+dep	libverto=0.3.2-r2	libverto
+dep	pkgconfig	pkgconf

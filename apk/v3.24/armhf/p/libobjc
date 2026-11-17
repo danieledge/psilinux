@@ -1,0 +1,14 @@
+name	libobjc
+version	15.2.0-r5
+description	GNU Objective-C runtime
+url	https://gcc.gnu.org
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	34303
+installed-size	72720
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	gcc
+repo	main
+file	libobjc-15.2.0-r5.apk
+checksum	Q1AhnkJ3YS3N58aAeBkiSCkaKTZNc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

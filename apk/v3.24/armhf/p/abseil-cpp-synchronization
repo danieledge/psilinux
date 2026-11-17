@@ -1,0 +1,23 @@
+name	abseil-cpp-synchronization
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-synchronization
+url	https://abseil.io/
+license	Apache-2.0
+size	20756
+installed-size	46492
+depends	so:libabsl_base.so.2508.0.0 so:libabsl_kernel_timeout_internal.so.2508.0.0 so:libabsl_malloc_internal.so.2508.0.0 so:libabsl_raw_logging_internal.so.2508.0.0 so:libabsl_spinlock_wait.so.2508.0.0 so:libabsl_stacktrace.so.2508.0.0 so:libabsl_time.so.2508.0.0 so:libabsl_tracing_internal.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-synchronization-20250814.1-r0.apk
+checksum	Q1iymDd+MPbLo/1e0vgUUV6OL8fws=
+dep	so:libabsl_base.so.2508.0.0	abseil-cpp-base
+dep	so:libabsl_kernel_timeout_internal.so.2508.0.0	abseil-cpp-kernel-timeout-internal
+dep	so:libabsl_malloc_internal.so.2508.0.0	abseil-cpp-malloc-internal
+dep	so:libabsl_raw_logging_internal.so.2508.0.0	abseil-cpp-raw-logging-internal
+dep	so:libabsl_spinlock_wait.so.2508.0.0	abseil-cpp-spinlock-wait
+dep	so:libabsl_stacktrace.so.2508.0.0	abseil-cpp-stacktrace
+dep	so:libabsl_time.so.2508.0.0	abseil-cpp-time
+dep	so:libabsl_tracing_internal.so.2508.0.0	abseil-cpp-tracing-internal
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,21 @@
+name	libayatana-indicator
+version	0.9.4-r2
+description	Ayatana Indicators Shared Library
+url	https://github.com/AyatanaIndicators/libayatana-indicator
+license	GPL-3.0-only
+size	33378
+installed-size	80268
+depends	so:libayatana-ido3-0.4.so.0 so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0
+origin	libayatana-indicator
+repo	community
+file	libayatana-indicator-0.9.4-r2.apk
+checksum	Q1ejBzcp8Dz/jMRp4L+7C0ZXeuT+k=
+dep	so:libayatana-ido3-0.4.so.0	ayatana-ido
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0

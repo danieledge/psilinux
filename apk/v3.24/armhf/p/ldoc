@@ -1,0 +1,14 @@
+name	ldoc
+version	1.5.0-r0
+description	Documentation tool for Lua
+url	https://github.com/lunarmodules/LDoc
+license	MIT
+size	90007
+installed-size	305861
+depends	lua-penlight lua5.4
+origin	ldoc
+repo	main
+file	ldoc-1.5.0-r0.apk
+checksum	Q1j0aZUKdKrQbQ9IQ5PttSiWGbeFQ=
+dep	lua-penlight	lua-penlight
+dep	lua5.4	lua5.4

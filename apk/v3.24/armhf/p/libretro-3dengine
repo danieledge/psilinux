@@ -1,0 +1,17 @@
+name	libretro-3dengine
+version	0_git20220405-r1
+description	3D engine for libretro GL with additional features
+url	https://github.com/libretro/libretro-3dengine
+license	GPL-3.0-only
+size	116871
+installed-size	255704
+depends	so:libGL.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1
+origin	libretro-3dengine
+repo	community
+file	libretro-3dengine-0_git20220405-r1.apk
+checksum	Q1OhdqINKwhjefvY/U1mQ7NuAOd+k=
+dep	so:libGL.so.1	mesa-gl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

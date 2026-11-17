@@ -1,0 +1,14 @@
+name	tiny-cloud-azure
+version	3.4.2-r0
+description	Tiny Cloud - Azure module
+url	https://gitlab.alpinelinux.org/alpine/cloud/tiny-cloud
+license	MIT
+size	1408
+installed-size	1
+depends	tiny-cloud=3.4.2-r0 /bin/sh
+origin	tiny-cloud
+repo	main
+file	tiny-cloud-azure-3.4.2-r0.apk
+checksum	Q1/RNUnjgIw2kfj6nUrYlQ5uNYuuk=
+dep	tiny-cloud=3.4.2-r0	tiny-cloud
+dep	/bin/sh	busybox-binsh

@@ -1,0 +1,16 @@
+name	kamailio-ldap
+version	6.0.6-r0
+description	Kamailio LDAP search functions
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	114860
+installed-size	239292
+depends	kamailio so:libc.musl-armhf.so.1 so:liblber.so.2 so:libldap.so.2
+origin	kamailio
+repo	main
+file	kamailio-ldap-6.0.6-r0.apk
+checksum	Q1IyHHEAkicqMqaRvRrMP0X8KlQ5c=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap

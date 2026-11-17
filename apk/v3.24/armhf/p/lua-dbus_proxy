@@ -1,0 +1,14 @@
+name	lua-dbus_proxy
+version	0.10.4-r0
+description	Simple API around GLib's GIO:GDBusProxy built on top of lgi
+url	https://github.com/stefano-m/lua-dbus_proxy
+license	Apache-2.0
+size	1305
+installed-size	0
+depends	dbus lua-lgi
+origin	lua-dbus_proxy
+repo	community
+file	lua-dbus_proxy-0.10.4-r0.apk
+checksum	Q1UEUK7NkeF4+hDVxFydQ7IRrOVa0=
+dep	dbus	dbus
+dep	lua-lgi	lua-lgi

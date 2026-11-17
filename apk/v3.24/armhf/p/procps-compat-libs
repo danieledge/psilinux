@@ -1,0 +1,13 @@
+name	procps-compat-libs
+version	3.3.17-r5
+description	Utilities for monitoring your system and processes on your system (compat old library) (libraries)
+url	https://gitlab.com/procps-ng/procps
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	30538
+installed-size	62784
+depends	so:libc.musl-armhf.so.1
+origin	procps-compat
+repo	community
+file	procps-compat-libs-3.3.17-r5.apk
+checksum	Q1s+Mylp3+7bZmdaNgFIHITd36+Sw=
+dep	so:libc.musl-armhf.so.1	musl

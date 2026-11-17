@@ -1,0 +1,16 @@
+name	kmon
+version	1.7.1-r0
+description	Linux Kernel Manager and Activity Monitor
+url	https://kmon.cli.rs/
+license	GPL-3.0-or-later
+size	555377
+installed-size	1061408
+depends	kmod util-linux-misc so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	kmon
+repo	community
+file	kmon-1.7.1-r0.apk
+checksum	Q1PZljFE6AfN/2ZduMDFdB66VpYek=
+dep	kmod	kmod
+dep	util-linux-misc	util-linux-misc
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

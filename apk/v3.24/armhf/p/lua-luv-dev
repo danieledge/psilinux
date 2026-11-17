@@ -1,0 +1,14 @@
+name	lua-luv-dev
+version	1.51.0.1-r1
+description	Bare libuv bindings for Lua (development files)
+url	https://github.com/luvit/luv
+license	Apache-2.0
+size	4958
+installed-size	9467
+depends	libluv=1.51.0.1-r1 pkgconfig
+origin	lua-luv
+repo	community
+file	lua-luv-dev-1.51.0.1-r1.apk
+checksum	Q1bo607SA4p2uJBVER3GDvCbI1Kd0=
+dep	libluv=1.51.0.1-r1	libluv
+dep	pkgconfig	pkgconf

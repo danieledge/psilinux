@@ -1,0 +1,13 @@
+name	torsocks
+version	2.5.0-r0
+description	Wrapper to safely torify applications
+url	https://gitlab.torproject.org/tpo/core/torsocks
+license	GPL-2.0
+size	81368
+installed-size	232498
+depends	so:libc.musl-armhf.so.1
+origin	torsocks
+repo	community
+file	torsocks-2.5.0-r0.apk
+checksum	Q1oJNcGk1xnPLhTPSfJ2tRtt9lLwE=
+dep	so:libc.musl-armhf.so.1	musl

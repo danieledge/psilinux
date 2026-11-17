@@ -1,0 +1,37 @@
+name	rygel
+version	45.2-r0
+description	UPnP AV MediaServer and MediaRenderer
+url	https://gnome.pages.gitlab.gnome.org/rygel/
+license	LGPL-2.1-or-later
+size	757915
+installed-size	2029867
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgee-0.8.so.2 so:libges-1.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgssdp-1.6.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgsttag-1.0.so.0 so:libgtk-4.so.1 so:libgupnp-1.6.so.0 so:libgupnp-av-1.0.so.3 so:libgupnp-dlna-2.0.so.4 so:libgupnp-dlna-gst-2.0.so.4 so:libintl.so.8 so:libmediaart-2.0.so.0 so:libsoup-3.0.so.0 so:libsqlite3.so.0 so:libxml2.so.2
+origin	rygel
+repo	community
+file	rygel-45.2-r0.apk
+checksum	Q1C2cO4eTaiXoEaH07E5ISHfSvlbM=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgee-0.8.so.2	libgee
+dep	so:libges-1.0.so.0	gst-editing-services
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgssdp-1.6.so.0	gssdp
+dep	so:libgstaudio-1.0.so.0	gst-plugins-base
+dep	so:libgstbase-1.0.so.0	gstreamer
+dep	so:libgstpbutils-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgsttag-1.0.so.0	gst-plugins-base
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libgupnp-1.6.so.0	gupnp
+dep	so:libgupnp-av-1.0.so.3	gupnp-av
+dep	so:libgupnp-dlna-2.0.so.4	gupnp-dlna
+dep	so:libgupnp-dlna-gst-2.0.so.4	gupnp-dlna
+dep	so:libintl.so.8	libintl
+dep	so:libmediaart-2.0.so.0	libmediaart
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libxml2.so.2	libxml2

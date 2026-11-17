@@ -1,0 +1,41 @@
+name	gnome-settings-daemon
+version	50.1-r0
+description	GNOME settings daemon
+url	https://gitlab.gnome.org/GNOME/gnome-settings-daemon
+license	GPL-2.0-only AND LGPL-2.1-only
+size	310439
+installed-size	857750
+depends	pulseaudio so:libX11.so.6 so:libXfixes.so.3 so:libasound.so.2 so:libc.musl-armhf.so.1 so:libcanberra.so.0 so:libcolord.so.2 so:libcups.so.2 so:libelogind.so.0 so:libfontconfig.so.1 so:libgck-2.so.2 so:libgcr-4.so.4 so:libgeoclue-2.so.0 so:libgeocode-glib-2.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgnome-desktop-4.so.2 so:libgobject-2.0.so.0 so:libgudev-1.0.so.0 so:libgweather-4.so.0 so:libintl.so.8 so:libmm-glib.so.0 so:libnm.so.0 so:libnotify.so.4 so:libp11-kit.so.0 so:libpolkit-gobject-1.so.0 so:libpulse-mainloop-glib.so.0 so:libpulse.so.0 so:libupower-glib.so.3
+origin	gnome-settings-daemon
+repo	community
+file	gnome-settings-daemon-50.1-r0.apk
+checksum	Q1Gq7TxgPoXewIPrvsGlnjGxd1RuQ=
+dep	pulseaudio	pulseaudio
+dep	so:libX11.so.6	libx11
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcanberra.so.0	libcanberra
+dep	so:libcolord.so.2	libcolord
+dep	so:libcups.so.2	cups-libs
+dep	so:libelogind.so.0	libelogind
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgck-2.so.2	gcr4-base
+dep	so:libgcr-4.so.4	gcr4-base
+dep	so:libgeoclue-2.so.0	geoclue
+dep	so:libgeocode-glib-2.so.0	geocode-glib
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgnome-desktop-4.so.2	libgnome-desktop-4
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgudev-1.0.so.0	libgudev
+dep	so:libgweather-4.so.0	libgweather4
+dep	so:libintl.so.8	libintl
+dep	so:libmm-glib.so.0	libmm-glib
+dep	so:libnm.so.0	libnm
+dep	so:libnotify.so.4	libnotify
+dep	so:libp11-kit.so.0	p11-kit
+dep	so:libpolkit-gobject-1.so.0	polkit-noelogind-libs
+dep	so:libpulse-mainloop-glib.so.0	libpulse-mainloop-glib
+dep	so:libpulse.so.0	libpulse
+dep	so:libupower-glib.so.3	upower

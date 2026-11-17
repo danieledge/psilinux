@@ -1,0 +1,16 @@
+name	ortp
+version	5.4.60-r0
+description	oRTP is a library implemeting Real-time Transport Protocol (RFC3550), licensed under LGPL
+url	https://gitlab.linphone.org/BC/public/ortp
+license	LGPL-2.0-or-later
+size	116287
+installed-size	275060
+depends	so:libbctoolbox.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	ortp
+repo	main
+file	ortp-5.4.60-r0.apk
+checksum	Q1cvIqP2gFP8KuMKDOhk17uhFC+8I=
+dep	so:libbctoolbox.so.1	bctoolbox
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

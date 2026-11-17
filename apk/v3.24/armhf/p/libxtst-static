@@ -1,0 +1,13 @@
+name	libxtst-static
+version	1.2.6-r0
+description	X11 Testing -- Resource extension library (static library)
+url	https://wiki.freedesktop.org/xorg/
+license	MIT
+size	9398
+installed-size	20470
+depends	libxtst-dev
+origin	libxtst
+repo	main
+file	libxtst-static-1.2.6-r0.apk
+checksum	Q1K+smXfO+9snoMWp0UJf5F8Mi3Gw=
+dep	libxtst-dev	libxtst-dev

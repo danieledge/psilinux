@@ -1,0 +1,34 @@
+name	ffmpeg6-libavcodec
+version	6.1.6-r0
+description	Complete and free Internet live audio and video broadcasting solution for Linux/Unix (libavcodec library)
+url	https://ffmpeg.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	6869338
+installed-size	14770084
+depends	so:libaom.so.3 so:libavutil.so.58 so:libc.musl-armhf.so.1 so:libdav1d.so.7 so:libjxl.so.0.11 so:libjxl_threads.so.0.11 so:libmp3lame.so.0 so:libopus.so.0 so:librav1e.so.0.8 so:libswresample.so.4 so:libtheoradec.so.2 so:libtheoraenc.so.2 so:libva.so.2 so:libvorbis.so.0 so:libvorbisenc.so.2 so:libvpx.so.11 so:libwebp.so.7 so:libwebpmux.so.3 so:libx264.so.164 so:libx265.so.215 so:libxvidcore.so.4 so:libz.so.1
+origin	ffmpeg6
+repo	community
+file	ffmpeg6-libavcodec-6.1.6-r0.apk
+checksum	Q1Ld8UZ4RObT+GKMiV09JFXmFSy8M=
+dep	so:libaom.so.3	aom-libs
+dep	so:libavutil.so.58	ffmpeg6-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdav1d.so.7	libdav1d
+dep	so:libjxl.so.0.11	libjxl
+dep	so:libjxl_threads.so.0.11	libjxl
+dep	so:libmp3lame.so.0	lame-libs
+dep	so:libopus.so.0	opus
+dep	so:librav1e.so.0.8	rav1e-libs
+dep	so:libswresample.so.4	ffmpeg6-libswresample
+dep	so:libtheoradec.so.2	libtheora
+dep	so:libtheoraenc.so.2	libtheora
+dep	so:libva.so.2	libva
+dep	so:libvorbis.so.0	libvorbis
+dep	so:libvorbisenc.so.2	libvorbis
+dep	so:libvpx.so.11	libvpx
+dep	so:libwebp.so.7	libwebp
+dep	so:libwebpmux.so.3	libwebpmux
+dep	so:libx264.so.164	x264-libs
+dep	so:libx265.so.215	x265-libs
+dep	so:libxvidcore.so.4	xvidcore
+dep	so:libz.so.1	zlib

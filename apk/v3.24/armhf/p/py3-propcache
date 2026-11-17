@@ -1,0 +1,16 @@
+name	py3-propcache
+version	0.5.2-r0
+description	Fast property caching
+url	https://github.com/aio-libs/propcache
+license	Apache-2.0
+size	39512
+installed-size	97576
+depends	py3-expandvars python3 python3~3.14 so:libc.musl-armhf.so.1
+origin	py3-propcache
+repo	community
+file	py3-propcache-0.5.2-r0.apk
+checksum	Q17jUUmk+T3H1X0Q7cc+WcLnI2oRQ=
+dep	py3-expandvars	py3-expandvars
+dep	python3	python3
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

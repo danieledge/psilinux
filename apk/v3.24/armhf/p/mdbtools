@@ -1,0 +1,13 @@
+name	mdbtools
+version	1.0.1-r2
+description	library for reading MS Access database files
+url	https://github.com/mdbtools/mdbtools
+license	GPL-2.0-or-later
+size	59746
+installed-size	121772
+depends	so:libc.musl-armhf.so.1
+origin	mdbtools
+repo	community
+file	mdbtools-1.0.1-r2.apk
+checksum	Q1q4UV3MICLPQCqgls089ERBp+Jgo=
+dep	so:libc.musl-armhf.so.1	musl

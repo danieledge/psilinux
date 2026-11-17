@@ -1,0 +1,14 @@
+name	pdd
+version	1.7-r4
+description	Tiny date, time diff calculator with piggybacked timers
+url	https://github.com/jarun/pdd
+license	GPL-3.0-only
+size	5255
+installed-size	13058
+depends	python3 py3-dateutil
+origin	pdd
+repo	community
+file	pdd-1.7-r4.apk
+checksum	Q1hyMmS2o07ZBivIgegCpewuLFsOA=
+dep	python3	python3
+dep	py3-dateutil	py3-dateutil

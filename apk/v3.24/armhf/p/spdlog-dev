@@ -1,0 +1,15 @@
+name	spdlog-dev
+version	1.17.0-r0
+description	Fast C++ logging library (development files)
+url	https://github.com/gabime/spdlog
+license	MIT
+size	79783
+installed-size	369073
+depends	spdlog=1.17.0-r0 pc:fmt pkgconfig
+origin	spdlog
+repo	community
+file	spdlog-dev-1.17.0-r0.apk
+checksum	Q1A4KnAInI0PMKFzCvGqkvXniOrxQ=
+dep	spdlog=1.17.0-r0	spdlog
+dep	pc:fmt	fmt-dev
+dep	pkgconfig	pkgconf

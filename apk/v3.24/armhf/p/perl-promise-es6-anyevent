@@ -1,0 +1,14 @@
+name	perl-promise-es6-anyevent
+version	0.28-r1
+description	ES6-style promises in Perl (AnyEvent backend)
+url	https://metacpan.org/release/Promise-ES6/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	2474
+installed-size	1475
+depends	perl-promise-es6=0.28-r1 perl-anyevent
+origin	perl-promise-es6
+repo	community
+file	perl-promise-es6-anyevent-0.28-r1.apk
+checksum	Q1FhtOeH+7mEGINETMKuAsCGXXBIw=
+dep	perl-promise-es6=0.28-r1	perl-promise-es6
+dep	perl-anyevent	perl-anyevent

@@ -1,0 +1,14 @@
+name	perl-package-stash-xs
+version	0.30-r5
+description	Faster and more correct implementation of the Package::Stash API
+url	https://metacpan.org/release/Package-Stash-XS/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	17005
+installed-size	35796
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-package-stash-xs
+repo	main
+file	perl-package-stash-xs-0.30-r5.apk
+checksum	Q1dkvax8t6K7im+MLQMvsb30mHqaQ=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

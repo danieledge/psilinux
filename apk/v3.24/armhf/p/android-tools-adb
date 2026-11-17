@@ -1,0 +1,25 @@
+name	android-tools-adb
+version	35.0.2-r21
+description	Android platform tools (adb)
+url	https://sites.google.com/a/android.com/tools/
+license	Apache-2.0 MIT
+size	960752
+installed-size	2048664
+depends	python3 so:libabsl_log_internal_check_op.so.2508.0.0 so:libabsl_log_internal_message.so.2508.0.0 so:libabsl_log_internal_nullguard.so.2508.0.0 so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblz4.so.1 so:libprotobuf.so.31 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
+origin	android-tools
+repo	community
+file	android-tools-adb-35.0.2-r21.apk
+checksum	Q1/iLDHUHE6khpef95c8t/h+RCReU=
+dep	python3	python3
+dep	so:libabsl_log_internal_check_op.so.2508.0.0	abseil-cpp-log-internal-check-op
+dep	so:libabsl_log_internal_message.so.2508.0.0	abseil-cpp-log-internal-message
+dep	so:libabsl_log_internal_nullguard.so.2508.0.0	abseil-cpp-log-internal-nullguard
+dep	so:libbrotlidec.so.1	brotli-libs
+dep	so:libbrotlienc.so.1	brotli-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblz4.so.1	lz4-libs
+dep	so:libprotobuf.so.31	libprotobuf
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

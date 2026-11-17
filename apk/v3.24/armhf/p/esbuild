@@ -1,0 +1,13 @@
+name	esbuild
+version	0.27.1-r7
+description	Extremely fast JavaScript bundler and minifier
+url	https://esbuild.github.io/
+license	MIT
+size	4679530
+installed-size	11559139
+depends	so:libc.musl-armhf.so.1
+origin	esbuild
+repo	community
+file	esbuild-0.27.1-r7.apk
+checksum	Q1R/QH9OOznC1xFryOfP7sG+WSdG0=
+dep	so:libc.musl-armhf.so.1	musl

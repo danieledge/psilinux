@@ -1,0 +1,13 @@
+name	gsl
+version	2.8-r0
+description	Modern numerical library for C and C++ programmers
+url	https://www.gnu.org/software/gsl/gsl.html
+license	GPL-3.0-or-later
+size	958977
+installed-size	2461548
+depends	so:libc.musl-armhf.so.1
+origin	gsl
+repo	community
+file	gsl-2.8-r0.apk
+checksum	Q1DYSvXiO28RhtiHeA0GJUhu+U9ow=
+dep	so:libc.musl-armhf.so.1	musl

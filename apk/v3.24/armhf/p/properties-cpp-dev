@@ -1,0 +1,13 @@
+name	properties-cpp-dev
+version	0.0.4-r0
+description	A very simple convenience library for handling properties and signals in C++11 (development files)
+url	https://gitlab.com/ubports/development/core/lib-cpp/properties-cpp
+license	LGPL-3.0-only
+size	6344
+installed-size	21574
+depends	pkgconfig
+origin	properties-cpp
+repo	community
+file	properties-cpp-dev-0.0.4-r0.apk
+checksum	Q1srVJWAWL1vzccdaPNVeEyYUC5+w=
+dep	pkgconfig	pkgconf

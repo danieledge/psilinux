@@ -1,0 +1,15 @@
+name	libfido2-dev
+version	1.16.0-r4
+description	library for FIDO 2.0 functionality (development files)
+url	https://github.com/Yubico/libfido2
+license	BSD-2-Clause
+size	131732
+installed-size	438282
+depends	libfido2=1.16.0-r4 pc:libcrypto pkgconfig
+origin	libfido2
+repo	main
+file	libfido2-dev-1.16.0-r4.apk
+checksum	Q11fRl3CB7ULlGgV6BD4BujU8CMro=
+dep	libfido2=1.16.0-r4	libfido2
+dep	pc:libcrypto	openssl-dev
+dep	pkgconfig	pkgconf

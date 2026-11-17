@@ -1,0 +1,19 @@
+name	pike
+version	8.0.2040-r1
+description	Pike programming language
+url	https://pike.lysator.liu.se/
+license	GPL-2.0-or-later
+size	6138506
+installed-size	20776143
+depends	readline so:libc.musl-armhf.so.1 so:libgmp.so.10 so:libhogweed.so.6 so:libintl.so.8 so:libnettle.so.8 so:libz.so.1
+origin	pike
+repo	community
+file	pike-8.0.2040-r1.apk
+checksum	Q1c2TeWobO3E8+I4Ur4IstCFpY0dk=
+dep	readline	readline
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgmp.so.10	gmp
+dep	so:libhogweed.so.6	nettle
+dep	so:libintl.so.8	libintl
+dep	so:libnettle.so.8	nettle
+dep	so:libz.so.1	zlib

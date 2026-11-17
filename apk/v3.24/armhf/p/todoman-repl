@@ -1,0 +1,14 @@
+name	todoman-repl
+version	4.7.0-r0
+description	Simple iCalendar based todo manager (interactive shell)
+url	https://pypi.org/project/todoman/
+license	ISC
+size	1300
+installed-size	0
+depends	py3-click-repl todoman=4.7.0-r0
+origin	todoman
+repo	community
+file	todoman-repl-4.7.0-r0.apk
+checksum	Q1nf+/I8p/c/qt1AwZspreksC+hg4=
+dep	py3-click-repl	py3-click-repl
+dep	todoman=4.7.0-r0	todoman

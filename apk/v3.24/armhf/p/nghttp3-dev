@@ -1,0 +1,14 @@
+name	nghttp3-dev
+version	1.15.0-r0
+description	HTTP/3 library written in C (development files)
+url	https://github.com/ngtcp2/nghttp3
+license	MIT
+size	25762
+installed-size	119017
+depends	nghttp3=1.15.0-r0 pkgconfig
+origin	nghttp3
+repo	main
+file	nghttp3-dev-1.15.0-r0.apk
+checksum	Q1MeB3ilTHYO5Ji9sJgx2OsnLZj4E=
+dep	nghttp3=1.15.0-r0	nghttp3
+dep	pkgconfig	pkgconf

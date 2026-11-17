@@ -1,0 +1,14 @@
+name	brightnessctl
+version	0.5.1-r9
+description	Program to read and control device brightness
+url	https://github.com/Hummer12007/brightnessctl
+license	MIT
+size	8798
+installed-size	17636
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	brightnessctl
+repo	community
+file	brightnessctl-0.5.1-r9.apk
+checksum	Q1a3jkXFICo/9uuCAhdDzQ4SXe2vA=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

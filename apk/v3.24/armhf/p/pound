@@ -1,0 +1,16 @@
+name	pound
+version	4.23-r0
+description	Reverse proxy, load balancer, and SSL wrapper
+url	https://github.com/graygnuorg/pound
+license	GPL-3.0-or-later
+size	136488
+installed-size	294771
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libpcre2-8.so.0 so:libssl.so.3
+origin	pound
+repo	community
+file	pound-4.23-r0.apk
+checksum	Q1aE7Yx6fEZ9jK7r8pUPACFx/HjyM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,22 @@
+name	sensorfw
+version	0.15.1-r2
+description	Sensorfw
+url	https://github.com/sailfishos/sensorfw
+license	LGPL-2.1-only
+size	4177782
+installed-size	16801058
+depends	iio-sensor-proxy so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Network.so.6 so:libQt6Test.so.6 so:libc.musl-armhf.so.1 so:libelogind.so.0 so:libgcc_s.so.1 so:libstdc++.so.6 so:libudev.so.1
+origin	sensorfw
+repo	community
+file	sensorfw-0.15.1-r2.apk
+checksum	Q18NiiSp3/jHPhzdD/V4F+yv2I69w=
+dep	iio-sensor-proxy	iio-sensor-proxy
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6DBus.so.6	qt6-qtbase
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6Test.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libelogind.so.0	libelogind
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libudev.so.1	eudev-libs

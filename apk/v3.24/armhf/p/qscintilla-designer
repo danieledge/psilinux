@@ -1,0 +1,21 @@
+name	qscintilla-designer
+version	2.14.1-r4
+description	QScintilla is a port to Qt of Neil Hodgson's Scintilla C++ editor control (Qt5 and Qt6 designer plugin)
+url	https://www.riverbankcomputing.com/software/qscintilla
+license	GPL-3.0-only
+size	11644
+installed-size	32184
+depends	qscintilla=2.14.1-r4 so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libqscintilla2_qt6.so.15 so:libstdc++.so.6
+origin	qscintilla
+repo	community
+file	qscintilla-designer-2.14.1-r4.apk
+checksum	Q130+6js6MOQgVvYKZ3pRMEV1qYNQ=
+dep	qscintilla=2.14.1-r4	qscintilla
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Gui.so.5	qt5-qtbase-x11
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libqscintilla2_qt6.so.15	qscintilla
+dep	so:libstdc++.so.6	libstdc++

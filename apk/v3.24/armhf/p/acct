@@ -1,0 +1,13 @@
+name	acct
+version	6.6.4-r2
+description	The GNU Accounting Utilities
+url	https://www.gnu.org/software/acct/
+license	GPL-3.0-or-later
+size	57098
+installed-size	160663
+depends	so:libc.musl-armhf.so.1
+origin	acct
+repo	main
+file	acct-6.6.4-r2.apk
+checksum	Q1DeKW5BF/+Ws7MJ8Q78XCWTpvZHc=
+dep	so:libc.musl-armhf.so.1	musl

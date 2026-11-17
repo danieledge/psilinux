@@ -1,0 +1,17 @@
+name	nftlb
+version	1.0.9-r0
+description	nftables load balancer
+url	https://github.com/relianoid/nftlb
+license	AGPL-3.0
+size	75378
+installed-size	169380
+depends	so:libc.musl-armhf.so.1 so:libev.so.4 so:libjansson.so.4 so:libmnl.so.0 so:libnftables.so.1
+origin	nftlb
+repo	community
+file	nftlb-1.0.9-r0.apk
+checksum	Q1UW1abvhCIaiMuNVJbR1zWwmeuPs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libev.so.4	libev
+dep	so:libjansson.so.4	jansson
+dep	so:libmnl.so.0	libmnl
+dep	so:libnftables.so.1	nftables

@@ -1,0 +1,14 @@
+name	losetup
+version	2.42.3-r1
+description	Loop disk setup from util-linux
+url	https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+license	GPL-2.0-or-later
+size	28194
+installed-size	58892
+depends	so:libc.musl-armhf.so.1 so:libsmartcols.so.1
+origin	util-linux
+repo	main
+file	losetup-2.42.3-r1.apk
+checksum	Q1QkOLvERQn/J0RjGJGa4N9kBzhRk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsmartcols.so.1	libsmartcols

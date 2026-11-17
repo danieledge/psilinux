@@ -1,0 +1,17 @@
+name	libavif
+version	1.4.1-r0
+description	Library for encoding and decoding .avif files
+url	https://aomediacodec.github.io/av1-avif/
+license	BSD-2-Clause
+size	109912
+installed-size	214444
+depends	so:libaom.so.3 so:libc.musl-armhf.so.1 so:libdav1d.so.7 so:libgcc_s.so.1 so:libyuv.so
+origin	libavif
+repo	main
+file	libavif-1.4.1-r0.apk
+checksum	Q1QuaO6KhAOhQAJ2YFkoR1/oD9Rpc=
+dep	so:libaom.so.3	aom-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdav1d.so.7	libdav1d
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libyuv.so	libyuv

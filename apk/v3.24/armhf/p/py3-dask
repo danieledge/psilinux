@@ -1,0 +1,20 @@
+name	py3-dask
+version	2026.3.0-r1
+description	Parallel computing with task scheduling
+url	https://dask.org/
+license	BSD-3-Clause
+size	954715
+installed-size	3911538
+depends	py3-click py3-cloudpickle py3-fsspec py3-packaging py3-partd py3-toolz py3-yaml python3~3.14
+origin	py3-dask
+repo	community
+file	py3-dask-2026.3.0-r1.apk
+checksum	Q1j2VEnf1JaWJiXghdqQJe9Z3yO5w=
+dep	py3-click	py3-click
+dep	py3-cloudpickle	py3-cloudpickle
+dep	py3-fsspec	py3-fsspec
+dep	py3-packaging	py3-packaging
+dep	py3-partd	py3-partd
+dep	py3-toolz	py3-toolz
+dep	py3-yaml	py3-yaml
+dep	python3~3.14	python3

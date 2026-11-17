@@ -1,0 +1,15 @@
+name	nginx-mod-http-set-misc
+version	1.30.6-r0
+description	Nginx third-party module http-set-misc (version v0.34)
+url	https://github.com/openresty/set-misc-nginx-module
+license	BSD-2-Clause
+size	11458
+installed-size	23075
+depends	nginx=1.30.6-r0 nginx-mod-devel-kit so:libc.musl-armhf.so.1
+origin	nginx
+repo	main
+file	nginx-mod-http-set-misc-1.30.6-r0.apk
+checksum	Q1H34+zHBNaQ0CGxKHYfeE4b/GNqw=
+dep	nginx=1.30.6-r0	nginx
+dep	nginx-mod-devel-kit	nginx-mod-devel-kit
+dep	so:libc.musl-armhf.so.1	musl

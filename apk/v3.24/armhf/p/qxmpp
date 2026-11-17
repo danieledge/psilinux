@@ -1,0 +1,23 @@
+name	qxmpp
+version	1.15.1-r0
+description	Cross-platform C++ XMPP client and server library
+url	https://invent.kde.org/libraries/qxmpp
+license	LGPL-2.1-or-later
+size	1452496
+installed-size	3781176
+depends	so:libQt6Core.so.6 so:libQt6Network.so.6 so:libQt6Xml.so.6 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstreamer-1.0.so.0 so:libomemo-c.so.0 so:libstdc++.so.6
+origin	qxmpp
+repo	community
+file	qxmpp-1.15.1-r0.apk
+checksum	Q1Q/9hwj12ycKZAFt3eHSRTzwdtTM=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6Xml.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libomemo-c.so.0	libomemo-c
+dep	so:libstdc++.so.6	libstdc++

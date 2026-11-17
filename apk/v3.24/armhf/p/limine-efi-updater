@@ -1,0 +1,13 @@
+name	limine-efi-updater
+version	12.10.0-r0
+description	Limine auto-updater for EFI payload
+url	https://limine-bootloader.org
+license	BSD-2-Clause
+size	3405
+installed-size	3375
+depends	/bin/sh
+origin	limine
+repo	main
+file	limine-efi-updater-12.10.0-r0.apk
+checksum	Q1w9+lojOG0ytcUd1GtzJoWjmN8ps=
+dep	/bin/sh	busybox-binsh

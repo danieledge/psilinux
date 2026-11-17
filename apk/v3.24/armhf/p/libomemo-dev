@@ -1,0 +1,18 @@
+name	libomemo-dev
+version	0.8.1-r0
+description	Implements XMPP OMEMO (XEP-0384) in C (development files)
+url	https://github.com/gkdr/libomemo
+license	MIT
+size	7809
+installed-size	28325
+depends	libomemo=0.8.1-r0 pc:glib-2.0 pc:libgcrypt pc:mxml pc:sqlite3 pkgconfig
+origin	libomemo
+repo	community
+file	libomemo-dev-0.8.1-r0.apk
+checksum	Q1nqWilUa08w89voyjDlK9rqRGKSE=
+dep	libomemo=0.8.1-r0	libomemo
+dep	pc:glib-2.0	glib-dev
+dep	pc:libgcrypt	libgcrypt-dev
+dep	pc:mxml	mxml-dev
+dep	pc:sqlite3	sqlite-dev
+dep	pkgconfig	pkgconf

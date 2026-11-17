@@ -1,0 +1,14 @@
+name	barkery
+version	0.6.1-r2
+description	WebKit2-based kiosk browser for digital signage
+url	https://github.com/liske/barkery
+license	GPL-3.0-or-later
+size	1279
+installed-size	0
+depends	barkery-browser barkery-weston
+origin	barkery
+repo	community
+file	barkery-0.6.1-r2.apk
+checksum	Q127vLUhGUWjDg/89welGTUAp+nq4=
+dep	barkery-browser	barkery-browser
+dep	barkery-weston	barkery-weston

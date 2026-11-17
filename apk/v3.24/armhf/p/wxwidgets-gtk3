@@ -1,0 +1,44 @@
+name	wxwidgets-gtk3
+version	3.2.9-r0
+description	wxWidgets GUI library (GTK3 components)
+url	https://www.wxwidgets.org/
+license	custom:wxWidgets
+size	5547747
+installed-size	13934476
+depends	so:libEGL.so.1 so:libGL.so.1 so:libSDL2-2.0.so.0 so:libX11.so.6 so:libXtst.so.6 so:libc.musl-armhf.so.1 so:libcairo-gobject.so.2 so:libcairo.so.2 so:libfontconfig.so.1 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgspell-1.so.3 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libgtk-3.so.0 so:libjpeg.so.8 so:libnotify.so.4 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpangoft2-1.0.so.0 so:libpng16.so.16 so:libstdc++.so.6 so:libtiff.so.6 so:libwayland-client.so.0 so:libwayland-egl.so.1 so:libwx_baseu-3.2.so.0 so:libwx_baseu_xml-3.2.so.0 so:libxkbcommon.so.0
+origin	wxwidgets
+repo	community
+file	wxwidgets-gtk3-3.2.9-r0.apk
+checksum	Q1cmAXN07Upnw1skn5/YQyS2dtBp4=
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libGL.so.1	mesa-gl
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libX11.so.6	libx11
+dep	so:libXtst.so.6	libxtst
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo-gobject.so.2	cairo-gobject
+dep	so:libcairo.so.2	cairo
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgspell-1.so.3	gspell
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libnotify.so.4	libnotify
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpangoft2-1.0.so.0	pango
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtiff.so.6	tiff
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-egl.so.1	wayland-libs-egl
+dep	so:libwx_baseu-3.2.so.0	wxwidgets
+dep	so:libwx_baseu_xml-3.2.so.0	wxwidgets
+dep	so:libxkbcommon.so.0	libxkbcommon

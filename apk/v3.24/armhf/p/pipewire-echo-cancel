@@ -1,0 +1,15 @@
+name	pipewire-echo-cancel
+version	1.6.8-r4
+description	WebRTC-based echo canceller module for PipeWire
+url	https://pipewire.org/
+license	MIT
+size	41028
+installed-size	112232
+depends	pipewire=1.6.8-r4 so:libc.musl-armhf.so.1 so:libpipewire-0.3.so.0
+origin	pipewire
+repo	community
+file	pipewire-echo-cancel-1.6.8-r4.apk
+checksum	Q1sskdCyECMx5sXm2F/tGbSNtFdXs=
+dep	pipewire=1.6.8-r4	pipewire
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpipewire-0.3.so.0	pipewire-libs

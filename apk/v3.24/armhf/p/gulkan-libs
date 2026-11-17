@@ -1,0 +1,20 @@
+name	gulkan-libs
+version	0.16.0-r6
+description	GLib library for Vulkan abstraction (libraries)
+url	https://gitlab.freedesktop.org/xrdesktop/gulkan
+license	MIT AND CC-BY-SA-4.0
+size	38179
+installed-size	91364
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libvulkan.so.1
+origin	gulkan
+repo	community
+file	gulkan-libs-0.16.0-r6.apk
+checksum	Q1SNaEF2il9oFRPj9q0BXMPl/oeMM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libvulkan.so.1	vulkan-loader

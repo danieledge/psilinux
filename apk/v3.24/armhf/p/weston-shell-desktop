@@ -1,0 +1,17 @@
+name	weston-shell-desktop
+version	14.0.2-r5
+description	Weston shell: desktop
+url	https://wayland.freedesktop.org/
+license	MIT
+size	24049
+installed-size	50492
+depends	so:libc.musl-armhf.so.1 so:libexec_weston.so.0 so:libpixman-1.so.0 so:libwayland-server.so.0 so:libweston-14.so.0
+origin	weston
+repo	community
+file	weston-shell-desktop-14.0.2-r5.apk
+checksum	Q1NvbL8BeZHm6UXHdtF7P2OXgdfVM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexec_weston.so.0	weston
+dep	so:libpixman-1.so.0	pixman
+dep	so:libwayland-server.so.0	wayland-libs-server
+dep	so:libweston-14.so.0	libweston

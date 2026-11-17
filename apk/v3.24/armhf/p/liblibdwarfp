@@ -1,0 +1,14 @@
+name	liblibdwarfp
+version	2.1.0-r0
+description	Parsing library for DWARF2 and later debugging file format
+url	https://www.prevanders.net/dwarf.html
+license	LGPL-2.1-only
+size	30390
+installed-size	58948
+depends	so:libc.musl-armhf.so.1 so:libdwarf.so.2
+origin	libdwarf
+repo	main
+file	liblibdwarfp-2.1.0-r0.apk
+checksum	Q1aqarVmi8g1NJIiuDj991m2KlPHk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdwarf.so.2	libdwarf

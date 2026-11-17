@@ -1,0 +1,16 @@
+name	libusbmuxd-dev
+version	2.1.1-r0
+description	USB Multiplex Daemon (development files)
+url	https://libimobiledevice.org
+license	LGPL-2.1-or-later
+size	6002
+installed-size	15031
+depends	libusbmuxd=2.1.1-r0 pc:libimobiledevice-glue-1.0>=1.2.0 pc:libplist-2.0>=2.2.0 pkgconfig
+origin	libusbmuxd
+repo	community
+file	libusbmuxd-dev-2.1.1-r0.apk
+checksum	Q1x6NZRZRkrAOVlDxPO5o/ikw68oY=
+dep	libusbmuxd=2.1.1-r0	libusbmuxd
+dep	pc:libimobiledevice-glue-1.0>=1.2.0	libimobiledevice-glue-dev
+dep	pc:libplist-2.0>=2.2.0	libplist-dev
+dep	pkgconfig	pkgconf

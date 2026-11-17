@@ -1,0 +1,15 @@
+name	collectd-pinba
+version	5.12.0-r25
+description	pinba pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	8947
+installed-size	17740
+depends	collectd so:libc.musl-armhf.so.1 so:libprotobuf-c.so.1
+origin	collectd
+repo	community
+file	collectd-pinba-5.12.0-r25.apk
+checksum	Q1V0TV8XHzKnrSdYjNGaCOcKnJgRI=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libprotobuf-c.so.1	protobuf-c

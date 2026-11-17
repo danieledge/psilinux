@@ -1,0 +1,13 @@
+name	py3-opt_einsum-pyc
+version	3.4.0-r2
+description	Precompiled Python bytecode for py3-opt_einsum
+url	https://github.com/dgasmith/opt_einsum
+license	MIT
+size	93496
+installed-size	219901
+depends	python3~3.14
+origin	py3-opt_einsum
+repo	community
+file	py3-opt_einsum-pyc-3.4.0-r2.apk
+checksum	Q1Qc+uIqxbfk29r0La5D+q1ZTz8UY=
+dep	python3~3.14	python3

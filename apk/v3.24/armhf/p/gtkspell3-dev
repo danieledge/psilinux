@@ -1,0 +1,17 @@
+name	gtkspell3-dev
+version	3.0.10-r3
+description	rovides word-processor-style highlighting and replacement of misspelled words in a GtkTextView widget (development files)
+url	https://gtkspell.sourceforge.net/
+license	GPL-2.0-or-later
+size	7448
+installed-size	29055
+depends	gtkspell3=3.0.10-r3 pc:enchant-2 pc:glib-2.0 pc:gtk+-3.0 pkgconfig
+origin	gtkspell3
+repo	community
+file	gtkspell3-dev-3.0.10-r3.apk
+checksum	Q1HkUjNT87sup6EcKxNIWsfyGRffA=
+dep	gtkspell3=3.0.10-r3	gtkspell3
+dep	pc:enchant-2	enchant2-dev
+dep	pc:glib-2.0	glib-dev
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pkgconfig	pkgconf

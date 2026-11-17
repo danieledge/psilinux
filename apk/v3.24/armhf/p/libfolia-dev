@@ -1,0 +1,15 @@
+name	libfolia-dev
+version	2.21-r2
+description	C++ library for FoLiA (Format for Linguistic Annotation) (development files)
+url	https://github.com/LanguageMachines/libfolia
+license	GPL-3.0-only
+size	6522598
+installed-size	29725823
+depends	libfolia=2.21-r2 pc:libxml-2.0 pkgconfig
+origin	libfolia
+repo	community
+file	libfolia-dev-2.21-r2.apk
+checksum	Q1DNwW/ywnNs004bMD06U+4mRrt3s=
+dep	libfolia=2.21-r2	libfolia
+dep	pc:libxml-2.0	libxml2-dev
+dep	pkgconfig	pkgconf

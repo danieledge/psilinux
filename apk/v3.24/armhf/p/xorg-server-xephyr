@@ -1,0 +1,42 @@
+name	xorg-server-xephyr
+version	21.1.26-r0
+description	kdrive based X Server which targets a window on a host X Server as its framebuffer
+url	https://www.x.org/wiki
+license	MIT
+size	810040
+installed-size	1686540
+depends	font-cursor-misc font-misc-misc mesa-egl xkbcomp xkeyboard-config xorg-server-common so:libGL.so.1 so:libX11-xcb.so.1 so:libX11.so.6 so:libXau.so.6 so:libXdmcp.so.6 so:libXfont2.so.2 so:libc.musl-armhf.so.1 so:libepoxy.so.0 so:libnettle.so.8 so:libpixman-1.so.0 so:libudev.so.1 so:libxcb-icccm.so.4 so:libxcb-image.so.0 so:libxcb-keysyms.so.1 so:libxcb-randr.so.0 so:libxcb-render-util.so.0 so:libxcb-render.so.0 so:libxcb-shape.so.0 so:libxcb-shm.so.0 so:libxcb-util.so.1 so:libxcb-xkb.so.1 so:libxcb-xv.so.0 so:libxcb.so.1 so:libxshmfence.so.1
+origin	xorg-server
+repo	community
+file	xorg-server-xephyr-21.1.26-r0.apk
+checksum	Q12DUoe60nTs46eEozgGzXYdcTc7Q=
+dep	font-cursor-misc	font-cursor-misc
+dep	font-misc-misc	font-misc-misc
+dep	mesa-egl	mesa-egl
+dep	xkbcomp	xkbcomp
+dep	xkeyboard-config	xkeyboard-config
+dep	xorg-server-common	xorg-server-common
+dep	so:libGL.so.1	mesa-gl
+dep	so:libX11-xcb.so.1	libx11
+dep	so:libX11.so.6	libx11
+dep	so:libXau.so.6	libxau
+dep	so:libXdmcp.so.6	libxdmcp
+dep	so:libXfont2.so.2	libxfont2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libepoxy.so.0	libepoxy
+dep	so:libnettle.so.8	nettle
+dep	so:libpixman-1.so.0	pixman
+dep	so:libudev.so.1	eudev-libs
+dep	so:libxcb-icccm.so.4	xcb-util-wm
+dep	so:libxcb-image.so.0	xcb-util-image
+dep	so:libxcb-keysyms.so.1	xcb-util-keysyms
+dep	so:libxcb-randr.so.0	libxcb
+dep	so:libxcb-render-util.so.0	xcb-util-renderutil
+dep	so:libxcb-render.so.0	libxcb
+dep	so:libxcb-shape.so.0	libxcb
+dep	so:libxcb-shm.so.0	libxcb
+dep	so:libxcb-util.so.1	xcb-util
+dep	so:libxcb-xkb.so.1	libxcb
+dep	so:libxcb-xv.so.0	libxcb
+dep	so:libxcb.so.1	libxcb
+dep	so:libxshmfence.so.1	libxshmfence

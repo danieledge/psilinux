@@ -1,0 +1,24 @@
+name	phpmyadmin-doc
+version	5.2.3-r0
+description	A Web-based PHP tool for administering MySQL and MariaDB
+url	https://www.phpmyadmin.net/
+license	GPL-2.0-only AND MIT AND BSD-2-Clause
+size	17842
+installed-size	42446
+depends	php83 php83-mysqli php83-bz2 php83-ctype php83-curl php83-gd php83-mbstring php83-openssl php83-session php83-zip php83-xmlwriter php83-iconv
+origin	phpmyadmin
+repo	community
+file	phpmyadmin-doc-5.2.3-r0.apk
+checksum	Q1V/VXQzVvu3hVlHKSSVAlymCa+7k=
+dep	php83	php83
+dep	php83-mysqli	php83-mysqli
+dep	php83-bz2	php83-bz2
+dep	php83-ctype	php83-ctype
+dep	php83-curl	php83-curl
+dep	php83-gd	php83-gd
+dep	php83-mbstring	php83-mbstring
+dep	php83-openssl	php83-openssl
+dep	php83-session	php83-session
+dep	php83-zip	php83-zip
+dep	php83-xmlwriter	php83-xmlwriter
+dep	php83-iconv	php83-iconv

@@ -1,0 +1,14 @@
+name	ergo
+version	2.18.0-r3
+description	Modern IRC server (daemon/ircd) written in Go
+url	https://ergo.chat
+license	MIT
+size	7411856
+installed-size	19683254
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	ergo
+repo	community
+file	ergo-2.18.0-r3.apk
+checksum	Q1U/W38/ePiSkOBEESDFQ2QS+uV9k=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

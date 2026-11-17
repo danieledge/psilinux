@@ -1,0 +1,23 @@
+name	mangowm
+version	0.14.2-r0
+description	Lightweight, high-performance Wayland compositor built on dwl
+url	https://mangowm.github.io/
+license	GPL-3.0-or-later
+size	146365
+installed-size	323156
+depends	so:libc.musl-armhf.so.1 so:libcjson.so.1 so:libinput.so.10 so:libpcre2-8.so.0 so:libpixman-1.so.0 so:libscenefx-0.4.so so:libwayland-client.so.0 so:libwayland-server.so.0 so:libwlroots-0.19.so so:libxcb-icccm.so.4 so:libxkbcommon.so.0
+origin	mangowm
+repo	community
+file	mangowm-0.14.2-r0.apk
+checksum	Q1yi3I5E1lshFpsQZTP0zRjnZgzGE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcjson.so.1	cjson
+dep	so:libinput.so.10	libinput-libs
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libpixman-1.so.0	pixman
+dep	so:libscenefx-0.4.so	scenefx
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-server.so.0	wayland-libs-server
+dep	so:libwlroots-0.19.so	wlroots0.19
+dep	so:libxcb-icccm.so.4	xcb-util-wm
+dep	so:libxkbcommon.so.0	libxkbcommon

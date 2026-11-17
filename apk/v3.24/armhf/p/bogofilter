@@ -1,0 +1,14 @@
+name	bogofilter
+version	1.2.5-r4
+description	Fast Bayesian spam filter
+url	https://bogofilter.sourceforge.io/
+license	GPL-2.0-or-later
+size	292365
+installed-size	695056
+depends	so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	bogofilter
+repo	community
+file	bogofilter-1.2.5-r4.apk
+checksum	Q17cvVD8khBqljVgxTeqrC9Xg5hNU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

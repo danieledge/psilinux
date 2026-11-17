@@ -1,0 +1,13 @@
+name	tunnel
+version	1.1-r1
+description	Script for configuring tunnel interfaces
+url	https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/main/tunnel
+license	GPL-2.0-only
+size	2034
+installed-size	399
+depends	/bin/sh
+origin	tunnel
+repo	main
+file	tunnel-1.1-r1.apk
+checksum	Q1iERsfmSluHaBoZ4UFGJHQMdsHSQ=
+dep	/bin/sh	busybox-binsh

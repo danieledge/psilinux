@@ -1,0 +1,18 @@
+name	bitlbee
+version	3.6-r4
+description	An IRC to other chat networks gateway
+url	https://www.bitlbee.org/
+license	GPL-2.0-or-later
+size	190600
+installed-size	424647
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libgcrypt.so.20 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgnutls.so.30
+origin	bitlbee
+repo	community
+file	bitlbee-3.6-r4.apk
+checksum	Q1e+7z2XHtj8cSCNULBW5dCadCM24=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgnutls.so.30	gnutls

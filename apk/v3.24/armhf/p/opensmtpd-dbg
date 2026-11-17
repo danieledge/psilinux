@@ -1,0 +1,12 @@
+name	opensmtpd-dbg
+version	7.8.0_p0-r0
+description	Secure, reliable, lean, and easy-to configure SMTP server (debug symbols)
+url	https://www.opensmtpd.org/
+license	ISC
+size	2063182
+installed-size	4896964
+depends	!opensmtpd-pam<7.8.0_p0-r0 !opensmtpd-pam>7.8.0_p0-r0 !opensmtpd<7.8.0_p0-r0 !opensmtpd>7.8.0_p0-r0
+origin	opensmtpd
+repo	community
+file	opensmtpd-dbg-7.8.0_p0-r0.apk
+checksum	Q1DO4VNeGivhxL5dzsss1XHBukJPc=

@@ -1,0 +1,24 @@
+name	profanity
+version	0.18.1-r0
+description	Ncurses based XMPP client
+url	https://github.com/profanity-im/profanity
+license	GPL-3.0-or-later
+size	410639
+installed-size	1200827
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgcrypt.so.20 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libncursesw.so.6 so:libotr.so.5 so:libreadline.so.8 so:libsignal-protocol-c.so.2 so:libsqlite3.so.0 so:libstrophe.so.0
+origin	profanity
+repo	community
+file	profanity-0.18.1-r0.apk
+checksum	Q1NQk3/DZyBG+XHIdPrQwB/XoSTEA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libotr.so.5	libotr
+dep	so:libreadline.so.8	readline
+dep	so:libsignal-protocol-c.so.2	libsignal-protocol-c
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstrophe.so.0	libstrophe

@@ -1,0 +1,16 @@
+name	erlang28-odbc
+version	28.5.0.8-r0
+description	General-purpose programming language and runtime environment, version 28
+url	https://www.erlang.org/
+license	Apache-2.0
+size	62768
+installed-size	93593
+depends	erlang28=28.5.0.8-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libodbc.so.2
+origin	erlang28
+repo	community
+file	erlang28-odbc-28.5.0.8-r0.apk
+checksum	Q1HpsSmKdVtgL5B1+jXkYQ4jUk4Uo=
+dep	erlang28=28.5.0.8-r0	erlang28
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libodbc.so.2	unixodbc

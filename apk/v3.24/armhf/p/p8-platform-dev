@@ -1,0 +1,14 @@
+name	p8-platform-dev
+version	2.1.0.1-r3
+description	Platform support library used by libCEC and binary add-ons for Kodi (development files)
+url	https://github.com/Pulse-Eight/platform
+license	GPL
+size	52923
+installed-size	220210
+depends	p8-platform=2.1.0.1-r3 pkgconfig
+origin	p8-platform
+repo	community
+file	p8-platform-dev-2.1.0.1-r3.apk
+checksum	Q1twWgwnUV1UzjSPGFOOdX+5nYH3s=
+dep	p8-platform=2.1.0.1-r3	p8-platform
+dep	pkgconfig	pkgconf

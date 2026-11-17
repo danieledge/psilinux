@@ -1,0 +1,12 @@
+name	forgejo-runner-systemd
+version	12.10.2-r2
+description	CI/CD job runner for Forgejo (systemd files)
+url	https://code.forgejo.org/forgejo/runner
+license	GPL-3.0-or-later
+size	1857
+installed-size	385
+depends	
+origin	forgejo-runner
+repo	community
+file	forgejo-runner-systemd-12.10.2-r2.apk
+checksum	Q17uhm711JI3yM9Z8LzNodcksfqp4=

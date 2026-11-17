@@ -1,0 +1,15 @@
+name	php85-exif
+version	8.5.12-r0
+description	PHP85 extension: EXIF
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0 Apache-2.0
+size	33420
+installed-size	70991
+depends	php85-common php85-mbstring so:libc.musl-armhf.so.1
+origin	php85
+repo	community
+file	php85-exif-8.5.12-r0.apk
+checksum	Q1E/28C3/rew1AOZfNUlQiqNsiDeE=
+dep	php85-common	php85-common
+dep	php85-mbstring	php85-mbstring
+dep	so:libc.musl-armhf.so.1	musl

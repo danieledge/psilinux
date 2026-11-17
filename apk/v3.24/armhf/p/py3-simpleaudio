@@ -1,0 +1,16 @@
+name	py3-simpleaudio
+version	1.0.4-r5
+description	Simple, asynchronous audio playback for Python 3
+url	https://github.com/hamiltron/py-simple-audio
+license	MIT
+size	2040446
+installed-size	2294180
+depends	python3 python3~3.14 so:libasound.so.2 so:libc.musl-armhf.so.1
+origin	py3-simpleaudio
+repo	community
+file	py3-simpleaudio-1.0.4-r5.apk
+checksum	Q1O8xouNmLyF/Pek5e1dmoO0px000=
+dep	python3	python3
+dep	python3~3.14	python3
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl

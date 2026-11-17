@@ -1,0 +1,40 @@
+name	weston
+version	14.0.2-r5
+description	Reference Wayland server
+url	https://wayland.freedesktop.org/
+license	MIT
+size	585136
+installed-size	944963
+depends	/bin/sh so:libEGL.so.1 so:libGLESv2.so.2 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libevdev.so.2 so:libfontconfig.so.1 so:libgbm.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstallocators-1.0.so.0 so:libgstapp-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libinput.so.10 so:libjpeg.so.8 so:liblcms2.so.2 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpipewire-0.3.so.0 so:libpixman-1.so.0 so:libpng16.so.16 so:libwayland-client.so.0 so:libwayland-cursor.so.0 so:libwayland-server.so.0 so:libwebp.so.7 so:libweston-14.so.0 so:libxkbcommon.so.0
+origin	weston
+repo	community
+file	weston-14.0.2-r5.apk
+checksum	Q12ZuXwFzbEEDCVsjonxYBaJ+U4cg=
+dep	/bin/sh	busybox-binsh
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libGLESv2.so.2	mesa-gles
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libevdev.so.2	libevdev
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstallocators-1.0.so.0	gst-plugins-base
+dep	so:libgstapp-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base
+dep	so:libinput.so.10	libinput-libs
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:liblcms2.so.2	lcms2
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpipewire-0.3.so.0	pipewire-libs
+dep	so:libpixman-1.so.0	pixman
+dep	so:libpng16.so.16	libpng
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor
+dep	so:libwayland-server.so.0	wayland-libs-server
+dep	so:libwebp.so.7	libwebp
+dep	so:libweston-14.so.0	libweston
+dep	so:libxkbcommon.so.0	libxkbcommon

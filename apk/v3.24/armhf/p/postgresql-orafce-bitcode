@@ -1,0 +1,13 @@
+name	postgresql-orafce-bitcode
+version	4.10.0-r2
+description	Oracle's compatibility functions and packages for PostgreSQL (bitcode for JIT)
+url	https://github.com/orafce/orafce
+license	0BSD
+size	303787
+installed-size	594068
+depends	postgresql-orafce=4.10.0-r2
+origin	postgresql-orafce
+repo	community
+file	postgresql-orafce-bitcode-4.10.0-r2.apk
+checksum	Q1CnYosZCzT9BiP/GnKHrPsth6q78=
+dep	postgresql-orafce=4.10.0-r2	postgresql-orafce

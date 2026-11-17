@@ -1,0 +1,14 @@
+name	tty-solitaire
+version	1.4.1-r0
+description	ncurses-based klondike solitaire game
+url	https://github.com/mpereira/tty-solitaire
+license	MIT
+size	10257
+installed-size	21728
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	tty-solitaire
+repo	community
+file	tty-solitaire-1.4.1-r0.apk
+checksum	Q18gG4fed0qgFFgpdZpY5BD/vHDWU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

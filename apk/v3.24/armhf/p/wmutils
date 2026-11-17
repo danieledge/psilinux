@@ -1,0 +1,16 @@
+name	wmutils
+version	1.7-r2
+description	Set of X11 windows manipulation tools
+url	https://github.com/wmutils/core
+license	ISC
+size	21054
+installed-size	146112
+depends	so:libc.musl-armhf.so.1 so:libxcb-cursor.so.0 so:libxcb-util.so.1 so:libxcb.so.1
+origin	wmutils
+repo	community
+file	wmutils-1.7-r2.apk
+checksum	Q1vj5RgUzmuCs4D3nysOEUEDmJnAA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxcb-cursor.so.0	xcb-util-cursor
+dep	so:libxcb-util.so.1	xcb-util
+dep	so:libxcb.so.1	libxcb

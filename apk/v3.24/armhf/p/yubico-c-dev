@@ -1,0 +1,13 @@
+name	yubico-c-dev
+version	1.13-r1
+description	YubiKey C low-level library (development files)
+url	https://developers.yubico.com/yubico-c/
+license	BSD-2-Clause
+size	7387
+installed-size	13316
+depends	yubico-c=1.13-r1
+origin	yubico-c
+repo	community
+file	yubico-c-dev-1.13-r1.apk
+checksum	Q14MDKC3kC4OVYrGG1YuQAuBcobCk=
+dep	yubico-c=1.13-r1	yubico-c

@@ -1,0 +1,14 @@
+name	ppp-radius
+version	2.5.3-r0
+description	RADIUS plugin for pppd
+url	https://ppp.samba.org/
+license	GPL-2.0-or-later AND HPND
+size	36361
+installed-size	95846
+depends	ppp-daemon so:libc.musl-armhf.so.1
+origin	ppp
+repo	main
+file	ppp-radius-2.5.3-r0.apk
+checksum	Q1+fi0GaadYzKd9CJMt6oz9k9jdyY=
+dep	ppp-daemon	ppp-daemon
+dep	so:libc.musl-armhf.so.1	musl

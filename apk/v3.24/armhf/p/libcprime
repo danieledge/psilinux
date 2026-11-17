@@ -1,0 +1,22 @@
+name	libcprime
+version	5.0.0-r0
+description	Library for bookmarking, saving activities, sharing files and more
+url	https://gitlab.com/cubocore
+license	GPL-3.0-or-later
+size	214132
+installed-size	554356
+depends	libnotify qt6-qtconnectivity so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libcprime
+repo	community
+file	libcprime-5.0.0-r0.apk
+checksum	Q18z4YjOGOI0n/f77SNZ16QbrzYVY=
+dep	libnotify	libnotify
+dep	qt6-qtconnectivity	qt6-qtconnectivity
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6DBus.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

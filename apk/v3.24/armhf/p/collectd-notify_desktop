@@ -1,0 +1,16 @@
+name	collectd-notify_desktop
+version	5.12.0-r25
+description	notify_desktop pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	4294
+installed-size	9348
+depends	collectd so:libc.musl-armhf.so.1 so:libgobject-2.0.so.0 so:libnotify.so.4
+origin	collectd
+repo	community
+file	collectd-notify_desktop-5.12.0-r25.apk
+checksum	Q1oFepUH53DJQN+IwNof6Gy7uojiI=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libnotify.so.4	libnotify

@@ -1,0 +1,15 @@
+name	grub-mount
+version	2.14-r0
+description	Bootloader with support for Linux, Multiboot and more (mount utility)
+url	https://www.gnu.org/software/grub/
+license	GPL-3.0-or-later
+size	335805
+installed-size	656524
+depends	so:libc.musl-armhf.so.1 so:libdevmapper.so.1.02 so:libfuse3.so.4
+origin	grub
+repo	main
+file	grub-mount-2.14-r0.apk
+checksum	Q1qxywGQkL44YMPN80tnRsLFi0VeU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdevmapper.so.1.02	device-mapper-libs
+dep	so:libfuse3.so.4	fuse3-libs

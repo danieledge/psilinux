@@ -1,0 +1,15 @@
+name	ceres-dev
+version	2.2.0-r0
+description	Large scale non-linear optimization library (development files)
+url	https://ceres-solver.org
+license	BSD-3-Clause AND Apache-2.0
+size	151993
+installed-size	645815
+depends	eigen-dev glog-dev ceres=2.2.0-r0
+origin	ceres
+repo	community
+file	ceres-dev-2.2.0-r0.apk
+checksum	Q1vxUno2ZhIIIYFuWRNAJtGMH1MR0=
+dep	eigen-dev	eigen-dev
+dep	glog-dev	glog-dev
+dep	ceres=2.2.0-r0	ceres

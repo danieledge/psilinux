@@ -1,0 +1,13 @@
+name	libmikmod
+version	3.3.13-r0
+description	module playing library
+url	https://mikmod.sourceforge.net/
+license	LGPL-2.0-or-later AND LGPL-2.1-or-later
+size	102924
+installed-size	216136
+depends	so:libc.musl-armhf.so.1
+origin	libmikmod
+repo	community
+file	libmikmod-3.3.13-r0.apk
+checksum	Q1V/Jp7ue1q0w6fVcELOV1T5FImwk=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	perl-socket
+version	2.040-r0
+description	networking constants and support functions
+url	https://metacpan.org/release/Socket/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	28721
+installed-size	76517
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-socket
+repo	main
+file	perl-socket-2.040-r0.apk
+checksum	Q1RnUi7Pgxbd1CaKL8g9uAHedo/E0=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

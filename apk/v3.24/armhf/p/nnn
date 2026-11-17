@@ -1,0 +1,15 @@
+name	nnn
+version	5.2-r0
+description	The unorthodox terminal file manager
+url	https://github.com/jarun/nnn
+license	BSD-2-Clause
+size	73112
+installed-size	132448
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6 so:libreadline.so.8
+origin	nnn
+repo	community
+file	nnn-5.2-r0.apk
+checksum	Q1Y/y9Uv6ZXQlNfqQj3ZeP0/H9Opg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libreadline.so.8	readline

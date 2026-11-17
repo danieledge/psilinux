@@ -1,0 +1,13 @@
+name	aws-c-mqtt-dev
+version	0.15.2-r0
+description	AWS C99 implementation of the MQTT 3.1.1 specification (development files)
+url	https://github.com/awslabs/aws-c-mqtt
+license	Apache-2.0
+size	26209
+installed-size	111746
+depends	aws-c-mqtt=0.15.2-r0
+origin	aws-c-mqtt
+repo	community
+file	aws-c-mqtt-dev-0.15.2-r0.apk
+checksum	Q16RtGmdZdfvkSbc0ijTZbvaJ+BsA=
+dep	aws-c-mqtt=0.15.2-r0	aws-c-mqtt

@@ -1,0 +1,13 @@
+name	msgpack-cxx-dev
+version	7.0.0-r1
+description	An efficient object serialization library for C++ (development files)
+url	https://msgpack.org
+license	BSL-1.0
+size	395522
+installed-size	5344331
+depends	boost-dev
+origin	msgpack-cxx
+repo	community
+file	msgpack-cxx-dev-7.0.0-r1.apk
+checksum	Q1FNDhdbghc/Pabui9DCjnQWIoKHE=
+dep	boost-dev	boost-dev

@@ -1,0 +1,22 @@
+name	aws-sdk-cpp-s3-crt
+version	1.11.700-r1
+description	Amazon Web Services SDK for C++ (s3-crt)
+url	https://github.com/aws/aws-sdk-cpp
+license	Apache-2.0
+size	435707
+installed-size	1582440
+depends	so:libaws-c-auth.so.1.0.0 so:libaws-c-common.so.1 so:libaws-c-http.so.1.0.0 so:libaws-c-io.so.1.0.0 so:libaws-c-s3.so.0unstable so:libaws-cpp-sdk-core.so.1.11 so:libaws-crt-cpp.so so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	aws-sdk-cpp
+repo	community
+file	aws-sdk-cpp-s3-crt-1.11.700-r1.apk
+checksum	Q13w8M04sRRO8SyYpcpdUU+0ZYhV4=
+dep	so:libaws-c-auth.so.1.0.0	aws-c-auth
+dep	so:libaws-c-common.so.1	aws-c-common
+dep	so:libaws-c-http.so.1.0.0	aws-c-http
+dep	so:libaws-c-io.so.1.0.0	aws-c-io
+dep	so:libaws-c-s3.so.0unstable	aws-c-s3
+dep	so:libaws-cpp-sdk-core.so.1.11	aws-sdk-cpp-core
+dep	so:libaws-crt-cpp.so	aws-crt-cpp
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

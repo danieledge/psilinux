@@ -1,0 +1,16 @@
+name	rofi-calc
+version	2.5.1-r0
+description	Rofi plugin that uses qalc to parse natural language input and provide results
+url	https://github.com/svenstaro/rofi-calc
+license	MIT
+size	7353
+installed-size	13648
+depends	cmd:rofi qalc so:libc.musl-armhf.so.1 so:libglib-2.0.so.0
+origin	rofi-calc
+repo	community
+file	rofi-calc-2.5.1-r0.apk
+checksum	Q1QPpK/x3DqDKVvJl/UtVmZ4ey/FY=
+dep	cmd:rofi	rofi-wayland
+dep	qalc	qalc
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib

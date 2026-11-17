@@ -1,0 +1,14 @@
+name	perl-list-binarysearch-xs
+version	0.09-r3
+description	Binary Search a sorted array with XS routines
+url	https://metacpan.org/release/List-BinarySearch-XS/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	11753
+installed-size	23532
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-list-binarysearch-xs
+repo	community
+file	perl-list-binarysearch-xs-0.09-r3.apk
+checksum	Q1hgRaGpWwEuetVV9cOpahiDaGlRk=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

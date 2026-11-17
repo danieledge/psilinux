@@ -1,0 +1,13 @@
+name	xdg-user-dirs
+version	0.20-r0
+description	Manage user directories like ~/Desktop and ~/Music
+url	https://www.freedesktop.org/wiki/Software/xdg-user-dirs
+license	MIT AND GPL-2.0-only
+size	11520
+installed-size	23999
+depends	so:libc.musl-armhf.so.1
+origin	xdg-user-dirs
+repo	community
+file	xdg-user-dirs-0.20-r0.apk
+checksum	Q1SWN+Y85joBPX96yotPXFz5cK2ec=
+dep	so:libc.musl-armhf.so.1	musl

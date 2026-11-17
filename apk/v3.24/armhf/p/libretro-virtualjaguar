@@ -1,0 +1,13 @@
+name	libretro-virtualjaguar
+version	0_git20241021-r0
+description	port of Virtual Jaguar to Libretro
+url	https://github.com/libretro/virtualjaguar-libretro
+license	GPL-3.0-only
+size	661020
+installed-size	2107400
+depends	so:libc.musl-armhf.so.1
+origin	libretro-virtualjaguar
+repo	community
+file	libretro-virtualjaguar-0_git20241021-r0.apk
+checksum	Q1TrP14DZhrVn4F2Yj/zcSRkjBOTs=
+dep	so:libc.musl-armhf.so.1	musl

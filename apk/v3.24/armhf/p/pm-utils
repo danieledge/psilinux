@@ -1,0 +1,15 @@
+name	pm-utils
+version	1.4.1-r5
+description	small collection of scripts that handle suspend and resume on behalf of HAL
+url	https://pm-utils.freedesktop.org/wiki/
+license	GPL-2.0-only
+size	32713
+installed-size	82714
+depends	bash kbd so:libc.musl-armhf.so.1
+origin	pm-utils
+repo	main
+file	pm-utils-1.4.1-r5.apk
+checksum	Q1A/2Z/QjGX9ntBNdaFIm+R0h4BnM=
+dep	bash	bash
+dep	kbd	kbd
+dep	so:libc.musl-armhf.so.1	musl

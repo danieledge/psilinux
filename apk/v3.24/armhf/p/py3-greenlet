@@ -1,0 +1,16 @@
+name	py3-greenlet
+version	3.5.0-r0
+description	Lightweight in-process concurrent programming
+url	https://pypi.org/project/greenlet
+license	MIT
+size	149294
+installed-size	474575
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	py3-greenlet
+repo	community
+file	py3-greenlet-3.5.0-r0.apk
+checksum	Q1I7JHIB8xBip4tsIg0aqIbCkqSsU=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

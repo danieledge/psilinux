@@ -1,0 +1,13 @@
+name	cue-cli
+version	0.16.0-r4
+description	CLI for CUE configuration and validation language
+url	https://cuelang.org/
+license	Apache-2.0
+size	9179902
+installed-size	24264220
+depends	so:libc.musl-armhf.so.1
+origin	cue-cli
+repo	community
+file	cue-cli-0.16.0-r4.apk
+checksum	Q1Yx86390ir0ezcf4MvRn3hep52Kg=
+dep	so:libc.musl-armhf.so.1	musl

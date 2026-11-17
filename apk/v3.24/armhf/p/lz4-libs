@@ -1,0 +1,13 @@
+name	lz4-libs
+version	1.10.0-r1
+description	LZ4 is lossless compression algorithm with fast decoder @ multiple GB/s per core. (libraries)
+url	https://github.com/lz4/lz4
+license	BSD-2-Clause AND GPL-2.0-or-later
+size	62487
+installed-size	119980
+depends	so:libc.musl-armhf.so.1
+origin	lz4
+repo	main
+file	lz4-libs-1.10.0-r1.apk
+checksum	Q1hF8umOu2GfJhK5KxyW/XQrDaYh4=
+dep	so:libc.musl-armhf.so.1	musl

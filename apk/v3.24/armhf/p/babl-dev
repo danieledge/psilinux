@@ -1,0 +1,16 @@
+name	babl-dev
+version	0.1.118-r0
+description	Dynamic, any to any, pixel format conversion library (development files)
+url	https://gegl.org/babl
+license	LGPL-3.0-or-later
+size	19689
+installed-size	115033
+depends	babl-tools=0.1.118-r0 babl=0.1.118-r0 pc:lcms2>=2.8 pkgconfig
+origin	babl
+repo	community
+file	babl-dev-0.1.118-r0.apk
+checksum	Q1r0z01olhIN735K7v6vkZbNR94a8=
+dep	babl-tools=0.1.118-r0	babl-tools
+dep	babl=0.1.118-r0	babl
+dep	pc:lcms2>=2.8	lcms2-dev
+dep	pkgconfig	pkgconf

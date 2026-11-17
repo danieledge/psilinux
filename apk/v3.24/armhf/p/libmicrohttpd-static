@@ -1,0 +1,13 @@
+name	libmicrohttpd-static
+version	1.0.5-r0
+description	small C library that is supposed to make it easy to run an HTTP server as part of another application (static library)
+url	https://www.gnu.org/software/libmicrohttpd/
+license	LGPL-2.1-or-later
+size	100044
+installed-size	235502
+depends	libmicrohttpd-dev
+origin	libmicrohttpd
+repo	main
+file	libmicrohttpd-static-1.0.5-r0.apk
+checksum	Q1Hu1pUE0zZx+tXp40yLtbf3Cwmys=
+dep	libmicrohttpd-dev	libmicrohttpd-dev

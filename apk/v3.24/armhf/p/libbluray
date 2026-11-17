@@ -1,0 +1,14 @@
+name	libbluray
+version	1.4.0-r0
+description	Library for Blu-Ray disc playback
+url	https://www.videolan.org/developers/libbluray.html
+license	LGPL-2.1-or-later
+size	114126
+installed-size	246572
+depends	so:libc.musl-armhf.so.1 so:libudfread.so.3
+origin	libbluray
+repo	community
+file	libbluray-1.4.0-r0.apk
+checksum	Q17j+tJc65GIt6q26J3DNsZoX1X5o=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libudfread.so.3	libudfread

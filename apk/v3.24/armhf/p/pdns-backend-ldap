@@ -1,0 +1,19 @@
+name	pdns-backend-ldap
+version	5.0.7-r0
+description	ldap backend module for PowerDNS
+url	https://www.powerdns.com/
+license	GPL-2.0-only WITH OpenSSL-Exception
+size	58416
+installed-size	136828
+depends	pdns so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkrb5.so.3 so:liblber.so.2 so:libldap.so.2 so:libstdc++.so.6
+origin	pdns
+repo	community
+file	pdns-backend-ldap-5.0.7-r0.apk
+checksum	Q18NCNURtJqBarhF6fp8ImBp3peRw=
+dep	pdns	pdns
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libkrb5.so.3	krb5-libs
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap
+dep	so:libstdc++.so.6	libstdc++

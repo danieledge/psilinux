@@ -1,0 +1,14 @@
+name	py3-sympy
+version	1.14.0-r2
+description	Computer algebra system written in pure Python
+url	https://www.sympy.org/
+license	BSD-3-Clause
+size	3889625
+installed-size	17245307
+depends	py3-mpmath python3~3.14
+origin	py3-sympy
+repo	community
+file	py3-sympy-1.14.0-r2.apk
+checksum	Q1hE7E2naWD11JK90wubHNPmcxdkg=
+dep	py3-mpmath	py3-mpmath
+dep	python3~3.14	python3

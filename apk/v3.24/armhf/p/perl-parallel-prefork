@@ -1,0 +1,18 @@
+name	perl-parallel-prefork
+version	0.18-r3
+description	A simple prefork server framework
+url	https://metacpan.org/release/Parallel-Prefork/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	8045
+installed-size	19825
+depends	perl perl-signal-mask perl-class-accessor-lite perl-scope-guard perl-proc-wait3 perl-list-moreutils
+origin	perl-parallel-prefork
+repo	community
+file	perl-parallel-prefork-0.18-r3.apk
+checksum	Q1+BY+dGmmgXbI3sfftcYo1SN8JmA=
+dep	perl	perl
+dep	perl-signal-mask	perl-signal-mask
+dep	perl-class-accessor-lite	perl-class-accessor-lite
+dep	perl-scope-guard	perl-scope-guard
+dep	perl-proc-wait3	perl-proc-wait3
+dep	perl-list-moreutils	perl-list-moreutils

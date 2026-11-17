@@ -1,0 +1,16 @@
+name	irust
+version	1.74.0-r0
+description	Cross-platform Rust REPL
+url	https://github.com/sigmaSd/IRust
+license	MIT
+size	607483
+installed-size	1155128
+depends	cargo rust so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	irust
+repo	community
+file	irust-1.74.0-r0.apk
+checksum	Q1XMMM3kp3n9eWpLJwHEY3WSXcWys=
+dep	cargo	cargo
+dep	rust	rust
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

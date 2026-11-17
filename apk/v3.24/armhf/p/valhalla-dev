@@ -1,0 +1,27 @@
+name	valhalla-dev
+version	3.6.0-r2
+description	Open Source Routing Engine for OpenStreetMap (development files)
+url	https://valhalla.readthedocs.io/
+license	MIT
+size	706300
+installed-size	4900817
+depends	boost-dev curl-dev gtest-dev libspatialite-dev luajit-dev lz4-dev prime_server-dev protobuf-dev python3-dev rapidjson-dev sqlite-dev zeromq-dev zlib-dev valhalla=3.6.0-r2 pkgconfig
+origin	valhalla
+repo	community
+file	valhalla-dev-3.6.0-r2.apk
+checksum	Q15LBuEA8lhyPEPeINihuqq2Bev+A=
+dep	boost-dev	boost-dev
+dep	curl-dev	curl-dev
+dep	gtest-dev	gtest-dev
+dep	libspatialite-dev	libspatialite-dev
+dep	luajit-dev	luajit-dev
+dep	lz4-dev	lz4-dev
+dep	prime_server-dev	prime_server-dev
+dep	protobuf-dev	protobuf-dev
+dep	python3-dev	python3-dev
+dep	rapidjson-dev	rapidjson-dev
+dep	sqlite-dev	sqlite-dev
+dep	zeromq-dev	zeromq-dev
+dep	zlib-dev	zlib-dev
+dep	valhalla=3.6.0-r2	valhalla
+dep	pkgconfig	pkgconf

@@ -1,0 +1,18 @@
+name	showtime
+version	50.0-r2
+description	Watch without distraction
+url	https://gitlab.gnome.org/GNOME/showtime
+license	GPL-3.0-or-later
+size	70056
+installed-size	218007
+depends	gst-plugins-rs-gtk4 py3-cryptography py3-gettext py3-gobject3 python3 python3~3.14
+origin	showtime
+repo	community
+file	showtime-50.0-r2.apk
+checksum	Q1BdkhyEB8YEt6JiqG6Hr9eEQ4bTA=
+dep	gst-plugins-rs-gtk4	gst-plugins-rs-gtk4
+dep	py3-cryptography	py3-cryptography
+dep	py3-gettext	py3-gettext
+dep	py3-gobject3	py3-gobject3
+dep	python3	python3
+dep	python3~3.14	python3

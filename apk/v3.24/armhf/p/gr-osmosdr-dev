@@ -1,0 +1,20 @@
+name	gr-osmosdr-dev
+version	0.2.6-r5
+description	osmocom Gnu Radio Blocks (development files)
+url	https://osmocom.org/projects/gr-osmosdr/wiki
+license	GPL-3.0-only
+size	11334
+installed-size	49971
+depends	airspyhf-dev airspyone-host-dev bladerf-dev gnuradio-dev gr-funcube-dev hackrf-dev librtlsdr-dev gr-osmosdr=0.2.6-r5
+origin	gr-osmosdr
+repo	community
+file	gr-osmosdr-dev-0.2.6-r5.apk
+checksum	Q1VY1rML/fbF+OOF+0SxAVpRBsXkg=
+dep	airspyhf-dev	airspyhf-dev
+dep	airspyone-host-dev	airspyone-host-dev
+dep	bladerf-dev	bladerf-dev
+dep	gnuradio-dev	gnuradio-dev
+dep	gr-funcube-dev	gr-funcube-dev
+dep	hackrf-dev	hackrf-dev
+dep	librtlsdr-dev	librtlsdr-dev
+dep	gr-osmosdr=0.2.6-r5	gr-osmosdr

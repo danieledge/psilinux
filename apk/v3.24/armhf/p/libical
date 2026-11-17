@@ -1,0 +1,20 @@
+name	libical
+version	3.0.20-r1
+description	Reference implementation of the iCalendar format
+url	https://libical.github.io/libical/
+license	LGPL-2.1-only OR MPL-2.0
+size	378450
+installed-size	1205380
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libicui18n.so.78 so:libicuuc.so.78 so:libstdc++.so.6 so:libxml2.so.2
+origin	libical
+repo	main
+file	libical-3.0.20-r1.apk
+checksum	Q1IaSPdjWJsGv+QKFm64tZpghn5Qo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxml2.so.2	libxml2

@@ -1,0 +1,17 @@
+name	libm17n-core
+version	1.8.6-r1
+description	gnu M-text multilingualization library (-core lib)
+url	https://www.nongnu.org/m17n/
+license	LGPL-2.1-or-later
+size	56733
+installed-size	116000
+depends	m17n-db so:libc.musl-armhf.so.1 so:libintl.so.8 so:libthai.so.0 so:libxml2.so.2
+origin	m17n-lib
+repo	community
+file	libm17n-core-1.8.6-r1.apk
+checksum	Q1KFL4vZF+srl4+SPX0lvR3pAbAbY=
+dep	m17n-db	m17n-db
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libintl.so.8	libintl
+dep	so:libthai.so.0	libthai
+dep	so:libxml2.so.2	libxml2

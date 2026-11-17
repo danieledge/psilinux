@@ -1,0 +1,14 @@
+name	cargo-audit
+version	0.22.1-r0
+description	Audit Cargo.lock for crates with security vulnerabilities
+url	https://github.com/RustSec/rustsec
+license	MIT OR Apache-2.0
+size	3951438
+installed-size	7886868
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	cargo-audit
+repo	community
+file	cargo-audit-0.22.1-r0.apk
+checksum	Q1NSSvnzgUOYeJey9BGGofdocWkPs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

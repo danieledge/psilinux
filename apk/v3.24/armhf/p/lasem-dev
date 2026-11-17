@@ -1,0 +1,20 @@
+name	lasem-dev
+version	0.5.1-r2
+description	A library for rendering SVG and Mathml, implementing a DOM like API (development files)
+url	https://gitlab.gnome.org/Archive/lasem
+license	LGPL-2.0 GPL-2.0
+size	322245
+installed-size	1338044
+depends	lasem=0.5.1-r2 pc:cairo>=1.2 pc:gdk-pixbuf-2.0 pc:glib-2.0 pc:gobject-2.0 pc:libxml-2.0 pc:pangocairo pkgconfig
+origin	lasem
+repo	community
+file	lasem-dev-0.5.1-r2.apk
+checksum	Q1GKdx1SkfP2H+CR9rnEoboZ+Vq/M=
+dep	lasem=0.5.1-r2	lasem
+dep	pc:cairo>=1.2	cairo-dev
+dep	pc:gdk-pixbuf-2.0	gdk-pixbuf-dev
+dep	pc:glib-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pc:libxml-2.0	libxml2-dev
+dep	pc:pangocairo	pango-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	ocaml5-integers
+version	0.7.0-r3
+description	Various signed and unsigned integer types for OCaml
+url	https://github.com/ocamllabs/ocaml-integers
+license	MIT
+size	340993
+installed-size	849045
+depends	ocaml5-compiler-libs so:libc.musl-armhf.so.1
+origin	ocaml5-integers
+repo	community
+file	ocaml5-integers-0.7.0-r3.apk
+checksum	Q1mkDi3xVDq/3LRBRDv0FGtfsURSg=
+dep	ocaml5-compiler-libs	ocaml5-compiler-libs
+dep	so:libc.musl-armhf.so.1	musl

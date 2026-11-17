@@ -1,0 +1,15 @@
+name	apcupsd-webif
+version	3.14.14-r6
+description	A Daemon to control APC UPSes
+url	http://www.apcupsd.org
+license	GPL-2.0-or-later
+size	30944
+installed-size	107768
+depends	util-linux so:libc.musl-armhf.so.1 so:libgd.so.3
+origin	apcupsd
+repo	main
+file	apcupsd-webif-3.14.14-r6.apk
+checksum	Q1giouZ6uT1kEzsXrVAZRDTAk/AD8=
+dep	util-linux	util-linux
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgd.so.3	libgd

@@ -1,0 +1,14 @@
+name	iodine
+version	0.8.0-r2
+description	IP over DNS tunnel
+url	https://code.kryo.se/iodine/
+license	ISC
+size	62681
+installed-size	121312
+depends	so:libc.musl-armhf.so.1 so:libz.so.1
+origin	iodine
+repo	community
+file	iodine-0.8.0-r2.apk
+checksum	Q1Wq9Izp5tCOYvCua0FIwdk/uRlUw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libz.so.1	zlib

@@ -1,0 +1,23 @@
+name	libvirt-lxc
+version	12.3.0-r0
+description	LXC driver for libvirt
+url	https://libvirt.org/
+license	LGPL-2.1-or-later
+size	150481
+installed-size	336284
+depends	libvirt-daemon=12.3.0-r0 libvirt-common-drivers=12.3.0-r0 so:libblkid.so.1 so:libc.musl-armhf.so.1 so:libcap-ng.so.0 so:libfuse3.so.4 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libintl.so.8 so:libtirpc.so.3 so:libvirt.so.0
+origin	libvirt
+repo	community
+file	libvirt-lxc-12.3.0-r0.apk
+checksum	Q15j0BWp86wknq6ARUXcy48US4FfA=
+dep	libvirt-daemon=12.3.0-r0	libvirt-daemon
+dep	libvirt-common-drivers=12.3.0-r0	libvirt-common-drivers
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap-ng.so.0	libcap-ng
+dep	so:libfuse3.so.4	fuse3-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libtirpc.so.3	libtirpc
+dep	so:libvirt.so.0	libvirt-libs

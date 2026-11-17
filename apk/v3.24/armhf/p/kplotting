@@ -1,0 +1,17 @@
+name	kplotting
+version	6.26.0-r0
+description	Lightweight plotting framework
+url	https://community.kde.org/Frameworks
+license	LGPL-2.1-or-later
+size	35747
+installed-size	88996
+depends	so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libstdc++.so.6
+origin	kplotting
+repo	community
+file	kplotting-6.26.0-r0.apk
+checksum	Q1m0vJE5fS1g5QtJuh4y08TZi6blc=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libstdc++.so.6	libstdc++

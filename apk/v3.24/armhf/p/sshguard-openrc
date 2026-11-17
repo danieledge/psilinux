@@ -1,0 +1,12 @@
+name	sshguard-openrc
+version	2.5.1-r0
+description	Protects hosts from brute-force attacks against SSH and other services (OpenRC init scripts)
+url	https://www.sshguard.net/
+license	ISC
+size	2177
+installed-size	829
+depends	
+origin	sshguard
+repo	main
+file	sshguard-openrc-2.5.1-r0.apk
+checksum	Q1p6prCw2CqMk0jhYT0WslqRc/Hf4=

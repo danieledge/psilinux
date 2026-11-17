@@ -1,0 +1,16 @@
+name	fbida-exiftran
+version	2.15-r0
+description	exiftran tool from fbida
+url	https://www.kraxel.org/blog/linux/fbida/
+license	GPL-2.0-only
+size	20388
+installed-size	38596
+depends	so:libc.musl-armhf.so.1 so:libexif.so.12 so:libjpeg.so.8 so:libpixman-1.so.0
+origin	fbida
+repo	community
+file	fbida-exiftran-2.15-r0.apk
+checksum	Q1Hz4TbEAg2M0xhH0RaR3/nHGOxZ4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexif.so.12	libexif
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpixman-1.so.0	pixman

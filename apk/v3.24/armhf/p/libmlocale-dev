@@ -1,0 +1,15 @@
+name	libmlocale-dev
+version	0.8.3-r0
+description	Nemo libmlocale (development files)
+url	https://github.com/sailfishos/libmlocale
+license	LGPL-2.1-only
+size	35862
+installed-size	145323
+depends	icu-dev libmlocale=0.8.3-r0 pkgconfig
+origin	libmlocale
+repo	community
+file	libmlocale-dev-0.8.3-r0.apk
+checksum	Q1eSfVebCMV5EIUdtR788tLeMgzDk=
+dep	icu-dev	icu-dev
+dep	libmlocale=0.8.3-r0	libmlocale
+dep	pkgconfig	pkgconf

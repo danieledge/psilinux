@@ -1,0 +1,16 @@
+name	lucene++-dev
+version	3.0.9-r2
+description	C++ port of the popular Java Lucene library (development files)
+url	https://github.com/luceneplusplus/LucenePlusPlus
+license	LGPL-3.0-or-later OR Apache-2.0
+size	340035
+installed-size	1387608
+depends	boost-dev zlib-dev lucene++=3.0.9-r2 pkgconfig
+origin	lucene++
+repo	community
+file	lucene++-dev-3.0.9-r2.apk
+checksum	Q1NDTDi8nSa3GMuS6/EQAPF9MXLwY=
+dep	boost-dev	boost-dev
+dep	zlib-dev	zlib-dev
+dep	lucene++=3.0.9-r2	lucene++
+dep	pkgconfig	pkgconf

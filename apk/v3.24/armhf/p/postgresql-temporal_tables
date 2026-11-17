@@ -1,0 +1,14 @@
+name	postgresql-temporal_tables
+version	1.2.2-r3
+description	Temporal Tables PostgreSQL Extension
+url	https://github.com/arkhipov/temporal_tables
+license	BSD-2-Clause
+size	29098
+installed-size	49483
+depends	postgresql18 so:libc.musl-armhf.so.1
+origin	postgresql-temporal_tables
+repo	community
+file	postgresql-temporal_tables-1.2.2-r3.apk
+checksum	Q1bgjYvaXLreEwsb+Apl72Hm5A8jk=
+dep	postgresql18	postgresql18
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	emacspeak-server-eflite
+version	0_git20250415-r1
+description	CMU Flite (festival-lite) speech server for Emacspeak
+url	https://github.com/mgorse/eflite
+license	GPL-2.0-or-later
+size	14728
+installed-size	27004
+depends	so:libc.musl-armhf.so.1 so:libflite.so.1 so:libflite_cmu_us_kal16.so.1
+origin	emacspeak-server-eflite
+repo	community
+file	emacspeak-server-eflite-0_git20250415-r1.apk
+checksum	Q1HGmvSfjHHPnmDVmnXu3ou0kkxfE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libflite.so.1	flite
+dep	so:libflite_cmu_us_kal16.so.1	flite

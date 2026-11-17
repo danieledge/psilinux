@@ -1,0 +1,14 @@
+name	fish-dev
+version	4.6.0-r1
+description	Modern interactive commandline shell (development files)
+url	https://fishshell.com/
+license	GPL-2.0-only
+size	1857
+installed-size	279
+depends	fish-tools pkgconfig
+origin	fish
+repo	main
+file	fish-dev-4.6.0-r1.apk
+checksum	Q1J216bkFudL+e3THPEBr0ouNuYXs=
+dep	fish-tools	fish-tools
+dep	pkgconfig	pkgconf

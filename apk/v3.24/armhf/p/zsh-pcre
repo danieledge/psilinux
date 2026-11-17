@@ -1,0 +1,15 @@
+name	zsh-pcre
+version	5.9-r7
+description	PCRE module for ZSH
+url	https://www.zsh.org/
+license	MIT-Modern-Variant AND GPL-2.0-only
+size	6200
+installed-size	9516
+depends	zsh=5.9-r7 so:libc.musl-armhf.so.1 so:libpcre.so.1
+origin	zsh
+repo	main
+file	zsh-pcre-5.9-r7.apk
+checksum	Q1eDVlCj1TnB7HRSMfj3O7Tbv9bRY=
+dep	zsh=5.9-r7	zsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcre.so.1	pcre

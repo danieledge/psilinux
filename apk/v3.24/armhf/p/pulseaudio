@@ -1,0 +1,38 @@
+name	pulseaudio
+version	17.0-r7
+description	featureful, general-purpose sound server
+url	https://www.freedesktop.org/wiki/Software/PulseAudio/
+license	LGPL-2.1-or-later
+size	640791
+installed-size	1983903
+depends	/bin/sh so:libICE.so.6 so:libSM.so.6 so:libX11.so.6 so:libXtst.so.6 so:libc.musl-armhf.so.1 so:libcap.so.2 so:libdbus-1.so.3 so:libfftw3f.so.3 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstapp-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstreamer-1.0.so.0 so:libintl.so.8 so:libltdl.so.7 so:liborc-0.4.so.0 so:libpulse.so.0 so:libpulsecommon-17.0.so so:libpulsecore-17.0.so so:libspeexdsp.so.1 so:libudev.so.1 so:libwebrtc-audio-processing-1.so.3 so:libxcb.so.1
+origin	pulseaudio
+repo	community
+file	pulseaudio-17.0-r7.apk
+checksum	Q1aD9pxhWBjvFpr2SRafY4jFVUJb4=
+dep	/bin/sh	busybox-binsh
+dep	so:libICE.so.6	libice
+dep	so:libSM.so.6	libsm
+dep	so:libX11.so.6	libx11
+dep	so:libXtst.so.6	libxtst
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libfftw3f.so.3	fftw-single-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstapp-1.0.so.0	gst-plugins-base
+dep	so:libgstbase-1.0.so.0	gstreamer
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libintl.so.8	libintl
+dep	so:libltdl.so.7	libltdl
+dep	so:liborc-0.4.so.0	orc
+dep	so:libpulse.so.0	libpulse
+dep	so:libpulsecommon-17.0.so	libpulse
+dep	so:libpulsecore-17.0.so	libpulse
+dep	so:libspeexdsp.so.1	speexdsp
+dep	so:libudev.so.1	eudev-libs
+dep	so:libwebrtc-audio-processing-1.so.3	webrtc-audio-processing-1
+dep	so:libxcb.so.1	libxcb

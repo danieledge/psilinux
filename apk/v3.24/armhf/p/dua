@@ -1,0 +1,14 @@
+name	dua
+version	2.34.0-r0
+description	Tool to conveniently learn about the usage of disk space
+url	https://github.com/Byron/dua-cli
+license	MIT
+size	1002866
+installed-size	1915356
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	dua
+repo	community
+file	dua-2.34.0-r0.apk
+checksum	Q1rT3+4c22WSCNebx35FDmDTUPyvI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

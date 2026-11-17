@@ -1,0 +1,13 @@
+name	busybox
+version	1.37.0-r31
+description	Size optimized toolbox of many common UNIX utilities
+url	https://busybox.net/
+license	GPL-2.0-only
+size	569477
+installed-size	1021836
+depends	so:libc.musl-armhf.so.1
+origin	busybox
+repo	main
+file	busybox-1.37.0-r31.apk
+checksum	Q1sDXzQaKnyBanDGT5LJ2fnrrTcBc=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,21 @@
+name	ruby-opennebula
+version	6.10.2-r0
+description	Ruby libraries needed to talk to OpenNebula
+url	https://opennebula.io
+license	Apache-2.0
+size	229421
+installed-size	1306699
+depends	ruby ruby-csv ruby-ipaddress ruby-nokogiri ruby-parse-cron ruby-rbvmomi2 ruby-rexml ruby-treetop ruby-xmlrpc
+origin	opennebula
+repo	community
+file	ruby-opennebula-6.10.2-r0.apk
+checksum	Q149Daxp50OJ6tETt0G6wsXBOZLQs=
+dep	ruby	ruby
+dep	ruby-csv	ruby-csv
+dep	ruby-ipaddress	ruby-ipaddress
+dep	ruby-nokogiri	ruby-nokogiri
+dep	ruby-parse-cron	ruby-parse-cron
+dep	ruby-rbvmomi2	ruby-rbvmomi2
+dep	ruby-rexml	ruby-rexml
+dep	ruby-treetop	ruby-treetop
+dep	ruby-xmlrpc	ruby-xmlrpc

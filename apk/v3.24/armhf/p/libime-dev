@@ -1,0 +1,14 @@
+name	libime-dev
+version	1.1.14-r0
+description	Fcitx input method engine library (development files)
+url	https://github.com/fcitx/libime
+license	LGPL-2.1-or-later
+size	30190
+installed-size	132018
+depends	boost-dev libime=1.1.14-r0
+origin	libime
+repo	community
+file	libime-dev-1.1.14-r0.apk
+checksum	Q1F2BMpvYKS+FZuLHo13EEVIrvPnY=
+dep	boost-dev	boost-dev
+dep	libime=1.1.14-r0	libime

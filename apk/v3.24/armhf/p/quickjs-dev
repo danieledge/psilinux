@@ -1,0 +1,14 @@
+name	quickjs-dev
+version	0.20250913-r0
+description	Small and embeddable Javascript engine (development files)
+url	https://bellard.org/quickjs/
+license	MIT
+size	12924
+installed-size	49686
+depends	quickjs=0.20250913-r0 quickjs-libs=0.20250913-r0
+origin	quickjs
+repo	community
+file	quickjs-dev-0.20250913-r0.apk
+checksum	Q1LXO+W9E7FCsfE82IutNLH7AMvio=
+dep	quickjs=0.20250913-r0	quickjs
+dep	quickjs-libs=0.20250913-r0	quickjs-libs

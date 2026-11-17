@@ -1,0 +1,15 @@
+name	py3-josepy
+version	2.2.0-r0
+description	JOSE protocol implementation in Python
+url	https://github.com/certbot/josepy
+license	Apache-2.0
+size	27390
+installed-size	92122
+depends	py3-cryptography py3-openssl python3~3.14
+origin	py3-josepy
+repo	community
+file	py3-josepy-2.2.0-r0.apk
+checksum	Q1YXa4sM9YR1/Trk8KWjK62LJr3Vo=
+dep	py3-cryptography	py3-cryptography
+dep	py3-openssl	py3-openssl
+dep	python3~3.14	python3

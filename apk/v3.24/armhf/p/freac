@@ -1,0 +1,17 @@
+name	freac
+version	1.1.7-r0
+description	Audio converter and CD ripper with support for various popular formats and encoders
+url	https://www.freac.org/
+license	GPL-2.0-or-later
+size	2019832
+installed-size	5877130
+depends	so:libboca-1.0.so.3 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libsmooth-0.9.so.0 so:libstdc++.so.6
+origin	freac
+repo	community
+file	freac-1.1.7-r0.apk
+checksum	Q1cYQna0XG6oRTTjfy/+6FHHmnk3k=
+dep	so:libboca-1.0.so.3	boca
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsmooth-0.9.so.0	smooth
+dep	so:libstdc++.so.6	libstdc++

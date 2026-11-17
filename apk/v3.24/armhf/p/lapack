@@ -1,0 +1,16 @@
+name	lapack
+version	3.12.1-r1
+description	Linear Algebra PACKage
+url	https://www.netlib.org/lapack/
+license	BSD-3-Clause
+size	8531565
+installed-size	17444420
+depends	so:libblas.so.3 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgfortran.so.5
+origin	lapack
+repo	community
+file	lapack-3.12.1-r1.apk
+checksum	Q1sL9vcGBhzTkjVFaw2nEEI5oPN6A=
+dep	so:libblas.so.3	blas
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgfortran.so.5	libgfortran

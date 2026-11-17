@@ -1,0 +1,13 @@
+name	java-sigar
+version	1.6.4-r1
+description	System Information Gatherer And Reporter
+url	https://github.com/hyperic/sigar/
+license	Apache-2.0
+size	321532
+installed-size	342993
+depends	java-sigar-native=1.6.4-r1
+origin	java-sigar
+repo	community
+file	java-sigar-1.6.4-r1.apk
+checksum	Q1EZfBIV1vLNWpnYkt2XpUBWcHsnQ=
+dep	java-sigar-native=1.6.4-r1	java-sigar-native

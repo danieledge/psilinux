@@ -1,0 +1,14 @@
+name	postgresql-bdr-libs
+version	9.4.14_p1-r17
+description	A sophisticated object-relational DBMS with bidirectional replication support (BDR) (libraries)
+url	https://www.enterprisedb.com/products/bidirectional-replication-bdr-postgresql-database
+license	PostgreSQL
+size	67564
+installed-size	145016
+depends	so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	postgresql-bdr
+repo	community
+file	postgresql-bdr-libs-9.4.14_p1-r17.apk
+checksum	Q1fWtQH5dUHSR3sAUfeM+qMr4qQy0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

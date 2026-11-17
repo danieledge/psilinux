@@ -1,0 +1,14 @@
+name	raku-shell-command
+version	1.2-r0
+description	Cross-platform routines emulating common *NIX shell commands
+url	https://github.com/raku-community-modules/Shell-Command
+license	MIT
+size	42279
+installed-size	139687
+depends	rakudo raku-file-find
+origin	raku-shell-command
+repo	community
+file	raku-shell-command-1.2-r0.apk
+checksum	Q18PYlnhGrKM3e9yV6IN9E0OIAlU4=
+dep	rakudo	rakudo
+dep	raku-file-find	raku-file-find

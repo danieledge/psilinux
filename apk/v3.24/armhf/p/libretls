@@ -1,0 +1,16 @@
+name	libretls
+version	3.8.1-r0
+description	port of libtls from libressl to openssl
+url	https://git.causal.agency/libretls/
+license	ISC AND ( BSD-3-Clause OR MIT )
+size	27672
+installed-size	62696
+depends	ca-certificates-bundle so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	libretls
+repo	community
+file	libretls-3.8.1-r0.apk
+checksum	Q1f/oUxtr6gKWdVmP4rR0maHY54eA=
+dep	ca-certificates-bundle	ca-certificates-bundle
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

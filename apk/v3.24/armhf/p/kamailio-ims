@@ -1,0 +1,18 @@
+name	kamailio-ims
+version	6.0.6-r0
+description	Kamailio IP Multimedia Subsystem (IMS) support
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	2161465
+installed-size	4667504
+depends	kamailio so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libmnl.so.0 so:libssl.so.3 so:libxml2.so.2
+origin	kamailio
+repo	main
+file	kamailio-ims-6.0.6-r0.apk
+checksum	Q1LJJMSojpzol8qqObzNbM7HnA4Aw=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libmnl.so.0	libmnl
+dep	so:libssl.so.3	libssl3
+dep	so:libxml2.so.2	libxml2

@@ -1,0 +1,13 @@
+name	libnl3
+version	3.11.0-r0
+description	Library for applications dealing with netlink sockets
+url	http://www.infradead.org/~tgr/libnl/
+license	LGPL-2.1-or-later
+size	309388
+installed-size	792754
+depends	so:libc.musl-armhf.so.1
+origin	libnl3
+repo	main
+file	libnl3-3.11.0-r0.apk
+checksum	Q1qxR5ZIYNHi4DxIT1DO8t3D63ye0=
+dep	so:libc.musl-armhf.so.1	musl

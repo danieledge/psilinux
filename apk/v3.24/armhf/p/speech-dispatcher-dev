@@ -1,0 +1,15 @@
+name	speech-dispatcher-dev
+version	0.12.1-r3
+description	Common high-level interface to speech synthesis (development files)
+url	https://freebsoft.org/speechd
+license	LGPL-2.1-or-later
+size	37986
+installed-size	100615
+depends	speech-dispatcher=0.12.1-r3 pc:glib-2.0 pkgconfig
+origin	speech-dispatcher
+repo	community
+file	speech-dispatcher-dev-0.12.1-r3.apk
+checksum	Q1wNBwUahzPW/z63OLD0JmvPHtfFE=
+dep	speech-dispatcher=0.12.1-r3	speech-dispatcher
+dep	pc:glib-2.0	glib-dev
+dep	pkgconfig	pkgconf

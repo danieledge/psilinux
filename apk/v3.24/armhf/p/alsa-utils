@@ -1,0 +1,22 @@
+name	alsa-utils
+version	1.2.15.2-r1
+description	Advanced Linux Sound Architecture (ALSA) utilities
+url	https://alsa-project.org/
+license	GPL-2.0-or-later
+size	1239543
+installed-size	2096737
+depends	dialog alsa-ucm-conf so:libasound.so.2 so:libatopology.so.2 so:libc.musl-armhf.so.1 so:libfftw3f.so.3 so:libformw.so.6 so:libmenuw.so.6 so:libncursesw.so.6 so:libpanelw.so.6
+origin	alsa-utils
+repo	main
+file	alsa-utils-1.2.15.2-r1.apk
+checksum	Q13qF3i5BHAxRCU1J4kuGaXlJxcdM=
+dep	dialog	dialog
+dep	alsa-ucm-conf	alsa-ucm-conf
+dep	so:libasound.so.2	alsa-lib
+dep	so:libatopology.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfftw3f.so.3	fftw-single-libs
+dep	so:libformw.so.6	libformw
+dep	so:libmenuw.so.6	libmenuw
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpanelw.so.6	libpanelw

@@ -1,0 +1,18 @@
+name	shaderc
+version	2026.1-r0
+description	Collection of tools, libraries, and tests for Vulkan shader compilation
+url	https://github.com/google/shaderc
+license	Apache-2.0
+size	90599
+installed-size	212372
+depends	so:libSPIRV-Tools-opt.so so:libSPIRV-Tools.so so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglslang.so.16 so:libstdc++.so.6
+origin	shaderc
+repo	community
+file	shaderc-2026.1-r0.apk
+checksum	Q1S7wufkH1xf8igLKPMRpw9Ngd+bI=
+dep	so:libSPIRV-Tools-opt.so	spirv-tools
+dep	so:libSPIRV-Tools.so	spirv-tools
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglslang.so.16	glslang-libs
+dep	so:libstdc++.so.6	libstdc++

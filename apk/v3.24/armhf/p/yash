@@ -1,0 +1,15 @@
+name	yash
+version	2.60-r0
+description	Yet another shell
+url	https://magicant.github.io/yash/
+license	GPL-2.0-or-later
+size	161180
+installed-size	342412
+depends	busybox so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	yash
+repo	main
+file	yash-2.60-r0.apk
+checksum	Q1ZQ3jLkLCMQTd5L3L+JAsYRniuHI=
+dep	busybox	busybox
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

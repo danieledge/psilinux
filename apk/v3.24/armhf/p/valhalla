@@ -1,0 +1,23 @@
+name	valhalla
+version	3.6.0-r2
+description	Open Source Routing Engine for OpenStreetMap
+url	https://valhalla.readthedocs.io/
+license	MIT
+size	2211005
+installed-size	8125681
+depends	so:libabsl_hash.so.2508.0.0 so:libabsl_log_internal_check_op.so.2508.0.0 so:libabsl_log_internal_message.so.2508.0.0 so:libabsl_log_internal_nullguard.so.2508.0.0 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgcc_s.so.1 so:liblz4.so.1 so:libprotobuf-lite.so.31 so:libstdc++.so.6 so:libz.so.1
+origin	valhalla
+repo	community
+file	valhalla-3.6.0-r2.apk
+checksum	Q14SWwdZifOqj2ZhOJqryQcQFBYFE=
+dep	so:libabsl_hash.so.2508.0.0	abseil-cpp-hash
+dep	so:libabsl_log_internal_check_op.so.2508.0.0	abseil-cpp-log-internal-check-op
+dep	so:libabsl_log_internal_message.so.2508.0.0	abseil-cpp-log-internal-message
+dep	so:libabsl_log_internal_nullguard.so.2508.0.0	abseil-cpp-log-internal-nullguard
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblz4.so.1	lz4-libs
+dep	so:libprotobuf-lite.so.31	libprotobuf-lite
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

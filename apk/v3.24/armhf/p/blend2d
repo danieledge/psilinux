@@ -1,0 +1,13 @@
+name	blend2d
+version	0.21.2-r0
+description	2D vector graphics engine powered by a JIT compiler
+url	https://blend2d.com/
+license	Zlib
+size	645738
+installed-size	1430800
+depends	so:libc.musl-armhf.so.1
+origin	blend2d
+repo	community
+file	blend2d-0.21.2-r0.apk
+checksum	Q1aHAmCZO5Mjb9ef/UIKZl0SqIKY4=
+dep	so:libc.musl-armhf.so.1	musl

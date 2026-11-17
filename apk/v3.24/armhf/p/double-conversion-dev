@@ -1,0 +1,14 @@
+name	double-conversion-dev
+version	3.4.0-r0
+description	Binary-decimal and decimal-binary routines for IEEE doubles (development files)
+url	https://github.com/google/double-conversion
+license	BSD-3-Clause
+size	26060
+installed-size	106129
+depends	double-conversion=3.4.0-r0 pkgconfig
+origin	double-conversion
+repo	community
+file	double-conversion-dev-3.4.0-r0.apk
+checksum	Q1R53VRHFW1/Uq2l4kHhLE78XTjy4=
+dep	double-conversion=3.4.0-r0	double-conversion
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	enca-dev
+version	1.19-r4
+description	Charset analyser and converter (development files)
+url	http://freshmeat.net/projects/enca/
+license	GPL-2.0-only
+size	69257
+installed-size	215088
+depends	enca=1.19-r4 pkgconfig
+origin	enca
+repo	community
+file	enca-dev-1.19-r4.apk
+checksum	Q1fB36Vj+cZ0xC7Vp/DOK3jrbhrsM=
+dep	enca=1.19-r4	enca
+dep	pkgconfig	pkgconf

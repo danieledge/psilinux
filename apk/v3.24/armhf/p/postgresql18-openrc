@@ -1,0 +1,13 @@
+name	postgresql18-openrc
+version	18.7-r0
+description	A sophisticated object-relational DBMS, version 18 (OpenRC init scripts)
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	1338
+installed-size	0
+depends	postgresql-common-openrc
+origin	postgresql18
+repo	main
+file	postgresql18-openrc-18.7-r0.apk
+checksum	Q1PUmmIgIo++Ret1vTDWbq1vIqvc0=
+dep	postgresql-common-openrc	postgresql-common-openrc

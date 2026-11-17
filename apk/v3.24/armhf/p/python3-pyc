@@ -1,0 +1,14 @@
+name	python3-pyc
+version	3.14.10-r1
+description	High-level scripting language (install .pyc cache files)
+url	https://www.python.org/
+license	PSF-2.0
+size	1299
+installed-size	0
+depends	python3-pycache-pyc0=3.14.10-r1 pyc
+origin	python3
+repo	main
+file	python3-pyc-3.14.10-r1.apk
+checksum	Q10puV8Rjl0Izz2SS5MGQ/Bo8EDDs=
+dep	python3-pycache-pyc0=3.14.10-r1	python3-pycache-pyc0
+dep	pyc	pyc

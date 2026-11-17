@@ -1,0 +1,13 @@
+name	libnet
+version	1.3-r0
+description	A generic networking API that provides access to several protocols.
+url	https://sourceforge.net/projects/libnet-dev/
+license	BSD-2-Clause
+size	37632
+installed-size	87164
+depends	so:libc.musl-armhf.so.1
+origin	libnet
+repo	main
+file	libnet-1.3-r0.apk
+checksum	Q1IUK+E2GeXWOEy4yTxKmbmx+GtPc=
+dep	so:libc.musl-armhf.so.1	musl

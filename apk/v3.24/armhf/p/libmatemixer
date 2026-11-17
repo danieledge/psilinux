@@ -1,0 +1,20 @@
+name	libmatemixer
+version	1.28.0-r0
+description	A mixer library for MATE desktop
+url	https://git.mate-desktop.org/libmatemixer/
+license	GPL-2.0-or-later
+size	85941
+installed-size	258952
+depends	so:libasound.so.2 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libpulse-mainloop-glib.so.0 so:libpulse.so.0
+origin	libmatemixer
+repo	community
+file	libmatemixer-1.28.0-r0.apk
+checksum	Q1O6/zQFmkxJkno5cl+ev6pp2zKjI=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libpulse-mainloop-glib.so.0	libpulse-mainloop-glib
+dep	so:libpulse.so.0	libpulse

@@ -1,0 +1,24 @@
+name	putty
+version	0.84-r1
+description	SSH and telnet client
+url	https://putty.software/
+license	MIT
+size	2190452
+installed-size	4976556
+depends	ncurses-terminfo-base so:libX11.so.6 so:libXrender.so.1 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0
+origin	putty
+repo	community
+file	putty-0.84-r1.apk
+checksum	Q1mFJfDW+RShYXzB6sA4I7wBirv5o=
+dep	ncurses-terminfo-base	ncurses-terminfo-base
+dep	so:libX11.so.6	libx11
+dep	so:libXrender.so.1	libxrender
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango

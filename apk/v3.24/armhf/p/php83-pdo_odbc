@@ -1,0 +1,16 @@
+name	php83-pdo_odbc
+version	8.3.36-r0
+description	PHP83 extension: ODBC driver for PDO
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	12697
+installed-size	25947
+depends	php83-common php83-pdo so:libc.musl-armhf.so.1 so:libodbc.so.2
+origin	php83
+repo	community
+file	php83-pdo_odbc-8.3.36-r0.apk
+checksum	Q1kDwEFs5a+YdAsecs1TgLNTjHG7w=
+dep	php83-common	php83-common
+dep	php83-pdo	php83-pdo
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libodbc.so.2	unixodbc

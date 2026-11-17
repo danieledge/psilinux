@@ -1,0 +1,13 @@
+name	lha
+version	1.14.20211125-r5
+description	Compression and archive utility for LH-7 format archives
+url	https://github.com/jca02266/lha/
+license	custom
+size	45464
+installed-size	83600
+depends	so:libc.musl-armhf.so.1
+origin	lha
+repo	community
+file	lha-1.14.20211125-r5.apk
+checksum	Q11X6YkHjIj2HIV81PkzLUUEAnJ/o=
+dep	so:libc.musl-armhf.so.1	musl

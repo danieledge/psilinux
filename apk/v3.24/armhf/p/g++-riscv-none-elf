@@ -1,0 +1,22 @@
+name	g++-riscv-none-elf
+version	16.1.0-r0
+description	C++ compiler from the GNU Compiler Collection for riscv-none-elf targets
+url	https://gcc.gnu.org/
+license	GPL-3.0-or-later
+size	125766175
+installed-size	541068683
+depends	gcc binutils-riscv-none-elf newlib-riscv-none-elf gcc-riscv-none-elf~16.1.0 so:libc.musl-armhf.so.1 so:libgmp.so.10 so:libisl.so.23 so:libmpc.so.3 so:libmpfr.so.6 so:libz.so.1
+origin	g++-cross-embedded
+repo	community
+file	g++-riscv-none-elf-16.1.0-r0.apk
+checksum	Q1eSBuX1NXhu/1CQ+zb32T5K8MdH8=
+dep	gcc	gcc
+dep	binutils-riscv-none-elf	binutils-riscv-none-elf
+dep	newlib-riscv-none-elf	newlib-riscv-none-elf
+dep	gcc-riscv-none-elf~16.1.0	gcc-riscv-none-elf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgmp.so.10	gmp
+dep	so:libisl.so.23	isl25
+dep	so:libmpc.so.3	mpc1
+dep	so:libmpfr.so.6	mpfr4
+dep	so:libz.so.1	zlib

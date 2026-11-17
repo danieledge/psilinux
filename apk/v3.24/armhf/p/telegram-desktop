@@ -1,0 +1,71 @@
+name	telegram-desktop
+version	6.8.5-r0
+description	Telegram Desktop messaging app
+url	https://desktop.telegram.org/
+license	GPL-3.0-or-later WITH OpenSSL
+size	48277073
+installed-size	106278175
+depends	qt6-qtimageformats font-opensans so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6OpenGL.so.6 so:libQt6OpenGLWidgets.so.6 so:libQt6Svg.so.6 so:libQt6Widgets.so.6 so:libX11.so.6 so:libXcomposite.so.1 so:libXdamage.so.1 so:libXext.so.6 so:libXfixes.so.3 so:libXrandr.so.2 so:libXtst.so.6 so:libabsl_strings.so.2508.0.0 so:libabsl_throw_delegate.so.2508.0.0 so:libada.so.3 so:libavcodec.so.62 so:libavfilter.so.11 so:libavformat.so.62 so:libavif.so.16 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libcrc32c.so.1 so:libcrypto.so.3 so:libdispatch.so so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libheif.so.1 so:libhunspell-1.7.so.0 so:libjpeg.so.8 so:libjxl.so.0.11 so:libjxl_threads.so.0.11 so:liblz4.so.1 so:libminizip.so.1 so:libopenal.so.1 so:libopenh264.so.8 so:libopus.so.0 so:libpipewire-0.3.so.0 so:libprotobuf-lite.so.31 so:librnnoise.so.0 so:libsrtp2.so.1 so:libssl.so.3 so:libstdc++.so.6 so:libswresample.so.6 so:libswscale.so.9 so:libvpx.so.11 so:libxcb-keysyms.so.1 so:libxcb-record.so.0 so:libxcb-screensaver.so.0 so:libxcb.so.1 so:libxkbcommon.so.0 so:libxxhash.so.0 so:libz.so.1
+origin	telegram-desktop
+repo	community
+file	telegram-desktop-6.8.5-r0.apk
+checksum	Q1trAEV1VCGyLHylsK3j88HWkuh4U=
+dep	qt6-qtimageformats	qt6-qtimageformats
+dep	font-opensans	font-opensans
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6DBus.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6OpenGL.so.6	qt6-qtbase-x11
+dep	so:libQt6OpenGLWidgets.so.6	qt6-qtbase-x11
+dep	so:libQt6Svg.so.6	qt6-qtsvg
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libX11.so.6	libx11
+dep	so:libXcomposite.so.1	libxcomposite
+dep	so:libXdamage.so.1	libxdamage
+dep	so:libXext.so.6	libxext
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libXtst.so.6	libxtst
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libabsl_throw_delegate.so.2508.0.0	abseil-cpp-throw-delegate
+dep	so:libada.so.3	!
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavfilter.so.11	ffmpeg-libavfilter
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavif.so.16	libavif
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrc32c.so.1	crc32c
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libdispatch.so	libdispatch
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libheif.so.1	libheif
+dep	so:libhunspell-1.7.so.0	libhunspell
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libjxl.so.0.11	libjxl
+dep	so:libjxl_threads.so.0.11	libjxl
+dep	so:liblz4.so.1	lz4-libs
+dep	so:libminizip.so.1	minizip
+dep	so:libopenal.so.1	openal-soft-libs
+dep	so:libopenh264.so.8	openh264
+dep	so:libopus.so.0	opus
+dep	so:libpipewire-0.3.so.0	pipewire-libs
+dep	so:libprotobuf-lite.so.31	libprotobuf-lite
+dep	so:librnnoise.so.0	rnnoise
+dep	so:libsrtp2.so.1	libsrtp
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libswresample.so.6	ffmpeg-libswresample
+dep	so:libswscale.so.9	ffmpeg-libswscale
+dep	so:libvpx.so.11	libvpx
+dep	so:libxcb-keysyms.so.1	xcb-util-keysyms
+dep	so:libxcb-record.so.0	libxcb
+dep	so:libxcb-screensaver.so.0	libxcb
+dep	so:libxcb.so.1	libxcb
+dep	so:libxkbcommon.so.0	libxkbcommon
+dep	so:libxxhash.so.0	libxxhash
+dep	so:libz.so.1	zlib

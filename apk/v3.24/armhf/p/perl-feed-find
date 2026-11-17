@@ -1,0 +1,17 @@
+name	perl-feed-find
+version	0.13-r1
+description	Syndication feed auto-discovery
+url	https://metacpan.org/release/Feed-Find/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	3894
+installed-size	5248
+depends	perl perl-class-errorhandler perl-html-parser perl-libwww perl-uri
+origin	perl-feed-find
+repo	community
+file	perl-feed-find-0.13-r1.apk
+checksum	Q1+yLypKT1z2MzMMCDfr6Y02uQNMk=
+dep	perl	perl
+dep	perl-class-errorhandler	perl-class-errorhandler
+dep	perl-html-parser	perl-html-parser
+dep	perl-libwww	perl-libwww
+dep	perl-uri	perl-uri

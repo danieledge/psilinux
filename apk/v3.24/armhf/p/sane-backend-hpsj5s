@@ -1,0 +1,15 @@
+name	sane-backend-hpsj5s
+version	1.4.0-r4
+description	SANE backend for HP ScanJet 5S sheet-fed scanner
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	17032
+installed-size	35105
+depends	sane so:libc.musl-armhf.so.1 so:libieee1284.so.3
+origin	sane
+repo	community
+file	sane-backend-hpsj5s-1.4.0-r4.apk
+checksum	Q1dScO2nj0bsNYv6ymb1WwizPKE0A=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libieee1284.so.3	libieee1284

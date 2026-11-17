@@ -1,0 +1,14 @@
+name	snowflake
+version	2.15.3-r0
+description	Pluggable Transport for Tor using WebRTC - meta package
+url	https://snowflake.torproject.org/
+license	BSD-3-Clause
+size	1288
+installed-size	0
+depends	snowflake-client=2.15.3-r0 snowflake-proxy=2.15.3-r0
+origin	snowflake
+repo	community
+file	snowflake-2.15.3-r0.apk
+checksum	Q1nfJ3RvgB+VQMJYFnCHSWqQvgLCs=
+dep	snowflake-client=2.15.3-r0	snowflake-client
+dep	snowflake-proxy=2.15.3-r0	snowflake-proxy

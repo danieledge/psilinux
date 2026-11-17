@@ -1,0 +1,14 @@
+name	gpm-libs
+version	1.20.7-r6
+description	A mouse server for the console (libraries)
+url	https://www.nico.schottelius.org/software/gpm/
+license	GPL-2.0-or-later
+size	11910
+installed-size	21744
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	gpm
+repo	main
+file	gpm-libs-1.20.7-r6.apk
+checksum	Q1stP7ZJlRJuPtmhGpi/0fGpwyYpI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

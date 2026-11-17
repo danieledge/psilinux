@@ -1,0 +1,19 @@
+name	libixion-dev
+version	0.20.0-r0
+description	A general purpose formula parser & interpreter (development files)
+url	https://gitlab.com/ixion/ixion
+license	MPL-2.0
+size	128172
+installed-size	360614
+depends	libixion=0.20.0-r0 pkgconfig so:libboost_program_options.so.1.84.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libixion-0.20.so.0 so:libstdc++.so.6
+origin	libixion
+repo	community
+file	libixion-dev-0.20.0-r0.apk
+checksum	Q1C3kCHDlnf+3Wklb7X6yP7ACogFU=
+dep	libixion=0.20.0-r0	libixion
+dep	pkgconfig	pkgconf
+dep	so:libboost_program_options.so.1.84.0	boost1.84-program_options
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libixion-0.20.so.0	libixion
+dep	so:libstdc++.so.6	libstdc++

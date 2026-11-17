@@ -1,0 +1,14 @@
+name	py3-seedir
+version	0.5.1-r1
+description	Python package for creating, editing, and reading folder tree diagrams
+url	https://github.com/earnestt1234/seedir
+license	MIT
+size	113474
+installed-size	314584
+depends	py3-natsort python3~3.14
+origin	py3-seedir
+repo	community
+file	py3-seedir-0.5.1-r1.apk
+checksum	Q1n19imGLUO/4ZC/eCuEmmd9U3niQ=
+dep	py3-natsort	py3-natsort
+dep	python3~3.14	python3

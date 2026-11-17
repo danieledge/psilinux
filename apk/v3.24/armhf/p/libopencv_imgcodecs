@@ -1,0 +1,26 @@
+name	libopencv_imgcodecs
+version	4.12.0-r7
+description	Open source computer vision and machine learning library (libopencv_imgcodecs library)
+url	https://opencv.org/
+license	Apache-2.0
+size	193354
+installed-size	432084
+depends	so:libOpenEXR-3_4.so.33 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libjpeg.so.8 so:libopencv_core.so.412 so:libopencv_imgproc.so.412 so:libopenjp2.so.7 so:libpng16.so.16 so:libstdc++.so.6 so:libtiff.so.6 so:libwebp.so.7 so:libwebpdemux.so.2 so:libwebpmux.so.3 so:libz.so.1
+origin	opencv
+repo	community
+file	libopencv_imgcodecs-4.12.0-r7.apk
+checksum	Q1TjNGsp0YpRf7F0gYhahVl04iK40=
+dep	so:libOpenEXR-3_4.so.33	openexr-libopenexr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libopencv_core.so.412	libopencv_core
+dep	so:libopencv_imgproc.so.412	libopencv_imgproc
+dep	so:libopenjp2.so.7	openjpeg
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtiff.so.6	tiff
+dep	so:libwebp.so.7	libwebp
+dep	so:libwebpdemux.so.2	libwebpdemux
+dep	so:libwebpmux.so.3	libwebpmux
+dep	so:libz.so.1	zlib

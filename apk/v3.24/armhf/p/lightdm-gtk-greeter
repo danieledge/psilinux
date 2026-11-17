@@ -1,0 +1,24 @@
+name	lightdm-gtk-greeter
+version	2.0.9-r0
+description	Gtk based greeter for lightdm.
+url	https://launchpad.net/lightdm-gtk-greeter
+license	GPL-3.0-or-later
+size	62779
+installed-size	190132
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:liblightdm-gobject-1.so.0 so:libxklavier.so.16
+origin	lightdm-gtk-greeter
+repo	community
+file	lightdm-gtk-greeter-2.0.9-r0.apk
+checksum	Q1wsagWXbQowhMdzIRFcLFhzShGUI=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:liblightdm-gobject-1.so.0	lightdm
+dep	so:libxklavier.so.16	libxklavier

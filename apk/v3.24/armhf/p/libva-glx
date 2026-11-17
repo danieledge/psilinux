@@ -1,0 +1,17 @@
+name	libva-glx
+version	2.23.0-r0
+description	Video Acceleration (VA) API for Linux with MESA support
+url	https://01.org/linuxmedia
+license	MIT
+size	8152
+installed-size	13536
+depends	so:libGL.so.1 so:libX11.so.6 so:libc.musl-armhf.so.1 so:libva-x11.so.2 so:libva.so.2
+origin	libva-glx
+repo	community
+file	libva-glx-2.23.0-r0.apk
+checksum	Q1He4a2alZaXJLS9lhZxVIilYrSFk=
+dep	so:libGL.so.1	mesa-gl
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libva-x11.so.2	libva
+dep	so:libva.so.2	libva

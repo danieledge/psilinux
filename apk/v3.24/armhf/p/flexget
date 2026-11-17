@@ -1,0 +1,47 @@
+name	flexget
+version	3.3.37-r4
+description	Multipurpose automation tool for downloading media content from different sources
+url	https://flexget.com/
+license	MIT
+size	8683411
+installed-size	34067103
+depends	python3 py3-apscheduler py3-beautifulsoup4 py3-cherrypy py3-click py3-colorama py3-colorclass py3-dateutil py3-feedparser py3-flask py3-flask-compress py3-flask-cors py3-flask-login py3-flask-restful py3-flask-restx py3-guessit py3-html5lib py3-jinja2 py3-jsonschema py3-loguru py3-more-itertools py3-packaging py3-psutil py3-pynzb py3-parsing py3-pyrss2gen py3-rebulk py3-requests py3-rich py3-rpyc py3-sqlalchemy py3-terminaltables py3-yaml py3-zxcvbn python3~3.14
+origin	flexget
+repo	community
+file	flexget-3.3.37-r4.apk
+checksum	Q1XIP//OPA4vYjMjcvDgimsdUDDks=
+dep	python3	python3
+dep	py3-apscheduler	py3-apscheduler
+dep	py3-beautifulsoup4	py3-beautifulsoup4
+dep	py3-cherrypy	py3-cherrypy
+dep	py3-click	py3-click
+dep	py3-colorama	py3-colorama
+dep	py3-colorclass	py3-colorclass
+dep	py3-dateutil	py3-dateutil
+dep	py3-feedparser	py3-feedparser
+dep	py3-flask	py3-flask
+dep	py3-flask-compress	py3-flask-compress
+dep	py3-flask-cors	py3-flask-cors
+dep	py3-flask-login	py3-flask-login
+dep	py3-flask-restful	py3-flask-restful
+dep	py3-flask-restx	py3-flask-restx
+dep	py3-guessit	py3-guessit
+dep	py3-html5lib	py3-html5lib
+dep	py3-jinja2	py3-jinja2
+dep	py3-jsonschema	py3-jsonschema
+dep	py3-loguru	py3-loguru
+dep	py3-more-itertools	py3-more-itertools
+dep	py3-packaging	py3-packaging
+dep	py3-psutil	py3-psutil
+dep	py3-pynzb	py3-pynzb
+dep	py3-parsing	py3-parsing
+dep	py3-pyrss2gen	py3-pyrss2gen
+dep	py3-rebulk	py3-rebulk
+dep	py3-requests	py3-requests
+dep	py3-rich	py3-rich
+dep	py3-rpyc	py3-rpyc
+dep	py3-sqlalchemy	py3-sqlalchemy
+dep	py3-terminaltables	py3-terminaltables
+dep	py3-yaml	py3-yaml
+dep	py3-zxcvbn	py3-zxcvbn
+dep	python3~3.14	python3

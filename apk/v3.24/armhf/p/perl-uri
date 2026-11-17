@@ -1,0 +1,15 @@
+name	perl-uri
+version	5.34-r0
+description	Uniform Resource Identifiers (absolute and relative)
+url	https://metacpan.org/release/URI/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	60413
+installed-size	172509
+depends	perl perl-mime-base32 perl-mime-base64
+origin	perl-uri
+repo	main
+file	perl-uri-5.34-r0.apk
+checksum	Q1KluRETH+l+Vhsmvkn2GdRXKp5M4=
+dep	perl	perl
+dep	perl-mime-base32	perl-mime-base32
+dep	perl-mime-base64	perl-mime-base64

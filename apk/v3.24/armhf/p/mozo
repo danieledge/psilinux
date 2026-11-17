@@ -1,0 +1,15 @@
+name	mozo
+version	1.28.0-r1
+description	A menu editor for MATE
+url	https://github.com/mate-desktop/mozo
+license	LGPL-2.1-or-later
+size	55095
+installed-size	148486
+depends	py3-gobject3 mate-menus python3~3.14
+origin	mozo
+repo	community
+file	mozo-1.28.0-r1.apk
+checksum	Q12EXT55CP6XY93mWzEI7ITC5gma4=
+dep	py3-gobject3	py3-gobject3
+dep	mate-menus	mate-menus
+dep	python3~3.14	python3

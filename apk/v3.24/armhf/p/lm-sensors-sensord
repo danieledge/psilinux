@@ -1,0 +1,16 @@
+name	lm-sensors-sensord
+version	3.6.0-r5
+description	sensord daemon
+url	https://github.com/lm-sensors/lm-sensors
+license	LGPL-2.1-or-later AND GPL-2.0-or-later
+size	13369
+installed-size	26648
+depends	sysfsutils so:libc.musl-armhf.so.1 so:librrd.so.8 so:libsensors.so.5
+origin	lm-sensors
+repo	main
+file	lm-sensors-sensord-3.6.0-r5.apk
+checksum	Q1D8dqYDm50tSKYaH/61JHk5EIPrE=
+dep	sysfsutils	sysfsutils
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:librrd.so.8	librrd
+dep	so:libsensors.so.5	lm-sensors-libs

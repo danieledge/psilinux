@@ -1,0 +1,14 @@
+name	nagios-plugins-wave
+version	2.5-r0
+description	Nagios plugin check_wave
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	2865
+installed-size	3259
+depends	nagios-plugins perl
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-wave-2.5-r0.apk
+checksum	Q1LZ/JNtKiRLzAz/4aTPlpWgNOsNk=
+dep	nagios-plugins	nagios-plugins
+dep	perl	perl

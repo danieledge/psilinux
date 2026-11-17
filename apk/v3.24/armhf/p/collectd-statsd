@@ -1,0 +1,14 @@
+name	collectd-statsd
+version	5.12.0-r25
+description	statsd pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	18776
+installed-size	33964
+depends	collectd so:libc.musl-armhf.so.1
+origin	collectd
+repo	community
+file	collectd-statsd-5.12.0-r25.apk
+checksum	Q1BaIUJREEYK4fzIs8Yoj19aMG6hI=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl

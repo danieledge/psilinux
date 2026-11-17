@@ -1,0 +1,20 @@
+name	appstream-qt
+version	1.1.2-r0
+description	Qt5 interface for AppStream
+url	https://distributions.freedesktop.org/wiki/AppStream
+license	LGPL-2.1-or-later
+size	96478
+installed-size	361096
+depends	so:libQt6Core.so.6 so:libappstream.so.5 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libstdc++.so.6
+origin	appstream
+repo	community
+file	appstream-qt-1.1.2-r0.apk
+checksum	Q1sI8IlAbBuKZ31qTjBxv9fCRc5gU=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libappstream.so.5	appstream
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libstdc++.so.6	libstdc++

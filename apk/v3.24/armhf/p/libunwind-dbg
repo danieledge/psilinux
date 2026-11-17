@@ -1,0 +1,12 @@
+name	libunwind-dbg
+version	1.8.3-r0
+description	Portable and efficient C programming interface (API) to determine the call-chain of a program (debug symbols)
+url	https://www.nongnu.org/libunwind/
+license	MIT
+size	483134
+installed-size	1213544
+depends	!libunwind<1.8.3-r0 !libunwind>1.8.3-r0
+origin	libunwind
+repo	main
+file	libunwind-dbg-1.8.3-r0.apk
+checksum	Q1TxdDeDffYTYmp+Wwr0AAGe3K04k=

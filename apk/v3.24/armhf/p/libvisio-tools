@@ -1,0 +1,19 @@
+name	libvisio-tools
+version	0.1.10-r1
+description	Import filter and tools for MS Visio Diagrams
+url	https://wiki.documentfoundation.org/DLP/Libraries/libvisio
+license	MPL-2.0
+size	12272
+installed-size	57600
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:librevenge-0.0.so.0 so:librevenge-generators-0.0.so.0 so:librevenge-stream-0.0.so.0 so:libstdc++.so.6 so:libvisio-0.1.so.1
+origin	libvisio
+repo	community
+file	libvisio-tools-0.1.10-r1.apk
+checksum	Q17thgpA+fOMFWMLMZnZvgpDGAiQg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:librevenge-0.0.so.0	librevenge
+dep	so:librevenge-generators-0.0.so.0	librevenge
+dep	so:librevenge-stream-0.0.so.0	librevenge
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libvisio-0.1.so.1	libvisio

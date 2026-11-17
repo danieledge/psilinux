@@ -1,0 +1,21 @@
+name	libsndfile
+version	1.2.2-r2
+description	C library for reading and writing files containing sampled sound
+url	https://libsndfile.github.io/libsndfile/
+license	LGPL-2.1-or-later
+size	228240
+installed-size	556040
+depends	so:libFLAC.so.12 so:libasound.so.2 so:libc.musl-armhf.so.1 so:libmp3lame.so.0 so:libmpg123.so.0 so:libogg.so.0 so:libopus.so.0 so:libvorbis.so.0 so:libvorbisenc.so.2
+origin	libsndfile
+repo	main
+file	libsndfile-1.2.2-r2.apk
+checksum	Q1mCKv0mR/cDSo1mr34MWUFriFFkM=
+dep	so:libFLAC.so.12	libflac
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmp3lame.so.0	lame-libs
+dep	so:libmpg123.so.0	mpg123-libs
+dep	so:libogg.so.0	libogg
+dep	so:libopus.so.0	opus
+dep	so:libvorbis.so.0	libvorbis
+dep	so:libvorbisenc.so.2	libvorbis

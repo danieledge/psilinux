@@ -1,0 +1,19 @@
+name	cifs-utils
+version	7.5-r1
+description	CIFS filesystem user-space tools
+url	https://wiki.samba.org/index.php/LinuxCIFS_utils
+license	GPL-3.0-or-later
+size	39662
+installed-size	91936
+depends	so:libc.musl-armhf.so.1 so:libcap-ng.so.0 so:libgssapi_krb5.so.2 so:libkeyutils.so.1 so:libkrb5.so.3 so:libtalloc.so.2 so:libwbclient.so.0
+origin	cifs-utils
+repo	main
+file	cifs-utils-7.5-r1.apk
+checksum	Q1Km2PzRpRtfJPNR9hU9SoJiUkEdw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap-ng.so.0	libcap-ng
+dep	so:libgssapi_krb5.so.2	krb5-libs
+dep	so:libkeyutils.so.1	keyutils-libs
+dep	so:libkrb5.so.3	krb5-libs
+dep	so:libtalloc.so.2	talloc
+dep	so:libwbclient.so.0	libwbclient

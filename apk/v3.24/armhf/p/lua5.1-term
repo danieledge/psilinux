@@ -1,0 +1,14 @@
+name	lua5.1-term
+version	0.07-r3
+description	Terminal operations for Lua 5.1
+url	https://github.com/hoelzro/lua-term
+license	MIT
+size	5361
+installed-size	10728
+depends	lua5.1 so:libc.musl-armhf.so.1
+origin	lua-term
+repo	main
+file	lua5.1-term-0.07-r3.apk
+checksum	Q1hW53KOkxxmSRz0R2q+DUVzP2aRY=
+dep	lua5.1	lua5.1
+dep	so:libc.musl-armhf.so.1	musl

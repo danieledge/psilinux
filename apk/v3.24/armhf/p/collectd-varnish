@@ -1,0 +1,15 @@
+name	collectd-varnish
+version	5.12.0-r25
+description	varnish pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	14866
+installed-size	34020
+depends	collectd so:libc.musl-armhf.so.1 so:libvarnishapi.so.3
+origin	collectd
+repo	community
+file	collectd-varnish-5.12.0-r25.apk
+checksum	Q1+vzU4BfDI79Z4Pap/TGrT6Zd/Ns=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libvarnishapi.so.3	varnish-libs

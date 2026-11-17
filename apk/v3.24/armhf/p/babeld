@@ -1,0 +1,13 @@
+name	babeld
+version	1.13.1-r0
+description	A loop-avoiding distance-vector routing protocol
+url	https://www.irif.fr/~jch/software/babel/
+license	MIT
+size	66455
+installed-size	128448
+depends	so:libc.musl-armhf.so.1
+origin	babeld
+repo	community
+file	babeld-1.13.1-r0.apk
+checksum	Q1u9EXpe6bO+YpnY4ilwyeNrVMrhM=
+dep	so:libc.musl-armhf.so.1	musl

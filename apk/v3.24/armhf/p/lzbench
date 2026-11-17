@@ -1,0 +1,16 @@
+name	lzbench
+version	2.2-r0
+description	lzbench is an in-memory benchmark of open-source LZ77/LZSS/LZMA compressors
+url	https://github.com/inikep/lzbench
+license	GPL zlib MIT Unlicense BSD Apache-2.0 CDDL CC0 custom
+size	1639223
+installed-size	3540372
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgomp.so.1 so:libstdc++.so.6
+origin	lzbench
+repo	community
+file	lzbench-2.2-r0.apk
+checksum	Q1Yy1gShTNLv393j6WiUheMfCAfSw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgomp.so.1	libgomp
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,17 @@
+name	polyml
+version	5.9.2-r0
+description	ML97 compatible Standard ML implementation
+url	https://www.polyml.org/
+license	LGPL-2.1-only
+size	2596851
+installed-size	9431020
+depends	so:libc.musl-armhf.so.1 so:libffi.so.8 so:libgcc_s.so.1 so:libgmp.so.10 so:libstdc++.so.6
+origin	polyml
+repo	community
+file	polyml-5.9.2-r0.apk
+checksum	Q1gBOpP6h/aO76ITaGqQDlClSqiuI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libffi.so.8	libffi
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgmp.so.10	gmp
+dep	so:libstdc++.so.6	libstdc++

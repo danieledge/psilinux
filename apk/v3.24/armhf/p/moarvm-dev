@@ -1,0 +1,19 @@
+name	moarvm-dev
+version	2025.11-r0
+description	VM with adaptive optimization and JIT compilation, built for Rakudo (development files)
+url	https://moarvm.org/
+license	Artistic-2.0
+size	598368
+installed-size	2572090
+depends	moarvm=2025.11-r0 libffi-dev libuv-dev mimalloc2-dev perl zstd-dev pkgconfig
+origin	moarvm
+repo	community
+file	moarvm-dev-2025.11-r0.apk
+checksum	Q1xKnF1itL4wjoCfIRKUIeFjTwZ5Q=
+dep	moarvm=2025.11-r0	moarvm
+dep	libffi-dev	libffi-dev
+dep	libuv-dev	libuv-dev
+dep	mimalloc2-dev	mimalloc2-dev
+dep	perl	perl
+dep	zstd-dev	zstd-dev
+dep	pkgconfig	pkgconf

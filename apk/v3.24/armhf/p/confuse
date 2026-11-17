@@ -1,0 +1,13 @@
+name	confuse
+version	3.3-r4
+description	C library for parsing configuration files
+url	https://github.com/libconfuse/libconfuse
+license	ISC
+size	20213
+installed-size	42108
+depends	so:libc.musl-armhf.so.1
+origin	confuse
+repo	main
+file	confuse-3.3-r4.apk
+checksum	Q1qGq6csQ9LeGWLNwxGHXQxtr5hsw=
+dep	so:libc.musl-armhf.so.1	musl

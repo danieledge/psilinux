@@ -1,0 +1,19 @@
+name	gssdp
+version	1.6.6-r0
+description	GObject-based API for handling resource discovery and announcement over SSDP
+url	https://gitlab.gnome.org/GNOME/gssdp
+license	LGPL-2.1-or-later
+size	45005
+installed-size	113400
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libsoup-3.0.so.0
+origin	gssdp
+repo	community
+file	gssdp-1.6.6-r0.apk
+checksum	Q13QzS9WjKyId7R0LOskYl8g5BLmc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libsoup-3.0.so.0	libsoup3

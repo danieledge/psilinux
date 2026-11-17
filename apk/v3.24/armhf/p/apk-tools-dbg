@@ -1,0 +1,12 @@
+name	apk-tools-dbg
+version	3.0.9-r0
+description	Alpine Package Keeper - package manager for alpine (debug symbols)
+url	https://gitlab.alpinelinux.org/alpine/apk-tools
+license	GPL-2.0-only
+size	733868
+installed-size	1592380
+depends	!apk-tools<3.0.9-r0 !apk-tools>3.0.9-r0 !libapk<3.0.9-r0 !libapk>3.0.9-r0 !lua5.5-apk<3.0.9-r0 !lua5.5-apk>3.0.9-r0 !py3-apk<3.0.9-r0 !py3-apk>3.0.9-r0
+origin	apk-tools
+repo	main
+file	apk-tools-dbg-3.0.9-r0.apk
+checksum	Q1pWiq7qoD/Nz7keHaBPaFiZoHfy0=

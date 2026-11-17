@@ -1,0 +1,17 @@
+name	ceres
+version	2.2.0-r0
+description	Large scale non-linear optimization library
+url	https://ceres-solver.org
+license	BSD-3-Clause AND Apache-2.0
+size	2056015
+installed-size	5047688
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglog.so.2 so:liblapack.so.3 so:libstdc++.so.6
+origin	ceres
+repo	community
+file	ceres-2.2.0-r0.apk
+checksum	Q1XyK7aOYrw5/erQj1rwjJA4wkmZY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglog.so.2	glog
+dep	so:liblapack.so.3	lapack
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,19 @@
+name	libfilezilla
+version	0.49.0-r0
+description	C++ library for filezilla
+url	https://lib.filezilla-project.org/
+license	GPL-2.0-or-later
+size	251992
+installed-size	611960
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgmp.so.10 so:libgnutls.so.30 so:libhogweed.so.6 so:libnettle.so.8 so:libstdc++.so.6
+origin	libfilezilla
+repo	community
+file	libfilezilla-0.49.0-r0.apk
+checksum	Q1B4+p74dSkO4k8E2aC7mRIVAl0+k=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgmp.so.10	gmp
+dep	so:libgnutls.so.30	gnutls
+dep	so:libhogweed.so.6	nettle
+dep	so:libnettle.so.8	nettle
+dep	so:libstdc++.so.6	libstdc++

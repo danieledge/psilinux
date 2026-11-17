@@ -1,0 +1,21 @@
+name	libheif-tools
+version	1.23.7-r0
+description	ISO/IEC 23008-12:2017 HEIF file format decoder and encoder (tools)
+url	https://www.libde265.org/
+license	LGPL-3.0-or-later
+size	177204
+installed-size	392056
+depends	heif-thumbnailer=1.23.7-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:libjpeg.so.8 so:libpng16.so.16 so:libstdc++.so.6 so:libwebp.so.7 so:libwebpmux.so.3
+origin	libheif
+repo	community
+file	libheif-tools-1.23.7-r0.apk
+checksum	Q1oLmaS5YwX06qSUx/Ak8i+ZyQcDQ=
+dep	heif-thumbnailer=1.23.7-r0	heif-thumbnailer
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libheif.so.1	libheif
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwebp.so.7	libwebp
+dep	so:libwebpmux.so.3	libwebpmux

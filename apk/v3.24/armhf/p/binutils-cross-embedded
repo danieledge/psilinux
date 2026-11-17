@@ -1,0 +1,15 @@
+name	binutils-cross-embedded
+version	2.45.1-r0
+description	tools necessary to build programs for embedded targets
+url	https://www.gnu.org/software/binutils/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-3-Clause
+size	1341
+installed-size	0
+depends	binutils-arm-none-eabi binutils-avr binutils-riscv-none-elf
+origin	binutils-cross-embedded
+repo	community
+file	binutils-cross-embedded-2.45.1-r0.apk
+checksum	Q1pSp7e57b/Ghf1PtjH1CodFdAjcA=
+dep	binutils-arm-none-eabi	binutils-arm-none-eabi
+dep	binutils-avr	binutils-avr
+dep	binutils-riscv-none-elf	binutils-riscv-none-elf

@@ -1,0 +1,13 @@
+name	abseil-cpp-log-internal-proto
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-log-internal-proto
+url	https://abseil.io/
+license	Apache-2.0
+size	4478
+installed-size	9388
+depends	so:libc.musl-armhf.so.1
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-log-internal-proto-20250814.1-r0.apk
+checksum	Q1ltMJELrDFTCR9RkCY48b2jJ+x2w=
+dep	so:libc.musl-armhf.so.1	musl

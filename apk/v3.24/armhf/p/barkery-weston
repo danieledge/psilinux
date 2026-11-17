@@ -1,0 +1,20 @@
+name	barkery-weston
+version	0.6.1-r2
+description	WebKit2-based kiosk browser for digital signage (Weston DRM session)
+url	https://github.com/liske/barkery
+license	GPL-3.0-or-later
+size	1849
+installed-size	152
+depends	barkery-browser=0.6.1-r2 eudev font-noto mesa-dri-gallium seatd weston-backend-drm weston-shell-desktop /bin/sh
+origin	barkery
+repo	community
+file	barkery-weston-0.6.1-r2.apk
+checksum	Q1gO5JNGInfG9isGFnOO1C/nOFRxw=
+dep	barkery-browser=0.6.1-r2	barkery-browser
+dep	eudev	eudev
+dep	font-noto	font-noto
+dep	mesa-dri-gallium	mesa-dri-gallium
+dep	seatd	seatd
+dep	weston-backend-drm	weston-backend-drm
+dep	weston-shell-desktop	weston-shell-desktop
+dep	/bin/sh	busybox-binsh

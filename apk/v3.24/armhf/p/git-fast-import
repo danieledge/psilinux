@@ -1,0 +1,14 @@
+name	git-fast-import
+version	2.54.1-r0
+description	Git backend for fast Git data importers
+url	https://www.git-scm.com/
+license	GPL-2.0-only
+size	1585
+installed-size	1
+depends	git=2.54.1-r0 git=2.54.1-r0
+origin	git
+repo	main
+file	git-fast-import-2.54.1-r0.apk
+checksum	Q1cvlK+rZ8eztApcKcpNLWXnhu2Ik=
+dep	git=2.54.1-r0	git
+dep	git=2.54.1-r0	git

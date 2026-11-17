@@ -1,0 +1,17 @@
+name	libime
+version	1.1.14-r0
+description	Fcitx input method engine library
+url	https://github.com/fcitx/libime
+license	LGPL-2.1-or-later
+size	39857490
+installed-size	47352381
+depends	so:libFcitx5Utils.so.2 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libzstd.so.1
+origin	libime
+repo	community
+file	libime-1.1.14-r0.apk
+checksum	Q1Uk73M6k84yRFdu/KPDR1aK+eFPU=
+dep	so:libFcitx5Utils.so.2	fcitx5
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libzstd.so.1	zstd-libs

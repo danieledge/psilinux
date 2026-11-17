@@ -1,0 +1,14 @@
+name	openssl-misc
+version	3.5.9-r0
+description	Various perl scripts from openssl
+url	https://www.openssl.org/
+license	Apache-2.0
+size	7769
+installed-size	20144
+depends	openssl=3.5.9-r0 perl
+origin	openssl
+repo	main
+file	openssl-misc-3.5.9-r0.apk
+checksum	Q1t/CtxwJREwwdcrWN4EHnvCyx4AU=
+dep	openssl=3.5.9-r0	openssl
+dep	perl	perl

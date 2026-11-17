@@ -1,0 +1,14 @@
+name	asterisk-tds
+version	22.9.0-r0
+description	Modular Open Source PBX System
+url	https://www.asterisk.org/
+license	GPL-2.0-only WITH OpenSSL-Exception
+size	17340
+installed-size	43584
+depends	so:libc.musl-armhf.so.1 so:libsybdb.so.5
+origin	asterisk
+repo	main
+file	asterisk-tds-22.9.0-r0.apk
+checksum	Q1iBqV1Xgtzj0lwb9+D/0LG670ZGQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsybdb.so.5	freetds

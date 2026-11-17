@@ -1,0 +1,15 @@
+name	py3-vt-py
+version	0.22.0-r1
+description	Official Python client library for VirusTotal's REST API
+url	https://github.com/virustotal/vt-py
+license	Apache-2.0
+size	17680
+installed-size	61051
+depends	py3-aiohttp py3-aiofiles python3~3.14
+origin	py3-vt-py
+repo	community
+file	py3-vt-py-0.22.0-r1.apk
+checksum	Q1Hu2bBqN7Ouff73r5u7i3Oh5v97E=
+dep	py3-aiohttp	py3-aiohttp
+dep	py3-aiofiles	py3-aiofiles
+dep	python3~3.14	python3

@@ -1,0 +1,14 @@
+name	libvolk-dev
+version	3.3.0-r1
+description	Vector-Optimized Library of Kernels (development files)
+url	https://www.libvolk.org/
+license	LGPL-3.0-or-later
+size	267314
+installed-size	2610399
+depends	libvolk=3.3.0-r1 pkgconfig
+origin	libvolk
+repo	community
+file	libvolk-dev-3.3.0-r1.apk
+checksum	Q1sWIxLRyS4mr/oicBBPGjTC6qvvY=
+dep	libvolk=3.3.0-r1	libvolk
+dep	pkgconfig	pkgconf

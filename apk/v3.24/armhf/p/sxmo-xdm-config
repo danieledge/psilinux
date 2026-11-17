@@ -1,0 +1,15 @@
+name	sxmo-xdm-config
+version	0.3.2-r1
+description	X Display Manager configuration for Sxmo; starts with virtual keyboard and launches Sxmo UI
+url	https://git.sr.ht/~mil/sxmo-xdm-config
+license	MIT
+size	3313
+installed-size	2507
+depends	sxmo-utils svkbd xdm
+origin	sxmo-xdm-config
+repo	community
+file	sxmo-xdm-config-0.3.2-r1.apk
+checksum	Q1PDCBoVredgZw9f8V4vE2r2aBL4o=
+dep	sxmo-utils	sxmo-utils
+dep	svkbd	svkbd
+dep	xdm	xdm

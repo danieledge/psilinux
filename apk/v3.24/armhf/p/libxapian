@@ -1,0 +1,17 @@
+name	libxapian
+version	2.0.0-r0
+description	Xapian search engine library
+url	http://www.xapian.org/
+license	GPL-2.0-or-later
+size	707239
+installed-size	1849632
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libuuid.so.1 so:libz.so.1
+origin	xapian-core
+repo	main
+file	libxapian-2.0.0-r0.apk
+checksum	Q160Ct86GKxsopYoBgAm+qeKGMMiw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libuuid.so.1	libuuid
+dep	so:libz.so.1	zlib

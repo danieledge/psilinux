@@ -1,0 +1,16 @@
+name	net-snmp-dev
+version	5.9.5.2-r0
+description	Simple Network Management Protocol (development files)
+url	http://www.net-snmp.org/
+license	Net-SNMP
+size	4950084
+installed-size	12951454
+depends	openssl-dev>3 net-snmp-agent-libs=5.9.5.2-r0 net-snmp-libs=5.9.5.2-r0 pkgconfig
+origin	net-snmp
+repo	main
+file	net-snmp-dev-5.9.5.2-r0.apk
+checksum	Q1xtZBCKh0OeW+aYHIy5dLEfqkn2Q=
+dep	openssl-dev>3	openssl-dev
+dep	net-snmp-agent-libs=5.9.5.2-r0	net-snmp-agent-libs
+dep	net-snmp-libs=5.9.5.2-r0	net-snmp-libs
+dep	pkgconfig	pkgconf

@@ -1,0 +1,20 @@
+name	llvm16
+version	16.0.6-r14
+description	Low Level Virtual Machine compiler system, version 16
+url	https://llvm.org/
+license	Apache-2.0
+size	45553028
+installed-size	132978271
+depends	llvm16-linker-tools=16.0.6-r14 so:libLLVM-16.so so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
+origin	llvm16
+repo	community
+file	llvm16-16.0.6-r14.apk
+checksum	Q1EG2wUfoQJ6h5bVIM9poIaOwoxQA=
+dep	llvm16-linker-tools=16.0.6-r14	llvm16-linker-tools
+dep	so:libLLVM-16.so	llvm16-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

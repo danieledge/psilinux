@@ -1,0 +1,13 @@
+name	adbtuifm
+version	0.5.8-r22
+description	A TUI File Manager for Android Debug Bridge (ADB)
+url	https://github.com/darkhz/adbtuifm
+license	MIT
+size	2279533
+installed-size	5964308
+depends	so:libc.musl-armhf.so.1
+origin	adbtuifm
+repo	community
+file	adbtuifm-0.5.8-r22.apk
+checksum	Q1cejUQVZcceKe1nwW8afw5fS3Hlg=
+dep	so:libc.musl-armhf.so.1	musl

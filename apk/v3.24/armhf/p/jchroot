@@ -1,0 +1,13 @@
+name	jchroot
+version	1.1-r0
+description	A chroot with more isolation
+url	https://github.com/vincentbernat/jchroot
+license	ISC
+size	7449
+installed-size	13912
+depends	so:libc.musl-armhf.so.1
+origin	jchroot
+repo	community
+file	jchroot-1.1-r0.apk
+checksum	Q1nKJIy5mitcvAVKtC4U+W7KJc2Xc=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,29 @@
+name	swaync
+version	0.12.6-r0
+description	Notification daemon with a GTK GUI for notifications and the control center
+url	https://github.com/ErikReider/SwayNotificationCenter
+license	GPL-3.0-only
+size	225287
+installed-size	623669
+depends	dbus so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk_pixbuf-2.0.so.0 so:libgee-0.8.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libgtk4-layer-shell.so.0 so:libjson-glib-1.0.so.0 so:libpango-1.0.so.0 so:libpulse-mainloop-glib.so.0 so:libpulse.so.0 so:libwayland-client.so.0
+origin	swaync
+repo	community
+file	swaync-0.12.6-r0.apk
+checksum	Q19JKkvtk8Q3r9do1v0GMBnBNwtqU=
+dep	dbus	dbus
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgee-0.8.so.2	libgee
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libgtk4-layer-shell.so.0	gtk4-layer-shell
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpulse-mainloop-glib.so.0	libpulse-mainloop-glib
+dep	so:libpulse.so.0	libpulse
+dep	so:libwayland-client.so.0	wayland-libs-client

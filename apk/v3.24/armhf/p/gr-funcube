@@ -1,0 +1,23 @@
+name	gr-funcube
+version	3.10.0_rc3-r16
+description	Module for gnuradio for a funcube dongle
+url	https://github.com/dl1ksv/gr-funcube
+license	GPL-3.0-or-later
+size	132513
+installed-size	319168
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libfmt.so.11 so:libgcc_s.so.1 so:libgnuradio-audio.so.3.10.12 so:libgnuradio-blocks.so.3.10.12 so:libgnuradio-pmt.so.3.10.12 so:libgnuradio-runtime.so.3.10.12 so:libhidapi-libusb.so.0 so:libspdlog.so.1.17 so:libstdc++.so.6
+origin	gr-funcube
+repo	community
+file	gr-funcube-3.10.0_rc3-r16.apk
+checksum	Q1WCTOo+/RjlBh0ONkopPuQXPcP6g=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfmt.so.11	fmt
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgnuradio-audio.so.3.10.12	gnuradio
+dep	so:libgnuradio-blocks.so.3.10.12	gnuradio
+dep	so:libgnuradio-pmt.so.3.10.12	gnuradio
+dep	so:libgnuradio-runtime.so.3.10.12	gnuradio
+dep	so:libhidapi-libusb.so.0	hidapi
+dep	so:libspdlog.so.1.17	spdlog
+dep	so:libstdc++.so.6	libstdc++

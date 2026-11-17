@@ -1,0 +1,14 @@
+name	tiny-cloud-gcp
+version	3.4.2-r0
+description	Tiny Cloud - Google Cloud Platform module
+url	https://gitlab.alpinelinux.org/alpine/cloud/tiny-cloud
+license	MIT
+size	1420
+installed-size	1
+depends	tiny-cloud=3.4.2-r0 /bin/sh
+origin	tiny-cloud
+repo	main
+file	tiny-cloud-gcp-3.4.2-r0.apk
+checksum	Q1NtVcQwnhuXT5bwnUrT0p2pL/iBQ=
+dep	tiny-cloud=3.4.2-r0	tiny-cloud
+dep	/bin/sh	busybox-binsh

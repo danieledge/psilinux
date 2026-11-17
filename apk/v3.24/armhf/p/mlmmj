@@ -1,0 +1,14 @@
+name	mlmmj
+version	1.6.0-r0
+description	Mailing list managing made joyful
+url	http://mlmmj.org/
+license	MIT
+size	424745
+installed-size	1075799
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	mlmmj
+repo	main
+file	mlmmj-1.6.0-r0.apk
+checksum	Q15RKx1fX9eoYRMpWBDm+QDMb8yJA=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

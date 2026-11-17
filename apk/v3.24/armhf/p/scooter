@@ -1,0 +1,15 @@
+name	scooter
+version	0.9.0-r0
+description	Interactive find-and-replace in the terminal
+url	https://github.com/thomasschafer/scooter
+license	MIT
+size	2545713
+installed-size	4324444
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libonig.so.5
+origin	scooter
+repo	community
+file	scooter-0.9.0-r0.apk
+checksum	Q1lDMGHZQNlHosuZudz4v86VnLqxs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libonig.so.5	oniguruma

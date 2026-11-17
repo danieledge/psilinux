@@ -1,0 +1,20 @@
+name	google-cloud-cpp
+version	2.47.0-r0
+description	C++ Client Libraries for Google Cloud Services
+url	https://cloud.google.com/sdk
+license	Apache-2.0
+size	143248
+installed-size	432044
+depends	so:libabsl_str_format_internal.so.2508.0.0 so:libabsl_strings.so.2508.0.0 so:libabsl_time.so.2508.0.0 so:libabsl_time_zone.so.2508.0.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	google-cloud-cpp
+repo	community
+file	google-cloud-cpp-2.47.0-r0.apk
+checksum	Q1QZmsiRBzxqdWdJ1sbKEEolMAZRM=
+dep	so:libabsl_str_format_internal.so.2508.0.0	abseil-cpp-str-format-internal
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libabsl_time.so.2508.0.0	abseil-cpp-time
+dep	so:libabsl_time_zone.so.2508.0.0	abseil-cpp-time-zone
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

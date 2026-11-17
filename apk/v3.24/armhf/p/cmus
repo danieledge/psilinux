@@ -1,0 +1,26 @@
+name	cmus
+version	2.12.0-r3
+description	feature-rich ncurses-based music player
+url	https://cmus.github.io/
+license	GPL-2.0-or-later
+size	216805
+installed-size	521111
+depends	so:libFLAC.so.12 so:libasound.so.2 so:libavcodec.so.62 so:libavformat.so.62 so:libc.musl-armhf.so.1 so:libelogind.so.0 so:libfaad.so.2 so:libmad.so.0 so:libncursesw.so.6 so:libopusfile.so.0 so:libpulse.so.0 so:libswresample.so.6 so:libvorbisfile.so.3 so:libwavpack.so.1
+origin	cmus
+repo	community
+file	cmus-2.12.0-r3.apk
+checksum	Q1qzozjGNSLjeHhz3cg5J+Sj2ShuU=
+dep	so:libFLAC.so.12	libflac
+dep	so:libasound.so.2	alsa-lib
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libelogind.so.0	libelogind
+dep	so:libfaad.so.2	faad2-libs
+dep	so:libmad.so.0	libmad
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libopusfile.so.0	opusfile
+dep	so:libpulse.so.0	libpulse
+dep	so:libswresample.so.6	ffmpeg-libswresample
+dep	so:libvorbisfile.so.3	libvorbis
+dep	so:libwavpack.so.1	wavpack-libs

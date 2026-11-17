@@ -1,0 +1,15 @@
+name	perl-crypt-openssl-dsa
+version	0.20-r7
+description	Digital Signature Algorithm using OpenSSL
+url	https://metacpan.org/release/Crypt-OpenSSL-DSA/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	14312
+installed-size	37155
+depends	perl so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	perl-crypt-openssl-dsa
+repo	community
+file	perl-crypt-openssl-dsa-0.20-r7.apk
+checksum	Q1gtBqTvz2GYjIgGZN3N52rTDT9+c=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

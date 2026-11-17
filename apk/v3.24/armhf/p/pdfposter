@@ -1,0 +1,14 @@
+name	pdfposter
+version	0.9.1-r2
+description	Tool for scaling and tiling PDFs to multiple pages for printing
+url	https://gitlab.com/pdftools/pdfposter
+license	GPL-3.0-only
+size	48486
+installed-size	183926
+depends	py3-pypdf python3~3.14
+origin	pdfposter
+repo	community
+file	pdfposter-0.9.1-r2.apk
+checksum	Q1RapWausB4QmAdWGzJzMKDGPTpI4=
+dep	py3-pypdf	py3-pypdf
+dep	python3~3.14	python3

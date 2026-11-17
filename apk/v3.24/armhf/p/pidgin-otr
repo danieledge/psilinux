@@ -1,0 +1,16 @@
+name	pidgin-otr
+version	4.0.2-r1
+description	Off The Record Messaging, an encryption plugin for pidgin to provide secure IM conversations
+url	http://otr.cypherpunks.ca/
+license	GPL-2.0-only
+size	44954
+installed-size	103928
+depends	pidgin so:libc.musl-armhf.so.1 so:libgcrypt.so.20 so:libotr.so.5
+origin	pidgin-otr
+repo	community
+file	pidgin-otr-4.0.2-r1.apk
+checksum	Q1n0ihfMzcmg5DqhioLPSkuNA2ods=
+dep	pidgin	pidgin
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libotr.so.5	libotr

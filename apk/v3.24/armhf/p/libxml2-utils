@@ -1,0 +1,14 @@
+name	libxml2-utils
+version	2.13.9-r2
+description	XML utilities
+url	https://gitlab.gnome.org/GNOME/libxml2
+license	MIT
+size	30682
+installed-size	72692
+depends	so:libc.musl-armhf.so.1 so:libxml2.so.2
+origin	libxml2
+repo	main
+file	libxml2-utils-2.13.9-r2.apk
+checksum	Q1DdpOhTru4Xautwxga3Un63dPMCQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxml2.so.2	libxml2

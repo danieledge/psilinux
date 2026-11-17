@@ -1,0 +1,14 @@
+name	zix-dev
+version	0.8.0-r0
+description	lightweight C99 portability and data structure library (development files)
+url	http://drobilla.net/category/zix
+license	ISC
+size	21342
+installed-size	73747
+depends	zix-libs=0.8.0-r0 pkgconfig
+origin	zix
+repo	community
+file	zix-dev-0.8.0-r0.apk
+checksum	Q1/r/yhWPmPZvTyOzx/7Z6Xnn95Tg=
+dep	zix-libs=0.8.0-r0	zix-libs
+dep	pkgconfig	pkgconf

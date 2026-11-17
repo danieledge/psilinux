@@ -1,0 +1,13 @@
+name	py3-docker-py-pyc
+version	7.1.0-r1
+description	Precompiled Python bytecode for py3-docker-py
+url	https://github.com/docker/docker-py
+license	Apache-2.0
+size	221155
+installed-size	583487
+depends	python3~3.14
+origin	py3-docker-py
+repo	community
+file	py3-docker-py-pyc-7.1.0-r1.apk
+checksum	Q1kgfu3XnBorGdMkxKlA/ef3OMLow=
+dep	python3~3.14	python3

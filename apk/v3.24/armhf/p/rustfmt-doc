@@ -1,0 +1,14 @@
+name	rustfmt-doc
+version	1.96.1-r0
+description	Rust Code Formatter (documentation)
+url	https://rust-lang.github.io/rustfmt/
+license	Apache-2.0 OR MIT
+size	28163
+installed-size	102982
+depends	gcc musl-dev
+origin	rust
+repo	main
+file	rustfmt-doc-1.96.1-r0.apk
+checksum	Q1VFbM5wtJqoujgf86oVnpEcQfUHQ=
+dep	gcc	gcc
+dep	musl-dev	musl-dev

@@ -1,0 +1,17 @@
+name	gthumb-full
+version	3.12.8.1-r3
+description	Image viewer and browser from GNOME (with all built-in extensions)
+url	https://gitlab.gnome.org/GNOME/gthumb
+license	GPL-2.0-or-later
+size	1346
+installed-size	0
+depends	gthumb=3.12.8.1-r3 gthumb-extra-formats gthumb-map-view gthumb-raw-files gthumb-webalbums
+origin	gthumb
+repo	community
+file	gthumb-full-3.12.8.1-r3.apk
+checksum	Q1LGIT/pTfUAkf4UUJpoIgCLVl3zU=
+dep	gthumb=3.12.8.1-r3	gthumb
+dep	gthumb-extra-formats	gthumb-extra-formats
+dep	gthumb-map-view	gthumb-map-view
+dep	gthumb-raw-files	gthumb-raw-files
+dep	gthumb-webalbums	gthumb-webalbums

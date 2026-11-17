@@ -1,0 +1,15 @@
+name	librist-dev
+version	0.2.15-r0
+description	Reliable Internet Stream Transport (RIST) (development files)
+url	https://www.rist.tv/
+license	BSD-2-Clause
+size	18024
+installed-size	59139
+depends	librist=0.2.15-r0 pc:libcjson pkgconfig
+origin	librist
+repo	community
+file	librist-dev-0.2.15-r0.apk
+checksum	Q1rGml6wFj2zB8Mm1Sk4TFrrm6APo=
+dep	librist=0.2.15-r0	librist
+dep	pc:libcjson	cjson-dev
+dep	pkgconfig	pkgconf

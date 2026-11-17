@@ -1,0 +1,20 @@
+name	direwolf
+version	1.8.1-r1
+description	Software soundcard AX.25 packet modem/TNC and APRS encoder/decoder
+url	https://github.com/wb2osz/direwolf
+license	GPL-2.0-or-later
+size	858080
+installed-size	1770761
+depends	so:libasound.so.2 so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-armhf.so.1 so:libgpiod.so.3 so:libgps.so.32 so:libhamlib.so.4 so:libudev.so.1
+origin	direwolf
+repo	community
+file	direwolf-1.8.1-r1.apk
+checksum	Q1yiSfIUlpHftzHzoewyYffoAhPp8=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgpiod.so.3	libgpiod
+dep	so:libgps.so.32	gpsd
+dep	so:libhamlib.so.4	hamlib
+dep	so:libudev.so.1	eudev-libs

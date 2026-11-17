@@ -1,0 +1,14 @@
+name	pipewire-filter-graph-onnx
+version	1.6.8-r4
+description	Multimedia processing graphs
+url	https://pipewire.org/
+license	MIT
+size	17790
+installed-size	34184
+depends	so:libc.musl-armhf.so.1 so:libonnxruntime.so.1
+origin	pipewire
+repo	community
+file	pipewire-filter-graph-onnx-1.6.8-r4.apk
+checksum	Q1ds1qvqSSXBtoRiAqLoEgylzSuKM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libonnxruntime.so.1	onnxruntime

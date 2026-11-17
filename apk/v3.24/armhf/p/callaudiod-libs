@@ -1,0 +1,16 @@
+name	callaudiod-libs
+version	0.1.99-r0
+description	Call audio routing daemon (libraries)
+url	https://gitlab.com/mobian1/callaudiod
+license	GPL-3.0-or-later
+size	14165
+installed-size	34072
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	callaudiod
+repo	community
+file	callaudiod-libs-0.1.99-r0.apk
+checksum	Q1BUVLQeuMTVZy+EHr20bqAxDGpu8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

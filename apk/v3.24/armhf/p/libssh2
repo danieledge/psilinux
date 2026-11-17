@@ -1,0 +1,15 @@
+name	libssh2
+version	1.11.1-r4
+description	library for accessing ssh1/ssh2 protocol servers
+url	https://libssh2.org/
+license	BSD-3-Clause
+size	110181
+installed-size	235104
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libz.so.1
+origin	libssh2
+repo	main
+file	libssh2-1.11.1-r4.apk
+checksum	Q1Cca45ST/afYPDvtMb3lAyS4O/UY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libz.so.1	zlib

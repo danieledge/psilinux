@@ -1,0 +1,22 @@
+name	postgresql17-dev
+version	17.12-r0
+description	A sophisticated object-relational DBMS, version 17 (development files)
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	2142923
+installed-size	7939648
+depends	libpq-dev libecpg-dev clang20 icu-dev llvm20 lz4-dev openssl-dev zstd-dev so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	postgresql17
+repo	main
+file	postgresql17-dev-17.12-r0.apk
+checksum	Q16Iu4JFQAbW3v67LGJnK6TuLYuxI=
+dep	libpq-dev	libpq-dev
+dep	libecpg-dev	libecpg-dev
+dep	clang20	clang20
+dep	icu-dev	icu-dev
+dep	llvm20	llvm20
+dep	lz4-dev	lz4-dev
+dep	openssl-dev	openssl-dev
+dep	zstd-dev	zstd-dev
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

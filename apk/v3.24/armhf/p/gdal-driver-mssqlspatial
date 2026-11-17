@@ -1,0 +1,17 @@
+name	gdal-driver-mssqlspatial
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (Microsoft SQL Server Spatial Database driver)
+url	https://gdal.org/
+license	MIT
+size	43261
+installed-size	99712
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libodbc.so.2 so:libstdc++.so.6
+origin	gdal
+repo	community
+file	gdal-driver-mssqlspatial-3.13.3-r0.apk
+checksum	Q1lILn0t58L/TEFVRBMU9ZsAmFXik=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libodbc.so.2	unixodbc
+dep	so:libstdc++.so.6	libstdc++

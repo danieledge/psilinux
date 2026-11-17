@@ -1,0 +1,13 @@
+name	wvkbd
+version	0.19.4-r0
+description	On-screen virtual keyboard for wayland compositors using wlroots
+url	https://git.sr.ht/~proycon/wvkbd
+license	GPL-3.0-or-later
+size	1296
+installed-size	0
+depends	wvkbd-any
+origin	wvkbd
+repo	community
+file	wvkbd-0.19.4-r0.apk
+checksum	Q1AXFy3gllezATNTajyaEJF3aH1kc=
+dep	wvkbd-any	wvkbd-mobintl

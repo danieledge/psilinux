@@ -1,0 +1,16 @@
+name	libyuv
+version	0.0.1928-r0
+description	Library for YUV scaling
+url	https://chromium.googlesource.com/libyuv/libyuv/
+license	BSD-3-Clause
+size	260125
+installed-size	703188
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libjpeg.so.8 so:libstdc++.so.6
+origin	libyuv
+repo	main
+file	libyuv-0.0.1928-r0.apk
+checksum	Q1P/hEWKvvw4cJbFZ3e9lNoyhz2j4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libstdc++.so.6	libstdc++

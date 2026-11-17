@@ -1,0 +1,15 @@
+name	py3-pydicom
+version	3.0.2-r1
+description	Read, modify and write DICOM files with python
+url	https://github.com/pydicom/pydicom
+license	MIT AND BSD-3-Clause
+size	1164131
+installed-size	5719738
+depends	python3 py3-numpy python3~3.14
+origin	py3-pydicom
+repo	community
+file	py3-pydicom-3.0.2-r1.apk
+checksum	Q17l6CvCGYB62cCgzSk7Dke/eE2TI=
+dep	python3	python3
+dep	py3-numpy	py3-numpy
+dep	python3~3.14	python3

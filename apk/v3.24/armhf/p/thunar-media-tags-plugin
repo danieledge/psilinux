@@ -1,0 +1,21 @@
+name	thunar-media-tags-plugin
+version	0.6.0-r0
+description	Edit audio tags in thunar
+url	https://goodies.xfce.org/projects/thunar-plugins/thunar-media-tags-plugin
+license	GPL-2.0-only
+size	16935
+installed-size	38060
+depends	so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libtag_c.so.2 so:libthunarx-3.so.0
+origin	thunar-media-tags-plugin
+repo	community
+file	thunar-media-tags-plugin-0.6.0-r0.apk
+checksum	Q14rbEWOrnW4OXD+aITSONDpRB4Kw=
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libtag_c.so.2	libtag_c
+dep	so:libthunarx-3.so.0	thunar

@@ -1,0 +1,13 @@
+name	libmad
+version	0.15.1b-r10
+description	A high-quality MPEG audio decoder
+url	https://www.underbit.com/products/mad/
+license	GPL-2.0-or-later
+size	62398
+installed-size	87212
+depends	so:libc.musl-armhf.so.1
+origin	libmad
+repo	community
+file	libmad-0.15.1b-r10.apk
+checksum	Q16LlGYWSTepPXH7WBzW1msq5KnCQ=
+dep	so:libc.musl-armhf.so.1	musl

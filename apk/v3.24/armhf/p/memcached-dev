@@ -1,0 +1,13 @@
+name	memcached-dev
+version	1.6.42-r0
+description	Distributed memory object caching system (development files)
+url	https://memcached.org/
+license	BSD-3-Clause
+size	52400
+installed-size	215489
+depends	memcached=1.6.42-r0
+origin	memcached
+repo	main
+file	memcached-dev-1.6.42-r0.apk
+checksum	Q1NBm9RSq84ueYqO9cvyfy3Gd9vrU=
+dep	memcached=1.6.42-r0	memcached

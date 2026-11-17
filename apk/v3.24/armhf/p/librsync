@@ -1,0 +1,14 @@
+name	librsync
+version	2.3.4-r1
+description	librsync implements the rolling-checksum algorithm of rsync
+url	https://github.com/librsync/librsync
+license	LGPL-2.1-or-later
+size	36950
+installed-size	80448
+depends	so:libc.musl-armhf.so.1 so:libpopt.so.0
+origin	librsync
+repo	main
+file	librsync-2.3.4-r1.apk
+checksum	Q1Fz26W1+9g9EN06xGojotnQ45xow=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpopt.so.0	popt

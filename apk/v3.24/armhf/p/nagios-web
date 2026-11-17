@@ -1,0 +1,13 @@
+name	nagios-web
+version	4.5.14-r0
+description	Popular monitoring tool
+url	https://www.nagios.org/
+license	GPL-2.0-only
+size	918874
+installed-size	1249491
+depends	perl
+origin	nagios
+repo	main
+file	nagios-web-4.5.14-r0.apk
+checksum	Q14JY9apsabURT0ug/J27+NbKJ0Qs=
+dep	perl	perl

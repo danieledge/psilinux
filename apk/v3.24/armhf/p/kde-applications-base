@@ -1,0 +1,28 @@
+name	kde-applications-base
+version	26.04.2-r0
+description	KDE Applications meta package
+url	https://kde.org/applications/
+license	GPL-3.0-or-later
+size	1370
+installed-size	0
+depends	ark audiocd-kio dolphin ffmpegthumbs gwenview kate kdenetwork-filesharing kdialog kfind kio-extras kolourpaint konsole kwrite okular print-manager spectacle
+origin	kde-applications
+repo	community
+file	kde-applications-base-26.04.2-r0.apk
+checksum	Q1F33B35gDGrFCGWMQFlTpnckUytc=
+dep	ark	!
+dep	audiocd-kio	!
+dep	dolphin	!
+dep	ffmpegthumbs	!
+dep	gwenview	!
+dep	kate	!
+dep	kdenetwork-filesharing	!
+dep	kdialog	!
+dep	kfind	!
+dep	kio-extras	!
+dep	kolourpaint	!
+dep	konsole	!
+dep	kwrite	!
+dep	okular	!
+dep	print-manager	!
+dep	spectacle	!

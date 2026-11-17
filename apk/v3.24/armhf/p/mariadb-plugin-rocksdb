@@ -1,0 +1,18 @@
+name	mariadb-plugin-rocksdb
+version	11.8.9-r0
+description	MariaDB plugin for RocksDB (MyRocks)
+url	https://mariadb.com/kb/en/library/myrocks/
+license	GPL-2.0-only
+size	3004126
+installed-size	7339524
+depends	mariadb=11.8.9-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
+origin	mariadb
+repo	main
+file	mariadb-plugin-rocksdb-11.8.9-r0.apk
+checksum	Q1tUAF/NLT/cinvTVe3nVyj6a3AY0=
+dep	mariadb=11.8.9-r0	mariadb
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

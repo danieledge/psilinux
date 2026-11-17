@@ -1,0 +1,12 @@
+name	radsecproxy-openrc
+version	1.11.2-r0
+description	Generic RADIUS proxy that supports both UDP and TLS (RadSec) RADIUS transports (OpenRC init scripts)
+url	https://github.com/radsecproxy/radsecproxy
+license	BSD-3-Clause
+size	2278
+installed-size	1239
+depends	
+origin	radsecproxy
+repo	community
+file	radsecproxy-openrc-1.11.2-r0.apk
+checksum	Q1XTl2Kq03y1Ap6LyLVLVSeIoK9IU=

@@ -1,0 +1,13 @@
+name	wasm-component-ld-dbg
+version	1.96.1-r0
+description	Command line linker for creating WebAssembly components (debug info)
+url	https://github.com/bytecodealliance/wasm-component-ld
+license	Apache-2.0 OR MIT
+size	2646
+installed-size	2036
+depends	wasm-component-ld=1.96.1-r0
+origin	rust
+repo	main
+file	wasm-component-ld-dbg-1.96.1-r0.apk
+checksum	Q1FrU8oJZ7hn1IjNQ6faU5N5yKWvI=
+dep	wasm-component-ld=1.96.1-r0	wasm-component-ld

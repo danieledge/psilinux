@@ -1,0 +1,16 @@
+name	exiv2
+version	0.28.9-r0
+description	Exif and Iptc metadata manipulation library and tools.
+url	https://exiv2.org/
+license	GPL-2.0-or-later
+size	94459
+installed-size	227308
+depends	so:libc.musl-armhf.so.1 so:libexiv2.so.28 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	exiv2
+repo	community
+file	exiv2-0.28.9-r0.apk
+checksum	Q1z8vs0FUZGneXfkw8G1xFKCH2Vco=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexiv2.so.28	exiv2-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

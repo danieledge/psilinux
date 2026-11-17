@@ -1,0 +1,20 @@
+name	qman
+version	1.5.1-r1
+description	Modern man page viewer for the terminal
+url	https://github.com/plp13/qman
+license	BSD-2-Clause
+size	67795
+installed-size	172353
+depends	groff man-db so:libbsd.so.0 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:liblzma.so.5 so:libncursesw.so.6 so:libz.so.1
+origin	qman
+repo	community
+file	qman-1.5.1-r1.apk
+checksum	Q1DbQ/pQA/xR42puVKqJBcl8jwId4=
+dep	groff	groff
+dep	man-db	man-db
+dep	so:libbsd.so.0	libbsd
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblzma.so.5	xz-libs
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libz.so.1	zlib

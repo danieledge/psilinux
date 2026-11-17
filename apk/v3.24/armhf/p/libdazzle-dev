@@ -1,0 +1,15 @@
+name	libdazzle-dev
+version	3.44.0-r1
+description	Library to delight your users with fancy features (development files)
+url	https://gitlab.gnome.org/GNOME/libdazzle
+license	GPL-3.0-or-later
+size	161448
+installed-size	1644663
+depends	libdazzle=3.44.0-r1 pc:gtk+-3.0 pkgconfig
+origin	libdazzle
+repo	community
+file	libdazzle-dev-3.44.0-r1.apk
+checksum	Q1G1Cz2WjxI96zEywyHnTB51geh6k=
+dep	libdazzle=3.44.0-r1	libdazzle
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pkgconfig	pkgconf

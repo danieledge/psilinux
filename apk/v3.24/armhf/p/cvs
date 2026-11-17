@@ -1,0 +1,16 @@
+name	cvs
+version	1.12.13-r3
+description	Concurrent Versions System
+url	https://www.nongnu.org/cvs/
+license	GPL-2.0-or-later
+size	407841
+installed-size	900130
+depends	so:libbsd.so.0 so:libc.musl-armhf.so.1 so:libintl.so.8 so:libz.so.1
+origin	cvs
+repo	main
+file	cvs-1.12.13-r3.apk
+checksum	Q1LOK/9fiLCo5IWSaUsmBL2sMmi6k=
+dep	so:libbsd.so.0	libbsd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libintl.so.8	libintl
+dep	so:libz.so.1	zlib

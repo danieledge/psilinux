@@ -1,0 +1,23 @@
+name	py3-pontos
+version	26.5.0-r0
+description	Common utilities and tools maintained by Greenbone Networks
+url	https://github.com/greenbone/pontos/
+license	Apache-2.0
+size	181062
+installed-size	858324
+depends	py3-colorful py3-dateutil py3-h2 py3-httpx py3-packaging py3-rich py3-semver py3-shtab py3-tomlkit python3 python3~3.14
+origin	py3-pontos
+repo	community
+file	py3-pontos-26.5.0-r0.apk
+checksum	Q1GwgaEY/BhF8ktRnl8tv7El4Cb0w=
+dep	py3-colorful	py3-colorful
+dep	py3-dateutil	py3-dateutil
+dep	py3-h2	py3-h2
+dep	py3-httpx	py3-httpx
+dep	py3-packaging	py3-packaging
+dep	py3-rich	py3-rich
+dep	py3-semver	py3-semver
+dep	py3-shtab	py3-shtab
+dep	py3-tomlkit	py3-tomlkit
+dep	python3	python3
+dep	python3~3.14	python3

@@ -1,0 +1,25 @@
+name	ptyxis
+version	50.1-r0
+description	Container-oriented terminal
+url	https://gitlab.gnome.org/chergert/ptyxis
+license	GPL-3.0-or-later
+size	289566
+installed-size	925318
+depends	so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libpango-1.0.so.0 so:libportal-gtk4.so.1 so:libportal.so.1 so:libvte-2.91-gtk4.so.0
+origin	ptyxis
+repo	community
+file	ptyxis-50.1-r0.apk
+checksum	Q1+zo+LytPDrfjGe0bcAyO1HkTNC8=
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libportal-gtk4.so.1	libportal-gtk4
+dep	so:libportal.so.1	libportal
+dep	so:libvte-2.91-gtk4.so.0	vte3-gtk4

@@ -1,0 +1,14 @@
+name	cargo-modules
+version	0.21.1-r0
+description	A cargo plugin for showing an overview of a crate's modules
+url	https://github.com/regexident/cargo-modules
+license	MPL-2.0
+size	2968762
+installed-size	6551924
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	cargo-modules
+repo	community
+file	cargo-modules-0.21.1-r0.apk
+checksum	Q1YFm0QOc7OLsOvRKXYgbU1EXX6Us=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

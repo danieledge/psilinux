@@ -1,0 +1,15 @@
+name	php83-pspell
+version	8.3.36-r0
+description	PHP83 extension: Pspell
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	7920
+installed-size	17745
+depends	php83-common so:libaspell.so.15 so:libc.musl-armhf.so.1
+origin	php83
+repo	community
+file	php83-pspell-8.3.36-r0.apk
+checksum	Q1DyJ3yz5HhJiIYlmZRwzRQNzX6Og=
+dep	php83-common	php83-common
+dep	so:libaspell.so.15	aspell-libs
+dep	so:libc.musl-armhf.so.1	musl

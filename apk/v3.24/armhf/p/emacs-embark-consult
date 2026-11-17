@@ -1,0 +1,14 @@
+name	emacs-embark-consult
+version	1.1-r1
+description	Consult integration for Embark
+url	https://github.com/oantolin/embark
+license	GPL-3.0-or-later
+size	10605
+installed-size	33745
+depends	emacs-embark=1.1-r1 emacs-consult
+origin	emacs-embark
+repo	community
+file	emacs-embark-consult-1.1-r1.apk
+checksum	Q1LQjUeyDhsf6fYajZFJgjGtW04m4=
+dep	emacs-embark=1.1-r1	emacs-embark
+dep	emacs-consult	emacs-consult

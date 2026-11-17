@@ -1,0 +1,14 @@
+name	opensmtpd-table-sqlite
+version	1.0.1-r0
+description	OpenSMTPD SQLite tables
+url	https://github.com/OpenSMTPD/table-sqlite
+license	ISC
+size	10536
+installed-size	21768
+depends	so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	opensmtpd-table-sqlite
+repo	community
+file	opensmtpd-table-sqlite-1.0.1-r0.apk
+checksum	Q1J6fjZ2/ZoiejsDJcItCI3Bc0y+k=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

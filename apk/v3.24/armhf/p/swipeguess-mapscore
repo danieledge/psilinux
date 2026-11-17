@@ -1,0 +1,13 @@
+name	swipeguess-mapscore
+version	0.3.1-r0
+description	Utility to turn swipes into words
+url	https://git.sr.ht/~earboxer/swipeGuess
+license	AGPL-3.0-only
+size	3940
+installed-size	5292
+depends	so:libc.musl-armhf.so.1
+origin	swipeguess
+repo	community
+file	swipeguess-mapscore-0.3.1-r0.apk
+checksum	Q14H5q7k4dYHEXAHD2lB1NlKCPbdg=
+dep	so:libc.musl-armhf.so.1	musl

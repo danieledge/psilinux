@@ -1,0 +1,18 @@
+name	libdatovka
+version	0.7.3-r0
+description	Client library for accessing SOAP services of ISDS (Czech Data Boxes)
+url	https://www.datovka.cz/
+license	LGPL-3.0-or-later AND GPL-3.0-or-later
+size	111723
+installed-size	272016
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libexpat.so.1 so:libjson-c.so.5 so:libxml2.so.2
+origin	libdatovka
+repo	community
+file	libdatovka-0.7.3-r0.apk
+checksum	Q1Nd4G5aLgt+4GrsVo1wkMJqj0+Vg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libexpat.so.1	libexpat
+dep	so:libjson-c.so.5	json-c
+dep	so:libxml2.so.2	libxml2

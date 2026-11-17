@@ -1,0 +1,13 @@
+name	libnsl-static
+version	2.0.1-r2
+description	Public client interface for NIS(YP) and NIS+ in a IPv6 ready version (static library)
+url	https://github.com/thkukuk/libnsl
+license	LGPL-2.0-or-later
+size	12433
+installed-size	37200
+depends	libnsl-dev
+origin	libnsl
+repo	community
+file	libnsl-static-2.0.1-r2.apk
+checksum	Q1jl2OxPOcIv1LiXY6syxFrrhW4ns=
+dep	libnsl-dev	libnsl-dev

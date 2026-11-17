@@ -1,0 +1,14 @@
+name	uutils-coreutils-groups
+version	0.11.0-r1
+description	Rust rewrite of the GNU coreutils - cmd:groups
+url	https://uutils.github.io/coreutils/
+license	MIT
+size	1556
+installed-size	1
+depends	uutils uutils=0.11.0-r1
+origin	uutils
+repo	community
+file	uutils-coreutils-groups-0.11.0-r1.apk
+checksum	Q1a6qbphYKHeEnUzlZmNdS2ejHdVg=
+dep	uutils	uutils
+dep	uutils=0.11.0-r1	uutils

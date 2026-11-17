@@ -1,0 +1,14 @@
+name	nginx-mod-rtmp
+version	1.30.6-r0
+description	Nginx third-party module rtmp (version v1.2.2)
+url	https://github.com/arut/nginx-rtmp-module
+license	BSD-2-Clause
+size	101686
+installed-size	218182
+depends	nginx=1.30.6-r0 so:libc.musl-armhf.so.1
+origin	nginx
+repo	main
+file	nginx-mod-rtmp-1.30.6-r0.apk
+checksum	Q1pqIjG8YSt016ZJ9e6buqTXbz1nI=
+dep	nginx=1.30.6-r0	nginx
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,44 @@
+name	rawtherapee
+version	5.12-r5
+description	Powerful cross-platform raw image processing program
+url	https://rawtherapee.com
+license	GPL-3.0-or-later
+size	82821698
+installed-size	116468429
+depends	so:libatkmm-1.6.so.1 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcairomm-1.0.so.1 so:libcanberra-gtk3.so.0 so:libcanberra.so.0 so:libexiv2.so.28 so:libexpat.so.1 so:libfftw3f.so.3 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgdkmm-3.0.so.1 so:libgiomm-2.4.so.1 so:libglib-2.0.so.0 so:libglibmm-2.4.so.1 so:libgobject-2.0.so.0 so:libgomp.so.1 so:libgtk-3.so.0 so:libgtkmm-3.0.so.1 so:libjpeg.so.8 so:libjxl.so.0.11 so:libjxl_threads.so.0.11 so:liblcms2.so.2 so:liblensfun.so.1 so:libpangomm-1.4.so.1 so:libpng16.so.16 so:libraw_r.so.25 so:librsvg-2.so.2 so:libsigc-2.0.so.0 so:libstdc++.so.6 so:libtiff.so.6 so:libz.so.1
+origin	rawtherapee
+repo	community
+file	rawtherapee-5.12-r5.apk
+checksum	Q16a3NVt9fAmtEpBHrRXwAiEY4Kas=
+dep	so:libatkmm-1.6.so.1	atkmm2.28
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcairomm-1.0.so.1	cairomm1.14
+dep	so:libcanberra-gtk3.so.0	libcanberra-gtk3
+dep	so:libcanberra.so.0	libcanberra
+dep	so:libexiv2.so.28	exiv2-libs
+dep	so:libexpat.so.1	libexpat
+dep	so:libfftw3f.so.3	fftw-single-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdkmm-3.0.so.1	gtkmm3
+dep	so:libgiomm-2.4.so.1	glibmm2.66
+dep	so:libglib-2.0.so.0	glib
+dep	so:libglibmm-2.4.so.1	glibmm2.66
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgomp.so.1	libgomp
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtkmm-3.0.so.1	gtkmm3
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libjxl.so.0.11	libjxl
+dep	so:libjxl_threads.so.0.11	libjxl
+dep	so:liblcms2.so.2	lcms2
+dep	so:liblensfun.so.1	lensfun
+dep	so:libpangomm-1.4.so.1	pangomm2.46
+dep	so:libpng16.so.16	libpng
+dep	so:libraw_r.so.25	libraw
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libsigc-2.0.so.0	libsigc++
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtiff.so.6	tiff
+dep	so:libz.so.1	zlib

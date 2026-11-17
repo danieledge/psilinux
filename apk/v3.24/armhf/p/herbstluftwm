@@ -1,0 +1,22 @@
+name	herbstluftwm
+version	0.9.5-r6
+description	Manual tiling window manager
+url	https://herbstluftwm.org
+license	BSD-2-Clause
+size	465133
+installed-size	1116454
+depends	so:libX11.so.6 so:libXext.so.6 so:libXfixes.so.3 so:libXft.so.2 so:libXinerama.so.1 so:libXrandr.so.2 so:libXrender.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	herbstluftwm
+repo	community
+file	herbstluftwm-0.9.5-r6.apk
+checksum	Q1MX9q2Ptu8xWRGJONijPR8YQ7K1k=
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXft.so.2	libxft
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libXrender.so.1	libxrender
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

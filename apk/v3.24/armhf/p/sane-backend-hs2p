@@ -1,0 +1,14 @@
+name	sane-backend-hs2p
+version	1.4.0-r4
+description	SANE backend for Ricoh SCSI flatbed/ADF scanners
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	49926
+installed-size	102065
+depends	sane so:libc.musl-armhf.so.1
+origin	sane
+repo	community
+file	sane-backend-hs2p-1.4.0-r4.apk
+checksum	Q1LSvbYj/crQBn0mRs4Q/jwFDgwcY=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl

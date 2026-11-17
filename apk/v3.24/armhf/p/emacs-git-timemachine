@@ -1,0 +1,14 @@
+name	emacs-git-timemachine
+version	4.13_git20240427-r1
+description	Step through Git revisions of a file
+url	https://codeberg.org/pidu/git-timemachine
+license	GPL-3.0-or-later
+size	11737
+installed-size	40618
+depends	cmd:emacs cmd:git
+origin	emacs-git-timemachine
+repo	community
+file	emacs-git-timemachine-4.13_git20240427-r1.apk
+checksum	Q1JxXu430Q95fhbvxEg+Jb7xhKNNg=
+dep	cmd:emacs	emacs-gtk3
+dep	cmd:git	git

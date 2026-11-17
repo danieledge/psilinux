@@ -1,0 +1,15 @@
+name	rcon
+version	0.6-r2
+description	Source RCON client for command line
+url	https://github.com/n0la/rcon
+license	BSD-2-Clause
+size	8312
+installed-size	17864
+depends	so:libbsd.so.0 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0
+origin	rcon
+repo	community
+file	rcon-0.6-r2.apk
+checksum	Q1E/uVYApsz2IKB+oBiZlD8a424+g=
+dep	so:libbsd.so.0	libbsd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib

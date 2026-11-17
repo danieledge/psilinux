@@ -1,0 +1,21 @@
+name	ruby-activesupport
+version	8.0.0-r1
+description	Utility classes and Ruby extensions from Rails
+url	https://rubyonrails.org/
+license	MIT
+size	270078
+installed-size	966427
+depends	ruby ruby-base64 ruby-bigdecimal ruby-connection_pool ruby-concurrent-ruby ruby-drb ruby-i18n ruby-minitest ruby-tzinfo
+origin	ruby-activesupport
+repo	community
+file	ruby-activesupport-8.0.0-r1.apk
+checksum	Q18xA1KPjLYGkl86hPCeA5kDqUCho=
+dep	ruby	ruby
+dep	ruby-base64	ruby-base64
+dep	ruby-bigdecimal	ruby-bigdecimal
+dep	ruby-connection_pool	ruby-connection_pool
+dep	ruby-concurrent-ruby	ruby-concurrent-ruby
+dep	ruby-drb	ruby-drb
+dep	ruby-i18n	ruby-i18n
+dep	ruby-minitest	ruby-minitest
+dep	ruby-tzinfo	ruby-tzinfo

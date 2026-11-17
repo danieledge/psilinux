@@ -1,0 +1,13 @@
+name	git-daemon-openrc
+version	2.54.1-r0
+description	Git protocol daemon (OpenRC init scripts)
+url	https://www.git-scm.com/
+license	GPL-2.0-only
+size	2274
+installed-size	1085
+depends	git-daemon=2.54.1-r0
+origin	git
+repo	main
+file	git-daemon-openrc-2.54.1-r0.apk
+checksum	Q1hsBP2FNCLFRMyJfaeB/B7/+blWo=
+dep	git-daemon=2.54.1-r0	git-daemon

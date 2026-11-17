@@ -1,0 +1,15 @@
+name	libbluray-dev
+version	1.4.0-r0
+description	Library for Blu-Ray disc playback (development files)
+url	https://www.videolan.org/developers/libbluray.html
+license	LGPL-2.1-or-later
+size	21626
+installed-size	77030
+depends	libbluray=1.4.0-r0 pc:libudfread>=1.2.0 pkgconfig
+origin	libbluray
+repo	community
+file	libbluray-dev-1.4.0-r0.apk
+checksum	Q1WQxR/ncG2/y7sEPkRpcTDDWF4v0=
+dep	libbluray=1.4.0-r0	libbluray
+dep	pc:libudfread>=1.2.0	libudfread-dev
+dep	pkgconfig	pkgconf

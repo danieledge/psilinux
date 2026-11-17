@@ -1,0 +1,14 @@
+name	perl-meta
+version	0.015-r1
+description	Perl meta-programming API
+url	https://metacpan.org/release/meta/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	19013
+installed-size	46173
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-meta
+repo	main
+file	perl-meta-0.015-r1.apk
+checksum	Q1a3yzJvUUMh00EcF6zhS6H61QnCk=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

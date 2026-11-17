@@ -1,0 +1,21 @@
+name	nghttp2
+version	1.70.0-r0
+description	HTTP/2 C client, server and proxy
+url	https://nghttp2.org
+license	MIT
+size	646020
+installed-size	1455268
+depends	so:libc.musl-armhf.so.1 so:libcares.so.2 so:libcrypto.so.3 so:libev.so.4 so:libgcc_s.so.1 so:libnghttp2.so.14 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1
+origin	nghttp2
+repo	main
+file	nghttp2-1.70.0-r0.apk
+checksum	Q1/CLIG1+lz7kztv2i6DZU/qK863w=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcares.so.2	c-ares
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libev.so.4	libev
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libnghttp2.so.14	nghttp2-libs
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

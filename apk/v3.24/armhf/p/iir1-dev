@@ -1,0 +1,14 @@
+name	iir1-dev
+version	1.10.0-r0
+description	dsp iir realtime C++ filter library (development files)
+url	https://github.com/berndporr/iir1
+license	MIT
+size	40087
+installed-size	213644
+depends	iir1=1.10.0-r0 pkgconfig
+origin	iir1
+repo	community
+file	iir1-dev-1.10.0-r0.apk
+checksum	Q1zaxygP3KZnoouicPDBQ/gG/r6Yc=
+dep	iir1=1.10.0-r0	iir1
+dep	pkgconfig	pkgconf

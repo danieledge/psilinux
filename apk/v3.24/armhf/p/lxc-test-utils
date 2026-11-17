@@ -1,0 +1,18 @@
+name	lxc-test-utils
+version	7.0.0-r0
+description	Runtime testing utilities for LXC
+url	https://linuxcontainers.org/lxc/
+license	LGPL-2.1-or-later
+size	2904462
+installed-size	7512572
+depends	so:libc.musl-armhf.so.1 so:libcap.so.2 so:libdbus-1.so.3 so:libgcc_s.so.1 so:liblxc.so.1 so:libseccomp.so.2
+origin	lxc
+repo	main
+file	lxc-test-utils-7.0.0-r0.apk
+checksum	Q1RGpp/qlNoq57XCr/mFpcF7d7Nbc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblxc.so.1	lxc-libs
+dep	so:libseccomp.so.2	libseccomp

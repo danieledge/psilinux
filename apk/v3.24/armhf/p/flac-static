@@ -1,0 +1,13 @@
+name	flac-static
+version	1.4.3-r2
+description	Free Lossless Audio Codec (static library)
+url	https://xiph.org/flac/
+license	BSD-3-Clause AND GPL-2.0-or-later
+size	1314780
+installed-size	1606640
+depends	flac-dev
+origin	flac
+repo	main
+file	flac-static-1.4.3-r2.apk
+checksum	Q1OQwmxbkZwn6JxgLRgpDjzLWDsR4=
+dep	flac-dev	flac-dev

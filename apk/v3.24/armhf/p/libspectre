@@ -1,0 +1,14 @@
+name	libspectre
+version	0.2.12-r2
+description	A small library for rendering Postscript documents
+url	https://www.freedesktop.org/wiki/Software/libspectre
+license	LGPL-2.0-or-later
+size	24196
+installed-size	50544
+depends	so:libc.musl-armhf.so.1 so:libgs.so.10
+origin	libspectre
+repo	community
+file	libspectre-0.2.12-r2.apk
+checksum	Q1uA/WXCwYh6EsU7tBjm+cTeGaqZ4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgs.so.10	ghostscript

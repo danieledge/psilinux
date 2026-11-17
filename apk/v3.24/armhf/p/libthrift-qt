@@ -1,0 +1,18 @@
+name	libthrift-qt
+version	0.23.0-r0
+description	Language-independent software stack for RPC implementation
+url	https://thrift.apache.org/
+license	Apache-2.0
+size	18640
+installed-size	50560
+depends	so:libQt5Core.so.5 so:libQt5Network.so.5 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libthrift.so.0.23.0
+origin	thrift
+repo	community
+file	libthrift-qt-0.23.0-r0.apk
+checksum	Q1aEyWBYFXesLzuH2R8BugblOeDnc=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Network.so.5	qt5-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libthrift.so.0.23.0	libthrift

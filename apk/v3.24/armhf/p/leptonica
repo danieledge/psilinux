@@ -1,0 +1,20 @@
+name	leptonica
+version	1.87.0-r0
+description	Software that is broadly useful for image processing and image analysis applications
+url	http://www.leptonica.com/
+license	custom
+size	1181085
+installed-size	2653672
+depends	so:libc.musl-armhf.so.1 so:libgif.so.7 so:libjpeg.so.8 so:libpng16.so.16 so:libtiff.so.6 so:libwebp.so.7 so:libwebpmux.so.3 so:libz.so.1
+origin	leptonica
+repo	community
+file	leptonica-1.87.0-r0.apk
+checksum	Q18cIbZN+QCKExyshmYjesxg0krvE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgif.so.7	giflib
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpng16.so.16	libpng
+dep	so:libtiff.so.6	tiff
+dep	so:libwebp.so.7	libwebp
+dep	so:libwebpmux.so.3	libwebpmux
+dep	so:libz.so.1	zlib

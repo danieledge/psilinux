@@ -1,0 +1,14 @@
+name	htpdate
+version	2.0.0-r0
+description	HTTP Time protocol
+url	https://github.com/twekkel/htpdate
+license	GPL-2.0-or-later
+size	11545
+installed-size	21784
+depends	so:libc.musl-armhf.so.1 so:libssl.so.3
+origin	htpdate
+repo	community
+file	htpdate-2.0.0-r0.apk
+checksum	Q1aUWtVVwK1LiDhCh+R1XqP83IfkU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libssl.so.3	libssl3

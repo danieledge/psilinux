@@ -1,0 +1,13 @@
+name	libdatrie-libs
+version	0.2.14-r1
+description	Double-array trie library (libraries)
+url	https://github.com/tlwg/libdatrie
+license	LGPL-2.1-or-later
+size	11030
+installed-size	21732
+depends	so:libc.musl-armhf.so.1
+origin	libdatrie
+repo	community
+file	libdatrie-libs-0.2.14-r1.apk
+checksum	Q15rEfwMSVeDaf4PrBUYVwstD4VfI=
+dep	so:libc.musl-armhf.so.1	musl

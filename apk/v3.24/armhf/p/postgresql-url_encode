@@ -1,0 +1,14 @@
+name	postgresql-url_encode
+version	1.2.5-r2
+description	url_encode, url_decode functions for PostgreSQL
+url	https://github.com/okbob/url_encode
+license	PostgreSQL
+size	13857
+installed-size	22766
+depends	postgresql18 so:libc.musl-armhf.so.1
+origin	postgresql-url_encode
+repo	community
+file	postgresql-url_encode-1.2.5-r2.apk
+checksum	Q1Tt3Pf46lz5Gs4yx8vxZ9KuryvEg=
+dep	postgresql18	postgresql18
+dep	so:libc.musl-armhf.so.1	musl

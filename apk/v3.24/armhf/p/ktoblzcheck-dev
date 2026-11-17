@@ -1,0 +1,14 @@
+name	ktoblzcheck-dev
+version	1.59-r1
+description	A library to check account numbers and bank codes of german banks (development files)
+url	https://ktoblzcheck.sourceforge.net/
+license	LGPL-2.1-or-later
+size	13907
+installed-size	46515
+depends	ktoblzcheck=1.59-r1 pkgconfig
+origin	ktoblzcheck
+repo	community
+file	ktoblzcheck-dev-1.59-r1.apk
+checksum	Q1rh7YGu4Ip7Z9vyMICCKMWT9E5k4=
+dep	ktoblzcheck=1.59-r1	ktoblzcheck
+dep	pkgconfig	pkgconf

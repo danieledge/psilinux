@@ -1,0 +1,15 @@
+name	xplr
+version	1.1.0-r0
+description	Hackable, minimal, fast TUI file explorer
+url	https://xplr.dev
+license	MIT
+size	2008275
+installed-size	4342724
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblua-5.4.so.0
+origin	xplr
+repo	community
+file	xplr-1.1.0-r0.apk
+checksum	Q1kbrcvyT4Ok085X6v4nPCZuRk170=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblua-5.4.so.0	lua5.4-libs

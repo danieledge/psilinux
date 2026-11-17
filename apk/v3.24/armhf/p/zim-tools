@@ -1,0 +1,21 @@
+name	zim-tools
+version	3.7.0-r0
+description	Various ZIM command line tools
+url	https://github.com/openzim/zim-tools
+license	GPL-3.0-or-later
+size	310534
+installed-size	759916
+depends	so:libc.musl-armhf.so.1 so:libdocopt.so.0 so:libgcc_s.so.1 so:libgumbo.so.3 so:libicuuc.so.78 so:libmagic.so.1 so:libstdc++.so.6 so:libz.so.1 so:libzim.so.9
+origin	zim-tools
+repo	community
+file	zim-tools-3.7.0-r0.apk
+checksum	Q1EG/dd8LBuwkM9DhY4FyUx5SeB94=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdocopt.so.0	docopt-cpp
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgumbo.so.3	gumbo-parser
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libmagic.so.1	libmagic
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib
+dep	so:libzim.so.9	libzim

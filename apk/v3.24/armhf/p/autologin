@@ -1,0 +1,14 @@
+name	autologin
+version	1.0.0-r7
+description	Daemon for automatic login on TTY
+url	https://git.sr.ht/~kennylevinsen/autologin
+license	GPL-3.0-only
+size	5408
+installed-size	9896
+depends	so:libc.musl-armhf.so.1 so:libpam.so.0
+origin	autologin
+repo	community
+file	autologin-1.0.0-r7.apk
+checksum	Q14lCHhFLnuoUbTLJjq5r0uJbhlhU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpam.so.0	linux-pam

@@ -1,0 +1,14 @@
+name	libogg-dev
+version	1.3.6-r0
+description	Ogg bitstream and framing library (development files)
+url	https://xiph.org/ogg/
+license	BSD-3-Clause
+size	8063
+installed-size	23608
+depends	libogg=1.3.6-r0 pkgconfig
+origin	libogg
+repo	main
+file	libogg-dev-1.3.6-r0.apk
+checksum	Q1yzC8k+e3P5WDalKypQAe3r0tU6Q=
+dep	libogg=1.3.6-r0	libogg
+dep	pkgconfig	pkgconf

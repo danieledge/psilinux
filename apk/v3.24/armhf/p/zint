@@ -1,0 +1,14 @@
+name	zint
+version	2.16.0-r0
+description	Barcode encoding library supporting over 50 symbologies
+url	https://zint.org.uk/
+license	GPL-3.0-or-later
+size	486691
+installed-size	797228
+depends	so:libc.musl-armhf.so.1 so:libpng16.so.16
+origin	zint
+repo	community
+file	zint-2.16.0-r0.apk
+checksum	Q1pY3ydpgeAf9TZp+cIPtVi5/8rCw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpng16.so.16	libpng

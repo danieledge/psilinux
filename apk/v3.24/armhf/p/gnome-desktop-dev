@@ -1,0 +1,31 @@
+name	gnome-desktop-dev
+version	44.5-r0
+description	GNOME desktop core libraries (development files)
+url	https://gitlab.gnome.org/GNOME/gnome-desktop
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	64255
+installed-size	613373
+depends	gobject-introspection-dev gsettings-desktop-schemas-dev libgnome-bg-4=44.5-r0 libgnome-desktop-3=44.5-r0 libgnome-desktop-4=44.5-r0 libgnome-rr-4=44.5-r0 pc:gdk-pixbuf-2.0>=2.36.5 pc:gio-2.0>=2.53.0 pc:gio-unix-2.0>=2.53.0 pc:glib-2.0>=2.53.0 pc:gsettings-desktop-schemas>=3.27.0 pc:gtk+-3.0>=3.3.6 pc:gtk4>=4.4.0 pc:iso-codes pc:libseccomp pc:libudev pc:xkbregistry pc:xkeyboard-config pkgconfig
+origin	gnome-desktop
+repo	community
+file	gnome-desktop-dev-44.5-r0.apk
+checksum	Q1Q63IBkUEos+DJK5KMYHqgIQjGPM=
+dep	gobject-introspection-dev	gobject-introspection-dev
+dep	gsettings-desktop-schemas-dev	gsettings-desktop-schemas-dev
+dep	libgnome-bg-4=44.5-r0	libgnome-bg-4
+dep	libgnome-desktop-3=44.5-r0	libgnome-desktop-3
+dep	libgnome-desktop-4=44.5-r0	libgnome-desktop-4
+dep	libgnome-rr-4=44.5-r0	libgnome-rr-4
+dep	pc:gdk-pixbuf-2.0>=2.36.5	gdk-pixbuf-dev
+dep	pc:gio-2.0>=2.53.0	glib-dev
+dep	pc:gio-unix-2.0>=2.53.0	glib-dev
+dep	pc:glib-2.0>=2.53.0	glib-dev
+dep	pc:gsettings-desktop-schemas>=3.27.0	gsettings-desktop-schemas-dev
+dep	pc:gtk+-3.0>=3.3.6	gtk+3.0-dev
+dep	pc:gtk4>=4.4.0	gtk4.0-dev
+dep	pc:iso-codes	iso-codes-dev
+dep	pc:libseccomp	libseccomp-dev
+dep	pc:libudev	eudev-dev
+dep	pc:xkbregistry	libxkbcommon-dev
+dep	pc:xkeyboard-config	xkeyboard-config-dev
+dep	pkgconfig	pkgconf

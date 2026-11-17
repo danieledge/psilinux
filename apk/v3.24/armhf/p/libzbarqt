@@ -1,0 +1,20 @@
+name	libzbarqt
+version	0.23.93-r2
+description	Port of ZBAR BAR CODE READER (Qt5 library)
+url	https://zbar.sourceforge.net/
+license	LGPL-2.0-or-later
+size	28051
+installed-size	71040
+depends	so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt5Widgets.so.5 so:libQt5X11Extras.so.5 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libzbar.so.0
+origin	zbar
+repo	community
+file	libzbarqt-0.23.93-r2.apk
+checksum	Q143v6PJylawJ/blvAiQcSNXnkEKI=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Gui.so.5	qt5-qtbase-x11
+dep	so:libQt5Widgets.so.5	qt5-qtbase-x11
+dep	so:libQt5X11Extras.so.5	qt5-qtx11extras
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libzbar.so.0	libzbar

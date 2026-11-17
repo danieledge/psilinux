@@ -1,0 +1,22 @@
+name	ayatana-indicator-keyboard
+version	24.7.2-r0
+description	Ayatana Indicator Keyboard Applet
+url	https://github.com/AyatanaIndicators/ayatana-indicator-keyboard
+license	GPL-3.0-only
+size	62203
+installed-size	215799
+depends	so:libX11.so.6 so:libaccountsservice.so.0 so:libayatana-common.so.0 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libxkbregistry.so.0 so:libxklavier.so.16
+origin	ayatana-indicator-keyboard
+repo	community
+file	ayatana-indicator-keyboard-24.7.2-r0.apk
+checksum	Q1oZiNL+1yZccYykOgRyoWhiTnjTM=
+dep	so:libX11.so.6	libx11
+dep	so:libaccountsservice.so.0	libaccountsservice
+dep	so:libayatana-common.so.0	libayatana-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libxkbregistry.so.0	libxkbcommon
+dep	so:libxklavier.so.16	libxklavier

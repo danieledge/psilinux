@@ -1,0 +1,14 @@
+name	ethtool
+version	7.0-r0
+description	Utility for controlling network drivers and hardware
+url	https://mirrors.edge.kernel.org/pub/software/network/ethtool/
+license	GPL-2.0-only
+size	287275
+installed-size	806173
+depends	so:libc.musl-armhf.so.1 so:libmnl.so.0
+origin	ethtool
+repo	main
+file	ethtool-7.0-r0.apk
+checksum	Q1owIZJdjnjE+MS2buwDTAHIGoKuU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmnl.so.0	libmnl

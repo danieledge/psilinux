@@ -1,0 +1,14 @@
+name	nghttp2-dev
+version	1.70.0-r0
+description	HTTP/2 C client, server and proxy (development files)
+url	https://nghttp2.org
+license	MIT
+size	42784
+installed-size	245343
+depends	nghttp2-libs=1.70.0-r0 pkgconfig
+origin	nghttp2
+repo	main
+file	nghttp2-dev-1.70.0-r0.apk
+checksum	Q1HoUIsAalsrjRtP1N8mk/JzxXwFc=
+dep	nghttp2-libs=1.70.0-r0	nghttp2-libs
+dep	pkgconfig	pkgconf

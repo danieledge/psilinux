@@ -1,0 +1,19 @@
+name	xmlrpc-c-dev
+version	1.51.08-r5
+description	This library provides a modular implementation of XML-RPC for C and C++ (development files)
+url	https://xmlrpc-c.sourceforge.net/
+license	BSD-3-Clause AND MIT
+size	53527
+installed-size	230660
+depends	libxml2-dev xmlrpc-c++=1.51.08-r5 xmlrpc-c-abyss=1.51.08-r5 xmlrpc-c-client++=1.51.08-r5 xmlrpc-c-client=1.51.08-r5 xmlrpc-c=1.51.08-r5 pkgconfig
+origin	xmlrpc-c
+repo	main
+file	xmlrpc-c-dev-1.51.08-r5.apk
+checksum	Q1QxvujWc+LCUL/XmF7aO2qqnq6Vk=
+dep	libxml2-dev	libxml2-dev
+dep	xmlrpc-c++=1.51.08-r5	xmlrpc-c++
+dep	xmlrpc-c-abyss=1.51.08-r5	xmlrpc-c-abyss
+dep	xmlrpc-c-client++=1.51.08-r5	xmlrpc-c-client++
+dep	xmlrpc-c-client=1.51.08-r5	xmlrpc-c-client
+dep	xmlrpc-c=1.51.08-r5	xmlrpc-c
+dep	pkgconfig	pkgconf

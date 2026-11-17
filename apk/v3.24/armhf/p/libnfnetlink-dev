@@ -1,0 +1,14 @@
+name	libnfnetlink-dev
+version	1.0.2-r3
+description	low-level library for netfilter related kernel/userspace communication (development files)
+url	https://www.netfilter.org/projects/libnfnetlink/
+license	GPL-2.0-only
+size	6036
+installed-size	12956
+depends	libnfnetlink=1.0.2-r3 pkgconfig
+origin	libnfnetlink
+repo	main
+file	libnfnetlink-dev-1.0.2-r3.apk
+checksum	Q14S0bbicKIv02gKWK979ayX3L1K4=
+dep	libnfnetlink=1.0.2-r3	libnfnetlink
+dep	pkgconfig	pkgconf

@@ -1,0 +1,16 @@
+name	sc-im
+version	0.8.5-r1
+description	ncurses spreadsheet program based on SC
+url	https://github.com/andmarti1424/sc-im
+license	BSD-4-Clause
+size	178632
+installed-size	419517
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6 so:libxml2.so.2 so:libzip.so.5
+origin	sc-im
+repo	community
+file	sc-im-0.8.5-r1.apk
+checksum	Q1vnw7ubYQwG1QMiH3N6D84aXhBrE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libxml2.so.2	libxml2
+dep	so:libzip.so.5	libzip

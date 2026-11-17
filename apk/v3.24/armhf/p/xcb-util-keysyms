@@ -1,0 +1,14 @@
+name	xcb-util-keysyms
+version	0.4.1-r0
+description	X C-language Binding - X constants and keycodes
+url	https://xcb.freedesktop.org/
+license	MIT
+size	4620
+installed-size	9336
+depends	so:libc.musl-armhf.so.1 so:libxcb.so.1
+origin	xcb-util-keysyms
+repo	community
+file	xcb-util-keysyms-0.4.1-r0.apk
+checksum	Q1qHedAMGGM43nC2jiH2t2PaLht2c=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxcb.so.1	libxcb

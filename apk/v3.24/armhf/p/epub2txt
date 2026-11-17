@@ -1,0 +1,13 @@
+name	epub2txt
+version	2.08-r1
+description	CLI utility for extracting text from EPUB documents
+url	https://github.com/kevinboone/epub2txt2
+license	GPL-3.0-only
+size	39244
+installed-size	75240
+depends	so:libc.musl-armhf.so.1
+origin	epub2txt
+repo	community
+file	epub2txt-2.08-r1.apk
+checksum	Q1E43X1pyrdLb4B+YrWC0FSAmSaKU=
+dep	so:libc.musl-armhf.so.1	musl

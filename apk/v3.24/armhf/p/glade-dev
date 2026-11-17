@@ -1,0 +1,17 @@
+name	glade-dev
+version	3.40.0-r10
+description	User Interface Designer for GTK+ and GNOME (development files)
+url	https://glade.gnome.org/
+license	GPL-2.0-or-later
+size	123937
+installed-size	1334913
+depends	glade=3.40.0-r10 pc:glib-2.0>=2.64.0 pc:gmodule-2.0 pc:gtk+-3.0>=3.24.0 pkgconfig
+origin	glade
+repo	community
+file	glade-dev-3.40.0-r10.apk
+checksum	Q1DnsrQPxJ+TlrH6d9QA/e+4TEhG0=
+dep	glade=3.40.0-r10	glade
+dep	pc:glib-2.0>=2.64.0	glib-dev
+dep	pc:gmodule-2.0	glib-dev
+dep	pc:gtk+-3.0>=3.24.0	gtk+3.0-dev
+dep	pkgconfig	pkgconf

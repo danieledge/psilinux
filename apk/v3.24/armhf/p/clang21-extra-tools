@@ -1,0 +1,19 @@
+name	clang21-extra-tools
+version	21.1.8-r3
+description	Extra tools built using Clang's tooling APIs
+url	https://llvm.org/
+license	Apache-2.0 WITH LLVM-exception
+size	35944333
+installed-size	89135277
+depends	so:libLLVM.so.21.1 so:libc.musl-armhf.so.1 so:libclang-cpp.so.21.1 so:libclang.so.21.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libxml2.so.2
+origin	clang21
+repo	main
+file	clang21-extra-tools-21.1.8-r3.apk
+checksum	Q1wI1y/Rn3u250DuVUI5ZNBsEmi70=
+dep	so:libLLVM.so.21.1	llvm21-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libclang-cpp.so.21.1	clang21-libs
+dep	so:libclang.so.21.1	clang21-libclang
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxml2.so.2	libxml2

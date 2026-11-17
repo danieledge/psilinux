@@ -1,0 +1,15 @@
+name	collectd-openldap
+version	5.12.0-r25
+description	openldap pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	7963
+installed-size	17672
+depends	collectd so:libc.musl-armhf.so.1 so:libldap.so.2
+origin	collectd
+repo	community
+file	collectd-openldap-5.12.0-r25.apk
+checksum	Q1hRQH9aYJ/duxxO4A+aLkLSS9eCU=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libldap.so.2	libldap

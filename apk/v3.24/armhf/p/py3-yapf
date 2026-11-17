@@ -1,0 +1,15 @@
+name	py3-yapf
+version	0.43.0-r1
+description	A formatter for Python files
+url	https://github.com/google/yapf
+license	Apache-2.0
+size	219255
+installed-size	1035006
+depends	py3-importlib-metadata py3-platformdirs python3~3.14
+origin	py3-yapf
+repo	community
+file	py3-yapf-0.43.0-r1.apk
+checksum	Q1fF7IoaAqOMHpgiFV5tkmJvRUBiY=
+dep	py3-importlib-metadata	py3-importlib-metadata
+dep	py3-platformdirs	py3-platformdirs
+dep	python3~3.14	python3

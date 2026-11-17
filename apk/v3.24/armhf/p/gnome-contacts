@@ -1,0 +1,33 @@
+name	gnome-contacts
+version	50.0-r0
+description	A contacts manager for GNOME
+url	https://apps.gnome.org/Contacts
+license	GPL-2.0-or-later
+size	297601
+installed-size	842353
+depends	so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libebook-contacts-1.2.so.5 so:libedataserver-1.2.so.27 so:libfolks-eds.so.26 so:libfolks.so.26 so:libgdk_pixbuf-2.0.so.0 so:libgee-0.8.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libglycin-2.so.0 so:libglycin-gtk4-2.so.0 so:libgoa-1.0.so.0 so:libgobject-2.0.so.0 so:libgstreamer-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libpango-1.0.so.0 so:libportal-gtk4.so.1 so:libportal.so.1 so:libqrencode.so.4
+origin	gnome-contacts
+repo	community
+file	gnome-contacts-50.0-r0.apk
+checksum	Q1agwWAzhH55kfl4wXRp7trvCjE2g=
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libebook-contacts-1.2.so.5	evolution-data-server
+dep	so:libedataserver-1.2.so.27	evolution-data-server
+dep	so:libfolks-eds.so.26	folks
+dep	so:libfolks.so.26	folks
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgee-0.8.so.2	libgee
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libglycin-2.so.0	libglycin
+dep	so:libglycin-gtk4-2.so.0	libglycin-gtk4
+dep	so:libgoa-1.0.so.0	gnome-online-accounts
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libportal-gtk4.so.1	libportal-gtk4
+dep	so:libportal.so.1	libportal
+dep	so:libqrencode.so.4	libqrencode

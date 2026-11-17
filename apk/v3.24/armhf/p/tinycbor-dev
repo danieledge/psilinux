@@ -1,0 +1,14 @@
+name	tinycbor-dev
+version	7.0-r0
+description	Concise Binary Object Representation (CBOR) Library (development files)
+url	https://github.com/intel/tinycbor
+license	MIT
+size	11857
+installed-size	40029
+depends	libtinycbor=7.0-r0 pkgconfig
+origin	tinycbor
+repo	community
+file	tinycbor-dev-7.0-r0.apk
+checksum	Q1asCccKoziq496GdpdmR3rieute4=
+dep	libtinycbor=7.0-r0	libtinycbor
+dep	pkgconfig	pkgconf

@@ -1,0 +1,13 @@
+name	libaio-dev
+version	0.3.113-r2
+description	Asynchronous input/output library (development files)
+url	https://pagure.io/libaio
+license	LGPL-2.1-or-later
+size	6871
+installed-size	23918
+depends	libaio=0.3.113-r2
+origin	libaio
+repo	main
+file	libaio-dev-0.3.113-r2.apk
+checksum	Q19+55dcHMN/+J4hQYTV/bJr0VDEQ=
+dep	libaio=0.3.113-r2	libaio

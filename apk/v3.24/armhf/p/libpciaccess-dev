@@ -1,0 +1,14 @@
+name	libpciaccess-dev
+version	0.19-r0
+description	X11 PCI access library (development files)
+url	https://xorg.freedesktop.org/
+license	X11
+size	6346
+installed-size	15828
+depends	libpciaccess=0.19-r0 pkgconfig
+origin	libpciaccess
+repo	main
+file	libpciaccess-dev-0.19-r0.apk
+checksum	Q1uJG/u1QVSrbjJzc+L1ET9lE1sh4=
+dep	libpciaccess=0.19-r0	libpciaccess
+dep	pkgconfig	pkgconf

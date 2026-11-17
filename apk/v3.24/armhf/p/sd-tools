@@ -1,0 +1,15 @@
+name	sd-tools
+version	0.99.0-r3
+description	Standalone, cleaned up utilities from systemd
+url	https://github.com/chimera-linux/sd-tools
+license	LGPL-2.1-or-later
+size	153696
+installed-size	310232
+depends	so:libacl.so.1 so:libc.musl-armhf.so.1 so:libcap.so.2
+origin	sd-tools
+repo	community
+file	sd-tools-0.99.0-r3.apk
+checksum	Q14GPs0l2i4m8dYm9oty8JPp+MU/Q=
+dep	so:libacl.so.1	acl-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2

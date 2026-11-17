@@ -1,0 +1,23 @@
+name	wxwidgets
+version	3.2.9-r0
+description	wxWidgets GUI library
+url	https://www.wxwidgets.org/
+license	custom:wxWidgets
+size	3138937
+installed-size	8346164
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libexpat.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:liblzma.so.5 so:libpcre2-32.so.0 so:libsecret-1.so.0 so:libstdc++.so.6 so:libz.so.1
+origin	wxwidgets
+repo	community
+file	wxwidgets-3.2.9-r0.apk
+checksum	Q1/6OFhwFub79T5cnXN5XXizRXvUw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libexpat.so.1	libexpat
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:liblzma.so.5	xz-libs
+dep	so:libpcre2-32.so.0	libpcre2-32
+dep	so:libsecret-1.so.0	libsecret
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

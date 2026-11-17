@@ -1,0 +1,14 @@
+name	libax25
+version	1.2.2-r0
+description	set of functions making it easier to write hamradio programs
+url	https://github.com/ve7fet/linuxax25
+license	LGPL-2.1-or-later
+size	18253
+installed-size	39352
+depends	so:libc.musl-armhf.so.1 so:libz.so.1
+origin	libax25
+repo	community
+file	libax25-1.2.2-r0.apk
+checksum	Q1Vpe+0zkWauL7OElVCJ5wuE9AoQw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libz.so.1	zlib

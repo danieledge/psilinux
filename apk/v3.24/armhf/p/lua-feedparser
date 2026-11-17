@@ -1,0 +1,14 @@
+name	lua-feedparser
+version	0.71-r4
+description	decent RSS and Atom XML feed parser
+url	https://github.com/slact/lua-feedparser
+license	BSD-3-Clause
+size	11342
+installed-size	31502
+depends	lua lua-expat
+origin	lua-feedparser
+repo	main
+file	lua-feedparser-0.71-r4.apk
+checksum	Q1oTywFTg+xVs+3n/Fd2Qy+fbXXz0=
+dep	lua	lua5.5
+dep	lua-expat	lua-expat

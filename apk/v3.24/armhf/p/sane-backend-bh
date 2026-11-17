@@ -1,0 +1,14 @@
+name	sane-backend-bh
+version	1.4.0-r4
+description	SANE backend for Bell+Howell Copiscan II series document scanners
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	41191
+installed-size	80624
+depends	sane so:libc.musl-armhf.so.1
+origin	sane
+repo	community
+file	sane-backend-bh-1.4.0-r4.apk
+checksum	Q1ubPyFN4QqU1BncRTEL5BTwe2Rfw=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl

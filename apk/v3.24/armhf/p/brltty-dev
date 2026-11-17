@@ -1,0 +1,14 @@
+name	brltty-dev
+version	6.8-r2
+description	Refreshable braille display driver daemon (development files)
+url	http://brltty.app
+license	LGPL-2.1-or-later
+size	144283
+installed-size	700388
+depends	brltty=6.8-r2 pkgconfig
+origin	brltty
+repo	community
+file	brltty-dev-6.8-r2.apk
+checksum	Q11ZrZaaxMQ/FY38CRJWMO2kmuPXo=
+dep	brltty=6.8-r2	brltty
+dep	pkgconfig	pkgconf

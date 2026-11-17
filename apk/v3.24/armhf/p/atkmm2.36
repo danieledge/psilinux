@@ -1,0 +1,20 @@
+name	atkmm2.36
+version	2.36.3-r3
+description	C++ bindings for atk
+url	https://www.gtkmm.org/en/
+license	LGPL-2.0-or-later
+size	80104
+installed-size	288128
+depends	so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libglibmm-2.68.so.1 so:libgobject-2.0.so.0 so:libsigc-3.0.so.0 so:libstdc++.so.6
+origin	atkmm2.36
+repo	community
+file	atkmm2.36-2.36.3-r3.apk
+checksum	Q16vVefcx5lh76/FsrTgpWtVROzzw=
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libglibmm-2.68.so.1	glibmm
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libsigc-3.0.so.0	libsigc++3
+dep	so:libstdc++.so.6	libstdc++

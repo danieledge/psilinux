@@ -1,0 +1,13 @@
+name	libretro-2048
+version	0_git20241227-r0
+description	port of 2048 puzzle game to the libretro API
+url	https://github.com/libretro/libretro-2048
+license	Unlicense
+size	28432
+installed-size	56564
+depends	so:libc.musl-armhf.so.1
+origin	libretro-2048
+repo	community
+file	libretro-2048-0_git20241227-r0.apk
+checksum	Q1C1vvaTAXV9bhBFq/MU6HssUxy9U=
+dep	so:libc.musl-armhf.so.1	musl

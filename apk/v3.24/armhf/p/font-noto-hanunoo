@@ -1,0 +1,14 @@
+name	font-noto-hanunoo
+version	2026.11.01-r0
+description	Noto Sans Hanunoo font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	6641
+installed-size	7898
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-hanunoo-2026.11.01-r0.apk
+checksum	Q174rqzzohoKNn14lDVTTr4HSJBxg=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

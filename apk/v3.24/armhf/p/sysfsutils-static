@@ -1,0 +1,13 @@
+name	sysfsutils-static
+version	2.1.1-r3
+description	System Utilities Based on Sysfs (static library)
+url	https://github.com/linux-ras/sysfsutils
+license	GPL-2.0-only AND LGPL-2.1-only
+size	15666
+installed-size	49098
+depends	sysfsutils-dev
+origin	sysfsutils
+repo	main
+file	sysfsutils-static-2.1.1-r3.apk
+checksum	Q1BuwmTJMXYL/AjyljqpBUkK4GArk=
+dep	sysfsutils-dev	sysfsutils-dev

@@ -1,0 +1,13 @@
+name	skint
+version	0.6.8-r1
+description	Cheap and fast R7RS Scheme interpreter
+url	https://github.com/false-schemers/skint
+license	BSD-3-Clause
+size	521230
+installed-size	2333980
+depends	so:libc.musl-armhf.so.1
+origin	skint
+repo	community
+file	skint-0.6.8-r1.apk
+checksum	Q1MoQkNTAcfMQU35PdnnSrmHgWBB4=
+dep	so:libc.musl-armhf.so.1	musl

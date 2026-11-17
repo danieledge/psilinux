@@ -1,0 +1,14 @@
+name	arp-scan
+version	1.10.0-r2
+description	Address Resolution Protocol (ARP) packet scanner
+url	https://github.com/royhills/arp-scan
+license	GPL-3.0-or-later
+size	564148
+installed-size	1529053
+depends	so:libc.musl-armhf.so.1 so:libpcap.so.1
+origin	arp-scan
+repo	community
+file	arp-scan-1.10.0-r2.apk
+checksum	Q1gPiuTfGNyVyhvo0LhmNYiB/Qpeo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcap.so.1	libpcap

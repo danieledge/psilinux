@@ -1,0 +1,15 @@
+name	aaaaxy
+version	1.7.77-r2
+description	A nonlinear puzzle platformer taking place in impossible spaces
+url	https://divVerent.github.io/aaaaxy/
+license	Apache-2.0
+size	35283757
+installed-size	43759588
+depends	so:libX11.so.6 so:libasound.so.2 so:libc.musl-armhf.so.1
+origin	aaaaxy
+repo	community
+file	aaaaxy-1.7.77-r2.apk
+checksum	Q1LcNORWVUUVQvvNJSEiNbA0fjp9Q=
+dep	so:libX11.so.6	libx11
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl

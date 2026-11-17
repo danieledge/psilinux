@@ -1,0 +1,14 @@
+name	py3-faker
+version	40.14.1-r0
+description	Python package that generates fake data for you
+url	https://faker.readthedocs.io/en/master
+license	MIT
+size	1874241
+installed-size	8860769
+depends	py3-tzdata python3~3.14
+origin	py3-faker
+repo	community
+file	py3-faker-40.14.1-r0.apk
+checksum	Q1LFZb4lOSQAU954tQO58JyXsmbWY=
+dep	py3-tzdata	py3-tzdata
+dep	python3~3.14	python3

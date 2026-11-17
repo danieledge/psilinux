@@ -1,0 +1,14 @@
+name	perl-sys-meminfo
+version	0.99-r10
+description	Query the total free and used physical memory
+url	https://metacpan.org/dist/Sys-MemInfo
+license	Perl
+size	6676
+installed-size	11642
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-sys-meminfo
+repo	community
+file	perl-sys-meminfo-0.99-r10.apk
+checksum	Q1oZ2tu83NdfKGHno0ME3g6jRs5bk=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,17 @@
+name	pqmarble
+version	42.0_alpha_git20230311-r0
+description	Useful functions and reusable widgets for GTK 4
+url	https://gitlab.gnome.org/raggesilver/marble
+license	GPL-3.0-or-later
+size	9589
+installed-size	19396
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1
+origin	pqmarble
+repo	community
+file	pqmarble-42.0_alpha_git20230311-r0.apk
+checksum	Q1OzHrHX16gPfTdzC3s7AR2lFvAWc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0

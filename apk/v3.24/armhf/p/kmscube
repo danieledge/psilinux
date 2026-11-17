@@ -1,0 +1,18 @@
+name	kmscube
+version	0_git20220902-r1
+description	Simple demo for testing kernel mode setting support
+url	https://gitlab.freedesktop.org/mesa/kmscube
+license	MIT
+size	99352
+installed-size	1538868
+depends	so:libEGL.so.1 so:libGLESv2.so.2 so:libc.musl-armhf.so.1 so:libdrm.so.2 so:libgbm.so.1 so:libpng16.so.16
+origin	kmscube
+repo	community
+file	kmscube-0_git20220902-r1.apk
+checksum	Q1CqNeV8RL+crPmqs/vEd+PSgO3bo=
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libGLESv2.so.2	mesa-gles
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm.so.2	libdrm
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libpng16.so.16	libpng

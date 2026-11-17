@@ -1,0 +1,15 @@
+name	ucode
+version	0.0.20250529-r0
+description	JavaScript-like language with optional templating
+url	https://github.com/jow-/ucode
+license	ISC
+size	159119
+installed-size	376132
+depends	so:libc.musl-armhf.so.1 so:libjson-c.so.5 so:libubox.so
+origin	ucode
+repo	community
+file	ucode-0.0.20250529-r0.apk
+checksum	Q1K0kHx7sSmbkZxcHNDDrCmCQSqwo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjson-c.so.5	json-c
+dep	so:libubox.so	libubox

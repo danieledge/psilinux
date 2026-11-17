@@ -1,0 +1,13 @@
+name	rust-src
+version	1.96.1-r0
+description	Rust Programming Language toolchain (source code)
+url	https://github.com/rust-lang/rust/tree/1.96.1
+license	(Apache-2.0 OR MIT) AND OFL-1.1 AND GPL-3.0-or-later AND GPL-3.0-with-GCC-exception AND CC-BY-SA-3.0 LGPL-3.0
+size	13487930
+installed-size	79838811
+depends	rust=1.96.1-r0
+origin	rust
+repo	main
+file	rust-src-1.96.1-r0.apk
+checksum	Q1b6ad+6Bhl8MqRMwR/mrXoUO5h7o=
+dep	rust=1.96.1-r0	rust

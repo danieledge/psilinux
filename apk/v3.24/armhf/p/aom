@@ -1,0 +1,16 @@
+name	aom
+version	3.14.1-r0
+description	Alliance for Open Media (AOM) AV1 codec SDK
+url	https://aomedia.org/
+license	BSD-2-Clause AND custom
+size	331250
+installed-size	736208
+depends	so:libaom.so.3 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	aom
+repo	main
+file	aom-3.14.1-r0.apk
+checksum	Q1Gm6Qteui3f7kNm5bZU9Zs+I6ecs=
+dep	so:libaom.so.3	aom-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,21 @@
+name	py3-solo1
+version	0.1.1-r5
+description	Python3 tool and library for SoloKeys
+url	https://github.com/solokeys/solo1-cli
+license	MIT
+size	38720
+installed-size	120344
+depends	py3-click py3-cryptography py3-ecdsa py3-fido2 py3-intelhex py3-pyserial py3-requests py3-usb python3~3.14
+origin	py3-solo1
+repo	community
+file	py3-solo1-0.1.1-r5.apk
+checksum	Q1tY3CNPsFiD59ssn4mO48pdA9i5s=
+dep	py3-click	py3-click
+dep	py3-cryptography	py3-cryptography
+dep	py3-ecdsa	py3-ecdsa
+dep	py3-fido2	py3-fido2
+dep	py3-intelhex	py3-intelhex
+dep	py3-pyserial	py3-pyserial
+dep	py3-requests	py3-requests
+dep	py3-usb	py3-usb
+dep	python3~3.14	python3

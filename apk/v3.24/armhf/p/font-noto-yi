@@ -1,0 +1,14 @@
+name	font-noto-yi
+version	2026.11.01-r0
+description	Noto Sans Yi font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	86343
+installed-size	183261
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-yi-2026.11.01-r0.apk
+checksum	Q1LNlkhDLvRLw5oZHE7dOjkRxXWe4=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

@@ -1,0 +1,16 @@
+name	font-micro-misc
+version	1.0.4-r1
+description	X.org misc font
+url	https://xorg.freedesktop.org/
+license	Public Domain
+size	3429
+installed-size	1815
+depends	encodings font-alias mkfontscale fontconfig
+origin	font-micro-misc
+repo	main
+file	font-micro-misc-1.0.4-r1.apk
+checksum	Q1jV7kBkGQzzNq35VRkvdOs8xzCCs=
+dep	encodings	encodings
+dep	font-alias	font-alias
+dep	mkfontscale	mkfontscale
+dep	fontconfig	fontconfig

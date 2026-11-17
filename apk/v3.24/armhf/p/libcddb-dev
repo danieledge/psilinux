@@ -1,0 +1,14 @@
+name	libcddb-dev
+version	1.3.2-r8
+description	Library that implements the different protocols (CDDBP, HTTP, SMTP) to access data on a CDDB server (e.g. https://gnudb.org). (development files)
+url	https://sourceforge.net/projects/libcddb/
+license	LGPL-2.0-or-later
+size	42731
+installed-size	144385
+depends	libcddb=1.3.2-r8 pkgconfig
+origin	libcddb
+repo	community
+file	libcddb-dev-1.3.2-r8.apk
+checksum	Q1H7K7SNtLhC54qTpqey/n7hvlrDw=
+dep	libcddb=1.3.2-r8	libcddb
+dep	pkgconfig	pkgconf

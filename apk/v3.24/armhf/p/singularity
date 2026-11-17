@@ -1,0 +1,18 @@
+name	singularity
+version	4.4.2-r2
+description	Application containers focused on reproducibility for scientific computing and HPC world.
+url	https://www.sylabs.io/singularity/
+license	BSD-3-Clause AND BSD-3-Clause-LBNL
+size	42167078
+installed-size	114973312
+depends	squashfs-tools so:libc.musl-armhf.so.1 so:libfuse3.so.4 so:libseccomp.so.2 so:libsubid.so.5 so:libz.so.1
+origin	singularity
+repo	community
+file	singularity-4.4.2-r2.apk
+checksum	Q1hTtZL2l1C/GaXDP1BQ/njHs5kpU=
+dep	squashfs-tools	squashfs-tools
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfuse3.so.4	fuse3-libs
+dep	so:libseccomp.so.2	libseccomp
+dep	so:libsubid.so.5	shadow-libs
+dep	so:libz.so.1	zlib

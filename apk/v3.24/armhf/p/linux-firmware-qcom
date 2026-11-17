@@ -1,0 +1,14 @@
+name	linux-firmware-qcom
+version	20260519-r0
+description	firmware files for linux (qcom folder)
+url	https://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git;a=summary
+license	custom
+size	171147758
+installed-size	171075319
+depends	linux-firmware-ath10k=20260519-r0 linux-firmware-ath11k=20260519-r0
+origin	linux-firmware
+repo	main
+file	linux-firmware-qcom-20260519-r0.apk
+checksum	Q1xd63VlWkZkT+V04NWJXhTnVy29I=
+dep	linux-firmware-ath10k=20260519-r0	linux-firmware-ath10k
+dep	linux-firmware-ath11k=20260519-r0	linux-firmware-ath11k

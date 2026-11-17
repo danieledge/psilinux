@@ -1,0 +1,14 @@
+name	php84-pecl-igbinary
+version	3.2.17_rc1-r0
+description	Igbinary is a drop in replacement for the standard PHP 8.4 serializer - PECL
+url	https://pecl.php.net/package/igbinary
+license	BSD-3-Clause
+size	30068
+installed-size	65254
+depends	php84-common so:libc.musl-armhf.so.1
+origin	php84-pecl-igbinary
+repo	community
+file	php84-pecl-igbinary-3.2.17_rc1-r0.apk
+checksum	Q1lVO1LzLBJu3YEiWYTw9iwIsxHjM=
+dep	php84-common	php84-common
+dep	so:libc.musl-armhf.so.1	musl

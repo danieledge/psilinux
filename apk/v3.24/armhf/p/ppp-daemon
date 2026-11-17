@@ -1,0 +1,16 @@
+name	ppp-daemon
+version	2.5.3-r0
+description	A daemon which implements the PPP protocol
+url	https://ppp.samba.org/
+license	BSD-3-Clause AND BSD-4-Clause AND BSD-4-Clause-Shortened AND GPL-2.0-or-later AND LGPL-2.0-or-later AND Public-Domain AND RSA-MD
+size	182262
+installed-size	402465
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libpcap.so.1 so:libssl.so.3
+origin	ppp
+repo	main
+file	ppp-daemon-2.5.3-r0.apk
+checksum	Q16atZkz9fjRacCABZateEpbSn7r8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libpcap.so.1	libpcap
+dep	so:libssl.so.3	libssl3

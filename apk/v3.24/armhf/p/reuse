@@ -1,0 +1,21 @@
+name	reuse
+version	6.2.0-r0
+description	Tool for compliance with the REUSE recommendations
+url	https://reuse.software
+license	Apache-2.0 AND CC-BY-SA-4.0 AND CC0-1.0 AND GPL-3.0-or-later
+size	145436
+installed-size	738175
+depends	py3-attrs py3-binaryornot py3-boolean.py py3-click py3-debian py3-jinja2 py3-license-expression py3-tomlkit python3~3.14
+origin	reuse
+repo	community
+file	reuse-6.2.0-r0.apk
+checksum	Q1lQOLV5N2EBKGZNEts8fLpGwfEjc=
+dep	py3-attrs	py3-attrs
+dep	py3-binaryornot	py3-binaryornot
+dep	py3-boolean.py	py3-boolean.py
+dep	py3-click	py3-click
+dep	py3-debian	py3-debian
+dep	py3-jinja2	py3-jinja2
+dep	py3-license-expression	py3-license-expression
+dep	py3-tomlkit	py3-tomlkit
+dep	python3~3.14	python3

@@ -1,0 +1,13 @@
+name	openlibm
+version	0.8.7-r0
+description	High quality system independent, portable, open source libm implementation
+url	https://openlibm.org/
+license	MIT AND BSD-2-Clause AND ISC AND LGPL-2.1-or-later
+size	57278
+installed-size	99524
+depends	so:libc.musl-armhf.so.1
+origin	openlibm
+repo	community
+file	openlibm-0.8.7-r0.apk
+checksum	Q1xNoomYbbW7jg2lSDAbFAZehDmt0=
+dep	so:libc.musl-armhf.so.1	musl

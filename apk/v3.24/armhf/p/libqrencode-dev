@@ -1,0 +1,14 @@
+name	libqrencode-dev
+version	4.1.1-r3
+description	Library for encoding QR codes (development files)
+url	https://fukuchi.org/works/qrencode/index.html
+license	LGPL-2.1-or-later
+size	6789
+installed-size	21141
+depends	libqrencode=4.1.1-r3 pkgconfig
+origin	libqrencode
+repo	community
+file	libqrencode-dev-4.1.1-r3.apk
+checksum	Q13TDzwPE/vZgUiRrIelnmWei7zB0=
+dep	libqrencode=4.1.1-r3	libqrencode
+dep	pkgconfig	pkgconf

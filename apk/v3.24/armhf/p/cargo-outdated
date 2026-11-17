@@ -1,0 +1,19 @@
+name	cargo-outdated
+version	0.18.0-r0
+description	Cargo subcommand for displaying when Rust dependencies are out of date
+url	https://github.com/kbknapp/cargo-outdated
+license	MIT
+size	4637846
+installed-size	9434576
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgcc_s.so.1 so:libssh2.so.1 so:libssl.so.3 so:libz.so.1
+origin	cargo-outdated
+repo	community
+file	cargo-outdated-0.18.0-r0.apk
+checksum	Q1qr31PyU90R71W0VzBXracZ0HlpY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssh2.so.1	libssh2
+dep	so:libssl.so.3	libssl3
+dep	so:libz.so.1	zlib

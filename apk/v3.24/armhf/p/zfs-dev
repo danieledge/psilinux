@@ -1,0 +1,24 @@
+name	zfs-dev
+version	2.4.4-r0
+description	Advanced filesystem and volume manager (development files)
+url	https://openzfs.org
+license	CDDL-1.0
+size	484586
+installed-size	3004678
+depends	attr-dev e2fsprogs-dev glib-dev libtirpc-dev openssl-dev>3 zfs-libs=2.4.4-r0 pc:blkid pc:libcrypto pc:libtirpc pc:uuid pc:zlib pkgconfig
+origin	zfs
+repo	main
+file	zfs-dev-2.4.4-r0.apk
+checksum	Q1UtQ+IiXRLlJh0u3bGgGKB9fXyVI=
+dep	attr-dev	attr-dev
+dep	e2fsprogs-dev	e2fsprogs-dev
+dep	glib-dev	glib-dev
+dep	libtirpc-dev	libtirpc-dev
+dep	openssl-dev>3	openssl-dev
+dep	zfs-libs=2.4.4-r0	zfs-libs
+dep	pc:blkid	util-linux-dev
+dep	pc:libcrypto	openssl-dev
+dep	pc:libtirpc	libtirpc-dev
+dep	pc:uuid	util-linux-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

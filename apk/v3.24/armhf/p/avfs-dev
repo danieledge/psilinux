@@ -1,0 +1,14 @@
+name	avfs-dev
+version	1.2.0-r0
+description	A Virtual File System for looking into archives (development files)
+url	https://avf.sourceforge.net/
+license	GPL-2.0-or-later
+size	6108
+installed-size	14087
+depends	avfs-libs=1.2.0-r0 pkgconfig
+origin	avfs
+repo	community
+file	avfs-dev-1.2.0-r0.apk
+checksum	Q1ITsqD4eACofwUeu3REybDcU8ntw=
+dep	avfs-libs=1.2.0-r0	avfs-libs
+dep	pkgconfig	pkgconf

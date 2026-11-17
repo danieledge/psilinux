@@ -1,0 +1,16 @@
+name	py3-hidapi
+version	0.15.0-r1
+description	Cython interface for hidapi
+url	https://github.com/trezor/cython-hidapi
+license	GPL-3.0-or-later
+size	87094
+installed-size	204287
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libhidapi-hidraw.so.0 so:libhidapi-libusb.so.0
+origin	py3-hidapi
+repo	community
+file	py3-hidapi-0.15.0-r1.apk
+checksum	Q1cT4uhxejD0ShhR6s5E71FfSyWAc=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libhidapi-hidraw.so.0	hidapi
+dep	so:libhidapi-libusb.so.0	hidapi

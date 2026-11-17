@@ -1,0 +1,25 @@
+name	libaccounts-glib-dev
+version	1.27-r0
+description	GLib-based client library for the accounts database (development files)
+url	https://gitlab.com/accounts-sso/libaccounts-glib
+license	LGPL-2.1-or-later
+size	33280
+installed-size	279329
+depends	check-dev gobject-introspection-dev libxml2-dev py3-gobject3 sqlite-dev libaccounts-glib=1.27-r0 pc:gio-2.0>=2.26 pc:gio-unix-2.0>=2.26 pc:glib-2.0>=2.26 pc:gobject-2.0>=2.26 pc:libxml-2.0 pc:sqlite3>=3.7.0 pkgconfig
+origin	libaccounts-glib
+repo	community
+file	libaccounts-glib-dev-1.27-r0.apk
+checksum	Q1SXgwRov0UsEtXR6bBgZCcCBiOYk=
+dep	check-dev	check-dev
+dep	gobject-introspection-dev	gobject-introspection-dev
+dep	libxml2-dev	libxml2-dev
+dep	py3-gobject3	py3-gobject3
+dep	sqlite-dev	sqlite-dev
+dep	libaccounts-glib=1.27-r0	libaccounts-glib
+dep	pc:gio-2.0>=2.26	glib-dev
+dep	pc:gio-unix-2.0>=2.26	glib-dev
+dep	pc:glib-2.0>=2.26	glib-dev
+dep	pc:gobject-2.0>=2.26	glib-dev
+dep	pc:libxml-2.0	libxml2-dev
+dep	pc:sqlite3>=3.7.0	sqlite-dev
+dep	pkgconfig	pkgconf

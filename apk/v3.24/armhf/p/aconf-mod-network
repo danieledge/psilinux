@@ -1,0 +1,13 @@
+name	aconf-mod-network
+version	0.8.1-r4
+description	Alpine Configurator
+url	https://gitlab.alpinelinux.org/kunkku/aconf/
+license	BSD-2-Clause
+size	3943
+installed-size	7130
+depends	aconf=0.8.1-r4
+origin	aconf
+repo	main
+file	aconf-mod-network-0.8.1-r4.apk
+checksum	Q1/Cbr3mLPyXVlbH3/WgZOgtC+gvo=
+dep	aconf=0.8.1-r4	aconf

@@ -1,0 +1,22 @@
+name	wireplumber-dev
+version	0.5.15-r0
+description	Session / policy manager implementation for PipeWire (development files)
+url	https://pipewire.org/
+license	LGPL-2.1-or-later
+size	106389
+installed-size	1052123
+depends	elogind-dev glib-dev lua5.4-dev pipewire-dev>=0.3.39 wireplumber-libs=0.5.15-r0 pc:gio-2.0>=2.68 pc:gmodule-2.0>=2.68 pc:gobject-2.0>=2.68 pc:libpipewire-0.3>=1.0.2 pkgconfig
+origin	wireplumber
+repo	community
+file	wireplumber-dev-0.5.15-r0.apk
+checksum	Q1tcQLz3YY0ihc9qnGav2moUHrkk0=
+dep	elogind-dev	elogind-dev
+dep	glib-dev	glib-dev
+dep	lua5.4-dev	lua5.4-dev
+dep	pipewire-dev>=0.3.39	pipewire-dev
+dep	wireplumber-libs=0.5.15-r0	wireplumber-libs
+dep	pc:gio-2.0>=2.68	glib-dev
+dep	pc:gmodule-2.0>=2.68	glib-dev
+dep	pc:gobject-2.0>=2.68	glib-dev
+dep	pc:libpipewire-0.3>=1.0.2	pipewire-dev
+dep	pkgconfig	pkgconf

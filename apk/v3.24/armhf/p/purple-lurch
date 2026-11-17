@@ -1,0 +1,18 @@
+name	purple-lurch
+version	0.7.0-r2
+description	OMEMO encryption support for libpurple
+url	https://github.com/gkdr/lurch
+license	GPL-3.0-or-later
+size	25668
+installed-size	58672
+depends	so:libaxc.so.0 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libjabber.so.0 so:libomemo.so.0 so:libsignal-protocol-c.so.2
+origin	purple-lurch
+repo	community
+file	purple-lurch-0.7.0-r2.apk
+checksum	Q1E4fL3fmgIg3y27cEkdI5q9Irl2M=
+dep	so:libaxc.so.0	axc
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libjabber.so.0	purple-xmpp
+dep	so:libomemo.so.0	libomemo
+dep	so:libsignal-protocol-c.so.2	libsignal-protocol-c

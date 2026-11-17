@@ -1,0 +1,15 @@
+name	perl-date-extract
+version	0.07-r1
+description	Extract probable dates from strings
+url	https://metacpan.org/release/Date-Extract/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6361
+installed-size	11607
+depends	perl perl-datetime-format-natural perl-class-data-inheritable
+origin	perl-date-extract
+repo	community
+file	perl-date-extract-0.07-r1.apk
+checksum	Q1I/dzPPD42FTdVVKZanAkP1E7EgM=
+dep	perl	perl
+dep	perl-datetime-format-natural	perl-datetime-format-natural
+dep	perl-class-data-inheritable	perl-class-data-inheritable

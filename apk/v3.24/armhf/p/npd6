@@ -1,0 +1,13 @@
+name	npd6
+version	1.1.0-r1
+description	Neighbor proxy daemon for IPv6
+url	https://www.ipsidixit.net/
+license	GPL-3.0-or-later
+size	21552
+installed-size	42065
+depends	so:libc.musl-armhf.so.1
+origin	npd6
+repo	community
+file	npd6-1.1.0-r1.apk
+checksum	Q1r/RYY/+Ne+Jt7qQH58L8mh7AIGk=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	klibc-ipconfig
+version	2.0.14-r1
+description	A minimalistic libc subset for use with initramfs
+url	https://git.kernel.org/pub/scm/libs/klibc/klibc.git/
+license	GPL-2.0-or-later
+size	10499
+installed-size	15056
+depends	libklibc
+origin	klibc
+repo	community
+file	klibc-ipconfig-2.0.14-r1.apk
+checksum	Q1dr0QPEmkgkzqTMow33+z57+iE6k=
+dep	libklibc	libklibc

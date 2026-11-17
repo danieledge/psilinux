@@ -1,0 +1,15 @@
+name	sdl_mixer-dev
+version	1.2.12-r3
+description	A simple multi-channel audio mixer (development files)
+url	http://www.libsdl.org/projects/SDL_mixer/
+license	BSD-3-Clause
+size	91484
+installed-size	246988
+depends	sdl_mixer=1.2.12-r3 pc:sdl>=1.2.10 pkgconfig
+origin	sdl_mixer
+repo	community
+file	sdl_mixer-dev-1.2.12-r3.apk
+checksum	Q1+LRRgEYX2L7hr1LnMtZ+TY2UrSs=
+dep	sdl_mixer=1.2.12-r3	sdl_mixer
+dep	pc:sdl>=1.2.10	sdl12-compat-dev
+dep	pkgconfig	pkgconf

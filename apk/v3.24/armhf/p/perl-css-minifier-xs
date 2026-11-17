@@ -1,0 +1,14 @@
+name	perl-css-minifier-xs
+version	0.15-r0
+description	XS based CSS minifier
+url	https://metacpan.org/release/CSS-Minifier-XS/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	9372
+installed-size	17143
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-css-minifier-xs
+repo	main
+file	perl-css-minifier-xs-0.15-r0.apk
+checksum	Q1GGCUK+OphB3G2dhGFzL3OnRskrw=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

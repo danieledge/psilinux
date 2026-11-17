@@ -1,0 +1,13 @@
+name	cpdf
+version	2.9-r1
+description	Coherent PDF command line tools
+url	https://community.coherentpdf.com/
+license	AGPL-3.0-or-later
+size	2242632
+installed-size	4426180
+depends	so:libc.musl-armhf.so.1
+origin	cpdf
+repo	community
+file	cpdf-2.9-r1.apk
+checksum	Q1ZVjRC8/bR73gsa84QHOg0rwfHBY=
+dep	so:libc.musl-armhf.so.1	musl

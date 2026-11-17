@@ -1,0 +1,16 @@
+name	freeradius-krb5
+version	3.0.27-r3
+description	Kerberos module for FreeRADIUS server
+url	https://freeradius.org/
+license	GPL-2.0-or-later
+size	8332
+installed-size	16491
+depends	freeradius=3.0.27-r3 so:libc.musl-armhf.so.1 so:libcom_err.so.2 so:libkrb5.so.3
+origin	freeradius
+repo	main
+file	freeradius-krb5-3.0.27-r3.apk
+checksum	Q1OZsNkgNEpyeon4wK9yiEOBBFE3k=
+dep	freeradius=3.0.27-r3	freeradius
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcom_err.so.2	libcom_err
+dep	so:libkrb5.so.3	krb5-libs

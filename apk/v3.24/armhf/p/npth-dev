@@ -1,0 +1,14 @@
+name	npth-dev
+version	1.8-r0
+description	The New GNU Portable Threads library (development files)
+url	https://gnupg.org/related_software/npth/
+license	LGPL-2.0-or-later
+size	8634
+installed-size	20568
+depends	npth=1.8-r0 pkgconfig
+origin	npth
+repo	main
+file	npth-dev-1.8-r0.apk
+checksum	Q1fswRG4iTLigZ7GZnp1MFvu+tGbc=
+dep	npth=1.8-r0	npth
+dep	pkgconfig	pkgconf

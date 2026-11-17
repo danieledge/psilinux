@@ -1,0 +1,14 @@
+name	saga-gis-dev
+version	9.12.2-r0
+description	System for Automated Geoscientific Analyses (development files)
+url	https://saga-gis.sourceforge.io/en/index.html
+license	GPL-2.0-or-later
+size	99299
+installed-size	745322
+depends	saga-gis-api=9.12.2-r0 saga-gis-gdi=9.12.2-r0
+origin	saga-gis
+repo	community
+file	saga-gis-dev-9.12.2-r0.apk
+checksum	Q14v4TrsGqKoKL8MVXzqIp8Ob/pac=
+dep	saga-gis-api=9.12.2-r0	saga-gis-api
+dep	saga-gis-gdi=9.12.2-r0	saga-gis-gdi

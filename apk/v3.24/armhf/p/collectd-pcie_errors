@@ -1,0 +1,14 @@
+name	collectd-pcie_errors
+version	5.12.0-r25
+description	pcie_errors pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	8054
+installed-size	21680
+depends	collectd so:libc.musl-armhf.so.1
+origin	collectd
+repo	community
+file	collectd-pcie_errors-5.12.0-r25.apk
+checksum	Q1yEILofCFl3yDQ473oxJzE/jyxis=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl

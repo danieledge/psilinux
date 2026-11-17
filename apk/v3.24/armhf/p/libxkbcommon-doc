@@ -1,0 +1,13 @@
+name	libxkbcommon-doc
+version	1.13.1-r0
+description	Keyboard handling library (documentation)
+url	https://xkbcommon.org/
+license	MIT AND MIT-open-group AND HPND AND HPND-sell-variant AND LicenseRef-digital-equipment-corporation
+size	608800
+installed-size	3566004
+depends	xkeyboard-config
+origin	libxkbcommon
+repo	main
+file	libxkbcommon-doc-1.13.1-r0.apk
+checksum	Q1fiTuCXNHfxl0Nwv//MFe6qSJxAA=
+dep	xkeyboard-config	xkeyboard-config

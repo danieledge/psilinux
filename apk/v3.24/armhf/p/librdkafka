@@ -1,0 +1,22 @@
+name	librdkafka
+version	2.14.1-r0
+description	The Apache Kafka C/C++ library
+url	https://github.com/edenhill/librdkafka
+license	BSD-2-Clause
+size	1115626
+installed-size	2633668
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgcc_s.so.1 so:liblz4.so.1 so:libsasl2.so.3 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
+origin	librdkafka
+repo	community
+file	librdkafka-2.14.1-r0.apk
+checksum	Q1lKBVKR7iNzrsRQr6czFla9brQ2o=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblz4.so.1	lz4-libs
+dep	so:libsasl2.so.3	libsasl
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

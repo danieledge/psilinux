@@ -1,0 +1,15 @@
+name	ax25-tools
+version	1.1.0-r0
+description	tools for set and configure hamradio ports that use AX.25 Net/ROM or ROSE
+url	https://github.com/ve7fet/linuxax25
+license	GPL-2.0-or-later
+size	149838
+installed-size	451185
+depends	so:libax25.so.1 so:libc.musl-armhf.so.1 so:libz.so.1
+origin	ax25-tools
+repo	community
+file	ax25-tools-1.1.0-r0.apk
+checksum	Q17tj4S0OdEVbZtnOHdvxEmyQWTk0=
+dep	so:libax25.so.1	libax25
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libz.so.1	zlib

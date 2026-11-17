@@ -1,0 +1,99 @@
+name	rt4
+version	4.4.8-r0
+description	Request Tracker - issue and bug tracker
+url	https://bestpractical.squarespace.com/request-tracker
+license	GPL-2.0-or-later
+size	8482358
+installed-size	28062090
+depends	perl font-droid perl-apache-session perl-business-hours perl-cache-simple-timedexpiry perl-cgi perl-cgi-emulate-psgi perl-cgi-psgi perl-class-accessor perl-convert-color perl-crypt-eksblowfish perl-crypt-ssleay perl-crypt-x509 perl-css-minifier-xs perl-css-squish perl-data-guid perl-data-ical perl-data-page-pageset perl-date-extract perl-date-manip perl-datetime perl-datetime-format-natural perl-datetime-locale perl-dbd-mysql perl-dbd-pg perl-dbi perl-dbix-searchbuilder perl-devel-globaldestruction perl-devel-stacktrace perl-digest-sha1 perl-email-address perl-email-address-list perl-fcgi perl-fcgi-procmanager perl-file-sharedir perl-file-which perl-getopt-long perl-html-formatter perl-html-formattext-withlinks perl-html-formattext-withlinks-andtables perl-html-mason perl-html-mason-psgihandler perl-html-parser perl-html-quoted perl-html-rewriteattributes>=0.05 perl-html-scrubber perl-html-tree perl-ipc-run3 perl-javascript-minifier perl-javascript-minifier-xs perl-json perl-list-moreutils perl-locale-maketext-fuzzy perl-locale-maketext-lexicon perl-log-dispatch perl-lwp-protocol-https perl-mailtools perl-mime-tools perl-mime-types perl-module-refresh perl-module-versions-report perl-mozilla-ca perl-net-cidr perl-net-ip perl-parallel-forkmanager perl-plack perl-pod-parser perl-regexp-common-net-cidr perl-regexp-ipv6 perl-role-basic perl-scope-upper perl-starlet perl-string-shellquote perl-sub-exporter perl-symbol-global-name perl-term-readkey perl-text-password-pronounceable perl-text-quoted perl-text-template perl-text-wikiformat perl-text-wrapper perl-time-hires perl-time-parsedate perl-tree-simple perl-universal-require perl-xml-rss /bin/sh
+origin	rt4
+repo	community
+file	rt4-4.4.8-r0.apk
+checksum	Q1ur82xIpRu4SdHeiRE1xYP4Vzalg=
+dep	perl	perl
+dep	font-droid	font-droid
+dep	perl-apache-session	perl-apache-session
+dep	perl-business-hours	perl-business-hours
+dep	perl-cache-simple-timedexpiry	perl-cache-simple-timedexpiry
+dep	perl-cgi	perl-cgi
+dep	perl-cgi-emulate-psgi	perl-cgi-emulate-psgi
+dep	perl-cgi-psgi	perl-cgi-psgi
+dep	perl-class-accessor	perl-class-accessor
+dep	perl-convert-color	perl-convert-color
+dep	perl-crypt-eksblowfish	perl-crypt-eksblowfish
+dep	perl-crypt-ssleay	perl-crypt-ssleay
+dep	perl-crypt-x509	perl-crypt-x509
+dep	perl-css-minifier-xs	perl-css-minifier-xs
+dep	perl-css-squish	perl-css-squish
+dep	perl-data-guid	perl-data-guid
+dep	perl-data-ical	perl-data-ical
+dep	perl-data-page-pageset	perl-data-page-pageset
+dep	perl-date-extract	perl-date-extract
+dep	perl-date-manip	perl-date-manip
+dep	perl-datetime	perl-datetime
+dep	perl-datetime-format-natural	perl-datetime-format-natural
+dep	perl-datetime-locale	perl-datetime-locale
+dep	perl-dbd-mysql	perl-dbd-mysql
+dep	perl-dbd-pg	perl-dbd-pg
+dep	perl-dbi	perl-dbi
+dep	perl-dbix-searchbuilder	perl-dbix-searchbuilder
+dep	perl-devel-globaldestruction	perl-devel-globaldestruction
+dep	perl-devel-stacktrace	perl-devel-stacktrace
+dep	perl-digest-sha1	perl-digest-sha1
+dep	perl-email-address	perl-email-address
+dep	perl-email-address-list	perl-email-address-list
+dep	perl-fcgi	perl-fcgi
+dep	perl-fcgi-procmanager	perl-fcgi-procmanager
+dep	perl-file-sharedir	perl-file-sharedir
+dep	perl-file-which	perl-file-which
+dep	perl-getopt-long	perl-getopt-long
+dep	perl-html-formatter	perl-html-formatter
+dep	perl-html-formattext-withlinks	perl-html-formattext-withlinks
+dep	perl-html-formattext-withlinks-andtables	perl-html-formattext-withlinks-andtables
+dep	perl-html-mason	perl-html-mason
+dep	perl-html-mason-psgihandler	perl-html-mason-psgihandler
+dep	perl-html-parser	perl-html-parser
+dep	perl-html-quoted	perl-html-quoted
+dep	perl-html-rewriteattributes>=0.05	perl-html-rewriteattributes
+dep	perl-html-scrubber	perl-html-scrubber
+dep	perl-html-tree	perl-html-tree
+dep	perl-ipc-run3	perl-ipc-run3
+dep	perl-javascript-minifier	perl-javascript-minifier
+dep	perl-javascript-minifier-xs	perl-javascript-minifier-xs
+dep	perl-json	perl-json
+dep	perl-list-moreutils	perl-list-moreutils
+dep	perl-locale-maketext-fuzzy	perl-locale-maketext-fuzzy
+dep	perl-locale-maketext-lexicon	perl-locale-maketext-lexicon
+dep	perl-log-dispatch	perl-log-dispatch
+dep	perl-lwp-protocol-https	perl-lwp-protocol-https
+dep	perl-mailtools	perl-mailtools
+dep	perl-mime-tools	perl-mime-tools
+dep	perl-mime-types	perl-mime-types
+dep	perl-module-refresh	perl-module-refresh
+dep	perl-module-versions-report	perl-module-versions-report
+dep	perl-mozilla-ca	perl-mozilla-ca
+dep	perl-net-cidr	perl-net-cidr
+dep	perl-net-ip	perl-net-ip
+dep	perl-parallel-forkmanager	perl-parallel-forkmanager
+dep	perl-plack	perl-plack
+dep	perl-pod-parser	perl-pod-parser
+dep	perl-regexp-common-net-cidr	perl-regexp-common-net-cidr
+dep	perl-regexp-ipv6	perl-regexp-ipv6
+dep	perl-role-basic	perl-role-basic
+dep	perl-scope-upper	perl-scope-upper
+dep	perl-starlet	perl-starlet
+dep	perl-string-shellquote	perl-string-shellquote
+dep	perl-sub-exporter	perl-sub-exporter
+dep	perl-symbol-global-name	perl-symbol-global-name
+dep	perl-term-readkey	perl-term-readkey
+dep	perl-text-password-pronounceable	perl-text-password-pronounceable
+dep	perl-text-quoted	perl-text-quoted
+dep	perl-text-template	perl-text-template
+dep	perl-text-wikiformat	perl-text-wikiformat
+dep	perl-text-wrapper	perl-text-wrapper
+dep	perl-time-hires	perl-time-hires
+dep	perl-time-parsedate	perl-time-parsedate
+dep	perl-tree-simple	perl-tree-simple
+dep	perl-universal-require	perl-universal-require
+dep	perl-xml-rss	perl-xml-rss
+dep	/bin/sh	busybox-binsh

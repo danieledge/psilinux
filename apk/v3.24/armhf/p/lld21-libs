@@ -1,0 +1,18 @@
+name	lld21-libs
+version	21.1.8-r1
+description	The LLVM Linker (libraries)
+url	https://llvm.org/
+license	Apache-2.0
+size	2646680
+installed-size	6681500
+depends	so:libLLVM.so.21.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
+origin	lld21
+repo	main
+file	lld21-libs-21.1.8-r1.apk
+checksum	Q1df9bU2BgKj6jgzeYENoi84tmtvQ=
+dep	so:libLLVM.so.21.1	llvm21-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

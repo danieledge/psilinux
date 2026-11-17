@@ -1,0 +1,20 @@
+name	libteam
+version	1.31-r8
+description	Library for controlling team network device
+url	http://libteam.org
+license	LGPL-2.1-or-later
+size	90872
+installed-size	231753
+depends	so:libc.musl-armhf.so.1 so:libdaemon.so.0 so:libdbus-1.so.3 so:libjansson.so.4 so:libnl-3.so.200 so:libnl-cli-3.so.200 so:libnl-genl-3.so.200 so:libnl-route-3.so.200
+origin	libteam
+repo	community
+file	libteam-1.31-r8.apk
+checksum	Q1wwa3y5KnySVnKvynhr+og2qKliE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdaemon.so.0	libdaemon
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libjansson.so.4	jansson
+dep	so:libnl-3.so.200	libnl3
+dep	so:libnl-cli-3.so.200	libnl3-cli
+dep	so:libnl-genl-3.so.200	libnl3
+dep	so:libnl-route-3.so.200	libnl3

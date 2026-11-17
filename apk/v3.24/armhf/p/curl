@@ -1,0 +1,16 @@
+name	curl
+version	8.23.0-r0
+description	URL retrieval utility and library
+url	https://curl.se/
+license	curl
+size	182235
+installed-size	284682
+depends	libcurl=8.23.0-r0 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libz.so.1
+origin	curl
+repo	main
+file	curl-8.23.0-r0.apk
+checksum	Q1wuKpctzx/+6sB2a92/8gSG9uE2o=
+dep	libcurl=8.23.0-r0	libcurl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libz.so.1	zlib

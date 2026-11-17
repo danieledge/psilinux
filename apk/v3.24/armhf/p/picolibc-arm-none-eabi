@@ -1,0 +1,14 @@
+name	picolibc-arm-none-eabi
+version	1.8.11-r0
+description	A C standard library based on newlib with focus on compact size for arm-none-eabi
+url	https://github.com/picolibc/picolibc
+license	GPL-2.0-only AND LGPL-2.1-only AND 0BSD AND BSD-3-Clause AND GPL-3.0-only AND LGPL-3.0-only
+size	10036975
+installed-size	52004161
+depends	binutils-arm-none-eabi gcc-arm-none-eabi~16.1
+origin	picolibc
+repo	community
+file	picolibc-arm-none-eabi-1.8.11-r0.apk
+checksum	Q1yRCdxdIlscSM9pZdvgNw8hxEf7Q=
+dep	binutils-arm-none-eabi	binutils-arm-none-eabi
+dep	gcc-arm-none-eabi~16.1	gcc-arm-none-eabi

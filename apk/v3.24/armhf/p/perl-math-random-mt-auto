@@ -1,0 +1,15 @@
+name	perl-math-random-mt-auto
+version	6.23-r10
+description	Auto-seeded Mersenne Twister PRNGs
+url	https://metacpan.org/release/Math-Random-MT-Auto/
+license	BSD-3-Clause
+size	34183
+installed-size	85004
+depends	perl-exception-class perl-object-insideout so:libc.musl-armhf.so.1
+origin	perl-math-random-mt-auto
+repo	community
+file	perl-math-random-mt-auto-6.23-r10.apk
+checksum	Q1YCUdqlB6u/K3AOBZqNSdqxwK1Dc=
+dep	perl-exception-class	perl-exception-class
+dep	perl-object-insideout	perl-object-insideout
+dep	so:libc.musl-armhf.so.1	musl

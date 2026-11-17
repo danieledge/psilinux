@@ -1,0 +1,13 @@
+name	fortune-alpine-tips-profile
+version	20240826-r0
+description	Tips for using the Alpine Linux system
+url	https://www.alpinelinux.org/
+license	MIT
+size	1577
+installed-size	49
+depends	fortune
+origin	fortune-alpine-tips
+repo	community
+file	fortune-alpine-tips-profile-20240826-r0.apk
+checksum	Q1AXTKk232QNcCazeT1XY5xbLFheg=
+dep	fortune	fortune

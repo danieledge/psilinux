@@ -1,0 +1,17 @@
+name	offpunk-web
+version	3.1-r1
+description	Offline-first browser for the small internet (web browsing)
+url	https://offpunk.net
+license	AGPL-3.0-or-later
+size	1313
+installed-size	0
+depends	offpunk=3.1-r1 py3-beautifulsoup4 py3-chardet py3-feedparser py3-setproctitle
+origin	offpunk
+repo	community
+file	offpunk-web-3.1-r1.apk
+checksum	Q1JZlT7lO7f1oak7pBTfp5DpWfOC8=
+dep	offpunk=3.1-r1	offpunk
+dep	py3-beautifulsoup4	py3-beautifulsoup4
+dep	py3-chardet	py3-chardet
+dep	py3-feedparser	py3-feedparser
+dep	py3-setproctitle	py3-setproctitle

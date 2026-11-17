@@ -1,0 +1,15 @@
+name	os-prober
+version	1.84-r0
+description	Utility to detect other OSes on a set of drives
+url	https://joeyh.name/code/os-prober/
+license	GPL-3.0-only
+size	18480
+installed-size	49949
+depends	blkid grub-mount so:libc.musl-armhf.so.1
+origin	os-prober
+repo	community
+file	os-prober-1.84-r0.apk
+checksum	Q1I+dULjVEq7InotAnMBzFEFmIwDo=
+dep	blkid	blkid
+dep	grub-mount	grub-mount
+dep	so:libc.musl-armhf.so.1	musl

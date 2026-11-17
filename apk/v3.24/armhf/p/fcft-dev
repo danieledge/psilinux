@@ -1,0 +1,20 @@
+name	fcft-dev
+version	3.3.3-r0
+description	Simple library for font loading and glyph rasterization using FontConfig, FreeType and pixman (development files)
+url	https://codeberg.org/dnkl/fcft
+license	MIT
+size	4563
+installed-size	7072
+depends	fcft=3.3.3-r0 pc:fontconfig pc:freetype2 pc:harfbuzz pc:libutf8proc pc:pixman-1 pc:tllist>=1.0.1 pkgconfig
+origin	fcft
+repo	community
+file	fcft-dev-3.3.3-r0.apk
+checksum	Q1jZKRkKfmmxEn8+gVgxYyq/jXsTA=
+dep	fcft=3.3.3-r0	fcft
+dep	pc:fontconfig	fontconfig-dev
+dep	pc:freetype2	freetype-dev
+dep	pc:harfbuzz	harfbuzz-dev
+dep	pc:libutf8proc	utf8proc-dev
+dep	pc:pixman-1	pixman-dev
+dep	pc:tllist>=1.0.1	tllist-dev
+dep	pkgconfig	pkgconf

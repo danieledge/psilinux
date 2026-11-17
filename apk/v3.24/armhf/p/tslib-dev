@@ -1,0 +1,14 @@
+name	tslib-dev
+version	1.24-r0
+description	Touchscreen Access Library (development files)
+url	https://github.com/libts/tslib
+license	LGPL-2.0-or-later
+size	3706
+installed-size	5104
+depends	tslib=1.24-r0 pkgconfig
+origin	tslib
+repo	community
+file	tslib-dev-1.24-r0.apk
+checksum	Q1pD+eKoLBpU2CIY0bwIp5qwtBY0I=
+dep	tslib=1.24-r0	tslib
+dep	pkgconfig	pkgconf

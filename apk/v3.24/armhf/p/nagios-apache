@@ -1,0 +1,14 @@
+name	nagios-apache
+version	4.5.14-r0
+description	Popular monitoring tool
+url	https://www.nagios.org/
+license	GPL-2.0-only
+size	2053
+installed-size	1615
+depends	apache2 apache2-utils
+origin	nagios
+repo	main
+file	nagios-apache-4.5.14-r0.apk
+checksum	Q1OOmciP2Tt1+yoD5jsKJp2HwCI2A=
+dep	apache2	apache2
+dep	apache2-utils	apache2-utils

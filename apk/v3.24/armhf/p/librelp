@@ -1,0 +1,15 @@
+name	librelp
+version	1.12.0-r0
+description	The Reliable Event Logging Protocol library
+url	https://www.rsyslog.com
+license	GPL-3.0-or-later
+size	29764
+installed-size	66788
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	librelp
+repo	main
+file	librelp-1.12.0-r0.apk
+checksum	Q1QqD+AHs6ONeoWG70/bNKCpHwnUE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,31 @@
+name	networkmanager
+version	1.52.2-r0
+description	Network Management daemon
+url	https://networkmanager.dev
+license	GPL-2.0-or-later
+size	1546865
+installed-size	3618974
+depends	libnm=1.52.2-r0 dbus /bin/sh so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libelogind.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libjansson.so.4 so:libndp.so.0 so:libnm.so.0 so:libnspr4.so so:libnss3.so so:libpsl.so.5 so:libsmime3.so so:libudev.so.1
+origin	networkmanager
+repo	community
+file	networkmanager-1.52.2-r0.apk
+checksum	Q1UnCqLQ7aJN+H0hT3TLAh9G+TuO4=
+dep	libnm=1.52.2-r0	libnm
+dep	dbus	dbus
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libelogind.so.0	libelogind
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libjansson.so.4	jansson
+dep	so:libndp.so.0	libndp
+dep	so:libnm.so.0	libnm
+dep	so:libnspr4.so	nspr
+dep	so:libnss3.so	nss
+dep	so:libpsl.so.5	libpsl
+dep	so:libsmime3.so	nss
+dep	so:libudev.so.1	eudev-libs

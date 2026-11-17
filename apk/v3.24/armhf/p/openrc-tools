@@ -1,0 +1,13 @@
+name	openrc-tools
+version	0.63.2-r0
+description	OpenRC manages the services, startup and shutdown of a host
+url	https://github.com/OpenRC/openrc
+license	BSD-2-Clause
+size	2129
+installed-size	1203
+depends	perl
+origin	openrc
+repo	main
+file	openrc-tools-0.63.2-r0.apk
+checksum	Q1ByfWAgMjaE5Rkf9MA96VN/CdY0k=
+dep	perl	perl

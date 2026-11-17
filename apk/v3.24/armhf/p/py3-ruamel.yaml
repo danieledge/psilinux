@@ -1,0 +1,14 @@
+name	py3-ruamel.yaml
+version	0.19.1-r0
+description	Python YAML parser/emitter
+url	https://sourceforge.net/projects/ruamel-yaml/
+license	MIT
+size	108690
+installed-size	560221
+depends	py3-ruamel.yaml.clib python3~3.14
+origin	py3-ruamel.yaml
+repo	community
+file	py3-ruamel.yaml-0.19.1-r0.apk
+checksum	Q1vOthyecSasMcmM5SyTXz8DFrbjc=
+dep	py3-ruamel.yaml.clib	py3-ruamel.yaml.clib
+dep	python3~3.14	python3

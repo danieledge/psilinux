@@ -1,0 +1,15 @@
+name	tipidee-dev
+version	0.0.7.2-r0
+description	The skarnet.org web server (development files)
+url	https://skarnet.org/software/tipidee/
+license	ISC
+size	5356
+installed-size	12199
+depends	tipidee-libs=0.0.7.2-r0 pc:libskarnet>=2.15.0.0 pkgconfig
+origin	tipidee
+repo	main
+file	tipidee-dev-0.0.7.2-r0.apk
+checksum	Q1zkb0V897qKl884vG67jgx4piKFU=
+dep	tipidee-libs=0.0.7.2-r0	tipidee-libs
+dep	pc:libskarnet>=2.15.0.0	skalibs-dev
+dep	pkgconfig	pkgconf

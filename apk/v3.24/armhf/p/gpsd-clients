@@ -1,0 +1,14 @@
+name	gpsd-clients
+version	3.27.3-r1
+description	gpsd clients
+url	https://gpsd.io/
+license	BSD-2-Clause
+size	1608302
+installed-size	3386618
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	gpsd
+repo	main
+file	gpsd-clients-3.27.3-r1.apk
+checksum	Q1jaF+YV71o9oAtxLCjEk7aAaf1Zw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

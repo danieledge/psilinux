@@ -1,0 +1,15 @@
+name	perl-xs-parse-keyword
+version	0.49-r0
+description	XS functions to assist in parsing keyword syntax
+url	https://metacpan.org/release/XS-Parse-Keyword/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	43947
+installed-size	116435
+depends	perl perl-file-sharedir so:libc.musl-armhf.so.1
+origin	perl-xs-parse-keyword
+repo	main
+file	perl-xs-parse-keyword-0.49-r0.apk
+checksum	Q131jvfo23SkvjJVW90rAp4dH/hIE=
+dep	perl	perl
+dep	perl-file-sharedir	perl-file-sharedir
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	graphviz-libs
+version	12.2.1-r3
+description	Graph Visualization Tools (libraries)
+url	https://www.graphviz.org/
+license	EPL-1.0
+size	514320
+installed-size	1105912
+depends	so:libc.musl-armhf.so.1 so:libexpat.so.1 so:libz.so.1
+origin	graphviz
+repo	main
+file	graphviz-libs-12.2.1-r3.apk
+checksum	Q12soJ5aggBHMzq0xrbW6HuqvpaTs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexpat.so.1	libexpat
+dep	so:libz.so.1	zlib

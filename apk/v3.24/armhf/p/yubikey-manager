@@ -1,0 +1,22 @@
+name	yubikey-manager
+version	5.8.0-r3
+description	Python library and command line tool for configuring any YubiKey over all USB interfaces
+url	https://developers.yubico.com/yubikey-manager/
+license	BSD-2-Clause
+size	1809
+installed-size	218
+depends	ccid pcsc-lite pcsc-lite-libs py3-click py3-cryptography py3-fido2 py3-keyring py3-pyscard py3-ykman python3
+origin	yubikey-manager
+repo	community
+file	yubikey-manager-5.8.0-r3.apk
+checksum	Q1oOB4auas2J6r8VjqDfg3x8uoVwg=
+dep	ccid	ccid
+dep	pcsc-lite	pcsc-lite
+dep	pcsc-lite-libs	pcsc-lite-libs
+dep	py3-click	py3-click
+dep	py3-cryptography	py3-cryptography
+dep	py3-fido2	py3-fido2
+dep	py3-keyring	py3-keyring
+dep	py3-pyscard	py3-pyscard
+dep	py3-ykman	py3-ykman
+dep	python3	python3

@@ -1,0 +1,13 @@
+name	py3-tbb-pyc
+version	2022.3.0-r1
+description	Precompiled Python bytecode for py3-tbb
+url	https://github.com/oneapi-src/oneTBB
+license	GPL-2.0-only
+size	26464
+installed-size	62034
+depends	python3~3.14
+origin	onetbb
+repo	community
+file	py3-tbb-pyc-2022.3.0-r1.apk
+checksum	Q1R2zIF7n93E668PN0NPu3NjbbfOc=
+dep	python3~3.14	python3

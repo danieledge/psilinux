@@ -1,0 +1,14 @@
+name	miniserve
+version	0.35.0-r0
+description	Quickly serve files via HTTP
+url	https://github.com/svenstaro/miniserve
+license	MIT
+size	3157769
+installed-size	6827992
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	miniserve
+repo	community
+file	miniserve-0.35.0-r0.apk
+checksum	Q1afYwpexMS7q4Y6qgmI4/sGgxVsc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

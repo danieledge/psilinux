@@ -1,0 +1,14 @@
+name	faad2-dev
+version	2.11.2-r0
+description	ISO AAC audio decoder (development files)
+url	https://github.com/knik0/faad2
+license	GPL-2.0-or-later
+size	4870
+installed-size	10373
+depends	faad2-libs=2.11.2-r0 pkgconfig
+origin	faad2
+repo	community
+file	faad2-dev-2.11.2-r0.apk
+checksum	Q17pBv2s2j8+jNSaOpapPMLlIVfm4=
+dep	faad2-libs=2.11.2-r0	faad2-libs
+dep	pkgconfig	pkgconf

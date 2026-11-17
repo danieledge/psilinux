@@ -1,0 +1,15 @@
+name	libxi
+version	1.8.4-r0
+description	X11 Input extension library
+url	https://www.x.org
+license	MIT AND X11
+size	27452
+installed-size	62680
+depends	so:libX11.so.6 so:libXext.so.6 so:libc.musl-armhf.so.1
+origin	libxi
+repo	main
+file	libxi-1.8.4-r0.apk
+checksum	Q1Vyfjybervff/HAJgYur4BAOjq4M=
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libc.musl-armhf.so.1	musl

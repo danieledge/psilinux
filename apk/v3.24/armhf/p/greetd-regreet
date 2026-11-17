@@ -1,0 +1,20 @@
+name	greetd-regreet
+version	0.2.0-r3
+description	Clean and customizable GTK4 based greeter for greetd
+url	https://github.com/rharish101/ReGreet
+license	GPL-3.0-or-later
+size	1214904
+installed-size	2509996
+depends	greetd so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libpango-1.0.so.0
+origin	greetd-regreet
+repo	community
+file	greetd-regreet-0.2.0-r3.apk
+checksum	Q1RUNVy9Y58M+HmxFrdtregmG4Mg4=
+dep	greetd	greetd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libpango-1.0.so.0	pango

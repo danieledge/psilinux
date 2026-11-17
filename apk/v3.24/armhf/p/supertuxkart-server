@@ -1,0 +1,20 @@
+name	supertuxkart-server
+version	1.5-r1
+description	Kart racing game featuring Tux and his friends
+url	https://supertuxkart.net/
+license	GPL-3.0-or-later
+size	2851553
+installed-size	6552901
+depends	supertuxkart-data so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgcc_s.so.1 so:libsqlite3.so.0 so:libstdc++.so.6 so:libz.so.1
+origin	supertuxkart
+repo	community
+file	supertuxkart-server-1.5-r1.apk
+checksum	Q1UHavoFg8hOqRabL2LsFJZMG8gY8=
+dep	supertuxkart-data	supertuxkart-data
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

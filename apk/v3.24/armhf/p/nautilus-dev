@@ -1,0 +1,18 @@
+name	nautilus-dev
+version	50.1-r0
+description	GNOME file manager (development files)
+url	https://apps.gnome.org/Nautilus
+license	GPL-2.0-or-later
+size	17830
+installed-size	167342
+depends	gnome-autoar-dev gnome-desktop-dev nautilus=50.1-r0 pc:gio-2.0 pc:glib-2.0 pkgconfig
+origin	nautilus
+repo	community
+file	nautilus-dev-50.1-r0.apk
+checksum	Q1mAr4hF49YXCAjejkt0rENQgbFQ4=
+dep	gnome-autoar-dev	gnome-autoar-dev
+dep	gnome-desktop-dev	gnome-desktop-dev
+dep	nautilus=50.1-r0	nautilus
+dep	pc:gio-2.0	glib-dev
+dep	pc:glib-2.0	glib-dev
+dep	pkgconfig	pkgconf

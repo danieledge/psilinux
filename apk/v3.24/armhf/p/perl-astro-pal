@@ -1,0 +1,14 @@
+name	perl-astro-pal
+version	1.09-r1
+description	Interface to Starlink PAL positional astronomy library
+url	https://metacpan.org/release/Astro-PAL/
+license	GPL-3.0-or-later
+size	209663
+installed-size	571443
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-astro-pal
+repo	community
+file	perl-astro-pal-1.09-r1.apk
+checksum	Q1JTGTD34rB7SQmADBaNc4ISZG3eY=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

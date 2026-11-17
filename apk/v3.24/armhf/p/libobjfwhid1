@@ -1,0 +1,16 @@
+name	libobjfwhid1
+version	1.5.7-r0
+description	Library for HID support for ObjFW
+url	https://objfw.nil.im/
+license	LGPL-3.0-only
+size	77771
+installed-size	301852
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1
+origin	objfw
+repo	community
+file	libobjfwhid1-1.5.7-r0.apk
+checksum	Q1bBcbSr2aLIcdMTsIO1QoYoM7P70=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libobjfw.so.1	libobjfw1
+dep	so:libobjfwrt.so.1	libobjfwrt1

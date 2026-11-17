@@ -1,0 +1,18 @@
+name	libfm-dev
+version	1.4.0-r0
+description	Library for file management (development files)
+url	https://github.com/lxde/libfm
+license	GPL-2.0-or-later
+size	48710
+installed-size	237149
+depends	libfm=1.4.0-r0 pc:gio-unix-2.0 pc:glib-2.0>=2.22.0 pc:gthread-2.0 pc:gtk+-3.0 pkgconfig
+origin	libfm
+repo	community
+file	libfm-dev-1.4.0-r0.apk
+checksum	Q1Y9ds4MIXyaqo/tyJFDH1dQsSrWc=
+dep	libfm=1.4.0-r0	libfm
+dep	pc:gio-unix-2.0	glib-dev
+dep	pc:glib-2.0>=2.22.0	glib-dev
+dep	pc:gthread-2.0	glib-dev
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pkgconfig	pkgconf

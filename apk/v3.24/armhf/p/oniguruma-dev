@@ -1,0 +1,14 @@
+name	oniguruma-dev
+version	6.9.10-r0
+description	a regular expressions library (development files)
+url	https://github.com/kkos/oniguruma
+license	BSD-2-Clause
+size	221073
+installed-size	742546
+depends	oniguruma=6.9.10-r0 pkgconfig
+origin	oniguruma
+repo	main
+file	oniguruma-dev-6.9.10-r0.apk
+checksum	Q1wdhOSP2vmXeWGYHwv2PvZeZI9BE=
+dep	oniguruma=6.9.10-r0	oniguruma
+dep	pkgconfig	pkgconf

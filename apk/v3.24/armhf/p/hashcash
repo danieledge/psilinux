@@ -1,0 +1,13 @@
+name	hashcash
+version	1.22-r0
+description	Proof-of-work algorithm for denial-of-service counter measures
+url	http://www.hashcash.org/
+license	Public-Domain
+size	74677
+installed-size	137648
+depends	so:libc.musl-armhf.so.1
+origin	hashcash
+repo	community
+file	hashcash-1.22-r0.apk
+checksum	Q1fjXSSZ3iRt7QygBgKTRq2kTyCE4=
+dep	so:libc.musl-armhf.so.1	musl

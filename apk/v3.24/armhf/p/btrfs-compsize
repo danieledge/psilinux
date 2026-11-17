@@ -1,0 +1,13 @@
+name	btrfs-compsize
+version	1.5-r2
+description	Calculate compression ratio of a set of files on Btrfs
+url	https://github.com/kilobyte/compsize
+license	GPL-2.0-or-later
+size	9252
+installed-size	17748
+depends	so:libc.musl-armhf.so.1
+origin	btrfs-compsize
+repo	community
+file	btrfs-compsize-1.5-r2.apk
+checksum	Q1EpHO7uOwm06KjjbfhF7Yw0+Z3aE=
+dep	so:libc.musl-armhf.so.1	musl

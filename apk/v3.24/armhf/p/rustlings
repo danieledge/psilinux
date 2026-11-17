@@ -1,0 +1,17 @@
+name	rustlings
+version	6.5.0-r0
+description	Small exercises to get you used to reading and writing Rust code
+url	https://rustlings.rust-lang.org/
+license	MIT
+size	627826
+installed-size	1355856
+depends	rust-clippy cargo rustfmt so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	rustlings
+repo	community
+file	rustlings-6.5.0-r0.apk
+checksum	Q1ZP67hHLeUi8B6BoJqs70ixFa5js=
+dep	rust-clippy	rust-clippy
+dep	cargo	cargo
+dep	rustfmt	rustfmt
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

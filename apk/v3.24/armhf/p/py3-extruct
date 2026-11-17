@@ -1,0 +1,20 @@
+name	py3-extruct
+version	0.18.0-r2
+description	Extract embedded metadata from HTML markup
+url	https://pypi.python.org/project/extruct
+license	BSD-3-Clause
+size	25371
+installed-size	86487
+depends	py3-lxml py3-pyrdfa3 py3-mf2py py3-w3lib py3-html-text py3-jstyleson py3-requests python3~3.14
+origin	py3-extruct
+repo	community
+file	py3-extruct-0.18.0-r2.apk
+checksum	Q1c+k5oC+e459XsW89JygNKkIpxXg=
+dep	py3-lxml	py3-lxml
+dep	py3-pyrdfa3	py3-pyrdfa3
+dep	py3-mf2py	py3-mf2py
+dep	py3-w3lib	py3-w3lib
+dep	py3-html-text	py3-html-text
+dep	py3-jstyleson	py3-jstyleson
+dep	py3-requests	py3-requests
+dep	python3~3.14	python3

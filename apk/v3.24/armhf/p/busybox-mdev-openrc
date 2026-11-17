@@ -1,0 +1,14 @@
+name	busybox-mdev-openrc
+version	1.37.0-r31
+description	Size optimized toolbox of many common UNIX utilities
+url	https://busybox.net/
+license	GPL-2.0-only
+size	2014
+installed-size	745
+depends	openrc>=0.24.1-r6 mdev-conf
+origin	busybox
+repo	main
+file	busybox-mdev-openrc-1.37.0-r31.apk
+checksum	Q12y/RMo2k7RD+rzlfwoyIo2HAGaw=
+dep	openrc>=0.24.1-r6	openrc
+dep	mdev-conf	mdev-conf

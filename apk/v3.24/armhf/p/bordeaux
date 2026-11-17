@@ -1,0 +1,19 @@
+name	bordeaux
+version	0.9.7-r0
+description	SIP telephony application server
+url	https://gitlab.com/tychosoft/bordeaux
+license	GPL-3.0-or-later
+size	226174
+installed-size	514255
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libflite.so.1 so:libflite_cmu_us_slt.so.1 so:libfmt.so.11 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	bordeaux
+repo	community
+file	bordeaux-0.9.7-r0.apk
+checksum	Q1ekAEyOGeKf+/la2VdVPZEiz2lSY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libflite.so.1	flite
+dep	so:libflite_cmu_us_slt.so.1	flite
+dep	so:libfmt.so.11	fmt
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

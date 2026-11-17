@@ -1,0 +1,14 @@
+name	krapslog
+version	0.6.1-r1
+description	Tool for visualizing log file volume as sparklines in your terminal
+url	https://github.com/acj/krapslog-rs
+license	MIT
+size	688077
+installed-size	1511244
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	krapslog
+repo	community
+file	krapslog-0.6.1-r1.apk
+checksum	Q1ef+xtnYOKltC0lYuP3ikYJ5+XT0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

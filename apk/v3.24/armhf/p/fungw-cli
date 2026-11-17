@@ -1,0 +1,14 @@
+name	fungw-cli
+version	1.2.2-r3
+description	C function gateway for different programming languages (cli plugin)
+url	http://www.repo.hu/projects/fungw/
+license	LGPL-2.1-or-later
+size	22132
+installed-size	49838
+depends	fungw=1.2.2-r3 so:libc.musl-armhf.so.1
+origin	fungw
+repo	community
+file	fungw-cli-1.2.2-r3.apk
+checksum	Q1/I6crbsNGCynA2ayPVPvTHSz/3g=
+dep	fungw=1.2.2-r3	fungw
+dep	so:libc.musl-armhf.so.1	musl

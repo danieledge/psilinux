@@ -1,0 +1,15 @@
+name	tcl-dev
+version	8.6.17-r1
+description	The Tcl scripting language (development files)
+url	https://www.tcl-lang.org/
+license	TCL
+size	185863
+installed-size	820385
+depends	tcl=8.6.17-r1 pc:zlib>=1.2.3 pkgconfig
+origin	tcl
+repo	main
+file	tcl-dev-8.6.17-r1.apk
+checksum	Q1MRaWffp7MIjDMYQSuI5wXYlXdBI=
+dep	tcl=8.6.17-r1	tcl
+dep	pc:zlib>=1.2.3	zlib-dev
+dep	pkgconfig	pkgconf

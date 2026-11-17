@@ -1,0 +1,14 @@
+name	airspyone-host
+version	1.0.10-r2
+description	AirSpy's usemode driver and associated tools
+url	https://github.com/airspy/airspyone_host
+license	GPL-2.0-or-later
+size	25383
+installed-size	83852
+depends	so:libairspy.so.0 so:libc.musl-armhf.so.1
+origin	airspyone-host
+repo	community
+file	airspyone-host-1.0.10-r2.apk
+checksum	Q1/IV2hhWrbxE4GGAx3So+L/Wmbnc=
+dep	so:libairspy.so.0	airspyone-host-libs
+dep	so:libc.musl-armhf.so.1	musl

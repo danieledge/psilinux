@@ -1,0 +1,17 @@
+name	qt6-qtsensors-dev
+version	6.11.1-r0
+description	Provides access to sensor hardware and motion gesture recognition (development files)
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	38087
+installed-size	165982
+depends	qt6-qtbase-dev qt6-qtsvg-dev qt6-qtsensors=6.11.1-r0 pc:Qt6Core pkgconfig
+origin	qt6-qtsensors
+repo	community
+file	qt6-qtsensors-dev-6.11.1-r0.apk
+checksum	Q11lqRB0AJoitl9uVjqhMxqJi49+Q=
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	qt6-qtsvg-dev	qt6-qtsvg-dev
+dep	qt6-qtsensors=6.11.1-r0	qt6-qtsensors
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

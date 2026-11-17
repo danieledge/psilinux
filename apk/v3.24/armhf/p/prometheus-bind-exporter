@@ -1,0 +1,14 @@
+name	prometheus-bind-exporter
+version	0.8.0-r13
+description	Prometheus Bind Exporter
+url	https://github.com/prometheus-community/bind_exporter
+license	Apache-2.0
+size	5207940
+installed-size	13669508
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	prometheus-bind-exporter
+repo	community
+file	prometheus-bind-exporter-0.8.0-r13.apk
+checksum	Q1OMc0NG5Gd6Zjsgcpk+vfD/dAffU=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

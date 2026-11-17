@@ -1,0 +1,17 @@
+name	listenbrainz-mpd
+version	2.4.0-r0
+description	ListenBrainz submission client for MPD written in Rust
+url	https://codeberg.org/elomatreb/listenbrainz-mpd
+license	AGPL-3.0-only
+size	1088888
+installed-size	2183200
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libsqlite3.so.0 so:libssl.so.3
+origin	listenbrainz-mpd
+repo	community
+file	listenbrainz-mpd-2.4.0-r0.apk
+checksum	Q1fZRDsNJrwypgLHp27oY60sZIkeE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libssl.so.3	libssl3

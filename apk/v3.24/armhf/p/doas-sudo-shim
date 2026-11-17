@@ -1,0 +1,13 @@
+name	doas-sudo-shim
+version	0.2.0-r0
+description	A shim for the sudo command that utilizes doas
+url	https://github.com/jirutka/doas-sudo-shim
+license	ISC
+size	3263
+installed-size	3764
+depends	cmd:doas !sudo
+origin	doas-sudo-shim
+repo	main
+file	doas-sudo-shim-0.2.0-r0.apk
+checksum	Q11faV99mJI/2PErW5xVHEkEjUZ1I=
+dep	cmd:doas	doas

@@ -1,0 +1,17 @@
+name	perl-cpan-sqlite
+version	0.220-r1
+description	Maintain and search a minimal CPAN database
+url	https://metacpan.org/release/CPAN-SQLite/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	30220
+installed-size	115123
+depends	perl perl-cpan-distnameinfo perl-dbd-sqlite perl-dbi perl-file-homedir
+origin	perl-cpan-sqlite
+repo	community
+file	perl-cpan-sqlite-0.220-r1.apk
+checksum	Q1OYdHjL+q+nX117SvkqtRd42n6HU=
+dep	perl	perl
+dep	perl-cpan-distnameinfo	perl-cpan-distnameinfo
+dep	perl-dbd-sqlite	perl-dbd-sqlite
+dep	perl-dbi	perl-dbi
+dep	perl-file-homedir	perl-file-homedir

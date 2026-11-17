@@ -1,0 +1,14 @@
+name	lua5.1-evdev
+version	2.2.1-r3
+description	Lua module for reading input events (for Lua 5.1)
+url	https://github.com/Tangent128/lua-evdev
+license	MIT
+size	11145
+installed-size	22946
+depends	lua5.1 so:libc.musl-armhf.so.1
+origin	lua-evdev
+repo	main
+file	lua5.1-evdev-2.2.1-r3.apk
+checksum	Q1SvczgkEzG/A3TQHt9QPrvzE5xhA=
+dep	lua5.1	lua5.1
+dep	so:libc.musl-armhf.so.1	musl

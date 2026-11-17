@@ -1,0 +1,14 @@
+name	grass
+version	0.13.4-r0
+description	Sass compiler written purely in Rust
+url	https://github.com/connorskees/grass
+license	MIT
+size	869460
+installed-size	1663048
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	grass
+repo	community
+file	grass-0.13.4-r0.apk
+checksum	Q1FBRk/buR7vAHawaDkxgXNGjuKUk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

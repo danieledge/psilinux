@@ -1,0 +1,17 @@
+name	apache2-utils
+version	2.4.71-r0
+description	Apache utility programs for webservers
+url	https://httpd.apache.org/
+license	Apache-2.0
+size	65666
+installed-size	173704
+depends	so:libapr-1.so.0 so:libaprutil-1.so.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	apache2
+repo	main
+file	apache2-utils-2.4.71-r0.apk
+checksum	Q1rqyEaoKHXw+LDmzfcvH/bfarBtw=
+dep	so:libapr-1.so.0	apr
+dep	so:libaprutil-1.so.0	apr-util
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,17 @@
+name	perl-git-repository
+version	1.326-r1
+description	Perl interface to Git repositories
+url	https://metacpan.org/release/Git-Repository/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	16699
+installed-size	44736
+depends	git perl perl-git-version-compare perl-namespace-clean perl-system-command
+origin	perl-git-repository
+repo	community
+file	perl-git-repository-1.326-r1.apk
+checksum	Q1J/dfPX50urnf8oMmCESQiymXWPw=
+dep	git	git
+dep	perl	perl
+dep	perl-git-version-compare	perl-git-version-compare
+dep	perl-namespace-clean	perl-namespace-clean
+dep	perl-system-command	perl-system-command

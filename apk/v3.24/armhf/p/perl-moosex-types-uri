@@ -1,0 +1,17 @@
+name	perl-moosex-types-uri
+version	0.10-r0
+description	URI related types and coercions for Moose
+url	https://metacpan.org/release/MooseX-Types-URI/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	3692
+installed-size	5065
+depends	perl perl-namespace-autoclean perl-uri-fromhash perl-moosex-types perl-uri
+origin	perl-moosex-types-uri
+repo	community
+file	perl-moosex-types-uri-0.10-r0.apk
+checksum	Q1/gmCDVNPJUF0YrViQZMNbSlDzzA=
+dep	perl	perl
+dep	perl-namespace-autoclean	perl-namespace-autoclean
+dep	perl-uri-fromhash	perl-uri-fromhash
+dep	perl-moosex-types	perl-moosex-types
+dep	perl-uri	perl-uri

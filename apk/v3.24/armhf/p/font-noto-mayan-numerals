@@ -1,0 +1,14 @@
+name	font-noto-mayan-numerals
+version	2026.11.01-r0
+description	Noto Sans Mayan Numerals font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	3908
+installed-size	4681
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-mayan-numerals-2026.11.01-r0.apk
+checksum	Q16mA09aDGQDGTAc1N9ERlIq4jjw4=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

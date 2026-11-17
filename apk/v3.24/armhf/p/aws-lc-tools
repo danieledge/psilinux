@@ -1,0 +1,17 @@
+name	aws-lc-tools
+version	5.0.0-r3
+description	General-purpose cryptographic library based on BoringSSL and OpenSSL (tools)
+url	https://github.com/aws/aws-lc
+license	(Apache-2.0 OR ISC) AND BSD-3-Clause AND MIT AND OpenSSL
+size	173811
+installed-size	392375
+depends	so:aws-lc:libcrypto.so so:aws-lc:libssl.so so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	aws-lc
+repo	community
+file	aws-lc-tools-5.0.0-r3.apk
+checksum	Q15Z6Kisnir5Zfv1PTCFHP4PVphnQ=
+dep	so:aws-lc:libcrypto.so	aws-lc
+dep	so:aws-lc:libssl.so	aws-lc
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

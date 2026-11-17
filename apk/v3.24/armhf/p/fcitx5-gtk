@@ -1,0 +1,21 @@
+name	fcitx5-gtk
+version	5.1.6-r0
+description	Fcitx5 GTK module
+url	https://github.com/fcitx/fcitx5-gtk/
+license	LGPL-2.1-or-later
+size	16667
+installed-size	45592
+depends	fcitx5 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgtk-4.so.1 so:libstdc++.so.6
+origin	fcitx5-gtk
+repo	community
+file	fcitx5-gtk-5.1.6-r0.apk
+checksum	Q1S7v8Z6wnl/NxX9s05WtsfvajzOU=
+dep	fcitx5	fcitx5
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libstdc++.so.6	libstdc++

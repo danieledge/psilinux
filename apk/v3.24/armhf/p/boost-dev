@@ -1,0 +1,13 @@
+name	boost-dev
+version	1.84.0-r6
+description	Free peer-reviewed portable C++ source libraries
+url	https://www.boost.org/
+license	BSL-1.0
+size	1291
+installed-size	0
+depends	boost1.84-dev=1.84.0-r6
+origin	boost1.84
+repo	main
+file	boost-dev-1.84.0-r6.apk
+checksum	Q1wuy0KDFuBI/iqTwMGpMU+hcdqeg=
+dep	boost1.84-dev=1.84.0-r6	boost1.84-dev

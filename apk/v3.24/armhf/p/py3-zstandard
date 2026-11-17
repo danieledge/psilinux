@@ -1,0 +1,14 @@
+name	py3-zstandard
+version	0.25.0-r1
+description	Python bindings to the Zstandard (zstd) compression library
+url	https://github.com/indygreg/python-zstandard
+license	BSD-3-Clause
+size	591734
+installed-size	1521065
+depends	python3~3.14 so:libc.musl-armhf.so.1
+origin	py3-zstandard
+repo	community
+file	py3-zstandard-0.25.0-r1.apk
+checksum	Q1A7CvFdCcLO+WLHBNPS71qNDCE/4=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

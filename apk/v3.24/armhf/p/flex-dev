@@ -1,0 +1,14 @@
+name	flex-dev
+version	2.6.4-r8
+description	A tool for generating text-scanning programs (development files)
+url	https://github.com/westes/flex
+license	BSD-2-Clause
+size	4170
+installed-size	6893
+depends	flex flex-libs=2.6.4-r8
+origin	flex
+repo	main
+file	flex-dev-2.6.4-r8.apk
+checksum	Q1Ny+V/e2aO+OS+00HYEuDclCFaB0=
+dep	flex	flex
+dep	flex-libs=2.6.4-r8	flex-libs

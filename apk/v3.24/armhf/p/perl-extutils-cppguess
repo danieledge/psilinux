@@ -1,0 +1,14 @@
+name	perl-extutils-cppguess
+version	0.27-r0
+description	guess C++ compiler and flags
+url	https://metacpan.org/release/ExtUtils-CppGuess/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	7244
+installed-size	16076
+depends	perl perl-capture-tiny
+origin	perl-extutils-cppguess
+repo	community
+file	perl-extutils-cppguess-0.27-r0.apk
+checksum	Q1KaQckOlmdTua6i393qlo4yAzI+U=
+dep	perl	perl
+dep	perl-capture-tiny	perl-capture-tiny

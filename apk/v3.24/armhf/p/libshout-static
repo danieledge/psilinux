@@ -1,0 +1,13 @@
+name	libshout-static
+version	2.4.6-r4
+description	Library for accessing a shoutcast/icecast server (static library)
+url	https://icecast.org/
+license	GPL-2.0-only
+size	48683
+installed-size	136446
+depends	libshout-dev
+origin	libshout
+repo	main
+file	libshout-static-2.4.6-r4.apk
+checksum	Q1/sMaL92FyG/QmIxqA6/AfQ2SSic=
+dep	libshout-dev	libshout-dev

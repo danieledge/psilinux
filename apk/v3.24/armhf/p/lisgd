@@ -1,0 +1,16 @@
+name	lisgd
+version	0.4.0-r0
+description	simple libinput gesture daemon
+url	https://git.sr.ht/~mil/lisgd
+license	MIT
+size	9353
+installed-size	18100
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1 so:libinput.so.10 so:libwayland-client.so.0
+origin	lisgd
+repo	community
+file	lisgd-0.4.0-r0.apk
+checksum	Q1NL5NbfaolRNLrj0X7vS3+/qUGkw=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libinput.so.10	libinput-libs
+dep	so:libwayland-client.so.0	wayland-libs-client

@@ -1,0 +1,17 @@
+name	swaybg
+version	1.2.2-r0
+description	Wallpaper daemon for Wayland
+url	https://swaywm.org/
+license	MIT
+size	12008
+installed-size	26140
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk_pixbuf-2.0.so.0 so:libgobject-2.0.so.0 so:libwayland-client.so.0
+origin	swaybg
+repo	community
+file	swaybg-1.2.2-r0.apk
+checksum	Q1l4+mG/6x7L8NxncRkrpQyJbQEd4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libwayland-client.so.0	wayland-libs-client

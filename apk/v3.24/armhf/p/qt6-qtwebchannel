@@ -1,0 +1,16 @@
+name	qt6-qtwebchannel
+version	6.11.1-r0
+description	Provides access to QObject or QML objects from HTML clients
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	104392
+installed-size	236876
+depends	so:libQt6Core.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	qt6-qtwebchannel
+repo	community
+file	qt6-qtwebchannel-6.11.1-r0.apk
+checksum	Q1GYCyzevuFDlSX/P3Scw9JqHvCgE=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

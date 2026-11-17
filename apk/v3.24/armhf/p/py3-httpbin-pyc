@@ -1,0 +1,13 @@
+name	py3-httpbin-pyc
+version	0.10.2-r4
+description	Precompiled Python bytecode for py3-httpbin
+url	https://github.com/psf/httpbin
+license	ISC
+size	32935
+installed-size	77728
+depends	python3~3.14
+origin	py3-httpbin
+repo	community
+file	py3-httpbin-pyc-0.10.2-r4.apk
+checksum	Q1KAeZ3ewcyyl6oCCAFZXhowZaFNw=
+dep	python3~3.14	python3

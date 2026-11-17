@@ -1,0 +1,15 @@
+name	boost1.84-regex
+version	1.84.0-r6
+description	Boost regex shared library
+url	https://www.boost.org/
+license	BSL-1.0
+size	128584
+installed-size	276812
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	boost1.84
+repo	main
+file	boost1.84-regex-1.84.0-r6.apk
+checksum	Q1gHIG+xj4duX7N5fNQ2h8a/G3lHs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

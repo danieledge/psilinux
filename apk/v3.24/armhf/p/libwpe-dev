@@ -1,0 +1,16 @@
+name	libwpe-dev
+version	1.16.3-r0
+description	General-purpose library specifically developed for the WPE-flavored port of WebKit (development files)
+url	https://wpewebkit.org/
+license	BSD-2-Clause
+size	48362
+installed-size	265818
+depends	libwpe=1.16.3-r0 pc:egl pc:xkbcommon pkgconfig
+origin	libwpe
+repo	community
+file	libwpe-dev-1.16.3-r0.apk
+checksum	Q1j/CFMkwz+XlavtlQA80d12MPd6g=
+dep	libwpe=1.16.3-r0	libwpe
+dep	pc:egl	mesa-dev
+dep	pc:xkbcommon	libxkbcommon-dev
+dep	pkgconfig	pkgconf

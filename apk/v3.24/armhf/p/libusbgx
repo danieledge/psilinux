@@ -1,0 +1,14 @@
+name	libusbgx
+version	0.3.0-r1
+description	C library encapsulating the Linux kernel USB gadget configfs userspace API functionality
+url	https://github.com/linux-usb-gadgets/libusbgx
+license	LGPL-2.1-or-later
+size	37702
+installed-size	93000
+depends	so:libc.musl-armhf.so.1 so:libconfig.so.15
+origin	libusbgx
+repo	community
+file	libusbgx-0.3.0-r1.apk
+checksum	Q1/taaucBNzUssasO2EioiGLYBRoE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libconfig.so.15	libconfig

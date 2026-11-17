@@ -1,0 +1,15 @@
+name	bluez-btmgmt
+version	5.86-r2
+description	Bluez tool for the Bluetooth Management API
+url	https://www.bluez.org/
+license	GPL-2.0-or-later AND BSD-2-Clause AND MIT
+size	54523
+installed-size	132388
+depends	dbus so:libc.musl-armhf.so.1 so:libreadline.so.8
+origin	bluez
+repo	main
+file	bluez-btmgmt-5.86-r2.apk
+checksum	Q177GyZMr3aG+uOHBxoEaJYT0/TrY=
+dep	dbus	dbus
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libreadline.so.8	readline

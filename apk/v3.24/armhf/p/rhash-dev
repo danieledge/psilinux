@@ -1,0 +1,13 @@
+name	rhash-dev
+version	1.4.6-r0
+description	Utility for calculation and verification of hash sums and magnet links (development files)
+url	http://rhash.anz.ru
+license	0BSD
+size	7961
+installed-size	25649
+depends	rhash-libs=1.4.6-r0
+origin	rhash
+repo	main
+file	rhash-dev-1.4.6-r0.apk
+checksum	Q1HHkFet0YXkWvYmw40mmm4GD/gEo=
+dep	rhash-libs=1.4.6-r0	rhash-libs

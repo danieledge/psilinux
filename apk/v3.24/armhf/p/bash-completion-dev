@@ -1,0 +1,13 @@
+name	bash-completion-dev
+version	2.17.0-r1
+description	Command-line tab-completion for bash (development files)
+url	https://github.com/scop/bash-completion
+license	GPL-2.0-or-later
+size	2256
+installed-size	979
+depends	pkgconfig
+origin	bash-completion
+repo	main
+file	bash-completion-dev-2.17.0-r1.apk
+checksum	Q1xSFAXVt0Ac5x/XvUtdKVTdPlvps=
+dep	pkgconfig	pkgconf

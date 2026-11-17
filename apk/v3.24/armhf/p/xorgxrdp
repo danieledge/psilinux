@@ -1,0 +1,13 @@
+name	xorgxrdp
+version	0.10.5-r0
+description	Xorg drivers for xrdp
+url	https://github.com/neutrinolabs/xorgxrdp
+license	X11
+size	54455
+installed-size	126308
+depends	so:libc.musl-armhf.so.1
+origin	xorgxrdp
+repo	community
+file	xorgxrdp-0.10.5-r0.apk
+checksum	Q11L47KQBMTaQlNkdiMmpGOhG1I6E=
+dep	so:libc.musl-armhf.so.1	musl

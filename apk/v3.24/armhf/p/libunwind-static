@@ -1,0 +1,13 @@
+name	libunwind-static
+version	1.8.3-r0
+description	Portable and efficient C programming interface (API) to determine the call-chain of a program (static library)
+url	https://www.nongnu.org/libunwind/
+license	MIT
+size	886224
+installed-size	2416702
+depends	libunwind-dev
+origin	libunwind
+repo	main
+file	libunwind-static-1.8.3-r0.apk
+checksum	Q15YIZDeOi5uagFX0PmwWefAcPZG4=
+dep	libunwind-dev	libunwind-dev

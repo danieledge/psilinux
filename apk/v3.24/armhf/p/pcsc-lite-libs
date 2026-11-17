@@ -1,0 +1,13 @@
+name	pcsc-lite-libs
+version	2.4.0-r4
+description	Middleware to access a smart card using SCard API (PC/SC) (libraries)
+url	https://pcsclite.apdu.fr/
+license	BSD-3-Clause AND BSD-2-Clause AND ISC
+size	21994
+installed-size	47492
+depends	so:libc.musl-armhf.so.1
+origin	pcsc-lite
+repo	main
+file	pcsc-lite-libs-2.4.0-r4.apk
+checksum	Q1UYRyg+yHv7DD1oGg1Qy9fYCW0Ww=
+dep	so:libc.musl-armhf.so.1	musl

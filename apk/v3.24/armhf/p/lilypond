@@ -1,0 +1,30 @@
+name	lilypond
+version	2.26.0-r0
+description	Music engraving program
+url	https://lilypond.org
+license	GPL-3.0-or-later
+size	5481368
+installed-size	21976488
+depends	ghostscript guile python3 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgc.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libguile-3.0.so.1 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangoft2-1.0.so.0 so:libpng16.so.16 so:libstdc++.so.6 so:libz.so.1
+origin	lilypond
+repo	community
+file	lilypond-2.26.0-r0.apk
+checksum	Q1VQPhyK8StO/dFNaekdUxqWeVIeM=
+dep	ghostscript	ghostscript
+dep	guile	guile
+dep	python3	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libgc.so.1	gc
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libguile-3.0.so.1	guile-libs
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangoft2-1.0.so.0	pango
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

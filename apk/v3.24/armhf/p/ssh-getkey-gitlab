@@ -1,0 +1,13 @@
+name	ssh-getkey-gitlab
+version	0.2.0-r1
+description	A script to be used as AuthorizedKeysCommand in sshd to look up user's public keys in GitLab or GitHub
+url	https://github.com/jirutka/ssh-getkey-gitlab
+license	MIT
+size	3135
+installed-size	2556
+depends	ssl_client
+origin	ssh-getkey-gitlab
+repo	community
+file	ssh-getkey-gitlab-0.2.0-r1.apk
+checksum	Q1QAxiaizAzQr84tDlHArtOQrV08c=
+dep	ssl_client	ssl_client

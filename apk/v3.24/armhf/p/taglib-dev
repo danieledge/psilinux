@@ -1,0 +1,15 @@
+name	taglib-dev
+version	2.2.1-r0
+description	Library for reading and editing metadata of several popular audio formats (development files)
+url	https://taglib.github.io/
+license	LGPL-2.1-only OR MPL-1.1
+size	137780
+installed-size	814538
+depends	libtag=2.2.1-r0 libtag_c=2.2.1-r0 pkgconfig
+origin	taglib
+repo	community
+file	taglib-dev-2.2.1-r0.apk
+checksum	Q1gQmuUV/3VOlA8lPLZWpms53p1cU=
+dep	libtag=2.2.1-r0	libtag
+dep	libtag_c=2.2.1-r0	libtag_c
+dep	pkgconfig	pkgconf

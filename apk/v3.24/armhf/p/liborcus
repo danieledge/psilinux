@@ -1,0 +1,19 @@
+name	liborcus
+version	0.20.2-r0
+description	Library for processing spreadsheet documents
+url	https://gitlab.com/orcus/orcus
+license	MPL-2.0
+size	1200291
+installed-size	3049716
+depends	so:libboost_iostreams.so.1.84.0 so:libboost_program_options.so.1.84.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libixion-0.20.so.0 so:libstdc++.so.6 so:libz.so.1
+origin	liborcus
+repo	community
+file	liborcus-0.20.2-r0.apk
+checksum	Q1DxbQwYilK6UTR0P3qXV0qHQqZUM=
+dep	so:libboost_iostreams.so.1.84.0	boost1.84-iostreams
+dep	so:libboost_program_options.so.1.84.0	boost1.84-program_options
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libixion-0.20.so.0	libixion
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

@@ -1,0 +1,17 @@
+name	pgpool
+version	4.6.7-r0
+description	A connection pooling/replication server for PostgreSQL
+url	https://www.pgpool.net/
+license	custom
+size	918889
+installed-size	3346280
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libpq.so.5 so:libssl.so.3
+origin	pgpool
+repo	main
+file	pgpool-4.6.7-r0.apk
+checksum	Q1zh0HuDxdjK5wsMZTBIm62/Z10GE=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libpq.so.5	libpq
+dep	so:libssl.so.3	libssl3

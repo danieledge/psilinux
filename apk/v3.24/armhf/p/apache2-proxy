@@ -1,0 +1,14 @@
+name	apache2-proxy
+version	2.4.71-r0
+description	Proxy modules for the Apache HTTP Server
+url	https://httpd.apache.org/
+license	Apache-2.0
+size	177002
+installed-size	457259
+depends	apache2 so:libc.musl-armhf.so.1
+origin	apache2
+repo	main
+file	apache2-proxy-2.4.71-r0.apk
+checksum	Q14ovmhnsQYVO95mcGXiGrZ5ajZRg=
+dep	apache2	apache2
+dep	so:libc.musl-armhf.so.1	musl

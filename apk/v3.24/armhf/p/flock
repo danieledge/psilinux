@@ -1,0 +1,13 @@
+name	flock
+version	2.42.3-r1
+description	File locker from util-linux
+url	https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+license	MIT
+size	9732
+installed-size	17752
+depends	so:libc.musl-armhf.so.1
+origin	util-linux
+repo	main
+file	flock-2.42.3-r1.apk
+checksum	Q18pAZpeKf4N6dZOy4XR/D1tImws8=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,21 @@
+name	networkmanager-tui
+version	1.52.2-r0
+description	Network Management daemon (textbased user interface)
+url	https://networkmanager.dev
+license	GPL-2.0-or-later
+size	202110
+installed-size	577332
+depends	networkmanager=1.52.2-r0 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libnewt.so.0.52 so:libnm.so.0
+origin	networkmanager
+repo	community
+file	networkmanager-tui-1.52.2-r0.apk
+checksum	Q1DTQOf114bt2zrjDJikBg04ytAnU=
+dep	networkmanager=1.52.2-r0	networkmanager
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libnewt.so.0.52	newt
+dep	so:libnm.so.0	libnm

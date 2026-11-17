@@ -1,0 +1,16 @@
+name	net-cpp
+version	3.2.1-r0
+description	A simple yet beautiful networking API for C++11
+url	https://gitlab.com/ubports/core/lib-cpp/net-cpp
+license	LGPL-3.0-only
+size	103760
+installed-size	264312
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	net-cpp
+repo	community
+file	net-cpp-3.2.1-r0.apk
+checksum	Q1Gf+yuD5dXyC8qVu/57agWvc2o7Y=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

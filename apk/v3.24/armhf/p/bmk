@@ -1,0 +1,13 @@
+name	bmk
+version	0.1-r1
+description	Successor to make(1) with support for subdirectories
+url	https://github.com/realchonk/bmk
+license	ISC
+size	24366
+installed-size	50500
+depends	so:libc.musl-armhf.so.1
+origin	bmk
+repo	community
+file	bmk-0.1-r1.apk
+checksum	Q1eyOI5jdC8bWCQ//4eR9Pv0TnHzk=
+dep	so:libc.musl-armhf.so.1	musl

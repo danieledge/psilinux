@@ -1,0 +1,15 @@
+name	c-client
+version	2007f-r16
+description	UW IMAP c-client library
+url	http://www.washington.edu/imap
+license	Apache-2.0
+size	498724
+installed-size	986748
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	imap
+repo	main
+file	c-client-2007f-r16.apk
+checksum	Q1ZmxWXyrQhUCPClie3wdB235dxks=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

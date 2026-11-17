@@ -1,0 +1,13 @@
+name	talloc-static
+version	2.4.4-r1
+description	Memory pool management library (static library)
+url	https://talloc.samba.org
+license	LGPL-3.0-or-later
+size	15954
+installed-size	58138
+depends	talloc-dev
+origin	talloc
+repo	main
+file	talloc-static-2.4.4-r1.apk
+checksum	Q1mQ5QMUFHiD27WNdz6VJNOM1sKz4=
+dep	talloc-dev	talloc-dev

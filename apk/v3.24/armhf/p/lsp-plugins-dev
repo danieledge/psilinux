@@ -1,0 +1,14 @@
+name	lsp-plugins-dev
+version	1.2.29-r0
+description	Collection of free plugins compatible with LADSPA, LV2 and LinuxVST (development files)
+url	https://lsp-plug.in
+license	LGPL-3.0-or-later
+size	3773
+installed-size	6836
+depends	liblsp-r3d-glx-lib=1.2.29-r0 pkgconfig
+origin	lsp-plugins
+repo	community
+file	lsp-plugins-dev-1.2.29-r0.apk
+checksum	Q1YMYOwzbIjFOqLf1mlkfkUi+CnK4=
+dep	liblsp-r3d-glx-lib=1.2.29-r0	liblsp-r3d-glx-lib
+dep	pkgconfig	pkgconf

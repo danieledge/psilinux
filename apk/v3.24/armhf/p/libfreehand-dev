@@ -1,0 +1,19 @@
+name	libfreehand-dev
+version	0.1.2-r12
+description	Import filter and tools for Adobe FreeHand documents (development files)
+url	https://wiki.documentfoundation.org/DLP/Libraries/libfreehand
+license	MPL-2.0
+size	2798
+installed-size	1926
+depends	libxml2-dev lcms2-dev icu-dev libfreehand=0.1.2-r12 pc:librevenge-0.0 pc:zlib pkgconfig
+origin	libfreehand
+repo	community
+file	libfreehand-dev-0.1.2-r12.apk
+checksum	Q1RYYpbl+whfzjylQ6iZSOpVq9igI=
+dep	libxml2-dev	libxml2-dev
+dep	lcms2-dev	lcms2-dev
+dep	icu-dev	icu-dev
+dep	libfreehand=0.1.2-r12	libfreehand
+dep	pc:librevenge-0.0	librevenge-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

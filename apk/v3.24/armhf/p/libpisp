@@ -1,0 +1,15 @@
+name	libpisp
+version	1.5.0-r0
+description	Helper library for the PiSP hardware block
+url	https://github.com/raspberrypi/libpisp
+license	BSD-2-Clause
+size	172474
+installed-size	446303
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libpisp
+repo	community
+file	libpisp-1.5.0-r0.apk
+checksum	Q137NhdM5zGQ9O9liemzJZTL8ZSR4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

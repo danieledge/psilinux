@@ -1,0 +1,27 @@
+name	telepathy-qt-dev
+version	0.9.8-r2
+description	A library for Qt-based Telepathy clients (development files)
+url	https://telepathy.freedesktop.org/wiki/
+license	LGPL-2.1-or-later
+size	450569
+installed-size	3009487
+depends	telepathy-farstream-dev telepathy-glib-dev gstreamer-dev telepathy-qt=0.9.8-r2 pc:Qt5Core<6.0.0 pc:Qt5Core>=5.6.0 pc:Qt5DBus<6.0.0 pc:Qt5DBus>=5.6.0 pc:Qt5Network<6.0.0 pc:Qt5Network>=5.6.0 pc:Qt5Xml<6.0.0 pc:Qt5Xml>=5.6.0 pc:telepathy-farstream>=0.6.0 pc:telepathy-glib>=0.18.0 pkgconfig
+origin	telepathy-qt
+repo	community
+file	telepathy-qt-dev-0.9.8-r2.apk
+checksum	Q1iaIJCldKpHHOlYfuAHQ8Oka09oo=
+dep	telepathy-farstream-dev	telepathy-farstream-dev
+dep	telepathy-glib-dev	telepathy-glib-dev
+dep	gstreamer-dev	gstreamer-dev
+dep	telepathy-qt=0.9.8-r2	telepathy-qt
+dep	pc:Qt5Core<6.0.0	qt5-qtbase-dev
+dep	pc:Qt5Core>=5.6.0	qt5-qtbase-dev
+dep	pc:Qt5DBus<6.0.0	qt5-qtbase-dev
+dep	pc:Qt5DBus>=5.6.0	qt5-qtbase-dev
+dep	pc:Qt5Network<6.0.0	qt5-qtbase-dev
+dep	pc:Qt5Network>=5.6.0	qt5-qtbase-dev
+dep	pc:Qt5Xml<6.0.0	qt5-qtbase-dev
+dep	pc:Qt5Xml>=5.6.0	qt5-qtbase-dev
+dep	pc:telepathy-farstream>=0.6.0	telepathy-farstream-dev
+dep	pc:telepathy-glib>=0.18.0	telepathy-glib-dev
+dep	pkgconfig	pkgconf

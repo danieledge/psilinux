@@ -1,0 +1,20 @@
+name	libinputsynth
+version	0.16.0-r1
+description	Synthesize keyboard and mouse input on X11 and Wayland with various backends
+url	https://gitlab.freedesktop.org/xrdesktop/xrdesktop
+license	MIT
+size	9994
+installed-size	32104
+depends	so:libX11.so.6 so:libXi.so.6 so:libXtst.so.6 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libxdo.so.4
+origin	libinputsynth
+repo	community
+file	libinputsynth-0.16.0-r1.apk
+checksum	Q1n3Wj4yoqj7M5Ye51YPTnTXhQM3c=
+dep	so:libX11.so.6	libx11
+dep	so:libXi.so.6	libxi
+dep	so:libXtst.so.6	libxtst
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libxdo.so.4	xdotool

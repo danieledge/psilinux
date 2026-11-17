@@ -1,0 +1,15 @@
+name	libkexiv2-dev
+version	26.04.2-r0
+description	Library to manipulate picture metadata (development files)
+url	https://www.kde.org/applications/graphics
+license	GPL-2.0-or-later
+size	17832
+installed-size	71461
+depends	exiv2-dev qt6-qtbase-dev libkexiv2=26.04.2-r0
+origin	libkexiv2
+repo	community
+file	libkexiv2-dev-26.04.2-r0.apk
+checksum	Q1EDJngS5Oz7wuj9VxqSgSDsf9r7A=
+dep	exiv2-dev	exiv2-dev
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	libkexiv2=26.04.2-r0	libkexiv2

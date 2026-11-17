@@ -1,0 +1,13 @@
+name	emacs-request
+version	0.3.2_git20250219-r1
+description	Easy HTTP request library
+url	https://github.com/tkf/emacs-request
+license	GPL-3.0-or-later
+size	35113
+installed-size	128600
+depends	cmd:emacs
+origin	emacs-request
+repo	community
+file	emacs-request-0.3.2_git20250219-r1.apk
+checksum	Q1KMLKPHahi+p/K2T/L5A5P9f6MUQ=
+dep	cmd:emacs	emacs-gtk3

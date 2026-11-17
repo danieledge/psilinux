@@ -1,0 +1,13 @@
+name	fakeroot
+version	1.37.2-r0
+description	Gives a fake root environment, useful for building packages as a non-privileged user
+url	https://packages.debian.org/fakeroot
+license	GPL-3.0-or-later
+size	29129
+installed-size	72742
+depends	so:libc.musl-armhf.so.1
+origin	fakeroot
+repo	main
+file	fakeroot-1.37.2-r0.apk
+checksum	Q1RTev+TTyN1x8pIhTmHLKTBion5w=
+dep	so:libc.musl-armhf.so.1	musl

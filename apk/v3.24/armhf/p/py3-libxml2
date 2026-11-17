@@ -1,0 +1,16 @@
+name	py3-libxml2
+version	2.13.9-r2
+description	libxml2 python3 bindings
+url	https://gitlab.gnome.org/GNOME/libxml2
+license	MIT
+size	161968
+installed-size	727482
+depends	python3 python3~3.14 so:libc.musl-armhf.so.1 so:libxml2.so.2
+origin	libxml2
+repo	main
+file	py3-libxml2-2.13.9-r2.apk
+checksum	Q1hv8HkqB5OZ0MRCWkeg4MNuFP30U=
+dep	python3	python3
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxml2.so.2	libxml2

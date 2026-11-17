@@ -1,0 +1,14 @@
+name	gnu-efi-dev
+version	4.0.4-r0
+description	Development Libraries and headers for EFI (development files)
+url	https://github.com/ncroxon/gnu-efi
+license	BSD-2-Clause
+size	297835
+installed-size	953584
+depends	gnu-efi pkgconfig
+origin	gnu-efi
+repo	main
+file	gnu-efi-dev-4.0.4-r0.apk
+checksum	Q1v1eNLIp5LCvt0sgI+t2gZcmGqs0=
+dep	gnu-efi	gnu-efi
+dep	pkgconfig	pkgconf

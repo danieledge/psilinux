@@ -1,0 +1,13 @@
+name	sic
+version	1.3-r0
+description	an extremely simple IRC client
+url	https://tools.suckless.org/sic
+license	MIT
+size	5984
+installed-size	9396
+depends	so:libc.musl-armhf.so.1
+origin	sic
+repo	community
+file	sic-1.3-r0.apk
+checksum	Q1hO1zvr1sV+CgsoWldaypZ2PxFFc=
+dep	so:libc.musl-armhf.so.1	musl

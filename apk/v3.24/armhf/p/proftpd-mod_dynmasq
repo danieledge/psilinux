@@ -1,0 +1,14 @@
+name	proftpd-mod_dynmasq
+version	1.3.9e-r1
+description	ProFTPd module: mod_dynmasq
+url	https://github.com/proftpd/proftpd
+license	GPL-2.0-or-later
+size	5676
+installed-size	9525
+depends	proftpd so:libc.musl-armhf.so.1
+origin	proftpd
+repo	community
+file	proftpd-mod_dynmasq-1.3.9e-r1.apk
+checksum	Q1MlP/i2FZw67qoC1sMkudcrvwQl4=
+dep	proftpd	proftpd
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	fann-fixed
+version	2.2.0-r4
+description	Fast Artificial Neural Network Library (fixed)
+url	https://github.com/libfann/fann/
+license	LGPL-2.0-or-later
+size	21855
+installed-size	46256
+depends	so:libc.musl-armhf.so.1
+origin	fann
+repo	community
+file	fann-fixed-2.2.0-r4.apk
+checksum	Q1ON897CsQWYOykBfXS5L/wMTJcPc=
+dep	so:libc.musl-armhf.so.1	musl

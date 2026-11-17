@@ -1,0 +1,21 @@
+name	subversion-libs
+version	1.14.5-r1
+description	Replacement for CVS, another versioning system (svn) (libraries)
+url	https://subversion.apache.org/
+license	Apache-2.0 AND BSD-2-Clause
+size	1330369
+installed-size	3213592
+depends	so:libapr-1.so.0 so:libaprutil-1.so.0 so:libc.musl-armhf.so.1 so:libexpat.so.1 so:liblz4.so.1 so:libsasl2.so.3 so:libserf-1.so.1 so:libsqlite3.so.0 so:libz.so.1
+origin	subversion
+repo	main
+file	subversion-libs-1.14.5-r1.apk
+checksum	Q1P2Tji7bdYNCWPZJAGfcwsiXGKfA=
+dep	so:libapr-1.so.0	apr
+dep	so:libaprutil-1.so.0	apr-util
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexpat.so.1	libexpat
+dep	so:liblz4.so.1	lz4-libs
+dep	so:libsasl2.so.3	libsasl
+dep	so:libserf-1.so.1	serf
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libz.so.1	zlib

@@ -1,0 +1,17 @@
+name	jupyter-nbformat
+version	5.10.4-r5
+description	Reference implemtnation of the jupyter notebook format
+url	https://github.com/jupyter/nbformat
+license	BSD-3-Clause
+size	54042
+installed-size	286150
+depends	py3-traitlets py3-jsonschema py3-fastjsonschema py3-jupyter_core python3~3.14
+origin	jupyter-nbformat
+repo	community
+file	jupyter-nbformat-5.10.4-r5.apk
+checksum	Q1MMA9xZOSxOLDW/gCqsvsMilFE9M=
+dep	py3-traitlets	py3-traitlets
+dep	py3-jsonschema	py3-jsonschema
+dep	py3-fastjsonschema	py3-fastjsonschema
+dep	py3-jupyter_core	py3-jupyter_core
+dep	python3~3.14	python3

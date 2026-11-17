@@ -1,0 +1,16 @@
+name	physlock-elogind
+version	13_git20200116-r3
+description	Lightweight linux console locking tool (with elogind support)
+url	https://github.com/muennich/physlock
+license	GPL-2.0-or-later
+size	8125
+installed-size	13759
+depends	so:libc.musl-armhf.so.1 so:libelogind.so.0 so:libpam.so.0 so:libpam_misc.so.0
+origin	physlock
+repo	community
+file	physlock-elogind-13_git20200116-r3.apk
+checksum	Q1WqjhifJEQ2bk5QpLxX/LLerYc38=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libelogind.so.0	libelogind
+dep	so:libpam.so.0	linux-pam
+dep	so:libpam_misc.so.0	linux-pam

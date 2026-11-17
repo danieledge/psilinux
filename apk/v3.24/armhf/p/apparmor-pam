@@ -1,0 +1,17 @@
+name	apparmor-pam
+version	4.1.7-r1
+description	AppArmor PAM library
+url	https://gitlab.com/apparmor/apparmor/wikis/home
+license	GPL-2.0-or-later
+size	4888
+installed-size	9456
+depends	libapparmor=4.1.7-r1 linux-pam so:libapparmor.so.1 so:libc.musl-armhf.so.1 so:libpam.so.0
+origin	apparmor
+repo	main
+file	apparmor-pam-4.1.7-r1.apk
+checksum	Q16rFRIpVRutb/+rlO3bm0a63P1YM=
+dep	libapparmor=4.1.7-r1	libapparmor
+dep	linux-pam	linux-pam
+dep	so:libapparmor.so.1	libapparmor
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpam.so.0	linux-pam

@@ -1,0 +1,17 @@
+name	rsyslog-mmkubernetes
+version	8.2608.0-r0
+description	rsyslog  module
+url	https://www.rsyslog.com/
+license	Apache-2.0 AND GPL-3.0-or-later AND LGPL-3.0-or-later
+size	18396
+installed-size	38824
+depends	rsyslog=8.2608.0-r0 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libfastjson.so.4 so:liblognorm.so.5
+origin	rsyslog
+repo	main
+file	rsyslog-mmkubernetes-8.2608.0-r0.apk
+checksum	Q1/01xeiJ35HVcN/yfUrfArAlN+f8=
+dep	rsyslog=8.2608.0-r0	rsyslog
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libfastjson.so.4	libfastjson
+dep	so:liblognorm.so.5	liblognorm

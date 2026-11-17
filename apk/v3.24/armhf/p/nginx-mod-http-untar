@@ -1,0 +1,14 @@
+name	nginx-mod-http-untar
+version	1.30.6-r0
+description	Nginx third-party module http-untar (version v1.1)
+url	https://github.com/ajax16384/ngx_http_untar_module
+license	BSD-2-Clause
+size	6403
+installed-size	9644
+depends	nginx=1.30.6-r0 so:libc.musl-armhf.so.1
+origin	nginx
+repo	main
+file	nginx-mod-http-untar-1.30.6-r0.apk
+checksum	Q1wDaL7FjjMtcXAIl74U6TxwbJGqo=
+dep	nginx=1.30.6-r0	nginx
+dep	so:libc.musl-armhf.so.1	musl

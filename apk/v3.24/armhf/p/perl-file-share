@@ -1,0 +1,15 @@
+name	perl-file-share
+version	0.27-r1
+description	Extend File::ShareDir to Local Libraries
+url	https://metacpan.org/release/File-Share/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	3647
+installed-size	3431
+depends	perl perl-file-sharedir perl-readonly
+origin	perl-file-share
+repo	community
+file	perl-file-share-0.27-r1.apk
+checksum	Q1gtGXN8BKK+E6U+8t1wB/fmn8jDs=
+dep	perl	perl
+dep	perl-file-sharedir	perl-file-sharedir
+dep	perl-readonly	perl-readonly

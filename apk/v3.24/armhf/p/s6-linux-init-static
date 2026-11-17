@@ -1,0 +1,13 @@
+name	s6-linux-init-static
+version	1.2.0.1-r0
+description	Set of tools to create and run an s6-based init system (static library)
+url	https://skarnet.org/software/s6-linux-init/
+license	ISC
+size	2216
+installed-size	1612
+depends	s6-linux-init-dev
+origin	s6-linux-init
+repo	main
+file	s6-linux-init-static-1.2.0.1-r0.apk
+checksum	Q1N3UKG4Y5MB7/izqYA6OG3DMFJOk=
+dep	s6-linux-init-dev	s6-linux-init-dev

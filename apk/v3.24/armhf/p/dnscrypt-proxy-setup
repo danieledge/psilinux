@@ -1,0 +1,15 @@
+name	dnscrypt-proxy-setup
+version	2.1.18-r2
+description	Script for setting up dnscrypt proxy
+url	https://dnscrypt.info
+license	ISC
+size	4914
+installed-size	11351
+depends	sed wget dnscrypt-proxy=2.1.18-r2
+origin	dnscrypt-proxy
+repo	community
+file	dnscrypt-proxy-setup-2.1.18-r2.apk
+checksum	Q1FS0ASzZWUin9ApdMlxWTJJYMfX4=
+dep	sed	sed
+dep	wget	wget
+dep	dnscrypt-proxy=2.1.18-r2	dnscrypt-proxy

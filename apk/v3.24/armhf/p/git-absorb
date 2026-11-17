@@ -1,0 +1,15 @@
+name	git-absorb
+version	0.9.0-r0
+description	Automatically write fixup! commits, similar to hg absort
+url	https://github.com/tummychow/git-absorb
+license	BSD-3-Clause
+size	452404
+installed-size	884776
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgit2.so.1.9
+origin	git-absorb
+repo	community
+file	git-absorb-0.9.0-r0.apk
+checksum	Q14Jc/suqYOdCYRQS5IoE7dkCgB04=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgit2.so.1.9	libgit2

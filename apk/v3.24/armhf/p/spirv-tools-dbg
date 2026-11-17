@@ -1,0 +1,12 @@
+name	spirv-tools-dbg
+version	1.4.341.0-r0
+description	API and commands for processing SPIR-V modules (debug symbols)
+url	https://github.com/KhronosGroup/SPIRV-Tools
+license	Apache-2.0
+size	6895320
+installed-size	29955856
+depends	!spirv-tools<1.4.341.0-r0 !spirv-tools>1.4.341.0-r0
+origin	spirv-tools
+repo	main
+file	spirv-tools-dbg-1.4.341.0-r0.apk
+checksum	Q1L9/I8Aw9ULtysa51MDuGUrvVTjs=

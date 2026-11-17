@@ -1,0 +1,16 @@
+name	hypermail
+version	2.4.0-r4
+description	Mail Archiver
+url	http://www.hypermail-project.org
+license	GPL-2.0-or-later
+size	159960
+installed-size	386951
+depends	lua so:libc.musl-armhf.so.1 so:libgdbm.so.6 so:libpcre.so.1
+origin	hypermail
+repo	main
+file	hypermail-2.4.0-r4.apk
+checksum	Q1DQ6omoP8IR+mQ2pDHBy01DyTkic=
+dep	lua	lua5.5
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdbm.so.6	gdbm
+dep	so:libpcre.so.1	pcre

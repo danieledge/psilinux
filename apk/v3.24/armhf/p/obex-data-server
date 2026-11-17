@@ -1,0 +1,21 @@
+name	obex-data-server
+version	0.4.6-r6
+description	D-Bus service for Obex access
+url	http://wiki.muiline.com/obex-data-server
+license	GPL-2.0-or-later
+size	61214
+installed-size	141221
+depends	so:libbluetooth.so.3 so:libc.musl-armhf.so.1 so:libdbus-glib-1.so.2 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgthread-2.0.so.0 so:libopenobex.so.2 so:libusb-0.1.so.4
+origin	obex-data-server
+repo	community
+file	obex-data-server-0.4.6-r6.apk
+checksum	Q1Hw1Ms4/oBktg5tnc730NKWWiMMo=
+dep	so:libbluetooth.so.3	bluez-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-glib-1.so.2	dbus-glib
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgthread-2.0.so.0	glib
+dep	so:libopenobex.so.2	openobex
+dep	so:libusb-0.1.so.4	libusb-compat

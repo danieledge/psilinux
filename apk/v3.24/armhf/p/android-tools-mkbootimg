@@ -1,0 +1,13 @@
+name	android-tools-mkbootimg
+version	35.0.2-r21
+description	Android platform tools (mkbootimg)
+url	https://sites.google.com/a/android.com/tools/
+license	Apache-2.0 MIT
+size	8823
+installed-size	29888
+depends	python3
+origin	android-tools
+repo	community
+file	android-tools-mkbootimg-35.0.2-r21.apk
+checksum	Q1X4+O8rTgSeulqf4r5OQwY4kE84c=
+dep	python3	python3

@@ -1,0 +1,31 @@
+name	yelp
+version	49.1-r0
+description	Help browser for GNOME desktop
+url	https://apps.gnome.org/Yelp
+license	GPL-2.0-or-later
+size	684217
+installed-size	1410674
+depends	dconf desktop-file-utils hicolor-icon-theme yelp-xsl so:libadwaita-1.so.0 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libexslt.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libjavascriptcoregtk-6.0.so.1 so:liblzma.so.5 so:libsqlite3.so.0 so:libwebkitgtk-6.0.so.4 so:libxml2.so.2 so:libxslt.so.1
+origin	yelp
+repo	community
+file	yelp-49.1-r0.apk
+checksum	Q1tn6aW3MMPWuuOm0jLfsV12mW1XY=
+dep	dconf	dconf
+dep	desktop-file-utils	desktop-file-utils
+dep	hicolor-icon-theme	hicolor-icon-theme
+dep	yelp-xsl	yelp-xsl
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexslt.so.0	libxslt
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libjavascriptcoregtk-6.0.so.1	webkit2gtk-6.0
+dep	so:liblzma.so.5	xz-libs
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libwebkitgtk-6.0.so.4	webkit2gtk-6.0
+dep	so:libxml2.so.2	libxml2
+dep	so:libxslt.so.1	libxslt

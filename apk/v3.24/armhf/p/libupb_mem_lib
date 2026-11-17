@@ -1,0 +1,14 @@
+name	libupb_mem_lib
+version	1.78.1-r2
+description	The C based gRPC (libupb_mem_lib library)
+url	https://grpc.io/
+license	Apache-2.0 AND BSD-3-Clause AND MIT
+size	5209
+installed-size	9344
+depends	grpc=1.78.1-r2 so:libc.musl-armhf.so.1
+origin	grpc
+repo	community
+file	libupb_mem_lib-1.78.1-r2.apk
+checksum	Q1SIZno5O/O2vhCM9n9o5HIe2lm1Y=
+dep	grpc=1.78.1-r2	grpc
+dep	so:libc.musl-armhf.so.1	musl

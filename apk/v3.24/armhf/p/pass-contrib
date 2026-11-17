@@ -1,0 +1,15 @@
+name	pass-contrib
+version	1.7.4-r3
+description	contrib files for pass
+url	https://www.passwordstore.org
+license	GPL-2.0-or-later
+size	26485
+installed-size	71824
+depends	bash tree cmd:gpg2
+origin	pass
+repo	community
+file	pass-contrib-1.7.4-r3.apk
+checksum	Q12/fS5//ln99kWuUMMBdsujhCGQU=
+dep	bash	bash
+dep	tree	tree
+dep	cmd:gpg2	gpg

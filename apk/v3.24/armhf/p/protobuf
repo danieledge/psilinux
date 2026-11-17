@@ -1,0 +1,17 @@
+name	protobuf
+version	31.1-r1
+description	Library for extensible, efficient structure packing
+url	https://github.com/protocolbuffers/protobuf
+license	BSD-3-Clause
+size	4080
+installed-size	10480
+depends	protoc=31.1-r1 libprotoc=31.1-r1 libprotobuf=31.1-r1 libprotobuf-lite=31.1-r1 so:libc.musl-armhf.so.1
+origin	protobuf
+repo	main
+file	protobuf-31.1-r1.apk
+checksum	Q12R1uvYGaYki7dHY93h7hIJ7DaRQ=
+dep	protoc=31.1-r1	protoc
+dep	libprotoc=31.1-r1	libprotoc
+dep	libprotobuf=31.1-r1	libprotobuf
+dep	libprotobuf-lite=31.1-r1	libprotobuf-lite
+dep	so:libc.musl-armhf.so.1	musl

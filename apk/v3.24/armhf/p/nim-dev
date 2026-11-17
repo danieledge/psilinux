@@ -1,0 +1,14 @@
+name	nim-dev
+version	2.2.0-r0
+description	A systems and applications programming language (development files)
+url	https://nim-lang.org/
+license	MIT
+size	448973
+installed-size	1096108
+depends	libucontext-dev so:libc.musl-armhf.so.1
+origin	nim
+repo	community
+file	nim-dev-2.2.0-r0.apk
+checksum	Q1U3qeOKO015t0iLSfews0xaf/Q0A=
+dep	libucontext-dev	libucontext-dev
+dep	so:libc.musl-armhf.so.1	musl

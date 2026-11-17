@@ -1,0 +1,16 @@
+name	py3-simpful
+version	2.12.0-r2
+description	A friendly python library for fuzzy logic reasoning
+url	https://github.com/aresio/simpful
+license	AFL-3.0
+size	24739
+installed-size	94056
+depends	python3 py3-numpy py3-scipy python3~3.14
+origin	py3-simpful
+repo	community
+file	py3-simpful-2.12.0-r2.apk
+checksum	Q12YOkZj5cJSaS5Hb4RGdrTtnY8Dg=
+dep	python3	python3
+dep	py3-numpy	py3-numpy
+dep	py3-scipy	py3-scipy
+dep	python3~3.14	python3

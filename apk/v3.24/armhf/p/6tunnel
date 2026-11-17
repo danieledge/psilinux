@@ -1,0 +1,13 @@
+name	6tunnel
+version	0.14-r0
+description	TCP proxy for non-IPv6 applications
+url	http://toxygen.net/6tunnel
+license	GPL-2.0-only
+size	10377
+installed-size	18710
+depends	so:libc.musl-armhf.so.1
+origin	6tunnel
+repo	community
+file	6tunnel-0.14-r0.apk
+checksum	Q1dnWCrFotrmJClaA6mJBayqOrsp8=
+dep	so:libc.musl-armhf.so.1	musl

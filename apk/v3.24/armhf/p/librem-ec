@@ -1,0 +1,13 @@
+name	librem-ec
+version	0.9.2-r2
+description	Librem laptop EC kernel module, with AKMS
+url	https://source.puri.sm/nicole.faerber/librem-ec-acpi-dkms
+license	GPL-2.0-only
+size	13215
+installed-size	38453
+depends	akms
+origin	librem-ec
+repo	community
+file	librem-ec-0.9.2-r2.apk
+checksum	Q1rb9uKe+RPp3zjUvacjXEZF+YB/g=
+dep	akms	akms

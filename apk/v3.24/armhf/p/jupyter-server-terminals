@@ -1,0 +1,14 @@
+name	jupyter-server-terminals
+version	0.5.4-r1
+description	Jupyter server extension for terminals
+url	https://github.com/jupyter-server/jupyter_server_terminals
+license	BSD-3-Clause
+size	12210
+installed-size	31201
+depends	py3-terminado python3~3.14
+origin	jupyter-server-terminals
+repo	community
+file	jupyter-server-terminals-0.5.4-r1.apk
+checksum	Q1FUiB1PDPXLMgICW5uVuQq4US0MM=
+dep	py3-terminado	py3-terminado
+dep	python3~3.14	python3

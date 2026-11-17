@@ -1,0 +1,14 @@
+name	rhash
+version	1.4.6-r0
+description	Utility for calculation and verification of hash sums and magnet links
+url	http://rhash.anz.ru
+license	0BSD
+size	48001
+installed-size	85703
+depends	so:libc.musl-armhf.so.1 so:librhash.so.1
+origin	rhash
+repo	main
+file	rhash-1.4.6-r0.apk
+checksum	Q1rDJ9WW06I4lXCuEDPrSkdWc242o=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:librhash.so.1	rhash-libs

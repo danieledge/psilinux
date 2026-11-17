@@ -1,0 +1,13 @@
+name	apk-exporter-pyc
+version	0.2.0-r2
+description	Precompiled Python bytecode for apk-exporter
+url	https://codeberg.org/achill/apk-exporter
+license	Unlicense
+size	4466
+installed-size	5711
+depends	python3~3.14
+origin	apk-exporter
+repo	community
+file	apk-exporter-pyc-0.2.0-r2.apk
+checksum	Q1a4NnPsTrGs2j15eRjJ1QgSna8KA=
+dep	python3~3.14	python3

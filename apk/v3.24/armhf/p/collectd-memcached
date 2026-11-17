@@ -1,0 +1,14 @@
+name	collectd-memcached
+version	5.12.0-r25
+description	memcached pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	8891
+installed-size	17528
+depends	collectd so:libc.musl-armhf.so.1
+origin	collectd
+repo	community
+file	collectd-memcached-5.12.0-r25.apk
+checksum	Q1S3jIylvUwbvA4QefQAw4Sfo3Vvs=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl

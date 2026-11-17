@@ -1,0 +1,17 @@
+name	openssh
+version	10.3_p1-r2
+description	Port of OpenBSD's free SSH release
+url	https://www.openssh.com/portable.html
+license	SSH-OpenSSH
+size	101305
+installed-size	214456
+depends	openssh-client openssh-sftp-server openssh-server so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	openssh
+repo	main
+file	openssh-10.3_p1-r2.apk
+checksum	Q1NppONWfO0+wsCSPQbkzl1cteD6c=
+dep	openssh-client	openssh-client-default
+dep	openssh-sftp-server	openssh-sftp-server
+dep	openssh-server	openssh-server
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

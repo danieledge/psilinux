@@ -1,0 +1,34 @@
+name	vte3
+version	0.84.0-r2
+description	Virtual Terminal Emulator library
+url	https://gitlab.gnome.org/GNOME/vte
+license	LGPL-2.0-or-later
+size	320544
+installed-size	713681
+depends	adwaita-fonts vte3-profile so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo-gobject.so.2 so:libcairo.so.2 so:libfribidi.so.0 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgnutls.so.30 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libicuuc.so.78 so:libintl.so.8 so:liblz4.so.1 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpcre2-8.so.0 so:libsimdutf.so.34 so:libstdc++.so.6
+origin	vte3
+repo	community
+file	vte3-0.84.0-r2.apk
+checksum	Q1Lmyh/lgQPFszYtWi2JP7AlLv6us=
+dep	adwaita-fonts	adwaita-fonts
+dep	vte3-profile	vte3-profile
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo-gobject.so.2	cairo-gobject
+dep	so:libcairo.so.2	cairo
+dep	so:libfribidi.so.0	fribidi
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgnutls.so.30	gnutls
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libintl.so.8	libintl
+dep	so:liblz4.so.1	lz4-libs
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libsimdutf.so.34	simdutf
+dep	so:libstdc++.so.6	libstdc++

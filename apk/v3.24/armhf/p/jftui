@@ -1,0 +1,16 @@
+name	jftui
+version	0.7.4-r1
+description	Jellyfin terminal user interface
+url	https://github.com/Aanok/jftui
+license	Unlicense
+size	61894
+installed-size	132924
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libmpv.so.2 so:libyajl.so.2
+origin	jftui
+repo	community
+file	jftui-0.7.4-r1.apk
+checksum	Q1jvrOY7s9gHmza/qp3SFrXeH8DwU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libmpv.so.2	mpv-libs
+dep	so:libyajl.so.2	yajl

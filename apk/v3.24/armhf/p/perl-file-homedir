@@ -1,0 +1,14 @@
+name	perl-file-homedir
+version	1.006-r2
+description	Find your home and other directories on any platform
+url	https://metacpan.org/release/File-HomeDir/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	15772
+installed-size	56495
+depends	perl perl-file-which
+origin	perl-file-homedir
+repo	community
+file	perl-file-homedir-1.006-r2.apk
+checksum	Q1W2VsQWOxkWaYzgbvUkx+e93IkVo=
+dep	perl	perl
+dep	perl-file-which	perl-file-which

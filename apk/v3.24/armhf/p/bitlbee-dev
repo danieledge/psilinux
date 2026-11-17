@@ -1,0 +1,14 @@
+name	bitlbee-dev
+version	3.6-r4
+description	An IRC to other chat networks gateway (development files)
+url	https://www.bitlbee.org/
+license	GPL-2.0-or-later
+size	36562
+installed-size	131255
+depends	pc:glib-2.0 pkgconfig
+origin	bitlbee
+repo	community
+file	bitlbee-dev-3.6-r4.apk
+checksum	Q10QcsTrsxQTiE0nsq8Jr9OQBC0QQ=
+dep	pc:glib-2.0	glib-dev
+dep	pkgconfig	pkgconf

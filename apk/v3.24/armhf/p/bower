@@ -1,0 +1,20 @@
+name	bower
+version	1.1.1-r1
+description	curses frontend for the Notmuch email system
+url	https://github.com/wangp/bower
+license	GPL-3.0-or-later
+size	273069
+installed-size	693616
+depends	notmuch so:libc.musl-armhf.so.1 so:libgc.so so:libgpgme.so.45 so:libmer_rt.so so:libmer_std.so so:libncursesw.so.6 so:libpanelw.so.6
+origin	bower
+repo	community
+file	bower-1.1.1-r1.apk
+checksum	Q1cq1mcstH7kwFy1521O/DVjG1lPo=
+dep	notmuch	notmuch
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgc.so	mercury-libs
+dep	so:libgpgme.so.45	gpgme
+dep	so:libmer_rt.so	mercury-libs
+dep	so:libmer_std.so	mercury-libs
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpanelw.so.6	libpanelw

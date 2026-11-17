@@ -1,0 +1,23 @@
+name	sxmo-surf
+version	2.0.3-r3
+description	Surf fork for Sxmo UI; supports externalpipe, keyword searching, non-JS by default
+url	https://git.sr.ht/~mil/sxmo-surf
+license	MIT
+size	17000
+installed-size	39472
+depends	xprop libxml2-utils sxmo-dmenu so:libX11.so.6 so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libjavascriptcoregtk-4.1.so.0 so:libwebkit2gtk-4.1.so.0
+origin	sxmo-surf
+repo	community
+file	sxmo-surf-2.0.3-r3.apk
+checksum	Q1np+r6FIb4gJiD+tezRs/OnoOhbg=
+dep	xprop	xprop
+dep	libxml2-utils	libxml2-utils
+dep	sxmo-dmenu	sxmo-dmenu
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libjavascriptcoregtk-4.1.so.0	webkit2gtk-4.1
+dep	so:libwebkit2gtk-4.1.so.0	webkit2gtk-4.1

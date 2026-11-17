@@ -1,0 +1,16 @@
+name	apptainer
+version	1.5.1-r2
+description	Application containers for Linux
+url	https://apptainer.org/
+license	BSD-3-Clause AND BSD-3-Clause-LBNL
+size	25362954
+installed-size	66291013
+depends	fakeroot squashfs-tools so:libc.musl-armhf.so.1 so:libseccomp.so.2
+origin	apptainer
+repo	community
+file	apptainer-1.5.1-r2.apk
+checksum	Q1AHcDiEFBGzcYy1oQaxG2q/C+RqI=
+dep	fakeroot	fakeroot
+dep	squashfs-tools	squashfs-tools
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libseccomp.so.2	libseccomp

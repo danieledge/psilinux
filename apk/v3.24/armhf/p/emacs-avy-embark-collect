@@ -1,0 +1,14 @@
+name	emacs-avy-embark-collect
+version	1.1-r1
+description	Use Avy to jump to Embark Collect entries
+url	https://github.com/oantolin/embark
+license	GPL-3.0-or-later
+size	3867
+installed-size	5849
+depends	emacs-embark=1.1-r1 emacs-avy
+origin	emacs-embark
+repo	community
+file	emacs-avy-embark-collect-1.1-r1.apk
+checksum	Q1XS1C51VnOLQf7z+HnCv4WtHBR+I=
+dep	emacs-embark=1.1-r1	emacs-embark
+dep	emacs-avy	emacs-avy

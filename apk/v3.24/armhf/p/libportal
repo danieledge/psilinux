@@ -1,0 +1,16 @@
+name	libportal
+version	0.9.1-r10
+description	GIO-style async APIs for most Flatpak portals
+url	https://github.com/flatpak/libportal
+license	LGPL-3.0-or-later
+size	63909
+installed-size	171072
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	libportal
+repo	community
+file	libportal-0.9.1-r10.apk
+checksum	Q1TCJp6LO0SNbBz7bYorJLyaIaxOA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

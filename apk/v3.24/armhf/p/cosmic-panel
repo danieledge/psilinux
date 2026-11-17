@@ -1,0 +1,15 @@
+name	cosmic-panel
+version	1.0.15-r0
+description	Panel component for the COSMIC Desktop Environment
+url	https://github.com/pop-os/cosmic-panel
+license	GPL-3.0-or-later
+size	4242003
+installed-size	9036825
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libxkbcommon.so.0
+origin	cosmic-panel
+repo	community
+file	cosmic-panel-1.0.15-r0.apk
+checksum	Q1RfTLBcrvwOiuUsvk+wPGQDoBFRk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libxkbcommon.so.0	libxkbcommon

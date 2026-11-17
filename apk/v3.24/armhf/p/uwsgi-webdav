@@ -1,0 +1,15 @@
+name	uwsgi-webdav
+version	2.0.31-r2
+description	uWSGI plugin webdav
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	13909
+installed-size	30868
+depends	uwsgi so:libc.musl-armhf.so.1 so:libxml2.so.2
+origin	uwsgi
+repo	main
+file	uwsgi-webdav-2.0.31-r2.apk
+checksum	Q1HYb6PITfXs4SlvEjgRt6NoOuSBE=
+dep	uwsgi	uwsgi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxml2.so.2	libxml2

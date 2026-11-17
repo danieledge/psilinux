@@ -1,0 +1,17 @@
+name	perl-xml-dom
+version	1.46-r2
+description	Perl module for XML-DOM
+url	https://metacpan.org/release/XML-DOM/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	50510
+installed-size	182352
+depends	perl perl-xml-regexp perl-xml-parser perl-libwww perl-libxml-perl
+origin	perl-xml-dom
+repo	community
+file	perl-xml-dom-1.46-r2.apk
+checksum	Q1FJwTSknSM3YTgFjUmmxE4pnHKng=
+dep	perl	perl
+dep	perl-xml-regexp	perl-xml-regexp
+dep	perl-xml-parser	perl-xml-parser
+dep	perl-libwww	perl-libwww
+dep	perl-libxml-perl	perl-libxml-perl

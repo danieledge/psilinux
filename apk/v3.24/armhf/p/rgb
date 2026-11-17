@@ -1,0 +1,13 @@
+name	rgb
+version	1.1.1-r0
+description	X.org utility to display an RGB color-name database
+url	https://xorg.freedesktop.org/
+license	MIT
+size	9515
+installed-size	23072
+depends	so:libc.musl-armhf.so.1
+origin	rgb
+repo	main
+file	rgb-1.1.1-r0.apk
+checksum	Q1JgAskKo6FZh268DtuLV5oODt/Gw=
+dep	so:libc.musl-armhf.so.1	musl

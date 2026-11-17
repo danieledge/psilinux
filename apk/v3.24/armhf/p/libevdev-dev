@@ -1,0 +1,15 @@
+name	libevdev-dev
+version	1.13.6-r0
+description	Kernel Evdev Device Wrapper Library (development files)
+url	https://www.freedesktop.org/wiki/Software/libevdev
+license	MIT
+size	23214
+installed-size	97596
+depends	linux-headers libevdev=1.13.6-r0 pkgconfig
+origin	libevdev
+repo	community
+file	libevdev-dev-1.13.6-r0.apk
+checksum	Q1olFY9PdfuJAAIPrUyVbVUIz+Fj8=
+dep	linux-headers	linux-headers
+dep	libevdev=1.13.6-r0	libevdev
+dep	pkgconfig	pkgconf

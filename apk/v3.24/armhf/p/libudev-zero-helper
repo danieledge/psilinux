@@ -1,0 +1,13 @@
+name	libudev-zero-helper
+version	1.0.4-r0
+description	libudev-zero hotplugging helper
+url	https://github.com/illiliti/libudev-zero/
+license	ISC
+size	3794
+installed-size	5292
+depends	so:libc.musl-armhf.so.1
+origin	libudev-zero
+repo	community
+file	libudev-zero-helper-1.0.4-r0.apk
+checksum	Q1po4ySOzsSTPtdCvdQIjQyV4vlJ8=
+dep	so:libc.musl-armhf.so.1	musl

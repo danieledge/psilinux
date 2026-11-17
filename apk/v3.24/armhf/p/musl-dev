@@ -1,0 +1,13 @@
+name	musl-dev
+version	1.2.6-r3
+description	the musl c library (libc) implementation (development files)
+url	https://musl.libc.org/
+license	MIT
+size	2335682
+installed-size	8580874
+depends	musl=1.2.6-r3
+origin	musl
+repo	main
+file	musl-dev-1.2.6-r3.apk
+checksum	Q1cqHq0WKcZPoTXaRzPuYclyN+7V8=
+dep	musl=1.2.6-r3	musl

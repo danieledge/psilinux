@@ -1,0 +1,14 @@
+name	faac-dev
+version	1.31.1-r0
+description	FAAC is an AAC audio encoder. (development files)
+url	https://faac.sourceforge.net/
+license	GPL-3.0-or-later
+size	4182
+installed-size	5990
+depends	faac=1.31.1-r0 pkgconfig
+origin	faac
+repo	community
+file	faac-dev-1.31.1-r0.apk
+checksum	Q1cdhV7rmYkNtYDEGFUnJO0NtHEFE=
+dep	faac=1.31.1-r0	faac
+dep	pkgconfig	pkgconf

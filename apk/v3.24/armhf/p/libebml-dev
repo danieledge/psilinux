@@ -1,0 +1,14 @@
+name	libebml-dev
+version	1.4.5-r0
+description	C++ library to parse Extensible Binary Meta-Language files (development files)
+url	https://www.matroska.org
+license	LGPL-2.1-or-later
+size	24812
+installed-size	120467
+depends	libebml=1.4.5-r0 pkgconfig
+origin	libebml
+repo	community
+file	libebml-dev-1.4.5-r0.apk
+checksum	Q1/emItWsfFNxEj9YMh8I+lTK6ADI=
+dep	libebml=1.4.5-r0	libebml
+dep	pkgconfig	pkgconf

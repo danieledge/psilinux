@@ -1,0 +1,14 @@
+name	libmd-dev
+version	1.2.0-r0
+description	Message Digest functions from BSD systems (development files)
+url	https://www.hadrons.org/software/libmd/
+license	BSD-3-Clause AND BSD-2-Clause AND ISC AND Beerware AND Public Domain
+size	32628
+installed-size	101328
+depends	libmd=1.2.0-r0 pkgconfig
+origin	libmd
+repo	main
+file	libmd-dev-1.2.0-r0.apk
+checksum	Q1OIUrcQDO/YAnoskyYNF5kH6g/JU=
+dep	libmd=1.2.0-r0	libmd
+dep	pkgconfig	pkgconf

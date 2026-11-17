@@ -1,0 +1,15 @@
+name	atf
+version	0.23-r0
+description	libraries to write tests in C, C++ and shell
+url	https://github.com/freebsd/atf
+license	BSD-2-Clause AND BSD-3-Clause
+size	451374
+installed-size	1320723
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	atf
+repo	main
+file	atf-0.23-r0.apk
+checksum	Q1eKpth08za65gK5qwffoQ+Zk1s/o=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

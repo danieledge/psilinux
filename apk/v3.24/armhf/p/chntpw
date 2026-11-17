@@ -1,0 +1,13 @@
+name	chntpw
+version	140201-r6
+description	Change passwords in Windows SAM files
+url	https://pogostick.net/~pnh/ntpasswd/
+license	GPL-2.0-only AND LGPL-2.1-only
+size	72925
+installed-size	152076
+depends	so:libc.musl-armhf.so.1
+origin	chntpw
+repo	community
+file	chntpw-140201-r6.apk
+checksum	Q1Ow7knCy9W2oCCBVwaSmyuXjybWo=
+dep	so:libc.musl-armhf.so.1	musl

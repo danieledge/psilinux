@@ -1,0 +1,13 @@
+name	avahi-static
+version	0.9_rc4-r0
+description	multicast/unicast DNS-SD framework (static library)
+url	https://www.avahi.org/
+license	LGPL-2.1-or-later
+size	215929
+installed-size	666086
+depends	avahi-dev
+origin	avahi
+repo	main
+file	avahi-static-0.9_rc4-r0.apk
+checksum	Q11s5sftFbT0ggiFuCbbTwxAHTOXg=
+dep	avahi-dev	avahi-dev

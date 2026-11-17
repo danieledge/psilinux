@@ -1,0 +1,13 @@
+name	json-c
+version	0.18-r1
+description	A JSON implementation in C
+url	https://github.com/json-c/json-c/wiki
+license	MIT
+size	26428
+installed-size	54748
+depends	so:libc.musl-armhf.so.1
+origin	json-c
+repo	main
+file	json-c-0.18-r1.apk
+checksum	Q1XSTefFjAWruTkRuNTw4sqfOQSuY=
+dep	so:libc.musl-armhf.so.1	musl

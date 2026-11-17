@@ -1,0 +1,14 @@
+name	exfatprogs
+version	1.4.1-r0
+description	exfat filesystem userspace tools, mkfs and fsck
+url	https://github.com/exfatprogs/exfatprogs
+license	GPL-2.0-or-later
+size	176652
+installed-size	345397
+depends	so:libblkid.so.1 so:libc.musl-armhf.so.1
+origin	exfatprogs
+repo	community
+file	exfatprogs-1.4.1-r0.apk
+checksum	Q1KXRyy5uMkvUFPh17+e8FXENKEKY=
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl

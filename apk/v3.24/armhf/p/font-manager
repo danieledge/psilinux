@@ -1,0 +1,25 @@
+name	font-manager
+version	0.9.4-r1
+description	Simple font management application for GTK Desktop Environments
+url	https://fontmanager.github.io/
+license	GPL-3.0-or-later
+size	338091
+installed-size	875167
+depends	so:libarchive.so.13 so:libc.musl-armhf.so.1 so:libfontmanager.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libpango-1.0.so.0 so:libsoup-3.0.so.0 so:libsqlite3.so.0 so:libwebkitgtk-6.0.so.4
+origin	font-manager
+repo	community
+file	font-manager-0.9.4-r1.apk
+checksum	Q1vSUC3s5sR5UIp8BNZZF3PqT0Ysk=
+dep	so:libarchive.so.13	libarchive
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontmanager.so.0	font-manager-common
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libwebkitgtk-6.0.so.4	webkit2gtk-6.0

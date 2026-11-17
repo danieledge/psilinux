@@ -1,0 +1,16 @@
+name	csync2
+version	2.0-r6
+description	Cluster synchronization tool
+url	https://github.com/LINBIT/csync2
+license	GPL-2.0-or-later
+size	55847
+installed-size	112029
+depends	bash so:libc.musl-armhf.so.1 so:libgnutls.so.30 so:librsync.so.2
+origin	csync2
+repo	community
+file	csync2-2.0-r6.apk
+checksum	Q1cjUokwL/CUqVIGjKWpZCzlaqiTQ=
+dep	bash	bash
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgnutls.so.30	gnutls
+dep	so:librsync.so.2	librsync

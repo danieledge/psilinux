@@ -1,0 +1,15 @@
+name	cargo-sort
+version	2.1.4-r0
+description	Check if tables and items in a .toml file are lexically sorted
+url	https://github.com/DevinR528/cargo-sort
+license	MIT OR Apache-2.0
+size	428251
+installed-size	794268
+depends	cargo so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	cargo-sort
+repo	community
+file	cargo-sort-2.1.4-r0.apk
+checksum	Q1mwvMKZpAgJgb+99m5ofUzVSkSPU=
+dep	cargo	cargo
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

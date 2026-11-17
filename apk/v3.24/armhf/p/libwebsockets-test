@@ -1,0 +1,16 @@
+name	libwebsockets-test
+version	4.3.5-r2
+description	C library for lightweight websocket clients and servers (test server)
+url	https://libwebsockets.org/
+license	MIT
+size	2966171
+installed-size	3235927
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3 so:libwebsockets.so.19
+origin	libwebsockets
+repo	main
+file	libwebsockets-test-4.3.5-r2.apk
+checksum	Q1K2wQbeT423ElnQXvl7NWkOsLGvU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3
+dep	so:libwebsockets.so.19	libwebsockets

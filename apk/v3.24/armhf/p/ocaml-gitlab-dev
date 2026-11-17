@@ -1,0 +1,22 @@
+name	ocaml-gitlab-dev
+version	0.1.8-r2
+description	GitLab APIv4 OCaml library (development files)
+url	https://github.com/tmcgilchrist/ocaml-gitlab
+license	BSD-3-Clause
+size	12132660
+installed-size	38473840
+depends	ocaml-gitlab=0.1.8-r2 ocaml-atd-dev ocaml-cmdliner-dev ocaml-cohttp-dev ocaml-fmt-dev ocaml-iso8601-dev ocaml-otoml-dev ocaml-stringext-dev ocaml-uri-dev ocaml-yojson-dev
+origin	ocaml-gitlab
+repo	community
+file	ocaml-gitlab-dev-0.1.8-r2.apk
+checksum	Q1cZC7OqWqps09fS9M2dxnW+q1CZY=
+dep	ocaml-gitlab=0.1.8-r2	ocaml-gitlab
+dep	ocaml-atd-dev	ocaml-atd-dev
+dep	ocaml-cmdliner-dev	ocaml-cmdliner-dev
+dep	ocaml-cohttp-dev	ocaml-cohttp-dev
+dep	ocaml-fmt-dev	ocaml-fmt-dev
+dep	ocaml-iso8601-dev	ocaml-iso8601-dev
+dep	ocaml-otoml-dev	ocaml-otoml-dev
+dep	ocaml-stringext-dev	ocaml-stringext-dev
+dep	ocaml-uri-dev	ocaml-uri-dev
+dep	ocaml-yojson-dev	ocaml-yojson-dev

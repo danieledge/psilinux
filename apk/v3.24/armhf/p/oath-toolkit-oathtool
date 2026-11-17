@@ -1,0 +1,14 @@
+name	oath-toolkit-oathtool
+version	2.6.14-r1
+description	A command line tool for generating and validating OTPs.
+url	https://nongnu.org/oath-toolkit/
+license	GPL-3.0-or-later
+size	23662
+installed-size	46740
+depends	so:libc.musl-armhf.so.1 so:liboath.so.0
+origin	oath-toolkit
+repo	community
+file	oath-toolkit-oathtool-2.6.14-r1.apk
+checksum	Q1ZGxnQDU7TiFzuQK5+qIDDRKsfTA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liboath.so.0	oath-toolkit-liboath

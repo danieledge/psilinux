@@ -1,0 +1,15 @@
+name	libyang-dev
+version	3.13.6-r1
+description	YANG data modelling language parser and toolkit (development files)
+url	https://github.com/CESNET/libyang
+license	BSD-3-Clause-Clear
+size	115139
+installed-size	583655
+depends	libyang=3.13.6-r1 pc:libpcre2-8 pkgconfig
+origin	libyang
+repo	community
+file	libyang-dev-3.13.6-r1.apk
+checksum	Q1v9q1BCfAPb92ovc+kSMwVJD9nZM=
+dep	libyang=3.13.6-r1	libyang
+dep	pc:libpcre2-8	pcre2-dev
+dep	pkgconfig	pkgconf

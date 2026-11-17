@@ -1,0 +1,16 @@
+name	dnstap-ldns
+version	0.2.1-r0
+description	Reference dnstap decoding utility
+url	https://github.com/dnstap/dnstap-ldns
+license	Apache-2.0
+size	11028
+installed-size	25932
+depends	so:libc.musl-armhf.so.1 so:libfstrm.so.0 so:libldns.so.3 so:libprotobuf-c.so.1
+origin	dnstap-ldns
+repo	community
+file	dnstap-ldns-0.2.1-r0.apk
+checksum	Q1kp4fNkvCm5lBTJKkEaHaqvdm1GM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfstrm.so.0	fstrm
+dep	so:libldns.so.3	ldns
+dep	so:libprotobuf-c.so.1	protobuf-c

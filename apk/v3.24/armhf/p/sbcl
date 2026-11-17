@@ -1,0 +1,13 @@
+name	sbcl
+version	2.6.5-r0
+description	Steel Bank Common Lisp
+url	https://www.sbcl.org/
+license	custom
+size	10828298
+installed-size	35107761
+depends	so:libc.musl-armhf.so.1
+origin	sbcl
+repo	community
+file	sbcl-2.6.5-r0.apk
+checksum	Q1uec81RYEuXqabpxy+08EYGL1aTM=
+dep	so:libc.musl-armhf.so.1	musl

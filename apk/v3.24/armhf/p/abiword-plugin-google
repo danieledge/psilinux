@@ -1,0 +1,17 @@
+name	abiword-plugin-google
+version	3.0.8-r0
+description	Abiword google plugin
+url	https://gitlab.gnome.org/World/AbiWord
+license	GPL-2.0-or-later
+size	5229
+installed-size	9548
+depends	so:libabiword-3.0.so so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libstdc++.so.6
+origin	abiword
+repo	community
+file	abiword-plugin-google-3.0.8-r0.apk
+checksum	Q1C1g1nVWETxH2u3kHwgnSzcDSnWE=
+dep	so:libabiword-3.0.so	abiword
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libstdc++.so.6	libstdc++

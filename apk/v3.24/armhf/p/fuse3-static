@@ -1,0 +1,13 @@
+name	fuse3-static
+version	3.18.3-r0
+description	Reference implementation of the Linux FUSE (Filesystem in Userspace) interface (static library)
+url	https://github.com/libfuse/libfuse
+license	GPL-2.0-only AND LGPL-2.1-only
+size	92613
+installed-size	305584
+depends	fuse3-dev
+origin	fuse3
+repo	main
+file	fuse3-static-3.18.3-r0.apk
+checksum	Q1Z7IoFYPw25qlfdaU+lj9s36LQYI=
+dep	fuse3-dev	fuse3-dev

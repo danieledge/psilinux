@@ -1,0 +1,20 @@
+name	zbar-dev
+version	0.23.93-r2
+description	Port of ZBAR BAR CODE READER (development files)
+url	https://zbar.sourceforge.net/
+license	LGPL-2.0-or-later
+size	31997
+installed-size	145354
+depends	libzbar=0.23.93-r2 libzbargtk=0.23.93-r2 libzbarqt=0.23.93-r2 pc:Qt5Core>=5 pc:Qt5Gui>=5 pc:gthread-2.0 pc:gtk+-3.0 pkgconfig
+origin	zbar
+repo	community
+file	zbar-dev-0.23.93-r2.apk
+checksum	Q1I5zTMlvs8M3IqUv9fM28H8pRU0o=
+dep	libzbar=0.23.93-r2	libzbar
+dep	libzbargtk=0.23.93-r2	libzbargtk
+dep	libzbarqt=0.23.93-r2	libzbarqt
+dep	pc:Qt5Core>=5	qt5-qtbase-dev
+dep	pc:Qt5Gui>=5	qt5-qtbase-dev
+dep	pc:gthread-2.0	glib-dev
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,16 @@
+name	yubico-piv-tool
+version	2.7.3-r0
+description	PIV Tools for yubikey
+url	https://developers.yubico.com/yubico-piv-tool
+license	BSD-2-Clause
+size	40052
+installed-size	92704
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libykpiv.so.2 so:libz.so.1
+origin	yubico-piv-tool
+repo	community
+file	yubico-piv-tool-2.7.3-r0.apk
+checksum	Q1mSsnLdYdjES8IoD+dDrvkbY/TUE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libykpiv.so.2	yubico-piv-tool-libs
+dep	so:libz.so.1	zlib

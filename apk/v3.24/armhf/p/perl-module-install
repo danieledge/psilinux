@@ -1,0 +1,17 @@
+name	perl-module-install
+version	1.21-r1
+description	Standalone, extensible Perl module installer
+url	https://metacpan.org/release/Module-Install/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	78182
+installed-size	229633
+depends	perl perl-yaml-tiny perl-module-build perl-module-scandeps perl-file-remove
+origin	perl-module-install
+repo	main
+file	perl-module-install-1.21-r1.apk
+checksum	Q1VsG5fNp/qjiWBIdPKm1XCW4Ln4Y=
+dep	perl	perl
+dep	perl-yaml-tiny	perl-yaml-tiny
+dep	perl-module-build	perl-module-build
+dep	perl-module-scandeps	perl-module-scandeps
+dep	perl-file-remove	perl-file-remove

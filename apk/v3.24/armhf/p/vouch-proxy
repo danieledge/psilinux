@@ -1,0 +1,14 @@
+name	vouch-proxy
+version	0.40.0-r21
+description	An SSO solution for Nginx using the auth_request module
+url	https://github.com/vouch/vouch-proxy
+license	MIT
+size	4817529
+installed-size	12342148
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	vouch-proxy
+repo	community
+file	vouch-proxy-0.40.0-r21.apk
+checksum	Q1TVYnOGdj7LcnEm4HDDUF13EwmJc=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

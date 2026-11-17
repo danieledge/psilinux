@@ -1,0 +1,13 @@
+name	ocaml-ppx_derivers-dev
+version	1.2.1-r5
+description	Shared [@@deriving] plugins registry (development files)
+url	https://github.com/ocaml-ppx/ppx_derivers
+license	BSD-3-Clause
+size	11289
+installed-size	22665
+depends	ocaml-ppx_derivers=1.2.1-r5
+origin	ocaml-ppx_derivers
+repo	community
+file	ocaml-ppx_derivers-dev-1.2.1-r5.apk
+checksum	Q1jrlLX3wvWdi+FxGI6TWIBRKTP2g=
+dep	ocaml-ppx_derivers=1.2.1-r5	ocaml-ppx_derivers

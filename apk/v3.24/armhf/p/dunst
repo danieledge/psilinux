@@ -1,0 +1,28 @@
+name	dunst
+version	1.13.0-r0
+description	Customizable and lightweight notification-daemon
+url	https://dunst-project.org/
+license	BSD-3-Clause
+size	88634
+installed-size	207235
+depends	dunstify so:libX11.so.6 so:libXext.so.6 so:libXinerama.so.1 so:libXrandr.so.2 so:libXss.so.1 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libwayland-client.so.0 so:libwayland-cursor.so.0
+origin	dunst
+repo	community
+file	dunst-1.13.0-r0.apk
+checksum	Q1wSGSTi3Q+M4LDq22CdWf5wuTukk=
+dep	dunstify	dunstify
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libXss.so.1	libxscrnsaver
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor

@@ -1,0 +1,21 @@
+name	xfce-polkit
+version	0.3-r2
+description	A simple PolicyKit authentication agent for XFCE
+url	https://github.com/ncopa/xfce-polkit
+license	GPL-2.0-only
+size	7110
+installed-size	13657
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libpolkit-agent-1.so.0 so:libpolkit-gobject-1.so.0 so:libxfce4ui-2.so.0
+origin	xfce-polkit
+repo	community
+file	xfce-polkit-0.3-r2.apk
+checksum	Q1Wvj901T3qtNbCqtRvvPcyK65f5Y=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libpolkit-agent-1.so.0	polkit-noelogind-libs
+dep	so:libpolkit-gobject-1.so.0	polkit-noelogind-libs
+dep	so:libxfce4ui-2.so.0	libxfce4ui

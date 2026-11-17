@@ -1,0 +1,14 @@
+name	yj
+version	1.2.4-r0
+description	Command line tool that converts YAML to JSON
+url	https://github.com/bruceadams/yj
+license	Apache-2.0
+size	502551
+installed-size	933764
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	yj
+repo	community
+file	yj-1.2.4-r0.apk
+checksum	Q1EGiOLijgpIv/9KsPddpt3X0M7mU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

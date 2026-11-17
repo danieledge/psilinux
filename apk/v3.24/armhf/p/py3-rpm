@@ -1,0 +1,19 @@
+name	py3-rpm
+version	4.19.1.1-r5
+description	Python3 bindings for RPM
+url	https://rpm.org/
+license	GPL-2.0-or-later
+size	43521
+installed-size	117991
+depends	rpm-scripts python3~3.14 so:libc.musl-armhf.so.1 so:librpm.so.10 so:librpmbuild.so.10 so:librpmio.so.10 so:librpmsign.so.10
+origin	rpm
+repo	community
+file	py3-rpm-4.19.1.1-r5.apk
+checksum	Q1ZyEM1UmXJx1LXzVNADmtoUPi94I=
+dep	rpm-scripts	rpm-scripts
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:librpm.so.10	rpm
+dep	so:librpmbuild.so.10	rpm
+dep	so:librpmio.so.10	rpm
+dep	so:librpmsign.so.10	rpm

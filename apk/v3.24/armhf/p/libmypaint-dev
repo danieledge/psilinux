@@ -1,0 +1,16 @@
+name	libmypaint-dev
+version	1.6.1-r0
+description	library for making brushstrokes (development files)
+url	http://mypaint.org/
+license	ISC
+size	26928
+installed-size	189429
+depends	libmypaint=1.6.1-r0 pc:gobject-2.0 pc:json-c pkgconfig
+origin	libmypaint
+repo	community
+file	libmypaint-dev-1.6.1-r0.apk
+checksum	Q1sb8zEb4oeCBXvFL5LrX2J9ptYa8=
+dep	libmypaint=1.6.1-r0	libmypaint
+dep	pc:gobject-2.0	glib-dev
+dep	pc:json-c	json-c-dev
+dep	pkgconfig	pkgconf

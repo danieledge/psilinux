@@ -1,0 +1,14 @@
+name	traefik
+version	3.7.1-r2
+description	The Cloud Native Edge Router
+url	https://traefik.io/
+license	MIT
+size	48636887
+installed-size	177847468
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	traefik
+repo	community
+file	traefik-3.7.1-r2.apk
+checksum	Q12HQqc/3i1YF60wIWhy1luLGDRqU=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

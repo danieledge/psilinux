@@ -1,0 +1,14 @@
+name	perl-class-methodmaker
+version	2.25-r1
+description	A module for creating generic methods
+url	https://metacpan.org/release/Class-MethodMaker/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	461478
+installed-size	21347846
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-class-methodmaker
+repo	community
+file	perl-class-methodmaker-2.25-r1.apk
+checksum	Q18d0Xg2R7ft4Zspm4BHA+g1HCnOw=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	docker-rootless-extras-openrc
+version	29.9.3-r1
+description	OpenRC scripts for running docker in rootless mode
+url	https://www.docker.io/
+license	Apache-2.0
+size	1735
+installed-size	186
+depends	docker-rootless-extras
+origin	docker
+repo	community
+file	docker-rootless-extras-openrc-29.9.3-r1.apk
+checksum	Q1V/HycU3LzMUe6/mSlJh76WvApqw=
+dep	docker-rootless-extras	docker-rootless-extras

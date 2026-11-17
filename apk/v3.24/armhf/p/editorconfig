@@ -1,0 +1,14 @@
+name	editorconfig
+version	0.12.11-r0
+description	core library written in C for use by plugins supporting EditorConfig parsing
+url	https://github.com/editorconfig/editorconfig-core-c
+license	BSD-2-Clause
+size	5170
+installed-size	9388
+depends	so:libc.musl-armhf.so.1 so:libeditorconfig.so.0
+origin	editorconfig
+repo	community
+file	editorconfig-0.12.11-r0.apk
+checksum	Q1uR9fkI53WXW+xyQ1sCNvC+SLcKk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libeditorconfig.so.0	libeditorconfig

@@ -1,0 +1,13 @@
+name	ait
+version	1.16-r0
+description	Small yet mighty GNU Emacs style editor
+url	https://www.netbsd.org/~ktnb/ait.html
+license	BSD-3-Clause
+size	6254
+installed-size	9388
+depends	so:libc.musl-armhf.so.1
+origin	ait
+repo	community
+file	ait-1.16-r0.apk
+checksum	Q1TrH58nvs5dAbeROw335c1U/oiMQ=
+dep	so:libc.musl-armhf.so.1	musl

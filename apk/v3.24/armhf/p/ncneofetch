@@ -1,0 +1,16 @@
+name	ncneofetch
+version	3.0.17-r0
+description	blingful character graphics and TUI library
+url	https://nick-black.com/dankwiki/index.php/Notcurses
+license	Apache-2.0
+size	50021
+installed-size	153040
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libnotcurses-core.so.3 so:libnotcurses.so.3
+origin	notcurses
+repo	community
+file	ncneofetch-3.0.17-r0.apk
+checksum	Q1KhVdKkLN1xN/P6Y5Nki6YMi8m+Y=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libnotcurses-core.so.3	notcurses-libs
+dep	so:libnotcurses.so.3	notcurses-libs

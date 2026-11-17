@@ -1,0 +1,33 @@
+name	gnome-session
+version	48.0-r3
+description	GNOME session manager
+url	https://gitlab.gnome.org/GNOME/gnome-session
+license	GPL-2.0-or-later
+size	106332
+installed-size	288088
+depends	alsa-plugins-pulse bash dconf so:libEGL.so.1 so:libGL.so.1 so:libGLESv2.so.2 so:libICE.so.6 so:libSM.so.6 so:libX11.so.6 so:libXcomposite.so.1 so:libc.musl-armhf.so.1 so:libelogind.so.0 so:libepoxy.so.0 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgnome-desktop-3.so.20 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libjson-glib-1.0.so.0
+origin	gnome-session
+repo	community
+file	gnome-session-48.0-r3.apk
+checksum	Q1Qs5WfAbrui9xtVNdCpkLb0f/y4Y=
+dep	alsa-plugins-pulse	alsa-plugins-pulse
+dep	bash	bash
+dep	dconf	dconf
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libGL.so.1	mesa-gl
+dep	so:libGLESv2.so.2	mesa-gles
+dep	so:libICE.so.6	libice
+dep	so:libSM.so.6	libsm
+dep	so:libX11.so.6	libx11
+dep	so:libXcomposite.so.1	libxcomposite
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libelogind.so.0	libelogind
+dep	so:libepoxy.so.0	libepoxy
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgnome-desktop-3.so.20	libgnome-desktop-3
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib

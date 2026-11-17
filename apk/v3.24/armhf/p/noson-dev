@@ -1,0 +1,14 @@
+name	noson-dev
+version	2.12.8-r0
+description	An easy client interface to drive SONOS player (development files)
+url	https://github.com/janbar/noson
+license	GPL-3.0-only
+size	33784
+installed-size	151261
+depends	noson=2.12.8-r0 pkgconfig
+origin	noson
+repo	community
+file	noson-dev-2.12.8-r0.apk
+checksum	Q1+XMjtmz9NnjmAYqEhKBGA6cTqO4=
+dep	noson=2.12.8-r0	noson
+dep	pkgconfig	pkgconf

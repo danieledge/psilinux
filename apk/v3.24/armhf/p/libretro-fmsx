@@ -1,0 +1,13 @@
+name	libretro-fmsx
+version	0_git20241021-r0
+description	port of fMSX to the libretro API
+url	https://github.com/libretro/fmsx-libretro
+license	custom
+size	134804
+installed-size	315172
+depends	so:libc.musl-armhf.so.1
+origin	libretro-fmsx
+repo	community
+file	libretro-fmsx-0_git20241021-r0.apk
+checksum	Q1Op4VzAUDWWnFQV4cdXwAGDO6ujo=
+dep	so:libc.musl-armhf.so.1	musl

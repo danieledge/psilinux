@@ -1,0 +1,14 @@
+name	libxwiimote
+version	2_git20131227-r2
+description	Open-source Nintendo Wii Remote Linux Device Driver (libraries)
+url	https://github.com/dvdhrm/xwiimote
+license	MIT
+size	11982
+installed-size	154132
+depends	so:libc.musl-armhf.so.1 so:libudev.so.1
+origin	xwiimote
+repo	community
+file	libxwiimote-2_git20131227-r2.apk
+checksum	Q1CxwK7VXy2ZoJtwsrW8vKil98+mw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libudev.so.1	eudev-libs

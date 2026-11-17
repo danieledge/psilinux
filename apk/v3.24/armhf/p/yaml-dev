@@ -1,0 +1,14 @@
+name	yaml-dev
+version	0.2.5-r2
+description	YAML 1.1 parser and emitter written in C (development files)
+url	https://pyyaml.org/wiki/LibYAML
+license	MIT
+size	11030
+installed-size	54651
+depends	yaml=0.2.5-r2 pkgconfig
+origin	yaml
+repo	main
+file	yaml-dev-0.2.5-r2.apk
+checksum	Q1IjEEyBHXp2BvJRvRKABV/cOXhJ0=
+dep	yaml=0.2.5-r2	yaml
+dep	pkgconfig	pkgconf

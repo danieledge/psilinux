@@ -1,0 +1,15 @@
+name	perl-anyevent-future
+version	0.05-r1
+description	Use Future with AnyEvent
+url	https://metacpan.org/release/AnyEvent-Future/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	4994
+installed-size	8870
+depends	perl perl-anyevent perl-future
+origin	perl-anyevent-future
+repo	community
+file	perl-anyevent-future-0.05-r1.apk
+checksum	Q1ZMa1MXukac+5DWQES+jjlyDQ5uE=
+dep	perl	perl
+dep	perl-anyevent	perl-anyevent
+dep	perl-future	perl-future

@@ -1,0 +1,19 @@
+name	libxmu-dev
+version	1.3.1-r0
+description	X11 miscellaneous micro-utility library (development files)
+url	https://xorg.freedesktop.org/
+license	MIT
+size	70334
+installed-size	226498
+depends	util-linux-dev libxmu=1.3.1-r0 pc:x11 pc:xext pc:xproto pc:xt pkgconfig
+origin	libxmu
+repo	main
+file	libxmu-dev-1.3.1-r0.apk
+checksum	Q1PRRQr81yYOxpfsusGy15OeVFRjs=
+dep	util-linux-dev	util-linux-dev
+dep	libxmu=1.3.1-r0	libxmu
+dep	pc:x11	libx11-dev
+dep	pc:xext	libxext-dev
+dep	pc:xproto	xorgproto
+dep	pc:xt	libxt-dev
+dep	pkgconfig	pkgconf

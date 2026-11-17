@@ -1,0 +1,15 @@
+name	archivemount
+version	0.9.1-r4
+description	FUSE based filesystem for mounting compressed archives
+url	https://github.com/bramp/archivemount
+license	LGPL-2.0-or-later
+size	17983
+installed-size	38472
+depends	so:libarchive.so.13 so:libc.musl-armhf.so.1 so:libfuse3.so.4
+origin	archivemount
+repo	community
+file	archivemount-0.9.1-r4.apk
+checksum	Q1J1bBgWG2hQCKJojh2VFbGhiyHCE=
+dep	so:libarchive.so.13	libarchive
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfuse3.so.4	fuse3-libs

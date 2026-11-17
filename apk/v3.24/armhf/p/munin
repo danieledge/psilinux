@@ -1,0 +1,17 @@
+name	munin
+version	2.0.78-r0
+description	A distributed monitoring/graphing tool
+url	https://munin-monitoring.org/
+license	GPL-2.0-only
+size	650325
+installed-size	1388250
+depends	rrdtool perl-rrd perl-html-template perl-io-socket-inet6 perl-uri
+origin	munin
+repo	community
+file	munin-2.0.78-r0.apk
+checksum	Q11RoKl7Qw9PRJn7xhCZ6dX9Qd8Eo=
+dep	rrdtool	rrdtool
+dep	perl-rrd	perl-rrd
+dep	perl-html-template	perl-html-template
+dep	perl-io-socket-inet6	perl-io-socket-inet6
+dep	perl-uri	perl-uri

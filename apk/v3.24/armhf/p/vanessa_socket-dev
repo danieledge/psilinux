@@ -1,0 +1,16 @@
+name	vanessa_socket-dev
+version	0.0.13-r3
+description	User space TCP/IP pipe (development files)
+url	https://projects.horms.net/projects/vanessa/
+license	LGPL-2.0-or-later
+size	18833
+installed-size	66552
+depends	popt-dev vanessa_logger-dev vanessa_socket=0.0.13-r3 pkgconfig
+origin	vanessa_socket
+repo	main
+file	vanessa_socket-dev-0.0.13-r3.apk
+checksum	Q1vYcrP4mKv/65LQOqJ38CZ/vWano=
+dep	popt-dev	popt-dev
+dep	vanessa_logger-dev	vanessa_logger-dev
+dep	vanessa_socket=0.0.13-r3	vanessa_socket
+dep	pkgconfig	pkgconf

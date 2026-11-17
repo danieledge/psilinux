@@ -1,0 +1,24 @@
+name	gcolor3
+version	2.4.0-r2
+description	gtk3 color picker
+url	https://gitlab.gnome.org/World/gcolor3
+license	GPL-2.0-or-later
+size	46099
+installed-size	115906
+depends	so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libportal-gtk3.so.1 so:libportal.so.1
+origin	gcolor3
+repo	community
+file	gcolor3-2.4.0-r2.apk
+checksum	Q1CFVF6UpmJ8gXr1qXIwnLmgk5mDc=
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libportal-gtk3.so.1	libportal-gtk3
+dep	so:libportal.so.1	libportal

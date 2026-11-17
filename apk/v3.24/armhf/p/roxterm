@@ -1,0 +1,24 @@
+name	roxterm
+version	3.18.2-r0
+description	Highly configurable terminal emulator
+url	https://github.com/realh/roxterm
+license	GPL-2.0-or-later
+size	170371
+installed-size	1088709
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdbus-1.so.3 so:libdbus-glib-1.so.2 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libvte-2.91.so.0
+origin	roxterm
+repo	community
+file	roxterm-3.18.2-r0.apk
+checksum	Q18FL2uToxQJ0sui0eugsEzN9DPOo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libdbus-glib-1.so.2	dbus-glib
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libvte-2.91.so.0	vte3

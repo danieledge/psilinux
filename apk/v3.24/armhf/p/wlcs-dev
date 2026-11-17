@@ -1,0 +1,14 @@
+name	wlcs-dev
+version	1.8.1-r0
+description	Wayland Conformance Test Suite (development files)
+url	https://github.com/MirServer/wlcs
+license	GPL-3.0-only
+size	4749
+installed-size	10296
+depends	pc:wayland-client pkgconfig
+origin	wlcs
+repo	community
+file	wlcs-dev-1.8.1-r0.apk
+checksum	Q1BGedZVs6NjJAyoXGndoeyY4Grhg=
+dep	pc:wayland-client	wayland-dev
+dep	pkgconfig	pkgconf

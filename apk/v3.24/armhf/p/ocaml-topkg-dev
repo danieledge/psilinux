@@ -1,0 +1,13 @@
+name	ocaml-topkg-dev
+version	1.0.5-r5
+description	Transitory OCaml software packager (development files)
+url	https://erratique.ch/software/topkg
+license	ISC
+size	416382
+installed-size	1152935
+depends	ocaml-topkg=1.0.5-r5
+origin	ocaml-topkg
+repo	community
+file	ocaml-topkg-dev-1.0.5-r5.apk
+checksum	Q1Pr9E9MvC22hhCNywo8hIkqSyl4s=
+dep	ocaml-topkg=1.0.5-r5	ocaml-topkg

@@ -1,0 +1,15 @@
+name	openresty-mod-http-redis2
+version	1.31.1.1-r0
+description	Scalable Web Platform by Extending NGINX with Lua (module ngx_http_redis2_module.so)
+url	https://openresty.org/
+license	BSD-2-Clause
+size	9943
+installed-size	18133
+depends	cmd:nginx openresty so:libc.musl-armhf.so.1
+origin	openresty
+repo	community
+file	openresty-mod-http-redis2-1.31.1.1-r0.apk
+checksum	Q1bXcrZDouPPEn+tva/QfF/nUJYPg=
+dep	cmd:nginx	nginx
+dep	openresty	openresty
+dep	so:libc.musl-armhf.so.1	musl

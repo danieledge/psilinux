@@ -1,0 +1,16 @@
+name	tuned-ppd
+version	2.27.0-r1
+description	PPD compatibility daemon
+url	https://github.com/redhat-performance/tuned
+license	GPL-2.0-only
+size	3750
+installed-size	4501
+depends	!power-profiles-daemon tuned dbus polkit py3-inotify
+origin	tuned
+repo	community
+file	tuned-ppd-2.27.0-r1.apk
+checksum	Q1hpVLjLEt61sXEeKnjH/EqssE/eY=
+dep	tuned	tuned
+dep	dbus	dbus
+dep	polkit	polkit
+dep	py3-inotify	py3-inotify

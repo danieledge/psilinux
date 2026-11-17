@@ -1,0 +1,17 @@
+name	perl-xml-parser
+version	2.59-r0
+description	A perl module for parsing XML documents
+url	https://metacpan.org/release/XML-Parser/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	195778
+installed-size	423185
+depends	perl perl-file-sharedir perl-libwww so:libc.musl-armhf.so.1 so:libexpat.so.1
+origin	perl-xml-parser
+repo	main
+file	perl-xml-parser-2.59-r0.apk
+checksum	Q1OATP1fhTmhj9JmLz6944pmINldg=
+dep	perl	perl
+dep	perl-file-sharedir	perl-file-sharedir
+dep	perl-libwww	perl-libwww
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexpat.so.1	libexpat

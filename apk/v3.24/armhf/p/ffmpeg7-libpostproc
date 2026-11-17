@@ -1,0 +1,14 @@
+name	ffmpeg7-libpostproc
+version	7.1.5-r0
+description	Complete and free Internet live audio and video broadcasting solution for Linux/Unix (libpostproc library)
+url	https://ffmpeg.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	22867
+installed-size	42340
+depends	so:libavutil.so.59 so:libc.musl-armhf.so.1
+origin	ffmpeg7
+repo	community
+file	ffmpeg7-libpostproc-7.1.5-r0.apk
+checksum	Q1S9OyolnqfDU1NLVZ0xhbq4F9OCE=
+dep	so:libavutil.so.59	ffmpeg7-libavutil
+dep	so:libc.musl-armhf.so.1	musl

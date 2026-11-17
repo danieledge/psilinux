@@ -1,0 +1,15 @@
+name	perl-bytes-random-secure
+version	0.29-r1
+description	Perl extension to generate cryptographically-secure random bytes
+url	https://metacpan.org/release/Bytes-Random-Secure/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	14597
+installed-size	35969
+depends	perl perl-crypt-random-seed perl-math-random-isaac
+origin	perl-bytes-random-secure
+repo	community
+file	perl-bytes-random-secure-0.29-r1.apk
+checksum	Q1SJBp3saapkF3UaSEVhg85ToAQvo=
+dep	perl	perl
+dep	perl-crypt-random-seed	perl-crypt-random-seed
+dep	perl-math-random-isaac	perl-math-random-isaac

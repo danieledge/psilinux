@@ -1,0 +1,14 @@
+name	libspatialindex-dev
+version	2.1.0-r2
+description	Extensible framework for robust spatial indexing methods (development files)
+url	https://libspatialindex.org/
+license	MIT
+size	21877
+installed-size	133030
+depends	libspatialindex=2.1.0-r2 pkgconfig
+origin	libspatialindex
+repo	community
+file	libspatialindex-dev-2.1.0-r2.apk
+checksum	Q19zb1vZueVMRJL8oyCcA6tNnNOyM=
+dep	libspatialindex=2.1.0-r2	libspatialindex
+dep	pkgconfig	pkgconf

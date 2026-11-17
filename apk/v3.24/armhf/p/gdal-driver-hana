@@ -1,0 +1,17 @@
+name	gdal-driver-hana
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (SAP HANA driver)
+url	https://gdal.org/
+license	MIT
+size	75566
+installed-size	173440
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libodbccpp.so.1.6 so:libstdc++.so.6
+origin	gdal
+repo	community
+file	gdal-driver-hana-3.13.3-r0.apk
+checksum	Q1zjndCgD0KTiEZtSBoO1rWEXKmxo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libodbccpp.so.1.6	odbc-cpp-wrapper
+dep	so:libstdc++.so.6	libstdc++

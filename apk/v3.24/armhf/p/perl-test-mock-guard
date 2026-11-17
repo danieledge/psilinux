@@ -1,0 +1,14 @@
+name	perl-test-mock-guard
+version	0.10-r6
+description	Simple mock test library using RAII
+url	https://github.com/zigorou/p5-test-mock-guard
+license	PerlArtistic
+size	4631
+installed-size	9662
+depends	perl perl-class-load
+origin	perl-test-mock-guard
+repo	community
+file	perl-test-mock-guard-0.10-r6.apk
+checksum	Q1gvKHgvvZqtObhP+00zDO+sWLS6o=
+dep	perl	perl
+dep	perl-class-load	perl-class-load

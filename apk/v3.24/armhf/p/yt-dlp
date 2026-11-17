@@ -1,0 +1,22 @@
+name	yt-dlp
+version	2026.10.21-r0
+description	Command-line program to download videos from YouTube
+url	https://github.com/yt-dlp/yt-dlp
+license	Unlicense
+size	1354
+installed-size	0
+depends	attr ca-certificates ffmpeg py3-brotli py3-mutagen py3-pycryptodomex py3-secretstorage py3-websockets yt-dlp-ejs yt-dlp-core=2026.10.21-r0
+origin	yt-dlp
+repo	community
+file	yt-dlp-2026.10.21-r0.apk
+checksum	Q1Dr+v5J4taaTubHXo+/Aw4dz8Bfg=
+dep	attr	attr
+dep	ca-certificates	ca-certificates
+dep	ffmpeg	ffmpeg
+dep	py3-brotli	py3-brotli
+dep	py3-mutagen	py3-mutagen
+dep	py3-pycryptodomex	py3-pycryptodomex
+dep	py3-secretstorage	py3-secretstorage
+dep	py3-websockets	py3-websockets
+dep	yt-dlp-ejs	yt-dlp-ejs
+dep	yt-dlp-core=2026.10.21-r0	yt-dlp-core

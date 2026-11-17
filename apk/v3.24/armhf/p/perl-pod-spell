@@ -1,0 +1,16 @@
+name	perl-pod-spell
+version	1.27-r0
+description	a formatter for spellchecking Pod
+url	https://metacpan.org/release/Pod-Spell/
+license	Artistic-2.0
+size	14853
+installed-size	31892
+depends	perl perl-class-tiny perl-file-sharedir perl-lingua-en-inflect
+origin	perl-pod-spell
+repo	community
+file	perl-pod-spell-1.27-r0.apk
+checksum	Q1slaPYYgl0ZfEB+3MySkAzPV2WxE=
+dep	perl	perl
+dep	perl-class-tiny	perl-class-tiny
+dep	perl-file-sharedir	perl-file-sharedir
+dep	perl-lingua-en-inflect	perl-lingua-en-inflect

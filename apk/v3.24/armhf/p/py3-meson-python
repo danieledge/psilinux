@@ -1,0 +1,16 @@
+name	py3-meson-python
+version	0.19.0-r0
+description	Meson PEP 517 Python build backend
+url	https://github.com/mesonbuild/meson-python
+license	MIT
+size	25580
+installed-size	85787
+depends	meson py3-pyproject-metadata python3 python3~3.14
+origin	py3-meson-python
+repo	community
+file	py3-meson-python-0.19.0-r0.apk
+checksum	Q1KTksCoiREQJ2p6KCL2i7tUpFGlU=
+dep	meson	meson
+dep	py3-pyproject-metadata	py3-pyproject-metadata
+dep	python3	python3
+dep	python3~3.14	python3

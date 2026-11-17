@@ -1,0 +1,18 @@
+name	php84-xsl
+version	8.4.27-r0
+description	PHP84 extension: XSL
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	13431
+installed-size	30138
+depends	php84-common php84-dom so:libc.musl-armhf.so.1 so:libexslt.so.0 so:libxml2.so.2 so:libxslt.so.1
+origin	php84
+repo	community
+file	php84-xsl-8.4.27-r0.apk
+checksum	Q1tmVc1qz74yNbXb09Z39zp5tljzE=
+dep	php84-common	php84-common
+dep	php84-dom	php84-dom
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexslt.so.0	libxslt
+dep	so:libxml2.so.2	libxml2
+dep	so:libxslt.so.1	libxslt

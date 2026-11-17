@@ -1,0 +1,18 @@
+name	xf86-video-ati
+version	22.0.0-r3
+description	ATI video driver
+url	https://xorg.freedesktop.org/wiki/
+license	MIT
+size	155301
+installed-size	342348
+depends	mesa-dri-gallium so:libc.musl-armhf.so.1 so:libdrm_radeon.so.1 so:libgbm.so.1 so:libpciaccess.so.0 so:libudev.so.1
+origin	xf86-video-ati
+repo	community
+file	xf86-video-ati-22.0.0-r3.apk
+checksum	Q1KQt9HgcyBS1yi4Bu+05E0DH9xdc=
+dep	mesa-dri-gallium	mesa-dri-gallium
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm_radeon.so.1	libdrm
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libpciaccess.so.0	libpciaccess
+dep	so:libudev.so.1	eudev-libs

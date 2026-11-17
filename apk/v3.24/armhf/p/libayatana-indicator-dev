@@ -1,0 +1,16 @@
+name	libayatana-indicator-dev
+version	0.9.4-r2
+description	Ayatana Indicators Shared Library (development files)
+url	https://github.com/AyatanaIndicators/libayatana-indicator
+license	GPL-3.0-only
+size	7044
+installed-size	25160
+depends	libayatana-indicator=0.9.4-r2 pc:gtk+-3.0 pc:libayatana-ido3-0.4 pkgconfig
+origin	libayatana-indicator
+repo	community
+file	libayatana-indicator-dev-0.9.4-r2.apk
+checksum	Q1BOQ+8Plx0rqkxeopZohl5q8yoew=
+dep	libayatana-indicator=0.9.4-r2	libayatana-indicator
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pc:libayatana-ido3-0.4	ayatana-ido-dev
+dep	pkgconfig	pkgconf

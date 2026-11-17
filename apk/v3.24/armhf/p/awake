@@ -1,0 +1,13 @@
+name	awake
+version	1.0-r13
+description	python command and library to 'wake on lan' a remote host
+url	https://github.com/cyraxjoe/awake
+license	GPL-3.0-only
+size	1629
+installed-size	81
+depends	py3-awake
+origin	awake
+repo	community
+file	awake-1.0-r13.apk
+checksum	Q1Ar6UAUqYuiZfSoic2lBVTrsytAE=
+dep	py3-awake	py3-awake

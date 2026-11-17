@@ -1,0 +1,31 @@
+name	glib-dev
+version	2.88.1-r1
+description	Low-level core library that forms the basis for projects such as GTK and GNOME (development files)
+url	https://developer.gnome.org/glib/
+license	LGPL-2.1-or-later
+size	1875104
+installed-size	15540676
+depends	bzip2-dev docbook-xml docbook-xsl gettext-dev libxml2-utils libxslt python3 py3-packaging glib=2.88.1-r1 pc:libffi>=3.0.0 pc:libpcre2-8>=10.32 pc:mount>=2.23 pc:zlib pkgconfig so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8
+origin	glib
+repo	main
+file	glib-dev-2.88.1-r1.apk
+checksum	Q1F1emRVJz0rfvUwObUe0N6nVLpcI=
+dep	bzip2-dev	bzip2-dev
+dep	docbook-xml	docbook-xml
+dep	docbook-xsl	docbook-xsl
+dep	gettext-dev	gettext-dev
+dep	libxml2-utils	libxml2-utils
+dep	libxslt	libxslt
+dep	python3	python3
+dep	py3-packaging	py3-packaging
+dep	glib=2.88.1-r1	glib
+dep	pc:libffi>=3.0.0	libffi-dev
+dep	pc:libpcre2-8>=10.32	pcre2-dev
+dep	pc:mount>=2.23	util-linux-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl

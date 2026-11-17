@@ -1,0 +1,14 @@
+name	lld21-dev
+version	21.1.8-r1
+description	The LLVM Linker (development files)
+url	https://llvm.org/
+license	Apache-2.0
+size	18799
+installed-size	58436
+depends	lld21=21.1.8-r1 lld21-libs=21.1.8-r1
+origin	lld21
+repo	main
+file	lld21-dev-21.1.8-r1.apk
+checksum	Q1WvOQW2ct+8Vdxa1vMkR/lBr4IOU=
+dep	lld21=21.1.8-r1	lld21
+dep	lld21-libs=21.1.8-r1	lld21-libs

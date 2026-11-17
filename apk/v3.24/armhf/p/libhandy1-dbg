@@ -1,0 +1,12 @@
+name	libhandy1-dbg
+version	1.8.3-r0
+description	Library full of GTK+ widgets for mobile phones (debug symbols)
+url	https://gitlab.gnome.org/GNOME/libhandy
+license	LGPL-2.0-or-later
+size	958887
+installed-size	2426732
+depends	!libhandy1<1.8.3-r0 !libhandy1>1.8.3-r0
+origin	libhandy1
+repo	community
+file	libhandy1-dbg-1.8.3-r0.apk
+checksum	Q1bFhJudKeOygrSmm8wt2kxi3ZBoU=

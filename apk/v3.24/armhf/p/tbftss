@@ -1,0 +1,18 @@
+name	tbftss
+version	1.5.1-r3
+description	2D mission-based space shooter
+url	https://github.com/stephenjsweeney/tbftss
+license	GPL-2.0-or-later
+size	66599850
+installed-size	68474531
+depends	tbftss-data so:libSDL2-2.0.so.0 so:libSDL2_image-2.0.so.0 so:libSDL2_mixer-2.0.so.0 so:libSDL2_ttf-2.0.so.0 so:libc.musl-armhf.so.1
+origin	tbftss
+repo	community
+file	tbftss-1.5.1-r3.apk
+checksum	Q12k694/fOOHUHUmGGKGW2+CHd7Wg=
+dep	tbftss-data	tbftss-data
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libSDL2_image-2.0.so.0	sdl2_image
+dep	so:libSDL2_mixer-2.0.so.0	sdl2_mixer
+dep	so:libSDL2_ttf-2.0.so.0	sdl2_ttf
+dep	so:libc.musl-armhf.so.1	musl

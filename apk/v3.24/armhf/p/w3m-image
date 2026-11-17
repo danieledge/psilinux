@@ -1,0 +1,14 @@
+name	w3m-image
+version	0.5.6-r0
+description	text-based web & gopher browser, as well as pager (inline image support)
+url	https://sr.ht/~rkta/w3m/
+license	MIT
+size	9144
+installed-size	17600
+depends	so:libImlib2.so.1 so:libc.musl-armhf.so.1
+origin	w3m
+repo	community
+file	w3m-image-0.5.6-r0.apk
+checksum	Q1TWBdNK2zzXWHmuHA5sTIF6B2nLc=
+dep	so:libImlib2.so.1	imlib2
+dep	so:libc.musl-armhf.so.1	musl

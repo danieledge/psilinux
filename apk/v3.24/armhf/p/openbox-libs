@@ -1,0 +1,26 @@
+name	openbox-libs
+version	3.6.1-r8
+description	Shared libraries for openbox
+url	http://openbox.org
+license	GPL-2.0-or-later
+size	59714
+installed-size	137612
+depends	so:libImlib2.so.1 so:libX11.so.6 so:libXext.so.6 so:libXft.so.2 so:libXinerama.so.1 so:libXrandr.so.2 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libpango-1.0.so.0 so:libpangoxft-1.0.so.0 so:librsvg-2.so.2 so:libxml2.so.2
+origin	openbox
+repo	community
+file	openbox-libs-3.6.1-r8.apk
+checksum	Q1Kc2ccf4C7rx21HFEwE7IfU589Yk=
+dep	so:libImlib2.so.1	imlib2
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXft.so.2	libxft
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangoxft-1.0.so.0	pango
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libxml2.so.2	libxml2

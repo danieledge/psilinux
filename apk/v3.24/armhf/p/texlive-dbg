@@ -1,0 +1,12 @@
+name	texlive-dbg
+version	2026.0-r0
+description	Comprehensive TeX document production system (debug symbols)
+url	https://tug.org/texlive/
+license	GPL-2.0-or-later AND GPL-3.0-or-later
+size	9759728
+installed-size	24268380
+depends	!libsynctex<2026.0-r0 !libsynctex>2026.0-r0 !texlive-dvi<2026.0-r0 !texlive-dvi>2026.0-r0 !texlive-luatex<2026.0-r0 !texlive-luatex>2026.0-r0 !texlive-xetex<2026.0-r0 !texlive-xetex>2026.0-r0 !texlive<2026.0-r0 !texlive>2026.0-r0 !xdvik<2026.0-r0 !xdvik>2026.0-r0
+origin	texlive
+repo	community
+file	texlive-dbg-2026.0-r0.apk
+checksum	Q1ofElnkRs8Qfn7zWXfLRBR6cdvGY=

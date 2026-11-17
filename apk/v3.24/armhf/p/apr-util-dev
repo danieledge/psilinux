@@ -1,0 +1,22 @@
+name	apr-util-dev
+version	1.6.4-r0
+description	The Apache Portable Runtime Utility Library (development files)
+url	https://apr.apache.org/
+license	Apache-2.0
+size	181482
+installed-size	620022
+depends	expat-dev gdbm-dev libpq-dev mariadb-dev openldap-dev openssl-dev>3 sqlite-dev apr-util=1.6.4-r0 pc:apr-1 pkgconfig
+origin	apr-util
+repo	main
+file	apr-util-dev-1.6.4-r0.apk
+checksum	Q1EJmhYwdTAjgrlOy8pSoxP+uxX3g=
+dep	expat-dev	expat-dev
+dep	gdbm-dev	gdbm-dev
+dep	libpq-dev	libpq-dev
+dep	mariadb-dev	mariadb-dev
+dep	openldap-dev	openldap-dev
+dep	openssl-dev>3	openssl-dev
+dep	sqlite-dev	sqlite-dev
+dep	apr-util=1.6.4-r0	apr-util
+dep	pc:apr-1	apr-dev
+dep	pkgconfig	pkgconf

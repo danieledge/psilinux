@@ -1,0 +1,17 @@
+name	wasm-pack
+version	0.15.0-r1
+description	rust to wasm build tool
+url	https://github.com/wasm-bindgen/wasm-pack
+license	Apache-2.0
+size	1360489
+installed-size	2632824
+depends	cargo rustc-dev rust-wasm so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	wasm-pack
+repo	community
+file	wasm-pack-0.15.0-r1.apk
+checksum	Q1mIMC+2t4RHdPyC79UM3hSGoGFnI=
+dep	cargo	cargo
+dep	rustc-dev	rustc-dev
+dep	rust-wasm	rust-wasm
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

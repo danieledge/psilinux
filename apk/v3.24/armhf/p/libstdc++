@@ -1,0 +1,14 @@
+name	libstdc++
+version	15.2.0-r5
+description	GNU C++ standard runtime library
+url	https://gcc.gnu.org
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	894353
+installed-size	2500256
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	gcc
+repo	main
+file	libstdc++-15.2.0-r5.apk
+checksum	Q1VKKmt2M9j1oQZCaq4mNvepGlGjc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

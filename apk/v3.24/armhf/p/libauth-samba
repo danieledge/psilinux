@@ -1,0 +1,48 @@
+name	libauth-samba
+version	4.23.8-r0
+description	Samba auth library shared by common-tools, server and clients
+url	https://www.samba.org/
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	63283
+installed-size	156956
+depends	samba-libs=4.23.8-r0 samba-util-libs=4.23.8-r0 libwbclient=4.23.8-r0 so:libMESSAGING-private-samba.so so:libc.musl-armhf.so.1 so:libcliauth-private-samba.so so:libcommon-auth-private-samba.so so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgse-private-samba.so so:liblibcli-lsa3-private-samba.so so:liblibcli-netlogon3-private-samba.so so:libndr-krb5pac.so.0 so:libndr.so.6 so:libpam.so.0 so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-modules-private-samba.so so:libsamba-passdb.so.0 so:libsamba-security-private-samba.so so:libsamba-sockets-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsamdb.so.0 so:libsecrets3-private-samba.so so:libsmbconf.so.0 so:libsmbd-shim-private-samba.so so:libtalloc.so.2 so:libtdb.so.1 so:libtevent-util.so.0 so:libtevent.so.0 so:libutil-tdb-private-samba.so so:libwbclient.so.0
+origin	samba
+repo	main
+file	libauth-samba-4.23.8-r0.apk
+checksum	Q1z5UWwUiKI/gM+AOJS5NaeOVTtm8=
+dep	samba-libs=4.23.8-r0	samba-libs
+dep	samba-util-libs=4.23.8-r0	samba-util-libs
+dep	libwbclient=4.23.8-r0	libwbclient
+dep	so:libMESSAGING-private-samba.so	samba-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcliauth-private-samba.so	samba-libs
+dep	so:libcommon-auth-private-samba.so	samba-libs
+dep	so:libgenrand-private-samba.so	samba-util-libs
+dep	so:libgensec-private-samba.so	samba-libs
+dep	so:libgse-private-samba.so	samba-libs
+dep	so:liblibcli-lsa3-private-samba.so	samba-libs
+dep	so:liblibcli-netlogon3-private-samba.so	samba-libs
+dep	so:libndr-krb5pac.so.0	samba-libs
+dep	so:libndr.so.6	samba-libs
+dep	so:libpam.so.0	linux-pam
+dep	so:libreplace-private-samba.so	samba-util-libs
+dep	so:libsamba-credentials.so.1	samba-libs
+dep	so:libsamba-debug-private-samba.so	samba-util-libs
+dep	so:libsamba-errors.so.1	samba-libs
+dep	so:libsamba-hostconfig.so.0	samba-libs
+dep	so:libsamba-modules-private-samba.so	samba-libs
+dep	so:libsamba-passdb.so.0	samba-libs
+dep	so:libsamba-security-private-samba.so	samba-libs
+dep	so:libsamba-sockets-private-samba.so	samba-libs
+dep	so:libsamba-util.so.0	samba-util-libs
+dep	so:libsamba3-util-private-samba.so	samba-libs
+dep	so:libsamdb.so.0	samba-libs
+dep	so:libsecrets3-private-samba.so	samba-libs
+dep	so:libsmbconf.so.0	samba-libs
+dep	so:libsmbd-shim-private-samba.so	samba-libs
+dep	so:libtalloc.so.2	talloc
+dep	so:libtdb.so.1	tdb-libs
+dep	so:libtevent-util.so.0	samba-libs
+dep	so:libtevent.so.0	tevent
+dep	so:libutil-tdb-private-samba.so	samba-libs
+dep	so:libwbclient.so.0	libwbclient

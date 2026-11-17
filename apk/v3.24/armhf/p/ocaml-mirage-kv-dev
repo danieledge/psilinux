@@ -1,0 +1,15 @@
+name	ocaml-mirage-kv-dev
+version	4.0.1-r6
+description	MirageOS signatures for key/value devices (development files)
+url	https://github.com/mirage/mirage-kv
+license	ISC
+size	43819
+installed-size	108207
+depends	ocaml-mirage-kv=4.0.1-r6 ocaml-fmt-dev ocaml-lwt-dev
+origin	ocaml-mirage-kv
+repo	community
+file	ocaml-mirage-kv-dev-4.0.1-r6.apk
+checksum	Q1UY5ngBE5UB/WYQ21PdcZaRMDk04=
+dep	ocaml-mirage-kv=4.0.1-r6	ocaml-mirage-kv
+dep	ocaml-fmt-dev	ocaml-fmt-dev
+dep	ocaml-lwt-dev	ocaml-lwt-dev

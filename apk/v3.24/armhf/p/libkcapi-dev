@@ -1,0 +1,14 @@
+name	libkcapi-dev
+version	1.5.1-r0
+description	Linux Kernel Crypto API User Space Interface Library (development files)
+url	https://www.chronox.de/libkcapi/index.html
+license	BSD-3-Clause OR GPL-2.0-only
+size	17343
+installed-size	115788
+depends	libkcapi=1.5.1-r0 pkgconfig
+origin	libkcapi
+repo	main
+file	libkcapi-dev-1.5.1-r0.apk
+checksum	Q1zu8Xvjua0kd/H4ELsIj+P1PgYUs=
+dep	libkcapi=1.5.1-r0	libkcapi
+dep	pkgconfig	pkgconf

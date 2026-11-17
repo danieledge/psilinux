@@ -1,0 +1,14 @@
+name	ucl-dev
+version	1.03-r3
+description	Portable lossless data compression library written in ANSI C (development files)
+url	http://www.oberhumer.com/opensource/ucl/
+license	GPL-2.0
+size	24521
+installed-size	105733
+depends	ucl=1.03-r3 pkgconfig
+origin	ucl
+repo	community
+file	ucl-dev-1.03-r3.apk
+checksum	Q1KFky1nNB2wC84LPjVV5AXvLOkkw=
+dep	ucl=1.03-r3	ucl
+dep	pkgconfig	pkgconf

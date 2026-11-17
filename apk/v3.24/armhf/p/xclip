@@ -1,0 +1,15 @@
+name	xclip
+version	0.13-r3
+description	Command line interface to the X11 clipboard
+url	https://github.com/astrand/xclip
+license	GPL-2.0-or-later
+size	10469
+installed-size	18683
+depends	so:libX11.so.6 so:libXmu.so.6 so:libc.musl-armhf.so.1
+origin	xclip
+repo	community
+file	xclip-0.13-r3.apk
+checksum	Q1xcmTP0MD9F/0iv+PxRvAZ8w7iNE=
+dep	so:libX11.so.6	libx11
+dep	so:libXmu.so.6	libxmu
+dep	so:libc.musl-armhf.so.1	musl

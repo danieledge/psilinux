@@ -1,0 +1,16 @@
+name	apr-util
+version	1.6.4-r0
+description	The Apache Portable Runtime Utility Library
+url	https://apr.apache.org/
+license	Apache-2.0
+size	77493
+installed-size	166728
+depends	so:libapr-1.so.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libexpat.so.1
+origin	apr-util
+repo	main
+file	apr-util-1.6.4-r0.apk
+checksum	Q1KuU/sgJVE9FJctFaCVf+j+ZlMCY=
+dep	so:libapr-1.so.0	apr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libexpat.so.1	libexpat

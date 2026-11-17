@@ -1,0 +1,21 @@
+name	llvm20-dev
+version	20.1.8-r1
+description	Low Level Virtual Machine compiler system, version 20 (development files)
+url	https://llvm.org/
+license	Apache-2.0
+size	5478043
+installed-size	29760154
+depends	llvm20=20.1.8-r1 libffi-dev zlib-dev zstd-dev llvm20-test-utils=20.1.8-r1 llvm20-libs=20.1.8-r1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	llvm20
+repo	main
+file	llvm20-dev-20.1.8-r1.apk
+checksum	Q1z3ghWxVMGMtfOpavilC3u0q6aNM=
+dep	llvm20=20.1.8-r1	llvm20
+dep	libffi-dev	libffi-dev
+dep	zlib-dev	zlib-dev
+dep	zstd-dev	zstd-dev
+dep	llvm20-test-utils=20.1.8-r1	llvm20-test-utils
+dep	llvm20-libs=20.1.8-r1	llvm20-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,13 @@
+name	f2fs-tools-static
+version	1.16.0-r4
+description	Tools for the Flash-Friendly File System (F2FS) (static library)
+url	http://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git
+license	GPL-2.0-or-later OR LGPL-2.1-or-later
+size	67297
+installed-size	154660
+depends	f2fs-tools-dev
+origin	f2fs-tools
+repo	main
+file	f2fs-tools-static-1.16.0-r4.apk
+checksum	Q1r4T4jmKOSXY9EC1ehJwUWgmNiWI=
+dep	f2fs-tools-dev	f2fs-tools-dev

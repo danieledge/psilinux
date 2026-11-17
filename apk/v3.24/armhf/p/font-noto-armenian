@@ -1,0 +1,14 @@
+name	font-noto-armenian
+version	2026.11.01-r0
+description	Noto Sans Armenian and Serif Armenian fonts
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	959790
+installed-size	2229207
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-armenian-2026.11.01-r0.apk
+checksum	Q1V19TEp1s/6oMsuYXxs4/pd+qP+w=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

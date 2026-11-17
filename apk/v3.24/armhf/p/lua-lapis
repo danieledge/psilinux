@@ -1,0 +1,13 @@
+name	lua-lapis
+version	1.18.0-r0
+description	A web framework for Lua/MoonScript supporting OpenResty or http.server
+url	https://leafo.net/lapis/
+license	MIT
+size	1283
+installed-size	0
+depends	lua
+origin	lua-lapis
+repo	community
+file	lua-lapis-1.18.0-r0.apk
+checksum	Q1YcBgpcCJ8T/JHJKWkE+MjQw0iMk=
+dep	lua	lua5.5

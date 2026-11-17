@@ -1,0 +1,14 @@
+name	opendkim-libs
+version	2.11.0-r4
+description	DKIM signing and verifying filter for MTAs (libraries)
+url	http://www.opendkim.org
+license	custom
+size	49861
+installed-size	100580
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	opendkim
+repo	community
+file	opendkim-libs-2.11.0-r4.apk
+checksum	Q1OZ0dyhsqQHXaxogw8QXtCdwzvhA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

@@ -1,0 +1,14 @@
+name	inotify-tools
+version	4.23.9.0-r0
+description	C library and CLI tools providing a simple interface to inotify
+url	https://github.com/inotify-tools/inotify-tools
+license	GPL-2.0-only
+size	26884
+installed-size	86912
+depends	so:libc.musl-armhf.so.1 so:libinotifytools.so.0
+origin	inotify-tools
+repo	main
+file	inotify-tools-4.23.9.0-r0.apk
+checksum	Q1Wto5CvVjpTxVvJ5QjgWG8Lda2uU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libinotifytools.so.0	inotify-tools-libs

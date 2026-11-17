@@ -1,0 +1,14 @@
+name	py3-lilv
+version	0.24.26-r1
+description	C library for simpler use of LV2 plugins (python module)
+url	https://drobilla.net/software/lilv
+license	ISC
+size	15352
+installed-size	60478
+depends	lilv-libs=0.24.26-r1 python3~3.14
+origin	lilv
+repo	community
+file	py3-lilv-0.24.26-r1.apk
+checksum	Q1AJOHoZUKWiR2AA7mYwmINMnSb8c=
+dep	lilv-libs=0.24.26-r1	lilv-libs
+dep	python3~3.14	python3

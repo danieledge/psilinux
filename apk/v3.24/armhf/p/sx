@@ -1,0 +1,14 @@
+name	sx
+version	3.0-r0
+description	A simple alternative to xinit and startx
+url	https://github.com/Earnestly/sx
+license	MIT
+size	2274
+installed-size	1281
+depends	xauth xorg-server
+origin	sx
+repo	community
+file	sx-3.0-r0.apk
+checksum	Q14ZMIv4rwdp7EhN8E5RM4a5m3uc4=
+dep	xauth	xauth
+dep	xorg-server	xorg-server

@@ -1,0 +1,14 @@
+name	guile-semver
+version	0.1.1-r0
+description	Guile library that handles semantic versions
+url	https://ngyro.com/software/guile-semver.html
+license	GPL-3.0-or-later
+size	60789
+installed-size	351225
+depends	guile zlib-dev
+origin	guile-semver
+repo	community
+file	guile-semver-0.1.1-r0.apk
+checksum	Q1UDRX3YUHJhv1C7RfyH5dqkCh8jI=
+dep	guile	guile
+dep	zlib-dev	zlib-dev

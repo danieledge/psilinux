@@ -1,0 +1,13 @@
+name	libressl-static
+version	4.3.1-r0
+description	Version of the TLS/crypto stack forked from OpenSSL (static library)
+url	https://www.libressl.org/
+license	custom
+size	5021151
+installed-size	12472262
+depends	libressl-dev
+origin	libressl
+repo	community
+file	libressl-static-4.3.1-r0.apk
+checksum	Q1e2ByCMYwSjryRa56yhxvVJG93aQ=
+dep	libressl-dev	libressl-dev

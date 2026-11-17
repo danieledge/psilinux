@@ -1,0 +1,14 @@
+name	mmtc
+version	0.3.2-r0
+description	Minimal mpd terminal client that aims to be simple yet highly configurable
+url	https://github.com/figsoda/mmtc
+license	MPL-2.0
+size	511629
+installed-size	971048
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	mmtc
+repo	community
+file	mmtc-0.3.2-r0.apk
+checksum	Q1rgblelKyZkP6+7wTlOoYoorjcyE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,15 @@
+name	doxygen
+version	1.17.0-r0
+description	Documentation system for C++, C, Java, IDL and PHP
+url	https://www.doxygen.nl/
+license	GPL-2.0-or-later
+size	5493452
+installed-size	17789728
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	doxygen
+repo	main
+file	doxygen-1.17.0-r0.apk
+checksum	Q1iRn6FOvLqvMTthEtiRGyli6iN6g=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

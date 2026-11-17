@@ -1,0 +1,14 @@
+name	pgexportdoc
+version	0.1.4-r6
+description	CLI tool for export XML, TEXT and BYTEA documents from PostgreSQL
+url	https://github.com/okbob/pgexportdoc
+license	BSD-2-Clause
+size	16936
+installed-size	33964
+depends	so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	pgexportdoc
+repo	community
+file	pgexportdoc-0.1.4-r6.apk
+checksum	Q1ocFSlU/cJo/071N0H9eiSAs1xBY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

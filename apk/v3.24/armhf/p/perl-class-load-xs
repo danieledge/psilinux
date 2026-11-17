@@ -1,0 +1,15 @@
+name	perl-class-load-xs
+version	0.10-r11
+description	XS implementation of parts of Class::Load
+url	https://metacpan.org/release/Class-Load-XS/
+license	Artistic-2.0
+size	6255
+installed-size	10884
+depends	perl perl-class-load so:libc.musl-armhf.so.1
+origin	perl-class-load-xs
+repo	community
+file	perl-class-load-xs-0.10-r11.apk
+checksum	Q1UFi2I5a2/HdSrglp8d776xWRgWU=
+dep	perl	perl
+dep	perl-class-load	perl-class-load
+dep	so:libc.musl-armhf.so.1	musl

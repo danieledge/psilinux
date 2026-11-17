@@ -1,0 +1,14 @@
+name	cyrus-sasl-digestmd5
+version	2.1.28-r9
+description	Cyrus SASL plugin for digestmd5
+url	https://www.cyrusimap.org/sasl/
+license	BSD-3-Clause-Attribution AND BSD-4-Clause
+size	24604
+installed-size	50732
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	cyrus-sasl
+repo	main
+file	cyrus-sasl-digestmd5-2.1.28-r9.apk
+checksum	Q1ZK2N7mTKYCijUgKRHgTAdDYdZ4s=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

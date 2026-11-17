@@ -1,0 +1,13 @@
+name	xf86-video-dummy
+version	0.4.1-r3
+description	X.Org driver for dummy cards
+url	https://xorg.freedesktop.org
+license	MIT
+size	8804
+installed-size	18080
+depends	so:libc.musl-armhf.so.1
+origin	xf86-video-dummy
+repo	community
+file	xf86-video-dummy-0.4.1-r3.apk
+checksum	Q15KWWImhaVgey3Me65h4gz7A41GM=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	bladerf
+version	2024.05-r1
+description	Host-side libraries, drivers and utilities for bladeRF platform
+url	https://github.com/Nuand/bladeRF
+license	GPL-2.0-or-later AND LGPL-2.1-or-later AND MIT
+size	104908
+installed-size	250166
+depends	so:libbladeRF.so.2 so:libc.musl-armhf.so.1
+origin	bladerf
+repo	community
+file	bladerf-2024.05-r1.apk
+checksum	Q1NFB7w6Zkd28FSSHP+Iw+FGo8TWA=
+dep	so:libbladeRF.so.2	bladerf-libs
+dep	so:libc.musl-armhf.so.1	musl

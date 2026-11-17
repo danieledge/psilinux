@@ -1,0 +1,14 @@
+name	oscam-list-smargo
+version	1.20_svn20201119-r5
+description	Tool to identify your smargo card reader
+url	http://www.streamboard.tv/oscam/
+license	GPL-3.0-or-later
+size	4513
+installed-size	9440
+depends	so:libc.musl-armhf.so.1 so:libusb-1.0.so.0
+origin	oscam
+repo	community
+file	oscam-list-smargo-1.20_svn20201119-r5.apk
+checksum	Q12KwnSuLwRtLkqd3kGZIIfva3kWc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb

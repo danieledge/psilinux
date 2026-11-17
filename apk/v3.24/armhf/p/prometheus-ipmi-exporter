@@ -1,0 +1,15 @@
+name	prometheus-ipmi-exporter
+version	1.10.1-r0
+description	Remote IPMI exporter for Prometheus
+url	https://github.com/prometheus-community/ipmi_exporter
+license	MIT
+size	5062313
+installed-size	13450932
+depends	freeipmi /bin/sh so:libc.musl-armhf.so.1
+origin	prometheus-ipmi-exporter
+repo	community
+file	prometheus-ipmi-exporter-1.10.1-r0.apk
+checksum	Q1cR89d7ry15mMu7DIlKHMS4w9UDs=
+dep	freeipmi	freeipmi
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

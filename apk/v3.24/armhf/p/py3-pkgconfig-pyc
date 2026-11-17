@@ -1,0 +1,13 @@
+name	py3-pkgconfig-pyc
+version	1.5.5-r5
+description	Precompiled Python bytecode for py3-pkgconfig
+url	https://github.com/matze/pkgconfig
+license	MIT
+size	8061
+installed-size	13041
+depends	python3~3.14
+origin	py3-pkgconfig
+repo	community
+file	py3-pkgconfig-pyc-1.5.5-r5.apk
+checksum	Q1DYL9gmKGWAUlkrfX3HB94v00d78=
+dep	python3~3.14	python3

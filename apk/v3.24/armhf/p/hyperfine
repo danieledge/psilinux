@@ -1,0 +1,14 @@
+name	hyperfine
+version	1.20.0-r0
+description	Command-line benchmarking tool
+url	https://github.com/sharkdp/hyperfine
+license	Apache-2.0 AND MIT
+size	453744
+installed-size	852616
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	hyperfine
+repo	community
+file	hyperfine-1.20.0-r0.apk
+checksum	Q1IA76wZ+4SNdpR86lDKNu1E9J85s=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,16 @@
+name	chromaprint-libs
+version	1.6.0-r0
+description	C library for generating audio fingerprints used by AcoustID (libraries)
+url	https://acoustid.org/chromaprint
+license	MIT
+size	28062
+installed-size	54656
+depends	so:libc.musl-armhf.so.1 so:libfftw3.so.3 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	chromaprint
+repo	community
+file	chromaprint-libs-1.6.0-r0.apk
+checksum	Q1zmWSd+FkkOmWAw2fxeiFZ3b+yTM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfftw3.so.3	fftw-double-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

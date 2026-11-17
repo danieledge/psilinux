@@ -1,0 +1,20 @@
+name	swaynag
+version	1.12_rc3-r0
+description	CLI to show a warning or error message with buttons in Sway
+url	https://swaywm.org/
+license	MIT
+size	20994
+installed-size	46660
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libwayland-client.so.0 so:libwayland-cursor.so.0
+origin	sway
+repo	community
+file	swaynag-1.12_rc3-r0.apk
+checksum	Q1BV4Cf10ueBYmjjXEK78kj1c1Qvo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor

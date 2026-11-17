@@ -1,0 +1,12 @@
+name	usb-moded-dbg
+version	0.86.0.69-r1
+description	A daemon activating a certain USB profile based on the usb cable connection status (debug symbols)
+url	https://github.com/sailfishos/usb-moded
+license	GPL-2.0-only
+size	20789
+installed-size	59548
+depends	!usb-moded<0.86.0.69-r1 !usb-moded>0.86.0.69-r1
+origin	usb-moded
+repo	community
+file	usb-moded-dbg-0.86.0.69-r1.apk
+checksum	Q1oxJUGez6Unq8p3cSc66rJkLOJWQ=

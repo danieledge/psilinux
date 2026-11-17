@@ -1,0 +1,13 @@
+name	txt2man
+version	1.7.1-r1
+description	Convert flat ASCII text to man page format
+url	https://github.com/mvertes/txt2man
+license	GPL-2.0-or-later
+size	9553
+installed-size	22462
+depends	gawk
+origin	txt2man
+repo	community
+file	txt2man-1.7.1-r1.apk
+checksum	Q14q1ZC8vBJsEMxsabl24+NsTQm3Y=
+dep	gawk	gawk

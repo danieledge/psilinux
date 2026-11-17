@@ -1,0 +1,15 @@
+name	perl-authcas
+version	1.7-r3
+description	Client library for JA-SIG CAS 2.0 authentication server
+url	https://metacpan.org/release/AuthCAS/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6850
+installed-size	17314
+depends	perl perl-io-socket-ssl perl-libwww
+origin	perl-authcas
+repo	community
+file	perl-authcas-1.7-r3.apk
+checksum	Q1OjtxqE4Yn+Y20RMcnIBelfJ3Pmk=
+dep	perl	perl
+dep	perl-io-socket-ssl	perl-io-socket-ssl
+dep	perl-libwww	perl-libwww

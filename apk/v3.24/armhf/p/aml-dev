@@ -1,0 +1,14 @@
+name	aml-dev
+version	1.0.0-r0
+description	Andri's Main Loop (development files)
+url	https://github.com/any1/aml
+license	ISC
+size	4833
+installed-size	11157
+depends	aml=1.0.0-r0 pkgconfig
+origin	aml
+repo	community
+file	aml-dev-1.0.0-r0.apk
+checksum	Q1qK3Ah9gZ7MZE4Yp1lNAN40iMBuo=
+dep	aml=1.0.0-r0	aml
+dep	pkgconfig	pkgconf

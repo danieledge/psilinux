@@ -1,0 +1,15 @@
+name	git-lfs
+version	3.7.1-r2
+description	Git extension for versioning large files
+url	https://git-lfs.github.io/
+license	MIT
+size	5269042
+installed-size	13583756
+depends	git /bin/sh so:libc.musl-armhf.so.1
+origin	git-lfs
+repo	community
+file	git-lfs-3.7.1-r2.apk
+checksum	Q1O5G6/36J+fgnBIPdRPxJEJ1A3U0=
+dep	git	git
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

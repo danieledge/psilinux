@@ -1,0 +1,15 @@
+name	lua5.3-dev
+version	5.3.6-r6
+description	Powerful light-weight programming language (development files)
+url	https://www.lua.org/
+license	MIT
+size	538313
+installed-size	1228376
+depends	lua5.3 lua5.3-libs=5.3.6-r6 pkgconfig
+origin	lua5.3
+repo	main
+file	lua5.3-dev-5.3.6-r6.apk
+checksum	Q1mvswDzQtNaVnbK3x76uO6P7/db4=
+dep	lua5.3	lua5.3
+dep	lua5.3-libs=5.3.6-r6	lua5.3-libs
+dep	pkgconfig	pkgconf

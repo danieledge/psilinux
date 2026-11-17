@@ -1,0 +1,14 @@
+name	msgpack-c-dev
+version	6.1.0-r1
+description	An efficient object serialization library for C (development files)
+url	https://msgpack.org
+license	BSL-1.0
+size	31560
+installed-size	126470
+depends	msgpack-c=6.1.0-r1 pkgconfig
+origin	msgpack-c
+repo	community
+file	msgpack-c-dev-6.1.0-r1.apk
+checksum	Q1wfA808P/gVgFBA1U3E1Pb3+SBOQ=
+dep	msgpack-c=6.1.0-r1	msgpack-c
+dep	pkgconfig	pkgconf

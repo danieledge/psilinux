@@ -1,0 +1,29 @@
+name	clapper-dev
+version	0.10.0-r1
+description	Modern media player designed for simplicity and ease of use (development files)
+url	https://github.com/Rafostar/clapper
+license	GPL-3.0-or-later
+size	80367
+installed-size	722196
+depends	clapper-libs=0.10.0-r1 pc:gio-2.0>=2.76.0 pc:gio-unix-2.0>=2.76.0 pc:glib-2.0>=2.76.0 pc:gmodule-2.0>=2.76.0 pc:gobject-2.0>=2.76.0 pc:gstreamer-1.0>=1.24.0 pc:gstreamer-audio-1.0>=1.24.0 pc:gstreamer-base-1.0>=1.24.0 pc:gstreamer-pbutils-1.0>=1.24.0 pc:gstreamer-tag-1.0>=1.24.0 pc:gstreamer-video-1.0>=1.24.0 pc:gtk4>=4.10.0 pc:libpeas-2 pc:libsoup-3.0 pc:microdns>=0.2.0 pkgconfig
+origin	clapper
+repo	community
+file	clapper-dev-0.10.0-r1.apk
+checksum	Q1b5G3tAqpdrc81zpF6/yOmw/XLo8=
+dep	clapper-libs=0.10.0-r1	clapper-libs
+dep	pc:gio-2.0>=2.76.0	glib-dev
+dep	pc:gio-unix-2.0>=2.76.0	glib-dev
+dep	pc:glib-2.0>=2.76.0	glib-dev
+dep	pc:gmodule-2.0>=2.76.0	glib-dev
+dep	pc:gobject-2.0>=2.76.0	glib-dev
+dep	pc:gstreamer-1.0>=1.24.0	gstreamer-dev
+dep	pc:gstreamer-audio-1.0>=1.24.0	gst-plugins-base-dev
+dep	pc:gstreamer-base-1.0>=1.24.0	gstreamer-dev
+dep	pc:gstreamer-pbutils-1.0>=1.24.0	gst-plugins-base-dev
+dep	pc:gstreamer-tag-1.0>=1.24.0	gst-plugins-base-dev
+dep	pc:gstreamer-video-1.0>=1.24.0	gst-plugins-base-dev
+dep	pc:gtk4>=4.10.0	gtk4.0-dev
+dep	pc:libpeas-2	libpeas2-dev
+dep	pc:libsoup-3.0	libsoup3-dev
+dep	pc:microdns>=0.2.0	libmicrodns-dev
+dep	pkgconfig	pkgconf

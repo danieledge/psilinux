@@ -1,0 +1,16 @@
+name	lv2lint
+version	0.16.2-r3
+description	LV2 plugin specification checker
+url	https://git.open-music-kontrollers.ch/~hp/lv2lint/
+license	Artistic-2.0
+size	32959
+installed-size	89176
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libelf.so.1 so:liblilv-0.so.0
+origin	lv2lint
+repo	community
+file	lv2lint-0.16.2-r3.apk
+checksum	Q1uZREfRca0OF1DFExx+oyWxmClG8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libelf.so.1	libelf
+dep	so:liblilv-0.so.0	lilv-libs

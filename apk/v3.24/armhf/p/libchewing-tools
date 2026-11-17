@@ -1,0 +1,15 @@
+name	libchewing-tools
+version	0.12.0-r0
+description	Intelligent Chinese phonetic input method (command line tools)
+url	https://chewing.im/
+license	LGPL-2.1-only
+size	715485
+installed-size	1395828
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libsqlite3.so.0
+origin	libchewing
+repo	community
+file	libchewing-tools-0.12.0-r0.apk
+checksum	Q1Rbvm4C9tcPFDhgV2bub+F1FbSnw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsqlite3.so.0	sqlite-libs

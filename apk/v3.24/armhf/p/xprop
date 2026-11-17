@@ -1,0 +1,14 @@
+name	xprop
+version	1.2.8-r0
+description	Property displayer for X
+url	https://cgit.freedesktop.org/xorg/app/xprop
+license	MIT
+size	17407
+installed-size	35144
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1
+origin	xprop
+repo	community
+file	xprop-1.2.8-r0.apk
+checksum	Q1Y0oiEOJ3tzkdJHKcABumQDosRQU=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl

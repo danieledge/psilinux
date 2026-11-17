@@ -1,0 +1,13 @@
+name	freetype-static
+version	2.14.3-r0
+description	TrueType font rendering library (static library)
+url	https://www.freetype.org/
+license	FTL OR GPL-2.0-or-later
+size	400419
+installed-size	844178
+depends	freetype-dev
+origin	freetype
+repo	main
+file	freetype-static-2.14.3-r0.apk
+checksum	Q1Xit7dba2rmSLvnMQPg4V92KNI7A=
+dep	freetype-dev	freetype-dev

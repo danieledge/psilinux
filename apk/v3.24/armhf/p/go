@@ -1,0 +1,15 @@
+name	go
+version	1.26.11-r0
+description	Go programming language compiler
+url	https://go.dev/
+license	BSD-3-Clause
+size	51470849
+installed-size	172723504
+depends	binutils gcc musl-dev
+origin	go
+repo	community
+file	go-1.26.11-r0.apk
+checksum	Q1Qizck0KPEEsfTYkyMP2tFbVUJ00=
+dep	binutils	binutils
+dep	gcc	gcc
+dep	musl-dev	musl-dev

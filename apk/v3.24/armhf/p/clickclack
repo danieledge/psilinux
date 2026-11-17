@@ -1,0 +1,14 @@
+name	clickclack
+version	0.2.3-r2
+description	Haptic/audio feedback daemon for virtual keyboards like svkbd and wvkbd
+url	https://git.sr.ht/~proycon/clickclack
+license	MIT
+size	6559
+installed-size	13500
+depends	so:libSDL2-2.0.so.0 so:libc.musl-armhf.so.1
+origin	clickclack
+repo	community
+file	clickclack-0.2.3-r2.apk
+checksum	Q1F9V7gYVAxlzBfGGkysD2UkcSemU=
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libc.musl-armhf.so.1	musl

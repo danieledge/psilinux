@@ -1,0 +1,14 @@
+name	opensmtpd-filter-senderscore
+version	0.1.2-r30
+description	OpenSMTPD senderscore filter
+url	https://github.com/poolpOrg/filter-senderscore
+license	ISC
+size	1010470
+installed-size	2414884
+depends	opensmtpd so:libc.musl-armhf.so.1
+origin	opensmtpd-filter-senderscore
+repo	community
+file	opensmtpd-filter-senderscore-0.1.2-r30.apk
+checksum	Q1UR+2QaCEgvYzUExwPOBFsxMl0JM=
+dep	opensmtpd	opensmtpd
+dep	so:libc.musl-armhf.so.1	musl

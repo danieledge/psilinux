@@ -1,0 +1,15 @@
+name	dmraid
+version	1.0.0_rc16-r7
+description	Device mapper RAID interface
+url	https://people.redhat.com/~heinzm/sw/dmraid/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	121844
+installed-size	263012
+depends	so:libc.musl-armhf.so.1 so:libdevmapper-event.so.1.02 so:libdevmapper.so.1.02
+origin	dmraid
+repo	main
+file	dmraid-1.0.0_rc16-r7.apk
+checksum	Q1Q/7uGDAcdvZAMG+gtyPi1j3oD0M=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdevmapper-event.so.1.02	device-mapper-event-libs
+dep	so:libdevmapper.so.1.02	device-mapper-libs

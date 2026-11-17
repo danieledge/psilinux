@@ -1,0 +1,12 @@
+name	apparmor-openrc
+version	4.1.7-r1
+description	Linux application security framework - mandatory access control for programs (OpenRC init scripts)
+url	https://gitlab.com/apparmor/apparmor/wikis/home
+license	GPL-2.0-or-later
+size	2218
+installed-size	1293
+depends	
+origin	apparmor
+repo	main
+file	apparmor-openrc-4.1.7-r1.apk
+checksum	Q15PVecB3qqIvzk02g8m7x2sOm+B0=

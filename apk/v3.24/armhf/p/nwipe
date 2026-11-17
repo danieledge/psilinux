@@ -1,0 +1,21 @@
+name	nwipe
+version	0.41-r0
+description	nwipe is a program that will securely erase the entire contents of hard disks
+url	https://github.com/martijnvanbrummelen/nwipe
+license	GPL-2.0-only
+size	317127
+installed-size	510664
+depends	hdparm smartmontools dmidecode so:libc.musl-armhf.so.1 so:libconfig.so.15 so:libgcc_s.so.1 so:libncursesw.so.6 so:libpanelw.so.6 so:libparted.so.2
+origin	nwipe
+repo	community
+file	nwipe-0.41-r0.apk
+checksum	Q10osZjc6pJwsqhMlwjWdb4+rd1ak=
+dep	hdparm	hdparm
+dep	smartmontools	smartmontools
+dep	dmidecode	dmidecode
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libconfig.so.15	libconfig
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpanelw.so.6	libpanelw
+dep	so:libparted.so.2	parted

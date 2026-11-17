@@ -1,0 +1,13 @@
+name	libretro-fceumm
+version	0_git20241123-r0
+description	FCEUmm libretro port
+url	https://github.com/libretro/libretro-fceumm
+license	GPL-2.0-only
+size	398028
+installed-size	2297056
+depends	so:libc.musl-armhf.so.1
+origin	libretro-fceumm
+repo	community
+file	libretro-fceumm-0_git20241123-r0.apk
+checksum	Q1kNC+/fwyJOhipx+/2GoIKTXR80Q=
+dep	so:libc.musl-armhf.so.1	musl

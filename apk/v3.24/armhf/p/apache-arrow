@@ -1,0 +1,18 @@
+name	apache-arrow
+version	23.0.1-r2
+description	multi-language toolbox for accelerated data interchange and in-memory processing
+url	https://arrow.apache.org/
+license	Apache-2.0
+size	2269097
+installed-size	9524660
+depends	so:libarrow.so.2300 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libre2.so.11 so:libstdc++.so.6 so:libutf8proc.so.3
+origin	apache-arrow
+repo	community
+file	apache-arrow-23.0.1-r2.apk
+checksum	Q1hyc88hPfg99gKoPtQmie6/E6iQI=
+dep	so:libarrow.so.2300	libarrow
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libre2.so.11	re2
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libutf8proc.so.3	utf8proc

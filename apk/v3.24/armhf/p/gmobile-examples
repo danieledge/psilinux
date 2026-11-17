@@ -1,0 +1,19 @@
+name	gmobile-examples
+version	0.7.2-r0
+description	Functions useful in mobile related, glib based projects (examples)
+url	https://gitlab.gnome.org/World/Phosh/gmobile
+license	GPL-3.0-only
+size	10810
+installed-size	32300
+depends	phoc phosh so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmobile.so.0 so:libgobject-2.0.so.0
+origin	gmobile
+repo	community
+file	gmobile-examples-0.7.2-r0.apk
+checksum	Q1SZ67NnxTlUIpVfyyKRs8Z7cYaKI=
+dep	phoc	phoc
+dep	phosh	!
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmobile.so.0	gmobile
+dep	so:libgobject-2.0.so.0	glib

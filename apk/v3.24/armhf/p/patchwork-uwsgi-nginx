@@ -1,0 +1,14 @@
+name	patchwork-uwsgi-nginx
+version	3.2.1-r1
+description	patchwork nginx wsgi support
+url	https://github.com/getpatchwork/patchwork
+license	GPL-2.0-or-later
+size	2475
+installed-size	1350
+depends	nginx uwsgi-python
+origin	patchwork
+repo	community
+file	patchwork-uwsgi-nginx-3.2.1-r1.apk
+checksum	Q1j513rB8h6uRHxBPAUqzzLhNvW9s=
+dep	nginx	nginx
+dep	uwsgi-python	uwsgi-python3

@@ -1,0 +1,18 @@
+name	asuran-cli
+version	0.1.6-r7
+description	Asuran is a new archive format and rust implementation
+url	https://gitlab.com/asuran-rs/asuran
+license	BSD-2-Clause-Patent
+size	1555258
+installed-size	3946852
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblzma.so.5 so:libssh2.so.1 so:libssl.so.3 so:libzstd.so.1
+origin	asuran-cli
+repo	community
+file	asuran-cli-0.1.6-r7.apk
+checksum	Q1b+PmuFw7quto0FJqvNRjZF0YH0c=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblzma.so.5	xz-libs
+dep	so:libssh2.so.1	libssh2
+dep	so:libssl.so.3	libssl3
+dep	so:libzstd.so.1	zstd-libs

@@ -1,0 +1,17 @@
+name	sent
+version	1-r3
+description	Simple plaintext presentation tool
+url	https://tools.suckless.org/sent/
+license	MIT
+size	12237
+installed-size	22012
+depends	farbfeld so:libX11.so.6 so:libXft.so.2 so:libc.musl-armhf.so.1 so:libfontconfig.so.1
+origin	sent
+repo	community
+file	sent-1-r3.apk
+checksum	Q14fTqQz9mIUbFynYrUH0soAAlbI0=
+dep	farbfeld	farbfeld
+dep	so:libX11.so.6	libx11
+dep	so:libXft.so.2	libxft
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig

@@ -1,0 +1,14 @@
+name	zstd-frugal
+version	1.5.7-r2
+description	Zstandard - Fast real-time compression algorithm (frugal cli)
+url	https://facebook.github.io/zstd/
+license	BSD-3-Clause OR GPL-2.0-or-later
+size	67662
+installed-size	145152
+depends	so:libc.musl-armhf.so.1 so:libzstd.so.1
+origin	zstd
+repo	main
+file	zstd-frugal-1.5.7-r2.apk
+checksum	Q1DTh0kYgpfPf0mYqZctgef7n+NYQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libzstd.so.1	zstd-libs

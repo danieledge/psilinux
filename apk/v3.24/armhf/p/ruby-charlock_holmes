@@ -1,0 +1,18 @@
+name	ruby-charlock_holmes
+version	0.7.9-r3
+description	Character encoding detection, brought to you by ICU
+url	https://github.com/brianmario/charlock_holmes
+license	MIT
+size	12922
+installed-size	28534
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libicui18n.so.78 so:libicuuc.so.78 so:libruby.so.3.4 so:libstdc++.so.6
+origin	ruby-charlock_holmes
+repo	community
+file	ruby-charlock_holmes-0.7.9-r3.apk
+checksum	Q192onhyQM4Zq/5nWVFyNcharZVjc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libruby.so.3.4	ruby-libs
+dep	so:libstdc++.so.6	libstdc++

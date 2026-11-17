@@ -1,0 +1,14 @@
+name	ppp-l2tp
+version	2.5.3-r0
+description	pppd plugin to implement PPPoL2TP protocol
+url	https://ppp.samba.org/
+license	GPL-2.0-or-later
+size	9184
+installed-size	23228
+depends	ppp-daemon so:libc.musl-armhf.so.1
+origin	ppp
+repo	main
+file	ppp-l2tp-2.5.3-r0.apk
+checksum	Q1YLOopCpzui1EHlIr6gjPSjPb3QU=
+dep	ppp-daemon	ppp-daemon
+dep	so:libc.musl-armhf.so.1	musl

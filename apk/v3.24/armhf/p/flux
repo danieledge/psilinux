@@ -1,0 +1,13 @@
+name	flux
+version	2.8.1-r4
+description	Open and extensible continuous delivery solution for Kubernetes
+url	https://fluxcd.io/
+license	Apache-2.0
+size	34880851
+installed-size	111963044
+depends	so:libc.musl-armhf.so.1
+origin	flux
+repo	community
+file	flux-2.8.1-r4.apk
+checksum	Q1Kq1rHo/LDhyzD1Qv7UYMGdtJKfQ=
+dep	so:libc.musl-armhf.so.1	musl

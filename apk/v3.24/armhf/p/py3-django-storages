@@ -1,0 +1,14 @@
+name	py3-django-storages
+version	1.14.6-r3
+description	Custom storage backends for Django
+url	https://django-storages.readthedocs.io/
+license	BSD-3-Clause
+size	28880
+installed-size	102450
+depends	py3-django python3~3.14
+origin	py3-django-storages
+repo	community
+file	py3-django-storages-1.14.6-r3.apk
+checksum	Q1YeeOBMs0O7SX6newWZf6OpO7onE=
+dep	py3-django	py3-django
+dep	python3~3.14	python3

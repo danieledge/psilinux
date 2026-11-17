@@ -1,0 +1,14 @@
+name	perl-test-taint
+version	1.08-r10
+description	Checks for taintedness of variables
+url	https://metacpan.org/release/Test-Taint/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	7019
+installed-size	14039
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-test-taint
+repo	main
+file	perl-test-taint-1.08-r10.apk
+checksum	Q1UcDkwtH0vKMgh6WHjbwUudL/viU=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

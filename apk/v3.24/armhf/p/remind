@@ -1,0 +1,13 @@
+name	remind
+version	06.02.06-r0
+description	Sophisticated calendar and alarm program
+url	https://dianne.skoll.ca/projects/remind/
+license	GPL-2.0-only
+size	287557
+installed-size	933270
+depends	so:libc.musl-armhf.so.1
+origin	remind
+repo	community
+file	remind-06.02.06-r0.apk
+checksum	Q1ep1m0xBWVBywdJjAGAqE2VYNEpM=
+dep	so:libc.musl-armhf.so.1	musl

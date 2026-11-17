@@ -1,0 +1,14 @@
+name	perl-string-compare-constanttime
+version	0.321-r8
+description	Timing side-channel protected string compare
+url	https://metacpan.org/release/String-Compare-ConstantTime/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	7257
+installed-size	11720
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-string-compare-constanttime
+repo	community
+file	perl-string-compare-constanttime-0.321-r8.apk
+checksum	Q1M2qTTGFYJBIngKHbAZ0FAu6xIRE=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,19 @@
+name	gpgme
+version	2.0.1-r1
+description	gnupg made easy
+url	https://www.gnupg.org/related_software/gpgme/
+license	LGPL-2.1-or-later AND GPL-3.0-or-later
+size	171392
+installed-size	393552
+depends	gpg gpg-agent gpgsm /bin/sh so:libassuan.so.9 so:libc.musl-armhf.so.1 so:libgpg-error.so.0
+origin	gpgme
+repo	community
+file	gpgme-2.0.1-r1.apk
+checksum	Q1VmTnlft0CVLGxzt2H9PvClyn6kg=
+dep	gpg	gpg
+dep	gpg-agent	gpg-agent
+dep	gpgsm	gpgsm
+dep	/bin/sh	busybox-binsh
+dep	so:libassuan.so.9	libassuan
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgpg-error.so.0	libgpg-error

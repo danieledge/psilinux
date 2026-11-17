@@ -1,0 +1,13 @@
+name	jansson-static
+version	2.15.0-r0
+description	lightweight JSON library (static library)
+url	http://www.digip.org/jansson/
+license	MIT
+size	55448
+installed-size	113298
+depends	jansson-dev
+origin	jansson
+repo	main
+file	jansson-static-2.15.0-r0.apk
+checksum	Q10bRPjfIOHdXVK7SOvKOryebL/4g=
+dep	jansson-dev	jansson-dev

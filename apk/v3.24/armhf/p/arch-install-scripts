@@ -1,0 +1,16 @@
+name	arch-install-scripts
+version	31-r0
+description	Scripts to aid in installing Arch Linux
+url	https://gitlab.archlinux.org/archlinux/arch-install-scripts
+license	GPL-2.0-only
+size	10434
+installed-size	30625
+depends	bash coreutils pacman util-linux-misc
+origin	arch-install-scripts
+repo	community
+file	arch-install-scripts-31-r0.apk
+checksum	Q127j2Sg+SfGVSs4kRXZ59Wk9NuAU=
+dep	bash	bash
+dep	coreutils	coreutils
+dep	pacman	pacman
+dep	util-linux-misc	util-linux-misc

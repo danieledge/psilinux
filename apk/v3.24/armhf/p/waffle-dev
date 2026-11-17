@@ -1,0 +1,21 @@
+name	waffle-dev
+version	1.8.0-r0
+description	C library for selecting an OpenGL API and window system at runtime (development files)
+url	https://gitlab.freedesktop.org/mesa/waffle
+license	BSD-2-Clause
+size	6058
+installed-size	24901
+depends	waffle=1.8.0-r0 pc:egl pc:gbm pc:gl pc:libdrm pc:wayland-client>=1.10 pc:wayland-egl>=9.1 pc:x11-xcb pkgconfig
+origin	waffle
+repo	community
+file	waffle-dev-1.8.0-r0.apk
+checksum	Q1+Xrjjy22AuamOQCwBPg97wEkGQI=
+dep	waffle=1.8.0-r0	waffle
+dep	pc:egl	mesa-dev
+dep	pc:gbm	mesa-dev
+dep	pc:gl	mesa-dev
+dep	pc:libdrm	libdrm-dev
+dep	pc:wayland-client>=1.10	wayland-dev
+dep	pc:wayland-egl>=9.1	wayland-dev
+dep	pc:x11-xcb	libx11-dev
+dep	pkgconfig	pkgconf

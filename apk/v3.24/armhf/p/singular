@@ -1,0 +1,19 @@
+name	singular
+version	4.4.1_p5-r0
+description	Computer algebra system for polynomial computations
+url	https://www.singular.uni-kl.de/
+license	GPL-2.0-only OR GPL-3.0-only
+size	10561199
+installed-size	27412555
+depends	python3 so:libc.musl-armhf.so.1 so:libcddgmp.so.0 so:libflint.so.22 so:libgcc_s.so.1 so:libgmp.so.10 so:libstdc++.so.6
+origin	singular
+repo	community
+file	singular-4.4.1_p5-r0.apk
+checksum	Q14BWIsRCkJhNpUli2ry0dMtTLo+Y=
+dep	python3	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcddgmp.so.0	cddlib
+dep	so:libflint.so.22	flint
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgmp.so.10	gmp
+dep	so:libstdc++.so.6	libstdc++

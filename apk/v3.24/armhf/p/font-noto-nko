@@ -1,0 +1,14 @@
+name	font-noto-nko
+version	2026.11.01-r0
+description	Noto Sans NKo font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	36360
+installed-size	80418
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-nko-2026.11.01-r0.apk
+checksum	Q1SANKYn3IVUCHtImwx2eFR5CkR34=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

@@ -1,0 +1,13 @@
+name	staticcheck
+version	2026.1-r5
+description	advanced Go linter
+url	https://github.com/dominikh/go-tools
+license	MIT
+size	17824675
+installed-size	44352012
+depends	so:libc.musl-armhf.so.1
+origin	staticcheck
+repo	community
+file	staticcheck-2026.1-r5.apk
+checksum	Q1WmNlqqODWs0H0xHyAPY00MN/g4s=
+dep	so:libc.musl-armhf.so.1	musl

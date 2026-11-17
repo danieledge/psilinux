@@ -1,0 +1,13 @@
+name	mujs-libs
+version	1.3.9-r0
+description	An embeddable JavaScript interpreter (libraries)
+url	https://mujs.com/
+license	ISC
+size	114009
+installed-size	251448
+depends	so:libc.musl-armhf.so.1
+origin	mujs
+repo	community
+file	mujs-libs-1.3.9-r0.apk
+checksum	Q1McRyvaNL4irX4QzVeaNbA6QB0z8=
+dep	so:libc.musl-armhf.so.1	musl

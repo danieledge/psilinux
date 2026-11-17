@@ -1,0 +1,30 @@
+name	luanti
+version	5.15.0-r1
+description	An infinite-world block sandbox game and a game engine
+url	https://www.luanti.org/
+license	LGPL-2.1-or-later AND CC-BY-SA-3.0
+size	9293162
+installed-size	18397787
+depends	luanti-common so:libGL.so.1 so:libSDL2-2.0.so.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libfreetype.so.6 so:libgcc_s.so.1 so:libintl.so.8 so:libjpeg.so.8 so:libluajit-5.1.so.2 so:libopenal.so.1 so:libpng16.so.16 so:libsqlite3.so.0 so:libstdc++.so.6 so:libvorbisfile.so.3 so:libz.so.1 so:libzstd.so.1
+origin	luanti
+repo	community
+file	luanti-5.15.0-r1.apk
+checksum	Q1K5KHdaMUCmabBo+d0ZJ/q+ExSyM=
+dep	luanti-common	luanti-common
+dep	so:libGL.so.1	mesa-gl
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libintl.so.8	libintl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libluajit-5.1.so.2	luajit
+dep	so:libopenal.so.1	openal-soft-libs
+dep	so:libpng16.so.16	libpng
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libvorbisfile.so.3	libvorbis
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

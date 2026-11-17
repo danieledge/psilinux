@@ -1,0 +1,62 @@
+name	nagios-plugins-all
+version	2.5-r0
+description	Metapackage that installs *all* Nagios plugins from the nagios-plugins package
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	1505
+installed-size	0
+depends	nagios-plugins-breeze nagios-plugins-by_ssh nagios-plugins-cluster nagios-plugins-dbi nagios-plugins-dhcp nagios-plugins-dig nagios-plugins-disk_smb nagios-plugins-disk nagios-plugins-dns nagios-plugins-dummy nagios-plugins-file_age nagios-plugins-fping nagios-plugins-hpjd nagios-plugins-http nagios-plugins-icmp nagios-plugins-ide_smart nagios-plugins-ifoperstatus nagios-plugins-ifstatus nagios-plugins-ircd nagios-plugins-ldap nagios-plugins-load nagios-plugins-log nagios-plugins-mailq nagios-plugins-mrtgtraf nagios-plugins-mrtg nagios-plugins-mysql nagios-plugins-nagios nagios-plugins-ntp nagios-plugins-nt nagios-plugins-nwstat nagios-plugins-overcr nagios-plugins-pgsql nagios-plugins-ping nagios-plugins-procs nagios-plugins-radius nagios-plugins-real nagios-plugins-rpc nagios-plugins-sensors nagios-plugins-smtp nagios-plugins-snmp nagios-plugins-ssh nagios-plugins-swap nagios-plugins-time nagios-plugins-ups nagios-plugins-uptime nagios-plugins-users nagios-plugins-wave nagios-plugins-ssl_validity nagios-plugins-openrc nagios-plugins-tcp
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-all-2.5-r0.apk
+checksum	Q1qgz66lwqgPknTB1WXFmJ1iVbgEI=
+dep	nagios-plugins-breeze	nagios-plugins-breeze
+dep	nagios-plugins-by_ssh	nagios-plugins-by_ssh
+dep	nagios-plugins-cluster	nagios-plugins-cluster
+dep	nagios-plugins-dbi	nagios-plugins-dbi
+dep	nagios-plugins-dhcp	nagios-plugins-dhcp
+dep	nagios-plugins-dig	nagios-plugins-dig
+dep	nagios-plugins-disk_smb	nagios-plugins-disk_smb
+dep	nagios-plugins-disk	nagios-plugins-disk
+dep	nagios-plugins-dns	nagios-plugins-dns
+dep	nagios-plugins-dummy	nagios-plugins-dummy
+dep	nagios-plugins-file_age	nagios-plugins-file_age
+dep	nagios-plugins-fping	nagios-plugins-fping
+dep	nagios-plugins-hpjd	nagios-plugins-hpjd
+dep	nagios-plugins-http	nagios-plugins-http
+dep	nagios-plugins-icmp	nagios-plugins-icmp
+dep	nagios-plugins-ide_smart	nagios-plugins-ide_smart
+dep	nagios-plugins-ifoperstatus	nagios-plugins-ifoperstatus
+dep	nagios-plugins-ifstatus	nagios-plugins-ifstatus
+dep	nagios-plugins-ircd	nagios-plugins-ircd
+dep	nagios-plugins-ldap	nagios-plugins-ldap
+dep	nagios-plugins-load	nagios-plugins-load
+dep	nagios-plugins-log	nagios-plugins-log
+dep	nagios-plugins-mailq	nagios-plugins-mailq
+dep	nagios-plugins-mrtgtraf	nagios-plugins-mrtgtraf
+dep	nagios-plugins-mrtg	nagios-plugins-mrtg
+dep	nagios-plugins-mysql	nagios-plugins-mysql
+dep	nagios-plugins-nagios	nagios-plugins-nagios
+dep	nagios-plugins-ntp	nagios-plugins-ntp
+dep	nagios-plugins-nt	nagios-plugins-nt
+dep	nagios-plugins-nwstat	nagios-plugins-nwstat
+dep	nagios-plugins-overcr	nagios-plugins-overcr
+dep	nagios-plugins-pgsql	nagios-plugins-pgsql
+dep	nagios-plugins-ping	nagios-plugins-ping
+dep	nagios-plugins-procs	nagios-plugins-procs
+dep	nagios-plugins-radius	nagios-plugins-radius
+dep	nagios-plugins-real	nagios-plugins-real
+dep	nagios-plugins-rpc	nagios-plugins-rpc
+dep	nagios-plugins-sensors	nagios-plugins-sensors
+dep	nagios-plugins-smtp	nagios-plugins-smtp
+dep	nagios-plugins-snmp	nagios-plugins-snmp
+dep	nagios-plugins-ssh	nagios-plugins-ssh
+dep	nagios-plugins-swap	nagios-plugins-swap
+dep	nagios-plugins-time	nagios-plugins-time
+dep	nagios-plugins-ups	nagios-plugins-ups
+dep	nagios-plugins-uptime	nagios-plugins-uptime
+dep	nagios-plugins-users	nagios-plugins-users
+dep	nagios-plugins-wave	nagios-plugins-wave
+dep	nagios-plugins-ssl_validity	nagios-plugins-ssl_validity
+dep	nagios-plugins-openrc	nagios-plugins-openrc
+dep	nagios-plugins-tcp	nagios-plugins-tcp

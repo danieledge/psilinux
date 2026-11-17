@@ -1,0 +1,16 @@
+name	font-arabic-misc
+version	1.0.4-r1
+description	X.org misc font
+url	https://xorg.freedesktop.org/
+license	MIT
+size	14872
+installed-size	14689
+depends	encodings font-alias mkfontscale fontconfig
+origin	font-arabic-misc
+repo	main
+file	font-arabic-misc-1.0.4-r1.apk
+checksum	Q1MFElFFUeIi5ClOZwaVKt8jbPK2I=
+dep	encodings	encodings
+dep	font-alias	font-alias
+dep	mkfontscale	mkfontscale
+dep	fontconfig	fontconfig

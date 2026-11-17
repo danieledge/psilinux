@@ -1,0 +1,15 @@
+name	valkey-compat
+version	9.0.7-r0
+description	Valkey command symlinks and system group for compatibility with redis
+url	https://valkey.io/
+license	BSD-3-Clause AND BSD-2-Clause AND MIT
+size	1986
+installed-size	1
+depends	!redis !redict-compat /bin/sh valkey-cli=9.0.7-r0 valkey=9.0.7-r0
+origin	valkey
+repo	main
+file	valkey-compat-9.0.7-r0.apk
+checksum	Q1OsCJByCXkibw6E44vaJ6+aLX5YY=
+dep	/bin/sh	busybox-binsh
+dep	valkey-cli=9.0.7-r0	valkey-cli
+dep	valkey=9.0.7-r0	valkey

@@ -1,0 +1,14 @@
+name	php84-bcmath
+version	8.4.27-r0
+description	PHP84 extension: BC Math
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	25012
+installed-size	50513
+depends	php84-common so:libc.musl-armhf.so.1
+origin	php84
+repo	community
+file	php84-bcmath-8.4.27-r0.apk
+checksum	Q11PlSxtKNWb0GiOag6qd7ZkX+7Ac=
+dep	php84-common	php84-common
+dep	so:libc.musl-armhf.so.1	musl

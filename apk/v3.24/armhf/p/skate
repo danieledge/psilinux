@@ -1,0 +1,13 @@
+name	skate
+version	1.0.1-r14
+description	A personal key value store
+url	https://github.com/charmbracelet/skate
+license	MIT
+size	4748084
+installed-size	12399100
+depends	so:libc.musl-armhf.so.1
+origin	skate
+repo	community
+file	skate-1.0.1-r14.apk
+checksum	Q1WUiL23dryQv5YPt5N58Xjzjx77E=
+dep	so:libc.musl-armhf.so.1	musl

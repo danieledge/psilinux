@@ -1,0 +1,14 @@
+name	libao
+version	1.2.2-r3
+description	Cross-platform audio output library and plugins
+url	https://www.xiph.org/ao
+license	GPL-2.0-or-later
+size	22269
+installed-size	48459
+depends	so:libasound.so.2 so:libc.musl-armhf.so.1
+origin	libao
+repo	community
+file	libao-1.2.2-r3.apk
+checksum	Q1cQ6KdCVPEneyN6+TjGfTRoXXBNg=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl

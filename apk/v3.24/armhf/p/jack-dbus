@@ -1,0 +1,16 @@
+name	jack-dbus
+version	1.9.22-r4
+description	Jack D-Bus launcher
+url	https://jackaudio.org/
+license	GPL-2.0-or-later
+size	34629
+installed-size	79419
+depends	so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libexpat.so.1 so:libjackserver.so.0
+origin	jack
+repo	main
+file	jack-dbus-1.9.22-r4.apk
+checksum	Q1Ecg5AVOXEc34zR4kSROBVNvPZO8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libexpat.so.1	libexpat
+dep	so:libjackserver.so.0	jack

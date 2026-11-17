@@ -1,0 +1,38 @@
+name	mitmproxy
+version	11.0.0-r3
+description	Interactive TLS-capable intercepting HTTP proxy
+url	https://mitmproxy.org/
+license	MIT
+size	1579299
+installed-size	4542962
+depends	py3-aioquic py3-asgiref py3-bcrypt py3-brotli py3-certifi py3-cryptography py3-flask py3-h11 py3-h2 py3-hyperframe py3-kaitaistruct py3-ldap3 py3-mitmproxy-rs py3-msgpack py3-protobuf py3-openssl py3-parsing py3-pyperclip py3-ruamel.yaml py3-sortedcontainers py3-tornado py3-urwid py3-wsproto py3-publicsuffix2 py3-zstandard python3~3.14
+origin	mitmproxy
+repo	community
+file	mitmproxy-11.0.0-r3.apk
+checksum	Q1+LmrBGRo1IW8FPop0I/vzBrleOY=
+dep	py3-aioquic	py3-aioquic
+dep	py3-asgiref	py3-asgiref
+dep	py3-bcrypt	py3-bcrypt
+dep	py3-brotli	py3-brotli
+dep	py3-certifi	py3-certifi
+dep	py3-cryptography	py3-cryptography
+dep	py3-flask	py3-flask
+dep	py3-h11	py3-h11
+dep	py3-h2	py3-h2
+dep	py3-hyperframe	py3-hyperframe
+dep	py3-kaitaistruct	py3-kaitaistruct
+dep	py3-ldap3	py3-ldap3
+dep	py3-mitmproxy-rs	py3-mitmproxy-rs
+dep	py3-msgpack	py3-msgpack
+dep	py3-protobuf	py3-protobuf
+dep	py3-openssl	py3-openssl
+dep	py3-parsing	py3-parsing
+dep	py3-pyperclip	py3-pyperclip
+dep	py3-ruamel.yaml	py3-ruamel.yaml
+dep	py3-sortedcontainers	py3-sortedcontainers
+dep	py3-tornado	py3-tornado
+dep	py3-urwid	py3-urwid
+dep	py3-wsproto	py3-wsproto
+dep	py3-publicsuffix2	py3-publicsuffix2
+dep	py3-zstandard	py3-zstandard
+dep	python3~3.14	python3

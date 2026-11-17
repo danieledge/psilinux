@@ -1,0 +1,14 @@
+name	ruby-tcxread
+version	0.2.1-r0
+description	Parser for TCX files
+url	https://github.com/firefly-cpp/tcxread
+license	MIT
+size	7047
+installed-size	16456
+depends	ruby ruby-nokogiri
+origin	ruby-tcxread
+repo	community
+file	ruby-tcxread-0.2.1-r0.apk
+checksum	Q1xctEIZloBg9+s7SgFsf57M7B2PQ=
+dep	ruby	ruby
+dep	ruby-nokogiri	ruby-nokogiri

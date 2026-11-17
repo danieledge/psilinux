@@ -1,0 +1,24 @@
+name	imagemagick
+version	7.1.2.35-r0
+description	Collection of tools and libraries for many image formats
+url	https://imagemagick.org/
+license	ImageMagick
+size	1186317
+installed-size	3261493
+depends	/bin/sh so:libMagickCore-7.Q16HDRI.so.10 so:libMagickWand-7.Q16HDRI.so.10 so:libX11.so.6 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgomp.so.1 so:liblzma.so.5 so:libpng16.so.16 so:libxml2.so.2 so:libz.so.1
+origin	imagemagick
+repo	community
+file	imagemagick-7.1.2.35-r0.apk
+checksum	Q161xOKwr0QCMKbTQ3KEaqxj4GgK8=
+dep	/bin/sh	busybox-binsh
+dep	so:libMagickCore-7.Q16HDRI.so.10	imagemagick-libs
+dep	so:libMagickWand-7.Q16HDRI.so.10	imagemagick-libs
+dep	so:libX11.so.6	libx11
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgomp.so.1	libgomp
+dep	so:liblzma.so.5	xz-libs
+dep	so:libpng16.so.16	libpng
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

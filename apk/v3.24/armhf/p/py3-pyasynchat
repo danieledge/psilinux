@@ -1,0 +1,14 @@
+name	py3-pyasynchat
+version	1.0.5-r1
+description	Make asynchat available for Python 3.12 onwards
+url	https://pypi.org/project/pyasynchat/
+license	PSF-2.0
+size	8896
+installed-size	18381
+depends	py3-pyasyncore python3~3.14
+origin	py3-pyasynchat
+repo	community
+file	py3-pyasynchat-1.0.5-r1.apk
+checksum	Q1R6VMOgGMVWiKRxZO8phEhMouiKo=
+dep	py3-pyasyncore	py3-pyasyncore
+dep	python3~3.14	python3

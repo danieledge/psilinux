@@ -1,0 +1,23 @@
+name	openldap-backend-all
+version	2.6.15-r0
+description	Virtual package that installs all OpenLDAP backends
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	1332
+installed-size	0
+depends	openldap-back-asyncmeta openldap-back-dnssrv openldap-back-ldap openldap-back-lload openldap-back-mdb openldap-back-meta openldap-back-null openldap-back-passwd openldap-back-relay openldap-back-sock openldap-back-sql
+origin	openldap
+repo	main
+file	openldap-backend-all-2.6.15-r0.apk
+checksum	Q1HgLDyHyZBzh5dOlsM4pChKJK/Ds=
+dep	openldap-back-asyncmeta	openldap-back-asyncmeta
+dep	openldap-back-dnssrv	openldap-back-dnssrv
+dep	openldap-back-ldap	openldap-back-ldap
+dep	openldap-back-lload	openldap-back-lload
+dep	openldap-back-mdb	openldap-back-mdb
+dep	openldap-back-meta	openldap-back-meta
+dep	openldap-back-null	openldap-back-null
+dep	openldap-back-passwd	openldap-back-passwd
+dep	openldap-back-relay	openldap-back-relay
+dep	openldap-back-sock	openldap-back-sock
+dep	openldap-back-sql	openldap-back-sql

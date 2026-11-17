@@ -1,0 +1,18 @@
+name	gupnp-av-dev
+version	0.14.5-r0
+description	Small utility library that aims to ease the handling and implementation of UPnP A/V profiles (development files)
+url	https://gitlab.gnome.org/GNOME/gupnp-av
+license	LGPL-2.1-or-later
+size	42558
+installed-size	460585
+depends	gupnp-av=0.14.5-r0 pc:gio-2.0 pc:glib-2.0>=2.58 pc:gobject-2.0>=2.58 pc:libxml-2.0 pkgconfig
+origin	gupnp-av
+repo	community
+file	gupnp-av-dev-0.14.5-r0.apk
+checksum	Q16A/ADyUpLPi24Fv4EuSbIlYn3MY=
+dep	gupnp-av=0.14.5-r0	gupnp-av
+dep	pc:gio-2.0	glib-dev
+dep	pc:glib-2.0>=2.58	glib-dev
+dep	pc:gobject-2.0>=2.58	glib-dev
+dep	pc:libxml-2.0	libxml2-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,23 @@
+name	kea-hook-run-script
+version	3.0.3-r0
+description	Kea hook running external scripts in response to hook events
+url	https://kea.isc.org/
+license	MPL-2.0
+size	38255
+installed-size	95644
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libkea-asiolink.so.88 so:libkea-dhcp.so.109 so:libkea-dhcpsrv.so.131 so:libkea-exceptions.so.45 so:libkea-hooks.so.121 so:libkea-log.so.75 so:libkea-process.so.91 so:libstdc++.so.6
+origin	kea
+repo	main
+file	kea-hook-run-script-3.0.3-r0.apk
+checksum	Q1mgzrr0k8ZCORAER0p+s0hUxNVWM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libkea-asiolink.so.88	kea-common
+dep	so:libkea-dhcp.so.109	kea-common
+dep	so:libkea-dhcpsrv.so.131	kea-common
+dep	so:libkea-exceptions.so.45	kea-common
+dep	so:libkea-hooks.so.121	kea-common
+dep	so:libkea-log.so.75	kea-common
+dep	so:libkea-process.so.91	kea-common
+dep	so:libstdc++.so.6	libstdc++

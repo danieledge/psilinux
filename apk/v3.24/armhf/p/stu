@@ -1,0 +1,14 @@
+name	stu
+version	0.7.6-r0
+description	TUI explorer for S3 compatible object stores
+url	https://lusingander.github.io/stu/
+license	MIT
+size	5999124
+installed-size	11808944
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	stu
+repo	community
+file	stu-0.7.6-r0.apk
+checksum	Q1v8n0FgNXaNVA9c+8Sqf/T/7Yi2M=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

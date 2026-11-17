@@ -1,0 +1,13 @@
+name	liburiparser
+version	1.0.2-r0
+description	strictly RFC 3986 compliant URI parsing and handling library (libraries)
+url	https://uriparser.github.io/
+license	BSD-3-Clause
+size	36531
+installed-size	99524
+depends	so:libc.musl-armhf.so.1
+origin	uriparser
+repo	community
+file	liburiparser-1.0.2-r0.apk
+checksum	Q1EEQWi6tTluR08zpWoOCZFCKVX1M=
+dep	so:libc.musl-armhf.so.1	musl

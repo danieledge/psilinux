@@ -1,0 +1,27 @@
+name	osmo
+version	0.4.4-r4
+description	A handy personal organizer
+url	http://clayo.org/osmo/
+license	GPL-2.0-or-later
+size	340780
+installed-size	622478
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libical.so.3 so:libicalss.so.3 so:libintl.so.8 so:libnotify.so.4 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libwebkit2gtk-4.1.so.0 so:libxml2.so.2
+origin	osmo
+repo	community
+file	osmo-0.4.4-r4.apk
+checksum	Q19+0DnNrxTpP+F2U837l6V/2Sa1U=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libical.so.3	libical
+dep	so:libicalss.so.3	libical
+dep	so:libintl.so.8	libintl
+dep	so:libnotify.so.4	libnotify
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libwebkit2gtk-4.1.so.0	webkit2gtk-4.1
+dep	so:libxml2.so.2	libxml2

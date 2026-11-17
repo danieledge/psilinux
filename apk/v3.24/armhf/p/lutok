@@ -1,0 +1,16 @@
+name	lutok
+version	0.6.1-r0
+description	lightweight C++ API for Lua
+url	https://github.com/freebsd/lutok
+license	BSD-3-Clause
+size	15273
+installed-size	38272
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblua-5.4.so.0 so:libstdc++.so.6
+origin	lutok
+repo	main
+file	lutok-0.6.1-r0.apk
+checksum	Q1w1wewyHn9pF+1Mw8hOEcc3gYrwU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblua-5.4.so.0	lua5.4-libs
+dep	so:libstdc++.so.6	libstdc++

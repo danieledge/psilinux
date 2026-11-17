@@ -1,0 +1,14 @@
+name	py3-priority
+version	2.0.0-r1
+description	Pure-Python implementation of the HTTP/2 priority tree
+url	https://github.com/python-hyper/priority
+license	MIT
+size	10082
+installed-size	25056
+depends	python3 python3~3.14
+origin	py3-priority
+repo	community
+file	py3-priority-2.0.0-r1.apk
+checksum	Q1+EMtSluZL+oLGiBkSDDLDBIizbA=
+dep	python3	python3
+dep	python3~3.14	python3

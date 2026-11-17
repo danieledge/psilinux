@@ -1,0 +1,18 @@
+name	captagent
+version	6.4.3-r0
+description	HEP Capture Agent for HOMER
+url	https://github.com/sipcapture/captagent
+license	GPL-3.0-or-later
+size	175629
+installed-size	429712
+depends	so:libc.musl-armhf.so.1 so:libexpat.so.1 so:libfl.so.2 so:libjson-c.so.5 so:libpcap.so.1 so:libuv.so.1
+origin	captagent
+repo	community
+file	captagent-6.4.3-r0.apk
+checksum	Q13wsUH6M8cW3qfsM6HMZG3Pk98EI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexpat.so.1	libexpat
+dep	so:libfl.so.2	flex-libs
+dep	so:libjson-c.so.5	json-c
+dep	so:libpcap.so.1	libpcap
+dep	so:libuv.so.1	libuv

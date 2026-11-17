@@ -1,0 +1,14 @@
+name	nsf
+version	2.4.0-r1
+description	Next Scripting Framework for Tcl
+url	https://next-scripting.org/
+license	MIT
+size	242519
+installed-size	817779
+depends	tcl so:libc.musl-armhf.so.1
+origin	nsf
+repo	community
+file	nsf-2.4.0-r1.apk
+checksum	Q1DKCNnkSB3jCM2l1FSIeWq7F06+o=
+dep	tcl	tcl
+dep	so:libc.musl-armhf.so.1	musl

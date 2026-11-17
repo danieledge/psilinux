@@ -1,0 +1,17 @@
+name	libcanberra
+version	0.30-r12
+description	Simple audio library for GTK applications
+url	https://0pointer.de/lennart/projects/libcanberra/
+license	LGPL-2.1-or-later
+size	32834
+installed-size	82852
+depends	sound-theme-freedesktop so:libc.musl-armhf.so.1 so:libltdl.so.7 so:libudev.so.1 so:libvorbisfile.so.3
+origin	libcanberra
+repo	community
+file	libcanberra-0.30-r12.apk
+checksum	Q1QcvJ3r7NBrMfKYSbBOsJ1E2+8e4=
+dep	sound-theme-freedesktop	sound-theme-freedesktop
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libltdl.so.7	libltdl
+dep	so:libudev.so.1	eudev-libs
+dep	so:libvorbisfile.so.3	libvorbis

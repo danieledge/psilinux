@@ -1,0 +1,14 @@
+name	minissdpd
+version	1.6.0-r1
+description	MiniSSDP Daemon
+url	http://miniupnp.free.fr/minissdpd.html
+license	BSD-3-Clause
+size	20083
+installed-size	38176
+depends	so:libc.musl-armhf.so.1 so:libnfnetlink.so.0
+origin	minissdpd
+repo	community
+file	minissdpd-1.6.0-r1.apk
+checksum	Q17KwpWmNiv7+2SRLCm+5Ckvk8cCM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnfnetlink.so.0	libnfnetlink

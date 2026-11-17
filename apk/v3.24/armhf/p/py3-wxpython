@@ -1,0 +1,34 @@
+name	py3-wxpython
+version	4.2.5-r0
+description	Cross-platform GUI toolkit for the Python language
+url	https://wxpython.org/
+license	custom:wxWidgets
+size	10068872
+installed-size	36239657
+depends	python3 py3-numpy py3-pillow py3-six python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libwx_baseu-3.2.so.0 so:libwx_baseu_net-3.2.so.0 so:libwx_baseu_xml-3.2.so.0 so:libwx_gtk3u_aui-3.2.so.0 so:libwx_gtk3u_core-3.2.so.0 so:libwx_gtk3u_gl-3.2.so.0 so:libwx_gtk3u_html-3.2.so.0 so:libwx_gtk3u_media-3.2.so.0 so:libwx_gtk3u_propgrid-3.2.so.0 so:libwx_gtk3u_ribbon-3.2.so.0 so:libwx_gtk3u_richtext-3.2.so.0 so:libwx_gtk3u_stc-3.2.so.0 so:libwx_gtk3u_webview-3.2.so.0 so:libwx_gtk3u_xrc-3.2.so.0
+origin	py3-wxpython
+repo	community
+file	py3-wxpython-4.2.5-r0.apk
+checksum	Q1zf0ODYDBfktkDln9k6lQe6pUe0U=
+dep	python3	python3
+dep	py3-numpy	py3-numpy
+dep	py3-pillow	py3-pillow
+dep	py3-six	py3-six
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwx_baseu-3.2.so.0	wxwidgets
+dep	so:libwx_baseu_net-3.2.so.0	wxwidgets
+dep	so:libwx_baseu_xml-3.2.so.0	wxwidgets
+dep	so:libwx_gtk3u_aui-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_core-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_gl-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_html-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_media-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_propgrid-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_ribbon-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_richtext-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_stc-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_webview-3.2.so.0	wxwidgets-webview
+dep	so:libwx_gtk3u_xrc-3.2.so.0	wxwidgets-gtk3

@@ -1,0 +1,23 @@
+name	postgresql18-dev
+version	18.7-r0
+description	A sophisticated object-relational DBMS, version 18 (development files)
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	2261732
+installed-size	8380661
+depends	libpq-dev libecpg-dev liburing-dev clang22 icu-dev llvm22 lz4-dev openssl-dev zstd-dev so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	postgresql18
+repo	main
+file	postgresql18-dev-18.7-r0.apk
+checksum	Q15Ig7W2rg4KmIDwy06a513gEcOUA=
+dep	libpq-dev	libpq-dev
+dep	libecpg-dev	libecpg-dev
+dep	liburing-dev	liburing-dev
+dep	clang22	clang22
+dep	icu-dev	icu-dev
+dep	llvm22	llvm22
+dep	lz4-dev	lz4-dev
+dep	openssl-dev	openssl-dev
+dep	zstd-dev	zstd-dev
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

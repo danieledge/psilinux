@@ -1,0 +1,14 @@
+name	pulseaudio-ctl
+version	1.70-r1
+description	Control pulseaudio volume from the shell or mapped to keyboard shortcuts
+url	https://github.com/graysky2/pulseaudio-ctl
+license	MIT
+size	5231
+installed-size	12603
+depends	bash pulseaudio-utils
+origin	pulseaudio-ctl
+repo	community
+file	pulseaudio-ctl-1.70-r1.apk
+checksum	Q1Rd2UaWKZ7fmBjd3f+Nq2kcrn5m8=
+dep	bash	bash
+dep	pulseaudio-utils	pulseaudio-utils

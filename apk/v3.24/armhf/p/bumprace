@@ -1,0 +1,17 @@
+name	bumprace
+version	1.5.8-r1
+description	1 or 2 players race through a multi-level maze
+url	http://www.linux-games.com/bumprace/
+license	GPL-2.0-only
+size	31285
+installed-size	70968
+depends	bumprace-data so:libSDL-1.2.so.0 so:libSDL_image-1.2.so.0 so:libSDL_mixer-1.2.so.0 so:libc.musl-armhf.so.1
+origin	bumprace
+repo	community
+file	bumprace-1.5.8-r1.apk
+checksum	Q1fh39LeZcXlUrIhQppNsospByVgY=
+dep	bumprace-data	bumprace-data
+dep	so:libSDL-1.2.so.0	sdl12-compat
+dep	so:libSDL_image-1.2.so.0	sdl_image
+dep	so:libSDL_mixer-1.2.so.0	sdl_mixer
+dep	so:libc.musl-armhf.so.1	musl

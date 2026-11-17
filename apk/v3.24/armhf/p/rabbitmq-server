@@ -1,0 +1,14 @@
+name	rabbitmq-server
+version	4.3.8-r0
+description	Feature-rich multi-protocol messaging and streaming broker
+url	https://www.rabbitmq.com/
+license	MPL-2.0
+size	26530068
+installed-size	33991338
+depends	erlang27 /bin/sh
+origin	rabbitmq-server
+repo	community
+file	rabbitmq-server-4.3.8-r0.apk
+checksum	Q1K/VJqtmwM5NCtONEyC+nDSFVq7A=
+dep	erlang27	erlang27
+dep	/bin/sh	busybox-binsh

@@ -1,0 +1,21 @@
+name	rocksdb7
+version	7.9.2-r2
+description	persistent key-value store for fast storage environments
+url	https://rocksdb.org
+license	Apache-2.0 OR GPL-2.0-only
+size	2887111
+installed-size	7628796
+depends	!rocksdb so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgflags.so.2.3 so:liblz4.so.1 so:libsnappy.so.1 so:libstdc++.so.6 so:liburing.so.2 so:libzstd.so.1
+origin	rocksdb7
+repo	community
+file	rocksdb7-7.9.2-r2.apk
+checksum	Q1klWkqGNuU1GrRGVIQO7JP+5FkBY=
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgflags.so.2.3	gflags
+dep	so:liblz4.so.1	lz4-libs
+dep	so:libsnappy.so.1	snappy
+dep	so:libstdc++.so.6	libstdc++
+dep	so:liburing.so.2	liburing
+dep	so:libzstd.so.1	zstd-libs

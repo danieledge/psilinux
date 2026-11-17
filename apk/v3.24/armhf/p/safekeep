@@ -1,0 +1,16 @@
+name	safekeep
+version	1.5.1-r2
+description	SafeKeep backup system
+url	https://github.com/dimipaun/safekeep
+license	GPL-2.0-or-later
+size	22717
+installed-size	93250
+depends	openssh-client python3 rdiff-backup util-linux-misc
+origin	safekeep
+repo	community
+file	safekeep-1.5.1-r2.apk
+checksum	Q1BjtcvXONcA0PN+gEgd+6A7a8rlo=
+dep	openssh-client	openssh-client-default
+dep	python3	python3
+dep	rdiff-backup	rdiff-backup
+dep	util-linux-misc	util-linux-misc

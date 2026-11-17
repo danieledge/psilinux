@@ -1,0 +1,13 @@
+name	py3-redis-pyc
+version	8.0.0-r0
+description	Precompiled Python bytecode for py3-redis
+url	https://github.com/andymccurdy/redis-py
+license	MIT
+size	1064765
+installed-size	3164555
+depends	python3~3.14
+origin	py3-redis
+repo	community
+file	py3-redis-pyc-8.0.0-r0.apk
+checksum	Q1vcHE0ImDCxJLIju41NFPisoDMws=
+dep	python3~3.14	python3

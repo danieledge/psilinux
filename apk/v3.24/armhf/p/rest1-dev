@@ -1,0 +1,18 @@
+name	rest1-dev
+version	0.9.1-r1
+description	Library for access to RESTful web services (development files)
+url	https://www.gnome.org/
+license	LGPL-2.0-or-later
+size	30557
+installed-size	257296
+depends	rest1=0.9.1-r1 pc:glib-2.0>=2.44 pc:json-glib-1.0 pc:libsoup-3.0>=2.99.2 pc:libxml-2.0 pkgconfig
+origin	rest1
+repo	community
+file	rest1-dev-0.9.1-r1.apk
+checksum	Q121qTD4Pow00LNdvr48cir4cGK0Q=
+dep	rest1=0.9.1-r1	rest1
+dep	pc:glib-2.0>=2.44	glib-dev
+dep	pc:json-glib-1.0	json-glib-dev
+dep	pc:libsoup-3.0>=2.99.2	libsoup3-dev
+dep	pc:libxml-2.0	libxml2-dev
+dep	pkgconfig	pkgconf

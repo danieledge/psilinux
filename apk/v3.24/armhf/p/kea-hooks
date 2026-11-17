@@ -1,0 +1,43 @@
+name	kea-hooks
+version	3.0.3-r0
+description	Metapackage that installs all Kea hooks
+url	https://kea.isc.org/
+license	MPL-2.0
+size	1436
+installed-size	0
+depends	kea-doc kea-dev kea-admin kea-ctrl-agent kea-dhcp-ddns kea-dhcp4 kea-dhcp6 kea-shell-pyc kea-shell kea-hook-bootp kea-hook-class-cmds kea-hook-ddns-tuning kea-hook-flex-id kea-hook-flex-option kea-hook-ha kea-hook-host-cache kea-hook-host-cmds kea-hook-lease-cmds kea-hook-lease-query kea-hook-legal-log kea-hook-limits kea-hook-mysql kea-hook-perfmon kea-hook-ping-check kea-hook-pgsql kea-hook-radius kea-hook-run-script kea-hook-stat-cmds kea-hook-subnet-cmds kea-perfdhcp kea-common
+origin	kea
+repo	main
+file	kea-hooks-3.0.3-r0.apk
+checksum	Q1+FwTdd/+Z54bHJoP86NgYqbb5is=
+dep	kea-doc	kea-doc
+dep	kea-dev	kea-dev
+dep	kea-admin	kea-admin
+dep	kea-ctrl-agent	kea-ctrl-agent
+dep	kea-dhcp-ddns	kea-dhcp-ddns
+dep	kea-dhcp4	kea-dhcp4
+dep	kea-dhcp6	kea-dhcp6
+dep	kea-shell-pyc	kea-shell-pyc
+dep	kea-shell	kea-shell
+dep	kea-hook-bootp	kea-hook-bootp
+dep	kea-hook-class-cmds	kea-hook-class-cmds
+dep	kea-hook-ddns-tuning	kea-hook-ddns-tuning
+dep	kea-hook-flex-id	kea-hook-flex-id
+dep	kea-hook-flex-option	kea-hook-flex-option
+dep	kea-hook-ha	kea-hook-ha
+dep	kea-hook-host-cache	kea-hook-host-cache
+dep	kea-hook-host-cmds	kea-hook-host-cmds
+dep	kea-hook-lease-cmds	kea-hook-lease-cmds
+dep	kea-hook-lease-query	kea-hook-lease-query
+dep	kea-hook-legal-log	kea-hook-legal-log
+dep	kea-hook-limits	kea-hook-limits
+dep	kea-hook-mysql	kea-hook-mysql
+dep	kea-hook-perfmon	kea-hook-perfmon
+dep	kea-hook-ping-check	kea-hook-ping-check
+dep	kea-hook-pgsql	kea-hook-pgsql
+dep	kea-hook-radius	kea-hook-radius
+dep	kea-hook-run-script	kea-hook-run-script
+dep	kea-hook-stat-cmds	kea-hook-stat-cmds
+dep	kea-hook-subnet-cmds	kea-hook-subnet-cmds
+dep	kea-perfdhcp	kea-perfdhcp
+dep	kea-common	kea-common

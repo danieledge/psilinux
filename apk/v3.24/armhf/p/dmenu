@@ -1,0 +1,17 @@
+name	dmenu
+version	5.4-r0
+description	Dynamic menu for X
+url	https://tools.suckless.org/dmenu/
+license	MIT
+size	16195
+installed-size	35510
+depends	so:libX11.so.6 so:libXft.so.2 so:libXinerama.so.1 so:libc.musl-armhf.so.1 so:libfontconfig.so.1
+origin	dmenu
+repo	community
+file	dmenu-5.4-r0.apk
+checksum	Q1Ulprl9R8UYcHOH5ypUr4Unk5Cyg=
+dep	so:libX11.so.6	libx11
+dep	so:libXft.so.2	libxft
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig

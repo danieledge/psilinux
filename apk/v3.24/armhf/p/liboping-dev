@@ -1,0 +1,14 @@
+name	liboping-dev
+version	1.10.0-r2
+description	A C library to generate ICMP echo requests (development files)
+url	http://verplant.org/liboping/
+license	LGPL-2.0-or-later
+size	3172
+installed-size	3089
+depends	liboping=1.10.0-r2 pkgconfig
+origin	liboping
+repo	community
+file	liboping-dev-1.10.0-r2.apk
+checksum	Q1ramEd98VskDsRlUqYhn4H1BVxWs=
+dep	liboping=1.10.0-r2	liboping
+dep	pkgconfig	pkgconf

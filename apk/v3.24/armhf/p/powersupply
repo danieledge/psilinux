@@ -1,0 +1,16 @@
+name	powersupply
+version	0.10.2-r0
+description	Mobile app to display power status of phones
+url	https://gitlab.postmarketos.org/postmarketOS/powersupply
+license	MIT
+size	12288
+installed-size	81121
+depends	gtk4.0 libadwaita py3-gobject3 python3
+origin	powersupply
+repo	community
+file	powersupply-0.10.2-r0.apk
+checksum	Q1+9Auc7fqSf61sPTlbsi4E22Ezjk=
+dep	gtk4.0	gtk4.0
+dep	libadwaita	libadwaita
+dep	py3-gobject3	py3-gobject3
+dep	python3	python3

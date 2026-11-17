@@ -1,0 +1,14 @@
+name	rapidcheck-dev
+version	0_git20231214-r2
+description	QuickCheck-like property-based testing for C++ (development files)
+url	https://github.com/emil-e/rapidcheck
+license	BSD-2-Clause
+size	67784
+installed-size	275682
+depends	rapidcheck=0_git20231214-r2 pkgconfig
+origin	rapidcheck
+repo	community
+file	rapidcheck-dev-0_git20231214-r2.apk
+checksum	Q1qjYDfJ2vqz7tr4ibcWJV5FgjmMw=
+dep	rapidcheck=0_git20231214-r2	rapidcheck
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	font-ubuntu-nerd
+version	3.4.0-r0
+description	Ubuntu Nerd Font
+url	https://nerdfonts.com
+license	MIT AND OFL-1.1 AND Apache-2.0
+size	24585410
+installed-size	44354668
+depends	fontconfig font-ubuntu-mono-nerd
+origin	nerd-fonts
+repo	community
+file	font-ubuntu-nerd-3.4.0-r0.apk
+checksum	Q15LFMsCxmjDuz/3gi31Eo+iwHVdo=
+dep	fontconfig	fontconfig
+dep	font-ubuntu-mono-nerd	font-ubuntu-mono-nerd

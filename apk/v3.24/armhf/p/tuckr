@@ -1,0 +1,14 @@
+name	tuckr
+version	0.13.1-r1
+description	Dotfile manager inspired by Stow and Git
+url	https://raphgl.github.io/Tuckr/
+license	GPL-3.0-only
+size	511044
+installed-size	1016600
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	tuckr
+repo	community
+file	tuckr-0.13.1-r1.apk
+checksum	Q1FhN1zjfQMtOXEx1/zufMgby5wkM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

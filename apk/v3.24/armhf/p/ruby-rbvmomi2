@@ -1,0 +1,17 @@
+name	ruby-rbvmomi2
+version	3.8.0-r2
+description	Ruby interface to the VMware vSphere API
+url	https://github.com/ManageIQ/rbvmomi2
+license	MIT
+size	272797
+installed-size	1494890
+depends	ruby ruby-base64 ruby-builder ruby-nokogiri ruby-optimist
+origin	ruby-rbvmomi2
+repo	community
+file	ruby-rbvmomi2-3.8.0-r2.apk
+checksum	Q1N+MrogqaUV16EzfirQTB7fd2Wmw=
+dep	ruby	ruby
+dep	ruby-base64	ruby-base64
+dep	ruby-builder	ruby-builder
+dep	ruby-nokogiri	ruby-nokogiri
+dep	ruby-optimist	ruby-optimist

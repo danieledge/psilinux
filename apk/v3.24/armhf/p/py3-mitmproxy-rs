@@ -1,0 +1,15 @@
+name	py3-mitmproxy-rs
+version	0.9.3-r1
+description	mitmproxy modules written in Rust
+url	https://github.com/mitmproxy/mitmproxy_rs
+license	MIT
+size	944139
+installed-size	1906296
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	py3-mitmproxy-rs
+repo	community
+file	py3-mitmproxy-rs-0.9.3-r1.apk
+checksum	Q114Coo3pCq3wXYQdEtBqhWdGyvLA=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

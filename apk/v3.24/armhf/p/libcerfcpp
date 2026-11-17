@@ -1,0 +1,14 @@
+name	libcerfcpp
+version	3.3-r1
+description	Self-contained complex error function library (C++ interface)
+url	https://jugit.fz-juelich.de/mlz/libcerf/
+license	MIT
+size	52004
+installed-size	58700
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	libcerf
+repo	community
+file	libcerfcpp-3.3-r1.apk
+checksum	Q1XGM7AZh9CzxV+Y34rjoAF6Wdnsg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

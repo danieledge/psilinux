@@ -1,0 +1,14 @@
+name	sircbot
+version	0.4-r9
+description	Minimalistic IRC bot
+url	https://git-old.alpinelinux.org/hosted/sircbot/
+license	GPL-2.0-only
+size	10020
+installed-size	22876
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	sircbot
+repo	main
+file	sircbot-0.4-r9.apk
+checksum	Q1trpthX/McNTPa1qo+xStAoYkcnM=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	py3-pytest-randomly
+version	4.1.0-r0
+description	Pytest plugin to randomly order tests and control random.seed.
+url	https://github.com/pytest-dev/pytest-randomly
+license	MIT
+size	9332
+installed-size	18830
+depends	py3-pytest python3~3.14
+origin	py3-pytest-randomly
+repo	community
+file	py3-pytest-randomly-4.1.0-r0.apk
+checksum	Q1hhjkBz+73M+DBQeQzT7nCYADRN0=
+dep	py3-pytest	py3-pytest
+dep	python3~3.14	python3

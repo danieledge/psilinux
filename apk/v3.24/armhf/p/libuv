@@ -1,0 +1,13 @@
+name	libuv
+version	1.52.1-r0
+description	Cross-platform asychronous I/O
+url	https://libuv.org/
+license	MIT
+size	88205
+installed-size	182551
+depends	so:libc.musl-armhf.so.1
+origin	libuv
+repo	main
+file	libuv-1.52.1-r0.apk
+checksum	Q1uo1lX9ifKFwFEtNdGn8W01kFeTQ=
+dep	so:libc.musl-armhf.so.1	musl

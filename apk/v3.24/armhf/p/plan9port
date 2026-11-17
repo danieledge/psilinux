@@ -1,0 +1,17 @@
+name	plan9port
+version	0_git20260208-r0
+description	Port of many Plan 9 libraries and programs to Unix
+url	https://9fans.github.io/plan9port/
+license	LPL-1.02
+size	33710401
+installed-size	64781441
+depends	so:libX11.so.6 so:libXext.so.6 so:libc.musl-armhf.so.1 so:libfontconfig.so.1 so:libfreetype.so.6
+origin	plan9port
+repo	community
+file	plan9port-0_git20260208-r0.apk
+checksum	Q1e+aC8FGD8cS9vr5PmDXrU30mk7w=
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype

@@ -1,0 +1,18 @@
+name	fcft
+version	3.3.3-r0
+description	Simple library for font loading and glyph rasterization using FontConfig, FreeType and pixman
+url	https://codeberg.org/dnkl/fcft
+license	MIT
+size	50993
+installed-size	95424
+depends	so:libc.musl-armhf.so.1 so:libfontconfig.so.1 so:libfreetype.so.6 so:libharfbuzz.so.0 so:libpixman-1.so.0 so:libutf8proc.so.3
+origin	fcft
+repo	community
+file	fcft-3.3.3-r0.apk
+checksum	Q1AZCOBGGmHgcsBqINuhbpc9aKaYE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:libpixman-1.so.0	pixman
+dep	so:libutf8proc.so.3	utf8proc

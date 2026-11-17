@@ -1,0 +1,14 @@
+name	php84-pecl-xhprof
+version	2.3.10-r1
+description	A Hierarchical Profiler for PHP 8.4 - PECL
+url	https://pecl.php.net/package/xhprof
+license	Apache-2.0
+size	12509
+installed-size	26044
+depends	php84-common so:libc.musl-armhf.so.1
+origin	php84-pecl-xhprof
+repo	community
+file	php84-pecl-xhprof-2.3.10-r1.apk
+checksum	Q1jA+RYLe9Wuz6xlLsWREA7fQ3E4U=
+dep	php84-common	php84-common
+dep	so:libc.musl-armhf.so.1	musl

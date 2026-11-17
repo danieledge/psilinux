@@ -1,0 +1,13 @@
+name	jetty-runner
+version	9.4.54.20240208-r1
+description	Fast and easy way to run Java web application from the command line.
+url	https://www.eclipse.org/jetty
+license	Apache-2.0
+size	11911450
+installed-size	13117332
+depends	openjdk8-jre-base
+origin	jetty-runner
+repo	community
+file	jetty-runner-9.4.54.20240208-r1.apk
+checksum	Q1nEdk7bIwXzg8kn/b4EHved5LCjw=
+dep	openjdk8-jre-base	openjdk8-jre-base

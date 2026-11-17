@@ -1,0 +1,21 @@
+name	mtxclient-dev
+version	0.10.1-r3
+description	Client API library for Matrix, built on top of Boost.Asio (development files)
+url	https://github.com/nheko-reborn/mtxclient
+license	MIT
+size	77559
+installed-size	333284
+depends	boost-dev coeurl-dev libsodium-dev nlohmann-json olm-dev openssl-dev>3 re2-dev zlib-dev mtxclient=0.10.1-r3
+origin	mtxclient
+repo	community
+file	mtxclient-dev-0.10.1-r3.apk
+checksum	Q1V8bd78bz5J69SafvUGs6fpPJjYQ=
+dep	boost-dev	boost-dev
+dep	coeurl-dev	coeurl-dev
+dep	libsodium-dev	libsodium-dev
+dep	nlohmann-json	nlohmann-json
+dep	olm-dev	olm-dev
+dep	openssl-dev>3	openssl-dev
+dep	re2-dev	re2-dev
+dep	zlib-dev	zlib-dev
+dep	mtxclient=0.10.1-r3	mtxclient

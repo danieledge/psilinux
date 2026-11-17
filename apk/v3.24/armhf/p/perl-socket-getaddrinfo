@@ -1,0 +1,14 @@
+name	perl-socket-getaddrinfo
+version	0.22-r5
+description	Perl interface for get{addr,name}info(3)
+url	https://metacpan.org/release/Socket-GetAddrInfo/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	14565
+installed-size	42551
+depends	perl perl-extutils-cchecker
+origin	perl-socket-getaddrinfo
+repo	main
+file	perl-socket-getaddrinfo-0.22-r5.apk
+checksum	Q1tKdo7A4IFuvAEUy7ZRHxPCGnMfQ=
+dep	perl	perl
+dep	perl-extutils-cchecker	perl-extutils-cchecker

@@ -1,0 +1,15 @@
+name	py3-rope
+version	1.14.0-r1
+description	Python refactoring library
+url	https://github.com/python-rope/rope
+license	LGPL-3.0-only
+size	177898
+installed-size	786061
+depends	py3-pytoolconfig py3-setuptools python3~3.14
+origin	py3-rope
+repo	community
+file	py3-rope-1.14.0-r1.apk
+checksum	Q1ocRsi1Czi1S6ze9g91/SGpUAPDw=
+dep	py3-pytoolconfig	py3-pytoolconfig
+dep	py3-setuptools	py3-setuptools
+dep	python3~3.14	python3

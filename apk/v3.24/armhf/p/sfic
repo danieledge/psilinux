@@ -1,0 +1,14 @@
+name	sfic
+version	0.1.7-r10
+description	Small and Simple File Integrity Checker
+url	https://sfic.sourceforge.net/
+license	GPL-2.0-or-later
+size	15774
+installed-size	30404
+depends	so:libc.musl-armhf.so.1 so:libtdb.so.1
+origin	sfic
+repo	main
+file	sfic-0.1.7-r10.apk
+checksum	Q10NjuzeMh+q5iI2n3SA1eGCsQpGA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libtdb.so.1	tdb-libs

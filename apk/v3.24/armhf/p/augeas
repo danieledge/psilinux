@@ -1,0 +1,17 @@
+name	augeas
+version	1.14.1-r0
+description	A configuration editing tool
+url	http://augeas.net
+license	LGPL-2.1-or-later
+size	39590
+installed-size	107550
+depends	so:libaugeas.so.0 so:libc.musl-armhf.so.1 so:libfa.so.1 so:libgcc_s.so.1 so:libreadline.so.8
+origin	augeas
+repo	main
+file	augeas-1.14.1-r0.apk
+checksum	Q1X1oM5ssT9AleEbnovKVA5hVh+c0=
+dep	so:libaugeas.so.0	augeas-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfa.so.1	augeas-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libreadline.so.8	readline

@@ -1,0 +1,14 @@
+name	libsasl
+version	2.1.28-r9
+description	Cyrus Simple Authentication and Security Layer (SASL) library
+url	https://www.cyrusimap.org/sasl/
+license	BSD-3-Clause-Attribution AND BSD-4-Clause
+size	61148
+installed-size	148688
+depends	so:libc.musl-armhf.so.1 so:libgdbm.so.6
+origin	cyrus-sasl
+repo	main
+file	libsasl-2.1.28-r9.apk
+checksum	Q1iduv+TWdYlVapue0V3RzNoKbKgI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdbm.so.6	gdbm

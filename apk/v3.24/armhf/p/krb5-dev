@@ -1,0 +1,17 @@
+name	krb5-dev
+version	1.22.3-r0
+description	The Kerberos network authentication system (development files)
+url	https://web.mit.edu/kerberos/www/
+license	MIT
+size	150529
+installed-size	723999
+depends	e2fsprogs-dev libverto-dev krb5-libs=1.22.3-r0 krb5-server-ldap=1.22.3-r0 pkgconfig
+origin	krb5
+repo	main
+file	krb5-dev-1.22.3-r0.apk
+checksum	Q1uBBGEPWBtc9ggeWFBc9cL35jizw=
+dep	e2fsprogs-dev	e2fsprogs-dev
+dep	libverto-dev	libverto-dev
+dep	krb5-libs=1.22.3-r0	krb5-libs
+dep	krb5-server-ldap=1.22.3-r0	krb5-server-ldap
+dep	pkgconfig	pkgconf

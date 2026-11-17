@@ -1,0 +1,16 @@
+name	collectd-ascent
+version	5.12.0-r25
+description	ascent pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	7225
+installed-size	13620
+depends	collectd so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libxml2.so.2
+origin	collectd
+repo	community
+file	collectd-ascent-5.12.0-r25.apk
+checksum	Q10v9UQjENuimUblZIk+ruPOHypKQ=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libxml2.so.2	libxml2

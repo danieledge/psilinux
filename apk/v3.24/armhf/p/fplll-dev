@@ -1,0 +1,14 @@
+name	fplll-dev
+version	5.5.0-r1
+description	Lattice algorithms using floating-point arithmetic (development files)
+url	https://github.com/fplll/fplll
+license	LGPL-2.1-or-later
+size	79869
+installed-size	376339
+depends	fplll-libs=5.5.0-r1 pkgconfig
+origin	fplll
+repo	community
+file	fplll-dev-5.5.0-r1.apk
+checksum	Q1mV7SLupgfKClZfC9ieKKf6Qi5w0=
+dep	fplll-libs=5.5.0-r1	fplll-libs
+dep	pkgconfig	pkgconf

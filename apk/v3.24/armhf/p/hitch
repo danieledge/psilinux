@@ -1,0 +1,17 @@
+name	hitch
+version	1.8.0-r2
+description	hitch is a TLS / SSL endpoint like stunnel
+url	https://hitch-tls.org/
+license	BSD-2-Clause-Views
+size	84104
+installed-size	178337
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libev.so.4 so:libssl.so.3
+origin	hitch
+repo	community
+file	hitch-1.8.0-r2.apk
+checksum	Q1o8CWAJiX4J3wGKncWcN1BPXpkVs=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libev.so.4	libev
+dep	so:libssl.so.3	libssl3

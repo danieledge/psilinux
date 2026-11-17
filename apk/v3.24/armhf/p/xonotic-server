@@ -1,0 +1,16 @@
+name	xonotic-server
+version	0.8.6-r0
+description	A free, fast-paced crossplatform first-person shooter (Server)
+url	https://www.xonotic.org/
+license	GPL-2.0-or-later
+size	1172353
+installed-size	2681200
+depends	xonotic so:libc.musl-armhf.so.1 so:libjpeg.so.8 so:libz.so.1
+origin	xonotic
+repo	community
+file	xonotic-server-0.8.6-r0.apk
+checksum	Q1izqVIZQ59Ro5iD0frzPMK2tWyCM=
+dep	xonotic	xonotic
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libz.so.1	zlib

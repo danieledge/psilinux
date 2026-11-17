@@ -1,0 +1,14 @@
+name	perl-text-csv_xs
+version	1.61-r0
+description	Comma-Separated Values manipulation routines
+url	https://metacpan.org/release/Text-CSV_XS/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	77010
+installed-size	218651
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-text-csv_xs
+repo	community
+file	perl-text-csv_xs-1.61-r0.apk
+checksum	Q1PThwHUCONF8VBz8+mZVW0rbwHQ8=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

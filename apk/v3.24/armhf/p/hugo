@@ -1,0 +1,15 @@
+name	hugo
+version	0.160.1-r3
+description	Fast and flexible static site generator written in Go
+url	https://gohugo.io/
+license	Apache-2.0
+size	27260428
+installed-size	85507924
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	hugo
+repo	community
+file	hugo-0.160.1-r3.apk
+checksum	Q1UQ4JDqGOozaJV8b3d6oNRPljnR8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

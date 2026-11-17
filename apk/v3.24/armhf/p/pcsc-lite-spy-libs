@@ -1,0 +1,13 @@
+name	pcsc-lite-spy-libs
+version	2.4.0-r4
+description	Middleware to access a smart card using SCard API (PC/SC) (log/debug/spy libraries)
+url	https://pcsclite.apdu.fr/
+license	GPL-3.0-or-later
+size	7608
+installed-size	17604
+depends	so:libc.musl-armhf.so.1
+origin	pcsc-lite
+repo	main
+file	pcsc-lite-spy-libs-2.4.0-r4.apk
+checksum	Q1P8PeTxdjk8Da7rmu45HZjm/mwtk=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,16 @@
+name	nagios-plugins-dns
+version	2.5-r0
+description	Nagios plugin check_dns
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	27572
+installed-size	54904
+depends	nagios-plugins bind-tools so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-dns-2.5-r0.apk
+checksum	Q1oKMjIeSoEe23xXnprEjY+RHN9DQ=
+dep	nagios-plugins	nagios-plugins
+dep	bind-tools	bind-tools
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

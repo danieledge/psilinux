@@ -1,0 +1,18 @@
+name	signal-estimator
+version	0.1.0-r1
+description	Measure characteristics of a looped back signal
+url	https://github.com/gavv/signal-estimator
+license	MIT
+size	246542
+installed-size	563232
+depends	so:libasound.so.2 so:libc.musl-armhf.so.1 so:libfmt.so.11 so:libgcc_s.so.1 so:libkissfft-float.so.131 so:libstdc++.so.6
+origin	signal-estimator
+repo	community
+file	signal-estimator-0.1.0-r1.apk
+checksum	Q16lDFKzRbdk1/V6w/FZr4ALAj1kA=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfmt.so.11	fmt
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libkissfft-float.so.131	kissfft-libs
+dep	so:libstdc++.so.6	libstdc++

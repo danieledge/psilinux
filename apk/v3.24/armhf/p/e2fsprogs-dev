@@ -1,0 +1,17 @@
+name	e2fsprogs-dev
+version	1.47.4-r0
+description	Standard Ext2/3/4 filesystem utilities (development files)
+url	https://e2fsprogs.sourceforge.net/
+license	GPL-2.0-or-later AND LGPL-2.0-or-later AND BSD-3-Clause AND MIT
+size	53579
+installed-size	216092
+depends	util-linux-dev gawk e2fsprogs-libs=1.47.4-r0 libcom_err=1.47.4-r0 pkgconfig
+origin	e2fsprogs
+repo	main
+file	e2fsprogs-dev-1.47.4-r0.apk
+checksum	Q1kuZ3QRmiXdM58sgv3ynrDQLGPHA=
+dep	util-linux-dev	util-linux-dev
+dep	gawk	gawk
+dep	e2fsprogs-libs=1.47.4-r0	e2fsprogs-libs
+dep	libcom_err=1.47.4-r0	libcom_err
+dep	pkgconfig	pkgconf

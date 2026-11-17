@@ -1,0 +1,16 @@
+name	py3-pgspecial
+version	2.2.1-r2
+description	Meta-commands handler for Postgres Database
+url	https://pypi.org/project/pgspecial
+license	BSD-3-Clause
+size	36343
+installed-size	177082
+depends	py3-click py3-psycopg-c py3-sqlparse python3~3.14
+origin	py3-pgspecial
+repo	community
+file	py3-pgspecial-2.2.1-r2.apk
+checksum	Q1vSbngy6cS2+lQs3xGDKp65Vm0nQ=
+dep	py3-click	py3-click
+dep	py3-psycopg-c	py3-psycopg-c
+dep	py3-sqlparse	py3-sqlparse
+dep	python3~3.14	python3

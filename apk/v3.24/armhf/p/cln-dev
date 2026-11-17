@@ -1,0 +1,14 @@
+name	cln-dev
+version	1.3.7-r2
+description	C++ class library for numbers (development files)
+url	https://www.ginac.de/CLN/
+license	GPL-2.0-or-later
+size	1236123
+installed-size	6809142
+depends	cln=1.3.7-r2 pkgconfig
+origin	cln
+repo	community
+file	cln-dev-1.3.7-r2.apk
+checksum	Q1fdEWVvdaPsM6nTYJTHGEAdxjjJ8=
+dep	cln=1.3.7-r2	cln
+dep	pkgconfig	pkgconf

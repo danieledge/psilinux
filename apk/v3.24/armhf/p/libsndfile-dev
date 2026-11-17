@@ -1,0 +1,21 @@
+name	libsndfile-dev
+version	1.2.2-r2
+description	C library for reading and writing files containing sampled sound (development files)
+url	https://libsndfile.github.io/libsndfile/
+license	LGPL-2.1-or-later
+size	20685
+installed-size	67796
+depends	opus-dev libsndfile=1.2.2-r2 pc:flac pc:libmpg123 pc:ogg pc:opus pc:vorbis pc:vorbisenc pkgconfig
+origin	libsndfile
+repo	main
+file	libsndfile-dev-1.2.2-r2.apk
+checksum	Q1Ne5c9xuvcV2Zuz5hD9Ug8ACLAoo=
+dep	opus-dev	opus-dev
+dep	libsndfile=1.2.2-r2	libsndfile
+dep	pc:flac	flac-dev
+dep	pc:libmpg123	mpg123-dev
+dep	pc:ogg	libogg-dev
+dep	pc:opus	opus-dev
+dep	pc:vorbis	libvorbis-dev
+dep	pc:vorbisenc	libvorbis-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	kibi
+version	0.3.2-r0
+description	Text editor in ≤1024 lines of code, written in Rust
+url	https://github.com/ilai-deutel/kibi
+license	( Apache-2.0 OR MIT ) AND BSD-2-Clause
+size	224432
+installed-size	412860
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	kibi
+repo	community
+file	kibi-0.3.2-r0.apk
+checksum	Q1fEokw4bwlvV/tYz3GnJ81TGOg1Q=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

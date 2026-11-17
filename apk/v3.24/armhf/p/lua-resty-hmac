@@ -1,0 +1,14 @@
+name	lua-resty-hmac
+version	0.06-r2
+description	HMAC functions for OpenResty
+url	https://github.com/jkeys089/lua-resty-hmac
+license	BSD-2-Clause
+size	2918
+installed-size	4138
+depends	openresty-mod-http-lua lua-resty-string
+origin	lua-resty-hmac
+repo	community
+file	lua-resty-hmac-0.06-r2.apk
+checksum	Q18Woq+DVDG3hjbyxNSkC16YkSlbo=
+dep	openresty-mod-http-lua	openresty-mod-http-lua
+dep	lua-resty-string	lua-resty-string

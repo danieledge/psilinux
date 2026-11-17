@@ -1,0 +1,17 @@
+name	py3-readme_renderer
+version	44.0-r1
+description	readme_renderer is a library for rendering README descriptions for Warehouse
+url	https://github.com/pypa/readme_renderer
+license	Apache-2.0
+size	12229
+installed-size	28119
+depends	py3-bleach py3-docutils py3-nh3 py3-pygments python3~3.14
+origin	py3-readme_renderer
+repo	community
+file	py3-readme_renderer-44.0-r1.apk
+checksum	Q1yXG6L3O4DpvMq183ddIg2mPBiHo=
+dep	py3-bleach	py3-bleach
+dep	py3-docutils	py3-docutils
+dep	py3-nh3	py3-nh3
+dep	py3-pygments	py3-pygments
+dep	python3~3.14	python3

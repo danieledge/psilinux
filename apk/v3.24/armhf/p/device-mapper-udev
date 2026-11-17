@@ -1,0 +1,14 @@
+name	device-mapper-udev
+version	2.03.35-r3
+description	Device mapper udev rules
+url	https://sourceware.org/lvm2/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	5993
+installed-size	11323
+depends	device-mapper=2.03.35-r3 /bin/sh
+origin	device-mapper
+repo	main
+file	device-mapper-udev-2.03.35-r3.apk
+checksum	Q1NhkxdprEqcGTmDlznapjP/rnHjI=
+dep	device-mapper=2.03.35-r3	device-mapper
+dep	/bin/sh	busybox-binsh

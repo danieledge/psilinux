@@ -1,0 +1,14 @@
+name	emacs-plz
+version	0.9.1-r1
+description	HTTP library with curl as backend
+url	https://github.com/alphapapa/plz.el
+license	GPL-3.0-or-later
+size	31124
+installed-size	122271
+depends	cmd:curl cmd:emacs
+origin	emacs-plz
+repo	community
+file	emacs-plz-0.9.1-r1.apk
+checksum	Q1NwPdw6jSTIMyJKPgcOcMuBHmM4I=
+dep	cmd:curl	curl
+dep	cmd:emacs	emacs-gtk3

@@ -1,0 +1,16 @@
+name	gonic
+version	0.21.0-r2
+description	Subsonic compatible music streaming server
+url	https://github.com/sentriz/gonic
+license	GPL-3.0-or-later
+size	6884249
+installed-size	17134548
+depends	ffmpeg /bin/sh so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	gonic
+repo	community
+file	gonic-0.21.0-r2.apk
+checksum	Q18FNkNCftGkT+lppFuQ5619nWGXk=
+dep	ffmpeg	ffmpeg
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

@@ -1,0 +1,18 @@
+name	libpeas2-dev
+version	2.2.0-r2
+description	GObject-based plugin system (development files)
+url	https://gitlab.gnome.org/GNOME/libpeas/-/tree/2.0
+license	LGPL-2.1-or-later
+size	21054
+installed-size	145138
+depends	libpeas2=2.2.0-r2 pc:gio-2.0>=2.74 pc:glib-2.0>=2.74 pc:gmodule-2.0>=2.74 pc:gobject-2.0>=2.74 pkgconfig
+origin	libpeas2
+repo	community
+file	libpeas2-dev-2.2.0-r2.apk
+checksum	Q1yeb9PIYvYbm7Sv2OMBpJbpXVQlc=
+dep	libpeas2=2.2.0-r2	libpeas2
+dep	pc:gio-2.0>=2.74	glib-dev
+dep	pc:glib-2.0>=2.74	glib-dev
+dep	pc:gmodule-2.0>=2.74	glib-dev
+dep	pc:gobject-2.0>=2.74	glib-dev
+dep	pkgconfig	pkgconf

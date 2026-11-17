@@ -1,0 +1,19 @@
+name	qt6-qtconnectivity
+version	6.11.1-r0
+description	Provides access to Bluetooth hardware
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	557986
+installed-size	1533142
+depends	so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Network.so.6 so:libbluetooth.so.3 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	qt6-qtconnectivity
+repo	community
+file	qt6-qtconnectivity-6.11.1-r0.apk
+checksum	Q1dzmgl08332wQwdAxrU9M8i8LqVQ=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6DBus.so.6	qt6-qtbase
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libbluetooth.so.3	bluez-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

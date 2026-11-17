@@ -1,0 +1,16 @@
+name	mautrix-gmessages
+version	0.2605.0-r2
+description	Matrix-Google Messages puppeting bridge
+url	https://go.mau.fi/mautrix-gmessages/
+license	AGPL-3.0-or-later
+size	8212660
+installed-size	22637408
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libolm.so.3 so:libsqlite3.so.0
+origin	mautrix-gmessages
+repo	community
+file	mautrix-gmessages-0.2605.0-r2.apk
+checksum	Q1Ivf84nHDsRq2O91Z/R3rT8hpUH0=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libolm.so.3	olm
+dep	so:libsqlite3.so.0	sqlite-libs

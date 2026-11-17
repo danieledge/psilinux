@@ -1,0 +1,15 @@
+name	py3-rfl-settings
+version	1.8.0-r0
+description	Rackslab Foundation Library: settings package
+url	https://github.com/rackslab/RFL
+license	GPL-3.0-or-later
+size	7718
+installed-size	54594
+depends	py3-rfl-core py3-pyaml python3~3.14
+origin	py3-rfl
+repo	community
+file	py3-rfl-settings-1.8.0-r0.apk
+checksum	Q1OgOLdzq5XmObmruCQBFd/NQ39hY=
+dep	py3-rfl-core	py3-rfl-core
+dep	py3-pyaml	py3-pyaml
+dep	python3~3.14	python3

@@ -1,0 +1,15 @@
+name	iptraf-ng
+version	1.2.2-r0
+description	An IP Network Monitoring tool
+url	https://github.com/iptraf-ng/iptraf-ng
+license	GPL-2.0-only
+size	77073
+installed-size	153380
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6 so:libpanelw.so.6
+origin	iptraf-ng
+repo	community
+file	iptraf-ng-1.2.2-r0.apk
+checksum	Q1gsndcVdTS7LiO4RweXkSOdmll5Q=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpanelw.so.6	libpanelw

@@ -1,0 +1,16 @@
+name	ruby-unf_ext
+version	0.0.9.1-r1
+description	Unicode Normalization Form support library for CRuby
+url	https://github.com/knu/ruby-unf_ext/
+license	MIT
+size	208078
+installed-size	419056
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libruby.so.3.4 so:libstdc++.so.6
+origin	ruby-unf_ext
+repo	community
+file	ruby-unf_ext-0.0.9.1-r1.apk
+checksum	Q1nE4upe0kYS3eK/mONiqVrwS9jqU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libruby.so.3.4	ruby-libs
+dep	so:libstdc++.so.6	libstdc++

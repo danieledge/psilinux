@@ -1,0 +1,24 @@
+name	calf-jack
+version	0.90.3-r3
+description	Calf Studio Gear (JACK utils)
+url	https://calf-studio-gear.org
+license	GPL-2.0-only AND LGPL-2.1-only
+size	240310
+installed-size	530296
+depends	so:calf.so so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libexpat.so.1 so:libgcc_s.so.1 so:libgdk-x11-2.0.so.0 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-x11-2.0.so.0 so:libjack.so.0 so:libstdc++.so.6
+origin	calf
+repo	community
+file	calf-jack-0.90.3-r3.apk
+checksum	Q1Uwx/X6TBLg1/5vhgTLRN8/vPq4k=
+dep	so:calf.so	calf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libexpat.so.1	libexpat
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-x11-2.0.so.0	gtk+2.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-x11-2.0.so.0	gtk+2.0
+dep	so:libjack.so.0	jack
+dep	so:libstdc++.so.6	libstdc++

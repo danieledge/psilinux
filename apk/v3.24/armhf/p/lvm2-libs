@@ -1,0 +1,17 @@
+name	lvm2-libs
+version	2.03.35-r2
+description	LVM2 shared libraries
+url	https://sourceware.org/lvm2/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-2-Clause
+size	1000137
+installed-size	2317172
+depends	so:libaio.so.1 so:libblkid.so.1 so:libc.musl-armhf.so.1 so:libdevmapper-event.so.1.02 so:libdevmapper.so.1.02
+origin	lvm2
+repo	main
+file	lvm2-libs-2.03.35-r2.apk
+checksum	Q1tG0rIrhVqINsxVnBtPfu9QYf7H8=
+dep	so:libaio.so.1	libaio
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdevmapper-event.so.1.02	device-mapper-event-libs
+dep	so:libdevmapper.so.1.02	device-mapper-libs

@@ -1,0 +1,14 @@
+name	acf-heimdal
+version	0.6.0-r5
+description	ACF module for heimdal
+url	https://gitlab.alpinelinux.org/acf/acf-heimdal
+license	GPL-2.0-only
+size	3272
+installed-size	3715
+depends	acf-core heimdal
+origin	acf-heimdal
+repo	main
+file	acf-heimdal-0.6.0-r5.apk
+checksum	Q1rW+T54sMFleQzPLFz8Lnz6TL8rw=
+dep	acf-core	acf-core
+dep	heimdal	heimdal

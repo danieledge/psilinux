@@ -1,0 +1,20 @@
+name	appstream-dev
+version	1.1.2-r0
+description	Provides a standard for creating app stores across distributions (development files)
+url	https://distributions.freedesktop.org/wiki/AppStream
+license	LGPL-2.1-or-later
+size	172878
+installed-size	1631007
+depends	appstream-compose=1.1.2-r0 appstream-qt=1.1.2-r0 appstream=1.1.2-r0 pc:gio-2.0 pc:gio-2.0>=2.62 pc:glib-2.0>=2.62 pc:gobject-2.0>=2.62 pkgconfig
+origin	appstream
+repo	community
+file	appstream-dev-1.1.2-r0.apk
+checksum	Q1c5Shckwamv3nCh+3WDekhqh+Rak=
+dep	appstream-compose=1.1.2-r0	appstream-compose
+dep	appstream-qt=1.1.2-r0	appstream-qt
+dep	appstream=1.1.2-r0	appstream
+dep	pc:gio-2.0	glib-dev
+dep	pc:gio-2.0>=2.62	glib-dev
+dep	pc:glib-2.0>=2.62	glib-dev
+dep	pc:gobject-2.0>=2.62	glib-dev
+dep	pkgconfig	pkgconf

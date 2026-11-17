@@ -1,0 +1,16 @@
+name	jimtcl-sqlite3
+version	0.83-r0
+description	Interface to sqlite3 for Jim Tcl
+url	https://github.com/msteveb/jimtcl
+license	BSD-2-Clause
+size	5218
+installed-size	9392
+depends	jimtcl=0.83-r0 so:libc.musl-armhf.so.1 so:libjim.so.0.83 so:libsqlite3.so.0
+origin	jimtcl
+repo	community
+file	jimtcl-sqlite3-0.83-r0.apk
+checksum	Q1KE9S1zsW6Ny/goswc5+neI+nR6A=
+dep	jimtcl=0.83-r0	jimtcl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjim.so.0.83	jimtcl
+dep	so:libsqlite3.so.0	sqlite-libs

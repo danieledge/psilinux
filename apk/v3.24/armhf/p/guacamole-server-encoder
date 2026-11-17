@@ -1,0 +1,21 @@
+name	guacamole-server-encoder
+version	1.6.0-r3
+description	Guacamole video encoder
+url	https://guacamole.apache.org/
+license	GPL-3.0-or-later
+size	14548
+installed-size	30184
+depends	so:libavcodec.so.62 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libguac.so.25 so:libjpeg.so.8 so:libswscale.so.9 so:libwebp.so.7
+origin	guacamole-server
+repo	community
+file	guacamole-server-encoder-1.6.0-r3.apk
+checksum	Q1Jxs1LfCeUT1CJEzRrno5slkp12Y=
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libguac.so.25	guacamole-server-libs
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libswscale.so.9	ffmpeg-libswscale
+dep	so:libwebp.so.7	libwebp

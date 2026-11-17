@@ -1,0 +1,15 @@
+name	s2geometry-dev
+version	0.13.1-r1
+description	Computational geometry and spatial indexing on the sphere (development files)
+url	https://s2geometry.io/
+license	Apache-2.0
+size	466801
+installed-size	1858658
+depends	abseil-cpp-dev openssl-dev>3 s2geometry=0.13.1-r1
+origin	s2geometry
+repo	community
+file	s2geometry-dev-0.13.1-r1.apk
+checksum	Q1T430i8K6t7rb75Ed82bzURNC4Tg=
+dep	abseil-cpp-dev	abseil-cpp-dev
+dep	openssl-dev>3	openssl-dev
+dep	s2geometry=0.13.1-r1	s2geometry

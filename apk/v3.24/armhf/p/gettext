@@ -1,0 +1,19 @@
+name	gettext
+version	1.0-r0
+description	GNU locale utilities
+url	https://www.gnu.org/software/gettext/gettext.html
+license	GPL-3.0-or-later AND LGPL-2.1-or-later AND MIT
+size	1984938
+installed-size	15111818
+depends	gettext-envsubst=1.0-r0 so:libc.musl-armhf.so.1 so:libgomp.so.1 so:libintl.so.8 so:libtextstyle.so.0 so:libunistring.so.5 so:libxml2.so.2
+origin	gettext
+repo	main
+file	gettext-1.0-r0.apk
+checksum	Q1tytL8DY/9ej5bVOdOdsfeitZAvM=
+dep	gettext-envsubst=1.0-r0	gettext-envsubst
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgomp.so.1	libgomp
+dep	so:libintl.so.8	libintl
+dep	so:libtextstyle.so.0	gettext-libs
+dep	so:libunistring.so.5	libunistring
+dep	so:libxml2.so.2	libxml2

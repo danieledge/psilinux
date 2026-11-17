@@ -1,0 +1,13 @@
+name	liblockfile-dev
+version	1.17-r4
+description	Shared library with NFS-safe locking functions (development files)
+url	https://github.com/miquels/liblockfile
+license	LGPL-2.0-or-later AND GPL-2.0-or-later
+size	2838
+installed-size	2841
+depends	liblockfile=1.17-r4
+origin	liblockfile
+repo	main
+file	liblockfile-dev-1.17-r4.apk
+checksum	Q1a9f7BLACTVRXJZY7QPHN8lceRDw=
+dep	liblockfile=1.17-r4	liblockfile

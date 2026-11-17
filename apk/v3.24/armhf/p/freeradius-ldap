@@ -1,0 +1,15 @@
+name	freeradius-ldap
+version	3.0.27-r3
+description	LDAP module for FreeRADIUS server
+url	https://freeradius.org/
+license	GPL-2.0-or-later
+size	41479
+installed-size	97974
+depends	freeradius=3.0.27-r3 so:libc.musl-armhf.so.1 so:libldap.so.2
+origin	freeradius
+repo	main
+file	freeradius-ldap-3.0.27-r3.apk
+checksum	Q1yMyozrXEMwjV5LbITjBTyHINN+Q=
+dep	freeradius=3.0.27-r3	freeradius
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libldap.so.2	libldap

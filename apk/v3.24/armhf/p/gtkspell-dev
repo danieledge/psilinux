@@ -1,0 +1,15 @@
+name	gtkspell-dev
+version	2.0.16-r10
+description	Word-processor-style highlighting and replacement of misspelled words in a GtkTextView widget (development files)
+url	https://gtkspell.sourceforge.net/
+license	GPL-2.0-only
+size	2752
+installed-size	1706
+depends	gtkspell=2.0.16-r10 pc:gtk+-2.0 pkgconfig
+origin	gtkspell
+repo	community
+file	gtkspell-dev-2.0.16-r10.apk
+checksum	Q1HtaSMEaKYlvB4QpzB8l230VDxlk=
+dep	gtkspell=2.0.16-r10	gtkspell
+dep	pc:gtk+-2.0	gtk+2.0-dev
+dep	pkgconfig	pkgconf

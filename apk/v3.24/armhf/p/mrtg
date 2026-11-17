@@ -1,0 +1,15 @@
+name	mrtg
+version	2.17.10-r2
+description	MRTG Network Latency Monitoring
+url	https://oss.oetiker.ch/mrtg/
+license	GPL-2.0-or-later
+size	238099
+installed-size	951214
+depends	perl so:libc.musl-armhf.so.1 so:libgd.so.3
+origin	mrtg
+repo	main
+file	mrtg-2.17.10-r2.apk
+checksum	Q1/GFEd1Q92+UF9GRJ17Ml2jTMFlo=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgd.so.3	libgd

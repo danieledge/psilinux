@@ -1,0 +1,18 @@
+name	libgsf-dev
+version	1.14.58-r0
+description	Utility library for reading and writing structured file formats (development files)
+url	https://gitlab.gnome.org/GNOME/libgsf
+license	LGPL-2.1-only
+size	65686
+installed-size	552179
+depends	bzip2-dev libgsf=1.14.58-r0 pc:glib-2.0 pc:gobject-2.0 pc:libxml-2.0 pkgconfig
+origin	libgsf
+repo	community
+file	libgsf-dev-1.14.58-r0.apk
+checksum	Q1NiDgErEUm8AhhHwa0lVBQxYEkqk=
+dep	bzip2-dev	bzip2-dev
+dep	libgsf=1.14.58-r0	libgsf
+dep	pc:glib-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pc:libxml-2.0	libxml2-dev
+dep	pkgconfig	pkgconf

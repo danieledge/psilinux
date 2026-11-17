@@ -1,0 +1,16 @@
+name	net-snmp-tools
+version	5.9.5.2-r0
+description	Network management utilities using SNMP
+url	http://www.net-snmp.org/
+license	Net-SNMP
+size	122818
+installed-size	380293
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libnetsnmp.so.45 so:libnetsnmpagent.so.45
+origin	net-snmp
+repo	main
+file	net-snmp-tools-5.9.5.2-r0.apk
+checksum	Q14F916LYDIRNEjbSL0fIxWU0nigc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libnetsnmp.so.45	net-snmp-libs
+dep	so:libnetsnmpagent.so.45	net-snmp-agent-libs

@@ -1,0 +1,16 @@
+name	kamailio-rabbitmq
+version	6.0.6-r0
+description	Kamailio RabbitMQ related modules for Kamailio
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	27456
+installed-size	54852
+depends	kamailio so:libc.musl-armhf.so.1 so:librabbitmq.so.4 so:libuuid.so.1
+origin	kamailio
+repo	main
+file	kamailio-rabbitmq-6.0.6-r0.apk
+checksum	Q11T+NmvL4IzyCxOAbrf7l+nUb8BQ=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:librabbitmq.so.4	rabbitmq-c
+dep	so:libuuid.so.1	libuuid

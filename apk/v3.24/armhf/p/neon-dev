@@ -1,0 +1,19 @@
+name	neon-dev
+version	0.36.0-r0
+description	HTTP and WebDAV client library with a C interface (development files)
+url	https://notroj.github.io/neon/
+license	LGPL-2.0-or-later
+size	42536
+installed-size	151296
+depends	expat-dev gzip openssl-dev>3 xmlto zlib-dev neon=0.36.0-r0 pkgconfig
+origin	neon
+repo	main
+file	neon-dev-0.36.0-r0.apk
+checksum	Q1It/FHRiaVcO8AM4GNXX5Rtp/gkU=
+dep	expat-dev	expat-dev
+dep	gzip	gzip
+dep	openssl-dev>3	openssl-dev
+dep	xmlto	xmlto
+dep	zlib-dev	zlib-dev
+dep	neon=0.36.0-r0	neon
+dep	pkgconfig	pkgconf

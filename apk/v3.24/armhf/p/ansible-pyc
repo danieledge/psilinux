@@ -1,0 +1,13 @@
+name	ansible-pyc
+version	14.0.0-r0
+description	Precompiled Python bytecode for ansible
+url	https://ansible.com/
+license	GPL-3.0-or-later
+size	38708268
+installed-size	162364980
+depends	python3~3.14
+origin	ansible
+repo	community
+file	ansible-pyc-14.0.0-r0.apk
+checksum	Q1jsRqWRQzzrUVGdgKSgyWBOUunL0=
+dep	python3~3.14	python3

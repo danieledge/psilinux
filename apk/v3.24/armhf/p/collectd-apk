@@ -1,0 +1,16 @@
+name	collectd-apk
+version	0.2.0-r7
+description	Collectd plugin that collects information about APK packages
+url	https://github.com/jirutka/collectd-apk
+license	GPL-2.0-or-later
+size	5585
+installed-size	9444
+depends	collectd>=5.12 so:libapk.so.3.0.0 so:libc.musl-armhf.so.1 so:libjson-c.so.5
+origin	collectd-apk
+repo	community
+file	collectd-apk-0.2.0-r7.apk
+checksum	Q1CDyhL92YKMvVplCUfXhC9YqbF3Q=
+dep	collectd>=5.12	collectd
+dep	so:libapk.so.3.0.0	libapk
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjson-c.so.5	json-c

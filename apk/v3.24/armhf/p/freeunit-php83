@@ -1,0 +1,15 @@
+name	freeunit-php83
+version	1.37.2-r0
+description	php83 module for FreeUnit
+url	https://freeunit.org/
+license	Apache-2.0
+size	40897
+installed-size	79440
+depends	freeunit=1.37.2-r0 so:libc.musl-armhf.so.1 so:libphp83.so
+origin	freeunit
+repo	community
+file	freeunit-php83-1.37.2-r0.apk
+checksum	Q1P1ttJbQkdOPkBzd4hWIQsV8fKgc=
+dep	freeunit=1.37.2-r0	freeunit
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libphp83.so	php83-embed

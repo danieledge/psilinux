@@ -1,0 +1,21 @@
+name	gulkan-dev
+version	0.16.0-r6
+description	GLib library for Vulkan abstraction (development files)
+url	https://gitlab.freedesktop.org/xrdesktop/gulkan
+license	MIT AND CC-BY-SA-4.0
+size	10327
+installed-size	42061
+depends	gobject-introspection-dev gulkan-libs=0.16.0-r6 pc:cairo pc:gdk-pixbuf-2.0 pc:gio-2.0 pc:glib-2.0 pc:graphene-1.0 pc:vulkan pkgconfig
+origin	gulkan
+repo	community
+file	gulkan-dev-0.16.0-r6.apk
+checksum	Q174MVoOc40PQdCE8iaR69nqmec/8=
+dep	gobject-introspection-dev	gobject-introspection-dev
+dep	gulkan-libs=0.16.0-r6	gulkan-libs
+dep	pc:cairo	cairo-dev
+dep	pc:gdk-pixbuf-2.0	gdk-pixbuf-dev
+dep	pc:gio-2.0	glib-dev
+dep	pc:glib-2.0	glib-dev
+dep	pc:graphene-1.0	graphene-dev
+dep	pc:vulkan	vulkan-loader-dev
+dep	pkgconfig	pkgconf

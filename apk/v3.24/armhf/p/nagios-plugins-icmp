@@ -1,0 +1,15 @@
+name	nagios-plugins-icmp
+version	2.5-r0
+description	Nagios plugin check_icmp
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	31969
+installed-size	63048
+depends	nagios-plugins so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-icmp-2.5-r0.apk
+checksum	Q1GThHydpSDSJHfTvK+5Jb4YfHA20=
+dep	nagios-plugins	nagios-plugins
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

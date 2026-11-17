@@ -1,0 +1,16 @@
+name	font-adobe-75dpi
+version	1.0.4-r2
+description	X.org adobe 75dpi font
+url	https://xorg.freedesktop.org/
+license	MIT
+size	5672316
+installed-size	5671599
+depends	encodings font-alias mkfontscale fontconfig
+origin	font-adobe-75dpi
+repo	main
+file	font-adobe-75dpi-1.0.4-r2.apk
+checksum	Q1XXcuOMl2ZJzMyK4qmaYvXGWwKUI=
+dep	encodings	encodings
+dep	font-alias	font-alias
+dep	mkfontscale	mkfontscale
+dep	fontconfig	fontconfig

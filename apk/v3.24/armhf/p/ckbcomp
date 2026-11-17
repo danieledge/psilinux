@@ -1,0 +1,13 @@
+name	ckbcomp
+version	1.248-r0
+description	Compile a XKB keyboard description to a keymap
+url	https://salsa.debian.org/installer-team/console-setup
+license	GPL-2.0-or-later
+size	32281
+installed-size	150921
+depends	perl
+origin	ckbcomp
+repo	main
+file	ckbcomp-1.248-r0.apk
+checksum	Q12dQy0NMpgBvlLrV/aa1BTO+536w=
+dep	perl	perl

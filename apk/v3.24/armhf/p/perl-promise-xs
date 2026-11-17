@@ -1,0 +1,14 @@
+name	perl-promise-xs
+version	0.20-r3
+description	Fast promises in Perl
+url	https://metacpan.org/release/Promise-XS/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	22185
+installed-size	49156
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-promise-xs
+repo	community
+file	perl-promise-xs-0.20-r3.apk
+checksum	Q12+I/o7Phdp7aIVpjgc+yP5eqHUA=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

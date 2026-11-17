@@ -1,0 +1,16 @@
+name	php85-pdo_odbc
+version	8.5.12-r0
+description	PHP85 extension: ODBC driver for PDO
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0 Apache-2.0
+size	14569
+installed-size	30043
+depends	php85-common php85-pdo so:libc.musl-armhf.so.1 so:libodbc.so.2
+origin	php85
+repo	community
+file	php85-pdo_odbc-8.5.12-r0.apk
+checksum	Q1yaf/sktEvlWPB8hLoWwKIEPEdQM=
+dep	php85-common	php85-common
+dep	php85-pdo	php85-pdo
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libodbc.so.2	unixodbc

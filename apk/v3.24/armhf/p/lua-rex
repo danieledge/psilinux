@@ -1,0 +1,14 @@
+name	lua-rex
+version	2.9.2-r1
+description	Lua bindings to regular expression library pcre2 and posix
+url	http://lrexlib.luaforge.net/
+license	MIT
+size	1281
+installed-size	0
+depends	lua-rex-pcre2 lua-rex-posix
+origin	lua-rex
+repo	main
+file	lua-rex-2.9.2-r1.apk
+checksum	Q12uYKlN3lqhzTcix94ERa8npXzNw=
+dep	lua-rex-pcre2	lua-rex-pcre2
+dep	lua-rex-posix	lua-rex-posix

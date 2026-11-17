@@ -1,0 +1,14 @@
+name	libnet-dev
+version	1.3-r0
+description	A generic networking API that provides access to several protocols. (development files)
+url	https://sourceforge.net/projects/libnet-dev/
+license	BSD-2-Clause
+size	48867
+installed-size	214210
+depends	libnet=1.3-r0 pkgconfig
+origin	libnet
+repo	main
+file	libnet-dev-1.3-r0.apk
+checksum	Q1pG39Wcd6hVH2EGTC4If8ack+2Lo=
+dep	libnet=1.3-r0	libnet
+dep	pkgconfig	pkgconf

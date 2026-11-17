@@ -1,0 +1,21 @@
+name	dovecot-fts-xapian
+version	1.9.3-r4
+description	Dovecot xapian fts plugin
+url	https://github.com/grosjo/fts-xapian
+license	LGPL-2.1-or-later
+size	40968
+installed-size	92936
+depends	dovecot xapian-core so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libicui18n.so.78 so:libicuuc.so.78 so:libsqlite3.so.0 so:libstdc++.so.6 so:libxapian.so.45
+origin	dovecot-fts-xapian
+repo	community
+file	dovecot-fts-xapian-1.9.3-r4.apk
+checksum	Q1Zb1LzOuSSonfGM4RhHEviiR55To=
+dep	dovecot	dovecot
+dep	xapian-core	xapian-core
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxapian.so.45	libxapian

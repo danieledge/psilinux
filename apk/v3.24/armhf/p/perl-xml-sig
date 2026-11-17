@@ -1,0 +1,20 @@
+name	perl-xml-sig
+version	0.70-r0
+description	A toolkit to help sign and verify XML Digital Signatures
+url	https://metacpan.org/release/XML-Sig/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	16951
+installed-size	65269
+depends	perl perl-crypt-openssl-bignum perl-class-accessor perl-crypt-openssl-x509 perl-xml-libxml perl-cryptx perl-uri perl-try-tiny
+origin	perl-xml-sig
+repo	community
+file	perl-xml-sig-0.70-r0.apk
+checksum	Q1jDRoECyzLH0DKdp49PzqXJBhYLI=
+dep	perl	perl
+dep	perl-crypt-openssl-bignum	perl-crypt-openssl-bignum
+dep	perl-class-accessor	perl-class-accessor
+dep	perl-crypt-openssl-x509	perl-crypt-openssl-x509
+dep	perl-xml-libxml	perl-xml-libxml
+dep	perl-cryptx	perl-cryptx
+dep	perl-uri	perl-uri
+dep	perl-try-tiny	perl-try-tiny

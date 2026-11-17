@@ -1,0 +1,15 @@
+name	xz-dev
+version	5.8.4-r0
+description	Library and CLI tools for XZ and LZMA compressed files (development files)
+url	https://tukaani.org/xz/
+license	GPL-2.0-or-later AND 0BSD AND Public-Domain AND LGPL-2.1-or-later
+size	56193
+installed-size	229955
+depends	xz=5.8.4-r0 xz-libs=5.8.4-r0 pkgconfig
+origin	xz
+repo	main
+file	xz-dev-5.8.4-r0.apk
+checksum	Q10Na1Kcvix8vW8CyzzVk6sU3f4dM=
+dep	xz=5.8.4-r0	xz
+dep	xz-libs=5.8.4-r0	xz-libs
+dep	pkgconfig	pkgconf

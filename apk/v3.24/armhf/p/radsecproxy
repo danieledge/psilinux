@@ -1,0 +1,17 @@
+name	radsecproxy
+version	1.11.2-r0
+description	Generic RADIUS proxy that supports both UDP and TLS (RadSec) RADIUS transports
+url	https://github.com/radsecproxy/radsecproxy
+license	BSD-3-Clause
+size	84984
+installed-size	189816
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libnettle.so.8 so:libssl.so.3
+origin	radsecproxy
+repo	community
+file	radsecproxy-1.11.2-r0.apk
+checksum	Q1bRxbBpVCiAJhYtpX4s8FkUCrN0c=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libnettle.so.8	nettle
+dep	so:libssl.so.3	libssl3

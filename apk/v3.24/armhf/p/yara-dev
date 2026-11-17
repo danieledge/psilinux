@@ -1,0 +1,15 @@
+name	yara-dev
+version	4.5.7-r0
+description	Pattern matching swiss knife for malware researchers (development files)
+url	https://virustotal.github.io/yara/
+license	BSD-3-Clause
+size	305037
+installed-size	928554
+depends	yara=4.5.7-r0 pc:libcrypto pkgconfig
+origin	yara
+repo	community
+file	yara-dev-4.5.7-r0.apk
+checksum	Q1/jmzG8Mjba/ZsEXRZhJ0xUtNMv8=
+dep	yara=4.5.7-r0	yara
+dep	pc:libcrypto	openssl-dev
+dep	pkgconfig	pkgconf

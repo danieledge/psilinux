@@ -1,0 +1,15 @@
+name	php84-sodium
+version	8.4.27-r0
+description	PHP84 extension: Sodium
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	28646
+installed-size	91473
+depends	php84-common so:libc.musl-armhf.so.1 so:libsodium.so.26
+origin	php84
+repo	community
+file	php84-sodium-8.4.27-r0.apk
+checksum	Q1PlNv0cE3UtUMzGcTLqaXy+libt4=
+dep	php84-common	php84-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsodium.so.26	libsodium

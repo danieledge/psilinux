@@ -1,0 +1,15 @@
+name	py3-protobuf
+version	6.33.5-r1
+description	Google's data interchange format
+url	https://github.com/protocolbuffers/protobuf
+license	BSD-3-Clause
+size	317054
+installed-size	1329411
+depends	tzdata python3~3.14 so:libc.musl-armhf.so.1
+origin	py3-protobuf
+repo	community
+file	py3-protobuf-6.33.5-r1.apk
+checksum	Q112/8KSvtgrVMoyaRfPWDyoJCiH8=
+dep	tzdata	tzdata
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

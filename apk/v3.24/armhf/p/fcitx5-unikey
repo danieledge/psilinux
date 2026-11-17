@@ -1,0 +1,22 @@
+name	fcitx5-unikey
+version	5.1.10-r0
+description	Unikey Wrapper for Fcitx
+url	https://github.com/fcitx/fcitx5-unikey
+license	LGPL-2.0-or-later AND GPL-2.0-or-later
+size	126763
+installed-size	287015
+depends	so:libFcitx5Config.so.6 so:libFcitx5Core.so.7 so:libFcitx5Qt6WidgetsAddons.so.2 so:libFcitx5Utils.so.2 so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	fcitx5-unikey
+repo	community
+file	fcitx5-unikey-5.1.10-r0.apk
+checksum	Q13Cb4B9TmHpKdxzVR0u/0/YsfKFQ=
+dep	so:libFcitx5Config.so.6	fcitx5
+dep	so:libFcitx5Core.so.7	fcitx5
+dep	so:libFcitx5Qt6WidgetsAddons.so.2	fcitx5-qt
+dep	so:libFcitx5Utils.so.2	fcitx5
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

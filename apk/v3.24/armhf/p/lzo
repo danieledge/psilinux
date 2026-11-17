@@ -1,0 +1,13 @@
+name	lzo
+version	2.10-r5
+description	LZO -- a real-time data compression library
+url	https://www.oberhumer.com/opensource/lzo
+license	GPL-2.0-or-later
+size	59685
+installed-size	148652
+depends	so:libc.musl-armhf.so.1
+origin	lzo
+repo	main
+file	lzo-2.10-r5.apk
+checksum	Q1/zHpMOtixVbzAjWXEVxm89MKScg=
+dep	so:libc.musl-armhf.so.1	musl

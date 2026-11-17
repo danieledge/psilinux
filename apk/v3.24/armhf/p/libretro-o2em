@@ -1,0 +1,13 @@
+name	libretro-o2em
+version	0_git20241021-r0
+description	port of O2EM to the libretro API, an Odyssey 2 / VideoPac emulator
+url	https://github.com/libretro/libretro-o2em
+license	Artistic-2.0
+size	122838
+installed-size	289228
+depends	so:libc.musl-armhf.so.1
+origin	libretro-o2em
+repo	community
+file	libretro-o2em-0_git20241021-r0.apk
+checksum	Q1zxapZ+QVpO/I48N0/8UyS5GuW+0=
+dep	so:libc.musl-armhf.so.1	musl

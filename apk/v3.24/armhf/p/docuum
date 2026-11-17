@@ -1,0 +1,15 @@
+name	docuum
+version	0.26.0-r0
+description	Perform least recently used (LRU) eviction of Docker images
+url	https://github.com/stepchowfun/docuum
+license	MIT
+size	748051
+installed-size	1433765
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	docuum
+repo	community
+file	docuum-0.26.0-r0.apk
+checksum	Q1zWmOYLIX3uG/9PKHlK3yNI5GPtE=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

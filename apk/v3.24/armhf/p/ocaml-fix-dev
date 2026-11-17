@@ -1,0 +1,13 @@
+name	ocaml-fix-dev
+version	20220121-r5
+description	Algorithmic building blocks for memoization, recursion, and more (development files)
+url	https://gitlab.inria.fr/fpottier/fix
+license	LGPL-2.0-only
+size	437333
+installed-size	1171661
+depends	ocaml-fix=20220121-r5
+origin	ocaml-fix
+repo	community
+file	ocaml-fix-dev-20220121-r5.apk
+checksum	Q18VTHUcoWzY3sZ7lZI1kflLpi0zw=
+dep	ocaml-fix=20220121-r5	ocaml-fix

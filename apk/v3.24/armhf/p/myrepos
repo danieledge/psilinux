@@ -1,0 +1,14 @@
+name	myrepos
+version	1.20180726-r3
+description	A multiple repository management tool
+url	https://git.joeyh.name/git/myrepos.git
+license	GPL-2.0-or-later
+size	34227
+installed-size	103758
+depends	perl git
+origin	myrepos
+repo	community
+file	myrepos-1.20180726-r3.apk
+checksum	Q1uMFKzs3FhOjzRxoA603S+57pqvo=
+dep	perl	perl
+dep	git	git

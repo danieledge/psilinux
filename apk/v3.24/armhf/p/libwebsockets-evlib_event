@@ -1,0 +1,15 @@
+name	libwebsockets-evlib_event
+version	4.3.5-r2
+description	libwebsocket evlib_event plugin
+url	https://libwebsockets.org/
+license	MIT
+size	5620
+installed-size	9440
+depends	so:libc.musl-armhf.so.1 so:libevent-2.1.so.7 so:libwebsockets.so.19
+origin	libwebsockets
+repo	main
+file	libwebsockets-evlib_event-4.3.5-r2.apk
+checksum	Q1r2MPkFGW+KNiG4Dbp5KRBy0Ksd0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevent-2.1.so.7	libevent
+dep	so:libwebsockets.so.19	libwebsockets

@@ -1,0 +1,15 @@
+name	jemalloc
+version	5.3.0-r6
+description	general purpose malloc(3) implementation that emphasizes fragmentation avoidance and scalable concurrency support
+url	http://jemalloc.net
+license	BSD-2-Clause
+size	226081
+installed-size	577633
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	jemalloc
+repo	main
+file	jemalloc-5.3.0-r6.apk
+checksum	Q1dMx1VTm01qD810arKO5d+rH9fU4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,17 @@
+name	libnfsidmap-ldap
+version	2.6.4-r6
+description	LDAP plugin for libnfsidmap
+url	https://linux-nfs.org/
+license	GPL-2.0-only
+size	22460
+installed-size	51544
+depends	rpcbind python3 so:libc.musl-armhf.so.1 so:libgssapi_krb5.so.2 so:libldap.so.2
+origin	nfs-utils
+repo	main
+file	libnfsidmap-ldap-2.6.4-r6.apk
+checksum	Q15+kplpt4cgxrBDscLmE/OC6XJzw=
+dep	rpcbind	rpcbind
+dep	python3	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgssapi_krb5.so.2	krb5-libs
+dep	so:libldap.so.2	libldap

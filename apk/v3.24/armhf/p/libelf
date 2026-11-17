@@ -1,0 +1,15 @@
+name	libelf
+version	0.195-r0
+description	Library to read, modify and create ELF files
+url	https://sourceware.org/elfutils/
+license	GPL-3.0-or-later AND ( GPL-2.0-or-later OR LGPL-3.0-or-later )
+size	44039
+installed-size	87420
+depends	so:libc.musl-armhf.so.1 so:libz.so.1 so:libzstd.so.1
+origin	elfutils
+repo	main
+file	libelf-0.195-r0.apk
+checksum	Q1s9cRsMff1q/RnCLZqqtrYkph5QQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

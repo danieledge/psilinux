@@ -1,0 +1,18 @@
+name	harfbuzz
+version	13.2.1-r0
+description	Text shaping library
+url	https://harfbuzz.github.io/
+license	MIT
+size	753828
+installed-size	1596620
+depends	so:libc.musl-armhf.so.1 so:libfreetype.so.6 so:libglib-2.0.so.0 so:libgraphite2.so.3 so:libpng16.so.16 so:libz.so.1
+origin	harfbuzz
+repo	main
+file	harfbuzz-13.2.1-r0.apk
+checksum	Q1upVjjX5V5VEf6VWFjz/TnEXiyIA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreetype.so.6	freetype
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgraphite2.so.3	graphite2
+dep	so:libpng16.so.16	libpng
+dep	so:libz.so.1	zlib

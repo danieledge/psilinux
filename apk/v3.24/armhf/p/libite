@@ -1,0 +1,13 @@
+name	libite
+version	2.6.2-r0
+description	that missing frog DNA you've been looking for
+url	https://github.com/troglobit/libite
+license	MIT
+size	14464
+installed-size	29856
+depends	so:libc.musl-armhf.so.1
+origin	libite
+repo	community
+file	libite-2.6.2-r0.apk
+checksum	Q1R/4d9Zb5iEGUBW8XSSahnF8julc=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,16 @@
+name	libewf
+version	20240506-r0
+description	Library to support the Expert Witness Compression Format
+url	https://libewf.sourceforge.net/
+license	LGPL-2.0-or-later
+size	3304013
+installed-size	8537728
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libewf.so.3 so:libfuse.so.2
+origin	libewf
+repo	community
+file	libewf-20240506-r0.apk
+checksum	Q11lMPUYYyA/jd1G1e8mZ3zfFMM/A=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libewf.so.3	libewf-libs
+dep	so:libfuse.so.2	fuse

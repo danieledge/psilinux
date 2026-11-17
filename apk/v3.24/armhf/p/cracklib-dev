@@ -1,0 +1,13 @@
+name	cracklib-dev
+version	2.10.3-r1
+description	Library used to enforce strong passwords (development files)
+url	https://github.com/cracklib/cracklib
+license	LGPL-2.1-or-later
+size	3143
+installed-size	3182
+depends	cracklib=2.10.3-r1
+origin	cracklib
+repo	main
+file	cracklib-dev-2.10.3-r1.apk
+checksum	Q1U2yWcsFAv4WWIo0a6ldD4F8Weyo=
+dep	cracklib=2.10.3-r1	cracklib

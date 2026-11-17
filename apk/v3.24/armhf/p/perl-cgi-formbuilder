@@ -1,0 +1,18 @@
+name	perl-cgi-formbuilder
+version	3.20-r0
+description	Easily generate and process stateful forms
+url	https://metacpan.org/release/CGI-FormBuilder/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	77785
+installed-size	357293
+depends	perl perl-cgi perl-html-template perl-text-template perl-template-toolkit perl-cgi-session
+origin	perl-cgi-formbuilder
+repo	community
+file	perl-cgi-formbuilder-3.20-r0.apk
+checksum	Q1H5+wyhTiSTIUQC4GaUQ+nMDd0oc=
+dep	perl	perl
+dep	perl-cgi	perl-cgi
+dep	perl-html-template	perl-html-template
+dep	perl-text-template	perl-text-template
+dep	perl-template-toolkit	perl-template-toolkit
+dep	perl-cgi-session	perl-cgi-session

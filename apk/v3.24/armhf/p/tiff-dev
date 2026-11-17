@@ -1,0 +1,19 @@
+name	tiff-dev
+version	4.7.2-r0
+description	Support for the Tag Image File Format or TIFF (development files)
+url	https://gitlab.com/libtiff/libtiff
+license	libtiff
+size	32348
+installed-size	106263
+depends	libtiffxx=4.7.2-r0 tiff=4.7.2-r0 pc:libjpeg pc:libwebp pc:libzstd pc:zlib pkgconfig
+origin	tiff
+repo	main
+file	tiff-dev-4.7.2-r0.apk
+checksum	Q1tZUYjHMdFb55OTMcf4iMJj2OYqo=
+dep	libtiffxx=4.7.2-r0	libtiffxx
+dep	tiff=4.7.2-r0	tiff
+dep	pc:libjpeg	libjpeg-turbo-dev
+dep	pc:libwebp	libwebp-dev
+dep	pc:libzstd	zstd-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

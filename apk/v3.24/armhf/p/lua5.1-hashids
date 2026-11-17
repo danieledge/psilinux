@@ -1,0 +1,14 @@
+name	lua5.1-hashids
+version	1.0.6-r5
+description	Lua implementation of hashids (for Lua 5.1)
+url	https://github.com/leihog/hashids.lua
+license	MIT
+size	5844
+installed-size	12273
+depends	lua5.1 so:libc.musl-armhf.so.1
+origin	lua-hashids
+repo	main
+file	lua5.1-hashids-1.0.6-r5.apk
+checksum	Q1QhYkZu/RGBSdnzORS0M1DvaRdCM=
+dep	lua5.1	lua5.1
+dep	so:libc.musl-armhf.so.1	musl

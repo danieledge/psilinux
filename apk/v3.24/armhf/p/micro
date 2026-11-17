@@ -1,0 +1,13 @@
+name	micro
+version	2.0.15-r7
+description	Modern and intuitive terminal-based text editor
+url	https://micro-editor.github.io/
+license	MIT
+size	5381450
+installed-size	13805483
+depends	so:libc.musl-armhf.so.1
+origin	micro
+repo	community
+file	micro-2.0.15-r7.apk
+checksum	Q1wI7j0OXl+VLBXXZNSyBFYSLgREQ=
+dep	so:libc.musl-armhf.so.1	musl

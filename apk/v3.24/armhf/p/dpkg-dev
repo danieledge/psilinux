@@ -1,0 +1,14 @@
+name	dpkg-dev
+version	1.23.7-r0
+description	Debian package development tools
+url	https://wiki.debian.org/Teams/Dpkg
+license	GPL-2.0-or-later AND BSD-2-Clause
+size	388832
+installed-size	1530712
+depends	perl pkgconfig
+origin	dpkg
+repo	main
+file	dpkg-dev-1.23.7-r0.apk
+checksum	Q1DYXCAKvK6f2iFSfpOyzbAVkStbo=
+dep	perl	perl
+dep	pkgconfig	pkgconf

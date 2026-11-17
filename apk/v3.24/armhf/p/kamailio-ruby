@@ -1,0 +1,15 @@
+name	kamailio-ruby
+version	6.0.6-r0
+description	Kamailio Execute embedded Ruby scripts
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	79661
+installed-size	240484
+depends	kamailio so:libc.musl-armhf.so.1 so:libruby.so.3.4
+origin	kamailio
+repo	main
+file	kamailio-ruby-6.0.6-r0.apk
+checksum	Q1TqAgE4aVwTuAhxmSqyr8Y3a2VH0=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libruby.so.3.4	ruby-libs

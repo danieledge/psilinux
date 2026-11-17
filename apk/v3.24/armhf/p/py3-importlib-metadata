@@ -1,0 +1,14 @@
+name	py3-importlib-metadata
+version	9.0.0-r0
+description	Read metadata from Python packages
+url	https://github.com/python/importlib_metadata
+license	Apache-2.0
+size	26481
+installed-size	77137
+depends	py3-zipp python3~3.14
+origin	py3-importlib-metadata
+repo	community
+file	py3-importlib-metadata-9.0.0-r0.apk
+checksum	Q1P4CqtUwlV5yqmzKYMC+/bwINLLo=
+dep	py3-zipp	py3-zipp
+dep	python3~3.14	python3

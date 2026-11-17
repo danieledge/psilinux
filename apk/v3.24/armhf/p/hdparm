@@ -1,0 +1,13 @@
+name	hdparm
+version	9.65-r2
+description	Utility for manipulating IDE device parameters
+url	https://sourceforge.net/projects/hdparm/
+license	BSD-2-Clause OR GPL-2.0-only
+size	57952
+installed-size	118739
+depends	so:libc.musl-armhf.so.1
+origin	hdparm
+repo	main
+file	hdparm-9.65-r2.apk
+checksum	Q1j79v5ET3Ev3abFHiMk5nDXY0TYE=
+dep	so:libc.musl-armhf.so.1	musl

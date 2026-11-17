@@ -1,0 +1,16 @@
+name	ocaml-ppx_sexp_conv-dev
+version	0.16.0-r3
+description	[@@deriving] plugin to generate S-expression conversion functions (development files)
+url	https://github.com/janestreet/ppx_sexp_conv
+license	MIT
+size	1199803
+installed-size	3102351
+depends	ocaml-ppx_sexp_conv=0.16.0-r3 ocaml-base-dev ocaml-ppxlib-dev ocaml-sexplib0-dev
+origin	ocaml-ppx_sexp_conv
+repo	community
+file	ocaml-ppx_sexp_conv-dev-0.16.0-r3.apk
+checksum	Q1SKFYVydPIi3a3XHfWw+iumBVKus=
+dep	ocaml-ppx_sexp_conv=0.16.0-r3	ocaml-ppx_sexp_conv
+dep	ocaml-base-dev	ocaml-base-dev
+dep	ocaml-ppxlib-dev	ocaml-ppxlib-dev
+dep	ocaml-sexplib0-dev	ocaml-sexplib0-dev

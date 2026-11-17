@@ -1,0 +1,15 @@
+name	perl-time-moment-role-timezone
+version	1.000-r1
+description	Adjust Time::Moment with time zone objects
+url	https://metacpan.org/release/Time-Moment-Role-TimeZone/
+license	Artistic-2.0
+size	3605
+installed-size	5782
+depends	perl perl-role-tiny perl-time-moment
+origin	perl-time-moment-role-timezone
+repo	community
+file	perl-time-moment-role-timezone-1.000-r1.apk
+checksum	Q1mPZvMd9bndkH8JwHCW+dFiKtdXI=
+dep	perl	perl
+dep	perl-role-tiny	perl-role-tiny
+dep	perl-time-moment	perl-time-moment

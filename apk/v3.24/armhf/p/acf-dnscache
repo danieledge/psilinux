@@ -1,0 +1,15 @@
+name	acf-dnscache
+version	0.6.0-r4
+description	Web-based system administration interface for dnscache
+url	https://gitlab.alpinelinux.org/acf/acf-dnscache
+license	GPL-2.0-only
+size	5249
+installed-size	11956
+depends	acf-core lua-posix dnscache
+origin	acf-dnscache
+repo	main
+file	acf-dnscache-0.6.0-r4.apk
+checksum	Q1VZ56QF+yRPacXPhM3anCg751/pc=
+dep	acf-core	acf-core
+dep	lua-posix	lua-posix
+dep	dnscache	dnscache

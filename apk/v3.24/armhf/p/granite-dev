@@ -1,0 +1,28 @@
+name	granite-dev
+version	6.2.0-r3
+description	Library that extends GTK with common widgets and utilities (development files)
+url	https://github.com/elementary/granite
+license	LGPL-3.0-or-later
+size	73405
+installed-size	603318
+depends	granite=6.2.0-r3 pc:gee-0.8 pc:gio-2.0>=2.50 pc:gio-unix-2.0>=2.50 pc:glib-2.0>=2.50 pc:gobject-2.0>=2.50 pc:gtk+-3.0>=3.22 pkgconfig so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgee-0.8.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgranite.so.6 so:libgtk-3.so.0
+origin	granite
+repo	community
+file	granite-dev-6.2.0-r3.apk
+checksum	Q14kQ8SSqpo7gE7eIvLu6xabGGhOk=
+dep	granite=6.2.0-r3	granite
+dep	pc:gee-0.8	libgee-dev
+dep	pc:gio-2.0>=2.50	glib-dev
+dep	pc:gio-unix-2.0>=2.50	glib-dev
+dep	pc:glib-2.0>=2.50	glib-dev
+dep	pc:gobject-2.0>=2.50	glib-dev
+dep	pc:gtk+-3.0>=3.22	gtk+3.0-dev
+dep	pkgconfig	pkgconf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgee-0.8.so.2	libgee
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgranite.so.6	granite
+dep	so:libgtk-3.so.0	gtk+3.0

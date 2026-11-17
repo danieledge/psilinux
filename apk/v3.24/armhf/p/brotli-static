@@ -1,0 +1,13 @@
+name	brotli-static
+version	1.2.1-r0
+description	Generic lossless compressor (static library)
+url	https://github.com/google/brotli
+license	MIT
+size	2477157
+installed-size	2751124
+depends	brotli-dev
+origin	brotli
+repo	main
+file	brotli-static-1.2.1-r0.apk
+checksum	Q17X4rJQtE0ev3PBFjG8sz0JJmXQU=
+dep	brotli-dev	brotli-dev

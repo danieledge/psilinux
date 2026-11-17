@@ -1,0 +1,16 @@
+name	bacula-sqlite
+version	15.0.3-r0
+description	Bacula SQLite backend
+url	https://www.bacula.org/
+license	AGPL-3.0-or-later WITH OpenSSL-Exception
+size	18523
+installed-size	62538
+depends	bacula so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libsqlite3.so.0
+origin	bacula
+repo	main
+file	bacula-sqlite-15.0.3-r0.apk
+checksum	Q1cRWgSWXehlLEzkkfjudRzoLjIIU=
+dep	bacula	bacula
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsqlite3.so.0	sqlite-libs

@@ -1,0 +1,16 @@
+name	step-certificates
+version	0.30.2-r4
+description	Online certificate authority and related tools
+url	https://smallstep.com/certificates/
+license	Apache-2.0
+size	15947248
+installed-size	50684876
+depends	step-cli /bin/sh so:libc.musl-armhf.so.1 so:libpcsclite.so.1
+origin	step-certificates
+repo	community
+file	step-certificates-0.30.2-r4.apk
+checksum	Q15ot72YUQ6gYFxTpslqPKFfqxU94=
+dep	step-cli	step-cli
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcsclite.so.1	pcsc-lite-libs

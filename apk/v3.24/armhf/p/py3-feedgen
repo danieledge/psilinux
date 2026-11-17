@@ -1,0 +1,16 @@
+name	py3-feedgen
+version	1.0.0-r2
+description	Python module to generate ATOM feeds, RSS feeds and Podcasts
+url	https://github.com/lkiesow/python-feedgen
+license	BSD-2-Clause AND LGPL-3.0-or-later
+size	40423
+installed-size	167547
+depends	py3-dateutil py3-lxml python3 python3~3.14
+origin	py3-feedgen
+repo	community
+file	py3-feedgen-1.0.0-r2.apk
+checksum	Q1T5kIKfPfbAI4NU82RpwYhFXHSn8=
+dep	py3-dateutil	py3-dateutil
+dep	py3-lxml	py3-lxml
+dep	python3	python3
+dep	python3~3.14	python3

@@ -1,0 +1,12 @@
+name	zenity-dbg
+version	4.2.2-r0
+description	Display dialog boxes from the command line and shell scripts (debug symbols)
+url	https://gitlab.gnome.org/GNOME/zenity
+license	LGPL-2.1-or-later
+size	146975
+installed-size	360692
+depends	!zenity<4.2.2-r0 !zenity>4.2.2-r0
+origin	zenity
+repo	community
+file	zenity-dbg-4.2.2-r0.apk
+checksum	Q1ZqdvvkFSaTCf30hhjPAYn+SooN8=

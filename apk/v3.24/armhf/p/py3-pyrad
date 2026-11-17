@@ -1,0 +1,14 @@
+name	py3-pyrad
+version	2.5.4-r2
+description	Python RADIUS Implementation
+url	https://pypi.python.org/project/pyrad
+license	BSD-3-Clause
+size	33081
+installed-size	130553
+depends	py3-netaddr python3~3.14
+origin	py3-pyrad
+repo	community
+file	py3-pyrad-2.5.4-r2.apk
+checksum	Q1RtaA6RQYWoiyWsHMEUXxft0loH4=
+dep	py3-netaddr	py3-netaddr
+dep	python3~3.14	python3

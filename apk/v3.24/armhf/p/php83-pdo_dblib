@@ -1,0 +1,16 @@
+name	php83-pdo_dblib
+version	8.3.36-r0
+description	PHP83 extension: DB-LIB (MS SQL, Sybase)
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	11228
+installed-size	21848
+depends	php83-common php83-pdo so:libc.musl-armhf.so.1 so:libsybdb.so.5
+origin	php83
+repo	community
+file	php83-pdo_dblib-8.3.36-r0.apk
+checksum	Q1f5tXMy3y0db2/WpQJU12WgDNtro=
+dep	php83-common	php83-common
+dep	php83-pdo	php83-pdo
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsybdb.so.5	freetds

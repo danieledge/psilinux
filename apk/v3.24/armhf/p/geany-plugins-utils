@@ -1,0 +1,17 @@
+name	geany-plugins-utils
+version	2.1-r0
+description	Reusable shared library used by geany-plugins
+url	https://plugins.geany.org/
+license	GPL-3.0-or-later
+size	5058
+installed-size	9336
+depends	so:libc.musl-armhf.so.1 so:libgeany.so.0 so:libglib-2.0.so.0 so:libpango-1.0.so.0 so:libvte-2.91.so.0
+origin	geany-plugins
+repo	community
+file	geany-plugins-utils-2.1-r0.apk
+checksum	Q1LeQUZ9GMrc166TNp6q3Z/c1NIIQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgeany.so.0	geany
+dep	so:libglib-2.0.so.0	glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libvte-2.91.so.0	vte3

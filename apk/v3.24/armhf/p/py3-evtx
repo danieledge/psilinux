@@ -1,0 +1,14 @@
+name	py3-evtx
+version	0.8.0-r2
+description	Pure Python3 parser for recent Windows Event Log files (.evtx)
+url	https://github.com/williballenthin/python-evtx
+license	Apache-2.0
+size	24761
+installed-size	122585
+depends	py3-hexdump python3~3.14
+origin	py3-evtx
+repo	community
+file	py3-evtx-0.8.0-r2.apk
+checksum	Q1PEulBlH7G/OckfzBgtmLhRcvhdc=
+dep	py3-hexdump	py3-hexdump
+dep	python3~3.14	python3

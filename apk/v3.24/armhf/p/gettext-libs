@@ -1,0 +1,16 @@
+name	gettext-libs
+version	1.0-r0
+description	GNU locale utilities (libraries)
+url	https://www.gnu.org/software/gettext/gettext.html
+license	GPL-3.0-or-later AND LGPL-2.1-or-later AND MIT
+size	350792
+installed-size	864876
+depends	so:libc.musl-armhf.so.1 so:libintl.so.8 so:libncursesw.so.6 so:libunistring.so.5
+origin	gettext
+repo	main
+file	gettext-libs-1.0-r0.apk
+checksum	Q17K1Kz7qFm8gat2yKztSXaSy9BCo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libintl.so.8	libintl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libunistring.so.5	libunistring

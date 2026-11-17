@@ -1,0 +1,17 @@
+name	nbd
+version	3.26.1-r0
+description	Tools for network block devices
+url	https://nbd.sourceforge.io/
+license	GPL-2.0-or-later
+size	55783
+installed-size	124596
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgnutls.so.30 so:libnl-3.so.200 so:libnl-genl-3.so.200
+origin	nbd
+repo	community
+file	nbd-3.26.1-r0.apk
+checksum	Q1dvUnAiG/IRQaGQkEkTuhia1imv0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgnutls.so.30	gnutls
+dep	so:libnl-3.so.200	libnl3
+dep	so:libnl-genl-3.so.200	libnl3

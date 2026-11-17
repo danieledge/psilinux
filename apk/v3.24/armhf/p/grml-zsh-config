@@ -1,0 +1,14 @@
+name	grml-zsh-config
+version	0.19.10-r0
+description	grml's zsh setup
+url	https://grml.org/zsh/
+license	GPL-2.0-only
+size	47106
+installed-size	143509
+depends	zsh>=5.8.1-r1 zsh-vcs
+origin	grml-zsh-config
+repo	community
+file	grml-zsh-config-0.19.10-r0.apk
+checksum	Q1ItaH6gz/cha4WwbQH1HgGzvOiyA=
+dep	zsh>=5.8.1-r1	zsh
+dep	zsh-vcs	zsh-vcs

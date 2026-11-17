@@ -1,0 +1,20 @@
+name	qt5-qwt
+version	6.3.0-r0
+description	Qt Widgets for Technical Applications
+url	https://qwt.sourceforge.io/
+license	custom
+size	491470
+installed-size	1234692
+depends	so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt5OpenGL.so.5 so:libQt5Svg.so.5 so:libQt5Widgets.so.5 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	qwt
+repo	community
+file	qt5-qwt-6.3.0-r0.apk
+checksum	Q1hn+byM13RrrJxVRurKIvqkEpxlo=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Gui.so.5	qt5-qtbase-x11
+dep	so:libQt5OpenGL.so.5	qt5-qtbase-x11
+dep	so:libQt5Svg.so.5	qt5-qtsvg
+dep	so:libQt5Widgets.so.5	qt5-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

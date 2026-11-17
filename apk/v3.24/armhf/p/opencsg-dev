@@ -1,0 +1,13 @@
+name	opencsg-dev
+version	1.4.2-r3
+description	A library that does image-based CSG rendering using OpenGL (development files)
+url	http://www.opencsg.org/
+license	GPL-2.0-only
+size	6124
+installed-size	13311
+depends	opencsg=1.4.2-r3
+origin	opencsg
+repo	community
+file	opencsg-dev-1.4.2-r3.apk
+checksum	Q1tlFe08LU/E9d/dtL79kAwAM/7W8=
+dep	opencsg=1.4.2-r3	opencsg

@@ -1,0 +1,20 @@
+name	xmlrpc-c++
+version	1.51.08-r5
+description	This library provides a modular implementation of XML-RPC for C++
+url	https://xmlrpc-c.sourceforge.net/
+license	BSD-3-Clause AND MIT
+size	94035
+installed-size	274816
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libxmlrpc.so.3 so:libxmlrpc_abyss.so.3 so:libxmlrpc_server.so.3 so:libxmlrpc_server_abyss.so.3 so:libxmlrpc_util.so.4
+origin	xmlrpc-c
+repo	main
+file	xmlrpc-c++-1.51.08-r5.apk
+checksum	Q1HxfXfwd5hCXJIiyPO8hkx+ysdOU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxmlrpc.so.3	xmlrpc-c
+dep	so:libxmlrpc_abyss.so.3	xmlrpc-c-abyss
+dep	so:libxmlrpc_server.so.3	xmlrpc-c
+dep	so:libxmlrpc_server_abyss.so.3	xmlrpc-c-abyss
+dep	so:libxmlrpc_util.so.4	xmlrpc-c

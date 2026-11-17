@@ -1,0 +1,39 @@
+name	freerdp-libs
+version	3.32.2-r0
+description	FreeRDP client (libraries)
+url	https://www.freerdp.com/
+license	Apache-2.0
+size	1934327
+installed-size	4681432
+depends	so:libX11.so.6 so:libXdamage.so.1 so:libXext.so.6 so:libXfixes.so.3 so:libXinerama.so.1 so:libasound.so.2 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcrypto.so.3 so:libcups.so.2 so:libfdk-aac.so.2 so:libfuse3.so.4 so:libgcc_s.so.1 so:libgsm.so.1 so:libicui18n.so.78 so:libicuuc.so.78 so:libjpeg.so.8 so:libjson-c.so.5 so:libk5crypto.so.3 so:libkrb5.so.3 so:libopenh264.so.8 so:libopus.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libusb-1.0.so.0 so:libxkbfile.so.1 so:libz.so.1
+origin	freerdp
+repo	community
+file	freerdp-libs-3.32.2-r0.apk
+checksum	Q1jsoEORq/vW7psIbySLTIU3M7BXk=
+dep	so:libX11.so.6	libx11
+dep	so:libXdamage.so.1	libxdamage
+dep	so:libXext.so.6	libxext
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcups.so.2	cups-libs
+dep	so:libfdk-aac.so.2	fdk-aac
+dep	so:libfuse3.so.4	fuse3-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgsm.so.1	gsm
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libjson-c.so.5	json-c
+dep	so:libk5crypto.so.3	krb5-libs
+dep	so:libkrb5.so.3	krb5-libs
+dep	so:libopenh264.so.8	openh264
+dep	so:libopus.so.0	opus
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libusb-1.0.so.0	libusb
+dep	so:libxkbfile.so.1	libxkbfile
+dep	so:libz.so.1	zlib

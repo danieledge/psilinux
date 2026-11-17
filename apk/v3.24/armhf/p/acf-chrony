@@ -1,0 +1,15 @@
+name	acf-chrony
+version	0.8.1-r0
+description	Web-based system administration interface for chrony
+url	https://gitlab.alpinelinux.org/acf/acf-chrony
+license	GPL-2.0-only
+size	5582
+installed-size	12313
+depends	acf-core lua-posix chrony
+origin	acf-chrony
+repo	main
+file	acf-chrony-0.8.1-r0.apk
+checksum	Q12htqfu2Kb/ObycYk1PDPaVTRI5M=
+dep	acf-core	acf-core
+dep	lua-posix	lua-posix
+dep	chrony	chrony

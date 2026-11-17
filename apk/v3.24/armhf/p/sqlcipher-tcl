@@ -1,0 +1,14 @@
+name	sqlcipher-tcl
+version	4.6.1-r1
+description	SQLCipher library (tcl bindings)
+url	https://www.zetetic.net/sqlcipher/
+license	BSD-3-Clause
+size	20701
+installed-size	42572
+depends	so:libc.musl-armhf.so.1 so:libsqlcipher.so.0
+origin	sqlcipher
+repo	community
+file	sqlcipher-tcl-4.6.1-r1.apk
+checksum	Q1NJE6i2gtQM/t+4I/P1kKoyNg0mc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlcipher.so.0	sqlcipher-libs

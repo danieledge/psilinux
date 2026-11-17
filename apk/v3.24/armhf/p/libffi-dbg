@@ -1,0 +1,12 @@
+name	libffi-dbg
+version	3.5.2-r1
+description	portable, high level programming interface to various calling conventions. (debug symbols)
+url	https://sourceware.org/libffi/
+license	MIT
+size	46095
+installed-size	98064
+depends	!libffi<3.5.2-r1 !libffi>3.5.2-r1
+origin	libffi
+repo	main
+file	libffi-dbg-3.5.2-r1.apk
+checksum	Q1+NGW5+pK87p+kseGXdaetqapWU0=

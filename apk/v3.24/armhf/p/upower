@@ -1,0 +1,18 @@
+name	upower
+version	1.91.0-r2
+description	Power Management Services
+url	https://upower.freedesktop.org
+license	GPL-2.0-or-later
+size	121469
+installed-size	343486
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgudev-1.0.so.0 so:libpolkit-gobject-1.so.0
+origin	upower
+repo	community
+file	upower-1.91.0-r2.apk
+checksum	Q1/WaL2iz8zKvhC44755aEbAqKb8M=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgudev-1.0.so.0	libgudev
+dep	so:libpolkit-gobject-1.so.0	polkit-noelogind-libs

@@ -1,0 +1,15 @@
+name	zangband
+version	2.7.5.1-r2
+description	Roguelike computer role playing game based on Angband
+url	https://sourceforge.net/projects/zangband/
+license	custom
+size	1803305
+installed-size	5682861
+depends	ncurses so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	zangband
+repo	community
+file	zangband-2.7.5.1-r2.apk
+checksum	Q1+tcTVaeRbHhTn/pZN39lSqZT0rE=
+dep	ncurses	ncurses
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

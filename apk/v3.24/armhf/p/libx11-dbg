@@ -1,0 +1,12 @@
+name	libx11-dbg
+version	1.8.14-r0
+description	X11 client-side library (debug symbols)
+url	https://xorg.freedesktop.org/
+license	X11
+size	3579769
+installed-size	11292540
+depends	!libx11<1.8.14-r0 !libx11>1.8.14-r0
+origin	libx11
+repo	main
+file	libx11-dbg-1.8.14-r0.apk
+checksum	Q12Mp4natwUdkKF5AZpI9WFKxWFNM=

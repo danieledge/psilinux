@@ -1,0 +1,14 @@
+name	bcc-dev
+version	0.36.1-r1
+description	A toolkit for creating efficient kernel tracing and manipulation programs (development files)
+url	https://github.com/iovisor/bcc/
+license	Apache-2.0
+size	24286
+installed-size	99688
+depends	bcc=0.36.1-r1 pkgconfig
+origin	bcc
+repo	community
+file	bcc-dev-0.36.1-r1.apk
+checksum	Q1K5jTC+CSTQhWcfeLIBkE+0Eblec=
+dep	bcc=0.36.1-r1	bcc
+dep	pkgconfig	pkgconf

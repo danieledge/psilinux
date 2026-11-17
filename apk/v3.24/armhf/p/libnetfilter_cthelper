@@ -1,0 +1,14 @@
+name	libnetfilter_cthelper
+version	1.0.1-r2
+description	A Netfilter netlink library for connection tracking helpers
+url	https://www.netfilter.org/projects/libnetfilter_cthelper/
+license	GPL-2.0-only
+size	5800
+installed-size	13596
+depends	so:libc.musl-armhf.so.1 so:libmnl.so.0
+origin	libnetfilter_cthelper
+repo	main
+file	libnetfilter_cthelper-1.0.1-r2.apk
+checksum	Q1I7HC39KwiyrhoS1YN3urJW4TChY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmnl.so.0	libmnl

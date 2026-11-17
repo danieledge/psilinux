@@ -1,0 +1,15 @@
+name	murmur-compat
+version	1.5.857-r2
+description	Symlinks from old murmur -> mumble-server
+url	https://wiki.mumble.info/
+license	BSD-3-Clause
+size	2010
+installed-size	1
+depends	mumble-server mumble-server-openrc=1.5.857-r2 mumble-server=1.5.857-r2
+origin	mumble
+repo	community
+file	murmur-compat-1.5.857-r2.apk
+checksum	Q1toQia9d5XNLbW1HUMC2Mazabhhs=
+dep	mumble-server	mumble-server
+dep	mumble-server-openrc=1.5.857-r2	mumble-server-openrc
+dep	mumble-server=1.5.857-r2	mumble-server

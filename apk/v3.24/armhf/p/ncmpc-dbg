@@ -1,0 +1,12 @@
+name	ncmpc-dbg
+version	0.52-r0
+description	Ncurses client for the Music Player Daemon (MPD) (debug symbols)
+url	https://www.musicpd.org/clients/ncmpc
+license	GPL-2.0-or-later
+size	3089756
+installed-size	7278376
+depends	!ncmpc<0.52-r0 !ncmpc>0.52-r0
+origin	ncmpc
+repo	community
+file	ncmpc-dbg-0.52-r0.apk
+checksum	Q1EPlg3zUXrNEebUAiGAz1x3Hu+kM=

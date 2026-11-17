@@ -1,0 +1,14 @@
+name	perl-pod-wrap
+version	0.01-r1
+description	Perl module for Pod-Wrap
+url	https://metacpan.org/release/Pod-Wrap/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	4585
+installed-size	5882
+depends	perl perl-pod-parser
+origin	perl-pod-wrap
+repo	community
+file	perl-pod-wrap-0.01-r1.apk
+checksum	Q1/LM7OOjqqASsAMQqnC08oEGo3JU=
+dep	perl	perl
+dep	perl-pod-parser	perl-pod-parser

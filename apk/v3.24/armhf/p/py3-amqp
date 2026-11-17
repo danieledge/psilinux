@@ -1,0 +1,15 @@
+name	py3-amqp
+version	5.3.1-r1
+description	an AMQP implementation
+url	https://pypi.org/project/amqp/
+license	BSD-3-Clause
+size	48441
+installed-size	192080
+depends	py3-vine python3 python3~3.14
+origin	py3-amqp
+repo	community
+file	py3-amqp-5.3.1-r1.apk
+checksum	Q16Tlx04/aPAzceovXxmWRwwmHB6w=
+dep	py3-vine	py3-vine
+dep	python3	python3
+dep	python3~3.14	python3

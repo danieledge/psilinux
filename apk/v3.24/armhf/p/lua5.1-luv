@@ -1,0 +1,15 @@
+name	lua5.1-luv
+version	1.51.0.1-r1
+description	Bare libuv bindings for Lua 5.1
+url	https://github.com/luvit/luv
+license	Apache-2.0
+size	56643
+installed-size	148715
+depends	lua5.1 so:libc.musl-armhf.so.1 so:libuv.so.1
+origin	lua-luv
+repo	community
+file	lua5.1-luv-1.51.0.1-r1.apk
+checksum	Q1iX7dnEZ5uflV7NFWKxt/4fB0sX8=
+dep	lua5.1	lua5.1
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libuv.so.1	libuv

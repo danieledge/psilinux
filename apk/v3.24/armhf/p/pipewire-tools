@@ -1,0 +1,19 @@
+name	pipewire-tools
+version	1.6.8-r4
+description	PipeWire tools
+url	https://pipewire.org/
+license	MIT
+size	241183
+installed-size	628116
+depends	pipewire=1.6.8-r4 so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libncursesw.so.6 so:libpipewire-0.3.so.0 so:libreadline.so.8 so:libsndfile.so.1
+origin	pipewire
+repo	community
+file	pipewire-tools-1.6.8-r4.apk
+checksum	Q1PkVD9eP/rcQdZ+7B+Zd2QvQBOwc=
+dep	pipewire=1.6.8-r4	pipewire
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpipewire-0.3.so.0	pipewire-libs
+dep	so:libreadline.so.8	readline
+dep	so:libsndfile.so.1	libsndfile

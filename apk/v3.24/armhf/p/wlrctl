@@ -1,0 +1,15 @@
+name	wlrctl
+version	0.2.2-r0
+description	Utility for miscellaneous wlroots extensions
+url	https://git.sr.ht/~brocellous/wlrctl
+license	MIT
+size	13425
+installed-size	30368
+depends	so:libc.musl-armhf.so.1 so:libwayland-client.so.0 so:libxkbcommon.so.0
+origin	wlrctl
+repo	community
+file	wlrctl-0.2.2-r0.apk
+checksum	Q15UhOQ+LPXZNjWmsaWsf7fVPbQjw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libxkbcommon.so.0	libxkbcommon

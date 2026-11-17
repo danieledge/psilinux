@@ -1,0 +1,15 @@
+name	libjwt2
+version	2.1.3-r0
+description	JWT C Library 2.x
+url	https://github.com/benmcollins/libjwt
+license	MPL-2.0
+size	13815
+installed-size	30000
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libjansson.so.4
+origin	libjwt2
+repo	community
+file	libjwt2-2.1.3-r0.apk
+checksum	Q1TAZAUcfbtNdaEJb+A6alC5RuT/c=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libjansson.so.4	jansson

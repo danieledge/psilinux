@@ -1,0 +1,16 @@
+name	atkmm2.36-dev
+version	2.36.3-r3
+description	C++ bindings for atk (development files)
+url	https://www.gtkmm.org/en/
+license	LGPL-2.0-or-later
+size	53660
+installed-size	259414
+depends	atkmm2.36=2.36.3-r3 pc:atk>=2.33.3 pc:glibmm-2.68>=2.68.0 pkgconfig
+origin	atkmm2.36
+repo	community
+file	atkmm2.36-dev-2.36.3-r3.apk
+checksum	Q1u+QfqOlm6YrWCG3G//Kwa+vKy7I=
+dep	atkmm2.36=2.36.3-r3	atkmm2.36
+dep	pc:atk>=2.33.3	at-spi2-core-dev
+dep	pc:glibmm-2.68>=2.68.0	glibmm-dev
+dep	pkgconfig	pkgconf

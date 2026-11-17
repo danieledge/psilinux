@@ -1,0 +1,13 @@
+name	yelp-xsl
+version	49.0-r0
+description	XSL stylesheets for the yelp help browser
+url	https://gitlab.gnome.org/GNOME/yelp-xsl
+license	GPL-2.0-or-later AND LGPL-2.1-or-later AND MIT
+size	243485
+installed-size	1418129
+depends	pkgconfig
+origin	yelp-xsl
+repo	community
+file	yelp-xsl-49.0-r0.apk
+checksum	Q1NAXsEp4Hf75qaY7LGZ8pWnBsK/Q=
+dep	pkgconfig	pkgconf

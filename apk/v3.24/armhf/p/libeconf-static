@@ -1,0 +1,13 @@
+name	libeconf-static
+version	0.8.3-r0
+description	Enhanced Config File Parser (static library)
+url	https://github.com/openSUSE/libeconf
+license	MIT
+size	236666
+installed-size	301858
+depends	libeconf-dev
+origin	libeconf
+repo	main
+file	libeconf-static-0.8.3-r0.apk
+checksum	Q1ycTcIpW2B35ngy/sKoCRiln7tUA=
+dep	libeconf-dev	libeconf-dev

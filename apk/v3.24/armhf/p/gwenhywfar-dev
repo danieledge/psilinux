@@ -1,0 +1,15 @@
+name	gwenhywfar-dev
+version	5.14.1-r0
+description	Multi-platform helper library (development files)
+url	https://www.aquamaniac.de/
+license	LGPL-2.1-or-later
+size	164888
+installed-size	923824
+depends	gwenhywfar-gtk3=5.14.1-r0 gwenhywfar=5.14.1-r0 pkgconfig
+origin	gwenhywfar
+repo	community
+file	gwenhywfar-dev-5.14.1-r0.apk
+checksum	Q1xAUZlkVOqFjpkClBj4Da7qYSLcM=
+dep	gwenhywfar-gtk3=5.14.1-r0	gwenhywfar-gtk3
+dep	gwenhywfar=5.14.1-r0	gwenhywfar
+dep	pkgconfig	pkgconf

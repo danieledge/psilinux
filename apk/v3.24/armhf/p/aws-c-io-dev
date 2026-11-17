@@ -1,0 +1,13 @@
+name	aws-c-io-dev
+version	0.27.0-r0
+description	Module for the AWS SDK for C handling all IO and TLS work for application protocols (development files)
+url	https://github.com/awslabs/aws-c-io
+license	Apache-2.0
+size	58735
+installed-size	259613
+depends	aws-c-io=0.27.0-r0
+origin	aws-c-io
+repo	community
+file	aws-c-io-dev-0.27.0-r0.apk
+checksum	Q1GppV9PkuWGjzAza3AfmHSBXsnMk=
+dep	aws-c-io=0.27.0-r0	aws-c-io

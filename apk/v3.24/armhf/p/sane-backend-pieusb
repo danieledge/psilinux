@@ -1,0 +1,16 @@
+name	sane-backend-pieusb
+version	1.4.0-r4
+description	SANE backend for USB-connected PIE PowerSlide and Reflecta DigitDia/CrystalScan/ProScan slide scanners 
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	84912
+installed-size	179666
+depends	sane so:libc.musl-armhf.so.1 so:libusb-1.0.so.0 so:libxml2.so.2
+origin	sane
+repo	community
+file	sane-backend-pieusb-1.4.0-r4.apk
+checksum	Q1l7/9AaNJKu8FuZt7Yi6j3MTKsRo=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb
+dep	so:libxml2.so.2	libxml2

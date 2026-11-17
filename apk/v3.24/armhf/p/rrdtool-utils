@@ -1,0 +1,14 @@
+name	rrdtool-utils
+version	1.10.2-r0
+description	RRDtool standalone create,update,info utilities
+url	http://www.rrdtool.org
+license	GPL-2.0-or-later
+size	65468
+installed-size	128388
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0
+origin	rrdtool
+repo	main
+file	rrdtool-utils-1.10.2-r0.apk
+checksum	Q1WHPxIRANZ2ykoY7oy4dJOPnw8Fc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib

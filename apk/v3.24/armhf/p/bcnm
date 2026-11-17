@@ -1,0 +1,14 @@
+name	bcnm
+version	0.0.2.2-r0
+description	Better Client Network Manager
+url	https://skarnet.org/software/bcnm/
+license	ISC
+size	5542
+installed-size	9480
+depends	so:libc.musl-armhf.so.1 so:libskarnet.so.2.15
+origin	bcnm
+repo	main
+file	bcnm-0.0.2.2-r0.apk
+checksum	Q1GfCsfCbSzgTvbpqwQO1urXS5g7U=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libskarnet.so.2.15	skalibs-libs

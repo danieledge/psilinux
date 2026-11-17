@@ -1,0 +1,13 @@
+name	emacs-async
+version	1.9.9-r1
+description	Simple library for asynchronous processing
+url	https://github.com/jwiegley/emacs-async
+license	GPL-3.0-or-later
+size	33182
+installed-size	125823
+depends	cmd:emacs
+origin	emacs-async
+repo	community
+file	emacs-async-1.9.9-r1.apk
+checksum	Q1hVlSzUDjbMod1tbsV4MTqa2lK88=
+dep	cmd:emacs	emacs-gtk3

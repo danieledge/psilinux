@@ -1,0 +1,13 @@
+name	udis86-git
+version	1.7.2_git20221013-r1
+description	Disassembler Library for x86 and x86-64
+url	https://github.com/canihavesomecoffee/udis86
+license	BSD-2-Clause
+size	59698
+installed-size	880956
+depends	so:libc.musl-armhf.so.1
+origin	udis86-git
+repo	community
+file	udis86-git-1.7.2_git20221013-r1.apk
+checksum	Q1JKjVB59Ml0Ha7O9NjpYlTIz5m1Y=
+dep	so:libc.musl-armhf.so.1	musl

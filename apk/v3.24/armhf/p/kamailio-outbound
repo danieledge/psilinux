@@ -1,0 +1,15 @@
+name	kamailio-outbound
+version	6.0.6-r0
+description	Kamailio RFC 5626 section 5 Outbound support
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	20692
+installed-size	42432
+depends	kamailio so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	kamailio
+repo	main
+file	kamailio-outbound-6.0.6-r0.apk
+checksum	Q1aI1Fi3b5wu8KOQI981Hy281AZk8=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

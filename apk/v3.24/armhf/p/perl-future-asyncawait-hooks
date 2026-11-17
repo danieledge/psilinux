@@ -1,0 +1,16 @@
+name	perl-future-asyncawait-hooks
+version	0.02-r2
+description	Scoped hook blocks that run extra code around 'await' expressions
+url	https://metacpan.org/release/Future-AsyncAwait-Hooks/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	7837
+installed-size	15751
+depends	perl perl-future perl-future-asyncawait so:libc.musl-armhf.so.1
+origin	perl-future-asyncawait-hooks
+repo	community
+file	perl-future-asyncawait-hooks-0.02-r2.apk
+checksum	Q143ReFLuu51il8voA0Q8PYnRg5b4=
+dep	perl	perl
+dep	perl-future	perl-future
+dep	perl-future-asyncawait	perl-future-asyncawait
+dep	so:libc.musl-armhf.so.1	musl

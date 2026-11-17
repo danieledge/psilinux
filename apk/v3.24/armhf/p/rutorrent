@@ -1,0 +1,15 @@
+name	rutorrent
+version	5.3.1-r0
+description	Yet another web front-end for rTorrent
+url	https://github.com/Novik/ruTorrent
+license	GPL-3.0-or-later
+size	3092006
+installed-size	8981231
+depends	php83 curl /bin/sh
+origin	rutorrent
+repo	community
+file	rutorrent-5.3.1-r0.apk
+checksum	Q1/L8uOLm9v+FALHHPNN9FE5yZhaw=
+dep	php83	php83
+dep	curl	curl
+dep	/bin/sh	busybox-binsh

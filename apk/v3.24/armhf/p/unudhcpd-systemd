@@ -1,0 +1,12 @@
+name	unudhcpd-systemd
+version	0.3.0-r0
+description	extremely basic DHCP server that only issues 1 IP address to any client (systemd files)
+url	https://gitlab.postmarketos.org/postmarketOS/unudhcpd
+license	GPL-3.0-or-later
+size	1896
+installed-size	394
+depends	
+origin	unudhcpd
+repo	community
+file	unudhcpd-systemd-0.3.0-r0.apk
+checksum	Q1rfohylgVq037/aqevOZtByJRB0Y=

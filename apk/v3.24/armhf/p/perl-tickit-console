@@ -1,0 +1,19 @@
+name	perl-tickit-console
+version	0.12-r1
+description	Build full-screen console-style applications with Tickit
+url	https://metacpan.org/release/Tickit-Console/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6153
+installed-size	13228
+depends	perl perl-tickit perl-tickit-widgets perl-tickit-widget-scroller perl-tickit-widget-tabbed perl-object-pad perl-string-tagged
+origin	perl-tickit-console
+repo	community
+file	perl-tickit-console-0.12-r1.apk
+checksum	Q1yzhVjQhuwOaWPoxwsRYI+zRA/6A=
+dep	perl	perl
+dep	perl-tickit	perl-tickit
+dep	perl-tickit-widgets	perl-tickit-widgets
+dep	perl-tickit-widget-scroller	perl-tickit-widget-scroller
+dep	perl-tickit-widget-tabbed	perl-tickit-widget-tabbed
+dep	perl-object-pad	perl-object-pad
+dep	perl-string-tagged	perl-string-tagged

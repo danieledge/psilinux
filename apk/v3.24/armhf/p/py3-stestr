@@ -1,0 +1,19 @@
+name	py3-stestr
+version	4.1.0-r3
+description	A parallel Python test runner built around subunit
+url	http://stestr.readthedocs.io/en/latest/
+license	Apache-2.0
+size	85721
+installed-size	397075
+depends	py3-autopage py3-cliff py3-subunit py3-tomlkit py3-voluptuous py3-yaml python3~3.14
+origin	py3-stestr
+repo	community
+file	py3-stestr-4.1.0-r3.apk
+checksum	Q1KW1af8PiGSWNOS8Rj8cpKE2NW/0=
+dep	py3-autopage	py3-autopage
+dep	py3-cliff	py3-cliff
+dep	py3-subunit	py3-subunit
+dep	py3-tomlkit	py3-tomlkit
+dep	py3-voluptuous	py3-voluptuous
+dep	py3-yaml	py3-yaml
+dep	python3~3.14	python3

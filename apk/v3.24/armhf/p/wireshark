@@ -1,0 +1,32 @@
+name	wireshark
+version	4.6.9-r0
+description	Network protocol analyzer
+url	https://www.wireshark.org/
+license	GPL-2.0-or-later
+size	11167320
+installed-size	16683187
+depends	so:libQt6Core.so.6 so:libQt6Core5Compat.so.6 so:libQt6DBus.so.6 so:libQt6Gui.so.6 so:libQt6Multimedia.so.6 so:libQt6PrintSupport.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgcrypt.so.20 so:libglib-2.0.so.0 so:libnl-3.so.200 so:libnl-genl-3.so.200 so:libnl-route-3.so.200 so:libpcap.so.1 so:libspeexdsp.so.1 so:libstdc++.so.6 so:libwireshark.so.19 so:libwiretap.so.16 so:libwsutil.so.17
+origin	wireshark
+repo	community
+file	wireshark-4.6.9-r0.apk
+checksum	Q1xKGwK5WU1E52lP+iLHA5DLSx6PY=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Core5Compat.so.6	qt6-qt5compat
+dep	so:libQt6DBus.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Multimedia.so.6	qt6-qtmultimedia
+dep	so:libQt6PrintSupport.so.6	qt6-qtbase-x11
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libglib-2.0.so.0	glib
+dep	so:libnl-3.so.200	libnl3
+dep	so:libnl-genl-3.so.200	libnl3
+dep	so:libnl-route-3.so.200	libnl3
+dep	so:libpcap.so.1	libpcap
+dep	so:libspeexdsp.so.1	speexdsp
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwireshark.so.19	wireshark-common
+dep	so:libwiretap.so.16	wireshark-common
+dep	so:libwsutil.so.17	wireshark-common

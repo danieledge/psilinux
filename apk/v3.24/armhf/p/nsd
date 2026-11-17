@@ -1,0 +1,17 @@
+name	nsd
+version	4.14.3-r1
+description	Authoritative only, high performance and simple DNS server
+url	https://www.nlnetlabs.nl/projects/nsd
+license	BSD-3-Clause
+size	1182241
+installed-size	2825553
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libevent-2.1.so.7 so:libssl.so.3
+origin	nsd
+repo	main
+file	nsd-4.14.3-r1.apk
+checksum	Q1xWXOgsUapQZBSOLGFXSAxAAe1vE=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libevent-2.1.so.7	libevent
+dep	so:libssl.so.3	libssl3

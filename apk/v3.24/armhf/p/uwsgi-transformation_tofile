@@ -1,0 +1,14 @@
+name	uwsgi-transformation_tofile
+version	2.0.31-r2
+description	uWSGI plugin transformation_tofile
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	4025
+installed-size	5444
+depends	uwsgi so:libc.musl-armhf.so.1
+origin	uwsgi
+repo	main
+file	uwsgi-transformation_tofile-2.0.31-r2.apk
+checksum	Q1bBGTNwW40Ki4wvE8tRnLysSNsDA=
+dep	uwsgi	uwsgi
+dep	so:libc.musl-armhf.so.1	musl

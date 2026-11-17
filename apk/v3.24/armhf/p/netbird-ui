@@ -1,0 +1,23 @@
+name	netbird-ui
+version	0.81.2-r0
+description	Graphical user interface for NetBird
+url	https://netbird.io/
+license	BSD-3-Clause
+size	12398423
+installed-size	33961297
+depends	openresolv so:libX11.so.6 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libjavascriptcoregtk-6.0.so.1 so:libsoup-3.0.so.0 so:libwebkitgtk-6.0.so.4
+origin	netbird
+repo	community
+file	netbird-ui-0.81.2-r0.apk
+checksum	Q1CcEz5rDa1osiPgAdqkOywM0ygYQ=
+dep	openresolv	openresolv
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libjavascriptcoregtk-6.0.so.1	webkit2gtk-6.0
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libwebkitgtk-6.0.so.4	webkit2gtk-6.0

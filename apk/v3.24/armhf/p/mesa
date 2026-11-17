@@ -1,0 +1,31 @@
+name	mesa
+version	26.1.6-r0
+description	Mesa DRI OpenGL library
+url	https://www.mesa3d.org
+license	MIT AND SGI-B-2.0 AND BSL-1.0
+size	11693640
+installed-size	36041043
+depends	so:libLLVM.so.22.1 so:libSPIRV-Tools.so so:libX11-xcb.so.1 so:libc.musl-armhf.so.1 so:libdrm.so.2 so:libdrm_amdgpu.so.1 so:libelf.so.1 so:libexpat.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libxcb-dri3.so.0 so:libxcb-present.so.0 so:libxcb-randr.so.0 so:libxcb-sync.so.1 so:libxcb-xfixes.so.0 so:libxcb.so.1 so:libxshmfence.so.1 so:libz.so.1 so:libzstd.so.1
+origin	mesa
+repo	main
+file	mesa-26.1.6-r0.apk
+checksum	Q1+VjbGT1FOSJO+9GuzC05cO4SgSU=
+dep	so:libLLVM.so.22.1	llvm22-libs
+dep	so:libSPIRV-Tools.so	spirv-tools
+dep	so:libX11-xcb.so.1	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm.so.2	libdrm
+dep	so:libdrm_amdgpu.so.1	libdrm
+dep	so:libelf.so.1	libelf
+dep	so:libexpat.so.1	libexpat
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxcb-dri3.so.0	libxcb
+dep	so:libxcb-present.so.0	libxcb
+dep	so:libxcb-randr.so.0	libxcb
+dep	so:libxcb-sync.so.1	libxcb
+dep	so:libxcb-xfixes.so.0	libxcb
+dep	so:libxcb.so.1	libxcb
+dep	so:libxshmfence.so.1	libxshmfence
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

@@ -1,0 +1,14 @@
+name	suitesparse-graphblas
+version	7.8.2-r0
+description	Graph algorithms in the language of linear algebra
+url	http://faculty.cse.tamu.edu/davis/suitesparse.html
+license	Apache-2.0 AND GPL-3.0-or-later
+size	90761892
+installed-size	209203000
+depends	so:libc.musl-armhf.so.1 so:libgomp.so.1
+origin	suitesparse
+repo	community
+file	suitesparse-graphblas-7.8.2-r0.apk
+checksum	Q1hLlxpwX43ThqcZLpHYXg2IA68XE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgomp.so.1	libgomp

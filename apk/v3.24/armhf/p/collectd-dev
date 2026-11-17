@@ -1,0 +1,14 @@
+name	collectd-dev
+version	5.12.0-r25
+description	The system statistics collection daemon (development files)
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	75910
+installed-size	331292
+depends	collectd-libs=5.12.0-r25 pkgconfig
+origin	collectd
+repo	community
+file	collectd-dev-5.12.0-r25.apk
+checksum	Q1OomoIJq44kI8DWcaBaBvULZImqU=
+dep	collectd-libs=5.12.0-r25	collectd-libs
+dep	pkgconfig	pkgconf

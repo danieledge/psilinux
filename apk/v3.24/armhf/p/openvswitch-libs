@@ -1,0 +1,16 @@
+name	openvswitch-libs
+version	3.7.1-r0
+description	production quality, multilayer virtual switch (libraries)
+url	https://www.openvswitch.org/
+license	Apache-2.0
+size	1364414
+installed-size	3398764
+depends	so:libc.musl-armhf.so.1 so:libcap-ng.so.0 so:libcrypto.so.3 so:libssl.so.3
+origin	openvswitch
+repo	community
+file	openvswitch-libs-3.7.1-r0.apk
+checksum	Q1VR1GRfbehBgQCkJWQHbDQSNV7Ik=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap-ng.so.0	libcap-ng
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

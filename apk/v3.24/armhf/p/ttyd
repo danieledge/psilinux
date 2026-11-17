@@ -1,0 +1,20 @@
+name	ttyd
+version	1.7.7-r0
+description	Share your terminal over the web
+url	https://tsl0922.github.io/ttyd
+license	MIT
+size	208789
+installed-size	225780
+depends	libwebsockets-evlib_uv so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libjson-c.so.5 so:libssl.so.3 so:libuv.so.1 so:libwebsockets.so.19 so:libz.so.1
+origin	ttyd
+repo	community
+file	ttyd-1.7.7-r0.apk
+checksum	Q1sMjVReecnexXJSSsa6vFkqxfKs0=
+dep	libwebsockets-evlib_uv	libwebsockets-evlib_uv
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libjson-c.so.5	json-c
+dep	so:libssl.so.3	libssl3
+dep	so:libuv.so.1	libuv
+dep	so:libwebsockets.so.19	libwebsockets
+dep	so:libz.so.1	zlib

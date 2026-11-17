@@ -1,0 +1,17 @@
+name	upower-dev
+version	1.91.0-r2
+description	Power Management Services (development files)
+url	https://upower.freedesktop.org
+license	GPL-2.0-or-later
+size	15694
+installed-size	120098
+depends	upower=1.91.0-r2 pc:glib-2.0>=2.76 pc:gobject-2.0>=2.76 pc:polkit-gobject-1>=0.103 pkgconfig
+origin	upower
+repo	community
+file	upower-dev-1.91.0-r2.apk
+checksum	Q1jqLpJhizpq1N1A6fbxvmjbVO4Qc=
+dep	upower=1.91.0-r2	upower
+dep	pc:glib-2.0>=2.76	glib-dev
+dep	pc:gobject-2.0>=2.76	glib-dev
+dep	pc:polkit-gobject-1>=0.103	polkit-dev
+dep	pkgconfig	pkgconf

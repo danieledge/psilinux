@@ -1,0 +1,17 @@
+name	heif-thumbnailer
+version	1.23.7-r0
+description	ISO/IEC 23008-12:2017 HEIF file format decoder and encoder (thumbnailer)
+url	https://www.libde265.org/
+license	LGPL-3.0-or-later
+size	11306
+installed-size	21940
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:libpng16.so.16 so:libstdc++.so.6
+origin	libheif
+repo	community
+file	heif-thumbnailer-1.23.7-r0.apk
+checksum	Q1trbfx73R9V1Jx+/bjaYUvXlEzmY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libheif.so.1	libheif
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++

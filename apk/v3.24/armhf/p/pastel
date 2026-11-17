@@ -1,0 +1,14 @@
+name	pastel
+version	0.12.0-r0
+description	Command-line tool to generate, analyze, convert and manipulate colors
+url	https://github.com/sharkdp/pastel
+license	Apache-2.0 OR MIT
+size	406117
+installed-size	767664
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	pastel
+repo	community
+file	pastel-0.12.0-r0.apk
+checksum	Q1dHJHI2EA44DGTYtjTMNM5Nq/39Q=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

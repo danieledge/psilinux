@@ -1,0 +1,16 @@
+name	fdupes
+version	2.4.0-r0
+description	identifying or deleting duplicate files residing within specified directories
+url	https://github.com/adrianlopezroche/fdupes
+license	MIT
+size	36896
+installed-size	79764
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6 so:libpcre2-32.so.0 so:libsqlite3.so.0
+origin	fdupes
+repo	community
+file	fdupes-2.4.0-r0.apk
+checksum	Q1OfhKokZ/ugtwRXKlXf7041IUDLE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpcre2-32.so.0	libpcre2-32
+dep	so:libsqlite3.so.0	sqlite-libs

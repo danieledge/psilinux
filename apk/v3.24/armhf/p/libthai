@@ -1,0 +1,14 @@
+name	libthai
+version	0.1.30-r1
+description	Thai language library
+url	https://github.com/tlwg/libthai
+license	LGPL-2.1-or-later
+size	201793
+installed-size	626205
+depends	so:libc.musl-armhf.so.1 so:libdatrie.so.1
+origin	libthai
+repo	community
+file	libthai-0.1.30-r1.apk
+checksum	Q17AJdQZXP9h78tJuOD46occ3LsGg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdatrie.so.1	libdatrie-libs

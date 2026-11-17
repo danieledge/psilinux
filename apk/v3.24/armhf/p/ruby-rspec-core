@@ -1,0 +1,14 @@
+name	ruby-rspec-core
+version	3.13.6-r0
+description	RSpec runner and formatters
+url	http://rspec.info/
+license	MIT
+size	129314
+installed-size	494395
+depends	ruby ruby-rspec-support~3.13
+origin	ruby-rspec-core
+repo	community
+file	ruby-rspec-core-3.13.6-r0.apk
+checksum	Q1YHCaoFuNQrbskOfYOwCCG1s6nNc=
+dep	ruby	ruby
+dep	ruby-rspec-support~3.13	ruby-rspec-support

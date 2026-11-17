@@ -1,0 +1,18 @@
+name	firewalld-gui
+version	2.4.1-r0
+description	GUI tools and assets for firewalld
+url	https://github.com/firewalld/firewalld
+license	GPL-2.0-or-later
+size	110279
+installed-size	622991
+depends	dbus nftables py3-dbus py3-gobject3 py3-libcap-ng py3-nftables
+origin	firewalld
+repo	community
+file	firewalld-gui-2.4.1-r0.apk
+checksum	Q1PSTk/6y+AJVI3Htc0wT8VIeazUo=
+dep	dbus	dbus
+dep	nftables	nftables
+dep	py3-dbus	py3-dbus
+dep	py3-gobject3	py3-gobject3
+dep	py3-libcap-ng	py3-libcap-ng
+dep	py3-nftables	py3-nftables

@@ -1,0 +1,17 @@
+name	ocaml-lablgtk3-extras-dev
+version	3.0.1-r5
+description	Additional tools and libraries for ocaml-lablgtk3 (development files)
+url	https://zoggy.frama.io/lablgtk-extras/
+license	LGPL-3.0-only
+size	1606197
+installed-size	4493535
+depends	ocaml-lablgtk3-extras=3.0.1-r5 ocaml-lablgtk3-dev ocaml-ocf-dev ocaml-xmlm-dev ocaml-yojson-dev
+origin	ocaml-lablgtk3-extras
+repo	community
+file	ocaml-lablgtk3-extras-dev-3.0.1-r5.apk
+checksum	Q1wnkMy34cjl4Cw/UVV/Z2dImwoqw=
+dep	ocaml-lablgtk3-extras=3.0.1-r5	ocaml-lablgtk3-extras
+dep	ocaml-lablgtk3-dev	ocaml-lablgtk3-dev
+dep	ocaml-ocf-dev	ocaml-ocf-dev
+dep	ocaml-xmlm-dev	ocaml-xmlm-dev
+dep	ocaml-yojson-dev	ocaml-yojson-dev

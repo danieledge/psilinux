@@ -1,0 +1,14 @@
+name	ocaml-lwt_log-dev
+version	1.1.1-r8
+description	Lwt-friendly logger (development files)
+url	https://github.com/ocsigen/lwt_log
+license	LGPL-2.0-or-later
+size	261332
+installed-size	711434
+depends	ocaml-lwt_log=1.1.1-r8 ocaml-lwt-dev
+origin	ocaml-lwt_log
+repo	community
+file	ocaml-lwt_log-dev-1.1.1-r8.apk
+checksum	Q1oAgCPSEmL29u2Wm6nOCKHkxDXOs=
+dep	ocaml-lwt_log=1.1.1-r8	ocaml-lwt_log
+dep	ocaml-lwt-dev	ocaml-lwt-dev

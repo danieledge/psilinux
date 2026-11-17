@@ -1,0 +1,14 @@
+name	uhubctl
+version	2.5.0-r0
+description	USB hub per-port power control
+url	https://github.com/mvp/uhubctl
+license	GPL-2.0-only
+size	9939
+installed-size	17660
+depends	so:libc.musl-armhf.so.1 so:libusb-1.0.so.0
+origin	uhubctl
+repo	community
+file	uhubctl-2.5.0-r0.apk
+checksum	Q1U45KDS1bX4DonlJmoBNRqtcrzgM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb

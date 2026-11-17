@@ -1,0 +1,15 @@
+name	php84-pecl-amqp
+version	2.2.0-r0
+description	PHP 8.4 extension to communicate with any AMQP spec 0-9-1 compatible server - PECL
+url	https://pecl.php.net/package/amqp
+license	PHP-3.01
+size	60852
+installed-size	173719
+depends	php84-common so:libc.musl-armhf.so.1 so:librabbitmq.so.4
+origin	php84-pecl-amqp
+repo	community
+file	php84-pecl-amqp-2.2.0-r0.apk
+checksum	Q1rSPZqt8x3tOD85P6I4bjlcoLc1A=
+dep	php84-common	php84-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:librabbitmq.so.4	rabbitmq-c

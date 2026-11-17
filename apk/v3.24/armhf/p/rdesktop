@@ -1,0 +1,23 @@
+name	rdesktop
+version	1.9.0-r4
+description	rdesktop is used to connect to windows terminal servers
+url	https://www.rdesktop.org/
+license	GPL-3.0-or-later
+size	212641
+installed-size	545210
+depends	so:libX11.so.6 so:libXcursor.so.1 so:libXrandr.so.2 so:libao.so.4 so:libc.musl-armhf.so.1 so:libgmp.so.10 so:libgnutls.so.30 so:libhogweed.so.6 so:libnettle.so.8 so:libsamplerate.so.0 so:libtasn1.so.6
+origin	rdesktop
+repo	community
+file	rdesktop-1.9.0-r4.apk
+checksum	Q1nwat6z8s405jgfCNW2yQkBQg6xM=
+dep	so:libX11.so.6	libx11
+dep	so:libXcursor.so.1	libxcursor
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libao.so.4	libao
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgmp.so.10	gmp
+dep	so:libgnutls.so.30	gnutls
+dep	so:libhogweed.so.6	nettle
+dep	so:libnettle.so.8	nettle
+dep	so:libsamplerate.so.0	libsamplerate
+dep	so:libtasn1.so.6	libtasn1

@@ -1,0 +1,32 @@
+name	gst-plugins-base-dev
+version	1.28.3-r0
+description	GStreamer streaming media framework base plug-ins (development files)
+url	https://gstreamer.freedesktop.org
+license	GPL-2.0-or-later AND LGPL-2.0-or-later
+size	717062
+installed-size	6402304
+depends	gst-plugins-base=1.28.3-r0 pc:egl pc:gio-2.0>=2.64.0 pc:gl pc:glesv2 pc:glx pc:gmodule-no-export-2.0 pc:gstreamer-1.0>=1.28.0 pc:gstreamer-base-1.0>=1.28.0 pc:libdrm>=2.4.98 pc:orc-0.4>=0.4.34 pc:wayland-client pc:wayland-client>=1.11 pc:wayland-cursor>=1.0 pc:wayland-egl pc:wayland-egl>=1.0 pc:x11 pc:x11-xcb pc:zlib pkgconfig
+origin	gst-plugins-base
+repo	main
+file	gst-plugins-base-dev-1.28.3-r0.apk
+checksum	Q1T9YvrsG8QA3wby6L3HEngqsEfLM=
+dep	gst-plugins-base=1.28.3-r0	gst-plugins-base
+dep	pc:egl	mesa-dev
+dep	pc:gio-2.0>=2.64.0	glib-dev
+dep	pc:gl	mesa-dev
+dep	pc:glesv2	mesa-dev
+dep	pc:glx	mesa-dev
+dep	pc:gmodule-no-export-2.0	glib-dev
+dep	pc:gstreamer-1.0>=1.28.0	gstreamer-dev
+dep	pc:gstreamer-base-1.0>=1.28.0	gstreamer-dev
+dep	pc:libdrm>=2.4.98	libdrm-dev
+dep	pc:orc-0.4>=0.4.34	orc-dev
+dep	pc:wayland-client	wayland-dev
+dep	pc:wayland-client>=1.11	wayland-dev
+dep	pc:wayland-cursor>=1.0	wayland-dev
+dep	pc:wayland-egl	wayland-dev
+dep	pc:wayland-egl>=1.0	wayland-dev
+dep	pc:x11	libx11-dev
+dep	pc:x11-xcb	libx11-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

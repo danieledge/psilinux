@@ -1,0 +1,16 @@
+name	tcl9
+version	9.0.3-r2
+description	The Tcl scripting language, version 9
+url	https://www.tcl-lang.org/
+license	TCL
+size	1886590
+installed-size	5086288
+depends	tzdata so:libc.musl-armhf.so.1 so:libsqlite3.so.0 so:libz.so.1
+origin	tcl9
+repo	main
+file	tcl9-9.0.3-r2.apk
+checksum	Q1+Vu7213frggZG+j0iki3rpncWtY=
+dep	tzdata	tzdata
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libz.so.1	zlib

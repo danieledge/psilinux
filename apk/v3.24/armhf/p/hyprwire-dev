@@ -1,0 +1,14 @@
+name	hyprwire-dev
+version	0.3.1-r0
+description	Fast and consistent wire protocol for IPC (development files)
+url	https://github.com/hyprwm/hyprwire
+license	BSD-3-Clause
+size	6438
+installed-size	13740
+depends	hyprwire=0.3.1-r0 pkgconfig
+origin	hyprwire
+repo	community
+file	hyprwire-dev-0.3.1-r0.apk
+checksum	Q142BTd2hePAYQCRu9GfS4SuP41vA=
+dep	hyprwire=0.3.1-r0	hyprwire
+dep	pkgconfig	pkgconf

@@ -1,0 +1,15 @@
+name	perl-cpan-requirements-dynamic
+version	0.002-r1
+description	Dynamic prerequisites in CPAN metadata files
+url	https://metacpan.org/release/CPAN-Requirements-Dynamic/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	4487
+installed-size	7545
+depends	perl perl-extutils-config perl-extutils-hascompiler
+origin	perl-cpan-requirements-dynamic
+repo	main
+file	perl-cpan-requirements-dynamic-0.002-r1.apk
+checksum	Q1myhOqPWPRCy9dMyxcCXZxaKOsjI=
+dep	perl	perl
+dep	perl-extutils-config	perl-extutils-config
+dep	perl-extutils-hascompiler	perl-extutils-hascompiler

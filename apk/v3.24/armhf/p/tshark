@@ -1,0 +1,21 @@
+name	tshark
+version	4.6.9-r0
+description	Network protocol analyzer (Console version)
+url	https://www.wireshark.org/
+license	GPL-2.0-or-later
+size	143715
+installed-size	317496
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libnl-3.so.200 so:libnl-route-3.so.200 so:libpcap.so.1 so:libwireshark.so.19 so:libwiretap.so.16 so:libwsutil.so.17
+origin	wireshark
+repo	community
+file	tshark-4.6.9-r0.apk
+checksum	Q1dzO4Ph+I7SeDZbVHqzfXcWYymGA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libnl-3.so.200	libnl3
+dep	so:libnl-route-3.so.200	libnl3
+dep	so:libpcap.so.1	libpcap
+dep	so:libwireshark.so.19	wireshark-common
+dep	so:libwiretap.so.16	wireshark-common
+dep	so:libwsutil.so.17	wireshark-common

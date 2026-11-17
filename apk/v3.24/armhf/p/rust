@@ -1,0 +1,18 @@
+name	rust
+version	1.96.1-r0
+description	Rust Programming Language toolchain
+url	https://www.rust-lang.org/
+license	Apache-2.0 OR MIT
+size	68448931
+installed-size	179954352
+depends	gcc musl-dev so:libLLVM.so.22.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	rust
+repo	main
+file	rust-1.96.1-r0.apk
+checksum	Q14KY9veLpp2WVlCX+arLDEFXof6g=
+dep	gcc	gcc
+dep	musl-dev	musl-dev
+dep	so:libLLVM.so.22.1	llvm22-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

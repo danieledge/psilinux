@@ -1,0 +1,14 @@
+name	libxext
+version	1.3.7-r0
+description	X11 miscellaneous extensions library
+url	https://xorg.freedesktop.org/
+license	MIT
+size	23379
+installed-size	63228
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1
+origin	libxext
+repo	main
+file	libxext-1.3.7-r0.apk
+checksum	Q1XewLPRYsFMM+iwjWyINBEGWhMQU=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl

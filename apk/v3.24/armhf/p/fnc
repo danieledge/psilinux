@@ -1,0 +1,16 @@
+name	fnc
+version	0.18-r1
+description	Interactive ncurses browser for Fossil repositories
+url	https://fnc.bsdbox.org/
+license	ISC
+size	878737
+installed-size	1897372
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6 so:libpanelw.so.6 so:libz.so.1
+origin	fnc
+repo	community
+file	fnc-0.18-r1.apk
+checksum	Q1H+CPS0VcrjAU/2Ed3n+8ey6eFgA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpanelw.so.6	libpanelw
+dep	so:libz.so.1	zlib

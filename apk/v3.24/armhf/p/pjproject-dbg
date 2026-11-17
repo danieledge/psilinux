@@ -1,0 +1,12 @@
+name	pjproject-dbg
+version	2.17-r0
+description	Open source multimedia communication library (debug symbols)
+url	https://www.pjsip.org/pjsua.htm
+license	GPL-2.0-or-later
+size	8725983
+installed-size	24952100
+depends	!pjproject<2.17-r0 !pjproject>2.17-r0 !py3-pjsua<2.17-r0 !py3-pjsua>2.17-r0
+origin	pjproject
+repo	main
+file	pjproject-dbg-2.17-r0.apk
+checksum	Q1l9szJsVWRwFTgpuda58Zw52SY1k=

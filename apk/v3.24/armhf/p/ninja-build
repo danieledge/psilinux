@@ -1,0 +1,16 @@
+name	ninja-build
+version	1.13.2-r1
+description	Small build system with a focus on speed
+url	https://ninja-build.org/
+license	Apache-2.0
+size	148129
+installed-size	292500
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	ninja-build
+repo	community
+file	ninja-build-1.13.2-r1.apk
+checksum	Q1rEanNa5Qse0gjsz/U78/uVWbcbg=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

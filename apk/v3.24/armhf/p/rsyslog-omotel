@@ -1,0 +1,18 @@
+name	rsyslog-omotel
+version	8.2608.0-r0
+description	rsyslog  module
+url	https://www.rsyslog.com/
+license	Apache-2.0 AND GPL-3.0-or-later AND LGPL-3.0-or-later
+size	30036
+installed-size	79836
+depends	rsyslog=8.2608.0-r0 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libfastjson.so.4 so:libprotobuf-c.so.1 so:libz.so.1
+origin	rsyslog
+repo	main
+file	rsyslog-omotel-8.2608.0-r0.apk
+checksum	Q1EU7jZCN5g4mF4hRuZLW+tBZK8l4=
+dep	rsyslog=8.2608.0-r0	rsyslog
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libfastjson.so.4	libfastjson
+dep	so:libprotobuf-c.so.1	protobuf-c
+dep	so:libz.so.1	zlib

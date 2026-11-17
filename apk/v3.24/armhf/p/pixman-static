@@ -1,0 +1,13 @@
+name	pixman-static
+version	0.46.4-r0
+description	Low-level pixel manipulation library (static library)
+url	https://gitlab.freedesktop.org/pixman
+license	MIT
+size	1377975
+installed-size	3988038
+depends	pixman-dev
+origin	pixman
+repo	main
+file	pixman-static-0.46.4-r0.apk
+checksum	Q1PUCC7cW/iVS/BBWAXLCCo/6Fknk=
+dep	pixman-dev	pixman-dev

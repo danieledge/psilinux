@@ -1,0 +1,18 @@
+name	libass
+version	0.17.4-r1
+description	Portable library for SSA/ASS subtitle rendering
+url	https://github.com/libass/libass
+license	ISC
+size	83946
+installed-size	152956
+depends	so:libc.musl-armhf.so.1 so:libfontconfig.so.1 so:libfreetype.so.6 so:libfribidi.so.0 so:libharfbuzz.so.0 so:libunibreak.so.6
+origin	libass
+repo	community
+file	libass-0.17.4-r1.apk
+checksum	Q1JE8KZWdoegixuN0JOo1LDRIbCPE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libfribidi.so.0	fribidi
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:libunibreak.so.6	libunibreak

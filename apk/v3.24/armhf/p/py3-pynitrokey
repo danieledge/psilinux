@@ -1,0 +1,29 @@
+name	py3-pynitrokey
+version	0.12.2-r0
+description	Python Library for Nitrokey devices
+url	https://github.com/Nitrokey/pynitrokey
+license	Apache-2.0 AND MIT
+size	163199
+installed-size	680187
+depends	nitrokey-udev-rules py3-click py3-click-aliases py3-cryptography py3-fido2 py3-intelhex py3-libusb1 py3-nethsm py3-nitrokey py3-nkdfu py3-pyserial py3-requests py3-semver py3-tlv8 py3-tqdm py3-typing-extensions python3~3.14
+origin	py3-pynitrokey
+repo	community
+file	py3-pynitrokey-0.12.2-r0.apk
+checksum	Q1EUlBFzgonwOE/Tx0xi7W/1RXFMA=
+dep	nitrokey-udev-rules	nitrokey-udev-rules
+dep	py3-click	py3-click
+dep	py3-click-aliases	py3-click-aliases
+dep	py3-cryptography	py3-cryptography
+dep	py3-fido2	py3-fido2
+dep	py3-intelhex	py3-intelhex
+dep	py3-libusb1	py3-libusb1
+dep	py3-nethsm	py3-nethsm
+dep	py3-nitrokey	py3-nitrokey
+dep	py3-nkdfu	py3-nkdfu
+dep	py3-pyserial	py3-pyserial
+dep	py3-requests	py3-requests
+dep	py3-semver	py3-semver
+dep	py3-tlv8	py3-tlv8
+dep	py3-tqdm	py3-tqdm
+dep	py3-typing-extensions	py3-typing-extensions
+dep	python3~3.14	python3

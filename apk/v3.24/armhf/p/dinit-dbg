@@ -1,0 +1,12 @@
+name	dinit-dbg
+version	0.21.0-r0
+description	Service monitoring/init system (debug symbols)
+url	https://github.com/davmac314/dinit
+license	Apache-2.0
+size	3199251
+installed-size	8721264
+depends	!dinit-shutdown<0.21.0-r0 !dinit-shutdown>0.21.0-r0 !dinit<0.21.0-r0 !dinit>0.21.0-r0
+origin	dinit
+repo	community
+file	dinit-dbg-0.21.0-r0.apk
+checksum	Q1CBd8tQcBr2sRH8bPL+FXA1Vl7+U=

@@ -1,0 +1,20 @@
+name	tagutil
+version	3.1-r3
+description	scriptable music files tags tool and editor
+url	https://github.com/kAworu/tagutil
+license	BSD-2-Clause
+size	20232
+installed-size	42472
+depends	so:libFLAC.so.12 so:libc.musl-armhf.so.1 so:libjansson.so.4 so:libogg.so.0 so:libtag_c.so.2 so:libvorbis.so.0 so:libvorbisfile.so.3 so:libyaml-0.so.2
+origin	tagutil
+repo	community
+file	tagutil-3.1-r3.apk
+checksum	Q1kxifh+E67m8X8uM/a3T2zp126J4=
+dep	so:libFLAC.so.12	libflac
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjansson.so.4	jansson
+dep	so:libogg.so.0	libogg
+dep	so:libtag_c.so.2	libtag_c
+dep	so:libvorbis.so.0	libvorbis
+dep	so:libvorbisfile.so.3	libvorbis
+dep	so:libyaml-0.so.2	yaml

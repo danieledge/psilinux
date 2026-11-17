@@ -1,0 +1,16 @@
+name	attica-dev
+version	6.26.0-r0
+description	Freedesktop OCS binding for Qt (development files)
+url	https://www.kde.org/
+license	LGPL-2.0-or-later
+size	32424
+installed-size	134182
+depends	attica=6.26.0-r0 pc:Qt6Core pc:Qt6Network pkgconfig
+origin	attica
+repo	community
+file	attica-dev-6.26.0-r0.apk
+checksum	Q1+aLbSrNfB2AF6RJ8yYwHCiFj8Sk=
+dep	attica=6.26.0-r0	attica
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pc:Qt6Network	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

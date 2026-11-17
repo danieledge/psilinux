@@ -1,0 +1,14 @@
+name	vivid
+version	0.11.1-r0
+description	Themeable LS_COLORS generator with a rich filetype database
+url	https://github.com/sharkdp/vivid
+license	Apache-2.0 AND MIT
+size	327117
+installed-size	671536
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	vivid
+repo	community
+file	vivid-0.11.1-r0.apk
+checksum	Q1JYsmTBeY+A+XWW57d9ovspGo54M=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

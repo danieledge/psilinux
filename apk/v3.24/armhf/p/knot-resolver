@@ -1,0 +1,28 @@
+name	knot-resolver
+version	5.7.7-r0
+description	Minimalistic caching DNS resolver implementation
+url	https://www.knot-resolver.cz/
+license	GPL-3.0-or-later
+size	337576
+installed-size	801480
+depends	dnssec-root lua5.1-cqueues lua5.1-http /bin/sh so:libc.musl-armhf.so.1 so:libcap-ng.so.0 so:libdnssec.so.10 so:libedit.so.0 so:libgcc_s.so.1 so:libgnutls.so.30 so:libknot.so.16 so:liblmdb.so.0 so:libluajit-5.1.so.2 so:libstdc++.so.6 so:libuv.so.1 so:libzscanner.so.5
+origin	knot-resolver
+repo	community
+file	knot-resolver-5.7.7-r0.apk
+checksum	Q1mBcGWratYo1WnqZEiwjI8DRaYa8=
+dep	dnssec-root	dnssec-root
+dep	lua5.1-cqueues	lua5.1-cqueues
+dep	lua5.1-http	lua5.1-http
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap-ng.so.0	libcap-ng
+dep	so:libdnssec.so.10	knot-libs
+dep	so:libedit.so.0	libedit
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgnutls.so.30	gnutls
+dep	so:libknot.so.16	knot-libs
+dep	so:liblmdb.so.0	lmdb
+dep	so:libluajit-5.1.so.2	luajit
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libuv.so.1	libuv
+dep	so:libzscanner.so.5	knot-libs

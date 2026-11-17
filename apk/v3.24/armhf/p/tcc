@@ -1,0 +1,15 @@
+name	tcc
+version	0.9.27_git20250619-r1
+description	Tiny C Compiler
+url	https://repo.or.cz/w/tinycc.git
+license	LGPL-2.1-or-later
+size	10739
+installed-size	21728
+depends	tcc-libs=0.9.27_git20250619-r1 so:libc.musl-armhf.so.1 so:libtcc.so
+origin	tcc
+repo	community
+file	tcc-0.9.27_git20250619-r1.apk
+checksum	Q1jXx4nwjrtZ4lLWupjcBfKMWpT4U=
+dep	tcc-libs=0.9.27_git20250619-r1	tcc-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libtcc.so	tcc-libs

@@ -1,0 +1,14 @@
+name	libxkbfile
+version	1.2.0-r0
+description	X11 keyboard file manipulation library
+url	https://xorg.freedesktop.org/
+license	MIT
+size	58854
+installed-size	120508
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1
+origin	libxkbfile
+repo	main
+file	libxkbfile-1.2.0-r0.apk
+checksum	Q1cZjwlL4N5E9rmDN9n0fNOycJb84=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl

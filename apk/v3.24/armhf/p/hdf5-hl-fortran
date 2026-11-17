@@ -1,0 +1,17 @@
+name	hdf5-hl-fortran
+version	1.14.4.2-r1
+description	High Level Fortran runtime files for serial platforms for HDF5 library
+url	https://www.hdfgroup.org/solutions/hdf5/
+license	custom
+size	30237
+installed-size	173176
+depends	so:libc.musl-armhf.so.1 so:libgfortran.so.5 so:libhdf5.so.311 so:libhdf5_fortran.so.311 so:libhdf5_hl.so.310
+origin	hdf5
+repo	community
+file	hdf5-hl-fortran-1.14.4.2-r1.apk
+checksum	Q1TsZ2Kt6LzP4DdfAdbN5XzQTCWFs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgfortran.so.5	libgfortran
+dep	so:libhdf5.so.311	hdf5
+dep	so:libhdf5_fortran.so.311	hdf5-fortran
+dep	so:libhdf5_hl.so.310	hdf5-hl

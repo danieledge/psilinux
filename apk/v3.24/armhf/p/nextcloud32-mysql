@@ -1,0 +1,14 @@
+name	nextcloud32-mysql
+version	32.0.15-r0
+description	Nextcloud MySQL support
+url	https://nextcloud.com/
+license	AGPL-3.0-only
+size	1628
+installed-size	96
+depends	nextcloud32 php83-pdo_mysql
+origin	nextcloud32
+repo	community
+file	nextcloud32-mysql-32.0.15-r0.apk
+checksum	Q1N0RALKrRW/WmQXiybigNQE1ayAo=
+dep	nextcloud32	nextcloud32
+dep	php83-pdo_mysql	php83-pdo_mysql

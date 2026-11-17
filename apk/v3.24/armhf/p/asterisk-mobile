@@ -1,0 +1,14 @@
+name	asterisk-mobile
+version	22.9.0-r0
+description	Modular Open Source PBX System
+url	https://www.asterisk.org/
+license	GPL-2.0-only WITH OpenSSL-Exception
+size	48745
+installed-size	104348
+depends	so:libbluetooth.so.3 so:libc.musl-armhf.so.1
+origin	asterisk
+repo	main
+file	asterisk-mobile-22.9.0-r0.apk
+checksum	Q1dL5ljHGBvSUVLna+EV9MMn8V1pI=
+dep	so:libbluetooth.so.3	bluez-libs
+dep	so:libc.musl-armhf.so.1	musl

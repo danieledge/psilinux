@@ -1,0 +1,14 @@
+name	netdata-go-plugins
+version	1.47.5-r24
+description	Real-time performance monitoring (go plugins)
+url	https://www.netdata.cloud/
+license	GPL-3.0-or-later
+size	24096237
+installed-size	86540708
+depends	netdata so:libc.musl-armhf.so.1
+origin	netdata
+repo	community
+file	netdata-go-plugins-1.47.5-r24.apk
+checksum	Q1ttaeGpQXWgV+UgmXl+NMD5rSt2w=
+dep	netdata	netdata
+dep	so:libc.musl-armhf.so.1	musl

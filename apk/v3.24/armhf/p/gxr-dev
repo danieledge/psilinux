@@ -1,0 +1,18 @@
+name	gxr-dev
+version	0.16.0-r1
+description	A glib wrapper for the OpenVR and the OpenXR APIs (development files)
+url	https://gitlab.freedesktop.org/xrdesktop/gxr
+license	MIT AND CC-BY-SA-4.0
+size	8079
+installed-size	25836
+depends	json-glib-dev openxr-dev gxr=0.16.0-r1 pc:gdk-3.0 pc:gulkan-0.16 pkgconfig
+origin	gxr
+repo	community
+file	gxr-dev-0.16.0-r1.apk
+checksum	Q1WBcu1fA9ivdAjeODGJEjNxuB8iM=
+dep	json-glib-dev	json-glib-dev
+dep	openxr-dev	openxr-dev
+dep	gxr=0.16.0-r1	gxr
+dep	pc:gdk-3.0	gtk+3.0-dev
+dep	pc:gulkan-0.16	gulkan-dev
+dep	pkgconfig	pkgconf

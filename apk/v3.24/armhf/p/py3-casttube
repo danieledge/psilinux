@@ -1,0 +1,14 @@
+name	py3-casttube
+version	0.2.1-r9
+description	YouTube Chromecast API
+url	https://github.com/ur1katz/casttube
+license	MIT
+size	6934
+installed-size	13318
+depends	py3-requests python3~3.14
+origin	py3-casttube
+repo	community
+file	py3-casttube-0.2.1-r9.apk
+checksum	Q16u8sSPNMfds1DBM1mN3Wou02qeU=
+dep	py3-requests	py3-requests
+dep	python3~3.14	python3

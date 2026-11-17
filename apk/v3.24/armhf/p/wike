@@ -1,0 +1,16 @@
+name	wike
+version	3.2.1-r0
+description	Wikipedia Reader for the GNOME Desktop
+url	https://apps.gnome.org/Wike
+license	GPL-3.0-or-later
+size	90484
+installed-size	383273
+depends	libadwaita py3-gobject3 py3-requests webkit2gtk-6.0
+origin	wike
+repo	community
+file	wike-3.2.1-r0.apk
+checksum	Q1RTGoBaDHA6h0jNFHWxBKZSWYHOo=
+dep	libadwaita	libadwaita
+dep	py3-gobject3	py3-gobject3
+dep	py3-requests	py3-requests
+dep	webkit2gtk-6.0	webkit2gtk-6.0

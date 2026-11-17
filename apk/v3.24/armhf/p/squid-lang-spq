@@ -1,0 +1,14 @@
+name	squid-lang-spq
+version	7.6-r0
+description	squid language pack for spq
+url	https://www.squid-cache.org/
+license	GPL-2.0-or-later
+size	1599
+installed-size	1
+depends	logrotate squid-lang-es=7.6-r0
+origin	squid
+repo	main
+file	squid-lang-spq-7.6-r0.apk
+checksum	Q1Mn8xgY0VOk4yj5PiOyvzrPl5XVI=
+dep	logrotate	logrotate
+dep	squid-lang-es=7.6-r0	squid-lang-es

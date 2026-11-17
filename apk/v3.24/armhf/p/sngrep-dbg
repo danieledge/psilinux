@@ -1,0 +1,12 @@
+name	sngrep-dbg
+version	1.8.3-r2
+description	display SIP call message flows from a terminal (debug symbols)
+url	https://github.com/irontec/sngrep
+license	GPL-3.0-or-later
+size	231683
+installed-size	523656
+depends	!sngrep<1.8.3-r2 !sngrep>1.8.3-r2
+origin	sngrep
+repo	community
+file	sngrep-dbg-1.8.3-r2.apk
+checksum	Q1t/AOzNE3WgNFNdw03dt4dc9DCeI=

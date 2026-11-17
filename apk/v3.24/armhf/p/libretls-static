@@ -1,0 +1,13 @@
+name	libretls-static
+version	3.8.1-r0
+description	port of libtls from libressl to openssl (static library)
+url	https://git.causal.agency/libretls/
+license	ISC AND ( BSD-3-Clause OR MIT )
+size	34576
+installed-size	97372
+depends	libretls-dev
+origin	libretls
+repo	community
+file	libretls-static-3.8.1-r0.apk
+checksum	Q1VqyQGKHA5xBLnPXY/XruVQAU2cg=
+dep	libretls-dev	libretls-dev

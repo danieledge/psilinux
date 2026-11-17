@@ -1,0 +1,13 @@
+name	opencl-layer-info
+version	2026.05.29-r0
+description	OpenCL Layer Info tool
+url	https://khronos.org/opencl
+license	Apache-2.0
+size	21046
+installed-size	62688
+depends	so:libc.musl-armhf.so.1
+origin	opencl
+repo	community
+file	opencl-layer-info-2026.05.29-r0.apk
+checksum	Q18fq02fCmsqt1qFdrLkjN9txCDUA=
+dep	so:libc.musl-armhf.so.1	musl

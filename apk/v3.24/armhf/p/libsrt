@@ -1,0 +1,16 @@
+name	libsrt
+version	1.5.3-r1
+description	Secure Reliable Transport (SRT)
+url	https://www.srtalliance.org/
+license	MPL-2.0
+size	390881
+installed-size	849664
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libsrt
+repo	community
+file	libsrt-1.5.3-r1.apk
+checksum	Q1wP5lubaArROmVfYVFIIOChAsyfc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

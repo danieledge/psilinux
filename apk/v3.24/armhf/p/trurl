@@ -1,0 +1,14 @@
+name	trurl
+version	0.16.1-r1
+description	command line tool for URL parsing and manipulation
+url	https://curl.se/trurl/
+license	curl
+size	14567
+installed-size	25824
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4
+origin	trurl
+repo	community
+file	trurl-0.16.1-r1.apk
+checksum	Q1YlokQntd/+zcZOOTMcDOlFLdyC8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl

@@ -1,0 +1,15 @@
+name	libretro-stella2014
+version	0_git20241021-r0
+description	port of Stella to libretro
+url	https://github.com/libretro/stella2014-libretro
+license	GPL-2.0-only
+size	410645
+installed-size	1550260
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libretro-stella2014
+repo	community
+file	libretro-stella2014-0_git20241021-r0.apk
+checksum	Q1Y9N3v6RGKo/TSinPmKqxgd1E25M=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

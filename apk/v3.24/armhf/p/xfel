@@ -1,0 +1,15 @@
+name	xfel
+version	1.3.5-r0
+description	Tiny FEL tools for allwinner SOC, support RISC-V D1 chip.
+url	https://github.com/xboot/xfel
+license	MIT
+size	197517
+installed-size	473692
+depends	libusb-dev so:libc.musl-armhf.so.1 so:libusb-1.0.so.0
+origin	xfel
+repo	community
+file	xfel-1.3.5-r0.apk
+checksum	Q1TBXsveZOtm4ZnlzsaHJOpzWz8QE=
+dep	libusb-dev	libusb-dev
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb

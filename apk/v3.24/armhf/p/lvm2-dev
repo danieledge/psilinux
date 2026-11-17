@@ -1,0 +1,15 @@
+name	lvm2-dev
+version	2.03.35-r2
+description	Logical Volume Manager 2 utilities (development files)
+url	https://sourceware.org/lvm2/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-2-Clause
+size	3315
+installed-size	2528
+depends	device-mapper-dev~2.03.35 linux-headers lvm2-libs=2.03.35-r2
+origin	lvm2
+repo	main
+file	lvm2-dev-2.03.35-r2.apk
+checksum	Q1fIoqgsfjRemBqJrIq7ACa9ZtKTE=
+dep	device-mapper-dev~2.03.35	device-mapper-dev
+dep	linux-headers	linux-headers
+dep	lvm2-libs=2.03.35-r2	lvm2-libs

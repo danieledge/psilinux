@@ -1,0 +1,16 @@
+name	openssl-fips
+version	3.5.9-r0
+description	FIPS module from openssl
+url	https://www.openssl.org/
+license	Apache-2.0
+size	664597
+installed-size	1253182
+depends	libssl3=3.5.9-r0 libcrypto3=3.5.9-r0 /bin/sh so:libc.musl-armhf.so.1
+origin	openssl
+repo	main
+file	openssl-fips-3.5.9-r0.apk
+checksum	Q12g1Y09sZR/dPwb+N142Q9/Ogpuw=
+dep	libssl3=3.5.9-r0	libssl3
+dep	libcrypto3=3.5.9-r0	libcrypto3
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,16 @@
+name	perf-bash-completion
+version	7.1.5-r0
+description	Bash completion for perf
+url	https://www.kernel.org/
+license	GPL-2.0-only
+size	4090
+installed-size	7070
+depends	perf cpupower linux-tools-gpio linux-tools-iio
+origin	linux-tools
+repo	main
+file	perf-bash-completion-7.1.5-r0.apk
+checksum	Q18UwuQqO2bR1T3I9cD1gyzXpZFJg=
+dep	perf	perf
+dep	cpupower	cpupower
+dep	linux-tools-gpio	linux-tools-gpio
+dep	linux-tools-iio	linux-tools-iio

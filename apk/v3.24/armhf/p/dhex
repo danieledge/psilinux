@@ -1,0 +1,14 @@
+name	dhex
+version	0.69-r3
+description	ncurses hex editor with diff mode for binary file comparison, supports custom themes
+url	https://www.dettus.net/dhex/
+license	GPL-2.0-or-later
+size	50615
+installed-size	89877
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	dhex
+repo	community
+file	dhex-0.69-r3.apk
+checksum	Q19kDUUOkHJIYfi9xYE0f6D7gybsc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

@@ -1,0 +1,14 @@
+name	ck-dev
+version	0.7.2-r1
+description	Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures (development files)
+url	https://concurrencykit.org/
+license	BSD-2-Clause AND Apache-2.0
+size	79084
+installed-size	476637
+depends	ck=0.7.2-r1 pkgconfig
+origin	ck
+repo	community
+file	ck-dev-0.7.2-r1.apk
+checksum	Q14+TJzHuPD6JKh22qmzVhzVn/RLc=
+dep	ck=0.7.2-r1	ck
+dep	pkgconfig	pkgconf

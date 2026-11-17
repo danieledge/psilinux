@@ -1,0 +1,18 @@
+name	py3-jsonschema-path
+version	0.4.6-r0
+description	Object-oriented JSONSchema
+url	https://github.com/p1c2u/jsonschema-path
+license	Apache-2.0
+size	17492
+installed-size	50721
+depends	py3-jsonschema py3-pathable py3-yaml py3-requests py3-referencing python3~3.14
+origin	py3-jsonschema-path
+repo	community
+file	py3-jsonschema-path-0.4.6-r0.apk
+checksum	Q1NDvnEecJmEmtkXLVOiNL3ddrIW0=
+dep	py3-jsonschema	py3-jsonschema
+dep	py3-pathable	py3-pathable
+dep	py3-yaml	py3-yaml
+dep	py3-requests	py3-requests
+dep	py3-referencing	py3-referencing
+dep	python3~3.14	python3

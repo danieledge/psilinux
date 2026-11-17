@@ -1,0 +1,14 @@
+name	althttpd-utils
+version	202601091240-r0
+description	althttpd utilities
+url	https://sqlite.org/althttpd/doc/trunk/althttpd.md
+license	Public-Domain
+size	8526
+installed-size	17632
+depends	so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	althttpd
+repo	community
+file	althttpd-utils-202601091240-r0.apk
+checksum	Q1jXB6goJtDKHgBoqgaYtwydh143U=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

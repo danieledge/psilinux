@@ -1,0 +1,24 @@
+name	gcr-base
+version	3.41.2-r2
+description	library for bits of crypto UI and parsing (base libraries)
+url	https://gitlab.gnome.org/GNOME/gcr/-/tree/gcr-3-41
+license	LGPL-2.0-or-later
+size	408980
+installed-size	1059548
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgcrypt.so.20 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libp11-kit.so.0 so:libpango-1.0.so.0
+origin	gcr
+repo	community
+file	gcr-base-3.41.2-r2.apk
+checksum	Q1bEZ+gn2NrFgPvfGcfYwxIwYPAQ8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libp11-kit.so.0	p11-kit
+dep	so:libpango-1.0.so.0	pango

@@ -1,0 +1,35 @@
+name	spice-glib
+version	0.42-r0
+description	GTK+ widget for SPICE clients (glib library)
+url	https://www.spice-space.org/spice-gtk.html
+license	LGPL-2.1-or-later
+size	296164
+installed-size	839372
+depends	libcap-ng so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstapp-1.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libintl.so.8 so:libjpeg.so.8 so:libjson-glib-1.0.so.0 so:liblz4.so.1 so:libopus.so.0 so:libpixman-1.so.0 so:libsasl2.so.3 so:libssl.so.3 so:libusb-1.0.so.0 so:libusbredirhost.so.1 so:libusbredirparser.so.1 so:libz.so.1
+origin	spice-gtk
+repo	community
+file	spice-glib-0.42-r0.apk
+checksum	Q1EFCk0XUkSLA4lLVSGH1iEP0rs+E=
+dep	libcap-ng	libcap-ng
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstapp-1.0.so.0	gst-plugins-base
+dep	so:libgstaudio-1.0.so.0	gst-plugins-base
+dep	so:libgstbase-1.0.so.0	gstreamer
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base
+dep	so:libintl.so.8	libintl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:liblz4.so.1	lz4-libs
+dep	so:libopus.so.0	opus
+dep	so:libpixman-1.so.0	pixman
+dep	so:libsasl2.so.3	libsasl
+dep	so:libssl.so.3	libssl3
+dep	so:libusb-1.0.so.0	libusb
+dep	so:libusbredirhost.so.1	libusbredirhost
+dep	so:libusbredirparser.so.1	libusbredirparser
+dep	so:libz.so.1	zlib

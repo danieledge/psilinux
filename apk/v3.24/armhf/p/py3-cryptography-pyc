@@ -1,0 +1,13 @@
+name	py3-cryptography-pyc
+version	47.0.0-r0
+description	Precompiled Python bytecode for py3-cryptography
+url	https://cryptography.io/
+license	Apache-2.0 OR BSD-3-Clause
+size	209178
+installed-size	707154
+depends	python3~3.14
+origin	py3-cryptography
+repo	main
+file	py3-cryptography-pyc-47.0.0-r0.apk
+checksum	Q1CFFhk+WGPUlNJtzmSS5nzX932z8=
+dep	python3~3.14	python3

@@ -1,0 +1,15 @@
+name	perl-rxperl-anyevent
+version	6.8.1-r1
+description	AnyEvent adapter for RxPerl
+url	https://metacpan.org/release/RxPerl-AnyEvent/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	2736
+installed-size	2282
+depends	perl perl-anyevent perl-rxperl
+origin	perl-rxperl-anyevent
+repo	community
+file	perl-rxperl-anyevent-6.8.1-r1.apk
+checksum	Q1rJ/dvJfeZb13jYcU9NXcHzrWzKo=
+dep	perl	perl
+dep	perl-anyevent	perl-anyevent
+dep	perl-rxperl	perl-rxperl

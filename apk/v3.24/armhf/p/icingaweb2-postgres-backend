@@ -1,0 +1,15 @@
+name	icingaweb2-postgres-backend
+version	2.13.0-r1
+description	Icingaweb2 postgresql backend
+url	https://icinga.com/docs/icinga-web-2/latest/doc/01-About/
+license	GPL-2.0-only
+size	3388
+installed-size	7219
+depends	icingaweb2 php85-pgsql php85-pdo_pgsql
+origin	icingaweb2
+repo	community
+file	icingaweb2-postgres-backend-2.13.0-r1.apk
+checksum	Q15GInHju7lEFq7pTWFWFm7RkEoek=
+dep	icingaweb2	icingaweb2
+dep	php85-pgsql	php85-pgsql
+dep	php85-pdo_pgsql	php85-pdo_pgsql

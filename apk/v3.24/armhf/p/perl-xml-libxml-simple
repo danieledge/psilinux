@@ -1,0 +1,15 @@
+name	perl-xml-libxml-simple
+version	1.01-r2
+description	XML::LibXML based XML::Simple clone
+url	https://metacpan.org/release/XML-LibXML-Simple
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	14581
+installed-size	36889
+depends	perl perl-file-slurp-tiny perl-xml-libxml
+origin	perl-xml-libxml-simple
+repo	community
+file	perl-xml-libxml-simple-1.01-r2.apk
+checksum	Q1H0X9DAwngaaS1823c55ECEGIBaw=
+dep	perl	perl
+dep	perl-file-slurp-tiny	perl-file-slurp-tiny
+dep	perl-xml-libxml	perl-xml-libxml

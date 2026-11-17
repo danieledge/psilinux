@@ -1,0 +1,14 @@
+name	ffmpeg6-libpostproc
+version	6.1.6-r0
+description	Complete and free Internet live audio and video broadcasting solution for Linux/Unix (libpostproc library)
+url	https://ffmpeg.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	22896
+installed-size	42340
+depends	so:libavutil.so.58 so:libc.musl-armhf.so.1
+origin	ffmpeg6
+repo	community
+file	ffmpeg6-libpostproc-6.1.6-r0.apk
+checksum	Q1HpLjUO0Bi5mPC9N5ISllFqBXH6E=
+dep	so:libavutil.so.58	ffmpeg6-libavutil
+dep	so:libc.musl-armhf.so.1	musl

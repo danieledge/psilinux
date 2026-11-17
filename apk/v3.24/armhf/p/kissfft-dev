@@ -1,0 +1,15 @@
+name	kissfft-dev
+version	131.2.0_git20260422-r0
+description	Fast Fourier Transform (FFT) library that tries to Keep it Simple, Stupid (development files)
+url	https://github.com/mborgerding/kissfft
+license	BSD-3-Clause
+size	11754
+installed-size	33409
+depends	kissfft=131.2.0_git20260422-r0 kissfft-libs=131.2.0_git20260422-r0 pkgconfig
+origin	kissfft
+repo	community
+file	kissfft-dev-131.2.0_git20260422-r0.apk
+checksum	Q19XGTbi5DmGag1ilMMGd6WPdLOp0=
+dep	kissfft=131.2.0_git20260422-r0	kissfft
+dep	kissfft-libs=131.2.0_git20260422-r0	kissfft-libs
+dep	pkgconfig	pkgconf

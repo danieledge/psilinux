@@ -1,0 +1,15 @@
+name	liboauth
+version	1.0.3-r5
+description	OAuth library functions
+url	https://liboauth.sourceforge.net/
+license	MIT
+size	12781
+installed-size	25828
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libnss3.so
+origin	liboauth
+repo	community
+file	liboauth-1.0.3-r5.apk
+checksum	Q131D0fKu4vkv8g6PdQtTKavCMkjQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libnss3.so	nss

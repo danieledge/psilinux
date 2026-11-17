@@ -1,0 +1,14 @@
+name	libcgroup-dev
+version	3.2.0-r0
+description	cgroup library (development files)
+url	https://github.com/libcgroup/libcgroup
+license	LGPL-2.1-only
+size	19315
+installed-size	67232
+depends	libcgroup=3.2.0-r0 pkgconfig
+origin	libcgroup
+repo	community
+file	libcgroup-dev-3.2.0-r0.apk
+checksum	Q1EU+3nTMAHlJmPqj/rWYv2gFPnx0=
+dep	libcgroup=3.2.0-r0	libcgroup
+dep	pkgconfig	pkgconf

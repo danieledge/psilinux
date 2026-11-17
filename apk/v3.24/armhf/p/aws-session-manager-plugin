@@ -1,0 +1,15 @@
+name	aws-session-manager-plugin
+version	1.2.814.0-r3
+description	AWS Session Manager Plugin for aws-cli.
+url	https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-working-with-install-plugin.html
+license	Apache-2.0
+size	10630870
+installed-size	32086033
+depends	aws-cli amazon-ssm-agent so:libc.musl-armhf.so.1
+origin	aws-session-manager-plugin
+repo	community
+file	aws-session-manager-plugin-1.2.814.0-r3.apk
+checksum	Q1ixUudzxFx0iJMu58jw8OmJqSBvw=
+dep	aws-cli	aws-cli
+dep	amazon-ssm-agent	amazon-ssm-agent
+dep	so:libc.musl-armhf.so.1	musl

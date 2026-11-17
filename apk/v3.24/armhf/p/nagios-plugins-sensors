@@ -1,0 +1,15 @@
+name	nagios-plugins-sensors
+version	2.5-r0
+description	Nagios plugin check_sensors
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	2324
+installed-size	1623
+depends	nagios-plugins grep lm-sensors
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-sensors-2.5-r0.apk
+checksum	Q1dAD/Z/Kk93LPDCYrM52ssjbFi2A=
+dep	nagios-plugins	nagios-plugins
+dep	grep	grep
+dep	lm-sensors	lm-sensors

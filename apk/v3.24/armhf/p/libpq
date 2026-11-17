@@ -1,0 +1,15 @@
+name	libpq
+version	18.7-r0
+description	PostgreSQL client library
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	149152
+installed-size	325248
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	postgresql18
+repo	main
+file	libpq-18.7-r0.apk
+checksum	Q14vNv5iSrcV8Sge4eo35FluSLrnc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

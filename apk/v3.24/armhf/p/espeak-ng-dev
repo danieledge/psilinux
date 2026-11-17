@@ -1,0 +1,14 @@
+name	espeak-ng-dev
+version	1.52.0-r1
+description	Multi-lingual software speech synthesizer (development files)
+url	https://github.com/espeak-ng/espeak-ng
+license	GPL-3.0-or-later
+size	11718
+installed-size	36278
+depends	espeak-ng=1.52.0-r1 pkgconfig
+origin	espeak-ng
+repo	community
+file	espeak-ng-dev-1.52.0-r1.apk
+checksum	Q1ZVh7xhKdLFBAr1eqt3s9UNObJEI=
+dep	espeak-ng=1.52.0-r1	espeak-ng
+dep	pkgconfig	pkgconf

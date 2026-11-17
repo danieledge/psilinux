@@ -1,0 +1,16 @@
+name	flashrom-libs
+version	1.6.0-r0
+description	A utility for identifying, reading, writing, verifying and erasing flash chips (libraries)
+url	https://www.flashrom.org/Flashrom
+license	GPL-2.0-or-later
+size	153173
+installed-size	714428
+depends	so:libc.musl-armhf.so.1 so:libftdi1.so.2 so:libpci.so.3 so:libusb-1.0.so.0
+origin	flashrom
+repo	community
+file	flashrom-libs-1.6.0-r0.apk
+checksum	Q1kHIyX4Q7lm/ExJ8r+mV1FOiBV8I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libftdi1.so.2	libftdi1
+dep	so:libpci.so.3	pciutils-libs
+dep	so:libusb-1.0.so.0	libusb

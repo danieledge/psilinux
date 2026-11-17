@@ -1,0 +1,14 @@
+name	paris-traceroute-dev
+version	0.93-r3
+description	advanced traceroute utility (development files)
+url	https://github.com/libparistraceroute/libparistraceroute
+license	GPL-3.0-only
+size	403701
+installed-size	1075679
+depends	paris-traceroute=0.93-r3 pkgconfig
+origin	paris-traceroute
+repo	community
+file	paris-traceroute-dev-0.93-r3.apk
+checksum	Q1/UT65J4Jj9QthWe40BpI2M23yes=
+dep	paris-traceroute=0.93-r3	paris-traceroute
+dep	pkgconfig	pkgconf

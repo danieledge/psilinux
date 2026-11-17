@@ -1,0 +1,16 @@
+name	readline-dev
+version	8.3.3-r1
+description	GNU readline library (development files)
+url	https://tiswww.cwru.edu/php/chet/readline/rltop.html
+license	GPL-3.0-or-later
+size	40627
+installed-size	147927
+depends	libhistory=8.3.3-r1 readline=8.3.3-r1 pc:tinfo pkgconfig
+origin	readline
+repo	main
+file	readline-dev-8.3.3-r1.apk
+checksum	Q1eJjdUwC/xeGuwSs/QCwrMZIVf60=
+dep	libhistory=8.3.3-r1	libhistory
+dep	readline=8.3.3-r1	readline
+dep	pc:tinfo	ncurses-dev
+dep	pkgconfig	pkgconf

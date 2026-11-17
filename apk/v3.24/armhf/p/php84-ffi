@@ -1,0 +1,15 @@
+name	php84-ffi
+version	8.4.27-r0
+description	PHP84 extension: FFI
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	67994
+installed-size	157114
+depends	php84-common so:libc.musl-armhf.so.1 so:libffi.so.8
+origin	php84
+repo	community
+file	php84-ffi-8.4.27-r0.apk
+checksum	Q1H+wQtRIolLts6tGF5rtaZPZq2dY=
+dep	php84-common	php84-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libffi.so.8	libffi

@@ -1,0 +1,22 @@
+name	perl-ryu-async
+version	0.020-r1
+description	IO::Async support for Ryu stream management
+url	https://metacpan.org/release/Ryu-Async/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	7476
+installed-size	19191
+depends	perl perl-curry perl-future perl-future-asyncawait perl-io-async perl-log-any perl-namespace-clean perl-ryu perl-syntax-keyword-try perl-uri-tcp
+origin	perl-ryu-async
+repo	community
+file	perl-ryu-async-0.020-r1.apk
+checksum	Q1FvIxHwia7Aevq5rMTcImWzSR9Bo=
+dep	perl	perl
+dep	perl-curry	perl-curry
+dep	perl-future	perl-future
+dep	perl-future-asyncawait	perl-future-asyncawait
+dep	perl-io-async	perl-io-async
+dep	perl-log-any	perl-log-any
+dep	perl-namespace-clean	perl-namespace-clean
+dep	perl-ryu	perl-ryu
+dep	perl-syntax-keyword-try	perl-syntax-keyword-try
+dep	perl-uri-tcp	perl-uri-tcp

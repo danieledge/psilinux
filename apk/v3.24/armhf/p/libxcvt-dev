@@ -1,0 +1,14 @@
+name	libxcvt-dev
+version	0.1.3-r0
+description	xorg xcvt library and cvt program (development files)
+url	https://gitlab.freedesktop.org/xorg/lib/libxcvt
+license	custom
+size	3646
+installed-size	4058
+depends	libxcvt=0.1.3-r0 pkgconfig
+origin	libxcvt
+repo	community
+file	libxcvt-dev-0.1.3-r0.apk
+checksum	Q1NNryNpzAH4m/k9pTi/ta5IA/T50=
+dep	libxcvt=0.1.3-r0	libxcvt
+dep	pkgconfig	pkgconf

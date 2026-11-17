@@ -1,0 +1,14 @@
+name	libxdamage
+version	1.1.7-r0
+description	X11 damaged region extension library
+url	https://xorg.freedesktop.org/
+license	MIT
+size	4648
+installed-size	9336
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1
+origin	libxdamage
+repo	main
+file	libxdamage-1.1.7-r0.apk
+checksum	Q1AkkkZD/lkXdzvp7HC77Su2xve4A=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl

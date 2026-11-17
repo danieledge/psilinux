@@ -1,0 +1,19 @@
+name	libshout-dev
+version	2.4.6-r4
+description	Library for accessing a shoutcast/icecast server (development files)
+url	https://icecast.org/
+license	GPL-2.0-only
+size	8248
+installed-size	20335
+depends	libshout=2.4.6-r4 pc:libssl pc:ogg pc:speex pc:theora pc:vorbis pkgconfig
+origin	libshout
+repo	main
+file	libshout-dev-2.4.6-r4.apk
+checksum	Q1CrrL6LJlf9zv0AnAOw+nrqvVh5A=
+dep	libshout=2.4.6-r4	libshout
+dep	pc:libssl	openssl-dev
+dep	pc:ogg	libogg-dev
+dep	pc:speex	speex-dev
+dep	pc:theora	libtheora-dev
+dep	pc:vorbis	libvorbis-dev
+dep	pkgconfig	pkgconf

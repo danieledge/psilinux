@@ -1,0 +1,16 @@
+name	php84-ldap
+version	8.4.27-r0
+description	PHP84 extension: LDAP
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	31858
+installed-size	75195
+depends	php84-common so:libc.musl-armhf.so.1 so:liblber.so.2 so:libldap.so.2
+origin	php84
+repo	community
+file	php84-ldap-8.4.27-r0.apk
+checksum	Q1uwuyqf61eadu8g2F0rSzgdkqnsM=
+dep	php84-common	php84-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap

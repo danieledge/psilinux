@@ -1,0 +1,14 @@
+name	font-noto-mro
+version	2026.11.01-r0
+description	Noto Sans Mro font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	6326
+installed-size	6854
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-mro-2026.11.01-r0.apk
+checksum	Q13ggj+E07OYRxopvmxPtxEGBPgiY=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

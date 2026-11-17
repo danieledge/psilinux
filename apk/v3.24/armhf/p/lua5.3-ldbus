@@ -1,0 +1,15 @@
+name	lua5.3-ldbus
+version	20150430-r4
+description	Lua D-Bus bindings - for Lua 5.3
+url	https://github.com/daurnimator/ldbus
+license	MIT
+size	17013
+installed-size	46408
+depends	lua5.3 so:libc.musl-armhf.so.1 so:libdbus-1.so.3
+origin	lua-ldbus
+repo	main
+file	lua5.3-ldbus-20150430-r4.apk
+checksum	Q1b70126qV3vh5OH5PI/grTJh4ENI=
+dep	lua5.3	lua5.3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs

@@ -1,0 +1,20 @@
+name	rsync
+version	3.5.2-r1
+description	A file transfer program to keep remote files in sync
+url	https://rsync.samba.org/
+license	GPL-3.0-or-later
+size	261063
+installed-size	513135
+depends	so:libacl.so.1 so:libc.musl-armhf.so.1 so:libidn2.so.0 so:liblz4.so.1 so:libpopt.so.0 so:libxxhash.so.0 so:libz.so.1 so:libzstd.so.1
+origin	rsync
+repo	main
+file	rsync-3.5.2-r1.apk
+checksum	Q1WQWzHKIGYU2s3/9e2L0HjsMdNuE=
+dep	so:libacl.so.1	acl-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libidn2.so.0	libidn2
+dep	so:liblz4.so.1	lz4-libs
+dep	so:libpopt.so.0	popt
+dep	so:libxxhash.so.0	libxxhash
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

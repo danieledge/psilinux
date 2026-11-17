@@ -1,0 +1,14 @@
+name	wcslib-dev
+version	8.4-r2
+description	implementation of the FITS WCS standard (development files)
+url	https://www.atnf.csiro.au/people/mcalabre/WCS/wcslib/
+license	LGPL-3.0-or-later
+size	407311
+installed-size	2114653
+depends	wcslib=8.4-r2 pkgconfig
+origin	wcslib
+repo	community
+file	wcslib-dev-8.4-r2.apk
+checksum	Q1EIdulEH/oZt+OwX/CdQtpZHbor0=
+dep	wcslib=8.4-r2	wcslib
+dep	pkgconfig	pkgconf

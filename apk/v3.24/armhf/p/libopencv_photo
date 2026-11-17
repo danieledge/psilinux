@@ -1,0 +1,17 @@
+name	libopencv_photo
+version	4.12.0-r7
+description	Open source computer vision and machine learning library (libopencv_photo library)
+url	https://opencv.org/
+license	Apache-2.0
+size	201081
+installed-size	472288
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libopencv_core.so.412 so:libopencv_imgproc.so.412 so:libstdc++.so.6
+origin	opencv
+repo	community
+file	libopencv_photo-4.12.0-r7.apk
+checksum	Q10nL7Td4ssc3Aac1ktaMhXzJOolw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libopencv_core.so.412	libopencv_core
+dep	so:libopencv_imgproc.so.412	libopencv_imgproc
+dep	so:libstdc++.so.6	libstdc++

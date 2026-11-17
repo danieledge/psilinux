@@ -1,0 +1,13 @@
+name	libdmtx-static
+version	0.7.8-r0
+description	A software for reading and writing Data Matrix 2D barcodes (static library)
+url	https://github.com/dmtx
+license	BSD-2-Clause
+size	40849
+installed-size	81052
+depends	libdmtx-dev
+origin	libdmtx
+repo	community
+file	libdmtx-static-0.7.8-r0.apk
+checksum	Q1pCLFyvX3md49nsjPWorQZmfNKKA=
+dep	libdmtx-dev	libdmtx-dev

@@ -1,0 +1,12 @@
+name	mako-dbg
+version	1.11.0-r0
+description	A lightweight notification daemon for Wayland (debug symbols)
+url	https://wayland.emersion.fr/mako/
+license	MIT
+size	145874
+installed-size	324804
+depends	!mako<1.11.0-r0 !mako>1.11.0-r0
+origin	mako
+repo	community
+file	mako-dbg-1.11.0-r0.apk
+checksum	Q1PfvEis9tATh70ndHYAkuERLnBUM=

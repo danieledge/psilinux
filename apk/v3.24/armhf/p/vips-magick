@@ -1,0 +1,18 @@
+name	vips-magick
+version	8.18.2-r0
+description	Imagemagick support for vips
+url	https://www.libvips.org/
+license	LGPL-2.1-or-later
+size	15883
+installed-size	34128
+depends	so:libMagickCore-7.Q16HDRI.so.10 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libvips.so.42
+origin	vips
+repo	community
+file	vips-magick-8.18.2-r0.apk
+checksum	Q1nBx2J7hRx4jE6yv9LxxVMzXGpUU=
+dep	so:libMagickCore-7.Q16HDRI.so.10	imagemagick-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libvips.so.42	vips

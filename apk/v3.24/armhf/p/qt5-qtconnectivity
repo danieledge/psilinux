@@ -1,0 +1,20 @@
+name	qt5-qtconnectivity
+version	5.15.18_git20251101-r0
+description	QT5 Connectivity Compontents
+url	https://www.qt.io/developers/
+license	( LGPL-2.0-or-later OR GPL-3.0-only OR GPL-2.0-or-later ) AND Qt-GPL-exception-1.0
+size	395644
+installed-size	1032670
+depends	so:libQt5Core.so.5 so:libQt5DBus.so.5 so:libQt5Network.so.5 so:libQt5Qml.so.5 so:libbluetooth.so.3 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	qt5-qtconnectivity
+repo	community
+file	qt5-qtconnectivity-5.15.18_git20251101-r0.apk
+checksum	Q152mXRwXUPxQAzMx8pMdS9CPtN3Y=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5DBus.so.5	qt5-qtbase
+dep	so:libQt5Network.so.5	qt5-qtbase
+dep	so:libQt5Qml.so.5	qt5-qtdeclarative
+dep	so:libbluetooth.so.3	bluez-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

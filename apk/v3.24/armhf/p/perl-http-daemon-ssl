@@ -1,0 +1,15 @@
+name	perl-http-daemon-ssl
+version	1.04-r0
+description	Perl module for HTTP-Daemon-SSL
+url	https://metacpan.org/release/HTTP-Daemon-SSL/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	4104
+installed-size	5240
+depends	perl perl-http-daemon perl-io-socket-ssl
+origin	perl-http-daemon-ssl
+repo	community
+file	perl-http-daemon-ssl-1.04-r0.apk
+checksum	Q1rPDtti3XgWdoJcVoq8S1FFCFpKs=
+dep	perl	perl
+dep	perl-http-daemon	perl-http-daemon
+dep	perl-io-socket-ssl	perl-io-socket-ssl

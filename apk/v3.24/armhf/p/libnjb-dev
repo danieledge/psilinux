@@ -1,0 +1,15 @@
+name	libnjb-dev
+version	2.2.7-r7
+description	A software library for talking to the Creative Nomad Jukeboxes and Dell DJs (development files)
+url	https://libnjb.sourceforge.net/
+license	BSD-3-Clause
+size	98511
+installed-size	299474
+depends	libusb-compat-dev libnjb=2.2.7-r7 pkgconfig
+origin	libnjb
+repo	community
+file	libnjb-dev-2.2.7-r7.apk
+checksum	Q1LSyauireY8BgEzcHr2Nv2QUlWL4=
+dep	libusb-compat-dev	libusb-compat-dev
+dep	libnjb=2.2.7-r7	libnjb
+dep	pkgconfig	pkgconf

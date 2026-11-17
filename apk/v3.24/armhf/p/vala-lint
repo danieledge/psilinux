@@ -1,0 +1,20 @@
+name	vala-lint
+version	0_git20220216-r2
+description	Check code-style of Vala code files
+url	https://github.com/vala-lang/vala-lint
+license	GPL-2.0-or-later
+size	54196
+installed-size	172579
+depends	pc:gio-2.0>=2.56.4 pc:libvala-0.56>=0.40.4 pkgconfig so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libvala-0.56.so.0
+origin	vala-lint
+repo	community
+file	vala-lint-0_git20220216-r2.apk
+checksum	Q1jZ20neAZdbmsNu9cp+b7BIlHL3Q=
+dep	pc:gio-2.0>=2.56.4	glib-dev
+dep	pc:libvala-0.56>=0.40.4	vala
+dep	pkgconfig	pkgconf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libvala-0.56.so.0	vala

@@ -1,0 +1,25 @@
+name	thunar-vcs-plugin
+version	0.3.0-r0
+description	Version Contol System plugin for the Thunar filemanager
+url	https://docs.xfce.org/xfce/thunar/thunar-vcs-plugin
+license	GPL-2.0-or-later
+size	15287
+installed-size	33964
+depends	so:libapr-1.so.0 so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libsvn_client-1.so.0 so:libsvn_fs-1.so.0 so:libsvn_subr-1.so.0 so:libsvn_wc-1.so.0 so:libthunarx-3.so.0
+origin	thunar-vcs-plugin
+repo	community
+file	thunar-vcs-plugin-0.3.0-r0.apk
+checksum	Q1TRNuwnWK6GUBzl9jlHlYBPOHhOU=
+dep	so:libapr-1.so.0	apr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libsvn_client-1.so.0	subversion-libs
+dep	so:libsvn_fs-1.so.0	subversion-libs
+dep	so:libsvn_subr-1.so.0	subversion-libs
+dep	so:libsvn_wc-1.so.0	subversion-libs
+dep	so:libthunarx-3.so.0	thunar

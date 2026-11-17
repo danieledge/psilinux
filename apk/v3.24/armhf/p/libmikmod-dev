@@ -1,0 +1,14 @@
+name	libmikmod-dev
+version	3.3.13-r0
+description	module playing library (development files)
+url	https://mikmod.sourceforge.net/
+license	LGPL-2.0-or-later AND LGPL-2.1-or-later
+size	149120
+installed-size	431583
+depends	libmikmod=3.3.13-r0 pkgconfig
+origin	libmikmod
+repo	community
+file	libmikmod-dev-3.3.13-r0.apk
+checksum	Q1ZfvLlotc7dHNnVNukEzo1jtXc58=
+dep	libmikmod=3.3.13-r0	libmikmod
+dep	pkgconfig	pkgconf

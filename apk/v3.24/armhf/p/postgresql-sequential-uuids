@@ -1,0 +1,14 @@
+name	postgresql-sequential-uuids
+version	1.0.2-r3
+description	Generator of sequential UUIDs for PostgreSQL
+url	https://github.com/tvondra/sequential-uuids
+license	MIT
+size	10988
+installed-size	18730
+depends	postgresql18 so:libc.musl-armhf.so.1
+origin	postgresql-sequential-uuids
+repo	community
+file	postgresql-sequential-uuids-1.0.2-r3.apk
+checksum	Q1ocWe1wkfv8g9tnvtZYnwymFtZL4=
+dep	postgresql18	postgresql18
+dep	so:libc.musl-armhf.so.1	musl

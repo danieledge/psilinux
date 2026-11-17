@@ -1,0 +1,14 @@
+name	ferm
+version	2.7-r1
+description	firewall configuration tool
+url	http://ferm.foo-projects.org/
+license	GPL-2.0-or-later
+size	31814
+installed-size	121969
+depends	perl iptables
+origin	ferm
+repo	main
+file	ferm-2.7-r1.apk
+checksum	Q1P7izbfx0Nfv5aq2TSL8IMMTjYeA=
+dep	perl	perl
+dep	iptables	iptables

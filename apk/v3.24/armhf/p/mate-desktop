@@ -1,0 +1,28 @@
+name	mate-desktop
+version	1.28.2-r1
+description	The MATE Desktop Environment
+url	https://mate-desktop.org/
+license	GPL-2.0-or-later AND LGPL-2.0-or-later
+size	189999
+installed-size	418793
+depends	mate-common yelp-tools so:libX11.so.6 so:libXrandr.so.2 so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdconf.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libstartup-notification-1.so.0
+origin	mate-desktop
+repo	community
+file	mate-desktop-1.28.2-r1.apk
+checksum	Q1N7QyleYuc2bu4ugy3d/ortbV3P4=
+dep	mate-common	mate-common
+dep	yelp-tools	yelp-tools
+dep	so:libX11.so.6	libx11
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libdconf.so.1	dconf
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libstartup-notification-1.so.0	startup-notification

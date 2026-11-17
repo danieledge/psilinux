@@ -1,0 +1,25 @@
+name	evolution-data-server-dev
+version	3.60.2-r2
+description	data server for evolution (development files)
+url	https://projects.gnome.org/evolution
+license	GPL-2.0-or-later
+size	1118008
+installed-size	11814062
+depends	gcr-dev icu-dev evolution-data-server=3.60.2-r2 pc:gio-2.0 pc:gmodule-2.0 pc:gtk+-3.0 pc:gtk4 pc:json-glib-1.0 pc:libical-glib pc:libsecret-1 pc:libsoup-3.0 pc:libxml-2.0 pkgconfig
+origin	evolution-data-server
+repo	community
+file	evolution-data-server-dev-3.60.2-r2.apk
+checksum	Q1Z/sH+D80UGYG2hNorcjJDDSzmVk=
+dep	gcr-dev	gcr-dev
+dep	icu-dev	icu-dev
+dep	evolution-data-server=3.60.2-r2	evolution-data-server
+dep	pc:gio-2.0	glib-dev
+dep	pc:gmodule-2.0	glib-dev
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pc:gtk4	gtk4.0-dev
+dep	pc:json-glib-1.0	json-glib-dev
+dep	pc:libical-glib	libical-dev
+dep	pc:libsecret-1	libsecret-dev
+dep	pc:libsoup-3.0	libsoup3-dev
+dep	pc:libxml-2.0	libxml2-dev
+dep	pkgconfig	pkgconf

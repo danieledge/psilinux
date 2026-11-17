@@ -1,0 +1,15 @@
+name	py3-django-htmx
+version	1.27.0-r3
+description	Extensions for using Django with htmx
+url	https://django-htmx.readthedocs.io/
+license	MIT
+size	62249
+installed-size	235100
+depends	py3-asgiref py3-django python3~3.14
+origin	py3-django-htmx
+repo	community
+file	py3-django-htmx-1.27.0-r3.apk
+checksum	Q17nKHzL4yN2qWJ33a/mPv47zifos=
+dep	py3-asgiref	py3-asgiref
+dep	py3-django	py3-django
+dep	python3~3.14	python3

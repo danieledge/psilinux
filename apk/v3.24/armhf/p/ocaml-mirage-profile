@@ -1,0 +1,38 @@
+name	ocaml-mirage-profile
+version	0.9.1-r6
+description	Collect runtime profiling information in CTF format
+url	https://github.com/mirage/mirage-profile
+license	BSD-2-Clause
+size	24118
+installed-size	57934
+depends	ocaml4-impl:EndianBigstring:cc1c9501e2479f43396e0cdeabe38d58 ocaml4-impl:Lwt:baa2ae1339429598139ca8f1ac3ebfee ocaml4-impl:Lwt_condition:efec53204a1de9b7b059322847ad49b3 ocaml4-impl:Lwt_mvar:03548a1de3025f0685b20974f45c45d1 ocaml4-impl:Mtime:3917e1bea6d59895de46be6abebe0039 ocaml4-impl:Mtime_clock:327d28a2695dce2f063fd4db4fbef248 ocaml4-impl:Stdlib__Bigarray:08e2ec964f48c041a58ee74257c0c80d ocaml4-impl:Unix:f178ae69c20aeb74201b0bb0f388ec23 ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15 ocaml4-intf:EndianBigstring:74c38845008f5541d24ddf113a3effc3 ocaml4-intf:Lwt:9d6b616c677c329464b7e7ddca72e57b ocaml4-intf:Lwt_condition:04daf133abcc2bdb0ee39e1386da9243 ocaml4-intf:Lwt_mutex:2867486b043ee0a170b94ef48fc2d5bc ocaml4-intf:Lwt_mvar:03bd531031e55eb4d596d293c4ed11c6 ocaml4-intf:Lwt_sequence:0a721086ad2af7d69b049bb70357cac1 ocaml4-intf:Mtime:dd4048bb67c0de888f58b8bdc99c9183 ocaml4-intf:Mtime_clock:19ebde4fb94f8d1433ae08fe9c2c3dad ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91 ocaml4-intf:Stdlib__Bigarray:994a14f10d5ae081663b52b790ee11d3 ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822 ocaml4-intf:Stdlib__Complex:4555217c759e89d65daa8f682eb09b35 ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9 ocaml4-intf:Stdlib__Format:b6edb97b685819e873481fe05723c8bc ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962 ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57 ocaml4-intf:Unix:d81af7730241956ddaf1c2d19ed2cb1c
+origin	ocaml-mirage-profile
+repo	community
+file	ocaml-mirage-profile-0.9.1-r6.apk
+checksum	Q13BmcOL03CP6PPvzaR7GmcrrqMrw=
+dep	ocaml4-impl:EndianBigstring:cc1c9501e2479f43396e0cdeabe38d58	ocaml-ocplib-endian
+dep	ocaml4-impl:Lwt:baa2ae1339429598139ca8f1ac3ebfee	ocaml-lwt
+dep	ocaml4-impl:Lwt_condition:efec53204a1de9b7b059322847ad49b3	ocaml-lwt
+dep	ocaml4-impl:Lwt_mvar:03548a1de3025f0685b20974f45c45d1	ocaml-lwt
+dep	ocaml4-impl:Mtime:3917e1bea6d59895de46be6abebe0039	ocaml-mtime
+dep	ocaml4-impl:Mtime_clock:327d28a2695dce2f063fd4db4fbef248	ocaml-mtime
+dep	ocaml4-impl:Stdlib__Bigarray:08e2ec964f48c041a58ee74257c0c80d	ocaml
+dep	ocaml4-impl:Unix:f178ae69c20aeb74201b0bb0f388ec23	ocaml
+dep	ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15	ocaml
+dep	ocaml4-intf:EndianBigstring:74c38845008f5541d24ddf113a3effc3	ocaml-ocplib-endian
+dep	ocaml4-intf:Lwt:9d6b616c677c329464b7e7ddca72e57b	ocaml-lwt
+dep	ocaml4-intf:Lwt_condition:04daf133abcc2bdb0ee39e1386da9243	ocaml-lwt
+dep	ocaml4-intf:Lwt_mutex:2867486b043ee0a170b94ef48fc2d5bc	ocaml-lwt
+dep	ocaml4-intf:Lwt_mvar:03bd531031e55eb4d596d293c4ed11c6	ocaml-lwt
+dep	ocaml4-intf:Lwt_sequence:0a721086ad2af7d69b049bb70357cac1	ocaml-lwt
+dep	ocaml4-intf:Mtime:dd4048bb67c0de888f58b8bdc99c9183	ocaml-mtime
+dep	ocaml4-intf:Mtime_clock:19ebde4fb94f8d1433ae08fe9c2c3dad	ocaml-mtime
+dep	ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91	ocaml
+dep	ocaml4-intf:Stdlib__Bigarray:994a14f10d5ae081663b52b790ee11d3	ocaml
+dep	ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822	ocaml
+dep	ocaml4-intf:Stdlib__Complex:4555217c759e89d65daa8f682eb09b35	ocaml
+dep	ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9	ocaml
+dep	ocaml4-intf:Stdlib__Format:b6edb97b685819e873481fe05723c8bc	ocaml
+dep	ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962	ocaml
+dep	ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57	ocaml
+dep	ocaml4-intf:Unix:d81af7730241956ddaf1c2d19ed2cb1c	ocaml

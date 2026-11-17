@@ -1,0 +1,20 @@
+name	quassel-libs-uisupport
+version	0.14.0-r17
+description	Distributed IRC client - uisupport libraries
+url	https://www.quassel-irc.org/
+license	GPL-2.0-or-later
+size	409483
+installed-size	1033600
+depends	so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt5Widgets.so.5 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libquassel-client.so.0.14.0 so:libquassel-common.so.0.14.0 so:libstdc++.so.6
+origin	quassel
+repo	community
+file	quassel-libs-uisupport-0.14.0-r17.apk
+checksum	Q15obr8KRocWCm8nu8o/UBNSPdIwE=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Gui.so.5	qt5-qtbase-x11
+dep	so:libQt5Widgets.so.5	qt5-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libquassel-client.so.0.14.0	quassel-libs-client
+dep	so:libquassel-common.so.0.14.0	quassel-libs-common
+dep	so:libstdc++.so.6	libstdc++

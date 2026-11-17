@@ -1,0 +1,15 @@
+name	nextcloud32-pgsql
+version	32.0.15-r0
+description	Nextcloud PostgreSQL support
+url	https://nextcloud.com/
+license	AGPL-3.0-only
+size	1290
+installed-size	0
+depends	nextcloud32 php83-pgsql php83-pdo_pgsql
+origin	nextcloud32
+repo	community
+file	nextcloud32-pgsql-32.0.15-r0.apk
+checksum	Q1gRRM5aIr54l+c+uiIMpu2wocR0I=
+dep	nextcloud32	nextcloud32
+dep	php83-pgsql	php83-pgsql
+dep	php83-pdo_pgsql	php83-pdo_pgsql

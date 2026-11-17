@@ -1,0 +1,17 @@
+name	mosquitto-libs
+version	2.1.2-r1
+description	open source MQTT broker (libraries)
+url	https://mosquitto.org/
+license	EPL-1.0 OR EPL-2.0
+size	63461
+installed-size	141908
+depends	so:libc.musl-armhf.so.1 so:libcares.so.2 so:libcjson.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	mosquitto
+repo	main
+file	mosquitto-libs-2.1.2-r1.apk
+checksum	Q1LTtloP0+neZ9CLxRNChhRR8ec7A=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcares.so.2	c-ares
+dep	so:libcjson.so.1	cjson
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

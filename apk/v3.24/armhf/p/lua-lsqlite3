@@ -1,0 +1,13 @@
+name	lua-lsqlite3
+version	0.9.6-r2
+description	A binding for Lua to the SQLite3 database library
+url	https://lua.sqlite.org
+license	MIT
+size	1267
+installed-size	0
+depends	sqlite
+origin	lua-lsqlite3
+repo	community
+file	lua-lsqlite3-0.9.6-r2.apk
+checksum	Q1hCSDAjTJv272IrdTVCPjiUTXnV0=
+dep	sqlite	sqlite

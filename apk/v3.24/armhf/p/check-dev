@@ -1,0 +1,14 @@
+name	check-dev
+version	0.15.2-r6
+description	A unit test framework for C (development files)
+url	https://libcheck.github.io/check/
+license	LGPL-2.1-or-later
+size	16380
+installed-size	77740
+depends	check=0.15.2-r6 pkgconfig
+origin	check
+repo	main
+file	check-dev-0.15.2-r6.apk
+checksum	Q1nNcXGDpyxpS0UAkPlZ8NKFmU2Og=
+dep	check=0.15.2-r6	check
+dep	pkgconfig	pkgconf

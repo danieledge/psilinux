@@ -1,0 +1,20 @@
+name	gvm-libs-dev
+version	23.1.2-r0
+description	Greenbone Vulnerability Management Libraries (development files)
+url	https://www.openvas.org/
+license	GPL-2.0-or-later
+size	37460
+installed-size	139021
+depends	gvm-libs=23.1.2-r0 pc:gio-2.0>=2.42.1 pc:glib-2.0>=2.42.0 pc:glib-2.0>=2.42.1 pc:gnutls>=3.2.15 pc:uuid>=2.25.0 pc:zlib>=1.2.8 pkgconfig
+origin	gvm-libs
+repo	community
+file	gvm-libs-dev-23.1.2-r0.apk
+checksum	Q1bcmGIWvbFJvYDIp5Snl7+99NXvU=
+dep	gvm-libs=23.1.2-r0	gvm-libs
+dep	pc:gio-2.0>=2.42.1	glib-dev
+dep	pc:glib-2.0>=2.42.0	glib-dev
+dep	pc:glib-2.0>=2.42.1	glib-dev
+dep	pc:gnutls>=3.2.15	gnutls-dev
+dep	pc:uuid>=2.25.0	util-linux-dev
+dep	pc:zlib>=1.2.8	zlib-dev
+dep	pkgconfig	pkgconf

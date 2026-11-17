@@ -1,0 +1,14 @@
+name	py3-jinja2
+version	3.1.6-r1
+description	A small but fast and easy to use stand-alone python template engine
+url	https://palletsprojects.com/p/jinja/
+license	BSD-3-Clause
+size	128772
+installed-size	496892
+depends	py3-markupsafe python3~3.14
+origin	py3-jinja2
+repo	main
+file	py3-jinja2-3.1.6-r1.apk
+checksum	Q1zeZFH9Ej5GXdNDdWD5HfC5ZYqEc=
+dep	py3-markupsafe	py3-markupsafe
+dep	python3~3.14	python3

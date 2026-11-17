@@ -1,0 +1,21 @@
+name	perl-ldap
+version	0.68-r2
+description	LDAP client library
+url	https://metacpan.org/release/perl-ldap/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	149328
+installed-size	531312
+depends	perl perl-libwww perl-lwp-mediatypes perl-json perl-convert-asn1 perl-http-message perl-uri perl-http-negotiate perl-io-socket-ssl
+origin	perl-ldap
+repo	main
+file	perl-ldap-0.68-r2.apk
+checksum	Q1Tc1Lc9WVvUGiAGWPbnjG2Z/kS34=
+dep	perl	perl
+dep	perl-libwww	perl-libwww
+dep	perl-lwp-mediatypes	perl-lwp-mediatypes
+dep	perl-json	perl-json
+dep	perl-convert-asn1	perl-convert-asn1
+dep	perl-http-message	perl-http-message
+dep	perl-uri	perl-uri
+dep	perl-http-negotiate	perl-http-negotiate
+dep	perl-io-socket-ssl	perl-io-socket-ssl

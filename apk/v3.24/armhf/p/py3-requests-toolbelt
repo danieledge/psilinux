@@ -1,0 +1,14 @@
+name	py3-requests-toolbelt
+version	1.0.0-r2
+description	Useful classes and functions to be used with python-requests
+url	https://github.com/requests/toolbelt
+license	Apache-2.0
+size	41220
+installed-size	136402
+depends	py3-requests python3~3.14
+origin	py3-requests-toolbelt
+repo	community
+file	py3-requests-toolbelt-1.0.0-r2.apk
+checksum	Q1Lp1MKr4/fIwTqnWPZqOOHM2pbks=
+dep	py3-requests	py3-requests
+dep	python3~3.14	python3

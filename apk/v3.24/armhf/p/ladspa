@@ -1,0 +1,16 @@
+name	ladspa
+version	1.17-r0
+description	Linux Audio Developer's Simple Plug-in API, examples and tools
+url	https://www.ladspa.org
+license	LGPL-2.0-or-later
+size	21497
+installed-size	67456
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libsndfile.so.1 so:libstdc++.so.6
+origin	ladspa
+repo	community
+file	ladspa-1.17-r0.apk
+checksum	Q1gLUw1VkxEALBi4ntII9RnmmhlTc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsndfile.so.1	libsndfile
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,14 @@
+name	lua5.2-hiredis
+version	0.2.1-r9
+description	Binding to hiredis for Lua (Lua 5.2)
+url	https://github.com/agladysh/lua-hiredis
+license	MIT
+size	6365
+installed-size	13488
+depends	so:libc.musl-armhf.so.1 so:libhiredis.so.1.3.0
+origin	lua-hiredis
+repo	community
+file	lua5.2-hiredis-0.2.1-r9.apk
+checksum	Q1XBQ08jNwK7Y7fxJl4IF/uKqQQUM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libhiredis.so.1.3.0	hiredis

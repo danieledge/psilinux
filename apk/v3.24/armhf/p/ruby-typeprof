@@ -1,0 +1,14 @@
+name	ruby-typeprof
+version	0.30.1-r0
+description	A type analysis tool for Ruby code based on abstract interpretation
+url	https://github.com/ruby/typeprof
+license	MIT
+size	52405
+installed-size	271763
+depends	ruby ruby-rbs
+origin	ruby-typeprof
+repo	main
+file	ruby-typeprof-0.30.1-r0.apk
+checksum	Q1i/lCBGioWh1NJq6uS8LGtvRRRLY=
+dep	ruby	ruby
+dep	ruby-rbs	ruby-rbs

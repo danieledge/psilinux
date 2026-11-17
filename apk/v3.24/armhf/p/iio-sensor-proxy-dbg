@@ -1,0 +1,12 @@
+name	iio-sensor-proxy-dbg
+version	3.9-r2
+description	IIO sensors to D-Bus proxy (debug symbols)
+url	https://gitlab.freedesktop.org/hadess/iio-sensor-proxy
+license	GPL-2.0-or-later
+size	120712
+installed-size	295768
+depends	!iio-sensor-proxy<3.9-r2 !iio-sensor-proxy>3.9-r2
+origin	iio-sensor-proxy
+repo	community
+file	iio-sensor-proxy-dbg-3.9-r2.apk
+checksum	Q1kM7FeAGptR/r/XH0JbaYsjduUds=

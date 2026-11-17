@@ -1,0 +1,14 @@
+name	prometheus-nextcloud-exporter
+version	0.9.1-r2
+description	Prometheus nextcloud exporter
+url	https://github.com/xperimental/nextcloud-exporter
+license	MIT
+size	4391691
+installed-size	11486852
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	prometheus-nextcloud-exporter
+repo	community
+file	prometheus-nextcloud-exporter-0.9.1-r2.apk
+checksum	Q1RiAF3ophUnpSi7J74hOl03RmYY8=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

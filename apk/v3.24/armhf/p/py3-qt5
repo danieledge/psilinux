@@ -1,0 +1,47 @@
+name	py3-qt5
+version	5.15.11-r1
+description	A set of Python 3 bindings for the Qt toolkit
+url	https://www.riverbankcomputing.com/software/pyqt/
+license	GPL-3.0-only
+size	5757575
+installed-size	24845946
+depends	py3-pyqt5-sip python3 python3~3.14 so:libGLESv2.so.2 so:libQt5Bluetooth.so.5 so:libQt5Core.so.5 so:libQt5DBus.so.5 so:libQt5Designer.so.5 so:libQt5Gui.so.5 so:libQt5Help.so.5 so:libQt5Location.so.5 so:libQt5Multimedia.so.5 so:libQt5MultimediaWidgets.so.5 so:libQt5Network.so.5 so:libQt5Nfc.so.5 so:libQt5OpenGL.so.5 so:libQt5Positioning.so.5 so:libQt5PrintSupport.so.5 so:libQt5Qml.so.5 so:libQt5Quick.so.5 so:libQt5QuickWidgets.so.5 so:libQt5SerialPort.so.5 so:libQt5Sql.so.5 so:libQt5Svg.so.5 so:libQt5Test.so.5 so:libQt5WebChannel.so.5 so:libQt5WebSockets.so.5 so:libQt5Widgets.so.5 so:libQt5X11Extras.so.5 so:libQt5Xml.so.5 so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libgcc_s.so.1 so:libpython3.14.so.1.0 so:libstdc++.so.6
+origin	py3-qt5
+repo	community
+file	py3-qt5-5.15.11-r1.apk
+checksum	Q1kkCMTl2Eqplf71b//3NdUrJsrMY=
+dep	py3-pyqt5-sip	py3-pyqt5-sip
+dep	python3	python3
+dep	python3~3.14	python3
+dep	so:libGLESv2.so.2	mesa-gles
+dep	so:libQt5Bluetooth.so.5	qt5-qtconnectivity
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5DBus.so.5	qt5-qtbase
+dep	so:libQt5Designer.so.5	libqt5designer
+dep	so:libQt5Gui.so.5	qt5-qtbase-x11
+dep	so:libQt5Help.so.5	libqt5help
+dep	so:libQt5Location.so.5	qt5-qtlocation
+dep	so:libQt5Multimedia.so.5	qt5-qtmultimedia
+dep	so:libQt5MultimediaWidgets.so.5	qt5-qtmultimedia
+dep	so:libQt5Network.so.5	qt5-qtbase
+dep	so:libQt5Nfc.so.5	qt5-qtconnectivity
+dep	so:libQt5OpenGL.so.5	qt5-qtbase-x11
+dep	so:libQt5Positioning.so.5	qt5-qtlocation
+dep	so:libQt5PrintSupport.so.5	qt5-qtbase-x11
+dep	so:libQt5Qml.so.5	qt5-qtdeclarative
+dep	so:libQt5Quick.so.5	qt5-qtdeclarative
+dep	so:libQt5QuickWidgets.so.5	qt5-qtdeclarative
+dep	so:libQt5SerialPort.so.5	qt5-qtserialport
+dep	so:libQt5Sql.so.5	qt5-qtbase
+dep	so:libQt5Svg.so.5	qt5-qtsvg
+dep	so:libQt5Test.so.5	qt5-qtbase
+dep	so:libQt5WebChannel.so.5	qt5-qtwebchannel
+dep	so:libQt5WebSockets.so.5	qt5-qtwebsockets-libs
+dep	so:libQt5Widgets.so.5	qt5-qtbase-x11
+dep	so:libQt5X11Extras.so.5	qt5-qtx11extras
+dep	so:libQt5Xml.so.5	qt5-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpython3.14.so.1.0	python3
+dep	so:libstdc++.so.6	libstdc++

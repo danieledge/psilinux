@@ -1,0 +1,22 @@
+name	xwallpaper
+version	0.7.5-r1
+description	wallpaper setting utility for X
+url	https://github.com/stoeckmann/xwallpaper
+license	ISC
+size	15571
+installed-size	29984
+depends	so:libXpm.so.4 so:libc.musl-armhf.so.1 so:libjpeg.so.8 so:libpixman-1.so.0 so:libpng16.so.16 so:libseccomp.so.2 so:libxcb-image.so.0 so:libxcb-randr.so.0 so:libxcb-util.so.1 so:libxcb.so.1
+origin	xwallpaper
+repo	community
+file	xwallpaper-0.7.5-r1.apk
+checksum	Q1huGvBgO3qJKuIuu9Fl+n8GQNils=
+dep	so:libXpm.so.4	libxpm
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpixman-1.so.0	pixman
+dep	so:libpng16.so.16	libpng
+dep	so:libseccomp.so.2	libseccomp
+dep	so:libxcb-image.so.0	xcb-util-image
+dep	so:libxcb-randr.so.0	libxcb
+dep	so:libxcb-util.so.1	xcb-util
+dep	so:libxcb.so.1	libxcb

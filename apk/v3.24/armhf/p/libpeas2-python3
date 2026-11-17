@@ -1,0 +1,19 @@
+name	libpeas2-python3
+version	2.2.0-r2
+description	GObject-based plugin system
+url	https://gitlab.gnome.org/GNOME/libpeas/-/tree/2.0
+license	LGPL-2.1-or-later
+size	10786
+installed-size	25820
+depends	py3-gobject3 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libpeas-2.so.0 so:libpython3.14.so.1.0
+origin	libpeas2
+repo	community
+file	libpeas2-python3-2.2.0-r2.apk
+checksum	Q1IqGG1yT6D5gwEPufiCQIfdm5q3M=
+dep	py3-gobject3	py3-gobject3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpeas-2.so.0	libpeas2
+dep	so:libpython3.14.so.1.0	python3

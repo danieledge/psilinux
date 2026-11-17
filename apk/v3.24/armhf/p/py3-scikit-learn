@@ -1,0 +1,22 @@
+name	py3-scikit-learn
+version	1.5.2-r1
+description	a Python module for machine learning built on top of SciPy
+url	https://scikit-learn.org/
+license	BSD-3-Clause
+size	8122836
+installed-size	23110656
+depends	py3-joblib py3-numpy py3-scipy py3-threadpoolctl python3 python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgomp.so.1 so:libstdc++.so.6
+origin	py3-scikit-learn
+repo	community
+file	py3-scikit-learn-1.5.2-r1.apk
+checksum	Q1onYJKkcwUAB7R/q0MRZrOGubyJU=
+dep	py3-joblib	py3-joblib
+dep	py3-numpy	py3-numpy
+dep	py3-scipy	py3-scipy
+dep	py3-threadpoolctl	py3-threadpoolctl
+dep	python3	python3
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgomp.so.1	libgomp
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,18 @@
+name	perl-xml-libxml
+version	2.0210-r2
+description	Interface to Gnome libxml2 xml parsing and DOM library
+url	https://metacpan.org/release/XML-LibXML/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	217791
+installed-size	705332
+depends	perl perl-xml-sax perl-xml-sax-base perl-xml-namespacesupport so:libc.musl-armhf.so.1 so:libxml2.so.2
+origin	perl-xml-libxml
+repo	community
+file	perl-xml-libxml-2.0210-r2.apk
+checksum	Q1YfBKq3SF2rzS/pGyRhRs88CAHXo=
+dep	perl	perl
+dep	perl-xml-sax	perl-xml-sax
+dep	perl-xml-sax-base	perl-xml-sax-base
+dep	perl-xml-namespacesupport	perl-xml-namespacesupport
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxml2.so.2	libxml2

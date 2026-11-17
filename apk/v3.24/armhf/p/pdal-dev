@@ -1,0 +1,18 @@
+name	pdal-dev
+version	2.10.1-r1
+description	PDAL is a C++ BSD library for translating and manipulating point cloud data. (development files)
+url	https://pdal.io/
+license	BSD-2-Clause
+size	6473654
+installed-size	9355718
+depends	pdal=2.10.1-r1 libpdal-plugins=2.10.1-r1 pdal=2.10.1-r1 pc:gdal pc:libxml-2.0 pkgconfig
+origin	pdal
+repo	community
+file	pdal-dev-2.10.1-r1.apk
+checksum	Q1KVeDWVMBNVqqhSUwePTas/C4/oo=
+dep	pdal=2.10.1-r1	pdal
+dep	libpdal-plugins=2.10.1-r1	libpdal-plugins
+dep	pdal=2.10.1-r1	pdal
+dep	pc:gdal	gdal-dev
+dep	pc:libxml-2.0	libxml2-dev
+dep	pkgconfig	pkgconf

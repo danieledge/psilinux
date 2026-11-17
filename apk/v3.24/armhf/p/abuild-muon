@@ -1,0 +1,14 @@
+name	abuild-muon
+version	0.5.0-r1
+description	Meson-compatible build system (abuild helper)
+url	https://muon.build
+license	GPL-3.0-only AND Apache-2.0
+size	1905
+installed-size	676
+depends	cmd:muon=0.5.0-r1 abuild
+origin	muon
+repo	main
+file	abuild-muon-0.5.0-r1.apk
+checksum	Q1yH5DHUyle5RardYwk6d0lM98UTU=
+dep	cmd:muon=0.5.0-r1	muon
+dep	abuild	abuild

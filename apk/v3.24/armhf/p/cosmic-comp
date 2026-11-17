@@ -1,0 +1,21 @@
+name	cosmic-comp
+version	1.0.15-r0
+description	Compositor for the COSMIC Desktop Environment
+url	https://github.com/pop-os/cosmic-comp
+license	GPL-3.0-only
+size	7751047
+installed-size	16262553
+depends	so:libc.musl-armhf.so.1 so:libdisplay-info.so.3 so:libgbm.so.1 so:libgcc_s.so.1 so:libinput.so.10 so:libpixman-1.so.0 so:libseat.so.1 so:libudev.so.1 so:libxkbcommon.so.0
+origin	cosmic-comp
+repo	community
+file	cosmic-comp-1.0.15-r0.apk
+checksum	Q1mxzqbn6PF0rULWPB4rXUz02eXeU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdisplay-info.so.3	libdisplay-info
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libinput.so.10	libinput-libs
+dep	so:libpixman-1.so.0	pixman
+dep	so:libseat.so.1	libseat
+dep	so:libudev.so.1	eudev-libs
+dep	so:libxkbcommon.so.0	libxkbcommon

@@ -1,0 +1,16 @@
+name	tmatrix
+version	1.4-r2
+description	Terminal based replica of the digital rain from The Matrix
+url	https://github.com/M4444/TMatrix
+license	GPL-2.0-only
+size	40560
+installed-size	87724
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libncursesw.so.6 so:libstdc++.so.6
+origin	tmatrix
+repo	community
+file	tmatrix-1.4-r2.apk
+checksum	Q1Jsxpsc7W8GS5y0LY3SEXZUGyxxQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libstdc++.so.6	libstdc++

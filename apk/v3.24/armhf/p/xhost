@@ -1,0 +1,15 @@
+name	xhost
+version	1.0.10-r0
+description	Controls host and/or user access to a running X server
+url	https://xorg.freedesktop.org/
+license	MIT
+size	6819
+installed-size	13484
+depends	so:libX11.so.6 so:libXmuu.so.1 so:libc.musl-armhf.so.1
+origin	xhost
+repo	community
+file	xhost-1.0.10-r0.apk
+checksum	Q1qdhOWdQ1PHzk9PCRmeteWufc8gU=
+dep	so:libX11.so.6	libx11
+dep	so:libXmuu.so.1	libxmu
+dep	so:libc.musl-armhf.so.1	musl

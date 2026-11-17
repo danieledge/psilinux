@@ -1,0 +1,13 @@
+name	mdevd-doc
+version	0.1.8.2-r0
+description	A netlink-listening device manager using mdev's configuration files (documentation)
+url	https://skarnet.org/software/mdevd/
+license	ISC
+size	9815
+installed-size	27879
+depends	busybox-doc
+origin	mdevd
+repo	main
+file	mdevd-doc-0.1.8.2-r0.apk
+checksum	Q13l4Q8MIEmWEun+2G9qlFJN7RLXo=
+dep	busybox-doc	busybox-doc

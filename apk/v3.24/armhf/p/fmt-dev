@@ -1,0 +1,14 @@
+name	fmt-dev
+version	11.2.0-r1
+description	Open-source formatting library for C++ (development files)
+url	https://fmt.dev/latest/index.html
+license	MIT
+size	147634
+installed-size	584393
+depends	fmt=11.2.0-r1 pkgconfig
+origin	fmt
+repo	main
+file	fmt-dev-11.2.0-r1.apk
+checksum	Q1sEe52Edi9sv5i1HUVfOujyoUZr0=
+dep	fmt=11.2.0-r1	fmt
+dep	pkgconfig	pkgconf

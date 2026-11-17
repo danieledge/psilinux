@@ -1,0 +1,15 @@
+name	cosmic-bg
+version	1.0.15-r0
+description	COSMIC session service which applies backgrounds to displays
+url	https://github.com/pop-os/cosmic-bg
+license	MPL-2.0
+size	1852188
+installed-size	3693918
+depends	cosmic-icons so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	cosmic-bg
+repo	community
+file	cosmic-bg-1.0.15-r0.apk
+checksum	Q1SZqqKYp9AHsQD/KGyhSkhaLf5SU=
+dep	cosmic-icons	cosmic-icons
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

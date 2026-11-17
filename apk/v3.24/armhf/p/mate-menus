@@ -1,0 +1,17 @@
+name	mate-menus
+version	1.28.1-r0
+description	The libmate-menu library, the layout configuration files for the MATE menu, as well as a simple menu editor
+url	https://github.com/mate-desktop/mate-menus
+license	GPL-2.0-or-later
+size	58542
+installed-size	140100
+depends	mate-common so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	mate-menus
+repo	community
+file	mate-menus-1.28.1-r0.apk
+checksum	Q1rWKyI1nrZcLfP9Jtet3f8jfUlxs=
+dep	mate-common	mate-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

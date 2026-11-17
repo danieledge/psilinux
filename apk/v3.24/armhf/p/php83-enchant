@@ -1,0 +1,15 @@
+name	php83-enchant
+version	8.3.36-r0
+description	PHP83 extension: enchant
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	8187
+installed-size	17750
+depends	php83-common so:libc.musl-armhf.so.1 so:libenchant-2.so.2
+origin	php83
+repo	community
+file	php83-enchant-8.3.36-r0.apk
+checksum	Q1fwkv7FKzhPEixUuI/3mto4OSKfA=
+dep	php83-common	php83-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libenchant-2.so.2	enchant2-libs

@@ -1,0 +1,13 @@
+name	py3-libpass
+version	1.9.3-r1
+description	Maintained fork of py3-passlib, a password hashing library for Python
+url	https://github.com/notypecheck/passlib
+license	BSD-2-Clause
+size	279965
+installed-size	1068658
+depends	python3~3.14
+origin	py3-libpass
+repo	community
+file	py3-libpass-1.9.3-r1.apk
+checksum	Q1FYzhWPwKoPkPQ7l4V3rH5he318A=
+dep	python3~3.14	python3

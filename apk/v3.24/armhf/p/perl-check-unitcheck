@@ -1,0 +1,14 @@
+name	perl-check-unitcheck
+version	0.13-r3
+description	Use best of CHECK or UNITCHECK
+url	https://metacpan.org/release/Check-UnitCheck/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	5818
+installed-size	7888
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-check-unitcheck
+repo	community
+file	perl-check-unitcheck-0.13-r3.apk
+checksum	Q1F71EqmgzWudIx53IzVJT6V/dQGk=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

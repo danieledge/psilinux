@@ -1,0 +1,13 @@
+name	cyrus-sasl-crammd5
+version	2.1.28-r9
+description	Cyrus SASL plugin for crammd5
+url	https://www.cyrusimap.org/sasl/
+license	BSD-3-Clause-Attribution AND BSD-4-Clause
+size	9896
+installed-size	17700
+depends	so:libc.musl-armhf.so.1
+origin	cyrus-sasl
+repo	main
+file	cyrus-sasl-crammd5-2.1.28-r9.apk
+checksum	Q14TnBFRZ1F1wr8mJ8VsOU0f5QDq0=
+dep	so:libc.musl-armhf.so.1	musl

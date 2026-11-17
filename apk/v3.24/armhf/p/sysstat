@@ -1,0 +1,13 @@
+name	sysstat
+version	12.7.8-r0
+description	Performance monitoring tools
+url	https://sysstat.github.io/
+license	GPL-2.0-or-later
+size	337925
+installed-size	754756
+depends	so:libc.musl-armhf.so.1
+origin	sysstat
+repo	community
+file	sysstat-12.7.8-r0.apk
+checksum	Q1LHzXU15IN2sl/4KwqA7CryCHNqc=
+dep	so:libc.musl-armhf.so.1	musl

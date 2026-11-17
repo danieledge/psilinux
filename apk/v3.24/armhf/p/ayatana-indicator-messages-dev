@@ -1,0 +1,15 @@
+name	ayatana-indicator-messages-dev
+version	24.5.1-r0
+description	Ayatana Indicator Messages Applet (development files)
+url	https://github.com/AyatanaIndicators/ayatana-indicator-messages
+license	GPL-3.0-only
+size	11724
+installed-size	85913
+depends	ayatana-indicator-messages=24.5.1-r0 pc:gio-unix-2.0 pkgconfig
+origin	ayatana-indicator-messages
+repo	community
+file	ayatana-indicator-messages-dev-24.5.1-r0.apk
+checksum	Q1Vdt8OO2cSVESikNvtIB34ZdaZ38=
+dep	ayatana-indicator-messages=24.5.1-r0	ayatana-indicator-messages
+dep	pc:gio-unix-2.0	glib-dev
+dep	pkgconfig	pkgconf

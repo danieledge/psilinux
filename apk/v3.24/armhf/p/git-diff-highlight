@@ -1,0 +1,14 @@
+name	git-diff-highlight
+version	2.54.1-r0
+description	diff highlight for git
+url	https://www.git-scm.com/
+license	GPL-2.0-only
+size	5138
+installed-size	8608
+depends	git=2.54.1-r0 perl
+origin	git
+repo	main
+file	git-diff-highlight-2.54.1-r0.apk
+checksum	Q1hfxwlBG7XMmup/3FVT2PIUSP91g=
+dep	git=2.54.1-r0	git
+dep	perl	perl

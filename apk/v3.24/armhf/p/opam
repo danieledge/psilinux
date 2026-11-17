@@ -1,0 +1,20 @@
+name	opam
+version	2.5.2-r1
+description	OCaml Package Manager
+url	https://opam.ocaml.org
+license	LGPL-2.1-only WITH OCaml-LGPL-linking-exception
+size	4894522
+installed-size	10612208
+depends	curl tar unzip coreutils bubblewrap so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	opam
+repo	community
+file	opam-2.5.2-r1.apk
+checksum	Q1bjQ3wB+wlTKWl7QjAEN9N/rgj8w=
+dep	curl	curl
+dep	tar	tar
+dep	unzip	unzip
+dep	coreutils	coreutils
+dep	bubblewrap	bubblewrap
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

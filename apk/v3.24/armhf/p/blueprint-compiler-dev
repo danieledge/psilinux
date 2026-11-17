@@ -1,0 +1,14 @@
+name	blueprint-compiler-dev
+version	0.20.4-r1
+description	Markup language for GTK user interfaces (development files)
+url	https://gnome.pages.gitlab.gnome.org/blueprint-compiler/
+license	LGPL-3.0-or-later
+size	1703
+installed-size	105
+depends	blueprint-compiler=0.20.4-r1 pkgconfig
+origin	blueprint-compiler
+repo	community
+file	blueprint-compiler-dev-0.20.4-r1.apk
+checksum	Q1XtkIYjbqWmv0FzYloaseHvc9auA=
+dep	blueprint-compiler=0.20.4-r1	blueprint-compiler
+dep	pkgconfig	pkgconf

@@ -1,0 +1,17 @@
+name	opusfile-dev
+version	0.12-r6
+description	High-level API for decoding and seeking within .opus files (development files)
+url	https://www.opus-codec.org/
+license	BSD-3-Clause
+size	26527
+installed-size	116709
+depends	openssl-dev>3 opusfile=0.12-r6 pc:ogg>=1.3 pc:opus>=1.0.1 pkgconfig
+origin	opusfile
+repo	main
+file	opusfile-dev-0.12-r6.apk
+checksum	Q13qhRAsmAMe6TuFr74fZIR3hkr60=
+dep	openssl-dev>3	openssl-dev
+dep	opusfile=0.12-r6	opusfile
+dep	pc:ogg>=1.3	libogg-dev
+dep	pc:opus>=1.0.1	opus-dev
+dep	pkgconfig	pkgconf

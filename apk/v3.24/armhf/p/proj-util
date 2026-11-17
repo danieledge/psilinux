@@ -1,0 +1,16 @@
+name	proj-util
+version	9.8.1-r0
+description	Cartographic projection library (utilities)
+url	https://proj.org/
+license	MIT
+size	103732
+installed-size	247572
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libproj.so.25 so:libstdc++.so.6
+origin	proj
+repo	community
+file	proj-util-9.8.1-r0.apk
+checksum	Q1MrSMjnEj2GZFajwhELlLyKrm+0s=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libproj.so.25	proj
+dep	so:libstdc++.so.6	libstdc++

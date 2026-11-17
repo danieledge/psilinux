@@ -1,0 +1,13 @@
+name	tacacs+ng-dev
+version	0_git20241212-r1
+description	TACACS+ NG authentication daemon (development files)
+url	https://www.pro-bono-publico.de/projects/tac_plus-ng.html
+license	MIT AND BSD-2-Clause
+size	1595
+installed-size	1
+depends	tacacs+ng=0_git20241212-r1
+origin	tacacs+ng
+repo	community
+file	tacacs+ng-dev-0_git20241212-r1.apk
+checksum	Q1OJNOJRpIUYdNf6nKxoXaHuQiF4s=
+dep	tacacs+ng=0_git20241212-r1	tacacs+ng

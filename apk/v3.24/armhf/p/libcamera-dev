@@ -1,0 +1,14 @@
+name	libcamera-dev
+version	0.7.1-r1
+description	Linux camera framework (development files)
+url	https://libcamera.org/
+license	LGPL-2.1-or-later AND GPL-2.0-or-later
+size	26052
+installed-size	116139
+depends	libcamera=0.7.1-r1 pkgconfig
+origin	libcamera
+repo	community
+file	libcamera-dev-0.7.1-r1.apk
+checksum	Q1Yz0F1BKkbD2Xx0lBjaw5ffiqzTU=
+dep	libcamera=0.7.1-r1	libcamera
+dep	pkgconfig	pkgconf

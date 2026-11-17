@@ -1,0 +1,14 @@
+name	cargo-gra
+version	0.6.2-r0
+description	gtk-rust-app CLI for building Flatpak apps with ease
+url	https://gitlab.com/floers/cargo-gra
+license	GPL-3.0-or-later
+size	482130
+installed-size	904984
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	cargo-gra
+repo	community
+file	cargo-gra-0.6.2-r0.apk
+checksum	Q1z6nkOahXyM7L1PuQ+CaoHcn/1OQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

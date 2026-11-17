@@ -1,0 +1,15 @@
+name	py3-drf-orjson-renderer
+version	1.8.0-r2
+description	Django RestFramework JSON Renderer Backed by orjson
+url	https://pypi.python.org/project/drf-orjson-renderer
+license	MIT
+size	8013
+installed-size	14648
+depends	py3-django-rest-framework py3-orjson python3~3.14
+origin	py3-drf-orjson-renderer
+repo	community
+file	py3-drf-orjson-renderer-1.8.0-r2.apk
+checksum	Q1k3I0zMFuxiiA30McEvAHbPV37pc=
+dep	py3-django-rest-framework	py3-django-rest-framework
+dep	py3-orjson	py3-orjson
+dep	python3~3.14	python3

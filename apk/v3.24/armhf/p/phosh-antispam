@@ -1,0 +1,20 @@
+name	phosh-antispam
+version	3.5-r0
+description	monitors Gnome Calls and manages phone calls from unidentified/unknown callers
+url	https://gitlab.com/kop316/phosh-antispam
+license	GPL-3.0-or-later
+size	22638
+installed-size	66184
+depends	calls>=41_beta so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8
+origin	phosh-antispam
+repo	community
+file	phosh-antispam-3.5-r0.apk
+checksum	Q13LeDYYgIxJJBfFrRprOTJ19SXGQ=
+dep	calls>=41_beta	calls
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl

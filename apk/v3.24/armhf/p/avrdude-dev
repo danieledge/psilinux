@@ -1,0 +1,13 @@
+name	avrdude-dev
+version	8.1-r0
+description	Download/upload/manipulate the ROM and EEPROM contents of AVR microcontrollers (development files)
+url	https://github.com/avrdudes/avrdude
+license	GPL-2.0-or-later
+size	41843
+installed-size	219444
+depends	avrdude-libs=8.1-r0
+origin	avrdude
+repo	community
+file	avrdude-dev-8.1-r0.apk
+checksum	Q1kcypywhzvmONrnyl1nwhB+GZKpA=
+dep	avrdude-libs=8.1-r0	avrdude-libs

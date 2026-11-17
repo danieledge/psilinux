@@ -1,0 +1,13 @@
+name	opendmarc-dev
+version	1.4.2-r3
+description	A free open source implementation of the DMARC specification (development files)
+url	https://github.com/trusteddomainproject/OpenDMARC
+license	BSD-3-Clause Sendmail
+size	25626
+installed-size	66205
+depends	opendmarc-libs=1.4.2-r3
+origin	opendmarc
+repo	community
+file	opendmarc-dev-1.4.2-r3.apk
+checksum	Q1MWeZ2kQWiWJzMosJJCFRekyUwbs=
+dep	opendmarc-libs=1.4.2-r3	opendmarc-libs

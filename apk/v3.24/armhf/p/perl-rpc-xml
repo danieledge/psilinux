@@ -1,0 +1,22 @@
+name	perl-rpc-xml
+version	0.82-r0
+description	Data, client and server classes for XML-RPC
+url	https://metacpan.org/release/RPC-XML/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	116161
+installed-size	424869
+depends	perl perl-http-message perl-xml-parser perl-http-daemon perl-libwww perl-xml-parser perl-xml-libxml perl-net-server perl-http-daemon perl-datetime-format-iso8601
+origin	perl-rpc-xml
+repo	community
+file	perl-rpc-xml-0.82-r0.apk
+checksum	Q1HgExEELA6TUg5712wJ5pfUzjd+c=
+dep	perl	perl
+dep	perl-http-message	perl-http-message
+dep	perl-xml-parser	perl-xml-parser
+dep	perl-http-daemon	perl-http-daemon
+dep	perl-libwww	perl-libwww
+dep	perl-xml-parser	perl-xml-parser
+dep	perl-xml-libxml	perl-xml-libxml
+dep	perl-net-server	perl-net-server
+dep	perl-http-daemon	perl-http-daemon
+dep	perl-datetime-format-iso8601	perl-datetime-format-iso8601

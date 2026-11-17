@@ -1,0 +1,16 @@
+name	mesa-utils
+version	9.0.0-r6
+description	Essential mesa utilities
+url	https://mesa3d.org
+license	custom
+size	152822
+installed-size	458584
+depends	so:libEGL.so.1 so:libGL.so.1 so:libX11.so.6 so:libc.musl-armhf.so.1
+origin	mesa-demos
+repo	community
+file	mesa-utils-9.0.0-r6.apk
+checksum	Q13YqK7KGAUSV+F1uRyxESwWvinGI=
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libGL.so.1	mesa-gl
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl

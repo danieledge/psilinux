@@ -1,0 +1,13 @@
+name	libudev-zero
+version	1.0.4-r0
+description	libudev replacement to use whatever device manager
+url	https://github.com/illiliti/libudev-zero/
+license	ISC
+size	11006
+installed-size	21648
+depends	so:libc.musl-armhf.so.1
+origin	libudev-zero
+repo	community
+file	libudev-zero-1.0.4-r0.apk
+checksum	Q1mVvdZy1G6zAjKj5WGrj7Mae5Q6A=
+dep	so:libc.musl-armhf.so.1	musl

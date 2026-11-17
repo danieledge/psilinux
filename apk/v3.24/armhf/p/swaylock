@@ -1,0 +1,19 @@
+name	swaylock
+version	1.8.5-r1
+description	Screen locker for Wayland
+url	https://swaywm.org/
+license	MIT
+size	23975
+installed-size	51949
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk_pixbuf-2.0.so.0 so:libgobject-2.0.so.0 so:libpam.so.0 so:libwayland-client.so.0 so:libxkbcommon.so.0
+origin	swaylock
+repo	community
+file	swaylock-1.8.5-r1.apk
+checksum	Q1u0u8bgb6FzxgkBV8zyFFoU7RFfY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpam.so.0	linux-pam
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libxkbcommon.so.0	libxkbcommon

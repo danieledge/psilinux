@@ -1,0 +1,14 @@
+name	keyd
+version	2.6.0-r1
+description	A key remapping daemon for Linux
+url	https://github.com/rvaiya/keyd
+license	MIT
+size	270618
+installed-size	1323532
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	keyd
+repo	community
+file	keyd-2.6.0-r1.apk
+checksum	Q1swew6j4xuOW1ueaZGBD6Rjwt62Y=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

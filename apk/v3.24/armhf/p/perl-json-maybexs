@@ -1,0 +1,13 @@
+name	perl-json-maybexs
+version	1.004008-r0
+description	Use L<Cpanel::JSON::XS> with a fallback to L<JSON::XS> and L<JSON::PP>
+url	https://metacpan.org/release/JSON-MaybeXS/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	5859
+installed-size	10688
+depends	perl
+origin	perl-json-maybexs
+repo	main
+file	perl-json-maybexs-1.004008-r0.apk
+checksum	Q1W6dc9nZf3PMOo9yIUXS+RCVNvx0=
+dep	perl	perl

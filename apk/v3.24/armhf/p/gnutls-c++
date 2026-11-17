@@ -1,0 +1,16 @@
+name	gnutls-c++
+version	3.8.13-r0
+description	The C++ interface to GnuTLS
+url	https://www.gnutls.org/
+license	LGPL-2.1-or-later
+size	13718
+installed-size	42380
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgnutls.so.30 so:libstdc++.so.6
+origin	gnutls
+repo	main
+file	gnutls-c++-3.8.13-r0.apk
+checksum	Q1RBfaq5VciyXB/H/7CWvuRuJMbQA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgnutls.so.30	gnutls
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,15 @@
+name	msm-modem-uim-selection
+version	13-r1
+description	Common support for Qualcomm MSM modems (UIM selection)
+url	https://gitlab.postmarketos.org/postmarketOS/msm-modem#
+license	GPL-3.0-or-later
+size	2863
+installed-size	2928
+depends	rmtfs libqmi qmi-utils
+origin	msm-modem
+repo	community
+file	msm-modem-uim-selection-13-r1.apk
+checksum	Q1i1V1ZZeaRC4pedhS/bO7wFgJ/EY=
+dep	rmtfs	rmtfs
+dep	libqmi	libqmi
+dep	qmi-utils	qmi-utils

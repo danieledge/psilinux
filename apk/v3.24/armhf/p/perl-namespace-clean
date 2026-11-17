@@ -1,0 +1,15 @@
+name	perl-namespace-clean
+version	0.27-r4
+description	Keep imports and functions out of your namespace
+url	https://metacpan.org/release/namespace-clean/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	8197
+installed-size	16074
+depends	perl perl-package-stash perl-b-hooks-endofscope
+origin	perl-namespace-clean
+repo	main
+file	perl-namespace-clean-0.27-r4.apk
+checksum	Q1kf/YSHAqGtqJEYM2dcH21lvUxEI=
+dep	perl	perl
+dep	perl-package-stash	perl-package-stash
+dep	perl-b-hooks-endofscope	perl-b-hooks-endofscope

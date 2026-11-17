@@ -1,0 +1,15 @@
+name	libretro-gambatte
+version	0_git20250124-r0
+description	libretro implementation of libgambatte
+url	https://github.com/libretro/gambatte-libretro
+license	GPL-2.0-only
+size	333729
+installed-size	2341552
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libretro-gambatte
+repo	community
+file	libretro-gambatte-0_git20250124-r0.apk
+checksum	Q1l7u7vK8kByr5Kyo6b0F/CZGixwQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

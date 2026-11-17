@@ -1,0 +1,12 @@
+name	nbtscan-dbg
+version	1.7.2-r0
+description	NETBIOS nameserver scanner (debug symbols)
+url	http://www.unixwiz.net/tools/nbtscan.html
+license	GPL-2.0-or-later
+size	25626
+installed-size	51548
+depends	!nbtscan<1.7.2-r0 !nbtscan>1.7.2-r0
+origin	nbtscan
+repo	community
+file	nbtscan-dbg-1.7.2-r0.apk
+checksum	Q1opfLh6IT7O2pCPs35FstUktMgEM=

@@ -1,0 +1,15 @@
+name	psqlodbc
+version	16.00.0005-r1
+description	PostgreSQL ODBC driver
+url	https://odbc.postgresql.org/
+license	GPL-2.0-or-later
+size	443333
+installed-size	920044
+depends	so:libc.musl-armhf.so.1 so:libodbcinst.so.2 so:libpq.so.5
+origin	psqlodbc
+repo	main
+file	psqlodbc-16.00.0005-r1.apk
+checksum	Q1eNz3Xdt4GEWHJTU/wSScsiOvcWE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libodbcinst.so.2	unixodbc
+dep	so:libpq.so.5	libpq

@@ -1,0 +1,14 @@
+name	lomiri-deviceinfo-dev
+version	0.2.4-r1
+description	Library to detect and configure devices (development files)
+url	https://gitlab.com/ubports/development/core/deviceinfo
+license	GPL-3.0-only
+size	3340
+installed-size	3815
+depends	lomiri-deviceinfo=0.2.4-r1 pkgconfig
+origin	lomiri-deviceinfo
+repo	community
+file	lomiri-deviceinfo-dev-0.2.4-r1.apk
+checksum	Q1y3r2BvQYizBYQaOhOfjbw9VX7+I=
+dep	lomiri-deviceinfo=0.2.4-r1	lomiri-deviceinfo
+dep	pkgconfig	pkgconf

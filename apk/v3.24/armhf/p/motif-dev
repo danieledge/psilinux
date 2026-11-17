@@ -1,0 +1,20 @@
+name	motif-dev
+version	2.5.2-r0
+description	The Motif library (development files)
+url	https://github.com/thentenaar/motif
+license	LGPL-2.1-or-later
+size	233519
+installed-size	1262603
+depends	motif=2.5.2-r0 pc:x11 pc:xext pc:xft pc:xmu pc:xpm pc:xt pkgconfig
+origin	motif
+repo	community
+file	motif-dev-2.5.2-r0.apk
+checksum	Q12F2OuWu6qkGuz2OQ9FPRmOzj7FI=
+dep	motif=2.5.2-r0	motif
+dep	pc:x11	libx11-dev
+dep	pc:xext	libxext-dev
+dep	pc:xft	libxft-dev
+dep	pc:xmu	libxmu-dev
+dep	pc:xpm	libxpm-dev
+dep	pc:xt	libxt-dev
+dep	pkgconfig	pkgconf

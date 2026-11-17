@@ -1,0 +1,22 @@
+name	qt6-qttools-dev
+version	6.11.1-r0
+description	A cross-platform application and UI framework (Development Tools, QtHelp) (development files)
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	386086
+installed-size	1939438
+depends	qt6-qttools=6.11.1-r0 vulkan-headers qt6-qttools-libs=6.11.1-r0 pc:Qt6Core pc:Qt6Gui pc:Qt6OpenGLWidgets pc:Qt6Sql pc:Qt6Widgets pc:Qt6Xml pkgconfig
+origin	qt6-qttools
+repo	community
+file	qt6-qttools-dev-6.11.1-r0.apk
+checksum	Q1pB3DrzYcqNAQIlCgfeO24eALP+A=
+dep	qt6-qttools=6.11.1-r0	qt6-qttools
+dep	vulkan-headers	vulkan-headers
+dep	qt6-qttools-libs=6.11.1-r0	qt6-qttools-libs
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pc:Qt6Gui	qt6-qtbase-dev
+dep	pc:Qt6OpenGLWidgets	qt6-qtbase-dev
+dep	pc:Qt6Sql	qt6-qtbase-dev
+dep	pc:Qt6Widgets	qt6-qtbase-dev
+dep	pc:Qt6Xml	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

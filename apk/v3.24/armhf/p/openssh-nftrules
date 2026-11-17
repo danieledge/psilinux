@@ -1,0 +1,12 @@
+name	openssh-nftrules
+version	10.3_p1-r2
+description	Port of OpenBSD's free SSH release (nftables ruleset)
+url	https://www.openssh.com/portable.html
+license	SSH-OpenSSH
+size	1676
+installed-size	83
+depends	
+origin	openssh
+repo	main
+file	openssh-nftrules-10.3_p1-r2.apk
+checksum	Q1p5ojfbKu249Ssina/wj7Xhgu6Mc=

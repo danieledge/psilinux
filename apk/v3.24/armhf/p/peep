@@ -1,0 +1,14 @@
+name	peep
+version	0.1.6_git20220920-r1
+description	Text viewer that works like less(1) on small pane within terminal window
+url	https://github.com/ryochack/peep
+license	MIT
+size	347834
+installed-size	740916
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	peep
+repo	community
+file	peep-0.1.6_git20220920-r1.apk
+checksum	Q1AmtXxuTsnPndH6Nyu86cVAt9vTk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

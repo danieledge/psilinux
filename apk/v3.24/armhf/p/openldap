@@ -1,0 +1,19 @@
+name	openldap
+version	2.6.15-r0
+description	LDAP Server
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	635369
+installed-size	1729491
+depends	/bin/sh so:libc.musl-armhf.so.1 so:liblber.so.2 so:libldap.so.2 so:libltdl.so.7 so:libsasl2.so.3 so:libuuid.so.1
+origin	openldap
+repo	main
+file	openldap-2.6.15-r0.apk
+checksum	Q1CQHDe7L4rlE40YuiujRv26gwGWk=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap
+dep	so:libltdl.so.7	libltdl
+dep	so:libsasl2.so.3	libsasl
+dep	so:libuuid.so.1	libuuid

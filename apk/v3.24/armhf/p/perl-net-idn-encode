@@ -1,0 +1,14 @@
+name	perl-net-idn-encode
+version	2.500-r3
+description	Internationalizing Domain Names in Applications (IDNA)
+url	https://metacpan.org/release/Net-IDN-Encode/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	85517
+installed-size	246222
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-net-idn-encode
+repo	community
+file	perl-net-idn-encode-2.500-r3.apk
+checksum	Q1QZv1hnUfWNhV2vpLIqXiTLgSZa4=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

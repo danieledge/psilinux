@@ -1,0 +1,15 @@
+name	py3-django-sorl-thumbnail
+version	13.0.0-r2
+description	Thumbnails for Django
+url	https://github.com/jazzband/sorl-thumbnail
+license	BSD-3-Clause
+size	35165
+installed-size	110920
+depends	py3-django py3-pillow python3~3.14
+origin	py3-django-sorl-thumbnail
+repo	community
+file	py3-django-sorl-thumbnail-13.0.0-r2.apk
+checksum	Q1PCkqJcERa9rMKCzAmSrRhU5Phaw=
+dep	py3-django	py3-django
+dep	py3-pillow	py3-pillow
+dep	python3~3.14	python3

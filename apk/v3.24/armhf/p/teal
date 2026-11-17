@@ -1,0 +1,15 @@
+name	teal
+version	0.24.5-r0
+description	The compiler for Teal, a typed dialect of Lua
+url	https://github.com/teal-language/tl
+license	MIT
+size	174393
+installed-size	949436
+depends	lua5.4 lua-filesystem lua-argparse
+origin	teal
+repo	community
+file	teal-0.24.5-r0.apk
+checksum	Q1deUTOgnz7MRMCQMV+/X/fHn/m60=
+dep	lua5.4	lua5.4
+dep	lua-filesystem	lua-filesystem
+dep	lua-argparse	lua-argparse

@@ -1,0 +1,36 @@
+name	nemo
+version	6.6.4-r0
+description	File manager for the Cinnamon desktop environment
+url	https://github.com/linuxmint/nemo
+license	GPL-2.0-only
+size	1856286
+installed-size	5033185
+depends	desktop-file-utils xapp-symbolic-icons so:libX11.so.6 so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo-gobject.so.2 so:libcairo.so.2 so:libcinnamon-desktop.so.4 so:libexempi.so.8 so:libexif.so.12 so:libgailutil-3.so.0 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgsf-1.so.114 so:libgtk-3.so.0 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libxapp.so.1
+origin	nemo
+repo	community
+file	nemo-6.6.4-r0.apk
+checksum	Q1D/b0c43x7KZjPXW2qTehnpU57OY=
+dep	desktop-file-utils	desktop-file-utils
+dep	xapp-symbolic-icons	xapp-symbolic-icons
+dep	so:libX11.so.6	libx11
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo-gobject.so.2	cairo-gobject
+dep	so:libcairo.so.2	cairo
+dep	so:libcinnamon-desktop.so.4	cinnamon-desktop
+dep	so:libexempi.so.8	exempi-libs
+dep	so:libexif.so.12	libexif
+dep	so:libgailutil-3.so.0	gtk+3.0
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgsf-1.so.114	libgsf
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libxapp.so.1	xapp

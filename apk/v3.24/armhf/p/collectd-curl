@@ -1,0 +1,17 @@
+name	collectd-curl
+version	5.12.0-r25
+description	curl pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	33628
+installed-size	81744
+depends	collectd so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libxml2.so.2 so:libyajl.so.2
+origin	collectd
+repo	community
+file	collectd-curl-5.12.0-r25.apk
+checksum	Q1NxD99GTttD1DXNfhuTNkT28tRWU=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libxml2.so.2	libxml2
+dep	so:libyajl.so.2	yajl

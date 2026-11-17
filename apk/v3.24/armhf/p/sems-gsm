@@ -1,0 +1,15 @@
+name	sems-gsm
+version	2.1.0-r0
+description	GSM support for SEMS
+url	https://github.com/sems-server/sems/
+license	GPL-2.0-or-later
+size	4833
+installed-size	9572
+depends	sems so:libc.musl-armhf.so.1 so:libgsm.so.1
+origin	sems
+repo	community
+file	sems-gsm-2.1.0-r0.apk
+checksum	Q1oNOeCV8Li9PCegg9OvPm97+hIW0=
+dep	sems	sems
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgsm.so.1	gsm

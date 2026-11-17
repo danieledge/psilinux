@@ -1,0 +1,13 @@
+name	cpufrequtils-dev
+version	008-r7
+description	Userspace tools for the kernel cpufreq subsystem (development files)
+url	https://www.kernel.org/pub/linux/utils/kernel/cpufreq/
+license	GPL-2.0-only
+size	3539
+installed-size	5942
+depends	cpufrequtils=008-r7
+origin	cpufrequtils
+repo	community
+file	cpufrequtils-dev-008-r7.apk
+checksum	Q1zbXfsXH84vmq9gT1mrHanJS5PnA=
+dep	cpufrequtils=008-r7	cpufrequtils

@@ -1,0 +1,19 @@
+name	suitesparse
+version	7.8.2-r0
+description	A collection of sparse matrix libraries
+url	http://faculty.cse.tamu.edu/davis/suitesparse.html
+license	BSD-3-Clause AND LGPL-2.1-or-later AND GPL-2.0-or-later
+size	1786641
+installed-size	3746444
+depends	openblas so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgmp.so.10 so:libgomp.so.1 so:libmpfr.so.6 so:libstdc++.so.6
+origin	suitesparse
+repo	community
+file	suitesparse-7.8.2-r0.apk
+checksum	Q1Xf3IPUVBylIIcE+YQSJJi7eGlFI=
+dep	openblas	openblas
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgmp.so.10	gmp
+dep	so:libgomp.so.1	libgomp
+dep	so:libmpfr.so.6	mpfr4
+dep	so:libstdc++.so.6	libstdc++

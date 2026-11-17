@@ -1,0 +1,15 @@
+name	rlog
+version	1.4-r7
+description	A flexible message logging facility for C++ programs and libraries.
+url	https://code.google.com/archive/p/rlog/
+license	LGPL-2.1-or-later
+size	18628
+installed-size	42368
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	rlog
+repo	main
+file	rlog-1.4-r7.apk
+checksum	Q1YkwT0vlBOEzOLINa+YH8l8zXXLY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,15 @@
+name	qt6-qtlanguageserver-dev
+version	6.11.1-r0
+description	Qt implementation of the Language Server Protocol (development files)
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	53900
+installed-size	326582
+depends	qt6-qtlanguageserver-static qt6-qtbase-dev qt6-qtbase-private-dev
+origin	qt6-qtlanguageserver
+repo	community
+file	qt6-qtlanguageserver-dev-6.11.1-r0.apk
+checksum	Q1pdntezX3bjKEYVkuvkk4vXn1Gys=
+dep	qt6-qtlanguageserver-static	qt6-qtlanguageserver-static
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	qt6-qtbase-private-dev	qt6-qtbase-private-dev

@@ -1,0 +1,14 @@
+name	libelogind
+version	255.24-r0
+description	Standalone fork of systemd's elogind (libraries)
+url	https://github.com/elogind/elogind
+license	GPL-2.0-or-later LGPL-2.1-or-later
+size	274014
+installed-size	609144
+depends	so:libc.musl-armhf.so.1 so:libcap.so.2
+origin	elogind
+repo	community
+file	libelogind-255.24-r0.apk
+checksum	Q14bPbJrUV5f0QsVN2Ct+z+it0U5I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2

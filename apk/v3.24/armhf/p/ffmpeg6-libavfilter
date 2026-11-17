@@ -1,0 +1,30 @@
+name	ffmpeg6-libavfilter
+version	6.1.6-r0
+description	Complete and free Internet live audio and video broadcasting solution for Linux/Unix (libavfilter library)
+url	https://ffmpeg.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	1781845
+installed-size	4105872
+depends	so:libass.so.9 so:libavcodec.so.60 so:libavformat.so.60 so:libavutil.so.58 so:libc.musl-armhf.so.1 so:libfontconfig.so.1 so:libfreetype.so.6 so:libfribidi.so.0 so:libharfbuzz.so.0 so:liblilv-0.so.0 so:libplacebo.so.360 so:libpostproc.so.57 so:libswresample.so.4 so:libswscale.so.7 so:libva.so.2 so:libvidstab.so.1.2 so:libzimg.so.2 so:libzmq.so.5
+origin	ffmpeg6
+repo	community
+file	ffmpeg6-libavfilter-6.1.6-r0.apk
+checksum	Q1t4jfA5dSGiCscHSXExjLXANlsBo=
+dep	so:libass.so.9	libass
+dep	so:libavcodec.so.60	ffmpeg6-libavcodec
+dep	so:libavformat.so.60	ffmpeg6-libavformat
+dep	so:libavutil.so.58	ffmpeg6-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libfribidi.so.0	fribidi
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:liblilv-0.so.0	lilv-libs
+dep	so:libplacebo.so.360	libplacebo
+dep	so:libpostproc.so.57	ffmpeg6-libpostproc
+dep	so:libswresample.so.4	ffmpeg6-libswresample
+dep	so:libswscale.so.7	ffmpeg6-libswscale
+dep	so:libva.so.2	libva
+dep	so:libvidstab.so.1.2	vidstab
+dep	so:libzimg.so.2	zimg
+dep	so:libzmq.so.5	libzmq

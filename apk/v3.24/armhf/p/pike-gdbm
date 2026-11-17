@@ -1,0 +1,15 @@
+name	pike-gdbm
+version	8.0.2040-r1
+description	Pike programming language (GDBM support)
+url	https://pike.lysator.liu.se/
+license	GPL-2.0-or-later
+size	7932
+installed-size	17236
+depends	pike=8.0.2040-r1 so:libc.musl-armhf.so.1 so:libgdbm.so.6
+origin	pike
+repo	community
+file	pike-gdbm-8.0.2040-r1.apk
+checksum	Q1Ebj4sKS0vFPu/oFKLIU1QcwZ5cw=
+dep	pike=8.0.2040-r1	pike
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdbm.so.6	gdbm

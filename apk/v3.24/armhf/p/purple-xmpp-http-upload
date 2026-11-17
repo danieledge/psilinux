@@ -1,0 +1,18 @@
+name	purple-xmpp-http-upload
+version	0.2.4-r1
+description	XMPP HTTP File Upload plugin for libpurple
+url	https://github.com/Junker/purple-xmpp-http-upload
+license	GPL-3.0-or-later
+size	9093
+installed-size	17660
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libintl.so.8 so:libjabber.so.0 so:libpurple.so.0
+origin	purple-xmpp-http-upload
+repo	community
+file	purple-xmpp-http-upload-0.2.4-r1.apk
+checksum	Q1Asd/NXpCWdokj4rXTItDtsXPyR8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libjabber.so.0	purple-xmpp
+dep	so:libpurple.so.0	libpurple

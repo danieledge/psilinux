@@ -1,0 +1,13 @@
+name	ruby-diff-lcs-tools
+version	1.6.1-r0
+description	Generate difference sets between Ruby sequences (CLI tools)
+url	http://halostatue.github.io/diff-lcs/
+license	MIT
+size	1973
+installed-size	1102
+depends	ruby-diff-lcs=1.6.1-r0
+origin	ruby-diff-lcs
+repo	community
+file	ruby-diff-lcs-tools-1.6.1-r0.apk
+checksum	Q1CxJV4ziZNbqQ+BML4kRYc+4PeEs=
+dep	ruby-diff-lcs=1.6.1-r0	ruby-diff-lcs

@@ -1,0 +1,13 @@
+name	py3-gvm-pyc
+version	27.0.2-r0
+description	Precompiled Python bytecode for py3-gvm
+url	https://github.com/greenbone/python-gvm
+license	GPL-3.0-or-later
+size	256530
+installed-size	912953
+depends	python3~3.14
+origin	py3-gvm
+repo	community
+file	py3-gvm-pyc-27.0.2-r0.apk
+checksum	Q1g0UFfdwYy/H5+2B6QIHIfVa2lB4=
+dep	python3~3.14	python3

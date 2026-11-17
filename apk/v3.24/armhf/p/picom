@@ -1,0 +1,37 @@
+name	picom
+version	13-r0
+description	X Compositor (a fork of compton)
+url	https://github.com/yshui/picom
+license	MIT AND MPL-2.0
+size	252149
+installed-size	659167
+depends	pc:pixman-1 pc:xcb pkgconfig so:libX11-xcb.so.1 so:libX11.so.6 so:libc.musl-armhf.so.1 so:libconfig.so.15 so:libdbus-1.so.3 so:libepoxy.so.0 so:libev.so.4 so:libpcre2-8.so.0 so:libpixman-1.so.0 so:libxcb-composite.so.0 so:libxcb-damage.so.0 so:libxcb-glx.so.0 so:libxcb-present.so.0 so:libxcb-randr.so.0 so:libxcb-render-util.so.0 so:libxcb-render.so.0 so:libxcb-shape.so.0 so:libxcb-shm.so.0 so:libxcb-sync.so.1 so:libxcb-util.so.1 so:libxcb-xfixes.so.0 so:libxcb.so.1
+origin	picom
+repo	community
+file	picom-13-r0.apk
+checksum	Q1qyS+KZTzpCe8TqQQiRAvAmocpg4=
+dep	pc:pixman-1	pixman-dev
+dep	pc:xcb	libxcb-dev
+dep	pkgconfig	pkgconf
+dep	so:libX11-xcb.so.1	libx11
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libconfig.so.15	libconfig
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libepoxy.so.0	libepoxy
+dep	so:libev.so.4	libev
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libpixman-1.so.0	pixman
+dep	so:libxcb-composite.so.0	libxcb
+dep	so:libxcb-damage.so.0	libxcb
+dep	so:libxcb-glx.so.0	libxcb
+dep	so:libxcb-present.so.0	libxcb
+dep	so:libxcb-randr.so.0	libxcb
+dep	so:libxcb-render-util.so.0	xcb-util-renderutil
+dep	so:libxcb-render.so.0	libxcb
+dep	so:libxcb-shape.so.0	libxcb
+dep	so:libxcb-shm.so.0	libxcb
+dep	so:libxcb-sync.so.1	libxcb
+dep	so:libxcb-util.so.1	xcb-util
+dep	so:libxcb-xfixes.so.0	libxcb
+dep	so:libxcb.so.1	libxcb

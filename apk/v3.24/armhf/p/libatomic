@@ -1,0 +1,13 @@
+name	libatomic
+version	15.2.0-r5
+description	GCC Atomic library
+url	https://gcc.gnu.org
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	8294
+installed-size	17528
+depends	so:libc.musl-armhf.so.1
+origin	gcc
+repo	main
+file	libatomic-15.2.0-r5.apk
+checksum	Q103yDT9Y+nxaA6GAG3gvipHq+TGc=
+dep	so:libc.musl-armhf.so.1	musl

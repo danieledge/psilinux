@@ -1,0 +1,15 @@
+name	libnfc-dev
+version	1.8.0-r2
+description	Platform independent Near Field Communication (NFC) library (development files)
+url	https://github.com/nfc-tools/libnfc
+license	LGPL-3.0-or-later
+size	7920
+installed-size	21515
+depends	libnfc=1.8.0-r2 pc:libusb pkgconfig
+origin	libnfc
+repo	community
+file	libnfc-dev-1.8.0-r2.apk
+checksum	Q1wqcEUnk6U47AWwDqtxIgz0ErD7o=
+dep	libnfc=1.8.0-r2	libnfc
+dep	pc:libusb	libusb-compat-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	json-c-dev
+version	0.18-r1
+description	A JSON implementation in C (development files)
+url	https://github.com/json-c/json-c/wiki
+license	MIT
+size	66195
+installed-size	220117
+depends	json-c=0.18-r1 pkgconfig
+origin	json-c
+repo	main
+file	json-c-dev-0.18-r1.apk
+checksum	Q1bly8ElzI5vXL2lh6QT4QNnt+M8I=
+dep	json-c=0.18-r1	json-c
+dep	pkgconfig	pkgconf

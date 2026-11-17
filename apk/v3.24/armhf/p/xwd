@@ -1,0 +1,15 @@
+name	xwd
+version	1.0.9-r2
+description	Utility to dump an image of an X window in XWD format
+url	https://gitlab.freedesktop.org/xorg/app/xwd
+license	custom
+size	12853
+installed-size	21684
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1 so:libxkbfile.so.1
+origin	xwd
+repo	community
+file	xwd-1.0.9-r2.apk
+checksum	Q1jlBeyzkmfjdP+JYYnd7nq/smJes=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxkbfile.so.1	libxkbfile

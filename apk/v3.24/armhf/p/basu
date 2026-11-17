@@ -1,0 +1,13 @@
+name	basu
+version	0.2.1-r2
+description	The sd-bus library, extracted from systemd
+url	https://sr.ht/~emersion/basu/
+license	LGPL-2.1-or-later
+size	211149
+installed-size	467008
+depends	so:libc.musl-armhf.so.1
+origin	basu
+repo	community
+file	basu-0.2.1-r2.apk
+checksum	Q1bkrs16Q8cb4JZ08ofCl+7T2ntrs=
+dep	so:libc.musl-armhf.so.1	musl

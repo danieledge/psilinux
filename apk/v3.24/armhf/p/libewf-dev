@@ -1,0 +1,17 @@
+name	libewf-dev
+version	20240506-r0
+description	Library to support the Expert Witness Compression Format (development files)
+url	https://libewf.sourceforge.net/
+license	LGPL-2.0-or-later
+size	15067
+installed-size	112188
+depends	zlib-dev bzip2-dev openssl-dev>3 libewf-libs=20240506-r0 pkgconfig
+origin	libewf
+repo	community
+file	libewf-dev-20240506-r0.apk
+checksum	Q16aookh3XK/iJrc4mbNMQ6ldvp/Q=
+dep	zlib-dev	zlib-dev
+dep	bzip2-dev	bzip2-dev
+dep	openssl-dev>3	openssl-dev
+dep	libewf-libs=20240506-r0	libewf-libs
+dep	pkgconfig	pkgconf

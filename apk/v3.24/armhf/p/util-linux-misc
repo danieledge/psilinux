@@ -1,0 +1,23 @@
+name	util-linux-misc
+version	2.42.3-r1
+description	Misc binaries for util-linux
+url	https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+license	GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
+size	750739
+installed-size	1958396
+depends	/bin/sh setarch=2.42.3-r1 so:libblkid.so.1 so:libc.musl-armhf.so.1 so:libfdisk.so.1 so:libmount.so.1 so:libncursesw.so.6 so:libsmartcols.so.1 so:libutmps.so.0.1 so:libuuid.so.1 so:libz.so.1
+origin	util-linux
+repo	main
+file	util-linux-misc-2.42.3-r1.apk
+checksum	Q12ICpy0qZ2bGPSD2d9Ouu9L1YrGg=
+dep	/bin/sh	busybox-binsh
+dep	setarch=2.42.3-r1	setarch
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfdisk.so.1	libfdisk
+dep	so:libmount.so.1	libmount
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libsmartcols.so.1	libsmartcols
+dep	so:libutmps.so.0.1	utmps-libs
+dep	so:libuuid.so.1	libuuid
+dep	so:libz.so.1	zlib

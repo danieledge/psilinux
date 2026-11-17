@@ -1,0 +1,15 @@
+name	g++-cross-embedded
+version	16.1.0-r0
+description	C++ compilers from the GNU Compiler Collection for embedded targets
+url	https://gcc.gnu.org/
+license	GPL-3.0-or-later
+size	1317
+installed-size	0
+depends	gcc g++-arm-none-eabi g++-riscv-none-elf
+origin	g++-cross-embedded
+repo	community
+file	g++-cross-embedded-16.1.0-r0.apk
+checksum	Q140PswURQPmCF3/mdydA90KX9t5Q=
+dep	gcc	gcc
+dep	g++-arm-none-eabi	g++-arm-none-eabi
+dep	g++-riscv-none-elf	g++-riscv-none-elf

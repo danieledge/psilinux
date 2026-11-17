@@ -1,0 +1,22 @@
+name	tuned-profiles
+version	2.27.0-r1
+description	Additional specialized tuned profile
+url	https://github.com/redhat-performance/tuned
+license	GPL-2.0-only
+size	8800
+installed-size	16435
+depends	python3 pkgconf py3-gobject3 py3-udev py3-dbus py3-linux-procfs polkit dbus ethtool hdparm
+origin	tuned
+repo	community
+file	tuned-profiles-2.27.0-r1.apk
+checksum	Q1ojXG2zmJlb3nc9kVevJB6aNmYeE=
+dep	python3	python3
+dep	pkgconf	pkgconf
+dep	py3-gobject3	py3-gobject3
+dep	py3-udev	py3-udev
+dep	py3-dbus	py3-dbus
+dep	py3-linux-procfs	py3-linux-procfs
+dep	polkit	polkit
+dep	dbus	dbus
+dep	ethtool	ethtool
+dep	hdparm	hdparm

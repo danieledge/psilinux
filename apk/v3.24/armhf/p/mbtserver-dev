@@ -1,0 +1,15 @@
+name	mbtserver-dev
+version	0.17-r2
+description	Memory-based Tagger and Tagger Generator (server part) (development files)
+url	https://github.com/LanguageMachines/mbtserver
+license	GPL-3.0-only
+size	1021947
+installed-size	4393138
+depends	mbtserver=0.17-r2 pc:mbt>=3.5 pkgconfig
+origin	mbtserver
+repo	community
+file	mbtserver-dev-0.17-r2.apk
+checksum	Q12K0PCB3UuatKcF7eEjLteYAjJ0s=
+dep	mbtserver=0.17-r2	mbtserver
+dep	pc:mbt>=3.5	mbt-dev
+dep	pkgconfig	pkgconf

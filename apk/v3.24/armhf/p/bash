@@ -1,0 +1,15 @@
+name	bash
+version	5.3.9-r1
+description	The GNU Bourne Again shell
+url	https://www.gnu.org/software/bash/bash.html
+license	GPL-3.0-or-later
+size	486638
+installed-size	1160399
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libreadline.so.8
+origin	bash
+repo	main
+file	bash-5.3.9-r1.apk
+checksum	Q1SgTJu6favMJKF6z8/lCEBzaL7Fg=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libreadline.so.8	readline

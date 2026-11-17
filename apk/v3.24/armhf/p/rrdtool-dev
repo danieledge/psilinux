@@ -1,0 +1,14 @@
+name	rrdtool-dev
+version	1.10.2-r0
+description	Data logging and graphing application (development files)
+url	http://www.rrdtool.org
+license	GPL-2.0-or-later
+size	211930
+installed-size	523646
+depends	librrd=1.10.2-r0 pkgconfig
+origin	rrdtool
+repo	main
+file	rrdtool-dev-1.10.2-r0.apk
+checksum	Q1K9f3pcWob0VFTR8ReX6ruUb/S3g=
+dep	librrd=1.10.2-r0	librrd
+dep	pkgconfig	pkgconf

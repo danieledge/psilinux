@@ -1,0 +1,17 @@
+name	yubico-pam
+version	2.27-r3
+description	Yubico Pluggable Authentication Module (PAM)
+url	https://developers.yubico.com/yubico-pam
+license	BSD-2-Clause
+size	26033
+installed-size	59924
+depends	so:libc.musl-armhf.so.1 so:libpam.so.0 so:libykclient.so.3 so:libykpers-1.so.1 so:libyubikey.so.0
+origin	yubico-pam
+repo	community
+file	yubico-pam-2.27-r3.apk
+checksum	Q1zRQsjIGIMYASv7DiJm61X3M5+Ks=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpam.so.0	linux-pam
+dep	so:libykclient.so.3	yubico-c-client
+dep	so:libykpers-1.so.1	ykpers
+dep	so:libyubikey.so.0	yubico-c

@@ -1,0 +1,15 @@
+name	rsyslog-relp
+version	8.2608.0-r0
+description	rsyslog imrelp and omrelp module
+url	https://www.rsyslog.com/
+license	Apache-2.0 AND GPL-3.0-or-later AND LGPL-3.0-or-later
+size	17546
+installed-size	44832
+depends	rsyslog=8.2608.0-r0 so:libc.musl-armhf.so.1 so:librelp.so.0
+origin	rsyslog
+repo	main
+file	rsyslog-relp-8.2608.0-r0.apk
+checksum	Q1/C1/Rc3k3cgdAhFVdnJKMKOPge0=
+dep	rsyslog=8.2608.0-r0	rsyslog
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:librelp.so.0	librelp

@@ -1,0 +1,12 @@
+name	signal-tlsd-openrc
+version	0.1.1-r0
+description	Standalone Rust implementation of Signal's domain fronting TLS proxy (OpenRC init scripts)
+url	https://github.com/kpcyrd/signal-tlsd
+license	MIT-0
+size	2020
+installed-size	621
+depends	
+origin	signal-tlsd
+repo	community
+file	signal-tlsd-openrc-0.1.1-r0.apk
+checksum	Q1LmHDRQpWFCDpMd1Hc8/N8AXLEiQ=

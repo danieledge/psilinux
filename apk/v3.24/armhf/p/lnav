@@ -1,0 +1,23 @@
+name	lnav
+version	0.14.0-r0
+description	Advanced log file navigator and viewer
+url	https://lnav.org
+license	BSD-2-Clause
+size	3805648
+installed-size	8176904
+depends	tzdata so:libarchive.so.13 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgcc_s.so.1 so:libpcre2-8.so.0 so:libsqlite3.so.0 so:libstdc++.so.6 so:libunistring.so.5 so:libz.so.1
+origin	lnav
+repo	community
+file	lnav-0.14.0-r0.apk
+checksum	Q1rp6RuNy/1hcvfBUBHz1EQrWnt5s=
+dep	tzdata	tzdata
+dep	so:libarchive.so.13	libarchive
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libunistring.so.5	libunistring
+dep	so:libz.so.1	zlib

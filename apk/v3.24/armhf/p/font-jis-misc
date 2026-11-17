@@ -1,0 +1,16 @@
+name	font-jis-misc
+version	1.0.4-r1
+description	X.org misc font
+url	https://xorg.freedesktop.org/
+license	custom
+size	540768
+installed-size	618841
+depends	encodings font-alias mkfontscale fontconfig
+origin	font-jis-misc
+repo	main
+file	font-jis-misc-1.0.4-r1.apk
+checksum	Q1Bmu0rne9Yh9IvhcxRFnJ9lZcB2g=
+dep	encodings	encodings
+dep	font-alias	font-alias
+dep	mkfontscale	mkfontscale
+dep	fontconfig	fontconfig

@@ -1,0 +1,14 @@
+name	boost-build
+version	1.91.0-r0
+description	Boost.Build makes it easy to build C++ projects, everywhere
+url	https://boost.org/build
+license	BSL-1.0
+size	414573
+installed-size	1690408
+depends	boost python3
+origin	boost-build
+repo	community
+file	boost-build-1.91.0-r0.apk
+checksum	Q1gE0FaTa7f0U8QNl1g/bdXWFPa9k=
+dep	boost	boost1.84
+dep	python3	python3

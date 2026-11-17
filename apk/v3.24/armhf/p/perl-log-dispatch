@@ -1,0 +1,20 @@
+name	perl-log-dispatch
+version	2.71-r1
+description	Dispatches messages to one or more outputs
+url	https://metacpan.org/release/Log-Dispatch/
+license	Artistic-2.0
+size	22230
+installed-size	80482
+depends	perl perl-module-runtime perl-dist-checkconflicts perl-devel-globaldestruction perl-namespace-autoclean perl-params-validationcompiler perl-try-tiny perl-specio
+origin	perl-log-dispatch
+repo	main
+file	perl-log-dispatch-2.71-r1.apk
+checksum	Q1woYLidUHV0SPmygOrTJyLWLBKio=
+dep	perl	perl
+dep	perl-module-runtime	perl-module-runtime
+dep	perl-dist-checkconflicts	perl-dist-checkconflicts
+dep	perl-devel-globaldestruction	perl-devel-globaldestruction
+dep	perl-namespace-autoclean	perl-namespace-autoclean
+dep	perl-params-validationcompiler	perl-params-validationcompiler
+dep	perl-try-tiny	perl-try-tiny
+dep	perl-specio	perl-specio

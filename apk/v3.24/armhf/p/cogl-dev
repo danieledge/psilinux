@@ -1,0 +1,30 @@
+name	cogl-dev
+version	1.22.8-r5
+description	An object oriented GL/GLES Abstraction/Utility Layer (development files)
+url	https://gitlab.gnome.org/Archive/cogl
+license	MIT
+size	448502
+installed-size	3061687
+depends	cogl=1.22.8-r5 pc:egl pc:gbm pc:gdk-pixbuf-2.0>=2.0 pc:gmodule-no-export-2.0 pc:gobject-2.0 pc:libdrm pc:pangocairo>=1.20 pc:wayland-client>=1.0.0 pc:wayland-egl>=1.0.0 pc:wayland-server>=1.1.90 pc:x11 pc:xcomposite>=0.4 pc:xdamage pc:xext pc:xfixes>=3 pc:xrandr>=1.2 pkgconfig
+origin	cogl
+repo	community
+file	cogl-dev-1.22.8-r5.apk
+checksum	Q1Jo4IQt1B5QBTJ5QXpxj4rlEYQF4=
+dep	cogl=1.22.8-r5	cogl
+dep	pc:egl	mesa-dev
+dep	pc:gbm	mesa-dev
+dep	pc:gdk-pixbuf-2.0>=2.0	gdk-pixbuf-dev
+dep	pc:gmodule-no-export-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pc:libdrm	libdrm-dev
+dep	pc:pangocairo>=1.20	pango-dev
+dep	pc:wayland-client>=1.0.0	wayland-dev
+dep	pc:wayland-egl>=1.0.0	wayland-dev
+dep	pc:wayland-server>=1.1.90	wayland-dev
+dep	pc:x11	libx11-dev
+dep	pc:xcomposite>=0.4	libxcomposite-dev
+dep	pc:xdamage	libxdamage-dev
+dep	pc:xext	libxext-dev
+dep	pc:xfixes>=3	libxfixes-dev
+dep	pc:xrandr>=1.2	libxrandr-dev
+dep	pkgconfig	pkgconf

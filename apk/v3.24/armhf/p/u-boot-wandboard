@@ -1,0 +1,13 @@
+name	u-boot-wandboard
+version	2026.04-r1
+description	u-boot for wandboard
+url	https://www.denx.de/wiki/U-Boot/
+license	GPL-2.0-or-later OFL-1.1 BSD-2-Clause BSD-3-Clause WITH eCos-exception-2.0 IBM-pibs ISC LGPL-2.0-only LGPL-2.1-only X11
+size	363195
+installed-size	694232
+depends	u-boot
+origin	u-boot
+repo	main
+file	u-boot-wandboard-2026.04-r1.apk
+checksum	Q1q0qf8w7Guihb8urcUfuzEymh8lM=
+dep	u-boot	u-boot

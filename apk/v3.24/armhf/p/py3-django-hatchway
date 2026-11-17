@@ -1,0 +1,15 @@
+name	py3-django-hatchway
+version	0.5.2-r5
+description	Django API framework inspired by FastAPI
+url	https://pypi.org/project/django-hatchway/
+license	BSD-3-Clause
+size	13389
+installed-size	32544
+depends	py3-django py3-pydantic python3~3.14
+origin	py3-django-hatchway
+repo	community
+file	py3-django-hatchway-0.5.2-r5.apk
+checksum	Q1Vk7+2j5v7ugIuXdsS9w4/L9C0MY=
+dep	py3-django	py3-django
+dep	py3-pydantic	py3-pydantic
+dep	python3~3.14	python3

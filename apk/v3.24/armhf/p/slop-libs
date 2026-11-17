@@ -1,0 +1,20 @@
+name	slop-libs
+version	7.7-r3
+description	Application that queries for a selection from the user and prints the region to stdout (libraries)
+url	https://github.com/naelstrof/slop
+license	MIT
+size	37341
+installed-size	87500
+depends	so:libGL.so.1 so:libGLEW.so.2.3 so:libX11.so.6 so:libXext.so.6 so:libXrender.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	slop
+repo	community
+file	slop-libs-7.7-r3.apk
+checksum	Q1qougF1hbaVhKPjmqmXbVQ6hwufw=
+dep	so:libGL.so.1	mesa-gl
+dep	so:libGLEW.so.2.3	glew
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXrender.so.1	libxrender
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

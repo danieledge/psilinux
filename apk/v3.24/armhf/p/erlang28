@@ -1,0 +1,17 @@
+name	erlang28
+version	28.5.0.8-r0
+description	General-purpose programming language and runtime environment, version 28
+url	https://www.erlang.org/
+license	Apache-2.0
+size	37738939
+installed-size	76633028
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libncursesw.so.6 so:libz.so.1
+origin	erlang28
+repo	community
+file	erlang28-28.5.0.8-r0.apk
+checksum	Q1Xn0tIIJaIaNJHvmxKnjCKh1P008=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libz.so.1	zlib

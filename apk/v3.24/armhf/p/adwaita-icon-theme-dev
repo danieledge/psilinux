@@ -1,0 +1,13 @@
+name	adwaita-icon-theme-dev
+version	50.0-r1
+description	Adwaita icon theme (development files)
+url	https://gitlab.gnome.org/GNOME/adwaita-icon-theme
+license	LGPL-3.0-or-later OR CC-BY-SA-3.0
+size	1693
+installed-size	110
+depends	pkgconfig
+origin	adwaita-icon-theme
+repo	community
+file	adwaita-icon-theme-dev-50.0-r1.apk
+checksum	Q1fPc/8fddfuJVtSFi+0I4DM6J0bY=
+dep	pkgconfig	pkgconf

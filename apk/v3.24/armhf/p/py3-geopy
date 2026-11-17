@@ -1,0 +1,14 @@
+name	py3-geopy
+version	2.4.1-r2
+description	Geocoding library
+url	https://geopy.readthedocs.io/
+license	MIT
+size	80763
+installed-size	386003
+depends	py3-geographiclib python3~3.14
+origin	py3-geopy
+repo	community
+file	py3-geopy-2.4.1-r2.apk
+checksum	Q1jNjAH0MyE58u5JRTKzUmLXemxQg=
+dep	py3-geographiclib	py3-geographiclib
+dep	python3~3.14	python3

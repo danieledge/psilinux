@@ -1,0 +1,12 @@
+name	fuse-openrc
+version	3.18.3-r0
+description	Reference implementation of the Linux FUSE (Filesystem in Userspace) interface (OpenRC init scripts)
+url	https://github.com/libfuse/libfuse
+license	GPL-2.0-only AND LGPL-2.1-only
+size	1959
+installed-size	757
+depends	
+origin	fuse3
+repo	main
+file	fuse-openrc-3.18.3-r0.apk
+checksum	Q120WHe+XXlnuZhwufjIZXr73ebXA=

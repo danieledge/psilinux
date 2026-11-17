@@ -1,0 +1,16 @@
+name	xmlstarlet
+version	1.6.1-r2
+description	A set of tools to transform, query, validate, and edit XML documents
+url	https://xmlstar.sourceforge.net/
+license	MIT
+size	32148
+installed-size	71004
+depends	so:libc.musl-armhf.so.1 so:libexslt.so.0 so:libxml2.so.2 so:libxslt.so.1
+origin	xmlstarlet
+repo	community
+file	xmlstarlet-1.6.1-r2.apk
+checksum	Q1B/JHCWGYVpgtpTsAgvrsxyFWrBc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexslt.so.0	libxslt
+dep	so:libxml2.so.2	libxml2
+dep	so:libxslt.so.1	libxslt

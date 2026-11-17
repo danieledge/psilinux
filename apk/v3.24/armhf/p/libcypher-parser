@@ -1,0 +1,13 @@
+name	libcypher-parser
+version	0.6.2-r1
+description	Parsing library for the Cypher query language
+url	https://github.com/cleishm/libcypher-parser
+license	Apache-2.0
+size	103309
+installed-size	317212
+depends	so:libc.musl-armhf.so.1
+origin	libcypher-parser
+repo	community
+file	libcypher-parser-0.6.2-r1.apk
+checksum	Q136iRmbbpYnOIvgBLn1ehEpJCTpA=
+dep	so:libc.musl-armhf.so.1	musl

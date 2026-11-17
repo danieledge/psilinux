@@ -1,0 +1,16 @@
+name	syslog-ng-stardate
+version	4.11.0-r0
+description	Next generation logging daemon (stardate module)
+url	https://www.syslog-ng.com/products/open-source-log-management/
+license	GPL-2.0-or-later
+size	5531
+installed-size	9440
+depends	so:libc.musl-armhf.so.1 so:libevtlog-4.11.so.0 so:libglib-2.0.so.0 so:libsyslog-ng-4.11.so.0
+origin	syslog-ng
+repo	main
+file	syslog-ng-stardate-4.11.0-r0.apk
+checksum	Q1NPcyLACSiq+G7S5nFXJiidTmyq8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevtlog-4.11.so.0	syslog-ng
+dep	so:libglib-2.0.so.0	glib
+dep	so:libsyslog-ng-4.11.so.0	syslog-ng

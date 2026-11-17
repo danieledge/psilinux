@@ -1,0 +1,15 @@
+name	libnymphcast-dev
+version	0.2.1-r4
+description	NymphCast Client Library (development files)
+url	https://github.com/MayaPosch/libnymphcast
+license	BSD-3-Clause
+size	2840
+installed-size	3672
+depends	nymphrpc-dev poco-dev libnymphcast=0.2.1-r4
+origin	libnymphcast
+repo	community
+file	libnymphcast-dev-0.2.1-r4.apk
+checksum	Q1zq3Xn/85IUMu6QLoGAnDJ8c2aMk=
+dep	nymphrpc-dev	nymphrpc-dev
+dep	poco-dev	poco-dev
+dep	libnymphcast=0.2.1-r4	libnymphcast

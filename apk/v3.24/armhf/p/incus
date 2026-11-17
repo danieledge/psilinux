@@ -1,0 +1,36 @@
+name	incus
+version	7.0.1-r2
+description	Powerful system container and virtual machine manager
+url	https://github.com/lxc/incus
+license	Apache-2.0
+size	22159806
+installed-size	65142868
+depends	acl attr ca-certificates dbus dnsmasq lxc>=6.0.0 iproute2 netcat-openbsd nftables rsync squashfs-tools shadow-subids tar xz /bin/sh so:libacl.so.1 so:libc.musl-armhf.so.1 so:libcap.so.2 so:libcowsql.so.0 so:libgcc_s.so.1 so:libintl.so.8 so:liblxc.so.1 so:libsqlite3.so.0 so:libudev.so.1
+origin	incus
+repo	community
+file	incus-7.0.1-r2.apk
+checksum	Q1GO0HE27C3gFD0OqWlV2s7AgnZdg=
+dep	acl	acl
+dep	attr	attr
+dep	ca-certificates	ca-certificates
+dep	dbus	dbus
+dep	dnsmasq	dnsmasq
+dep	lxc>=6.0.0	lxc
+dep	iproute2	iproute2
+dep	netcat-openbsd	netcat-openbsd
+dep	nftables	nftables
+dep	rsync	rsync
+dep	squashfs-tools	squashfs-tools
+dep	shadow-subids	shadow-subids
+dep	tar	tar
+dep	xz	xz
+dep	/bin/sh	busybox-binsh
+dep	so:libacl.so.1	acl-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libcowsql.so.0	cowsql
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libintl.so.8	libintl
+dep	so:liblxc.so.1	lxc-libs
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libudev.so.1	eudev-libs

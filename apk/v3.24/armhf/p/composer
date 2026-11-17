@@ -1,0 +1,20 @@
+name	composer
+version	2.10.3-r0
+description	Dependency manager for PHP
+url	https://getcomposer.org/
+license	MIT
+size	828357
+installed-size	3642191
+depends	php85 php85-phar php85-curl php85-iconv php85-mbstring php85-openssl php85-zip p7zip
+origin	composer
+repo	community
+file	composer-2.10.3-r0.apk
+checksum	Q1nOEwiLIx1ZIGGn5+HDEpAE2tK9k=
+dep	php85	php85
+dep	php85-phar	php85-phar
+dep	php85-curl	php85-curl
+dep	php85-iconv	php85-iconv
+dep	php85-mbstring	php85-mbstring
+dep	php85-openssl	php85-openssl
+dep	php85-zip	php85-zip
+dep	p7zip	7zip

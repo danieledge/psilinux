@@ -1,0 +1,24 @@
+name	g4music
+version	4.6-r0
+description	Fast fluent lightweight music player written in GTK4, with a beautiful and adaptive user interface
+url	https://gitlab.gnome.org/neithern/g4music
+license	GPL-3.0-only
+size	230529
+installed-size	584128
+depends	so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgsttag-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libpango-1.0.so.0
+origin	g4music
+repo	community
+file	g4music-4.6-r0.apk
+checksum	Q12tuvlYa6mehX4pCkQ4IDAuoTXn4=
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgsttag-1.0.so.0	gst-plugins-base
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango

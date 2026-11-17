@@ -1,0 +1,16 @@
+name	xmppc
+version	0.1.2-r3
+description	Command Line Interface Tool for XMPP
+url	https://codeberg.org/Anoxinon_e.V./xmppc
+license	GPL-3.0-or-later
+size	14629
+installed-size	30172
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgpgme.so.45 so:libstrophe.so.0
+origin	xmppc
+repo	community
+file	xmppc-0.1.2-r3.apk
+checksum	Q1w+UqqGZg1M+wq7h52oGHCz1ATg0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgpgme.so.45	gpgme
+dep	so:libstrophe.so.0	libstrophe

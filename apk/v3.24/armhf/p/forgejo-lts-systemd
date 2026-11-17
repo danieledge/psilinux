@@ -1,0 +1,12 @@
+name	forgejo-lts-systemd
+version	11.0.15-r2
+description	Self-hosted Git service written in Go (Long-term stable) (systemd files)
+url	https://forgejo.org
+license	MIT
+size	2857
+installed-size	2500
+depends	
+origin	forgejo-lts
+repo	community
+file	forgejo-lts-systemd-11.0.15-r2.apk
+checksum	Q1LWJUY3f6AIze60MEan+iMY5rQ40=

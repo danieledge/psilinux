@@ -1,0 +1,13 @@
+name	openrc-static
+version	0.63.2-r0
+description	OpenRC manages the services, startup and shutdown of a host (static library)
+url	https://github.com/OpenRC/openrc
+license	BSD-2-Clause
+size	348845
+installed-size	413356
+depends	openrc-dev
+origin	openrc
+repo	main
+file	openrc-static-0.63.2-r0.apk
+checksum	Q113MWEQoqNwCJ1mqaMw4CZcXxwDE=
+dep	openrc-dev	openrc-dev

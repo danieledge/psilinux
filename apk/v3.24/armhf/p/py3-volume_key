@@ -1,0 +1,18 @@
+name	py3-volume_key
+version	0.3.12-r9
+description	Library for manipulating storage volume encryption keys (for python3)
+url	https://pagure.io/volume_key
+license	GPL-2.0-or-later
+size	20043
+installed-size	59151
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libnss3.so so:libsmime3.so so:libvolume_key.so.1
+origin	volume_key
+repo	community
+file	py3-volume_key-0.3.12-r9.apk
+checksum	Q115qZKEKqwfc0NQjZciJukXOL+Is=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libnss3.so	nss
+dep	so:libsmime3.so	nss
+dep	so:libvolume_key.so.1	volume_key

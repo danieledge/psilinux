@@ -1,0 +1,20 @@
+name	libxpresent-dev
+version	1.0.2-r0
+description	A Xlib-compatible API for the Present extension (development files)
+url	https://xorg.freedesktop.org/
+license	MIT
+size	7241
+installed-size	12841
+depends	libxpresent=1.0.2-r0 pc:presentproto>=1.0 pc:x11 pc:xext pc:xfixes pc:xproto pc:xrandr pkgconfig
+origin	libxpresent
+repo	community
+file	libxpresent-dev-1.0.2-r0.apk
+checksum	Q1u2iLHJVksHTnp5d05Y4uOq5sQi0=
+dep	libxpresent=1.0.2-r0	libxpresent
+dep	pc:presentproto>=1.0	xorgproto
+dep	pc:x11	libx11-dev
+dep	pc:xext	libxext-dev
+dep	pc:xfixes	libxfixes-dev
+dep	pc:xproto	xorgproto
+dep	pc:xrandr	libxrandr-dev
+dep	pkgconfig	pkgconf

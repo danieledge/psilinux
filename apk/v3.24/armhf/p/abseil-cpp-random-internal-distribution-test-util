@@ -1,0 +1,18 @@
+name	abseil-cpp-random-internal-distribution-test-util
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-random-internal-distribution-test-util
+url	https://abseil.io/
+license	Apache-2.0
+size	8657
+installed-size	13644
+depends	so:libabsl_raw_logging_internal.so.2508.0.0 so:libabsl_str_format_internal.so.2508.0.0 so:libabsl_strings.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-random-internal-distribution-test-util-20250814.1-r0.apk
+checksum	Q1Ge10O/3OGDxQxOeWIEyD/hrcyrg=
+dep	so:libabsl_raw_logging_internal.so.2508.0.0	abseil-cpp-raw-logging-internal
+dep	so:libabsl_str_format_internal.so.2508.0.0	abseil-cpp-str-format-internal
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

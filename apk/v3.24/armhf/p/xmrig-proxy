@@ -1,0 +1,16 @@
+name	xmrig-proxy
+version	6.26.0-r0
+description	XMRig Proxy is a high performance Monero (XMR) Stratum protocol proxy
+url	https://xmrig.com/proxy
+license	GPL-3.0-or-later
+size	701188
+installed-size	1717740
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3 so:libuv.so.1
+origin	xmrig-proxy
+repo	community
+file	xmrig-proxy-6.26.0-r0.apk
+checksum	Q1DTLkPxuus9gHXczYbfN81eBAmqM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3
+dep	so:libuv.so.1	libuv

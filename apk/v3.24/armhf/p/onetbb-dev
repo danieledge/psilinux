@@ -1,0 +1,15 @@
+name	onetbb-dev
+version	2022.3.0-r1
+description	oneAPI Threading Building Blocks (development files)
+url	https://github.com/oneapi-src/oneTBB
+license	GPL-2.0-only
+size	265048
+installed-size	1484259
+depends	linux-headers onetbb=2022.3.0-r1 pkgconfig
+origin	onetbb
+repo	community
+file	onetbb-dev-2022.3.0-r1.apk
+checksum	Q1P8J6Wx3+LOw9/JSGlVOgWgLCzxk=
+dep	linux-headers	linux-headers
+dep	onetbb=2022.3.0-r1	onetbb
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	zabbix
+version	7.4.12-r2
+description	Enterprise-class open source distributed monitoring
+url	https://www.zabbix.com/
+license	AGPL-3.0-only
+size	12155
+installed-size	60257
+depends	fping /bin/sh
+origin	zabbix
+repo	community
+file	zabbix-7.4.12-r2.apk
+checksum	Q1hksc6PY4Jps1jAr16JR8MGZ81kE=
+dep	fping	fping
+dep	/bin/sh	busybox-binsh

@@ -1,0 +1,18 @@
+name	exiv2-dev
+version	0.28.9-r0
+description	Exif and Iptc metadata manipulation library and tools. (development files)
+url	https://exiv2.org/
+license	GPL-2.0-or-later
+size	87836
+installed-size	396387
+depends	exiv2-libs=0.28.9-r0 pc:INIReader pc:expat pc:libbrotlidec pc:zlib pkgconfig
+origin	exiv2
+repo	community
+file	exiv2-dev-0.28.9-r0.apk
+checksum	Q1L0YYxg8wNeOksUn/ImHZoWtmQoo=
+dep	exiv2-libs=0.28.9-r0	exiv2-libs
+dep	pc:INIReader	inih-inireader-dev
+dep	pc:expat	expat-dev
+dep	pc:libbrotlidec	brotli-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

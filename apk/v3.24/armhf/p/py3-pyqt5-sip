@@ -1,0 +1,14 @@
+name	py3-pyqt5-sip
+version	12.18.0-r1
+description	The sip module support for PyQt5
+url	https://riverbankcomputing.com/software/sip
+license	custom:sip
+size	63652
+installed-size	141915
+depends	python3~3.14 so:libc.musl-armhf.so.1
+origin	py3-pyqt5-sip
+repo	community
+file	py3-pyqt5-sip-12.18.0-r1.apk
+checksum	Q1gkCdQisM5COXUKK3zfRCdCY7XMk=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	nickle
+version	2.108-r0
+description	Desk calculator language with C-like syntax
+url	https://nickle.org/
+license	MIT
+size	322691
+installed-size	866799
+depends	so:libc.musl-armhf.so.1 so:libreadline.so.8
+origin	nickle
+repo	community
+file	nickle-2.108-r0.apk
+checksum	Q1grz+HWM3nfU+4Cc2S4OOwiUycOQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libreadline.so.8	readline

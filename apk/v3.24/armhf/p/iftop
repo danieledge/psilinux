@@ -1,0 +1,15 @@
+name	iftop
+version	1.0_pre4-r0
+description	A tool to display bandwidth usage on an interface
+url	https://www.ex-parrot.com/~pdw/iftop/
+license	GPL-2.0-or-later
+size	26061
+installed-size	50676
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6 so:libpcap.so.1
+origin	iftop
+repo	main
+file	iftop-1.0_pre4-r0.apk
+checksum	Q1A+FfirGyKbZtDI3bHKmpF9b7ZnU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpcap.so.1	libpcap

@@ -1,0 +1,32 @@
+name	xfce4-screenshooter
+version	1.11.3-r0
+description	Screenshot application for Xfce4
+url	https://goodies.xfce.org/projects/applications/xfce4-screenshooter
+license	GPL-2.0-or-later
+size	103211
+installed-size	241353
+depends	so:libX11.so.6 so:libXext.so.6 so:libXfixes.so.3 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libexo-2.so.0 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgtk-layer-shell.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libwayland-client.so.0 so:libxfce4panel-2.0.so.4 so:libxfce4ui-2.so.0 so:libxfce4util.so.7 so:libxfconf-0.so.3
+origin	xfce4-screenshooter
+repo	community
+file	xfce4-screenshooter-1.11.3-r0.apk
+checksum	Q1XumlLGUetQSA4b2otBsp8nsRfZU=
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libexo-2.so.0	exo-libs
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtk-layer-shell.so.0	gtk-layer-shell
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libxfce4panel-2.0.so.4	libxfce4panel
+dep	so:libxfce4ui-2.so.0	libxfce4ui
+dep	so:libxfce4util.so.7	libxfce4util
+dep	so:libxfconf-0.so.3	xfconf

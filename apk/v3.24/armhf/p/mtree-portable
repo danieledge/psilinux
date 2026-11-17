@@ -1,0 +1,15 @@
+name	mtree-portable
+version	0_git20220519-r1
+description	Utility for mapping and checking directory hierarchies
+url	https://github.com/jashank/mtree-portable
+license	BSD-3-Clause
+size	25854
+installed-size	51092
+depends	so:libc.musl-armhf.so.1 so:libmd.so.0 so:libnbcompat.so.0
+origin	mtree-portable
+repo	community
+file	mtree-portable-0_git20220519-r1.apk
+checksum	Q1+U1oWe5lQ7CuH2+dmkKlvYQR8+U=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmd.so.0	libmd
+dep	so:libnbcompat.so.0	libnbcompat

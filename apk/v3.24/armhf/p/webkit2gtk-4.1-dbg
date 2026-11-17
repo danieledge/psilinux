@@ -1,0 +1,12 @@
+name	webkit2gtk-4.1-dbg
+version	2.48.7-r0
+description	Portable web rendering engine WebKit for GTK+ - GTK+3 libsoup3 version (debug symbols)
+url	https://webkitgtk.org/
+license	LGPL-2.0-or-later AND BSD-2-Clause
+size	134013192
+installed-size	455071824
+depends	!webkit2gtk-4.1<2.48.7-r0 !webkit2gtk-4.1>2.48.7-r0
+origin	webkit2gtk-4.1
+repo	community
+file	webkit2gtk-4.1-dbg-2.48.7-r0.apk
+checksum	Q1jdNDabXonISwZkQuYTQRnQPdYQU=

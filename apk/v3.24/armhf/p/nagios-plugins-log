@@ -1,0 +1,14 @@
+name	nagios-plugins-log
+version	2.5-r0
+description	Nagios plugin check_log
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	4479
+installed-size	8176
+depends	nagios-plugins grep
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-log-2.5-r0.apk
+checksum	Q13XE6Qy36II2hVtDoUjxP7YR4SGk=
+dep	nagios-plugins	nagios-plugins
+dep	grep	grep

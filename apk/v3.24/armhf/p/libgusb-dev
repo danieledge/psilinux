@@ -1,0 +1,18 @@
+name	libgusb-dev
+version	0.4.9-r1
+description	GLib wrapper around libusb (development files)
+url	https://github.com/hughsie/libgusb
+license	LGPL-2.1-or-later
+size	26098
+installed-size	211293
+depends	libgusb=0.4.9-r1 pc:gio-2.0>=2.44.0 pc:gobject-2.0 pc:json-glib-1.0>=1.1.1 pc:libusb-1.0>=1.0.9 pkgconfig
+origin	libgusb
+repo	community
+file	libgusb-dev-0.4.9-r1.apk
+checksum	Q1qAfgzNcom6qtVqNOFq5po4EXcZ4=
+dep	libgusb=0.4.9-r1	libgusb
+dep	pc:gio-2.0>=2.44.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pc:json-glib-1.0>=1.1.1	json-glib-dev
+dep	pc:libusb-1.0>=1.0.9	libusb-dev
+dep	pkgconfig	pkgconf

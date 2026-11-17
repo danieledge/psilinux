@@ -1,0 +1,15 @@
+name	postfix-stone
+version	3.11.7-r0
+description	Postfix simulation and testing tools
+url	https://www.postfix.org/
+license	IPL-1.0 EPL-2.0
+size	28804
+installed-size	80312
+depends	so:libc.musl-armhf.so.1 so:libpostfix-global.so so:libpostfix-util.so
+origin	postfix
+repo	main
+file	postfix-stone-3.11.7-r0.apk
+checksum	Q1syP5UzIjOMAXQNEe+OfC/insa/A=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpostfix-global.so	postfix
+dep	so:libpostfix-util.so	postfix

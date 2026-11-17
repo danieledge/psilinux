@@ -1,0 +1,16 @@
+name	bzrtp
+version	5.3.38-r0
+description	BZRTP is an opensource implementation of ZRTP keys exchange protocol
+url	https://gitlab.linphone.org/BC/public/bzrtp
+license	GPL-3.0-only
+size	43377
+installed-size	86356
+depends	so:libbctoolbox.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libsqlite3.so.0
+origin	bzrtp
+repo	community
+file	bzrtp-5.3.38-r0.apk
+checksum	Q1BdrZOI6nJJVAppq0/zsn4S4i1K4=
+dep	so:libbctoolbox.so.1	bctoolbox
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsqlite3.so.0	sqlite-libs

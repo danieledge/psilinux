@@ -1,0 +1,16 @@
+name	uwsgi-xslt
+version	2.0.31-r2
+description	uWSGI plugin xslt
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	6896
+installed-size	13944
+depends	uwsgi so:libc.musl-armhf.so.1 so:libxml2.so.2 so:libxslt.so.1
+origin	uwsgi
+repo	main
+file	uwsgi-xslt-2.0.31-r2.apk
+checksum	Q1tO16rrSka/Wg/arX8kjp2uhOGqs=
+dep	uwsgi	uwsgi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxml2.so.2	libxml2
+dep	so:libxslt.so.1	libxslt

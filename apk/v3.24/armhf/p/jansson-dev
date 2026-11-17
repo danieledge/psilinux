@@ -1,0 +1,14 @@
+name	jansson-dev
+version	2.15.0-r0
+description	lightweight JSON library (development files)
+url	http://www.digip.org/jansson/
+license	MIT
+size	6037
+installed-size	18401
+depends	jansson=2.15.0-r0 pkgconfig
+origin	jansson
+repo	main
+file	jansson-dev-2.15.0-r0.apk
+checksum	Q1eOjMPurgGfLjQAEX34J5rRwdZB0=
+dep	jansson=2.15.0-r0	jansson
+dep	pkgconfig	pkgconf

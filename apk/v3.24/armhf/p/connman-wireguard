@@ -1,0 +1,15 @@
+name	connman-wireguard
+version	2.0-r0
+description	WireGuard VPN plugin for ConnMan
+url	https://git.kernel.org/pub/scm/network/connman/connman.git
+license	GPL-2.0-only
+size	13401
+installed-size	26236
+depends	connman=2.0-r0 so:libc.musl-armhf.so.1 so:libmnl.so.0
+origin	connman
+repo	community
+file	connman-wireguard-2.0-r0.apk
+checksum	Q1diovxGEbzzeJ++6l7O6A9y0wyNc=
+dep	connman=2.0-r0	connman
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmnl.so.0	libmnl

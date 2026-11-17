@@ -1,0 +1,13 @@
+name	snort-dev
+version	3.9.2.0-r0
+description	Open source network intrusion prevention and detection system (development files)
+url	https://www.snort.org/
+license	GPL-2.0-only
+size	220039
+installed-size	1008071
+depends	pkgconfig
+origin	snort
+repo	main
+file	snort-dev-3.9.2.0-r0.apk
+checksum	Q1ztoM/8Q+D5jG69TvpBMNGte0j38=
+dep	pkgconfig	pkgconf

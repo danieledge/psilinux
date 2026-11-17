@@ -1,0 +1,19 @@
+name	vde2
+version	2.3.3-r7
+description	VDE: Virtual Distributed Ethernet. User mode networking for QEMU, UML, etc.
+url	https://github.com/virtualsquare/vde-2
+license	GPL
+size	132120
+installed-size	315935
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libpcap.so.1 so:libvdehist.so.0 so:libvdemgmt.so.0 so:libvdeplug.so.3 so:libwolfssl.so.46
+origin	vde2
+repo	community
+file	vde2-2.3.3-r7.apk
+checksum	Q1H/qa/51NSRfQdoPWwvoeVRewGMs=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcap.so.1	libpcap
+dep	so:libvdehist.so.0	vde2-libs
+dep	so:libvdemgmt.so.0	vde2-libs
+dep	so:libvdeplug.so.3	vde2-libs
+dep	so:libwolfssl.so.46	wolfssl

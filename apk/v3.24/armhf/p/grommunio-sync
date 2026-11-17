@@ -1,0 +1,29 @@
+name	grommunio-sync
+version	2.4-r0
+description	Exchange ActiveSync interface for grommunio
+url	https://grommunio.com/
+license	AGPL-3.0-only
+size	309715
+installed-size	1363997
+depends	grommunio-gromox grommunio-mapi-header-php php84 php84-curl php84-gettext php84-iconv php84-intl php84-json php84-mbstring php84-openssl php84-pecl-redis php84-pdo_sqlite php84-posix php84-session php84-simplexml php84-soap /bin/sh
+origin	grommunio-sync
+repo	community
+file	grommunio-sync-2.4-r0.apk
+checksum	Q14EUd3AAgpyXfIn8I6ZDciLD/98U=
+dep	grommunio-gromox	grommunio-gromox
+dep	grommunio-mapi-header-php	grommunio-mapi-header-php
+dep	php84	php84
+dep	php84-curl	php84-curl
+dep	php84-gettext	php84-gettext
+dep	php84-iconv	php84-iconv
+dep	php84-intl	php84-intl
+dep	php84-json	php84-common
+dep	php84-mbstring	php84-mbstring
+dep	php84-openssl	php84-openssl
+dep	php84-pecl-redis	php84-pecl-redis
+dep	php84-pdo_sqlite	php84-pdo_sqlite
+dep	php84-posix	php84-posix
+dep	php84-session	php84-session
+dep	php84-simplexml	php84-simplexml
+dep	php84-soap	php84-soap
+dep	/bin/sh	busybox-binsh

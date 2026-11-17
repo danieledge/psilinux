@@ -1,0 +1,13 @@
+name	git-review-pyc
+version	2.5.0-r2
+description	Precompiled Python bytecode for git-review
+url	https://opendev.org/opendev/git-review
+license	Apache-2.0
+size	74845
+installed-size	187817
+depends	python3~3.14
+origin	git-review
+repo	community
+file	git-review-pyc-2.5.0-r2.apk
+checksum	Q1rxUsCCbpnGsb2/fHuJ58sUCdq8s=
+dep	python3~3.14	python3

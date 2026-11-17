@@ -1,0 +1,16 @@
+name	dcc-dccm
+version	2.3.169-r3
+description	Distributed Checksum Clearinghouses or DCC spam filter (dccm server)
+url	https://www.dcc-servers.net/dcc/
+license	custom
+size	328285
+installed-size	787933
+depends	dcc so:libc.musl-armhf.so.1 so:libmd.so.0 so:libmilter.so.1.0.2
+origin	dcc
+repo	community
+file	dcc-dccm-2.3.169-r3.apk
+checksum	Q1i7YBTjtcqGCcc6fQVYNouj/B4uU=
+dep	dcc	dcc
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmd.so.0	libmd
+dep	so:libmilter.so.1.0.2	libmilter

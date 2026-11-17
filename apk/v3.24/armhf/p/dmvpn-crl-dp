@@ -1,0 +1,13 @@
+name	dmvpn-crl-dp
+version	1.4.3-r1
+description	Dynamic Multipoint VPN
+url	https://gitlab.alpinelinux.org/alpine/dmvpn-tools
+license	MIT
+size	2107
+installed-size	537
+depends	lighttpd
+origin	dmvpn
+repo	main
+file	dmvpn-crl-dp-1.4.3-r1.apk
+checksum	Q1SNFQVQNXA10HChiQ/UK8c/CVaMY=
+dep	lighttpd	lighttpd

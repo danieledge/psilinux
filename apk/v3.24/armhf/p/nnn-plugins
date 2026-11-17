@@ -1,0 +1,13 @@
+name	nnn-plugins
+version	5.2-r0
+description	nnn official plugins
+url	https://github.com/jarun/nnn
+license	BSD-2-Clause
+size	57750
+installed-size	175965
+depends	/bin/sh
+origin	nnn
+repo	community
+file	nnn-plugins-5.2-r0.apk
+checksum	Q1XBe3JdRvEe8Eg8WUTIEajkKMgmw=
+dep	/bin/sh	busybox-binsh

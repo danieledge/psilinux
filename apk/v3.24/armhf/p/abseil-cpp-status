@@ -1,0 +1,20 @@
+name	abseil-cpp-status
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-status
+url	https://abseil.io/
+license	Apache-2.0
+size	13370
+installed-size	30088
+depends	so:libabsl_cord.so.2508.0.0 so:libabsl_cordz_info.so.2508.0.0 so:libabsl_leak_check.so.2508.0.0 so:libabsl_strerror.so.2508.0.0 so:libabsl_strings.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-status-20250814.1-r0.apk
+checksum	Q1rkQxHjhB7t1DHCaa0kzcwfkv9DE=
+dep	so:libabsl_cord.so.2508.0.0	abseil-cpp-cord
+dep	so:libabsl_cordz_info.so.2508.0.0	abseil-cpp-cordz-info
+dep	so:libabsl_leak_check.so.2508.0.0	abseil-cpp-leak-check
+dep	so:libabsl_strerror.so.2508.0.0	abseil-cpp-strerror
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

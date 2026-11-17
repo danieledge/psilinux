@@ -1,0 +1,27 @@
+name	postgresql17
+version	17.12-r0
+description	A sophisticated object-relational DBMS, version 17
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	6065945
+installed-size	14808081
+depends	postgresql17-client postgresql-common tzdata /bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libicui18n.so.78 so:libicuuc.so.78 so:libldap.so.2 so:liblz4.so.1 so:libpq.so.5 so:libssl.so.3 so:libxml2.so.2 so:libz.so.1 so:libzstd.so.1
+origin	postgresql17
+repo	main
+file	postgresql17-17.12-r0.apk
+checksum	Q1u1+4qf5TcGyex+nUR7Z7ooh76wM=
+dep	postgresql17-client	postgresql17-client
+dep	postgresql-common	postgresql-common
+dep	tzdata	tzdata
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libldap.so.2	libldap
+dep	so:liblz4.so.1	lz4-libs
+dep	so:libpq.so.5	libpq
+dep	so:libssl.so.3	libssl3
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

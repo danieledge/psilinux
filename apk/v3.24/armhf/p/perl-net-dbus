@@ -1,0 +1,16 @@
+name	perl-net-dbus
+version	1.2.0-r1
+description	Extension for the DBus bindings
+url	https://metacpan.org/release/Net-DBus/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	93701
+installed-size	404344
+depends	perl perl-xml-twig so:libc.musl-armhf.so.1 so:libdbus-1.so.3
+origin	perl-net-dbus
+repo	community
+file	perl-net-dbus-1.2.0-r1.apk
+checksum	Q19HrZyh6sb35JTDjraIxT7hnhGn8=
+dep	perl	perl
+dep	perl-xml-twig	perl-xml-twig
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs

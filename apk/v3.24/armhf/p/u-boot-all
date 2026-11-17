@@ -1,0 +1,20 @@
+name	u-boot-all
+version	2026.04-r1
+description	u-boot for all boards (meta package)
+url	https://www.denx.de/wiki/U-Boot/
+license	GPL-2.0-or-later OFL-1.1 BSD-2-Clause BSD-3-Clause WITH eCos-exception-2.0 IBM-pibs ISC LGPL-2.0-only LGPL-2.1-only X11
+size	1399
+installed-size	0
+depends	u-boot-beagleboard u-boot-linksprite u-boot-cuboxi u-boot-raspberrypi u-boot-wandboard u-boot-qemu u-boot-odroid u-boot-sunxi
+origin	u-boot
+repo	main
+file	u-boot-all-2026.04-r1.apk
+checksum	Q17pJzrwwGXoShXXN02hp7GSf6fwI=
+dep	u-boot-beagleboard	u-boot-beagleboard
+dep	u-boot-linksprite	u-boot-linksprite
+dep	u-boot-cuboxi	u-boot-cuboxi
+dep	u-boot-raspberrypi	u-boot-raspberrypi
+dep	u-boot-wandboard	u-boot-wandboard
+dep	u-boot-qemu	u-boot-qemu
+dep	u-boot-odroid	u-boot-odroid
+dep	u-boot-sunxi	u-boot-sunxi

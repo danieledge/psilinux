@@ -1,0 +1,15 @@
+name	frog-dev
+version	0.34-r2
+description	Integration of natural language processing models for Dutch (development files)
+url	https://github.com/LanguageMachines/frog
+license	GPL-3.0-only
+size	11829297
+installed-size	51682808
+depends	frog=0.34-r2 pc:libxml-2.0 pkgconfig
+origin	frog
+repo	community
+file	frog-dev-0.34-r2.apk
+checksum	Q1Hifk044pR77U6EHFRrY4UdE2VY8=
+dep	frog=0.34-r2	frog
+dep	pc:libxml-2.0	libxml2-dev
+dep	pkgconfig	pkgconf

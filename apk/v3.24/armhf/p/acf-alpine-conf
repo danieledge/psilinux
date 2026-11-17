@@ -1,0 +1,15 @@
+name	acf-alpine-conf
+version	0.9.1-r0
+description	Web-based system administration interface for alpine-conf
+url	https://gitlab.alpinelinux.org/acf/acf-alpine-conf
+license	GPL-2.0-only
+size	7167
+installed-size	18216
+depends	acf-core lua-posix openssl
+origin	acf-alpine-conf
+repo	main
+file	acf-alpine-conf-0.9.1-r0.apk
+checksum	Q113azvad/Iy8ABSMmGgdGy8z6xEI=
+dep	acf-core	acf-core
+dep	lua-posix	lua-posix
+dep	openssl	openssl

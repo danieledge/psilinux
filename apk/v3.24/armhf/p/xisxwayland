@@ -1,0 +1,15 @@
+name	xisxwayland
+version	2-r2
+description	Detect if X is XWayland
+url	https://gitlab.freedesktop.org/xorg/app/xisxwayland
+license	MIT
+size	3993
+installed-size	5292
+depends	so:libX11.so.6 so:libXrandr.so.2 so:libc.musl-armhf.so.1
+origin	xisxwayland
+repo	community
+file	xisxwayland-2-r2.apk
+checksum	Q1PyvB3Q5039lGwjTGkoZLg7oTVoU=
+dep	so:libX11.so.6	libx11
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libc.musl-armhf.so.1	musl

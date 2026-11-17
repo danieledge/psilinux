@@ -1,0 +1,22 @@
+name	vorbis-tools
+version	1.4.3-r2
+description	Extra tools for Ogg-Vorbis
+url	https://www.xiph.org/vorbis/
+license	GPL-2.0-only
+size	202004
+installed-size	411160
+depends	so:libFLAC.so.12 so:libao.so.4 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libogg.so.0 so:libopusfile.so.0 so:libspeex.so.1 so:libvorbis.so.0 so:libvorbisenc.so.2 so:libvorbisfile.so.3
+origin	vorbis-tools
+repo	community
+file	vorbis-tools-1.4.3-r2.apk
+checksum	Q1g3p+rTg8yWNASOa/feMswexXXgY=
+dep	so:libFLAC.so.12	libflac
+dep	so:libao.so.4	libao
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libogg.so.0	libogg
+dep	so:libopusfile.so.0	opusfile
+dep	so:libspeex.so.1	speex
+dep	so:libvorbis.so.0	libvorbis
+dep	so:libvorbisenc.so.2	libvorbis
+dep	so:libvorbisfile.so.3	libvorbis

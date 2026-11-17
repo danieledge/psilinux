@@ -1,0 +1,15 @@
+name	xgamma
+version	1.0.8-r0
+description	Alter a monitor's gamma correction through the X server
+url	https://xorg.freedesktop.org/
+license	custom
+size	5209
+installed-size	9388
+depends	so:libX11.so.6 so:libXxf86vm.so.1 so:libc.musl-armhf.so.1
+origin	xgamma
+repo	community
+file	xgamma-1.0.8-r0.apk
+checksum	Q1TTHg5L1FQemAhYzOf9+xOqhuTM0=
+dep	so:libX11.so.6	libx11
+dep	so:libXxf86vm.so.1	libxxf86vm
+dep	so:libc.musl-armhf.so.1	musl

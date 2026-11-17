@@ -1,0 +1,14 @@
+name	cppzmq
+version	4.10.0-r0
+description	High-level C++ binding for ZeroMQ
+url	https://github.com/zeromq/cppzmq
+license	MIT
+size	26828
+installed-size	113577
+depends	pc:libzmq pkgconfig
+origin	cppzmq
+repo	community
+file	cppzmq-4.10.0-r0.apk
+checksum	Q12sW6YWwOMDOFFW2SjO5Oh/twkGY=
+dep	pc:libzmq	zeromq-dev
+dep	pkgconfig	pkgconf

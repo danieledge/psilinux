@@ -1,0 +1,17 @@
+name	libdbi-drivers
+version	0.9.0-r4
+description	Database-specific drivers for the libdbi framework
+url	https://libdbi-drivers.sourceforge.net/
+license	LGPL-2.1-or-later
+size	69196
+installed-size	176061
+depends	so:libc.musl-armhf.so.1 so:libdbi.so.1 so:libmariadb.so.3 so:libpq.so.5 so:libsqlite3.so.0
+origin	libdbi-drivers
+repo	community
+file	libdbi-drivers-0.9.0-r4.apk
+checksum	Q1p0KAs26S4lNcPGGzQQGpH0PkKcI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbi.so.1	libdbi
+dep	so:libmariadb.so.3	mariadb-connector-c
+dep	so:libpq.so.5	libpq
+dep	so:libsqlite3.so.0	sqlite-libs

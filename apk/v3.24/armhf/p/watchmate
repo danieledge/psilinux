@@ -1,0 +1,23 @@
+name	watchmate
+version	0.5.3-r1
+description	Companion app for InfiniTime-powered PineTime smart watch
+url	https://github.com/azymohliad/watchmate
+license	GPL-3.0-only
+size	2304082
+installed-size	4804086
+depends	so:libadwaita-1.so.0 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libdbus-1.so.3 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libssl.so.3
+origin	watchmate
+repo	community
+file	watchmate-0.5.3-r1.apk
+checksum	Q1Cmzl6iQjHiSedELyx2SeFzQeamg=
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,13 @@
+name	slop-dev
+version	7.7-r3
+description	Application that queries for a selection from the user and prints the region to stdout (development files)
+url	https://github.com/naelstrof/slop
+license	MIT
+size	2674
+installed-size	2433
+depends	slop-libs=7.7-r3
+origin	slop
+repo	community
+file	slop-dev-7.7-r3.apk
+checksum	Q1Hlfh6ULKNdRXMTwkJPVjdIivZMQ=
+dep	slop-libs=7.7-r3	slop-libs

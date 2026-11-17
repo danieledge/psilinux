@@ -1,0 +1,16 @@
+name	libtorrent-rasterbar-dev
+version	2.0.11-r1
+description	Feature complete C++ bittorrent implementation (development files)
+url	https://www.rasterbar.com/products/libtorrent
+license	BSD-3-Clause
+size	461112
+installed-size	1981037
+depends	boost-dev openssl-dev>3 libtorrent-rasterbar=2.0.11-r1 pkgconfig
+origin	libtorrent-rasterbar
+repo	community
+file	libtorrent-rasterbar-dev-2.0.11-r1.apk
+checksum	Q12CLnIvNJ6i8rYFy0Bx0SjSVdpWA=
+dep	boost-dev	boost-dev
+dep	openssl-dev>3	openssl-dev
+dep	libtorrent-rasterbar=2.0.11-r1	libtorrent-rasterbar
+dep	pkgconfig	pkgconf

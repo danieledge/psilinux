@@ -1,0 +1,16 @@
+name	sane-backend-canon_dr
+version	1.4.0-r4
+description	SANE backend for Canon DR-series scanners 
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	86108
+installed-size	186841
+depends	sane so:libc.musl-armhf.so.1 so:libusb-1.0.so.0 so:libxml2.so.2
+origin	sane
+repo	community
+file	sane-backend-canon_dr-1.4.0-r4.apk
+checksum	Q1ts+MIuebjOdXL+goAVr9wpteeYo=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb
+dep	so:libxml2.so.2	libxml2

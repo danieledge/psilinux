@@ -1,0 +1,14 @@
+name	perl-params-classify
+version	0.015-r11
+description	argument type classification
+url	https://metacpan.org/release/Params-Classify/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	13757
+installed-size	29167
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-params-classify
+repo	main
+file	perl-params-classify-0.015-r11.apk
+checksum	Q1VT+fwOALX44xYhBuz9fOeTxx8u8=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

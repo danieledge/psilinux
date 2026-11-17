@@ -1,0 +1,17 @@
+name	fprintd-pam
+version	1.94.5-r1
+description	PAM module for fingerprint authentication
+url	https://fprint.freedesktop.org/
+license	GPL-2.0-or-later
+size	9695
+installed-size	22032
+depends	dbus so:libbasu.so.0 so:libc.musl-armhf.so.1 so:libintl.so.8 so:libpam.so.0
+origin	fprintd
+repo	community
+file	fprintd-pam-1.94.5-r1.apk
+checksum	Q1AZEQRUt96b5imgCITQKwGdvKIhM=
+dep	dbus	dbus
+dep	so:libbasu.so.0	basu
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libintl.so.8	libintl
+dep	so:libpam.so.0	linux-pam

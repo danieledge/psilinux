@@ -1,0 +1,14 @@
+name	vde2-dev
+version	2.3.3-r7
+description	VDE: Virtual Distributed Ethernet. User mode networking for QEMU, UML, etc. (development files)
+url	https://github.com/virtualsquare/vde-2
+license	GPL
+size	32770
+installed-size	105627
+depends	vde2-libs=2.3.3-r7 pkgconfig
+origin	vde2
+repo	community
+file	vde2-dev-2.3.3-r7.apk
+checksum	Q1dWv1WbLpPpKEFMs8tZ0LJYNsq2A=
+dep	vde2-libs=2.3.3-r7	vde2-libs
+dep	pkgconfig	pkgconf

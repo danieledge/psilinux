@@ -1,0 +1,15 @@
+name	spirv-tools
+version	1.4.341.0-r0
+description	API and commands for processing SPIR-V modules
+url	https://github.com/KhronosGroup/SPIRV-Tools
+license	Apache-2.0
+size	1770605
+installed-size	4658138
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	spirv-tools
+repo	main
+file	spirv-tools-1.4.341.0-r0.apk
+checksum	Q1n3hpQLv0hx+L8Sz+KMvJAz5NZ8Q=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

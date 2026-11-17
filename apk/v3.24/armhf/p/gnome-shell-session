@@ -1,0 +1,14 @@
+name	gnome-shell-session
+version	48.0-r3
+description	Session files for GNOME Shell
+url	https://gitlab.gnome.org/GNOME/gnome-session
+license	GPL-2.0-or-later
+size	8510
+installed-size	36907
+depends	gnome-session=48.0-r3 gnome-shell
+origin	gnome-session
+repo	community
+file	gnome-shell-session-48.0-r3.apk
+checksum	Q1lUdw6OVYNzjRED92hXAyygXzxac=
+dep	gnome-session=48.0-r3	gnome-session
+dep	gnome-shell	!

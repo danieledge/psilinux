@@ -1,0 +1,15 @@
+name	yara
+version	4.5.7-r0
+description	Pattern matching swiss knife for malware researchers
+url	https://virustotal.github.io/yara/
+license	BSD-3-Clause
+size	412259
+installed-size	1022148
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libmagic.so.1
+origin	yara
+repo	community
+file	yara-4.5.7-r0.apk
+checksum	Q12t1X2cnV3zYW4wjymdYKm+SZkks=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libmagic.so.1	libmagic

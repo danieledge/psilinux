@@ -1,0 +1,18 @@
+name	tipidee
+version	0.0.7.2-r0
+description	The skarnet.org web server
+url	https://skarnet.org/software/tipidee/
+license	ISC
+size	71962
+installed-size	175141
+depends	execline s6 s6-networking /bin/sh so:libc.musl-armhf.so.1 so:libskarnet.so.2.15
+origin	tipidee
+repo	main
+file	tipidee-0.0.7.2-r0.apk
+checksum	Q13nEQaPgVyFZ6l5Dwq4Z9PCU9zcM=
+dep	execline	execline
+dep	s6	s6
+dep	s6-networking	s6-networking
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libskarnet.so.2.15	skalibs-libs

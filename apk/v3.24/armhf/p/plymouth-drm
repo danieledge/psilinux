@@ -1,0 +1,16 @@
+name	plymouth-drm
+version	26.134.222-r1
+description	graphical bootsplash on linux
+url	https://www.freedesktop.org/wiki/Software/Plymouth
+license	GPL-2.0-or-later
+size	20743
+installed-size	46348
+depends	so:libc.musl-armhf.so.1 so:libdrm.so.2 so:libply-splash-core.so.5 so:libply.so.5
+origin	plymouth
+repo	community
+file	plymouth-drm-26.134.222-r1.apk
+checksum	Q1wuqd3uQZAYYfloeva4oE2ScNjIM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm.so.2	libdrm
+dep	so:libply-splash-core.so.5	plymouth
+dep	so:libply.so.5	plymouth

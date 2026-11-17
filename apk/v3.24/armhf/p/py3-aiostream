@@ -1,0 +1,15 @@
+name	py3-aiostream
+version	0.7.1-r1
+description	Generator-based operators for asynchronous iteration
+url	https://github.com/vxgmichel/aiostream
+license	GPL-3.0-only
+size	37450
+installed-size	137253
+depends	python3 py3-typing-extensions python3~3.14
+origin	py3-aiostream
+repo	community
+file	py3-aiostream-0.7.1-r1.apk
+checksum	Q1gKerux0/SRqCSy/d9jQn7V/T+lU=
+dep	python3	python3
+dep	py3-typing-extensions	py3-typing-extensions
+dep	python3~3.14	python3

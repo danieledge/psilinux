@@ -1,0 +1,14 @@
+name	opennhrp
+version	0.14.1-r12
+description	NBMA Next Hop Resolution Protocol daemon
+url	https://sourceforge.net/projects/opennhrp/
+license	MIT AND (BSD-2-Clause OR GPL-2.0-or-later)
+size	49860
+installed-size	98551
+depends	so:libc.musl-armhf.so.1 so:libcares.so.2
+origin	opennhrp
+repo	main
+file	opennhrp-0.14.1-r12.apk
+checksum	Q1yl8fqTmfu/RUt/mxeP8hwQzozWw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcares.so.2	c-ares

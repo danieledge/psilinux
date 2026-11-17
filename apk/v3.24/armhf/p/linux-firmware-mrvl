@@ -1,0 +1,13 @@
+name	linux-firmware-mrvl
+version	20260519-r0
+description	firmware files for linux (mrvl folder)
+url	https://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git;a=summary
+license	custom
+size	81022234
+installed-size	81010777
+depends	linux-firmware-libertas=20260519-r0
+origin	linux-firmware
+repo	main
+file	linux-firmware-mrvl-20260519-r0.apk
+checksum	Q14KqCDxBRt/iNh7CfjDTLFR/pJE4=
+dep	linux-firmware-libertas=20260519-r0	linux-firmware-libertas

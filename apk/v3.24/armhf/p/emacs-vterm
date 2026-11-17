@@ -1,0 +1,15 @@
+name	emacs-vterm
+version	0_git20251119-r1
+description	Fully-fledged terminal emulator based on libvterm
+url	https://github.com/akermu/emacs-libvterm
+license	GPL-3.0-or-later
+size	54991
+installed-size	173237
+depends	cmd:emacs so:libc.musl-armhf.so.1 so:libvterm.so.0
+origin	emacs-vterm
+repo	community
+file	emacs-vterm-0_git20251119-r1.apk
+checksum	Q1HeqxbpVOXzIwjYH0mS3pgwH9I2k=
+dep	cmd:emacs	emacs-gtk3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libvterm.so.0	libvterm

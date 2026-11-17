@@ -1,0 +1,13 @@
+name	asterisk-prometheus
+version	22.9.0-r0
+description	Modular Open Source PBX System
+url	https://www.asterisk.org/
+license	GPL-2.0-only WITH OpenSSL-Exception
+size	26898
+installed-size	69468
+depends	so:libc.musl-armhf.so.1
+origin	asterisk
+repo	main
+file	asterisk-prometheus-22.9.0-r0.apk
+checksum	Q1R7IBBsGeRtxQG0DnvM6ZMC/ikXc=
+dep	so:libc.musl-armhf.so.1	musl

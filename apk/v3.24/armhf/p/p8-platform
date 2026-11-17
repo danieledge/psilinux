@@ -1,0 +1,15 @@
+name	p8-platform
+version	2.1.0.1-r3
+description	Platform support library used by libCEC and binary add-ons for Kodi
+url	https://github.com/Pulse-Eight/platform
+license	GPL
+size	19201
+installed-size	44980
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	p8-platform
+repo	community
+file	p8-platform-2.1.0.1-r3.apk
+checksum	Q1mOarUndPgZkh6+cMEpgzLKNcBlA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

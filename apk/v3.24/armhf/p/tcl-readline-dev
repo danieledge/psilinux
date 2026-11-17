@@ -1,0 +1,13 @@
+name	tcl-readline-dev
+version	2.3.8-r0
+description	GNU readline for Tcl (development files)
+url	https://github.com/flightaware/tclreadline
+license	BSD-3-Clause
+size	1978
+installed-size	956
+depends	tcl-readline=2.3.8-r0
+origin	tcl-readline
+repo	community
+file	tcl-readline-dev-2.3.8-r0.apk
+checksum	Q1LsJkSsC7770JEQWgGcVZLIR5X+c=
+dep	tcl-readline=2.3.8-r0	tcl-readline

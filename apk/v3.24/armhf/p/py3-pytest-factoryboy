@@ -1,0 +1,17 @@
+name	py3-pytest-factoryboy
+version	2.8.1-r1
+description	Factory Boy support for pytest.
+url	https://pypi.python.org/project/pytest-factoryboy
+license	MIT
+size	15895
+installed-size	45728
+depends	py3-pytest py3-inflection py3-factory-boy py3-typing-extensions python3~3.14
+origin	py3-pytest-factoryboy
+repo	community
+file	py3-pytest-factoryboy-2.8.1-r1.apk
+checksum	Q1LnXp84aIYjmMY5IrM+qR/tN5Z8Q=
+dep	py3-pytest	py3-pytest
+dep	py3-inflection	py3-inflection
+dep	py3-factory-boy	py3-factory-boy
+dep	py3-typing-extensions	py3-typing-extensions
+dep	python3~3.14	python3

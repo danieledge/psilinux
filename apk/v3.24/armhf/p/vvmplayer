@@ -1,0 +1,29 @@
+name	vvmplayer
+version	2.6-r1
+description	front end GUI to display, play, and delete visual voicemails
+url	https://gitlab.com/kop316/vvmplayer
+license	GPL-3.0-only
+size	81913
+installed-size	144390
+depends	gst-plugins-ugly gst-plugins-good gst-libav vvmd so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcallaudio-0.1.so.0 so:libebook-1.2.so.21 so:libebook-contacts-1.2.so.5 so:libedataserver-1.2.so.27 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8
+origin	vvmplayer
+repo	community
+file	vvmplayer-2.6-r1.apk
+checksum	Q1CU86ieGvvEX2Uv1k39eXx2gcBYo=
+dep	gst-plugins-ugly	gst-plugins-ugly
+dep	gst-plugins-good	gst-plugins-good
+dep	gst-libav	gst-libav
+dep	vvmd	vvmd
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcallaudio-0.1.so.0	callaudiod-libs
+dep	so:libebook-1.2.so.21	evolution-data-server
+dep	so:libebook-contacts-1.2.so.5	evolution-data-server
+dep	so:libedataserver-1.2.so.27	evolution-data-server
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstpbutils-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl

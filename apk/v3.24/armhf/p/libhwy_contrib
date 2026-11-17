@@ -1,0 +1,16 @@
+name	libhwy_contrib
+version	1.3.0-r0
+description	Performance-portable, length-agnostic SIMD with runtime dispatch
+url	https://github.com/google/highway
+license	Apache-2.0
+size	19514
+installed-size	46408
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libhwy.so.1 so:libstdc++.so.6
+origin	highway
+repo	community
+file	libhwy_contrib-1.3.0-r0.apk
+checksum	Q1w+H9M2a3HFd0bCX3/Dvem9UuZ64=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libhwy.so.1	libhwy
+dep	so:libstdc++.so.6	libstdc++

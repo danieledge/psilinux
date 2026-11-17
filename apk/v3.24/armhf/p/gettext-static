@@ -1,0 +1,13 @@
+name	gettext-static
+version	1.0-r0
+description	GNU locale utilities (static library)
+url	https://www.gnu.org/software/gettext/gettext.html
+license	GPL-3.0-or-later AND LGPL-2.1-or-later AND MIT
+size	4138844
+installed-size	11239430
+depends	gettext-dev
+origin	gettext
+repo	main
+file	gettext-static-1.0-r0.apk
+checksum	Q1KMU80fqnzE+rl/rsc5jEAg5OYfk=
+dep	gettext-dev	gettext-dev

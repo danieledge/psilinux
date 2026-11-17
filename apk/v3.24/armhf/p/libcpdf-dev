@@ -1,0 +1,13 @@
+name	libcpdf-dev
+version	2.9-r1
+description	Coherent PDF command line tools (development files)
+url	https://community.coherentpdf.com/
+license	AGPL-3.0-or-later
+size	17074
+installed-size	62595
+depends	libcpdf=2.9-r1
+origin	cpdf
+repo	community
+file	libcpdf-dev-2.9-r1.apk
+checksum	Q1Da6nqPlpa9cAugrjlrAeBqbFlHw=
+dep	libcpdf=2.9-r1	libcpdf

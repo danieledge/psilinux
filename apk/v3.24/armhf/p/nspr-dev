@@ -1,0 +1,15 @@
+name	nspr-dev
+version	4.38.2-r0
+description	Netscape Portable Runtime (development files)
+url	https://www.mozilla.org/projects/nspr/
+license	MPL-2.0
+size	107831
+installed-size	452060
+depends	nspr=4.38.2-r0 linux-headers pkgconfig
+origin	nspr
+repo	main
+file	nspr-dev-4.38.2-r0.apk
+checksum	Q1EM9ehdD1lwbaYKtdbtj83f6yyfc=
+dep	nspr=4.38.2-r0	nspr
+dep	linux-headers	linux-headers
+dep	pkgconfig	pkgconf

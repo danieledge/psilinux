@@ -1,0 +1,15 @@
+name	py3-matplotlib-qt6
+version	3.10.6-r2
+description	Qt6 backend for py3-matplotlib
+url	https://matplotlib.org
+license	PSF-2.0
+size	1265
+installed-size	0
+depends	py3-matplotlib=3.10.6-r2 py3-cairocffi py3-qt6
+origin	py3-matplotlib
+repo	community
+file	py3-matplotlib-qt6-3.10.6-r2.apk
+checksum	Q1Y3SHqRhoVTOZIuBWuEt/L77dlR4=
+dep	py3-matplotlib=3.10.6-r2	py3-matplotlib
+dep	py3-cairocffi	py3-cairocffi
+dep	py3-qt6	!

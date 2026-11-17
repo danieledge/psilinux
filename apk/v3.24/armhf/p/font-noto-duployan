@@ -1,0 +1,14 @@
+name	font-noto-duployan
+version	2026.11.01-r0
+description	Noto Sans Duployan font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	1227238
+installed-size	3124191
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-duployan-2026.11.01-r0.apk
+checksum	Q1miosw3WIPdD/YNSws8U0uWzN2F0=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

@@ -1,0 +1,18 @@
+name	texlive-most
+version	2026.0-r0
+description	A mostly complete TeX distribution
+url	https://tug.org/texlive/
+license	GPL-2.0-or-later AND GPL-3.0-or-later
+size	1323
+installed-size	0
+depends	texlive texlive-context texlive-luatex texlive-xetex texmf-dist-most cmd:biber
+origin	texlive
+repo	community
+file	texlive-most-2026.0-r0.apk
+checksum	Q1XRI+CD2upK945rFlivbCopd+fcQ=
+dep	texlive	texlive
+dep	texlive-context	texlive-context
+dep	texlive-luatex	texlive-luatex
+dep	texlive-xetex	texlive-xetex
+dep	texmf-dist-most	texmf-dist-most
+dep	cmd:biber	biber

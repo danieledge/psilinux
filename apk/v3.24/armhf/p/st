@@ -1,0 +1,18 @@
+name	st
+version	0.9.3-r0
+description	Simple terminal emulator for X
+url	https://st.suckless.org
+license	MIT
+size	34887
+installed-size	66657
+depends	ncurses-terminfo-base font-liberation so:libX11.so.6 so:libXft.so.2 so:libc.musl-armhf.so.1 so:libfontconfig.so.1
+origin	st
+repo	community
+file	st-0.9.3-r0.apk
+checksum	Q1kqWNvugAyDaJ9VkKARU18Jc96e8=
+dep	ncurses-terminfo-base	ncurses-terminfo-base
+dep	font-liberation	font-liberation
+dep	so:libX11.so.6	libx11
+dep	so:libXft.so.2	libxft
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig

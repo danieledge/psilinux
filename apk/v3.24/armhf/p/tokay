@@ -1,0 +1,14 @@
+name	tokay
+version	0.6.13-r1
+description	Programming language for ad-hoc parsing and syntax-based development
+url	https://tokay.dev/
+license	MIT
+size	1004569
+installed-size	2113880
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	tokay
+repo	community
+file	tokay-0.6.13-r1.apk
+checksum	Q1yKO4z+b/S14TwZDYIbFBHluiqLs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

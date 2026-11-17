@@ -1,0 +1,14 @@
+name	cups-pdf
+version	3.0.2-r0
+description	CUPS PDF printer
+url	https://www.cups-pdf.de
+license	GPL-2.0-or-later
+size	22012
+installed-size	165454
+depends	so:libc.musl-armhf.so.1 so:libcups.so.2
+origin	cups-pdf
+repo	community
+file	cups-pdf-3.0.2-r0.apk
+checksum	Q1T6pxk6tiwaWbGC0wmM8JisRx0GQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcups.so.2	cups-libs

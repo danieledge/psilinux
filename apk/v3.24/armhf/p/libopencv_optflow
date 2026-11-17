@@ -1,0 +1,22 @@
+name	libopencv_optflow
+version	4.12.0-r7
+description	Open source computer vision and machine learning library (libopencv_optflow library)
+url	https://opencv.org/
+license	Apache-2.0
+size	141230
+installed-size	281504
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libopencv_calib3d.so.412 so:libopencv_core.so.412 so:libopencv_flann.so.412 so:libopencv_imgcodecs.so.412 so:libopencv_imgproc.so.412 so:libopencv_video.so.412 so:libopencv_ximgproc.so.412 so:libstdc++.so.6
+origin	opencv
+repo	community
+file	libopencv_optflow-4.12.0-r7.apk
+checksum	Q16OCNDMPVZsGj51fY4pLOzl282EA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libopencv_calib3d.so.412	libopencv_calib3d
+dep	so:libopencv_core.so.412	libopencv_core
+dep	so:libopencv_flann.so.412	libopencv_flann
+dep	so:libopencv_imgcodecs.so.412	libopencv_imgcodecs
+dep	so:libopencv_imgproc.so.412	libopencv_imgproc
+dep	so:libopencv_video.so.412	libopencv_video
+dep	so:libopencv_ximgproc.so.412	libopencv_ximgproc
+dep	so:libstdc++.so.6	libstdc++

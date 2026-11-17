@@ -1,0 +1,13 @@
+name	libressl-nc
+version	4.3.1-r0
+description	libressl TLS-enabled nc(1)
+url	https://www.libressl.org/
+license	custom
+size	699894
+installed-size	1488640
+depends	so:libc.musl-armhf.so.1
+origin	libressl
+repo	community
+file	libressl-nc-4.3.1-r0.apk
+checksum	Q1vQ6rDEGqboijOp/drzqGjegOMTk=
+dep	so:libc.musl-armhf.so.1	musl

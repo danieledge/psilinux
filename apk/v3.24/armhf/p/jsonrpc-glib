@@ -1,0 +1,17 @@
+name	jsonrpc-glib
+version	3.44.2-r0
+description	Library to communicate using the JSON-RPC 2.0 specification
+url	https://gitlab.gnome.org/GNOME/jsonrpc-glib
+license	GPL-3.0-or-later
+size	26771
+installed-size	65144
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libjson-glib-1.0.so.0
+origin	jsonrpc-glib
+repo	community
+file	jsonrpc-glib-3.44.2-r0.apk
+checksum	Q1YatOseX+W1bKaT2pd0qyU+xGCe4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libjson-glib-1.0.so.0	json-glib

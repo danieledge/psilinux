@@ -1,0 +1,14 @@
+name	sane-backend-st400
+version	1.4.0-r4
+description	SANE backend for Siemens ST/Highscan flatbed scanners
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	28187
+installed-size	53889
+depends	sane so:libc.musl-armhf.so.1
+origin	sane
+repo	community
+file	sane-backend-st400-1.4.0-r4.apk
+checksum	Q1FWwi7Z0PVezGvA9s1clFMi4XDHc=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl

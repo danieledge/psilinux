@@ -1,0 +1,13 @@
+name	py3-kubernetes-pyc
+version	34.1.0-r1
+description	Precompiled Python bytecode for py3-kubernetes
+url	https://github.com/kubernetes-client/python
+license	Apache-2.0
+size	1837368
+installed-size	16107159
+depends	python3~3.14
+origin	py3-kubernetes
+repo	community
+file	py3-kubernetes-pyc-34.1.0-r1.apk
+checksum	Q1xgE1HeeAlVLlnFDn3wKUzT2Xrdw=
+dep	python3~3.14	python3

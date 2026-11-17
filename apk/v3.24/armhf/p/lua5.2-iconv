@@ -1,0 +1,13 @@
+name	lua5.2-iconv
+version	7-r5
+description	Lua binding to the POSIX 'iconv' library for Lua 5.2
+url	http://ittner.github.io/lua-iconv/
+license	MIT
+size	4417
+installed-size	9388
+depends	so:libc.musl-armhf.so.1
+origin	lua-iconv
+repo	main
+file	lua5.2-iconv-7-r5.apk
+checksum	Q1PW8etn9TO2F+myshXFF10c24nBA=
+dep	so:libc.musl-armhf.so.1	musl

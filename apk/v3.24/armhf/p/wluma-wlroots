@@ -1,0 +1,15 @@
+name	wluma-wlroots
+version	4.10.0-r0
+description	Automatic brightness adjustment based on screen contents and ALS (wlroots capturer)
+url	https://github.com/maximbaz/wluma
+license	ISC
+size	1328
+installed-size	0
+depends	wluma=4.10.0-r0 vulkan-loader wlroots
+origin	wluma
+repo	community
+file	wluma-wlroots-4.10.0-r0.apk
+checksum	Q1l3bCbaISP1CaZl/Y0Qt1iW2epGs=
+dep	wluma=4.10.0-r0	wluma
+dep	vulkan-loader	vulkan-loader
+dep	wlroots	wlroots0.20

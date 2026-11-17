@@ -1,0 +1,14 @@
+name	paris-traceroute-ping
+version	0.93-r3
+description	paris-traceroute ping utility
+url	https://github.com/libparistraceroute/libparistraceroute
+license	GPL-3.0-only
+size	6707
+installed-size	13992
+depends	so:libc.musl-armhf.so.1 so:libparistraceroute-0.9.so.1
+origin	paris-traceroute
+repo	community
+file	paris-traceroute-ping-0.93-r3.apk
+checksum	Q1txGSMt8Tgv86rwMELS5fJP20E40=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libparistraceroute-0.9.so.1	paris-traceroute

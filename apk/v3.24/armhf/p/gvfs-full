@@ -1,0 +1,14 @@
+name	gvfs-full
+version	1.60.1-r0
+description	Meta-package for all gvfs backends
+url	https://gitlab.gnome.org/GNOME/gvfs
+license	LGPL-2.0-or-later
+size	1296
+installed-size	0
+depends	gsettings-desktop-schemas dbus:org.freedesktop.Secrets
+origin	gvfs
+repo	community
+file	gvfs-full-1.60.1-r0.apk
+checksum	Q19JhfMOs8YCjS3Y/Nlh5d4XnhdjM=
+dep	gsettings-desktop-schemas	gsettings-desktop-schemas
+dep	dbus:org.freedesktop.Secrets	gnome-keyring

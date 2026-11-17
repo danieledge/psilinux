@@ -1,0 +1,17 @@
+name	libglib-testing-dev
+version	0.2.0-r0
+description	Test harnesses and mock classes for GLib (development files)
+url	https://gitlab.gnome.org/pwithnall/libglib-testing
+license	LGPL-2.1-or-later
+size	5730
+installed-size	19060
+depends	libglib-testing=0.2.0-r0 pc:gio-2.0>=2.44 pc:glib-2.0>=2.44 pc:gobject-2.0>=2.44 pkgconfig
+origin	libglib-testing
+repo	community
+file	libglib-testing-dev-0.2.0-r0.apk
+checksum	Q1IDgsDFSRGebHu3rVbrnzKwWbQuU=
+dep	libglib-testing=0.2.0-r0	libglib-testing
+dep	pc:gio-2.0>=2.44	glib-dev
+dep	pc:glib-2.0>=2.44	glib-dev
+dep	pc:gobject-2.0>=2.44	glib-dev
+dep	pkgconfig	pkgconf

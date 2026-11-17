@@ -1,0 +1,19 @@
+name	irssi
+version	1.4.5-r7
+description	Modular textUI IRC client with IPv6 support
+url	https://irssi.org/
+license	GPL-2.0-or-later WITH OpenSSL-Exception
+size	462806
+installed-size	1050527
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libncursesw.so.6 so:libssl.so.3 so:libutf8proc.so.3
+origin	irssi
+repo	community
+file	irssi-1.4.5-r7.apk
+checksum	Q1eh3bozGTOnVJGlpl08cZeb1UL/4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libssl.so.3	libssl3
+dep	so:libutf8proc.so.3	utf8proc

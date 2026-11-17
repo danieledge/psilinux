@@ -1,0 +1,15 @@
+name	collectd-postgresql
+version	5.12.0-r25
+description	postgresql pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	15489
+installed-size	29868
+depends	collectd so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	collectd
+repo	community
+file	collectd-postgresql-5.12.0-r25.apk
+checksum	Q1D8Lu9epgoDs4TdXnjsr2jSCj3UI=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

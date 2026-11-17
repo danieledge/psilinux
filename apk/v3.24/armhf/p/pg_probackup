@@ -1,0 +1,15 @@
+name	pg_probackup
+version	2.5.15-r1
+description	Backup and recovery manager for PostgreSQL
+url	https://github.com/postgrespro/pg_probackup
+license	PostgreSQL
+size	215652
+installed-size	469292
+depends	so:libc.musl-armhf.so.1 so:libpq.so.5 so:libz.so.1
+origin	pg_probackup
+repo	community
+file	pg_probackup-2.5.15-r1.apk
+checksum	Q18IqxFKe/OzTu/JHFtN1+hU94nv4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq
+dep	so:libz.so.1	zlib

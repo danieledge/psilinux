@@ -1,0 +1,13 @@
+name	py3-lldb-pyc
+version	22.1.3-r0
+description	Precompiled Python bytecode for py3-lldb
+url	https://llvm.org/
+license	Apache-2.0
+size	325572
+installed-size	1265777
+depends	python3~3.14
+origin	lldb
+repo	main
+file	py3-lldb-pyc-22.1.3-r0.apk
+checksum	Q1mNTooU0nwXjkGz1qb5xXyeOsS7U=
+dep	python3~3.14	python3

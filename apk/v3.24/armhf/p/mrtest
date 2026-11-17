@@ -1,0 +1,14 @@
+name	mrtest
+version	1.10.0-r2
+description	Installs apks from pmaports/aports MRs
+url	https://wiki.postmarketos.org/wiki/Mrtest
+license	GPL-3.0-or-later
+size	8763
+installed-size	20982
+depends	mrhlpr-common=1.10.0-r2 python3~3.14
+origin	mrhlpr
+repo	community
+file	mrtest-1.10.0-r2.apk
+checksum	Q1zeC1k+2COV767uSwWseiQtEf3FU=
+dep	mrhlpr-common=1.10.0-r2	mrhlpr-common
+dep	python3~3.14	python3

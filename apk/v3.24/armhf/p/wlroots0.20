@@ -1,0 +1,40 @@
+name	wlroots0.20
+version	0.20.2-r0
+description	Modular Wayland compositor library
+url	https://gitlab.freedesktop.org/wlroots/wlroots
+license	MIT
+size	427889
+installed-size	1035612
+depends	so:libEGL.so.1 so:libGLESv2.so.2 so:libc.musl-armhf.so.1 so:libdisplay-info.so.3 so:libdrm.so.2 so:libgbm.so.1 so:libinput.so.10 so:liblcms2.so.2 so:libliftoff.so.0 so:libpixman-1.so.0 so:libseat.so.1 so:libudev.so.1 so:libvulkan.so.1 so:libwayland-client.so.0 so:libwayland-server.so.0 so:libxcb-composite.so.0 so:libxcb-dri3.so.0 so:libxcb-ewmh.so.2 so:libxcb-icccm.so.4 so:libxcb-present.so.0 so:libxcb-render-util.so.0 so:libxcb-render.so.0 so:libxcb-res.so.0 so:libxcb-shm.so.0 so:libxcb-xfixes.so.0 so:libxcb-xinput.so.0 so:libxcb.so.1 so:libxkbcommon.so.0
+origin	wlroots0.20
+repo	community
+file	wlroots0.20-0.20.2-r0.apk
+checksum	Q1u/Zd2yw0+cSIjSEofyHlqgJ2jao=
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libGLESv2.so.2	mesa-gles
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdisplay-info.so.3	libdisplay-info
+dep	so:libdrm.so.2	libdrm
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libinput.so.10	libinput-libs
+dep	so:liblcms2.so.2	lcms2
+dep	so:libliftoff.so.0	libliftoff
+dep	so:libpixman-1.so.0	pixman
+dep	so:libseat.so.1	libseat
+dep	so:libudev.so.1	eudev-libs
+dep	so:libvulkan.so.1	vulkan-loader
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-server.so.0	wayland-libs-server
+dep	so:libxcb-composite.so.0	libxcb
+dep	so:libxcb-dri3.so.0	libxcb
+dep	so:libxcb-ewmh.so.2	xcb-util-wm
+dep	so:libxcb-icccm.so.4	xcb-util-wm
+dep	so:libxcb-present.so.0	libxcb
+dep	so:libxcb-render-util.so.0	xcb-util-renderutil
+dep	so:libxcb-render.so.0	libxcb
+dep	so:libxcb-res.so.0	libxcb
+dep	so:libxcb-shm.so.0	libxcb
+dep	so:libxcb-xfixes.so.0	libxcb
+dep	so:libxcb-xinput.so.0	libxcb
+dep	so:libxcb.so.1	libxcb
+dep	so:libxkbcommon.so.0	libxkbcommon

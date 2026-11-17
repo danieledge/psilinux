@@ -1,0 +1,15 @@
+name	freeunit-ruby
+version	1.37.2-r0
+description	ruby module for FreeUnit
+url	https://freeunit.org/
+license	Apache-2.0
+size	42807
+installed-size	83300
+depends	freeunit=1.37.2-r0 so:libc.musl-armhf.so.1 so:libruby.so.3.4
+origin	freeunit
+repo	community
+file	freeunit-ruby-1.37.2-r0.apk
+checksum	Q1WpnKfF95ddfM0CO/8vEib3IsfFc=
+dep	freeunit=1.37.2-r0	freeunit
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libruby.so.3.4	ruby-libs

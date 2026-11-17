@@ -1,0 +1,20 @@
+name	folks-dev
+version	0.15.12-r1
+description	GObject Library to aggregate people into metacontacts (development files)
+url	https://gitlab.gnome.org/GNOME/folks
+license	LGPL-2.1-or-later
+size	122271
+installed-size	1276437
+depends	folks=0.15.12-r1 pc:gee-0.8 pc:glib-2.0>=2.80 pc:gobject-2.0>=2.80 pc:libebook-1.2>=3.38 pc:libedataserver-1.2>=3.38 pc:telepathy-glib>=0.19.9 pkgconfig
+origin	folks
+repo	community
+file	folks-dev-0.15.12-r1.apk
+checksum	Q1ABhzapNnK4G70BOJ+k6y4qgtxys=
+dep	folks=0.15.12-r1	folks
+dep	pc:gee-0.8	libgee-dev
+dep	pc:glib-2.0>=2.80	glib-dev
+dep	pc:gobject-2.0>=2.80	glib-dev
+dep	pc:libebook-1.2>=3.38	evolution-data-server-dev
+dep	pc:libedataserver-1.2>=3.38	evolution-data-server-dev
+dep	pc:telepathy-glib>=0.19.9	telepathy-glib-dev
+dep	pkgconfig	pkgconf

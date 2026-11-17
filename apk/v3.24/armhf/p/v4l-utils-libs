@@ -1,0 +1,17 @@
+name	v4l-utils-libs
+version	1.32.0-r1
+description	Collection of video4linux support libraries
+url	https://linuxtv.org/
+license	LGPL-2.0-or-later
+size	211929
+installed-size	559436
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libjpeg.so.8 so:libjson-c.so.5 so:libstdc++.so.6
+origin	v4l-utils
+repo	community
+file	v4l-utils-libs-1.32.0-r1.apk
+checksum	Q1KRoBf0Pvq232sFxiIXQ/tGive84=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libjson-c.so.5	json-c
+dep	so:libstdc++.so.6	libstdc++

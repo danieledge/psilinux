@@ -1,0 +1,14 @@
+name	mergiraf
+version	0.17.0-r0
+description	syntax-aware git merge driver for a growing collection of programming languages and file formats
+url	https://mergiraf.org/
+license	GPL-3.0-or-later
+size	6609261
+installed-size	74397060
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	mergiraf
+repo	community
+file	mergiraf-0.17.0-r0.apk
+checksum	Q122j+Kqm9m6mnZyvObkRw6ubc++0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

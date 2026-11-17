@@ -1,0 +1,15 @@
+name	tdb-dev
+version	1.4.15-r1
+description	The tdb library (development files)
+url	https://tdb.samba.org/
+license	LGPL-3.0-or-later
+size	10031
+installed-size	34975
+depends	python3 tdb-libs=1.4.15-r1 pkgconfig
+origin	tdb
+repo	main
+file	tdb-dev-1.4.15-r1.apk
+checksum	Q1m95o7fVSbKqW4Q55VPtS11PrPMM=
+dep	python3	python3
+dep	tdb-libs=1.4.15-r1	tdb-libs
+dep	pkgconfig	pkgconf

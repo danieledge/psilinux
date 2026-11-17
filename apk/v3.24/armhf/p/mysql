@@ -1,0 +1,13 @@
+name	mysql
+version	11.8.9-r0
+description	Dummy package for mysql migration
+url	https://www.mariadb.org/
+license	GPL-2.0-only
+size	1256
+installed-size	0
+depends	mariadb
+origin	mariadb
+repo	main
+file	mysql-11.8.9-r0.apk
+checksum	Q1GiPsp8WPLyx4IgH+0fVB/VNNmLE=
+dep	mariadb	mariadb

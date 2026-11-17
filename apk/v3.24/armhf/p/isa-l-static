@@ -1,0 +1,13 @@
+name	isa-l-static
+version	2.31.0-r1
+description	Intelligent Storage Acceleration Library (static library)
+url	https://github.com/intel/isa-l
+license	BSD-3-Clause
+size	67508
+installed-size	163168
+depends	isa-l-dev
+origin	isa-l
+repo	community
+file	isa-l-static-2.31.0-r1.apk
+checksum	Q1cnKgHQ7OqJP8hRKXwGzvMkjhMmQ=
+dep	isa-l-dev	isa-l-dev

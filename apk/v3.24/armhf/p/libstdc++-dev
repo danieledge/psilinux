@@ -1,0 +1,13 @@
+name	libstdc++-dev
+version	15.2.0-r5
+description	GNU C++ standard runtime library (development files)
+url	https://gcc.gnu.org
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	4319217
+installed-size	22750599
+depends	libstdc++=15.2.0-r5
+origin	gcc
+repo	main
+file	libstdc++-dev-15.2.0-r5.apk
+checksum	Q1opHC7rSHoi0sL8hdXvCbF5AcQAM=
+dep	libstdc++=15.2.0-r5	libstdc++

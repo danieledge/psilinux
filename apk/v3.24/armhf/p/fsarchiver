@@ -1,0 +1,24 @@
+name	fsarchiver
+version	0.8.8-r0
+description	Safe and flexible file-system backup and deployment tool
+url	https://www.fsarchiver.org/
+license	GPL-2.0-or-later
+size	103849
+installed-size	240644
+depends	so:libblkid.so.1 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libe2p.so.2 so:libext2fs.so.2 so:libgcrypt.so.20 so:liblz4.so.1 so:liblzma.so.5 so:liblzo2.so.2 so:libuuid.so.1 so:libz.so.1 so:libzstd.so.1
+origin	fsarchiver
+repo	main
+file	fsarchiver-0.8.8-r0.apk
+checksum	Q1j1jgou08h4c1XmFcTxul6m0AUiA=
+dep	so:libblkid.so.1	libblkid
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libe2p.so.2	e2fsprogs-libs
+dep	so:libext2fs.so.2	e2fsprogs-libs
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:liblz4.so.1	lz4-libs
+dep	so:liblzma.so.5	xz-libs
+dep	so:liblzo2.so.2	lzo
+dep	so:libuuid.so.1	libuuid
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

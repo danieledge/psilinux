@@ -1,0 +1,15 @@
+name	libwpe
+version	1.16.3-r0
+description	General-purpose library specifically developed for the WPE-flavored port of WebKit
+url	https://wpewebkit.org/
+license	BSD-2-Clause
+size	14761
+installed-size	29956
+depends	so:libc.musl-armhf.so.1 so:libstdc++.so.6 so:libxkbcommon.so.0
+origin	libwpe
+repo	community
+file	libwpe-1.16.3-r0.apk
+checksum	Q1y3FjsdsY+5b1ndoTBNMsPFRRfZw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxkbcommon.so.0	libxkbcommon

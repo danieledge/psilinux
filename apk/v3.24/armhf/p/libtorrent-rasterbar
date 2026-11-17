@@ -1,0 +1,17 @@
+name	libtorrent-rasterbar
+version	2.0.11-r1
+description	Feature complete C++ bittorrent implementation
+url	https://www.rasterbar.com/products/libtorrent
+license	BSD-3-Clause
+size	1837599
+installed-size	4303396
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3 so:libstdc++.so.6
+origin	libtorrent-rasterbar
+repo	community
+file	libtorrent-rasterbar-2.0.11-r1.apk
+checksum	Q1uRCAHqY4GnPSOqUynemRc88UraA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++

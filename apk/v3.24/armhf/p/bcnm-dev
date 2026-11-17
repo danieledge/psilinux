@@ -1,0 +1,15 @@
+name	bcnm-dev
+version	0.0.2.2-r0
+description	Better Client Network Manager (development files)
+url	https://skarnet.org/software/bcnm/
+license	ISC
+size	4529
+installed-size	8214
+depends	bcnm-libs=0.0.2.2-r0 pc:libskarnet>=2.15.0.0 pkgconfig
+origin	bcnm
+repo	main
+file	bcnm-dev-0.0.2.2-r0.apk
+checksum	Q1+RSiugLXA44bx/ZHxtglxZl7i3s=
+dep	bcnm-libs=0.0.2.2-r0	bcnm-libs
+dep	pc:libskarnet>=2.15.0.0	skalibs-dev
+dep	pkgconfig	pkgconf

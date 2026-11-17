@@ -1,0 +1,14 @@
+name	fzf-tmux
+version	0.73.1-r2
+description	Helper script to start fzf in a tmux pane
+url	https://github.com/junegunn/fzf
+license	MIT
+size	4094
+installed-size	7316
+depends	tmux bash
+origin	fzf
+repo	community
+file	fzf-tmux-0.73.1-r2.apk
+checksum	Q1PY3MIEVGszAto6mStbsVkR2yf98=
+dep	tmux	tmux
+dep	bash	bash

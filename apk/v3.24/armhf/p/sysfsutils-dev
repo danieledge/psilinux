@@ -1,0 +1,14 @@
+name	sysfsutils-dev
+version	2.1.1-r3
+description	System Utilities Based on Sysfs (development files)
+url	https://github.com/linux-ras/sysfsutils
+license	GPL-2.0-only AND LGPL-2.1-only
+size	5956
+installed-size	16543
+depends	sysfsutils=2.1.1-r3 pkgconfig
+origin	sysfsutils
+repo	main
+file	sysfsutils-dev-2.1.1-r3.apk
+checksum	Q1s/XZO5bggXSBc6nKQ1NYkguHdKE=
+dep	sysfsutils=2.1.1-r3	sysfsutils
+dep	pkgconfig	pkgconf

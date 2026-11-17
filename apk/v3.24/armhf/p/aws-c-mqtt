@@ -1,0 +1,16 @@
+name	aws-c-mqtt
+version	0.15.2-r0
+description	AWS C99 implementation of the MQTT 3.1.1 specification
+url	https://github.com/awslabs/aws-c-mqtt
+license	Apache-2.0
+size	118651
+installed-size	310488
+depends	so:libaws-c-common.so.1 so:libaws-c-http.so.1.0.0 so:libaws-c-io.so.1.0.0 so:libc.musl-armhf.so.1
+origin	aws-c-mqtt
+repo	community
+file	aws-c-mqtt-0.15.2-r0.apk
+checksum	Q1KB1cheECaW231FpVIGL0TYJ2b5Y=
+dep	so:libaws-c-common.so.1	aws-c-common
+dep	so:libaws-c-http.so.1.0.0	aws-c-http
+dep	so:libaws-c-io.so.1.0.0	aws-c-io
+dep	so:libc.musl-armhf.so.1	musl

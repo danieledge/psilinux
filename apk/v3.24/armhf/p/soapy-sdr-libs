@@ -1,0 +1,15 @@
+name	soapy-sdr-libs
+version	0.8.1-r4
+description	Soapy SDR - vendor and platform neutral SDR support library (libraries)
+url	https://github.com/pothosware/SoapySDR
+license	BSL-1.0
+size	86801
+installed-size	234932
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	soapy-sdr
+repo	community
+file	soapy-sdr-libs-0.8.1-r4.apk
+checksum	Q1pdRrtpnZ/ROHFC6d+DL4emQdQk8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

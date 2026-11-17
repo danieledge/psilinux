@@ -1,0 +1,13 @@
+name	util-linux-static
+version	2.42.3-r1
+description	Random collection of Linux utilities (static library)
+url	https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+license	GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
+size	9743313
+installed-size	12367314
+depends	util-linux-dev
+origin	util-linux
+repo	main
+file	util-linux-static-2.42.3-r1.apk
+checksum	Q14PukePKRFJ01T32D5YFZy0XTfn4=
+dep	util-linux-dev	util-linux-dev

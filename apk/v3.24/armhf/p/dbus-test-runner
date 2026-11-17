@@ -1,0 +1,19 @@
+name	dbus-test-runner
+version	19.04.0-r4
+description	Run executabls under a new DBus session for testing
+url	https://launchpad.net/dbus-test-runner
+license	GPL-3.0-or-later
+size	8623
+installed-size	22792
+depends	dbus python3 py3-dbusmock so:libc.musl-armhf.so.1 so:libdbustest.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	dbus-test-runner
+repo	community
+file	dbus-test-runner-19.04.0-r4.apk
+checksum	Q1I4B2CUViEPmuUZ7Vb0c2xNBAEVk=
+dep	dbus	dbus
+dep	python3	python3
+dep	py3-dbusmock	py3-dbusmock
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbustest.so.1	dbus-test-runner-libs
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

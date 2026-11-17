@@ -1,0 +1,15 @@
+name	libxslt-dev
+version	1.1.43-r4
+description	XML stylesheet transformation library (development files)
+url	http://xmlsoft.org/XSLT/
+license	X11
+size	32192
+installed-size	127837
+depends	libxslt=1.1.43-r4 pc:libxml-2.0 pkgconfig
+origin	libxslt
+repo	main
+file	libxslt-dev-1.1.43-r4.apk
+checksum	Q1eAH8BHY7Fo9ISe5pNeOGYs4wgGg=
+dep	libxslt=1.1.43-r4	libxslt
+dep	pc:libxml-2.0	libxml2-dev
+dep	pkgconfig	pkgconf

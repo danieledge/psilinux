@@ -1,0 +1,15 @@
+name	logbookd
+version	0.2.4-r3
+description	sqlite backed syslogd implementation
+url	https://git.sr.ht/~martijnbraam/logbookd
+license	MIT
+size	17218
+installed-size	39636
+depends	so:libc.musl-armhf.so.1 so:libsqlite3.so.0 so:libuuid.so.1
+origin	logbookd
+repo	community
+file	logbookd-0.2.4-r3.apk
+checksum	Q1sbMDicAw1/EbC3+eopNe6pleAYA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libuuid.so.1	libuuid

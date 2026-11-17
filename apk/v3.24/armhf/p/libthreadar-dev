@@ -1,0 +1,14 @@
+name	libthreadar-dev
+version	1.6.0-r0
+description	a C++ library that provides several classes to manipulate threads (development files)
+url	https://libthreadar.sourceforge.net/
+license	LGPL-3.0-or-later
+size	27762
+installed-size	111452
+depends	libthreadar=1.6.0-r0 pkgconfig
+origin	libthreadar
+repo	community
+file	libthreadar-dev-1.6.0-r0.apk
+checksum	Q19T9mtnXQff2KefHsbwt8plOXShM=
+dep	libthreadar=1.6.0-r0	libthreadar
+dep	pkgconfig	pkgconf

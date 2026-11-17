@@ -1,0 +1,18 @@
+name	libepoxy-dev
+version	1.5.10-r1
+description	Direct Rendering Manager runtime library (development files)
+url	https://github.com/anholt/libepoxy
+license	MIT
+size	170916
+installed-size	1665098
+depends	libx11-dev libepoxy=1.5.10-r1 pc:egl pc:gl pc:x11 pkgconfig
+origin	libepoxy
+repo	main
+file	libepoxy-dev-1.5.10-r1.apk
+checksum	Q1lWQ0paBn+/uRMLrff+8qw37PV6U=
+dep	libx11-dev	libx11-dev
+dep	libepoxy=1.5.10-r1	libepoxy
+dep	pc:egl	mesa-dev
+dep	pc:gl	mesa-dev
+dep	pc:x11	libx11-dev
+dep	pkgconfig	pkgconf

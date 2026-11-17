@@ -1,0 +1,17 @@
+name	llvm21-test-utils
+version	21.1.8-r1
+description	LLVM 21 utilities for executing LLVM and Clang style test suites
+url	https://llvm.org/
+license	Apache-2.0
+size	430249
+installed-size	1021863
+depends	python3 python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	llvm21
+repo	main
+file	llvm21-test-utils-21.1.8-r1.apk
+checksum	Q1Q24+qZNaf8ftVI0O/JbFrmKO36w=
+dep	python3	python3
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

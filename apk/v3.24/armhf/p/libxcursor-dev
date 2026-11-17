@@ -1,0 +1,18 @@
+name	libxcursor-dev
+version	1.2.3-r0
+description	X cursor management library (development files)
+url	https://xorg.freedesktop.org/
+license	MIT
+size	23098
+installed-size	55816
+depends	libxcursor=1.2.3-r0 pc:x11 pc:xfixes pc:xproto pc:xrender pkgconfig
+origin	libxcursor
+repo	main
+file	libxcursor-dev-1.2.3-r0.apk
+checksum	Q1ffBDQY1WCIyBfiN0/AP8aL+OLvA=
+dep	libxcursor=1.2.3-r0	libxcursor
+dep	pc:x11	libx11-dev
+dep	pc:xfixes	libxfixes-dev
+dep	pc:xproto	xorgproto
+dep	pc:xrender	libxrender-dev
+dep	pkgconfig	pkgconf

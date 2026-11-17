@@ -1,0 +1,25 @@
+name	openconnect
+version	9.12-r2
+description	Open client for Cisco AnyConnect VPN
+url	https://www.infradead.org/openconnect/
+license	LGPL-2.1-or-later
+size	214498
+installed-size	479463
+depends	vpnc iproute2 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgssapi_krb5.so.2 so:liblz4.so.1 so:libpcsclite.so.1 so:libproxy.so.1 so:libpskc.so.0 so:libssl.so.3 so:libstoken.so.1 so:libxml2.so.2 so:libz.so.1
+origin	openconnect
+repo	community
+file	openconnect-9.12-r2.apk
+checksum	Q1YybmUPPR3TTFnN2bs4tR5GcI8wY=
+dep	vpnc	vpnc
+dep	iproute2	iproute2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgssapi_krb5.so.2	krb5-libs
+dep	so:liblz4.so.1	lz4-libs
+dep	so:libpcsclite.so.1	pcsc-lite-libs
+dep	so:libproxy.so.1	libproxy
+dep	so:libpskc.so.0	oath-toolkit-libpskc
+dep	so:libssl.so.3	libssl3
+dep	so:libstoken.so.1	stoken
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

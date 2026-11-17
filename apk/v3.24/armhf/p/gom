@@ -1,0 +1,18 @@
+name	gom
+version	0.5.4-r1
+description	GObject Data Mapper
+url	https://gitlab.gnome.org/GNOME/gom
+license	LGPL-2.1-or-later
+size	51576
+installed-size	130451
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libsqlite3.so.0
+origin	gom
+repo	community
+file	gom-0.5.4-r1.apk
+checksum	Q1zIvhXpdTAVIGuAv2SmEtUVfayy8=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libsqlite3.so.0	sqlite-libs

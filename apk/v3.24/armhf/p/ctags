@@ -1,0 +1,15 @@
+name	ctags
+version	6.2.1-r0
+description	Generator of tags for all types of C/C++ languages
+url	https://ctags.io/
+license	GPL-2.0-or-later
+size	1175462
+installed-size	2887372
+depends	so:libc.musl-armhf.so.1 so:libjansson.so.4 so:libyaml-0.so.2
+origin	ctags
+repo	community
+file	ctags-6.2.1-r0.apk
+checksum	Q1jbtjmSFtJRP5AUpQ50S6TkYSL1M=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjansson.so.4	jansson
+dep	so:libyaml-0.so.2	yaml

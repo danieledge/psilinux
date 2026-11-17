@@ -1,0 +1,14 @@
+name	py3-numpy-dev
+version	2.4.6-r0
+description	Scientific tools for Python (development files)
+url	https://www.numpy.org/
+license	BSD-3-Clause
+size	464980
+installed-size	888913
+depends	py3-numpy=2.4.6-r0 python3~3.14
+origin	py3-numpy
+repo	community
+file	py3-numpy-dev-2.4.6-r0.apk
+checksum	Q1kskaMVzwHQIVYYLH6SiIYd7N5r4=
+dep	py3-numpy=2.4.6-r0	py3-numpy
+dep	python3~3.14	python3

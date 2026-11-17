@@ -1,0 +1,14 @@
+name	lighttpd-mod_auth
+version	1.4.85-r0
+description	Authentication module for lighttpd
+url	https://www.lighttpd.net
+license	BSD-3-Clause
+size	13946
+installed-size	25908
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	lighttpd
+repo	main
+file	lighttpd-mod_auth-1.4.85-r0.apk
+checksum	Q1LK73C94CVsNRxLjXfSOkJe1H8Uc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

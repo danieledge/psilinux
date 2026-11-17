@@ -1,0 +1,19 @@
+name	libsurvive-dev
+version	1.01-r5
+description	Open Source Lighthouse Tracking System (development files)
+url	https://github.com/cntools/libsurvive
+license	MIT
+size	59819
+installed-size	243324
+depends	eigen-dev libpcap-dev libusb-dev openblas-dev zlib-dev libsurvive=1.01-r5 pkgconfig
+origin	libsurvive
+repo	community
+file	libsurvive-dev-1.01-r5.apk
+checksum	Q1DKGMO4W/v4/SBvj/V4RsceH4GL0=
+dep	eigen-dev	eigen-dev
+dep	libpcap-dev	libpcap-dev
+dep	libusb-dev	libusb-dev
+dep	openblas-dev	openblas-dev
+dep	zlib-dev	zlib-dev
+dep	libsurvive=1.01-r5	libsurvive
+dep	pkgconfig	pkgconf

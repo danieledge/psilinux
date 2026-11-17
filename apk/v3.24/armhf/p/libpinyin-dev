@@ -1,0 +1,16 @@
+name	libpinyin-dev
+version	2.11.91-r0
+description	Library to deal with pinyin (development files)
+url	https://github.com/libpinyin/libpinyin
+license	GPL-3.0-or-later
+size	11843
+installed-size	62989
+depends	kyotocabinet-dev libpinyin=2.11.91-r0 pc:glib-2.0 pkgconfig
+origin	libpinyin
+repo	community
+file	libpinyin-dev-2.11.91-r0.apk
+checksum	Q15Z9XUf5ePSFl6keEuDvBa5c3L4w=
+dep	kyotocabinet-dev	kyotocabinet-dev
+dep	libpinyin=2.11.91-r0	libpinyin
+dep	pc:glib-2.0	glib-dev
+dep	pkgconfig	pkgconf

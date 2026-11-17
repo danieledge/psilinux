@@ -1,0 +1,16 @@
+name	ofdns
+version	1.5.7-r0
+description	Utility for performing DNS requests on the command line
+url	https://objfw.nil.im/
+license	LGPL-3.0-only
+size	12217
+installed-size	26204
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1
+origin	objfw
+repo	community
+file	ofdns-1.5.7-r0.apk
+checksum	Q17mwltJ2sBs9Y0NtII4g+7MNnS1c=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libobjfw.so.1	libobjfw1
+dep	so:libobjfwrt.so.1	libobjfwrt1

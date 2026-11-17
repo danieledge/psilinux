@@ -1,0 +1,18 @@
+name	fplll
+version	5.5.0-r1
+description	Lattice algorithms using floating-point arithmetic
+url	https://github.com/fplll/fplll
+license	LGPL-2.1-or-later
+size	47177
+installed-size	117504
+depends	so:libc.musl-armhf.so.1 so:libfplll.so.9 so:libgcc_s.so.1 so:libgmp.so.10 so:libmpfr.so.6 so:libstdc++.so.6
+origin	fplll
+repo	community
+file	fplll-5.5.0-r1.apk
+checksum	Q1GyEhRAY6p+tOvmpjObh/dUVYocE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfplll.so.9	fplll-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgmp.so.10	gmp
+dep	so:libmpfr.so.6	mpfr4
+dep	so:libstdc++.so.6	libstdc++

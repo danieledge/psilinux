@@ -1,0 +1,19 @@
+name	qtkeychain
+version	0.15.0-r0
+description	Qt API to store passwords and other secret data
+url	https://github.com/frankosterfeld/qtkeychain
+license	BSD-2-Clause
+size	51933
+installed-size	146172
+depends	dbus:org.freedesktop.Secrets so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libstdc++.so.6
+origin	qtkeychain
+repo	community
+file	qtkeychain-0.15.0-r0.apk
+checksum	Q1I0FqvX6oU21fqZFucMtIqnmCKBY=
+dep	dbus:org.freedesktop.Secrets	gnome-keyring
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6DBus.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,13 @@
+name	linux-firmware-other
+version	20260519-r0
+description	firmware files for linux (uncategorized)
+url	https://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git;a=summary
+license	custom
+size	5621654
+installed-size	5610170
+depends	/bin/sh
+origin	linux-firmware
+repo	main
+file	linux-firmware-other-20260519-r0.apk
+checksum	Q1t8hXy46sl9078ggfIK524F2y92g=
+dep	/bin/sh	busybox-binsh

@@ -1,0 +1,38 @@
+name	localsearch
+version	3.11.1-r0
+description	Data miners for tracker
+url	https://gitlab.gnome.org/GNOME/localsearch
+license	GPL-2.0-or-later
+size	376774
+installed-size	1049845
+depends	tinysparql so:libavformat.so.62 so:libc.musl-armhf.so.1 so:libexempi.so.8 so:libgexiv2-0.16.so.4 so:libgif.so.7 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgsf-1.so.114 so:libgstreamer-1.0.so.0 so:libgsttag-1.0.so.0 so:libicui18n.so.78 so:libintl.so.8 so:libjpeg.so.8 so:libosinfo-1.0.so.0 so:libpng16.so.16 so:libpoppler-glib.so.8 so:libseccomp.so.2 so:libtiff.so.6 so:libtinysparql-3.0.so.0 so:libtotem-plparser.so.18 so:libupower-glib.so.3 so:libwebpdemux.so.2 so:libxml2.so.2
+origin	localsearch
+repo	community
+file	localsearch-3.11.1-r0.apk
+checksum	Q17iuY9EOc1RXqbeR9a+Ez417SZE4=
+dep	tinysparql	tinysparql
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexempi.so.8	exempi-libs
+dep	so:libgexiv2-0.16.so.4	gexiv2-0.16
+dep	so:libgif.so.7	giflib
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgsf-1.so.114	libgsf
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgsttag-1.0.so.0	gst-plugins-base
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libintl.so.8	libintl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libosinfo-1.0.so.0	libosinfo
+dep	so:libpng16.so.16	libpng
+dep	so:libpoppler-glib.so.8	poppler-glib
+dep	so:libseccomp.so.2	libseccomp
+dep	so:libtiff.so.6	tiff
+dep	so:libtinysparql-3.0.so.0	libtinysparql
+dep	so:libtotem-plparser.so.18	totem-pl-parser
+dep	so:libupower-glib.so.3	upower
+dep	so:libwebpdemux.so.2	libwebpdemux
+dep	so:libxml2.so.2	libxml2

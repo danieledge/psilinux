@@ -1,0 +1,16 @@
+name	perl-furl
+version	3.15-r0
+description	Lightning-fast URL fetcher
+url	https://metacpan.org/release/Furl/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	23902
+installed-size	75665
+depends	perl perl-http-parser-xs perl-class-accessor-lite perl-mozilla-ca
+origin	perl-furl
+repo	community
+file	perl-furl-3.15-r0.apk
+checksum	Q1ZO+hBMoZn5z8Sit+HTR618vOm90=
+dep	perl	perl
+dep	perl-http-parser-xs	perl-http-parser-xs
+dep	perl-class-accessor-lite	perl-class-accessor-lite
+dep	perl-mozilla-ca	perl-mozilla-ca

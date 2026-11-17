@@ -1,0 +1,15 @@
+name	py3-blessed
+version	1.21.0-r2
+description	Easy, practical library for making terminal apps
+url	https://pypi.org/project/blessed/
+license	MIT
+size	56435
+installed-size	212489
+depends	python3 py3-wcwidth python3~3.14
+origin	py3-blessed
+repo	community
+file	py3-blessed-1.21.0-r2.apk
+checksum	Q1DiKF8wvIGdx9AFsHtGentAzG/YQ=
+dep	python3	python3
+dep	py3-wcwidth	py3-wcwidth
+dep	python3~3.14	python3

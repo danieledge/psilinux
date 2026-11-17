@@ -1,0 +1,13 @@
+name	ngtcp2
+version	1.22.1-r0
+description	Implementation of IETF QUIC protocol
+url	https://nghttp2.org/ngtcp2/
+license	MIT
+size	131359
+installed-size	255224
+depends	so:libc.musl-armhf.so.1
+origin	ngtcp2
+repo	main
+file	ngtcp2-1.22.1-r0.apk
+checksum	Q1V0KVR3IwGt6UnpD5XkQ3yytpSWY=
+dep	so:libc.musl-armhf.so.1	musl

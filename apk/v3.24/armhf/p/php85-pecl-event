@@ -1,0 +1,19 @@
+name	php85-pecl-event
+version	3.1.4-r0
+description	PHP 8.5 extension that provides interface to libevent library - PECL
+url	https://pecl.php.net/package/event
+license	PHP-3.01
+size	49402
+installed-size	136580
+depends	php85-sockets so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libevent_core-2.1.so.7 so:libevent_extra-2.1.so.7 so:libevent_openssl-2.1.so.7 so:libssl.so.3
+origin	php85-pecl-event
+repo	community
+file	php85-pecl-event-3.1.4-r0.apk
+checksum	Q1R8rqC/wkcQ3sS1Rzs85J6Wf0QLE=
+dep	php85-sockets	php85-sockets
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libevent_core-2.1.so.7	libevent
+dep	so:libevent_extra-2.1.so.7	libevent
+dep	so:libevent_openssl-2.1.so.7	libevent
+dep	so:libssl.so.3	libssl3

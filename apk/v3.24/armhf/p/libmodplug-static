@@ -1,0 +1,13 @@
+name	libmodplug-static
+version	0.8.9.0-r3
+description	A MOD playing library (static library)
+url	https://modplug-xmms.sourceforge.net/
+license	custom
+size	173593
+installed-size	387418
+depends	libmodplug-dev
+origin	libmodplug
+repo	community
+file	libmodplug-static-0.8.9.0-r3.apk
+checksum	Q1dSAyZiEyhAoNkkkWLu0yn1J9Uu0=
+dep	libmodplug-dev	libmodplug-dev

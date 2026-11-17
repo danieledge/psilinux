@@ -1,0 +1,23 @@
+name	libmspub-dev
+version	0.1.4-r24
+description	Import filter and tools for MS Publisher files (development files)
+url	https://wiki.documentfoundation.org/DLP/Libraries/libmspub
+license	MPL-2.0
+size	2816
+installed-size	2001
+depends	boost-dev librevenge-dev zlib-dev icu-dev libwpd-dev libwpg-dev libmspub=0.1.4-r24 pc:icu-i18n pc:librevenge-0.0 pc:zlib pkgconfig
+origin	libmspub
+repo	community
+file	libmspub-dev-0.1.4-r24.apk
+checksum	Q1+9tbWzNLRCbZ1QvWH0xJpdMqK4Q=
+dep	boost-dev	boost-dev
+dep	librevenge-dev	librevenge-dev
+dep	zlib-dev	zlib-dev
+dep	icu-dev	icu-dev
+dep	libwpd-dev	libwpd-dev
+dep	libwpg-dev	libwpg-dev
+dep	libmspub=0.1.4-r24	libmspub
+dep	pc:icu-i18n	icu-dev
+dep	pc:librevenge-0.0	librevenge-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	nymphrpc-dev
+version	0.1.1-r3
+description	Versatile and fast remote procedure call library (development files)
+url	https://github.com/MayaPosch/NymphRPC
+license	BSD-3-Clause
+size	8480
+installed-size	24264
+depends	poco-dev nymphrpc=0.1.1-r3
+origin	nymphrpc
+repo	community
+file	nymphrpc-dev-0.1.1-r3.apk
+checksum	Q1D6EIk0HzOehdrFrNbWCHdAOM0Dg=
+dep	poco-dev	poco-dev
+dep	nymphrpc=0.1.1-r3	nymphrpc

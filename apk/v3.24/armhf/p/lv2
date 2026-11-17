@@ -1,0 +1,13 @@
+name	lv2
+version	1.18.10-r1
+description	extensible open standard for audio plugins
+url	https://lv2plug.in
+license	ISC
+size	104296
+installed-size	407826
+depends	so:libc.musl-armhf.so.1
+origin	lv2
+repo	community
+file	lv2-1.18.10-r1.apk
+checksum	Q1iD7QMFt7DdBr44FKhIhOBM129mU=
+dep	so:libc.musl-armhf.so.1	musl

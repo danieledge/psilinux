@@ -1,0 +1,14 @@
+name	audiofile
+version	0.3.6-r3
+description	Silicon Graphics Audio File Library
+url	https://audiofile.68k.org/
+license	LGPL-2.1-or-later
+size	9915
+installed-size	22952
+depends	so:libaudiofile.so.1 so:libc.musl-armhf.so.1
+origin	audiofile
+repo	community
+file	audiofile-0.3.6-r3.apk
+checksum	Q1NbO//WocvHohRAEGXD6jHn7KJDQ=
+dep	so:libaudiofile.so.1	audiofile-libs
+dep	so:libc.musl-armhf.so.1	musl

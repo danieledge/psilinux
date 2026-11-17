@@ -1,0 +1,13 @@
+name	easy-rsa
+version	3.2.5-r0
+description	Simple shell based CA utility
+url	https://github.com/OpenVPN/easy-rsa
+license	GPL-2.0-only
+size	59559
+installed-size	209978
+depends	openssl
+origin	easy-rsa
+repo	community
+file	easy-rsa-3.2.5-r0.apk
+checksum	Q1Ibwcnp4W48m5keqd7t3y0CrT20M=
+dep	openssl	openssl

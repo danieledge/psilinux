@@ -1,0 +1,15 @@
+name	source-highlight-dev
+version	3.1.9-r14
+description	Produces a document with syntax highlighting (development files)
+url	https://www.gnu.org/software/src-highlite/
+license	GPL-3.0-or-later
+size	53427
+installed-size	190161
+depends	boost-dev source-highlight=3.1.9-r14 pkgconfig
+origin	source-highlight
+repo	main
+file	source-highlight-dev-3.1.9-r14.apk
+checksum	Q1EREel0LQtM0eTlsGwny2FuzTxDo=
+dep	boost-dev	boost-dev
+dep	source-highlight=3.1.9-r14	source-highlight
+dep	pkgconfig	pkgconf

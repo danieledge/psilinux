@@ -1,0 +1,15 @@
+name	irssi-tcl
+version	0_git20210919-r2
+description	Tcl scripting module for the irssi IRC client
+url	https://github.com/horgh/irssi-tcl
+license	GPL-3.0-or-later
+size	10004
+installed-size	21366
+depends	irssi so:libc.musl-armhf.so.1 so:libtcl8.6.so
+origin	irssi-tcl
+repo	community
+file	irssi-tcl-0_git20210919-r2.apk
+checksum	Q10j5eco29Cq6xObN++02+4mQzIZc=
+dep	irssi	irssi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libtcl8.6.so	tcl

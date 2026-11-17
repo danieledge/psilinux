@@ -1,0 +1,16 @@
+name	tpm2-tss-esys
+version	4.1.2-r0
+description	TPM 2.0 Enhanced System API libraries
+url	https://github.com/tpm2-software/tpm2-tss/
+license	BSD-2-Clause
+size	206960
+installed-size	661380
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libtss2-mu.so.0 so:libtss2-sys.so.1
+origin	tpm2-tss
+repo	community
+file	tpm2-tss-esys-4.1.2-r0.apk
+checksum	Q1lw+J93nMmxghUp5WfVsU9LOANIw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libtss2-mu.so.0	tpm2-tss-mu
+dep	so:libtss2-sys.so.1	tpm2-tss-sys

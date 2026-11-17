@@ -1,0 +1,17 @@
+name	sexpp-cli
+version	0.9.2-r0
+description	S-Expressions parser and generator utility
+url	https://github.com/rnpgp/sexpp
+license	MIT
+size	9454
+installed-size	17848
+depends	sexpp=0.9.2-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libsexpp.so.0 so:libstdc++.so.6
+origin	sexpp
+repo	community
+file	sexpp-cli-0.9.2-r0.apk
+checksum	Q1xaiuObPpw2y2Nr2fJYH28VmQp+c=
+dep	sexpp=0.9.2-r0	sexpp
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsexpp.so.0	sexpp
+dep	so:libstdc++.so.6	libstdc++

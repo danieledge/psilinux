@@ -1,0 +1,14 @@
+name	ncurses-terminfo
+version	6.6_p20260516-r0
+description	Console display library (other terminfo files)
+url	https://invisible-island.net/ncurses/
+license	X11
+size	567724
+installed-size	2191233
+depends	ncurses-terminfo-base=6.6_p20260516-r0 ncurses-terminfo-base=6.6_p20260516-r0
+origin	ncurses
+repo	main
+file	ncurses-terminfo-6.6_p20260516-r0.apk
+checksum	Q1HdXG8nBzz8k053peiYT+taTFgxM=
+dep	ncurses-terminfo-base=6.6_p20260516-r0	ncurses-terminfo-base
+dep	ncurses-terminfo-base=6.6_p20260516-r0	ncurses-terminfo-base

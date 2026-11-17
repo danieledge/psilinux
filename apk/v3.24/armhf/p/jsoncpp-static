@@ -1,0 +1,13 @@
+name	jsoncpp-static
+version	1.9.6-r1
+description	JSON C++ library (static library)
+url	https://github.com/open-source-parsers/jsoncpp
+license	Public-Domain
+size	99191
+installed-size	344582
+depends	jsoncpp-dev
+origin	jsoncpp
+repo	community
+file	jsoncpp-static-1.9.6-r1.apk
+checksum	Q1I0k6rMtP7wOWu2Cu5Wa17+bVx6Y=
+dep	jsoncpp-dev	jsoncpp-dev

@@ -1,0 +1,18 @@
+name	ocaml-otr-dev
+version	0.3.10-r5
+description	Off the record implementation purely in OCaml (development files)
+url	https://github.com/hannesm/ocaml-otr
+license	BSD-2-Clause
+size	539491
+installed-size	1333262
+depends	ocaml-otr=0.3.10-r5 ocaml-astring-dev ocaml-base64-dev ocaml-cstruct-dev ocaml-mirage-crypto-dev ocaml-sexplib0-dev
+origin	ocaml-otr
+repo	community
+file	ocaml-otr-dev-0.3.10-r5.apk
+checksum	Q1kpUv0WKVkq4ahobWShFE5zj1zp4=
+dep	ocaml-otr=0.3.10-r5	ocaml-otr
+dep	ocaml-astring-dev	ocaml-astring-dev
+dep	ocaml-base64-dev	ocaml-base64-dev
+dep	ocaml-cstruct-dev	ocaml-cstruct-dev
+dep	ocaml-mirage-crypto-dev	ocaml-mirage-crypto-dev
+dep	ocaml-sexplib0-dev	ocaml-sexplib0-dev

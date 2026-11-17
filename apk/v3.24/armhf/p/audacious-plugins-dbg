@@ -1,0 +1,12 @@
+name	audacious-plugins-dbg
+version	4.5.1-r0
+description	A playlist-oriented media player with multiple interfaces (plugins) (debug symbols)
+url	https://audacious-media-player.org/
+license	BSD-2-Clause AND BSD-3-Clause AND ISC AND GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-only AND GPL-3.0-or-later
+size	15681660
+installed-size	38563016
+depends	!audacious-plugins<4.5.1-r0 !audacious-plugins>4.5.1-r0
+origin	audacious-plugins
+repo	community
+file	audacious-plugins-dbg-4.5.1-r0.apk
+checksum	Q1pgPQ7Jt7yeGN6qCliG8bDHQXmdY=

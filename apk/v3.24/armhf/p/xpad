@@ -1,0 +1,23 @@
+name	xpad
+version	5.8.0-r0
+description	Stickies-like notes application
+url	https://launchpad.net/xpad
+license	GPL-3.0-only
+size	59002
+installed-size	142591
+depends	so:libICE.so.6 so:libSM.so.6 so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgtksourceview-4.so.0 so:libintl.so.8 so:libpango-1.0.so.0
+origin	xpad
+repo	community
+file	xpad-5.8.0-r0.apk
+checksum	Q1AGKnKlLnZOO2Ff8TAlpTHmxn/KE=
+dep	so:libICE.so.6	libice
+dep	so:libSM.so.6	libsm
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtksourceview-4.so.0	gtksourceview4
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango

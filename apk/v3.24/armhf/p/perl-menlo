@@ -1,0 +1,29 @@
+name	perl-menlo
+version	1.9019-r1
+description	Backend for cpanm 2.0 CPAN client
+url	https://metacpan.org/release/Menlo/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	8604
+installed-size	16799
+depends	perl perl-parse-pmfile perl-string-shellquote perl-cpan-meta-check perl-extutils-helpers perl-module-cpanfile perl-cpan-distnameinfo perl-uri perl-file-pushd perl-file-which perl-extutils-installpaths perl-cpan-common-index perl-http-tinyish perl-capture-tiny perl-class-tiny perl-extutils-config perl-local-lib
+origin	perl-menlo
+repo	community
+file	perl-menlo-1.9019-r1.apk
+checksum	Q1+NNrYPu+9dntYN2IA5N9v9g4wP8=
+dep	perl	perl
+dep	perl-parse-pmfile	perl-parse-pmfile
+dep	perl-string-shellquote	perl-string-shellquote
+dep	perl-cpan-meta-check	perl-cpan-meta-check
+dep	perl-extutils-helpers	perl-extutils-helpers
+dep	perl-module-cpanfile	perl-module-cpanfile
+dep	perl-cpan-distnameinfo	perl-cpan-distnameinfo
+dep	perl-uri	perl-uri
+dep	perl-file-pushd	perl-file-pushd
+dep	perl-file-which	perl-file-which
+dep	perl-extutils-installpaths	perl-extutils-installpaths
+dep	perl-cpan-common-index	perl-cpan-common-index
+dep	perl-http-tinyish	perl-http-tinyish
+dep	perl-capture-tiny	perl-capture-tiny
+dep	perl-class-tiny	perl-class-tiny
+dep	perl-extutils-config	perl-extutils-config
+dep	perl-local-lib	perl-local-lib

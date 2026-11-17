@@ -1,0 +1,16 @@
+name	usbutils
+version	019-r0
+description	USB Device Utilities
+url	https://linux-usb.sourceforge.net/
+license	GPL-2.0-or-later
+size	78945
+installed-size	194173
+depends	hwdata-usb so:libc.musl-armhf.so.1 so:libudev.so.1 so:libusb-1.0.so.0
+origin	usbutils
+repo	main
+file	usbutils-019-r0.apk
+checksum	Q1xzOgjqX8zCOuBCw5jG+NykPaY6Y=
+dep	hwdata-usb	hwdata-usb
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libudev.so.1	eudev-libs
+dep	so:libusb-1.0.so.0	libusb

@@ -1,0 +1,29 @@
+name	fvwm
+version	2.7.0-r3
+description	FVWM is a powerful desktop window manager for the X Window system
+url	http://fvwm.org
+license	GPL-2.0-or-later
+size	3088237
+installed-size	5075805
+depends	so:libICE.so.6 so:libSM.so.6 so:libX11.so.6 so:libXcursor.so.1 so:libXext.so.6 so:libXft.so.2 so:libXinerama.so.1 so:libXpm.so.4 so:libXrender.so.1 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libfontconfig.so.1 so:libgobject-2.0.so.0 so:libintl.so.8 so:libpng16.so.16 so:libreadline.so.8 so:librsvg-2.so.2
+origin	fvwm
+repo	community
+file	fvwm-2.7.0-r3.apk
+checksum	Q1wNsUa/J5XC7V3kG0Ga/zBda3q6M=
+dep	so:libICE.so.6	libice
+dep	so:libSM.so.6	libsm
+dep	so:libX11.so.6	libx11
+dep	so:libXcursor.so.1	libxcursor
+dep	so:libXext.so.6	libxext
+dep	so:libXft.so.2	libxft
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libXpm.so.4	libxpm
+dep	so:libXrender.so.1	libxrender
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libpng16.so.16	libpng
+dep	so:libreadline.so.8	readline
+dep	so:librsvg-2.so.2	librsvg

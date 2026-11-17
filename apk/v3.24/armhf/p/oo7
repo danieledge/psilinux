@@ -1,0 +1,16 @@
+name	oo7
+version	0.6.0-r4
+description	CLI application to interact with the system keyring
+url	https://github.com/linux-credentials/oo7
+license	MIT
+size	1295
+installed-size	0
+depends	oo7-cli oo7-pam oo7-portal oo7-server
+origin	oo7
+repo	community
+file	oo7-0.6.0-r4.apk
+checksum	Q1tt941EMllxyrzmdm+U471Upe2dM=
+dep	oo7-cli	oo7-cli
+dep	oo7-pam	oo7-pam
+dep	oo7-portal	oo7-portal
+dep	oo7-server	oo7-server

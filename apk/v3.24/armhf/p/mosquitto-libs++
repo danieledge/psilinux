@@ -1,0 +1,15 @@
+name	mosquitto-libs++
+version	2.1.2-r1
+description	C++ wrapper for libmosquitto
+url	https://mosquitto.org/
+license	EPL-1.0 OR EPL-2.0
+size	7327
+installed-size	17804
+depends	so:libgcc_s.so.1 so:libmosquitto.so.1 so:libstdc++.so.6
+origin	mosquitto
+repo	main
+file	mosquitto-libs++-2.1.2-r1.apk
+checksum	Q1ju+xnmUkvJsZ5EzWMjTIz2V4ZP8=
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmosquitto.so.1	mosquitto-libs
+dep	so:libstdc++.so.6	libstdc++

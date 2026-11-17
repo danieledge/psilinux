@@ -1,0 +1,13 @@
+name	udpcast
+version	20250223-r1
+description	Multicast file transfer tool
+url	https://www.udpcast.linux.lu/
+license	GPL-2.0-or-later AND BSD-2-Clause
+size	41461
+installed-size	81688
+depends	so:libc.musl-armhf.so.1
+origin	udpcast
+repo	community
+file	udpcast-20250223-r1.apk
+checksum	Q1bzKTRcJmpJJHQVpg3d5VVSlS/iQ=
+dep	so:libc.musl-armhf.so.1	musl

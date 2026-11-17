@@ -1,0 +1,14 @@
+name	py3-pytest-run-parallel
+version	0.9.1-r0
+description	pytest plugin to run tests concurrently
+url	https://github.com/Quansight-Labs/pytest-run-parallel
+license	MIT
+size	19378
+installed-size	57922
+depends	py3-pytest python3~3.14
+origin	py3-pytest-run-parallel
+repo	community
+file	py3-pytest-run-parallel-0.9.1-r0.apk
+checksum	Q1NphwAGGRPpLve4GE47AAJI67U7U=
+dep	py3-pytest	py3-pytest
+dep	python3~3.14	python3

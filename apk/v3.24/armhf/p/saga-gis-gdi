@@ -1,0 +1,20 @@
+name	saga-gis-gdi
+version	9.12.2-r0
+description	System for Automated Geoscientific Analyses (shared library files for developing graphical modules)
+url	https://saga-gis.sourceforge.io/en/index.html
+license	GPL-2.0-or-later
+size	117646
+installed-size	304512
+depends	saga-gis-common so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgomp.so.1 so:libsaga_api.so.9 so:libstdc++.so.6 so:libwx_baseu-3.2.so.0 so:libwx_gtk3u_core-3.2.so.0
+origin	saga-gis
+repo	community
+file	saga-gis-gdi-9.12.2-r0.apk
+checksum	Q1YAhLO6MYLwGO31w2HYUkVWC6dAg=
+dep	saga-gis-common	saga-gis-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgomp.so.1	libgomp
+dep	so:libsaga_api.so.9	saga-gis-api
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwx_baseu-3.2.so.0	wxwidgets
+dep	so:libwx_gtk3u_core-3.2.so.0	wxwidgets-gtk3

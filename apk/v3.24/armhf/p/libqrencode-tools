@@ -1,0 +1,15 @@
+name	libqrencode-tools
+version	4.1.1-r3
+description	Library for encoding QR codes
+url	https://fukuchi.org/works/qrencode/index.html
+license	LGPL-2.1-or-later
+size	13917
+installed-size	30056
+depends	so:libc.musl-armhf.so.1 so:libpng16.so.16 so:libqrencode.so.4
+origin	libqrencode
+repo	community
+file	libqrencode-tools-4.1.1-r3.apk
+checksum	Q1XNka/vGElYdEqZAygrxFto0RPAQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpng16.so.16	libpng
+dep	so:libqrencode.so.4	libqrencode

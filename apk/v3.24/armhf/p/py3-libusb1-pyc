@@ -1,0 +1,13 @@
+name	py3-libusb1-pyc
+version	3.3.1-r1
+description	Precompiled Python bytecode for py3-libusb1
+url	https://github.com/vpelletier/python-libusb1
+license	LGPL-2.1-only AND GPL-2.0-only
+size	72934
+installed-size	186702
+depends	python3~3.14
+origin	py3-libusb1
+repo	community
+file	py3-libusb1-pyc-3.3.1-r1.apk
+checksum	Q1AkEuoWKXjONCI0Ke9yDE4r1w+qU=
+dep	python3~3.14	python3

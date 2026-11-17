@@ -1,0 +1,13 @@
+name	chibi-scheme
+version	0.12-r0
+description	Minimal implementation of the R7RS scheme standard
+url	https://github.com/ashinn/chibi-scheme
+license	BSD-3-Clause
+size	919033
+installed-size	3907815
+depends	so:libc.musl-armhf.so.1
+origin	chibi-scheme
+repo	community
+file	chibi-scheme-0.12-r0.apk
+checksum	Q1BGZSvDnHbDVU5p3z9qDW7cVALZg=
+dep	so:libc.musl-armhf.so.1	musl

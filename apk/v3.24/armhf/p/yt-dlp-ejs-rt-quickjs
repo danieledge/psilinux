@@ -1,0 +1,14 @@
+name	yt-dlp-ejs-rt-quickjs
+version	0.8.0-r1
+description	External JavaScript for yt-dlp
+url	https://github.com/yt-dlp/ejs
+license	Unlicense
+size	1585
+installed-size	1
+depends	quickjs /bin/sh
+origin	yt-dlp-ejs
+repo	community
+file	yt-dlp-ejs-rt-quickjs-0.8.0-r1.apk
+checksum	Q1Y7UpKp2bvpMB6KGFgF5DDIStTFM=
+dep	quickjs	quickjs
+dep	/bin/sh	busybox-binsh

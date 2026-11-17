@@ -1,0 +1,17 @@
+name	wslu
+version	4.1.4-r0
+description	collection of utilities for Windows Subsystems for Linux
+url	https://wslutiliti.es/wslu
+license	GPL-3.0-or-later
+size	87596
+installed-size	272081
+depends	bc bash-completion-dev grep psmisc /bin/sh
+origin	wslu
+repo	community
+file	wslu-4.1.4-r0.apk
+checksum	Q1Ob63QSAiY5dU89/kOWZ7taI3ojE=
+dep	bc	bc
+dep	bash-completion-dev	bash-completion-dev
+dep	grep	grep
+dep	psmisc	psmisc
+dep	/bin/sh	busybox-binsh

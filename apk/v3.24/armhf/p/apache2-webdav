@@ -1,0 +1,14 @@
+name	apache2-webdav
+version	2.4.71-r0
+description	WebDAV support for the Apache HTTP Server
+url	https://httpd.apache.org/
+license	Apache-2.0
+size	66598
+installed-size	149154
+depends	apache2 so:libc.musl-armhf.so.1
+origin	apache2
+repo	main
+file	apache2-webdav-2.4.71-r0.apk
+checksum	Q1nhvX55D3uTVcvLlV86jPL9Q4JCw=
+dep	apache2	apache2
+dep	so:libc.musl-armhf.so.1	musl

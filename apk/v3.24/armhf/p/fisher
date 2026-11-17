@@ -1,0 +1,15 @@
+name	fisher
+version	1.0.0-r3
+description	Simple yet powerful webhooks catcher
+url	https://github.com/pietroalbini/fisher
+license	GPL-3.0-or-later
+size	695788
+installed-size	1488987
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	fisher
+repo	community
+file	fisher-1.0.0-r3.apk
+checksum	Q1xbLIBOFbZwqUVXWK1N+4DnM4puA=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

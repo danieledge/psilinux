@@ -1,0 +1,17 @@
+name	clsync-dev
+version	0.4.5-r4
+description	File live sync daemon based on inotify (development files)
+url	https://github.com/clsync/clsync
+license	GPL-3.0-or-later
+size	11849
+installed-size	35024
+depends	glib-dev musl-fts-dev libcap-dev linux-headers musl-dev
+origin	clsync
+repo	community
+file	clsync-dev-0.4.5-r4.apk
+checksum	Q14ilQ18X3J+0qjl8Sq2w/NpY171E=
+dep	glib-dev	glib-dev
+dep	musl-fts-dev	musl-fts-dev
+dep	libcap-dev	libcap-dev
+dep	linux-headers	linux-headers
+dep	musl-dev	musl-dev

@@ -1,0 +1,19 @@
+name	kea-common
+version	3.0.3-r0
+description	Common files and libraries for Kea DHCP Server
+url	https://kea.isc.org/
+license	MPL-2.0
+size	2452328
+installed-size	6379416
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:liblog4cplus-2.1.so.9 so:libssl.so.3 so:libstdc++.so.6
+origin	kea
+repo	main
+file	kea-common-3.0.3-r0.apk
+checksum	Q1lyBDvgGMAlt5XMao0qEu+zlXGSU=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblog4cplus-2.1.so.9	log4cplus
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++

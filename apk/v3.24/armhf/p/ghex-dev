@@ -1,0 +1,15 @@
+name	ghex-dev
+version	50.2-r0
+description	A hex editor for GNOME (development files)
+url	https://gitlab.gnome.org/GNOME/ghex
+license	GPL-2.0-or-later
+size	6796
+installed-size	19691
+depends	ghex=50.2-r0 pc:gtk4 pkgconfig
+origin	ghex
+repo	community
+file	ghex-dev-50.2-r0.apk
+checksum	Q1DaMV3JNP7rBsK2vFfFoSqqneptA=
+dep	ghex=50.2-r0	ghex
+dep	pc:gtk4	gtk4.0-dev
+dep	pkgconfig	pkgconf

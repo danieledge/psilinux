@@ -1,0 +1,14 @@
+name	isa-l-dev
+version	2.31.0-r1
+description	Intelligent Storage Acceleration Library (development files)
+url	https://github.com/intel/isa-l
+license	BSD-3-Clause
+size	24708
+installed-size	130896
+depends	isa-l=2.31.0-r1 pkgconfig
+origin	isa-l
+repo	community
+file	isa-l-dev-2.31.0-r1.apk
+checksum	Q1tfJz2wWVD3IEmSpM+uJvy1QymtQ=
+dep	isa-l=2.31.0-r1	isa-l
+dep	pkgconfig	pkgconf

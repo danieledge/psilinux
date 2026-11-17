@@ -1,0 +1,13 @@
+name	lua5.2-md5
+version	1.3-r3
+description	Basic cryptographic facilities for Lua 5.2
+url	https://github.com/keplerproject/md5
+license	MIT
+size	10635
+installed-size	19600
+depends	so:libc.musl-armhf.so.1
+origin	lua-md5
+repo	main
+file	lua5.2-md5-1.3-r3.apk
+checksum	Q1NQ4hkfpYSQLpnVvgI2dNMcgGs6s=
+dep	so:libc.musl-armhf.so.1	musl

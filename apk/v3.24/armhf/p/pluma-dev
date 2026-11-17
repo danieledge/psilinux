@@ -1,0 +1,16 @@
+name	pluma-dev
+version	1.28.1-r0
+description	A small and lightweight UTF-8 text editor for the MATE (development files)
+url	https://github.com/mate-desktop/pluma
+license	GPL-2.0-or-later
+size	46676
+installed-size	457837
+depends	pc:gtksourceview-4 pc:libpeas-1.0 pc:libpeas-gtk-1.0 pkgconfig
+origin	pluma
+repo	community
+file	pluma-dev-1.28.1-r0.apk
+checksum	Q1Kc6G2byplolFe9MWACutj88N5qU=
+dep	pc:gtksourceview-4	gtksourceview4-dev
+dep	pc:libpeas-1.0	libpeas-dev
+dep	pc:libpeas-gtk-1.0	libpeas-dev
+dep	pkgconfig	pkgconf

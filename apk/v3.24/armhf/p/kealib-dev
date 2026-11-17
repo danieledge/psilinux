@@ -1,0 +1,13 @@
+name	kealib-dev
+version	1.6.2-r0
+description	KEA is an image file format that provides a full implementation of the GDAL data model (development files)
+url	http://www.kealib.org/
+license	MIT
+size	13014
+installed-size	63337
+depends	kealib=1.6.2-r0
+origin	kealib
+repo	community
+file	kealib-dev-1.6.2-r0.apk
+checksum	Q1z3J+2XNBOePhsdAh4pJlLN4AzXU=
+dep	kealib=1.6.2-r0	kealib

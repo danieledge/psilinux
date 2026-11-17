@@ -1,0 +1,14 @@
+name	libdng
+version	0.2.2-r0
+description	Interface library between libtiff and the world to make sure the output is valid DNG
+url	https://gitlab.com/megapixels-org/libdng
+license	MIT
+size	11141
+installed-size	21784
+depends	so:libc.musl-armhf.so.1 so:libtiff.so.6
+origin	libdng
+repo	community
+file	libdng-0.2.2-r0.apk
+checksum	Q1cZ3Foo4XCWWIa/PYEmwpz2n3T1E=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libtiff.so.6	tiff

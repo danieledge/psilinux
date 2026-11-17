@@ -1,0 +1,20 @@
+name	py3-acme
+version	5.6.0-r0
+description	ACME protocol implementation in Python
+url	https://github.com/certbot/certbot
+license	Apache-2.0
+size	84747
+installed-size	275410
+depends	py3-cryptography py3-josepy py3-openssl py3-pyrfc3339 py3-requests py3-setuptools py3-tz python3~3.14
+origin	py3-acme
+repo	community
+file	py3-acme-5.6.0-r0.apk
+checksum	Q1HQwGmGwwjWPKUyCGWjOk0bRJTDo=
+dep	py3-cryptography	py3-cryptography
+dep	py3-josepy	py3-josepy
+dep	py3-openssl	py3-openssl
+dep	py3-pyrfc3339	py3-pyrfc3339
+dep	py3-requests	py3-requests
+dep	py3-setuptools	py3-setuptools
+dep	py3-tz	py3-tz
+dep	python3~3.14	python3

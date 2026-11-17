@@ -1,0 +1,12 @@
+name	net-snmp-dbg
+version	5.9.5.2-r0
+description	Simple Network Management Protocol (debug symbols)
+url	http://www.net-snmp.org/
+license	Net-SNMP
+size	3006480
+installed-size	7497056
+depends	!net-snmp-agent-libs<5.9.5.2-r0 !net-snmp-agent-libs>5.9.5.2-r0 !net-snmp-libs<5.9.5.2-r0 !net-snmp-libs>5.9.5.2-r0 !net-snmp-perl<5.9.5.2-r0 !net-snmp-perl>5.9.5.2-r0 !net-snmp-tools<5.9.5.2-r0 !net-snmp-tools>5.9.5.2-r0 !net-snmp<5.9.5.2-r0 !net-snmp>5.9.5.2-r0
+origin	net-snmp
+repo	main
+file	net-snmp-dbg-5.9.5.2-r0.apk
+checksum	Q1L9HQDAREahTYq7Suu2HrttaWMYY=

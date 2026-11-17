@@ -1,0 +1,16 @@
+name	taplo
+version	0.10.0-r0
+description	A TOML toolkit written in Rust
+url	https://taplo.tamasfe.dev/
+license	MIT
+size	2327174
+installed-size	5233680
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
+origin	taplo
+repo	community
+file	taplo-0.10.0-r0.apk
+checksum	Q1fCRZHIwJX92vMhhrfvWxs4m4Zzg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3

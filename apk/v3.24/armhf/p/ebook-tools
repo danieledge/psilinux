@@ -1,0 +1,15 @@
+name	ebook-tools
+version	0.2.2-r5
+description	Tools for accessing and converting various ebook file formats.
+url	https://sourceforge.net/projects/ebook-tools/
+license	MIT
+size	21816
+installed-size	53018
+depends	so:libc.musl-armhf.so.1 so:libxml2.so.2 so:libzip.so.5
+origin	ebook-tools
+repo	community
+file	ebook-tools-0.2.2-r5.apk
+checksum	Q11AinMu1rnvXU3Y8xuOOXLgWlz+I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxml2.so.2	libxml2
+dep	so:libzip.so.5	libzip

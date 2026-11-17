@@ -1,0 +1,15 @@
+name	wv-dev
+version	1.2.9-r7
+description	A library that can load and parse Word 2000, 97, 95 and 6 file formats (development files)
+url	https://sourceforge.net/projects/wvware/
+license	GPL-2.0-or-later
+size	181664
+installed-size	555873
+depends	wv=1.2.9-r7 pc:libgsf-1>=1.13.0 pkgconfig
+origin	wv
+repo	community
+file	wv-dev-1.2.9-r7.apk
+checksum	Q1LYzCsgCuWHMRE2CerrM/8V5Gesk=
+dep	wv=1.2.9-r7	wv
+dep	pc:libgsf-1>=1.13.0	libgsf-dev
+dep	pkgconfig	pkgconf

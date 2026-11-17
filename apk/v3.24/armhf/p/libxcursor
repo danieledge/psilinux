@@ -1,0 +1,16 @@
+name	libxcursor
+version	1.2.3-r0
+description	X cursor management library
+url	https://xorg.freedesktop.org/
+license	MIT
+size	17648
+installed-size	33912
+depends	so:libX11.so.6 so:libXfixes.so.3 so:libXrender.so.1 so:libc.musl-armhf.so.1
+origin	libxcursor
+repo	main
+file	libxcursor-1.2.3-r0.apk
+checksum	Q1HBGajRRucHJKtN5NtsFiglBGL3g=
+dep	so:libX11.so.6	libx11
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXrender.so.1	libxrender
+dep	so:libc.musl-armhf.so.1	musl

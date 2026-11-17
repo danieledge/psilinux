@@ -1,0 +1,13 @@
+name	logrotate-syslog
+version	3.22.0-r0
+description	Rotation for the main syslog file
+url	https://github.com/logrotate/logrotate
+license	GPL-2.0-or-later
+size	1558
+installed-size	21
+depends	logrotate
+origin	logrotate
+repo	main
+file	logrotate-syslog-3.22.0-r0.apk
+checksum	Q1TMadgAL0v+r7IQoNX/1KguQqZjQ=
+dep	logrotate	logrotate

@@ -1,0 +1,22 @@
+name	g++
+version	15.2.0-r5
+description	GNU C++ standard library and compiler
+url	https://gcc.gnu.org
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	14743057
+installed-size	33125284
+depends	libstdc++-dev=15.2.0-r5 gcc=15.2.0-r5 musl-dev libstdc++=15.2.0-r5 so:libc.musl-armhf.so.1 so:libgmp.so.10 so:libisl.so.23 so:libmpc.so.3 so:libmpfr.so.6 so:libz.so.1
+origin	gcc
+repo	main
+file	g++-15.2.0-r5.apk
+checksum	Q1w7N2GV4v6Kqm7tEuc+Ws2GfwChA=
+dep	libstdc++-dev=15.2.0-r5	libstdc++-dev
+dep	gcc=15.2.0-r5	gcc
+dep	musl-dev	musl-dev
+dep	libstdc++=15.2.0-r5	libstdc++
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgmp.so.10	gmp
+dep	so:libisl.so.23	isl25
+dep	so:libmpc.so.3	mpc1
+dep	so:libmpfr.so.6	mpfr4
+dep	so:libz.so.1	zlib

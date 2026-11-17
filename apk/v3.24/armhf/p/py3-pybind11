@@ -1,0 +1,13 @@
+name	py3-pybind11
+version	3.0.1-r1
+description	Seamless operability between C++11 and Python
+url	https://github.com/pybind/pybind11
+license	MPL-2.0
+size	37064
+installed-size	108747
+depends	python3~3.14
+origin	py3-pybind11
+repo	community
+file	py3-pybind11-3.0.1-r1.apk
+checksum	Q12cZ+iqfZuCZVdDSN1QkEksHQf3s=
+dep	python3~3.14	python3

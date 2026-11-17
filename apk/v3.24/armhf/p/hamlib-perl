@@ -1,0 +1,15 @@
+name	hamlib-perl
+version	4.7.1-r0
+description	Perl bindings for hamlib
+url	https://hamlib.github.io/
+license	LGPL-2.0-or-later
+size	315283
+installed-size	1588308
+depends	perl so:libc.musl-armhf.so.1 so:libhamlib.so.4
+origin	hamlib
+repo	community
+file	hamlib-perl-4.7.1-r0.apk
+checksum	Q10bKhz4qOJQVzOzCN0zZY6BtHx/A=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libhamlib.so.4	hamlib

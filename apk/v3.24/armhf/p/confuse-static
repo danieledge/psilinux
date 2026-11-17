@@ -1,0 +1,13 @@
+name	confuse-static
+version	3.3-r4
+description	C library for parsing configuration files (static library)
+url	https://github.com/libconfuse/libconfuse
+license	ISC
+size	21266
+installed-size	47378
+depends	confuse-dev
+origin	confuse
+repo	main
+file	confuse-static-3.3-r4.apk
+checksum	Q1hH+wUXKuZIxa+Hi3oPtuNmYbfak=
+dep	confuse-dev	confuse-dev

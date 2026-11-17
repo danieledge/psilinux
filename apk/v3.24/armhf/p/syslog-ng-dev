@@ -1,0 +1,15 @@
+name	syslog-ng-dev
+version	4.11.0-r0
+description	Next generation logging daemon (development files)
+url	https://www.syslog-ng.com/products/open-source-log-management/
+license	GPL-2.0-or-later
+size	170774
+installed-size	940069
+depends	syslog-ng=4.11.0-r0 pc:glib-2.0 pkgconfig
+origin	syslog-ng
+repo	main
+file	syslog-ng-dev-4.11.0-r0.apk
+checksum	Q1vnd/vsk5ivCwzgAnZuKgfixFzxI=
+dep	syslog-ng=4.11.0-r0	syslog-ng
+dep	pc:glib-2.0	glib-dev
+dep	pkgconfig	pkgconf

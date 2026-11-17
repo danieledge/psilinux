@@ -1,0 +1,14 @@
+name	font-noto-canadian-aboriginal
+version	2026.11.01-r0
+description	Noto Sans Canadian Aboriginal font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	567208
+installed-size	1538286
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-canadian-aboriginal-2026.11.01-r0.apk
+checksum	Q1yW/M5sBwYXEu7cuqv70FWHFcsrg=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

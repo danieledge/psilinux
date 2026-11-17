@@ -1,0 +1,18 @@
+name	xbps
+version	0.60.6-r1
+description	The X Binary Package System
+url	https://github.com/void-linux/xbps
+license	BSD-2-Clause AND BSD-3-Clause AND ISC
+size	210532
+installed-size	529850
+depends	ca-certificates so:libarchive.so.13 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3 so:libz.so.1
+origin	xbps
+repo	community
+file	xbps-0.60.6-r1.apk
+checksum	Q1uULY8CyaZcXdTGWbtyyQD8gzEqM=
+dep	ca-certificates	ca-certificates
+dep	so:libarchive.so.13	libarchive
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3
+dep	so:libz.so.1	zlib

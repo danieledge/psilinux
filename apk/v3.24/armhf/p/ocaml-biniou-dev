@@ -1,0 +1,13 @@
+name	ocaml-biniou-dev
+version	1.2.1-r8
+description	Extensible binary data format, like JSON but faster (development files)
+url	https://github.com/ocaml-community/biniou
+license	BSD-3-Clause
+size	373412
+installed-size	928516
+depends	ocaml-biniou=1.2.1-r8
+origin	ocaml-biniou
+repo	community
+file	ocaml-biniou-dev-1.2.1-r8.apk
+checksum	Q1MlBCWC3Kxe6Cl8V++3ngooOxqpM=
+dep	ocaml-biniou=1.2.1-r8	ocaml-biniou

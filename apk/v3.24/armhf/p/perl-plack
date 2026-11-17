@@ -1,0 +1,28 @@
+name	perl-plack
+version	1.0054-r0
+description	Perl Superglue for Web frameworks and Web Servers (PSGI toolkit)
+url	https://metacpan.org/release/Plack/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	119053
+installed-size	343869
+depends	perl perl-file-sharedir perl-filesys-notify-simple perl-stream-buffered perl-uri perl-devel-stacktrace-ashtml perl-test-tcp perl-try-tiny perl-apache-logformat-compiler perl-hash-multivalue perl-http-message perl-cookie-baker perl-www-form-urlencoded perl-http-entity-parser perl-http-headers-fast perl-devel-stacktrace
+origin	perl-plack
+repo	community
+file	perl-plack-1.0054-r0.apk
+checksum	Q1vOjVvbVyhtZ9gPbCSR6X96OpQFU=
+dep	perl	perl
+dep	perl-file-sharedir	perl-file-sharedir
+dep	perl-filesys-notify-simple	perl-filesys-notify-simple
+dep	perl-stream-buffered	perl-stream-buffered
+dep	perl-uri	perl-uri
+dep	perl-devel-stacktrace-ashtml	perl-devel-stacktrace-ashtml
+dep	perl-test-tcp	perl-test-tcp
+dep	perl-try-tiny	perl-try-tiny
+dep	perl-apache-logformat-compiler	perl-apache-logformat-compiler
+dep	perl-hash-multivalue	perl-hash-multivalue
+dep	perl-http-message	perl-http-message
+dep	perl-cookie-baker	perl-cookie-baker
+dep	perl-www-form-urlencoded	perl-www-form-urlencoded
+dep	perl-http-entity-parser	perl-http-entity-parser
+dep	perl-http-headers-fast	perl-http-headers-fast
+dep	perl-devel-stacktrace	perl-devel-stacktrace

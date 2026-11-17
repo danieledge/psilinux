@@ -1,0 +1,14 @@
+name	autotiling
+version	1.9.3-r1
+description	Script for sway and i3 to automatically switch the horizontal/vertical window split orientation
+url	https://github.com/nwg-piotr/autotiling
+license	GPL-3.0-or-later
+size	20654
+installed-size	50546
+depends	py3-i3ipc python3~3.14
+origin	autotiling
+repo	community
+file	autotiling-1.9.3-r1.apk
+checksum	Q1nXgaPGyId0ek2Go+Jf/nzQ9tKLA=
+dep	py3-i3ipc	py3-i3ipc
+dep	python3~3.14	python3

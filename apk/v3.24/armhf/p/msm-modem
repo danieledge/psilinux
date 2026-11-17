@@ -1,0 +1,13 @@
+name	msm-modem
+version	13-r1
+description	Common support for Qualcomm MSM modems
+url	https://gitlab.postmarketos.org/postmarketOS/msm-modem#
+license	GPL-3.0-or-later
+size	1286
+installed-size	0
+depends	msm-modem-uim-selection
+origin	msm-modem
+repo	community
+file	msm-modem-13-r1.apk
+checksum	Q1+qJDVQEDqgHGLoVMsib/FsdiOgI=
+dep	msm-modem-uim-selection	msm-modem-uim-selection

@@ -1,0 +1,15 @@
+name	perl-pod-coverage
+version	0.23-r8
+description	Checks if the documentation of a module is comprehensive
+url	https://metacpan.org/release/Pod-Coverage/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	8165
+installed-size	17523
+depends	perl perl-devel-symdump perl-pod-parser
+origin	perl-pod-coverage
+repo	main
+file	perl-pod-coverage-0.23-r8.apk
+checksum	Q14wuN/0qsQrORvHE3tvhH+eShOlM=
+dep	perl	perl
+dep	perl-devel-symdump	perl-devel-symdump
+dep	perl-pod-parser	perl-pod-parser

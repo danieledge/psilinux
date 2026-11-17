@@ -1,0 +1,21 @@
+name	sakura
+version	3.8.9-r0
+description	Sakura Terminal Emulator
+url	https://launchpad.net/sakura
+license	GPL-2.0-only
+size	34229
+installed-size	88322
+depends	so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libvte-2.91.so.0
+origin	sakura
+repo	community
+file	sakura-3.8.9-r0.apk
+checksum	Q1O8CncNauVOeoQaW32FiAKz1d6Sk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libvte-2.91.so.0	vte3

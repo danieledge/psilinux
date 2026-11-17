@@ -1,0 +1,24 @@
+name	libsoup3
+version	3.6.6-r0
+description	Gnome HTTP client/server Library
+url	https://libsoup.gnome.org
+license	LGPL-2.0-or-later
+size	236699
+installed-size	572168
+depends	glib-networking gsettings-desktop-schemas so:libbrotlidec.so.1 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libnghttp2.so.14 so:libpsl.so.5 so:libsqlite3.so.0 so:libz.so.1
+origin	libsoup3
+repo	community
+file	libsoup3-3.6.6-r0.apk
+checksum	Q1Qg6rp0wSRBLI8fMWtj2t7z6K4hI=
+dep	glib-networking	glib-networking
+dep	gsettings-desktop-schemas	gsettings-desktop-schemas
+dep	so:libbrotlidec.so.1	brotli-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libnghttp2.so.14	nghttp2-libs
+dep	so:libpsl.so.5	libpsl
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libz.so.1	zlib

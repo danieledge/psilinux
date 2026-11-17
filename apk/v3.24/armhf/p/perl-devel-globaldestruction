@@ -1,0 +1,14 @@
+name	perl-devel-globaldestruction
+version	0.14-r5
+description	Function returning the equivalent of C<${^GLOBAL_PHASE} eq 'DESTRUCT'> for older perls.
+url	https://metacpan.org/release/Devel-GlobalDestruction/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	3437
+installed-size	2775
+depends	perl perl-sub-exporter-progressive
+origin	perl-devel-globaldestruction
+repo	main
+file	perl-devel-globaldestruction-0.14-r5.apk
+checksum	Q1MWiLX2vQ4KMHEdYASV2lurwdupM=
+dep	perl	perl
+dep	perl-sub-exporter-progressive	perl-sub-exporter-progressive

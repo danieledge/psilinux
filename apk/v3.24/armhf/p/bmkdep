@@ -1,0 +1,13 @@
+name	bmkdep
+version	20140112-r1
+description	Construct Makefile dependency list
+url	https://github.com/trociny/bmkdep
+license	BSD-2-Clause
+size	6789
+installed-size	13516
+depends	so:libc.musl-armhf.so.1
+origin	bmkdep
+repo	community
+file	bmkdep-20140112-r1.apk
+checksum	Q1WFOl61ZIk3W4/k6VeW6YYYikh+M=
+dep	so:libc.musl-armhf.so.1	musl

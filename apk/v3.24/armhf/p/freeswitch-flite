@@ -1,0 +1,20 @@
+name	freeswitch-flite
+version	1.10.12-r6
+description	Freeswitch Text To Speech Module
+url	https://www.freeswitch.org/
+license	MPL-1.1
+size	4215
+installed-size	9360
+depends	so:libc.musl-armhf.so.1 so:libflite.so.1 so:libflite_cmu_us_awb.so.1 so:libflite_cmu_us_kal.so.1 so:libflite_cmu_us_kal16.so.1 so:libflite_cmu_us_rms.so.1 so:libflite_cmu_us_slt.so.1 so:libfreeswitch.so.1
+origin	freeswitch
+repo	main
+file	freeswitch-flite-1.10.12-r6.apk
+checksum	Q17imktUFbCWnTANJiWdh8TbNFQB8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libflite.so.1	flite
+dep	so:libflite_cmu_us_awb.so.1	flite
+dep	so:libflite_cmu_us_kal.so.1	flite
+dep	so:libflite_cmu_us_kal16.so.1	flite
+dep	so:libflite_cmu_us_rms.so.1	flite
+dep	so:libflite_cmu_us_slt.so.1	flite
+dep	so:libfreeswitch.so.1	freeswitch

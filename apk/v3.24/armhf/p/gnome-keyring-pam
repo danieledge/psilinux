@@ -1,0 +1,14 @@
+name	gnome-keyring-pam
+version	50.0-r0
+description	PAM module for gnome-keyring
+url	https://gitlab.gnome.org/GNOME/gnome-keyring
+license	GPL-2.0-only LGPL-2.0-only
+size	11937
+installed-size	25860
+depends	so:libc.musl-armhf.so.1 so:libpam.so.0
+origin	gnome-keyring
+repo	community
+file	gnome-keyring-pam-50.0-r0.apk
+checksum	Q19Y51nYUx5ou+84gQjE0kfehw7gQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpam.so.0	linux-pam

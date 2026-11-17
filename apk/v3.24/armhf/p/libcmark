@@ -1,0 +1,13 @@
+name	libcmark
+version	0.31.2-r0
+description	C reference implementation of CommonMark, a rationalized Markdown spec (libraries)
+url	https://github.com/commonmark/cmark
+license	BSD-2-Clause
+size	70431
+installed-size	152760
+depends	so:libc.musl-armhf.so.1
+origin	cmark
+repo	community
+file	libcmark-0.31.2-r0.apk
+checksum	Q1J0dCAgN/qkyMwW1KlupdHappb2c=
+dep	so:libc.musl-armhf.so.1	musl

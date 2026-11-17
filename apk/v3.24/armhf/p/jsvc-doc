@@ -1,0 +1,13 @@
+name	jsvc-doc
+version	1.4.1-r1
+description	Tools to allow Java programs to run as UNIX daemons
+url	https://commons.apache.org/daemon/
+license	Apache-2.0
+size	3305
+installed-size	1552
+depends	java-jre-headless
+origin	commons-daemon
+repo	community
+file	jsvc-doc-1.4.1-r1.apk
+checksum	Q1ny0IO3bsbjVD/yrDgFUkAZdlV4g=
+dep	java-jre-headless	openjdk8-jre-base

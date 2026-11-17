@@ -1,0 +1,14 @@
+name	py3-astor
+version	0.8.1_git20260217-r1
+description	Easy manipulation of Python source via the AST
+url	https://github.com/berkerpeksag/astor
+license	BSD-3-Clause-Clear
+size	24636
+installed-size	76887
+depends	python3 python3~3.14
+origin	py3-astor
+repo	community
+file	py3-astor-0.8.1_git20260217-r1.apk
+checksum	Q1iO9dWA1al7e8VOn8OEt3oR0pNaQ=
+dep	python3	python3
+dep	python3~3.14	python3

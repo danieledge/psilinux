@@ -1,0 +1,15 @@
+name	nagios-plugins
+version	2.5-r0
+description	Plugins for Nagios to check services on hosts
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	48023
+installed-size	107368
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-2.5-r0.apk
+checksum	Q1n3KOgskY2F+Ir1cW0PyTUDH5uRs=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

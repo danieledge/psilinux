@@ -1,0 +1,18 @@
+name	openvas-scanner-config
+version	23.45.5-r0
+description	Configuration files and scripts for openvas
+url	https://openvas.org/
+license	GPL-2.0-only
+size	1970
+installed-size	214
+depends	redis nmap coreutils openssl util-linux rsync
+origin	openvas-scanner
+repo	community
+file	openvas-scanner-config-23.45.5-r0.apk
+checksum	Q1+crXMlDyFpXMoK9lY4ZfdHKfRRg=
+dep	redis	redis
+dep	nmap	nmap
+dep	coreutils	coreutils
+dep	openssl	openssl
+dep	util-linux	util-linux
+dep	rsync	rsync

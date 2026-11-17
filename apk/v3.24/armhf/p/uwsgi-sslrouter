@@ -1,0 +1,15 @@
+name	uwsgi-sslrouter
+version	2.0.31-r2
+description	uWSGI plugin sslrouter
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	7698
+installed-size	14572
+depends	uwsgi uwsgi-corerouter so:libc.musl-armhf.so.1
+origin	uwsgi
+repo	main
+file	uwsgi-sslrouter-2.0.31-r2.apk
+checksum	Q1taTDFb/PudF56Vnj+lfFm2BvL1A=
+dep	uwsgi	uwsgi
+dep	uwsgi-corerouter	uwsgi-corerouter
+dep	so:libc.musl-armhf.so.1	musl

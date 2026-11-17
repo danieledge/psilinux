@@ -1,0 +1,22 @@
+name	libmateweather
+version	1.28.0-r1
+description	Library to access weather information from online services for numerous locations
+url	https://github.com/mate-desktop/libmateweather
+license	GPL-2.0-or-later
+size	18996366
+installed-size	117210085
+depends	mate-common so:libc.musl-armhf.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libsoup-3.0.so.0 so:libxml2.so.2
+origin	libmateweather
+repo	community
+file	libmateweather-1.28.0-r1.apk
+checksum	Q1KBbAFjUwOLqj8I6as8vKU4L8wAg=
+dep	mate-common	mate-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libxml2.so.2	libxml2

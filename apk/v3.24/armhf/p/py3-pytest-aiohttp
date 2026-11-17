@@ -1,0 +1,15 @@
+name	py3-pytest-aiohttp
+version	1.1.0-r1
+description	pytest plugin for aiohttp support
+url	https://github.com/aio-libs/pytest-aiohttp/
+license	Apache-2.0
+size	9934
+installed-size	21467
+depends	py3-aiohttp py3-pytest-asyncio python3~3.14
+origin	py3-pytest-aiohttp
+repo	community
+file	py3-pytest-aiohttp-1.1.0-r1.apk
+checksum	Q1sDAF90X/w7C0QeKGhxYCaZbRL6o=
+dep	py3-aiohttp	py3-aiohttp
+dep	py3-pytest-asyncio	py3-pytest-asyncio
+dep	python3~3.14	python3

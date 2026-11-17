@@ -1,0 +1,15 @@
+name	pass
+version	1.7.4-r3
+description	Stores, retrieves, generates, and synchronizes passwords securely
+url	https://www.passwordstore.org
+license	GPL-2.0-or-later
+size	9396
+installed-size	25799
+depends	bash tree cmd:gpg2
+origin	pass
+repo	community
+file	pass-1.7.4-r3.apk
+checksum	Q1mhn8YyxaDBbcZJ92t+k8k+Ovp/M=
+dep	bash	bash
+dep	tree	tree
+dep	cmd:gpg2	gpg

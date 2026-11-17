@@ -1,0 +1,17 @@
+name	kealib
+version	1.6.2-r0
+description	KEA is an image file format that provides a full implementation of the GDAL data model
+url	http://www.kealib.org/
+license	MIT
+size	133784
+installed-size	341376
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libhdf5.so.311 so:libhdf5_cpp.so.310 so:libstdc++.so.6
+origin	kealib
+repo	community
+file	kealib-1.6.2-r0.apk
+checksum	Q1jWpZG8FeiKu7ikzZgD7zID9dtCc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libhdf5.so.311	hdf5
+dep	so:libhdf5_cpp.so.310	hdf5-cpp
+dep	so:libstdc++.so.6	libstdc++

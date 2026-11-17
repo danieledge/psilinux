@@ -1,0 +1,13 @@
+name	ifupdown-ng-wireguard
+version	0.13.0-r0
+description	ifupdown-ng integration for wireguard
+url	https://github.com/ifupdown-ng/ifupdown-ng
+license	ISC
+size	1797
+installed-size	321
+depends	wireguard-tools-wg
+origin	ifupdown-ng
+repo	main
+file	ifupdown-ng-wireguard-0.13.0-r0.apk
+checksum	Q1eS4bvpu78U1NUS5x+2j7ltjZjr8=
+dep	wireguard-tools-wg	wireguard-tools-wg

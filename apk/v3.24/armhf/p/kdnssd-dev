@@ -1,0 +1,15 @@
+name	kdnssd-dev
+version	6.26.0-r0
+description	Network service discovery using Zeroconf (development files)
+url	https://community.kde.org/Frameworks
+license	LGPL-2.0-or-later
+size	17163
+installed-size	54579
+depends	avahi-dev qt6-qtbase-dev kdnssd=6.26.0-r0
+origin	kdnssd
+repo	community
+file	kdnssd-dev-6.26.0-r0.apk
+checksum	Q1l/1sDz9DE7PkUzEknBR2srh8CWU=
+dep	avahi-dev	avahi-dev
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	kdnssd=6.26.0-r0	kdnssd

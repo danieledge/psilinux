@@ -1,0 +1,13 @@
+name	vblade
+version	25-r1
+description	Virtual AoE blade server
+url	https://github.com/OpenAoE/vblade
+license	GPL-2.0-only
+size	9153
+installed-size	17749
+depends	so:libc.musl-armhf.so.1
+origin	vblade
+repo	community
+file	vblade-25-r1.apk
+checksum	Q1uXCOPvYvNZjeohP0eg+jUmYROMY=
+dep	so:libc.musl-armhf.so.1	musl

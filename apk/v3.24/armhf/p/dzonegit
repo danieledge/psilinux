@@ -1,0 +1,16 @@
+name	dzonegit
+version	0.15-r5
+description	Git hooks to manage a repository of DNS zones
+url	https://github.com/oskar456/dzonegit
+license	MIT
+size	13024
+installed-size	31873
+depends	bind-tools git python3 python3~3.14
+origin	dzonegit
+repo	community
+file	dzonegit-0.15-r5.apk
+checksum	Q1Unu5fURgPUg5p5/y6Zx/RVUaun8=
+dep	bind-tools	bind-tools
+dep	git	git
+dep	python3	python3
+dep	python3~3.14	python3

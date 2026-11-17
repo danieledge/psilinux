@@ -1,0 +1,14 @@
+name	py3-herbstluftwm
+version	0.9.5-r6
+description	Python bindings for herbstluftwm
+url	https://herbstluftwm.org
+license	BSD-2-Clause
+size	14243
+installed-size	34857
+depends	python3 python3~3.14
+origin	herbstluftwm
+repo	community
+file	py3-herbstluftwm-0.9.5-r6.apk
+checksum	Q1Nm4MlLn4mjEjT+O3EYHLgZKbvM0=
+dep	python3	python3
+dep	python3~3.14	python3

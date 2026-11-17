@@ -1,0 +1,13 @@
+name	py3-liblouis-pyc
+version	3.38.0-r0
+description	Precompiled Python bytecode for py3-liblouis
+url	https://liblouis.io/
+license	GPL-3.0-or-later
+size	13008
+installed-size	33250
+depends	python3~3.14
+origin	liblouis
+repo	community
+file	py3-liblouis-pyc-3.38.0-r0.apk
+checksum	Q1IUVmrhPN6CZV3x07HKMbboKIYrs=
+dep	python3~3.14	python3

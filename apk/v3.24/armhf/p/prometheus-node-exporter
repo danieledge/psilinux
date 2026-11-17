@@ -1,0 +1,14 @@
+name	prometheus-node-exporter
+version	1.11.1-r0
+description	Prometheus exporter for machine metrics
+url	https://github.com/prometheus/node_exporter
+license	Apache-2.0
+size	6321970
+installed-size	16910140
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	prometheus-node-exporter
+repo	community
+file	prometheus-node-exporter-1.11.1-r0.apk
+checksum	Q1Tr8XMoJta8Y4XYVIsQBi51YDt6c=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

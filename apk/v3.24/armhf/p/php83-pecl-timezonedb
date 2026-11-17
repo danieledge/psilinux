@@ -1,0 +1,13 @@
+name	php83-pecl-timezonedb
+version	2026.3-r0
+description	Timezone Database to be used with PHP's date and time functions.
+url	https://pecl.php.net/package/timezonedb
+license	PHP-3.01
+size	194209
+installed-size	734493
+depends	php83-common
+origin	php83-pecl-timezonedb
+repo	community
+file	php83-pecl-timezonedb-2026.3-r0.apk
+checksum	Q1qDA9UYFp5tljmhCveIWD4sFhvkc=
+dep	php83-common	php83-common

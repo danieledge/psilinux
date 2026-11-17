@@ -1,0 +1,13 @@
+name	beebzzr
+version	0_git20251214-r0
+description	Simple minimal vibration tool
+url	https://scm.dersco.re/utils/beebzzr.git
+license	BSD-3-Clause
+size	5164
+installed-size	9472
+depends	so:libc.musl-armhf.so.1
+origin	beebzzr
+repo	community
+file	beebzzr-0_git20251214-r0.apk
+checksum	Q1Mwgbqt/c7AizZrKqt1XvOZkJWqc=
+dep	so:libc.musl-armhf.so.1	musl

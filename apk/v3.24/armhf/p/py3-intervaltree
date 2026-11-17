@@ -1,0 +1,15 @@
+name	py3-intervaltree
+version	3.1.0-r2
+description	Editable interval tree data structure
+url	https://github.com/chaimleib/intervaltree
+license	Apache-2.0
+size	25192
+installed-size	95331
+depends	py3-sortedcontainers python3 python3~3.14
+origin	py3-intervaltree
+repo	community
+file	py3-intervaltree-3.1.0-r2.apk
+checksum	Q1iDY16V/oTt6tshUrwQnTa5agRag=
+dep	py3-sortedcontainers	py3-sortedcontainers
+dep	python3	python3
+dep	python3~3.14	python3

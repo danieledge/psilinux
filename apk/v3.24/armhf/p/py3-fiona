@@ -1,0 +1,32 @@
+name	py3-fiona
+version	1.10.1-r7
+description	Fiona reads and writes geographical data files
+url	https://github.com/Toblerity/Fiona
+license	BSD-3-Clause
+size	737372
+installed-size	1935911
+depends	cython gdal gdal-dev python3 python3-dev py3-attrs py3-click py3-click-plugins py3-cligj py3-certifi py3-fsspec py3-munch py3-setuptools py3-shapely py3-tz python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libstdc++.so.6
+origin	py3-fiona
+repo	community
+file	py3-fiona-1.10.1-r7.apk
+checksum	Q1hXKtUI2emGZ9k2vZW3AF8HPh3jo=
+dep	cython	cython
+dep	gdal	gdal
+dep	gdal-dev	gdal-dev
+dep	python3	python3
+dep	python3-dev	python3-dev
+dep	py3-attrs	py3-attrs
+dep	py3-click	py3-click
+dep	py3-click-plugins	py3-click-plugins
+dep	py3-cligj	py3-cligj
+dep	py3-certifi	py3-certifi
+dep	py3-fsspec	py3-fsspec
+dep	py3-munch	py3-munch
+dep	py3-setuptools	py3-setuptools
+dep	py3-shapely	py3-shapely
+dep	py3-tz	py3-tz
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libstdc++.so.6	libstdc++

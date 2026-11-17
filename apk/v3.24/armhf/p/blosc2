@@ -1,0 +1,16 @@
+name	blosc2
+version	2.23.1-r0
+description	A fast, compressed, persistent binary data store library for C
+url	https://www.blosc.org
+license	BSD-3-Clause
+size	219207
+installed-size	853224
+depends	so:libc.musl-armhf.so.1 so:liblz4.so.1 so:libz.so.1 so:libzstd.so.1
+origin	blosc2
+repo	community
+file	blosc2-2.23.1-r0.apk
+checksum	Q1KB1IY2f1hXCzsHnSCVnaOlYm8Ew=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblz4.so.1	lz4-libs
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

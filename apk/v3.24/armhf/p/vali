@@ -1,0 +1,15 @@
+name	vali
+version	0.1.1-r1
+description	C library and code generator for Varlink
+url	https://gitlab.freedesktop.org/emersion/vali
+license	MIT
+size	28029
+installed-size	65068
+depends	so:libaml.so.1 so:libc.musl-armhf.so.1 so:libjson-c.so.5
+origin	vali
+repo	community
+file	vali-0.1.1-r1.apk
+checksum	Q1YSwr5/+/uNoLKMFjYRsYJH+7P+I=
+dep	so:libaml.so.1	aml
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjson-c.so.5	json-c

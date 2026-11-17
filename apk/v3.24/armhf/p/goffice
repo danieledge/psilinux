@@ -1,0 +1,29 @@
+name	goffice
+version	0.10.60-r0
+description	Library of document-centric objects and utilities built on top of GLib and Gtk+
+url	https://www.gnome.org/
+license	GPL-2.0-or-later OR GPL-3.0-or-later
+size	1045036
+installed-size	2584507
+depends	so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgsf-1.so.114 so:libgtk-3.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:librsvg-2.so.2 so:libxml2.so.2 so:libxslt.so.1
+origin	goffice
+repo	community
+file	goffice-0.10.60-r0.apk
+checksum	Q1jLApbhEj7wLxuYNH2pdcDz5DoRE=
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgsf-1.so.114	libgsf
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libxml2.so.2	libxml2
+dep	so:libxslt.so.1	libxslt

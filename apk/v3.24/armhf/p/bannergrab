@@ -1,0 +1,15 @@
+name	bannergrab
+version	3.5-r11
+description	A banner grabbing tool
+url	https://sourceforge.net/projects/bannergrab/
+license	GPL-3.0-or-later
+size	9764
+installed-size	23288
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	bannergrab
+repo	community
+file	bannergrab-3.5-r11.apk
+checksum	Q1JbT1zUbC1WLoLP5kDkLzTbDdFmc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

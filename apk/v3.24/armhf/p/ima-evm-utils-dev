@@ -1,0 +1,13 @@
+name	ima-evm-utils-dev
+version	1.6.2-r1
+description	Linux Integrity Measurement Architecture (IMA) Extended Verification Module (EVM) tools (development files)
+url	https://github.com/mimizohar/ima-evm-utils
+license	LGPL-2.1-or-later
+size	4323
+installed-size	7980
+depends	ima-evm-utils-libs=1.6.2-r1
+origin	ima-evm-utils
+repo	community
+file	ima-evm-utils-dev-1.6.2-r1.apk
+checksum	Q12cu663s1eX6KK8Ce7tB1435dVRw=
+dep	ima-evm-utils-libs=1.6.2-r1	ima-evm-utils-libs

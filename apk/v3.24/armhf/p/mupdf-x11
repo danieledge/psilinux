@@ -1,0 +1,17 @@
+name	mupdf-x11
+version	1.27.2-r0
+description	Lightweight PDF and XPS viewer with X11 backend
+url	https://mupdf.com
+license	AGPL-3.0-or-later
+size	58846
+installed-size	117364
+depends	so:libX11.so.6 so:libXext.so.6 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libmupdf.so.27.2
+origin	mupdf
+repo	community
+file	mupdf-x11-1.27.2-r0.apk
+checksum	Q1ujQ3iAU/YuBmhlZv6hCwmlZFTMw=
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libmupdf.so.27.2	mupdf-libs

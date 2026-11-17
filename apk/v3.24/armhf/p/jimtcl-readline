@@ -1,0 +1,15 @@
+name	jimtcl-readline
+version	0.83-r0
+description	Interface to readline and Tcl wrapper for Jim Tcl
+url	https://github.com/msteveb/jimtcl
+license	BSD-2-Clause
+size	3909
+installed-size	6264
+depends	jimtcl=0.83-r0 so:libjim.so.0.83 so:libreadline.so.8
+origin	jimtcl
+repo	community
+file	jimtcl-readline-0.83-r0.apk
+checksum	Q1LVd6n9AFJ/8RarvlpaDyX7KFhz8=
+dep	jimtcl=0.83-r0	jimtcl
+dep	so:libjim.so.0.83	jimtcl
+dep	so:libreadline.so.8	readline

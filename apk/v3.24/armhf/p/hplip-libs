@@ -1,0 +1,18 @@
+name	hplip-libs
+version	3.26.6-r0
+description	Drivers for HP printers and scanners (libraries)
+url	https://hplipopensource.com/
+license	GPL-2.0-only AND BSD-3-Clause AND MIT
+size	112505
+installed-size	383940
+depends	so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libnetsnmp.so.45 so:libusb-1.0.so.0
+origin	hplip
+repo	community
+file	hplip-libs-3.26.6-r0.apk
+checksum	Q1juthCEfhfzCH7YsxTtFB9gA+K5w=
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libnetsnmp.so.45	net-snmp-libs
+dep	so:libusb-1.0.so.0	libusb

@@ -1,0 +1,14 @@
+name	lvm2-extra
+version	2.03.35-r2
+description	LVM2 extra utilities
+url	https://sourceware.org/lvm2/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-2-Clause
+size	24612
+installed-size	75107
+depends	bash coreutils
+origin	lvm2
+repo	main
+file	lvm2-extra-2.03.35-r2.apk
+checksum	Q13lscfLSPrtfe/kr2YST9lT//ncY=
+dep	bash	bash
+dep	coreutils	coreutils

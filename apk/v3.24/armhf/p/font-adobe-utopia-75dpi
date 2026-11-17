@@ -1,0 +1,16 @@
+name	font-adobe-utopia-75dpi
+version	1.0.5-r2
+description	X.org adobe 75dpi font
+url	https://xorg.freedesktop.org/
+license	Adobe-Utopia
+size	1243814
+installed-size	1241152
+depends	encodings font-alias mkfontscale fontconfig
+origin	font-adobe-utopia-75dpi
+repo	main
+file	font-adobe-utopia-75dpi-1.0.5-r2.apk
+checksum	Q1+GMoCwbnfHxKGenmYLPye4yIlBY=
+dep	encodings	encodings
+dep	font-alias	font-alias
+dep	mkfontscale	mkfontscale
+dep	fontconfig	fontconfig

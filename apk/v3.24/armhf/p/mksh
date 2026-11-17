@@ -1,0 +1,14 @@
+name	mksh
+version	59c-r4
+description	MirBSD Korn Shell
+url	https://www.mirbsd.org/mksh
+license	MirOS AND Unicode-DFS-2016
+size	146277
+installed-size	275827
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	mksh
+repo	main
+file	mksh-59c-r4.apk
+checksum	Q1HwZSVHwvVoGqHPOahVEtS7cB5I0=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

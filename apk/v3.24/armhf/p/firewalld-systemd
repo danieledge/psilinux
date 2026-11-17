@@ -1,0 +1,12 @@
+name	firewalld-systemd
+version	2.4.1-r0
+description	Firewall daemon with D-Bus interface providing a dynamic firewall (systemd files)
+url	https://github.com/firewalld/firewalld
+license	GPL-2.0-or-later
+size	2188
+installed-size	982
+depends	
+origin	firewalld
+repo	community
+file	firewalld-systemd-2.4.1-r0.apk
+checksum	Q14+dGET9Wh5buvRAM0PtmH1SbjsY=

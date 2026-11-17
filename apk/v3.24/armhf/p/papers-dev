@@ -1,0 +1,24 @@
+name	papers-dev
+version	50.2-r0
+description	simple document viewer for GNOME desktop (development files)
+url	https://apps.gnome.org/Papers/
+license	GPL-2.0-or-later
+size	92338
+installed-size	1010716
+depends	gobject-introspection-dev gtk4.0-dev libadwaita-dev libspectre-dev poppler-dev tiff-dev papers-libs=50.2-r0 pc:gio-2.0>=2.75.0 pc:gthread-2.0>=2.75.0 pc:gtk4>=4.17.1 pc:libadwaita-1>=1.8 pkgconfig
+origin	papers
+repo	community
+file	papers-dev-50.2-r0.apk
+checksum	Q1RUIgNgAo5cSvmaPeB6IqMbqmWTY=
+dep	gobject-introspection-dev	gobject-introspection-dev
+dep	gtk4.0-dev	gtk4.0-dev
+dep	libadwaita-dev	libadwaita-dev
+dep	libspectre-dev	libspectre-dev
+dep	poppler-dev	poppler-dev
+dep	tiff-dev	tiff-dev
+dep	papers-libs=50.2-r0	papers-libs
+dep	pc:gio-2.0>=2.75.0	glib-dev
+dep	pc:gthread-2.0>=2.75.0	glib-dev
+dep	pc:gtk4>=4.17.1	gtk4.0-dev
+dep	pc:libadwaita-1>=1.8	libadwaita-dev
+dep	pkgconfig	pkgconf

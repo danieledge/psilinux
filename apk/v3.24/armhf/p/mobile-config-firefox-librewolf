@@ -1,0 +1,13 @@
+name	mobile-config-firefox-librewolf
+version	5.4.1-r0
+description	Firefox tweaks for mobile and privacy
+url	https://gitlab.postmarketos.org/postmarketOS/mobile-config-firefox
+license	GPL-3.0-or-later
+size	3904
+installed-size	4805
+depends	librewolf
+origin	mobile-config-firefox
+repo	community
+file	mobile-config-firefox-librewolf-5.4.1-r0.apk
+checksum	Q1C7+QMYVPOik10bsdZ2K9np6waiw=
+dep	librewolf	!

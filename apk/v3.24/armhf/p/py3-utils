@@ -1,0 +1,14 @@
+name	py3-utils
+version	3.9.1-r1
+description	Convenient utilities not included with the standard Python install
+url	https://github.com/WoLpH/python-utils
+license	BSD-3-Clause
+size	29882
+installed-size	107156
+depends	py3-typing-extensions python3~3.14
+origin	py3-utils
+repo	community
+file	py3-utils-3.9.1-r1.apk
+checksum	Q1/Pcu741dPt1oj8O4aqyqjrsRE/w=
+dep	py3-typing-extensions	py3-typing-extensions
+dep	python3~3.14	python3

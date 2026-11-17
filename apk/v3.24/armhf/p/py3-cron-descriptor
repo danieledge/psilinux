@@ -1,0 +1,14 @@
+name	py3-cron-descriptor
+version	2.0.8-r0
+description	A Python library that converts cron expressions into human readable strings.
+url	https://pypi.python.org/project/cron-descriptor
+license	MIT
+size	46478
+installed-size	194322
+depends	py3-typing-extensions python3~3.14
+origin	py3-cron-descriptor
+repo	community
+file	py3-cron-descriptor-2.0.8-r0.apk
+checksum	Q1vMq59NOEPbCnTebQrmkhQW0X3Ak=
+dep	py3-typing-extensions	py3-typing-extensions
+dep	python3~3.14	python3

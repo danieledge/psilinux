@@ -1,0 +1,15 @@
+name	collectd-ping
+version	5.12.0-r25
+description	ping pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	7369
+installed-size	13496
+depends	collectd so:libc.musl-armhf.so.1 so:liboping.so.0
+origin	collectd
+repo	community
+file	collectd-ping-5.12.0-r25.apk
+checksum	Q10QKdL7ki8ySuwt4Tq2Dfveq/qhg=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liboping.so.0	liboping

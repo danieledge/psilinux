@@ -1,0 +1,16 @@
+name	py3-setuptools-rust
+version	1.12.1-r0
+description	Setuptools plugin for rust support
+url	https://github.com/PyO3/setuptools-rust
+license	MIT
+size	27354
+installed-size	86318
+depends	cargo py3-semantic-version py3-setuptools python3~3.14
+origin	py3-setuptools-rust
+repo	main
+file	py3-setuptools-rust-1.12.1-r0.apk
+checksum	Q1yfMC7X3oBnJnB1fTB+BmxHnooSk=
+dep	cargo	cargo
+dep	py3-semantic-version	py3-semantic-version
+dep	py3-setuptools	py3-setuptools
+dep	python3~3.14	python3

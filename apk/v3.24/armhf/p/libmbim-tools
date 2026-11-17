@@ -1,0 +1,17 @@
+name	libmbim-tools
+version	1.34.0-r1
+description	Tools for libmbim
+url	https://www.freedesktop.org/wiki/Software/libmbim/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	74880
+installed-size	202314
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libmbim-glib.so.4
+origin	libmbim
+repo	community
+file	libmbim-tools-1.34.0-r1.apk
+checksum	Q1dgyL1hz/wfrW+2vMY3VL+EFnqOs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libmbim-glib.so.4	libmbim

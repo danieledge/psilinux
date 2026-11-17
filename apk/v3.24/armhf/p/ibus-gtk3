@@ -1,0 +1,25 @@
+name	ibus-gtk3
+version	1.5.35-r0
+description	Next Generation Input Bus for Linux
+url	https://github.com/ibus/ibus/wiki
+license	LGPL-2.1-or-later
+size	14928
+installed-size	35091
+depends	dconf hicolor-icon-theme iso-codes dbus py3-gobject3 so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libibus-1.0.so.5 so:libpango-1.0.so.0
+origin	ibus
+repo	community
+file	ibus-gtk3-1.5.35-r0.apk
+checksum	Q10ZCM2D8HOOBazwvdJgn9fCzqnls=
+dep	dconf	dconf
+dep	hicolor-icon-theme	hicolor-icon-theme
+dep	iso-codes	iso-codes
+dep	dbus	dbus
+dep	py3-gobject3	py3-gobject3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libibus-1.0.so.5	ibus
+dep	so:libpango-1.0.so.0	pango

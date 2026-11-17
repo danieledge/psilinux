@@ -1,0 +1,14 @@
+name	libfyaml-dev
+version	0.9.5-r1
+description	Fully feature complete YAML parser and emitter (development files)
+url	https://github.com/pantoniou/libfyaml
+license	MIT
+size	53591
+installed-size	284265
+depends	libfyaml=0.9.5-r1 pkgconfig
+origin	libfyaml
+repo	community
+file	libfyaml-dev-0.9.5-r1.apk
+checksum	Q1VRcosXauIFky+QduKRIZjJLnZCw=
+dep	libfyaml=0.9.5-r1	libfyaml
+dep	pkgconfig	pkgconf

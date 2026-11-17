@@ -1,0 +1,13 @@
+name	tiny-cloud-openrc
+version	3.4.2-r0
+description	Tiny Cloud instance bootstrapper (OpenRC init scripts)
+url	https://gitlab.alpinelinux.org/alpine/cloud/tiny-cloud
+license	MIT
+size	2267
+installed-size	924
+depends	/bin/sh
+origin	tiny-cloud
+repo	main
+file	tiny-cloud-openrc-3.4.2-r0.apk
+checksum	Q1VMpW/nEkB0DMmEDTcjfE2hlY6mQ=
+dep	/bin/sh	busybox-binsh

@@ -1,0 +1,17 @@
+name	mesa-gbm
+version	26.1.6-r0
+description	Mesa gbm library
+url	https://www.mesa3d.org
+license	MIT AND SGI-B-2.0 AND BSL-1.0
+size	6429
+installed-size	13460
+depends	mesa=26.1.6-r0 so:libc.musl-armhf.so.1 so:libdrm.so.2 so:libexpat.so.1 so:libgcc_s.so.1
+origin	mesa
+repo	main
+file	mesa-gbm-26.1.6-r0.apk
+checksum	Q1TpjmjWZttcIblMoJkuml3a3S8Ws=
+dep	mesa=26.1.6-r0	mesa
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm.so.2	libdrm
+dep	so:libexpat.so.1	libexpat
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,13 @@
+name	ocaml-logs-dev
+version	0.7.0-r6
+description	Logging infrastructure for OCaml (development files)
+url	https://erratique.ch/software/logs
+license	ISC
+size	86683
+installed-size	269637
+depends	ocaml-logs=0.7.0-r6
+origin	ocaml-logs
+repo	community
+file	ocaml-logs-dev-0.7.0-r6.apk
+checksum	Q1/ZnjRXdiUckieHcpPOBN1YOrQm0=
+dep	ocaml-logs=0.7.0-r6	ocaml-logs

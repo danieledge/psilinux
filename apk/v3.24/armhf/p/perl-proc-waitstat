@@ -1,0 +1,14 @@
+name	perl-proc-waitstat
+version	1.00-r5
+description	Perl module interpret and act on wait() status values
+url	https://metacpan.org/release/Proc-WaitStat/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	3567
+installed-size	3954
+depends	perl perl-ipc-signal
+origin	perl-proc-waitstat
+repo	community
+file	perl-proc-waitstat-1.00-r5.apk
+checksum	Q1tN4nE5y0YT+e0ZK26rrhrdeTBms=
+dep	perl	perl
+dep	perl-ipc-signal	perl-ipc-signal

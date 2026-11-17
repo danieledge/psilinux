@@ -1,0 +1,13 @@
+name	nettle-static
+version	3.10.2-r0
+description	Low-level cryptographic library (static library)
+url	https://www.lysator.liu.se/~nisse/nettle/
+license	GPL-2.0-or-later OR LGPL-3.0-or-later
+size	6949606
+installed-size	20170504
+depends	nettle-dev
+origin	nettle
+repo	main
+file	nettle-static-3.10.2-r0.apk
+checksum	Q1dH8lRW/4/dqr+dMqZGtLo/pLxqg=
+dep	nettle-dev	nettle-dev

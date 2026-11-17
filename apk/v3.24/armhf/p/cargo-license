@@ -1,0 +1,14 @@
+name	cargo-license
+version	0.7.0-r1
+description	Cargo subcommand to see license of dependencies
+url	https://github.com/onur/cargo-license
+license	MIT
+size	466173
+installed-size	901432
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	cargo-license
+repo	community
+file	cargo-license-0.7.0-r1.apk
+checksum	Q1e//NJm9blwa7j+fui0c0S6nFRO8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

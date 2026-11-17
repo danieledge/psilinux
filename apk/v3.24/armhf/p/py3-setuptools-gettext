@@ -1,0 +1,14 @@
+name	py3-setuptools-gettext
+version	0.1.18-r0
+description	setuptools plugin for building mo files
+url	https://github.com/breezy-team/setuptools-gettext
+license	GPL-2.0-or-later
+size	16587
+installed-size	45299
+depends	gettext python3~3.14
+origin	py3-setuptools-gettext
+repo	community
+file	py3-setuptools-gettext-0.1.18-r0.apk
+checksum	Q1NyILwXmM1QPqg47PQy0nfzGelys=
+dep	gettext	gettext
+dep	python3~3.14	python3

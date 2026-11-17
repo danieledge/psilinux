@@ -1,0 +1,15 @@
+name	nagios-plugins-tcp
+version	2.5-r0
+description	Nagios plugins check_tcp, check_clamd, check_ftp, check_imap, check_jabber, check_nntp, check_nntps, check_pop, check_simap, check_spop, check_ssmtp, check_udp
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	27269
+installed-size	55124
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-tcp-2.5-r0.apk
+checksum	Q1uqP8WoxduAUyJfPjzVS8RgYWUz0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

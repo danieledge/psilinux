@@ -1,0 +1,14 @@
+name	ddcutil-dev
+version	2.2.7-r1
+description	Query and change Linux monitor settings using DDC/CI and USB (development files)
+url	https://github.com/rockowitz/ddcutil
+license	GPL-2.0-only
+size	24096
+installed-size	90361
+depends	ddcutil=2.2.7-r1 pkgconfig
+origin	ddcutil
+repo	community
+file	ddcutil-dev-2.2.7-r1.apk
+checksum	Q1uLYp+ofWaWqjJzD2y/4EjRGb/Y0=
+dep	ddcutil=2.2.7-r1	ddcutil
+dep	pkgconfig	pkgconf

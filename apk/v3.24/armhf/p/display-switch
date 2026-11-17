@@ -1,0 +1,17 @@
+name	display-switch
+version	1.4.1-r0
+description	utility for switching displays over DDC/CI on USB disconnect/connect events
+url	https://github.com/haimgel/display-switch
+license	MIT
+size	461872
+installed-size	865526
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libudev.so.1 so:libusb-1.0.so.0
+origin	display-switch
+repo	community
+file	display-switch-1.4.1-r0.apk
+checksum	Q1zEPZPZiCtZuOuaqQpZi91XTnaNc=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libudev.so.1	eudev-libs
+dep	so:libusb-1.0.so.0	libusb

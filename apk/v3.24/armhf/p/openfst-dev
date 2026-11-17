@@ -1,0 +1,18 @@
+name	openfst-dev
+version	1.8.4-r0
+description	Finite-state transducers library (development files)
+url	https://www.openfst.org
+license	Apache-2.0
+size	481714
+installed-size	2307936
+depends	libfst=1.8.4-r0 libfstcompact=1.8.4-r0 libfstconst=1.8.4-r0 libfstfar=1.8.4-r0 libfstlookahead=1.8.4-r0 libfstngram=1.8.4-r0
+origin	openfst
+repo	community
+file	openfst-dev-1.8.4-r0.apk
+checksum	Q1QGlIiMRLfY+kDCqD3x1oCGhdAeg=
+dep	libfst=1.8.4-r0	libfst
+dep	libfstcompact=1.8.4-r0	libfstcompact
+dep	libfstconst=1.8.4-r0	libfstconst
+dep	libfstfar=1.8.4-r0	libfstfar
+dep	libfstlookahead=1.8.4-r0	libfstlookahead
+dep	libfstngram=1.8.4-r0	libfstngram

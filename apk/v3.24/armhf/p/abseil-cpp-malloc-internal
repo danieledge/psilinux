@@ -1,0 +1,18 @@
+name	abseil-cpp-malloc-internal
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-malloc-internal
+url	https://abseil.io/
+license	Apache-2.0
+size	8036
+installed-size	17792
+depends	so:libabsl_base.so.2508.0.0 so:libabsl_raw_logging_internal.so.2508.0.0 so:libabsl_spinlock_wait.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-malloc-internal-20250814.1-r0.apk
+checksum	Q1y8sjXzjIx5Wh3alkn+fu9EFOiww=
+dep	so:libabsl_base.so.2508.0.0	abseil-cpp-base
+dep	so:libabsl_raw_logging_internal.so.2508.0.0	abseil-cpp-raw-logging-internal
+dep	so:libabsl_spinlock_wait.so.2508.0.0	abseil-cpp-spinlock-wait
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

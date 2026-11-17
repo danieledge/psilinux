@@ -1,0 +1,16 @@
+name	socat
+version	1.8.1.3-r0
+description	Multipurpose relay for binary protocols
+url	http://www.dest-unreach.org/socat/
+license	GPL-2.0-only WITH OpenSSL-Exception
+size	220039
+installed-size	521636
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libreadline.so.8 so:libssl.so.3
+origin	socat
+repo	main
+file	socat-1.8.1.3-r0.apk
+checksum	Q1oNWw8vAuvSA8+wkyGJXl84ZoLig=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libreadline.so.8	readline
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,14 @@
+name	py3-authres
+version	1.2.0-r2
+description	RFC 5451/7001/7601 Authentication-Results Headers generation and parsing for Python
+url	https://launchpad.net/authentication-results-python
+license	Apache-2.0
+size	22504
+installed-size	107582
+depends	python3 python3~3.14
+origin	py3-authres
+repo	community
+file	py3-authres-1.2.0-r2.apk
+checksum	Q1VR8l+uf/DWj1F9cesZeBeYNdmeI=
+dep	python3	python3
+dep	python3~3.14	python3

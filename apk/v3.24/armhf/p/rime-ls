@@ -1,0 +1,15 @@
+name	rime-ls
+version	0.4.3-r3
+description	Language server for Rime input method engine
+url	https://github.com/wlh320/rime-ls
+license	BSD-3-Clause
+size	1196331
+installed-size	2688036
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:librime.so.1
+origin	rime-ls
+repo	community
+file	rime-ls-0.4.3-r3.apk
+checksum	Q1IRB3QatgVEFsroRYPCwzKLOtJnk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:librime.so.1	librime

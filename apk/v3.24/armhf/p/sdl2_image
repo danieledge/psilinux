@@ -1,0 +1,14 @@
+name	sdl2_image
+version	2.8.12-r0
+description	A simple library to load images of various formats as SDL surfaces
+url	https://github.com/libsdl-org/SDL_image
+license	Zlib
+size	73752
+installed-size	132268
+depends	so:libSDL2-2.0.so.0 so:libc.musl-armhf.so.1
+origin	sdl2_image
+repo	community
+file	sdl2_image-2.8.12-r0.apk
+checksum	Q1sedUiExBtD4tJwqCAkU24Wy4VVY=
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libc.musl-armhf.so.1	musl

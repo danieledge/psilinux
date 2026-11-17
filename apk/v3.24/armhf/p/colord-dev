@@ -1,0 +1,26 @@
+name	colord-dev
+version	1.4.8-r4
+description	System daemon for managing color devices (development files)
+url	https://www.freedesktop.org/software/colord
+license	GPL-2.0-or-later
+size	110912
+installed-size	1261050
+depends	dbus-dev dconf-dev eudev-dev gobject-introspection-dev libgudev-dev polkit-dev sqlite-dev vala colord-colorhug=1.4.8-r4 libcolord=1.4.8-r4 pc:gio-2.0 pc:gobject-2.0 pc:gusb pkgconfig
+origin	colord
+repo	community
+file	colord-dev-1.4.8-r4.apk
+checksum	Q1mNm/8aSpsDIQ1hFWGbpy0Jfpg9k=
+dep	dbus-dev	dbus-dev
+dep	dconf-dev	dconf-dev
+dep	eudev-dev	eudev-dev
+dep	gobject-introspection-dev	gobject-introspection-dev
+dep	libgudev-dev	libgudev-dev
+dep	polkit-dev	polkit-dev
+dep	sqlite-dev	sqlite-dev
+dep	vala	vala
+dep	colord-colorhug=1.4.8-r4	colord-colorhug
+dep	libcolord=1.4.8-r4	libcolord
+dep	pc:gio-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pc:gusb	libgusb-dev
+dep	pkgconfig	pkgconf

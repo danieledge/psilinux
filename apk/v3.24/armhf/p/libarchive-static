@@ -1,0 +1,13 @@
+name	libarchive-static
+version	3.8.11-r0
+description	library that can create and read several streaming archive formats (static library)
+url	https://libarchive.org/
+license	BSD-2-Clause AND BSD-3-Clause AND Public-Domain
+size	4947831
+installed-size	6236716
+depends	libarchive-dev
+origin	libarchive
+repo	main
+file	libarchive-static-3.8.11-r0.apk
+checksum	Q1AIwsGEtzFYcymzMATzxLojsVDNQ=
+dep	libarchive-dev	libarchive-dev

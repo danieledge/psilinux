@@ -1,0 +1,18 @@
+name	mariadb-connector-odbc
+version	3.2.6-r1
+description	MariaDB Connector/ODBC database driver
+url	https://github.com/mariadb-corporation/mariadb-connector-odbc
+license	LGPL-2.1-only
+size	242914
+installed-size	610896
+depends	pkgconfig so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libmariadb.so.3 so:libodbcinst.so.2 so:libstdc++.so.6
+origin	mariadb-connector-odbc
+repo	community
+file	mariadb-connector-odbc-3.2.6-r1.apk
+checksum	Q1Oj8JoAJ7320SJjnqV0pS0Bhzgg8=
+dep	pkgconfig	pkgconf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmariadb.so.3	mariadb-connector-c
+dep	so:libodbcinst.so.2	unixodbc
+dep	so:libstdc++.so.6	libstdc++

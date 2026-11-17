@@ -1,0 +1,16 @@
+name	font-winitzki-cyrillic
+version	1.0.4-r1
+description	X.org winitzki cyrillic fonts
+url	https://xorg.freedesktop.org/
+license	Public Domain
+size	6575
+installed-size	4812
+depends	encodings font-alias mkfontscale fontconfig
+origin	font-winitzki-cyrillic
+repo	main
+file	font-winitzki-cyrillic-1.0.4-r1.apk
+checksum	Q1UWrj3AspvOxoaXyUngKiIw7fT68=
+dep	encodings	encodings
+dep	font-alias	font-alias
+dep	mkfontscale	mkfontscale
+dep	fontconfig	fontconfig

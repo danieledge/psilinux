@@ -1,0 +1,15 @@
+name	tinyxml
+version	2.6.2-r6
+description	A simple, small, C++ XML parser
+url	https://sourceforge.net/projects/tinyxml/
+license	Zlib
+size	28171
+installed-size	67072
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	tinyxml
+repo	community
+file	tinyxml-2.6.2-r6.apk
+checksum	Q1AWij/vOnPaRIE6bXSE0FrQy7FyY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

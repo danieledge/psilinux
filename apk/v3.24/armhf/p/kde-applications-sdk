@@ -1,0 +1,24 @@
+name	kde-applications-sdk
+version	26.04.2-r0
+description	KDE Applications meta package
+url	https://kde.org/applications/
+license	GPL-3.0-or-later
+size	1354
+installed-size	0
+depends	dolphin-plugins kde-dev-scripts kde-dev-utils kapptemplate kcachegrind kdesdk-kio kirigami-gallery kompare lokalize poxml kdesdk-thumbnailers umbrello
+origin	kde-applications
+repo	community
+file	kde-applications-sdk-26.04.2-r0.apk
+checksum	Q1VceSSjYDN1jsbfwR1lSfaO7uWpw=
+dep	dolphin-plugins	!
+dep	kde-dev-scripts	!
+dep	kde-dev-utils	!
+dep	kapptemplate	!
+dep	kcachegrind	!
+dep	kdesdk-kio	!
+dep	kirigami-gallery	!
+dep	kompare	!
+dep	lokalize	!
+dep	poxml	!
+dep	kdesdk-thumbnailers	!
+dep	umbrello	!

@@ -1,0 +1,15 @@
+name	oath-toolkit-dev
+version	2.6.14-r1
+description	OATH Toolkit One-time password components (development files)
+url	https://nongnu.org/oath-toolkit/
+license	GPL-3.0-or-later
+size	96598
+installed-size	393995
+depends	oath-toolkit-liboath=2.6.14-r1 oath-toolkit-libpskc=2.6.14-r1 pkgconfig
+origin	oath-toolkit
+repo	community
+file	oath-toolkit-dev-2.6.14-r1.apk
+checksum	Q1QDdVCKKE250d/CSyZnqfL8PoYOY=
+dep	oath-toolkit-liboath=2.6.14-r1	oath-toolkit-liboath
+dep	oath-toolkit-libpskc=2.6.14-r1	oath-toolkit-libpskc
+dep	pkgconfig	pkgconf

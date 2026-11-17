@@ -1,0 +1,15 @@
+name	uwsgi-ugreen
+version	2.0.31-r2
+description	uWSGI plugin ugreen
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	4142
+installed-size	5544
+depends	uwsgi so:libc.musl-armhf.so.1 so:libucontext.so.1
+origin	uwsgi
+repo	main
+file	uwsgi-ugreen-2.0.31-r2.apk
+checksum	Q1rFaTGXo/jrjsRmvYocrTjrVGtrQ=
+dep	uwsgi	uwsgi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libucontext.so.1	libucontext

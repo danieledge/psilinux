@@ -1,0 +1,12 @@
+name	alsa-lib-dbg
+version	1.2.15.3-r0
+description	Advanced Linux Sound Architecture (ALSA) library (debug symbols)
+url	https://alsa-project.org/
+license	LGPL-2.1-or-later
+size	1463442
+installed-size	3454960
+depends	!alsa-lib<1.2.15.3-r0 !alsa-lib>1.2.15.3-r0
+origin	alsa-lib
+repo	main
+file	alsa-lib-dbg-1.2.15.3-r0.apk
+checksum	Q1PSEcQzYVr7makjMbmHSkcKc0qhM=

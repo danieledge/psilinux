@@ -1,0 +1,24 @@
+name	py3-leap_ec
+version	0.8.2-r1
+description	A general purpose Library for Evolutionary Algorithms in Python
+url	https://github.com/leap-ec/LEAP
+license	AFL-3.0
+size	1347596
+installed-size	2252697
+depends	python3 py3-dask py3-distributed py3-docopt py3-matplotlib py3-networkx py3-numpy py3-pandas py3-rich py3-scipy py3-toolz python3~3.14
+origin	py3-leap_ec
+repo	community
+file	py3-leap_ec-0.8.2-r1.apk
+checksum	Q1DxHfedVmHjKrnlyJkMRidwqLIz4=
+dep	python3	python3
+dep	py3-dask	py3-dask
+dep	py3-distributed	py3-distributed
+dep	py3-docopt	py3-docopt
+dep	py3-matplotlib	py3-matplotlib
+dep	py3-networkx	py3-networkx
+dep	py3-numpy	py3-numpy
+dep	py3-pandas	py3-pandas
+dep	py3-rich	py3-rich
+dep	py3-scipy	py3-scipy
+dep	py3-toolz	py3-toolz
+dep	python3~3.14	python3

@@ -1,0 +1,14 @@
+name	merlin-vim
+version	4.14-r3
+description	Context sensitive completion for OCaml in vim
+url	https://ocaml.github.io/merlin/
+license	MIT
+size	27902
+installed-size	98611
+depends	merlin=4.14-r3 python3
+origin	merlin
+repo	community
+file	merlin-vim-4.14-r3.apk
+checksum	Q1tUODvjwC0aScfVw14STdSSGnuRI=
+dep	merlin=4.14-r3	merlin
+dep	python3	python3

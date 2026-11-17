@@ -1,0 +1,16 @@
+name	php83-pdo_sqlite
+version	8.3.36-r0
+description	PHP83 extension: SQLite 3.x driver for PDO
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	11707
+installed-size	21849
+depends	php83-common php83-pdo so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	php83
+repo	community
+file	php83-pdo_sqlite-8.3.36-r0.apk
+checksum	Q10hH2k7Ys0Baqj1SBcIkLXiHloEk=
+dep	php83-common	php83-common
+dep	php83-pdo	php83-pdo
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

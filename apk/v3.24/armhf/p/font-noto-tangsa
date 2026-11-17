@@ -1,0 +1,14 @@
+name	font-noto-tangsa
+version	2026.11.01-r0
+description	Noto Sans Tangsa font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	49992
+installed-size	92833
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-tangsa-2026.11.01-r0.apk
+checksum	Q1HoLC+j+U2/3VsfI315lG/H7oM3s=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

@@ -1,0 +1,15 @@
+name	openldap-passwd-pbkdf2
+version	2.6.15-r0
+description	PBKDF2 OpenLDAP support
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	4571
+installed-size	10501
+depends	openldap so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	openldap
+repo	main
+file	openldap-passwd-pbkdf2-2.6.15-r0.apk
+checksum	Q1pppYylLyVlcpxD2CETXYCvit8Vg=
+dep	openldap	openldap
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

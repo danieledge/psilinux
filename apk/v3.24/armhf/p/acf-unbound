@@ -1,0 +1,14 @@
+name	acf-unbound
+version	0.1.0-r5
+description	Web-based system administration interface for unbound
+url	https://gitlab.alpinelinux.org/acf/acf-unbound
+license	GPL-2.0-only
+size	3105
+installed-size	2852
+depends	acf-core unbound
+origin	acf-unbound
+repo	main
+file	acf-unbound-0.1.0-r5.apk
+checksum	Q1IXUsmYkGVoTgp+kYNPQy/FgefIU=
+dep	acf-core	acf-core
+dep	unbound	unbound

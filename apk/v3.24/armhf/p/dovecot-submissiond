@@ -1,0 +1,16 @@
+name	dovecot-submissiond
+version	2.4.5-r0
+description	IMAP and POP3 server (mail submission agent)
+url	https://www.dovecot.org/
+license	MIT AND LGPL-2.1-or-later
+size	39234
+installed-size	87534
+depends	dovecot=2.4.5-r0 so:libc.musl-armhf.so.1 so:libdovecot-storage.so.0 so:libdovecot.so.0
+origin	dovecot
+repo	main
+file	dovecot-submissiond-2.4.5-r0.apk
+checksum	Q1kniI7R5/z32gQ6o2z4u3Uwi9tIs=
+dep	dovecot=2.4.5-r0	dovecot
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdovecot-storage.so.0	dovecot
+dep	so:libdovecot.so.0	dovecot

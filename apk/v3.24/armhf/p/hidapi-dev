@@ -1,0 +1,14 @@
+name	hidapi-dev
+version	0.15.0-r0
+description	Simple library for communicating with USB and Bluetooth HID devices (development files)
+url	https://github.com/libusb/hidapi
+license	GPL-3.0-only OR BSD-3-Clause
+size	28704
+installed-size	78452
+depends	hidapi=0.15.0-r0 pkgconfig
+origin	hidapi
+repo	community
+file	hidapi-dev-0.15.0-r0.apk
+checksum	Q1LRQHgFpj/oCa3c8BFkziUjTKwlk=
+dep	hidapi=0.15.0-r0	hidapi
+dep	pkgconfig	pkgconf

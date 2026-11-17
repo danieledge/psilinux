@@ -1,0 +1,17 @@
+name	weston-desktop-x11
+version	14.0.2-r5
+description	Weston desktop helper pack (x11 backend)
+url	https://wayland.freedesktop.org/
+license	MIT
+size	1301
+installed-size	0
+depends	weston weston-shell-desktop weston-xwayland weston-backend-x11 weston-terminal
+origin	weston
+repo	community
+file	weston-desktop-x11-14.0.2-r5.apk
+checksum	Q1OP2A7OdUbQNmknwaP7x6tAfUpC4=
+dep	weston	weston
+dep	weston-shell-desktop	weston-shell-desktop
+dep	weston-xwayland	weston-xwayland
+dep	weston-backend-x11	weston-backend-x11
+dep	weston-terminal	weston-terminal

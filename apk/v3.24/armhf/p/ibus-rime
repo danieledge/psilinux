@@ -1,0 +1,19 @@
+name	ibus-rime
+version	1.6.1-r0
+description	Chinese input method Rime for IBus Framework
+url	https://github.com/rime/ibus-rime
+license	GPL-3.0-or-later
+size	23026
+installed-size	43797
+depends	rime-plum-data so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libibus-1.0.so.5 so:libnotify.so.4 so:librime.so.1
+origin	ibus-rime
+repo	community
+file	ibus-rime-1.6.1-r0.apk
+checksum	Q1k+YCltBLuCK6OQLBM5LKcCoR86w=
+dep	rime-plum-data	rime-plum-data
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libibus-1.0.so.5	ibus
+dep	so:libnotify.so.4	libnotify
+dep	so:librime.so.1	librime

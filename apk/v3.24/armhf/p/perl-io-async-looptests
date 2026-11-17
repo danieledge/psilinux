@@ -1,0 +1,15 @@
+name	perl-io-async-looptests
+version	0.805-r1
+description	Asynchronous event-driven programming (Loop API acceptance testing)
+url	https://metacpan.org/release/IO-Async/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	8029
+installed-size	24315
+depends	perl-io-async=0.805-r1 perl-test-metrics-any perl-test2-suite
+origin	perl-io-async
+repo	community
+file	perl-io-async-looptests-0.805-r1.apk
+checksum	Q10j24f/nsP7q0EvNRGOryq9JDcHQ=
+dep	perl-io-async=0.805-r1	perl-io-async
+dep	perl-test-metrics-any	perl-test-metrics-any
+dep	perl-test2-suite	perl-test-simple

@@ -1,0 +1,13 @@
+name	lua-pingu
+version	1.5.1-r0
+description	lua module for pingu client
+url	https://github.com/ncopa/pingu
+license	GPL
+size	4386
+installed-size	6192
+depends	so:libc.musl-armhf.so.1
+origin	pingu
+repo	main
+file	lua-pingu-1.5.1-r0.apk
+checksum	Q1rx1v7beGsYv09CXfGaSzmD7FYA8=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	cairo-gobject
+version	1.18.4-r1
+description	A vector graphics library (gobject bindings)
+url	https://cairographics.org/
+license	LGPL-2.1-or-later OR MPL-1.1
+size	9754
+installed-size	25792
+depends	so:libcairo.so.2 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	cairo
+repo	main
+file	cairo-gobject-1.18.4-r1.apk
+checksum	Q1u2wccQ+Eq3NbzUvV4W5kBRezQxA=
+dep	so:libcairo.so.2	cairo
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

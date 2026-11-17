@@ -1,0 +1,16 @@
+name	perl-http-xsheaders
+version	1.000001-r0
+description	Fast XS Header library, replacing HTTP::Headers(::Fast)
+url	https://metacpan.org/release/HTTP-XSHeaders/
+license	MIT
+size	18575
+installed-size	41268
+depends	perl perl-http-date perl-uri so:libc.musl-armhf.so.1
+origin	perl-http-xsheaders
+repo	community
+file	perl-http-xsheaders-1.000001-r0.apk
+checksum	Q1D0hfVHoCLJ7tm7F4YIjK2G338vY=
+dep	perl	perl
+dep	perl-http-date	perl-http-date
+dep	perl-uri	perl-uri
+dep	so:libc.musl-armhf.so.1	musl

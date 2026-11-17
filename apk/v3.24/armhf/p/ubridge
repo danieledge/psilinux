@@ -1,0 +1,15 @@
+name	ubridge
+version	1.0.0-r0
+description	Bridge for UDP tunnels, Ethernet, TAP and VMnet interfaces.
+url	https://github.com/GNS3/ubridge
+license	GPL-3.0-or-later
+size	30442
+installed-size	67840
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libpcap.so.1
+origin	ubridge
+repo	community
+file	ubridge-1.0.0-r0.apk
+checksum	Q1SMLN9ySYsiJXghX13Nk1AeK5nKs=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcap.so.1	libpcap

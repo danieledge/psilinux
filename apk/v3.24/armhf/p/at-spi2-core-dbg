@@ -1,0 +1,12 @@
+name	at-spi2-core-dbg
+version	2.60.5-r0
+description	Protocol definitions and daemon for D-Bus at-spi (debug symbols)
+url	https://www.freedesktop.org/wiki/Accessibility/AT-SPI2/
+license	LGPL-2.1-or-later
+size	859746
+installed-size	2223188
+depends	!at-spi2-core-libs<2.60.5-r0 !at-spi2-core-libs>2.60.5-r0 !at-spi2-core<2.60.5-r0 !at-spi2-core>2.60.5-r0 !libatk-1.0<2.60.5-r0 !libatk-1.0>2.60.5-r0 !libatk-bridge-2.0<2.60.5-r0 !libatk-bridge-2.0>2.60.5-r0
+origin	at-spi2-core
+repo	main
+file	at-spi2-core-dbg-2.60.5-r0.apk
+checksum	Q1xhXHOT6o+g14qMuIdxYCGn6Q/pw=

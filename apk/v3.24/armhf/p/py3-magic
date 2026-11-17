@@ -1,0 +1,15 @@
+name	py3-magic
+version	0.4.27-r4
+description	Python3 wrapper for libmagic
+url	https://pypi.org/project/python-magic/
+license	MIT
+size	14139
+installed-size	36780
+depends	python3 libmagic python3~3.14
+origin	py3-magic
+repo	community
+file	py3-magic-0.4.27-r4.apk
+checksum	Q16R75Oj8uTCA1Pa9UpHwZGOaIkP0=
+dep	python3	python3
+dep	libmagic	libmagic
+dep	python3~3.14	python3

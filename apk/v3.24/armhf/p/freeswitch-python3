@@ -1,0 +1,17 @@
+name	freeswitch-python3
+version	1.10.12-r6
+description	Freeswitch Python3 module
+url	https://www.freeswitch.org/
+license	MPL-1.1
+size	49651
+installed-size	162340
+depends	so:libc.musl-armhf.so.1 so:libfreeswitch.so.1 so:libgcc_s.so.1 so:libpython3.14.so.1.0 so:libstdc++.so.6
+origin	freeswitch
+repo	main
+file	freeswitch-python3-1.10.12-r6.apk
+checksum	Q1i9yX4VPvaD977llsG+V8OJ4NLKo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreeswitch.so.1	freeswitch
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpython3.14.so.1.0	python3
+dep	so:libstdc++.so.6	libstdc++

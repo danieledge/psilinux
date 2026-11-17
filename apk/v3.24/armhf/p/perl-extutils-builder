@@ -1,0 +1,15 @@
+name	perl-extutils-builder
+version	0.019-r1
+description	Framework for creating platform and build system agnostic plans
+url	https://metacpan.org/release/ExtUtils-Builder/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	19192
+installed-size	61756
+depends	perl perl-extutils-config perl-extutils-helpers
+origin	perl-extutils-builder
+repo	community
+file	perl-extutils-builder-0.019-r1.apk
+checksum	Q1NzHHz0LExmtj1i/ar5sATCwaHG8=
+dep	perl	perl
+dep	perl-extutils-config	perl-extutils-config
+dep	perl-extutils-helpers	perl-extutils-helpers

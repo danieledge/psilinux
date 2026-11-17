@@ -1,0 +1,14 @@
+name	mujs-dev
+version	1.3.9-r0
+description	An embeddable JavaScript interpreter (development files)
+url	https://mujs.com/
+license	ISC
+size	3777
+installed-size	8818
+depends	mujs-libs=1.3.9-r0 pkgconfig
+origin	mujs
+repo	community
+file	mujs-dev-1.3.9-r0.apk
+checksum	Q1hcbUwtsb6wVP+5sFcLpT8ykb5W4=
+dep	mujs-libs=1.3.9-r0	mujs-libs
+dep	pkgconfig	pkgconf

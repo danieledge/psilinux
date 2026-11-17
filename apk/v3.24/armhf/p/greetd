@@ -1,0 +1,17 @@
+name	greetd
+version	0.10.3-r11
+description	Minimal and flexible login manager daemon
+url	https://git.sr.ht/~kennylevinsen/greetd
+license	GPL-3.0-only
+size	330204
+installed-size	630603
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpam.so.0 so:libpam_misc.so.0
+origin	greetd
+repo	community
+file	greetd-0.10.3-r11.apk
+checksum	Q1OrHOYjXY3s3hAeGZBBv9VvX4CI4=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpam.so.0	linux-pam
+dep	so:libpam_misc.so.0	linux-pam

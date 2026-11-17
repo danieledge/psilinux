@@ -1,0 +1,13 @@
+name	ufw-extras
+version	0.7.0-r0
+description	Extra configuration files for uncomplicated firewall (ufw).
+url	https://github.com/xyproto/ufw-extras
+license	GPL-2.0-or-later
+size	2976
+installed-size	1472
+depends	ufw
+origin	ufw-extras
+repo	community
+file	ufw-extras-0.7.0-r0.apk
+checksum	Q1z++egYzqiRRoD42nMpacba/wh7U=
+dep	ufw	ufw

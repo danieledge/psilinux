@@ -1,0 +1,16 @@
+name	spvm
+version	0.990125-r0
+description	SPVM Language
+url	https://metacpan.org/release/SPVM/
+license	MIT
+size	959230
+installed-size	5635732
+depends	cmd:cc musl-dev perl so:libc.musl-armhf.so.1
+origin	spvm
+repo	community
+file	spvm-0.990125-r0.apk
+checksum	Q1PC9XlU6LCR1aTwS6fRBqmWzg0EQ=
+dep	cmd:cc	gcc
+dep	musl-dev	musl-dev
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

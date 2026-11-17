@@ -1,0 +1,18 @@
+name	m17n-lib-dev
+version	1.8.6-r1
+description	gnu M-text multilingualization library (development files)
+url	https://www.nongnu.org/m17n/
+license	LGPL-2.1-or-later
+size	39725
+installed-size	147703
+depends	m17n-db-dev m17n-lib-tools=1.8.6-r1 libm17n-core=1.8.6-r1 libm17n-flt=1.8.6-r1 m17n-lib=1.8.6-r1 pkgconfig
+origin	m17n-lib
+repo	community
+file	m17n-lib-dev-1.8.6-r1.apk
+checksum	Q1awEn2Rc+JfqESa7G4aCpPIYmS2U=
+dep	m17n-db-dev	m17n-db-dev
+dep	m17n-lib-tools=1.8.6-r1	m17n-lib-tools
+dep	libm17n-core=1.8.6-r1	libm17n-core
+dep	libm17n-flt=1.8.6-r1	libm17n-flt
+dep	m17n-lib=1.8.6-r1	m17n-lib
+dep	pkgconfig	pkgconf

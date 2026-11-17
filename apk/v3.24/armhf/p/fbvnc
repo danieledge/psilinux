@@ -1,0 +1,14 @@
+name	fbvnc
+version	0_git20251122-r1
+description	Small framebuffer VNC viewer
+url	https://github.com/aligrudi/fbvnc
+license	ISC
+size	12035
+installed-size	21844
+depends	so:libc.musl-armhf.so.1 so:libz.so.1
+origin	fbvnc
+repo	community
+file	fbvnc-0_git20251122-r1.apk
+checksum	Q1HjDuEMT1fAq7Y6IEg/fDlkTi2DU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libz.so.1	zlib

@@ -1,0 +1,16 @@
+name	navi
+version	2.24.0-r0
+description	An interactive cheatsheet tool for the command-line
+url	https://github.com/denisidoro/navi
+license	Apache-2.0
+size	1094162
+installed-size	2472112
+depends	git /bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	navi
+repo	community
+file	navi-2.24.0-r0.apk
+checksum	Q1+AUdWCFN4AAxMn83PzFgwF1nm74=
+dep	git	git
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

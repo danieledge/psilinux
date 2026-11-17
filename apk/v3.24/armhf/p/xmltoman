@@ -1,0 +1,13 @@
+name	xmltoman
+version	0.6-r1
+description	convert xml to man pages in groff format or html
+url	https://github.com/atsb/xmltoman
+license	GPL-2.0-or-later
+size	5271
+installed-size	14365
+depends	perl-xml-parser
+origin	xmltoman
+repo	main
+file	xmltoman-0.6-r1.apk
+checksum	Q1mKfK9+P3katTAZF0Yg29vyHGT98=
+dep	perl-xml-parser	perl-xml-parser

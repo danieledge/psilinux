@@ -1,0 +1,23 @@
+name	appstream-glib
+version	0.8.3-r0
+description	Library for AppStream metadata
+url	https://people.freedesktop.org/~hughsient/appstream-glib/
+license	LGPL-2.0-or-later
+size	213266
+installed-size	539652
+depends	gsettings-desktop-schemas so:libarchive.so.13 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libuuid.so.1 so:libyaml-0.so.2
+origin	appstream-glib
+repo	community
+file	appstream-glib-0.8.3-r0.apk
+checksum	Q1CNlloVBRgpy2s/KsckZUf7L6xik=
+dep	gsettings-desktop-schemas	gsettings-desktop-schemas
+dep	so:libarchive.so.13	libarchive
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libuuid.so.1	libuuid
+dep	so:libyaml-0.so.2	yaml

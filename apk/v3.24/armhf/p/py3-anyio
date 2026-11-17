@@ -1,0 +1,16 @@
+name	py3-anyio
+version	4.12.1-r1
+description	High level compatibility layer for multiple asynchronous event loop implementations
+url	https://github.com/agronholm/anyio
+license	MIT
+size	99772
+installed-size	457463
+depends	py3-idna py3-sniffio py3-typing-extensions python3~3.14
+origin	py3-anyio
+repo	community
+file	py3-anyio-4.12.1-r1.apk
+checksum	Q1BsQGHegqSOCJcNdBwRiFVOqEpaM=
+dep	py3-idna	py3-idna
+dep	py3-sniffio	py3-sniffio
+dep	py3-typing-extensions	py3-typing-extensions
+dep	python3~3.14	python3

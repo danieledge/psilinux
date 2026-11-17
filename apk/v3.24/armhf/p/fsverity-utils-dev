@@ -1,0 +1,15 @@
+name	fsverity-utils-dev
+version	1.7-r0
+description	userspace utilities for fs-verity (development files)
+url	https://git.kernel.org/pub/scm/fs/fsverity/fsverity-utils.git/
+license	GPL-2.0-or-later
+size	13244
+installed-size	31916
+depends	fsverity-utils=1.7-r0 pc:libcrypto pkgconfig
+origin	fsverity-utils
+repo	community
+file	fsverity-utils-dev-1.7-r0.apk
+checksum	Q19AeuRLjZiFuTxjB5G0xK6zqUp3k=
+dep	fsverity-utils=1.7-r0	fsverity-utils
+dep	pc:libcrypto	openssl-dev
+dep	pkgconfig	pkgconf

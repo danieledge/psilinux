@@ -1,0 +1,16 @@
+name	py3-zeroconf
+version	0.147.2-r1
+description	Python implementation of multicast DNS service discovery
+url	https://github.com/jstasiak/python-zeroconf
+license	LGPL-2.0-or-later
+size	1929962
+installed-size	4570642
+depends	python3 py3-ifaddr python3~3.14 so:libc.musl-armhf.so.1
+origin	py3-zeroconf
+repo	community
+file	py3-zeroconf-0.147.2-r1.apk
+checksum	Q1vnjUsGNcnNspTqXF7BfOz/WOxSQ=
+dep	python3	python3
+dep	py3-ifaddr	py3-ifaddr
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

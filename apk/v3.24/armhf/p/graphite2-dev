@@ -1,0 +1,15 @@
+name	graphite2-dev
+version	1.3.14-r6
+description	reimplementation of the SIL Graphite text processing engine (development files)
+url	https://graphite.sil.org/
+license	LGPL-2.1-or-later OR MPL-1.1
+size	14776
+installed-size	50533
+depends	freetype-dev graphite2=1.3.14-r6 pkgconfig
+origin	graphite2
+repo	main
+file	graphite2-dev-1.3.14-r6.apk
+checksum	Q1+fQV14dUal3qRlQyWPPkqNEuEBo=
+dep	freetype-dev	freetype-dev
+dep	graphite2=1.3.14-r6	graphite2
+dep	pkgconfig	pkgconf

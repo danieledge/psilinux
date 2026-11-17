@@ -1,0 +1,14 @@
+name	font-noto-nandinagari
+version	2026.11.01-r0
+description	Noto Sans Nandinagari font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	103292
+installed-size	211038
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-nandinagari-2026.11.01-r0.apk
+checksum	Q1uvLprzrHbNwzR/RD7524GBFDQw0=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

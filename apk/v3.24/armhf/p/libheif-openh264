@@ -1,0 +1,18 @@
+name	libheif-openh264
+version	1.23.7-r0
+description	libheif AVC (H.264) decoder plugin using OpenH264
+url	https://www.libde265.org/
+license	LGPL-3.0-or-later
+size	8986
+installed-size	17844
+depends	libheif=1.23.7-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:libopenh264.so.8 so:libstdc++.so.6
+origin	libheif
+repo	community
+file	libheif-openh264-1.23.7-r0.apk
+checksum	Q1cw7gnMttUvIImKFySpnJ9PIXKKc=
+dep	libheif=1.23.7-r0	libheif
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libheif.so.1	libheif
+dep	so:libopenh264.so.8	openh264
+dep	so:libstdc++.so.6	libstdc++

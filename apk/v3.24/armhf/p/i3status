@@ -1,0 +1,18 @@
+name	i3status
+version	2.15-r0
+description	Generates status bar for dzen2, xmobar or similar
+url	https://i3wm.org/i3status/
+license	BSD-3-Clause
+size	41156
+installed-size	85009
+depends	so:libasound.so.2 so:libc.musl-armhf.so.1 so:libconfuse.so.2 so:libnl-3.so.200 so:libnl-genl-3.so.200 so:libyajl.so.2
+origin	i3status
+repo	community
+file	i3status-2.15-r0.apk
+checksum	Q1vbKs86fpzB0Ru3ttPIL69/4kd1U=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libconfuse.so.2	confuse
+dep	so:libnl-3.so.200	libnl3
+dep	so:libnl-genl-3.so.200	libnl3
+dep	so:libyajl.so.2	yajl

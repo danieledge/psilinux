@@ -1,0 +1,14 @@
+name	acf-ppp
+version	0.5.0-r4
+description	Web-based system administration interface for ppp
+url	https://gitlab.alpinelinux.org/acf/acf-ppp
+license	GPL-2.0-only
+size	4367
+installed-size	7109
+depends	acf-core ppp
+origin	acf-ppp
+repo	main
+file	acf-ppp-0.5.0-r4.apk
+checksum	Q1jPVDauA0wGRU+ztqqDz5Gf9vKkQ=
+dep	acf-core	acf-core
+dep	ppp	ppp

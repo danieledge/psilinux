@@ -1,0 +1,14 @@
+name	lspmux
+version	0.3.0-r0
+description	Share one instance of an LSP between multiple clients
+url	https://codeberg.org/p2502/lspmux
+license	EUPL-1.2
+size	1028993
+installed-size	2201280
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	lspmux
+repo	community
+file	lspmux-0.3.0-r0.apk
+checksum	Q1fUUGZnPK5FaU+tPuLyIPP94vKNM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,20 @@
+name	callaudiod
+version	0.1.99-r0
+description	Call audio routing daemon
+url	https://gitlab.com/mobian1/callaudiod
+license	GPL-3.0-or-later
+size	17839
+installed-size	40000
+depends	callaudiocli=0.1.99-r0 so:libappstream.so.5 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libpulse-mainloop-glib.so.0 so:libpulse.so.0
+origin	callaudiod
+repo	community
+file	callaudiod-0.1.99-r0.apk
+checksum	Q1Zd/wNTkUFoibezm8KIGLFnOADg0=
+dep	callaudiocli=0.1.99-r0	callaudiocli
+dep	so:libappstream.so.5	appstream
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpulse-mainloop-glib.so.0	libpulse-mainloop-glib
+dep	so:libpulse.so.0	libpulse

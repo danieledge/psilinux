@@ -1,0 +1,21 @@
+name	mtxclient
+version	0.10.1-r3
+description	Client API library for Matrix, built on top of Boost.Asio
+url	https://github.com/nheko-reborn/mtxclient
+license	MIT
+size	822604
+installed-size	3757484
+depends	so:libc.musl-armhf.so.1 so:libcoeurl.so.0.3 so:libcrypto.so.3 so:libfmt.so.11 so:libgcc_s.so.1 so:libolm.so.3 so:libre2.so.11 so:libspdlog.so.1.17 so:libstdc++.so.6
+origin	mtxclient
+repo	community
+file	mtxclient-0.10.1-r3.apk
+checksum	Q1HbiFSpfOnsHHAqDLZt9g1jSc40M=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcoeurl.so.0.3	coeurl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libfmt.so.11	fmt
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libolm.so.3	olm
+dep	so:libre2.so.11	re2
+dep	so:libspdlog.so.1.17	spdlog
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,17 @@
+name	flwm
+version	1.16-r2
+description	Fast Light Window Manager
+url	https://flwm.sourceforge.net/
+license	GPL-2.0-or-later
+size	41202
+installed-size	67947
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1 so:libfltk.so.1.3 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	flwm
+repo	community
+file	flwm-1.16-r2.apk
+checksum	Q1hC5m5cEhItABAtDWKdvdMOvCpM4=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfltk.so.1.3	libfltk
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

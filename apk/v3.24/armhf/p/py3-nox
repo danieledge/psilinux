@@ -1,0 +1,22 @@
+name	py3-nox
+version	2025.05.01-r1
+description	Flexible test automation for Python
+url	https://nox.thea.codes/
+license	Apache-2.0
+size	60838
+installed-size	223277
+depends	py3-argcomplete py3-colorlog py3-dependency-groups py3-packaging py3-py py3-setuptools py3-virtualenv py3-wheel python3 python3~3.14
+origin	py3-nox
+repo	community
+file	py3-nox-2025.05.01-r1.apk
+checksum	Q1Ox6q81kvcy+zyJBSxbcdI9ZSr0w=
+dep	py3-argcomplete	py3-argcomplete
+dep	py3-colorlog	py3-colorlog
+dep	py3-dependency-groups	py3-dependency-groups
+dep	py3-packaging	py3-packaging
+dep	py3-py	py3-py
+dep	py3-setuptools	py3-setuptools
+dep	py3-virtualenv	py3-virtualenv
+dep	py3-wheel	py3-wheel
+dep	python3	python3
+dep	python3~3.14	python3

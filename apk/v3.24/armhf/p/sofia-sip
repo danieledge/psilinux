@@ -1,0 +1,17 @@
+name	sofia-sip
+version	1.13.17-r1
+description	RFC3261 compliant SIP User-Agent library
+url	https://github.com/freeswitch/sofia-sip
+license	LGPL-2.1-only
+size	680920
+installed-size	1549466
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libglib-2.0.so.0 so:libssl.so.3 so:libz.so.1
+origin	sofia-sip
+repo	main
+file	sofia-sip-1.13.17-r1.apk
+checksum	Q1ofNx2r4i1TtmYFjP94PDBOxPe60=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libglib-2.0.so.0	glib
+dep	so:libssl.so.3	libssl3
+dep	so:libz.so.1	zlib

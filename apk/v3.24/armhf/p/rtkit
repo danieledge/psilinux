@@ -1,0 +1,17 @@
+name	rtkit
+version	0.14-r0
+description	D-Bus system service that enables real time scheduling on request
+url	https://gitlab.freedesktop.org/pipewire/rtkit
+license	GPL-3.0-only AND MIT
+size	30922
+installed-size	79789
+depends	dbus /bin/sh so:libc.musl-armhf.so.1 so:libcap.so.2 so:libdbus-1.so.3
+origin	rtkit
+repo	community
+file	rtkit-0.14-r0.apk
+checksum	Q1aiZf1xP7bE4n0Qag5dwXaMtb0G8=
+dep	dbus	dbus
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libdbus-1.so.3	dbus-libs

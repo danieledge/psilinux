@@ -1,0 +1,13 @@
+name	libwebp-static
+version	1.6.0-r0
+description	Libraries for working with WebP images (static library)
+url	https://developers.google.com/speed/webp
+license	BSD-3-Clause
+size	3534971
+installed-size	4447272
+depends	libwebp-dev
+origin	libwebp
+repo	main
+file	libwebp-static-1.6.0-r0.apk
+checksum	Q1jXhwWhXBaD9muZ/HGtE+Vaqo/MQ=
+dep	libwebp-dev	libwebp-dev

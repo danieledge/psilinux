@@ -1,0 +1,16 @@
+name	swayidle
+version	1.9.0-r0
+description	Idle management daemon for Wayland
+url	https://swaywm.org/
+license	MIT
+size	12092
+installed-size	25976
+depends	so:libc.musl-armhf.so.1 so:libelogind.so.0 so:libwayland-client.so.0 so:libwayland-server.so.0
+origin	swayidle
+repo	community
+file	swayidle-1.9.0-r0.apk
+checksum	Q1+7ES/scmjE69//RDSub1S3PH8rc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libelogind.so.0	libelogind
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-server.so.0	wayland-libs-server

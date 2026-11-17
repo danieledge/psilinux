@@ -1,0 +1,21 @@
+name	lua5.2-http
+version	0.4-r2
+description	HTTP Library for Lua that supports HTTP(S) 1.0, 1.1 and 2.0 (for Lua 5.2)
+url	https://github.com/daurnimator/lua-http
+license	MIT
+size	79809
+installed-size	319712
+depends	lua5.2 lua5.2-binaryheap lua5.2-cqueues lua5.2-basexx lua5.2-fifo lua5.2-lpeg lua5.2-lpeg_patterns>=0.5 lua5.2-ossl lua5.2-compat53
+origin	lua-http
+repo	community
+file	lua5.2-http-0.4-r2.apk
+checksum	Q1pPzwU/7PGOHI55YnZ3eGzlM1wBo=
+dep	lua5.2	lua5.2
+dep	lua5.2-binaryheap	lua-binaryheap
+dep	lua5.2-cqueues	lua5.2-cqueues
+dep	lua5.2-basexx	lua5.2-basexx
+dep	lua5.2-fifo	lua5.2-fifo
+dep	lua5.2-lpeg	lua5.2-lpeg
+dep	lua5.2-lpeg_patterns>=0.5	lua5.2-lpeg_patterns
+dep	lua5.2-ossl	lua5.2-ossl
+dep	lua5.2-compat53	lua5.2-compat53

@@ -1,0 +1,23 @@
+name	py3-optuna
+version	4.9.0-r0
+description	Hyperparameter optimization framework
+url	https://optuna.org
+license	MIT
+size	331321
+installed-size	1513881
+depends	python3 py3-alembic py3-colorlog py3-cmaes py3-numpy py3-packaging py3-scipy py3-sqlalchemy py3-tqdm py3-yaml python3~3.14
+origin	py3-optuna
+repo	community
+file	py3-optuna-4.9.0-r0.apk
+checksum	Q1I/wSFkOctjIG4DD3UI84Cigagz0=
+dep	python3	python3
+dep	py3-alembic	py3-alembic
+dep	py3-colorlog	py3-colorlog
+dep	py3-cmaes	py3-cmaes
+dep	py3-numpy	py3-numpy
+dep	py3-packaging	py3-packaging
+dep	py3-scipy	py3-scipy
+dep	py3-sqlalchemy	py3-sqlalchemy
+dep	py3-tqdm	py3-tqdm
+dep	py3-yaml	py3-yaml
+dep	python3~3.14	python3

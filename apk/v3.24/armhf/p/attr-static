@@ -1,0 +1,13 @@
+name	attr-static
+version	2.5.2-r2
+description	utilities for managing filesystem extended attributes (static library)
+url	https://savannah.nongnu.org/projects/attr
+license	LGPL-2.1-or-later
+size	7835
+installed-size	20250
+depends	attr-dev
+origin	attr
+repo	main
+file	attr-static-2.5.2-r2.apk
+checksum	Q1Ub53abyimYyzH4p159ZcWw4GeSs=
+dep	attr-dev	attr-dev

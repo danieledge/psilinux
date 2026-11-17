@@ -1,0 +1,13 @@
+name	postgresql-pg_partman
+version	5.2.4-r0
+description	Partition management extension for PostgreSQL
+url	https://github.com/pgpartman/pg_partman
+license	PostgreSQL
+size	1059695
+installed-size	7363503
+depends	so:libc.musl-armhf.so.1
+origin	postgresql-pg_partman
+repo	community
+file	postgresql-pg_partman-5.2.4-r0.apk
+checksum	Q1Hxv8PSZwHVl3r5FfwJV6NMGbn80=
+dep	so:libc.musl-armhf.so.1	musl

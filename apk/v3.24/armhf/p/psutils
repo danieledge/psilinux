@@ -1,0 +1,14 @@
+name	psutils
+version	1.17-r8
+description	A set of postscript utilities
+url	http://knackered.org/angus/psutils
+license	custom
+size	38133
+installed-size	123232
+depends	perl so:libc.musl-armhf.so.1
+origin	psutils
+repo	community
+file	psutils-1.17-r8.apk
+checksum	Q1FTPbi8DbiYvmbFQkOU2O6jcdGqY=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

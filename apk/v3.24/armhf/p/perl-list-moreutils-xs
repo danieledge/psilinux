@@ -1,0 +1,14 @@
+name	perl-list-moreutils-xs
+version	0.430-r6
+description	Provide the stuff missing in List::Util in XS
+url	https://metacpan.org/release/List-MoreUtils-XS/
+license	Apache-2.0
+size	39858
+installed-size	111063
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-list-moreutils-xs
+repo	main
+file	perl-list-moreutils-xs-0.430-r6.apk
+checksum	Q1c+R03GdqbBu2jby0JP1JJPCD1s0=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

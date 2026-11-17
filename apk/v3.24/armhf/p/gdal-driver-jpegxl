@@ -1,0 +1,18 @@
+name	gdal-driver-jpegxl
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (JPEG-XL driver)
+url	https://gdal.org/
+license	MIT
+size	32492
+installed-size	71040
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libjxl.so.0.11 so:libjxl_threads.so.0.11 so:libstdc++.so.6
+origin	gdal
+repo	community
+file	gdal-driver-jpegxl-3.13.3-r0.apk
+checksum	Q1fFx2xs/Xem+Gl7A7zU5DCWrZDKk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libjxl.so.0.11	libjxl
+dep	so:libjxl_threads.so.0.11	libjxl
+dep	so:libstdc++.so.6	libstdc++

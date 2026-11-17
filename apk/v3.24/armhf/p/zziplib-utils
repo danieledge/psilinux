@@ -1,0 +1,17 @@
+name	zziplib-utils
+version	0.13.80-r1
+description	Utilities for the zziplib library
+url	https://github.com/gdraheim/zziplib
+license	LGPL-2.0-or-later OR MPL-1.1
+size	21711
+installed-size	90200
+depends	so:libc.musl-armhf.so.1 so:libz.so.1 so:libzzip.so.13 so:libzzipfseeko.so.13 so:libzzipmmapped.so.13
+origin	zziplib
+repo	community
+file	zziplib-utils-0.13.80-r1.apk
+checksum	Q1oOv84wRuPIQziqvsTnGJ428eO98=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libz.so.1	zlib
+dep	so:libzzip.so.13	zziplib
+dep	so:libzzipfseeko.so.13	zziplib
+dep	so:libzzipmmapped.so.13	zziplib

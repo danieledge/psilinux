@@ -1,0 +1,14 @@
+name	libdvdnav
+version	6.1.1-r1
+description	a library for sophisticated DVD navigation features
+url	http://dvdnav.mplayerhq.hu/
+license	GPL-2.0-or-later
+size	35483
+installed-size	70880
+depends	so:libc.musl-armhf.so.1 so:libdvdread.so.8
+origin	libdvdnav
+repo	community
+file	libdvdnav-6.1.1-r1.apk
+checksum	Q1A12DOsFnpl6IbT+m+Q5ov0aUbD0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdvdread.so.8	libdvdread

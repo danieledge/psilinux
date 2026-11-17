@@ -1,0 +1,16 @@
+name	freeradius-perl
+version	3.0.27-r3
+description	Perl module for FreeRADIUS server
+url	https://freeradius.org/
+license	GPL-2.0-or-later
+size	17671
+installed-size	34835
+depends	freeradius=3.0.27-r3 perl so:libc.musl-armhf.so.1 so:libperl.so
+origin	freeradius
+repo	main
+file	freeradius-perl-3.0.27-r3.apk
+checksum	Q1/GAlX8uaH083Q7xFQPrqhXE8dvk=
+dep	freeradius=3.0.27-r3	freeradius
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libperl.so	perl

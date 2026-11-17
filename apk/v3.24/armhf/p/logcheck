@@ -1,0 +1,16 @@
+name	logcheck
+version	1.4.7-r0
+description	Bash scripts used to monitor system log files for anomalies
+url	https://packages.debian.org/source/sid/logcheck
+license	GPL-2.0-or-later
+size	90570
+installed-size	377647
+depends	bash lockfile-progs perl /bin/sh
+origin	logcheck
+repo	main
+file	logcheck-1.4.7-r0.apk
+checksum	Q1Eb4Ch0HErG8g4rMwAi5xwlIHPfY=
+dep	bash	bash
+dep	lockfile-progs	lockfile-progs
+dep	perl	perl
+dep	/bin/sh	busybox-binsh

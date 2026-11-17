@@ -1,0 +1,13 @@
+name	rpcsvc-proto
+version	1.4.4-r0
+description	rpcsvc protocol definitions from glibc
+url	https://github.com/thkukuk/rpcsvc-proto
+license	BSD-3-Clause
+size	35292
+installed-size	75216
+depends	so:libc.musl-armhf.so.1
+origin	rpcsvc-proto
+repo	main
+file	rpcsvc-proto-1.4.4-r0.apk
+checksum	Q1gixvZrYmTq04FiM03mZKUv75nxE=
+dep	so:libc.musl-armhf.so.1	musl

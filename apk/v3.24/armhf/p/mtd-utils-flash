@@ -1,0 +1,13 @@
+name	mtd-utils-flash
+version	2.2.1-r0
+description	MTD utils (flash commands)
+url	http://www.linux-mtd.infradead.org/
+license	GPL-2.0-only
+size	78252
+installed-size	191570
+depends	so:libc.musl-armhf.so.1
+origin	mtd-utils
+repo	main
+file	mtd-utils-flash-2.2.1-r0.apk
+checksum	Q18mqx1zu6chmqS4RTmYs39HkjfrU=
+dep	so:libc.musl-armhf.so.1	musl

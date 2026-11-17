@@ -1,0 +1,13 @@
+name	mptcp-get-debug
+version	0.14-r0
+description	MPTCP debug info script
+url	https://mptcpd.mptcp.dev
+license	BSD-3-Clause
+size	2552
+installed-size	2576
+depends	iproute2
+origin	mptcpd
+repo	community
+file	mptcp-get-debug-0.14-r0.apk
+checksum	Q1A47a/u7LqqXjr03XBJTohuVSJRw=
+dep	iproute2	iproute2

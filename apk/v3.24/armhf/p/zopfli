@@ -1,0 +1,15 @@
+name	zopfli
+version	1.0.3_git20260213-r0
+description	Compression algorithm library
+url	https://github.com/fonttools/zopfli
+license	Apache-2.0
+size	103285
+installed-size	222196
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	zopfli
+repo	community
+file	zopfli-1.0.3_git20260213-r0.apk
+checksum	Q1GUhEK1s0h1xCuJKLEOIj5WZU5f8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

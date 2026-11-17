@@ -1,0 +1,15 @@
+name	py3-setuptools_scm
+version	9.2.2-r1
+description	The blessed package to manage your versions by scm tags
+url	https://github.com/pypa/setuptools_scm
+license	MIT
+size	52322
+installed-size	171829
+depends	py3-setuptools py3-packaging python3~3.14
+origin	py3-setuptools_scm
+repo	main
+file	py3-setuptools_scm-9.2.2-r1.apk
+checksum	Q15eoJ1gQeBC2n8U3zGCskoPd0SAE=
+dep	py3-setuptools	py3-setuptools
+dep	py3-packaging	py3-packaging
+dep	python3~3.14	python3

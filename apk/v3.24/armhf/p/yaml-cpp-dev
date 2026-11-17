@@ -1,0 +1,14 @@
+name	yaml-cpp-dev
+version	0.9.0-r0
+description	YAML parser and emitter in C++ matching YAML 1.2 spec (development files)
+url	https://github.com/jbeder/yaml-cpp
+license	MIT
+size	28428
+installed-size	123550
+depends	yaml-cpp=0.9.0-r0 pkgconfig
+origin	yaml-cpp
+repo	community
+file	yaml-cpp-dev-0.9.0-r0.apk
+checksum	Q1gP9Qd4H2e+dnY3V8hfzRZ21nJjM=
+dep	yaml-cpp=0.9.0-r0	yaml-cpp
+dep	pkgconfig	pkgconf

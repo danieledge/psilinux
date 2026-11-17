@@ -1,0 +1,13 @@
+name	libmnl
+version	1.0.5-r2
+description	Library for minimalistic netlink
+url	https://www.netfilter.org/projects/libmnl/
+license	LGPL-2.1-or-later
+size	7772
+installed-size	17688
+depends	so:libc.musl-armhf.so.1
+origin	libmnl
+repo	main
+file	libmnl-1.0.5-r2.apk
+checksum	Q1CsBeDezxd4JArefcI1kL/jFj0+g=
+dep	so:libc.musl-armhf.so.1	musl

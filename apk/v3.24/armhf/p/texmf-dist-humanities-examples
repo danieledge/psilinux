@@ -1,0 +1,14 @@
+name	texmf-dist-humanities-examples
+version	2026.0-r0
+description	texmf-dist: Humanities packages (examples and documentation)
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	40243292
+installed-size	45233986
+depends	texmf-dist-humanities texmf-dist-humanities-doc
+origin	texmf-dist
+repo	community
+file	texmf-dist-humanities-examples-2026.0-r0.apk
+checksum	Q1RbSNbWK1UFf/iskWO7uwQcFGHb4=
+dep	texmf-dist-humanities	texmf-dist-humanities
+dep	texmf-dist-humanities-doc	texmf-dist-humanities-doc

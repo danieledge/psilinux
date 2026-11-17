@@ -1,0 +1,14 @@
+name	fbgrab
+version	1.5-r2
+description	Framebuffer screenshot program
+url	https://github.com/GunnarMonell/fbgrab
+license	GPL-2.0-only
+size	7655
+installed-size	13604
+depends	so:libc.musl-armhf.so.1 so:libpng16.so.16
+origin	fbgrab
+repo	community
+file	fbgrab-1.5-r2.apk
+checksum	Q1CZxlJBb3Yu7Aa0RcCo9sq76SNjc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpng16.so.16	libpng

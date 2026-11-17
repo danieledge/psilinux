@@ -1,0 +1,19 @@
+name	libwps-tools
+version	0.4.14-r0
+description	Import filter and tools for Microsoft Works files
+url	https://sourceforge.net/projects/libwps/
+license	MPL-2.0
+size	27920
+installed-size	119352
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:librevenge-0.0.so.0 so:librevenge-generators-0.0.so.0 so:librevenge-stream-0.0.so.0 so:libstdc++.so.6 so:libwps-0.4.so.4
+origin	libwps
+repo	community
+file	libwps-tools-0.4.14-r0.apk
+checksum	Q1fRT193gkv1iy8JgRAiBNIMuqToQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:librevenge-0.0.so.0	librevenge
+dep	so:librevenge-generators-0.0.so.0	librevenge
+dep	so:librevenge-stream-0.0.so.0	librevenge
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwps-0.4.so.4	libwps

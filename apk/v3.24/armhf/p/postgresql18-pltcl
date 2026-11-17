@@ -1,0 +1,16 @@
+name	postgresql18-pltcl
+version	18.7-r0
+description	PL/Tcl procedural language for PostgreSQL
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	25171
+installed-size	51934
+depends	postgresql18=18.7-r0 pgtcl so:libc.musl-armhf.so.1 so:libtcl8.6.so
+origin	postgresql18
+repo	main
+file	postgresql18-pltcl-18.7-r0.apk
+checksum	Q1BIOS7rwmA2YjdVJzBULVxl+gZsY=
+dep	postgresql18=18.7-r0	postgresql18
+dep	pgtcl	pgtcl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libtcl8.6.so	tcl

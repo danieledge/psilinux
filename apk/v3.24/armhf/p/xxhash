@@ -1,0 +1,13 @@
+name	xxhash
+version	0.8.3-r1
+description	Extremely fast non-cryptographic hash algorithm
+url	https://cyan4973.github.io/xxHash/
+license	BSD-2-Clause
+size	50266
+installed-size	99628
+depends	so:libc.musl-armhf.so.1
+origin	xxhash
+repo	main
+file	xxhash-0.8.3-r1.apk
+checksum	Q15j6YRHY+083CluZNQ9RDut71Ypw=
+dep	so:libc.musl-armhf.so.1	musl

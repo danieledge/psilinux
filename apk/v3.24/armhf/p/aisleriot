@@ -1,0 +1,27 @@
+name	aisleriot
+version	3.22.35-r0
+description	Solitaire and other card games for GNOME
+url	https://gitlab.gnome.org/GNOME/aisleriot
+license	GPL-3.0-or-later
+size	8692908
+installed-size	14976936
+depends	guile so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcanberra-gtk3.so.0 so:libcanberra.so.0 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libguile-3.0.so.1 so:libintl.so.8 so:librsvg-2.so.2
+origin	aisleriot
+repo	community
+file	aisleriot-3.22.35-r0.apk
+checksum	Q1xIeoaFDQNIX4ZqSCCi1DJ15tAEk=
+dep	guile	guile
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcanberra-gtk3.so.0	libcanberra-gtk3
+dep	so:libcanberra.so.0	libcanberra
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libguile-3.0.so.1	guile-libs
+dep	so:libintl.so.8	libintl
+dep	so:librsvg-2.so.2	librsvg

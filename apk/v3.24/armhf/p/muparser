@@ -1,0 +1,16 @@
+name	muparser
+version	2.3.4-r1
+description	Fast math parser library
+url	https://beltoforion.de/en/muparser/
+license	BSD-2-Clause
+size	184396
+installed-size	493004
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgomp.so.1 so:libstdc++.so.6
+origin	muparser
+repo	community
+file	muparser-2.3.4-r1.apk
+checksum	Q1JdyQLyGmQtBB9a0IOdY/TiVCkBo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgomp.so.1	libgomp
+dep	so:libstdc++.so.6	libstdc++

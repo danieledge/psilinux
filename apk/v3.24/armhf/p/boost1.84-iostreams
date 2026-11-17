@@ -1,0 +1,19 @@
+name	boost1.84-iostreams
+version	1.84.0-r6
+description	Boost iostreams shared library
+url	https://www.boost.org/
+license	BSL-1.0
+size	28742
+installed-size	83328
+depends	so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblzma.so.5 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
+origin	boost1.84
+repo	main
+file	boost1.84-iostreams-1.84.0-r6.apk
+checksum	Q1bnDU7afY8aMSqFCHZADLD9b3AIs=
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblzma.so.5	xz-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

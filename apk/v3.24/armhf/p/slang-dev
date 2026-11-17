@@ -1,0 +1,14 @@
+name	slang-dev
+version	2.3.3-r3
+description	Powerful interpreted language (development files)
+url	https://www.jedsoft.org/slang
+license	GPL-2.0-or-later
+size	26847
+installed-size	104287
+depends	slang=2.3.3-r3 pkgconfig
+origin	slang
+repo	main
+file	slang-dev-2.3.3-r3.apk
+checksum	Q1GOeeI4/yIW7mXSstIJH/OJwYx0s=
+dep	slang=2.3.3-r3	slang
+dep	pkgconfig	pkgconf

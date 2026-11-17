@@ -1,0 +1,12 @@
+name	fail2ban-doc
+version	1.1.0-r3
+description	Scans log files for login failures then updates iptables to reject originating ip address (documentation)
+url	https://www.fail2ban.org/
+license	GPL-2.0-or-later
+size	38433
+installed-size	57230
+depends	
+origin	fail2ban
+repo	main
+file	fail2ban-doc-1.1.0-r3.apk
+checksum	Q1FBENflF42HW8e3b+Q9Jkvd8APTU=

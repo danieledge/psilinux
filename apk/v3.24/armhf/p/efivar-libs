@@ -1,0 +1,13 @@
+name	efivar-libs
+version	39-r1
+description	Tools and library to manipulate EFI variables (libraries)
+url	https://github.com/rhboot/efivar
+license	LGPL-2.1-only
+size	118922
+installed-size	325092
+depends	so:libc.musl-armhf.so.1
+origin	efivar
+repo	main
+file	efivar-libs-39-r1.apk
+checksum	Q1ptqMQzNq3mNV3j7WB8wwKHc9k6M=
+dep	so:libc.musl-armhf.so.1	musl

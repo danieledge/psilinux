@@ -1,0 +1,13 @@
+name	dfc
+version	3.1.1-r5
+description	Report file system space usage information with style
+url	https://projects.gw-computing.net/projects/dfc
+license	BSD-3-Clause
+size	20651
+installed-size	40144
+depends	so:libc.musl-armhf.so.1
+origin	dfc
+repo	community
+file	dfc-3.1.1-r5.apk
+checksum	Q1lCEKBaeCLS07jcYz3C/9nKEWxn8=
+dep	so:libc.musl-armhf.so.1	musl

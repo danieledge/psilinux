@@ -1,0 +1,39 @@
+name	nymphcast
+version	0.2_alpha0-r5
+description	Audio and video casting system with support for custom applications
+url	http://nyanko.ws/product_nymphcast.php
+license	BSD-3-Clause
+size	2835444
+installed-size	4278384
+depends	avahi so:libGL.so.1 so:libPocoData.so.121 so:libPocoDataSQLite.so.121 so:libPocoFoundation.so.121 so:libPocoJSON.so.121 so:libPocoNet.so.121 so:libPocoNetSSL.so.121 so:libPocoUtil.so.121 so:libSDL2-2.0.so.0 so:libSDL2_image-2.0.so.0 so:libasound.so.2 so:libavcodec.so.61 so:libavdevice.so.61 so:libavfilter.so.10 so:libavformat.so.61 so:libavutil.so.59 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libfreeimage.so.3 so:libfreetype.so.6 so:libgcc_s.so.1 so:libnymphcast.so.0.2 so:libnymphrpc.so.0.1 so:libstdc++.so.6 so:libswresample.so.5 so:libswscale.so.8
+origin	nymphcast
+repo	community
+file	nymphcast-0.2_alpha0-r5.apk
+checksum	Q14FXCsMl3VFSKVBTMbhder4EWKcA=
+dep	avahi	avahi
+dep	so:libGL.so.1	mesa-gl
+dep	so:libPocoData.so.121	poco
+dep	so:libPocoDataSQLite.so.121	poco
+dep	so:libPocoFoundation.so.121	poco
+dep	so:libPocoJSON.so.121	poco
+dep	so:libPocoNet.so.121	poco
+dep	so:libPocoNetSSL.so.121	poco
+dep	so:libPocoUtil.so.121	poco
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libSDL2_image-2.0.so.0	sdl2_image
+dep	so:libasound.so.2	alsa-lib
+dep	so:libavcodec.so.61	ffmpeg7-libavcodec
+dep	so:libavdevice.so.61	ffmpeg7-libavdevice
+dep	so:libavfilter.so.10	ffmpeg7-libavfilter
+dep	so:libavformat.so.61	ffmpeg7-libavformat
+dep	so:libavutil.so.59	ffmpeg7-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libfreeimage.so.3	freeimage
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libnymphcast.so.0.2	libnymphcast
+dep	so:libnymphrpc.so.0.1	nymphrpc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libswresample.so.5	ffmpeg7-libswresample
+dep	so:libswscale.so.8	ffmpeg7-libswscale

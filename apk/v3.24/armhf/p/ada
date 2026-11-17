@@ -1,0 +1,16 @@
+name	ada
+version	4.0.0-r0
+description	WHATWG-compliant and fast URL parser written in modern C++
+url	https://ada-url.github.io/ada
+license	( Apache-2.0 OR MIT ) AND MPL-2.0
+size	510820
+installed-size	1534140
+depends	so:libada.so.4 so:libc.musl-armhf.so.1 so:libfmt.so.11 so:libgcc_s.so.1
+origin	ada
+repo	main
+file	ada-4.0.0-r0.apk
+checksum	Q1VroPgmLX8q1lLyi/KhDMPf3hWJE=
+dep	so:libada.so.4	ada-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfmt.so.11	fmt
+dep	so:libgcc_s.so.1	libgcc

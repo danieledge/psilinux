@@ -1,0 +1,15 @@
+name	uwsgi-graylog2
+version	2.0.31-r2
+description	uWSGI plugin graylog2
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	4192
+installed-size	9648
+depends	uwsgi so:libc.musl-armhf.so.1 so:libz.so.1
+origin	uwsgi
+repo	main
+file	uwsgi-graylog2-2.0.31-r2.apk
+checksum	Q1TwFeDfbo/eXCje5C3u+GN97VS6M=
+dep	uwsgi	uwsgi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libz.so.1	zlib

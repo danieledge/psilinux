@@ -1,0 +1,22 @@
+name	samba-winbind-krb5-locator
+version	4.23.8-r0
+description	Samba winbind krb5 locator
+url	https://www.samba.org/
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	5435
+installed-size	10800
+depends	samba-libs=4.23.8-r0 samba-util-libs=4.23.8-r0 libwbclient=4.23.8-r0 so:libc.musl-armhf.so.1 so:libgse-private-samba.so so:libreplace-private-samba.so so:libsamba-util.so.0 so:libsmbconf.so.0 so:libtalloc.so.2 so:libwbclient.so.0
+origin	samba
+repo	main
+file	samba-winbind-krb5-locator-4.23.8-r0.apk
+checksum	Q18YnESXyowu6Ug6Pg9LCLyFMszc4=
+dep	samba-libs=4.23.8-r0	samba-libs
+dep	samba-util-libs=4.23.8-r0	samba-util-libs
+dep	libwbclient=4.23.8-r0	libwbclient
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgse-private-samba.so	samba-libs
+dep	so:libreplace-private-samba.so	samba-util-libs
+dep	so:libsamba-util.so.0	samba-util-libs
+dep	so:libsmbconf.so.0	samba-libs
+dep	so:libtalloc.so.2	talloc
+dep	so:libwbclient.so.0	libwbclient

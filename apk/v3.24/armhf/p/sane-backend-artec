@@ -1,0 +1,14 @@
+name	sane-backend-artec
+version	1.4.0-r4
+description	SANE backend for Artec flatbed scanners 
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	39389
+installed-size	76093
+depends	sane so:libc.musl-armhf.so.1
+origin	sane
+repo	community
+file	sane-backend-artec-1.4.0-r4.apk
+checksum	Q1TUzDd7iCCPBQOJajIIPM0uwCio4=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,17 @@
+name	cryptsetup
+version	2.8.6-r0
+description	Userspace setup tool for transparent encryption of block devices using the Linux 2.6 cryptoapi
+url	https://gitlab.com/cryptsetup/cryptsetup
+license	GPL-2.0-or-later WITH cryptsetup-OpenSSL-exception
+size	123364
+installed-size	281560
+depends	so:libblkid.so.1 so:libc.musl-armhf.so.1 so:libcryptsetup.so.12 so:libpopt.so.0 so:libuuid.so.1
+origin	cryptsetup
+repo	main
+file	cryptsetup-2.8.6-r0.apk
+checksum	Q1VreCx1pNzdgVBkkNP7Iyb4iHAyY=
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcryptsetup.so.12	cryptsetup-libs
+dep	so:libpopt.so.0	popt
+dep	so:libuuid.so.1	libuuid

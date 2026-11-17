@@ -1,0 +1,15 @@
+name	php84-phar
+version	8.4.27-r0
+description	PHP84 extension: PHP Archive
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	122004
+installed-size	258264
+depends	php84-common php84 so:libc.musl-armhf.so.1
+origin	php84
+repo	community
+file	php84-phar-8.4.27-r0.apk
+checksum	Q1RZ2e2jUEhRLuEXd/dDiTqOVEph8=
+dep	php84-common	php84-common
+dep	php84	php84
+dep	so:libc.musl-armhf.so.1	musl

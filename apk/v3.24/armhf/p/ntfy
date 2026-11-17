@@ -1,0 +1,15 @@
+name	ntfy
+version	2.23.0-r2
+description	A simple HTTP-based pub-sub notification service
+url	https://ntfy.sh/
+license	GPL-2.0-only AND Apache-2.0
+size	30121458
+installed-size	72291920
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	ntfy
+repo	community
+file	ntfy-2.23.0-r2.apk
+checksum	Q1sBccpWPGVwA/7eJvYSuxSPpORC0=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

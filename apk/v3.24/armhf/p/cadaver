@@ -1,0 +1,15 @@
+name	cadaver
+version	0.28-r0
+description	Cadaver is a command line webDAV client for Linux
+url	http://webdav.org/cadaver/
+license	GPL-2.0-or-later
+size	42532
+installed-size	92388
+depends	so:libc.musl-armhf.so.1 so:libneon.so.27 so:libreadline.so.8
+origin	cadaver
+repo	community
+file	cadaver-0.28-r0.apk
+checksum	Q1rVJP4Dpup5rN2xukPh5tj1PpSiU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libneon.so.27	neon
+dep	so:libreadline.so.8	readline

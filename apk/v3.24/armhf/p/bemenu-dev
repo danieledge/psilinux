@@ -1,0 +1,21 @@
+name	bemenu-dev
+version	0.6.23-r0
+description	Dynamic menu library and client program with support for different backends (development files)
+url	https://github.com/Cloudef/bemenu
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	8885
+installed-size	35256
+depends	libxinerama-dev libxkbcommon-dev ncurses-dev pango-dev scdoc wayland-dev wayland-protocols bemenu=0.6.23-r0 pkgconfig
+origin	bemenu
+repo	community
+file	bemenu-dev-0.6.23-r0.apk
+checksum	Q1XfEJnuLfK6bdIDiZlZtAbYVuoh0=
+dep	libxinerama-dev	libxinerama-dev
+dep	libxkbcommon-dev	libxkbcommon-dev
+dep	ncurses-dev	ncurses-dev
+dep	pango-dev	pango-dev
+dep	scdoc	scdoc
+dep	wayland-dev	wayland-dev
+dep	wayland-protocols	wayland-protocols
+dep	bemenu=0.6.23-r0	bemenu
+dep	pkgconfig	pkgconf

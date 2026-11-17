@@ -1,0 +1,14 @@
+name	smenu
+version	1.5.0-r0
+description	A standard input word picker
+url	https://github.com/p-gen/smenu
+license	GPL-2.0-only
+size	91142
+installed-size	186840
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	smenu
+repo	community
+file	smenu-1.5.0-r0.apk
+checksum	Q1A2jHDvp80AfumtAMspU5/2S2Y88=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

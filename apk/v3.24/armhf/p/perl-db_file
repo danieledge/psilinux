@@ -1,0 +1,15 @@
+name	perl-db_file
+version	1.860-r0
+description	Perl5 access to Berkeley DB version 1.x
+url	https://metacpan.org/release/DB_File/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	40789
+installed-size	112630
+depends	perl so:libc.musl-armhf.so.1 so:libdb-5.3.so
+origin	perl-db_file
+repo	community
+file	perl-db_file-1.860-r0.apk
+checksum	Q19bBDmQ9unINIHGChtUqRgMQCi1A=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdb-5.3.so	db

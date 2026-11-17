@@ -1,0 +1,20 @@
+name	repmgr
+version	5.5.0-r2
+description	Replication Manager for PostgreSQL
+url	https://repmgr.org/
+license	GPL-3.0-or-later
+size	216471
+installed-size	677637
+depends	cmd:ssh doas postgresql-client postgresql18 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libjson-c.so.5 so:libpq.so.5
+origin	repmgr
+repo	community
+file	repmgr-5.5.0-r2.apk
+checksum	Q1oY3J/zLU3bKQFJohkjWvHm9fdHE=
+dep	cmd:ssh	openssh-client-default
+dep	doas	doas
+dep	postgresql-client	postgresql18-client
+dep	postgresql18	postgresql18
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libjson-c.so.5	json-c
+dep	so:libpq.so.5	libpq

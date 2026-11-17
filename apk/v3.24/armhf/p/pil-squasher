@@ -1,0 +1,13 @@
+name	pil-squasher
+version	0_git20230828-r1
+description	Convert split .mdt + .bXX files into a .mbn file
+url	https://github.com/andersson/pil-squasher
+license	BSD-3-Clause
+size	5561
+installed-size	18776
+depends	so:libc.musl-armhf.so.1
+origin	pil-squasher
+repo	community
+file	pil-squasher-0_git20230828-r1.apk
+checksum	Q1jEIzA6ucwmiJ6JHnNLnttDUj8W0=
+dep	so:libc.musl-armhf.so.1	musl

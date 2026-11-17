@@ -1,0 +1,13 @@
+name	xrdp-dev
+version	0.10.6-r0
+description	Open source RDP server (development files)
+url	https://www.xrdp.org/
+license	Apache-2.0
+size	44042
+installed-size	138225
+depends	pkgconfig
+origin	xrdp
+repo	community
+file	xrdp-dev-0.10.6-r0.apk
+checksum	Q1I0H2hELKpm9dtWD0xEgx0HykcjE=
+dep	pkgconfig	pkgconf

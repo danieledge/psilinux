@@ -1,0 +1,23 @@
+name	haxe
+version	4.3.3-r5
+description	The Cross-Platform Toolkit
+url	https://haxe.org
+license	GPL-2.0-or-later
+size	10280759
+installed-size	28624778
+depends	musl mbedtls3 pcre2 zlib so:libc.musl-armhf.so.1 so:libmbedcrypto.so.16 so:libmbedtls.so.21 so:libmbedx509.so.7 so:libneko.so.2 so:libpcre2-8.so.0 so:libz.so.1
+origin	haxe
+repo	community
+file	haxe-4.3.3-r5.apk
+checksum	Q1O0ZT4ae5u/0tMJ+SjUVzD5gygwA=
+dep	musl	musl
+dep	mbedtls3	mbedtls3
+dep	pcre2	pcre2
+dep	zlib	zlib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmbedcrypto.so.16	mbedtls3
+dep	so:libmbedtls.so.21	mbedtls3
+dep	so:libmbedx509.so.7	mbedtls3
+dep	so:libneko.so.2	neko
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libz.so.1	zlib

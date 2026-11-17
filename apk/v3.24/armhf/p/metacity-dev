@@ -1,0 +1,16 @@
+name	metacity-dev
+version	3.56.0-r1
+description	Metacity is the Gtk+3-based window manager used in gnome-flashback (development files)
+url	https://gitlab.gnome.org/GNOME/metacity
+license	GPL-2.0-or-later
+size	5350
+installed-size	14862
+depends	metacity=3.56.0-r1 pc:glib-2.0 pc:gtk+-3.0 pkgconfig
+origin	metacity
+repo	community
+file	metacity-dev-3.56.0-r1.apk
+checksum	Q1pTMrbBNaFfPEMFK5xNQHLl4h2Q4=
+dep	metacity=3.56.0-r1	metacity
+dep	pc:glib-2.0	glib-dev
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pkgconfig	pkgconf

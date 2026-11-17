@@ -1,0 +1,13 @@
+name	libhdhomerun-libs
+version	20250815-r0
+description	libhdhomerun (libraries)
+url	https://github.com/Silicondust/libhdhomerun
+license	LGPL-2.1-or-later
+size	40195
+installed-size	95504
+depends	so:libc.musl-armhf.so.1
+origin	libhdhomerun
+repo	community
+file	libhdhomerun-libs-20250815-r0.apk
+checksum	Q1dDKTIbdXF9HjbTbGw4Q1z/0ndJM=
+dep	so:libc.musl-armhf.so.1	musl

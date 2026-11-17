@@ -1,0 +1,17 @@
+name	njs-dev
+version	0.9.9-r0
+description	NGINX JavaScript interpreter CLI (development files)
+url	https://nginx.org/en/docs/njs/
+license	BSD-2-Clause
+size	77853
+installed-size	379807
+depends	libnjs=0.9.9-r0 pc:libcrypto pc:libpcre2-8 pc:zlib pkgconfig
+origin	njs
+repo	community
+file	njs-dev-0.9.9-r0.apk
+checksum	Q1WY79xGpXMZzLKJ1dIt1vqybfOqI=
+dep	libnjs=0.9.9-r0	libnjs
+dep	pc:libcrypto	openssl-dev
+dep	pc:libpcre2-8	pcre2-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

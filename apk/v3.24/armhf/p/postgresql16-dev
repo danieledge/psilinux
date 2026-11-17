@@ -1,0 +1,22 @@
+name	postgresql16-dev
+version	16.16-r0
+description	A sophisticated object-relational DBMS, version 16 (development files)
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	1902907
+installed-size	6887235
+depends	libpq-dev libecpg-dev clang16 icu-dev llvm16 lz4-dev openssl-dev zstd-dev so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	postgresql16
+repo	community
+file	postgresql16-dev-16.16-r0.apk
+checksum	Q1xIg0YtrNkFEvM/gU3zYnDrWaERY=
+dep	libpq-dev	libpq-dev
+dep	libecpg-dev	libecpg-dev
+dep	clang16	clang16
+dep	icu-dev	icu-dev
+dep	llvm16	llvm16
+dep	lz4-dev	lz4-dev
+dep	openssl-dev	openssl-dev
+dep	zstd-dev	zstd-dev
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

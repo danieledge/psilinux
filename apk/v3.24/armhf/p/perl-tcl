@@ -1,0 +1,15 @@
+name	perl-tcl
+version	1.53-r2
+description	Tcl extension module for Perl
+url	https://metacpan.org/release/Tcl/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	32883
+installed-size	81158
+depends	perl tcl so:libc.musl-armhf.so.1
+origin	perl-tcl
+repo	community
+file	perl-tcl-1.53-r2.apk
+checksum	Q1hG+cMGxC9mgl2/+s90fmQjDeoY0=
+dep	perl	perl
+dep	tcl	tcl
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,16 @@
+name	c-dvar-dev
+version	1.2.0-r0
+description	D-Bus Variant Type-System (development files)
+url	https://github.com/c-util/c-dvar
+license	Apache-2.0 OR LGPL-2.1-or-later
+size	17253
+installed-size	63450
+depends	c-dvar=1.2.0-r0 pc:libcstdaux-1>=1.5.0 pc:libcutf8-1 pkgconfig
+origin	c-dvar
+repo	community
+file	c-dvar-dev-1.2.0-r0.apk
+checksum	Q1QRv6olnmqUd+Z17TNi5Mnmd8b4E=
+dep	c-dvar=1.2.0-r0	c-dvar
+dep	pc:libcstdaux-1>=1.5.0	c-stdaux-dev
+dep	pc:libcutf8-1	c-utf8-dev
+dep	pkgconfig	pkgconf

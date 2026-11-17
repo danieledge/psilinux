@@ -1,0 +1,17 @@
+name	kwayland-dev
+version	6.6.6-r0
+description	Qt-style Client and Server library wrapper for the Wayland libraries (development files)
+url	https://www.kde.org
+license	LGPL-2.1-only OR LGPL-3.0-only
+size	64756
+installed-size	385889
+depends	qt6-qtwayland-dev wayland-dev kwayland=6.6.6-r0 pc:Qt6Gui pkgconfig
+origin	kwayland
+repo	community
+file	kwayland-dev-6.6.6-r0.apk
+checksum	Q1HhW2Oyg+rbfWWOybHdfbYCVRzTU=
+dep	qt6-qtwayland-dev	qt6-qtwayland-dev
+dep	wayland-dev	wayland-dev
+dep	kwayland=6.6.6-r0	kwayland
+dep	pc:Qt6Gui	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

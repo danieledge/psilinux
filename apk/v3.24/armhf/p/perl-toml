@@ -1,0 +1,14 @@
+name	perl-toml
+version	0.97-r1
+description	Parser for Tom's Obvious, Minimal Language.
+url	https://metacpan.org/release/TOML/
+license	GPL-2.0-only
+size	4065
+installed-size	5172
+depends	perl perl-toml-parser
+origin	perl-toml
+repo	community
+file	perl-toml-0.97-r1.apk
+checksum	Q1OgtvKdh06qrafe6btNK55to7F38=
+dep	perl	perl
+dep	perl-toml-parser	perl-toml-parser

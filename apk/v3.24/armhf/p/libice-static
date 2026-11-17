@@ -1,0 +1,13 @@
+name	libice-static
+version	1.1.2-r0
+description	X11 Inter-Client Exchange library (static library)
+url	https://xorg.freedesktop.org/
+license	X11
+size	46984
+installed-size	122868
+depends	libice-dev
+origin	libice
+repo	main
+file	libice-static-1.1.2-r0.apk
+checksum	Q1NphUtsRYWC0Wgkisbnd1wA2A588=
+dep	libice-dev	libice-dev

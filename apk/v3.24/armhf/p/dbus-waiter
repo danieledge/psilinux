@@ -1,0 +1,14 @@
+name	dbus-waiter
+version	0.3.0-r0
+description	Implement readiness notifications for dbus services
+url	https://git.sr.ht/~whynothugo/dbus-waiter
+license	ISC
+size	561847
+installed-size	1142972
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	dbus-waiter
+repo	community
+file	dbus-waiter-0.3.0-r0.apk
+checksum	Q1+aRClo5v9ucF/TBNeAy0bN16bj8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

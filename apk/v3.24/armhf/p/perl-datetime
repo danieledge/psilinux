@@ -1,0 +1,21 @@
+name	perl-datetime
+version	1.66-r1
+description	A date and time object for Perl
+url	https://metacpan.org/release/DateTime/
+license	Artistic-2.0
+size	62130
+installed-size	202056
+depends	perl perl-specio perl-dist-checkconflicts perl-datetime-locale perl-namespace-autoclean perl-try-tiny perl-datetime-timezone perl-params-validationcompiler so:libc.musl-armhf.so.1
+origin	perl-datetime
+repo	main
+file	perl-datetime-1.66-r1.apk
+checksum	Q1EbHGJRW+zjm9P5B9rKbvZEY2Okk=
+dep	perl	perl
+dep	perl-specio	perl-specio
+dep	perl-dist-checkconflicts	perl-dist-checkconflicts
+dep	perl-datetime-locale	perl-datetime-locale
+dep	perl-namespace-autoclean	perl-namespace-autoclean
+dep	perl-try-tiny	perl-try-tiny
+dep	perl-datetime-timezone	perl-datetime-timezone
+dep	perl-params-validationcompiler	perl-params-validationcompiler
+dep	so:libc.musl-armhf.so.1	musl

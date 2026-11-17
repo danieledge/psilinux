@@ -1,0 +1,21 @@
+name	bcc
+version	0.36.1-r1
+description	A toolkit for creating efficient kernel tracing and manipulation programs
+url	https://github.com/iovisor/bcc/
+license	Apache-2.0
+size	1267815
+installed-size	3986016
+depends	so:libLLVM.so.20.1 so:libbpf.so.1 so:libc.musl-armhf.so.1 so:libclang-cpp.so.20.1 so:libdebuginfod.so.1 so:libelf.so.1 so:libgcc_s.so.1 so:liblzma.so.5 so:libstdc++.so.6
+origin	bcc
+repo	community
+file	bcc-0.36.1-r1.apk
+checksum	Q1MOpAXxFrKt79jMzTawqgkCuL+x0=
+dep	so:libLLVM.so.20.1	llvm20-libs
+dep	so:libbpf.so.1	libbpf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libclang-cpp.so.20.1	clang20-libs
+dep	so:libdebuginfod.so.1	libdebuginfod
+dep	so:libelf.so.1	libelf
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblzma.so.5	xz-libs
+dep	so:libstdc++.so.6	libstdc++

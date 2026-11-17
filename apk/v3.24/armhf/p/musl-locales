@@ -1,0 +1,14 @@
+name	musl-locales
+version	0.1.0-r1
+description	Locales support for musl
+url	https://git.adelielinux.org/adelie/musl-locales/-/wikis/home
+license	LGPL-3.0-only
+size	40733
+installed-size	149320
+depends	so:libc.musl-armhf.so.1 so:libintl.so.8
+origin	musl-locales
+repo	main
+file	musl-locales-0.1.0-r1.apk
+checksum	Q1D6sGO7lemukFROFihoj6Tz7yNvY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libintl.so.8	libintl

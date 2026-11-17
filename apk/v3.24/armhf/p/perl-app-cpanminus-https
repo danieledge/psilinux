@@ -1,0 +1,15 @@
+name	perl-app-cpanminus-https
+version	1.7048-r0
+description	Get, unpack, build and install modules from CPAN via HTTPS
+url	https://metacpan.org/release/App-cpanminus/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	208672
+installed-size	796057
+depends	perl ssl_client ca-certificates-bundle
+origin	perl-app-cpanminus
+repo	community
+file	perl-app-cpanminus-https-1.7048-r0.apk
+checksum	Q19/9HuO5EF0WlNabRraOh8thP9N8=
+dep	perl	perl
+dep	ssl_client	ssl_client
+dep	ca-certificates-bundle	ca-certificates-bundle

@@ -1,0 +1,16 @@
+name	libgeotiff-dev
+version	1.7.4-r0
+description	TIFF based interchange format for georeferenced raster imagery (development files)
+url	https://trac.osgeo.org/geotiff
+license	Public-Domain
+size	32719
+installed-size	136050
+depends	libgeotiff=1.7.4-r0 pc:libtiff-4 pc:proj pkgconfig
+origin	libgeotiff
+repo	community
+file	libgeotiff-dev-1.7.4-r0.apk
+checksum	Q19OetB6EzshtBg4XNvVtjD4q9uoQ=
+dep	libgeotiff=1.7.4-r0	libgeotiff
+dep	pc:libtiff-4	tiff-dev
+dep	pc:proj	proj-dev
+dep	pkgconfig	pkgconf

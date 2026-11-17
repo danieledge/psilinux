@@ -1,0 +1,15 @@
+name	avahi-compat-libdns_sd
+version	0.9_rc4-r0
+description	Libraries for Apple Bonjour mDNSResponder compatibility
+url	https://www.avahi.org/
+license	LGPL-2.1-or-later
+size	13813
+installed-size	29816
+depends	so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-armhf.so.1
+origin	avahi
+repo	main
+file	avahi-compat-libdns_sd-0.9_rc4-r0.apk
+checksum	Q1QKKf1RFEQqc86vbKieWMAeq3Juk=
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libc.musl-armhf.so.1	musl

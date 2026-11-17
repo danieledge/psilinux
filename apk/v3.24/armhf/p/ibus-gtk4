@@ -1,0 +1,25 @@
+name	ibus-gtk4
+version	1.5.35-r0
+description	Next Generation Input Bus for Linux
+url	https://github.com/ibus/ibus/wiki
+license	LGPL-2.1-or-later
+size	14670
+installed-size	35103
+depends	dconf hicolor-icon-theme iso-codes dbus py3-gobject3 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libibus-1.0.so.5 so:libpango-1.0.so.0
+origin	ibus
+repo	community
+file	ibus-gtk4-1.5.35-r0.apk
+checksum	Q1djHFyP5ixapYDimCbIu9Nt/ULdo=
+dep	dconf	dconf
+dep	hicolor-icon-theme	hicolor-icon-theme
+dep	iso-codes	iso-codes
+dep	dbus	dbus
+dep	py3-gobject3	py3-gobject3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libibus-1.0.so.5	ibus
+dep	so:libpango-1.0.so.0	pango

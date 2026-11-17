@@ -1,0 +1,28 @@
+name	gnome-connections
+version	50.0-r0
+description	Remote desktop client for the GNOME desktop environment
+url	https://apps.gnome.org/Connections
+license	GPL-3.0-or-later
+size	103560
+installed-size	406153
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgtk-frdp-0.2.so so:libgtk-vnc-2.0.so.0 so:libgvnc-1.0.so.0 so:libgvncpulse-1.0.so.0 so:libhandy-1.so.0 so:libintl.so.8 so:libsecret-1.so.0 so:libxml2.so.2
+origin	gnome-connections
+repo	community
+file	gnome-connections-50.0-r0.apk
+checksum	Q1wKP/aJaeJwMid0eVp7e/QRKpNpo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtk-frdp-0.2.so	gtk-frdp
+dep	so:libgtk-vnc-2.0.so.0	gtk-vnc
+dep	so:libgvnc-1.0.so.0	gtk-vnc
+dep	so:libgvncpulse-1.0.so.0	gtk-vnc
+dep	so:libhandy-1.so.0	libhandy1
+dep	so:libintl.so.8	libintl
+dep	so:libsecret-1.so.0	libsecret
+dep	so:libxml2.so.2	libxml2

@@ -1,0 +1,15 @@
+name	openldap-overlay-otp
+version	2.6.15-r0
+description	OpenLDAP otp overlay
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	10299
+installed-size	26894
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:liblber.so.2
+origin	openldap
+repo	main
+file	openldap-overlay-otp-2.6.15-r0.apk
+checksum	Q1W890Ihee4EC4nFRBQ8E68/8CYYw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:liblber.so.2	libldap

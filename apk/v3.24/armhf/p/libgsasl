@@ -1,0 +1,16 @@
+name	libgsasl
+version	2.2.2-r1
+description	An implementation of the Simple Authentication and Security Layer framework
+url	https://www.gnu.org/software/gsasl/
+license	LGPL-2.0-or-later
+size	52366
+installed-size	108804
+depends	so:libc.musl-armhf.so.1 so:libgcrypt.so.20 so:libgssapi_krb5.so.2 so:libidn.so.12
+origin	libgsasl
+repo	community
+file	libgsasl-2.2.2-r1.apk
+checksum	Q1mvauEFgJIHqTEsiryfzVwSLs6dg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgssapi_krb5.so.2	krb5-libs
+dep	so:libidn.so.12	libidn

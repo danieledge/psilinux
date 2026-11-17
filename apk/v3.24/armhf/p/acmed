@@ -1,0 +1,17 @@
+name	acmed
+version	0.25.0-r0
+description	ACME (RFC 8555) client daemon
+url	https://github.com/breard-r/acmed
+license	MIT
+size	1867719
+installed-size	3611037
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
+origin	acmed
+repo	community
+file	acmed-0.25.0-r0.apk
+checksum	Q1AslMU+XzaomzIpS4PnBOPg7jbY4=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,17 @@
+name	solid
+version	6.26.0-r0
+description	Hardware integration and detection
+url	https://community.kde.org/Frameworks
+license	LGPL-2.1-only OR LGPL-3.0-only
+size	29004
+installed-size	68326
+depends	so:libKF6Solid.so.6 so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libc.musl-armhf.so.1 so:libstdc++.so.6
+origin	solid
+repo	community
+file	solid-6.26.0-r0.apk
+checksum	Q1+Gz11b6e86UFKJ9333nQe23aNew=
+dep	so:libKF6Solid.so.6	solid-libs
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6DBus.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libstdc++.so.6	libstdc++

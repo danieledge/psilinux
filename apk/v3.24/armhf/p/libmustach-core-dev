@@ -1,0 +1,14 @@
+name	libmustach-core-dev
+version	1.2.10-r0
+description	C implementation of the mustache template specification (libmustach-core development files)
+url	https://gitlab.com/jobol/mustach
+license	0BSD
+size	6854
+installed-size	22555
+depends	libmustach-core=1.2.10-r0 pkgconfig
+origin	mustach
+repo	community
+file	libmustach-core-dev-1.2.10-r0.apk
+checksum	Q1TZKqtpELV3bke9jco00UWdP0Xn0=
+dep	libmustach-core=1.2.10-r0	libmustach-core
+dep	pkgconfig	pkgconf

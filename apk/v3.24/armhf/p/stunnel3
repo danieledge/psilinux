@@ -1,0 +1,13 @@
+name	stunnel3
+version	5.82-r0
+description	Perl wrapper to use stunnel 3.x syntax in stunnel >=4.05
+url	https://www.stunnel.org
+license	GPL-2.0-or-later WITH OpenSSL-Exception
+size	2743
+installed-size	2787
+depends	perl
+origin	stunnel
+repo	community
+file	stunnel3-5.82-r0.apk
+checksum	Q1SUUByrutzWLdBlP9KPq/Wvurclw=
+dep	perl	perl

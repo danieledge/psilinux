@@ -1,0 +1,12 @@
+name	gc-dbg
+version	8.2.12-r0
+description	garbage collector for C and C++ (debug symbols)
+url	https://hboehm.info/gc/
+license	Boehm-GC
+size	242570
+installed-size	546444
+depends	!gc<8.2.12-r0 !gc>8.2.12-r0 !libgc++<8.2.12-r0 !libgc++>8.2.12-r0
+origin	gc
+repo	main
+file	gc-dbg-8.2.12-r0.apk
+checksum	Q1jgnydQoWNIGtSEL0wC7fBENtUuQ=

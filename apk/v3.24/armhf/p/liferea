@@ -1,0 +1,33 @@
+name	liferea
+version	1.16.12-r0
+description	Desktop news aggregator for online news feeds and weblogs
+url	https://lzone.de/liferea
+license	GPL-2.0-or-later
+size	413246
+installed-size	1532657
+depends	py3-gobject3 libpeas2-python3 so:libc.musl-armhf.so.1 so:libfribidi.so.0 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libgirepository-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libjavascriptcoregtk-4.1.so.0 so:libjson-glib-1.0.so.0 so:libpango-1.0.so.0 so:libpeas-2.so.0 so:libsoup-3.0.so.0 so:libsqlite3.so.0 so:libwebkit2gtk-4.1.so.0 so:libxml2.so.2 so:libxslt.so.1
+origin	liferea
+repo	community
+file	liferea-1.16.12-r0.apk
+checksum	Q1bhLK/1d4nwUVziMDScdbet/gjZI=
+dep	py3-gobject3	py3-gobject3
+dep	libpeas2-python3	libpeas2-python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfribidi.so.0	fribidi
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libgirepository-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libjavascriptcoregtk-4.1.so.0	webkit2gtk-4.1
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpeas-2.so.0	libpeas2
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libwebkit2gtk-4.1.so.0	webkit2gtk-4.1
+dep	so:libxml2.so.2	libxml2
+dep	so:libxslt.so.1	libxslt

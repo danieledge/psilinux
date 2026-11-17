@@ -1,0 +1,13 @@
+name	paxctl
+version	0.9-r2
+description	Manage PaX related program header flags
+url	http://pax.grsecurity.net
+license	GPL-2.0-only
+size	8617
+installed-size	17672
+depends	so:libc.musl-armhf.so.1
+origin	paxctl
+repo	community
+file	paxctl-0.9-r2.apk
+checksum	Q1ZS/XBWiSRfOA0S+gWZHaBVuq6+w=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	ulogd-pgsql
+version	2.0.9-r0
+description	pgsql output for ulogd
+url	https://netfilter.org/projects/ulogd/
+license	GPL-2.0-only
+size	15054
+installed-size	64636
+depends	ulogd=2.0.9-r0 so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	ulogd
+repo	main
+file	ulogd-pgsql-2.0.9-r0.apk
+checksum	Q16ZZm00luv2HD4w0DEF3FqYrDcqE=
+dep	ulogd=2.0.9-r0	ulogd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

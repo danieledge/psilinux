@@ -1,0 +1,14 @@
+name	rime-plum-data
+version	0_git20240417-r1
+description	Rime configuration manager and input schemas (input schemas)
+url	https://github.com/rime/plum
+license	LGPL-3.0-or-later
+size	31576161
+installed-size	71487261
+depends	librime opencc
+origin	rime-plum
+repo	community
+file	rime-plum-data-0_git20240417-r1.apk
+checksum	Q1G2d972YRuxBcj5QVl6kmx2OKm6I=
+dep	librime	librime
+dep	opencc	opencc

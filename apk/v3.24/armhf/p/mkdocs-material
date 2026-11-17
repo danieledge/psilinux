@@ -1,0 +1,20 @@
+name	mkdocs-material
+version	9.5.5-r2
+description	Material Design theme for MkDocs
+url	https://squidfunk.github.io/mkdocs-material
+license	MIT
+size	5544805
+installed-size	15226332
+depends	mkdocs mkdocs-material-extensions py3-jinja2 py3-markdown py3-pygments py3-pymdown-extensions python3 python3~3.14
+origin	mkdocs-material
+repo	community
+file	mkdocs-material-9.5.5-r2.apk
+checksum	Q1qdvlRdJMVa6bAr6JQhrkT2SDtg0=
+dep	mkdocs	mkdocs
+dep	mkdocs-material-extensions	mkdocs-material-extensions
+dep	py3-jinja2	py3-jinja2
+dep	py3-markdown	py3-markdown
+dep	py3-pygments	py3-pygments
+dep	py3-pymdown-extensions	py3-pymdown-extensions
+dep	python3	python3
+dep	python3~3.14	python3

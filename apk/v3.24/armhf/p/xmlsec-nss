@@ -1,0 +1,19 @@
+name	xmlsec-nss
+version	1.3.11-r0
+description	xmlsec nss plugin
+url	https://github.com/lsh123/xmlsec/
+license	MIT
+size	108268
+installed-size	312652
+depends	so:libc.musl-armhf.so.1 so:libnspr4.so so:libnss3.so so:libnssutil3.so so:libsmime3.so so:libxml2.so.2 so:libxmlsec1.so.10311
+origin	xmlsec
+repo	community
+file	xmlsec-nss-1.3.11-r0.apk
+checksum	Q1CaoZBk7q5uAknTuD22mv8Z0U7qg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnspr4.so	nspr
+dep	so:libnss3.so	nss
+dep	so:libnssutil3.so	nss
+dep	so:libsmime3.so	nss
+dep	so:libxml2.so.2	libxml2
+dep	so:libxmlsec1.so.10311	xmlsec

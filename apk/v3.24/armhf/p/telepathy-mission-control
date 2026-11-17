@@ -1,0 +1,21 @@
+name	telepathy-mission-control
+version	5.16.6-r3
+description	An account manager and channel dispatcher for the Telepathy framework
+url	https://telepathy.freedesktop.org
+license	LGPL-2.1-or-later
+size	157341
+installed-size	395913
+depends	so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libdbus-glib-1.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libnm.so.0 so:libtelepathy-glib.so.0
+origin	telepathy-mission-control
+repo	community
+file	telepathy-mission-control-5.16.6-r3.apk
+checksum	Q1nZZdpB/xX3nH7sXFepPSsNP/yb0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libdbus-glib-1.so.2	dbus-glib
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libnm.so.0	libnm
+dep	so:libtelepathy-glib.so.0	telepathy-glib

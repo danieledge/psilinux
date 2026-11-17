@@ -1,0 +1,13 @@
+name	hcloud
+version	1.62.2-r3
+description	Command-line interface for Hetzner Cloud
+url	https://github.com/hetznercloud/cli
+license	MIT
+size	6740027
+installed-size	19077100
+depends	so:libc.musl-armhf.so.1
+origin	hcloud
+repo	community
+file	hcloud-1.62.2-r3.apk
+checksum	Q1Y5ATn/SpBAhX8jB4+LUrpfZ+eSg=
+dep	so:libc.musl-armhf.so.1	musl

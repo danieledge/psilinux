@@ -1,0 +1,16 @@
+name	xerces-c-samples
+version	3.2.5-r4
+description	A validating XML parser written in a portable subset of C++ (compiled samples)
+url	https://xerces.apache.org/index.html
+license	Apache-2.0
+size	120388
+installed-size	392052
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libxerces-c-3.2.so
+origin	xerces-c
+repo	community
+file	xerces-c-samples-3.2.5-r4.apk
+checksum	Q1Xck8ST3n+0RvfMUcOAUJ6uPoZYg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxerces-c-3.2.so	xerces-c

@@ -1,0 +1,15 @@
+name	paho-mqtt-c
+version	1.3.16-r0
+description	Fully fledged MQTT client written in ANSI standard C
+url	https://www.eclipse.org/paho/clients/c/
+license	EPL-2.0
+size	241879
+installed-size	508360
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	paho-mqtt-c
+repo	community
+file	paho-mqtt-c-1.3.16-r0.apk
+checksum	Q1XZXRo1lVU8BuJrQCAiw3m9DtWSo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,16 @@
+name	libu2f-server
+version	1.1.0-r6
+description	Yubico Universal 2nd Factor (U2F) Server C Library
+url	https://developers.yubico.com/libu2f-server/
+license	BSD-2-Clause
+size	18370
+installed-size	39776
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libjson-c.so.5 so:libssl.so.3
+origin	libu2f-server
+repo	community
+file	libu2f-server-1.1.0-r6.apk
+checksum	Q1BUR2xNgofAJ88waNk2hyfVMhxwg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libjson-c.so.5	json-c
+dep	so:libssl.so.3	libssl3

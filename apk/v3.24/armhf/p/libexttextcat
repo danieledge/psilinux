@@ -1,0 +1,13 @@
+name	libexttextcat
+version	3.4.6-r0
+description	An N-Gram-Based Text Categorization library
+url	https://wiki.documentfoundation.org/Libexttextcat
+license	MPL-2.0
+size	223232
+installed-size	445758
+depends	so:libc.musl-armhf.so.1
+origin	libexttextcat
+repo	community
+file	libexttextcat-3.4.6-r0.apk
+checksum	Q1rrC7VP5/bPSoskiXWfv3RjyNeoo=
+dep	so:libc.musl-armhf.so.1	musl

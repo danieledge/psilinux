@@ -1,0 +1,15 @@
+name	opencl-dev
+version	2026.05.29-r0
+description	OpenCL ICD Loader (development files)
+url	https://khronos.org/opencl
+license	Apache-2.0
+size	45155
+installed-size	170681
+depends	opencl-headers opencl=2026.05.29-r0 pkgconfig
+origin	opencl
+repo	community
+file	opencl-dev-2026.05.29-r0.apk
+checksum	Q1E0Y1A+92bbTl5+eeEDxmcMCm2wI=
+dep	opencl-headers	opencl-headers
+dep	opencl=2026.05.29-r0	opencl
+dep	pkgconfig	pkgconf

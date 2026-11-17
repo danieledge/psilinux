@@ -1,0 +1,17 @@
+name	py3-pendulum
+version	3.2.0-r0
+description	Python datetimes made easy
+url	https://pendulum.eustace.io
+license	MIT
+size	289579
+installed-size	829545
+depends	py3-dateutil py3-pytzdata python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	py3-pendulum
+repo	community
+file	py3-pendulum-3.2.0-r0.apk
+checksum	Q17lHQvu/UQis2Dk1oiowvmKD+jY8=
+dep	py3-dateutil	py3-dateutil
+dep	py3-pytzdata	py3-pytzdata
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

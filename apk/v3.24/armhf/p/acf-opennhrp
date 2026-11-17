@@ -1,0 +1,15 @@
+name	acf-opennhrp
+version	0.10.1-r0
+description	Web-based system administration interface for opennhrp
+url	https://gitlab.alpinelinux.org/acf/acf-opennhrp
+license	GPL-2.0-only
+size	7141
+installed-size	18074
+depends	acf-core lua-posix opennhrp
+origin	acf-opennhrp
+repo	main
+file	acf-opennhrp-0.10.1-r0.apk
+checksum	Q1/dLMARTYZZfmCOFjLRx84xR0Pzk=
+dep	acf-core	acf-core
+dep	lua-posix	lua-posix
+dep	opennhrp	opennhrp

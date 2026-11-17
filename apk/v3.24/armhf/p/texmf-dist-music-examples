@@ -1,0 +1,14 @@
+name	texmf-dist-music-examples
+version	2026.0-r0
+description	texmf-dist: Music packages (examples and documentation)
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	22655169
+installed-size	28301841
+depends	texmf-dist-music texmf-dist-music-doc
+origin	texmf-dist
+repo	community
+file	texmf-dist-music-examples-2026.0-r0.apk
+checksum	Q1M+lgAg+w7nDra5u4/gHopTHvmEg=
+dep	texmf-dist-music	texmf-dist-music
+dep	texmf-dist-music-doc	texmf-dist-music-doc

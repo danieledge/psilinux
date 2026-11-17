@@ -1,0 +1,21 @@
+name	perl-webservice-slack-webapi
+version	0.19-r0
+description	a simple wrapper for Slack Web API
+url	https://metacpan.org/release/WebService-Slack-WebApi/
+license	MIT
+size	12123
+installed-size	44046
+depends	perl perl-data-validator perl-class-accessor-lite-lazy perl-class-load perl-exception-tiny perl-io-socket-ssl perl-json perl-http-anyua perl-class-accessor-lite
+origin	perl-webservice-slack-webapi
+repo	community
+file	perl-webservice-slack-webapi-0.19-r0.apk
+checksum	Q1FSXN9RdLE6TzdXBda8bMG7gYd40=
+dep	perl	perl
+dep	perl-data-validator	perl-data-validator
+dep	perl-class-accessor-lite-lazy	perl-class-accessor-lite-lazy
+dep	perl-class-load	perl-class-load
+dep	perl-exception-tiny	perl-exception-tiny
+dep	perl-io-socket-ssl	perl-io-socket-ssl
+dep	perl-json	perl-json
+dep	perl-http-anyua	perl-http-anyua
+dep	perl-class-accessor-lite	perl-class-accessor-lite

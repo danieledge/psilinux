@@ -1,0 +1,12 @@
+name	sofia-sip-linphone-dbg
+version	1.13.45-r1
+description	RFC3261 compliant SIP User-Agent library (Linphone version) (debug symbols)
+url	https://gitlab.linphone.org/BC/public/external/sofia-sip
+license	LGPL-2.1-only
+size	2152310
+installed-size	4835364
+depends	!sofia-sip-linphone-tools<1.13.45-r1 !sofia-sip-linphone-tools>1.13.45-r1 !sofia-sip-linphone<1.13.45-r1 !sofia-sip-linphone>1.13.45-r1
+origin	sofia-sip-linphone
+repo	community
+file	sofia-sip-linphone-dbg-1.13.45-r1.apk
+checksum	Q1gPyCxfnKYzIqqAhAHigRV5O+vxY=

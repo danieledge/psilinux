@@ -1,0 +1,15 @@
+name	llvm18-test-utils
+version	18.1.8-r10
+description	LLVM 18 utilities for executing LLVM and Clang style test suites (binaries)
+url	https://llvm.org/
+license	Apache-2.0 WITH LLVM-exception
+size	328688
+installed-size	673336
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	llvm18
+repo	community
+file	llvm18-test-utils-18.1.8-r10.apk
+checksum	Q1SNnzK+ff/fvy6Hf20wFxUDHOvRU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

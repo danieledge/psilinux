@@ -1,0 +1,12 @@
+name	mqtt-exec-dbg
+version	0.7.1-r0
+description	simple MQTT client that executes a command on messages (debug symbols)
+url	https://github.com/ncopa/mqtt-exec
+license	MIT
+size	13001
+installed-size	24364
+depends	!mqtt-exec<0.7.1-r0 !mqtt-exec>0.7.1-r0
+origin	mqtt-exec
+repo	main
+file	mqtt-exec-dbg-0.7.1-r0.apk
+checksum	Q1pB9nRWsgX6JDtIWQxjDE9mjBWUw=

@@ -1,0 +1,19 @@
+name	haproxy
+version	3.4.7-r0
+description	A TCP/HTTP reverse proxy for high availability environments
+url	https://www.haproxy.org/
+license	GPL-2.0-or-later WITH OpenSSL-Exception
+size	2637275
+installed-size	5940244
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:liblua-5.4.so.0 so:libpcre2-8.so.0 so:libssl.so.3 so:libz.so.1
+origin	haproxy
+repo	main
+file	haproxy-3.4.7-r0.apk
+checksum	Q17W5ngM13gLgCU80Jq1e6irzHBSE=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:liblua-5.4.so.0	lua5.4-libs
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libssl.so.3	libssl3
+dep	so:libz.so.1	zlib

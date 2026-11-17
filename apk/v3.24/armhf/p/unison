@@ -1,0 +1,13 @@
+name	unison
+version	2.54.0-r1
+description	Efficient file-synchronization tool
+url	https://www.cis.upenn.edu/~bcpierce/unison/
+license	GPL-3.0-or-later
+size	738494
+installed-size	2538576
+depends	so:libc.musl-armhf.so.1
+origin	unison
+repo	community
+file	unison-2.54.0-r1.apk
+checksum	Q1RVO4RjKnKCq4dpX5befjoBT0riA=
+dep	so:libc.musl-armhf.so.1	musl

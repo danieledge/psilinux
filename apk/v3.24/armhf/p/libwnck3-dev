@@ -1,0 +1,22 @@
+name	libwnck3-dev
+version	43.3-r0
+description	Window Navigator Construction Kit (development files)
+url	https://gitlab.gnome.org/GNOME/libwnck
+license	LGPL-2.0-or-later
+size	50083
+installed-size	425335
+depends	libwnck3=43.3-r0 pc:cairo pc:glib-2.0 pc:gobject-2.0 pc:gtk+-3.0 pc:libstartup-notification-1.0 pc:pango pc:x11 pc:xres pkgconfig
+origin	libwnck3
+repo	community
+file	libwnck3-dev-43.3-r0.apk
+checksum	Q1ZfA0IulInc2dhH50EM873N6Qe+E=
+dep	libwnck3=43.3-r0	libwnck3
+dep	pc:cairo	cairo-dev
+dep	pc:glib-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pc:libstartup-notification-1.0	startup-notification-dev
+dep	pc:pango	pango-dev
+dep	pc:x11	libx11-dev
+dep	pc:xres	libxres-dev
+dep	pkgconfig	pkgconf

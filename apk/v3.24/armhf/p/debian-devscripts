@@ -1,0 +1,14 @@
+name	debian-devscripts
+version	2.26.5-r1
+description	Debian developer scripts
+url	https://tracker.debian.org/pkg/devscripts
+license	GPL-2.0-or-later
+size	1284
+installed-size	0
+depends	checkbashisms=2.26.5-r1 debian-devscripts-hardening-check=2.26.5-r1
+origin	debian-devscripts
+repo	main
+file	debian-devscripts-2.26.5-r1.apk
+checksum	Q1p/B10v7Gj2JIJM8xw0PiZGuLbiY=
+dep	checkbashisms=2.26.5-r1	checkbashisms
+dep	debian-devscripts-hardening-check=2.26.5-r1	debian-devscripts-hardening-check

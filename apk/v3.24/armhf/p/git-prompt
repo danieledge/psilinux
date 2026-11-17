@@ -1,0 +1,13 @@
+name	git-prompt
+version	2.54.1-r0
+description	bash and zsh prompt integration for Git
+url	https://www.git-scm.com/
+license	GPL-2.0-only
+size	9201
+installed-size	21338
+depends	git=2.54.1-r0
+origin	git
+repo	main
+file	git-prompt-2.54.1-r0.apk
+checksum	Q1yv2ydW34iFs4Zbi8PPgfrjKRSlw=
+dep	git=2.54.1-r0	git

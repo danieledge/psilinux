@@ -1,0 +1,20 @@
+name	freeglut-dev
+version	3.8.0-r0
+description	free reimplementation of OpenGL Utility Toolkit (GLUT) library (development files)
+url	https://freeglut.sourceforge.net/
+license	MIT
+size	14623
+installed-size	53916
+depends	mesa-dev libx11-dev libice-dev libxxf86vm-dev libxi-dev glu-dev freeglut=3.8.0-r0 pkgconfig
+origin	freeglut
+repo	community
+file	freeglut-dev-3.8.0-r0.apk
+checksum	Q1osnsCVGuoVUzFzIhDXi5/vxDeso=
+dep	mesa-dev	mesa-dev
+dep	libx11-dev	libx11-dev
+dep	libice-dev	libice-dev
+dep	libxxf86vm-dev	libxxf86vm-dev
+dep	libxi-dev	libxi-dev
+dep	glu-dev	glu-dev
+dep	freeglut=3.8.0-r0	freeglut
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	dnsmasq-utils
+version	2.92_p2-r0
+description	A lightweight DNS, DHCP, RA, TFTP and PXE server - contrib utilities
+url	https://www.thekelleys.org.uk/dnsmasq/
+license	GPL-2.0-or-later
+size	10563
+installed-size	28292
+depends	dnsmasq=2.92_p2-r0 so:libc.musl-armhf.so.1
+origin	dnsmasq
+repo	main
+file	dnsmasq-utils-2.92_p2-r0.apk
+checksum	Q1TYBvHYAIjKSwo06uTFbvrB5Rfmk=
+dep	dnsmasq=2.92_p2-r0	dnsmasq
+dep	so:libc.musl-armhf.so.1	musl

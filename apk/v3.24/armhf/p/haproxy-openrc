@@ -1,0 +1,12 @@
+name	haproxy-openrc
+version	3.4.7-r0
+description	A TCP/HTTP reverse proxy for high availability environments (OpenRC init scripts)
+url	https://www.haproxy.org/
+license	GPL-2.0-or-later WITH OpenSSL-Exception
+size	2209
+installed-size	1192
+depends	
+origin	haproxy
+repo	main
+file	haproxy-openrc-3.4.7-r0.apk
+checksum	Q11CK4P3aARrAzuHu/J9sfZoa68tI=

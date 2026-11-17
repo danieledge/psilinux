@@ -1,0 +1,17 @@
+name	rtl_433
+version	25.12-r0
+description	Program to decode transmissions on the ISM bands
+url	https://github.com/merbanan/rtl_433
+license	GPL-2.0-or-later
+size	416189
+installed-size	866315
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:librtlsdr.so.0 so:libssl.so.3 so:libusb-1.0.so.0
+origin	rtl_433
+repo	community
+file	rtl_433-25.12-r0.apk
+checksum	Q1EfxRaeIJA/1dSbxpc2ES9kbrD9M=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:librtlsdr.so.0	librtlsdr
+dep	so:libssl.so.3	libssl3
+dep	so:libusb-1.0.so.0	libusb

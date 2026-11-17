@@ -1,0 +1,13 @@
+name	pwndbg-pyc
+version	2026.02.18-r1
+description	Precompiled Python bytecode for pwndbg
+url	https://pwndbg.re/stable/
+license	MIT
+size	1495930
+installed-size	4404160
+depends	python3~3.14
+origin	pwndbg
+repo	community
+file	pwndbg-pyc-2026.02.18-r1.apk
+checksum	Q1sHKyZeFOgk+LAYinqD44VSL1T/o=
+dep	python3~3.14	python3

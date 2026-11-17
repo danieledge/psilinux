@@ -1,0 +1,15 @@
+name	openh264
+version	2.6.0-r0
+description	OpenH264 is a codec library which supports H.264 encoding and decoding
+url	https://github.com/cisco/openh264
+license	BSD-2-Clause
+size	542214
+installed-size	1254804
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	openh264
+repo	community
+file	openh264-2.6.0-r0.apk
+checksum	Q1haljFOcDp16zGecAelCT+1In5i8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

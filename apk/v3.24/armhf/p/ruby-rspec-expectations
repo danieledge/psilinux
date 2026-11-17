@@ -1,0 +1,15 @@
+name	ruby-rspec-expectations
+version	3.13.5-r1
+description	Provides a readable API to express expected outcomes of a code example in RSpec
+url	http://rspec.info/
+license	MIT
+size	66798
+installed-size	273655
+depends	ruby ruby-diff-lcs~1 ruby-rspec-support~3.13
+origin	ruby-rspec-expectations
+repo	community
+file	ruby-rspec-expectations-3.13.5-r1.apk
+checksum	Q1nJqQk48kBQsbz2NtZUD3qHRsqnM=
+dep	ruby	ruby
+dep	ruby-diff-lcs~1	ruby-diff-lcs
+dep	ruby-rspec-support~3.13	ruby-rspec-support

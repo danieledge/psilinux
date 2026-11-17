@@ -1,0 +1,13 @@
+name	opentofu
+version	1.12.8-r0
+description	OpenTofu lets you declaratively manage your cloud infrastructure
+url	https://opentofu.org/
+license	MPL-2.0
+size	34198610
+installed-size	115526364
+depends	so:libc.musl-armhf.so.1
+origin	opentofu
+repo	community
+file	opentofu-1.12.8-r0.apk
+checksum	Q1OPaw38wx0FwNoDl6FFtJrw6Ojgw=
+dep	so:libc.musl-armhf.so.1	musl

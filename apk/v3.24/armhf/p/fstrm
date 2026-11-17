@@ -1,0 +1,13 @@
+name	fstrm
+version	0.6.1-r4
+description	Frame Streams implementation in C
+url	https://github.com/farsightsec/fstrm
+license	MIT
+size	15240
+installed-size	34072
+depends	so:libc.musl-armhf.so.1
+origin	fstrm
+repo	main
+file	fstrm-0.6.1-r4.apk
+checksum	Q1YzhNHMqh2sm3eGhCvoMyvuTOP0k=
+dep	so:libc.musl-armhf.so.1	musl

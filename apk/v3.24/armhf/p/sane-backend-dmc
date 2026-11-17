@@ -1,0 +1,14 @@
+name	sane-backend-dmc
+version	1.4.0-r4
+description	SANE backend for the Polaroid Digital Microscope Camera
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	26604
+installed-size	51542
+depends	sane so:libc.musl-armhf.so.1
+origin	sane
+repo	community
+file	sane-backend-dmc-1.4.0-r4.apk
+checksum	Q1ASvLY/LwvmDy+zNG/kLn9CKZ6RE=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl

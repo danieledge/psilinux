@@ -1,0 +1,14 @@
+name	linux-pam-dev
+version	1.7.1-r2
+description	Linux PAM (Pluggable Authentication Modules for Linux) (development files)
+url	https://www.kernel.org/pub/linux/libs/pam
+license	BSD-3-Clause
+size	15641
+installed-size	51114
+depends	linux-pam=1.7.1-r2 pkgconfig
+origin	linux-pam
+repo	main
+file	linux-pam-dev-1.7.1-r2.apk
+checksum	Q1LA5lTXSPajgDq1SEr5zXU9lQir0=
+dep	linux-pam=1.7.1-r2	linux-pam
+dep	pkgconfig	pkgconf

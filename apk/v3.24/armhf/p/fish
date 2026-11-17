@@ -1,0 +1,16 @@
+name	fish
+version	4.6.0-r1
+description	Modern interactive commandline shell
+url	https://fishshell.com/
+license	GPL-2.0-only
+size	3990286
+installed-size	14123846
+depends	ncurses-terminfo /bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	fish
+repo	main
+file	fish-4.6.0-r1.apk
+checksum	Q1bboYrUZVy+mp56twnTgbxZwVsSA=
+dep	ncurses-terminfo	ncurses-terminfo
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

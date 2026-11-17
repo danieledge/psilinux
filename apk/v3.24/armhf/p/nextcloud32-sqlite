@@ -1,0 +1,15 @@
+name	nextcloud32-sqlite
+version	32.0.15-r0
+description	Nextcloud SQLite support
+url	https://nextcloud.com/
+license	AGPL-3.0-only
+size	1288
+installed-size	0
+depends	nextcloud32 php83-sqlite3 php83-pdo_sqlite
+origin	nextcloud32
+repo	community
+file	nextcloud32-sqlite-32.0.15-r0.apk
+checksum	Q1ds6hExATAlG5ESyJRRZy0ZXnFHA=
+dep	nextcloud32	nextcloud32
+dep	php83-sqlite3	php83-sqlite3
+dep	php83-pdo_sqlite	php83-pdo_sqlite

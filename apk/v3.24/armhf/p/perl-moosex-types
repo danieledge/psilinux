@@ -1,0 +1,20 @@
+name	perl-moosex-types
+version	0.51-r0
+description	Organise your Moose types in libraries
+url	https://metacpan.org/release/MooseX-Types/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	18690
+installed-size	72744
+depends	perl perl-carp-clan perl-sub-install perl-moose perl-sub-exporter-formethods perl-namespace-autoclean perl-module-runtime perl-sub-exporter
+origin	perl-moosex-types
+repo	community
+file	perl-moosex-types-0.51-r0.apk
+checksum	Q12cYmq/v46oEqagh4phGe2+zW4tE=
+dep	perl	perl
+dep	perl-carp-clan	perl-carp-clan
+dep	perl-sub-install	perl-sub-install
+dep	perl-moose	perl-moose
+dep	perl-sub-exporter-formethods	perl-sub-exporter-formethods
+dep	perl-namespace-autoclean	perl-namespace-autoclean
+dep	perl-module-runtime	perl-module-runtime
+dep	perl-sub-exporter	perl-sub-exporter

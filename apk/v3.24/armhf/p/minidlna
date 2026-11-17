@@ -1,0 +1,24 @@
+name	minidlna
+version	1.3.3-r3
+description	DLNA/UPnP-AV compliant media server
+url	https://sourceforge.net/projects/minidlna/
+license	GPL-2.0-or-later AND BSD-3-Clause
+size	142776
+installed-size	282973
+depends	/bin/sh so:libFLAC.so.12 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libexif.so.12 so:libid3tag.so.0 so:libintl.so.8 so:libjpeg.so.8 so:libogg.so.0 so:libsqlite3.so.0 so:libvorbis.so.0
+origin	minidlna
+repo	community
+file	minidlna-1.3.3-r3.apk
+checksum	Q1yeIsi1v4I6KSFhnIJWA23ZSqstg=
+dep	/bin/sh	busybox-binsh
+dep	so:libFLAC.so.12	libflac
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexif.so.12	libexif
+dep	so:libid3tag.so.0	libid3tag
+dep	so:libintl.so.8	libintl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libogg.so.0	libogg
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libvorbis.so.0	libvorbis

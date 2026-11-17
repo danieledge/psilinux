@@ -1,0 +1,13 @@
+name	lua5.4-subprocess
+version	0_git20230625-r2
+description	A Lua 5.4 module written in C that allows you to create child processes and communicate with them
+url	https://github.com/tdtrask/lua-subprocess
+license	MIT
+size	8132
+installed-size	17580
+depends	so:libc.musl-armhf.so.1
+origin	lua-subprocess
+repo	main
+file	lua5.4-subprocess-0_git20230625-r2.apk
+checksum	Q1X+O2w5DdfrvshVoS8g+fiGzs4n8=
+dep	so:libc.musl-armhf.so.1	musl

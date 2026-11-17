@@ -1,0 +1,16 @@
+name	tmuxinator
+version	3.4.0-r0
+description	manage complex tmux sessions easily
+url	https://github.com/tmuxinator/tmuxinator
+license	MIT
+size	19428
+installed-size	60054
+depends	tmux ruby ruby-erubi ruby-thor
+origin	tmuxinator
+repo	community
+file	tmuxinator-3.4.0-r0.apk
+checksum	Q1k9JY7YCdqL7rbokpF1X+bjvC5pA=
+dep	tmux	tmux
+dep	ruby	ruby
+dep	ruby-erubi	ruby-erubi
+dep	ruby-thor	ruby-thor

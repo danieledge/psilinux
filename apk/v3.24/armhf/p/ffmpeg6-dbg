@@ -1,0 +1,12 @@
+name	ffmpeg6-dbg
+version	6.1.6-r0
+description	Complete and free Internet live audio and video broadcasting solution for Linux/Unix (debug symbols)
+url	https://ffmpeg.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	33135743
+installed-size	92648600
+depends	!ffmpeg6-libavcodec<6.1.6-r0 !ffmpeg6-libavcodec>6.1.6-r0 !ffmpeg6-libavdevice<6.1.6-r0 !ffmpeg6-libavdevice>6.1.6-r0 !ffmpeg6-libavfilter<6.1.6-r0 !ffmpeg6-libavfilter>6.1.6-r0 !ffmpeg6-libavformat<6.1.6-r0 !ffmpeg6-libavformat>6.1.6-r0 !ffmpeg6-libavutil<6.1.6-r0 !ffmpeg6-libavutil>6.1.6-r0 !ffmpeg6-libpostproc<6.1.6-r0 !ffmpeg6-libpostproc>6.1.6-r0 !ffmpeg6-libswresample<6.1.6-r0 !ffmpeg6-libswresample>6.1.6-r0 !ffmpeg6-libswscale<6.1.6-r0 !ffmpeg6-libswscale>6.1.6-r0 !ffmpeg6<6.1.6-r0 !ffmpeg6>6.1.6-r0
+origin	ffmpeg6
+repo	community
+file	ffmpeg6-dbg-6.1.6-r0.apk
+checksum	Q1HXPN5WZoA5hPtYsRSpwIdQwne5U=

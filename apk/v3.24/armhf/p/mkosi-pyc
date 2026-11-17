@@ -1,0 +1,13 @@
+name	mkosi-pyc
+version	26_git20260510-r0
+description	Precompiled Python bytecode for mkosi
+url	https://mkosi.systemd.io/
+license	LGPL-2.1-or-later
+size	513669
+installed-size	1374848
+depends	python3~3.14
+origin	mkosi
+repo	community
+file	mkosi-pyc-26_git20260510-r0.apk
+checksum	Q1YirQw6HbizAqhRkreo+kf309448=
+dep	python3~3.14	python3

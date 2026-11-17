@@ -1,0 +1,17 @@
+name	openvswitch-test
+version	3.7.1-r0
+description	Open vSwitch testing utilities
+url	https://www.openvswitch.org/
+license	Apache-2.0
+size	25424
+installed-size	88086
+depends	py3-openvswitch=3.7.1-r0 py3-twisted python3~3.14 so:libc.musl-armhf.so.1 so:libopenvswitch-3.7.so.0
+origin	openvswitch
+repo	community
+file	openvswitch-test-3.7.1-r0.apk
+checksum	Q1H4RM8tVOmi2mwnZIsKoefWphjrM=
+dep	py3-openvswitch=3.7.1-r0	py3-openvswitch
+dep	py3-twisted	py3-twisted
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libopenvswitch-3.7.so.0	openvswitch-libs

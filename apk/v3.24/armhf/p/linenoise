@@ -1,0 +1,13 @@
+name	linenoise
+version	1.0-r5
+description	Minimal replacement for readline
+url	https://github.com/antirez/linenoise
+license	BSD-2-Clause
+size	8826
+installed-size	17584
+depends	so:libc.musl-armhf.so.1
+origin	linenoise
+repo	main
+file	linenoise-1.0-r5.apk
+checksum	Q1C9u4ZQDRy17dZPza0JCtF+tC038=
+dep	so:libc.musl-armhf.so.1	musl

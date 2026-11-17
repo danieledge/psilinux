@@ -1,0 +1,16 @@
+name	mbedtls2-utils
+version	2.28.10-r0
+description	Utilities for mbedtls (including gen_key / cert_write)
+url	https://www.trustedfirmware.org/projects/mbed-tls/
+license	Apache-2.0 OR GPL-2.0-or-later
+size	756244
+installed-size	2020991
+depends	so:libc.musl-armhf.so.1 so:libmbedcrypto.so.7 so:libmbedtls.so.14 so:libmbedx509.so.1
+origin	mbedtls2
+repo	community
+file	mbedtls2-utils-2.28.10-r0.apk
+checksum	Q1zpMve8c8ElMP8DQT8ypAwA86RAY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmbedcrypto.so.7	mbedtls2
+dep	so:libmbedtls.so.14	mbedtls2
+dep	so:libmbedx509.so.1	mbedtls2

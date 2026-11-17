@@ -1,0 +1,14 @@
+name	mk-configure
+version	0.40.0-r1
+description	Lightweight replacement for autotools
+url	https://github.com/cheusov/mk-configure
+license	BSD-2-Clause
+size	52679
+installed-size	160834
+depends	bmake bmkdep
+origin	mk-configure
+repo	community
+file	mk-configure-0.40.0-r1.apk
+checksum	Q1ZwIPrnh0TUVn8+8se8T/xdB5vLI=
+dep	bmake	bmake
+dep	bmkdep	bmkdep

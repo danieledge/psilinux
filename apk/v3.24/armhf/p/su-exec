@@ -1,0 +1,13 @@
+name	su-exec
+version	0.3-r0
+description	switch user and group id, setgroups and exec
+url	https://github.com/ncopa/su-exec
+license	MIT
+size	3749
+installed-size	5292
+depends	so:libc.musl-armhf.so.1
+origin	su-exec
+repo	main
+file	su-exec-0.3-r0.apk
+checksum	Q1aICvjkvKLbOycR3p4kUy6ZnDjNU=
+dep	so:libc.musl-armhf.so.1	musl

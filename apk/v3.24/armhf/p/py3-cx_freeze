@@ -1,0 +1,16 @@
+name	py3-cx_freeze
+version	8.6.4-r0
+description	Set of utilities for freezing Python scripts into executables
+url	https://github.com/marcelotduarte/cx_Freeze
+license	PSF-2.0
+size	174177
+installed-size	704215
+depends	patchelf py3-freeze-core py3-packaging python3~3.14
+origin	py3-cx_freeze
+repo	community
+file	py3-cx_freeze-8.6.4-r0.apk
+checksum	Q15MwGjNIkITMyibOEZGwIGRS3mQI=
+dep	patchelf	patchelf
+dep	py3-freeze-core	py3-freeze-core
+dep	py3-packaging	py3-packaging
+dep	python3~3.14	python3

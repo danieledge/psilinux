@@ -1,0 +1,16 @@
+name	mythes-dev
+version	1.2.4-r4
+description	A simple thesaurus (development files)
+url	https://hunspell.sourceforge.net/
+license	GPL-2.0-or-later LGPL-2.0-or-later MPL-1.1
+size	3613
+installed-size	3796
+depends	perl hunspell-dev mythes=1.2.4-r4 pkgconfig
+origin	mythes
+repo	community
+file	mythes-dev-1.2.4-r4.apk
+checksum	Q1QlnfWZONIhiZ3rKJU2/gXAwBB3I=
+dep	perl	perl
+dep	hunspell-dev	hunspell-dev
+dep	mythes=1.2.4-r4	mythes
+dep	pkgconfig	pkgconf

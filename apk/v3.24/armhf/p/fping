@@ -1,0 +1,13 @@
+name	fping
+version	5.5-r0
+description	A utility to ping multiple hosts at once
+url	https://fping.org/
+license	MIT
+size	29213
+installed-size	59448
+depends	so:libc.musl-armhf.so.1
+origin	fping
+repo	main
+file	fping-5.5-r0.apk
+checksum	Q1wf5bySUA2hkcGLVRF9LR/TlQXrY=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,16 @@
+name	netcdf-fortran
+version	4.6.2-r0
+description	NetCDF fortran bindings
+url	https://www.unidata.ucar.edu/software/netcdf/
+license	Apache-2.0
+size	171772
+installed-size	1084174
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgfortran.so.5 so:libnetcdf.so.22
+origin	netcdf-fortran
+repo	community
+file	netcdf-fortran-4.6.2-r0.apk
+checksum	Q1T0b+mgKqJdwQpBBa1oo/6P9C1p0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgfortran.so.5	libgfortran
+dep	so:libnetcdf.so.22	netcdf

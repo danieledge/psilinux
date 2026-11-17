@@ -1,0 +1,13 @@
+name	libdeflate
+version	1.25-r0
+description	Library for fast, whole-buffer DEFLATE-based compression and decompression
+url	https://github.com/ebiggers/libdeflate
+license	MIT
+size	50442
+installed-size	83080
+depends	so:libc.musl-armhf.so.1
+origin	libdeflate
+repo	community
+file	libdeflate-1.25-r0.apk
+checksum	Q13/LTZ/ZIShlNsaHBAnegLop6dsA=
+dep	so:libc.musl-armhf.so.1	musl

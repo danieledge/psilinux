@@ -1,0 +1,15 @@
+name	py3-brotlipy
+version	0.7.0-r8
+description	Python bindings for the Brotli compression library
+url	https://github.com/python-hyper/brotlicffi
+license	MIT
+size	345172
+installed-size	791212
+depends	python3 python3~3.14 so:libc.musl-armhf.so.1
+origin	py3-brotlipy
+repo	community
+file	py3-brotlipy-0.7.0-r8.apk
+checksum	Q1E4Qh4zAjO5Nxgg6V3OAv8DFlYrg=
+dep	python3	python3
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

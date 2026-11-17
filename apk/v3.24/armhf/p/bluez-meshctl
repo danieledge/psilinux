@@ -1,0 +1,18 @@
+name	bluez-meshctl
+version	5.86-r2
+description	Bluez tool for interacting with bluetooth mesh networks
+url	https://www.bluez.org/
+license	GPL-2.0-or-later AND BSD-2-Clause AND MIT
+size	86929
+installed-size	185940
+depends	dbus so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libglib-2.0.so.0 so:libjson-c.so.5 so:libreadline.so.8
+origin	bluez
+repo	main
+file	bluez-meshctl-5.86-r2.apk
+checksum	Q1g0iD1VNr7yDRSd7k5FkWZAkswqY=
+dep	dbus	dbus
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libglib-2.0.so.0	glib
+dep	so:libjson-c.so.5	json-c
+dep	so:libreadline.so.8	readline

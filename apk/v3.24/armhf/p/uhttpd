@@ -1,0 +1,17 @@
+name	uhttpd
+version	0_git20250406-r1
+description	Tiny HTTP server from OpenWrt
+url	https://openwrt.org/docs/guide-user/services/webserver/uhttpd
+license	ISC
+size	26220
+installed-size	50780
+depends	/bin/sh so:libblobmsg_json.so so:libc.musl-armhf.so.1 so:libjson_script.so so:libubox.so
+origin	uhttpd
+repo	community
+file	uhttpd-0_git20250406-r1.apk
+checksum	Q1adKj/ZdeRE+MqWNgbad0lyZRwSE=
+dep	/bin/sh	busybox-binsh
+dep	so:libblobmsg_json.so	libblobmsg
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjson_script.so	libblobmsg
+dep	so:libubox.so	libubox

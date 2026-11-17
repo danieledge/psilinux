@@ -1,0 +1,25 @@
+name	kea-hook-limits
+version	3.0.3-r0
+description	Kea hook enforcing rate limits and other server resource constraints
+url	https://kea.isc.org/
+license	MPL-2.0
+size	45779
+installed-size	112124
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libkea-asiolink.so.88 so:libkea-cc.so.83 so:libkea-dhcp.so.109 so:libkea-dhcpsrv.so.131 so:libkea-exceptions.so.45 so:libkea-hooks.so.121 so:libkea-log.so.75 so:libkea-process.so.91 so:libkea-util.so.102 so:libstdc++.so.6
+origin	kea
+repo	main
+file	kea-hook-limits-3.0.3-r0.apk
+checksum	Q1tBdEE9REm3tfOYuYh/pXFrrTFEQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libkea-asiolink.so.88	kea-common
+dep	so:libkea-cc.so.83	kea-common
+dep	so:libkea-dhcp.so.109	kea-common
+dep	so:libkea-dhcpsrv.so.131	kea-common
+dep	so:libkea-exceptions.so.45	kea-common
+dep	so:libkea-hooks.so.121	kea-common
+dep	so:libkea-log.so.75	kea-common
+dep	so:libkea-process.so.91	kea-common
+dep	so:libkea-util.so.102	kea-common
+dep	so:libstdc++.so.6	libstdc++

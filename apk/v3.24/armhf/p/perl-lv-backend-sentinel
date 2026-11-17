@@ -1,0 +1,14 @@
+name	perl-lv-backend-sentinel
+version	0.006-r1
+description	Create lvalue subroutines (Sentinel backend)
+url	https://metacpan.org/release/LV/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	1978
+installed-size	429
+depends	perl-lv=0.006-r1 perl-sentinel
+origin	perl-lv
+repo	community
+file	perl-lv-backend-sentinel-0.006-r1.apk
+checksum	Q1GBaeK3Sem6L6IkndaoAsPfcX8Q4=
+dep	perl-lv=0.006-r1	perl-lv
+dep	perl-sentinel	perl-sentinel

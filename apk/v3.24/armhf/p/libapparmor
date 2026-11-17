@@ -1,0 +1,13 @@
+name	libapparmor
+version	4.1.7-r1
+description	AppArmor library
+url	https://gitlab.com/apparmor/apparmor/wikis/home
+license	GPL-2.0-or-later
+size	31991
+installed-size	67240
+depends	so:libc.musl-armhf.so.1
+origin	apparmor
+repo	main
+file	libapparmor-4.1.7-r1.apk
+checksum	Q1n2UBQLHKg8xaGotNpLaTduToDEE=
+dep	so:libc.musl-armhf.so.1	musl

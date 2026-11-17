@@ -1,0 +1,14 @@
+name	libart-lgpl-dev
+version	2.3.21-r8
+description	A library for high-performance 2D graphics (development files)
+url	https://www.levien.com/libart/
+license	LGPL-2.0-or-later
+size	61059
+installed-size	194325
+depends	libart-lgpl=2.3.21-r8 pkgconfig
+origin	libart-lgpl
+repo	main
+file	libart-lgpl-dev-2.3.21-r8.apk
+checksum	Q1ctOddZ54Bg0mTMVQvGDYERta5XI=
+dep	libart-lgpl=2.3.21-r8	libart-lgpl
+dep	pkgconfig	pkgconf

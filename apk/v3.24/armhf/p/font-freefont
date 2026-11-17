@@ -1,0 +1,15 @@
+name	font-freefont
+version	20120503-r4
+description	A set of free high-quality TrueType fonts covering the UCS character set
+url	https://nongnu.org/freefont/
+license	GPL-3.0-or-later
+size	4305154
+installed-size	6969712
+depends	fontconfig encodings mkfontscale
+origin	font-freefont
+repo	main
+file	font-freefont-20120503-r4.apk
+checksum	Q1EaUnX1im2NA5+ChQNs9rbAk5jRY=
+dep	fontconfig	fontconfig
+dep	encodings	encodings
+dep	mkfontscale	mkfontscale

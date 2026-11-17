@@ -1,0 +1,14 @@
+name	cage-run
+version	0.3.0-r0
+description	Wayland Kiosk (wrapper for headless CI)
+url	https://www.hjdskes.nl/projects/cage/
+license	MIT
+size	1736
+installed-size	227
+depends	cage=0.3.0-r0 dbus
+origin	cage
+repo	community
+file	cage-run-0.3.0-r0.apk
+checksum	Q1b6C0aVC7EivcYUAZpCKONyXuA2s=
+dep	cage=0.3.0-r0	cage
+dep	dbus	dbus

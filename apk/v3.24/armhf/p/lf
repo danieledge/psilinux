@@ -1,0 +1,13 @@
+name	lf
+version	41-r5
+description	Terminal filemanager written in Go with vim-style keybindings
+url	https://github.com/gokcehan/lf
+license	MIT
+size	2388900
+installed-size	6054862
+depends	so:libc.musl-armhf.so.1
+origin	lf
+repo	community
+file	lf-41-r5.apk
+checksum	Q1FGIW7HRxlS5h3+oH4VI6+lJvEBw=
+dep	so:libc.musl-armhf.so.1	musl

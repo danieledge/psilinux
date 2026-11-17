@@ -1,0 +1,13 @@
+name	outils-apply
+version	0.14-r0
+description	apply tool from outils
+url	https://github.com/leahneukirchen/outils
+license	BSD-3-Clause ISC
+size	4901
+installed-size	9388
+depends	so:libc.musl-armhf.so.1
+origin	outils
+repo	community
+file	outils-apply-0.14-r0.apk
+checksum	Q1iG8BGSgYSvnQwCe89d7ie1fk6/k=
+dep	so:libc.musl-armhf.so.1	musl

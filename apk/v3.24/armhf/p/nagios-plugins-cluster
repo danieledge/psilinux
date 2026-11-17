@@ -1,0 +1,15 @@
+name	nagios-plugins-cluster
+version	2.5-r0
+description	Nagios plugin check_cluster
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	17667
+installed-size	34360
+depends	nagios-plugins so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-cluster-2.5-r0.apk
+checksum	Q100Q5YEGme3VaytsMgBrrbTpWBD4=
+dep	nagios-plugins	nagios-plugins
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

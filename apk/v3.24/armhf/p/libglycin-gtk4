@@ -1,0 +1,22 @@
+name	libglycin-gtk4
+version	2.1.5-r0
+description	Sandboxed and extendable image decoding
+url	https://gitlab.gnome.org/GNOME/glycin
+license	MPL-2.0 OR LGPL-2.0-or-later
+size	159332
+installed-size	306104
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libglycin-2.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libseccomp.so.2
+origin	libglycin-gtk4
+repo	community
+file	libglycin-gtk4-2.1.5-r0.apk
+checksum	Q1AQLEy7+d7vXA6tbI9qd8d9ImZrs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libglycin-2.so.0	libglycin
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libseccomp.so.2	libseccomp

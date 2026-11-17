@@ -1,0 +1,18 @@
+name	xinit
+version	1.4.4-r0
+description	X.Org initialisation program
+url	https://xorg.freedesktop.org/
+license	MIT
+size	11989
+installed-size	25707
+depends	xauth mcookie xmodmap xrdb so:libX11.so.6 so:libc.musl-armhf.so.1
+origin	xinit
+repo	community
+file	xinit-1.4.4-r0.apk
+checksum	Q1DNsIjbT1mKniCS6xm4atjVFLlVs=
+dep	xauth	xauth
+dep	mcookie	mcookie
+dep	xmodmap	xmodmap
+dep	xrdb	xrdb
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	font-noto-sinhala
+version	2026.11.01-r0
+description	Noto Sans Sinhala (UI) and Serif Sinhala fonts
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	13844955
+installed-size	33944483
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-sinhala-2026.11.01-r0.apk
+checksum	Q1Pvon5btk4MFRcGFNdVnSgCkHCW0=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

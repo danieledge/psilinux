@@ -1,0 +1,16 @@
+name	py3-talloc
+version	2.4.4-r1
+description	Python 3 binding for libtalloc
+url	https://talloc.samba.org
+license	LGPL-3.0-or-later
+size	8386
+installed-size	23780
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libpython3.14.so.1.0 so:libtalloc.so.2
+origin	talloc
+repo	main
+file	py3-talloc-2.4.4-r1.apk
+checksum	Q1zki+/QkWJ7kBMNfiILghw3n1OdI=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpython3.14.so.1.0	python3
+dep	so:libtalloc.so.2	talloc

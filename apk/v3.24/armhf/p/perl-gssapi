@@ -1,0 +1,14 @@
+name	perl-gssapi
+version	0.28-r11
+description	Perl module for GSSAPI
+url	https://metacpan.org/release/GSSAPI/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	32308
+installed-size	84621
+depends	so:libc.musl-armhf.so.1 so:libgssapi_krb5.so.2
+origin	perl-gssapi
+repo	community
+file	perl-gssapi-0.28-r11.apk
+checksum	Q1NIaaVxPwxuTjHK+2ZiHeFwKjubc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgssapi_krb5.so.2	krb5-libs

@@ -1,0 +1,23 @@
+name	termit
+version	3.2-r1
+description	Terminal emulator based on VTE with Lua scripting
+url	https://github.com/nonstop/termit
+license	GPL-3.0-or-later
+size	35844
+installed-size	80997
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:liblua-5.4.so.0 so:libpango-1.0.so.0 so:libvte-2.91.so.0
+origin	termit
+repo	community
+file	termit-3.2-r1.apk
+checksum	Q12xrKBEASkSbIkIH6w+Hh1qpgQlc=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:liblua-5.4.so.0	lua5.4-libs
+dep	so:libpango-1.0.so.0	pango
+dep	so:libvte-2.91.so.0	vte3

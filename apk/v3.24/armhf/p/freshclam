@@ -1,0 +1,16 @@
+name	freshclam
+version	1.4.6-r0
+description	Auto-updater for the Clam Antivirus scanner data-files
+url	https://www.clamav.net/
+license	GPL-2.0-only
+size	33445
+installed-size	70374
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libclamav.so.12 so:libfreshclam.so.3
+origin	clamav
+repo	community
+file	freshclam-1.4.6-r0.apk
+checksum	Q1+Wr+J7BZTNzCspeM7xYD1a1RtIM=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libclamav.so.12	clamav-libs
+dep	so:libfreshclam.so.3	clamav-libs

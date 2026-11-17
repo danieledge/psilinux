@@ -1,0 +1,16 @@
+name	sslh
+version	2.3.1-r0
+description	Applicative Protocol Multiplexer (e.g. share SSH and HTTPS on the same port)
+url	https://www.rutschle.net/tech/sslh/README.html
+license	GPL-2.0-or-later
+size	114235
+installed-size	243436
+depends	so:libc.musl-armhf.so.1 so:libcap.so.2 so:libconfig.so.15 so:libpcre2-8.so.0
+origin	sslh
+repo	community
+file	sslh-2.3.1-r0.apk
+checksum	Q1IaGdf7/U1WRfzXXIA8LxuhuXXmQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libconfig.so.15	libconfig
+dep	so:libpcre2-8.so.0	pcre2

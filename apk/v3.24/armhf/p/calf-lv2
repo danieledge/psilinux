@@ -1,0 +1,23 @@
+name	calf-lv2
+version	0.90.3-r3
+description	Calf Studio Gear (LV2 plugins)
+url	https://calf-studio-gear.org
+license	GPL-2.0-only AND LGPL-2.1-only
+size	339424
+installed-size	1959376
+depends	calf=0.90.3-r3 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libexpat.so.1 so:libgcc_s.so.1 so:libgdk-x11-2.0.so.0 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-x11-2.0.so.0 so:libstdc++.so.6
+origin	calf
+repo	community
+file	calf-lv2-0.90.3-r3.apk
+checksum	Q1k06x38wEvFJAIe4ZaiuXVywn/JA=
+dep	calf=0.90.3-r3	calf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libexpat.so.1	libexpat
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-x11-2.0.so.0	gtk+2.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-x11-2.0.so.0	gtk+2.0
+dep	so:libstdc++.so.6	libstdc++

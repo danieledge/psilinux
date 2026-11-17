@@ -1,0 +1,14 @@
+name	py3-userpath
+version	1.9.2-r2
+description	Python module for adding locations to PATH
+url	https://github.com/ofek/userpath
+license	MIT
+size	9581
+installed-size	24292
+depends	py3-click python3~3.14
+origin	py3-userpath
+repo	community
+file	py3-userpath-1.9.2-r2.apk
+checksum	Q1/lO5vckGDGD/9od6OD6jgo5itJE=
+dep	py3-click	py3-click
+dep	python3~3.14	python3

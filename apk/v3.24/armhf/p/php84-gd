@@ -1,0 +1,21 @@
+name	php84-gd
+version	8.4.27-r0
+description	PHP84 extension: GD imaging
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	126501
+installed-size	374325
+depends	php84-common so:libXpm.so.4 so:libavif.so.16 so:libc.musl-armhf.so.1 so:libfreetype.so.6 so:libjpeg.so.8 so:libpng16.so.16 so:libwebp.so.7 so:libz.so.1
+origin	php84
+repo	community
+file	php84-gd-8.4.27-r0.apk
+checksum	Q1t3MRKgy7JsVQQlioKI20KC6/Smc=
+dep	php84-common	php84-common
+dep	so:libXpm.so.4	libxpm
+dep	so:libavif.so.16	libavif
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreetype.so.6	freetype
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpng16.so.16	libpng
+dep	so:libwebp.so.7	libwebp
+dep	so:libz.so.1	zlib

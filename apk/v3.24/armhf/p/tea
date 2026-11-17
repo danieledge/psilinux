@@ -1,0 +1,13 @@
+name	tea
+version	0.9.2-r28
+description	A command line tool to interact with Gitea servers
+url	https://gitea.com/gitea/tea
+license	MIT
+size	8151087
+installed-size	23814324
+depends	so:libc.musl-armhf.so.1
+origin	tea
+repo	community
+file	tea-0.9.2-r28.apk
+checksum	Q1eBDJ8AgBwwbHR6Ticism1fMjvSs=
+dep	so:libc.musl-armhf.so.1	musl

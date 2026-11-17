@@ -1,0 +1,13 @@
+name	sipcalc
+version	1.1.6-r4
+description	Advanced console based ip subnet calculator
+url	https://www.routemeister.net/projects/sipcalc/
+license	BSD-3-Clause
+size	18794
+installed-size	34284
+depends	so:libc.musl-armhf.so.1
+origin	sipcalc
+repo	main
+file	sipcalc-1.1.6-r4.apk
+checksum	Q14pRMoQVWC9TPJ2nDgtsLstmJVvE=
+dep	so:libc.musl-armhf.so.1	musl

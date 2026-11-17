@@ -1,0 +1,14 @@
+name	android-udev-rules
+version	20250525-r0
+description	Android udev rules list
+url	https://github.com/M0Rf30/android-udev-rules
+license	GPL-3.0-only
+size	11346
+installed-size	39349
+depends	udev /bin/sh
+origin	android-udev-rules
+repo	community
+file	android-udev-rules-20250525-r0.apk
+checksum	Q1uY6heAdVJVx7KZjzskc5Rb4NWHA=
+dep	udev	eudev
+dep	/bin/sh	busybox-binsh

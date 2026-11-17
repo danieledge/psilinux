@@ -1,0 +1,15 @@
+name	shadowsocks-rust-ssserver
+version	1.24.0-r1
+description	Rust port of shadowsocks (ssserver binary)
+url	https://github.com/shadowsocks/shadowsocks-rust
+license	MIT
+size	1876257
+installed-size	3766500
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libmimalloc-secure.so.2
+origin	shadowsocks-rust
+repo	community
+file	shadowsocks-rust-ssserver-1.24.0-r1.apk
+checksum	Q1ewMa+yHpFSkVtc9a2OEC9i2iP6I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmimalloc-secure.so.2	mimalloc2

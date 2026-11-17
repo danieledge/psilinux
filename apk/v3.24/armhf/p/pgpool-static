@@ -1,0 +1,13 @@
+name	pgpool-static
+version	4.6.7-r0
+description	A connection pooling/replication server for PostgreSQL (static library)
+url	https://www.pgpool.net/
+license	custom
+size	25122
+installed-size	60908
+depends	pgpool-dev
+origin	pgpool
+repo	main
+file	pgpool-static-4.6.7-r0.apk
+checksum	Q1+Md6t8vIlQrgsjb8mfS0c4AR5yE=
+dep	pgpool-dev	pgpool-dev

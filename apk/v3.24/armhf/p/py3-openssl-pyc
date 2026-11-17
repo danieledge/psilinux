@@ -1,0 +1,13 @@
+name	py3-openssl-pyc
+version	26.1.0-r0
+description	Precompiled Python bytecode for py3-openssl
+url	https://github.com/pyca/pyopenssl
+license	Apache-2.0
+size	96213
+installed-size	286092
+depends	python3~3.14
+origin	py3-openssl
+repo	community
+file	py3-openssl-pyc-26.1.0-r0.apk
+checksum	Q1bC4bn8vy00hpcOSDF3ZGLdgw2m0=
+dep	python3~3.14	python3

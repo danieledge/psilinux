@@ -1,0 +1,13 @@
+name	mysql-bench
+version	11.8.9-r0
+description	Dummy package for mysql-bench migration
+url	https://www.mariadb.org/
+license	GPL-2.0-only
+size	1274
+installed-size	0
+depends	mariadb-client
+origin	mariadb
+repo	main
+file	mysql-bench-11.8.9-r0.apk
+checksum	Q18BnYjIZd3JF4+OA844sCJcDOyO8=
+dep	mariadb-client	mariadb-client

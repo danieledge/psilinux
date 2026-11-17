@@ -1,0 +1,14 @@
+name	lua5.1-lpeg
+version	1.1.0-r1
+description	Pattern-matching library for Lua 5.1
+url	http://www.inf.puc-rio.br/~roberto/lpeg
+license	MIT
+size	24941
+installed-size	48957
+depends	lua5.1 so:libc.musl-armhf.so.1
+origin	lua-lpeg
+repo	community
+file	lua5.1-lpeg-1.1.0-r1.apk
+checksum	Q1UTgKRuTpNpnT8av7KZFprV9u2to=
+dep	lua5.1	lua5.1
+dep	so:libc.musl-armhf.so.1	musl

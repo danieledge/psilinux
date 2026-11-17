@@ -1,0 +1,16 @@
+name	perl-anyevent-dbus
+version	0.31-r1
+description	Use Net::DBus with AnyEvent
+url	https://metacpan.org/release/AnyEvent-DBus/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	3461
+installed-size	4459
+depends	perl perl-anyevent perl-net-dbus perl-common-sense
+origin	perl-anyevent-dbus
+repo	community
+file	perl-anyevent-dbus-0.31-r1.apk
+checksum	Q19clnNcoyQAO0s7DA4yDbJNnMiSk=
+dep	perl	perl
+dep	perl-anyevent	perl-anyevent
+dep	perl-net-dbus	perl-net-dbus
+dep	perl-common-sense	perl-common-sense

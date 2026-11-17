@@ -1,0 +1,14 @@
+name	lua5.1-crypt
+version	1.1.0-r1
+description	A crypt(3)-style module for Lua. Brings its own implementations, entirely independent of your local libc (for Lua 5.1)
+url	https://github.com/jprjr/lua-crypt
+license	MIT
+size	30340
+installed-size	51737
+depends	lua5.1 so:libc.musl-armhf.so.1
+origin	lua-crypt
+repo	community
+file	lua5.1-crypt-1.1.0-r1.apk
+checksum	Q1MtESWFfu67tpVVGjJbahwyZSs9Q=
+dep	lua5.1	lua5.1
+dep	so:libc.musl-armhf.so.1	musl

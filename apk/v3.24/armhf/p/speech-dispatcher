@@ -1,0 +1,21 @@
+name	speech-dispatcher
+version	0.12.1-r3
+description	Common high-level interface to speech synthesis
+url	https://freebsoft.org/speechd
+license	LGPL-2.1-or-later
+size	5257502
+installed-size	28428565
+depends	so:libc.musl-armhf.so.1 so:libdotconf.so.0 so:libespeak-ng.so.1 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libintl.so.8 so:libltdl.so.7 so:libpulse.so.0 so:libsndfile.so.1
+origin	speech-dispatcher
+repo	community
+file	speech-dispatcher-0.12.1-r3.apk
+checksum	Q1xQSIO8MTFkCocoMVkKO6Ei51TMQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdotconf.so.0	libdotconf
+dep	so:libespeak-ng.so.1	espeak-ng
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libltdl.so.7	libltdl
+dep	so:libpulse.so.0	libpulse
+dep	so:libsndfile.so.1	libsndfile

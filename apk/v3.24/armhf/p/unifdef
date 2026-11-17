@@ -1,0 +1,13 @@
+name	unifdef
+version	2.12-r4
+description	Selectively remove C preprocessor conditionals
+url	https://github.com/fanf2/unifdef
+license	BSD-2-Clause AND BSD-3-Clause
+size	14649
+installed-size	32016
+depends	so:libc.musl-armhf.so.1
+origin	unifdef
+repo	community
+file	unifdef-2.12-r4.apk
+checksum	Q1T8NJO3v0uznXxSNcFl5Xktibf1A=
+dep	so:libc.musl-armhf.so.1	musl

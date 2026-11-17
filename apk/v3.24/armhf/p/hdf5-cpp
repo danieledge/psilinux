@@ -1,0 +1,16 @@
+name	hdf5-cpp
+version	1.14.4.2-r1
+description	C++ runtime files for serial platforms for HDF5 library
+url	https://www.hdfgroup.org/solutions/hdf5/
+license	custom
+size	124823
+installed-size	419200
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libhdf5.so.311 so:libstdc++.so.6
+origin	hdf5
+repo	community
+file	hdf5-cpp-1.14.4.2-r1.apk
+checksum	Q1CHd8XHL5mk+pWaqLAnOAgJynPYs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libhdf5.so.311	hdf5
+dep	so:libstdc++.so.6	libstdc++

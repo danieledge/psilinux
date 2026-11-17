@@ -1,0 +1,14 @@
+name	jupyter-notebook-shim
+version	0.2.4-r4
+description	Shim layer for notebook traits and config
+url	https://github.com/jupyter/notebook_shim
+license	BSD-3-Clause
+size	12527
+installed-size	34761
+depends	jupyter-server python3~3.14
+origin	jupyter-notebook-shim
+repo	community
+file	jupyter-notebook-shim-0.2.4-r4.apk
+checksum	Q12SEaUcjYphn/Tte0Iua2Z7oqovQ=
+dep	jupyter-server	jupyter-server
+dep	python3~3.14	python3

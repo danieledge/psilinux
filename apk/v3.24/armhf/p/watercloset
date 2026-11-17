@@ -1,0 +1,18 @@
+name	watercloset
+version	1.0-r4
+description	2D platform puzzle game
+url	https://www.parallelrealities.co.uk/games/wc/
+license	GPL-2.0-or-later
+size	50859
+installed-size	94960
+depends	watercloset-data=1.0-r4 so:libSDL2-2.0.so.0 so:libSDL2_image-2.0.so.0 so:libSDL2_mixer-2.0.so.0 so:libSDL2_ttf-2.0.so.0 so:libc.musl-armhf.so.1
+origin	watercloset
+repo	community
+file	watercloset-1.0-r4.apk
+checksum	Q1gKE7DgD+qtgTa1TgdqOctpfbRb4=
+dep	watercloset-data=1.0-r4	watercloset-data
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libSDL2_image-2.0.so.0	sdl2_image
+dep	so:libSDL2_mixer-2.0.so.0	sdl2_mixer
+dep	so:libSDL2_ttf-2.0.so.0	sdl2_ttf
+dep	so:libc.musl-armhf.so.1	musl

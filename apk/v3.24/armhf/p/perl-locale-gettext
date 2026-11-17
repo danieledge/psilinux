@@ -1,0 +1,16 @@
+name	perl-locale-gettext
+version	1.07-r2
+description	Perl bindings for POSIX i18n gettext functions
+url	https://metacpan.org/release/Locale-gettext/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	8623
+installed-size	20286
+depends	perl gettext so:libc.musl-armhf.so.1 so:libintl.so.8
+origin	perl-locale-gettext
+repo	community
+file	perl-locale-gettext-1.07-r2.apk
+checksum	Q1VXYp120Oq33KuyLP2rWotV1OqTk=
+dep	perl	perl
+dep	gettext	gettext
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libintl.so.8	libintl

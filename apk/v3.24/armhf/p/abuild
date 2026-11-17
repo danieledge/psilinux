@@ -1,0 +1,26 @@
+name	abuild
+version	3.17.0-r0
+description	Script to build Alpine Packages
+url	https://gitlab.alpinelinux.org/alpine/abuild/
+license	GPL-2.0-only
+size	79436
+installed-size	244680
+depends	apk-tools>=3.0.0_rc4 cmd:getcap fakeroot musl-utils lzip openssl>3 patch pkgconf scanelf tar /bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libz.so.1
+origin	abuild
+repo	main
+file	abuild-3.17.0-r0.apk
+checksum	Q1yXAfGF5Xq6I2L0WFcolxK8bZ6xc=
+dep	apk-tools>=3.0.0_rc4	apk-tools
+dep	cmd:getcap	libcap-getcap
+dep	fakeroot	fakeroot
+dep	musl-utils	musl-utils
+dep	lzip	lzip
+dep	openssl>3	openssl
+dep	patch	patch
+dep	pkgconf	pkgconf
+dep	scanelf	scanelf
+dep	tar	tar
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libz.so.1	zlib

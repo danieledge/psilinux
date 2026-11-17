@@ -1,0 +1,16 @@
+name	librist-progs
+version	0.2.15-r0
+description	Tools for working with RIST
+url	https://www.rist.tv/
+license	BSD-2-Clause
+size	87486
+installed-size	234284
+depends	so:libc.musl-armhf.so.1 so:libcjson.so.1 so:libmbedcrypto.so.16 so:librist.so.4
+origin	librist
+repo	community
+file	librist-progs-0.2.15-r0.apk
+checksum	Q1lKJYbty/yf8NLab6KOlXf9Xy1uc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcjson.so.1	cjson
+dep	so:libmbedcrypto.so.16	mbedtls3
+dep	so:librist.so.4	librist

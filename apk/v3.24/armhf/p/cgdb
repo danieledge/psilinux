@@ -1,0 +1,18 @@
+name	cgdb
+version	0.8.0-r4
+description	The Curses Debugger
+url	https://cgdb.github.io/
+license	GPL-2.0-or-later
+size	136779
+installed-size	308048
+depends	gdb so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libncursesw.so.6 so:libreadline.so.8 so:libstdc++.so.6
+origin	cgdb
+repo	main
+file	cgdb-0.8.0-r4.apk
+checksum	Q1tQFhjBYVFHGRCuIs2o4CExme9tE=
+dep	gdb	gdb
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libreadline.so.8	readline
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,13 @@
+name	libmodbus
+version	3.1.10-r0
+description	Modbus library which supports RTU communication over a serial line or a TCP link
+url	https://libmodbus.org/
+license	LGPL-2.1-or-later
+size	18736
+installed-size	38060
+depends	so:libc.musl-armhf.so.1
+origin	libmodbus
+repo	community
+file	libmodbus-3.1.10-r0.apk
+checksum	Q1F7JVlc2qCtq9woZ2w/A0d/5vp20=
+dep	so:libc.musl-armhf.so.1	musl

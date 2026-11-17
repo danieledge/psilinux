@@ -1,0 +1,14 @@
+name	freetdm
+version	0_git20210830-r6
+description	FreeTDM Endpoint Module 
+url	https://github.com/freeswitch/freetdm
+license	BSD-3-Clause
+size	189371
+installed-size	425757
+depends	so:libc.musl-armhf.so.1 so:libfreeswitch.so.1
+origin	freetdm
+repo	main
+file	freetdm-0_git20210830-r6.apk
+checksum	Q1y2EOFhbTIQtTdd68uKViqaSP7jQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreeswitch.so.1	freeswitch

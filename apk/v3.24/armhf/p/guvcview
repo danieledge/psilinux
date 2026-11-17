@@ -1,0 +1,22 @@
+name	guvcview
+version	2.2.1-r3
+description	Webcam viewer
+url	https://guvcview.sourceforge.net/
+license	GPL-2.0-or-later
+size	65697
+installed-size	130237
+depends	so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgviewaudio.so.2 so:libgviewencoder.so.2 so:libgviewrender.so.2 so:libgviewv4l2core.so.2 so:libintl.so.8
+origin	guvcview
+repo	community
+file	guvcview-2.2.1-r3.apk
+checksum	Q1jW7ryLuVo71zVN2GU/7pHS3vtXU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgviewaudio.so.2	guvcview-libs
+dep	so:libgviewencoder.so.2	guvcview-libs
+dep	so:libgviewrender.so.2	guvcview-libs
+dep	so:libgviewv4l2core.so.2	guvcview-libs
+dep	so:libintl.so.8	libintl

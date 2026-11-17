@@ -1,0 +1,14 @@
+name	simdjson-dev
+version	4.2.4-r0
+description	Parsing gigabytes of JSON per second (development files)
+url	https://simdjson.org/
+license	Apache-2.0 OR MIT
+size	1119779
+installed-size	6388764
+depends	simdjson=4.2.4-r0 pkgconfig
+origin	simdjson
+repo	main
+file	simdjson-dev-4.2.4-r0.apk
+checksum	Q1vzr67OsNXhJTX49QXQ4AlfbRMDA=
+dep	simdjson=4.2.4-r0	simdjson
+dep	pkgconfig	pkgconf

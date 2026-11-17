@@ -1,0 +1,28 @@
+name	libreswan
+version	5.3.3-r0
+description	IPsec implementation for Linux
+url	https://libreswan.org/
+license	GPL-2.0-or-later
+size	2393592
+installed-size	6069796
+depends	dnssec-root nss-tools iproute2 !strongswan so:libc.musl-armhf.so.1 so:libcap-ng.so.0 so:libcurl.so.4 so:libevent_core-2.1.so.7 so:libevent_pthreads-2.1.so.7 so:libldns.so.3 so:libnspr4.so so:libnss3.so so:libnssutil3.so so:libpam.so.0 so:libsmime3.so so:libssl3.so so:libunbound.so.8
+origin	libreswan
+repo	community
+file	libreswan-5.3.3-r0.apk
+checksum	Q1R5EUjeLHtl1CwrkB7hUExRdQIfo=
+dep	dnssec-root	dnssec-root
+dep	nss-tools	nss-tools
+dep	iproute2	iproute2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap-ng.so.0	libcap-ng
+dep	so:libcurl.so.4	libcurl
+dep	so:libevent_core-2.1.so.7	libevent
+dep	so:libevent_pthreads-2.1.so.7	libevent
+dep	so:libldns.so.3	ldns
+dep	so:libnspr4.so	nspr
+dep	so:libnss3.so	nss
+dep	so:libnssutil3.so	nss
+dep	so:libpam.so.0	linux-pam
+dep	so:libsmime3.so	nss
+dep	so:libssl3.so	nss
+dep	so:libunbound.so.8	unbound-libs

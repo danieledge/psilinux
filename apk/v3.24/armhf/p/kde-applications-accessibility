@@ -1,0 +1,15 @@
+name	kde-applications-accessibility
+version	26.04.2-r0
+description	KDE Applications meta package
+url	https://kde.org/applications/
+license	GPL-3.0-or-later
+size	1276
+installed-size	0
+depends	kmag kmousetool kmouth
+origin	kde-applications
+repo	community
+file	kde-applications-accessibility-26.04.2-r0.apk
+checksum	Q1L7HNqzv6YdasCzbjQeeBhzIj8sA=
+dep	kmag	!
+dep	kmousetool	!
+dep	kmouth	!

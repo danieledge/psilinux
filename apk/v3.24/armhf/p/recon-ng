@@ -1,0 +1,21 @@
+name	recon-ng
+version	5.1.2-r1
+description	Full-featured Web Reconnaissance framework written in Python
+url	https://github.com/lanmaster53/recon-ng
+license	GPL-3.0-only
+size	73656
+installed-size	271511
+depends	py3-dicttoxml py3-dnspython py3-lxml py3-yaml py3-mechanize py3-requests py3-xlsxwriter py3-flask py3-unicodecsv
+origin	recon-ng
+repo	community
+file	recon-ng-5.1.2-r1.apk
+checksum	Q1nuiUi4YcKbNGiyfDjlKcRHfOsHg=
+dep	py3-dicttoxml	py3-dicttoxml
+dep	py3-dnspython	py3-dnspython
+dep	py3-lxml	py3-lxml
+dep	py3-yaml	py3-yaml
+dep	py3-mechanize	py3-mechanize
+dep	py3-requests	py3-requests
+dep	py3-xlsxwriter	py3-xlsxwriter
+dep	py3-flask	py3-flask
+dep	py3-unicodecsv	py3-unicodecsv

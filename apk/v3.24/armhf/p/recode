@@ -1,0 +1,13 @@
+name	recode
+version	3.7.15-r1
+description	Charset converter tool and library
+url	https://github.com/rrthomas/recode
+license	GPL-2.0-or-later
+size	287832
+installed-size	765588
+depends	so:libc.musl-armhf.so.1
+origin	recode
+repo	community
+file	recode-3.7.15-r1.apk
+checksum	Q1OMNc4h/fF3RgCM3hJiTfgg8DDQ0=
+dep	so:libc.musl-armhf.so.1	musl

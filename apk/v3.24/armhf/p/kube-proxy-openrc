@@ -1,0 +1,13 @@
+name	kube-proxy-openrc
+version	1.36.1-r2
+description	Kubernetes - kube-proxy (OpenRC init scripts)
+url	https://kubernetes.io/
+license	Apache-2.0
+size	1968
+installed-size	562
+depends	openrc
+origin	kubernetes
+repo	community
+file	kube-proxy-openrc-1.36.1-r2.apk
+checksum	Q17TOHmTYuvA7Pfo4eACrqQSC9drE=
+dep	openrc	openrc

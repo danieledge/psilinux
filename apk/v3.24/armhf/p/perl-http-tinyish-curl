@@ -1,0 +1,14 @@
+name	perl-http-tinyish-curl
+version	0.19-r1
+description	HTTP::Tiny compatible HTTP client wrappers (Curl backend)
+url	https://metacpan.org/release/HTTP-Tinyish/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	2928
+installed-size	3685
+depends	perl-http-tinyish=0.19-r1 curl
+origin	perl-http-tinyish
+repo	community
+file	perl-http-tinyish-curl-0.19-r1.apk
+checksum	Q1TYpmF4Bfqdqrd9c1F4nVDw7WQMw=
+dep	perl-http-tinyish=0.19-r1	perl-http-tinyish
+dep	curl	curl

@@ -1,0 +1,14 @@
+name	sensorfw-dev
+version	0.15.1-r2
+description	Sensorfw (development files)
+url	https://github.com/sailfishos/sensorfw
+license	LGPL-2.1-only
+size	88061
+installed-size	486414
+depends	sensorfw=0.15.1-r2 pkgconfig
+origin	sensorfw
+repo	community
+file	sensorfw-dev-0.15.1-r2.apk
+checksum	Q1GJxC2cVQw6Dga3hrQQewsIM397s=
+dep	sensorfw=0.15.1-r2	sensorfw
+dep	pkgconfig	pkgconf

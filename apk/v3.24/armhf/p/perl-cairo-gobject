@@ -1,0 +1,21 @@
+name	perl-cairo-gobject
+version	1.005-r5
+description	Integrate Cairo into the Glib type system
+url	https://metacpan.org/release/Cairo-GObject/
+license	GPL-2.0-or-later
+size	6187
+installed-size	11395
+depends	perl perl-cairo perl-extutils-depends perl-extutils-pkgconfig perl-glib so:libc.musl-armhf.so.1 so:libcairo-gobject.so.2 so:libcairo.so.2 so:libglib-2.0.so.0
+origin	perl-cairo-gobject
+repo	community
+file	perl-cairo-gobject-1.005-r5.apk
+checksum	Q1tODwl/XXppBjLzUNsUAQr9CqrrY=
+dep	perl	perl
+dep	perl-cairo	perl-cairo
+dep	perl-extutils-depends	perl-extutils-depends
+dep	perl-extutils-pkgconfig	perl-extutils-pkgconfig
+dep	perl-glib	perl-glib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo-gobject.so.2	cairo-gobject
+dep	so:libcairo.so.2	cairo
+dep	so:libglib-2.0.so.0	glib

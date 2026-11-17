@@ -1,0 +1,16 @@
+name	py3-sphinxfeed
+version	0.3.6-r1
+description	Generate RSS feed when Sphinx builds
+url	https://github.com/lsaffre/sphinxfeed
+license	BSD-2-Clause
+size	7088
+installed-size	13689
+depends	py3-sphinx py3-dateutil py3-feedgen python3~3.14
+origin	py3-sphinxfeed
+repo	community
+file	py3-sphinxfeed-0.3.6-r1.apk
+checksum	Q1dqjGbXqLQKhA1l5zcHgCQk59/js=
+dep	py3-sphinx	py3-sphinx
+dep	py3-dateutil	py3-dateutil
+dep	py3-feedgen	py3-feedgen
+dep	python3~3.14	python3

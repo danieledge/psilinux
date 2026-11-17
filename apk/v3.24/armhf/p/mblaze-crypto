@@ -1,0 +1,14 @@
+name	mblaze-crypto
+version	1.4-r0
+description	Scripts for using S/MIME and PGP
+url	https://git.vuxu.org/mblaze/
+license	CC0-1.0
+size	3097
+installed-size	3125
+depends	openssl gpg
+origin	mblaze
+repo	community
+file	mblaze-crypto-1.4-r0.apk
+checksum	Q1hpSdw5JKDKS/wxLRU4Udr2+dbks=
+dep	openssl	openssl
+dep	gpg	gpg

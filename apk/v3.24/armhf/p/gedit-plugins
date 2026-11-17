@@ -1,0 +1,28 @@
+name	gedit-plugins
+version	50.0-r0
+description	Collection of plugins for the gedit text editor
+url	https://gitlab.gnome.org/World/gedit/gedit/blob/master/plugins/list-of-gedit-plugins.md
+license	GPL-2.0-only
+size	35391
+installed-size	101959
+depends	gucharmap libpeas-python3 python3 py3-dbus py3-gobject3 vte3 so:libc.musl-armhf.so.1 so:libgedit-50.so so:libgedit-gtksourceview-300.so.5 so:libgedit-tepl-6.so.4 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libpeas-1.0.so.1 so:libpeas-gtk-1.0.so.1
+origin	gedit-plugins
+repo	community
+file	gedit-plugins-50.0-r0.apk
+checksum	Q1WgaOmDuyIivh2Bcx1E2kFAy08Gg=
+dep	gucharmap	gucharmap
+dep	libpeas-python3	libpeas-python3
+dep	python3	python3
+dep	py3-dbus	py3-dbus
+dep	py3-gobject3	py3-gobject3
+dep	vte3	vte3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgedit-50.so	gedit
+dep	so:libgedit-gtksourceview-300.so.5	libgedit-gtksourceview
+dep	so:libgedit-tepl-6.so.4	libgedit-tepl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libpeas-1.0.so.1	libpeas
+dep	so:libpeas-gtk-1.0.so.1	libpeas

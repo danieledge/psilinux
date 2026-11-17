@@ -1,0 +1,13 @@
+name	shellcat
+version	1.2-r1
+description	templating system with shell syntax
+url	https://github.com/jwilk/shellcat
+license	MIT
+size	6001
+installed-size	9456
+depends	so:libc.musl-armhf.so.1
+origin	shellcat
+repo	community
+file	shellcat-1.2-r1.apk
+checksum	Q1w4vM9SNVQGnnM5VnRctB3GAxqt8=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	simdjson
+version	4.2.4-r0
+description	Parsing gigabytes of JSON per second
+url	https://simdjson.org/
+license	Apache-2.0 OR MIT
+size	50167
+installed-size	92296
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	simdjson
+repo	main
+file	simdjson-4.2.4-r0.apk
+checksum	Q1FKiBLSWV9ukVDQxFvAd9soAK4mU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

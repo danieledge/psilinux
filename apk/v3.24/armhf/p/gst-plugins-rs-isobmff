@@ -1,0 +1,23 @@
+name	gst-plugins-rs-isobmff
+version	0.15.2-r0
+description	Gstreamer rust plugin for isobmff
+url	https://gitlab.freedesktop.org/gstreamer/gst-plugins-rs
+license	MIT AND Apache-2.0 AND MPL-2.0 AND LGPL-2.1-or-later
+size	528872
+installed-size	1122056
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgsttag-1.0.so.0 so:libgstvideo-1.0.so.0
+origin	gst-plugins-rs
+repo	community
+file	gst-plugins-rs-isobmff-0.15.2-r0.apk
+checksum	Q1O8dm/srpi9CR/PE/2HPQuYJlfZM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstaudio-1.0.so.0	gst-plugins-base
+dep	so:libgstbase-1.0.so.0	gstreamer
+dep	so:libgstpbutils-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgsttag-1.0.so.0	gst-plugins-base
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base

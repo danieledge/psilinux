@@ -1,0 +1,17 @@
+name	grpc
+version	1.78.1-r2
+description	The C based gRPC
+url	https://grpc.io/
+license	Apache-2.0 AND BSD-3-Clause AND MIT
+size	83379
+installed-size	192808
+depends	ca-certificates so:libc.musl-armhf.so.1 so:libupb_base_lib.so.52 so:libupb_mem_lib.so.52 so:libupb_message_lib.so.52
+origin	grpc
+repo	community
+file	grpc-1.78.1-r2.apk
+checksum	Q1OFXnD4gw/A2tHh0Oi3T3pajuANA=
+dep	ca-certificates	ca-certificates
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libupb_base_lib.so.52	libupb_base_lib
+dep	so:libupb_mem_lib.so.52	libupb_mem_lib
+dep	so:libupb_message_lib.so.52	libupb_message_lib

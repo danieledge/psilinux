@@ -1,0 +1,13 @@
+name	raspberrypi-utils-vcgencmd-bash-completion
+version	0.20260811-r0
+description	Bash completions for raspberrypi-utils-vcgencmd
+url	https://github.com/raspberrypi/utils
+license	BSD-3-Clause
+size	1802
+installed-size	281
+depends	raspberrypi-utils-vcgencmd=0.20260811-r0
+origin	raspberrypi-utils
+repo	community
+file	raspberrypi-utils-vcgencmd-bash-completion-0.20260811-r0.apk
+checksum	Q1o/KqnFXU2pbNdxbPnIZSCSHLdZk=
+dep	raspberrypi-utils-vcgencmd=0.20260811-r0	raspberrypi-utils-vcgencmd

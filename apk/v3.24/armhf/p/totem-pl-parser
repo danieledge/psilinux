@@ -1,0 +1,20 @@
+name	totem-pl-parser
+version	3.26.7-r0
+description	GNOME playlist parser library
+url	https://www.gnome.org/
+license	LGPL-2.0-or-later
+size	63628
+installed-size	145207
+depends	so:libarchive.so.13 so:libc.musl-armhf.so.1 so:libgcrypt.so.20 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libxml2.so.2
+origin	totem-pl-parser
+repo	community
+file	totem-pl-parser-3.26.7-r0.apk
+checksum	Q1ODpZo2CkIeMtqF/bitI4AO/py60=
+dep	so:libarchive.so.13	libarchive
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libxml2.so.2	libxml2

@@ -1,0 +1,13 @@
+name	orc
+version	0.4.41-r0
+description	Oil Run-time Compiler
+url	https://gstreamer.freedesktop.org/modules/orc.html
+license	BSD-2-Clause
+size	185063
+installed-size	548784
+depends	so:libc.musl-armhf.so.1
+origin	orc
+repo	main
+file	orc-0.4.41-r0.apk
+checksum	Q1vb4v4jqE2kYcFg+dN259LT9UJ3Q=
+dep	so:libc.musl-armhf.so.1	musl

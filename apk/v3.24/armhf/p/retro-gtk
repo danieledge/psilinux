@@ -1,0 +1,24 @@
+name	retro-gtk
+version	1.0.2-r4
+description	The GTK+ Libretro frontend framework
+url	https://gitlab.gnome.org/GNOME/retro-gtk
+license	GPL-3.0-or-later
+size	120087
+installed-size	322860
+depends	so:libc.musl-armhf.so.1 so:libepoxy.so.0 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libpulse-simple.so.0 so:libpulse.so.0 so:libsamplerate.so.0
+origin	retro-gtk
+repo	community
+file	retro-gtk-1.0.2-r4.apk
+checksum	Q1NVGc2Jvq6PTFrlYaZSBoJUviY3Q=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libepoxy.so.0	libepoxy
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libpulse-simple.so.0	libpulse
+dep	so:libpulse.so.0	libpulse
+dep	so:libsamplerate.so.0	libsamplerate

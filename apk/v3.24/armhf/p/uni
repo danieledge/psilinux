@@ -1,0 +1,13 @@
+name	uni
+version	2.9.0-r7
+description	Query the Unicode database from the commandline
+url	https://github.com/arp242/uni
+license	MIT
+size	2339648
+installed-size	7170092
+depends	so:libc.musl-armhf.so.1
+origin	uni
+repo	community
+file	uni-2.9.0-r7.apk
+checksum	Q1Lz27+hmXf/YToAKnH762FQp60ts=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	gmp
+version	6.3.0-r4
+description	free library for arbitrary precision arithmetic
+url	https://gmplib.org/
+license	LGPL-3.0-or-later OR GPL-2.0-or-later
+size	197681
+installed-size	378092
+depends	so:libc.musl-armhf.so.1
+origin	gmp
+repo	main
+file	gmp-6.3.0-r4.apk
+checksum	Q1qBlDUKpCYQ7luKaF6pJGn04EmVI=
+dep	so:libc.musl-armhf.so.1	musl

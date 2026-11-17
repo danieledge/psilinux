@@ -1,0 +1,14 @@
+name	libmodbus-dev
+version	3.1.10-r0
+description	Modbus library which supports RTU communication over a serial line or a TCP link (development files)
+url	https://libmodbus.org/
+license	LGPL-2.1-or-later
+size	6437
+installed-size	17610
+depends	libmodbus=3.1.10-r0 pkgconfig
+origin	libmodbus
+repo	community
+file	libmodbus-dev-3.1.10-r0.apk
+checksum	Q1ManTAbctGw75hUrC1X2GtOTKiYo=
+dep	libmodbus=3.1.10-r0	libmodbus
+dep	pkgconfig	pkgconf

@@ -1,0 +1,18 @@
+name	rtmpdump-dev
+version	2.4_git20190330-r5
+description	A tool to download rtmp:// and rtmpe:// streams (development files)
+url	http://rtmpdump.mplayerhq.hu/
+license	GPL-2.0-or-later
+size	7809
+installed-size	20720
+depends	zlib-dev librtmp=2.4_git20190330-r5 pc:gnutls pc:hogweed pc:nettle pkgconfig
+origin	rtmpdump
+repo	main
+file	rtmpdump-dev-2.4_git20190330-r5.apk
+checksum	Q126/qejmEaXs6t+sS9Dy4YP1vBQs=
+dep	zlib-dev	zlib-dev
+dep	librtmp=2.4_git20190330-r5	librtmp
+dep	pc:gnutls	gnutls-dev
+dep	pc:hogweed	nettle-dev
+dep	pc:nettle	nettle-dev
+dep	pkgconfig	pkgconf

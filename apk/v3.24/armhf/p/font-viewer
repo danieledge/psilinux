@@ -1,0 +1,19 @@
+name	font-viewer
+version	0.9.4-r1
+description	Full featured font file preview application for GTK+ Desktop Environments
+url	https://fontmanager.github.io/
+license	GPL-3.0-or-later
+size	45021
+installed-size	111990
+depends	so:libc.musl-armhf.so.1 so:libfontmanager.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libjson-glib-1.0.so.0
+origin	font-manager
+repo	community
+file	font-viewer-0.9.4-r1.apk
+checksum	Q1zVhsHrsuANQZht1Q/hCYBDMej44=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontmanager.so.0	font-manager-common
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libjson-glib-1.0.so.0	json-glib

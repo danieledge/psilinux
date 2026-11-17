@@ -1,0 +1,20 @@
+name	postgresql17-client
+version	17.12-r0
+description	PostgreSQL client
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	1246480
+installed-size	2919759
+depends	postgresql-common so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:liblz4.so.1 so:libpq.so.5 so:libreadline.so.8 so:libz.so.1 so:libzstd.so.1
+origin	postgresql17
+repo	main
+file	postgresql17-client-17.12-r0.apk
+checksum	Q10Yjjn+i/QjJtAtxtT9P88XMkINU=
+dep	postgresql-common	postgresql-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:liblz4.so.1	lz4-libs
+dep	so:libpq.so.5	libpq
+dep	so:libreadline.so.8	readline
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

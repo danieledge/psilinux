@@ -1,0 +1,13 @@
+name	gweather-locations-dev
+version	2026.2-r0
+description	GWeather locations database (development files)
+url	https://gitlab.gnome.org/GNOME/gweather-locations
+license	GPL-2.0-or-later
+size	1786
+installed-size	373
+depends	pkgconfig
+origin	gweather-locations
+repo	community
+file	gweather-locations-dev-2026.2-r0.apk
+checksum	Q1oQjhRs394tLdLczxHL7UX3RgE80=
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	cddlib-dev
+version	0.94m-r2
+description	Library implementing Double Description Method for convex polyhedra (development files)
+url	https://people.inf.ethz.ch/fukudak/cdd_home
+license	GPL-2.0-or-later
+size	14086
+installed-size	62836
+depends	cddlib=0.94m-r2 pkgconfig
+origin	cddlib
+repo	community
+file	cddlib-dev-0.94m-r2.apk
+checksum	Q1O3nZhHq2xYCBXoPS+WEvlM22Umk=
+dep	cddlib=0.94m-r2	cddlib
+dep	pkgconfig	pkgconf

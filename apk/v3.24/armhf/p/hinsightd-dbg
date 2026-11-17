@@ -1,0 +1,12 @@
+name	hinsightd-dbg
+version	0.9.21-r0
+description	hinsightd a http/1.1 webserver with (hopefully) minimal goals (debug symbols)
+url	https://tiotags.gitlab.io/hinsightd/
+license	BSD-3-Clause
+size	351132
+installed-size	850468
+depends	!hinsightd<0.9.21-r0 !hinsightd>0.9.21-r0
+origin	hinsightd
+repo	community
+file	hinsightd-dbg-0.9.21-r0.apk
+checksum	Q1dgr5bLI/lBhnUDsI6xzJdWAxZvc=

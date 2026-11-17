@@ -1,0 +1,13 @@
+name	libretro-pokemini
+version	0_git20241021-r0
+description	obscure nintendo handheld emulator
+url	https://github.com/libretro/PokeMini
+license	GPL-3.0-or-later
+size	93952
+installed-size	272320
+depends	so:libc.musl-armhf.so.1
+origin	libretro-pokemini
+repo	community
+file	libretro-pokemini-0_git20241021-r0.apk
+checksum	Q1OX5e610BLRo7fQhUOwWX48ockZw=
+dep	so:libc.musl-armhf.so.1	musl

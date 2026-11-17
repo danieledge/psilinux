@@ -1,0 +1,18 @@
+name	zim
+version	0.76.3-r2
+description	Desktop wiki editor
+url	https://zim-wiki.org/
+license	GPL-2.0-or-later
+size	1228566
+installed-size	3198114
+depends	python3 py3-gobject3 py3-xdg xdg-utils gtk+3.0 python3~3.14
+origin	zim
+repo	community
+file	zim-0.76.3-r2.apk
+checksum	Q1OI6DcK1DU85uLjPLmHBbJ/pot2s=
+dep	python3	python3
+dep	py3-gobject3	py3-gobject3
+dep	py3-xdg	py3-xdg
+dep	xdg-utils	xdg-utils
+dep	gtk+3.0	gtk+3.0
+dep	python3~3.14	python3

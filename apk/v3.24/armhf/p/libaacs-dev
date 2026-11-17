@@ -1,0 +1,14 @@
+name	libaacs-dev
+version	0.11.1-r1
+description	libaacs is a research project to implement the Advanced Access Content System specification (development files)
+url	https://www.videolan.org/developers/libaacs.html
+license	LGPL-2.1-only
+size	4948
+installed-size	9863
+depends	libaacs=0.11.1-r1 pkgconfig
+origin	libaacs
+repo	community
+file	libaacs-dev-0.11.1-r1.apk
+checksum	Q1SRHV692LQkNNF78hoJHgte+uHUA=
+dep	libaacs=0.11.1-r1	libaacs
+dep	pkgconfig	pkgconf

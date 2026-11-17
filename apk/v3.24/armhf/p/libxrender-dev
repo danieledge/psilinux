@@ -1,0 +1,17 @@
+name	libxrender-dev
+version	0.9.13-r0
+description	X Rendering Extension client library (development files)
+url	https://xorg.freedesktop.org/
+license	MIT
+size	23990
+installed-size	82853
+depends	libxrender=0.9.13-r0 pc:renderproto>=0.9 pc:x11 pc:xproto pkgconfig
+origin	libxrender
+repo	main
+file	libxrender-dev-0.9.13-r0.apk
+checksum	Q1BdjQMonCIfh+FXwY3ym6ZcVh9ic=
+dep	libxrender=0.9.13-r0	libxrender
+dep	pc:renderproto>=0.9	xorgproto
+dep	pc:x11	libx11-dev
+dep	pc:xproto	xorgproto
+dep	pkgconfig	pkgconf

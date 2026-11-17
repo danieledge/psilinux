@@ -1,0 +1,15 @@
+name	perl-linux-inotify2
+version	2.3-r4
+description	scalable directory/file change notification
+url	https://metacpan.org/release/Linux-Inotify2/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	11186
+installed-size	23099
+depends	perl perl-common-sense so:libc.musl-armhf.so.1
+origin	perl-linux-inotify2
+repo	community
+file	perl-linux-inotify2-2.3-r4.apk
+checksum	Q151mfIoXzPS36hUFL0Niuy+8fk0k=
+dep	perl	perl
+dep	perl-common-sense	perl-common-sense
+dep	so:libc.musl-armhf.so.1	musl

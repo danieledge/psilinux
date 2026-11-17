@@ -1,0 +1,15 @@
+name	pgtcl
+version	3.1.1-r0
+description	Tcl client side interface to PostgreSQL (libpgtcl)
+url	https://flightaware.github.io/Pgtcl/
+license	BSD-3-Clause
+size	37286
+installed-size	83940
+depends	tcl so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	pgtcl
+repo	main
+file	pgtcl-3.1.1-r0.apk
+checksum	Q1m00zH05L/QajqoqwOOjVfOcoZJc=
+dep	tcl	tcl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

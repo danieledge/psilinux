@@ -1,0 +1,15 @@
+name	ocaml-angstrom-dev
+version	0.16.0-r3
+description	Parser combinators built for speed and memory-efficiency (development files)
+url	https://github.com/inhabitedtype/angstrom
+license	BSD-3-Clause
+size	348374
+installed-size	927562
+depends	ocaml-angstrom=0.16.0-r3 ocaml-bigstringaf-dev ocaml-lwt-dev
+origin	ocaml-angstrom
+repo	community
+file	ocaml-angstrom-dev-0.16.0-r3.apk
+checksum	Q1pdh4mgSRv+/1FxAxsI7gAfWtJaw=
+dep	ocaml-angstrom=0.16.0-r3	ocaml-angstrom
+dep	ocaml-bigstringaf-dev	ocaml-bigstringaf-dev
+dep	ocaml-lwt-dev	ocaml-lwt-dev

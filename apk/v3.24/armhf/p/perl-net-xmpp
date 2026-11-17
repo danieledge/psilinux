@@ -1,0 +1,15 @@
+name	perl-net-xmpp
+version	1.05-r1
+description	XMPP Support Library
+url	https://metacpan.org/release/Net-XMPP/
+license	LGPL-2.1-or-later
+size	58453
+installed-size	299811
+depends	perl perl-authen-sasl perl-xml-stream
+origin	perl-net-xmpp
+repo	community
+file	perl-net-xmpp-1.05-r1.apk
+checksum	Q1l1e2egmh13HT5K6xU+KribS8viY=
+dep	perl	perl
+dep	perl-authen-sasl	perl-authen-sasl
+dep	perl-xml-stream	perl-xml-stream

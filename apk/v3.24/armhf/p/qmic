@@ -1,0 +1,13 @@
+name	qmic
+version	1.0-r1
+description	QMI IDL compiler
+url	https://github.com/andersson/qmic
+license	BSD-3-Clause
+size	10820
+installed-size	25880
+depends	so:libc.musl-armhf.so.1
+origin	qmic
+repo	community
+file	qmic-1.0-r1.apk
+checksum	Q1/L/5VDfoUwUHCJ0PeHBXAI5xJQQ=
+dep	so:libc.musl-armhf.so.1	musl

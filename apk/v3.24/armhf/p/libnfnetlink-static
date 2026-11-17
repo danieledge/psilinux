@@ -1,0 +1,13 @@
+name	libnfnetlink-static
+version	1.0.2-r3
+description	low-level library for netfilter related kernel/userspace communication (static library)
+url	https://www.netfilter.org/projects/libnfnetlink/
+license	GPL-2.0-only
+size	14118
+installed-size	31594
+depends	libnfnetlink-dev
+origin	libnfnetlink
+repo	main
+file	libnfnetlink-static-1.0.2-r3.apk
+checksum	Q1igXzYv3GMWB3OGKc4axy2Hx25ho=
+dep	libnfnetlink-dev	libnfnetlink-dev

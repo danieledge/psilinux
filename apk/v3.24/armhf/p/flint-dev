@@ -1,0 +1,16 @@
+name	flint-dev
+version	3.4.0-r1
+description	C library in support of computations in number theory (development files)
+url	https://flintlib.org/
+license	LGPL-2.1-or-later
+size	323485
+installed-size	2277459
+depends	flint=3.4.0-r1 pc:gmp>=6.2.1 pc:mpfr>=4.1.0 pkgconfig
+origin	flint
+repo	community
+file	flint-dev-3.4.0-r1.apk
+checksum	Q19lgawuvtMee2JSTAKJGKm72WueA=
+dep	flint=3.4.0-r1	flint
+dep	pc:gmp>=6.2.1	gmp-dev
+dep	pc:mpfr>=4.1.0	mpfr-dev
+dep	pkgconfig	pkgconf

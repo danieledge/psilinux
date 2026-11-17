@@ -1,0 +1,19 @@
+name	mednafen
+version	1.32.1-r1
+description	A command-line multi-system emulator
+url	https://mednafen.github.io/
+license	GPL-2.0-only
+size	3858083
+installed-size	11327652
+depends	so:libFLAC.so.12 so:libSDL2-2.0.so.0 so:libasound.so.2 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1
+origin	mednafen
+repo	community
+file	mednafen-1.32.1-r1.apk
+checksum	Q1clKu+pHyFNMgJeiKAqtT+kRNOeU=
+dep	so:libFLAC.so.12	libflac
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

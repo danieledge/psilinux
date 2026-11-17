@@ -1,0 +1,17 @@
+name	libmtp-dev
+version	1.1.22-r1
+description	Software library for MTP media players (development files)
+url	https://libmtp.sourceforge.net/
+license	LGPL-2.0-or-later
+size	205526
+installed-size	553930
+depends	libgcrypt-dev libusb-dev libmtp=1.1.22-r1 pc:libusb-1.0 pkgconfig
+origin	libmtp
+repo	community
+file	libmtp-dev-1.1.22-r1.apk
+checksum	Q1DS2QpC3atiXvAvmgockXH1N66D0=
+dep	libgcrypt-dev	libgcrypt-dev
+dep	libusb-dev	libusb-dev
+dep	libmtp=1.1.22-r1	libmtp
+dep	pc:libusb-1.0	libusb-dev
+dep	pkgconfig	pkgconf

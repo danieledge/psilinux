@@ -1,0 +1,14 @@
+name	nyx
+version	2.1.0-r6
+description	Terminal status monitor for Tor
+url	https://nyx.torproject.org/
+license	LGPL-3.0-or-later
+size	76030
+installed-size	265305
+depends	py3-stem python3~3.14
+origin	nyx
+repo	community
+file	nyx-2.1.0-r6.apk
+checksum	Q1sGafCakgmbSVrDZdDuAWHLOCFiU=
+dep	py3-stem	py3-stem
+dep	python3~3.14	python3

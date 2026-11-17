@@ -1,0 +1,13 @@
+name	libpipeline
+version	1.5.8-r1
+description	C pipeline manipulation library
+url	https://libpipeline.gitlab.io/libpipeline/
+license	GPL-3.0-or-later
+size	24969
+installed-size	50404
+depends	so:libc.musl-armhf.so.1
+origin	libpipeline
+repo	community
+file	libpipeline-1.5.8-r1.apk
+checksum	Q1LuCAv7Ms4y+ye6lg0lYZdZZtxFI=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	gitlab-release-cli
+version	0.24.0-r12
+description	GitLab Release command-line tool
+url	https://gitlab.com/gitlab-org/release-cli
+license	MIT
+size	3755559
+installed-size	9390940
+depends	so:libc.musl-armhf.so.1
+origin	gitlab-release-cli
+repo	community
+file	gitlab-release-cli-0.24.0-r12.apk
+checksum	Q1p65c5/5wxXXyTwDMKQNQWBF3RfM=
+dep	so:libc.musl-armhf.so.1	musl

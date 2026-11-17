@@ -1,0 +1,14 @@
+name	libdatrie-dev
+version	0.2.14-r1
+description	Double-array trie library (development files)
+url	https://github.com/tlwg/libdatrie
+license	LGPL-2.1-or-later
+size	17934
+installed-size	50361
+depends	libdatrie-libs=0.2.14-r1 pkgconfig
+origin	libdatrie
+repo	community
+file	libdatrie-dev-0.2.14-r1.apk
+checksum	Q14v1L/WYYL4CZyyLSIkQikPVeQqM=
+dep	libdatrie-libs=0.2.14-r1	libdatrie-libs
+dep	pkgconfig	pkgconf

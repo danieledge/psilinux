@@ -1,0 +1,13 @@
+name	sbc-utils
+version	2.1-r0
+description	Bluetooth Subband Codec (SBC) library (utilities)
+url	https://www.bluez.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	40400
+installed-size	77676
+depends	so:libc.musl-armhf.so.1
+origin	sbc
+repo	community
+file	sbc-utils-2.1-r0.apk
+checksum	Q1h3/orzTOfCO++pnHZI2g6vklORw=
+dep	so:libc.musl-armhf.so.1	musl

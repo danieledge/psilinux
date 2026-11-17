@@ -1,0 +1,28 @@
+name	pavucontrol
+version	6.2-r0
+description	Pulseaudio Volume Control, GTK based mixer for Pulseaudio
+url	https://www.freedesktop.org/software/pulseaudio/pavucontrol/
+license	GPL-2.0-or-later
+size	103717
+installed-size	291277
+depends	so:libc.musl-armhf.so.1 so:libcanberra.so.0 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libgiomm-2.68.so.1 so:libglib-2.0.so.0 so:libglibmm-2.68.so.1 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libgtkmm-4.0.so.0 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libpulse-mainloop-glib.so.0 so:libpulse.so.0 so:libsigc-3.0.so.0 so:libstdc++.so.6
+origin	pavucontrol
+repo	community
+file	pavucontrol-6.2-r0.apk
+checksum	Q1NM5lCpU7jcOYWpqK7FdvvH0+Fuk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcanberra.so.0	libcanberra
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libgiomm-2.68.so.1	glibmm
+dep	so:libglib-2.0.so.0	glib
+dep	so:libglibmm-2.68.so.1	glibmm
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libgtkmm-4.0.so.0	gtkmm4
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libpulse-mainloop-glib.so.0	libpulse-mainloop-glib
+dep	so:libpulse.so.0	libpulse
+dep	so:libsigc-3.0.so.0	libsigc++3
+dep	so:libstdc++.so.6	libstdc++

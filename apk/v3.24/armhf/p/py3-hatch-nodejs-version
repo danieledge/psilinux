@@ -1,0 +1,14 @@
+name	py3-hatch-nodejs-version
+version	0.4.0-r2
+description	Hatch plugin for versioning from a Node.js package.json
+url	https://github.com/agoose77/hatch-nodejs-version
+license	MIT
+size	8746
+installed-size	23094
+depends	py3-hatchling python3~3.14
+origin	py3-hatch-nodejs-version
+repo	community
+file	py3-hatch-nodejs-version-0.4.0-r2.apk
+checksum	Q1trFxdGfbM9ZFpGnhgIKIjTRYyVM=
+dep	py3-hatchling	py3-hatchling
+dep	python3~3.14	python3

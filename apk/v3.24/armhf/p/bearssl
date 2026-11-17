@@ -1,0 +1,14 @@
+name	bearssl
+version	0.6_git20260508-r0
+description	The BearSSL implementation of the SSL/TLS protocol
+url	https://bearssl.org/
+license	MIT
+size	42320
+installed-size	95456
+depends	so:libbearssl.so.0 so:libc.musl-armhf.so.1
+origin	bearssl
+repo	main
+file	bearssl-0.6_git20260508-r0.apk
+checksum	Q1f42hMnJEjcOyqkCoQv6lbTUHMBA=
+dep	so:libbearssl.so.0	bearssl-libs
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,38 @@
+name	grommunio-gromox
+version	3.6-r0
+description	Open Source Groupware Solution
+url	https://grommunio.com/
+license	AGPL-3.0-or-later
+size	2971065
+installed-size	8344544
+depends	grommunio-common php84 php84-fpm postfix valkey /bin/sh so:libHX.so.43 so:libc.musl-armhf.so.1 so:libcares.so.2 so:libcrypto.so.3 so:libcurl.so.4 so:libfmt.so.11 so:libgcc_s.so.1 so:libgssapi_krb5.so.2 so:libjsoncpp.so.26 so:libldap.so.2 so:libmariadb.so.3 so:libpam.so.0 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libtinyxml2.so.11 so:libwmime.so.2 so:libxml2.so.2 so:libz.so.1 so:libzstd.so.1
+origin	grommunio-gromox
+repo	community
+file	grommunio-gromox-3.6-r0.apk
+checksum	Q1B/Jmw3izfg5x6+NEWhHkjHgUgTY=
+dep	grommunio-common	grommunio-common
+dep	php84	php84
+dep	php84-fpm	php84-fpm
+dep	postfix	postfix
+dep	valkey	valkey
+dep	/bin/sh	busybox-binsh
+dep	so:libHX.so.43	libhx
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcares.so.2	c-ares
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libfmt.so.11	fmt
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgssapi_krb5.so.2	krb5-libs
+dep	so:libjsoncpp.so.26	jsoncpp
+dep	so:libldap.so.2	libldap
+dep	so:libmariadb.so.3	mariadb-connector-c
+dep	so:libpam.so.0	linux-pam
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtinyxml2.so.11	tinyxml2
+dep	so:libwmime.so.2	libwmime
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

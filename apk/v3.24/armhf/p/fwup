@@ -1,0 +1,15 @@
+name	fwup
+version	1.15.0-r0
+description	Configurable embedded Linux firmware update creator and runner
+url	https://github.com/fwup-home/fwup
+license	Apache-2.0
+size	117609
+installed-size	253951
+depends	so:libarchive.so.13 so:libc.musl-armhf.so.1 so:libconfuse.so.2
+origin	fwup
+repo	community
+file	fwup-1.15.0-r0.apk
+checksum	Q15de4RbwuFZ6ZneCEnL5QCbfIn+A=
+dep	so:libarchive.so.13	libarchive
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libconfuse.so.2	confuse

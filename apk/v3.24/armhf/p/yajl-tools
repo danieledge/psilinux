@@ -1,0 +1,13 @@
+name	yajl-tools
+version	2.1.0-r9
+description	JSON tools based on Yajl
+url	https://lloyd.github.io/yajl/
+license	MIT
+size	14677
+installed-size	47492
+depends	so:libc.musl-armhf.so.1
+origin	yajl
+repo	main
+file	yajl-tools-2.1.0-r9.apk
+checksum	Q1thOMK4cBSQTLZSAca6sQ1w5rur8=
+dep	so:libc.musl-armhf.so.1	musl

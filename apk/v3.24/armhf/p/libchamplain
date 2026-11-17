@@ -1,0 +1,28 @@
+name	libchamplain
+version	0.12.21-r3
+description	libchamplain is a C library providing a ClutterActor to display maps
+url	https://gitlab.gnome.org/GNOME/libchamplain
+license	LGPL-2.0-or-later
+size	103353
+installed-size	283684
+depends	so:libc.musl-armhf.so.1 so:libcairo-gobject.so.2 so:libcairo.so.2 so:libclutter-1.0.so.0 so:libclutter-gtk-1.0.so.0 so:libcogl-path.so.20 so:libcogl.so.20 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libpango-1.0.so.0 so:libsoup-3.0.so.0 so:libsqlite3.so.0
+origin	libchamplain
+repo	community
+file	libchamplain-0.12.21-r3.apk
+checksum	Q1peGN5TG7iA8U3CFkR9RAgwDNI2A=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo-gobject.so.2	cairo-gobject
+dep	so:libcairo.so.2	cairo
+dep	so:libclutter-1.0.so.0	clutter
+dep	so:libclutter-gtk-1.0.so.0	clutter-gtk
+dep	so:libcogl-path.so.20	cogl
+dep	so:libcogl.so.20	cogl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libpango-1.0.so.0	pango
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libsqlite3.so.0	sqlite-libs

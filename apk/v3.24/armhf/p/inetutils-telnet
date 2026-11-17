@@ -1,0 +1,15 @@
+name	inetutils-telnet
+version	2.8-r0
+description	Telnet client from GNU network utilities
+url	https://www.gnu.org/software/inetutils
+license	GPL-3.0-or-later
+size	58222
+installed-size	116284
+depends	ncurses so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	inetutils-telnet
+repo	community
+file	inetutils-telnet-2.8-r0.apk
+checksum	Q1U4tfmgeWE8Uk0JF4oKbGR5C5dQs=
+dep	ncurses	ncurses
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

@@ -1,0 +1,14 @@
+name	texmf-dist-langeuropean-examples
+version	2026.0-r0
+description	texmf-dist: Other European languages (examples and documentation)
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	16097812
+installed-size	19251496
+depends	texmf-dist-langeuropean texmf-dist-langeuropean-doc
+origin	texmf-dist
+repo	community
+file	texmf-dist-langeuropean-examples-2026.0-r0.apk
+checksum	Q1N5lG7jSryVHgCLISG37giEEXaB0=
+dep	texmf-dist-langeuropean	texmf-dist-langeuropean
+dep	texmf-dist-langeuropean-doc	texmf-dist-langeuropean-doc

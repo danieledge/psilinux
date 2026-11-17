@@ -1,0 +1,13 @@
+name	guvcview-dev
+version	2.2.1-r3
+description	Webcam viewer (development files)
+url	https://guvcview.sourceforge.net/
+license	GPL-2.0-or-later
+size	1742
+installed-size	1
+depends	guvcview-libs=2.2.1-r3
+origin	guvcview
+repo	community
+file	guvcview-dev-2.2.1-r3.apk
+checksum	Q1oTPcLCpO+mouO+9Fdkjcvk3ud00=
+dep	guvcview-libs=2.2.1-r3	guvcview-libs

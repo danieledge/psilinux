@@ -1,0 +1,13 @@
+name	fstrcmp-static
+version	0.7-r4
+description	Make fuzzy comparisons of strings and byte arrays (static library)
+url	https://fstrcmp.sourceforge.net/
+license	GPL-3.0-or-later
+size	6603
+installed-size	27408
+depends	fstrcmp-dev
+origin	fstrcmp
+repo	community
+file	fstrcmp-static-0.7-r4.apk
+checksum	Q1i1h3y/EKmhY5A+R5SGDG5w/dxEM=
+dep	fstrcmp-dev	fstrcmp-dev

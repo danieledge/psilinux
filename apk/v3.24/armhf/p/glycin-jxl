@@ -1,0 +1,17 @@
+name	glycin-jxl
+version	2.1.5-r0
+description	Sandboxed and extendable image decoding (glycin-jxl loader)
+url	https://gitlab.gnome.org/GNOME/glycin
+license	MPL-2.0 OR LGPL-2.0-or-later
+size	778181
+installed-size	1766280
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libjxl.so.0.11 so:libjxl_threads.so.0.11 so:libseccomp.so.2
+origin	glycin
+repo	community
+file	glycin-jxl-2.1.5-r0.apk
+checksum	Q1wEBMNVPfCtMlCGWvsRx2FclSEBw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjxl.so.0.11	libjxl
+dep	so:libjxl_threads.so.0.11	libjxl
+dep	so:libseccomp.so.2	libseccomp

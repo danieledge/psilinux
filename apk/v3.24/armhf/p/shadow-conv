@@ -1,0 +1,14 @@
+name	shadow-conv
+version	4.18.0-r1
+description	Utilities for converting to and from shadow passwords and groups
+url	https://github.com/shadow-maint/shadow
+license	BSD-3-Clause
+size	61667
+installed-size	156340
+depends	so:libbsd.so.0 so:libc.musl-armhf.so.1
+origin	shadow
+repo	community
+file	shadow-conv-4.18.0-r1.apk
+checksum	Q14+ySv0IDGlyCXvnwIzQMg8Zv/HI=
+dep	so:libbsd.so.0	libbsd
+dep	so:libc.musl-armhf.so.1	musl

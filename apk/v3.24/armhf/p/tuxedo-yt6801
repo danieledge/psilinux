@@ -1,0 +1,14 @@
+name	tuxedo-yt6801
+version	1.0.31-r0
+description	third-party driver for YT6801 gigabit ethernet NICs
+url	https://gitlab.com/tuxedocomputers/development/packages/tuxedo-yt6801
+license	GPL-2.0-or-later
+size	135046
+installed-size	739815
+depends	akms /bin/sh
+origin	tuxedo-yt6801
+repo	community
+file	tuxedo-yt6801-1.0.31-r0.apk
+checksum	Q1K9bNmdxipu7GeLOalUVaz9PGsp8=
+dep	akms	akms
+dep	/bin/sh	busybox-binsh

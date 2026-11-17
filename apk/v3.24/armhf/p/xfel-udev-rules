@@ -1,0 +1,13 @@
+name	xfel-udev-rules
+version	1.3.5-r0
+description	udev rules for xfel
+url	https://github.com/xboot/xfel
+license	MIT
+size	1807
+installed-size	352
+depends	libusb-dev
+origin	xfel
+repo	community
+file	xfel-udev-rules-1.3.5-r0.apk
+checksum	Q1skyu9KGW7nza0X4bdQp7FWkBN0o=
+dep	libusb-dev	libusb-dev

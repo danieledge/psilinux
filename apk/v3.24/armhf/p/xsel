@@ -1,0 +1,14 @@
+name	xsel
+version	1.2.1-r0
+description	Command-line program for manipulating the X selection
+url	http://www.vergenet.net/~conrad/software/xsel
+license	MIT
+size	14923
+installed-size	29868
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1
+origin	xsel
+repo	community
+file	xsel-1.2.1-r0.apk
+checksum	Q1GIS7Ea3gGZhvVrmgCGI3SeW03Vk=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl

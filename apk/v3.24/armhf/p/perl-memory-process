@@ -1,0 +1,15 @@
+name	perl-memory-process
+version	0.06-r4
+description	Determine actual memory usage of a Perl program
+url	https://metacpan.org/release/Memory-Process/
+license	BSD-2-Clause
+size	3208
+installed-size	4357
+depends	perl perl-memory-usage perl-readonly
+origin	perl-memory-process
+repo	community
+file	perl-memory-process-0.06-r4.apk
+checksum	Q1YKrsR9mwdN5duV1Oc6y9I05iqlE=
+dep	perl	perl
+dep	perl-memory-usage	perl-memory-usage
+dep	perl-readonly	perl-readonly

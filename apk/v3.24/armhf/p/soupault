@@ -1,0 +1,13 @@
+name	soupault
+version	5.1.0-r1
+description	Static website generator based on HTML element tree rewriting
+url	https://soupault.app/
+license	MIT
+size	1376012
+installed-size	7111596
+depends	so:libc.musl-armhf.so.1
+origin	soupault
+repo	community
+file	soupault-5.1.0-r1.apk
+checksum	Q1SL0HMgR4gOXmZKIS50l4XXB966Y=
+dep	so:libc.musl-armhf.so.1	musl

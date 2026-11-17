@@ -1,0 +1,16 @@
+name	perl-dbd-mysql
+version	4.055-r0
+description	Perl CPAN DBD::Mysql module
+url	https://metacpan.org/dist/DBD-mysql
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	80172
+installed-size	216829
+depends	perl perl-dbi so:libc.musl-armhf.so.1 so:libmariadb.so.3
+origin	perl-dbd-mysql
+repo	main
+file	perl-dbd-mysql-4.055-r0.apk
+checksum	Q179ONRahq1DsdmtHdQmJDidFPQcA=
+dep	perl	perl
+dep	perl-dbi	perl-dbi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmariadb.so.3	mariadb-connector-c

@@ -1,0 +1,17 @@
+name	glslang-libs
+version	1.4.341.0-r0
+description	Khronos reference front-end for GLSL, ESSL, and sample SPIR-V generator (libraries)
+url	https://github.com/KhronosGroup/glslang
+license	BSD-3-Clause AND BSD-2-Clause AND MIT AND Apache-2.0 AND GPL-3.0-or-later
+size	777294
+installed-size	2095680
+depends	so:libSPIRV-Tools-opt.so so:libSPIRV-Tools.so so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	glslang
+repo	main
+file	glslang-libs-1.4.341.0-r0.apk
+checksum	Q14Uu1X2jtkPigx5IxuwsNXyCFuCc=
+dep	so:libSPIRV-Tools-opt.so	spirv-tools
+dep	so:libSPIRV-Tools.so	spirv-tools
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

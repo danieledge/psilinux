@@ -1,0 +1,15 @@
+name	openldap-overlay-rwm
+version	2.6.15-r0
+description	OpenLDAP rwm overlay
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	24962
+installed-size	51946
+depends	so:libc.musl-armhf.so.1 so:liblber.so.2 so:libldap.so.2
+origin	openldap
+repo	main
+file	openldap-overlay-rwm-2.6.15-r0.apk
+checksum	Q1F1tLQnOrhmRoUx9IywNcjP5FsAg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap

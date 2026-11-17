@@ -1,0 +1,14 @@
+name	py3-gobject3-atspi
+version	2.60.5-r0
+description	PyGObject overrides for AT-SPI (GObject Introspection)
+url	https://www.freedesktop.org/wiki/Accessibility/AT-SPI2/
+license	LGPL-2.1-or-later
+size	2655
+installed-size	1957
+depends	at-spi2-core=2.60.5-r0 python3~3.14
+origin	at-spi2-core
+repo	main
+file	py3-gobject3-atspi-2.60.5-r0.apk
+checksum	Q1g0sZizqJPdBRJ+t4LRBVK6S52AM=
+dep	at-spi2-core=2.60.5-r0	at-spi2-core
+dep	python3~3.14	python3

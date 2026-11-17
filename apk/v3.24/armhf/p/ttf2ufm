@@ -1,0 +1,13 @@
+name	ttf2ufm
+version	3.4.4-r0
+description	A True Type to PostScript Type 1 Converter
+url	https://acko.net/blog/ufpdf-unicode-utf-8-extension-for-fpdf/
+license	MIT
+size	82154
+installed-size	159080
+depends	so:libc.musl-armhf.so.1
+origin	ttf2ufm
+repo	community
+file	ttf2ufm-3.4.4-r0.apk
+checksum	Q13WynfmfgdINaYkfWFHE0LS13Nnc=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	qrcodegen
+version	1.8.0-r0
+description	High-quality QR Code generator library
+url	https://www.nayuki.io/page/qr-code-generator-library
+license	MIT
+size	11778
+installed-size	21624
+depends	so:libc.musl-armhf.so.1
+origin	qrcodegen
+repo	community
+file	qrcodegen-1.8.0-r0.apk
+checksum	Q1sO4NE/OAvoU9i77W2b1CFNQcHSU=
+dep	so:libc.musl-armhf.so.1	musl

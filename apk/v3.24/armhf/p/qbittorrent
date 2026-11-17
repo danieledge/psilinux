@@ -1,0 +1,26 @@
+name	qbittorrent
+version	5.2.1-r0
+description	qBittorrent client
+url	https://www.qbittorrent.org/
+license	GPL-2.0-or-later
+size	9540220
+installed-size	12928722
+depends	qt6-qtsvg so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6Sql.so.6 so:libQt6Widgets.so.6 so:libQt6Xml.so.6 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libstdc++.so.6 so:libtorrent-rasterbar.so.2.0 so:libz.so.1
+origin	qbittorrent
+repo	community
+file	qbittorrent-5.2.1-r0.apk
+checksum	Q1Z8jf+3hIQE4JkIdOQCGyicKDxZk=
+dep	qt6-qtsvg	qt6-qtsvg
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6DBus.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6Sql.so.6	qt6-qtbase
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libQt6Xml.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtorrent-rasterbar.so.2.0	libtorrent-rasterbar
+dep	so:libz.so.1	zlib

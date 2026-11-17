@@ -1,0 +1,19 @@
+name	duperemove
+version	0.15.2-r0
+description	Tools for deduping file systems
+url	https://github.com/markfasheh/duperemove
+license	GPL-2.0-only
+size	195735
+installed-size	407968
+depends	cmd:lscpu so:libblkid.so.1 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libmount.so.1 so:libsqlite3.so.0 so:libuuid.so.1
+origin	duperemove
+repo	community
+file	duperemove-0.15.2-r0.apk
+checksum	Q1MK6lUoAEq4uzS9RcJryYwX1g8bg=
+dep	cmd:lscpu	lscpu
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libmount.so.1	libmount
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libuuid.so.1	libuuid

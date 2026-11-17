@@ -1,0 +1,17 @@
+name	exempi-libs
+version	2.6.6-r0
+description	Library to parse XMP metadata (libraries)
+url	https://wiki.freedesktop.org/libopenraw/Exempi/
+license	BSD-3-Clause
+size	578654
+installed-size	1309920
+depends	so:libc.musl-armhf.so.1 so:libexpat.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1
+origin	exempi
+repo	community
+file	exempi-libs-2.6.6-r0.apk
+checksum	Q1aSx97+Fs4biKy4JJXXqG+DIbQZ8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexpat.so.1	libexpat
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

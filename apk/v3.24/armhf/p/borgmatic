@@ -1,0 +1,19 @@
+name	borgmatic
+version	2.1.4-r0
+description	Simple, configuration-driven backup software for servers and workstations
+url	https://torsion.org/borgmatic/
+license	GPL-3.0-or-later
+size	193643
+installed-size	914711
+depends	borgbackup py3-colorama py3-jsonschema py3-packaging py3-requests py3-ruamel.yaml python3~3.14
+origin	borgmatic
+repo	community
+file	borgmatic-2.1.4-r0.apk
+checksum	Q1pxCmzJjdldtVM2UFSUnyI8WLG+k=
+dep	borgbackup	borgbackup
+dep	py3-colorama	py3-colorama
+dep	py3-jsonschema	py3-jsonschema
+dep	py3-packaging	py3-packaging
+dep	py3-requests	py3-requests
+dep	py3-ruamel.yaml	py3-ruamel.yaml
+dep	python3~3.14	python3

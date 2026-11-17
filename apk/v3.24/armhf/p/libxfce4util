@@ -1,0 +1,17 @@
+name	libxfce4util
+version	4.20.1-r0
+description	Basic utility non-GUI functions for Xfce
+url	https://xfce.org/
+license	GPL-2.0-only
+size	35941
+installed-size	83588
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8
+origin	libxfce4util
+repo	community
+file	libxfce4util-4.20.1-r0.apk
+checksum	Q1RiR14CnnCS8HwttI4XpXiio1mh8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl

@@ -1,0 +1,15 @@
+name	incron
+version	0.5.12-r0
+description	Inotify cron system
+url	https://github.com/ar-/incron
+license	GPL-2.0
+size	79010
+installed-size	172953
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	incron
+repo	community
+file	incron-0.5.12-r0.apk
+checksum	Q1dTKugdo9uxqN3510WTxgqqoNly4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

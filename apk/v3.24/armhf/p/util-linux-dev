@@ -1,0 +1,20 @@
+name	util-linux-dev
+version	2.42.3-r1
+description	Random collection of Linux utilities (development files)
+url	https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+license	GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
+size	28188
+installed-size	121504
+depends	libblkid=2.42.3-r1 libfdisk=2.42.3-r1 liblastlog2=2.42.3-r1 libmount=2.42.3-r1 libsmartcols=2.42.3-r1 libuuid=2.42.3-r1 pc:sqlite3 pkgconfig
+origin	util-linux
+repo	main
+file	util-linux-dev-2.42.3-r1.apk
+checksum	Q1n/sOQGY008mcPh0nsmRXhqwpN0k=
+dep	libblkid=2.42.3-r1	libblkid
+dep	libfdisk=2.42.3-r1	libfdisk
+dep	liblastlog2=2.42.3-r1	liblastlog2
+dep	libmount=2.42.3-r1	libmount
+dep	libsmartcols=2.42.3-r1	libsmartcols
+dep	libuuid=2.42.3-r1	libuuid
+dep	pc:sqlite3	sqlite-dev
+dep	pkgconfig	pkgconf

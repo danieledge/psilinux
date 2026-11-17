@@ -1,0 +1,15 @@
+name	perl-html-tidy5
+version	1.06-r7
+description	HTML validation in a Perl object
+url	https://metacpan.org/release/HTML-Tidy5/
+license	Artistic-2.0
+size	13204
+installed-size	28878
+depends	perl so:libc.musl-armhf.so.1 so:libtidy.so.58
+origin	perl-html-tidy5
+repo	community
+file	perl-html-tidy5-1.06-r7.apk
+checksum	Q14YahWYcNIwK8G378isTxftTNzv0=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libtidy.so.58	tidyhtml-libs

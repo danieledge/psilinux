@@ -1,0 +1,14 @@
+name	gotop
+version	4.2.0-r33
+description	Terminal based graphical activity monitor
+url	https://github.com/xxxserxxx/gotop
+license	AGPL-3.0-or-later
+size	3538007
+installed-size	8805100
+depends	procps so:libc.musl-armhf.so.1
+origin	gotop
+repo	community
+file	gotop-4.2.0-r33.apk
+checksum	Q1lqorIZB1kkOIaTP6Re1NLoRO9yM=
+dep	procps	procps-ng
+dep	so:libc.musl-armhf.so.1	musl

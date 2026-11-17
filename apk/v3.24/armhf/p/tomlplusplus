@@ -1,0 +1,15 @@
+name	tomlplusplus
+version	3.4.0-r1
+description	Header-only TOML config file parser and serializer for C++17.
+url	https://marzer.github.io/tomlplusplus/
+license	MIT
+size	71586
+installed-size	177544
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	tomlplusplus
+repo	community
+file	tomlplusplus-3.4.0-r1.apk
+checksum	Q1Ul9PCfwtZBqw173LzEL4wgGlfsY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,14 @@
+name	tuc
+version	1.3.0-r0
+description	When cut doesn't cut it
+url	https://github.com/riquito/tuc
+license	GPL-3.0-or-later
+size	594880
+installed-size	1346944
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	tuc
+repo	community
+file	tuc-1.3.0-r0.apk
+checksum	Q1kwb7FVLfxDoq24xt5/C1ljER9Qk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

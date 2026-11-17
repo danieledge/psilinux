@@ -1,0 +1,17 @@
+name	openipmi-lanserv
+version	2.0.36-r1
+description	Emulates an IPMI network listener
+url	https://sourceforge.net/projects/openipmi/
+license	LGPL-2.0-or-later and GPL-2.0-or-later or BSD-3-Clause
+size	116829
+installed-size	258952
+depends	so:libOpenIPMIposix.so.0 so:libOpenIPMIutils.so.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libpopt.so.0
+origin	openipmi
+repo	community
+file	openipmi-lanserv-2.0.36-r1.apk
+checksum	Q1dlCdpcI1RLHQLMlnB27WcM+ZzV0=
+dep	so:libOpenIPMIposix.so.0	openipmi-libs
+dep	so:libOpenIPMIutils.so.0	openipmi-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libpopt.so.0	popt

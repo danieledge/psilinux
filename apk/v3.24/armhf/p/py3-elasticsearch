@@ -1,0 +1,15 @@
+name	py3-elasticsearch
+version	7.11.0-r6
+description	Official Python low-level client for Elasticsearch
+url	https://elasticsearch-py.readthedocs.io/
+license	Apache-2.0
+size	202807
+installed-size	1697187
+depends	python3 py3-urllib3 python3~3.14
+origin	py3-elasticsearch
+repo	main
+file	py3-elasticsearch-7.11.0-r6.apk
+checksum	Q1zd4Xsc2dik4Yg7lDH+RrOc2Djcs=
+dep	python3	python3
+dep	py3-urllib3	py3-urllib3
+dep	python3~3.14	python3

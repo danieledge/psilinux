@@ -1,0 +1,19 @@
+name	libraw-tools
+version	0.22.2-r0
+description	tools for LibRaw
+url	https://www.libraw.org/
+license	CDDL-1.0 OR LGPL-2.1-only
+size	43951
+installed-size	125804
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgomp.so.1 so:libjpeg.so.8 so:libraw.so.25 so:libraw_r.so.25 so:libstdc++.so.6
+origin	libraw
+repo	community
+file	libraw-tools-0.22.2-r0.apk
+checksum	Q1rJWAsFz7MADAR9EhQrPmJqxwGZU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgomp.so.1	libgomp
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libraw.so.25	libraw
+dep	so:libraw_r.so.25	libraw
+dep	so:libstdc++.so.6	libstdc++

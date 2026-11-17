@@ -1,0 +1,22 @@
+name	alsa-scarlett-gui
+version	0.5.1-r0
+description	control panel for Focusrite Scarlett audio interfaces
+url	https://github.com/geoffreybennett/alsa-scarlett-gui
+license	GPL-3.0-or-later
+size	157210
+installed-size	238574
+depends	so:libasound.so.2 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcrypto.so.3 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0
+origin	alsa-scarlett-gui
+repo	community
+file	alsa-scarlett-gui-0.5.1-r0.apk
+checksum	Q1EXutcs2JvNbOkfpd3It0H/fDj2c=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango

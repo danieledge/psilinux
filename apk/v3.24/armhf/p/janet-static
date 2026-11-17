@@ -1,0 +1,13 @@
+name	janet-static
+version	1.41.2-r0
+description	Dynamic Lisp dialect and bytecode VM (static library)
+url	https://janet-lang.org/
+license	MIT
+size	1957194
+installed-size	2153092
+depends	janet-dev
+origin	janet
+repo	community
+file	janet-static-1.41.2-r0.apk
+checksum	Q1EnPRsnrGJjOrfTAXiSL2zRWQzaM=
+dep	janet-dev	janet-dev

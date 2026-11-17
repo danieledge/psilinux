@@ -1,0 +1,17 @@
+name	wpan-tools
+version	0.10-r0
+description	Configure and test 802.15.4 devices
+url	https://linux-wpan.org/
+license	ISC
+size	26568
+installed-size	63400
+depends	libnl3-dev linux-headers so:libc.musl-armhf.so.1 so:libnl-3.so.200 so:libnl-genl-3.so.200
+origin	wpan-tools
+repo	community
+file	wpan-tools-0.10-r0.apk
+checksum	Q1Kddub/u7QdDQbQkAzCefe6gpEF8=
+dep	libnl3-dev	libnl3-dev
+dep	linux-headers	linux-headers
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnl-3.so.200	libnl3
+dep	so:libnl-genl-3.so.200	libnl3

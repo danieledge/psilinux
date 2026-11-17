@@ -1,0 +1,18 @@
+name	pdfgrep
+version	2.2.0-r1
+description	Commandline utility to search text in PDF files
+url	https://pdfgrep.org/
+license	GPL-2.0-or-later
+size	29135
+installed-size	59352
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgcrypt.so.20 so:libpcre2-8.so.0 so:libpoppler-cpp.so.2 so:libstdc++.so.6
+origin	pdfgrep
+repo	community
+file	pdfgrep-2.2.0-r1.apk
+checksum	Q1M91s25YGRc305DSdSmfaDb7dLtA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libpoppler-cpp.so.2	poppler
+dep	so:libstdc++.so.6	libstdc++

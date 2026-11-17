@@ -1,0 +1,16 @@
+name	guacamole-server
+version	1.6.0-r3
+description	Server-side native components that form Guacamole proxy
+url	https://guacamole.apache.org/
+license	GPL-3.0-or-later
+size	18430
+installed-size	40194
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libguac.so.25 so:libssl.so.3
+origin	guacamole-server
+repo	community
+file	guacamole-server-1.6.0-r3.apk
+checksum	Q1kuWOChdQx/UgvslbM7b+DUdBurQ=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libguac.so.25	guacamole-server-libs
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,15 @@
+name	libcoap
+version	4.3.5b-r0
+description	A CoAP (RFC 7252) implementation
+url	https://libcoap.net/
+license	BSD-2-Clause
+size	210828
+installed-size	453647
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	libcoap
+repo	community
+file	libcoap-4.3.5b-r0.apk
+checksum	Q16dvzweyeLx5nufWacFX/xPmWQrQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

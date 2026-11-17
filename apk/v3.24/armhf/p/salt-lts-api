@@ -1,0 +1,14 @@
+name	salt-lts-api
+version	3006.23-r1
+description	REST API for Salt, a parallel remote execution system
+url	https://github.com/saltstack/salt
+license	Apache-2.0
+size	2052
+installed-size	957
+depends	salt-lts-master py3-cherrypy
+origin	salt-lts
+repo	community
+file	salt-lts-api-3006.23-r1.apk
+checksum	Q1hvAi1pvZdr1AqNgbCEExkt9qmMc=
+dep	salt-lts-master	salt-lts-master
+dep	py3-cherrypy	py3-cherrypy

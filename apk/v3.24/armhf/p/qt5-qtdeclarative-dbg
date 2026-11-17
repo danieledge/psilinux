@@ -1,0 +1,12 @@
+name	qt5-qtdeclarative-dbg
+version	5.15.18_git20251107-r0
+description	Qt5 - QtDeclarative component (debug symbols)
+url	https://www.qt.io/developers/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	16691132
+installed-size	50328080
+depends	!qt5-qtdeclarative-dev<5.15.18_git20251107-r0 !qt5-qtdeclarative-dev>5.15.18_git20251107-r0 !qt5-qtdeclarative<5.15.18_git20251107-r0 !qt5-qtdeclarative>5.15.18_git20251107-r0
+origin	qt5-qtdeclarative
+repo	community
+file	qt5-qtdeclarative-dbg-5.15.18_git20251107-r0.apk
+checksum	Q1T18U8vHMRpbL9py5b1crRa4chEc=

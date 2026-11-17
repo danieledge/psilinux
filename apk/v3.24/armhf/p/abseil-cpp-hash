@@ -1,0 +1,15 @@
+name	abseil-cpp-hash
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-hash
+url	https://abseil.io/
+license	Apache-2.0
+size	5148
+installed-size	9600
+depends	so:libabsl_city.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-hash-20250814.1-r0.apk
+checksum	Q1xEDAGs9ft+fiquugXzkNl78kfeI=
+dep	so:libabsl_city.so.2508.0.0	abseil-cpp-city
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

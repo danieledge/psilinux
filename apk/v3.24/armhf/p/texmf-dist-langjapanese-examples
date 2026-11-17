@@ -1,0 +1,14 @@
+name	texmf-dist-langjapanese-examples
+version	2026.0-r0
+description	texmf-dist: Japanese (examples and documentation)
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	31124260
+installed-size	35653181
+depends	texmf-dist-langjapanese texmf-dist-langjapanese-doc
+origin	texmf-dist
+repo	community
+file	texmf-dist-langjapanese-examples-2026.0-r0.apk
+checksum	Q1iI8OUFUY8HTzX6xHrdsxGA2HE+Y=
+dep	texmf-dist-langjapanese	texmf-dist-langjapanese
+dep	texmf-dist-langjapanese-doc	texmf-dist-langjapanese-doc

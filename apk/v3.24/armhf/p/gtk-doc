@@ -1,0 +1,18 @@
+name	gtk-doc
+version	1.36.0-r1
+description	Documentation tool for public library API
+url	https://gitlab.gnome.org/GNOME/gtk-doc
+license	GPL-2.0-or-later AND GFDL-1.1-or-later
+size	827181
+installed-size	3422760
+depends	docbook-xsl glib-dev pkgconf py3-pygments python3 pkgconfig
+origin	gtk-doc
+repo	main
+file	gtk-doc-1.36.0-r1.apk
+checksum	Q1KaTsSibyExn4/8AZapy0bm1YpSE=
+dep	docbook-xsl	docbook-xsl
+dep	glib-dev	glib-dev
+dep	pkgconf	pkgconf
+dep	py3-pygments	py3-pygments
+dep	python3	python3
+dep	pkgconfig	pkgconf

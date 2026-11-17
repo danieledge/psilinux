@@ -1,0 +1,15 @@
+name	perl-io-async
+version	0.805-r1
+description	Asynchronous event-driven programming
+url	https://metacpan.org/release/IO-Async/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	126293
+installed-size	455798
+depends	perl perl-future perl-struct-dumb
+origin	perl-io-async
+repo	community
+file	perl-io-async-0.805-r1.apk
+checksum	Q1DXNSP5WeLnO0FVaFA+5WASYVXVk=
+dep	perl	perl
+dep	perl-future	perl-future
+dep	perl-struct-dumb	perl-struct-dumb

@@ -1,0 +1,16 @@
+name	alsa-plugins-lavrate
+version	1.2.12-r2
+description	FFmpeg samplerate conversion plugins for alsa
+url	https://alsa-project.org/
+license	GPL-2.0-or-later LGPL-2.1-or-later
+size	5380
+installed-size	9925
+depends	so:libasound.so.2 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libswresample.so.6
+origin	alsa-plugins
+repo	community
+file	alsa-plugins-lavrate-1.2.12-r2.apk
+checksum	Q1IuHD8/ZxCFGzxSorJ/fVD6I5hN4=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libswresample.so.6	ffmpeg-libswresample

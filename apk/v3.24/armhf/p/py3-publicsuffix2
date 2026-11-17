@@ -1,0 +1,15 @@
+name	py3-publicsuffix2
+version	2.20191221-r7
+description	Python library to deal with publicsuffix data
+url	https://github.com/nexB/python-publicsuffix2
+license	MIT AND MPL-2.0
+size	83016
+installed-size	248658
+depends	python3 py3-requests python3~3.14
+origin	py3-publicsuffix2
+repo	community
+file	py3-publicsuffix2-2.20191221-r7.apk
+checksum	Q1PdVeqLMs9jhheCwjk2cw8jP1LHk=
+dep	python3	python3
+dep	py3-requests	py3-requests
+dep	python3~3.14	python3

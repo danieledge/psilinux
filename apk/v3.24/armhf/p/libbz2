@@ -1,0 +1,13 @@
+name	libbz2
+version	1.0.8-r6
+description	Shared library for bz2
+url	https://sourceware.org/bzip2/
+license	bzip2-1.0.6
+size	31859
+installed-size	65708
+depends	so:libc.musl-armhf.so.1
+origin	bzip2
+repo	main
+file	libbz2-1.0.8-r6.apk
+checksum	Q1g/aOliStTar57FSEKXrQz65wVNI=
+dep	so:libc.musl-armhf.so.1	musl

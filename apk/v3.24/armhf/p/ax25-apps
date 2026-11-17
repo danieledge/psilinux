@@ -1,0 +1,15 @@
+name	ax25-apps
+version	2.0.0-r0
+description	programs for the amateur radio (hamradio) protocol AX.25
+url	https://github.com/ve7fet/linuxax25
+license	GPL-2.0-or-later
+size	85183
+installed-size	180432
+depends	so:libax25.so.1 so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	ax25-apps
+repo	community
+file	ax25-apps-2.0.0-r0.apk
+checksum	Q1Ap6b70yKqVciJVADHsA9L0aPIds=
+dep	so:libax25.so.1	libax25
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

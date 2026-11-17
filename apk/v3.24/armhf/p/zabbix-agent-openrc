@@ -1,0 +1,13 @@
+name	zabbix-agent-openrc
+version	7.4.12-r2
+description	Zabbix Network Monitoring Agent (OpenRC init scripts)
+url	https://www.zabbix.com/
+license	AGPL-3.0-only
+size	1703
+installed-size	190
+depends	openrc
+origin	zabbix
+repo	community
+file	zabbix-agent-openrc-7.4.12-r2.apk
+checksum	Q1tn3pcHhzFzBjSZlqGUlR4YyVOrY=
+dep	openrc	openrc

@@ -1,0 +1,14 @@
+name	mynewt-newt
+version	1.14.0-r2
+description	Apache Newt is a smart build and package management tool for Apache Mynewt Operating System
+url	https://mynewt.apache.org
+license	Apache-2.0
+size	3246661
+installed-size	8255908
+depends	git so:libc.musl-armhf.so.1
+origin	mynewt-newt
+repo	community
+file	mynewt-newt-1.14.0-r2.apk
+checksum	Q1a4vlQF1GPh+uIYq9T6v9UYfROHs=
+dep	git	git
+dep	so:libc.musl-armhf.so.1	musl

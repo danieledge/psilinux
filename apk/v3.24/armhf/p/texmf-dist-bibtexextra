@@ -1,0 +1,14 @@
+name	texmf-dist-bibtexextra
+version	2026.0-r0
+description	texmf-dist: BibTeX additional styles
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	16783290
+installed-size	61944896
+depends	texmf-dist texmf-dist-latex
+origin	texmf-dist
+repo	community
+file	texmf-dist-bibtexextra-2026.0-r0.apk
+checksum	Q1edMqb9HUyLJmMsIe/q8oBRokQME=
+dep	texmf-dist	texmf-dist
+dep	texmf-dist-latex	texmf-dist-latex

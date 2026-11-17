@@ -1,0 +1,16 @@
+name	asfa
+version	0.10.0-r0
+description	Share files by uploading via SSH and generating a non-guessable link
+url	https://github.com/obreitwi/asfa
+license	MIT OR Apache-2.0
+size	720608
+installed-size	1471064
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libssh2.so.1 so:libssl.so.3
+origin	asfa
+repo	community
+file	asfa-0.10.0-r0.apk
+checksum	Q1UImA0nMP3hpzr1NTZM3mnDOtx7g=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssh2.so.1	libssh2
+dep	so:libssl.so.3	libssl3

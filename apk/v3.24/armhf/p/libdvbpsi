@@ -1,0 +1,13 @@
+name	libdvbpsi
+version	1.3.3-r1
+description	A library decoding and generating MPEG TS and DVB PSI tables
+url	http://www.videolan.org/developers/libdvbpsi.html
+license	LGPL-2.1-or-later
+size	44865
+installed-size	103544
+depends	so:libc.musl-armhf.so.1
+origin	libdvbpsi
+repo	community
+file	libdvbpsi-1.3.3-r1.apk
+checksum	Q1TGr3+O2QM4X1xf6Ls1kv4gMdqoE=
+dep	so:libc.musl-armhf.so.1	musl

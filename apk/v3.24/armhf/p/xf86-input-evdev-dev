@@ -1,0 +1,13 @@
+name	xf86-input-evdev-dev
+version	2.11.0-r0
+description	X.org evdev input driver (development files)
+url	https://xorg.freedesktop.org
+license	MIT
+size	3385
+installed-size	3780
+depends	pkgconfig
+origin	xf86-input-evdev
+repo	community
+file	xf86-input-evdev-dev-2.11.0-r0.apk
+checksum	Q1WDNFB1t5xZ9Qk8vK75h1/ycemq0=
+dep	pkgconfig	pkgconf

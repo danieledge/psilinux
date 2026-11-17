@@ -1,0 +1,16 @@
+name	openjade-libs
+version	1.3.2-r9
+description	Implementation of the DSSSL style language (libraries)
+url	https://openjade.sourceforge.net/
+license	custom
+size	589650
+installed-size	2019696
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libosp.so.5 so:libstdc++.so.6
+origin	openjade
+repo	main
+file	openjade-libs-1.3.2-r9.apk
+checksum	Q1kE1JeRV4N3ram0yr13ft0kV6vX8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libosp.so.5	opensp
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,15 @@
+name	sems-g722
+version	2.1.0-r0
+description	G.722 support for SEMS
+url	https://github.com/sems-server/sems/
+license	GPL-2.0-or-later
+size	4932
+installed-size	9540
+depends	sems so:libc.musl-armhf.so.1 so:libspandsp.so.2
+origin	sems
+repo	community
+file	sems-g722-2.1.0-r0.apk
+checksum	Q1aeOGXBA8msPRgrhOTnJ5ZAtpgN0=
+dep	sems	sems
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libspandsp.so.2	spandsp

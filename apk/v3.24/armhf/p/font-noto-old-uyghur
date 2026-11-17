@@ -1,0 +1,14 @@
+name	font-noto-old-uyghur
+version	2026.11.01-r0
+description	Noto Serif Old Uyghur font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	19527
+installed-size	31853
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-old-uyghur-2026.11.01-r0.apk
+checksum	Q1vBWtY5uV11jGKeRNoLhp2bf5LsA=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

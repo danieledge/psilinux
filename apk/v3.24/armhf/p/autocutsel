@@ -1,0 +1,17 @@
+name	autocutsel
+version	0.10.1-r3
+description	automated xcutsel
+url	https://nongnu.org/autocutsel/
+license	GPL-2.0-or-later
+size	10263
+installed-size	27760
+depends	so:libX11.so.6 so:libXaw.so.7 so:libXmu.so.6 so:libXt.so.6 so:libc.musl-armhf.so.1
+origin	autocutsel
+repo	community
+file	autocutsel-0.10.1-r3.apk
+checksum	Q1v0Y2jcKT4ZBfx3uvxY5NLdiWD4Q=
+dep	so:libX11.so.6	libx11
+dep	so:libXaw.so.7	libxaw
+dep	so:libXmu.so.6	libxmu
+dep	so:libXt.so.6	libxt
+dep	so:libc.musl-armhf.so.1	musl

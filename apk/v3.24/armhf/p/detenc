@@ -1,0 +1,13 @@
+name	detenc
+version	2.0.0-r6
+description	A lightweight, low-memory character encoding detector
+url	https://github.com/reevoo/detenc
+license	MIT
+size	4853
+installed-size	9388
+depends	so:libc.musl-armhf.so.1
+origin	detenc
+repo	community
+file	detenc-2.0.0-r6.apk
+checksum	Q1dclmVHVDpwlllix9H33rGdP30hs=
+dep	so:libc.musl-armhf.so.1	musl

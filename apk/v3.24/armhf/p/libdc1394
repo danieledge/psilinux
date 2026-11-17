@@ -1,0 +1,15 @@
+name	libdc1394
+version	2.2.7-r0
+description	High level programming interface to control IEEE 1394 based cameras
+url	https://damien.douxchamps.net/ieee1394/libdc1394/
+license	LGPL-2.1-or-later
+size	88201
+installed-size	211952
+depends	so:libc.musl-armhf.so.1 so:libraw1394.so.11 so:libusb-1.0.so.0
+origin	libdc1394
+repo	community
+file	libdc1394-2.2.7-r0.apk
+checksum	Q1F3pU1ZpaTPIZ8bqwntPiftzAjdw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libraw1394.so.11	libraw1394
+dep	so:libusb-1.0.so.0	libusb

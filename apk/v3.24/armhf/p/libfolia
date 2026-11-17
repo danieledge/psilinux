@@ -1,0 +1,20 @@
+name	libfolia
+version	2.21-r2
+description	C++ library for FoLiA (Format for Linguistic Annotation)
+url	https://github.com/LanguageMachines/libfolia
+license	GPL-3.0-only
+size	750352
+installed-size	3952294
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libicui18n.so.78 so:libicuio.so.78 so:libicuuc.so.78 so:libstdc++.so.6 so:libticcutils.so.10 so:libxml2.so.2
+origin	libfolia
+repo	community
+file	libfolia-2.21-r2.apk
+checksum	Q1CbXF9qbXu1rYXdveVVR2E6+10jc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuio.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libticcutils.so.10	ticcutils
+dep	so:libxml2.so.2	libxml2

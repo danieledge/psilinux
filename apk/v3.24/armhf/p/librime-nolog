@@ -1,0 +1,19 @@
+name	librime-nolog
+version	1.17.0-r0
+description	Rime input method engine (with logging disabled)
+url	https://github.com/rime/librime
+license	BSD-3-Clause
+size	536111
+installed-size	1362740
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libleveldb.so.1 so:libmarisa.so.0 so:libopencc.so.1.3 so:libstdc++.so.6 so:libyaml-cpp.so.0.9
+origin	librime
+repo	community
+file	librime-nolog-1.17.0-r0.apk
+checksum	Q19lsqVPSUaMBikUi9LkuP8c9LA1o=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libleveldb.so.1	leveldb
+dep	so:libmarisa.so.0	libmarisa
+dep	so:libopencc.so.1.3	opencc-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libyaml-cpp.so.0.9	yaml-cpp

@@ -1,0 +1,17 @@
+name	abiword-plugin-clarisworks
+version	3.0.8-r0
+description	Abiword clarisworks plugin
+url	https://gitlab.gnome.org/World/AbiWord
+license	GPL-2.0-or-later
+size	6386
+installed-size	13696
+depends	so:libabiword-3.0.so so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgsf-1.so.114 so:libstdc++.so.6
+origin	abiword
+repo	community
+file	abiword-plugin-clarisworks-3.0.8-r0.apk
+checksum	Q1Q1YxbXZB/FpDRNht3UrdhLtItXo=
+dep	so:libabiword-3.0.so	abiword
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgsf-1.so.114	libgsf
+dep	so:libstdc++.so.6	libstdc++

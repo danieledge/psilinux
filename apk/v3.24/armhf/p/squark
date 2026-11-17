@@ -1,0 +1,18 @@
+name	squark
+version	0.6.1-r7
+description	Squid User Authentication and Rating Kit
+url	https://git-old.alpinelinux.org/hosted/squark/
+license	GPL-2.0-only
+size	91962
+installed-size	165140
+depends	haserl /bin/sh so:libc.musl-armhf.so.1 so:libcmph.so.0 so:liblua.so.5 so:libnetsnmp.so.45
+origin	squark
+repo	main
+file	squark-0.6.1-r7.apk
+checksum	Q17mco4mC87/C+FzGL6WxNH0fac6g=
+dep	haserl	haserl
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcmph.so.0	libcmph
+dep	so:liblua.so.5	lua5.1-libs
+dep	so:libnetsnmp.so.45	net-snmp-libs

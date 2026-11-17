@@ -1,0 +1,14 @@
+name	luajit-dev
+version	2.1_p20251030-r0
+description	OpenResty's branch of LuaJIT (development files)
+url	https://github.com/openresty/luajit2
+license	MIT
+size	1519980
+installed-size	3618040
+depends	luajit=2.1_p20251030-r0 pkgconfig
+origin	luajit
+repo	main
+file	luajit-dev-2.1_p20251030-r0.apk
+checksum	Q1p7eSgzoFwjUV7zfgvrUnXdf0I+Q=
+dep	luajit=2.1_p20251030-r0	luajit
+dep	pkgconfig	pkgconf

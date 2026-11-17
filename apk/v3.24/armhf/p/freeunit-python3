@@ -1,0 +1,15 @@
+name	freeunit-python3
+version	1.37.2-r0
+description	python3 module for FreeUnit
+url	https://freeunit.org/
+license	Apache-2.0
+size	62302
+installed-size	134544
+depends	freeunit=1.37.2-r0 so:libc.musl-armhf.so.1 so:libpython3.14.so.1.0
+origin	freeunit
+repo	community
+file	freeunit-python3-1.37.2-r0.apk
+checksum	Q171lyXJtUuqTjMV7zrmhhrEHszHU=
+dep	freeunit=1.37.2-r0	freeunit
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpython3.14.so.1.0	python3

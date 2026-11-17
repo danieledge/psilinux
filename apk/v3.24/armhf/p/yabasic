@@ -1,0 +1,16 @@
+name	yabasic
+version	2.91.4-r1
+description	Simple BASIC interpreter
+url	https://github.com/marcIhm/yabasic
+license	MIT
+size	114342
+installed-size	267772
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1 so:libffi.so.8 so:libncursesw.so.6
+origin	yabasic
+repo	community
+file	yabasic-2.91.4-r1.apk
+checksum	Q1hElwsIkubcJ1LfVsPeYTB45PS50=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libffi.so.8	libffi
+dep	so:libncursesw.so.6	libncursesw

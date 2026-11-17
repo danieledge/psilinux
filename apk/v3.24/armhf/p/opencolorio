@@ -1,0 +1,20 @@
+name	opencolorio
+version	2.5.2-r0
+description	Color management framework for visual effects and animation
+url	https://opencolorio.org/
+license	BSD-3-Clause AND GPL-2.0-or-later
+size	2101516
+installed-size	6171038
+depends	so:libImath-3_2.so.30 so:libc.musl-armhf.so.1 so:libexpat.so.1 so:libgcc_s.so.1 so:libminizip-ng.so.1 so:libpystring.so.1 so:libstdc++.so.6 so:libyaml-cpp.so.0.9
+origin	opencolorio
+repo	community
+file	opencolorio-2.5.2-r0.apk
+checksum	Q1oyVFd0W18ElbMFBxqisFwyJZ7po=
+dep	so:libImath-3_2.so.30	imath
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexpat.so.1	libexpat
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libminizip-ng.so.1	minizip-ng
+dep	so:libpystring.so.1	pystring
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libyaml-cpp.so.0.9	yaml-cpp

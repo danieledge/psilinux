@@ -1,0 +1,14 @@
+name	unibilium-dev
+version	2.1.2-r0
+description	Terminfo parsing library (development files)
+url	https://github.com/neovim/unibilium
+license	LGPL-3.0-or-later
+size	27112
+installed-size	69377
+depends	unibilium=2.1.2-r0 pkgconfig
+origin	unibilium
+repo	community
+file	unibilium-dev-2.1.2-r0.apk
+checksum	Q1M2rVLJKx4p9TOCjYrx/sXXguEGo=
+dep	unibilium=2.1.2-r0	unibilium
+dep	pkgconfig	pkgconf

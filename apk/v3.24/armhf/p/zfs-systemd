@@ -1,0 +1,14 @@
+name	zfs-systemd
+version	2.4.4-r0
+description	Advanced filesystem and volume manager (systemd files)
+url	https://openzfs.org
+license	CDDL-1.0
+size	13351
+installed-size	27339
+depends	so:libc.musl-armhf.so.1 so:libzfs.so.7
+origin	zfs
+repo	main
+file	zfs-systemd-2.4.4-r0.apk
+checksum	Q1HR+6WVC409X+geRzQzip428Viro=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libzfs.so.7	zfs-libs

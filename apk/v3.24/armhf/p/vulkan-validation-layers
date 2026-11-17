@@ -1,0 +1,17 @@
+name	vulkan-validation-layers
+version	1.4.343-r0
+description	Vulkan Validation Layers
+url	https://www.khronos.org/vulkan/
+license	Apache-2.0
+size	5138798
+installed-size	17147528
+depends	so:libSPIRV-Tools-opt.so so:libSPIRV-Tools.so so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	vulkan-validation-layers
+repo	community
+file	vulkan-validation-layers-1.4.343-r0.apk
+checksum	Q1xACs/h4Yeb8ShkigeRA906+xhsA=
+dep	so:libSPIRV-Tools-opt.so	spirv-tools
+dep	so:libSPIRV-Tools.so	spirv-tools
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

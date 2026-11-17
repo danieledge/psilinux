@@ -1,0 +1,14 @@
+name	oo7-cli
+version	0.6.0-r4
+description	CLI application to interact with the system keyring
+url	https://github.com/linux-credentials/oo7
+license	MIT
+size	1069739
+installed-size	2170172
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	oo7
+repo	community
+file	oo7-cli-0.6.0-r4.apk
+checksum	Q1PasrzjRRP7v762oMBmzfcwPRM0A=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

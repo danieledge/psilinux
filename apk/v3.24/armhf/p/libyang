@@ -1,0 +1,14 @@
+name	libyang
+version	3.13.6-r1
+description	YANG data modelling language parser and toolkit
+url	https://github.com/CESNET/libyang
+license	BSD-3-Clause-Clear
+size	519569
+installed-size	1234926
+depends	so:libc.musl-armhf.so.1 so:libpcre2-8.so.0
+origin	libyang
+repo	community
+file	libyang-3.13.6-r1.apk
+checksum	Q17LtQb0nNk3vsYMrlMjFG+dKZivQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcre2-8.so.0	pcre2

@@ -1,0 +1,14 @@
+name	nodejs-dev
+version	24.22.3-r0
+description	JavaScript runtime built on V8 engine - LTS version (development files)
+url	https://nodejs.org/
+license	MIT
+size	311222
+installed-size	1392796
+depends	nodejs-libs=24.22.3-r0 pkgconfig
+origin	nodejs
+repo	main
+file	nodejs-dev-24.22.3-r0.apk
+checksum	Q1ZJK2n2dTxLMswgf4LUEv1NQ/QC0=
+dep	nodejs-libs=24.22.3-r0	nodejs-libs
+dep	pkgconfig	pkgconf

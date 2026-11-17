@@ -1,0 +1,15 @@
+name	ca-certificates
+version	20261020-r0
+description	Common CA certificates PEM files from Mozilla
+url	https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/
+license	MPL-2.0 AND MIT
+size	130001
+installed-size	206749
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	ca-certificates
+repo	main
+file	ca-certificates-20261020-r0.apk
+checksum	Q1sjcYcNCIswq5HDHaMFDOwLL+qAo=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

@@ -1,0 +1,15 @@
+name	py3-html5lib
+version	1.1-r8
+description	A Python HTML parser
+url	https://github.com/html5lib/html5lib-python
+license	MIT
+size	104397
+installed-size	506241
+depends	py3-six py3-webencodings python3~3.14
+origin	py3-html5lib
+repo	main
+file	py3-html5lib-1.1-r8.apk
+checksum	Q1tWDEZRlBjjciJ98GhWbA4Kyt6xQ=
+dep	py3-six	py3-six
+dep	py3-webencodings	py3-webencodings
+dep	python3~3.14	python3

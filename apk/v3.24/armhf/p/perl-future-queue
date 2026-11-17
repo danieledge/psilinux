@@ -1,0 +1,14 @@
+name	perl-future-queue
+version	0.52-r1
+description	FIFO queue of values that uses Futures
+url	https://metacpan.org/release/Future-Queue/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	4125
+installed-size	7344
+depends	perl perl-future
+origin	perl-future-queue
+repo	community
+file	perl-future-queue-0.52-r1.apk
+checksum	Q1zWc3ZTvMkABk7Vq0IzcIFQV6LwU=
+dep	perl	perl
+dep	perl-future	perl-future

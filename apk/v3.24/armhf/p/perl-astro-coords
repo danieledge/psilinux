@@ -1,0 +1,16 @@
+name	perl-astro-coords
+version	0.23-r1
+description	Class for handling astronomical coordinates
+url	https://metacpan.org/release/Astro-Coords/
+license	GPL-3.0-or-later
+size	53802
+installed-size	198399
+depends	perl perl-astro-pal perl-astro-telescope perl-datetime
+origin	perl-astro-coords
+repo	community
+file	perl-astro-coords-0.23-r1.apk
+checksum	Q18KSxLZQsApqS9z6pv4Km6wBGfFo=
+dep	perl	perl
+dep	perl-astro-pal	perl-astro-pal
+dep	perl-astro-telescope	perl-astro-telescope
+dep	perl-datetime	perl-datetime

@@ -1,0 +1,14 @@
+name	libdisplay-info-dev
+version	0.3.0-r0
+description	EDID and DisplayID library (development files)
+url	https://gitlab.freedesktop.org/emersion/libdisplay-info
+license	MIT
+size	26403
+installed-size	104834
+depends	libdisplay-info=0.3.0-r0 pkgconfig
+origin	libdisplay-info
+repo	main
+file	libdisplay-info-dev-0.3.0-r0.apk
+checksum	Q1N784LvQeKFztTbGxT2K1mKThUIA=
+dep	libdisplay-info=0.3.0-r0	libdisplay-info
+dep	pkgconfig	pkgconf

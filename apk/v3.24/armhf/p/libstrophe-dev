@@ -1,0 +1,17 @@
+name	libstrophe-dev
+version	0.14.0-r1
+description	Simple, lightweight C library for writing XMPP clients (development files)
+url	https://strophe.im/libstrophe/
+license	GPL-3.0-only MIT
+size	90665
+installed-size	237999
+depends	libstrophe=0.14.0-r1 pc:expat pc:openssl pc:zlib pkgconfig
+origin	libstrophe
+repo	community
+file	libstrophe-dev-0.14.0-r1.apk
+checksum	Q1aDsHWzxhE73y/7Jf1qEyN2DKaJs=
+dep	libstrophe=0.14.0-r1	libstrophe
+dep	pc:expat	expat-dev
+dep	pc:openssl	openssl-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

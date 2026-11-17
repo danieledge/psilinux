@@ -1,0 +1,17 @@
+name	radare2
+version	6.1.6-r0
+description	Opensource, crossplatform reverse engineering framework
+url	https://www.radare.org/
+license	GPL-3.0-or-later AND LGPL-2.0-or-later AND LGPL-2.1-or-later
+size	4639415
+installed-size	13535012
+depends	so:libc.musl-armhf.so.1 so:libr_cons.so.6.1.6 so:libr_main.so.6.1.6 so:libr_util.so.6.1.6 so:libsdb.so.2.4.4
+origin	radare2
+repo	community
+file	radare2-6.1.6-r0.apk
+checksum	Q1winCdkHLhN8qLQW/krpHEmwGMZo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libr_cons.so.6.1.6	radare2-libs
+dep	so:libr_main.so.6.1.6	radare2-libs
+dep	so:libr_util.so.6.1.6	radare2-libs
+dep	so:libsdb.so.2.4.4	radare2-libs

@@ -1,0 +1,14 @@
+name	elixir
+version	1.19.7-r0
+description	Elixir is a dynamic, functional language designed for building scalable and maintainable applications
+url	https://elixir-lang.org/
+license	Apache-2.0
+size	6603289
+installed-size	9245652
+depends	erlang erlang-dev
+origin	elixir
+repo	community
+file	elixir-1.19.7-r0.apk
+checksum	Q1IqU2PpiBZWgP3AqH+gIHAZpuQQY=
+dep	erlang	erlang27
+dep	erlang-dev	erlang27-dev

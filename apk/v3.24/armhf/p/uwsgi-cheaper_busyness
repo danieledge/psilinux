@@ -1,0 +1,14 @@
+name	uwsgi-cheaper_busyness
+version	2.0.31-r2
+description	uWSGI plugin cheaper_busyness
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	7313
+installed-size	14016
+depends	uwsgi so:libc.musl-armhf.so.1
+origin	uwsgi
+repo	main
+file	uwsgi-cheaper_busyness-2.0.31-r2.apk
+checksum	Q13wEhBDomuw9596ZUwi9MCjrjv5I=
+dep	uwsgi	uwsgi
+dep	so:libc.musl-armhf.so.1	musl

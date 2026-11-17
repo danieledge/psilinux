@@ -1,0 +1,15 @@
+name	libxml2
+version	2.13.9-r2
+description	XML parsing library, version 2
+url	https://gitlab.gnome.org/GNOME/libxml2
+license	MIT
+size	478720
+installed-size	1062780
+depends	so:libc.musl-armhf.so.1 so:liblzma.so.5 so:libz.so.1
+origin	libxml2
+repo	main
+file	libxml2-2.13.9-r2.apk
+checksum	Q1Ypi84lK5VHbW9t4j+hdVJqfE9tI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblzma.so.5	xz-libs
+dep	so:libz.so.1	zlib

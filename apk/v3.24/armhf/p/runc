@@ -1,0 +1,14 @@
+name	runc
+version	1.4.4-r0
+description	CLI tool for spawning and running containers according to the OCI specification
+url	https://www.opencontainers.org
+license	Apache-2.0
+size	3585022
+installed-size	9656948
+depends	so:libc.musl-armhf.so.1 so:libseccomp.so.2
+origin	runc
+repo	community
+file	runc-1.4.4-r0.apk
+checksum	Q1eaP4u1t/4lUP/v+88MGjm9gyR/U=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libseccomp.so.2	libseccomp

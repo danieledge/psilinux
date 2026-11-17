@@ -1,0 +1,18 @@
+name	frr-rpki
+version	10.6.1-r0
+description	Free Range Routing is a fork of Quagga (BGP RPKI support)
+url	https://frrouting.org/
+license	GPL-2.0-or-later
+size	24173
+installed-size	57960
+depends	iproute2 bash so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libjson-c.so.5 so:librtr.so.0
+origin	frr
+repo	community
+file	frr-rpki-10.6.1-r0.apk
+checksum	Q1CAjEgCD17/EXXRxektOgGXYEaNk=
+dep	iproute2	iproute2
+dep	bash	bash
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjson-c.so.5	json-c
+dep	so:librtr.so.0	rtrlib

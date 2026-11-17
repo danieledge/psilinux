@@ -1,0 +1,13 @@
+name	go-task
+version	3.51.1-r2
+description	Task runner written in Go, installed as go-task
+url	https://taskfile.dev/
+license	MIT
+size	15362351
+installed-size	50255524
+depends	so:libc.musl-armhf.so.1
+origin	go-task
+repo	community
+file	go-task-3.51.1-r2.apk
+checksum	Q1a0SCMDGxg/AZr8w/Z8kaDrO26VA=
+dep	so:libc.musl-armhf.so.1	musl

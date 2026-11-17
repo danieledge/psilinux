@@ -1,0 +1,28 @@
+name	uxplay
+version	1.73.6-r0
+description	AirPlay Unix mirroring server
+url	https://github.com/FDH2/UxPlay
+license	GPL-3.0-or-later
+size	247669
+installed-size	427710
+depends	gst-plugins-good gst-plugins-bad gst-libav so:libX11.so.6 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libdbus-1.so.3 so:libdns_sd.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstapp-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libplist-2.0.so.4 so:libstdc++.so.6
+origin	uxplay
+repo	community
+file	uxplay-1.73.6-r0.apk
+checksum	Q1hFC4whz04a29Z1GPThehXFNTwwo=
+dep	gst-plugins-good	gst-plugins-good
+dep	gst-plugins-bad	gst-plugins-bad
+dep	gst-libav	gst-libav
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libdns_sd.so.1	avahi-compat-libdns_sd
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstapp-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base
+dep	so:libplist-2.0.so.4	libplist
+dep	so:libstdc++.so.6	libstdc++

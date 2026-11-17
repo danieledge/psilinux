@@ -1,0 +1,15 @@
+name	jsvc
+version	1.4.1-r1
+description	Executes classfile that implements a Daemon interface
+url	https://commons.apache.org/proper/commons-daemon/jsvc.html
+license	Apache-2.0
+size	22010
+installed-size	46560
+depends	commons-daemon libcap so:libc.musl-armhf.so.1
+origin	commons-daemon
+repo	community
+file	jsvc-1.4.1-r1.apk
+checksum	Q1ZlZx4XB7C+8ceIXkg1+wPXb9a/I=
+dep	commons-daemon	commons-daemon
+dep	libcap	libcap
+dep	so:libc.musl-armhf.so.1	musl

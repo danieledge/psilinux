@@ -1,0 +1,20 @@
+name	perl-net-async-xmpp
+version	0.003-r1
+description	Asynchronous support for the XMPP Protocol
+url	https://metacpan.org/release/Net-Async-XMPP/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6422
+installed-size	12702
+depends	perl perl-curry perl-future perl-io-async perl-io-async-resolver-dns perl-io-async-ssl perl-mixin-event-dispatch perl-protocol-xmpp
+origin	perl-net-async-xmpp
+repo	community
+file	perl-net-async-xmpp-0.003-r1.apk
+checksum	Q1dt145gRqtTdYC6d+fIgvFCg2Ky4=
+dep	perl	perl
+dep	perl-curry	perl-curry
+dep	perl-future	perl-future
+dep	perl-io-async	perl-io-async
+dep	perl-io-async-resolver-dns	perl-io-async-resolver-dns
+dep	perl-io-async-ssl	perl-io-async-ssl
+dep	perl-mixin-event-dispatch	perl-mixin-event-dispatch
+dep	perl-protocol-xmpp	perl-protocol-xmpp

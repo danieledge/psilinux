@@ -1,0 +1,14 @@
+name	perl-event
+version	1.28-r5
+description	event loop processing
+url	https://metacpan.org/release/Event/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	55917
+installed-size	129313
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-event
+repo	community
+file	perl-event-1.28-r5.apk
+checksum	Q1r0i7dG9ll9puUt0kVNFRa6vhHOU=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

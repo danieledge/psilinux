@@ -1,0 +1,14 @@
+name	texmf-dist-metapost-examples
+version	2026.0-r0
+description	texmf-dist: MetaPost and Metafont packages (examples and documentation)
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	45450747
+installed-size	54290634
+depends	texmf-dist-metapost texmf-dist-metapost-doc
+origin	texmf-dist
+repo	community
+file	texmf-dist-metapost-examples-2026.0-r0.apk
+checksum	Q1nI7wYdPviKpE+SCLEO5oxI0i4Dk=
+dep	texmf-dist-metapost	texmf-dist-metapost
+dep	texmf-dist-metapost-doc	texmf-dist-metapost-doc

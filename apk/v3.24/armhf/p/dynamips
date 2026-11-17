@@ -1,0 +1,15 @@
+name	dynamips
+version	0.2.24-r0
+description	Cisco router emulator
+url	https://github.com/GNS3/dynamips
+license	GPL-2.0
+size	246990
+installed-size	603552
+depends	so:libc.musl-armhf.so.1 so:libelf.so.1 so:libpcap.so.1
+origin	dynamips
+repo	community
+file	dynamips-0.2.24-r0.apk
+checksum	Q12TwSXYTEHCLfklD0aS7yrsRPop8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libelf.so.1	libelf
+dep	so:libpcap.so.1	libpcap

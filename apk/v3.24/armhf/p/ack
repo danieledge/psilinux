@@ -1,0 +1,14 @@
+name	ack
+version	3.10.0-r0
+description	Perl-powered replacement for grep
+url	https://beyondgrep.com/
+license	Artistic-2.0
+size	52507
+installed-size	173326
+depends	perl perl-file-next
+origin	ack
+repo	main
+file	ack-3.10.0-r0.apk
+checksum	Q14mjgxiggGLuAA9JDv5m2yZDOKg4=
+dep	perl	perl
+dep	perl-file-next	perl-file-next

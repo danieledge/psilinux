@@ -1,0 +1,18 @@
+name	openimageio-tools
+version	3.1.13.1-r0
+description	Tools for manipulating a multitude of image formats
+url	https://sites.google.com/site/openimageio/
+license	Apache-2.0
+size	1016383
+installed-size	2293732
+depends	so:libOpenEXR-3_4.so.33 so:libOpenImageIO.so.3.1 so:libOpenImageIO_Util.so.3.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	openimageio
+repo	community
+file	openimageio-tools-3.1.13.1-r0.apk
+checksum	Q1JhvrxaM2Xy9JVjnP9PH1ctidno4=
+dep	so:libOpenEXR-3_4.so.33	openexr-libopenexr
+dep	so:libOpenImageIO.so.3.1	openimageio
+dep	so:libOpenImageIO_Util.so.3.1	openimageio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

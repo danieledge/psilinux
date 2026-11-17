@@ -1,0 +1,19 @@
+name	ocaml-metrics-dev
+version	0.4.0-r6
+description	Metrics infrastructure for OCaml (development files)
+url	https://github.com/mirage/metrics
+license	ISC
+size	459832
+installed-size	1096277
+depends	ocaml-metrics=0.4.0-r6 ocaml-lwt-dev ocaml-mtime-dev ocaml-uuidm-dev ocaml-fmt-dev ocaml-duration-dev ocaml-logs-dev
+origin	ocaml-metrics
+repo	community
+file	ocaml-metrics-dev-0.4.0-r6.apk
+checksum	Q1fyHcI5Hf+/Ii1wPQY2EBZ7Hhijs=
+dep	ocaml-metrics=0.4.0-r6	ocaml-metrics
+dep	ocaml-lwt-dev	ocaml-lwt-dev
+dep	ocaml-mtime-dev	ocaml-mtime-dev
+dep	ocaml-uuidm-dev	ocaml-uuidm-dev
+dep	ocaml-fmt-dev	ocaml-fmt-dev
+dep	ocaml-duration-dev	ocaml-duration-dev
+dep	ocaml-logs-dev	ocaml-logs-dev

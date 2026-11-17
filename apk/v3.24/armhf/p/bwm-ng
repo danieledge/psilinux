@@ -1,0 +1,14 @@
+name	bwm-ng
+version	0.6.3-r3
+description	A small and simple console-based live bandwidth monitor
+url	http://www.gropp.org/
+license	GPL-2.0-or-later
+size	23761
+installed-size	46672
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	bwm-ng
+repo	main
+file	bwm-ng-0.6.3-r3.apk
+checksum	Q1Fo2x7iJrp2lFhMMrIRT/kYPf3pA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

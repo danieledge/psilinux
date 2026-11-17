@@ -1,0 +1,13 @@
+name	plfit-static
+version	1.0.1-r1
+description	Fit power-law distributions to empirical data (static library)
+url	https://github.com/ntamas/plfit
+license	GPL-2.0-or-later
+size	32255
+installed-size	72374
+depends	plfit-dev
+origin	plfit
+repo	community
+file	plfit-static-1.0.1-r1.apk
+checksum	Q1xQVamn6F5+O7cdS7SLOAqrxj0ms=
+dep	plfit-dev	plfit-dev

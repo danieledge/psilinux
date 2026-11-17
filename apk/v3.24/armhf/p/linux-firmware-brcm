@@ -1,0 +1,14 @@
+name	linux-firmware-brcm
+version	20260519-r0
+description	firmware files for linux (brcm folder)
+url	https://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git;a=summary
+license	custom
+size	8219746
+installed-size	8194826
+depends	linux-firmware-cypress=20260519-r0 linux-firmware-synaptics=20260519-r0
+origin	linux-firmware
+repo	main
+file	linux-firmware-brcm-20260519-r0.apk
+checksum	Q1XYgn717+vuxct8YK8hWhAaJ4h94=
+dep	linux-firmware-cypress=20260519-r0	linux-firmware-cypress
+dep	linux-firmware-synaptics=20260519-r0	linux-firmware-synaptics

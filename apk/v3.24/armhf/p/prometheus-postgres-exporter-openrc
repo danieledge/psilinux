@@ -1,0 +1,12 @@
+name	prometheus-postgres-exporter-openrc
+version	0.19.1-r0
+description	Prometheus exporter for PostgreSQL database (OpenRC init scripts)
+url	https://github.com/prometheus-community/postgres_exporter
+license	Apache-2.0
+size	2445
+installed-size	1451
+depends	
+origin	prometheus-postgres-exporter
+repo	community
+file	prometheus-postgres-exporter-openrc-0.19.1-r0.apk
+checksum	Q1VNa/9+gb6p1C2OJN9D9hAn/QWE4=

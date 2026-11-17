@@ -1,0 +1,13 @@
+name	giflib-dev
+version	5.2.2-r2
+description	A library for reading and writing GIF images (development files)
+url	https://sourceforge.net/projects/giflib/
+license	MIT
+size	4997
+installed-size	12651
+depends	giflib=5.2.2-r2
+origin	giflib
+repo	main
+file	giflib-dev-5.2.2-r2.apk
+checksum	Q1Rhf/3OZ2gpNiqhwdNNpmRfZ4d7k=
+dep	giflib=5.2.2-r2	giflib

@@ -1,0 +1,13 @@
+name	wlroots0.19-static
+version	0.19.3-r1
+description	Modular Wayland compositor library (static library)
+url	https://gitlab.freedesktop.org/wlroots/wlroots
+license	MIT
+size	9312293
+installed-size	13293952
+depends	wlroots0.19-dev
+origin	wlroots0.19
+repo	community
+file	wlroots0.19-static-0.19.3-r1.apk
+checksum	Q11jeKADBGCMiGsJ8woJE9E522M+Q=
+dep	wlroots0.19-dev	wlroots0.19-dev

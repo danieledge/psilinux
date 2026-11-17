@@ -1,0 +1,20 @@
+name	colord-sane
+version	1.4.8-r4
+description	System daemon for managing color devices (SANE support)
+url	https://www.freedesktop.org/software/colord
+license	GPL-2.0-or-later
+size	7157
+installed-size	14748
+depends	libcolord=1.4.8-r4 so:libc.musl-armhf.so.1 so:libcolord.so.2 so:libdbus-1.so.3 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgudev-1.0.so.0 so:libsane.so.1
+origin	colord
+repo	community
+file	colord-sane-1.4.8-r4.apk
+checksum	Q1g2OGGwAKN8DoBuopmgJCuNx3eO8=
+dep	libcolord=1.4.8-r4	libcolord
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcolord.so.2	libcolord
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgudev-1.0.so.0	libgudev
+dep	so:libsane.so.1	sane

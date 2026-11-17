@@ -1,0 +1,13 @@
+name	libyuv-static
+version	0.0.1928-r0
+description	Library for YUV scaling (static library)
+url	https://chromium.googlesource.com/libyuv/libyuv/
+license	BSD-3-Clause
+size	984851
+installed-size	2825708
+depends	libyuv-dev
+origin	libyuv
+repo	main
+file	libyuv-static-0.0.1928-r0.apk
+checksum	Q1ZvxpzG994nin/tR6YekzVCYGS3w=
+dep	libyuv-dev	libyuv-dev

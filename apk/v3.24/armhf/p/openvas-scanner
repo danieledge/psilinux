@@ -1,0 +1,39 @@
+name	openvas-scanner
+version	23.45.5-r0
+description	Open Vulnerability Assessment Scanner
+url	https://openvas.org/
+license	GPL-2.0-only
+size	330363
+installed-size	733453
+depends	redis nmap coreutils openssl util-linux rsync /bin/sh so:libbsd.so.0 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgcrypt.so.20 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgnutls.so.30 so:libgobject-2.0.so.0 so:libgpg-error.so.0 so:libgpgme.so.45 so:libgssapi_krb5.so.2 so:libgvm_base.so.23 so:libgvm_boreas.so.23 so:libgvm_util.so.23 so:libjson-glib-1.0.so.0 so:libksba.so.8 so:libmagic.so.1 so:libnetsnmp.so.45 so:libpcap.so.1 so:libssh.so.4
+origin	openvas-scanner
+repo	community
+file	openvas-scanner-23.45.5-r0.apk
+checksum	Q1OI+ZCrj5M9yj0Xz5+q2bUykMd3s=
+dep	redis	redis
+dep	nmap	nmap
+dep	coreutils	coreutils
+dep	openssl	openssl
+dep	util-linux	util-linux
+dep	rsync	rsync
+dep	/bin/sh	busybox-binsh
+dep	so:libbsd.so.0	libbsd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgnutls.so.30	gnutls
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgpg-error.so.0	libgpg-error
+dep	so:libgpgme.so.45	gpgme
+dep	so:libgssapi_krb5.so.2	krb5-libs
+dep	so:libgvm_base.so.23	gvm-libs
+dep	so:libgvm_boreas.so.23	gvm-libs
+dep	so:libgvm_util.so.23	gvm-libs
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libksba.so.8	libksba
+dep	so:libmagic.so.1	libmagic
+dep	so:libnetsnmp.so.45	net-snmp-libs
+dep	so:libpcap.so.1	libpcap
+dep	so:libssh.so.4	libssh

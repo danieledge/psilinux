@@ -1,0 +1,13 @@
+name	cni-plugins
+version	1.9.1-r4
+description	Some standard networking plugins, maintained by the CNI team
+url	https://www.cni.dev/
+license	Apache-2.0
+size	28053718
+installed-size	69570072
+depends	so:libc.musl-armhf.so.1
+origin	cni-plugins
+repo	community
+file	cni-plugins-1.9.1-r4.apk
+checksum	Q1VhwTr5611wnGb7ikC6IMnN2qu4Y=
+dep	so:libc.musl-armhf.so.1	musl

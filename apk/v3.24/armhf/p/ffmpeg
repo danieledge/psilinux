@@ -1,0 +1,22 @@
+name	ffmpeg
+version	8.1.3-r0
+description	Complete and free Internet live audio and video broadcasting solution for Linux/Unix
+url	https://ffmpeg.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	280974
+installed-size	613055
+depends	so:libavcodec.so.62 so:libavdevice.so.62 so:libavfilter.so.11 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libswresample.so.6 so:libswscale.so.9 so:libz.so.1
+origin	ffmpeg
+repo	community
+file	ffmpeg-8.1.3-r0.apk
+checksum	Q1JA2nLTOYystyUsU8Z6inPdGycJ4=
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavdevice.so.62	ffmpeg-libavdevice
+dep	so:libavfilter.so.11	ffmpeg-libavfilter
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libswresample.so.6	ffmpeg-libswresample
+dep	so:libswscale.so.9	ffmpeg-libswscale
+dep	so:libz.so.1	zlib

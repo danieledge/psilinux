@@ -1,0 +1,18 @@
+name	wluma
+version	4.10.0-r0
+description	Automatic brightness adjustment based on screen contents and ALS
+url	https://github.com/maximbaz/wluma
+license	ISC
+size	1033751
+installed-size	2067303
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libgcc_s.so.1 so:libudev.so.1 so:libv4l2.so.0
+origin	wluma
+repo	community
+file	wluma-4.10.0-r0.apk
+checksum	Q1EHsZIpA7sbPgLHHsdzCilY4HzHw=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libudev.so.1	eudev-libs
+dep	so:libv4l2.so.0	v4l-utils-libs

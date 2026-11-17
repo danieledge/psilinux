@@ -1,0 +1,14 @@
+name	db-dev
+version	5.3.28-r7
+description	The Berkeley DB embedded database system (development files)
+url	https://www.oracle.com/technology/software/products/berkeley-db/index.html
+license	Sleepycat
+size	44902
+installed-size	178147
+depends	db-c++=5.3.28-r7 db=5.3.28-r7
+origin	db
+repo	main
+file	db-dev-5.3.28-r7.apk
+checksum	Q1vQZDWhiZP1oJ5Ie9A4fsjwzXnBY=
+dep	db-c++=5.3.28-r7	db-c++
+dep	db=5.3.28-r7	db

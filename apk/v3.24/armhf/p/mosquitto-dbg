@@ -1,0 +1,12 @@
+name	mosquitto-dbg
+version	2.1.2-r1
+description	open source MQTT broker (debug symbols)
+url	https://mosquitto.org/
+license	EPL-1.0 OR EPL-2.0
+size	1907718
+installed-size	4823732
+depends	!mosquitto-clients<2.1.2-r1 !mosquitto-clients>2.1.2-r1 !mosquitto-libs++<2.1.2-r1 !mosquitto-libs++>2.1.2-r1 !mosquitto-libs<2.1.2-r1 !mosquitto-libs>2.1.2-r1 !mosquitto<2.1.2-r1 !mosquitto>2.1.2-r1
+origin	mosquitto
+repo	main
+file	mosquitto-dbg-2.1.2-r1.apk
+checksum	Q1EMet5pLLORbR8vZxz9ha6gRxDiY=

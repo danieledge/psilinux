@@ -1,0 +1,14 @@
+name	jp
+version	0.4.0-r0
+description	CLI for JMESPath query language for JSON (Rust implementation)
+url	https://github.com/jmespath/jmespath.rs
+license	MIT
+size	355989
+installed-size	654780
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	jp
+repo	community
+file	jp-0.4.0-r0.apk
+checksum	Q13YHyjYlS+bMTsFnWqnHxZ1gDkYU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

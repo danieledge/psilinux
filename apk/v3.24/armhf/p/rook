@@ -1,0 +1,13 @@
+name	rook
+version	0.4.4-r0
+description	Lightweight, stand-alone, headless secret service tool backed by a Keepass v2 database
+url	https://sr.ht/~ser/rook
+license	BSD-3-Clause
+size	1663991
+installed-size	4021644
+depends	so:libc.musl-armhf.so.1
+origin	rook
+repo	community
+file	rook-0.4.4-r0.apk
+checksum	Q1fc2lkEh6z3JuuSveYo3BSOiVnYc=
+dep	so:libc.musl-armhf.so.1	musl

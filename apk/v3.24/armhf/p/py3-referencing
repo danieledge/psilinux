@@ -1,0 +1,16 @@
+name	py3-referencing
+version	0.37.0-r1
+description	Cross-specification JSON referencing
+url	https://github.com/python-jsonschema/referencing
+license	MIT
+size	24890
+installed-size	115368
+depends	py3-attrs py3-rpds-py py3-typing-extensions python3~3.14
+origin	py3-referencing
+repo	community
+file	py3-referencing-0.37.0-r1.apk
+checksum	Q1PWxHqrjjn++RfP1N9kzO45c2JX8=
+dep	py3-attrs	py3-attrs
+dep	py3-rpds-py	py3-rpds-py
+dep	py3-typing-extensions	py3-typing-extensions
+dep	python3~3.14	python3

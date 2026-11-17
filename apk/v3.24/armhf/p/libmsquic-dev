@@ -1,0 +1,13 @@
+name	libmsquic-dev
+version	2.5.7-r0
+description	Cross-platform, C implementation of the IETF QUIC protocol, exposed to C, C++, C# and Rust. (development files)
+url	https://github.com/microsoft/msquic
+license	MIT
+size	173122
+installed-size	679013
+depends	libmsquic=2.5.7-r0
+origin	libmsquic
+repo	community
+file	libmsquic-dev-2.5.7-r0.apk
+checksum	Q110P2YsLtDBa9z7QwZjhfVslerGs=
+dep	libmsquic=2.5.7-r0	libmsquic

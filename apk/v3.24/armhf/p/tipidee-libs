@@ -1,0 +1,14 @@
+name	tipidee-libs
+version	0.0.7.2-r0
+description	The skarnet.org web server (libraries)
+url	https://skarnet.org/software/tipidee/
+license	ISC
+size	15512
+installed-size	29908
+depends	so:libc.musl-armhf.so.1 so:libskarnet.so.2.15
+origin	tipidee
+repo	main
+file	tipidee-libs-0.0.7.2-r0.apk
+checksum	Q1oP+T1Ybl2G5OmKoC0w9I5scvY00=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libskarnet.so.2.15	skalibs-libs

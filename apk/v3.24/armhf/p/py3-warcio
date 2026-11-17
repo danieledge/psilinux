@@ -1,0 +1,14 @@
+name	py3-warcio
+version	1.8.1-r0
+description	Streaming WARC/ARC library for fast web archive IO
+url	https://github.com/webrecorder/warcio
+license	Apache-2.0
+size	38418
+installed-size	134316
+depends	py3-six python3~3.14
+origin	py3-warcio
+repo	community
+file	py3-warcio-1.8.1-r0.apk
+checksum	Q1cSFQlV50pNFbhOdR3DA03zRiITQ=
+dep	py3-six	py3-six
+dep	python3~3.14	python3

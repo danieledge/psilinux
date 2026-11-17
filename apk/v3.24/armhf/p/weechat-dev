@@ -1,0 +1,25 @@
+name	weechat-dev
+version	4.10.2-r0
+description	Fast, light, extensible ncurses-based chat client (development files)
+url	https://weechat.org
+license	GPL-3.0-or-later
+size	20570
+installed-size	151334
+depends	aspell-dev cjson-dev curl-dev gettext-dev gnutls-dev libgcrypt-dev lua5.3-dev ncurses-dev perl-dev python3-dev zlib-dev zstd-dev pkgconfig
+origin	weechat
+repo	community
+file	weechat-dev-4.10.2-r0.apk
+checksum	Q1udfpYJnM8+JNWJ8pOWzdtnGSiG4=
+dep	aspell-dev	aspell-dev
+dep	cjson-dev	cjson-dev
+dep	curl-dev	curl-dev
+dep	gettext-dev	gettext-dev
+dep	gnutls-dev	gnutls-dev
+dep	libgcrypt-dev	libgcrypt-dev
+dep	lua5.3-dev	lua5.3-dev
+dep	ncurses-dev	ncurses-dev
+dep	perl-dev	perl-dev
+dep	python3-dev	python3-dev
+dep	zlib-dev	zlib-dev
+dep	zstd-dev	zstd-dev
+dep	pkgconfig	pkgconf

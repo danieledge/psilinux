@@ -1,0 +1,14 @@
+name	cachefilesd
+version	0.10.10-r3
+description	Userspace daemon acting as a backend for FS-Cache
+url	https://people.redhat.com/~dhowells/fscache/
+license	GPL
+size	14471
+installed-size	28295
+depends	attr so:libc.musl-armhf.so.1
+origin	cachefilesd
+repo	community
+file	cachefilesd-0.10.10-r3.apk
+checksum	Q1o4UW1Iis75DZy+rHj1ZQxR6cNQM=
+dep	attr	attr
+dep	so:libc.musl-armhf.so.1	musl

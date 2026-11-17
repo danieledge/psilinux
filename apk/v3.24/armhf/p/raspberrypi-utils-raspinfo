@@ -1,0 +1,18 @@
+name	raspberrypi-utils-raspinfo
+version	0.20260811-r0
+description	A short script to dump information about the Pi. Intended for the submission of bug reports.
+url	https://github.com/raspberrypi/utils
+license	BSD-3-Clause
+size	3974
+installed-size	7695
+depends	raspberrypi-utils-vclog=0.20260811-r0 raspberrypi-utils-pinctrl=0.20260811-r0 raspberrypi-utils-vcgencmd=0.20260811-r0 sudo-virt !sudo !sudo-rs usbutils ethtool
+origin	raspberrypi-utils
+repo	community
+file	raspberrypi-utils-raspinfo-0.20260811-r0.apk
+checksum	Q1ZEhccG27OQMvZroBmj4NwZ2FbMA=
+dep	raspberrypi-utils-vclog=0.20260811-r0	raspberrypi-utils-vclog
+dep	raspberrypi-utils-pinctrl=0.20260811-r0	raspberrypi-utils-pinctrl
+dep	raspberrypi-utils-vcgencmd=0.20260811-r0	raspberrypi-utils-vcgencmd
+dep	sudo-virt	sudo
+dep	usbutils	usbutils
+dep	ethtool	ethtool

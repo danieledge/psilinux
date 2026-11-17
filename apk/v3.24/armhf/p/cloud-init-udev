@@ -1,0 +1,12 @@
+name	cloud-init-udev
+version	26.1-r3
+description	Cloud instance init scripts (udev rules)
+url	https://cloud-init.io
+license	Apache-2.0 OR GPL-3.0-only
+size	2272
+installed-size	1951
+depends	
+origin	cloud-init
+repo	community
+file	cloud-init-udev-26.1-r3.apk
+checksum	Q1EEKQCXTPF1cW672LHaIyVlqNtbM=

@@ -1,0 +1,16 @@
+name	postgresql18-plpython3
+version	18.7-r0
+description	PL/Python3 procedural language for PostgreSQL
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	45609
+installed-size	105376
+depends	postgresql18=18.7-r0 python3 so:libc.musl-armhf.so.1 so:libpython3.14.so.1.0
+origin	postgresql18
+repo	main
+file	postgresql18-plpython3-18.7-r0.apk
+checksum	Q1Orc5oT71zr7z242A5mLZGlSZIwI=
+dep	postgresql18=18.7-r0	postgresql18
+dep	python3	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpython3.14.so.1.0	python3

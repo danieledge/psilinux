@@ -1,0 +1,15 @@
+name	sqsh
+version	2.5.16.1-r9
+description	Sybase iSQL replacement
+url	https://sourceforge.net/projects/sqsh/
+license	GPL-2.0-or-later
+size	105302
+installed-size	224995
+depends	so:libc.musl-armhf.so.1 so:libct.so.4 so:libreadline.so.8
+origin	sqsh
+repo	main
+file	sqsh-2.5.16.1-r9.apk
+checksum	Q15vus6iOD8TVvErZlkX0jPu2Oalw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libct.so.4	freetds
+dep	so:libreadline.so.8	readline

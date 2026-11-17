@@ -1,0 +1,15 @@
+name	py3-rkm-codes
+version	1.0-r1
+description	Number format for compact robust labels
+url	https://nurdletech.com/linux-utilities/rkm_codes/
+license	MIT
+size	10751
+installed-size	28431
+depends	python3 py3-quantiphy python3~3.14
+origin	py3-rkm-codes
+repo	community
+file	py3-rkm-codes-1.0-r1.apk
+checksum	Q1ZesQftoYWmQ7OqmHvvtPbdVaDIE=
+dep	python3	python3
+dep	py3-quantiphy	py3-quantiphy
+dep	python3~3.14	python3

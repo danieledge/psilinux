@@ -1,0 +1,14 @@
+name	lua5.4-augeas
+version	0.1.2-r8
+description	Lua 5.5 bindings for Augeas
+url	https://git-old.alpinelinux.org/hosted/lua-augeas/
+license	MIT
+size	5755
+installed-size	13664
+depends	so:libaugeas.so.0 so:libc.musl-armhf.so.1
+origin	lua-augeas
+repo	main
+file	lua5.4-augeas-0.1.2-r8.apk
+checksum	Q1I2O4JNJ2FB/htdGYiPcWdCupDYw=
+dep	so:libaugeas.so.0	augeas-libs
+dep	so:libc.musl-armhf.so.1	musl

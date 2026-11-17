@@ -1,0 +1,14 @@
+name	cargo-hack
+version	0.6.45-r0
+description	Cargo subcommand to provide various options useful for testing and continuous integration.
+url	https://github.com/taiki-e/cargo-hack
+license	MIT OR Apache-2.0
+size	614199
+installed-size	1203856
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	cargo-hack
+repo	community
+file	cargo-hack-0.6.45-r0.apk
+checksum	Q1+bnr+VZ+2cTU3LjxhzlD2ytAVQ0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

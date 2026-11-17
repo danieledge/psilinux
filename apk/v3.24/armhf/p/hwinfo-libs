@@ -1,0 +1,14 @@
+name	hwinfo-libs
+version	25.4-r0
+description	Hardware information tool (libraries)
+url	https://github.com/openSUSE/hwinfo
+license	GPL-2.0-or-later
+size	1050528
+installed-size	3391112
+depends	so:libc.musl-armhf.so.1 so:libuuid.so.1
+origin	hwinfo
+repo	community
+file	hwinfo-libs-25.4-r0.apk
+checksum	Q1G9vBmiSrQgWy1y/7AyZ9u8v0IjY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libuuid.so.1	libuuid

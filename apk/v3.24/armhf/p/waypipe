@@ -1,0 +1,16 @@
+name	waypipe
+version	0.11.0-r1
+description	proxy for Wayland clients
+url	https://gitlab.freedesktop.org/mstoeckl/waypipe
+license	MIT
+size	756580
+installed-size	1612848
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblz4.so.1 so:libzstd.so.1
+origin	waypipe
+repo	community
+file	waypipe-0.11.0-r1.apk
+checksum	Q1ux20JQZlVTefK7QqVqRgJ8THa6M=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblz4.so.1	lz4-libs
+dep	so:libzstd.so.1	zstd-libs

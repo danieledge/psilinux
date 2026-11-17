@@ -1,0 +1,31 @@
+name	netsurf
+version	3.11-r1
+description	free, open source web browser
+url	http://www.netsurf-browser.org
+license	GPL-2.0-or-later
+size	2128653
+installed-size	5838182
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcrypto.so.3 so:libcurl.so.4 so:libexpat.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libjpeg.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpng16.so.16 so:librsvg-2.so.2 so:libssl.so.3 so:libwebp.so.7 so:libz.so.1
+origin	netsurf
+repo	community
+file	netsurf-3.11-r1.apk
+checksum	Q1uGse+mfDrOkVB0UJNcS/q3bhwHo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libexpat.so.1	libexpat
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpng16.so.16	libpng
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libssl.so.3	libssl3
+dep	so:libwebp.so.7	libwebp
+dep	so:libz.so.1	zlib

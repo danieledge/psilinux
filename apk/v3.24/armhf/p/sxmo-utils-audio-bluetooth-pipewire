@@ -1,0 +1,14 @@
+name	sxmo-utils-audio-bluetooth-pipewire
+version	1.18.1-r4
+description	Utility scripts, programs, and configs that hold the Sxmo UI environment together
+url	https://git.sr.ht/~mil/sxmo-utils
+license	AGPL-3.0-only
+size	1358
+installed-size	0
+depends	bluez pipewire-spa-bluez
+origin	sxmo-utils
+repo	community
+file	sxmo-utils-audio-bluetooth-pipewire-1.18.1-r4.apk
+checksum	Q10a1c1yvU2y8R4lHKq11hKRd46Wk=
+dep	bluez	bluez
+dep	pipewire-spa-bluez	pipewire-spa-bluez

@@ -1,0 +1,18 @@
+name	php84-pecl-imagick
+version	3.8.1-r0
+description	PHP 8.4 extension provides a wrapper to the ImageMagick library - PECL
+url	https://pecl.php.net/package/imagick
+license	PHP-3.01
+size	107672
+installed-size	357974
+depends	php84-common imagemagick so:libMagickCore-7.Q16HDRI.so.10 so:libMagickWand-7.Q16HDRI.so.10 so:libc.musl-armhf.so.1 so:libgomp.so.1
+origin	php84-pecl-imagick
+repo	community
+file	php84-pecl-imagick-3.8.1-r0.apk
+checksum	Q1DG2O1Iydq6Wh9rKDha+oAa+py1A=
+dep	php84-common	php84-common
+dep	imagemagick	imagemagick
+dep	so:libMagickCore-7.Q16HDRI.so.10	imagemagick-libs
+dep	so:libMagickWand-7.Q16HDRI.so.10	imagemagick-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgomp.so.1	libgomp

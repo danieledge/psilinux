@@ -1,0 +1,19 @@
+name	ledger
+version	3.4.1-r0
+description	Double-entry accounting system with a command-line reporting interface
+url	https://www.ledger-cli.org/
+license	BSD-3-Clause
+size	1188524
+installed-size	3511920
+depends	so:libboost_filesystem.so.1.84.0 so:libboost_iostreams.so.1.84.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgmp.so.10 so:libmpfr.so.6 so:libstdc++.so.6
+origin	ledger
+repo	community
+file	ledger-3.4.1-r0.apk
+checksum	Q1/Bgm3Ux4PDTfkmu/DKn4NKzqkRs=
+dep	so:libboost_filesystem.so.1.84.0	boost1.84-filesystem
+dep	so:libboost_iostreams.so.1.84.0	boost1.84-iostreams
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgmp.so.10	gmp
+dep	so:libmpfr.so.6	mpfr4
+dep	so:libstdc++.so.6	libstdc++

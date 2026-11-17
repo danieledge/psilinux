@@ -1,0 +1,20 @@
+name	qwt-dev
+version	6.3.0-r0
+description	Qt Widgets for Technical Applications (development files)
+url	https://qwt.sourceforge.io/
+license	custom
+size	123827
+installed-size	491871
+depends	qt5-qwt=6.3.0-r0 qt6-qwt=6.3.0-r0 pc:Qt5Concurrent pc:Qt5OpenGL pc:Qt5PrintSupport pc:Qt5Svg pc:Qt5Widgets pkgconfig
+origin	qwt
+repo	community
+file	qwt-dev-6.3.0-r0.apk
+checksum	Q1wzb5+j4Vg0n9ge2g356awaNqROk=
+dep	qt5-qwt=6.3.0-r0	qt5-qwt
+dep	qt6-qwt=6.3.0-r0	qt6-qwt
+dep	pc:Qt5Concurrent	qt5-qtbase-dev
+dep	pc:Qt5OpenGL	qt5-qtbase-dev
+dep	pc:Qt5PrintSupport	qt5-qtbase-dev
+dep	pc:Qt5Svg	qt5-qtsvg-dev
+dep	pc:Qt5Widgets	qt5-qtbase-dev
+dep	pkgconfig	pkgconf

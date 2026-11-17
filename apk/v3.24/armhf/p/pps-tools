@@ -1,0 +1,13 @@
+name	pps-tools
+version	1.0.3-r0
+description	User-space tools for LinuxPPS
+url	https://github.com/redlab-i/pps-tools
+license	GPL-2.0-or-later
+size	10757
+installed-size	34559
+depends	so:libc.musl-armhf.so.1
+origin	pps-tools
+repo	community
+file	pps-tools-1.0.3-r0.apk
+checksum	Q1AaniitaxJVjFq49+JMl0GQZ5PCc=
+dep	so:libc.musl-armhf.so.1	musl

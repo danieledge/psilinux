@@ -1,0 +1,17 @@
+name	znc-modpython
+version	1.10.3-r0
+description	Python modules for ZNC
+url	https://wiki.znc.in/ZNC
+license	Apache-2.0
+size	797569
+installed-size	3240254
+depends	znc=1.10.3-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpython3.14.so.1.0 so:libstdc++.so.6
+origin	znc
+repo	community
+file	znc-modpython-1.10.3-r0.apk
+checksum	Q1N960orcy2QRGrpiHnT4naDIG+RQ=
+dep	znc=1.10.3-r0	znc
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpython3.14.so.1.0	python3
+dep	so:libstdc++.so.6	libstdc++

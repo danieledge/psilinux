@@ -1,0 +1,57 @@
+name	evolution
+version	3.60.2-r0
+description	Evolution mail client
+url	https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
+license	GPL-2.0-or-later
+size	5249410
+installed-size	15070116
+depends	highlight gsettings-desktop-schemas so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo-gobject.so.2 so:libcairo.so.2 so:libcamel-1.2.so.67 so:libcanberra.so.0 so:libcmark.so.0.31.2 so:libebook-1.2.so.21 so:libebook-contacts-1.2.so.5 so:libecal-2.0.so.3 so:libedataserver-1.2.so.27 so:libedataserverui-1.2.so.4 so:libenchant-2.so.2 so:libgailutil-3.so.0 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgeocode-glib-2.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgnome-autoar-0.so.0 so:libgnome-desktop-3.so.20 so:libgobject-2.0.so.0 so:libgspell-1.so.3 so:libgtk-3.so.0 so:libgweather-4.so.0 so:libical-glib.so.3 so:libical.so.3 so:libicalvcal.so.3 so:libintl.so.8 so:libjavascriptcoregtk-4.1.so.0 so:libldap.so.2 so:libnotify.so.4 so:libnspr4.so so:libnss3.so so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libsecret-1.so.0 so:libsmime3.so so:libsoup-3.0.so.0 so:libsqlite3.so.0 so:libwebkit2gtk-4.1.so.0 so:libxml2.so.2
+origin	evolution
+repo	community
+file	evolution-3.60.2-r0.apk
+checksum	Q1pnEbvMEpL6+EcCtOYKGwE/gJ4ZY=
+dep	highlight	highlight
+dep	gsettings-desktop-schemas	gsettings-desktop-schemas
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo-gobject.so.2	cairo-gobject
+dep	so:libcairo.so.2	cairo
+dep	so:libcamel-1.2.so.67	evolution-data-server
+dep	so:libcanberra.so.0	libcanberra
+dep	so:libcmark.so.0.31.2	libcmark
+dep	so:libebook-1.2.so.21	evolution-data-server
+dep	so:libebook-contacts-1.2.so.5	evolution-data-server
+dep	so:libecal-2.0.so.3	evolution-data-server
+dep	so:libedataserver-1.2.so.27	evolution-data-server
+dep	so:libedataserverui-1.2.so.4	evolution-data-server
+dep	so:libenchant-2.so.2	enchant2-libs
+dep	so:libgailutil-3.so.0	gtk+3.0
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgeocode-glib-2.so.0	geocode-glib
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgnome-autoar-0.so.0	gnome-autoar
+dep	so:libgnome-desktop-3.so.20	libgnome-desktop-3
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgspell-1.so.3	gspell
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgweather-4.so.0	libgweather4
+dep	so:libical-glib.so.3	libical
+dep	so:libical.so.3	libical
+dep	so:libicalvcal.so.3	libical
+dep	so:libintl.so.8	libintl
+dep	so:libjavascriptcoregtk-4.1.so.0	webkit2gtk-4.1
+dep	so:libldap.so.2	libldap
+dep	so:libnotify.so.4	libnotify
+dep	so:libnspr4.so	nspr
+dep	so:libnss3.so	nss
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libsecret-1.so.0	libsecret
+dep	so:libsmime3.so	nss
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libwebkit2gtk-4.1.so.0	webkit2gtk-4.1
+dep	so:libxml2.so.2	libxml2

@@ -1,0 +1,19 @@
+name	libzbargtk
+version	0.23.93-r2
+description	Port of ZBAR BAR CODE READER (Gtk+3 library)
+url	https://zbar.sourceforge.net/
+license	LGPL-2.0-or-later
+size	9354
+installed-size	21676
+depends	so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libzbar.so.0
+origin	zbar
+repo	community
+file	libzbargtk-0.23.93-r2.apk
+checksum	Q1CeH6b0aI5Qf1ORq5/GczbotHUnA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libzbar.so.0	libzbar

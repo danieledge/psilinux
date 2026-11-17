@@ -1,0 +1,13 @@
+name	talloc
+version	2.4.4-r1
+description	Memory pool management library
+url	https://talloc.samba.org
+license	LGPL-3.0-or-later
+size	16850
+installed-size	34024
+depends	so:libc.musl-armhf.so.1
+origin	talloc
+repo	main
+file	talloc-2.4.4-r1.apk
+checksum	Q10nOzCo0rk9xmBKEPZhcC1Ray+xI=
+dep	so:libc.musl-armhf.so.1	musl

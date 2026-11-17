@@ -1,0 +1,13 @@
+name	sox-static
+version	14.4.2-r14
+description	The Swiss Army knife of sound processing tools (static library)
+url	https://sox.sourceforge.net/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	287933
+installed-size	781608
+depends	sox-dev
+origin	sox
+repo	community
+file	sox-static-14.4.2-r14.apk
+checksum	Q1Y7BwNG8URt5jo92E2kgfUvWRmXk=
+dep	sox-dev	sox-dev

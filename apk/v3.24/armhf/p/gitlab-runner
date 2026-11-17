@@ -1,0 +1,14 @@
+name	gitlab-runner
+version	19.5.2-r0
+description	GitLab runner for CI/CD jobs
+url	https://docs.gitlab.com/runner/
+license	MIT
+size	35507335
+installed-size	120764432
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	gitlab-runner
+repo	community
+file	gitlab-runner-19.5.2-r0.apk
+checksum	Q1Ou9FsOdH86rbknOCsN2eksnlttE=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

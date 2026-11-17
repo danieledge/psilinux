@@ -1,0 +1,17 @@
+name	ddclient
+version	4.0.0-r2
+description	Ddclient is a Perl client used to update dynamic DNS entries for accounts on 'Dynamic DNS Network Services' free DNS service.
+url	https://ddclient.net/
+license	GPL-2.0-only
+size	72635
+installed-size	327745
+depends	curl net-tools perl perl-digest-sha1 /bin/sh
+origin	ddclient
+repo	community
+file	ddclient-4.0.0-r2.apk
+checksum	Q1hO3dLuuFuxSTwiUQUZ+X1OWRpik=
+dep	curl	curl
+dep	net-tools	net-tools
+dep	perl	perl
+dep	perl-digest-sha1	perl-digest-sha1
+dep	/bin/sh	busybox-binsh

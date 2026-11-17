@@ -1,0 +1,13 @@
+name	tinycompress
+version	1.2.13-r3
+description	Userspace library for ALSA compressed APIs
+url	https://alsa-project.org/
+license	BSD-3-Clause OR LGPL-2.1-only
+size	18244
+installed-size	49016
+depends	so:libc.musl-armhf.so.1
+origin	tinycompress
+repo	community
+file	tinycompress-1.2.13-r3.apk
+checksum	Q1AuKb9Cb+BuZMqD7Lts4PjQANSgU=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	lcms2
+version	2.19-r0
+description	Color Management Engine
+url	https://www.littlecms.com
+license	MIT
+size	142780
+installed-size	310160
+depends	so:libc.musl-armhf.so.1
+origin	lcms2
+repo	main
+file	lcms2-2.19-r0.apk
+checksum	Q1tA366of3Y03ekyj8Tt6vGb2o6LQ=
+dep	so:libc.musl-armhf.so.1	musl

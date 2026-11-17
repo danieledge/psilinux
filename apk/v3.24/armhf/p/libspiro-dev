@@ -1,0 +1,14 @@
+name	libspiro-dev
+version	20240903-r0
+description	Library to simplify the drawing of beautiful curves (development files)
+url	https://github.com/fontforge/libspiro
+license	GPL-3.0-or-later
+size	4600
+installed-size	7618
+depends	libspiro=20240903-r0 pkgconfig
+origin	libspiro
+repo	community
+file	libspiro-dev-20240903-r0.apk
+checksum	Q1DhBPCwSGOB6NyRlbqg78mHfaZd4=
+dep	libspiro=20240903-r0	libspiro
+dep	pkgconfig	pkgconf

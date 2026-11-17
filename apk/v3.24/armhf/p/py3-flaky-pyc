@@ -1,0 +1,13 @@
+name	py3-flaky-pyc
+version	3.8.1-r3
+description	Precompiled Python bytecode for py3-flaky
+url	https://github.com/box/flaky
+license	Apache-2.0
+size	20046
+installed-size	49153
+depends	python3~3.14
+origin	py3-flaky
+repo	main
+file	py3-flaky-pyc-3.8.1-r3.apk
+checksum	Q1L9k3OGsEkynUos/K3pjg0J/f4A8=
+dep	python3~3.14	python3

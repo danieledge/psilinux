@@ -1,0 +1,13 @@
+name	solid-dev
+version	6.26.0-r0
+description	Hardware integration and detection (development files)
+url	https://community.kde.org/Frameworks
+license	LGPL-2.1-only OR LGPL-3.0-only
+size	24925
+installed-size	101006
+depends	solid-libs=6.26.0-r0
+origin	solid
+repo	community
+file	solid-dev-6.26.0-r0.apk
+checksum	Q1AIjQMTe89Ib6NOqeW37lvS+lHAw=
+dep	solid-libs=6.26.0-r0	solid-libs

@@ -1,0 +1,14 @@
+name	lv2-dev
+version	1.18.10-r1
+description	extensible open standard for audio plugins (development files)
+url	https://lv2plug.in
+license	ISC
+size	101908
+installed-size	421985
+depends	lv2-specgen=1.18.10-r1 pkgconfig
+origin	lv2
+repo	community
+file	lv2-dev-1.18.10-r1.apk
+checksum	Q1ZkmZ+9nibYdohf8OxFN3uk4Ddck=
+dep	lv2-specgen=1.18.10-r1	lv2-specgen
+dep	pkgconfig	pkgconf

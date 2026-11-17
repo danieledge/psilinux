@@ -1,0 +1,14 @@
+name	safeeyes-x11
+version	3.3.1-r1
+description	Protect your eyes from eye strain using this simple and beautiful, yet extensible break reminder
+url	https://slgobinath.github.io/safeeyes/
+license	GPL-3.0-only
+size	1344
+installed-size	0
+depends	py3-xlib xprintidle
+origin	safeeyes
+repo	community
+file	safeeyes-x11-3.3.1-r1.apk
+checksum	Q18AxOKpqj9PQBdrK+zD3TMJsYRmg=
+dep	py3-xlib	py3-xlib
+dep	xprintidle	xprintidle

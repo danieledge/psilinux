@@ -1,0 +1,27 @@
+name	pipewire-libs
+version	1.6.8-r4
+description	Multimedia processing graphs (libraries)
+url	https://pipewire.org/
+license	MIT AND LGPL-2.1-or-later
+size	2646719
+installed-size	6249801
+depends	so:libasound.so.2 so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-armhf.so.1 so:libcamera-base.so.0.7 so:libcamera.so.0.7 so:libdbus-1.so.3 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libintl.so.8 so:libopus.so.0 so:libroc.so.0.4 so:libstdc++.so.6 so:libudev.so.1 so:libwebrtc-audio-processing-2.so.1
+origin	pipewire
+repo	community
+file	pipewire-libs-1.6.8-r4.apk
+checksum	Q1A+kkExRYBYxGPIJE9lgdmi44Lgk=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcamera-base.so.0.7	libcamera
+dep	so:libcamera.so.0.7	libcamera
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libopus.so.0	opus
+dep	so:libroc.so.0.4	roc-toolkit-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libudev.so.1	eudev-libs
+dep	so:libwebrtc-audio-processing-2.so.1	webrtc-audio-processing-2

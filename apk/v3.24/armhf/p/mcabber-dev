@@ -1,0 +1,16 @@
+name	mcabber-dev
+version	1.1.2-r6
+description	Small Jabber console client (development files)
+url	https://mcabber.com
+license	GPL-2.0-or-later
+size	18537
+installed-size	53753
+depends	pc:glib-2.0 pc:gmodule-2.0 pc:loudmouth-1.0 pkgconfig
+origin	mcabber
+repo	community
+file	mcabber-dev-1.1.2-r6.apk
+checksum	Q1TN8btRBFATojYfhmOp5uWjl7maA=
+dep	pc:glib-2.0	glib-dev
+dep	pc:gmodule-2.0	glib-dev
+dep	pc:loudmouth-1.0	loudmouth-dev
+dep	pkgconfig	pkgconf

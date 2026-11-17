@@ -1,0 +1,18 @@
+name	mugshot
+version	0.4.3-r8
+description	Lightweight user configuration utility
+url	https://github.com/bluesabre/mugshot
+license	GPL-3.0-or-later
+size	105393
+installed-size	535990
+depends	python3 shadow py3-cairo py3-gobject3 py3-pexpect python3~3.14
+origin	mugshot
+repo	community
+file	mugshot-0.4.3-r8.apk
+checksum	Q1F1tJjWg+6aCuLFlYqML5KwJzFE4=
+dep	python3	python3
+dep	shadow	shadow
+dep	py3-cairo	py3-cairo
+dep	py3-gobject3	py3-gobject3
+dep	py3-pexpect	py3-pexpect
+dep	python3~3.14	python3

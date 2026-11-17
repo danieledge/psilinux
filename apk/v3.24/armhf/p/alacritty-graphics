@@ -1,0 +1,21 @@
+name	alacritty-graphics
+version	0.17.0-r1
+description	GPU-accelerated terminal emulator with Sixel and iTerm2 patches
+url	https://github.com/ayosec/alacritty
+license	Apache-2.0
+size	2265365
+installed-size	4768217
+depends	ncurses-terminfo-base wayland-libs-egl libxi libxcursor libxkbcommon-x11 so:libc.musl-armhf.so.1 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgcc_s.so.1
+origin	alacritty-graphics
+repo	community
+file	alacritty-graphics-0.17.0-r1.apk
+checksum	Q1c0o1tQ89SVx2iXYcTZFpcqyo8pE=
+dep	ncurses-terminfo-base	ncurses-terminfo-base
+dep	wayland-libs-egl	wayland-libs-egl
+dep	libxi	libxi
+dep	libxcursor	libxcursor
+dep	libxkbcommon-x11	libxkbcommon-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc

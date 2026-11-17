@@ -1,0 +1,14 @@
+name	libharu-dev
+version	2.4.6-r0
+description	C library for generating PDF documents (development files)
+url	https://github.com/libharu/libharu
+license	custom
+size	48936
+installed-size	291639
+depends	libpng-dev libharu=2.4.6-r0
+origin	libharu
+repo	community
+file	libharu-dev-2.4.6-r0.apk
+checksum	Q1+1eXXaJRdbf1M9OQ2tnpUYuuVjw=
+dep	libpng-dev	libpng-dev
+dep	libharu=2.4.6-r0	libharu

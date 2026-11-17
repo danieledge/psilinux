@@ -1,0 +1,16 @@
+name	advancecomp
+version	2.6-r0
+description	A collection of recompression utilities for your .ZIP archives, .PNG snapshots, .MNG video clips and .GZ files
+url	https://www.advancemame.it/
+license	GPL-3.0-or-later
+size	477762
+installed-size	928648
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1
+origin	advancecomp
+repo	community
+file	advancecomp-2.6-r0.apk
+checksum	Q1y176ispgytM8baf4QDAlxHvHtas=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

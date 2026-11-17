@@ -1,0 +1,13 @@
+name	reap
+version	0.2-r0
+description	Run process until all its spawned processes are dead
+url	https://git.vuxu.org/reap/
+license	CC0-1.0
+size	4938
+installed-size	9388
+depends	so:libc.musl-armhf.so.1
+origin	reap
+repo	community
+file	reap-0.2-r0.apk
+checksum	Q1EGyYxD/zRgRrvtT9aZ180n7YwYM=
+dep	so:libc.musl-armhf.so.1	musl

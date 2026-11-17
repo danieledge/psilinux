@@ -1,0 +1,16 @@
+name	xvfb-run
+version	1.20.10.3-r2
+description	A wrapper for the Xvfb command which simplifies the task of running commands.
+url	https://salsa.debian.org/xorg-team/xserver/xorg-server/tree/debian-unstable/debian/local
+license	GPL-2.0-or-later
+size	4070
+installed-size	5696
+depends	xauth xvfb cmd:fmt mcookie
+origin	xvfb-run
+repo	community
+file	xvfb-run-1.20.10.3-r2.apk
+checksum	Q10KnBpkElLnSLOeFvuDVDPon19Qw=
+dep	xauth	xauth
+dep	xvfb	xvfb
+dep	cmd:fmt	coreutils-fmt
+dep	mcookie	mcookie

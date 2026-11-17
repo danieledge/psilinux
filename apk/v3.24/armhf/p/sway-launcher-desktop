@@ -1,0 +1,15 @@
+name	sway-launcher-desktop
+version	1.7.0-r1
+description	Text based launcher menu
+url	https://github.com/Biont/sway-launcher-desktop
+license	GPL-3.0-only
+size	5779
+installed-size	12134
+depends	bash gawk fzf
+origin	sway-launcher-desktop
+repo	community
+file	sway-launcher-desktop-1.7.0-r1.apk
+checksum	Q1oEef+bbqvP/d3nSXgGUw46OwySk=
+dep	bash	bash
+dep	gawk	gawk
+dep	fzf	fzf

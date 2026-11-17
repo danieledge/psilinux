@@ -1,0 +1,13 @@
+name	gnome-music-pyc
+version	49.1-r2
+description	Precompiled Python bytecode for gnome-music
+url	https://apps.gnome.org/Music
+license	GPL-2.0-or-later
+size	235405
+installed-size	698486
+depends	python3~3.14
+origin	gnome-music
+repo	community
+file	gnome-music-pyc-49.1-r2.apk
+checksum	Q12pzy0ttp48+w7/w3W2qmmnzJjE8=
+dep	python3~3.14	python3

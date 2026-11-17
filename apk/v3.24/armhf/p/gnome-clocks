@@ -1,0 +1,26 @@
+name	gnome-clocks
+version	50.0-r0
+description	Keep track of time
+url	https://apps.gnome.org/Clocks
+license	GPL-2.0-or-later
+size	1827237
+installed-size	2234092
+depends	gsettings-desktop-schemas so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libgeoclue-2.so.0 so:libgeocode-glib-2.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgnome-desktop-4.so.2 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libgweather-4.so.0 so:libicui18n.so.78 so:libicuuc.so.78 so:libintl.so.8
+origin	gnome-clocks
+repo	community
+file	gnome-clocks-50.0-r0.apk
+checksum	Q1TF9/NlCtU55ZuuWr+X04Vqk4He8=
+dep	gsettings-desktop-schemas	gsettings-desktop-schemas
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgeoclue-2.so.0	geoclue
+dep	so:libgeocode-glib-2.so.0	geocode-glib
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgnome-desktop-4.so.2	libgnome-desktop-4
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libgweather-4.so.0	libgweather4
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libintl.so.8	libintl

@@ -1,0 +1,14 @@
+name	fdk-aac
+version	2.0.2-r4
+description	Fraunhofer FDK AAC codec library
+url	https://gitlab.freedesktop.org/wtaymans/fdk-aac-stripped
+license	FDK-AAC
+size	317619
+installed-size	554520
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	fdk-aac
+repo	community
+file	fdk-aac-2.0.2-r4.apk
+checksum	Q10r0mvXjL3tD6HU93vxc1Mb73m3w=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

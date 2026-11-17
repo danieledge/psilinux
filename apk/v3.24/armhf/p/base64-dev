@@ -1,0 +1,14 @@
+name	base64-dev
+version	0.5.2-r2
+description	Fast Base64 stream encoder/decoder in C99, with SIMD acceleration (development files)
+url	https://github.com/aklomp/base64
+license	BSD-2-Clause
+size	6544
+installed-size	14965
+depends	libbase64=0.5.2-r2 pkgconfig
+origin	base64
+repo	main
+file	base64-dev-0.5.2-r2.apk
+checksum	Q1utyhGy0wRboGfCIdrWPG2S5Pe3o=
+dep	libbase64=0.5.2-r2	libbase64
+dep	pkgconfig	pkgconf

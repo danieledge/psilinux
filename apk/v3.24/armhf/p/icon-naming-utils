@@ -1,0 +1,14 @@
+name	icon-naming-utils
+version	0.8.90-r4
+description	Maps the new names of icons for Tango to the legacy names used by the GNOME and KDE desktops.
+url	http://tango.freedesktop.org/
+license	GPL-2.0-or-later
+size	8875
+installed-size	39441
+depends	perl-xml-simple pkgconfig
+origin	icon-naming-utils
+repo	main
+file	icon-naming-utils-0.8.90-r4.apk
+checksum	Q13Kgjz4l3BPICwcauBvJ81NEbZKQ=
+dep	perl-xml-simple	perl-xml-simple
+dep	pkgconfig	pkgconf

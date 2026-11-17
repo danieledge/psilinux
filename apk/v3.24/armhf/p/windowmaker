@@ -1,0 +1,23 @@
+name	windowmaker
+version	0.96.0-r0
+description	Window manager for X emulating the NeXTSTEP user interface
+url	https://windowmaker.org/
+license	GPL-2.0-or-later
+size	1280994
+installed-size	2695041
+depends	so:libX11.so.6 so:libXext.so.6 so:libXft.so.2 so:libXinerama.so.1 so:libXmu.so.6 so:libc.musl-armhf.so.1 so:libfontconfig.so.1 so:libjpeg.so.8 so:libpng16.so.16 so:libtiff.so.6 so:libwebp.so.7
+origin	windowmaker
+repo	community
+file	windowmaker-0.96.0-r0.apk
+checksum	Q131zQfmPcCKpM29uYcAJDooiF7Lw=
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXft.so.2	libxft
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libXmu.so.6	libxmu
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpng16.so.16	libpng
+dep	so:libtiff.so.6	tiff
+dep	so:libwebp.so.7	libwebp

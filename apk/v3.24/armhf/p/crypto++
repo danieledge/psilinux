@@ -1,0 +1,15 @@
+name	crypto++
+version	8.9.0-r2
+description	Free C++ class library of cryptographic schemes
+url	https://github.com/weidai11/cryptopp
+license	BSL-1.0
+size	1006601
+installed-size	2788816
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	crypto++
+repo	community
+file	crypto++-8.9.0-r2.apk
+checksum	Q14rctyym7DiroV/ir5BMbAanM8V8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

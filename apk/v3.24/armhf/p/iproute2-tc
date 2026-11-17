@@ -1,0 +1,17 @@
+name	iproute2-tc
+version	7.0.0-r0
+description	IP Routing Utilities (traffic control and XDP support)
+url	https://wiki.linuxfoundation.org/networking/iproute2
+license	GPL-2.0-or-later
+size	272746
+installed-size	606006
+depends	so:libc.musl-armhf.so.1 so:libcap.so.2 so:libelf.so.1 so:libmnl.so.0 so:libxtables.so.12
+origin	iproute2
+repo	main
+file	iproute2-tc-7.0.0-r0.apk
+checksum	Q1J2VPfXfWufQybLqbghTTOOlgGko=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libelf.so.1	libelf
+dep	so:libmnl.so.0	libmnl
+dep	so:libxtables.so.12	libxtables

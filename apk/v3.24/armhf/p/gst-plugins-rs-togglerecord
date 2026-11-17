@@ -1,0 +1,20 @@
+name	gst-plugins-rs-togglerecord
+version	0.15.2-r0
+description	Gstreamer rust plugin for togglerecord
+url	https://gitlab.freedesktop.org/gstreamer/gst-plugins-rs
+license	MIT AND Apache-2.0 AND MPL-2.0 AND LGPL-2.1-or-later
+size	269606
+installed-size	547900
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstaudio-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0
+origin	gst-plugins-rs
+repo	community
+file	gst-plugins-rs-togglerecord-0.15.2-r0.apk
+checksum	Q1iKmt2y/DgrmolOSyr7M7akZvDiw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstaudio-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base

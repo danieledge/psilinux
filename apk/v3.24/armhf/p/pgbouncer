@@ -1,0 +1,18 @@
+name	pgbouncer
+version	1.25.2-r0
+description	Lightweight connection pooler for PostgreSQL
+url	https://www.pgbouncer.org/
+license	ISC
+size	203710
+installed-size	439241
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcares.so.2 so:libcrypto.so.3 so:libevent-2.1.so.7 so:libssl.so.3
+origin	pgbouncer
+repo	community
+file	pgbouncer-1.25.2-r0.apk
+checksum	Q1amNOyWXbg7n7jwnY8J4P154KdPQ=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcares.so.2	c-ares
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libevent-2.1.so.7	libevent
+dep	so:libssl.so.3	libssl3

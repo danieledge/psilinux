@@ -1,0 +1,16 @@
+name	farbfeld
+version	4-r2
+description	Lossless image format which is easy to parse, pipe and compress
+url	https://tools.suckless.org/farbfeld/
+license	ISC
+size	15608
+installed-size	57584
+depends	file so:libc.musl-armhf.so.1 so:libjpeg.so.8 so:libpng16.so.16
+origin	farbfeld
+repo	community
+file	farbfeld-4-r2.apk
+checksum	Q1o008qk3b/1z+5niZcS7WOgvGv+0=
+dep	file	file
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpng16.so.16	libpng

@@ -1,0 +1,66 @@
+name	gst-plugins-good
+version	1.28.3-r0
+description	GStreamer streaming media framework good plugins
+url	https://gstreamer.freedesktop.org
+license	GPL-2.0-or-later LGPL-2.0-or-later
+size	2981807
+installed-size	6676828
+depends	libsoup3 so:libFLAC.so.12 so:libX11.so.6 so:libXdamage.so.1 so:libXext.so.6 so:libXfixes.so.3 so:libXtst.so.6 so:libavc1394.so.0 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcairo-gobject.so.2 so:libcairo.so.2 so:libcrypto.so.3 so:libdv.so.4 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgstallocators-1.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstfft-1.0.so.0 so:libgstnet-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstriff-1.0.so.0 so:libgstrtp-1.0.so.0 so:libgstrtsp-1.0.so.0 so:libgstsdp-1.0.so.0 so:libgsttag-1.0.so.0 so:libgstvideo-1.0.so.0 so:libgudev-1.0.so.0 so:libiec61883.so.0 so:libintl.so.8 so:libjpeg.so.8 so:libmp3lame.so.0 so:libmpg123.so.0 so:libopencore-amrnb.so.0 so:libopencore-amrwb.so.0 so:liborc-0.4.so.0 so:libpng16.so.16 so:libpulse.so.0 so:libraw1394.so.11 so:librom1394.so.0 so:libshout.so.3 so:libspeex.so.1 so:libstdc++.so.6 so:libtag.so.2 so:libvpx.so.11 so:libwavpack.so.1 so:libxml2.so.2 so:libz.so.1
+origin	gst-plugins-good
+repo	community
+file	gst-plugins-good-1.28.3-r0.apk
+checksum	Q19Pv8UVY79jKIE+uqjs/dAoODhRI=
+dep	libsoup3	libsoup3
+dep	so:libFLAC.so.12	libflac
+dep	so:libX11.so.6	libx11
+dep	so:libXdamage.so.1	libxdamage
+dep	so:libXext.so.6	libxext
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXtst.so.6	libxtst
+dep	so:libavc1394.so.0	libavc1394
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo-gobject.so.2	cairo-gobject
+dep	so:libcairo.so.2	cairo
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libdv.so.4	libdv
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstallocators-1.0.so.0	gst-plugins-base
+dep	so:libgstaudio-1.0.so.0	gst-plugins-base
+dep	so:libgstbase-1.0.so.0	gstreamer
+dep	so:libgstfft-1.0.so.0	gst-plugins-base
+dep	so:libgstnet-1.0.so.0	gstreamer
+dep	so:libgstpbutils-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstriff-1.0.so.0	gst-plugins-base
+dep	so:libgstrtp-1.0.so.0	gst-plugins-base
+dep	so:libgstrtsp-1.0.so.0	gst-plugins-base
+dep	so:libgstsdp-1.0.so.0	gst-plugins-base
+dep	so:libgsttag-1.0.so.0	gst-plugins-base
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base
+dep	so:libgudev-1.0.so.0	libgudev
+dep	so:libiec61883.so.0	libiec61883
+dep	so:libintl.so.8	libintl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libmp3lame.so.0	lame-libs
+dep	so:libmpg123.so.0	mpg123-libs
+dep	so:libopencore-amrnb.so.0	opencore-amr
+dep	so:libopencore-amrwb.so.0	opencore-amr
+dep	so:liborc-0.4.so.0	orc
+dep	so:libpng16.so.16	libpng
+dep	so:libpulse.so.0	libpulse
+dep	so:libraw1394.so.11	libraw1394
+dep	so:librom1394.so.0	libavc1394
+dep	so:libshout.so.3	libshout
+dep	so:libspeex.so.1	speex
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtag.so.2	libtag
+dep	so:libvpx.so.11	libvpx
+dep	so:libwavpack.so.1	wavpack-libs
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

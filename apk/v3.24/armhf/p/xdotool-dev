@@ -1,0 +1,18 @@
+name	xdotool-dev
+version	4.20260303.1-r0
+description	Simulate X11 keyboard/mouse input events (development files)
+url	https://github.com/jordansissel/xdotool
+license	BSD-3-Clause
+size	9276
+installed-size	29125
+depends	libxinerama-dev libxkbcommon-dev libxtst-dev xdotool=4.20260303.1-r0 pc:x11 pkgconfig
+origin	xdotool
+repo	community
+file	xdotool-dev-4.20260303.1-r0.apk
+checksum	Q1cldwro44znPjUU1uq11sY3Kj3n4=
+dep	libxinerama-dev	libxinerama-dev
+dep	libxkbcommon-dev	libxkbcommon-dev
+dep	libxtst-dev	libxtst-dev
+dep	xdotool=4.20260303.1-r0	xdotool
+dep	pc:x11	libx11-dev
+dep	pkgconfig	pkgconf

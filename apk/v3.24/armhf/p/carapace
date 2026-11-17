@@ -1,0 +1,13 @@
+name	carapace
+version	1.5.7-r7
+description	Multi-shell multi-command argument completer
+url	https://carapace.sh/
+license	MIT
+size	14413857
+installed-size	55640316
+depends	so:libc.musl-armhf.so.1
+origin	carapace
+repo	community
+file	carapace-1.5.7-r7.apk
+checksum	Q1K+fHxgYqM0PVK8OvIl1i22iBjxo=
+dep	so:libc.musl-armhf.so.1	musl

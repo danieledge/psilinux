@@ -1,0 +1,15 @@
+name	exim-postgresql
+version	4.99.5-r0
+description	EXIM extension: pgsql
+url	https://www.exim.org/
+license	GPL-2.0-or-later
+size	5790
+installed-size	9392
+depends	exim=4.99.5-r0 so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	exim
+repo	community
+file	exim-postgresql-4.99.5-r0.apk
+checksum	Q1przLjY1pGK0wADaMxiSwZvGlcn8=
+dep	exim=4.99.5-r0	exim
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

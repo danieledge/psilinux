@@ -1,0 +1,26 @@
+name	libshumate
+version	1.6.2-r0
+description	GTK4 widget to display maps
+url	https://gitlab.gnome.org/GNOME/libshumate
+license	LGPL-2.1-or-later
+size	145452
+installed-size	367700
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libpango-1.0.so.0 so:libprotobuf-c.so.1 so:libsoup-3.0.so.0 so:libsqlite3.so.0
+origin	libshumate
+repo	community
+file	libshumate-1.6.2-r0.apk
+checksum	Q1k4MawRd0rPBs8OVhxEDujoalJy0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libprotobuf-c.so.1	protobuf-c
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libsqlite3.so.0	sqlite-libs

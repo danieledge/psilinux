@@ -1,0 +1,19 @@
+name	freeradius-eap
+version	3.0.27-r3
+description	EAP module for FreeRADIUS server
+url	https://freeradius.org/
+license	GPL-2.0-or-later
+size	170619
+installed-size	435145
+depends	freeradius=3.0.27-r3 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libfreeradius-radius.so so:libfreeradius-server.so so:libssl.so.3 so:libtalloc.so.2
+origin	freeradius
+repo	main
+file	freeradius-eap-3.0.27-r3.apk
+checksum	Q18+DYGr5c0M84sqcOYVBG8A7omPM=
+dep	freeradius=3.0.27-r3	freeradius
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libfreeradius-radius.so	freeradius-lib
+dep	so:libfreeradius-server.so	freeradius-lib
+dep	so:libssl.so.3	libssl3
+dep	so:libtalloc.so.2	talloc

@@ -1,0 +1,15 @@
+name	himalaya
+version	1.2.0-r1
+description	CLI email client
+url	https://github.com/soywod/himalaya
+license	MIT
+size	4106515
+installed-size	8358612
+depends	notmuch so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	himalaya
+repo	community
+file	himalaya-1.2.0-r1.apk
+checksum	Q1t9NJHEvzKjw/m+dS6GS+XRCbrhY=
+dep	notmuch	notmuch
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

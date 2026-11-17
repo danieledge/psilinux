@@ -1,0 +1,19 @@
+name	libcprime-dev
+version	5.0.0-r0
+description	Library for bookmarking, saving activities, sharing files and more (development files)
+url	https://gitlab.com/cubocore
+license	GPL-3.0-or-later
+size	11243
+installed-size	43049
+depends	libcprime=5.0.0-r0 pc:Qt6Core pc:Qt6DBus pc:Qt6Gui pc:Qt6Network pc:Qt6Widgets pkgconfig
+origin	libcprime
+repo	community
+file	libcprime-dev-5.0.0-r0.apk
+checksum	Q1r+dLClwbHJknImib2OC731L8Xgs=
+dep	libcprime=5.0.0-r0	libcprime
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pc:Qt6DBus	qt6-qtbase-dev
+dep	pc:Qt6Gui	qt6-qtbase-dev
+dep	pc:Qt6Network	qt6-qtbase-dev
+dep	pc:Qt6Widgets	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

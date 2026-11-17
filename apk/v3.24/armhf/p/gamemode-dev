@@ -1,0 +1,14 @@
+name	gamemode-dev
+version	1.8.2-r0
+description	Optimise Linux system performance on demand (development files)
+url	https://github.com/FeralInteractive/gamemode
+license	BSD-3-Clause
+size	5261
+installed-size	12580
+depends	gamemode=1.8.2-r0 pkgconfig
+origin	gamemode
+repo	community
+file	gamemode-dev-1.8.2-r0.apk
+checksum	Q1no0PGHcXNqT+pRgj9lqL6q5QR7M=
+dep	gamemode=1.8.2-r0	gamemode
+dep	pkgconfig	pkgconf

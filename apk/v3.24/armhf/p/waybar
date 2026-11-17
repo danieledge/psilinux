@@ -1,0 +1,45 @@
+name	waybar
+version	0.15.0-r2
+description	Highly customizable Wayland bar for Sway and Wlroots based compositors
+url	https://github.com/Alexays/Waybar/
+license	MIT
+size	759063
+installed-size	1809152
+depends	tzdata so:libatkmm-1.6.so.1 so:libc.musl-armhf.so.1 so:libcairomm-1.0.so.1 so:libdbusmenu-gtk3.so.4 so:libfmt.so.11 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgdkmm-3.0.so.1 so:libgio-2.0.so.0 so:libgiomm-2.4.so.1 so:libglib-2.0.so.0 so:libglibmm-2.4.so.1 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgtk-layer-shell.so.0 so:libgtkmm-3.0.so.1 so:libjsoncpp.so.26 so:libmpdclient.so.2 so:libnl-3.so.200 so:libnl-genl-3.so.200 so:libpipewire-0.3.so.0 so:libplayerctl.so.2 so:libpulse.so.0 so:libsigc-2.0.so.0 so:libsndio.so.7 so:libspdlog.so.1.17 so:libstdc++.so.6 so:libudev.so.1 so:libupower-glib.so.3 so:libwayland-client.so.0 so:libwireplumber-0.5.so.0 so:libxkbregistry.so.0
+origin	waybar
+repo	community
+file	waybar-0.15.0-r2.apk
+checksum	Q16LxL+96v2sLOA+7mAbzdrjHUrTE=
+dep	tzdata	tzdata
+dep	so:libatkmm-1.6.so.1	atkmm2.28
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairomm-1.0.so.1	cairomm1.14
+dep	so:libdbusmenu-gtk3.so.4	libdbusmenu-gtk3
+dep	so:libfmt.so.11	fmt
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdkmm-3.0.so.1	gtkmm3
+dep	so:libgio-2.0.so.0	glib
+dep	so:libgiomm-2.4.so.1	glibmm2.66
+dep	so:libglib-2.0.so.0	glib
+dep	so:libglibmm-2.4.so.1	glibmm2.66
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtk-layer-shell.so.0	gtk-layer-shell
+dep	so:libgtkmm-3.0.so.1	gtkmm3
+dep	so:libjsoncpp.so.26	jsoncpp
+dep	so:libmpdclient.so.2	libmpdclient
+dep	so:libnl-3.so.200	libnl3
+dep	so:libnl-genl-3.so.200	libnl3
+dep	so:libpipewire-0.3.so.0	pipewire-libs
+dep	so:libplayerctl.so.2	playerctl
+dep	so:libpulse.so.0	libpulse
+dep	so:libsigc-2.0.so.0	libsigc++
+dep	so:libsndio.so.7	sndio-libs
+dep	so:libspdlog.so.1.17	spdlog
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libudev.so.1	eudev-libs
+dep	so:libupower-glib.so.3	upower
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwireplumber-0.5.so.0	wireplumber-libs
+dep	so:libxkbregistry.so.0	libxkbcommon

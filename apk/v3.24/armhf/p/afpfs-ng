@@ -1,0 +1,15 @@
+name	afpfs-ng
+version	0.8.1-r12
+description	A client for the Apple Filing Protocol (AFP)
+url	http://alexthepuffin.googlepages.com/
+license	GPL-2.0-only
+size	66519
+installed-size	144932
+depends	so:libc.musl-armhf.so.1 so:libedit.so.0 so:libgcrypt.so.20
+origin	afpfs-ng
+repo	community
+file	afpfs-ng-0.8.1-r12.apk
+checksum	Q1rqQama254iy4tGD0V3iYktHLkr8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libedit.so.0	libedit
+dep	so:libgcrypt.so.20	libgcrypt

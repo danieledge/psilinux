@@ -1,0 +1,14 @@
+name	py3-django-treebeard
+version	5.0.5-r2
+description	Efficient tree implementations for Django
+url	https://github.com/django-treebeard/django-treebeard
+license	Apache-2.0
+size	59097
+installed-size	211122
+depends	py3-django python3~3.14
+origin	py3-django-treebeard
+repo	community
+file	py3-django-treebeard-5.0.5-r2.apk
+checksum	Q1IAzzj47Zxc1YSDxYksILifsPPnI=
+dep	py3-django	py3-django
+dep	python3~3.14	python3

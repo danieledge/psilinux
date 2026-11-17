@@ -1,0 +1,16 @@
+name	umockdev-dev
+version	0.19.7-r0
+description	Mock hardware devices for creating unit tests and bug reporting (development files)
+url	https://github.com/martinpitt/umockdev
+license	LGPL-2.1-or-later
+size	7943
+installed-size	59682
+depends	umockdev=0.19.7-r0 pc:glib-2.0 pc:gobject-2.0 pkgconfig
+origin	umockdev
+repo	community
+file	umockdev-dev-0.19.7-r0.apk
+checksum	Q1il7bvGGwuNJdFqYtB7rgMZRdagI=
+dep	umockdev=0.19.7-r0	umockdev
+dep	pc:glib-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pkgconfig	pkgconf

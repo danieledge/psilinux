@@ -1,0 +1,15 @@
+name	weex
+version	2.8.4.5-r0
+description	Non-interactive FTP and FTPS client for updating web pages
+url	https://weex.sourceforge.net/
+license	GPL-2.0-or-later
+size	31509
+installed-size	67352
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	weex
+repo	community
+file	weex-2.8.4.5-r0.apk
+checksum	Q1hwg6po+PMM1RYr/XiNrmMjscPo8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

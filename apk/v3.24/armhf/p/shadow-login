@@ -1,0 +1,16 @@
+name	shadow-login
+version	4.18.0-r1
+description	Login utils from shadow package: faillog, lastlog, login, newgrp, nologin, sg, su
+url	https://github.com/shadow-maint/shadow
+license	BSD-3-Clause
+size	58325
+installed-size	150284
+depends	so:libbsd.so.0 so:libc.musl-armhf.so.1 so:libpam.so.0 so:libpam_misc.so.0
+origin	shadow
+repo	community
+file	shadow-login-4.18.0-r1.apk
+checksum	Q1EcVB7HhhEiPARzSAUQjewDm68P8=
+dep	so:libbsd.so.0	libbsd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpam.so.0	linux-pam
+dep	so:libpam_misc.so.0	linux-pam

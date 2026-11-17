@@ -1,0 +1,19 @@
+name	php84-pecl-event
+version	3.1.4-r1
+description	PHP 8.4 extension that provides interface to libevent library - PECL
+url	https://pecl.php.net/package/event
+license	PHP-3.01
+size	49600
+installed-size	136580
+depends	php84-sockets so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libevent_core-2.1.so.7 so:libevent_extra-2.1.so.7 so:libevent_openssl-2.1.so.7 so:libssl.so.3
+origin	php84-pecl-event
+repo	community
+file	php84-pecl-event-3.1.4-r1.apk
+checksum	Q16BrWETHXpYqureC4q71IMkdHrLU=
+dep	php84-sockets	php84-sockets
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libevent_core-2.1.so.7	libevent
+dep	so:libevent_extra-2.1.so.7	libevent
+dep	so:libevent_openssl-2.1.so.7	libevent
+dep	so:libssl.so.3	libssl3

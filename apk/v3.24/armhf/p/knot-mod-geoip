@@ -1,0 +1,15 @@
+name	knot-mod-geoip
+version	3.5.10-r0
+description	geoip module for Knot DNS
+url	https://www.knot-dns.cz/
+license	GPL-2.0-or-later
+size	41710
+installed-size	83232
+depends	knot=3.5.10-r0 so:libc.musl-armhf.so.1 so:libmaxminddb.so.0
+origin	knot
+repo	main
+file	knot-mod-geoip-3.5.10-r0.apk
+checksum	Q1qN/Xtps0xt4veeTXpM6uLs7kbz8=
+dep	knot=3.5.10-r0	knot
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmaxminddb.so.0	libmaxminddb-libs

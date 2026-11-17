@@ -1,0 +1,14 @@
+name	openldap-overlay-lastbind
+version	2.6.15-r0
+description	OpenLDAP lastbind overlay
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	5059
+installed-size	10610
+depends	so:libc.musl-armhf.so.1 so:liblber.so.2
+origin	openldap
+repo	main
+file	openldap-overlay-lastbind-2.6.15-r0.apk
+checksum	Q14dG9WTAXWtUULBAS1rUd35W9xtw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap

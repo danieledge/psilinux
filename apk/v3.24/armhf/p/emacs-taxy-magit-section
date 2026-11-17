@@ -1,0 +1,15 @@
+name	emacs-taxy-magit-section
+version	0.14.3-r1
+description	View Taxy structs in a Magit Section buffer
+url	https://elpa.gnu.org/packages/taxy-magit-section.html
+license	GPL-3.0-or-later
+size	18055
+installed-size	63636
+depends	cmd:emacs emacs-magit-section emacs-taxy
+origin	emacs-taxy-magit-section
+repo	community
+file	emacs-taxy-magit-section-0.14.3-r1.apk
+checksum	Q1ZOPB1Jj1ILqq6JrORBI6WCRIKnQ=
+dep	cmd:emacs	emacs-gtk3
+dep	emacs-magit-section	emacs-magit-section
+dep	emacs-taxy	emacs-taxy

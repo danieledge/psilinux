@@ -1,0 +1,15 @@
+name	bacula-pgsql
+version	15.0.3-r0
+description	Bacula PGSQL backend
+url	https://www.bacula.org/
+license	AGPL-3.0-or-later WITH OpenSSL-Exception
+size	27604
+installed-size	89012
+depends	bacula so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	bacula
+repo	main
+file	bacula-pgsql-15.0.3-r0.apk
+checksum	Q15Tkegbdz/lG3wOgoepQQXvI8er0=
+dep	bacula	bacula
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

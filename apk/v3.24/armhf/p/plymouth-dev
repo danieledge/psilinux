@@ -1,0 +1,22 @@
+name	plymouth-dev
+version	26.134.222-r1
+description	graphical bootsplash on linux (development files)
+url	https://www.freedesktop.org/wiki/Software/Plymouth
+license	GPL-2.0-or-later
+size	29406
+installed-size	191439
+depends	eudev-dev gtk+3.0-dev pango-dev plymouth=26.134.222-r1 pc:libevdev pc:libpng>=1.2.16 pc:libudev pc:xkbcommon pc:xkeyboard-config pkgconfig
+origin	plymouth
+repo	community
+file	plymouth-dev-26.134.222-r1.apk
+checksum	Q1RPfx2ZFXP9vg/gBz5ArHovZvblc=
+dep	eudev-dev	eudev-dev
+dep	gtk+3.0-dev	gtk+3.0-dev
+dep	pango-dev	pango-dev
+dep	plymouth=26.134.222-r1	plymouth
+dep	pc:libevdev	libevdev-dev
+dep	pc:libpng>=1.2.16	libpng-dev
+dep	pc:libudev	eudev-dev
+dep	pc:xkbcommon	libxkbcommon-dev
+dep	pc:xkeyboard-config	xkeyboard-config-dev
+dep	pkgconfig	pkgconf

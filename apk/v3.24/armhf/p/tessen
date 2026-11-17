@@ -1,0 +1,14 @@
+name	tessen
+version	2.2.1-r2
+description	interactive menu to autotype and copy pass and gopass data
+url	https://git.sr.ht/~ayushnix/tessen
+license	GPL-2.0-only
+size	9031
+installed-size	27949
+depends	bash /bin/sh
+origin	tessen
+repo	community
+file	tessen-2.2.1-r2.apk
+checksum	Q1meTUTapsncgKSgFeexOFDwGbYig=
+dep	bash	bash
+dep	/bin/sh	busybox-binsh

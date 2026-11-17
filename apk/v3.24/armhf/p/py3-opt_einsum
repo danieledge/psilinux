@@ -1,0 +1,14 @@
+name	py3-opt_einsum
+version	3.4.0-r2
+description	Optimizing einsum functions in NumPy, Tensorflow, Dask, and more with contraction order optimization
+url	https://github.com/dgasmith/opt_einsum
+license	MIT
+size	49682
+installed-size	172087
+depends	py3-numpy python3~3.14
+origin	py3-opt_einsum
+repo	community
+file	py3-opt_einsum-3.4.0-r2.apk
+checksum	Q1q+jFRUTeRSPMAUW8IL+zq2MavO8=
+dep	py3-numpy	py3-numpy
+dep	python3~3.14	python3

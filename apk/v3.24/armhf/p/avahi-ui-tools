@@ -1,0 +1,19 @@
+name	avahi-ui-tools
+version	0.8-r9
+description	UI tools for mDNS browsing
+url	https://www.avahi.org/
+license	LGPL-2.1-or-later
+size	10833
+installed-size	17678
+depends	so:libavahi-client.so.3 so:libavahi-common.so.3 so:libavahi-ui-gtk3.so.0 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8
+origin	avahi-ui
+repo	community
+file	avahi-ui-tools-0.8-r9.apk
+checksum	Q1Ivz3Wf1E9/Gnoc8W2QdQy3mgOeU=
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libavahi-ui-gtk3.so.0	avahi-ui-gtk3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl

@@ -1,0 +1,16 @@
+name	perl-graphql-client
+version	0.605-r1
+description	Execute GraphQL queries and mutations
+url	https://metacpan.org/release/GraphQL-Client/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	7171
+installed-size	17902
+depends	perl perl-http-anyua perl-json-maybexs perl-namespace-clean
+origin	perl-graphql-client
+repo	community
+file	perl-graphql-client-0.605-r1.apk
+checksum	Q1SH7lDReim7/1RNfpjINL1kQbpNY=
+dep	perl	perl
+dep	perl-http-anyua	perl-http-anyua
+dep	perl-json-maybexs	perl-json-maybexs
+dep	perl-namespace-clean	perl-namespace-clean

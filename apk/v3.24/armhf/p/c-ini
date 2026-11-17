@@ -1,0 +1,14 @@
+name	c-ini
+version	1.1.0-r0
+description	Ini-File Handling
+url	https://github.com/c-util/c-ini
+license	Apache-2.0 OR LGPL-2.1-or-later
+size	7031
+installed-size	13596
+depends	so:libc.musl-armhf.so.1 so:libcrbtree-3.so.0
+origin	c-ini
+repo	community
+file	c-ini-1.1.0-r0.apk
+checksum	Q1XfcJkzswvxiRuXqCUglZSkGeX8E=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrbtree-3.so.0	c-rbtree

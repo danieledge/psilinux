@@ -1,0 +1,13 @@
+name	s6-rc-static
+version	0.6.1.1-r0
+description	Service manager for s6-based systems (static library)
+url	https://skarnet.org/software/s6-rc/
+license	ISC
+size	47692
+installed-size	164350
+depends	s6-rc-dev
+origin	s6-rc
+repo	main
+file	s6-rc-static-0.6.1.1-r0.apk
+checksum	Q144472tpKVrdWMRrCgy6adZxLdaA=
+dep	s6-rc-dev	s6-rc-dev

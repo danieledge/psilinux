@@ -1,0 +1,14 @@
+name	py3-django-cors-headers
+version	4.6.0-r2
+description	Django App that adds Cross-Origin Resource Sharing (CORS) headers to responses
+url	https://github.com/adamchainz/django-cors-headers
+license	MIT
+size	12645
+installed-size	33778
+depends	py3-django python3~3.14
+origin	py3-django-cors-headers
+repo	community
+file	py3-django-cors-headers-4.6.0-r2.apk
+checksum	Q1vOp7s3xRba/GfYg5pI0zM02PYkQ=
+dep	py3-django	py3-django
+dep	python3~3.14	python3

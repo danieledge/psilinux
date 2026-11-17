@@ -1,0 +1,27 @@
+name	raspberrypi-utils
+version	0.20260811-r0
+description	Collection of Raspberry Pi utilities (scripts and simple applications)
+url	https://github.com/raspberrypi/utils
+license	BSD-3-Clause
+size	1392
+installed-size	0
+depends	raspberrypi-utils-dtapply=0.20260811-r0 raspberrypi-utils-dtmerge=0.20260811-r0 raspberrypi-utils-eeptools=0.20260811-r0 raspberrypi-utils-kdtc=0.20260811-r0 raspberrypi-utils-otamaker=0.20260811-r0 raspberrypi-utils-otpset=0.20260811-r0 raspberrypi-utils-overlaycheck=0.20260811-r0 raspberrypi-utils-ovmerge=0.20260811-r0 raspberrypi-utils-pinctrl=0.20260811-r0 raspberrypi-utils-raspinfo=0.20260811-r0 raspberrypi-utils-rpifwcrypto=0.20260811-r0 raspberrypi-utils-splashasm=0.20260811-r0 raspberrypi-utils-vcgencmd=0.20260811-r0 raspberrypi-utils-vclog=0.20260811-r0 raspberrypi-utils-vcmailbox=0.20260811-r0
+origin	raspberrypi-utils
+repo	community
+file	raspberrypi-utils-0.20260811-r0.apk
+checksum	Q14LjmvSpstEXa+Qr2Ol7G9Esr4Iw=
+dep	raspberrypi-utils-dtapply=0.20260811-r0	raspberrypi-utils-dtapply
+dep	raspberrypi-utils-dtmerge=0.20260811-r0	raspberrypi-utils-dtmerge
+dep	raspberrypi-utils-eeptools=0.20260811-r0	raspberrypi-utils-eeptools
+dep	raspberrypi-utils-kdtc=0.20260811-r0	raspberrypi-utils-kdtc
+dep	raspberrypi-utils-otamaker=0.20260811-r0	raspberrypi-utils-otamaker
+dep	raspberrypi-utils-otpset=0.20260811-r0	raspberrypi-utils-otpset
+dep	raspberrypi-utils-overlaycheck=0.20260811-r0	raspberrypi-utils-overlaycheck
+dep	raspberrypi-utils-ovmerge=0.20260811-r0	raspberrypi-utils-ovmerge
+dep	raspberrypi-utils-pinctrl=0.20260811-r0	raspberrypi-utils-pinctrl
+dep	raspberrypi-utils-raspinfo=0.20260811-r0	raspberrypi-utils-raspinfo
+dep	raspberrypi-utils-rpifwcrypto=0.20260811-r0	raspberrypi-utils-rpifwcrypto
+dep	raspberrypi-utils-splashasm=0.20260811-r0	raspberrypi-utils-splashasm
+dep	raspberrypi-utils-vcgencmd=0.20260811-r0	raspberrypi-utils-vcgencmd
+dep	raspberrypi-utils-vclog=0.20260811-r0	raspberrypi-utils-vclog
+dep	raspberrypi-utils-vcmailbox=0.20260811-r0	raspberrypi-utils-vcmailbox

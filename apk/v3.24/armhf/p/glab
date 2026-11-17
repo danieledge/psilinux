@@ -1,0 +1,14 @@
+name	glab
+version	1.100.0-r2
+description	Open source GitLab CLI tool written in Go
+url	https://gitlab.com/gitlab-org/cli
+license	MIT
+size	17530790
+installed-size	51271092
+depends	git so:libc.musl-armhf.so.1
+origin	glab
+repo	community
+file	glab-1.100.0-r2.apk
+checksum	Q18+I3yv8GSgyOKIAu4P+U8iel46s=
+dep	git	git
+dep	so:libc.musl-armhf.so.1	musl

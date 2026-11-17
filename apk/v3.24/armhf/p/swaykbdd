@@ -1,0 +1,14 @@
+name	swaykbdd
+version	1.4-r1
+description	Keyboard layout switcher for Sway
+url	https://github.com/artemsen/swaykbdd
+license	MIT
+size	7292
+installed-size	13712
+depends	so:libc.musl-armhf.so.1 so:libjson-c.so.5
+origin	swaykbdd
+repo	community
+file	swaykbdd-1.4-r1.apk
+checksum	Q1kBZ9QH8ziMJ275fy5a3piWAY6wc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjson-c.so.5	json-c

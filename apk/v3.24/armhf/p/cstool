@@ -1,0 +1,13 @@
+name	cstool
+version	5.0.9-r0
+description	cstool for capstone disassembler
+url	https://www.capstone-engine.org
+license	BSD-3-Clause-Clear
+size	1104603
+installed-size	7316732
+depends	so:libc.musl-armhf.so.1
+origin	capstone
+repo	community
+file	cstool-5.0.9-r0.apk
+checksum	Q1cC82P7hQC8zdXu9Qcds0yuA58qI=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	catimg
+version	2.8.0-r0
+description	terminal image renderer
+url	https://github.com/posva/catimg
+license	MIT
+size	39850
+installed-size	71876
+depends	so:libc.musl-armhf.so.1
+origin	catimg
+repo	community
+file	catimg-2.8.0-r0.apk
+checksum	Q1qOtk+IFRplE4pDtQSF++1WycTCI=
+dep	so:libc.musl-armhf.so.1	musl

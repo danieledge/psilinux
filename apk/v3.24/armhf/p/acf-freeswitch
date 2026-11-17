@@ -1,0 +1,15 @@
+name	acf-freeswitch
+version	0.8.0-r5
+description	ACF for freeswitch
+url	https://gitlab.alpinelinux.org/acf/acf-freeswitch
+license	GPL-2.0-only
+size	4985
+installed-size	9799
+depends	acf-core freeswitch lua-luaxml
+origin	acf-freeswitch
+repo	main
+file	acf-freeswitch-0.8.0-r5.apk
+checksum	Q1o2AtAi6LcHAC7YmBN0Ly8NgRIpQ=
+dep	acf-core	acf-core
+dep	freeswitch	freeswitch
+dep	lua-luaxml	lua-luaxml

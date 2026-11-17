@@ -1,0 +1,13 @@
+name	popt
+version	1.19-r4
+description	commandline option parser
+url	https://github.com/rpm-software-management/popt
+license	MIT
+size	20115
+installed-size	38476
+depends	so:libc.musl-armhf.so.1
+origin	popt
+repo	main
+file	popt-1.19-r4.apk
+checksum	Q1qEALWv5/nWn0eH+EwM1bXlbFvzM=
+dep	so:libc.musl-armhf.so.1	musl

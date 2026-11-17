@@ -1,0 +1,17 @@
+name	zathura-ps
+version	2026.02.03-r0
+description	zathura-ps - plugin adds PostScript support to zathura
+url	https://pwmt.org/projects/zathura-ps/
+license	Zlib
+size	5612
+installed-size	10658
+depends	zathura so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgirara.so.5 so:libspectre.so.1
+origin	zathura-ps
+repo	community
+file	zathura-ps-2026.02.03-r0.apk
+checksum	Q1UKjAeByoB1REJCgO+Tvbv7yKGhQ=
+dep	zathura	zathura
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgirara.so.5	girara
+dep	so:libspectre.so.1	libspectre

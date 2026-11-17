@@ -1,0 +1,16 @@
+name	vint
+version	0.3.21-r10
+description	Fast and Highly Extensible Vim script Language Lint
+url	https://github.com/Vimjas/vint
+license	MIT
+size	74433
+installed-size	391902
+depends	py3-yaml py3-chardet py3-ansicolor python3~3.14
+origin	vint
+repo	community
+file	vint-0.3.21-r10.apk
+checksum	Q11F9XYS9w+UoW6eiSe8SU2xu7Tsc=
+dep	py3-yaml	py3-yaml
+dep	py3-chardet	py3-chardet
+dep	py3-ansicolor	py3-ansicolor
+dep	python3~3.14	python3

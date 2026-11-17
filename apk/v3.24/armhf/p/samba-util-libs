@@ -1,0 +1,18 @@
+name	samba-util-libs
+version	4.23.8-r0
+description	Samba utility libraries
+url	https://www.samba.org/
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	351752
+installed-size	547512
+depends	so:libc.musl-armhf.so.1 so:libgnutls.so.30 so:libicui18n.so.78 so:libicuuc.so.78 so:libtalloc.so.2 so:libtevent.so.0
+origin	samba
+repo	main
+file	samba-util-libs-4.23.8-r0.apk
+checksum	Q1EPoCDi7coYIyNQ757LbofE/lU8M=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgnutls.so.30	gnutls
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libtalloc.so.2	talloc
+dep	so:libtevent.so.0	tevent

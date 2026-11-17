@@ -1,0 +1,12 @@
+name	qt6-qtbase-dbg
+version	6.11.1-r0
+description	A cross-platform application and UI framework (debug symbols)
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	38647112
+installed-size	130626064
+depends	!qt6-qtbase-dev<6.11.1-r0 !qt6-qtbase-dev>6.11.1-r0 !qt6-qtbase-mysql<6.11.1-r0 !qt6-qtbase-mysql>6.11.1-r0 !qt6-qtbase-odbc<6.11.1-r0 !qt6-qtbase-odbc>6.11.1-r0 !qt6-qtbase-postgresql<6.11.1-r0 !qt6-qtbase-postgresql>6.11.1-r0 !qt6-qtbase-sqlite<6.11.1-r0 !qt6-qtbase-sqlite>6.11.1-r0 !qt6-qtbase-wayland<6.11.1-r0 !qt6-qtbase-wayland>6.11.1-r0 !qt6-qtbase-x11<6.11.1-r0 !qt6-qtbase-x11>6.11.1-r0 !qt6-qtbase<6.11.1-r0 !qt6-qtbase>6.11.1-r0
+origin	qt6-qtbase
+repo	community
+file	qt6-qtbase-dbg-6.11.1-r0.apk
+checksum	Q1f/SwUrCzh3agAxT0qwTD0VpBc2w=

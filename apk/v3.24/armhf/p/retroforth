@@ -1,0 +1,13 @@
+name	retroforth
+version	2025.08-r0
+description	clean, elegant, and pragmatic dialect of Forth
+url	https://retroforth.org
+license	ISC
+size	300419
+installed-size	1091239
+depends	so:libc.musl-armhf.so.1
+origin	retroforth
+repo	community
+file	retroforth-2025.08-r0.apk
+checksum	Q1SfSNfF/64kJ4kBQTqehLixQjmOU=
+dep	so:libc.musl-armhf.so.1	musl

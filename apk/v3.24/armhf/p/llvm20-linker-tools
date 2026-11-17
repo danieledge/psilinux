@@ -1,0 +1,16 @@
+name	llvm20-linker-tools
+version	20.1.8-r1
+description	Low Level Virtual Machine compiler system, version 20 (linker plugins)
+url	https://llvm.org/
+license	Apache-2.0
+size	67540
+installed-size	150424
+depends	so:libLLVM.so.20.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	llvm20
+repo	main
+file	llvm20-linker-tools-20.1.8-r1.apk
+checksum	Q10zXgS/C9IpjzlFb7ZtnZ0zePQYo=
+dep	so:libLLVM.so.20.1	llvm20-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

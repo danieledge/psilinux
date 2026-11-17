@@ -1,0 +1,14 @@
+name	perl-net-jabber
+version	2.0-r1
+description	Access the Jabber protocol with Perl
+url	https://metacpan.org/release/Net-Jabber/
+license	LGPL-2.0-or-later
+size	51042
+installed-size	387059
+depends	perl perl-net-xmpp
+origin	perl-net-jabber
+repo	community
+file	perl-net-jabber-2.0-r1.apk
+checksum	Q1Ai5fbtxidHjJrXNteN5SYiZ9dz8=
+dep	perl	perl
+dep	perl-net-xmpp	perl-net-xmpp

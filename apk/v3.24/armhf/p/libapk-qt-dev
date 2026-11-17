@@ -1,0 +1,15 @@
+name	libapk-qt-dev
+version	0.4.6-r9
+description	Alpine Package Keeper (apk) Qt bindings (development files)
+url	https://gitlab.postmarketos.org/postmarketOS/libapk-qt
+license	GPL-2.0-only
+size	10390
+installed-size	29089
+depends	libapk-qt=0.4.6-r9 pc:Qt6Core pkgconfig
+origin	libapk-qt
+repo	community
+file	libapk-qt-dev-0.4.6-r9.apk
+checksum	Q1+izSOqjDhmsUxuC0zGwBifFh+NY=
+dep	libapk-qt=0.4.6-r9	libapk-qt
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

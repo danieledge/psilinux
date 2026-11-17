@@ -1,0 +1,13 @@
+name	gdk-pixbuf-loaders
+version	2.44.7-r1
+description	Metapackage to pull in gdk-pixbuf loaders
+url	https://gitlab.gnome.org/GNOME/gdk-pixbuf
+license	LGPL-2.1-or-later
+size	1281
+installed-size	0
+depends	shared-mime-info
+origin	gdk-pixbuf
+repo	community
+file	gdk-pixbuf-loaders-2.44.7-r1.apk
+checksum	Q1PfANxxE+FqE1nkrlS2xZPvHZU9g=
+dep	shared-mime-info	shared-mime-info

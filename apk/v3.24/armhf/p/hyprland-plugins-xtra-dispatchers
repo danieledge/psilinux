@@ -1,0 +1,17 @@
+name	hyprland-plugins-xtra-dispatchers
+version	0.54.0-r0
+description	Official plugins for Hyprland (xtra-dispatchers)
+url	https://github.com/hyprwm/hyprland-plugins
+license	BSD-3-Clause
+size	14928
+installed-size	34244
+depends	hyprland~0.54 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libhyprutils.so.12 so:libstdc++.so.6
+origin	hyprland-plugins
+repo	community
+file	hyprland-plugins-xtra-dispatchers-0.54.0-r0.apk
+checksum	Q1TcN3PbhyO56rsdCCvBklIsZrfDU=
+dep	hyprland~0.54	hyprland
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libhyprutils.so.12	hyprutils
+dep	so:libstdc++.so.6	libstdc++

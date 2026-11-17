@@ -1,0 +1,15 @@
+name	py3-aiohttp-oauthlib
+version	0.1.0-r1
+description	oauthlib for aiohttp clients
+url	https://git.sr.ht/~whynothugo/aiohttp-oauthlib
+license	ISC
+size	9076
+installed-size	25204
+depends	py3-aiohttp py3-oauthlib python3~3.14
+origin	py3-aiohttp-oauthlib
+repo	community
+file	py3-aiohttp-oauthlib-0.1.0-r1.apk
+checksum	Q1VYU7yLqvP+Y6sriKThgmleQJOac=
+dep	py3-aiohttp	py3-aiohttp
+dep	py3-oauthlib	py3-oauthlib
+dep	python3~3.14	python3

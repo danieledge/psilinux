@@ -1,0 +1,14 @@
+name	erlang28-reltool
+version	28.5.0.8-r0
+description	General-purpose programming language and runtime environment, version 28
+url	https://www.erlang.org/
+license	Apache-2.0
+size	409349
+installed-size	494942
+depends	erlang28=28.5.0.8-r0 erlang28-wx=28.5.0.8-r0
+origin	erlang28
+repo	community
+file	erlang28-reltool-28.5.0.8-r0.apk
+checksum	Q1vPOJtSrqRClU99uZ2UaAwu7NChU=
+dep	erlang28=28.5.0.8-r0	erlang28
+dep	erlang28-wx=28.5.0.8-r0	erlang28-wx

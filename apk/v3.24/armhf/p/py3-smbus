@@ -1,0 +1,15 @@
+name	py3-smbus
+version	4.4-r3
+description	i2c-tools python bindings
+url	https://i2c.wiki.kernel.org/index.php/I2C_Tools
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	8108
+installed-size	14949
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libi2c.so.0
+origin	i2c-tools
+repo	community
+file	py3-smbus-4.4-r3.apk
+checksum	Q1Ybre8kBc6oPK2kQIZhk7G1EGaXk=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libi2c.so.0	i2c-tools

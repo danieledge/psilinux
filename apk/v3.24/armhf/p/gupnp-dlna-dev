@@ -1,0 +1,21 @@
+name	gupnp-dlna-dev
+version	0.12.0-r1
+description	Small utility library that aims to ease the DLNA-related tasks (development files)
+url	https://gitlab.gnome.org/GNOME/gupnp-dlna
+license	LGPL-2.1-or-later
+size	24914
+installed-size	275513
+depends	gupnp-dlna=0.12.0-r1 pc:gio-2.0 pc:glib-2.0 pc:gmodule-2.0 pc:gobject-2.0 pc:gstreamer-1.0 pc:gstreamer-pbutils-1.0 pc:libxml-2.0 pkgconfig
+origin	gupnp-dlna
+repo	community
+file	gupnp-dlna-dev-0.12.0-r1.apk
+checksum	Q12tSmK9U+rC4/SCTrwksJwcmJP7w=
+dep	gupnp-dlna=0.12.0-r1	gupnp-dlna
+dep	pc:gio-2.0	glib-dev
+dep	pc:glib-2.0	glib-dev
+dep	pc:gmodule-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pc:gstreamer-1.0	gstreamer-dev
+dep	pc:gstreamer-pbutils-1.0	gst-plugins-base-dev
+dep	pc:libxml-2.0	libxml2-dev
+dep	pkgconfig	pkgconf

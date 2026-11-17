@@ -1,0 +1,14 @@
+name	libldac-dev
+version	2.0.2.3-r1
+description	Lossy audio codec for Bluetooth connections (development files)
+url	https://github.com/EHfive/ldacBT
+license	Apache-2.0
+size	9701
+installed-size	30734
+depends	libldac=2.0.2.3-r1 pkgconfig
+origin	libldac
+repo	community
+file	libldac-dev-2.0.2.3-r1.apk
+checksum	Q1jEY/uZqCPkTcZPfRf1zLyEXTD8k=
+dep	libldac=2.0.2.3-r1	libldac
+dep	pkgconfig	pkgconf

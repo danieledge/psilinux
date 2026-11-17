@@ -1,0 +1,22 @@
+name	libglycin
+version	2.1.5-r0
+description	Sandboxed and extendable image decoding
+url	https://gitlab.gnome.org/GNOME/glycin
+license	MPL-2.0 OR LGPL-2.0-or-later
+size	1165141
+installed-size	2649088
+depends	bubblewrap /bin/sh so:libc.musl-armhf.so.1 so:libfontconfig.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:liblcms2.so.2 so:libseccomp.so.2
+origin	libglycin
+repo	community
+file	libglycin-2.1.5-r0.apk
+checksum	Q1UMQ9aTMav2wTN5bWvDis/Cqb+jw=
+dep	bubblewrap	bubblewrap
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:liblcms2.so.2	lcms2
+dep	so:libseccomp.so.2	libseccomp

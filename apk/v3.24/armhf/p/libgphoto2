@@ -1,0 +1,18 @@
+name	libgphoto2
+version	2.5.33-r1
+description	The core library of gphoto2, designed to allow access to digital camera by external programs
+url	http://www.gphoto.org
+license	LGPL-2.1-or-later
+size	778304
+installed-size	2544857
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libexif.so.12 so:libjpeg.so.8 so:libltdl.so.7 so:libusb-1.0.so.0
+origin	libgphoto2
+repo	community
+file	libgphoto2-2.5.33-r1.apk
+checksum	Q12eeyYqQfSNQIMfUtVLEAFXOXE44=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexif.so.12	libexif
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libltdl.so.7	libltdl
+dep	so:libusb-1.0.so.0	libusb

@@ -1,0 +1,14 @@
+name	perl-unicode-collate
+version	1.31-r4
+description	Unicode Collation Algorithm
+url	https://metacpan.org/release/Unicode-Collate/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	927760
+installed-size	4426921
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-unicode-collate
+repo	community
+file	perl-unicode-collate-1.31-r4.apk
+checksum	Q1XjyZ8GORxsOfNvi4emGEto9zp4k=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

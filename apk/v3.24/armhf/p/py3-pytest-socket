@@ -1,0 +1,14 @@
+name	py3-pytest-socket
+version	0.7.0-r2
+description	Pytest Plugin to disable socket calls during tests
+url	https://github.com/miketheman/pytest-socket
+license	MIT
+size	7908
+installed-size	16443
+depends	py3-pytest python3~3.14
+origin	py3-pytest-socket
+repo	community
+file	py3-pytest-socket-0.7.0-r2.apk
+checksum	Q1iFLPETZhdLpyFCRgLWVOjC6PKeo=
+dep	py3-pytest	py3-pytest
+dep	python3~3.14	python3

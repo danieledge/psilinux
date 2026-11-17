@@ -1,0 +1,13 @@
+name	tinydm-x11
+version	1.3.1-r1
+description	Wayland/X11 session starter for single user machines (x11 dependencies)
+url	https://gitlab.postmarketos.org/postmarketOS/tinydm
+license	GPL-3.0-or-later
+size	1328
+installed-size	0
+depends	xinit
+origin	tinydm
+repo	community
+file	tinydm-x11-1.3.1-r1.apk
+checksum	Q1DqFt5Viv92whlJzb5qKwscbX7UA=
+dep	xinit	xinit

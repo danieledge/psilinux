@@ -1,0 +1,14 @@
+name	wofi-dev
+version	1.5.3-r0
+description	A launcher/menu program for wlroots based wayland compositors. (development files)
+url	https://hg.sr.ht/~scoopta/wofi
+license	GPL-3.0-only
+size	3741
+installed-size	7961
+depends	pc:wayland-client pkgconfig
+origin	wofi
+repo	community
+file	wofi-dev-1.5.3-r0.apk
+checksum	Q1WTMbcprIbLYV+nZXubO7vfnUHRI=
+dep	pc:wayland-client	wayland-dev
+dep	pkgconfig	pkgconf

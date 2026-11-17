@@ -1,0 +1,15 @@
+name	py3-coloredlogs
+version	15.0.1-r5
+description	Colored terminal output for Python's logging module
+url	https://coloredlogs.readthedocs.io/en/latest/
+license	MIT
+size	36276
+installed-size	120338
+depends	python3 py3-humanfriendly python3~3.14
+origin	py3-coloredlogs
+repo	community
+file	py3-coloredlogs-15.0.1-r5.apk
+checksum	Q1a1NpxctSPDoAoq3IBBMsPwyAIto=
+dep	python3	python3
+dep	py3-humanfriendly	py3-humanfriendly
+dep	python3~3.14	python3

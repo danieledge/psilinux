@@ -1,0 +1,13 @@
+name	deluge-pyc
+version	2.2.0-r3
+description	Precompiled Python bytecode for deluge
+url	https://deluge-torrent.org/
+license	GPL-3.0-or-later
+size	575910
+installed-size	1461100
+depends	python3~3.14
+origin	deluge
+repo	community
+file	deluge-pyc-2.2.0-r3.apk
+checksum	Q14jQD5weBAULgWQO/x2Gd631JUCs=
+dep	python3~3.14	python3

@@ -1,0 +1,16 @@
+name	json-glib
+version	1.10.8-r0
+description	JSON library built on GLib
+url	https://gitlab.gnome.org/GNOME/json-glib
+license	LGPL-2.1-or-later
+size	64854
+installed-size	167188
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	json-glib
+repo	community
+file	json-glib-1.10.8-r0.apk
+checksum	Q1EBUVifr2D0RQ5YDz/iN8xRs6iDY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

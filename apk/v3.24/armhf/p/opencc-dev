@@ -1,0 +1,14 @@
+name	opencc-dev
+version	1.3.1-r0
+description	Open Chinese Convert (development files)
+url	https://opencc.byvoid.com/
+license	Apache-2.0
+size	21463
+installed-size	88020
+depends	opencc-libs=1.3.1-r0 pkgconfig
+origin	opencc
+repo	community
+file	opencc-dev-1.3.1-r0.apk
+checksum	Q1dgodysleIKd5X564XZJv9ssxpw4=
+dep	opencc-libs=1.3.1-r0	opencc-libs
+dep	pkgconfig	pkgconf

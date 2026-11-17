@@ -1,0 +1,13 @@
+name	lzlib-dev
+version	1.15-r1
+description	Library for the lzip compression file format (development files)
+url	https://www.nongnu.org/lzip/lzlib.html
+license	GPL-2.0-or-later
+size	2874
+installed-size	4419
+depends	lzlib=1.15-r1
+origin	lzlib
+repo	community
+file	lzlib-dev-1.15-r1.apk
+checksum	Q1lrD4Ouw15IeJ3BQOZn8i8RfWxTg=
+dep	lzlib=1.15-r1	lzlib

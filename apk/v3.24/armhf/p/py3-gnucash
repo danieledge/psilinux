@@ -1,0 +1,22 @@
+name	py3-gnucash
+version	5.14-r1
+description	GnuCash Double-Entry Accounting Program (python bindings)
+url	https://gnucash.org/
+license	GPL-2.0-or-later OR GPL-3.0-or-later
+size	280740
+installed-size	1307559
+depends	dconf guile python3~3.14 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgnc-app-utils.so so:libgnc-core-utils.so so:libgnc-engine.so so:libgobject-2.0.so.0 so:libpython3.14.so.1.0
+origin	gnucash
+repo	community
+file	py3-gnucash-5.14-r1.apk
+checksum	Q1qwlzYORKGzLWUh6xOmrQpabhuX0=
+dep	dconf	dconf
+dep	guile	guile
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgnc-app-utils.so	gnucash
+dep	so:libgnc-core-utils.so	gnucash
+dep	so:libgnc-engine.so	gnucash
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpython3.14.so.1.0	python3

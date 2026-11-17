@@ -1,0 +1,13 @@
+name	swuniq
+version	0.5-r1
+description	Streaming sliding window uniq
+url	https://github.com/mterron/swuniq
+license	MIT
+size	6873
+installed-size	9388
+depends	so:libc.musl-armhf.so.1
+origin	swuniq
+repo	community
+file	swuniq-0.5-r1.apk
+checksum	Q1EpbnO8SdkDl4fW3vJuYM0kn8dPM=
+dep	so:libc.musl-armhf.so.1	musl

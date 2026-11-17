@@ -1,0 +1,13 @@
+name	mnc
+version	0.5-r17
+description	get the time in seconds to next cron job
+url	https://git.sr.ht/~anjan/mnc
+license	Unlicense
+size	888319
+installed-size	2123236
+depends	so:libc.musl-armhf.so.1
+origin	mnc
+repo	community
+file	mnc-0.5-r17.apk
+checksum	Q1zl/0r0OdNGkJdsGomjpC6UwqtBE=
+dep	so:libc.musl-armhf.so.1	musl

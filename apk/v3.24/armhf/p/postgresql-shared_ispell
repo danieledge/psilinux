@@ -1,0 +1,15 @@
+name	postgresql-shared_ispell
+version	1.1.0_git20250904-r0
+description	PostgreSQL shared ispell dictionary extension
+url	https://github.com/postgrespro/shared_ispell
+license	PostgreSQL
+size	27028
+installed-size	45347
+depends	postgresql18 /bin/sh so:libc.musl-armhf.so.1
+origin	postgresql-shared_ispell
+repo	community
+file	postgresql-shared_ispell-1.1.0_git20250904-r0.apk
+checksum	Q1L/KPHuXtVf7QXyhX/hVu/m7+0ow=
+dep	postgresql18	postgresql18
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

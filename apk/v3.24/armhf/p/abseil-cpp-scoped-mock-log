@@ -1,0 +1,22 @@
+name	abseil-cpp-scoped-mock-log
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-scoped-mock-log
+url	https://abseil.io/
+license	Apache-2.0
+size	35565
+installed-size	116096
+depends	so:libabsl_log_entry.so.2508.0.0 so:libabsl_log_internal_log_sink_set.so.2508.0.0 so:libabsl_log_severity.so.2508.0.0 so:libabsl_log_sink.so.2508.0.0 so:libabsl_raw_logging_internal.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgmock.so.1.17.0 so:libgtest.so.1.17.0 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-scoped-mock-log-20250814.1-r0.apk
+checksum	Q1m/hHIWnVkBknOZhWOKW22jS8ghE=
+dep	so:libabsl_log_entry.so.2508.0.0	abseil-cpp-log-entry
+dep	so:libabsl_log_internal_log_sink_set.so.2508.0.0	abseil-cpp-log-internal-log-sink-set
+dep	so:libabsl_log_severity.so.2508.0.0	abseil-cpp-log-severity
+dep	so:libabsl_log_sink.so.2508.0.0	abseil-cpp-log-sink
+dep	so:libabsl_raw_logging_internal.so.2508.0.0	abseil-cpp-raw-logging-internal
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgmock.so.1.17.0	gmock
+dep	so:libgtest.so.1.17.0	gtest
+dep	so:libstdc++.so.6	libstdc++

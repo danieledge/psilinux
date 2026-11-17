@@ -1,0 +1,12 @@
+name	chrony-dbg
+version	4.8-r7
+description	NTP client and server programs (debug symbols)
+url	https://chrony-project.org/
+license	GPL-2.0-or-later
+size	2740
+installed-size	3560
+depends	!chrony-nts<4.8-r7 !chrony-nts>4.8-r7 !chrony<4.8-r7 !chrony>4.8-r7
+origin	chrony
+repo	main
+file	chrony-dbg-4.8-r7.apk
+checksum	Q1ioJBxAbp+qIt/If8S+fmmsUvnEk=

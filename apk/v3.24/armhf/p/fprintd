@@ -1,0 +1,21 @@
+name	fprintd
+version	1.94.5-r1
+description	Daemon that provides fingerprint scanning functionality over D-Bus
+url	https://fprint.freedesktop.org/
+license	GPL-2.0-or-later
+size	128004
+installed-size	377842
+depends	dbus so:libc.musl-armhf.so.1 so:libfprint-2.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libpolkit-gobject-1.so.0
+origin	fprintd
+repo	community
+file	fprintd-1.94.5-r1.apk
+checksum	Q15p1QFYU4Ncx0Ol6J91SuKvw7X28=
+dep	dbus	dbus
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfprint-2.so.2	libfprint
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libpolkit-gobject-1.so.0	polkit-noelogind-libs

@@ -1,0 +1,16 @@
+name	unpaper
+version	7.0.0-r3
+description	Post-processing tool for scanned sheets of paper
+url	https://github.com/unpaper/unpaper
+license	GPL-2.0-only
+size	30098
+installed-size	63092
+depends	so:libavcodec.so.62 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1
+origin	unpaper
+repo	community
+file	unpaper-7.0.0-r3.apk
+checksum	Q13JYU1kvN3euDIJ97wdkMiHlJPhU=
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	emacs-svg-lib
+version	0_git20240219-r1
+description	SVG tags, progress bars & icons for Emacs
+url	https://github.com/rougier/svg-lib
+license	GPL-3.0-or-later
+size	19307
+installed-size	72272
+depends	cmd:emacs
+origin	emacs-svg-lib
+repo	community
+file	emacs-svg-lib-0_git20240219-r1.apk
+checksum	Q1x5Amj/joJYHyBDbotCjZS1EbUF0=
+dep	cmd:emacs	emacs-gtk3

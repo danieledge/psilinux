@@ -1,0 +1,18 @@
+name	ocaml-lambda-term-dev
+version	3.2.0-r7
+description	Terminal manipulation library for OCaml (development files)
+url	https://github.com/ocaml-community/lambda-term
+license	BSD-3-Clause
+size	4019001
+installed-size	10599269
+depends	ocaml-lambda-term=3.2.0-r7 ocaml-camomile-dev ocaml-lwt-dev ocaml-lwt_log-dev ocaml-mew_vi-dev ocaml-zed-dev
+origin	ocaml-lambda-term
+repo	community
+file	ocaml-lambda-term-dev-3.2.0-r7.apk
+checksum	Q1Zd8GA4/VB9eS2cOwwKulkirIfus=
+dep	ocaml-lambda-term=3.2.0-r7	ocaml-lambda-term
+dep	ocaml-camomile-dev	ocaml-camomile-dev
+dep	ocaml-lwt-dev	ocaml-lwt-dev
+dep	ocaml-lwt_log-dev	ocaml-lwt_log-dev
+dep	ocaml-mew_vi-dev	ocaml-mew_vi-dev
+dep	ocaml-zed-dev	ocaml-zed-dev

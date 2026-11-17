@@ -1,0 +1,13 @@
+name	R-static
+version	4.6.0-r0
+description	Language and environment for statistical computing (static library)
+url	https://www.R-project.org/
+license	( GPL-2.0-only OR GPL-3.0-only ) AND LGPL-2.1-or-later
+size	119725
+installed-size	326018
+depends	R-dev
+origin	R
+repo	community
+file	R-static-4.6.0-r0.apk
+checksum	Q1V8FIkwVqlBbM/uYa2tJ7ccENa94=
+dep	R-dev	R-dev

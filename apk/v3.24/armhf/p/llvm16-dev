@@ -1,0 +1,21 @@
+name	llvm16-dev
+version	16.0.6-r14
+description	Low Level Virtual Machine compiler system, version 16 (development files)
+url	https://llvm.org/
+license	Apache-2.0
+size	4646791
+installed-size	23816005
+depends	llvm16=16.0.6-r14 libffi-dev zlib-dev zstd-dev llvm16-test-utils=16.0.6-r14 llvm16-libs=16.0.6-r14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	llvm16
+repo	community
+file	llvm16-dev-16.0.6-r14.apk
+checksum	Q1IgeUdOIvnfhwh+IBZqb5YG3uVTU=
+dep	llvm16=16.0.6-r14	llvm16
+dep	libffi-dev	libffi-dev
+dep	zlib-dev	zlib-dev
+dep	zstd-dev	zstd-dev
+dep	llvm16-test-utils=16.0.6-r14	llvm16-test-utils
+dep	llvm16-libs=16.0.6-r14	llvm16-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

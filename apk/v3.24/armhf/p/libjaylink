@@ -1,0 +1,14 @@
+name	libjaylink
+version	0.4.0-r0
+description	C library to access SEGGER J-Link and other compatible devices
+url	https://gitlab.zapb.de/libjaylink/libjaylink
+license	GPL-2.0-or-later
+size	23060
+installed-size	54392
+depends	so:libc.musl-armhf.so.1 so:libusb-1.0.so.0
+origin	libjaylink
+repo	community
+file	libjaylink-0.4.0-r0.apk
+checksum	Q1eOci2Fz2gqfBGaRQGRezQXpLL6M=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb

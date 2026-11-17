@@ -1,0 +1,15 @@
+name	py3-zope-deferredimport
+version	5.0-r2
+description	Defer imports until used by code
+url	https://github.com/zopefoundation/zope.deferredimport
+license	ZPL-2.1
+size	7698
+installed-size	16461
+depends	py3-setuptools py3-zope-proxy python3~3.14
+origin	py3-zope-deferredimport
+repo	community
+file	py3-zope-deferredimport-5.0-r2.apk
+checksum	Q19KM/hu3Eno+qOsOFq0DslVToYc4=
+dep	py3-setuptools	py3-setuptools
+dep	py3-zope-proxy	py3-zope-proxy
+dep	python3~3.14	python3

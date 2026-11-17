@@ -1,0 +1,15 @@
+name	py3-unicodedata2
+version	17.0.1-r1
+description	python unicodedata backport/updates
+url	https://github.com/fonttools/unicodedata2
+license	Apache-2.0
+size	485864
+installed-size	1428264
+depends	python3 python3~3.14 so:libc.musl-armhf.so.1
+origin	py3-unicodedata2
+repo	community
+file	py3-unicodedata2-17.0.1-r1.apk
+checksum	Q1yO0jR1mdEGWUVkAzoPCDmr5mBkc=
+dep	python3	python3
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

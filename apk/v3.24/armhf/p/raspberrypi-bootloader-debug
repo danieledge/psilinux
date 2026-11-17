@@ -1,0 +1,13 @@
+name	raspberrypi-bootloader-debug
+version	1.20260915-r0
+description	Debug firmware
+url	https://github.com/raspberrypi/firmware
+license	custom
+size	4817963
+installed-size	8684725
+depends	raspberrypi-bootloader-common=1.20260915-r0
+origin	raspberrypi-bootloader
+repo	main
+file	raspberrypi-bootloader-debug-1.20260915-r0.apk
+checksum	Q173k7JDVCwiz+rpB865bA65900iI=
+dep	raspberrypi-bootloader-common=1.20260915-r0	raspberrypi-bootloader-common

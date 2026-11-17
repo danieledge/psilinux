@@ -1,0 +1,17 @@
+name	kamailio-websocket
+version	6.0.6-r0
+description	Kamailio websocket support
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	99726
+installed-size	209172
+depends	kamailio so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libunistring.so.5 so:libwebsockets.so.19
+origin	kamailio
+repo	main
+file	kamailio-websocket-6.0.6-r0.apk
+checksum	Q1cNeMGkD0GKwNJMC4rPPbDN2YdYw=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libunistring.so.5	libunistring
+dep	so:libwebsockets.so.19	libwebsockets

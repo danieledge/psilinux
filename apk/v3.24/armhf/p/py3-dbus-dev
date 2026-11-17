@@ -1,0 +1,15 @@
+name	py3-dbus-dev
+version	1.4.0-r1
+description	Python3 bindings for DBUS (development files)
+url	https://www.freedesktop.org/wiki/Software/DBusBindings
+license	MIT
+size	3515
+installed-size	3924
+depends	py3-dbus pc:dbus-1>=1.8 pkgconfig
+origin	py3-dbus
+repo	main
+file	py3-dbus-dev-1.4.0-r1.apk
+checksum	Q1H9UWwAyrM4Z/BeLvhpgyxebnWrs=
+dep	py3-dbus	py3-dbus
+dep	pc:dbus-1>=1.8	dbus-dev
+dep	pkgconfig	pkgconf

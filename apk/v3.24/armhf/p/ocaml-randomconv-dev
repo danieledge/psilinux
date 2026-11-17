@@ -1,0 +1,14 @@
+name	ocaml-randomconv-dev
+version	0.1.3-r5
+description	Convert from random byte vectors (Cstruct.t) to random native numbers (development files)
+url	https://github.com/hannesm/randomconv
+license	ISC
+size	18017
+installed-size	40644
+depends	ocaml-randomconv=0.1.3-r5 ocaml-cstruct-dev
+origin	ocaml-randomconv
+repo	community
+file	ocaml-randomconv-dev-0.1.3-r5.apk
+checksum	Q1HA7OYsuLc12eq5tM2OvwgQBq8jw=
+dep	ocaml-randomconv=0.1.3-r5	ocaml-randomconv
+dep	ocaml-cstruct-dev	ocaml-cstruct-dev

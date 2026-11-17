@@ -1,0 +1,14 @@
+name	cypher-lint
+version	0.6.2-r1
+description	Lint tool for the Cypher query language
+url	https://github.com/cleishm/libcypher-parser
+license	Apache-2.0
+size	5652
+installed-size	9600
+depends	so:libc.musl-armhf.so.1 so:libcypher-parser.so.8
+origin	libcypher-parser
+repo	community
+file	cypher-lint-0.6.2-r1.apk
+checksum	Q117Q6Znv32VhpeZ/VWS0skVVBOy0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcypher-parser.so.8	libcypher-parser

@@ -1,0 +1,14 @@
+name	ats2
+version	0.4.2-r1
+description	Statically-typed language with formal specification features
+url	https://www.cs.bu.edu/~hwxi/atslangweb/
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	1701546
+installed-size	7738333
+depends	so:libc.musl-armhf.so.1 so:libgmp.so.10
+origin	ats2
+repo	community
+file	ats2-0.4.2-r1.apk
+checksum	Q1IwdW0Dzn9QY8JDymLSXdgA9ncHY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgmp.so.10	gmp

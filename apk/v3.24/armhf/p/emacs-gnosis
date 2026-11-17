@@ -1,0 +1,16 @@
+name	emacs-gnosis
+version	0.3.2-r1
+description	Spaced Repetition System for GNU Emacs
+url	https://thanosapollo.org/projects/gnosis/
+license	GPL-3.0-or-later
+size	63562
+installed-size	229701
+depends	cmd:emacs cmd:git emacs-compat emacs-emacsql-sqlite
+origin	emacs-gnosis
+repo	community
+file	emacs-gnosis-0.3.2-r1.apk
+checksum	Q1Rq9t8Jz/lvamUVxkvugEwzAE4Ek=
+dep	cmd:emacs	emacs-gtk3
+dep	cmd:git	git
+dep	emacs-compat	emacs-compat
+dep	emacs-emacsql-sqlite	emacs-emacsql-sqlite

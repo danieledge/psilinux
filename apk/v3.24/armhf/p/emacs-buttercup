@@ -1,0 +1,14 @@
+name	emacs-buttercup
+version	1.38-r1
+description	Behavior-Driven Emacs Lisp Testing
+url	https://github.com/jorgenschaefer/emacs-buttercup
+license	GPL-3.0-or-later
+size	58195
+installed-size	241218
+depends	bash cmd:emacs
+origin	emacs-buttercup
+repo	community
+file	emacs-buttercup-1.38-r1.apk
+checksum	Q1GWthPICC1aMrV8+7eVWsbz9jW5M=
+dep	bash	bash
+dep	cmd:emacs	emacs-gtk3

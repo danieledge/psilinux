@@ -1,0 +1,14 @@
+name	acf-lighttpd
+version	0.6.0-r4
+description	Web-based system administration interface for lighttpd
+url	https://gitlab.alpinelinux.org/acf/acf-lighttpd
+license	GPL-2.0-only
+size	4368
+installed-size	6860
+depends	acf-core lighttpd
+origin	acf-lighttpd
+repo	main
+file	acf-lighttpd-0.6.0-r4.apk
+checksum	Q12D0HiqqrdPQ8u9SDgOCoQ30FpZc=
+dep	acf-core	acf-core
+dep	lighttpd	lighttpd

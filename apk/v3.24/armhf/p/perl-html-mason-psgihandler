@@ -1,0 +1,15 @@
+name	perl-html-mason-psgihandler
+version	0.53-r3
+description	PSGI handler for HTML::Mason
+url	https://metacpan.org/release/HTML-Mason-PSGIHandler/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	4259
+installed-size	5954
+depends	perl perl-cgi-psgi perl-html-mason
+origin	perl-html-mason-psgihandler
+repo	community
+file	perl-html-mason-psgihandler-0.53-r3.apk
+checksum	Q1NJ41FtHQzZ6dv8I/EMk4HM58AkI=
+dep	perl	perl
+dep	perl-cgi-psgi	perl-cgi-psgi
+dep	perl-html-mason	perl-html-mason

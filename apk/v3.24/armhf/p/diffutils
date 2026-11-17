@@ -1,0 +1,13 @@
+name	diffutils
+version	3.12-r0
+description	Show differences among files
+url	https://www.gnu.org/software/diffutils/
+license	GPL-3.0-or-later
+size	136837
+installed-size	263524
+depends	so:libc.musl-armhf.so.1
+origin	diffutils
+repo	main
+file	diffutils-3.12-r0.apk
+checksum	Q1YTrmkbnh6ODkaHzCYcHTNB7e3OU=
+dep	so:libc.musl-armhf.so.1	musl

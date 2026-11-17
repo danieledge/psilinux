@@ -1,0 +1,38 @@
+name	smokeping
+version	2.9.0-r1
+description	Smokeping network latency monitoring
+url	https://oss.oetiker.ch/smokeping/
+license	GPL-2.0-or-later
+size	266612
+installed-size	960353
+depends	font-dejavu fping perl perl-cgi perl-cgi-fast perl-cgi-session perl-config-grammar perl-data-hexdump perl-digest-hmac perl-fcgi perl-io-socket-ssl perl-io-tty perl-ldap perl-libwww perl-mozilla-ca perl-net-dns perl-net-ip perl-net-openssh perl-net-snmp perl-net-telnet perl-text-soundex perl-rrd perl-snmp-session perl-uri rrdtool /bin/sh
+origin	smokeping
+repo	main
+file	smokeping-2.9.0-r1.apk
+checksum	Q1ZppWSbPhBeX5ju5tIo7fRQmdtVk=
+dep	font-dejavu	font-dejavu
+dep	fping	fping
+dep	perl	perl
+dep	perl-cgi	perl-cgi
+dep	perl-cgi-fast	perl-cgi-fast
+dep	perl-cgi-session	perl-cgi-session
+dep	perl-config-grammar	perl-config-grammar
+dep	perl-data-hexdump	perl-data-hexdump
+dep	perl-digest-hmac	perl-digest-hmac
+dep	perl-fcgi	perl-fcgi
+dep	perl-io-socket-ssl	perl-io-socket-ssl
+dep	perl-io-tty	perl-io-tty
+dep	perl-ldap	perl-ldap
+dep	perl-libwww	perl-libwww
+dep	perl-mozilla-ca	perl-mozilla-ca
+dep	perl-net-dns	perl-net-dns
+dep	perl-net-ip	perl-net-ip
+dep	perl-net-openssh	perl-net-openssh
+dep	perl-net-snmp	perl-net-snmp
+dep	perl-net-telnet	perl-net-telnet
+dep	perl-text-soundex	perl-text-soundex
+dep	perl-rrd	perl-rrd
+dep	perl-snmp-session	perl-snmp-session
+dep	perl-uri	perl-uri
+dep	rrdtool	rrdtool
+dep	/bin/sh	busybox-binsh

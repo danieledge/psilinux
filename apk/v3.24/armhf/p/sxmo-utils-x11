@@ -1,0 +1,35 @@
+name	sxmo-utils-x11
+version	1.18.1-r4
+description	Utility scripts, programs, and configs that hold the Sxmo UI environment together - x11 dependencies
+url	https://git.sr.ht/~mil/sxmo-utils
+license	AGPL-3.0-only
+size	1434
+installed-size	0
+depends	sxmo-utils-common=1.18.1-r4 autocutsel feh svkbd sxiv sxmo-dmenu sxmo-dwm sxmo-st unclutter-xfixes xcalib xclip xdotool xdpyinfo xinput xob xprintidle xprop xrandr xrdb xsel xset xsetroot xwininfo
+origin	sxmo-utils
+repo	community
+file	sxmo-utils-x11-1.18.1-r4.apk
+checksum	Q1OSHMV7mpbhx3/g17fIb7kjXqLiQ=
+dep	sxmo-utils-common=1.18.1-r4	sxmo-utils-common
+dep	autocutsel	autocutsel
+dep	feh	feh
+dep	svkbd	svkbd
+dep	sxiv	nsxiv
+dep	sxmo-dmenu	sxmo-dmenu
+dep	sxmo-dwm	sxmo-dwm
+dep	sxmo-st	sxmo-st
+dep	unclutter-xfixes	unclutter-xfixes
+dep	xcalib	xcalib
+dep	xclip	xclip
+dep	xdotool	xdotool
+dep	xdpyinfo	xdpyinfo
+dep	xinput	xinput
+dep	xob	xob
+dep	xprintidle	xprintidle
+dep	xprop	xprop
+dep	xrandr	xrandr
+dep	xrdb	xrdb
+dep	xsel	xsel
+dep	xset	xset
+dep	xsetroot	xsetroot
+dep	xwininfo	xwininfo

@@ -1,0 +1,14 @@
+name	nextcloud32-serverinfo
+version	32.0.15-r0
+description	Nextcloud Monitoring app
+url	https://nextcloud.com/
+license	AGPL-3.0-only
+size	284505
+installed-size	1395563
+depends	nextcloud32 nextcloud32-files_sharing
+origin	nextcloud32
+repo	community
+file	nextcloud32-serverinfo-32.0.15-r0.apk
+checksum	Q1sqGPfUS3YsJIgmvgfq0e20/qvfY=
+dep	nextcloud32	nextcloud32
+dep	nextcloud32-files_sharing	nextcloud32-files_sharing

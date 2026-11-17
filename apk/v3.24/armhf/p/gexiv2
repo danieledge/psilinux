@@ -1,0 +1,19 @@
+name	gexiv2
+version	0.14.6-r1
+description	GObject-based wrapper around the Exiv2 library
+url	https://gitlab.gnome.org/GNOME/gexiv2
+license	GPL-2.0-or-later
+size	69124
+installed-size	195256
+depends	so:libc.musl-armhf.so.1 so:libexiv2.so.28 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libstdc++.so.6
+origin	gexiv2
+repo	community
+file	gexiv2-0.14.6-r1.apk
+checksum	Q120brgShxW8s5nO5K6tPX3rD18bQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexiv2.so.28	exiv2-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libstdc++.so.6	libstdc++

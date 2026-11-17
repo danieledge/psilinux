@@ -1,0 +1,18 @@
+name	libevhtp
+version	1.2.18-r6
+description	Flexible replacement for libevent's httpd API
+url	https://github.com/Yellow-Camper/libevhtp
+license	BSD-3-Clause
+size	33737
+installed-size	75364
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libevent-2.1.so.7 so:libevent_openssl-2.1.so.7 so:libonig.so.5 so:libssl.so.3
+origin	libevhtp
+repo	community
+file	libevhtp-1.2.18-r6.apk
+checksum	Q1lvKzsPjZFCqhwwKUjTqhKdw1bNs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libevent-2.1.so.7	libevent
+dep	so:libevent_openssl-2.1.so.7	libevent
+dep	so:libonig.so.5	oniguruma
+dep	so:libssl.so.3	libssl3

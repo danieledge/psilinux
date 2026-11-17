@@ -1,0 +1,24 @@
+name	toxic
+version	0.16.1-r3
+description	ncurses-based Tox client
+url	https://github.com/JFreegman/toxic
+license	GPL-3.0-or-later
+size	180765
+installed-size	375068
+depends	toxic-common=0.16.1-r3 so:libX11.so.6 so:libc.musl-armhf.so.1 so:libconfig.so.15 so:libcurl.so.4 so:libncursesw.so.6 so:libnotify.so.4 so:libopenal.so.1 so:libpng16.so.16 so:libqrencode.so.4 so:libtoxcore.so.2 so:libvpx.so.11
+origin	toxic
+repo	community
+file	toxic-0.16.1-r3.apk
+checksum	Q1CCcsePdaNPfI+2WT/Pu6sfvrkqU=
+dep	toxic-common=0.16.1-r3	toxic-common
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libconfig.so.15	libconfig
+dep	so:libcurl.so.4	libcurl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libnotify.so.4	libnotify
+dep	so:libopenal.so.1	openal-soft-libs
+dep	so:libpng16.so.16	libpng
+dep	so:libqrencode.so.4	libqrencode
+dep	so:libtoxcore.so.2	toxcore-libs
+dep	so:libvpx.so.11	libvpx

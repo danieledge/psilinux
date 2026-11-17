@@ -1,0 +1,16 @@
+name	cage
+version	0.3.0-r0
+description	Wayland Kiosk
+url	https://www.hjdskes.nl/projects/cage/
+license	MIT
+size	19128
+installed-size	46412
+depends	so:libc.musl-armhf.so.1 so:libwayland-server.so.0 so:libwlroots-0.20.so so:libxkbcommon.so.0
+origin	cage
+repo	community
+file	cage-0.3.0-r0.apk
+checksum	Q1TAdyyHYSxmomTKGY7U2ftEN6s8I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libwayland-server.so.0	wayland-libs-server
+dep	so:libwlroots-0.20.so	wlroots0.20
+dep	so:libxkbcommon.so.0	libxkbcommon

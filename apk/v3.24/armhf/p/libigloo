@@ -1,0 +1,14 @@
+name	libigloo
+version	0.9.5-r0
+description	Generic C framework used and developed by the Icecast project
+url	https://icecast.org/
+license	GPL-2.0-only
+size	27726
+installed-size	59948
+depends	so:libc.musl-armhf.so.1 so:librhash.so.1
+origin	libigloo
+repo	main
+file	libigloo-0.9.5-r0.apk
+checksum	Q16E/NlBNYGyh5FRxtipnchzW1Qv0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:librhash.so.1	rhash-libs

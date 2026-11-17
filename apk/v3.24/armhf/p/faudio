@@ -1,0 +1,14 @@
+name	faudio
+version	24.09-r0
+description	Accuracy-focused XAudio reimplementation for open platforms
+url	https://fna-xna.github.io/
+license	Zlib
+size	104449
+installed-size	241544
+depends	so:libSDL2-2.0.so.0 so:libc.musl-armhf.so.1
+origin	faudio
+repo	community
+file	faudio-24.09-r0.apk
+checksum	Q1DN1U/Vo2jFKWk5f+DeWiggzHVSQ=
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libc.musl-armhf.so.1	musl

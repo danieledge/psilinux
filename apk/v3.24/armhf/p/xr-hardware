@@ -1,0 +1,13 @@
+name	xr-hardware
+version	1.1.1-r0
+description	Hardware description for XR devices
+url	https://gitlab.freedesktop.org/monado/utilities/xr-hardware
+license	BSL-1.0
+size	3033
+installed-size	7707
+depends	eudev
+origin	xr-hardware
+repo	community
+file	xr-hardware-1.1.1-r0.apk
+checksum	Q1HkquoGYZAJPhIpXyG12IYHX/odM=
+dep	eudev	eudev

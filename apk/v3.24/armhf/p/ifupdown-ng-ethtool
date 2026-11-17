@@ -1,0 +1,13 @@
+name	ifupdown-ng-ethtool
+version	0.13.0-r0
+description	ifupdown-ng integration for ethtool
+url	https://github.com/ifupdown-ng/ifupdown-ng
+license	ISC
+size	2322
+installed-size	1726
+depends	ethtool
+origin	ifupdown-ng
+repo	main
+file	ifupdown-ng-ethtool-0.13.0-r0.apk
+checksum	Q1hVBKpR9TUmBHc4jWV5ZQzaIjUFw=
+dep	ethtool	ethtool

@@ -1,0 +1,14 @@
+name	php83-pecl-ds
+version	2.0.0-r0
+description	PHP 8.3 extension for efficient Data Structures - PECL
+url	https://pecl.php.net/package/ds
+license	MIT
+size	45055
+installed-size	119253
+depends	php83-common so:libc.musl-armhf.so.1
+origin	php83-pecl-ds
+repo	community
+file	php83-pecl-ds-2.0.0-r0.apk
+checksum	Q1l2txE18SKTrXj8BN5tlXKbT1k3E=
+dep	php83-common	php83-common
+dep	so:libc.musl-armhf.so.1	musl

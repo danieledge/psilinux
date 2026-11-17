@@ -1,0 +1,16 @@
+name	boost1.84-fiber
+version	1.84.0-r6
+description	Boost fiber shared library
+url	https://www.boost.org/
+license	BSL-1.0
+size	30458
+installed-size	71088
+depends	so:libboost_context.so.1.84.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	boost1.84
+repo	main
+file	boost1.84-fiber-1.84.0-r6.apk
+checksum	Q1mB8ulQd+thvqY46xdjn/SK/BWsM=
+dep	so:libboost_context.so.1.84.0	boost1.84-context
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

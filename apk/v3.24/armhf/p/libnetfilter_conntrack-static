@@ -1,0 +1,13 @@
+name	libnetfilter_conntrack-static
+version	1.1.1-r0
+description	programming interface (API) to the in-kernel connection tracking state table (static library)
+url	https://www.netfilter.org/projects/libnetfilter_conntrack/
+license	GPL-2.0-or-later
+size	49737
+installed-size	155900
+depends	libnetfilter_conntrack-dev
+origin	libnetfilter_conntrack
+repo	main
+file	libnetfilter_conntrack-static-1.1.1-r0.apk
+checksum	Q1hufUKOrGNInjby/x0qTseeYMt2I=
+dep	libnetfilter_conntrack-dev	libnetfilter_conntrack-dev

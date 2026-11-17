@@ -1,0 +1,14 @@
+name	luajit
+version	2.1_p20251030-r0
+description	OpenResty's branch of LuaJIT
+url	https://github.com/openresty/luajit2
+license	MIT
+size	605806
+installed-size	1233907
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	luajit
+repo	main
+file	luajit-2.1_p20251030-r0.apk
+checksum	Q1bojqUeNIy2Qpg+j6XWKzIkanqyk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

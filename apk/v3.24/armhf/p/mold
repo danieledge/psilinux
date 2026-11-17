@@ -1,0 +1,18 @@
+name	mold
+version	2.39.1-r0
+description	fast modern linker
+url	https://github.com/rui314/mold
+license	MIT
+size	8353613
+installed-size	22525832
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libtbb.so.12 so:libz.so.1 so:libzstd.so.1
+origin	mold
+repo	community
+file	mold-2.39.1-r0.apk
+checksum	Q1hYe7dL8FJhIFXdw/eDIzoCEIX70=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtbb.so.12	onetbb
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

@@ -1,0 +1,14 @@
+name	argon2-dev
+version	20190702-r5
+description	The password hash Argon2, winner of PHC (development files)
+url	https://github.com/P-H-C/phc-winner-argon2
+license	Apache-2.0 OR CC0-1.0
+size	6038
+installed-size	17077
+depends	argon2-libs=20190702-r5 pkgconfig
+origin	argon2
+repo	main
+file	argon2-dev-20190702-r5.apk
+checksum	Q13Y7Xc+COTXZqXOlupBOg/sfBXRo=
+dep	argon2-libs=20190702-r5	argon2-libs
+dep	pkgconfig	pkgconf

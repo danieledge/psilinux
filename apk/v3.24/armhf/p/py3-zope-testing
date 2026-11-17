@@ -1,0 +1,15 @@
+name	py3-zope-testing
+version	6.1-r2
+description	Zope testing helpers
+url	https://github.com/zopefoundation/zope.testing
+license	ZPL-2.1
+size	31246
+installed-size	95276
+depends	python3 py3-setuptools python3~3.14
+origin	py3-zope-testing
+repo	community
+file	py3-zope-testing-6.1-r2.apk
+checksum	Q12G98+02mumdMqKufcdD3AsmOluY=
+dep	python3	python3
+dep	py3-setuptools	py3-setuptools
+dep	python3~3.14	python3

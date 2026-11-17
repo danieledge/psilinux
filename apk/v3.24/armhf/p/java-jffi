@@ -1,0 +1,14 @@
+name	java-jffi
+version	1.3.15-r0
+description	Java Foreign Function Interface
+url	https://github.com/jnr/jffi
+license	Apache-2.0
+size	110608
+installed-size	124691
+depends	java-jffi-native=1.3.15-r0 java-jre-headless
+origin	java-jffi
+repo	community
+file	java-jffi-1.3.15-r0.apk
+checksum	Q1dbM3mmgnWN5lFtafYIhbG1kbbX4=
+dep	java-jffi-native=1.3.15-r0	java-jffi-native
+dep	java-jre-headless	openjdk8-jre-base

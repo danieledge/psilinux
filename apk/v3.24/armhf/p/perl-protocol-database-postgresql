@@ -1,0 +1,21 @@
+name	perl-protocol-database-postgresql
+version	2.001-r1
+description	PostgreSQL wire protocol implementation
+url	https://metacpan.org/release/Protocol-Database-PostgreSQL/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	18630
+installed-size	61683
+depends	perl perl-adapter-async perl-check-unitcheck perl-future perl-indirect perl-log-any perl-ryu perl-sub-identify perl-unicode-utf8
+origin	perl-protocol-database-postgresql
+repo	community
+file	perl-protocol-database-postgresql-2.001-r1.apk
+checksum	Q1dwjhJJFtFdpR+TbFQK+3JkhZy54=
+dep	perl	perl
+dep	perl-adapter-async	perl-adapter-async
+dep	perl-check-unitcheck	perl-check-unitcheck
+dep	perl-future	perl-future
+dep	perl-indirect	perl-indirect
+dep	perl-log-any	perl-log-any
+dep	perl-ryu	perl-ryu
+dep	perl-sub-identify	perl-sub-identify
+dep	perl-unicode-utf8	perl-unicode-utf8

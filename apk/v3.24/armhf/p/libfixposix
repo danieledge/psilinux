@@ -1,0 +1,13 @@
+name	libfixposix
+version	0.5.1-r0
+description	Thin wrapper over POSIX syscalls
+url	https://github.com/sionescu/libfixposix
+license	BSL-1.0
+size	12008
+installed-size	25772
+depends	so:libc.musl-armhf.so.1
+origin	libfixposix
+repo	community
+file	libfixposix-0.5.1-r0.apk
+checksum	Q1QAntJaE55bZZTnPuQGoxwTc0LpM=
+dep	so:libc.musl-armhf.so.1	musl

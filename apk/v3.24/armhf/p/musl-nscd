@@ -1,0 +1,14 @@
+name	musl-nscd
+version	1.1.1-r4
+description	Implementation of nscd for nsswitch modules for musl
+url	https://github.com/pikhq/musl-nscd
+license	MIT
+size	16844
+installed-size	34096
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	musl-nscd
+repo	main
+file	musl-nscd-1.1.1-r4.apk
+checksum	Q1rOadhkZpkulGsvgQ0HGwUnm0m2Q=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

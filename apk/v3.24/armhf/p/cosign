@@ -1,0 +1,14 @@
+name	cosign
+version	3.0.6-r3
+description	container signing tool with support for ephemeral keys and Sigstore signing
+url	https://github.com/sigstore/cosign
+license	Apache-2.0
+size	29084863
+installed-size	99869604
+depends	pcsc-lite-libs so:libc.musl-armhf.so.1
+origin	cosign
+repo	community
+file	cosign-3.0.6-r3.apk
+checksum	Q1+9BK3u0jitYfunWPN03RizURbqU=
+dep	pcsc-lite-libs	pcsc-lite-libs
+dep	so:libc.musl-armhf.so.1	musl

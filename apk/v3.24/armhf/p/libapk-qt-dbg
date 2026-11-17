@@ -1,0 +1,12 @@
+name	libapk-qt-dbg
+version	0.4.6-r9
+description	Alpine Package Keeper (apk) Qt bindings (debug symbols)
+url	https://gitlab.postmarketos.org/postmarketOS/libapk-qt
+license	GPL-2.0-only
+size	1469357
+installed-size	3690104
+depends	!libapk-qt<0.4.6-r9 !libapk-qt>0.4.6-r9
+origin	libapk-qt
+repo	community
+file	libapk-qt-dbg-0.4.6-r9.apk
+checksum	Q1OlsmxV5DcC86ff0edYHsL9BDsLw=

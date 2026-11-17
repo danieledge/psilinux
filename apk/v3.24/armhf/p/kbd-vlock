@@ -1,0 +1,15 @@
+name	kbd-vlock
+version	2.8.0-r0
+description	kbd vlock implemantation
+url	https://kbd-project.org/
+license	GPL-2.0-or-later
+size	7149
+installed-size	13688
+depends	so:libc.musl-armhf.so.1 so:libpam.so.0 so:libpam_misc.so.0
+origin	kbd
+repo	main
+file	kbd-vlock-2.8.0-r0.apk
+checksum	Q1RjmQd0XV70txIu+wgAoKeX7yfS8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpam.so.0	linux-pam
+dep	so:libpam_misc.so.0	linux-pam

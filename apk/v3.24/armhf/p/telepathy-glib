@@ -1,0 +1,18 @@
+name	telepathy-glib
+version	0.24.2-r3
+description	Library for GLib-based Telepathy components
+url	https://telepathy.freedesktop.org
+license	LGPL-2.1-or-later
+size	731097
+installed-size	2197164
+depends	so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libdbus-glib-1.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	telepathy-glib
+repo	community
+file	telepathy-glib-0.24.2-r3.apk
+checksum	Q1CPaOdpahbdd5HZ0eWLxEoN2ey7Y=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libdbus-glib-1.so.2	dbus-glib
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

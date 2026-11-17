@@ -1,0 +1,14 @@
+name	babl
+version	0.1.118-r0
+description	Dynamic, any to any, pixel format conversion library
+url	https://gegl.org/babl
+license	LGPL-3.0-or-later
+size	419406
+installed-size	967608
+depends	so:libc.musl-armhf.so.1 so:liblcms2.so.2
+origin	babl
+repo	community
+file	babl-0.1.118-r0.apk
+checksum	Q1bkCJNm3HdWaT/mSEgmWgByHH7Ic=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblcms2.so.2	lcms2

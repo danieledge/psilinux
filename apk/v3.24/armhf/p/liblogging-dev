@@ -1,0 +1,14 @@
+name	liblogging-dev
+version	1.0.8-r0
+description	An easy to use logging library (development files)
+url	http://www.liblogging.org/
+license	BSD-2-Clause
+size	10760
+installed-size	22671
+depends	liblogging=1.0.8-r0 pkgconfig
+origin	liblogging
+repo	main
+file	liblogging-dev-1.0.8-r0.apk
+checksum	Q1lAHqzgfeCh3oSJcSg04+/1pvsk8=
+dep	liblogging=1.0.8-r0	liblogging
+dep	pkgconfig	pkgconf

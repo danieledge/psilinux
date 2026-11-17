@@ -1,0 +1,14 @@
+name	musl-nscd-dev
+version	1.1.1-r4
+description	Implementation of nscd for nsswitch modules for musl (development files)
+url	https://github.com/pikhq/musl-nscd
+license	MIT
+size	1681
+installed-size	187
+depends	bison flex
+origin	musl-nscd
+repo	main
+file	musl-nscd-dev-1.1.1-r4.apk
+checksum	Q1z03W58OuV9l+KxhyUTDz7CtHyUE=
+dep	bison	bison
+dep	flex	flex

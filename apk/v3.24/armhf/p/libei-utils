@@ -1,0 +1,15 @@
+name	libei-utils
+version	1.5.0-r0
+description	Emulated Input library
+url	https://gitlab.freedesktop.org/libinput/libei
+license	MIT
+size	7074
+installed-size	13688
+depends	so:libc.musl-armhf.so.1 so:libei.so.1 so:libevdev.so.2
+origin	libei
+repo	community
+file	libei-utils-1.5.0-r0.apk
+checksum	Q1yMQyuJ3m2CD7ZX2P8bzs55D2qBw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libei.so.1	libei
+dep	so:libevdev.so.2	libevdev

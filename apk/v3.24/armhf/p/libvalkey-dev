@@ -1,0 +1,15 @@
+name	libvalkey-dev
+version	0.5.0-r0
+description	Valkey client library in C (development files)
+url	https://github.com/valkey-io/libvalkey
+license	BSD-3-Clause
+size	322598
+installed-size	794056
+depends	libvalkey-tls=0.5.0-r0 libvalkey=0.5.0-r0 pkgconfig
+origin	libvalkey
+repo	community
+file	libvalkey-dev-0.5.0-r0.apk
+checksum	Q1nKm161xTjPxuvp05XPQOk+VRWZE=
+dep	libvalkey-tls=0.5.0-r0	libvalkey-tls
+dep	libvalkey=0.5.0-r0	libvalkey
+dep	pkgconfig	pkgconf

@@ -1,0 +1,18 @@
+name	kyotocabinet
+version	1.2.80-r1
+description	library of routines for managing a database
+url	https://dbmx.net/kyotocabinet/
+license	GPL-3.0-or-later
+size	1847154
+installed-size	4875600
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblzma.so.5 so:liblzo2.so.2 so:libstdc++.so.6 so:libz.so.1
+origin	kyotocabinet
+repo	community
+file	kyotocabinet-1.2.80-r1.apk
+checksum	Q1dvmvHu08zY2zAtnm2ZVRyN0dpSc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblzma.so.5	xz-libs
+dep	so:liblzo2.so.2	lzo
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

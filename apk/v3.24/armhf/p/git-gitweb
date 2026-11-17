@@ -1,0 +1,14 @@
+name	git-gitweb
+version	2.54.1-r0
+description	Simple web interface to git repositories
+url	https://www.git-scm.com/
+license	GPL-2.0-only
+size	96136
+installed-size	337125
+depends	git=2.54.1-r0 perl
+origin	git
+repo	main
+file	git-gitweb-2.54.1-r0.apk
+checksum	Q1EMPy0u+2eEaR8GsCBQ4V49hyfSU=
+dep	git=2.54.1-r0	git
+dep	perl	perl

@@ -1,0 +1,31 @@
+name	imv-x11
+version	5.0.1-r0
+description	Image viewer for X11
+url	https://sr.ht/~exec64/imv
+license	MIT
+size	36802
+installed-size	76136
+depends	imv=5.0.1-r0 so:libGL.so.1 so:libX11.so.6 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgobject-2.0.so.0 so:libheif.so.1 so:libicuuc.so.78 so:libinih.so.0 so:libjxl.so.0.11 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpng16.so.16 so:librsvg-2.so.2 so:libturbojpeg.so.0 so:libwebpdecoder.so.3 so:libxcb.so.1 so:libxkbcommon-x11.so.0 so:libxkbcommon.so.0
+origin	imv
+repo	community
+file	imv-x11-5.0.1-r0.apk
+checksum	Q1w7+zeuO+QdjsQNowTYaRvt+EquQ=
+dep	imv=5.0.1-r0	imv
+dep	so:libGL.so.1	mesa-gl
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libheif.so.1	libheif
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libinih.so.0	inih
+dep	so:libjxl.so.0.11	libjxl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpng16.so.16	libpng
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libturbojpeg.so.0	libturbojpeg
+dep	so:libwebpdecoder.so.3	libwebpdecoder
+dep	so:libxcb.so.1	libxcb
+dep	so:libxkbcommon-x11.so.0	libxkbcommon-x11
+dep	so:libxkbcommon.so.0	libxkbcommon

@@ -1,0 +1,13 @@
+name	geany-plugins-dev
+version	2.1-r0
+description	Plugins for Geany (development files)
+url	https://plugins.geany.org/
+license	GPL-3.0-or-later
+size	1560
+installed-size	1
+depends	geany-plugins-utils=2.1-r0
+origin	geany-plugins
+repo	community
+file	geany-plugins-dev-2.1-r0.apk
+checksum	Q19kTDKsp+LDgVDJQB3sUSGyBO99k=
+dep	geany-plugins-utils=2.1-r0	geany-plugins-utils

@@ -1,0 +1,18 @@
+name	sequoia-chameleon-gnupg
+version	0.13.1-r2
+description	Sequoia's reimplementation of the GnuPG interface
+url	https://sequoia-pgp.org/
+license	GPL-3.0-or-later
+size	4109627
+installed-size	8754312
+depends	so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libsqlite3.so.0 so:libssl.so.3
+origin	sequoia-chameleon-gnupg
+repo	community
+file	sequoia-chameleon-gnupg-0.13.1-r2.apk
+checksum	Q1sLrK1bYqReaTbjOSth98FGaAFUA=
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libssl.so.3	libssl3

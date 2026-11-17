@@ -1,0 +1,13 @@
+name	gnu-libiconv-libs
+version	1.18-r0
+description	GNU charset conversion library for libc which doesn't implement it (libraries)
+url	https://www.gnu.org/software/libiconv
+license	LGPL-2.1-or-later
+size	735030
+installed-size	1083688
+depends	so:libc.musl-armhf.so.1
+origin	gnu-libiconv
+repo	community
+file	gnu-libiconv-libs-1.18-r0.apk
+checksum	Q1B3JMb1P5ehNsSbxJq/rp8sE6tLI=
+dep	so:libc.musl-armhf.so.1	musl

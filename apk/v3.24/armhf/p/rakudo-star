@@ -1,0 +1,15 @@
+name	rakudo-star
+version	2025.05-r1
+description	Rakudo modules distribution
+url	https://rakudo.org/star/
+license	Artistic-2.0
+size	2224691
+installed-size	9062805
+depends	libssl3 rakudo>2025.05 readline
+origin	rakudo-star
+repo	community
+file	rakudo-star-2025.05-r1.apk
+checksum	Q1p7TfEuAYRNY4eN4GHhsWF/UOj+A=
+dep	libssl3	libssl3
+dep	rakudo>2025.05	rakudo
+dep	readline	readline

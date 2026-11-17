@@ -1,0 +1,21 @@
+name	qmenumodel
+version	0.9.2-r1
+description	Qt5 renderer for Ayatana Indicators
+url	https://github.com/AyatanaIndicators/qmenumodel
+license	LGPL-3.0-only
+size	104047
+installed-size	293725
+depends	so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt5Qml.so.5 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libstdc++.so.6
+origin	qmenumodel
+repo	community
+file	qmenumodel-0.9.2-r1.apk
+checksum	Q1u7+H5EHZjF6QzR6G8fpF+8wVv0Y=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Gui.so.5	qt5-qtbase-x11
+dep	so:libQt5Qml.so.5	qt5-qtdeclarative
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libstdc++.so.6	libstdc++

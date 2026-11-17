@@ -1,0 +1,23 @@
+name	solid-libs
+version	6.26.0-r0
+description	Hardware integration and detection (libraries)
+url	https://community.kde.org/Frameworks
+license	LGPL-2.1-only OR LGPL-3.0-only
+size	417142
+installed-size	1155992
+depends	so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Gui.so.6 so:libQt6Xml.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libimobiledevice-1.0.so.6 so:libmount.so.1 so:libplist-2.0.so.4 so:libstdc++.so.6 so:libudev.so.1
+origin	solid
+repo	community
+file	solid-libs-6.26.0-r0.apk
+checksum	Q1lMY2JSrHUXVsugwxogTdIxAumfI=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6DBus.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Xml.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libimobiledevice-1.0.so.6	libimobiledevice
+dep	so:libmount.so.1	libmount
+dep	so:libplist-2.0.so.4	libplist
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libudev.so.1	eudev-libs

@@ -1,0 +1,13 @@
+name	lua5.2-uuid
+version	0.3-r1
+description	A pure Lua uuid generator (modified from a Rackspace module) (for Lua 5.2)
+url	https://tieske.github.io/uuid/
+license	Apache-2.0
+size	5018
+installed-size	8943
+depends	lua5.2
+origin	lua-uuid
+repo	main
+file	lua5.2-uuid-0.3-r1.apk
+checksum	Q1cvdPnS4oyqK6x81NmiOT1tjz/ow=
+dep	lua5.2	lua5.2

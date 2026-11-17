@@ -1,0 +1,14 @@
+name	fyi
+version	1.0.4-r0
+description	A notify-send alternative
+url	https://codeberg.org/dnkl/fyi
+license	MIT
+size	10013
+installed-size	22136
+depends	so:libc.musl-armhf.so.1 so:libdbus-1.so.3
+origin	fyi
+repo	community
+file	fyi-1.0.4-r0.apk
+checksum	Q19OM400/EM1CB4Nx5Qsrrgd2E3Yc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs

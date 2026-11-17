@@ -1,0 +1,18 @@
+name	libgusb-utils
+version	0.4.9-r1
+description	GLib wrapper around libusb (utils)
+url	https://github.com/hughsie/libgusb
+license	LGPL-2.1-or-later
+size	8809
+installed-size	17688
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgusb.so.2 so:libjson-glib-1.0.so.0
+origin	libgusb
+repo	community
+file	libgusb-utils-0.4.9-r1.apk
+checksum	Q1/HEDLj0oyglkjWY10D3rWo1+1IM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgusb.so.2	libgusb
+dep	so:libjson-glib-1.0.so.0	json-glib

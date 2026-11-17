@@ -1,0 +1,16 @@
+name	py3-pyrdfa3
+version	3.6.5-r1
+description	pyRdfa Libray
+url	https://pypi.python.org/project/pyrdfa3
+license	W3C-20150513
+size	86668
+installed-size	330378
+depends	py3-rdflib py3-html5lib py3-isodate python3~3.14
+origin	py3-pyrdfa3
+repo	community
+file	py3-pyrdfa3-3.6.5-r1.apk
+checksum	Q1eCpN1+0A4JEj3zFeTnUL4buyLdg=
+dep	py3-rdflib	py3-rdflib
+dep	py3-html5lib	py3-html5lib
+dep	py3-isodate	py3-isodate
+dep	python3~3.14	python3

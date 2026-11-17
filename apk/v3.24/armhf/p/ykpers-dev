@@ -1,0 +1,14 @@
+name	ykpers-dev
+version	1.20.0-r2
+description	YubiKey Personalization library and tool (development files)
+url	https://developers.yubico.com/yubikey-personalization/
+license	BSD-2-Clause
+size	37618
+installed-size	114157
+depends	ykpers=1.20.0-r2 pkgconfig
+origin	ykpers
+repo	community
+file	ykpers-dev-1.20.0-r2.apk
+checksum	Q1jIGFB+zNkMQ8+Kkl5b2suDMX/Eg=
+dep	ykpers=1.20.0-r2	ykpers
+dep	pkgconfig	pkgconf

@@ -1,0 +1,17 @@
+name	perl-object-pad
+version	0.821-r0
+description	simple syntax for lexical field-based objects
+url	https://metacpan.org/release/Object-Pad/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	91418
+installed-size	238695
+depends	perl perl-xs-parse-sublike perl-xs-parse-keyword perl-file-sharedir so:libc.musl-armhf.so.1
+origin	perl-object-pad
+repo	community
+file	perl-object-pad-0.821-r0.apk
+checksum	Q129tq4ttln8zxMcria+Qfj0t9Ay4=
+dep	perl	perl
+dep	perl-xs-parse-sublike	perl-xs-parse-sublike
+dep	perl-xs-parse-keyword	perl-xs-parse-keyword
+dep	perl-file-sharedir	perl-file-sharedir
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,29 @@
+name	i3lock-color
+version	2.13.5-r0
+description	Modern version of i3lock with color functionality and other features
+url	https://github.com/Raymo111/i3lock-color
+license	MIT
+size	46300
+installed-size	95616
+depends	xkeyboard-config !i3lock so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libev.so.4 so:libfontconfig.so.1 so:libjpeg.so.8 so:libpam.so.0 so:libxcb-composite.so.0 so:libxcb-image.so.0 so:libxcb-randr.so.0 so:libxcb-util.so.1 so:libxcb-xinerama.so.0 so:libxcb-xkb.so.1 so:libxcb-xrm.so.0 so:libxcb.so.1 so:libxkbcommon-x11.so.0 so:libxkbcommon.so.0
+origin	i3lock-color
+repo	community
+file	i3lock-color-2.13.5-r0.apk
+checksum	Q1bpxken7jR8Q5UyqRF/flJk0ZYCk=
+dep	xkeyboard-config	xkeyboard-config
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libev.so.4	libev
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpam.so.0	linux-pam
+dep	so:libxcb-composite.so.0	libxcb
+dep	so:libxcb-image.so.0	xcb-util-image
+dep	so:libxcb-randr.so.0	libxcb
+dep	so:libxcb-util.so.1	xcb-util
+dep	so:libxcb-xinerama.so.0	libxcb
+dep	so:libxcb-xkb.so.1	libxcb
+dep	so:libxcb-xrm.so.0	xcb-util-xrm
+dep	so:libxcb.so.1	libxcb
+dep	so:libxkbcommon-x11.so.0	libxkbcommon-x11
+dep	so:libxkbcommon.so.0	libxkbcommon

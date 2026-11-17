@@ -1,0 +1,17 @@
+name	rook-getattr
+version	0.4.4-r0
+description	Interactive utility to prompt for a single field from rook
+url	https://sr.ht/~ser/rook
+license	BSD-3-Clause
+size	3337
+installed-size	4319
+depends	xdotool rofi fzf xsel util-linux
+origin	rook
+repo	community
+file	rook-getattr-0.4.4-r0.apk
+checksum	Q1NdWr4UmP3ogjzraFNzfjWy8jl14=
+dep	xdotool	xdotool
+dep	rofi	rofi
+dep	fzf	fzf
+dep	xsel	xsel
+dep	util-linux	util-linux

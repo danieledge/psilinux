@@ -1,0 +1,14 @@
+name	perl-test-subcalls
+version	1.10-r1
+description	Track the number of times subs are called
+url	https://metacpan.org/pod/Test::SubCalls
+license	GPL-1.0-only OR Artistic-1.0-Perl
+size	3969
+installed-size	4768
+depends	perl perl-hook-lexwrap
+origin	perl-test-subcalls
+repo	community
+file	perl-test-subcalls-1.10-r1.apk
+checksum	Q1m2rfWK0A/rBG7a8VHEOdvzh5kzI=
+dep	perl	perl
+dep	perl-hook-lexwrap	perl-hook-lexwrap

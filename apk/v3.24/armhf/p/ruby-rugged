@@ -1,0 +1,15 @@
+name	ruby-rugged
+version	1.9.0-r1
+description	Ruby bindings to libgit2
+url	https://github.com/libgit2/rugged
+license	MIT
+size	91723
+installed-size	236368
+depends	so:libc.musl-armhf.so.1 so:libgit2.so.1.9 so:libruby.so.3.4
+origin	ruby-rugged
+repo	community
+file	ruby-rugged-1.9.0-r1.apk
+checksum	Q1MjtTjtptvqHJGF9sOdHSI+fkUQk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgit2.so.1.9	libgit2
+dep	so:libruby.so.3.4	ruby-libs

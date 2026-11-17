@@ -1,0 +1,14 @@
+name	ttf-liberation
+version	2.1.5-r2
+description	Deprecated name for font-liberation and font-liberation-sans-narrow
+url	https://github.com/liberationfonts/liberation-fonts
+license	OFL-1.1
+size	1317
+installed-size	0
+depends	font-liberation=2.1.5-r2 font-liberation-sans-narrow
+origin	font-liberation
+repo	main
+file	ttf-liberation-2.1.5-r2.apk
+checksum	Q1wuXl8vGhX3o9bgkbMR5rQn3B3ng=
+dep	font-liberation=2.1.5-r2	font-liberation
+dep	font-liberation-sans-narrow	font-liberation-sans-narrow

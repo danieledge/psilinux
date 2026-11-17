@@ -1,0 +1,21 @@
+name	perl-test-nginx
+version	0.30-r1
+description	Data-driven test scaffold for Nginx C module
+url	https://metacpan.org/release/Test-Nginx/
+license	BSD-3-Clause
+size	80535
+installed-size	365764
+depends	perl perl-libwww perl-ipc-run perl-text-diff perl-http-message perl-test-longstring perl-list-moreutils perl-test-base perl-uri
+origin	perl-test-nginx
+repo	community
+file	perl-test-nginx-0.30-r1.apk
+checksum	Q1rpL8C8IovsMEFwOCPma/mh/+EWM=
+dep	perl	perl
+dep	perl-libwww	perl-libwww
+dep	perl-ipc-run	perl-ipc-run
+dep	perl-text-diff	perl-text-diff
+dep	perl-http-message	perl-http-message
+dep	perl-test-longstring	perl-test-longstring
+dep	perl-list-moreutils	perl-list-moreutils
+dep	perl-test-base	perl-test-base
+dep	perl-uri	perl-uri

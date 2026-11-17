@@ -1,0 +1,13 @@
+name	ictree
+version	1.0.1-r0
+description	Like tree(1) but interactive
+url	https://github.com/NikitaIvanovV/ictree
+license	GPL-3.0-or-later AND MIT
+size	25339
+installed-size	51380
+depends	so:libc.musl-armhf.so.1
+origin	ictree
+repo	community
+file	ictree-1.0.1-r0.apk
+checksum	Q1dnh9Wbv2KRcjlDjxkwW3zRxlXZM=
+dep	so:libc.musl-armhf.so.1	musl

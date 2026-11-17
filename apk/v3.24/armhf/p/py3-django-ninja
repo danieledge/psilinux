@@ -1,0 +1,15 @@
+name	py3-django-ninja
+version	1.6.2-r0
+description	Fast, Async-ready, Openapi, type hints based framework for building APIs
+url	https://pypi.python.org/project/django-ninja
+license	MIT
+size	2345889
+installed-size	8429683
+depends	py3-django py3-pydantic python3~3.14
+origin	py3-django-ninja
+repo	community
+file	py3-django-ninja-1.6.2-r0.apk
+checksum	Q1xfSW71cTr96b1RybPMIujDyjyDw=
+dep	py3-django	py3-django
+dep	py3-pydantic	py3-pydantic
+dep	python3~3.14	python3

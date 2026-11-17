@@ -1,0 +1,14 @@
+name	htmlq
+version	0.4.0-r1
+description	Like jq, but for HTML
+url	https://github.com/mgdm/htmlq
+license	MIT
+size	673416
+installed-size	1499316
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	htmlq
+repo	community
+file	htmlq-0.4.0-r1.apk
+checksum	Q1uG7a8/M0Hy5GNZqfL0tQYQVCWTY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

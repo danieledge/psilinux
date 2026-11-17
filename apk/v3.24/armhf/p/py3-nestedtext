@@ -1,0 +1,14 @@
+name	py3-nestedtext
+version	3.8-r1
+description	A Human Friendly Data Format
+url	https://nestedtext.org/
+license	MIT
+size	30277
+installed-size	115311
+depends	py3-inform>=1.28 python3~3.14
+origin	py3-nestedtext
+repo	community
+file	py3-nestedtext-3.8-r1.apk
+checksum	Q1hj+AhVoRbdSnoxfy06L+o3NuxLk=
+dep	py3-inform>=1.28	py3-inform
+dep	python3~3.14	python3

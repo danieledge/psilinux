@@ -1,0 +1,15 @@
+name	babeltrace-dev
+version	2.0.6-r1
+description	Trace converter and read/write library (development files)
+url	https://www.efficios.com/babeltrace
+license	MIT
+size	166436
+installed-size	1186246
+depends	glib-dev babeltrace=2.0.6-r1 pkgconfig
+origin	babeltrace
+repo	community
+file	babeltrace-dev-2.0.6-r1.apk
+checksum	Q1XZ4WP2U5ZFSTLO6EucGOCWsVP9k=
+dep	glib-dev	glib-dev
+dep	babeltrace=2.0.6-r1	babeltrace
+dep	pkgconfig	pkgconf

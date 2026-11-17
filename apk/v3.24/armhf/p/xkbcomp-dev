@@ -1,0 +1,15 @@
+name	xkbcomp-dev
+version	1.5.0-r0
+description	XKBD keymap compiler (development files)
+url	https://xorg.freedesktop.org
+license	MIT
+size	1781
+installed-size	290
+depends	pc:x11 pc:xkbfile pkgconfig
+origin	xkbcomp
+repo	main
+file	xkbcomp-dev-1.5.0-r0.apk
+checksum	Q1qdk3X4Z6CVzna7dRvV9bmAe1NIM=
+dep	pc:x11	libx11-dev
+dep	pc:xkbfile	libxkbfile-dev
+dep	pkgconfig	pkgconf

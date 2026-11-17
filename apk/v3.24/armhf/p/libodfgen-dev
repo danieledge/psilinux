@@ -1,0 +1,19 @@
+name	libodfgen-dev
+version	0.1.8-r9
+description	Import filter and tools for Open Document Format (development files)
+url	https://sourceforge.net/projects/libwpd/
+license	MPL-2.0
+size	6247
+installed-size	32885
+depends	boost-dev librevenge-dev libxml2-dev libodfgen=0.1.8-r9 pc:librevenge-0.0 pc:librevenge-stream-0.0 pkgconfig
+origin	libodfgen
+repo	community
+file	libodfgen-dev-0.1.8-r9.apk
+checksum	Q1BWDX6VrZ8jEWtCy5j6y3Nxsipsg=
+dep	boost-dev	boost-dev
+dep	librevenge-dev	librevenge-dev
+dep	libxml2-dev	libxml2-dev
+dep	libodfgen=0.1.8-r9	libodfgen
+dep	pc:librevenge-0.0	librevenge-dev
+dep	pc:librevenge-stream-0.0	librevenge-dev
+dep	pkgconfig	pkgconf

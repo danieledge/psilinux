@@ -1,0 +1,15 @@
+name	lua5.3-sql-postgres
+version	2.6.0-r6
+description	Lua 5.3 SQL driver for postgres
+url	http://lunarmodules.github.io/luasql/
+license	MIT
+size	7541
+installed-size	13619
+depends	lua5.3 so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	lua-sql
+repo	main
+file	lua5.3-sql-postgres-2.6.0-r6.apk
+checksum	Q15oyb1L5k8EVOXP/la2jp9U/GWKU=
+dep	lua5.3	lua5.3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

@@ -1,0 +1,22 @@
+name	aconf
+version	0.8.1-r4
+description	Alpine Configurator
+url	https://gitlab.alpinelinux.org/kunkku/aconf/
+license	BSD-2-Clause
+size	202613
+installed-size	692591
+depends	lua5.3-augeas lua5.3-b64 lua5.3-cjson lua5.3-file-magic lua5.3-openrc lua5.3-ossl lua5.3-posix lua5.3-stringy uwsgi uwsgi-lua
+origin	aconf
+repo	main
+file	aconf-0.8.1-r4.apk
+checksum	Q1qlXN2tzssESc39edZqxbC2cZUY8=
+dep	lua5.3-augeas	lua5.3-augeas
+dep	lua5.3-b64	lua5.3-b64
+dep	lua5.3-cjson	lua5.3-cjson
+dep	lua5.3-file-magic	lua5.3-file-magic
+dep	lua5.3-openrc	lua5.3-openrc
+dep	lua5.3-ossl	lua5.3-ossl
+dep	lua5.3-posix	lua5.3-posix
+dep	lua5.3-stringy	lua5.3-stringy
+dep	uwsgi	uwsgi
+dep	uwsgi-lua	uwsgi-lua

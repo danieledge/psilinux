@@ -1,0 +1,17 @@
+name	iwatch
+version	0.2.2-r1
+description	realtime filesystem monitoring program written in Perl and uses Linux inotify
+url	https://iwatch.sourceforge.net/index.html
+license	GPL-2.0-only
+size	7470
+installed-size	19419
+depends	perl perl-xml-simpleobject-libxml perl-event perl-linux-inotify2 perl-mail-sendmail
+origin	iwatch
+repo	community
+file	iwatch-0.2.2-r1.apk
+checksum	Q1+hMe/n0E1ID+k/JVdOkzpu4MXY0=
+dep	perl	perl
+dep	perl-xml-simpleobject-libxml	perl-xml-simpleobject-libxml
+dep	perl-event	perl-event
+dep	perl-linux-inotify2	perl-linux-inotify2
+dep	perl-mail-sendmail	perl-mail-sendmail

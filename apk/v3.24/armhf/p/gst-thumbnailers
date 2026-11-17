@@ -1,0 +1,14 @@
+name	gst-thumbnailers
+version	1.0.0-r0
+description	Thumbnail generator using GStreamer
+url	https://gitlab.gnome.org/GNOME/gst-thumbnailers
+license	GPL-3.0-only
+size	1274
+installed-size	0
+depends	gst-audio-thumbnailer gst-video-thumbnailer
+origin	gst-thumbnailers
+repo	community
+file	gst-thumbnailers-1.0.0-r0.apk
+checksum	Q1m3FUTDkWZy1nzP4wrzmA72ykBQI=
+dep	gst-audio-thumbnailer	gst-audio-thumbnailer
+dep	gst-video-thumbnailer	gst-video-thumbnailer

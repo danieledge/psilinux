@@ -1,0 +1,15 @@
+name	libftdi1-dev
+version	1.5-r5
+description	A library to talk to FTDI chips (development files)
+url	https://www.intra2net.com/en/developer/libftdi/download.php
+license	LGPL-2.1-or-later AND GPL-2.0-only
+size	11024
+installed-size	30071
+depends	libftdi1=1.5-r5 pc:libusb-1.0 pkgconfig
+origin	libftdi1
+repo	community
+file	libftdi1-dev-1.5-r5.apk
+checksum	Q1nXqjPUc4w4ib4VhPWy7D2ceum48=
+dep	libftdi1=1.5-r5	libftdi1
+dep	pc:libusb-1.0	libusb-dev
+dep	pkgconfig	pkgconf

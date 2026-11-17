@@ -1,0 +1,14 @@
+name	libeconf
+version	0.8.3-r0
+description	Enhanced Config File Parser
+url	https://github.com/openSUSE/libeconf
+license	MIT
+size	25737
+installed-size	52084
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	libeconf
+repo	main
+file	libeconf-0.8.3-r0.apk
+checksum	Q1WOmZc5jsh7OlMyOvZL5GU8DmnQI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

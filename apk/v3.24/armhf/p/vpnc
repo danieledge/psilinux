@@ -1,0 +1,15 @@
+name	vpnc
+version	0.5.3-r10
+description	IPSec VPN client compatible with Cisco equipment
+url	https://github.com/streambinder/vpnc
+license	GPL-3.0-or-later
+size	71249
+installed-size	161265
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcrypt.so.20
+origin	vpnc
+repo	community
+file	vpnc-0.5.3-r10.apk
+checksum	Q19Wjq1sf9XDrJq09YOnei+4Cm3uU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcrypt.so.20	libgcrypt

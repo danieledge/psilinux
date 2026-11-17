@@ -1,0 +1,15 @@
+name	sane-backend-dc240
+version	1.4.0-r4
+description	SANE backend for Kodak DC240 Digital Camera
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	22010
+installed-size	44742
+depends	sane so:libc.musl-armhf.so.1 so:libjpeg.so.8
+origin	sane
+repo	community
+file	sane-backend-dc240-1.4.0-r4.apk
+checksum	Q16bY6CF2XFRVISTRZPN1lWij7Oyc=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjpeg.so.8	libjpeg-turbo

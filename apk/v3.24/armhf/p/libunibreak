@@ -1,0 +1,13 @@
+name	libunibreak
+version	6.1-r0
+description	Implementation of the line breaking and word breaking algorithms
+url	https://github.com/adah1972/libunibreak
+license	Zlib
+size	27440
+installed-size	128172
+depends	so:libc.musl-armhf.so.1
+origin	libunibreak
+repo	community
+file	libunibreak-6.1-r0.apk
+checksum	Q1BciYwTRszX11x/Ncjn2zFZVunf8=
+dep	so:libc.musl-armhf.so.1	musl

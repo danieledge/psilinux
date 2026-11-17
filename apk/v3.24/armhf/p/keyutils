@@ -1,0 +1,14 @@
+name	keyutils
+version	1.6.3-r4
+description	Linux Key Management Utilities
+url	https://people.redhat.com/~dhowells/keyutils/
+license	GPL-2.0-or-later AND LGPL-2.0-or-later
+size	34743
+installed-size	76429
+depends	so:libc.musl-armhf.so.1 so:libkeyutils.so.1
+origin	keyutils
+repo	main
+file	keyutils-1.6.3-r4.apk
+checksum	Q1h5oYnt3KSTl/xyqPHVlulwpyvTc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libkeyutils.so.1	keyutils-libs

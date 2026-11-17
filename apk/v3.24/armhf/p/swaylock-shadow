@@ -1,0 +1,18 @@
+name	swaylock-shadow
+version	1.8.5-r1
+description	Screen locker for Wayland (shadow backend)
+url	https://swaywm.org/
+license	MIT
+size	23314
+installed-size	51516
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk_pixbuf-2.0.so.0 so:libgobject-2.0.so.0 so:libwayland-client.so.0 so:libxkbcommon.so.0
+origin	swaylock
+repo	community
+file	swaylock-shadow-1.8.5-r1.apk
+checksum	Q1559sTmLD16T/w63Tk0PwqaEgvHs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libxkbcommon.so.0	libxkbcommon

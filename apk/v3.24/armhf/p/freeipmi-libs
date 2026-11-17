@@ -1,0 +1,14 @@
+name	freeipmi-libs
+version	1.6.19-r0
+description	IPMI library and utilities (libraries)
+url	https://www.gnu.org/software/freeipmi/
+license	GPL-3.0-or-later
+size	1111948
+installed-size	4594320
+depends	so:libc.musl-armhf.so.1 so:libgcrypt.so.20
+origin	freeipmi
+repo	community
+file	freeipmi-libs-1.6.19-r0.apk
+checksum	Q13rgRCQXDYhjiEz+VtL63ZPkMzaM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcrypt.so.20	libgcrypt

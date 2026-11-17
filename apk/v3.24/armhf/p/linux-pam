@@ -1,0 +1,14 @@
+name	linux-pam
+version	1.7.1-r2
+description	Linux PAM (Pluggable Authentication Modules for Linux)
+url	https://www.kernel.org/pub/linux/libs/pam
+license	BSD-3-Clause
+size	196610
+installed-size	589479
+depends	so:libc.musl-armhf.so.1 so:libutmps.so.0.1
+origin	linux-pam
+repo	main
+file	linux-pam-1.7.1-r2.apk
+checksum	Q1o2Wnynb18gQqlEcooH3c5+jB49k=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libutmps.so.0.1	utmps-libs

@@ -1,0 +1,16 @@
+name	perl-crypt-openssl-rsa
+version	0.37-r0
+description	RSA encoding and decoding, using the openSSL libraries
+url	https://metacpan.org/release/Crypt-OpenSSL-RSA/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	18898
+installed-size	44759
+depends	perl perl-crypt-openssl-random so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	perl-crypt-openssl-rsa
+repo	main
+file	perl-crypt-openssl-rsa-0.37-r0.apk
+checksum	Q15OaBMt34uOW4FpDRo63NhBTNgpw=
+dep	perl	perl
+dep	perl-crypt-openssl-random	perl-crypt-openssl-random
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

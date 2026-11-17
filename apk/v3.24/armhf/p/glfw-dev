@@ -1,0 +1,17 @@
+name	glfw-dev
+version	3.4-r1
+description	Multi-platform library for OpenGL and Vulkan application development (development files)
+url	https://www.glfw.org/
+license	Zlib
+size	51569
+installed-size	271431
+depends	libxinerama-dev linux-headers mesa-dev glfw=3.4-r1 pkgconfig
+origin	glfw
+repo	community
+file	glfw-dev-3.4-r1.apk
+checksum	Q1B16xAGneFnASpQjm6qSL+9RqwYE=
+dep	libxinerama-dev	libxinerama-dev
+dep	linux-headers	linux-headers
+dep	mesa-dev	mesa-dev
+dep	glfw=3.4-r1	glfw
+dep	pkgconfig	pkgconf

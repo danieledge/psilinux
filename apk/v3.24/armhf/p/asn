@@ -1,0 +1,25 @@
+name	asn
+version	0.81.0-r0
+description	ASN Lookup Tool and Traceroute Server
+url	https://github.com/nitefood/asn/
+license	MIT
+size	60857
+installed-size	215666
+depends	bash ncurses nmap nmap-ncat mtr aha curl whois grepcidr3 coreutils ipcalc bind-tools jq
+origin	asn
+repo	community
+file	asn-0.81.0-r0.apk
+checksum	Q114j3h0xdXsK9e7vsj66oL5aMN7U=
+dep	bash	bash
+dep	ncurses	ncurses
+dep	nmap	nmap
+dep	nmap-ncat	nmap-ncat
+dep	mtr	mtr
+dep	aha	aha
+dep	curl	curl
+dep	whois	whois
+dep	grepcidr3	grepcidr3
+dep	coreutils	coreutils
+dep	ipcalc	ipcalc
+dep	bind-tools	bind-tools
+dep	jq	jq

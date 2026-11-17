@@ -1,0 +1,18 @@
+name	parted
+version	3.7-r0
+description	Utility to create, destroy, resize, check and copy partitions
+url	https://www.gnu.org/software/parted/parted.html
+license	GPL-3.0-or-later
+size	234474
+installed-size	498216
+depends	so:libblkid.so.1 so:libc.musl-armhf.so.1 so:libdevmapper.so.1.02 so:libncursesw.so.6 so:libreadline.so.8 so:libuuid.so.1
+origin	parted
+repo	main
+file	parted-3.7-r0.apk
+checksum	Q1CjSBWsDN7fDVLAnFsYB15tidST4=
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdevmapper.so.1.02	device-mapper-libs
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libreadline.so.8	readline
+dep	so:libuuid.so.1	libuuid

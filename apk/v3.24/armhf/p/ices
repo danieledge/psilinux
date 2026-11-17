@@ -1,0 +1,19 @@
+name	ices
+version	2.0.3-r7
+description	Source client for broadcasting in MP3 format to an icecast2 server
+url	https://icecast.org/ices/
+license	GPL-2.0-or-later
+size	40970
+installed-size	83332
+depends	so:libasound.so.2 so:libc.musl-armhf.so.1 so:libogg.so.0 so:libshout.so.3 so:libvorbis.so.0 so:libvorbisenc.so.2 so:libxml2.so.2
+origin	ices
+repo	community
+file	ices-2.0.3-r7.apk
+checksum	Q1tfUNMrSRHmAm6S1wPP4Bw/MchHE=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libogg.so.0	libogg
+dep	so:libshout.so.3	libshout
+dep	so:libvorbis.so.0	libvorbis
+dep	so:libvorbisenc.so.2	libvorbis
+dep	so:libxml2.so.2	libxml2

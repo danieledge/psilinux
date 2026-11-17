@@ -1,0 +1,14 @@
+name	lua5.2-openrc
+version	0.2-r7
+description	Lua 5.2 module for OpenRC
+url	https://github.com/ncopa/lua-openrc
+license	GPL-2.0-only
+size	4511
+installed-size	9388
+depends	so:libc.musl-armhf.so.1 so:librc.so.1
+origin	lua-openrc
+repo	main
+file	lua5.2-openrc-0.2-r7.apk
+checksum	Q1th63EEXl65IHH6KYWql7Fs/bXpQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:librc.so.1	openrc

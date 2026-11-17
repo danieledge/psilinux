@@ -1,0 +1,27 @@
+name	granite7-dev
+version	7.8.1-r0
+description	Library that extends GTK with common widgets and utilities (development files)
+url	https://github.com/elementary/granite
+license	LGPL-3.0-or-later
+size	67294
+installed-size	322908
+depends	granite7=7.8.1-r0 pc:gee-0.8 pc:gio-2.0>=2.50 pc:gio-unix-2.0>=2.50 pc:glib-2.0>=2.50 pc:gobject-2.0>=2.50 pc:gtk4>=4.12 pkgconfig so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgranite-7.so.7 so:libgtk-4.so.1 so:libshumate-1.0.so.1
+origin	granite7
+repo	community
+file	granite7-dev-7.8.1-r0.apk
+checksum	Q1Z8B4XY8FWEjmnTuKIsbz47MsOII=
+dep	granite7=7.8.1-r0	granite7
+dep	pc:gee-0.8	libgee-dev
+dep	pc:gio-2.0>=2.50	glib-dev
+dep	pc:gio-unix-2.0>=2.50	glib-dev
+dep	pc:glib-2.0>=2.50	glib-dev
+dep	pc:gobject-2.0>=2.50	glib-dev
+dep	pc:gtk4>=4.12	gtk4.0-dev
+dep	pkgconfig	pkgconf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgranite-7.so.7	granite7
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libshumate-1.0.so.1	libshumate

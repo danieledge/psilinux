@@ -1,0 +1,13 @@
+name	git-sizer
+version	1.5.0-r41
+description	Compute various size metrics for a Git repository
+url	https://github.com/github/git-sizer
+license	MIT
+size	1309563
+installed-size	3221228
+depends	so:libc.musl-armhf.so.1
+origin	git-sizer
+repo	community
+file	git-sizer-1.5.0-r41.apk
+checksum	Q163Rm4pg5CrUtWifJ+ucmwIUm8l8=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,18 @@
+name	libplacebo-dev
+version	7.360.1-r0
+description	Reusable library for GPU-accelerated video/image rendering (development files)
+url	https://code.videolan.org/videolan/libplacebo
+license	LGPL-2.1-or-later
+size	141558
+installed-size	500094
+depends	libplacebo=7.360.1-r0 pc:dovi>=1.6.7 pc:lcms2>=2.9 pc:shaderc>=2019.1 pc:vulkan pkgconfig
+origin	libplacebo
+repo	community
+file	libplacebo-dev-7.360.1-r0.apk
+checksum	Q1euDCSQTsGO5DdmToJY3t97i/nZ4=
+dep	libplacebo=7.360.1-r0	libplacebo
+dep	pc:dovi>=1.6.7	libdovi-dev
+dep	pc:lcms2>=2.9	lcms2-dev
+dep	pc:shaderc>=2019.1	shaderc-dev
+dep	pc:vulkan	vulkan-loader-dev
+dep	pkgconfig	pkgconf

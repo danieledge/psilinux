@@ -1,0 +1,14 @@
+name	dbus-dev
+version	1.16.2-r2
+description	Freedesktop.org message bus system (development files)
+url	https://www.freedesktop.org/Software/dbus
+license	AFL-2.1 OR GPL-2.0-or-later
+size	28135
+installed-size	131039
+depends	dbus-libs=1.16.2-r2 pkgconfig
+origin	dbus
+repo	main
+file	dbus-dev-1.16.2-r2.apk
+checksum	Q1SKDyaO3PohbTe0H4eESQKGpBbrs=
+dep	dbus-libs=1.16.2-r2	dbus-libs
+dep	pkgconfig	pkgconf

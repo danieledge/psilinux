@@ -1,0 +1,23 @@
+name	gst-plugin-pipewire
+version	1.6.8-r4
+description	Multimedia graph framework - PipeWire plugin
+url	https://pipewire.org/
+license	MIT
+size	73113
+installed-size	152892
+depends	pipewire-session-manager gst-plugins-base so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstallocators-1.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libpipewire-0.3.so.0
+origin	pipewire
+repo	community
+file	gst-plugin-pipewire-1.6.8-r4.apk
+checksum	Q1vDnM8icrmC344JnMLeNUvq49tYo=
+dep	pipewire-session-manager	wireplumber
+dep	gst-plugins-base	gst-plugins-base
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstallocators-1.0.so.0	gst-plugins-base
+dep	so:libgstaudio-1.0.so.0	gst-plugins-base
+dep	so:libgstbase-1.0.so.0	gstreamer
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base
+dep	so:libpipewire-0.3.so.0	pipewire-libs

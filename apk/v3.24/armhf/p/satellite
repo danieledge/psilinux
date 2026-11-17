@@ -1,0 +1,14 @@
+name	satellite
+version	1.0.0-r40
+description	Satellite is a small Gemini server for serving static files
+url	https://git.sr.ht/~gsthnz/satellite
+license	AGPL-3.0-or-later
+size	2457409
+installed-size	6029540
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	satellite
+repo	community
+file	satellite-1.0.0-r40.apk
+checksum	Q1S2DvagEAqXU6If06+sc08idGTZ4=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

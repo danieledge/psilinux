@@ -1,0 +1,15 @@
+name	perl-mojo-redis
+version	3.29-r1
+description	Redis driver based on Mojo::IOLoop
+url	https://metacpan.org/release/Mojo-Redis/
+license	Artistic-2.0
+size	25499
+installed-size	105844
+depends	perl perl-mojolicious perl-protocol-redis-faster
+origin	perl-mojo-redis
+repo	community
+file	perl-mojo-redis-3.29-r1.apk
+checksum	Q15EB/9nDTTd3vVqvBOHZfeYpnFIg=
+dep	perl	perl
+dep	perl-mojolicious	perl-mojolicious
+dep	perl-protocol-redis-faster	perl-protocol-redis-faster

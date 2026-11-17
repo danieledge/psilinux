@@ -1,0 +1,17 @@
+name	sniffglue
+version	0.16.1-r0
+description	Secure multithreaded packet sniffer
+url	https://github.com/kpcyrd/sniffglue
+license	GPL-3.0-or-later
+size	886105
+installed-size	1720868
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpcap.so.1 so:libseccomp.so.2
+origin	sniffglue
+repo	community
+file	sniffglue-0.16.1-r0.apk
+checksum	Q1C40O+tbyzVnXn/u60pPY8zlVmgc=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpcap.so.1	libpcap
+dep	so:libseccomp.so.2	libseccomp

@@ -1,0 +1,13 @@
+name	udns
+version	0.6-r0
+description	DNS Resolver Library
+url	http://www.corpit.ru/mjt/udns.html
+license	LGPL-2.1-or-later
+size	55902
+installed-size	144216
+depends	so:libc.musl-armhf.so.1
+origin	udns
+repo	main
+file	udns-0.6-r0.apk
+checksum	Q15SbCrMQ12Yt3YJCj3KexVejyeEg=
+dep	so:libc.musl-armhf.so.1	musl

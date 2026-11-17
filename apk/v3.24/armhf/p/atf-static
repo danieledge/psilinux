@@ -1,0 +1,13 @@
+name	atf-static
+version	0.23-r0
+description	libraries to write tests in C, C++ and shell (static library)
+url	https://github.com/freebsd/atf
+license	BSD-2-Clause AND BSD-3-Clause
+size	90404
+installed-size	322228
+depends	atf-dev
+origin	atf
+repo	main
+file	atf-static-0.23-r0.apk
+checksum	Q1JnlkjM9Op39/B46htetgTEdXVVc=
+dep	atf-dev	atf-dev

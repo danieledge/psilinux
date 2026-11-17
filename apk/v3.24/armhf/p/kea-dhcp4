@@ -1,0 +1,34 @@
+name	kea-dhcp4
+version	3.0.3-r0
+description	Kea IPv4 DHCP Server
+url	https://kea.isc.org/
+license	MPL-2.0
+size	324055
+installed-size	818800
+depends	kea-common=3.0.3-r0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libkea-asiolink.so.88 so:libkea-cc.so.83 so:libkea-cfgrpt.so.3 so:libkea-config.so.84 so:libkea-cryptolink.so.64 so:libkea-database.so.76 so:libkea-dhcp.so.109 so:libkea-dhcp_ddns.so.68 so:libkea-dhcpsrv.so.131 so:libkea-dns.so.71 so:libkea-eval.so.84 so:libkea-exceptions.so.45 so:libkea-hooks.so.121 so:libkea-log.so.75 so:libkea-process.so.91 so:libkea-stats.so.53 so:libkea-util.so.102 so:libstdc++.so.6
+origin	kea
+repo	main
+file	kea-dhcp4-3.0.3-r0.apk
+checksum	Q1iAwjgn2XVo0FeORA2s1RE76DTLc=
+dep	kea-common=3.0.3-r0	kea-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libkea-asiolink.so.88	kea-common
+dep	so:libkea-cc.so.83	kea-common
+dep	so:libkea-cfgrpt.so.3	kea-common
+dep	so:libkea-config.so.84	kea-common
+dep	so:libkea-cryptolink.so.64	kea-common
+dep	so:libkea-database.so.76	kea-common
+dep	so:libkea-dhcp.so.109	kea-common
+dep	so:libkea-dhcp_ddns.so.68	kea-common
+dep	so:libkea-dhcpsrv.so.131	kea-common
+dep	so:libkea-dns.so.71	kea-common
+dep	so:libkea-eval.so.84	kea-common
+dep	so:libkea-exceptions.so.45	kea-common
+dep	so:libkea-hooks.so.121	kea-common
+dep	so:libkea-log.so.75	kea-common
+dep	so:libkea-process.so.91	kea-common
+dep	so:libkea-stats.so.53	kea-common
+dep	so:libkea-util.so.102	kea-common
+dep	so:libstdc++.so.6	libstdc++

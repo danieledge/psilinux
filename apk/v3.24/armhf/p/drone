@@ -1,0 +1,15 @@
+name	drone
+version	2.25.0-r18
+description	Container-Native, Continuous Delivery Platform
+url	https://drone.io/
+license	Apache-2.0
+size	8612854
+installed-size	24328079
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	drone
+repo	community
+file	drone-2.25.0-r18.apk
+checksum	Q13Cb1LEKABBmfyGiAJqzBk3BT/6A=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

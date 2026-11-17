@@ -1,0 +1,14 @@
+name	libdsme
+version	0.67.0-r0
+description	Libraries for programs that communicate with the Device State Management Entity
+url	https://github.com/sailfishos/libdsme
+license	LGPL-2.1-or-later
+size	8241
+installed-size	19872
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0
+origin	libdsme
+repo	community
+file	libdsme-0.67.0-r0.apk
+checksum	Q1JPy4q2pI0Z9KGQygRW0qb0eHV3E=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib

@@ -1,0 +1,13 @@
+name	paho-mqtt-c-dev
+version	1.3.16-r0
+description	Fully fledged MQTT client written in ANSI standard C (development files)
+url	https://www.eclipse.org/paho/clients/c/
+license	EPL-2.0
+size	53898
+installed-size	226176
+depends	paho-mqtt-c=1.3.16-r0
+origin	paho-mqtt-c
+repo	community
+file	paho-mqtt-c-dev-1.3.16-r0.apk
+checksum	Q1Gy01sTZF+4zyppV1XFWfCV9Yiws=
+dep	paho-mqtt-c=1.3.16-r0	paho-mqtt-c

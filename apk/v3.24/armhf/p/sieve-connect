@@ -1,0 +1,17 @@
+name	sieve-connect
+version	0.90-r1
+description	command line client for MANAGESIEVE protocol
+url	https://people.spodhuis.org/phil.pennock/software
+license	BSD-3-Clause
+size	32595
+installed-size	87991
+depends	perl-authen-sasl perl-io-socket-inet6 perl-io-socket-ssl perl-net-dns perl-term-readkey
+origin	sieve-connect
+repo	community
+file	sieve-connect-0.90-r1.apk
+checksum	Q1tjm7kziERDHqW0G7Vfpw9YNG4YE=
+dep	perl-authen-sasl	perl-authen-sasl
+dep	perl-io-socket-inet6	perl-io-socket-inet6
+dep	perl-io-socket-ssl	perl-io-socket-ssl
+dep	perl-net-dns	perl-net-dns
+dep	perl-term-readkey	perl-term-readkey

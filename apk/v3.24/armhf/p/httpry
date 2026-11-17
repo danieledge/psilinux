@@ -1,0 +1,14 @@
+name	httpry
+version	0.1.8-r2
+description	A packet sniffer designed for HTTP traffic
+url	https://dumpsterventures.com/jason/httpry/
+license	GPL-2.0
+size	19832
+installed-size	42352
+depends	so:libc.musl-armhf.so.1 so:libpcap.so.1
+origin	httpry
+repo	community
+file	httpry-0.1.8-r2.apk
+checksum	Q15/kMYcgT8AUw5SJhzDP/wwWoqU0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcap.so.1	libpcap

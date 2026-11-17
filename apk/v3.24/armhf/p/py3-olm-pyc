@@ -1,0 +1,13 @@
+name	py3-olm-pyc
+version	3.2.16-r2
+description	Precompiled Python bytecode for py3-olm
+url	https://gitlab.matrix.org/matrix-org/olm
+license	Apache-2.0
+size	33381
+installed-size	193076
+depends	python3~3.14
+origin	olm
+repo	community
+file	py3-olm-pyc-3.2.16-r2.apk
+checksum	Q138zvGRpkMzfM+RD5MGBYa2e8pZo=
+dep	python3~3.14	python3

@@ -1,0 +1,13 @@
+name	libjwt-static
+version	3.3.3-r0
+description	The C JSON Web Token Library +JWK +JWKS (static library)
+url	https://github.com/benmcollins/libjwt
+license	MPL-2.0
+size	25433
+installed-size	71484
+depends	libjwt-dev
+origin	libjwt
+repo	community
+file	libjwt-static-3.3.3-r0.apk
+checksum	Q1SQ0I30cowIQueNkTHKzIUaps/OI=
+dep	libjwt-dev	libjwt-dev

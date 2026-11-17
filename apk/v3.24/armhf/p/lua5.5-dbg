@@ -1,0 +1,12 @@
+name	lua5.5-dbg
+version	5.5.0-r1
+description	Powerful light-weight programming language (debug symbols)
+url	https://www.lua.org/
+license	MIT
+size	718180
+installed-size	1555940
+depends	!lua5.5<5.5.0-r1 !lua5.5>5.5.0-r1
+origin	lua5.5
+repo	main
+file	lua5.5-dbg-5.5.0-r1.apk
+checksum	Q1Bmm0BoS/JvodXAfk9mIOY7f/JVE=

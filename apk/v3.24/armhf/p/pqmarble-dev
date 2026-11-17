@@ -1,0 +1,16 @@
+name	pqmarble-dev
+version	42.0_alpha_git20230311-r0
+description	Useful functions and reusable widgets for GTK 4 (development files)
+url	https://gitlab.gnome.org/raggesilver/marble
+license	GPL-3.0-or-later
+size	4288
+installed-size	7873
+depends	pqmarble=42.0_alpha_git20230311-r0 pc:gio-2.0>=2.50 pc:gtk4>=4.6 pkgconfig
+origin	pqmarble
+repo	community
+file	pqmarble-dev-42.0_alpha_git20230311-r0.apk
+checksum	Q1ieT+yxhQi8omdq5rzlQFgocxoT8=
+dep	pqmarble=42.0_alpha_git20230311-r0	pqmarble
+dep	pc:gio-2.0>=2.50	glib-dev
+dep	pc:gtk4>=4.6	gtk4.0-dev
+dep	pkgconfig	pkgconf

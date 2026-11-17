@@ -1,0 +1,14 @@
+name	py3-localzone
+version	0.9.8-r6
+description	simple library for managing DNS zones
+url	https://localzone.iomaestro.com
+license	BSD-3-Clause
+size	8836
+installed-size	21553
+depends	py3-dnspython python3~3.14
+origin	py3-localzone
+repo	community
+file	py3-localzone-0.9.8-r6.apk
+checksum	Q18PaRVDSreDh4mzrkzXUeElQrfx0=
+dep	py3-dnspython	py3-dnspython
+dep	python3~3.14	python3

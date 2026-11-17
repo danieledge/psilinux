@@ -1,0 +1,19 @@
+name	opus-tools
+version	0.2-r2
+description	Collection of tools for Opus audio codec
+url	https://wiki.xiph.org/Opus-tools
+license	BSD-2-Clause
+size	53757
+installed-size	107348
+depends	so:libFLAC.so.12 so:libc.musl-armhf.so.1 so:libogg.so.0 so:libopus.so.0 so:libopusenc.so.0 so:libopusfile.so.0 so:libopusurl.so.0
+origin	opus-tools
+repo	community
+file	opus-tools-0.2-r2.apk
+checksum	Q1nvHC3yMhCvZMy1C4sJlsOQAgsCU=
+dep	so:libFLAC.so.12	libflac
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libogg.so.0	libogg
+dep	so:libopus.so.0	opus
+dep	so:libopusenc.so.0	libopusenc
+dep	so:libopusfile.so.0	opusfile
+dep	so:libopusurl.so.0	opusfile

@@ -1,0 +1,21 @@
+name	libkkc
+version	0.3.5-r6
+description	Japanese Kana Kanji conversion input method library
+url	https://github.com/ueno/libkkc
+license	GPL-3.0-or-later
+size	226700
+installed-size	759237
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgee-0.8.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libmarisa.so.0
+origin	libkkc
+repo	community
+file	libkkc-0.3.5-r6.apk
+checksum	Q1xarxjHHeE/+x2Y9W6aD72AoqfNU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgee-0.8.so.2	libgee
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libmarisa.so.0	libmarisa

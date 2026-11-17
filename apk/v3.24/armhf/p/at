@@ -1,0 +1,14 @@
+name	at
+version	3.2.5-r4
+description	AT and batch delayed command scheduling utility and daemon
+url	http://blog.calhariz.com/index.php?tag/at
+license	GPL-2.0-or-later
+size	32364
+installed-size	68404
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	at
+repo	community
+file	at-3.2.5-r4.apk
+checksum	Q1hCAZxfftpbM/7BjrHsr+F6uY5ww=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

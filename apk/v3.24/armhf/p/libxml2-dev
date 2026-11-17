@@ -1,0 +1,19 @@
+name	libxml2-dev
+version	2.13.9-r2
+description	XML parsing library, version 2 (development files)
+url	https://gitlab.gnome.org/GNOME/libxml2
+license	MIT
+size	87401
+installed-size	420436
+depends	zlib-dev xz-dev libxml2-utils=2.13.9-r2 libxml2=2.13.9-r2 pc:liblzma pc:zlib pkgconfig
+origin	libxml2
+repo	main
+file	libxml2-dev-2.13.9-r2.apk
+checksum	Q1ZNq8k6DrJFL7Mj3sWWkJtqecv8w=
+dep	zlib-dev	zlib-dev
+dep	xz-dev	xz-dev
+dep	libxml2-utils=2.13.9-r2	libxml2-utils
+dep	libxml2=2.13.9-r2	libxml2
+dep	pc:liblzma	xz-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

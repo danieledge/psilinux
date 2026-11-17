@@ -1,0 +1,16 @@
+name	usbredir-dev
+version	0.14.0-r0
+description	USB network redirection protocol libraries (development files)
+url	https://www.spice-space.org/usbredir.html
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	11100
+installed-size	41210
+depends	libusbredirhost=0.14.0-r0 libusbredirparser=0.14.0-r0 pc:libusb-1.0>=1.0.9 pkgconfig
+origin	usbredir
+repo	community
+file	usbredir-dev-0.14.0-r0.apk
+checksum	Q1fQB1KAWLYFpZUUkxxS2MJzjluKk=
+dep	libusbredirhost=0.14.0-r0	libusbredirhost
+dep	libusbredirparser=0.14.0-r0	libusbredirparser
+dep	pc:libusb-1.0>=1.0.9	libusb-dev
+dep	pkgconfig	pkgconf

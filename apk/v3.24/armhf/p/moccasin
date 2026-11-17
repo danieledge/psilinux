@@ -1,0 +1,17 @@
+name	moccasin
+version	0.1.3-r1
+description	TUI feed reader with Vim keybindings
+url	https://github.com/rektdeckard/moccasin
+license	MIT
+size	1893616
+installed-size	3589724
+depends	cmd:tput so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
+origin	moccasin
+repo	community
+file	moccasin-0.1.3-r1.apk
+checksum	Q15/1srKRESZk8byIhMBt2uXarHsk=
+dep	cmd:tput	ncurses
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3

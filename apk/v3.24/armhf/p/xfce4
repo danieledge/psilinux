@@ -1,0 +1,29 @@
+name	xfce4
+version	4.20-r0
+description	XFCE 4 meta package
+url	https://xfce.org
+license	GPL
+size	1364
+installed-size	0
+depends	exo>=4.20 font-dejavu garcon>=0.8 libxfce4ui>=4.20 libxfce4util>=4.20 libxfce4windowing>=4.20 thunar>=4.20 thunar-volman>=4.20 tumbler>=4.20 xfce4-appfinder>=4.20 xfce4-panel>=4.20 xfce4-power-manager>=4.20 xfce4-session>=4.20 xfce4-settings>=4.20 xfconf>=4.20 xfdesktop>=4.20 xfwm4>=4.20
+origin	xfce4
+repo	community
+file	xfce4-4.20-r0.apk
+checksum	Q152dCX4rRyVJ0cJ8fD1J+nFupVwA=
+dep	exo>=4.20	exo
+dep	font-dejavu	font-dejavu
+dep	garcon>=0.8	garcon
+dep	libxfce4ui>=4.20	libxfce4ui
+dep	libxfce4util>=4.20	libxfce4util
+dep	libxfce4windowing>=4.20	libxfce4windowing
+dep	thunar>=4.20	thunar
+dep	thunar-volman>=4.20	thunar-volman
+dep	tumbler>=4.20	tumbler
+dep	xfce4-appfinder>=4.20	xfce4-appfinder
+dep	xfce4-panel>=4.20	xfce4-panel
+dep	xfce4-power-manager>=4.20	xfce4-power-manager
+dep	xfce4-session>=4.20	xfce4-session
+dep	xfce4-settings>=4.20	xfce4-settings
+dep	xfconf>=4.20	xfconf
+dep	xfdesktop>=4.20	xfdesktop
+dep	xfwm4>=4.20	xfwm4

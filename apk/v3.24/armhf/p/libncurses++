@@ -1,0 +1,20 @@
+name	libncurses++
+version	6.6_p20260516-r0
+description	Console display library (libncurses++)
+url	https://invisible-island.net/ncurses/
+license	X11
+size	22091
+installed-size	54664
+depends	ncurses-terminfo-base=6.6_p20260516-r0 so:libc.musl-armhf.so.1 so:libformw.so.6 so:libgcc_s.so.1 so:libmenuw.so.6 so:libncursesw.so.6 so:libpanelw.so.6 so:libstdc++.so.6
+origin	ncurses
+repo	main
+file	libncurses++-6.6_p20260516-r0.apk
+checksum	Q1IZ9tYapX2l/sHNPF/kngcHrc97w=
+dep	ncurses-terminfo-base=6.6_p20260516-r0	ncurses-terminfo-base
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libformw.so.6	libformw
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmenuw.so.6	libmenuw
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpanelw.so.6	libpanelw
+dep	so:libstdc++.so.6	libstdc++

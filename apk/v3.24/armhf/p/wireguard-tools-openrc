@@ -1,0 +1,13 @@
+name	wireguard-tools-openrc
+version	1.0.20260223-r0
+description	Next generation secure network tunnel: userspace tools (OpenRC init scripts)
+url	https://www.wireguard.com
+license	GPL-2.0-only
+size	2292
+installed-size	1097
+depends	/bin/sh
+origin	wireguard-tools
+repo	main
+file	wireguard-tools-openrc-1.0.20260223-r0.apk
+checksum	Q1sCCqk1OpRBrzdIaGfRHg+GhIUsI=
+dep	/bin/sh	busybox-binsh

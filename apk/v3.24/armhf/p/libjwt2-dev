@@ -1,0 +1,14 @@
+name	libjwt2-dev
+version	2.1.3-r0
+description	JWT C Library 2.x (development files)
+url	https://github.com/benmcollins/libjwt
+license	MPL-2.0
+size	9039
+installed-size	37815
+depends	libjwt2=2.1.3-r0 pkgconfig
+origin	libjwt2
+repo	community
+file	libjwt2-dev-2.1.3-r0.apk
+checksum	Q1v+M/QluLpdkCHVfGYV4C93lXMTo=
+dep	libjwt2=2.1.3-r0	libjwt2
+dep	pkgconfig	pkgconf

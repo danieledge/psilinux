@@ -1,0 +1,23 @@
+name	fcitx5-qt
+version	5.1.13-r1
+description	Qt library and IM module for Fcitx5
+url	https://github.com/fcitx/fcitx5-qt
+license	LGPL-2.1-or-later AND BSD-3-Clause
+size	323409
+installed-size	839730
+depends	so:libFcitx5Utils.so.2 so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Gui.so.6 so:libQt6WaylandClient.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libxcb.so.1 so:libxkbcommon.so.0
+origin	fcitx5-qt
+repo	community
+file	fcitx5-qt-5.1.13-r1.apk
+checksum	Q1RogeSpt8k4TuqXhkCoVO4QcHt+4=
+dep	so:libFcitx5Utils.so.2	fcitx5
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6DBus.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6WaylandClient.so.6	qt6-qtbase-wayland
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxcb.so.1	libxcb
+dep	so:libxkbcommon.so.0	libxkbcommon

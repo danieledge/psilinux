@@ -1,0 +1,14 @@
+name	sfcgal-dev
+version	2.2.0-r0
+description	Library for ISO 19107:2013 and OGC SFA 1.2 for 3D operations (development files)
+url	https://sfcgal.gitlab.io/SFCGAL/index.html
+license	LGPL-2.0-or-later
+size	90240
+installed-size	441939
+depends	sfcgal=2.2.0-r0 pkgconfig
+origin	sfcgal
+repo	community
+file	sfcgal-dev-2.2.0-r0.apk
+checksum	Q1on6I71vW34SE4mS7EGsmd4cwXeY=
+dep	sfcgal=2.2.0-r0	sfcgal
+dep	pkgconfig	pkgconf

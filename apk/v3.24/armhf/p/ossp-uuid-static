@@ -1,0 +1,13 @@
+name	ossp-uuid-static
+version	1.6.6-r0
+description	Open Source Software Project Universally Unique Identifier (UUID) (static library)
+url	https://git.sr.ht/~nabijaczleweli/ossp-uuid
+license	MIT
+size	9171
+installed-size	15900
+depends	ossp-uuid-dev
+origin	ossp-uuid
+repo	community
+file	ossp-uuid-static-1.6.6-r0.apk
+checksum	Q1aWw4TSC2cPJEus21j5VOQjsqRy8=
+dep	ossp-uuid-dev	ossp-uuid-dev

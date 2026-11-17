@@ -1,0 +1,20 @@
+name	vdirsyncer
+version	0.20.0-r2
+description	CLI Synchronization for CalDAV and CardDAV
+url	http://vdirsyncer.pimutils.org
+license	BSD-3-Clause
+size	53591
+installed-size	185754
+depends	python3 py3-aiohttp py3-aiostream py3-click py3-click-log py3-requests py3-requests-toolbelt python3~3.14
+origin	vdirsyncer
+repo	community
+file	vdirsyncer-0.20.0-r2.apk
+checksum	Q1NdmZkNBOzCMIBFDK8+Yhz8bg3YI=
+dep	python3	python3
+dep	py3-aiohttp	py3-aiohttp
+dep	py3-aiostream	py3-aiostream
+dep	py3-click	py3-click
+dep	py3-click-log	py3-click-log
+dep	py3-requests	py3-requests
+dep	py3-requests-toolbelt	py3-requests-toolbelt
+dep	python3~3.14	python3

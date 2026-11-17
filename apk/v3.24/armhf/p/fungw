@@ -1,0 +1,13 @@
+name	fungw
+version	1.2.2-r3
+description	C function gateway for different programming languages
+url	http://www.repo.hu/projects/fungw/
+license	LGPL-2.1-or-later
+size	13068
+installed-size	42112
+depends	so:libc.musl-armhf.so.1
+origin	fungw
+repo	community
+file	fungw-1.2.2-r3.apk
+checksum	Q1Uvr2dAMGHthH3T5WxFXhGR9sK5s=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	php84-bz2
+version	8.4.27-r0
+description	PHP84 extension: Bzip2
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	9650
+installed-size	17742
+depends	php84-common so:libbz2.so.1 so:libc.musl-armhf.so.1
+origin	php84
+repo	community
+file	php84-bz2-8.4.27-r0.apk
+checksum	Q1eZUtPU0ogmCdMkpTcEGuZb11HUE=
+dep	php84-common	php84-common
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl

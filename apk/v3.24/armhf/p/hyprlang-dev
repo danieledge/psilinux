@@ -1,0 +1,14 @@
+name	hyprlang-dev
+version	0.6.8-r0
+description	The official implementation library for the hypr config language. (development files)
+url	https://hyprland.org/hyprlang/
+license	LGPL-3.0-only
+size	6198
+installed-size	16650
+depends	hyprlang=0.6.8-r0 pkgconfig
+origin	hyprlang
+repo	community
+file	hyprlang-dev-0.6.8-r0.apk
+checksum	Q1d/lxBwQVkXv6KVvDYtWHEGkFmpM=
+dep	hyprlang=0.6.8-r0	hyprlang
+dep	pkgconfig	pkgconf

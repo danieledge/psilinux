@@ -1,0 +1,14 @@
+name	statserial
+version	1.1-r8
+description	Display serial port modem status lines
+url	https://ibiblio.org/pub/linux/system/serial
+license	GPL-2.0-or-later
+size	4764
+installed-size	9392
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	statserial
+repo	main
+file	statserial-1.1-r8.apk
+checksum	Q1d58jGEu0cnrlr4z+uiziNe+WJQo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

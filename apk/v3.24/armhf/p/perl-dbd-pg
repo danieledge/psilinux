@@ -1,0 +1,16 @@
+name	perl-dbd-pg
+version	3.20.2-r0
+description	DBI PostgreSQL interface
+url	https://metacpan.org/release/DBD-Pg/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	156050
+installed-size	455723
+depends	perl perl-dbi so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	perl-dbd-pg
+repo	main
+file	perl-dbd-pg-3.20.2-r0.apk
+checksum	Q1Urn2E6e8zbsElzroJEabIUJ6JIE=
+dep	perl	perl
+dep	perl-dbi	perl-dbi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

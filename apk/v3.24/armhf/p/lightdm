@@ -1,0 +1,28 @@
+name	lightdm
+version	1.32.0-r12
+description	cross-desktop display manager
+url	https://www.freedesktop.org/wiki/Software/LightDM
+license	GPL-3.0-or-later
+size	144100
+installed-size	356718
+depends	accountsservice adwaita-icon-theme dbus xinit /bin/sh so:libX11.so.6 so:libXdmcp.so.6 so:libc.musl-armhf.so.1 so:libgcrypt.so.20 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libpam.so.0 so:libxcb.so.1 so:libxklavier.so.16
+origin	lightdm
+repo	community
+file	lightdm-1.32.0-r12.apk
+checksum	Q1XLJ8qnJcYGubyVKk/YjV4hV9UlU=
+dep	accountsservice	accountsservice
+dep	adwaita-icon-theme	adwaita-icon-theme
+dep	dbus	dbus
+dep	xinit	xinit
+dep	/bin/sh	busybox-binsh
+dep	so:libX11.so.6	libx11
+dep	so:libXdmcp.so.6	libxdmcp
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libpam.so.0	linux-pam
+dep	so:libxcb.so.1	libxcb
+dep	so:libxklavier.so.16	libxklavier

@@ -1,0 +1,15 @@
+name	usb-moded-notify
+version	0.4.0-r0
+description	Simple daemon for handling usb-moded dialog events with notifications
+url	https://gitlab.postmarketos.org/postmarketOS/usb-moded-notify
+license	GPL-3.0-or-later
+size	3542
+installed-size	4694
+depends	py3-dbus py3-gobject3 python3
+origin	usb-moded-notify
+repo	community
+file	usb-moded-notify-0.4.0-r0.apk
+checksum	Q1W7bCn8hcYrdy0vc5tK1VL7VlyP8=
+dep	py3-dbus	py3-dbus
+dep	py3-gobject3	py3-gobject3
+dep	python3	python3

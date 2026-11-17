@@ -1,0 +1,14 @@
+name	cloud-init-datasource-wsl
+version	26.1-r3
+description	Cloud-init Windows Subsystem_For_Linux datasource
+url	https://cloud-init.io
+license	Apache-2.0 OR GPL-3.0-only
+size	7305
+installed-size	17333
+depends	cloud-init=26.1-r3 python3~3.14
+origin	cloud-init
+repo	community
+file	cloud-init-datasource-wsl-26.1-r3.apk
+checksum	Q1qAS2BiB1cKf4rl1uTPRg1AJ5G6g=
+dep	cloud-init=26.1-r3	cloud-init
+dep	python3~3.14	python3

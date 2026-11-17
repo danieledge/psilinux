@@ -1,0 +1,15 @@
+name	py3-fuzzywuzzy
+version	0.18.0-r8
+description	Fuzzy string matching in python
+url	https://github.com/seatgeek/fuzzywuzzy
+license	GPL-2.0-only
+size	18597
+installed-size	51231
+depends	python3 py3-levenshtein python3~3.14
+origin	py3-fuzzywuzzy
+repo	community
+file	py3-fuzzywuzzy-0.18.0-r8.apk
+checksum	Q184X+b4X6tCFQIV2I/0U4F6G9SHE=
+dep	python3	python3
+dep	py3-levenshtein	py3-levenshtein
+dep	python3~3.14	python3

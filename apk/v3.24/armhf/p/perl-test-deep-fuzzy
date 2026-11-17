@@ -1,0 +1,15 @@
+name	perl-test-deep-fuzzy
+version	0.01-r1
+description	fuzzy number comparison with Test::Deep
+url	https://metacpan.org/release/Test-Deep-Fuzzy/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	3146
+installed-size	2434
+depends	perl perl-test-deep perl-math-round
+origin	perl-test-deep-fuzzy
+repo	community
+file	perl-test-deep-fuzzy-0.01-r1.apk
+checksum	Q1M4j8uoP5yKIkXsYxEp79Uh/Lhzo=
+dep	perl	perl
+dep	perl-test-deep	perl-test-deep
+dep	perl-math-round	perl-math-round

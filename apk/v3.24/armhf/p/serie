@@ -1,0 +1,15 @@
+name	serie
+version	0.8.0-r0
+description	A rich git commit graph in your terminal
+url	https://github.com/lusingander/serie
+license	MIT
+size	1135488
+installed-size	2202720
+depends	git so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	serie
+repo	community
+file	serie-0.8.0-r0.apk
+checksum	Q1odXYkEq0vIcspiV2JuCwFWpN6kA=
+dep	git	git
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

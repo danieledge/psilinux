@@ -1,0 +1,17 @@
+name	py3-virtualenv
+version	21.3.3-r0
+description	Virtual Python3 Environment builder
+url	https://virtualenv.pypa.io/en/latest/
+license	MIT
+size	7568325
+installed-size	8065924
+depends	py3-platformdirs py3-distlib py3-filelock py3-python-discovery python3~3.14
+origin	py3-virtualenv
+repo	main
+file	py3-virtualenv-21.3.3-r0.apk
+checksum	Q1RCLqB1xi8A7kAcgQ8d7yRw0hScc=
+dep	py3-platformdirs	py3-platformdirs
+dep	py3-distlib	py3-distlib
+dep	py3-filelock	py3-filelock
+dep	py3-python-discovery	py3-python-discovery
+dep	python3~3.14	python3

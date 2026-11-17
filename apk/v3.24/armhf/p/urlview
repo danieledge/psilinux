@@ -1,0 +1,15 @@
+name	urlview
+version	20131023-r4
+description	Extract URLs from text files and select them via a menu
+url	https://github.com/sigpipe/urlview
+license	GPL-2.0-or-later
+size	11555
+installed-size	21684
+depends	bash so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	urlview
+repo	community
+file	urlview-20131023-r4.apk
+checksum	Q1OCPt3/eEw+kAZ1QM0hEiECBYdTQ=
+dep	bash	bash
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

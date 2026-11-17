@@ -1,0 +1,14 @@
+name	libvterm-dev
+version	0.3.3-r0
+description	Abstract library implementation of a VT220/xterm/ECMA-48 terminal emulator (development files)
+url	https://www.leonerd.org.uk/code/libvterm/
+license	MIT
+size	8304
+installed-size	22435
+depends	libvterm=0.3.3-r0 pkgconfig
+origin	libvterm
+repo	community
+file	libvterm-dev-0.3.3-r0.apk
+checksum	Q1+38Wd+fJx5Dp4OlegyvAjEqNQa0=
+dep	libvterm=0.3.3-r0	libvterm
+dep	pkgconfig	pkgconf

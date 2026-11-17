@@ -1,0 +1,20 @@
+name	py3-sqlalchemy-migrate
+version	0.13.0-r7
+description	SQLAlchemy Schema Migration Tools
+url	https://opendev.org/x/sqlalchemy-migrate
+license	MIT
+size	56547
+installed-size	192963
+depends	py3-pbr py3-sqlalchemy py3-decorator py3-setuptools py3-six py3-sqlparse py3-tempita python3~3.14
+origin	py3-sqlalchemy-migrate
+repo	community
+file	py3-sqlalchemy-migrate-0.13.0-r7.apk
+checksum	Q1WUPEZgH+OMtOMUzGazHdii/02zI=
+dep	py3-pbr	py3-pbr
+dep	py3-sqlalchemy	py3-sqlalchemy
+dep	py3-decorator	py3-decorator
+dep	py3-setuptools	py3-setuptools
+dep	py3-six	py3-six
+dep	py3-sqlparse	py3-sqlparse
+dep	py3-tempita	py3-tempita
+dep	python3~3.14	python3

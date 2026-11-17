@@ -1,0 +1,15 @@
+name	ocaml-happy-eyeballs-lwt-tools
+version	0.3.0-r5
+description	Connecting to a remote host via IP version 4 or 6 using Lwt_unix (command line utilities)
+url	https://github.com/roburio/happy-eyeballs
+license	ISC
+size	2553240
+installed-size	5502116
+depends	so:libc.musl-armhf.so.1 so:libev.so.4 so:libgmp.so.10
+origin	ocaml-happy-eyeballs-lwt
+repo	community
+file	ocaml-happy-eyeballs-lwt-tools-0.3.0-r5.apk
+checksum	Q1Sjj6U9LgaZ0afHUbT5Swmx+0RfQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libev.so.4	libev
+dep	so:libgmp.so.10	gmp

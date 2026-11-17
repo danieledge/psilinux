@@ -1,0 +1,12 @@
+name	acme-redirect-openrc
+version	0.8.1-r1
+description	Tiny http daemon that answers acme challenges and redirects everything else to https (OpenRC init scripts)
+url	https://github.com/kpcyrd/acme-redirect
+license	GPL-3.0-or-later
+size	1834
+installed-size	429
+depends	
+origin	acme-redirect
+repo	community
+file	acme-redirect-openrc-0.8.1-r1.apk
+checksum	Q1IpuUEBZS/O6Cciws72FDcIko4b8=

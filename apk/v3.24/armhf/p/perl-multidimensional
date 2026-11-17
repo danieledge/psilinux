@@ -1,0 +1,15 @@
+name	perl-multidimensional
+version	0.014-r2
+description	Pragma to disable multidimensional array emulation
+url	https://metacpan.org/release/multidimensional/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	4788
+installed-size	7175
+depends	perl perl-b-hooks-op-check so:libc.musl-armhf.so.1
+origin	perl-multidimensional
+repo	community
+file	perl-multidimensional-0.014-r2.apk
+checksum	Q1Zgv5sFPfdl2+fu9IDBB+3PvsEbI=
+dep	perl	perl
+dep	perl-b-hooks-op-check	perl-b-hooks-op-check
+dep	so:libc.musl-armhf.so.1	musl

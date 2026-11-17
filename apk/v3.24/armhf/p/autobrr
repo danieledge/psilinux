@@ -1,0 +1,14 @@
+name	autobrr
+version	1.80.0-r2
+description	The modern download automation tool for torrents
+url	https://autobrr.com/
+license	GPL-2.0-or-later
+size	20843723
+installed-size	57747360
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	autobrr
+repo	community
+file	autobrr-1.80.0-r2.apk
+checksum	Q1EMBnyOJF4XZqZnqNFouIlBb8hvk=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

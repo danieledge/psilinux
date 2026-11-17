@@ -1,0 +1,15 @@
+name	libarchive-dev
+version	3.8.11-r0
+description	library that can create and read several streaming archive formats (development files)
+url	https://libarchive.org/
+license	BSD-2-Clause AND BSD-3-Clause AND Public-Domain
+size	24304
+installed-size	92093
+depends	libarchive=3.8.11-r0 pc:libcrypto pkgconfig
+origin	libarchive
+repo	main
+file	libarchive-dev-3.8.11-r0.apk
+checksum	Q1xPaXpXUu+JsMd/PT3rdI1gFtDLo=
+dep	libarchive=3.8.11-r0	libarchive
+dep	pc:libcrypto	openssl-dev
+dep	pkgconfig	pkgconf

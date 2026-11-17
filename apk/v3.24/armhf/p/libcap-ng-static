@@ -1,0 +1,13 @@
+name	libcap-ng-static
+version	0.8.5-r2
+description	POSIX capabilities library (static library)
+url	https://people.redhat.com/sgrubb/libcap-ng/index.html
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	10949
+installed-size	22630
+depends	libcap-ng-dev
+origin	libcap-ng
+repo	main
+file	libcap-ng-static-0.8.5-r2.apk
+checksum	Q1kgSHKyCX7F8mhyWHw0MFomBQmks=
+dep	libcap-ng-dev	libcap-ng-dev

@@ -1,0 +1,23 @@
+name	postfixadmin-doc
+version	4.0.1-r1
+description	Web Based Management tool for Postfix
+url	https://postfixadmin.github.io/postfixadmin/
+license	GPL-2.0-or-later
+size	1433726
+installed-size	1679550
+depends	php85 php85-ctype php85-dom php85-gd php85-iconv php85-mbstring php85-mysqli php85-session php85-simplexml php85-xml php85-xmlwriter
+origin	postfixadmin
+repo	community
+file	postfixadmin-doc-4.0.1-r1.apk
+checksum	Q11+nFqxoWe3VscQfbsu3eAOLuE4Y=
+dep	php85	php85
+dep	php85-ctype	php85-ctype
+dep	php85-dom	php85-dom
+dep	php85-gd	php85-gd
+dep	php85-iconv	php85-iconv
+dep	php85-mbstring	php85-mbstring
+dep	php85-mysqli	php85-mysqli
+dep	php85-session	php85-session
+dep	php85-simplexml	php85-simplexml
+dep	php85-xml	php85-xml
+dep	php85-xmlwriter	php85-xmlwriter

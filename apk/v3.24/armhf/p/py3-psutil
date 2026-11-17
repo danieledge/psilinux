@@ -1,0 +1,14 @@
+name	py3-psutil
+version	7.2.2-r0
+description	A cross-platform process and system utilities module for Python
+url	https://github.com/giampaolo/psutil
+license	BSD-3-Clause
+size	108057
+installed-size	395926
+depends	python3~3.14 so:libc.musl-armhf.so.1
+origin	py3-psutil
+repo	main
+file	py3-psutil-7.2.2-r0.apk
+checksum	Q1TvSoASrViOI7j1W9EetfG406Kus=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

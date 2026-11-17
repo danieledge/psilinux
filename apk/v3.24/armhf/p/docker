@@ -1,0 +1,15 @@
+name	docker
+version	29.9.3-r1
+description	Pack, ship and run any application as a lightweight container
+url	https://www.docker.io/
+license	Apache-2.0
+size	1306
+installed-size	0
+depends	docker-engine=29.9.3-r1 docker-cli=29.9.3-r1 docker-cli-buildx
+origin	docker
+repo	community
+file	docker-29.9.3-r1.apk
+checksum	Q1juc1JnvYjv0AH3fGvUZNmU7ptGc=
+dep	docker-engine=29.9.3-r1	docker-engine
+dep	docker-cli=29.9.3-r1	docker-cli
+dep	docker-cli-buildx	docker-cli-buildx

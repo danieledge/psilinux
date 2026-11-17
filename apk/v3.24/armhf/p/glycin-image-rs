@@ -1,0 +1,15 @@
+name	glycin-image-rs
+version	2.1.5-r0
+description	Sandboxed and extendable image decoding (glycin-image-rs loader)
+url	https://gitlab.gnome.org/GNOME/glycin
+license	MPL-2.0 OR LGPL-2.0-or-later
+size	1896752
+installed-size	4292916
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libseccomp.so.2
+origin	glycin
+repo	community
+file	glycin-image-rs-2.1.5-r0.apk
+checksum	Q1T/7Xm9WqPY702YhIDkkiDmV1Asc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libseccomp.so.2	libseccomp

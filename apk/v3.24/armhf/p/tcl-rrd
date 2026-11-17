@@ -1,0 +1,14 @@
+name	tcl-rrd
+version	1.10.2-r0
+description	Tcl interface for rrdtool
+url	http://www.rrdtool.org
+license	GPL-2.0-or-later
+size	8497
+installed-size	14942
+depends	so:libc.musl-armhf.so.1 so:librrd.so.8
+origin	rrdtool
+repo	main
+file	tcl-rrd-1.10.2-r0.apk
+checksum	Q187MAk9fyt3WHByfLCGzOnGuI2b4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:librrd.so.8	librrd

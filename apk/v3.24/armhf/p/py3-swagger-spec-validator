@@ -1,0 +1,17 @@
+name	py3-swagger-spec-validator
+version	3.0.4-r4
+description	Validation of Swagger specifications
+url	https://pypi.python.org/project/swagger-spec-validator
+license	Apache-2.0
+size	24318
+installed-size	133617
+depends	py3-jsonschema py3-yaml py3-typing-extensions py3-importlib-resources python3~3.14
+origin	py3-swagger-spec-validator
+repo	community
+file	py3-swagger-spec-validator-3.0.4-r4.apk
+checksum	Q1czdFC6xfUDSXhLewq7MRzGoNhgM=
+dep	py3-jsonschema	py3-jsonschema
+dep	py3-yaml	py3-yaml
+dep	py3-typing-extensions	py3-typing-extensions
+dep	py3-importlib-resources	py3-importlib-resources
+dep	python3~3.14	python3

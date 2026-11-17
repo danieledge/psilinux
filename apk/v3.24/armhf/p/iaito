@@ -1,0 +1,41 @@
+name	iaito
+version	6.1.6-r0
+description	Official QT frontend of radare2
+url	https://www.radare.org/n/iaito.html
+license	GPL-3.0-only
+size	2519632
+installed-size	6575163
+depends	radare2 graphviz qt6-qtsvg so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6Svg.so.6 so:libQt6SvgWidgets.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libr_anal.so.6.1.6 so:libr_arch.so.6.1.6 so:libr_asm.so.6.1.6 so:libr_bin.so.6.1.6 so:libr_bp.so.6.1.6 so:libr_config.so.6.1.6 so:libr_cons.so.6.1.6 so:libr_core.so.6.1.6 so:libr_debug.so.6.1.6 so:libr_egg.so.6.1.6 so:libr_flag.so.6.1.6 so:libr_fs.so.6.1.6 so:libr_io.so.6.1.6 so:libr_reg.so.6.1.6 so:libr_search.so.6.1.6 so:libr_syscall.so.6.1.6 so:libr_util.so.6.1.6 so:libstdc++.so.6
+origin	iaito
+repo	community
+file	iaito-6.1.6-r0.apk
+checksum	Q1/4PH539929SniqFDuqu4ctNUuGU=
+dep	radare2	radare2
+dep	graphviz	graphviz
+dep	qt6-qtsvg	qt6-qtsvg
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6Svg.so.6	qt6-qtsvg
+dep	so:libQt6SvgWidgets.so.6	qt6-qtsvg
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libr_anal.so.6.1.6	radare2-libs
+dep	so:libr_arch.so.6.1.6	radare2-libs
+dep	so:libr_asm.so.6.1.6	radare2-libs
+dep	so:libr_bin.so.6.1.6	radare2-libs
+dep	so:libr_bp.so.6.1.6	radare2-libs
+dep	so:libr_config.so.6.1.6	radare2-libs
+dep	so:libr_cons.so.6.1.6	radare2-libs
+dep	so:libr_core.so.6.1.6	radare2-libs
+dep	so:libr_debug.so.6.1.6	radare2-libs
+dep	so:libr_egg.so.6.1.6	radare2-libs
+dep	so:libr_flag.so.6.1.6	radare2-libs
+dep	so:libr_fs.so.6.1.6	radare2-libs
+dep	so:libr_io.so.6.1.6	radare2-libs
+dep	so:libr_reg.so.6.1.6	radare2-libs
+dep	so:libr_search.so.6.1.6	radare2-libs
+dep	so:libr_syscall.so.6.1.6	radare2-libs
+dep	so:libr_util.so.6.1.6	radare2-libs
+dep	so:libstdc++.so.6	libstdc++

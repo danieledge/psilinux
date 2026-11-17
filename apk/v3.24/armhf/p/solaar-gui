@@ -1,0 +1,16 @@
+name	solaar-gui
+version	1.1.20-r0
+description	Linux device manager for a wide range of Logitech devices (Gtk GUI)
+url	https://pwr-solaar.github.io/Solaar/
+license	GPL-2.0-or-later
+size	324055
+installed-size	1069641
+depends	gtk+3.0 hicolor-icon-theme libnotify py3-gobject3
+origin	solaar
+repo	community
+file	solaar-gui-1.1.20-r0.apk
+checksum	Q1bUMIBve8EpvaNrzMgEu5K8cEnjw=
+dep	gtk+3.0	gtk+3.0
+dep	hicolor-icon-theme	hicolor-icon-theme
+dep	libnotify	libnotify
+dep	py3-gobject3	py3-gobject3

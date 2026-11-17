@@ -1,0 +1,13 @@
+name	libebur128
+version	1.2.6-r4
+description	Library implementing the EBU R128 loudness standard
+url	https://github.com/jiixyj/libebur128
+license	MIT
+size	12377
+installed-size	25720
+depends	so:libc.musl-armhf.so.1
+origin	libebur128
+repo	community
+file	libebur128-1.2.6-r4.apk
+checksum	Q1zr3OhWDTkIAkCtKvitlHIjiqCUs=
+dep	so:libc.musl-armhf.so.1	musl

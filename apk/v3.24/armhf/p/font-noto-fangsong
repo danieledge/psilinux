@@ -1,0 +1,14 @@
+name	font-noto-fangsong
+version	2026.11.01-r0
+description	Noto Fangsong KSS Rotated and KSS Vertical fonts
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	470872
+installed-size	854984
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-fangsong-2026.11.01-r0.apk
+checksum	Q1Bgq1rES6Q8h3fZVtWyXuGVoS+A4=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

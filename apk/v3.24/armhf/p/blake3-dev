@@ -1,0 +1,15 @@
+name	blake3-dev
+version	1.8.5-r0
+description	BLAKE3 hash function (development files)
+url	https://github.com/BLAKE3-team/BLAKE3
+license	CC0-1.0 OR Apache-2.0
+size	6159
+installed-size	12920
+depends	blake3-libs=1.8.5-r0 pc:tbb32>=2022.3.0 pkgconfig
+origin	b3sum
+repo	community
+file	blake3-dev-1.8.5-r0.apk
+checksum	Q1PKNj3Q/gbIXFXgYObMdsSdIdO8w=
+dep	blake3-libs=1.8.5-r0	blake3-libs
+dep	pc:tbb32>=2022.3.0	onetbb-dev
+dep	pkgconfig	pkgconf

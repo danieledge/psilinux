@@ -1,0 +1,14 @@
+name	perl-clone
+version	0.50-r0
+description	Recursively copy Perl datatypes
+url	https://metacpan.org/release/Clone/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	11608
+installed-size	23979
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-clone
+repo	main
+file	perl-clone-0.50-r0.apk
+checksum	Q1qFtNBmnVBr1zJCaKJTvkcwT8BVc=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

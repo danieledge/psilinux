@@ -1,0 +1,14 @@
+name	perl-sentinel
+version	0.07-r3
+description	Create lightweight SCALARs with get/set callbacks
+url	https://metacpan.org/release/Sentinel/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	7084
+installed-size	14413
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-sentinel
+repo	community
+file	perl-sentinel-0.07-r3.apk
+checksum	Q1HMVpcLWb5WC0KekD4FrZyfIyZtg=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

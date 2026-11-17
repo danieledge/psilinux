@@ -1,0 +1,16 @@
+name	py3-pyforgejo
+version	2.0.7-r1
+description	A client library for accessing the Forgejo API
+url	https://codeberg.org/harabat/pyforgejo
+license	MIT
+size	285279
+installed-size	4321674
+depends	py3-httpx py3-attrs py3-dateutil python3~3.14
+origin	py3-pyforgejo
+repo	community
+file	py3-pyforgejo-2.0.7-r1.apk
+checksum	Q1oHdSGV+WMfUGqbGirIl36xlFWHY=
+dep	py3-httpx	py3-httpx
+dep	py3-attrs	py3-attrs
+dep	py3-dateutil	py3-dateutil
+dep	python3~3.14	python3

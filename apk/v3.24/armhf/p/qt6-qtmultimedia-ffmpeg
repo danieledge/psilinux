@@ -1,0 +1,30 @@
+name	qt6-qtmultimedia-ffmpeg
+version	6.11.1-r0
+description	Classes for audio, video, radio and camera functionality (ffmpeg plugin)
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	262984
+installed-size	598100
+depends	so:libEGL.so.1 so:libGLESv2.so.2 so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Multimedia.so.6 so:libQt6OpenGL.so.6 so:libX11.so.6 so:libXext.so.6 so:libXrandr.so.2 so:libavcodec.so.62 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libswresample.so.6 so:libswscale.so.9 so:libva.so.2
+origin	qt6-qtmultimedia
+repo	community
+file	qt6-qtmultimedia-ffmpeg-6.11.1-r0.apk
+checksum	Q1+f4YptOlAHjWr2I3nyI72O9tB6s=
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libGLESv2.so.2	mesa-gles
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Multimedia.so.6	qt6-qtmultimedia
+dep	so:libQt6OpenGL.so.6	qt6-qtbase-x11
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libswresample.so.6	ffmpeg-libswresample
+dep	so:libswscale.so.9	ffmpeg-libswscale
+dep	so:libva.so.2	libva

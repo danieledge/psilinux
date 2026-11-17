@@ -1,0 +1,14 @@
+name	enet-dev
+version	1.3.18-r0
+description	Reliable UDP networking library (development files)
+url	http://enet.bespin.org
+license	MIT
+size	11258
+installed-size	37896
+depends	enet=1.3.18-r0 pkgconfig
+origin	enet
+repo	community
+file	enet-dev-1.3.18-r0.apk
+checksum	Q1LL2YKc7C8AHkEHh//RjTGF5w4EA=
+dep	enet=1.3.18-r0	enet
+dep	pkgconfig	pkgconf

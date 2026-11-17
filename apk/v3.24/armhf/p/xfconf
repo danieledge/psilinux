@@ -1,0 +1,17 @@
+name	xfconf
+version	4.20.0-r2
+description	Hierarchical configuration system for Xfce
+url	https://xfce.org/
+license	GPL-2.0-only
+size	86159
+installed-size	216903
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libxfce4util.so.7
+origin	xfconf
+repo	community
+file	xfconf-4.20.0-r2.apk
+checksum	Q1tigaNCVAAZKcV971J4msU3JGtGc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libxfce4util.so.7	libxfce4util

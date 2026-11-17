@@ -1,0 +1,14 @@
+name	semodule-utils
+version	3.10-r0
+description	SELinux semodule utilities
+url	https://github.com/SELinuxProject/
+license	GPL-2.0-only
+size	11111
+installed-size	38112
+depends	so:libc.musl-armhf.so.1 so:libsepol.so.2
+origin	semodule-utils
+repo	community
+file	semodule-utils-3.10-r0.apk
+checksum	Q1+yWOHCOQFGwYszBgY6fnLZgGhIo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsepol.so.2	libsepol

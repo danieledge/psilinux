@@ -1,0 +1,13 @@
+name	libart-lgpl
+version	2.3.21-r8
+description	A library for high-performance 2D graphics
+url	https://www.levien.com/libart/
+license	LGPL-2.0-or-later
+size	40607
+installed-size	70832
+depends	so:libc.musl-armhf.so.1
+origin	libart-lgpl
+repo	main
+file	libart-lgpl-2.3.21-r8.apk
+checksum	Q1bSq6WyycP/urkUAz9FyyZ2YezBQ=
+dep	so:libc.musl-armhf.so.1	musl

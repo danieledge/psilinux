@@ -1,0 +1,15 @@
+name	sanoid
+version	2.3.0-r0
+description	Policy-driven snapshot management and replication tools
+url	https://github.com/jimsalterjrs/sanoid
+license	GPL-3.0-only
+size	21450
+installed-size	75823
+depends	procps perl-config-inifiles perl-capture-tiny
+origin	sanoid
+repo	community
+file	sanoid-2.3.0-r0.apk
+checksum	Q1HCFWFIVVMCvyS/rAN9gUaSlLm2I=
+dep	procps	procps-ng
+dep	perl-config-inifiles	perl-config-inifiles
+dep	perl-capture-tiny	perl-capture-tiny

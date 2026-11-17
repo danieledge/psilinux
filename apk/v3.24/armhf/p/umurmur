@@ -1,0 +1,18 @@
+name	umurmur
+version	0.3.0-r1
+description	Minimalistic Mumble server primarily targeted to run on routers
+url	https://umurmur.net/
+license	BSD-3-Clause
+size	45495
+installed-size	113675
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libconfig.so.15 so:libcrypto.so.3 so:libprotobuf-c.so.1 so:libssl.so.3
+origin	umurmur
+repo	community
+file	umurmur-0.3.0-r1.apk
+checksum	Q1KNjTRc4YHJPieXQfaRRjrfL+G50=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libconfig.so.15	libconfig
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libprotobuf-c.so.1	protobuf-c
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,15 @@
+name	notcurses-dev
+version	3.0.17-r0
+description	blingful character graphics and TUI library (development files)
+url	https://nick-black.com/dankwiki/index.php/Notcurses
+license	Apache-2.0
+size	86798
+installed-size	356876
+depends	notcurses-libs=3.0.17-r0 pc:ncursesw pkgconfig
+origin	notcurses
+repo	community
+file	notcurses-dev-3.0.17-r0.apk
+checksum	Q1IGxZ7CUxasO5twaO6bB23adgzfI=
+dep	notcurses-libs=3.0.17-r0	notcurses-libs
+dep	pc:ncursesw	ncurses-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,16 @@
+name	perl-ffi-platypus-lang-cpp-demangle-xs
+version	0.03-r6
+description	Demangle C++ symbols using the C++ ABI API
+url	https://metacpan.org/release/FFI-Platypus-Lang-CPP-Demangle-XS/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	5544
+installed-size	6946
+depends	perl so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	perl-ffi-platypus-lang-cpp-demangle-xs
+repo	community
+file	perl-ffi-platypus-lang-cpp-demangle-xs-0.03-r6.apk
+checksum	Q1ciPYJqhU3om6AS2WF/GvpFSfnNk=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

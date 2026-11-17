@@ -1,0 +1,15 @@
+name	libunwind-dev
+version	1.8.3-r0
+description	Portable and efficient C programming interface (API) to determine the call-chain of a program (development files)
+url	https://www.nongnu.org/libunwind/
+license	MIT
+size	14436
+installed-size	47796
+depends	libucontext-dev libunwind=1.8.3-r0 pkgconfig
+origin	libunwind
+repo	main
+file	libunwind-dev-1.8.3-r0.apk
+checksum	Q1joKFeBKBzcwLzgGEpyEQjNnJQNI=
+dep	libucontext-dev	libucontext-dev
+dep	libunwind=1.8.3-r0	libunwind
+dep	pkgconfig	pkgconf

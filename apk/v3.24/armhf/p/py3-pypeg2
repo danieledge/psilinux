@@ -1,0 +1,15 @@
+name	py3-pypeg2
+version	2.15.2-r11
+description	An intrinsic PEG Parser-Interpreter for Python
+url	https://fdik.org/pyPEG2/
+license	GPL-2.0-only
+size	15928
+installed-size	73977
+depends	python3 py3-lxml python3~3.14
+origin	py3-pypeg2
+repo	community
+file	py3-pypeg2-2.15.2-r11.apk
+checksum	Q1GNxI5rEZskEmszKJ93WfLG5dE+U=
+dep	python3	python3
+dep	py3-lxml	py3-lxml
+dep	python3~3.14	python3

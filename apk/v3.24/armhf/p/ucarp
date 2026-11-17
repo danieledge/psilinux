@@ -1,0 +1,14 @@
+name	ucarp
+version	1.5.2-r11
+description	Share common IP and do fail over
+url	https://download.pureftpd.org/ucarp/README
+license	ISC
+size	17888
+installed-size	30739
+depends	so:libc.musl-armhf.so.1 so:libpcap.so.1
+origin	ucarp
+repo	main
+file	ucarp-1.5.2-r11.apk
+checksum	Q1tubntqkpXbqiOoU66/ULZbSwflg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcap.so.1	libpcap

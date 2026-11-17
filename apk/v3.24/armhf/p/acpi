@@ -1,0 +1,13 @@
+name	acpi
+version	1.8-r0
+description	ACPI client for battery, power, and thermal readings
+url	https://sourceforge.net/projects/acpiclient/files/acpiclient/
+license	GPL-2.0-or-later
+size	10167
+installed-size	18180
+depends	so:libc.musl-armhf.so.1
+origin	acpi
+repo	main
+file	acpi-1.8-r0.apk
+checksum	Q1Xokn5zJVNgSaypwHYpe2KoC07XA=
+dep	so:libc.musl-armhf.so.1	musl

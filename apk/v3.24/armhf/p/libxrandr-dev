@@ -1,0 +1,22 @@
+name	libxrandr-dev
+version	1.5.5-r0
+description	X11 RandR extension library (development files)
+url	https://xorg.freedesktop.org/
+license	MIT
+size	6239
+installed-size	17392
+depends	libxext-dev libxrandr=1.5.5-r0 pc:randrproto>=1.5 pc:renderproto pc:x11>=1.6 pc:xext pc:xextproto pc:xproto pc:xrender pkgconfig
+origin	libxrandr
+repo	main
+file	libxrandr-dev-1.5.5-r0.apk
+checksum	Q1jj7Ghtrd/liFXvkZzRXkJJrS/wo=
+dep	libxext-dev	libxext-dev
+dep	libxrandr=1.5.5-r0	libxrandr
+dep	pc:randrproto>=1.5	xorgproto
+dep	pc:renderproto	xorgproto
+dep	pc:x11>=1.6	libx11-dev
+dep	pc:xext	libxext-dev
+dep	pc:xextproto	xorgproto
+dep	pc:xproto	xorgproto
+dep	pc:xrender	libxrender-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	libbs2b-dev
+version	3.1.0-r3
+description	Unofficial fork of Bauer stereophonic-to-binaural DSP library (development files)
+url	https://github.com/alexmarsev/libbs2b
+license	MIT
+size	10507
+installed-size	32551
+depends	libbs2b=3.1.0-r3 pkgconfig
+origin	libbs2b
+repo	community
+file	libbs2b-dev-3.1.0-r3.apk
+checksum	Q1q2yoJCWuCtiGvw0rD29cujhUIGs=
+dep	libbs2b=3.1.0-r3	libbs2b
+dep	pkgconfig	pkgconf

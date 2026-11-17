@@ -1,0 +1,13 @@
+name	cmctl
+version	2.4.1-r4
+description	Command-line tool for interacting with cert-manager
+url	https://cert-manager.io/
+license	Apache-2.0
+size	26745953
+installed-size	84166036
+depends	so:libc.musl-armhf.so.1
+origin	cmctl
+repo	community
+file	cmctl-2.4.1-r4.apk
+checksum	Q1yZ0IJ+NH7iR4scZW86KrbHrgkbM=
+dep	so:libc.musl-armhf.so.1	musl

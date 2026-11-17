@@ -1,0 +1,12 @@
+name	vulkan-validation-layers-dbg
+version	1.4.343-r0
+description	Vulkan Validation Layers (debug symbols)
+url	https://www.khronos.org/vulkan/
+license	Apache-2.0
+size	14689173
+installed-size	53450188
+depends	!vulkan-validation-layers<1.4.343-r0 !vulkan-validation-layers>1.4.343-r0
+origin	vulkan-validation-layers
+repo	community
+file	vulkan-validation-layers-dbg-1.4.343-r0.apk
+checksum	Q1r0lkEr8nXUa5GvhV7bqq03IQUBo=

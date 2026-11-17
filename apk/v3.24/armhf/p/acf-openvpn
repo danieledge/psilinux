@@ -1,0 +1,14 @@
+name	acf-openvpn
+version	0.11.2-r0
+description	Web-based system administration interface for openvpn
+url	https://gitlab.alpinelinux.org/acf/acf-openvpn
+license	GPL-2.0-only
+size	7814
+installed-size	24169
+depends	acf-core openvpn
+origin	acf-openvpn
+repo	main
+file	acf-openvpn-0.11.2-r0.apk
+checksum	Q1x1wT0BabmPyfZoM7fhBToEyYqOw=
+dep	acf-core	acf-core
+dep	openvpn	openvpn

@@ -1,0 +1,13 @@
+name	ocaml-base64-dev
+version	3.5.0-r5
+description	Base64 encoding for OCaml (development files)
+url	https://github.com/mirage/ocaml-base64
+license	ISC
+size	178972
+installed-size	436381
+depends	ocaml-base64=3.5.0-r5
+origin	ocaml-base64
+repo	community
+file	ocaml-base64-dev-3.5.0-r5.apk
+checksum	Q1kfp8RGsgGuKoU+BUskFwiGPhHrA=
+dep	ocaml-base64=3.5.0-r5	ocaml-base64

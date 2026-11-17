@@ -1,0 +1,14 @@
+name	perl-yaml-syck
+version	1.47-r0
+description	Fast, lightweight YAML loader and dumper
+url	https://metacpan.org/release/YAML-Syck/
+license	MIT
+size	69307
+installed-size	148646
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-yaml-syck
+repo	main
+file	perl-yaml-syck-1.47-r0.apk
+checksum	Q18SQ6YF/CnHWVUPstr6j9aDxuz3Y=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

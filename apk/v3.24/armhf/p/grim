@@ -1,0 +1,17 @@
+name	grim
+version	1.5.0-r0
+description	Grabs images from Wayland compositors
+url	https://gitlab.freedesktop.org/emersion/grim
+license	MIT
+size	16195
+installed-size	34276
+depends	so:libc.musl-armhf.so.1 so:libjpeg.so.8 so:libpixman-1.so.0 so:libpng16.so.16 so:libwayland-client.so.0
+origin	grim
+repo	community
+file	grim-1.5.0-r0.apk
+checksum	Q1evEL3iNO4wqVFgLkr8T/950FD1E=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpixman-1.so.0	pixman
+dep	so:libpng16.so.16	libpng
+dep	so:libwayland-client.so.0	wayland-libs-client

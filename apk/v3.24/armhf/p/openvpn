@@ -1,0 +1,23 @@
+name	openvpn
+version	2.7.7-r0
+description	Robust, and highly configurable VPN (Virtual Private Network)
+url	https://openvpn.net/
+license	GPL-2.0-only WITH openvpn-openssl-exception
+size	372097
+installed-size	828437
+depends	iproute2-minimal /bin/sh so:libc.musl-armhf.so.1 so:libcap-ng.so.0 so:libcrypto.so.3 so:liblz4.so.1 so:liblzo2.so.2 so:libnl-3.so.200 so:libnl-genl-3.so.200 so:libpkcs11-helper.so.1 so:libssl.so.3
+origin	openvpn
+repo	main
+file	openvpn-2.7.7-r0.apk
+checksum	Q1Sw4cRA/H6j8KOW1HfENI4xKJRdQ=
+dep	iproute2-minimal	iproute2-minimal
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap-ng.so.0	libcap-ng
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:liblz4.so.1	lz4-libs
+dep	so:liblzo2.so.2	lzo
+dep	so:libnl-3.so.200	libnl3
+dep	so:libnl-genl-3.so.200	libnl3
+dep	so:libpkcs11-helper.so.1	pkcs11-helper
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,16 @@
+name	libfprint-dev
+version	1.94.9-r1
+description	Library for fingerprint readers (development files)
+url	https://fprint.freedesktop.org/
+license	LGPL-2.1-or-later
+size	23196
+installed-size	192912
+depends	libfprint=1.94.9-r1 pc:gio-unix-2.0>=2.68 pc:gobject-2.0>=2.68 pkgconfig
+origin	libfprint
+repo	community
+file	libfprint-dev-1.94.9-r1.apk
+checksum	Q150cGbf3oBqgoWYApaOOYRbjNQvI=
+dep	libfprint=1.94.9-r1	libfprint
+dep	pc:gio-unix-2.0>=2.68	glib-dev
+dep	pc:gobject-2.0>=2.68	glib-dev
+dep	pkgconfig	pkgconf

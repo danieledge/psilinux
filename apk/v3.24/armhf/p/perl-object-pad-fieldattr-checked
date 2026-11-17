@@ -1,0 +1,16 @@
+name	perl-object-pad-fieldattr-checked
+version	0.12-r2
+description	Apply value constraint checks to Object::Pad fields
+url	https://metacpan.org/release/Object-Pad-FieldAttr-Checked/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	8151
+installed-size	14209
+depends	perl perl-data-checks perl-object-pad so:libc.musl-armhf.so.1
+origin	perl-object-pad-fieldattr-checked
+repo	community
+file	perl-object-pad-fieldattr-checked-0.12-r2.apk
+checksum	Q1VX4g1TOpTcWoihTfehukOvkg3BA=
+dep	perl	perl
+dep	perl-data-checks	perl-data-checks
+dep	perl-object-pad	perl-object-pad
+dep	so:libc.musl-armhf.so.1	musl

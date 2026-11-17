@@ -1,0 +1,17 @@
+name	perl-code-tidyall-plugin-flake8
+version	0.4.0-r1
+description	Perl module for Code-TidyAll-Plugin-Flake8
+url	https://metacpan.org/release/Code-TidyAll-Plugin-Flake8/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	3999
+installed-size	4164
+depends	perl perl-code-tidyall perl-moo perl-string-shellquote py3-flake8
+origin	perl-code-tidyall-plugin-flake8
+repo	community
+file	perl-code-tidyall-plugin-flake8-0.4.0-r1.apk
+checksum	Q1eeB3Dd5W2DJ8uSpxcqyEicD7f3k=
+dep	perl	perl
+dep	perl-code-tidyall	perl-code-tidyall
+dep	perl-moo	perl-moo
+dep	perl-string-shellquote	perl-string-shellquote
+dep	py3-flake8	py3-flake8

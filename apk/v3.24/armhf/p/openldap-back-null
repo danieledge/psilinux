@@ -1,0 +1,14 @@
+name	openldap-back-null
+version	2.6.15-r0
+description	OpenLDAP null backend
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	6139
+installed-size	10698
+depends	so:libc.musl-armhf.so.1 so:liblber.so.2
+origin	openldap
+repo	main
+file	openldap-back-null-2.6.15-r0.apk
+checksum	Q1fjitADL8I6kqeIm3X86f8jlqnxU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap

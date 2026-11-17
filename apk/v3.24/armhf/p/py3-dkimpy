@@ -1,0 +1,18 @@
+name	py3-dkimpy
+version	1.1.8-r1
+description	DKIM, ARC, and TLSRPT email signing and verification
+url	https://launchpad.net/dkimpy/
+license	Zlib
+size	32929
+installed-size	114620
+depends	python3 py3-aiodns py3-dnspython py3-authres py3-pynacl python3~3.14
+origin	py3-dkimpy
+repo	community
+file	py3-dkimpy-1.1.8-r1.apk
+checksum	Q1rutoEWTR252/U3yZEKPL9HfwxEs=
+dep	python3	python3
+dep	py3-aiodns	py3-aiodns
+dep	py3-dnspython	py3-dnspython
+dep	py3-authres	py3-authres
+dep	py3-pynacl	py3-pynacl
+dep	python3~3.14	python3

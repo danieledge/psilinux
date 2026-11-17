@@ -1,0 +1,16 @@
+name	awstats
+version	8.0-r0
+description	Free real-time logfile analyzer to get advanced statistics
+url	https://awstats.sourceforge.net/
+license	GPL-3.0-or-later
+size	733888
+installed-size	2603676
+depends	perl perl-uri perl-json-xs perl-try-tiny
+origin	awstats
+repo	community
+file	awstats-8.0-r0.apk
+checksum	Q1BWnkOlGt5yyfENbevk8VGMel3A4=
+dep	perl	perl
+dep	perl-uri	perl-uri
+dep	perl-json-xs	perl-json-xs
+dep	perl-try-tiny	perl-try-tiny

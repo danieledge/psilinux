@@ -1,0 +1,15 @@
+name	libxcb
+version	1.17.0-r2
+description	X11 client-side library
+url	https://xcb.freedesktop.org/
+license	MIT
+size	207290
+installed-size	763648
+depends	so:libXau.so.6 so:libXdmcp.so.6 so:libc.musl-armhf.so.1
+origin	libxcb
+repo	main
+file	libxcb-1.17.0-r2.apk
+checksum	Q1ERGOOb4bz7hyJxxuaVGtx4abEWk=
+dep	so:libXau.so.6	libxau
+dep	so:libXdmcp.so.6	libxdmcp
+dep	so:libc.musl-armhf.so.1	musl

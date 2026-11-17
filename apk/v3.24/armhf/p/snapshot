@@ -1,0 +1,35 @@
+name	snapshot
+version	50.0-r0
+description	Take pictures and videos
+url	https://gitlab.gnome.org/GNOME/snapshot
+license	GPL-3.0-or-later
+size	1112996
+installed-size	2288141
+depends	glycin-image-rs gst-plugin-pipewire gst-plugins-bad gst-plugins-good gst-plugins-rs-gtk4 gst-plugins-ugly pipewire so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libglycin-2.so.0 so:libglycin-gtk4-2.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libpango-1.0.so.0
+origin	snapshot
+repo	community
+file	snapshot-50.0-r0.apk
+checksum	Q1Rc3UGQKLM3fnZQ8rix0aDhpKkDI=
+dep	glycin-image-rs	glycin-image-rs
+dep	gst-plugin-pipewire	gst-plugin-pipewire
+dep	gst-plugins-bad	gst-plugins-bad
+dep	gst-plugins-good	gst-plugins-good
+dep	gst-plugins-rs-gtk4	gst-plugins-rs-gtk4
+dep	gst-plugins-ugly	gst-plugins-ugly
+dep	pipewire	pipewire
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libglycin-2.so.0	libglycin
+dep	so:libglycin-gtk4-2.so.0	libglycin-gtk4
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgstbase-1.0.so.0	gstreamer
+dep	so:libgstpbutils-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango

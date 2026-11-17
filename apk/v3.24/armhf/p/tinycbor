@@ -1,0 +1,14 @@
+name	tinycbor
+version	7.0-r0
+description	Concise Binary Object Representation (CBOR) Library
+url	https://github.com/intel/tinycbor
+license	MIT
+size	4787
+installed-size	9388
+depends	so:libc.musl-armhf.so.1 so:libtinycbor.so.0
+origin	tinycbor
+repo	community
+file	tinycbor-7.0-r0.apk
+checksum	Q1G5nOFkYemgg4fPHzM72MdAW27qo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libtinycbor.so.0	libtinycbor

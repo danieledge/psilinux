@@ -1,0 +1,15 @@
+name	php83-ffi
+version	8.3.36-r0
+description	PHP83 extension: FFI
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	67485
+installed-size	153018
+depends	php83-common so:libc.musl-armhf.so.1 so:libffi.so.8
+origin	php83
+repo	community
+file	php83-ffi-8.3.36-r0.apk
+checksum	Q1exHh0aXUYmQytsAg64LglJnEtCo=
+dep	php83-common	php83-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libffi.so.8	libffi

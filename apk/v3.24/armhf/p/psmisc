@@ -1,0 +1,15 @@
+name	psmisc
+version	23.7-r0
+description	set of some small useful utilities that use the proc filesystem
+url	https://gitlab.com/psmisc/psmisc
+license	GPL-2.0-or-later
+size	42538
+installed-size	111404
+depends	so:libc.musl-armhf.so.1 so:libintl.so.8 so:libncursesw.so.6
+origin	psmisc
+repo	main
+file	psmisc-23.7-r0.apk
+checksum	Q1KTn55IBO6Xwr1yGVGsAk6T/I178=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libintl.so.8	libintl
+dep	so:libncursesw.so.6	libncursesw

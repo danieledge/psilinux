@@ -1,0 +1,29 @@
+name	perl-chi
+version	0.61-r1
+description	Unified cache handling interface
+url	https://metacpan.org/release/CHI/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	67890
+installed-size	246479
+depends	perl perl-time-duration perl-moo perl-carp-assert perl-time-duration-parse perl-moox-types-mooselike perl-digest-jhash perl-task-weaken perl-hash-moreutils perl-try-tiny perl-data-uuid perl-moox-types-mooselike-numeric perl-class-load perl-list-moreutils perl-json-maybexs perl-log-any perl-string-rewriteprefix
+origin	perl-chi
+repo	community
+file	perl-chi-0.61-r1.apk
+checksum	Q1XOdYqhjCXZ+Wk+0igDd0VQVJP/Y=
+dep	perl	perl
+dep	perl-time-duration	perl-time-duration
+dep	perl-moo	perl-moo
+dep	perl-carp-assert	perl-carp-assert
+dep	perl-time-duration-parse	perl-time-duration-parse
+dep	perl-moox-types-mooselike	perl-moox-types-mooselike
+dep	perl-digest-jhash	perl-digest-jhash
+dep	perl-task-weaken	perl-task-weaken
+dep	perl-hash-moreutils	perl-hash-moreutils
+dep	perl-try-tiny	perl-try-tiny
+dep	perl-data-uuid	perl-data-uuid
+dep	perl-moox-types-mooselike-numeric	perl-moox-types-mooselike-numeric
+dep	perl-class-load	perl-class-load
+dep	perl-list-moreutils	perl-list-moreutils
+dep	perl-json-maybexs	perl-json-maybexs
+dep	perl-log-any	perl-log-any
+dep	perl-string-rewriteprefix	perl-string-rewriteprefix

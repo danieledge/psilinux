@@ -1,0 +1,14 @@
+name	py3-netifaces
+version	0.11.0-r4
+description	Portable module to access network interface information in Python3
+url	http://alastairs-place.net/netifaces/
+license	MIT
+size	12492
+installed-size	26970
+depends	python3~3.14 so:libc.musl-armhf.so.1
+origin	py3-netifaces
+repo	community
+file	py3-netifaces-0.11.0-r4.apk
+checksum	Q1q0+UpZIMKcv+YAnddEJ2Nh59L9Q=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

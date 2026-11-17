@@ -1,0 +1,24 @@
+name	ostree
+version	2025.7-r1
+description	Operating system and container binary deployment and upgrades
+url	https://github.com/ostreedev/ostree
+license	LGPL-2.0-or-later
+size	448262
+installed-size	975097
+depends	so:libarchive.so.13 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libfuse3.so.4 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgpg-error.so.0 so:libgpgme.so.45 so:liblzma.so.5 so:libz.so.1
+origin	ostree
+repo	community
+file	ostree-2025.7-r1.apk
+checksum	Q1i2IVGAjErD6OmjrSrBoHltnMR1k=
+dep	so:libarchive.so.13	libarchive
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libfuse3.so.4	fuse3-libs
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgpg-error.so.0	libgpg-error
+dep	so:libgpgme.so.45	gpgme
+dep	so:liblzma.so.5	xz-libs
+dep	so:libz.so.1	zlib

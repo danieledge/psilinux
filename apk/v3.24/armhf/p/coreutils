@@ -1,0 +1,21 @@
+name	coreutils
+version	9.11-r0
+description	The basic file, shell and text manipulation utilities
+url	https://www.gnu.org/software/coreutils/
+license	GPL-3.0-or-later
+size	590939
+installed-size	1222220
+depends	coreutils-env=9.11-r0 coreutils-fmt=9.11-r0 coreutils-sha512sum=9.11-r0 /bin/sh so:libacl.so.1 so:libattr.so.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libutmps.so.0.1
+origin	coreutils
+repo	main
+file	coreutils-9.11-r0.apk
+checksum	Q126f7eqHplci3zgRTvybjvpf20v8=
+dep	coreutils-env=9.11-r0	coreutils-env
+dep	coreutils-fmt=9.11-r0	coreutils-fmt
+dep	coreutils-sha512sum=9.11-r0	coreutils-sha512sum
+dep	/bin/sh	busybox-binsh
+dep	so:libacl.so.1	acl-libs
+dep	so:libattr.so.1	libattr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libutmps.so.0.1	utmps-libs

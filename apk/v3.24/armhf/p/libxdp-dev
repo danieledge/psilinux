@@ -1,0 +1,15 @@
+name	libxdp-dev
+version	1.6.3-r1
+description	A library and utilities for use with XDP (development files)
+url	https://github.com/xdp-project/xdp-tools
+license	BSD-2-Clause AND GPL-2.0-only AND GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later
+size	13369
+installed-size	37884
+depends	libxdp=1.6.3-r1 pc:libbpf pkgconfig
+origin	xdp-tools
+repo	community
+file	libxdp-dev-1.6.3-r1.apk
+checksum	Q12InaX2KJxWc+z+2DOhYzkaA5Td8=
+dep	libxdp=1.6.3-r1	libxdp
+dep	pc:libbpf	libbpf-dev
+dep	pkgconfig	pkgconf

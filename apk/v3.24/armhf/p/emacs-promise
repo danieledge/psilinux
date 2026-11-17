@@ -1,0 +1,13 @@
+name	emacs-promise
+version	1.1_git20210307-r1
+description	Simple implementation of Promises/A+
+url	https://github.com/chuntaro/emacs-promise
+license	GPL-3.0-or-later
+size	20369
+installed-size	95191
+depends	cmd:emacs
+origin	emacs-promise
+repo	community
+file	emacs-promise-1.1_git20210307-r1.apk
+checksum	Q1IfiNbeGCbhxKrSBomtyq4zVjeO8=
+dep	cmd:emacs	emacs-gtk3

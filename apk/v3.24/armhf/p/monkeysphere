@@ -1,0 +1,24 @@
+name	monkeysphere
+version	0.44-r4
+description	OpenPGP web of trust certification tools for SSH and TLS servers
+url	https://github.com/dkg/monkeysphere
+license	GPL-3.0-or-later
+size	62976
+installed-size	191009
+depends	gnupg cmd:openssl openssh-keygen perl perl-crypt-openssl-bignum perl-crypt-openssl-rsa bash lockfile-progs so:libassuan.so.9 so:libc.musl-armhf.so.1 so:libgcrypt.so.20 so:libgpg-error.so.0
+origin	monkeysphere
+repo	community
+file	monkeysphere-0.44-r4.apk
+checksum	Q163o5BHNsICPjlN1EXyYnrOVIbDA=
+dep	gnupg	gnupg
+dep	cmd:openssl	openssl
+dep	openssh-keygen	openssh-keygen
+dep	perl	perl
+dep	perl-crypt-openssl-bignum	perl-crypt-openssl-bignum
+dep	perl-crypt-openssl-rsa	perl-crypt-openssl-rsa
+dep	bash	bash
+dep	lockfile-progs	lockfile-progs
+dep	so:libassuan.so.9	libassuan
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgpg-error.so.0	libgpg-error

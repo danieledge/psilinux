@@ -1,0 +1,16 @@
+name	zathura-dev
+version	2026.05.20-r0
+description	Highly customizable and functional document viewer (development files)
+url	https://pwmt.org/projects/zathura/
+license	Zlib
+size	9036
+installed-size	38791
+depends	pc:cairo pc:girara pc:gtk+-3.0 pkgconfig
+origin	zathura
+repo	community
+file	zathura-dev-2026.05.20-r0.apk
+checksum	Q1z7GUI4ZvT8MVdSKJ6i06C2gZSHM=
+dep	pc:cairo	cairo-dev
+dep	pc:girara	girara-dev
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pkgconfig	pkgconf

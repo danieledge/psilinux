@@ -1,0 +1,23 @@
+name	nvui
+version	0.3.1-r10
+description	A modern frontend for Neovim
+url	https://github.com/rohit-px2/nvui
+license	MIT
+size	196321
+installed-size	443227
+depends	hicolor-icon-theme neovim so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt5Svg.so.5 so:libQt5Widgets.so.5 so:libboost_filesystem.so.1.84.0 so:libc.musl-armhf.so.1 so:libfmt.so.11 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	nvui
+repo	community
+file	nvui-0.3.1-r10.apk
+checksum	Q1IPxHgqkK+zkV363ZqHs36CI1Csg=
+dep	hicolor-icon-theme	hicolor-icon-theme
+dep	neovim	neovim
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Gui.so.5	qt5-qtbase-x11
+dep	so:libQt5Svg.so.5	qt5-qtsvg
+dep	so:libQt5Widgets.so.5	qt5-qtbase-x11
+dep	so:libboost_filesystem.so.1.84.0	boost1.84-filesystem
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfmt.so.11	fmt
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

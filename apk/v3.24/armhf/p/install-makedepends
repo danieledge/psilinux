@@ -1,0 +1,13 @@
+name	install-makedepends
+version	1.0.0-r2
+description	Simple script to install makedepends for Alpine and postmarketOS packages
+url	https://gitlab.postmarketos.org/postmarketOS/install-makedepends
+license	GPL-3.0-or-later
+size	3188
+installed-size	3937
+depends	git
+origin	install-makedepends
+repo	community
+file	install-makedepends-1.0.0-r2.apk
+checksum	Q1uJGAlkWdnMybm6Z+lXjxBfQ/bs0=
+dep	git	git

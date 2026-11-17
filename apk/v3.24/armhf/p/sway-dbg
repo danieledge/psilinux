@@ -1,0 +1,12 @@
+name	sway-dbg
+version	1.12_rc3-r0
+description	i3-compatible window manager for Wayland (debug symbols)
+url	https://swaywm.org/
+license	MIT
+size	2492291
+installed-size	5994940
+depends	!sway<1.12_rc3-r0 !sway>1.12_rc3-r0 !swaybar<1.12_rc3-r0 !swaybar>1.12_rc3-r0 !swaynag<1.12_rc3-r0 !swaynag>1.12_rc3-r0
+origin	sway
+repo	community
+file	sway-dbg-1.12_rc3-r0.apk
+checksum	Q1D8WvXPklLw/vrif5ePVEU0PaqbM=

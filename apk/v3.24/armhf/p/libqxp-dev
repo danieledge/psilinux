@@ -1,0 +1,15 @@
+name	libqxp-dev
+version	0.0.2-r12
+description	Library that parses the file format of QuarkXPress documents. (development files)
+url	https://wiki.documentfoundation.org/DLP/Libraries/libqxp
+license	MPL-2.0
+size	3463
+installed-size	4346
+depends	libqxp=0.0.2-r12 pc:librevenge-0.0 pkgconfig
+origin	libqxp
+repo	community
+file	libqxp-dev-0.0.2-r12.apk
+checksum	Q1mcxAaw9IqDTdcC1iyS5HS9XZk9k=
+dep	libqxp=0.0.2-r12	libqxp
+dep	pc:librevenge-0.0	librevenge-dev
+dep	pkgconfig	pkgconf

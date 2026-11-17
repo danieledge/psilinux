@@ -1,0 +1,13 @@
+name	gvm-tools-pyc
+version	26.0.4-r0
+description	Precompiled Python bytecode for gvm-tools
+url	https://github.com/greenbone/gvm-tools
+license	GPL-3.0-or-later
+size	20115
+installed-size	40872
+depends	python3~3.14
+origin	gvm-tools
+repo	community
+file	gvm-tools-pyc-26.0.4-r0.apk
+checksum	Q19Gez61TtKodz1PfECr/pjZYpREA=
+dep	python3~3.14	python3

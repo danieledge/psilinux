@@ -1,0 +1,17 @@
+name	klibc-kinit
+version	2.0.14-r1
+description	A minimalistic libc subset for use with initramfs
+url	https://git.kernel.org/pub/scm/libs/klibc/klibc.git/
+license	GPL-2.0-or-later
+size	1320
+installed-size	0
+depends	klibc-fstype klibc-ipconfig klibc-nfsmount klibc-resume klibc-run-init
+origin	klibc
+repo	community
+file	klibc-kinit-2.0.14-r1.apk
+checksum	Q14rVXmWmXfokB5QoF2FuwKWSLoCI=
+dep	klibc-fstype	klibc-fstype
+dep	klibc-ipconfig	klibc-ipconfig
+dep	klibc-nfsmount	klibc-nfsmount
+dep	klibc-resume	klibc-resume
+dep	klibc-run-init	klibc-run-init

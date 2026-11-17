@@ -1,0 +1,23 @@
+name	protobuf-c-compiler
+version	1.5.2-r2
+description	Protocol Buffers C compiler
+url	https://github.com/protobuf-c/protobuf-c
+license	BSD-2-Clause
+size	64455
+installed-size	149868
+depends	so:libabsl_hash.so.2508.0.0 so:libabsl_log_internal_check_op.so.2508.0.0 so:libabsl_log_internal_message.so.2508.0.0 so:libabsl_log_internal_nullguard.so.2508.0.0 so:libabsl_raw_hash_set.so.2508.0.0 so:libabsl_raw_logging_internal.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libprotobuf.so.31 so:libprotoc.so.31 so:libstdc++.so.6
+origin	protobuf-c
+repo	main
+file	protobuf-c-compiler-1.5.2-r2.apk
+checksum	Q1zJT/VB3UReALgxPMyGnEE5Yb2Es=
+dep	so:libabsl_hash.so.2508.0.0	abseil-cpp-hash
+dep	so:libabsl_log_internal_check_op.so.2508.0.0	abseil-cpp-log-internal-check-op
+dep	so:libabsl_log_internal_message.so.2508.0.0	abseil-cpp-log-internal-message
+dep	so:libabsl_log_internal_nullguard.so.2508.0.0	abseil-cpp-log-internal-nullguard
+dep	so:libabsl_raw_hash_set.so.2508.0.0	abseil-cpp-raw-hash-set
+dep	so:libabsl_raw_logging_internal.so.2508.0.0	abseil-cpp-raw-logging-internal
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libprotobuf.so.31	libprotobuf
+dep	so:libprotoc.so.31	libprotoc
+dep	so:libstdc++.so.6	libstdc++

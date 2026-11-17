@@ -1,0 +1,13 @@
+name	i2c-tools
+version	4.4-r3
+description	Tools for monitoring I2C devices
+url	https://i2c.wiki.kernel.org/index.php/I2C_Tools
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	68343
+installed-size	236808
+depends	so:libc.musl-armhf.so.1
+origin	i2c-tools
+repo	community
+file	i2c-tools-4.4-r3.apk
+checksum	Q1cBBZyy7mqFHitbQEWKN/D7MRU4U=
+dep	so:libc.musl-armhf.so.1	musl

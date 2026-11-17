@@ -1,0 +1,22 @@
+name	libcamera-tools
+version	0.7.1-r1
+description	Linux camera framework
+url	https://libcamera.org/
+license	LGPL-2.1-or-later AND GPL-2.0-or-later
+size	129631
+installed-size	306108
+depends	so:libc.musl-armhf.so.1 so:libcamera-base.so.0.7 so:libcamera.so.0.7 so:libdrm.so.2 so:libevent-2.1.so.7 so:libevent_pthreads-2.1.so.7 so:libgcc_s.so.1 so:libgtest.so.1.17.0 so:libstdc++.so.6 so:libyaml-0.so.2
+origin	libcamera
+repo	community
+file	libcamera-tools-0.7.1-r1.apk
+checksum	Q1R5HjigQefNLHrkIij6r/cE8ZdP8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcamera-base.so.0.7	libcamera
+dep	so:libcamera.so.0.7	libcamera
+dep	so:libdrm.so.2	libdrm
+dep	so:libevent-2.1.so.7	libevent
+dep	so:libevent_pthreads-2.1.so.7	libevent
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgtest.so.1.17.0	gtest
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libyaml-0.so.2	yaml

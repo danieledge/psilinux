@@ -1,0 +1,14 @@
+name	libnetfilter_acct
+version	1.0.3-r3
+description	Userspace library providing interface to extended accounting infrastructure.
+url	https://www.netfilter.org/projects/libnetfilter_acct/
+license	LGPL-2.1-or-later
+size	5661
+installed-size	9500
+depends	so:libc.musl-armhf.so.1 so:libmnl.so.0
+origin	libnetfilter_acct
+repo	main
+file	libnetfilter_acct-1.0.3-r3.apk
+checksum	Q1WbpLU81eF/qoK+Y0FV9MeEPhXfI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmnl.so.0	libmnl

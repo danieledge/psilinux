@@ -1,0 +1,14 @@
+name	perl-devel-refcount
+version	0.10-r3
+description	Obtain the REFCNT value of a referent
+url	https://metacpan.org/release/Devel-Refcount/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6087
+installed-size	10306
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-devel-refcount
+repo	community
+file	perl-devel-refcount-0.10-r3.apk
+checksum	Q1+p1zZrLnXOR4qJPNessWyPZW+X8=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	mythes
+version	1.2.4-r4
+description	A simple thesaurus
+url	https://hunspell.sourceforge.net/
+license	GPL-2.0-or-later LGPL-2.0-or-later MPL-1.1
+size	6397
+installed-size	13644
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	mythes
+repo	community
+file	mythes-1.2.4-r4.apk
+checksum	Q1roJW2dEHAOua1LqhEYpBNpRIYsw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

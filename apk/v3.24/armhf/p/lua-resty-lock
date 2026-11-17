@@ -1,0 +1,14 @@
+name	lua-resty-lock
+version	0.09-r2
+description	Simple nonblocking lock API for ngx_lua based on shared memory dictionaries
+url	https://github.com/openresty/lua-resty-lock
+license	BSD-1-Clause
+size	3088
+installed-size	4691
+depends	lua lua-resty-core
+origin	lua-resty-lock
+repo	community
+file	lua-resty-lock-0.09-r2.apk
+checksum	Q1GIbvSThZkc+bSCjNdhXu+Ft+yik=
+dep	lua	lua5.5
+dep	lua-resty-core	lua-resty-core

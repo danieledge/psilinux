@@ -1,0 +1,15 @@
+name	zimg
+version	3.0.6-r0
+description	Scaling, colorspace conversion and dithering library
+url	https://github.com/sekrit-twc/zimg
+license	WTFPL
+size	79878
+installed-size	169392
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	zimg
+repo	community
+file	zimg-3.0.6-r0.apk
+checksum	Q18Z0gsEdgbAo6gYwuBy1qRixJ4jQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

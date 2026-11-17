@@ -1,0 +1,16 @@
+name	py3-sphinx_rtd_theme
+version	2.0.0-r2
+description	Sphinx theme for readthedocs.org
+url	https://github.com/readthedocs/sphinx_rtd_theme
+license	MIT
+size	2779218
+installed-size	3604650
+depends	py3-docutils py3-sphinx py3-sphinxcontrib-jquery python3~3.14
+origin	py3-sphinx_rtd_theme
+repo	community
+file	py3-sphinx_rtd_theme-2.0.0-r2.apk
+checksum	Q1QDfuBu0D3Osi+GGa1lqZulfytQc=
+dep	py3-docutils	py3-docutils
+dep	py3-sphinx	py3-sphinx
+dep	py3-sphinxcontrib-jquery	py3-sphinxcontrib-jquery
+dep	python3~3.14	python3

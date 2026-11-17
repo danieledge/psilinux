@@ -1,0 +1,14 @@
+name	libcbor-dev
+version	0.13.0-r0
+description	CBOR protocol implementation for C (development files)
+url	https://github.com/PJK/libcbor
+license	MIT
+size	21681
+installed-size	90217
+depends	libcbor=0.13.0-r0 pkgconfig
+origin	libcbor
+repo	main
+file	libcbor-dev-0.13.0-r0.apk
+checksum	Q1oPOm4PWeDMJfYSJSX+kvw4sblNM=
+dep	libcbor=0.13.0-r0	libcbor
+dep	pkgconfig	pkgconf

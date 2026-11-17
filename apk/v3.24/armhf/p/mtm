@@ -1,0 +1,15 @@
+name	mtm
+version	1.2.1-r1
+description	Perhaps the smallest useful terminal multiplexer in the world
+url	https://github.com/deadpixi/mtm
+license	GPL-3.0-or-later
+size	18331
+installed-size	55500
+depends	ncurses-terminfo so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	mtm
+repo	community
+file	mtm-1.2.1-r1.apk
+checksum	Q1uPA7iQipTMzai0+/Gz4bGLPv6VE=
+dep	ncurses-terminfo	ncurses-terminfo
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

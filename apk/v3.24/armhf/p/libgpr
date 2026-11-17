@@ -1,0 +1,34 @@
+name	libgpr
+version	1.78.1-r2
+description	The C based gRPC (libgpr library)
+url	https://grpc.io/
+license	Apache-2.0 AND BSD-3-Clause AND MIT
+size	46196
+installed-size	105464
+depends	grpc=1.78.1-r2 so:libabsl_flags_internal.so.2508.0.0 so:libabsl_flags_marshalling.so.2508.0.0 so:libabsl_flags_reflection.so.2508.0.0 so:libabsl_kernel_timeout_internal.so.2508.0.0 so:libabsl_log_globals.so.2508.0.0 so:libabsl_log_internal_check_op.so.2508.0.0 so:libabsl_log_internal_conditions.so.2508.0.0 so:libabsl_log_internal_message.so.2508.0.0 so:libabsl_log_internal_nullguard.so.2508.0.0 so:libabsl_raw_logging_internal.so.2508.0.0 so:libabsl_spinlock_wait.so.2508.0.0 so:libabsl_status.so.2508.0.0 so:libabsl_str_format_internal.so.2508.0.0 so:libabsl_strings.so.2508.0.0 so:libabsl_synchronization.so.2508.0.0 so:libabsl_time.so.2508.0.0 so:libabsl_time_zone.so.2508.0.0 so:libabsl_vlog_config_internal.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	grpc
+repo	community
+file	libgpr-1.78.1-r2.apk
+checksum	Q1SEUJHGfm7Zx2OpdnlDfFZ2oA91c=
+dep	grpc=1.78.1-r2	grpc
+dep	so:libabsl_flags_internal.so.2508.0.0	abseil-cpp-flags-internal
+dep	so:libabsl_flags_marshalling.so.2508.0.0	abseil-cpp-flags-marshalling
+dep	so:libabsl_flags_reflection.so.2508.0.0	abseil-cpp-flags-reflection
+dep	so:libabsl_kernel_timeout_internal.so.2508.0.0	abseil-cpp-kernel-timeout-internal
+dep	so:libabsl_log_globals.so.2508.0.0	abseil-cpp-log-globals
+dep	so:libabsl_log_internal_check_op.so.2508.0.0	abseil-cpp-log-internal-check-op
+dep	so:libabsl_log_internal_conditions.so.2508.0.0	abseil-cpp-log-internal-conditions
+dep	so:libabsl_log_internal_message.so.2508.0.0	abseil-cpp-log-internal-message
+dep	so:libabsl_log_internal_nullguard.so.2508.0.0	abseil-cpp-log-internal-nullguard
+dep	so:libabsl_raw_logging_internal.so.2508.0.0	abseil-cpp-raw-logging-internal
+dep	so:libabsl_spinlock_wait.so.2508.0.0	abseil-cpp-spinlock-wait
+dep	so:libabsl_status.so.2508.0.0	abseil-cpp-status
+dep	so:libabsl_str_format_internal.so.2508.0.0	abseil-cpp-str-format-internal
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libabsl_synchronization.so.2508.0.0	abseil-cpp-synchronization
+dep	so:libabsl_time.so.2508.0.0	abseil-cpp-time
+dep	so:libabsl_time_zone.so.2508.0.0	abseil-cpp-time-zone
+dep	so:libabsl_vlog_config_internal.so.2508.0.0	abseil-cpp-vlog-config-internal
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

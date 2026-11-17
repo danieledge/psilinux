@@ -1,0 +1,15 @@
+name	liblapack
+version	0.3.30-r2
+description	fast BSD-licensed BLAS based on gotoBLAS2, with LAPACK (LAPACK library)
+url	https://www.openblas.net/
+license	BSD-3-Clause
+size	2975944
+installed-size	5727404
+depends	!lapack so:libc.musl-armhf.so.1 so:libgfortran.so.5 so:openblas:libopenblas.so.3
+origin	openblas
+repo	community
+file	liblapack-0.3.30-r2.apk
+checksum	Q1XznTG/WHEqQPpylu5CT2oBThDvg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgfortran.so.5	libgfortran
+dep	so:openblas:libopenblas.so.3	openblas

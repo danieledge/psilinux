@@ -1,0 +1,14 @@
+name	guile-sqlite3
+version	0.1.3-r1
+description	Guile bindings for SQLite
+url	https://codeberg.org/guile-sqlite3/guile-sqlite3
+license	LGPL-3.0-or-later
+size	64539
+installed-size	229281
+depends	guile sqlite-dev
+origin	guile-sqlite3
+repo	community
+file	guile-sqlite3-0.1.3-r1.apk
+checksum	Q13MzGbJcIlQoHSYt9USPWXX2ufUk=
+dep	guile	guile
+dep	sqlite-dev	sqlite-dev

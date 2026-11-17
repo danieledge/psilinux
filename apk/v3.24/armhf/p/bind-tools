@@ -1,0 +1,19 @@
+name	bind-tools
+version	9.20.30-r0
+description	The ISC DNS tools
+url	https://www.isc.org/bind/
+license	MPL-2.0
+size	236331
+installed-size	536216
+depends	so:libc.musl-armhf.so.1 so:libdns-9.20.30.so so:libisc-9.20.30.so so:libisccfg-9.20.30.so so:libkrb5.so.3 so:libns-9.20.30.so so:libprotobuf-c.so.1
+origin	bind
+repo	main
+file	bind-tools-9.20.30-r0.apk
+checksum	Q1E07nPEvh4cG0qO0e8/aqHQfLeAA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdns-9.20.30.so	bind-libs
+dep	so:libisc-9.20.30.so	bind-libs
+dep	so:libisccfg-9.20.30.so	bind-libs
+dep	so:libkrb5.so.3	krb5-libs
+dep	so:libns-9.20.30.so	bind-libs
+dep	so:libprotobuf-c.so.1	protobuf-c

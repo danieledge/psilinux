@@ -1,0 +1,14 @@
+name	zimg-dev
+version	3.0.6-r0
+description	Scaling, colorspace conversion and dithering library (development files)
+url	https://github.com/sekrit-twc/zimg
+license	WTFPL
+size	11222
+installed-size	32151
+depends	zimg=3.0.6-r0 pkgconfig
+origin	zimg
+repo	community
+file	zimg-dev-3.0.6-r0.apk
+checksum	Q1OkDGyovrmFuwIvr1yu5dzJb1GoM=
+dep	zimg=3.0.6-r0	zimg
+dep	pkgconfig	pkgconf

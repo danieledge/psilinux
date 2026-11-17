@@ -1,0 +1,16 @@
+name	php84-mysqli
+version	8.4.27-r0
+description	PHP84 extension: MySQLi
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	43695
+installed-size	124241
+depends	php84-common php84-mysqlnd php84-openssl so:libc.musl-armhf.so.1
+origin	php84
+repo	community
+file	php84-mysqli-8.4.27-r0.apk
+checksum	Q1B7HARnPOgQleaRQLhj+WtbGBpWo=
+dep	php84-common	php84-common
+dep	php84-mysqlnd	php84-mysqlnd
+dep	php84-openssl	php84-openssl
+dep	so:libc.musl-armhf.so.1	musl

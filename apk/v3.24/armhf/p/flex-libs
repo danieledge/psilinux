@@ -1,0 +1,13 @@
+name	flex-libs
+version	2.6.4-r8
+description	A tool for generating text-scanning programs (libraries)
+url	https://github.com/westes/flex
+license	BSD-2-Clause
+size	3052
+installed-size	5240
+depends	so:libc.musl-armhf.so.1
+origin	flex
+repo	main
+file	flex-libs-2.6.4-r8.apk
+checksum	Q14p3ZuAbo7UoRRYmiOa1ajU6L1Go=
+dep	so:libc.musl-armhf.so.1	musl

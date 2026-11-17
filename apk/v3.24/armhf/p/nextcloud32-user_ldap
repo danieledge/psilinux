@@ -1,0 +1,14 @@
+name	nextcloud32-user_ldap
+version	32.0.15-r0
+description	Nextcloud LDAP user and group backend app
+url	https://nextcloud.com/
+license	AGPL-3.0-only
+size	1013129
+installed-size	4937233
+depends	nextcloud32 php83-ldap
+origin	nextcloud32
+repo	community
+file	nextcloud32-user_ldap-32.0.15-r0.apk
+checksum	Q1PggON/msZjJ+YkE6LS13pIRG5KM=
+dep	nextcloud32	nextcloud32
+dep	php83-ldap	php83-ldap

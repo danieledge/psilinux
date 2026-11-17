@@ -1,0 +1,14 @@
+name	py3-async_generator
+version	1.10-r7
+description	Async generators and context managers for Python 3.5+
+url	https://pypi.org/project/async_generator/
+license	Apache-2.0
+size	17934
+installed-size	62311
+depends	python3 python3~3.14
+origin	py3-async_generator
+repo	community
+file	py3-async_generator-1.10-r7.apk
+checksum	Q1S/Nyq/ypdBpE6qx2g/OVVFUsZfk=
+dep	python3	python3
+dep	python3~3.14	python3

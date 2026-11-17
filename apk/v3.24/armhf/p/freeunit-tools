@@ -1,0 +1,14 @@
+name	freeunit-tools
+version	1.37.2-r0
+description	Configuration scripts for FreeUnit
+url	https://freeunit.org/
+license	Apache-2.0
+size	18399
+installed-size	61069
+depends	bash curl
+origin	freeunit
+repo	community
+file	freeunit-tools-1.37.2-r0.apk
+checksum	Q1LVBlKIfG2PeIi/v7DSLOPmsXQjs=
+dep	bash	bash
+dep	curl	curl

@@ -1,0 +1,14 @@
+name	apparmor-profiles-tunables
+version	4.1.7-r1
+description	AppArmor sample pre-made profiles - tunables
+url	https://gitlab.com/apparmor/apparmor/wikis/home
+license	GPL-2.0-or-later
+size	6751
+installed-size	18449
+depends	apparmor apparmor-profiles-api
+origin	apparmor
+repo	main
+file	apparmor-profiles-tunables-4.1.7-r1.apk
+checksum	Q1m1TjbxsfJl93OV0YEWJuYrcyd3Q=
+dep	apparmor	apparmor
+dep	apparmor-profiles-api	apparmor-profiles-api

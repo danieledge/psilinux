@@ -1,0 +1,19 @@
+name	synadm
+version	0.49.2-r1
+description	Command line admin tool for Synapse
+url	https://synadm.readthedocs.io/
+license	GPL-3.0-or-later
+size	61782
+installed-size	233599
+depends	py3-tabulate py3-click py3-requests py3-yaml py3-click-option-group py3-dnspython python3~3.14
+origin	synadm
+repo	community
+file	synadm-0.49.2-r1.apk
+checksum	Q1M8toVXRRC0IiuLTnXnIjUr8Az5s=
+dep	py3-tabulate	py3-tabulate
+dep	py3-click	py3-click
+dep	py3-requests	py3-requests
+dep	py3-yaml	py3-yaml
+dep	py3-click-option-group	py3-click-option-group
+dep	py3-dnspython	py3-dnspython
+dep	python3~3.14	python3

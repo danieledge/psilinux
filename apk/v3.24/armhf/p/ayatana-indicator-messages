@@ -1,0 +1,18 @@
+name	ayatana-indicator-messages
+version	24.5.1-r0
+description	Ayatana Indicator Messages Applet
+url	https://github.com/AyatanaIndicators/ayatana-indicator-messages
+license	GPL-3.0-only
+size	102275
+installed-size	269768
+depends	so:libaccountsservice.so.0 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8
+origin	ayatana-indicator-messages
+repo	community
+file	ayatana-indicator-messages-24.5.1-r0.apk
+checksum	Q1Lf4JvTRFHjzKsTrw1HN92g/lDYM=
+dep	so:libaccountsservice.so.0	libaccountsservice
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl

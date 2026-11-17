@@ -1,0 +1,16 @@
+name	plymouth-openrc-plugin
+version	0.4.0_git20250822-r2
+description	Plugin for OpenRC that displays a Plymouth splash screen during boot
+url	https://github.com/Kangie/plymouth-openrc-plugin
+license	GPL-2.0-only
+size	4590
+installed-size	9336
+depends	plymouth so:libc.musl-armhf.so.1 so:libeinfo.so.1 so:librc.so.1
+origin	plymouth-openrc-plugin
+repo	community
+file	plymouth-openrc-plugin-0.4.0_git20250822-r2.apk
+checksum	Q1wf4Ko4jetrMu0+keyg8WlUDQ1Ig=
+dep	plymouth	plymouth
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libeinfo.so.1	openrc
+dep	so:librc.so.1	openrc

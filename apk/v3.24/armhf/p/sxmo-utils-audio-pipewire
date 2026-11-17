@@ -1,0 +1,16 @@
+name	sxmo-utils-audio-pipewire
+version	1.18.1-r4
+description	Utility scripts, programs, and configs that hold the Sxmo UI environment together
+url	https://git.sr.ht/~mil/sxmo-utils
+license	AGPL-3.0-only
+size	1360
+installed-size	0
+depends	pipewire-pulse pipewire wireplumber pipewire-alsa
+origin	sxmo-utils
+repo	community
+file	sxmo-utils-audio-pipewire-1.18.1-r4.apk
+checksum	Q1aJc9oTkkcHTlLgJjDswSyoReyg0=
+dep	pipewire-pulse	pipewire-pulse
+dep	pipewire	pipewire
+dep	wireplumber	wireplumber
+dep	pipewire-alsa	pipewire-alsa

@@ -1,0 +1,13 @@
+name	brotli-libs
+version	1.2.1-r0
+description	Generic lossless compressor (libraries)
+url	https://github.com/google/brotli
+license	MIT
+size	401043
+installed-size	888732
+depends	so:libc.musl-armhf.so.1
+origin	brotli
+repo	main
+file	brotli-libs-1.2.1-r0.apk
+checksum	Q1ZDDXNPO6I2lzVacR4oczZgOZ4R0=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	freeradius-static
+version	3.0.27-r3
+description	RADIUS (Remote Authentication Dial-In User Service) server (static library)
+url	https://freeradius.org/
+license	GPL-2.0-or-later
+size	3384304
+installed-size	7382706
+depends	freeradius-dev
+origin	freeradius
+repo	main
+file	freeradius-static-3.0.27-r3.apk
+checksum	Q14uRbw4xp6ivlUCNwLV01OpmH550=
+dep	freeradius-dev	freeradius-dev

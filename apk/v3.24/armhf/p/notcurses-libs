@@ -1,0 +1,23 @@
+name	notcurses-libs
+version	3.0.17-r0
+description	blingful character graphics and TUI library
+url	https://nick-black.com/dankwiki/index.php/Notcurses
+license	Apache-2.0
+size	256211
+installed-size	540804
+depends	so:libavcodec.so.62 so:libavdevice.so.62 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libdeflate.so.0 so:libgcc_s.so.1 so:libncursesw.so.6 so:libstdc++.so.6 so:libswscale.so.9 so:libunistring.so.5
+origin	notcurses
+repo	community
+file	notcurses-libs-3.0.17-r0.apk
+checksum	Q1uy00htutril44iiH5ehpz3EmaCc=
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavdevice.so.62	ffmpeg-libavdevice
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdeflate.so.0	libdeflate
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libswscale.so.9	ffmpeg-libswscale
+dep	so:libunistring.so.5	libunistring

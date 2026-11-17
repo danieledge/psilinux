@@ -1,0 +1,19 @@
+name	woff2-dev
+version	1.0.2-r4
+description	Web Open Font Format 2 reference implementation (development files)
+url	https://github.com/google/woff2
+license	GPL-3.0-or-later
+size	4070
+installed-size	5744
+depends	woff2=1.0.2-r4 libwoff2common=1.0.2-r4 libwoff2dec=1.0.2-r4 libwoff2enc=1.0.2-r4 pc:libbrotlidec pc:libbrotlienc pkgconfig
+origin	woff2
+repo	community
+file	woff2-dev-1.0.2-r4.apk
+checksum	Q1qwOQFOhXBLxM6Y2Dy0Ahm/dtaI4=
+dep	woff2=1.0.2-r4	woff2
+dep	libwoff2common=1.0.2-r4	libwoff2common
+dep	libwoff2dec=1.0.2-r4	libwoff2dec
+dep	libwoff2enc=1.0.2-r4	libwoff2enc
+dep	pc:libbrotlidec	brotli-dev
+dep	pc:libbrotlienc	brotli-dev
+dep	pkgconfig	pkgconf

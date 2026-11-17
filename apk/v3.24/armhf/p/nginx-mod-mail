@@ -1,0 +1,14 @@
+name	nginx-mod-mail
+version	1.30.6-r0
+description	Nginx module mail
+url	https://www.nginx.org/
+license	BSD-2-Clause
+size	38604
+installed-size	83062
+depends	nginx=1.30.6-r0 so:libc.musl-armhf.so.1
+origin	nginx
+repo	main
+file	nginx-mod-mail-1.30.6-r0.apk
+checksum	Q1hIyq5Z5DIs+vSHzr8Fhdr4HSGh8=
+dep	nginx=1.30.6-r0	nginx
+dep	so:libc.musl-armhf.so.1	musl

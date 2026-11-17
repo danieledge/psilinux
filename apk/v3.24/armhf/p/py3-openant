@@ -1,0 +1,16 @@
+name	py3-openant
+version	1.3.4-r2
+description	Python library to communicate with ANT-FS compliant devices
+url	https://github.com/Tigge/openant
+license	MIT
+size	61531
+installed-size	267432
+depends	python3 py3-pyserial py3-usb python3~3.14
+origin	py3-openant
+repo	community
+file	py3-openant-1.3.4-r2.apk
+checksum	Q1IKo99poEcSwmEwjXqN41zSZuP9Q=
+dep	python3	python3
+dep	py3-pyserial	py3-pyserial
+dep	py3-usb	py3-usb
+dep	python3~3.14	python3

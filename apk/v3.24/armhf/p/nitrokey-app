@@ -1,0 +1,19 @@
+name	nitrokey-app
+version	1.4.2-r2
+description	Nitrokey's Application
+url	https://nitrokey.com/
+license	GPL-3.0-or-later
+size	422667
+installed-size	810430
+depends	so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt5Widgets.so.5 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libnitrokey.so.3 so:libstdc++.so.6
+origin	nitrokey-app
+repo	community
+file	nitrokey-app-1.4.2-r2.apk
+checksum	Q1rLe6q9BuWrcgVGZ15dIomoKLmSk=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Gui.so.5	qt5-qtbase-x11
+dep	so:libQt5Widgets.so.5	qt5-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libnitrokey.so.3	libnitrokey
+dep	so:libstdc++.so.6	libstdc++

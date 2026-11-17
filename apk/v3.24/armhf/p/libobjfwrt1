@@ -1,0 +1,14 @@
+name	libobjfwrt1
+version	1.5.7-r0
+description	ObjFW Objective-C runtime library
+url	https://objfw.nil.im/
+license	LGPL-3.0-only
+size	25782
+installed-size	59560
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	objfw
+repo	community
+file	libobjfwrt1-1.5.7-r0.apk
+checksum	Q1BLh1yVW9TtNl+F8z9xqR1r7SxP4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

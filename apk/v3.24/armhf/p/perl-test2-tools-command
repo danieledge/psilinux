@@ -1,0 +1,15 @@
+name	perl-test2-tools-command
+version	0.20-r1
+description	Test simple unix commands
+url	https://metacpan.org/release/Test2-Tools-Command/
+license	BSD-3-Clause
+size	8071
+installed-size	17948
+depends	perl perl-file-chdir perl-test2-suite
+origin	perl-test2-tools-command
+repo	community
+file	perl-test2-tools-command-0.20-r1.apk
+checksum	Q1pPCMCZDIwCAW+W3oa+WVDO14OaA=
+dep	perl	perl
+dep	perl-file-chdir	perl-file-chdir
+dep	perl-test2-suite	perl-test-simple

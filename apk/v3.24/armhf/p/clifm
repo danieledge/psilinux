@@ -1,0 +1,17 @@
+name	clifm
+version	1.28-r0
+description	CLI file manager
+url	https://github.com/leo-arch/clifm
+license	GPL-2.0-or-later
+size	583911
+installed-size	1495084
+depends	so:libacl.so.1 so:libc.musl-armhf.so.1 so:libcap.so.2 so:libmagic.so.1 so:libreadline.so.8
+origin	clifm
+repo	community
+file	clifm-1.28-r0.apk
+checksum	Q1mYCe1TP4m1ixBUFPWYbkncICghk=
+dep	so:libacl.so.1	acl-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libmagic.so.1	libmagic
+dep	so:libreadline.so.8	readline

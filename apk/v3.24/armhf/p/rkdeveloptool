@@ -1,0 +1,16 @@
+name	rkdeveloptool
+version	1.1.0-r2
+description	opensource client for rockusb devices
+url	https://gitlab.com/pine64-org/quartz-bsp/rkdeveloptool
+license	GPL-2.0-only
+size	57450
+installed-size	118484
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libusb-1.0.so.0
+origin	rkdeveloptool
+repo	community
+file	rkdeveloptool-1.1.0-r2.apk
+checksum	Q19rKajXYkmmI0q44ZUzmDkJMcRbk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libusb-1.0.so.0	libusb

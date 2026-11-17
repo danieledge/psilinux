@@ -1,0 +1,13 @@
+name	jansson
+version	2.15.0-r0
+description	lightweight JSON library
+url	http://www.digip.org/jansson/
+license	MIT
+size	48916
+installed-size	83212
+depends	so:libc.musl-armhf.so.1
+origin	jansson
+repo	main
+file	jansson-2.15.0-r0.apk
+checksum	Q1Bgs3iY7EUPtERG9yqfmyM4FY9EY=
+dep	so:libc.musl-armhf.so.1	musl

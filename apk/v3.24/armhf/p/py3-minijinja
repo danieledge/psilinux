@@ -1,0 +1,15 @@
+name	py3-minijinja
+version	2.21.0-r0
+description	Python bindings for MiniJinja, a template engine compatible with Jinja/Jinja2
+url	https://docs.rs/minijinja/latest/minijinja/
+license	Apache-2.0
+size	727368
+installed-size	1488446
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	minijinja-cli
+repo	community
+file	py3-minijinja-2.21.0-r0.apk
+checksum	Q1W8VR2SpLa9LzAMmBtTd7tUYfi38=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

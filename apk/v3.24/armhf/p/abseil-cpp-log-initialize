@@ -1,0 +1,15 @@
+name	abseil-cpp-log-initialize
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-log-initialize
+url	https://abseil.io/
+license	Apache-2.0
+size	3246
+installed-size	5400
+depends	so:libabsl_log_internal_globals.so.2508.0.0 so:libabsl_time_zone.so.2508.0.0 so:libgcc_s.so.1
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-log-initialize-20250814.1-r0.apk
+checksum	Q1iZFRI6/1w4SpWlkbXJFWS8Aoxcg=
+dep	so:libabsl_log_internal_globals.so.2508.0.0	abseil-cpp-log-internal-globals
+dep	so:libabsl_time_zone.so.2508.0.0	abseil-cpp-time-zone
+dep	so:libgcc_s.so.1	libgcc

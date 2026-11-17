@@ -1,0 +1,14 @@
+name	libsass-dev
+version	3.6.6-r0
+description	C/C++ implementation of a Sass compiler (development files)
+url	https://sass-lang.com/libsass
+license	MIT
+size	8550
+installed-size	29438
+depends	libsass=3.6.6-r0 pkgconfig
+origin	libsass
+repo	community
+file	libsass-dev-3.6.6-r0.apk
+checksum	Q1Thnywom3bdDp3geMYw7vNqq0XU4=
+dep	libsass=3.6.6-r0	libsass
+dep	pkgconfig	pkgconf

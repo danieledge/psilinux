@@ -1,0 +1,16 @@
+name	apk-deploy-tool
+version	0.5.3-r1
+description	Tool for easily deploying applications or configuration packaged in APK via SSH
+url	https://github.com/jirutka/apk-deploy-tool
+license	MIT
+size	6035
+installed-size	10098
+depends	apk-tools doas openssh-keygen /bin/sh
+origin	apk-deploy-tool
+repo	community
+file	apk-deploy-tool-0.5.3-r1.apk
+checksum	Q1Q1o2Yk7+swvVmTKg3TXWOsN2m0Y=
+dep	apk-tools	apk-tools
+dep	doas	doas
+dep	openssh-keygen	openssh-keygen
+dep	/bin/sh	busybox-binsh

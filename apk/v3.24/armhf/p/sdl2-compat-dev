@@ -1,0 +1,14 @@
+name	sdl2-compat-dev
+version	2.32.68-r0
+description	SDL2 compatibility layer that uses SDL3 behind the scenes (development files)
+url	https://github.com/libsdl-org/sdl2-compat
+license	Zlib
+size	437499
+installed-size	2521712
+depends	sdl2-compat=2.32.68-r0 pkgconfig
+origin	sdl2-compat
+repo	community
+file	sdl2-compat-dev-2.32.68-r0.apk
+checksum	Q1Lv2FG7+qmF2bH5LLKa/pDvdj9Tc=
+dep	sdl2-compat=2.32.68-r0	sdl2-compat
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	autoconf
+version	2.73-r0
+description	GNU tool for automatically configuring source code
+url	https://www.gnu.org/software/autoconf
+license	GPL-3.0-or-later WITH Autoconf-exception-3.0
+size	600158
+installed-size	2023798
+depends	m4 perl
+origin	autoconf
+repo	main
+file	autoconf-2.73-r0.apk
+checksum	Q1adDZTfvVQntcSGKQrXITJvatP3M=
+dep	m4	m4
+dep	perl	perl

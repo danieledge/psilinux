@@ -1,0 +1,26 @@
+name	harfbuzz-dev
+version	13.2.1-r0
+description	Text shaping library (development files)
+url	https://harfbuzz.github.io/
+license	MIT
+size	206173
+installed-size	1839163
+depends	harfbuzz-cairo=13.2.1-r0 harfbuzz-gobject=13.2.1-r0 harfbuzz-icu=13.2.1-r0 harfbuzz-subset=13.2.1-r0 harfbuzz=13.2.1-r0 pc:cairo>=1.10.0 pc:freetype2>=12.0.6 pc:glib-2.0>=2.30.0 pc:gobject-2.0>=2.30.0 pc:graphite2>=1.2.0 pc:icu-uc>=49.0 pc:libpng pc:zlib pkgconfig
+origin	harfbuzz
+repo	main
+file	harfbuzz-dev-13.2.1-r0.apk
+checksum	Q16npVblJ2s8JIWZRMzAj6nbpSOBA=
+dep	harfbuzz-cairo=13.2.1-r0	harfbuzz-cairo
+dep	harfbuzz-gobject=13.2.1-r0	harfbuzz-gobject
+dep	harfbuzz-icu=13.2.1-r0	harfbuzz-icu
+dep	harfbuzz-subset=13.2.1-r0	harfbuzz-subset
+dep	harfbuzz=13.2.1-r0	harfbuzz
+dep	pc:cairo>=1.10.0	cairo-dev
+dep	pc:freetype2>=12.0.6	freetype-dev
+dep	pc:glib-2.0>=2.30.0	glib-dev
+dep	pc:gobject-2.0>=2.30.0	glib-dev
+dep	pc:graphite2>=1.2.0	graphite2-dev
+dep	pc:icu-uc>=49.0	icu-dev
+dep	pc:libpng	libpng-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

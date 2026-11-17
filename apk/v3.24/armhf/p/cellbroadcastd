@@ -1,0 +1,19 @@
+name	cellbroadcastd
+version	0.0.3-r2
+description	Manages cell broadcast messages received via ModemManager
+url	https://gitlab.freedesktop.org/devrtz/cellbroadcastd
+license	LGPL-2.1-or-later
+size	52803
+installed-size	125731
+depends	so:libc.musl-armhf.so.1 so:libcellbroadcast-0.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmobile.so.0 so:libgobject-2.0.so.0 so:libmm-glib.so.0
+origin	cellbroadcastd
+repo	community
+file	cellbroadcastd-0.0.3-r2.apk
+checksum	Q1uhTIX5Bq/CiJ4fB/rkIRLigphMs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcellbroadcast-0.0.so.0	cellbroadcastd-libs
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmobile.so.0	gmobile
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libmm-glib.so.0	libmm-glib

@@ -1,0 +1,16 @@
+name	docker-rootless-extras
+version	29.9.3-r1
+description	Extras to run docker as in rootless mode
+url	https://docs.docker.com/engine/security/rootless/
+license	Apache-2.0
+size	5494
+installed-size	10740
+depends	docker rootlesskit slirp4netns fuse-overlayfs
+origin	docker
+repo	community
+file	docker-rootless-extras-29.9.3-r1.apk
+checksum	Q1nznO6R9kYDdk1q5rz59/J9XpS5g=
+dep	docker	docker
+dep	rootlesskit	rootlesskit
+dep	slirp4netns	slirp4netns
+dep	fuse-overlayfs	fuse-overlayfs

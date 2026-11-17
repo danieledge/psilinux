@@ -1,0 +1,14 @@
+name	utop-full
+version	2.9.1-r6
+description	Universal toplevel for OCaml (non-expunged)
+url	https://github.com/ocaml-community/utop
+license	BSD-3-Clause
+size	13812635
+installed-size	32158711
+depends	ocaml-utop=2.9.1-r6 utop-common=2.9.1-r6
+origin	utop
+repo	community
+file	utop-full-2.9.1-r6.apk
+checksum	Q1mMFw1sWDpITzbjOMKe96MaOvOAU=
+dep	ocaml-utop=2.9.1-r6	ocaml-utop
+dep	utop-common=2.9.1-r6	utop-common

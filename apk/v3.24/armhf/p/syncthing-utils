@@ -1,0 +1,13 @@
+name	syncthing-utils
+version	2.1.0-r2
+description	Syncthing server utilities
+url	https://syncthing.net/
+license	MPL-2.0
+size	16483497
+installed-size	47711532
+depends	so:libc.musl-armhf.so.1
+origin	syncthing
+repo	community
+file	syncthing-utils-2.1.0-r2.apk
+checksum	Q15/oD5pXBeSvPQ0NUWOjkRQHj8NA=
+dep	so:libc.musl-armhf.so.1	musl

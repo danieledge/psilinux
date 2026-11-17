@@ -1,0 +1,14 @@
+name	php83-sysvmsg
+version	8.3.36-r0
+description	PHP83 extension: System V Message based IPC
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	7585
+installed-size	13654
+depends	php83-common so:libc.musl-armhf.so.1
+origin	php83
+repo	community
+file	php83-sysvmsg-8.3.36-r0.apk
+checksum	Q1xm4fek3znlQ6Cs0rih5YiKsfd1g=
+dep	php83-common	php83-common
+dep	so:libc.musl-armhf.so.1	musl

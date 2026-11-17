@@ -1,0 +1,13 @@
+name	installkernel
+version	4.1-r1
+description	Alpine Linux Kernel install script
+url	https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/main/installkernel
+license	GPL-2.0-only
+size	1951
+installed-size	918
+depends	/bin/sh
+origin	installkernel
+repo	main
+file	installkernel-4.1-r1.apk
+checksum	Q1yMOTOKuMMXfGc5n2sDwLqn63LC8=
+dep	/bin/sh	busybox-binsh

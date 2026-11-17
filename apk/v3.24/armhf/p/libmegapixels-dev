@@ -1,0 +1,14 @@
+name	libmegapixels-dev
+version	0.2.3-r0
+description	Device abstraction for the Megapixels application (development files)
+url	https://libme.gapixels.me
+license	GPL-3.0-or-later
+size	3224
+installed-size	4832
+depends	libmegapixels=0.2.3-r0 pkgconfig
+origin	libmegapixels
+repo	community
+file	libmegapixels-dev-0.2.3-r0.apk
+checksum	Q1SGYwIGmF0HNIzM+9eGoVky0Ex7o=
+dep	libmegapixels=0.2.3-r0	libmegapixels
+dep	pkgconfig	pkgconf

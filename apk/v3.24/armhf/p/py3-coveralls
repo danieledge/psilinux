@@ -1,0 +1,16 @@
+name	py3-coveralls
+version	3.3.1-r2
+description	Show coverage stats online via coveralls.io
+url	https://github.com/TheKevJames/coveralls-python
+license	MIT
+size	14008
+installed-size	39431
+depends	py3-coverage py3-docopt py3-requests python3~3.14
+origin	py3-coveralls
+repo	community
+file	py3-coveralls-3.3.1-r2.apk
+checksum	Q1gQDxQpzk/mnmCZmAKlz+UIsOJXE=
+dep	py3-coverage	py3-coverage
+dep	py3-docopt	py3-docopt
+dep	py3-requests	py3-requests
+dep	python3~3.14	python3

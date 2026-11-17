@@ -1,0 +1,20 @@
+name	libdecor
+version	0.2.5-r0
+description	Client-side decorations library for Wayland clients
+url	https://gitlab.freedesktop.org/libdecor/libdecor
+license	MIT
+size	26099
+installed-size	60244
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdbus-1.so.3 so:libgobject-2.0.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libwayland-client.so.0 so:libwayland-cursor.so.0
+origin	libdecor
+repo	community
+file	libdecor-0.2.5-r0.apk
+checksum	Q10ZwHreVxevLMbzAOTyD/vXXLa84=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor

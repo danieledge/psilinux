@@ -1,0 +1,16 @@
+name	py3-dbusmock
+version	0.38.1-r1
+description	Mock D-Bus objects for tests
+url	https://github.com/martinpitt/python-dbusmock
+license	LGPL-3.0-or-later
+size	60153
+installed-size	243959
+depends	dbus py3-dbus py3-gobject3 python3~3.14
+origin	py3-dbusmock
+repo	community
+file	py3-dbusmock-0.38.1-r1.apk
+checksum	Q1iqyvzjs8qJ8oIc7uLu7dXuHNj8A=
+dep	dbus	dbus
+dep	py3-dbus	py3-dbus
+dep	py3-gobject3	py3-gobject3
+dep	python3~3.14	python3

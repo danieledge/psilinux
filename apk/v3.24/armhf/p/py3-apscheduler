@@ -1,0 +1,16 @@
+name	py3-apscheduler
+version	3.10.4-r3
+description	In-process task scheduler with Cron-like capabilities
+url	https://pypi.org/project/APScheduler/
+license	MIT
+size	46700
+installed-size	181548
+depends	py3-tz py3-six py3-tzlocal python3~3.14
+origin	py3-apscheduler
+repo	community
+file	py3-apscheduler-3.10.4-r3.apk
+checksum	Q11R10FTN9J5wlTpbrGep0Cv+6sNM=
+dep	py3-tz	py3-tz
+dep	py3-six	py3-six
+dep	py3-tzlocal	py3-tzlocal
+dep	python3~3.14	python3

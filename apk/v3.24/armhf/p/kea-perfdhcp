@@ -1,0 +1,19 @@
+name	kea-perfdhcp
+version	3.0.3-r0
+description	DHCP benchmarking tool from Kea
+url	https://kea.isc.org/
+license	MPL-2.0
+size	125718
+installed-size	280112
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-asiolink.so.88 so:libkea-dhcp.so.109 so:libkea-exceptions.so.45 so:libkea-util.so.102 so:libstdc++.so.6
+origin	kea
+repo	main
+file	kea-perfdhcp-3.0.3-r0.apk
+checksum	Q1Oci8N6DQRsRHs2UdGsZZxxIOKas=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libkea-asiolink.so.88	kea-common
+dep	so:libkea-dhcp.so.109	kea-common
+dep	so:libkea-exceptions.so.45	kea-common
+dep	so:libkea-util.so.102	kea-common
+dep	so:libstdc++.so.6	libstdc++

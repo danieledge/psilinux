@@ -1,0 +1,13 @@
+name	aws-lc-dev
+version	5.0.0-r3
+description	General-purpose cryptographic library based on BoringSSL and OpenSSL (development files)
+url	https://github.com/aws/aws-lc
+license	(Apache-2.0 OR ISC) AND BSD-3-Clause AND MIT AND OpenSSL
+size	396412
+installed-size	1715700
+depends	!openssl-dev pkgconfig
+origin	aws-lc
+repo	community
+file	aws-lc-dev-5.0.0-r3.apk
+checksum	Q1XJ2SRvlE3En6HzP1TecQCrzhOFw=
+dep	pkgconfig	pkgconf

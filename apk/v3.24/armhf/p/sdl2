@@ -1,0 +1,13 @@
+name	sdl2
+version	2.32.10-r0
+description	development library designed to provide low level access to audio, keyboard, mouse, joystick and graphics
+url	https://www.libsdl.org
+license	Zlib
+size	570193
+installed-size	1423304
+depends	so:libc.musl-armhf.so.1
+origin	sdl2
+repo	community
+file	sdl2-2.32.10-r0.apk
+checksum	Q13ZZf5d5URVlzgBpwQEvRbtDabWE=
+dep	so:libc.musl-armhf.so.1	musl

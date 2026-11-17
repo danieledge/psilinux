@@ -1,0 +1,21 @@
+name	podman-docker-systemd
+version	5.8.10-r0
+description	Emulate Docker CLI using Podman (systemd files)
+url	https://podman.io/
+license	Apache-2.0
+size	1813
+installed-size	126
+depends	conmon oci-runtime passt cmd:newgidmap cmd:newuidmap containers-common netavark aardvark-dns catatonit
+origin	podman
+repo	community
+file	podman-docker-systemd-5.8.10-r0.apk
+checksum	Q1DiDAYc5MRUrlPOofN7YISQYcgNk=
+dep	conmon	conmon
+dep	oci-runtime	crun
+dep	passt	passt
+dep	cmd:newgidmap	shadow-subids
+dep	cmd:newuidmap	shadow-subids
+dep	containers-common	containers-common
+dep	netavark	netavark
+dep	aardvark-dns	aardvark-dns
+dep	catatonit	catatonit

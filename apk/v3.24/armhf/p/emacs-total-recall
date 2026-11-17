@@ -1,0 +1,14 @@
+name	emacs-total-recall
+version	0_git20250426-r1
+description	Emacs spaced repetition system
+url	https://github.com/phf-1/total-recall
+license	GPL-3.0-or-later
+size	17966
+installed-size	77554
+depends	cmd:emacs cmd:rg
+origin	emacs-total-recall
+repo	community
+file	emacs-total-recall-0_git20250426-r1.apk
+checksum	Q1FWNou22p7oqneCX1BnZe4uZ3CV4=
+dep	cmd:emacs	emacs-gtk3
+dep	cmd:rg	ripgrep

@@ -1,0 +1,15 @@
+name	oath-toolkit-pam_oath
+version	2.6.14-r1
+description	A PAM module for pluggable login authentication for OATH.
+url	https://nongnu.org/oath-toolkit/
+license	GPL-3.0-or-later
+size	7772
+installed-size	14473
+depends	so:libc.musl-armhf.so.1 so:liboath.so.0 so:libpam.so.0
+origin	oath-toolkit
+repo	community
+file	oath-toolkit-pam_oath-2.6.14-r1.apk
+checksum	Q1J0piLwTqpgsXyJ46Dja0j06ZnGY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liboath.so.0	oath-toolkit-liboath
+dep	so:libpam.so.0	linux-pam

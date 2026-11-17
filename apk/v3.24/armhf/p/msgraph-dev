@@ -1,0 +1,19 @@
+name	msgraph-dev
+version	0.3.4-r0
+description	Library to access MS Graph API for Office 365. (development files)
+url	https://gitlab.gnome.org/GNOME/msgraph
+license	LGPL-3.0-or-later
+size	23881
+installed-size	229361
+depends	msgraph=0.3.4-r0 pc:gio-2.0 pc:glib-2.0>=2.28 pc:goa-1.0 pc:json-glib-1.0 pc:libsoup-3.0 pkgconfig
+origin	msgraph
+repo	community
+file	msgraph-dev-0.3.4-r0.apk
+checksum	Q11lOjqBJ1+xepCdVy5zcp1YE9sj4=
+dep	msgraph=0.3.4-r0	msgraph
+dep	pc:gio-2.0	glib-dev
+dep	pc:glib-2.0>=2.28	glib-dev
+dep	pc:goa-1.0	gnome-online-accounts-dev
+dep	pc:json-glib-1.0	json-glib-dev
+dep	pc:libsoup-3.0	libsoup3-dev
+dep	pkgconfig	pkgconf

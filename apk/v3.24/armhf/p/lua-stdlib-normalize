@@ -1,0 +1,14 @@
+name	lua-stdlib-normalize
+version	2.0.3-r2
+description	Normalized Lua functions
+url	https://lua-stdlib.github.io/normalize/
+license	MIT
+size	17442
+installed-size	52912
+depends	lua lua-stdlib-debug
+origin	lua-stdlib-normalize
+repo	main
+file	lua-stdlib-normalize-2.0.3-r2.apk
+checksum	Q1Q7I5GYZS5KoVA+55jiUE/2B38f4=
+dep	lua	lua5.5
+dep	lua-stdlib-debug	lua-stdlib-debug

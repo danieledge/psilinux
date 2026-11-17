@@ -1,0 +1,13 @@
+name	libfyaml
+version	0.9.5-r1
+description	Fully feature complete YAML parser and emitter
+url	https://github.com/pantoniou/libfyaml
+license	MIT
+size	328358
+installed-size	694204
+depends	so:libc.musl-armhf.so.1
+origin	libfyaml
+repo	community
+file	libfyaml-0.9.5-r1.apk
+checksum	Q1hDui30MbAoHBzhhjPwWKmUnIVHk=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	emacs-hackernews
+version	0.7.0-r1
+description	Hacker News client using Firebase API
+url	https://github.com/clarete/hackernews.el
+license	GPL-3.0-or-later
+size	16189
+installed-size	61330
+depends	cmd:emacs
+origin	emacs-hackernews
+repo	community
+file	emacs-hackernews-0.7.0-r1.apk
+checksum	Q1gz165KsbMTB0zcmbF/nfyzck81M=
+dep	cmd:emacs	emacs-gtk3

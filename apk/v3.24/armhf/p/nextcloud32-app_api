@@ -1,0 +1,13 @@
+name	nextcloud32-app_api
+version	32.0.15-r0
+description	Nextcloud AppAPI app
+url	https://nextcloud.com/
+license	AGPL-3.0-only
+size	4028028
+installed-size	18953913
+depends	nextcloud32
+origin	nextcloud32
+repo	community
+file	nextcloud32-app_api-32.0.15-r0.apk
+checksum	Q12a28gek/ksTMclqVkuixtqafwuU=
+dep	nextcloud32	nextcloud32

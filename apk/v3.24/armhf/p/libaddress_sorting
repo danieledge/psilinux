@@ -1,0 +1,14 @@
+name	libaddress_sorting
+version	1.78.1-r2
+description	The C based gRPC (libaddress_sorting library)
+url	https://grpc.io/
+license	Apache-2.0 AND BSD-3-Clause AND MIT
+size	4734
+installed-size	9388
+depends	grpc=1.78.1-r2 so:libc.musl-armhf.so.1
+origin	grpc
+repo	community
+file	libaddress_sorting-1.78.1-r2.apk
+checksum	Q1Zaa3b1ncKLAAUw9/CBYtHLRX/hg=
+dep	grpc=1.78.1-r2	grpc
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	lua5.3-yaml
+version	1.1.2-r9
+description	LibYaml binding for Lua 5.3
+url	https://lubyk.github.io/lubyk/yaml.html
+license	MIT
+size	46986
+installed-size	112526
+depends	lua5.3 lua5.3-lub so:libc.musl-armhf.so.1
+origin	lua-yaml
+repo	main
+file	lua5.3-yaml-1.1.2-r9.apk
+checksum	Q1sU80zv1MJiBl7PpGyDBEG3ChY4s=
+dep	lua5.3	lua5.3
+dep	lua5.3-lub	lua-lub
+dep	so:libc.musl-armhf.so.1	musl

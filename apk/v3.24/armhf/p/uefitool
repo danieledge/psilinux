@@ -1,0 +1,18 @@
+name	uefitool
+version	0.28.0-r2
+description	UEFI firmware image viewer and editor
+url	https://github.com/LongSoft/UEFITool
+license	BSD-2-Clause
+size	398732
+installed-size	856408
+depends	so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt5Widgets.so.5 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	uefitool
+repo	community
+file	uefitool-0.28.0-r2.apk
+checksum	Q1NfGDAY3lyAXHkH5ecpuJGEy/nwI=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Gui.so.5	qt5-qtbase-x11
+dep	so:libQt5Widgets.so.5	qt5-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

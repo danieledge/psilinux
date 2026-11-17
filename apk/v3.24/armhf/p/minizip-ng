@@ -1,0 +1,18 @@
+name	minizip-ng
+version	4.0.10-r0
+description	zlib-ng fork of minizip
+url	https://github.com/zlib-ng/minizip-ng
+license	Zlib
+size	60089
+installed-size	139492
+depends	so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:liblzma.so.5 so:libz-ng.so.2 so:libzstd.so.1
+origin	minizip-ng
+repo	community
+file	minizip-ng-4.0.10-r0.apk
+checksum	Q1EfS/cN1Z8qlYLqLoH8RA1+zvKKA=
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:liblzma.so.5	xz-libs
+dep	so:libz-ng.so.2	zlib-ng
+dep	so:libzstd.so.1	zstd-libs

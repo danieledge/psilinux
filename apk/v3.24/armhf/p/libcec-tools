@@ -1,0 +1,17 @@
+name	libcec-tools
+version	7.1.1-r1
+description	libcec for the Pulse-Eight USB-CEC adapter (tools)
+url	https://github.com/Pulse-Eight/libcec
+license	GPL-2.0-or-later
+size	31617
+installed-size	75559
+depends	libcec=7.1.1-r1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libp8-platform.so.2 so:libstdc++.so.6
+origin	libcec
+repo	community
+file	libcec-tools-7.1.1-r1.apk
+checksum	Q1w31jlRGQuBj8mEFuJPJhCEV8Xds=
+dep	libcec=7.1.1-r1	libcec
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libp8-platform.so.2	p8-platform
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,13 @@
+name	ciwiki
+version	3.0.5-r1
+description	Personal lightweight wiki written in C
+url	https://ciwiki.sourceforge.net/
+license	GPL-2.0-or-later
+size	45828
+installed-size	108498
+depends	so:libc.musl-armhf.so.1
+origin	ciwiki
+repo	community
+file	ciwiki-3.0.5-r1.apk
+checksum	Q1CEvqv1jmUEMAZ9pLyIXKEujsW/0=
+dep	so:libc.musl-armhf.so.1	musl

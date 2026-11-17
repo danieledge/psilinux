@@ -1,0 +1,15 @@
+name	libdvdnav-dev
+version	6.1.1-r1
+description	a library for sophisticated DVD navigation features (development files)
+url	http://dvdnav.mplayerhq.hu/
+license	GPL-2.0-or-later
+size	13239
+installed-size	42347
+depends	libdvdnav=6.1.1-r1 pc:dvdread>=6.0.0 pkgconfig
+origin	libdvdnav
+repo	community
+file	libdvdnav-dev-6.1.1-r1.apk
+checksum	Q18tK36mbYK4IdLASA+AoaEErKar8=
+dep	libdvdnav=6.1.1-r1	libdvdnav
+dep	pc:dvdread>=6.0.0	libdvdread-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,17 @@
+name	twtxt
+version	1.3.1-r4
+description	Decentralised, minimalist microblogging service for hackers
+url	https://github.com/buckket/twtxt
+license	MIT
+size	19017
+installed-size	58045
+depends	py3-dateutil py3-aiohttp py3-click py3-humanize python3~3.14
+origin	twtxt
+repo	community
+file	twtxt-1.3.1-r4.apk
+checksum	Q1w2XuhGdyXS5D+TdrrX6HVeC1vGc=
+dep	py3-dateutil	py3-dateutil
+dep	py3-aiohttp	py3-aiohttp
+dep	py3-click	py3-click
+dep	py3-humanize	py3-humanize
+dep	python3~3.14	python3

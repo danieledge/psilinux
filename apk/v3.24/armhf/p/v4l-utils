@@ -1,0 +1,19 @@
+name	v4l-utils
+version	1.32.0-r1
+description	Userspace tools and conversion library for Video 4 Linux
+url	https://linuxtv.org/
+license	LGPL-2.0-or-later
+size	1099296
+installed-size	2671772
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libjson-c.so.5 so:libstdc++.so.6 so:libudev.so.1 so:libv4l2.so.0 so:libv4l2rds.so.0
+origin	v4l-utils
+repo	community
+file	v4l-utils-1.32.0-r1.apk
+checksum	Q1XYMV2vJX1b2tRXqH65W+c7Kt/Ms=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjson-c.so.5	json-c
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libudev.so.1	eudev-libs
+dep	so:libv4l2.so.0	v4l-utils-libs
+dep	so:libv4l2rds.so.0	v4l-utils-libs

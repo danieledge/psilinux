@@ -1,0 +1,20 @@
+name	weston-backend-rdp
+version	14.0.2-r5
+description	Weston backend: rdp
+url	https://wayland.freedesktop.org/
+license	MIT
+size	29902
+installed-size	62748
+depends	so:libc.musl-armhf.so.1 so:libfreerdp-server3.so.3 so:libfreerdp3.so.3 so:libpixman-1.so.0 so:libwayland-server.so.0 so:libweston-14.so.0 so:libwinpr3.so.3 so:libxkbcommon.so.0
+origin	weston
+repo	community
+file	weston-backend-rdp-14.0.2-r5.apk
+checksum	Q1Oes6jiHyFUUJ+MfYBnlsUCVOSj8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreerdp-server3.so.3	freerdp-libs
+dep	so:libfreerdp3.so.3	freerdp-libs
+dep	so:libpixman-1.so.0	pixman
+dep	so:libwayland-server.so.0	wayland-libs-server
+dep	so:libweston-14.so.0	libweston
+dep	so:libwinpr3.so.3	freerdp-libs
+dep	so:libxkbcommon.so.0	libxkbcommon

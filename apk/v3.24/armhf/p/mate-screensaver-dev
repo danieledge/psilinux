@@ -1,0 +1,13 @@
+name	mate-screensaver-dev
+version	1.28.0-r0
+description	Screen saver and locker for MATE (development files)
+url	https://github.com/mate-desktop/mate-screensaver
+license	GPL-2.0-or-later
+size	1805
+installed-size	402
+depends	pkgconfig
+origin	mate-screensaver
+repo	community
+file	mate-screensaver-dev-1.28.0-r0.apk
+checksum	Q1d5uhZsIpH5GHCR2aCCgkI5CZNyM=
+dep	pkgconfig	pkgconf

@@ -1,0 +1,18 @@
+name	adwaita-qt6
+version	1.4.2-r2
+description	style to bend Qt applications to look like they belong into GNOME Shell (qt6 plugin)
+url	https://github.com/FedoraQt/adwaita-qt
+license	GPL-2.0-only AND LGPL-2.1-only
+size	231954
+installed-size	633584
+depends	so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	adwaita-qt
+repo	community
+file	adwaita-qt6-1.4.2-r2.apk
+checksum	Q13BhonfbAYTektVwyUEIkCN8135s=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

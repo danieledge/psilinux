@@ -1,0 +1,16 @@
+name	monolith
+version	2.10.1-r0
+description	CLI tool for saving complete web pages as a single HTML file
+url	https://github.com/Y2Z/monolith
+license	CC0-1.0
+size	1520441
+installed-size	3065420
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
+origin	monolith
+repo	community
+file	monolith-2.10.1-r0.apk
+checksum	Q1KEPO1pD3xpPtrActaVx6dYJ11Gs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3

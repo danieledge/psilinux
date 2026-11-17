@@ -1,0 +1,19 @@
+name	font-manager-nemo
+version	0.9.4-r1
+description	Nemo file manager extension for font-manager
+url	https://fontmanager.github.io/
+license	GPL-3.0-or-later
+size	5327
+installed-size	9424
+depends	so:libc.musl-armhf.so.1 so:libfontmanager.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libnemo-extension.so.1
+origin	font-manager
+repo	community
+file	font-manager-nemo-0.9.4-r1.apk
+checksum	Q1RCvrYz7r1nW0hHxCzS3ZGVC7jX0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontmanager.so.0	font-manager-common
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libnemo-extension.so.1	nemo

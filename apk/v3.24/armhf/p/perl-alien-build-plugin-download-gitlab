@@ -1,0 +1,17 @@
+name	perl-alien-build-plugin-download-gitlab
+version	0.01-r1
+description	Alien::Build plugin to download from GitLab
+url	https://metacpan.org/release/Alien-Build-Plugin-Download-GitLab/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	4422
+installed-size	5963
+depends	perl perl-alien-build perl-uri perl-path-tiny perl-uri
+origin	perl-alien-build-plugin-download-gitlab
+repo	community
+file	perl-alien-build-plugin-download-gitlab-0.01-r1.apk
+checksum	Q14ywU/9/fQYJXixshOkmrK62FONk=
+dep	perl	perl
+dep	perl-alien-build	perl-alien-build
+dep	perl-uri	perl-uri
+dep	perl-path-tiny	perl-path-tiny
+dep	perl-uri	perl-uri

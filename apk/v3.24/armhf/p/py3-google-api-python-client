@@ -1,0 +1,18 @@
+name	py3-google-api-python-client
+version	2.169.0-r2
+description	Google API Client Library for Python
+url	https://github.com/googleapis/google-api-python-client
+license	Apache-2.0
+size	12776349
+installed-size	85714485
+depends	py3-google-api-core py3-google-auth py3-google-auth-httplib2 py3-httplib2 py3-uritemplate python3~3.14
+origin	py3-google-api-python-client
+repo	community
+file	py3-google-api-python-client-2.169.0-r2.apk
+checksum	Q1IT4zjIRBWPtjR4PwahG9ARRZjos=
+dep	py3-google-api-core	py3-google-api-core
+dep	py3-google-auth	py3-google-auth
+dep	py3-google-auth-httplib2	py3-google-auth-httplib2
+dep	py3-httplib2	py3-httplib2
+dep	py3-uritemplate	py3-uritemplate
+dep	python3~3.14	python3

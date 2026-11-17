@@ -1,0 +1,13 @@
+name	py3-nats-pyc
+version	2.12.0-r0
+description	Precompiled Python bytecode for py3-nats
+url	https://github.com/nats-io/nats.py
+license	Apache-2.0
+size	166329
+installed-size	442895
+depends	python3~3.14
+origin	py3-nats
+repo	community
+file	py3-nats-pyc-2.12.0-r0.apk
+checksum	Q1aL1PnR/zZT7OKTVEL7FAlyTJ1tk=
+dep	python3~3.14	python3

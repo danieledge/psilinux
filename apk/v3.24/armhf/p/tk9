@@ -1,0 +1,18 @@
+name	tk9
+version	9.0.3-r2
+description	GUI toolkit for the Tcl scripting language, version 9
+url	https://www.tcl-lang.org/
+license	TCL
+size	847838
+installed-size	2157047
+depends	tcl9=9.0.3-r2 so:libX11.so.6 so:libXft.so.2 so:libc.musl-armhf.so.1 so:libfontconfig.so.1 so:libtcl9.0.so
+origin	tcl9
+repo	main
+file	tk9-9.0.3-r2.apk
+checksum	Q1P0V35V/Ycl0KiLgDrPcyXs3bF5Y=
+dep	tcl9=9.0.3-r2	tcl9
+dep	so:libX11.so.6	libx11
+dep	so:libXft.so.2	libxft
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libtcl9.0.so	tcl9

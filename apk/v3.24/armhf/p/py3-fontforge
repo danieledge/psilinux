@@ -1,0 +1,14 @@
+name	py3-fontforge
+version	20251009-r1
+description	Python 3 bindings for fontforge
+url	https://fontforge.org/
+license	GPL-3.0-or-later
+size	3867
+installed-size	11090
+depends	python3~3.14 so:libfontforge.so.4
+origin	fontforge
+repo	community
+file	py3-fontforge-20251009-r1.apk
+checksum	Q1PqQKo06x3tglO7doogXmtCh4INY=
+dep	python3~3.14	python3
+dep	so:libfontforge.so.4	fontforge-libs

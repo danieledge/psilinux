@@ -1,0 +1,14 @@
+name	fuse-dev
+version	2.9.9-r7
+description	A library that makes it possible to implement a filesystem in a userspace program. (development files)
+url	https://github.com/libfuse/libfuse/
+license	GPL-2.0-only AND LGPL-2.1-only
+size	31998
+installed-size	127338
+depends	fuse=2.9.9-r7 pkgconfig
+origin	fuse
+repo	community
+file	fuse-dev-2.9.9-r7.apk
+checksum	Q1arzOCCQBWR78cAYAMu7hrYnMmYs=
+dep	fuse=2.9.9-r7	fuse
+dep	pkgconfig	pkgconf

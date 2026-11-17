@@ -1,0 +1,17 @@
+name	libquotient-dev
+version	0.9.6.1-r2
+description	Qt library for cross-platform clients for Matrix (development files)
+url	https://github.com/quotient-im/libQuotient
+license	LGPL-2.1-or-later
+size	194989
+installed-size	796387
+depends	olm-dev qt6-qtbase-dev qtkeychain-dev libquotient=0.9.6.1-r2 pkgconfig
+origin	libquotient
+repo	community
+file	libquotient-dev-0.9.6.1-r2.apk
+checksum	Q1Uy6gkPK/JyF9aooeqVRRhDGDsqs=
+dep	olm-dev	olm-dev
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	qtkeychain-dev	qtkeychain-dev
+dep	libquotient=0.9.6.1-r2	libquotient
+dep	pkgconfig	pkgconf

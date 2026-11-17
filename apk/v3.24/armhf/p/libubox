@@ -1,0 +1,13 @@
+name	libubox
+version	2026.02.13-r0
+description	OpenWrt utility and data structures library
+url	https://git.openwrt.org/project/ustream-ssl.git
+license	ISC
+size	29666
+installed-size	58652
+depends	so:libc.musl-armhf.so.1
+origin	libubox
+repo	community
+file	libubox-2026.02.13-r0.apk
+checksum	Q1bhkqgEUKl366VtI3ppNwKTFPUr8=
+dep	so:libc.musl-armhf.so.1	musl

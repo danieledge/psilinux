@@ -1,0 +1,19 @@
+name	feh
+version	3.12.2-r0
+description	Fast, lightweight image viewer which uses imlib2
+url	https://feh.finalrewind.org
+license	MIT-feh
+size	113471
+installed-size	220989
+depends	so:libImlib2.so.1 so:libX11.so.6 so:libXinerama.so.1 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libmagic.so.1 so:libpng16.so.16
+origin	feh
+repo	community
+file	feh-3.12.2-r0.apk
+checksum	Q1LuHEQ9F7gwb5niiVwAKXc+2RnwM=
+dep	so:libImlib2.so.1	imlib2
+dep	so:libX11.so.6	libx11
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libmagic.so.1	libmagic
+dep	so:libpng16.so.16	libpng

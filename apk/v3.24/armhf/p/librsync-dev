@@ -1,0 +1,13 @@
+name	librsync-dev
+version	2.3.4-r1
+description	librsync implements the rolling-checksum algorithm of rsync (development files)
+url	https://github.com/librsync/librsync
+license	LGPL-2.1-or-later
+size	9383
+installed-size	24213
+depends	librsync=2.3.4-r1
+origin	librsync
+repo	main
+file	librsync-dev-2.3.4-r1.apk
+checksum	Q1x0KIsYVW+85HHTu7u1P82LkFrME=
+dep	librsync=2.3.4-r1	librsync

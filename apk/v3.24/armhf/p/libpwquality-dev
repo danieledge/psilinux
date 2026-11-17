@@ -1,0 +1,14 @@
+name	libpwquality-dev
+version	1.4.5-r6
+description	Password quality checking library (development files)
+url	https://github.com/libpwquality/libpwquality
+license	BSD-3-Clause
+size	4658
+installed-size	7675
+depends	libpwquality=1.4.5-r6 pkgconfig
+origin	libpwquality
+repo	community
+file	libpwquality-dev-1.4.5-r6.apk
+checksum	Q1y2HFdgIw3m3y+VE7uVpsPNhx6Fo=
+dep	libpwquality=1.4.5-r6	libpwquality
+dep	pkgconfig	pkgconf

@@ -1,0 +1,19 @@
+name	mapplauncherd
+version	4.2.16-r1
+description	A daemon that helps to launch applications faster
+url	https://github.com/sailfishos/mapplauncherd
+license	LGPL-2.1-only
+size	72874
+installed-size	165720
+depends	so:libc.musl-armhf.so.1 so:libcap.so.2 so:libdbus-1.so.3 so:libelogind.so.0 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libstdc++.so.6
+origin	mapplauncherd
+repo	community
+file	mapplauncherd-4.2.16-r1.apk
+checksum	Q1bo2Lw0Rq3u1khCvAgBVPbQ1VSaw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libelogind.so.0	libelogind
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libstdc++.so.6	libstdc++

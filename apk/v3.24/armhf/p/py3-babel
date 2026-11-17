@@ -1,0 +1,15 @@
+name	py3-babel
+version	2.18.0-r1
+description	Python3 i18n tool
+url	https://babel.pocoo.org/
+license	BSD-3-Clause
+size	9849923
+installed-size	30909593
+depends	py3-tz py3-setuptools python3~3.14
+origin	py3-babel
+repo	main
+file	py3-babel-2.18.0-r1.apk
+checksum	Q1IwTKaPHounU1vuQLhsBDMMKcCUE=
+dep	py3-tz	py3-tz
+dep	py3-setuptools	py3-setuptools
+dep	python3~3.14	python3

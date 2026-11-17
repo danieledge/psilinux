@@ -1,0 +1,15 @@
+name	axel
+version	2.17.14-r2
+description	A multiple-connection concurrent downloader
+url	https://github.com/axel-download-accelerator/axel
+license	GPL-2.0-or-later WITH OpenSSL-Exception
+size	28570
+installed-size	50856
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	axel
+repo	main
+file	axel-2.17.14-r2.apk
+checksum	Q1vB62SJPBBwsAyLj1uYFaHsHUKnI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

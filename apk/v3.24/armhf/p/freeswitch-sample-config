@@ -1,0 +1,13 @@
+name	freeswitch-sample-config
+version	1.10.12-r6
+description	Freeswitch sample configuration
+url	https://www.freeswitch.org/
+license	MPL-1.1
+size	130753
+installed-size	749512
+depends	freeswitch-timezones
+origin	freeswitch
+repo	main
+file	freeswitch-sample-config-1.10.12-r6.apk
+checksum	Q1j9cYwm1TxINmRjg0SXAaeVskszk=
+dep	freeswitch-timezones	freeswitch-timezones

@@ -1,0 +1,22 @@
+name	perl-net-appliance-session
+version	4.300005-r5
+description	Run command-line sessions to network appliances
+url	https://metacpan.org/release/Net-Appliance-Session/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	15229
+installed-size	42187
+depends	perl perl-net-cli-interact perl-file-sharedir perl-text-glob perl-term-readpassword perl-io-prompt-tiny perl-moo perl-moox-types-mooselike perl-sub-quote perl-try-tiny
+origin	perl-net-appliance-session
+repo	community
+file	perl-net-appliance-session-4.300005-r5.apk
+checksum	Q1Mh1EcMI1K9baYluo6157zZ5Mr1o=
+dep	perl	perl
+dep	perl-net-cli-interact	perl-net-cli-interact
+dep	perl-file-sharedir	perl-file-sharedir
+dep	perl-text-glob	perl-text-glob
+dep	perl-term-readpassword	perl-term-readpassword
+dep	perl-io-prompt-tiny	perl-io-prompt-tiny
+dep	perl-moo	perl-moo
+dep	perl-moox-types-mooselike	perl-moox-types-mooselike
+dep	perl-sub-quote	perl-sub-quote
+dep	perl-try-tiny	perl-try-tiny

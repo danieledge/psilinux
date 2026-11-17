@@ -1,0 +1,18 @@
+name	swatch
+version	3.2.4-r10
+description	Logfile monitoring tool
+url	https://sourceforge.net/projects/swatch/
+license	GPL-2.0-only
+size	21494
+installed-size	60116
+depends	perl perl-date-calc perl-timedate perl-date-manip perl-file-tail perl-carp-clan
+origin	swatch
+repo	community
+file	swatch-3.2.4-r10.apk
+checksum	Q1oUUg+HIFactaxHJpNpLhgQjFJFs=
+dep	perl	perl
+dep	perl-date-calc	perl-date-calc
+dep	perl-timedate	perl-timedate
+dep	perl-date-manip	perl-date-manip
+dep	perl-file-tail	perl-file-tail
+dep	perl-carp-clan	perl-carp-clan

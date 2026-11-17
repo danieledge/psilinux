@@ -1,0 +1,17 @@
+name	gdal-driver-webp
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (WEBP driver)
+url	https://gdal.org/
+license	MIT
+size	18210
+installed-size	42368
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libstdc++.so.6 so:libwebp.so.7
+origin	gdal
+repo	community
+file	gdal-driver-webp-3.13.3-r0.apk
+checksum	Q1aSkyqLf+B+5JJ+IE9hxQUW9G+oQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwebp.so.7	libwebp

@@ -1,0 +1,14 @@
+name	rpm-scripts
+version	4.19.1.1-r5
+description	Bash and Perl helper scripts for RPM
+url	https://rpm.org/
+license	GPL-2.0-or-later
+size	16989
+installed-size	47068
+depends	bash perl
+origin	rpm
+repo	community
+file	rpm-scripts-4.19.1.1-r5.apk
+checksum	Q1ZcESWxA25+HftkIhh56jgIh426w=
+dep	bash	bash
+dep	perl	perl

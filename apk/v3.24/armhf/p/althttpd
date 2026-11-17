@@ -1,0 +1,15 @@
+name	althttpd
+version	202601091240-r0
+description	Small, simple, stand-alone HTTP server
+url	https://sqlite.org/althttpd/doc/trunk/althttpd.md
+license	Public-Domain
+size	40961
+installed-size	99816
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	althttpd
+repo	community
+file	althttpd-202601091240-r0.apk
+checksum	Q1k8Q2qCrpOQ1dTItu1gf6qp2y2s4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

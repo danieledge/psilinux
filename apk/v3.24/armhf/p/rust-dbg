@@ -1,0 +1,12 @@
+name	rust-dbg
+version	1.96.1-r0
+description	Rust Programming Language toolchain (debug symbols)
+url	https://www.rust-lang.org/
+license	Apache-2.0 OR MIT
+size	20685470
+installed-size	94437104
+depends	!cargo<1.96.1-r0 !cargo>1.96.1-r0 !rust-clippy<1.96.1-r0 !rust-clippy>1.96.1-r0 !rust<1.96.1-r0 !rust>1.96.1-r0 !rustfmt<1.96.1-r0 !rustfmt>1.96.1-r0
+origin	rust
+repo	main
+file	rust-dbg-1.96.1-r0.apk
+checksum	Q1XKlb95HPQGTwjWbi/iK6ncekPg4=

@@ -1,0 +1,12 @@
+name	lua5.1-dbg
+version	5.1.5-r13
+description	A powerful light-weight programming language designed for extending applications. (debug symbols)
+url	https://www.lua.org/
+license	MIT
+size	415750
+installed-size	922924
+depends	!lua5.1<5.1.5-r13 !lua5.1>5.1.5-r13
+origin	lua5.1
+repo	main
+file	lua5.1-dbg-5.1.5-r13.apk
+checksum	Q1gdBLk77laPga3IeUwwsl0U5azro=

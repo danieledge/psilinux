@@ -1,0 +1,26 @@
+name	rxvt-unicode
+version	9.31-r9
+description	rxvt fork with improved unicode support
+url	http://software.schmorp.de/pkg/rxvt-unicode.html
+license	GPL-3.0-or-later
+size	1173812
+installed-size	2808157
+depends	rxvt-unicode-terminfo so:libX11.so.6 so:libXext.so.6 so:libXft.so.2 so:libXrender.so.1 so:libc.musl-armhf.so.1 so:libfontconfig.so.1 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libperl.so so:libptytty.so.0 so:libstartup-notification-1.so.0
+origin	rxvt-unicode
+repo	community
+file	rxvt-unicode-9.31-r9.apk
+checksum	Q1HnB498vR+Jv8kJxx2BY9/ycPIv8=
+dep	rxvt-unicode-terminfo	rxvt-unicode-terminfo
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXft.so.2	libxft
+dep	so:libXrender.so.1	libxrender
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libperl.so	perl
+dep	so:libptytty.so.0	libptytty
+dep	so:libstartup-notification-1.so.0	startup-notification

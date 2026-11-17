@@ -1,0 +1,13 @@
+name	pcmciautils-udev
+version	018-r6
+description	Utilities for inserting and removing PCMCIA cards (udev rules)
+url	http://kernel.org/pub/linux/utils/kernel/pcmcia/pcmcia.html
+license	GPL-2.0-only
+size	13967
+installed-size	28020
+depends	so:libc.musl-armhf.so.1
+origin	pcmciautils
+repo	main
+file	pcmciautils-udev-018-r6.apk
+checksum	Q162mWxMXPWXcTokicPYXsvH07REQ=
+dep	so:libc.musl-armhf.so.1	musl

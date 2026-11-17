@@ -1,0 +1,13 @@
+name	commons-daemon
+version	1.4.1-r1
+description	Tools to allow Java programs to run as UNIX daemons
+url	https://commons.apache.org/daemon/
+license	Apache-2.0
+size	24499
+installed-size	25866
+depends	java-jre-headless
+origin	commons-daemon
+repo	community
+file	commons-daemon-1.4.1-r1.apk
+checksum	Q1Ty3vcwRoFKbkODLbUsIG8N98ebY=
+dep	java-jre-headless	openjdk8-jre-base

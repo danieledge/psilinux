@@ -1,0 +1,15 @@
+name	libxfce4util-dev
+version	4.20.1-r0
+description	Basic utility non-GUI functions for Xfce (development files)
+url	https://xfce.org/
+license	GPL-2.0-only
+size	29494
+installed-size	206316
+depends	libxfce4util=4.20.1-r0 pc:glib-2.0 pkgconfig
+origin	libxfce4util
+repo	community
+file	libxfce4util-dev-4.20.1-r0.apk
+checksum	Q1H5r8Qy9/GK76w67yVRURW9nXzAY=
+dep	libxfce4util=4.20.1-r0	libxfce4util
+dep	pc:glib-2.0	glib-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,16 @@
+name	kamailio-http_async
+version	6.0.6-r0
+description	Kamailio Asynchronous HTTP queries support
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	85102
+installed-size	182372
+depends	kamailio so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libevent-2.1.so.7
+origin	kamailio
+repo	main
+file	kamailio-http_async-6.0.6-r0.apk
+checksum	Q1ZtvAOHH4vPUmgWUl3aaWYLPnDSs=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libevent-2.1.so.7	libevent

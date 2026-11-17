@@ -1,0 +1,13 @@
+name	volume_key-dev
+version	0.3.12-r9
+description	Library for manipulating storage volume encryption keys (development files)
+url	https://pagure.io/volume_key
+license	GPL-2.0-or-later
+size	5761
+installed-size	14890
+depends	volume_key=0.3.12-r9
+origin	volume_key
+repo	community
+file	volume_key-dev-0.3.12-r9.apk
+checksum	Q1LvjifMCkG3Wxwtzx0/P0kq7Gz0E=
+dep	volume_key=0.3.12-r9	volume_key

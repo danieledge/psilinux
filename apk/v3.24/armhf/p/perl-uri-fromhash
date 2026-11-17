@@ -1,0 +1,15 @@
+name	perl-uri-fromhash
+version	0.05-r3
+description	Build a URI from a set of named parameters
+url	https://metacpan.org/release/URI-FromHash/
+license	Artistic-2.0
+size	4309
+installed-size	5795
+depends	perl perl-params-validate perl-uri
+origin	perl-uri-fromhash
+repo	community
+file	perl-uri-fromhash-0.05-r3.apk
+checksum	Q1zIfexb0cU4tm4P92gQozGk5cm4M=
+dep	perl	perl
+dep	perl-params-validate	perl-params-validate
+dep	perl-uri	perl-uri

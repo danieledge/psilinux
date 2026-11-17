@@ -1,0 +1,14 @@
+name	font-wqy-zenhei
+version	0.9.46-r0
+description	Hei-Ti style (sans-serif) Chinese outline font
+url	http://wenq.org/wqy2/index.cgi?ZenHei
+license	GPL-2.0-only
+size	9241577
+installed-size	17085888
+depends	fontconfig mkfontscale
+origin	font-wqy-zenhei
+repo	community
+file	font-wqy-zenhei-0.9.46-r0.apk
+checksum	Q115Go42bOZPotL/zHTWRCOEb1vps=
+dep	fontconfig	fontconfig
+dep	mkfontscale	mkfontscale

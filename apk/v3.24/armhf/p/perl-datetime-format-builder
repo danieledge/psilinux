@@ -1,0 +1,15 @@
+name	perl-datetime-format-builder
+version	0.83-r2
+description	Create DateTime parser classes and objects.
+url	https://metacpan.org/release/DateTime-Format-Builder/
+license	Artistic-2.0
+size	23423
+installed-size	74996
+depends	perl perl-datetime-format-strptime perl-params-validate
+origin	perl-datetime-format-builder
+repo	community
+file	perl-datetime-format-builder-0.83-r2.apk
+checksum	Q1Ot0NNnCpl0/lzBNk+c++K4r7iWY=
+dep	perl	perl
+dep	perl-datetime-format-strptime	perl-datetime-format-strptime
+dep	perl-params-validate	perl-params-validate

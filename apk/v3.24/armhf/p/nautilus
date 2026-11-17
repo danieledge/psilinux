@@ -1,0 +1,43 @@
+name	nautilus
+version	50.1-r0
+description	GNOME file manager
+url	https://apps.gnome.org/Nautilus
+license	GPL-2.0-or-later
+size	525639
+installed-size	1352020
+depends	desktop-file-utils gsettings-desktop-schemas localsearch so:libX11.so.6 so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcloudproviders.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgexiv2-0.16.so.4 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libglycin-2.so.0 so:libglycin-gtk4-2.so.0 so:libgmodule-2.0.so.0 so:libgnome-autoar-0.so.0 so:libgnome-desktop-4.so.2 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgtk-4.so.1 so:libicui18n.so.78 so:libicuuc.so.78 so:libintl.so.8 so:libpango-1.0.so.0 so:libportal-gtk4.so.1 so:libportal.so.1 so:libselinux.so.1 so:libtinysparql-3.0.so.0 so:libwayland-client.so.0
+origin	nautilus
+repo	community
+file	nautilus-50.1-r0.apk
+checksum	Q1ltbEan4ZLVRKA+sIzCsZkTlBfdE=
+dep	desktop-file-utils	desktop-file-utils
+dep	gsettings-desktop-schemas	gsettings-desktop-schemas
+dep	localsearch	localsearch
+dep	so:libX11.so.6	libx11
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcloudproviders.so.0	libcloudproviders
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgexiv2-0.16.so.4	gexiv2-0.16
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libglycin-2.so.0	libglycin
+dep	so:libglycin-gtk4-2.so.0	libglycin-gtk4
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgnome-autoar-0.so.0	gnome-autoar
+dep	so:libgnome-desktop-4.so.2	libgnome-desktop-4
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgstpbutils-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libportal-gtk4.so.1	libportal-gtk4
+dep	so:libportal.so.1	libportal
+dep	so:libselinux.so.1	libselinux
+dep	so:libtinysparql-3.0.so.0	libtinysparql
+dep	so:libwayland-client.so.0	wayland-libs-client

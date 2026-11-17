@@ -1,0 +1,16 @@
+name	libxml++-2.6-dev
+version	2.42.2-r3
+description	libxml++ is a C++ wrapper for the libxml XML parser library. (development files)
+url	https://libxmlplusplus.github.io/libxmlplusplus/
+license	LGPL-2.1-only
+size	29583
+installed-size	142290
+depends	libxml++-2.6=2.42.2-r3 pc:glibmm-2.4>=2.32.0 pc:libxml-2.0>=2.7.7 pkgconfig
+origin	libxml++-2.6
+repo	community
+file	libxml++-2.6-dev-2.42.2-r3.apk
+checksum	Q1w7tMnGurshMKVb+5yRjrhEEBpd4=
+dep	libxml++-2.6=2.42.2-r3	libxml++-2.6
+dep	pc:glibmm-2.4>=2.32.0	glibmm2.66-dev
+dep	pc:libxml-2.0>=2.7.7	libxml2-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	ruby-rdiscount
+version	2.2.7.3-r1
+description	Fast Implementation of Gruber's Markdown in C
+url	https://dafoster.net/projects/rdiscount/
+license	BSD-3-Clause
+size	45838
+installed-size	90151
+depends	so:libc.musl-armhf.so.1 so:libruby.so.3.4
+origin	ruby-rdiscount
+repo	community
+file	ruby-rdiscount-2.2.7.3-r1.apk
+checksum	Q1DOCEPQjq/snbT76QDaZ1UOCjQB0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libruby.so.3.4	ruby-libs

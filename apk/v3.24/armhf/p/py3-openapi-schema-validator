@@ -1,0 +1,16 @@
+name	py3-openapi-schema-validator
+version	0.9.0-r0
+description	OpenApi schema validation for OpenApi versions v2, v3.0.x and v3.1.x
+url	https://github.com/python-openapi/openapi-schema-validator
+license	Apache-2.0
+size	17891
+installed-size	57651
+depends	py3-jsonschema py3-jsonschema-specifications py3-rfc3339-validator python3~3.14
+origin	py3-openapi-schema-validator
+repo	community
+file	py3-openapi-schema-validator-0.9.0-r0.apk
+checksum	Q1VlVBzUUwrDW+VDM9NcWjQ7HXYTY=
+dep	py3-jsonschema	py3-jsonschema
+dep	py3-jsonschema-specifications	py3-jsonschema-specifications
+dep	py3-rfc3339-validator	py3-rfc3339-validator
+dep	python3~3.14	python3

@@ -1,0 +1,16 @@
+name	perl-apparmor
+version	4.1.7-r1
+description	Perl module for apparmor
+url	https://gitlab.com/apparmor/apparmor/wikis/home
+license	GPL-2.0-or-later
+size	35476
+installed-size	131844
+depends	libapparmor=4.1.7-r1 perl so:libapparmor.so.1 so:libc.musl-armhf.so.1
+origin	apparmor
+repo	main
+file	perl-apparmor-4.1.7-r1.apk
+checksum	Q1cEH67Q+3SpMunVArLyl57NRUl5c=
+dep	libapparmor=4.1.7-r1	libapparmor
+dep	perl	perl
+dep	so:libapparmor.so.1	libapparmor
+dep	so:libc.musl-armhf.so.1	musl

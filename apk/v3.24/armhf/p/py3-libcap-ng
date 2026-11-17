@@ -1,0 +1,15 @@
+name	py3-libcap-ng
+version	0.8.5-r2
+description	python bindings for libcap-ng
+url	https://people.redhat.com/sgrubb/libcap-ng/index.html
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	21477
+installed-size	65099
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libcap-ng.so.0
+origin	libcap-ng
+repo	main
+file	py3-libcap-ng-0.8.5-r2.apk
+checksum	Q1XzKaSYFJNTplBWgNL4jQAVvxNkA=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap-ng.so.0	libcap-ng

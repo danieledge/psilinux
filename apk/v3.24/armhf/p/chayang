@@ -1,0 +1,14 @@
+name	chayang
+version	0.1.0-r0
+description	Gradually dim the screen on Wayland
+url	https://git.sr.ht/~emersion/chayang
+license	MIT
+size	8407
+installed-size	17820
+depends	so:libc.musl-armhf.so.1 so:libwayland-client.so.0
+origin	chayang
+repo	community
+file	chayang-0.1.0-r0.apk
+checksum	Q1XISwNgjzIfak/bsf26L6nic7QvQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libwayland-client.so.0	wayland-libs-client

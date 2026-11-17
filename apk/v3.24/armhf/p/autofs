@@ -1,0 +1,14 @@
+name	autofs
+version	5.1.9-r0
+description	A kernel-based automounter for Linux
+url	https://www.kernel.org/pub/linux/daemons/autofs/
+license	GPL-2.0-or-later
+size	229626
+installed-size	540586
+depends	so:libc.musl-armhf.so.1 so:libtirpc.so.3
+origin	autofs
+repo	community
+file	autofs-5.1.9-r0.apk
+checksum	Q1J5Gqd8DAoHWoto5+eEzDPVvKMS8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libtirpc.so.3	libtirpc

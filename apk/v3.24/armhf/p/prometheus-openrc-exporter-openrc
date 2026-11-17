@@ -1,0 +1,12 @@
+name	prometheus-openrc-exporter-openrc
+version	0.0.2-r37
+description	Prometheus exporter which exposes metrics on services managed by OpenRC (OpenRC init scripts)
+url	https://git.sr.ht/~tomleb/openrc-exporter
+license	AGPL-3.0-only
+size	1934
+installed-size	571
+depends	
+origin	prometheus-openrc-exporter
+repo	community
+file	prometheus-openrc-exporter-openrc-0.0.2-r37.apk
+checksum	Q13CXjUcxP3bBOeGotCItNmWEIG7Y=

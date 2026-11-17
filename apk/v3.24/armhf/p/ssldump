@@ -1,0 +1,18 @@
+name	ssldump
+version	1.9-r1
+description	SSLv3/TLS network protocol analyzer
+url	https://github.com/adulau/ssldump
+license	BSD-4-Clause
+size	55259
+installed-size	129736
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libjson-c.so.5 so:libnet.so.9 so:libpcap.so.1 so:libssl.so.3
+origin	ssldump
+repo	community
+file	ssldump-1.9-r1.apk
+checksum	Q1hI1UN/TVf5kwcXzQQhzIDLL6JZs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libjson-c.so.5	json-c
+dep	so:libnet.so.9	libnet
+dep	so:libpcap.so.1	libpcap
+dep	so:libssl.so.3	libssl3

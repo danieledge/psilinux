@@ -1,0 +1,12 @@
+name	x264-dbg
+version	0.164.3108-r1
+description	Free library for encoding H264/AVC video streams (debug symbols)
+url	https://www.videolan.org/developers/x264.html
+license	GPL-2.0-or-later
+size	5654905
+installed-size	15126228
+depends	!x264-libs<0.164.3108-r1 !x264-libs>0.164.3108-r1 !x264<0.164.3108-r1 !x264>0.164.3108-r1
+origin	x264
+repo	community
+file	x264-dbg-0.164.3108-r1.apk
+checksum	Q1fSByULkVsuPxZEMqvLQUnrfoMaA=

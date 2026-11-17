@@ -1,0 +1,15 @@
+name	skribilo
+version	0.10.0-r1
+description	A free document production tool for structured documents
+url	https://www.nongnu.org/skribilo
+license	GPL-3.0-or-later
+size	1893572
+installed-size	9112008
+depends	guile guile-reader imagemagick
+origin	skribilo
+repo	community
+file	skribilo-0.10.0-r1.apk
+checksum	Q1lpqaxbEQVabyJWE79XxUU0Znd80=
+dep	guile	guile
+dep	guile-reader	guile-reader
+dep	imagemagick	imagemagick

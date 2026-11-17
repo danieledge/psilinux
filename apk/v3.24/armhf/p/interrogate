@@ -1,0 +1,20 @@
+name	interrogate
+version	1.7.0-r1
+description	Interrogate a codebase for docstring coverage
+url	https://github.com/econchick/interrogate
+license	MIT
+size	33852
+installed-size	159445
+depends	py3-attrs py3-click py3-colorama py3-py py3-setuptools py3-tabulate py3-toml python3~3.14
+origin	interrogate
+repo	community
+file	interrogate-1.7.0-r1.apk
+checksum	Q1GsFPPjf/fyt+jFFTFMT8btAwQlQ=
+dep	py3-attrs	py3-attrs
+dep	py3-click	py3-click
+dep	py3-colorama	py3-colorama
+dep	py3-py	py3-py
+dep	py3-setuptools	py3-setuptools
+dep	py3-tabulate	py3-tabulate
+dep	py3-toml	py3-toml
+dep	python3~3.14	python3

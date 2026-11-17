@@ -1,0 +1,13 @@
+name	salt-lts-pyc
+version	3006.23-r1
+description	Precompiled Python bytecode for salt-lts
+url	https://github.com/saltstack/salt
+license	Apache-2.0
+size	10810410
+installed-size	30180647
+depends	python3~3.14
+origin	salt-lts
+repo	community
+file	salt-lts-pyc-3006.23-r1.apk
+checksum	Q16ZC187rrK9i21OGEmctPQ0w0T5Q=
+dep	python3~3.14	python3

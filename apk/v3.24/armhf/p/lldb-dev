@@ -1,0 +1,14 @@
+name	lldb-dev
+version	22.1.3-r0
+description	Next generation, high-performance debugger (development files)
+url	https://llvm.org/
+license	Apache-2.0
+size	909357
+installed-size	3991823
+depends	lldb=22.1.3-r0 lldb=22.1.3-r0
+origin	lldb
+repo	main
+file	lldb-dev-22.1.3-r0.apk
+checksum	Q1K+GYQ2nThLKiUsAJePZ2Mpvh80c=
+dep	lldb=22.1.3-r0	lldb
+dep	lldb=22.1.3-r0	lldb

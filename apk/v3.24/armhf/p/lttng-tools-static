@@ -1,0 +1,13 @@
+name	lttng-tools-static
+version	2.14.0-r1
+description	LTTng 2.0 control and utility programs (static library)
+url	https://lttng.org
+license	GPL-2.0-only AND LGPL-2.1-only
+size	593325
+installed-size	1986180
+depends	lttng-tools-dev
+origin	lttng-tools
+repo	community
+file	lttng-tools-static-2.14.0-r1.apk
+checksum	Q1YNO4z1+dYwdxcWA5UKnRiwzh1lU=
+dep	lttng-tools-dev	lttng-tools-dev

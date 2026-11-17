@@ -1,0 +1,19 @@
+name	exiv2-libs
+version	0.28.9-r0
+description	Exif and Iptc metadata manipulation library and tools. (libraries)
+url	https://exiv2.org/
+license	GPL-2.0-or-later
+size	816865
+installed-size	2344968
+depends	so:libINIReader.so.0 so:libbrotlidec.so.1 so:libc.musl-armhf.so.1 so:libexpat.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1
+origin	exiv2
+repo	community
+file	exiv2-libs-0.28.9-r0.apk
+checksum	Q1jfEI5x1teKguukzuLTuW/tU/AFY=
+dep	so:libINIReader.so.0	inih-inireader
+dep	so:libbrotlidec.so.1	brotli-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexpat.so.1	libexpat
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

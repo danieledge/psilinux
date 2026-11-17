@@ -1,0 +1,15 @@
+name	libmms-dev
+version	0.6.4-r2
+description	MMS stream protocol library (development files)
+url	https://sourceforge.net/projects/libmms/
+license	LGPL-2.0-or-later
+size	5412
+installed-size	11770
+depends	libmms=0.6.4-r2 pc:glib-2.0 pkgconfig
+origin	libmms
+repo	community
+file	libmms-dev-0.6.4-r2.apk
+checksum	Q1h+FCIm2x8uxXTbLA//hMrxXrI6g=
+dep	libmms=0.6.4-r2	libmms
+dep	pc:glib-2.0	glib-dev
+dep	pkgconfig	pkgconf

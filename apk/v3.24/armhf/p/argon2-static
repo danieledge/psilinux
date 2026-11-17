@@ -1,0 +1,13 @@
+name	argon2-static
+version	20190702-r5
+description	The password hash Argon2, winner of PHC (static library)
+url	https://github.com/P-H-C/phc-winner-argon2
+license	Apache-2.0 OR CC0-1.0
+size	105908
+installed-size	248428
+depends	argon2-dev
+origin	argon2
+repo	main
+file	argon2-static-20190702-r5.apk
+checksum	Q1C82A5SvJAvEYgp7DhBWU3OXE/sQ=
+dep	argon2-dev	argon2-dev

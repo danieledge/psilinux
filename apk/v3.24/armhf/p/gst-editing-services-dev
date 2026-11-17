@@ -1,0 +1,21 @@
+name	gst-editing-services-dev
+version	1.28.3-r0
+description	GStreamer Editing Services Library (development files)
+url	https://gstreamer.freedesktop.org
+license	LGPL-2.0-or-later
+size	165605
+installed-size	1333711
+depends	gst-editing-services=1.28.3-r0 pc:gio-2.0>=2.64.0 pc:gstreamer-1.0>=1.28.0 pc:gstreamer-base-1.0>=1.28.0 pc:gstreamer-controller-1.0>=1.28.0 pc:gstreamer-pbutils-1.0>=1.28.0 pc:gstreamer-video-1.0>=1.28.0 pc:libxml-2.0 pkgconfig
+origin	gst-editing-services
+repo	community
+file	gst-editing-services-dev-1.28.3-r0.apk
+checksum	Q1FfZyRMBNbTw6UOvsJH3J8838y/o=
+dep	gst-editing-services=1.28.3-r0	gst-editing-services
+dep	pc:gio-2.0>=2.64.0	glib-dev
+dep	pc:gstreamer-1.0>=1.28.0	gstreamer-dev
+dep	pc:gstreamer-base-1.0>=1.28.0	gstreamer-dev
+dep	pc:gstreamer-controller-1.0>=1.28.0	gstreamer-dev
+dep	pc:gstreamer-pbutils-1.0>=1.28.0	gst-plugins-base-dev
+dep	pc:gstreamer-video-1.0>=1.28.0	gst-plugins-base-dev
+dep	pc:libxml-2.0	libxml2-dev
+dep	pkgconfig	pkgconf

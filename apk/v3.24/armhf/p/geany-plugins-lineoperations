@@ -1,0 +1,17 @@
+name	geany-plugins-lineoperations
+version	2.1-r0
+description	Assortment of simple line functions that can be applied to an open file
+url	https://plugins.geany.org/
+license	GPL-3.0-or-later
+size	8053
+installed-size	17580
+depends	so:libc.musl-armhf.so.1 so:libgeany.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0
+origin	geany-plugins
+repo	community
+file	geany-plugins-lineoperations-2.1-r0.apk
+checksum	Q1XU1CJ62aP/ReUi2f/FNMOK4Ogu4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgeany.so.0	geany
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0

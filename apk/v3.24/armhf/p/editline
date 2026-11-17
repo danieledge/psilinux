@@ -1,0 +1,13 @@
+name	editline
+version	1.17.1-r3
+description	readline() replacement for UNIX without termcap (ncurses)
+url	https://troglobit.com/projects/editline/
+license	Spencer-94
+size	15989
+installed-size	30880
+depends	so:libc.musl-armhf.so.1
+origin	editline
+repo	community
+file	editline-1.17.1-r3.apk
+checksum	Q1xF7EBd5i7JPtI4KHmRcyxEh5074=
+dep	so:libc.musl-armhf.so.1	musl

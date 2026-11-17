@@ -1,0 +1,17 @@
+name	bitcoin-cli
+version	30.2-r2
+description	Bitcoin CLI
+url	https://www.bitcoincore.org/
+license	MIT
+size	387364
+installed-size	899772
+depends	so:libc.musl-armhf.so.1 so:libevent_core-2.1.so.7 so:libevent_extra-2.1.so.7 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	bitcoin
+repo	community
+file	bitcoin-cli-30.2-r2.apk
+checksum	Q1O5PguP9ETWEZipKu2p3488RWA2o=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevent_core-2.1.so.7	libevent
+dep	so:libevent_extra-2.1.so.7	libevent
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

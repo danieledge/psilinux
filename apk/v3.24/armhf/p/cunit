@@ -1,0 +1,13 @@
+name	cunit
+version	2.1.3-r7
+description	Automated testing framework for C
+url	https://cunit.sourceforge.net/
+license	GPL-2.0-or-later
+size	91938
+installed-size	270168
+depends	so:libc.musl-armhf.so.1
+origin	cunit
+repo	main
+file	cunit-2.1.3-r7.apk
+checksum	Q1PAGE3h0+si7qm7b1dAnBMIts/BE=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,25 @@
+name	aws-crt-cpp
+version	0.40.0-r0
+description	C++ wrapper around the aws-c-* libraries. Provides Cross-Platform Transport Protocols and SSL/TLS implementations for C++
+url	https://github.com/awslabs/aws-crt-cpp
+license	Apache-2.0
+size	131521
+installed-size	398844
+depends	so:libaws-c-auth.so.1.0.0 so:libaws-c-cal.so.1.0.0 so:libaws-c-common.so.1 so:libaws-c-event-stream.so.1.0.0 so:libaws-c-http.so.1.0.0 so:libaws-c-io.so.1.0.0 so:libaws-c-mqtt.so.1.0.0 so:libaws-c-s3.so.0unstable so:libaws-c-sdkutils.so.1.0.0 so:libaws-checksums.so.1.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	aws-crt-cpp
+repo	community
+file	aws-crt-cpp-0.40.0-r0.apk
+checksum	Q1LwPFJIMfAUeMbRw17wqqos4n6B0=
+dep	so:libaws-c-auth.so.1.0.0	aws-c-auth
+dep	so:libaws-c-cal.so.1.0.0	aws-c-cal
+dep	so:libaws-c-common.so.1	aws-c-common
+dep	so:libaws-c-event-stream.so.1.0.0	aws-c-event-stream
+dep	so:libaws-c-http.so.1.0.0	aws-c-http
+dep	so:libaws-c-io.so.1.0.0	aws-c-io
+dep	so:libaws-c-mqtt.so.1.0.0	aws-c-mqtt
+dep	so:libaws-c-s3.so.0unstable	aws-c-s3
+dep	so:libaws-c-sdkutils.so.1.0.0	aws-c-sdkutils
+dep	so:libaws-checksums.so.1.0.0	aws-checksums
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

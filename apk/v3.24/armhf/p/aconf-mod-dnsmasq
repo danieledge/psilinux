@@ -1,0 +1,13 @@
+name	aconf-mod-dnsmasq
+version	0.8.1-r4
+description	Alpine Configurator
+url	https://gitlab.alpinelinux.org/kunkku/aconf/
+license	BSD-2-Clause
+size	2524
+installed-size	1612
+depends	aconf=0.8.1-r4
+origin	aconf
+repo	main
+file	aconf-mod-dnsmasq-0.8.1-r4.apk
+checksum	Q18bwBupZO5YlmNSQuzURxNHhr6nI=
+dep	aconf=0.8.1-r4	aconf

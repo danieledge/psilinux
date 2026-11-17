@@ -1,0 +1,22 @@
+name	wofi
+version	1.5.3-r0
+description	A launcher/menu program for wlroots based wayland compositors.
+url	https://hg.sr.ht/~scoopta/wofi
+license	GPL-3.0-only
+size	39462
+installed-size	84020
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libpango-1.0.so.0 so:libwayland-client.so.0
+origin	wofi
+repo	community
+file	wofi-1.5.3-r0.apk
+checksum	Q1aAv8OTddblma7j1vdkok4GudMZo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libpango-1.0.so.0	pango
+dep	so:libwayland-client.so.0	wayland-libs-client

@@ -1,0 +1,13 @@
+name	ud
+version	1.1.0-r0
+description	The UNIX day utility
+url	https://github.com/xyproto/ud
+license	BSD-3-Clause
+size	4537
+installed-size	9440
+depends	so:libc.musl-armhf.so.1
+origin	ud
+repo	community
+file	ud-1.1.0-r0.apk
+checksum	Q1NvTYiWlPz9Cgd07q8yTGbiGsfuQ=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,12 @@
+name	luajit-dbg
+version	2.1_p20251030-r0
+description	OpenResty's branch of LuaJIT (debug symbols)
+url	https://github.com/openresty/luajit2
+license	MIT
+size	2132829
+installed-size	4810548
+depends	!luajit<2.1_p20251030-r0 !luajit>2.1_p20251030-r0
+origin	luajit
+repo	main
+file	luajit-dbg-2.1_p20251030-r0.apk
+checksum	Q12uWV/Y64OmWfMGrUSt7H65d5INQ=

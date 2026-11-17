@@ -1,0 +1,15 @@
+name	sqawk
+version	0.24.0-r1
+description	AWK-like program with SQL and table joins
+url	https://github.com/dbohdan/sqawk
+license	MIT
+size	14651
+installed-size	56938
+depends	tcl tcl-lib sqlite-tcl
+origin	sqawk
+repo	community
+file	sqawk-0.24.0-r1.apk
+checksum	Q1B7GApRyaDdxiK7FzDmz7taJpNjs=
+dep	tcl	tcl
+dep	tcl-lib	tcl-lib
+dep	sqlite-tcl	sqlite-tcl

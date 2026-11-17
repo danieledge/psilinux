@@ -1,0 +1,24 @@
+name	apt-libs
+version	3.2.1-r0
+description	APT package management tool (libraries)
+url	https://salsa.debian.org/apt-team/apt
+license	GPL-2.0-or-later
+size	910445
+installed-size	2000440
+depends	so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libintl.so.8 so:liblz4.so.1 so:liblzma.so.5 so:libstdc++.so.6 so:libudev.so.1 so:libxxhash.so.0 so:libz.so.1 so:libzstd.so.1
+origin	apt
+repo	community
+file	apt-libs-3.2.1-r0.apk
+checksum	Q1AOLWEydZO/oo3W6sQr3u9D2ebUg=
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libintl.so.8	libintl
+dep	so:liblz4.so.1	lz4-libs
+dep	so:liblzma.so.5	xz-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libudev.so.1	eudev-libs
+dep	so:libxxhash.so.0	libxxhash
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

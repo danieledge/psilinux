@@ -1,0 +1,13 @@
+name	lvm2-lockd-openrc
+version	2.03.35-r2
+description	LVM2 locking daemon (OpenRC init scripts)
+url	https://sourceware.org/lvm2/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-2-Clause
+size	1722
+installed-size	196
+depends	lvm2-libs=2.03.35-r2
+origin	lvm2
+repo	main
+file	lvm2-lockd-openrc-2.03.35-r2.apk
+checksum	Q1lo9zvhf/xWwUzl5+i5zx3QiNkm4=
+dep	lvm2-libs=2.03.35-r2	lvm2-libs

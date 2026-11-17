@@ -1,0 +1,14 @@
+name	wlsunset
+version	0.4.0-r1
+description	Day/night gamma adjustments for Wayland
+url	https://git.sr.ht/~kennylevinsen/wlsunset
+license	MIT
+size	13394
+installed-size	25912
+depends	so:libc.musl-armhf.so.1 so:libwayland-client.so.0
+origin	wlsunset
+repo	community
+file	wlsunset-0.4.0-r1.apk
+checksum	Q1y/+nWeSioP/QwvNU5VS2rOGBKzI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libwayland-client.so.0	wayland-libs-client

@@ -1,0 +1,14 @@
+name	libxspf-dev
+version	1.2.1-r3
+description	Brings XSPF playlist reading and writing support to C++ application (development files)
+url	https://libspiff.sourceforge.net/
+license	BSD-3-Clause
+size	124834
+installed-size	500458
+depends	libxspf=1.2.1-r3 pkgconfig
+origin	libxspf
+repo	community
+file	libxspf-dev-1.2.1-r3.apk
+checksum	Q1uYXAnt3tEqcqnr0b45aBZwN43c8=
+dep	libxspf=1.2.1-r3	libxspf
+dep	pkgconfig	pkgconf

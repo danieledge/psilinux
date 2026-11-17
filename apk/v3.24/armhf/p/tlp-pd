@@ -1,0 +1,15 @@
+name	tlp-pd
+version	1.10.1-r0
+description	Linux Advanced Power Management (D-Bus interface)
+url	https://linrunner.de/en/tlp/tlp.html
+license	GPL-2.0-or-later
+size	17225
+installed-size	57916
+depends	tlp=1.10.1-r0 polkit py3-gobject3
+origin	tlp
+repo	community
+file	tlp-pd-1.10.1-r0.apk
+checksum	Q1VyLSHTo9egv44kBAbkZTx9Lolew=
+dep	tlp=1.10.1-r0	tlp
+dep	polkit	polkit
+dep	py3-gobject3	py3-gobject3

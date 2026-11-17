@@ -1,0 +1,17 @@
+name	aws-sdk-cpp-cloudfront-keyvaluestore
+version	1.11.700-r1
+description	Amazon Web Services SDK for C++ (cloudfront-keyvaluestore)
+url	https://github.com/aws/aws-sdk-cpp
+license	Apache-2.0
+size	45544
+installed-size	132376
+depends	so:libaws-cpp-sdk-core.so.1.11 so:libaws-crt-cpp.so so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	aws-sdk-cpp
+repo	community
+file	aws-sdk-cpp-cloudfront-keyvaluestore-1.11.700-r1.apk
+checksum	Q17Fzu/0mZDUKTFutd2wK+Dp9pd2k=
+dep	so:libaws-cpp-sdk-core.so.1.11	aws-sdk-cpp-core
+dep	so:libaws-crt-cpp.so	aws-crt-cpp
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

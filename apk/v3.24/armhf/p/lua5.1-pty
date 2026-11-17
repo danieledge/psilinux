@@ -1,0 +1,14 @@
+name	lua5.1-pty
+version	1.2.2-r3
+description	Lua module to control other programs via PTYs (for Lua 5.1)
+url	https://www.tset.de/lpty/
+license	MIT
+size	11487
+installed-size	21699
+depends	lua5.1 so:libc.musl-armhf.so.1
+origin	lua-pty
+repo	main
+file	lua5.1-pty-1.2.2-r3.apk
+checksum	Q1vYAo5xXfnC7t3vx1gTqCtXkP/Qo=
+dep	lua5.1	lua5.1
+dep	so:libc.musl-armhf.so.1	musl

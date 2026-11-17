@@ -1,0 +1,25 @@
+name	onnxruntime
+version	1.24.4-r1
+description	Cross-platform, high performance ML inferencing and training accelerator
+url	https://onnxruntime.ai/
+license	MIT
+size	15217851
+installed-size	41958993
+depends	python3~3.14 so:libabsl_hash.so.2508.0.0 so:libabsl_log_internal_check_op.so.2508.0.0 so:libabsl_log_internal_message.so.2508.0.0 so:libabsl_log_internal_nullguard.so.2508.0.0 so:libabsl_raw_hash_set.so.2508.0.0 so:libabsl_raw_logging_internal.so.2508.0.0 so:libabsl_throw_delegate.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libprotobuf-lite.so.31 so:libre2.so.11 so:libstdc++.so.6
+origin	onnxruntime
+repo	community
+file	onnxruntime-1.24.4-r1.apk
+checksum	Q14XyzBNxlaoUJdpom08eW2SNQ4pQ=
+dep	python3~3.14	python3
+dep	so:libabsl_hash.so.2508.0.0	abseil-cpp-hash
+dep	so:libabsl_log_internal_check_op.so.2508.0.0	abseil-cpp-log-internal-check-op
+dep	so:libabsl_log_internal_message.so.2508.0.0	abseil-cpp-log-internal-message
+dep	so:libabsl_log_internal_nullguard.so.2508.0.0	abseil-cpp-log-internal-nullguard
+dep	so:libabsl_raw_hash_set.so.2508.0.0	abseil-cpp-raw-hash-set
+dep	so:libabsl_raw_logging_internal.so.2508.0.0	abseil-cpp-raw-logging-internal
+dep	so:libabsl_throw_delegate.so.2508.0.0	abseil-cpp-throw-delegate
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libprotobuf-lite.so.31	libprotobuf-lite
+dep	so:libre2.so.11	re2
+dep	so:libstdc++.so.6	libstdc++

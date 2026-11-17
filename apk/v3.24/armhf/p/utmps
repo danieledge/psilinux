@@ -1,0 +1,16 @@
+name	utmps
+version	0.1.3.3-r0
+description	A secure utmp/wtmp implementation
+url	https://skarnet.org/software/utmps/
+license	ISC
+size	11724
+installed-size	30345
+depends	s6-ipcserver /bin/sh so:libc.musl-armhf.so.1 so:libskarnet.so.2.15
+origin	utmps
+repo	main
+file	utmps-0.1.3.3-r0.apk
+checksum	Q1isuPXEYYst00OuTwPG3zkM87guE=
+dep	s6-ipcserver	s6-ipcserver
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libskarnet.so.2.15	skalibs-libs

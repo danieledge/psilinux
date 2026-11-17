@@ -1,0 +1,14 @@
+name	lua5.2-lapis-annotate
+version	1.2.1-r1
+description	A Lapis extension that lets you annotate your model files with their schema. (for Lua 5.2)
+url	https://github.com/leafo/lapis-annotate
+license	MIT
+size	4623
+installed-size	6812
+depends	lua5.2 lua5.2-lapis
+origin	lua-lapis-annotate
+repo	community
+file	lua5.2-lapis-annotate-1.2.1-r1.apk
+checksum	Q19mQPYT+REjc13UZcWrJ2lgL5yOw=
+dep	lua5.2	lua5.2
+dep	lua5.2-lapis	lua5.2-lapis

@@ -1,0 +1,14 @@
+name	perl-dns-unbound-ioasync
+version	0.29-r3
+description	Query DNS recursively via libunbound and IO::Async
+url	https://metacpan.org/release/DNS-Unbound/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	2432
+installed-size	1645
+depends	perl-dns-unbound=0.29-r3 perl-io-async
+origin	perl-dns-unbound
+repo	community
+file	perl-dns-unbound-ioasync-0.29-r3.apk
+checksum	Q1MCx6bUo2lWOl30Lqf7m2wEkBK18=
+dep	perl-dns-unbound=0.29-r3	perl-dns-unbound
+dep	perl-io-async	perl-io-async

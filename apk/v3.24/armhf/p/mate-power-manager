@@ -1,0 +1,36 @@
+name	mate-power-manager
+version	1.28.1-r0
+description	A Power Manager for MATE
+url	https://github.com/mate-desktop/mate-power-manager
+license	GPL-2.0-or-later
+size	4237073
+installed-size	6111963
+depends	so:libX11.so.6 so:libXext.so.6 so:libXrandr.so.2 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcanberra-gtk3.so.0 so:libcanberra.so.0 so:libdbus-1.so.3 so:libdbus-glib-1.so.2 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libmate-desktop-2.so.17 so:libmate-panel-applet-4.so.1 so:libnotify.so.4 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libsecret-1.so.0 so:libupower-glib.so.3
+origin	mate-power-manager
+repo	community
+file	mate-power-manager-1.28.1-r0.apk
+checksum	Q13kKiDWCshO5Iota7znd+o0jmvCg=
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcanberra-gtk3.so.0	libcanberra-gtk3
+dep	so:libcanberra.so.0	libcanberra
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libdbus-glib-1.so.2	dbus-glib
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libmate-desktop-2.so.17	mate-desktop
+dep	so:libmate-panel-applet-4.so.1	mate-panel
+dep	so:libnotify.so.4	libnotify
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libsecret-1.so.0	libsecret
+dep	so:libupower-glib.so.3	upower

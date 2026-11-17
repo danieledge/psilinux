@@ -1,0 +1,14 @@
+name	collectd-utils
+version	5.12.0-r25
+description	collectd utilities
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	16318
+installed-size	40488
+depends	so:libc.musl-armhf.so.1 so:libcollectdclient.so.1
+origin	collectd
+repo	community
+file	collectd-utils-5.12.0-r25.apk
+checksum	Q1UiZlZfORM0jMwc+uIRzMOqy8SVU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcollectdclient.so.1	collectd-libs

@@ -1,0 +1,15 @@
+name	openldap-passwd-sha2
+version	2.6.15-r0
+description	SHA2 OpenLDAP support
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	9847
+installed-size	18679
+depends	openldap so:libc.musl-armhf.so.1 so:liblber.so.2
+origin	openldap
+repo	main
+file	openldap-passwd-sha2-2.6.15-r0.apk
+checksum	Q1cl5L9dtlI9Swr3MylcXPs9nWp9c=
+dep	openldap	openldap
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap

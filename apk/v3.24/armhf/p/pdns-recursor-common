@@ -1,0 +1,13 @@
+name	pdns-recursor-common
+version	5.4.8-r0
+description	pdns-recursor common files
+url	https://www.powerdns.com/
+license	GPL-2.0-only WITH OpenSSL-Exception
+size	10304
+installed-size	43921
+depends	/bin/sh
+origin	pdns-recursor
+repo	community
+file	pdns-recursor-common-5.4.8-r0.apk
+checksum	Q1tpiGwkoDBogvLckXXNKSWsHJkas=
+dep	/bin/sh	busybox-binsh

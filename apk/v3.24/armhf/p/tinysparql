@@ -1,0 +1,26 @@
+name	tinysparql
+version	3.11.1-r0
+description	Personal search tool and storage system
+url	https://tracker.gnome.org/
+license	GPL-2.0-or-later
+size	657790
+installed-size	1094481
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libicui18n.so.78 so:libicuuc.so.78 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libsoup-3.0.so.0 so:libsqlite3.so.0 so:libstemmer.so.2 so:libtinysparql-3.0.so.0 so:libxml2.so.2
+origin	tinysparql
+repo	community
+file	tinysparql-3.11.1-r0.apk
+checksum	Q11sGjrBE+IUpvI4iJr5KtmHAt/jI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstemmer.so.2	libstemmer
+dep	so:libtinysparql-3.0.so.0	libtinysparql
+dep	so:libxml2.so.2	libxml2

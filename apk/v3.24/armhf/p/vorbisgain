@@ -1,0 +1,16 @@
+name	vorbisgain
+version	0.37-r1
+description	A utility that computes the ReplayGain values for Ogg Vorbis files
+url	https://sjeng.org/vorbisgain.html
+license	GPL-2.0-only
+size	20481
+installed-size	38124
+depends	so:libc.musl-armhf.so.1 so:libogg.so.0 so:libvorbis.so.0 so:libvorbisfile.so.3
+origin	vorbisgain
+repo	community
+file	vorbisgain-0.37-r1.apk
+checksum	Q1TJJbagURdZFNfEUtmqz81Tbz3og=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libogg.so.0	libogg
+dep	so:libvorbis.so.0	libvorbis
+dep	so:libvorbisfile.so.3	libvorbis

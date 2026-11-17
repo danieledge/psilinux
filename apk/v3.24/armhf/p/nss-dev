@@ -1,0 +1,16 @@
+name	nss-dev
+version	3.133-r0
+description	Development files for nss
+url	https://developer.mozilla.org/docs/Mozilla/Projects/NSS
+license	MPL-2.0
+size	272880
+installed-size	1197222
+depends	nss=3.133-r0 nspr-dev pc:nspr>=4.38.2 pkgconfig
+origin	nss
+repo	main
+file	nss-dev-3.133-r0.apk
+checksum	Q12ZWiR2aLjPznuY3ln3zRrBx9GUY=
+dep	nss=3.133-r0	nss
+dep	nspr-dev	nspr-dev
+dep	pc:nspr>=4.38.2	nspr-dev
+dep	pkgconfig	pkgconf

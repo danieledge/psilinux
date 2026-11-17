@@ -1,0 +1,14 @@
+name	recutils
+version	1.9-r2
+description	Set of tools and libraries to access plain text databases called recfiles
+url	https://www.gnu.org/software/recutils/
+license	GPL-3.0-or-later
+size	589936
+installed-size	1165654
+depends	libgcrypt so:libc.musl-armhf.so.1
+origin	recutils
+repo	community
+file	recutils-1.9-r2.apk
+checksum	Q1wGPCWkEmP86ZSF1IjB0d8hLoLl8=
+dep	libgcrypt	libgcrypt
+dep	so:libc.musl-armhf.so.1	musl

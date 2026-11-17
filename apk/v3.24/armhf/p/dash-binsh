@@ -1,0 +1,14 @@
+name	dash-binsh
+version	0.5.13.1-r2
+description	dash as /bin/sh
+url	http://gondor.apana.org.au/~herbert/dash/
+license	BSD-3-Clause AND GPL-2.0-or-later
+size	1564
+installed-size	1
+depends	busybox dash=0.5.13.1-r2
+origin	dash
+repo	main
+file	dash-binsh-0.5.13.1-r2.apk
+checksum	Q1nisR+DvqKOZ7oKLzgJKbtvA5un8=
+dep	busybox	busybox
+dep	dash=0.5.13.1-r2	dash

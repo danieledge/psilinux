@@ -1,0 +1,15 @@
+name	mprocs
+version	0.6.4-r1
+description	Run multiple commands in parallel
+url	https://github.com/pvolok/mprocs
+license	MIT
+size	751684
+installed-size	1446972
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblua-5.4.so.0
+origin	mprocs
+repo	community
+file	mprocs-0.6.4-r1.apk
+checksum	Q1Qnu4hU8frat1igrJ750RTR7s40U=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblua-5.4.so.0	lua5.4-libs

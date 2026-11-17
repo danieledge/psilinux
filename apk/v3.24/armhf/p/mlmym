@@ -1,0 +1,14 @@
+name	mlmym
+version	0.0.50-r17
+description	Lemmy frontend offering a familiar desktop experience
+url	https://mlmym.org/
+license	AGPL-3.0-or-later
+size	4540539
+installed-size	12251696
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	mlmym
+repo	community
+file	mlmym-0.0.50-r17.apk
+checksum	Q10PgLH0AZfTXhzV0mo3oJjB6cK4k=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

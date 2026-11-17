@@ -1,0 +1,19 @@
+name	libzip-dev
+version	1.11.4-r2
+description	C library for manipulating zip archives (development files)
+url	https://libzip.org/
+license	BSD-3-Clause
+size	15863
+installed-size	61396
+depends	libzip-tools=1.11.4-r2 bzip2-dev xz-dev zlib-dev zstd-dev libzip=1.11.4-r2 pkgconfig
+origin	libzip
+repo	community
+file	libzip-dev-1.11.4-r2.apk
+checksum	Q1mGoRz1+eifPh44Nd6i8z60/Bzlw=
+dep	libzip-tools=1.11.4-r2	libzip-tools
+dep	bzip2-dev	bzip2-dev
+dep	xz-dev	xz-dev
+dep	zlib-dev	zlib-dev
+dep	zstd-dev	zstd-dev
+dep	libzip=1.11.4-r2	libzip
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	zlib-dev
+version	1.4-r0
+description	A compression/decompression Library (development files)
+url	https://zlib.net/
+license	Zlib
+size	34771
+installed-size	122415
+depends	zlib=1.4-r0 pkgconfig
+origin	zlib
+repo	main
+file	zlib-dev-1.4-r0.apk
+checksum	Q1d6UnLBAAB9gwglFhZvtl0HaV10k=
+dep	zlib=1.4-r0	zlib
+dep	pkgconfig	pkgconf

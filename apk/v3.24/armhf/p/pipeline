@@ -1,0 +1,30 @@
+name	pipeline
+version	4.0.4-r0
+description	Watch YouTube and PeerTube videos in one place
+url	https://gitlab.com/schmiddi-on-mobile/pipeline
+license	GPL-3.0-or-later
+size	2958454
+installed-size	6576574
+depends	clapper-enhancers glycin-image-rs so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libclapper-0.0.so.0 so:libclapper-gtk-0.0.so.0 so:libcrypto.so.3 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libpango-1.0.so.0 so:libsqlite3.so.0 so:libssl.so.3
+origin	pipeline
+repo	community
+file	pipeline-4.0.4-r0.apk
+checksum	Q1GDPIO6sY2QiLwLUsESoUjWNfoMw=
+dep	clapper-enhancers	clapper-enhancers
+dep	glycin-image-rs	glycin-image-rs
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libclapper-0.0.so.0	clapper-libs
+dep	so:libclapper-gtk-0.0.so.0	clapper-libs
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libssl.so.3	libssl3

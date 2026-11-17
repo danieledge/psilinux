@@ -1,0 +1,14 @@
+name	cargo-insta
+version	1.44.3-r0
+description	review tool for insta, a snapshot testing library for Rust
+url	https://github.com/mitsuhiko/insta
+license	Apache-2.0
+size	1116022
+installed-size	2330940
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	cargo-insta
+repo	community
+file	cargo-insta-1.44.3-r0.apk
+checksum	Q12auVqDPkf9w9OuOr93Wjf3xrisI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,13 @@
+name	gawk
+version	5.3.2-r2
+description	GNU awk pattern-matching language
+url	https://www.gnu.org/software/gawk/gawk.html
+license	GPL-3.0-or-later
+size	308943
+installed-size	679705
+depends	so:libc.musl-armhf.so.1
+origin	gawk
+repo	main
+file	gawk-5.3.2-r2.apk
+checksum	Q10Fj8YGM5r/Jq2uxZ5TAfoJZ7Mow=
+dep	so:libc.musl-armhf.so.1	musl

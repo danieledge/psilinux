@@ -1,0 +1,16 @@
+name	postfix-policyd-spf-perl
+version	2.011-r2
+description	A Sender Policy Framework implementation
+url	http://www.openspf.org/Software
+license	GPL-2.0-or-later
+size	5709
+installed-size	15181
+depends	perl perl-mail-spf perl-netaddr-ip perl-sys-hostname-long
+origin	postfix-policyd-spf-perl
+repo	main
+file	postfix-policyd-spf-perl-2.011-r2.apk
+checksum	Q1uVM0a13evwMPVnfg+QI+dpqpdo8=
+dep	perl	perl
+dep	perl-mail-spf	perl-mail-spf
+dep	perl-netaddr-ip	perl-netaddr-ip
+dep	perl-sys-hostname-long	perl-sys-hostname-long

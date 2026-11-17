@@ -1,0 +1,26 @@
+name	libarrow
+version	23.0.1-r2
+description	multi-language toolbox for accelerated data interchange and in-memory processing (libarrow library)
+url	https://arrow.apache.org/
+license	Apache-2.0
+size	3680424
+installed-size	11922904
+depends	apache-arrow=23.0.1-r2 so:libabsl_log_internal_message.so.2508.0.0 so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglog.so.2 so:liblz4.so.1 so:libprotobuf.so.31 so:libsnappy.so.1 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
+origin	apache-arrow
+repo	community
+file	libarrow-23.0.1-r2.apk
+checksum	Q1/J6SEMflq2ViiOKRJax8Hf+8CDQ=
+dep	apache-arrow=23.0.1-r2	apache-arrow
+dep	so:libabsl_log_internal_message.so.2508.0.0	abseil-cpp-log-internal-message
+dep	so:libbrotlidec.so.1	brotli-libs
+dep	so:libbrotlienc.so.1	brotli-libs
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglog.so.2	glog
+dep	so:liblz4.so.1	lz4-libs
+dep	so:libprotobuf.so.31	libprotobuf
+dep	so:libsnappy.so.1	snappy
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

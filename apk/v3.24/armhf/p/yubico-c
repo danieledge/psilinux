@@ -1,0 +1,13 @@
+name	yubico-c
+version	1.13-r1
+description	YubiKey C low-level library
+url	https://developers.yubico.com/yubico-c/
+license	BSD-2-Clause
+size	5639
+installed-size	9444
+depends	so:libc.musl-armhf.so.1
+origin	yubico-c
+repo	community
+file	yubico-c-1.13-r1.apk
+checksum	Q1IbD5SxgEDFFITAke7W0KRiOAUkE=
+dep	so:libc.musl-armhf.so.1	musl

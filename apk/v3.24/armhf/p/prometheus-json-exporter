@@ -1,0 +1,14 @@
+name	prometheus-json-exporter
+version	0.7.0-r5
+description	Prometheus exporter which scrapes remote JSON by JSONPath
+url	https://github.com/prometheus-community/json_exporter
+license	Apache-2.0
+size	5528020
+installed-size	14609812
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	prometheus-json-exporter
+repo	community
+file	prometheus-json-exporter-0.7.0-r5.apk
+checksum	Q1vB74DeUV66oF1bv5iOZ4PJ0gRvY=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

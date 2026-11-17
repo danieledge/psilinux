@@ -1,0 +1,16 @@
+name	php85-pdo_pgsql
+version	8.5.12-r0
+description	PHP85 extension: PostgreSQL driver for PDO
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0 Apache-2.0
+size	23756
+installed-size	50520
+depends	php85-common php85-pdo so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	php85
+repo	community
+file	php85-pdo_pgsql-8.5.12-r0.apk
+checksum	Q1X7oA00qndrHda0TJZClhrTIpYfE=
+dep	php85-common	php85-common
+dep	php85-pdo	php85-pdo
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

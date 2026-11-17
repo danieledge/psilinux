@@ -1,0 +1,17 @@
+name	kbdd
+version	0.7.1_git20210426-r1
+description	simple daemon and library to make per window layout using xkb
+url	https://github.com/qnikst/kbdd
+license	GPL-2.0-or-later
+size	11223
+installed-size	23009
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1 so:libdbus-glib-1.so.2 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	kbdd
+repo	community
+file	kbdd-0.7.1_git20210426-r1.apk
+checksum	Q1Lv7Vmpl9PEHTHdoUo8Sa+rxx1lw=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-glib-1.so.2	dbus-glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

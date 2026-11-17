@@ -1,0 +1,19 @@
+name	perl-promise-me
+version	0.6.0-r1
+description	Implementation of Promises using fork for asynchronous tasks
+url	https://metacpan.org/release/Promise-Me/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	27744
+installed-size	119191
+depends	perl perl-clone perl-curry perl-module-generic perl-ppi perl-storable-improved perl-wanted
+origin	perl-promise-me
+repo	community
+file	perl-promise-me-0.6.0-r1.apk
+checksum	Q132X1ujbDRqGZ75ybzG7zaC3glfw=
+dep	perl	perl
+dep	perl-clone	perl-clone
+dep	perl-curry	perl-curry
+dep	perl-module-generic	perl-module-generic
+dep	perl-ppi	perl-ppi
+dep	perl-storable-improved	perl-storable-improved
+dep	perl-wanted	perl-wanted

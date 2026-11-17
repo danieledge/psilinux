@@ -1,0 +1,59 @@
+name	emacs-gtk3-nativecomp
+version	30.2-r3
+description	Extensible, customizable, self-documenting real-time display editor - with GTK3 and native compilation
+url	https://www.gnu.org/software/emacs/emacs.html
+license	GPL-3.0-or-later
+size	85356688
+installed-size	233082169
+depends	emacs=30.2-r3 !emacs-gtk3 !emacs-pgtk !emacs-pgtk-nativecomp !emacs-nox !emacs-x11 !emacs-x11-nativecomp gcc musl-dev desktop-file-utils hicolor-icon-theme so:libICE.so.6 so:libSM.so.6 so:libX11-xcb.so.1 so:libX11.so.6 so:libXcomposite.so.1 so:libXext.so.6 so:libXfixes.so.3 so:libXi.so.6 so:libXinerama.so.1 so:libXrandr.so.2 so:libXrender.so.1 so:libasound.so.2 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdbus-1.so.3 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgccjit.so.0 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgif.so.7 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmp.so.10 so:libgnutls.so.30 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libharfbuzz.so.0 so:libjpeg.so.8 so:liblcms2.so.2 so:libncursesw.so.6 so:libpango-1.0.so.0 so:libpng16.so.16 so:librsvg-2.so.2 so:libsqlite3.so.0 so:libtree-sitter.so.0.26 so:libwebpdecoder.so.3 so:libwebpdemux.so.2 so:libxcb-shape.so.0 so:libxcb.so.1 so:libxml2.so.2 so:libz.so.1
+origin	emacs
+repo	community
+file	emacs-gtk3-nativecomp-30.2-r3.apk
+checksum	Q1HL2zAzb+SF1MU1rbaa8mOIpASwc=
+dep	emacs=30.2-r3	emacs
+dep	gcc	gcc
+dep	musl-dev	musl-dev
+dep	desktop-file-utils	desktop-file-utils
+dep	hicolor-icon-theme	hicolor-icon-theme
+dep	so:libICE.so.6	libice
+dep	so:libSM.so.6	libsm
+dep	so:libX11-xcb.so.1	libx11
+dep	so:libX11.so.6	libx11
+dep	so:libXcomposite.so.1	libxcomposite
+dep	so:libXext.so.6	libxext
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXi.so.6	libxi
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libXrender.so.1	libxrender
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libgccjit.so.0	libgccjit
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgif.so.7	giflib
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmp.so.10	gmp
+dep	so:libgnutls.so.30	gnutls
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:liblcms2.so.2	lcms2
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpng16.so.16	libpng
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libtree-sitter.so.0.26	tree-sitter
+dep	so:libwebpdecoder.so.3	libwebpdecoder
+dep	so:libwebpdemux.so.2	libwebpdemux
+dep	so:libxcb-shape.so.0	libxcb
+dep	so:libxcb.so.1	libxcb
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

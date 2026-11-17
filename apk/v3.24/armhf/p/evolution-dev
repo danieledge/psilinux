@@ -1,0 +1,30 @@
+name	evolution-dev
+version	3.60.2-r0
+description	Evolution mail client (development files)
+url	https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
+license	GPL-2.0-or-later
+size	283565
+installed-size	1752203
+depends	evolution=3.60.2-r0 enchant2-dev gcr-dev itstool libcanberra-dev libgweather4-dev libnotify-dev libxml2-dev openldap-dev pc:camel-1.2 pc:gio-2.0 pc:gnome-desktop-3.0 pc:gtk+-3.0 pc:libebackend-1.2 pc:libedataserver-1.2 pc:libedataserverui-1.2 pc:webkit2gtk-4.1 pkgconfig
+origin	evolution
+repo	community
+file	evolution-dev-3.60.2-r0.apk
+checksum	Q1HvuDGMU/zdpD6Bm/WIZ3WhQ8jq4=
+dep	evolution=3.60.2-r0	evolution
+dep	enchant2-dev	enchant2-dev
+dep	gcr-dev	gcr-dev
+dep	itstool	itstool
+dep	libcanberra-dev	libcanberra-dev
+dep	libgweather4-dev	libgweather4-dev
+dep	libnotify-dev	libnotify-dev
+dep	libxml2-dev	libxml2-dev
+dep	openldap-dev	openldap-dev
+dep	pc:camel-1.2	evolution-data-server-dev
+dep	pc:gio-2.0	glib-dev
+dep	pc:gnome-desktop-3.0	gnome-desktop-dev
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pc:libebackend-1.2	evolution-data-server-dev
+dep	pc:libedataserver-1.2	evolution-data-server-dev
+dep	pc:libedataserverui-1.2	evolution-data-server-dev
+dep	pc:webkit2gtk-4.1	webkit2gtk-4.1-dev
+dep	pkgconfig	pkgconf

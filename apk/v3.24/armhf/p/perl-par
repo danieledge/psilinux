@@ -1,0 +1,15 @@
+name	perl-par
+version	1.021-r0
+description	Perl Archive Toolkit
+url	https://metacpan.org/release/PAR/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	18637
+installed-size	54606
+depends	perl perl-archive-zip perl-par-dist
+origin	perl-par
+repo	community
+file	perl-par-1.021-r0.apk
+checksum	Q1snkv90RHH6iDj7AJ8itz7G2C4zs=
+dep	perl	perl
+dep	perl-archive-zip	perl-archive-zip
+dep	perl-par-dist	perl-par-dist

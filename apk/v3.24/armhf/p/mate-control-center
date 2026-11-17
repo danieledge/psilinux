@@ -1,0 +1,46 @@
+name	mate-control-center
+version	1.28.0-r0
+description	MATE's main interface for configuration of various aspects of your desktop
+url	https://github.com/mate-desktop/mate-control-center
+license	GPL-2.0-or-later
+size	1290532
+installed-size	1887572
+depends	desktop-file-utils mate-common mate-icon-theme mate-menus so:libX11.so.6 so:libXcursor.so.1 so:libXi.so.6 so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo-gobject.so.2 so:libcairo.so.2 so:libdconf.so.1 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgtop-2.0.so.11 so:libintl.so.8 so:libmarco-private.so.2 so:libmate-desktop-2.so.17 so:libmate-menu.so.2 so:libmatekbd.so.6 so:libmatekbdui.so.6 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpolkit-gobject-1.so.0 so:libudisks2.so.0 so:libxklavier.so.16 so:libxml2.so.2
+origin	mate-control-center
+repo	community
+file	mate-control-center-1.28.0-r0.apk
+checksum	Q10oZWSgHo9dlQFkP/gUp4KdjGvzs=
+dep	desktop-file-utils	desktop-file-utils
+dep	mate-common	mate-common
+dep	mate-icon-theme	mate-icon-theme
+dep	mate-menus	mate-menus
+dep	so:libX11.so.6	libx11
+dep	so:libXcursor.so.1	libxcursor
+dep	so:libXi.so.6	libxi
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo-gobject.so.2	cairo-gobject
+dep	so:libcairo.so.2	cairo
+dep	so:libdconf.so.1	dconf
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtop-2.0.so.11	libgtop
+dep	so:libintl.so.8	libintl
+dep	so:libmarco-private.so.2	marco
+dep	so:libmate-desktop-2.so.17	mate-desktop
+dep	so:libmate-menu.so.2	mate-menus
+dep	so:libmatekbd.so.6	libmatekbd
+dep	so:libmatekbdui.so.6	libmatekbd
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpolkit-gobject-1.so.0	polkit-noelogind-libs
+dep	so:libudisks2.so.0	udisks2-libs
+dep	so:libxklavier.so.16	libxklavier
+dep	so:libxml2.so.2	libxml2

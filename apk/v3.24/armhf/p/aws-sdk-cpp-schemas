@@ -1,0 +1,17 @@
+name	aws-sdk-cpp-schemas
+version	1.11.700-r1
+description	Amazon Web Services SDK for C++ (schemas)
+url	https://github.com/aws/aws-sdk-cpp
+license	Apache-2.0
+size	99456
+installed-size	333080
+depends	so:libaws-cpp-sdk-core.so.1.11 so:libaws-crt-cpp.so so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	aws-sdk-cpp
+repo	community
+file	aws-sdk-cpp-schemas-1.11.700-r1.apk
+checksum	Q1oT1IYh3pEGynW9smkxz3/iVTPRc=
+dep	so:libaws-cpp-sdk-core.so.1.11	aws-sdk-cpp-core
+dep	so:libaws-crt-cpp.so	aws-crt-cpp
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,30 @@
+name	perl-database-async
+version	0.019-r1
+description	Database abstraction layer for IO::Async
+url	https://metacpan.org/release/Database-Async/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	22616
+installed-size	68733
+depends	perl perl-class-method-modifiers perl-curry perl-future perl-future-asyncawait perl-indirect perl-io-async perl-json-maybeutf8 perl-list-utilsby perl-log-any perl-path-tiny perl-ryu perl-ryu-async perl-syntax-keyword-try perl-template-toolkit perl-uri perl-uri-db perl-yaml-libyaml
+origin	perl-database-async
+repo	community
+file	perl-database-async-0.019-r1.apk
+checksum	Q1TfYs6mP4ISPzXGSMWqFKg2mf5cw=
+dep	perl	perl
+dep	perl-class-method-modifiers	perl-class-method-modifiers
+dep	perl-curry	perl-curry
+dep	perl-future	perl-future
+dep	perl-future-asyncawait	perl-future-asyncawait
+dep	perl-indirect	perl-indirect
+dep	perl-io-async	perl-io-async
+dep	perl-json-maybeutf8	perl-json-maybeutf8
+dep	perl-list-utilsby	perl-list-utilsby
+dep	perl-log-any	perl-log-any
+dep	perl-path-tiny	perl-path-tiny
+dep	perl-ryu	perl-ryu
+dep	perl-ryu-async	perl-ryu-async
+dep	perl-syntax-keyword-try	perl-syntax-keyword-try
+dep	perl-template-toolkit	perl-template-toolkit
+dep	perl-uri	perl-uri
+dep	perl-uri-db	perl-uri-db
+dep	perl-yaml-libyaml	perl-yaml-libyaml

@@ -1,0 +1,15 @@
+name	tlstunnel
+version	0.4.0-r12
+description	TLS reverse proxy
+url	https://codeberg.org/emersion/tlstunnel/src/tag/v0.4.0
+license	MIT
+size	3835434
+installed-size	9671696
+depends	ca-certificates /bin/sh so:libc.musl-armhf.so.1
+origin	tlstunnel
+repo	community
+file	tlstunnel-0.4.0-r12.apk
+checksum	Q1FphuCPwCPAvpncyCgwhG/t388mk=
+dep	ca-certificates	ca-certificates
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

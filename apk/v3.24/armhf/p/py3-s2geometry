@@ -1,0 +1,19 @@
+name	py3-s2geometry
+version	0.13.1-r1
+description	Computational geometry and spatial indexing on the sphere (Python)
+url	https://s2geometry.io/
+license	Apache-2.0
+size	125531
+installed-size	472394
+depends	python3 python3~3.14 so:libabsl_hash.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libs2.so.0 so:libstdc++.so.6
+origin	s2geometry
+repo	community
+file	py3-s2geometry-0.13.1-r1.apk
+checksum	Q1wE2SaDCXDqL7JPxjpHNXxGD+Kb8=
+dep	python3	python3
+dep	python3~3.14	python3
+dep	so:libabsl_hash.so.2508.0.0	abseil-cpp-hash
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libs2.so.0	s2geometry
+dep	so:libstdc++.so.6	libstdc++

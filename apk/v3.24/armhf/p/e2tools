@@ -1,0 +1,15 @@
+name	e2tools
+version	0.1.2-r1
+description	Utilities for manipulating files in an ext2/ext3 filesystem
+url	https://e2tools.github.io/
+license	GPL-2.0-only
+size	23698
+installed-size	46408
+depends	so:libc.musl-armhf.so.1 so:libcom_err.so.2 so:libext2fs.so.2
+origin	e2tools
+repo	community
+file	e2tools-0.1.2-r1.apk
+checksum	Q1BAk/TOZ6QSKZmrQjE7ghSaQbhjk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcom_err.so.2	libcom_err
+dep	so:libext2fs.so.2	e2fsprogs-libs

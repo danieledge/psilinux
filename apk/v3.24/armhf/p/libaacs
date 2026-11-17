@@ -1,0 +1,15 @@
+name	libaacs
+version	0.11.1-r1
+description	libaacs is a research project to implement the Advanced Access Content System specification
+url	https://www.videolan.org/developers/libaacs.html
+license	LGPL-2.1-only
+size	57133
+installed-size	117196
+depends	so:libc.musl-armhf.so.1 so:libgcrypt.so.20 so:libgpg-error.so.0
+origin	libaacs
+repo	community
+file	libaacs-0.11.1-r1.apk
+checksum	Q1Krboa/qy9DbXEG4c3Eq63TQ70B4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgpg-error.so.0	libgpg-error

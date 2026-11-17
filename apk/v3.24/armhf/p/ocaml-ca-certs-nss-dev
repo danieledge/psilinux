@@ -1,0 +1,16 @@
+name	ocaml-ca-certs-nss-dev
+version	3.89.1-r3
+description	X.509 trust anchors extracted from Mozilla's NSS (development files)
+url	https://github.com/mirage/ca-certs-nss
+license	ISC
+size	457396
+installed-size	926964
+depends	ocaml-ca-certs-nss=3.89.1-r3 ocaml-mirage-clock-dev ocaml-mirage-crypto-dev ocaml-x509-dev
+origin	ocaml-ca-certs-nss
+repo	community
+file	ocaml-ca-certs-nss-dev-3.89.1-r3.apk
+checksum	Q1iuXMjsey6LF1Y9C9QmhBKg1stFo=
+dep	ocaml-ca-certs-nss=3.89.1-r3	ocaml-ca-certs-nss
+dep	ocaml-mirage-clock-dev	ocaml-mirage-clock-dev
+dep	ocaml-mirage-crypto-dev	ocaml-mirage-crypto-dev
+dep	ocaml-x509-dev	ocaml-x509-dev

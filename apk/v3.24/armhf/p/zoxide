@@ -1,0 +1,14 @@
+name	zoxide
+version	0.9.9-r0
+description	Faster way to navigate your filesystem
+url	https://github.com/ajeetdsouza/zoxide
+license	MIT
+size	362293
+installed-size	696272
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	zoxide
+repo	community
+file	zoxide-0.9.9-r0.apk
+checksum	Q1IXqxD9vkQQfYdTdXVl39JwVm/b8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

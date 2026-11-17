@@ -1,0 +1,16 @@
+name	git-cvs
+version	2.54.1-r0
+description	Git tools for importing CVS repositories
+url	https://www.git-scm.com/
+license	GPL-2.0-only
+size	59237
+installed-size	208614
+depends	perl perl-git=2.54.1-r0 cvs perl-dbd-sqlite
+origin	git
+repo	main
+file	git-cvs-2.54.1-r0.apk
+checksum	Q1BZ2HNULbqALot0HHdco9xLGKOEc=
+dep	perl	perl
+dep	perl-git=2.54.1-r0	perl-git
+dep	cvs	cvs
+dep	perl-dbd-sqlite	perl-dbd-sqlite

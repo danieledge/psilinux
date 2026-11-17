@@ -1,0 +1,13 @@
+name	snooze
+version	0.5.1-r1
+description	Run a command at a particular time
+url	https://github.com/leahneukirchen/snooze
+license	CC0-1.0
+size	7336
+installed-size	13492
+depends	so:libc.musl-armhf.so.1
+origin	snooze
+repo	community
+file	snooze-0.5.1-r1.apk
+checksum	Q1hOBg6d9v5jJNUrQ4FvcKa5W4wXI=
+dep	so:libc.musl-armhf.so.1	musl

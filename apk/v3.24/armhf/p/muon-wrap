@@ -1,0 +1,17 @@
+name	muon-wrap
+version	0.5.0-r1
+description	Meson-compatible build system (with wrap-file support)
+url	https://muon.build
+license	GPL-3.0-only AND Apache-2.0
+size	404476
+installed-size	993880
+depends	samurai so:libarchive.so.13 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libpkgconf.so.7
+origin	muon
+repo	main
+file	muon-wrap-0.5.0-r1.apk
+checksum	Q1cJY8aagSmxRVQoq2uTDO4z3wwZo=
+dep	samurai	samurai
+dep	so:libarchive.so.13	libarchive
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libpkgconf.so.7	pkgconf

@@ -1,0 +1,15 @@
+name	libblockdev-dev
+version	3.4.0-r1
+description	Library for manipulating block devices (development files)
+url	https://github.com/storaged-project/libblockdev
+license	LGPL-2.1-or-later
+size	117954
+installed-size	1104763
+depends	libblockdev=3.4.0-r1 pc:glib-2.0 pkgconfig
+origin	libblockdev
+repo	community
+file	libblockdev-dev-3.4.0-r1.apk
+checksum	Q1hlGKBc5I9Y2Pm2/NOMqJ4ZdHMkA=
+dep	libblockdev=3.4.0-r1	libblockdev
+dep	pc:glib-2.0	glib-dev
+dep	pkgconfig	pkgconf

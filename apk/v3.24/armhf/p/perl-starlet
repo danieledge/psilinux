@@ -1,0 +1,16 @@
+name	perl-starlet
+version	0.32-r0
+description	a simple, high-performance PSGI/Plack HTTP server
+url	https://metacpan.org/release/Starlet/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	9935
+installed-size	27736
+depends	perl perl-server-starter perl-plack perl-parallel-prefork
+origin	perl-starlet
+repo	community
+file	perl-starlet-0.32-r0.apk
+checksum	Q1sn9dtBJ8lxQLFm9wOH5YHJ7/LEs=
+dep	perl	perl
+dep	perl-server-starter	perl-server-starter
+dep	perl-plack	perl-plack
+dep	perl-parallel-prefork	perl-parallel-prefork

@@ -1,0 +1,16 @@
+name	openldap-passwd-argon2
+version	2.6.15-r0
+description	Argon2 OpenLDAP support
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	4047
+installed-size	6421
+depends	openldap so:libargon2.so.1 so:libc.musl-armhf.so.1 so:liblber.so.2
+origin	openldap
+repo	main
+file	openldap-passwd-argon2-2.6.15-r0.apk
+checksum	Q10HSBZjubqJQKmhmfQ29aDQmb9oc=
+dep	openldap	openldap
+dep	so:libargon2.so.1	argon2-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap

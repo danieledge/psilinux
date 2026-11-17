@@ -1,0 +1,14 @@
+name	uhd-dev
+version	4.9.0.0-r2
+description	USRP Hardware Driver (development files)
+url	https://github.com/EttusResearch/uhd
+license	GPL-3.0-or-later
+size	216963
+installed-size	965329
+depends	uhd-libs=4.9.0.0-r2 pkgconfig
+origin	uhd
+repo	community
+file	uhd-dev-4.9.0.0-r2.apk
+checksum	Q1wPXGEZtZDN4cT/iJrCC4K5TpBFA=
+dep	uhd-libs=4.9.0.0-r2	uhd-libs
+dep	pkgconfig	pkgconf

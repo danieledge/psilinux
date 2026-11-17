@@ -1,0 +1,14 @@
+name	iputils-ping
+version	20250605-r2
+description	IP Configuration Utilities (ping utility)
+url	https://github.com/iputils/iputils/
+license	BSD-3-Clause AND GPL-2.0-or-later
+size	35984
+installed-size	146012
+depends	so:libc.musl-armhf.so.1 so:libcap.so.2
+origin	iputils
+repo	main
+file	iputils-ping-20250605-r2.apk
+checksum	Q1iFgUFCK3hCwuKtaDFEMxBMTy5Fw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2

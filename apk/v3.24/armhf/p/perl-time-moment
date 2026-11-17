@@ -1,0 +1,14 @@
+name	perl-time-moment
+version	0.46-r1
+description	Represent a date and time of day with an offset from UTC
+url	https://metacpan.org/release/Time-Moment/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	40701
+installed-size	91213
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-time-moment
+repo	community
+file	perl-time-moment-0.46-r1.apk
+checksum	Q14j82edMPFVXJfgcHggFx3noLeyY=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

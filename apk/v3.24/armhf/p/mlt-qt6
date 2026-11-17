@@ -1,0 +1,26 @@
+name	mlt-qt6
+version	7.36.1-r1
+description	MLT Multimedia Framework
+url	https://www.mltframework.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later AND GPL-3.0-or-later
+size	1505059
+installed-size	4152764
+depends	so:libQt6Core.so.6 so:libQt6Core5Compat.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6Svg.so.6 so:libQt6SvgWidgets.so.6 so:libQt6Widgets.so.6 so:libQt6Xml.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libmlt++-7.so.7 so:libmlt-7.so.7 so:libstdc++.so.6 so:libz.so.1
+origin	mlt
+repo	community
+file	mlt-qt6-7.36.1-r1.apk
+checksum	Q1ku5g2791N4UDOUtpc4B8rHehzRs=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Core5Compat.so.6	qt6-qt5compat
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6Svg.so.6	qt6-qtsvg
+dep	so:libQt6SvgWidgets.so.6	qt6-qtsvg
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libQt6Xml.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmlt++-7.so.7	mlt
+dep	so:libmlt-7.so.7	mlt
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

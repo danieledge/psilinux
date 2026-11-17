@@ -1,0 +1,14 @@
+name	lockfile-progs
+version	0.2.0-r0
+description	Programs for locking and unlocking files and mailboxes
+url	https://packages.debian.org/sid/lockfile-progs
+license	GPL-2.0-or-later
+size	6640
+installed-size	66696
+depends	so:libc.musl-armhf.so.1 so:liblockfile.so.1
+origin	lockfile-progs
+repo	main
+file	lockfile-progs-0.2.0-r0.apk
+checksum	Q15UqFWtd5z9O4B0RtNYzopxtHpoI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblockfile.so.1	liblockfile

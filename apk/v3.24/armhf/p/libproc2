@@ -1,0 +1,14 @@
+name	libproc2
+version	4.0.6-r0
+description	Library for monitoring system and processes
+url	https://gitlab.com/procps-ng/procps
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	52181
+installed-size	129608
+depends	so:libc.musl-armhf.so.1 so:libutmps.so.0.1
+origin	procps-ng
+repo	main
+file	libproc2-4.0.6-r0.apk
+checksum	Q1uPj767aoOu5D2o5LnssDlLsHY4A=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libutmps.so.0.1	utmps-libs

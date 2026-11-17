@@ -1,0 +1,14 @@
+name	perl-xs-object-magic
+version	0.05-r1
+description	Opaque, extensible XS pointer backed objects using sv_magic
+url	https://metacpan.org/release/XS-Object-Magic/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	9833
+installed-size	21469
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-xs-object-magic
+repo	community
+file	perl-xs-object-magic-0.05-r1.apk
+checksum	Q1OmQcPvbby+zNCQOh2wtkHqKBMAw=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

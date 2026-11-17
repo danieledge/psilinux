@@ -1,0 +1,13 @@
+name	blinkstick
+version	1.2.0-r6
+description	Python interface to control BlinkStick devices connected to the computer
+url	https://www.blinkstick.com/
+license	BSD-3-Clause
+size	4915
+installed-size	12053
+depends	py3-blinkstick
+origin	py3-blinkstick
+repo	community
+file	blinkstick-1.2.0-r6.apk
+checksum	Q1vckn7avW2QZX0ZFum4UxRDTA41g=
+dep	py3-blinkstick	py3-blinkstick

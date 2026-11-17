@@ -1,0 +1,20 @@
+name	perl-test-files
+version	0.26-r1
+description	Test::Builder based module to ease testing with files and dirs
+url	https://metacpan.org/release/Test-Files/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6790
+installed-size	19389
+depends	perl perl-class-xsaccessor perl-const-fast perl-data-compare perl-file-chdir perl-padwalker perl-path-tiny perl-text-diff
+origin	perl-test-files
+repo	community
+file	perl-test-files-0.26-r1.apk
+checksum	Q1LqVDexm2n/FXjgd+3qSA1/qsjwQ=
+dep	perl	perl
+dep	perl-class-xsaccessor	perl-class-xsaccessor
+dep	perl-const-fast	perl-const-fast
+dep	perl-data-compare	perl-data-compare
+dep	perl-file-chdir	perl-file-chdir
+dep	perl-padwalker	perl-padwalker
+dep	perl-path-tiny	perl-path-tiny
+dep	perl-text-diff	perl-text-diff

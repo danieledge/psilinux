@@ -1,0 +1,20 @@
+name	phosh-tour
+version	0.55.0-r0
+description	Simple introduction to Phosh
+url	https://gitlab.gnome.org/World/Phosh/phosh-tour
+license	GPL-3.0-or-later
+size	42383
+installed-size	212527
+depends	so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmobile.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8
+origin	phosh-tour
+repo	community
+file	phosh-tour-0.55.0-r0.apk
+checksum	Q1LH4Q3PThCtzx1kmWVRF/UWFjvMc=
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmobile.so.0	gmobile
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl

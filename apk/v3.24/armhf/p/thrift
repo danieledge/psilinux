@@ -1,0 +1,15 @@
+name	thrift
+version	0.23.0-r0
+description	Language-independent software stack for RPC implementation
+url	https://thrift.apache.org/
+license	Apache-2.0
+size	1180184
+installed-size	2606544
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	thrift
+repo	community
+file	thrift-0.23.0-r0.apk
+checksum	Q1bygqydD6DPenDqtbhjc4wmdtQV4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,16 @@
+name	libraqm
+version	0.10.2-r0
+description	A library that encapsulates the logic for complex text layout
+url	https://github.com/HOST-Oman/libraqm/
+license	MIT
+size	10153
+installed-size	17580
+depends	so:libc.musl-armhf.so.1 so:libfreetype.so.6 so:libfribidi.so.0 so:libharfbuzz.so.0
+origin	libraqm
+repo	community
+file	libraqm-0.10.2-r0.apk
+checksum	Q1dbO2fXj9h1KtH3+QlmsXG13yAjA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreetype.so.6	freetype
+dep	so:libfribidi.so.0	fribidi
+dep	so:libharfbuzz.so.0	harfbuzz

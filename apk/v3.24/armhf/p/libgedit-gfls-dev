@@ -1,0 +1,15 @@
+name	libgedit-gfls-dev
+version	0.4.1-r0
+description	Gedit Technology — file loading and saving (development files)
+url	https://gitlab.gnome.org/World/gedit/libgedit-gfls
+license	LGPL-3.0-or-later
+size	18788
+installed-size	106860
+depends	libgedit-gfls=0.4.1-r0 pc:gio-2.0>=2.78 pkgconfig
+origin	libgedit-gfls
+repo	community
+file	libgedit-gfls-dev-0.4.1-r0.apk
+checksum	Q1GTff2+iYcjeSMxe+4nNUbFqJDzg=
+dep	libgedit-gfls=0.4.1-r0	libgedit-gfls
+dep	pc:gio-2.0>=2.78	glib-dev
+dep	pkgconfig	pkgconf

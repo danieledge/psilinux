@@ -1,0 +1,12 @@
+name	samurai-dbg
+version	1.2-r8
+description	ninja-compatible build tool written in C (debug symbols)
+url	https://github.com/michaelforney/samurai
+license	Apache-2.0
+size	75025
+installed-size	158408
+depends	!samurai<1.2-r8 !samurai>1.2-r8
+origin	samurai
+repo	main
+file	samurai-dbg-1.2-r8.apk
+checksum	Q1w1tbOrUUQbu3f4AGm2vDWnn/r3c=

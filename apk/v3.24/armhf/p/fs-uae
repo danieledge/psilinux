@@ -1,0 +1,24 @@
+name	fs-uae
+version	3.1.66-r2
+description	Amiga emulator.
+url	https://fs-uae.net/
+license	GPL-2.0-only
+size	4652679
+installed-size	12633902
+depends	so:libSDL2-2.0.so.0 so:libX11.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libintl.so.8 so:libmpeg2.so.0 so:libmpeg2convert.so.0 so:libopenal.so.1 so:libpng16.so.16 so:libstdc++.so.6 so:libz.so.1
+origin	fs-uae
+repo	community
+file	fs-uae-3.1.66-r2.apk
+checksum	Q197WPzDxsPIs0xnT+4QGAJZ5mwJ0=
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libmpeg2.so.0	libmpeg2
+dep	so:libmpeg2convert.so.0	libmpeg2
+dep	so:libopenal.so.1	openal-soft-libs
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

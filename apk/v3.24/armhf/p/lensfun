@@ -1,0 +1,16 @@
+name	lensfun
+version	0.3.4-r2
+description	Image manipulation library to rectify lens defects
+url	https://lensfun.github.io/
+license	LGPL-3.0-or-later
+size	488764
+installed-size	4341362
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libstdc++.so.6
+origin	lensfun
+repo	community
+file	lensfun-0.3.4-r2.apk
+checksum	Q1rbDeZRDDVrXa8ZGtVAD1Dlgj28g=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libstdc++.so.6	libstdc++

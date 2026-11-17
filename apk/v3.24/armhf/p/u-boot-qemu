@@ -1,0 +1,13 @@
+name	u-boot-qemu
+version	2026.04-r1
+description	u-boot for qemu
+url	https://www.denx.de/wiki/U-Boot/
+license	GPL-2.0-or-later OFL-1.1 BSD-2-Clause BSD-3-Clause WITH eCos-exception-2.0 IBM-pibs ISC LGPL-2.0-only LGPL-2.1-only X11
+size	565799
+installed-size	1293816
+depends	u-boot
+origin	u-boot
+repo	main
+file	u-boot-qemu-2026.04-r1.apk
+checksum	Q1DeF598c/LRDEgdCDrbpfxG55Xx4=
+dep	u-boot	u-boot

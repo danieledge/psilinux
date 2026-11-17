@@ -1,0 +1,12 @@
+name	gnome-software-dbg
+version	50.3-r0
+description	Software lets you install and update applications and system extensions (debug symbols)
+url	https://apps.gnome.org/Software
+license	GPL-2.0-or-later
+size	2922026
+installed-size	7104500
+depends	!gnome-software-lib<50.3-r0 !gnome-software-lib>50.3-r0 !gnome-software-plugin-flatpak<50.3-r0 !gnome-software-plugin-flatpak>50.3-r0 !gnome-software-plugin-sysupdate<50.3-r0 !gnome-software-plugin-sysupdate>50.3-r0 !gnome-software<50.3-r0 !gnome-software>50.3-r0
+origin	gnome-software
+repo	community
+file	gnome-software-dbg-50.3-r0.apk
+checksum	Q1CCBGrdIPIF7KJbCnhcRCIAMIY40=

@@ -1,0 +1,15 @@
+name	py3-mongo
+version	4.6.0-r2
+description	Python3 driver for MongoDB
+url	https://github.com/mongodb/mongo-python-driver
+license	Apache-2.0
+size	423010
+installed-size	1766156
+depends	py3-dnspython python3~3.14 so:libc.musl-armhf.so.1
+origin	py3-mongo
+repo	community
+file	py3-mongo-4.6.0-r2.apk
+checksum	Q152f1Hv6EMUvBYxFOjkb71Ihutp8=
+dep	py3-dnspython	py3-dnspython
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

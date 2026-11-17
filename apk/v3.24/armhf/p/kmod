@@ -1,0 +1,18 @@
+name	kmod
+version	34.2-r1
+description	Linux kernel module management utilities
+url	http://git.kernel.org/?p=utils/kernel/kmod/kmod.git;a=summary
+license	GPL-2.0-or-later
+size	65045
+installed-size	128456
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:liblzma.so.5 so:libz.so.1 so:libzstd.so.1
+origin	kmod
+repo	main
+file	kmod-34.2-r1.apk
+checksum	Q1I9A/xqRndBbfLQdP5sJjv7ohkCA=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:liblzma.so.5	xz-libs
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

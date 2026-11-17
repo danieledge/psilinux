@@ -1,0 +1,23 @@
+name	cairomm-dev
+version	1.18.1-r0
+description	C++ bindings to Cairo vector graphics library (development files)
+url	https://www.cairographics.org
+license	LGPL-2.0-or-later AND MPL-1.1
+size	59349
+installed-size	237842
+depends	cairomm=1.18.1-r0 pc:cairo-ft pc:cairo-pdf pc:cairo-png pc:cairo-ps pc:cairo-svg pc:cairo-xlib pc:cairo-xlib-xrender pc:cairo>=1.14.0 pc:sigc++-3.0>=3.0.0 pkgconfig
+origin	cairomm
+repo	community
+file	cairomm-dev-1.18.1-r0.apk
+checksum	Q1EO82XJtSkVpc9kvtswS+B2x8JF0=
+dep	cairomm=1.18.1-r0	cairomm
+dep	pc:cairo-ft	cairo-dev
+dep	pc:cairo-pdf	cairo-dev
+dep	pc:cairo-png	cairo-dev
+dep	pc:cairo-ps	cairo-dev
+dep	pc:cairo-svg	cairo-dev
+dep	pc:cairo-xlib	cairo-dev
+dep	pc:cairo-xlib-xrender	cairo-dev
+dep	pc:cairo>=1.14.0	cairo-dev
+dep	pc:sigc++-3.0>=3.0.0	libsigc++3-dev
+dep	pkgconfig	pkgconf

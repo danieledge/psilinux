@@ -1,0 +1,14 @@
+name	pystring-dev
+version	1.1.5-r0
+description	C++ functions matching the interface and behavior of python string methods with std::string (development files)
+url	https://github.com/imageworks/pystring
+license	BSD-3-Clause
+size	6461
+installed-size	25203
+depends	pystring=1.1.5-r0 pkgconfig
+origin	pystring
+repo	community
+file	pystring-dev-1.1.5-r0.apk
+checksum	Q1I0WzRPAf+lyM5SGSVl4r4isT588=
+dep	pystring=1.1.5-r0	pystring
+dep	pkgconfig	pkgconf

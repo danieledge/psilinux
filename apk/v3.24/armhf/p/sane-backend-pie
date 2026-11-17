@@ -1,0 +1,14 @@
+name	sane-backend-pie
+version	1.4.0-r4
+description	SANE backend for PIE, Devcom and AdLib SCSI flatbed scanners 
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	38246
+installed-size	76173
+depends	sane so:libc.musl-armhf.so.1
+origin	sane
+repo	community
+file	sane-backend-pie-1.4.0-r4.apk
+checksum	Q1CaAc4Mb2YrvhxPnT3jsqXY8/grM=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl

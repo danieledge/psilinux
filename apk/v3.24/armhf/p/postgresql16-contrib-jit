@@ -1,0 +1,13 @@
+name	postgresql16-contrib-jit
+version	16.16-r0
+description	Extension modules distributed with PostgreSQL (JIT support)
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	1709146
+installed-size	3153076
+depends	postgresql16-contrib=16.16-r0
+origin	postgresql16
+repo	community
+file	postgresql16-contrib-jit-16.16-r0.apk
+checksum	Q1aU6UF1xpEPwAxulDXKjhflbOwEQ=
+dep	postgresql16-contrib=16.16-r0	postgresql16-contrib

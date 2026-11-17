@@ -1,0 +1,14 @@
+name	font-noto-syriac
+version	2026.11.01-r0
+description	Noto Sans Syriac, Syriac Eastern and Syriac Western fonts
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	284921
+installed-size	646209
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-syriac-2026.11.01-r0.apk
+checksum	Q1vFcA/yqEV8S4XjeSSOi3f/HoCQo=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

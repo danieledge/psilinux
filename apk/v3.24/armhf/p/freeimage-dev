@@ -1,0 +1,13 @@
+name	freeimage-dev
+version	3.18.0-r5
+description	Open Source library project for developers who would like to support popular graphics image formats. (development files)
+url	https://freeimage.sourceforge.net/
+license	GPL-2.0-or-later AND FreeImage
+size	2895500
+installed-size	9716848
+depends	freeimage=3.18.0-r5
+origin	freeimage
+repo	community
+file	freeimage-dev-3.18.0-r5.apk
+checksum	Q196f9iNOVkDRU7pGMyj7eHmpgDYo=
+dep	freeimage=3.18.0-r5	freeimage

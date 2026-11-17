@@ -1,0 +1,16 @@
+name	nx-libs-dev
+version	3.5.99.27-r2
+description	NoMachine libraries (redistributed by x2go) (development files)
+url	http://x2go.org
+license	GPL-2.0-or-later
+size	1429227
+installed-size	4001566
+depends	nx-libs=3.5.99.27-r2 pc:libpng pc:x11 pkgconfig
+origin	nx-libs
+repo	community
+file	nx-libs-dev-3.5.99.27-r2.apk
+checksum	Q1RK/qNF36INIhTGzZYKsOiNintUs=
+dep	nx-libs=3.5.99.27-r2	nx-libs
+dep	pc:libpng	libpng-dev
+dep	pc:x11	libx11-dev
+dep	pkgconfig	pkgconf

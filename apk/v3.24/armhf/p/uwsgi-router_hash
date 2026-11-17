@@ -1,0 +1,14 @@
+name	uwsgi-router_hash
+version	2.0.31-r2
+description	uWSGI plugin router_hash
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	4106
+installed-size	5444
+depends	uwsgi so:libc.musl-armhf.so.1
+origin	uwsgi
+repo	main
+file	uwsgi-router_hash-2.0.31-r2.apk
+checksum	Q1dr+AnVEhUO2ibibhKrA4p+Q0kwI=
+dep	uwsgi	uwsgi
+dep	so:libc.musl-armhf.so.1	musl

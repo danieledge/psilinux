@@ -1,0 +1,13 @@
+name	unarj
+version	2.65-r2
+description	Extracting, testing and  viewing the contents of archives created with the ARJ archiver
+url	http://www.arjsoftware.com
+license	custom
+size	14262
+installed-size	22364
+depends	so:libc.musl-armhf.so.1
+origin	unarj
+repo	community
+file	unarj-2.65-r2.apk
+checksum	Q1YCiYONBM0VmgHd4n+06n6qZLCHM=
+dep	so:libc.musl-armhf.so.1	musl

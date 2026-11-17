@@ -1,0 +1,14 @@
+name	bird-lg-go
+version	1.4.5-r3
+description	BIRD looking glass in Go
+url	https://github.com/xddxdd/bird-lg-go
+license	GPL-3.0-only
+size	4850390
+installed-size	12915293
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	bird-lg-go
+repo	community
+file	bird-lg-go-1.4.5-r3.apk
+checksum	Q1Bus7mYmVlUW+sq1yUXEWwvL/uow=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,24 @@
+name	greetd-gtkgreet
+version	0.8-r0
+description	GTK-based greeter for greetd
+url	https://git.sr.ht/~kennylevinsen/gtkgreet
+license	GPL-3.0-only
+size	11270
+installed-size	21924
+depends	greetd so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgtk-layer-shell.so.0 so:libintl.so.8 so:libjson-c.so.5
+origin	greetd-gtkgreet
+repo	community
+file	greetd-gtkgreet-0.8-r0.apk
+checksum	Q1DvYOKjFYE65WSXlJAXkO89/b1R4=
+dep	greetd	greetd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtk-layer-shell.so.0	gtk-layer-shell
+dep	so:libintl.so.8	libintl
+dep	so:libjson-c.so.5	json-c

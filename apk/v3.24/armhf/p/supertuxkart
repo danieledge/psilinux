@@ -1,0 +1,29 @@
+name	supertuxkart
+version	1.5-r1
+description	Kart racing game featuring Tux and his friends
+url	https://supertuxkart.net/
+license	GPL-3.0-or-later
+size	4114100
+installed-size	9104389
+depends	supertuxkart-data so:libSDL2-2.0.so.0 so:libbluetooth.so.3 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libfreetype.so.6 so:libgcc_s.so.1 so:libharfbuzz.so.0 so:libjpeg.so.8 so:libopenal.so.1 so:libpng16.so.16 so:libshaderc_shared.so.1 so:libsqlite3.so.0 so:libstdc++.so.6 so:libvorbisfile.so.3 so:libz.so.1
+origin	supertuxkart
+repo	community
+file	supertuxkart-1.5-r1.apk
+checksum	Q1IqNb+8a28eM2/DMntpE2w8uQq2Q=
+dep	supertuxkart-data	supertuxkart-data
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libbluetooth.so.3	bluez-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libopenal.so.1	openal-soft-libs
+dep	so:libpng16.so.16	libpng
+dep	so:libshaderc_shared.so.1	shaderc
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libvorbisfile.so.3	libvorbis
+dep	so:libz.so.1	zlib

@@ -1,0 +1,20 @@
+name	libarrow_dataset
+version	23.0.1-r2
+description	multi-language toolbox for accelerated data interchange and in-memory processing (libarrow_dataset library)
+url	https://arrow.apache.org/
+license	Apache-2.0
+size	498853
+installed-size	1619376
+depends	apache-arrow=23.0.1-r2 so:libarrow.so.2300 so:libarrow_acero.so.2300 so:libarrow_compute.so.2300 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libparquet.so.2300 so:libstdc++.so.6
+origin	apache-arrow
+repo	community
+file	libarrow_dataset-23.0.1-r2.apk
+checksum	Q1LB3TKes1SW7C1Bm5HgWWF+FAhCo=
+dep	apache-arrow=23.0.1-r2	apache-arrow
+dep	so:libarrow.so.2300	libarrow
+dep	so:libarrow_acero.so.2300	libarrow_acero
+dep	so:libarrow_compute.so.2300	apache-arrow
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libparquet.so.2300	libparquet
+dep	so:libstdc++.so.6	libstdc++

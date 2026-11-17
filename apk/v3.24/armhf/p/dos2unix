@@ -1,0 +1,13 @@
+name	dos2unix
+version	7.5.5-r0
+description	Text file format converters
+url	https://waterlan.home.xs4all.nl/dos2unix.html
+license	BSD-2-Clause
+size	36277
+installed-size	92512
+depends	so:libc.musl-armhf.so.1
+origin	dos2unix
+repo	community
+file	dos2unix-7.5.5-r0.apk
+checksum	Q1FdHzsLhxX7wENVBnJ2G/v/OhxTg=
+dep	so:libc.musl-armhf.so.1	musl

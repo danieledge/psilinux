@@ -1,0 +1,15 @@
+name	py3-prctl
+version	1.8.1-r1
+description	Interface to the Linux prctl syscall
+url	https://github.com/seveas/python-prctl
+license	GPL-3.0-or-later
+size	13222
+installed-size	28543
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libcap.so.2
+origin	py3-prctl
+repo	community
+file	py3-prctl-1.8.1-r1.apk
+checksum	Q19EPJCUkKx4ARSL/LVkFkQxc/9lo=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2

@@ -1,0 +1,20 @@
+name	dsme
+version	0.84.8-r0
+description	Device State Management Entity
+url	https://github.com/sailfishos/dsme
+license	LGPL-2.1-only
+size	155438
+installed-size	441008
+depends	so:libc.musl-armhf.so.1 so:libcryptsetup.so.12 so:libdbus-1.so.3 so:libdsme.so.0 so:libdsme_dbus_if.so.0 so:libglib-2.0.so.0 so:libngf0-0.24.so.0 so:libthermalmanager_dbus_if.so.0
+origin	dsme
+repo	community
+file	dsme-0.84.8-r0.apk
+checksum	Q1we75d1H0htePE0mYhbbU71awj2w=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcryptsetup.so.12	cryptsetup-libs
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libdsme.so.0	libdsme
+dep	so:libdsme_dbus_if.so.0	libdsme
+dep	so:libglib-2.0.so.0	glib
+dep	so:libngf0-0.24.so.0	libngf
+dep	so:libthermalmanager_dbus_if.so.0	libdsme

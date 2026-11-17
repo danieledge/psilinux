@@ -1,0 +1,14 @@
+name	py3-django-oscar-promotions
+version	1.0.0_beta1-r8
+description	Promotions for Django Oscar
+url	http://oscarcommerce.com/
+license	BSD-3-Clause
+size	19338
+installed-size	74679
+depends	py3-django-oscar python3~3.14
+origin	py3-django-oscar-promotions
+repo	community
+file	py3-django-oscar-promotions-1.0.0_beta1-r8.apk
+checksum	Q1o7ckCR7Z9ybhwyrdwOtXNIl6sRY=
+dep	py3-django-oscar	py3-django-oscar
+dep	python3~3.14	python3

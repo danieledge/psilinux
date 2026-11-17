@@ -1,0 +1,14 @@
+name	bzip3
+version	1.5.3-r0
+description	Better and stronger spiritual successor to BZip2
+url	https://github.com/iczelia/bzip3
+license	LGPL-3.0-or-later
+size	14966
+installed-size	29941
+depends	so:libbzip3.so.1 so:libc.musl-armhf.so.1
+origin	bzip3
+repo	community
+file	bzip3-1.5.3-r0.apk
+checksum	Q1a80io79QDbpBicNqPlI4zqZR+r4=
+dep	so:libbzip3.so.1	bzip3-libs
+dep	so:libc.musl-armhf.so.1	musl

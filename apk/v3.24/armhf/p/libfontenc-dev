@@ -1,0 +1,16 @@
+name	libfontenc-dev
+version	1.1.9-r0
+description	X11 font encoding library (development files)
+url	https://xorg.freedesktop.org/
+license	MIT
+size	4213
+installed-size	5297
+depends	libfontenc=1.1.9-r0 pc:xproto>=1.0.0 pc:zlib pkgconfig
+origin	libfontenc
+repo	main
+file	libfontenc-dev-1.1.9-r0.apk
+checksum	Q1zmD16o2i6m1Indx5bfDS1tMfmKk=
+dep	libfontenc=1.1.9-r0	libfontenc
+dep	pc:xproto>=1.0.0	xorgproto
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

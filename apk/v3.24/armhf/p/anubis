@@ -1,0 +1,13 @@
+name	anubis
+version	1.25.0-r5
+description	Block AI scrapers using a sha256 proof-of-work challenge
+url	https://github.com/TecharoHQ/anubis
+license	MIT
+size	11914484
+installed-size	37327900
+depends	so:libc.musl-armhf.so.1
+origin	anubis
+repo	community
+file	anubis-1.25.0-r5.apk
+checksum	Q1Za2Rm+K2evj4skXFchxxyQlZpaE=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,63 @@
+name	zoneminder
+version	1.38.1-r0
+description	Video camera surveillance system
+url	https://www.zoneminder.com/
+license	GPL-2.0-or-later
+size	16586696
+installed-size	69357086
+depends	bash ffmpeg linux-headers perl perl-archive-zip perl-crypt-eksblowfish perl-data-entropy perl-data-uuid perl-date-manip perl-dbd-mysql perl-dbi perl-device-serialport perl-libwww perl-lwp-protocol-https perl-mailtools perl-mime-lite perl-mime-tools perl-number-bytes-human perl-php-serialization perl-sys-meminfo perl-sys-mmap perl-time-hires perl-sys-cpu perl-json-maybexs php83 php83-apcu php83-ctype php83-gd php83-intl php83-pdo_mysql php83-session php83-sockets php83-sysvsem procps sudo-virt zip so:libavcodec.so.61 so:libavdevice.so.61 so:libavformat.so.61 so:libavutil.so.59 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgcc_s.so.1 so:libjpeg.so.8 so:libmariadb.so.3 so:libpcre2-8.so.0 so:libstdc++.so.6 so:libswresample.so.5 so:libswscale.so.8 so:libz.so.1
+origin	zoneminder
+repo	community
+file	zoneminder-1.38.1-r0.apk
+checksum	Q11WIy9OvFwtpXVezuKxHWreZjeBo=
+dep	bash	bash
+dep	ffmpeg	ffmpeg
+dep	linux-headers	linux-headers
+dep	perl	perl
+dep	perl-archive-zip	perl-archive-zip
+dep	perl-crypt-eksblowfish	perl-crypt-eksblowfish
+dep	perl-data-entropy	perl-data-entropy
+dep	perl-data-uuid	perl-data-uuid
+dep	perl-date-manip	perl-date-manip
+dep	perl-dbd-mysql	perl-dbd-mysql
+dep	perl-dbi	perl-dbi
+dep	perl-device-serialport	perl-device-serialport
+dep	perl-libwww	perl-libwww
+dep	perl-lwp-protocol-https	perl-lwp-protocol-https
+dep	perl-mailtools	perl-mailtools
+dep	perl-mime-lite	perl-mime-lite
+dep	perl-mime-tools	perl-mime-tools
+dep	perl-number-bytes-human	perl-number-bytes-human
+dep	perl-php-serialization	perl-php-serialization
+dep	perl-sys-meminfo	perl-sys-meminfo
+dep	perl-sys-mmap	perl-sys-mmap
+dep	perl-time-hires	perl-time-hires
+dep	perl-sys-cpu	perl-sys-cpu
+dep	perl-json-maybexs	perl-json-maybexs
+dep	php83	php83
+dep	php83-apcu	php83-pecl-apcu
+dep	php83-ctype	php83-ctype
+dep	php83-gd	php83-gd
+dep	php83-intl	php83-intl
+dep	php83-pdo_mysql	php83-pdo_mysql
+dep	php83-session	php83-session
+dep	php83-sockets	php83-sockets
+dep	php83-sysvsem	php83-sysvsem
+dep	procps	procps-ng
+dep	sudo-virt	sudo
+dep	zip	zip
+dep	so:libavcodec.so.61	ffmpeg7-libavcodec
+dep	so:libavdevice.so.61	ffmpeg7-libavdevice
+dep	so:libavformat.so.61	ffmpeg7-libavformat
+dep	so:libavutil.so.59	ffmpeg7-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libmariadb.so.3	mariadb-connector-c
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libswresample.so.5	ffmpeg7-libswresample
+dep	so:libswscale.so.8	ffmpeg7-libswscale
+dep	so:libz.so.1	zlib

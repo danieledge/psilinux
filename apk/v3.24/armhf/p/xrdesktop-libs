@@ -1,0 +1,21 @@
+name	xrdesktop-libs
+version	0.16.0-r6
+description	A library for XR interaction with traditional desktop compositors (libraries)
+url	https://gitlab.freedesktop.org/xrdesktop/xrdesktop
+license	MIT AND CC-BY-SA-4.0
+size	27390
+installed-size	83220
+depends	so:libc.musl-armhf.so.1 so:libg3k-0.16.so.0 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgulkan-0.16.so.0 so:libgxr-0.16.so.0
+origin	xrdesktop
+repo	community
+file	xrdesktop-libs-0.16.0-r6.apk
+checksum	Q187zc4f1T/vcOFkKBptgDWha38Yo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libg3k-0.16.so.0	g3k
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgulkan-0.16.so.0	gulkan-libs
+dep	so:libgxr-0.16.so.0	gxr

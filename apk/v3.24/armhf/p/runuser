@@ -1,0 +1,17 @@
+name	runuser
+version	2.42.3-r1
+description	Run a program with substitute user and group ID
+url	https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+license	GPL-2.0-or-later
+size	21911
+installed-size	46464
+depends	so:libc.musl-armhf.so.1 so:libeconf.so.0 so:libpam.so.0 so:libpam_misc.so.0 so:libutmps.so.0.1
+origin	util-linux
+repo	main
+file	runuser-2.42.3-r1.apk
+checksum	Q1VBgETm1nJrsgZxbS2SwWbhph94w=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libeconf.so.0	libeconf
+dep	so:libpam.so.0	linux-pam
+dep	so:libpam_misc.so.0	linux-pam
+dep	so:libutmps.so.0.1	utmps-libs

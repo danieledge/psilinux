@@ -1,0 +1,20 @@
+name	elogind
+version	255.24-r0
+description	Standalone fork of systemd's elogind
+url	https://github.com/elogind/elogind
+license	GPL-2.0-or-later LGPL-2.1-or-later
+size	336117
+installed-size	787542
+depends	dbus shadow busctl=255.24-r0 so:libc.musl-armhf.so.1 so:libcap.so.2 so:libelogind-shared-255.24.so so:libpam.so.0 so:libpam_misc.so.0
+origin	elogind
+repo	community
+file	elogind-255.24-r0.apk
+checksum	Q1W9C8oXUA7dhJ338wLy4ZWfd2L78=
+dep	dbus	dbus
+dep	shadow	shadow
+dep	busctl=255.24-r0	busctl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libelogind-shared-255.24.so	elogind-common
+dep	so:libpam.so.0	linux-pam
+dep	so:libpam_misc.so.0	linux-pam

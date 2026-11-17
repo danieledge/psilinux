@@ -1,0 +1,13 @@
+name	cloud-init-pyc
+version	26.1-r3
+description	Precompiled Python bytecode for cloud-init
+url	https://cloud-init.io
+license	Apache-2.0 OR GPL-3.0-only
+size	921047
+installed-size	2158002
+depends	python3~3.14
+origin	cloud-init
+repo	community
+file	cloud-init-pyc-26.1-r3.apk
+checksum	Q1FklgJlzK/OAoAPf2YENu/UfwPhc=
+dep	python3~3.14	python3

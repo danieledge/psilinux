@@ -1,0 +1,27 @@
+name	loupe
+version	50.0-r0
+description	Image viewer application written with GTK 4 and Rust
+url	https://gitlab.gnome.org/GNOME/loupe
+license	GPL-3.0-or-later
+size	1862659
+installed-size	4255883
+depends	glycin-image-rs so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libfontconfig.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libgweather-4.so.0 so:libintl.so.8 so:liblcms2.so.2 so:libseccomp.so.2
+origin	loupe
+repo	community
+file	loupe-50.0-r0.apk
+checksum	Q1OcYHO8NTUtRikZDd5vK+Ngkb3IQ=
+dep	glycin-image-rs	glycin-image-rs
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libgweather-4.so.0	libgweather4
+dep	so:libintl.so.8	libintl
+dep	so:liblcms2.so.2	lcms2
+dep	so:libseccomp.so.2	libseccomp

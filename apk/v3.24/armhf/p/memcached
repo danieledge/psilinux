@@ -1,0 +1,17 @@
+name	memcached
+version	1.6.42-r0
+description	Distributed memory object caching system
+url	https://memcached.org/
+license	BSD-3-Clause
+size	142207
+installed-size	272884
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libevent-2.1.so.7 so:libsasl2.so.3 so:libseccomp.so.2
+origin	memcached
+repo	main
+file	memcached-1.6.42-r0.apk
+checksum	Q1zr0nWqoLMxEqXfFGJQVs86vFa9Q=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevent-2.1.so.7	libevent
+dep	so:libsasl2.so.3	libsasl
+dep	so:libseccomp.so.2	libseccomp

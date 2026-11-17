@@ -1,0 +1,16 @@
+name	the_silver_searcher
+version	2.2.0-r1
+description	A code searching tool similar to ack, with a focus on speed.
+url	https://geoff.greer.fm/ag/
+license	Apache-2.0
+size	32415
+installed-size	69400
+depends	so:libc.musl-armhf.so.1 so:liblzma.so.5 so:libpcre.so.1 so:libz.so.1
+origin	the_silver_searcher
+repo	community
+file	the_silver_searcher-2.2.0-r1.apk
+checksum	Q1QgHTSqx43AdDbomwAzdr1DEXnkY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblzma.so.5	xz-libs
+dep	so:libpcre.so.1	pcre
+dep	so:libz.so.1	zlib

@@ -1,0 +1,26 @@
+name	sc-controller
+version	0.5.5-r1
+description	User-mode driver and GTK3 based GUI for the Steam Controller
+url	https://github.com/C0rn3j/sc-controller
+license	GPL-2.0-only
+size	1327867
+installed-size	5001142
+depends	gtk+3.0 gtk-layer-shell libayatana-appindicator librsvg py3-cairo py3-evdev py3-gobject3 py3-ioctl-opt py3-libacl py3-libusb1 py3-vdf python3~3.14 so:libc.musl-armhf.so.1 so:libz.so.1
+origin	sc-controller
+repo	community
+file	sc-controller-0.5.5-r1.apk
+checksum	Q17fGNeod3kkcfLJXM11+ed7lg9Qo=
+dep	gtk+3.0	gtk+3.0
+dep	gtk-layer-shell	gtk-layer-shell
+dep	libayatana-appindicator	libayatana-appindicator
+dep	librsvg	librsvg
+dep	py3-cairo	py3-cairo
+dep	py3-evdev	py3-evdev
+dep	py3-gobject3	py3-gobject3
+dep	py3-ioctl-opt	py3-ioctl-opt
+dep	py3-libacl	py3-libacl
+dep	py3-libusb1	py3-libusb1
+dep	py3-vdf	py3-vdf
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libz.so.1	zlib

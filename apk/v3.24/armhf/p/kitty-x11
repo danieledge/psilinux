@@ -1,0 +1,20 @@
+name	kitty-x11
+version	0.47.0-r2
+description	Kitty GLFW backend for X11
+url	https://sw.kovidgoyal.net/kitty/
+license	GPL-3.0-only
+size	103986
+installed-size	306060
+depends	kitty=0.47.0-r2 so:libX11-xcb.so.1 so:libX11.so.6 so:libXcursor.so.1 so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libxkbcommon-x11.so.0 so:libxkbcommon.so.0
+origin	kitty
+repo	community
+file	kitty-x11-0.47.0-r2.apk
+checksum	Q1Tfk7opyLtzcXL12/aYp9Jfy1It0=
+dep	kitty=0.47.0-r2	kitty
+dep	so:libX11-xcb.so.1	libx11
+dep	so:libX11.so.6	libx11
+dep	so:libXcursor.so.1	libxcursor
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libxkbcommon-x11.so.0	libxkbcommon-x11
+dep	so:libxkbcommon.so.0	libxkbcommon

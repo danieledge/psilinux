@@ -1,0 +1,15 @@
+name	xrdb
+version	1.2.2-r0
+description	X server resource database utility
+url	https://xorg.freedesktop.org/
+license	MIT
+size	12994
+installed-size	25832
+depends	so:libX11.so.6 so:libXmuu.so.1 so:libc.musl-armhf.so.1
+origin	xrdb
+repo	community
+file	xrdb-1.2.2-r0.apk
+checksum	Q1B76+zj3o8/oCR+ZLcY02+9G6Lyk=
+dep	so:libX11.so.6	libx11
+dep	so:libXmuu.so.1	libxmu
+dep	so:libc.musl-armhf.so.1	musl

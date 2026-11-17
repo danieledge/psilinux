@@ -1,0 +1,15 @@
+name	py3-wand
+version	0.7.0-r1
+description	Ctypes-based simple MagickWand API binding for Python
+url	https://github.com/emcconville/wand
+license	MIT
+size	138422
+installed-size	723942
+depends	imagemagick libxml2 python3~3.14
+origin	py3-wand
+repo	community
+file	py3-wand-0.7.0-r1.apk
+checksum	Q14vbMQZPgRQ429gQpozGw0JSUAt8=
+dep	imagemagick	imagemagick
+dep	libxml2	libxml2
+dep	python3~3.14	python3

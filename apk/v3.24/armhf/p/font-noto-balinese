@@ -1,0 +1,14 @@
+name	font-noto-balinese
+version	2026.11.01-r0
+description	Noto Sans Balinese and Serif Balinese fonts
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	199954
+installed-size	421419
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-balinese-2026.11.01-r0.apk
+checksum	Q16houXvPGILMOC+76RvbYKEWavDg=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

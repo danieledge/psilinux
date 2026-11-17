@@ -1,0 +1,20 @@
+name	glibmm2.66
+version	2.66.8-r0
+description	C++ wrapper for the GLib toolkit
+url	https://www.gtkmm.org/
+license	LGPL-2.1-or-later
+size	574888
+installed-size	2011820
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libsigc-2.0.so.0 so:libstdc++.so.6
+origin	glibmm2.66
+repo	community
+file	glibmm2.66-2.66.8-r0.apk
+checksum	Q15zWs1zFBs0Jhy4muAclYHqpPPfw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libsigc-2.0.so.0	libsigc++
+dep	so:libstdc++.so.6	libstdc++

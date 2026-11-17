@@ -1,0 +1,18 @@
+name	perl-net-jabber-bot
+version	2.1.7-r1
+description	Automated Jabber Bot creation with safeties
+url	https://metacpan.org/release/Net-Jabber-Bot/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	13745
+installed-size	40317
+depends	perl perl-log-log4perl perl-moose perl-moosex-types perl-mozilla-ca perl-net-jabber
+origin	perl-net-jabber-bot
+repo	community
+file	perl-net-jabber-bot-2.1.7-r1.apk
+checksum	Q1suG27H86mhi9JVinGAle1zMuakk=
+dep	perl	perl
+dep	perl-log-log4perl	perl-log-log4perl
+dep	perl-moose	perl-moose
+dep	perl-moosex-types	perl-moosex-types
+dep	perl-mozilla-ca	perl-mozilla-ca
+dep	perl-net-jabber	perl-net-jabber

@@ -1,0 +1,14 @@
+name	ocaml-psq-dev
+version	0.2.0-r5
+description	Functional Priority Search Queues (development files)
+url	https://github.com/pqwy/psq
+license	ISC
+size	177616
+installed-size	431382
+depends	ocaml-psq=0.2.0-r5 ocaml-seq-dev
+origin	ocaml-psq
+repo	community
+file	ocaml-psq-dev-0.2.0-r5.apk
+checksum	Q1mrx1XMvPN+AH1PAqdjkXBGEnzSw=
+dep	ocaml-psq=0.2.0-r5	ocaml-psq
+dep	ocaml-seq-dev	ocaml-seq-dev

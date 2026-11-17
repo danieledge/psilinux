@@ -1,0 +1,13 @@
+name	devicemaster-linux
+version	7.34-r4
+description	Userspace tools for NS-Link Device Drivers
+url	https://www.comtrol.com/resources/product-resources-white-papers/ns-link-device-drivers
+license	GPL-2.0-or-later
+size	41627
+installed-size	114559
+depends	so:libc.musl-armhf.so.1
+origin	devicemaster-linux
+repo	main
+file	devicemaster-linux-7.34-r4.apk
+checksum	Q1BlKmBd19baKqkNEHt5F2kvtCmNU=
+dep	so:libc.musl-armhf.so.1	musl

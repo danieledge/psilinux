@@ -1,0 +1,13 @@
+name	busybox-binsh
+version	1.37.0-r31
+description	busybox ash /bin/sh
+url	https://busybox.net/
+license	GPL-2.0-only
+size	1545
+installed-size	1
+depends	busybox=1.37.0-r31
+origin	busybox
+repo	main
+file	busybox-binsh-1.37.0-r31.apk
+checksum	Q1ax93IqPnu5fQTo75Bv1ywGZ7pdA=
+dep	busybox=1.37.0-r31	busybox

@@ -1,0 +1,21 @@
+name	py3-gevent
+version	26.4.0-r0
+description	Python3 library for seamless coroutine-based concurrency
+url	https://www.gevent.org/
+license	MIT
+size	1118427
+installed-size	3163474
+depends	py3-cffi py3-greenlet py3-zope-event py3-zope-interface python3~3.14 so:libc.musl-armhf.so.1 so:libcares.so.2 so:libev.so.4 so:libuv.so.1
+origin	py3-gevent
+repo	community
+file	py3-gevent-26.4.0-r0.apk
+checksum	Q1Qq4/ZUL/kVDUqJ/ltQHCa4PKP3s=
+dep	py3-cffi	py3-cffi
+dep	py3-greenlet	py3-greenlet
+dep	py3-zope-event	py3-zope-event
+dep	py3-zope-interface	py3-zope-interface
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcares.so.2	c-ares
+dep	so:libev.so.4	libev
+dep	so:libuv.so.1	libuv

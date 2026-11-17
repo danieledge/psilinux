@@ -1,0 +1,17 @@
+name	aws-c-http
+version	0.11.0-r0
+description	AWS C99 implementation of the HTTP/1.1 and HTTP/2 specifications
+url	https://github.com/awslabs/aws-c-http
+license	Apache-2.0
+size	134364
+installed-size	332296
+depends	so:libaws-c-cal.so.1.0.0 so:libaws-c-common.so.1 so:libaws-c-compression.so.1.0.0 so:libaws-c-io.so.1.0.0 so:libc.musl-armhf.so.1
+origin	aws-c-http
+repo	community
+file	aws-c-http-0.11.0-r0.apk
+checksum	Q1tclFRtPo0nb2gL8pV4RSZLL+ehE=
+dep	so:libaws-c-cal.so.1.0.0	aws-c-cal
+dep	so:libaws-c-common.so.1	aws-c-common
+dep	so:libaws-c-compression.so.1.0.0	aws-c-compression
+dep	so:libaws-c-io.so.1.0.0	aws-c-io
+dep	so:libc.musl-armhf.so.1	musl

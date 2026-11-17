@@ -1,0 +1,13 @@
+name	ocaml-perl-bridge-dev
+version	0.01-r8
+description	Perl embedded in OCaml (development files)
+url	https://github.com/stevan/ocaml-perl-bridge
+license	LGPL-2.0-or-later
+size	23535
+installed-size	75000
+depends	ocaml-perl-bridge=0.01-r8
+origin	ocaml-perl-bridge
+repo	community
+file	ocaml-perl-bridge-dev-0.01-r8.apk
+checksum	Q1FcnMRipwUzih21xLNfNUwsPSWdE=
+dep	ocaml-perl-bridge=0.01-r8	ocaml-perl-bridge

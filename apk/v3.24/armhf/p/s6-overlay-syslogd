@@ -1,0 +1,21 @@
+name	s6-overlay-syslogd
+version	3.2.3.0-r0
+description	s6 overlay for containers
+url	https://github.com/just-containers/s6-overlay
+license	ISC
+size	3977
+installed-size	1573
+depends	execline s6 s6-rc s6-linux-init s6-portable-utils s6-linux-utils s6-dns s6-networking s6-overlay-helpers
+origin	s6-overlay
+repo	community
+file	s6-overlay-syslogd-3.2.3.0-r0.apk
+checksum	Q1OqYnrgOjczPIi1aWtPLzUeng3ro=
+dep	execline	execline
+dep	s6	s6
+dep	s6-rc	s6-rc
+dep	s6-linux-init	s6-linux-init
+dep	s6-portable-utils	s6-portable-utils
+dep	s6-linux-utils	s6-linux-utils
+dep	s6-dns	s6-dns
+dep	s6-networking	s6-networking
+dep	s6-overlay-helpers	s6-overlay-helpers

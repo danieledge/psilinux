@@ -1,0 +1,18 @@
+name	s6-networking
+version	2.8.0.0-r0
+description	skarnet.org's UCSPI TCP and TLS tools, access control tools, and network time management utilities.
+url	https://skarnet.org/software/s6-networking/
+license	ISC
+size	67765
+installed-size	239540
+depends	so:libc.musl-armhf.so.1 so:libs6.so.2.15 so:libs6dns.so.2.4 so:libs6net.so.2.8 so:libsbearssl.so.2.8 so:libskarnet.so.2.15
+origin	s6-networking
+repo	main
+file	s6-networking-2.8.0.0-r0.apk
+checksum	Q1G35ANZzBu/3YsUHFflmO/zyPLPA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libs6.so.2.15	s6-libs
+dep	so:libs6dns.so.2.4	s6-dns-libs
+dep	so:libs6net.so.2.8	s6-networking-libs
+dep	so:libsbearssl.so.2.8	s6-networking-libs
+dep	so:libskarnet.so.2.15	skalibs-libs

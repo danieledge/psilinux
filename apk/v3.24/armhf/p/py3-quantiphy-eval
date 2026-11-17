@@ -1,0 +1,17 @@
+name	py3-quantiphy-eval
+version	0.5-r4
+description	Computations with Physical Quantities
+url	https://github.com/kenkundert/quantiphy_eval
+license	GPL-3.0-or-later
+size	8908
+installed-size	19099
+depends	python3 py3-quantiphy py3-inform py3-sly python3~3.14
+origin	py3-quantiphy-eval
+repo	community
+file	py3-quantiphy-eval-0.5-r4.apk
+checksum	Q1FicUPDw7frVvEocsixocXgXZJ10=
+dep	python3	python3
+dep	py3-quantiphy	py3-quantiphy
+dep	py3-inform	py3-inform
+dep	py3-sly	py3-sly
+dep	python3~3.14	python3

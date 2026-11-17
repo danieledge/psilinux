@@ -1,0 +1,13 @@
+name	faad2-libs
+version	2.11.2-r0
+description	ISO AAC audio decoder (libraries)
+url	https://github.com/knik0/faad2
+license	GPL-2.0-or-later
+size	313198
+installed-size	477728
+depends	so:libc.musl-armhf.so.1
+origin	faad2
+repo	community
+file	faad2-libs-2.11.2-r0.apk
+checksum	Q1G5DmotbGbi0ifQy2rfH4Jf3BDzg=
+dep	so:libc.musl-armhf.so.1	musl

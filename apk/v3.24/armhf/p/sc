@@ -1,0 +1,14 @@
+name	sc
+version	7.16-r9
+description	Speadsheet Calculator
+url	https://github.com/erithmetic/sc
+license	Public-Domain
+size	162981
+installed-size	377296
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	sc
+repo	main
+file	sc-7.16-r9.apk
+checksum	Q1XW4yywkYyrVvwWRbjYKKKK2M3lg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

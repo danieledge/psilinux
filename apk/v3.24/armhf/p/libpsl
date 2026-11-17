@@ -1,0 +1,15 @@
+name	libpsl
+version	0.21.5-r3
+description	C library for the Publix Suffix List
+url	https://rockdaboot.github.io/libpsl
+license	MIT
+size	54404
+installed-size	66788
+depends	so:libc.musl-armhf.so.1 so:libidn2.so.0 so:libunistring.so.5
+origin	libpsl
+repo	main
+file	libpsl-0.21.5-r3.apk
+checksum	Q1zsvGOcqjKJb19J6GgHeuduPkUT8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libidn2.so.0	libidn2
+dep	so:libunistring.so.5	libunistring

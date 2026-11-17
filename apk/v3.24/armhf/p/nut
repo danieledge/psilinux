@@ -1,0 +1,29 @@
+name	nut
+version	2.8.3-r5
+description	Network UPS tools
+url	https://networkupstools.org/
+license	GPL-2.0-or-later
+size	3770032
+installed-size	9485949
+depends	hidapi eudev udev-init-scripts-openrc /bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libltdl.so.7 so:libmodbus.so.5 so:libneon.so.27 so:libnetsnmp.so.45 so:libnspr4.so so:libnss3.so so:libplc4.so so:libplds4.so so:libssl3.so so:libstdc++.so.6 so:libusb-1.0.so.0
+origin	nut
+repo	community
+file	nut-2.8.3-r5.apk
+checksum	Q15DR177J7fZaBVMfVkdxQKFclLCY=
+dep	hidapi	hidapi
+dep	eudev	eudev
+dep	udev-init-scripts-openrc	udev-init-scripts-openrc
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libltdl.so.7	libltdl
+dep	so:libmodbus.so.5	libmodbus
+dep	so:libneon.so.27	neon
+dep	so:libnetsnmp.so.45	net-snmp-libs
+dep	so:libnspr4.so	nspr
+dep	so:libnss3.so	nss
+dep	so:libplc4.so	nspr
+dep	so:libplds4.so	nspr
+dep	so:libssl3.so	nss
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libusb-1.0.so.0	libusb

@@ -1,0 +1,15 @@
+name	augeas-libs
+version	1.14.1-r0
+description	Libraries for augeas
+url	http://augeas.net
+license	LGPL-2.1-or-later
+size	411144
+installed-size	1165515
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libxml2.so.2
+origin	augeas
+repo	main
+file	augeas-libs-1.14.1-r0.apk
+checksum	Q1lJ+9Hx8IyiaNHVBqMJEUq+BbpxA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libxml2.so.2	libxml2

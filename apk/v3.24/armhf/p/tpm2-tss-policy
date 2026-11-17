@@ -1,0 +1,18 @@
+name	tpm2-tss-policy
+version	4.1.2-r0
+description	TPM 2.0 policy library
+url	https://github.com/tpm2-software/tpm2-tss/
+license	BSD-2-Clause
+size	250864
+installed-size	659068
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libjson-c.so.5 so:libtss2-esys.so.0 so:libtss2-mu.so.0 so:libuuid.so.1
+origin	tpm2-tss
+repo	community
+file	tpm2-tss-policy-4.1.2-r0.apk
+checksum	Q1sU9b7uwtHE9Cab+lzHNsFBUzp34=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libjson-c.so.5	json-c
+dep	so:libtss2-esys.so.0	tpm2-tss-esys
+dep	so:libtss2-mu.so.0	tpm2-tss-mu
+dep	so:libuuid.so.1	libuuid

@@ -1,0 +1,28 @@
+name	spectrwm
+version	3.7.0-r1
+description	Dynamic, configurable tiling window manager for X11
+url	https://github.com/conformal/spectrwm
+license	ISC
+size	128959
+installed-size	293143
+depends	dmenu-virtual font-terminus so:libX11-xcb.so.1 so:libX11.so.6 so:libXcursor.so.1 so:libXft.so.2 so:libbsd.so.0 so:libc.musl-armhf.so.1 so:libfontconfig.so.1 so:libxcb-icccm.so.4 so:libxcb-keysyms.so.1 so:libxcb-randr.so.0 so:libxcb-util.so.1 so:libxcb-xinput.so.0 so:libxcb-xtest.so.0 so:libxcb.so.1
+origin	spectrwm
+repo	community
+file	spectrwm-3.7.0-r1.apk
+checksum	Q1qnYCFr8RuI3L4vaxGPCTo/cnAOI=
+dep	dmenu-virtual	dmenu
+dep	font-terminus	font-terminus
+dep	so:libX11-xcb.so.1	libx11
+dep	so:libX11.so.6	libx11
+dep	so:libXcursor.so.1	libxcursor
+dep	so:libXft.so.2	libxft
+dep	so:libbsd.so.0	libbsd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libxcb-icccm.so.4	xcb-util-wm
+dep	so:libxcb-keysyms.so.1	xcb-util-keysyms
+dep	so:libxcb-randr.so.0	libxcb
+dep	so:libxcb-util.so.1	xcb-util
+dep	so:libxcb-xinput.so.0	libxcb
+dep	so:libxcb-xtest.so.0	libxcb
+dep	so:libxcb.so.1	libxcb

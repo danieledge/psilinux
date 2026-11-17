@@ -1,0 +1,14 @@
+name	libdeflate-utils
+version	1.25-r0
+description	Command line utilities for the DEFLATE library
+url	https://github.com/ebiggers/libdeflate
+license	MIT
+size	9605
+installed-size	17588
+depends	so:libc.musl-armhf.so.1 so:libdeflate.so.0
+origin	libdeflate
+repo	community
+file	libdeflate-utils-1.25-r0.apk
+checksum	Q1/wGgkK92g3b/yhICIOIH7tmuqDA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdeflate.so.0	libdeflate

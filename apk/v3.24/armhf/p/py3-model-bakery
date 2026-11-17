@@ -1,0 +1,14 @@
+name	py3-model-bakery
+version	1.23.4-r0
+description	Smart object creation facility for Django
+url	https://pypi.python.org/project/model-bakary
+license	Apache-2.0
+size	26754
+installed-size	83578
+depends	py3-django python3~3.14
+origin	py3-model-bakery
+repo	community
+file	py3-model-bakery-1.23.4-r0.apk
+checksum	Q1MVtR+BuBU1jaoMjLP9jykxQYZyQ=
+dep	py3-django	py3-django
+dep	python3~3.14	python3

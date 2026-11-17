@@ -1,0 +1,13 @@
+name	poppler-data
+version	0.4.12-r0
+description	encoding data for the poppler PDF rendering library
+url	https://poppler.freedesktop.org/
+license	GPL-2.0-or-later AND BSD-3-Clause AND MIT
+size	4420107
+installed-size	12929438
+depends	pkgconfig
+origin	poppler-data
+repo	community
+file	poppler-data-0.4.12-r0.apk
+checksum	Q11rHdAVDLJkGThtl6qFvEJ5KtwCQ=
+dep	pkgconfig	pkgconf

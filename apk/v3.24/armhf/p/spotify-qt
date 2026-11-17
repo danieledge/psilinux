@@ -1,0 +1,20 @@
+name	spotify-qt
+version	4.0.3-r0
+description	Lightweight Spotify client using Qt
+url	https://github.com/kraxarn/spotify-qt
+license	GPL-3.0-or-later
+size	521648
+installed-size	1317700
+depends	so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	spotify-qt
+repo	community
+file	spotify-qt-4.0.3-r0.apk
+checksum	Q1i6oDsG2WflOY/EqRVFE9D+d9Fmc=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6DBus.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

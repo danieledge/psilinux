@@ -1,0 +1,19 @@
+name	perl-http-message
+version	7.02-r0
+description	HTTP style message
+url	https://metacpan.org/release/HTTP-Message/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	42882
+installed-size	137635
+depends	perl perl-clone>=0.46 perl-http-date perl-uri perl-io-html perl-encode-locale perl-lwp-mediatypes
+origin	perl-http-message
+repo	main
+file	perl-http-message-7.02-r0.apk
+checksum	Q1oF0oE/8s/PZ6vVEItrqScW6wA0w=
+dep	perl	perl
+dep	perl-clone>=0.46	perl-clone
+dep	perl-http-date	perl-http-date
+dep	perl-uri	perl-uri
+dep	perl-io-html	perl-io-html
+dep	perl-encode-locale	perl-encode-locale
+dep	perl-lwp-mediatypes	perl-lwp-mediatypes

@@ -1,0 +1,18 @@
+name	w3m
+version	0.5.6-r0
+description	text-based web & gopher browser, as well as pager
+url	https://sr.ht/~rkta/w3m/
+license	MIT
+size	962535
+installed-size	1521699
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgc.so.1 so:libncursesw.so.6 so:libssl.so.3 so:libz.so.1
+origin	w3m
+repo	community
+file	w3m-0.5.6-r0.apk
+checksum	Q1WpVX2U4slTnAVhh89u3dwUBma78=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgc.so.1	gc
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libssl.so.3	libssl3
+dep	so:libz.so.1	zlib

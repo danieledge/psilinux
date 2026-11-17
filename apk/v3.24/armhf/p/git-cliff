@@ -1,0 +1,15 @@
+name	git-cliff
+version	2.13.1-r1
+description	A highly customizable changelog generator
+url	https://github.com/orhun/git-cliff
+license	MIT OR Apache-2.0
+size	3103660
+installed-size	7419988
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgit2.so.1.9
+origin	git-cliff
+repo	community
+file	git-cliff-2.13.1-r1.apk
+checksum	Q1bgCjIBwIJ1kMPCp6cGI5M0+FCpU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgit2.so.1.9	libgit2

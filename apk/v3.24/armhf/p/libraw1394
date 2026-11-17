@@ -1,0 +1,13 @@
+name	libraw1394
+version	2.1.2-r5
+description	Library to provide access to Linux 1394 subsystem
+url	https://sourceforge.net/projects/libraw1394/
+license	LGPL-2.1-or-later
+size	23215
+installed-size	50296
+depends	so:libc.musl-armhf.so.1
+origin	libraw1394
+repo	community
+file	libraw1394-2.1.2-r5.apk
+checksum	Q1hG8RPJm7Iyadstj9RivknrZjsF0=
+dep	so:libc.musl-armhf.so.1	musl

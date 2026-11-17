@@ -1,0 +1,14 @@
+name	openimageio-dev
+version	3.1.13.1-r0
+description	Image I/O library supporting a multitude of image formats (development files)
+url	https://sites.google.com/site/openimageio/
+license	Apache-2.0
+size	577479
+installed-size	2603669
+depends	openimageio=3.1.13.1-r0 pkgconfig
+origin	openimageio
+repo	community
+file	openimageio-dev-3.1.13.1-r0.apk
+checksum	Q1hzButCB6tYAn/l0Pt2ZuA60bIN8=
+dep	openimageio=3.1.13.1-r0	openimageio
+dep	pkgconfig	pkgconf

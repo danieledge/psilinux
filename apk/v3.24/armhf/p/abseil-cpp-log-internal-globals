@@ -1,0 +1,16 @@
+name	abseil-cpp-log-internal-globals
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-log-internal-globals
+url	https://abseil.io/
+license	Apache-2.0
+size	3992
+installed-size	9504
+depends	so:libabsl_raw_logging_internal.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-log-internal-globals-20250814.1-r0.apk
+checksum	Q1J135cOPVNIfUCqYbXWcbRTXQin8=
+dep	so:libabsl_raw_logging_internal.so.2508.0.0	abseil-cpp-raw-logging-internal
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

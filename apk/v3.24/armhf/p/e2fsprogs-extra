@@ -1,0 +1,20 @@
+name	e2fsprogs-extra
+version	1.47.4-r0
+description	Ext2/3/4 filesystem extra utilities
+url	https://e2fsprogs.sourceforge.net/
+license	GPL-2.0-or-later AND LGPL-2.0-or-later AND BSD-3-Clause AND MIT
+size	239035
+installed-size	541303
+depends	e2fsprogs=1.47.4-r0 so:libblkid.so.1 so:libc.musl-armhf.so.1 so:libcom_err.so.2 so:libe2p.so.2 so:libext2fs.so.2 so:libss.so.2 so:libuuid.so.1
+origin	e2fsprogs
+repo	main
+file	e2fsprogs-extra-1.47.4-r0.apk
+checksum	Q1mP4bnqLa+lYSm/5ZdKVEEUkZtCg=
+dep	e2fsprogs=1.47.4-r0	e2fsprogs
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcom_err.so.2	libcom_err
+dep	so:libe2p.so.2	e2fsprogs-libs
+dep	so:libext2fs.so.2	e2fsprogs-libs
+dep	so:libss.so.2	e2fsprogs-libs
+dep	so:libuuid.so.1	libuuid

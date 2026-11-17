@@ -1,0 +1,14 @@
+name	stagit
+version	1.2-r8
+description	Static git page generator
+url	https://www.codemadness.org/stagit.html
+license	MIT
+size	19980
+installed-size	49679
+depends	so:libc.musl-armhf.so.1 so:libgit2.so.1.9
+origin	stagit
+repo	community
+file	stagit-1.2-r8.apk
+checksum	Q1e6jblBDmhJrRNA40i7UtouQlEV0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgit2.so.1.9	libgit2

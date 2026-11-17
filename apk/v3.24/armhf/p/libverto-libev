@@ -1,0 +1,15 @@
+name	libverto-libev
+version	0.3.2-r2
+description	libev driver for libverto
+url	https://github.com/latchset/libverto
+license	MIT
+size	4970
+installed-size	9396
+depends	so:libc.musl-armhf.so.1 so:libev.so.4 so:libverto.so.1
+origin	libverto
+repo	main
+file	libverto-libev-0.3.2-r2.apk
+checksum	Q1xmYlu+hSAOxpIh5Njw6JbtSk1tY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libev.so.4	libev
+dep	so:libverto.so.1	libverto

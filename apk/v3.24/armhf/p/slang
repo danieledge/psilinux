@@ -1,0 +1,13 @@
+name	slang
+version	2.3.3-r3
+description	Powerful interpreted language
+url	https://www.jedsoft.org/slang
+license	GPL-2.0-or-later
+size	564411
+installed-size	1873915
+depends	so:libc.musl-armhf.so.1
+origin	slang
+repo	main
+file	slang-2.3.3-r3.apk
+checksum	Q1ebCxTNA27Pr8RnXe1qtRQoASjgw=
+dep	so:libc.musl-armhf.so.1	musl

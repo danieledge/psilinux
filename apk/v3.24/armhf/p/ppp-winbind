@@ -1,0 +1,14 @@
+name	ppp-winbind
+version	2.5.3-r0
+description	WINBIND plugin for pppd
+url	https://ppp.samba.org/
+license	GPL-2.0-or-later
+size	6672
+installed-size	13520
+depends	ppp-daemon so:libc.musl-armhf.so.1
+origin	ppp
+repo	main
+file	ppp-winbind-2.5.3-r0.apk
+checksum	Q1M+EwAW09C7a1IXmjEEBiOHlheiE=
+dep	ppp-daemon	ppp-daemon
+dep	so:libc.musl-armhf.so.1	musl

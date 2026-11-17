@@ -1,0 +1,13 @@
+name	libnatpmp
+version	20230423-r0
+description	Portable and fully compliant implementation of the NAT-PMP protocol
+url	http://miniupnp.free.fr/libnatpmp.html
+license	BSD-3-Clause
+size	8931
+installed-size	18724
+depends	so:libc.musl-armhf.so.1
+origin	libnatpmp
+repo	community
+file	libnatpmp-20230423-r0.apk
+checksum	Q1KucljsnFniAJP6h+/n0q8aDo1Yw=
+dep	so:libc.musl-armhf.so.1	musl

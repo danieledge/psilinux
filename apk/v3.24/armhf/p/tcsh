@@ -1,0 +1,15 @@
+name	tcsh
+version	6.24.16-r0
+description	extended C-shell
+url	https://github.com/tcsh-org/tcsh
+license	BSD-3-Clause
+size	179497
+installed-size	355774
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	tcsh
+repo	community
+file	tcsh-6.24.16-r0.apk
+checksum	Q1Pbk8E5gyuCnZWWbhAbBWcwmuals=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

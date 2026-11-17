@@ -1,0 +1,17 @@
+name	jose-dev
+version	14-r0
+description	C-language implementation of Javascript Object Signing and Encryption (development files)
+url	https://github.com/latchset/jose
+license	Apache-2.0
+size	13255
+installed-size	50523
+depends	libjose=14-r0 pc:jansson>=2.10 pc:libcrypto>=1.0.2 pc:zlib pkgconfig
+origin	jose
+repo	community
+file	jose-dev-14-r0.apk
+checksum	Q1vdmiz5e6/4Le7cDc/zWVFPqjuk4=
+dep	libjose=14-r0	libjose
+dep	pc:jansson>=2.10	jansson-dev
+dep	pc:libcrypto>=1.0.2	openssl-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

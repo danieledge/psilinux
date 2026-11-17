@@ -1,0 +1,15 @@
+name	fungw-mujs
+version	1.2.2-r3
+description	C function gateway for different programming languages (mujs plugin)
+url	http://www.repo.hu/projects/fungw/
+license	LGPL-2.1-or-later
+size	14864
+installed-size	36602
+depends	fungw=1.2.2-r3 so:libc.musl-armhf.so.1 so:libmujs.so.3
+origin	fungw
+repo	community
+file	fungw-mujs-1.2.2-r3.apk
+checksum	Q17LNZ4NFHeUW17/M5G/BV4rsAeYM=
+dep	fungw=1.2.2-r3	fungw
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmujs.so.3	mujs-libs

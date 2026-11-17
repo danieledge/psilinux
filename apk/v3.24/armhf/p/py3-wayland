@@ -1,0 +1,21 @@
+name	py3-wayland
+version	0.4.18-r1
+description	Wrapper to the libwayland library
+url	https://github.com/flacjacket/pywayland
+license	Apache-2.0
+size	335748
+installed-size	1760063
+depends	py3-cffi python3 wayland-libs-client wayland-libs-server wayland-protocols python3~3.14 so:libc.musl-armhf.so.1 so:libwayland-client.so.0 so:libwayland-server.so.0
+origin	py3-wayland
+repo	community
+file	py3-wayland-0.4.18-r1.apk
+checksum	Q1pjokUkT0lfW7tqdOsLVakm9toXo=
+dep	py3-cffi	py3-cffi
+dep	python3	python3
+dep	wayland-libs-client	wayland-libs-client
+dep	wayland-libs-server	wayland-libs-server
+dep	wayland-protocols	wayland-protocols
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-server.so.0	wayland-libs-server

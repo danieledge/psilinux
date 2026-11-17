@@ -1,0 +1,14 @@
+name	perl-unix-syslog
+version	1.1-r23
+description	Perl interface to the UNIX syslog(3) calls
+url	https://metacpan.org/dist/Unix-Syslog
+license	Artistic-2.0
+size	10828
+installed-size	23047
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-unix-syslog
+repo	main
+file	perl-unix-syslog-1.1-r23.apk
+checksum	Q1QfvVaCsgaH/NwjusM4QSQXwMCRg=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

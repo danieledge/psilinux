@@ -1,0 +1,13 @@
+name	emacs-hydra
+version	0.15.0_git20220910-r1
+description	Make Emacs bindings that stick around
+url	https://github.com/abo-abo/hydra
+license	GPL-3.0-or-later
+size	47021
+installed-size	175210
+depends	cmd:emacs
+origin	emacs-hydra
+repo	community
+file	emacs-hydra-0.15.0_git20220910-r1.apk
+checksum	Q1tjzIOejG6dGSM0tEn9i5qFemMUw=
+dep	cmd:emacs	emacs-gtk3

@@ -1,0 +1,14 @@
+name	erlang27-dialyzer
+version	27.3.4.19-r0
+description	General-purpose programming language and runtime environment, version 27
+url	https://www.erlang.org/
+license	Apache-2.0
+size	1158049
+installed-size	1488398
+depends	erlang27=27.3.4.19-r0 erlang27-wx=27.3.4.19-r0
+origin	erlang27
+repo	community
+file	erlang27-dialyzer-27.3.4.19-r0.apk
+checksum	Q1kR8T3Y8dTbUQKnO89kZFRPdyH+o=
+dep	erlang27=27.3.4.19-r0	erlang27
+dep	erlang27-wx=27.3.4.19-r0	erlang27-wx

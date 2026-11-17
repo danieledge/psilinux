@@ -1,0 +1,14 @@
+name	kcgi
+version	1.0.1-r0
+description	CGI and FastCGI library for C/C++ web applications
+url	https://kristaps.bsd.lv/kcgi
+license	ISC
+size	110480
+installed-size	235047
+depends	so:libc.musl-armhf.so.1 so:libz.so.1
+origin	kcgi
+repo	community
+file	kcgi-1.0.1-r0.apk
+checksum	Q16228FN1sUwtXRG1IzcFBDjTt0Xo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libz.so.1	zlib

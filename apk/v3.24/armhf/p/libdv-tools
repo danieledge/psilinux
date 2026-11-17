@@ -1,0 +1,14 @@
+name	libdv-tools
+version	1.0.0-r8
+description	Basic tools to manipulate Digital Video streams
+url	https://libdv.sourceforge.net/
+license	LGPL-2.0-or-later
+size	10763
+installed-size	24080
+depends	so:libc.musl-armhf.so.1 so:libdv.so.4
+origin	libdv
+repo	community
+file	libdv-tools-1.0.0-r8.apk
+checksum	Q1UCslel1em63yOrpmzBePreL/huI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdv.so.4	libdv

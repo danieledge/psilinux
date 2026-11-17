@@ -1,0 +1,13 @@
+name	mbedtls-static
+version	4.1.2-r0
+description	Light-weight cryptographic and SSL/TLS library (static library)
+url	https://www.trustedfirmware.org/projects/mbed-tls/
+license	Apache-2.0 OR GPL-2.0-or-later
+size	745097
+installed-size	1807782
+depends	mbedtls-dev
+origin	mbedtls
+repo	main
+file	mbedtls-static-4.1.2-r0.apk
+checksum	Q1vh8u1KsDg+Yzq35d2FCXm3W+5/Q=
+dep	mbedtls-dev	mbedtls-dev

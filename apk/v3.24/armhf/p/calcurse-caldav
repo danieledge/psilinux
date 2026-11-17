@@ -1,0 +1,15 @@
+name	calcurse-caldav
+version	4.8.2-r1
+description	CalDAV synchronization support for calcurse
+url	https://calcurse.org/
+license	BSD-2-Clause
+size	8829
+installed-size	26970
+depends	calcurse=4.8.2-r1 python3 py3-httplib2
+origin	calcurse
+repo	community
+file	calcurse-caldav-4.8.2-r1.apk
+checksum	Q1tTzpY1XwZwpomWy5PprLR9ATOxc=
+dep	calcurse=4.8.2-r1	calcurse
+dep	python3	python3
+dep	py3-httplib2	py3-httplib2

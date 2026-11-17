@@ -1,0 +1,21 @@
+name	dvgrab
+version	3.5-r6
+description	Utility to capture video from a DV camera
+url	https://www.kinodv.org/
+license	GPL-2.0-or-later
+size	78380
+installed-size	177588
+depends	so:libavc1394.so.0 so:libc.musl-armhf.so.1 so:libdv.so.4 so:libgcc_s.so.1 so:libiec61883.so.0 so:libjpeg.so.8 so:libraw1394.so.11 so:librom1394.so.0 so:libstdc++.so.6
+origin	dvgrab
+repo	community
+file	dvgrab-3.5-r6.apk
+checksum	Q1nUzXytGOoP9NJoF96S+aAfqyFTo=
+dep	so:libavc1394.so.0	libavc1394
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdv.so.4	libdv
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libiec61883.so.0	libiec61883
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libraw1394.so.11	libraw1394
+dep	so:librom1394.so.0	libavc1394
+dep	so:libstdc++.so.6	libstdc++

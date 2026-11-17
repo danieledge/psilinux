@@ -1,0 +1,14 @@
+name	procps-compat-dev
+version	3.3.17-r5
+description	Utilities for monitoring your system and processes on your system (compat old library) (development files)
+url	https://gitlab.com/procps-ng/procps
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	12912
+installed-size	31100
+depends	procps-compat-libs=3.3.17-r5 pkgconfig
+origin	procps-compat
+repo	community
+file	procps-compat-dev-3.3.17-r5.apk
+checksum	Q1utDrsr/55RmUMskv/rdhMmLqU4k=
+dep	procps-compat-libs=3.3.17-r5	procps-compat-libs
+dep	pkgconfig	pkgconf

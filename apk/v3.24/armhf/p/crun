@@ -1,0 +1,16 @@
+name	crun
+version	1.31-r0
+description	Fast and lightweight fully featured OCI runtime and C library for running containers
+url	https://github.com/containers/crun
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	272090
+installed-size	629876
+depends	so:libc.musl-armhf.so.1 so:libcap.so.2 so:libjson-c.so.5 so:libseccomp.so.2
+origin	crun
+repo	community
+file	crun-1.31-r0.apk
+checksum	Q1GuZeucqWDYpLo8L3fUhF8UfJHfk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libjson-c.so.5	json-c
+dep	so:libseccomp.so.2	libseccomp

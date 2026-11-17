@@ -1,0 +1,15 @@
+name	py3-factory-boy
+version	3.3.3-r2
+description	A versatile test fixtures replacement based on thoughtbot's factory_girl for Ruby
+url	https://github.com/FactoryBoy/factory_boy
+license	MIT
+size	34005
+installed-size	120373
+depends	python3 py3-faker python3~3.14
+origin	py3-factory-boy
+repo	community
+file	py3-factory-boy-3.3.3-r2.apk
+checksum	Q1kvqm7P8iSE/Ldk0O8fi4BUQEe14=
+dep	python3	python3
+dep	py3-faker	py3-faker
+dep	python3~3.14	python3

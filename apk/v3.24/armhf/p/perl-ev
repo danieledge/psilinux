@@ -1,0 +1,15 @@
+name	perl-ev
+version	4.37-r1
+description	Perl interface to libev
+url	https://metacpan.org/release/EV/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	151404
+installed-size	429460
+depends	perl perl-common-sense so:libc.musl-armhf.so.1
+origin	perl-ev
+repo	community
+file	perl-ev-4.37-r1.apk
+checksum	Q1OwW3li6tc0fDOS3DnocC9dIFOAk=
+dep	perl	perl
+dep	perl-common-sense	perl-common-sense
+dep	so:libc.musl-armhf.so.1	musl

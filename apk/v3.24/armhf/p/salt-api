@@ -1,0 +1,14 @@
+name	salt-api
+version	3007.13-r3
+description	REST API for Salt, a parallel remote execution system
+url	https://github.com/saltstack/salt
+license	Apache-2.0
+size	1729
+installed-size	219
+depends	salt-master py3-cherrypy
+origin	salt
+repo	community
+file	salt-api-3007.13-r3.apk
+checksum	Q1SW/I8BHxKbvOR0RSyuYq0phMygo=
+dep	salt-master	salt-master
+dep	py3-cherrypy	py3-cherrypy

@@ -1,0 +1,14 @@
+name	subunit-libs
+version	1.4.2-r11
+description	A streaming protocol for test results (libraries)
+url	https://launchpad.net/subunit
+license	Apache-2.0 AND BSD-3-Clause
+size	6464
+installed-size	14732
+depends	so:libc.musl-armhf.so.1 so:libstdc++.so.6
+origin	subunit
+repo	main
+file	subunit-libs-1.4.2-r11.apk
+checksum	Q1gmXvVC9+ewgzcuRzyQu7hWbQSCc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libstdc++.so.6	libstdc++

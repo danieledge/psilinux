@@ -1,0 +1,19 @@
+name	loudmouth
+version	1.5.4-r4
+description	A lightweight Jabber client library
+url	http://groups.google.com/group/loudmouth-dev
+license	LGPL-2.0-or-later
+size	42613
+installed-size	95536
+depends	so:libasyncns.so.0 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgnutls.so.30 so:libgobject-2.0.so.0 so:libidn.so.12 so:libintl.so.8
+origin	loudmouth
+repo	community
+file	loudmouth-1.5.4-r4.apk
+checksum	Q1Wkis+5QYi/xSvRJbMrijd1aVBpM=
+dep	so:libasyncns.so.0	libasyncns
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgnutls.so.30	gnutls
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libidn.so.12	libidn
+dep	so:libintl.so.8	libintl

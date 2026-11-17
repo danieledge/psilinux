@@ -1,0 +1,28 @@
+name	nomacs
+version	3.21.1-r4
+description	Cross platform image viewer
+url	https://nomacs.org/
+license	GPL-3.0-or-later
+size	1937968
+installed-size	4560891
+depends	so:libQt6Concurrent.so.6 so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6PrintSupport.so.6 so:libQt6Svg.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libexiv2.so.28 so:libgcc_s.so.1 so:libopencv_core.so.412 so:libopencv_imgproc.so.412 so:libquazip1-qt6.so.1.5.0 so:libraw.so.25 so:libstdc++.so.6 so:libtiff.so.6
+origin	nomacs
+repo	community
+file	nomacs-3.21.1-r4.apk
+checksum	Q15sY2X2LjR3VtvnME9O3ZHXP4B8w=
+dep	so:libQt6Concurrent.so.6	qt6-qtbase
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6PrintSupport.so.6	qt6-qtbase-x11
+dep	so:libQt6Svg.so.6	qt6-qtsvg
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexiv2.so.28	exiv2-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libopencv_core.so.412	libopencv_core
+dep	so:libopencv_imgproc.so.412	libopencv_imgproc
+dep	so:libquazip1-qt6.so.1.5.0	libquazip1-qt6
+dep	so:libraw.so.25	libraw
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtiff.so.6	tiff

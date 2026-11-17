@@ -1,0 +1,14 @@
+name	pass2csv
+version	1.2.0-r1
+description	Export pass(1), "the standard unix password manager", to CSV
+url	https://codeberg.org/svartstare/pass2csv
+license	MIT
+size	8460
+installed-size	17476
+depends	py3-gnupg python3~3.14
+origin	pass2csv
+repo	community
+file	pass2csv-1.2.0-r1.apk
+checksum	Q16QdBiYnk7A1TVYWYzcBuOX82f08=
+dep	py3-gnupg	py3-gnupg
+dep	python3~3.14	python3

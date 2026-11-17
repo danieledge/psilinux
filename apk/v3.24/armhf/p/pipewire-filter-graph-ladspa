@@ -1,0 +1,13 @@
+name	pipewire-filter-graph-ladspa
+version	1.6.8-r4
+description	Multimedia processing graphs
+url	https://pipewire.org/
+license	MIT
+size	6276
+installed-size	9448
+depends	so:libc.musl-armhf.so.1
+origin	pipewire
+repo	community
+file	pipewire-filter-graph-ladspa-1.6.8-r4.apk
+checksum	Q15xtpHa2q2Ght0sUY9RJjWl9DEAk=
+dep	so:libc.musl-armhf.so.1	musl

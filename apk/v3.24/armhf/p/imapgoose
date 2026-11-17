@@ -1,0 +1,14 @@
+name	imapgoose
+version	0.5.5-r2
+description	Keep local Maildirs synchronised with IMAP mailboxes
+url	https://sr.ht/~whynothugo/ImapGoose/
+license	ISC
+size	2849204
+installed-size	7027772
+depends	so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	imapgoose
+repo	community
+file	imapgoose-0.5.5-r2.apk
+checksum	Q195l3UQf/kwD7FnH/1lp4w8XonPk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

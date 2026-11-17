@@ -1,0 +1,15 @@
+name	ulogd-json
+version	2.0.9-r0
+description	json output for ulogd
+url	https://netfilter.org/projects/ulogd/
+license	GPL-2.0-only
+size	6480
+installed-size	15916
+depends	ulogd=2.0.9-r0 so:libc.musl-armhf.so.1 so:libjansson.so.4
+origin	ulogd
+repo	main
+file	ulogd-json-2.0.9-r0.apk
+checksum	Q1QMDG3K1cry94YFVXca28Be8BoWM=
+dep	ulogd=2.0.9-r0	ulogd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjansson.so.4	jansson

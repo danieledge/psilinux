@@ -1,0 +1,18 @@
+name	chicken
+version	5.4.0-r0
+description	R5RS and R7RS compatible scheme compiler and interpreter
+url	https://call-cc.org/
+license	BSD-3-Clause
+size	1255085
+installed-size	4626791
+depends	gcc libc-dev chicken-dev chicken-libs so:libc.musl-armhf.so.1 so:libchicken.so.11
+origin	chicken
+repo	community
+file	chicken-5.4.0-r0.apk
+checksum	Q18XKXQ8fHDBeBd3giLEQ1oN7oXVI=
+dep	gcc	gcc
+dep	libc-dev	musl-dev
+dep	chicken-dev	chicken-dev
+dep	chicken-libs	chicken-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libchicken.so.11	chicken-libs

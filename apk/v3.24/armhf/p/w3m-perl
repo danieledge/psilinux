@@ -1,0 +1,14 @@
+name	w3m-perl
+version	0.5.6-r0
+description	text-based web & gopher browser, as well as pager (perl helper scripts)
+url	https://sr.ht/~rkta/w3m/
+license	MIT
+size	22185
+installed-size	66556
+depends	perl cmd:man
+origin	w3m
+repo	community
+file	w3m-perl-0.5.6-r0.apk
+checksum	Q1KJrZNUdsEsJyAX4sxgVacGK2RRM=
+dep	perl	perl
+dep	cmd:man	mandoc

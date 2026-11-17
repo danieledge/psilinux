@@ -1,0 +1,16 @@
+name	collectd-write_prometheus
+version	5.12.0-r25
+description	write_prometheus pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	13234
+installed-size	29996
+depends	collectd so:libc.musl-armhf.so.1 so:libmicrohttpd.so.12 so:libprotobuf-c.so.1
+origin	collectd
+repo	community
+file	collectd-write_prometheus-5.12.0-r25.apk
+checksum	Q1mK9SdngvZ+3x6ohAn+rSYQRNnLI=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmicrohttpd.so.12	libmicrohttpd
+dep	so:libprotobuf-c.so.1	protobuf-c

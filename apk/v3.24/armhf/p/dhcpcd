@@ -1,0 +1,14 @@
+name	dhcpcd
+version	10.5.2-r1
+description	RFC2131 compliant DHCP client
+url	https://roy.marples.name/projects/dhcpcd
+license	BSD-2-Clause
+size	166531
+installed-size	342057
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	dhcpcd
+repo	main
+file	dhcpcd-10.5.2-r1.apk
+checksum	Q1SEKiKhXmG0/vXNR2rNAHiSEb6zc=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

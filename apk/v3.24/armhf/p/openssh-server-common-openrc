@@ -1,0 +1,12 @@
+name	openssh-server-common-openrc
+version	10.3_p1-r2
+description	Port of OpenBSD's free SSH release (OpenRC init scripts)
+url	https://www.openssh.com/portable.html
+license	SSH-OpenSSH
+size	3602
+installed-size	4592
+depends	
+origin	openssh
+repo	main
+file	openssh-server-common-openrc-10.3_p1-r2.apk
+checksum	Q1YD9S+rFz5DsmDTds6R8+jzwAFiU=

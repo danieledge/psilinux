@@ -1,0 +1,15 @@
+name	nagios-plugins-openrc
+version	2.5-r0
+description	Nagios plugin check_openrc
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	1979
+installed-size	330
+depends	nagios-plugins openrc doas
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-openrc-2.5-r0.apk
+checksum	Q19aXeqO1W0FEgdAQMnjptNBNSRw0=
+dep	nagios-plugins	nagios-plugins
+dep	openrc	openrc
+dep	doas	doas

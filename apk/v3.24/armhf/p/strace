@@ -1,0 +1,14 @@
+name	strace
+version	6.19-r1
+description	Diagnostic, debugging and instructional userspace tracer
+url	https://strace.io
+license	BSD-3-Clause
+size	474454
+installed-size	1232311
+depends	so:libc.musl-armhf.so.1 so:libdw.so.1
+origin	strace
+repo	main
+file	strace-6.19-r1.apk
+checksum	Q12Dl2weBgi++oiCeOJ71Wd+fGsLs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdw.so.1	libdw

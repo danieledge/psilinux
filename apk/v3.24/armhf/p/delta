@@ -1,0 +1,16 @@
+name	delta
+version	0.19.2-r0
+description	Syntax-highlighting pager for git and diff output
+url	https://dandavison.github.io/delta/
+license	MIT
+size	2230264
+installed-size	3783008
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgit2.so.1.9 so:libonig.so.5
+origin	delta
+repo	community
+file	delta-0.19.2-r0.apk
+checksum	Q12qMZkwOg0FuH8iez4tcDHSeiiIY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgit2.so.1.9	libgit2
+dep	so:libonig.so.5	oniguruma

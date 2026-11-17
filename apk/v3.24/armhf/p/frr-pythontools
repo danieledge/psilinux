@@ -1,0 +1,14 @@
+name	frr-pythontools
+version	10.6.1-r0
+description	Free Range Routing is a fork of Quagga (tools)
+url	https://frrouting.org/
+license	GPL-2.0-or-later
+size	22154
+installed-size	97861
+depends	python3 py3-ipaddress
+origin	frr
+repo	community
+file	frr-pythontools-10.6.1-r0.apk
+checksum	Q1nsqLudn7qdJgwQqON+wza2rEyKE=
+dep	python3	python3
+dep	py3-ipaddress	py3-ipaddress

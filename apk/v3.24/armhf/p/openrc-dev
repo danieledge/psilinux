@@ -1,0 +1,14 @@
+name	openrc-dev
+version	0.63.2-r0
+description	OpenRC manages the services, startup and shutdown of a host (development files)
+url	https://github.com/OpenRC/openrc
+license	BSD-2-Clause
+size	9423
+installed-size	27032
+depends	openrc=0.63.2-r0 pkgconfig
+origin	openrc
+repo	main
+file	openrc-dev-0.63.2-r0.apk
+checksum	Q1KmGZ3ydKcMjZuUPW4GXNFXrufGc=
+dep	openrc=0.63.2-r0	openrc
+dep	pkgconfig	pkgconf

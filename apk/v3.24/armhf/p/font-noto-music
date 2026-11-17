@@ -1,0 +1,14 @@
+name	font-noto-music
+version	2026.11.01-r0
+description	Noto Music font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	47972
+installed-size	80936
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-music-2026.11.01-r0.apk
+checksum	Q1Ohz3WqKqRDWeJBXZ56HIZtWj1wQ=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

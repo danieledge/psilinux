@@ -1,0 +1,14 @@
+name	gmni
+version	1.0-r3
+description	Gemini client
+url	https://git.sr.ht/~sircmpwn/gmni
+license	GPL-3.0-only
+size	38189
+installed-size	72232
+depends	so:libbearssl.so.0 so:libc.musl-armhf.so.1
+origin	gmni
+repo	community
+file	gmni-1.0-r3.apk
+checksum	Q127bXGq+7tyEvHP13L5X78H1W/Tw=
+dep	so:libbearssl.so.0	bearssl-libs
+dep	so:libc.musl-armhf.so.1	musl

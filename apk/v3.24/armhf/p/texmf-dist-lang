@@ -1,0 +1,30 @@
+name	texmf-dist-lang
+version	2026.0-r0
+description	TeX Live texmf distribution: Additional languages
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	1410
+installed-size	0
+depends	texmf-dist texmf-dist-langarabic texmf-dist-langchinese texmf-dist-langcjk texmf-dist-langcyrillic texmf-dist-langczechslovak texmf-dist-langenglish texmf-dist-langeuropean texmf-dist-langfrench texmf-dist-langgerman texmf-dist-langgreek texmf-dist-langitalian texmf-dist-langjapanese texmf-dist-langkorean texmf-dist-langother texmf-dist-langpolish texmf-dist-langportuguese texmf-dist-langspanish
+origin	texmf-dist
+repo	community
+file	texmf-dist-lang-2026.0-r0.apk
+checksum	Q1xIpPXn3qfTd558yVN7xe4V16HAM=
+dep	texmf-dist	texmf-dist
+dep	texmf-dist-langarabic	texmf-dist-langarabic
+dep	texmf-dist-langchinese	texmf-dist-langchinese
+dep	texmf-dist-langcjk	texmf-dist-langcjk
+dep	texmf-dist-langcyrillic	texmf-dist-langcyrillic
+dep	texmf-dist-langczechslovak	texmf-dist-langczechslovak
+dep	texmf-dist-langenglish	texmf-dist-langenglish
+dep	texmf-dist-langeuropean	texmf-dist-langeuropean
+dep	texmf-dist-langfrench	texmf-dist-langfrench
+dep	texmf-dist-langgerman	texmf-dist-langgerman
+dep	texmf-dist-langgreek	texmf-dist-langgreek
+dep	texmf-dist-langitalian	texmf-dist-langitalian
+dep	texmf-dist-langjapanese	texmf-dist-langjapanese
+dep	texmf-dist-langkorean	texmf-dist-langkorean
+dep	texmf-dist-langother	texmf-dist-langother
+dep	texmf-dist-langpolish	texmf-dist-langpolish
+dep	texmf-dist-langportuguese	texmf-dist-langportuguese
+dep	texmf-dist-langspanish	texmf-dist-langspanish

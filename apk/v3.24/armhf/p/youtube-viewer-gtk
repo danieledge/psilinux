@@ -1,0 +1,15 @@
+name	youtube-viewer-gtk
+version	3.11.6-r1
+description	Lightweight YouTube client (GTK interface)
+url	https://github.com/trizen/youtube-viewer
+license	Artistic-2.0
+size	175676
+installed-size	503969
+depends	youtube-viewer=3.11.6-r1 perl-gtk3 perl-file-sharedir
+origin	youtube-viewer
+repo	community
+file	youtube-viewer-gtk-3.11.6-r1.apk
+checksum	Q1wGtfAVIbQ2BHurg2aVOw5mK7s2Y=
+dep	youtube-viewer=3.11.6-r1	youtube-viewer
+dep	perl-gtk3	perl-gtk3
+dep	perl-file-sharedir	perl-file-sharedir

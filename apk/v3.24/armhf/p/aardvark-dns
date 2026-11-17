@@ -1,0 +1,14 @@
+name	aardvark-dns
+version	1.17.1-r0
+description	Authoritative DNS server for A/AAAA container records
+url	https://github.com/containers/aardvark-dns
+license	Apache-2.0
+size	642122
+installed-size	1303568
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	aardvark-dns
+repo	community
+file	aardvark-dns-1.17.1-r0.apk
+checksum	Q1xMAnSgZyDNJCX9rt/Ck9gvqYdyc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,15 @@
+name	libnetfilter_log
+version	1.0.2-r2
+description	interface to packets that have been logged by the kernel packet filter
+url	https://www.netfilter.org/projects/libnetfilter_log/
+license	GPL-2.0-only
+size	9420
+installed-size	22512
+depends	so:libc.musl-armhf.so.1 so:libmnl.so.0 so:libnfnetlink.so.0
+origin	libnetfilter_log
+repo	main
+file	libnetfilter_log-1.0.2-r2.apk
+checksum	Q1SMJmfQjP/J62Q+6irxzrYG8Obtc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmnl.so.0	libmnl
+dep	so:libnfnetlink.so.0	libnfnetlink

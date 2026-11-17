@@ -1,0 +1,17 @@
+name	openrc
+version	0.63.2-r0
+description	OpenRC manages the services, startup and shutdown of a host
+url	https://github.com/OpenRC/openrc
+license	BSD-2-Clause
+size	214203
+installed-size	842504
+depends	ifupdown-any openrc-user=0.63.2-r0 /bin/sh so:libc.musl-armhf.so.1 so:libcap.so.2
+origin	openrc
+repo	main
+file	openrc-0.63.2-r0.apk
+checksum	Q1vFitlvPnkCw+oIswPcy1aOtSTkU=
+dep	ifupdown-any	ifupdown-ng
+dep	openrc-user=0.63.2-r0	openrc-user
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2

@@ -1,0 +1,13 @@
+name	emacs-elfeed
+version	3.4.2-r1
+description	Emacs Atom/RSS feed reader
+url	https://github.com/skeeto/elfeed
+license	Unlicense
+size	92685
+installed-size	348998
+depends	cmd:emacs
+origin	emacs-elfeed
+repo	community
+file	emacs-elfeed-3.4.2-r1.apk
+checksum	Q1Ky7ahocQghEbMXOoV44skBU6GHw=
+dep	cmd:emacs	emacs-gtk3

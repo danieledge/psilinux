@@ -1,0 +1,14 @@
+name	neocmakelsp
+version	0.10.3-r0
+description	CMake LSP implementation based on Tower and Tree-sitter
+url	https://neocmakelsp.github.io
+license	MIT
+size	1860432
+installed-size	4038960
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	neocmakelsp
+repo	community
+file	neocmakelsp-0.10.3-r0.apk
+checksum	Q1QOzCR9ms5BVzRNeTkeDtpAWMu0g=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

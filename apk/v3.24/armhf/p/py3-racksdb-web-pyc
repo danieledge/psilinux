@@ -1,0 +1,14 @@
+name	py3-racksdb-web-pyc
+version	0.7.0-r2
+description	Precompiled Python bytecode for py3-racksdb-web
+url	https://rackslab.io/en/solutions/racksdb/
+license	GPL-3.0-or-later
+size	11498
+installed-size	21008
+depends	py3-racksdb=0.7.0-r2 python3~3.14
+origin	racksdb
+repo	community
+file	py3-racksdb-web-pyc-0.7.0-r2.apk
+checksum	Q1i0SZP7fD6sBe7jPyXhg2ns3BqFo=
+dep	py3-racksdb=0.7.0-r2	py3-racksdb
+dep	python3~3.14	python3

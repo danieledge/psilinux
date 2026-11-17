@@ -1,0 +1,13 @@
+name	rpm2cpio
+version	1.4-r3
+description	Convert .rpm files to cpio format
+url	https://www.freshports.org/archivers/rpm2cpio/
+license	BSD-2-Clause
+size	1756
+installed-size	321
+depends	libarchive-tools
+origin	rpm2cpio
+repo	community
+file	rpm2cpio-1.4-r3.apk
+checksum	Q1xRlIou5SKNHyyc2S1sqCLW9wn8o=
+dep	libarchive-tools	libarchive-tools

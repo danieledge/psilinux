@@ -1,0 +1,18 @@
+name	libfltk_images
+version	1.3.11-r1
+description	A cross-platform C++ GUI toolkit
+url	https://www.fltk.org/
+license	LGPL-2.0-only WITH FLTK-exception
+size	22457
+installed-size	47132
+depends	so:libc.musl-armhf.so.1 so:libfltk.so.1.3 so:libgcc_s.so.1 so:libjpeg.so.8 so:libpng16.so.16 so:libstdc++.so.6
+origin	fltk
+repo	community
+file	libfltk_images-1.3.11-r1.apk
+checksum	Q1og4FY4ZHFiXOS2TF9O4u5nl5scw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfltk.so.1.3	libfltk
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++

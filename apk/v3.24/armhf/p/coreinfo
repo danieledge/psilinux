@@ -1,0 +1,23 @@
+name	coreinfo
+version	5.0.0-r0
+description	A file information tool from C-Suite
+url	https://gitlab.com/cubocore
+license	GPL-3.0-or-later
+size	38463
+installed-size	92636
+depends	qt6-qtsvg so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libcprime-core.so.5 so:libcprime-widgets.so.5 so:libgcc_s.so.1 so:libmediainfo.so.0 so:libstdc++.so.6 so:libzen.so.0
+origin	coreinfo
+repo	community
+file	coreinfo-5.0.0-r0.apk
+checksum	Q1ZvuPvCwY382XNcU4R/vtgyMXYc8=
+dep	qt6-qtsvg	qt6-qtsvg
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcprime-core.so.5	libcprime
+dep	so:libcprime-widgets.so.5	libcprime
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmediainfo.so.0	libmediainfo
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libzen.so.0	libzen

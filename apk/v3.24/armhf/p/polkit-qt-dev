@@ -1,0 +1,20 @@
+name	polkit-qt-dev
+version	0.201.1-r1
+description	Qt wrapper around polkit-1 client libraries (development files)
+url	https://www.kde.org
+license	LGPL-2.1-only
+size	38774
+installed-size	173560
+depends	polkit-elogind-dev polkit-qt5=0.201.1-r1 polkit-qt6=0.201.1-r1 pc:Qt5Core pc:Qt5Gui pc:Qt6Core pc:Qt6Gui pkgconfig
+origin	polkit-qt
+repo	community
+file	polkit-qt-dev-0.201.1-r1.apk
+checksum	Q12vKhX4cRCSKiaaSB7zfWlw8VqGo=
+dep	polkit-elogind-dev	polkit-elogind-dev
+dep	polkit-qt5=0.201.1-r1	polkit-qt5
+dep	polkit-qt6=0.201.1-r1	polkit-qt6
+dep	pc:Qt5Core	qt5-qtbase-dev
+dep	pc:Qt5Gui	qt5-qtbase-dev
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pc:Qt6Gui	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

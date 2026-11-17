@@ -1,0 +1,16 @@
+name	gvm-tools
+version	26.0.4-r0
+description	Collection of tools for remote controlling a OpenVAS / Greenbone
+url	https://github.com/greenbone/gvm-tools
+license	GPL-3.0-or-later
+size	107792
+installed-size	445966
+depends	python3 py3-gvm py3-lxml python3~3.14
+origin	gvm-tools
+repo	community
+file	gvm-tools-26.0.4-r0.apk
+checksum	Q189nAq7PVlFN7zuVnGp89+RbLDSk=
+dep	python3	python3
+dep	py3-gvm	py3-gvm
+dep	py3-lxml	py3-lxml
+dep	python3~3.14	python3

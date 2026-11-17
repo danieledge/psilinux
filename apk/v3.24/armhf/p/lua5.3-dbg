@@ -1,0 +1,12 @@
+name	lua5.3-dbg
+version	5.3.6-r6
+description	Powerful light-weight programming language (debug symbols)
+url	https://www.lua.org/
+license	MIT
+size	533197
+installed-size	1172348
+depends	!lua5.3<5.3.6-r6 !lua5.3>5.3.6-r6
+origin	lua5.3
+repo	main
+file	lua5.3-dbg-5.3.6-r6.apk
+checksum	Q1eueSISBvCxGza+uDSASSci4wOyk=

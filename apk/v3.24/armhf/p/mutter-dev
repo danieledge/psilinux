@@ -1,0 +1,63 @@
+name	mutter-dev
+version	50.2-r1
+description	clutter-based window manager and compositor (development files)
+url	https://gitlab.gnome.org/GNOME/mutter
+license	GPL-2.0-or-later
+size	213303
+installed-size	1235699
+depends	mutter=50.2-r1 pc:atk>=2.5.3 pc:cairo>=1.10.0 pc:colord>=1.4.5 pc:egl pc:fribidi>=1.0.0 pc:gbm>=21.3 pc:gio-unix-2.0>=2.81.1 pc:gl pc:glesv2 pc:glib-2.0>=2.81.1 pc:glycin-2>=2.0 pc:gmodule-no-export-2.0>=2.81.1 pc:gnome-desktop-4 pc:gnome-settings-daemon pc:gobject-2.0>=2.81.1 pc:gobject-introspection-1.0>=0.9.5 pc:graphene-gobject-1.0>=1.10.2 pc:gsettings-desktop-schemas>=47 pc:gudev-1.0>=238 pc:harfbuzz>=2.6 pc:lcms2>=2.6 pc:libcanberra>=0.26 pc:libdisplay-info>=0.2 pc:libdrm>=2.4.118 pc:libeis-1.0>=1.3.901 pc:libinput>=1.30.0 pc:libpipewire-0.3>=1.6.0 pc:libstartup-notification-1.0>=0.7 pc:libsystemd pc:libudev pc:libwacom>=0.13 pc:pango>=1.46.0 pc:pangocairo>=1.20 pc:pixman-1>=0.42 pc:wayland-server>=1.24 pc:x11-xcb pc:x11>=1.7.0 pc:xau pc:xcb-res pc:xcomposite>=0.4 pc:xcursor pc:xdamage pc:xext pc:xfixes>=6 pc:xi>=1.7.4 pc:xinerama pc:xkbcommon>=0.4.3 pc:xkbregistry pc:xrandr>=1.5.0 pkgconfig
+origin	mutter
+repo	community
+file	mutter-dev-50.2-r1.apk
+checksum	Q14kydYqUffMtKy6BMG58Cq70Czbg=
+dep	mutter=50.2-r1	mutter
+dep	pc:atk>=2.5.3	at-spi2-core-dev
+dep	pc:cairo>=1.10.0	cairo-dev
+dep	pc:colord>=1.4.5	colord-dev
+dep	pc:egl	mesa-dev
+dep	pc:fribidi>=1.0.0	fribidi-dev
+dep	pc:gbm>=21.3	mesa-dev
+dep	pc:gio-unix-2.0>=2.81.1	glib-dev
+dep	pc:gl	mesa-dev
+dep	pc:glesv2	mesa-dev
+dep	pc:glib-2.0>=2.81.1	glib-dev
+dep	pc:glycin-2>=2.0	libglycin-dev
+dep	pc:gmodule-no-export-2.0>=2.81.1	glib-dev
+dep	pc:gnome-desktop-4	gnome-desktop-dev
+dep	pc:gnome-settings-daemon	gnome-settings-daemon-dev
+dep	pc:gobject-2.0>=2.81.1	glib-dev
+dep	pc:gobject-introspection-1.0>=0.9.5	gobject-introspection-dev
+dep	pc:graphene-gobject-1.0>=1.10.2	graphene-dev
+dep	pc:gsettings-desktop-schemas>=47	gsettings-desktop-schemas-dev
+dep	pc:gudev-1.0>=238	libgudev-dev
+dep	pc:harfbuzz>=2.6	harfbuzz-dev
+dep	pc:lcms2>=2.6	lcms2-dev
+dep	pc:libcanberra>=0.26	libcanberra-dev
+dep	pc:libdisplay-info>=0.2	libdisplay-info-dev
+dep	pc:libdrm>=2.4.118	libdrm-dev
+dep	pc:libeis-1.0>=1.3.901	libei-dev
+dep	pc:libinput>=1.30.0	libinput-dev
+dep	pc:libpipewire-0.3>=1.6.0	pipewire-dev
+dep	pc:libstartup-notification-1.0>=0.7	startup-notification-dev
+dep	pc:libsystemd	elogind-dev
+dep	pc:libudev	eudev-dev
+dep	pc:libwacom>=0.13	libwacom-dev
+dep	pc:pango>=1.46.0	pango-dev
+dep	pc:pangocairo>=1.20	pango-dev
+dep	pc:pixman-1>=0.42	pixman-dev
+dep	pc:wayland-server>=1.24	wayland-dev
+dep	pc:x11-xcb	libx11-dev
+dep	pc:x11>=1.7.0	libx11-dev
+dep	pc:xau	libxau-dev
+dep	pc:xcb-res	libxcb-dev
+dep	pc:xcomposite>=0.4	libxcomposite-dev
+dep	pc:xcursor	libxcursor-dev
+dep	pc:xdamage	libxdamage-dev
+dep	pc:xext	libxext-dev
+dep	pc:xfixes>=6	libxfixes-dev
+dep	pc:xi>=1.7.4	libxi-dev
+dep	pc:xinerama	libxinerama-dev
+dep	pc:xkbcommon>=0.4.3	libxkbcommon-dev
+dep	pc:xkbregistry	libxkbcommon-dev
+dep	pc:xrandr>=1.5.0	libxrandr-dev
+dep	pkgconfig	pkgconf

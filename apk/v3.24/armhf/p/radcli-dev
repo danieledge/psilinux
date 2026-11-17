@@ -1,0 +1,15 @@
+name	radcli-dev
+version	1.4.0-r0
+description	A simple RADIUS client library (development files)
+url	https://github.com/radcli/radcli
+license	BSD-2-Clause AND MIT
+size	43929
+installed-size	116455
+depends	radcli=1.4.0-r0 pc:gnutls pkgconfig
+origin	radcli
+repo	community
+file	radcli-dev-1.4.0-r0.apk
+checksum	Q1lXDyYuDcY9vqQ6USQRxn4F9u/iQ=
+dep	radcli=1.4.0-r0	radcli
+dep	pc:gnutls	gnutls-dev
+dep	pkgconfig	pkgconf

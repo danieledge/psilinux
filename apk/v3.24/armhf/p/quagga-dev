@@ -1,0 +1,13 @@
+name	quagga-dev
+version	1.2.4-r11
+description	A free routing daemon replacing Zebra supporting RIP, OSPF, BGP and NHRP (development files)
+url	https://www.nongnu.org/quagga/
+license	GPL-2.0-or-later
+size	73890
+installed-size	285609
+depends	quagga=1.2.4-r11
+origin	quagga
+repo	main
+file	quagga-dev-1.2.4-r11.apk
+checksum	Q1E0l3kBGO5hFE/7/q0V4VgOeu9xk=
+dep	quagga=1.2.4-r11	quagga

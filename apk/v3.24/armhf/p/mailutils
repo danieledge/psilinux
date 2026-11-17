@@ -1,0 +1,26 @@
+name	mailutils
+version	3.21-r1
+description	GNU swiss army knife of electronic mail handling
+url	https://mailutils.org/
+license	GPL-3.0-or-later
+size	209199
+installed-size	609720
+depends	so:libc.musl-armhf.so.1 so:libmailutils.so.9 so:libmu_auth.so.9 so:libmu_dotmail.so.9 so:libmu_imap.so.9 so:libmu_maildir.so.9 so:libmu_mailer.so.9 so:libmu_mbox.so.9 so:libmu_mh.so.9 so:libmu_pop.so.9 so:libmu_sieve.so.9 so:libmuaux.so.9 so:libreadline.so.8 so:libunistring.so.5
+origin	mailutils
+repo	community
+file	mailutils-3.21-r1.apk
+checksum	Q1ovoLf+nXNV7gT1Tlxb1rFPrpvMU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmailutils.so.9	mailutils-libs
+dep	so:libmu_auth.so.9	mailutils-libs
+dep	so:libmu_dotmail.so.9	mailutils-libs
+dep	so:libmu_imap.so.9	mailutils-libs
+dep	so:libmu_maildir.so.9	mailutils-libs
+dep	so:libmu_mailer.so.9	mailutils-libs
+dep	so:libmu_mbox.so.9	mailutils-libs
+dep	so:libmu_mh.so.9	mailutils-libs
+dep	so:libmu_pop.so.9	mailutils-libs
+dep	so:libmu_sieve.so.9	mailutils-libs
+dep	so:libmuaux.so.9	mailutils-libs
+dep	so:libreadline.so.8	readline
+dep	so:libunistring.so.5	libunistring

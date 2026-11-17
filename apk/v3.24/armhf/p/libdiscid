@@ -1,0 +1,13 @@
+name	libdiscid
+version	0.6.5-r1
+description	C library for creating MusicBrainz DiscIDs from audio CDs
+url	https://musicbrainz.org/doc/libdiscid
+license	LGPL-2.1-or-later
+size	10669
+installed-size	21672
+depends	so:libc.musl-armhf.so.1
+origin	libdiscid
+repo	community
+file	libdiscid-0.6.5-r1.apk
+checksum	Q1XTzvYwdD0uDgknz73hgx+rzqnn8=
+dep	so:libc.musl-armhf.so.1	musl

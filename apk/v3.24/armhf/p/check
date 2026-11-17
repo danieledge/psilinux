@@ -1,0 +1,13 @@
+name	check
+version	0.15.2-r6
+description	A unit test framework for C
+url	https://libcheck.github.io/check/
+license	LGPL-2.1-or-later
+size	19873
+installed-size	45084
+depends	so:libc.musl-armhf.so.1
+origin	check
+repo	main
+file	check-0.15.2-r6.apk
+checksum	Q1fZzL3MrwAs/4t9MBwjpNrdxAWqM=
+dep	so:libc.musl-armhf.so.1	musl

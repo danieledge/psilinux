@@ -1,0 +1,13 @@
+name	slibtool-libs
+version	0.7.4-r1
+description	Surrogate libtool implementation written in C (libraries)
+url	https://git.foss21.org/slibtool
+license	MIT
+size	99932
+installed-size	201940
+depends	so:libc.musl-armhf.so.1
+origin	slibtool
+repo	community
+file	slibtool-libs-0.7.4-r1.apk
+checksum	Q1rEg1igDjtvDz9CLGPId2OvPlW/Q=
+dep	so:libc.musl-armhf.so.1	musl

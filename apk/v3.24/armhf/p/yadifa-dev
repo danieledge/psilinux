@@ -1,0 +1,13 @@
+name	yadifa-dev
+version	3.0.9-r0
+description	Lightweight authoritative Name Server with DNSSEC capabilities (development files)
+url	https://www.yadifa.eu/
+license	BSD-3-Clause
+size	302851
+installed-size	2013245
+depends	yadifa=3.0.9-r0
+origin	yadifa
+repo	community
+file	yadifa-dev-3.0.9-r0.apk
+checksum	Q1rYNknnYr2Acsw+GTp0Ibd/DeKjw=
+dep	yadifa=3.0.9-r0	yadifa

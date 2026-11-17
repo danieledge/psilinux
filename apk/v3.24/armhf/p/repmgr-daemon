@@ -1,0 +1,15 @@
+name	repmgr-daemon
+version	5.5.0-r2
+description	A management and monitoring daemon for PostgreSQL Replication Manager
+url	https://repmgr.org/
+license	GPL-3.0-or-later
+size	111567
+installed-size	294949
+depends	repmgr=5.5.0-r2 so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	repmgr
+repo	community
+file	repmgr-daemon-5.5.0-r2.apk
+checksum	Q1gJUCDTdb3Nl33z6alC3NidYtkdk=
+dep	repmgr=5.5.0-r2	repmgr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

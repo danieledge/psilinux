@@ -1,0 +1,16 @@
+name	libdrm-dev
+version	2.4.134-r0
+description	Userspace interface to kernel DRM services (development files)
+url	https://gitlab.freedesktop.org/mesa/drm
+license	MIT
+size	209720
+installed-size	822033
+depends	linux-headers libdrm=2.4.134-r0 pc:pciaccess>=0.10 pkgconfig
+origin	libdrm
+repo	main
+file	libdrm-dev-2.4.134-r0.apk
+checksum	Q1b0kH2s+CwuU7JYLO9LNbtKaf5oU=
+dep	linux-headers	linux-headers
+dep	libdrm=2.4.134-r0	libdrm
+dep	pc:pciaccess>=0.10	libpciaccess-dev
+dep	pkgconfig	pkgconf

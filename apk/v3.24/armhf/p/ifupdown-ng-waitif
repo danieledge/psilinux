@@ -1,0 +1,14 @@
+name	ifupdown-ng-waitif
+version	0.2.0-r0
+description	Executor for ifupdown-ng which blocks until the interface is running
+url	https://github.com/nmeum/ifupdown-ng-waitif
+license	GPL-3.0-or-later
+size	4767
+installed-size	9496
+depends	so:libc.musl-armhf.so.1 so:libmnl.so.0
+origin	ifupdown-ng-waitif
+repo	community
+file	ifupdown-ng-waitif-0.2.0-r0.apk
+checksum	Q1kSi5pnBmKh4A+IURUXtaMZG0Bks=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmnl.so.0	libmnl

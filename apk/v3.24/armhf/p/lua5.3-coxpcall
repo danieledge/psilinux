@@ -1,0 +1,13 @@
+name	lua5.3-coxpcall
+version	1.17.0-r2
+description	Coroutine safe xpcall and pcall for Lua 5.3
+url	http://keplerproject.github.io/coxpcall/
+license	MIT
+size	3043
+installed-size	3553
+depends	lua5.3
+origin	lua-coxpcall
+repo	community
+file	lua5.3-coxpcall-1.17.0-r2.apk
+checksum	Q1wQpyR4Ssirsl1Ueb3TZCIsUQar4=
+dep	lua5.3	lua5.3

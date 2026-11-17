@@ -1,0 +1,23 @@
+name	ocaml-happy-eyeballs-lwt-dev
+version	0.3.0-r5
+description	Connecting to a remote host via IP version 4 or 6 using Lwt_unix (development files)
+url	https://github.com/roburio/happy-eyeballs
+license	ISC
+size	60403
+installed-size	144337
+depends	ocaml-happy-eyeballs-lwt=0.3.0-r5 ocaml-domain-name-dev ocaml-duration-dev ocaml-fmt-dev ocaml-ipaddr-dev ocaml-logs-dev ocaml-lwt-dev ocaml-happy-eyeballs-dev ocaml-cmdliner-dev ocaml-dns-dev ocaml-mtime-dev
+origin	ocaml-happy-eyeballs-lwt
+repo	community
+file	ocaml-happy-eyeballs-lwt-dev-0.3.0-r5.apk
+checksum	Q1qH1czW+XzZ2tKpU0qPBu7JvMmHE=
+dep	ocaml-happy-eyeballs-lwt=0.3.0-r5	ocaml-happy-eyeballs-lwt
+dep	ocaml-domain-name-dev	ocaml-domain-name-dev
+dep	ocaml-duration-dev	ocaml-duration-dev
+dep	ocaml-fmt-dev	ocaml-fmt-dev
+dep	ocaml-ipaddr-dev	ocaml-ipaddr-dev
+dep	ocaml-logs-dev	ocaml-logs-dev
+dep	ocaml-lwt-dev	ocaml-lwt-dev
+dep	ocaml-happy-eyeballs-dev	ocaml-happy-eyeballs-dev
+dep	ocaml-cmdliner-dev	ocaml-cmdliner-dev
+dep	ocaml-dns-dev	ocaml-dns-dev
+dep	ocaml-mtime-dev	ocaml-mtime-dev

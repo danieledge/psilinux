@@ -1,0 +1,12 @@
+name	gdk-pixbuf-dbg
+version	2.44.7-r1
+description	GTK+ image loading library (debug symbols)
+url	https://gitlab.gnome.org/GNOME/gdk-pixbuf
+license	LGPL-2.1-or-later
+size	267298
+installed-size	694900
+depends	!gdk-pixbuf<2.44.7-r1 !gdk-pixbuf>2.44.7-r1
+origin	gdk-pixbuf
+repo	community
+file	gdk-pixbuf-dbg-2.44.7-r1.apk
+checksum	Q1dBs7a+tH697GgUE/3IJFNaMaTYQ=

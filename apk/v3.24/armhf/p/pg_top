@@ -1,0 +1,16 @@
+name	pg_top
+version	4.1.3-r0
+description	top for PostgreSQL
+url	https://pg_top.gitlab.io
+license	BSD-3-Clause
+size	36424
+installed-size	76644
+depends	so:libbsd.so.0 so:libc.musl-armhf.so.1 so:libncursesw.so.6 so:libpq.so.5
+origin	pg_top
+repo	community
+file	pg_top-4.1.3-r0.apk
+checksum	Q1DdmZRHiKxRKMNok/ltdds1CLod0=
+dep	so:libbsd.so.0	libbsd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpq.so.5	libpq

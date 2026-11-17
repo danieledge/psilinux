@@ -1,0 +1,18 @@
+name	py3-preshed
+version	3.0.13-r0
+description	Cython hash tables that assume keys are pre-hashed
+url	https://github.com/explosion/preshed
+license	MIT
+size	155259
+installed-size	358490
+depends	py3-cymem py3-murmurhash python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	py3-preshed
+repo	community
+file	py3-preshed-3.0.13-r0.apk
+checksum	Q1R3moAvcqMgefp03VJ78wXA6aSN4=
+dep	py3-cymem	py3-cymem
+dep	py3-murmurhash	py3-murmurhash
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

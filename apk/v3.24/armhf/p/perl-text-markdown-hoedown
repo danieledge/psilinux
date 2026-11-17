@@ -1,0 +1,14 @@
+name	perl-text-markdown-hoedown
+version	1.03-r4
+description	Hoedown for Perl5
+url	https://metacpan.org/release/Text-Markdown-Hoedown/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	42025
+installed-size	107661
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-text-markdown-hoedown
+repo	community
+file	perl-text-markdown-hoedown-1.03-r4.apk
+checksum	Q17eZaQfHOPkalEr3AyZK1rYl4afs=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,16 @@
+name	imagemagick-jp2
+version	7.1.2.35-r0
+description	Collection of tools and libraries for many image formats (JPEG2000 support modules)
+url	https://imagemagick.org/
+license	ImageMagick
+size	13697
+installed-size	27052
+depends	so:libMagickCore-7.Q16HDRI.so.10 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libopenjp2.so.7
+origin	imagemagick
+repo	community
+file	imagemagick-jp2-7.1.2.35-r0.apk
+checksum	Q1gYsf/OX2PwCQbuUmZoe/PNW6gFM=
+dep	so:libMagickCore-7.Q16HDRI.so.10	imagemagick-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libopenjp2.so.7	openjpeg

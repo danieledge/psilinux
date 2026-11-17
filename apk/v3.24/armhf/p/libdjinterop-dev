@@ -1,0 +1,18 @@
+name	libdjinterop-dev
+version	0.24.3-r1
+description	C++ library for access to DJ record libraries (development files)
+url	https://github.com/xsco/libdjinterop
+license	LGPL-3.0-only
+size	43047
+installed-size	218264
+depends	sqlite-dev zlib-dev libdjinterop=0.24.3-r1 pc:sqlite3>=3.11 pc:zlib>=1.2.8 pkgconfig
+origin	libdjinterop
+repo	community
+file	libdjinterop-dev-0.24.3-r1.apk
+checksum	Q1SUIbF4Nwa3EfTOpxZT1j6RuQefs=
+dep	sqlite-dev	sqlite-dev
+dep	zlib-dev	zlib-dev
+dep	libdjinterop=0.24.3-r1	libdjinterop
+dep	pc:sqlite3>=3.11	sqlite-dev
+dep	pc:zlib>=1.2.8	zlib-dev
+dep	pkgconfig	pkgconf

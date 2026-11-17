@@ -1,0 +1,13 @@
+name	nghttp3
+version	1.15.0-r0
+description	HTTP/3 library written in C
+url	https://github.com/ngtcp2/nghttp3
+license	MIT
+size	67040
+installed-size	139960
+depends	so:libc.musl-armhf.so.1
+origin	nghttp3
+repo	main
+file	nghttp3-1.15.0-r0.apk
+checksum	Q1NfNEecXRwycpb0hgizMOr6s0NAU=
+dep	so:libc.musl-armhf.so.1	musl

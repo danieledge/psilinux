@@ -1,0 +1,24 @@
+name	ejabberd
+version	26.02-r0
+description	Robust, Ubiquitous and Massively Scalable Messaging Platform for XMPP, MQTT, and SIP Protocols
+url	https://www.ejabberd.im/
+license	GPL-2.0-or-later
+size	18728566
+installed-size	23647625
+depends	erlang elixir /bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libexpat.so.1 so:libgcc_s.so.1 so:libpam.so.0 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libyaml-0.so.2
+origin	ejabberd
+repo	community
+file	ejabberd-26.02-r0.apk
+checksum	Q1EmWrunrUabpq80fQ2hCpKSYHBEA=
+dep	erlang	erlang27
+dep	elixir	elixir
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libexpat.so.1	libexpat
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpam.so.0	linux-pam
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libyaml-0.so.2	yaml

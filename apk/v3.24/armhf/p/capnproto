@@ -1,0 +1,19 @@
+name	capnproto
+version	1.4.0-r0
+description	Tools for working with the Cap'n Proto format
+url	https://capnproto.org/
+license	MIT
+size	1582752
+installed-size	4329152
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3 so:libstdc++.so.6 so:libucontext.so.1 so:libz.so.1
+origin	capnproto
+repo	community
+file	capnproto-1.4.0-r0.apk
+checksum	Q15rytIOqZIW8uOBnh1wuvJVb0+G8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libucontext.so.1	libucontext
+dep	so:libz.so.1	zlib

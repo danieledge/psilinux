@@ -1,0 +1,15 @@
+name	byobu
+version	6.16-r0
+description	An enhancement of the GNU Screen
+url	https://byobu.org
+license	GPL-3.0-or-later
+size	287037
+installed-size	639688
+depends	python3 tmux py3-newt
+origin	byobu
+repo	main
+file	byobu-6.16-r0.apk
+checksum	Q12f9zYL+pgxXu7+tER2IJj3OKF1k=
+dep	python3	python3
+dep	tmux	tmux
+dep	py3-newt	py3-newt

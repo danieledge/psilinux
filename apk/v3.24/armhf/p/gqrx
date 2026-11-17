@@ -1,0 +1,32 @@
+name	gqrx
+version	2.17.7-r1
+description	Interactive SDR receiver waterfall for many devices
+url	https://gqrx.dk/
+license	GPL-3.0-or-later
+size	709046
+installed-size	1845534
+depends	so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6SvgWidgets.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgnuradio-analog.so.3.10.12 so:libgnuradio-blocks.so.3.10.12 so:libgnuradio-digital.so.3.10.12 so:libgnuradio-fft.so.3.10.12 so:libgnuradio-filter.so.3.10.12 so:libgnuradio-network.so.3.10.12 so:libgnuradio-osmosdr.so.0.2.0 so:libgnuradio-pmt.so.3.10.12 so:libgnuradio-runtime.so.3.10.12 so:libpulse-simple.so.0 so:libpulse.so.0 so:libstdc++.so.6 so:libvolk.so.3.3
+origin	gqrx
+repo	community
+file	gqrx-2.17.7-r1.apk
+checksum	Q1l9xItSFigi06DBn8DhOpdC24HYE=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6SvgWidgets.so.6	qt6-qtsvg
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgnuradio-analog.so.3.10.12	gnuradio
+dep	so:libgnuradio-blocks.so.3.10.12	gnuradio
+dep	so:libgnuradio-digital.so.3.10.12	gnuradio
+dep	so:libgnuradio-fft.so.3.10.12	gnuradio
+dep	so:libgnuradio-filter.so.3.10.12	gnuradio
+dep	so:libgnuradio-network.so.3.10.12	gnuradio
+dep	so:libgnuradio-osmosdr.so.0.2.0	gr-osmosdr
+dep	so:libgnuradio-pmt.so.3.10.12	gnuradio
+dep	so:libgnuradio-runtime.so.3.10.12	gnuradio
+dep	so:libpulse-simple.so.0	libpulse
+dep	so:libpulse.so.0	libpulse
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libvolk.so.3.3	libvolk

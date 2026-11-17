@@ -1,0 +1,15 @@
+name	mimic1
+version	1.3.0.1-r2
+description	Mycroft's TTS engine, based on CMU's Flite (Festival Lite)
+url	https://mimic.mycroft.ai/
+license	MIT AND BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause AND Apache-2.0 AND CDLA-Permissive-1.0
+size	84069714
+installed-size	100030680
+depends	so:libasound.so.2 so:libc.musl-armhf.so.1 so:libpcre2-8.so.0
+origin	mimic1
+repo	community
+file	mimic1-1.3.0.1-r2.apk
+checksum	Q1MmxKZgnCzhJdaWwjy6Fy/5kk7WY=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcre2-8.so.0	pcre2

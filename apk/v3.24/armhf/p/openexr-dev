@@ -1,0 +1,21 @@
+name	openexr-dev
+version	3.4.15-r0
+description	High dynamic-range image file format library (development files)
+url	https://www.openexr.com/
+license	BSD-3-Clause
+size	160757
+installed-size	772989
+depends	libdeflate-static openexr-libiex=3.4.15-r0 openexr-libilmthread=3.4.15-r0 openexr-libopenexr=3.4.15-r0 openexr-libopenexrcore=3.4.15-r0 openexr-libopenexrutil=3.4.15-r0 pc:Imath pc:libdeflate>=1.25 pkgconfig
+origin	openexr
+repo	community
+file	openexr-dev-3.4.15-r0.apk
+checksum	Q1Pp+7HK3sgFz1Zhl8gVvmoe6Za7w=
+dep	libdeflate-static	libdeflate-static
+dep	openexr-libiex=3.4.15-r0	openexr-libiex
+dep	openexr-libilmthread=3.4.15-r0	openexr-libilmthread
+dep	openexr-libopenexr=3.4.15-r0	openexr-libopenexr
+dep	openexr-libopenexrcore=3.4.15-r0	openexr-libopenexrcore
+dep	openexr-libopenexrutil=3.4.15-r0	openexr-libopenexrutil
+dep	pc:Imath	imath-dev
+dep	pc:libdeflate>=1.25	libdeflate-dev
+dep	pkgconfig	pkgconf

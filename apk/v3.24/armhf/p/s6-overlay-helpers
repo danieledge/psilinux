@@ -1,0 +1,15 @@
+name	s6-overlay-helpers
+version	0.1.2.2-r0
+description	Binary helpers for s6-overlay
+url	https://github.com/just-containers/s6-overlay-helpers
+license	ISC
+size	7037
+installed-size	15356
+depends	so:libc.musl-armhf.so.1 so:libexecline.so.2.9 so:libskarnet.so.2.15
+origin	s6-overlay-helpers
+repo	community
+file	s6-overlay-helpers-0.1.2.2-r0.apk
+checksum	Q1Qu3dctaKpp7zO70UUCzQncPmTug=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexecline.so.2.9	execline-libs
+dep	so:libskarnet.so.2.15	skalibs-libs

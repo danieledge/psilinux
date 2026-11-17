@@ -1,0 +1,14 @@
+name	perl-cps
+version	0.19-r5
+description	manage flow of control in Continuation-Passing Style
+url	https://metacpan.org/release/CPS/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	13766
+installed-size	36944
+depends	perl perl-future
+origin	perl-cps
+repo	main
+file	perl-cps-0.19-r5.apk
+checksum	Q1tb6j7JVNmxuKvlmEBuKaLb1/nI8=
+dep	perl	perl
+dep	perl-future	perl-future

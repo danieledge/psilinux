@@ -1,0 +1,16 @@
+name	libwmime-dev
+version	1.1.0-r0
+description	Library for working with RFC 5322, MIME messages and IMAP/POP/SMTP (development files)
+url	https://grommunio.com/
+license	GPL-3.0-only
+size	22843985
+installed-size	86998179
+depends	libwmime=1.1.0-r0 pc:libgsasl pc:openssl pkgconfig
+origin	libwmime
+repo	community
+file	libwmime-dev-1.1.0-r0.apk
+checksum	Q1h5HAmhpkBArT+H02TVG5LxoaX8E=
+dep	libwmime=1.1.0-r0	libwmime
+dep	pc:libgsasl	libgsasl-dev
+dep	pc:openssl	openssl-dev
+dep	pkgconfig	pkgconf

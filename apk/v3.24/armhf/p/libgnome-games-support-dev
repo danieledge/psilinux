@@ -1,0 +1,18 @@
+name	libgnome-games-support-dev
+version	1.8.1-r2
+description	Code shared between GNOME games (development files)
+url	https://gitlab.gnome.org/GNOME/libgnome-games-support
+license	LGPL-3.0-or-later
+size	5776
+installed-size	29229
+depends	libgnome-games-support=1.8.1-r2 pc:gee-0.8>=0.14.0 pc:gio-2.0>=2.40.0 pc:glib-2.0>=2.40.0 pc:gtk+-3.0>=3.19.2 pkgconfig
+origin	libgnome-games-support
+repo	community
+file	libgnome-games-support-dev-1.8.1-r2.apk
+checksum	Q1VxwON0Ex9eGvjT72PsFtT3mKBpY=
+dep	libgnome-games-support=1.8.1-r2	libgnome-games-support
+dep	pc:gee-0.8>=0.14.0	libgee-dev
+dep	pc:gio-2.0>=2.40.0	glib-dev
+dep	pc:glib-2.0>=2.40.0	glib-dev
+dep	pc:gtk+-3.0>=3.19.2	gtk+3.0-dev
+dep	pkgconfig	pkgconf

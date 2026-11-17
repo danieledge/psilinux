@@ -1,0 +1,14 @@
+name	font-roboto
+version	3.005-r0
+description	Google Roboto (Classic) font
+url	https://github.com/googlefonts/roboto-classic
+license	Apache-2.0
+size	4669468
+installed-size	8242964
+depends	fontconfig mkfontscale
+origin	font-roboto
+repo	community
+file	font-roboto-3.005-r0.apk
+checksum	Q1OafBeCD5THlfgaP5ITYur5ZxZ+8=
+dep	fontconfig	fontconfig
+dep	mkfontscale	mkfontscale

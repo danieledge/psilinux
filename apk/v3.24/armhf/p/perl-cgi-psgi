@@ -1,0 +1,14 @@
+name	perl-cgi-psgi
+version	0.15-r5
+description	Adapt CGI.pm to the PSGI protocol
+url	https://metacpan.org/release/CGI-PSGI/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	5859
+installed-size	9340
+depends	perl perl-cgi
+origin	perl-cgi-psgi
+repo	main
+file	perl-cgi-psgi-0.15-r5.apk
+checksum	Q1OLzC9ttNnwS/KTWEZUjoKSvksgc=
+dep	perl	perl
+dep	perl-cgi	perl-cgi

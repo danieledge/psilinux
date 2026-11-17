@@ -1,0 +1,15 @@
+name	diffoscope
+version	309-r2
+description	In-depth comparison of files, archives, and directories
+url	https://diffoscope.org/
+license	GPL-3.0-or-later
+size	161434
+installed-size	651481
+depends	py3-libarchive-c py3-magic python3~3.14
+origin	diffoscope
+repo	community
+file	diffoscope-309-r2.apk
+checksum	Q1qaNx8rpD9tU0lG2LzaRFqTe60kg=
+dep	py3-libarchive-c	py3-libarchive-c
+dep	py3-magic	py3-magic
+dep	python3~3.14	python3

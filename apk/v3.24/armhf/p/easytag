@@ -1,0 +1,31 @@
+name	easytag
+version	2.4.3-r7
+description	audio file metadata editor
+url	https://gitlab.gnome.org/GNOME/easytag
+license	GPL-2.0-only AND GPL-3.0-only
+size	256783
+installed-size	763923
+depends	so:libFLAC.so.12 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libid3-3.8.so.3 so:libid3tag.so.0 so:libintl.so.8 so:libogg.so.0 so:libopus.so.0 so:libopusfile.so.0 so:libspeex.so.1 so:libstdc++.so.6 so:libvorbis.so.0 so:libvorbisfile.so.3
+origin	easytag
+repo	community
+file	easytag-2.4.3-r7.apk
+checksum	Q1b9CqWnlvVcQNrWgxxNkB4jbYpnU=
+dep	so:libFLAC.so.12	libflac
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libid3-3.8.so.3	id3lib-libs
+dep	so:libid3tag.so.0	libid3tag
+dep	so:libintl.so.8	libintl
+dep	so:libogg.so.0	libogg
+dep	so:libopus.so.0	opus
+dep	so:libopusfile.so.0	opusfile
+dep	so:libspeex.so.1	speex
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libvorbis.so.0	libvorbis
+dep	so:libvorbisfile.so.3	libvorbis

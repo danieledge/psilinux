@@ -1,0 +1,15 @@
+name	fcron
+version	3.4.0-r1
+description	Periodical command scheduler for systems not always up
+url	http://fcron.free.fr/
+license	GPL-2.0-or-later
+size	107036
+installed-size	241668
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libreadline.so.8
+origin	fcron
+repo	community
+file	fcron-3.4.0-r1.apk
+checksum	Q1wex6SQITarRteeDse5zmwDYJVRY=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libreadline.so.8	readline

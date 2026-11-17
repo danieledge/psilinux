@@ -1,0 +1,55 @@
+name	protobuf-dev
+version	31.1-r1
+description	Library for extensible, efficient structure packing (development files)
+url	https://github.com/protocolbuffers/protobuf
+license	BSD-3-Clause
+size	2752975
+installed-size	6988768
+depends	protoc=31.1-r1 zlib-dev libprotobuf-lite=31.1-r1 libprotobuf=31.1-r1 libprotoc=31.1-r1 protobuf=31.1-r1 pc:absl_absl_check pc:absl_absl_log pc:absl_algorithm pc:absl_base pc:absl_bind_front pc:absl_bits pc:absl_btree pc:absl_cleanup pc:absl_cord pc:absl_core_headers pc:absl_debugging pc:absl_die_if_null pc:absl_dynamic_annotations pc:absl_flags pc:absl_flat_hash_map pc:absl_flat_hash_set pc:absl_function_ref pc:absl_hash pc:absl_layout pc:absl_log_globals pc:absl_log_initialize pc:absl_log_severity pc:absl_memory pc:absl_node_hash_map pc:absl_node_hash_set pc:absl_optional pc:absl_random_distributions pc:absl_random_random pc:absl_span pc:absl_status pc:absl_statusor pc:absl_strings pc:absl_synchronization pc:absl_time pc:absl_type_traits pc:absl_utility pkgconfig
+origin	protobuf
+repo	main
+file	protobuf-dev-31.1-r1.apk
+checksum	Q1oL0tUUR+DEZyUvtPiWQNp9qxa9k=
+dep	protoc=31.1-r1	protoc
+dep	zlib-dev	zlib-dev
+dep	libprotobuf-lite=31.1-r1	libprotobuf-lite
+dep	libprotobuf=31.1-r1	libprotobuf
+dep	libprotoc=31.1-r1	libprotoc
+dep	protobuf=31.1-r1	protobuf
+dep	pc:absl_absl_check	abseil-cpp-dev
+dep	pc:absl_absl_log	abseil-cpp-dev
+dep	pc:absl_algorithm	abseil-cpp-dev
+dep	pc:absl_base	abseil-cpp-dev
+dep	pc:absl_bind_front	abseil-cpp-dev
+dep	pc:absl_bits	abseil-cpp-dev
+dep	pc:absl_btree	abseil-cpp-dev
+dep	pc:absl_cleanup	abseil-cpp-dev
+dep	pc:absl_cord	abseil-cpp-dev
+dep	pc:absl_core_headers	abseil-cpp-dev
+dep	pc:absl_debugging	abseil-cpp-dev
+dep	pc:absl_die_if_null	abseil-cpp-dev
+dep	pc:absl_dynamic_annotations	abseil-cpp-dev
+dep	pc:absl_flags	abseil-cpp-dev
+dep	pc:absl_flat_hash_map	abseil-cpp-dev
+dep	pc:absl_flat_hash_set	abseil-cpp-dev
+dep	pc:absl_function_ref	abseil-cpp-dev
+dep	pc:absl_hash	abseil-cpp-dev
+dep	pc:absl_layout	abseil-cpp-dev
+dep	pc:absl_log_globals	abseil-cpp-dev
+dep	pc:absl_log_initialize	abseil-cpp-dev
+dep	pc:absl_log_severity	abseil-cpp-dev
+dep	pc:absl_memory	abseil-cpp-dev
+dep	pc:absl_node_hash_map	abseil-cpp-dev
+dep	pc:absl_node_hash_set	abseil-cpp-dev
+dep	pc:absl_optional	abseil-cpp-dev
+dep	pc:absl_random_distributions	abseil-cpp-dev
+dep	pc:absl_random_random	abseil-cpp-dev
+dep	pc:absl_span	abseil-cpp-dev
+dep	pc:absl_status	abseil-cpp-dev
+dep	pc:absl_statusor	abseil-cpp-dev
+dep	pc:absl_strings	abseil-cpp-dev
+dep	pc:absl_synchronization	abseil-cpp-dev
+dep	pc:absl_time	abseil-cpp-dev
+dep	pc:absl_type_traits	abseil-cpp-dev
+dep	pc:absl_utility	abseil-cpp-dev
+dep	pkgconfig	pkgconf

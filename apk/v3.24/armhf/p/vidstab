@@ -1,0 +1,14 @@
+name	vidstab
+version	1.1.1-r0
+description	Video stabilization library
+url	http://public.hronopik.de/vid.stab/
+license	GPL-2.0-or-later
+size	32511
+installed-size	62652
+depends	so:libc.musl-armhf.so.1 so:libgomp.so.1
+origin	vidstab
+repo	community
+file	vidstab-1.1.1-r0.apk
+checksum	Q1ckgbgI/Yzy8KUieBCev1AzoEZUI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgomp.so.1	libgomp

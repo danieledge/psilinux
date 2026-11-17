@@ -1,0 +1,14 @@
+name	xtables-addons
+version	3.30-r0
+description	Netfilter userspace extensions for iptables
+url	https://inai.de/projects/xtables-addons/
+license	GPL-2.0-only
+size	48639
+installed-size	214406
+depends	so:libc.musl-armhf.so.1 so:libxtables.so.12
+origin	xtables-addons
+repo	main
+file	xtables-addons-3.30-r0.apk
+checksum	Q1PMpq+a7Y8cNG0qcPDmFJPv82PNk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxtables.so.12	libxtables

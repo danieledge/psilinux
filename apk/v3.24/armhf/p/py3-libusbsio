@@ -1,0 +1,14 @@
+name	py3-libusbsio
+version	2.1.13-r2
+description	Library for USB-HID communication over SPI, I2C or GPIO (Python bindings)
+url	https://www.nxp.com/design/software/development-software/library-for-windows-macos-and-ubuntu-linux:LIBUSBSIO
+license	BSD-3-Clause
+size	17103
+installed-size	66654
+depends	libusbsio=2.1.13-r2 python3~3.14
+origin	libusbsio
+repo	community
+file	py3-libusbsio-2.1.13-r2.apk
+checksum	Q13RFBn4yQKdpSs1emnLVMaUTM+iM=
+dep	libusbsio=2.1.13-r2	libusbsio
+dep	python3~3.14	python3

@@ -1,0 +1,16 @@
+name	libntl-dev
+version	11.6.0-r1
+description	Library for doing number theory (development files)
+url	https://libntl.org
+license	LGPL-2.1-or-later
+size	160786
+installed-size	752863
+depends	libntl=11.6.0-r1 pc:gf2x>=1.2 pc:gmp>=5.0 pkgconfig
+origin	libntl
+repo	community
+file	libntl-dev-11.6.0-r1.apk
+checksum	Q1qZnfmW4CJ3ymTFPP0ADx6e7oRTI=
+dep	libntl=11.6.0-r1	libntl
+dep	pc:gf2x>=1.2	gf2x-dev
+dep	pc:gmp>=5.0	gmp-dev
+dep	pkgconfig	pkgconf

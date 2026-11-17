@@ -1,0 +1,14 @@
+name	xxhash-dev
+version	0.8.3-r1
+description	Extremely fast non-cryptographic hash algorithm (development files)
+url	https://cyan4973.github.io/xxHash/
+license	BSD-2-Clause
+size	64644
+installed-size	271127
+depends	libxxhash=0.8.3-r1 pkgconfig
+origin	xxhash
+repo	main
+file	xxhash-dev-0.8.3-r1.apk
+checksum	Q1cs3Ny8tbRAI5ZXmzDPXCsl2QMAY=
+dep	libxxhash=0.8.3-r1	libxxhash
+dep	pkgconfig	pkgconf

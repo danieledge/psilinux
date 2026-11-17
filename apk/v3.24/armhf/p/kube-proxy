@@ -1,0 +1,13 @@
+name	kube-proxy
+version	1.36.1-r2
+description	Kubernetes - kube-proxy
+url	https://kubernetes.io/
+license	Apache-2.0
+size	14577310
+installed-size	46644513
+depends	iptables
+origin	kubernetes
+repo	community
+file	kube-proxy-1.36.1-r2.apk
+checksum	Q1IUa0hRTIRQB29MPdHW6l74oQaSg=
+dep	iptables	iptables

@@ -1,0 +1,13 @@
+name	libscfg
+version	0.2.0-r0
+description	C library for scfg
+url	https://codeberg.org/emersion/libscfg
+license	MIT
+size	5507
+installed-size	9336
+depends	so:libc.musl-armhf.so.1
+origin	libscfg
+repo	community
+file	libscfg-0.2.0-r0.apk
+checksum	Q1aFGsT3olm7kh0RkiLpg7qh7ypnM=
+dep	so:libc.musl-armhf.so.1	musl

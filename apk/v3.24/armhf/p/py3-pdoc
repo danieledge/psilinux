@@ -1,0 +1,17 @@
+name	py3-pdoc
+version	16.0.0-r1
+description	API documentation generator for Python projects
+url	https://pdoc.dev/
+license	MIT-0
+size	90225
+installed-size	280322
+depends	py3-jinja2 py3-markdown2 py3-markupsafe py3-pygments python3~3.14
+origin	py3-pdoc
+repo	community
+file	py3-pdoc-16.0.0-r1.apk
+checksum	Q18OlGDOr1ZuSIsNGE2DbsZnFpsmw=
+dep	py3-jinja2	py3-jinja2
+dep	py3-markdown2	py3-markdown2
+dep	py3-markupsafe	py3-markupsafe
+dep	py3-pygments	py3-pygments
+dep	python3~3.14	python3

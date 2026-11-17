@@ -1,0 +1,14 @@
+name	libosip2-dev
+version	5.3.1-r1
+description	oSIP is an implementation of SIP (development files)
+url	https://www.gnu.org/software/osip/
+license	LGPL-2.1-or-later
+size	44851
+installed-size	299673
+depends	libosip2=5.3.1-r1 pkgconfig
+origin	libosip2
+repo	community
+file	libosip2-dev-5.3.1-r1.apk
+checksum	Q1ygXlXWM6wfQToXu+x2fW/rzh9FU=
+dep	libosip2=5.3.1-r1	libosip2
+dep	pkgconfig	pkgconf

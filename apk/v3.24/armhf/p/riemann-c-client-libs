@@ -1,0 +1,16 @@
+name	riemann-c-client-libs
+version	2.2.2-r0
+description	A C client library for the Riemann monitoring system (libraries)
+url	https://git.madhouse-project.org/algernon/riemann-c-client
+license	LGPL-3.0-or-later
+size	12717
+installed-size	30032
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libprotobuf-c.so.1 so:libssl.so.3
+origin	riemann-c-client
+repo	community
+file	riemann-c-client-libs-2.2.2-r0.apk
+checksum	Q12rhhNqFKUi6OtH0XfbGBQnYs3ng=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libprotobuf-c.so.1	protobuf-c
+dep	so:libssl.so.3	libssl3

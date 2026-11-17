@@ -1,0 +1,14 @@
+name	nimsuggest
+version	2.2.0-r0
+description	idetools for the nim language
+url	https://nim-lang.org/
+license	MIT
+size	1861694
+installed-size	3962224
+depends	libucontext-dev so:libc.musl-armhf.so.1
+origin	nim
+repo	community
+file	nimsuggest-2.2.0-r0.apk
+checksum	Q1xq2hYy2Zx66beFBe4vQAfDH1sXA=
+dep	libucontext-dev	libucontext-dev
+dep	so:libc.musl-armhf.so.1	musl

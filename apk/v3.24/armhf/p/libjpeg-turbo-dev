@@ -1,0 +1,15 @@
+name	libjpeg-turbo-dev
+version	3.1.3-r0
+description	Accelerated baseline JPEG compression and decompression library (development files)
+url	https://libjpeg-turbo.org/
+license	BSD-3-Clause AND IJG AND Zlib
+size	50210
+installed-size	217244
+depends	libjpeg-turbo=3.1.3-r0 libturbojpeg=3.1.3-r0 pkgconfig
+origin	libjpeg-turbo
+repo	main
+file	libjpeg-turbo-dev-3.1.3-r0.apk
+checksum	Q1PThctAMaKtbyExML1meLqJN5WJA=
+dep	libjpeg-turbo=3.1.3-r0	libjpeg-turbo
+dep	libturbojpeg=3.1.3-r0	libturbojpeg
+dep	pkgconfig	pkgconf

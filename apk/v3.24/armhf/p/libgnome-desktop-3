@@ -1,0 +1,25 @@
+name	libgnome-desktop-3
+version	44.5-r0
+description	GNOME desktop core libraries
+url	https://gitlab.gnome.org/GNOME/gnome-desktop
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	84635
+installed-size	208116
+depends	bubblewrap so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libseccomp.so.2 so:libudev.so.1 so:libxkbregistry.so.0
+origin	gnome-desktop
+repo	community
+file	libgnome-desktop-3-44.5-r0.apk
+checksum	Q1ROD0/2etzbU2sXNwOkTgfxg1Sx8=
+dep	bubblewrap	bubblewrap
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libseccomp.so.2	libseccomp
+dep	so:libudev.so.1	eudev-libs
+dep	so:libxkbregistry.so.0	libxkbcommon

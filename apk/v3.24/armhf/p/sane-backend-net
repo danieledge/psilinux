@@ -1,0 +1,16 @@
+name	sane-backend-net
+version	1.4.0-r4
+description	SANE network backend
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	27846
+installed-size	60053
+depends	sane so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-armhf.so.1
+origin	sane
+repo	community
+file	sane-backend-net-1.4.0-r4.apk
+checksum	Q1VdD2eSxilGFa+96deioAunb4O9I=
+dep	sane	sane
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libc.musl-armhf.so.1	musl

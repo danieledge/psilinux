@@ -1,0 +1,14 @@
+name	getdns-dev
+version	1.7.3-r0
+description	Modern asynchronous DNS API (development files)
+url	https://getdnsapi.net
+license	BSD-3-Clause
+size	34617
+installed-size	174121
+depends	getdns-libs=1.7.3-r0 pkgconfig
+origin	getdns
+repo	community
+file	getdns-dev-1.7.3-r0.apk
+checksum	Q1HvokOg+5rFQ+J1iJEJkg2ZDVIYY=
+dep	getdns-libs=1.7.3-r0	getdns-libs
+dep	pkgconfig	pkgconf

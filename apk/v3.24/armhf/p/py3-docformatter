@@ -1,0 +1,15 @@
+name	py3-docformatter
+version	1.7.8-r0
+description	Formats docstrings to follow PEP 257
+url	https://github.com/PyCQA/docformatter
+license	MIT
+size	39668
+installed-size	168494
+depends	py3-charset-normalizer py3-untokenize python3~3.14
+origin	py3-docformatter
+repo	community
+file	py3-docformatter-1.7.8-r0.apk
+checksum	Q1/Tm4uCe6DQvoEATwPAKzLPT7VZw=
+dep	py3-charset-normalizer	py3-charset-normalizer
+dep	py3-untokenize	py3-untokenize
+dep	python3~3.14	python3

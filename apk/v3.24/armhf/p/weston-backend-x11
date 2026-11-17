@@ -1,0 +1,25 @@
+name	weston-backend-x11
+version	14.0.2-r5
+description	Weston backend: x11
+url	https://wayland.freedesktop.org/
+license	MIT
+size	18162
+installed-size	38168
+depends	so:libX11-xcb.so.1 so:libX11.so.6 so:libc.musl-armhf.so.1 so:libjpeg.so.8 so:libpixman-1.so.0 so:libpng16.so.16 so:libwayland-server.so.0 so:libwebp.so.7 so:libweston-14.so.0 so:libxcb-shm.so.0 so:libxcb-xkb.so.1 so:libxcb.so.1 so:libxkbcommon.so.0
+origin	weston
+repo	community
+file	weston-backend-x11-14.0.2-r5.apk
+checksum	Q1fAIEKnkeeS4/5lXa1AddtxSZ9Ls=
+dep	so:libX11-xcb.so.1	libx11
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpixman-1.so.0	pixman
+dep	so:libpng16.so.16	libpng
+dep	so:libwayland-server.so.0	wayland-libs-server
+dep	so:libwebp.so.7	libwebp
+dep	so:libweston-14.so.0	libweston
+dep	so:libxcb-shm.so.0	libxcb
+dep	so:libxcb-xkb.so.1	libxcb
+dep	so:libxcb.so.1	libxcb
+dep	so:libxkbcommon.so.0	libxkbcommon

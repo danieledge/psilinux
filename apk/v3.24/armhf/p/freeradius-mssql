@@ -1,0 +1,13 @@
+name	freeradius-mssql
+version	3.0.27-r3
+description	MSSQL module for FreeRADIUS server
+url	https://freeradius.org/
+license	GPL-2.0-or-later
+size	9203
+installed-size	35707
+depends	freeradius-sql=3.0.27-r3
+origin	freeradius
+repo	main
+file	freeradius-mssql-3.0.27-r3.apk
+checksum	Q11JpGNfxCsY1hM4AxBlTqJahnVww=
+dep	freeradius-sql=3.0.27-r3	freeradius-sql

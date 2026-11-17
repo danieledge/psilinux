@@ -1,0 +1,14 @@
+name	mdbtools-dev
+version	1.0.1-r2
+description	library for reading MS Access database files (development files)
+url	https://github.com/mdbtools/mdbtools
+license	GPL-2.0-or-later
+size	10839
+installed-size	30790
+depends	mdbtools=1.0.1-r2 pkgconfig
+origin	mdbtools
+repo	community
+file	mdbtools-dev-1.0.1-r2.apk
+checksum	Q1TwDPLgvAOES37BT9A2cx5Pq9jQM=
+dep	mdbtools=1.0.1-r2	mdbtools
+dep	pkgconfig	pkgconf

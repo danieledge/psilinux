@@ -1,0 +1,16 @@
+name	py3-deap
+version	1.4.1-r4
+description	Distributed Evolutionary Algorithms in Python
+url	https://github.com/DEAP/deap
+license	LGPL-3.0-or-later
+size	89548
+installed-size	356609
+depends	python3 py3-numpy py3-matplotlib python3~3.14
+origin	py3-deap
+repo	community
+file	py3-deap-1.4.1-r4.apk
+checksum	Q15sRA1QqbiAcyVog/obqoLuXIScs=
+dep	python3	python3
+dep	py3-numpy	py3-numpy
+dep	py3-matplotlib	py3-matplotlib
+dep	python3~3.14	python3

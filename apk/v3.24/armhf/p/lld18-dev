@@ -1,0 +1,14 @@
+name	lld18-dev
+version	18.1.8-r10
+description	The LLVM Linker (development files)
+url	https://llvm.org/
+license	Apache-2.0 WITH LLVM-exception
+size	14641
+installed-size	39517
+depends	lld18=18.1.8-r10 lld18-libs=18.1.8-r10
+origin	llvm18
+repo	community
+file	lld18-dev-18.1.8-r10.apk
+checksum	Q1gcNiESIUXVq8Rz3+U7P/NaRPcuA=
+dep	lld18=18.1.8-r10	lld18
+dep	lld18-libs=18.1.8-r10	lld18-libs

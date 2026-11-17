@@ -1,0 +1,16 @@
+name	opensp
+version	1.5.2-r6
+description	Implementation of the DSSSL style language
+url	https://openjade.sourceforge.net/
+license	ICU
+size	724017
+installed-size	1864000
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libintl.so.8 so:libstdc++.so.6
+origin	opensp
+repo	main
+file	opensp-1.5.2-r6.apk
+checksum	Q1F+WerbKdxCWK/bKPq7aJP8szMds=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libintl.so.8	libintl
+dep	so:libstdc++.so.6	libstdc++

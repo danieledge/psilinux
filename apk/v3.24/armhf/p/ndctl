@@ -1,0 +1,23 @@
+name	ndctl
+version	80-r1
+description	Utility library for managing the libnvdimm (non-volatile memory device) sub-system in the Linux kernel
+url	https://github.com/pmem/ndctl
+license	GPL-2.0-only AND LGPL-2.1-only
+size	151854
+installed-size	353189
+depends	kmod so:libc.musl-armhf.so.1 so:libcxl.so.1 so:libdaxctl.so.1 so:libiniparser.so.4 so:libjson-c.so.5 so:libkeyutils.so.1 so:libndctl.so.6 so:libtraceevent.so.1 so:libtracefs.so.1 so:libuuid.so.1
+origin	ndctl
+repo	community
+file	ndctl-80-r1.apk
+checksum	Q1pbairft16ZoOGXi5npps5hHkjqk=
+dep	kmod	kmod
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcxl.so.1	ndctl-libs
+dep	so:libdaxctl.so.1	ndctl-libs
+dep	so:libiniparser.so.4	iniparser
+dep	so:libjson-c.so.5	json-c
+dep	so:libkeyutils.so.1	keyutils-libs
+dep	so:libndctl.so.6	ndctl-libs
+dep	so:libtraceevent.so.1	libtraceevent
+dep	so:libtracefs.so.1	libtracefs
+dep	so:libuuid.so.1	libuuid

@@ -1,0 +1,15 @@
+name	bullet
+version	3.25-r3
+description	A 3D Collision Detection and Rigid Body Dynamics Library for games and animation
+url	https://pybullet.org/Bullet/phpBB3/
+license	Zlib
+size	3316106
+installed-size	8157976
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	bullet
+repo	community
+file	bullet-3.25-r3.apk
+checksum	Q19Me8UTU/y48wmAxvSqmo58sEKHk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

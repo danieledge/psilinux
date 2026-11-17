@@ -1,0 +1,19 @@
+name	roc-toolkit
+version	0.4.0-r1
+description	Real-time audio streaming over the network
+url	https://roc-streaming.org/
+license	MPL-2.0
+size	864373
+installed-size	2524524
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libsndfile.so.1 so:libspeexdsp.so.1 so:libstdc++.so.6 so:libunwind.so.8 so:libuv.so.1
+origin	roc-toolkit
+repo	community
+file	roc-toolkit-0.4.0-r1.apk
+checksum	Q13J7Kq2wJ+na9uMHrMwffCiQrAnM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsndfile.so.1	libsndfile
+dep	so:libspeexdsp.so.1	speexdsp
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libunwind.so.8	libunwind
+dep	so:libuv.so.1	libuv

@@ -1,0 +1,22 @@
+name	bemenu
+version	0.6.23-r0
+description	Dynamic menu library and client program with support for different backends
+url	https://github.com/Cloudef/bemenu
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	75060
+installed-size	184088
+depends	so:libX11.so.6 so:libXinerama.so.1 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgobject-2.0.so.0 so:libncursesw.so.6 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libwayland-client.so.0 so:libxkbcommon.so.0
+origin	bemenu
+repo	community
+file	bemenu-0.6.23-r0.apk
+checksum	Q1Y9E+d1C+UqUmf7jcJFaO907cx10=
+dep	so:libX11.so.6	libx11
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libxkbcommon.so.0	libxkbcommon

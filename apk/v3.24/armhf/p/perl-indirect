@@ -1,0 +1,14 @@
+name	perl-indirect
+version	0.39-r3
+description	Lexically warn about using the indirect method call syntax
+url	https://metacpan.org/release/indirect/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	14879
+installed-size	27425
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-indirect
+repo	community
+file	perl-indirect-0.39-r3.apk
+checksum	Q1yUeT6dlmpec0OsR3ydmkSMEOba0=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

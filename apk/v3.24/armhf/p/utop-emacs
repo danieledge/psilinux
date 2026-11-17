@@ -1,0 +1,13 @@
+name	utop-emacs
+version	2.9.1-r6
+description	utop plugin for Emacs
+url	https://github.com/ocaml-community/utop
+license	BSD-3-Clause
+size	13067
+installed-size	45472
+depends	utop=2.9.1-r6
+origin	utop
+repo	community
+file	utop-emacs-2.9.1-r6.apk
+checksum	Q1hknAgJDanclvPjucM1yQc/lNhhU=
+dep	utop=2.9.1-r6	utop

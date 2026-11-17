@@ -1,0 +1,13 @@
+name	pwclient-pyc
+version	2.9.0-r0
+description	Precompiled Python bytecode for pwclient
+url	https://github.com/getpatchwork/pwclient
+license	GPL-2.0-or-later
+size	35733
+installed-size	84057
+depends	python3~3.14
+origin	pwclient
+repo	community
+file	pwclient-pyc-2.9.0-r0.apk
+checksum	Q1548FomK2VJNyR/gm3hfC/YPOb60=
+dep	python3~3.14	python3

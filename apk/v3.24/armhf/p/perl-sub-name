@@ -1,0 +1,14 @@
+name	perl-sub-name
+version	0.28-r1
+description	(Re)name a sub
+url	https://metacpan.org/release/Sub-Name/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	7138
+installed-size	13665
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-sub-name
+repo	main
+file	perl-sub-name-0.28-r1.apk
+checksum	Q1pd/NgwK9hWLnsFaJQ9r68oiRhrI=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

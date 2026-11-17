@@ -1,0 +1,14 @@
+name	noise-repellent
+version	0.2.5-r0
+description	lv2 plug-in for broadband noise reduction
+url	https://github.com/lucianodato/noise-repellent
+license	LGPL-3.0-only
+size	11559
+installed-size	48111
+depends	so:libc.musl-armhf.so.1 so:libspecbleach.so.0
+origin	noise-repellent
+repo	community
+file	noise-repellent-0.2.5-r0.apk
+checksum	Q1MkjuZsCIEn556uEvv+FUgjY7GpQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libspecbleach.so.0	libspecbleach

@@ -1,0 +1,17 @@
+name	gptfdisk
+version	1.0.10-r1
+description	Text-mode partitioning tool that works on Globally Unique Identifier (GUID) Partition Table (GPT) disks
+url	https://www.rodsbooks.com/gdisk
+license	GPL-2.0-or-later
+size	246024
+installed-size	508232
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libncursesw.so.6 so:libstdc++.so.6 so:libuuid.so.1
+origin	gptfdisk
+repo	main
+file	gptfdisk-1.0.10-r1.apk
+checksum	Q1y9N9xZCxjOEO9DHqBJwLGqvgJlo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libuuid.so.1	libuuid

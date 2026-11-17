@@ -1,0 +1,16 @@
+name	epson-inkjet-printer-escpr
+version	1.8.8-r0
+description	Epson Inkjet Printer Driver (ESC/P-R) for Linux
+url	https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+license	GPL-2.0-or-later
+size	4981009
+installed-size	41034385
+depends	cups-filters so:libc.musl-armhf.so.1 so:libcups.so.2 so:libcupsimage.so.2
+origin	epson-inkjet-printer-escpr
+repo	community
+file	epson-inkjet-printer-escpr-1.8.8-r0.apk
+checksum	Q1x0cltpST2aajJcVuNArQ7aoBV8U=
+dep	cups-filters	cups-filters
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcups.so.2	cups-libs
+dep	so:libcupsimage.so.2	cups-libs

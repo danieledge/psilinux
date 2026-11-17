@@ -1,0 +1,14 @@
+name	perl-git-svn
+version	2.54.1-r0
+description	Perl interface to Git::SVN
+url	https://www.git-scm.com/
+license	GPL-2.0-only
+size	50606
+installed-size	159353
+depends	git=2.54.1-r0 perl-git=2.54.1-r0
+origin	git
+repo	main
+file	perl-git-svn-2.54.1-r0.apk
+checksum	Q16J6mE2GelXmEhlS6GCyMv3O+94E=
+dep	git=2.54.1-r0	git
+dep	perl-git=2.54.1-r0	perl-git

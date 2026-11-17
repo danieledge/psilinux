@@ -1,0 +1,17 @@
+name	ifuse
+version	1.2.1-r0
+description	Fuse filesystem to access the contents of iOS devices
+url	https://libimobiledevice.org
+license	LGPL-2.1-or-later
+size	9888
+installed-size	22192
+depends	usbmuxd so:libc.musl-armhf.so.1 so:libfuse3.so.4 so:libimobiledevice-1.0.so.6 so:libplist-2.0.so.4
+origin	ifuse
+repo	community
+file	ifuse-1.2.1-r0.apk
+checksum	Q1fE/FExyrKaxiG1smtFvVQniC+K4=
+dep	usbmuxd	usbmuxd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfuse3.so.4	fuse3-libs
+dep	so:libimobiledevice-1.0.so.6	libimobiledevice
+dep	so:libplist-2.0.so.4	libplist

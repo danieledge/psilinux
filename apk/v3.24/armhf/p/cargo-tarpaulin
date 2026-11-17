@@ -1,0 +1,17 @@
+name	cargo-tarpaulin
+version	0.35.4-r0
+description	Code coverage tool for Rust projects
+url	https://github.com/xd009642/tarpaulin
+license	Apache-2.0 OR MIT
+size	2571103
+installed-size	5386820
+depends	cargo so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
+origin	cargo-tarpaulin
+repo	community
+file	cargo-tarpaulin-0.35.4-r0.apk
+checksum	Q1zFhKfMV4c3YMKW0AKsoCu+ju5ZA=
+dep	cargo	cargo
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3

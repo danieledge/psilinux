@@ -1,0 +1,13 @@
+name	lua-dmvpn
+version	1.4.3-r1
+description	Dynamic Multipoint VPN
+url	https://gitlab.alpinelinux.org/alpine/dmvpn-tools
+license	MIT
+size	2356
+installed-size	1573
+depends	lua-asn1
+origin	dmvpn
+repo	main
+file	lua-dmvpn-1.4.3-r1.apk
+checksum	Q10v3/Wa30L36bXhd2qqB1NFasul0=
+dep	lua-asn1	lua-asn1

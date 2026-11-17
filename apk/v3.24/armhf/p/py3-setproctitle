@@ -1,0 +1,15 @@
+name	py3-setproctitle
+version	1.3.7-r1
+description	A Python module to customize the process title
+url	https://github.com/dvarrazzo/py-setproctitle
+license	BSD-3-Clause
+size	13369
+installed-size	28332
+depends	python3 python3~3.14 so:libc.musl-armhf.so.1
+origin	py3-setproctitle
+repo	main
+file	py3-setproctitle-1.3.7-r1.apk
+checksum	Q1LYWx4e0yKjfsz/gFbovYEVjiwPY=
+dep	python3	python3
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

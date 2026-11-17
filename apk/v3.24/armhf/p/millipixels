@@ -1,0 +1,37 @@
+name	millipixels
+version	0.24.0-r0
+description	Camera application for the Librem 5
+url	https://source.puri.sm/Librem5/millipixels
+license	GPL-3.0-only
+size	790735
+installed-size	1915769
+depends	exiftool graphicsmagick libraw-tools v4l-utils ffmpeg so:libEGL.so.1 so:libGLESv2.so.2 so:libbsd.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcamera.so.0.7 so:libexif.so.12 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libjpeg.so.8 so:libpulse-simple.so.0 so:libpulse.so.0 so:libraw.so.25 so:libstdc++.so.6 so:libtiff.so.6 so:libzbar.so.0
+origin	millipixels
+repo	community
+file	millipixels-0.24.0-r0.apk
+checksum	Q1wEetG9nleT7WnEVKUFsfEF9waSc=
+dep	exiftool	exiftool
+dep	graphicsmagick	graphicsmagick
+dep	libraw-tools	libraw-tools
+dep	v4l-utils	v4l-utils
+dep	ffmpeg	ffmpeg
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libGLESv2.so.2	mesa-gles
+dep	so:libbsd.so.0	libbsd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcamera.so.0.7	libcamera
+dep	so:libexif.so.12	libexif
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpulse-simple.so.0	libpulse
+dep	so:libpulse.so.0	libpulse
+dep	so:libraw.so.25	libraw
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtiff.so.6	tiff
+dep	so:libzbar.so.0	libzbar

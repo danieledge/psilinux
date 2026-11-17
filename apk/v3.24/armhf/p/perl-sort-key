@@ -1,0 +1,14 @@
+name	perl-sort-key
+version	1.33-r12
+description	the fastest way to sort anything in Perl
+url	https://metacpan.org/release/Sort-Key/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	20036
+installed-size	50837
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-sort-key
+repo	community
+file	perl-sort-key-1.33-r12.apk
+checksum	Q1wPA25cUD36e2/1oB+eD8xBVZNNU=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

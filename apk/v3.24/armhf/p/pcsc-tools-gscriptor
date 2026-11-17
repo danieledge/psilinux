@@ -1,0 +1,16 @@
+name	pcsc-tools-gscriptor
+version	1.7.3-r1
+description	gtk3 gui tool from pcsc-tools
+url	https://pcsc-tools.apdu.fr/
+license	GPL-2.0-or-later
+size	22056
+installed-size	44373
+depends	perl-glib perl-gtk3 perl-libintl-perl pcsc-tools=1.7.3-r1
+origin	pcsc-tools
+repo	community
+file	pcsc-tools-gscriptor-1.7.3-r1.apk
+checksum	Q1jNtWXhOq/I/5ngoeqBi7bSZG21I=
+dep	perl-glib	perl-glib
+dep	perl-gtk3	perl-gtk3
+dep	perl-libintl-perl	!
+dep	pcsc-tools=1.7.3-r1	pcsc-tools

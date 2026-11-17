@@ -1,0 +1,13 @@
+name	umtprd
+version	1.6.8-r4
+description	Lightweight USB Media Transfer Protocol (MTP) responder daemon for GNU/Linux
+url	https://github.com/viveris/uMTP-Responder/
+license	GPL-3.0-only
+size	43332
+installed-size	95864
+depends	so:libc.musl-armhf.so.1
+origin	umtprd
+repo	community
+file	umtprd-1.6.8-r4.apk
+checksum	Q104KLI/SAHsdEEkb3Sdn2cKUPw9c=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	rtl-sdr
+version	2.0.2-r1
+description	Software defined radio receiver for Realtek RTL2832U (tools)
+url	https://osmocom.org/projects/sdr/wiki/rtl-sdr
+license	GPL-2.0-or-later
+size	47859
+installed-size	141652
+depends	so:libc.musl-armhf.so.1 so:librtlsdr.so.0
+origin	librtlsdr
+repo	main
+file	rtl-sdr-2.0.2-r1.apk
+checksum	Q1pBpt1gPzlMHWHd1t38z8/uz5ai0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:librtlsdr.so.0	librtlsdr

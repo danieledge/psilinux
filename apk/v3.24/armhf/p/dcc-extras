@@ -1,0 +1,15 @@
+name	dcc-extras
+version	2.3.169-r3
+description	Distributed Checksum Clearinghouses or DCC spam filter (dcc user commands)
+url	https://www.dcc-servers.net/dcc/
+license	custom
+size	329824
+installed-size	799743
+depends	dcc so:libc.musl-armhf.so.1 so:libmd.so.0
+origin	dcc
+repo	community
+file	dcc-extras-2.3.169-r3.apk
+checksum	Q1PN260H98Av0p5AyMjJPV+dX6Kps=
+dep	dcc	dcc
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmd.so.0	libmd

@@ -1,0 +1,18 @@
+name	gammu-smsd
+version	1.42.0-r1
+description	Gammu SMS daemon
+url	https://wammu.eu/
+license	GPL-2.0-or-later
+size	21779
+installed-size	53452
+depends	bluez dialog so:libGammu.so.8 so:libc.musl-armhf.so.1 so:libgsmsd.so.8 so:libintl.so.8
+origin	gammu
+repo	community
+file	gammu-smsd-1.42.0-r1.apk
+checksum	Q1uWuJSC4KfL5kpVUO6AOKz4ahUDg=
+dep	bluez	bluez
+dep	dialog	dialog
+dep	so:libGammu.so.8	gammu-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgsmsd.so.8	gammu-libs
+dep	so:libintl.so.8	libintl

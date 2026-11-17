@@ -1,0 +1,14 @@
+name	picolibc-riscv-none-elf
+version	1.8.11-r0
+description	A C standard library based on newlib with focus on compact size for riscv-none-elf
+url	https://github.com/picolibc/picolibc
+license	GPL-2.0-only AND LGPL-2.1-only AND 0BSD AND BSD-3-Clause AND GPL-3.0-only AND LGPL-3.0-only
+size	23636706
+installed-size	118384620
+depends	binutils-riscv-none-elf gcc-riscv-none-elf~16.1
+origin	picolibc
+repo	community
+file	picolibc-riscv-none-elf-1.8.11-r0.apk
+checksum	Q1Qjc/G7fVWt0WCM6Gjg1GcV4ab84=
+dep	binutils-riscv-none-elf	binutils-riscv-none-elf
+dep	gcc-riscv-none-elf~16.1	gcc-riscv-none-elf

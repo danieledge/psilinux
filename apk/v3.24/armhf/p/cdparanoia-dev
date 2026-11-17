@@ -1,0 +1,13 @@
+name	cdparanoia-dev
+version	10.2-r14
+description	An audio CD extraction application (development files)
+url	https://www.xiph.org/paranoia
+license	GPL-2.0-or-later
+size	46240
+installed-size	109000
+depends	cdparanoia-libs=10.2-r14
+origin	cdparanoia
+repo	main
+file	cdparanoia-dev-10.2-r14.apk
+checksum	Q1GftNaY//v7+fkTy8/3o9QPKkkfM=
+dep	cdparanoia-libs=10.2-r14	cdparanoia-libs

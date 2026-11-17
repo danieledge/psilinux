@@ -1,0 +1,17 @@
+name	py3-pydantic
+version	2.12.5-r0
+description	Data parsing and validation using Python type hints
+url	https://github.com/pydantic/pydantic
+license	MIT
+size	427555
+installed-size	1851456
+depends	py3-annotated-types py3-pydantic-core py3-typing-extensions py3-typing-inspection python3~3.14
+origin	py3-pydantic
+repo	community
+file	py3-pydantic-2.12.5-r0.apk
+checksum	Q11ddu72bzmOfslNxuQw+FzNsI1Ek=
+dep	py3-annotated-types	py3-annotated-types
+dep	py3-pydantic-core	py3-pydantic-core
+dep	py3-typing-extensions	py3-typing-extensions
+dep	py3-typing-inspection	py3-typing-inspection
+dep	python3~3.14	python3

@@ -1,0 +1,12 @@
+name	include-what-you-use-dbg
+version	0.26-r0
+description	A tool for use with clang to analyze #includes in C and C++ source files (debug symbols)
+url	https://include-what-you-use.org
+license	NCSA
+size	23527073
+installed-size	67915208
+depends	!include-what-you-use<0.26-r0 !include-what-you-use>0.26-r0
+origin	include-what-you-use
+repo	community
+file	include-what-you-use-dbg-0.26-r0.apk
+checksum	Q1TXR7R2XuDyLkoRpGwDqrVflpwRM=

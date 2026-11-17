@@ -1,0 +1,14 @@
+name	perl-apache-logformat-compiler
+version	0.36-r3
+description	Compile a log format string to perl-code 
+url	https://metacpan.org/release/Apache-LogFormat-Compiler/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	5522
+installed-size	9442
+depends	perl perl-posix-strftime-compiler
+origin	perl-apache-logformat-compiler
+repo	main
+file	perl-apache-logformat-compiler-0.36-r3.apk
+checksum	Q1bZmwdDnF43QReiqyG/CBZQfIe0o=
+dep	perl	perl
+dep	perl-posix-strftime-compiler	perl-posix-strftime-compiler

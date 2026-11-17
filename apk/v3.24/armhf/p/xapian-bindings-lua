@@ -1,0 +1,17 @@
+name	xapian-bindings-lua
+version	2.0.0-r0
+description	Lua 5.3 bindings for the Xapian search engine library
+url	http://www.xapian.org
+license	GPL-2.0-or-later
+size	267603
+installed-size	931888
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblua-5.3.so.0 so:libstdc++.so.6 so:libxapian.so.45
+origin	xapian-bindings
+repo	community
+file	xapian-bindings-lua-2.0.0-r0.apk
+checksum	Q1Vx7xfz4LPUfDr9YclwR/G5mLYrk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblua-5.3.so.0	lua5.3-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxapian.so.45	libxapian

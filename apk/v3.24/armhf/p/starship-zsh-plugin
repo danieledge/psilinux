@@ -1,0 +1,13 @@
+name	starship-zsh-plugin
+version	1.24.2-r0
+description	Minimal, blazing-fast and infinitely customizable prompt for any shell (Zsh plugin)
+url	https://starship.rs
+license	ISC
+size	1746
+installed-size	69
+depends	starship=1.24.2-r0
+origin	starship
+repo	community
+file	starship-zsh-plugin-1.24.2-r0.apk
+checksum	Q1uzA7+/Jr0ajJd+qYqXEBkVSl2pc=
+dep	starship=1.24.2-r0	starship

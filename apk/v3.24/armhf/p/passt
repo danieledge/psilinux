@@ -1,0 +1,13 @@
+name	passt
+version	2026.05.26-r0
+description	Plug A Simple Socket Transport
+url	https://passt.top/
+license	BSD-3-Clause AND GPL-2.0-or-later
+size	146526
+installed-size	305400
+depends	so:libc.musl-armhf.so.1
+origin	passt
+repo	community
+file	passt-2026.05.26-r0.apk
+checksum	Q19My68s4fhkFSfb3wCnb3U2vgnLE=
+dep	so:libc.musl-armhf.so.1	musl

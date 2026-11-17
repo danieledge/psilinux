@@ -1,0 +1,15 @@
+name	bacula-mysql
+version	15.0.3-r0
+description	Bacula MySQL backend
+url	https://www.bacula.org/
+license	AGPL-3.0-or-later WITH OpenSSL-Exception
+size	20966
+installed-size	71440
+depends	bacula so:libc.musl-armhf.so.1 so:libmariadb.so.3
+origin	bacula
+repo	main
+file	bacula-mysql-15.0.3-r0.apk
+checksum	Q132B4fHJGsLFSDqgQaX94MitKWPI=
+dep	bacula	bacula
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmariadb.so.3	mariadb-connector-c

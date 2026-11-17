@@ -1,0 +1,18 @@
+name	pilot-link
+version	0.12.5_git20241124-r2
+description	A suite of tools for connecting to PalmOS handheld devices
+url	https://github.com/desrod/pilot-link
+license	GPL-2.0-only
+size	214810
+installed-size	657015
+depends	pilot-link-libs so:libc.musl-armhf.so.1 so:libpisock.so.9 so:libpng16.so.16 so:libpopt.so.0 so:libreadline.so.8
+origin	pilot-link
+repo	community
+file	pilot-link-0.12.5_git20241124-r2.apk
+checksum	Q1cnFCR/S9DRB/sPROx/G0rEhfA5g=
+dep	pilot-link-libs	pilot-link-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpisock.so.9	pilot-link-libs
+dep	so:libpng16.so.16	libpng
+dep	so:libpopt.so.0	popt
+dep	so:libreadline.so.8	readline

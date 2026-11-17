@@ -1,0 +1,15 @@
+name	libgeotiff
+version	1.7.4-r0
+description	TIFF based interchange format for georeferenced raster imagery
+url	https://trac.osgeo.org/geotiff
+license	Public-Domain
+size	78083
+installed-size	206492
+depends	so:libc.musl-armhf.so.1 so:libproj.so.25 so:libtiff.so.6
+origin	libgeotiff
+repo	community
+file	libgeotiff-1.7.4-r0.apk
+checksum	Q1OFnQ1GLodP7SRa9NXk0082Yv0QQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libproj.so.25	proj
+dep	so:libtiff.so.6	tiff

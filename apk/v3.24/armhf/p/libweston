@@ -1,0 +1,17 @@
+name	libweston
+version	14.0.2-r5
+description	Reference Wayland server (libraries)
+url	https://wayland.freedesktop.org/
+license	MIT
+size	137518
+installed-size	305248
+depends	so:libc.musl-armhf.so.1 so:libdrm.so.2 so:libpixman-1.so.0 so:libwayland-server.so.0 so:libxkbcommon.so.0
+origin	weston
+repo	community
+file	libweston-14.0.2-r5.apk
+checksum	Q1LgCRnCg9HMvyt2iuzdnj6l73wRI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm.so.2	libdrm
+dep	so:libpixman-1.so.0	pixman
+dep	so:libwayland-server.so.0	wayland-libs-server
+dep	so:libxkbcommon.so.0	libxkbcommon

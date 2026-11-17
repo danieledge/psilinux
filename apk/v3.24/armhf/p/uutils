@@ -1,0 +1,15 @@
+name	uutils
+version	0.11.0-r1
+description	Rust rewrite of the GNU coreutils - main binary
+url	https://uutils.github.io/coreutils/
+license	MIT
+size	4228642
+installed-size	8860188
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libonig.so.5
+origin	uutils
+repo	community
+file	uutils-0.11.0-r1.apk
+checksum	Q19/EkuGThQR1NuyG/CmDk+AvEemw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libonig.so.5	oniguruma

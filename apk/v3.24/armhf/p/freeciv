@@ -1,0 +1,27 @@
+name	freeciv
+version	3.2.4-r0
+description	Free and Open Source empire-building strategy game (meta package)
+url	http://www.freeciv.org
+license	GPL-2.0-or-later
+size	409523
+installed-size	1048649
+depends	freeciv-server freeciv-client-gtk3 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libicuuc.so.78 so:libintl.so.8 so:liblzma.so.5 so:libsqlite3.so.0 so:libz.so.1 so:libzstd.so.1
+origin	freeciv
+repo	community
+file	freeciv-3.2.4-r0.apk
+checksum	Q1HU3ARoTDCSzEvR1u6ZdhOFLZ9hM=
+dep	freeciv-server	freeciv-server
+dep	freeciv-client-gtk3	freeciv-client-gtk3
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libintl.so.8	libintl
+dep	so:liblzma.so.5	xz-libs
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

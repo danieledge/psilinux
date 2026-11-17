@@ -1,0 +1,13 @@
+name	gopt
+version	10.0-r0
+description	C library for parsing POSIX and GNU style command line arguments
+url	http://www.purposeful.co.uk/software/gopt/
+license	TFL
+size	4549
+installed-size	9336
+depends	so:libc.musl-armhf.so.1
+origin	gopt
+repo	community
+file	gopt-10.0-r0.apk
+checksum	Q1lNae7RwVl/V5TgE6WnnE7Xsrsao=
+dep	so:libc.musl-armhf.so.1	musl

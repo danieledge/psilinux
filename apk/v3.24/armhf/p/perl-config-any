@@ -1,0 +1,14 @@
+name	perl-config-any
+version	0.33-r2
+description	Load configuration from different file formats, transparently
+url	https://metacpan.org/release/Config-Any/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	10555
+installed-size	26455
+depends	perl perl-module-pluggable
+origin	perl-config-any
+repo	community
+file	perl-config-any-0.33-r2.apk
+checksum	Q12BUBhyT7dr/natKXQ92jqij6rug=
+dep	perl	perl
+dep	perl-module-pluggable	perl-module-pluggable

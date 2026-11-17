@@ -1,0 +1,33 @@
+name	hydra
+version	9.6-r1
+description	fast network logon cracker with support for many different services
+url	https://github.com/vanhauser-thc/thc-hydra
+license	AGPL-3.0-or-later
+size	372279
+installed-size	1425835
+depends	so:libafpclient.so.0 so:libapr-1.so.0 so:libbson-1.0.so.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libfreerdp3.so.3 so:libgcrypt.so.20 so:libidn.so.12 so:libmariadb.so.3 so:libmemcached.so.11 so:libmongoc-1.0.so.0 so:libncursesw.so.6 so:libpcre2-8.so.0 so:libpq.so.5 so:libsmbclient.so.0 so:libssh.so.4 so:libssl.so.3 so:libsvn_client-1.so.0 so:libsvn_subr-1.so.0 so:libwinpr3.so.3 so:libz.so.1
+origin	hydra
+repo	community
+file	hydra-9.6-r1.apk
+checksum	Q1fvO3m/xJu+k2f875veTVj53GFv4=
+dep	so:libafpclient.so.0	afpfs-ng
+dep	so:libapr-1.so.0	apr
+dep	so:libbson-1.0.so.0	libbson
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libfreerdp3.so.3	freerdp-libs
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libidn.so.12	libidn
+dep	so:libmariadb.so.3	mariadb-connector-c
+dep	so:libmemcached.so.11	libmemcached-libs
+dep	so:libmongoc-1.0.so.0	mongo-c-driver
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libpq.so.5	libpq
+dep	so:libsmbclient.so.0	libsmbclient
+dep	so:libssh.so.4	libssh
+dep	so:libssl.so.3	libssl3
+dep	so:libsvn_client-1.so.0	subversion-libs
+dep	so:libsvn_subr-1.so.0	subversion-libs
+dep	so:libwinpr3.so.3	freerdp-libs
+dep	so:libz.so.1	zlib

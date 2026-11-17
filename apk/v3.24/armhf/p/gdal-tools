@@ -1,0 +1,17 @@
+name	gdal-tools
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (command line utilities)
+url	https://gdal.org/
+license	MIT
+size	1310002
+installed-size	3083984
+depends	py3-gdal so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libstdc++.so.6
+origin	gdal
+repo	community
+file	gdal-tools-3.13.3-r0.apk
+checksum	Q1vwNUShYCMQ5JdDBemPePHAMH3AU=
+dep	py3-gdal	py3-gdal
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libstdc++.so.6	libstdc++

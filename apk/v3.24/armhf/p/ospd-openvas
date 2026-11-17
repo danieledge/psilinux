@@ -1,0 +1,23 @@
+name	ospd-openvas
+version	22.10.1-r0
+description	ospd-openvas is an OSP server implementation to allow GVM to remotely control an OpenVAS Scanner
+url	https://github.com/greenbone/ospd-openvas
+license	AGPL-3.0-or-later
+size	112129
+installed-size	449440
+depends	py3-defusedxml py3-deprecated py3-gnupg py3-lxml py3-packaging py3-paho-mqtt py3-psutil py3-redis mosquitto /bin/sh python3~3.14
+origin	ospd-openvas
+repo	community
+file	ospd-openvas-22.10.1-r0.apk
+checksum	Q1l6ABQpvaE+xBkL5Ktju6vaZexXo=
+dep	py3-defusedxml	py3-defusedxml
+dep	py3-deprecated	py3-deprecated
+dep	py3-gnupg	py3-gnupg
+dep	py3-lxml	py3-lxml
+dep	py3-packaging	py3-packaging
+dep	py3-paho-mqtt	py3-paho-mqtt
+dep	py3-psutil	py3-psutil
+dep	py3-redis	py3-redis
+dep	mosquitto	mosquitto
+dep	/bin/sh	busybox-binsh
+dep	python3~3.14	python3

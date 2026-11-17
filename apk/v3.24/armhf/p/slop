@@ -1,0 +1,17 @@
+name	slop
+version	7.7-r3
+description	Application that queries for a selection from the user and prints the region to stdout
+url	https://github.com/naelstrof/slop
+license	MIT
+size	62850
+installed-size	161716
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libicuuc.so.78 so:libslopy.so.7.7 so:libstdc++.so.6
+origin	slop
+repo	community
+file	slop-7.7-r3.apk
+checksum	Q1Gd85gzq8dKDGiURMt750r+K2jgw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libslopy.so.7.7	slop-libs
+dep	so:libstdc++.so.6	libstdc++

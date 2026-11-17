@@ -1,0 +1,18 @@
+name	audit
+version	4.1.2-r6
+description	User space tools for kernel auditing
+url	https://people.redhat.com/sgrubb/audit/
+license	LGPL-2.1-or-later
+size	217531
+installed-size	529040
+depends	/bin/sh so:libaudit.so.1 so:libauparse.so.0 so:libauplugin.so.1 so:libc.musl-armhf.so.1 so:libcap-ng.so.0
+origin	audit
+repo	main
+file	audit-4.1.2-r6.apk
+checksum	Q1VGrEj7zAhn6BXAyYS88npAHe2BM=
+dep	/bin/sh	busybox-binsh
+dep	so:libaudit.so.1	audit-libs
+dep	so:libauparse.so.0	audit-libs
+dep	so:libauplugin.so.1	audit-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap-ng.so.0	libcap-ng

@@ -1,0 +1,19 @@
+name	ytdl-sub
+version	2026.02.04-r1
+description	tool for downloading media with yt-dlp and creating metadata
+url	https://github.com/jmbannon/ytdl-sub
+license	GPL-3.0-only
+size	203037
+installed-size	906283
+depends	ffmpeg py3-colorama py3-mediafile py3-mergedeep py3-yaml yt-dlp-core python3~3.14
+origin	ytdl-sub
+repo	community
+file	ytdl-sub-2026.02.04-r1.apk
+checksum	Q1E/H/9OkaNL05Rz9VXzSXwWda/94=
+dep	ffmpeg	ffmpeg
+dep	py3-colorama	py3-colorama
+dep	py3-mediafile	py3-mediafile
+dep	py3-mergedeep	py3-mergedeep
+dep	py3-yaml	py3-yaml
+dep	yt-dlp-core	yt-dlp-core
+dep	python3~3.14	python3

@@ -1,0 +1,15 @@
+name	lua5.1-sql-sqlite3
+version	2.6.0-r6
+description	Lua 5.1 SQL driver for sqlite3
+url	http://lunarmodules.github.io/luasql/
+license	MIT
+size	8416
+installed-size	17715
+depends	lua5.1 so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	lua-sql
+repo	main
+file	lua5.1-sql-sqlite3-2.6.0-r6.apk
+checksum	Q17IOjTx0AHlwfZd4lXAHAZmQjhO0=
+dep	lua5.1	lua5.1
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

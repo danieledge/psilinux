@@ -1,0 +1,14 @@
+name	secpwgen
+version	1.3-r7
+description	secure password generator
+url	http://zvrba.net/
+license	MIT
+size	65661
+installed-size	215848
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	secpwgen
+repo	community
+file	secpwgen-1.3-r7.apk
+checksum	Q1oOuetf+eGAXOFsBhRhUEZ/ikc3U=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

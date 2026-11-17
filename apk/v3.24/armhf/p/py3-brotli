@@ -1,0 +1,14 @@
+name	py3-brotli
+version	1.2.1-r0
+description	Generic lossless compressor (python bindings)
+url	https://github.com/google/brotli
+license	MIT
+size	408907
+installed-size	904896
+depends	python3~3.14 so:libc.musl-armhf.so.1
+origin	brotli
+repo	main
+file	py3-brotli-1.2.1-r0.apk
+checksum	Q1Aio9c3DMfvmYAnLaQ3WoVIGf1TY=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	aws-c-compression
+version	0.3.2-r0
+description	C99 implementation of huffman encoding/decoding
+url	https://github.com/awslabs/aws-c-compression
+license	Apache-2.0
+size	5457
+installed-size	9364
+depends	so:libaws-c-common.so.1 so:libc.musl-armhf.so.1
+origin	aws-c-compression
+repo	community
+file	aws-c-compression-0.3.2-r0.apk
+checksum	Q1Pa9wj7IXH2XIwU/6ixXDqD98r5o=
+dep	so:libaws-c-common.so.1	aws-c-common
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,23 @@
+name	xfce4-systemload-plugin
+version	1.3.3-r0
+description	System load plugin for the Xfce Panel
+url	https://docs.xfce.org/panel-plugins/xfce4-systemload-plugin/start
+license	BSD-2-Clause
+size	30831
+installed-size	63335
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libxfce4panel-2.0.so.4 so:libxfce4ui-2.so.0 so:libxfce4util.so.7 so:libxfconf-0.so.3
+origin	xfce4-systemload-plugin
+repo	community
+file	xfce4-systemload-plugin-1.3.3-r0.apk
+checksum	Q1QQ0jx0hFMMa+bTkawQRqquawRog=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libxfce4panel-2.0.so.4	libxfce4panel
+dep	so:libxfce4ui-2.so.0	libxfce4ui
+dep	so:libxfce4util.so.7	libxfce4util
+dep	so:libxfconf-0.so.3	xfconf

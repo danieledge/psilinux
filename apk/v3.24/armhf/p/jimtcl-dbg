@@ -1,0 +1,12 @@
+name	jimtcl-dbg
+version	0.83-r0
+description	An open-source, small footprint implementation of Tcl (debug symbols)
+url	https://github.com/msteveb/jimtcl
+license	BSD-2-Clause
+size	446925
+installed-size	1032740
+depends	!jimtcl-readline<0.83-r0 !jimtcl-readline>0.83-r0 !jimtcl-sqlite3<0.83-r0 !jimtcl-sqlite3>0.83-r0 !jimtcl<0.83-r0 !jimtcl>0.83-r0
+origin	jimtcl
+repo	community
+file	jimtcl-dbg-0.83-r0.apk
+checksum	Q15R43eRebrSNlxT/b5PA0rng8cvg=

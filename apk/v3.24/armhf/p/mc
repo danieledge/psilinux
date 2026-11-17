@@ -1,0 +1,19 @@
+name	mc
+version	4.8.33-r3
+description	Filemanager/shell that emulates Norton Commander
+url	https://midnight-commander.org
+license	GPL-3.0-or-later
+size	730450
+installed-size	2410570
+depends	so:libc.musl-armhf.so.1 so:libe2p.so.2 so:libglib-2.0.so.0 so:libgpm.so.2 so:libintl.so.8 so:libslang.so.2 so:libssh2.so.1
+origin	mc
+repo	main
+file	mc-4.8.33-r3.apk
+checksum	Q1eUdNxtuNW8krABaCHXzBBws9O/c=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libe2p.so.2	e2fsprogs-libs
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgpm.so.2	gpm-libs
+dep	so:libintl.so.8	libintl
+dep	so:libslang.so.2	slang
+dep	so:libssh2.so.1	libssh2

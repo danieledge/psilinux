@@ -1,0 +1,15 @@
+name	libsysstat-dev
+version	1.1.0-r2
+description	Library used to query system info and statistics (development files)
+url	https://github.com/lxqt/libsysstat
+license	LGPL-2.1-or-later
+size	7416
+installed-size	18496
+depends	libsysstat=1.1.0-r2 pc:Qt6Core pkgconfig
+origin	libsysstat
+repo	community
+file	libsysstat-dev-1.1.0-r2.apk
+checksum	Q1RTwhb6XIuUa4fha8IDN+ftbCmsc=
+dep	libsysstat=1.1.0-r2	libsysstat
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

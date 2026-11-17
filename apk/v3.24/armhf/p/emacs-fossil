@@ -1,0 +1,14 @@
+name	emacs-fossil
+version	0_git20230504-r1
+description	Emacs VC backend for Fossil SCM
+url	https://tumbleweed.nu/r/vc-fossil
+license	GPL-3.0-or-later
+size	14796
+installed-size	47390
+depends	cmd:emacs fossil
+origin	emacs-fossil
+repo	community
+file	emacs-fossil-0_git20230504-r1.apk
+checksum	Q1IX6mNs+EESuYgSUi+O4xH019hgE=
+dep	cmd:emacs	emacs-gtk3
+dep	fossil	fossil

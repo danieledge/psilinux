@@ -1,0 +1,16 @@
+name	kamailio-mqtt
+version	6.0.6-r0
+description	Kamailio MQTT publish/subscribe connector
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	35823
+installed-size	75624
+depends	kamailio so:libc.musl-armhf.so.1 so:libev.so.4 so:libmosquitto.so.1
+origin	kamailio
+repo	main
+file	kamailio-mqtt-6.0.6-r0.apk
+checksum	Q1kK09eoFcdlyhQnxndvhMKciLLE4=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libev.so.4	libev
+dep	so:libmosquitto.so.1	mosquitto-libs

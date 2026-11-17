@@ -1,0 +1,13 @@
+name	libqb
+version	2.0.10-r0
+description	Library providing high performance logging, tracing, ipc, and poll
+url	https://clusterlabs.github.io/libqb
+license	LGPL-2.1-or-later
+size	62296
+installed-size	128260
+depends	so:libc.musl-armhf.so.1
+origin	libqb
+repo	community
+file	libqb-2.0.10-r0.apk
+checksum	Q1wfZKu5jLA9uFFCWwt6c+r64T+70=
+dep	so:libc.musl-armhf.so.1	musl

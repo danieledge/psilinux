@@ -1,0 +1,14 @@
+name	libestr-dev
+version	0.1.11-r4
+description	essentials for string handling (and a bit more) (development files)
+url	https://libestr.adiscon.com/
+license	LGPL-2.1-or-later
+size	6755
+installed-size	14376
+depends	libestr=0.1.11-r4 pkgconfig
+origin	libestr
+repo	main
+file	libestr-dev-0.1.11-r4.apk
+checksum	Q1LdJMyzmS4OJWVsHSR8XV7REYgaM=
+dep	libestr=0.1.11-r4	libestr
+dep	pkgconfig	pkgconf

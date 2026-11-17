@@ -1,0 +1,16 @@
+name	wrk
+version	4.2.0-r3
+description	wrk is a modern HTTP benchmarking tool
+url	https://github.com/wg/wrk
+license	Apache-2.0
+size	30564
+installed-size	59084
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libluajit-5.1.so.2 so:libssl.so.3
+origin	wrk
+repo	community
+file	wrk-4.2.0-r3.apk
+checksum	Q1JxlXfM1WAcOH8YfexGSStLhgiDY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libluajit-5.1.so.2	luajit
+dep	so:libssl.so.3	libssl3

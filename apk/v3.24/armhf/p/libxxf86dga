@@ -1,0 +1,15 @@
+name	libxxf86dga
+version	1.1.7-r0
+description	X11 Direct Graphics Access extension library
+url	https://xorg.freedesktop.org/
+license	MIT
+size	9606
+installed-size	21680
+depends	so:libX11.so.6 so:libXext.so.6 so:libc.musl-armhf.so.1
+origin	libxxf86dga
+repo	community
+file	libxxf86dga-1.1.7-r0.apk
+checksum	Q117d/SsaVRkMTyuz9SehY6kDuu2I=
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libc.musl-armhf.so.1	musl

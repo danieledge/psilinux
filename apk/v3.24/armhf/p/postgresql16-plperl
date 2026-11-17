@@ -1,0 +1,15 @@
+name	postgresql16-plperl
+version	16.16-r0
+description	PL/Perl procedural language for PostgreSQL
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	46743
+installed-size	101017
+depends	postgresql16=16.16-r0 so:libc.musl-armhf.so.1 so:libperl.so
+origin	postgresql16
+repo	community
+file	postgresql16-plperl-16.16-r0.apk
+checksum	Q1bvHWsk6Kej9uIb3W/mWjGSWCeCI=
+dep	postgresql16=16.16-r0	postgresql16
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libperl.so	perl

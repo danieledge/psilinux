@@ -1,0 +1,17 @@
+name	brunsli-libs
+version	0.1-r1
+description	Practical JPEG Repacker (libraries)
+url	https://github.com/google/brunsli
+license	MIT
+size	119972
+installed-size	256664
+depends	so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	brunsli
+repo	community
+file	brunsli-libs-0.1-r1.apk
+checksum	Q1mX49Nia1D7dBS/djEJIKeLECQUA=
+dep	so:libbrotlidec.so.1	brotli-libs
+dep	so:libbrotlienc.so.1	brotli-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

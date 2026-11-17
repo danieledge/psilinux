@@ -1,0 +1,14 @@
+name	libp11
+version	0.4.18-r1
+description	PKCS#11 wrapper library
+url	https://github.com/OpenSC/libp11/wiki
+license	LGPL-2.1-or-later
+size	103210
+installed-size	232852
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	libp11
+repo	community
+file	libp11-0.4.18-r1.apk
+checksum	Q1jcPBEeEA4LJZNUA/GnIIDGicGjQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

@@ -1,0 +1,14 @@
+name	boost1.84-context
+version	1.84.0-r6
+description	Boost context shared library
+url	https://www.boost.org/
+license	BSL-1.0
+size	3794
+installed-size	5344
+depends	so:libc.musl-armhf.so.1 so:libstdc++.so.6
+origin	boost1.84
+repo	main
+file	boost1.84-context-1.84.0-r6.apk
+checksum	Q1t0pxdVRGakOO3rV8/DkxopCwcpM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libstdc++.so.6	libstdc++

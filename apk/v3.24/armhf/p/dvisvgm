@@ -1,0 +1,23 @@
+name	dvisvgm
+version	3.6-r0
+description	A fast DVI, EPS, and PDF to SVG converter
+url	https://github.com/mgieseki/dvisvgm
+license	GPL-3.0-or-later
+size	1089984
+installed-size	1890304
+depends	so:libbrotlienc.so.1 so:libc.musl-armhf.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libgs.so.10 so:libkpathsea.so.6 so:libpotrace.so.0 so:libstdc++.so.6 so:libwoff2enc.so.1.0.2 so:libxxhash.so.0 so:libz.so.1
+origin	dvisvgm
+repo	community
+file	dvisvgm-3.6-r0.apk
+checksum	Q10ID6At+L2QapjGgfANJdsWvHrQg=
+dep	so:libbrotlienc.so.1	brotli-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgs.so.10	ghostscript
+dep	so:libkpathsea.so.6	texlive
+dep	so:libpotrace.so.0	potrace
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwoff2enc.so.1.0.2	libwoff2dec
+dep	so:libxxhash.so.0	libxxhash
+dep	so:libz.so.1	zlib

@@ -1,0 +1,15 @@
+name	dnscache
+version	1.05-r55
+description	A recursive resolver
+url	https://cr.yp.to/djbdns.html
+license	Public-Domain
+size	33804
+installed-size	73365
+depends	djbdns-common /bin/sh so:libc.musl-armhf.so.1
+origin	djbdns
+repo	main
+file	dnscache-1.05-r55.apk
+checksum	Q1fl0c+VkqKFNzkrMIHWbG67jhzwQ=
+dep	djbdns-common	djbdns-common
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

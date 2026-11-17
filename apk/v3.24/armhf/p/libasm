@@ -1,0 +1,17 @@
+name	libasm
+version	0.195-r0
+description	Library to assemble and disassamble instructions
+url	https://sourceware.org/elfutils/
+license	GPL-3.0-or-later AND ( GPL-2.0-or-later OR LGPL-3.0-or-later )
+size	13546
+installed-size	26036
+depends	libdw=0.195-r0 libelf=0.195-r0 so:libc.musl-armhf.so.1 so:libdw.so.1 so:libelf.so.1
+origin	elfutils
+repo	main
+file	libasm-0.195-r0.apk
+checksum	Q1zz7e+gonrQX58Q+oyDx/4+NwG/U=
+dep	libdw=0.195-r0	libdw
+dep	libelf=0.195-r0	libelf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdw.so.1	libdw
+dep	so:libelf.so.1	libelf

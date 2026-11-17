@@ -1,0 +1,23 @@
+name	cyanrip
+version	0.9.3.1_git20240709-r2
+description	Bule-ish CD ripper
+url	https://github.com/cyanreg/cyanrip
+license	LGPL-2.1-or-later
+size	49014
+installed-size	103948
+depends	so:libavcodec.so.62 so:libavfilter.so.11 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libcdio.so.19 so:libcdio_cdda.so.2 so:libcdio_paranoia.so.2 so:libcurl.so.4 so:libmusicbrainz5.so.1 so:libswresample.so.6
+origin	cyanrip
+repo	community
+file	cyanrip-0.9.3.1_git20240709-r2.apk
+checksum	Q17RwnuuYWPniShR8Nt6gnjlRU/WM=
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavfilter.so.11	ffmpeg-libavfilter
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcdio.so.19	libcdio
+dep	so:libcdio_cdda.so.2	libcdio-paranoia
+dep	so:libcdio_paranoia.so.2	libcdio-paranoia
+dep	so:libcurl.so.4	libcurl
+dep	so:libmusicbrainz5.so.1	libmusicbrainz
+dep	so:libswresample.so.6	ffmpeg-libswresample

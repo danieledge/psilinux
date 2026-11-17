@@ -1,0 +1,16 @@
+name	lomiri-deviceinfo
+version	0.2.4-r1
+description	Library to detect and configure devices
+url	https://gitlab.com/ubports/development/core/deviceinfo
+license	GPL-3.0-only
+size	49376
+installed-size	126657
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libyaml-cpp.so.0.9
+origin	lomiri-deviceinfo
+repo	community
+file	lomiri-deviceinfo-0.2.4-r1.apk
+checksum	Q1jZjKpzPNOYGU1uRzntglyVXEvL4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libyaml-cpp.so.0.9	yaml-cpp

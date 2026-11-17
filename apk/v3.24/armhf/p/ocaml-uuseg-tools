@@ -1,0 +1,13 @@
+name	ocaml-uuseg-tools
+version	14.0.0-r5
+description	Unicode text segmentation for OCaml (command line utilities)
+url	https://erratique.ch/software/uuseg
+license	ISC
+size	1353620
+installed-size	3860760
+depends	so:libc.musl-armhf.so.1
+origin	ocaml-uuseg
+repo	community
+file	ocaml-uuseg-tools-14.0.0-r5.apk
+checksum	Q1RSJojstasyiT1kOzZuO7zrTtuWo=
+dep	so:libc.musl-armhf.so.1	musl

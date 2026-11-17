@@ -1,0 +1,17 @@
+name	abiword-plugin-bmp
+version	3.0.8-r0
+description	Abiword bmp plugin
+url	https://gitlab.gnome.org/World/AbiWord
+license	GPL-2.0-or-later
+size	7713
+installed-size	17792
+depends	so:libabiword-3.0.so so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpng16.so.16 so:libstdc++.so.6
+origin	abiword
+repo	community
+file	abiword-plugin-bmp-3.0.8-r0.apk
+checksum	Q1+RdV5VTxAcajcSEZ+OcUX9G/kTU=
+dep	so:libabiword-3.0.so	abiword
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++

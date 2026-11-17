@@ -1,0 +1,17 @@
+name	nginx-mod-http-xslt-filter
+version	1.30.6-r0
+description	Nginx module http-xslt-filter
+url	https://www.nginx.org/
+license	BSD-2-Clause
+size	8184
+installed-size	14074
+depends	nginx=1.30.6-r0 so:libc.musl-armhf.so.1 so:libexslt.so.0 so:libxml2.so.2 so:libxslt.so.1
+origin	nginx
+repo	main
+file	nginx-mod-http-xslt-filter-1.30.6-r0.apk
+checksum	Q1VkcSnDMxDx0yhfk8jNhiigfH8jM=
+dep	nginx=1.30.6-r0	nginx
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexslt.so.0	libxslt
+dep	so:libxml2.so.2	libxml2
+dep	so:libxslt.so.1	libxslt

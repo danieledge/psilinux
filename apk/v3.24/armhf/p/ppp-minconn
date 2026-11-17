@@ -1,0 +1,13 @@
+name	ppp-minconn
+version	2.5.3-r0
+description	pppd plugin to implement a 'minconnect' option
+url	https://ppp.samba.org/
+license	BSD-4-Clause
+size	3175
+installed-size	5328
+depends	ppp-daemon
+origin	ppp
+repo	main
+file	ppp-minconn-2.5.3-r0.apk
+checksum	Q1YmddG4w1SkleqrwjE4/gvha+8G4=
+dep	ppp-daemon	ppp-daemon

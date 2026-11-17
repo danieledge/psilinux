@@ -1,0 +1,18 @@
+name	py3-cairosvg
+version	2.9.0-r0
+description	Cairo-based SVG renderer for python
+url	https://cairosvg.org/
+license	LGPL-3.0-or-later
+size	43431
+installed-size	159785
+depends	py3-cairocffi py3-cssselect2 py3-defusedxml py3-pillow py3-tinycss2 python3~3.14
+origin	py3-cairosvg
+repo	community
+file	py3-cairosvg-2.9.0-r0.apk
+checksum	Q1xn7L0TkYjQ9zJv8Hu/LjeXrWaUo=
+dep	py3-cairocffi	py3-cairocffi
+dep	py3-cssselect2	py3-cssselect2
+dep	py3-defusedxml	py3-defusedxml
+dep	py3-pillow	py3-pillow
+dep	py3-tinycss2	py3-tinycss2
+dep	python3~3.14	python3

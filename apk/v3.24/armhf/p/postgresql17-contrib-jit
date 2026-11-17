@@ -1,0 +1,13 @@
+name	postgresql17-contrib-jit
+version	17.12-r0
+description	Extension modules distributed with PostgreSQL (JIT support)
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	1400570
+installed-size	2752352
+depends	postgresql17-contrib=17.12-r0
+origin	postgresql17
+repo	main
+file	postgresql17-contrib-jit-17.12-r0.apk
+checksum	Q1A4++HTooH1GSzk4lxFU2lpMThq0=
+dep	postgresql17-contrib=17.12-r0	postgresql17-contrib

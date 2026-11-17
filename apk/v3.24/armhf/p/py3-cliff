@@ -1,0 +1,16 @@
+name	py3-cliff
+version	4.14.0-r0
+description	Command Line Interface Formulation Framework
+url	https://docs.openstack.org/cliff/latest/
+license	Apache-2.0
+size	62200
+installed-size	290079
+depends	py3-importlib-metadata py3-stevedore py3-yaml python3~3.14
+origin	py3-cliff
+repo	community
+file	py3-cliff-4.14.0-r0.apk
+checksum	Q17L9aX1XalUlWMEtvJ/bKOtDPXOA=
+dep	py3-importlib-metadata	py3-importlib-metadata
+dep	py3-stevedore	py3-stevedore
+dep	py3-yaml	py3-yaml
+dep	python3~3.14	python3

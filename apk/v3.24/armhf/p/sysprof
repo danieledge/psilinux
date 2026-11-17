@@ -1,0 +1,34 @@
+name	sysprof
+version	50.0-r0
+description	System-wide profiler for Linux
+url	http://www.sysprof.com/
+license	GPL-2.0-or-later
+size	1449144
+installed-size	3763972
+depends	so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdebuginfod.so.1 so:libdex-1.so.1 so:libdw.so.1 so:libelf.so.1 so:libelogind.so.0 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libpanel-1.so.1 so:libpango-1.0.so.0 so:libpolkit-agent-1.so.0 so:libpolkit-gobject-1.so.0 so:libstdc++.so.6 so:libunwind.so.8
+origin	sysprof
+repo	community
+file	sysprof-50.0-r0.apk
+checksum	Q1n0qi3NWcZusjO329h4aDpnBCHXU=
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libdebuginfod.so.1	libdebuginfod
+dep	so:libdex-1.so.1	libdex
+dep	so:libdw.so.1	libdw
+dep	so:libelf.so.1	libelf
+dep	so:libelogind.so.0	libelogind
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libpanel-1.so.1	libpanel
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpolkit-agent-1.so.0	polkit-noelogind-libs
+dep	so:libpolkit-gobject-1.so.0	polkit-noelogind-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libunwind.so.8	libunwind

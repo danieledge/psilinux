@@ -1,0 +1,21 @@
+name	badwolf
+version	1.4.0-r0
+description	A minimalist and privacy-oriented WebKit browser
+url	https://hacktivis.me/projects/badwolf
+license	BSD-3-Clause
+size	69963
+installed-size	123031
+depends	so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libwebkit2gtk-4.1.so.0 so:libxml2.so.2
+origin	badwolf
+repo	community
+file	badwolf-1.4.0-r0.apk
+checksum	Q1vIbA62R723pA5RjSrjaL1x8QzTk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libwebkit2gtk-4.1.so.0	webkit2gtk-4.1
+dep	so:libxml2.so.2	libxml2

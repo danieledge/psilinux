@@ -1,0 +1,14 @@
+name	lab
+version	0.25.1-r38
+description	Git Wrapper for GitLab
+url	https://zaquestion.github.io/lab/
+license	CC0-1.0
+size	7243543
+installed-size	21533868
+depends	git so:libc.musl-armhf.so.1
+origin	lab
+repo	community
+file	lab-0.25.1-r38.apk
+checksum	Q1lTZZLseGJFwLlhCrg4CZKtpkuP0=
+dep	git	git
+dep	so:libc.musl-armhf.so.1	musl

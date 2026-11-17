@@ -1,0 +1,16 @@
+name	py3-pynvim
+version	0.6.0-r1
+description	python client and plugin host for Nvim
+url	https://github.com/neovim/pynvim
+license	Apache-2.0
+size	41798
+installed-size	138067
+depends	neovim py3-msgpack py3-greenlet python3~3.14
+origin	py3-pynvim
+repo	community
+file	py3-pynvim-0.6.0-r1.apk
+checksum	Q1WfBHg028H2t6BaGcXnUDI9jNV3U=
+dep	neovim	neovim
+dep	py3-msgpack	py3-msgpack
+dep	py3-greenlet	py3-greenlet
+dep	python3~3.14	python3

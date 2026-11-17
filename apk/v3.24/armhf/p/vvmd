@@ -1,0 +1,23 @@
+name	vvmd
+version	1.1-r31
+description	lower level daemon that retrieves Visual Voicemail
+url	https://gitlab.com/kop316/vvmd
+license	GPL-2.0-only
+size	52774
+installed-size	118366
+depends	mobile-broadband-provider-info so:libc.musl-armhf.so.1 so:libcares.so.2 so:libcurl.so.4 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libmm-glib.so.0 so:libphonenumber.so.9 so:libstdc++.so.6
+origin	vvmd
+repo	community
+file	vvmd-1.1-r31.apk
+checksum	Q1n0SI6TEBMXxnPDO1yV/N21nk+Zk=
+dep	mobile-broadband-provider-info	mobile-broadband-provider-info
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcares.so.2	c-ares
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libmm-glib.so.0	libmm-glib
+dep	so:libphonenumber.so.9	libphonenumber
+dep	so:libstdc++.so.6	libstdc++

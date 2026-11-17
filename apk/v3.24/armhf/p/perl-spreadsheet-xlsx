@@ -1,0 +1,15 @@
+name	perl-spreadsheet-xlsx
+version	0.18-r0
+description	Perl extension for reading MS Excel 2007 files
+url	https://metacpan.org/release/Spreadsheet-XLSX/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	14682
+installed-size	54068
+depends	perl perl-spreadsheet-parseexcel perl-archive-zip
+origin	perl-spreadsheet-xlsx
+repo	community
+file	perl-spreadsheet-xlsx-0.18-r0.apk
+checksum	Q1Op00fGtll/0x9C/lrDc3K1HF9xw=
+dep	perl	perl
+dep	perl-spreadsheet-parseexcel	perl-spreadsheet-parseexcel
+dep	perl-archive-zip	perl-archive-zip

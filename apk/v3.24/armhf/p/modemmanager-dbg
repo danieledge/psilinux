@@ -1,0 +1,12 @@
+name	modemmanager-dbg
+version	1.25.95_git20260527-r1
+description	ModemManager library (debug symbols)
+url	https://www.freedesktop.org/wiki/Software/ModemManager
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	4701996
+installed-size	11685760
+depends	!libmm-glib<1.25.95_git20260527-r1 !libmm-glib>1.25.95_git20260527-r1 !modemmanager<1.25.95_git20260527-r1 !modemmanager>1.25.95_git20260527-r1
+origin	modemmanager
+repo	community
+file	modemmanager-dbg-1.25.95_git20260527-r1.apk
+checksum	Q18aYRxTXAhR0UBbUy4t9WmeXnCFA=

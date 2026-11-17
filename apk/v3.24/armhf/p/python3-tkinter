@@ -1,0 +1,15 @@
+name	python3-tkinter
+version	3.14.10-r0
+description	A graphical user interface for the Python programming language
+url	https://wiki.python.org/moin/TkInter
+license	PSF-2.0
+size	100459
+installed-size	368146
+depends	so:libc.musl-armhf.so.1 so:libtcl8.6.so so:libtk8.6.so
+origin	python3-tkinter
+repo	main
+file	python3-tkinter-3.14.10-r0.apk
+checksum	Q1KS3hLug2fT3+tYz2t/x+cFNW594=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libtcl8.6.so	tcl
+dep	so:libtk8.6.so	tk

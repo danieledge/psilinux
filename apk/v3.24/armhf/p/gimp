@@ -1,0 +1,64 @@
+name	gimp
+version	3.2.4-r0
+description	GNU Image Manipulation Program
+url	https://www.gimp.org/
+license	GPL-3.0-or-later
+size	19364335
+installed-size	63935334
+depends	py3-cairo py3-gobject3 xdg-utils so:libX11.so.6 so:libXcursor.so.1 so:libXext.so.6 so:libXfixes.so.3 so:libXmu.so.6 so:libXpm.so.4 so:libappstream.so.5 so:libarchive.so.13 so:libbabl-0.1.so.0 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgegl-0.4.so.0 so:libgegl-npd-0.4.so so:libgexiv2.so.2 so:libgio-2.0.so.0 so:libgirepository-1.0.so.1 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgomp.so.1 so:libgtk-3.so.0 so:libharfbuzz.so.0 so:libheif.so.1 so:libintl.so.8 so:libjpeg.so.8 so:libjson-glib-1.0.so.0 so:libjxl.so.0.11 so:libjxl_threads.so.0.11 so:liblcms2.so.2 so:liblzma.so.5 so:libmypaint.so.0 so:libopenjp2.so.7 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpangoft2-1.0.so.0 so:libpng16.so.16 so:libpoppler-glib.so.8 so:librsvg-2.so.2 so:libtiff.so.6 so:libwebp.so.7 so:libwebpdemux.so.2 so:libwebpmux.so.3 so:libz.so.1
+origin	gimp
+repo	community
+file	gimp-3.2.4-r0.apk
+checksum	Q1up0T60QpQPx0vgOZlcoUZpL3mjs=
+dep	py3-cairo	py3-cairo
+dep	py3-gobject3	py3-gobject3
+dep	xdg-utils	xdg-utils
+dep	so:libX11.so.6	libx11
+dep	so:libXcursor.so.1	libxcursor
+dep	so:libXext.so.6	libxext
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXmu.so.6	libxmu
+dep	so:libXpm.so.4	libxpm
+dep	so:libappstream.so.5	appstream
+dep	so:libarchive.so.13	libarchive
+dep	so:libbabl-0.1.so.0	babl
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgegl-0.4.so.0	gegl
+dep	so:libgegl-npd-0.4.so	gegl
+dep	so:libgexiv2.so.2	gexiv2
+dep	so:libgio-2.0.so.0	glib
+dep	so:libgirepository-1.0.so.1	gobject-introspection
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgomp.so.1	libgomp
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:libheif.so.1	libheif
+dep	so:libintl.so.8	libintl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libjxl.so.0.11	libjxl
+dep	so:libjxl_threads.so.0.11	libjxl
+dep	so:liblcms2.so.2	lcms2
+dep	so:liblzma.so.5	xz-libs
+dep	so:libmypaint.so.0	libmypaint
+dep	so:libopenjp2.so.7	openjpeg
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpangoft2-1.0.so.0	pango
+dep	so:libpng16.so.16	libpng
+dep	so:libpoppler-glib.so.8	poppler-glib
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libtiff.so.6	tiff
+dep	so:libwebp.so.7	libwebp
+dep	so:libwebpdemux.so.2	libwebpdemux
+dep	so:libwebpmux.so.3	libwebpmux
+dep	so:libz.so.1	zlib

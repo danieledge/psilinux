@@ -1,0 +1,14 @@
+name	dns-root-hints
+version	2024021501-r0
+description	The DNS root hint(s)
+url	https://www.internic.net/domain
+license	Public-Domain
+size	9233
+installed-size	10465
+depends	curl gpgv
+origin	dns-root-hints
+repo	main
+file	dns-root-hints-2024021501-r0.apk
+checksum	Q1d3sxY0E0Im79KQHLNzwVYU24kt0=
+dep	curl	curl
+dep	gpgv	gpgv

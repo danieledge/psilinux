@@ -1,0 +1,17 @@
+name	hime-anthy
+version	0.9.12_git20231221-r6
+description	HIME Input Method Editor (Anthy Hiragana support)
+url	https://hime-ime.github.io/
+license	LGPL-2.1-or-later AND GPL-2.0-or-later
+size	19862
+installed-size	52176
+depends	so:libanthy.so.0 so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0
+origin	hime
+repo	community
+file	hime-anthy-0.9.12_git20231221-r6.apk
+checksum	Q1VXDuJH+ANtJY8FxtRwTcZrw4AW8=
+dep	so:libanthy.so.0	anthy
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0

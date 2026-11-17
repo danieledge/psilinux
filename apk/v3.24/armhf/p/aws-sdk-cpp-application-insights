@@ -1,0 +1,17 @@
+name	aws-sdk-cpp-application-insights
+version	1.11.700-r1
+description	Amazon Web Services SDK for C++ (application-insights)
+url	https://github.com/aws/aws-sdk-cpp
+license	Apache-2.0
+size	107630
+installed-size	374040
+depends	so:libaws-cpp-sdk-core.so.1.11 so:libaws-crt-cpp.so so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	aws-sdk-cpp
+repo	community
+file	aws-sdk-cpp-application-insights-1.11.700-r1.apk
+checksum	Q19Ur13EZLq0WJZIRrODmxAeB06PE=
+dep	so:libaws-cpp-sdk-core.so.1.11	aws-sdk-cpp-core
+dep	so:libaws-crt-cpp.so	aws-crt-cpp
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

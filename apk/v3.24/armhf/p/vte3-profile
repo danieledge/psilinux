@@ -1,0 +1,13 @@
+name	vte3-profile
+version	0.84.0-r2
+description	Virtual Terminal Emulator library (profile files)
+url	https://gitlab.gnome.org/GNOME/vte
+license	LGPL-2.0-or-later
+size	3848
+installed-size	6029
+depends	adwaita-fonts
+origin	vte3
+repo	community
+file	vte3-profile-0.84.0-r2.apk
+checksum	Q1CjUrQi8xJR31ogzSkfi8h1OFnUw=
+dep	adwaita-fonts	adwaita-fonts

@@ -1,0 +1,14 @@
+name	py3-inotifyrecursive
+version	0.3.5-r2
+description	Simple recursive inotify watches for Python
+url	https://pypi.python.org/project/inotifyrecursive
+license	LGPL-3.0-only
+size	5865
+installed-size	11841
+depends	py3-inotify_simple python3~3.14
+origin	py3-inotifyrecursive
+repo	community
+file	py3-inotifyrecursive-0.3.5-r2.apk
+checksum	Q1M4iJdf1VNI+SVbefCJOQ2BXJrVQ=
+dep	py3-inotify_simple	py3-inotify-simple
+dep	python3~3.14	python3

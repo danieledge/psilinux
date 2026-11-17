@@ -1,0 +1,13 @@
+name	libxdp-static
+version	1.6.3-r1
+description	A library and utilities for use with XDP (static library)
+url	https://github.com/xdp-project/xdp-tools
+license	BSD-2-Clause AND GPL-2.0-only AND GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later
+size	40593
+installed-size	108290
+depends	libxdp-dev
+origin	xdp-tools
+repo	community
+file	libxdp-static-1.6.3-r1.apk
+checksum	Q1ruTvRUFvqTCSxcZ9N7Q9hIJGAho=
+dep	libxdp-dev	libxdp-dev

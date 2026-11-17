@@ -1,0 +1,12 @@
+name	readline-dbg
+version	8.3.3-r1
+description	GNU readline library (debug symbols)
+url	https://tiswww.cwru.edu/php/chet/readline/rltop.html
+license	GPL-3.0-or-later
+size	327266
+installed-size	728324
+depends	!libhistory<8.3.3-r1 !libhistory>8.3.3-r1 !readline<8.3.3-r1 !readline>8.3.3-r1
+origin	readline
+repo	main
+file	readline-dbg-8.3.3-r1.apk
+checksum	Q1HeX7aeoO1+pcbe+QOg1QosCZWZo=

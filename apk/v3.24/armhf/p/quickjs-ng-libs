@@ -1,0 +1,13 @@
+name	quickjs-ng-libs
+version	0.11.0-r2
+description	Embeddable JavaScript engine in C (NG fork) (libraries)
+url	https://quickjs-ng.github.io/quickjs/
+license	MIT
+size	327823
+installed-size	648424
+depends	so:libc.musl-armhf.so.1
+origin	quickjs-ng
+repo	main
+file	quickjs-ng-libs-0.11.0-r2.apk
+checksum	Q1pnl3cv+dtN+gmsDU65ZmE9WhXlY=
+dep	so:libc.musl-armhf.so.1	musl

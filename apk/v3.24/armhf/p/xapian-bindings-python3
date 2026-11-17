@@ -1,0 +1,17 @@
+name	xapian-bindings-python3
+version	2.0.0-r0
+description	Python3 bindings for the Xapian search engine library
+url	http://www.xapian.org
+license	GPL-2.0-or-later
+size	415416
+installed-size	1728285
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libxapian.so.45
+origin	xapian-bindings
+repo	community
+file	xapian-bindings-python3-2.0.0-r0.apk
+checksum	Q1Wnzf7YMM7ZZOQpGizngFaDBWp6I=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxapian.so.45	libxapian

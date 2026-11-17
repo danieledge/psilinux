@@ -1,0 +1,15 @@
+name	lapack-dev
+version	3.12.1-r1
+description	Linear Algebra PACKage (development files)
+url	https://www.netlib.org/lapack/
+license	BSD-3-Clause
+size	99313
+installed-size	1669583
+depends	lapack=3.12.1-r1 pc:blas pkgconfig
+origin	lapack
+repo	community
+file	lapack-dev-3.12.1-r1.apk
+checksum	Q1/IgoyPZtznBZnSykEdU7U/7k6zg=
+dep	lapack=3.12.1-r1	lapack
+dep	pc:blas	blas-dev
+dep	pkgconfig	pkgconf

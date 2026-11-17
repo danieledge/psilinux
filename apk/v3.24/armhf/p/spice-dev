@@ -1,0 +1,29 @@
+name	spice-dev
+version	0.16.0-r0
+description	Implements the SPICE protocol (development files)
+url	http://www.spice-space.org/
+license	LGPL-2.0-or-later
+size	10150
+installed-size	36869
+depends	spice=0.16.0-r0 pc:glib-2.0>=2.38 pc:gstreamer-1.0 pc:gstreamer-allocators-1.0 pc:gstreamer-app-1.0 pc:gstreamer-base-1.0 pc:gstreamer-video-1.0 pc:libjpeg pc:liblz4>=1.7.3 pc:libsasl2 pc:openssl>=1.0.0 pc:opus>=0.9.14 pc:orc-0.4 pc:pixman-1>=0.17.7 pc:spice-protocol>=0.14.5 pc:zlib pkgconfig
+origin	spice
+repo	main
+file	spice-dev-0.16.0-r0.apk
+checksum	Q1r+JsOVrw+xDcYrJKjkF+OmVjvgs=
+dep	spice=0.16.0-r0	spice
+dep	pc:glib-2.0>=2.38	glib-dev
+dep	pc:gstreamer-1.0	gstreamer-dev
+dep	pc:gstreamer-allocators-1.0	gst-plugins-base-dev
+dep	pc:gstreamer-app-1.0	gst-plugins-base-dev
+dep	pc:gstreamer-base-1.0	gstreamer-dev
+dep	pc:gstreamer-video-1.0	gst-plugins-base-dev
+dep	pc:libjpeg	libjpeg-turbo-dev
+dep	pc:liblz4>=1.7.3	lz4-dev
+dep	pc:libsasl2	cyrus-sasl-dev
+dep	pc:openssl>=1.0.0	openssl-dev
+dep	pc:opus>=0.9.14	opus-dev
+dep	pc:orc-0.4	orc-dev
+dep	pc:pixman-1>=0.17.7	pixman-dev
+dep	pc:spice-protocol>=0.14.5	spice-protocol
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

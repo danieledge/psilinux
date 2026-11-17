@@ -1,0 +1,24 @@
+name	libnma-gtk4
+version	1.10.6-r4
+description	NetworkManager GUI client library (GTK4 library)
+url	https://gitlab.gnome.org/GNOME/libnma
+license	LGPL-2.1-or-later
+size	91243
+installed-size	270292
+depends	mobile-broadband-provider-info libnma-common so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgck-2.so.2 so:libgcr-4.so.4 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libnm.so.0
+origin	libnma
+repo	community
+file	libnma-gtk4-1.10.6-r4.apk
+checksum	Q110LgRXCTOpLMtAU1unj1LM0lUes=
+dep	mobile-broadband-provider-info	mobile-broadband-provider-info
+dep	libnma-common	libnma-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgck-2.so.2	gcr4-base
+dep	so:libgcr-4.so.4	gcr4-base
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libnm.so.0	libnm

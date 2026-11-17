@@ -1,0 +1,28 @@
+name	abseil-cpp-log-internal-message
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-log-internal-message
+url	https://abseil.io/
+license	Apache-2.0
+size	16129
+installed-size	42368
+depends	so:libabsl_base.so.2508.0.0 so:libabsl_examine_stack.so.2508.0.0 so:libabsl_log_globals.so.2508.0.0 so:libabsl_log_internal_format.so.2508.0.0 so:libabsl_log_internal_globals.so.2508.0.0 so:libabsl_log_internal_log_sink_set.so.2508.0.0 so:libabsl_log_internal_nullguard.so.2508.0.0 so:libabsl_log_internal_proto.so.2508.0.0 so:libabsl_log_internal_structured_proto.so.2508.0.0 so:libabsl_raw_logging_internal.so.2508.0.0 so:libabsl_strerror.so.2508.0.0 so:libabsl_strings_internal.so.2508.0.0 so:libabsl_time.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-log-internal-message-20250814.1-r0.apk
+checksum	Q17x7GyGzeS1yX1hhz+L6RLXIeqp0=
+dep	so:libabsl_base.so.2508.0.0	abseil-cpp-base
+dep	so:libabsl_examine_stack.so.2508.0.0	abseil-cpp-examine-stack
+dep	so:libabsl_log_globals.so.2508.0.0	abseil-cpp-log-globals
+dep	so:libabsl_log_internal_format.so.2508.0.0	abseil-cpp-log-internal-format
+dep	so:libabsl_log_internal_globals.so.2508.0.0	abseil-cpp-log-internal-globals
+dep	so:libabsl_log_internal_log_sink_set.so.2508.0.0	abseil-cpp-log-internal-log-sink-set
+dep	so:libabsl_log_internal_nullguard.so.2508.0.0	abseil-cpp-log-internal-nullguard
+dep	so:libabsl_log_internal_proto.so.2508.0.0	abseil-cpp-log-internal-proto
+dep	so:libabsl_log_internal_structured_proto.so.2508.0.0	abseil-cpp-log-internal-structured-proto
+dep	so:libabsl_raw_logging_internal.so.2508.0.0	abseil-cpp-raw-logging-internal
+dep	so:libabsl_strerror.so.2508.0.0	abseil-cpp-strerror
+dep	so:libabsl_strings_internal.so.2508.0.0	abseil-cpp-strings-internal
+dep	so:libabsl_time.so.2508.0.0	abseil-cpp-time
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

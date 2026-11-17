@@ -1,0 +1,17 @@
+name	nginx-mod-dynamic-upstream
+version	1.30.6-r0
+description	Nginx third-party module dynamic-upstream (version 2.3.5)
+url	https://github.com/ZigzagAK/ngx_dynamic_upstream
+license	BSD-2-Clause
+size	19982
+installed-size	51231
+depends	nginx=1.30.6-r0 nginx-mod-stream so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	nginx
+repo	main
+file	nginx-mod-dynamic-upstream-1.30.6-r0.apk
+checksum	Q1bO2nuDJMAJp2jl0uecQ7J67J8no=
+dep	nginx=1.30.6-r0	nginx
+dep	nginx-mod-stream	nginx-mod-stream
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

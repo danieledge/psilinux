@@ -1,0 +1,18 @@
+name	nsxiv
+version	34-r0
+description	Neo Simple X Image Viewer
+url	https://codeberg.org/nsxiv/nsxiv
+license	GPL-2.0-or-later
+size	42933
+installed-size	78595
+depends	so:libImlib2.so.1 so:libX11.so.6 so:libXft.so.2 so:libc.musl-armhf.so.1 so:libexif.so.12 so:libfontconfig.so.1
+origin	nsxiv
+repo	community
+file	nsxiv-34-r0.apk
+checksum	Q1ETTI9nVYslanzYZbKJQKuVWhKk0=
+dep	so:libImlib2.so.1	imlib2
+dep	so:libX11.so.6	libx11
+dep	so:libXft.so.2	libxft
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexif.so.12	libexif
+dep	so:libfontconfig.so.1	fontconfig

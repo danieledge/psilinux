@@ -1,0 +1,13 @@
+name	rnnoise
+version	0.2-r0
+description	Recurrent neural network for audio noise reduction
+url	https://jmvalin.ca/demo/rnnoise/
+license	BSD-3-Clause
+size	1210305
+installed-size	1447084
+depends	so:libc.musl-armhf.so.1
+origin	rnnoise
+repo	community
+file	rnnoise-0.2-r0.apk
+checksum	Q1xom3iwIIpcqtoE0AejbTpA552HQ=
+dep	so:libc.musl-armhf.so.1	musl

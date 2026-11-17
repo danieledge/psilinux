@@ -1,0 +1,13 @@
+name	darkman
+version	2.3.1-r5
+description	Daemon for dark-mode and light-mode transitions on Unix-like desktop
+url	https://darkman.whynothugo.nl/
+license	ISC
+size	2466053
+installed-size	6423140
+depends	so:libc.musl-armhf.so.1
+origin	darkman
+repo	community
+file	darkman-2.3.1-r5.apk
+checksum	Q1O1Bu/2zbgLQlosW+hPcTFwi+rfI=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	php84-pecl-ast
+version	1.1.3-r0
+description	PHP extension exposing PHP 8.4 abstract syntax tree - PECL
+url	https://pecl.php.net/package/ast
+license	BSD-3-Clause
+size	22030
+installed-size	51034
+depends	php84-common so:libc.musl-armhf.so.1
+origin	php84-pecl-ast
+repo	community
+file	php84-pecl-ast-1.1.3-r0.apk
+checksum	Q1lbZY9vSLiH8DsR9Ra1utJ1u5bzo=
+dep	php84-common	php84-common
+dep	so:libc.musl-armhf.so.1	musl

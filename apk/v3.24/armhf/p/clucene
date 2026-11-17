@@ -1,0 +1,16 @@
+name	clucene
+version	2.3.3.4-r22
+description	A C++ port of Lucene
+url	https://www.sourceforge.net/projects/clucene/
+license	LGPL-2.0-or-later OR Apache-2.0
+size	447637
+installed-size	1244588
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1
+origin	clucene
+repo	main
+file	clucene-2.3.3.4-r22.apk
+checksum	Q1csi1aPaZCwIkiwSJtToghtQ+bAI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

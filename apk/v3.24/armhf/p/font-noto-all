@@ -1,0 +1,126 @@
+name	font-noto-all
+version	2026.11.01-r0
+description	Google Noto font families that aim to support all the world's languages (meta package)
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	2006
+installed-size	0
+depends	font-noto=2026.11.01-r0 font-noto-extra=2026.11.01-r0 font-noto-nyiakeng-puachue-hmong font-noto-canadian-aboriginal font-noto-indic-siyaq-numbers font-noto-khitan-small-script font-noto-hanifi-rohingya font-noto-mayan-numerals font-noto-gunjala-gondi font-noto-masaram-gondi font-noto-mende-kikakui font-noto-nastaliq-urdu font-noto-ottoman-siyaq font-noto-cypro-minoan font-noto-meetei-mayek font-noto-naskh-arabic font-noto-pahawh-hmong font-noto-rashi-hebrew font-noto-sora-sompeng font-noto-syloti-nagri font-noto-dives-akuru font-noto-kufi-arabic font-noto-medefaidrin font-noto-nag-mundari font-noto-nandinagari font-noto-new-tai-lue font-noto-pau-cin-hau font-noto-signwriting font-noto-warang-citi font-noto-chorasmian font-noto-devanagari font-noto-hentaigana font-noto-historical font-noto-old-uyghur font-noto-saurashtra font-noto-bassa-vah font-noto-malayalam font-noto-mongolian font-noto-samaritan font-noto-sundanese font-noto-armenian font-noto-balinese font-noto-buginese font-noto-cherokee font-noto-duployan font-noto-ethiopic font-noto-fangsong font-noto-georgian font-noto-gujarati font-noto-gurmukhi font-noto-javanese font-noto-kayah-li font-noto-ol-chiki font-noto-tagbanwa font-noto-tifinagh font-noto-vithkuqi font-noto-znamenny font-noto-bengali font-noto-elbasan font-noto-grantha font-noto-hanunoo font-noto-kannada font-noto-makasar font-noto-myanmar font-noto-sharada font-noto-sinhala font-noto-soyombo font-noto-sunuwar font-noto-symbols font-noto-tibetan font-noto-tirhuta font-noto-arabic font-noto-chakma font-noto-coptic font-noto-hebrew font-noto-kaithi font-noto-khojki font-noto-lepcha font-noto-rejang font-noto-syriac font-noto-tangsa font-noto-telugu font-noto-thaana font-noto-todhri font-noto-wancho font-noto-yezidi font-noto-adlam font-noto-bamum font-noto-batak font-noto-buhid font-noto-khmer font-noto-limbu font-noto-music font-noto-nushu font-noto-oriya font-noto-osage font-noto-tamil font-noto-ahom font-noto-cham font-noto-kawi font-noto-lisu font-noto-math font-noto-miao font-noto-modi font-noto-newa font-noto-test font-noto-thai font-noto-toto font-noto-lao font-noto-mro font-noto-nko font-noto-tai font-noto-vai font-noto-yi
+origin	font-noto
+repo	community
+file	font-noto-all-2026.11.01-r0.apk
+checksum	Q1pY+Goy7Bo+f519A/dS1CPlJj+Zk=
+dep	font-noto=2026.11.01-r0	font-noto
+dep	font-noto-extra=2026.11.01-r0	font-noto-extra
+dep	font-noto-nyiakeng-puachue-hmong	font-noto-nyiakeng-puachue-hmong
+dep	font-noto-canadian-aboriginal	font-noto-canadian-aboriginal
+dep	font-noto-indic-siyaq-numbers	font-noto-indic-siyaq-numbers
+dep	font-noto-khitan-small-script	font-noto-khitan-small-script
+dep	font-noto-hanifi-rohingya	font-noto-hanifi-rohingya
+dep	font-noto-mayan-numerals	font-noto-mayan-numerals
+dep	font-noto-gunjala-gondi	font-noto-gunjala-gondi
+dep	font-noto-masaram-gondi	font-noto-masaram-gondi
+dep	font-noto-mende-kikakui	font-noto-mende-kikakui
+dep	font-noto-nastaliq-urdu	font-noto-nastaliq-urdu
+dep	font-noto-ottoman-siyaq	font-noto-ottoman-siyaq
+dep	font-noto-cypro-minoan	font-noto-cypro-minoan
+dep	font-noto-meetei-mayek	font-noto-meetei-mayek
+dep	font-noto-naskh-arabic	font-noto-naskh-arabic
+dep	font-noto-pahawh-hmong	font-noto-pahawh-hmong
+dep	font-noto-rashi-hebrew	font-noto-rashi-hebrew
+dep	font-noto-sora-sompeng	font-noto-sora-sompeng
+dep	font-noto-syloti-nagri	font-noto-syloti-nagri
+dep	font-noto-dives-akuru	font-noto-dives-akuru
+dep	font-noto-kufi-arabic	font-noto-kufi-arabic
+dep	font-noto-medefaidrin	font-noto-medefaidrin
+dep	font-noto-nag-mundari	font-noto-nag-mundari
+dep	font-noto-nandinagari	font-noto-nandinagari
+dep	font-noto-new-tai-lue	font-noto-new-tai-lue
+dep	font-noto-pau-cin-hau	font-noto-pau-cin-hau
+dep	font-noto-signwriting	font-noto-signwriting
+dep	font-noto-warang-citi	font-noto-warang-citi
+dep	font-noto-chorasmian	font-noto-chorasmian
+dep	font-noto-devanagari	font-noto-devanagari
+dep	font-noto-hentaigana	font-noto-hentaigana
+dep	font-noto-historical	font-noto-historical
+dep	font-noto-old-uyghur	font-noto-old-uyghur
+dep	font-noto-saurashtra	font-noto-saurashtra
+dep	font-noto-bassa-vah	font-noto-bassa-vah
+dep	font-noto-malayalam	font-noto-malayalam
+dep	font-noto-mongolian	font-noto-mongolian
+dep	font-noto-samaritan	font-noto-samaritan
+dep	font-noto-sundanese	font-noto-sundanese
+dep	font-noto-armenian	font-noto-armenian
+dep	font-noto-balinese	font-noto-balinese
+dep	font-noto-buginese	font-noto-buginese
+dep	font-noto-cherokee	font-noto-cherokee
+dep	font-noto-duployan	font-noto-duployan
+dep	font-noto-ethiopic	font-noto-ethiopic
+dep	font-noto-fangsong	font-noto-fangsong
+dep	font-noto-georgian	font-noto-georgian
+dep	font-noto-gujarati	font-noto-gujarati
+dep	font-noto-gurmukhi	font-noto-gurmukhi
+dep	font-noto-javanese	font-noto-javanese
+dep	font-noto-kayah-li	font-noto-kayah-li
+dep	font-noto-ol-chiki	font-noto-ol-chiki
+dep	font-noto-tagbanwa	font-noto-tagbanwa
+dep	font-noto-tifinagh	font-noto-tifinagh
+dep	font-noto-vithkuqi	font-noto-vithkuqi
+dep	font-noto-znamenny	font-noto-znamenny
+dep	font-noto-bengali	font-noto-bengali
+dep	font-noto-elbasan	font-noto-elbasan
+dep	font-noto-grantha	font-noto-grantha
+dep	font-noto-hanunoo	font-noto-hanunoo
+dep	font-noto-kannada	font-noto-kannada
+dep	font-noto-makasar	font-noto-makasar
+dep	font-noto-myanmar	font-noto-myanmar
+dep	font-noto-sharada	font-noto-sharada
+dep	font-noto-sinhala	font-noto-sinhala
+dep	font-noto-soyombo	font-noto-soyombo
+dep	font-noto-sunuwar	font-noto-sunuwar
+dep	font-noto-symbols	font-noto-symbols
+dep	font-noto-tibetan	font-noto-tibetan
+dep	font-noto-tirhuta	font-noto-tirhuta
+dep	font-noto-arabic	font-noto-arabic
+dep	font-noto-chakma	font-noto-chakma
+dep	font-noto-coptic	font-noto-coptic
+dep	font-noto-hebrew	font-noto-hebrew
+dep	font-noto-kaithi	font-noto-kaithi
+dep	font-noto-khojki	font-noto-khojki
+dep	font-noto-lepcha	font-noto-lepcha
+dep	font-noto-rejang	font-noto-rejang
+dep	font-noto-syriac	font-noto-syriac
+dep	font-noto-tangsa	font-noto-tangsa
+dep	font-noto-telugu	font-noto-telugu
+dep	font-noto-thaana	font-noto-thaana
+dep	font-noto-todhri	font-noto-todhri
+dep	font-noto-wancho	font-noto-wancho
+dep	font-noto-yezidi	font-noto-yezidi
+dep	font-noto-adlam	font-noto-adlam
+dep	font-noto-bamum	font-noto-bamum
+dep	font-noto-batak	font-noto-batak
+dep	font-noto-buhid	font-noto-buhid
+dep	font-noto-khmer	font-noto-khmer
+dep	font-noto-limbu	font-noto-limbu
+dep	font-noto-music	font-noto-music
+dep	font-noto-nushu	font-noto-nushu
+dep	font-noto-oriya	font-noto-oriya
+dep	font-noto-osage	font-noto-osage
+dep	font-noto-tamil	font-noto-tamil
+dep	font-noto-ahom	font-noto-ahom
+dep	font-noto-cham	font-noto-cham
+dep	font-noto-kawi	font-noto-kawi
+dep	font-noto-lisu	font-noto-lisu
+dep	font-noto-math	font-noto-math
+dep	font-noto-miao	font-noto-miao
+dep	font-noto-modi	font-noto-modi
+dep	font-noto-newa	font-noto-newa
+dep	font-noto-test	font-noto-test
+dep	font-noto-thai	font-noto-thai
+dep	font-noto-toto	font-noto-toto
+dep	font-noto-lao	font-noto-lao
+dep	font-noto-mro	font-noto-mro
+dep	font-noto-nko	font-noto-nko
+dep	font-noto-tai	font-noto-tai
+dep	font-noto-vai	font-noto-vai
+dep	font-noto-yi	font-noto-yi

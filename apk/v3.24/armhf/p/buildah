@@ -1,0 +1,19 @@
+name	buildah
+version	1.44.0-r2
+description	tool that facilitates building OCI container images
+url	https://github.com/containers/buildah
+license	Apache-2.0
+size	13377482
+installed-size	34237540
+depends	oci-runtime shadow-subids slirp4netns containers-common so:libc.musl-armhf.so.1 so:libgpgme.so.45 so:libseccomp.so.2
+origin	buildah
+repo	community
+file	buildah-1.44.0-r2.apk
+checksum	Q1BG5dGEl33G3KkS8czZHeZ51L80o=
+dep	oci-runtime	crun
+dep	shadow-subids	shadow-subids
+dep	slirp4netns	slirp4netns
+dep	containers-common	containers-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgpgme.so.45	gpgme
+dep	so:libseccomp.so.2	libseccomp

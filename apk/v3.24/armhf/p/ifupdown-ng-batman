@@ -1,0 +1,13 @@
+name	ifupdown-ng-batman
+version	0.13.0-r0
+description	ifupdown-ng integration for B.A.T.M.A.N. advanced
+url	https://github.com/ifupdown-ng/ifupdown-ng
+license	ISC
+size	2974
+installed-size	3290
+depends	batctl
+origin	ifupdown-ng
+repo	main
+file	ifupdown-ng-batman-0.13.0-r0.apk
+checksum	Q1KPcHkhrX2zcvPbrqfq2Kx9HQQzc=
+dep	batctl	batctl

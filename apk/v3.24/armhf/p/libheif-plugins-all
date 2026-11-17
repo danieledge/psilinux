@@ -1,0 +1,22 @@
+name	libheif-plugins-all
+version	1.23.7-r0
+description	Meta-package with all libheif plugins
+url	https://www.libde265.org/
+license	LGPL-3.0-or-later
+size	1310
+installed-size	0
+depends	libheif-aom libheif-dav1d libheif-ffmpeg libheif-jpeg libheif-libde265 libheif-openh264 libheif-openjpeg libheif-rav1e libheif-x264 libheif-x265
+origin	libheif
+repo	community
+file	libheif-plugins-all-1.23.7-r0.apk
+checksum	Q1+BRPxtoyqbBWn/+L3dmmtt9FvCk=
+dep	libheif-aom	libheif-aom
+dep	libheif-dav1d	libheif-dav1d
+dep	libheif-ffmpeg	libheif-ffmpeg
+dep	libheif-jpeg	libheif-jpeg
+dep	libheif-libde265	libheif-libde265
+dep	libheif-openh264	libheif-openh264
+dep	libheif-openjpeg	libheif-openjpeg
+dep	libheif-rav1e	libheif-rav1e
+dep	libheif-x264	libheif-x264
+dep	libheif-x265	libheif-x265

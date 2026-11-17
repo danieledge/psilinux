@@ -1,0 +1,14 @@
+name	lua5.1-mmdb
+version	0.2-r0
+description	Maxmind database parser for lua 5.1
+url	https://github.com/daurnimator/mmdblua
+license	MIT
+size	5715
+installed-size	15542
+depends	lua5.1 lua5.1-compat53
+origin	lua-mmdb
+repo	community
+file	lua5.1-mmdb-0.2-r0.apk
+checksum	Q1lOkVncuavZ2dMVK+rO6whhifQqQ=
+dep	lua5.1	lua5.1
+dep	lua5.1-compat53	lua5.1-compat53

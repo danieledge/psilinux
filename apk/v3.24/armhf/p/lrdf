@@ -1,0 +1,14 @@
+name	lrdf
+version	0.6.1-r2
+description	RDF library for accessing plugin metadata in the LADSPA plugin system
+url	https://github.com/swh/LRDF
+license	GPL-2.0-only
+size	13923
+installed-size	33545
+depends	so:libc.musl-armhf.so.1 so:libraptor2.so.0
+origin	lrdf
+repo	community
+file	lrdf-0.6.1-r2.apk
+checksum	Q1V/57MGlzEbMBGGucblcnhfy4gjY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libraptor2.so.0	raptor2

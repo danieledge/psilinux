@@ -1,0 +1,13 @@
+name	raspberrypi-bootloader
+version	1.20260915-r0
+description	Bootloader files for the Raspberry Pi
+url	https://github.com/raspberrypi/firmware
+license	custom
+size	3131741
+installed-size	5334907
+depends	raspberrypi-bootloader-common=1.20260915-r0
+origin	raspberrypi-bootloader
+repo	main
+file	raspberrypi-bootloader-1.20260915-r0.apk
+checksum	Q1oohYSPyXc9My0K5BbqxIg1wrE5g=
+dep	raspberrypi-bootloader-common=1.20260915-r0	raspberrypi-bootloader-common

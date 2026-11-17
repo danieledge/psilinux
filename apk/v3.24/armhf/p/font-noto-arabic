@@ -1,0 +1,14 @@
+name	font-noto-arabic
+version	2026.11.01-r0
+description	Noto Sans Arabic (UI) fonts
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	8063720
+installed-size	18878978
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-arabic-2026.11.01-r0.apk
+checksum	Q1acD2FQZs0i59R5Z+yQtfOf6WEl8=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

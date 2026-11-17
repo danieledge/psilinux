@@ -1,0 +1,14 @@
+name	progress
+version	0.17-r3
+description	Coreutils Progress Viewer
+url	https://github.com/Xfennec/progress
+license	GPL-3.0-or-later
+size	12769
+installed-size	22184
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	progress
+repo	community
+file	progress-0.17-r3.apk
+checksum	Q1skyIVRb8vr0/US6u7xMaMbxB+vI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

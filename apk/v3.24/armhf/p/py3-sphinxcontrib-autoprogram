@@ -1,0 +1,15 @@
+name	py3-sphinxcontrib-autoprogram
+version	0.1.9-r2
+description	Sphinx extension to document CLI programs
+url	https://github.com/sphinx-contrib/autoprogram
+license	BSD-2-Clause
+size	9667
+installed-size	25351
+depends	python3 py3-sphinx python3~3.14
+origin	py3-sphinxcontrib-autoprogram
+repo	community
+file	py3-sphinxcontrib-autoprogram-0.1.9-r2.apk
+checksum	Q1e/oXu8yrTj6eb7Pb1l8Xj546bsg=
+dep	python3	python3
+dep	py3-sphinx	py3-sphinx
+dep	python3~3.14	python3

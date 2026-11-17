@@ -1,0 +1,23 @@
+name	soqt
+version	1.6.4-r1
+description	GUI binding library for coin
+url	https://github.com/coin3d/soqt
+license	BSD-3-Clause
+size	224795
+installed-size	601444
+depends	so:libCoin.so.80 so:libGL.so.1 so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6OpenGL.so.6 so:libQt6Widgets.so.6 so:libX11.so.6 so:libXi.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	soqt
+repo	community
+file	soqt-1.6.4-r1.apk
+checksum	Q1l8xL0mG6Ksv8qtkOZbr7n+7zsLA=
+dep	so:libCoin.so.80	coin
+dep	so:libGL.so.1	mesa-gl
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6OpenGL.so.6	qt6-qtbase-x11
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libX11.so.6	libx11
+dep	so:libXi.so.6	libxi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

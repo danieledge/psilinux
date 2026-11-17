@@ -1,0 +1,14 @@
+name	libmpeg2-dev
+version	0.5.1-r12
+description	A library for decoding MPEG-1 and MPEG-2 video streams (development files)
+url	https://libmpeg2.sourceforge.net/
+license	GPL-2.0
+size	4654
+installed-size	8719
+depends	libmpeg2=0.5.1-r12 pkgconfig
+origin	libmpeg2
+repo	community
+file	libmpeg2-dev-0.5.1-r12.apk
+checksum	Q1fx+bfjVAD3V/SfwF1cDlNwwkqkk=
+dep	libmpeg2=0.5.1-r12	libmpeg2
+dep	pkgconfig	pkgconf

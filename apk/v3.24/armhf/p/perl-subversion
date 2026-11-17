@@ -1,0 +1,22 @@
+name	perl-subversion
+version	1.14.5-r1
+description	Perl bindings to subversion
+url	https://subversion.apache.org/
+license	Apache-2.0 AND BSD-2-Clause
+size	1085750
+installed-size	4243061
+depends	so:libapr-1.so.0 so:libc.musl-armhf.so.1 so:libsvn_client-1.so.0 so:libsvn_delta-1.so.0 so:libsvn_diff-1.so.0 so:libsvn_fs-1.so.0 so:libsvn_ra-1.so.0 so:libsvn_repos-1.so.0 so:libsvn_subr-1.so.0 so:libsvn_wc-1.so.0
+origin	subversion
+repo	main
+file	perl-subversion-1.14.5-r1.apk
+checksum	Q1lX7VWRO3c25ciQWQC4APK2oTuJ0=
+dep	so:libapr-1.so.0	apr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsvn_client-1.so.0	subversion-libs
+dep	so:libsvn_delta-1.so.0	subversion-libs
+dep	so:libsvn_diff-1.so.0	subversion-libs
+dep	so:libsvn_fs-1.so.0	subversion-libs
+dep	so:libsvn_ra-1.so.0	subversion-libs
+dep	so:libsvn_repos-1.so.0	subversion-libs
+dep	so:libsvn_subr-1.so.0	subversion-libs
+dep	so:libsvn_wc-1.so.0	subversion-libs

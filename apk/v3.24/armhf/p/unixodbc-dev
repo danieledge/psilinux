@@ -1,0 +1,14 @@
+name	unixodbc-dev
+version	2.3.14-r1
+description	Unix Open DataBase Connectivity sub-system and SDK (development files)
+url	https://www.unixodbc.org/
+license	LGPL-2.0-or-later
+size	47203
+installed-size	212478
+depends	unixodbc=2.3.14-r1 pkgconfig
+origin	unixodbc
+repo	main
+file	unixodbc-dev-2.3.14-r1.apk
+checksum	Q1/FiWXSN+cjCqduMG5RQ4HgZLKtA=
+dep	unixodbc=2.3.14-r1	unixodbc
+dep	pkgconfig	pkgconf

@@ -1,0 +1,13 @@
+name	libxshmfence
+version	1.3.3-r0
+description	X11 shared memory fences
+url	https://www.x.org/
+license	MIT
+size	3903
+installed-size	5244
+depends	so:libc.musl-armhf.so.1
+origin	libxshmfence
+repo	main
+file	libxshmfence-1.3.3-r0.apk
+checksum	Q1Mq9O7HgFsiRjp0hH+hT51uWpssE=
+dep	so:libc.musl-armhf.so.1	musl

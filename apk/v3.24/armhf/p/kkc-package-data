@@ -1,0 +1,17 @@
+name	kkc-package-data
+version	0.3.5-r6
+description	Japanese Kana Kanji conversion input method library (data downloader script)
+url	https://github.com/ueno/libkkc
+license	GPL-3.0-or-later
+size	10447
+installed-size	20987
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libkkc.so.2
+origin	libkkc
+repo	community
+file	kkc-package-data-0.3.5-r6.apk
+checksum	Q11UDLJrAAoIJlyb6gqBtMj7HVg/I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libkkc.so.2	libkkc

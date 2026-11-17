@@ -1,0 +1,14 @@
+name	sd
+version	1.1.0-r0
+description	An intuitive find & replace CLI
+url	https://github.com/chmln/sd
+license	MIT
+size	757551
+installed-size	1629300
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	sd
+repo	community
+file	sd-1.1.0-r0.apk
+checksum	Q1mZwgHDzbw7BMGP5TGJjkuyccZ6Q=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

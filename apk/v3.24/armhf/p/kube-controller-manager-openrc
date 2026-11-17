@@ -1,0 +1,13 @@
+name	kube-controller-manager-openrc
+version	1.36.1-r2
+description	Kubernetes - kube-controller-manager (OpenRC init scripts)
+url	https://kubernetes.io/
+license	Apache-2.0
+size	2030
+installed-size	698
+depends	openrc
+origin	kubernetes
+repo	community
+file	kube-controller-manager-openrc-1.36.1-r2.apk
+checksum	Q1jr4n7vLJlL6JKRJjacRpL+RLkb0=
+dep	openrc	openrc

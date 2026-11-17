@@ -1,0 +1,17 @@
+name	qt6-qtshadertools-dev
+version	6.11.1-r0
+description	Experimental module providing APIs and a host tool to host tool to perform graphics and compute shader conditioning (development files)
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	33036
+installed-size	122129
+depends	vulkan-headers qt6-qtshadertools=6.11.1-r0 pc:Qt6Core pc:Qt6Gui pkgconfig
+origin	qt6-qtshadertools
+repo	community
+file	qt6-qtshadertools-dev-6.11.1-r0.apk
+checksum	Q1gFZ7IMDMDebI+iAAn+LYdjTNSmw=
+dep	vulkan-headers	vulkan-headers
+dep	qt6-qtshadertools=6.11.1-r0	qt6-qtshadertools
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pc:Qt6Gui	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

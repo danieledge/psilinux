@@ -1,0 +1,14 @@
+name	ead
+version	3.12-r0
+description	Ethernet authentication daemon
+url	https://iwd.wiki.kernel.org/
+license	LGPL-2.1-or-later
+size	211047
+installed-size	427980
+depends	dbus so:libc.musl-armhf.so.1
+origin	iwd
+repo	community
+file	ead-3.12-r0.apk
+checksum	Q1w1m9GB6tmnV+bcs1q/ecOgTtRhI=
+dep	dbus	dbus
+dep	so:libc.musl-armhf.so.1	musl

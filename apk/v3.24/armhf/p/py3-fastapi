@@ -1,0 +1,17 @@
+name	py3-fastapi
+version	0.136.1-r0
+description	Modern, high-performance, web framework for building APIs based on standard Python type hints
+url	https://github.com/fastapi/fastapi
+license	MIT
+size	106283
+installed-size	753876
+depends	py3-annotated-doc py3-pydantic py3-starlette uvicorn python3~3.14
+origin	py3-fastapi
+repo	community
+file	py3-fastapi-0.136.1-r0.apk
+checksum	Q1Md90gzgemWI14OU6VdnNO6jcyj8=
+dep	py3-annotated-doc	py3-annotated-doc
+dep	py3-pydantic	py3-pydantic
+dep	py3-starlette	py3-starlette
+dep	uvicorn	uvicorn
+dep	python3~3.14	python3

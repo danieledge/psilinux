@@ -1,0 +1,13 @@
+name	picocom
+version	2024.07-r0
+description	Minimal dumb-terminal emulation program
+url	https://gitlab.com/wsakernel/picocom
+license	GPL-2.0-or-later
+size	25025
+installed-size	51728
+depends	so:libc.musl-armhf.so.1
+origin	picocom
+repo	community
+file	picocom-2024.07-r0.apk
+checksum	Q1p774Yz+rZXigHrRMkCRcDeboKgE=
+dep	so:libc.musl-armhf.so.1	musl

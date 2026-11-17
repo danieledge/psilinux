@@ -1,0 +1,13 @@
+name	lzfse
+version	1.0-r0
+description	lzfse compression library and command line tool
+url	https://github.com/lzfse/lzfse
+license	BSD-3-Clause
+size	21223
+installed-size	43352
+depends	so:libc.musl-armhf.so.1
+origin	lzfse
+repo	community
+file	lzfse-1.0-r0.apk
+checksum	Q19YTYjivHyN5+k4QOz1qrdnLwiY8=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	spandsp
+version	0.0.6-r5
+description	SpanDSP is a library of DSP functions for telephony
+url	https://www.soft-switch.org/installing-spandsp.html
+license	LGPL-2.1-only
+size	274920
+installed-size	619856
+depends	so:libc.musl-armhf.so.1 so:libtiff.so.6
+origin	spandsp
+repo	main
+file	spandsp-0.0.6-r5.apk
+checksum	Q13RUdnbbPTeOaI9CK2NATK1WLbYs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libtiff.so.6	tiff

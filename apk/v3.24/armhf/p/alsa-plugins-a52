@@ -1,0 +1,16 @@
+name	alsa-plugins-a52
+version	1.2.12-r2
+description	Converts S16 linear sound format to A52 compressed format and sends it to an SPDIF output
+url	https://alsa-project.org/
+license	GPL-2.0-or-later LGPL-2.1-or-later
+size	10761
+installed-size	22684
+depends	so:libasound.so.2 so:libavcodec.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1
+origin	alsa-plugins
+repo	community
+file	alsa-plugins-a52-1.2.12-r2.apk
+checksum	Q1mh32eRWO2jgYHaoFGgCvBLxC9fk=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl

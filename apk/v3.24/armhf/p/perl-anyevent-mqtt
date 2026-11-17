@@ -1,0 +1,16 @@
+name	perl-anyevent-mqtt
+version	1.212810-r2
+description	AnyEvent module for an MQTT client
+url	https://metacpan.org/release/AnyEvent-MQTT/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	11189
+installed-size	37014
+depends	perl perl-anyevent perl-net-mqtt perl-sub-name
+origin	perl-anyevent-mqtt
+repo	community
+file	perl-anyevent-mqtt-1.212810-r2.apk
+checksum	Q15R/VEIuDZdYZl5I2/v4OwbNoBOI=
+dep	perl	perl
+dep	perl-anyevent	perl-anyevent
+dep	perl-net-mqtt	perl-net-mqtt
+dep	perl-sub-name	perl-sub-name

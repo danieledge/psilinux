@@ -1,0 +1,13 @@
+name	ocaml-num-dev
+version	1.4-r6
+description	Arbitray-precision rational arithmetic for OCaml (development files)
+url	https://github.com/ocaml/num
+license	LGPL-2.1-only WITH OCaml-LGPL-linking-exception AND MIT
+size	96941
+installed-size	261981
+depends	ocaml-num=1.4-r6
+origin	ocaml-num
+repo	community
+file	ocaml-num-dev-1.4-r6.apk
+checksum	Q1rVKzOt2ESzpXlJyvBWKi1W7PtGU=
+dep	ocaml-num=1.4-r6	ocaml-num

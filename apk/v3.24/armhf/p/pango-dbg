@@ -1,0 +1,12 @@
+name	pango-dbg
+version	1.57.1-r0
+description	library for layout and rendering of text (debug symbols)
+url	https://www.pango.org/
+license	LGPL-2.1-or-later
+size	867331
+installed-size	2015892
+depends	!pango-tools<1.57.1-r0 !pango-tools>1.57.1-r0 !pango<1.57.1-r0 !pango>1.57.1-r0
+origin	pango
+repo	main
+file	pango-dbg-1.57.1-r0.apk
+checksum	Q1O9JNYaR+2dB7r53oP9UrPORH7do=

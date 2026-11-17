@@ -1,0 +1,24 @@
+name	pipewire-pulse
+version	1.6.8-r4
+description	Pulseaudio support for pipewire
+url	https://pipewire.org/
+license	MIT
+size	248802
+installed-size	591206
+depends	pipewire-session-manager pulseaudio-utils pipewire=1.6.8-r4 so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libpipewire-0.3.so.0 so:libpulse.so.0
+origin	pipewire
+repo	community
+file	pipewire-pulse-1.6.8-r4.apk
+checksum	Q1TLl82PzU63rNpAn7bKt19sppQFM=
+dep	pipewire-session-manager	wireplumber
+dep	pulseaudio-utils	pulseaudio-utils
+dep	pipewire=1.6.8-r4	pipewire
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpipewire-0.3.so.0	pipewire-libs
+dep	so:libpulse.so.0	libpulse

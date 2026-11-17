@@ -1,0 +1,15 @@
+name	uwsgi-rawrouter
+version	2.0.31-r2
+description	uWSGI plugin rawrouter
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	6665
+installed-size	14540
+depends	uwsgi uwsgi-corerouter so:libc.musl-armhf.so.1
+origin	uwsgi
+repo	main
+file	uwsgi-rawrouter-2.0.31-r2.apk
+checksum	Q1JGvna2hLb6rY9FAYbjRXyPiabFU=
+dep	uwsgi	uwsgi
+dep	uwsgi-corerouter	uwsgi-corerouter
+dep	so:libc.musl-armhf.so.1	musl

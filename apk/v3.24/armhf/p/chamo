@@ -1,0 +1,21 @@
+name	chamo
+version	4.0-r3
+description	Emacs-inspired text editor written in and configurable with OCaml
+url	https://framagit.org/zoggy/chamo
+license	LGPL-3.0-only
+size	6561704
+installed-size	15346971
+depends	font-dejavu font-liberation so:libSDL2-2.0.so.0 so:libSDL2_image-2.0.so.0 so:libSDL2_ttf-2.0.so.0 so:libc.musl-armhf.so.1 so:libev.so.4 so:libffi.so.8 so:libpcre.so.1
+origin	chamo
+repo	community
+file	chamo-4.0-r3.apk
+checksum	Q1SVpjaAxzsQnXvuGNBCxAIF5c70Q=
+dep	font-dejavu	font-dejavu
+dep	font-liberation	font-liberation
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libSDL2_image-2.0.so.0	sdl2_image
+dep	so:libSDL2_ttf-2.0.so.0	sdl2_ttf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libev.so.4	libev
+dep	so:libffi.so.8	libffi
+dep	so:libpcre.so.1	pcre

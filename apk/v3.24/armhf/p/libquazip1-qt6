@@ -1,0 +1,19 @@
+name	libquazip1-qt6
+version	1.5-r0
+description	C++ wrapper for the Gilles Vollant's ZIP/UNZIP C package (qt6)
+url	https://github.com/stachenov/quazip
+license	LGPL-2.1-or-later WITH custom-static-linking-exception
+size	73734
+installed-size	169600
+depends	so:libQt6Core.so.6 so:libQt6Core5Compat.so.6 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1
+origin	quazip
+repo	community
+file	libquazip1-qt6-1.5-r0.apk
+checksum	Q1+k/oAbQxwr3VTyOg3qxhMgovFdc=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Core5Compat.so.6	qt6-qt5compat
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

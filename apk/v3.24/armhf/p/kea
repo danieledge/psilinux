@@ -1,0 +1,14 @@
+name	kea
+version	3.0.3-r0
+description	DHCPv4 and DHCPv6 server from ISC
+url	https://kea.isc.org/
+license	MPL-2.0
+size	1258
+installed-size	0
+depends	kea-dhcp4 kea-dhcp6
+origin	kea
+repo	main
+file	kea-3.0.3-r0.apk
+checksum	Q1VljglO46Q3ZZ5Zr+LEMXhQegZoQ=
+dep	kea-dhcp4	kea-dhcp4
+dep	kea-dhcp6	kea-dhcp6

@@ -1,0 +1,38 @@
+name	tigervnc
+version	1.16.2-r0
+description	High performance, multi-platform VNC client and server
+url	https://tigervnc.org/
+license	GPL-2.0-or-later
+size	1232762
+installed-size	2662458
+depends	perl xinit xkbcomp xkeyboard-config so:libGL.so.1 so:libX11.so.6 so:libXau.so.6 so:libXdamage.so.1 so:libXdmcp.so.6 so:libXext.so.6 so:libXfixes.so.3 so:libXfont2.so.2 so:libXrandr.so.2 so:libXtst.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgmp.so.10 so:libgnutls.so.30 so:libhogweed.so.6 so:libjpeg.so.8 so:libnettle.so.8 so:libpam.so.0 so:libpixman-1.so.0 so:libstdc++.so.6 so:libxcvt.so.0 so:libz.so.1
+origin	tigervnc
+repo	community
+file	tigervnc-1.16.2-r0.apk
+checksum	Q1ojmHJE1Q8iE+rjbI4tdDhIObj0I=
+dep	perl	perl
+dep	xinit	xinit
+dep	xkbcomp	xkbcomp
+dep	xkeyboard-config	xkeyboard-config
+dep	so:libGL.so.1	mesa-gl
+dep	so:libX11.so.6	libx11
+dep	so:libXau.so.6	libxau
+dep	so:libXdamage.so.1	libxdamage
+dep	so:libXdmcp.so.6	libxdmcp
+dep	so:libXext.so.6	libxext
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXfont2.so.2	libxfont2
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libXtst.so.6	libxtst
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgmp.so.10	gmp
+dep	so:libgnutls.so.30	gnutls
+dep	so:libhogweed.so.6	nettle
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libnettle.so.8	nettle
+dep	so:libpam.so.0	linux-pam
+dep	so:libpixman-1.so.0	pixman
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxcvt.so.0	libxcvt
+dep	so:libz.so.1	zlib

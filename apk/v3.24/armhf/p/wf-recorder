@@ -1,0 +1,27 @@
+name	wf-recorder
+version	0.6.0-r0
+description	Screen recording for wlroots-based compositors
+url	https://github.com/ammen99/wf-recorder
+license	MIT
+size	39324
+installed-size	83160
+depends	so:libavcodec.so.62 so:libavdevice.so.62 so:libavfilter.so.11 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libdrm.so.2 so:libgbm.so.1 so:libgcc_s.so.1 so:libpipewire-0.3.so.0 so:libpulse-simple.so.0 so:libpulse.so.0 so:libstdc++.so.6 so:libswresample.so.6 so:libwayland-client.so.0
+origin	wf-recorder
+repo	community
+file	wf-recorder-0.6.0-r0.apk
+checksum	Q1sxjDQAuo0MkZpsRkEt4XZBsCPgs=
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavdevice.so.62	ffmpeg-libavdevice
+dep	so:libavfilter.so.11	ffmpeg-libavfilter
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm.so.2	libdrm
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpipewire-0.3.so.0	pipewire-libs
+dep	so:libpulse-simple.so.0	libpulse
+dep	so:libpulse.so.0	libpulse
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libswresample.so.6	ffmpeg-libswresample
+dep	so:libwayland-client.so.0	wayland-libs-client

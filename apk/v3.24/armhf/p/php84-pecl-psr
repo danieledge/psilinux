@@ -1,0 +1,14 @@
+name	php84-pecl-psr
+version	1.2.0-r1
+description	PHP 8.4 extension provides the accepted PSR interfaces, so they can be used in an extension - PECL
+url	https://pecl.php.net/package/psr
+license	BSD-2-Clause
+size	17876
+installed-size	66906
+depends	php84-common so:libc.musl-armhf.so.1
+origin	php84-pecl-psr
+repo	community
+file	php84-pecl-psr-1.2.0-r1.apk
+checksum	Q1eXu5YUnx7RfNIkou/fyNVf8O8VQ=
+dep	php84-common	php84-common
+dep	so:libc.musl-armhf.so.1	musl

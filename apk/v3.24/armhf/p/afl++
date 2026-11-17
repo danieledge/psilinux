@@ -1,0 +1,22 @@
+name	afl++
+version	4.40c-r1
+description	Fuzzer relying on genetic algorithms instead of brute force
+url	https://aflplus.plus/
+license	Apache-2.0
+size	1132682
+installed-size	3036274
+depends	clang22 clang22-rtlib lld22 llvm22 python3 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpython3.14.so.1.0 so:libstdc++.so.6 so:libz.so.1
+origin	afl++
+repo	community
+file	afl++-4.40c-r1.apk
+checksum	Q19LPt5yzjezbVO+VXtjbzlKVx9wc=
+dep	clang22	clang22
+dep	clang22-rtlib	compiler-rt
+dep	lld22	lld22
+dep	llvm22	llvm22
+dep	python3	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpython3.14.so.1.0	python3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

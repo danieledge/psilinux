@@ -1,0 +1,13 @@
+name	mawk
+version	1.3.4_p20260302-r0
+description	mawk is an interpreter for the AWK Programming Language
+url	https://invisible-island.net/mawk/
+license	GPL-2.0-only
+size	70987
+installed-size	153228
+depends	so:libc.musl-armhf.so.1
+origin	mawk
+repo	main
+file	mawk-1.3.4_p20260302-r0.apk
+checksum	Q1y9MRONnYABmbBgrtIFbXPAWMABo=
+dep	so:libc.musl-armhf.so.1	musl

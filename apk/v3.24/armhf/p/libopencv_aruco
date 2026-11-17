@@ -1,0 +1,18 @@
+name	libopencv_aruco
+version	4.12.0-r7
+description	Open source computer vision and machine learning library (libopencv_aruco library)
+url	https://opencv.org/
+license	Apache-2.0
+size	15359
+installed-size	30388
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libopencv_calib3d.so.412 so:libopencv_core.so.412 so:libopencv_objdetect.so.412 so:libstdc++.so.6
+origin	opencv
+repo	community
+file	libopencv_aruco-4.12.0-r7.apk
+checksum	Q1okQG2ZJH0f8YlTSipQfD61VvmEc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libopencv_calib3d.so.412	libopencv_calib3d
+dep	so:libopencv_core.so.412	libopencv_core
+dep	so:libopencv_objdetect.so.412	libopencv_objdetect
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,13 @@
+name	f2fs-tools-dev
+version	1.16.0-r4
+description	Tools for the Flash-Friendly File System (F2FS) (development files)
+url	http://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git
+license	GPL-2.0-or-later OR LGPL-2.1-or-later
+size	18242
+installed-size	56590
+depends	f2fs-tools-libs=1.16.0-r4
+origin	f2fs-tools
+repo	main
+file	f2fs-tools-dev-1.16.0-r4.apk
+checksum	Q1c96kv2JTC/wtOOCnCxxtP5Asu7w=
+dep	f2fs-tools-libs=1.16.0-r4	f2fs-tools-libs

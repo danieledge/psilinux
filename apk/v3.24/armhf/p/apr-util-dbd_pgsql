@@ -1,0 +1,14 @@
+name	apr-util-dbd_pgsql
+version	1.6.4-r0
+description	The Apache Portable Runtime Utility Library - PostgreSQL driver
+url	https://apr.apache.org/
+license	Apache-2.0
+size	8021
+installed-size	13484
+depends	so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	apr-util
+repo	main
+file	apr-util-dbd_pgsql-1.6.4-r0.apk
+checksum	Q1JAqHty5sQ8QvNy1dx3lWyugcc+4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

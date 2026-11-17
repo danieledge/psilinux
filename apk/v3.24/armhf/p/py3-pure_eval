@@ -1,0 +1,14 @@
+name	py3-pure_eval
+version	0.2.3-r1
+description	safely evaluate AST nodes without side effects
+url	https://github.com/alexmojaki/pure_eval
+license	MIT
+size	12214
+installed-size	32942
+depends	python3 python3~3.14
+origin	py3-pure_eval
+repo	community
+file	py3-pure_eval-0.2.3-r1.apk
+checksum	Q1uzct5bRJFhPAzExWLLRepaRsAS8=
+dep	python3	python3
+dep	python3~3.14	python3

@@ -1,0 +1,18 @@
+name	libnymphcast
+version	0.2.1-r4
+description	NymphCast Client Library
+url	https://github.com/MayaPosch/libnymphcast
+license	BSD-3-Clause
+size	77953
+installed-size	275840
+depends	so:libPocoFoundation.so.121 so:libPocoNet.so.121 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libnymphrpc.so.0.1 so:libstdc++.so.6
+origin	libnymphcast
+repo	community
+file	libnymphcast-0.2.1-r4.apk
+checksum	Q1X7uEwykYkGdfe9G0KPNj0PY7qiw=
+dep	so:libPocoFoundation.so.121	poco
+dep	so:libPocoNet.so.121	poco
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libnymphrpc.so.0.1	nymphrpc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,15 @@
+name	minizip-dev
+version	1.3.2-r1
+description	a library for manipulation with files from .zip archives (development files)
+url	https://zlib.net/
+license	Zlib
+size	12353
+installed-size	46479
+depends	zlib-dev minizip=1.3.2-r1 pkgconfig
+origin	minizip
+repo	community
+file	minizip-dev-1.3.2-r1.apk
+checksum	Q1A9G0J0ZhZSMtCYHNyrFsvVC2tRg=
+dep	zlib-dev	zlib-dev
+dep	minizip=1.3.2-r1	minizip
+dep	pkgconfig	pkgconf

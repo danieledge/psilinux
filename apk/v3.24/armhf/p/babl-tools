@@ -1,0 +1,14 @@
+name	babl-tools
+version	0.1.118-r0
+description	Dynamic, any to any, pixel format conversion library (cli tool)
+url	https://gegl.org/babl
+license	LGPL-3.0-or-later
+size	8547
+installed-size	17688
+depends	so:libbabl-0.1.so.0 so:libc.musl-armhf.so.1
+origin	babl
+repo	community
+file	babl-tools-0.1.118-r0.apk
+checksum	Q1LG1Dj66TOD76LI5hrKA23mDkPl4=
+dep	so:libbabl-0.1.so.0	babl
+dep	so:libc.musl-armhf.so.1	musl

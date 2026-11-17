@@ -1,0 +1,16 @@
+name	py3-combo-lock
+version	0.3.0-r1
+description	Python combination of a process lock and a thread lock
+url	https://github.com/forslund/combo-lock
+license	Apache-2.0
+size	9183
+installed-size	19201
+depends	py3-filelock py3-memory-tempfile python3 python3~3.14
+origin	py3-combo-lock
+repo	community
+file	py3-combo-lock-0.3.0-r1.apk
+checksum	Q1TzRhBuOb32JzZyBm9AVdw5/Mr18=
+dep	py3-filelock	py3-filelock
+dep	py3-memory-tempfile	py3-memory-tempfile
+dep	python3	python3
+dep	python3~3.14	python3

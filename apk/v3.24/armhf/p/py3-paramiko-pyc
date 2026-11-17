@@ -1,0 +1,13 @@
+name	py3-paramiko-pyc
+version	4.0.0-r1
+description	Precompiled Python bytecode for py3-paramiko
+url	https://www.paramiko.org/
+license	LGPL-2.0-or-later
+size	311850
+installed-size	835845
+depends	python3~3.14
+origin	py3-paramiko
+repo	community
+file	py3-paramiko-pyc-4.0.0-r1.apk
+checksum	Q1v1BTo7VKrXq0ZKzzEfgaI5CqOLk=
+dep	python3~3.14	python3

@@ -1,0 +1,15 @@
+name	uv
+version	0.11.19-r2
+description	Extremely fast Python package installer and resolver, written in Rust
+url	https://github.com/astral-sh/uv
+license	Apache-2.0 OR MIT
+size	11053205
+installed-size	26446478
+depends	so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	uv
+repo	community
+file	uv-0.11.19-r2.apk
+checksum	Q18r15HqclmdFYl7TsnfsUEh4GHm4=
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

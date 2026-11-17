@@ -1,0 +1,14 @@
+name	raku-yamlish
+version	0.1.2-r4
+description	YAML parser/emitter
+url	https://github.com/Leont/yamlish
+license	Artistic-2.0
+size	293850
+installed-size	1120252
+depends	rakudo raku-mime-base64
+origin	raku-yamlish
+repo	community
+file	raku-yamlish-0.1.2-r4.apk
+checksum	Q15zViXoncP81akbaL9dFI60YoiNw=
+dep	rakudo	rakudo
+dep	raku-mime-base64	raku-mime-base64

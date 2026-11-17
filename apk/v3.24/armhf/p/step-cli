@@ -1,0 +1,13 @@
+name	step-cli
+version	0.30.6-r2
+description	Zero trust swiss army knife that integrates with step-ca for automated certificate management
+url	https://github.com/smallstep/cli
+license	Apache-2.0
+size	13764202
+installed-size	39535996
+depends	so:libc.musl-armhf.so.1
+origin	step-cli
+repo	community
+file	step-cli-0.30.6-r2.apk
+checksum	Q1DkWAOWK1b4k5PctI6bOjKHeP0mY=
+dep	so:libc.musl-armhf.so.1	musl

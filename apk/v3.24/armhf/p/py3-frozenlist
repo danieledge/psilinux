@@ -1,0 +1,15 @@
+name	py3-frozenlist
+version	1.8.0-r2
+description	immutable list
+url	https://github.com/aio-libs/frozenlist
+license	Apache-2.0
+size	43617
+installed-size	108421
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	py3-frozenlist
+repo	community
+file	py3-frozenlist-1.8.0-r2.apk
+checksum	Q1RS5C2bH8jSDLxENagCF1hCt1SsM=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

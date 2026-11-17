@@ -1,0 +1,18 @@
+name	ccache
+version	4.13.6-r0
+description	fast C/C++ compiler cache
+url	https://ccache.dev/
+license	GPL-3.0-or-later
+size	486482
+installed-size	1055920
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libhiredis.so.1.3.0 so:libstdc++.so.6 so:libxxhash.so.0 so:libzstd.so.1
+origin	ccache
+repo	main
+file	ccache-4.13.6-r0.apk
+checksum	Q17hv9YH59n7wfolR9ADlyL2GyVtc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libhiredis.so.1.3.0	hiredis
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxxhash.so.0	libxxhash
+dep	so:libzstd.so.1	zstd-libs

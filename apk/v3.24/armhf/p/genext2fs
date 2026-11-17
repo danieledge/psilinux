@@ -1,0 +1,14 @@
+name	genext2fs
+version	1.6.2-r0
+description	Generate ext2 filesystems as a normal user
+url	https://genext2fs.sourceforge.net/
+license	GPL-2.0-only
+size	26788
+installed-size	50772
+depends	so:libarchive.so.13 so:libc.musl-armhf.so.1
+origin	genext2fs
+repo	community
+file	genext2fs-1.6.2-r0.apk
+checksum	Q1TZy9qWJIGiaHNACi8FP9Eo7mVhA=
+dep	so:libarchive.so.13	libarchive
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	openvswitch-dev
+version	3.7.1-r0
+description	production quality, multilayer virtual switch (development files)
+url	https://www.openvswitch.org/
+license	Apache-2.0
+size	152276
+installed-size	674063
+depends	openvswitch-libs=3.7.1-r0 pkgconfig
+origin	openvswitch
+repo	community
+file	openvswitch-dev-3.7.1-r0.apk
+checksum	Q1B0qD7M+7viDHg0LMPUTXhzsyvdY=
+dep	openvswitch-libs=3.7.1-r0	openvswitch-libs
+dep	pkgconfig	pkgconf

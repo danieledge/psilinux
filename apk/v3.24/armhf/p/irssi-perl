@@ -1,0 +1,17 @@
+name	irssi-perl
+version	1.4.5-r7
+description	Irssi perl support and scripts
+url	https://irssi.org/
+license	GPL-2.0-or-later WITH OpenSSL-Exception
+size	119227
+installed-size	355063
+depends	irssi=1.4.5-r7 perl so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libperl.so
+origin	irssi
+repo	community
+file	irssi-perl-1.4.5-r7.apk
+checksum	Q1MkPPn5avS9UY4Re4nASz4NTDqNo=
+dep	irssi=1.4.5-r7	irssi
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libperl.so	perl

@@ -1,0 +1,17 @@
+name	libxft
+version	2.3.9-r0
+description	FreeType-based font drawing library for X
+url	https://xorg.freedesktop.org/
+license	MIT
+size	35839
+installed-size	75024
+depends	so:libX11.so.6 so:libXrender.so.1 so:libc.musl-armhf.so.1 so:libfontconfig.so.1 so:libfreetype.so.6
+origin	libxft
+repo	main
+file	libxft-2.3.9-r0.apk
+checksum	Q1fC4i+Ee6CZS+1pfRN5Kmsndfqm0=
+dep	so:libX11.so.6	libx11
+dep	so:libXrender.so.1	libxrender
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype

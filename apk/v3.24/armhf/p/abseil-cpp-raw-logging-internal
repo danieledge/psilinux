@@ -1,0 +1,15 @@
+name	abseil-cpp-raw-logging-internal
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-raw-logging-internal
+url	https://abseil.io/
+license	Apache-2.0
+size	4567
+installed-size	9572
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-raw-logging-internal-20250814.1-r0.apk
+checksum	Q1Fn6QNHtVOchrncUtx0ZnleZJktc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

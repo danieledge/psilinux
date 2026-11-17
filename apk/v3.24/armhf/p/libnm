@@ -1,0 +1,22 @@
+name	libnm
+version	1.52.2-r0
+description	GObject-based client library for NetworkManager
+url	https://networkmanager.dev
+license	GPL-2.0-or-later
+size	457855
+installed-size	1161236
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libnspr4.so so:libnss3.so so:libsmime3.so so:libudev.so.1
+origin	networkmanager
+repo	community
+file	libnm-1.52.2-r0.apk
+checksum	Q1OKe2TquYlRuEbjNJdALOP11cgAk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libnspr4.so	nspr
+dep	so:libnss3.so	nss
+dep	so:libsmime3.so	nss
+dep	so:libudev.so.1	eudev-libs

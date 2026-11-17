@@ -1,0 +1,18 @@
+name	ocaml-xtmpl-dev
+version	0.19.0-r3
+description	XML templating library (development files)
+url	https://framagit.org/zoggy/xtmpl
+license	LGPL-3.0-only
+size	794483
+installed-size	2229889
+depends	ocaml-xtmpl=0.19.0-r3 ocaml-iri-dev ocaml-ppxlib-dev ocaml-re-dev ocaml-sedlex-dev ocaml-uutf-dev
+origin	ocaml-xtmpl
+repo	community
+file	ocaml-xtmpl-dev-0.19.0-r3.apk
+checksum	Q1h5IZID6B7weR+Nck5Tr4zTQnAtk=
+dep	ocaml-xtmpl=0.19.0-r3	ocaml-xtmpl
+dep	ocaml-iri-dev	ocaml-iri-dev
+dep	ocaml-ppxlib-dev	ocaml-ppxlib-dev
+dep	ocaml-re-dev	ocaml-re-dev
+dep	ocaml-sedlex-dev	ocaml-sedlex-dev
+dep	ocaml-uutf-dev	ocaml-uutf-dev

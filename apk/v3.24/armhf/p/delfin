@@ -1,0 +1,26 @@
+name	delfin
+version	0.4.8-r2
+description	Stream movies and TV shows from Jellyfin
+url	https://delfin.avery.cafe/
+license	GPL-3.0-only
+size	3519301
+installed-size	8804572
+depends	so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libepoxy.so.0 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libmpv.so.2 so:libpango-1.0.so.0 so:libssl.so.3
+origin	delfin
+repo	community
+file	delfin-0.4.8-r2.apk
+checksum	Q1GsMBanRSgffKkxnPHqgpEA9NWn0=
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libepoxy.so.0	libepoxy
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libmpv.so.2	mpv-libs
+dep	so:libpango-1.0.so.0	pango
+dep	so:libssl.so.3	libssl3

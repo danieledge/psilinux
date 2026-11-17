@@ -1,0 +1,14 @@
+name	jsoncpp-dev
+version	1.9.6-r1
+description	JSON C++ library (development files)
+url	https://github.com/open-source-parsers/jsoncpp
+license	Public-Domain
+size	22368
+installed-size	75484
+depends	jsoncpp=1.9.6-r1 pkgconfig
+origin	jsoncpp
+repo	community
+file	jsoncpp-dev-1.9.6-r1.apk
+checksum	Q1EaPWoxFZB0VlQqSQkOspDodPoQU=
+dep	jsoncpp=1.9.6-r1	jsoncpp
+dep	pkgconfig	pkgconf

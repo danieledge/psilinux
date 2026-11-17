@@ -1,0 +1,12 @@
+name	openjdk8-dbg
+version	8.512.01-r0
+description	OpenJDK 8 provided by IcedTea (debug symbols)
+url	https://icedtea.classpath.org/
+license	custom
+size	60170937
+installed-size	134797776
+depends	!openjdk8-demos<8.512.01-r0 !openjdk8-demos>8.512.01-r0 !openjdk8-jdk<8.512.01-r0 !openjdk8-jdk>8.512.01-r0 !openjdk8-jre-base<8.512.01-r0 !openjdk8-jre-base>8.512.01-r0 !openjdk8-jre<8.512.01-r0 !openjdk8-jre>8.512.01-r0
+origin	openjdk8
+repo	community
+file	openjdk8-dbg-8.512.01-r0.apk
+checksum	Q1Fh5UTVsvqKUUFgK2ixVLdiCIkUw=

@@ -1,0 +1,15 @@
+name	fprobe-ulog
+version	1.2-r9
+description	netfilter-based tool that collect network traffic
+url	https://github.com/opoplawski/fprobe-ulog
+license	GPL-2.0-or-later
+size	14423
+installed-size	26828
+depends	so:libc.musl-armhf.so.1 so:libnetfilter_log.so.1 so:libnfnetlink.so.0
+origin	fprobe-ulog
+repo	main
+file	fprobe-ulog-1.2-r9.apk
+checksum	Q1INIWYEe79mdcanPRL9nJg0MNp9Y=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnetfilter_log.so.1	libnetfilter_log
+dep	so:libnfnetlink.so.0	libnfnetlink

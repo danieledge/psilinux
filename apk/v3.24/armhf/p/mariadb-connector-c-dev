@@ -1,0 +1,17 @@
+name	mariadb-connector-c-dev
+version	3.4.6-r0
+description	The MariaDB Native Client library (C driver) (development files)
+url	https://mariadb.org/
+license	LGPL-2.1-or-later
+size	52248
+installed-size	192385
+depends	openssl-dev>3 zlib-dev mariadb-connector-c=3.4.6-r0 pkgconfig so:libc.musl-armhf.so.1
+origin	mariadb-connector-c
+repo	main
+file	mariadb-connector-c-dev-3.4.6-r0.apk
+checksum	Q1yYWGCBALvNXj/gnl+/pPmuIcI0c=
+dep	openssl-dev>3	openssl-dev
+dep	zlib-dev	zlib-dev
+dep	mariadb-connector-c=3.4.6-r0	mariadb-connector-c
+dep	pkgconfig	pkgconf
+dep	so:libc.musl-armhf.so.1	musl

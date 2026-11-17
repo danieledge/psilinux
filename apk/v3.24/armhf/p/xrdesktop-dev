@@ -1,0 +1,16 @@
+name	xrdesktop-dev
+version	0.16.0-r6
+description	A library for XR interaction with traditional desktop compositors (development files)
+url	https://gitlab.freedesktop.org/xrdesktop/xrdesktop
+license	MIT AND CC-BY-SA-4.0
+size	5271
+installed-size	10984
+depends	py3-gobject3-dev xrdesktop-libs=0.16.0-r6 pc:g3k-0.16 pkgconfig
+origin	xrdesktop
+repo	community
+file	xrdesktop-dev-0.16.0-r6.apk
+checksum	Q1c7tgcRoH0wq1SbV+XhdWcwamscA=
+dep	py3-gobject3-dev	py3-gobject3-dev
+dep	xrdesktop-libs=0.16.0-r6	xrdesktop-libs
+dep	pc:g3k-0.16	g3k-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,15 @@
+name	opentimelineio
+version	0.18.1-r0
+description	Open Source API and interchange format for editorial timeline information
+url	https://opentimeline.io
+license	Apache-2.0
+size	278827
+installed-size	726955
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	opentimelineio
+repo	community
+file	opentimelineio-0.18.1-r0.apk
+checksum	Q1YP1wGYP7K1NhXiSgb7wudPthic8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

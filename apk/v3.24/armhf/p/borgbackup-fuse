@@ -1,0 +1,14 @@
+name	borgbackup-fuse
+version	1.4.5-r0
+description	Deduplicating backup program (FUSE support)
+url	https://www.borgbackup.org/
+license	BSD-3-Clause
+size	1287
+installed-size	0
+depends	borgbackup=1.4.5-r0 py3-pyfuse3
+origin	borgbackup
+repo	community
+file	borgbackup-fuse-1.4.5-r0.apk
+checksum	Q1VEAxZ6JWhqQXsehKBwJGCQn0/3M=
+dep	borgbackup=1.4.5-r0	borgbackup
+dep	py3-pyfuse3	py3-pyfuse3

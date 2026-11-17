@@ -1,0 +1,13 @@
+name	libax25-static
+version	1.2.2-r0
+description	set of functions making it easier to write hamradio programs (static library)
+url	https://github.com/ve7fet/linuxax25
+license	LGPL-2.1-or-later
+size	19457
+installed-size	51136
+depends	libax25-dev
+origin	libax25
+repo	community
+file	libax25-static-1.2.2-r0.apk
+checksum	Q1401TAhaJA8sxc4ndvxToaRngipA=
+dep	libax25-dev	libax25-dev

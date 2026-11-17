@@ -1,0 +1,16 @@
+name	startup-notification
+version	0.12-r8
+description	Monitor and display application startup
+url	https://www.freedesktop.org/wiki/Software/startup-notification
+license	LGPL-2.0-or-later
+size	13487
+installed-size	29876
+depends	so:libX11-xcb.so.1 so:libc.musl-armhf.so.1 so:libxcb-util.so.1 so:libxcb.so.1
+origin	startup-notification
+repo	community
+file	startup-notification-0.12-r8.apk
+checksum	Q1np1NsfLtAEdyOCex5M2/+hEe7YI=
+dep	so:libX11-xcb.so.1	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxcb-util.so.1	xcb-util
+dep	so:libxcb.so.1	libxcb

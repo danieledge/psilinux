@@ -1,0 +1,15 @@
+name	bpfmon
+version	2.53-r1
+description	BPF based visual packet rate monitor
+url	https://github.com/bbonev/bpfmon
+license	GPL-2.0-or-later
+size	15479
+installed-size	30336
+depends	so:libc.musl-armhf.so.1 so:libpcap.so.1 so:libyascreen.so.0
+origin	bpfmon
+repo	community
+file	bpfmon-2.53-r1.apk
+checksum	Q1fG2foJ+1curh8Oyv4+gkjkfU9Rg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcap.so.1	libpcap
+dep	so:libyascreen.so.0	yascreen

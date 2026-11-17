@@ -1,0 +1,15 @@
+name	freeimage
+version	3.18.0-r5
+description	Open Source library project for developers who would like to support popular graphics image formats.
+url	https://freeimage.sourceforge.net/
+license	GPL-2.0-or-later AND FreeImage
+size	1982341
+installed-size	5678060
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	freeimage
+repo	community
+file	freeimage-3.18.0-r5.apk
+checksum	Q1L5/Rei/GJ+ziKcn/9io8Qx9cMgo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

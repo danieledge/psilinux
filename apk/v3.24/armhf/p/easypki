@@ -1,0 +1,13 @@
+name	easypki
+version	1.1.0-r49
+description	Creating a certificate authority the easy way
+url	https://github.com/google/easypki
+license	Apache-2.0
+size	2178481
+installed-size	5348836
+depends	so:libc.musl-armhf.so.1
+origin	easypki
+repo	community
+file	easypki-1.1.0-r49.apk
+checksum	Q15Q2Yy/kOBuB2R03YajFCW7ZbwaI=
+dep	so:libc.musl-armhf.so.1	musl

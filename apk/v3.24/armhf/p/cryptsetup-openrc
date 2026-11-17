@@ -1,0 +1,12 @@
+name	cryptsetup-openrc
+version	2.8.6-r0
+description	Userspace setup tool for transparent encryption of block devices using the Linux 2.6 cryptoapi (OpenRC init scripts)
+url	https://gitlab.com/cryptsetup/cryptsetup
+license	GPL-2.0-or-later WITH cryptsetup-OpenSSL-exception
+size	6665
+installed-size	13387
+depends	
+origin	cryptsetup
+repo	main
+file	cryptsetup-openrc-2.8.6-r0.apk
+checksum	Q17U7DJfzVJxCc/bfsuQjA8GAtYjg=

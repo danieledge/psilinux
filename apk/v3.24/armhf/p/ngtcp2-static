@@ -1,0 +1,13 @@
+name	ngtcp2-static
+version	1.22.1-r0
+description	Implementation of IETF QUIC protocol (static library)
+url	https://nghttp2.org/ngtcp2/
+license	MIT
+size	191926
+installed-size	486890
+depends	ngtcp2-dev
+origin	ngtcp2
+repo	main
+file	ngtcp2-static-1.22.1-r0.apk
+checksum	Q1qiUB4uClrOMPGperiM0qz0CPxr0=
+dep	ngtcp2-dev	ngtcp2-dev

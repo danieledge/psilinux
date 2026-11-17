@@ -1,0 +1,13 @@
+name	foot-extra-terminfo
+version	1.27.0-r0
+description	Fast, lightweight and minimalistic Wayland terminal emulator (extra terminfo data)
+url	https://codeberg.org/dnkl/foot
+license	MIT
+size	4033
+installed-size	8234
+depends	ncurses-terminfo
+origin	foot
+repo	community
+file	foot-extra-terminfo-1.27.0-r0.apk
+checksum	Q1LWSLjR03Wl4w4A6GAf3fiMS1c40=
+dep	ncurses-terminfo	ncurses-terminfo

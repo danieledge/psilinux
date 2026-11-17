@@ -1,0 +1,17 @@
+name	py3-praw
+version	7.8.1-r2
+description	Python module to access to reddit's API
+url	https://github.com/praw-dev/praw
+license	GPL-3.0-or-later
+size	160414
+installed-size	729620
+depends	py3-prawcore py3-update-checker py3-requests py3-websocket-client python3~3.14
+origin	py3-praw
+repo	community
+file	py3-praw-7.8.1-r2.apk
+checksum	Q1WjjAS1VppaLaUgBzDX2NJkgo5Uw=
+dep	py3-prawcore	py3-prawcore
+dep	py3-update-checker	py3-update-checker
+dep	py3-requests	py3-requests
+dep	py3-websocket-client	py3-websocket-client
+dep	python3~3.14	python3

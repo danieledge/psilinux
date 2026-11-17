@@ -1,0 +1,14 @@
+name	fstrm-dev
+version	0.6.1-r4
+description	Frame Streams implementation in C (development files)
+url	https://github.com/farsightsec/fstrm
+license	MIT
+size	19461
+installed-size	84937
+depends	fstrm=0.6.1-r4 pkgconfig
+origin	fstrm
+repo	main
+file	fstrm-dev-0.6.1-r4.apk
+checksum	Q1ADgzJEoJfC6ujiGAcL6bcpqpGDg=
+dep	fstrm=0.6.1-r4	fstrm
+dep	pkgconfig	pkgconf

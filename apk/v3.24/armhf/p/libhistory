@@ -1,0 +1,13 @@
+name	libhistory
+version	8.3.3-r1
+description	GNU History Library
+url	https://tiswww.cwru.edu/php/chet/readline/rltop.html
+license	GPL-3.0-or-later
+size	19701
+installed-size	38036
+depends	so:libc.musl-armhf.so.1
+origin	readline
+repo	main
+file	libhistory-8.3.3-r1.apk
+checksum	Q1BuSZnkHfM8Qx9pFHmYtZETHZMWg=
+dep	so:libc.musl-armhf.so.1	musl

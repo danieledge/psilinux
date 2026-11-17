@@ -1,0 +1,20 @@
+name	qmi-utils
+version	1.38.0_git20260414-r0
+description	QMI modem protocol helper library (CLI utilities)
+url	https://www.freedesktop.org/wiki/Software/libqmi
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	219307
+installed-size	666972
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgudev-1.0.so.0 so:libmbim-glib.so.4 so:libqmi-glib.so.5 so:libqrtr-glib.so.0
+origin	libqmi
+repo	community
+file	qmi-utils-1.38.0_git20260414-r0.apk
+checksum	Q1SpKEymkIn1avBQUndCK8bmD4Olc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgudev-1.0.so.0	libgudev
+dep	so:libmbim-glib.so.4	libmbim
+dep	so:libqmi-glib.so.5	libqmi
+dep	so:libqrtr-glib.so.0	libqrtr-glib

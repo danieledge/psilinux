@@ -1,0 +1,14 @@
+name	cpupower
+version	7.1.5-r0
+description	Linux kernel tool to set CPU power features
+url	https://www.kernel.org/
+license	GPL-2.0-only
+size	44671
+installed-size	99547
+depends	so:libc.musl-armhf.so.1 so:libintl.so.8
+origin	linux-tools
+repo	main
+file	cpupower-7.1.5-r0.apk
+checksum	Q1dkJ93igNd+UOh2PUB72E34sXT3c=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libintl.so.8	libintl

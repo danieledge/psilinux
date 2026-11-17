@@ -1,0 +1,16 @@
+name	osm-gps-map-dev
+version	1.2.0-r0
+description	Gtk+ Widget for Displaying OpenStreetMap tiles (development files)
+url	https://github.com/nzjrs/osm-gps-map
+license	GPL-2.0-or-later
+size	66292
+installed-size	304989
+depends	osm-gps-map=1.2.0-r0 pc:gtk+-3.0 pc:libsoup-3.0 pkgconfig
+origin	osm-gps-map
+repo	community
+file	osm-gps-map-dev-1.2.0-r0.apk
+checksum	Q1i/GmGJugX5eKjJyLvglmnVGqvPI=
+dep	osm-gps-map=1.2.0-r0	osm-gps-map
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pc:libsoup-3.0	libsoup3-dev
+dep	pkgconfig	pkgconf

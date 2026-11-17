@@ -1,0 +1,15 @@
+name	google-cloud-cpp-type-calendar-period
+version	2.47.0-r0
+description	C++ Client Libraries for Google Cloud Services (type-calendar-period)
+url	https://cloud.google.com/sdk
+license	Apache-2.0
+size	3788
+installed-size	5508
+depends	so:libgcc_s.so.1 so:libprotobuf.so.31 so:libutf8_range_lib.so.52
+origin	google-cloud-cpp
+repo	community
+file	google-cloud-cpp-type-calendar-period-2.47.0-r0.apk
+checksum	Q1uA7mSkvYjg8VCPmkaEd9ARIQnh4=
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libprotobuf.so.31	libprotobuf
+dep	so:libutf8_range_lib.so.52	grpc

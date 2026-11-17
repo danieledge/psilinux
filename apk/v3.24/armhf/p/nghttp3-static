@@ -1,0 +1,13 @@
+name	nghttp3-static
+version	1.15.0-r0
+description	HTTP/3 library written in C (static library)
+url	https://github.com/ngtcp2/nghttp3
+license	MIT
+size	89737
+installed-size	233932
+depends	nghttp3-dev
+origin	nghttp3
+repo	main
+file	nghttp3-static-1.15.0-r0.apk
+checksum	Q1hcwHQiOndxFXmU6ou/bc14K3emg=
+dep	nghttp3-dev	nghttp3-dev

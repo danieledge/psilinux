@@ -1,0 +1,14 @@
+name	ruby-simplecov-cobertura
+version	3.0.0-r0
+description	produces covertura xml formatted output from simplecov
+url	https://rubygems.org/gems/simplecov-cobertura
+license	Apache-2.0
+size	2337
+installed-size	1191
+depends	ruby-simplecov ruby-rexml
+origin	ruby-simplecov-cobertura
+repo	community
+file	ruby-simplecov-cobertura-3.0.0-r0.apk
+checksum	Q1+b3wGgLFyUNtZBN7eTBP8aMRIJE=
+dep	ruby-simplecov	ruby-simplecov
+dep	ruby-rexml	ruby-rexml

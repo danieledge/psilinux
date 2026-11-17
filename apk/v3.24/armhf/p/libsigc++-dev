@@ -1,0 +1,14 @@
+name	libsigc++-dev
+version	2.12.1-r0
+description	type-safe Signal Framework for C++ (development files)
+url	https://github.com/libsigcplusplus/libsigcplusplus
+license	LGPL-3.0-or-later
+size	79503
+installed-size	1162744
+depends	libsigc++=2.12.1-r0 pkgconfig
+origin	libsigc++
+repo	community
+file	libsigc++-dev-2.12.1-r0.apk
+checksum	Q1ykHHODCJae4fvxyzPuo4maKVbJQ=
+dep	libsigc++=2.12.1-r0	libsigc++
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	bird_exporter
+version	1.5.0-r3
+description	Metric exporter for bird routing daemon to use with Prometheus
+url	https://github.com/czerwonk/bird_exporter
+license	MIT
+size	4091566
+installed-size	10733188
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	bird_exporter
+repo	community
+file	bird_exporter-1.5.0-r3.apk
+checksum	Q1QgRdb9u2eKYE+tkE8sIQJJYgElU=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

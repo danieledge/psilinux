@@ -1,0 +1,12 @@
+name	geary-dbg
+version	46.0-r5
+description	Geary is an email application built around conversations (debug symbols)
+url	https://gitlab.gnome.org/GNOME/geary
+license	LGPL-2.1-or-later AND CC-BY-3.0 AND BSD-2-Clause
+size	13320730
+installed-size	35042384
+depends	!geary<46.0-r5 !geary>46.0-r5
+origin	geary
+repo	community
+file	geary-dbg-46.0-r5.apk
+checksum	Q1Q3dKUVWgAVmLYvjZxqrBzLbOMV8=

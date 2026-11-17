@@ -1,0 +1,15 @@
+name	perl-http-cookies
+version	6.11-r0
+description	HTTP cookie jars
+url	https://metacpan.org/release/HTTP-Cookies
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	13987
+installed-size	36759
+depends	perl perl-http-message perl-http-date
+origin	perl-http-cookies
+repo	main
+file	perl-http-cookies-6.11-r0.apk
+checksum	Q1+O389Ro6VxrZXMHZW3nP4XNL8tU=
+dep	perl	perl
+dep	perl-http-message	perl-http-message
+dep	perl-http-date	perl-http-date

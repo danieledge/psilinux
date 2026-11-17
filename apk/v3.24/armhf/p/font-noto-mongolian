@@ -1,0 +1,14 @@
+name	font-noto-mongolian
+version	2026.11.01-r0
+description	Noto Sans Mongolian font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	121419
+installed-size	360988
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-mongolian-2026.11.01-r0.apk
+checksum	Q1NzmgyiglkSa2LMrrWoEFd6RyXyg=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

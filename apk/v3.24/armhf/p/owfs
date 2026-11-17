@@ -1,0 +1,15 @@
+name	owfs
+version	3.2_p4-r1
+description	OWFS — the one-wire filesystem
+url	https://github.com/owfs/owfs-doc/wiki
+license	GPL-2.0-only
+size	478924
+installed-size	1333215
+depends	so:libc.musl-armhf.so.1 so:libfuse.so.2 so:libgcc_s.so.1
+origin	owfs
+repo	community
+file	owfs-3.2_p4-r1.apk
+checksum	Q1Z3lFPAezR1xDoFmpQjRjeGQ7il8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfuse.so.2	fuse
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,14 @@
+name	nmon
+version	16q-r0
+description	Nigel's performance Monitor for Linux
+url	https://nmon.sourceforge.net/
+license	BSD-3-Clause
+size	83586
+installed-size	170216
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	nmon
+repo	community
+file	nmon-16q-r0.apk
+checksum	Q1kHeXrz5nsB/MrowI9SNtlVtENdU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

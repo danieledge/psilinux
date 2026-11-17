@@ -1,0 +1,13 @@
+name	jemalloc-static
+version	5.3.0-r6
+description	general purpose malloc(3) implementation that emphasizes fragmentation avoidance and scalable concurrency support (static library)
+url	http://jemalloc.net
+license	BSD-2-Clause
+size	15647473
+installed-size	46821254
+depends	jemalloc-dev
+origin	jemalloc
+repo	main
+file	jemalloc-static-5.3.0-r6.apk
+checksum	Q156KuS7RYtOIAydlRNzxRBNDE2Fo=
+dep	jemalloc-dev	jemalloc-dev

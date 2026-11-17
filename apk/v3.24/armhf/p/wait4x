@@ -1,0 +1,13 @@
+name	wait4x
+version	3.6.0-r4
+description	Wait4X allows you to wait for a port or a service to enter the requested state
+url	https://wait4x.dev
+license	Apache-2.0
+size	9788868
+installed-size	28397068
+depends	so:libc.musl-armhf.so.1
+origin	wait4x
+repo	community
+file	wait4x-3.6.0-r4.apk
+checksum	Q17qYv8/U5rRSnxq3RQahq5WcNdrA=
+dep	so:libc.musl-armhf.so.1	musl

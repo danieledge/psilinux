@@ -1,0 +1,19 @@
+name	abseil-cpp-flags-marshalling
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-flags-marshalling
+url	https://abseil.io/
+license	Apache-2.0
+size	12947
+installed-size	34164
+depends	so:libabsl_int128.so.2508.0.0 so:libabsl_raw_logging_internal.so.2508.0.0 so:libabsl_str_format_internal.so.2508.0.0 so:libabsl_strings.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-flags-marshalling-20250814.1-r0.apk
+checksum	Q1vanVNGCw+YrgR10T9g6TMFLY57Y=
+dep	so:libabsl_int128.so.2508.0.0	abseil-cpp-int128
+dep	so:libabsl_raw_logging_internal.so.2508.0.0	abseil-cpp-raw-logging-internal
+dep	so:libabsl_str_format_internal.so.2508.0.0	abseil-cpp-str-format-internal
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

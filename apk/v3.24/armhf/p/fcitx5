@@ -1,0 +1,44 @@
+name	fcitx5
+version	5.1.19-r0
+description	Generic input method framework
+url	https://github.com/fcitx/fcitx5
+license	LGPL-2.1-or-later
+size	9232962
+installed-size	16345431
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdbus-1.so.3 so:libenchant-2.so.2 so:libexpat.so.1 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libstdc++.so.6 so:libuuid.so.1 so:libuv.so.1 so:libwayland-client.so.0 so:libwayland-cursor.so.0 so:libxcb-ewmh.so.2 so:libxcb-icccm.so.4 so:libxcb-imdkit.so.1 so:libxcb-keysyms.so.1 so:libxcb-randr.so.0 so:libxcb-util.so.1 so:libxcb-xfixes.so.0 so:libxcb-xinerama.so.0 so:libxcb-xkb.so.1 so:libxcb.so.1 so:libxkbcommon-x11.so.0 so:libxkbcommon.so.0 so:libxkbfile.so.1 so:libz.so.1
+origin	fcitx5
+repo	community
+file	fcitx5-5.1.19-r0.apk
+checksum	Q1Q3dlFVwqKS8o8a/BQ546ZA8dOHE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libenchant-2.so.2	enchant2-libs
+dep	so:libexpat.so.1	libexpat
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libuuid.so.1	libuuid
+dep	so:libuv.so.1	libuv
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor
+dep	so:libxcb-ewmh.so.2	xcb-util-wm
+dep	so:libxcb-icccm.so.4	xcb-util-wm
+dep	so:libxcb-imdkit.so.1	xcb-imdkit
+dep	so:libxcb-keysyms.so.1	xcb-util-keysyms
+dep	so:libxcb-randr.so.0	libxcb
+dep	so:libxcb-util.so.1	xcb-util
+dep	so:libxcb-xfixes.so.0	libxcb
+dep	so:libxcb-xinerama.so.0	libxcb
+dep	so:libxcb-xkb.so.1	libxcb
+dep	so:libxcb.so.1	libxcb
+dep	so:libxkbcommon-x11.so.0	libxkbcommon-x11
+dep	so:libxkbcommon.so.0	libxkbcommon
+dep	so:libxkbfile.so.1	libxkbfile
+dep	so:libz.so.1	zlib

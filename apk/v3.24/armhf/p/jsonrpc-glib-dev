@@ -1,0 +1,16 @@
+name	jsonrpc-glib-dev
+version	3.44.2-r0
+description	Library to communicate using the JSON-RPC 2.0 specification (development files)
+url	https://gitlab.gnome.org/GNOME/jsonrpc-glib
+license	GPL-3.0-or-later
+size	20043
+installed-size	160539
+depends	jsonrpc-glib=3.44.2-r0 pc:gio-2.0 pc:json-glib-1.0 pkgconfig
+origin	jsonrpc-glib
+repo	community
+file	jsonrpc-glib-dev-3.44.2-r0.apk
+checksum	Q11n9wW2eXL/Lfxi/t8BcAgHvxoss=
+dep	jsonrpc-glib=3.44.2-r0	jsonrpc-glib
+dep	pc:gio-2.0	glib-dev
+dep	pc:json-glib-1.0	json-glib-dev
+dep	pkgconfig	pkgconf

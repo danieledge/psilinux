@@ -1,0 +1,16 @@
+name	py3-pyftpdlib
+version	2.2.0-r1
+description	Extremely fast and scalable Python FTP server library.
+url	https://pypi.org/project/pyftpdlib/
+license	MIT
+size	81439
+installed-size	321461
+depends	py3-openssl py3-pyasynchat py3-pysendfile python3~3.14
+origin	py3-pyftpdlib
+repo	community
+file	py3-pyftpdlib-2.2.0-r1.apk
+checksum	Q1h8QI+szmU+U7jBQneXnN0SNd2FA=
+dep	py3-openssl	py3-openssl
+dep	py3-pyasynchat	py3-pyasynchat
+dep	py3-pysendfile	py3-pysendfile
+dep	python3~3.14	python3

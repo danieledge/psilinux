@@ -1,0 +1,16 @@
+name	libDetourCrowd
+version	1.6.0-r2
+description	Navigation-mesh Toolset for Games (libDetourCrowd library)
+url	https://github.com/recastnavigation/recastnavigation
+license	Zlib
+size	20017
+installed-size	38220
+depends	so:libDetour.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	recastnavigation
+repo	community
+file	libDetourCrowd-1.6.0-r2.apk
+checksum	Q1B/Vd6F9uXkFsaqh0cLLMGJVKkpk=
+dep	so:libDetour.so.1	libDetour
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

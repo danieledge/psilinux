@@ -1,0 +1,18 @@
+name	suitesparse-dev
+version	7.8.2-r0
+description	A collection of sparse matrix libraries (development files)
+url	http://faculty.cse.tamu.edu/davis/suitesparse.html
+license	BSD-3-Clause AND LGPL-2.1-or-later AND GPL-2.0-or-later
+size	291635
+installed-size	1918450
+depends	gmp-dev mpfr-dev openblas-dev suitesparse-graphblas=7.8.2-r0 suitesparse=7.8.2-r0 pkgconfig
+origin	suitesparse
+repo	community
+file	suitesparse-dev-7.8.2-r0.apk
+checksum	Q1Re1c42s/1cVNejx0M5VvQyB+7UI=
+dep	gmp-dev	gmp-dev
+dep	mpfr-dev	mpfr-dev
+dep	openblas-dev	openblas-dev
+dep	suitesparse-graphblas=7.8.2-r0	suitesparse-graphblas
+dep	suitesparse=7.8.2-r0	suitesparse
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	lua5.3-brieflz
+version	0.2.0-r2
+description	Lua binding for BriefLZ compression library (for Lua 5.3)
+url	https://github.com/jirutka/brieflz.lua
+license	MIT
+size	10008
+installed-size	17580
+depends	lua5.3 so:libc.musl-armhf.so.1
+origin	lua-brieflz
+repo	community
+file	lua5.3-brieflz-0.2.0-r2.apk
+checksum	Q1jcvjXZgYcBgptk37BQNMjnS5rBU=
+dep	lua5.3	lua5.3
+dep	so:libc.musl-armhf.so.1	musl

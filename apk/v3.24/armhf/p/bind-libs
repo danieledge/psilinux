@@ -1,0 +1,27 @@
+name	bind-libs
+version	9.20.30-r0
+description	The ISC DNS server (libraries)
+url	https://www.isc.org/bind/
+license	MPL-2.0
+size	1346784
+installed-size	3059708
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libfstrm.so.0 so:libgssapi_krb5.so.2 so:libjson-c.so.5 so:libkrb5.so.3 so:libnghttp2.so.14 so:libprotobuf-c.so.1 so:libssl.so.3 so:liburcu-cds.so.8 so:liburcu-common.so.8 so:liburcu.so.8 so:libuv.so.1 so:libxml2.so.2 so:libz.so.1
+origin	bind
+repo	main
+file	bind-libs-9.20.30-r0.apk
+checksum	Q1fDkIHNdhKHaa5z3XLH3FQ5OL2n8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libfstrm.so.0	fstrm
+dep	so:libgssapi_krb5.so.2	krb5-libs
+dep	so:libjson-c.so.5	json-c
+dep	so:libkrb5.so.3	krb5-libs
+dep	so:libnghttp2.so.14	nghttp2-libs
+dep	so:libprotobuf-c.so.1	protobuf-c
+dep	so:libssl.so.3	libssl3
+dep	so:liburcu-cds.so.8	userspace-rcu
+dep	so:liburcu-common.so.8	userspace-rcu
+dep	so:liburcu.so.8	userspace-rcu
+dep	so:libuv.so.1	libuv
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

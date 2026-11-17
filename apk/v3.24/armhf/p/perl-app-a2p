@@ -1,0 +1,14 @@
+name	perl-app-a2p
+version	1.013-r1
+description	Awk to Perl translator
+url	https://metacpan.org/release/App-a2p/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	44713
+installed-size	114893
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-app-a2p
+repo	community
+file	perl-app-a2p-1.013-r1.apk
+checksum	Q1vXDYOPtZL3FqaLvp9QjEGbwCxjU=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,18 @@
+name	ruby-rmagick
+version	7.0.0-r0
+description	Ruby bindings for ImageMagick
+url	https://github.com/rmagick/rmagick
+license	MIT
+size	209514
+installed-size	633059
+depends	ghostscript-fonts ruby-observer so:libMagickCore-7.Q16HDRI.so.10 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libruby.so.3.4
+origin	ruby-rmagick
+repo	community
+file	ruby-rmagick-7.0.0-r0.apk
+checksum	Q1njiIIDdu/UrGhHB7LMudQ+lq7Xs=
+dep	ghostscript-fonts	ghostscript-fonts
+dep	ruby-observer	ruby-observer
+dep	so:libMagickCore-7.Q16HDRI.so.10	imagemagick-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libruby.so.3.4	ruby-libs

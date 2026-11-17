@@ -1,0 +1,15 @@
+name	cmark-dev
+version	0.31.2-r0
+description	C reference implementation of CommonMark, a rationalized Markdown spec (development files)
+url	https://github.com/commonmark/cmark
+license	BSD-2-Clause
+size	10817
+installed-size	32234
+depends	cmark=0.31.2-r0 libcmark=0.31.2-r0 pkgconfig
+origin	cmark
+repo	community
+file	cmark-dev-0.31.2-r0.apk
+checksum	Q1dQV//SbduLnO2f4yn9uAkmtk4c0=
+dep	cmark=0.31.2-r0	cmark
+dep	libcmark=0.31.2-r0	libcmark
+dep	pkgconfig	pkgconf

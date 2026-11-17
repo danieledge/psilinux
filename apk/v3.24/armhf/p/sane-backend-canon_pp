@@ -1,0 +1,15 @@
+name	sane-backend-canon_pp
+version	1.4.0-r4
+description	SANE backend for Canon CanoScan Parallel Port flatbed scanners
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	28400
+installed-size	56782
+depends	sane so:libc.musl-armhf.so.1 so:libieee1284.so.3
+origin	sane
+repo	community
+file	sane-backend-canon_pp-1.4.0-r4.apk
+checksum	Q1M5usvg0qVrddA314MjtHIbJpWI4=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libieee1284.so.3	libieee1284

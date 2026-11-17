@@ -1,0 +1,12 @@
+name	gvfs-dbg
+version	1.60.1-r0
+description	Backends for the gio framework in GLib (debug symbols)
+url	https://gitlab.gnome.org/GNOME/gvfs
+license	LGPL-2.0-or-later
+size	2547950
+installed-size	6557164
+depends	!gvfs-afc<1.60.1-r0 !gvfs-afc>1.60.1-r0 !gvfs-afp<1.60.1-r0 !gvfs-afp>1.60.1-r0 !gvfs-archive<1.60.1-r0 !gvfs-archive>1.60.1-r0 !gvfs-avahi<1.60.1-r0 !gvfs-avahi>1.60.1-r0 !gvfs-cdda<1.60.1-r0 !gvfs-cdda>1.60.1-r0 !gvfs-dav<1.60.1-r0 !gvfs-dav>1.60.1-r0 !gvfs-fuse<1.60.1-r0 !gvfs-fuse>1.60.1-r0 !gvfs-goa<1.60.1-r0 !gvfs-goa>1.60.1-r0 !gvfs-gphoto2<1.60.1-r0 !gvfs-gphoto2>1.60.1-r0 !gvfs-mtp<1.60.1-r0 !gvfs-mtp>1.60.1-r0 !gvfs-nfs<1.60.1-r0 !gvfs-nfs>1.60.1-r0 !gvfs-smb<1.60.1-r0 !gvfs-smb>1.60.1-r0 !gvfs<1.60.1-r0 !gvfs>1.60.1-r0
+origin	gvfs
+repo	community
+file	gvfs-dbg-1.60.1-r0.apk
+checksum	Q1eR0Vcl0KNcNUmNpDV3ZjbY7Y124=

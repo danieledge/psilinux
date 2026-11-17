@@ -1,0 +1,16 @@
+name	lxc-user-nic
+version	7.0.0-r0
+description	suid helper to manage LXC network interfaces as unprivileged user
+url	https://linuxcontainers.org/lxc/
+license	LGPL-2.1-or-later
+size	30045
+installed-size	63560
+depends	so:libc.musl-armhf.so.1 so:libcap.so.2 so:libgcc_s.so.1 so:liblxc.so.1
+origin	lxc
+repo	main
+file	lxc-user-nic-7.0.0-r0.apk
+checksum	Q1BxCZasqOxClkVG/Cf7DmHmQQVC4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblxc.so.1	lxc-libs

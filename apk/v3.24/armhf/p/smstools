@@ -1,0 +1,14 @@
+name	smstools
+version	3.1.21-r4
+description	SMS Gateway software which can send and receive short messages through GSM modems and mobile phones
+url	http://smstools3.kekekasvi.com/
+license	GPL-2.0-only
+size	167486
+installed-size	506627
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	smstools
+repo	community
+file	smstools-3.1.21-r4.apk
+checksum	Q1gu+A52al/i1xWbzDumy+E1fY4LA=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	uwsgi-legion_cache_fetch
+version	2.0.31-r2
+description	uWSGI plugin legion_cache_fetch
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	3625
+installed-size	5444
+depends	uwsgi so:libc.musl-armhf.so.1
+origin	uwsgi
+repo	main
+file	uwsgi-legion_cache_fetch-2.0.31-r2.apk
+checksum	Q1dQueUskTgDTxssdJEwNq/qSr6Hg=
+dep	uwsgi	uwsgi
+dep	so:libc.musl-armhf.so.1	musl

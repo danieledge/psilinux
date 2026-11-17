@@ -1,0 +1,15 @@
+name	py3-jaraco.packaging
+version	10.2.3-r1
+description	tools to supplement packaging Python releases
+url	https://github.com/jaraco/jaraco.packaging
+license	MIT
+size	7836
+installed-size	13663
+depends	py3-build py3-jaraco.context python3~3.14
+origin	py3-jaraco.packaging
+repo	community
+file	py3-jaraco.packaging-10.2.3-r1.apk
+checksum	Q18K6cWym8BzQbyxqY+H+WQQuhKlw=
+dep	py3-build	py3-build
+dep	py3-jaraco.context	py3-jaraco.context
+dep	python3~3.14	python3

@@ -1,0 +1,23 @@
+name	kea-hook-class-cmds
+version	3.0.3-r0
+description	Kea hook providing runtime commands for managing client classes
+url	https://kea.isc.org/
+license	MPL-2.0
+size	28165
+installed-size	67124
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libkea-cc.so.83 so:libkea-dhcpsrv.so.131 so:libkea-exceptions.so.45 so:libkea-hooks.so.121 so:libkea-log.so.75 so:libkea-process.so.91 so:libkea-util.so.102 so:libstdc++.so.6
+origin	kea
+repo	main
+file	kea-hook-class-cmds-3.0.3-r0.apk
+checksum	Q1YEUINVVWzdb37wyjIucGrG83PRo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libkea-cc.so.83	kea-common
+dep	so:libkea-dhcpsrv.so.131	kea-common
+dep	so:libkea-exceptions.so.45	kea-common
+dep	so:libkea-hooks.so.121	kea-common
+dep	so:libkea-log.so.75	kea-common
+dep	so:libkea-process.so.91	kea-common
+dep	so:libkea-util.so.102	kea-common
+dep	so:libstdc++.so.6	libstdc++

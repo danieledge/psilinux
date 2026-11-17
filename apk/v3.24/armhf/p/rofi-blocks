@@ -1,0 +1,17 @@
+name	rofi-blocks
+version	0.1.0-r0
+description	Rofi modi that allows controlling rofi content through communication with an external program
+url	https://github.com/OmarCastro/rofi-blocks
+license	GPL-3.0-or-later
+size	10867
+installed-size	22012
+depends	cmd:rofi so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libjson-glib-1.0.so.0
+origin	rofi-blocks
+repo	community
+file	rofi-blocks-0.1.0-r0.apk
+checksum	Q1O18zAACv51CUOkTU+9nfVePbhEY=
+dep	cmd:rofi	rofi-wayland
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libjson-glib-1.0.so.0	json-glib

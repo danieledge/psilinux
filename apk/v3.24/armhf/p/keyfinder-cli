@@ -1,0 +1,20 @@
+name	keyfinder-cli
+version	1.1.5-r1
+description	Musical key detection for digital audio (command line)
+url	https://github.com/EvanPurkhiser/keyfinder-cli
+license	GPL-3.0-only
+size	14311
+installed-size	30180
+depends	so:libavcodec.so.62 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkeyfinder.so.2 so:libstdc++.so.6 so:libswresample.so.6
+origin	keyfinder-cli
+repo	community
+file	keyfinder-cli-1.1.5-r1.apk
+checksum	Q1Xo0S0SmFr+jRP1TgMkS/YtRgLGI=
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libkeyfinder.so.2	libkeyfinder
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libswresample.so.6	ffmpeg-libswresample

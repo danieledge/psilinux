@@ -1,0 +1,14 @@
+name	ocaml-re-dev
+version	1.11.0-r4
+description	Pure OCaml regular expressions, with support for Perl and POSIX-style strings (development files)
+url	https://github.com/ocaml/ocaml-re
+license	LGPL-2.1-or-later
+size	995837
+installed-size	2468104
+depends	ocaml-re=1.11.0-r4 ocaml-seq-dev
+origin	ocaml-re
+repo	community
+file	ocaml-re-dev-1.11.0-r4.apk
+checksum	Q1xkeCW9TBtBOu9DFhY0CYXMM7hjk=
+dep	ocaml-re=1.11.0-r4	ocaml-re
+dep	ocaml-seq-dev	ocaml-seq-dev

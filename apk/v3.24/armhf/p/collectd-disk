@@ -1,0 +1,15 @@
+name	collectd-disk
+version	5.12.0-r25
+description	disk pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	7650
+installed-size	13556
+depends	collectd so:libc.musl-armhf.so.1 so:libudev.so.1
+origin	collectd
+repo	community
+file	collectd-disk-5.12.0-r25.apk
+checksum	Q1V0yPqlREtGju0QLwv2ajqvy0/04=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libudev.so.1	eudev-libs

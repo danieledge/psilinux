@@ -1,0 +1,15 @@
+name	libhandy1-dev
+version	1.8.3-r0
+description	Library full of GTK+ widgets for mobile phones (development files)
+url	https://gitlab.gnome.org/GNOME/libhandy
+license	LGPL-2.0-or-later
+size	93155
+installed-size	892175
+depends	libhandy1=1.8.3-r0 pc:gtk+-3.0 pkgconfig
+origin	libhandy1
+repo	community
+file	libhandy1-dev-1.8.3-r0.apk
+checksum	Q1aiFSTvVFO9dFURUb583mfnmW18M=
+dep	libhandy1=1.8.3-r0	libhandy1
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pkgconfig	pkgconf

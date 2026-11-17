@@ -1,0 +1,17 @@
+name	libraqm-dev
+version	0.10.2-r0
+description	A library that encapsulates the logic for complex text layout (development files)
+url	https://github.com/HOST-Oman/libraqm/
+license	MIT
+size	4672
+installed-size	7826
+depends	libraqm=0.10.2-r0 pc:freetype2>=24.0.18 pc:fribidi>=1.0.6 pc:harfbuzz>=3.0.0 pkgconfig
+origin	libraqm
+repo	community
+file	libraqm-dev-0.10.2-r0.apk
+checksum	Q1odeGK+dIAKQibcpMn+HEW0kacSM=
+dep	libraqm=0.10.2-r0	libraqm
+dep	pc:freetype2>=24.0.18	freetype-dev
+dep	pc:fribidi>=1.0.6	fribidi-dev
+dep	pc:harfbuzz>=3.0.0	harfbuzz-dev
+dep	pkgconfig	pkgconf

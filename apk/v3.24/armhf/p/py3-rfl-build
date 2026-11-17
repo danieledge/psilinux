@@ -1,0 +1,15 @@
+name	py3-rfl-build
+version	1.8.0-r0
+description	Rackslab Foundation Library: build package
+url	https://github.com/rackslab/RFL
+license	GPL-3.0-or-later
+size	11531
+installed-size	37059
+depends	py3-rfl-core py3-tomli python3~3.14
+origin	py3-rfl
+repo	community
+file	py3-rfl-build-1.8.0-r0.apk
+checksum	Q1iVwJ8rRntAPgmmYgzEeihDKSawc=
+dep	py3-rfl-core	py3-rfl-core
+dep	py3-tomli	py3-tomli
+dep	python3~3.14	python3

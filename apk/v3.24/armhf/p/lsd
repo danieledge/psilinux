@@ -1,0 +1,14 @@
+name	lsd
+version	1.2.0-r1
+description	Next-Gen ls command
+url	https://github.com/lsd-rs/lsd
+license	Apache-2.0
+size	1150286
+installed-size	2393328
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	lsd
+repo	community
+file	lsd-1.2.0-r1.apk
+checksum	Q1u/BZxKOKEutLJvvvyzuqyIluRBg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

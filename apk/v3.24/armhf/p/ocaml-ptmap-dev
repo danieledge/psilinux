@@ -1,0 +1,13 @@
+name	ocaml-ptmap-dev
+version	2.0.5-r6
+description	Maps over integers implemented as Patricia trees (development files)
+url	https://github.com/backtracking/ptmap
+license	LGPL-2.1-or-later WITH OCaml-LGPL-linking-exception
+size	96135
+installed-size	239838
+depends	ocaml-ptmap=2.0.5-r6
+origin	ocaml-ptmap
+repo	community
+file	ocaml-ptmap-dev-2.0.5-r6.apk
+checksum	Q19fPkplNdkVObp6/faRGU1d401rE=
+dep	ocaml-ptmap=2.0.5-r6	ocaml-ptmap

@@ -1,0 +1,15 @@
+name	openldap-back-sock
+version	2.6.15-r0
+description	OpenLDAP sock backend
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	10528
+installed-size	23438
+depends	so:libc.musl-armhf.so.1 so:liblber.so.2 so:libldap.so.2
+origin	openldap
+repo	main
+file	openldap-back-sock-2.6.15-r0.apk
+checksum	Q1+3obRUKe4CMFyi2riT4pAwnN5Ng=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap

@@ -1,0 +1,14 @@
+name	xerces-c-dev
+version	3.2.5-r4
+description	A validating XML parser written in a portable subset of C++ (development files)
+url	https://xerces.apache.org/index.html
+license	Apache-2.0
+size	580935
+installed-size	4044153
+depends	xerces-c=3.2.5-r4 pkgconfig
+origin	xerces-c
+repo	community
+file	xerces-c-dev-3.2.5-r4.apk
+checksum	Q1HSy+7NZiUKwO6RFg7IOuUG6iTto=
+dep	xerces-c=3.2.5-r4	xerces-c
+dep	pkgconfig	pkgconf

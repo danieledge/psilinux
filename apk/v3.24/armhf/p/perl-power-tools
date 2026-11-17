@@ -1,0 +1,17 @@
+name	perl-power-tools
+version	1.053-r1
+description	BSD utilities written in pure Perl
+url	https://perlpowertools.com/
+license	GPL-2.0-or-later AND Artistic-1.0-Perl AND Artistic-2.0 AND BSD-2-Clause
+size	374477
+installed-size	1186135
+depends	cmd:tput perl perl-app-a2p perl-app-find2perl perl-mime-tools
+origin	perl-power-tools
+repo	community
+file	perl-power-tools-1.053-r1.apk
+checksum	Q17/y8Iqe1MSg6hJFXUZCqNi5yNGo=
+dep	cmd:tput	ncurses
+dep	perl	perl
+dep	perl-app-a2p	perl-app-a2p
+dep	perl-app-find2perl	perl-app-find2perl
+dep	perl-mime-tools	perl-mime-tools

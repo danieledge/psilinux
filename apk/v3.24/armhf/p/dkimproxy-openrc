@@ -1,0 +1,12 @@
+name	dkimproxy-openrc
+version	1.4.1-r9
+description	SMTP-proxy that signs and/or verifies emails, using the Mail::DKIM module (OpenRC init scripts)
+url	https://dkimproxy.sourceforge.net/
+license	GPL-2.0-or-later
+size	2412
+installed-size	1889
+depends	
+origin	dkimproxy
+repo	main
+file	dkimproxy-openrc-1.4.1-r9.apk
+checksum	Q1ETmp6YH0Hf5IKjJtXJqdXGfck1c=

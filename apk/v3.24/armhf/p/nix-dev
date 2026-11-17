@@ -1,0 +1,30 @@
+name	nix-dev
+version	2.31.5-r0
+description	The purely functional package manager (development files)
+url	https://nixos.org/nix/
+license	LGPL-2.1-or-later
+size	334684
+installed-size	1434918
+depends	boost-dev pc:bdw-gc pc:libarchive>=3.1.2 pc:libblake3>=1.8.2 pc:libbrotlicommon pc:libbrotlidec pc:libbrotlienc pc:libcrypto>=1.1.1 pc:libcurl pc:libeditline>=1.14 pc:libgit2>=1.9 pc:libseccomp>=2.5.5 pc:libsodium pc:lowdown>=0.9.0 pc:nlohmann_json>=3.9 pc:rapidcheck pc:sqlite3>=3.6.19 pkgconfig
+origin	nix
+repo	community
+file	nix-dev-2.31.5-r0.apk
+checksum	Q1ECJInNcPMIOP1yDk0azA6LP6FqY=
+dep	boost-dev	boost-dev
+dep	pc:bdw-gc	gc-dev
+dep	pc:libarchive>=3.1.2	libarchive-dev
+dep	pc:libblake3>=1.8.2	blake3-dev
+dep	pc:libbrotlicommon	brotli-dev
+dep	pc:libbrotlidec	brotli-dev
+dep	pc:libbrotlienc	brotli-dev
+dep	pc:libcrypto>=1.1.1	openssl-dev
+dep	pc:libcurl	curl-dev
+dep	pc:libeditline>=1.14	editline-dev
+dep	pc:libgit2>=1.9	libgit2-dev
+dep	pc:libseccomp>=2.5.5	libseccomp-dev
+dep	pc:libsodium	libsodium-dev
+dep	pc:lowdown>=0.9.0	lowdown-dev
+dep	pc:nlohmann_json>=3.9	nlohmann-json
+dep	pc:rapidcheck	rapidcheck-dev
+dep	pc:sqlite3>=3.6.19	sqlite-dev
+dep	pkgconfig	pkgconf

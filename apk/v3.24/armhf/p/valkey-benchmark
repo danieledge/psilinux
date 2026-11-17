@@ -1,0 +1,16 @@
+name	valkey-benchmark
+version	9.0.7-r0
+description	Valkey benchmarking tool
+url	https://valkey.io/
+license	BSD-3-Clause AND BSD-2-Clause AND MIT
+size	164880
+installed-size	300976
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
+origin	valkey
+repo	main
+file	valkey-benchmark-9.0.7-r0.apk
+checksum	Q1gdqrApEr6Kf0Pd7ilxwD4qftZOc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3

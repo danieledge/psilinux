@@ -1,0 +1,24 @@
+name	coturn
+version	4.10.0-r0
+description	Free open source implementation of TURN and STUN Server
+url	https://github.com/coturn/coturn
+license	BSD-3-Clause
+size	605177
+installed-size	1500953
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libevent_core-2.1.so.7 so:libevent_extra-2.1.so.7 so:libevent_openssl-2.1.so.7 so:libevent_pthreads-2.1.so.7 so:libhiredis.so.1.3.0 so:libmariadb.so.3 so:libpq.so.5 so:libsqlite3.so.0 so:libssl.so.3
+origin	coturn
+repo	community
+file	coturn-4.10.0-r0.apk
+checksum	Q1M3uTzLhnb4svxhtc0Iqnkw33q5I=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libevent_core-2.1.so.7	libevent
+dep	so:libevent_extra-2.1.so.7	libevent
+dep	so:libevent_openssl-2.1.so.7	libevent
+dep	so:libevent_pthreads-2.1.so.7	libevent
+dep	so:libhiredis.so.1.3.0	hiredis
+dep	so:libmariadb.so.3	mariadb-connector-c
+dep	so:libpq.so.5	libpq
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libssl.so.3	libssl3

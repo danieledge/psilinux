@@ -1,0 +1,14 @@
+name	mdevd-openrc
+version	0.1.8.2-r0
+description	A netlink-listening device manager using mdev's configuration files (OpenRC init scripts)
+url	https://skarnet.org/software/mdevd/
+license	ISC
+size	2128
+installed-size	883
+depends	mdevd mdev-conf
+origin	mdevd
+repo	main
+file	mdevd-openrc-0.1.8.2-r0.apk
+checksum	Q1rCIzA1/mD+QIs4CM7MYTvdC783o=
+dep	mdevd	mdevd
+dep	mdev-conf	mdev-conf

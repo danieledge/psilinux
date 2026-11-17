@@ -1,0 +1,18 @@
+name	libresourceqt-dev
+version	1.33.0-r0
+description	Resource policy Qt API (development files)
+url	https://github.com/sailfishos/libresourceqt
+license	LGPL-2.1-or-later
+size	11223
+installed-size	38441
+depends	libresourceqt=1.33.0-r0 pc:Qt6Core pc:Qt6DBus pc:dbus-1 pc:libresource pkgconfig
+origin	libresourceqt
+repo	community
+file	libresourceqt-dev-1.33.0-r0.apk
+checksum	Q1cnJ9opHZnZ6mY9vroP8LMdTwFJg=
+dep	libresourceqt=1.33.0-r0	libresourceqt
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pc:Qt6DBus	qt6-qtbase-dev
+dep	pc:dbus-1	dbus-dev
+dep	pc:libresource	libresource-dev
+dep	pkgconfig	pkgconf

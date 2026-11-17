@@ -1,0 +1,15 @@
+name	perl-module-implementation
+version	0.09-r5
+description	Loads one of several alternate underlying implementations for a module
+url	https://metacpan.org/release/Module-Implementation/
+license	Artistic-2.0
+size	4943
+installed-size	7955
+depends	perl perl-module-runtime perl-try-tiny
+origin	perl-module-implementation
+repo	main
+file	perl-module-implementation-0.09-r5.apk
+checksum	Q1HWfXhtyJKIquF2Cnnn4ehPL0vnQ=
+dep	perl	perl
+dep	perl-module-runtime	perl-module-runtime
+dep	perl-try-tiny	perl-try-tiny

@@ -1,0 +1,21 @@
+name	llvm15-dev
+version	15.0.7-r20
+description	Low Level Virtual Machine compiler system, version 15 (development files)
+url	https://llvm.org/
+license	Apache-2.0
+size	4485439
+installed-size	23025388
+depends	llvm15=15.0.7-r20 libffi-dev zlib-dev zstd-dev llvm15-test-utils=15.0.7-r20 llvm15-libs=15.0.7-r20 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	llvm15
+repo	community
+file	llvm15-dev-15.0.7-r20.apk
+checksum	Q1w9vQoVUVfOXBph4rglYJae2PvIw=
+dep	llvm15=15.0.7-r20	llvm15
+dep	libffi-dev	libffi-dev
+dep	zlib-dev	zlib-dev
+dep	zstd-dev	zstd-dev
+dep	llvm15-test-utils=15.0.7-r20	llvm15-test-utils
+dep	llvm15-libs=15.0.7-r20	llvm15-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

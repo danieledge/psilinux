@@ -1,0 +1,14 @@
+name	cloudflare-ddns
+version	1.4.0-r5
+description	DDNS script to sync public IP address to CloudFlare dns records
+url	https://github.com/undefinedplayer/cloudflare-ddns
+license	MIT
+size	7184
+installed-size	14360
+depends	py3-requests python3~3.14
+origin	cloudflare-ddns
+repo	community
+file	cloudflare-ddns-1.4.0-r5.apk
+checksum	Q1WYXR4gphx70kjKErooT5GaUdlEI=
+dep	py3-requests	py3-requests
+dep	python3~3.14	python3

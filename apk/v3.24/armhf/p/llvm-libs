@@ -1,0 +1,13 @@
+name	llvm-libs
+version	22-r0
+description	LLVM 22 runtime library
+url	https://llvm.org/
+license	Apache-2.0
+size	1249
+installed-size	0
+depends	llvm22-libs
+origin	llvm
+repo	main
+file	llvm-libs-22-r0.apk
+checksum	Q11EKuf1sJTwfzoK/W4aWcmxPPVOc=
+dep	llvm22-libs	llvm22-libs

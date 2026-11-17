@@ -1,0 +1,13 @@
+name	nng
+version	1.11-r0
+description	Lightweight Broker-Less Messaging Library
+url	https://nng.nanomsg.org/
+license	MIT
+size	142621
+installed-size	360316
+depends	so:libc.musl-armhf.so.1
+origin	nng
+repo	community
+file	nng-1.11-r0.apk
+checksum	Q1NvIfi40vE54X6tZDFcxx963iwgY=
+dep	so:libc.musl-armhf.so.1	musl

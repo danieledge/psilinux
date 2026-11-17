@@ -1,0 +1,13 @@
+name	emacs-pyim-basedict
+version	0.5.3-r1
+description	Default Pinyin dict for Emacs-pyim
+url	https://github.com/tumashu/pyim-basedict
+license	GPL-3.0-or-later
+size	1178612
+installed-size	2817907
+depends	cmd:emacs
+origin	emacs-pyim-basedict
+repo	community
+file	emacs-pyim-basedict-0.5.3-r1.apk
+checksum	Q17InFIfdyh98Fg7CLbK0qcQgyMMY=
+dep	cmd:emacs	emacs-gtk3

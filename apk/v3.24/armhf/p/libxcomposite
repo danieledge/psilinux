@@ -1,0 +1,14 @@
+name	libxcomposite
+version	0.4.7-r0
+description	X11 Composite extension library
+url	https://xorg.freedesktop.org/
+license	MIT
+size	4570
+installed-size	9336
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1
+origin	libxcomposite
+repo	main
+file	libxcomposite-0.4.7-r0.apk
+checksum	Q1V7mXBAJiFVkr3ZdhdWsVoysUXOU=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	verilator-dev
+version	5.048-r0
+description	Convert Verilog and SystemVerilog to C++ or SystemC (development files)
+url	https://verilator.org
+license	LGPL-3.0-only
+size	351030
+installed-size	1686526
+depends	pkgconfig
+origin	verilator
+repo	community
+file	verilator-dev-5.048-r0.apk
+checksum	Q10uBFFcysMfSDZ7BuLN9v7Ak9qNQ=
+dep	pkgconfig	pkgconf

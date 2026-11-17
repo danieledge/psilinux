@@ -1,0 +1,21 @@
+name	glycin-svg
+version	2.1.5-r0
+description	Sandboxed and extendable image decoding (glycin-svg loader)
+url	https://gitlab.gnome.org/GNOME/glycin
+license	MPL-2.0 OR LGPL-2.0-or-later
+size	645694
+installed-size	1467349
+depends	so:libc.musl-armhf.so.1 so:libcairo-gobject.so.2 so:libcairo.so.2 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:librsvg-2.so.2 so:libseccomp.so.2
+origin	glycin
+repo	community
+file	glycin-svg-2.1.5-r0.apk
+checksum	Q15ydosm67PfkrBfAlfSun594bYyQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo-gobject.so.2	cairo-gobject
+dep	so:libcairo.so.2	cairo
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libseccomp.so.2	libseccomp

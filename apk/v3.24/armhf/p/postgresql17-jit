@@ -1,0 +1,17 @@
+name	postgresql17-jit
+version	17.12-r0
+description	Just-in-time compilation support for PostgreSQL
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	11488265
+installed-size	21110620
+depends	postgresql17=17.12-r0 so:libLLVM.so.20.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	postgresql17
+repo	main
+file	postgresql17-jit-17.12-r0.apk
+checksum	Q1xefQ9FAtLmoIRoAmXF6eBi8p/ws=
+dep	postgresql17=17.12-r0	postgresql17
+dep	so:libLLVM.so.20.1	llvm20-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

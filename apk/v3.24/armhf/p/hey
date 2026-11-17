@@ -1,0 +1,13 @@
+name	hey
+version	0.1.4-r43
+description	HTTP load generator
+url	https://github.com/rakyll/hey
+license	Apache-2.0
+size	3376466
+installed-size	8422804
+depends	so:libc.musl-armhf.so.1
+origin	hey
+repo	community
+file	hey-0.1.4-r43.apk
+checksum	Q1kmMWxNPfrkuk+f4tzMcVzoNqO7M=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,16 @@
+name	guetzli
+version	0_git20191025-r3
+description	Perceptual JPEG encoder that aims for excellent compression density at high visual quality
+url	https://github.com/google/guetzli
+license	Apache-2.0
+size	139910
+installed-size	268000
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpng16.so.16 so:libstdc++.so.6
+origin	guetzli
+repo	community
+file	guetzli-0_git20191025-r3.apk
+checksum	Q1aWmaEzKr2uWxMMrnpxGd09czdcA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++

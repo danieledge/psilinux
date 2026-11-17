@@ -1,0 +1,15 @@
+name	chafa-dev
+version	1.18.2-r0
+description	Terminal graphics for the 21st century (development files)
+url	https://hpjansson.org/chafa
+license	LGPL-3.0-or-later
+size	153843
+installed-size	545505
+depends	chafa-libs=1.18.2-r0 pc:glib-2.0 pkgconfig
+origin	chafa
+repo	community
+file	chafa-dev-1.18.2-r0.apk
+checksum	Q1nSRxlW7dg5gsis30E9ZbG/J2QjE=
+dep	chafa-libs=1.18.2-r0	chafa-libs
+dep	pc:glib-2.0	glib-dev
+dep	pkgconfig	pkgconf

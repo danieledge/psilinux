@@ -1,0 +1,20 @@
+name	sane-airscan
+version	0.99.36-r0
+description	SANE backend for AirScan (eSCL) and WSD document scanners
+url	https://github.com/alexpevzner/sane-airscan
+license	GPL-2.0-or-later
+size	196669
+installed-size	409794
+depends	so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-armhf.so.1 so:libgnutls.so.30 so:libjpeg.so.8 so:libpng16.so.16 so:libtiff.so.6 so:libxml2.so.2
+origin	sane-airscan
+repo	community
+file	sane-airscan-0.99.36-r0.apk
+checksum	Q1Maz16s37Ija5aYfqDMk7x1F9uVM=
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgnutls.so.30	gnutls
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpng16.so.16	libpng
+dep	so:libtiff.so.6	tiff
+dep	so:libxml2.so.2	libxml2

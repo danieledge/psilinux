@@ -1,0 +1,14 @@
+name	perl-string-crc32
+version	2.100-r6
+description	Perl interface for cyclic redundancy check generation
+url	https://metacpan.org/release/String-CRC32/
+license	Public-Domain
+size	6872
+installed-size	12347
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-string-crc32
+repo	community
+file	perl-string-crc32-2.100-r6.apk
+checksum	Q1Z89aY273WznZcK8fpPqkMb9Ko0s=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

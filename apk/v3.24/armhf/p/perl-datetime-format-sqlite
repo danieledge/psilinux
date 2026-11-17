@@ -1,0 +1,15 @@
+name	perl-datetime-format-sqlite
+version	0.11-r5
+description	Parse and format SQLite dates and times
+url	https://metacpan.org/release/DateTime-Format-SQLite/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	4086
+installed-size	5973
+depends	perl perl-datetime-format-builder perl-datetime
+origin	perl-datetime-format-sqlite
+repo	community
+file	perl-datetime-format-sqlite-0.11-r5.apk
+checksum	Q1xPKSOPYqJSRGbW/aSfRJxi2OJfU=
+dep	perl	perl
+dep	perl-datetime-format-builder	perl-datetime-format-builder
+dep	perl-datetime	perl-datetime

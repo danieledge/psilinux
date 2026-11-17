@@ -1,0 +1,14 @@
+name	strace-tui
+version	1.0.1-r0
+description	terminal user interface for visualizing and exploring strace output
+url	https://github.com/Rodrigodd/strace-tui
+license	Apache-2.0 OR MIT
+size	852807
+installed-size	1635112
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	strace-tui
+repo	community
+file	strace-tui-1.0.1-r0.apk
+checksum	Q1sXlehFqPxyuW8z3vgBHERPPGy8U=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

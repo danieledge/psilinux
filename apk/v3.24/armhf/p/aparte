@@ -1,0 +1,15 @@
+name	aparte
+version	0.2.0_git20240515-r1
+description	Simple XMPP console client written in Rust
+url	https://github.com/paulfariello/aparte
+license	MPL-2.0
+size	2361662
+installed-size	4796640
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libsqlite3.so.0
+origin	aparte
+repo	community
+file	aparte-0.2.0_git20240515-r1.apk
+checksum	Q1vdoH1+wt9ZQ6MGGK1dOkVtKi6dI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsqlite3.so.0	sqlite-libs

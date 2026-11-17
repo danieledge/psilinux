@@ -1,0 +1,16 @@
+name	perl-uri-fetch
+version	0.15-r1
+description	Smart URI fetching/caching
+url	https://metacpan.org/release/URI-Fetch/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	7116
+installed-size	15079
+depends	perl perl-class-errorhandler perl-libwww perl-uri
+origin	perl-uri-fetch
+repo	community
+file	perl-uri-fetch-0.15-r1.apk
+checksum	Q1oU4LaI+fkcNLu1VsJCcUYn7y0v8=
+dep	perl	perl
+dep	perl-class-errorhandler	perl-class-errorhandler
+dep	perl-libwww	perl-libwww
+dep	perl-uri	perl-uri

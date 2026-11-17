@@ -1,0 +1,14 @@
+name	libpsl-utils
+version	0.21.5-r3
+description	C library for the Publix Suffix List (utils)
+url	https://rockdaboot.github.io/libpsl
+license	MIT
+size	13417
+installed-size	36255
+depends	so:libc.musl-armhf.so.1 so:libpsl.so.5
+origin	libpsl
+repo	main
+file	libpsl-utils-0.21.5-r3.apk
+checksum	Q1sZK3mvGNPoogJ3a3FjE1hzdbO54=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpsl.so.5	libpsl

@@ -1,0 +1,22 @@
+name	qt6-qtimageformats
+version	6.11.1-r0
+description	Plugins for additional image formats: TIFF, MNG, TGA, WBMP, WEBP
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	204440
+installed-size	541720
+depends	so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libmng.so.2 so:libstdc++.so.6 so:libwebp.so.7 so:libwebpdemux.so.2 so:libwebpmux.so.3 so:libz.so.1
+origin	qt6-qtimageformats
+repo	community
+file	qt6-qtimageformats-6.11.1-r0.apk
+checksum	Q1pyvs86Mp6b/arS3PaMo0inlzNfk=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmng.so.2	libmng
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwebp.so.7	libwebp
+dep	so:libwebpdemux.so.2	libwebpdemux
+dep	so:libwebpmux.so.3	libwebpmux
+dep	so:libz.so.1	zlib

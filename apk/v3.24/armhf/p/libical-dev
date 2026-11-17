@@ -1,0 +1,19 @@
+name	libical-dev
+version	3.0.20-r1
+description	Reference implementation of the iCalendar format (development files)
+url	https://libical.github.io/libical/
+license	LGPL-2.1-only OR MPL-2.0
+size	278993
+installed-size	2984560
+depends	libxml2-dev gobject-introspection-dev libical=3.0.20-r1 pc:glib-2.0 pc:gobject-2.0 pc:icu-i18n pkgconfig
+origin	libical
+repo	main
+file	libical-dev-3.0.20-r1.apk
+checksum	Q1PZwOAAtz0L1Md6+VNoyynV2WfzU=
+dep	libxml2-dev	libxml2-dev
+dep	gobject-introspection-dev	gobject-introspection-dev
+dep	libical=3.0.20-r1	libical
+dep	pc:glib-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pc:icu-i18n	icu-dev
+dep	pkgconfig	pkgconf

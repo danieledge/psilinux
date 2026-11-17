@@ -1,0 +1,15 @@
+name	lua5.1-lsqlite3
+version	0.9.6-r2
+description	A binding for Lua to the SQLite3 database library (for Lua 5.1)
+url	https://lua.sqlite.org
+license	MIT
+size	15013
+installed-size	33983
+depends	lua5.1 so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	lua-lsqlite3
+repo	community
+file	lua5.1-lsqlite3-0.9.6-r2.apk
+checksum	Q1fH+KqSEivJQAvgFUBtIR88n51gk=
+dep	lua5.1	lua5.1
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

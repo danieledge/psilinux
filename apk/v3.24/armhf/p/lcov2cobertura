@@ -1,0 +1,14 @@
+name	lcov2cobertura
+version	1.0.5-r1
+description	Converts lcov info files to Corbertura XML
+url	https://github.com/mike-kfed/lcov2cobertura
+license	Apache-2.0
+size	808344
+installed-size	1563780
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	lcov2cobertura
+repo	community
+file	lcov2cobertura-1.0.5-r1.apk
+checksum	Q18tPzKceFy9FoSP4ITRIRSvj3yX8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

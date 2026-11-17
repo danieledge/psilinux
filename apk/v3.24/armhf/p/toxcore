@@ -1,0 +1,15 @@
+name	toxcore
+version	0.2.23-r0
+description	Tox communication project - C core
+url	https://tox.chat/
+license	GPL-3.0-or-later
+size	17359
+installed-size	43460
+depends	so:libc.musl-armhf.so.1 so:libconfig.so.15 so:libtoxcore.so.2
+origin	toxcore
+repo	community
+file	toxcore-0.2.23-r0.apk
+checksum	Q12fZ/2z8QAvko7TlD1JhqGXRiD2Y=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libconfig.so.15	libconfig
+dep	so:libtoxcore.so.2	toxcore-libs

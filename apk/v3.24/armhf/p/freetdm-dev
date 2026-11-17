@@ -1,0 +1,14 @@
+name	freetdm-dev
+version	0_git20210830-r6
+description	FreeTDM Endpoint Module  (development files)
+url	https://github.com/freeswitch/freetdm
+license	BSD-3-Clause
+size	410149
+installed-size	1030764
+depends	freetdm=0_git20210830-r6 pkgconfig
+origin	freetdm
+repo	main
+file	freetdm-dev-0_git20210830-r6.apk
+checksum	Q1h1/BC6jGCRD1heR7GbspLAKKrlM=
+dep	freetdm=0_git20210830-r6	freetdm
+dep	pkgconfig	pkgconf

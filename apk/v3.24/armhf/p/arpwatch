@@ -1,0 +1,16 @@
+name	arpwatch
+version	3.9-r1
+description	Ethernet monitoring program
+url	https://www-nrg.ee.lbl.gov/
+license	BSD-3-Clause
+size	30948
+installed-size	63498
+depends	python3 /bin/sh so:libc.musl-armhf.so.1 so:libpcap.so.1
+origin	arpwatch
+repo	main
+file	arpwatch-3.9-r1.apk
+checksum	Q1deiiaD3KZ95ZWFLKMl+15WQLIJE=
+dep	python3	python3
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcap.so.1	libpcap

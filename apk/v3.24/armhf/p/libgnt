@@ -1,0 +1,19 @@
+name	libgnt
+version	2.14.4-r0
+description	glib ncurses toolkit
+url	https://keep.imfreedom.org/libgnt/libgnt
+license	GPL-2.0-or-later
+size	88315
+installed-size	205656
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libncursesw.so.6 so:libpanelw.so.6 so:libxml2.so.2
+origin	libgnt
+repo	community
+file	libgnt-2.14.4-r0.apk
+checksum	Q15S8DBzuJIVexYV4Nw5ZNUyAHN/Q=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpanelw.so.6	libpanelw
+dep	so:libxml2.so.2	libxml2

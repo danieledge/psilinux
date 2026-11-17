@@ -1,0 +1,14 @@
+name	patchutils
+version	0.4.5-r0
+description	Programs for manipulating patch files
+url	https://cyberelk.net/tim/software/patchutils/
+license	GPL-2.0-or-later
+size	74871
+installed-size	159694
+depends	perl so:libc.musl-armhf.so.1
+origin	patchutils
+repo	main
+file	patchutils-0.4.5-r0.apk
+checksum	Q1upc97sgX+D1wMpVfFgd7AzU53Fc=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

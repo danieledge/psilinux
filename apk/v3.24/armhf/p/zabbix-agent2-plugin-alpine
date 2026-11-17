@@ -1,0 +1,14 @@
+name	zabbix-agent2-plugin-alpine
+version	0.4.1-r10
+description	Alpine related plugins for Zabbix Agent 2
+url	https://gitlab.alpinelinux.org/alpine/infra/zabbix-agent2-plugins
+license	MIT
+size	1656622
+installed-size	4169954
+depends	zabbix-agent2 so:libc.musl-armhf.so.1
+origin	zabbix-agent2-plugin-alpine
+repo	community
+file	zabbix-agent2-plugin-alpine-0.4.1-r10.apk
+checksum	Q1v/dLcGvVfanuqoED0SYybhK0uwg=
+dep	zabbix-agent2	zabbix-agent2
+dep	so:libc.musl-armhf.so.1	musl

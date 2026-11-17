@@ -1,0 +1,14 @@
+name	py3-zope-event
+version	5.1.1-r1
+description	Event publishing / dispatch, used by Zope Component Architecture
+url	https://github.com/zopefoundation/zope.event
+license	ZPL-2.1
+size	6260
+installed-size	11040
+depends	py3-setuptools python3~3.14
+origin	py3-zope-event
+repo	community
+file	py3-zope-event-5.1.1-r1.apk
+checksum	Q1B0OG2A54xrdXN39T7EzuQ/fx/Fs=
+dep	py3-setuptools	py3-setuptools
+dep	python3~3.14	python3

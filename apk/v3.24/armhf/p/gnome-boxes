@@ -1,0 +1,48 @@
+name	gnome-boxes
+version	50.0-r0
+description	Virtualization made simple
+url	https://apps.gnome.org/Boxes
+license	GPL-2.0-only
+size	457936
+installed-size	2656235
+depends	libvirt-qemu qemu qemu-audio-spice qemu-chardev-spice qemu-img qemu-hw-display-qxl qemu-hw-display-virtio-gpu qemu-hw-display-virtio-gpu-gl qemu-hw-display-virtio-gpu-pci qemu-hw-display-virtio-gpu-pci-gl qemu-hw-display-virtio-vga qemu-hw-display-virtio-vga-gl qemu-hw-usb-redirect so:libarchive.so.13 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgudev-1.0.so.0 so:libhandy-1.so.0 so:libintl.so.8 so:libosinfo-1.0.so.0 so:libportal-gtk3.so.1 so:libportal.so.1 so:libsoup-3.0.so.0 so:libspice-client-glib-2.0.so.8 so:libspice-client-gtk-3.0.so.5 so:libusb-1.0.so.0 so:libvirt-gconfig-1.0.so.0 so:libvirt-gobject-1.0.so.0 so:libwebkit2gtk-4.1.so.0 so:libxml2.so.2
+origin	gnome-boxes
+repo	community
+file	gnome-boxes-50.0-r0.apk
+checksum	Q1TMP9ipf6Gjuc48fG6+xG80zM4lc=
+dep	libvirt-qemu	!
+dep	qemu	!
+dep	qemu-audio-spice	!
+dep	qemu-chardev-spice	!
+dep	qemu-img	!
+dep	qemu-hw-display-qxl	!
+dep	qemu-hw-display-virtio-gpu	!
+dep	qemu-hw-display-virtio-gpu-gl	!
+dep	qemu-hw-display-virtio-gpu-pci	!
+dep	qemu-hw-display-virtio-gpu-pci-gl	!
+dep	qemu-hw-display-virtio-vga	!
+dep	qemu-hw-display-virtio-vga-gl	!
+dep	qemu-hw-usb-redirect	!
+dep	so:libarchive.so.13	libarchive
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgudev-1.0.so.0	libgudev
+dep	so:libhandy-1.so.0	libhandy1
+dep	so:libintl.so.8	libintl
+dep	so:libosinfo-1.0.so.0	libosinfo
+dep	so:libportal-gtk3.so.1	libportal-gtk3
+dep	so:libportal.so.1	libportal
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libspice-client-glib-2.0.so.8	spice-glib
+dep	so:libspice-client-gtk-3.0.so.5	spice-gtk
+dep	so:libusb-1.0.so.0	libusb
+dep	so:libvirt-gconfig-1.0.so.0	libvirt-glib
+dep	so:libvirt-gobject-1.0.so.0	libvirt-glib
+dep	so:libwebkit2gtk-4.1.so.0	webkit2gtk-4.1
+dep	so:libxml2.so.2	libxml2

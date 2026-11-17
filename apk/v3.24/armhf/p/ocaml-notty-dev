@@ -1,0 +1,16 @@
+name	ocaml-notty-dev
+version	0.2.3-r3
+description	Declarative terminal library for OCaml (development files)
+url	https://github.com/pqwy/notty
+license	ISC
+size	621562
+installed-size	1602405
+depends	ocaml-notty=0.2.3-r3 ocaml-compiler-libs ocaml-lwt-dev ocaml-uutf-dev
+origin	ocaml-notty
+repo	community
+file	ocaml-notty-dev-0.2.3-r3.apk
+checksum	Q1CH9IBpx+py+JaqAluxSF7MuhBGQ=
+dep	ocaml-notty=0.2.3-r3	ocaml-notty
+dep	ocaml-compiler-libs	ocaml-compiler-libs
+dep	ocaml-lwt-dev	ocaml-lwt-dev
+dep	ocaml-uutf-dev	ocaml-uutf-dev

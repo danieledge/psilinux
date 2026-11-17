@@ -1,0 +1,14 @@
+name	hiredict-dev
+version	1.3.1-r1
+description	C client library for Redict (development files)
+url	https://codeberg.org/redict/hiredict
+license	BSD-3-Clause
+size	169036
+installed-size	427718
+depends	hiredict=1.3.1-r1 pkgconfig
+origin	hiredict
+repo	community
+file	hiredict-dev-1.3.1-r1.apk
+checksum	Q1LLHT7CEbUKCa+g6tdjpYhuoktMQ=
+dep	hiredict=1.3.1-r1	hiredict
+dep	pkgconfig	pkgconf

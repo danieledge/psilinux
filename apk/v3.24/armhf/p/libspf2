@@ -1,0 +1,13 @@
+name	libspf2
+version	1.2.11-r4
+description	Sender Policy Framework library, a part of the SPF/SRS protocol pair.
+url	https://www.libspf2.org/
+license	LGPL-2.1-or-later OR BSD-2-Clause
+size	39673
+installed-size	87228
+depends	so:libc.musl-armhf.so.1
+origin	libspf2
+repo	main
+file	libspf2-1.2.11-r4.apk
+checksum	Q1UTvPzuBHOFxVYoT3KmAgi1x/iUU=
+dep	so:libc.musl-armhf.so.1	musl

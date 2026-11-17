@@ -1,0 +1,14 @@
+name	perl-posix-strftime-compiler
+version	0.46-r0
+description	GNU C library compatible strftime for loggers and servers
+url	https://metacpan.org/release/POSIX-strftime-Compiler/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6788
+installed-size	14894
+depends	perl tzdata
+origin	perl-posix-strftime-compiler
+repo	main
+file	perl-posix-strftime-compiler-0.46-r0.apk
+checksum	Q1FP05OhNNaYIutRisrRb5hRXppLk=
+dep	perl	perl
+dep	tzdata	tzdata

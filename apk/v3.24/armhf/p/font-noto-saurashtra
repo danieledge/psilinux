@@ -1,0 +1,14 @@
+name	font-noto-saurashtra
+version	2026.11.01-r0
+description	Noto Sans Saurashtra font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	23080
+installed-size	35485
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-saurashtra-2026.11.01-r0.apk
+checksum	Q1rTlDkESCLNRp7CBbAQZ6pl/ST9U=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

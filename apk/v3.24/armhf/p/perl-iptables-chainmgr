@@ -1,0 +1,15 @@
+name	perl-iptables-chainmgr
+version	1.6-r4
+description	Perl extension for manipulating iptables and ip6tables policies
+url	https://metacpan.org/release/IPTables-ChainMgr/
+license	Artistic-1.0
+size	10571
+installed-size	38865
+depends	perl perl-netaddr-ip perl-iptables-parse
+origin	perl-iptables-chainmgr
+repo	community
+file	perl-iptables-chainmgr-1.6-r4.apk
+checksum	Q1zWXtTBIX0YpD2WND5vSsFegr5ho=
+dep	perl	perl
+dep	perl-netaddr-ip	perl-netaddr-ip
+dep	perl-iptables-parse	perl-iptables-parse

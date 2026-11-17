@@ -1,0 +1,14 @@
+name	nng-dev
+version	1.11-r0
+description	Lightweight Broker-Less Messaging Library (development files)
+url	https://nng.nanomsg.org/
+license	MIT
+size	49260
+installed-size	175491
+depends	nng=1.11-r0 pkgconfig
+origin	nng
+repo	community
+file	nng-dev-1.11-r0.apk
+checksum	Q1S4pTTMop9DJ778Xs8s+c8Jvrpts=
+dep	nng=1.11-r0	nng
+dep	pkgconfig	pkgconf

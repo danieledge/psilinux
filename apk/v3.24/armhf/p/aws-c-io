@@ -1,0 +1,16 @@
+name	aws-c-io
+version	0.27.0-r0
+description	Module for the AWS SDK for C handling all IO and TLS work for application protocols
+url	https://github.com/awslabs/aws-c-io
+license	Apache-2.0
+size	92861
+installed-size	243140
+depends	so:libaws-c-cal.so.1.0.0 so:libaws-c-common.so.1 so:libc.musl-armhf.so.1 so:libs2n.so.1
+origin	aws-c-io
+repo	community
+file	aws-c-io-0.27.0-r0.apk
+checksum	Q1bOWW3Am8QIAlkQtlDa7qsUAGXtE=
+dep	so:libaws-c-cal.so.1.0.0	aws-c-cal
+dep	so:libaws-c-common.so.1	aws-c-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libs2n.so.1	s2n-tls

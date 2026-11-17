@@ -1,0 +1,16 @@
+name	f2fs-tools
+version	1.16.0-r4
+description	Tools for the Flash-Friendly File System (F2FS)
+url	http://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git
+license	GPL-2.0-or-later OR LGPL-2.1-or-later
+size	153179
+installed-size	323868
+depends	so:libblkid.so.1 so:libc.musl-armhf.so.1 so:libf2fs.so.10 so:libuuid.so.1
+origin	f2fs-tools
+repo	main
+file	f2fs-tools-1.16.0-r4.apk
+checksum	Q1F+QaTQlDfkXsHWycTMMlGpzw0vA=
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libf2fs.so.10	f2fs-tools-libs
+dep	so:libuuid.so.1	libuuid

@@ -1,0 +1,13 @@
+name	protobuf-c
+version	1.5.2-r2
+description	Protocol Buffers implementation in C
+url	https://github.com/protobuf-c/protobuf-c
+license	BSD-2-Clause
+size	12864
+installed-size	21744
+depends	so:libc.musl-armhf.so.1
+origin	protobuf-c
+repo	main
+file	protobuf-c-1.5.2-r2.apk
+checksum	Q1pLGKx9bn3jzbEvW/DjlNEYLQK+M=
+dep	so:libc.musl-armhf.so.1	musl

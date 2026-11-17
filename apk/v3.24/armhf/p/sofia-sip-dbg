@@ -1,0 +1,12 @@
+name	sofia-sip-dbg
+version	1.13.17-r1
+description	RFC3261 compliant SIP User-Agent library (debug symbols)
+url	https://github.com/freeswitch/sofia-sip
+license	LGPL-2.1-only
+size	2199080
+installed-size	4924580
+depends	!sofia-sip<1.13.17-r1 !sofia-sip>1.13.17-r1
+origin	sofia-sip
+repo	main
+file	sofia-sip-dbg-1.13.17-r1.apk
+checksum	Q1k7wmh5SWb6kx3P/mQZkGdX3AMmU=

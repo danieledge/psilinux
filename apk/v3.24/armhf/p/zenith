@@ -1,0 +1,14 @@
+name	zenith
+version	0.14.1-r4
+description	Sort of like htop but with zoom-able charts, CPU, GPU, network, disk usage
+url	https://github.com/bvaisvil/zenith
+license	MIT
+size	791754
+installed-size	1397859
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	zenith
+repo	community
+file	zenith-0.14.1-r4.apk
+checksum	Q1MxXaswdtn9+9mgygu2FUVLCEQg0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

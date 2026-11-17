@@ -1,0 +1,17 @@
+name	py3-oscrypto
+version	1.3.0-r9
+description	Python crypto library backed by the OS
+url	https://github.com/wbond/oscrypto
+license	MIT
+size	164829
+installed-size	906559
+depends	python3 py3-asn1crypto>=1.5.1 libssl3 libcrypto3 python3~3.14
+origin	py3-oscrypto
+repo	community
+file	py3-oscrypto-1.3.0-r9.apk
+checksum	Q19Djpn1PwPFE4WmyRTz/cYr52bG8=
+dep	python3	python3
+dep	py3-asn1crypto>=1.5.1	py3-asn1crypto
+dep	libssl3	libssl3
+dep	libcrypto3	libcrypto3
+dep	python3~3.14	python3

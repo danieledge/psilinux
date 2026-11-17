@@ -1,0 +1,13 @@
+name	quassel
+version	0.14.0-r17
+description	Distributed IRC client - metapackage
+url	https://www.quassel-irc.org/
+license	GPL-2.0-or-later
+size	1273
+installed-size	0
+depends	quassel-mono
+origin	quassel
+repo	community
+file	quassel-0.14.0-r17.apk
+checksum	Q1WQyTcHpaOO2Ja1wWm6qOc122S/w=
+dep	quassel-mono	quassel-mono

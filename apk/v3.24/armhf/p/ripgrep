@@ -1,0 +1,15 @@
+name	ripgrep
+version	15.1.0-r0
+description	ripgrep combines the usability of The Silver Searcher with the raw speed of grep
+url	https://github.com/BurntSushi/ripgrep
+license	MIT OR Unlicense
+size	1298486
+installed-size	2961448
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpcre2-8.so.0
+origin	ripgrep
+repo	community
+file	ripgrep-15.1.0-r0.apk
+checksum	Q1r6f/PRfOt+PxUXfa45Dnf5uOAD0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpcre2-8.so.0	pcre2

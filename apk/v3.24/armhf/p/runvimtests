@@ -1,0 +1,15 @@
+name	runvimtests
+version	1.30-r2
+description	A testing framework for Vim
+url	https://github.com/inkarkat/runVimTests
+license	Vim
+size	27885
+installed-size	77240
+depends	vim bash /bin/sh
+origin	runvimtests
+repo	community
+file	runvimtests-1.30-r2.apk
+checksum	Q1LqFm0r15MjKvYfxRRF6CvQL2BKo=
+dep	vim	vim
+dep	bash	bash
+dep	/bin/sh	busybox-binsh

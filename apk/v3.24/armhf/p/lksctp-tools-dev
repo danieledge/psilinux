@@ -1,0 +1,15 @@
+name	lksctp-tools-dev
+version	1.0.19-r5
+description	User-space access to Linux Kernel SCTP (development files)
+url	https://lksctp.sourceforge.net/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	37014
+installed-size	148138
+depends	linux-headers liblksctp=1.0.19-r5 pkgconfig
+origin	lksctp-tools
+repo	main
+file	lksctp-tools-dev-1.0.19-r5.apk
+checksum	Q1Y2yXx0zer9iZ3K/U3xCohGralZo=
+dep	linux-headers	linux-headers
+dep	liblksctp=1.0.19-r5	liblksctp
+dep	pkgconfig	pkgconf

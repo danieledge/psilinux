@@ -1,0 +1,20 @@
+name	google-cloud-cpp-api-control
+version	2.47.0-r0
+description	C++ Client Libraries for Google Cloud Services (api-control)
+url	https://cloud.google.com/sdk
+license	Apache-2.0
+size	10754
+installed-size	26344
+depends	so:libabsl_log_internal_check_op.so.2508.0.0 so:libabsl_log_internal_message.so.2508.0.0 so:libabsl_log_internal_nullguard.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgoogle_cloud_cpp_api_policy_protos.so.2 so:libprotobuf.so.31 so:libstdc++.so.6
+origin	google-cloud-cpp
+repo	community
+file	google-cloud-cpp-api-control-2.47.0-r0.apk
+checksum	Q1HT2OdHhVgvIjB9OAat5MxU/VHno=
+dep	so:libabsl_log_internal_check_op.so.2508.0.0	abseil-cpp-log-internal-check-op
+dep	so:libabsl_log_internal_message.so.2508.0.0	abseil-cpp-log-internal-message
+dep	so:libabsl_log_internal_nullguard.so.2508.0.0	abseil-cpp-log-internal-nullguard
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgoogle_cloud_cpp_api_policy_protos.so.2	google-cloud-cpp-api-policy
+dep	so:libprotobuf.so.31	libprotobuf
+dep	so:libstdc++.so.6	libstdc++

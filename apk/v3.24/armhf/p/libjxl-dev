@@ -1,0 +1,18 @@
+name	libjxl-dev
+version	0.11.2-r1
+description	JPEG XL image format reference implementation (development files)
+url	https://jpeg.org/jpegxl/
+license	Apache-2.0
+size	539697
+installed-size	1109810
+depends	libjxl=0.11.2-r1 pc:lcms2 pc:libbrotlidec pc:libbrotlienc pc:libhwy pkgconfig
+origin	libjxl
+repo	community
+file	libjxl-dev-0.11.2-r1.apk
+checksum	Q1nEI8JcgpRLOt8efn0CpnKLafNfs=
+dep	libjxl=0.11.2-r1	libjxl
+dep	pc:lcms2	lcms2-dev
+dep	pc:libbrotlidec	brotli-dev
+dep	pc:libbrotlienc	brotli-dev
+dep	pc:libhwy	highway-dev
+dep	pkgconfig	pkgconf

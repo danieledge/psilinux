@@ -1,0 +1,17 @@
+name	lxc-download
+version	7.0.0-r0
+description	LXC container image downloader template
+url	https://linuxcontainers.org/lxc/
+license	LGPL-2.1-or-later
+size	5951
+installed-size	14357
+depends	lxc gpg gnupg-dirmngr tar xz
+origin	lxc
+repo	main
+file	lxc-download-7.0.0-r0.apk
+checksum	Q1WXL/de1fR0Y1XpW+3Hlbiqtwjxc=
+dep	lxc	lxc
+dep	gpg	gpg
+dep	gnupg-dirmngr	gnupg-dirmngr
+dep	tar	tar
+dep	xz	xz

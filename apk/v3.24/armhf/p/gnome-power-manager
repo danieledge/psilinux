@@ -1,0 +1,22 @@
+name	gnome-power-manager
+version	50.0-r0
+description	GNOME power manager
+url	https://gitlab.gnome.org/GNOME/gnome-power-manager
+license	GPL-2.0-or-later
+size	60242
+installed-size	135387
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libupower-glib.so.3
+origin	gnome-power-manager
+repo	community
+file	gnome-power-manager-50.0-r0.apk
+checksum	Q1I4NXhwaAHux9H7pXk3atbUMTb7E=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libupower-glib.so.3	upower

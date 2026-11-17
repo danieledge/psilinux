@@ -1,0 +1,15 @@
+name	openjpeg-dev
+version	2.5.4-r2
+description	Open-source implementation of JPEG2000 image codec (development files)
+url	https://www.openjpeg.org/
+license	BSD-2-Clause
+size	174089
+installed-size	460386
+depends	openjpeg-tools openjpeg=2.5.4-r2 pkgconfig
+origin	openjpeg
+repo	main
+file	openjpeg-dev-2.5.4-r2.apk
+checksum	Q1HYoib7aCvW8fNjJ9/7PQ14EgOpw=
+dep	openjpeg-tools	openjpeg-tools
+dep	openjpeg=2.5.4-r2	openjpeg
+dep	pkgconfig	pkgconf

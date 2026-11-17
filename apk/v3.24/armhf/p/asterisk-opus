@@ -1,0 +1,14 @@
+name	asterisk-opus
+version	22.9.0-r0
+description	Modular Open Source PBX System
+url	https://www.asterisk.org/
+license	GPL-2.0-only WITH OpenSSL-Exception
+size	8291
+installed-size	17248
+depends	so:libc.musl-armhf.so.1 so:libopus.so.0
+origin	asterisk
+repo	main
+file	asterisk-opus-22.9.0-r0.apk
+checksum	Q1hA+I7EKvqD7ihk2n8HgeDqy84a8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libopus.so.0	opus

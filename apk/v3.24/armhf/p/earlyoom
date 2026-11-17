@@ -1,0 +1,13 @@
+name	earlyoom
+version	1.9.0-r0
+description	Early OOM Daemon for Linux
+url	https://github.com/rfjakob/earlyoom
+license	MIT
+size	18143
+installed-size	34192
+depends	so:libc.musl-armhf.so.1
+origin	earlyoom
+repo	community
+file	earlyoom-1.9.0-r0.apk
+checksum	Q1MDPgQLt2e100lHjtGkS7kgQbSXQ=
+dep	so:libc.musl-armhf.so.1	musl

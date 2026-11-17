@@ -1,0 +1,14 @@
+name	perl-ntlm
+version	1.09-r6
+description	Perl module for NTLM
+url	https://metacpan.org/release/NTLM/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	9898
+installed-size	24088
+depends	perl perl-digest-hmac
+origin	perl-ntlm
+repo	community
+file	perl-ntlm-1.09-r6.apk
+checksum	Q1n3pNKKQavgXdDvs1iWwXsVG6NiY=
+dep	perl	perl
+dep	perl-digest-hmac	perl-digest-hmac

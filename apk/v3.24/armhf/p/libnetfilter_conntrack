@@ -1,0 +1,15 @@
+name	libnetfilter_conntrack
+version	1.1.1-r0
+description	programming interface (API) to the in-kernel connection tracking state table
+url	https://www.netfilter.org/projects/libnetfilter_conntrack/
+license	GPL-2.0-or-later
+size	37031
+installed-size	87080
+depends	so:libc.musl-armhf.so.1 so:libmnl.so.0 so:libnfnetlink.so.0
+origin	libnetfilter_conntrack
+repo	main
+file	libnetfilter_conntrack-1.1.1-r0.apk
+checksum	Q1GsY4MapvFJJCkGGOe/o18BT3sRQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmnl.so.0	libmnl
+dep	so:libnfnetlink.so.0	libnfnetlink

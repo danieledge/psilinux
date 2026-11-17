@@ -1,0 +1,16 @@
+name	abseil-cpp-examine-stack
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-examine-stack
+url	https://abseil.io/
+license	Apache-2.0
+size	4486
+installed-size	9548
+depends	so:libabsl_stacktrace.so.2508.0.0 so:libabsl_symbolize.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-examine-stack-20250814.1-r0.apk
+checksum	Q1z0qStmqvk0mKJmlWvwq7W2W0SsA=
+dep	so:libabsl_stacktrace.so.2508.0.0	abseil-cpp-stacktrace
+dep	so:libabsl_symbolize.so.2508.0.0	abseil-cpp-symbolize
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

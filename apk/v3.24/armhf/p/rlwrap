@@ -1,0 +1,16 @@
+name	rlwrap
+version	0.48-r0
+description	readline wrapper
+url	https://github.com/hanslub42/rlwrap
+license	GPL-2.0-or-later
+size	96741
+installed-size	250716
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6 so:libptytty.so.0 so:libreadline.so.8
+origin	rlwrap
+repo	community
+file	rlwrap-0.48-r0.apk
+checksum	Q1bbIF4Mto6TtbEctlyT31imXoYGQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libptytty.so.0	libptytty
+dep	so:libreadline.so.8	readline

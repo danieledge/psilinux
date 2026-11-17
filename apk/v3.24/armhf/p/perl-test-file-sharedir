@@ -1,0 +1,18 @@
+name	perl-test-file-sharedir
+version	1.001002-r6
+description	Create a Fake ShareDir for your modules for testing.
+url	https://metacpan.org/release/Test-File-ShareDir/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	9628
+installed-size	31323
+depends	perl perl-class-tiny perl-file-sharedir perl-file-copy-recursive perl-path-tiny perl-scope-guard
+origin	perl-test-file-sharedir
+repo	main
+file	perl-test-file-sharedir-1.001002-r6.apk
+checksum	Q1QxFno+r+uQH7ZOlYBpAP3HIbA1I=
+dep	perl	perl
+dep	perl-class-tiny	perl-class-tiny
+dep	perl-file-sharedir	perl-file-sharedir
+dep	perl-file-copy-recursive	perl-file-copy-recursive
+dep	perl-path-tiny	perl-path-tiny
+dep	perl-scope-guard	perl-scope-guard

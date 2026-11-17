@@ -1,0 +1,16 @@
+name	collectd-virt
+version	5.12.0-r25
+description	virt pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	21150
+installed-size	43020
+depends	collectd so:libc.musl-armhf.so.1 so:libvirt.so.0 so:libxml2.so.2
+origin	collectd
+repo	community
+file	collectd-virt-5.12.0-r25.apk
+checksum	Q1yEZ6Vwks2bscHdOzwLKAdR23maw=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libvirt.so.0	libvirt-libs
+dep	so:libxml2.so.2	libxml2

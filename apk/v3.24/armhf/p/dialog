@@ -1,0 +1,14 @@
+name	dialog
+version	1.3.20260107-r1
+description	Script interpreter providing curses widgets
+url	https://invisible-island.net/dialog/dialog.html
+license	LGPL-2.1-only
+size	93672
+installed-size	185272
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	dialog
+repo	main
+file	dialog-1.3.20260107-r1.apk
+checksum	Q1fQ0RMRNvF7y9mJmTUWnfs8ghnhA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

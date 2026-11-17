@@ -1,0 +1,14 @@
+name	libunibreak-dev
+version	6.1-r0
+description	Implementation of the line breaking and word breaking algorithms (development files)
+url	https://github.com/adah1972/libunibreak
+license	Zlib
+size	6595
+installed-size	21443
+depends	libunibreak=6.1-r0 pkgconfig
+origin	libunibreak
+repo	community
+file	libunibreak-dev-6.1-r0.apk
+checksum	Q1X7f4Tm6gGj5g9H3Ax1xK6aXOJFg=
+dep	libunibreak=6.1-r0	libunibreak
+dep	pkgconfig	pkgconf

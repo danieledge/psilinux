@@ -1,0 +1,28 @@
+name	kitty
+version	0.47.0-r2
+description	Modern, hackable, featureful, OpenGL based terminal emulator
+url	https://sw.kovidgoyal.net/kitty/
+license	GPL-3.0-only
+size	2652689
+installed-size	5894436
+depends	less ncurses py3-pygments kitty-terminfo kitty-kitten /bin/sh so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcrypto.so.3 so:libfreetype.so.6 so:libharfbuzz.so.0 so:liblcms2.so.2 so:libpng16.so.16 so:libpython3.14.so.1.0 so:libxxhash.so.0 so:libz.so.1
+origin	kitty
+repo	community
+file	kitty-0.47.0-r2.apk
+checksum	Q1ETks6T6TP+99lNmEUKT2+FAjZR4=
+dep	less	less
+dep	ncurses	ncurses
+dep	py3-pygments	py3-pygments
+dep	kitty-terminfo	kitty-terminfo
+dep	kitty-kitten	kitty-kitten
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libfreetype.so.6	freetype
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:liblcms2.so.2	lcms2
+dep	so:libpng16.so.16	libpng
+dep	so:libpython3.14.so.1.0	python3
+dep	so:libxxhash.so.0	libxxhash
+dep	so:libz.so.1	zlib

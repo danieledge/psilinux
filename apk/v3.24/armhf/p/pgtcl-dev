@@ -1,0 +1,13 @@
+name	pgtcl-dev
+version	3.1.1-r0
+description	Tcl client side interface to PostgreSQL (libpgtcl) (development files)
+url	https://flightaware.github.io/Pgtcl/
+license	BSD-3-Clause
+size	3609
+installed-size	5072
+depends	pgtcl=3.1.1-r0
+origin	pgtcl
+repo	main
+file	pgtcl-dev-3.1.1-r0.apk
+checksum	Q1EXIidi+BwwDxH4E4GEjo0/RUzLI=
+dep	pgtcl=3.1.1-r0	pgtcl

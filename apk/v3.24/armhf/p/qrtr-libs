@@ -1,0 +1,13 @@
+name	qrtr-libs
+version	1.2-r1
+description	Userspace reference for net/qrtr in the Linux kernel (libraries)
+url	https://github.com/linux-msm/qrtr
+license	BSD-3-Clause
+size	7726
+installed-size	13524
+depends	so:libc.musl-armhf.so.1
+origin	qrtr
+repo	community
+file	qrtr-libs-1.2-r1.apk
+checksum	Q1mexAewsRkvaV915AhWi4Rswp73k=
+dep	so:libc.musl-armhf.so.1	musl

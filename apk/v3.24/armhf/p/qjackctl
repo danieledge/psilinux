@@ -1,0 +1,24 @@
+name	qjackctl
+version	1.0.5-r0
+description	GUI interface for JACK
+url	https://qjackctl.sourceforge.io
+license	GPL-2.0-or-later
+size	1150197
+installed-size	3085145
+depends	so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6Widgets.so.6 so:libQt6Xml.so.6 so:libasound.so.2 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libjack.so.0 so:libportaudio.so.2 so:libstdc++.so.6
+origin	qjackctl
+repo	community
+file	qjackctl-1.0.5-r0.apk
+checksum	Q1RfAKF7Kv6fleSonnXppGVFboIYY=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6DBus.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libQt6Xml.so.6	qt6-qtbase
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjack.so.0	jack
+dep	so:libportaudio.so.2	portaudio
+dep	so:libstdc++.so.6	libstdc++

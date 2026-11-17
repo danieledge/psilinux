@@ -1,0 +1,15 @@
+name	sdl2-dev
+version	2.32.10-r0
+description	development library designed to provide low level access to audio, keyboard, mouse, joystick and graphics (development files)
+url	https://www.libsdl.org
+license	Zlib
+size	18401935
+installed-size	35343287
+depends	sdl2 mesa-dev pkgconfig
+origin	sdl2
+repo	community
+file	sdl2-dev-2.32.10-r0.apk
+checksum	Q1x2cTlo9c79HL9h5aBWtnQMvmJ1c=
+dep	sdl2	sdl2
+dep	mesa-dev	mesa-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,19 @@
+name	sdcv
+version	0.5.5-r1
+description	Console version of StarDict
+url	https://dushistov.github.io/sdcv/
+license	GPL-2.0-or-later
+size	41306
+installed-size	83380
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libintl.so.8 so:libreadline.so.8 so:libstdc++.so.6 so:libz.so.1
+origin	sdcv
+repo	community
+file	sdcv-0.5.5-r1.apk
+checksum	Q1Nc7U4FJcGxW7RMgptNbsHQdBUbA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libreadline.so.8	readline
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

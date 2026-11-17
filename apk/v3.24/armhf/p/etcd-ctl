@@ -1,0 +1,13 @@
+name	etcd-ctl
+version	3.6.11-r3
+description	A command-line client for etcd
+url	https://github.com/etcd-io/etcd
+license	Apache-2.0
+size	6370811
+installed-size	17976116
+depends	so:libc.musl-armhf.so.1
+origin	etcd
+repo	community
+file	etcd-ctl-3.6.11-r3.apk
+checksum	Q1tbgNPcq/Gmp9K63jNBzQSNG6HyI=
+dep	so:libc.musl-armhf.so.1	musl

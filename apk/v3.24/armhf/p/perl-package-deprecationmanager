@@ -1,0 +1,16 @@
+name	perl-package-deprecationmanager
+version	0.18-r1
+description	Manage deprecation warnings for your distribution
+url	https://metacpan.org/release/Package-DeprecationManager/
+license	Artistic-2.0
+size	5715
+installed-size	10355
+depends	perl perl-sub-install perl-params-util perl-package-stash
+origin	perl-package-deprecationmanager
+repo	main
+file	perl-package-deprecationmanager-0.18-r1.apk
+checksum	Q1h+HwjT0YIpjOqzDAfreTMZKJBjk=
+dep	perl	perl
+dep	perl-sub-install	perl-sub-install
+dep	perl-params-util	perl-params-util
+dep	perl-package-stash	perl-package-stash

@@ -1,0 +1,15 @@
+name	emacs-sqlite3-api
+version	0.18-r1
+description	SQLite3 API for Emacs 25+
+url	https://github.com/pekingduck/emacs-sqlite3-api
+license	GPL-3.0-or-later
+size	18532
+installed-size	55043
+depends	cmd:emacs so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	emacs-sqlite3-api
+repo	community
+file	emacs-sqlite3-api-0.18-r1.apk
+checksum	Q13fLLV3cwGUJcQmRT2H4+U6wLp5M=
+dep	cmd:emacs	emacs-gtk3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

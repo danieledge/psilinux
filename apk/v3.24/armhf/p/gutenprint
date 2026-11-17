@@ -1,0 +1,14 @@
+name	gutenprint
+version	5.3.5-r0
+description	Top quality printer drivers for POSIX systems
+url	https://gimp-print.sourceforge.net/
+license	GPL-2.0-or-later
+size	791087
+installed-size	6236518
+depends	so:libc.musl-armhf.so.1 so:libgutenprint.so.9
+origin	gutenprint
+repo	community
+file	gutenprint-5.3.5-r0.apk
+checksum	Q17F0c1LvlYbicqv52T6/6gjNAewk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgutenprint.so.9	gutenprint-libs

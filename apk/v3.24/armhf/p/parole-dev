@@ -1,0 +1,21 @@
+name	parole-dev
+version	4.20.0-r1
+description	Media player for the Xfce desktop (development files)
+url	https://docs.xfce.org/apps/parole/start
+license	GPL-2.0-or-later
+size	7376
+installed-size	32024
+depends	dbus-glib-dev gettext gst-plugins-base-dev gstreamer-dev libnotify-dev libsm-dev libxfce4ui-dev libxfce4util-dev taglib-dev
+origin	parole
+repo	community
+file	parole-dev-4.20.0-r1.apk
+checksum	Q1NiwzmYtEbMfOHMYPrtdWP+3FLNw=
+dep	dbus-glib-dev	dbus-glib-dev
+dep	gettext	gettext
+dep	gst-plugins-base-dev	gst-plugins-base-dev
+dep	gstreamer-dev	gstreamer-dev
+dep	libnotify-dev	libnotify-dev
+dep	libsm-dev	libsm-dev
+dep	libxfce4ui-dev	libxfce4ui-dev
+dep	libxfce4util-dev	libxfce4util-dev
+dep	taglib-dev	taglib-dev

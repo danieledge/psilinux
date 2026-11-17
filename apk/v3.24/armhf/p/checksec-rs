@@ -1,0 +1,14 @@
+name	checksec-rs
+version	0.0.9-r4
+description	Fast multi-platform (ELF/PE/MachO) binary checksec
+url	https://github.com/etke/checksec.rs
+license	Apache-2.0
+size	770211
+installed-size	1609800
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	checksec-rs
+repo	community
+file	checksec-rs-0.0.9-r4.apk
+checksum	Q1kX02ZnIBOyqgTe7ybyB4lmpDFt0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

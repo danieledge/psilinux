@@ -1,0 +1,14 @@
+name	py3-psycopg-c-pyc
+version	3.3.4-r0
+description	Precompiled Python bytecode for py3-psycopg-c
+url	https://www.psycopg.org/
+license	LGPL-2.0-or-later
+size	3035
+installed-size	2016
+depends	py3-typing-extensions python3~3.14
+origin	py3-psycopg
+repo	community
+file	py3-psycopg-c-pyc-3.3.4-r0.apk
+checksum	Q16JmH0QHGrxbeLzQ98C8IDinTpa0=
+dep	py3-typing-extensions	py3-typing-extensions
+dep	python3~3.14	python3

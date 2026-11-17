@@ -1,0 +1,15 @@
+name	pystring
+version	1.1.5-r0
+description	C++ functions matching the interface and behavior of python string methods with std::string
+url	https://github.com/imageworks/pystring
+license	BSD-3-Clause
+size	20202
+installed-size	50508
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	pystring
+repo	community
+file	pystring-1.1.5-r0.apk
+checksum	Q1d/mYNDE44JDvDanQcWa5icddxqE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

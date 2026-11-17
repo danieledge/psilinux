@@ -1,0 +1,14 @@
+name	aprx
+version	2.9.1-r3
+description	aprx digipeater and iGate
+url	https://thelifeofkenneth.com/aprx/
+license	BSD-3-Clause
+size	110949
+installed-size	215688
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	aprx
+repo	community
+file	aprx-2.9.1-r3.apk
+checksum	Q1bq4+2LSD1tGC7AeY7X8NDXI0I+o=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

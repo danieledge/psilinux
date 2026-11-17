@@ -1,0 +1,14 @@
+name	font-noto-oriya
+version	2026.11.01-r0
+description	Noto Sans Oriya and Serif Oriya fonts
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	1003640
+installed-size	2159097
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-oriya-2026.11.01-r0.apk
+checksum	Q1sJftZVTNLa2Y+VGNdaIQkpMfRYs=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

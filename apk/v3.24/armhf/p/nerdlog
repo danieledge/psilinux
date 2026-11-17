@@ -1,0 +1,13 @@
+name	nerdlog
+version	1.10.0-r12
+description	A fast, remote-first, multi-host log TUI, timeline histogram & no central server
+url	https://github.com/dimonomid/nerdlog
+license	BSD-2-Clause
+size	2977227
+installed-size	7384100
+depends	so:libc.musl-armhf.so.1
+origin	nerdlog
+repo	community
+file	nerdlog-1.10.0-r12.apk
+checksum	Q18gBKREF9gLMzulmkueu3xKN+QtI=
+dep	so:libc.musl-armhf.so.1	musl

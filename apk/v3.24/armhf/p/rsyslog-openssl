@@ -1,0 +1,16 @@
+name	rsyslog-openssl
+version	8.2608.0-r0
+description	rsyslog lmnsd_ossl module
+url	https://www.rsyslog.com/
+license	Apache-2.0 AND GPL-3.0-or-later AND LGPL-3.0-or-later
+size	30120
+installed-size	72184
+depends	rsyslog=8.2608.0-r0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	rsyslog
+repo	main
+file	rsyslog-openssl-8.2608.0-r0.apk
+checksum	Q1jzDJJ+DjQsZMieeogB3mtqKRAWY=
+dep	rsyslog=8.2608.0-r0	rsyslog
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

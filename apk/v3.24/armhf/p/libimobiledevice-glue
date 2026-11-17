@@ -1,0 +1,14 @@
+name	libimobiledevice-glue
+version	1.3.2-r0
+description	Library for common code of the libimobiledevice project
+url	https://libimobiledevice.org
+license	LGPL-2.1-or-later
+size	31312
+installed-size	62584
+depends	so:libc.musl-armhf.so.1 so:libplist-2.0.so.4
+origin	libimobiledevice-glue
+repo	community
+file	libimobiledevice-glue-1.3.2-r0.apk
+checksum	Q1PsbB0F3mrnrEL68wod3WbXAQV3I=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libplist-2.0.so.4	libplist

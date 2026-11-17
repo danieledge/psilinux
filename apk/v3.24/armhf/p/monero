@@ -1,0 +1,27 @@
+name	monero
+version	0.18.5.0-r0
+description	Secure, private, untraceable cryptocurrency
+url	https://getmonero.org/
+license	BSD-3-Clause
+size	26173156
+installed-size	60600081
+depends	so:libboost_chrono.so.1.84.0 so:libboost_filesystem.so.1.84.0 so:libboost_program_options.so.1.84.0 so:libboost_serialization.so.1.84.0 so:libboost_thread.so.1.84.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libhidapi-libusb.so.0 so:libreadline.so.8 so:libsodium.so.26 so:libssl.so.3 so:libstdc++.so.6 so:libunbound.so.8 so:libzmq.so.5
+origin	monero
+repo	community
+file	monero-0.18.5.0-r0.apk
+checksum	Q1/G/HjVtJRkyvEkMmVDOmiKBbYow=
+dep	so:libboost_chrono.so.1.84.0	boost1.84-chrono
+dep	so:libboost_filesystem.so.1.84.0	boost1.84-filesystem
+dep	so:libboost_program_options.so.1.84.0	boost1.84-program_options
+dep	so:libboost_serialization.so.1.84.0	boost1.84-serialization
+dep	so:libboost_thread.so.1.84.0	boost1.84-thread
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libhidapi-libusb.so.0	hidapi
+dep	so:libreadline.so.8	readline
+dep	so:libsodium.so.26	libsodium
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libunbound.so.8	unbound-libs
+dep	so:libzmq.so.5	libzmq

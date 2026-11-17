@@ -1,0 +1,17 @@
+name	gdal-driver-basisu_ktx2
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (Basis Universal texture format driver)
+url	https://gdal.org/
+license	MIT
+size	21795
+installed-size	50560
+depends	so:libbasisu.so.1.16.3 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdal.so.39 so:libstdc++.so.6
+origin	gdal
+repo	community
+file	gdal-driver-basisu_ktx2-3.13.3-r0.apk
+checksum	Q1SD0gXUtTa0+ShXvLmx2LuqV+lgU=
+dep	so:libbasisu.so.1.16.3	basisu-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libstdc++.so.6	libstdc++

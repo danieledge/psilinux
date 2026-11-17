@@ -1,0 +1,12 @@
+name	rtapd-dbg
+version	1.7-r10
+description	daemon for routing packets to rtnppd (debug symbols)
+url	https://sourceforge.net/projects/rtnppd/
+license	BSD-2-Clause
+size	81956
+installed-size	170544
+depends	!rtapd<1.7-r10 !rtapd>1.7-r10
+origin	rtapd
+repo	main
+file	rtapd-dbg-1.7-r10.apk
+checksum	Q1lvH7B0pFbmtxUzRG9OFGn7Cq1H4=

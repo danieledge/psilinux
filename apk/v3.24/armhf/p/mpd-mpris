@@ -1,0 +1,13 @@
+name	mpd-mpris
+version	0.4.1-r22
+description	Implementation of the MPRIS protocol for MPD.
+url	https://github.com/natsukagami/mpd-mpris
+license	MIT
+size	1786904
+installed-size	4542724
+depends	so:libc.musl-armhf.so.1
+origin	mpd-mpris
+repo	community
+file	mpd-mpris-0.4.1-r22.apk
+checksum	Q1E/TtcojJbk0t9nFUyuz0DUb2Zo8=
+dep	so:libc.musl-armhf.so.1	musl

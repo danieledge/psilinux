@@ -1,0 +1,15 @@
+name	ocamlbuild
+version	0.14.1-r6
+description	Generic build tool with built-in rules for building OCaml library and programs
+url	https://github.com/ocaml/ocamlbuild
+license	LGPL-2.0-or-later WITH OCaml-LGPL-linking-exception
+size	698849
+installed-size	1564832
+depends	ocaml-ocamlbuild=0.14.1-r6 cmd:tput so:libc.musl-armhf.so.1
+origin	ocamlbuild
+repo	community
+file	ocamlbuild-0.14.1-r6.apk
+checksum	Q1xTkOfnRF/tlLxqSWQjSaAzHpU0w=
+dep	ocaml-ocamlbuild=0.14.1-r6	ocaml-ocamlbuild
+dep	cmd:tput	ncurses
+dep	so:libc.musl-armhf.so.1	musl

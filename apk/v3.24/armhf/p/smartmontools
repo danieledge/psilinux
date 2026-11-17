@@ -1,0 +1,15 @@
+name	smartmontools
+version	7.5-r0
+description	Control and monitor S.M.A.R.T. enabled hard drives
+url	https://www.smartmontools.org/
+license	GPL-2.0-or-later
+size	616432
+installed-size	1638944
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	smartmontools
+repo	main
+file	smartmontools-7.5-r0.apk
+checksum	Q1bM6/FQxrsS8IuKBiYM0kKNRnVLE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

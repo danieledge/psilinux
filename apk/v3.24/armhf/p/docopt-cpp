@@ -1,0 +1,15 @@
+name	docopt-cpp
+version	0.6.3-r3
+description	Command line arguments parser for C++11 and later
+url	https://github.com/docopt/docopt.cpp/
+license	MIT
+size	86398
+installed-size	247680
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	docopt-cpp
+repo	community
+file	docopt-cpp-0.6.3-r3.apk
+checksum	Q15qBM6i05xEc7iNue8CR1I/U9gKc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

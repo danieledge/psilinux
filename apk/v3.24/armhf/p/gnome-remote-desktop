@@ -1,0 +1,40 @@
+name	gnome-remote-desktop
+version	50.1-r0
+description	GNOME Remote Desktop - remote desktop server
+url	https://gitlab.gnome.org/GNOME/gnome-remote-desktop
+license	GPL-2.0-or-later
+size	300061
+installed-size	722023
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdrm.so.2 so:libei.so.1 so:libepoxy.so.0 so:libfdk-aac.so.2 so:libfreerdp-server3.so.3 so:libfreerdp3.so.3 so:libfuse3.so.4 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libkrb5.so.3 so:libnotify.so.4 so:libopus.so.0 so:libpipewire-0.3.so.0 so:libpolkit-gobject-1.so.0 so:libsecret-1.so.0 so:libtss2-esys.so.0 so:libtss2-mu.so.0 so:libtss2-rc.so.0 so:libtss2-tctildr.so.0 so:libva-drm.so.2 so:libva.so.2 so:libvulkan.so.1 so:libwinpr3.so.3 so:libxkbcommon.so.0
+origin	gnome-remote-desktop
+repo	community
+file	gnome-remote-desktop-50.1-r0.apk
+checksum	Q1g6ffsKTHfI1xwiN8G7xmu5YoJkA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libdrm.so.2	libdrm
+dep	so:libei.so.1	libei
+dep	so:libepoxy.so.0	libepoxy
+dep	so:libfdk-aac.so.2	fdk-aac
+dep	so:libfreerdp-server3.so.3	freerdp-libs
+dep	so:libfreerdp3.so.3	freerdp-libs
+dep	so:libfuse3.so.4	fuse3-libs
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libkrb5.so.3	krb5-libs
+dep	so:libnotify.so.4	libnotify
+dep	so:libopus.so.0	opus
+dep	so:libpipewire-0.3.so.0	pipewire-libs
+dep	so:libpolkit-gobject-1.so.0	polkit-noelogind-libs
+dep	so:libsecret-1.so.0	libsecret
+dep	so:libtss2-esys.so.0	tpm2-tss-esys
+dep	so:libtss2-mu.so.0	tpm2-tss-mu
+dep	so:libtss2-rc.so.0	tpm2-tss-rc
+dep	so:libtss2-tctildr.so.0	tpm2-tss-tctildr
+dep	so:libva-drm.so.2	libva
+dep	so:libva.so.2	libva
+dep	so:libvulkan.so.1	vulkan-loader
+dep	so:libwinpr3.so.3	freerdp-libs
+dep	so:libxkbcommon.so.0	libxkbcommon

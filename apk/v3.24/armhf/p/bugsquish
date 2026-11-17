@@ -1,0 +1,17 @@
+name	bugsquish
+version	0.0.6-r2
+description	Defend your arm from an onslaught of blood-sucking insects
+url	http://www.newbreedsoftware.com/bugsquish/
+license	GPL-2.0-only
+size	757186
+installed-size	1168717
+depends	libmikmod so:libSDL-1.2.so.0 so:libSDL_image-1.2.so.0 so:libSDL_mixer-1.2.so.0 so:libc.musl-armhf.so.1
+origin	bugsquish
+repo	community
+file	bugsquish-0.0.6-r2.apk
+checksum	Q12Sm0kqW9cGSWBQZUXXMlO24ykBg=
+dep	libmikmod	libmikmod
+dep	so:libSDL-1.2.so.0	sdl12-compat
+dep	so:libSDL_image-1.2.so.0	sdl_image
+dep	so:libSDL_mixer-1.2.so.0	sdl_mixer
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	samurai
+version	1.2-r8
+description	ninja-compatible build tool written in C
+url	https://github.com/michaelforney/samurai
+license	Apache-2.0
+size	28753
+installed-size	54552
+depends	so:libc.musl-armhf.so.1
+origin	samurai
+repo	main
+file	samurai-1.2-r8.apk
+checksum	Q1ez9ZGfCr/BEPdn+Xk4EXLldJsVE=
+dep	so:libc.musl-armhf.so.1	musl

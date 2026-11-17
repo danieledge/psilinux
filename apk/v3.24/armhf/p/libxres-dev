@@ -1,0 +1,18 @@
+name	libxres-dev
+version	1.2.3-r0
+description	X11 Resource extension library (development files)
+url	https://xorg.freedesktop.org/
+license	custom
+size	6107
+installed-size	11169
+depends	xorgproto libxres=1.2.3-r0 pc:x11>=1.6 pc:xext pc:xproto pkgconfig
+origin	libxres
+repo	community
+file	libxres-dev-1.2.3-r0.apk
+checksum	Q1+iXj8cMhaepMukPNtsqFAzH7UTY=
+dep	xorgproto	xorgproto
+dep	libxres=1.2.3-r0	libxres
+dep	pc:x11>=1.6	libx11-dev
+dep	pc:xext	libxext-dev
+dep	pc:xproto	xorgproto
+dep	pkgconfig	pkgconf

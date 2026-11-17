@@ -1,0 +1,13 @@
+name	safekeep-client
+version	1.5.1-r2
+description	SafeKeep backup system - client
+url	https://github.com/dimipaun/safekeep
+license	GPL-2.0-or-later
+size	1275
+installed-size	0
+depends	safekeep=1.5.1-r2
+origin	safekeep
+repo	community
+file	safekeep-client-1.5.1-r2.apk
+checksum	Q1ZZSEeKLhBjVV/yvzoHSNRWYX0k0=
+dep	safekeep=1.5.1-r2	safekeep

@@ -1,0 +1,15 @@
+name	pipewire-spa-tools
+version	1.6.8-r4
+description	PipeWire SPA tools
+url	https://pipewire.org/
+license	MIT
+size	461945
+installed-size	761360
+depends	so:libasound.so.2 so:libc.musl-armhf.so.1 so:libsndfile.so.1
+origin	pipewire
+repo	community
+file	pipewire-spa-tools-1.6.8-r4.apk
+checksum	Q1loHrCe/Sau5hj6bzrfcVLDNz3A4=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsndfile.so.1	libsndfile

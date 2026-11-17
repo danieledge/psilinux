@@ -1,0 +1,15 @@
+name	libpg_query
+version	16.5.1.0-r0
+description	C library for accessing the PostgreSQL parser outside of the server
+url	https://github.com/pganalyze/libpg_query
+license	BSD-3-Clause
+size	556868
+installed-size	2110908
+depends	so:libc.musl-armhf.so.1 so:libprotobuf-c.so.1 so:libxxhash.so.0
+origin	libpg_query
+repo	community
+file	libpg_query-16.5.1.0-r0.apk
+checksum	Q18Hxj1J3Tt8y76Y7AIPO1Ayw4+RY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libprotobuf-c.so.1	protobuf-c
+dep	so:libxxhash.so.0	libxxhash

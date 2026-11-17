@@ -1,0 +1,13 @@
+name	libconfig
+version	1.8.2-r0
+description	A simple library for manipulating structured configuration files
+url	https://www.hyperrealm.com/libconfig/libconfig.html
+license	LGPL-2.1-or-later
+size	21247
+installed-size	46204
+depends	so:libc.musl-armhf.so.1
+origin	libconfig
+repo	main
+file	libconfig-1.8.2-r0.apk
+checksum	Q1Xzhfma8CVF9zHP+GUwNxN8+kNyo=
+dep	so:libc.musl-armhf.so.1	musl

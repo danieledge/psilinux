@@ -1,0 +1,15 @@
+name	faudio-dev
+version	24.09-r0
+description	Accuracy-focused XAudio reimplementation for open platforms (development files)
+url	https://fna-xna.github.io/
+license	Zlib
+size	25480
+installed-size	106699
+depends	faudio=24.09-r0 pc:sdl2 pkgconfig
+origin	faudio
+repo	community
+file	faudio-dev-24.09-r0.apk
+checksum	Q1q996bBgU2Y85AH2LrOMV2yTSnZw=
+dep	faudio=24.09-r0	faudio
+dep	pc:sdl2	sdl2-compat-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	qrupdate-dev
+version	1.1.5-r1
+description	Fork of the qrupdate library for future maintenance (development files)
+url	https://gitlab.mpi-magdeburg.mpg.de/koehlerm/qrupdate-ng
+license	GPL-3.0-only
+size	4532
+installed-size	7691
+depends	qrupdate=1.1.5-r1 pkgconfig
+origin	qrupdate
+repo	community
+file	qrupdate-dev-1.1.5-r1.apk
+checksum	Q1oQV0/yAaiQJHvJcFKkuRWdSNPx8=
+dep	qrupdate=1.1.5-r1	qrupdate
+dep	pkgconfig	pkgconf

@@ -1,0 +1,40 @@
+name	R
+version	4.6.0-r0
+description	Language and environment for statistical computing
+url	https://www.R-project.org/
+license	( GPL-2.0-only OR GPL-3.0-only ) AND LGPL-2.1-or-later
+size	26188730
+installed-size	37658529
+depends	R-mathlib tzdata /bin/sh openblas so:libX11.so.6 so:libXmu.so.6 so:libXt.so.6 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcurl.so.4 so:libdeflate.so.0 so:libgobject-2.0.so.0 so:libgomp.so.1 so:libicui18n.so.78 so:libicuuc.so.78 so:libjpeg.so.8 so:liblzma.so.5 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpcre2-8.so.0 so:libpng16.so.16 so:libreadline.so.8 so:libtcl8.6.so so:libtiff.so.6 so:libtk8.6.so so:libz.so.1 so:libzstd.so.1
+origin	R
+repo	community
+file	R-4.6.0-r0.apk
+checksum	Q1QW8D3fP4OrssdmasFG2RpJaw1XA=
+dep	R-mathlib	R-mathlib
+dep	tzdata	tzdata
+dep	/bin/sh	busybox-binsh
+dep	openblas	openblas
+dep	so:libX11.so.6	libx11
+dep	so:libXmu.so.6	libxmu
+dep	so:libXt.so.6	libxt
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcurl.so.4	libcurl
+dep	so:libdeflate.so.0	libdeflate
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgomp.so.1	libgomp
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:liblzma.so.5	xz-libs
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libpng16.so.16	libpng
+dep	so:libreadline.so.8	readline
+dep	so:libtcl8.6.so	tcl
+dep	so:libtiff.so.6	tiff
+dep	so:libtk8.6.so	tk
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

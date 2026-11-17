@@ -1,0 +1,17 @@
+name	cppcheck
+version	2.21.0-r0
+description	Static analysis tool for C/C++ code
+url	https://cppcheck.sourceforge.io/
+license	GPL-3.0-or-later
+size	2083423
+installed-size	8389878
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpcre.so.1 so:libstdc++.so.6 so:libtinyxml2.so.11
+origin	cppcheck
+repo	community
+file	cppcheck-2.21.0-r0.apk
+checksum	Q1lVLuZVCS2LqL2nSTRaVFNiT1hjE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpcre.so.1	pcre
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtinyxml2.so.11	tinyxml2

@@ -1,0 +1,38 @@
+name	samba-winbind-clients
+version	4.23.8-r0
+description	Samba winbind client tools
+url	https://www.samba.org/
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	52340
+installed-size	121444
+depends	samba-libs=4.23.8-r0 samba-util-libs=4.23.8-r0 libwbclient=4.23.8-r0 so:libauthkrb5-private-samba.so so:libc.musl-armhf.so.1 so:libcliauth-private-samba.so so:libcmdline-private-samba.so so:libgenrand-private-samba.so so:libgensec-private-samba.so so:libgnutls.so.30 so:libgse-private-samba.so so:libpopt.so.0 so:libreplace-private-samba.so so:libsamba-credentials.so.1 so:libsamba-debug-private-samba.so so:libsamba-errors.so.1 so:libsamba-hostconfig.so.0 so:libsamba-security-private-samba.so so:libsamba-util.so.0 so:libsamba3-util-private-samba.so so:libsecrets3-private-samba.so so:libsmbconf.so.0 so:libtalloc.so.2 so:libtevent-util.so.0 so:libtevent.so.0 so:libwbclient.so.0
+origin	samba
+repo	main
+file	samba-winbind-clients-4.23.8-r0.apk
+checksum	Q1SfYuEP2O5XwPsL7klBtyQR4nrwU=
+dep	samba-libs=4.23.8-r0	samba-libs
+dep	samba-util-libs=4.23.8-r0	samba-util-libs
+dep	libwbclient=4.23.8-r0	libwbclient
+dep	so:libauthkrb5-private-samba.so	samba-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcliauth-private-samba.so	samba-libs
+dep	so:libcmdline-private-samba.so	samba-libs
+dep	so:libgenrand-private-samba.so	samba-util-libs
+dep	so:libgensec-private-samba.so	samba-libs
+dep	so:libgnutls.so.30	gnutls
+dep	so:libgse-private-samba.so	samba-libs
+dep	so:libpopt.so.0	popt
+dep	so:libreplace-private-samba.so	samba-util-libs
+dep	so:libsamba-credentials.so.1	samba-libs
+dep	so:libsamba-debug-private-samba.so	samba-util-libs
+dep	so:libsamba-errors.so.1	samba-libs
+dep	so:libsamba-hostconfig.so.0	samba-libs
+dep	so:libsamba-security-private-samba.so	samba-libs
+dep	so:libsamba-util.so.0	samba-util-libs
+dep	so:libsamba3-util-private-samba.so	samba-libs
+dep	so:libsecrets3-private-samba.so	samba-libs
+dep	so:libsmbconf.so.0	samba-libs
+dep	so:libtalloc.so.2	talloc
+dep	so:libtevent-util.so.0	samba-libs
+dep	so:libtevent.so.0	tevent
+dep	so:libwbclient.so.0	libwbclient

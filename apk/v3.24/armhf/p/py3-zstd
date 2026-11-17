@@ -1,0 +1,15 @@
+name	py3-zstd
+version	1.5.7.3-r2
+description	Simple Python bindings to Yann Collet ZSTD compression library
+url	https://pypi.org/project/zstd/
+license	BSD-2-Clause
+size	15838
+installed-size	49593
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libzstd.so.1
+origin	py3-zstd
+repo	community
+file	py3-zstd-1.5.7.3-r2.apk
+checksum	Q1sPsy5DnRGHvJZRkqd3IAPPQbTuk=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libzstd.so.1	zstd-libs

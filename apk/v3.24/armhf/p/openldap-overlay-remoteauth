@@ -1,0 +1,15 @@
+name	openldap-overlay-remoteauth
+version	2.6.15-r0
+description	OpenLDAP remoteauth overlay
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	9936
+installed-size	23320
+depends	so:libc.musl-armhf.so.1 so:liblber.so.2 so:libldap.so.2
+origin	openldap
+repo	main
+file	openldap-overlay-remoteauth-2.6.15-r0.apk
+checksum	Q1Xz61xvDigH9xIqhDeOQlNVtyqzA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap

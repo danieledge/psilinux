@@ -1,0 +1,12 @@
+name	libxcb-dbg
+version	1.17.0-r2
+description	X11 client-side library (debug symbols)
+url	https://xcb.freedesktop.org/
+license	MIT
+size	852101
+installed-size	2995480
+depends	!libxcb<1.17.0-r2 !libxcb>1.17.0-r2
+origin	libxcb
+repo	main
+file	libxcb-dbg-1.17.0-r2.apk
+checksum	Q1a0H87ONY19GyhCc/HWEdViU6RCU=

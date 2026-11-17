@@ -1,0 +1,13 @@
+name	mmc-utils
+version	1.0-r0
+description	Configure MMC storage devices from userspace
+url	https://www.kernel.org/doc/html/latest/driver-api/mmc/mmc-tools.html
+license	GPL-2.0-only
+size	44027
+installed-size	96860
+depends	so:libc.musl-armhf.so.1
+origin	mmc-utils
+repo	community
+file	mmc-utils-1.0-r0.apk
+checksum	Q1JY6324WEK65ejfECFjzrTPtKFeQ=
+dep	so:libc.musl-armhf.so.1	musl

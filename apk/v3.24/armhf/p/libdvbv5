@@ -1,0 +1,14 @@
+name	libdvbv5
+version	1.32.0-r1
+description	libdvbv5 library
+url	https://linuxtv.org/
+license	LGPL-2.0-or-later
+size	106921
+installed-size	257136
+depends	so:libc.musl-armhf.so.1 so:libudev.so.1
+origin	v4l-utils
+repo	community
+file	libdvbv5-1.32.0-r1.apk
+checksum	Q1neEavNeJh5f0QgwDyf+ARK7Hznw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libudev.so.1	eudev-libs

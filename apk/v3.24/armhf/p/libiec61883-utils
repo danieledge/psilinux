@@ -1,0 +1,15 @@
+name	libiec61883-utils
+version	1.2.0-r4
+description	Utilities for use with libiec61883
+url	https://ieee1394.docs.kernel.org/en/latest/libiec61883.html
+license	LGPL-2.1-or-later
+size	7447
+installed-size	18776
+depends	so:libc.musl-armhf.so.1 so:libiec61883.so.0 so:libraw1394.so.11
+origin	libiec61883
+repo	community
+file	libiec61883-utils-1.2.0-r4.apk
+checksum	Q1fv2FoYOeTRu4ya9X4qN/MoMQr58=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libiec61883.so.0	libiec61883
+dep	so:libraw1394.so.11	libraw1394

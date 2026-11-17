@@ -1,0 +1,18 @@
+name	rook-autotype
+version	0.4.4-r0
+description	Autotype support for rook
+url	https://sr.ht/~ser/rook
+license	BSD-3-Clause
+size	3904
+installed-size	4981
+depends	ripgrep xdotool xprop yad zsh rofi
+origin	rook
+repo	community
+file	rook-autotype-0.4.4-r0.apk
+checksum	Q1tGtF3WeDRVUSf61/b5Xf8yUin7U=
+dep	ripgrep	ripgrep
+dep	xdotool	xdotool
+dep	xprop	xprop
+dep	yad	yad
+dep	zsh	zsh
+dep	rofi	rofi

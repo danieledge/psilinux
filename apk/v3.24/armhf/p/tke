@@ -1,0 +1,18 @@
+name	tke
+version	3.6.2-r0
+description	Advanced, modern code editor written in Tcl/Tk
+url	https://tke.sourceforge.net/
+license	GPL-2.0-or-later
+size	2601469
+installed-size	10137617
+depends	tcl tk tclx tcl-lib tk-lib tcl-tls
+origin	tke
+repo	community
+file	tke-3.6.2-r0.apk
+checksum	Q1zBiGA2J2+AFQywMmts778t8MBho=
+dep	tcl	tcl
+dep	tk	tk
+dep	tclx	tclx
+dep	tcl-lib	tcl-lib
+dep	tk-lib	tk-lib
+dep	tcl-tls	tcl-tls

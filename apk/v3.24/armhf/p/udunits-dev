@@ -1,0 +1,13 @@
+name	udunits-dev
+version	2.2.28-r0
+description	Library for handling of units of physical quantities (development files)
+url	https://www.unidata.ucar.edu/software/udunits/
+license	UCAR
+size	65455
+installed-size	189160
+depends	udunits=2.2.28-r0
+origin	udunits
+repo	community
+file	udunits-dev-2.2.28-r0.apk
+checksum	Q1sPzt61+HfT3/UVxiWAEY88Ij77g=
+dep	udunits=2.2.28-r0	udunits

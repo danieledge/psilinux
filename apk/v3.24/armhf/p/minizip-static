@@ -1,0 +1,13 @@
+name	minizip-static
+version	1.3.2-r1
+description	a library for manipulation with files from .zip archives (static library)
+url	https://zlib.net/
+license	Zlib
+size	21141
+installed-size	44120
+depends	minizip-dev
+origin	minizip
+repo	community
+file	minizip-static-1.3.2-r1.apk
+checksum	Q1Csn418eU3Ei0TNQ0+HF66gygr/o=
+dep	minizip-dev	minizip-dev

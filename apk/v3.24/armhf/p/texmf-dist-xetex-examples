@@ -1,0 +1,14 @@
+name	texmf-dist-xetex-examples
+version	2026.0-r0
+description	texmf-dist: XeTeX and packages (examples and documentation)
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	11455419
+installed-size	12940277
+depends	texmf-dist-xetex texmf-dist-xetex-doc
+origin	texmf-dist
+repo	community
+file	texmf-dist-xetex-examples-2026.0-r0.apk
+checksum	Q1jeeyAX4AEqB0Do0/1k9QwA0pOgE=
+dep	texmf-dist-xetex	texmf-dist-xetex
+dep	texmf-dist-xetex-doc	texmf-dist-xetex-doc

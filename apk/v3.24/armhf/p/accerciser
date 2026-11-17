@@ -1,0 +1,20 @@
+name	accerciser
+version	3.46.2-r1
+description	Interactive Python accessibility explorer
+url	https://gitlab.gnome.org/GNOME/accerciser
+license	BSD-3-Clause
+size	170806
+installed-size	762765
+depends	gtk+3.0 ipython librsvg libwnck3 py3-atspi py3-gobject3 py3-xlib python3~3.14
+origin	accerciser
+repo	community
+file	accerciser-3.46.2-r1.apk
+checksum	Q1KbC3lPelsN3Zd66vvy7QwqYHTQE=
+dep	gtk+3.0	gtk+3.0
+dep	ipython	ipython
+dep	librsvg	librsvg
+dep	libwnck3	libwnck3
+dep	py3-atspi	py3-atspi
+dep	py3-gobject3	py3-gobject3
+dep	py3-xlib	py3-xlib
+dep	python3~3.14	python3

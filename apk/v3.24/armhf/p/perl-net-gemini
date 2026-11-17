@@ -1,0 +1,19 @@
+name	perl-net-gemini
+version	0.11-r1
+description	Small Gemini client library
+url	https://metacpan.org/release/Net-Gemini/
+license	BSD-3-Clause
+size	16971
+installed-size	45243
+depends	perl perl-cpanel-json-xs perl-uri perl-io-socket-ssl perl-net-ssleay perl-parse-mime perl-file-slurper
+origin	perl-net-gemini
+repo	community
+file	perl-net-gemini-0.11-r1.apk
+checksum	Q1i772ru4OsHkeilvqlArxVWPJjh0=
+dep	perl	perl
+dep	perl-cpanel-json-xs	perl-cpanel-json-xs
+dep	perl-uri	perl-uri
+dep	perl-io-socket-ssl	perl-io-socket-ssl
+dep	perl-net-ssleay	perl-net-ssleay
+dep	perl-parse-mime	perl-parse-mime
+dep	perl-file-slurper	perl-file-slurper

@@ -1,0 +1,16 @@
+name	py3-dicttoxml
+version	1.7.16-r4
+description	Converts a Python dictionary or other native data type into a valid XML string
+url	https://github.com/quandyfactory/dicttoxml
+license	GPL-2.0-only
+size	25369
+installed-size	78035
+depends	py3-setuptools py3-gpep517 py3-wheel python3~3.14
+origin	py3-dicttoxml
+repo	community
+file	py3-dicttoxml-1.7.16-r4.apk
+checksum	Q1rq2DFS4xPpZVhLGQMCjb38sHupY=
+dep	py3-setuptools	py3-setuptools
+dep	py3-gpep517	py3-gpep517
+dep	py3-wheel	py3-wheel
+dep	python3~3.14	python3

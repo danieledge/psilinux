@@ -1,0 +1,13 @@
+name	libsodium
+version	1.0.22-r0
+description	P(ortable|ackageable) NaCl-based crypto library
+url	https://github.com/jedisct1/libsodium
+license	ISC
+size	174697
+installed-size	383440
+depends	so:libc.musl-armhf.so.1
+origin	libsodium
+repo	main
+file	libsodium-1.0.22-r0.apk
+checksum	Q1Es4QFHya/h6yaJFpQlBc0vU1gec=
+dep	so:libc.musl-armhf.so.1	musl

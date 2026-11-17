@@ -1,0 +1,13 @@
+name	libeatmydata
+version	131-r7
+description	LD_PRELOAD library and utility that disables all forms of writing data safely to disk
+url	https://www.flamingspork.com/projects/libeatmydata/
+license	GPL-3.0-or-later
+size	5615
+installed-size	12912
+depends	so:libc.musl-armhf.so.1
+origin	libeatmydata
+repo	main
+file	libeatmydata-131-r7.apk
+checksum	Q1Tp2U++APhZKh6TLmQaIJFced5GE=
+dep	so:libc.musl-armhf.so.1	musl

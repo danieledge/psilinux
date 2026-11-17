@@ -1,0 +1,14 @@
+name	reproc-dev
+version	14.2.5-r0
+description	Cross-platform (C99/C++11) process library (development files)
+url	https://github.com/DaanDeMeyer/reproc
+license	MIT
+size	18065
+installed-size	58758
+depends	reproc=14.2.5-r0 pkgconfig
+origin	reproc
+repo	community
+file	reproc-dev-14.2.5-r0.apk
+checksum	Q1WHuVuCVFnbgGsyWnqMrMbP0lCPs=
+dep	reproc=14.2.5-r0	reproc
+dep	pkgconfig	pkgconf

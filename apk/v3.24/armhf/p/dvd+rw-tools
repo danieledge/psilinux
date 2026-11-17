@@ -1,0 +1,16 @@
+name	dvd+rw-tools
+version	7.1-r4
+description	DVD and Blu-ray burning tools
+url	https://fy.chalmers.se/~appro/linux/DVD+RW/
+license	GPL
+size	108563
+installed-size	256508
+depends	cdrkit so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	dvd+rw-tools
+repo	community
+file	dvd+rw-tools-7.1-r4.apk
+checksum	Q1Xg6PFf/sjyV0z8g+PpczOzoSDvA=
+dep	cdrkit	cdrkit
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,17 @@
+name	sane-backend-magicolor
+version	1.4.0-r4
+description	SANE backend for KONICA MINOLTA magicolor and Toshiba TEC e-STUDIO scanners
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	56458
+installed-size	119029
+depends	sane so:libc.musl-armhf.so.1 so:libnetsnmp.so.45 so:libusb-1.0.so.0 so:libxml2.so.2
+origin	sane
+repo	community
+file	sane-backend-magicolor-1.4.0-r4.apk
+checksum	Q1r3ufbL7RnOVmu4lQuEtpp1SG650=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnetsnmp.so.45	net-snmp-libs
+dep	so:libusb-1.0.so.0	libusb
+dep	so:libxml2.so.2	libxml2

@@ -1,0 +1,13 @@
+name	go-sendxmpp
+version	0.15.1-r8
+description	Tool to send messages to an XMPP contact or MUC
+url	https://salsa.debian.org/mdosch/go-sendxmpp
+license	BSD-2-Clause
+size	3947092
+installed-size	9793220
+depends	so:libc.musl-armhf.so.1
+origin	go-sendxmpp
+repo	community
+file	go-sendxmpp-0.15.1-r8.apk
+checksum	Q18jPZG8BXVR1Z5nGKUXvBwGLwz8w=
+dep	so:libc.musl-armhf.so.1	musl

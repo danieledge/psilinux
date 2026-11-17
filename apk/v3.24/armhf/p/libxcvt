@@ -1,0 +1,13 @@
+name	libxcvt
+version	0.1.3-r0
+description	xorg xcvt library and cvt program
+url	https://gitlab.freedesktop.org/xorg/lib/libxcvt
+license	custom
+size	8857
+installed-size	22872
+depends	so:libc.musl-armhf.so.1
+origin	libxcvt
+repo	community
+file	libxcvt-0.1.3-r0.apk
+checksum	Q1gzHFcCi7ZG5oU3z7OMNcuKcAUAs=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	v2ray
+version	5.47.0-r4
+description	A platform for building proxies to bypass network restrictions
+url	https://v2fly.org
+license	MIT
+size	18006554
+installed-size	59306768
+depends	so:libc.musl-armhf.so.1
+origin	v2ray
+repo	community
+file	v2ray-5.47.0-r4.apk
+checksum	Q1w0CnaY3mUD3JOuxN78kaxbjzve0=
+dep	so:libc.musl-armhf.so.1	musl

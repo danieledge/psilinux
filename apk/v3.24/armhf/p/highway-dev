@@ -1,0 +1,17 @@
+name	highway-dev
+version	1.3.0-r0
+description	Performance-portable, length-agnostic SIMD with runtime dispatch (development files)
+url	https://github.com/google/highway
+license	Apache-2.0
+size	722608
+installed-size	4492170
+depends	libhwy=1.3.0-r0 libhwy_contrib=1.3.0-r0 libhwy_test=1.3.0-r0 pc:gtest pkgconfig
+origin	highway
+repo	community
+file	highway-dev-1.3.0-r0.apk
+checksum	Q1ym4hliUSE+tEzcsm4ZXifqNQVgk=
+dep	libhwy=1.3.0-r0	libhwy
+dep	libhwy_contrib=1.3.0-r0	libhwy_contrib
+dep	libhwy_test=1.3.0-r0	libhwy_test
+dep	pc:gtest	gtest-dev
+dep	pkgconfig	pkgconf

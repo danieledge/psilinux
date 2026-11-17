@@ -1,0 +1,14 @@
+name	pkcs11-helper
+version	1.31.0-r0
+description	Library that simplifies the interaction with PKCS#11 providers
+url	https://github.com/OpenSC/pkcs11-helper
+license	GPL-2.0-only AND BSD-3-Clause
+size	43744
+installed-size	107868
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	pkcs11-helper
+repo	main
+file	pkcs11-helper-1.31.0-r0.apk
+checksum	Q17svzcxBAtLiTBRd3A995+eyXgMQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

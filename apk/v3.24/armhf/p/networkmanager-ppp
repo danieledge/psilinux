@@ -1,0 +1,18 @@
+name	networkmanager-ppp
+version	1.52.2-r0
+description	PPP plugin for NetworkManager
+url	https://networkmanager.dev
+license	GPL-2.0-or-later
+size	19118
+installed-size	43396
+depends	libnm=1.52.2-r0 dbus so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	networkmanager
+repo	community
+file	networkmanager-ppp-1.52.2-r0.apk
+checksum	Q12/3UMHbrrj8ZUel5Egy1tpXsr3Y=
+dep	libnm=1.52.2-r0	libnm
+dep	dbus	dbus
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

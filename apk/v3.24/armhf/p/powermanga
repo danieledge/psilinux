@@ -1,0 +1,17 @@
+name	powermanga
+version	0.93.1-r1
+description	arcade 2D shoot-them-up game
+url	http://linux.tlk.fr/games/Powermanga
+license	GPL-3.0-only
+size	10614036
+installed-size	19605734
+depends	libmikmod so:libSDL-1.2.so.0 so:libSDL_mixer-1.2.so.0 so:libc.musl-armhf.so.1 so:libpng16.so.16
+origin	powermanga
+repo	community
+file	powermanga-0.93.1-r1.apk
+checksum	Q1bL/Jv8L2BqLJORQywuGfhmOqE8k=
+dep	libmikmod	libmikmod
+dep	so:libSDL-1.2.so.0	sdl12-compat
+dep	so:libSDL_mixer-1.2.so.0	sdl_mixer
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpng16.so.16	libpng

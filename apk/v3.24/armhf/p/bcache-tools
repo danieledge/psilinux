@@ -1,0 +1,16 @@
+name	bcache-tools
+version	1.1-r5
+description	tools for managing bcache
+url	https://bcache.evilpiepirate.org/
+license	GPL-2.0-or-later
+size	40186
+installed-size	87605
+depends	so:libblkid.so.1 so:libc.musl-armhf.so.1 so:libsmartcols.so.1 so:libuuid.so.1
+origin	bcache-tools
+repo	main
+file	bcache-tools-1.1-r5.apk
+checksum	Q1rNjfQ7h71StjxA3kuccDstQNSd8=
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsmartcols.so.1	libsmartcols
+dep	so:libuuid.so.1	libuuid

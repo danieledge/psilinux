@@ -1,0 +1,15 @@
+name	rapidyaml
+version	0.5.0-r5
+description	Library to parse and emit YAML, and do it fast
+url	https://github.com/biojppm/rapidyaml/
+license	MIT
+size	103219
+installed-size	243332
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	rapidyaml
+repo	community
+file	rapidyaml-0.5.0-r5.apk
+checksum	Q1lCgtDrM5J6J4ZqWLStfPqFfgFm4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

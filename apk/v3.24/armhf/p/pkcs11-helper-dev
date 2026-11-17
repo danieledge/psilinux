@@ -1,0 +1,14 @@
+name	pkcs11-helper-dev
+version	1.31.0-r0
+description	Library that simplifies the interaction with PKCS#11 providers (development files)
+url	https://github.com/OpenSC/pkcs11-helper
+license	GPL-2.0-only AND BSD-3-Clause
+size	84994
+installed-size	316049
+depends	pkcs11-helper=1.31.0-r0 pkgconfig
+origin	pkcs11-helper
+repo	main
+file	pkcs11-helper-dev-1.31.0-r0.apk
+checksum	Q1cgcI55NAnYDOxoYBx4M3HB5jW8U=
+dep	pkcs11-helper=1.31.0-r0	pkcs11-helper
+dep	pkgconfig	pkgconf

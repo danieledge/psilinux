@@ -1,0 +1,13 @@
+name	raspberrypi-utils-pinctrl-bash-completion
+version	0.20260811-r0
+description	Bash completions for raspberrypi-utils-pinctrl
+url	https://github.com/raspberrypi/utils
+license	BSD-3-Clause
+size	2492
+installed-size	2768
+depends	raspberrypi-utils-pinctrl=0.20260811-r0
+origin	raspberrypi-utils
+repo	community
+file	raspberrypi-utils-pinctrl-bash-completion-0.20260811-r0.apk
+checksum	Q12kaMqiZxwuu2MUiU/IPIBuaebMc=
+dep	raspberrypi-utils-pinctrl=0.20260811-r0	raspberrypi-utils-pinctrl

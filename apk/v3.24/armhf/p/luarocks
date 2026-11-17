@@ -1,0 +1,13 @@
+name	luarocks
+version	3.12.2-r1
+description	Deployment and management system for Lua modules
+url	https://luarocks.org/
+license	MIT
+size	1261
+installed-size	0
+depends	curl
+origin	luarocks
+repo	community
+file	luarocks-3.12.2-r1.apk
+checksum	Q19TOda7vQ/ZdQVlrp/aXOD4QHbPo=
+dep	curl	curl

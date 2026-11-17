@@ -1,0 +1,30 @@
+name	luakit
+version	2.4.0-r0
+description	Fast, small, webkit based browser framework extensible by Lua
+url	https://luakit.github.io/
+license	GPL-3.0-or-later
+size	419045
+installed-size	1296231
+depends	gsettings-desktop-schemas gst-plugins-good lua5.1-filesystem lua5.1-socket so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libjavascriptcoregtk-4.1.so.0 so:libluajit-5.1.so.2 so:libpango-1.0.so.0 so:libsoup-3.0.so.0 so:libsqlite3.so.0 so:libwebkit2gtk-4.1.so.0
+origin	luakit
+repo	community
+file	luakit-2.4.0-r0.apk
+checksum	Q12yg4sNIOdFI/cT6DOshtlY4L7m4=
+dep	gsettings-desktop-schemas	gsettings-desktop-schemas
+dep	gst-plugins-good	gst-plugins-good
+dep	lua5.1-filesystem	lua5.1-filesystem
+dep	lua5.1-socket	lua5.1-socket
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libjavascriptcoregtk-4.1.so.0	webkit2gtk-4.1
+dep	so:libluajit-5.1.so.2	luajit
+dep	so:libpango-1.0.so.0	pango
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libwebkit2gtk-4.1.so.0	webkit2gtk-4.1

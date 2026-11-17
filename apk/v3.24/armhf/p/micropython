@@ -1,0 +1,14 @@
+name	micropython
+version	1.28.0-r0
+description	lean and efficient Python implementation for MCUs and constrained systems
+url	https://www.micropython.org/
+license	MIT
+size	239761
+installed-size	484808
+depends	so:libc.musl-armhf.so.1 so:libffi.so.8
+origin	micropython
+repo	community
+file	micropython-1.28.0-r0.apk
+checksum	Q1b2fSoIBw0MWT/LJcqk9lNKv0u88=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libffi.so.8	libffi

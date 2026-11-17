@@ -1,0 +1,14 @@
+name	py3-xkcdpass
+version	1.30.0-r2
+description	Python library for xkcdpass
+url	https://github.com/redacted/XKCD-password-generator
+license	BSD-3-Clause
+size	2752582
+installed-size	9222743
+depends	py3-xkcdpass=1.30.0-r2 python3~3.14
+origin	xkcdpass
+repo	community
+file	py3-xkcdpass-1.30.0-r2.apk
+checksum	Q1y+UC2YrzQQgxZ1oOEr9Q169GkxA=
+dep	py3-xkcdpass=1.30.0-r2	py3-xkcdpass
+dep	python3~3.14	python3

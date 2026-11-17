@@ -1,0 +1,17 @@
+name	njs
+version	0.9.9-r0
+description	NGINX JavaScript interpreter CLI
+url	https://nginx.org/en/docs/njs/
+license	BSD-2-Clause
+size	307391
+installed-size	739780
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libedit.so.0 so:libpcre2-8.so.0 so:libz.so.1
+origin	njs
+repo	community
+file	njs-0.9.9-r0.apk
+checksum	Q1sH6DHcUHZ/L+ICbBwJm9+HvQ83Q=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libedit.so.0	libedit
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libz.so.1	zlib

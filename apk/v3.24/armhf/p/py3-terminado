@@ -1,0 +1,15 @@
+name	py3-terminado
+version	0.18.1-r2
+description	Tornado websocket backend for xterm.js
+url	https://github.com/jupyter/terminado
+license	BSD-2-Clause
+size	13262
+installed-size	33325
+depends	py3-ptyprocess py3-tornado python3~3.14
+origin	py3-terminado
+repo	community
+file	py3-terminado-0.18.1-r2.apk
+checksum	Q1i8zJF/hdD58ku/Y+NAXbLiRvRPY=
+dep	py3-ptyprocess	py3-ptyprocess
+dep	py3-tornado	py3-tornado
+dep	python3~3.14	python3

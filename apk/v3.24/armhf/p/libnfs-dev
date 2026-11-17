@@ -1,0 +1,14 @@
+name	libnfs-dev
+version	5.0.3-r0
+description	Client library for accessing NFS shares (development files)
+url	https://github.com/sahlberg/libnfs
+license	LGPL-2.1-or-later
+size	49906
+installed-size	341447
+depends	libnfs=5.0.3-r0 pkgconfig
+origin	libnfs
+repo	community
+file	libnfs-dev-5.0.3-r0.apk
+checksum	Q1P2uSx3TFikoW5O1VoQVM8F+KmYw=
+dep	libnfs=5.0.3-r0	libnfs
+dep	pkgconfig	pkgconf

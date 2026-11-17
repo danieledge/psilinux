@@ -1,0 +1,26 @@
+name	pango-dev
+version	1.57.1-r0
+description	library for layout and rendering of text (development files)
+url	https://www.pango.org/
+license	LGPL-2.1-or-later
+size	206825
+installed-size	1588563
+depends	pango-tools=1.57.1-r0 pango=1.57.1-r0 pc:cairo>=1.18.0 pc:fontconfig>=2.17.0 pc:freetype2 pc:fribidi>=1.0.6 pc:gio-2.0>=2.82 pc:glib-2.0>=2.82 pc:gobject-2.0>=2.82 pc:harfbuzz-gobject>=8.4.0 pc:harfbuzz>=8.4.0 pc:xft>=2.0.0 pc:xrender pkgconfig
+origin	pango
+repo	main
+file	pango-dev-1.57.1-r0.apk
+checksum	Q1QE2OtSITw42ex2bFTcPnv21PiGo=
+dep	pango-tools=1.57.1-r0	pango-tools
+dep	pango=1.57.1-r0	pango
+dep	pc:cairo>=1.18.0	cairo-dev
+dep	pc:fontconfig>=2.17.0	fontconfig-dev
+dep	pc:freetype2	freetype-dev
+dep	pc:fribidi>=1.0.6	fribidi-dev
+dep	pc:gio-2.0>=2.82	glib-dev
+dep	pc:glib-2.0>=2.82	glib-dev
+dep	pc:gobject-2.0>=2.82	glib-dev
+dep	pc:harfbuzz-gobject>=8.4.0	harfbuzz-dev
+dep	pc:harfbuzz>=8.4.0	harfbuzz-dev
+dep	pc:xft>=2.0.0	libxft-dev
+dep	pc:xrender	libxrender-dev
+dep	pkgconfig	pkgconf

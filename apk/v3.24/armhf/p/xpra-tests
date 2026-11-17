@@ -1,0 +1,28 @@
+name	xpra-tests
+version	6.4.3-r0
+description	Xpra test suite
+url	https://xpra.org
+license	GPL-2.0-or-later
+size	165876
+installed-size	636894
+depends	py3-brotli py3-cairo py3-cryptography py3-dbus py3-gobject3 py3-inotify py3-lz4 py3-numpy py3-opengl py3-openssl py3-pillow py3-rencode py3-uinput xf86-video-dummy xorg-server xvfb
+origin	xpra
+repo	community
+file	xpra-tests-6.4.3-r0.apk
+checksum	Q1Yn+wAgrLPylefegcMQGVDWN9X+E=
+dep	py3-brotli	py3-brotli
+dep	py3-cairo	py3-cairo
+dep	py3-cryptography	py3-cryptography
+dep	py3-dbus	py3-dbus
+dep	py3-gobject3	py3-gobject3
+dep	py3-inotify	py3-inotify
+dep	py3-lz4	py3-lz4
+dep	py3-numpy	py3-numpy
+dep	py3-opengl	py3-opengl
+dep	py3-openssl	py3-openssl
+dep	py3-pillow	py3-pillow
+dep	py3-rencode	py3-rencode
+dep	py3-uinput	py3-uinput
+dep	xf86-video-dummy	xf86-video-dummy
+dep	xorg-server	xorg-server
+dep	xvfb	xvfb

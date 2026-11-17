@@ -1,0 +1,19 @@
+name	words
+version	2.1-r2
+description	Collection of international 'words' file for /usr/share/dict
+url	https://ftp.gnu.org/gnu/aspell/dict/0index.html
+license	GPL-2.0-or-later
+size	1315
+installed-size	0
+depends	words-en words-gb words-it words-es words-fi words-fr words-de
+origin	words
+repo	community
+file	words-2.1-r2.apk
+checksum	Q195Y7oYhixcE26ZGWH4eztyujKXc=
+dep	words-en	words-en
+dep	words-gb	words-gb
+dep	words-it	words-it
+dep	words-es	words-es
+dep	words-fi	words-fi
+dep	words-fr	words-fr
+dep	words-de	words-de

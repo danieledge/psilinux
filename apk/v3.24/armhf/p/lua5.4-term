@@ -1,0 +1,14 @@
+name	lua5.4-term
+version	0.07-r3
+description	Terminal operations for Lua 5.4
+url	https://github.com/hoelzro/lua-term
+license	MIT
+size	5360
+installed-size	10728
+depends	lua5.4 so:libc.musl-armhf.so.1
+origin	lua-term
+repo	main
+file	lua5.4-term-0.07-r3.apk
+checksum	Q14hKyx3fr4rlklCB7f6kqUJQokzQ=
+dep	lua5.4	lua5.4
+dep	so:libc.musl-armhf.so.1	musl

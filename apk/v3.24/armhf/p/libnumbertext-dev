@@ -1,0 +1,14 @@
+name	libnumbertext-dev
+version	1.0.11-r1
+description	Number to number name and money text conversion library (development files)
+url	https://github.com/Numbertext/libnumbertext
+license	BSD-3-Clause
+size	2935
+installed-size	2557
+depends	libnumbertext=1.0.11-r1 pkgconfig
+origin	libnumbertext
+repo	community
+file	libnumbertext-dev-1.0.11-r1.apk
+checksum	Q1ngHm+e1Y+M551H40omkxbkFaqRY=
+dep	libnumbertext=1.0.11-r1	libnumbertext
+dep	pkgconfig	pkgconf

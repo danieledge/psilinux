@@ -1,0 +1,13 @@
+name	libndp
+version	1.9-r1
+description	Library for IPv6 Neighbor Discovery Protocol
+url	http://libndp.org
+license	LGPL-2.1-or-later
+size	16239
+installed-size	35416
+depends	so:libc.musl-armhf.so.1
+origin	libndp
+repo	community
+file	libndp-1.9-r1.apk
+checksum	Q1Nu7HK5i8DF1rzrqNSrJJqeIUdTA=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	claws-mail-dev
+version	4.4.0-r0
+description	GTK+ based e-mail client (development files)
+url	https://www.claws-mail.org
+license	GPL-3.0-or-later
+size	149371
+installed-size	653281
+depends	pkgconfig
+origin	claws-mail
+repo	community
+file	claws-mail-dev-4.4.0-r0.apk
+checksum	Q1+CweWt0DhQticlikc8mg20TxjOk=
+dep	pkgconfig	pkgconf

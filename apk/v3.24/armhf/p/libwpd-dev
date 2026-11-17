@@ -1,0 +1,15 @@
+name	libwpd-dev
+version	0.10.3-r1
+description	Import filter and tools for WordPerfect Documents (development files)
+url	https://sourceforge.net/p/libwpd/
+license	MPL-2.0 LGPL-2.1-or-later
+size	3466
+installed-size	4084
+depends	libwpd=0.10.3-r1 pc:librevenge-0.0 pkgconfig
+origin	libwpd
+repo	community
+file	libwpd-dev-0.10.3-r1.apk
+checksum	Q1MwSA9F6w8737IyBu/h+/UKOXAZk=
+dep	libwpd=0.10.3-r1	libwpd
+dep	pc:librevenge-0.0	librevenge-dev
+dep	pkgconfig	pkgconf

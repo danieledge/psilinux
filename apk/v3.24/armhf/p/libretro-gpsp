@@ -1,0 +1,13 @@
+name	libretro-gpsp
+version	0_git20250120-r0
+description	gpSP for libretro
+url	https://github.com/libretro/gpsp
+license	GPL-2.0-only
+size	195715
+installed-size	469740
+depends	so:libc.musl-armhf.so.1
+origin	libretro-gpsp
+repo	community
+file	libretro-gpsp-0_git20250120-r0.apk
+checksum	Q1HhNYGxHERATtl2idUahsbipPKec=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	xkbcomp
+version	1.5.0-r0
+description	XKBD keymap compiler
+url	https://xorg.freedesktop.org
+license	MIT
+size	83077
+installed-size	180644
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1 so:libxkbfile.so.1
+origin	xkbcomp
+repo	main
+file	xkbcomp-1.5.0-r0.apk
+checksum	Q1+6/bNK+6DdkCz+CQeq+eXF8WOhE=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxkbfile.so.1	libxkbfile

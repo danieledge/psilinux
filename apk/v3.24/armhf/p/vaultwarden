@@ -1,0 +1,20 @@
+name	vaultwarden
+version	1.37.5-r0
+description	Bitwarden alternative backend
+url	https://github.com/dani-garcia/vaultwarden
+license	AGPL-3.0-only
+size	8638316
+installed-size	20564781
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libmariadb.so.3 so:libmimalloc-secure.so.2 so:libpq.so.5 so:libssl.so.3
+origin	vaultwarden
+repo	community
+file	vaultwarden-1.37.5-r0.apk
+checksum	Q1o2w5d39Vk1pVzvt16vIWjZffShQ=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmariadb.so.3	mariadb-connector-c
+dep	so:libmimalloc-secure.so.2	mimalloc2
+dep	so:libpq.so.5	libpq
+dep	so:libssl.so.3	libssl3

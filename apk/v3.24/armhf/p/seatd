@@ -1,0 +1,14 @@
+name	seatd
+version	0.9.3-r0
+description	Minimal seat management daemon
+url	https://sr.ht/~kennylevinsen/seatd/
+license	MIT
+size	18713
+installed-size	38188
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	seatd
+repo	community
+file	seatd-0.9.3-r0.apk
+checksum	Q1BfunPRK3BdzqSejp40GIpKefPyM=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

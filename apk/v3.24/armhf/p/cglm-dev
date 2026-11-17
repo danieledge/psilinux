@@ -1,0 +1,14 @@
+name	cglm-dev
+version	0.9.6-r0
+description	Highly Optimized Graphics Math (glm) for C (development files)
+url	http://cglm.readthedocs.io
+license	MIT
+size	147203
+installed-size	1016336
+depends	cglm=0.9.6-r0 pkgconfig
+origin	cglm
+repo	community
+file	cglm-dev-0.9.6-r0.apk
+checksum	Q1ICSIKCOt7aOsAcIvEmbVUdXkU40=
+dep	cglm=0.9.6-r0	cglm
+dep	pkgconfig	pkgconf

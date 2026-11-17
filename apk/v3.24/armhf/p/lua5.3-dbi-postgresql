@@ -1,0 +1,15 @@
+name	lua5.3-dbi-postgresql
+version	0.7.5-r0
+description	database interface library for Lua 5.3 and postgresql
+url	https://github.com/mwild1/luadbi
+license	MIT
+size	9048
+installed-size	15379
+depends	lua5.3 so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	lua-dbi
+repo	main
+file	lua5.3-dbi-postgresql-0.7.5-r0.apk
+checksum	Q1u3LtI5IqY2M3Cven4d7SY61q0jA=
+dep	lua5.3	lua5.3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

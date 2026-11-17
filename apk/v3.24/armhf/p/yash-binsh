@@ -1,0 +1,14 @@
+name	yash-binsh
+version	2.60-r0
+description	yash as /bin/sh
+url	https://magicant.github.io/yash/
+license	GPL-2.0-or-later
+size	1533
+installed-size	1
+depends	busybox yash=2.60-r0
+origin	yash
+repo	main
+file	yash-binsh-2.60-r0.apk
+checksum	Q1FTzHfeawN7awlh6iLPaIMzyRCi0=
+dep	busybox	busybox
+dep	yash=2.60-r0	yash

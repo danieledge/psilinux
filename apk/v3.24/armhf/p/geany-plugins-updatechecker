@@ -1,0 +1,19 @@
+name	geany-plugins-updatechecker
+version	2.1-r0
+description	A plugin to check whether there is a more recent version of Geany available
+url	https://plugins.geany.org/
+license	GPL-3.0-or-later
+size	6096
+installed-size	13464
+depends	so:libc.musl-armhf.so.1 so:libgeany.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libsoup-3.0.so.0
+origin	geany-plugins
+repo	community
+file	geany-plugins-updatechecker-2.1-r0.apk
+checksum	Q17v/pk6Bhqec1Pr37wWtQ4JIdyhM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgeany.so.0	geany
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libsoup-3.0.so.0	libsoup3

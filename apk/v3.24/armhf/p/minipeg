@@ -1,0 +1,13 @@
+name	minipeg
+version	0.1.18_git20221008-r0
+description	Minimal fork of peg/leg C parser generator
+url	https://ach.srht.site/minipeg
+license	MIT
+size	17197
+installed-size	38072
+depends	so:libc.musl-armhf.so.1
+origin	minipeg
+repo	community
+file	minipeg-0.1.18_git20221008-r0.apk
+checksum	Q1+n7jmA7mVHgvgLSL/AK8K/yR/Go=
+dep	so:libc.musl-armhf.so.1	musl

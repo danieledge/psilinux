@@ -1,0 +1,13 @@
+name	tinyssh
+version	20260601-r0
+description	Small SSH server using NaCl / TweetNaCl (no dependency on OpenSSL)
+url	https://tinyssh.org/
+license	CC0-1.0 OR 0BSD OR MIT-0 OR MIT
+size	234418
+installed-size	516960
+depends	so:libc.musl-armhf.so.1
+origin	tinyssh
+repo	community
+file	tinyssh-20260601-r0.apk
+checksum	Q11TJJwDi1fSbz3slXfaA/jS6FR28=
+dep	so:libc.musl-armhf.so.1	musl

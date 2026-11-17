@@ -1,0 +1,14 @@
+name	perl-digest-crc
+version	0.24-r3
+description	Perl module for calculating CRC sums
+url	https://metacpan.org/release/Digest-CRC/
+license	Public-Domain
+size	10593
+installed-size	23245
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-digest-crc
+repo	community
+file	perl-digest-crc-0.24-r3.apk
+checksum	Q1n7yad6LhLxefCb/OLZUXfC4eIaY=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

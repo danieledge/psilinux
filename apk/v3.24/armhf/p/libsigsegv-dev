@@ -1,0 +1,13 @@
+name	libsigsegv-dev
+version	2.15-r0
+description	Page fault detection library (development files)
+url	https://www.gnu.org/software/libsigsegv/
+license	GPL-2.0-or-later
+size	5052
+installed-size	9727
+depends	libsigsegv=2.15-r0
+origin	libsigsegv
+repo	community
+file	libsigsegv-dev-2.15-r0.apk
+checksum	Q11+PchTjjGb0mYPHav7yCTTQUXRo=
+dep	libsigsegv=2.15-r0	libsigsegv

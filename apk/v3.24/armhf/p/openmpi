@@ -1,0 +1,18 @@
+name	openmpi
+version	4.1.6-r1
+description	Message passing library for high-performance computing
+url	https://www.open-mpi.org/
+license	custom
+size	3110915
+installed-size	7791933
+depends	so:libc.musl-armhf.so.1 so:libevent_core-2.1.so.7 so:libevent_pthreads-2.1.so.7 so:libgcc_s.so.1 so:libhwloc.so.15 so:libz.so.1
+origin	openmpi
+repo	community
+file	openmpi-4.1.6-r1.apk
+checksum	Q1R6XhccSWK0ENxA+EySLOV88fITw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevent_core-2.1.so.7	libevent
+dep	so:libevent_pthreads-2.1.so.7	libevent
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libhwloc.so.15	hwloc
+dep	so:libz.so.1	zlib

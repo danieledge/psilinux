@@ -1,0 +1,13 @@
+name	a52dec-static
+version	0.8.0-r11
+description	A free library for decoding ATSC A/52 streams. (static library)
+url	https://liba52.sourceforge.net/
+license	GPL-2.0-or-later
+size	17056
+installed-size	35826
+depends	a52dec-dev
+origin	a52dec
+repo	community
+file	a52dec-static-0.8.0-r11.apk
+checksum	Q1ZP3fR6L1rOFuQ+n88bvJdh3afvw=
+dep	a52dec-dev	a52dec-dev

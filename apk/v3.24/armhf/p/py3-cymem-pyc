@@ -1,0 +1,13 @@
+name	py3-cymem-pyc
+version	2.0.13-r1
+description	Precompiled Python bytecode for py3-cymem
+url	https://github.com/explosion/cymem
+license	MIT
+size	2205
+installed-size	603
+depends	python3~3.14
+origin	py3-cymem
+repo	community
+file	py3-cymem-pyc-2.0.13-r1.apk
+checksum	Q1C8x8ZcgGLu0luoWRYIZ62wBnAqo=
+dep	python3~3.14	python3

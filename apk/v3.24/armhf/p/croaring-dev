@@ -1,0 +1,16 @@
+name	croaring-dev
+version	4.6.1-r0
+description	fast compressed bitmaps in C (and C++) (development files)
+url	https://github.com/RoaringBitmap/CRoaring
+license	Apache-2.0 OR MIT
+size	95735
+installed-size	516410
+depends	croaring=4.6.1-r0 linux-headers croaring=4.6.1-r0 pkgconfig
+origin	croaring
+repo	community
+file	croaring-dev-4.6.1-r0.apk
+checksum	Q14CWvdE0Lqz9ddBnnj0z7BLlbpGE=
+dep	croaring=4.6.1-r0	croaring
+dep	linux-headers	linux-headers
+dep	croaring=4.6.1-r0	croaring
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	lrdf-dev
+version	0.6.1-r2
+description	RDF library for accessing plugin metadata in the LADSPA plugin system (development files)
+url	https://github.com/swh/LRDF
+license	GPL-2.0-only
+size	4854
+installed-size	8340
+depends	lrdf=0.6.1-r2 pkgconfig
+origin	lrdf
+repo	community
+file	lrdf-dev-0.6.1-r2.apk
+checksum	Q1Z564p4UcGEffeFLqi7bULmMh2Cg=
+dep	lrdf=0.6.1-r2	lrdf
+dep	pkgconfig	pkgconf

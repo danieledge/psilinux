@@ -1,0 +1,25 @@
+name	poco
+version	1.15.1-r0
+description	C++ class libraries for building network- and internet-based applications
+url	https://pocoproject.org/
+license	BSL-1.0
+size	5117872
+installed-size	14101708
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libexpat.so.1 so:libgcc_s.so.1 so:libmariadb.so.3 so:libodbc.so.2 so:libpcre2-8.so.0 so:libpq.so.5 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libutf8proc.so.3 so:libz.so.1
+origin	poco
+repo	community
+file	poco-1.15.1-r0.apk
+checksum	Q1bSCfI5MD4vTGKTXebYoIj+ITOKs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libexpat.so.1	libexpat
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmariadb.so.3	mariadb-connector-c
+dep	so:libodbc.so.2	unixodbc
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libpq.so.5	libpq
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libutf8proc.so.3	utf8proc
+dep	so:libz.so.1	zlib

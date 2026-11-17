@@ -1,0 +1,17 @@
+name	kimageannotator-dev
+version	0.7.2-r0
+description	Tool for annotating images (development files)
+url	https://github.com/ksnip/kImageAnnotator
+license	LGPL-3.0-or-later
+size	6583
+installed-size	13213
+depends	kcolorpicker-dev qt6-qtbase-dev qt6-qtsvg-dev qt6-qttools-dev kimageannotator=0.7.2-r0
+origin	kimageannotator
+repo	community
+file	kimageannotator-dev-0.7.2-r0.apk
+checksum	Q1UNqXmbL/1NU4atUdEUjye5OduZE=
+dep	kcolorpicker-dev	kcolorpicker-dev
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	qt6-qtsvg-dev	qt6-qtsvg-dev
+dep	qt6-qttools-dev	qt6-qttools-dev
+dep	kimageannotator=0.7.2-r0	kimageannotator

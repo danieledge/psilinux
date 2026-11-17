@@ -1,0 +1,14 @@
+name	py3-lsp-jsonrpc
+version	1.1.2-r2
+description	asynchronous JSON RPC server, fork of python-jsonrpc-server
+url	https://github.com/python-lsp/python-lsp-jsonrpc
+license	MIT
+size	8924
+installed-size	21777
+depends	py3-ujson python3~3.14
+origin	py3-lsp-jsonrpc
+repo	community
+file	py3-lsp-jsonrpc-1.1.2-r2.apk
+checksum	Q1Orm+p6MmC+QNUBnc9RzNCh1x9dk=
+dep	py3-ujson	py3-ujson
+dep	python3~3.14	python3

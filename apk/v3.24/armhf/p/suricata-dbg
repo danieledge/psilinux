@@ -1,0 +1,12 @@
+name	suricata-dbg
+version	8.0.8-r0
+description	High performance Network IDS, IPS and Network Security Monitoring engine (debug symbols)
+url	https://suricata.io/
+license	GPL-2.0-only
+size	21488516
+installed-size	70503924
+depends	!suricata<8.0.8-r0 !suricata>8.0.8-r0
+origin	suricata
+repo	community
+file	suricata-dbg-8.0.8-r0.apk
+checksum	Q1kncYN2R/ODRZYX+ipTJ98UNxHj0=

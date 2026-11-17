@@ -1,0 +1,16 @@
+name	perl-tickit-async
+version	0.25-r3
+description	Use Tickit with IO::Async
+url	https://metacpan.org/release/Tickit-Async/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	5129
+installed-size	9579
+depends	perl perl-io-async perl-tickit so:libc.musl-armhf.so.1
+origin	perl-tickit-async
+repo	community
+file	perl-tickit-async-0.25-r3.apk
+checksum	Q1bYrWaFdkjJw5+F6Y8sNv6fmU428=
+dep	perl	perl
+dep	perl-io-async	perl-io-async
+dep	perl-tickit	perl-tickit
+dep	so:libc.musl-armhf.so.1	musl

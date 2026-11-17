@@ -1,0 +1,19 @@
+name	cacti
+version	1.2.31-r0
+description	The complete rrdtool-based graphing solution
+url	https://www.cacti.net/
+license	GPL-2.0-or-later
+size	12117087
+installed-size	39060056
+depends	bash perl coreutils net-snmp-tools rrdtool font-dejavu /bin/sh
+origin	cacti
+repo	community
+file	cacti-1.2.31-r0.apk
+checksum	Q16QFHF0wjQqGaliQSF5BR8MIfwRU=
+dep	bash	bash
+dep	perl	perl
+dep	coreutils	coreutils
+dep	net-snmp-tools	net-snmp-tools
+dep	rrdtool	rrdtool
+dep	font-dejavu	font-dejavu
+dep	/bin/sh	busybox-binsh

@@ -1,0 +1,14 @@
+name	fzf
+version	0.73.1-r2
+description	A command-line fuzzy finder
+url	https://github.com/junegunn/fzf
+license	MIT
+size	1904670
+installed-size	4751196
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	fzf
+repo	community
+file	fzf-0.73.1-r2.apk
+checksum	Q1L4Qb47IjNOKbpOLmHS2E92bXsJ0=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

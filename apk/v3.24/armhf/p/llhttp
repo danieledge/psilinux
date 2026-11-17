@@ -1,0 +1,13 @@
+name	llhttp
+version	9.4.4-r0
+description	Port of http_parser to llparse
+url	https://llhttp.org/
+license	MIT
+size	21946
+installed-size	58488
+depends	so:libc.musl-armhf.so.1
+origin	llhttp
+repo	community
+file	llhttp-9.4.4-r0.apk
+checksum	Q1kXJVsBpSfyyvTnfoQh/V+9KUW8w=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	portmidi-dev
+version	2.0.4-r0
+description	PortMidi is a platform independent library for MIDI input/output. (development files)
+url	https://portmedia.sourceforge.net/
+license	MIT
+size	22489
+installed-size	61390
+depends	portmidi=2.0.4-r0 pc:alsa pkgconfig
+origin	portmidi
+repo	community
+file	portmidi-dev-2.0.4-r0.apk
+checksum	Q1nlJuaVd+5aWLYACFfcAx6haxvq4=
+dep	portmidi=2.0.4-r0	portmidi
+dep	pc:alsa	alsa-lib-dev
+dep	pkgconfig	pkgconf

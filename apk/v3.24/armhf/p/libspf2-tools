@@ -1,0 +1,14 @@
+name	libspf2-tools
+version	1.2.11-r4
+description	SPF daemon and command-line utility
+url	https://www.libspf2.org/
+license	LGPL-2.1-or-later OR BSD-2-Clause
+size	9704
+installed-size	27324
+depends	so:libc.musl-armhf.so.1 so:libspf2.so.2
+origin	libspf2
+repo	main
+file	libspf2-tools-1.2.11-r4.apk
+checksum	Q1PCTRnOqxHix19FO657anrXmze8E=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libspf2.so.2	libspf2

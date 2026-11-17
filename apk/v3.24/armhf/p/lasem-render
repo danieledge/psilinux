@@ -1,0 +1,18 @@
+name	lasem-render
+version	0.5.1-r2
+description	Simple MathML converter
+url	https://gitlab.gnome.org/Archive/lasem
+license	LGPL-2.0 GPL-2.0
+size	6424
+installed-size	13556
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:liblasem-0.6.so.5
+origin	lasem
+repo	community
+file	lasem-render-0.5.1-r2.apk
+checksum	Q1Dx5gTLFQbG3He9uu1CBWiHF+/aI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:liblasem-0.6.so.5	lasem

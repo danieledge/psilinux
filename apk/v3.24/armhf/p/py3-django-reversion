@@ -1,0 +1,14 @@
+name	py3-django-reversion
+version	5.1.0-r3
+description	Extension to the Django web framework that provides version control for model instances
+url	https://github.com/etianen/django-reversion
+license	BSD-3-Clause
+size	49110
+installed-size	205327
+depends	py3-django python3~3.14
+origin	py3-django-reversion
+repo	community
+file	py3-django-reversion-5.1.0-r3.apk
+checksum	Q1Ykz8klHC8t03XJQkcToDFVjN2T8=
+dep	py3-django	py3-django
+dep	python3~3.14	python3

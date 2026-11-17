@@ -1,0 +1,19 @@
+name	aws-c-s3
+version	0.12.3-r0
+description	AWS C99 library implementation for communicating with the S3 service
+url	https://github.com/awslabs/aws-c-s3
+license	Apache-2.0
+size	94651
+installed-size	223908
+depends	so:libaws-c-auth.so.1.0.0 so:libaws-c-cal.so.1.0.0 so:libaws-c-common.so.1 so:libaws-c-http.so.1.0.0 so:libaws-c-io.so.1.0.0 so:libaws-checksums.so.1.0.0 so:libc.musl-armhf.so.1
+origin	aws-c-s3
+repo	community
+file	aws-c-s3-0.12.3-r0.apk
+checksum	Q1ocQ4ODPLh5BndtivJ/yOz0rDyDU=
+dep	so:libaws-c-auth.so.1.0.0	aws-c-auth
+dep	so:libaws-c-cal.so.1.0.0	aws-c-cal
+dep	so:libaws-c-common.so.1	aws-c-common
+dep	so:libaws-c-http.so.1.0.0	aws-c-http
+dep	so:libaws-c-io.so.1.0.0	aws-c-io
+dep	so:libaws-checksums.so.1.0.0	aws-checksums
+dep	so:libc.musl-armhf.so.1	musl

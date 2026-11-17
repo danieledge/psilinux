@@ -1,0 +1,13 @@
+name	tree-sitter-typescript
+version	0.23.2-r1
+description	TypeScript grammar for tree-sitter
+url	https://github.com/tree-sitter/tree-sitter-typescript
+license	MIT
+size	272638
+installed-size	2859166
+depends	so:libc.musl-armhf.so.1
+origin	tree-sitter-typescript
+repo	community
+file	tree-sitter-typescript-0.23.2-r1.apk
+checksum	Q1HrIFjjA1lyZX5xanUyGQ91lAaXs=
+dep	so:libc.musl-armhf.so.1	musl

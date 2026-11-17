@@ -1,0 +1,13 @@
+name	kde-applications-webdev
+version	26.04.2-r0
+description	KDE Applications meta package
+url	https://kde.org/applications/
+license	GPL-3.0-or-later
+size	1266
+installed-size	0
+depends	kimagemapeditor
+origin	kde-applications
+repo	community
+file	kde-applications-webdev-26.04.2-r0.apk
+checksum	Q1GV/4xoZwqXVc09FzHCFZSqbkEbw=
+dep	kimagemapeditor	!

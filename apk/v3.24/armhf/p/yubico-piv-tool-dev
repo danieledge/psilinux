@@ -1,0 +1,15 @@
+name	yubico-piv-tool-dev
+version	2.7.3-r0
+description	PIV Tools for yubikey (development files)
+url	https://developers.yubico.com/yubico-piv-tool
+license	BSD-2-Clause
+size	10923
+installed-size	36533
+depends	yubico-piv-tool-libs=2.7.3-r0 pc:libcrypto pkgconfig
+origin	yubico-piv-tool
+repo	community
+file	yubico-piv-tool-dev-2.7.3-r0.apk
+checksum	Q1XlhMhDeI2XdyJydTKVdex9sd2Lg=
+dep	yubico-piv-tool-libs=2.7.3-r0	yubico-piv-tool-libs
+dep	pc:libcrypto	openssl-dev
+dep	pkgconfig	pkgconf

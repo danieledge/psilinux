@@ -1,0 +1,13 @@
+name	py3-asyncssh-pyc
+version	2.23.0-r0
+description	Precompiled Python bytecode for py3-asyncssh
+url	https://asyncssh.readthedocs.io/en/latest/
+license	EPL-2.0
+size	814180
+installed-size	2449809
+depends	python3~3.14
+origin	py3-asyncssh
+repo	community
+file	py3-asyncssh-pyc-2.23.0-r0.apk
+checksum	Q1cgsMLrtrnuWyGlyIuY88kSnfBgw=
+dep	python3~3.14	python3

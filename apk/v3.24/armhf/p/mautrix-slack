@@ -1,0 +1,16 @@
+name	mautrix-slack
+version	0.2605.0-r2
+description	Matrix-Slack puppeting bridge
+url	https://go.mau.fi/mautrix-slack/
+license	AGPL-3.0-or-later
+size	7857450
+installed-size	21322285
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libolm.so.3 so:libsqlite3.so.0
+origin	mautrix-slack
+repo	community
+file	mautrix-slack-0.2605.0-r2.apk
+checksum	Q1+P3ftVMtD41OtL3k8UOwnqWwbeA=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libolm.so.3	olm
+dep	so:libsqlite3.so.0	sqlite-libs

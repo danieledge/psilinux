@@ -1,0 +1,18 @@
+name	ngircd
+version	27-r2
+description	Next Generation IRC Daemon
+url	https://ngircd.barton.de/
+license	GPL-2.0-or-later
+size	100347
+installed-size	216683
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libpam.so.0 so:libssl.so.3 so:libz.so.1
+origin	ngircd
+repo	main
+file	ngircd-27-r2.apk
+checksum	Q1scyAyLD0ZBj+UQ7WB0NUDRzdAoY=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libpam.so.0	linux-pam
+dep	so:libssl.so.3	libssl3
+dep	so:libz.so.1	zlib

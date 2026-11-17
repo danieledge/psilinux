@@ -1,0 +1,32 @@
+name	kooha
+version	2.2.4-r0
+description	Elegantly record your screen
+url	https://github.com/SeaDve/Kooha
+license	GPL-3.0-or-later
+size	622974
+installed-size	1309596
+depends	gst-plugin-pipewire gst-plugins-good pipewire xdg-desktop-portal /bin/sh so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libpango-1.0.so.0 so:libpulse-mainloop-glib.so.0 so:libpulse.so.0
+origin	kooha
+repo	community
+file	kooha-2.2.4-r0.apk
+checksum	Q1jjq71QM7BIGvnvjY3fTt0SQhWKI=
+dep	gst-plugin-pipewire	gst-plugin-pipewire
+dep	gst-plugins-good	gst-plugins-good
+dep	pipewire	pipewire
+dep	xdg-desktop-portal	xdg-desktop-portal
+dep	/bin/sh	busybox-binsh
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgstpbutils-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpulse-mainloop-glib.so.0	libpulse-mainloop-glib
+dep	so:libpulse.so.0	libpulse

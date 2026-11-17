@@ -1,0 +1,16 @@
+name	collectd-bind
+version	5.12.0-r25
+description	bind pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	11481
+installed-size	25896
+depends	collectd so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libxml2.so.2
+origin	collectd
+repo	community
+file	collectd-bind-5.12.0-r25.apk
+checksum	Q1ouQDTMZbMgpV0rdbGGtxwpowUEQ=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libxml2.so.2	libxml2

@@ -1,0 +1,26 @@
+name	incus-feature-user-openrc
+version	7.0.0-r3
+description	Incus user project daemon OpenRC scripts
+url	https://github.com/lxc/incus
+license	Apache-2.0
+size	1883
+installed-size	342
+depends	acl attr ca-certificates dbus dnsmasq lxc iproute2 iptables netcat-openbsd rsync squashfs-tools shadow-subids tar xz
+origin	incus-feature
+repo	community
+file	incus-feature-user-openrc-7.0.0-r3.apk
+checksum	Q1WopGdrRTR7AVFfSGg74SXaSSvlg=
+dep	acl	acl
+dep	attr	attr
+dep	ca-certificates	ca-certificates
+dep	dbus	dbus
+dep	dnsmasq	dnsmasq
+dep	lxc	lxc
+dep	iproute2	iproute2
+dep	iptables	iptables
+dep	netcat-openbsd	netcat-openbsd
+dep	rsync	rsync
+dep	squashfs-tools	squashfs-tools
+dep	shadow-subids	shadow-subids
+dep	tar	tar
+dep	xz	xz

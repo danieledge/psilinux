@@ -1,0 +1,15 @@
+name	yaml-cpp
+version	0.9.0-r0
+description	YAML parser and emitter in C++ matching YAML 1.2 spec
+url	https://github.com/jbeder/yaml-cpp
+license	MIT
+size	114567
+installed-size	271776
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	yaml-cpp
+repo	community
+file	yaml-cpp-0.9.0-r0.apk
+checksum	Q12bs+qjX8vbpBPHOTWU7j3Aa0/54=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

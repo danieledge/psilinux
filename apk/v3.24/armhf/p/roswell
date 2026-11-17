@@ -1,0 +1,14 @@
+name	roswell
+version	24.10.115-r1
+description	Common Lisp environment setup Utility
+url	https://roswell.github.io/
+license	MIT
+size	112644
+installed-size	383374
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4
+origin	roswell
+repo	community
+file	roswell-24.10.115-r1.apk
+checksum	Q1+nTkMZn/4DY1VeugYWlw0d0VvZY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl

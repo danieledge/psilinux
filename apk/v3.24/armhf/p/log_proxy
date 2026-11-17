@@ -1,0 +1,15 @@
+name	log_proxy
+version	0.7.4-r0
+description	A tiny C utility for log rotation for apps that write their logs to stdout.
+url	https://github.com/metwork-framework/log_proxy
+license	BSD-3-Clause
+size	14632
+installed-size	43908
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgthread-2.0.so.0
+origin	log_proxy
+repo	community
+file	log_proxy-0.7.4-r0.apk
+checksum	Q1vnczV8RxYH/XqvUbDH+te6S8+t4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgthread-2.0.so.0	glib

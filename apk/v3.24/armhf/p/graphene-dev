@@ -1,0 +1,16 @@
+name	graphene-dev
+version	1.10.8-r5
+description	A thin layer of graphic data types (development files)
+url	http://ebassi.github.io/graphene/
+license	MIT
+size	77594
+installed-size	868999
+depends	graphene=1.10.8-r5 pc:gobject-2.0 pc:gobject-2.0>=2.30.0 pkgconfig
+origin	graphene
+repo	main
+file	graphene-dev-1.10.8-r5.apk
+checksum	Q1RSglEg5067s2POXSRpV8ZdDbtDw=
+dep	graphene=1.10.8-r5	graphene
+dep	pc:gobject-2.0	glib-dev
+dep	pc:gobject-2.0>=2.30.0	glib-dev
+dep	pkgconfig	pkgconf

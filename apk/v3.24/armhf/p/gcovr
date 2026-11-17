@@ -1,0 +1,18 @@
+name	gcovr
+version	8.6-r1
+description	Generates a simple report that summarizes the gcc code coverage
+url	http://gcovr.com/
+license	BSD-3-Clause
+size	212897
+installed-size	1501537
+depends	python3 py3-lxml py3-jinja2 py3-pygments py3-colorlog python3~3.14
+origin	gcovr
+repo	community
+file	gcovr-8.6-r1.apk
+checksum	Q1OIUravGLSXvZSNF44cfhJOpNX/g=
+dep	python3	python3
+dep	py3-lxml	py3-lxml
+dep	py3-jinja2	py3-jinja2
+dep	py3-pygments	py3-pygments
+dep	py3-colorlog	py3-colorlog
+dep	python3~3.14	python3

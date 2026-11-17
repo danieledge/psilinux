@@ -1,0 +1,15 @@
+name	postgresql16-plperl-contrib
+version	16.16-r0
+description	PL/Perl extension modules distributed with PostgreSQL
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	6346
+installed-size	10918
+depends	postgresql16-plperl=16.16-r0 so:libc.musl-armhf.so.1 so:libperl.so
+origin	postgresql16
+repo	community
+file	postgresql16-plperl-contrib-16.16-r0.apk
+checksum	Q1qEPfhd1wpz9EQI6sC923tE1mUPk=
+dep	postgresql16-plperl=16.16-r0	postgresql16-plperl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libperl.so	perl

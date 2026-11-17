@@ -1,0 +1,13 @@
+name	http-parser
+version	2.9.4-r0
+description	HTTP request/response parser for C
+url	https://github.com/nodejs/http-parser
+license	MIT
+size	15737
+installed-size	29872
+depends	so:libc.musl-armhf.so.1
+origin	http-parser
+repo	community
+file	http-parser-2.9.4-r0.apk
+checksum	Q1giopP+ZWa/Px7xkXgNyduUpozgU=
+dep	so:libc.musl-armhf.so.1	musl

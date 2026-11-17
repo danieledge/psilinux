@@ -1,0 +1,13 @@
+name	py3-gpep517-pyc
+version	19-r2
+description	Precompiled Python bytecode for py3-gpep517
+url	https://github.com/gentoo/gpep517/
+license	GPL-2.0-or-later
+size	19721
+installed-size	39316
+depends	python3~3.14
+origin	py3-gpep517
+repo	main
+file	py3-gpep517-pyc-19-r2.apk
+checksum	Q1Pi2YUcfHPE5Zk8OQLvn6BHHZEiw=
+dep	python3~3.14	python3

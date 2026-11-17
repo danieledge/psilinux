@@ -1,0 +1,25 @@
+name	fltk-dev
+version	1.3.11-r1
+description	A cross-platform C++ GUI toolkit (development files)
+url	https://www.fltk.org/
+license	LGPL-2.0-only WITH FLTK-exception
+size	241601
+installed-size	894996
+depends	cairo-dev libjpeg-turbo-dev libpng-dev libx11-dev libxext-dev libxft-dev libxinerama-dev mesa-dev libfltk=1.3.11-r1 libfltk_cairo=1.3.11-r1 libfltk_forms=1.3.11-r1 libfltk_gl=1.3.11-r1 libfltk_images=1.3.11-r1
+origin	fltk
+repo	community
+file	fltk-dev-1.3.11-r1.apk
+checksum	Q1E61FwDG7pYlQPnv+QcMN+iYVKnw=
+dep	cairo-dev	cairo-dev
+dep	libjpeg-turbo-dev	libjpeg-turbo-dev
+dep	libpng-dev	libpng-dev
+dep	libx11-dev	libx11-dev
+dep	libxext-dev	libxext-dev
+dep	libxft-dev	libxft-dev
+dep	libxinerama-dev	libxinerama-dev
+dep	mesa-dev	mesa-dev
+dep	libfltk=1.3.11-r1	libfltk
+dep	libfltk_cairo=1.3.11-r1	libfltk_cairo
+dep	libfltk_forms=1.3.11-r1	libfltk_forms
+dep	libfltk_gl=1.3.11-r1	libfltk_gl
+dep	libfltk_images=1.3.11-r1	libfltk_images

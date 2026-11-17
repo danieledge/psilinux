@@ -1,0 +1,14 @@
+name	apr-util-dbm_gdbm
+version	1.6.4-r0
+description	The Apache Portable Runtime Utility Library - GNU dbm driver
+url	https://apr.apache.org/
+license	Apache-2.0
+size	4279
+installed-size	9388
+depends	so:libc.musl-armhf.so.1 so:libgdbm.so.6
+origin	apr-util
+repo	main
+file	apr-util-dbm_gdbm-1.6.4-r0.apk
+checksum	Q1b2pjzznE3ZKs7MkDGH9626L+Sj8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdbm.so.6	gdbm

@@ -1,0 +1,13 @@
+name	lua-resty-dns
+version	0.18-r3
+description	DNS resolver for the nginx lua module
+url	https://github.com/openresty/lua-resty-dns
+license	BSD-2-Clause
+size	1471
+installed-size	1
+depends	nginx-mod-http-lua
+origin	lua-resty-dns
+repo	community
+file	lua-resty-dns-0.18-r3.apk
+checksum	Q1gbvtpEQemzE1wMzUUsH1G3Hy9Q4=
+dep	nginx-mod-http-lua	nginx-mod-http-lua

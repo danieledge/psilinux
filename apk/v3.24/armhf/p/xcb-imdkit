@@ -1,0 +1,15 @@
+name	xcb-imdkit
+version	1.0.9-r1
+description	X input method support for XCB
+url	https://github.com/fcitx/xcb-imdkit
+license	LGPL-2.1-only
+size	400919
+installed-size	505564
+depends	so:libc.musl-armhf.so.1 so:libxcb-util.so.1 so:libxcb.so.1
+origin	xcb-imdkit
+repo	community
+file	xcb-imdkit-1.0.9-r1.apk
+checksum	Q11vhKF/wYpDkGh8XLpuR+jOaPMJE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxcb-util.so.1	xcb-util
+dep	so:libxcb.so.1	libxcb

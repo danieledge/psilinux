@@ -1,0 +1,16 @@
+name	font-bh-100dpi
+version	1.0.4-r1
+description	X.Org Bigelow & Holmes bitmap fonts
+url	https://xorg.freedesktop.org/
+license	custom
+size	3871813
+installed-size	3867019
+depends	encodings font-alias mkfontscale fontconfig
+origin	font-bh-100dpi
+repo	main
+file	font-bh-100dpi-1.0.4-r1.apk
+checksum	Q10S6jRemkqZ4UQtcOEOEN4pNuGIs=
+dep	encodings	encodings
+dep	font-alias	font-alias
+dep	mkfontscale	mkfontscale
+dep	fontconfig	fontconfig

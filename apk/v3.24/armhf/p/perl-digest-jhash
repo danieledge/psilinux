@@ -1,0 +1,14 @@
+name	perl-digest-jhash
+version	0.10-r6
+description	Perl extension for 32 bit Jenkins Hashing Algorithm
+url	https://metacpan.org/release/Digest-JHash/
+license	Artistic-2.0
+size	5677
+installed-size	7587
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-digest-jhash
+repo	community
+file	perl-digest-jhash-0.10-r6.apk
+checksum	Q1UG44EzC+rNLK6YFWmWIJFT6kMkU=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	lirc
+version	0.10.2-r4
+description	Infrared signal receiver and sender
+url	https://lirc.org/
+license	GPL-2.0-only
+size	454399
+installed-size	1406551
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	lirc
+repo	community
+file	lirc-0.10.2-r4.apk
+checksum	Q1YwOgtr1Xkq6/rdVOdrfDSc2zAAs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

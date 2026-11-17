@@ -1,0 +1,14 @@
+name	libmad-dev
+version	0.15.1b-r10
+description	A high-quality MPEG audio decoder (development files)
+url	https://www.underbit.com/products/mad/
+license	GPL-2.0-or-later
+size	73877
+installed-size	128428
+depends	libmad=0.15.1b-r10 pkgconfig
+origin	libmad
+repo	community
+file	libmad-dev-0.15.1b-r10.apk
+checksum	Q1WnCLhAU+LoA9mXxe9i21ai0/t/c=
+dep	libmad=0.15.1b-r10	libmad
+dep	pkgconfig	pkgconf

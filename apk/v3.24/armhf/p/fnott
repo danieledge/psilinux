@@ -1,0 +1,20 @@
+name	fnott
+version	1.8.0-r2
+description	Keyboard driven and lightweight Wayland notification daemon
+url	https://codeberg.org/dnkl/fnott
+license	MIT
+size	83156
+installed-size	170873
+depends	so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libfcft.so.4 so:libfontconfig.so.1 so:libpixman-1.so.0 so:libpng16.so.16 so:libwayland-client.so.0 so:libwayland-cursor.so.0
+origin	fnott
+repo	community
+file	fnott-1.8.0-r2.apk
+checksum	Q1f0kZA8f/QsrJvBLarwlFl0rCHlg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libfcft.so.4	fcft
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libpixman-1.so.0	pixman
+dep	so:libpng16.so.16	libpng
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor

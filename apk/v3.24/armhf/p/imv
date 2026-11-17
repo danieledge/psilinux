@@ -1,0 +1,13 @@
+name	imv
+version	5.0.1-r0
+description	Image viewer for X11/Wayland
+url	https://sr.ht/~exec64/imv
+license	MIT
+size	5434
+installed-size	7375
+depends	so:libc.musl-armhf.so.1
+origin	imv
+repo	community
+file	imv-5.0.1-r0.apk
+checksum	Q1dUKEG6t4iCibd705yit7LOzFU2Q=
+dep	so:libc.musl-armhf.so.1	musl

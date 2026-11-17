@@ -1,0 +1,40 @@
+name	ibus
+version	1.5.35-r0
+description	Next Generation Input Bus for Linux
+url	https://github.com/ibus/ibus/wiki
+license	LGPL-2.1-or-later
+size	782092
+installed-size	2644617
+depends	dconf hicolor-icon-theme iso-codes dbus py3-gobject3 /bin/sh python3~3.14 so:libX11.so.6 so:libXfixes.so.3 so:libXi.so.6 so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdbusmenu-glib.so.4 so:libdbusmenu-gtk3.so.4 so:libdconf.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libnotify.so.4 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libwayland-client.so.0 so:libxkbcommon.so.0
+origin	ibus
+repo	community
+file	ibus-1.5.35-r0.apk
+checksum	Q1tTqgYZMDhrzA4q7rK33wRqclX/0=
+dep	dconf	dconf
+dep	hicolor-icon-theme	hicolor-icon-theme
+dep	iso-codes	iso-codes
+dep	dbus	dbus
+dep	py3-gobject3	py3-gobject3
+dep	/bin/sh	busybox-binsh
+dep	python3~3.14	python3
+dep	so:libX11.so.6	libx11
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXi.so.6	libxi
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libdbusmenu-glib.so.4	libdbusmenu-glib
+dep	so:libdbusmenu-gtk3.so.4	libdbusmenu-gtk3
+dep	so:libdconf.so.1	dconf
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libnotify.so.4	libnotify
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libxkbcommon.so.0	libxkbcommon

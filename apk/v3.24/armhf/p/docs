@@ -1,0 +1,14 @@
+name	docs
+version	0.2-r6
+description	Meta package for pulling in all documentation
+url	https://alpinelinux.org
+license	MIT
+size	1267
+installed-size	0
+depends	doc-provider man-pages
+origin	docs
+repo	main
+file	docs-0.2-r6.apk
+checksum	Q1NCW8D+t+pSW7Mh8wp8hgthL4j1w=
+dep	doc-provider	mandoc
+dep	man-pages	man-pages

@@ -1,0 +1,12 @@
+name	alpine-dbg
+version	2.26-r5
+description	Text-based email client, friendly for novices but powerful (debug symbols)
+url	https://repo.or.cz/alpine.git
+license	Apache-2.0
+size	6718349
+installed-size	14571704
+depends	!alpine<2.26-r5 !alpine>2.26-r5
+origin	alpine
+repo	community
+file	alpine-dbg-2.26-r5.apk
+checksum	Q113TUCRgcSumVmTIZgmyeQ9elmVw=

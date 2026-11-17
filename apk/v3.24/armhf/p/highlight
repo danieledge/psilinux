@@ -1,0 +1,16 @@
+name	highlight
+version	4.19-r0
+description	Fast and flexible source code highlighter
+url	http://www.andre-simon.de/doku/highlight/highlight.html
+license	GPL-3.0-or-later
+size	711623
+installed-size	2522998
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblua-5.4.so.0 so:libstdc++.so.6
+origin	highlight
+repo	main
+file	highlight-4.19-r0.apk
+checksum	Q1unKLUI4QLP4KBxK8hhb3A4taivQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblua-5.4.so.0	lua5.4-libs
+dep	so:libstdc++.so.6	libstdc++

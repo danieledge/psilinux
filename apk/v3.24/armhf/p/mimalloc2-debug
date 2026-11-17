@@ -1,0 +1,13 @@
+name	mimalloc2-debug
+version	2.2.7-r0
+description	A compact general purpose allocator with excellent performance (debug build)
+url	https://github.com/microsoft/mimalloc
+license	MIT
+size	222391
+installed-size	610960
+depends	so:libc.musl-armhf.so.1
+origin	mimalloc2
+repo	community
+file	mimalloc2-debug-2.2.7-r0.apk
+checksum	Q1tsRGZTl/rjrX0YEkU8jOTEeWw9g=
+dep	so:libc.musl-armhf.so.1	musl

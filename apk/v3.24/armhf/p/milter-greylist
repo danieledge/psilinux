@@ -1,0 +1,18 @@
+name	milter-greylist
+version	4.6.4-r5
+description	Stand-alone milter written in C that implements the greylist filtering method
+url	http://hcpnet.free.fr/milter-greylist
+license	BSD-3-Clause
+size	96319
+installed-size	212855
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libmaxminddb.so.0 so:libmilter.so.1.0.2 so:libopendkim.so.11 so:libspf2.so.2
+origin	milter-greylist
+repo	community
+file	milter-greylist-4.6.4-r5.apk
+checksum	Q1WrmqjyyZethWzg/l3wbeVyKHGzs=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmaxminddb.so.0	libmaxminddb-libs
+dep	so:libmilter.so.1.0.2	libmilter
+dep	so:libopendkim.so.11	opendkim-libs
+dep	so:libspf2.so.2	libspf2

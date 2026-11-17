@@ -1,0 +1,23 @@
+name	libadwaita
+version	1.9.2-r0
+description	Building blocks for modern GNOME applications
+url	https://gitlab.gnome.org/GNOME/libadwaita
+license	LGPL-2.1-or-later
+size	529659
+installed-size	1814732
+depends	adwaita-fonts so:libappstream.so.5 so:libc.musl-armhf.so.1 so:libfribidi.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libpango-1.0.so.0
+origin	libadwaita
+repo	community
+file	libadwaita-1.9.2-r0.apk
+checksum	Q11ebt/+nbPM7VtmnRMppDX5duYC4=
+dep	adwaita-fonts	adwaita-fonts
+dep	so:libappstream.so.5	appstream
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfribidi.so.0	fribidi
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango

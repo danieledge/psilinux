@@ -1,0 +1,21 @@
+name	cosmic-settings-daemon
+version	1.0.15-r0
+description	Settings daemon for the COSMIC Desktop Environment
+url	https://github.com/pop-os/cosmic-settings-daemon
+license	GPL-3.0-only
+size	1640890
+installed-size	3379029
+depends	acpid alsa-utils geoclue playerctl pulseaudio-dev so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpulse.so.0 so:libudev.so.1
+origin	cosmic-settings-daemon
+repo	community
+file	cosmic-settings-daemon-1.0.15-r0.apk
+checksum	Q1A5j6oR678ABUC/ATNSh+4ZbHa6s=
+dep	acpid	acpid
+dep	alsa-utils	alsa-utils
+dep	geoclue	geoclue
+dep	playerctl	playerctl
+dep	pulseaudio-dev	pulseaudio-dev
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpulse.so.0	libpulse
+dep	so:libudev.so.1	eudev-libs

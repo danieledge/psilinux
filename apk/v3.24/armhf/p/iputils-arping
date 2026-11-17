@@ -1,0 +1,14 @@
+name	iputils-arping
+version	20250605-r2
+description	IP Configuration Utilities (arping utility)
+url	https://github.com/iputils/iputils/
+license	BSD-3-Clause AND GPL-2.0-or-later
+size	10598
+installed-size	17580
+depends	so:libc.musl-armhf.so.1 so:libcap.so.2
+origin	iputils
+repo	main
+file	iputils-arping-20250605-r2.apk
+checksum	Q1nkm+obR/05GKBzoWxYLx1kdFYwc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2

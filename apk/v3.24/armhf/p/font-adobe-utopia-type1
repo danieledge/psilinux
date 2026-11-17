@@ -1,0 +1,16 @@
+name	font-adobe-utopia-type1
+version	1.0.5-r1
+description	X.org adobe utopia-type1 fonts
+url	https://xorg.freedesktop.org/
+license	custom
+size	200793
+installed-size	383067
+depends	encodings font-alias mkfontscale fontconfig
+origin	font-adobe-utopia-type1
+repo	main
+file	font-adobe-utopia-type1-1.0.5-r1.apk
+checksum	Q1hfOaK4R0/stgP7eiFd8JBl1PBwo=
+dep	encodings	encodings
+dep	font-alias	font-alias
+dep	mkfontscale	mkfontscale
+dep	fontconfig	fontconfig

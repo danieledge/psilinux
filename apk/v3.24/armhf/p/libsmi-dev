@@ -1,0 +1,14 @@
+name	libsmi-dev
+version	0.5.0-r5
+description	Library to access SMI management information (development files)
+url	https://www.ibr.cs.tu-bs.de/projects/libsmi/
+license	BSD-3-Clause AND MIT
+size	187556
+installed-size	651177
+depends	libsmi=0.5.0-r5 pkgconfig
+origin	libsmi
+repo	community
+file	libsmi-dev-0.5.0-r5.apk
+checksum	Q14ot4YEUFqqluF9fC5S9BKPyFISI=
+dep	libsmi=0.5.0-r5	libsmi
+dep	pkgconfig	pkgconf

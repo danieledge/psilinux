@@ -1,0 +1,13 @@
+name	tty-copy
+version	0.2.2-r0
+description	Copy content to system clipboard via TTY and terminal using ANSI OSC52 sequence
+url	https://github.com/jirutka/tty-copy
+license	MIT
+size	6885
+installed-size	13628
+depends	so:libc.musl-armhf.so.1
+origin	tty-copy
+repo	community
+file	tty-copy-0.2.2-r0.apk
+checksum	Q1Y8r+AbsSCjS5/OrkITYmBOCnvis=
+dep	so:libc.musl-armhf.so.1	musl

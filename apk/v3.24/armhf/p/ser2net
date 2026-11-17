@@ -1,0 +1,17 @@
+name	ser2net
+version	4.6.4-r0
+description	A proxy that allows telnet/tcp connections to be made to serial ports
+url	https://github.com/cminyard/ser2net
+license	LGPL-2.1-only AND GPL-2.0-only
+size	57567
+installed-size	127976
+depends	so:libc.musl-armhf.so.1 so:libgensio.so.10 so:libgensiomdns.so.10 so:libgensioosh.so.10 so:libyaml-0.so.2
+origin	ser2net
+repo	main
+file	ser2net-4.6.4-r0.apk
+checksum	Q12zBaZHX5JFIV2Mz/G7um9sqSjxw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgensio.so.10	gensio-libs
+dep	so:libgensiomdns.so.10	gensio-libs
+dep	so:libgensioosh.so.10	gensio-libs
+dep	so:libyaml-0.so.2	yaml

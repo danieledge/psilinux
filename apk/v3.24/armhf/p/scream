@@ -1,0 +1,16 @@
+name	scream
+version	4.0-r0
+description	client for scream virtual network sound card for Microsoft Windows
+url	https://github.com/duncanthrax/scream
+license	MS-PL
+size	10267
+installed-size	21784
+depends	so:libasound.so.2 so:libc.musl-armhf.so.1 so:libpulse-simple.so.0 so:libpulse.so.0
+origin	scream
+repo	community
+file	scream-4.0-r0.apk
+checksum	Q1km+D8Ym2IddNFRq8Oxn+XzP7ff0=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpulse-simple.so.0	libpulse
+dep	so:libpulse.so.0	libpulse

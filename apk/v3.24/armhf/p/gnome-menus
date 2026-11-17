@@ -1,0 +1,16 @@
+name	gnome-menus
+version	3.38.1-r0
+description	Library for the Desktop Menu Specification
+url	https://gitlab.gnome.org/GNOME/gnome-menus
+license	GPL-2.0-or-later AND LGPL-2.0-or-later
+size	90780
+installed-size	230559
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	gnome-menus
+repo	community
+file	gnome-menus-3.38.1-r0.apk
+checksum	Q1eVwC1Dytbk2WS85nz+zOWjrxj8g=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

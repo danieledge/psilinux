@@ -1,0 +1,17 @@
+name	perl-graphql-client-cli
+version	0.605-r1
+description	Execute GraphQL queries and mutations (command-line program)
+url	https://metacpan.org/release/GraphQL-Client/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	7906
+installed-size	19164
+depends	perl-graphql-client=0.605-r1 perl-json-path perl-text-csv perl-text-table-any perl-yaml
+origin	perl-graphql-client
+repo	community
+file	perl-graphql-client-cli-0.605-r1.apk
+checksum	Q1MsuKTscuNZbicI0nQ9TG0pFYMxE=
+dep	perl-graphql-client=0.605-r1	perl-graphql-client
+dep	perl-json-path	perl-json-path
+dep	perl-text-csv	perl-text-csv
+dep	perl-text-table-any	perl-text-table-any
+dep	perl-yaml	perl-yaml

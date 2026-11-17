@@ -1,0 +1,15 @@
+name	cargo-expand
+version	1.0.122-r0
+description	Cargo subcommand to show result of macro expansion
+url	https://github.com/dtolnay/cargo-expand
+license	MIT OR Apache-2.0
+size	2604954
+installed-size	4387800
+depends	cargo so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	cargo-expand
+repo	community
+file	cargo-expand-1.0.122-r0.apk
+checksum	Q1mMCyb1Oil0MN+2duDYLjh20KyYQ=
+dep	cargo	cargo
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

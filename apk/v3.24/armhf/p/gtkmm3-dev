@@ -1,0 +1,21 @@
+name	gtkmm3-dev
+version	3.24.10-r0
+description	C++ wrappers for GTK+ (development files)
+url	https://www.gtkmm.org/
+license	LGPL-2.1-or-later
+size	837486
+installed-size	4931443
+depends	gtkmm3=3.24.10-r0 pc:atkmm-1.6>=2.24.2 pc:cairomm-1.0>=1.12.0 pc:gdk-pixbuf-2.0>=2.35.5 pc:giomm-2.4>=2.54.0 pc:gtk+-3.0>=3.24.0 pc:gtk+-unix-print-3.0 pc:pangomm-1.4>=1.12.0 pkgconfig
+origin	gtkmm3
+repo	community
+file	gtkmm3-dev-3.24.10-r0.apk
+checksum	Q1mLt54uhYtKeqaRMoIrHerXjVyFc=
+dep	gtkmm3=3.24.10-r0	gtkmm3
+dep	pc:atkmm-1.6>=2.24.2	atkmm2.28-dev
+dep	pc:cairomm-1.0>=1.12.0	cairomm1.14-dev
+dep	pc:gdk-pixbuf-2.0>=2.35.5	gdk-pixbuf-dev
+dep	pc:giomm-2.4>=2.54.0	glibmm2.66-dev
+dep	pc:gtk+-3.0>=3.24.0	gtk+3.0-dev
+dep	pc:gtk+-unix-print-3.0	gtk+3.0-dev
+dep	pc:pangomm-1.4>=1.12.0	pangomm2.46-dev
+dep	pkgconfig	pkgconf

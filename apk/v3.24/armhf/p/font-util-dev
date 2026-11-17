@@ -1,0 +1,14 @@
+name	font-util-dev
+version	1.4.2-r0
+description	X.org font utilities (development files)
+url	https://gitlab.freedesktop.org/xorg/font/util
+license	custom
+size	6248
+installed-size	14739
+depends	font-util pkgconfig
+origin	font-util
+repo	main
+file	font-util-dev-1.4.2-r0.apk
+checksum	Q11O1oJlziXWTFGa52pGTezHsxdaA=
+dep	font-util	font-util
+dep	pkgconfig	pkgconf

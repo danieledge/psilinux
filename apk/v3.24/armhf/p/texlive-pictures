@@ -1,0 +1,14 @@
+name	texlive-pictures
+version	2026.0-r0
+description	TeX Live graphics, pictures, and diagrams tools
+url	https://tug.org/texlive/
+license	GPL-2.0-or-later AND GPL-3.0-or-later
+size	2363
+installed-size	1
+depends	texlive texmf-dist-pictures
+origin	texlive
+repo	community
+file	texlive-pictures-2026.0-r0.apk
+checksum	Q1zMfo6DLndhU69jeiIJKNv3pAiPY=
+dep	texlive	texlive
+dep	texmf-dist-pictures	texmf-dist-pictures

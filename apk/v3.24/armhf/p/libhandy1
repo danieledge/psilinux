@@ -1,0 +1,24 @@
+name	libhandy1
+version	1.8.3-r0
+description	Library full of GTK+ widgets for mobile phones
+url	https://gitlab.gnome.org/GNOME/libhandy
+license	LGPL-2.0-or-later
+size	231070
+installed-size	589992
+depends	so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libfribidi.so.0 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libpango-1.0.so.0
+origin	libhandy1
+repo	community
+file	libhandy1-1.8.3-r0.apk
+checksum	Q17ovU9tIGG0RBBwKVnjgmDVZp7OI=
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libfribidi.so.0	fribidi
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango

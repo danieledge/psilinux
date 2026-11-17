@@ -1,0 +1,13 @@
+name	tree-sitter-scala
+version	0.24.0-r0
+description	Scala grammar for tree-sitter
+url	https://github.com/tree-sitter/tree-sitter-scala
+license	MIT
+size	465218
+installed-size	3814200
+depends	so:libc.musl-armhf.so.1
+origin	tree-sitter-scala
+repo	community
+file	tree-sitter-scala-0.24.0-r0.apk
+checksum	Q1wABX/vy3fOKbClPPIBHaYFcj340=
+dep	so:libc.musl-armhf.so.1	musl

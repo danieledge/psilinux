@@ -1,0 +1,15 @@
+name	py3-json-database
+version	0.7.0-r5
+description	Searchable json database with persistence
+url	https://github.com/OpenJarbas/json_database
+license	MIT
+size	9909
+installed-size	33942
+depends	py3-combo-lock python3 python3~3.14
+origin	py3-json-database
+repo	community
+file	py3-json-database-0.7.0-r5.apk
+checksum	Q1StYEcZpEiALJPlZ/xUxt8h6+KZg=
+dep	py3-combo-lock	py3-combo-lock
+dep	python3	python3
+dep	python3~3.14	python3

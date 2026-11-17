@@ -1,0 +1,14 @@
+name	opencolorio-dev
+version	2.5.2-r0
+description	Color management framework for visual effects and animation (development files)
+url	https://opencolorio.org/
+license	BSD-3-Clause AND GPL-2.0-or-later
+size	140661
+installed-size	540993
+depends	opencolorio=2.5.2-r0 pkgconfig
+origin	opencolorio
+repo	community
+file	opencolorio-dev-2.5.2-r0.apk
+checksum	Q1kBcr/bWjMIg7e4pu1aa3hvOXbDs=
+dep	opencolorio=2.5.2-r0	opencolorio
+dep	pkgconfig	pkgconf

@@ -1,0 +1,29 @@
+name	incus-user
+version	7.0.1-r2
+description	Incus user project daemon
+url	https://github.com/lxc/incus
+license	Apache-2.0
+size	6169908
+installed-size	16318364
+depends	acl attr ca-certificates dbus dnsmasq lxc>=6.0.0 iproute2 netcat-openbsd nftables rsync squashfs-tools shadow-subids tar xz so:libacl.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	incus
+repo	community
+file	incus-user-7.0.1-r2.apk
+checksum	Q1ubIoWmvH4BJ6COVbuBgl3YDrkqc=
+dep	acl	acl
+dep	attr	attr
+dep	ca-certificates	ca-certificates
+dep	dbus	dbus
+dep	dnsmasq	dnsmasq
+dep	lxc>=6.0.0	lxc
+dep	iproute2	iproute2
+dep	netcat-openbsd	netcat-openbsd
+dep	nftables	nftables
+dep	rsync	rsync
+dep	squashfs-tools	squashfs-tools
+dep	shadow-subids	shadow-subids
+dep	tar	tar
+dep	xz	xz
+dep	so:libacl.so.1	acl-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

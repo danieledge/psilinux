@@ -1,0 +1,13 @@
+name	gnome-browser-connector-pyc
+version	42.1-r5
+description	Precompiled Python bytecode for gnome-browser-connector
+url	https://gitlab.gnome.org/GNOME/gnome-browser-connector
+license	GPL-3.0-or-later
+size	20951
+installed-size	47784
+depends	python3~3.14
+origin	gnome-browser-connector
+repo	community
+file	gnome-browser-connector-pyc-42.1-r5.apk
+checksum	Q1/EKoG+qh2oUz1i/ESg7klpKp3uk=
+dep	python3~3.14	python3

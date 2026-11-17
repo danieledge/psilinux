@@ -1,0 +1,16 @@
+name	ipvsadm
+version	1.31-r3
+description	The IP Virtual Server administration utility
+url	http://www.linuxvirtualserver.org/software/ipvs.html
+license	GPL-2.0-or-later
+size	29178
+installed-size	77321
+depends	so:libc.musl-armhf.so.1 so:libnl-3.so.200 so:libnl-genl-3.so.200 so:libpopt.so.0
+origin	ipvsadm
+repo	main
+file	ipvsadm-1.31-r3.apk
+checksum	Q10eIo0IrClxDhCtGQVomZ/NjuFI0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnl-3.so.200	libnl3
+dep	so:libnl-genl-3.so.200	libnl3
+dep	so:libpopt.so.0	popt

@@ -1,0 +1,14 @@
+name	newlib-riscv-none-elf
+version	4.6.0.20260123-r0
+description	A C standard library implementation intended for riscv-none-elf
+url	https://www.sourceware.org/newlib/
+license	GPL-2.0-only AND LGPL-2.1-only AND 0BSD AND BSD-3-Clause AND GPL-3.0-only AND LGPL-3.0-only
+size	47918415
+installed-size	207927924
+depends	binutils-riscv-none-elf gcc-riscv-none-elf
+origin	newlib
+repo	community
+file	newlib-riscv-none-elf-4.6.0.20260123-r0.apk
+checksum	Q16DedTCeGJr9GTKq103jQdM+YiC8=
+dep	binutils-riscv-none-elf	binutils-riscv-none-elf
+dep	gcc-riscv-none-elf	gcc-riscv-none-elf

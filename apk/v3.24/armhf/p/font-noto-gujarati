@@ -1,0 +1,14 @@
+name	font-noto-gujarati
+version	2026.11.01-r0
+description	Noto Sans Gujarati (UI) and Serif Gujarati fonts
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	6760463
+installed-size	15490770
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-gujarati-2026.11.01-r0.apk
+checksum	Q1Ssco5QyxU12CLY/8G4rO5cDTmVs=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

@@ -1,0 +1,14 @@
+name	lua-dns
+version	20080404-r4
+description	a DNS client library written in Lua using LuaSocket
+url	https://github.com/abma/dns.lua
+license	Public Domain
+size	9900
+installed-size	31834
+depends	lua lua-socket
+origin	lua-dns
+repo	main
+file	lua-dns-20080404-r4.apk
+checksum	Q1rWbePCGDjR6VYhO5cUbHYKeEEO4=
+dep	lua	lua5.5
+dep	lua-socket	lua-socket

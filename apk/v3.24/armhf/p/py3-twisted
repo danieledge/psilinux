@@ -1,0 +1,27 @@
+name	py3-twisted
+version	25.5.0-r1
+description	Asynchronous networking framework written in Python3
+url	https://twistedmatrix.com/
+license	MIT
+size	1489851
+installed-size	5899320
+depends	py3-cryptography py3-zope-interface py3-constantly py3-incremental py3-automat py3-hyperlink py3-attrs py3-typing-extensions py3-pyhamcrest py3-service_identity py3-idna py3-pyserial py3-h2 py3-setuptools python3~3.14
+origin	py3-twisted
+repo	community
+file	py3-twisted-25.5.0-r1.apk
+checksum	Q1ypLCSg/YS4MIdQ1LO28eBL1i/X4=
+dep	py3-cryptography	py3-cryptography
+dep	py3-zope-interface	py3-zope-interface
+dep	py3-constantly	py3-constantly
+dep	py3-incremental	py3-incremental
+dep	py3-automat	py3-automat
+dep	py3-hyperlink	py3-hyperlink
+dep	py3-attrs	py3-attrs
+dep	py3-typing-extensions	py3-typing-extensions
+dep	py3-pyhamcrest	py3-pyhamcrest
+dep	py3-service_identity	py3-service_identity
+dep	py3-idna	py3-idna
+dep	py3-pyserial	py3-pyserial
+dep	py3-h2	py3-h2
+dep	py3-setuptools	py3-setuptools
+dep	python3~3.14	python3

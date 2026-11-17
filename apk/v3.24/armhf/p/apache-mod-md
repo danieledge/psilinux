@@ -1,0 +1,18 @@
+name	apache-mod-md
+version	2.4.28-r0
+description	Integrated Acme protocol support for apache2
+url	https://github.com/icing/mod_md
+license	Apache-2.0
+size	218443
+installed-size	487424
+depends	so:libapr-1.so.0 so:libaprutil-1.so.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libjansson.so.4
+origin	apache-mod-md
+repo	community
+file	apache-mod-md-2.4.28-r0.apk
+checksum	Q1TYYof1JhoB0BNA/v+z3NG9/u5t8=
+dep	so:libapr-1.so.0	apr
+dep	so:libaprutil-1.so.0	apr-util
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libjansson.so.4	jansson

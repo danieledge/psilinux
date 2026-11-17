@@ -1,0 +1,13 @@
+name	emacs-cndict
+version	0_git20220514-r2
+description	Chinese dictionary for Emacs
+url	https://github.com/liangzid/cndict.el
+license	GPL-3.0-or-later
+size	37919058
+installed-size	98826517
+depends	cmd:emacs
+origin	emacs-cndict
+repo	community
+file	emacs-cndict-0_git20220514-r2.apk
+checksum	Q1GYkFY/WL3VubU7Daeyqh/R9YH5I=
+dep	cmd:emacs	emacs-gtk3

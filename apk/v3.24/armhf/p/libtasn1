@@ -1,0 +1,13 @@
+name	libtasn1
+version	4.21.0-r0
+description	The ASN.1 library used in GNUTLS
+url	https://www.gnu.org/software/gnutls/
+license	LGPL-2.1-or-later
+size	33318
+installed-size	62800
+depends	so:libc.musl-armhf.so.1
+origin	libtasn1
+repo	main
+file	libtasn1-4.21.0-r0.apk
+checksum	Q1SGCbjsboELPMJPHrZAV/EmBJKN4=
+dep	so:libc.musl-armhf.so.1	musl

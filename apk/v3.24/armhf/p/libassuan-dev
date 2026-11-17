@@ -1,0 +1,15 @@
+name	libassuan-dev
+version	3.0.2-r0
+description	IPC library used by some GnuPG related software (development files)
+url	https://www.gnupg.org/software/libassuan/index.html
+license	LGPL-2.1-or-later
+size	12257
+installed-size	36676
+depends	libassuan=3.0.2-r0 pc:gpg-error pkgconfig
+origin	libassuan
+repo	main
+file	libassuan-dev-3.0.2-r0.apk
+checksum	Q1qwbgkOZvt+bGSSV9EbNuS5Olld0=
+dep	libassuan=3.0.2-r0	libassuan
+dep	pc:gpg-error	libgpg-error-dev
+dep	pkgconfig	pkgconf

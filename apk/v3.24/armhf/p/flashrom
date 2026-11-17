@@ -1,0 +1,18 @@
+name	flashrom
+version	1.6.0-r0
+description	A utility for identifying, reading, writing, verifying and erasing flash chips
+url	https://www.flashrom.org/Flashrom
+license	GPL-2.0-or-later
+size	160647
+installed-size	730816
+depends	dmidecode /bin/sh so:libc.musl-armhf.so.1 so:libftdi1.so.2 so:libpci.so.3 so:libusb-1.0.so.0
+origin	flashrom
+repo	community
+file	flashrom-1.6.0-r0.apk
+checksum	Q147oU5MPg72cMsihoFawigV3jSAA=
+dep	dmidecode	dmidecode
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libftdi1.so.2	libftdi1
+dep	so:libpci.so.3	pciutils-libs
+dep	so:libusb-1.0.so.0	libusb

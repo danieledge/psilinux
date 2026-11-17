@@ -1,0 +1,14 @@
+name	acf-iptables
+version	0.7.1-r4
+description	Web-based system administration interface for iptables
+url	https://gitlab.alpinelinux.org/acf/acf-iptables
+license	GPL-2.0-only
+size	8636
+installed-size	31215
+depends	acf-core iptables
+origin	acf-iptables
+repo	main
+file	acf-iptables-0.7.1-r4.apk
+checksum	Q1DT0gYW//Z3TZxkJ4nig+2McZEcM=
+dep	acf-core	acf-core
+dep	iptables	iptables

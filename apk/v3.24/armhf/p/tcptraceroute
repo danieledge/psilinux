@@ -1,0 +1,15 @@
+name	tcptraceroute
+version	1.5_beta7-r4
+description	Display route path using TCP probes
+url	https://github.com/mct/tcptraceroute
+license	GPL-2.0-only
+size	17389
+installed-size	34192
+depends	so:libc.musl-armhf.so.1 so:libnet.so.9 so:libpcap.so.1
+origin	tcptraceroute
+repo	community
+file	tcptraceroute-1.5_beta7-r4.apk
+checksum	Q1Gk8AZexgncF7GM3o7IOb7eCtz58=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnet.so.9	libnet
+dep	so:libpcap.so.1	libpcap

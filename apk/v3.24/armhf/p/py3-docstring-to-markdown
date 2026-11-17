@@ -1,0 +1,15 @@
+name	py3-docstring-to-markdown
+version	0.17-r1
+description	On the fly conversion of Python docstrings to markdown
+url	https://github.com/python-lsp/docstring-to-markdown
+license	LGPL-2.1-only
+size	23209
+installed-size	67128
+depends	py3-importlib-metadata py3-typing-extensions python3~3.14
+origin	py3-docstring-to-markdown
+repo	community
+file	py3-docstring-to-markdown-0.17-r1.apk
+checksum	Q12OZUlGuIw8LtqDze7TNjQU4+N2Q=
+dep	py3-importlib-metadata	py3-importlib-metadata
+dep	py3-typing-extensions	py3-typing-extensions
+dep	python3~3.14	python3

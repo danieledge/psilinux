@@ -1,0 +1,23 @@
+name	libfltk
+version	1.3.11-r1
+description	A cross-platform C++ GUI toolkit
+url	https://www.fltk.org/
+license	LGPL-2.0-only WITH FLTK-exception
+size	479175
+installed-size	938240
+depends	so:libX11.so.6 so:libXext.so.6 so:libXfixes.so.3 so:libXft.so.2 so:libXinerama.so.1 so:libXrender.so.1 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libfontconfig.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	fltk
+repo	community
+file	libfltk-1.3.11-r1.apk
+checksum	Q1GzJWNvpamwKdDAqJynxohUyyc+U=
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXft.so.2	libxft
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libXrender.so.1	libxrender
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

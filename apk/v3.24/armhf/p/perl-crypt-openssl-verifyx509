@@ -1,0 +1,16 @@
+name	perl-crypt-openssl-verifyx509
+version	0.21-r5
+description	simple certificate verification
+url	https://metacpan.org/release/Crypt-OpenSSL-VerifyX509/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	7946
+installed-size	15623
+depends	perl perl-crypt-openssl-x509 so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	perl-crypt-openssl-verifyx509
+repo	community
+file	perl-crypt-openssl-verifyx509-0.21-r5.apk
+checksum	Q1Km/Qc6ZfB4+CmHxNUOpwF0ZMXjM=
+dep	perl	perl
+dep	perl-crypt-openssl-x509	perl-crypt-openssl-x509
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

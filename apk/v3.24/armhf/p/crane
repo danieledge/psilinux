@@ -1,0 +1,13 @@
+name	crane
+version	0.21.6-r2
+description	tool for interacting with remote images and registries
+url	https://github.com/google/go-containerregistry/tree/main/cmd/crane
+license	Apache-2.0
+size	4706725
+installed-size	11952324
+depends	so:libc.musl-armhf.so.1
+origin	crane
+repo	community
+file	crane-0.21.6-r2.apk
+checksum	Q1zLzSDbvcyhs3X/z8v19dx7/2Tsw=
+dep	so:libc.musl-armhf.so.1	musl

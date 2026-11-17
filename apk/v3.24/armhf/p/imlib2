@@ -1,0 +1,28 @@
+name	imlib2
+version	1.12.6-r0
+description	Image manipulation library
+url	https://sourceforge.net/projects/enlightenment/
+license	Imlib2
+size	548321
+installed-size	972320
+depends	so:libX11-xcb.so.1 so:libX11.so.6 so:libXext.so.6 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libfreetype.so.6 so:libgif.so.7 so:libheif.so.1 so:libid3tag.so.0 so:libjpeg.so.8 so:libpng16.so.16 so:libtiff.so.6 so:libwebpdemux.so.2 so:libxcb-shm.so.0 so:libxcb.so.1 so:libz.so.1
+origin	imlib2
+repo	community
+file	imlib2-1.12.6-r0.apk
+checksum	Q1C1KTzxEz+FtEy7k0a8pD+vIu+oQ=
+dep	so:libX11-xcb.so.1	libx11
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreetype.so.6	freetype
+dep	so:libgif.so.7	giflib
+dep	so:libheif.so.1	libheif
+dep	so:libid3tag.so.0	libid3tag
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpng16.so.16	libpng
+dep	so:libtiff.so.6	tiff
+dep	so:libwebpdemux.so.2	libwebpdemux
+dep	so:libxcb-shm.so.0	libxcb
+dep	so:libxcb.so.1	libxcb
+dep	so:libz.so.1	zlib

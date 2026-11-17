@@ -1,0 +1,15 @@
+name	libva-vdpau-driver
+version	0.7.4-r4
+description	VDPAU backend for VA API
+url	https://www.freedesktop.org/wiki/Software/vaapi
+license	GPL-2.0-or-later
+size	27852
+installed-size	58608
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1 so:libvdpau.so.1
+origin	libva-vdpau-driver
+repo	community
+file	libva-vdpau-driver-0.7.4-r4.apk
+checksum	Q1DPAUbwlAg7in1LgMEAcgwW8bTRk=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libvdpau.so.1	libvdpau

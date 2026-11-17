@@ -1,0 +1,14 @@
+name	ucpp-dev
+version	1.3.5-r2
+description	C preprocessor which is embeddable, quick, light and C99 compliant (development files)
+url	https://gitlab.com/scarabeusiv/ucpp
+license	BSD-3-Clause
+size	12883
+installed-size	38424
+depends	libucpp=1.3.5-r2 pkgconfig
+origin	ucpp
+repo	community
+file	ucpp-dev-1.3.5-r2.apk
+checksum	Q1hViPEeBkZovSpn5cZmR91ynaNo4=
+dep	libucpp=1.3.5-r2	libucpp
+dep	pkgconfig	pkgconf

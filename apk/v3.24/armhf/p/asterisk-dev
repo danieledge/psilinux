@@ -1,0 +1,14 @@
+name	asterisk-dev
+version	22.9.0-r0
+description	Modular Open Source PBX System (development files)
+url	https://www.asterisk.org/
+license	GPL-2.0-only WITH OpenSSL-Exception
+size	672305
+installed-size	3005250
+depends	asterisk=22.9.0-r0 asterisk=22.9.0-r0
+origin	asterisk
+repo	main
+file	asterisk-dev-22.9.0-r0.apk
+checksum	Q1Hw6tQAXJJ/ffpv4RhrzGe3vv9L8=
+dep	asterisk=22.9.0-r0	asterisk
+dep	asterisk=22.9.0-r0	asterisk

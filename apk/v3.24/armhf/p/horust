@@ -1,0 +1,14 @@
+name	horust
+version	0.1.13-r0
+description	Horust is a supervisor / init system written in rust and designed to be run inside containers
+url	https://github.com/FedericoPonzi/Horust
+license	MIT
+size	1342925
+installed-size	2860792
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	horust
+repo	community
+file	horust-0.1.13-r0.apk
+checksum	Q1lLXogk67Si10l2UOWHcst2rR/jk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

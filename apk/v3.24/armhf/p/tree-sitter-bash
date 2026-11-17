@@ -1,0 +1,13 @@
+name	tree-sitter-bash
+version	0.25.0-r0
+description	Bash grammar for tree-sitter
+url	https://github.com/tree-sitter/tree-sitter-bash
+license	MIT
+size	196291
+installed-size	1423085
+depends	so:libc.musl-armhf.so.1
+origin	tree-sitter-bash
+repo	community
+file	tree-sitter-bash-0.25.0-r0.apk
+checksum	Q1BGYeuCrw818d8QkYaZgvq1JAjlI=
+dep	so:libc.musl-armhf.so.1	musl

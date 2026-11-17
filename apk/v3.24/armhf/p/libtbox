@@ -1,0 +1,14 @@
+name	libtbox
+version	1.8.0-r0
+description	A glib-like multi-platform c library
+url	https://github.com/tboox/tbox
+license	Apache-2.0
+size	185253
+installed-size	395336
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	libtbox
+repo	community
+file	libtbox-1.8.0-r0.apk
+checksum	Q109GxE24syqLiWrhv7r2COXNDin4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

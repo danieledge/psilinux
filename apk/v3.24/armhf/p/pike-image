@@ -1,0 +1,18 @@
+name	pike-image
+version	8.0.2040-r1
+description	Pike programming language (image handling modules)
+url	https://pike.lysator.liu.se/
+license	GPL-2.0-or-later
+size	367828
+installed-size	987809
+depends	pike=8.0.2040-r1 so:libc.musl-armhf.so.1 so:libgmp.so.10 so:libjpeg.so.8 so:libtiff.so.6 so:libwebp.so.7
+origin	pike
+repo	community
+file	pike-image-8.0.2040-r1.apk
+checksum	Q1FTRp1jgdhF8Xirwi7oG9eNlm77I=
+dep	pike=8.0.2040-r1	pike
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgmp.so.10	gmp
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libtiff.so.6	tiff
+dep	so:libwebp.so.7	libwebp

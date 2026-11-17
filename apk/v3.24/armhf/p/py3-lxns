@@ -1,0 +1,14 @@
+name	py3-lxns
+version	0.1.0-r2
+description	Python library to control Linux kernel namespaces
+url	https://github.com/igo95862/python-lxns
+license	MPL-2.0
+size	8446
+installed-size	21060
+depends	python3~3.14 so:libc.musl-armhf.so.1
+origin	py3-lxns
+repo	community
+file	py3-lxns-0.1.0-r2.apk
+checksum	Q1I146nnwL6+I5C/Zz7Nu7pa1XAbg=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

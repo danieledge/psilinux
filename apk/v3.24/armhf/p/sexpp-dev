@@ -1,0 +1,14 @@
+name	sexpp-dev
+version	0.9.2-r0
+description	S-Expressions parser and generator library in C++ (development files)
+url	https://github.com/rnpgp/sexpp
+license	MIT
+size	41290
+installed-size	159984
+depends	sexpp=0.9.2-r0 pkgconfig
+origin	sexpp
+repo	community
+file	sexpp-dev-0.9.2-r0.apk
+checksum	Q1YWzaYv2CziD5iiT++j9+MVj4GOs=
+dep	sexpp=0.9.2-r0	sexpp
+dep	pkgconfig	pkgconf

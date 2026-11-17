@@ -1,0 +1,20 @@
+name	perl-data-ical
+version	0.24-r3
+description	Generates iCalendar (RFC 2445) calendar files
+url	https://metacpan.org/release/Data-ICal
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	18782
+installed-size	70340
+depends	perl perl-test-nowarnings perl-test-warn perl-text-vfile-asdata perl-class-returnvalue perl-test-longstring perl-class-accessor perl-file-slurp
+origin	perl-data-ical
+repo	community
+file	perl-data-ical-0.24-r3.apk
+checksum	Q1EmJSDqc2PyZHzZVCIDH///pbBqc=
+dep	perl	perl
+dep	perl-test-nowarnings	perl-test-nowarnings
+dep	perl-test-warn	perl-test-warn
+dep	perl-text-vfile-asdata	perl-text-vfile-asdata
+dep	perl-class-returnvalue	perl-class-returnvalue
+dep	perl-test-longstring	perl-test-longstring
+dep	perl-class-accessor	perl-class-accessor
+dep	perl-file-slurp	perl-file-slurp

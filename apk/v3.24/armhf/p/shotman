@@ -1,0 +1,16 @@
+name	shotman
+version	0.5.0-r0
+description	Uncompromising screenshot GUI for Wayland
+url	https://git.sr.ht/~whynothugo/shotman
+license	ISC
+size	582811
+installed-size	1129520
+depends	slurp so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libxkbcommon.so.0
+origin	shotman
+repo	community
+file	shotman-0.5.0-r0.apk
+checksum	Q1GWZQ5mV8ms4+O0/9KQJmRIFrycI=
+dep	slurp	slurp
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libxkbcommon.so.0	libxkbcommon

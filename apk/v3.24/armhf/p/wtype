@@ -1,0 +1,15 @@
+name	wtype
+version	0.4-r0
+description	xdotool type for wayland
+url	https://github.com/atx/wtype
+license	MIT
+size	7308
+installed-size	13696
+depends	so:libc.musl-armhf.so.1 so:libwayland-client.so.0 so:libxkbcommon.so.0
+origin	wtype
+repo	community
+file	wtype-0.4-r0.apk
+checksum	Q16eHbA1zkUdzrEd7ScJLCAE503KA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libxkbcommon.so.0	libxkbcommon

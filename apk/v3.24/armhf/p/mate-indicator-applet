@@ -1,0 +1,24 @@
+name	mate-indicator-applet
+version	1.28.0-r0
+description	A small applet to display information from various applications consistently in the panel
+url	https://github.com/mate-desktop/mate-indicator-applet
+license	GPL-3.0-or-later AND LGPL-2.1-or-later
+size	36530
+installed-size	149015
+depends	so:libX11.so.6 so:libatk-1.0.so.0 so:libayatana-ido3-0.4.so.0 so:libayatana-indicator3.so.7 so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libmate-panel-applet-4.so.1
+origin	mate-indicator-applet
+repo	community
+file	mate-indicator-applet-1.28.0-r0.apk
+checksum	Q15YlEUGA+iZd472J65DxwLe1I/CM=
+dep	so:libX11.so.6	libx11
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libayatana-ido3-0.4.so.0	ayatana-ido
+dep	so:libayatana-indicator3.so.7	libayatana-indicator
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libmate-panel-applet-4.so.1	mate-panel

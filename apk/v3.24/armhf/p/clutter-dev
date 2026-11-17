@@ -1,0 +1,40 @@
+name	clutter-dev
+version	1.26.4-r4
+description	Library for creating fast, visually-appealing interfaces (development files)
+url	https://gitlab.gnome.org/Archive/clutter
+license	LGPL-2.0-or-later
+size	592781
+installed-size	5834748
+depends	json-glib-dev at-spi2-core-dev mesa-dev libxcomposite-dev libxi-dev cairo-dev clutter=1.26.4-r4 pc:atk pc:atk>=2.5.3 pc:cairo-gobject>=1.14.0 pc:cogl-1.0>=1.21.2 pc:cogl-pango-1.0 pc:cogl-path-1.0 pc:gdk-3.0 pc:gdk-pixbuf-2.0 pc:gio-2.0>=2.53.4 pc:json-glib-1.0>=0.12.0 pc:pangocairo>=1.30 pc:pangoft2 pc:wayland-client pc:wayland-cursor pc:x11 pc:xcomposite>=0.4 pc:xdamage pc:xext pc:xi pc:xkbcommon pkgconfig
+origin	clutter
+repo	community
+file	clutter-dev-1.26.4-r4.apk
+checksum	Q1KPNCDp8jm3c9aNyCqqZULobpP3g=
+dep	json-glib-dev	json-glib-dev
+dep	at-spi2-core-dev	at-spi2-core-dev
+dep	mesa-dev	mesa-dev
+dep	libxcomposite-dev	libxcomposite-dev
+dep	libxi-dev	libxi-dev
+dep	cairo-dev	cairo-dev
+dep	clutter=1.26.4-r4	clutter
+dep	pc:atk	at-spi2-core-dev
+dep	pc:atk>=2.5.3	at-spi2-core-dev
+dep	pc:cairo-gobject>=1.14.0	cairo-dev
+dep	pc:cogl-1.0>=1.21.2	cogl-dev
+dep	pc:cogl-pango-1.0	cogl-dev
+dep	pc:cogl-path-1.0	cogl-dev
+dep	pc:gdk-3.0	gtk+3.0-dev
+dep	pc:gdk-pixbuf-2.0	gdk-pixbuf-dev
+dep	pc:gio-2.0>=2.53.4	glib-dev
+dep	pc:json-glib-1.0>=0.12.0	json-glib-dev
+dep	pc:pangocairo>=1.30	pango-dev
+dep	pc:pangoft2	pango-dev
+dep	pc:wayland-client	wayland-dev
+dep	pc:wayland-cursor	wayland-dev
+dep	pc:x11	libx11-dev
+dep	pc:xcomposite>=0.4	libxcomposite-dev
+dep	pc:xdamage	libxdamage-dev
+dep	pc:xext	libxext-dev
+dep	pc:xi	libxi-dev
+dep	pc:xkbcommon	libxkbcommon-dev
+dep	pkgconfig	pkgconf

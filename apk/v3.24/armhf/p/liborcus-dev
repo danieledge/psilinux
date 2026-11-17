@@ -1,0 +1,14 @@
+name	liborcus-dev
+version	0.20.2-r0
+description	Library for processing spreadsheet documents (development files)
+url	https://gitlab.com/orcus/orcus
+license	MPL-2.0
+size	87959
+installed-size	424844
+depends	liborcus=0.20.2-r0 pkgconfig
+origin	liborcus
+repo	community
+file	liborcus-dev-0.20.2-r0.apk
+checksum	Q1G6uQ2HwCO/NJLurSTtRI9/zepHk=
+dep	liborcus=0.20.2-r0	liborcus
+dep	pkgconfig	pkgconf

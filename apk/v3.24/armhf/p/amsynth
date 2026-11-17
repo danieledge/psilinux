@@ -1,0 +1,28 @@
+name	amsynth
+version	1.13.4-r0
+description	easy-to-use software synth with a classic subtractive synthesizer topology
+url	https://amsynth.github.io
+license	GPL-2.0-only
+size	749932
+installed-size	4792009
+depends	libintl so:libX11.so.6 so:libasound.so.2 so:libatk-1.0.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgcc_s.so.1 so:libgdk-x11-2.0.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-x11-2.0.so.0 so:libintl.so.8 so:libjack.so.0 so:libstdc++.so.6
+origin	amsynth
+repo	community
+file	amsynth-1.13.4-r0.apk
+checksum	Q1yuLQ4xtoWJP+95ki4koVXLBMZFs=
+dep	libintl	libintl
+dep	so:libX11.so.6	libx11
+dep	so:libasound.so.2	alsa-lib
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-x11-2.0.so.0	gtk+2.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-x11-2.0.so.0	gtk+2.0
+dep	so:libintl.so.8	libintl
+dep	so:libjack.so.0	jack
+dep	so:libstdc++.so.6	libstdc++

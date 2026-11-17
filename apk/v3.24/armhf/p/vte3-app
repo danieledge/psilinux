@@ -1,0 +1,30 @@
+name	vte3-app
+version	0.84.0-r2
+description	Virtual Terminal Emulator library (apps)
+url	https://gitlab.gnome.org/GNOME/vte
+license	LGPL-2.0-or-later
+size	167406
+installed-size	353244
+depends	adwaita-fonts vte3-profile so:libc.musl-armhf.so.1 so:libcairo-gobject.so.2 so:libcairo.so.2 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libpango-1.0.so.0 so:libstdc++.so.6 so:libvte-2.91-gtk4.so.0 so:libvte-2.91.so.0
+origin	vte3
+repo	community
+file	vte3-app-0.84.0-r2.apk
+checksum	Q1O8GeU3JQXEeTrqyPXC5SZYjI3M4=
+dep	adwaita-fonts	adwaita-fonts
+dep	vte3-profile	vte3-profile
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo-gobject.so.2	cairo-gobject
+dep	so:libcairo.so.2	cairo
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libvte-2.91-gtk4.so.0	vte3-gtk4
+dep	so:libvte-2.91.so.0	vte3

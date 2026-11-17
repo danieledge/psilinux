@@ -1,0 +1,23 @@
+name	cosmic-player
+version	1.0.15-r0
+description	Media player for the COSMIC Desktop Environment
+url	https://github.com/pop-os/cosmic-player
+license	GPL-3.0-only
+size	8323498
+installed-size	17656543
+depends	gst-plugins-good so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstapp-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgsttag-1.0.so.0 so:libxkbcommon.so.0
+origin	cosmic-player
+repo	community
+file	cosmic-player-1.0.15-r0.apk
+checksum	Q1fEKHduk5a+8C5w6GQV/UtQ5S/8A=
+dep	gst-plugins-good	gst-plugins-good
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstapp-1.0.so.0	gst-plugins-base
+dep	so:libgstpbutils-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgsttag-1.0.so.0	gst-plugins-base
+dep	so:libxkbcommon.so.0	libxkbcommon

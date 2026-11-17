@@ -1,0 +1,15 @@
+name	libexmdbpp
+version	1.11-r3
+description	C++ implementation of the exmdb wire protocol for grommunio
+url	https://grommunio.com/
+license	AGPL-3.0-or-later
+size	62471
+installed-size	186290
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libexmdbpp
+repo	community
+file	libexmdbpp-1.11-r3.apk
+checksum	Q12EYtZMidkrBdKf+Si0ZltNdXaGk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,13 @@
+name	libhdhomerun-dev
+version	20250815-r0
+description	Library for Silicon Dust HD HomeRun (development files)
+url	https://github.com/Silicondust/libhdhomerun
+license	LGPL-2.1-or-later
+size	14583
+installed-size	73289
+depends	libhdhomerun-libs
+origin	libhdhomerun
+repo	community
+file	libhdhomerun-dev-20250815-r0.apk
+checksum	Q10MsYugMhAzktqq2CGH+Bq/RKiBI=
+dep	libhdhomerun-libs	libhdhomerun-libs

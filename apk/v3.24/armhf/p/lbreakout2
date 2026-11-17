@@ -1,0 +1,16 @@
+name	lbreakout2
+version	2.6.5-r2
+description	Ball-and-paddle game with nice graphics
+url	https://lgames.sourceforge.io/LBreakout2/
+license	GPL-2.0-or-later
+size	2789693
+installed-size	4252302
+depends	so:libSDL-1.2.so.0 so:libSDL_mixer-1.2.so.0 so:libc.musl-armhf.so.1 so:libpng16.so.16
+origin	lbreakout2
+repo	community
+file	lbreakout2-2.6.5-r2.apk
+checksum	Q1ixz3jGIt36B6UWin56gQ6VoHgIg=
+dep	so:libSDL-1.2.so.0	sdl12-compat
+dep	so:libSDL_mixer-1.2.so.0	sdl_mixer
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpng16.so.16	libpng

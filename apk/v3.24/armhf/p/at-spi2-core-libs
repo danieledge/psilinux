@@ -1,0 +1,20 @@
+name	at-spi2-core-libs
+version	2.60.5-r0
+description	Protocol definitions and daemon for D-Bus at-spi (libraries)
+url	https://www.freedesktop.org/wiki/Accessibility/AT-SPI2/
+license	LGPL-2.1-or-later
+size	80962
+installed-size	206328
+depends	so:libX11.so.6 so:libXi.so.6 so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8
+origin	at-spi2-core
+repo	main
+file	at-spi2-core-libs-2.60.5-r0.apk
+checksum	Q1CPKmer+1KpBExXVZop2uQzkgiJ4=
+dep	so:libX11.so.6	libx11
+dep	so:libXi.so.6	libxi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl

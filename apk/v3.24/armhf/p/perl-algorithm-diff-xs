@@ -1,0 +1,15 @@
+name	perl-algorithm-diff-xs
+version	0.04-r10
+description	Algorithm::Diff with XS core loop
+url	https://metacpan.org/release/Algorithm-Diff-XS/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	8537
+installed-size	12898
+depends	perl perl-algorithm-diff so:libc.musl-armhf.so.1
+origin	perl-algorithm-diff-xs
+repo	community
+file	perl-algorithm-diff-xs-0.04-r10.apk
+checksum	Q1EMiEoeaVDF3wP1sowF/MHzRJab4=
+dep	perl	perl
+dep	perl-algorithm-diff	perl-algorithm-diff
+dep	so:libc.musl-armhf.so.1	musl

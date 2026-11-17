@@ -1,0 +1,14 @@
+name	py3-tld
+version	0.13.1-r1
+description	Extracts the top level domain (TLD) from the URL given
+url	https://pypi.org/project/tld
+license	MPL-1.1 OR GPL-2.0-only OR LGPL-2.1-or-later
+size	262496
+installed-size	927606
+depends	python3 python3~3.14
+origin	py3-tld
+repo	community
+file	py3-tld-0.13.1-r1.apk
+checksum	Q1G3kcgGZhhIq40epmu4bmfAo26KY=
+dep	python3	python3
+dep	python3~3.14	python3

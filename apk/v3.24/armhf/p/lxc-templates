@@ -1,0 +1,13 @@
+name	lxc-templates
+version	7.0.0-r0
+description	Templates for LXC (except alpine and download)
+url	https://linuxcontainers.org/lxc/
+license	LGPL-2.1-or-later
+size	7153
+installed-size	17767
+depends	tar
+origin	lxc
+repo	main
+file	lxc-templates-7.0.0-r0.apk
+checksum	Q1MyjB220Bi1GAEuw1rpOoLe+iETU=
+dep	tar	tar

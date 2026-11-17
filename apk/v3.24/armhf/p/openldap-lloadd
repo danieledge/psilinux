@@ -1,0 +1,18 @@
+name	openldap-lloadd
+version	2.6.15-r0
+description	Standalone LDAP Load Balancer Daemon
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	100628
+installed-size	220391
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libevent-2.1.so.7 so:liblber.so.2 so:libldap.so.2 so:libsasl2.so.3
+origin	openldap
+repo	main
+file	openldap-lloadd-2.6.15-r0.apk
+checksum	Q1zE9gwJ+WeeYBQPcGGhix8m0PYkg=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevent-2.1.so.7	libevent
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap
+dep	so:libsasl2.so.3	libsasl

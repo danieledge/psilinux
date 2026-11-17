@@ -1,0 +1,15 @@
+name	gensio-libs
+version	2.8.14-r0
+description	General Stream I/O (libraries)
+url	https://github.com/cminyard/gensio
+license	GPL-2.0-only AND LGPL-2.1-only AND Apache-2.0
+size	164186
+installed-size	395372
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	gensio
+repo	main
+file	gensio-libs-2.8.14-r0.apk
+checksum	Q1lbWocncPm/qpIyNZygsSFC8KtPo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

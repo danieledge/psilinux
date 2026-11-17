@@ -1,0 +1,18 @@
+name	icu
+version	78.1-r0
+description	International Components for Unicode library
+url	https://icu.unicode.org/
+license	ICU
+size	275642
+installed-size	656696
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libicui18n.so.78 so:libicuio.so.78 so:libicuuc.so.78 so:libstdc++.so.6
+origin	icu
+repo	main
+file	icu-78.1-r0.apk
+checksum	Q1yucH16JRtkiLWD1nuXIHV3ulmhg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuio.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libstdc++.so.6	libstdc++

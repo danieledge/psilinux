@@ -1,0 +1,15 @@
+name	fish-tools
+version	4.6.0-r1
+description	Modern interactive commandline shell (tools)
+url	https://fishshell.com/
+license	GPL-2.0-only
+size	59775
+installed-size	223258
+depends	fish python3 cmd:man
+origin	fish
+repo	main
+file	fish-tools-4.6.0-r1.apk
+checksum	Q1jihE/+w+lJFO3msFJOOaimXn2+8=
+dep	fish	fish
+dep	python3	python3
+dep	cmd:man	mandoc

@@ -1,0 +1,14 @@
+name	glew
+version	2.3.1-r0
+description	A cross-platform C/C++ extension loading library
+url	https://glew.sourceforge.net/
+license	GPL-2.0-or-later
+size	179811
+installed-size	570540
+depends	so:libGL.so.1 so:libc.musl-armhf.so.1
+origin	glew
+repo	community
+file	glew-2.3.1-r0.apk
+checksum	Q16v7EPHV8QXtwnp2jvanX7fS6hS8=
+dep	so:libGL.so.1	mesa-gl
+dep	so:libc.musl-armhf.so.1	musl

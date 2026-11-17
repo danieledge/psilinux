@@ -1,0 +1,14 @@
+name	ocaml-fpath-dev
+version	0.7.3-r5
+description	File system paths for OCaml (development files)
+url	https://erratique.ch/software/fpath
+license	ISC
+size	105528
+installed-size	313133
+depends	ocaml-fpath=0.7.3-r5 ocaml-astring-dev
+origin	ocaml-fpath
+repo	community
+file	ocaml-fpath-dev-0.7.3-r5.apk
+checksum	Q1Hpj1FvHhHXi9qvjfQP+zfWR1gC4=
+dep	ocaml-fpath=0.7.3-r5	ocaml-fpath
+dep	ocaml-astring-dev	ocaml-astring-dev

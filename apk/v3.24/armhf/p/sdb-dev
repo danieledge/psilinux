@@ -1,0 +1,14 @@
+name	sdb-dev
+version	2.3.4-r1
+description	Key-value database with support for arrays and json (development files)
+url	https://github.com/radareorg/sdb
+license	MIT
+size	45973
+installed-size	169964
+depends	sdb-libs=2.3.4-r1 pkgconfig
+origin	sdb
+repo	community
+file	sdb-dev-2.3.4-r1.apk
+checksum	Q1cN/ecS2Ex/EhSJXmUd5Ft3NF/bk=
+dep	sdb-libs=2.3.4-r1	sdb-libs
+dep	pkgconfig	pkgconf

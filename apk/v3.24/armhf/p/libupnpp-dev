@@ -1,0 +1,16 @@
+name	libupnpp-dev
+version	1.0.4-r0
+description	C++ wrapper for libupnp (development files)
+url	https://framagit.org/medoc92/libupnpp
+license	LGPL-2.0-or-later
+size	34396
+installed-size	129843
+depends	libupnpp=1.0.4-r0 pc:libcurl pc:libnpupnp pkgconfig
+origin	libupnpp
+repo	community
+file	libupnpp-dev-1.0.4-r0.apk
+checksum	Q1QBIYvkP3+EbWrle/xNGFh8xAHcg=
+dep	libupnpp=1.0.4-r0	libupnpp
+dep	pc:libcurl	curl-dev
+dep	pc:libnpupnp	libnpupnp-dev
+dep	pkgconfig	pkgconf

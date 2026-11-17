@@ -1,0 +1,18 @@
+name	libgsystemservice-dev
+version	0.3.0-r0
+description	Common components for building system services to be exposed on the D-Bus system bus (development files)
+url	https://gitlab.gnome.org/pwithnall/libgsystemservice
+license	LGPL-2.1-or-later
+size	5655
+installed-size	15331
+depends	libgsystemservice=0.3.0-r0 pc:gio-2.0>=2.71 pc:glib-2.0>=2.44 pc:gobject-2.0>=2.44 pc:polkit-gobject-1 pkgconfig
+origin	libgsystemservice
+repo	community
+file	libgsystemservice-dev-0.3.0-r0.apk
+checksum	Q1OvxQZxM1K93YGw/DeUAZLUsTP38=
+dep	libgsystemservice=0.3.0-r0	libgsystemservice
+dep	pc:gio-2.0>=2.71	glib-dev
+dep	pc:glib-2.0>=2.44	glib-dev
+dep	pc:gobject-2.0>=2.44	glib-dev
+dep	pc:polkit-gobject-1	polkit-dev
+dep	pkgconfig	pkgconf

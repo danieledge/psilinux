@@ -1,0 +1,14 @@
+name	miniupnpc-dev
+version	2.3.3-r2
+description	Library and tool to control NAT in UPnP-enabled routers (development files)
+url	http://miniupnp.free.fr
+license	BSD-3-Clause
+size	39599
+installed-size	124366
+depends	miniupnpc=2.3.3-r2 pkgconfig
+origin	miniupnpc
+repo	community
+file	miniupnpc-dev-2.3.3-r2.apk
+checksum	Q1xavegxt06Q9yWrTJlNHfEjskZjY=
+dep	miniupnpc=2.3.3-r2	miniupnpc
+dep	pkgconfig	pkgconf

@@ -1,0 +1,18 @@
+name	lld18-libs
+version	18.1.8-r10
+description	The LLVM Linker (libraries)
+url	https://llvm.org/
+license	Apache-2.0 WITH LLVM-exception
+size	2797772
+installed-size	7031372
+depends	so:libLLVM.so.18.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
+origin	llvm18
+repo	community
+file	lld18-libs-18.1.8-r10.apk
+checksum	Q1+SfYfAvpxg+mPRTmyW2pMyX+CNk=
+dep	so:libLLVM.so.18.1	llvm18-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

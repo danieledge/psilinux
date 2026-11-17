@@ -1,0 +1,13 @@
+name	dnsmasq-utils-doc
+version	2.92_p2-r0
+description	A lightweight DNS, DHCP, RA, TFTP and PXE server - contrib utilities (documentation)
+url	https://www.thekelleys.org.uk/dnsmasq/
+license	GPL-2.0-or-later
+size	3781
+installed-size	1815
+depends	dnsmasq-common=2.92_p2-r0
+origin	dnsmasq
+repo	main
+file	dnsmasq-utils-doc-2.92_p2-r0.apk
+checksum	Q1O68pXs4bU4UB9vNyNerBTG2s15U=
+dep	dnsmasq-common=2.92_p2-r0	dnsmasq-common

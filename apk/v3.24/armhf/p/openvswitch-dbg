@@ -1,0 +1,12 @@
+name	openvswitch-dbg
+version	3.7.1-r0
+description	production quality, multilayer virtual switch (debug symbols)
+url	https://www.openvswitch.org/
+license	Apache-2.0
+size	5723995
+installed-size	13610564
+depends	!openvswitch-libs<3.7.1-r0 !openvswitch-libs>3.7.1-r0 !openvswitch-test<3.7.1-r0 !openvswitch-test>3.7.1-r0 !openvswitch<3.7.1-r0 !openvswitch>3.7.1-r0
+origin	openvswitch
+repo	community
+file	openvswitch-dbg-3.7.1-r0.apk
+checksum	Q1gtHTlfQBonoy3jVfhbm5BxLyh8k=

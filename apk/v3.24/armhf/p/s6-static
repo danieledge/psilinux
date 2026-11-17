@@ -1,0 +1,13 @@
+name	s6-static
+version	2.15.0.0-r0
+description	skarnet.org's small & secure supervision software suite. (static library)
+url	https://skarnet.org/software/s6/
+license	ISC
+size	32881
+installed-size	129662
+depends	s6-dev
+origin	s6
+repo	main
+file	s6-static-2.15.0.0-r0.apk
+checksum	Q12r9P+Q2LdwhNeLTqe+ewX93KVis=
+dep	s6-dev	s6-dev

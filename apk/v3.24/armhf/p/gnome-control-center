@@ -1,0 +1,67 @@
+name	gnome-control-center
+version	50.3-r0
+description	GNOME control center
+url	https://gitlab.gnome.org/GNOME/gnome-control-center
+license	GPL-2.0-or-later
+size	3312699
+installed-size	5831712
+depends	accountsservice colord cups-pk-helper dbus:org.freedesktop.Secrets openrc-settingsd setxkbmap /bin/sh so:libX11.so.6 so:libaccountsservice.so.0 so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcolord-gtk4.so.1 so:libcolord.so.2 so:libcups.so.2 so:libepoxy.so.0 so:libfontconfig.so.1 so:libgcr-4.so.4 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmobile.so.0 so:libgnome-bg-4.so.2 so:libgnome-bluetooth-ui-3.0.so.13 so:libgnome-desktop-4.so.2 so:libgnutls.so.30 so:libgoa-1.0.so.0 so:libgoa-backend-1.0.so.2 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgsound.so.0 so:libgtk-4.so.1 so:libgtop-2.0.so.11 so:libgudev-1.0.so.0 so:libibus-1.0.so.5 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libkrb5.so.3 so:libmalcontent-0.so.0 so:libmm-glib.so.0 so:libnm.so.0 so:libnma-gtk4.so.0 so:libpango-1.0.so.0 so:libpolkit-gobject-1.so.0 so:libpulse-mainloop-glib.so.0 so:libpulse.so.0 so:libpwquality.so.1 so:libsecret-1.so.0 so:libsmbclient.so.0 so:libsoup-3.0.so.0 so:libudisks2.so.0 so:libupower-glib.so.3 so:libwacom.so.9 so:libwayland-client.so.0 so:libxml2.so.2
+origin	gnome-control-center
+repo	community
+file	gnome-control-center-50.3-r0.apk
+checksum	Q1sBtXuIZ8P/N5RdxHyxYvtcz9/QU=
+dep	accountsservice	accountsservice
+dep	colord	colord
+dep	cups-pk-helper	cups-pk-helper
+dep	dbus:org.freedesktop.Secrets	gnome-keyring
+dep	openrc-settingsd	openrc-settingsd
+dep	setxkbmap	setxkbmap
+dep	/bin/sh	busybox-binsh
+dep	so:libX11.so.6	libx11
+dep	so:libaccountsservice.so.0	libaccountsservice
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcolord-gtk4.so.1	colord-gtk
+dep	so:libcolord.so.2	libcolord
+dep	so:libcups.so.2	cups-libs
+dep	so:libepoxy.so.0	libepoxy
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgcr-4.so.4	gcr4-base
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmobile.so.0	gmobile
+dep	so:libgnome-bg-4.so.2	libgnome-bg-4
+dep	so:libgnome-bluetooth-ui-3.0.so.13	gnome-bluetooth-libs
+dep	so:libgnome-desktop-4.so.2	libgnome-desktop-4
+dep	so:libgnutls.so.30	gnutls
+dep	so:libgoa-1.0.so.0	gnome-online-accounts
+dep	so:libgoa-backend-1.0.so.2	gnome-online-accounts
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgsound.so.0	gsound
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libgtop-2.0.so.11	libgtop
+dep	so:libgudev-1.0.so.0	libgudev
+dep	so:libibus-1.0.so.5	ibus
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libkrb5.so.3	krb5-libs
+dep	so:libmalcontent-0.so.0	malcontent-libs
+dep	so:libmm-glib.so.0	libmm-glib
+dep	so:libnm.so.0	libnm
+dep	so:libnma-gtk4.so.0	libnma-gtk4
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpolkit-gobject-1.so.0	polkit-noelogind-libs
+dep	so:libpulse-mainloop-glib.so.0	libpulse-mainloop-glib
+dep	so:libpulse.so.0	libpulse
+dep	so:libpwquality.so.1	libpwquality
+dep	so:libsecret-1.so.0	libsecret
+dep	so:libsmbclient.so.0	libsmbclient
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libudisks2.so.0	udisks2-libs
+dep	so:libupower-glib.so.3	upower
+dep	so:libwacom.so.9	libwacom
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libxml2.so.2	libxml2

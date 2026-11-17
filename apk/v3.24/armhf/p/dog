@@ -1,0 +1,16 @@
+name	dog
+version	0.1.0-r5
+description	dog is a command-line DNS client
+url	https://github.com/ogham/dog
+license	EUPL-1.2
+size	277189
+installed-size	524008
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
+origin	dog
+repo	community
+file	dog-0.1.0-r5.apk
+checksum	Q1fUmgjeFKoDqKhEiFX5NjYV499SA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3

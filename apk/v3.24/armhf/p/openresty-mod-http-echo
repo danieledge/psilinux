@@ -1,0 +1,15 @@
+name	openresty-mod-http-echo
+version	1.31.1.1-r0
+description	Scalable Web Platform by Extending NGINX with Lua (module ngx_http_echo_module.so)
+url	https://openresty.org/
+license	BSD-2-Clause
+size	17263
+installed-size	35115
+depends	cmd:nginx openresty so:libc.musl-armhf.so.1
+origin	openresty
+repo	community
+file	openresty-mod-http-echo-1.31.1.1-r0.apk
+checksum	Q1DbNURcUFsqGY5kFaislJm3Iqyeo=
+dep	cmd:nginx	nginx
+dep	openresty	openresty
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	llvm-gtest
+version	22-r0
+description	LLVM default gtest static libraries
+url	https://llvm.org/
+license	Apache-2.0
+size	1260
+installed-size	0
+depends	llvm22-gtest
+origin	llvm
+repo	main
+file	llvm-gtest-22-r0.apk
+checksum	Q17TXAVVSqravA5hcy1ZryG+H7UxU=
+dep	llvm22-gtest	llvm22-gtest

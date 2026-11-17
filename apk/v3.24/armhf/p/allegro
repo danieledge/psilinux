@@ -1,0 +1,35 @@
+name	allegro
+version	5.2.11.3-r0
+description	Portable library mainly aimed at video game and multimedia programming
+url	https://liballeg.org
+license	BSD-3-Clause
+size	503681
+installed-size	1276340
+depends	so:libFLAC.so.12 so:libGL.so.1 so:libX11.so.6 so:libXcursor.so.1 so:libXi.so.6 so:libXinerama.so.1 so:libXrandr.so.2 so:libasound.so.2 so:libc.musl-armhf.so.1 so:libfreetype.so.6 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libjpeg.so.8 so:libogg.so.0 so:libpng16.so.16 so:libpulse-simple.so.0 so:libpulse.so.0 so:libtheoradec.so.2 so:libvorbis.so.0 so:libvorbisfile.so.3 so:libwebp.so.7
+origin	allegro
+repo	community
+file	allegro-5.2.11.3-r0.apk
+checksum	Q1gxe+/oW2NSs7qJlQRMnQGTcxZt0=
+dep	so:libFLAC.so.12	libflac
+dep	so:libGL.so.1	mesa-gl
+dep	so:libX11.so.6	libx11
+dep	so:libXcursor.so.1	libxcursor
+dep	so:libXi.so.6	libxi
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreetype.so.6	freetype
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libogg.so.0	libogg
+dep	so:libpng16.so.16	libpng
+dep	so:libpulse-simple.so.0	libpulse
+dep	so:libpulse.so.0	libpulse
+dep	so:libtheoradec.so.2	libtheora
+dep	so:libvorbis.so.0	libvorbis
+dep	so:libvorbisfile.so.3	libvorbis
+dep	so:libwebp.so.7	libwebp

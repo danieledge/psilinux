@@ -1,0 +1,26 @@
+name	libgnomekbd
+version	3.28.1-r3
+description	GNOME keyboard library
+url	https://www.gnome.org/
+license	GPL-2.0-or-later
+size	56795
+installed-size	143299
+depends	desktop-file-utils so:libX11.so.6 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libxklavier.so.16
+origin	libgnomekbd
+repo	community
+file	libgnomekbd-3.28.1-r3.apk
+checksum	Q1flByzlCZFYvTwrZ6ORZyfvDJdvE=
+dep	desktop-file-utils	desktop-file-utils
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libxklavier.so.16	libxklavier

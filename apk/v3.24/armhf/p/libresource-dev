@@ -1,0 +1,18 @@
+name	libresource-dev
+version	0.25.1-r2
+description	Nemo's libresource (development files)
+url	https://github.com/sailfishos/libresource
+license	LGPL-2.1-only AND (AFL-2.1 OR GPL-2.0-or-later)
+size	6374
+installed-size	21048
+depends	check-dev dbus-dev glib-dev libresource=0.25.1-r2 pc:glib-2.0 pkgconfig
+origin	libresource
+repo	community
+file	libresource-dev-0.25.1-r2.apk
+checksum	Q1TVHnAfQqowvX3Xmau/wfcXZF8+o=
+dep	check-dev	check-dev
+dep	dbus-dev	dbus-dev
+dep	glib-dev	glib-dev
+dep	libresource=0.25.1-r2	libresource
+dep	pc:glib-2.0	glib-dev
+dep	pkgconfig	pkgconf

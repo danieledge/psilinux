@@ -1,0 +1,12 @@
+name	mailmunge-openrc
+version	3.20-r0
+description	email filtering framework that uses libmilter to interface with Postfix or Sendmail (OpenRC init scripts)
+url	https://mailmunge.org
+license	GPL-2.0-only
+size	4768
+installed-size	10915
+depends	
+origin	mailmunge
+repo	community
+file	mailmunge-openrc-3.20-r0.apk
+checksum	Q11Cyd6LFc2jcWQ1sHHFDblKn4JxM=

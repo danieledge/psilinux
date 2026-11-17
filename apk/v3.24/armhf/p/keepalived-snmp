@@ -1,0 +1,24 @@
+name	keepalived-snmp
+version	2.3.4-r2
+description	Health Checking for Linux Virtual Server & High-Availability (with SNMP support)
+url	https://www.keepalived.org/
+license	GPL-2.0-only
+size	334377
+installed-size	879786
+depends	keepalived-common so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libmnl.so.0 so:libnetsnmp.so.45 so:libnetsnmpagent.so.45 so:libnetsnmpmibs.so.45 so:libnftnl.so.11 so:libnl-3.so.200 so:libnl-genl-3.so.200 so:libssl.so.3
+origin	keepalived
+repo	community
+file	keepalived-snmp-2.3.4-r2.apk
+checksum	Q1SB+ahT9pKJYBPje+Es9qMv2sH/I=
+dep	keepalived-common	keepalived-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmnl.so.0	libmnl
+dep	so:libnetsnmp.so.45	net-snmp-libs
+dep	so:libnetsnmpagent.so.45	net-snmp-agent-libs
+dep	so:libnetsnmpmibs.so.45	net-snmp-agent-libs
+dep	so:libnftnl.so.11	libnftnl
+dep	so:libnl-3.so.200	libnl3
+dep	so:libnl-genl-3.so.200	libnl3
+dep	so:libssl.so.3	libssl3

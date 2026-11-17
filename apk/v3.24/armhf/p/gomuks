@@ -1,0 +1,16 @@
+name	gomuks
+version	0.3.1-r18
+description	Terminal-based Matrix client written in Go
+url	https://github.com/tulir/gomuks
+license	AGPL-3.0-or-later
+size	7249924
+installed-size	21337652
+depends	ncurses so:libc.musl-armhf.so.1 so:libolm.so.3 so:libsqlite3.so.0
+origin	gomuks
+repo	community
+file	gomuks-0.3.1-r18.apk
+checksum	Q1NdU9qZa+4XkxYjf1YlLZkIP5CVY=
+dep	ncurses	ncurses
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libolm.so.3	olm
+dep	so:libsqlite3.so.0	sqlite-libs

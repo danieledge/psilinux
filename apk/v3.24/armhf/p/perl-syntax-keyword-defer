@@ -1,0 +1,15 @@
+name	perl-syntax-keyword-defer
+version	0.11-r2
+description	Execute code when leaving a block
+url	https://metacpan.org/release/Syntax-Keyword-Defer/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	10522
+installed-size	20361
+depends	perl perl-xs-parse-keyword so:libc.musl-armhf.so.1
+origin	perl-syntax-keyword-defer
+repo	community
+file	perl-syntax-keyword-defer-0.11-r2.apk
+checksum	Q1dtVKyQ+TZvUA094HvFT2k6Q7QwQ=
+dep	perl	perl
+dep	perl-xs-parse-keyword	perl-xs-parse-keyword
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	perl-javascript-quickjs
+version	0.21-r4
+description	Run JavaScript via QuickJS in Perl
+url	https://metacpan.org/release/JavaScript-QuickJS/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	441905
+installed-size	873820
+depends	perl perl-types-serialiser so:libc.musl-armhf.so.1
+origin	perl-javascript-quickjs
+repo	community
+file	perl-javascript-quickjs-0.21-r4.apk
+checksum	Q1mma/kVKjoxsZI5mp7CMopNNtvVc=
+dep	perl	perl
+dep	perl-types-serialiser	perl-types-serialiser
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	xorgproto
+version	2025.1-r0
+description	Combined X.Org X11 protocol headers
+url	https://www.x.org
+license	BSD-2-Clause AND MIT AND X11
+size	335443
+installed-size	1625947
+depends	pkgconfig
+origin	xorgproto
+repo	main
+file	xorgproto-2025.1-r0.apk
+checksum	Q1IG0hXzTkzml8Wwk3YpbsodY1S8M=
+dep	pkgconfig	pkgconf

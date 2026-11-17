@@ -1,0 +1,24 @@
+name	logstalgia
+version	1.1.5-r1
+description	A website access log visualisation tool
+url	https://logstalgia.io/
+license	GPL-3.0-or-later
+size	2223862
+installed-size	4809160
+depends	so:libGL.so.1 so:libGLEW.so.2.3 so:libGLU.so.1 so:libSDL2-2.0.so.0 so:libSDL2_image-2.0.so.0 so:libboost_filesystem.so.1.84.0 so:libc.musl-armhf.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libpcre2-8.so.0 so:libpng16.so.16 so:libstdc++.so.6
+origin	logstalgia
+repo	community
+file	logstalgia-1.1.5-r1.apk
+checksum	Q1hj7zJCxb5GIdw96zJJ4UH5U0ASg=
+dep	so:libGL.so.1	mesa-gl
+dep	so:libGLEW.so.2.3	glew
+dep	so:libGLU.so.1	glu
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libSDL2_image-2.0.so.0	sdl2_image
+dep	so:libboost_filesystem.so.1.84.0	boost1.84-filesystem
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,16 @@
+name	chez-scheme
+version	10.3.0-r2
+description	Cisco R6RS Scheme Compiler
+url	https://github.com/cisco/ChezScheme
+license	Apache-2.0
+size	3121506
+installed-size	4582656
+depends	so:libc.musl-armhf.so.1 so:liblz4.so.1 so:libncursesw.so.6 so:libz.so.1
+origin	chez-scheme
+repo	community
+file	chez-scheme-10.3.0-r2.apk
+checksum	Q1hDifKEHdRnnrTfRMyT1pfzY4xbg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblz4.so.1	lz4-libs
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libz.so.1	zlib

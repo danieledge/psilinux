@@ -1,0 +1,18 @@
+name	xf86-input-wacom
+version	1.2.4-r1
+description	X.org Wacom tablet input driver
+url	https://github.com/linuxwacom/xf86-input-wacom
+license	GPL-2.0-or-later
+size	77559
+installed-size	175490
+depends	so:libX11.so.6 so:libXi.so.6 so:libXinerama.so.1 so:libXrandr.so.2 so:libc.musl-armhf.so.1 so:libudev.so.1
+origin	xf86-input-wacom
+repo	community
+file	xf86-input-wacom-1.2.4-r1.apk
+checksum	Q1eIy87NXQ6G1v43/vOkGSZeotFjo=
+dep	so:libX11.so.6	libx11
+dep	so:libXi.so.6	libxi
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libudev.so.1	eudev-libs

@@ -1,0 +1,13 @@
+name	llvm-libunwind
+version	22.1.3-r0
+description	LLVM libunwind library
+url	https://llvm.org/
+license	Apache-2.0
+size	16975
+installed-size	38260
+depends	!libunwind-dev so:libc.musl-armhf.so.1
+origin	llvm-runtimes
+repo	main
+file	llvm-libunwind-22.1.3-r0.apk
+checksum	Q1xQnTas2kI2SDRqjwTMSfLk/l/NQ=
+dep	so:libc.musl-armhf.so.1	musl

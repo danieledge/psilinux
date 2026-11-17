@@ -1,0 +1,15 @@
+name	libxv
+version	1.0.13-r0
+description	X11 Video extension library
+url	https://xorg.freedesktop.org/
+license	MIT
+size	7632
+installed-size	17628
+depends	so:libX11.so.6 so:libXext.so.6 so:libc.musl-armhf.so.1
+origin	libxv
+repo	main
+file	libxv-1.0.13-r0.apk
+checksum	Q1Ps6+N2LwKSBLKv/g6rDk4Cay/wg=
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	libretro-craft
+version	0_git20241006-r0
+description	a simple Minecraft clone written in C using modern OpenGL
+url	https://github.com/libretro/Craft
+license	MIT
+size	568562
+installed-size	988840
+depends	so:libGL.so.1 so:libc.musl-armhf.so.1
+origin	libretro-craft
+repo	community
+file	libretro-craft-0_git20241006-r0.apk
+checksum	Q1GpoRHJyR1cuiwnSLXwpCp26F3mI=
+dep	so:libGL.so.1	mesa-gl
+dep	so:libc.musl-armhf.so.1	musl

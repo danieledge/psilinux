@@ -1,0 +1,23 @@
+name	qscintilla
+version	2.14.1-r4
+description	QScintilla is a port to Qt of Neil Hodgson's Scintilla C++ editor control
+url	https://www.riverbankcomputing.com/software/qscintilla
+license	GPL-3.0-only
+size	3612021
+installed-size	11763880
+depends	so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt5PrintSupport.so.5 so:libQt5Widgets.so.5 so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6PrintSupport.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	qscintilla
+repo	community
+file	qscintilla-2.14.1-r4.apk
+checksum	Q1JLR4Ayk5bnVZCnRXYnSJucdeTCQ=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Gui.so.5	qt5-qtbase-x11
+dep	so:libQt5PrintSupport.so.5	qt5-qtbase-x11
+dep	so:libQt5Widgets.so.5	qt5-qtbase-x11
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6PrintSupport.so.6	qt6-qtbase-x11
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

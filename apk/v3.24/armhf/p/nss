@@ -1,0 +1,17 @@
+name	nss
+version	3.133-r0
+description	Mozilla Network Security Services
+url	https://developer.mozilla.org/docs/Mozilla/Projects/NSS
+license	MPL-2.0
+size	1613151
+installed-size	3615348
+depends	so:libc.musl-armhf.so.1 so:libnspr4.so so:libplc4.so so:libplds4.so so:libsqlite3.so.0
+origin	nss
+repo	main
+file	nss-3.133-r0.apk
+checksum	Q1ZTvGtVRS/aF3YLpWpop+CCRxmew=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnspr4.so	nspr
+dep	so:libplc4.so	nspr
+dep	so:libplds4.so	nspr
+dep	so:libsqlite3.so.0	sqlite-libs

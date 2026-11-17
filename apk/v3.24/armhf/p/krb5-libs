@@ -1,0 +1,19 @@
+name	krb5-libs
+version	1.22.3-r0
+description	The shared libraries used by Kerberos 5
+url	https://web.mit.edu/kerberos/www/
+license	MIT
+size	741689
+installed-size	1661924
+depends	krb5-conf so:libc.musl-armhf.so.1 so:libcom_err.so.2 so:libcrypto.so.3 so:libkeyutils.so.1 so:libssl.so.3 so:libverto.so.1
+origin	krb5
+repo	main
+file	krb5-libs-1.22.3-r0.apk
+checksum	Q1LMHZsWhg218y4ecQf6+AnBqCVoE=
+dep	krb5-conf	krb5-conf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcom_err.so.2	libcom_err
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libkeyutils.so.1	keyutils-libs
+dep	so:libssl.so.3	libssl3
+dep	so:libverto.so.1	libverto

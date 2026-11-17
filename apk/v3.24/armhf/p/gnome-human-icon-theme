@@ -1,0 +1,13 @@
+name	gnome-human-icon-theme
+version	5.5.1-r5
+description	Orange variation of the GNOME-Colors icon theme
+url	https://github.com/gnome-colors/gnome-colors
+license	GPL-2.0-only
+size	388174
+installed-size	1642951
+depends	gnome-colors-common
+origin	gnome-colors
+repo	community
+file	gnome-human-icon-theme-5.5.1-r5.apk
+checksum	Q1S8Z+ZgnveeoxX7qZmmzehhjNN8A=
+dep	gnome-colors-common	gnome-colors-common

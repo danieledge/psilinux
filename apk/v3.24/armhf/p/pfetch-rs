@@ -1,0 +1,14 @@
+name	pfetch-rs
+version	2.11.1-r0
+description	A rewrite of the pfetch system information tool in Rust
+url	https://crates.io/crates/pfetch
+license	MIT
+size	1042529
+installed-size	2182636
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	pfetch-rs
+repo	community
+file	pfetch-rs-2.11.1-r0.apk
+checksum	Q1cCp1Z/oZH9s+wy7zia2Tf2opyw4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,19 @@
+name	racktables
+version	0.22.0-r4
+description	Server room asset management
+url	http://racktables.org
+license	GPL-2.0-only AND BSD-3-Clause AND MIT AND CC-BY-SA-3.0 AND Custom
+size	963249
+installed-size	3350081
+depends	php83 php83-bcmath php83-gd php83-mysqli php83-pdo_mysql php83-opcache php83-mbstring
+origin	racktables
+repo	community
+file	racktables-0.22.0-r4.apk
+checksum	Q1OZTFj9QdpNOytPKh7ScG7y3p5dg=
+dep	php83	php83
+dep	php83-bcmath	php83-bcmath
+dep	php83-gd	php83-gd
+dep	php83-mysqli	php83-mysqli
+dep	php83-pdo_mysql	php83-pdo_mysql
+dep	php83-opcache	php83-opcache
+dep	php83-mbstring	php83-mbstring

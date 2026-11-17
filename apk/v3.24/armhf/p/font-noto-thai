@@ -1,0 +1,14 @@
+name	font-noto-thai
+version	2026.11.01-r0
+description	Noto Sans Thai, Sans Thai Looped and Serif Thai fonts
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	2494897
+installed-size	5030710
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-thai-2026.11.01-r0.apk
+checksum	Q1qMshYiYRb7OUNzzUAQCeDb0kDrA=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

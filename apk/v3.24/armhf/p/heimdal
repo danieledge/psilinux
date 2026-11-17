@@ -1,0 +1,31 @@
+name	heimdal
+version	7.8.0-r5
+description	Implementation of Kerberos 5
+url	https://github.com/heimdal/
+license	BSD-3-Clause
+size	283916
+installed-size	764836
+depends	krb5-conf so:libasn1.so.8 so:libc.musl-armhf.so.1 so:libcom_err.so.2 so:libgssapi.so.3 so:libhcrypto.so.4 so:libhdb.so.9 so:libheimbase.so.1 so:libheimntlm.so.0 so:libhx509.so.5 so:libkadm5clnt.so.7 so:libkadm5srv.so.8 so:libkafs.so.0 so:libkdc.so.2 so:libkrb5.so.26 so:libreadline.so.8 so:libroken.so.18 so:libsl.so.0 so:libwind.so.0
+origin	heimdal
+repo	main
+file	heimdal-7.8.0-r5.apk
+checksum	Q1ylMZb7zawxxSCtIFoz2uXlJkPiw=
+dep	krb5-conf	krb5-conf
+dep	so:libasn1.so.8	heimdal-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcom_err.so.2	libcom_err
+dep	so:libgssapi.so.3	heimdal-libs
+dep	so:libhcrypto.so.4	heimdal-libs
+dep	so:libhdb.so.9	heimdal-libs
+dep	so:libheimbase.so.1	heimdal-libs
+dep	so:libheimntlm.so.0	heimdal-libs
+dep	so:libhx509.so.5	heimdal-libs
+dep	so:libkadm5clnt.so.7	heimdal-libs
+dep	so:libkadm5srv.so.8	heimdal-libs
+dep	so:libkafs.so.0	heimdal-libs
+dep	so:libkdc.so.2	heimdal-libs
+dep	so:libkrb5.so.26	heimdal-libs
+dep	so:libreadline.so.8	readline
+dep	so:libroken.so.18	heimdal-libs
+dep	so:libsl.so.0	heimdal-libs
+dep	so:libwind.so.0	heimdal-libs

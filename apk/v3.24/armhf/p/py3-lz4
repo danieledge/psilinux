@@ -1,0 +1,15 @@
+name	py3-lz4
+version	4.4.5-r1
+description	LZ4 Bindings for Python
+url	https://pypi.org/project/lz4
+license	BSD-3-Clause
+size	27774
+installed-size	88131
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:liblz4.so.1
+origin	py3-lz4
+repo	community
+file	py3-lz4-4.4.5-r1.apk
+checksum	Q1DB1+e9wisO3YQsDOpURDrt0NOpA=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblz4.so.1	lz4-libs

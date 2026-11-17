@@ -1,0 +1,14 @@
+name	libidn-dev
+version	1.43-r0
+description	Encode/Decode library for internationalized domain names (development files)
+url	https://www.gnu.org/software/libidn
+license	LGPL-2.1-or-later
+size	85343
+installed-size	284688
+depends	libidn=1.43-r0 pkgconfig
+origin	libidn
+repo	main
+file	libidn-dev-1.43-r0.apk
+checksum	Q1lJp874+RC97QOXnqX4xmOlXQ2z0=
+dep	libidn=1.43-r0	libidn
+dep	pkgconfig	pkgconf

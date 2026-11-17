@@ -1,0 +1,14 @@
+name	polkit-elogind-dev
+version	127-r2
+description	Polkit with elogind session tracking (development files)
+url	https://github.com/polkit-org/polkit
+license	GPL-2.0-or-later
+size	28224
+installed-size	333670
+depends	polkit-dev=127-r2 polkit-elogind-libs=127-r2
+origin	polkit
+repo	community
+file	polkit-elogind-dev-127-r2.apk
+checksum	Q1jp/WOom1uhqaItCzLXKf3Ty/wBM=
+dep	polkit-dev=127-r2	polkit-dev
+dep	polkit-elogind-libs=127-r2	polkit-elogind-libs

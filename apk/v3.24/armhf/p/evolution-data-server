@@ -1,0 +1,49 @@
+name	evolution-data-server
+version	3.60.2-r2
+description	data server for evolution
+url	https://projects.gnome.org/evolution
+license	GPL-2.0-or-later
+size	2627558
+installed-size	6846850
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcanberra-gtk3.so.0 so:libcanberra.so.0 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgoa-1.0.so.0 so:libgobject-2.0.so.0 so:libgssapi_krb5.so.2 so:libgtk-3.so.0 so:libgtk-4.so.1 so:libgweather-4.so.0 so:libical-glib.so.3 so:libical.so.3 so:libicui18n.so.78 so:libicuuc.so.78 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:liblber.so.2 so:libldap.so.2 so:libnspr4.so so:libnss3.so so:libpango-1.0.so.0 so:libphonenumber.so.9 so:libsecret-1.so.0 so:libsmime3.so so:libsoup-3.0.so.0 so:libsqlite3.so.0 so:libssl3.so so:libstdc++.so.6 so:libuuid.so.1 so:libwebkitgtk-6.0.so.4 so:libxml2.so.2 so:libz.so.1
+origin	evolution-data-server
+repo	community
+file	evolution-data-server-3.60.2-r2.apk
+checksum	Q1pGdn3hrg2W9URaBZxLuZh4xE0FI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcanberra-gtk3.so.0	libcanberra-gtk3
+dep	so:libcanberra.so.0	libcanberra
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgoa-1.0.so.0	gnome-online-accounts
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgssapi_krb5.so.2	krb5-libs
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libgweather-4.so.0	libgweather4
+dep	so:libical-glib.so.3	libical
+dep	so:libical.so.3	libical
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap
+dep	so:libnspr4.so	nspr
+dep	so:libnss3.so	nss
+dep	so:libpango-1.0.so.0	pango
+dep	so:libphonenumber.so.9	libphonenumber
+dep	so:libsecret-1.so.0	libsecret
+dep	so:libsmime3.so	nss
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libssl3.so	nss
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libuuid.so.1	libuuid
+dep	so:libwebkitgtk-6.0.so.4	webkit2gtk-6.0
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

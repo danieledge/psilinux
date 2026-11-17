@@ -1,0 +1,13 @@
+name	vde2-libs
+version	2.3.3-r7
+description	Virtual Distributed Ethernet libraries
+url	https://github.com/virtualsquare/vde-2
+license	GPL
+size	26614
+installed-size	74552
+depends	so:libc.musl-armhf.so.1
+origin	vde2
+repo	community
+file	vde2-libs-2.3.3-r7.apk
+checksum	Q1CMNqFEeEV1ETU8RQR1MbcG3Jt/g=
+dep	so:libc.musl-armhf.so.1	musl

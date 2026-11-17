@@ -1,0 +1,14 @@
+name	libtraceevent-plugins
+version	1.9.0-r0
+description	Linux kernel trace event library (plugins)
+url	https://git.kernel.org/pub/scm/libs/libtrace/libtraceevent.git
+license	LGPL-2.1-or-later AND GPL-2.0-or-later
+size	24211
+installed-size	94966
+depends	so:libc.musl-armhf.so.1 so:libtraceevent.so.1
+origin	libtraceevent
+repo	main
+file	libtraceevent-plugins-1.9.0-r0.apk
+checksum	Q1ZrTQ6aBtttsYlKOJ6V6ftHl+XRk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libtraceevent.so.1	libtraceevent

@@ -1,0 +1,14 @@
+name	libxpresent
+version	1.0.2-r0
+description	A Xlib-compatible API for the Present extension
+url	https://xorg.freedesktop.org/
+license	MIT
+size	5656
+installed-size	9344
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1
+origin	libxpresent
+repo	community
+file	libxpresent-1.0.2-r0.apk
+checksum	Q1JYhj0T1+xsPCQrtUSCVwbg/HEcc=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl

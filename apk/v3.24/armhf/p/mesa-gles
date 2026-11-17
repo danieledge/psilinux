@@ -1,0 +1,15 @@
+name	mesa-gles
+version	26.1.6-r0
+description	Mesa libGLESv2 runtime libraries
+url	https://www.mesa3d.org
+license	MIT AND SGI-B-2.0 AND BSL-1.0
+size	20579
+installed-size	72064
+depends	mesa=26.1.6-r0 so:libc.musl-armhf.so.1 so:libgallium-26.1.6.so
+origin	mesa
+repo	main
+file	mesa-gles-26.1.6-r0.apk
+checksum	Q1MiZdq4dqSAlzRR6n1J6NQImXa/s=
+dep	mesa=26.1.6-r0	mesa
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgallium-26.1.6.so	mesa

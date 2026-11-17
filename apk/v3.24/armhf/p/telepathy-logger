@@ -1,0 +1,20 @@
+name	telepathy-logger
+version	0.8.2-r7
+description	Telepathy framework logging daemon
+url	https://telepathy.freedesktop.org/components/telepathy-logger/
+license	LGPL-2.1-or-later
+size	75220
+installed-size	192533
+depends	so:libc.musl-armhf.so.1 so:libdbus-glib-1.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libsqlite3.so.0 so:libtelepathy-glib.so.0 so:libxml2.so.2
+origin	telepathy-logger
+repo	community
+file	telepathy-logger-0.8.2-r7.apk
+checksum	Q1vBjrQs3B1wO/hoscbyt5kkl/XQY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-glib-1.so.2	dbus-glib
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libtelepathy-glib.so.0	telepathy-glib
+dep	so:libxml2.so.2	libxml2

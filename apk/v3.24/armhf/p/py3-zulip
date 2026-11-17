@@ -1,0 +1,18 @@
+name	py3-zulip
+version	0.9.1-r1
+description	Zulip API bindings
+url	https://github.com/zulip/python-zulip-api/
+license	Apache-2.0
+size	279362
+installed-size	936987
+depends	py3-distro py3-matrix-nio py3-openssl py3-requests py3-typing-extensions python3~3.14
+origin	py3-zulip
+repo	community
+file	py3-zulip-0.9.1-r1.apk
+checksum	Q1opfgOHWFMqrgH2GbmG4IG35wboE=
+dep	py3-distro	py3-distro
+dep	py3-matrix-nio	py3-matrix-nio
+dep	py3-openssl	py3-openssl
+dep	py3-requests	py3-requests
+dep	py3-typing-extensions	py3-typing-extensions
+dep	python3~3.14	python3

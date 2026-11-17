@@ -1,0 +1,13 @@
+name	devmem2
+version	0.2-r0
+description	Program to read/write from/to any location in memory
+url	https://github.com/VCTLabs/devmem2
+license	GPL-2.0-or-later
+size	4271
+installed-size	9388
+depends	so:libc.musl-armhf.so.1
+origin	devmem2
+repo	community
+file	devmem2-0.2-r0.apk
+checksum	Q1EspPjSjM13A+AR+EB+c0uuyqUsA=
+dep	so:libc.musl-armhf.so.1	musl

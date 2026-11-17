@@ -1,0 +1,14 @@
+name	pass-otp
+version	1.2.0_git20250809-r1
+description	A pass extension for managing one-time-password (OTP) tokens
+url	https://github.com/tadfisher/pass-otp
+license	GPL-3.0-only
+size	5929
+installed-size	14854
+depends	libqrencode oath-toolkit-oathtool
+origin	pass-otp
+repo	community
+file	pass-otp-1.2.0_git20250809-r1.apk
+checksum	Q1nnRqz6qPLPOqo98a44gw0xyY5gU=
+dep	libqrencode	libqrencode
+dep	oath-toolkit-oathtool	oath-toolkit-oathtool

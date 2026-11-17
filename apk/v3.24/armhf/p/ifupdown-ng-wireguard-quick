@@ -1,0 +1,13 @@
+name	ifupdown-ng-wireguard-quick
+version	0.13.0-r0
+description	ifupdown-ng integration for wireguard wg-quick
+url	https://github.com/ifupdown-ng/ifupdown-ng
+license	ISC
+size	1728
+installed-size	144
+depends	wireguard-tools-wg-quick
+origin	ifupdown-ng
+repo	main
+file	ifupdown-ng-wireguard-quick-0.13.0-r0.apk
+checksum	Q1c75TeNXrGAWCViyQKYT8RVEpioM=
+dep	wireguard-tools-wg-quick	wireguard-tools-wg-quick

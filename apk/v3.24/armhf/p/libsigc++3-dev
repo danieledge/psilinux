@@ -1,0 +1,14 @@
+name	libsigc++3-dev
+version	3.8.1-r0
+description	Typesafe callback system for standard C++ (development files)
+url	https://github.com/libsigcplusplus/libsigcplusplus
+license	LGPL-3.0-or-later
+size	45736
+installed-size	222799
+depends	libsigc++3=3.8.1-r0 pkgconfig
+origin	libsigc++3
+repo	community
+file	libsigc++3-dev-3.8.1-r0.apk
+checksum	Q16VD9lN5waLMmiPwKSLOsuez7PVA=
+dep	libsigc++3=3.8.1-r0	libsigc++3
+dep	pkgconfig	pkgconf

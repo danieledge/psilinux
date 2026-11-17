@@ -1,0 +1,15 @@
+name	hexdiff
+version	0.0.53-r4
+description	ncurses hex editor with diff mode for binary file comparison
+url	http://tboudet.free.fr/hexdiff/
+license	GPL-2.0-or-later
+size	13959
+installed-size	26841
+depends	ncurses-dev so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	hexdiff
+repo	community
+file	hexdiff-0.0.53-r4.apk
+checksum	Q1QO58mRnsp1wJXUuupmD+K86z3jM=
+dep	ncurses-dev	ncurses-dev
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

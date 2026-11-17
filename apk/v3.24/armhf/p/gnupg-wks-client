@@ -1,0 +1,19 @@
+name	gnupg-wks-client
+version	2.4.9-r1
+description	GNU Privacy Guard 2 - Web Key Service client
+url	https://www.gnupg.org/
+license	GPL-3.0-or-later
+size	81619
+installed-size	165898
+depends	gpg=2.4.9-r1 gpg-agent=2.4.9-r1 gnupg-dirmngr=2.4.9-r1 so:libassuan.so.9 so:libc.musl-armhf.so.1 so:libgcrypt.so.20 so:libgpg-error.so.0
+origin	gnupg
+repo	main
+file	gnupg-wks-client-2.4.9-r1.apk
+checksum	Q1qhRvijATlWnrkUNYlqOGTiEzRJ4=
+dep	gpg=2.4.9-r1	gpg
+dep	gpg-agent=2.4.9-r1	gpg-agent
+dep	gnupg-dirmngr=2.4.9-r1	gnupg-dirmngr
+dep	so:libassuan.so.9	libassuan
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgpg-error.so.0	libgpg-error

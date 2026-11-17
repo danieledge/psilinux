@@ -1,0 +1,21 @@
+name	kimageannotator
+version	0.7.2-r0
+description	Tool for annotating images
+url	https://github.com/ksnip/kImageAnnotator
+license	LGPL-3.0-or-later
+size	423034
+installed-size	1410698
+depends	so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Svg.so.6 so:libQt6Widgets.so.6 so:libX11.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkColorPicker.so.0 so:libstdc++.so.6
+origin	kimageannotator
+repo	community
+file	kimageannotator-0.7.2-r0.apk
+checksum	Q1stk7VcfP0HVq8IQlXI9xNt9uqR4=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Svg.so.6	qt6-qtsvg
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libkColorPicker.so.0	kcolorpicker
+dep	so:libstdc++.so.6	libstdc++

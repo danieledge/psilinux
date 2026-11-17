@@ -1,0 +1,13 @@
+name	faad2-static
+version	2.11.2-r0
+description	ISO AAC audio decoder (static library)
+url	https://github.com/knik0/faad2
+license	GPL-2.0-or-later
+size	348499
+installed-size	598604
+depends	faad2-dev
+origin	faad2
+repo	community
+file	faad2-static-2.11.2-r0.apk
+checksum	Q1dlkOmigy8mnaiWuS2dgyGU0r8zs=
+dep	faad2-dev	faad2-dev

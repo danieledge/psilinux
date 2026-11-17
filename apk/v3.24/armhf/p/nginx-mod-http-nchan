@@ -1,0 +1,14 @@
+name	nginx-mod-http-nchan
+version	1.30.6-r0
+description	Nginx third-party module http-nchan (version v1.3.8)
+url	https://github.com/slact/nchan
+license	BSD-2-Clause
+size	244419
+installed-size	564591
+depends	nginx=1.30.6-r0 so:libc.musl-armhf.so.1
+origin	nginx
+repo	main
+file	nginx-mod-http-nchan-1.30.6-r0.apk
+checksum	Q11Li3GFCuDnoUwDGu8PUd5RHs+28=
+dep	nginx=1.30.6-r0	nginx
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,20 @@
+name	zam-plugins-clap
+version	4.5-r0
+description	Collection of LADSPA/LV2/VST/JACK audio plugins for high-quality processing (clap integration)
+url	https://github.com/zamaudio/zam-plugins
+license	GPL-2.0-or-later
+size	16120650
+installed-size	34924800
+depends	so:libGL.so.1 so:libX11.so.6 so:libXext.so.6 so:libc.musl-armhf.so.1 so:libfftw3f.so.3 so:libgcc_s.so.1 so:libsamplerate.so.0 so:libstdc++.so.6
+origin	zam-plugins
+repo	community
+file	zam-plugins-clap-4.5-r0.apk
+checksum	Q1H0k3p015kyBaoWVF3jSd4a4ZWeE=
+dep	so:libGL.so.1	mesa-gl
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfftw3f.so.3	fftw-single-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsamplerate.so.0	libsamplerate
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,15 @@
+name	geocode-glib-dev
+version	3.26.4-r5
+description	Geocoding helper library (development files)
+url	https://gitlab.gnome.org/GNOME/geocode-glib
+license	LGPL-2.0-or-later
+size	32266
+installed-size	271847
+depends	geocode-glib=3.26.4-r5 pc:gio-2.0 pkgconfig
+origin	geocode-glib
+repo	community
+file	geocode-glib-dev-3.26.4-r5.apk
+checksum	Q1MPRe0yF8iT7gICexlIxJO0J3D3Q=
+dep	geocode-glib=3.26.4-r5	geocode-glib
+dep	pc:gio-2.0	glib-dev
+dep	pkgconfig	pkgconf

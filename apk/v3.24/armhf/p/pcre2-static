@@ -1,0 +1,13 @@
+name	pcre2-static
+version	10.49-r0
+description	Perl-compatible regular expression library (static library)
+url	https://pcre.org/
+license	BSD-3-Clause
+size	871213
+installed-size	2216208
+depends	pcre2-dev
+origin	pcre2
+repo	main
+file	pcre2-static-10.49-r0.apk
+checksum	Q1Pb3hb5UKTvgI8z1Rr00v4ySZMUI=
+dep	pcre2-dev	pcre2-dev

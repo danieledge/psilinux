@@ -1,0 +1,14 @@
+name	kamailio-db
+version	6.0.6-r0
+description	Kamailio modules using a database backend
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	2579680
+installed-size	5461728
+depends	kamailio so:libc.musl-armhf.so.1
+origin	kamailio
+repo	main
+file	kamailio-db-6.0.6-r0.apk
+checksum	Q1xHvwhDwPmSu+PGPpjnlYAuADBXg=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl

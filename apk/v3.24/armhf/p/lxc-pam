@@ -1,0 +1,15 @@
+name	lxc-pam
+version	7.0.0-r0
+description	PAM module for LXC
+url	https://linuxcontainers.org/lxc/
+license	LGPL-2.1-or-later
+size	12510
+installed-size	21840
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpam.so.0
+origin	lxc
+repo	main
+file	lxc-pam-7.0.0-r0.apk
+checksum	Q1Sbe9aXqXxvcEBW4o5aQ7ElkbvJs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpam.so.0	linux-pam

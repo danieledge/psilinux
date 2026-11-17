@@ -1,0 +1,13 @@
+name	opentracker6
+version	0_git20210823-r2
+description	an open and free bittorrent tracker (IPv6 version)
+url	http://erdgeist.org/arts/software/opentracker/
+license	Beerware
+size	48279
+installed-size	87516
+depends	so:libc.musl-armhf.so.1
+origin	opentracker
+repo	community
+file	opentracker6-0_git20210823-r2.apk
+checksum	Q1kPJZqlQQT+J/VacdlecUIESqlG0=
+dep	so:libc.musl-armhf.so.1	musl

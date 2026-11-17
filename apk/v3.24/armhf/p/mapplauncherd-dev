@@ -1,0 +1,18 @@
+name	mapplauncherd-dev
+version	4.2.16-r1
+description	A daemon that helps to launch applications faster (development files)
+url	https://github.com/sailfishos/mapplauncherd
+license	LGPL-2.1-only
+size	10170
+installed-size	31998
+depends	dbus-dev glib-dev libcap-dev ninja mapplauncherd=4.2.16-r1 pkgconfig
+origin	mapplauncherd
+repo	community
+file	mapplauncherd-dev-4.2.16-r1.apk
+checksum	Q1x/clZBBK0wW+FpslmdSpSzxxaO8=
+dep	dbus-dev	dbus-dev
+dep	glib-dev	glib-dev
+dep	libcap-dev	libcap-dev
+dep	ninja	samurai
+dep	mapplauncherd=4.2.16-r1	mapplauncherd
+dep	pkgconfig	pkgconf

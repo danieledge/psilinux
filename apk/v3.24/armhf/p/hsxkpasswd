@@ -1,0 +1,26 @@
+name	hsxkpasswd
+version	3.6-r1
+description	A secure memorable password generator inspired by the famous XKCD password cartoon (https://xkcd.com/936/)
+url	https://metacpan.org/release/Crypt-HSXKPasswd/
+license	BSD-2-Clause
+size	14386468
+installed-size	75650401
+depends	perl perl-clone perl-data-entropy perl-datetime perl-email-valid perl-file-homedir perl-json perl-list-moreutils perl-math-random-secure perl-math-round perl-readonly perl-text-unidecode perl-type-tiny perl-file-sharedir
+origin	hsxkpasswd
+repo	community
+file	hsxkpasswd-3.6-r1.apk
+checksum	Q1bo2rtDzvZqXs7+83zPKn5efnXJE=
+dep	perl	perl
+dep	perl-clone	perl-clone
+dep	perl-data-entropy	perl-data-entropy
+dep	perl-datetime	perl-datetime
+dep	perl-email-valid	perl-email-valid
+dep	perl-file-homedir	perl-file-homedir
+dep	perl-json	perl-json
+dep	perl-list-moreutils	perl-list-moreutils
+dep	perl-math-random-secure	perl-math-random-secure
+dep	perl-math-round	perl-math-round
+dep	perl-readonly	perl-readonly
+dep	perl-text-unidecode	perl-text-unidecode
+dep	perl-type-tiny	perl-type-tiny
+dep	perl-file-sharedir	perl-file-sharedir

@@ -1,0 +1,14 @@
+name	nano
+version	9.3-r0
+description	Enhanced clone of the Pico text editor
+url	https://www.nano-editor.org/
+license	GPL-3.0-or-later
+size	163056
+installed-size	322178
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	nano
+repo	main
+file	nano-9.3-r0.apk
+checksum	Q1fJ7P+rthGlGZpikUcrecjLBW3Sg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

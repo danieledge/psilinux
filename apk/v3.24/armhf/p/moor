@@ -1,0 +1,13 @@
+name	moor
+version	2.10.2-r6
+description	Pager designed to do the right thing without any configuration
+url	https://github.com/walles/moor
+license	BSD-2-Clause-Views
+size	2840461
+installed-size	8172252
+depends	so:libc.musl-armhf.so.1
+origin	moor
+repo	community
+file	moor-2.10.2-r6.apk
+checksum	Q1yeT55KDDP88UI+XGuE5repB9g5g=
+dep	so:libc.musl-armhf.so.1	musl

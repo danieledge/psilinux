@@ -1,0 +1,18 @@
+name	abseil-cpp-log-internal-check-op
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-log-internal-check-op
+url	https://abseil.io/
+license	Apache-2.0
+size	7448
+installed-size	17740
+depends	so:libabsl_leak_check.so.2508.0.0 so:libabsl_log_internal_nullguard.so.2508.0.0 so:libabsl_strings.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-log-internal-check-op-20250814.1-r0.apk
+checksum	Q1Zq9YunmSqD5hyCtlDv/PY1vKAQY=
+dep	so:libabsl_leak_check.so.2508.0.0	abseil-cpp-leak-check
+dep	so:libabsl_log_internal_nullguard.so.2508.0.0	abseil-cpp-log-internal-nullguard
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

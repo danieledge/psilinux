@@ -1,0 +1,14 @@
+name	libvpx
+version	1.15.2-r1
+description	Library for the vp8/vp9 codecs
+url	https://www.webmproject.org/
+license	BSD-3-Clause
+size	1070150
+installed-size	2209148
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	libvpx
+repo	community
+file	libvpx-1.15.2-r1.apk
+checksum	Q1Xw2D3JNsn4Gc/KrizCkTgwWmBso=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

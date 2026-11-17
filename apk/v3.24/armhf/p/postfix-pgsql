@@ -1,0 +1,14 @@
+name	postfix-pgsql
+version	3.11.7-r0
+description	pgsql map support for postfix
+url	https://www.postfix.org/
+license	IPL-1.0 EPL-2.0
+size	7521
+installed-size	13471
+depends	so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	postfix
+repo	main
+file	postfix-pgsql-3.11.7-r0.apk
+checksum	Q1YOknaQvFAQyHDsGRwkaAyBbFejg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

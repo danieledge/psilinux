@@ -1,0 +1,15 @@
+name	kamailio-lost
+version	6.0.6-r0
+description	Kamailio HELD (RFC6155) and LOST (RFC5222) location-based routing
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	130938
+installed-size	280240
+depends	kamailio so:libc.musl-armhf.so.1 so:libxml2.so.2
+origin	kamailio
+repo	main
+file	kamailio-lost-6.0.6-r0.apk
+checksum	Q1HR3LSyjdBoGIR317/9dOkOZl5QM=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxml2.so.2	libxml2

@@ -1,0 +1,17 @@
+name	git-crypt
+version	0.7.0-r0
+description	Transparent file encryption in git
+url	https://www.agwa.name/projects/git-crypt
+license	GPL-3.0-or-later
+size	59723
+installed-size	132532
+depends	git so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	git-crypt
+repo	community
+file	git-crypt-0.7.0-r0.apk
+checksum	Q1K3TMHG1ciBx3zskDC/HTRENK6xM=
+dep	git	git
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,14 @@
+name	gdal-dev
+version	3.13.3-r0
+description	A translator library for raster and vector geospatial data formats (development files)
+url	https://gdal.org/
+license	MIT
+size	336753
+installed-size	1789925
+depends	gdal=3.13.3-r0 pkgconfig
+origin	gdal
+repo	community
+file	gdal-dev-3.13.3-r0.apk
+checksum	Q1pFnK+oBFQ4Pcd5IRuznrb0XWLRk=
+dep	gdal=3.13.3-r0	gdal
+dep	pkgconfig	pkgconf

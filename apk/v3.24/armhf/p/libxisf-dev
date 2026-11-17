@@ -1,0 +1,17 @@
+name	libxisf-dev
+version	0.2.13-r1
+description	library to load and write XISF format from PixInsight (development files)
+url	https://gitea.nouspiro.space/nou/libXISF
+license	GPL-3.0-or-later
+size	6521
+installed-size	17177
+depends	libxisf=0.2.13-r1 pc:liblz4 pc:pugixml pc:zlib pkgconfig
+origin	libxisf
+repo	community
+file	libxisf-dev-0.2.13-r1.apk
+checksum	Q1pZ+Ey515YQsqscjPeKtCfh4hBfc=
+dep	libxisf=0.2.13-r1	libxisf
+dep	pc:liblz4	lz4-dev
+dep	pc:pugixml	pugixml-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

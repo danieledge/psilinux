@@ -1,0 +1,15 @@
+name	libretls-dev
+version	3.8.1-r0
+description	port of libtls from libressl to openssl (development files)
+url	https://git.causal.agency/libretls/
+license	ISC AND ( BSD-3-Clause OR MIT )
+size	4428
+installed-size	9810
+depends	openssl-dev>3 libretls=3.8.1-r0 pkgconfig
+origin	libretls
+repo	community
+file	libretls-dev-3.8.1-r0.apk
+checksum	Q1UvlRVl/9emNOEhSMNNmLnw1Ip08=
+dep	openssl-dev>3	openssl-dev
+dep	libretls=3.8.1-r0	libretls
+dep	pkgconfig	pkgconf

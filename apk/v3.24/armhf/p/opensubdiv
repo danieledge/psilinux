@@ -1,0 +1,18 @@
+name	opensubdiv
+version	3.6.1-r1
+description	An Open-Source subdivision surface library
+url	https://graphics.pixar.com/opensubdiv
+license	Apache-2.0
+size	613218
+installed-size	1755912
+depends	so:libOpenCL.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgomp.so.1 so:libstdc++.so.6 so:libtbb.so.12
+origin	opensubdiv
+repo	community
+file	opensubdiv-3.6.1-r1.apk
+checksum	Q1g2IEGJPq17BHrFa44dryyztrb+A=
+dep	so:libOpenCL.so.1	opencl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgomp.so.1	libgomp
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtbb.so.12	onetbb

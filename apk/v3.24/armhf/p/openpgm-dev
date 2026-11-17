@@ -1,0 +1,14 @@
+name	openpgm-dev
+version	5.3.128-r1
+description	Implementation of the PGM reliable multicast protocol (development files)
+url	https://www.freshports.org/net/openpgm/
+license	LGPL-2.1-or-later
+size	20496
+installed-size	81332
+depends	openpgm=5.3.128-r1 pkgconfig
+origin	openpgm
+repo	community
+file	openpgm-dev-5.3.128-r1.apk
+checksum	Q1RhLwezeVBVstCROSAlgaWd/r1L4=
+dep	openpgm=5.3.128-r1	openpgm
+dep	pkgconfig	pkgconf

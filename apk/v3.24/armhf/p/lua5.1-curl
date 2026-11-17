@@ -1,0 +1,15 @@
+name	lua5.1-curl
+version	0.3.13-r2
+description	Lua bindings to cURL library (for Lua 5.1)
+url	https://github.com/Lua-cURL/Lua-cURLv3
+license	MIT
+size	59685
+installed-size	161168
+depends	lua5.1 so:libc.musl-armhf.so.1 so:libcurl.so.4
+origin	lua-curl
+repo	main
+file	lua5.1-curl-0.3.13-r2.apk
+checksum	Q12r4GE0M1yKDAcA4Fp2VcmBgfYyU=
+dep	lua5.1	lua5.1
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl

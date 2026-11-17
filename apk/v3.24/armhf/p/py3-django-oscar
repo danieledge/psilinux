@@ -1,0 +1,25 @@
+name	py3-django-oscar
+version	4.1-r2
+description	Domain-driven e-commerce for Django
+url	http://oscarcommerce.com/
+license	BSD-3-Clause
+size	8835384
+installed-size	43550525
+depends	py3-babel py3-django py3-django-extra-views py3-django-haystack py3-django-phonenumber-field py3-django-sorl-thumbnail py3-django-tables2 py3-django-treebeard py3-django-widget-tweaks py3-factory-boy py3-pillow py3-purl python3~3.14
+origin	py3-django-oscar
+repo	community
+file	py3-django-oscar-4.1-r2.apk
+checksum	Q1V8Zp0UZntzbk4FYHVIGnGkO4lHA=
+dep	py3-babel	py3-babel
+dep	py3-django	py3-django
+dep	py3-django-extra-views	py3-django-extra-views
+dep	py3-django-haystack	py3-django-haystack
+dep	py3-django-phonenumber-field	py3-django-phonenumber-field
+dep	py3-django-sorl-thumbnail	py3-django-sorl-thumbnail
+dep	py3-django-tables2	py3-django-tables2
+dep	py3-django-treebeard	py3-django-treebeard
+dep	py3-django-widget-tweaks	py3-django-widget-tweaks
+dep	py3-factory-boy	py3-factory-boy
+dep	py3-pillow	py3-pillow
+dep	py3-purl	py3-purl
+dep	python3~3.14	python3

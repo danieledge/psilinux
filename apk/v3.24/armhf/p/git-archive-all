@@ -1,0 +1,14 @@
+name	git-archive-all
+version	1.23.1-r5
+description	Wrapper for git-archive that archives a git superproject and its submodules
+url	https://github.com/Kentzo/git-archive-all
+license	MIT
+size	11371
+installed-size	31628
+depends	python3 python3~3.14
+origin	git-archive-all
+repo	community
+file	git-archive-all-1.23.1-r5.apk
+checksum	Q10nq3n3yXTzWyhLYCWMQQmlcTtqg=
+dep	python3	python3
+dep	python3~3.14	python3

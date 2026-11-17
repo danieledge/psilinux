@@ -1,0 +1,12 @@
+name	ffmpeg-dbg
+version	8.1.3-r0
+description	Complete and free Internet live audio and video broadcasting solution for Linux/Unix (debug symbols)
+url	https://ffmpeg.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	38590173
+installed-size	105435512
+depends	!ffmpeg-libavcodec<8.1.3-r0 !ffmpeg-libavcodec>8.1.3-r0 !ffmpeg-libavdevice<8.1.3-r0 !ffmpeg-libavdevice>8.1.3-r0 !ffmpeg-libavfilter<8.1.3-r0 !ffmpeg-libavfilter>8.1.3-r0 !ffmpeg-libavformat<8.1.3-r0 !ffmpeg-libavformat>8.1.3-r0 !ffmpeg-libavutil<8.1.3-r0 !ffmpeg-libavutil>8.1.3-r0 !ffmpeg-libswresample<8.1.3-r0 !ffmpeg-libswresample>8.1.3-r0 !ffmpeg-libswscale<8.1.3-r0 !ffmpeg-libswscale>8.1.3-r0 !ffmpeg<8.1.3-r0 !ffmpeg>8.1.3-r0 !ffplay<8.1.3-r0 !ffplay>8.1.3-r0
+origin	ffmpeg
+repo	community
+file	ffmpeg-dbg-8.1.3-r0.apk
+checksum	Q1pqoPG+r6b25mwB8ljHBOrpirnaw=

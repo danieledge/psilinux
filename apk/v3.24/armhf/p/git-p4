@@ -1,0 +1,14 @@
+name	git-p4
+version	2.54.1-r0
+description	Git tools for working with Perforce depots
+url	https://www.git-scm.com/
+license	GPL-2.0-only
+size	46353
+installed-size	173650
+depends	git=2.54.1-r0 git-fast-import=2.54.1-r0
+origin	git
+repo	main
+file	git-p4-2.54.1-r0.apk
+checksum	Q1qiWnn00uU4aqB3uYGAjJ2QFrNoE=
+dep	git=2.54.1-r0	git
+dep	git-fast-import=2.54.1-r0	git-fast-import

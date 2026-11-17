@@ -1,0 +1,14 @@
+name	drill
+version	1.8.4-r1
+description	DNS(SEC) query tool ala dig
+url	https://nlnetlabs.nl/projects/ldns/
+license	BSD-3-Clause
+size	24846
+installed-size	54496
+depends	so:libc.musl-armhf.so.1 so:libldns.so.3
+origin	ldns
+repo	main
+file	drill-1.8.4-r1.apk
+checksum	Q12p49FvL1iqJXzf/KZ7+lqBGHnLc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libldns.so.3	ldns

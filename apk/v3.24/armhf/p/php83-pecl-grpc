@@ -1,0 +1,15 @@
+name	php83-pecl-grpc
+version	1.81.0-r0
+description	PHP 8.3 extension provide a concrete implementation of the gRPC protocol, layered over HTTP/2.
+url	https://pecl.php.net/package/grpc
+license	Apache-2.0
+size	4578504
+installed-size	10340751
+depends	php83-common so:libc.musl-armhf.so.1 so:libstdc++.so.6
+origin	php83-pecl-grpc
+repo	community
+file	php83-pecl-grpc-1.81.0-r0.apk
+checksum	Q1FKYmLdhXFl9QJwyOs7ZTEWadJuQ=
+dep	php83-common	php83-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libstdc++.so.6	libstdc++

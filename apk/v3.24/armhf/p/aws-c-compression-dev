@@ -1,0 +1,13 @@
+name	aws-c-compression-dev
+version	0.3.2-r0
+description	C99 implementation of huffman encoding/decoding (development files)
+url	https://github.com/awslabs/aws-c-compression
+license	Apache-2.0
+size	5737
+installed-size	12344
+depends	aws-c-compression=0.3.2-r0
+origin	aws-c-compression
+repo	community
+file	aws-c-compression-dev-0.3.2-r0.apk
+checksum	Q1iw2rbym7b4sBiP/FzyfSRZpzWfo=
+dep	aws-c-compression=0.3.2-r0	aws-c-compression

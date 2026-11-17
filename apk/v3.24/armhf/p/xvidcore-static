@@ -1,0 +1,13 @@
+name	xvidcore-static
+version	1.3.7-r2
+description	XviD is an open source MPEG-4 video codec (static library)
+url	https://www.xvid.com/
+license	GPL-2.0-or-later
+size	175089
+installed-size	463306
+depends	xvidcore-dev
+origin	xvidcore
+repo	community
+file	xvidcore-static-1.3.7-r2.apk
+checksum	Q1vfK33EtfIu+9aUPUtthmczYcMmY=
+dep	xvidcore-dev	xvidcore-dev

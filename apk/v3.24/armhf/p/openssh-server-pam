@@ -1,0 +1,18 @@
+name	openssh-server-pam
+version	10.3_p1-r2
+description	OpenSSH server with pam support
+url	https://www.openssh.com/portable.html
+license	SSH-OpenSSH
+size	911781
+installed-size	1951629
+depends	openssh-keygen=10.3_p1-r2 openssh-server-common=10.3_p1-r2 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libpam.so.0 so:libz.so.1
+origin	openssh
+repo	main
+file	openssh-server-pam-10.3_p1-r2.apk
+checksum	Q1GNkJx1qPuog6SPVTMvS1q+1vqX8=
+dep	openssh-keygen=10.3_p1-r2	openssh-keygen
+dep	openssh-server-common=10.3_p1-r2	openssh-server-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libpam.so.0	linux-pam
+dep	so:libz.so.1	zlib

@@ -1,0 +1,14 @@
+name	gpm-dev
+version	1.20.7-r6
+description	A mouse server for the console (development files)
+url	https://www.nico.schottelius.org/software/gpm/
+license	GPL-2.0-or-later
+size	5577
+installed-size	10132
+depends	gpm-libs gpm-libs=1.20.7-r6
+origin	gpm
+repo	main
+file	gpm-dev-1.20.7-r6.apk
+checksum	Q13NDzxxCqZciu5/V5+89C+mEVp9o=
+dep	gpm-libs	gpm-libs
+dep	gpm-libs=1.20.7-r6	gpm-libs

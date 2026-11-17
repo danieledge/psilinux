@@ -1,0 +1,14 @@
+name	py3-matplotlib-gtk3-pyc
+version	3.10.6-r2
+description	Precompiled Python bytecode for py3-matplotlib-gtk3
+url	https://matplotlib.org
+license	PSF-2.0
+size	20084
+installed-size	44814
+depends	py3-matplotlib-gtk3=3.10.6-r2 python3~3.14
+origin	py3-matplotlib
+repo	community
+file	py3-matplotlib-gtk3-pyc-3.10.6-r2.apk
+checksum	Q15tswn6uNU0kTigwT4bDuic+t2+U=
+dep	py3-matplotlib-gtk3=3.10.6-r2	py3-matplotlib-gtk3
+dep	python3~3.14	python3

@@ -1,0 +1,16 @@
+name	irqbalance
+version	1.9.5-r0
+description	Daemon that distributes interrupts over the processors
+url	https://github.com/Irqbalance/irqbalance
+license	GPL-2.0-or-later
+size	39688
+installed-size	84824
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libncursesw.so.6 so:libnuma.so.1
+origin	irqbalance
+repo	main
+file	irqbalance-1.9.5-r0.apk
+checksum	Q1eRZSUJfL7wRLP2hHEp4RkYTW9n4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libnuma.so.1	numactl

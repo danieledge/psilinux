@@ -1,0 +1,14 @@
+name	wayland-libs-server
+version	1.25.0-r0
+description	A computer display server protocol (server library)
+url	https://wayland.freedesktop.org
+license	MIT
+size	28896
+installed-size	59132
+depends	so:libc.musl-armhf.so.1 so:libffi.so.8
+origin	wayland
+repo	main
+file	wayland-libs-server-1.25.0-r0.apk
+checksum	Q10kXLfORJKq/P+vEXEI3vhY/oOzc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libffi.so.8	libffi

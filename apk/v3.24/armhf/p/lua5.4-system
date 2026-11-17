@@ -1,0 +1,14 @@
+name	lua5.4-system
+version	0.7.0-r0
+description	Platform independent system calls for Lua 5.4
+url	https://github.com/lunarmodules/luasystem
+license	MIT
+size	17824
+installed-size	40777
+depends	lua5.4 so:libc.musl-armhf.so.1
+origin	lua-system
+repo	main
+file	lua5.4-system-0.7.0-r0.apk
+checksum	Q1yZAK6+Qq1R/cg+hSzP7OQLYXpsU=
+dep	lua5.4	lua5.4
+dep	so:libc.musl-armhf.so.1	musl

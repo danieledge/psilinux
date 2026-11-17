@@ -1,0 +1,15 @@
+name	libtickit-dev
+version	0.4.6-r0
+description	library that provides an abstracted mechanism for building interactive full-screen terminal programs (development files)
+url	https://www.leonerd.org.uk/code/libtickit/
+license	MIT
+size	9721
+installed-size	35139
+depends	libtermkey-dev libtickit=0.4.6-r0 pkgconfig
+origin	libtickit
+repo	community
+file	libtickit-dev-0.4.6-r0.apk
+checksum	Q191PndnFt5mc01EEmNB2N3vmbd+U=
+dep	libtermkey-dev	libtermkey-dev
+dep	libtickit=0.4.6-r0	libtickit
+dep	pkgconfig	pkgconf

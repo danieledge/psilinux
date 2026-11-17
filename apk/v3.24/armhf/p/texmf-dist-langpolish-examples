@@ -1,0 +1,14 @@
+name	texmf-dist-langpolish-examples
+version	2026.0-r0
+description	texmf-dist: Polish (examples and documentation)
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	6328683
+installed-size	8504817
+depends	texmf-dist-langpolish texmf-dist-langpolish-doc
+origin	texmf-dist
+repo	community
+file	texmf-dist-langpolish-examples-2026.0-r0.apk
+checksum	Q1dSiSAW8tcDBstOK8eDnRkdIF83g=
+dep	texmf-dist-langpolish	texmf-dist-langpolish
+dep	texmf-dist-langpolish-doc	texmf-dist-langpolish-doc

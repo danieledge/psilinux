@@ -1,0 +1,17 @@
+name	libthriftnb
+version	0.23.0-r0
+description	Language-independent software stack for RPC implementation
+url	https://thrift.apache.org/
+license	Apache-2.0
+size	49261
+installed-size	132480
+depends	so:libc.musl-armhf.so.1 so:libevent-2.1.so.7 so:libgcc_s.so.1 so:libstdc++.so.6 so:libthrift.so.0.23.0
+origin	thrift
+repo	community
+file	libthriftnb-0.23.0-r0.apk
+checksum	Q1vI+KV1Ngg5THJoTA7y0rxusg0cQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevent-2.1.so.7	libevent
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libthrift.so.0.23.0	libthrift

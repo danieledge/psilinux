@@ -1,0 +1,13 @@
+name	coldbrew
+version	1.2-r0
+description	Brew-style package manager with Alpine Linux aports
+url	https://gitlab.postmarketos.org/postmarketOS/coldbrew
+license	GPL-3.0-only
+size	4373
+installed-size	7221
+depends	bubblewrap
+origin	coldbrew
+repo	community
+file	coldbrew-1.2-r0.apk
+checksum	Q187zN/lxbKRs+BkhHBd3TgxDB1U8=
+dep	bubblewrap	bubblewrap

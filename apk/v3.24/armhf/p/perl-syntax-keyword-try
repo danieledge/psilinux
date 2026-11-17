@@ -1,0 +1,15 @@
+name	perl-syntax-keyword-try
+version	0.31-r1
+description	try/catch/finally syntax for perl
+url	https://metacpan.org/release/Syntax-Keyword-Try/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	16636
+installed-size	36483
+depends	perl perl-xs-parse-keyword so:libc.musl-armhf.so.1
+origin	perl-syntax-keyword-try
+repo	main
+file	perl-syntax-keyword-try-0.31-r1.apk
+checksum	Q1hnGKh9vWPdv6i/WDngEr8lecUOM=
+dep	perl	perl
+dep	perl-xs-parse-keyword	perl-xs-parse-keyword
+dep	so:libc.musl-armhf.so.1	musl

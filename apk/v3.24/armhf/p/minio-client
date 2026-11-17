@@ -1,0 +1,13 @@
+name	minio-client
+version	0.20250813.083541-r9
+description	The MinIO Client
+url	https://min.io/
+license	AGPL-3.0-or-later
+size	11216004
+installed-size	31275740
+depends	so:libc.musl-armhf.so.1
+origin	minio-client
+repo	community
+file	minio-client-0.20250813.083541-r9.apk
+checksum	Q1olr3hkkbDtEhbrTnRPjVDF25GfU=
+dep	so:libc.musl-armhf.so.1	musl

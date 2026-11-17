@@ -1,0 +1,13 @@
+name	zlib
+version	1.4-r0
+description	A compression/decompression Library
+url	https://zlib.net/
+license	Zlib
+size	48533
+installed-size	83276
+depends	so:libc.musl-armhf.so.1
+origin	zlib
+repo	main
+file	zlib-1.4-r0.apk
+checksum	Q1QHUQAnsYtzyz8qixDP3WEr9mzMw=
+dep	so:libc.musl-armhf.so.1	musl

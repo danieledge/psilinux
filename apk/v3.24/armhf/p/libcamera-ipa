@@ -1,0 +1,18 @@
+name	libcamera-ipa
+version	0.7.1-r1
+description	Linux camera framework
+url	https://libcamera.org/
+license	LGPL-2.1-or-later AND GPL-2.0-or-later
+size	694424
+installed-size	1851560
+depends	so:libc.musl-armhf.so.1 so:libcamera-base.so.0.7 so:libcamera.so.0.7 so:libgcc_s.so.1 so:libpisp.so.1 so:libstdc++.so.6
+origin	libcamera
+repo	community
+file	libcamera-ipa-0.7.1-r1.apk
+checksum	Q1S33k1yh53tR2787cowpPOE4c+WI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcamera-base.so.0.7	libcamera
+dep	so:libcamera.so.0.7	libcamera
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpisp.so.1	libpisp
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,21 @@
+name	e2guardian
+version	5.5.9r-r0
+description	fork of dansguardian, an open source web content filter
+url	http://e2guardian.org/
+license	GPL-2.0-only
+size	1873024
+installed-size	3475010
+depends	logrotate /bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libpcreposix.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1
+origin	e2guardian
+repo	community
+file	e2guardian-5.5.9r-r0.apk
+checksum	Q1W0f8M3C/9o5TTXES7o5gVXulZ2M=
+dep	logrotate	logrotate
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpcreposix.so.0	pcre
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

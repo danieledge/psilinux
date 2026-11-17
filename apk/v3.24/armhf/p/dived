@@ -1,0 +1,14 @@
+name	dived
+version	1.9.0-r1
+description	Start processes in unshare/lxc namespaces through UNIX sockets
+url	https://vi.github.io/dive/
+license	MIT
+size	22509
+installed-size	51544
+depends	so:libc.musl-armhf.so.1 so:libcap.so.2
+origin	dived
+repo	community
+file	dived-1.9.0-r1.apk
+checksum	Q1/zp4L9hkbLnnVJE7XH54T2reSUY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2

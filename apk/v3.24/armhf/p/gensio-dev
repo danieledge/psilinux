@@ -1,0 +1,14 @@
+name	gensio-dev
+version	2.8.14-r0
+description	General Stream I/O (development files)
+url	https://github.com/cminyard/gensio
+license	GPL-2.0-only AND LGPL-2.1-only AND Apache-2.0
+size	875322
+installed-size	2215023
+depends	gensio-libs=2.8.14-r0 pkgconfig
+origin	gensio
+repo	main
+file	gensio-dev-2.8.14-r0.apk
+checksum	Q1sJqZ3DQVD4qIio49M3UQFBIak/0=
+dep	gensio-libs=2.8.14-r0	gensio-libs
+dep	pkgconfig	pkgconf

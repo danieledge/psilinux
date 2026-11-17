@@ -1,0 +1,13 @@
+name	postgresql-citus-bitcode
+version	14.0.0-r0
+description	Scalable PostgreSQL for multi-tenant and real-time analytics workloads (bitcode for JIT)
+url	https://github.com/citusdata/citus
+license	AGPL-3.0-only
+size	2665610
+installed-size	5637180
+depends	postgresql-citus=14.0.0-r0
+origin	postgresql-citus
+repo	community
+file	postgresql-citus-bitcode-14.0.0-r0.apk
+checksum	Q1wzqSR3t9+UBbdUiLwt2+sb6dQz8=
+dep	postgresql-citus=14.0.0-r0	postgresql-citus

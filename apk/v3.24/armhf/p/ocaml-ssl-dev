@@ -1,0 +1,14 @@
+name	ocaml-ssl-dev
+version	0.7.0-r3
+description	Bindings for OpenSSL (development files)
+url	https://github.com/savonet/ocaml-ssl
+license	LGPL-2.1-or-later WITH OCaml-LGPL-linking-exception
+size	212989
+installed-size	569344
+depends	ocaml-ssl=0.7.0-r3 openssl-dev
+origin	ocaml-ssl
+repo	community
+file	ocaml-ssl-dev-0.7.0-r3.apk
+checksum	Q1YQCUQ5yn8O5Tyc4VHT/vBJBcJUE=
+dep	ocaml-ssl=0.7.0-r3	ocaml-ssl
+dep	openssl-dev	openssl-dev

@@ -1,0 +1,18 @@
+name	libcdio-tools
+version	2.3.0-r0
+description	libcdio example tools
+url	https://www.gnu.org/software/libcdio/
+license	GPL-3.0-or-later
+size	87044
+installed-size	226580
+depends	so:libc.musl-armhf.so.1 so:libcddb.so.2 so:libcdio.so.19 so:libiso9660.so.12 so:libncursesw.so.6 so:libudf.so.0
+origin	libcdio
+repo	community
+file	libcdio-tools-2.3.0-r0.apk
+checksum	Q1lLe40vJOWSx52cpfTIXvqjpj1IE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcddb.so.2	libcddb
+dep	so:libcdio.so.19	libcdio
+dep	so:libiso9660.so.12	libcdio
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libudf.so.0	libcdio

@@ -1,0 +1,12 @@
+name	gst-plugins-good-dbg
+version	1.28.3-r0
+description	GStreamer streaming media framework good plugins (debug symbols)
+url	https://gstreamer.freedesktop.org
+license	GPL-2.0-or-later LGPL-2.0-or-later
+size	10411937
+installed-size	24758240
+depends	!gst-plugins-good-gtk<1.28.3-r0 !gst-plugins-good-gtk>1.28.3-r0 !gst-plugins-good<1.28.3-r0 !gst-plugins-good>1.28.3-r0
+origin	gst-plugins-good
+repo	community
+file	gst-plugins-good-dbg-1.28.3-r0.apk
+checksum	Q1uA4JnCHbzSwp4m/Bm3MFSMok+34=

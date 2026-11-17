@@ -1,0 +1,41 @@
+name	epiphany
+version	50.4-r0
+description	Simple, clean, beautiful view of the web
+url	https://apps.gnome.org/Epiphany
+license	GPL-3.0-or-later
+size	1079808
+installed-size	6217821
+depends	dbus:org.freedesktop.Secrets gsettings-desktop-schemas gst-plugins-good so:libadwaita-1.so.0 so:libarchive.so.13 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgck-2.so.2 so:libgcr-4.so.4 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmp.so.10 so:libgobject-2.0.so.0 so:libgstreamer-1.0.so.0 so:libgtk-4.so.1 so:libhogweed.so.6 so:libintl.so.8 so:libjavascriptcoregtk-6.0.so.1 so:libjson-glib-1.0.so.0 so:libnettle.so.8 so:libpango-1.0.so.0 so:libportal-gtk4.so.1 so:libportal.so.1 so:libsecret-1.so.0 so:libsoup-3.0.so.0 so:libsqlite3.so.0 so:libwebkitgtk-6.0.so.4 so:libxml2.so.2
+origin	epiphany
+repo	community
+file	epiphany-50.4-r0.apk
+checksum	Q1eyyNuIBJrUe058NBfxZ5Z1lzodc=
+dep	dbus:org.freedesktop.Secrets	gnome-keyring
+dep	gsettings-desktop-schemas	gsettings-desktop-schemas
+dep	gst-plugins-good	gst-plugins-good
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libarchive.so.13	libarchive
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgck-2.so.2	gcr4-base
+dep	so:libgcr-4.so.4	gcr4-base
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmp.so.10	gmp
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libhogweed.so.6	nettle
+dep	so:libintl.so.8	libintl
+dep	so:libjavascriptcoregtk-6.0.so.1	webkit2gtk-6.0
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libnettle.so.8	nettle
+dep	so:libpango-1.0.so.0	pango
+dep	so:libportal-gtk4.so.1	libportal-gtk4
+dep	so:libportal.so.1	libportal
+dep	so:libsecret-1.so.0	libsecret
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libwebkitgtk-6.0.so.4	webkit2gtk-6.0
+dep	so:libxml2.so.2	libxml2

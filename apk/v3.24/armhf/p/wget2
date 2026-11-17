@@ -1,0 +1,15 @@
+name	wget2
+version	2.2.1-r1
+description	Network utility to retrieve files from the Web
+url	https://www.gnu.org/software/wget/wget.html
+license	GPL-3.0-or-later WITH OpenSSL-Exception
+size	112626
+installed-size	236248
+depends	so:libc.musl-armhf.so.1 so:libpcre2-8.so.0 so:libwget.so.4
+origin	wget2
+repo	community
+file	wget2-2.2.1-r1.apk
+checksum	Q1xdFjgN1FbJ2YaVIhqHFqax918p4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libwget.so.4	wget2-libs

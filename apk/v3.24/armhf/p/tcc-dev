@@ -1,0 +1,14 @@
+name	tcc-dev
+version	0.9.27_git20250619-r1
+description	Tiny C Compiler (development files)
+url	https://repo.or.cz/w/tinycc.git
+license	LGPL-2.1-or-later
+size	45507
+installed-size	164612
+depends	tcc-libs=0.9.27_git20250619-r1 pkgconfig
+origin	tcc
+repo	community
+file	tcc-dev-0.9.27_git20250619-r1.apk
+checksum	Q1Qmv/AkjWTDmTbSVNYP6GRvoihQI=
+dep	tcc-libs=0.9.27_git20250619-r1	tcc-libs
+dep	pkgconfig	pkgconf

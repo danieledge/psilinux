@@ -1,0 +1,14 @@
+name	py3-jaraco.envs
+version	2.6.0-r2
+description	Classes for orchestrating Python (virtual) environments
+url	https://github.com/jaraco/jaraco.envs
+license	MIT
+size	4701
+installed-size	6296
+depends	py3-path python3~3.14
+origin	py3-jaraco.envs
+repo	community
+file	py3-jaraco.envs-2.6.0-r2.apk
+checksum	Q188XR7eBlohB62gfmQXUtqEc7ySk=
+dep	py3-path	py3-path
+dep	python3~3.14	python3

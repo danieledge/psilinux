@@ -1,0 +1,18 @@
+name	mupdf-gl
+version	1.27.2-r0
+description	Lightweight PDF and XPS viewer with OpenGL backend
+url	https://mupdf.com
+license	AGPL-3.0-or-later
+size	161213
+installed-size	379428
+depends	so:libGL.so.1 so:libX11.so.6 so:libXrandr.so.2 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libmupdf.so.27.2
+origin	mupdf
+repo	community
+file	mupdf-gl-1.27.2-r0.apk
+checksum	Q1l6Y1naRYlFnVMkU3/lBFOmFPFcg=
+dep	so:libGL.so.1	mesa-gl
+dep	so:libX11.so.6	libx11
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libmupdf.so.27.2	mupdf-libs

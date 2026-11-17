@@ -1,0 +1,16 @@
+name	py3-pylibmc
+version	1.6.3-r3
+description	Python wrapper around the libmemcached interface from TangentOrg
+url	https://sendapatch.se/projects/pylibmc/
+license	BSD-3-Clause
+size	31327
+installed-size	70161
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libmemcached.so.11 so:libz.so.1
+origin	py3-pylibmc
+repo	community
+file	py3-pylibmc-1.6.3-r3.apk
+checksum	Q1NtwMMwr+wMaq0Y2WkdzeQ4rFIZk=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmemcached.so.11	libmemcached-libs
+dep	so:libz.so.1	zlib

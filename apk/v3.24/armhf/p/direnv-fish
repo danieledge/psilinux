@@ -1,0 +1,13 @@
+name	direnv-fish
+version	2.37.1-r9
+description	configuration hooks for fish
+url	https://direnv.net
+license	MIT
+size	1620
+installed-size	35
+depends	bash
+origin	direnv
+repo	community
+file	direnv-fish-2.37.1-r9.apk
+checksum	Q1hJ5iKZ4HY71qSK73kQg/ow7E3Zk=
+dep	bash	bash

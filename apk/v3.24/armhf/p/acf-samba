@@ -1,0 +1,14 @@
+name	acf-samba
+version	0.10.1-r0
+description	Web-based system administration interface for samba
+url	https://gitlab.alpinelinux.org/acf/acf-samba
+license	GPL-2.0-only
+size	6084
+installed-size	16485
+depends	acf-core samba
+origin	acf-samba
+repo	main
+file	acf-samba-0.10.1-r0.apk
+checksum	Q1h8EIshSrBWSVHoqXkMmgDj0ZGTA=
+dep	acf-core	acf-core
+dep	samba	samba

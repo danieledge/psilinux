@@ -1,0 +1,14 @@
+name	planarity
+version	4.0.1.0-r1
+description	Edge addition planar graph embedding related algorithms
+url	https://github.com/graph-algorithms/edge-addition-planarity-suite
+license	BSD-3-Clause
+size	23212
+installed-size	50356
+depends	so:libc.musl-armhf.so.1 so:libplanarity.so.2
+origin	planarity
+repo	community
+file	planarity-4.0.1.0-r1.apk
+checksum	Q1N2qJ/DrLgThLdPWI3WLxiOXuyCI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libplanarity.so.2	planarity-libs

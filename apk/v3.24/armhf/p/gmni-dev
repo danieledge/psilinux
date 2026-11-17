@@ -1,0 +1,14 @@
+name	gmni-dev
+version	1.0-r3
+description	Gemini client (development files)
+url	https://git.sr.ht/~sircmpwn/gmni
+license	GPL-3.0-only
+size	109190
+installed-size	234495
+depends	pc:bearssl pkgconfig
+origin	gmni
+repo	community
+file	gmni-dev-1.0-r3.apk
+checksum	Q1AdxetEiBmT2pR7harmQqXJTDfD8=
+dep	pc:bearssl	bearssl-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,18 @@
+name	wbar
+version	2.3.4-r5
+description	Simple and customizable quick-launch desktop dock
+url	https://github.com/rodolf0/wbar
+license	GPL-3.0-only
+size	43773
+installed-size	150742
+depends	so:libImlib2.so.1 so:libX11.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libintl.so.8 so:libstdc++.so.6
+origin	wbar
+repo	community
+file	wbar-2.3.4-r5.apk
+checksum	Q1G35oTsgYV/2QLv4rRha/F6QwEVY=
+dep	so:libImlib2.so.1	imlib2
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libintl.so.8	libintl
+dep	so:libstdc++.so.6	libstdc++

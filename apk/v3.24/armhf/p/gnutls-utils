@@ -1,0 +1,15 @@
+name	gnutls-utils
+version	3.8.13-r0
+description	Command line tools for TLS protocol
+url	https://www.gnutls.org/
+license	GPL-3.0-or-later
+size	378563
+installed-size	938456
+depends	so:libc.musl-armhf.so.1 so:libgnutls.so.30 so:libtasn1.so.6
+origin	gnutls
+repo	main
+file	gnutls-utils-3.8.13-r0.apk
+checksum	Q1eZVxcCM4azvAMM80G1RsSttc92c=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgnutls.so.30	gnutls
+dep	so:libtasn1.so.6	libtasn1

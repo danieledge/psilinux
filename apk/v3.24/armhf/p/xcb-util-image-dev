@@ -1,0 +1,16 @@
+name	xcb-util-image-dev
+version	0.4.1-r0
+description	X C-language Binding - port of Xlib XImage and XShmImage (development files)
+url	https://xcb.freedesktop.org/
+license	MIT
+size	16335
+installed-size	44823
+depends	xcb-util-dev xcb-util-image=0.4.1-r0 pc:xcb-shm pkgconfig
+origin	xcb-util-image
+repo	community
+file	xcb-util-image-dev-0.4.1-r0.apk
+checksum	Q1GXsg2OufrLyZETttLoyQUIOH5p4=
+dep	xcb-util-dev	xcb-util-dev
+dep	xcb-util-image=0.4.1-r0	xcb-util-image
+dep	pc:xcb-shm	libxcb-dev
+dep	pkgconfig	pkgconf

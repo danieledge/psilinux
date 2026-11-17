@@ -1,0 +1,15 @@
+name	libnvme
+version	1.16.2-r0
+description	C Library for NVM Express on Linux
+url	https://github.com/linux-nvme/libnvme/
+license	LGPL-2.1-or-later
+size	65730
+installed-size	161116
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libjson-c.so.5
+origin	libnvme
+repo	main
+file	libnvme-1.16.2-r0.apk
+checksum	Q1jzGORP1svQhmTwpQ40eB3M090Ys=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libjson-c.so.5	json-c

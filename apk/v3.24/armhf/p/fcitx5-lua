@@ -1,0 +1,19 @@
+name	fcitx5-lua
+version	5.0.16-r0
+description	Lua support for fcitx5
+url	https://github.com/fcitx/fcitx5-lua
+license	LGPL-2.1-or-later
+size	34912
+installed-size	86910
+depends	so:libFcitx5Config.so.6 so:libFcitx5Core.so.7 so:libFcitx5Utils.so.2 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblua-5.3.so.0 so:libstdc++.so.6
+origin	fcitx5-lua
+repo	community
+file	fcitx5-lua-5.0.16-r0.apk
+checksum	Q1njwiY2u97Iw1rtPTTad+f2hJaEU=
+dep	so:libFcitx5Config.so.6	fcitx5
+dep	so:libFcitx5Core.so.7	fcitx5
+dep	so:libFcitx5Utils.so.2	fcitx5
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblua-5.3.so.0	lua5.3-libs
+dep	so:libstdc++.so.6	libstdc++

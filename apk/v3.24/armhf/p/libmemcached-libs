@@ -1,0 +1,16 @@
+name	libmemcached-libs
+version	1.1.4-r1
+description	Client library and command line tools for memcached server (resurrected) (libraries)
+url	https://github.com/awesomized/libmemcached
+license	BSD-3-Clause
+size	103432
+installed-size	231040
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libsasl2.so.3 so:libstdc++.so.6
+origin	libmemcached
+repo	main
+file	libmemcached-libs-1.1.4-r1.apk
+checksum	Q1HrtqYnHoLyzzikJckvOI6q26T04=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsasl2.so.3	libsasl
+dep	so:libstdc++.so.6	libstdc++

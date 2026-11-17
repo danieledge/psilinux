@@ -1,0 +1,18 @@
+name	tpm2-tss-dev
+version	4.1.2-r0
+description	TPM 2.0 TSS (development files)
+url	https://github.com/tpm2-software/tpm2-tss/
+license	BSD-2-Clause
+size	64640
+installed-size	429377
+depends	tpm2-tss=4.1.2-r0 pc:json-c pc:libcrypto pc:libcurl pc:uuid pkgconfig
+origin	tpm2-tss
+repo	community
+file	tpm2-tss-dev-4.1.2-r0.apk
+checksum	Q10AvOqUkgyYgUF5jxa+/K9i3ts00=
+dep	tpm2-tss=4.1.2-r0	tpm2-tss
+dep	pc:json-c	json-c-dev
+dep	pc:libcrypto	openssl-dev
+dep	pc:libcurl	curl-dev
+dep	pc:uuid	util-linux-dev
+dep	pkgconfig	pkgconf

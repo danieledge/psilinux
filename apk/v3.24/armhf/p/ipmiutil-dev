@@ -1,0 +1,14 @@
+name	ipmiutil-dev
+version	3.2.1-r0
+description	IPMI Management Utilities (development files)
+url	https://ipmiutil.sourceforge.net/
+license	BSD-2-Clause BSD-3-Clause GPL-2.0-or-later
+size	77458
+installed-size	271009
+depends	openssl-dev>3 ipmiutil=3.2.1-r0
+origin	ipmiutil
+repo	community
+file	ipmiutil-dev-3.2.1-r0.apk
+checksum	Q1fai0N3YAuKrpwpV3Fk2HoAYeiiw=
+dep	openssl-dev>3	openssl-dev
+dep	ipmiutil=3.2.1-r0	ipmiutil

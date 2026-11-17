@@ -1,0 +1,16 @@
+name	cpd
+version	0.5.5-r1
+description	C++ implementation of the Coherent Point Drift point set registration algorithm.
+url	https://github.com/gadomski/cpd
+license	GPL-2.0-or-later
+size	111191
+installed-size	284032
+depends	so:libc.musl-armhf.so.1 so:libfgt.so.0 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	cpd
+repo	community
+file	cpd-0.5.5-r1.apk
+checksum	Q12O7nBEV51lq8jfuKwm89nRsV08w=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfgt.so.0	fgt
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

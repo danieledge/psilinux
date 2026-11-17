@@ -1,0 +1,13 @@
+name	logger
+version	2.42.3-r1
+description	Logger from util-linux
+url	https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+license	BSD-4-Clause-UC
+size	13388
+installed-size	26164
+depends	so:libc.musl-armhf.so.1
+origin	util-linux
+repo	main
+file	logger-2.42.3-r1.apk
+checksum	Q1B5sG3Xms3lrGSRRCmMsAFNk7QQY=
+dep	so:libc.musl-armhf.so.1	musl

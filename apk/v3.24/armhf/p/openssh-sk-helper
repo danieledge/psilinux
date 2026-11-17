@@ -1,0 +1,17 @@
+name	openssh-sk-helper
+version	10.3_p1-r2
+description	OpenSSH libfido2 security key helper
+url	https://www.openssh.com/portable.html
+license	SSH-OpenSSH
+size	95291
+installed-size	206260
+depends	openssh-keygen=10.3_p1-r2 openssh-server-common=10.3_p1-r2 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libfido2.so.1
+origin	openssh
+repo	main
+file	openssh-sk-helper-10.3_p1-r2.apk
+checksum	Q1nA9mmvaI320hrw0nLfgo+J0ECrI=
+dep	openssh-keygen=10.3_p1-r2	openssh-keygen
+dep	openssh-server-common=10.3_p1-r2	openssh-server-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libfido2.so.1	libfido2

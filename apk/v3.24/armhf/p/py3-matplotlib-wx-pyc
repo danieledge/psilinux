@@ -1,0 +1,14 @@
+name	py3-matplotlib-wx-pyc
+version	3.10.6-r2
+description	Precompiled Python bytecode for py3-matplotlib-wx
+url	https://matplotlib.org
+license	PSF-2.0
+size	36577
+installed-size	88486
+depends	py3-matplotlib-wx=3.10.6-r2 python3~3.14
+origin	py3-matplotlib
+repo	community
+file	py3-matplotlib-wx-pyc-3.10.6-r2.apk
+checksum	Q1vo5unciWqApkkX/K+kGdOqMm6Q0=
+dep	py3-matplotlib-wx=3.10.6-r2	py3-matplotlib-wx
+dep	python3~3.14	python3

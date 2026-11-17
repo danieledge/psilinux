@@ -1,0 +1,13 @@
+name	libsignal-protocol-c
+version	2.3.3-r3
+description	Signal Protocol C Library
+url	https://github.com/signalapp/libsignal-protocol-c
+license	GPL-3.0-only
+size	154227
+installed-size	344332
+depends	so:libc.musl-armhf.so.1
+origin	libsignal-protocol-c
+repo	community
+file	libsignal-protocol-c-2.3.3-r3.apk
+checksum	Q1ZHzTqhpa88t2XAwWzg8u+OgQIWM=
+dep	so:libc.musl-armhf.so.1	musl

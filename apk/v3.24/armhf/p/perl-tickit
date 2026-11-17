@@ -1,0 +1,16 @@
+name	perl-tickit
+version	0.74-r3
+description	Terminal Interface Construction KIT
+url	https://metacpan.org/release/Tickit/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	93582
+installed-size	288564
+depends	perl perl-struct-dumb so:libc.musl-armhf.so.1 so:libtickit.so.3
+origin	perl-tickit
+repo	community
+file	perl-tickit-0.74-r3.apk
+checksum	Q184v9lNcVUIRqOhs/fynaSSlTHMw=
+dep	perl	perl
+dep	perl-struct-dumb	perl-struct-dumb
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libtickit.so.3	libtickit

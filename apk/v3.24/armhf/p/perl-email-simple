@@ -1,0 +1,14 @@
+name	perl-email-simple
+version	2.218-r1
+description	simple parsing of RFC2822 message format and headers
+url	https://metacpan.org/release/Email-Simple/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	11283
+installed-size	36096
+depends	perl perl-email-date-format
+origin	perl-email-simple
+repo	community
+file	perl-email-simple-2.218-r1.apk
+checksum	Q1Md+oV0aUghhP04pzbIAPBGwigxI=
+dep	perl	perl
+dep	perl-email-date-format	perl-email-date-format

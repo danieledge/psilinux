@@ -1,0 +1,13 @@
+name	py3-hcloud-pyc
+version	2.17.1-r0
+description	Precompiled Python bytecode for py3-hcloud
+url	https://github.com/hetznercloud/hcloud-python
+license	MIT
+size	195801
+installed-size	645195
+depends	python3~3.14
+origin	py3-hcloud
+repo	community
+file	py3-hcloud-pyc-2.17.1-r0.apk
+checksum	Q1CTOcAK0RM5KwmKTjvuMPFc4kQUU=
+dep	python3~3.14	python3

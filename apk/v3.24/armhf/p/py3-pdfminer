@@ -1,0 +1,16 @@
+name	py3-pdfminer
+version	20260107-r1
+description	Python PDF Parser
+url	https://github.com/pdfminer/pdfminer.six
+license	MIT
+size	6544144
+installed-size	8552671
+depends	python3 py3-charset-normalizer py3-cryptography python3~3.14
+origin	py3-pdfminer
+repo	community
+file	py3-pdfminer-20260107-r1.apk
+checksum	Q1tpi3cG26vqYjjjbEGitf4IN2mhg=
+dep	python3	python3
+dep	py3-charset-normalizer	py3-charset-normalizer
+dep	py3-cryptography	py3-cryptography
+dep	python3~3.14	python3

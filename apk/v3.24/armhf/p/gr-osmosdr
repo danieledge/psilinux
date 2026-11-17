@@ -1,0 +1,31 @@
+name	gr-osmosdr
+version	0.2.6-r5
+description	osmocom Gnu Radio Blocks
+url	https://osmocom.org/projects/gr-osmosdr/wiki
+license	GPL-3.0-only
+size	539744
+installed-size	1554575
+depends	python3~3.14 so:libSoapySDR.so.0.8 so:libairspy.so.0 so:libairspyhf.so.0 so:libbladeRF.so.2 so:libboost_chrono.so.1.84.0 so:libboost_thread.so.1.84.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgnuradio-blocks.so.3.10.12 so:libgnuradio-funcube.so.3.10.0 so:libgnuradio-pmt.so.3.10.12 so:libgnuradio-runtime.so.3.10.12 so:libgnuradio-uhd.so.3.10.12 so:libhackrf.so.0 so:librtlsdr.so.0 so:libstdc++.so.6 so:libuhd.so.4.9.0 so:libvolk.so.3.3
+origin	gr-osmosdr
+repo	community
+file	gr-osmosdr-0.2.6-r5.apk
+checksum	Q12kUz+/ub28NSEjYDvJ4DB+ESIEw=
+dep	python3~3.14	python3
+dep	so:libSoapySDR.so.0.8	soapy-sdr-libs
+dep	so:libairspy.so.0	airspyone-host-libs
+dep	so:libairspyhf.so.0	airspyhf-libs
+dep	so:libbladeRF.so.2	bladerf-libs
+dep	so:libboost_chrono.so.1.84.0	boost1.84-chrono
+dep	so:libboost_thread.so.1.84.0	boost1.84-thread
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgnuradio-blocks.so.3.10.12	gnuradio
+dep	so:libgnuradio-funcube.so.3.10.0	gr-funcube
+dep	so:libgnuradio-pmt.so.3.10.12	gnuradio
+dep	so:libgnuradio-runtime.so.3.10.12	gnuradio
+dep	so:libgnuradio-uhd.so.3.10.12	gnuradio
+dep	so:libhackrf.so.0	hackrf-libs
+dep	so:librtlsdr.so.0	librtlsdr
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libuhd.so.4.9.0	uhd-libs
+dep	so:libvolk.so.3.3	libvolk

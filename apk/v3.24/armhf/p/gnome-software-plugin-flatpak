@@ -1,0 +1,22 @@
+name	gnome-software-plugin-flatpak
+version	50.3-r0
+description	Software lets you install and update applications and system extensions (flatpak plugin)
+url	https://apps.gnome.org/Software
+license	GPL-2.0-or-later
+size	73649
+installed-size	179221
+depends	so:libappstream.so.5 so:libc.musl-armhf.so.1 so:libflatpak.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgnomesoftware.so.23 so:libgobject-2.0.so.0 so:libintl.so.8 so:libostree-1.so.1 so:libxmlb.so.2
+origin	gnome-software
+repo	community
+file	gnome-software-plugin-flatpak-50.3-r0.apk
+checksum	Q1K3TJ5EJ3EvQXIjlq4TmF2xylfFk=
+dep	so:libappstream.so.5	appstream
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libflatpak.so.0	flatpak-libs
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgnomesoftware.so.23	gnome-software-lib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libostree-1.so.1	ostree
+dep	so:libxmlb.so.2	libxmlb

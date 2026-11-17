@@ -1,0 +1,13 @@
+name	madonctl
+version	3.0.3-r11
+description	CLI client for the Mastodon social network API
+url	https://github.com/McKael/madonctl
+license	MIT
+size	4343315
+installed-size	11018636
+depends	so:libc.musl-armhf.so.1
+origin	madonctl
+repo	community
+file	madonctl-3.0.3-r11.apk
+checksum	Q10aXHgDwit3xkupt2FPAapNNRMdY=
+dep	so:libc.musl-armhf.so.1	musl

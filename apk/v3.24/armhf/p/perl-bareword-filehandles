@@ -1,0 +1,15 @@
+name	perl-bareword-filehandles
+version	0.007-r2
+description	Pragma to disable bareword filehandles
+url	https://metacpan.org/release/bareword-filehandles/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	5743
+installed-size	11418
+depends	perl perl-b-hooks-op-check so:libc.musl-armhf.so.1
+origin	perl-bareword-filehandles
+repo	community
+file	perl-bareword-filehandles-0.007-r2.apk
+checksum	Q1BbYWEkEWEHHUJ8KWhIp5Ni1+d9c=
+dep	perl	perl
+dep	perl-b-hooks-op-check	perl-b-hooks-op-check
+dep	so:libc.musl-armhf.so.1	musl

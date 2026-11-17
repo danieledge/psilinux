@@ -1,0 +1,13 @@
+name	perl-class-xsaccessor
+version	1.19-r14
+description	Generate fast XS accessors without runtime compilation
+url	https://metacpan.org/release/Class-XSAccessor
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	25886
+installed-size	71313
+depends	so:libc.musl-armhf.so.1
+origin	perl-class-xsaccessor
+repo	community
+file	perl-class-xsaccessor-1.19-r14.apk
+checksum	Q19b3+zPjR43r6BLz7wwNbPPjPbv8=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	opensmtpd-table-passwd
+version	1.0.2-r0
+description	OpenSMTPD passwd tables
+url	https://github.com/OpenSMTPD/table-passwd
+license	ISC
+size	9084
+installed-size	17612
+depends	so:libc.musl-armhf.so.1
+origin	opensmtpd-table-passwd
+repo	community
+file	opensmtpd-table-passwd-1.0.2-r0.apk
+checksum	Q1DYPUw6IkDxNVuGNmA4iwsvxW5LQ=
+dep	so:libc.musl-armhf.so.1	musl

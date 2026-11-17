@@ -1,0 +1,16 @@
+name	py3-citeproc-py
+version	0.9.0-r1
+description	Yet another Python CSL Processor
+url	https://github.com/brechtm/citeproc-py
+license	BSD-2-Clause
+size	113642
+installed-size	822939
+depends	python3 py3-lxml rnc2rng python3~3.14
+origin	py3-citeproc-py
+repo	community
+file	py3-citeproc-py-0.9.0-r1.apk
+checksum	Q1lX2TbpHcuWEN+EgGD5HZXuFwarw=
+dep	python3	python3
+dep	py3-lxml	py3-lxml
+dep	rnc2rng	rnc2rng
+dep	python3~3.14	python3

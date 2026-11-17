@@ -1,0 +1,17 @@
+name	zigbee2mqtt
+version	2.11.0-r0
+description	Zigbee to MQTT bridge
+url	https://www.zigbee2mqtt.io/
+license	GPL-3.0-only AND MIT AND ISC AND BSD-3-Clause AND BlueOak-1.0.0 AND Python-2.0
+size	11604762
+installed-size	39576884
+depends	nodejs /bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	zigbee2mqtt
+repo	community
+file	zigbee2mqtt-2.11.0-r0.apk
+checksum	Q1f06IDGyT7u8WPgBRql+HseN7gg0=
+dep	nodejs	nodejs
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

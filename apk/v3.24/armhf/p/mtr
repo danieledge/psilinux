@@ -1,0 +1,16 @@
+name	mtr
+version	0.96-r2
+description	Full screen ncurses traceroute tool
+url	https://www.bitwizard.nl/mtr/
+license	GPL-2.0-only
+size	46596
+installed-size	100208
+depends	so:libc.musl-armhf.so.1 so:libcap.so.2 so:libjansson.so.4 so:libncursesw.so.6
+origin	mtr
+repo	community
+file	mtr-0.96-r2.apk
+checksum	Q15AiuaTEpzSfawcFY0hiUSSY6bwo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libjansson.so.4	jansson
+dep	so:libncursesw.so.6	libncursesw

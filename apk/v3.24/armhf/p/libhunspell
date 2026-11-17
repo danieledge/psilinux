@@ -1,0 +1,15 @@
+name	libhunspell
+version	1.7.3-r0
+description	Spell checker and morphological analyzer library and program (libraries)
+url	https://hunspell.github.io/
+license	GPL-2.0-or-later OR LGPL-2.1-or-later OR MPL-1.1
+size	344374
+installed-size	660908
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	hunspell
+repo	main
+file	libhunspell-1.7.3-r0.apk
+checksum	Q1dg/gcJiWgzylodrjNXbc0ZErU/4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

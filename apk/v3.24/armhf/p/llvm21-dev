@@ -1,0 +1,21 @@
+name	llvm21-dev
+version	21.1.8-r1
+description	Low Level Virtual Machine compiler system, version 21 (development files)
+url	https://llvm.org/
+license	Apache-2.0
+size	6321116
+installed-size	34760933
+depends	llvm21=21.1.8-r1 libffi-dev zlib-dev zstd-dev llvm21-test-utils=21.1.8-r1 llvm21-libs=21.1.8-r1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	llvm21
+repo	main
+file	llvm21-dev-21.1.8-r1.apk
+checksum	Q1jGFSye7vSRbE/SWExp8y5H29rDU=
+dep	llvm21=21.1.8-r1	llvm21
+dep	libffi-dev	libffi-dev
+dep	zlib-dev	zlib-dev
+dep	zstd-dev	zstd-dev
+dep	llvm21-test-utils=21.1.8-r1	llvm21-test-utils
+dep	llvm21-libs=21.1.8-r1	llvm21-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

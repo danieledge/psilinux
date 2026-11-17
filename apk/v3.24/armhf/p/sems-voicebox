@@ -1,0 +1,16 @@
+name	sems-voicebox
+version	2.1.0-r0
+description	Voicebox (call in for messsages) for SEMS
+url	https://github.com/sems-server/sems/
+license	GPL-2.0-or-later
+size	944195
+installed-size	1238135
+depends	sems so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	sems
+repo	community
+file	sems-voicebox-2.1.0-r0.apk
+checksum	Q1NXdvi1en0wglJve0g7APBAHjhho=
+dep	sems	sems
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

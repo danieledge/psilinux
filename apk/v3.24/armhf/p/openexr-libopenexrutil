@@ -1,0 +1,18 @@
+name	openexr-libopenexrutil
+version	3.4.15-r0
+description	High dynamic-range image file format library
+url	https://www.openexr.com/
+license	BSD-3-Clause
+size	68803
+installed-size	181632
+depends	so:libIex-3_4.so.33 so:libOpenEXR-3_4.so.33 so:libOpenEXRCore-3_4.so.33 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	openexr
+repo	community
+file	openexr-libopenexrutil-3.4.15-r0.apk
+checksum	Q19Myukfb4MH5rzlTqiW4qmOd45DA=
+dep	so:libIex-3_4.so.33	openexr-libiex
+dep	so:libOpenEXR-3_4.so.33	openexr-libopenexr
+dep	so:libOpenEXRCore-3_4.so.33	openexr-libopenexrcore
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,16 @@
+name	sqlx
+version	0.8.6-r0
+description	Command-line utility for SQLx, the Rust SQL toolkit
+url	https://github.com/launchbadge/sqlx
+license	MIT OR Apache-2.0
+size	1791652
+installed-size	3447612
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
+origin	sqlx
+repo	community
+file	sqlx-0.8.6-r0.apk
+checksum	Q17J42h1mRXyAdURR6Wvr75wBH94Q=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3

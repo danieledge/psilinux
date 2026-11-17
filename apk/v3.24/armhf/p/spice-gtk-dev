@@ -1,0 +1,44 @@
+name	spice-gtk-dev
+version	0.42-r0
+description	GTK+ widget for SPICE clients (development files)
+url	https://www.spice-space.org/spice-gtk.html
+license	LGPL-2.1-or-later
+size	70218
+installed-size	608369
+depends	spice-glib=0.42-r0 spice-gtk=0.42-r0 pc:epoxy pc:gio-2.0>=2.38 pc:gio-unix-2.0 pc:glib-2.0>=2.38 pc:gobject-2.0>=2.52 pc:gobject-introspection-1.0>=0.94 pc:gstreamer-1.0>=1.10 pc:gstreamer-app-1.0>=1.10 pc:gstreamer-audio-1.0>=1.10 pc:gstreamer-base-1.0>=1.10 pc:gstreamer-video-1.0>=1.10 pc:gtk+-3.0>=3.22 pc:json-glib-1.0 pc:libjpeg pc:liblz4 pc:libsasl2 pc:libusb-1.0>=1.0.21 pc:libusbredirhost>=0.7.1 pc:libusbredirparser-0.5>=0.7.1 pc:libva-x11 pc:openssl>=1.0.0 pc:opus>=0.9.14 pc:pixman-1>=0.17.7 pc:spice-protocol>=0.14.3 pc:wayland-client>=1.17.0 pc:wayland-cursor>=1.17.0 pc:wayland-server>=1.17.0 pc:x11 pc:zlib pkgconfig
+origin	spice-gtk
+repo	community
+file	spice-gtk-dev-0.42-r0.apk
+checksum	Q1S59437JfUEAeeumrF92u86xCATk=
+dep	spice-glib=0.42-r0	spice-glib
+dep	spice-gtk=0.42-r0	spice-gtk
+dep	pc:epoxy	libepoxy-dev
+dep	pc:gio-2.0>=2.38	glib-dev
+dep	pc:gio-unix-2.0	glib-dev
+dep	pc:glib-2.0>=2.38	glib-dev
+dep	pc:gobject-2.0>=2.52	glib-dev
+dep	pc:gobject-introspection-1.0>=0.94	gobject-introspection-dev
+dep	pc:gstreamer-1.0>=1.10	gstreamer-dev
+dep	pc:gstreamer-app-1.0>=1.10	gst-plugins-base-dev
+dep	pc:gstreamer-audio-1.0>=1.10	gst-plugins-base-dev
+dep	pc:gstreamer-base-1.0>=1.10	gstreamer-dev
+dep	pc:gstreamer-video-1.0>=1.10	gst-plugins-base-dev
+dep	pc:gtk+-3.0>=3.22	gtk+3.0-dev
+dep	pc:json-glib-1.0	json-glib-dev
+dep	pc:libjpeg	libjpeg-turbo-dev
+dep	pc:liblz4	lz4-dev
+dep	pc:libsasl2	cyrus-sasl-dev
+dep	pc:libusb-1.0>=1.0.21	libusb-dev
+dep	pc:libusbredirhost>=0.7.1	usbredir-dev
+dep	pc:libusbredirparser-0.5>=0.7.1	usbredir-dev
+dep	pc:libva-x11	libva-dev
+dep	pc:openssl>=1.0.0	openssl-dev
+dep	pc:opus>=0.9.14	opus-dev
+dep	pc:pixman-1>=0.17.7	pixman-dev
+dep	pc:spice-protocol>=0.14.3	spice-protocol
+dep	pc:wayland-client>=1.17.0	wayland-dev
+dep	pc:wayland-cursor>=1.17.0	wayland-dev
+dep	pc:wayland-server>=1.17.0	wayland-dev
+dep	pc:x11	libx11-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

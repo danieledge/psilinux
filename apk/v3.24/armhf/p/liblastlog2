@@ -1,0 +1,15 @@
+name	liblastlog2
+version	2.42.3-r1
+description	Y2038 safe version of lastlog
+url	https://git.kernel.org/cgit/utils/util-linux/util-linux.git
+license	BSD-2-Clause
+size	9724
+installed-size	22988
+depends	so:libc.musl-armhf.so.1 so:libpam.so.0 so:libsqlite3.so.0
+origin	util-linux
+repo	main
+file	liblastlog2-2.42.3-r1.apk
+checksum	Q10o8tMFcZsCe9JjCziGlhxyljHPU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpam.so.0	linux-pam
+dep	so:libsqlite3.so.0	sqlite-libs

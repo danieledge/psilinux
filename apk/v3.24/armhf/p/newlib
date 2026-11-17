@@ -1,0 +1,14 @@
+name	newlib
+version	4.6.0.20260123-r0
+description	C standard library implementation intended for use on embedded systems
+url	https://www.sourceware.org/newlib/
+license	GPL-2.0-only AND LGPL-2.1-only AND 0BSD AND BSD-3-Clause AND GPL-3.0-only AND LGPL-3.0-only
+size	1354
+installed-size	0
+depends	newlib-arm-none-eabi newlib-riscv-none-elf
+origin	newlib
+repo	community
+file	newlib-4.6.0.20260123-r0.apk
+checksum	Q1OkyJ+ka8pgDEGHjkhYSnle16ouk=
+dep	newlib-arm-none-eabi	newlib-arm-none-eabi
+dep	newlib-riscv-none-elf	newlib-riscv-none-elf

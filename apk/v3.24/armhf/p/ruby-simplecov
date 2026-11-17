@@ -1,0 +1,15 @@
+name	ruby-simplecov
+version	0.22.0-r1
+description	Code coverage for Ruby
+url	https://rubygems.org/gems/simplecov
+license	MIT
+size	31515
+installed-size	91629
+depends	ruby-docile ruby-simplecov-html ruby-simplecov_json_formatter
+origin	ruby-simplecov
+repo	community
+file	ruby-simplecov-0.22.0-r1.apk
+checksum	Q1ezVq+MsE9ZWFB6a62c7hVEWQ4nY=
+dep	ruby-docile	ruby-docile
+dep	ruby-simplecov-html	ruby-simplecov-html
+dep	ruby-simplecov_json_formatter	ruby-simplecov_json_formatter

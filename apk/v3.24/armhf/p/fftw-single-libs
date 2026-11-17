@@ -1,0 +1,13 @@
+name	fftw-single-libs
+version	3.3.11-r0
+description	Discrete Fourier transform (DFT) library
+url	http://www.fftw.org/
+license	GPL-2.0-or-later
+size	803068
+installed-size	1366368
+depends	so:libc.musl-armhf.so.1
+origin	fftw
+repo	main
+file	fftw-single-libs-3.3.11-r0.apk
+checksum	Q1v/FQ9VXjSNekqwJLtVgfs7+BePY=
+dep	so:libc.musl-armhf.so.1	musl

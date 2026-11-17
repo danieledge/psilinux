@@ -1,0 +1,15 @@
+name	zeromq
+version	4.3.5-r2
+description	The ZeroMQ messaging library and tools
+url	https://zeromq.org/
+license	MPL-2.0
+size	15834
+installed-size	71192
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libzmq.so.5
+origin	zeromq
+repo	main
+file	zeromq-4.3.5-r2.apk
+checksum	Q1BMMvbGsuCmIAshRlW3+b72C5XGE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libzmq.so.5	libzmq

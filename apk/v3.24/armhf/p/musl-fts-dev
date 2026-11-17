@@ -1,0 +1,14 @@
+name	musl-fts-dev
+version	1.2.7-r7
+description	fts(3) functions, which are missing in musl libc (development files)
+url	https://github.com/void-linux/musl-fts/
+license	BSD-3-Clause
+size	9231
+installed-size	18271
+depends	musl-fts=1.2.7-r7 pkgconfig
+origin	musl-fts
+repo	main
+file	musl-fts-dev-1.2.7-r7.apk
+checksum	Q1yvG6ngfA3ZMpiJB0bnDJ8ZDD34Y=
+dep	musl-fts=1.2.7-r7	musl-fts
+dep	pkgconfig	pkgconf

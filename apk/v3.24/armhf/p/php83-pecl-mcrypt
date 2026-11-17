@@ -1,0 +1,15 @@
+name	php83-pecl-mcrypt
+version	1.0.9-r0
+description	Provides PHP 8.3 bindings for the unmaintained libmcrypt - PECL
+url	https://pecl.php.net/package/mcrypt
+license	PHP-3.01
+size	15642
+installed-size	38185
+depends	php83-common so:libc.musl-armhf.so.1 so:libmcrypt.so.4
+origin	php83-pecl-mcrypt
+repo	community
+file	php83-pecl-mcrypt-1.0.9-r0.apk
+checksum	Q1hb5YkW+eelCNXp7lTlwne2NSTzQ=
+dep	php83-common	php83-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmcrypt.so.4	libmcrypt

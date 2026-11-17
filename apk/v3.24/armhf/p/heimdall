@@ -1,0 +1,16 @@
+name	heimdall
+version	2.2.2-r0
+description	Free implementation of Samsung Galaxy devices flashing protocol
+url	https://git.sr.ht/~grimler/Heimdall
+license	MIT
+size	35141
+installed-size	81649
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libusb-1.0.so.0
+origin	heimdall
+repo	community
+file	heimdall-2.2.2-r0.apk
+checksum	Q1sm/ry0NUR3+FUp9INbaOKpcVDhI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libusb-1.0.so.0	libusb

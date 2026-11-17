@@ -1,0 +1,13 @@
+name	pm-utils-dev
+version	1.4.1-r5
+description	small collection of scripts that handle suspend and resume on behalf of HAL (development files)
+url	https://pm-utils.freedesktop.org/wiki/
+license	GPL-2.0-only
+size	1834
+installed-size	379
+depends	pkgconfig
+origin	pm-utils
+repo	main
+file	pm-utils-dev-1.4.1-r5.apk
+checksum	Q15DkAwsipmg7tVqDua7Qb/luLQao=
+dep	pkgconfig	pkgconf

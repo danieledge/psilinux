@@ -1,0 +1,29 @@
+name	mesa-egl
+version	26.1.6-r0
+description	Mesa libEGL runtime libraries
+url	https://www.mesa3d.org
+license	MIT AND SGI-B-2.0 AND BSL-1.0
+size	120630
+installed-size	292648
+depends	mesa=26.1.6-r0 mesa-gles=26.1.6-r0 so:libX11-xcb.so.1 so:libX11.so.6 so:libc.musl-armhf.so.1 so:libdrm.so.2 so:libexpat.so.1 so:libgallium-26.1.6.so so:libgbm.so.1 so:libgcc_s.so.1 so:libwayland-client.so.0 so:libxcb-dri3.so.0 so:libxcb-present.so.0 so:libxcb-randr.so.0 so:libxcb-shm.so.0 so:libxcb-xfixes.so.0 so:libxcb.so.1
+origin	mesa
+repo	main
+file	mesa-egl-26.1.6-r0.apk
+checksum	Q1jkyqi/5BPWP5bz/3r6CqIZ7uzdU=
+dep	mesa=26.1.6-r0	mesa
+dep	mesa-gles=26.1.6-r0	mesa-gles
+dep	so:libX11-xcb.so.1	libx11
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm.so.2	libdrm
+dep	so:libexpat.so.1	libexpat
+dep	so:libgallium-26.1.6.so	mesa
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libxcb-dri3.so.0	libxcb
+dep	so:libxcb-present.so.0	libxcb
+dep	so:libxcb-randr.so.0	libxcb
+dep	so:libxcb-shm.so.0	libxcb
+dep	so:libxcb-xfixes.so.0	libxcb
+dep	so:libxcb.so.1	libxcb

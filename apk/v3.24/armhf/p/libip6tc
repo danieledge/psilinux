@@ -1,0 +1,13 @@
+name	libip6tc
+version	1.8.13-r0
+description	Linux kernel firewall, NAT and packet mangling tools (legacy libip6tc library)
+url	https://www.netfilter.org/projects/iptables/index.html
+license	GPL-2.0-or-later
+size	12951
+installed-size	21940
+depends	so:libc.musl-armhf.so.1
+origin	iptables
+repo	main
+file	libip6tc-1.8.13-r0.apk
+checksum	Q1xIBIIxgdoLnfEjgx9jp6wFNC4kE=
+dep	so:libc.musl-armhf.so.1	musl

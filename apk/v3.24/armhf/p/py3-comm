@@ -1,0 +1,14 @@
+name	py3-comm
+version	0.2.3-r3
+description	Python comm implementation for the Jupyter kernel protocol
+url	https://github.com/ipython/comm
+license	BSD-3-Clause
+size	7542
+installed-size	17736
+depends	py3-traitlets python3~3.14
+origin	py3-comm
+repo	community
+file	py3-comm-0.2.3-r3.apk
+checksum	Q1TgFro0pkkLqp9S0JCN0s3IUB2h0=
+dep	py3-traitlets	py3-traitlets
+dep	python3~3.14	python3

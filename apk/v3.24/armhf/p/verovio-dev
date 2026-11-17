@@ -1,0 +1,13 @@
+name	verovio-dev
+version	4.1.0-r2
+description	Music notation engraving for MEI with MusicXML and Humdrum support (development files)
+url	https://www.verovio.org/index.xhtml
+license	LGPL-3.0-only
+size	2387
+installed-size	3190
+depends	verovio-libs
+origin	verovio
+repo	community
+file	verovio-dev-4.1.0-r2.apk
+checksum	Q1UBTXzO1Q9csF13VXNEvwCFT2N60=
+dep	verovio-libs	verovio-libs

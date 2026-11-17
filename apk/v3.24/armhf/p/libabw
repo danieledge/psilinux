@@ -1,0 +1,18 @@
+name	libabw
+version	0.1.4-r0
+description	Import filter and tools for AbiWord documents
+url	https://wiki.documentfoundation.org/DLP/Libraries/libabw
+license	MPL-2.0
+size	81209
+installed-size	185728
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:librevenge-0.0.so.0 so:libstdc++.so.6 so:libxml2.so.2 so:libz.so.1
+origin	libabw
+repo	community
+file	libabw-0.1.4-r0.apk
+checksum	Q1z82goBma8OjLahHLT8+LWqTtdZY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:librevenge-0.0.so.0	librevenge
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

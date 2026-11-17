@@ -1,0 +1,16 @@
+name	inih-inireader
+version	62-r0
+description	C++ library and API for inih
+url	https://github.com/benhoyt/inih
+license	BSD-3-Clause
+size	11363
+installed-size	25932
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libinih.so.0 so:libstdc++.so.6
+origin	inih
+repo	main
+file	inih-inireader-62-r0.apk
+checksum	Q1tBYKPwlmNEYeNpXENfIaPZd7C6k=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libinih.so.0	inih
+dep	so:libstdc++.so.6	libstdc++

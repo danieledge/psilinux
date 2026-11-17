@@ -1,0 +1,13 @@
+name	traceroute
+version	2.1.6-r0
+description	New modern implementation of traceroute(8) utility for Linux systems
+url	https://traceroute.sourceforge.net/
+license	GPL-2.0-or-later
+size	30077
+installed-size	57096
+depends	so:libc.musl-armhf.so.1
+origin	traceroute
+repo	community
+file	traceroute-2.1.6-r0.apk
+checksum	Q1z8IoHCaZCKMLfLj1MwEmWXilT+Q=
+dep	so:libc.musl-armhf.so.1	musl

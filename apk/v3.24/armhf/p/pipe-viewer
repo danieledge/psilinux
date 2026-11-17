@@ -1,0 +1,18 @@
+name	pipe-viewer
+version	0.5.3-r0
+description	Lightweight YouTube client that does not require an YouTube API key
+url	https://github.com/trizen/pipe-viewer
+license	Artistic-2.0
+size	88916
+installed-size	385716
+depends	perl-data-dump perl-json perl-libwww perl-lwp-protocol-https perl-term-readline-gnu perl-unicode-linebreak
+origin	pipe-viewer
+repo	community
+file	pipe-viewer-0.5.3-r0.apk
+checksum	Q1ubqqZKRCnWtMq0QEN2GQaC1M+4g=
+dep	perl-data-dump	perl-data-dump
+dep	perl-json	perl-json
+dep	perl-libwww	perl-libwww
+dep	perl-lwp-protocol-https	perl-lwp-protocol-https
+dep	perl-term-readline-gnu	perl-term-readline-gnu
+dep	perl-unicode-linebreak	perl-unicode-linebreak

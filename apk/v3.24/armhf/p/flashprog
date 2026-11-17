@@ -1,0 +1,19 @@
+name	flashprog
+version	1.5-r0
+description	A utility for identifying, reading, writing, verifying and erasing flash chips
+url	https://flashprog.org
+license	GPL-2.0-or-later
+size	171954
+installed-size	817084
+depends	dmidecode so:libc.musl-armhf.so.1 so:libftdi1.so.2 so:libgpiod.so.3 so:libjaylink.so.0 so:libpci.so.3 so:libusb-1.0.so.0
+origin	flashprog
+repo	community
+file	flashprog-1.5-r0.apk
+checksum	Q1no9v63yWFtJez72R3Ozd8m006qA=
+dep	dmidecode	dmidecode
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libftdi1.so.2	libftdi1
+dep	so:libgpiod.so.3	libgpiod
+dep	so:libjaylink.so.0	libjaylink
+dep	so:libpci.so.3	pciutils-libs
+dep	so:libusb-1.0.so.0	libusb

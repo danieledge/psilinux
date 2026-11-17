@@ -1,0 +1,20 @@
+name	finch
+version	2.14.14-r0
+description	text-based multi-protocol instant messaging client
+url	https://pidgin.im/
+license	GPL-2.0-or-later
+size	103930
+installed-size	270230
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgnt.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libncursesw.so.6 so:libpurple.so.0
+origin	pidgin
+repo	community
+file	finch-2.14.14-r0.apk
+checksum	Q1uaqJ85Z5LKcMBmW1kFjRoYtREWo=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgnt.so.0	libgnt
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpurple.so.0	libpurple

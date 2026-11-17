@@ -1,0 +1,14 @@
+name	perl-datetime-format-xsd
+version	0.4-r1
+description	Format DateTime according to xsd:dateTime
+url	https://metacpan.org/release/DateTime-Format-XSD/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	2905
+installed-size	1723
+depends	perl perl-datetime-format-iso8601
+origin	perl-datetime-format-xsd
+repo	community
+file	perl-datetime-format-xsd-0.4-r1.apk
+checksum	Q11p/X9jDLYaQ3POwEavNx/N1Gaa8=
+dep	perl	perl
+dep	perl-datetime-format-iso8601	perl-datetime-format-iso8601

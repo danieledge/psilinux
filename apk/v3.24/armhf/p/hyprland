@@ -1,0 +1,46 @@
+name	hyprland
+version	0.54.3-r0
+description	Independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
+url	https://hypr.land
+license	BSD-3-Clause
+size	4013117
+installed-size	10693298
+depends	so:libEGL.so.1 so:libGLESv2.so.2 so:libXcursor.so.1 so:libaquamarine.so.11 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdrm.so.2 so:libgbm.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libgobject-2.0.so.0 so:libhyprcursor.so.0 so:libhyprgraphics.so.4 so:libhyprlang.so.2 so:libhyprutils.so.12 so:libhyprwire.so.3 so:libinput.so.10 so:libmuparser.so.2 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpixman-1.so.0 so:libre2.so.11 so:libstdc++.so.6 so:libudis86.so.0 so:libuuid.so.1 so:libwayland-server.so.0 so:libxcb-composite.so.0 so:libxcb-errors.so.0 so:libxcb-icccm.so.4 so:libxcb-render.so.0 so:libxcb-res.so.0 so:libxcb-xfixes.so.0 so:libxcb.so.1 so:libxkbcommon.so.0
+origin	hyprland
+repo	community
+file	hyprland-0.54.3-r0.apk
+checksum	Q1/oG8wQJY6LLavdUX0AI//GsRBUQ=
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libGLESv2.so.2	mesa-gles
+dep	so:libXcursor.so.1	libxcursor
+dep	so:libaquamarine.so.11	aquamarine
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libdrm.so.2	libdrm
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libhyprcursor.so.0	hyprcursor
+dep	so:libhyprgraphics.so.4	hyprgraphics
+dep	so:libhyprlang.so.2	hyprlang
+dep	so:libhyprutils.so.12	hyprutils
+dep	so:libhyprwire.so.3	hyprwire
+dep	so:libinput.so.10	libinput-libs
+dep	so:libmuparser.so.2	muparser
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpixman-1.so.0	pixman
+dep	so:libre2.so.11	re2
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libudis86.so.0	udis86-git
+dep	so:libuuid.so.1	libuuid
+dep	so:libwayland-server.so.0	wayland-libs-server
+dep	so:libxcb-composite.so.0	libxcb
+dep	so:libxcb-errors.so.0	xcb-util-errors
+dep	so:libxcb-icccm.so.4	xcb-util-wm
+dep	so:libxcb-render.so.0	libxcb
+dep	so:libxcb-res.so.0	libxcb
+dep	so:libxcb-xfixes.so.0	libxcb
+dep	so:libxcb.so.1	libxcb
+dep	so:libxkbcommon.so.0	libxkbcommon

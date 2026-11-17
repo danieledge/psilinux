@@ -1,0 +1,12 @@
+name	cairo-dbg
+version	1.18.4-r1
+description	A vector graphics library (debug symbols)
+url	https://cairographics.org/
+license	LGPL-2.1-or-later OR MPL-1.1
+size	2274698
+installed-size	5264212
+depends	!cairo-gobject<1.18.4-r1 !cairo-gobject>1.18.4-r1 !cairo-tools<1.18.4-r1 !cairo-tools>1.18.4-r1 !cairo<1.18.4-r1 !cairo>1.18.4-r1
+origin	cairo
+repo	main
+file	cairo-dbg-1.18.4-r1.apk
+checksum	Q14mKWzVZYwAu8fVYD3ZAP03yyTi4=

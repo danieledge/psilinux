@@ -1,0 +1,37 @@
+name	onboard
+version	1.4.4.2-r0
+description	On-screen keyboard useful on tablet PCs or for mobility impaired users
+url	https://github.com/onboard-osk/onboard
+license	GPL-3.0-only
+size	9467561
+installed-size	28550205
+depends	gsettings-desktop-schemas hunspell iso-codes librsvg ncurses py3-cairo py3-dbus py3-gobject3 python3 python3~3.14 so:libX11.so.6 so:libXi.so.6 so:libXtst.so.6 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcanberra.so.0 so:libdconf.so.1 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libhunspell-1.7.so.0 so:libstdc++.so.6 so:libudev.so.1 so:libxkbfile.so.1
+origin	onboard
+repo	community
+file	onboard-1.4.4.2-r0.apk
+checksum	Q1b3Pov3eyMeA7OPm5DeMycUCmFeg=
+dep	gsettings-desktop-schemas	gsettings-desktop-schemas
+dep	hunspell	hunspell
+dep	iso-codes	iso-codes
+dep	librsvg	librsvg
+dep	ncurses	ncurses
+dep	py3-cairo	py3-cairo
+dep	py3-dbus	py3-dbus
+dep	py3-gobject3	py3-gobject3
+dep	python3	python3
+dep	python3~3.14	python3
+dep	so:libX11.so.6	libx11
+dep	so:libXi.so.6	libxi
+dep	so:libXtst.so.6	libxtst
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcanberra.so.0	libcanberra
+dep	so:libdconf.so.1	dconf
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libhunspell-1.7.so.0	libhunspell
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libudev.so.1	eudev-libs
+dep	so:libxkbfile.so.1	libxkbfile

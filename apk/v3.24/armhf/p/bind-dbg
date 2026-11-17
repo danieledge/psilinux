@@ -1,0 +1,12 @@
+name	bind-dbg
+version	9.20.30-r0
+description	The ISC DNS server (debug symbols)
+url	https://www.isc.org/bind/
+license	MPL-2.0
+size	5839628
+installed-size	12806228
+depends	!bind-dnssec-tools<9.20.30-r0 !bind-dnssec-tools>9.20.30-r0 !bind-libs<9.20.30-r0 !bind-libs>9.20.30-r0 !bind-plugins<9.20.30-r0 !bind-plugins>9.20.30-r0 !bind-tools<9.20.30-r0 !bind-tools>9.20.30-r0 !bind<9.20.30-r0 !bind>9.20.30-r0
+origin	bind
+repo	main
+file	bind-dbg-9.20.30-r0.apk
+checksum	Q1mqeM0FeSy+b+Gy6H4p6+e1ygdAM=

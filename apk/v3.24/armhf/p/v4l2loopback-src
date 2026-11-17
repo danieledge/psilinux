@@ -1,0 +1,13 @@
+name	v4l2loopback-src
+version	0.15.3-r0
+description	Kernel module to create V4L2 loopback devices
+url	https://github.com/v4l2loopback/v4l2loopback
+license	GPL-2.0-only
+size	27334
+installed-size	109545
+depends	akms
+origin	v4l2loopback-src
+repo	community
+file	v4l2loopback-src-0.15.3-r0.apk
+checksum	Q1kg24j7+op935po5ZVfz7Mv/8h9k=
+dep	akms	akms

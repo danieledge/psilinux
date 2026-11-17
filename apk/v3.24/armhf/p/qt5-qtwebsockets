@@ -1,0 +1,18 @@
+name	qt5-qtwebsockets
+version	5.15.18_git20251101-r0
+description	Provides WebSocket communication compliant with RFC 6455
+url	https://www.qt.io/developers/
+license	( LGPL-3.0-or-later OR GPL-3.0-only OR GPL-2.0-or-later ) AND Qt-GPL-exception-1.0
+size	16745
+installed-size	41975
+depends	so:libQt5Core.so.5 so:libQt5Network.so.5 so:libQt5Qml.so.5 so:libQt5WebSockets.so.5 so:libc.musl-armhf.so.1 so:libstdc++.so.6
+origin	qt5-qtwebsockets
+repo	community
+file	qt5-qtwebsockets-5.15.18_git20251101-r0.apk
+checksum	Q1yDimgsaUHTpDp/daxgYM5F5JvAQ=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Network.so.5	qt5-qtbase
+dep	so:libQt5Qml.so.5	qt5-qtdeclarative
+dep	so:libQt5WebSockets.so.5	qt5-qtwebsockets-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,30 @@
+name	s2geometry
+version	0.13.1-r1
+description	Computational geometry and spatial indexing on the sphere
+url	https://s2geometry.io/
+license	Apache-2.0
+size	628626
+installed-size	1551975
+depends	so:libabsl_flags_internal.so.2508.0.0 so:libabsl_flags_marshalling.so.2508.0.0 so:libabsl_flags_reflection.so.2508.0.0 so:libabsl_hash.so.2508.0.0 so:libabsl_int128.so.2508.0.0 so:libabsl_log_internal_check_op.so.2508.0.0 so:libabsl_log_internal_message.so.2508.0.0 so:libabsl_raw_hash_set.so.2508.0.0 so:libabsl_status.so.2508.0.0 so:libabsl_str_format_internal.so.2508.0.0 so:libabsl_strings.so.2508.0.0 so:libabsl_synchronization.so.2508.0.0 so:libabsl_throw_delegate.so.2508.0.0 so:libabsl_vlog_config_internal.so.2508.0.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	s2geometry
+repo	community
+file	s2geometry-0.13.1-r1.apk
+checksum	Q1HEEhEN4EM76dp58wr9uazpNWXHE=
+dep	so:libabsl_flags_internal.so.2508.0.0	abseil-cpp-flags-internal
+dep	so:libabsl_flags_marshalling.so.2508.0.0	abseil-cpp-flags-marshalling
+dep	so:libabsl_flags_reflection.so.2508.0.0	abseil-cpp-flags-reflection
+dep	so:libabsl_hash.so.2508.0.0	abseil-cpp-hash
+dep	so:libabsl_int128.so.2508.0.0	abseil-cpp-int128
+dep	so:libabsl_log_internal_check_op.so.2508.0.0	abseil-cpp-log-internal-check-op
+dep	so:libabsl_log_internal_message.so.2508.0.0	abseil-cpp-log-internal-message
+dep	so:libabsl_raw_hash_set.so.2508.0.0	abseil-cpp-raw-hash-set
+dep	so:libabsl_status.so.2508.0.0	abseil-cpp-status
+dep	so:libabsl_str_format_internal.so.2508.0.0	abseil-cpp-str-format-internal
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libabsl_synchronization.so.2508.0.0	abseil-cpp-synchronization
+dep	so:libabsl_throw_delegate.so.2508.0.0	abseil-cpp-throw-delegate
+dep	so:libabsl_vlog_config_internal.so.2508.0.0	abseil-cpp-vlog-config-internal
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

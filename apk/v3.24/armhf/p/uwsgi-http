@@ -1,0 +1,15 @@
+name	uwsgi-http
+version	2.0.31-r2
+description	uWSGI plugin http
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	23493
+installed-size	48088
+depends	uwsgi uwsgi-corerouter so:libc.musl-armhf.so.1
+origin	uwsgi
+repo	main
+file	uwsgi-http-2.0.31-r2.apk
+checksum	Q1QAqKcy/N7mD3isz6ghKYFYfsGuI=
+dep	uwsgi	uwsgi
+dep	uwsgi-corerouter	uwsgi-corerouter
+dep	so:libc.musl-armhf.so.1	musl

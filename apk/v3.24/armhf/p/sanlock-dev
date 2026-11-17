@@ -1,0 +1,14 @@
+name	sanlock-dev
+version	5.1.0-r1
+description	lease manager that uses shared storage (development files)
+url	https://codeberg.org/sanlock/sanlock
+license	LGPL-2.0-or-later AND GPL-2.0-only AND GPL-2.0-or-later
+size	14616
+installed-size	43654
+depends	sanlock=5.1.0-r1 pkgconfig
+origin	sanlock
+repo	main
+file	sanlock-dev-5.1.0-r1.apk
+checksum	Q1YrZKN5vJk6cNVeRwR0moq3kyvuA=
+dep	sanlock=5.1.0-r1	sanlock
+dep	pkgconfig	pkgconf

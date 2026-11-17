@@ -1,0 +1,17 @@
+name	py3-pytest-mypy
+version	1.0.1-r0
+description	Pytest plugin for mypy
+url	https://github.com/realpython/pytest-mypy
+license	MIT
+size	9292
+installed-size	21620
+depends	py3-attrs py3-filelock py3-mypy py3-pytest python3~3.14
+origin	py3-pytest-mypy
+repo	community
+file	py3-pytest-mypy-1.0.1-r0.apk
+checksum	Q1zqKg8hukuOLWSIMKWtZtWqq1ZdA=
+dep	py3-attrs	py3-attrs
+dep	py3-filelock	py3-filelock
+dep	py3-mypy	py3-mypy
+dep	py3-pytest	py3-pytest
+dep	python3~3.14	python3

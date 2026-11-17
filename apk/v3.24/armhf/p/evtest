@@ -1,0 +1,13 @@
+name	evtest
+version	1.36-r0
+description	monitor input layer events
+url	https://cgit.freedesktop.org/evtest/
+license	GPL-2.0
+size	14490
+installed-size	34016
+depends	so:libc.musl-armhf.so.1
+origin	evtest
+repo	community
+file	evtest-1.36-r0.apk
+checksum	Q1Ccin0Teh8jryW9O1icozo1Xvl9c=
+dep	so:libc.musl-armhf.so.1	musl

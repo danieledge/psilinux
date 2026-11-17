@@ -1,0 +1,14 @@
+name	vanessa_logger-dev
+version	0.0.10-r4
+description	Logging library (development files)
+url	https://projects.horms.net/projects/vanessa/
+license	LGPL-2.0-or-later
+size	11399
+installed-size	32104
+depends	vanessa_logger=0.0.10-r4 pkgconfig
+origin	vanessa_logger
+repo	main
+file	vanessa_logger-dev-0.0.10-r4.apk
+checksum	Q1j3mn+8fLreAsuYbSpkJ8XcSwQgw=
+dep	vanessa_logger=0.0.10-r4	vanessa_logger
+dep	pkgconfig	pkgconf

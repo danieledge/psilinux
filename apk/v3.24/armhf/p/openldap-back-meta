@@ -1,0 +1,15 @@
+name	openldap-back-meta
+version	2.6.15-r0
+description	OpenLDAP meta backend
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	59181
+installed-size	127922
+depends	so:libc.musl-armhf.so.1 so:liblber.so.2 so:libldap.so.2
+origin	openldap
+repo	main
+file	openldap-back-meta-2.6.15-r0.apk
+checksum	Q1hTpEf4L2rxZPlA0GiwPzR0ZbyvQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap

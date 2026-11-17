@@ -1,0 +1,16 @@
+name	ocaml-tsdl-image-dev
+version	0.6-r3
+description	SDL2_Image bindings to go with ocaml-tsdl (development files)
+url	https://github.com/sanette/tsdl-image
+license	BSD-3-Clause
+size	79272
+installed-size	187796
+depends	ocaml-tsdl-image=0.6-r3 ocaml-ctypes-dev ocaml-tsdl-dev sdl2_image-dev
+origin	ocaml-tsdl-image
+repo	community
+file	ocaml-tsdl-image-dev-0.6-r3.apk
+checksum	Q1jL2qitaqouE29owYWpJSckAA4Y4=
+dep	ocaml-tsdl-image=0.6-r3	ocaml-tsdl-image
+dep	ocaml-ctypes-dev	ocaml-ctypes-dev
+dep	ocaml-tsdl-dev	ocaml-tsdl-dev
+dep	sdl2_image-dev	sdl2_image-dev

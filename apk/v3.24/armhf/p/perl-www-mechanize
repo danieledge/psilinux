@@ -1,0 +1,20 @@
+name	perl-www-mechanize
+version	2.20-r0
+description	Handy web browsing in a Perl object
+url	https://metacpan.org/release/WWW-Mechanize/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	37225
+installed-size	126569
+depends	perl perl-libwww perl-html-tree perl-uri perl-html-parser perl-http-cookies perl-http-message perl-html-form
+origin	perl-www-mechanize
+repo	community
+file	perl-www-mechanize-2.20-r0.apk
+checksum	Q1vksJJx02Wsu0Uvv8mV0on2/Dt3w=
+dep	perl	perl
+dep	perl-libwww	perl-libwww
+dep	perl-html-tree	perl-html-tree
+dep	perl-uri	perl-uri
+dep	perl-html-parser	perl-html-parser
+dep	perl-http-cookies	perl-http-cookies
+dep	perl-http-message	perl-http-message
+dep	perl-html-form	perl-html-form

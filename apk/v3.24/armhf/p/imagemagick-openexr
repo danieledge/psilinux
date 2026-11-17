@@ -1,0 +1,17 @@
+name	imagemagick-openexr
+version	7.1.2.35-r0
+description	Collection of tools and libraries for many image formats (openexr support modules)
+url	https://imagemagick.org/
+license	ImageMagick
+size	12053
+installed-size	23034
+depends	so:libMagickCore-7.Q16HDRI.so.10 so:libOpenEXR-3_4.so.33 so:libOpenEXRCore-3_4.so.33 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	imagemagick
+repo	community
+file	imagemagick-openexr-7.1.2.35-r0.apk
+checksum	Q1XMasMxMe/pO0WPmj+vn0699WCgY=
+dep	so:libMagickCore-7.Q16HDRI.so.10	imagemagick-libs
+dep	so:libOpenEXR-3_4.so.33	openexr-libopenexr
+dep	so:libOpenEXRCore-3_4.so.33	openexr-libopenexrcore
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,13 @@
+name	ocaml-mtime-dev
+version	1.4.0-r5
+description	Monotonic wall-clock time for OCaml (development files)
+url	https://erratique.ch/software/mtime
+license	ISC
+size	49208
+installed-size	148787
+depends	ocaml-mtime=1.4.0-r5
+origin	ocaml-mtime
+repo	community
+file	ocaml-mtime-dev-1.4.0-r5.apk
+checksum	Q1Ec8oOD629e+ObPp3GVYqjTYkZrg=
+dep	ocaml-mtime=1.4.0-r5	ocaml-mtime

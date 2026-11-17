@@ -1,0 +1,14 @@
+name	font-mononoki
+version	1.6-r2
+description	Font for programming and code review
+url	https://madmalik.github.io/mononoki/
+license	OFL-1.1
+size	251356
+installed-size	525704
+depends	fontconfig mkfontscale
+origin	font-mononoki
+repo	community
+file	font-mononoki-1.6-r2.apk
+checksum	Q168+wS/xWYPp+7w03G4A9/zLmd1A=
+dep	fontconfig	fontconfig
+dep	mkfontscale	mkfontscale

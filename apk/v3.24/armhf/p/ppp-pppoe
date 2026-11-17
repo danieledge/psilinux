@@ -1,0 +1,14 @@
+name	ppp-pppoe
+version	2.5.3-r0
+description	pppd plugin for kernel-mode PPPoE on Linux
+url	https://ppp.samba.org/
+license	GPL-2.0-or-later
+size	19968
+installed-size	52160
+depends	ppp-daemon so:libc.musl-armhf.so.1
+origin	ppp
+repo	main
+file	ppp-pppoe-2.5.3-r0.apk
+checksum	Q14WAYhK+2iQO5fZwx96P6LoQkAl8=
+dep	ppp-daemon	ppp-daemon
+dep	so:libc.musl-armhf.so.1	musl

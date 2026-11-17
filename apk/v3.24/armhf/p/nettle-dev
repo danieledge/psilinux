@@ -1,0 +1,15 @@
+name	nettle-dev
+version	3.10.2-r0
+description	Low-level cryptographic library (development files)
+url	https://www.lysator.liu.se/~nisse/nettle/
+license	GPL-2.0-or-later OR LGPL-3.0-or-later
+size	49660
+installed-size	278238
+depends	gmp-dev nettle=3.10.2-r0 pkgconfig
+origin	nettle
+repo	main
+file	nettle-dev-3.10.2-r0.apk
+checksum	Q1aFhmStpHHVnMT4W1oDfg6PtJmsI=
+dep	gmp-dev	gmp-dev
+dep	nettle=3.10.2-r0	nettle
+dep	pkgconfig	pkgconf

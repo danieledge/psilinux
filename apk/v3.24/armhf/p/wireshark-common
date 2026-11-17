@@ -1,0 +1,39 @@
+name	wireshark-common
+version	4.6.9-r0
+description	Network protoccol analyzer (Common files)
+url	https://www.wireshark.org/
+license	GPL-2.0-or-later
+size	26570856
+installed-size	98477911
+depends	/bin/sh so:libbrotlidec.so.1 so:libc.musl-armhf.so.1 so:libcap.so.2 so:libcares.so.2 so:libgcc_s.so.1 so:libgcrypt.so.20 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgnutls.so.30 so:libk5crypto.so.3 so:libkrb5.so.3 so:liblua-5.4.so.0 so:liblz4.so.1 so:libmaxminddb.so.0 so:libnghttp2.so.14 so:libnl-3.so.200 so:libnl-genl-3.so.200 so:libnl-route-3.so.200 so:libpcap.so.1 so:libpcre2-8.so.0 so:libsmi.so.2 so:libspeexdsp.so.1 so:libssh.so.4 so:libxml2.so.2 so:libz.so.1 so:libzstd.so.1
+origin	wireshark
+repo	community
+file	wireshark-common-4.6.9-r0.apk
+checksum	Q1lfV64442bTuk5F7T4k7ErFnSK98=
+dep	/bin/sh	busybox-binsh
+dep	so:libbrotlidec.so.1	brotli-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libcares.so.2	c-ares
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgnutls.so.30	gnutls
+dep	so:libk5crypto.so.3	krb5-libs
+dep	so:libkrb5.so.3	krb5-libs
+dep	so:liblua-5.4.so.0	lua5.4-libs
+dep	so:liblz4.so.1	lz4-libs
+dep	so:libmaxminddb.so.0	libmaxminddb-libs
+dep	so:libnghttp2.so.14	nghttp2-libs
+dep	so:libnl-3.so.200	libnl3
+dep	so:libnl-genl-3.so.200	libnl3
+dep	so:libnl-route-3.so.200	libnl3
+dep	so:libpcap.so.1	libpcap
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libsmi.so.2	libsmi
+dep	so:libspeexdsp.so.1	speexdsp
+dep	so:libssh.so.4	libssh
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

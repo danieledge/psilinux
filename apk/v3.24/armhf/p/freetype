@@ -1,0 +1,17 @@
+name	freetype
+version	2.14.3-r0
+description	TrueType font rendering library
+url	https://www.freetype.org/
+license	FTL OR GPL-2.0-or-later
+size	335366
+installed-size	628168
+depends	so:libbrotlidec.so.1 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libpng16.so.16 so:libz.so.1
+origin	freetype
+repo	main
+file	freetype-2.14.3-r0.apk
+checksum	Q12HloSGxJ0x6xu9rBUWIR2GpMcl0=
+dep	so:libbrotlidec.so.1	brotli-libs
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpng16.so.16	libpng
+dep	so:libz.so.1	zlib

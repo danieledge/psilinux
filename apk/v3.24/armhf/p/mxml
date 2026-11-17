@@ -1,0 +1,13 @@
+name	mxml
+version	3.3.1-r0
+description	Small XML library that you can use to read and write XML files
+url	https://www.msweet.org/mxml/
+license	Apache-2.0
+size	19951
+installed-size	42156
+depends	so:libc.musl-armhf.so.1
+origin	mxml
+repo	community
+file	mxml-3.3.1-r0.apk
+checksum	Q1rmsjhf3xDH8VQSaFhm8qcTTvzmQ=
+dep	so:libc.musl-armhf.so.1	musl

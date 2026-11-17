@@ -1,0 +1,13 @@
+name	tinyalsa-libs
+version	2.0.0-r4
+description	Tiny library to interface with ALSA in the Linux kernel (libraries)
+url	https://github.com/tinyalsa/tinyalsa
+license	BSD-3-Clause
+size	18298
+installed-size	34192
+depends	so:libc.musl-armhf.so.1
+origin	tinyalsa
+repo	community
+file	tinyalsa-libs-2.0.0-r4.apk
+checksum	Q14G5KOKiojtOvSeFqph3YA6lxm+8=
+dep	so:libc.musl-armhf.so.1	musl

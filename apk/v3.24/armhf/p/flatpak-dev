@@ -1,0 +1,28 @@
+name	flatpak-dev
+version	1.16.6-r2
+description	Application deployment framework for desktop apps (development files)
+url	https://flatpak.org/
+license	LGPL-2.1-or-later
+size	56831
+installed-size	544450
+depends	flatpak-libs=1.16.6-r2 pc:dconf>=0.26 pc:gio-2.0 pc:gio-unix-2.0 pc:glib-2.0>=2.46 pc:gpgme>=1.8.0 pc:json-glib-1.0 pc:libarchive>=2.8.0 pc:libcurl>=7.29.0 pc:libseccomp pc:libxml-2.0>=2.4 pc:libzstd>=0.8.1 pc:ostree-1>=2020.8 pc:polkit-agent-1>=0.98 pc:xau pkgconfig
+origin	flatpak
+repo	community
+file	flatpak-dev-1.16.6-r2.apk
+checksum	Q1CPamr80XARjmIwNliByszseM+Sk=
+dep	flatpak-libs=1.16.6-r2	flatpak-libs
+dep	pc:dconf>=0.26	dconf-dev
+dep	pc:gio-2.0	glib-dev
+dep	pc:gio-unix-2.0	glib-dev
+dep	pc:glib-2.0>=2.46	glib-dev
+dep	pc:gpgme>=1.8.0	gpgme-dev
+dep	pc:json-glib-1.0	json-glib-dev
+dep	pc:libarchive>=2.8.0	libarchive-dev
+dep	pc:libcurl>=7.29.0	curl-dev
+dep	pc:libseccomp	libseccomp-dev
+dep	pc:libxml-2.0>=2.4	libxml2-dev
+dep	pc:libzstd>=0.8.1	zstd-dev
+dep	pc:ostree-1>=2020.8	ostree-dev
+dep	pc:polkit-agent-1>=0.98	polkit-dev
+dep	pc:xau	libxau-dev
+dep	pkgconfig	pkgconf

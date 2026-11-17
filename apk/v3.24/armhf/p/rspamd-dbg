@@ -1,0 +1,12 @@
+name	rspamd-dbg
+version	4.0.1-r0
+description	Fast, free and open-source spam filtering system (debug symbols)
+url	https://rspamd.com/
+license	Apache-2.0 BSD-1-Clause BSD-2-Clause BSD-3-Clause CC0-1.0 LGPL-2.1-or-later LGPL-3.0-only MIT Zlib
+size	16200914
+installed-size	68619444
+depends	!rspamd-client<4.0.1-r0 !rspamd-client>4.0.1-r0 !rspamd-libs<4.0.1-r0 !rspamd-libs>4.0.1-r0 !rspamd<4.0.1-r0 !rspamd>4.0.1-r0
+origin	rspamd
+repo	community
+file	rspamd-dbg-4.0.1-r0.apk
+checksum	Q1QGz2rKfYXxbBDlrUTf2dwsyNPYA=

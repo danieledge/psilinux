@@ -1,0 +1,14 @@
+name	libnetfilter_acct-dev
+version	1.0.3-r3
+description	Userspace library providing interface to extended accounting infrastructure. (development files)
+url	https://www.netfilter.org/projects/libnetfilter_acct/
+license	LGPL-2.1-or-later
+size	2594
+installed-size	1967
+depends	libnetfilter_acct=1.0.3-r3 pkgconfig
+origin	libnetfilter_acct
+repo	main
+file	libnetfilter_acct-dev-1.0.3-r3.apk
+checksum	Q1p0WwHb+l66pZU89x3Ljow9Zahl0=
+dep	libnetfilter_acct=1.0.3-r3	libnetfilter_acct
+dep	pkgconfig	pkgconf

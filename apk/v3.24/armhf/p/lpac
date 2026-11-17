@@ -1,0 +1,21 @@
+name	lpac
+version	2.3.0-r0
+description	C-based eUICC LPA
+url	https://github.com/estkme-group/lpac
+license	AGPL-3.0-only AND LGPL-2.0-only AND MIT
+size	47824
+installed-size	96012
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libmbim-glib.so.4 so:libpcsclite.so.1 so:libqmi-glib.so.5 so:libqrtr-glib.so.0
+origin	lpac
+repo	community
+file	lpac-2.3.0-r0.apk
+checksum	Q1hm4rAVukpk3bbwnjT0kyPO8XwSU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libmbim-glib.so.4	libmbim
+dep	so:libpcsclite.so.1	pcsc-lite-libs
+dep	so:libqmi-glib.so.5	libqmi
+dep	so:libqrtr-glib.so.0	libqrtr-glib

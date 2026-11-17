@@ -1,0 +1,17 @@
+name	syslog-ng-python
+version	4.11.0-r0
+description	Next generation logging daemon (python module)
+url	https://www.syslog-ng.com/products/open-source-log-management/
+license	GPL-2.0-or-later
+size	122257
+installed-size	369480
+depends	so:libc.musl-armhf.so.1 so:libevtlog-4.11.so.0 so:libglib-2.0.so.0 so:libpython3.14.so.1.0 so:libsyslog-ng-4.11.so.0
+origin	syslog-ng
+repo	main
+file	syslog-ng-python-4.11.0-r0.apk
+checksum	Q190aABOBuZeGyVqFNbNr/+qhcwGk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevtlog-4.11.so.0	syslog-ng
+dep	so:libglib-2.0.so.0	glib
+dep	so:libpython3.14.so.1.0	python3
+dep	so:libsyslog-ng-4.11.so.0	syslog-ng

@@ -1,0 +1,22 @@
+name	avahi-ui-gtk3
+version	0.8-r9
+description	Gtk3 user interface library for Avahi
+url	https://www.avahi.org/
+license	LGPL-2.1-or-later
+size	15248
+installed-size	33912
+depends	so:libavahi-client.so.3 so:libavahi-common.so.3 so:libavahi-glib.so.1 so:libc.musl-armhf.so.1 so:libgdbm.so.6 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8
+origin	avahi-ui
+repo	community
+file	avahi-ui-gtk3-0.8-r9.apk
+checksum	Q1YnQA+5RIo6c4hLEX9d2k1ZBE/3g=
+dep	so:libavahi-client.so.3	avahi-libs
+dep	so:libavahi-common.so.3	avahi-libs
+dep	so:libavahi-glib.so.1	avahi-glib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdbm.so.6	gdbm
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl

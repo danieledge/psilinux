@@ -1,0 +1,13 @@
+name	libaio
+version	0.3.113-r2
+description	Asynchronous input/output library
+url	https://pagure.io/libaio
+license	LGPL-2.1-or-later
+size	4214
+installed-size	9444
+depends	so:libc.musl-armhf.so.1
+origin	libaio
+repo	main
+file	libaio-0.3.113-r2.apk
+checksum	Q1dlgzxlh4rLB4bYHEkaBDTjXKKOk=
+dep	so:libc.musl-armhf.so.1	musl

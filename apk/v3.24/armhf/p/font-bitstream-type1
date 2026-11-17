@@ -1,0 +1,16 @@
+name	font-bitstream-type1
+version	1.0.4-r2
+description	X.org bitstream Type1 fonts
+url	https://xorg.freedesktop.org/
+license	Bitstream-Charter
+size	335197
+installed-size	444200
+depends	encodings font-alias mkfontscale fontconfig
+origin	font-bitstream-type1
+repo	main
+file	font-bitstream-type1-1.0.4-r2.apk
+checksum	Q1eb/j5Uj0zNrMnGKF2loFoioN4Ak=
+dep	encodings	encodings
+dep	font-alias	font-alias
+dep	mkfontscale	mkfontscale
+dep	fontconfig	fontconfig

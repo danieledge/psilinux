@@ -1,0 +1,23 @@
+name	railway
+version	2.9.4-r0
+description	Railway lets you look up travel information for many different railways
+url	https://gitlab.com/schmiddi-on-mobile/railway
+license	GPL-3.0-or-later
+size	2355901
+installed-size	6496648
+depends	so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libpango-1.0.so.0 so:libssl.so.3
+origin	railway
+repo	community
+file	railway-2.9.4-r0.apk
+checksum	Q1hkLk2T4bg22BUgdfzILkleS5F0s=
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libssl.so.3	libssl3

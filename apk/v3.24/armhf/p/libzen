@@ -1,0 +1,15 @@
+name	libzen
+version	0.4.41-r0
+description	A shared library for libmediainfo and mediainfo
+url	https://github.com/MediaArea/ZenLib
+license	Zlib
+size	78523
+installed-size	198216
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libzen
+repo	community
+file	libzen-0.4.41-r0.apk
+checksum	Q1g8GUKaPMSyszBsatNur5y+Yy8Hw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

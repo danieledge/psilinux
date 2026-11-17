@@ -1,0 +1,16 @@
+name	postgresql16-pltcl
+version	16.16-r0
+description	PL/Tcl procedural language for PostgreSQL
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	24860
+installed-size	51934
+depends	postgresql16=16.16-r0 pgtcl so:libc.musl-armhf.so.1 so:libtcl8.6.so
+origin	postgresql16
+repo	community
+file	postgresql16-pltcl-16.16-r0.apk
+checksum	Q1htTnAkFIvHpPr/W564OmK1KToPc=
+dep	postgresql16=16.16-r0	postgresql16
+dep	pgtcl	pgtcl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libtcl8.6.so	tcl

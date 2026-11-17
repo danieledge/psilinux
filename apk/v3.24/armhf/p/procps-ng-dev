@@ -1,0 +1,14 @@
+name	procps-ng-dev
+version	4.0.6-r0
+description	Utilities for monitoring your system and processes on your system (development files)
+url	https://gitlab.com/procps-ng/procps
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	12732
+installed-size	74931
+depends	libproc2=4.0.6-r0 pkgconfig
+origin	procps-ng
+repo	main
+file	procps-ng-dev-4.0.6-r0.apk
+checksum	Q1roAYvhNN9w4cmGrMZnGr9ScHN8U=
+dep	libproc2=4.0.6-r0	libproc2
+dep	pkgconfig	pkgconf

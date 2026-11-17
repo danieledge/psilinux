@@ -1,0 +1,15 @@
+name	helix
+version	25.07.1-r3
+description	A post-modern modal text editor
+url	https://helix-editor.com/
+license	MPL-2.0
+size	5149189
+installed-size	10870521
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	helix
+repo	community
+file	helix-25.07.1-r3.apk
+checksum	Q1yE3mtJGy+fblflmQ/jagUvun0vw=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

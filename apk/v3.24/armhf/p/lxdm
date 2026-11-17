@@ -1,0 +1,26 @@
+name	lxdm
+version	0.5.3-r10
+description	LXDE desktop login manager
+url	https://sourceforge.net/projects/lxdm/
+license	GPL-3.0-or-later
+size	126834
+installed-size	279985
+depends	bash so:libX11.so.6 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libxcb.so.1
+origin	lxdm
+repo	community
+file	lxdm-0.5.3-r10.apk
+checksum	Q1pWFmRugcM147XXZXaXTPBqfK77w=
+dep	bash	bash
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libxcb.so.1	libxcb

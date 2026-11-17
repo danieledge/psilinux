@@ -1,0 +1,13 @@
+name	libjwt2-static
+version	2.1.3-r0
+description	JWT C Library 2.x (static library)
+url	https://github.com/benmcollins/libjwt
+license	MPL-2.0
+size	13909
+installed-size	34086
+depends	libjwt2-dev
+origin	libjwt2
+repo	community
+file	libjwt2-static-2.1.3-r0.apk
+checksum	Q1En7tFUx3KF/uEcbSc3yhSKUpCuI=
+dep	libjwt2-dev	libjwt2-dev

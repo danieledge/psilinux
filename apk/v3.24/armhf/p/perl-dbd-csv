@@ -1,0 +1,16 @@
+name	perl-dbd-csv
+version	0.62-r0
+description	DBI driver for CSV files
+url	https://metacpan.org/release/DBD-CSV/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	18646
+installed-size	51095
+depends	perl perl-dbi perl-text-csv_xs perl-sql-statement
+origin	perl-dbd-csv
+repo	community
+file	perl-dbd-csv-0.62-r0.apk
+checksum	Q1Nqz9NF+JiPgzCCx+NEWEephpwWg=
+dep	perl	perl
+dep	perl-dbi	perl-dbi
+dep	perl-text-csv_xs	perl-text-csv_xs
+dep	perl-sql-statement	perl-sql-statement

@@ -1,0 +1,17 @@
+name	graphicsmagick-c++
+version	1.3.47-r0
+description	Image processing system (c++ module)
+url	http://www.graphicsmagick.org/
+license	MIT
+size	110155
+installed-size	358830
+depends	ghostscript-fonts so:libGraphicsMagick.so.3 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	graphicsmagick
+repo	community
+file	graphicsmagick-c++-1.3.47-r0.apk
+checksum	Q10ZYi6y9ZQ6+5gTAgr4E56UkVEnQ=
+dep	ghostscript-fonts	ghostscript-fonts
+dep	so:libGraphicsMagick.so.3	graphicsmagick
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

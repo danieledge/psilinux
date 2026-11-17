@@ -1,0 +1,17 @@
+name	guile-dev
+version	3.0.9-r2
+description	portable, embeddable Scheme implementation written in C (development files)
+url	https://www.gnu.org/software/guile/
+license	LGPL-3.0-or-later AND GPL-3.0-or-later
+size	103819
+installed-size	460604
+depends	guile=3.0.9-r2 gc-dev gmp-dev guile-libs=3.0.9-r2 pkgconfig
+origin	guile
+repo	main
+file	guile-dev-3.0.9-r2.apk
+checksum	Q1Gjst6tj6aclrobY1zbXkUAsKjNg=
+dep	guile=3.0.9-r2	guile
+dep	gc-dev	gc-dev
+dep	gmp-dev	gmp-dev
+dep	guile-libs=3.0.9-r2	guile-libs
+dep	pkgconfig	pkgconf

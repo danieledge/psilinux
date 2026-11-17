@@ -1,0 +1,15 @@
+name	rsyslog-zmq
+version	8.2608.0-r0
+description	rsyslog imczmq and omczmq module
+url	https://www.rsyslog.com/
+license	Apache-2.0 AND GPL-3.0-or-later AND LGPL-3.0-or-later
+size	13491
+installed-size	35892
+depends	rsyslog=8.2608.0-r0 so:libc.musl-armhf.so.1 so:libczmq.so.4
+origin	rsyslog
+repo	main
+file	rsyslog-zmq-8.2608.0-r0.apk
+checksum	Q1DMmIrtMFJlCsF2TYPEsRhYYTxhM=
+dep	rsyslog=8.2608.0-r0	rsyslog
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libczmq.so.4	czmq

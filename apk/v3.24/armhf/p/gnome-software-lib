@@ -1,0 +1,25 @@
+name	gnome-software-lib
+version	50.3-r0
+description	Software lets you install and update applications and system extensions (shared library)
+url	https://apps.gnome.org/Software
+license	GPL-2.0-or-later
+size	200860
+installed-size	513716
+depends	so:libappstream.so.5 so:libc.musl-armhf.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libpolkit-gobject-1.so.0 so:libsoup-3.0.so.0 so:libxmlb.so.2
+origin	gnome-software
+repo	community
+file	gnome-software-lib-50.3-r0.apk
+checksum	Q1aIPGqgHW32Nd66CmlDZadzX/Jfo=
+dep	so:libappstream.so.5	appstream
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libpolkit-gobject-1.so.0	polkit-noelogind-libs
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libxmlb.so.2	libxmlb

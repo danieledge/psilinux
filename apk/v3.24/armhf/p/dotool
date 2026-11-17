@@ -1,0 +1,15 @@
+name	dotool
+version	1.5-r20
+description	Command to simulate input anywhere (X11, Wayland, TTYs)
+url	https://sr.ht/~geb/dotool
+license	GPL-3.0-only
+size	867727
+installed-size	2048432
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libxkbcommon.so.0
+origin	dotool
+repo	community
+file	dotool-1.5-r20.apk
+checksum	Q15yM2vao3l3vskaNav3utmAC98Es=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxkbcommon.so.0	libxkbcommon

@@ -1,0 +1,13 @@
+name	aml
+version	1.0.0-r0
+description	Andri's Main Loop
+url	https://github.com/any1/aml
+license	ISC
+size	9641
+installed-size	21744
+depends	so:libc.musl-armhf.so.1
+origin	aml
+repo	community
+file	aml-1.0.0-r0.apk
+checksum	Q1z2mcxCwF540vkkHJ91DDMbhAPGI=
+dep	so:libc.musl-armhf.so.1	musl

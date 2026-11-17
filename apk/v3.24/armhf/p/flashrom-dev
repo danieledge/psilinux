@@ -1,0 +1,17 @@
+name	flashrom-dev
+version	1.6.0-r0
+description	A utility for identifying, reading, writing, verifying and erasing flash chips (development files)
+url	https://www.flashrom.org/Flashrom
+license	GPL-2.0-or-later
+size	233834
+installed-size	1011640
+depends	flashrom-libs=1.6.0-r0 pc:libftdi1 pc:libpci>=2.2.0 pc:libusb-1.0 pkgconfig
+origin	flashrom
+repo	community
+file	flashrom-dev-1.6.0-r0.apk
+checksum	Q1xuGsICRftTjHt1DVswi6aniQfVo=
+dep	flashrom-libs=1.6.0-r0	flashrom-libs
+dep	pc:libftdi1	libftdi1-dev
+dep	pc:libpci>=2.2.0	pciutils-dev
+dep	pc:libusb-1.0	libusb-dev
+dep	pkgconfig	pkgconf

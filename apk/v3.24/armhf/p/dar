@@ -1,0 +1,17 @@
+name	dar
+version	2.8.5-r0
+description	Disk ARchive
+url	http://dar.linux.free.fr/
+license	GPL-2.0-or-later
+size	981496
+installed-size	2644255
+depends	so:libc.musl-armhf.so.1 so:libdar64.so.7000 so:libgcc_s.so.1 so:libintl.so.8 so:libstdc++.so.6
+origin	dar
+repo	community
+file	dar-2.8.5-r0.apk
+checksum	Q1iUS+rAPZ8lgIYnffy2XGCBL2b1E=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdar64.so.7000	dar-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libintl.so.8	libintl
+dep	so:libstdc++.so.6	libstdc++

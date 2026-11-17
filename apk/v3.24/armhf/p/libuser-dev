@@ -1,0 +1,17 @@
+name	libuser-dev
+version	0.64-r2
+description	Standardized interface for manipulating and administering user and group accounts (development files)
+url	https://pagure.io/libuser
+license	LGPL-2.0-or-later
+size	11547
+installed-size	41302
+depends	libuser=0.64-r2 pc:glib-2.0 pc:gmodule-no-export-2.0 pc:gobject-2.0 pkgconfig
+origin	libuser
+repo	community
+file	libuser-dev-0.64-r2.apk
+checksum	Q13eKOEhStDcNgbCrTAn6Rmjj2FxE=
+dep	libuser=0.64-r2	libuser
+dep	pc:glib-2.0	glib-dev
+dep	pc:gmodule-no-export-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pkgconfig	pkgconf

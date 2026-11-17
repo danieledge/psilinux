@@ -1,0 +1,14 @@
+name	py3-pyproject-api
+version	1.10.0-r1
+description	Python API to interact with the python pyproject.toml based projects
+url	https://github.com/tox-dev/pyproject-api
+license	MIT
+size	12743
+installed-size	39160
+depends	py3-packaging python3~3.14
+origin	py3-pyproject-api
+repo	community
+file	py3-pyproject-api-1.10.0-r1.apk
+checksum	Q1YgBwXTh9TqBJr07sKXyq1uk5eKE=
+dep	py3-packaging	py3-packaging
+dep	python3~3.14	python3

@@ -1,0 +1,17 @@
+name	spvm-thread
+version	0.005-r0
+description	SPVM Language - Native Thread
+url	https://metacpan.org/release/SPVM-Thread/
+license	MIT
+size	10857
+installed-size	35841
+depends	perl spvm so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	spvm-thread
+repo	community
+file	spvm-thread-0.005-r0.apk
+checksum	Q1uISsBUrydxi6Nj2nuHg/kpL+T08=
+dep	perl	perl
+dep	spvm	spvm
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

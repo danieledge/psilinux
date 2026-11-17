@@ -1,0 +1,14 @@
+name	s6-libs
+version	2.15.0.0-r0
+description	skarnet.org's small & secure supervision software suite. (libraries)
+url	https://skarnet.org/software/s6/
+license	ISC
+size	25324
+installed-size	59848
+depends	so:libc.musl-armhf.so.1 so:libskarnet.so.2.15
+origin	s6
+repo	main
+file	s6-libs-2.15.0.0-r0.apk
+checksum	Q1YEWFLnS3duT3OGxp+Yo5UzKKDcQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libskarnet.so.2.15	skalibs-libs

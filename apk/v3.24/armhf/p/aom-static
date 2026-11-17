@@ -1,0 +1,13 @@
+name	aom-static
+version	3.14.1-r0
+description	Alliance for Open Media (AOM) AV1 codec SDK (static library)
+url	https://aomedia.org/
+license	BSD-2-Clause AND custom
+size	1938212
+installed-size	4450986
+depends	aom-dev
+origin	aom
+repo	main
+file	aom-static-3.14.1-r0.apk
+checksum	Q1s/qj6fmR9oNBl0sKxIlzQl/fCL0=
+dep	aom-dev	aom-dev

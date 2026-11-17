@@ -1,0 +1,17 @@
+name	raku-json-class
+version	0.0.21-r3
+description	Construct and serialize Objects to/from JSON
+url	https://github.com/jonathanstowe/JSON-Class
+license	Artistic-2.0
+size	49329
+installed-size	149935
+depends	rakudo raku-json-marshal raku-json-name raku-json-optin raku-json-unmarshal
+origin	raku-json-class
+repo	community
+file	raku-json-class-0.0.21-r3.apk
+checksum	Q18E+44kiLbg9NfU8ROo2BQKckp3A=
+dep	rakudo	rakudo
+dep	raku-json-marshal	raku-json-marshal
+dep	raku-json-name	raku-json-name
+dep	raku-json-optin	raku-json-optin
+dep	raku-json-unmarshal	raku-json-unmarshal

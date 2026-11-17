@@ -1,0 +1,27 @@
+name	dnsdist
+version	2.0.8-r0
+description	dnsdist is a highly DNS-, DoS-, and abuse-aware loadbalancer.
+url	https://dnsdist.org/
+license	GPL-2.0-only WITH OpenSSL-Exception
+size	3157976
+installed-size	8638164
+depends	dnsdist-common so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libedit.so.0 so:libfstrm.so.0 so:libgcc_s.so.1 so:liblmdb.so.0 so:liblua-5.4.so.0 so:libnetsnmp.so.45 so:libnetsnmpagent.so.45 so:libnghttp2.so.14 so:libre2.so.11 so:libsodium.so.26 so:libssl.so.3 so:libstdc++.so.6
+origin	dnsdist
+repo	community
+file	dnsdist-2.0.8-r0.apk
+checksum	Q1LOD/61eYWmP773pjpewMdZTPWng=
+dep	dnsdist-common	dnsdist-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libedit.so.0	libedit
+dep	so:libfstrm.so.0	fstrm
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblmdb.so.0	lmdb
+dep	so:liblua-5.4.so.0	lua5.4-libs
+dep	so:libnetsnmp.so.45	net-snmp-libs
+dep	so:libnetsnmpagent.so.45	net-snmp-agent-libs
+dep	so:libnghttp2.so.14	nghttp2-libs
+dep	so:libre2.so.11	re2
+dep	so:libsodium.so.26	libsodium
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++

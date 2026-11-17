@@ -1,0 +1,15 @@
+name	kamailio-ev
+version	6.0.6-r0
+description	Kamailio Network event broadcast API
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	59301
+installed-size	129048
+depends	kamailio so:libc.musl-armhf.so.1 so:libev.so.4
+origin	kamailio
+repo	main
+file	kamailio-ev-6.0.6-r0.apk
+checksum	Q1hQEjQT+BZAxVRV4aPsowL2INPU8=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libev.so.4	libev

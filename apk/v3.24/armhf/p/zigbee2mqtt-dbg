@@ -1,0 +1,13 @@
+name	zigbee2mqtt-dbg
+version	2.11.0-r0
+description	Zigbee to MQTT bridge (.map files for debugging)
+url	https://www.zigbee2mqtt.io/
+license	GPL-3.0-only AND MIT AND ISC AND BSD-3-Clause AND BlueOak-1.0.0 AND Python-2.0
+size	2394926
+installed-size	15324666
+depends	zigbee2mqtt=2.11.0-r0
+origin	zigbee2mqtt
+repo	community
+file	zigbee2mqtt-dbg-2.11.0-r0.apk
+checksum	Q1vWaCzgIajom/5e3WSMqk5ruXFi8=
+dep	zigbee2mqtt=2.11.0-r0	zigbee2mqtt

@@ -1,0 +1,14 @@
+name	font-noto-tamil
+version	2026.11.01-r0
+description	Noto Sans Tamil (UI) and Serif Tamil fonts
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	5667424
+installed-size	11057073
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-tamil-2026.11.01-r0.apk
+checksum	Q1mWOK8TICj4oRNP7cYr2RWaYMaBw=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

@@ -1,0 +1,20 @@
+name	fcitx5-anthy
+version	5.1.10-r0
+description	anthy input method support for fcitx5
+url	https://github.com/fcitx/fcitx5-anthy
+license	GPL-3.0-or-later
+size	144687
+installed-size	371411
+depends	so:libFcitx5Config.so.6 so:libFcitx5Core.so.7 so:libFcitx5Utils.so.2 so:libanthy.so.0 so:libanthydic.so.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	fcitx5-anthy
+repo	community
+file	fcitx5-anthy-5.1.10-r0.apk
+checksum	Q1SUJdgt9OMivVsqH72Xdjn24rIB0=
+dep	so:libFcitx5Config.so.6	fcitx5
+dep	so:libFcitx5Core.so.7	fcitx5
+dep	so:libFcitx5Utils.so.2	fcitx5
+dep	so:libanthy.so.0	anthy
+dep	so:libanthydic.so.0	anthy
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

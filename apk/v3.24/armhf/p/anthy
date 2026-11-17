@@ -1,0 +1,13 @@
+name	anthy
+version	9100h-r4
+description	Hiragana text to Kana Kanji mixed text Japanese input method
+url	https://sourceforge.jp/projects/anthy/
+license	LGPL-2.1-or-later
+size	7162580
+installed-size	24514835
+depends	so:libc.musl-armhf.so.1
+origin	anthy
+repo	community
+file	anthy-9100h-r4.apk
+checksum	Q1ekIoLiej4bsJnWRLG1qFT7LRre0=
+dep	so:libc.musl-armhf.so.1	musl

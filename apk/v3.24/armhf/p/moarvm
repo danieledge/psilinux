@@ -1,0 +1,17 @@
+name	moarvm
+version	2025.11-r0
+description	VM with adaptive optimization and JIT compilation, built for Rakudo
+url	https://moarvm.org/
+license	Artistic-2.0
+size	1764017
+installed-size	6570705
+depends	so:libc.musl-armhf.so.1 so:libffi.so.8 so:libmimalloc-secure.so.2 so:libuv.so.1 so:libzstd.so.1
+origin	moarvm
+repo	community
+file	moarvm-2025.11-r0.apk
+checksum	Q1NeVZZercrJyAihRM+llKlzZSuUo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libffi.so.8	libffi
+dep	so:libmimalloc-secure.so.2	mimalloc2
+dep	so:libuv.so.1	libuv
+dep	so:libzstd.so.1	zstd-libs

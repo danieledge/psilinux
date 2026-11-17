@@ -1,0 +1,15 @@
+name	process-cpp-dev
+version	3.1.0-r1
+description	A simple convenience library for handling processes in C++11 (development files)
+url	https://gitlab.com/ubports/core/lib-cpp/process-cpp
+license	LGPL-3.0-only
+size	12682
+installed-size	47242
+depends	properties-cpp-dev process-cpp=3.1.0-r1 pkgconfig
+origin	process-cpp
+repo	community
+file	process-cpp-dev-3.1.0-r1.apk
+checksum	Q1yFcb5WZ9Nq9FKxPs+ZOSFnBHnZ4=
+dep	properties-cpp-dev	properties-cpp-dev
+dep	process-cpp=3.1.0-r1	process-cpp
+dep	pkgconfig	pkgconf

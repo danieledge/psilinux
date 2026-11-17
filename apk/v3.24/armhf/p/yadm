@@ -1,0 +1,15 @@
+name	yadm
+version	3.5.0-r0
+description	Yet Another Dotfiles Manager
+url	https://github.com/TheLocehiliosan/yadm
+license	GPL-3.0-only
+size	18455
+installed-size	59305
+depends	bash git gawk
+origin	yadm
+repo	community
+file	yadm-3.5.0-r0.apk
+checksum	Q1+JpnvbcLLdoI8gMl5hbAzKqYaPs=
+dep	bash	bash
+dep	git	git
+dep	gawk	gawk

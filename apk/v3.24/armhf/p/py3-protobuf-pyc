@@ -1,0 +1,13 @@
+name	py3-protobuf-pyc
+version	6.33.5-r1
+description	Precompiled Python bytecode for py3-protobuf
+url	https://github.com/protocolbuffers/protobuf
+license	BSD-3-Clause
+size	280579
+installed-size	1022067
+depends	python3~3.14
+origin	py3-protobuf
+repo	community
+file	py3-protobuf-pyc-6.33.5-r1.apk
+checksum	Q1T2BZQMIaRLHjoikvMqrNKw1Nhco=
+dep	python3~3.14	python3

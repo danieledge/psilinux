@@ -1,0 +1,12 @@
+name	qt6-qtmultimedia-dbg
+version	6.11.1-r0
+description	Classes for audio, video, radio and camera functionality (debug symbols)
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	58004109
+installed-size	139374448
+depends	!qt6-qtmultimedia-ffmpeg<6.11.1-r0 !qt6-qtmultimedia-ffmpeg>6.11.1-r0 !qt6-qtmultimedia-gstreamer<6.11.1-r0 !qt6-qtmultimedia-gstreamer>6.11.1-r0 !qt6-qtmultimedia<6.11.1-r0 !qt6-qtmultimedia>6.11.1-r0
+origin	qt6-qtmultimedia
+repo	community
+file	qt6-qtmultimedia-dbg-6.11.1-r0.apk
+checksum	Q1u3G4LBiO1U/X0/5/s4v6gnFtdgs=

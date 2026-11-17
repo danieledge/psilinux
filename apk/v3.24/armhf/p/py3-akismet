@@ -1,0 +1,14 @@
+name	py3-akismet
+version	24.11.0-r1
+description	A Python interface to the Akismet spam-filtering service
+url	https://akismet.readthedocs.io/
+license	BSD-3-Clause
+size	22003
+installed-size	86966
+depends	py3-httpx python3~3.14
+origin	py3-akismet
+repo	community
+file	py3-akismet-24.11.0-r1.apk
+checksum	Q145MGSgt6IpVHngcvs9rqgGQnmbU=
+dep	py3-httpx	py3-httpx
+dep	python3~3.14	python3

@@ -1,0 +1,18 @@
+name	libglycin-dev
+version	2.1.5-r0
+description	Sandboxed and extendable image decoding (development files)
+url	https://gitlab.gnome.org/GNOME/glycin
+license	MPL-2.0 OR LGPL-2.0-or-later
+size	23404
+installed-size	140716
+depends	libglycin=2.1.5-r0 pc:fontconfig>=2.13.0 pc:gio-2.0>=2.60 pc:lcms2>=2.14 pc:libseccomp>=2.5.0 pkgconfig
+origin	libglycin
+repo	community
+file	libglycin-dev-2.1.5-r0.apk
+checksum	Q1bHF9I+JL+i/h7BFcaXIxlFbin4I=
+dep	libglycin=2.1.5-r0	libglycin
+dep	pc:fontconfig>=2.13.0	fontconfig-dev
+dep	pc:gio-2.0>=2.60	glib-dev
+dep	pc:lcms2>=2.14	lcms2-dev
+dep	pc:libseccomp>=2.5.0	libseccomp-dev
+dep	pkgconfig	pkgconf

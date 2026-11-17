@@ -1,0 +1,15 @@
+name	electrs
+version	0.11.0-r2
+description	Efficient re-implementation of Electrum Server in Rust
+url	https://github.com/romanz/electrs
+license	MIT
+size	1186855
+installed-size	2339756
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:librocksdb.so.11.0
+origin	electrs
+repo	community
+file	electrs-0.11.0-r2.apk
+checksum	Q1Sac4YaCfUgfq8XDVQk+YdWrxWhk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:librocksdb.so.11.0	rocksdb

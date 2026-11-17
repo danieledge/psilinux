@@ -1,0 +1,15 @@
+name	s6-linux-init-dev
+version	1.2.0.1-r0
+description	Set of tools to create and run an s6-based init system (development files)
+url	https://skarnet.org/software/s6-linux-init/
+license	ISC
+size	2457
+installed-size	1235
+depends	s6-linux-init-libs=1.2.0.1-r0 pc:libskarnet>=2.15.0.0 pkgconfig
+origin	s6-linux-init
+repo	main
+file	s6-linux-init-dev-1.2.0.1-r0.apk
+checksum	Q1JRBaNCJIFOuTm2GmK9V+PaWTXkU=
+dep	s6-linux-init-libs=1.2.0.1-r0	s6-linux-init-libs
+dep	pc:libskarnet>=2.15.0.0	skalibs-dev
+dep	pkgconfig	pkgconf

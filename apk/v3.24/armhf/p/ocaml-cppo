@@ -1,0 +1,13 @@
+name	ocaml-cppo
+version	1.6.9-r7
+description	C-style preprocessor for OCaml
+url	https://github.com/ocaml-community/cppo
+license	BSD-3-Clause
+size	471714
+installed-size	1055280
+depends	so:libc.musl-armhf.so.1
+origin	ocaml-cppo
+repo	community
+file	ocaml-cppo-1.6.9-r7.apk
+checksum	Q1OX4yStX03Xv01Jw0tU6S86KgrLo=
+dep	so:libc.musl-armhf.so.1	musl

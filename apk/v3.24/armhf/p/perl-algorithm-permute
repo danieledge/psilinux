@@ -1,0 +1,14 @@
+name	perl-algorithm-permute
+version	0.17-r2
+description	Handy and fast permutation with object oriented interface
+url	https://metacpan.org/release/Algorithm-Permute/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	11633
+installed-size	23666
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-algorithm-permute
+repo	community
+file	perl-algorithm-permute-0.17-r2.apk
+checksum	Q1ShdeN2+GNFm3Ly1bWo9t1nf2H/k=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

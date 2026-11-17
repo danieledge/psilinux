@@ -1,0 +1,27 @@
+name	zabbix-webif
+version	7.4.12-r2
+description	Zabbix web-interface
+url	https://www.zabbix.com/
+license	AGPL-3.0-only
+size	19314463
+installed-size	86999976
+depends	php83 php83-bcmath php83-ctype php83-curl php83-fileinfo php83-gd php83-gettext php83-iconv php83-mbstring php83-openssl php83-session php83-simplexml php83-sockets php83-xmlreader php83-xmlwriter
+origin	zabbix
+repo	community
+file	zabbix-webif-7.4.12-r2.apk
+checksum	Q1PGSc+mU1+wv4F0mzL31vK6fiyEI=
+dep	php83	php83
+dep	php83-bcmath	php83-bcmath
+dep	php83-ctype	php83-ctype
+dep	php83-curl	php83-curl
+dep	php83-fileinfo	php83-fileinfo
+dep	php83-gd	php83-gd
+dep	php83-gettext	php83-gettext
+dep	php83-iconv	php83-iconv
+dep	php83-mbstring	php83-mbstring
+dep	php83-openssl	php83-openssl
+dep	php83-session	php83-session
+dep	php83-simplexml	php83-simplexml
+dep	php83-sockets	php83-sockets
+dep	php83-xmlreader	php83-xmlreader
+dep	php83-xmlwriter	php83-xmlwriter

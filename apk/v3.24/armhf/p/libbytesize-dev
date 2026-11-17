@@ -1,0 +1,14 @@
+name	libbytesize-dev
+version	2.12-r1
+description	Library for working with arbitrary big sizes in bytes (development files)
+url	https://github.com/storaged-project/libbytesize
+license	LGPL-2.1-or-later
+size	3285
+installed-size	4407
+depends	libbytesize=2.12-r1 pkgconfig
+origin	libbytesize
+repo	community
+file	libbytesize-dev-2.12-r1.apk
+checksum	Q1vPNMla1hp77jaMVmoYXAx8crTn8=
+dep	libbytesize=2.12-r1	libbytesize
+dep	pkgconfig	pkgconf

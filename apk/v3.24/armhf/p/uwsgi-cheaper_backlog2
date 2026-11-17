@@ -1,0 +1,13 @@
+name	uwsgi-cheaper_backlog2
+version	2.0.31-r2
+description	uWSGI plugin cheaper_backlog2
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	3201
+installed-size	5444
+depends	uwsgi
+origin	uwsgi
+repo	main
+file	uwsgi-cheaper_backlog2-2.0.31-r2.apk
+checksum	Q1zEUFla5dfslNi6OG5xS4LsHwNz8=
+dep	uwsgi	uwsgi

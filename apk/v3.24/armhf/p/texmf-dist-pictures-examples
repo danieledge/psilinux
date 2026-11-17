@@ -1,0 +1,14 @@
+name	texmf-dist-pictures-examples
+version	2026.0-r0
+description	texmf-dist: Graphics, pictures, diagrams (examples and documentation)
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	327656372
+installed-size	429003297
+depends	texmf-dist-pictures texmf-dist-pictures-doc
+origin	texmf-dist
+repo	community
+file	texmf-dist-pictures-examples-2026.0-r0.apk
+checksum	Q1IgeNWRf6XphA76EutK3UHLCGeDM=
+dep	texmf-dist-pictures	texmf-dist-pictures
+dep	texmf-dist-pictures-doc	texmf-dist-pictures-doc

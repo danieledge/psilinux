@@ -1,0 +1,17 @@
+name	splix
+version	2.0.1-r0
+description	SPL driver for CUPS
+url	https://openprinting.github.io/splix/
+license	GPL-2.0-only
+size	219054
+installed-size	3054086
+depends	cups so:libc.musl-armhf.so.1 so:libcups.so.2 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	splix
+repo	community
+file	splix-2.0.1-r0.apk
+checksum	Q1T7B7lXVq6e65TPMRjpSAmBnUBNo=
+dep	cups	cups
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcups.so.2	cups-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

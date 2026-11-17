@@ -1,0 +1,13 @@
+name	dircproxy
+version	1.2.0_rc-r5
+description	IRC proxy server designed for people who use IRC from lots of different workstations or clients
+url	https://github.com/w8tvi/dircproxy
+license	GPL-2.0-or-later
+size	69169
+installed-size	165609
+depends	so:libc.musl-armhf.so.1
+origin	dircproxy
+repo	community
+file	dircproxy-1.2.0_rc-r5.apk
+checksum	Q1gKEFdvmp77XknBYo1V84oxbtoF8=
+dep	so:libc.musl-armhf.so.1	musl

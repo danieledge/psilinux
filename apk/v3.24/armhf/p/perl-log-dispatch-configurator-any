@@ -1,0 +1,19 @@
+name	perl-log-dispatch-configurator-any
+version	1.122640-r4
+description	Configurator implementation with Config::Any
+url	https://metacpan.org/release/Log-Dispatch-Configurator-Any/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	4516
+installed-size	5970
+depends	perl perl-log-dispatch perl-config-any perl-log-dispatch-config perl-test-pod-coverage perl-config-tiny perl-module-pluggable
+origin	perl-log-dispatch-configurator-any
+repo	community
+file	perl-log-dispatch-configurator-any-1.122640-r4.apk
+checksum	Q1aP6EpLUd3FIzr/Rz3TqROtZcAmI=
+dep	perl	perl
+dep	perl-log-dispatch	perl-log-dispatch
+dep	perl-config-any	perl-config-any
+dep	perl-log-dispatch-config	perl-log-dispatch-config
+dep	perl-test-pod-coverage	perl-test-pod-coverage
+dep	perl-config-tiny	perl-config-tiny
+dep	perl-module-pluggable	perl-module-pluggable

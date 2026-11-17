@@ -1,0 +1,18 @@
+name	qt6-qtscxml-dev
+version	6.11.1-r0
+description	Static and runtime integration of SCXML models into Qt6 code (development files)
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	78083
+installed-size	327535
+depends	qt6-qtbase-dev qt6-qtbase-private-dev qt6-qtscxml=6.11.1-r0 pc:Qt6Core pc:Qt6Gui pkgconfig
+origin	qt6-qtscxml
+repo	community
+file	qt6-qtscxml-dev-6.11.1-r0.apk
+checksum	Q1y5lGTYpCD2LMbalQA2h2jtFepXw=
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	qt6-qtbase-private-dev	qt6-qtbase-private-dev
+dep	qt6-qtscxml=6.11.1-r0	qt6-qtscxml
+dep	pc:Qt6Core	qt6-qtbase-dev
+dep	pc:Qt6Gui	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

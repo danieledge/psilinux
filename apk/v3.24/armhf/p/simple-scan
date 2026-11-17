@@ -1,0 +1,27 @@
+name	simple-scan
+version	50.0-r0
+description	Simple Scan allows you to get images from a scanner
+url	https://gitlab.gnome.org/GNOME/simple-scan
+license	GPL-3.0-or-later
+size	169456
+installed-size	531833
+depends	so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcolord.so.2 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libgusb.so.2 so:libintl.so.8 so:libsane.so.1 so:libwebp.so.7 so:libwebpmux.so.3 so:libz.so.1
+origin	simple-scan
+repo	community
+file	simple-scan-50.0-r0.apk
+checksum	Q1L3cXW9S66LmqkZ+9ehKGkz8YuBg=
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcolord.so.2	libcolord
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libgusb.so.2	libgusb
+dep	so:libintl.so.8	libintl
+dep	so:libsane.so.1	sane
+dep	so:libwebp.so.7	libwebp
+dep	so:libwebpmux.so.3	libwebpmux
+dep	so:libz.so.1	zlib

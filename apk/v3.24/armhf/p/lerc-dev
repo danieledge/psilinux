@@ -1,0 +1,14 @@
+name	lerc-dev
+version	4.1.0-r0
+description	Limited Error Raster Compression (development files)
+url	https://github.com/esri/lerc
+license	Apache-2.0
+size	7204
+installed-size	23741
+depends	lerc=4.1.0-r0 pkgconfig
+origin	lerc
+repo	community
+file	lerc-dev-4.1.0-r0.apk
+checksum	Q1IotzgVQgwIpHB/hNy8ZeatBl9Fc=
+dep	lerc=4.1.0-r0	lerc
+dep	pkgconfig	pkgconf

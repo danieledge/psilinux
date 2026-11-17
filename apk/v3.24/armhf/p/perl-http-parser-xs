@@ -1,0 +1,14 @@
+name	perl-http-parser-xs
+version	0.17-r10
+description	Fast, primitive HTTP request parser
+url	https://metacpan.org/release/HTTP-Parser-XS/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	13900
+installed-size	30264
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-http-parser-xs
+repo	community
+file	perl-http-parser-xs-0.17-r10.apk
+checksum	Q1zq8GQ5S8BnZy0lw0T/WpPJvPdM4=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

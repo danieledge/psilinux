@@ -1,0 +1,28 @@
+name	gtksourceview5
+version	5.20.0-r0
+description	A text widget adding syntax highlighting and more to GNOME
+url	https://gitlab.gnome.org/GNOME/gtksourceview/-/tree/gtksourceview-5-16
+license	GPL-2.0-or-later
+size	699490
+installed-size	2982941
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libfontconfig.so.1 so:libfribidi.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpangoft2-1.0.so.0 so:libpcre2-8.so.0 so:libxml2.so.2
+origin	gtksourceview5
+repo	community
+file	gtksourceview5-5.20.0-r0.apk
+checksum	Q1aAV1Ts7oY5uW8u5im8RSkK+3+Wg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfribidi.so.0	fribidi
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpangoft2-1.0.so.0	pango
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libxml2.so.2	libxml2

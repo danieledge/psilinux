@@ -1,0 +1,24 @@
+name	xeyes
+version	1.3.1-r0
+description	Pair of eyes that follow your mouse in X11
+url	https://www.x.org
+license	MIT
+size	10658
+installed-size	22924
+depends	so:libX11-xcb.so.1 so:libX11.so.6 so:libXext.so.6 so:libXi.so.6 so:libXmu.so.6 so:libXrender.so.1 so:libXt.so.6 so:libc.musl-armhf.so.1 so:libxcb-damage.so.0 so:libxcb-present.so.0 so:libxcb-xfixes.so.0 so:libxcb.so.1
+origin	xeyes
+repo	community
+file	xeyes-1.3.1-r0.apk
+checksum	Q1/kId6T7WIG6MuYQPK883fEbEPrk=
+dep	so:libX11-xcb.so.1	libx11
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXi.so.6	libxi
+dep	so:libXmu.so.6	libxmu
+dep	so:libXrender.so.1	libxrender
+dep	so:libXt.so.6	libxt
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxcb-damage.so.0	libxcb
+dep	so:libxcb-present.so.0	libxcb
+dep	so:libxcb-xfixes.so.0	libxcb
+dep	so:libxcb.so.1	libxcb

@@ -1,0 +1,16 @@
+name	cddlib-tools
+version	0.94m-r2
+description	Library implementing Double Description Method for convex polyhedra (utilities)
+url	https://people.inf.ethz.ch/fukudak/cdd_home
+license	GPL-2.0-or-later
+size	34533
+installed-size	246480
+depends	so:libc.musl-armhf.so.1 so:libcdd.so.0 so:libcddgmp.so.0 so:libgmp.so.10
+origin	cddlib
+repo	community
+file	cddlib-tools-0.94m-r2.apk
+checksum	Q1XPm3uR9XMamtOTYbfRVQKnrpeY0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcdd.so.0	cddlib
+dep	so:libcddgmp.so.0	cddlib
+dep	so:libgmp.so.10	gmp

@@ -1,0 +1,14 @@
+name	benchmark-dev
+version	1.9.5-r0
+description	microbenchmark support library (development files)
+url	https://github.com/google/benchmark
+license	Apache-2.0
+size	25100
+installed-size	90347
+depends	benchmark=1.9.5-r0 pkgconfig
+origin	benchmark
+repo	community
+file	benchmark-dev-1.9.5-r0.apk
+checksum	Q1Kb28DCf22bW5+LKfE/NXKp0HJfg=
+dep	benchmark=1.9.5-r0	benchmark
+dep	pkgconfig	pkgconf

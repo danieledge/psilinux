@@ -1,0 +1,16 @@
+name	py3-flask-wtf
+version	1.2.2-r1
+description	Flask WTForms extension
+url	https://pypi.org/project/Flask-WTF
+license	BSD-3-Clause
+size	11836
+installed-size	31220
+depends	python3 py3-flask py3-wtforms python3~3.14
+origin	py3-flask-wtf
+repo	community
+file	py3-flask-wtf-1.2.2-r1.apk
+checksum	Q1oFqy3iLNoGXhqST/tspec55wzO8=
+dep	python3	python3
+dep	py3-flask	py3-flask
+dep	py3-wtforms	py3-wtforms
+dep	python3~3.14	python3

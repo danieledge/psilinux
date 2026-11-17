@@ -1,0 +1,19 @@
+name	links
+version	2.30-r1
+description	Web browser running in both graphics and text mode
+url	http://links.twibright.com/
+license	GPL-2.0-or-later WITH OpenSSL-Exception
+size	656534
+installed-size	1537088
+depends	so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libevent-2.1.so.7 so:libssl.so.3 so:libz.so.1 so:libzstd.so.1
+origin	links
+repo	main
+file	links-2.30-r1.apk
+checksum	Q1GnZcI386/pymIoCq9zmGsoUMBiQ=
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libevent-2.1.so.7	libevent
+dep	so:libssl.so.3	libssl3
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

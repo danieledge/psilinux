@@ -1,0 +1,17 @@
+name	perl-http-thin
+version	0.006-r1
+description	Thin Wrapper around HTTP::Tiny to play nice with HTTP::Message
+url	https://metacpan.org/release/HTTP-Thin/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	3089
+installed-size	2884
+depends	perl perl-class-method-modifiers perl-hash-multivalue perl-http-message perl-safe-isa
+origin	perl-http-thin
+repo	community
+file	perl-http-thin-0.006-r1.apk
+checksum	Q1qFZP6Vvbe1RrVUXQrQJc6IVYCPQ=
+dep	perl	perl
+dep	perl-class-method-modifiers	perl-class-method-modifiers
+dep	perl-hash-multivalue	perl-hash-multivalue
+dep	perl-http-message	perl-http-message
+dep	perl-safe-isa	perl-safe-isa

@@ -1,0 +1,14 @@
+name	convfmt
+version	2.1.0-r0
+description	CLI tool which can convert between JSON, YAML, TOML etc.
+url	https://github.com/oriontvv/convfmt
+license	Apache-2.0
+size	1284925
+installed-size	2724268
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	convfmt
+repo	community
+file	convfmt-2.1.0-r0.apk
+checksum	Q14FbSrj6eBfGhHnsiP+UDMWLjva0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

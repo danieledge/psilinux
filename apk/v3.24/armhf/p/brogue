@@ -1,0 +1,15 @@
+name	brogue
+version	1.15.1-r0
+description	Classic roguelike with streamlined game mechanics and tasteful visual design (community edition)
+url	https://sites.google.com/site/broguegame/
+license	AGPL-3.0-or-later
+size	900883
+installed-size	1996499
+depends	so:libSDL2-2.0.so.0 so:libSDL2_image-2.0.so.0 so:libc.musl-armhf.so.1
+origin	brogue
+repo	community
+file	brogue-1.15.1-r0.apk
+checksum	Q1lpRFBRtRmtrxQAOSV0StpdBHoGM=
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libSDL2_image-2.0.so.0	sdl2_image
+dep	so:libc.musl-armhf.so.1	musl

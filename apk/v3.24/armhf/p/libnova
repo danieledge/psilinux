@@ -1,0 +1,13 @@
+name	libnova
+version	0.15.0-r0
+description	general purpose, double precision, celestial mechanics, astrometry and astrodynamics library
+url	https://sourceforge.net/projects/libnova/
+license	GPL-2.0-only
+size	1180305
+installed-size	3672432
+depends	so:libc.musl-armhf.so.1
+origin	libnova
+repo	community
+file	libnova-0.15.0-r0.apk
+checksum	Q1Sp33ZDqIpv0v/pi/Gfu84mDWlYg=
+dep	so:libc.musl-armhf.so.1	musl

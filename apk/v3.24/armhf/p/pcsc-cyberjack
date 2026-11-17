@@ -1,0 +1,17 @@
+name	pcsc-cyberjack
+version	3.99.5_p17-r0
+description	PCSC driver for Reiner SCT cyberjack card reader
+url	https://help.reiner-sct.com/en/support/solutions/articles/101000480008
+license	GPL-2.0-only
+size	141949
+installed-size	375231
+depends	pcsc-lite so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libusb-1.0.so.0
+origin	pcsc-cyberjack
+repo	community
+file	pcsc-cyberjack-3.99.5_p17-r0.apk
+checksum	Q15WNbjXmipkMV20NC8ccLfoi/bkU=
+dep	pcsc-lite	pcsc-lite
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libusb-1.0.so.0	libusb

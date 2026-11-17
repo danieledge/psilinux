@@ -1,0 +1,15 @@
+name	libtracefs-dev
+version	1.8.3-r0
+description	Linux kernel trace file system library (development files)
+url	https://git.kernel.org/pub/scm/libs/libtrace/libtracefs.git/about/
+license	LGPL-2.1-or-later
+size	7208
+installed-size	28082
+depends	libtracefs=1.8.3-r0 pc:libtraceevent>=1.8.1 pkgconfig
+origin	libtracefs
+repo	community
+file	libtracefs-dev-1.8.3-r0.apk
+checksum	Q1LMfMLHwBCi/P+9krK7ePRxwwrJo=
+dep	libtracefs=1.8.3-r0	libtracefs
+dep	pc:libtraceevent>=1.8.1	libtraceevent-dev
+dep	pkgconfig	pkgconf

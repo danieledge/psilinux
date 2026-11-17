@@ -1,0 +1,13 @@
+name	aconf-mod-strongswan
+version	0.8.1-r4
+description	Alpine Configurator
+url	https://gitlab.alpinelinux.org/kunkku/aconf/
+license	BSD-2-Clause
+size	3375
+installed-size	4721
+depends	aconf=0.8.1-r4
+origin	aconf
+repo	main
+file	aconf-mod-strongswan-0.8.1-r4.apk
+checksum	Q1sUYQqmB7lFd9+geR34R01sImdNY=
+dep	aconf=0.8.1-r4	aconf

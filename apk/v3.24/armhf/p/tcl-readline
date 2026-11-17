@@ -1,0 +1,15 @@
+name	tcl-readline
+version	2.3.8-r0
+description	GNU readline for Tcl
+url	https://github.com/flightaware/tclreadline
+license	BSD-3-Clause
+size	49387
+installed-size	269804
+depends	so:libc.musl-armhf.so.1 so:libreadline.so.8 so:libtcl8.6.so
+origin	tcl-readline
+repo	community
+file	tcl-readline-2.3.8-r0.apk
+checksum	Q152IEqgaSmUuariVCqw66283y/wU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libreadline.so.8	readline
+dep	so:libtcl8.6.so	tcl

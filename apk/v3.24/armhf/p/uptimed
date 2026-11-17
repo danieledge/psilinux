@@ -1,0 +1,13 @@
+name	uptimed
+version	0.4.7-r0
+description	System uptime record daemon
+url	https://github.com/rpodgorny/uptimed
+license	GPL-2.0-only
+size	22312
+installed-size	50325
+depends	so:libc.musl-armhf.so.1
+origin	uptimed
+repo	community
+file	uptimed-0.4.7-r0.apk
+checksum	Q1HMQAbEKrayjSmCPOR+ABsyGPmZs=
+dep	so:libc.musl-armhf.so.1	musl

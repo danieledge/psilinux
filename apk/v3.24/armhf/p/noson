@@ -1,0 +1,20 @@
+name	noson
+version	2.12.8-r0
+description	An easy client interface to drive SONOS player
+url	https://github.com/janbar/noson
+license	GPL-3.0-only
+size	316783
+installed-size	755484
+depends	so:libFLAC++.so.10 so:libFLAC.so.12 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1
+origin	noson
+repo	community
+file	noson-2.12.8-r0.apk
+checksum	Q1Q83mzBSA34H88YMFdVB5OYdwOh8=
+dep	so:libFLAC++.so.10	libflac++
+dep	so:libFLAC.so.12	libflac
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

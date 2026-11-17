@@ -1,0 +1,31 @@
+name	spice-gtk
+version	0.42-r0
+description	GTK+ widget for SPICE clients
+url	https://www.spice-space.org/spice-gtk.html
+license	LGPL-2.1-or-later
+size	56316
+installed-size	265611
+depends	libcap-ng so:libX11.so.6 so:libacl.so.1 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libepoxy.so.0 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libgtk-3.so.0 so:libpolkit-gobject-1.so.0 so:libspice-client-glib-2.0.so.8 so:libva-x11.so.2 so:libwayland-client.so.0 so:libwayland-server.so.0
+origin	spice-gtk
+repo	community
+file	spice-gtk-0.42-r0.apk
+checksum	Q1Cf1ryLuhC75UXEqwPlDKJHicmVE=
+dep	libcap-ng	libcap-ng
+dep	so:libX11.so.6	libx11
+dep	so:libacl.so.1	acl-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libepoxy.so.0	libepoxy
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libpolkit-gobject-1.so.0	polkit-noelogind-libs
+dep	so:libspice-client-glib-2.0.so.8	spice-glib
+dep	so:libva-x11.so.2	libva
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-server.so.0	wayland-libs-server

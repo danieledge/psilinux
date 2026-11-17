@@ -1,0 +1,16 @@
+name	lastpass-cli
+version	1.6.2-r0
+description	LastPass command line interface tool
+url	https://lastpass.com/
+license	GPL-2.0-or-later
+size	63825
+installed-size	131280
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libxml2.so.2
+origin	lastpass-cli
+repo	community
+file	lastpass-cli-1.6.2-r0.apk
+checksum	Q15jKbEUvg7+hz9eaQpQZYDkDNaeg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libxml2.so.2	libxml2

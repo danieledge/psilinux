@@ -1,0 +1,14 @@
+name	font-noto-soyombo
+version	2026.11.01-r0
+description	Noto Sans Soyombo font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	31094
+installed-size	66586
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-soyombo-2026.11.01-r0.apk
+checksum	Q1I97AZGR0dC/LhA3tDGrBpnWeh3Q=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

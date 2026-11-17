@@ -1,0 +1,13 @@
+name	aws-c-auth-dev
+version	0.10.3-r0
+description	C99 library implementation of AWS client-side authentication: standard credentials providers and signing (development files)
+url	https://github.com/awslabs/aws-c-auth
+license	Apache-2.0
+size	23235
+installed-size	113089
+depends	aws-c-auth=0.10.3-r0
+origin	aws-c-auth
+repo	community
+file	aws-c-auth-dev-0.10.3-r0.apk
+checksum	Q12zWjiehBjEnzd6c+d6CrUAr86rA=
+dep	aws-c-auth=0.10.3-r0	aws-c-auth

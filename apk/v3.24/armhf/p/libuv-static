@@ -1,0 +1,13 @@
+name	libuv-static
+version	1.52.1-r0
+description	Cross-platform asychronous I/O (static library)
+url	https://libuv.org/
+license	MIT
+size	582661
+installed-size	1361810
+depends	libuv-dev
+origin	libuv
+repo	main
+file	libuv-static-1.52.1-r0.apk
+checksum	Q1Fa/RsrAntGiRFDTnyo5rPF6QlOc=
+dep	libuv-dev	libuv-dev

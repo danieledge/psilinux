@@ -1,0 +1,40 @@
+name	evolution-ews
+version	3.60.2-r0
+description	MS Exchange integration through Exchange Web Services
+url	https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
+license	LGPL-2.1-or-later
+size	718788
+installed-size	1905990
+depends	so:libc.musl-armhf.so.1 so:libcamel-1.2.so.67 so:libebackend-1.2.so.11 so:libebook-1.2.so.21 so:libebook-contacts-1.2.so.5 so:libecal-2.0.so.3 so:libedata-book-1.2.so.27 so:libedata-cal-2.0.so.2 so:libedataserver-1.2.so.27 so:libedataserverui-1.2.so.4 so:libemail-engine.so so:libevolution-calendar.so so:libevolution-mail-composer.so so:libevolution-mail-formatter.so so:libevolution-mail.so so:libevolution-shell.so so:libevolution-util.so so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libical-glib.so.3 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libmspack.so.0 so:libpango-1.0.so.0 so:libsoup-3.0.so.0 so:libxml2.so.2
+origin	evolution-ews
+repo	community
+file	evolution-ews-3.60.2-r0.apk
+checksum	Q1jfuCaCU4C+fEXx6kP+6fcpBPIDk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcamel-1.2.so.67	evolution-data-server
+dep	so:libebackend-1.2.so.11	evolution-data-server
+dep	so:libebook-1.2.so.21	evolution-data-server
+dep	so:libebook-contacts-1.2.so.5	evolution-data-server
+dep	so:libecal-2.0.so.3	evolution-data-server
+dep	so:libedata-book-1.2.so.27	evolution-data-server
+dep	so:libedata-cal-2.0.so.2	evolution-data-server
+dep	so:libedataserver-1.2.so.27	evolution-data-server
+dep	so:libedataserverui-1.2.so.4	evolution-data-server
+dep	so:libemail-engine.so	evolution
+dep	so:libevolution-calendar.so	evolution
+dep	so:libevolution-mail-composer.so	evolution
+dep	so:libevolution-mail-formatter.so	evolution
+dep	so:libevolution-mail.so	evolution
+dep	so:libevolution-shell.so	evolution
+dep	so:libevolution-util.so	evolution
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libical-glib.so.3	libical
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libmspack.so.0	libmspack
+dep	so:libpango-1.0.so.0	pango
+dep	so:libsoup-3.0.so.0	libsoup3
+dep	so:libxml2.so.2	libxml2

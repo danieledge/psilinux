@@ -1,0 +1,21 @@
+name	libuser
+version	0.64-r2
+description	Standardized interface for manipulating and administering user and group accounts
+url	https://pagure.io/libuser
+license	LGPL-2.0-or-later
+size	112477
+installed-size	324785
+depends	python3 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libpam.so.0 so:libpam_misc.so.0 so:libpopt.so.0
+origin	libuser
+repo	community
+file	libuser-0.64-r2.apk
+checksum	Q1Ex0eLQO+vMBvIXzjITJ5FDronsg=
+dep	python3	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libpam.so.0	linux-pam
+dep	so:libpam_misc.so.0	linux-pam
+dep	so:libpopt.so.0	popt

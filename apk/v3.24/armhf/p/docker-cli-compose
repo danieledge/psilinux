@@ -1,0 +1,14 @@
+name	docker-cli-compose
+version	5.6.1-r0
+description	Docker CLI plugin for extended build capabilities
+url	https://docs.docker.com/compose/cli-command
+license	Apache-2.0
+size	10505262
+installed-size	29433628
+depends	docker-cli so:libc.musl-armhf.so.1
+origin	docker-cli-compose
+repo	community
+file	docker-cli-compose-5.6.1-r0.apk
+checksum	Q1xQ5EpPLA7Dk2b+8F96M30K/q/TI=
+dep	docker-cli	docker-cli
+dep	so:libc.musl-armhf.so.1	musl

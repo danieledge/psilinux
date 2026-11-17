@@ -1,0 +1,16 @@
+name	nagios-plugins-fping
+version	2.5-r0
+description	Nagios plugin check_fping
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	23194
+installed-size	46736
+depends	nagios-plugins fping so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-fping-2.5-r0.apk
+checksum	Q1D+c3SOPX2U6vzJFyv59cDE++tH8=
+dep	nagios-plugins	nagios-plugins
+dep	fping	fping
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

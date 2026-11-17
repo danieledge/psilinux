@@ -1,0 +1,14 @@
+name	perl-ipc-sharelite
+version	0.17-r15
+description	Lightweight interface to shared memory
+url	https://metacpan.org/release/IPC-ShareLite/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	16083
+installed-size	36164
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-ipc-sharelite
+repo	main
+file	perl-ipc-sharelite-0.17-r15.apk
+checksum	Q1526WK03k1SeBD0JeOAvAeq4DyXg=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

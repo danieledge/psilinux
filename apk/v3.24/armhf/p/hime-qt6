@@ -1,0 +1,18 @@
+name	hime-qt6
+version	0.9.12_git20231221-r6
+description	HIME Input Method Editor (Qt6 immodule)
+url	https://hime-ime.github.io/
+license	LGPL-2.1-or-later AND GPL-2.0-or-later
+size	30018
+installed-size	99964
+depends	so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libhime-im-client.so.1 so:libstdc++.so.6
+origin	hime
+repo	community
+file	hime-qt6-0.9.12_git20231221-r6.apk
+checksum	Q19f1HPJMYrfy4+i+9lhZAuGtiDs0=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libhime-im-client.so.1	hime
+dep	so:libstdc++.so.6	libstdc++

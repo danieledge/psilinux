@@ -1,0 +1,15 @@
+name	grimpicker
+version	1.11-r1
+description	Simple color picker for wlroots
+url	https://github.com/OctopusET/sway-contrib
+license	MIT
+size	3140
+installed-size	4622
+depends	python3 cmd:slurp cmd:grim
+origin	sway-contrib
+repo	community
+file	grimpicker-1.11-r1.apk
+checksum	Q1cFf7XNKkuQfs442qrWdL/FyPkOs=
+dep	python3	python3
+dep	cmd:slurp	slurp
+dep	cmd:grim	grim

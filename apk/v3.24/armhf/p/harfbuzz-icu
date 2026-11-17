@@ -1,0 +1,15 @@
+name	harfbuzz-icu
+version	13.2.1-r0
+description	Harfbuzz ICU support library
+url	https://harfbuzz.github.io/
+license	MIT
+size	4480
+installed-size	9336
+depends	so:libc.musl-armhf.so.1 so:libharfbuzz.so.0 so:libicuuc.so.78
+origin	harfbuzz
+repo	main
+file	harfbuzz-icu-13.2.1-r0.apk
+checksum	Q19BJXMdrFIVQbqfZqDn+ELQkI7+g=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:libicuuc.so.78	icu-libs

@@ -1,0 +1,14 @@
+name	acf-dovecot
+version	0.6.0-r4
+description	Web-based system administration interface for dovecot
+url	https://gitlab.alpinelinux.org/acf/acf-dovecot
+license	GPL-2.0-only
+size	3161
+installed-size	3243
+depends	acf-core dovecot
+origin	acf-dovecot
+repo	main
+file	acf-dovecot-0.6.0-r4.apk
+checksum	Q1oV/KdpRKs15+mf5RLtR75o40aDA=
+dep	acf-core	acf-core
+dep	dovecot	dovecot

@@ -1,0 +1,14 @@
+name	s2n-tls-dev
+version	1.7.3-r0
+description	AWS C99 implementation of the TLS/SSL protocols (development files)
+url	https://github.com/aws/s2n-tls
+license	Apache-2.0
+size	58056
+installed-size	248680
+depends	openssl-dev s2n-tls=1.7.3-r0
+origin	s2n-tls
+repo	community
+file	s2n-tls-dev-1.7.3-r0.apk
+checksum	Q1dptzsu41SQJp5LO/8j6Eej0HfJE=
+dep	openssl-dev	openssl-dev
+dep	s2n-tls=1.7.3-r0	s2n-tls

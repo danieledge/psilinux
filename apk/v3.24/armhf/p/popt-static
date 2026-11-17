@@ -1,0 +1,13 @@
+name	popt-static
+version	1.19-r4
+description	commandline option parser (static library)
+url	https://github.com/rpm-software-management/popt
+license	MIT
+size	21401
+installed-size	44806
+depends	popt-dev
+origin	popt
+repo	main
+file	popt-static-1.19-r4.apk
+checksum	Q1EvNsGxFBSeeyA52JEMoSpLb5ItY=
+dep	popt-dev	popt-dev

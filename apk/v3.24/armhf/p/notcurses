@@ -1,0 +1,18 @@
+name	notcurses
+version	3.0.17-r0
+description	blingful character graphics and TUI library
+url	https://nick-black.com/dankwiki/index.php/Notcurses
+license	Apache-2.0
+size	22935
+installed-size	52108
+depends	so:libc.musl-armhf.so.1 so:libdeflate.so.0 so:libgcc_s.so.1 so:libnotcurses++.so.3 so:libnotcurses-core.so.3 so:libstdc++.so.6
+origin	notcurses
+repo	community
+file	notcurses-3.0.17-r0.apk
+checksum	Q1PEpL4JyhCTXKICWvM9RrKPbgMpc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdeflate.so.0	libdeflate
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libnotcurses++.so.3	notcurses-libs
+dep	so:libnotcurses-core.so.3	notcurses-libs
+dep	so:libstdc++.so.6	libstdc++

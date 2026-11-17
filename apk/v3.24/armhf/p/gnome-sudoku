@@ -1,0 +1,27 @@
+name	gnome-sudoku
+version	50.2.1-r0
+description	Test your logic skills in this number grid puzzle
+url	https://gitlab.gnome.org/GNOME/gnome-sudoku/-/wikis/home
+license	GPL-3.0-or-later
+size	124703
+installed-size	333364
+depends	so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgcc_s.so.1 so:libgee-0.8.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libqqwing.so.2 so:libstdc++.so.6
+origin	gnome-sudoku
+repo	community
+file	gnome-sudoku-50.2.1-r0.apk
+checksum	Q1mgEdhj4wi5T8W6x8sW3LJJFm3Js=
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgee-0.8.so.2	libgee
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libjson-glib-1.0.so.0	json-glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libqqwing.so.2	qqwing
+dep	so:libstdc++.so.6	libstdc++

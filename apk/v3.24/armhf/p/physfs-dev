@@ -1,0 +1,14 @@
+name	physfs-dev
+version	3.2.0-r2
+description	Library providing access to various archives, for use in video games (development files)
+url	https://icculus.org/physfs/
+license	Zlib
+size	42047
+installed-size	171389
+depends	physfs=3.2.0-r2 pkgconfig
+origin	physfs
+repo	community
+file	physfs-dev-3.2.0-r2.apk
+checksum	Q1pJ9F08hvWuIWxL9tgJY/sXNHDpU=
+dep	physfs=3.2.0-r2	physfs
+dep	pkgconfig	pkgconf

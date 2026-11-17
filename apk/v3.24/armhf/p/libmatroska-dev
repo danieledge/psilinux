@@ -1,0 +1,15 @@
+name	libmatroska-dev
+version	1.7.1-r0
+description	Extensible multimedia container format based on EBML (development files)
+url	https://www.matroska.org/
+license	LGPL-2.1-or-later
+size	26075
+installed-size	132641
+depends	libmatroska=1.7.1-r0 pc:libebml pkgconfig
+origin	libmatroska
+repo	community
+file	libmatroska-dev-1.7.1-r0.apk
+checksum	Q1G365OMf1ZRN23e+/PMK7aV0Gy2E=
+dep	libmatroska=1.7.1-r0	libmatroska
+dep	pc:libebml	libebml-dev
+dep	pkgconfig	pkgconf

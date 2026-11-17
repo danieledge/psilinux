@@ -1,0 +1,24 @@
+name	libkiwix
+version	14.2.0-r1
+description	Common code base for all Kiwix ports
+url	https://github.com/kiwix/libkiwix
+license	GPL-3.0-or-later
+size	821792
+installed-size	2078590
+depends	aria2 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgcc_s.so.1 so:libicui18n.so.78 so:libicuuc.so.78 so:libmicrohttpd.so.12 so:libpugixml.so.1 so:libstdc++.so.6 so:libxapian.so.45 so:libz.so.1 so:libzim.so.9
+origin	libkiwix
+repo	community
+file	libkiwix-14.2.0-r1.apk
+checksum	Q1qRWh6i58m5SfvzYqau1G/LjRUOM=
+dep	aria2	aria2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libmicrohttpd.so.12	libmicrohttpd
+dep	so:libpugixml.so.1	pugixml
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxapian.so.45	libxapian
+dep	so:libz.so.1	zlib
+dep	so:libzim.so.9	libzim

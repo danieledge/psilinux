@@ -1,0 +1,14 @@
+name	libcap-setcap
+version	2.78-r0
+description	POSIX 1003.1e capabilities (setcap utility)
+url	https://sites.google.com/site/fullycapable/
+license	BSD-3-Clause OR GPL-2.0-only
+size	5606
+installed-size	9388
+depends	so:libc.musl-armhf.so.1 so:libcap.so.2
+origin	libcap
+repo	main
+file	libcap-setcap-2.78-r0.apk
+checksum	Q1mdtcnM0ZGL5gClTTpKU/aXyO8Ds=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2

@@ -1,0 +1,20 @@
+name	libssc
+version	0.4.3-r0
+description	Library to expose Qualcomm Sensor Core sensors
+url	https://codeberg.org/DylanVanAssche/libssc
+license	GPL-3.0-or-later
+size	40408
+installed-size	136329
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libprotobuf-c.so.1 so:libqmi-glib.so.5 so:libqrtr-glib.so.0
+origin	libssc
+repo	community
+file	libssc-0.4.3-r0.apk
+checksum	Q1ullFswvJ3+Jw698wjPRD2Moc9uQ=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libprotobuf-c.so.1	protobuf-c
+dep	so:libqmi-glib.so.5	libqmi
+dep	so:libqrtr-glib.so.0	libqrtr-glib

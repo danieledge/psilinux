@@ -1,0 +1,13 @@
+name	spi-tools
+version	1.0.2-r0
+description	simple command line tools to help using Linux spidev devices
+url	https://github.com/cpb-/spi-tools
+license	GPL-2.0-or-later
+size	8279
+installed-size	27312
+depends	so:libc.musl-armhf.so.1
+origin	spi-tools
+repo	community
+file	spi-tools-1.0.2-r0.apk
+checksum	Q1k0MiUJCtEUfeodh1TChmnbOJDik=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	openscenegraph-dev
+version	3.6.5-r19
+description	High performance 3D graphics toolkit (development files)
+url	http://www.openscenegraph.org/
+license	LGPL-2.1-or-later
+size	694616
+installed-size	3856531
+depends	mesa-dev openscenegraph=3.6.5-r19 pkgconfig
+origin	openscenegraph
+repo	community
+file	openscenegraph-dev-3.6.5-r19.apk
+checksum	Q1QLB1KDuhpyc73Eob1lza8fPhX1o=
+dep	mesa-dev	mesa-dev
+dep	openscenegraph=3.6.5-r19	openscenegraph
+dep	pkgconfig	pkgconf

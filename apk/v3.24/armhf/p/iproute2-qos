@@ -1,0 +1,13 @@
+name	iproute2-qos
+version	0.6-r0
+description	Scripts to set up quality of service with iproute2
+url	https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/main/iproute2-qos
+license	GPL-2.0-only
+size	2412
+installed-size	2087
+depends	iproute2
+origin	iproute2-qos
+repo	main
+file	iproute2-qos-0.6-r0.apk
+checksum	Q1TfYmVVAOHK+wlz6fFbGAE9Tj5Ww=
+dep	iproute2	iproute2

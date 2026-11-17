@@ -1,0 +1,12 @@
+name	wget2-dbg
+version	2.2.1-r1
+description	Network utility to retrieve files from the Web (debug symbols)
+url	https://www.gnu.org/software/wget/wget.html
+license	GPL-3.0-or-later WITH OpenSSL-Exception
+size	928908
+installed-size	2184012
+depends	!wget2-libs<2.2.1-r1 !wget2-libs>2.2.1-r1 !wget2<2.2.1-r1 !wget2>2.2.1-r1
+origin	wget2
+repo	community
+file	wget2-dbg-2.2.1-r1.apk
+checksum	Q1nhWikG434pje4JFFNBplp8dTY3w=

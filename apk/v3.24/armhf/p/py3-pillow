@@ -1,0 +1,25 @@
+name	py3-pillow
+version	12.2.0-r0
+description	Python Imaging Library
+url	https://python-pillow.org/
+license	custom:PIL
+size	560536
+installed-size	1710586
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libfreetype.so.6 so:libimagequant.so.0.0.4 so:libjpeg.so.8 so:liblcms2.so.2 so:libopenjp2.so.7 so:libtiff.so.6 so:libwebp.so.7 so:libwebpdemux.so.2 so:libwebpmux.so.3 so:libxcb.so.1 so:libz.so.1
+origin	py3-pillow
+repo	community
+file	py3-pillow-12.2.0-r0.apk
+checksum	Q1Ba9AqksGBX3Zz04qvw1k6SyVDPQ=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreetype.so.6	freetype
+dep	so:libimagequant.so.0.0.4	libimagequant
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:liblcms2.so.2	lcms2
+dep	so:libopenjp2.so.7	openjpeg
+dep	so:libtiff.so.6	tiff
+dep	so:libwebp.so.7	libwebp
+dep	so:libwebpdemux.so.2	libwebpdemux
+dep	so:libwebpmux.so.3	libwebpmux
+dep	so:libxcb.so.1	libxcb
+dep	so:libz.so.1	zlib

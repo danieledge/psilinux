@@ -1,0 +1,13 @@
+name	gauth
+version	1.5.0-r16
+description	Replacement for Google Authenticator
+url	https://github.com/pcarrier/gauth
+license	ISC
+size	907973
+installed-size	2141451
+depends	so:libc.musl-armhf.so.1
+origin	gauth
+repo	community
+file	gauth-1.5.0-r16.apk
+checksum	Q1E0aMu3ags62pcmtvnKR3vF2b2bE=
+dep	so:libc.musl-armhf.so.1	musl

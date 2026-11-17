@@ -1,0 +1,12 @@
+name	strace-dbg
+version	6.19-r1
+description	Diagnostic, debugging and instructional userspace tracer (debug symbols)
+url	https://strace.io
+license	BSD-3-Clause
+size	985040
+installed-size	2803272
+depends	!strace<6.19-r1 !strace>6.19-r1
+origin	strace
+repo	main
+file	strace-dbg-6.19-r1.apk
+checksum	Q1oY6Vbn6L89q5JRk1ay9xi5Iyow4=

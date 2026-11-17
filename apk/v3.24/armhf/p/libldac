@@ -1,0 +1,13 @@
+name	libldac
+version	2.0.2.3-r1
+description	Lossy audio codec for Bluetooth connections
+url	https://github.com/EHfive/ldacBT
+license	Apache-2.0
+size	25300
+installed-size	43312
+depends	so:libc.musl-armhf.so.1
+origin	libldac
+repo	community
+file	libldac-2.0.2.3-r1.apk
+checksum	Q1zNIgninYaZ0j6SvBTol9aKf3qlc=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,40 @@
+name	ocaml-lambdasoup
+version	0.7.3-r5
+description	Easy functional HTML scraping and manipulation with CSS selectors
+url	https://github.com/aantron/lambdasoup
+license	MIT
+size	194066
+installed-size	425711
+depends	ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2 ocaml4-impl:Stdlib__Buffer:2dba47b2f2e4a8a75ec36eb2fcaddd17 ocaml4-impl:Stdlib__Char:6b2d62594c65a43ddd8ad89b5edf3d73 ocaml4-impl:Stdlib__Int64:07574e234ed9bfb5e7f340e15749061d ocaml4-impl:Stdlib__List:b42dc21c9462b2cabc74ab8825425e32 ocaml4-impl:Stdlib__Printf:b4fd61498adcd7e6fe74938e03810e0a ocaml4-impl:Stdlib__Stream:b97c06b2cd9ffb41d8d64169245680cf ocaml4-impl:Stdlib__String:5c54069e57efa544d2be471c6a1fc73d ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15 ocaml4-intf:Markup:cd085135427440b75fbc231e3ab7eaf7 ocaml4-intf:Markup__:cf63d082f13dac3eeb42dee00e3766ae ocaml4-intf:Markup__Common:fe22b6a631796cc0096be0ec59024297 ocaml4-intf:Markup__Kstream:b7f0d017db1e0f47429ef77138cbf58d ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91 ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822 ocaml4-intf:Stdlib__Bytes:3d02c33317c0108c61e7a5eefa37519a ocaml4-intf:Stdlib__Char:62afe57b49defcc078960a68b9efbbee ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9 ocaml4-intf:Stdlib__Format:b6edb97b685819e873481fe05723c8bc ocaml4-intf:Stdlib__Int64:0fa5587c47baf16a06837c7dedfc2518 ocaml4-intf:Stdlib__List:ee222542f6f8195441543b8b399b64b9 ocaml4-intf:Stdlib__Printf:bc8af6214197dc8f40eaa738a4cd6a28 ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962 ocaml4-intf:Stdlib__Stream:510a78f010f6c530a911189d7538d002 ocaml4-intf:Stdlib__String:4933e1d855f54bfed0231b038f0dbb87 ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57 ocaml4-intf:Uutf:501098e6230660d9080cd573763dc3d9 so:libc.musl-armhf.so.1
+origin	ocaml-lambdasoup
+repo	community
+file	ocaml-lambdasoup-0.7.3-r5.apk
+checksum	Q1ReiO12LShHzDQc39LHARXpY/MWY=
+dep	ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2	ocaml
+dep	ocaml4-impl:Stdlib__Buffer:2dba47b2f2e4a8a75ec36eb2fcaddd17	ocaml
+dep	ocaml4-impl:Stdlib__Char:6b2d62594c65a43ddd8ad89b5edf3d73	ocaml
+dep	ocaml4-impl:Stdlib__Int64:07574e234ed9bfb5e7f340e15749061d	ocaml
+dep	ocaml4-impl:Stdlib__List:b42dc21c9462b2cabc74ab8825425e32	ocaml
+dep	ocaml4-impl:Stdlib__Printf:b4fd61498adcd7e6fe74938e03810e0a	ocaml
+dep	ocaml4-impl:Stdlib__Stream:b97c06b2cd9ffb41d8d64169245680cf	ocaml
+dep	ocaml4-impl:Stdlib__String:5c54069e57efa544d2be471c6a1fc73d	ocaml
+dep	ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15	ocaml
+dep	ocaml4-intf:Markup:cd085135427440b75fbc231e3ab7eaf7	ocaml-markup
+dep	ocaml4-intf:Markup__:cf63d082f13dac3eeb42dee00e3766ae	ocaml-markup
+dep	ocaml4-intf:Markup__Common:fe22b6a631796cc0096be0ec59024297	ocaml-markup
+dep	ocaml4-intf:Markup__Kstream:b7f0d017db1e0f47429ef77138cbf58d	ocaml-markup
+dep	ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91	ocaml
+dep	ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822	ocaml
+dep	ocaml4-intf:Stdlib__Bytes:3d02c33317c0108c61e7a5eefa37519a	ocaml
+dep	ocaml4-intf:Stdlib__Char:62afe57b49defcc078960a68b9efbbee	ocaml
+dep	ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9	ocaml
+dep	ocaml4-intf:Stdlib__Format:b6edb97b685819e873481fe05723c8bc	ocaml
+dep	ocaml4-intf:Stdlib__Int64:0fa5587c47baf16a06837c7dedfc2518	ocaml
+dep	ocaml4-intf:Stdlib__List:ee222542f6f8195441543b8b399b64b9	ocaml
+dep	ocaml4-intf:Stdlib__Printf:bc8af6214197dc8f40eaa738a4cd6a28	ocaml
+dep	ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962	ocaml
+dep	ocaml4-intf:Stdlib__Stream:510a78f010f6c530a911189d7538d002	ocaml
+dep	ocaml4-intf:Stdlib__String:4933e1d855f54bfed0231b038f0dbb87	ocaml
+dep	ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57	ocaml
+dep	ocaml4-intf:Uutf:501098e6230660d9080cd573763dc3d9	ocaml-uutf
+dep	so:libc.musl-armhf.so.1	musl

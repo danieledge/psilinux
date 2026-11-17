@@ -1,0 +1,14 @@
+name	wgetpaste
+version	2.34-r0
+description	Command-line interface to various pastebins
+url	http://wgetpaste.zlin.dk/
+license	MIT
+size	14632
+installed-size	39346
+depends	wget bash
+origin	wgetpaste
+repo	community
+file	wgetpaste-2.34-r0.apk
+checksum	Q1NthhjL7t/zLjepjVJsJ5CQzzMRQ=
+dep	wget	wget
+dep	bash	bash

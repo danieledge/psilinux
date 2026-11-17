@@ -1,0 +1,17 @@
+name	py3-pjsua
+version	2.17-r0
+description	Open source multimedia communication library (Python bindings)
+url	https://www.pjsip.org/pjsua.htm
+license	GPL-2.0-or-later
+size	976190
+installed-size	4824771
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpjsua2.so.2 so:libstdc++.so.6
+origin	pjproject
+repo	main
+file	py3-pjsua-2.17-r0.apk
+checksum	Q1Ymsyxz98SBVcb+C+dTaiKeZpo7A=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpjsua2.so.2	pjproject
+dep	so:libstdc++.so.6	libstdc++

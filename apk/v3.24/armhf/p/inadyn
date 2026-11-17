@@ -1,0 +1,18 @@
+name	inadyn
+version	2.13.0-r0
+description	Dynamic DNS client with TLS support
+url	https://troglobit.com/projects/inadyn
+license	GPL-2.0-or-later
+size	44723
+installed-size	102531
+depends	ca-certificates /bin/sh so:libc.musl-armhf.so.1 so:libconfuse.so.2 so:libcrypto.so.3 so:libssl.so.3
+origin	inadyn
+repo	community
+file	inadyn-2.13.0-r0.apk
+checksum	Q1SMLtZORCsoo9wmGUqTvPqwvDGOg=
+dep	ca-certificates	ca-certificates
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libconfuse.so.2	confuse
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,14 @@
+name	otree
+version	0.6.5-r0
+description	View JSON/YAML/TOML objects in a TUI tree widget
+url	https://github.com/fioncat/otree
+license	MIT
+size	1306464
+installed-size	2737284
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	otree
+repo	community
+file	otree-0.6.5-r0.apk
+checksum	Q1d7CDLZSuu4ASQz6eRr1qcp3AAbw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,13 @@
+name	podman-compose-pyc
+version	1.6.0-r0
+description	Precompiled Python bytecode for podman-compose
+url	https://github.com/containers/podman-compose
+license	GPL-2.0-or-later
+size	104453
+installed-size	255439
+depends	python3~3.14
+origin	podman-compose
+repo	community
+file	podman-compose-pyc-1.6.0-r0.apk
+checksum	Q17yVV5eOUVnjqvhWREZKt8Yh266A=
+dep	python3~3.14	python3

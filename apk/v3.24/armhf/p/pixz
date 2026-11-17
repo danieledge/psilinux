@@ -1,0 +1,15 @@
+name	pixz
+version	1.0.7-r2
+description	Parallel, indexed xz compressor
+url	https://github.com/vasi/pixz
+license	BSD-2-Clause
+size	16997
+installed-size	33984
+depends	so:libarchive.so.13 so:libc.musl-armhf.so.1 so:liblzma.so.5
+origin	pixz
+repo	community
+file	pixz-1.0.7-r2.apk
+checksum	Q18k9ctiQR9GUXJvQtM7buztkAgsY=
+dep	so:libarchive.so.13	libarchive
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblzma.so.5	xz-libs

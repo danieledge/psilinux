@@ -1,0 +1,14 @@
+name	pipewire-filter-graph-ebur128
+version	1.6.8-r4
+description	Multimedia processing graphs
+url	https://pipewire.org/
+license	MIT
+size	9561
+installed-size	18604
+depends	so:libc.musl-armhf.so.1 so:libebur128.so.1
+origin	pipewire
+repo	community
+file	pipewire-filter-graph-ebur128-1.6.8-r4.apk
+checksum	Q1Z0HsS/gvbFem7GMEcNr7DRxUH8Q=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libebur128.so.1	libebur128

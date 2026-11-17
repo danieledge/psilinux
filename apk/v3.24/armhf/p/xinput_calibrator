@@ -1,0 +1,17 @@
+name	xinput_calibrator
+version	0.8.0-r0
+description	A generic touchscreen calibration program for X.Org
+url	https://www.freedesktop.org/wiki/Software/xinput_calibrator
+license	MIT
+size	34666
+installed-size	112705
+depends	so:libX11.so.6 so:libXi.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	xinput_calibrator
+repo	community
+file	xinput_calibrator-0.8.0-r0.apk
+checksum	Q1jJFDwmF+KbLNGiH1mjaZ8iP4WF0=
+dep	so:libX11.so.6	libx11
+dep	so:libXi.so.6	libxi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

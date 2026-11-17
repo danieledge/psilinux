@@ -1,0 +1,19 @@
+name	navidrome
+version	0.60.3-r5
+description	Modern Music Server and Streamer compatible with Subsonic/Airsonic
+url	https://navidrome.org/
+license	GPL-3.0-or-later
+size	19086159
+installed-size	60761224
+depends	ffmpeg /bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libsqlite3.so.0 so:libstdc++.so.6 so:libtag.so.2
+origin	navidrome
+repo	community
+file	navidrome-0.60.3-r5.apk
+checksum	Q1726gq84gH0/YEyihi43QWWlb+Pg=
+dep	ffmpeg	ffmpeg
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtag.so.2	libtag

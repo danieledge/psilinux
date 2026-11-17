@@ -1,0 +1,14 @@
+name	exim-cdb
+version	4.99.5-r0
+description	EXIM extension: cdb
+url	https://www.exim.org/
+license	GPL-2.0-or-later
+size	5373
+installed-size	9392
+depends	exim=4.99.5-r0 so:libc.musl-armhf.so.1
+origin	exim
+repo	community
+file	exim-cdb-4.99.5-r0.apk
+checksum	Q1I+rxrZOVca5ib0IwVtP1mNykVes=
+dep	exim=4.99.5-r0	exim
+dep	so:libc.musl-armhf.so.1	musl

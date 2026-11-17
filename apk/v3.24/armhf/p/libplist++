@@ -1,0 +1,16 @@
+name	libplist++
+version	2.7.0-r1
+description	C++ bindings to libplist
+url	https://libimobiledevice.org
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	19392
+installed-size	50560
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libplist-2.0.so.4 so:libstdc++.so.6
+origin	libplist
+repo	community
+file	libplist++-2.7.0-r1.apk
+checksum	Q1Mhr2tpuhgginSF0Zk2U5T1UE9rY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libplist-2.0.so.4	libplist
+dep	so:libstdc++.so.6	libstdc++

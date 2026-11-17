@@ -1,0 +1,14 @@
+name	ruby-jekyll-watch
+version	2.2.1-r5
+description	Rebuild your Jekyll site when a file changes with the --watch switch
+url	https://github.com/jekyll/jekyll-watch
+license	MIT
+size	4448
+installed-size	5833
+depends	ruby ruby-listen~3
+origin	ruby-jekyll-watch
+repo	community
+file	ruby-jekyll-watch-2.2.1-r5.apk
+checksum	Q1L0WLMHoyLQb/R6VIB0obG5z/w3s=
+dep	ruby	ruby
+dep	ruby-listen~3	ruby-listen

@@ -1,0 +1,13 @@
+name	kind
+version	0.31.0-r6
+description	Kubernetes IN Docker - local clusters for testing Kubernetes
+url	https://kind.sigs.k8s.io/
+license	Apache-2.0
+size	4218811
+installed-size	10665596
+depends	so:libc.musl-armhf.so.1
+origin	kind
+repo	community
+file	kind-0.31.0-r6.apk
+checksum	Q1PjmYPTPo3ZViFBeSyw4c30e81lU=
+dep	so:libc.musl-armhf.so.1	musl

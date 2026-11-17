@@ -1,0 +1,15 @@
+name	py3-zeitgeist
+version	1.0.4-r5
+description	Python3 bindings for zeitgeist
+url	https://zeitgeist.freedesktop.org/
+license	LGPL-2.1-or-later
+size	158259
+installed-size	550275
+depends	python3 libzeitgeist=1.0.4-r5 python3~3.14
+origin	zeitgeist
+repo	community
+file	py3-zeitgeist-1.0.4-r5.apk
+checksum	Q1Ap6hHBQRSzl0GY6YBsjryM+Cq2A=
+dep	python3	python3
+dep	libzeitgeist=1.0.4-r5	libzeitgeist
+dep	python3~3.14	python3

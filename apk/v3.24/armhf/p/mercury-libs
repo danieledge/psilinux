@@ -1,0 +1,13 @@
+name	mercury-libs
+version	22.01.8-r1
+description	Mercury shared library (libraries)
+url	https://www.mercurylang.org
+license	GPL-2.0-only
+size	3647302
+installed-size	10981680
+depends	so:libc.musl-armhf.so.1
+origin	mercury
+repo	community
+file	mercury-libs-22.01.8-r1.apk
+checksum	Q1716acJHNDLMc8MI2cWDTbfYOZX8=
+dep	so:libc.musl-armhf.so.1	musl

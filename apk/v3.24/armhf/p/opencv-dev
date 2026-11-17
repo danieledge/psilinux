@@ -1,0 +1,57 @@
+name	opencv-dev
+version	4.12.0-r7
+description	Open source computer vision and machine learning library (development files)
+url	https://opencv.org/
+license	Apache-2.0
+size	1244113
+installed-size	6477321
+depends	blas-dev eigen-dev ffmpeg-dev freetype-dev glew-dev gst-plugins-base-dev gstreamer-dev harfbuzz-dev hdf5-dev libdc1394-dev libgphoto2-dev libva-glx-dev mesa-dev onetbb-dev openblas-dev openexr-dev openjpeg-dev openjpeg-tools py3-setuptools qt6-qtbase-dev vtk-dev libopencv_aruco=4.12.0-r7 libopencv_calib3d=4.12.0-r7 libopencv_core=4.12.0-r7 libopencv_dnn=4.12.0-r7 libopencv_face=4.12.0-r7 libopencv_features2d=4.12.0-r7 libopencv_flann=4.12.0-r7 libopencv_highgui=4.12.0-r7 libopencv_imgcodecs=4.12.0-r7 libopencv_imgproc=4.12.0-r7 libopencv_ml=4.12.0-r7 libopencv_objdetect=4.12.0-r7 libopencv_optflow=4.12.0-r7 libopencv_photo=4.12.0-r7 libopencv_plot=4.12.0-r7 libopencv_shape=4.12.0-r7 libopencv_stitching=4.12.0-r7 libopencv_superres=4.12.0-r7 libopencv_tracking=4.12.0-r7 libopencv_video=4.12.0-r7 libopencv_videoio=4.12.0-r7 libopencv_videostab=4.12.0-r7 libopencv_ximgproc=4.12.0-r7 pkgconfig
+origin	opencv
+repo	community
+file	opencv-dev-4.12.0-r7.apk
+checksum	Q1d7E/p3xNb65PzzBHTPrvnOIa1zg=
+dep	blas-dev	blas-dev
+dep	eigen-dev	eigen-dev
+dep	ffmpeg-dev	ffmpeg-dev
+dep	freetype-dev	freetype-dev
+dep	glew-dev	glew-dev
+dep	gst-plugins-base-dev	gst-plugins-base-dev
+dep	gstreamer-dev	gstreamer-dev
+dep	harfbuzz-dev	harfbuzz-dev
+dep	hdf5-dev	hdf5-dev
+dep	libdc1394-dev	libdc1394-dev
+dep	libgphoto2-dev	libgphoto2-dev
+dep	libva-glx-dev	libva-glx-dev
+dep	mesa-dev	mesa-dev
+dep	onetbb-dev	onetbb-dev
+dep	openblas-dev	openblas-dev
+dep	openexr-dev	openexr-dev
+dep	openjpeg-dev	openjpeg-dev
+dep	openjpeg-tools	openjpeg-tools
+dep	py3-setuptools	py3-setuptools
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	vtk-dev	vtk-dev
+dep	libopencv_aruco=4.12.0-r7	libopencv_aruco
+dep	libopencv_calib3d=4.12.0-r7	libopencv_calib3d
+dep	libopencv_core=4.12.0-r7	libopencv_core
+dep	libopencv_dnn=4.12.0-r7	libopencv_dnn
+dep	libopencv_face=4.12.0-r7	libopencv_face
+dep	libopencv_features2d=4.12.0-r7	libopencv_features2d
+dep	libopencv_flann=4.12.0-r7	libopencv_flann
+dep	libopencv_highgui=4.12.0-r7	libopencv_highgui
+dep	libopencv_imgcodecs=4.12.0-r7	libopencv_imgcodecs
+dep	libopencv_imgproc=4.12.0-r7	libopencv_imgproc
+dep	libopencv_ml=4.12.0-r7	libopencv_ml
+dep	libopencv_objdetect=4.12.0-r7	libopencv_objdetect
+dep	libopencv_optflow=4.12.0-r7	libopencv_optflow
+dep	libopencv_photo=4.12.0-r7	libopencv_photo
+dep	libopencv_plot=4.12.0-r7	libopencv_plot
+dep	libopencv_shape=4.12.0-r7	libopencv_shape
+dep	libopencv_stitching=4.12.0-r7	libopencv_stitching
+dep	libopencv_superres=4.12.0-r7	libopencv_superres
+dep	libopencv_tracking=4.12.0-r7	libopencv_tracking
+dep	libopencv_video=4.12.0-r7	libopencv_video
+dep	libopencv_videoio=4.12.0-r7	libopencv_videoio
+dep	libopencv_videostab=4.12.0-r7	libopencv_videostab
+dep	libopencv_ximgproc=4.12.0-r7	libopencv_ximgproc
+dep	pkgconfig	pkgconf

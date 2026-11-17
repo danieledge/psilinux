@@ -1,0 +1,17 @@
+name	lxcfs
+version	6.0.1-r1
+description	FUSE filesystem for LXC
+url	https://linuxcontainers.org/lxcfs
+license	Apache-2.0
+size	86706
+installed-size	195054
+depends	shadow-subids uidmapshift so:libc.musl-armhf.so.1 so:libfuse3.so.4 so:libgcc_s.so.1
+origin	lxcfs
+repo	community
+file	lxcfs-6.0.1-r1.apk
+checksum	Q1h+dROAK4tZLvPaiUrTIXhEm+0ME=
+dep	shadow-subids	shadow-subids
+dep	uidmapshift	uidmapshift
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfuse3.so.4	fuse3-libs
+dep	so:libgcc_s.so.1	libgcc

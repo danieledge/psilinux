@@ -1,0 +1,35 @@
+name	freerdp
+version	3.32.2-r0
+description	FreeRDP client
+url	https://www.freerdp.com/
+license	Apache-2.0
+size	677840
+installed-size	1526428
+depends	so:libSDL3.so.0 so:libSDL3_ttf.so.0 so:libX11.so.6 so:libXcursor.so.1 so:libXext.so.6 so:libXfixes.so.3 so:libXi.so.6 so:libXinerama.so.1 so:libXrender.so.1 so:libc.musl-armhf.so.1 so:libfreerdp-client3.so.3 so:libfreerdp-server-proxy3.so.3 so:libfreerdp-server3.so.3 so:libfreerdp-shadow-subsystem3.so.3 so:libfreerdp-shadow3.so.3 so:libfreerdp3.so.3 so:libgcc_s.so.1 so:libstdc++.so.6 so:libwayland-client.so.0 so:libwayland-cursor.so.0 so:libwinpr-tools3.so.3 so:libwinpr3.so.3 so:libxkbcommon.so.0
+origin	freerdp
+repo	community
+file	freerdp-3.32.2-r0.apk
+checksum	Q1Q5zv77zoduFfAlUXDAKzhh6C3XE=
+dep	so:libSDL3.so.0	sdl3
+dep	so:libSDL3_ttf.so.0	sdl3_ttf
+dep	so:libX11.so.6	libx11
+dep	so:libXcursor.so.1	libxcursor
+dep	so:libXext.so.6	libxext
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXi.so.6	libxi
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libXrender.so.1	libxrender
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreerdp-client3.so.3	freerdp-libs
+dep	so:libfreerdp-server-proxy3.so.3	freerdp-libs
+dep	so:libfreerdp-server3.so.3	freerdp-libs
+dep	so:libfreerdp-shadow-subsystem3.so.3	freerdp-libs
+dep	so:libfreerdp-shadow3.so.3	freerdp-libs
+dep	so:libfreerdp3.so.3	freerdp-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor
+dep	so:libwinpr-tools3.so.3	freerdp-libs
+dep	so:libwinpr3.so.3	freerdp-libs
+dep	so:libxkbcommon.so.0	libxkbcommon

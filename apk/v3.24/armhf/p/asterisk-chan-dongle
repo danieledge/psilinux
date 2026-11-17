@@ -1,0 +1,15 @@
+name	asterisk-chan-dongle
+version	1.1.20231226-r0
+description	GSM modem dongle channel driver
+url	https://github.com/wdoekes/asterisk-chan-dongle/
+license	GPL-2.0-or-later
+size	111279
+installed-size	278643
+depends	asterisk so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	asterisk-chan-dongle
+repo	community
+file	asterisk-chan-dongle-1.1.20231226-r0.apk
+checksum	Q1C8UMmm35K7dNhE5P7iYKoCPgim8=
+dep	asterisk	asterisk
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

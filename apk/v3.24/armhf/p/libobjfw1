@@ -1,0 +1,15 @@
+name	libobjfw1
+version	1.5.7-r0
+description	Library needed by programs using ObjFW
+url	https://objfw.nil.im/
+license	LGPL-3.0-only
+size	855162
+installed-size	2931216
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libobjfwrt.so.1
+origin	objfw
+repo	community
+file	libobjfw1-1.5.7-r0.apk
+checksum	Q1Ek4uv8MHtn7DWUep6Y80AfY8ES4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libobjfwrt.so.1	libobjfwrt1

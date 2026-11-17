@@ -1,0 +1,14 @@
+name	p11-kit-dev
+version	0.26.2-r0
+description	Library for loading and sharing PKCS#11 modules (development files)
+url	https://p11-glue.freedesktop.org/
+license	BSD-3-Clause
+size	34505
+installed-size	189752
+depends	p11-kit=0.26.2-r0 pkgconfig
+origin	p11-kit
+repo	main
+file	p11-kit-dev-0.26.2-r0.apk
+checksum	Q1KlDEytF5vtwIsBhb7CNa79lBzoY=
+dep	p11-kit=0.26.2-r0	p11-kit
+dep	pkgconfig	pkgconf

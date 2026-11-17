@@ -1,0 +1,14 @@
+name	dav1d-dev
+version	1.5.3-r0
+description	small and fast AV1 Decoder (development files)
+url	https://code.videolan.org/videolan/dav1d
+license	BSD-2-Clause
+size	12970
+installed-size	42852
+depends	libdav1d=1.5.3-r0 pkgconfig
+origin	dav1d
+repo	main
+file	dav1d-dev-1.5.3-r0.apk
+checksum	Q1OajMwq7vRgejg8WSQqftJvJ+INw=
+dep	libdav1d=1.5.3-r0	libdav1d
+dep	pkgconfig	pkgconf

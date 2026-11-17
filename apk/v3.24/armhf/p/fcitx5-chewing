@@ -1,0 +1,19 @@
+name	fcitx5-chewing
+version	5.1.11-r0
+description	Chewing Wrapper for Fcitx
+url	https://github.com/fcitx/fcitx5-chewing
+license	LGPL-2.1-or-later
+size	31206
+installed-size	66594
+depends	so:libFcitx5Config.so.6 so:libFcitx5Core.so.7 so:libFcitx5Utils.so.2 so:libc.musl-armhf.so.1 so:libchewing.so.3 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	fcitx5-chewing
+repo	community
+file	fcitx5-chewing-5.1.11-r0.apk
+checksum	Q1MX5JfHrvjJ44RCJLfDFwWaXwJ5s=
+dep	so:libFcitx5Config.so.6	fcitx5
+dep	so:libFcitx5Core.so.7	fcitx5
+dep	so:libFcitx5Utils.so.2	fcitx5
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libchewing.so.3	libchewing
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,13 @@
+name	py3-ykman
+version	5.8.0-r3
+description	Python library and command line tool for configuring any YubiKey over all USB interfaces
+url	https://developers.yubico.com/yubikey-manager/
+license	BSD-2-Clause
+size	172942
+installed-size	758537
+depends	python3~3.14
+origin	yubikey-manager
+repo	community
+file	py3-ykman-5.8.0-r3.apk
+checksum	Q19oUR7b+pHeWx+xcdab1oRo/dso0=
+dep	python3~3.14	python3

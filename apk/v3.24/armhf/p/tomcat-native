@@ -1,0 +1,16 @@
+name	tomcat-native
+version	2.0.16-r0
+description	Native resources optional component for Apache Tomcat
+url	https://tomcat.apache.org/native-doc/
+license	Apache-2.0
+size	25672
+installed-size	58608
+depends	so:libapr-1.so.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	tomcat-native
+repo	community
+file	tomcat-native-2.0.16-r0.apk
+checksum	Q1B3nC9Z9ZFP6/vBgLQRCJxdO5PVE=
+dep	so:libapr-1.so.0	apr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

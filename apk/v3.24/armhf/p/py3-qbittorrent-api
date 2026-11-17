@@ -1,0 +1,15 @@
+name	py3-qbittorrent-api
+version	2026.5.0-r0
+description	Python client implementation for qBittorrent's Web API
+url	https://github.com/rmartin16/qbittorrent-api
+license	MIT
+size	59771
+installed-size	321950
+depends	py3-requests py3-setuptools python3~3.14
+origin	py3-qbittorrent-api
+repo	community
+file	py3-qbittorrent-api-2026.5.0-r0.apk
+checksum	Q1PgZ70Pg0EcqlnLJae5DvCSfvM5Y=
+dep	py3-requests	py3-requests
+dep	py3-setuptools	py3-setuptools
+dep	python3~3.14	python3

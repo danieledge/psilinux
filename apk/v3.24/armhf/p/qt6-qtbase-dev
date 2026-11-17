@@ -1,0 +1,61 @@
+name	qt6-qtbase-dev
+version	6.11.1-r0
+description	A cross-platform application and UI framework (development files)
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	8315065
+installed-size	22669944
+depends	qt6-qtbase-mysql qt6-qtbase-odbc qt6-qtbase-postgresql qt6-qtbase-sqlite qt6-qtbase-x11 qt6-qtbase-wayland at-spi2-core-dev cups-dev dbus-dev double-conversion-dev eudev-dev fontconfig-dev freetype-dev glib-dev harfbuzz-dev icu-dev libb2-dev libinput-dev libjpeg-turbo-dev libpng-dev libpq-dev libproxy-dev libxkbcommon-dev mariadb-dev mesa-dev openssl-dev>3 pcre2-dev sqlite-dev tslib-dev unixodbc-dev vulkan-headers vulkan-loader-dev wayland-dev xcb-util-cursor-dev xcb-util-dev xcb-util-image-dev xcb-util-keysyms-dev xcb-util-renderutil-dev xcb-util-wm-dev zlib-dev qt6-qtbase-wayland=6.11.1-r0 qt6-qtbase-x11=6.11.1-r0 qt6-qtbase=6.11.1-r0 pkgconfig so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	qt6-qtbase
+repo	community
+file	qt6-qtbase-dev-6.11.1-r0.apk
+checksum	Q1bS/7CqwKKIZHr1W+Ye7LLcSRiIQ=
+dep	qt6-qtbase-mysql	qt6-qtbase-mysql
+dep	qt6-qtbase-odbc	qt6-qtbase-odbc
+dep	qt6-qtbase-postgresql	qt6-qtbase-postgresql
+dep	qt6-qtbase-sqlite	qt6-qtbase-sqlite
+dep	qt6-qtbase-x11	qt6-qtbase-x11
+dep	qt6-qtbase-wayland	qt6-qtbase-wayland
+dep	at-spi2-core-dev	at-spi2-core-dev
+dep	cups-dev	cups-dev
+dep	dbus-dev	dbus-dev
+dep	double-conversion-dev	double-conversion-dev
+dep	eudev-dev	eudev-dev
+dep	fontconfig-dev	fontconfig-dev
+dep	freetype-dev	freetype-dev
+dep	glib-dev	glib-dev
+dep	harfbuzz-dev	harfbuzz-dev
+dep	icu-dev	icu-dev
+dep	libb2-dev	libb2-dev
+dep	libinput-dev	libinput-dev
+dep	libjpeg-turbo-dev	libjpeg-turbo-dev
+dep	libpng-dev	libpng-dev
+dep	libpq-dev	libpq-dev
+dep	libproxy-dev	libproxy-dev
+dep	libxkbcommon-dev	libxkbcommon-dev
+dep	mariadb-dev	mariadb-dev
+dep	mesa-dev	mesa-dev
+dep	openssl-dev>3	openssl-dev
+dep	pcre2-dev	pcre2-dev
+dep	sqlite-dev	sqlite-dev
+dep	tslib-dev	tslib-dev
+dep	unixodbc-dev	unixodbc-dev
+dep	vulkan-headers	vulkan-headers
+dep	vulkan-loader-dev	vulkan-loader-dev
+dep	wayland-dev	wayland-dev
+dep	xcb-util-cursor-dev	xcb-util-cursor-dev
+dep	xcb-util-dev	xcb-util-dev
+dep	xcb-util-image-dev	xcb-util-image-dev
+dep	xcb-util-keysyms-dev	xcb-util-keysyms-dev
+dep	xcb-util-renderutil-dev	xcb-util-renderutil-dev
+dep	xcb-util-wm-dev	xcb-util-wm-dev
+dep	zlib-dev	zlib-dev
+dep	qt6-qtbase-wayland=6.11.1-r0	qt6-qtbase-wayland
+dep	qt6-qtbase-x11=6.11.1-r0	qt6-qtbase-x11
+dep	qt6-qtbase=6.11.1-r0	qt6-qtbase
+dep	pkgconfig	pkgconf
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6DBus.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

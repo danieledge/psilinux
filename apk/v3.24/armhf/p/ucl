@@ -1,0 +1,13 @@
+name	ucl
+version	1.03-r3
+description	Portable lossless data compression library written in ANSI C
+url	http://www.oberhumer.com/opensource/ucl/
+license	GPL-2.0
+size	17381
+installed-size	46208
+depends	so:libc.musl-armhf.so.1
+origin	ucl
+repo	community
+file	ucl-1.03-r3.apk
+checksum	Q1n3JGW23z0oX785pZUGtFsG+hNh8=
+dep	so:libc.musl-armhf.so.1	musl

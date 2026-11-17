@@ -1,0 +1,16 @@
+name	logrotate
+version	3.22.0-r0
+description	Tool to rotate logfiles
+url	https://github.com/logrotate/logrotate
+license	GPL-2.0-or-later
+size	36177
+installed-size	71896
+depends	/bin/sh so:libacl.so.1 so:libc.musl-armhf.so.1 so:libpopt.so.0
+origin	logrotate
+repo	main
+file	logrotate-3.22.0-r0.apk
+checksum	Q1HWnizSYoZwIw0N271GgoGbcRQ5U=
+dep	/bin/sh	busybox-binsh
+dep	so:libacl.so.1	acl-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpopt.so.0	popt

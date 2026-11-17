@@ -1,0 +1,22 @@
+name	google-cloud-cpp-rest_internal
+version	2.47.0-r0
+description	C++ Client Libraries for Google Cloud Services (rest_internal)
+url	https://cloud.google.com/sdk
+license	Apache-2.0
+size	279862
+installed-size	791936
+depends	so:libabsl_raw_logging_internal.so.2508.0.0 so:libabsl_strings.so.2508.0.0 so:libabsl_time.so.2508.0.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgcc_s.so.1 so:libgoogle_cloud_cpp_common.so.2 so:libssl.so.3 so:libstdc++.so.6
+origin	google-cloud-cpp
+repo	community
+file	google-cloud-cpp-rest_internal-2.47.0-r0.apk
+checksum	Q1EN4Byy+aB8fUQTc16WKrM+k83I8=
+dep	so:libabsl_raw_logging_internal.so.2508.0.0	abseil-cpp-raw-logging-internal
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libabsl_time.so.2508.0.0	abseil-cpp-time
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgoogle_cloud_cpp_common.so.2	google-cloud-cpp
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++

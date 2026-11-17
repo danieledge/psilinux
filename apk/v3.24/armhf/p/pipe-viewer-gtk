@@ -1,0 +1,15 @@
+name	pipe-viewer-gtk
+version	0.5.3-r0
+description	Lightweight YouTube client that does not require an YouTube API key (GTK interface)
+url	https://github.com/trizen/pipe-viewer
+license	Artistic-2.0
+size	176114
+installed-size	412578
+depends	pipe-viewer perl-gtk3 perl-file-sharedir
+origin	pipe-viewer
+repo	community
+file	pipe-viewer-gtk-0.5.3-r0.apk
+checksum	Q1nv3bPJ89R92wVFCixN7t65QdCG0=
+dep	pipe-viewer	pipe-viewer
+dep	perl-gtk3	perl-gtk3
+dep	perl-file-sharedir	perl-file-sharedir

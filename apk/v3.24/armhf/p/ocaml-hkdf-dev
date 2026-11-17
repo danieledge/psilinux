@@ -1,0 +1,15 @@
+name	ocaml-hkdf-dev
+version	1.0.4-r5
+description	HMAC-based Extract-and-Expand Key Derivation Function (RFC 5869) (development files)
+url	https://github.com/hannesm/ocaml-hkdf
+license	BSD-2-Clause
+size	18571
+installed-size	40530
+depends	ocaml-hkdf=1.0.4-r5 ocaml-cstruct-dev ocaml-mirage-crypto-dev
+origin	ocaml-hkdf
+repo	community
+file	ocaml-hkdf-dev-1.0.4-r5.apk
+checksum	Q1dRwGN0ewnCrLTfrT7CtCMzD/HMI=
+dep	ocaml-hkdf=1.0.4-r5	ocaml-hkdf
+dep	ocaml-cstruct-dev	ocaml-cstruct-dev
+dep	ocaml-mirage-crypto-dev	ocaml-mirage-crypto-dev

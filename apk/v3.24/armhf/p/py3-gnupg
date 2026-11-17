@@ -1,0 +1,15 @@
+name	py3-gnupg
+version	0.5.4-r1
+description	Python3 wrapper for the Gnu Privacy Guard (GPG or GnuPG)
+url	https://gnupg.readthedocs.io/en/latest/
+license	BSD-3-Clause
+size	23001
+installed-size	87915
+depends	python3 gnupg python3~3.14
+origin	py3-gnupg
+repo	community
+file	py3-gnupg-0.5.4-r1.apk
+checksum	Q1uG+Q61t54nPVl7nPjXOehEDbi1g=
+dep	python3	python3
+dep	gnupg	gnupg
+dep	python3~3.14	python3

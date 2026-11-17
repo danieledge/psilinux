@@ -1,0 +1,13 @@
+name	libvorbis-static
+version	1.3.7-r2
+description	Vorbis codec library (static library)
+url	https://xiph.org/vorbis
+license	BSD-3-Clause
+size	213742
+installed-size	818680
+depends	libvorbis-dev
+origin	libvorbis
+repo	main
+file	libvorbis-static-1.3.7-r2.apk
+checksum	Q1YTIEUwDVdVL2a9Vipb6UqUkX5WU=
+dep	libvorbis-dev	libvorbis-dev

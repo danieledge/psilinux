@@ -1,0 +1,13 @@
+name	snowball
+version	2.2.0-r0
+description	Snowball rule-based stemming algorithms
+url	https://snowballstem.org/
+license	BSD-3-Clause
+size	249805
+installed-size	743996
+depends	so:libc.musl-armhf.so.1
+origin	snowball
+repo	main
+file	snowball-2.2.0-r0.apk
+checksum	Q1skVYjGJP/C28AD/d+goS2vSp24E=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	libavc1394
+version	0.5.4-r3
+description	Audio/Video Control library for IEEE-1394 devices
+url	https://sourceforge.net/projects/libavc1394/
+license	GPL-2.0-or-later LGPL-2.0-or-later
+size	34700
+installed-size	85716
+depends	so:libc.musl-armhf.so.1 so:libraw1394.so.11
+origin	libavc1394
+repo	community
+file	libavc1394-0.5.4-r3.apk
+checksum	Q1bFsiI3LzIkLEgazqSj/lR7gADp8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libraw1394.so.11	libraw1394

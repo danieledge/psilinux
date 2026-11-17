@@ -1,0 +1,46 @@
+name	xmltv
+version	1.4.0-r1
+description	Set of utilities to download tv listings and format them in xml
+url	https://xmltv.org/wiki
+license	GPL-2.0-or-later
+size	358758
+installed-size	1428322
+depends	perl-compress-raw-zlib perl-date-manip perl-datetime perl-datetime-format-iso8601 perl-datetime-format-sqlite perl-datetime-format-strptime perl-datetime-timezone perl-dbd-sqlite perl-dbi perl-digest-sha1 perl-file-homedir perl-file-slurp perl-file-which perl-http-cache-transparent perl-http-message perl-html-tree perl-io-gzip perl-io-stringy perl-libwww perl-lingua-en-numbers-ordinate perl-lingua-preferred perl-list-moreutils perl-lwp-protocol-https perl-lwp-useragent-determined perl-term-progressbar perl-term-readkey perl-test-requiresinternet perl-timedate perl-unicode-string perl-xml-libxml perl-xml-parser perl-xml-treepp perl-xml-twig perl-xml-writer
+origin	xmltv
+repo	community
+file	xmltv-1.4.0-r1.apk
+checksum	Q1I8f3nDTwSMG+hPThRAFURmFSJq4=
+dep	perl-compress-raw-zlib	perl-compress-raw-zlib
+dep	perl-date-manip	perl-date-manip
+dep	perl-datetime	perl-datetime
+dep	perl-datetime-format-iso8601	perl-datetime-format-iso8601
+dep	perl-datetime-format-sqlite	perl-datetime-format-sqlite
+dep	perl-datetime-format-strptime	perl-datetime-format-strptime
+dep	perl-datetime-timezone	perl-datetime-timezone
+dep	perl-dbd-sqlite	perl-dbd-sqlite
+dep	perl-dbi	perl-dbi
+dep	perl-digest-sha1	perl-digest-sha1
+dep	perl-file-homedir	perl-file-homedir
+dep	perl-file-slurp	perl-file-slurp
+dep	perl-file-which	perl-file-which
+dep	perl-http-cache-transparent	perl-http-cache-transparent
+dep	perl-http-message	perl-http-message
+dep	perl-html-tree	perl-html-tree
+dep	perl-io-gzip	perl-io-gzip
+dep	perl-io-stringy	perl-io-stringy
+dep	perl-libwww	perl-libwww
+dep	perl-lingua-en-numbers-ordinate	perl-lingua-en-numbers-ordinate
+dep	perl-lingua-preferred	perl-lingua-preferred
+dep	perl-list-moreutils	perl-list-moreutils
+dep	perl-lwp-protocol-https	perl-lwp-protocol-https
+dep	perl-lwp-useragent-determined	perl-lwp-useragent-determined
+dep	perl-term-progressbar	perl-term-progressbar
+dep	perl-term-readkey	perl-term-readkey
+dep	perl-test-requiresinternet	perl-test-requiresinternet
+dep	perl-timedate	perl-timedate
+dep	perl-unicode-string	perl-unicode-string
+dep	perl-xml-libxml	perl-xml-libxml
+dep	perl-xml-parser	perl-xml-parser
+dep	perl-xml-treepp	perl-xml-treepp
+dep	perl-xml-twig	perl-xml-twig
+dep	perl-xml-writer	perl-xml-writer

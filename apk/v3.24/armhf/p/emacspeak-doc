@@ -1,0 +1,14 @@
+name	emacspeak-doc
+version	59.0-r2
+description	Emacs audio desktop for eyes-free computing (documentation)
+url	https://emacspeak.sourceforge.net/
+license	GPL-2.0-or-later
+size	1184076
+installed-size	5083580
+depends	texinfo-doc emacs-doc
+origin	emacspeak
+repo	community
+file	emacspeak-doc-59.0-r2.apk
+checksum	Q1NNctM5DFyGecWSCFt8oWNbPCp3k=
+dep	texinfo-doc	texinfo-doc
+dep	emacs-doc	emacs-doc

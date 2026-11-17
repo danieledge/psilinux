@@ -1,0 +1,13 @@
+name	geth
+version	1.17.0-r5
+description	Official Go implementation of the Ethereum protocol
+url	https://geth.ethereum.org/
+license	LGPL-3.0-or-later
+size	19994563
+installed-size	53568228
+depends	so:libc.musl-armhf.so.1
+origin	geth
+repo	community
+file	geth-1.17.0-r5.apk
+checksum	Q1bsJ21r4vEilC/zRqWEnnWv3hKxw=
+dep	so:libc.musl-armhf.so.1	musl

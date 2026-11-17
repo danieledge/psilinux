@@ -1,0 +1,14 @@
+name	ldap-passwd-webui-waitress
+version	2.1.0-r5
+description	Runscript for ldap-passwd-webui using Waitress WSGI server
+url	https://github.com/jirutka/ldap-passwd-webui
+license	MIT
+size	2449
+installed-size	1481
+depends	ldap-passwd-webui=2.1.0-r5 py3-waitress
+origin	ldap-passwd-webui
+repo	community
+file	ldap-passwd-webui-waitress-2.1.0-r5.apk
+checksum	Q12jHVndvfRnlZWfsXCbIpyehIN/A=
+dep	ldap-passwd-webui=2.1.0-r5	ldap-passwd-webui
+dep	py3-waitress	py3-waitress

@@ -1,0 +1,14 @@
+name	ddnsc
+version	2.3.0-r0
+description	simple dynamic dns update tool that supports multiple service providers
+url	https://github.com/shyaminayesh/ddnsc
+license	GPL-3.0-or-later
+size	7132
+installed-size	18527
+depends	python3 py3-requests
+origin	ddnsc
+repo	community
+file	ddnsc-2.3.0-r0.apk
+checksum	Q12EJnkdyCG4aXHPgsuyB5nq4FUJk=
+dep	python3	python3
+dep	py3-requests	py3-requests

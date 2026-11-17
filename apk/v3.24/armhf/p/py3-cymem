@@ -1,0 +1,15 @@
+name	py3-cymem
+version	2.0.13-r1
+description	Cython memory pool for RAll-style memory management
+url	https://github.com/explosion/cymem
+license	MIT
+size	50975
+installed-size	122319
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	py3-cymem
+repo	community
+file	py3-cymem-2.0.13-r1.apk
+checksum	Q15HrevHYzsZnYG9uFzJW3LTxxH+Y=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

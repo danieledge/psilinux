@@ -1,0 +1,23 @@
+name	timed
+version	3.6.24-r2
+description	The time daemon manages system time, timezone and settings, executing actions at given time and managing the event queue
+url	https://github.com/sailfishos/timed
+license	LGPL-2.1-only
+size	503077
+installed-size	1273960
+depends	tzdata-timed /bin/sh so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libc.musl-armhf.so.1 so:libdsme_dbus_if.so.0 so:libelogind.so.0 so:libgcc_s.so.1 so:libiodata-qt6.so.0 so:libsailfishaccesscontrol.so.0 so:libstdc++.so.6
+origin	timed
+repo	community
+file	timed-3.6.24-r2.apk
+checksum	Q1G2ONlYPHJq5wI5167nhNl1vnLMg=
+dep	tzdata-timed	tzdata-timed
+dep	/bin/sh	busybox-binsh
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6DBus.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdsme_dbus_if.so.0	libdsme
+dep	so:libelogind.so.0	libelogind
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libiodata-qt6.so.0	libiodata
+dep	so:libsailfishaccesscontrol.so.0	sailfish-access-control
+dep	so:libstdc++.so.6	libstdc++

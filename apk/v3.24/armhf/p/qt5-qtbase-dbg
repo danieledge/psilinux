@@ -1,0 +1,12 @@
+name	qt5-qtbase-dbg
+version	5.15.18_git20251101-r0
+description	Qt5 - QtBase components (debug symbols)
+url	https://qt.io/developers/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	89901091
+installed-size	218092908
+depends	!qt5-qtbase-dev<5.15.18_git20251101-r0 !qt5-qtbase-dev>5.15.18_git20251101-r0 !qt5-qtbase-mysql<5.15.18_git20251101-r0 !qt5-qtbase-mysql>5.15.18_git20251101-r0 !qt5-qtbase-odbc<5.15.18_git20251101-r0 !qt5-qtbase-odbc>5.15.18_git20251101-r0 !qt5-qtbase-postgresql<5.15.18_git20251101-r0 !qt5-qtbase-postgresql>5.15.18_git20251101-r0 !qt5-qtbase-sqlite<5.15.18_git20251101-r0 !qt5-qtbase-sqlite>5.15.18_git20251101-r0 !qt5-qtbase-tds<5.15.18_git20251101-r0 !qt5-qtbase-tds>5.15.18_git20251101-r0 !qt5-qtbase-x11<5.15.18_git20251101-r0 !qt5-qtbase-x11>5.15.18_git20251101-r0 !qt5-qtbase<5.15.18_git20251101-r0 !qt5-qtbase>5.15.18_git20251101-r0
+origin	qt5-qtbase
+repo	community
+file	qt5-qtbase-dbg-5.15.18_git20251101-r0.apk
+checksum	Q1dO3ceuL+Hibbf2JhOzJvLipW8gA=

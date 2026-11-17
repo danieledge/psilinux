@@ -1,0 +1,16 @@
+name	binutils-x86_64
+version	2.45.1-r1
+description	Tools necessary to build programs for x86_64
+url	https://www.gnu.org/software/binutils/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-3-Clause
+size	8965280
+installed-size	21565430
+depends	so:libc.musl-armhf.so.1 so:libjansson.so.4 so:libz.so.1 so:libzstd.so.1
+origin	binutils
+repo	main
+file	binutils-x86_64-2.45.1-r1.apk
+checksum	Q1fOcagWyEQtI021jwha1DI6TNfSA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjansson.so.4	jansson
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

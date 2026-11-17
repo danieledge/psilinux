@@ -1,0 +1,45 @@
+name	ocaml-happy-eyeballs
+version	0.3.0-r5
+description	Connecting to a remote host via IP version 4 or 6
+url	https://github.com/roburio/happy-eyeballs
+license	ISC
+size	86300
+installed-size	186234
+depends	ocaml4-impl:Domain_name:e157b887927b0b0585b3f38cd6c53832 ocaml4-impl:Duration:81d2c8abc48bb2aec48ec9a4cd2076aa ocaml4-impl:Fmt:f30d4a24fc2a22a1c521394204953fad ocaml4-impl:Ipaddr:4dc63a7eb26509385d8705672148fdf2 ocaml4-impl:Logs:8606ff331194fb8ebbfdcb18cffd7963 ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2 ocaml4-impl:Stdlib__Int:8cbe4d3e4c0ed874730c93f615a8ea9b ocaml4-impl:Stdlib__List:b42dc21c9462b2cabc74ab8825425e32 ocaml4-impl:Stdlib__Map:63d09314450d20359192b1ccd9beca41 ocaml4-impl:Stdlib__String:5c54069e57efa544d2be471c6a1fc73d ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15 ocaml4-intf:Domain_name:95decf8956131f4d441d2d7ce81f86be ocaml4-intf:Duration:36c97ea916685f38de78134271ffb762 ocaml4-intf:Fmt:3cd862d1191e5d0a44f4aef159a1956b ocaml4-intf:Ipaddr:27771e000834fa93a8d629b0656c19df ocaml4-intf:Logs:1ba2f56af824c3413a3931c375a1bcd0 ocaml4-intf:Macaddr:0fe3bc360630a16e52f2f54aa20e5d92 ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91 ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822 ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9 ocaml4-intf:Stdlib__Format:b6edb97b685819e873481fe05723c8bc ocaml4-intf:Stdlib__Hashtbl:34c0fdd524bf2a75e4d5af64a6d34401 ocaml4-intf:Stdlib__Int64:0fa5587c47baf16a06837c7dedfc2518 ocaml4-intf:Stdlib__Int:9ce5bca90faa4722bb0d4655ac2e9836 ocaml4-intf:Stdlib__List:ee222542f6f8195441543b8b399b64b9 ocaml4-intf:Stdlib__Map:978f82916b5a172c11d2b72719d85680 ocaml4-intf:Stdlib__Printexc:ae914d0568e8b6e482a66bbd62a4432f ocaml4-intf:Stdlib__Queue:b066724fe533c7b8fc9b521e37aedad8 ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962 ocaml4-intf:Stdlib__Set:871d2ee2167ac9e7977fa13994cf4658 ocaml4-intf:Stdlib__Stack:30ae8c258e7fc6fb7e6370a60256d724 ocaml4-intf:Stdlib__String:4933e1d855f54bfed0231b038f0dbb87 ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57
+origin	ocaml-happy-eyeballs
+repo	community
+file	ocaml-happy-eyeballs-0.3.0-r5.apk
+checksum	Q1xoXQHlFOQEOnYe+d9hRHiswvAU4=
+dep	ocaml4-impl:Domain_name:e157b887927b0b0585b3f38cd6c53832	ocaml-domain-name
+dep	ocaml4-impl:Duration:81d2c8abc48bb2aec48ec9a4cd2076aa	ocaml-duration
+dep	ocaml4-impl:Fmt:f30d4a24fc2a22a1c521394204953fad	ocaml-fmt
+dep	ocaml4-impl:Ipaddr:4dc63a7eb26509385d8705672148fdf2	ocaml-ipaddr
+dep	ocaml4-impl:Logs:8606ff331194fb8ebbfdcb18cffd7963	ocaml-logs
+dep	ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2	ocaml
+dep	ocaml4-impl:Stdlib__Int:8cbe4d3e4c0ed874730c93f615a8ea9b	ocaml
+dep	ocaml4-impl:Stdlib__List:b42dc21c9462b2cabc74ab8825425e32	ocaml
+dep	ocaml4-impl:Stdlib__Map:63d09314450d20359192b1ccd9beca41	ocaml
+dep	ocaml4-impl:Stdlib__String:5c54069e57efa544d2be471c6a1fc73d	ocaml
+dep	ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15	ocaml
+dep	ocaml4-intf:Domain_name:95decf8956131f4d441d2d7ce81f86be	ocaml-domain-name
+dep	ocaml4-intf:Duration:36c97ea916685f38de78134271ffb762	ocaml-duration
+dep	ocaml4-intf:Fmt:3cd862d1191e5d0a44f4aef159a1956b	ocaml-fmt
+dep	ocaml4-intf:Ipaddr:27771e000834fa93a8d629b0656c19df	ocaml-ipaddr
+dep	ocaml4-intf:Logs:1ba2f56af824c3413a3931c375a1bcd0	ocaml-logs
+dep	ocaml4-intf:Macaddr:0fe3bc360630a16e52f2f54aa20e5d92	ocaml-ipaddr
+dep	ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91	ocaml
+dep	ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822	ocaml
+dep	ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9	ocaml
+dep	ocaml4-intf:Stdlib__Format:b6edb97b685819e873481fe05723c8bc	ocaml
+dep	ocaml4-intf:Stdlib__Hashtbl:34c0fdd524bf2a75e4d5af64a6d34401	ocaml
+dep	ocaml4-intf:Stdlib__Int64:0fa5587c47baf16a06837c7dedfc2518	ocaml
+dep	ocaml4-intf:Stdlib__Int:9ce5bca90faa4722bb0d4655ac2e9836	ocaml
+dep	ocaml4-intf:Stdlib__List:ee222542f6f8195441543b8b399b64b9	ocaml
+dep	ocaml4-intf:Stdlib__Map:978f82916b5a172c11d2b72719d85680	ocaml
+dep	ocaml4-intf:Stdlib__Printexc:ae914d0568e8b6e482a66bbd62a4432f	ocaml
+dep	ocaml4-intf:Stdlib__Queue:b066724fe533c7b8fc9b521e37aedad8	ocaml
+dep	ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962	ocaml
+dep	ocaml4-intf:Stdlib__Set:871d2ee2167ac9e7977fa13994cf4658	ocaml
+dep	ocaml4-intf:Stdlib__Stack:30ae8c258e7fc6fb7e6370a60256d724	ocaml
+dep	ocaml4-intf:Stdlib__String:4933e1d855f54bfed0231b038f0dbb87	ocaml
+dep	ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57	ocaml

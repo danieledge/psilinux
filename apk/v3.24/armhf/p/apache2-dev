@@ -1,0 +1,14 @@
+name	apache2-dev
+version	2.4.71-r0
+description	A high performance Unix-based HTTP server (development files)
+url	https://httpd.apache.org/
+license	Apache-2.0
+size	221655
+installed-size	917427
+depends	perl apr-util-dev
+origin	apache2
+repo	main
+file	apache2-dev-2.4.71-r0.apk
+checksum	Q1FolEprxVTXMohkCLJ4qBhdIs4iw=
+dep	perl	perl
+dep	apr-util-dev	apr-util-dev

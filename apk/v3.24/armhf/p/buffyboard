@@ -1,0 +1,16 @@
+name	buffyboard
+version	3.2.0-r1
+description	Touch-enabled framebuffer keyboard (not only) for vampire slayers
+url	https://gitlab.postmarketos.org/postmarketOS/buffybox/-/tree/master/buffyboard#buffyboard
+license	GPL-3.0-or-later
+size	689922
+installed-size	1730252
+depends	so:libc.musl-armhf.so.1 so:libinih.so.0 so:libinput.so.10 so:libudev.so.1
+origin	buffyboard
+repo	community
+file	buffyboard-3.2.0-r1.apk
+checksum	Q1RhPBEyVclmO/6L2px7T++CYFiMs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libinih.so.0	inih
+dep	so:libinput.so.10	libinput-libs
+dep	so:libudev.so.1	eudev-libs

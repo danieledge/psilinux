@@ -1,0 +1,14 @@
+name	py3-aioresponses
+version	0.7.8-r2
+description	Helper to mock/fake web requests in the aiohttp package
+url	https://github.com/pnuckowski/aioresponses
+license	MIT
+size	11625
+installed-size	35623
+depends	py3-packaging python3~3.14
+origin	py3-aioresponses
+repo	community
+file	py3-aioresponses-0.7.8-r2.apk
+checksum	Q1pD561wL3ye8SZNR7GwADseBnEe8=
+dep	py3-packaging	py3-packaging
+dep	python3~3.14	python3

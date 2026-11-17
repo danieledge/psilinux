@@ -1,0 +1,13 @@
+name	ansible-core-pyc
+version	2.21.0-r0
+description	Precompiled Python bytecode for ansible-core
+url	https://ansible.com
+license	GPL-3.0-or-later
+size	3357645
+installed-size	8519162
+depends	python3~3.14
+origin	ansible-core
+repo	community
+file	ansible-core-pyc-2.21.0-r0.apk
+checksum	Q13eyBI9FbowhE/nKI8QdjFDXe1H4=
+dep	python3~3.14	python3

@@ -1,0 +1,14 @@
+name	fnlfmt-lua
+version	0.3.2-r0
+description	A formatter for Fennel code
+url	https://git.sr.ht/~technomancy/fnlfmt
+license	MIT
+size	6328
+installed-size	18355
+depends	lua5.4 fennel-lua
+origin	fnlfmt
+repo	community
+file	fnlfmt-lua-0.3.2-r0.apk
+checksum	Q1JjmRxbel4/0NGJ/x80mILL9FldI=
+dep	lua5.4	lua5.4
+dep	fennel-lua	fennel-lua

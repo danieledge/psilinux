@@ -1,0 +1,13 @@
+name	py3-gpsd
+version	3.27.3-r1
+description	gpsd library and clients for python py3-gpsd
+url	https://gpsd.io/
+license	BSD-2-Clause
+size	163368
+installed-size	759820
+depends	python3~3.14
+origin	gpsd
+repo	main
+file	py3-gpsd-3.27.3-r1.apk
+checksum	Q1H+QS0+AnOEsSiu1uULN03CNwpEw=
+dep	python3~3.14	python3

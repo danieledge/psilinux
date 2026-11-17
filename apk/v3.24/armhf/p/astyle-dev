@@ -1,0 +1,14 @@
+name	astyle-dev
+version	3.6.16-r0
+description	Automatic code formatter (development files)
+url	https://sourceforge.net/projects/astyle/
+license	MIT
+size	11624
+installed-size	43254
+depends	astyle=3.6.16-r0 astyle-libs=3.6.16-r0
+origin	astyle
+repo	community
+file	astyle-dev-3.6.16-r0.apk
+checksum	Q1G98HdnCMmMZWEPWfjZvzdTb1wcU=
+dep	astyle=3.6.16-r0	astyle
+dep	astyle-libs=3.6.16-r0	astyle-libs

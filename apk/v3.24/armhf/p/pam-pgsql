@@ -1,0 +1,16 @@
+name	pam-pgsql
+version	0.7.3.2-r4
+description	PAM module to authenticate using a PostgreSQL database
+url	https://github.com/pam-pgsql/pam-pgsql
+license	GPL-2.0-or-later
+size	10602
+installed-size	21784
+depends	so:libc.musl-armhf.so.1 so:libgcrypt.so.20 so:libpam.so.0 so:libpq.so.5
+origin	pam-pgsql
+repo	main
+file	pam-pgsql-0.7.3.2-r4.apk
+checksum	Q1x59Okqu1NFADrO/01xoU2XGNu94=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libpam.so.0	linux-pam
+dep	so:libpq.so.5	libpq

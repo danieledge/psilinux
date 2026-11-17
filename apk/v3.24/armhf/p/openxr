@@ -1,0 +1,15 @@
+name	openxr
+version	1.1.60-r0
+description	OpenXR loader library
+url	https://khronos.org/openxr
+license	Apache-2.0
+size	181543
+installed-size	435588
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	openxr
+repo	community
+file	openxr-1.1.60-r0.apk
+checksum	Q1qy1hxbtHczt7iJBeLH1PXBCYx5o=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

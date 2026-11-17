@@ -1,0 +1,13 @@
+name	py3-hiredis-pyc
+version	3.4.0-r0
+description	Precompiled Python bytecode for py3-hiredis
+url	https://github.com/redis/hiredis-py
+license	BSD-3-Clause
+size	2156
+installed-size	612
+depends	python3~3.14
+origin	py3-hiredis
+repo	community
+file	py3-hiredis-pyc-3.4.0-r0.apk
+checksum	Q1w2DAG29hHVj998e0lU1c5n9005k=
+dep	python3~3.14	python3

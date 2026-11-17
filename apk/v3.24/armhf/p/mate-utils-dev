@@ -1,0 +1,15 @@
+name	mate-utils-dev
+version	1.28.0-r1
+description	Utilities for the MATE Desktop (development files)
+url	https://github.com/mate-desktop/mate-utils
+license	GPL-2.0-or-later
+size	9639
+installed-size	47736
+depends	mate-dictionary=1.28.0-r1 pc:gtk+-3.0>=3.22.0 pkgconfig
+origin	mate-utils
+repo	community
+file	mate-utils-dev-1.28.0-r1.apk
+checksum	Q13c8BQHsnuK6qbEPrPWaKU7ftdTw=
+dep	mate-dictionary=1.28.0-r1	mate-dictionary
+dep	pc:gtk+-3.0>=3.22.0	gtk+3.0-dev
+dep	pkgconfig	pkgconf

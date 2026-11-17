@@ -1,0 +1,25 @@
+name	love
+version	11.5-r1
+description	A Lua 2D Graphics Library
+url	https://love2d.org
+license	Zlib
+size	1513168
+installed-size	3434401
+depends	so:libSDL2-2.0.so.0 so:libc.musl-armhf.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libluajit-5.1.so.2 so:libmodplug.so.1 so:libmpg123.so.0 so:libogg.so.0 so:libopenal.so.1 so:libstdc++.so.6 so:libtheoradec.so.2 so:libvorbisfile.so.3 so:libz.so.1
+origin	love
+repo	community
+file	love-11.5-r1.apk
+checksum	Q1idMMqUM9sz+J2oZJWyEo6vBJoYs=
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libluajit-5.1.so.2	luajit
+dep	so:libmodplug.so.1	libmodplug
+dep	so:libmpg123.so.0	mpg123-libs
+dep	so:libogg.so.0	libogg
+dep	so:libopenal.so.1	openal-soft-libs
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtheoradec.so.2	libtheora
+dep	so:libvorbisfile.so.3	libvorbis
+dep	so:libz.so.1	zlib

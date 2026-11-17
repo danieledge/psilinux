@@ -1,0 +1,25 @@
+name	gource
+version	0.56-r1
+description	Software version control visualization
+url	https://gource.io/
+license	GPL-3.0-or-later
+size	733896
+installed-size	1664979
+depends	so:libGL.so.1 so:libGLEW.so.2.3 so:libGLU.so.1 so:libSDL2-2.0.so.0 so:libSDL2_image-2.0.so.0 so:libboost_filesystem.so.1.84.0 so:libc.musl-armhf.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libpcre2-8.so.0 so:libpng16.so.16 so:libstdc++.so.6 so:libtinyxml.so.0
+origin	gource
+repo	community
+file	gource-0.56-r1.apk
+checksum	Q1CgoiNWlqsGNjLmTwOKg8rbPfklw=
+dep	so:libGL.so.1	mesa-gl
+dep	so:libGLEW.so.2.3	glew
+dep	so:libGLU.so.1	glu
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libSDL2_image-2.0.so.0	sdl2_image
+dep	so:libboost_filesystem.so.1.84.0	boost1.84-filesystem
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtinyxml.so.0	tinyxml

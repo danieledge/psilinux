@@ -1,0 +1,13 @@
+name	physfs-static
+version	3.2.0-r2
+description	Library providing access to various archives, for use in video games (static library)
+url	https://icculus.org/physfs/
+license	Zlib
+size	82756
+installed-size	198006
+depends	physfs-dev
+origin	physfs
+repo	community
+file	physfs-static-3.2.0-r2.apk
+checksum	Q1gXx+jWxS3ovJ/CpUXe62eh6VLrg=
+dep	physfs-dev	physfs-dev

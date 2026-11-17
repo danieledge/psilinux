@@ -1,0 +1,24 @@
+name	celery
+version	5.6.3-r1
+description	An asynchronous task queue/job queue based on distributed message passing
+url	http://www.celeryproject.org/
+license	Apache-2.0
+size	402388
+installed-size	1501263
+depends	py3-billiard py3-click py3-click-didyoumean py3-click-plugins py3-click-repl py3-dateutil py3-kombu py3-tzlocal py3-vine python3 /bin/sh python3~3.14
+origin	celery
+repo	community
+file	celery-5.6.3-r1.apk
+checksum	Q1SJCwjXZRvgLG1BFO9iX82QLTjI0=
+dep	py3-billiard	py3-billiard
+dep	py3-click	py3-click
+dep	py3-click-didyoumean	py3-click-didyoumean
+dep	py3-click-plugins	py3-click-plugins
+dep	py3-click-repl	py3-click-repl
+dep	py3-dateutil	py3-dateutil
+dep	py3-kombu	py3-kombu
+dep	py3-tzlocal	py3-tzlocal
+dep	py3-vine	py3-vine
+dep	python3	python3
+dep	/bin/sh	busybox-binsh
+dep	python3~3.14	python3

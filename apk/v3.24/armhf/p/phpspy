@@ -1,0 +1,14 @@
+name	phpspy
+version	0.7.0-r0
+description	Low-overhead sampling profiler for PHP
+url	https://github.com/adsr/phpspy
+license	MIT
+size	60581
+installed-size	170194
+depends	perl so:libc.musl-armhf.so.1
+origin	phpspy
+repo	community
+file	phpspy-0.7.0-r0.apk
+checksum	Q1oM77k6zUsAHR2CnCAGO0QooDD1Q=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

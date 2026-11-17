@@ -1,0 +1,20 @@
+name	libgsf
+version	1.14.58-r0
+description	Utility library for reading and writing structured file formats
+url	https://gitlab.gnome.org/GNOME/libgsf
+license	LGPL-2.1-only
+size	118814
+installed-size	289112
+depends	so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libxml2.so.2 so:libz.so.1
+origin	libgsf
+repo	community
+file	libgsf-1.14.58-r0.apk
+checksum	Q1A2MQGijquoDecj3xBfwI9zW2Xwk=
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

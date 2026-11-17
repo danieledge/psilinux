@@ -1,0 +1,13 @@
+name	libretro-sameboy
+version	0_git20240629-r0
+description	Gameboy and Gameboy Color emulator for libretro
+url	https://github.com/libretro/SameBoy
+license	MIT
+size	115933
+installed-size	280780
+depends	so:libc.musl-armhf.so.1
+origin	libretro-sameboy
+repo	community
+file	libretro-sameboy-0_git20240629-r0.apk
+checksum	Q1lzE0IUO4r3JZNa6C/2QFBi/qj6Y=
+dep	so:libc.musl-armhf.so.1	musl

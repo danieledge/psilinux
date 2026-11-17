@@ -1,0 +1,15 @@
+name	uwsgi-pam
+version	2.0.31-r2
+description	uWSGI plugin pam
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	3846
+installed-size	5656
+depends	uwsgi so:libc.musl-armhf.so.1 so:libpam.so.0
+origin	uwsgi
+repo	main
+file	uwsgi-pam-2.0.31-r2.apk
+checksum	Q1oOZUyLX63EdgbJDKVL+vzp5jVTs=
+dep	uwsgi	uwsgi
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpam.so.0	linux-pam

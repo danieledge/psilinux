@@ -1,0 +1,15 @@
+name	xrandr
+version	1.5.4-r0
+description	Command line interface to RandR extension
+url	https://www.x.org/wiki/
+license	MIT
+size	27797
+installed-size	54512
+depends	so:libX11.so.6 so:libXrandr.so.2 so:libc.musl-armhf.so.1
+origin	xrandr
+repo	community
+file	xrandr-1.5.4-r0.apk
+checksum	Q1tMF6n2+tSvWs76SxkCXl8Zf6fa8=
+dep	so:libX11.so.6	libx11
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libc.musl-armhf.so.1	musl

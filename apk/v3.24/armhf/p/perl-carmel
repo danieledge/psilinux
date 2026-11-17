@@ -1,0 +1,26 @@
+name	perl-carmel
+version	0.1.56-r1
+description	CPAN Artifact Repository Manager
+url	https://metacpan.org/release/Carmel/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	19456
+installed-size	57129
+depends	perl perl-file-copy-recursive perl-module-runtime perl-path-tiny perl-module-cpanfile perl-cpan-common-index perl-menlo-legacy perl-try-tiny perl-cpan-distnameinfo perl-class-tiny perl-file-pushd perl-carton perl-json perl-extutils-installpaths
+origin	perl-carmel
+repo	community
+file	perl-carmel-0.1.56-r1.apk
+checksum	Q1rYzVCEFV7ZQi0D2tHFeA0bS74Vg=
+dep	perl	perl
+dep	perl-file-copy-recursive	perl-file-copy-recursive
+dep	perl-module-runtime	perl-module-runtime
+dep	perl-path-tiny	perl-path-tiny
+dep	perl-module-cpanfile	perl-module-cpanfile
+dep	perl-cpan-common-index	perl-cpan-common-index
+dep	perl-menlo-legacy	perl-menlo-legacy
+dep	perl-try-tiny	perl-try-tiny
+dep	perl-cpan-distnameinfo	perl-cpan-distnameinfo
+dep	perl-class-tiny	perl-class-tiny
+dep	perl-file-pushd	perl-file-pushd
+dep	perl-carton	perl-carton
+dep	perl-json	perl-json
+dep	perl-extutils-installpaths	perl-extutils-installpaths

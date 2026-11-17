@@ -1,0 +1,15 @@
+name	perl-authen-sasl
+version	2.2000-r0
+description	SASL Authentication framework for perl
+url	https://metacpan.org/release/Authen-SASL/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	18981
+installed-size	66636
+depends	perl perl-digest-hmac perl-crypt-urandom
+origin	perl-authen-sasl
+repo	main
+file	perl-authen-sasl-2.2000-r0.apk
+checksum	Q1OPN3mTDJ6ZCXVBstAj0qwEPzIss=
+dep	perl	perl
+dep	perl-digest-hmac	perl-digest-hmac
+dep	perl-crypt-urandom	perl-crypt-urandom

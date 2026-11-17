@@ -1,0 +1,15 @@
+name	ruby-pg
+version	1.6.3-r0
+description	A PostgreSQL client library for Ruby
+url	https://github.com/ged/ruby-pg
+license	BSD-2-Clause PostgreSQL
+size	118667
+installed-size	296959
+depends	so:libc.musl-armhf.so.1 so:libpq.so.5 so:libruby.so.3.4
+origin	ruby-pg
+repo	community
+file	ruby-pg-1.6.3-r0.apk
+checksum	Q1r9a0Y1Jq7sbW43YX5lqpH1T/afI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq
+dep	so:libruby.so.3.4	ruby-libs

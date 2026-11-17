@@ -1,0 +1,14 @@
+name	bvi
+version	1.5.0-r0
+description	Display-oriented editor for binary files based on vi
+url	https://bvi.sourceforge.net/
+license	GPL-3.0-or-later
+size	46059
+installed-size	89336
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	bvi
+repo	community
+file	bvi-1.5.0-r0.apk
+checksum	Q1daJgbEeylB98XwhxwBs3CQVwL0k=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

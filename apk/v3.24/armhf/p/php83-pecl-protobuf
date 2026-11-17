@@ -1,0 +1,14 @@
+name	php83-pecl-protobuf
+version	5.34.0-r0
+description	PHP 8.3 extension: Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.
+url	https://pecl.php.net/package/protobuf
+license	BSD-3-Clause
+size	145710
+installed-size	352635
+depends	php83-common so:libc.musl-armhf.so.1
+origin	php83-pecl-protobuf
+repo	community
+file	php83-pecl-protobuf-5.34.0-r0.apk
+checksum	Q12Uae9xtkXO1ciEhdORNTHHJfH50=
+dep	php83-common	php83-common
+dep	so:libc.musl-armhf.so.1	musl

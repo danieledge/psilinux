@@ -1,0 +1,16 @@
+name	lua-copas
+version	4.7.1-r0
+description	Coroutine Oriented Portable Asynchronous Services for Lua
+url	https://lunarmodules.github.io/copas/
+license	MIT
+size	28071
+installed-size	97966
+depends	lua-binaryheap lua-coxpcall lua-socket lua-timerwheel
+origin	lua-copas
+repo	community
+file	lua-copas-4.7.1-r0.apk
+checksum	Q1pY2ufz1yve9rSz9X5LeN5OZuutk=
+dep	lua-binaryheap	lua-binaryheap
+dep	lua-coxpcall	lua-coxpcall
+dep	lua-socket	lua-socket
+dep	lua-timerwheel	lua-timerwheel

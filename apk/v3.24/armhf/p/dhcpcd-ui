@@ -1,0 +1,21 @@
+name	dhcpcd-ui
+version	0.7.9-r1
+description	GTK+ monitor and configuration GUI for dhcpcd
+url	https://roy.marples.name/projects/dhcpcd-ui
+license	BSD-2-Clause
+size	265397
+installed-size	936373
+depends	hicolor-icon-theme so:libc.musl-armhf.so.1 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libncursesw.so.6 so:libnotify.so.4
+origin	dhcpcd-ui
+repo	community
+file	dhcpcd-ui-0.7.9-r1.apk
+checksum	Q1l7sZv9/L15ehK7T8LxV2UPyN2W4=
+dep	hicolor-icon-theme	hicolor-icon-theme
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libnotify.so.4	libnotify

@@ -1,0 +1,16 @@
+name	apk-inspect
+version	0.1.0_pre2-r0
+description	CLI tool for reading Alpine's apk package format and APKBUILD
+url	https://github.com/jirutka/alpkit
+license	MIT
+size	337510
+installed-size	630572
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libz-ng.so.2
+origin	apk-inspect
+repo	community
+file	apk-inspect-0.1.0_pre2-r0.apk
+checksum	Q1LVFVEGZY+sZGd5ktbkfR/H0MjXk=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libz-ng.so.2	zlib-ng

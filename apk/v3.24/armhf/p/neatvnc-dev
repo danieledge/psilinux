@@ -1,0 +1,28 @@
+name	neatvnc-dev
+version	1.0.0-r0
+description	A liberally licensed VNC server library with a clean interface (development files)
+url	https://github.com/any1/neatvnc
+license	ISC
+size	8632
+installed-size	25266
+depends	neatvnc=1.0.0-r0 pc:aml1<2.0.0 pc:aml1>=1.0.0 pc:gbm pc:gmp pc:gnutls pc:hogweed pc:libavcodec pc:libavfilter pc:libavutil pc:libdrm pc:libturbojpeg pc:nettle pc:pixman-1 pc:zlib pkgconfig
+origin	neatvnc
+repo	community
+file	neatvnc-dev-1.0.0-r0.apk
+checksum	Q1ppmYsdcsr7XZ1vPxIcfM8i8i1lw=
+dep	neatvnc=1.0.0-r0	neatvnc
+dep	pc:aml1<2.0.0	aml-dev
+dep	pc:aml1>=1.0.0	aml-dev
+dep	pc:gbm	mesa-dev
+dep	pc:gmp	gmp-dev
+dep	pc:gnutls	gnutls-dev
+dep	pc:hogweed	nettle-dev
+dep	pc:libavcodec	ffmpeg-dev
+dep	pc:libavfilter	ffmpeg-dev
+dep	pc:libavutil	ffmpeg-dev
+dep	pc:libdrm	libdrm-dev
+dep	pc:libturbojpeg	libjpeg-turbo-dev
+dep	pc:nettle	nettle-dev
+dep	pc:pixman-1	pixman-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

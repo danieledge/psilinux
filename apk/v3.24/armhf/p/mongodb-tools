@@ -1,0 +1,14 @@
+name	mongodb-tools
+version	100.14.1-r5
+description	The MongoDB tools provide import, export, and diagnostic capabilities.
+url	https://github.com/mongodb/mongo-tools
+license	Apache-2.0
+size	38865719
+installed-size	100497192
+depends	so:libc.musl-armhf.so.1 so:libgssapi_krb5.so.2
+origin	mongodb-tools
+repo	community
+file	mongodb-tools-100.14.1-r5.apk
+checksum	Q1cuJGN7GHzEQgMdbdd7ISot5PkWQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgssapi_krb5.so.2	krb5-libs

@@ -1,0 +1,19 @@
+name	emacs-epkg
+version	3.3.3_git20240713-r1
+description	Browse the Emacsmirror package database
+url	https://github.com/emacscollective/epkg
+license	GPL-3.0-or-later
+size	37059
+installed-size	191194
+depends	cmd:emacs cmd:git cmd:sqlite3 emacs-closql emacs-compat emacs-emacsql emacs-llama
+origin	emacs-epkg
+repo	community
+file	emacs-epkg-3.3.3_git20240713-r1.apk
+checksum	Q12Yjc9/Qy+WRdGcDPdDFVSBeAP8s=
+dep	cmd:emacs	emacs-gtk3
+dep	cmd:git	git
+dep	cmd:sqlite3	sqlite
+dep	emacs-closql	emacs-closql
+dep	emacs-compat	emacs-compat
+dep	emacs-emacsql	emacs-emacsql
+dep	emacs-llama	emacs-llama

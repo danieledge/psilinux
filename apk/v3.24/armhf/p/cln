@@ -1,0 +1,16 @@
+name	cln
+version	1.3.7-r2
+description	C++ class library for numbers
+url	https://www.ginac.de/CLN/
+license	GPL-2.0-or-later
+size	453413
+installed-size	1167788
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgmp.so.10 so:libstdc++.so.6
+origin	cln
+repo	community
+file	cln-1.3.7-r2.apk
+checksum	Q1qcAtLlRJ9fwl4p2+21dbX9u4x+k=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgmp.so.10	gmp
+dep	so:libstdc++.so.6	libstdc++

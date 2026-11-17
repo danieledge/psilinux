@@ -1,0 +1,13 @@
+name	emacs-s
+version	1.13.0_git20230414-r1
+description	Emacs string manipulation library
+url	https://github.com/magnars/s.el
+license	GPL-3.0-or-later
+size	13874
+installed-size	55370
+depends	cmd:emacs
+origin	emacs-s
+repo	community
+file	emacs-s-1.13.0_git20230414-r1.apk
+checksum	Q1rRh7hAqRGVLqSf9bjJFgddIXUsI=
+dep	cmd:emacs	emacs-gtk3

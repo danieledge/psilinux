@@ -1,0 +1,16 @@
+name	sdl2_ttf
+version	2.24.0-r0
+description	A library which allows you to use TrueType fonts in your SDL applications
+url	https://github.com/libsdl-org/SDL_ttf
+license	Zlib
+size	19535
+installed-size	42112
+depends	so:libSDL2-2.0.so.0 so:libc.musl-armhf.so.1 so:libfreetype.so.6 so:libharfbuzz.so.0
+origin	sdl2_ttf
+repo	community
+file	sdl2_ttf-2.24.0-r0.apk
+checksum	Q14aUvU1pxjosRvw1jTZC+uDBjqOw=
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreetype.so.6	freetype
+dep	so:libharfbuzz.so.0	harfbuzz

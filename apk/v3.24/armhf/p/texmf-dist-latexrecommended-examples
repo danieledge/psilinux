@@ -1,0 +1,14 @@
+name	texmf-dist-latexrecommended-examples
+version	2026.0-r0
+description	texmf-dist: LaTeX recommended packages (examples and documentation)
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	50996341
+installed-size	58771350
+depends	texmf-dist-latexrecommended texmf-dist-latexrecommended-doc
+origin	texmf-dist
+repo	community
+file	texmf-dist-latexrecommended-examples-2026.0-r0.apk
+checksum	Q17dTyX5R7BTzMPtT40it7LDcDJkE=
+dep	texmf-dist-latexrecommended	texmf-dist-latexrecommended
+dep	texmf-dist-latexrecommended-doc	texmf-dist-latexrecommended-doc

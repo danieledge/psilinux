@@ -1,0 +1,22 @@
+name	gnunet-dev
+version	0.27.0-r0
+description	A framework for secure and privacy enhancing peer-to-peer networking (development files)
+url	https://gnunet.org
+license	AGPL-3.0-only
+size	313805
+installed-size	1638612
+depends	gnunet=0.27.0-r0 pc:jansson pc:libcurl>=7.85.0 pc:libgcrypt pc:libidn2 pc:libmicrohttpd pc:libsodium>=1.0.18 pc:sqlite3>=3.35.0 pc:zlib pkgconfig
+origin	gnunet
+repo	community
+file	gnunet-dev-0.27.0-r0.apk
+checksum	Q1iWUFQFN5rWUOvV7JXAZ9ve/rHMk=
+dep	gnunet=0.27.0-r0	gnunet
+dep	pc:jansson	jansson-dev
+dep	pc:libcurl>=7.85.0	curl-dev
+dep	pc:libgcrypt	libgcrypt-dev
+dep	pc:libidn2	libidn2-dev
+dep	pc:libmicrohttpd	libmicrohttpd-dev
+dep	pc:libsodium>=1.0.18	libsodium-dev
+dep	pc:sqlite3>=3.35.0	sqlite-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

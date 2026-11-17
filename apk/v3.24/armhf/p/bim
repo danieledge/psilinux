@@ -1,0 +1,13 @@
+name	bim
+version	3.1.0-r0
+description	Extensible, lightweight terminal text editor with syntax highlighting and plugin support.
+url	https://github.com/klange/bim
+license	ISC
+size	307170
+installed-size	767986
+depends	so:libc.musl-armhf.so.1
+origin	bim
+repo	community
+file	bim-3.1.0-r0.apk
+checksum	Q1ksE+UwP6nW/FcDZua00yUegpytw=
+dep	so:libc.musl-armhf.so.1	musl

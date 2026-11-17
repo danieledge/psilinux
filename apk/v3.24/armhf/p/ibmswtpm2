@@ -1,0 +1,14 @@
+name	ibmswtpm2
+version	1682-r3
+description	Software implementation of the TCG TPM 2.0 specification by IBM
+url	https://ibmswtpm.sourceforge.net/ibmswtpm2.html
+license	MIT
+size	134205
+installed-size	383576
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	ibmswtpm2
+repo	community
+file	ibmswtpm2-1682-r3.apk
+checksum	Q1KPNcZuJQqcPm5RaO83E4Gul17Uc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

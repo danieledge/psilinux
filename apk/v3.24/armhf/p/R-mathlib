@@ -1,0 +1,13 @@
+name	R-mathlib
+version	4.6.0-r0
+description	Standalone math library from the R project
+url	https://www.R-project.org/
+license	( GPL-2.0-only OR GPL-3.0-only ) AND LGPL-2.1-or-later
+size	96674
+installed-size	181452
+depends	so:libc.musl-armhf.so.1
+origin	R
+repo	community
+file	R-mathlib-4.6.0-r0.apk
+checksum	Q1tBjcFX3uf8TVmAUTi5YxXmISNso=
+dep	so:libc.musl-armhf.so.1	musl

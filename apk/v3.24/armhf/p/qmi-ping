@@ -1,0 +1,14 @@
+name	qmi-ping
+version	0_git20230118-r0
+description	Ping-like utility for QMI/QRTR
+url	https://github.com/andersson/qmi-ping
+license	BSD-3-Clause
+size	5578
+installed-size	9756
+depends	so:libc.musl-armhf.so.1 so:libqrtr.so.1
+origin	qmi-ping
+repo	community
+file	qmi-ping-0_git20230118-r0.apk
+checksum	Q15dZrD1Cy/aVpzDi5qT1Qb5WRptM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libqrtr.so.1	qrtr-libs

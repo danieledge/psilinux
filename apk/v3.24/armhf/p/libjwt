@@ -1,0 +1,15 @@
+name	libjwt
+version	3.3.3-r0
+description	The C JSON Web Token Library +JWK +JWKS
+url	https://github.com/benmcollins/libjwt
+license	MPL-2.0
+size	19759
+installed-size	42256
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libjansson.so.4
+origin	libjwt
+repo	community
+file	libjwt-3.3.3-r0.apk
+checksum	Q1MzkrZVoRfcFiZZNAILgd7MnfUBo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libjansson.so.4	jansson

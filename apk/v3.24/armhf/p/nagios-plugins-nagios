@@ -1,0 +1,15 @@
+name	nagios-plugins-nagios
+version	2.5-r0
+description	Nagios plugin check_nagios
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	19699
+installed-size	38420
+depends	nagios-plugins so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-nagios-2.5-r0.apk
+checksum	Q1GyeIUo60wiBEq1ytR7QCZ3HJ44Y=
+dep	nagios-plugins	nagios-plugins
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

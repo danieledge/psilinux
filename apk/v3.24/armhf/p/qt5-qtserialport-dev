@@ -1,0 +1,15 @@
+name	qt5-qtserialport-dev
+version	5.15.18_git20250330-r0
+description	Qt5 - QtSerialPort module (development files)
+url	https://wiki.qt.io/QtSerialPort
+license	( LGPL-2.0-or-later OR GPL-3.0-only OR GPL-2.0-or-later ) AND Qt-GPL-exception-1.0
+size	13919
+installed-size	50595
+depends	qt5-qtserialport=5.15.18_git20250330-r0 pc:Qt5Core pkgconfig
+origin	qt5-qtserialport
+repo	community
+file	qt5-qtserialport-dev-5.15.18_git20250330-r0.apk
+checksum	Q1lHD6KFhgMg1qy3/gi5enOe0HXm4=
+dep	qt5-qtserialport=5.15.18_git20250330-r0	qt5-qtserialport
+dep	pc:Qt5Core	qt5-qtbase-dev
+dep	pkgconfig	pkgconf

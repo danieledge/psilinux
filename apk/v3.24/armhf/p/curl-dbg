@@ -1,0 +1,12 @@
+name	curl-dbg
+version	8.23.0-r0
+description	URL retrieval utility and library (debug symbols)
+url	https://curl.se/
+license	curl
+size	2169116
+installed-size	4676588
+depends	!curl<8.23.0-r0 !curl>8.23.0-r0 !libcurl<8.23.0-r0 !libcurl>8.23.0-r0
+origin	curl
+repo	main
+file	curl-dbg-8.23.0-r0.apk
+checksum	Q1LihTLM23BVzHuKf5Xug5rbRh04Q=

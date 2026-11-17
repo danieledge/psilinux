@@ -1,0 +1,18 @@
+name	ebusd
+version	25.1-r0
+description	Daemon for communication with eBUS heating systems
+url	https://github.com/john30/ebusd
+license	GPL-3.0-only
+size	324698
+installed-size	690562
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libmosquitto.so.1 so:libssl.so.3 so:libstdc++.so.6
+origin	ebusd
+repo	community
+file	ebusd-25.1-r0.apk
+checksum	Q1yOMo5UpcPq+XOPKVwlTDTy0FuG0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmosquitto.so.1	mosquitto-libs
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++

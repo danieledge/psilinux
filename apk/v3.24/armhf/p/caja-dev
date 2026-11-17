@@ -1,0 +1,17 @@
+name	caja-dev
+version	1.28.0-r0
+description	The file manager for the MATE desktop (development files)
+url	https://github.com/mate-desktop/caja
+license	GPL-2.0-or-later AND LGPL-2.0-or-later
+size	21360
+installed-size	213286
+depends	caja=1.28.0-r0 pc:gio-2.0 pc:glib-2.0 pc:gtk+-3.0 pkgconfig
+origin	caja
+repo	community
+file	caja-dev-1.28.0-r0.apk
+checksum	Q1DeTUR/3ZXVVmVoBv4Wmz881JR7I=
+dep	caja=1.28.0-r0	caja
+dep	pc:gio-2.0	glib-dev
+dep	pc:glib-2.0	glib-dev
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pkgconfig	pkgconf

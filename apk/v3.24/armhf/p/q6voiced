@@ -1,0 +1,15 @@
+name	q6voiced
+version	0.2.1-r0
+description	Userspace QDSP6 voice driver daemon listing on oFono/ModemManager
+url	https://gitlab.postmarketos.org/postmarketOS/q6voiced/
+license	MIT
+size	4572
+installed-size	9496
+depends	so:libasound.so.2 so:libc.musl-armhf.so.1 so:libdbus-1.so.3
+origin	q6voiced
+repo	community
+file	q6voiced-0.2.1-r0.apk
+checksum	Q1BrcgH5rw8fkmjIyy9TF+94I6sWw=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs

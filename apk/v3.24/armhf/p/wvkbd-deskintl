@@ -1,0 +1,17 @@
+name	wvkbd-deskintl
+version	0.19.4-r0
+description	On-screen virtual keyboard for wayland compositors using wlroots - desktop international layout
+url	https://git.sr.ht/~proycon/wvkbd
+license	GPL-3.0-or-later
+size	51765
+installed-size	292356
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libwayland-client.so.0
+origin	wvkbd
+repo	community
+file	wvkbd-deskintl-0.19.4-r0.apk
+checksum	Q1F0EI3QBpKm9ImorIfEOIZX2ddwc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libwayland-client.so.0	wayland-libs-client

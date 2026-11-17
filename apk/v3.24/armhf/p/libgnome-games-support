@@ -1,0 +1,20 @@
+name	libgnome-games-support
+version	1.8.1-r2
+description	Code shared between GNOME games
+url	https://gitlab.gnome.org/GNOME/libgnome-games-support
+license	LGPL-3.0-or-later
+size	26536
+installed-size	62636
+depends	so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgee-0.8.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8
+origin	libgnome-games-support
+repo	community
+file	libgnome-games-support-1.8.1-r2.apk
+checksum	Q1ZQGI2fPSfKfZD1iQLF/ECRicF44=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgee-0.8.so.2	libgee
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl

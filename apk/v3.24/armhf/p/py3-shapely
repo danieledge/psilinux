@@ -1,0 +1,16 @@
+name	py3-shapely
+version	2.1.2-r1
+description	Manipulation and analysis of geometric objects in the Cartesian plane
+url	https://pypi.org/project/Shapely
+license	BSD-3-Clause
+size	268115
+installed-size	841396
+depends	py3-numpy python3~3.14 so:libc.musl-armhf.so.1 so:libgeos_c.so.1
+origin	py3-shapely
+repo	community
+file	py3-shapely-2.1.2-r1.apk
+checksum	Q1V6C/eC18NUdVarX0zrPMX3czZGE=
+dep	py3-numpy	py3-numpy
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgeos_c.so.1	geos

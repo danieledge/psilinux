@@ -1,0 +1,13 @@
+name	frp
+version	0.65.0-r8
+description	A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
+url	https://github.com/fatedier/frp
+license	Apache-2.0
+size	13817279
+installed-size	36562518
+depends	so:libc.musl-armhf.so.1
+origin	frp
+repo	community
+file	frp-0.65.0-r8.apk
+checksum	Q1o9ou28jKX0Q62/vq+DuqNwIv+g4=
+dep	so:libc.musl-armhf.so.1	musl

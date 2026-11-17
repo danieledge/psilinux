@@ -1,0 +1,16 @@
+name	font-bh-75dpi
+version	1.0.4-r1
+description	X.Org Bigelow & Holmes bitmap fonts
+url	https://xorg.freedesktop.org/
+license	custom
+size	3337614
+installed-size	3332473
+depends	encodings font-alias mkfontscale fontconfig
+origin	font-bh-75dpi
+repo	main
+file	font-bh-75dpi-1.0.4-r1.apk
+checksum	Q1vmZJiizCTA8IB8wecnXOeisBiTc=
+dep	encodings	encodings
+dep	font-alias	font-alias
+dep	mkfontscale	mkfontscale
+dep	fontconfig	fontconfig

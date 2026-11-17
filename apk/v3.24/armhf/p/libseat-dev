@@ -1,0 +1,15 @@
+name	libseat-dev
+version	0.9.3-r0
+description	Universal seat management library (development files)
+url	https://sr.ht/~kennylevinsen/seatd/
+license	MIT
+size	4039
+installed-size	6056
+depends	libseat=0.9.3-r0 pc:libelogind pkgconfig
+origin	seatd
+repo	community
+file	libseat-dev-0.9.3-r0.apk
+checksum	Q1ZIww++SngmR0VeIKfECPgIkIQl4=
+dep	libseat=0.9.3-r0	libseat
+dep	pc:libelogind	elogind-dev
+dep	pkgconfig	pkgconf

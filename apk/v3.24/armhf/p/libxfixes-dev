@@ -1,0 +1,17 @@
+name	libxfixes-dev
+version	6.0.2-r0
+description	X11 miscellaneous 'fixes' extension library (development files)
+url	https://xorg.freedesktop.org/
+license	MIT
+size	10676
+installed-size	29641
+depends	libxfixes=6.0.2-r0 pc:fixesproto>=6.0 pc:x11 pc:xproto pkgconfig
+origin	libxfixes
+repo	main
+file	libxfixes-dev-6.0.2-r0.apk
+checksum	Q1klEFB5JMvCYlSXQLpEtrSDmWU5I=
+dep	libxfixes=6.0.2-r0	libxfixes
+dep	pc:fixesproto>=6.0	xorgproto
+dep	pc:x11	libx11-dev
+dep	pc:xproto	xorgproto
+dep	pkgconfig	pkgconf

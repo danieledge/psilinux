@@ -1,0 +1,13 @@
+name	ck
+version	0.7.2-r1
+description	Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures
+url	https://concurrencykit.org/
+license	BSD-2-Clause AND Apache-2.0
+size	19661
+installed-size	38008
+depends	so:libc.musl-armhf.so.1
+origin	ck
+repo	community
+file	ck-0.7.2-r1.apk
+checksum	Q1b1Lr+QB+O4OPm3cs0Pyo8M/K/Bk=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	java-jna
+version	5.15.0-r1
+description	JNA provides Java programs easy access to native shared libraries.
+url	https://github.com/java-native-access/jna
+license	Apache-2.0 LGPL-2.1
+size	1355736
+installed-size	1568953
+depends	java-jre-headless java-jna-native=5.15.0-r1
+origin	java-jna
+repo	community
+file	java-jna-5.15.0-r1.apk
+checksum	Q17Xan7GbbXIreyqv7JiX99DXbPho=
+dep	java-jre-headless	openjdk8-jre-base
+dep	java-jna-native=5.15.0-r1	java-jna-native

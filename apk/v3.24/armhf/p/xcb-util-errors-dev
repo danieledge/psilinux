@@ -1,0 +1,14 @@
+name	xcb-util-errors-dev
+version	1.0.1-r0
+description	XCB utility library that gives human readable names to error, event, & request codes (development files)
+url	https://gitlab.freedesktop.org/xorg/lib/libxcb-errors
+license	X11-distribute-modifications-variant
+size	13662
+installed-size	41244
+depends	xcb-util-errors=1.0.1-r0 pkgconfig
+origin	xcb-util-errors
+repo	community
+file	xcb-util-errors-dev-1.0.1-r0.apk
+checksum	Q1ybBIfis5tlQlOMq47+Urgsawwfw=
+dep	xcb-util-errors=1.0.1-r0	xcb-util-errors
+dep	pkgconfig	pkgconf

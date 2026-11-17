@@ -1,0 +1,17 @@
+name	afl++-tools
+version	4.40c-r1
+description	AFL++ tools and utilities
+url	https://aflplus.plus/
+license	Apache-2.0
+size	117726
+installed-size	284193
+depends	afl++ coreutils grep so:libc.musl-armhf.so.1 so:libpython3.14.so.1.0
+origin	afl++
+repo	community
+file	afl++-tools-4.40c-r1.apk
+checksum	Q1+etct7vuxf14R0Ty8Cb7Dil20eE=
+dep	afl++	afl++
+dep	coreutils	coreutils
+dep	grep	grep
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpython3.14.so.1.0	python3

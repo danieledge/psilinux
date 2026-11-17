@@ -1,0 +1,17 @@
+name	jbig2enc
+version	0.30-r0
+description	JBIG2 Encoder
+url	https://github.com/agl/jbig2enc
+license	Apache-2.0
+size	54109
+installed-size	118158
+depends	python3 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libleptonica.so.6 so:libstdc++.so.6
+origin	jbig2enc
+repo	community
+file	jbig2enc-0.30-r0.apk
+checksum	Q1JdVueiQ2Y4FJA30KvGkCSScfKkA=
+dep	python3	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libleptonica.so.6	leptonica
+dep	so:libstdc++.so.6	libstdc++

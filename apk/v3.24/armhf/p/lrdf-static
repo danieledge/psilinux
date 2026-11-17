@@ -1,0 +1,13 @@
+name	lrdf-static
+version	0.6.1-r2
+description	RDF library for accessing plugin metadata in the LADSPA plugin system (static library)
+url	https://github.com/swh/LRDF
+license	GPL-2.0-only
+size	40962
+installed-size	89762
+depends	lrdf-dev
+origin	lrdf
+repo	community
+file	lrdf-static-0.6.1-r2.apk
+checksum	Q1k02Xq2VW7KfAhhLoe8fnlFLjcnU=
+dep	lrdf-dev	lrdf-dev

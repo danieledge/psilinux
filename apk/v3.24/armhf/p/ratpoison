@@ -1,0 +1,14 @@
+name	ratpoison
+version	1.4.9-r4
+description	Minimalistic window manager
+url	https://ratpoison.nongnu.org/
+license	GPL-2.0-only
+size	76599
+installed-size	172306
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1
+origin	ratpoison
+repo	community
+file	ratpoison-1.4.9-r4.apk
+checksum	Q19FsmGQiIpRZn5stnxVEUFpm2hqY=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl

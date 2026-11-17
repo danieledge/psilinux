@@ -1,0 +1,14 @@
+name	lua5.3-expat
+version	1.5.2-r1
+description	SAX XML parser based on the Expat library for Lua 5.3
+url	https://lunarmodules.github.io/luaexpat/
+license	MIT
+size	14731
+installed-size	44990
+depends	so:libc.musl-armhf.so.1 so:libexpat.so.1
+origin	lua-expat
+repo	main
+file	lua5.3-expat-1.5.2-r1.apk
+checksum	Q1D80AfHHJMIwj1lsKx4OEobJaZSQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexpat.so.1	libexpat

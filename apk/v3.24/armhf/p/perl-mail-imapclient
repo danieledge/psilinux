@@ -1,0 +1,14 @@
+name	perl-mail-imapclient
+version	3.43-r3
+description	IMAP4 client library
+url	https://metacpan.org/release/Mail-IMAPClient/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	72430
+installed-size	1031614
+depends	perl perl-parse-recdescent
+origin	perl-mail-imapclient
+repo	main
+file	perl-mail-imapclient-3.43-r3.apk
+checksum	Q1YvgkvoRwYL+58UqvElJdoOLTeqk=
+dep	perl	perl
+dep	perl-parse-recdescent	perl-parse-recdescent

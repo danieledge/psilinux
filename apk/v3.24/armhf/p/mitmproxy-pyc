@@ -1,0 +1,13 @@
+name	mitmproxy-pyc
+version	11.0.0-r3
+description	Precompiled Python bytecode for mitmproxy
+url	https://mitmproxy.org/
+license	MIT
+size	1002507
+installed-size	2647941
+depends	python3~3.14
+origin	mitmproxy
+repo	community
+file	mitmproxy-pyc-11.0.0-r3.apk
+checksum	Q1s+/zLjBIaCI11Snze+ius7xTb78=
+dep	python3~3.14	python3

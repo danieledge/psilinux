@@ -1,0 +1,13 @@
+name	salt-lts-api-openrc
+version	3006.23-r1
+description	REST API for Salt, a parallel remote execution system (OpenRC init scripts)
+url	https://github.com/saltstack/salt
+license	Apache-2.0
+size	2039
+installed-size	555
+depends	openrc
+origin	salt-lts
+repo	community
+file	salt-lts-api-openrc-3006.23-r1.apk
+checksum	Q1PR/scMmvdwH0NvbqIk+213ISptM=
+dep	openrc	openrc

@@ -1,0 +1,16 @@
+name	cloc
+version	2.08-r0
+description	Count lines of code
+url	https://github.com/AlDanial/cloc
+license	GPL-2.0-or-later Artistic-2.0
+size	127026
+installed-size	705306
+depends	perl perl-algorithm-diff perl-regexp-common perl-parallel-forkmanager
+origin	cloc
+repo	community
+file	cloc-2.08-r0.apk
+checksum	Q13aafmxhS2y/kVgcgGBc4N94EPgU=
+dep	perl	perl
+dep	perl-algorithm-diff	perl-algorithm-diff
+dep	perl-regexp-common	perl-regexp-common
+dep	perl-parallel-forkmanager	perl-parallel-forkmanager

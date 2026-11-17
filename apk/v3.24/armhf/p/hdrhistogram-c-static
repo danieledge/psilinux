@@ -1,0 +1,13 @@
+name	hdrhistogram-c-static
+version	0.11.9-r0
+description	High Dynamic Range (HDR) Histogram in C (static library)
+url	https://github.com/HdrHistogram/HdrHistogram_c
+license	BSD-2-Clause
+size	16862
+installed-size	39340
+depends	hdrhistogram-c-dev
+origin	hdrhistogram-c
+repo	community
+file	hdrhistogram-c-static-0.11.9-r0.apk
+checksum	Q1oJmYisd/ctZ1SMM3jZhCv2IRGoo=
+dep	hdrhistogram-c-dev	hdrhistogram-c-dev

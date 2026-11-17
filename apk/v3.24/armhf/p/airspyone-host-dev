@@ -1,0 +1,15 @@
+name	airspyone-host-dev
+version	1.0.10-r2
+description	AirSpy's usemode driver and associated tools (development files)
+url	https://github.com/airspy/airspyone_host
+license	GPL-2.0-or-later
+size	114776
+installed-size	144047
+depends	airspyone-host=1.0.10-r2 airspyone-host-libs=1.0.10-r2 pkgconfig
+origin	airspyone-host
+repo	community
+file	airspyone-host-dev-1.0.10-r2.apk
+checksum	Q1r1iLJ/eXqezlY7x9ikNKktNSl0M=
+dep	airspyone-host=1.0.10-r2	airspyone-host
+dep	airspyone-host-libs=1.0.10-r2	airspyone-host-libs
+dep	pkgconfig	pkgconf

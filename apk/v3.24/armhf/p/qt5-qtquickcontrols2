@@ -1,0 +1,22 @@
+name	qt5-qtquickcontrols2
+version	5.15.18_git20251101-r0
+description	Qt5 - module with set of QtQuick controls for embedded
+url	https://www.qt.io/developers/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	1951782
+installed-size	7422945
+depends	qt5-qtgraphicaleffects so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt5Qml.so.5 so:libQt5QmlModels.so.5 so:libQt5Quick.so.5 so:libQt5Widgets.so.5 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	qt5-qtquickcontrols2
+repo	community
+file	qt5-qtquickcontrols2-5.15.18_git20251101-r0.apk
+checksum	Q16R4hdE7gT/xRcUUo1eYQVqFQPYE=
+dep	qt5-qtgraphicaleffects	qt5-qtgraphicaleffects
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Gui.so.5	qt5-qtbase-x11
+dep	so:libQt5Qml.so.5	qt5-qtdeclarative
+dep	so:libQt5QmlModels.so.5	qt5-qtdeclarative
+dep	so:libQt5Quick.so.5	qt5-qtdeclarative
+dep	so:libQt5Widgets.so.5	qt5-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

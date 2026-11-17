@@ -1,0 +1,16 @@
+name	setxkbmap
+version	1.3.5-r0
+description	set the keyboard using the X Keyboard Extension
+url	https://xorg.freedesktop.org/
+license	MIT
+size	10242
+installed-size	21892
+depends	so:libX11.so.6 so:libXrandr.so.2 so:libc.musl-armhf.so.1 so:libxkbfile.so.1
+origin	setxkbmap
+repo	community
+file	setxkbmap-1.3.5-r0.apk
+checksum	Q1L04NPde1FoemRulT0vcJLGdOuTM=
+dep	so:libX11.so.6	libx11
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxkbfile.so.1	libxkbfile

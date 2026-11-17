@@ -1,0 +1,13 @@
+name	emacs-repology
+version	1.2.4-r1
+description	Repology API access via Elisp
+url	https://elpa.gnu.org/packages/repology.html
+license	GPL-3.0-or-later
+size	40902
+installed-size	156494
+depends	cmd:emacs
+origin	emacs-repology
+repo	community
+file	emacs-repology-1.2.4-r1.apk
+checksum	Q1SAg9V+0laJRpKSLlcKk5AMGq44c=
+dep	cmd:emacs	emacs-gtk3

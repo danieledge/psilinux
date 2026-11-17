@@ -1,0 +1,15 @@
+name	freeradius-pam
+version	3.0.27-r3
+description	PAM module for FreeRADIUS server
+url	https://freeradius.org/
+license	GPL-2.0-or-later
+size	5733
+installed-size	10289
+depends	freeradius=3.0.27-r3 so:libc.musl-armhf.so.1 so:libpam.so.0
+origin	freeradius
+repo	main
+file	freeradius-pam-3.0.27-r3.apk
+checksum	Q1hOsxMVN5305qOErxShKqIF3l05o=
+dep	freeradius=3.0.27-r3	freeradius
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpam.so.0	linux-pam

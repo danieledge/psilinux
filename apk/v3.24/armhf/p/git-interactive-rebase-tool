@@ -1,0 +1,15 @@
+name	git-interactive-rebase-tool
+version	2.4.1-r2
+description	Terminal based sequence editor for interactive rebase
+url	https://gitrebasetool.mitmaro.ca
+license	GPL-3.0-or-later
+size	412644
+installed-size	803020
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgit2.so.1.9
+origin	git-interactive-rebase-tool
+repo	community
+file	git-interactive-rebase-tool-2.4.1-r2.apk
+checksum	Q1ktD226a3YfgpJSzcfmlRd7Y89Y0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgit2.so.1.9	libgit2

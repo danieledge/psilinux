@@ -1,0 +1,23 @@
+name	pdal
+version	2.10.1-r1
+description	PDAL is a C++ BSD library for translating and manipulating point cloud data.
+url	https://pdal.io/
+license	BSD-2-Clause
+size	3811856
+installed-size	9140680
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgcc_s.so.1 so:libgdal.so.39 so:libgeotiff.so.5 so:libproj.so.25 so:libstdc++.so.6 so:libxml2.so.2 so:libz.so.1 so:libzstd.so.1
+origin	pdal
+repo	community
+file	pdal-2.10.1-r1.apk
+checksum	Q10CRDUM69nOFU6fooHszTVgySV5A=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libgeotiff.so.5	libgeotiff
+dep	so:libproj.so.25	proj
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

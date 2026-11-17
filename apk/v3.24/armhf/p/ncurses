@@ -1,0 +1,14 @@
+name	ncurses
+version	6.6_p20260516-r0
+description	Console display library
+url	https://invisible-island.net/ncurses/
+license	X11
+size	84471
+installed-size	201494
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	ncurses
+repo	main
+file	ncurses-6.6_p20260516-r0.apk
+checksum	Q1pcVmvbRYszj2j2QWppDIUrLP3vU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

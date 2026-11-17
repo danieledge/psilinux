@@ -1,0 +1,14 @@
+name	nginx-mod-http-fancyindex
+version	1.30.6-r0
+description	Nginx third-party module http-fancyindex (version v0.6.0)
+url	https://github.com/aperezdc/ngx-fancyindex
+license	BSD-2-Clause
+size	12665
+installed-size	22421
+depends	nginx=1.30.6-r0 so:libc.musl-armhf.so.1
+origin	nginx
+repo	main
+file	nginx-mod-http-fancyindex-1.30.6-r0.apk
+checksum	Q1pilKf8MkNQGtorRPWDXuc+uhIzc=
+dep	nginx=1.30.6-r0	nginx
+dep	so:libc.musl-armhf.so.1	musl

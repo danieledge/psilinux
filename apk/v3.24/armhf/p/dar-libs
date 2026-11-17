@@ -1,0 +1,29 @@
+name	dar-libs
+version	2.8.5-r0
+description	Disk ARchive (libraries)
+url	http://dar.linux.free.fr/
+license	GPL-2.0-or-later
+size	990278
+installed-size	2422148
+depends	so:libargon2.so.1 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgcc_s.so.1 so:libgcrypt.so.20 so:libgpgme.so.45 so:liblz4.so.1 so:liblzma.so.5 so:liblzo2.so.2 so:librhash.so.1 so:librsync.so.2 so:libssh.so.4 so:libstdc++.so.6 so:libthreadar.so.1000 so:libz.so.1 so:libzstd.so.1
+origin	dar
+repo	community
+file	dar-libs-2.8.5-r0.apk
+checksum	Q1NvSdaqtz15gljR+rt5oHv/1Qbgs=
+dep	so:libargon2.so.1	argon2-libs
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgpgme.so.45	gpgme
+dep	so:liblz4.so.1	lz4-libs
+dep	so:liblzma.so.5	xz-libs
+dep	so:liblzo2.so.2	lzo
+dep	so:librhash.so.1	rhash-libs
+dep	so:librsync.so.2	librsync
+dep	so:libssh.so.4	libssh
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libthreadar.so.1000	libthreadar
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

@@ -1,0 +1,13 @@
+name	py3-gevent-pyc
+version	26.4.0-r0
+description	Precompiled Python bytecode for py3-gevent
+url	https://www.gevent.org/
+license	MIT
+size	581771
+installed-size	1396566
+depends	python3~3.14
+origin	py3-gevent
+repo	community
+file	py3-gevent-pyc-26.4.0-r0.apk
+checksum	Q1QlYQJXeo/+b3I/iO3eA1G89GKjE=
+dep	python3~3.14	python3

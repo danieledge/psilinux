@@ -1,0 +1,14 @@
+name	scdoc
+version	1.11.4-r0
+description	Simple man page generator written for POSIX systems written in C99
+url	https://git.sr.ht/~sircmpwn/scdoc
+license	MIT
+size	9504
+installed-size	17770
+depends	pkgconfig so:libc.musl-armhf.so.1
+origin	scdoc
+repo	main
+file	scdoc-1.11.4-r0.apk
+checksum	Q1ayUYd8eagWnmwrc2oSmCFkWFdJo=
+dep	pkgconfig	pkgconf
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,25 @@
+name	ghostscript
+version	10.08.0-r0
+description	Interpreter for the PostScript language and for PDF
+url	https://ghostscript.com/
+license	AGPL-3.0-or-later
+size	14815043
+installed-size	53827089
+depends	so:libX11.so.6 so:libXt.so.6 so:libc.musl-armhf.so.1 so:libcups.so.2 so:libfontconfig.so.1 so:libfreetype.so.6 so:libjbig2dec.so.0 so:libjpeg.so.8 so:liblcms2.so.2 so:libopenjp2.so.7 so:libpng16.so.16 so:libtiff.so.6 so:libz.so.1
+origin	ghostscript
+repo	community
+file	ghostscript-10.08.0-r0.apk
+checksum	Q1cm3Rp9JPJfutCl545y/i+8qx5IY=
+dep	so:libX11.so.6	libx11
+dep	so:libXt.so.6	libxt
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcups.so.2	cups-libs
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libjbig2dec.so.0	jbig2dec
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:liblcms2.so.2	lcms2
+dep	so:libopenjp2.so.7	openjpeg
+dep	so:libpng16.so.16	libpng
+dep	so:libtiff.so.6	tiff
+dep	so:libz.so.1	zlib

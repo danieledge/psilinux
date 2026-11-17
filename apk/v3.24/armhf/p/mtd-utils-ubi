@@ -1,0 +1,18 @@
+name	mtd-utils-ubi
+version	2.2.1-r0
+description	MTD utils (UBI and UBIFS commands)
+url	http://www.linux-mtd.infradead.org/
+license	GPL-2.0-only
+size	326601
+installed-size	757697
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:liblzo2.so.2 so:libuuid.so.1 so:libz.so.1 so:libzstd.so.1
+origin	mtd-utils
+repo	main
+file	mtd-utils-ubi-2.2.1-r0.apk
+checksum	Q1tZzgyAQRm8UzOrqbnO1dCqQHFrM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:liblzo2.so.2	lzo
+dep	so:libuuid.so.1	libuuid
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

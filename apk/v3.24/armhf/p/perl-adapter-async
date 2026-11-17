@@ -1,0 +1,20 @@
+name	perl-adapter-async
+version	0.019-r1
+description	Common API for linking data sources and views
+url	https://metacpan.org/release/Adapter-Async/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	8052
+installed-size	20833
+depends	perl perl-check-unitcheck perl-curry perl-future perl-list-binarysearch perl-log-any perl-mixin-event-dispatch perl-variable-disposition
+origin	perl-adapter-async
+repo	community
+file	perl-adapter-async-0.019-r1.apk
+checksum	Q1X6c4WIuDWLC+r7TSpYM7BYinKpk=
+dep	perl	perl
+dep	perl-check-unitcheck	perl-check-unitcheck
+dep	perl-curry	perl-curry
+dep	perl-future	perl-future
+dep	perl-list-binarysearch	perl-list-binarysearch
+dep	perl-log-any	perl-log-any
+dep	perl-mixin-event-dispatch	perl-mixin-event-dispatch
+dep	perl-variable-disposition	perl-variable-disposition

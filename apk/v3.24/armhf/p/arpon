@@ -1,0 +1,16 @@
+name	arpon
+version	3.0-r8
+description	Arp handler inspectiON is a handler daemon with tools to handle all ARP aspects
+url	https://arpon.sourceforge.io/
+license	BSD-2-Clause
+size	20894
+installed-size	42780
+depends	so:libc.musl-armhf.so.1 so:libdnet.so.1 so:libnet.so.9 so:libpcap.so.1
+origin	arpon
+repo	main
+file	arpon-3.0-r8.apk
+checksum	Q1ZHQAJeRN2gFlTHH3fbkKrvskldc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdnet.so.1	libdnet
+dep	so:libnet.so.9	libnet
+dep	so:libpcap.so.1	libpcap

@@ -1,0 +1,17 @@
+name	mosquitto-clients
+version	2.1.2-r1
+description	Mosquitto command line MQTT clients
+url	https://mosquitto.org/
+license	EPL-1.0 OR EPL-2.0
+size	70633
+installed-size	158360
+depends	so:libc.musl-armhf.so.1 so:libcjson.so.1 so:libcrypto.so.3 so:libmosquitto.so.1 so:libssl.so.3
+origin	mosquitto
+repo	main
+file	mosquitto-clients-2.1.2-r1.apk
+checksum	Q1hYzHtGkIBwF8n2PIf1NHexuiuhw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcjson.so.1	cjson
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libmosquitto.so.1	mosquitto-libs
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,15 @@
+name	libslirp-dev
+version	4.9.1-r0
+description	A general purpose TCP-IP emulator (development files)
+url	https://gitlab.freedesktop.org/slirp/libslirp
+license	BSD-3-Clause
+size	6823
+installed-size	16414
+depends	libslirp=4.9.1-r0 pc:glib-2.0 pkgconfig
+origin	libslirp
+repo	community
+file	libslirp-dev-4.9.1-r0.apk
+checksum	Q1cujwrVSM5vucKAFDFCIrjCJVf9s=
+dep	libslirp=4.9.1-r0	libslirp
+dep	pc:glib-2.0	glib-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,15 @@
+name	libetpan-dev
+version	1.10-r0
+description	a portable middleware for email access (development files)
+url	http://www.etpan.org/
+license	custom:etpan
+size	104730
+installed-size	751823
+depends	cyrus-sasl-dev libetpan=1.10-r0 pkgconfig
+origin	libetpan
+repo	community
+file	libetpan-dev-1.10-r0.apk
+checksum	Q1QXZCgWbOLfWx+5uEWoIhSkJ0xWs=
+dep	cyrus-sasl-dev	cyrus-sasl-dev
+dep	libetpan=1.10-r0	libetpan
+dep	pkgconfig	pkgconf

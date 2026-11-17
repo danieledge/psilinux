@@ -1,0 +1,15 @@
+name	sane-backend-mustek_pp
+version	1.4.0-r4
+description	SANE backend for Mustek parallel port flatbed scanners
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	44488
+installed-size	96428
+depends	sane so:libc.musl-armhf.so.1 so:libieee1284.so.3
+origin	sane
+repo	community
+file	sane-backend-mustek_pp-1.4.0-r4.apk
+checksum	Q1nbfDaMPkpiqOdVgsGYVABs6HTCM=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libieee1284.so.3	libieee1284

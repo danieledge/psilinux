@@ -1,0 +1,12 @@
+name	tuned-systemd
+version	2.27.0-r1
+description	Daemon for monitoring and adaptive tuning of system devices (systemd files)
+url	https://github.com/redhat-performance/tuned
+license	GPL-2.0-only
+size	2126
+installed-size	754
+depends	
+origin	tuned
+repo	community
+file	tuned-systemd-2.27.0-r1.apk
+checksum	Q1ivP4iWhYfQXt/MNPw6njnh+mT6Y=

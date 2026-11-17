@@ -1,0 +1,16 @@
+name	py3-qrcode
+version	8.2-r2
+description	QR code image generator
+url	https://github.com/lincolnloop/python-qrcode
+license	BSD-3-Clause
+size	37806
+installed-size	117522
+depends	py3-pillow py3-pypng py3-setuptools python3~3.14
+origin	py3-qrcode
+repo	community
+file	py3-qrcode-8.2-r2.apk
+checksum	Q1KAXsHx7D/KPEv+DOofd8Ufrmpe4=
+dep	py3-pillow	py3-pillow
+dep	py3-pypng	py3-pypng
+dep	py3-setuptools	py3-setuptools
+dep	python3~3.14	python3

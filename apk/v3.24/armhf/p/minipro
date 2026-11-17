@@ -1,0 +1,16 @@
+name	minipro
+version	0.7.4-r2
+description	Program for controlling the MiniPRO TL866xx series of chip programmers
+url	https://gitlab.com/DavidGriffith/minipro
+license	GPL-3.0-or-later
+size	423821
+installed-size	10622680
+depends	libusb so:libc.musl-armhf.so.1 so:libusb-1.0.so.0 so:libz.so.1
+origin	minipro
+repo	community
+file	minipro-0.7.4-r2.apk
+checksum	Q1naBstk33I12LfKxoOaRpMj2CWZk=
+dep	libusb	libusb
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb
+dep	so:libz.so.1	zlib

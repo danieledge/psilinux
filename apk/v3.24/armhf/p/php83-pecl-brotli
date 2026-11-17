@@ -1,0 +1,16 @@
+name	php83-pecl-brotli
+version	0.21.0-r0
+description	Brotli Extension for PHP 8.3
+url	https://github.com/kjdev/php-ext-brotli
+license	MIT
+size	15583
+installed-size	34461
+depends	php83-common so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-armhf.so.1
+origin	php83-pecl-brotli
+repo	community
+file	php83-pecl-brotli-0.21.0-r0.apk
+checksum	Q1MEbiPbkl/MATplVytQNrA999+KY=
+dep	php83-common	php83-common
+dep	so:libbrotlidec.so.1	brotli-libs
+dep	so:libbrotlienc.so.1	brotli-libs
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	connman-dev
+version	2.0-r0
+description	Daemon for managing internet connections (development files)
+url	https://git.kernel.org/pub/scm/network/connman/connman.git
+license	GPL-2.0-only
+size	1830
+installed-size	344
+depends	pc:dbus-1 pc:glib-2.0 pkgconfig
+origin	connman
+repo	community
+file	connman-dev-2.0-r0.apk
+checksum	Q1JpgGA5NY7Iab67H5yMGG+B+UW88=
+dep	pc:dbus-1	dbus-dev
+dep	pc:glib-2.0	glib-dev
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	libtbox-dev
+version	1.8.0-r0
+description	A glib-like multi-platform c library (development files)
+url	https://github.com/tboox/tbox
+license	Apache-2.0
+size	208395
+installed-size	1549973
+depends	libtbox=1.8.0-r0 pkgconfig
+origin	libtbox
+repo	community
+file	libtbox-dev-1.8.0-r0.apk
+checksum	Q1l54w8DmHDidpcJN8/pHyY2mHBbk=
+dep	libtbox=1.8.0-r0	libtbox
+dep	pkgconfig	pkgconf

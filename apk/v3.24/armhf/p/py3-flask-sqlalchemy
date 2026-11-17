@@ -1,0 +1,16 @@
+name	py3-flask-sqlalchemy
+version	3.1.1-r2
+description	Adds SQLAlchemy support to your Flask application.
+url	https://pypi.org/project/Flask-SQLAlchemy/
+license	BSD-3-Clause
+size	22849
+installed-size	82578
+depends	py3-flask py3-greenlet py3-sqlalchemy python3~3.14
+origin	py3-flask-sqlalchemy
+repo	community
+file	py3-flask-sqlalchemy-3.1.1-r2.apk
+checksum	Q1J9SBgqlulH3ZzwvpRbQMn8dOd04=
+dep	py3-flask	py3-flask
+dep	py3-greenlet	py3-greenlet
+dep	py3-sqlalchemy	py3-sqlalchemy
+dep	python3~3.14	python3

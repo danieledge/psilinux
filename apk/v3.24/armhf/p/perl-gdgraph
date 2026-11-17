@@ -1,0 +1,15 @@
+name	perl-gdgraph
+version	1.56-r3
+description	Generate charts with GD
+url	https://metacpan.org/release/GDGraph/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	56284
+installed-size	200966
+depends	perl perl-gd perl-gdtextutil
+origin	perl-gdgraph
+repo	main
+file	perl-gdgraph-1.56-r3.apk
+checksum	Q19EVukf9/Zm2rFwh7kELlwW1Hur4=
+dep	perl	perl
+dep	perl-gd	perl-gd
+dep	perl-gdtextutil	perl-gdtextutil

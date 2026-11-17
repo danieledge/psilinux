@@ -1,0 +1,12 @@
+name	lshw-dbg
+version	02.20-r1
+description	Hardware Lister (debug symbols)
+url	https://ezix.org/project/wiki/HardwareLiSter
+license	GPL-2.0-only
+size	1475949
+installed-size	4157848
+depends	!lshw<02.20-r1 !lshw>02.20-r1
+origin	lshw
+repo	community
+file	lshw-dbg-02.20-r1.apk
+checksum	Q1zQh5+184Mi8QLtsSKGSQ+NgvHtw=

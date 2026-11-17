@@ -1,0 +1,33 @@
+name	newsflash
+version	4.2.1-r0
+description	An rss feed reader that supports various web based services
+url	https://gitlab.com/news-flash/news_flash_gtk/
+license	GPL-3.0-only
+size	7709347
+installed-size	24084279
+depends	desktop-file-utils so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libclapper-0.0.so.0 so:libclapper-gtk-0.0.so.0 so:libcrypto.so.3 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libjavascriptcoregtk-6.0.so.1 so:libpango-1.0.so.0 so:libsqlite3.so.0 so:libssl.so.3 so:libwebkitgtk-6.0.so.4 so:libxml2.so.2
+origin	newsflash
+repo	community
+file	newsflash-4.2.1-r0.apk
+checksum	Q1NFDP5BEWX6iJbbMDZiLWPr7cb2M=
+dep	desktop-file-utils	desktop-file-utils
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libclapper-0.0.so.0	clapper-libs
+dep	so:libclapper-gtk-0.0.so.0	clapper-libs
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libjavascriptcoregtk-6.0.so.1	webkit2gtk-6.0
+dep	so:libpango-1.0.so.0	pango
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libssl.so.3	libssl3
+dep	so:libwebkitgtk-6.0.so.4	webkit2gtk-6.0
+dep	so:libxml2.so.2	libxml2

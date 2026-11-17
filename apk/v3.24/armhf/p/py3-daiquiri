@@ -1,0 +1,14 @@
+name	py3-daiquiri
+version	3.4.0-r1
+description	Library to configure Python logging easily
+url	https://github.com/Mergifyio/daiquiri
+license	Apache-2.0
+size	13890
+installed-size	41072
+depends	py3-json-logger python3~3.14
+origin	py3-daiquiri
+repo	community
+file	py3-daiquiri-3.4.0-r1.apk
+checksum	Q1aFzqU55+J4CRcMfUo+hlgXnIrM4=
+dep	py3-json-logger	py3-json-logger
+dep	python3~3.14	python3

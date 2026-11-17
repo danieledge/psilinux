@@ -1,0 +1,13 @@
+name	scudo-malloc-static
+version	22.1.3-r0
+description	Standalone scudo malloc from compiler-rt (static library)
+url	https://llvm.org
+license	Apache-2.0 WITH LLVM-exception
+size	83601
+installed-size	209650
+depends	scudo-malloc-dev
+origin	scudo-malloc
+repo	main
+file	scudo-malloc-static-22.1.3-r0.apk
+checksum	Q1p64Q5hIB8nspHv0FcxVNdTVQ1fY=
+dep	scudo-malloc-dev	scudo-malloc-dev

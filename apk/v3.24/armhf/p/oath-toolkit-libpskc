@@ -1,0 +1,15 @@
+name	oath-toolkit-libpskc
+version	2.6.14-r1
+description	Library for Portable Symmetric Key Container
+url	https://nongnu.org/oath-toolkit/
+license	LGPL-2.1-or-later
+size	19599
+installed-size	42372
+depends	so:libc.musl-armhf.so.1 so:libxml2.so.2 so:libxmlsec1.so.10311
+origin	oath-toolkit
+repo	community
+file	oath-toolkit-libpskc-2.6.14-r1.apk
+checksum	Q171uHatpQJESxz9VPQkCy7dY3/Fk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxml2.so.2	libxml2
+dep	so:libxmlsec1.so.10311	xmlsec

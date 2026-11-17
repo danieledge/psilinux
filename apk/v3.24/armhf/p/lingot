@@ -1,0 +1,25 @@
+name	lingot
+version	1.1.1-r2
+description	Musical instrument tuner
+url	https://github.com/ibancg/lingot
+license	GPL-2.0-or-later
+size	253001
+installed-size	375087
+depends	so:libasound.so.2 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libfftw3.so.3 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libjack.so.0 so:libjson-c.so.5 so:libpulse-simple.so.0 so:libpulse.so.0
+origin	lingot
+repo	community
+file	lingot-1.1.1-r2.apk
+checksum	Q1iy196m04KUadldOjrioqjS954y8=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libfftw3.so.3	fftw-double-libs
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libjack.so.0	jack
+dep	so:libjson-c.so.5	json-c
+dep	so:libpulse-simple.so.0	libpulse
+dep	so:libpulse.so.0	libpulse

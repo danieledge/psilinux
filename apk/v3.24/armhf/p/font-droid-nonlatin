@@ -1,0 +1,13 @@
+name	font-droid-nonlatin
+version	20200215-r5
+description	General-purpose fonts released by Google as part of Android. Non-Latin language support
+url	https://code.google.com/android/
+license	Apache-2.0
+size	6781080
+installed-size	13993464
+depends	fontconfig
+origin	font-droid
+repo	main
+file	font-droid-nonlatin-20200215-r5.apk
+checksum	Q1udSPjwikM3+zLhMd2ppTkdnG3Gk=
+dep	fontconfig	fontconfig

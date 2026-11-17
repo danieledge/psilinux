@@ -1,0 +1,95 @@
+name	gst-plugins-bad
+version	1.28.3-r0
+description	GStreamer streaming media framework bad plug-ins
+url	https://gstreamer.freedesktop.org/
+license	GPL-2.0-or-later LGPL-2.0-or-later
+size	5238207
+installed-size	12283837
+depends	so:libIex-3_4.so.33 so:libImath-3_2.so.30 so:libOpenEXR-3_4.so.33 so:libSoundTouch.so.2 so:libX11.so.6 so:libaom.so.3 so:libass.so.9 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcrypto.so.3 so:libcurl.so.4 so:libdc1394.so.26 so:libde265.so.0 so:libdirectfb-1.7.so.7 so:libdrm.so.2 so:libdvdnav.so.4 so:libdvdread.so.8 so:libfaac.so.0 so:libfaad.so.2 so:libfdk-aac.so.2 so:libflite.so.1 so:libflite_cmu_us_kal.so.1 so:libfreeaptx.so.0 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgsm.so.1 so:libgstallocators-1.0.so.0 so:libgstapp-1.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstfft-1.0.so.0 so:libgstgl-1.0.so.0 so:libgstnet-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstrtp-1.0.so.0 so:libgstsdp-1.0.so.0 so:libgsttag-1.0.so.0 so:libgstvideo-1.0.so.0 so:libgtk-3.so.0 so:libgudev-1.0.so.0 so:libintl.so.8 so:liblcms2.so.2 so:libldacBT_enc.so.2 so:libmodplug.so.1 so:libneon.so.27 so:libnettle.so.8 so:libopenal.so.1 so:libopenh264.so.8 so:libopenjp2.so.7 so:libopus.so.0 so:liborc-0.4.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:librsvg-2.so.2 so:librtmp.so.1 so:libsbc.so.1 so:libsndfile.so.1 so:libspandsp.so.2 so:libsrt.so.1.5 so:libsrtp2.so.1 so:libssl.so.3 so:libstdc++.so.6 so:libusb-1.0.so.0 so:libva-drm.so.2 so:libva.so.2 so:libvo-aacenc.so.0 so:libvo-amrwbenc.so.0 so:libvulkan.so.1 so:libwayland-client.so.0 so:libwebp.so.7 so:libwebpmux.so.3 so:libx265.so.215 so:libxcb.so.1 so:libxkbcommon-x11.so.0 so:libxkbcommon.so.0 so:libxml2.so.2 so:libzbar.so.0
+origin	gst-plugins-bad
+repo	community
+file	gst-plugins-bad-1.28.3-r0.apk
+checksum	Q1D3ydZoq53hd3N6Uyw52bd2PS1hw=
+dep	so:libIex-3_4.so.33	openexr-libiex
+dep	so:libImath-3_2.so.30	imath
+dep	so:libOpenEXR-3_4.so.33	openexr-libopenexr
+dep	so:libSoundTouch.so.2	soundtouch
+dep	so:libX11.so.6	libx11
+dep	so:libaom.so.3	aom-libs
+dep	so:libass.so.9	libass
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libcurl.so.4	libcurl
+dep	so:libdc1394.so.26	libdc1394
+dep	so:libde265.so.0	libde265
+dep	so:libdirectfb-1.7.so.7	directfb
+dep	so:libdrm.so.2	libdrm
+dep	so:libdvdnav.so.4	libdvdnav
+dep	so:libdvdread.so.8	libdvdread
+dep	so:libfaac.so.0	faac
+dep	so:libfaad.so.2	faad2-libs
+dep	so:libfdk-aac.so.2	fdk-aac
+dep	so:libflite.so.1	flite
+dep	so:libflite_cmu_us_kal.so.1	flite
+dep	so:libfreeaptx.so.0	libfreeaptx
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgsm.so.1	gsm
+dep	so:libgstallocators-1.0.so.0	gst-plugins-base
+dep	so:libgstapp-1.0.so.0	gst-plugins-base
+dep	so:libgstaudio-1.0.so.0	gst-plugins-base
+dep	so:libgstbase-1.0.so.0	gstreamer
+dep	so:libgstfft-1.0.so.0	gst-plugins-base
+dep	so:libgstgl-1.0.so.0	gst-plugins-base
+dep	so:libgstnet-1.0.so.0	gstreamer
+dep	so:libgstpbutils-1.0.so.0	gst-plugins-base
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstrtp-1.0.so.0	gst-plugins-base
+dep	so:libgstsdp-1.0.so.0	gst-plugins-base
+dep	so:libgsttag-1.0.so.0	gst-plugins-base
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgudev-1.0.so.0	libgudev
+dep	so:libintl.so.8	libintl
+dep	so:liblcms2.so.2	lcms2
+dep	so:libldacBT_enc.so.2	libldac
+dep	so:libmodplug.so.1	libmodplug
+dep	so:libneon.so.27	neon
+dep	so:libnettle.so.8	nettle
+dep	so:libopenal.so.1	openal-soft-libs
+dep	so:libopenh264.so.8	openh264
+dep	so:libopenjp2.so.7	openjpeg
+dep	so:libopus.so.0	opus
+dep	so:liborc-0.4.so.0	orc
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:librsvg-2.so.2	librsvg
+dep	so:librtmp.so.1	librtmp
+dep	so:libsbc.so.1	sbc
+dep	so:libsndfile.so.1	libsndfile
+dep	so:libspandsp.so.2	spandsp
+dep	so:libsrt.so.1.5	libsrt
+dep	so:libsrtp2.so.1	libsrtp
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libusb-1.0.so.0	libusb
+dep	so:libva-drm.so.2	libva
+dep	so:libva.so.2	libva
+dep	so:libvo-aacenc.so.0	vo-aacenc
+dep	so:libvo-amrwbenc.so.0	vo-amrwbenc
+dep	so:libvulkan.so.1	vulkan-loader
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwebp.so.7	libwebp
+dep	so:libwebpmux.so.3	libwebpmux
+dep	so:libx265.so.215	x265-libs
+dep	so:libxcb.so.1	libxcb
+dep	so:libxkbcommon-x11.so.0	libxkbcommon-x11
+dep	so:libxkbcommon.so.0	libxkbcommon
+dep	so:libxml2.so.2	libxml2
+dep	so:libzbar.so.0	libzbar

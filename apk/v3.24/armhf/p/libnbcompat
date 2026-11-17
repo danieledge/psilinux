@@ -1,0 +1,13 @@
+name	libnbcompat
+version	1.0.2-r1
+description	Portable NetBSD-compatibility library
+url	https://github.com/archiecobbs/libnbcompat
+license	BSD-2-Clause
+size	34167
+installed-size	66716
+depends	so:libc.musl-armhf.so.1
+origin	libnbcompat
+repo	community
+file	libnbcompat-1.0.2-r1.apk
+checksum	Q1+47NBVfjmI7F1OivFaNEi4rst2o=
+dep	so:libc.musl-armhf.so.1	musl

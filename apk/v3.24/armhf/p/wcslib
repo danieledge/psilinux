@@ -1,0 +1,14 @@
+name	wcslib
+version	8.4-r2
+description	implementation of the FITS WCS standard
+url	https://www.atnf.csiro.au/people/mcalabre/WCS/wcslib/
+license	LGPL-3.0-or-later
+size	466481
+installed-size	2740808
+depends	so:libc.musl-armhf.so.1 so:libcfitsio.so.10
+origin	wcslib
+repo	community
+file	wcslib-8.4-r2.apk
+checksum	Q1p0n0/SsExwRvDMkBQNXn4xofuq0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcfitsio.so.10	cfitsio

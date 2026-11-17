@@ -1,0 +1,20 @@
+name	libatk-bridge-2.0
+version	2.60.5-r0
+description	GTK+2.0 module that bridges ATK to D-Bus at-spi
+url	https://www.freedesktop.org/wiki/Accessibility/AT-SPI2/
+license	LGPL-2.1-or-later
+size	67206
+installed-size	217853
+depends	so:libatk-1.0.so.0 so:libatspi.so.0 so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0
+origin	at-spi2-core
+repo	main
+file	libatk-bridge-2.0-2.60.5-r0.apk
+checksum	Q1yrbzryjQrAJBbwPbZ3EBew3bvGc=
+dep	so:libatk-1.0.so.0	libatk-1.0
+dep	so:libatspi.so.0	at-spi2-core-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

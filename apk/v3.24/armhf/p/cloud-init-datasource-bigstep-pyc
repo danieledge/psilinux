@@ -1,0 +1,14 @@
+name	cloud-init-datasource-bigstep-pyc
+version	26.1-r3
+description	Precompiled Python bytecode for cloud-init-datasource-bigstep
+url	https://cloud-init.io
+license	Apache-2.0 OR GPL-3.0-only
+size	3633
+installed-size	3322
+depends	cloud-init-datasource-bigstep=26.1-r3 python3~3.14
+origin	cloud-init
+repo	community
+file	cloud-init-datasource-bigstep-pyc-26.1-r3.apk
+checksum	Q1jiHE9d0jKybah3Whr7JCBs8XAik=
+dep	cloud-init-datasource-bigstep=26.1-r3	cloud-init-datasource-bigstep
+dep	python3~3.14	python3

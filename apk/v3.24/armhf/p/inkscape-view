@@ -1,0 +1,17 @@
+name	inkscape-view
+version	1.4.2-r8
+description	Viewing program for SVG files
+url	https://inkscape.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	3677
+installed-size	5392
+depends	libinkscape_base=1.4.2-r8 so:libc.musl-armhf.so.1 so:libgtkmm-3.0.so.1 so:libinkscape_base.so.1.4.2.0 so:libstdc++.so.6
+origin	inkscape
+repo	community
+file	inkscape-view-1.4.2-r8.apk
+checksum	Q1DTNSLnWk52pMPby8GoF3/uWfAXE=
+dep	libinkscape_base=1.4.2-r8	libinkscape_base
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgtkmm-3.0.so.1	gtkmm3
+dep	so:libinkscape_base.so.1.4.2.0	libinkscape_base
+dep	so:libstdc++.so.6	libstdc++

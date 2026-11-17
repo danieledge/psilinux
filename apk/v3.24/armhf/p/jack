@@ -1,0 +1,19 @@
+name	jack
+version	1.9.22-r4
+description	The Jack Audio Connection Kit
+url	https://jackaudio.org/
+license	GPL-2.0-or-later
+size	446529
+installed-size	1192581
+depends	so:libasound.so.2 so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libgcc_s.so.1 so:libopus.so.0 so:libsamplerate.so.0 so:libstdc++.so.6
+origin	jack
+repo	main
+file	jack-1.9.22-r4.apk
+checksum	Q1VAHuOkWM6ZtPs7JZjeZIZUy8LTg=
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libopus.so.0	opus
+dep	so:libsamplerate.so.0	libsamplerate
+dep	so:libstdc++.so.6	libstdc++

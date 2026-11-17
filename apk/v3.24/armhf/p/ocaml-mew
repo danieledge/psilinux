@@ -1,0 +1,30 @@
+name	ocaml-mew
+version	0.1.0-r6
+description	Modal editing witch
+url	https://github.com/kandu/mew
+license	MIT
+size	69766
+installed-size	179889
+depends	ocaml4-impl:CamlinternalOO:a91c05376d5fcc32bc79cbe1bc7c32c3 ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2 ocaml4-impl:Stdlib__List:b42dc21c9462b2cabc74ab8825425e32 ocaml4-impl:Stdlib__Map:63d09314450d20359192b1ccd9beca41 ocaml4-impl:Stdlib__Queue:1ce6993165e5f1723a4c91c80ff449f3 ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15 ocaml4-intf:CamlinternalOO:aea913efb75d4b8c0600eeba0222f7d8 ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91 ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9 ocaml4-intf:Stdlib__Hashtbl:34c0fdd524bf2a75e4d5af64a6d34401 ocaml4-intf:Stdlib__Int32:a71ea5238030770647165f659f80b1ab ocaml4-intf:Stdlib__List:ee222542f6f8195441543b8b399b64b9 ocaml4-intf:Stdlib__Map:978f82916b5a172c11d2b72719d85680 ocaml4-intf:Stdlib__Obj:25794d29f7f4018768ea900e331a2bf3 ocaml4-intf:Stdlib__Queue:b066724fe533c7b8fc9b521e37aedad8 ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962 ocaml4-intf:Trie:eba1ddcd94bc1b307bdefda3f1023863 so:libc.musl-armhf.so.1
+origin	ocaml-mew
+repo	community
+file	ocaml-mew-0.1.0-r6.apk
+checksum	Q1LuVZ7Hv2YX2hS+sBCaHIVD/TB0o=
+dep	ocaml4-impl:CamlinternalOO:a91c05376d5fcc32bc79cbe1bc7c32c3	ocaml
+dep	ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2	ocaml
+dep	ocaml4-impl:Stdlib__List:b42dc21c9462b2cabc74ab8825425e32	ocaml
+dep	ocaml4-impl:Stdlib__Map:63d09314450d20359192b1ccd9beca41	ocaml
+dep	ocaml4-impl:Stdlib__Queue:1ce6993165e5f1723a4c91c80ff449f3	ocaml
+dep	ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15	ocaml
+dep	ocaml4-intf:CamlinternalOO:aea913efb75d4b8c0600eeba0222f7d8	ocaml
+dep	ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91	ocaml
+dep	ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9	ocaml
+dep	ocaml4-intf:Stdlib__Hashtbl:34c0fdd524bf2a75e4d5af64a6d34401	ocaml
+dep	ocaml4-intf:Stdlib__Int32:a71ea5238030770647165f659f80b1ab	ocaml
+dep	ocaml4-intf:Stdlib__List:ee222542f6f8195441543b8b399b64b9	ocaml
+dep	ocaml4-intf:Stdlib__Map:978f82916b5a172c11d2b72719d85680	ocaml
+dep	ocaml4-intf:Stdlib__Obj:25794d29f7f4018768ea900e331a2bf3	ocaml
+dep	ocaml4-intf:Stdlib__Queue:b066724fe533c7b8fc9b521e37aedad8	ocaml
+dep	ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962	ocaml
+dep	ocaml4-intf:Trie:eba1ddcd94bc1b307bdefda3f1023863	ocaml-trie
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,17 @@
+name	mate-panel-dev
+version	1.28.2-r0
+description	The MATE panel is the area on your desktop from which you can run applications (development files)
+url	https://github.com/mate-desktop/mate-panel
+license	GPL-2.0-or-later AND LGPL-2.0-or-later
+size	5072
+installed-size	11960
+depends	mate-panel=1.28.2-r0 pc:gio-2.0 pc:glib-2.0 pc:gtk+-3.0 pkgconfig
+origin	mate-panel
+repo	community
+file	mate-panel-dev-1.28.2-r0.apk
+checksum	Q1IJnUnsP4/+N1j36Juj1zUIPJoCk=
+dep	mate-panel=1.28.2-r0	mate-panel
+dep	pc:gio-2.0	glib-dev
+dep	pc:glib-2.0	glib-dev
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pkgconfig	pkgconf

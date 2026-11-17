@@ -1,0 +1,14 @@
+name	texmf-dist-luatex-examples
+version	2026.0-r0
+description	texmf-dist: LuaTeX packages (examples and documentation)
+url	https://tug.org/texlive/
+license	LPPL-1.0 AND LPPL-1.1 AND LPPL-1.2 AND LPPL-1.3a AND LPPL-1.3c AND GPL-2.0-only
+size	33323244
+installed-size	38545769
+depends	texmf-dist-luatex texmf-dist-luatex-doc
+origin	texmf-dist
+repo	community
+file	texmf-dist-luatex-examples-2026.0-r0.apk
+checksum	Q1JsSw2ldcNDztVR9pa46kv5fUVEg=
+dep	texmf-dist-luatex	texmf-dist-luatex
+dep	texmf-dist-luatex-doc	texmf-dist-luatex-doc

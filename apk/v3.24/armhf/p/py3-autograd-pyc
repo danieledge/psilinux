@@ -1,0 +1,13 @@
+name	py3-autograd-pyc
+version	1.8.0-r2
+description	Precompiled Python bytecode for py3-autograd
+url	https://github.com/HIPS/autograd
+license	MIT
+size	120242
+installed-size	331016
+depends	python3~3.14
+origin	py3-autograd
+repo	community
+file	py3-autograd-pyc-1.8.0-r2.apk
+checksum	Q1Dxq1x1E7547VRsl5bi++LPmtBf0=
+dep	python3~3.14	python3

@@ -1,0 +1,13 @@
+name	znc-dev
+version	1.10.3-r0
+description	Advanced IRC bouncer (development files)
+url	https://wiki.znc.in/ZNC
+license	Apache-2.0
+size	85842
+installed-size	351148
+depends	pkgconfig
+origin	znc
+repo	community
+file	znc-dev-1.10.3-r0.apk
+checksum	Q1nqVcEI362Vy0SYi0eYSnwWvxmU0=
+dep	pkgconfig	pkgconf

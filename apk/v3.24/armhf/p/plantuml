@@ -1,0 +1,17 @@
+name	plantuml
+version	1.2025.10-r0
+description	Draw UML diagrams, using a simple and human readable text description
+url	https://plantuml.com/
+license	GPL-3.0-or-later
+size	23897271
+installed-size	25278644
+depends	busybox graphviz gtk+2.0 java-common java-jre
+origin	plantuml
+repo	community
+file	plantuml-1.2025.10-r0.apk
+checksum	Q1gm0rB38KCTkdAIUvb1+nyJAdCuc=
+dep	busybox	busybox
+dep	graphviz	graphviz
+dep	gtk+2.0	gtk+2.0
+dep	java-common	java-common
+dep	java-jre	openjdk8-jre

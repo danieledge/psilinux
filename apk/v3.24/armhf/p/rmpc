@@ -1,0 +1,14 @@
+name	rmpc
+version	0.11.0-r0
+description	Configurable, terminal based Media Player Client with album art support via various terminal image protocols
+url	https://mierak.github.io/rmpc/
+license	BSD-3-Clause
+size	3485393
+installed-size	7426616
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	rmpc
+repo	community
+file	rmpc-0.11.0-r0.apk
+checksum	Q1H2Fam9AIdOaORxwwze/lWkBo+cs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,14 @@
+name	libgss-dev
+version	1.0.4-r2
+description	An implementation of the Generic Security Service Application Program Interface (development files)
+url	https://www.gnu.org/software/gss/
+license	( LGPL-3.0-or-later OR GPL-2.0-or-later ) AND GPL-3.0-or-later
+size	18024
+installed-size	58796
+depends	libgss=1.0.4-r2 pkgconfig
+origin	libgss
+repo	community
+file	libgss-dev-1.0.4-r2.apk
+checksum	Q1ezJVmllKxZY+H+4UFHyldf1mbtA=
+dep	libgss=1.0.4-r2	libgss
+dep	pkgconfig	pkgconf

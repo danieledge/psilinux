@@ -1,0 +1,17 @@
+name	qt6-qthttpserver
+version	6.11.1-r0
+description	Qt6 HTTP Server
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	96602
+installed-size	227477
+depends	so:libQt6Core.so.6 so:libQt6Network.so.6 so:libQt6WebSockets.so.6 so:libc.musl-armhf.so.1 so:libstdc++.so.6
+origin	qt6-qthttpserver
+repo	community
+file	qt6-qthttpserver-6.11.1-r0.apk
+checksum	Q1mJTr4QSFKICincB9ppNlt5W+F7s=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Network.so.6	qt6-qtbase
+dep	so:libQt6WebSockets.so.6	qt6-qtwebsockets-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libstdc++.so.6	libstdc++

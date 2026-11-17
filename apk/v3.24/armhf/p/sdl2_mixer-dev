@@ -1,0 +1,15 @@
+name	sdl2_mixer-dev
+version	2.8.2-r0
+description	A simple multi-channel audio mixer (development files)
+url	https://github.com/libsdl-org/SDL_mixer
+license	Zlib
+size	28590
+installed-size	123283
+depends	sdl2_mixer=2.8.2-r0 pc:sdl2>=2.0.9 pkgconfig
+origin	sdl2_mixer
+repo	community
+file	sdl2_mixer-dev-2.8.2-r0.apk
+checksum	Q1hsLNirMGedGyIHBNKZScwP1MfmU=
+dep	sdl2_mixer=2.8.2-r0	sdl2_mixer
+dep	pc:sdl2>=2.0.9	sdl2-compat-dev
+dep	pkgconfig	pkgconf

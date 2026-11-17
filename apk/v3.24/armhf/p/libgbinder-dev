@@ -1,0 +1,16 @@
+name	libgbinder-dev
+version	1.1.45-r0
+description	GLib-style interface to binder (development files)
+url	https://github.com/mer-hybris/libgbinder
+license	BSD-3-Clause
+size	13327
+installed-size	73069
+depends	libgbinder=1.1.45-r0 pc:glib-2.0 pc:libglibutil pkgconfig
+origin	libgbinder
+repo	community
+file	libgbinder-dev-1.1.45-r0.apk
+checksum	Q1t00tUCFOZMF0fNuMRwIfRlU4ppg=
+dep	libgbinder=1.1.45-r0	libgbinder
+dep	pc:glib-2.0	glib-dev
+dep	pc:libglibutil	libglibutil-dev
+dep	pkgconfig	pkgconf

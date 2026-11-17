@@ -1,0 +1,17 @@
+name	gst-plugins-rs-rstracers
+version	0.15.2-r0
+description	Gstreamer rust plugin for rstracers
+url	https://gitlab.freedesktop.org/gstreamer/gst-plugins-rs
+license	MIT AND Apache-2.0 AND MPL-2.0 AND LGPL-2.1-or-later
+size	1409285
+installed-size	3042840
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstreamer-1.0.so.0
+origin	gst-plugins-rs
+repo	community
+file	gst-plugins-rs-rstracers-0.15.2-r0.apk
+checksum	Q1h0ZJqg+EQWnGj2rJ0bRQ4gVIgIk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstreamer-1.0.so.0	gstreamer

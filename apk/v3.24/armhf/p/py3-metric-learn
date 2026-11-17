@@ -1,0 +1,17 @@
+name	py3-metric-learn
+version	0.7.0-r2
+description	Metric learning algorithms in Python
+url	https://github.com/scikit-learn-contrib/metric-learn
+license	MIT
+size	56424
+installed-size	219196
+depends	python3 py3-numpy py3-scipy py3-scikit-learn python3~3.14
+origin	py3-metric-learn
+repo	community
+file	py3-metric-learn-0.7.0-r2.apk
+checksum	Q1JAdhT+hQ/mygbqnzkxQIP0EyA4w=
+dep	python3	python3
+dep	py3-numpy	py3-numpy
+dep	py3-scipy	py3-scipy
+dep	py3-scikit-learn	py3-scikit-learn
+dep	python3~3.14	python3

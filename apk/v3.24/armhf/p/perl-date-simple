@@ -1,0 +1,14 @@
+name	perl-date-simple
+version	3.03-r13
+description	A perl simple date object
+url	https://metacpan.org/release/Date-Simple/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	23023
+installed-size	51460
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-date-simple
+repo	community
+file	perl-date-simple-3.03-r13.apk
+checksum	Q1z948ZEun6I0s3uGW1E3PWyWjkZA=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

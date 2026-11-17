@@ -1,0 +1,14 @@
+name	liblo-dev
+version	0.31-r1
+description	Open Sound Control protocol implementation for POSIX systems (development files)
+url	https://liblo.sourceforge.net/
+license	LGPL-2.1-or-later
+size	26727
+installed-size	117290
+depends	liblo=0.31-r1 pkgconfig
+origin	liblo
+repo	community
+file	liblo-dev-0.31-r1.apk
+checksum	Q18CShOz3xZ0KQYyLaOckxO99ChAw=
+dep	liblo=0.31-r1	liblo
+dep	pkgconfig	pkgconf

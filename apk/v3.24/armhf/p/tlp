@@ -1,0 +1,15 @@
+name	tlp
+version	1.10.1-r0
+description	Linux Advanced Power Management
+url	https://linrunner.de/en/tlp/tlp.html
+license	GPL-2.0-or-later
+size	126417
+installed-size	723395
+depends	perl usbutils grep
+origin	tlp
+repo	community
+file	tlp-1.10.1-r0.apk
+checksum	Q1pm2qrOja8wzKRZyGlOtxwgCOO+o=
+dep	perl	perl
+dep	usbutils	usbutils
+dep	grep	grep

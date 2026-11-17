@@ -1,0 +1,16 @@
+name	oo7-server-systemd
+version	0.6.0-r4
+description	D-Bus Secret Service provider (systemd files)
+url	https://github.com/linux-credentials/oo7
+license	MIT
+size	2172
+installed-size	671
+depends	oo7-cli oo7-pam oo7-portal oo7-server
+origin	oo7
+repo	community
+file	oo7-server-systemd-0.6.0-r4.apk
+checksum	Q1t5kV6eyJgpXg8MIICAtM88wW9rM=
+dep	oo7-cli	oo7-cli
+dep	oo7-pam	oo7-pam
+dep	oo7-portal	oo7-portal
+dep	oo7-server	oo7-server

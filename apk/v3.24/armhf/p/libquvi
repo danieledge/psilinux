@@ -1,0 +1,21 @@
+name	libquvi
+version	0.9.4-r4
+description	library for parsing video download links
+url	https://quvi.sourceforge.net/
+license	LGPL-2.0-or-later
+size	30950
+installed-size	70936
+depends	libquvi-scripts so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgcrypt.so.20 so:libglib-2.0.so.0 so:libgpg-error.so.0 so:libintl.so.8 so:liblua.so.5 so:libproxy.so.1
+origin	libquvi
+repo	community
+file	libquvi-0.9.4-r4.apk
+checksum	Q1J/o5YwHT9KVzpT1ttxLoLyn0Ubk=
+dep	libquvi-scripts	libquvi-scripts
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgpg-error.so.0	libgpg-error
+dep	so:libintl.so.8	libintl
+dep	so:liblua.so.5	lua5.1-libs
+dep	so:libproxy.so.1	libproxy

@@ -1,0 +1,13 @@
+name	ssu-sysinfo
+version	1.5.0-r0
+description	Mer's ssu-sysinfo
+url	https://github.com/sailfishos/ssu-sysinfo
+license	LGPL-2.1-or-later AND BSD-3-Clause
+size	23399
+installed-size	51600
+depends	so:libc.musl-armhf.so.1
+origin	ssu-sysinfo
+repo	community
+file	ssu-sysinfo-1.5.0-r0.apk
+checksum	Q1mWYZpKSwClsbfVYalXbkNr8mIjU=
+dep	so:libc.musl-armhf.so.1	musl

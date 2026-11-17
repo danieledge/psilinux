@@ -1,0 +1,13 @@
+name	netatalk-dev
+version	4.5.0-r0
+description	Open Source AFP fileserver (development files)
+url	https://netatalk.io/
+license	GPL-2.0-or-later
+size	43824
+installed-size	141912
+depends	netatalk=4.5.0-r0
+origin	netatalk
+repo	community
+file	netatalk-dev-4.5.0-r0.apk
+checksum	Q1r89lxgRReAu6kOZhRlirNGe8nE0=
+dep	netatalk=4.5.0-r0	netatalk

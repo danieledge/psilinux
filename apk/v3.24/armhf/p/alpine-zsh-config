@@ -1,0 +1,14 @@
+name	alpine-zsh-config
+version	0.5.0-r0
+description	A sensible default configuration for Zsh
+url	https://github.com/jirutka/alpine-zsh-config
+license	MIT
+size	8314
+installed-size	15078
+depends	tty-copy>=0.2.0 zsh>=5.8.1-r1
+origin	alpine-zsh-config
+repo	community
+file	alpine-zsh-config-0.5.0-r0.apk
+checksum	Q1pEINtPFE4G3mdZupCCVDmn2SHvY=
+dep	tty-copy>=0.2.0	tty-copy
+dep	zsh>=5.8.1-r1	zsh

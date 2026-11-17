@@ -1,0 +1,15 @@
+name	ossec-hids-doc
+version	3.8.0-r1
+description	Documentation for ossec-hids
+url	https://www.ossec.net/
+license	GPL-2.0-only WITH openssl-exception
+size	613979
+installed-size	662566
+depends	inotify-tools procps ossec-hids-users
+origin	ossec-hids
+repo	community
+file	ossec-hids-doc-3.8.0-r1.apk
+checksum	Q1JSm16FynzvB7v/AHg288midSRGE=
+dep	inotify-tools	inotify-tools
+dep	procps	procps-ng
+dep	ossec-hids-users	ossec-hids-users

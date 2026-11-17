@@ -1,0 +1,16 @@
+name	perl-html-formattext-withlinks
+version	0.15-r5
+description	HTML to text conversion with links as footnotes
+url	https://metacpan.org/release/HTML-FormatText-WithLinks/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6039
+installed-size	11922
+depends	perl perl-html-tree perl-uri perl-html-formatter
+origin	perl-html-formattext-withlinks
+repo	main
+file	perl-html-formattext-withlinks-0.15-r5.apk
+checksum	Q19tvy3yqGko4HaCK68Yr9feCerXg=
+dep	perl	perl
+dep	perl-html-tree	perl-html-tree
+dep	perl-uri	perl-uri
+dep	perl-html-formatter	perl-html-formatter

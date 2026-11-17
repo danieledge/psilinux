@@ -1,0 +1,23 @@
+name	libcamera-gstreamer
+version	0.7.1-r1
+description	Linux camera framework
+url	https://libcamera.org/
+license	LGPL-2.1-or-later AND GPL-2.0-or-later
+size	57432
+installed-size	153132
+depends	so:libc.musl-armhf.so.1 so:libcamera-base.so.0.7 so:libcamera.so.0.7 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstallocators-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libstdc++.so.6
+origin	libcamera
+repo	community
+file	libcamera-gstreamer-0.7.1-r1.apk
+checksum	Q1OdyISPb25MW57D2qEWQDW7T67I8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcamera-base.so.0.7	libcamera
+dep	so:libcamera.so.0.7	libcamera
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstallocators-1.0.so.0	gst-plugins-base
+dep	so:libgstbase-1.0.so.0	gstreamer
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base
+dep	so:libstdc++.so.6	libstdc++

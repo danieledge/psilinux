@@ -1,0 +1,14 @@
+name	acf-dnsmasq
+version	0.7.1-r2
+description	Web-based system administration interface for dnsmasq
+url	https://gitlab.alpinelinux.org/acf/acf-dnsmasq
+license	GPL-2.0-only
+size	6439
+installed-size	16176
+depends	acf-core dnsmasq
+origin	acf-dnsmasq
+repo	main
+file	acf-dnsmasq-0.7.1-r2.apk
+checksum	Q1TCZCwbAB76jqdY7Gr2VdPQocJD8=
+dep	acf-core	acf-core
+dep	dnsmasq	dnsmasq

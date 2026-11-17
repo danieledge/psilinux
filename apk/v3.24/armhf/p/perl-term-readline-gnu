@@ -1,0 +1,16 @@
+name	perl-term-readline-gnu
+version	1.47-r0
+description	Perl extension for the GNU Readline/History Library
+url	https://metacpan.org/release/Term-ReadLine-Gnu/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	76937
+installed-size	254436
+depends	perl so:libc.musl-armhf.so.1 so:libncursesw.so.6 so:libreadline.so.8
+origin	perl-term-readline-gnu
+repo	community
+file	perl-term-readline-gnu-1.47-r0.apk
+checksum	Q1vGh8A8plMvjl4sLjecYYfAHuD8U=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libreadline.so.8	readline

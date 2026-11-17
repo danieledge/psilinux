@@ -1,0 +1,23 @@
+name	opensurge
+version	0.6.0.3-r2
+description	2D retro platformer inspired by Sonic games
+url	https://opensurge2d.org
+license	GPL-3.0-only
+size	37861842
+installed-size	42874309
+depends	so:liballegro.so.5.2 so:liballegro_acodec.so.5.2 so:liballegro_audio.so.5.2 so:liballegro_dialog.so.5.2 so:liballegro_font.so.5.2 so:liballegro_image.so.5.2 so:liballegro_memfile.so.5.2 so:liballegro_primitives.so.5.2 so:liballegro_ttf.so.5.2 so:libc.musl-armhf.so.1 so:libsurgescript.so.0.5.6
+origin	opensurge
+repo	community
+file	opensurge-0.6.0.3-r2.apk
+checksum	Q1IKtyrx1Rvyy+z8Z2w9rttKqz/rg=
+dep	so:liballegro.so.5.2	allegro
+dep	so:liballegro_acodec.so.5.2	allegro
+dep	so:liballegro_audio.so.5.2	allegro
+dep	so:liballegro_dialog.so.5.2	allegro
+dep	so:liballegro_font.so.5.2	allegro
+dep	so:liballegro_image.so.5.2	allegro
+dep	so:liballegro_memfile.so.5.2	allegro
+dep	so:liballegro_primitives.so.5.2	allegro
+dep	so:liballegro_ttf.so.5.2	allegro
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsurgescript.so.0.5.6	surgescript

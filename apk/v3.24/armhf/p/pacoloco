@@ -1,0 +1,14 @@
+name	pacoloco
+version	1.7-r14
+description	Caching proxy server for Arch Linux pacman
+url	https://github.com/anatol/pacoloco
+license	MIT
+size	5745466
+installed-size	14501504
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	pacoloco
+repo	community
+file	pacoloco-1.7-r14.apk
+checksum	Q1XTc90anCjtcZakZ1186FuFMpuck=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

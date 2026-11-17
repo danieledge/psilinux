@@ -1,0 +1,22 @@
+name	multipath-tools
+version	0.13.0-r0
+description	Device Mapper Multipathing Driver
+url	http://christophe.varoqui.free.fr/
+license	LGPL-2.0-only
+size	316021
+installed-size	848338
+depends	eudev pkgconfig so:libaio.so.1 so:libc.musl-armhf.so.1 so:libdevmapper.so.1.02 so:libgcc_s.so.1 so:libjson-c.so.5 so:libmount.so.1 so:libudev.so.1 so:liburcu.so.8
+origin	multipath-tools
+repo	main
+file	multipath-tools-0.13.0-r0.apk
+checksum	Q1CvUKSMUDlgaqEG3X7WrORSM74Gs=
+dep	eudev	eudev
+dep	pkgconfig	pkgconf
+dep	so:libaio.so.1	libaio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdevmapper.so.1.02	device-mapper-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjson-c.so.5	json-c
+dep	so:libmount.so.1	libmount
+dep	so:libudev.so.1	eudev-libs
+dep	so:liburcu.so.8	userspace-rcu

@@ -1,0 +1,15 @@
+name	nrpe-plugin
+version	4.1.1-r0
+description	Nagios plugin to check result via NRPE daemon
+url	https://www.nagios.org/downloads/nagios-core-addons/
+license	GPL-2.0-or-later
+size	24053
+installed-size	53596
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	nrpe
+repo	main
+file	nrpe-plugin-4.1.1-r0.apk
+checksum	Q1IQBpA7+ObNvJaXc4ua7C8EQILuA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

@@ -1,0 +1,19 @@
+name	libimobiledevice-progs
+version	1.4.0-r0
+description	Tools that talks iPhone and iPod Touch devices' protocols on Linux
+url	https://libimobiledevice.org
+license	LGPL-2.1-or-later
+size	122249
+installed-size	360064
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libimobiledevice-1.0.so.6 so:libimobiledevice-glue-1.0.so.0 so:libplist-2.0.so.4 so:libtatsu.so.0 so:libusbmuxd-2.0.so.7
+origin	libimobiledevice
+repo	community
+file	libimobiledevice-progs-1.4.0-r0.apk
+checksum	Q1OUSkhKOTf8jjo1bHslFh8bVxwlI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libimobiledevice-1.0.so.6	libimobiledevice
+dep	so:libimobiledevice-glue-1.0.so.0	libimobiledevice-glue
+dep	so:libplist-2.0.so.4	libplist
+dep	so:libtatsu.so.0	libtatsu
+dep	so:libusbmuxd-2.0.so.7	libusbmuxd

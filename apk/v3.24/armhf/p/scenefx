@@ -1,0 +1,20 @@
+name	scenefx
+version	0.4.1-r1
+description	A drop-in replacement for the wlroots scene API with eye-candy effects
+url	https://github.com/wlrfx/scenefx
+license	MIT
+size	56897
+installed-size	144728
+depends	so:libEGL.so.1 so:libGLESv2.so.2 so:libc.musl-armhf.so.1 so:libdrm.so.2 so:libgbm.so.1 so:libpixman-1.so.0 so:libwayland-server.so.0 so:libwlroots-0.19.so
+origin	scenefx
+repo	community
+file	scenefx-0.4.1-r1.apk
+checksum	Q1RVxaNrP3aAh0Vf6+8GIwgB4MeAM=
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libGLESv2.so.2	mesa-gles
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm.so.2	libdrm
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libpixman-1.so.0	pixman
+dep	so:libwayland-server.so.0	wayland-libs-server
+dep	so:libwlroots-0.19.so	wlroots0.19

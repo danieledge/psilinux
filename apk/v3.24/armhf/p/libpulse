@@ -1,0 +1,25 @@
+name	libpulse
+version	17.0-r7
+description	Pulseaudio libraries
+url	https://www.freedesktop.org/wiki/Software/PulseAudio/
+license	LGPL-2.1-or-later
+size	585545
+installed-size	1455045
+depends	so:libX11-xcb.so.1 so:libX11.so.6 so:libasyncns.so.0 so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libintl.so.8 so:libltdl.so.7 so:liborc-0.4.so.0 so:libsndfile.so.1 so:libsoxr.so.0 so:libspeexdsp.so.1 so:libtdb.so.1 so:libxcb.so.1
+origin	pulseaudio
+repo	community
+file	libpulse-17.0-r7.apk
+checksum	Q1inVhCmDxxEnRIg/zt79XFGKjgj4=
+dep	so:libX11-xcb.so.1	libx11
+dep	so:libX11.so.6	libx11
+dep	so:libasyncns.so.0	libasyncns
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libintl.so.8	libintl
+dep	so:libltdl.so.7	libltdl
+dep	so:liborc-0.4.so.0	orc
+dep	so:libsndfile.so.1	libsndfile
+dep	so:libsoxr.so.0	soxr
+dep	so:libspeexdsp.so.1	speexdsp
+dep	so:libtdb.so.1	tdb-libs
+dep	so:libxcb.so.1	libxcb

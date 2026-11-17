@@ -1,0 +1,15 @@
+name	aria2-daemon
+version	1.37.0-r2
+description	Support for running Aria2 as a daemon using OpenRC
+url	https://aria2.github.io/
+license	GPL-2.0-or-later
+size	3581
+installed-size	2819
+depends	aria2=1.37.0-r2 openrc /bin/sh
+origin	aria2
+repo	community
+file	aria2-daemon-1.37.0-r2.apk
+checksum	Q1cf4bEaBW0EGHk/xrltimKucQ6+0=
+dep	aria2=1.37.0-r2	aria2
+dep	openrc	openrc
+dep	/bin/sh	busybox-binsh

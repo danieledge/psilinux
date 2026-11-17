@@ -1,0 +1,16 @@
+name	cpupower-bash-completion
+version	7.1.5-r0
+description	Bash completion for cpupower
+url	https://www.kernel.org/
+license	GPL-2.0-only
+size	2589
+installed-size	3503
+depends	perf cpupower linux-tools-gpio linux-tools-iio
+origin	linux-tools
+repo	main
+file	cpupower-bash-completion-7.1.5-r0.apk
+checksum	Q1/9TjIQ4PbmQ6G2dGAZXrMM5x4Sk=
+dep	perf	perf
+dep	cpupower	cpupower
+dep	linux-tools-gpio	linux-tools-gpio
+dep	linux-tools-iio	linux-tools-iio

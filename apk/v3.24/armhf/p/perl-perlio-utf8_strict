@@ -1,0 +1,14 @@
+name	perl-perlio-utf8_strict
+version	0.010-r4
+description	Fast and correct UTF-8 IO
+url	https://metacpan.org/release/PerlIO-utf8_strict/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	7193
+installed-size	11013
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-perlio-utf8_strict
+repo	main
+file	perl-perlio-utf8_strict-0.010-r4.apk
+checksum	Q1oQa+On1cgGGnO+PGA+s3J70FsOc=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

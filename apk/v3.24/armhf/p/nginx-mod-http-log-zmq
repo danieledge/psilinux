@@ -1,0 +1,14 @@
+name	nginx-mod-http-log-zmq
+version	1.30.6-r0
+description	Nginx third-party module http-log-zmq (version v1.0.0)
+url	https://github.com/danifbento/nginx-log-zmq
+license	BSD-2-Clause
+size	8453
+installed-size	17866
+depends	nginx=1.30.6-r0 so:libc.musl-armhf.so.1
+origin	nginx
+repo	main
+file	nginx-mod-http-log-zmq-1.30.6-r0.apk
+checksum	Q1ov6EjN78briMwQ2vlYJ7JQk3XUo=
+dep	nginx=1.30.6-r0	nginx
+dep	so:libc.musl-armhf.so.1	musl

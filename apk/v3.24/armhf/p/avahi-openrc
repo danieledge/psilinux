@@ -1,0 +1,13 @@
+name	avahi-openrc
+version	0.9_rc4-r0
+description	multicast/unicast DNS-SD framework (OpenRC init scripts)
+url	https://www.avahi.org/
+license	LGPL-2.1-or-later
+size	1923
+installed-size	929
+depends	dbus
+origin	avahi
+repo	main
+file	avahi-openrc-0.9_rc4-r0.apk
+checksum	Q1waKurzrCRET9MmvDJQ3C3go8bXI=
+dep	dbus	dbus

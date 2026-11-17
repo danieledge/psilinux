@@ -1,0 +1,18 @@
+name	py3-cmsis-pack-manager
+version	0.6.0-r1
+description	Python manager for CMSIS-Pack index and cache with fast Rust backend
+url	https://github.com/pyocd/cmsis-pack-manager
+license	Apache-2.0
+size	968436
+installed-size	1918650
+depends	py3-appdirs py3-cffi py3-yaml python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	py3-cmsis-pack-manager
+repo	community
+file	py3-cmsis-pack-manager-0.6.0-r1.apk
+checksum	Q1J1U44ybTKbTbuja/DX8GpB8Uq3c=
+dep	py3-appdirs	py3-appdirs
+dep	py3-cffi	py3-cffi
+dep	py3-yaml	py3-yaml
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,13 @@
+name	xf86-input-wacom-dev
+version	1.2.4-r1
+description	X.org Wacom tablet input driver (development files)
+url	https://github.com/linuxwacom/xf86-input-wacom
+license	GPL-2.0-or-later
+size	6557
+installed-size	15353
+depends	pkgconfig
+origin	xf86-input-wacom
+repo	community
+file	xf86-input-wacom-dev-1.2.4-r1.apk
+checksum	Q1nOym12xJNCB2EiXYQWu6fHk9NUY=
+dep	pkgconfig	pkgconf

@@ -1,0 +1,14 @@
+name	udis86-git-dev
+version	1.7.2_git20221013-r1
+description	Disassembler Library for x86 and x86-64 (development files)
+url	https://github.com/canihavesomecoffee/udis86
+license	BSD-2-Clause
+size	11816
+installed-size	42054
+depends	udis86-git=1.7.2_git20221013-r1 pkgconfig
+origin	udis86-git
+repo	community
+file	udis86-git-dev-1.7.2_git20221013-r1.apk
+checksum	Q1EQ+TeXgJRuMvTW2csJbKXe0hVqk=
+dep	udis86-git=1.7.2_git20221013-r1	udis86-git
+dep	pkgconfig	pkgconf

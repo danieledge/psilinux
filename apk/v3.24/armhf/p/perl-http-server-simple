@@ -1,0 +1,14 @@
+name	perl-http-server-simple
+version	0.52-r3
+description	Lightweight HTTP server
+url	https://metacpan.org/pod/HTTP::Server::Simple
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	12003
+installed-size	27820
+depends	perl perl-cgi
+origin	perl-http-server-simple
+repo	community
+file	perl-http-server-simple-0.52-r3.apk
+checksum	Q1/L6/A1NCVkQekFOM9/3pH1xv4aI=
+dep	perl	perl
+dep	perl-cgi	perl-cgi

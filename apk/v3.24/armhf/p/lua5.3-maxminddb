@@ -1,0 +1,14 @@
+name	lua5.3-maxminddb
+version	0.1-r5
+description	libmaxminddb bindings for Lua 5.3
+url	https://github.com/fabled/lua-maxminddb
+license	MIT
+size	4286
+installed-size	9388
+depends	so:libc.musl-armhf.so.1 so:libmaxminddb.so.0
+origin	lua-maxminddb
+repo	main
+file	lua5.3-maxminddb-0.1-r5.apk
+checksum	Q1fyS4VXXZixMqSoFYUvOv+se4oxs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmaxminddb.so.0	libmaxminddb-libs

@@ -1,0 +1,36 @@
+name	gnome-feeds
+version	2.2.0-r6
+description	RSS/Atom feed reader for GNOME
+url	https://gitlab.gnome.org/World/gfeeds
+license	GPL-3.0-or-later
+size	88369
+installed-size	341585
+depends	gtk4.0 libadwaita py3-beautifulsoup4 py3-certifi py3-chardet py3-cssselect py3-dateutil py3-gobject3 py3-humanize py3-idna py3-lxml py3-lxml-html-clean py3-magic py3-pillow py3-pygments py3-readability-lxml py3-requests py3-soupsieve py3-syndom py3-tz py3-urllib3 python3 webkit2gtk-6.0 python3~3.14
+origin	gnome-feeds
+repo	community
+file	gnome-feeds-2.2.0-r6.apk
+checksum	Q1sNh3+UlXmkZ19dW6Noyvdd/U1us=
+dep	gtk4.0	gtk4.0
+dep	libadwaita	libadwaita
+dep	py3-beautifulsoup4	py3-beautifulsoup4
+dep	py3-certifi	py3-certifi
+dep	py3-chardet	py3-chardet
+dep	py3-cssselect	py3-cssselect
+dep	py3-dateutil	py3-dateutil
+dep	py3-gobject3	py3-gobject3
+dep	py3-humanize	py3-humanize
+dep	py3-idna	py3-idna
+dep	py3-lxml	py3-lxml
+dep	py3-lxml-html-clean	py3-lxml-html-clean
+dep	py3-magic	py3-magic
+dep	py3-pillow	py3-pillow
+dep	py3-pygments	py3-pygments
+dep	py3-readability-lxml	py3-readability-lxml
+dep	py3-requests	py3-requests
+dep	py3-soupsieve	py3-soupsieve
+dep	py3-syndom	py3-syndom
+dep	py3-tz	py3-tz
+dep	py3-urllib3	py3-urllib3
+dep	python3	python3
+dep	webkit2gtk-6.0	webkit2gtk-6.0
+dep	python3~3.14	python3

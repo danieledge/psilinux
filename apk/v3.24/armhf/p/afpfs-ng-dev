@@ -1,0 +1,16 @@
+name	afpfs-ng-dev
+version	0.8.1-r12
+description	A client for the Apple Filing Protocol (AFP) (development files)
+url	http://alexthepuffin.googlepages.com/
+license	GPL-2.0-only
+size	73246
+installed-size	200433
+depends	libgcrypt-dev libedit-dev ncurses-dev afpfs-ng=0.8.1-r12
+origin	afpfs-ng
+repo	community
+file	afpfs-ng-dev-0.8.1-r12.apk
+checksum	Q1/1fixef/rPPC+Rpew2N1Y3c8m4g=
+dep	libgcrypt-dev	libgcrypt-dev
+dep	libedit-dev	libedit-dev
+dep	ncurses-dev	ncurses-dev
+dep	afpfs-ng=0.8.1-r12	afpfs-ng

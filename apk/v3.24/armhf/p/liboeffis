@@ -1,0 +1,14 @@
+name	liboeffis
+version	1.5.0-r0
+description	Emulated Input library
+url	https://gitlab.freedesktop.org/libinput/libei
+license	MIT
+size	9218
+installed-size	17528
+depends	so:libbasu.so.0 so:libc.musl-armhf.so.1
+origin	libei
+repo	community
+file	liboeffis-1.5.0-r0.apk
+checksum	Q1zAfYEH7ovBFkQ1jBetqubcsHS7w=
+dep	so:libbasu.so.0	basu
+dep	so:libc.musl-armhf.so.1	musl

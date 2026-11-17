@@ -1,0 +1,18 @@
+name	openocd
+version	0.12.0-r7
+description	Free and Open On-Chip Debugging, In-System Programming and Boundary-Scan Testing
+url	https://openocd.org/
+license	GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-only
+size	1694236
+installed-size	4428950
+depends	so:libc.musl-armhf.so.1 so:libftdi1.so.2 so:libhidapi-hidraw.so.0 so:libjaylink.so.0 so:libjim.so.0.83 so:libusb-1.0.so.0
+origin	openocd
+repo	community
+file	openocd-0.12.0-r7.apk
+checksum	Q18NHIwPJ2ArYpCCKkQzlrjCqKdoc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libftdi1.so.2	libftdi1
+dep	so:libhidapi-hidraw.so.0	hidapi
+dep	so:libjaylink.so.0	libjaylink
+dep	so:libjim.so.0.83	jimtcl
+dep	so:libusb-1.0.so.0	libusb

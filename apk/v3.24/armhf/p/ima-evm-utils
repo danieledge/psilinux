@@ -1,0 +1,16 @@
+name	ima-evm-utils
+version	1.6.2-r1
+description	Linux Integrity Measurement Architecture (IMA) Extended Verification Module (EVM) tools
+url	https://github.com/mimizohar/ima-evm-utils
+license	LGPL-2.1-or-later
+size	28106
+installed-size	59692
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libimaevm.so.5 so:libkeyutils.so.1
+origin	ima-evm-utils
+repo	community
+file	ima-evm-utils-1.6.2-r1.apk
+checksum	Q1jyT0oXfD035hTftJmCzkENDexYY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libimaevm.so.5	ima-evm-utils-libs
+dep	so:libkeyutils.so.1	keyutils-libs

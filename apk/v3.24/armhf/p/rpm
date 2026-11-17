@@ -1,0 +1,31 @@
+name	rpm
+version	4.19.1.1-r5
+description	Redhat Package Management utilities (RPM)
+url	https://rpm.org/
+license	GPL-2.0-or-later
+size	414829
+installed-size	1137989
+depends	rpm-scripts so:libacl.so.1 so:libarchive.so.13 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcap.so.2 so:libcrypto.so.3 so:libdw.so.1 so:libelf.so.1 so:libgomp.so.1 so:libintl.so.8 so:liblua-5.4.so.0 so:liblzma.so.5 so:libmagic.so.1 so:libpopt.so.0 so:libreadline.so.8 so:libsqlite3.so.0 so:libz.so.1 so:libzstd.so.1
+origin	rpm
+repo	community
+file	rpm-4.19.1.1-r5.apk
+checksum	Q1EDighwklscRQ1EVF/wx4xNKpngY=
+dep	rpm-scripts	rpm-scripts
+dep	so:libacl.so.1	acl-libs
+dep	so:libarchive.so.13	libarchive
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libdw.so.1	libdw
+dep	so:libelf.so.1	libelf
+dep	so:libgomp.so.1	libgomp
+dep	so:libintl.so.8	libintl
+dep	so:liblua-5.4.so.0	lua5.4-libs
+dep	so:liblzma.so.5	xz-libs
+dep	so:libmagic.so.1	libmagic
+dep	so:libpopt.so.0	popt
+dep	so:libreadline.so.8	readline
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

@@ -1,0 +1,12 @@
+name	gnumeric-dbg
+version	1.12.60-r1
+description	GNOME Spreadsheet Program (debug symbols)
+url	https://www.gnome.org/projects/gnumeric
+license	GPL-2.0-or-later OR GPL-3.0-or-later
+size	7224171
+installed-size	15901988
+depends	!gnumeric<1.12.60-r1 !gnumeric>1.12.60-r1
+origin	gnumeric
+repo	community
+file	gnumeric-dbg-1.12.60-r1.apk
+checksum	Q1z0Bp6icimo9dsV0Czx41rNvrwEA=

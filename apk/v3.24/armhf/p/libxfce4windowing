@@ -1,0 +1,27 @@
+name	libxfce4windowing
+version	4.20.6-r0
+description	Windowing concept abstraction library for X11 and Wayland
+url	https://gitlab.xfce.org/xfce/libxfce4windowing
+license	LGPL-2.1-or-later
+size	81589
+installed-size	213256
+depends	so:libX11.so.6 so:libXrandr.so.2 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdisplay-info.so.3 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libwayland-client.so.0 so:libwnck-3.so.0
+origin	libxfce4windowing
+repo	community
+file	libxfce4windowing-4.20.6-r0.apk
+checksum	Q19prwn/0iFi04mMORk2xw44bYCy4=
+dep	so:libX11.so.6	libx11
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libdisplay-info.so.3	libdisplay-info
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwnck-3.so.0	libwnck3

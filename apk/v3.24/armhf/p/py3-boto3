@@ -1,0 +1,16 @@
+name	py3-boto3
+version	1.43.6-r0
+description	AWS SDK for Python (Boto3)
+url	https://aws.amazon.com/sdk-for-python/
+license	Apache-2.0
+size	114491
+installed-size	993319
+depends	py3-botocore py3-jmespath py3-s3transfer python3~3.14
+origin	py3-boto3
+repo	community
+file	py3-boto3-1.43.6-r0.apk
+checksum	Q15bs/waxea00giwpSInPySusTdzw=
+dep	py3-botocore	py3-botocore
+dep	py3-jmespath	py3-jmespath
+dep	py3-s3transfer	py3-s3transfer
+dep	python3~3.14	python3

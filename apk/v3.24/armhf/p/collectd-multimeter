@@ -1,0 +1,14 @@
+name	collectd-multimeter
+version	5.12.0-r25
+description	multimeter pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	4611
+installed-size	9340
+depends	collectd so:libc.musl-armhf.so.1
+origin	collectd
+repo	community
+file	collectd-multimeter-5.12.0-r25.apk
+checksum	Q1edtEnb0A9tFfukXC+uu/Qk0C9o8=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl

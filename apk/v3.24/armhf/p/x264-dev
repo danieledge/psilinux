@@ -1,0 +1,14 @@
+name	x264-dev
+version	0.164.3108-r1
+description	Free library for encoding H264/AVC video streams (development files)
+url	https://www.videolan.org/developers/x264.html
+license	GPL-2.0-or-later
+size	8895655
+installed-size	10816644
+depends	x264-libs=0.164.3108-r1 pkgconfig
+origin	x264
+repo	community
+file	x264-dev-0.164.3108-r1.apk
+checksum	Q12dFWew9vU8GTOdkBgIc4l5cBSrM=
+dep	x264-libs=0.164.3108-r1	x264-libs
+dep	pkgconfig	pkgconf

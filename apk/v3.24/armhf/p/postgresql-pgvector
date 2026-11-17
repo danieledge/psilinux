@@ -1,0 +1,14 @@
+name	postgresql-pgvector
+version	0.8.1-r0
+description	Open-source vector similarity search for PostgreSQL
+url	https://github.com/pgvector/pgvector
+license	PostgreSQL
+size	80277
+installed-size	207881
+depends	postgresql18 so:libc.musl-armhf.so.1
+origin	postgresql-pgvector
+repo	community
+file	postgresql-pgvector-0.8.1-r0.apk
+checksum	Q15ERB/qd1yHbvNyoIAyR8GyNEErE=
+dep	postgresql18	postgresql18
+dep	so:libc.musl-armhf.so.1	musl

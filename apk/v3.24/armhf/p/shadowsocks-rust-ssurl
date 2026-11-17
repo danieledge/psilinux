@@ -1,0 +1,14 @@
+name	shadowsocks-rust-ssurl
+version	1.24.0-r1
+description	Rust port of shadowsocks (ssurl binary)
+url	https://github.com/shadowsocks/shadowsocks-rust
+license	MIT
+size	857809
+installed-size	1711108
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	shadowsocks-rust
+repo	community
+file	shadowsocks-rust-ssurl-1.24.0-r1.apk
+checksum	Q1o6hd86QB/9ZKY2EFjBc+2boBNDE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

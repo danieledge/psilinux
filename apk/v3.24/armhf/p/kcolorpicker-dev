@@ -1,0 +1,14 @@
+name	kcolorpicker-dev
+version	0.3.1-r0
+description	Qt based Color Picker with popup menu (development files)
+url	https://github.com/ksnip/kColorPicker
+license	LGPL-3.0-or-later
+size	6133
+installed-size	11816
+depends	qt6-qtbase-dev kcolorpicker=0.3.1-r0
+origin	kcolorpicker
+repo	community
+file	kcolorpicker-dev-0.3.1-r0.apk
+checksum	Q1R40y2pY3FIfYEVjTC2nNNUmv4UY=
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	kcolorpicker=0.3.1-r0	kcolorpicker

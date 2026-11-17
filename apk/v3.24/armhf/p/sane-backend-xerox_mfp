@@ -1,0 +1,17 @@
+name	sane-backend-xerox_mfp
+version	1.4.0-r4
+description	SANE backend for Xerox Phaser 3200MFP device et al.
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	43161
+installed-size	92704
+depends	sane so:libc.musl-armhf.so.1 so:libjpeg.so.8 so:libusb-1.0.so.0 so:libxml2.so.2
+origin	sane
+repo	community
+file	sane-backend-xerox_mfp-1.4.0-r4.apk
+checksum	Q1QZkmMVAzbBKEMVzWFgxpb/q6EjA=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libusb-1.0.so.0	libusb
+dep	so:libxml2.so.2	libxml2

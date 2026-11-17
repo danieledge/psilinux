@@ -1,0 +1,14 @@
+name	nsf-tk
+version	2.4.0-r1
+description	Next Scripting Framework for Tcl (graphical shells)
+url	https://next-scripting.org/
+license	MIT
+size	2076
+installed-size	1466
+depends	nsf=2.4.0-r1 tk
+origin	nsf
+repo	community
+file	nsf-tk-2.4.0-r1.apk
+checksum	Q1uqU73GVda31Vx1AvTRic5zXebHM=
+dep	nsf=2.4.0-r1	nsf
+dep	tk	tk

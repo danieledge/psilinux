@@ -1,0 +1,23 @@
+name	weston-terminal
+version	14.0.2-r5
+description	Weston client: weston-terminal
+url	https://wayland.freedesktop.org/
+license	MIT
+size	50035
+installed-size	101312
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libfontconfig.so.1 so:libgobject-2.0.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpixman-1.so.0 so:libwayland-client.so.0 so:libwayland-cursor.so.0 so:libwebp.so.7 so:libxkbcommon.so.0
+origin	weston
+repo	community
+file	weston-terminal-14.0.2-r5.apk
+checksum	Q1RRMB1mTF4294prPzVAh3RGWWch8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpixman-1.so.0	pixman
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor
+dep	so:libwebp.so.7	libwebp
+dep	so:libxkbcommon.so.0	libxkbcommon

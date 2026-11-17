@@ -1,0 +1,13 @@
+name	lua5.4-pc
+version	1.0.0-r13
+description	Lua Process Call for Lua 5.4
+url	https://github.com/LuaDist/lpc
+license	MIT
+size	4700
+installed-size	9388
+depends	so:libc.musl-armhf.so.1
+origin	lua-pc
+repo	main
+file	lua5.4-pc-1.0.0-r13.apk
+checksum	Q1s9IZweTM1pJ0p+SmbbYWS1GcKdM=
+dep	so:libc.musl-armhf.so.1	musl

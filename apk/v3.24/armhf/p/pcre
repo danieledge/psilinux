@@ -1,0 +1,13 @@
+name	pcre
+version	8.45-r4
+description	Perl-compatible regular expression library
+url	https://www.pcre.org/
+license	BSD-3-Clause
+size	141128
+installed-size	371052
+depends	so:libc.musl-armhf.so.1
+origin	pcre
+repo	main
+file	pcre-8.45-r4.apk
+checksum	Q1aXUnG9SQy0A0kmxBP3QXg+fWz6w=
+dep	so:libc.musl-armhf.so.1	musl

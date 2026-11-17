@@ -1,0 +1,14 @@
+name	openxr-dev
+version	1.1.60-r0
+description	OpenXR loader library (development files)
+url	https://khronos.org/openxr
+license	Apache-2.0
+size	163629
+installed-size	1241634
+depends	openxr=1.1.60-r0 pkgconfig
+origin	openxr
+repo	community
+file	openxr-dev-1.1.60-r0.apk
+checksum	Q1fvunxy82NSBRohTEzgFaka18/+M=
+dep	openxr=1.1.60-r0	openxr
+dep	pkgconfig	pkgconf

@@ -1,0 +1,12 @@
+name	nrpe-openrc
+version	4.1.1-r0
+description	NRPE allows you to remotely execute Nagios plugins on other Linux/Unix machines. (OpenRC init scripts)
+url	https://www.nagios.org/downloads/nagios-core-addons/
+license	GPL-2.0-or-later
+size	2032
+installed-size	574
+depends	
+origin	nrpe
+repo	main
+file	nrpe-openrc-4.1.1-r0.apk
+checksum	Q1IFtqYOzhzHQI9BuwjnZRi5B5l3s=

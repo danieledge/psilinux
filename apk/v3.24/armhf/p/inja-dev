@@ -1,0 +1,14 @@
+name	inja-dev
+version	3.5.0-r0
+description	Template engine for modern C++ (development files)
+url	https://pantor.github.io/inja/
+license	MIT
+size	23141
+installed-size	104899
+depends	pc:nlohmann_json pkgconfig
+origin	inja
+repo	community
+file	inja-dev-3.5.0-r0.apk
+checksum	Q1yzZgpeUHryIVcYzZKL9Y3pi6sBM=
+dep	pc:nlohmann_json	nlohmann-json
+dep	pkgconfig	pkgconf

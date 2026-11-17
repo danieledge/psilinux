@@ -1,0 +1,14 @@
+name	py3-miniflux
+version	1.1.6-r0
+description	Python client for Miniflux API
+url	https://miniflux.app/
+license	MIT
+size	9322
+installed-size	45285
+depends	py3-requests python3~3.14
+origin	py3-miniflux
+repo	community
+file	py3-miniflux-1.1.6-r0.apk
+checksum	Q19Hie46qsq/47czgDG9gqWJ2eg4g=
+dep	py3-requests	py3-requests
+dep	python3~3.14	python3

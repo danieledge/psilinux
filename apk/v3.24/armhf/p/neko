@@ -1,0 +1,24 @@
+name	neko
+version	2.4.1-r1
+description	The Neko Virtual Machine
+url	https://nekovm.org/
+license	MIT
+size	442716
+installed-size	1022736
+depends	so:libapr-1.so.0 so:libc.musl-armhf.so.1 so:libgc.so.1 so:libgdk-3.so.0 so:libgtk-3.so.0 so:libmariadb.so.3 so:libmbedcrypto.so.16 so:libmbedtls.so.21 so:libmbedx509.so.7 so:libpcre2-8.so.0 so:libsqlite3.so.0 so:libz.so.1
+origin	neko
+repo	community
+file	neko-2.4.1-r1.apk
+checksum	Q1NumZs+9VYBOpZTXc30Uwv3KNnrI=
+dep	so:libapr-1.so.0	apr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgc.so.1	gc
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libmariadb.so.3	mariadb-connector-c
+dep	so:libmbedcrypto.so.16	mbedtls3
+dep	so:libmbedtls.so.21	mbedtls3
+dep	so:libmbedx509.so.7	mbedtls3
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libz.so.1	zlib

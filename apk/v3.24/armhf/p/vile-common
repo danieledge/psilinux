@@ -1,0 +1,14 @@
+name	vile-common
+version	9.8z_p2-r0
+description	Vi Like Emacs, common files for vile and xvile
+url	https://invisible-island.net/vile/
+license	GPL-2.0-only
+size	362671
+installed-size	1111584
+depends	perl so:libc.musl-armhf.so.1
+origin	vile
+repo	community
+file	vile-common-9.8z_p2-r0.apk
+checksum	Q1oM1qS6SXfylOU50fivDPRz7T4Z4=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

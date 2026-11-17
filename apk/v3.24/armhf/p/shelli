@@ -1,0 +1,21 @@
+name	shelli
+version	0.7-r0
+description	A shell environment (scripts/config/etc) to make a unix system more usable day-to-day with simple commands
+url	https://git.sr.ht/~unrznbl/shelli
+license	GPL-3.0-only
+size	16838
+installed-size	29660
+depends	alsa-utils bash espeak kbd kbd-misc ofono py3-gobject3 python3 so:libc.musl-armhf.so.1
+origin	shelli
+repo	community
+file	shelli-0.7-r0.apk
+checksum	Q1DUGX4ssphcq+0ar+4JVvgKk1X88=
+dep	alsa-utils	alsa-utils
+dep	bash	bash
+dep	espeak	espeak
+dep	kbd	kbd
+dep	kbd-misc	kbd-misc
+dep	ofono	ofono
+dep	py3-gobject3	py3-gobject3
+dep	python3	python3
+dep	so:libc.musl-armhf.so.1	musl

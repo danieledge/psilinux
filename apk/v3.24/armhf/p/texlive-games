@@ -1,0 +1,14 @@
+name	texlive-games
+version	2026.0-r0
+description	TeX Live games typesetting tools
+url	https://tug.org/texlive/
+license	GPL-2.0-or-later AND GPL-3.0-or-later
+size	1606
+installed-size	1
+depends	texlive texmf-dist-games
+origin	texlive
+repo	community
+file	texlive-games-2026.0-r0.apk
+checksum	Q1/gM6oT121GyAD8gImRQgDeDL/Ds=
+dep	texlive	texlive
+dep	texmf-dist-games	texmf-dist-games

@@ -1,0 +1,18 @@
+name	py3-signedjson
+version	1.1.4-r4
+description	Sign JSON objects with ED25519 signatures
+url	https://github.com/matrix-org/python-signedjson
+license	Apache-2.0
+size	6464
+installed-size	15823
+depends	python3 py3-pynacl py3-canonicaljson py3-unpaddedbase64 py3-typing-extensions python3~3.14
+origin	py3-signedjson
+repo	community
+file	py3-signedjson-1.1.4-r4.apk
+checksum	Q1TnCX8fMrbMELTk9OCb1TYewKDRw=
+dep	python3	python3
+dep	py3-pynacl	py3-pynacl
+dep	py3-canonicaljson	py3-canonicaljson
+dep	py3-unpaddedbase64	py3-unpaddedbase64
+dep	py3-typing-extensions	py3-typing-extensions
+dep	python3~3.14	python3

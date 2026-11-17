@@ -1,0 +1,16 @@
+name	git-svn
+version	2.54.1-r0
+description	Subversion support for git
+url	https://www.git-scm.com/
+license	GPL-2.0-only
+size	22095
+installed-size	64899
+depends	perl perl-git-svn=2.54.1-r0 perl-subversion perl-term-readkey
+origin	git
+repo	main
+file	git-svn-2.54.1-r0.apk
+checksum	Q1CK0ccwrAByTs/NYgrFu3WHMtp0E=
+dep	perl	perl
+dep	perl-git-svn=2.54.1-r0	perl-git-svn
+dep	perl-subversion	perl-subversion
+dep	perl-term-readkey	perl-term-readkey

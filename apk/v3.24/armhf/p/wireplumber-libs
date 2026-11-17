@@ -1,0 +1,19 @@
+name	wireplumber-libs
+version	0.5.15-r0
+description	Session / policy manager implementation for PipeWire (libraries)
+url	https://pipewire.org/
+license	LGPL-2.1-or-later
+size	167977
+installed-size	436396
+depends	so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libpipewire-0.3.so.0
+origin	wireplumber
+repo	community
+file	wireplumber-libs-0.5.15-r0.apk
+checksum	Q1jPjOW3BD8ZlrG5y74xK6GjNTy58=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libintl.so.8	libintl
+dep	so:libpipewire-0.3.so.0	pipewire-libs

@@ -1,0 +1,15 @@
+name	collectd-mysql
+version	5.12.0-r25
+description	mysql pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	11575
+installed-size	26476
+depends	collectd so:libc.musl-armhf.so.1 so:libmariadb.so.3
+origin	collectd
+repo	community
+file	collectd-mysql-5.12.0-r25.apk
+checksum	Q1sO5qUz0/yNXJgYu1qpmbCm90n+Q=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmariadb.so.3	mariadb-connector-c

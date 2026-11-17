@@ -1,0 +1,14 @@
+name	sigar
+version	1.6.4-r3
+description	System Information Gatherer And Reporter
+url	http://sigar.hyperic.com/
+license	Apache-2.0
+size	76010
+installed-size	183000
+depends	so:libc.musl-armhf.so.1 so:libtirpc.so.3
+origin	sigar
+repo	community
+file	sigar-1.6.4-r3.apk
+checksum	Q1r7oUOH9r4KF0AEWr2zuvCtVmicI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libtirpc.so.3	libtirpc

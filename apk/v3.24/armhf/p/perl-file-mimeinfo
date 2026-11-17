@@ -1,0 +1,17 @@
+name	perl-file-mimeinfo
+version	0.37-r0
+description	Determine file types
+url	https://metacpan.org/release/File-MimeInfo/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	20488
+installed-size	64632
+depends	perl perl-encode-locale perl-file-basedir perl-file-desktopentry shared-mime-info
+origin	perl-file-mimeinfo
+repo	community
+file	perl-file-mimeinfo-0.37-r0.apk
+checksum	Q1Pcpl8MsVskXOaQ1psbstJfzRYrs=
+dep	perl	perl
+dep	perl-encode-locale	perl-encode-locale
+dep	perl-file-basedir	perl-file-basedir
+dep	perl-file-desktopentry	perl-file-desktopentry
+dep	shared-mime-info	shared-mime-info

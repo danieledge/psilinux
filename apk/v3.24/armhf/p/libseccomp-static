@@ -1,0 +1,13 @@
+name	libseccomp-static
+version	2.6.1-r0
+description	interface to the Linux Kernel's syscall filtering mechanism (static library)
+url	https://github.com/seccomp/libseccomp
+license	LGPL-2.1-or-later
+size	58757
+installed-size	213528
+depends	libseccomp-dev
+origin	libseccomp
+repo	main
+file	libseccomp-static-2.6.1-r0.apk
+checksum	Q1v/z5Mf/m0P3OZhQsRBQCIarx8Yo=
+dep	libseccomp-dev	libseccomp-dev

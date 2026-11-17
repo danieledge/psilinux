@@ -1,0 +1,12 @@
+name	sdl12-compat-dbg
+version	1.2.76-r1
+description	SDL-1.2 compat layer that uses SDL-2.0 (debug symbols)
+url	https://github.com/libsdl-org/sdl12-compat
+license	BSD-3-Clause
+size	193492
+installed-size	443572
+depends	!sdl12-compat<1.2.76-r1 !sdl12-compat>1.2.76-r1
+origin	sdl12-compat
+repo	community
+file	sdl12-compat-dbg-1.2.76-r1.apk
+checksum	Q1xltciUiSaEqTCfmdHoQ9WVr2kLw=

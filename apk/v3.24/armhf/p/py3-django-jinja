@@ -1,0 +1,15 @@
+name	py3-django-jinja
+version	2.11.0-r4
+description	Simple and nonobstructive jinja2 integration with Django
+url	https://pypi.python.org/project/django-jinja
+license	BSD-3-Clause
+size	20464
+installed-size	54593
+depends	py3-django py3-jinja2 python3~3.14
+origin	py3-django-jinja
+repo	community
+file	py3-django-jinja-2.11.0-r4.apk
+checksum	Q1idFYHQ0dxxOfdxTw4LzlJwzyBPw=
+dep	py3-django	py3-django
+dep	py3-jinja2	py3-jinja2
+dep	python3~3.14	python3

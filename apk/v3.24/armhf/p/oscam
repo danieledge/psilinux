@@ -1,0 +1,18 @@
+name	oscam
+version	1.20_svn20201119-r5
+description	Open Source Conditional Access Module software
+url	http://www.streamboard.tv/oscam/
+license	GPL-3.0-or-later
+size	814801
+installed-size	1463978
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libpcsclite.so.1 so:libssl.so.3 so:libusb-1.0.so.0
+origin	oscam
+repo	community
+file	oscam-1.20_svn20201119-r5.apk
+checksum	Q1KmV1tPrMYClaZc/Rfwxs3MEil8Y=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libpcsclite.so.1	pcsc-lite-libs
+dep	so:libssl.so.3	libssl3
+dep	so:libusb-1.0.so.0	libusb

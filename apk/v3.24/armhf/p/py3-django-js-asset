@@ -1,0 +1,14 @@
+name	py3-django-js-asset
+version	3.1.2-r2
+description	script tag with additional attributes for django.forms.Media
+url	https://github.com/matthiask/django-js-asset
+license	BSD-3-Clause
+size	7065
+installed-size	11633
+depends	py3-django python3~3.14
+origin	py3-django-js-asset
+repo	community
+file	py3-django-js-asset-3.1.2-r2.apk
+checksum	Q16skZR1Fu6AszhNv68kcwoo2QEJg=
+dep	py3-django	py3-django
+dep	python3~3.14	python3

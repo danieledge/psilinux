@@ -1,0 +1,13 @@
+name	lxc-static
+version	7.0.0-r0
+description	Userspace interface for the Linux kernel containment features (static library)
+url	https://linuxcontainers.org/lxc/
+license	LGPL-2.1-or-later
+size	8569384
+installed-size	13428578
+depends	lxc-dev
+origin	lxc
+repo	main
+file	lxc-static-7.0.0-r0.apk
+checksum	Q18nbVKlXTRibTJFRILBXJuPHyKpw=
+dep	lxc-dev	lxc-dev

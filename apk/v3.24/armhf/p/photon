@@ -1,0 +1,13 @@
+name	photon
+version	1.0.1-r27
+description	RSS reader as light as a photon with terminal + sixel
+url	https://sr.ht/~ghost08/photon/
+license	GPL-3.0-or-later
+size	5731443
+installed-size	14711676
+depends	so:libc.musl-armhf.so.1
+origin	photon
+repo	community
+file	photon-1.0.1-r27.apk
+checksum	Q1NLCCGrKFNbrt8llTabEXh+LqA6E=
+dep	so:libc.musl-armhf.so.1	musl

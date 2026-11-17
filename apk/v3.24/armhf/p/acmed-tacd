@@ -1,0 +1,16 @@
+name	acmed-tacd
+version	0.25.0-r0
+description	Standalone tls-alpn-01 challenge validation server
+url	https://github.com/breard-r/acmed
+license	MIT
+size	645076
+installed-size	1263096
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
+origin	acmed
+repo	community
+file	acmed-tacd-0.25.0-r0.apk
+checksum	Q1bJTiNg3J/J7mHfrgXjUmxoKk3GE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3

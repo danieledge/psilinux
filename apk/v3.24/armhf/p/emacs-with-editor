@@ -1,0 +1,14 @@
+name	emacs-with-editor
+version	3.3.4-r1
+description	Use Emacsclient as EDITOR of child processes
+url	https://github.com/magit/with-editor
+license	GPL-3.0-or-later
+size	25560
+installed-size	83300
+depends	cmd:emacs emacs-compat
+origin	emacs-with-editor
+repo	community
+file	emacs-with-editor-3.3.4-r1.apk
+checksum	Q166JB/lyQ0hPisZritUE/q7hemvM=
+dep	cmd:emacs	emacs-gtk3
+dep	emacs-compat	emacs-compat

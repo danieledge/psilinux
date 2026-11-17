@@ -1,0 +1,13 @@
+name	wormhole-william
+version	1.0.8-r12
+description	Go implementation of Magic Wormhole
+url	https://github.com/psanford/wormhole-william
+license	MIT
+size	3836755
+installed-size	9634332
+depends	so:libc.musl-armhf.so.1
+origin	wormhole-william
+repo	community
+file	wormhole-william-1.0.8-r12.apk
+checksum	Q1qcmgtW9ocM+eZ8xgcCTWIWLpG6w=
+dep	so:libc.musl-armhf.so.1	musl

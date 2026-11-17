@@ -1,0 +1,22 @@
+name	mosquitto
+version	2.1.2-r1
+description	open source MQTT broker
+url	https://mosquitto.org/
+license	EPL-1.0 OR EPL-2.0
+size	416336
+installed-size	976731
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libcjson.so.1 so:libcrypto.so.3 so:libedit.so.0 so:libmicrohttpd.so.12 so:libmosquitto.so.1 so:libsqlite3.so.0 so:libssl.so.3 so:libwebsockets.so.19
+origin	mosquitto
+repo	main
+file	mosquitto-2.1.2-r1.apk
+checksum	Q10Q8kLqWiXbLWSVvY/FLOQDXjrNo=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcjson.so.1	cjson
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libedit.so.0	libedit
+dep	so:libmicrohttpd.so.12	libmicrohttpd
+dep	so:libmosquitto.so.1	mosquitto-libs
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libssl.so.3	libssl3
+dep	so:libwebsockets.so.19	libwebsockets

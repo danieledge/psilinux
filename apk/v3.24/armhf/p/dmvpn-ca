@@ -1,0 +1,21 @@
+name	dmvpn-ca
+version	1.4.3-r1
+description	Dynamic Multipoint VPN
+url	https://gitlab.alpinelinux.org/alpine/dmvpn-tools
+license	MIT
+size	11111
+installed-size	32603
+depends	lua5.4 lua5.4-bit32 lua5.4-lyaml lua5.4-ossl lua5.4-posix lua5.4-sql-sqlite3 lua5.4-stringy lua-asn1 lua-dmvpn
+origin	dmvpn
+repo	main
+file	dmvpn-ca-1.4.3-r1.apk
+checksum	Q16BlU6sH47RaZQfVuKfNc/eoegwM=
+dep	lua5.4	lua5.4
+dep	lua5.4-bit32	lua5.4-bit32
+dep	lua5.4-lyaml	lua5.4-lyaml
+dep	lua5.4-ossl	lua5.4-ossl
+dep	lua5.4-posix	lua5.4-posix
+dep	lua5.4-sql-sqlite3	lua5.4-sql-sqlite3
+dep	lua5.4-stringy	lua5.4-stringy
+dep	lua-asn1	lua-asn1
+dep	lua-dmvpn	lua-dmvpn

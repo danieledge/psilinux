@@ -1,0 +1,14 @@
+name	libstatgrab
+version	0.92.1-r1
+description	Cross platform library for accessing system statistics
+url	https://libstatgrab.org/
+license	LGPL-2.0-or-later
+size	46372
+installed-size	109307
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	libstatgrab
+repo	community
+file	libstatgrab-0.92.1-r1.apk
+checksum	Q1rwGvF634GNOTBUHdOjwtTBJdInE=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

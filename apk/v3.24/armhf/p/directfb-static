@@ -1,0 +1,13 @@
+name	directfb-static
+version	1.7.7-r8
+description	Library for hw graphics acceleration, input dev, windowing system on top of the Linux fb device (static library)
+url	https://github.com/deniskropp/DirectFB
+license	LGPL-2.0-or-later
+size	8937411
+installed-size	22432090
+depends	directfb-dev
+origin	directfb
+repo	community
+file	directfb-static-1.7.7-r8.apk
+checksum	Q1QhTXMzdkgu2FHgRHbCPRL+hsL2A=
+dep	directfb-dev	directfb-dev

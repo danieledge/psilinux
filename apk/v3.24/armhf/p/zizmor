@@ -1,0 +1,14 @@
+name	zizmor
+version	1.25.2-r0
+description	A static analysis tool for GitHub Actions
+url	https://github.com/zizmorcore/zizmor
+license	MIT
+size	4905801
+installed-size	12354920
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	zizmor
+repo	community
+file	zizmor-1.25.2-r0.apk
+checksum	Q1elMGNw2rkAG6J0ixUBSLTzOl9YY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

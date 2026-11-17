@@ -1,0 +1,13 @@
+name	libstemmer
+version	2.2.0-r0
+description	Snowball rule-based stemming algorithms
+url	https://snowballstem.org/
+license	BSD-3-Clause
+size	316431
+installed-size	1059616
+depends	so:libc.musl-armhf.so.1
+origin	snowball
+repo	main
+file	libstemmer-2.2.0-r0.apk
+checksum	Q1nqeO/U0VYIuZ7WMbrn2lvc1klOA=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,16 @@
+name	libgbinder
+version	1.1.45-r0
+description	GLib-style interface to binder
+url	https://github.com/mer-hybris/libgbinder
+license	BSD-3-Clause
+size	54315
+installed-size	124212
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libglibutil.so.1 so:libgobject-2.0.so.0
+origin	libgbinder
+repo	community
+file	libgbinder-1.1.45-r0.apk
+checksum	Q1Og6CwAaffK8t58ZveSG8H/eA9xc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libglibutil.so.1	libglibutil
+dep	so:libgobject-2.0.so.0	glib

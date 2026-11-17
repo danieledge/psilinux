@@ -1,0 +1,14 @@
+name	doas
+version	6.8.2-r8
+description	OpenBSD's temporary privilege escalation tool
+url	https://github.com/Duncaen/OpenDoas
+license	ISC
+size	17206
+installed-size	30177
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	doas
+repo	main
+file	doas-6.8.2-r8.apk
+checksum	Q1D7+6p6ciZCoj+9eIZb8s5tvzX7A=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

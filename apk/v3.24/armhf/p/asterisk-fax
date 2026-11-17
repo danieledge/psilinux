@@ -1,0 +1,14 @@
+name	asterisk-fax
+version	22.9.0-r0
+description	Modular Open Source PBX System
+url	https://www.asterisk.org/
+license	GPL-2.0-only WITH OpenSSL-Exception
+size	72223
+installed-size	163360
+depends	so:libc.musl-armhf.so.1 so:libspandsp.so.2
+origin	asterisk
+repo	main
+file	asterisk-fax-22.9.0-r0.apk
+checksum	Q13gS0iyufvQB7EKg0GwYnXrfWvDs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libspandsp.so.2	spandsp

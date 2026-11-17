@@ -1,0 +1,15 @@
+name	librist
+version	0.2.15-r0
+description	Reliable Internet Stream Transport (RIST)
+url	https://www.rist.tv/
+license	BSD-2-Clause
+size	75497
+installed-size	148752
+depends	so:libc.musl-armhf.so.1 so:libcjson.so.1 so:libmbedcrypto.so.16
+origin	librist
+repo	community
+file	librist-0.2.15-r0.apk
+checksum	Q1haidHB0dsGOgsP0GC6ptKnk/suo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcjson.so.1	cjson
+dep	so:libmbedcrypto.so.16	mbedtls3

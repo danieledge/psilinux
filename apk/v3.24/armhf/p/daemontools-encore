@@ -1,0 +1,13 @@
+name	daemontools-encore
+version	1.11-r3
+description	Enhanced collection of tools for managing UNIX services
+url	http://untroubled.org/daemontools-encore/
+license	MIT
+size	65427
+installed-size	300212
+depends	so:libc.musl-armhf.so.1
+origin	daemontools-encore
+repo	community
+file	daemontools-encore-1.11-r3.apk
+checksum	Q1Ja49TFbxxHAIIMrbD/1sj4065+M=
+dep	so:libc.musl-armhf.so.1	musl

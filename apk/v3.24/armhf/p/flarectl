@@ -1,0 +1,13 @@
+name	flarectl
+version	0.116.0-r8
+description	CLI application for interacting with a Cloudflare account
+url	https://github.com/cloudflare/cloudflare-go/tree/master/cmd/flarectl
+license	BSD-3-Clause
+size	4011386
+installed-size	10337756
+depends	so:libc.musl-armhf.so.1
+origin	flarectl
+repo	community
+file	flarectl-0.116.0-r8.apk
+checksum	Q1pOfAQ1iDqrufLNxJ2GkP0xdBR60=
+dep	so:libc.musl-armhf.so.1	musl

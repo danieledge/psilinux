@@ -1,0 +1,21 @@
+name	xmlrpc-c-client++
+version	1.51.08-r5
+description	C++ client libraries for xmlrpc-c
+url	https://xmlrpc-c.sourceforge.net/
+license	BSD-3-Clause AND MIT
+size	31898
+installed-size	91520
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libxmlrpc++.so.8 so:libxmlrpc.so.3 so:libxmlrpc_client.so.3 so:libxmlrpc_packetsocket.so.8 so:libxmlrpc_util++.so.8 so:libxmlrpc_util.so.4
+origin	xmlrpc-c
+repo	main
+file	xmlrpc-c-client++-1.51.08-r5.apk
+checksum	Q10zl8SW++TF/DRJ7GJ0XylHuCA34=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxmlrpc++.so.8	xmlrpc-c++
+dep	so:libxmlrpc.so.3	xmlrpc-c
+dep	so:libxmlrpc_client.so.3	xmlrpc-c-client
+dep	so:libxmlrpc_packetsocket.so.8	xmlrpc-c++
+dep	so:libxmlrpc_util++.so.8	xmlrpc-c++
+dep	so:libxmlrpc_util.so.4	xmlrpc-c

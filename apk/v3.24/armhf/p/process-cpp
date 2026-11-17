@@ -1,0 +1,16 @@
+name	process-cpp
+version	3.1.0-r1
+description	A simple convenience library for handling processes in C++11
+url	https://gitlab.com/ubports/core/lib-cpp/process-cpp
+license	LGPL-3.0-only
+size	33879
+installed-size	83328
+depends	so:libboost_iostreams.so.1.84.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	process-cpp
+repo	community
+file	process-cpp-3.1.0-r1.apk
+checksum	Q1R9+ia8WLPrW+cw0mbv9MKiA2KBI=
+dep	so:libboost_iostreams.so.1.84.0	boost1.84-iostreams
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,13 @@
+name	kustomize
+version	5.8.1-r4
+description	Template-free customization of Kubernetes YAML manifests
+url	https://kustomize.io/
+license	Apache-2.0
+size	8075537
+installed-size	20882436
+depends	so:libc.musl-armhf.so.1
+origin	kustomize
+repo	community
+file	kustomize-5.8.1-r4.apk
+checksum	Q1rA+rfqKrH0oOM1MmtIc6czPhEpk=
+dep	so:libc.musl-armhf.so.1	musl

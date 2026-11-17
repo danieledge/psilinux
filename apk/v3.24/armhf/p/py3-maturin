@@ -1,0 +1,14 @@
+name	py3-maturin
+version	1.11.5-r1
+description	Build and publish crates with pyo3, rust-cpython and cffi bindings (python module)
+url	https://github.com/PyO3/maturin
+license	Apache-2.0 OR MIT
+size	16603
+installed-size	39892
+depends	maturin=1.11.5-r1 python3~3.14
+origin	maturin
+repo	main
+file	py3-maturin-1.11.5-r1.apk
+checksum	Q1I5UXx/QfyK22Bq07eVFWw5uMfgk=
+dep	maturin=1.11.5-r1	maturin
+dep	python3~3.14	python3

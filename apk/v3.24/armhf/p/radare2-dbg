@@ -1,0 +1,12 @@
+name	radare2-dbg
+version	6.1.6-r0
+description	Opensource, crossplatform reverse engineering framework (debug symbols)
+url	https://www.radare.org/
+license	GPL-3.0-or-later AND LGPL-2.0-or-later AND LGPL-2.1-or-later
+size	33938389
+installed-size	71588832
+depends	!radare2-libs<6.1.6-r0 !radare2-libs>6.1.6-r0 !radare2<6.1.6-r0 !radare2>6.1.6-r0
+origin	radare2
+repo	community
+file	radare2-dbg-6.1.6-r0.apk
+checksum	Q1iddcpXXe895O6SroC7ZVpLiItjI=

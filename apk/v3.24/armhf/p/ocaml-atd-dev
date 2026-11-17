@@ -1,0 +1,17 @@
+name	ocaml-atd-dev
+version	2.15.0-r3
+description	Adjustable Type Definitions (development files)
+url	https://github.com/ahrefs/atd
+license	MIT
+size	1988223
+installed-size	5520455
+depends	ocaml-atd=2.15.0-r3 ocaml-biniou-dev ocaml-easy-format-dev ocaml-re-dev ocaml-yojson-dev
+origin	ocaml-atd
+repo	community
+file	ocaml-atd-dev-2.15.0-r3.apk
+checksum	Q1w/9Gh64CmZ6sZ3RP5inUUrqnKaU=
+dep	ocaml-atd=2.15.0-r3	ocaml-atd
+dep	ocaml-biniou-dev	ocaml-biniou-dev
+dep	ocaml-easy-format-dev	ocaml-easy-format-dev
+dep	ocaml-re-dev	ocaml-re-dev
+dep	ocaml-yojson-dev	ocaml-yojson-dev

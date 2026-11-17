@@ -1,0 +1,15 @@
+name	perl-crypt-smime
+version	0.33-r0
+description	S/MIME message signing, verification, encryption and decryption
+url	https://metacpan.org/release/Crypt-SMIME/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	19833
+installed-size	46904
+depends	perl so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	perl-crypt-smime
+repo	community
+file	perl-crypt-smime-0.33-r0.apk
+checksum	Q1wzeYccGMpYCfh4+Ug/PQAn0BVyA=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

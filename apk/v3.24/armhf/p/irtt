@@ -1,0 +1,14 @@
+name	irtt
+version	0.9.1-r44
+description	Isochronous Round-Trip Tester
+url	https://github.com/heistp/irtt
+license	GPL-2.0-or-later
+size	1441710
+installed-size	3514916
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	irtt
+repo	community
+file	irtt-0.9.1-r44.apk
+checksum	Q1Z3cn+6z0m1scjDZ37xzM3zvSNeg=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

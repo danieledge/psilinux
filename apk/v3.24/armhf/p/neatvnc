@@ -1,0 +1,26 @@
+name	neatvnc
+version	1.0.0-r0
+description	A liberally licensed VNC server library with a clean interface
+url	https://github.com/any1/neatvnc
+license	ISC
+size	74806
+installed-size	147088
+depends	so:libaml.so.1 so:libavcodec.so.62 so:libavfilter.so.11 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libdrm.so.2 so:libgbm.so.1 so:libgmp.so.10 so:libgnutls.so.30 so:libhogweed.so.6 so:libnettle.so.8 so:libpixman-1.so.0 so:libturbojpeg.so.0 so:libz.so.1
+origin	neatvnc
+repo	community
+file	neatvnc-1.0.0-r0.apk
+checksum	Q1KFOA+HJuejw1OWhfQ+vLoRJR99Q=
+dep	so:libaml.so.1	aml
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavfilter.so.11	ffmpeg-libavfilter
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdrm.so.2	libdrm
+dep	so:libgbm.so.1	mesa-gbm
+dep	so:libgmp.so.10	gmp
+dep	so:libgnutls.so.30	gnutls
+dep	so:libhogweed.so.6	nettle
+dep	so:libnettle.so.8	nettle
+dep	so:libpixman-1.so.0	pixman
+dep	so:libturbojpeg.so.0	libturbojpeg
+dep	so:libz.so.1	zlib

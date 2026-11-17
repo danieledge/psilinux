@@ -1,0 +1,33 @@
+name	seahorse
+version	47.0.1-r2
+description	GNOME application for managing PGP keys.
+url	https://projects.gnome.org/seahorse/
+license	GPL-2.0-or-later
+size	367501
+installed-size	1026859
+depends	openssh-client dconf gnome-keyring gnupg-dirmngr so:libc.musl-armhf.so.1 so:libgck-1.so.0 so:libgcr-base-3.so.1 so:libgcr-ui-3.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgpgme.so.45 so:libgtk-3.so.0 so:libhandy-1.so.0 so:libintl.so.8 so:libldap.so.2 so:libpwquality.so.1 so:libsecret-1.so.0 so:libsoup-3.0.so.0
+origin	seahorse
+repo	community
+file	seahorse-47.0.1-r2.apk
+checksum	Q1MfOAWP9ZBTynR4Cah4fd759s6lY=
+dep	openssh-client	openssh-client-default
+dep	dconf	dconf
+dep	gnome-keyring	gnome-keyring
+dep	gnupg-dirmngr	gnupg-dirmngr
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgck-1.so.0	gcr-base
+dep	so:libgcr-base-3.so.1	gcr-base
+dep	so:libgcr-ui-3.so.1	gcr-base
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgpgme.so.45	gpgme
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libhandy-1.so.0	libhandy1
+dep	so:libintl.so.8	libintl
+dep	so:libldap.so.2	libldap
+dep	so:libpwquality.so.1	libpwquality
+dep	so:libsecret-1.so.0	libsecret
+dep	so:libsoup-3.0.so.0	libsoup3

@@ -1,0 +1,14 @@
+name	subunit-dev
+version	1.4.2-r11
+description	A streaming protocol for test results (development files)
+url	https://launchpad.net/subunit
+license	Apache-2.0 AND BSD-3-Clause
+size	3620
+installed-size	4648
+depends	subunit-libs=1.4.2-r11 pkgconfig
+origin	subunit
+repo	main
+file	subunit-dev-1.4.2-r11.apk
+checksum	Q16nsUJxdsmM9ZO5bs9h15I1erR88=
+dep	subunit-libs=1.4.2-r11	subunit-libs
+dep	pkgconfig	pkgconf

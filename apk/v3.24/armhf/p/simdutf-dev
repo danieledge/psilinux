@@ -1,0 +1,14 @@
+name	simdutf-dev
+version	9.0.0-r0
+description	Unicode validation and transcoding at billions of characters per second (development files)
+url	https://simdutf.github.io/simdutf/
+license	Apache-2.0 OR MIT
+size	71965
+installed-size	583311
+depends	simdutf=9.0.0-r0 pkgconfig
+origin	simdutf
+repo	main
+file	simdutf-dev-9.0.0-r0.apk
+checksum	Q15cpGHxccPhWlqWtDOz0tdxHWJ4U=
+dep	simdutf=9.0.0-r0	simdutf
+dep	pkgconfig	pkgconf

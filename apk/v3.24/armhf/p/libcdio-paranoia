@@ -1,0 +1,14 @@
+name	libcdio-paranoia
+version	10.2.2.0.2_git20260227-r0
+description	CD paranoia on top of libcdio
+url	https://www.gnu.org/software/libcdio/
+license	GPL-2.0-or-later AND LGPL-2.0-or-later
+size	51794
+installed-size	110628
+depends	so:libc.musl-armhf.so.1 so:libcdio.so.19
+origin	libcdio-paranoia
+repo	community
+file	libcdio-paranoia-10.2.2.0.2_git20260227-r0.apk
+checksum	Q10RrL1BcjZhZ/sT4v3dTWma7tsnA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcdio.so.19	libcdio

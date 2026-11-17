@@ -1,0 +1,14 @@
+name	php84-fileinfo
+version	8.4.27-r0
+description	PHP84 extension: fileinfo
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	459389
+installed-size	8635771
+depends	php84-common so:libc.musl-armhf.so.1
+origin	php84
+repo	community
+file	php84-fileinfo-8.4.27-r0.apk
+checksum	Q1+622CxBSl7OVmSB/aerylBcmXfs=
+dep	php84-common	php84-common
+dep	so:libc.musl-armhf.so.1	musl

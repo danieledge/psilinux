@@ -1,0 +1,13 @@
+name	raspberrypi-utils-eeptools
+version	0.20260811-r0
+description	Tools for creating and managing EEPROMs for HAT+ and HAT board.
+url	https://github.com/raspberrypi/utils
+license	BSD-3-Clause
+size	15326
+installed-size	35531
+depends	so:libc.musl-armhf.so.1
+origin	raspberrypi-utils
+repo	community
+file	raspberrypi-utils-eeptools-0.20260811-r0.apk
+checksum	Q1522h4/ATRF8n5uYxWG2ErGfcAtA=
+dep	so:libc.musl-armhf.so.1	musl

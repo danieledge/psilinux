@@ -1,0 +1,19 @@
+name	mrxvt
+version	0.5.4-r13
+description	Multi-tabbed X terminal emulator based on rxvt
+url	https://sourceforge.net/projects/materm/
+license	GPL-2.0-or-later
+size	153587
+installed-size	320697
+depends	so:libX11.so.6 so:libXft.so.2 so:libXpm.so.4 so:libXrender.so.1 so:libc.musl-armhf.so.1 so:libfontconfig.so.1 so:libjpeg.so.8
+origin	mrxvt
+repo	community
+file	mrxvt-0.5.4-r13.apk
+checksum	Q1AtteucvQlruY6vXyps1xigjbqto=
+dep	so:libX11.so.6	libx11
+dep	so:libXft.so.2	libxft
+dep	so:libXpm.so.4	libxpm
+dep	so:libXrender.so.1	libxrender
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libjpeg.so.8	libjpeg-turbo

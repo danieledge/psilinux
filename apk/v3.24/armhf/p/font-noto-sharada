@@ -1,0 +1,14 @@
+name	font-noto-sharada
+version	2026.11.01-r0
+description	Noto Sans Sharada font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	30149
+installed-size	53602
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-sharada-2026.11.01-r0.apk
+checksum	Q1LkH7W/I7AeJp6s6Qx1WbDSuVaaQ=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

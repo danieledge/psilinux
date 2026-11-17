@@ -1,0 +1,17 @@
+name	libstaroffice-dev
+version	0.0.7-r8
+description	Import filter for StarOffice documents (development files)
+url	https://github.com/fosnola/libstaroffice
+license	MPL-2.0
+size	4740
+installed-size	10988
+depends	zlib-dev boost-dev libstaroffice=0.0.7-r8 pc:librevenge-0.0 pkgconfig
+origin	libstaroffice
+repo	community
+file	libstaroffice-dev-0.0.7-r8.apk
+checksum	Q1iivoJw7o65pALVCp9nV8wCTjjuI=
+dep	zlib-dev	zlib-dev
+dep	boost-dev	boost-dev
+dep	libstaroffice=0.0.7-r8	libstaroffice
+dep	pc:librevenge-0.0	librevenge-dev
+dep	pkgconfig	pkgconf

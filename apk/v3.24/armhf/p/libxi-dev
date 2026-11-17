@@ -1,0 +1,18 @@
+name	libxi-dev
+version	1.8.4-r0
+description	X11 Input extension library (development files)
+url	https://www.x.org
+license	MIT AND X11
+size	11498
+installed-size	58142
+depends	libxi=1.8.4-r0 pc:inputproto pc:x11 pc:xext pc:xfixes pkgconfig
+origin	libxi
+repo	main
+file	libxi-dev-1.8.4-r0.apk
+checksum	Q1sTaLZhuJWQenWVLwYscj2cX9jq0=
+dep	libxi=1.8.4-r0	libxi
+dep	pc:inputproto	xorgproto
+dep	pc:x11	libx11-dev
+dep	pc:xext	libxext-dev
+dep	pc:xfixes	libxfixes-dev
+dep	pkgconfig	pkgconf

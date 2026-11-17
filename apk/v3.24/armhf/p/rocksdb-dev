@@ -1,0 +1,21 @@
+name	rocksdb-dev
+version	11.0.4-r1
+description	persistent key-value store for fast storage environments (development files)
+url	https://rocksdb.org
+license	Apache-2.0 OR GPL-2.0-only
+size	425774
+installed-size	1742609
+depends	bzip2-dev gflags-dev liburing-dev lz4-dev snappy-dev zlib-dev zstd-dev rocksdb=11.0.4-r1 pkgconfig
+origin	rocksdb
+repo	community
+file	rocksdb-dev-11.0.4-r1.apk
+checksum	Q1ERC6hiX+zJLAVFItcFcSg40iAjk=
+dep	bzip2-dev	bzip2-dev
+dep	gflags-dev	gflags-dev
+dep	liburing-dev	liburing-dev
+dep	lz4-dev	lz4-dev
+dep	snappy-dev	snappy-dev
+dep	zlib-dev	zlib-dev
+dep	zstd-dev	zstd-dev
+dep	rocksdb=11.0.4-r1	rocksdb
+dep	pkgconfig	pkgconf

@@ -1,0 +1,16 @@
+name	fail2ban
+version	1.1.0-r3
+description	Scans log files for login failures then updates iptables to reject originating ip address
+url	https://www.fail2ban.org/
+license	GPL-2.0-or-later
+size	271223
+installed-size	899330
+depends	python3 iptables logrotate python3~3.14
+origin	fail2ban
+repo	main
+file	fail2ban-1.1.0-r3.apk
+checksum	Q1NvlaUvZrKQf0ahsrw/KBpkoledI=
+dep	python3	python3
+dep	iptables	iptables
+dep	logrotate	logrotate
+dep	python3~3.14	python3

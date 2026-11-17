@@ -1,0 +1,20 @@
+name	plymouth-x11
+version	26.134.222-r1
+description	graphical bootsplash on linux
+url	https://www.freedesktop.org/wiki/Software/Plymouth
+license	GPL-2.0-or-later
+size	7214
+installed-size	13628
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libply-splash-core.so.5 so:libply.so.5
+origin	plymouth
+repo	community
+file	plymouth-x11-26.134.222-r1.apk
+checksum	Q1Z9/sQ9vYnE9sDE5+fgtaihoECMc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libply-splash-core.so.5	plymouth
+dep	so:libply.so.5	plymouth

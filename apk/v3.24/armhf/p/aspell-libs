@@ -1,0 +1,16 @@
+name	aspell-libs
+version	0.60.8.2-r0
+description	A spell checker designed to eventually replace Ispell (libraries)
+url	http://aspell.net/
+license	LGPL-2.1-or-later
+size	480904
+installed-size	1702604
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libintl.so.8 so:libstdc++.so.6
+origin	aspell
+repo	main
+file	aspell-libs-0.60.8.2-r0.apk
+checksum	Q1suvZHYDuxui+7gA3BOTzRoxdyQI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libintl.so.8	libintl
+dep	so:libstdc++.so.6	libstdc++

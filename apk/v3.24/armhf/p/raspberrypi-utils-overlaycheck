@@ -1,0 +1,16 @@
+name	raspberrypi-utils-overlaycheck
+version	0.20260811-r0
+description	A tool for validating the overlay files and README in a kernel source tree.
+url	https://github.com/raspberrypi/utils
+license	BSD-3-Clause
+size	14135
+installed-size	44720
+depends	raspberrypi-utils-dtmerge=0.20260811-r0 raspberrypi-utils-ovmerge=0.20260811-r0 dtc python3
+origin	raspberrypi-utils
+repo	community
+file	raspberrypi-utils-overlaycheck-0.20260811-r0.apk
+checksum	Q13IxweVaMxkL+OcvxwtDDBQOIzEA=
+dep	raspberrypi-utils-dtmerge=0.20260811-r0	raspberrypi-utils-dtmerge
+dep	raspberrypi-utils-ovmerge=0.20260811-r0	raspberrypi-utils-ovmerge
+dep	dtc	dtc
+dep	python3	python3

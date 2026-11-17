@@ -1,0 +1,13 @@
+name	libnfs
+version	5.0.3-r0
+description	Client library for accessing NFS shares
+url	https://github.com/sahlberg/libnfs
+license	LGPL-2.1-or-later
+size	108204
+installed-size	292064
+depends	so:libc.musl-armhf.so.1
+origin	libnfs
+repo	community
+file	libnfs-5.0.3-r0.apk
+checksum	Q1eOQZCFM5XQIHd1+4zkVgNC8BPHI=
+dep	so:libc.musl-armhf.so.1	musl

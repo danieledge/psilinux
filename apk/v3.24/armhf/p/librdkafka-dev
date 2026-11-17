@@ -1,0 +1,21 @@
+name	librdkafka-dev
+version	2.14.1-r0
+description	The Apache Kafka C/C++ library (development files)
+url	https://github.com/edenhill/librdkafka
+license	BSD-2-Clause
+size	114396
+installed-size	544236
+depends	librdkafka=2.14.1-r0 pc:libcrypto pc:libcurl pc:liblz4 pc:libsasl2 pc:libssl pc:libzstd pc:zlib pkgconfig
+origin	librdkafka
+repo	community
+file	librdkafka-dev-2.14.1-r0.apk
+checksum	Q1J5ux8PfojajOKM7xMYaF/naMg+w=
+dep	librdkafka=2.14.1-r0	librdkafka
+dep	pc:libcrypto	openssl-dev
+dep	pc:libcurl	curl-dev
+dep	pc:liblz4	lz4-dev
+dep	pc:libsasl2	cyrus-sasl-dev
+dep	pc:libssl	openssl-dev
+dep	pc:libzstd	zstd-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

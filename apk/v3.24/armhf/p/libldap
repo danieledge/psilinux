@@ -1,0 +1,16 @@
+name	libldap
+version	2.6.15-r0
+description	OpenLDAP libraries
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	162899
+installed-size	355815
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libsasl2.so.3 so:libssl.so.3
+origin	openldap
+repo	main
+file	libldap-2.6.15-r0.apk
+checksum	Q196ZVpdlR+yUqx2dRZxEoUfTYzOo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libsasl2.so.3	libsasl
+dep	so:libssl.so.3	libssl3

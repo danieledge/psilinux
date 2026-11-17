@@ -1,0 +1,14 @@
+name	py3-sphinxcontrib-jquery
+version	4.1-r4
+description	Sphinx jquery extension
+url	https://github.com/sphinx-contrib/jquery
+license	0BSD
+size	122312
+installed-size	388295
+depends	py3-sphinx python3~3.14
+origin	py3-sphinxcontrib-jquery
+repo	community
+file	py3-sphinxcontrib-jquery-4.1-r4.apk
+checksum	Q1K6kAv9veUlgQnYObazyWjBkdzTs=
+dep	py3-sphinx	py3-sphinx
+dep	python3~3.14	python3

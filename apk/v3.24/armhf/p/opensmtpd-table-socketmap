@@ -1,0 +1,13 @@
+name	opensmtpd-table-socketmap
+version	1.1.1-r0
+description	OpenSMTPD socketmap tables
+url	https://github.com/OpenSMTPD/table-socketmap
+license	ISC
+size	9182
+installed-size	17616
+depends	so:libc.musl-armhf.so.1
+origin	opensmtpd-table-socketmap
+repo	community
+file	opensmtpd-table-socketmap-1.1.1-r0.apk
+checksum	Q1z+TU2FaGp7e0fKKiO8VyTFyT13U=
+dep	so:libc.musl-armhf.so.1	musl

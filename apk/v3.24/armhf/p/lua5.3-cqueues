@@ -1,0 +1,16 @@
+name	lua5.3-cqueues
+version	20200726-r6
+description	Lua event loop using coroutines - for Lua 5.3
+url	https://25thandclement.com/~william/projects/cqueues.html
+license	MIT
+size	115508
+installed-size	271274
+depends	lua5.3 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	lua-cqueues
+repo	main
+file	lua5.3-cqueues-20200726-r6.apk
+checksum	Q11G31sw6ssj8FGN9dDYDiE63YKD8=
+dep	lua5.3	lua5.3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

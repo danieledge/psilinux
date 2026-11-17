@@ -1,0 +1,22 @@
+name	cdw
+version	0.8.1-r7
+description	cdw is a front-end for cd recoding tools
+url	https://cdw.sourceforge.net/
+license	GPL-2.0-or-later
+size	125732
+installed-size	272636
+depends	cdrkit so:libburn.so.4 so:libc.musl-armhf.so.1 so:libcdio.so.19 so:libformw.so.6 so:libintl.so.8 so:libiso9660.so.12 so:libmenuw.so.6 so:libncursesw.so.6 so:libpanelw.so.6
+origin	cdw
+repo	community
+file	cdw-0.8.1-r7.apk
+checksum	Q1crhHEHM0FW+KdvMmt6Y7puyjtzw=
+dep	cdrkit	cdrkit
+dep	so:libburn.so.4	libburn
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcdio.so.19	libcdio
+dep	so:libformw.so.6	libformw
+dep	so:libintl.so.8	libintl
+dep	so:libiso9660.so.12	libcdio
+dep	so:libmenuw.so.6	libmenuw
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpanelw.so.6	libpanelw

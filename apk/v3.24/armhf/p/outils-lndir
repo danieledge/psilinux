@@ -1,0 +1,13 @@
+name	outils-lndir
+version	0.14-r0
+description	lndir tool from outils
+url	https://github.com/leahneukirchen/outils
+license	BSD-3-Clause ISC
+size	5598
+installed-size	9388
+depends	so:libc.musl-armhf.so.1
+origin	outils
+repo	community
+file	outils-lndir-0.14-r0.apk
+checksum	Q1Pn6UiPe+29Y6SlAneN+Spk2mh/8=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,15 @@
+name	timbl-dev
+version	6.10-r2
+description	implementation of several memory-based learning algorithms like IB1-IG (kNN) and IGTree (development files)
+url	https://github.com/LanguageMachines/timbl
+license	GPL-3.0-only
+size	4879323
+installed-size	18596431
+depends	timbl=6.10-r2 pc:libxml-2.0 pkgconfig
+origin	timbl
+repo	community
+file	timbl-dev-6.10-r2.apk
+checksum	Q1I6gm0JKDvtGJJ7qc3cX+eHqtx7o=
+dep	timbl=6.10-r2	timbl
+dep	pc:libxml-2.0	libxml2-dev
+dep	pkgconfig	pkgconf

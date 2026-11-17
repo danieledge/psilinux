@@ -1,0 +1,17 @@
+name	dwarf-tools
+version	2.1.0-r0
+description	Tools for interacting with DWARF2 and later debugging files
+url	https://www.prevanders.net/dwarf.html
+license	GPL-2.0-only AND BSD-3-Clause
+size	207224
+installed-size	470990
+depends	so:libc.musl-armhf.so.1 so:libdwarf.so.2 so:libdwarfp.so.2 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libdwarf
+repo	main
+file	dwarf-tools-2.1.0-r0.apk
+checksum	Q1i0iXMxVlngz1pP4/HLKyFfF3Lwk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdwarf.so.2	libdwarf
+dep	so:libdwarfp.so.2	liblibdwarfp
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,13 @@
+name	sdb-static
+version	2.3.4-r1
+description	Key-value database with support for arrays and json (static library)
+url	https://github.com/radareorg/sdb
+license	MIT
+size	87274
+installed-size	235594
+depends	sdb-dev
+origin	sdb
+repo	community
+file	sdb-static-2.3.4-r1.apk
+checksum	Q14+8KdK1fgrqr+AQ8oqSQmzB6iWo=
+dep	sdb-dev	sdb-dev

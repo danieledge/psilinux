@@ -1,0 +1,29 @@
+name	ocaml-pbkdf
+version	1.2.0-r4
+description	Password based key derivation functions (PBKDF) from PKCS#5
+url	https://github.com/abeaumont/ocaml-pbkdf
+license	BSD-2-Clause
+size	17638
+installed-size	35527
+depends	ocaml4-impl:Cstruct:37e36217be78851f5cdbc291771d7bd8 ocaml4-impl:Mirage_crypto:24199bfba257ca2afbc175448e78fd23 ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2 ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15 ocaml4-intf:Cstruct:eaad4c4e8dbf599930f478c0577e3174 ocaml4-intf:Mirage_crypto:031b3dcc35e5080c5a680d4d23eef96a ocaml4-intf:Mirage_crypto__:f31c91e706023e023295dd5c36bcd9c0 ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91 ocaml4-intf:Stdlib__Bigarray:994a14f10d5ae081663b52b790ee11d3 ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822 ocaml4-intf:Stdlib__Complex:4555217c759e89d65daa8f682eb09b35 ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9 ocaml4-intf:Stdlib__Format:b6edb97b685819e873481fe05723c8bc ocaml4-intf:Stdlib__Int32:a71ea5238030770647165f659f80b1ab ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962 ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57 so:libc.musl-armhf.so.1
+origin	ocaml-pbkdf
+repo	community
+file	ocaml-pbkdf-1.2.0-r4.apk
+checksum	Q1plDmWmo0wOUZvdcM5+XgL8luNdc=
+dep	ocaml4-impl:Cstruct:37e36217be78851f5cdbc291771d7bd8	ocaml-cstruct
+dep	ocaml4-impl:Mirage_crypto:24199bfba257ca2afbc175448e78fd23	ocaml-mirage-crypto
+dep	ocaml4-impl:Stdlib:d9420a8d349fb4faae7bbb0f24f981c2	ocaml
+dep	ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15	ocaml
+dep	ocaml4-intf:Cstruct:eaad4c4e8dbf599930f478c0577e3174	ocaml-cstruct
+dep	ocaml4-intf:Mirage_crypto:031b3dcc35e5080c5a680d4d23eef96a	ocaml-mirage-crypto
+dep	ocaml4-intf:Mirage_crypto__:f31c91e706023e023295dd5c36bcd9c0	ocaml-mirage-crypto
+dep	ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91	ocaml
+dep	ocaml4-intf:Stdlib__Bigarray:994a14f10d5ae081663b52b790ee11d3	ocaml
+dep	ocaml4-intf:Stdlib__Buffer:4b09c9a6d0622bbf5a3829234b481822	ocaml
+dep	ocaml4-intf:Stdlib__Complex:4555217c759e89d65daa8f682eb09b35	ocaml
+dep	ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9	ocaml
+dep	ocaml4-intf:Stdlib__Format:b6edb97b685819e873481fe05723c8bc	ocaml
+dep	ocaml4-intf:Stdlib__Int32:a71ea5238030770647165f659f80b1ab	ocaml
+dep	ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962	ocaml
+dep	ocaml4-intf:Stdlib__Uchar:c0dde02a556a6d79e363ad365d165d57	ocaml
+dep	so:libc.musl-armhf.so.1	musl

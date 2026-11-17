@@ -1,0 +1,14 @@
+name	allegro-dev
+version	5.2.11.3-r0
+description	Portable library mainly aimed at video game and multimedia programming (development files)
+url	https://liballeg.org
+license	BSD-3-Clause
+size	142375
+installed-size	832376
+depends	allegro=5.2.11.3-r0 pkgconfig
+origin	allegro
+repo	community
+file	allegro-dev-5.2.11.3-r0.apk
+checksum	Q1WgGYoVxWmhhos4SN3L6g4bJPezg=
+dep	allegro=5.2.11.3-r0	allegro
+dep	pkgconfig	pkgconf

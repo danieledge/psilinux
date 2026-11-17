@@ -1,0 +1,13 @@
+name	rabbitmq-c-static
+version	0.15.0-r0
+description	RabbitMQ C client (static library)
+url	https://github.com/alanxz/rabbitmq-c
+license	MIT
+size	42136
+installed-size	111672
+depends	rabbitmq-c-dev
+origin	rabbitmq-c
+repo	main
+file	rabbitmq-c-static-0.15.0-r0.apk
+checksum	Q1aiYCMBcfWebXcafmEWQdxhq9Bx0=
+dep	rabbitmq-c-dev	rabbitmq-c-dev

@@ -1,0 +1,15 @@
+name	alpine-sdk
+version	1.1-r1
+description	Alpine Software Development Kit meta package
+url	https://gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/alpine-sdk/APKBUILD
+license	GPL-2.0-only
+size	1311
+installed-size	0
+depends	abuild build-base git
+origin	alpine-sdk
+repo	main
+file	alpine-sdk-1.1-r1.apk
+checksum	Q1QqKWDTFQB63NR/4Ug/5FoKwOmlA=
+dep	abuild	abuild
+dep	build-base	build-base
+dep	git	git

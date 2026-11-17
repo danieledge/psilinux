@@ -1,0 +1,14 @@
+name	lua5.4-penlight
+version	1.15.0-r2
+description	Lua 5.4 libraries for extended operations on tables, lists and strings
+url	https://lunarmodules.github.io/Penlight/
+license	MIT
+size	1644
+installed-size	1
+depends	lua5.4-filesystem lua-penlight=1.15.0-r2
+origin	lua-penlight
+repo	main
+file	lua5.4-penlight-1.15.0-r2.apk
+checksum	Q14tCoOHblpqwjvQsMIV8j+PgYITs=
+dep	lua5.4-filesystem	lua5.4-filesystem
+dep	lua-penlight=1.15.0-r2	lua-penlight

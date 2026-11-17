@@ -1,0 +1,15 @@
+name	cyme
+version	3.0.2-r0
+description	modern lsusb that attempts to maintain compatibility, but also adds new features
+url	https://github.com/tuna-f1sh/cyme
+license	GPL-3.0-or-later
+size	2511770
+installed-size	6608436
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libudev.so.1
+origin	cyme
+repo	community
+file	cyme-3.0.2-r0.apk
+checksum	Q1WSMcyShyfpm8J6VbYet5djmR/pg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libudev.so.1	eudev-libs

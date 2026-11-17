@@ -1,0 +1,14 @@
+name	uhttpd-mod-lua
+version	0_git20250406-r1
+description	Tiny HTTP server from OpenWrt - Lua 5.1 support
+url	https://openwrt.org/docs/guide-user/services/webserver/uhttpd
+license	ISC
+size	5452
+installed-size	9384
+depends	so:libc.musl-armhf.so.1 so:liblua.so.5
+origin	uhttpd
+repo	community
+file	uhttpd-mod-lua-0_git20250406-r1.apk
+checksum	Q1rmlmJb0EepXsrp39Mf6alD4kwDo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblua.so.5	lua5.1-libs

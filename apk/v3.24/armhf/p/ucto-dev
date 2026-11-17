@@ -1,0 +1,14 @@
+name	ucto-dev
+version	0.35-r2
+description	advanced rule-based (regular-expression) and unicode-aware tokenizer for various languages (development files)
+url	https://github.com/LanguageMachines/ucto
+license	GPL-3.0-only
+size	1490351
+installed-size	5659779
+depends	ucto=0.35-r2 pkgconfig
+origin	ucto
+repo	community
+file	ucto-dev-0.35-r2.apk
+checksum	Q1ZfkhQymkUOWcO1TuBnt9UHoCZrw=
+dep	ucto=0.35-r2	ucto
+dep	pkgconfig	pkgconf

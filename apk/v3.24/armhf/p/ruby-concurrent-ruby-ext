@@ -1,0 +1,14 @@
+name	ruby-concurrent-ruby-ext
+version	1.3.5-r0
+description	Modern concurrency tools for Ruby (C extension)
+url	http://www.concurrent-ruby.com
+license	MIT
+size	7556
+installed-size	13109
+depends	ruby-concurrent-ruby=1.3.5-r0 so:libruby.so.3.4
+origin	ruby-concurrent-ruby
+repo	community
+file	ruby-concurrent-ruby-ext-1.3.5-r0.apk
+checksum	Q1xJSALXPToIgGgd1qWoMrTWienA4=
+dep	ruby-concurrent-ruby=1.3.5-r0	ruby-concurrent-ruby
+dep	so:libruby.so.3.4	ruby-libs

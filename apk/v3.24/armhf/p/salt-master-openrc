@@ -1,0 +1,13 @@
+name	salt-master-openrc
+version	3007.13-r3
+description	Management component for salt, a parallel remote execution system (OpenRC init scripts)
+url	https://github.com/saltstack/salt
+license	Apache-2.0
+size	1874
+installed-size	320
+depends	openrc
+origin	salt
+repo	community
+file	salt-master-openrc-3007.13-r3.apk
+checksum	Q177Oci+sSdFbEECChgfYF0i0TGZc=
+dep	openrc	openrc

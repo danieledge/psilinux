@@ -1,0 +1,14 @@
+name	perl-function-parameters
+version	2.002006-r0
+description	define functions and methods with parameter lists (subroutine signatures)
+url	https://metacpan.org/release/Function-Parameters/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	40283
+installed-size	108463
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-function-parameters
+repo	community
+file	perl-function-parameters-2.002006-r0.apk
+checksum	Q1mDNC1KDIMB8yFTr3sgC2Xht1Fuo=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

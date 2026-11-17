@@ -1,0 +1,21 @@
+name	lua5.1-busted
+version	2.3.0-r1
+description	Elegant Lua unit testing (for Lua 5.1)
+url	https://lunarmodules.github.io/busted/
+license	MIT
+size	38946
+installed-size	139509
+depends	lua5.1 lua5.1-cjson lua5.1-cliargs lua5.1-luassert lua5.1-mediator lua5.1-penlight lua5.1-say lua5.1-system lua5.1-term
+origin	lua-busted
+repo	main
+file	lua5.1-busted-2.3.0-r1.apk
+checksum	Q1Z/ycjlA7FMuX28b6SdUGR/sCZW0=
+dep	lua5.1	lua5.1
+dep	lua5.1-cjson	lua5.1-cjson
+dep	lua5.1-cliargs	lua-cliargs
+dep	lua5.1-luassert	lua5.1-luassert
+dep	lua5.1-mediator	lua5.1-mediator
+dep	lua5.1-penlight	lua5.1-penlight
+dep	lua5.1-say	lua5.1-say
+dep	lua5.1-system	lua5.1-system
+dep	lua5.1-term	lua5.1-term

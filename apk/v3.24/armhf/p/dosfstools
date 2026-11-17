@@ -1,0 +1,13 @@
+name	dosfstools
+version	4.2-r2
+description	DOS filesystem utilities
+url	https://github.com/dosfstools/dosfstools
+license	GPL-3.0-or-later
+size	77974
+installed-size	155976
+depends	so:libc.musl-armhf.so.1
+origin	dosfstools
+repo	main
+file	dosfstools-4.2-r2.apk
+checksum	Q19dngmYri2Nq0hcmA3afCe41Q6Wg=
+dep	so:libc.musl-armhf.so.1	musl

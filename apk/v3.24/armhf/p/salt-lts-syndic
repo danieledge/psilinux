@@ -1,0 +1,13 @@
+name	salt-lts-syndic
+version	3006.23-r1
+description	Master-of-master component for Salt, a parallel remote execution system
+url	https://github.com/saltstack/salt
+license	Apache-2.0
+size	2051
+installed-size	963
+depends	salt-lts-master
+origin	salt-lts
+repo	community
+file	salt-lts-syndic-3006.23-r1.apk
+checksum	Q1+ZvIcxkJaX47uy+53fDnjte4ZYQ=
+dep	salt-lts-master	salt-lts-master

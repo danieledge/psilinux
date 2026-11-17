@@ -1,0 +1,14 @@
+name	hyprutils-dev
+version	0.13.1-r0
+description	Hyprland utilities library used across the ecosystem (development files)
+url	https://github.com/hyprwm/hyprutils
+license	BSD-3-Clause
+size	24091
+installed-size	111195
+depends	hyprutils=0.13.1-r0 pkgconfig
+origin	hyprutils
+repo	community
+file	hyprutils-dev-0.13.1-r0.apk
+checksum	Q1NDIQdFax7TpCMV5tx7uFYMMOYfA=
+dep	hyprutils=0.13.1-r0	hyprutils
+dep	pkgconfig	pkgconf

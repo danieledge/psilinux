@@ -1,0 +1,14 @@
+name	libltc-dev
+version	1.3.2-r1
+description	provides functionality to encode and decode LTC audio (development files)
+url	https://github.com/x42/libltc
+license	LGPL-3.0-only
+size	21342
+installed-size	56186
+depends	libltc=1.3.2-r1 pkgconfig
+origin	libltc
+repo	community
+file	libltc-dev-1.3.2-r1.apk
+checksum	Q18a5j7qZcgVTrS5MunglndWYC3p4=
+dep	libltc=1.3.2-r1	libltc
+dep	pkgconfig	pkgconf

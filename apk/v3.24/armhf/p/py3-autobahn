@@ -1,0 +1,17 @@
+name	py3-autobahn
+version	23.6.2-r2
+description	WebSocket client & server library, WAMP real-time framework
+url	https://crossbar.io/autobahn/
+license	MIT
+size	493102
+installed-size	2677327
+depends	py3-txaio py3-twisted py3-sphinxcontrib-images py3-pynacl python3~3.14
+origin	py3-autobahn
+repo	community
+file	py3-autobahn-23.6.2-r2.apk
+checksum	Q1wFSO1fn8RDH63UQxQDu4Ej2LgoM=
+dep	py3-txaio	py3-txaio
+dep	py3-twisted	py3-twisted
+dep	py3-sphinxcontrib-images	py3-sphinxcontrib-images
+dep	py3-pynacl	py3-pynacl
+dep	python3~3.14	python3

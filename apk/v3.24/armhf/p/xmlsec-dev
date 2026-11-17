@@ -1,0 +1,19 @@
+name	xmlsec-dev
+version	1.3.11-r0
+description	C based implementation for XML Signature Syntax and Processing and XML Encryption Syntax and Processing (development files)
+url	https://github.com/lsh123/xmlsec/
+license	MIT
+size	64141
+installed-size	488919
+depends	xmlsec=1.3.11-r0 pc:libxml-2.0>=2.9.13 pc:libxslt>=1.1.35 pc:nspr pc:nss pc:openssl pkgconfig
+origin	xmlsec
+repo	community
+file	xmlsec-dev-1.3.11-r0.apk
+checksum	Q1MQ7bJItd4jUfhc3y+nIuqVokz4E=
+dep	xmlsec=1.3.11-r0	xmlsec
+dep	pc:libxml-2.0>=2.9.13	libxml2-dev
+dep	pc:libxslt>=1.1.35	libxslt-dev
+dep	pc:nspr	nspr-dev
+dep	pc:nss	nss-dev
+dep	pc:openssl	openssl-dev
+dep	pkgconfig	pkgconf

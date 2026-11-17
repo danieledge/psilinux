@@ -1,0 +1,15 @@
+name	emacs-hnreader
+version	0_git20221116-r1
+description	Read Hacker News in Org-mode
+url	https://github.com/thanhvg/emacs-hnreader
+license	GPL-3.0-or-later
+size	9863
+installed-size	30979
+depends	cmd:emacs emacs-promise emacs-request
+origin	emacs-hnreader
+repo	community
+file	emacs-hnreader-0_git20221116-r1.apk
+checksum	Q1ogsYCSyRHnGOc16mNdmwIePDIs4=
+dep	cmd:emacs	emacs-gtk3
+dep	emacs-promise	emacs-promise
+dep	emacs-request	emacs-request

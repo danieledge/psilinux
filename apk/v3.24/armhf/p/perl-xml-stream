@@ -1,0 +1,15 @@
+name	perl-xml-stream
+version	1.24-r1
+description	XML stream support library for XMPP-like protocols
+url	https://metacpan.org/release/XML-Stream/
+license	LGPL-2.1-or-later
+size	44343
+installed-size	236422
+depends	perl perl-authen-sasl perl-io-socket-ssl
+origin	perl-xml-stream
+repo	community
+file	perl-xml-stream-1.24-r1.apk
+checksum	Q16PlHP/tO715e51OSOfrTfD+n8no=
+dep	perl	perl
+dep	perl-authen-sasl	perl-authen-sasl
+dep	perl-io-socket-ssl	perl-io-socket-ssl

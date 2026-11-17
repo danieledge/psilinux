@@ -1,0 +1,14 @@
+name	policyd-spf-fs
+version	23-r8
+description	Policy daemon for checking SPF records in postfix
+url	https://www.freestone.net/software/policyd-spf-fs/
+license	LGPL-2.1-or-later OR BSD-2-Clause
+size	8266
+installed-size	17884
+depends	so:libc.musl-armhf.so.1 so:libspf2.so.2
+origin	policyd-spf-fs
+repo	main
+file	policyd-spf-fs-23-r8.apk
+checksum	Q1ugssubjlEXUnXHnOHf2i8Fi11yw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libspf2.so.2	libspf2

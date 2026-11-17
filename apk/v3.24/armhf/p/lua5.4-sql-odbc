@@ -1,0 +1,15 @@
+name	lua5.4-sql-odbc
+version	2.6.0-r6
+description	Lua 5.4 SQL driver for odbc
+url	http://lunarmodules.github.io/luasql/
+license	MIT
+size	9753
+installed-size	17751
+depends	lua5.4 so:libc.musl-armhf.so.1 so:libodbc.so.2
+origin	lua-sql
+repo	main
+file	lua5.4-sql-odbc-2.6.0-r6.apk
+checksum	Q1SNdh90RXOh6z9cdlz8MpBeTQf80=
+dep	lua5.4	lua5.4
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libodbc.so.2	unixodbc

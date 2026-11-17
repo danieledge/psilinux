@@ -1,0 +1,14 @@
+name	python3-tests
+version	3.14.10-r1
+description	The test modules from the main python package
+url	https://www.python.org/
+license	PSF-2.0
+size	40366145
+installed-size	163132568
+depends	libssl3>=3.3.0 libexpat>=2.9.0
+origin	python3
+repo	main
+file	python3-tests-3.14.10-r1.apk
+checksum	Q1RgNYLwp20JfaAvKsdrANHs5jrHg=
+dep	libssl3>=3.3.0	libssl3
+dep	libexpat>=2.9.0	libexpat

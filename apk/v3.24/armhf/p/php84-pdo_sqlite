@@ -1,0 +1,16 @@
+name	php84-pdo_sqlite
+version	8.4.27-r0
+description	PHP84 extension: SQLite 3.x driver for PDO
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	15801
+installed-size	34137
+depends	php84-common php84-pdo so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	php84
+repo	community
+file	php84-pdo_sqlite-8.4.27-r0.apk
+checksum	Q1CHZC6B3xsEqRB/gPm7FZdKyRFEA=
+dep	php84-common	php84-common
+dep	php84-pdo	php84-pdo
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

@@ -1,0 +1,13 @@
+name	singular-static
+version	4.4.1_p5-r0
+description	Computer algebra system for polynomial computations (static library)
+url	https://www.singular.uni-kl.de/
+license	GPL-2.0-only OR GPL-3.0-only
+size	5603342
+installed-size	15265868
+depends	singular-dev
+origin	singular
+repo	community
+file	singular-static-4.4.1_p5-r0.apk
+checksum	Q1N/Hsg2X5xPwK4wB9RdajECKMdk8=
+dep	singular-dev	singular-dev

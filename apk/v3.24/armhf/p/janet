@@ -1,0 +1,13 @@
+name	janet
+version	1.41.2-r0
+description	Dynamic Lisp dialect and bytecode VM
+url	https://janet-lang.org/
+license	MIT
+size	335240
+installed-size	780716
+depends	so:libc.musl-armhf.so.1
+origin	janet
+repo	community
+file	janet-1.41.2-r0.apk
+checksum	Q1p5751Qv8u6jMi0SGcjqdXWfA6uc=
+dep	so:libc.musl-armhf.so.1	musl

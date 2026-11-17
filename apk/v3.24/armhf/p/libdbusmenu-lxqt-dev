@@ -1,0 +1,15 @@
+name	libdbusmenu-lxqt-dev
+version	0.4.0-r0
+description	library to export QMenu over DBusMenu protocol (development files)
+url	https://github.com/lxqt/libdbusmenu-lxqt
+license	LGPL-2.1-or-later
+size	8206
+installed-size	20378
+depends	qt6-qtbase-dev libdbusmenu-lxqt=0.4.0-r0 pkgconfig
+origin	libdbusmenu-lxqt
+repo	community
+file	libdbusmenu-lxqt-dev-0.4.0-r0.apk
+checksum	Q1RgFtH5YWJv9saVoI/1H5EUVhcuI=
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	libdbusmenu-lxqt=0.4.0-r0	libdbusmenu-lxqt
+dep	pkgconfig	pkgconf

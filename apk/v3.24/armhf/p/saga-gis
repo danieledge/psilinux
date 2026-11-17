@@ -1,0 +1,36 @@
+name	saga-gis
+version	9.12.2-r0
+description	System for Automated Geoscientific Analyses
+url	https://saga-gis.sourceforge.io/en/index.html
+license	GPL-2.0-or-later
+size	7134505
+installed-size	23333055
+depends	saga-gis-common so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgcc_s.so.1 so:libgdal.so.39 so:libgomp.so.1 so:libhpdf.so.2.4 so:libodbc.so.2 so:libopencv_calib3d.so.412 so:libopencv_core.so.412 so:libopencv_imgproc.so.412 so:libopencv_ml.so.412 so:libpdalcpp.so.20 so:libpq.so.5 so:libproj.so.25 so:libsaga_api.so.9 so:libsaga_gdi.so.9 so:libstdc++.so.6 so:libwx_baseu-3.2.so.0 so:libwx_baseu_net-3.2.so.0 so:libwx_gtk3u_aui-3.2.so.0 so:libwx_gtk3u_core-3.2.so.0 so:libwx_gtk3u_html-3.2.so.0 so:libwx_gtk3u_propgrid-3.2.so.0
+origin	saga-gis
+repo	community
+file	saga-gis-9.12.2-r0.apk
+checksum	Q1ua+RcC/5QLYGUKSfd+gXVgBu29A=
+dep	saga-gis-common	saga-gis-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdal.so.39	gdal
+dep	so:libgomp.so.1	libgomp
+dep	so:libhpdf.so.2.4	libharu
+dep	so:libodbc.so.2	unixodbc
+dep	so:libopencv_calib3d.so.412	libopencv_calib3d
+dep	so:libopencv_core.so.412	libopencv_core
+dep	so:libopencv_imgproc.so.412	libopencv_imgproc
+dep	so:libopencv_ml.so.412	libopencv_ml
+dep	so:libpdalcpp.so.20	pdal
+dep	so:libpq.so.5	libpq
+dep	so:libproj.so.25	proj
+dep	so:libsaga_api.so.9	saga-gis-api
+dep	so:libsaga_gdi.so.9	saga-gis-gdi
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwx_baseu-3.2.so.0	wxwidgets
+dep	so:libwx_baseu_net-3.2.so.0	wxwidgets
+dep	so:libwx_gtk3u_aui-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_core-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_html-3.2.so.0	wxwidgets-gtk3
+dep	so:libwx_gtk3u_propgrid-3.2.so.0	wxwidgets-gtk3

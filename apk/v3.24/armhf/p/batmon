@@ -1,0 +1,14 @@
+name	batmon
+version	0.2.0-r0
+description	An interactive viewer, similar to top, htop and other *top utilities, but about the batteries installed in your notebook.
+url	https://crates.io/crates/batmon
+license	Apache-2.0
+size	477754
+installed-size	901748
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	batmon
+repo	community
+file	batmon-0.2.0-r0.apk
+checksum	Q1emJOd1/WD2PHxRDMroNz6l6Gorw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

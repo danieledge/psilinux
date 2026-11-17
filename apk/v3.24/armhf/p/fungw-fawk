@@ -1,0 +1,14 @@
+name	fungw-fawk
+version	1.2.2-r3
+description	C function gateway for different programming languages (fawk plugin)
+url	http://www.repo.hu/projects/fungw/
+license	LGPL-2.1-or-later
+size	110505
+installed-size	343433
+depends	fungw=1.2.2-r3 so:libc.musl-armhf.so.1
+origin	fungw
+repo	community
+file	fungw-fawk-1.2.2-r3.apk
+checksum	Q1ycMMiQrmJt0f63iXGDmtpte4qIA=
+dep	fungw=1.2.2-r3	fungw
+dep	so:libc.musl-armhf.so.1	musl

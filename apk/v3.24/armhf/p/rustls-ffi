@@ -1,0 +1,14 @@
+name	rustls-ffi
+version	0.15.3-r2
+description	Use Rustls from any language
+url	https://github.com/rustls/rustls-ffi
+license	Apache-2.0 AND MIT AND ISC
+size	870591
+installed-size	1670768
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	rustls-ffi
+repo	community
+file	rustls-ffi-0.15.3-r2.apk
+checksum	Q176XsbcVYQBNmNGn18SUGwffoTis=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

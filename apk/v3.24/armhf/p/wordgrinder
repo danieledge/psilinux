@@ -1,0 +1,17 @@
+name	wordgrinder
+version	0.8-r3
+description	Simple Unicode-aware word processor that runs on the console
+url	https://cowlark.com/wordgrinder/
+license	MIT
+size	454418
+installed-size	1236762
+depends	so:libX11.so.6 so:libXft.so.2 so:libc.musl-armhf.so.1 so:libncursesw.so.6 so:libz.so.1
+origin	wordgrinder
+repo	community
+file	wordgrinder-0.8-r3.apk
+checksum	Q19PcGmQGnKej8fGbaKph7OWdWD7c=
+dep	so:libX11.so.6	libx11
+dep	so:libXft.so.2	libxft
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libz.so.1	zlib

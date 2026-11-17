@@ -1,0 +1,23 @@
+name	xfce4-vala
+version	4.10.3-r11
+description	Vala bindings for Xfce4
+url	https://wiki.xfce.org/vala-bindings
+license	LGPL-2.1-only
+size	13304
+installed-size	79100
+depends	exo-dev libxfce4util-dev libxfce4ui-dev garcon-dev xfce4-panel-dev xfconf-dev vala automake autoconf libtool pkgconfig
+origin	xfce4-vala
+repo	community
+file	xfce4-vala-4.10.3-r11.apk
+checksum	Q1RIrW64QCNuKoprj0zRt0g5BPR4g=
+dep	exo-dev	exo-dev
+dep	libxfce4util-dev	libxfce4util-dev
+dep	libxfce4ui-dev	libxfce4ui-dev
+dep	garcon-dev	garcon-dev
+dep	xfce4-panel-dev	xfce4-panel-dev
+dep	xfconf-dev	xfconf-dev
+dep	vala	vala
+dep	automake	automake
+dep	autoconf	autoconf
+dep	libtool	libtool
+dep	pkgconfig	pkgconf

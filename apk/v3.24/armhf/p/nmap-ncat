@@ -1,0 +1,17 @@
+name	nmap-ncat
+version	7.99-r0
+description	network exploration tool and security/port scanner (ncat tool)
+url	https://nmap.org
+license	custom
+size	89553
+installed-size	182624
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:liblua-5.4.so.0 so:libpcap.so.1 so:libssl.so.3
+origin	nmap
+repo	main
+file	nmap-ncat-7.99-r0.apk
+checksum	Q15MFWel4bRoOFm79AnBEuOC0eCf4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:liblua-5.4.so.0	lua5.4-libs
+dep	so:libpcap.so.1	libpcap
+dep	so:libssl.so.3	libssl3

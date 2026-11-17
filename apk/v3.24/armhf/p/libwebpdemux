@@ -1,0 +1,14 @@
+name	libwebpdemux
+version	1.6.0-r0
+description	Libraries for working with WebP images (libwebpdemux library)
+url	https://developers.google.com/speed/webp
+license	BSD-3-Clause
+size	8992
+installed-size	13484
+depends	so:libc.musl-armhf.so.1 so:libwebp.so.7
+origin	libwebp
+repo	main
+file	libwebpdemux-1.6.0-r0.apk
+checksum	Q1gZL+ytHA2opbYj0HZs3hDiGyyHg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libwebp.so.7	libwebp

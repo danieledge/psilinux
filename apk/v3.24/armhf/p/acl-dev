@@ -1,0 +1,14 @@
+name	acl-dev
+version	2.3.2-r1
+description	Access control list utilities (development files)
+url	https://savannah.nongnu.org/projects/acl
+license	LGPL-2.1-or-later AND GPL-2.0-or-later
+size	4082
+installed-size	6484
+depends	acl-libs=2.3.2-r1 pkgconfig
+origin	acl
+repo	main
+file	acl-dev-2.3.2-r1.apk
+checksum	Q1zJgUUQvJn8wXd3jTsdtOOi1LwX0=
+dep	acl-libs=2.3.2-r1	acl-libs
+dep	pkgconfig	pkgconf

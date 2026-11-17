@@ -1,0 +1,13 @@
+name	piknik
+version	0.10.2-r15
+description	Copy/paste anything over the network
+url	https://github.com/jedisct1/piknik
+license	BSD-2-Clause
+size	1403221
+installed-size	3366748
+depends	so:libc.musl-armhf.so.1
+origin	piknik
+repo	community
+file	piknik-0.10.2-r15.apk
+checksum	Q1etJv82oUVTXscfMFezjsYkvbCQM=
+dep	so:libc.musl-armhf.so.1	musl

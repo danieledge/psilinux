@@ -1,0 +1,13 @@
+name	wireless-tools-libs
+version	30_pre9-r5
+description	Open Source wireless tools (libraries)
+url	https://hewlettpackard.github.io/wireless-tools/Tools.html
+license	GPL-2.0-only
+size	16296
+installed-size	29920
+depends	so:libc.musl-armhf.so.1
+origin	wireless-tools
+repo	main
+file	wireless-tools-libs-30_pre9-r5.apk
+checksum	Q1GTJlX/joGGjDqdveMN6Ad8nEdgM=
+dep	so:libc.musl-armhf.so.1	musl

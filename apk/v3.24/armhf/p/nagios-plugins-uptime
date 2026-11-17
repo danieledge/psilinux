@@ -1,0 +1,15 @@
+name	nagios-plugins-uptime
+version	2.5-r0
+description	Nagios plugin check_uptime
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	17919
+installed-size	34328
+depends	nagios-plugins so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-uptime-2.5-r0.apk
+checksum	Q1UUDMXK98Qz4IXQ89VF5RpFpBGP8=
+dep	nagios-plugins	nagios-plugins
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

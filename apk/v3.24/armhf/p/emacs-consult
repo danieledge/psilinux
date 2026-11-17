@@ -1,0 +1,14 @@
+name	emacs-consult
+version	1.4_git20240405-r1
+description	Useful commands based on Emacs completing-read
+url	https://github.com/minad/consult
+license	GPL-3.0-or-later
+size	141033
+installed-size	530793
+depends	cmd:emacs emacs-compat
+origin	emacs-consult
+repo	community
+file	emacs-consult-1.4_git20240405-r1.apk
+checksum	Q1P+d3hGu9fet1N9Rh3Ru7Aaa7SEo=
+dep	cmd:emacs	emacs-gtk3
+dep	emacs-compat	emacs-compat

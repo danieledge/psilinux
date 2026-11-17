@@ -1,0 +1,28 @@
+name	perl-xml-feed
+version	1.0.0-r1
+description	XML Syndication Feed Support
+url	https://metacpan.org/release/XML-Feed/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	14604
+installed-size	46375
+depends	perl perl-class-errorhandler perl-datetime perl-datetime-format-flexible perl-datetime-format-iso8601 perl-datetime-format-mail perl-datetime-format-natural perl-datetime-format-w3cdtf perl-feed-find perl-html-parser perl-libwww perl-module-pluggable perl-uri-fetch perl-xml-atom perl-xml-libxml perl-xml-rss
+origin	perl-xml-feed
+repo	community
+file	perl-xml-feed-1.0.0-r1.apk
+checksum	Q14MDDeeD89nzodEJ9uavqdahxGFg=
+dep	perl	perl
+dep	perl-class-errorhandler	perl-class-errorhandler
+dep	perl-datetime	perl-datetime
+dep	perl-datetime-format-flexible	perl-datetime-format-flexible
+dep	perl-datetime-format-iso8601	perl-datetime-format-iso8601
+dep	perl-datetime-format-mail	perl-datetime-format-mail
+dep	perl-datetime-format-natural	perl-datetime-format-natural
+dep	perl-datetime-format-w3cdtf	perl-datetime-format-w3cdtf
+dep	perl-feed-find	perl-feed-find
+dep	perl-html-parser	perl-html-parser
+dep	perl-libwww	perl-libwww
+dep	perl-module-pluggable	perl-module-pluggable
+dep	perl-uri-fetch	perl-uri-fetch
+dep	perl-xml-atom	perl-xml-atom
+dep	perl-xml-libxml	perl-xml-libxml
+dep	perl-xml-rss	perl-xml-rss

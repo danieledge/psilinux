@@ -1,0 +1,25 @@
+name	sems
+version	2.1.0-r0
+description	SIP Express Media Server, an extensible SIP media server
+url	https://github.com/sems-server/sems/
+license	GPL-2.0-or-later
+size	2560223
+installed-size	5640538
+depends	python3 bash /bin/sh so:libc.musl-armhf.so.1 so:libevent-2.1.so.7 so:libevent_pthreads-2.1.so.7 so:libflite.so.1 so:libflite_cmu_us_kal.so.1 so:libgcc_s.so.1 so:libpython3.14.so.1.0 so:libsamplerate.so.0 so:libspandsp.so.2 so:libstdc++.so.6
+origin	sems
+repo	community
+file	sems-2.1.0-r0.apk
+checksum	Q12K0ea5nsIk1hfQOx9lsQxTwQePQ=
+dep	python3	python3
+dep	bash	bash
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevent-2.1.so.7	libevent
+dep	so:libevent_pthreads-2.1.so.7	libevent
+dep	so:libflite.so.1	flite
+dep	so:libflite_cmu_us_kal.so.1	flite
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpython3.14.so.1.0	python3
+dep	so:libsamplerate.so.0	libsamplerate
+dep	so:libspandsp.so.2	spandsp
+dep	so:libstdc++.so.6	libstdc++

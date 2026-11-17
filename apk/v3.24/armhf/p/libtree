@@ -1,0 +1,13 @@
+name	libtree
+version	3.1.1-r0
+description	ldd as a tree with an option to bundle dependencies into a single folder
+url	https://github.com/haampie/libtree
+license	MIT
+size	12402
+installed-size	21692
+depends	so:libc.musl-armhf.so.1
+origin	libtree
+repo	community
+file	libtree-3.1.1-r0.apk
+checksum	Q1aizLdRAUK8KdwEHbiypAxEm12vk=
+dep	so:libc.musl-armhf.so.1	musl

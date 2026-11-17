@@ -1,0 +1,14 @@
+name	perl-mail-sendmail
+version	0.82-r1
+description	Simple platform independent mailer
+url	https://metacpan.org/release/Mail-Sendmail/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	13007
+installed-size	33176
+depends	perl perl-sys-hostname-long
+origin	perl-mail-sendmail
+repo	community
+file	perl-mail-sendmail-0.82-r1.apk
+checksum	Q1z3o2FX5MsS8GD1Nde/Ldd/lQGuo=
+dep	perl	perl
+dep	perl-sys-hostname-long	perl-sys-hostname-long

@@ -1,0 +1,14 @@
+name	isl26
+version	0.26-r2
+description	An Integer Set Library for the Polyhedral Model
+url	http://isl.gforge.inria.fr/
+license	MIT
+size	734721
+installed-size	1732716
+depends	so:libc.musl-armhf.so.1 so:libgmp.so.10
+origin	isl26
+repo	main
+file	isl26-0.26-r2.apk
+checksum	Q1uU1mjo0m7B5EgII1h4kA7cMpdc0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgmp.so.10	gmp

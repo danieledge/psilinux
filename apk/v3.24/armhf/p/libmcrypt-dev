@@ -1,0 +1,13 @@
+name	libmcrypt-dev
+version	2.5.8-r11
+description	A library which provides a uniform interface to several symmetric encryption algorithms (development files)
+url	https://mcrypt.sourceforge.net/
+license	LGPL-2.1-or-later
+size	6988
+installed-size	15423
+depends	libmcrypt=2.5.8-r11
+origin	libmcrypt
+repo	community
+file	libmcrypt-dev-2.5.8-r11.apk
+checksum	Q13U8Z4lp6Mb8drsGRokdt6xKxh+w=
+dep	libmcrypt=2.5.8-r11	libmcrypt

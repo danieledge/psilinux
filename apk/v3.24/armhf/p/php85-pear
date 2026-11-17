@@ -1,0 +1,14 @@
+name	php85-pear
+version	8.5.12-r0
+description	PHP85 Extension and Application Repository
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0 Apache-2.0
+size	346428
+installed-size	1921104
+depends	php85 php85-xml
+origin	php85
+repo	community
+file	php85-pear-8.5.12-r0.apk
+checksum	Q1ONmLHojnhY4HiotoomlRwL28kRg=
+dep	php85	php85
+dep	php85-xml	php85-xml

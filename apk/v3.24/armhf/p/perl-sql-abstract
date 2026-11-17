@@ -1,0 +1,18 @@
+name	perl-sql-abstract
+version	2.000003-r0
+description	Generate SQL from Perl data structures
+url	https://metacpan.org/release/SQL-Abstract/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	70283
+installed-size	233758
+depends	perl perl-hash-merge perl-moo perl-mro-compat perl-sub-quote perl-test-deep
+origin	perl-sql-abstract
+repo	community
+file	perl-sql-abstract-2.000003-r0.apk
+checksum	Q1Q4TTJd3HW6hM62leojEEk467R6M=
+dep	perl	perl
+dep	perl-hash-merge	perl-hash-merge
+dep	perl-moo	perl-moo
+dep	perl-mro-compat	perl-mro-compat
+dep	perl-sub-quote	perl-sub-quote
+dep	perl-test-deep	perl-test-deep

@@ -1,0 +1,13 @@
+name	tree-sitter-vim
+version	0.8.1-r0
+description	A tree-sitter parser for Vimscript files
+url	https://github.com/tree-sitter-grammars/tree-sitter-vim/
+license	MIT
+size	220936
+installed-size	1367883
+depends	so:libc.musl-armhf.so.1
+origin	tree-sitter-vim
+repo	community
+file	tree-sitter-vim-0.8.1-r0.apk
+checksum	Q1v+YqKgu0wqcgaCUZ8mQhOQU2RYk=
+dep	so:libc.musl-armhf.so.1	musl

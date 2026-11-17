@@ -1,0 +1,20 @@
+name	qt6-qwt-designer
+version	6.3.0-r0
+description	Qt Widgets for Technical Applications (Qt6 designer plugin)
+url	https://qwt.sourceforge.io/
+license	custom
+size	19158
+installed-size	42548
+depends	qt5-qwt=6.3.0-r0 so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libqwt-qt6.so.6.3 so:libstdc++.so.6
+origin	qwt
+repo	community
+file	qt6-qwt-designer-6.3.0-r0.apk
+checksum	Q13pEmXHupt0Zl1bPVGeTTiEiScmQ=
+dep	qt5-qwt=6.3.0-r0	qt5-qwt
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libqwt-qt6.so.6.3	qt6-qwt
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,15 @@
+name	raku-distribution-builder-makefromjson
+version	0.6-r2
+description	Makefile-based distribution builder
+url	https://github.com/niner/Distribution-Builder-MakeFromJSON
+license	Artistic-2.0
+size	42328
+installed-size	100388
+depends	make rakudo raku-system-query
+origin	raku-distribution-builder-makefromjson
+repo	community
+file	raku-distribution-builder-makefromjson-0.6-r2.apk
+checksum	Q1tSxGDCsJ+uWkaC5vQczNc61MXZI=
+dep	make	make
+dep	rakudo	rakudo
+dep	raku-system-query	raku-system-query

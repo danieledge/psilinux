@@ -1,0 +1,17 @@
+name	gmnisrv
+version	1.0-r3
+description	simple Gemini protocol server
+url	gemini://drewdevault.com/gmnisrv.gmi
+license	GPL-3.0-only
+size	38438
+installed-size	71452
+depends	mailcap /bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3
+origin	gmnisrv
+repo	community
+file	gmnisrv-1.0-r3.apk
+checksum	Q1ojRwdV0Bzg8RgjGDHUBXs6bfj+A=
+dep	mailcap	mailcap
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libssl.so.3	libssl3

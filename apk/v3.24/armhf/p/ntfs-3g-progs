@@ -1,0 +1,15 @@
+name	ntfs-3g-progs
+version	2026.2.25-r0
+description	Stable, full-featured, read-write NTFS (utilities)
+url	https://www.tuxera.com/company/open-source/
+license	GPL-2.0-only
+size	249889
+installed-size	562996
+depends	so:libc.musl-armhf.so.1 so:libntfs-3g.so.89 so:libuuid.so.1
+origin	ntfs-3g
+repo	main
+file	ntfs-3g-progs-2026.2.25-r0.apk
+checksum	Q1WajFHT0o8QToY4Fx/zz81Q+tPTM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libntfs-3g.so.89	ntfs-3g-libs
+dep	so:libuuid.so.1	libuuid

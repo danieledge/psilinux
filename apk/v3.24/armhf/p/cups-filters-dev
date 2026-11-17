@@ -1,0 +1,14 @@
+name	cups-filters-dev
+version	1.28.17-r9
+description	OpenPrinting CUPS filters and backends (development files)
+url	https://wiki.linuxfoundation.org/openprinting/cups-filters
+license	GPL-2.0-or-later LGPL-2.1-or-later MIT
+size	11956
+installed-size	32064
+depends	cups-filters-libs=1.28.17-r9 pkgconfig
+origin	cups-filters
+repo	community
+file	cups-filters-dev-1.28.17-r9.apk
+checksum	Q1o3absfVm1K3YkHOHgd7r5O9ZsRA=
+dep	cups-filters-libs=1.28.17-r9	cups-filters-libs
+dep	pkgconfig	pkgconf

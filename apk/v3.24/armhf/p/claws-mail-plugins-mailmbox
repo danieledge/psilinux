@@ -1,0 +1,17 @@
+name	claws-mail-plugins-mailmbox
+version	4.4.0-r0
+description	Add support for mailboxes in mbox format to Claws Mail
+url	https://www.claws-mail.org
+license	GPL-3.0-or-later
+size	44919
+installed-size	109139
+depends	claws-mail=4.4.0-r0 so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8
+origin	claws-mail
+repo	community
+file	claws-mail-plugins-mailmbox-4.4.0-r0.apk
+checksum	Q1JSETj1SiNJhlyiBVmdxq49f1qdA=
+dep	claws-mail=4.4.0-r0	claws-mail
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl

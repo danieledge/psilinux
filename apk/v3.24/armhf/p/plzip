@@ -1,0 +1,16 @@
+name	plzip
+version	1.13-r0
+description	Massively parallel lossless data compressor
+url	https://www.nongnu.org/lzip/plzip.html
+license	GPL-2.0-or-later
+size	45700
+installed-size	87932
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblz.so.1 so:libstdc++.so.6
+origin	plzip
+repo	community
+file	plzip-1.13-r0.apk
+checksum	Q1Ce9F4asI/tJvvxw0EDC5FRqOcxU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblz.so.1	lzlib
+dep	so:libstdc++.so.6	libstdc++

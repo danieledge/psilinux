@@ -1,0 +1,13 @@
+name	gomaildrop
+version	0.1.2-r26
+description	deliver e-mail to local maildirs based on filters
+url	https://gitlab.alpinelinux.org/kdaudt/gomaildrop
+license	MIT
+size	1229592
+installed-size	2985388
+depends	so:libc.musl-armhf.so.1
+origin	gomaildrop
+repo	community
+file	gomaildrop-0.1.2-r26.apk
+checksum	Q1eZ89DB4YHZnMbFyFRsKxbbNCIv0=
+dep	so:libc.musl-armhf.so.1	musl

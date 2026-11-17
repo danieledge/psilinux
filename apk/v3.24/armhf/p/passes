@@ -1,0 +1,17 @@
+name	passes
+version	0.12-r0
+description	Manage your digital passes
+url	https://github.com/pablo-s/passes
+license	GPL-3.0-or-later
+size	56546
+installed-size	235251
+depends	libadwaita py3-gobject3 zint so:libc.musl-armhf.so.1 so:libzint.so.2.16
+origin	passes
+repo	community
+file	passes-0.12-r0.apk
+checksum	Q1bL1VVqQ/A7dFX2ppWg/d55I6o+E=
+dep	libadwaita	libadwaita
+dep	py3-gobject3	py3-gobject3
+dep	zint	zint
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libzint.so.2.16	zint

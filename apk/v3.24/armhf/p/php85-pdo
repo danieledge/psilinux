@@ -1,0 +1,14 @@
+name	php85-pdo
+version	8.5.12-r0
+description	PHP85 extension: PHP Data Objects
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0 Apache-2.0
+size	44165
+installed-size	103758
+depends	php85-common so:libc.musl-armhf.so.1
+origin	php85
+repo	community
+file	php85-pdo-8.5.12-r0.apk
+checksum	Q1PLoilwDAkFNHxrOvh8CvQ3VLmsQ=
+dep	php85-common	php85-common
+dep	so:libc.musl-armhf.so.1	musl

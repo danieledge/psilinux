@@ -1,0 +1,14 @@
+name	libaec-dev
+version	1.1.6-r0
+description	Adaptive Entropy Coding library (development files)
+url	https://gitlab.dkrz.de/k202009/libaec
+license	BSD-2-Clause
+size	8470
+installed-size	23077
+depends	libaec=1.1.6-r0 libsz=1.1.6-r0
+origin	libaec
+repo	community
+file	libaec-dev-1.1.6-r0.apk
+checksum	Q1Pg2F+MYUPl7U3rnNl2q94+twi1g=
+dep	libaec=1.1.6-r0	libaec
+dep	libsz=1.1.6-r0	libsz

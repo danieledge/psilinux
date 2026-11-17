@@ -1,0 +1,22 @@
+name	znc
+version	1.10.3-r0
+description	Advanced IRC bouncer
+url	https://wiki.znc.in/ZNC
+license	Apache-2.0
+size	1692460
+installed-size	4124805
+depends	/bin/sh so:libargon2.so.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libicuuc.so.78 so:libsasl2.so.3 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1
+origin	znc
+repo	community
+file	znc-1.10.3-r0.apk
+checksum	Q1AfNNi+Z740ePqaW9aebwL0uDDCU=
+dep	/bin/sh	busybox-binsh
+dep	so:libargon2.so.1	argon2-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libsasl2.so.3	libsasl
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

@@ -1,0 +1,15 @@
+name	jool-tools
+version	4.1.14-r0
+description	Userspace control tools for SIIT / NAT64 Jool
+url	https://nicmx.github.io/Jool/
+license	GPL-2.0-only
+size	153527
+installed-size	368867
+depends	so:libc.musl-armhf.so.1 so:libnl-3.so.200 so:libnl-genl-3.so.200
+origin	jool-tools
+repo	community
+file	jool-tools-4.1.14-r0.apk
+checksum	Q1fd8zO0iYQJpH74KPJ+OpAdbo2h0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libnl-3.so.200	libnl3
+dep	so:libnl-genl-3.so.200	libnl3

@@ -1,0 +1,18 @@
+name	rygel-dev
+version	45.2-r0
+description	UPnP AV MediaServer and MediaRenderer (development files)
+url	https://gnome.pages.gitlab.gnome.org/rygel/
+license	LGPL-2.1-or-later
+size	43664
+installed-size	343206
+depends	rygel=45.2-r0 pc:gee-0.8 pc:gmodule-2.0 pc:gstreamer-1.0 pc:gupnp-av-1.0 pkgconfig
+origin	rygel
+repo	community
+file	rygel-dev-45.2-r0.apk
+checksum	Q1Iki9NXLWlWRMQH4PWc1ARPriwtU=
+dep	rygel=45.2-r0	rygel
+dep	pc:gee-0.8	libgee-dev
+dep	pc:gmodule-2.0	glib-dev
+dep	pc:gstreamer-1.0	gstreamer-dev
+dep	pc:gupnp-av-1.0	gupnp-av-dev
+dep	pkgconfig	pkgconf

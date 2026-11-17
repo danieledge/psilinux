@@ -1,0 +1,26 @@
+name	i3lock
+version	2.16-r0
+description	An improved screenlocker based upon XCB and PAM
+url	https://i3wm.org/i3lock/
+license	MIT
+size	20681
+installed-size	42807
+depends	xkeyboard-config so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libev.so.4 so:libpam.so.0 so:libxcb-image.so.0 so:libxcb-randr.so.0 so:libxcb-util.so.1 so:libxcb-xinerama.so.0 so:libxcb-xkb.so.1 so:libxcb-xrm.so.0 so:libxcb.so.1 so:libxkbcommon-x11.so.0 so:libxkbcommon.so.0
+origin	i3lock
+repo	community
+file	i3lock-2.16-r0.apk
+checksum	Q1eOjT9Xb3Mf+0AKt5K7OO21QEY14=
+dep	xkeyboard-config	xkeyboard-config
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libev.so.4	libev
+dep	so:libpam.so.0	linux-pam
+dep	so:libxcb-image.so.0	xcb-util-image
+dep	so:libxcb-randr.so.0	libxcb
+dep	so:libxcb-util.so.1	xcb-util
+dep	so:libxcb-xinerama.so.0	libxcb
+dep	so:libxcb-xkb.so.1	libxcb
+dep	so:libxcb-xrm.so.0	xcb-util-xrm
+dep	so:libxcb.so.1	libxcb
+dep	so:libxkbcommon-x11.so.0	libxkbcommon-x11
+dep	so:libxkbcommon.so.0	libxkbcommon

@@ -1,0 +1,18 @@
+name	lib2geom-dev
+version	1.4-r2
+description	Easy to use 2D geometry library for c++ (development files)
+url	https://gitlab.com/inkscape/lib2geom
+license	MPL-1.1 OR LGPL-2.1-only
+size	167253
+installed-size	806960
+depends	boost-dev cairo-dev double-conversion-dev gsl-dev lib2geom=1.4-r2 pkgconfig
+origin	lib2geom
+repo	community
+file	lib2geom-dev-1.4-r2.apk
+checksum	Q1DpblVAx7CR4+CdEhnMIGtSpEd2M=
+dep	boost-dev	boost-dev
+dep	cairo-dev	cairo-dev
+dep	double-conversion-dev	double-conversion-dev
+dep	gsl-dev	gsl-dev
+dep	lib2geom=1.4-r2	lib2geom
+dep	pkgconfig	pkgconf

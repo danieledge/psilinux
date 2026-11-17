@@ -1,0 +1,14 @@
+name	genimage
+version	19-r0
+description	tool to generate multiple filesystem and flash images from a tree
+url	https://github.com/pengutronix/genimage
+license	GPL-2.0-only
+size	43673
+installed-size	104696
+depends	so:libc.musl-armhf.so.1 so:libconfuse.so.2
+origin	genimage
+repo	community
+file	genimage-19-r0.apk
+checksum	Q1plkGBJDxYGNG4CxnqHGIPEbjZeM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libconfuse.so.2	confuse

@@ -1,0 +1,18 @@
+name	devhelp-dev
+version	43.0-r4
+description	API documentation browser for GTK+ and GNOME (development files)
+url	https://apps.gnome.org/en/Devhelp
+license	GPL-2.0-or-later
+size	34210
+installed-size	263070
+depends	devhelp=43.0-r4 pc:gio-2.0>=2.64 pc:gsettings-desktop-schemas pc:gtk+-3.0>=3.22 pc:webkit2gtk-4.1 pkgconfig
+origin	devhelp
+repo	community
+file	devhelp-dev-43.0-r4.apk
+checksum	Q1SlaQBB3xQ3+UKfRvmY7tlH6kOKc=
+dep	devhelp=43.0-r4	devhelp
+dep	pc:gio-2.0>=2.64	glib-dev
+dep	pc:gsettings-desktop-schemas	gsettings-desktop-schemas-dev
+dep	pc:gtk+-3.0>=3.22	gtk+3.0-dev
+dep	pc:webkit2gtk-4.1	webkit2gtk-4.1-dev
+dep	pkgconfig	pkgconf

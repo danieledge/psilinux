@@ -1,0 +1,37 @@
+name	google-cloud-cpp-licensemanager
+version	2.47.0-r0
+description	C++ Client Libraries for Google Cloud Services (licensemanager)
+url	https://cloud.google.com/sdk
+license	Apache-2.0
+size	302007
+installed-size	1270312
+depends	so:libabsl_cord.so.2508.0.0 so:libabsl_cordz_functions.so.2508.0.0 so:libabsl_cordz_info.so.2508.0.0 so:libabsl_hash.so.2508.0.0 so:libabsl_log_internal_check_op.so.2508.0.0 so:libabsl_log_internal_message.so.2508.0.0 so:libabsl_log_internal_nullguard.so.2508.0.0 so:libabsl_strings.so.2508.0.0 so:libabsl_synchronization.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgoogle_cloud_cpp_api_annotations_protos.so.2 so:libgoogle_cloud_cpp_api_client_protos.so.2 so:libgoogle_cloud_cpp_api_field_behavior_protos.so.2 so:libgoogle_cloud_cpp_api_field_info_protos.so.2 so:libgoogle_cloud_cpp_api_resource_protos.so.2 so:libgoogle_cloud_cpp_cloud_location_locations_protos.so.2 so:libgoogle_cloud_cpp_common.so.2 so:libgoogle_cloud_cpp_grpc_utils.so.2 so:libgoogle_cloud_cpp_longrunning_operations_protos.so.2 so:libgpr.so.52 so:libgrpc++.so.1.78 so:libgrpc.so.52 so:libprotobuf.so.31 so:libstdc++.so.6
+origin	google-cloud-cpp
+repo	community
+file	google-cloud-cpp-licensemanager-2.47.0-r0.apk
+checksum	Q1JLf7Bxdv1U7MydX+/8H2IO2r/s8=
+dep	so:libabsl_cord.so.2508.0.0	abseil-cpp-cord
+dep	so:libabsl_cordz_functions.so.2508.0.0	abseil-cpp-cordz-functions
+dep	so:libabsl_cordz_info.so.2508.0.0	abseil-cpp-cordz-info
+dep	so:libabsl_hash.so.2508.0.0	abseil-cpp-hash
+dep	so:libabsl_log_internal_check_op.so.2508.0.0	abseil-cpp-log-internal-check-op
+dep	so:libabsl_log_internal_message.so.2508.0.0	abseil-cpp-log-internal-message
+dep	so:libabsl_log_internal_nullguard.so.2508.0.0	abseil-cpp-log-internal-nullguard
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libabsl_synchronization.so.2508.0.0	abseil-cpp-synchronization
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgoogle_cloud_cpp_api_annotations_protos.so.2	google-cloud-cpp-api-annotations
+dep	so:libgoogle_cloud_cpp_api_client_protos.so.2	google-cloud-cpp-api-client
+dep	so:libgoogle_cloud_cpp_api_field_behavior_protos.so.2	google-cloud-cpp-api-field-behavior
+dep	so:libgoogle_cloud_cpp_api_field_info_protos.so.2	google-cloud-cpp-api-field-info
+dep	so:libgoogle_cloud_cpp_api_resource_protos.so.2	google-cloud-cpp-api-resource
+dep	so:libgoogle_cloud_cpp_cloud_location_locations_protos.so.2	google-cloud-cpp-cloud-location-locations-protos
+dep	so:libgoogle_cloud_cpp_common.so.2	google-cloud-cpp
+dep	so:libgoogle_cloud_cpp_grpc_utils.so.2	google-cloud-cpp-grpc-utils
+dep	so:libgoogle_cloud_cpp_longrunning_operations_protos.so.2	google-cloud-cpp-longrunning-operations-protos
+dep	so:libgpr.so.52	libgpr
+dep	so:libgrpc++.so.1.78	grpc-cpp
+dep	so:libgrpc.so.52	libgrpc
+dep	so:libprotobuf.so.31	libprotobuf
+dep	so:libstdc++.so.6	libstdc++

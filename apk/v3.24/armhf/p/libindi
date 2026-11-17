@@ -1,0 +1,31 @@
+name	libindi
+version	2.1.5.1-r2
+description	implementation of the INDI protocol for astronomical instrumentation control
+url	https://indilib.org
+license	LGPL-2.1-only AND GPL-2.0-only AND BSD-3-Clause
+size	7245602
+installed-size	21287796
+depends	so:libQt5Core.so.5 so:libQt5Network.so.5 so:libXISF.so.0 so:libc.musl-armhf.so.1 so:libcfitsio.so.10 so:libcurl.so.4 so:libev.so.4 so:libfftw3.so.3 so:libgcc_s.so.1 so:libgsl.so.28 so:libgslcblas.so.0 so:libjpeg.so.8 so:libnova-0.15.so.0 so:libogg.so.0 so:libstdc++.so.6 so:libtheoradec.so.2 so:libtheoraenc.so.2 so:libusb-1.0.so.0 so:libz.so.1
+origin	libindi
+repo	community
+file	libindi-2.1.5.1-r2.apk
+checksum	Q1KEHnRxWGDxx+nZp7x9wFQrN9shA=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Network.so.5	qt5-qtbase
+dep	so:libXISF.so.0	libxisf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcfitsio.so.10	cfitsio
+dep	so:libcurl.so.4	libcurl
+dep	so:libev.so.4	libev
+dep	so:libfftw3.so.3	fftw-double-libs
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgsl.so.28	gsl
+dep	so:libgslcblas.so.0	gsl
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libnova-0.15.so.0	libnova
+dep	so:libogg.so.0	libogg
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtheoradec.so.2	libtheora
+dep	so:libtheoraenc.so.2	libtheora
+dep	so:libusb-1.0.so.0	libusb
+dep	so:libz.so.1	zlib

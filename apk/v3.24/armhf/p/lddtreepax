@@ -1,0 +1,14 @@
+name	lddtreepax
+version	1.3.9-r1
+description	Read and package ELF dependency trees
+url	https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities
+license	GPL-2.0-only
+size	11857
+installed-size	34473
+depends	python3 py3-elftools
+origin	pax-utils
+repo	main
+file	lddtreepax-1.3.9-r1.apk
+checksum	Q15M38tBdNaOb9c9PwohZC9nNebHs=
+dep	python3	python3
+dep	py3-elftools	py3-elftools

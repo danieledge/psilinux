@@ -1,0 +1,18 @@
+name	wv
+version	1.2.9-r7
+description	A library that can load and parse Word 2000, 97, 95 and 6 file formats
+url	https://sourceforge.net/projects/wvware/
+license	GPL-2.0-or-later
+size	198140
+installed-size	566958
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgsf-1.so.114 so:libxml2.so.2 so:libz.so.1
+origin	wv
+repo	community
+file	wv-1.2.9-r7.apk
+checksum	Q1bo8J/fRxnMLubfla8J0tv8zJ5pM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgsf-1.so.114	libgsf
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

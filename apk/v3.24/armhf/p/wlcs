@@ -1,0 +1,19 @@
+name	wlcs
+version	1.8.1-r0
+description	Wayland Conformance Test Suite
+url	https://github.com/MirServer/wlcs
+license	GPL-3.0-only
+size	673269
+installed-size	2006860
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgmock.so.1.17.0 so:libgtest.so.1.17.0 so:libstdc++.so.6 so:libwayland-client.so.0 so:libwayland-server.so.0
+origin	wlcs
+repo	community
+file	wlcs-1.8.1-r0.apk
+checksum	Q1Z0qOy1O1l2jrWt2XuQDO2PQEY/k=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgmock.so.1.17.0	gmock
+dep	so:libgtest.so.1.17.0	gtest
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-server.so.0	wayland-libs-server

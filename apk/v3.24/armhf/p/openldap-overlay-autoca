@@ -1,0 +1,16 @@
+name	openldap-overlay-autoca
+version	2.6.15-r0
+description	OpenLDAP autoca overlay
+url	https://www.openldap.org/
+license	OLDAP-2.8
+size	10469
+installed-size	23508
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:liblber.so.2 so:libldap.so.2
+origin	openldap
+repo	main
+file	openldap-overlay-autoca-2.6.15-r0.apk
+checksum	Q1AyfPiSipQLOxi01AYYopGesZY98=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap

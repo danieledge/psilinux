@@ -1,0 +1,15 @@
+name	botan3-dev
+version	3.11.1-r0
+description	Crypto and TLS for C++11 (v3) (development files)
+url	https://botan.randombit.net/
+license	BSD-2-Clause
+size	351269
+installed-size	1818818
+depends	boost-dev botan3-libs=3.11.1-r0 pkgconfig
+origin	botan3
+repo	main
+file	botan3-dev-3.11.1-r0.apk
+checksum	Q1F/Gf4zjqgoWFhnwSDUzivak2nVM=
+dep	boost-dev	boost-dev
+dep	botan3-libs=3.11.1-r0	botan3-libs
+dep	pkgconfig	pkgconf

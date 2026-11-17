@@ -1,0 +1,17 @@
+name	pipewire-x11
+version	1.6.8-r4
+description	Multimedia processing graphs
+url	https://pipewire.org/
+license	MIT
+size	6795
+installed-size	13536
+depends	so:libX11.so.6 so:libXfixes.so.3 so:libc.musl-armhf.so.1 so:libcanberra.so.0 so:libpipewire-0.3.so.0
+origin	pipewire
+repo	community
+file	pipewire-x11-1.6.8-r4.apk
+checksum	Q1m+rjbE66a6QhMW/Qh/CjVT8suPQ=
+dep	so:libX11.so.6	libx11
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcanberra.so.0	libcanberra
+dep	so:libpipewire-0.3.so.0	pipewire-libs

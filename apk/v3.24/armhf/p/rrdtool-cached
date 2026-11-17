@@ -1,0 +1,15 @@
+name	rrdtool-cached
+version	1.10.2-r0
+description	RRDtool data caching daemon
+url	http://www.rrdtool.org
+license	GPL-2.0-or-later
+size	36348
+installed-size	75516
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0 so:librrd.so.8
+origin	rrdtool
+repo	main
+file	rrdtool-cached-1.10.2-r0.apk
+checksum	Q1vJgLIwB4aB5no4MOOyFMM0HiKiM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib
+dep	so:librrd.so.8	librrd

@@ -1,0 +1,14 @@
+name	acf-clamsmtp
+version	0.6.0-r5
+description	Web-based system administration interface for clamsmtp
+url	https://gitlab.alpinelinux.org/acf/acf-clamsmtp
+license	GPL-2.0-only
+size	3046
+installed-size	2785
+depends	acf-core clamsmtp
+origin	acf-clamsmtp
+repo	community
+file	acf-clamsmtp-0.6.0-r5.apk
+checksum	Q1haclbMk2DwIIo85jbeGPnlUpacs=
+dep	acf-core	acf-core
+dep	clamsmtp	clamsmtp

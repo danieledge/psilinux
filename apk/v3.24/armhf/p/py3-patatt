@@ -1,0 +1,14 @@
+name	py3-patatt
+version	0.7.0-r1
+description	A simple library to add cryptographic attestation to patches sent via email
+url	https://git.kernel.org/pub/scm/utils/patatt/patatt.git/about/
+license	MIT-0
+size	21050
+installed-size	70430
+depends	py3-pynacl python3~3.14
+origin	py3-patatt
+repo	community
+file	py3-patatt-0.7.0-r1.apk
+checksum	Q1aPaSCOO0SKHx5IDQuJ8T5s2L5qI=
+dep	py3-pynacl	py3-pynacl
+dep	python3~3.14	python3

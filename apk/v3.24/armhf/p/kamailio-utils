@@ -1,0 +1,16 @@
+name	kamailio-utils
+version	6.0.6-r0
+description	Kamailio miscellaneous utility functions
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	128613
+installed-size	274844
+depends	kamailio so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libxml2.so.2
+origin	kamailio
+repo	main
+file	kamailio-utils-6.0.6-r0.apk
+checksum	Q1fQnE/WrsGb+84X9FcLixoccuoZk=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libxml2.so.2	libxml2

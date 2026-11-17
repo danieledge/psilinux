@@ -1,0 +1,16 @@
+name	openssh-keysign
+version	10.3_p1-r2
+description	ssh helper program for host-based authentication
+url	https://www.openssh.com/portable.html
+license	SSH-OpenSSH
+size	140742
+installed-size	304692
+depends	openssh-client=10.3_p1-r2 libcrypto3>=3.1.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	openssh
+repo	main
+file	openssh-keysign-10.3_p1-r2.apk
+checksum	Q1BnFs0OkGp+TFMO18ygBAaXqoe7s=
+dep	openssh-client=10.3_p1-r2	openssh-client-default
+dep	libcrypto3>=3.1.0	libcrypto3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

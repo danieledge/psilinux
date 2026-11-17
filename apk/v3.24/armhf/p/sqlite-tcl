@@ -1,0 +1,14 @@
+name	sqlite-tcl
+version	3.53.4-r0
+description	Sqlite Tcl Extension Architecture (TEA)
+url	https://www.sqlite.org/
+license	blessing
+size	22309
+installed-size	47365
+depends	so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	sqlite-tools
+repo	main
+file	sqlite-tcl-3.53.4-r0.apk
+checksum	Q1fOPnrqKTGAdU7hNTkZ5RO+629HI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

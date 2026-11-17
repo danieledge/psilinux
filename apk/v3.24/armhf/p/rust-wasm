@@ -1,0 +1,15 @@
+name	rust-wasm
+version	1.96.1-r0
+description	WebAssembly targets for rust
+url	https://rust-lang.org/what/wasm/
+license	Apache-2.0 OR MIT
+size	117168814
+installed-size	346591089
+depends	rust=1.96.1-r0 lld wasi-libc
+origin	rust
+repo	main
+file	rust-wasm-1.96.1-r0.apk
+checksum	Q1UkqVl74xF+PRyQgmvU2xpA7Y9l0=
+dep	rust=1.96.1-r0	rust
+dep	lld	lld22
+dep	wasi-libc	wasi-libc

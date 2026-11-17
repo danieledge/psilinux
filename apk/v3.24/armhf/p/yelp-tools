@@ -1,0 +1,13 @@
+name	yelp-tools
+version	42.1-r2
+description	Collection of utilities to help create documentation
+url	https://gitlab.gnome.org/GNOME/yelp-tools
+license	GPL-2.0-or-later
+size	27247
+installed-size	128842
+depends	py3-lxml
+origin	yelp-tools
+repo	community
+file	yelp-tools-42.1-r2.apk
+checksum	Q1y9PHYK1KBhrgKBoJQoQRzkfr2jQ=
+dep	py3-lxml	py3-lxml

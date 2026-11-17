@@ -1,0 +1,16 @@
+name	gpg-tui
+version	0.11.2-r0
+description	Terminal user interface for GnuPG
+url	https://github.com/orhun/gpg-tui
+license	MIT
+size	1263004
+installed-size	2462260
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgpg-error.so.0 so:libgpgme.so.45
+origin	gpg-tui
+repo	community
+file	gpg-tui-0.11.2-r0.apk
+checksum	Q1BOEoFQPaJG7q4ibKzzByXabuMbQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgpg-error.so.0	libgpg-error
+dep	so:libgpgme.so.45	gpgme

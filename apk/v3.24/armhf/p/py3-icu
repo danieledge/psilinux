@@ -1,0 +1,18 @@
+name	py3-icu
+version	2.16.2-r0
+description	Python3 binding for ICU
+url	https://pypi.org/project/PyICU/
+license	MIT
+size	399128
+installed-size	1243791
+depends	python3~3.14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libicui18n.so.78 so:libicuuc.so.78 so:libstdc++.so.6
+origin	py3-icu
+repo	community
+file	py3-icu-2.16.2-r0.apk
+checksum	Q13NDAbWCcaqcoTA1hg4LBDsszMTI=
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libstdc++.so.6	libstdc++

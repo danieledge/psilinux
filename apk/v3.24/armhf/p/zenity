@@ -1,0 +1,20 @@
+name	zenity
+version	4.2.2-r0
+description	Display dialog boxes from the command line and shell scripts
+url	https://gitlab.gnome.org/GNOME/zenity
+license	LGPL-2.1-or-later
+size	48312
+installed-size	108181
+depends	so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libpango-1.0.so.0
+origin	zenity
+repo	community
+file	zenity-4.2.2-r0.apk
+checksum	Q10ggvSB96+mMXgE2QCczaLqJ3o5Y=
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libpango-1.0.so.0	pango

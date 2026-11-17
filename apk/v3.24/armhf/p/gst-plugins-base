@@ -1,0 +1,49 @@
+name	gst-plugins-base
+version	1.28.3-r0
+description	GStreamer streaming media framework base plug-ins
+url	https://gstreamer.freedesktop.org
+license	GPL-2.0-or-later AND LGPL-2.0-or-later
+size	2641802
+installed-size	6340832
+depends	so:libEGL.so.1 so:libGL.so.1 so:libX11-xcb.so.1 so:libX11.so.6 so:libXext.so.6 so:libXv.so.1 so:libasound.so.2 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcdda_interface.so.0 so:libcdda_paranoia.so.0 so:libdrm.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstcontroller-1.0.so.0 so:libgstnet-1.0.so.0 so:libgstreamer-1.0.so.0 so:libintl.so.8 so:libogg.so.0 so:libopus.so.0 so:liborc-0.4.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpng16.so.16 so:libtheoradec.so.2 so:libtheoraenc.so.2 so:libvorbis.so.0 so:libvorbisenc.so.2 so:libwayland-client.so.0 so:libwayland-cursor.so.0 so:libwayland-egl.so.1 so:libxcb.so.1 so:libz.so.1
+origin	gst-plugins-base
+repo	main
+file	gst-plugins-base-1.28.3-r0.apk
+checksum	Q15fjU0ne14pMaGpEEUVwTUrrTv2M=
+dep	so:libEGL.so.1	mesa-egl
+dep	so:libGL.so.1	mesa-gl
+dep	so:libX11-xcb.so.1	libx11
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXv.so.1	libxv
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libcdda_interface.so.0	cdparanoia-libs
+dep	so:libcdda_paranoia.so.0	cdparanoia-libs
+dep	so:libdrm.so.2	libdrm
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgstbase-1.0.so.0	gstreamer
+dep	so:libgstcontroller-1.0.so.0	gstreamer
+dep	so:libgstnet-1.0.so.0	gstreamer
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libintl.so.8	libintl
+dep	so:libogg.so.0	libogg
+dep	so:libopus.so.0	opus
+dep	so:liborc-0.4.so.0	orc
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpng16.so.16	libpng
+dep	so:libtheoradec.so.2	libtheora
+dep	so:libtheoraenc.so.2	libtheora
+dep	so:libvorbis.so.0	libvorbis
+dep	so:libvorbisenc.so.2	libvorbis
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libwayland-cursor.so.0	wayland-libs-cursor
+dep	so:libwayland-egl.so.1	wayland-libs-egl
+dep	so:libxcb.so.1	libxcb
+dep	so:libz.so.1	zlib

@@ -1,0 +1,14 @@
+name	google-authenticator
+version	1.11-r0
+description	Google Authenticator PAM module
+url	https://github.com/google/google-authenticator-libpam
+license	Apache-2.0
+size	27434
+installed-size	56181
+depends	so:libc.musl-armhf.so.1 so:libpam.so.0
+origin	google-authenticator
+repo	community
+file	google-authenticator-1.11-r0.apk
+checksum	Q1eJ+5uCUf2OtrOCFHbdX1wFbov+4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpam.so.0	linux-pam

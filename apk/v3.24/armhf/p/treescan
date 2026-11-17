@@ -1,0 +1,13 @@
+name	treescan
+version	0.1-r0
+description	directory tree scanning tool
+url	https://github.com/kaniini/treescan
+license	0BSD
+size	3788
+installed-size	5344
+depends	so:libc.musl-armhf.so.1
+origin	treescan
+repo	main
+file	treescan-0.1-r0.apk
+checksum	Q1Zn89iJZ9ggTL+i/lwWkstZp+qwE=
+dep	so:libc.musl-armhf.so.1	musl

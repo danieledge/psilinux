@@ -1,0 +1,18 @@
+name	brltty
+version	6.8-r2
+description	Refreshable braille display driver daemon
+url	http://brltty.app
+license	LGPL-2.1-or-later
+size	2121165
+installed-size	6429217
+depends	so:libc.musl-armhf.so.1 so:libgpm.so.2 so:libicuuc.so.78 so:libintl.so.8 so:liblouis.so.20 so:libncursesw.so.6
+origin	brltty
+repo	community
+file	brltty-6.8-r2.apk
+checksum	Q1LeYS7CfosNt0UFHBtm6VMOcHLiM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgpm.so.2	gpm-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libintl.so.8	libintl
+dep	so:liblouis.so.20	liblouis
+dep	so:libncursesw.so.6	libncursesw

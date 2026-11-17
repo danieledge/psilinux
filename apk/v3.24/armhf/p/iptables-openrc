@@ -1,0 +1,12 @@
+name	iptables-openrc
+version	1.8.13-r0
+description	Linux kernel firewall, NAT and packet mangling tools (OpenRC init scripts)
+url	https://www.netfilter.org/projects/iptables/index.html
+license	GPL-2.0-or-later
+size	4184
+installed-size	11211
+depends	
+origin	iptables
+repo	main
+file	iptables-openrc-1.8.13-r0.apk
+checksum	Q1TlTJSViDzwAGahAJN6noS8Et1yI=

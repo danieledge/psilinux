@@ -1,0 +1,20 @@
+name	megasdk-dev
+version	4.17.1d-r1
+description	MEGA C++ SDK (development files)
+url	https://github.com/meganz/sdk
+license	BSD-2-Clause
+size	976044
+installed-size	3579494
+depends	c-ares-dev crypto++-dev curl-dev icu-dev libsodium-dev sqlite-dev megasdk=4.17.1d-r1 pkgconfig
+origin	megasdk
+repo	community
+file	megasdk-dev-4.17.1d-r1.apk
+checksum	Q15IZnRPW6wm+tNmZ6liZI4WflNhM=
+dep	c-ares-dev	c-ares-dev
+dep	crypto++-dev	crypto++-dev
+dep	curl-dev	curl-dev
+dep	icu-dev	icu-dev
+dep	libsodium-dev	libsodium-dev
+dep	sqlite-dev	sqlite-dev
+dep	megasdk=4.17.1d-r1	megasdk
+dep	pkgconfig	pkgconf

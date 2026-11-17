@@ -1,0 +1,16 @@
+name	template-glib-dev
+version	3.40.0-r0
+description	library for template expansion which supports calling into GObject Introspection from templates (development files)
+url	https://gitlab.gnome.org/GNOME/template-glib
+license	GPL-3.0-or-later
+size	19382
+installed-size	140537
+depends	template-glib=3.40.0-r0 pc:gio-2.0 pc:girepository-2.0 pkgconfig
+origin	template-glib
+repo	community
+file	template-glib-dev-3.40.0-r0.apk
+checksum	Q10+KafEDGgvBQe1e0JIw1gkKSZOY=
+dep	template-glib=3.40.0-r0	template-glib
+dep	pc:gio-2.0	glib-dev
+dep	pc:girepository-2.0	glib-dev
+dep	pkgconfig	pkgconf

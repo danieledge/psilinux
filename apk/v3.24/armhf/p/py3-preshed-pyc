@@ -1,0 +1,13 @@
+name	py3-preshed-pyc
+version	3.0.13-r0
+description	Precompiled Python bytecode for py3-preshed
+url	https://github.com/explosion/preshed
+license	MIT
+size	2222
+installed-size	641
+depends	python3~3.14
+origin	py3-preshed
+repo	community
+file	py3-preshed-pyc-3.0.13-r0.apk
+checksum	Q1MXgZkocMyyY2zeH9Uba1mP9u83A=
+dep	python3~3.14	python3

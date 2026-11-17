@@ -1,0 +1,13 @@
+name	gesture
+version	0.8-r0
+description	Handwriting algorithm with implementation for linux touchscreens injecting keys into a tty
+url	https://gitlab.com/unrznbl/gesture
+license	GPL-3.0-only
+size	13290
+installed-size	31334
+depends	so:libc.musl-armhf.so.1
+origin	gesture
+repo	community
+file	gesture-0.8-r0.apk
+checksum	Q1hYxvgLNIdVKdCcjGqWYcVbOgu1Q=
+dep	so:libc.musl-armhf.so.1	musl

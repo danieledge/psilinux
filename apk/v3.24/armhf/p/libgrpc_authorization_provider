@@ -1,0 +1,46 @@
+name	libgrpc_authorization_provider
+version	1.78.1-r2
+description	The C based gRPC (libgrpc_authorization_provider library)
+url	https://grpc.io/
+license	Apache-2.0 AND BSD-3-Clause AND MIT
+size	1261661
+installed-size	3170272
+depends	grpc=1.78.1-r2 so:libabsl_cord.so.2508.0.0 so:libabsl_cordz_info.so.2508.0.0 so:libabsl_hash.so.2508.0.0 so:libabsl_kernel_timeout_internal.so.2508.0.0 so:libabsl_log_internal_check_op.so.2508.0.0 so:libabsl_log_internal_conditions.so.2508.0.0 so:libabsl_log_internal_message.so.2508.0.0 so:libabsl_log_internal_nullguard.so.2508.0.0 so:libabsl_random_internal_entropy_pool.so.2508.0.0 so:libabsl_random_internal_randen.so.2508.0.0 so:libabsl_random_internal_randen_slow.so.2508.0.0 so:libabsl_raw_hash_set.so.2508.0.0 so:libabsl_raw_logging_internal.so.2508.0.0 so:libabsl_status.so.2508.0.0 so:libabsl_statusor.so.2508.0.0 so:libabsl_str_format_internal.so.2508.0.0 so:libabsl_strings.so.2508.0.0 so:libabsl_synchronization.so.2508.0.0 so:libabsl_time.so.2508.0.0 so:libabsl_vlog_config_internal.so.2508.0.0 so:libaddress_sorting.so.52 so:libc.musl-armhf.so.1 so:libcares.so.2 so:libgcc_s.so.1 so:libgpr.so.52 so:libre2.so.11 so:libstdc++.so.6 so:libupb_mem_lib.so.52 so:libupb_message_lib.so.52 so:libupb_reflection_lib.so.52 so:libupb_textformat_lib.so.52 so:libupb_wire_lib.so.52 so:libz.so.1
+origin	grpc
+repo	community
+file	libgrpc_authorization_provider-1.78.1-r2.apk
+checksum	Q19aJ83PTlIf87Kiy8PsInOOWu5MI=
+dep	grpc=1.78.1-r2	grpc
+dep	so:libabsl_cord.so.2508.0.0	abseil-cpp-cord
+dep	so:libabsl_cordz_info.so.2508.0.0	abseil-cpp-cordz-info
+dep	so:libabsl_hash.so.2508.0.0	abseil-cpp-hash
+dep	so:libabsl_kernel_timeout_internal.so.2508.0.0	abseil-cpp-kernel-timeout-internal
+dep	so:libabsl_log_internal_check_op.so.2508.0.0	abseil-cpp-log-internal-check-op
+dep	so:libabsl_log_internal_conditions.so.2508.0.0	abseil-cpp-log-internal-conditions
+dep	so:libabsl_log_internal_message.so.2508.0.0	abseil-cpp-log-internal-message
+dep	so:libabsl_log_internal_nullguard.so.2508.0.0	abseil-cpp-log-internal-nullguard
+dep	so:libabsl_random_internal_entropy_pool.so.2508.0.0	abseil-cpp-random-internal-entropy-pool
+dep	so:libabsl_random_internal_randen.so.2508.0.0	abseil-cpp-random-internal-randen
+dep	so:libabsl_random_internal_randen_slow.so.2508.0.0	abseil-cpp-random-internal-randen-slow
+dep	so:libabsl_raw_hash_set.so.2508.0.0	abseil-cpp-raw-hash-set
+dep	so:libabsl_raw_logging_internal.so.2508.0.0	abseil-cpp-raw-logging-internal
+dep	so:libabsl_status.so.2508.0.0	abseil-cpp-status
+dep	so:libabsl_statusor.so.2508.0.0	abseil-cpp-statusor
+dep	so:libabsl_str_format_internal.so.2508.0.0	abseil-cpp-str-format-internal
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libabsl_synchronization.so.2508.0.0	abseil-cpp-synchronization
+dep	so:libabsl_time.so.2508.0.0	abseil-cpp-time
+dep	so:libabsl_vlog_config_internal.so.2508.0.0	abseil-cpp-vlog-config-internal
+dep	so:libaddress_sorting.so.52	libaddress_sorting
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcares.so.2	c-ares
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgpr.so.52	libgpr
+dep	so:libre2.so.11	re2
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libupb_mem_lib.so.52	libupb_mem_lib
+dep	so:libupb_message_lib.so.52	libupb_message_lib
+dep	so:libupb_reflection_lib.so.52	grpc
+dep	so:libupb_textformat_lib.so.52	libupb_textformat_lib
+dep	so:libupb_wire_lib.so.52	grpc
+dep	so:libz.so.1	zlib

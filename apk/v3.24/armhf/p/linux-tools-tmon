@@ -1,0 +1,15 @@
+name	linux-tools-tmon
+version	7.1.5-r0
+description	Linux kernel thermal monitor tools
+url	https://www.kernel.org/
+license	GPL-2.0-only
+size	17417
+installed-size	34156
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6 so:libpanelw.so.6
+origin	linux-tools
+repo	main
+file	linux-tools-tmon-7.1.5-r0.apk
+checksum	Q1uSu4lxRULDWbzvRHANKoqQdFJB4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpanelw.so.6	libpanelw

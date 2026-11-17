@@ -1,0 +1,14 @@
+name	acf-pingu
+version	0.4.0-r4
+description	Web-based system administration interface for pingu
+url	https://gitlab.alpinelinux.org/acf/acf-pingu
+license	GPL-2.0-only
+size	2636
+installed-size	1839
+depends	acf-core pingu
+origin	acf-pingu
+repo	main
+file	acf-pingu-0.4.0-r4.apk
+checksum	Q1BTKG18Jadw2wc0Z10mRni7tGxHk=
+dep	acf-core	acf-core
+dep	pingu	pingu

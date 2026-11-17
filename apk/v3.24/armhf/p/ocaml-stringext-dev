@@ -1,0 +1,13 @@
+name	ocaml-stringext-dev
+version	1.6.0-r5
+description	Extra string functions for OCaml (development files)
+url	https://github.com/rgrinberg/stringext
+license	MIT
+size	79464
+installed-size	186949
+depends	ocaml-stringext=1.6.0-r5
+origin	ocaml-stringext
+repo	community
+file	ocaml-stringext-dev-1.6.0-r5.apk
+checksum	Q1NaBu7BplKZZ+b+yzkOaMvv0Vu8c=
+dep	ocaml-stringext=1.6.0-r5	ocaml-stringext

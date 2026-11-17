@@ -1,0 +1,13 @@
+name	lua-luatz
+version	0.4.1-r1
+description	Time, Date and Timezone library for lua
+url	https://daurnimator.github.io/luatz/
+license	MIT
+size	1276
+installed-size	0
+depends	tzdata
+origin	lua-luatz
+repo	community
+file	lua-luatz-0.4.1-r1.apk
+checksum	Q1RsAmdr1ZbJpmNRpqHNhZ/JSIQdw=
+dep	tzdata	tzdata

@@ -1,0 +1,19 @@
+name	notus-scanner
+version	22.7.2-r1
+description	Notus is a vulnerability scanner for creating results from local security checks 
+url	https://github.com/greenbone/notus-scanner
+license	AGPL-3.0-or-later
+size	39182
+installed-size	125337
+depends	mosquitto paho-mqtt-c py3-gnupg py3-packaging py3-paho-mqtt py3-psutil python3~3.14
+origin	notus-scanner
+repo	community
+file	notus-scanner-22.7.2-r1.apk
+checksum	Q1e5IlXyWILTJtc6dtxe2Yv2iFxSc=
+dep	mosquitto	mosquitto
+dep	paho-mqtt-c	paho-mqtt-c
+dep	py3-gnupg	py3-gnupg
+dep	py3-packaging	py3-packaging
+dep	py3-paho-mqtt	py3-paho-mqtt
+dep	py3-psutil	py3-psutil
+dep	python3~3.14	python3

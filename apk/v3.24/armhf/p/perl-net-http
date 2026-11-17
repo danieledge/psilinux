@@ -1,0 +1,14 @@
+name	perl-net-http
+version	6.24-r0
+description	Low-level HTTP connection (client)
+url	https://metacpan.org/release/Net-HTTP/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	12683
+installed-size	33796
+depends	perl perl-uri
+origin	perl-net-http
+repo	main
+file	perl-net-http-6.24-r0.apk
+checksum	Q1MXHIY8eY8CROYfPFOwN4c6j7U64=
+dep	perl	perl
+dep	perl-uri	perl-uri

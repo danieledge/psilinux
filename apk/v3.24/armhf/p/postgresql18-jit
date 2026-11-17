@@ -1,0 +1,17 @@
+name	postgresql18-jit
+version	18.7-r0
+description	Just-in-time compilation support for PostgreSQL
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	11661372
+installed-size	21423916
+depends	postgresql18=18.7-r0 so:libLLVM.so.22.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	postgresql18
+repo	main
+file	postgresql18-jit-18.7-r0.apk
+checksum	Q1B9azYlx2lytIyYU9TqI3gJmqXAU=
+dep	postgresql18=18.7-r0	postgresql18
+dep	so:libLLVM.so.22.1	llvm22-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

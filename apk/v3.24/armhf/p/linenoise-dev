@@ -1,0 +1,13 @@
+name	linenoise-dev
+version	1.0-r5
+description	Minimal replacement for readline (development files)
+url	https://github.com/antirez/linenoise
+license	BSD-2-Clause
+size	2852
+installed-size	2544
+depends	linenoise=1.0-r5
+origin	linenoise
+repo	main
+file	linenoise-dev-1.0-r5.apk
+checksum	Q1/+599LbWYGgmHI7n6OWcRe8eJj8=
+dep	linenoise=1.0-r5	linenoise

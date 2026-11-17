@@ -1,0 +1,13 @@
+name	igmpproxy
+version	0.4-r1
+description	A simple dynamic Multicast Routing Daemon using only IGMP signalling
+url	https://github.com/pali/igmpproxy
+license	GPL-2.0-or-later
+size	20306
+installed-size	39601
+depends	so:libc.musl-armhf.so.1
+origin	igmpproxy
+repo	main
+file	igmpproxy-0.4-r1.apk
+checksum	Q105UsIfQWDmsIaIo4ui4DNpyJyrI=
+dep	so:libc.musl-armhf.so.1	musl

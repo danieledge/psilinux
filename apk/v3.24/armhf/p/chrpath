@@ -1,0 +1,13 @@
+name	chrpath
+version	0.18-r0
+description	Modify rpath of compiled programs
+url	https://codeberg.org/pere/chrpath
+license	GPL-2.0-or-later
+size	8241
+installed-size	17708
+depends	so:libc.musl-armhf.so.1
+origin	chrpath
+repo	main
+file	chrpath-0.18-r0.apk
+checksum	Q1PcVMisNusCsJAvGSOaa4vZO04pU=
+dep	so:libc.musl-armhf.so.1	musl

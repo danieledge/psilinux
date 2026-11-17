@@ -1,0 +1,14 @@
+name	cloud-utils-growpart
+version	0.33-r1
+description	Grow the size of disk partitions
+url	https://launchpad.net/cloud-utils/
+license	GPL-3.0-or-later
+size	11875
+installed-size	29895
+depends	partx sfdisk
+origin	cloud-utils
+repo	community
+file	cloud-utils-growpart-0.33-r1.apk
+checksum	Q1TilNui5IvNsX7ZnN+W/PRxHDJgA=
+dep	partx	partx
+dep	sfdisk	sfdisk

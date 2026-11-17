@@ -1,0 +1,13 @@
+name	gumbo-parser-static
+version	0.13.2-r0
+description	An HTML5 parsing library in pure C99 (static library)
+url	https://codeberg.org/grisha/gumbo-parser
+license	Apache-2.0
+size	144421
+installed-size	372004
+depends	gumbo-parser-dev
+origin	gumbo-parser
+repo	community
+file	gumbo-parser-static-0.13.2-r0.apk
+checksum	Q16SFcLYxktExeHf6LAVppQuDf764=
+dep	gumbo-parser-dev	gumbo-parser-dev

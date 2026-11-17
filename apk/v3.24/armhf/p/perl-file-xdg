@@ -1,0 +1,15 @@
+name	perl-file-xdg
+version	1.03-r0
+description	Basic implementation of the XDG base directory specification
+url	https://metacpan.org/release/File-XDG/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6326
+installed-size	15431
+depends	perl perl-path-tiny perl-ref-util
+origin	perl-file-xdg
+repo	community
+file	perl-file-xdg-1.03-r0.apk
+checksum	Q1hFUzzU+dpxPUNLXvaCryyz2nMQg=
+dep	perl	perl
+dep	perl-path-tiny	perl-path-tiny
+dep	perl-ref-util	perl-ref-util

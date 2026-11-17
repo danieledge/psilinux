@@ -1,0 +1,13 @@
+name	mysql-client
+version	11.8.9-r0
+description	Dummy package for mysql-client migration
+url	https://www.mariadb.org/
+license	GPL-2.0-only
+size	1268
+installed-size	0
+depends	mariadb-client
+origin	mariadb
+repo	main
+file	mysql-client-11.8.9-r0.apk
+checksum	Q1SgdR+mc9AJxVals9bjZj+r6uH7g=
+dep	mariadb-client	mariadb-client

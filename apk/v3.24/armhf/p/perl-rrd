@@ -1,0 +1,14 @@
+name	perl-rrd
+version	1.10.2-r0
+description	Perl interface for rrdtool
+url	http://www.rrdtool.org
+license	GPL-2.0-or-later
+size	19369
+installed-size	45434
+depends	so:libc.musl-armhf.so.1 so:librrd.so.8
+origin	rrdtool
+repo	main
+file	perl-rrd-1.10.2-r0.apk
+checksum	Q19/OWVc2abMC5j/TcmK8dUUH0Xi8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:librrd.so.8	librrd

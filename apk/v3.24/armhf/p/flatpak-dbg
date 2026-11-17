@@ -1,0 +1,12 @@
+name	flatpak-dbg
+version	1.16.6-r2
+description	Application deployment framework for desktop apps (debug symbols)
+url	https://flatpak.org/
+license	LGPL-2.1-or-later
+size	8239546
+installed-size	19145424
+depends	!flatpak-libs<1.16.6-r2 !flatpak-libs>1.16.6-r2 !flatpak<1.16.6-r2 !flatpak>1.16.6-r2
+origin	flatpak
+repo	community
+file	flatpak-dbg-1.16.6-r2.apk
+checksum	Q1v0WoSdGPduYJUkKoseZDjyn8428=

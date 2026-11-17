@@ -1,0 +1,12 @@
+name	opencv-dbg
+version	4.12.0-r7
+description	Open source computer vision and machine learning library (debug symbols)
+url	https://opencv.org/
+license	Apache-2.0
+size	17307241
+installed-size	53653120
+depends	!libopencv_aruco<4.12.0-r7 !libopencv_aruco>4.12.0-r7 !libopencv_calib3d<4.12.0-r7 !libopencv_calib3d>4.12.0-r7 !libopencv_core<4.12.0-r7 !libopencv_core>4.12.0-r7 !libopencv_dnn<4.12.0-r7 !libopencv_dnn>4.12.0-r7 !libopencv_face<4.12.0-r7 !libopencv_face>4.12.0-r7 !libopencv_features2d<4.12.0-r7 !libopencv_features2d>4.12.0-r7 !libopencv_flann<4.12.0-r7 !libopencv_flann>4.12.0-r7 !libopencv_highgui<4.12.0-r7 !libopencv_highgui>4.12.0-r7 !libopencv_imgcodecs<4.12.0-r7 !libopencv_imgcodecs>4.12.0-r7 !libopencv_imgproc<4.12.0-r7 !libopencv_imgproc>4.12.0-r7 !libopencv_ml<4.12.0-r7 !libopencv_ml>4.12.0-r7 !libopencv_objdetect<4.12.0-r7 !libopencv_objdetect>4.12.0-r7 !libopencv_optflow<4.12.0-r7 !libopencv_optflow>4.12.0-r7 !libopencv_photo<4.12.0-r7 !libopencv_photo>4.12.0-r7 !libopencv_plot<4.12.0-r7 !libopencv_plot>4.12.0-r7 !libopencv_shape<4.12.0-r7 !libopencv_shape>4.12.0-r7 !libopencv_stitching<4.12.0-r7 !libopencv_stitching>4.12.0-r7 !libopencv_superres<4.12.0-r7 !libopencv_superres>4.12.0-r7 !libopencv_tracking<4.12.0-r7 !libopencv_tracking>4.12.0-r7 !libopencv_video<4.12.0-r7 !libopencv_video>4.12.0-r7 !libopencv_videoio<4.12.0-r7 !libopencv_videoio>4.12.0-r7 !libopencv_videostab<4.12.0-r7 !libopencv_videostab>4.12.0-r7 !libopencv_ximgproc<4.12.0-r7 !libopencv_ximgproc>4.12.0-r7 !opencv<4.12.0-r7 !opencv>4.12.0-r7 !py3-opencv<4.12.0-r7 !py3-opencv>4.12.0-r7
+origin	opencv
+repo	community
+file	opencv-dbg-4.12.0-r7.apk
+checksum	Q1uKBbHFC0VaQ580fSbwcUdJtLaAo=

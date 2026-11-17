@@ -1,0 +1,15 @@
+name	nikto
+version	2.6.0-r0
+description	A web application security scanner
+url	https://www.cirt.net/Nikto2
+license	GPL-2.0-only
+size	384108
+installed-size	2140478
+depends	perl nmap openssl
+origin	nikto
+repo	community
+file	nikto-2.6.0-r0.apk
+checksum	Q15i+1SPTowrkyqcleXzpW4ey42lg=
+dep	perl	perl
+dep	nmap	nmap
+dep	openssl	openssl

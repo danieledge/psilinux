@@ -1,0 +1,14 @@
+name	clipman
+version	1.6.5-r8
+description	A simple clipboard manager for Wayland
+url	https://github.com/chmouel/clipman
+license	GPL-3.0-only
+size	1940422
+installed-size	4971848
+depends	wl-clipboard so:libc.musl-armhf.so.1
+origin	clipman
+repo	community
+file	clipman-1.6.5-r8.apk
+checksum	Q18bMzxi8M4tgHQkdmcdlSxggzscQ=
+dep	wl-clipboard	wl-clipboard
+dep	so:libc.musl-armhf.so.1	musl

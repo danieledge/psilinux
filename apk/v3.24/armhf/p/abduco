@@ -1,0 +1,13 @@
+name	abduco
+version	0.6-r7
+description	Session management in a clean and simple way
+url	https://www.brain-dump.org/projects/abduco/
+license	ISC
+size	10409
+installed-size	19128
+depends	so:libc.musl-armhf.so.1
+origin	abduco
+repo	community
+file	abduco-0.6-r7.apk
+checksum	Q1pcqZ2HeSsn4R5j/+m1/sSHPKK4E=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	isa-l_crypto
+version	2.25.0-r0
+description	Intelligent Storage Acceleration Library with crypto
+url	https://github.com/intel/isa-l_crypto
+license	BSD-3-Clause
+size	50109
+installed-size	134416
+depends	so:libc.musl-armhf.so.1
+origin	isa-l_crypto
+repo	community
+file	isa-l_crypto-2.25.0-r0.apk
+checksum	Q1XTVGnNiafJCiB6yNZ5AoAGDpmiU=
+dep	so:libc.musl-armhf.so.1	musl

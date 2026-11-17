@@ -1,0 +1,12 @@
+name	mpv-dbg
+version	0.41.0-r2
+description	Video player based on MPlayer/mplayer2 (debug symbols)
+url	https://mpv.io/
+license	GPL-2.0-or-later
+size	8904466
+installed-size	19266916
+depends	!mpv-libs<0.41.0-r2 !mpv-libs>0.41.0-r2 !mpv<0.41.0-r2 !mpv>0.41.0-r2
+origin	mpv
+repo	community
+file	mpv-dbg-0.41.0-r2.apk
+checksum	Q16EKxwE7u5eg9YH7CxHMLis3up+k=

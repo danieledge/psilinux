@@ -1,0 +1,14 @@
+name	perl-email-address
+version	1.913-r1
+description	RFC 2822 Address Parsing and Creation
+url	https://metacpan.org/release/Email-Address
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	9234
+installed-size	26545
+depends	perl perl-capture-tiny
+origin	perl-email-address
+repo	main
+file	perl-email-address-1.913-r1.apk
+checksum	Q1W3KEvlaKqtiU3TpmyOPxO/9lQJA=
+dep	perl	perl
+dep	perl-capture-tiny	perl-capture-tiny

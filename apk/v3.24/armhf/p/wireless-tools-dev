@@ -1,0 +1,13 @@
+name	wireless-tools-dev
+version	30_pre9-r5
+description	Open Source wireless tools (development files)
+url	https://hewlettpackard.github.io/wireless-tools/Tools.html
+license	GPL-2.0-only
+size	19672
+installed-size	57198
+depends	wireless-tools-libs=30_pre9-r5
+origin	wireless-tools
+repo	main
+file	wireless-tools-dev-30_pre9-r5.apk
+checksum	Q1kscBefIbYLRtL8gQWHgim4nSfqE=
+dep	wireless-tools-libs=30_pre9-r5	wireless-tools-libs

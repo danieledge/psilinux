@@ -1,0 +1,13 @@
+name	icingaweb2-bash-completion
+version	2.13.0-r1
+description	Bash completions for icingaweb2
+url	https://icinga.com/docs/icinga-web-2/latest/doc/01-About/
+license	GPL-2.0-only
+size	1763
+installed-size	235
+depends	bash
+origin	icingaweb2
+repo	community
+file	icingaweb2-bash-completion-2.13.0-r1.apk
+checksum	Q17+45WnghDNTUXSs/AaTNzXwmOCc=
+dep	bash	bash

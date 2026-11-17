@@ -1,0 +1,14 @@
+name	libslirp
+version	4.9.1-r0
+description	A general purpose TCP-IP emulator
+url	https://gitlab.freedesktop.org/slirp/libslirp
+license	BSD-3-Clause
+size	62068
+installed-size	120080
+depends	so:libc.musl-armhf.so.1 so:libglib-2.0.so.0
+origin	libslirp
+repo	community
+file	libslirp-4.9.1-r0.apk
+checksum	Q1FgFeOuWKQBK8HVf5sYeNrYjgQ1c=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libglib-2.0.so.0	glib

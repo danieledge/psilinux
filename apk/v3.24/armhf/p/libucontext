@@ -1,0 +1,13 @@
+name	libucontext
+version	1.5.1-r0
+description	ucontext function implementations
+url	https://github.com/kaniini/libucontext
+license	ISC
+size	4149
+installed-size	10480
+depends	so:libc.musl-armhf.so.1
+origin	libucontext
+repo	main
+file	libucontext-1.5.1-r0.apk
+checksum	Q10XKJRET8gY6HMt3n3ks0nEkkbc0=
+dep	so:libc.musl-armhf.so.1	musl

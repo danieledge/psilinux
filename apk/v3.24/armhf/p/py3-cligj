@@ -1,0 +1,15 @@
+name	py3-cligj
+version	0.7.2-r6
+description	Common arguments and options for GeoJSON processing commands, using Click
+url	https://pypi.org/project/cligj/
+license	BSD-3-Clause
+size	7075
+installed-size	16735
+depends	python3 py3-click python3~3.14
+origin	py3-cligj
+repo	community
+file	py3-cligj-0.7.2-r6.apk
+checksum	Q1HAqJ55LlLqyTIHYkAVa6d6fIq+A=
+dep	python3	python3
+dep	py3-click	py3-click
+dep	python3~3.14	python3

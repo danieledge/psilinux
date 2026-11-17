@@ -1,0 +1,13 @@
+name	lua-sleep
+version	0.1-r2
+description	Sleep functions for Lua
+url	https://web.archive.org/web/20111113171758/http://projects.plentyfact.org/projects/lua-sleep
+license	Public-Domain
+size	3190
+installed-size	5292
+depends	so:libc.musl-armhf.so.1
+origin	lua-sleep
+repo	community
+file	lua-sleep-0.1-r2.apk
+checksum	Q1xI5bLAnw/+eM+SwcKCVWdVUP3f8=
+dep	so:libc.musl-armhf.so.1	musl

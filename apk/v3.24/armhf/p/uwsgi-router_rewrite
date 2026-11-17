@@ -1,0 +1,14 @@
+name	uwsgi-router_rewrite
+version	2.0.31-r2
+description	uWSGI plugin router_rewrite
+url	https://projects.unbit.it/uwsgi/
+license	GPL-2.0-only WITH GCC-exception-2.0
+size	3743
+installed-size	5444
+depends	uwsgi so:libc.musl-armhf.so.1
+origin	uwsgi
+repo	main
+file	uwsgi-router_rewrite-2.0.31-r2.apk
+checksum	Q10O/AascdIdsPgtVrA/6tXyliDVk=
+dep	uwsgi	uwsgi
+dep	so:libc.musl-armhf.so.1	musl

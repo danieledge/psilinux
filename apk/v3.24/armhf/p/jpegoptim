@@ -1,0 +1,14 @@
+name	jpegoptim
+version	1.5.6-r0
+description	JPEG optimization utility
+url	https://github.com/tjko/jpegoptim
+license	GPL-2.0-or-later
+size	18871
+installed-size	38268
+depends	so:libc.musl-armhf.so.1 so:libjpeg.so.8
+origin	jpegoptim
+repo	community
+file	jpegoptim-1.5.6-r0.apk
+checksum	Q1Xq/LeEWEpy0nWuCt+Gc+oma3Lws=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libjpeg.so.8	libjpeg-turbo

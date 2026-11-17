@@ -1,0 +1,25 @@
+name	wt-dev
+version	4.13.2-r0
+description	C++ library and application server for developing and deploying web applications (development files)
+url	https://www.webtoolkit.eu/
+license	GPL-2.0-only WITH openssl-exception
+size	890094
+installed-size	4039127
+depends	boost-dev fcgi-dev glu-dev graphicsmagick-dev harfbuzz-dev libharu-dev libpq-dev mesa-dev openssl-dev>3 pango-dev sqlite-dev zlib-dev wt=4.13.2-r0
+origin	wt
+repo	community
+file	wt-dev-4.13.2-r0.apk
+checksum	Q1yqIUyVg3VXjDZbrVh4i4fy02tQk=
+dep	boost-dev	boost-dev
+dep	fcgi-dev	fcgi-dev
+dep	glu-dev	glu-dev
+dep	graphicsmagick-dev	graphicsmagick-dev
+dep	harfbuzz-dev	harfbuzz-dev
+dep	libharu-dev	libharu-dev
+dep	libpq-dev	libpq-dev
+dep	mesa-dev	mesa-dev
+dep	openssl-dev>3	openssl-dev
+dep	pango-dev	pango-dev
+dep	sqlite-dev	sqlite-dev
+dep	zlib-dev	zlib-dev
+dep	wt=4.13.2-r0	wt

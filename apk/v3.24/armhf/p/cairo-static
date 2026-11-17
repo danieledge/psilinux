@@ -1,0 +1,13 @@
+name	cairo-static
+version	1.18.4-r1
+description	A vector graphics library (static library)
+url	https://cairographics.org/
+license	LGPL-2.1-or-later OR MPL-1.1
+size	11846575
+installed-size	15376252
+depends	cairo-dev
+origin	cairo
+repo	main
+file	cairo-static-1.18.4-r1.apk
+checksum	Q17HUeRIN09F+ZlyoWwQ9QoJ+YoEA=
+dep	cairo-dev	cairo-dev

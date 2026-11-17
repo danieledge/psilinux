@@ -1,0 +1,17 @@
+name	ocaml-cohttp-tools
+version	5.3.1-r2
+description	Library for HTTP clients and servers (command line utilities)
+url	https://github.com/mirage/ocaml-cohttp
+license	ISC
+size	8035881
+installed-size	17547184
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libev.so.4 so:libgmp.so.10 so:libssl.so.3
+origin	ocaml-cohttp
+repo	community
+file	ocaml-cohttp-tools-5.3.1-r2.apk
+checksum	Q1JwDeIh7vgLTw6Xv6ULG6y4YfK5s=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libev.so.4	libev
+dep	so:libgmp.so.10	gmp
+dep	so:libssl.so.3	libssl3

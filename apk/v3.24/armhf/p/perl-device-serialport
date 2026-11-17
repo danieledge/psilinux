@@ -1,0 +1,14 @@
+name	perl-device-serialport
+version	1.04-r23
+description	Linux/POSIX emulation of Win32::SerialPort functions.
+url	https://metacpan.org/dist/Device-SerialPort
+license	Artistic-1.0-Perl OR GPL-1.0-or-later
+size	35077
+installed-size	114804
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-device-serialport
+repo	main
+file	perl-device-serialport-1.04-r23.apk
+checksum	Q1CtrKazpJX3L11QmcOyx83CwL7l0=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

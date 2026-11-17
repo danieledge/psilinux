@@ -1,0 +1,18 @@
+name	xdo
+version	0.5.7-r1
+description	Small X utility to perform elementary actions on windows
+url	https://github.com/baskerville/xdo
+license	BSD-2-Clause
+size	7840
+installed-size	17580
+depends	so:libc.musl-armhf.so.1 so:libxcb-ewmh.so.2 so:libxcb-icccm.so.4 so:libxcb-util.so.1 so:libxcb-xtest.so.0 so:libxcb.so.1
+origin	xdo
+repo	community
+file	xdo-0.5.7-r1.apk
+checksum	Q1MB6gP5Makk1qkbb/767nS72qGTA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxcb-ewmh.so.2	xcb-util-wm
+dep	so:libxcb-icccm.so.4	xcb-util-wm
+dep	so:libxcb-util.so.1	xcb-util
+dep	so:libxcb-xtest.so.0	libxcb
+dep	so:libxcb.so.1	libxcb

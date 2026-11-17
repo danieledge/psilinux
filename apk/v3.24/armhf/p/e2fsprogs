@@ -1,0 +1,18 @@
+name	e2fsprogs
+version	1.47.4-r0
+description	Standard Ext2/3/4 filesystem utilities
+url	https://e2fsprogs.sourceforge.net/
+license	GPL-2.0-or-later AND LGPL-2.0-or-later AND BSD-3-Clause AND MIT
+size	197477
+installed-size	410318
+depends	so:libblkid.so.1 so:libc.musl-armhf.so.1 so:libcom_err.so.2 so:libe2p.so.2 so:libext2fs.so.2 so:libuuid.so.1
+origin	e2fsprogs
+repo	main
+file	e2fsprogs-1.47.4-r0.apk
+checksum	Q1qSmdxiOVw2PGcM2k5zzSyQqs3bI=
+dep	so:libblkid.so.1	libblkid
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcom_err.so.2	libcom_err
+dep	so:libe2p.so.2	e2fsprogs-libs
+dep	so:libext2fs.so.2	e2fsprogs-libs
+dep	so:libuuid.so.1	libuuid

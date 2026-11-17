@@ -1,0 +1,14 @@
+name	libnjb
+version	2.2.7-r7
+description	A software library for talking to the Creative Nomad Jukeboxes and Dell DJs
+url	https://libnjb.sourceforge.net/
+license	BSD-3-Clause
+size	73415
+installed-size	189628
+depends	so:libc.musl-armhf.so.1 so:libusb-0.1.so.4
+origin	libnjb
+repo	community
+file	libnjb-2.2.7-r7.apk
+checksum	Q1FCMY5ZIMzN/BlljfD9WQFk98Vio=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-0.1.so.4	libusb-compat

@@ -1,0 +1,14 @@
+name	freerdp-dev
+version	3.32.2-r0
+description	FreeRDP client (development files)
+url	https://www.freerdp.com/
+license	Apache-2.0
+size	412709
+installed-size	2283245
+depends	freerdp-libs=3.32.2-r0 pkgconfig
+origin	freerdp
+repo	community
+file	freerdp-dev-3.32.2-r0.apk
+checksum	Q115b7zSEjS1XR9a6keYkX8sUtNKo=
+dep	freerdp-libs=3.32.2-r0	freerdp-libs
+dep	pkgconfig	pkgconf

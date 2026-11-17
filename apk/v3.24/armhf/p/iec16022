@@ -1,0 +1,14 @@
+name	iec16022
+version	0.3.1-r0
+description	DataMatrix 2D barcode generator
+url	https://rdoeffinger.github.io/
+license	GPL-2.0-or-later
+size	19240
+installed-size	39364
+depends	so:libc.musl-armhf.so.1 so:libpopt.so.0
+origin	iec16022
+repo	community
+file	iec16022-0.3.1-r0.apk
+checksum	Q1moY6qXh24Ejwl4tBBrA15oV+PnU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpopt.so.0	popt

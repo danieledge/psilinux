@@ -1,0 +1,15 @@
+name	dovecot-pgsql
+version	2.4.5-r0
+description	PostgreSQL driver for Dovecot
+url	https://www.dovecot.org/
+license	MIT AND LGPL-2.1-or-later
+size	14634
+installed-size	29936
+depends	dovecot-sql=2.4.5-r0 so:libc.musl-armhf.so.1 so:libpq.so.5
+origin	dovecot
+repo	main
+file	dovecot-pgsql-2.4.5-r0.apk
+checksum	Q10jydutUTdXXotK2p2zUOvNQ5kVg=
+dep	dovecot-sql=2.4.5-r0	dovecot-sql
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpq.so.5	libpq

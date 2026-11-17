@@ -1,0 +1,14 @@
+name	vocage
+version	1.1.0-r4
+description	Minimalistic terminal-based vocabulary-learning tool
+url	https://github.com/proycon/vocage
+license	GPL-3.0-or-later
+size	364775
+installed-size	679412
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	vocage
+repo	community
+file	vocage-1.1.0-r4.apk
+checksum	Q18FRnyUKx5n0brEFiW+CV3N6w1yA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

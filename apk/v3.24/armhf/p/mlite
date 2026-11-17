@@ -1,0 +1,20 @@
+name	mlite
+version	0.5.5-r4
+description	Useful classes originating from MeeGo Touch
+url	https://github.com/sailfishos/mlite
+license	LGPL-2.1-only
+size	142454
+installed-size	374588
+depends	so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libc.musl-armhf.so.1 so:libdconf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libstdc++.so.6
+origin	mlite
+repo	community
+file	mlite-0.5.5-r4.apk
+checksum	Q12+JDIkEFn8GYMLUQmckAxkV62OE=
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6DBus.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdconf.so.1	dconf
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,15 @@
+name	ocaml-pbkdf-dev
+version	1.2.0-r4
+description	Password based key derivation functions (PBKDF) from PKCS#5 (development files)
+url	https://github.com/abeaumont/ocaml-pbkdf
+license	BSD-2-Clause
+size	25690
+installed-size	56902
+depends	ocaml-pbkdf=1.2.0-r4 ocaml-cstruct-dev ocaml-mirage-crypto-dev
+origin	ocaml-pbkdf
+repo	community
+file	ocaml-pbkdf-dev-1.2.0-r4.apk
+checksum	Q1z0h2bLHa18HoMb3LPzEs0peJgRc=
+dep	ocaml-pbkdf=1.2.0-r4	ocaml-pbkdf
+dep	ocaml-cstruct-dev	ocaml-cstruct-dev
+dep	ocaml-mirage-crypto-dev	ocaml-mirage-crypto-dev

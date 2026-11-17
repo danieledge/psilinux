@@ -1,0 +1,16 @@
+name	tmux
+version	3.7c-r0
+description	Tool to control multiple terminals from a single terminal
+url	https://tmux.github.io
+license	ISC
+size	397356
+installed-size	882848
+depends	ncurses-terminfo-base so:libc.musl-armhf.so.1 so:libevent_core-2.1.so.7 so:libncursesw.so.6
+origin	tmux
+repo	main
+file	tmux-3.7c-r0.apk
+checksum	Q1ZlCZk8LZWY4NWw0AJjRnlFjayfc=
+dep	ncurses-terminfo-base	ncurses-terminfo-base
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevent_core-2.1.so.7	libevent
+dep	so:libncursesw.so.6	libncursesw

@@ -1,0 +1,14 @@
+name	perl-params-util
+version	1.102-r6
+description	Simple, compact and correct param-checking functions
+url	https://metacpan.org/release/Params-Util/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	13543
+installed-size	35364
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-params-util
+repo	main
+file	perl-params-util-1.102-r6.apk
+checksum	Q11Cc+SjPzPaGjBOAymB1oPoKCCBw=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

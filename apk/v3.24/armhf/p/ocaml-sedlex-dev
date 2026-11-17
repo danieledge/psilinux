@@ -1,0 +1,15 @@
+name	ocaml-sedlex-dev
+version	3.2-r3
+description	OCaml lexer generator for Unicode (development files)
+url	https://github.com/ocaml-community/sedlex
+license	MIT
+size	1570710
+installed-size	4434931
+depends	ocaml-sedlex=3.2-r3 ocaml-gen-dev ocaml-ppxlib-dev
+origin	ocaml-sedlex
+repo	community
+file	ocaml-sedlex-dev-3.2-r3.apk
+checksum	Q13BVwsTtHWEElAv++VqkSxJaBW5Q=
+dep	ocaml-sedlex=3.2-r3	ocaml-sedlex
+dep	ocaml-gen-dev	ocaml-gen-dev
+dep	ocaml-ppxlib-dev	ocaml-ppxlib-dev

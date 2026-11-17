@@ -1,0 +1,13 @@
+name	nerd-fonts
+version	3.4.0-r0
+description	Patched developer targeted fonts with a high number of glyphs
+url	https://nerdfonts.com
+license	MIT AND OFL-1.1 AND Apache-2.0
+size	1466
+installed-size	1
+depends	/bin/sh
+origin	nerd-fonts
+repo	community
+file	nerd-fonts-3.4.0-r0.apk
+checksum	Q1noFBbVmNvmxwjgceMGGcOs473YA=
+dep	/bin/sh	busybox-binsh

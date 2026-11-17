@@ -1,0 +1,14 @@
+name	hunspell-dev
+version	1.7.3-r0
+description	Spell checker and morphological analyzer library and program (development files)
+url	https://hunspell.github.io/
+license	GPL-2.0-or-later OR LGPL-2.1-or-later OR MPL-1.1
+size	7995
+installed-size	24928
+depends	libhunspell=1.7.3-r0 pkgconfig
+origin	hunspell
+repo	main
+file	hunspell-dev-1.7.3-r0.apk
+checksum	Q1gdYwV/k1xE0jejMhnOSG9lKs8es=
+dep	libhunspell=1.7.3-r0	libhunspell
+dep	pkgconfig	pkgconf

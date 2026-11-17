@@ -1,0 +1,37 @@
+name	google-cloud-cpp-api-service
+version	2.47.0-r0
+description	C++ Client Libraries for Google Cloud Services (api-service)
+url	https://cloud.google.com/sdk
+license	Apache-2.0
+size	22265
+installed-size	68464
+depends	so:libabsl_log_internal_check_op.so.2508.0.0 so:libabsl_log_internal_message.so.2508.0.0 so:libabsl_log_internal_nullguard.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgoogle_cloud_cpp_api_auth_protos.so.2 so:libgoogle_cloud_cpp_api_backend_protos.so.2 so:libgoogle_cloud_cpp_api_billing_protos.so.2 so:libgoogle_cloud_cpp_api_client_protos.so.2 so:libgoogle_cloud_cpp_api_context_protos.so.2 so:libgoogle_cloud_cpp_api_control_protos.so.2 so:libgoogle_cloud_cpp_api_documentation_protos.so.2 so:libgoogle_cloud_cpp_api_endpoint_protos.so.2 so:libgoogle_cloud_cpp_api_http_protos.so.2 so:libgoogle_cloud_cpp_api_log_protos.so.2 so:libgoogle_cloud_cpp_api_logging_protos.so.2 so:libgoogle_cloud_cpp_api_metric_protos.so.2 so:libgoogle_cloud_cpp_api_monitored_resource_protos.so.2 so:libgoogle_cloud_cpp_api_monitoring_protos.so.2 so:libgoogle_cloud_cpp_api_quota_protos.so.2 so:libgoogle_cloud_cpp_api_source_info_protos.so.2 so:libgoogle_cloud_cpp_api_system_parameter_protos.so.2 so:libgoogle_cloud_cpp_api_usage_protos.so.2 so:libprotobuf.so.31 so:libstdc++.so.6
+origin	google-cloud-cpp
+repo	community
+file	google-cloud-cpp-api-service-2.47.0-r0.apk
+checksum	Q1ZL39BdMVYtkyyvk+S2KFzzNd2l4=
+dep	so:libabsl_log_internal_check_op.so.2508.0.0	abseil-cpp-log-internal-check-op
+dep	so:libabsl_log_internal_message.so.2508.0.0	abseil-cpp-log-internal-message
+dep	so:libabsl_log_internal_nullguard.so.2508.0.0	abseil-cpp-log-internal-nullguard
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgoogle_cloud_cpp_api_auth_protos.so.2	google-cloud-cpp-api-auth
+dep	so:libgoogle_cloud_cpp_api_backend_protos.so.2	google-cloud-cpp-api-backend
+dep	so:libgoogle_cloud_cpp_api_billing_protos.so.2	google-cloud-cpp-api-billing
+dep	so:libgoogle_cloud_cpp_api_client_protos.so.2	google-cloud-cpp-api-client
+dep	so:libgoogle_cloud_cpp_api_context_protos.so.2	google-cloud-cpp-api-context
+dep	so:libgoogle_cloud_cpp_api_control_protos.so.2	google-cloud-cpp-api-control
+dep	so:libgoogle_cloud_cpp_api_documentation_protos.so.2	google-cloud-cpp-api-documentation
+dep	so:libgoogle_cloud_cpp_api_endpoint_protos.so.2	google-cloud-cpp-api-endpoint
+dep	so:libgoogle_cloud_cpp_api_http_protos.so.2	google-cloud-cpp-api-http
+dep	so:libgoogle_cloud_cpp_api_log_protos.so.2	google-cloud-cpp-api-log
+dep	so:libgoogle_cloud_cpp_api_logging_protos.so.2	google-cloud-cpp-api-logging
+dep	so:libgoogle_cloud_cpp_api_metric_protos.so.2	google-cloud-cpp-api-metric
+dep	so:libgoogle_cloud_cpp_api_monitored_resource_protos.so.2	google-cloud-cpp-api-monitored-resource
+dep	so:libgoogle_cloud_cpp_api_monitoring_protos.so.2	google-cloud-cpp-api-monitoring
+dep	so:libgoogle_cloud_cpp_api_quota_protos.so.2	google-cloud-cpp-api-quota
+dep	so:libgoogle_cloud_cpp_api_source_info_protos.so.2	google-cloud-cpp-api-source-info
+dep	so:libgoogle_cloud_cpp_api_system_parameter_protos.so.2	google-cloud-cpp-api-system-parameter
+dep	so:libgoogle_cloud_cpp_api_usage_protos.so.2	google-cloud-cpp-api-usage
+dep	so:libprotobuf.so.31	libprotobuf
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,13 @@
+name	libcoro
+version	6.513-r0
+description	Coroutines (cooperative multitasking) in a portable fashion implemented in C
+url	http://software.schmorp.de/pkg/libcoro.html
+license	BSD-2-Clause
+size	4451
+installed-size	9336
+depends	so:libc.musl-armhf.so.1
+origin	libcoro
+repo	community
+file	libcoro-6.513-r0.apk
+checksum	Q1IdjBoOwxVgqEUiHh+MTvlq+L+Gc=
+dep	so:libc.musl-armhf.so.1	musl

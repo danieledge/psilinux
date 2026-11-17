@@ -1,0 +1,18 @@
+name	perl-mail-dkim
+version	1.20240923-r0
+description	Signs/verifies Internet mail with DKIM/DomainKey signatures
+url	https://metacpan.org/release/Mail-DKIM/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	69143
+installed-size	293770
+depends	perl perl-net-dns perl-mailtools perl-crypt-openssl-rsa perl-mail-authenticationresults perl-cryptx
+origin	perl-mail-dkim
+repo	main
+file	perl-mail-dkim-1.20240923-r0.apk
+checksum	Q10pvm2Dz2RuxZ+fmFcXnYTbOoQAk=
+dep	perl	perl
+dep	perl-net-dns	perl-net-dns
+dep	perl-mailtools	perl-mailtools
+dep	perl-crypt-openssl-rsa	perl-crypt-openssl-rsa
+dep	perl-mail-authenticationresults	perl-mail-authenticationresults
+dep	perl-cryptx	perl-cryptx

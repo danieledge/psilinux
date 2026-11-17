@@ -1,0 +1,14 @@
+name	eltclsh-dev
+version	1.20-r1
+description	Interactive Tcl shell using libedit (development files)
+url	https://homepages.laas.fr/mallet/soft/shell/eltclsh/
+license	BSD-2-Clause
+size	1770
+installed-size	306
+depends	eltclsh pkgconfig
+origin	eltclsh
+repo	community
+file	eltclsh-dev-1.20-r1.apk
+checksum	Q1IXRCYnWRuafzShfVUPuyZVIGzvY=
+dep	eltclsh	eltclsh
+dep	pkgconfig	pkgconf

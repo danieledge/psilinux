@@ -1,0 +1,28 @@
+name	gnome-podcasts
+version	25.3-r0
+description	Podcast app for GNOME
+url	https://apps.gnome.org/Podcasts
+license	GPL-3.0-or-later
+size	3298231
+installed-size	7306673
+depends	gst-plugins-good so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstplay-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libsqlite3.so.0 so:libssl.so.3
+origin	gnome-podcasts
+repo	community
+file	gnome-podcasts-25.3-r0.apk
+checksum	Q1aYwfTSEIxCHNwWm4ipwQuqZ0DuI=
+dep	gst-plugins-good	gst-plugins-good
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstpbutils-1.0.so.0	gst-plugins-base
+dep	so:libgstplay-1.0.so.0	gst-plugins-bad
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libssl.so.3	libssl3

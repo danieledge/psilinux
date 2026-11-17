@@ -1,0 +1,14 @@
+name	mpfr4
+version	4.2.2-r0
+description	multiple-precision floating-point library
+url	https://www.mpfr.org/
+license	LGPL-3.0-or-later
+size	198853
+installed-size	402748
+depends	so:libc.musl-armhf.so.1 so:libgmp.so.10
+origin	mpfr4
+repo	main
+file	mpfr4-4.2.2-r0.apk
+checksum	Q1E7Y6maWA9tTId5d6ZJQ9f+2Akqk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgmp.so.10	gmp

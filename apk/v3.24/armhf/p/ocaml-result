@@ -1,0 +1,18 @@
+name	ocaml-result
+version	1.5-r5
+description	Compatibility Result module
+url	https://github.com/janestreet/result
+license	BSD-3-Clause
+size	9037
+installed-size	18026
+depends	ocaml4-impl:Stdlib__Result:28153650162781e00735cd295662287b ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15 ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91 ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9 ocaml4-intf:Stdlib__Result:f99939d3b32a26a59a2f4df0b6b2e60a ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962
+origin	ocaml-result
+repo	community
+file	ocaml-result-1.5-r5.apk
+checksum	Q118ovFBN/1vn0Lca0uBafrPGnWcI=
+dep	ocaml4-impl:Stdlib__Result:28153650162781e00735cd295662287b	ocaml
+dep	ocaml4-intf:CamlinternalFormatBasics:8f8f634558798ee408df3c50a5539b15	ocaml
+dep	ocaml4-intf:Stdlib:79b0e9d3b6f7fed07eb3cc2abb961b91	ocaml
+dep	ocaml4-intf:Stdlib__Either:26845df28d19584687a38a1ab814c3f9	ocaml
+dep	ocaml4-intf:Stdlib__Result:f99939d3b32a26a59a2f4df0b6b2e60a	ocaml
+dep	ocaml4-intf:Stdlib__Seq:b63511032211eae4b567ba313cd72962	ocaml

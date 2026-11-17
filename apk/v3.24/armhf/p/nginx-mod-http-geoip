@@ -1,0 +1,15 @@
+name	nginx-mod-http-geoip
+version	1.30.6-r0
+description	Nginx module http-geoip
+url	https://www.nginx.org/
+license	BSD-2-Clause
+size	6816
+installed-size	14416
+depends	nginx=1.30.6-r0 so:libGeoIP.so.1 so:libc.musl-armhf.so.1
+origin	nginx
+repo	main
+file	nginx-mod-http-geoip-1.30.6-r0.apk
+checksum	Q14msUzSBJHX8sVv46mo8PQht78uo=
+dep	nginx=1.30.6-r0	nginx
+dep	so:libGeoIP.so.1	geoip
+dep	so:libc.musl-armhf.so.1	musl

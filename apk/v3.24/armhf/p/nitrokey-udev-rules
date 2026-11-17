@@ -1,0 +1,13 @@
+name	nitrokey-udev-rules
+version	1.1.0-r0
+description	udev rules for Nitrokey devices
+url	https://github.com/Nitrokey/nitrokey-udev-rules
+license	CC0-1.0
+size	2239
+installed-size	2882
+depends	udev
+origin	nitrokey-udev-rules
+repo	community
+file	nitrokey-udev-rules-1.1.0-r0.apk
+checksum	Q1cvsSuu3aUBkXGlCAeaBZC3ePZIg=
+dep	udev	eudev

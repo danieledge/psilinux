@@ -1,0 +1,18 @@
+name	py3-nashpy
+version	0.0.43-r1
+description	A library for the computation of Nash equilibria in two player games
+url	https://github.com/drvinceknight/Nashpy
+license	MIT
+size	27028
+installed-size	99123
+depends	python3 py3-deprecated py3-scipy py3-networkx py3-numpy python3~3.14
+origin	py3-nashpy
+repo	community
+file	py3-nashpy-0.0.43-r1.apk
+checksum	Q12g3xGmXluOSvnNedGgMwS9P3r0Y=
+dep	python3	python3
+dep	py3-deprecated	py3-deprecated
+dep	py3-scipy	py3-scipy
+dep	py3-networkx	py3-networkx
+dep	py3-numpy	py3-numpy
+dep	python3~3.14	python3

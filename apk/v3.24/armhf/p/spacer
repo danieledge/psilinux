@@ -1,0 +1,14 @@
+name	spacer
+version	0.5.0-r0
+description	CLI tool to insert spacers when command output stops
+url	https://github.com/samwho/spacer
+license	MIT
+size	966495
+installed-size	2683184
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	spacer
+repo	community
+file	spacer-0.5.0-r0.apk
+checksum	Q1EZ+r1iIJ+mwMdeHWLkPuym2G0Fk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

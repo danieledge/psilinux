@@ -1,0 +1,13 @@
+name	kernel-hardening-checker
+version	0.6.17.1-r1
+description	A tool for checking the security hardening options of the Linux kernel
+url	https://github.com/a13xp0p0v/kernel-hardening-checker
+license	GPL-3.0-or-later
+size	4048283
+installed-size	17797742
+depends	python3~3.14
+origin	kernel-hardening-checker
+repo	community
+file	kernel-hardening-checker-0.6.17.1-r1.apk
+checksum	Q13+5jwitCnRGHhoRgk9DOawbFFqA=
+dep	python3~3.14	python3

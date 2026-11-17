@@ -1,0 +1,15 @@
+name	luacheck
+version	1.2.0-r1
+description	A tool for linting and static analysis of Lua code
+url	https://github.com/lunarmodules/luacheck
+license	MIT
+size	93894
+installed-size	367171
+depends	lua5.1 lua5.1-argparse lua5.1-filesystem
+origin	luacheck
+repo	community
+file	luacheck-1.2.0-r1.apk
+checksum	Q1ru4bxMKX+Ht9cNlAKxmF5uCeOY8=
+dep	lua5.1	lua5.1
+dep	lua5.1-argparse	lua-argparse
+dep	lua5.1-filesystem	lua5.1-filesystem

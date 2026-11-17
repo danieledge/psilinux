@@ -1,0 +1,14 @@
+name	libusb-dev
+version	1.0.30-r0
+description	Library that enables userspace access to USB devices (development files)
+url	https://libusb.info/
+license	LGPL-2.1-or-later
+size	83770
+installed-size	242746
+depends	libusb=1.0.30-r0 pkgconfig
+origin	libusb
+repo	main
+file	libusb-dev-1.0.30-r0.apk
+checksum	Q1ruYkEnDDRivv6S6SQTm/OU5gC1k=
+dep	libusb=1.0.30-r0	libusb
+dep	pkgconfig	pkgconf

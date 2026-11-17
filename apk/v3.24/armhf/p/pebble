@@ -1,0 +1,13 @@
+name	pebble
+version	2.8.0-r12
+description	small RFC 8555 ACME test server not for a production certificate authority
+url	https://github.com/letsencrypt/pebble
+license	MPL-2.0
+size	6432101
+installed-size	16062592
+depends	so:libc.musl-armhf.so.1
+origin	pebble
+repo	community
+file	pebble-2.8.0-r12.apk
+checksum	Q1GNrk0XbQiXsYDC2KeEaM59ukuyI=
+dep	so:libc.musl-armhf.so.1	musl

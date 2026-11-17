@@ -1,0 +1,28 @@
+name	python3
+version	3.14.10-r1
+description	High-level scripting language
+url	https://www.python.org/
+license	PSF-2.0
+size	8252627
+installed-size	22491905
+depends	libssl3>=3.3.0 libexpat>=2.9.0 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libexpat.so.1 so:libffi.so.8 so:libgdbm_compat.so.4 so:liblzma.so.5 so:libmpdec.so.4 so:libncursesw.so.6 so:libpanelw.so.6 so:libreadline.so.8 so:libsqlite3.so.0 so:libssl.so.3 so:libz.so.1
+origin	python3
+repo	main
+file	python3-3.14.10-r1.apk
+checksum	Q15NhklZkWwX9wUYvTFrE1zIwDFlY=
+dep	libssl3>=3.3.0	libssl3
+dep	libexpat>=2.9.0	libexpat
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libexpat.so.1	libexpat
+dep	so:libffi.so.8	libffi
+dep	so:libgdbm_compat.so.4	gdbm
+dep	so:liblzma.so.5	xz-libs
+dep	so:libmpdec.so.4	mpdecimal
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpanelw.so.6	libpanelw
+dep	so:libreadline.so.8	readline
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libssl.so.3	libssl3
+dep	so:libz.so.1	zlib

@@ -1,0 +1,15 @@
+name	acf-alpine-baselayout
+version	0.13.4-r0
+description	Web-based system administration interface for alpine-baselayout
+url	https://gitlab.alpinelinux.org/acf/acf-alpine-baselayout
+license	GPL-2.0-only
+size	26731
+installed-size	89763
+depends	acf-core lua-json4 lua-posix
+origin	acf-alpine-baselayout
+repo	main
+file	acf-alpine-baselayout-0.13.4-r0.apk
+checksum	Q10QRI8TAbW0MxW2Bi94nh/a0D43c=
+dep	acf-core	acf-core
+dep	lua-json4	lua-json4
+dep	lua-posix	lua-posix

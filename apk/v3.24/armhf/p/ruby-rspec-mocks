@@ -1,0 +1,15 @@
+name	ruby-rspec-mocks
+version	3.13.8-r0
+description	RSpec's 'test double' framework, with support for stubbing and mocking
+url	http://rspec.info/
+license	MIT
+size	57524
+installed-size	237409
+depends	ruby ruby-diff-lcs ruby-rspec-support~3.13
+origin	ruby-rspec-mocks
+repo	community
+file	ruby-rspec-mocks-3.13.8-r0.apk
+checksum	Q1EV6BMDGz/Vr48p085A7Lz5TNrOg=
+dep	ruby	ruby
+dep	ruby-diff-lcs	ruby-diff-lcs
+dep	ruby-rspec-support~3.13	ruby-rspec-support

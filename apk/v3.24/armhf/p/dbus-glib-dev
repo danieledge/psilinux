@@ -1,0 +1,24 @@
+name	dbus-glib-dev
+version	0.114-r0
+description	GLib bindings for DBUS (development files)
+url	https://www.freedesktop.org/wiki/Software/DBusBindings
+license	AFL-2.1 OR GPL-2.0-or-later
+size	39070
+installed-size	125235
+depends	dbus-glib=0.114-r0 pc:dbus-1 pc:glib-2.0 pc:gobject-2.0 pkgconfig so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libdbus-glib-1.so.2 so:libexpat.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
+origin	dbus-glib
+repo	main
+file	dbus-glib-dev-0.114-r0.apk
+checksum	Q1gxwOugDIXl+w+LUaMFH/kzv4H6s=
+dep	dbus-glib=0.114-r0	dbus-glib
+dep	pc:dbus-1	dbus-dev
+dep	pc:glib-2.0	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pkgconfig	pkgconf
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libdbus-glib-1.so.2	dbus-glib
+dep	so:libexpat.so.1	libexpat
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib

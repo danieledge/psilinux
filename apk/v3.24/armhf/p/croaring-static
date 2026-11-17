@@ -1,0 +1,13 @@
+name	croaring-static
+version	4.6.1-r0
+description	fast compressed bitmaps in C (and C++) (static library)
+url	https://github.com/RoaringBitmap/CRoaring
+license	Apache-2.0 OR MIT
+size	166373
+installed-size	393992
+depends	croaring-dev
+origin	croaring
+repo	community
+file	croaring-static-4.6.1-r0.apk
+checksum	Q1tzoig8l2VqZonaOI7IWDUwQZuIU=
+dep	croaring-dev	croaring-dev

@@ -1,0 +1,19 @@
+name	lcdproc
+version	0.5.9-r6
+description	Multi-platform LCD display driver
+url	https://www.lcdproc.org/
+license	GPL-2.0-or-later
+size	338800
+installed-size	936601
+depends	so:libc.musl-armhf.so.1 so:libftdi1.so.2 so:liblirc_client.so.0 so:libncursesw.so.6 so:libpng16.so.16 so:libusb-0.1.so.4 so:libusb-1.0.so.0
+origin	lcdproc
+repo	community
+file	lcdproc-0.5.9-r6.apk
+checksum	Q1zSzmkdiA6/KlbrbYE8CqMp5O4NA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libftdi1.so.2	libftdi1
+dep	so:liblirc_client.so.0	lirc
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpng16.so.16	libpng
+dep	so:libusb-0.1.so.4	libusb-compat
+dep	so:libusb-1.0.so.0	libusb

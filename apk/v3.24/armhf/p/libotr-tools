@@ -1,0 +1,15 @@
+name	libotr-tools
+version	4.1.1-r5
+description	libotr tools
+url	http://otr.cypherpunks.ca/
+license	LGPL-2.1-only
+size	30397
+installed-size	118424
+depends	so:libc.musl-armhf.so.1 so:libgcrypt.so.20 so:libotr.so.5
+origin	libotr
+repo	main
+file	libotr-tools-4.1.1-r5.apk
+checksum	Q19oD+CwVg3hPbd3x61wrGJidX9DM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libotr.so.5	libotr

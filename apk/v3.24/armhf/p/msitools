@@ -1,0 +1,20 @@
+name	msitools
+version	0.106-r0
+description	Set of programs to inspect and build Windows Installer (.MSI) files
+url	https://gitlab.gnome.org/GNOME/msitools
+license	GPL-2.0-or-later LGPL-2.1-or-later
+size	225866
+installed-size	695117
+depends	so:libc.musl-armhf.so.1 so:libgcab-1.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgsf-1.so.114 so:libintl.so.8 so:libxml2.so.2
+origin	msitools
+repo	community
+file	msitools-0.106-r0.apk
+checksum	Q1/y7cgTFhYKT+UK/vuQVrE0KGU3w=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcab-1.0.so.0	libgcab
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgsf-1.so.114	libgsf
+dep	so:libintl.so.8	libintl
+dep	so:libxml2.so.2	libxml2

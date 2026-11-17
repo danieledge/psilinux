@@ -1,0 +1,16 @@
+name	mautrix-twitter
+version	0.2604.0-r3
+description	Matrix-Twitter puppeting bridge
+url	https://docs.mau.fi/bridges/go/twitter/
+license	AGPL-3.0-or-later
+size	9945011
+installed-size	26294471
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libolm.so.3 so:libsqlite3.so.0
+origin	mautrix-twitter
+repo	community
+file	mautrix-twitter-0.2604.0-r3.apk
+checksum	Q1BgSn8fSEQQXwuRj1YJHzm0Szb8A=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libolm.so.3	olm
+dep	so:libsqlite3.so.0	sqlite-libs

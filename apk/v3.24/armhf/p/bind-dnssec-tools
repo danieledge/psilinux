@@ -1,0 +1,20 @@
+name	bind-dnssec-tools
+version	9.20.30-r0
+description	Utilities for DNSSEC keys and DNS zone files management
+url	https://www.isc.org/bind/
+license	MPL-2.0
+size	152696
+installed-size	391444
+depends	dns-root-hints bind-tools so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libdns-9.20.30.so so:libisc-9.20.30.so so:libisccfg-9.20.30.so so:liburcu.so.8
+origin	bind
+repo	main
+file	bind-dnssec-tools-9.20.30-r0.apk
+checksum	Q1F2Oxf+ANKh1gexotGTtUsBVbmaE=
+dep	dns-root-hints	dns-root-hints
+dep	bind-tools	bind-tools
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libdns-9.20.30.so	bind-libs
+dep	so:libisc-9.20.30.so	bind-libs
+dep	so:libisccfg-9.20.30.so	bind-libs
+dep	so:liburcu.so.8	userspace-rcu

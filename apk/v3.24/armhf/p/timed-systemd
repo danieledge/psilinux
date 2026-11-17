@@ -1,0 +1,12 @@
+name	timed-systemd
+version	3.6.24-r2
+description	The time daemon manages system time, timezone and settings, executing actions at given time and managing the event queue (systemd files)
+url	https://github.com/sailfishos/timed
+license	LGPL-2.1-only
+size	1882
+installed-size	302
+depends	
+origin	timed
+repo	community
+file	timed-systemd-3.6.24-r2.apk
+checksum	Q1gEfjbpBJF5aUGb+QttliW/OEDWk=

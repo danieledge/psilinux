@@ -1,0 +1,17 @@
+name	librime-plugins
+version	1.17.0-r0
+description	Rime input method engine (meta package for installing all plugins)
+url	https://github.com/rime/librime
+license	BSD-3-Clause
+size	1308
+installed-size	0
+depends	librime-plugin-charcode=1.17.0-r0 librime-plugin-lua=1.17.0-r0 librime-plugin-octagram=1.17.0-r0 librime-plugin-predict=1.17.0-r0 librime-plugin-proto=1.17.0-r0
+origin	librime
+repo	community
+file	librime-plugins-1.17.0-r0.apk
+checksum	Q1p2JP9GyOiKLq69AeIWrjvBgBaGw=
+dep	librime-plugin-charcode=1.17.0-r0	librime-plugin-charcode
+dep	librime-plugin-lua=1.17.0-r0	librime-plugin-lua
+dep	librime-plugin-octagram=1.17.0-r0	librime-plugin-octagram
+dep	librime-plugin-predict=1.17.0-r0	librime-plugin-predict
+dep	librime-plugin-proto=1.17.0-r0	librime-plugin-proto

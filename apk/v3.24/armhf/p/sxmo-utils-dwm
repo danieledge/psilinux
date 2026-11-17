@@ -1,0 +1,15 @@
+name	sxmo-utils-dwm
+version	1.18.1-r4
+description	Utility scripts, programs, and configs that hold the Sxmo UI environment together - dwm dependencies
+url	https://git.sr.ht/~mil/sxmo-utils
+license	AGPL-3.0-only
+size	1943
+installed-size	85
+depends	sxmo-utils-x11=1.18.1-r4 sxmo-dwm /bin/sh
+origin	sxmo-utils
+repo	community
+file	sxmo-utils-dwm-1.18.1-r4.apk
+checksum	Q1EfC1sfU4MxOwD1L2sBqY81sD91U=
+dep	sxmo-utils-x11=1.18.1-r4	sxmo-utils-x11
+dep	sxmo-dwm	sxmo-dwm
+dep	/bin/sh	busybox-binsh

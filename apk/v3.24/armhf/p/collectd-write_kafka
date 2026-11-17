@@ -1,0 +1,16 @@
+name	collectd-write_kafka
+version	5.12.0-r25
+description	write_kafka pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	30147
+installed-size	62636
+depends	collectd so:libc.musl-armhf.so.1 so:librdkafka.so.1 so:libyajl.so.2
+origin	collectd
+repo	community
+file	collectd-write_kafka-5.12.0-r25.apk
+checksum	Q1xJxlXZWZtV1aIZLJwiWmh0DUL2U=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:librdkafka.so.1	librdkafka
+dep	so:libyajl.so.2	yajl

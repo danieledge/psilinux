@@ -1,0 +1,16 @@
+name	x2x
+version	0.0.0_git20210925-r0
+description	Allows the keyboard, mouse on one X display to be used to control another X display using ssh
+url	https://github.com/dottedmag/x2x
+license	MIT
+size	15800
+installed-size	29900
+depends	so:libX11.so.6 so:libXext.so.6 so:libXtst.so.6 so:libc.musl-armhf.so.1
+origin	x2x
+repo	community
+file	x2x-0.0.0_git20210925-r0.apk
+checksum	Q1JA9ZBf/iDkgaeI6c7N2hN/mMPw0=
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXtst.so.6	libxtst
+dep	so:libc.musl-armhf.so.1	musl

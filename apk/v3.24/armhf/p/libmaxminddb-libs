@@ -1,0 +1,13 @@
+name	libmaxminddb-libs
+version	1.13.3-r0
+description	Maxmind GeoIP2 database library (libraries)
+url	https://github.com/maxmind/libmaxminddb
+license	Apache-2.0
+size	10467
+installed-size	17528
+depends	so:libc.musl-armhf.so.1
+origin	libmaxminddb
+repo	main
+file	libmaxminddb-libs-1.13.3-r0.apk
+checksum	Q13RPuI6x4wPxKoqKE/wTvoN3Zv8Y=
+dep	so:libc.musl-armhf.so.1	musl

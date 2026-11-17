@@ -1,0 +1,17 @@
+name	lilv-libs
+version	0.24.26-r1
+description	C library for simpler use of LV2 plugins (libraries)
+url	https://drobilla.net/software/lilv
+license	ISC
+size	32759
+installed-size	70788
+depends	so:libc.musl-armhf.so.1 so:libserd-0.so.0 so:libsord-0.so.0 so:libsratom-0.so.0 so:libzix-0.so.0
+origin	lilv
+repo	community
+file	lilv-libs-0.24.26-r1.apk
+checksum	Q16l5N6hDutxrPv97L8WfWb+KuAO8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libserd-0.so.0	serd-libs
+dep	so:libsord-0.so.0	sord-libs
+dep	so:libsratom-0.so.0	sratom
+dep	so:libzix-0.so.0	zix-libs

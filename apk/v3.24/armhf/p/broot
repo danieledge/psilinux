@@ -1,0 +1,15 @@
+name	broot
+version	1.54.0-r0
+description	New way to see and navigate directory trees
+url	https://github.com/Canop/broot
+license	MIT
+size	4980680
+installed-size	9506500
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgit2.so.1.9
+origin	broot
+repo	community
+file	broot-1.54.0-r0.apk
+checksum	Q1K0peD9HOXD42//K0kBvpJRQG050=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgit2.so.1.9	libgit2

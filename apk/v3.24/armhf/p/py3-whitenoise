@@ -1,0 +1,14 @@
+name	py3-whitenoise
+version	6.11.0-r3
+description	Radically simplified static file serving for Python web apps
+url	https://whitenoise.readthedocs.io/
+license	MIT
+size	19129
+installed-size	54340
+depends	py3-brotli python3~3.14
+origin	py3-whitenoise
+repo	community
+file	py3-whitenoise-6.11.0-r3.apk
+checksum	Q1zaEn4Slq65Mx2Dh7vS6S8rigdFE=
+dep	py3-brotli	py3-brotli
+dep	python3~3.14	python3

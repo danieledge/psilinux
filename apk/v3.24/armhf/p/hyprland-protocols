@@ -1,0 +1,13 @@
+name	hyprland-protocols
+version	0.7.0-r0
+description	Wayland protocol extensions for Hyprland
+url	https://github.com/hyprwm/hyprland-protocols
+license	BSD-3-Clause
+size	10860
+installed-size	46464
+depends	pkgconfig
+origin	hyprland-protocols
+repo	community
+file	hyprland-protocols-0.7.0-r0.apk
+checksum	Q1hqH+SwFnWLOpFOLkinFF+CIMKcU=
+dep	pkgconfig	pkgconf

@@ -1,0 +1,19 @@
+name	libva-dev
+version	2.23.0-r0
+description	Video Acceleration (VA) API for Linux (development files)
+url	https://01.org/linuxmedia
+license	MIT
+size	151151
+installed-size	710287
+depends	libx11-dev libxext-dev libxfixes-dev libdrm-dev libva=2.23.0-r0 pc:wayland-client pkgconfig
+origin	libva
+repo	main
+file	libva-dev-2.23.0-r0.apk
+checksum	Q14yLzL6rACl+7rRKbMhpP5oYHon4=
+dep	libx11-dev	libx11-dev
+dep	libxext-dev	libxext-dev
+dep	libxfixes-dev	libxfixes-dev
+dep	libdrm-dev	libdrm-dev
+dep	libva=2.23.0-r0	libva
+dep	pc:wayland-client	wayland-dev
+dep	pkgconfig	pkgconf

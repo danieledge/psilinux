@@ -1,0 +1,32 @@
+name	ffmpeg-libavfilter
+version	8.1.3-r0
+description	Complete and free Internet live audio and video broadcasting solution for Linux/Unix (libavfilter library)
+url	https://ffmpeg.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	1897723
+installed-size	4343564
+depends	so:libass.so.9 so:libavcodec.so.62 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libfontconfig.so.1 so:libfreetype.so.6 so:libfribidi.so.0 so:libgcc_s.so.1 so:libharfbuzz.so.0 so:liblilv-0.so.0 so:libplacebo.so.360 so:libshaderc_shared.so.1 so:libswresample.so.6 so:libswscale.so.9 so:libva.so.2 so:libvidstab.so.1.2 so:libz.so.1 so:libzimg.so.2 so:libzmq.so.5
+origin	ffmpeg
+repo	community
+file	ffmpeg-libavfilter-8.1.3-r0.apk
+checksum	Q1MNK8c5YN2SN/cYs29imTSY5bvA8=
+dep	so:libass.so.9	libass
+dep	so:libavcodec.so.62	ffmpeg-libavcodec
+dep	so:libavformat.so.62	ffmpeg-libavformat
+dep	so:libavutil.so.60	ffmpeg-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libfribidi.so.0	fribidi
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:liblilv-0.so.0	lilv-libs
+dep	so:libplacebo.so.360	libplacebo
+dep	so:libshaderc_shared.so.1	shaderc
+dep	so:libswresample.so.6	ffmpeg-libswresample
+dep	so:libswscale.so.9	ffmpeg-libswscale
+dep	so:libva.so.2	libva
+dep	so:libvidstab.so.1.2	vidstab
+dep	so:libz.so.1	zlib
+dep	so:libzimg.so.2	zimg
+dep	so:libzmq.so.5	libzmq

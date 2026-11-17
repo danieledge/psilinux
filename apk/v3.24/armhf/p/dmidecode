@@ -1,0 +1,13 @@
+name	dmidecode
+version	3.7-r0
+description	A utility for reporting system hardware as described by BIOS
+url	https://nongnu.org/dmidecode
+license	GPL-2.0-or-later
+size	60736
+installed-size	128764
+depends	so:libc.musl-armhf.so.1
+origin	dmidecode
+repo	main
+file	dmidecode-3.7-r0.apk
+checksum	Q1XbVZW4sJ5q0H1GzQq4uSOWDNWc0=
+dep	so:libc.musl-armhf.so.1	musl

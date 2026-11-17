@@ -1,0 +1,12 @@
+name	linux-firmware-none
+version	20260519-r0
+description	Empty linux firwmare package for those who does not need any firmware
+url	https://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git;a=summary
+license	custom
+size	1322
+installed-size	0
+depends	
+origin	linux-firmware
+repo	main
+file	linux-firmware-none-20260519-r0.apk
+checksum	Q1E5Byxj/VFiGGQ9DAMtdq785fdN4=

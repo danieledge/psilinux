@@ -1,0 +1,14 @@
+name	systeroid
+version	0.4.6-r0
+description	A more powerful alternative to sysctl(8)
+url	https://systeroid.cli.rs/
+license	Apache-2.0
+size	807420
+installed-size	1708332
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	systeroid
+repo	community
+file	systeroid-0.4.6-r0.apk
+checksum	Q1UmqyahljMfRGEByFkvbzuUSH9gM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

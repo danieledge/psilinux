@@ -1,0 +1,15 @@
+name	libcouchbase-libevent
+version	3.3.18-r0
+description	C client library for Couchbase (libevent backend)
+url	https://developer.couchbase.com/community
+license	Apache-2.0
+size	4763
+installed-size	9336
+depends	libcouchbase=3.3.18-r0 so:libc.musl-armhf.so.1 so:libevent_core-2.1.so.7
+origin	libcouchbase
+repo	community
+file	libcouchbase-libevent-3.3.18-r0.apk
+checksum	Q1DidI3UidAFgXeGnl1InIa2/T4EY=
+dep	libcouchbase=3.3.18-r0	libcouchbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevent_core-2.1.so.7	libevent

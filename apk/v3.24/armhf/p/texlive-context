@@ -1,0 +1,16 @@
+name	texlive-context
+version	2026.0-r0
+description	ConTeXt is a general-purpose document processor derived from TeX
+url	https://tug.org/texlive/
+license	GPL-2.0-or-later AND GPL-3.0-or-later
+size	2738
+installed-size	967
+depends	texlive texlive-luatex texmf-dist-context /bin/sh
+origin	texlive
+repo	community
+file	texlive-context-2026.0-r0.apk
+checksum	Q11iiT1oqVokUKMXcx+vG5zdOZEUg=
+dep	texlive	texlive
+dep	texlive-luatex	texlive-luatex
+dep	texmf-dist-context	texmf-dist-context
+dep	/bin/sh	busybox-binsh

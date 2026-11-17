@@ -1,0 +1,14 @@
+name	collectd-hddtemp
+version	5.12.0-r25
+description	hddtemp pluin for collectd
+url	https://collectd.org/
+license	GPL-2.0-or-later
+size	4710
+installed-size	9344
+depends	collectd so:libc.musl-armhf.so.1
+origin	collectd
+repo	community
+file	collectd-hddtemp-5.12.0-r25.apk
+checksum	Q1y5hqvWNHR6QLz0J8lTZ2/mMkniM=
+dep	collectd	collectd
+dep	so:libc.musl-armhf.so.1	musl

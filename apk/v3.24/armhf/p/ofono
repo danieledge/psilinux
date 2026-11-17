@@ -1,0 +1,18 @@
+name	ofono
+version	2.19-r1
+description	Infrastructure for building mobile telephony (GSM/UMTS) applications
+url	https://01.org/ofono
+license	GPL-2.0-only
+size	811954
+installed-size	2019384
+depends	dbus so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libell.so.0 so:libglib-2.0.so.0 so:libudev.so.1
+origin	ofono
+repo	community
+file	ofono-2.19-r1.apk
+checksum	Q1vq9+Gyxbp1my6L3vA3bm0c/ycKE=
+dep	dbus	dbus
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-1.so.3	dbus-libs
+dep	so:libell.so.0	ell
+dep	so:libglib-2.0.so.0	glib
+dep	so:libudev.so.1	eudev-libs

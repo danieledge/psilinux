@@ -1,0 +1,15 @@
+name	oo7-portal
+version	0.6.0-r4
+description	An implementation of org.freedesktop.impl.portal.Secret
+url	https://github.com/linux-credentials/oo7
+license	MIT
+size	1436496
+installed-size	3126981
+depends	dbus so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	oo7
+repo	community
+file	oo7-portal-0.6.0-r4.apk
+checksum	Q1Y8NHB+Bg2lr4lOnI36oVHQMD9dE=
+dep	dbus	dbus
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

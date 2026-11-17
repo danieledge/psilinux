@@ -1,0 +1,13 @@
+name	showtime-pyc
+version	50.0-r2
+description	Precompiled Python bytecode for showtime
+url	https://gitlab.gnome.org/GNOME/showtime
+license	GPL-3.0-or-later
+size	60038
+installed-size	158781
+depends	python3~3.14
+origin	showtime
+repo	community
+file	showtime-pyc-50.0-r2.apk
+checksum	Q1xnhjYoVn2GSZ8E5Su8A2VsUQK4M=
+dep	python3~3.14	python3

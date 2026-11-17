@@ -1,0 +1,14 @@
+name	xz
+version	5.8.4-r0
+description	Library and CLI tools for XZ and LZMA compressed files
+url	https://tukaani.org/xz/
+license	GPL-2.0-or-later AND 0BSD AND Public-Domain AND LGPL-2.1-or-later
+size	65366
+installed-size	147233
+depends	so:libc.musl-armhf.so.1 so:liblzma.so.5
+origin	xz
+repo	main
+file	xz-5.8.4-r0.apk
+checksum	Q1QDUjBhoni5XXHdGRyE6eLxIp54o=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:liblzma.so.5	xz-libs

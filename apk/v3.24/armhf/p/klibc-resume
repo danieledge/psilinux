@@ -1,0 +1,13 @@
+name	klibc-resume
+version	2.0.14-r1
+description	A minimalistic libc subset for use with initramfs
+url	https://git.kernel.org/pub/scm/libs/klibc/klibc.git/
+license	GPL-2.0-or-later
+size	3890
+installed-size	3604
+depends	libklibc
+origin	klibc
+repo	community
+file	klibc-resume-2.0.14-r1.apk
+checksum	Q1o328fQ9l3R7xrKeF9aOXhgsUfsM=
+dep	libklibc	libklibc

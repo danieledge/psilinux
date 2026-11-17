@@ -1,0 +1,15 @@
+name	libnl3-dev
+version	3.11.0-r0
+description	Library for applications dealing with netlink sockets (development files)
+url	http://www.infradead.org/~tgr/libnl/
+license	LGPL-2.1-or-later
+size	59297
+installed-size	296994
+depends	libnl3-cli=3.11.0-r0 libnl3=3.11.0-r0 pkgconfig
+origin	libnl3
+repo	main
+file	libnl3-dev-3.11.0-r0.apk
+checksum	Q1w2vvMCb8HuEU319jlgz/bgrjYh4=
+dep	libnl3-cli=3.11.0-r0	libnl3-cli
+dep	libnl3=3.11.0-r0	libnl3
+dep	pkgconfig	pkgconf

@@ -1,0 +1,15 @@
+name	lua5.3-file-magic
+version	0.2-r6
+description	Lua binding to libmagic (for Lua 5.3)
+url	https://github.com/ncopa/lua-file-magic
+license	MIT
+size	4859
+installed-size	9604
+depends	lua5.3 so:libc.musl-armhf.so.1 so:libmagic.so.1
+origin	lua-file-magic
+repo	main
+file	lua5.3-file-magic-0.2-r6.apk
+checksum	Q17BPO0ESdWHs3rKHd0z08lKfJ6Hk=
+dep	lua5.3	lua5.3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libmagic.so.1	libmagic

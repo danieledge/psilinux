@@ -1,0 +1,13 @@
+name	dpaste
+version	0.8-r0
+description	Helper script to paste things to https://dpaste.com
+url	https://dpaste.com
+license	GPL-2.0-only
+size	1608
+installed-size	89
+depends	curl
+origin	tpaste
+repo	main
+file	dpaste-0.8-r0.apk
+checksum	Q1GQ0IYk31oslZqCyL0K6K96yWiSE=
+dep	curl	curl

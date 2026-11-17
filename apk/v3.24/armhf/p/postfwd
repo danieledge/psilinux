@@ -1,0 +1,16 @@
+name	postfwd
+version	2.03-r1
+description	Combines complex postfix restrictions in a ruleset similar to those of the most firewalls
+url	https://postfwd.org/
+license	BSD-3-Clause
+size	63805
+installed-size	235329
+depends	perl-net-server perl-net-dns perl-io-multiplex /bin/sh
+origin	postfwd
+repo	community
+file	postfwd-2.03-r1.apk
+checksum	Q1lRVrWgY6NuzohjNQ+1F7lMCFJj4=
+dep	perl-net-server	perl-net-server
+dep	perl-net-dns	perl-net-dns
+dep	perl-io-multiplex	perl-io-multiplex
+dep	/bin/sh	busybox-binsh

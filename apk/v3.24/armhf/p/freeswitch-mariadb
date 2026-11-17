@@ -1,0 +1,17 @@
+name	freeswitch-mariadb
+version	1.10.12-r6
+description	Freeswitch MariaDB Module
+url	https://www.freeswitch.org/
+license	MPL-1.1
+size	54994
+installed-size	157600
+depends	so:libc.musl-armhf.so.1 so:libfreeswitch.so.1 so:libgcc_s.so.1 so:libmariadb.so.3 so:libstdc++.so.6
+origin	freeswitch
+repo	main
+file	freeswitch-mariadb-1.10.12-r6.apk
+checksum	Q1xImLM44Z8kfgamMS/HE5Vv1rov0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreeswitch.so.1	freeswitch
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmariadb.so.3	mariadb-connector-c
+dep	so:libstdc++.so.6	libstdc++

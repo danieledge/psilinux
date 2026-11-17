@@ -1,0 +1,14 @@
+name	lz4-dev
+version	1.10.0-r1
+description	LZ4 is lossless compression algorithm with fast decoder @ multiple GB/s per core. (development files)
+url	https://github.com/lz4/lz4
+license	BSD-2-Clause AND GPL-2.0-or-later
+size	32855
+installed-size	111025
+depends	lz4-libs=1.10.0-r1 pkgconfig
+origin	lz4
+repo	main
+file	lz4-dev-1.10.0-r1.apk
+checksum	Q104HB9nrObzQpRdT0zWT/ByanwgA=
+dep	lz4-libs=1.10.0-r1	lz4-libs
+dep	pkgconfig	pkgconf

@@ -1,0 +1,13 @@
+name	perl-http-headers-fast
+version	0.22-r2
+description	faster implementation of HTTP::Headers
+url	https://metacpan.org/release/HTTP-Headers-Fast/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	7464
+installed-size	17880
+depends	perl-http-date
+origin	perl-http-headers-fast
+repo	community
+file	perl-http-headers-fast-0.22-r2.apk
+checksum	Q1FE9GJ46on8Tl8vEuZ7uQCz7qVv0=
+dep	perl-http-date	perl-http-date

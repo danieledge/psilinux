@@ -1,0 +1,14 @@
+name	perl-test-harness-utils
+version	3.52-r0
+description	Perl module for Test-Harness (utilities)
+url	https://metacpan.org/release/Test-Harness/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	6930
+installed-size	13581
+depends	perl-test-harness perl
+origin	perl-test-harness
+repo	main
+file	perl-test-harness-utils-3.52-r0.apk
+checksum	Q17VFo4fxd2NbFO7Nc9ScbtjxvLUM=
+dep	perl-test-harness	perl-test-harness
+dep	perl	perl

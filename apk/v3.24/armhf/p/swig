@@ -1,0 +1,17 @@
+name	swig
+version	4.4.1-r1
+description	A compiler that makes it easy to integrate C and C++ code with scripting languages
+url	https://www.swig.org/
+license	GPL-3.0-only
+size	1365229
+installed-size	4655161
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpcre2-8.so.0 so:libstdc++.so.6 so:libz.so.1
+origin	swig
+repo	main
+file	swig-4.4.1-r1.apk
+checksum	Q1/8TjuMR3U/fncGn1iroaobNglbk=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

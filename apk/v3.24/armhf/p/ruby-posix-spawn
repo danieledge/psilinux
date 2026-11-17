@@ -1,0 +1,14 @@
+name	ruby-posix-spawn
+version	0.3.15-r4
+description	Ruby process spawning library
+url	https://github.com/rtomayko/posix-spawn
+license	MIT
+size	29979
+installed-size	80436
+depends	so:libc.musl-armhf.so.1 so:libruby.so.3.4
+origin	ruby-posix-spawn
+repo	community
+file	ruby-posix-spawn-0.3.15-r4.apk
+checksum	Q1Ei1WhubRfhhsovUrUxinyt6w6Qs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libruby.so.3.4	ruby-libs

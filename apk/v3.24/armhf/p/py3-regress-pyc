@@ -1,0 +1,13 @@
+name	py3-regress-pyc
+version	2025.10.1-r1
+description	Precompiled Python bytecode for py3-regress
+url	https://github.com/crate-py/regress
+license	MIT
+size	1956
+installed-size	331
+depends	python3~3.14
+origin	py3-regress
+repo	community
+file	py3-regress-pyc-2025.10.1-r1.apk
+checksum	Q1rJz97Q1+mijDudG2QO1mjxExirs=
+dep	python3~3.14	python3

@@ -1,0 +1,14 @@
+name	poke-dev
+version	4.3-r1
+description	Extensible editor for binary data (development files)
+url	https://www.jemarch.net/poke.html
+license	GPL-3.0-or-later
+size	426630
+installed-size	1410822
+depends	poke-libs=4.3-r1 pkgconfig
+origin	poke
+repo	community
+file	poke-dev-4.3-r1.apk
+checksum	Q1Lu5zozuq626N8pcLStmgS8DyL0I=
+dep	poke-libs=4.3-r1	poke-libs
+dep	pkgconfig	pkgconf

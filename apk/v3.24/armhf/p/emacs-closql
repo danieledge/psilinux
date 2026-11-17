@@ -1,0 +1,15 @@
+name	emacs-closql
+version	1.2.1_git20240712-r1
+description	Store uniform EIEIO objects in an EmacSQL database
+url	https://github.com/magit/closql
+license	GPL-3.0-or-later
+size	14709
+installed-size	50991
+depends	cmd:emacs emacs-compat emacs-emacsql-sqlite
+origin	emacs-closql
+repo	community
+file	emacs-closql-1.2.1_git20240712-r1.apk
+checksum	Q1Oxm3ajGtJTf7gkTDglvTzRJUv1c=
+dep	cmd:emacs	emacs-gtk3
+dep	emacs-compat	emacs-compat
+dep	emacs-emacsql-sqlite	emacs-emacsql-sqlite

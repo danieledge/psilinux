@@ -1,0 +1,12 @@
+name	libcamera-dbg
+version	0.7.1-r1
+description	Linux camera framework (debug symbols)
+url	https://libcamera.org/
+license	LGPL-2.1-or-later AND GPL-2.0-or-later
+size	8541
+installed-size	30188
+depends	!libcamera-gstreamer<0.7.1-r1 !libcamera-gstreamer>0.7.1-r1 !libcamera-ipa<0.7.1-r1 !libcamera-ipa>0.7.1-r1 !libcamera-raspberrypi<0.7.1-r1 !libcamera-raspberrypi>0.7.1-r1 !libcamera-tools<0.7.1-r1 !libcamera-tools>0.7.1-r1 !libcamera-v4l2<0.7.1-r1 !libcamera-v4l2>0.7.1-r1 !libcamera<0.7.1-r1 !libcamera>0.7.1-r1 !py3-libcamera<0.7.1-r1 !py3-libcamera>0.7.1-r1 !qcam<0.7.1-r1 !qcam>0.7.1-r1
+origin	libcamera
+repo	community
+file	libcamera-dbg-0.7.1-r1.apk
+checksum	Q1EYH/OIJECeeGdBxg4molimD7wLM=

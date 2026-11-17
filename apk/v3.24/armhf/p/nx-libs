@@ -1,0 +1,34 @@
+name	nx-libs
+version	3.5.99.27-r2
+description	NoMachine libraries (redistributed by x2go)
+url	http://x2go.org
+license	GPL-2.0-or-later
+size	3007063
+installed-size	6569398
+depends	font-cursor-misc font-misc-misc so:libX11.so.6 so:libXcomposite.so.1 so:libXdamage.so.1 so:libXdmcp.so.6 so:libXext.so.6 so:libXfixes.so.3 so:libXfont2.so.2 so:libXinerama.so.1 so:libXpm.so.4 so:libXrandr.so.2 so:libXrender.so.1 so:libXtst.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libjpeg.so.8 so:libpixman-1.so.0 so:libpng16.so.16 so:libstdc++.so.6 so:libxml2.so.2 so:libz.so.1
+origin	nx-libs
+repo	community
+file	nx-libs-3.5.99.27-r2.apk
+checksum	Q1AJCpkCJUeYESEd2X3O54IXX6C+k=
+dep	font-cursor-misc	font-cursor-misc
+dep	font-misc-misc	font-misc-misc
+dep	so:libX11.so.6	libx11
+dep	so:libXcomposite.so.1	libxcomposite
+dep	so:libXdamage.so.1	libxdamage
+dep	so:libXdmcp.so.6	libxdmcp
+dep	so:libXext.so.6	libxext
+dep	so:libXfixes.so.3	libxfixes
+dep	so:libXfont2.so.2	libxfont2
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libXpm.so.4	libxpm
+dep	so:libXrandr.so.2	libxrandr
+dep	so:libXrender.so.1	libxrender
+dep	so:libXtst.so.6	libxtst
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpixman-1.so.0	pixman
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

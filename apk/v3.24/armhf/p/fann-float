@@ -1,0 +1,13 @@
+name	fann-float
+version	2.2.0-r4
+description	Fast Artificial Neural Network Library (float)
+url	https://github.com/libfann/fann/
+license	LGPL-2.0-or-later
+size	33079
+installed-size	70832
+depends	so:libc.musl-armhf.so.1
+origin	fann
+repo	community
+file	fann-float-2.2.0-r4.apk
+checksum	Q18nMHoGRYSarn+I0OTnFvJtg5ERI=
+dep	so:libc.musl-armhf.so.1	musl

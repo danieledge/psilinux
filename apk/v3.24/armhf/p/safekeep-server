@@ -1,0 +1,14 @@
+name	safekeep-server
+version	1.5.1-r2
+description	SafeKeep backup system - server
+url	https://github.com/dimipaun/safekeep
+license	GPL-2.0-or-later
+size	2763
+installed-size	1880
+depends	safekeep=1.5.1-r2 /bin/sh
+origin	safekeep
+repo	community
+file	safekeep-server-1.5.1-r2.apk
+checksum	Q1BJllGs4kT4aK5nMkME40R5uEYkI=
+dep	safekeep=1.5.1-r2	safekeep
+dep	/bin/sh	busybox-binsh

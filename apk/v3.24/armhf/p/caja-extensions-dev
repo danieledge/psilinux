@@ -1,0 +1,16 @@
+name	caja-extensions-dev
+version	1.28.0-r0
+description	Set of extensions for Caja file manager (development files)
+url	https://github.com/mate-desktop/caja-extensions
+license	GPL-2.0-or-later
+size	3614
+installed-size	4364
+depends	pc:glib-2.0 pc:gmodule-2.0 pc:gtk+-3.0 pkgconfig
+origin	caja-extensions
+repo	community
+file	caja-extensions-dev-1.28.0-r0.apk
+checksum	Q1s9mY+Ts5ocFvdISqCMZnNN5NN7M=
+dep	pc:glib-2.0	glib-dev
+dep	pc:gmodule-2.0	glib-dev
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pkgconfig	pkgconf

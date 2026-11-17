@@ -1,0 +1,53 @@
+name	vtk-dev
+version	9.5.2-r2
+description	A software system for 3D computer graphics, image processing and visualization (development files)
+url	https://vtk.org/
+license	BSD-3-Clause
+size	4785350
+installed-size	22421661
+depends	blosc-dev boost-dev curl-dev double-conversion-dev doxygen eigen-dev expat-dev exprtk fast_float ffmpeg-dev fmt-dev freetype-dev gdal-dev glew-dev hdf5-dev jpeg-dev jsoncpp-dev libaec-dev libharu-dev libogg-dev libpng-dev libtheora-dev libx11-dev libxcursor-dev libxml2-dev lz4-dev netcdf-dev nlohmann-json onetbb-dev openmpi-dev pdal-dev pegtl proj-dev pugixml-dev sqlite-dev tiff-dev tk-dev unixodbc-dev xz-dev zlib-dev vtk=9.5.2-r2
+origin	vtk
+repo	community
+file	vtk-dev-9.5.2-r2.apk
+checksum	Q1uj2gQKpCW3q/HZbo4/VdmJJasO0=
+dep	blosc-dev	blosc-dev
+dep	boost-dev	boost-dev
+dep	curl-dev	curl-dev
+dep	double-conversion-dev	double-conversion-dev
+dep	doxygen	doxygen
+dep	eigen-dev	eigen-dev
+dep	expat-dev	expat-dev
+dep	exprtk	exprtk
+dep	fast_float	fast_float
+dep	ffmpeg-dev	ffmpeg-dev
+dep	fmt-dev	fmt-dev
+dep	freetype-dev	freetype-dev
+dep	gdal-dev	gdal-dev
+dep	glew-dev	glew-dev
+dep	hdf5-dev	hdf5-dev
+dep	jpeg-dev	jpeg-dev
+dep	jsoncpp-dev	jsoncpp-dev
+dep	libaec-dev	libaec-dev
+dep	libharu-dev	libharu-dev
+dep	libogg-dev	libogg-dev
+dep	libpng-dev	libpng-dev
+dep	libtheora-dev	libtheora-dev
+dep	libx11-dev	libx11-dev
+dep	libxcursor-dev	libxcursor-dev
+dep	libxml2-dev	libxml2-dev
+dep	lz4-dev	lz4-dev
+dep	netcdf-dev	netcdf-dev
+dep	nlohmann-json	nlohmann-json
+dep	onetbb-dev	onetbb-dev
+dep	openmpi-dev	openmpi-dev
+dep	pdal-dev	pdal-dev
+dep	pegtl	pegtl
+dep	proj-dev	proj-dev
+dep	pugixml-dev	pugixml-dev
+dep	sqlite-dev	sqlite-dev
+dep	tiff-dev	tiff-dev
+dep	tk-dev	tk-dev
+dep	unixodbc-dev	unixodbc-dev
+dep	xz-dev	xz-dev
+dep	zlib-dev	zlib-dev
+dep	vtk=9.5.2-r2	vtk

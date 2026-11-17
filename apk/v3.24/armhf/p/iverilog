@@ -1,0 +1,16 @@
+name	iverilog
+version	13.0-r0
+description	Icarus Verilog compiler and simulation tool
+url	https://steveicarus.github.io/iverilog/
+license	GPL-2.0-or-later
+size	2040797
+installed-size	5004594
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1
+origin	iverilog
+repo	community
+file	iverilog-13.0-r0.apk
+checksum	Q12XU3E3X2BGBtG7pc66hmeKlDzfc=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libz.so.1	zlib

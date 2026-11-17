@@ -1,0 +1,14 @@
+name	yoga-dev
+version	3.2.1-r0
+description	Embeddable layout engine targeting web standards (development files)
+url	https://github.com/facebook/yoga
+license	MIT
+size	357847
+installed-size	1515999
+depends	yoga=3.2.1-r0 pkgconfig
+origin	yoga
+repo	community
+file	yoga-dev-3.2.1-r0.apk
+checksum	Q1k0Mh1PtCHQZixHl2NXSVbRkBFV8=
+dep	yoga=3.2.1-r0	yoga
+dep	pkgconfig	pkgconf

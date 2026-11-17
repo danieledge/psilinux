@@ -1,0 +1,18 @@
+name	qt5-qtscript
+version	5.15.18_git20240709-r0
+description	Qt5 - QtScript component
+url	https://www.qt.io/developers/
+license	( LGPL-2.0-or-later OR GPL-3.0-only OR GPL-2.0-or-later ) AND Qt-GPL-exception-1.0
+size	702439
+installed-size	1760152
+depends	so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt5Widgets.so.5 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	qt5-qtscript
+repo	community
+file	qt5-qtscript-5.15.18_git20240709-r0.apk
+checksum	Q1nCM17oHU2+r5lv970tRKQDG/kUw=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5Gui.so.5	qt5-qtbase-x11
+dep	so:libQt5Widgets.so.5	qt5-qtbase-x11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

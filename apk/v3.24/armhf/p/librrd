@@ -1,0 +1,20 @@
+name	librrd
+version	1.10.2-r0
+description	Data logging and graphing application (libraries)
+url	http://www.rrdtool.org
+license	GPL-2.0-or-later
+size	142350
+installed-size	293076
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpng16.so.16 so:libxml2.so.2
+origin	rrdtool
+repo	main
+file	librrd-1.10.2-r0.apk
+checksum	Q1479fIYSIga4Oz4W6kBlWImIT6H8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpng16.so.16	libpng
+dep	so:libxml2.so.2	libxml2

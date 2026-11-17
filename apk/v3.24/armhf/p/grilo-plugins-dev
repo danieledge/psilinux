@@ -1,0 +1,13 @@
+name	grilo-plugins-dev
+version	0.3.16-r5
+description	GNOME media discovery framework plugins (development files)
+url	https://gitlab.gnome.org/GNOME/grilo-plugins
+license	LGPL-2.1-or-later
+size	5195
+installed-size	56581
+depends	pkgconfig
+origin	grilo-plugins
+repo	community
+file	grilo-plugins-dev-0.3.16-r5.apk
+checksum	Q1Yn1EzG2W6L+a3Gs69qJU1BgN/RY=
+dep	pkgconfig	pkgconf

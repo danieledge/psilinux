@@ -1,0 +1,14 @@
+name	rqlite
+version	9.4.1-r5
+description	Lightweight, distributed relational database built on SQLite
+url	https://github.com/rqlite/rqlite
+license	MIT
+size	10437994
+installed-size	32588492
+depends	so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+origin	rqlite
+repo	community
+file	rqlite-9.4.1-r5.apk
+checksum	Q1OP/KJPQoCvJa0ElDSwq6QrDZvY0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs

@@ -1,0 +1,14 @@
+name	libusb-compat
+version	0.1.9-r0
+description	Compatility for older libusb
+url	https://libusb.info/
+license	LGPL-2.1-or-later
+size	8497
+installed-size	17528
+depends	libusb so:libc.musl-armhf.so.1
+origin	libusb-compat
+repo	main
+file	libusb-compat-0.1.9-r0.apk
+checksum	Q14Iz9ElC5okmh5Xjb/HEsmTvcb/Y=
+dep	libusb	libusb
+dep	so:libc.musl-armhf.so.1	musl

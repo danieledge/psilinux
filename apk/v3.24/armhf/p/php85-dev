@@ -1,0 +1,16 @@
+name	php85-dev
+version	8.5.12-r0
+description	The PHP85 language runtime engine (development files)
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0 Apache-2.0
+size	1329981
+installed-size	8604969
+depends	php85=8.5.12-r0 autoconf pcre2-dev re2c
+origin	php85
+repo	community
+file	php85-dev-8.5.12-r0.apk
+checksum	Q1FYM5HYNxSbD2L77wMslFXqWp9Fs=
+dep	php85=8.5.12-r0	php85
+dep	autoconf	autoconf
+dep	pcre2-dev	pcre2-dev
+dep	re2c	re2c

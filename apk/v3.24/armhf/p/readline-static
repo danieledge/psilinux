@@ -1,0 +1,13 @@
+name	readline-static
+version	8.3.3-r1
+description	GNU readline library (static library)
+url	https://tiswww.cwru.edu/php/chet/readline/rltop.html
+license	GPL-3.0-or-later
+size	586576
+installed-size	1381818
+depends	readline-dev
+origin	readline
+repo	main
+file	readline-static-8.3.3-r1.apk
+checksum	Q1KZ+xdiL5sxJG/QGkS7OiOYvezFc=
+dep	readline-dev	readline-dev

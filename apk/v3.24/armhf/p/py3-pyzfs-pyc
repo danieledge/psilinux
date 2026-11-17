@@ -1,0 +1,13 @@
+name	py3-pyzfs-pyc
+version	2.4.4-r0
+description	Precompiled Python bytecode for py3-pyzfs
+url	https://openzfs.org
+license	CDDL-1.0
+size	132416
+installed-size	571832
+depends	python3~3.14
+origin	zfs
+repo	main
+file	py3-pyzfs-pyc-2.4.4-r0.apk
+checksum	Q12DK7/H/zlOLsTRcrbNA/7hkPtnI=
+dep	python3~3.14	python3

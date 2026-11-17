@@ -1,0 +1,14 @@
+name	codeblocks-dev
+version	25.03-r0
+description	Cross-platform C/C++ and Fortran IDE (development files) (SDK)
+url	https://codeblocks.org
+license	GPL-3.0-or-later
+size	476807
+installed-size	2160084
+depends	codeblocks=25.03-r0 pkgconfig
+origin	codeblocks
+repo	community
+file	codeblocks-dev-25.03-r0.apk
+checksum	Q12qvGgGuXJBjIUpAR7XEgtO5aqgQ=
+dep	codeblocks=25.03-r0	codeblocks
+dep	pkgconfig	pkgconf

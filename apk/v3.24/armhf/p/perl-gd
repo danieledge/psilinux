@@ -1,0 +1,15 @@
+name	perl-gd
+version	2.86-r0
+description	Perl interface to the libgd graphics library
+url	https://metacpan.org/release/GD/
+license	GPL-1.0-or-later OR Artistic-2.0
+size	91909
+installed-size	283903
+depends	perl so:libc.musl-armhf.so.1 so:libgd.so.3
+origin	perl-gd
+repo	main
+file	perl-gd-2.86-r0.apk
+checksum	Q11G2qS/hbWlGRAA2V0zBDwk1ef1I=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgd.so.3	libgd

@@ -1,0 +1,15 @@
+name	c-utf8-dev
+version	1.1.0-r0
+description	UTF-8 Handling in Standard ISO-C11 (development files)
+url	https://github.com/c-util/c-utf8
+license	Apache-2.0 OR LGPL-2.1-or-later
+size	3531
+installed-size	2969
+depends	c-utf8=1.1.0-r0 pc:libcstdaux-1>=1.5.0 pkgconfig
+origin	c-utf8
+repo	community
+file	c-utf8-dev-1.1.0-r0.apk
+checksum	Q1Mw8xzzPiCnVea6epu9HnmZwtRnA=
+dep	c-utf8=1.1.0-r0	c-utf8
+dep	pc:libcstdaux-1>=1.5.0	c-stdaux-dev
+dep	pkgconfig	pkgconf

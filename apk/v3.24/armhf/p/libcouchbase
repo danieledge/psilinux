@@ -1,0 +1,17 @@
+name	libcouchbase
+version	3.3.18-r0
+description	C client library for Couchbase
+url	https://developer.couchbase.com/community
+license	Apache-2.0
+size	443758
+installed-size	1049140
+depends	so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3 so:libstdc++.so.6
+origin	libcouchbase
+repo	community
+file	libcouchbase-3.3.18-r0.apk
+checksum	Q1zi0UdMO15O2lkyZXsrGzvUpsIGo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++

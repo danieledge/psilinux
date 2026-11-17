@@ -1,0 +1,16 @@
+name	qt6-qtwebchannel-dev
+version	6.11.1-r0
+description	Provides access to QObject or QML objects from HTML clients (development files)
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	26661
+installed-size	92502
+depends	qt6-qtbase-dev qt6-qtwebsockets-dev qt6-qtwebchannel=6.11.1-r0 pkgconfig
+origin	qt6-qtwebchannel
+repo	community
+file	qt6-qtwebchannel-dev-6.11.1-r0.apk
+checksum	Q160QIKmRlkHmZUeArNXh5VunoMjk=
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	qt6-qtwebsockets-dev	qt6-qtwebsockets-dev
+dep	qt6-qtwebchannel=6.11.1-r0	qt6-qtwebchannel
+dep	pkgconfig	pkgconf

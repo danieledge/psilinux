@@ -1,0 +1,15 @@
+name	retro-gtk-dev
+version	1.0.2-r4
+description	The GTK+ Libretro frontend framework (development files)
+url	https://gitlab.gnome.org/GNOME/retro-gtk
+license	GPL-3.0-or-later
+size	28954
+installed-size	243814
+depends	retro-gtk=1.0.2-r4 pc:glib-2.0 pkgconfig
+origin	retro-gtk
+repo	community
+file	retro-gtk-dev-1.0.2-r4.apk
+checksum	Q1Sf+PF9u4wv86f7Apz29MSRlydv4=
+dep	retro-gtk=1.0.2-r4	retro-gtk
+dep	pc:glib-2.0	glib-dev
+dep	pkgconfig	pkgconf

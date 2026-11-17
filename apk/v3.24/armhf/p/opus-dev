@@ -1,0 +1,14 @@
+name	opus-dev
+version	1.6.1-r0
+description	Codec designed for interactive speech and audio transmission over the Internet (development files)
+url	https://www.opus-codec.org/
+license	BSD-3-Clause
+size	35907
+installed-size	191669
+depends	opus=1.6.1-r0 pkgconfig
+origin	opus
+repo	main
+file	opus-dev-1.6.1-r0.apk
+checksum	Q1FsHsaoSLOE6sHqOCl8lspURo/oU=
+dep	opus=1.6.1-r0	opus
+dep	pkgconfig	pkgconf

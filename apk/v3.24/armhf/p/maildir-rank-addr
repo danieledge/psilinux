@@ -1,0 +1,13 @@
+name	maildir-rank-addr
+version	1.4.1-r8
+description	Creates a ranked list of email addresses from maildir folders
+url	https://github.com/ferdinandyb/maildir-rank-addr
+license	MIT
+size	3530579
+installed-size	8672708
+depends	so:libc.musl-armhf.so.1
+origin	maildir-rank-addr
+repo	community
+file	maildir-rank-addr-1.4.1-r8.apk
+checksum	Q1OIibS2wiKtrA9d43goNOaLQT+zc=
+dep	so:libc.musl-armhf.so.1	musl

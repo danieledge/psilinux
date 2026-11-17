@@ -1,0 +1,17 @@
+name	pangomm-dev
+version	2.56.1-r0
+description	C++ bindings for pango (development files)
+url	https://www.gtkmm.org/
+license	LGPL-2.1-or-later AND GPL-2.0-or-later
+size	76158
+installed-size	338893
+depends	pangomm=2.56.1-r0 pc:cairomm-1.16>=1.15.1 pc:giomm-2.68>=2.68.0 pc:pangocairo>=1.56.0 pkgconfig
+origin	pangomm
+repo	community
+file	pangomm-dev-2.56.1-r0.apk
+checksum	Q19IrG4HzvTrs2MiFD0MG5J/lDUec=
+dep	pangomm=2.56.1-r0	pangomm
+dep	pc:cairomm-1.16>=1.15.1	cairomm-dev
+dep	pc:giomm-2.68>=2.68.0	glibmm-dev
+dep	pc:pangocairo>=1.56.0	pango-dev
+dep	pkgconfig	pkgconf

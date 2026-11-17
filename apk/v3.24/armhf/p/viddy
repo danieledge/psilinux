@@ -1,0 +1,13 @@
+name	viddy
+version	0.4.0-r23
+description	Modern watch command, time machine and pager
+url	https://github.com/sachaos/viddy
+license	MIT
+size	4132922
+installed-size	10411268
+depends	so:libc.musl-armhf.so.1
+origin	viddy
+repo	community
+file	viddy-0.4.0-r23.apk
+checksum	Q1orRrpt59w12sr3m6WJnsUYJaVHE=
+dep	so:libc.musl-armhf.so.1	musl

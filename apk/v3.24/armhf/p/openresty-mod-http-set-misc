@@ -1,0 +1,16 @@
+name	openresty-mod-http-set-misc
+version	1.31.1.1-r0
+description	Scalable Web Platform by Extending NGINX with Lua (module ngx_http_set_misc_module.so)
+url	https://openresty.org/
+license	BSD-2-Clause
+size	11963
+installed-size	23075
+depends	cmd:nginx openresty openresty-mod-devel-kit so:libc.musl-armhf.so.1
+origin	openresty
+repo	community
+file	openresty-mod-http-set-misc-1.31.1.1-r0.apk
+checksum	Q1xQf3UpsLbkeSuxOm53J82eXfEB8=
+dep	cmd:nginx	nginx
+dep	openresty	openresty
+dep	openresty-mod-devel-kit	openresty-mod-devel-kit
+dep	so:libc.musl-armhf.so.1	musl

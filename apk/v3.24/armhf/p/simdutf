@@ -1,0 +1,15 @@
+name	simdutf
+version	9.0.0-r0
+description	Unicode validation and transcoding at billions of characters per second
+url	https://simdutf.github.io/simdutf/
+license	Apache-2.0 OR MIT
+size	50804
+installed-size	157120
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	simdutf
+repo	main
+file	simdutf-9.0.0-r0.apk
+checksum	Q1VH6syO4e2qWBNODeqVgrmCPg1EM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

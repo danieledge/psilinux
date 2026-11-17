@@ -1,0 +1,13 @@
+name	tuned-pyc
+version	2.27.0-r1
+description	Precompiled Python bytecode for tuned
+url	https://github.com/redhat-performance/tuned
+license	GPL-2.0-only
+size	353247
+installed-size	914035
+depends	python3~3.14
+origin	tuned
+repo	community
+file	tuned-pyc-2.27.0-r1.apk
+checksum	Q1I5WZ7zswhfV1YcKgPGNltHGg6VE=
+dep	python3~3.14	python3

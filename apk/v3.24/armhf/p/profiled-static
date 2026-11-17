@@ -1,0 +1,13 @@
+name	profiled-static
+version	1.0.13-r2
+description	Gets default set of settings from profile data packages that are installed on the device (static library)
+url	https://github.com/sailfishos/profiled
+license	BSD-2-Clause
+size	50747
+installed-size	129746
+depends	profiled-dev
+origin	profiled
+repo	community
+file	profiled-static-1.0.13-r2.apk
+checksum	Q1hgtvPryYoPu8a2VOl9XjT7L3RrQ=
+dep	profiled-dev	profiled-dev

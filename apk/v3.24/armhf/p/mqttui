@@ -1,0 +1,14 @@
+name	mqttui
+version	0.22.1-r0
+description	Subscribe to a MQTT Topic or publish something quickly from the terminal
+url	https://github.com/EdJoPaTo/mqttui
+license	GPL-3.0-or-later
+size	1092064
+installed-size	2123520
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	mqttui
+repo	community
+file	mqttui-0.22.1-r0.apk
+checksum	Q1nUYFGB2LC6zS2WOVfhBbD3RMvQA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

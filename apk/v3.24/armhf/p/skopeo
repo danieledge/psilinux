@@ -1,0 +1,16 @@
+name	skopeo
+version	1.20.1-r2
+description	Work with remote images registries - retrieving information, images, signing content
+url	https://github.com/containers/skopeo
+license	Apache-2.0
+size	9689544
+installed-size	26091912
+depends	containers-common so:libc.musl-armhf.so.1 so:libgpgme.so.45 so:libsqlite3.so.0
+origin	skopeo
+repo	community
+file	skopeo-1.20.1-r2.apk
+checksum	Q1KC+FqS7d/+XLpOJzLqPIauSDxc4=
+dep	containers-common	containers-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgpgme.so.45	gpgme
+dep	so:libsqlite3.so.0	sqlite-libs

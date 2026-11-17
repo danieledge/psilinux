@@ -1,0 +1,22 @@
+name	abseil-cpp-flags-reflection
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-flags-reflection
+url	https://abseil.io/
+license	Apache-2.0
+size	14358
+installed-size	30080
+depends	so:libabsl_flags_commandlineflag.so.2508.0.0 so:libabsl_flags_config.so.2508.0.0 so:libabsl_flags_private_handle_accessor.so.2508.0.0 so:libabsl_hash.so.2508.0.0 so:libabsl_raw_hash_set.so.2508.0.0 so:libabsl_strings.so.2508.0.0 so:libabsl_synchronization.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-flags-reflection-20250814.1-r0.apk
+checksum	Q1jPH4daBW5iePm2vnEUrTi3fq46w=
+dep	so:libabsl_flags_commandlineflag.so.2508.0.0	abseil-cpp-flags-commandlineflag
+dep	so:libabsl_flags_config.so.2508.0.0	abseil-cpp-flags-config
+dep	so:libabsl_flags_private_handle_accessor.so.2508.0.0	abseil-cpp-flags-private-handle-accessor
+dep	so:libabsl_hash.so.2508.0.0	abseil-cpp-hash
+dep	so:libabsl_raw_hash_set.so.2508.0.0	abseil-cpp-raw-hash-set
+dep	so:libabsl_strings.so.2508.0.0	abseil-cpp-strings
+dep	so:libabsl_synchronization.so.2508.0.0	abseil-cpp-synchronization
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

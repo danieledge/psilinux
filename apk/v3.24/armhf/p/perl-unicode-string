@@ -1,0 +1,14 @@
+name	perl-unicode-string
+version	2.10-r7
+description	String of Unicode characters for perl (UCS2/UTF16)
+url	https://metacpan.org/release/Unicode-String
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	120993
+installed-size	582833
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-unicode-string
+repo	community
+file	perl-unicode-string-2.10-r7.apk
+checksum	Q1Af12hHAglXlT5zoQKFOxzOx92W8=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

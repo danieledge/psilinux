@@ -1,0 +1,14 @@
+name	libatomic_ops-dev
+version	7.10.0-r1
+description	Semi-portable access to hardware provided atomic memory operations (development files)
+url	https://github.com/bdwgc/libatomic_ops
+license	GPL-2.0-or-later AND MIT AND Boehm-GC
+size	90251
+installed-size	697249
+depends	libatomic_ops=7.10.0-r1 pkgconfig
+origin	libatomic_ops
+repo	main
+file	libatomic_ops-dev-7.10.0-r1.apk
+checksum	Q1smDPGvRIhQv1HQ184n/SrRRdEa0=
+dep	libatomic_ops=7.10.0-r1	libatomic_ops
+dep	pkgconfig	pkgconf

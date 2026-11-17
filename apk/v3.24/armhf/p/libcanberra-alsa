@@ -1,0 +1,16 @@
+name	libcanberra-alsa
+version	0.30-r12
+description	ALSA backend for libcanberra
+url	https://0pointer.de/lennart/projects/libcanberra/
+license	LGPL-2.1-or-later
+size	7709
+installed-size	13432
+depends	libcanberra=0.30-r12 so:libasound.so.2 so:libc.musl-armhf.so.1 so:libcanberra.so.0
+origin	libcanberra
+repo	community
+file	libcanberra-alsa-0.30-r12.apk
+checksum	Q1mgTKxR0B75KLHk2cBk+4h+KPlew=
+dep	libcanberra=0.30-r12	libcanberra
+dep	so:libasound.so.2	alsa-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcanberra.so.0	libcanberra

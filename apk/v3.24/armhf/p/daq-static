@@ -1,0 +1,13 @@
+name	daq-static
+version	3.0.19-r0
+description	Data Acquisition library - packet I/O library (static library)
+url	https://www.snort.org/
+license	GPL-2.0-only
+size	63470
+installed-size	176520
+depends	daq-dev
+origin	daq
+repo	main
+file	daq-static-3.0.19-r0.apk
+checksum	Q11iIWMFgND6vRGSH3koirjMw0UIs=
+dep	daq-dev	daq-dev

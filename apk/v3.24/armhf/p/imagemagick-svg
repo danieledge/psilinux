@@ -1,0 +1,20 @@
+name	imagemagick-svg
+version	7.1.2.35-r0
+description	Collection of tools and libraries for many image formats (SVG support modules)
+url	https://imagemagick.org/
+license	ImageMagick
+size	34027
+installed-size	72189
+depends	so:libMagickCore-7.Q16HDRI.so.10 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:librsvg-2.so.2 so:libxml2.so.2
+origin	imagemagick
+repo	community
+file	imagemagick-svg-7.1.2.35-r0.apk
+checksum	Q1EktzWYsmhEVWaWgPqM18kmIA8v8=
+dep	so:libMagickCore-7.Q16HDRI.so.10	imagemagick-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:librsvg-2.so.2	librsvg
+dep	so:libxml2.so.2	libxml2

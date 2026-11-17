@@ -1,0 +1,19 @@
+name	wlogout
+version	1.2.2-r0
+description	A wayland based logout menu
+url	https://github.com/ArtsyMacaw/wlogout
+license	MIT
+size	90173
+installed-size	113911
+depends	/bin/sh so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgtk-layer-shell.so.0
+origin	wlogout
+repo	community
+file	wlogout-1.2.2-r0.apk
+checksum	Q1xYRsc7tghNjE3ljCoNjbCcMjsFg=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libgtk-layer-shell.so.0	gtk-layer-shell

@@ -1,0 +1,18 @@
+name	qalc
+version	5.11.0-r0
+description	Powerful and easy to use command line calculator
+url	https://qalculate.github.io/
+license	GPL-2.0-or-later
+size	318635
+installed-size	779780
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libintl.so.8 so:libqalculate.so.23 so:libreadline.so.8 so:libstdc++.so.6
+origin	libqalculate
+repo	community
+file	qalc-5.11.0-r0.apk
+checksum	Q1xHqqUriIvTmgrvneP3qwueHpqJU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libintl.so.8	libintl
+dep	so:libqalculate.so.23	libqalculate
+dep	so:libreadline.so.8	readline
+dep	so:libstdc++.so.6	libstdc++

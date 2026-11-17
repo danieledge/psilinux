@@ -1,0 +1,16 @@
+name	sane-backend-mustek_usb
+version	1.4.0-r4
+description	SANE backend for Mustek USB flatbed scanners
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	67007
+installed-size	171225
+depends	sane so:libc.musl-armhf.so.1 so:libusb-1.0.so.0 so:libxml2.so.2
+origin	sane
+repo	community
+file	sane-backend-mustek_usb-1.4.0-r4.apk
+checksum	Q19pDatrPjs4T/JjUnkCCe7i60bT8=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb
+dep	so:libxml2.so.2	libxml2

@@ -1,0 +1,14 @@
+name	sdl2_gfx
+version	1.0.4-r1
+description	SDL2 graphics drawing primitives and other support functions
+url	https://www.ferzkopp.net/wordpress/2016/01/02/sdl_gfx-sdl2_gfx/
+license	Zlib
+size	25051
+installed-size	52372
+depends	so:libSDL2-2.0.so.0 so:libc.musl-armhf.so.1
+origin	sdl2_gfx
+repo	community
+file	sdl2_gfx-1.0.4-r1.apk
+checksum	Q1a+GYLzgp67JKntU/iUnJhkUANkU=
+dep	so:libSDL2-2.0.so.0	sdl2
+dep	so:libc.musl-armhf.so.1	musl

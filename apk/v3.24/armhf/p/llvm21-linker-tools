@@ -1,0 +1,16 @@
+name	llvm21-linker-tools
+version	21.1.8-r1
+description	Low Level Virtual Machine compiler system, version 21 (linker plugins)
+url	https://llvm.org/
+license	Apache-2.0
+size	70792
+installed-size	158616
+depends	so:libLLVM.so.21.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	llvm21
+repo	main
+file	llvm21-linker-tools-21.1.8-r1.apk
+checksum	Q1E44FFMlMbbSLnQuwSvQOnBNdSHM=
+dep	so:libLLVM.so.21.1	llvm21-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

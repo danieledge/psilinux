@@ -1,0 +1,28 @@
+name	ocaml-tls-dev
+version	0.15.3-r6
+description	Transport Layer Security purely in OCaml (development files)
+url	https://github.com/mirleft/ocaml-tls
+license	BSD-2-Clause
+size	2473794
+installed-size	6347561
+depends	ocaml-tls=0.15.3-r6 ocaml-cstruct-dev ocaml-domain-name-dev ocaml-fmt-dev ocaml-hkdf-dev ocaml-ipaddr-dev ocaml-logs-dev ocaml-lwt-dev ocaml-mirage-crypto-dev ocaml-mirage-clock-dev ocaml-mirage-flow-dev ocaml-mirage-kv-dev ocaml-ppx_sexp_conv-dev ocaml-ptime-dev ocaml-sexplib-dev ocaml-x509-dev
+origin	ocaml-tls
+repo	community
+file	ocaml-tls-dev-0.15.3-r6.apk
+checksum	Q1iBaDQTaQBlHZ/6HzYKpcD1bBZMU=
+dep	ocaml-tls=0.15.3-r6	ocaml-tls
+dep	ocaml-cstruct-dev	ocaml-cstruct-dev
+dep	ocaml-domain-name-dev	ocaml-domain-name-dev
+dep	ocaml-fmt-dev	ocaml-fmt-dev
+dep	ocaml-hkdf-dev	ocaml-hkdf-dev
+dep	ocaml-ipaddr-dev	ocaml-ipaddr-dev
+dep	ocaml-logs-dev	ocaml-logs-dev
+dep	ocaml-lwt-dev	ocaml-lwt-dev
+dep	ocaml-mirage-crypto-dev	ocaml-mirage-crypto-dev
+dep	ocaml-mirage-clock-dev	ocaml-mirage-clock-dev
+dep	ocaml-mirage-flow-dev	ocaml-mirage-flow-dev
+dep	ocaml-mirage-kv-dev	ocaml-mirage-kv-dev
+dep	ocaml-ppx_sexp_conv-dev	ocaml-ppx_sexp_conv-dev
+dep	ocaml-ptime-dev	ocaml-ptime-dev
+dep	ocaml-sexplib-dev	ocaml-sexplib-dev
+dep	ocaml-x509-dev	ocaml-x509-dev

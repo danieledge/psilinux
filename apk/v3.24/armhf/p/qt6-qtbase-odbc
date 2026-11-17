@@ -1,0 +1,19 @@
+name	qt6-qtbase-odbc
+version	6.11.1-r0
+description	ODBC driver for Qt6's SQL classes
+url	https://qt.io/
+license	LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
+size	46719
+installed-size	104012
+depends	tzdata so:libQt6Core.so.6 so:libQt6Sql.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libodbc.so.2 so:libstdc++.so.6
+origin	qt6-qtbase
+repo	community
+file	qt6-qtbase-odbc-6.11.1-r0.apk
+checksum	Q1cISKt7Bw8t3uNix2RTMcWRiRCKs=
+dep	tzdata	tzdata
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Sql.so.6	qt6-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libodbc.so.2	unixodbc
+dep	so:libstdc++.so.6	libstdc++

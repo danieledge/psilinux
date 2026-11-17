@@ -1,0 +1,13 @@
+name	syslog-ng-scl
+version	4.11.0-r0
+description	Next generation logging daemon (configuration library)
+url	https://www.syslog-ng.com/products/open-source-log-management/
+license	GPL-2.0-or-later
+size	41033
+installed-size	164455
+depends	syslog-ng=4.11.0-r0
+origin	syslog-ng
+repo	main
+file	syslog-ng-scl-4.11.0-r0.apk
+checksum	Q1lHEpUnJdeajGcEIRaqBJ5WDNcEE=
+dep	syslog-ng=4.11.0-r0	syslog-ng

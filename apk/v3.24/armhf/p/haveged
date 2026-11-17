@@ -1,0 +1,13 @@
+name	haveged
+version	1.9.21-r0
+description	Entropy harvesting daemon using CPU timings
+url	https://www.issihosts.com/haveged/
+license	GPL-3.0-or-later
+size	30662
+installed-size	121676
+depends	so:libc.musl-armhf.so.1
+origin	haveged
+repo	main
+file	haveged-1.9.21-r0.apk
+checksum	Q1UOerTZK4vQj2/b0xNJXHcmGWut4=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,12 @@
+name	tpm2-abrmd-openrc
+version	3.0.0-r1
+description	TPM2 Access Broker & Resource Management Daemon implementing the TCG spec. (OpenRC init scripts)
+url	https://github.com/tpm2-software/tpm2-abrmd
+license	BSD-2-Clause
+size	1905
+installed-size	306
+depends	
+origin	tpm2-abrmd
+repo	community
+file	tpm2-abrmd-openrc-3.0.0-r1.apk
+checksum	Q1azHn0QeupsGS5NYB1DXRF5cjbL4=

@@ -1,0 +1,17 @@
+name	libnpupnp
+version	6.3.0-r0
+description	UPnP library based on libupnp, but extensively rewritten
+url	https://www.lesbonscomptes.com/upmpdcli/npupnp-doc/libnpupnp.html
+license	BSD-3-Clause
+size	161519
+installed-size	349600
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libgcc_s.so.1 so:libmicrohttpd.so.12 so:libstdc++.so.6
+origin	libnpupnp
+repo	community
+file	libnpupnp-6.3.0-r0.apk
+checksum	Q1OOMQEvURR+bSzlg9n+Pvu2JQmA8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libmicrohttpd.so.12	libmicrohttpd
+dep	so:libstdc++.so.6	libstdc++

@@ -1,0 +1,22 @@
+name	libfm-qt-dev
+version	2.4.0-r1
+description	Qt port of libfm (development files)
+url	https://github.com/lxqt/libfm-qt
+license	LGPL-2.0-or-later
+size	63123
+installed-size	268628
+depends	perl libfm-dev libexif-dev lxqt-build-tools menu-cache-dev qt6-qtbase-dev qt6-qttools-dev libfm-qt=2.4.0-r1 pc:Qt6Widgets>=6.6.0 pkgconfig
+origin	libfm-qt
+repo	community
+file	libfm-qt-dev-2.4.0-r1.apk
+checksum	Q1tZ9mBQE1i7PydAfKp7DE0OYaIrk=
+dep	perl	perl
+dep	libfm-dev	libfm-dev
+dep	libexif-dev	libexif-dev
+dep	lxqt-build-tools	lxqt-build-tools
+dep	menu-cache-dev	menu-cache-dev
+dep	qt6-qtbase-dev	qt6-qtbase-dev
+dep	qt6-qttools-dev	qt6-qttools-dev
+dep	libfm-qt=2.4.0-r1	libfm-qt
+dep	pc:Qt6Widgets>=6.6.0	qt6-qtbase-dev
+dep	pkgconfig	pkgconf

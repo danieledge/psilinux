@@ -1,0 +1,16 @@
+name	rgbds
+version	1.0.1-r0
+description	An assembly toolchain for the Nintendo Game Boy and Game Boy Color
+url	https://rgbds.gbdev.io/
+license	MIT
+size	287085
+installed-size	632776
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpng16.so.16 so:libstdc++.so.6
+origin	rgbds
+repo	community
+file	rgbds-1.0.1-r0.apk
+checksum	Q10B81P1+VNKWpBHeOXLghw2a+IUs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++

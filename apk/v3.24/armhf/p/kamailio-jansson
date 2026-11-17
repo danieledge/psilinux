@@ -1,0 +1,16 @@
+name	kamailio-jansson
+version	6.0.6-r0
+description	Kamailio Operations on json strings using jansson library
+url	https://www.kamailio.org/
+license	GPL-2.0-or-later
+size	157085
+installed-size	348488
+depends	kamailio so:libc.musl-armhf.so.1 so:libevent-2.1.so.7 so:libjansson.so.4
+origin	kamailio
+repo	main
+file	kamailio-jansson-6.0.6-r0.apk
+checksum	Q1TRE7IvxreySYkdGcMW860+HGC6c=
+dep	kamailio	kamailio
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libevent-2.1.so.7	libevent
+dep	so:libjansson.so.4	jansson

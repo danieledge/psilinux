@@ -1,0 +1,22 @@
+name	satty
+version	0.20.1-r0
+description	Screenshot annotation tool
+url	https://github.com/gabm/Satty
+license	MPL-2.0
+size	1280717
+installed-size	2715875
+depends	so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libfontconfig.so.1 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libpango-1.0.so.0
+origin	satty
+repo	community
+file	satty-0.20.1-r0.apk
+checksum	Q1geysX1zwgVFWzT/rR6OUsD3BjtE=
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libpango-1.0.so.0	pango

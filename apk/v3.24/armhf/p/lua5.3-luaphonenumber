@@ -1,0 +1,18 @@
+name	lua5.3-luaphonenumber
+version	1.0.1-r56
+description	Lua 5.3 bindings for libphonenumber
+url	https://github.com/singlecomm/luaphonenumber
+license	MIT
+size	7257
+installed-size	13696
+depends	lua5.3 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgeocoding.so.9 so:libphonenumber.so.9 so:libstdc++.so.6
+origin	lua-luaphonenumber
+repo	community
+file	lua5.3-luaphonenumber-1.0.1-r56.apk
+checksum	Q1x3eNwiuAiSw6em/MlNoECNjVqk8=
+dep	lua5.3	lua5.3
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgeocoding.so.9	libgeocoding
+dep	so:libphonenumber.so.9	libphonenumber
+dep	so:libstdc++.so.6	libstdc++

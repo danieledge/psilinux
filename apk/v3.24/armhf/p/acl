@@ -1,0 +1,14 @@
+name	acl
+version	2.3.2-r1
+description	Access control list utilities
+url	https://savannah.nongnu.org/projects/acl
+license	LGPL-2.1-or-later AND GPL-2.0-or-later
+size	22425
+installed-size	53220
+depends	so:libacl.so.1 so:libc.musl-armhf.so.1
+origin	acl
+repo	main
+file	acl-2.3.2-r1.apk
+checksum	Q12cDgP0XA1mNV0p2B5da0v4aGIDU=
+dep	so:libacl.so.1	acl-libs
+dep	so:libc.musl-armhf.so.1	musl

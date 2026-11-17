@@ -1,0 +1,25 @@
+name	peek
+version	1.5.1-r2
+description	Simple animated GIF screen recorder with an easy to use interface
+url	https://github.com/phw/peek
+license	GPL-3.0-or-later
+size	113866
+installed-size	343549
+depends	ffmpeg gst-plugins-bad gst-plugins-good so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libkeybinder-3.0.so.0 so:libpango-1.0.so.0
+origin	peek
+repo	community
+file	peek-1.5.1-r2.apk
+checksum	Q1+R4knCXNFeHb5xmrKuYcD7slSuM=
+dep	ffmpeg	ffmpeg
+dep	gst-plugins-bad	gst-plugins-bad
+dep	gst-plugins-good	gst-plugins-good
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libkeybinder-3.0.so.0	keybinder3
+dep	so:libpango-1.0.so.0	pango

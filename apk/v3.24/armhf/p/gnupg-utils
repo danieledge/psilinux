@@ -1,0 +1,19 @@
+name	gnupg-utils
+version	2.4.9-r1
+description	GNU Privacy Guard 2 - utility programs
+url	https://www.gnupg.org/
+license	GPL-3.0-or-later
+size	370081
+installed-size	773616
+depends	so:libassuan.so.9 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libgcrypt.so.20 so:libgpg-error.so.0 so:libksba.so.8 so:libz.so.1
+origin	gnupg
+repo	main
+file	gnupg-utils-2.4.9-r1.apk
+checksum	Q1qsZrz1FctCGRvJ8A4tUTFZ+hphw=
+dep	so:libassuan.so.9	libassuan
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcrypt.so.20	libgcrypt
+dep	so:libgpg-error.so.0	libgpg-error
+dep	so:libksba.so.8	libksba
+dep	so:libz.so.1	zlib

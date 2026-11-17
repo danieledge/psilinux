@@ -1,0 +1,18 @@
+name	imagemagick-tiff
+version	7.1.2.35-r0
+description	Collection of tools and libraries for many image formats (TIFF support modules)
+url	https://imagemagick.org/
+license	ImageMagick
+size	57632
+installed-size	113166
+depends	so:libMagickCore-7.Q16HDRI.so.10 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgomp.so.1 so:libtiff.so.6 so:libz.so.1
+origin	imagemagick
+repo	community
+file	imagemagick-tiff-7.1.2.35-r0.apk
+checksum	Q1I/JqccUkZQdGWqGuWg2SMd72rg8=
+dep	so:libMagickCore-7.Q16HDRI.so.10	imagemagick-libs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgomp.so.1	libgomp
+dep	so:libtiff.so.6	tiff
+dep	so:libz.so.1	zlib

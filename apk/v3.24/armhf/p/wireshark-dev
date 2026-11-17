@@ -1,0 +1,17 @@
+name	wireshark-dev
+version	4.6.9-r0
+description	Network protocol analyzer (development files)
+url	https://www.wireshark.org/
+license	GPL-2.0-or-later
+size	1187913
+installed-size	5712572
+depends	wireshark-common=4.6.9-r0 pc:glib-2.0 pc:gmodule-2.0 pc:gthread-2.0 pkgconfig
+origin	wireshark
+repo	community
+file	wireshark-dev-4.6.9-r0.apk
+checksum	Q1hpcI/i6WkiZBiGAi39MuR+o1yu8=
+dep	wireshark-common=4.6.9-r0	wireshark-common
+dep	pc:glib-2.0	glib-dev
+dep	pc:gmodule-2.0	glib-dev
+dep	pc:gthread-2.0	glib-dev
+dep	pkgconfig	pkgconf

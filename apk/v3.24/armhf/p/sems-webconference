@@ -1,0 +1,17 @@
+name	sems-webconference
+version	2.1.0-r0
+description	Conference bridge via DI (xmlrpc) for SEMS
+url	https://github.com/sems-server/sems/
+license	GPL-2.0-or-later
+size	396774
+installed-size	580959
+depends	sems sems-xmlrpc2di so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	sems
+repo	community
+file	sems-webconference-2.1.0-r0.apk
+checksum	Q1ilcuNLOJaWA4y1pjMfTYA1C7Af8=
+dep	sems	sems
+dep	sems-xmlrpc2di	sems-xmlrpc2di
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

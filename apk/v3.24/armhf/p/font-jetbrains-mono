@@ -1,0 +1,14 @@
+name	font-jetbrains-mono
+version	2.304-r2
+description	A monospaced typeface made for developers
+url	https://jetbrains.com/mono
+license	OFL-1.1
+size	2116191
+installed-size	4422661
+depends	fontconfig mkfontscale
+origin	font-jetbrains-mono
+repo	community
+file	font-jetbrains-mono-2.304-r2.apk
+checksum	Q1R2WTyNzb34x751i0bq8tq58E5Ik=
+dep	fontconfig	fontconfig
+dep	mkfontscale	mkfontscale

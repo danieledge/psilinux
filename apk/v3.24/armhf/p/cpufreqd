@@ -1,0 +1,15 @@
+name	cpufreqd
+version	2.4.2-r9
+description	A small daemon to adjust cpu speed (and indeed voltage)
+url	https://sourceforge.net/projects/cpufreqd/
+license	GPL-2.0-or-later
+size	54885
+installed-size	170289
+depends	so:libc.musl-armhf.so.1 so:libcpufreq.so.0 so:libsysfs.so.2
+origin	cpufreqd
+repo	community
+file	cpufreqd-2.4.2-r9.apk
+checksum	Q1dHCSjWH/CZXel/Ps/yZJ8zSiOuM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcpufreq.so.0	cpufrequtils
+dep	so:libsysfs.so.2	sysfsutils

@@ -1,0 +1,14 @@
+name	font-noto-todhri
+version	2026.11.01-r0
+description	Noto Serif Todhri font
+url	https://github.com/notofonts/notofonts.github.io
+license	OFL-1.1
+size	9197
+installed-size	11329
+depends	fontconfig font-noto-common=2026.11.01-r0
+origin	font-noto
+repo	community
+file	font-noto-todhri-2026.11.01-r0.apk
+checksum	Q1bkO7jVrrsEsr1Z9sbNzST/8I5yE=
+dep	fontconfig	fontconfig
+dep	font-noto-common=2026.11.01-r0	font-noto-common

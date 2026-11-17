@@ -1,0 +1,19 @@
+name	libparquet
+version	23.0.1-r2
+description	multi-language toolbox for accelerated data interchange and in-memory processing (libparquet library)
+url	https://arrow.apache.org/
+license	Apache-2.0
+size	1039539
+installed-size	3160052
+depends	apache-arrow=23.0.1-r2 so:libarrow.so.2300 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libstdc++.so.6 so:libthrift.so.0.23.0
+origin	apache-arrow
+repo	community
+file	libparquet-23.0.1-r2.apk
+checksum	Q13whXvk4kKGqJkpjZRzKJGtAB6nU=
+dep	apache-arrow=23.0.1-r2	apache-arrow
+dep	so:libarrow.so.2300	libarrow
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libthrift.so.0.23.0	libthrift

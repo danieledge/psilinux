@@ -1,0 +1,19 @@
+name	wmenu
+version	0.2.0-r0
+description	Efficient dynamic menu for Wayland
+url	https://codeberg.org/adnano/wmenu
+license	MIT
+size	20409
+installed-size	64496
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgobject-2.0.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libwayland-client.so.0 so:libxkbcommon.so.0
+origin	wmenu
+repo	community
+file	wmenu-0.2.0-r0.apk
+checksum	Q1eI/cXDZXwTGLBlbYvZJBWLxtlhs=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libxkbcommon.so.0	libxkbcommon

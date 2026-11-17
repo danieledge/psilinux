@@ -1,0 +1,14 @@
+name	etcd
+version	3.6.11-r3
+description	A highly-available key value store for shared configuration and service discovery
+url	https://github.com/etcd-io/etcd
+license	Apache-2.0
+size	9635964
+installed-size	27125963
+depends	/bin/sh so:libc.musl-armhf.so.1
+origin	etcd
+repo	community
+file	etcd-3.6.11-r3.apk
+checksum	Q1gy0BTSPzHksk2YSevxdHXsLLxF0=
+dep	/bin/sh	busybox-binsh
+dep	so:libc.musl-armhf.so.1	musl

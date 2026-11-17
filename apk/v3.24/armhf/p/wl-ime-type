@@ -1,0 +1,14 @@
+name	wl-ime-type
+version	0.1.2-r0
+description	Type text via Wayland's input-method-unstable-v2 protocol
+url	https://gitlab.freedesktop.org/emersion/wl-ime-type
+license	BSD-2-Clause
+size	5296
+installed-size	9480
+depends	so:libc.musl-armhf.so.1 so:libwayland-client.so.0
+origin	wl-ime-type
+repo	community
+file	wl-ime-type-0.1.2-r0.apk
+checksum	Q1ZdCTdeqaH+NIT14uhLX2ojwdH6c=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libwayland-client.so.0	wayland-libs-client

@@ -1,0 +1,12 @@
+name	blackbox-terminal-dbg
+version	0.14.0-r1
+description	A beautiful GTK 4 terminal (debug symbols)
+url	https://gitlab.gnome.org/raggesilver/blackbox
+license	GPL-3.0-or-later
+size	465857
+installed-size	1153840
+depends	!blackbox-terminal<0.14.0-r1 !blackbox-terminal>0.14.0-r1
+origin	blackbox-terminal
+repo	community
+file	blackbox-terminal-dbg-0.14.0-r1.apk
+checksum	Q1I+zkOOgD2cWKTqX0favU3S3Tmr4=

@@ -1,0 +1,13 @@
+name	capstone
+version	5.0.9-r0
+description	The Ultimate Disassembler
+url	https://www.capstone-engine.org
+license	BSD-3-Clause-Clear
+size	1095057
+installed-size	7283904
+depends	so:libc.musl-armhf.so.1
+origin	capstone
+repo	community
+file	capstone-5.0.9-r0.apk
+checksum	Q1vWJdgVJVgYQTBB2bOn626fYGH1I=
+dep	so:libc.musl-armhf.so.1	musl

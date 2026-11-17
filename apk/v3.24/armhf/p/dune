@@ -1,0 +1,13 @@
+name	dune
+version	3.22.2-r1
+description	Composable build system for OCaml (formerly Jbuilder)
+url	https://dune.build/
+license	MIT
+size	5940094
+installed-size	13056524
+depends	so:libc.musl-armhf.so.1
+origin	dune
+repo	community
+file	dune-3.22.2-r1.apk
+checksum	Q1Mbi1uU37quiI3pjAI8fJ6gyexuM=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	lzlib
+version	1.15-r1
+description	Library for the lzip compression file format
+url	https://www.nongnu.org/lzip/lzlib.html
+license	GPL-2.0-or-later
+size	34241
+installed-size	66680
+depends	so:libc.musl-armhf.so.1
+origin	lzlib
+repo	community
+file	lzlib-1.15-r1.apk
+checksum	Q1aFQrDlcIhfJfn/xrkjbZ5r5bczU=
+dep	so:libc.musl-armhf.so.1	musl

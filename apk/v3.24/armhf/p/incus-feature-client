@@ -1,0 +1,29 @@
+name	incus-feature-client
+version	7.0.0-r3
+description	Incus CLI client
+url	https://github.com/lxc/incus
+license	Apache-2.0
+size	9292244
+installed-size	24973044
+depends	acl attr ca-certificates dbus dnsmasq lxc iproute2 iptables netcat-openbsd rsync squashfs-tools shadow-subids tar xz so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libintl.so.8
+origin	incus-feature
+repo	community
+file	incus-feature-client-7.0.0-r3.apk
+checksum	Q1oU723DpPvcaudCNM4qHj2sOypoc=
+dep	acl	acl
+dep	attr	attr
+dep	ca-certificates	ca-certificates
+dep	dbus	dbus
+dep	dnsmasq	dnsmasq
+dep	lxc	lxc
+dep	iproute2	iproute2
+dep	iptables	iptables
+dep	netcat-openbsd	netcat-openbsd
+dep	rsync	rsync
+dep	squashfs-tools	squashfs-tools
+dep	shadow-subids	shadow-subids
+dep	tar	tar
+dep	xz	xz
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libintl.so.8	libintl

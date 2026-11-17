@@ -1,0 +1,23 @@
+name	perl-specio
+version	0.53-r0
+description	Type constraints and coercions for Perl
+url	https://metacpan.org/release/Specio/
+license	Artistic-2.0
+size	53448
+installed-size	256307
+depends	perl perl-sub-quote perl-devel-stacktrace perl-role-tiny perl-mro-compat perl-try-tiny perl-test-fatal perl-eval-closure perl-module-runtime perl-clone perl-module-implementation
+origin	perl-specio
+repo	main
+file	perl-specio-0.53-r0.apk
+checksum	Q1cNuRZ9S3Z03IOimuVvN1mFeZlFE=
+dep	perl	perl
+dep	perl-sub-quote	perl-sub-quote
+dep	perl-devel-stacktrace	perl-devel-stacktrace
+dep	perl-role-tiny	perl-role-tiny
+dep	perl-mro-compat	perl-mro-compat
+dep	perl-try-tiny	perl-try-tiny
+dep	perl-test-fatal	perl-test-fatal
+dep	perl-eval-closure	perl-eval-closure
+dep	perl-module-runtime	perl-module-runtime
+dep	perl-clone	perl-clone
+dep	perl-module-implementation	perl-module-implementation

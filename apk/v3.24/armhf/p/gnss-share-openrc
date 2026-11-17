@@ -1,0 +1,12 @@
+name	gnss-share-openrc
+version	0.8.2-r21
+description	GNSS location provider, supporting multiple concurrent clients (OpenRC init scripts)
+url	https://gitlab.postmarketos.org/postmarketOS/gnss-share
+license	GPL-3.0-or-later
+size	1932
+installed-size	464
+depends	
+origin	gnss-share
+repo	community
+file	gnss-share-openrc-0.8.2-r21.apk
+checksum	Q1m58IMFwkw47OBn6mCLD9QX45mkc=

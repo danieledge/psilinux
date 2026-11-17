@@ -1,0 +1,19 @@
+name	certbot-nginx
+version	5.6.0-r0
+description	Nginx plugin for Certbot client
+url	https://github.com/certbot/certbot
+license	Apache-2.0
+size	7889
+installed-size	14331
+depends	certbot py3-acme py3-openssl py3-parsing py3-setuptools py3-josepy python3~3.14
+origin	certbot-nginx
+repo	community
+file	certbot-nginx-5.6.0-r0.apk
+checksum	Q1hHevelEycK2MjHxjwE4KyRtWSQE=
+dep	certbot	certbot
+dep	py3-acme	py3-acme
+dep	py3-openssl	py3-openssl
+dep	py3-parsing	py3-parsing
+dep	py3-setuptools	py3-setuptools
+dep	py3-josepy	py3-josepy
+dep	python3~3.14	python3

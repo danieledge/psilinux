@@ -1,0 +1,16 @@
+name	abseil-cpp-cordz-handle
+version	20250814.1-r0
+description	Abseil Common C++ library: abseil-cpp-cordz-handle
+url	https://abseil.io/
+license	Apache-2.0
+size	5222
+installed-size	9600
+depends	so:libabsl_synchronization.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	abseil-cpp
+repo	main
+file	abseil-cpp-cordz-handle-20250814.1-r0.apk
+checksum	Q19SEFMCKBDR0+NK8h38J+GzA8szg=
+dep	so:libabsl_synchronization.so.2508.0.0	abseil-cpp-synchronization
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

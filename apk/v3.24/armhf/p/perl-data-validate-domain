@@ -1,0 +1,14 @@
+name	perl-data-validate-domain
+version	0.15-r1
+description	Domain and host name validation
+url	https://metacpan.org/release/Data-Validate-Domain/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	5916
+installed-size	11242
+depends	perl perl-net-domain-tld
+origin	perl-data-validate-domain
+repo	community
+file	perl-data-validate-domain-0.15-r1.apk
+checksum	Q1O0v2qKBFN1OUlDcy7FzNd3F2cG8=
+dep	perl	perl
+dep	perl-net-domain-tld	perl-net-domain-tld

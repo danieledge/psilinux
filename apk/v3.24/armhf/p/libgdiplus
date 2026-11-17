@@ -1,0 +1,26 @@
+name	libgdiplus
+version	6.2-r1
+description	Open Source Implementation of the GDI+ API
+url	https://www.mono-project.com/
+license	MIT
+size	156152
+installed-size	431812
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libexif.so.12 so:libfontconfig.so.1 so:libgif.so.7 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libharfbuzz.so.0 so:libjpeg.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpng16.so.16 so:libtiff.so.6
+origin	libgdiplus
+repo	community
+file	libgdiplus-6.2-r1.apk
+checksum	Q1osDjG70xOvxonauxHXfnZchtViE=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libexif.so.12	libexif
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libgif.so.7	giflib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libharfbuzz.so.0	harfbuzz
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpng16.so.16	libpng
+dep	so:libtiff.so.6	tiff

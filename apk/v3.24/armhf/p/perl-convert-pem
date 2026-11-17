@@ -1,0 +1,17 @@
+name	perl-convert-pem
+version	0.13-r0
+description	Read/write encrypted ASN.1 PEM files
+url	https://metacpan.org/release/Convert-PEM/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	11286
+installed-size	32563
+depends	perl perl-convert-asn1 perl-cryptx perl-crypt-des_ede3 perl-class-errorhandler
+origin	perl-convert-pem
+repo	community
+file	perl-convert-pem-0.13-r0.apk
+checksum	Q1RJoVYICueZJAzZlMvsY4M7TTxtw=
+dep	perl	perl
+dep	perl-convert-asn1	perl-convert-asn1
+dep	perl-cryptx	perl-cryptx
+dep	perl-crypt-des_ede3	perl-crypt-des_ede3
+dep	perl-class-errorhandler	perl-class-errorhandler

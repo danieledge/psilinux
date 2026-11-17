@@ -1,0 +1,17 @@
+name	stoken
+version	0.93-r0
+description	RSA SecurID-compatible software token for Linux/UNIX systems
+url	https://github.com/cernekee/stoken
+license	LGPL-2.1-or-later
+size	34146
+installed-size	72520
+depends	so:libc.musl-armhf.so.1 so:libgmp.so.10 so:libhogweed.so.6 so:libnettle.so.8 so:libxml2.so.2
+origin	stoken
+repo	community
+file	stoken-0.93-r0.apk
+checksum	Q1riY/yYAbD3CXxkilGigbZot03wQ=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgmp.so.10	gmp
+dep	so:libhogweed.so.6	nettle
+dep	so:libnettle.so.8	nettle
+dep	so:libxml2.so.2	libxml2

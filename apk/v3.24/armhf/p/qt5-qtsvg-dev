@@ -1,0 +1,17 @@
+name	qt5-qtsvg-dev
+version	5.15.18_git20251101-r0
+description	Qt5 - Support for rendering and displaying SVG (development files)
+url	https://www.qt.io/developers/
+license	( LGPL-2.0-or-later OR GPL-3.0-only OR GPL-2.0-or-later ) AND Qt-GPL-exception-1.0
+size	19285
+installed-size	86781
+depends	qt5-qtsvg=5.15.18_git20251101-r0 pc:Qt5Core pc:Qt5Gui pc:Qt5Widgets pkgconfig
+origin	qt5-qtsvg
+repo	community
+file	qt5-qtsvg-dev-5.15.18_git20251101-r0.apk
+checksum	Q1F+5p2Gwl6N71K+2olf2TQa7+oRY=
+dep	qt5-qtsvg=5.15.18_git20251101-r0	qt5-qtsvg
+dep	pc:Qt5Core	qt5-qtbase-dev
+dep	pc:Qt5Gui	qt5-qtbase-dev
+dep	pc:Qt5Widgets	qt5-qtbase-dev
+dep	pkgconfig	pkgconf

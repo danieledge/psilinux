@@ -1,0 +1,16 @@
+name	libinput-dev
+version	1.31.3-r0
+description	Library for handling input devices (development files)
+url	https://www.freedesktop.org/wiki/Software/libinput
+license	MIT
+size	41610
+installed-size	244985
+depends	eudev-dev libinput-libs=1.31.3-r0 pc:libudev pkgconfig
+origin	libinput
+repo	community
+file	libinput-dev-1.31.3-r0.apk
+checksum	Q104PGzSCEFzVZo+5ZT/IyOvFbDLs=
+dep	eudev-dev	eudev-dev
+dep	libinput-libs=1.31.3-r0	libinput-libs
+dep	pc:libudev	eudev-dev
+dep	pkgconfig	pkgconf

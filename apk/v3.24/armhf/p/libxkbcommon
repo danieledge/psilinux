@@ -1,0 +1,15 @@
+name	libxkbcommon
+version	1.13.1-r0
+description	keyboard handling library
+url	https://xkbcommon.org/
+license	MIT AND MIT-open-group AND HPND AND HPND-sell-variant AND LicenseRef-digital-equipment-corporation
+size	157771
+installed-size	346804
+depends	xkeyboard-config so:libc.musl-armhf.so.1 so:libxml2.so.2
+origin	libxkbcommon
+repo	main
+file	libxkbcommon-1.13.1-r0.apk
+checksum	Q1J8YMv88CwmizD7Sd0rcKL/iFhJs=
+dep	xkeyboard-config	xkeyboard-config
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxml2.so.2	libxml2

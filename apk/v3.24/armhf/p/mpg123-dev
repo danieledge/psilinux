@@ -1,0 +1,14 @@
+name	mpg123-dev
+version	1.33.5-r0
+description	Console-based MPEG Audio Player for Layers 1, 2 and 3 (development files)
+url	https://www.mpg123.org/
+license	LGPL-2.1-only
+size	56345
+installed-size	197214
+depends	mpg123-libs=1.33.5-r0 pkgconfig
+origin	mpg123
+repo	main
+file	mpg123-dev-1.33.5-r0.apk
+checksum	Q1pOtjCoBQmgQ9NYsGldJoQlUxcBw=
+dep	mpg123-libs=1.33.5-r0	mpg123-libs
+dep	pkgconfig	pkgconf

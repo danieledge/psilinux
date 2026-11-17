@@ -1,0 +1,15 @@
+name	nagios-plugins-disk
+version	2.5-r0
+description	Nagios plugin check_disk
+url	https://nagios-plugins.org/
+license	GPL-3.0-only
+size	64442
+installed-size	121084
+depends	nagios-plugins so:libc.musl-armhf.so.1 so:libcrypto.so.3
+origin	nagios-plugins
+repo	main
+file	nagios-plugins-disk-2.5-r0.apk
+checksum	Q1WxW5HGI+8TbB7RFU/Y7Kk0cA6T0=
+dep	nagios-plugins	nagios-plugins
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3

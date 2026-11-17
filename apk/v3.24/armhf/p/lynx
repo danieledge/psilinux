@@ -1,0 +1,19 @@
+name	lynx
+version	2.9.3-r0
+description	Cross-platform text-based browser
+url	https://lynx.invisible-island.net/
+license	GPL-2.0-only
+size	704517
+installed-size	1613857
+depends	so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libintl.so.8 so:libncursesw.so.6 so:libssl.so.3 so:libz.so.1
+origin	lynx
+repo	main
+file	lynx-2.9.3-r0.apk
+checksum	Q1MFDezQCL8SSEn2ybS/s9AH0zveo=
+dep	so:libbz2.so.1	libbz2
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libintl.so.8	libintl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libssl.so.3	libssl3
+dep	so:libz.so.1	zlib

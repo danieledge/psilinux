@@ -1,0 +1,16 @@
+name	iptables-legacy
+version	1.8.13-r0
+description	Linux kernel firewall, NAT and packet mangling tools (legacy xtables-legacy binaries)
+url	https://www.netfilter.org/projects/iptables/index.html
+license	GPL-2.0-or-later
+size	31624
+installed-size	68168
+depends	so:libc.musl-armhf.so.1 so:libip4tc.so.2 so:libip6tc.so.2 so:libxtables.so.12
+origin	iptables
+repo	main
+file	iptables-legacy-1.8.13-r0.apk
+checksum	Q1CR44QVTMM16XmYGkFE/kVEVpQwo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libip4tc.so.2	libip4tc
+dep	so:libip6tc.so.2	libip6tc
+dep	so:libxtables.so.12	libxtables

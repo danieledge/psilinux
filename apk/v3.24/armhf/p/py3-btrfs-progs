@@ -1,0 +1,15 @@
+name	py3-btrfs-progs
+version	6.17.1-r1
+description	Python 3 bindings for btrfs-progs
+url	https://btrfs.wiki.kernel.org
+license	GPL-2.0-or-later
+size	21404
+installed-size	61769
+depends	python3~3.14 so:libbtrfsutil.so.1 so:libc.musl-armhf.so.1
+origin	btrfs-progs
+repo	main
+file	py3-btrfs-progs-6.17.1-r1.apk
+checksum	Q1VjVnjVKt6hQ2LkhBStKNDLP1hNs=
+dep	python3~3.14	python3
+dep	so:libbtrfsutil.so.1	btrfs-progs-libs
+dep	so:libc.musl-armhf.so.1	musl

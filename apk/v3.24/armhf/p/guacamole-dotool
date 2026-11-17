@@ -1,0 +1,24 @@
+name	guacamole-dotool
+version	0.2.2-r0
+description	Guacamole CLI client for scripting
+url	https://github.com/jirutka/guacamole-dotool
+license	MIT AND Apache-2.0 AND ISC AND BSD-3-Clause AND BSD-2-Clause
+size	946586
+installed-size	5451210
+depends	nodejs so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libfreetype.so.6 so:libgcc_s.so.1 so:libgif.so.7 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpng16.so.16 so:libstdc++.so.6
+origin	guacamole-dotool
+repo	community
+file	guacamole-dotool-0.2.2-r0.apk
+checksum	Q1tr737/3a7cHciUXLte35pwxoEhc=
+dep	nodejs	nodejs
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgif.so.7	giflib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++

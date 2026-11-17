@@ -1,0 +1,19 @@
+name	lightsoff
+version	50.0-r0
+description	Turn off all the lights
+url	https://gitlab.gnome.org/GNOME/lightsoff
+license	GPL-2.0-or-later
+size	41824
+installed-size	118480
+depends	so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8
+origin	lightsoff
+repo	community
+file	lightsoff-50.0-r0.apk
+checksum	Q1aVBo92K/D+jNqvpsSa+RsotUvUI=
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl

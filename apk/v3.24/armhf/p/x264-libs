@@ -1,0 +1,13 @@
+name	x264-libs
+version	0.164.3108-r1
+description	Free library for encoding H264/AVC video streams (libraries)
+url	https://www.videolan.org/developers/x264.html
+license	GPL-2.0-or-later
+size	850674
+installed-size	1684760
+depends	so:libc.musl-armhf.so.1
+origin	x264
+repo	community
+file	x264-libs-0.164.3108-r1.apk
+checksum	Q15PWJELMTjE9TrgYWkCGPohToTDw=
+dep	so:libc.musl-armhf.so.1	musl

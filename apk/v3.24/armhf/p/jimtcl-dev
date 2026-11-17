@@ -1,0 +1,19 @@
+name	jimtcl-dev
+version	0.83-r0
+description	An open-source, small footprint implementation of Tcl (development files)
+url	https://github.com/msteveb/jimtcl
+license	BSD-2-Clause
+size	762393
+installed-size	1861373
+depends	openssl-dev jimtcl=0.83-r0 pc:openssl pc:readline pc:sqlite3 pc:zlib pkgconfig
+origin	jimtcl
+repo	community
+file	jimtcl-dev-0.83-r0.apk
+checksum	Q1qRS6Jb2PTvG0HG8TFQdnTNQICf4=
+dep	openssl-dev	openssl-dev
+dep	jimtcl=0.83-r0	jimtcl
+dep	pc:openssl	openssl-dev
+dep	pc:readline	readline-dev
+dep	pc:sqlite3	sqlite-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

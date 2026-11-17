@@ -1,0 +1,22 @@
+name	libgdiplus-dev
+version	6.2-r1
+description	Open Source Implementation of the GDI+ API (development files)
+url	https://www.mono-project.com/
+license	MIT
+size	193083
+installed-size	578006
+depends	tiff-dev cairo-dev libexif-dev giflib-dev pango-dev libgdiplus=6.2-r1 pc:glib-2.0 pc:gmodule-2.0 pc:gthread-2.0 pkgconfig
+origin	libgdiplus
+repo	community
+file	libgdiplus-dev-6.2-r1.apk
+checksum	Q1A8tlB9VvxNQJY6WQa+aogrlDq1U=
+dep	tiff-dev	tiff-dev
+dep	cairo-dev	cairo-dev
+dep	libexif-dev	libexif-dev
+dep	giflib-dev	giflib-dev
+dep	pango-dev	pango-dev
+dep	libgdiplus=6.2-r1	libgdiplus
+dep	pc:glib-2.0	glib-dev
+dep	pc:gmodule-2.0	glib-dev
+dep	pc:gthread-2.0	glib-dev
+dep	pkgconfig	pkgconf

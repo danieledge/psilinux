@@ -1,0 +1,15 @@
+name	libiec61883-dev
+version	1.2.0-r4
+description	Streaming library for IEEE1394 (development files)
+url	https://ieee1394.docs.kernel.org/en/latest/libiec61883.html
+license	LGPL-2.1-or-later
+size	29854
+installed-size	101102
+depends	libiec61883=1.2.0-r4 pc:libraw1394 pkgconfig
+origin	libiec61883
+repo	community
+file	libiec61883-dev-1.2.0-r4.apk
+checksum	Q17ysbS65ZQbDENMyG4i8ewpjEU2g=
+dep	libiec61883=1.2.0-r4	libiec61883
+dep	pc:libraw1394	libraw1394-dev
+dep	pkgconfig	pkgconf

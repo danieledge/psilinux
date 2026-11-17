@@ -1,0 +1,22 @@
+name	todoman
+version	4.7.0-r0
+description	Simple iCalendar-based todo manager
+url	https://pypi.org/project/todoman/
+license	ISC
+size	29621
+installed-size	97123
+depends	python3 py3-click py3-click-log py3-dateutil py3-humanize py3-icalendar py3-parsedatetime py3-urwid py3-xdg python3~3.14
+origin	todoman
+repo	community
+file	todoman-4.7.0-r0.apk
+checksum	Q1Sa0ktwwaJuDoZl0MvI3RdJnzQQI=
+dep	python3	python3
+dep	py3-click	py3-click
+dep	py3-click-log	py3-click-log
+dep	py3-dateutil	py3-dateutil
+dep	py3-humanize	py3-humanize
+dep	py3-icalendar	py3-icalendar
+dep	py3-parsedatetime	py3-parsedatetime
+dep	py3-urwid	py3-urwid
+dep	py3-xdg	py3-xdg
+dep	python3~3.14	python3

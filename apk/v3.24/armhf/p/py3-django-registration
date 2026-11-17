@@ -1,0 +1,14 @@
+name	py3-django-registration
+version	3.4-r3
+description	simple user-registration application for Django
+url	https://github.com/ubernostrum/django-registration
+license	BSD-3-Clause
+size	48629
+installed-size	177745
+depends	py3-django python3~3.14
+origin	py3-django-registration
+repo	community
+file	py3-django-registration-3.4-r3.apk
+checksum	Q17DbxqOVEcI62f6GhACY96NudK/s=
+dep	py3-django	py3-django
+dep	python3~3.14	python3

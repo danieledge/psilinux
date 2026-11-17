@@ -1,0 +1,13 @@
+name	editorconfig-checker
+version	3.0.3-r16
+description	A tool to verify that your files are in harmony with your .editorconfig
+url	https://editorconfig-checker.github.io/
+license	MIT
+size	1756122
+installed-size	4206536
+depends	so:libc.musl-armhf.so.1
+origin	editorconfig-checker
+repo	community
+file	editorconfig-checker-3.0.3-r16.apk
+checksum	Q1D1clm4hu2Yhxu+DSiTGSrV2V/yM=
+dep	so:libc.musl-armhf.so.1	musl

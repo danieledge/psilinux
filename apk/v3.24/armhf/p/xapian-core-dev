@@ -1,0 +1,14 @@
+name	xapian-core-dev
+version	2.0.0-r0
+description	Open source search engine library (development files)
+url	http://www.xapian.org/
+license	GPL-2.0-or-later
+size	122189
+installed-size	574318
+depends	libxapian=2.0.0-r0 pkgconfig
+origin	xapian-core
+repo	main
+file	xapian-core-dev-2.0.0-r0.apk
+checksum	Q1tLggHO0jkSjNazarvlsHkIYWfUU=
+dep	libxapian=2.0.0-r0	libxapian
+dep	pkgconfig	pkgconf

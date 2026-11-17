@@ -1,0 +1,30 @@
+name	rspamd-libs
+version	4.0.1-r0
+description	Fast, free and open-source spam filtering system (libraries)
+url	https://rspamd.com/
+license	Apache-2.0 BSD-1-Clause BSD-2-Clause BSD-3-Clause CC0-1.0 LGPL-2.1-or-later LGPL-3.0-only MIT Zlib
+size	1783032
+installed-size	4578008
+depends	icu-data-full so:libarchive.so.13 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libhiredis.so.1.3.0 so:libicui18n.so.78 so:libicuuc.so.78 so:liblua-5.4.so.0 so:libpcre2-8.so.0 so:libsodium.so.26 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libstemmer.so.2 so:libz.so.1 so:libzstd.so.1
+origin	rspamd
+repo	community
+file	rspamd-libs-4.0.1-r0.apk
+checksum	Q1Dyqx/8+7ZhhBSWACztF1gV/DPDE=
+dep	icu-data-full	icu-data-full
+dep	so:libarchive.so.13	libarchive
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libhiredis.so.1.3.0	hiredis
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:liblua-5.4.so.0	lua5.4-libs
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libsodium.so.26	libsodium
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libssl.so.3	libssl3
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libstemmer.so.2	libstemmer
+dep	so:libz.so.1	zlib
+dep	so:libzstd.so.1	zstd-libs

@@ -1,0 +1,18 @@
+name	directfb
+version	1.7.7-r8
+description	Library for hw graphics acceleration, input dev, windowing system on top of the Linux fb device
+url	https://github.com/deniskropp/DirectFB
+license	LGPL-2.0-or-later
+size	1071858
+installed-size	3299236
+depends	so:libc.musl-armhf.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libpng16.so.16 so:libstdc++.so.6 so:libts.so.0
+origin	directfb
+repo	community
+file	directfb-1.7.7-r8.apk
+checksum	Q1TMYbCXo0yqed0pX/O5wKNbvViBU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libts.so.0	tslib

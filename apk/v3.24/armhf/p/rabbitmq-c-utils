@@ -1,0 +1,15 @@
+name	rabbitmq-c-utils
+version	0.15.0-r0
+description	RabbitMQ C client (command line utilities)
+url	https://github.com/alanxz/rabbitmq-c
+license	MIT
+size	20845
+installed-size	94428
+depends	so:libc.musl-armhf.so.1 so:libpopt.so.0 so:librabbitmq.so.4
+origin	rabbitmq-c
+repo	main
+file	rabbitmq-c-utils-0.15.0-r0.apk
+checksum	Q1d6b364YijzAQeDnkdG051fa2gKw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libpopt.so.0	popt
+dep	so:librabbitmq.so.4	rabbitmq-c

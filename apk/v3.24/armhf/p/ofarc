@@ -1,0 +1,17 @@
+name	ofarc
+version	1.5.7-r0
+description	Utility for handling ZIP, Tar and LHA archives
+url	https://objfw.nil.im/
+license	LGPL-3.0-only
+size	66488
+installed-size	201258
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1 so:libobjfwtls.so.1
+origin	objfw
+repo	community
+file	ofarc-1.5.7-r0.apk
+checksum	Q1WMMZoI0N2lT0wNX9PGQTsXSHq5Y=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libobjfw.so.1	libobjfw1
+dep	so:libobjfwrt.so.1	libobjfwrt1
+dep	so:libobjfwtls.so.1	libobjfwtls1

@@ -1,0 +1,22 @@
+name	munin-node
+version	2.0.78-r0
+description	A distributed monitoring/graphing tool
+url	https://munin-monitoring.org/
+license	GPL-2.0-only
+size	360235
+installed-size	1397382
+depends	bash perl perl-net-snmp perl-log-log4perl perl-net-ssleay perl-net-server perl-timedate perl-file-copy-recursive perl-fcgi /bin/sh
+origin	munin
+repo	community
+file	munin-node-2.0.78-r0.apk
+checksum	Q1Qb+N1fgjtEa8pAU9hBhZd2InJbI=
+dep	bash	bash
+dep	perl	perl
+dep	perl-net-snmp	perl-net-snmp
+dep	perl-log-log4perl	perl-log-log4perl
+dep	perl-net-ssleay	perl-net-ssleay
+dep	perl-net-server	perl-net-server
+dep	perl-timedate	perl-timedate
+dep	perl-file-copy-recursive	perl-file-copy-recursive
+dep	perl-fcgi	perl-fcgi
+dep	/bin/sh	busybox-binsh

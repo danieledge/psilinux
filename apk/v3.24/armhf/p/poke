@@ -1,0 +1,18 @@
+name	poke
+version	4.3-r1
+description	Extensible editor for binary data
+url	https://www.jemarch.net/poke.html
+license	GPL-3.0-or-later
+size	450982
+installed-size	1522366
+depends	so:libc.musl-armhf.so.1 so:libintl.so.8 so:libncursesw.so.6 so:libpoke.so.1 so:libreadline.so.8 so:libtextstyle.so.0
+origin	poke
+repo	community
+file	poke-4.3-r1.apk
+checksum	Q1PpJL1EDfuU/nG4+xfl8Qyt7th24=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libintl.so.8	libintl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpoke.so.1	poke-libs
+dep	so:libreadline.so.8	readline
+dep	so:libtextstyle.so.0	gettext-libs

@@ -1,0 +1,13 @@
+name	dmraid-static
+version	1.0.0_rc16-r7
+description	Device mapper RAID interface (static library)
+url	https://people.redhat.com/~heinzm/sw/dmraid/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	138574
+installed-size	338096
+depends	dmraid-dev
+origin	dmraid
+repo	main
+file	dmraid-static-1.0.0_rc16-r7.apk
+checksum	Q1/wpFghOu6i0jwsGiy1WZZdUdvM8=
+dep	dmraid-dev	dmraid-dev

@@ -1,0 +1,23 @@
+name	gst-plugins-rs-rsrtp
+version	0.15.2-r0
+description	Gstreamer rust plugin for rsrtp
+url	https://gitlab.freedesktop.org/gstreamer/gst-plugins-rs
+license	MIT AND Apache-2.0 AND MPL-2.0 AND LGPL-2.1-or-later
+size	1162676
+installed-size	2489816
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstnet-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstrtp-1.0.so.0 so:libgstvideo-1.0.so.0
+origin	gst-plugins-rs
+repo	community
+file	gst-plugins-rs-rsrtp-0.15.2-r0.apk
+checksum	Q1JuMzWw6oWJDfI4Xh3qomdLJ/d48=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgstaudio-1.0.so.0	gst-plugins-base
+dep	so:libgstbase-1.0.so.0	gstreamer
+dep	so:libgstnet-1.0.so.0	gstreamer
+dep	so:libgstreamer-1.0.so.0	gstreamer
+dep	so:libgstrtp-1.0.so.0	gst-plugins-base
+dep	so:libgstvideo-1.0.so.0	gst-plugins-base

@@ -1,0 +1,19 @@
+name	postgresql16-contrib
+version	16.16-r0
+description	Extension modules distributed with PostgreSQL
+url	https://www.postgresql.org/
+license	PostgreSQL
+size	619052
+installed-size	1813535
+depends	postgresql16=16.16-r0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libpq.so.5 so:libuuid.so.1 so:libxml2.so.2 so:libz.so.1
+origin	postgresql16
+repo	community
+file	postgresql16-contrib-16.16-r0.apk
+checksum	Q1wat1GoeN9Gf4Mfo8uGaj6ZCP0eA=
+dep	postgresql16=16.16-r0	postgresql16
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libpq.so.5	libpq
+dep	so:libuuid.so.1	libuuid
+dep	so:libxml2.so.2	libxml2
+dep	so:libz.so.1	zlib

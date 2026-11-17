@@ -1,0 +1,15 @@
+name	ocaml5
+version	5.4.1-r0
+description	Main implementation of the Caml programming language
+url	https://ocaml.org/
+license	LGPL-2.1-or-later WITH OCaml-LGPL-linking-exception
+size	20091544
+installed-size	61058300
+depends	ocaml5-runtime=5.4.1-r0 gcc so:libc.musl-armhf.so.1
+origin	ocaml5
+repo	main
+file	ocaml5-5.4.1-r0.apk
+checksum	Q11bTrCH/NqJvvnGkVr4wmOhyOTxI=
+dep	ocaml5-runtime=5.4.1-r0	ocaml5-runtime
+dep	gcc	gcc
+dep	so:libc.musl-armhf.so.1	musl

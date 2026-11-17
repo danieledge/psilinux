@@ -1,0 +1,13 @@
+name	bam
+version	0.5.1-r5
+description	Fast and flexible build system using Lua
+url	https://github.com/matricks/bam
+license	Zlib
+size	135162
+installed-size	292352
+depends	so:libc.musl-armhf.so.1
+origin	bam
+repo	community
+file	bam-0.5.1-r5.apk
+checksum	Q1r7Av+YBNFlLfCf51tGJ3+6FTbNQ=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,26 @@
+name	perl-net-cli-interact
+version	2.400002-r0
+description	Toolkit for CLI Automation
+url	https://metacpan.org/release/Net-CLI-Interact/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	47400
+installed-size	140670
+depends	perl perl-moo perl-log-dispatch-configurator-any perl-path-class perl-log-dispatch-config perl-ipc-run perl-moox-types-mooselike perl-io-tty perl-class-load perl-net-telnet perl-class-mix perl-file-sharedir perl-config-any perl-sub-quote
+origin	perl-net-cli-interact
+repo	community
+file	perl-net-cli-interact-2.400002-r0.apk
+checksum	Q1O9aaYwBYwQod76NHAfHXTTdJ3MQ=
+dep	perl	perl
+dep	perl-moo	perl-moo
+dep	perl-log-dispatch-configurator-any	perl-log-dispatch-configurator-any
+dep	perl-path-class	perl-path-class
+dep	perl-log-dispatch-config	perl-log-dispatch-config
+dep	perl-ipc-run	perl-ipc-run
+dep	perl-moox-types-mooselike	perl-moox-types-mooselike
+dep	perl-io-tty	perl-io-tty
+dep	perl-class-load	perl-class-load
+dep	perl-net-telnet	perl-net-telnet
+dep	perl-class-mix	perl-class-mix
+dep	perl-file-sharedir	perl-file-sharedir
+dep	perl-config-any	perl-config-any
+dep	perl-sub-quote	perl-sub-quote

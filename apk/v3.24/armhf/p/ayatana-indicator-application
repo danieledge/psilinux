@@ -1,0 +1,22 @@
+name	ayatana-indicator-application
+version	22.2.0-r4
+description	Ayatana Indicator Application Service
+url	https://github.com/AyatanaIndicators/ayatana-indicator-application
+license	GPL-3.0-only
+size	26855
+installed-size	60129
+depends	so:libayatana-appindicator3.so.1 so:libayatana-indicator3.so.7 so:libc.musl-armhf.so.1 so:libdbus-glib-1.so.2 so:libdbusmenu-gtk3.so.4 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libpango-1.0.so.0
+origin	ayatana-indicator-application
+repo	community
+file	ayatana-indicator-application-22.2.0-r4.apk
+checksum	Q1njj20wRw1To+ryYjD9KBp+kwou4=
+dep	so:libayatana-appindicator3.so.1	libayatana-appindicator
+dep	so:libayatana-indicator3.so.7	libayatana-indicator
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libdbus-glib-1.so.2	dbus-glib
+dep	so:libdbusmenu-gtk3.so.4	libdbusmenu-gtk3
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libpango-1.0.so.0	pango

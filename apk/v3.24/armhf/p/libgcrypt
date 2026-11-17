@@ -1,0 +1,14 @@
+name	libgcrypt
+version	1.12.2-r0
+description	General purpose crypto library based on the code used in GnuPG
+url	https://www.gnupg.org/
+license	LGPL-2.1-or-later AND GPL-2.0-or-later
+size	510543
+installed-size	1099204
+depends	so:libc.musl-armhf.so.1 so:libgpg-error.so.0
+origin	libgcrypt
+repo	main
+file	libgcrypt-1.12.2-r0.apk
+checksum	Q1EgZH4fmAOUKDKyRPRSHV1adxZTg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgpg-error.so.0	libgpg-error

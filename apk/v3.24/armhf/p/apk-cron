@@ -1,0 +1,13 @@
+name	apk-cron
+version	1.0-r3
+description	Periodic software updates
+url	https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/main/apk-cron
+license	GPL-2.0-only
+size	1739
+installed-size	191
+depends	apk-tools
+origin	apk-cron
+repo	main
+file	apk-cron-1.0-r3.apk
+checksum	Q1k7Yi3QiPy62T3NPeoWjeeZXVVUo=
+dep	apk-tools	apk-tools

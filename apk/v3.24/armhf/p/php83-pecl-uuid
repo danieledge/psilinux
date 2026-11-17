@@ -1,0 +1,15 @@
+name	php83-pecl-uuid
+version	1.3.0-r0
+description	PHP 8.3 wrapper around libuuid from the ext2utils project - PECL
+url	https://pecl.php.net/package/uuid
+license	LGPL-2.1-or-later
+size	6615
+installed-size	13699
+depends	php83-common so:libc.musl-armhf.so.1 so:libuuid.so.1
+origin	php83-pecl-uuid
+repo	community
+file	php83-pecl-uuid-1.3.0-r0.apk
+checksum	Q1tphYI9qzXpwbAKFXui1srXpBaeM=
+dep	php83-common	php83-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libuuid.so.1	libuuid

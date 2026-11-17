@@ -1,0 +1,13 @@
+name	freetds-static
+version	1.5.14-r0
+description	Tabular Datastream Library (static library)
+url	https://www.freetds.org/
+license	GPL-2.0-or-later OR LGPL-2.0-or-later
+size	738857
+installed-size	1799988
+depends	freetds-dev
+origin	freetds
+repo	main
+file	freetds-static-1.5.14-r0.apk
+checksum	Q1kYxYg0AhmUb32SnlyKPErVkYuCQ=
+dep	freetds-dev	freetds-dev

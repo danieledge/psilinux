@@ -1,0 +1,17 @@
+name	py3-cdsapi
+version	0.7.7-r1
+description	Python API to access the Copernicus Climate Data Store
+url	https://github.com/ecmwf/cdsapi
+license	Apache-2.0
+size	12710
+installed-size	34901
+depends	py3-datapi py3-requests py3-tqdm py3-setuptools python3~3.14
+origin	py3-cdsapi
+repo	community
+file	py3-cdsapi-0.7.7-r1.apk
+checksum	Q1PNHUjG4uiKqhDEsy+byPON1AAYA=
+dep	py3-datapi	py3-datapi
+dep	py3-requests	py3-requests
+dep	py3-tqdm	py3-tqdm
+dep	py3-setuptools	py3-setuptools
+dep	python3~3.14	python3

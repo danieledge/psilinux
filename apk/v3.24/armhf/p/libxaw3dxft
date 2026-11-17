@@ -1,0 +1,19 @@
+name	libxaw3dxft
+version	1.6.4-r1
+description	XPaint version of libxaw3d library
+url	https://github.com/DaveFlater/libXaw3dXft
+license	MIT
+size	132025
+installed-size	282780
+depends	so:libX11.so.6 so:libXext.so.6 so:libXft.so.2 so:libXmu.so.6 so:libXpm.so.4 so:libXt.so.6 so:libc.musl-armhf.so.1
+origin	libxaw3dxft
+repo	community
+file	libxaw3dxft-1.6.4-r1.apk
+checksum	Q1ZK5Tn5VM8z0g8O4pebJJoo2WVfo=
+dep	so:libX11.so.6	libx11
+dep	so:libXext.so.6	libxext
+dep	so:libXft.so.2	libxft
+dep	so:libXmu.so.6	libxmu
+dep	so:libXpm.so.4	libxpm
+dep	so:libXt.so.6	libxt
+dep	so:libc.musl-armhf.so.1	musl

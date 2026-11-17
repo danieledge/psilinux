@@ -1,0 +1,13 @@
+name	sing-box
+version	1.13.11-r3
+description	The universal proxy platform
+url	https://sing-box.sagernet.org/
+license	GPL-3.0-or-later with name use or association addition
+size	17494878
+installed-size	48353230
+depends	so:libc.musl-armhf.so.1
+origin	sing-box
+repo	community
+file	sing-box-1.13.11-r3.apk
+checksum	Q1BWVEQVGT7x57VqT9fv/RGI33lRM=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,14 @@
+name	liboping
+version	1.10.0-r2
+description	A C library to generate ICMP echo requests
+url	http://verplant.org/liboping/
+license	LGPL-2.0-or-later
+size	27598
+installed-size	69176
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6
+origin	liboping
+repo	community
+file	liboping-1.10.0-r2.apk
+checksum	Q1ec9RnkdxRkD4xKB/aEtSFTeX/1s=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw

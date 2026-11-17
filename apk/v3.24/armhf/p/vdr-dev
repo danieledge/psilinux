@@ -1,0 +1,34 @@
+name	vdr-dev
+version	2.6.1-r7
+description	Video Disk Recorder (development files)
+url	http://www.tvdr.de/
+license	GPL-2.0-or-later
+size	152994
+installed-size	608339
+depends	alsa-lib-dev fontconfig-dev freetype-dev fribidi-dev gettext-dev jansson-dev libcap-dev libcdio-dev libdvbcsa-dev libexif-dev libjpeg-turbo-dev libva-dev libvdpau-dev libwebsockets-dev libx11-dev mpv-dev ncurses-dev openssl-dev tinyxml2-dev xcb-util-dev xcb-util-wm-dev pkgconfig
+origin	vdr
+repo	community
+file	vdr-dev-2.6.1-r7.apk
+checksum	Q1D9uJbMQKQIkEWFkvfcDRwkTkOdE=
+dep	alsa-lib-dev	alsa-lib-dev
+dep	fontconfig-dev	fontconfig-dev
+dep	freetype-dev	freetype-dev
+dep	fribidi-dev	fribidi-dev
+dep	gettext-dev	gettext-dev
+dep	jansson-dev	jansson-dev
+dep	libcap-dev	libcap-dev
+dep	libcdio-dev	libcdio-dev
+dep	libdvbcsa-dev	libdvbcsa-dev
+dep	libexif-dev	libexif-dev
+dep	libjpeg-turbo-dev	libjpeg-turbo-dev
+dep	libva-dev	libva-dev
+dep	libvdpau-dev	libvdpau-dev
+dep	libwebsockets-dev	libwebsockets-dev
+dep	libx11-dev	libx11-dev
+dep	mpv-dev	mpv-dev
+dep	ncurses-dev	ncurses-dev
+dep	openssl-dev	openssl-dev
+dep	tinyxml2-dev	tinyxml2-dev
+dep	xcb-util-dev	xcb-util-dev
+dep	xcb-util-wm-dev	xcb-util-wm-dev
+dep	pkgconfig	pkgconf

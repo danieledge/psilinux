@@ -1,0 +1,15 @@
+name	keybinder3-dev
+version	0.3.2-r4
+description	Library for registering global key bindings, for gtk-based applications. GTK3 version (development files)
+url	https://github.com/kupferlauncher/keybinder
+license	MIT
+size	4973
+installed-size	12417
+depends	keybinder3=0.3.2-r4 pc:gtk+-3.0 pkgconfig
+origin	keybinder3
+repo	community
+file	keybinder3-dev-0.3.2-r4.apk
+checksum	Q1YzekhGIusEW+Ep+YiNOe7xv32xE=
+dep	keybinder3=0.3.2-r4	keybinder3
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pkgconfig	pkgconf

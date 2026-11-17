@@ -1,0 +1,19 @@
+name	syslog-ng-http
+version	4.11.0-r0
+description	Next generation logging daemon (http module)
+url	https://www.syslog-ng.com/products/open-source-log-management/
+license	GPL-2.0-or-later
+size	32259
+installed-size	92168
+depends	so:libc.musl-armhf.so.1 so:libcurl.so.4 so:libevtlog-4.11.so.0 so:libglib-2.0.so.0 so:libivykis.so.0 so:libsyslog-ng-4.11.so.0 so:libz.so.1
+origin	syslog-ng
+repo	main
+file	syslog-ng-http-4.11.0-r0.apk
+checksum	Q13mBYMbawERdlQFXYsq8E9DuS3e4=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcurl.so.4	libcurl
+dep	so:libevtlog-4.11.so.0	syslog-ng
+dep	so:libglib-2.0.so.0	glib
+dep	so:libivykis.so.0	ivykis
+dep	so:libsyslog-ng-4.11.so.0	syslog-ng
+dep	so:libz.so.1	zlib

@@ -1,0 +1,13 @@
+name	ocaml-gmap-dev
+version	0.3.0-r5
+description	Heterogenous maps over a GADT (development files)
+url	https://github.com/hannesm/gmap
+license	ISC
+size	76332
+installed-size	189518
+depends	ocaml-gmap=0.3.0-r5
+origin	ocaml-gmap
+repo	community
+file	ocaml-gmap-dev-0.3.0-r5.apk
+checksum	Q1G0FoFgysZhlpOubziPLSqswcPQs=
+dep	ocaml-gmap=0.3.0-r5	ocaml-gmap

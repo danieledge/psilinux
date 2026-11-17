@@ -1,0 +1,13 @@
+name	py3-gast
+version	0.7.0-r2
+description	Python AST that abstracts the underlying Python version
+url	https://github.com/serge-sans-paille/gast
+license	BSD-3-Clause
+size	22919
+installed-size	108602
+depends	python3~3.14
+origin	py3-gast
+repo	community
+file	py3-gast-0.7.0-r2.apk
+checksum	Q13eizUyDg+2FYo1Hbugf7vz7bHGU=
+dep	python3~3.14	python3

@@ -1,0 +1,14 @@
+name	perl-dns-unbound-asyncquery-promisexs
+version	0.29-r3
+description	Query DNS recursively via libunbound (Promise::XS engine)
+url	https://metacpan.org/release/DNS-Unbound/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	1948
+installed-size	339
+depends	perl-dns-unbound=0.29-r3 perl-promise-xs
+origin	perl-dns-unbound
+repo	community
+file	perl-dns-unbound-asyncquery-promisexs-0.29-r3.apk
+checksum	Q1BgNBbbMpcgoJtlN0q3wXhybMwxQ=
+dep	perl-dns-unbound=0.29-r3	perl-dns-unbound
+dep	perl-promise-xs	perl-promise-xs

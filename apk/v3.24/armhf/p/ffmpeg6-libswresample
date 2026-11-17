@@ -1,0 +1,15 @@
+name	ffmpeg6-libswresample
+version	6.1.6-r0
+description	Complete and free Internet live audio and video broadcasting solution for Linux/Unix (libswresample library)
+url	https://ffmpeg.org/
+license	GPL-2.0-or-later AND LGPL-2.1-or-later
+size	44269
+installed-size	87448
+depends	so:libavutil.so.58 so:libc.musl-armhf.so.1 so:libsoxr.so.0
+origin	ffmpeg6
+repo	community
+file	ffmpeg6-libswresample-6.1.6-r0.apk
+checksum	Q1jN6rl+0dWzN21duoGcapHk35j8I=
+dep	so:libavutil.so.58	ffmpeg6-libavutil
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsoxr.so.0	soxr

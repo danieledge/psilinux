@@ -1,0 +1,15 @@
+name	mate-menus-dev
+version	1.28.1-r0
+description	The libmate-menu library, the layout configuration files for the MATE menu, as well as a simple menu editor (development files)
+url	https://github.com/mate-desktop/mate-menus
+license	GPL-2.0-or-later
+size	45174
+installed-size	151382
+depends	mate-menus=1.28.1-r0 pc:gio-unix-2.0 pkgconfig
+origin	mate-menus
+repo	community
+file	mate-menus-dev-1.28.1-r0.apk
+checksum	Q1Eucuo0JpaytHrwCUwzGW9KD7n9g=
+dep	mate-menus=1.28.1-r0	mate-menus
+dep	pc:gio-unix-2.0	glib-dev
+dep	pkgconfig	pkgconf

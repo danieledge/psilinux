@@ -1,0 +1,13 @@
+name	sleuthkit-static
+version	4.15.0-r0
+description	File system and media management forensic analysis tools (static library)
+url	http://www.sleuthkit.org/sleuthkit
+license	custom
+size	588978
+installed-size	1765976
+depends	sleuthkit-dev
+origin	sleuthkit
+repo	community
+file	sleuthkit-static-4.15.0-r0.apk
+checksum	Q1gVByKP5/c+oMrHT/T9+0LoF4gHw=
+dep	sleuthkit-dev	sleuthkit-dev

@@ -1,0 +1,14 @@
+name	lua-language-server
+version	3.16.1-r1
+description	Language Server for Lua
+url	https://github.com/LuaLS/lua-language-server
+license	MIT
+size	3860699
+installed-size	19555887
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	lua-language-server
+repo	community
+file	lua-language-server-3.16.1-r1.apk
+checksum	Q1iN9iX8FJWTRIKkRoYcjGJqXUDo0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

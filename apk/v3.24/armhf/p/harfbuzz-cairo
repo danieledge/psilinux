@@ -1,0 +1,15 @@
+name	harfbuzz-cairo
+version	13.2.1-r0
+description	Harfbuzz cairo library
+url	https://harfbuzz.github.io/
+license	MIT
+size	17296
+installed-size	33912
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libharfbuzz.so.0
+origin	harfbuzz
+repo	main
+file	harfbuzz-cairo-13.2.1-r0.apk
+checksum	Q10EDI3ElKPS3VKgDgEdn3pBFYFS0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libharfbuzz.so.0	harfbuzz

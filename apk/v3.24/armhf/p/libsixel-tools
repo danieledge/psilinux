@@ -1,0 +1,15 @@
+name	libsixel-tools
+version	1.10.5-r0
+description	SIXEL encoder/decoder implementation
+url	https://github.com/libsixel/libsixel
+license	MIT
+size	9520
+installed-size	31064
+depends	libsixel=1.10.5-r0 so:libc.musl-armhf.so.1 so:libsixel.so.1
+origin	libsixel
+repo	community
+file	libsixel-tools-1.10.5-r0.apk
+checksum	Q1hRB/noRUN7TyrUzzdXo+B/MRkOU=
+dep	libsixel=1.10.5-r0	libsixel
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsixel.so.1	libsixel

@@ -1,0 +1,17 @@
+name	libcanberra-dev
+version	0.30-r12
+description	Simple audio library for GTK applications (development files)
+url	https://0pointer.de/lennart/projects/libcanberra/
+license	LGPL-2.1-or-later
+size	8758
+installed-size	26653
+depends	libcanberra-gtk3=0.30-r12 libcanberra=0.30-r12 pc:gdk-3.0 pc:gtk+-3.0 pkgconfig
+origin	libcanberra
+repo	community
+file	libcanberra-dev-0.30-r12.apk
+checksum	Q1bUTG7cKgPEjEZb0BFkp/Y9GlpuE=
+dep	libcanberra-gtk3=0.30-r12	libcanberra-gtk3
+dep	libcanberra=0.30-r12	libcanberra
+dep	pc:gdk-3.0	gtk+3.0-dev
+dep	pc:gtk+-3.0	gtk+3.0-dev
+dep	pkgconfig	pkgconf

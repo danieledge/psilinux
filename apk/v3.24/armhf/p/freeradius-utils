@@ -1,0 +1,20 @@
+name	freeradius-utils
+version	3.0.27-r3
+description	FreeRADIUS utilities
+url	https://freeradius.org/
+license	GPL-2.0-or-later
+size	74156
+installed-size	177973
+depends	freeradius-lib=3.0.27-r3 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libfreeradius-radius.so so:libfreeradius-server.so so:libgdbm.so.6 so:libpcap.so.1 so:libtalloc.so.2
+origin	freeradius
+repo	main
+file	freeradius-utils-3.0.27-r3.apk
+checksum	Q1GG3pIG4eaffAsFNbpNOx+653O1U=
+dep	freeradius-lib=3.0.27-r3	freeradius-lib
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libfreeradius-radius.so	freeradius-lib
+dep	so:libfreeradius-server.so	freeradius-lib
+dep	so:libgdbm.so.6	gdbm
+dep	so:libpcap.so.1	libpcap
+dep	so:libtalloc.so.2	talloc

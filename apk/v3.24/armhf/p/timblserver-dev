@@ -1,0 +1,16 @@
+name	timblserver-dev
+version	1.19-r2
+description	Server part for TiMBL (memory-based learning) (development files)
+url	https://github.com/LanguageMachines/timblserver
+license	GPL-3.0-only
+size	1470575
+installed-size	6308560
+depends	timblserver=1.19-r2 pc:libxml-2.0 pc:timbl>=6.4.0 pkgconfig
+origin	timblserver
+repo	community
+file	timblserver-dev-1.19-r2.apk
+checksum	Q1buRMJozozCzvO/GpNgSO36DJAog=
+dep	timblserver=1.19-r2	timblserver
+dep	pc:libxml-2.0	libxml2-dev
+dep	pc:timbl>=6.4.0	timbl-dev
+dep	pkgconfig	pkgconf

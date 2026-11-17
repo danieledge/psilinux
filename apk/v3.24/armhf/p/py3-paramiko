@@ -1,0 +1,16 @@
+name	py3-paramiko
+version	4.0.0-r1
+description	SSH2 protocol library for Python3
+url	https://www.paramiko.org/
+license	LGPL-2.0-or-later
+size	191822
+installed-size	777476
+depends	py3-bcrypt py3-cryptography py3-pynacl python3~3.14
+origin	py3-paramiko
+repo	community
+file	py3-paramiko-4.0.0-r1.apk
+checksum	Q1fd78ORvlYk8RGEgFDJGzVgP0PL8=
+dep	py3-bcrypt	py3-bcrypt
+dep	py3-cryptography	py3-cryptography
+dep	py3-pynacl	py3-pynacl
+dep	python3~3.14	python3

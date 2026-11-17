@@ -1,0 +1,14 @@
+name	kooha-mp4
+version	2.2.4-r0
+description	Kooha dependencies for recording into MP4 format
+url	https://github.com/SeaDve/Kooha
+license	GPL-3.0-or-later
+size	1297
+installed-size	0
+depends	kooha=2.2.4-r0 gst-plugins-ugly
+origin	kooha
+repo	community
+file	kooha-mp4-2.2.4-r0.apk
+checksum	Q13/PZUVynt3JtUwDBAySYmQ5qGrc=
+dep	kooha=2.2.4-r0	kooha
+dep	gst-plugins-ugly	gst-plugins-ugly

@@ -1,0 +1,25 @@
+name	swayimg
+version	5.2-r0
+description	Image viewer for Sway - with support for basic formats
+url	https://github.com/artemsen/swayimg
+license	MIT
+size	419544
+installed-size	741617
+depends	so:libc.musl-armhf.so.1 so:libexiv2.so.28 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libgif.so.7 so:libjpeg.so.8 so:libluajit-5.1.so.2 so:libpng16.so.16 so:libstdc++.so.6 so:libtiff.so.6 so:libwayland-client.so.0 so:libxkbcommon.so.0
+origin	swayimg
+repo	community
+file	swayimg-5.2-r0.apk
+checksum	Q1Zu5TmMBkJmzgYFuy0fntEKYd2u8=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libexiv2.so.28	exiv2-libs
+dep	so:libfontconfig.so.1	fontconfig
+dep	so:libfreetype.so.6	freetype
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libgif.so.7	giflib
+dep	so:libjpeg.so.8	libjpeg-turbo
+dep	so:libluajit-5.1.so.2	luajit
+dep	so:libpng16.so.16	libpng
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtiff.so.6	tiff
+dep	so:libwayland-client.so.0	wayland-libs-client
+dep	so:libxkbcommon.so.0	libxkbcommon

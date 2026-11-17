@@ -1,0 +1,23 @@
+name	telepathy-qt
+version	0.9.8-r2
+description	A library for Qt-based Telepathy clients
+url	https://telepathy.freedesktop.org/wiki/
+license	LGPL-2.1-or-later
+size	1469707
+installed-size	4490180
+depends	so:libQt5Core.so.5 so:libQt5DBus.so.5 so:libQt5Network.so.5 so:libQt5Xml.so.5 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libstdc++.so.6 so:libtelepathy-farstream.so.3 so:libtelepathy-glib.so.0
+origin	telepathy-qt
+repo	community
+file	telepathy-qt-0.9.8-r2.apk
+checksum	Q1T4iFFNf4+zTBcWHfDTPv0NHPG4I=
+dep	so:libQt5Core.so.5	qt5-qtbase
+dep	so:libQt5DBus.so.5	qt5-qtbase
+dep	so:libQt5Network.so.5	qt5-qtbase
+dep	so:libQt5Xml.so.5	qt5-qtbase
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libtelepathy-farstream.so.3	telepathy-farstream
+dep	so:libtelepathy-glib.so.0	telepathy-glib

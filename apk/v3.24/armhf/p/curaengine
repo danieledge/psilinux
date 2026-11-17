@@ -1,0 +1,20 @@
+name	curaengine
+version	5.2.2-r17
+description	3D slicer engine
+url	https://github.com/Ultimaker/CuraEngine
+license	AGPL-3.0-or-later
+size	1238459
+installed-size	2648828
+depends	so:libArcus.so.5.2.2 so:libc.musl-armhf.so.1 so:libfmt.so.11 so:libgcc_s.so.1 so:libpolyclipping.so.22 so:libprotobuf.so.31 so:libspdlog.so.1.17 so:libstdc++.so.6
+origin	curaengine
+repo	community
+file	curaengine-5.2.2-r17.apk
+checksum	Q1tfwp0ui0tzqCiEYXThH2VwXqH2M=
+dep	so:libArcus.so.5.2.2	libarcus
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libfmt.so.11	fmt
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libpolyclipping.so.22	clipper
+dep	so:libprotobuf.so.31	libprotobuf
+dep	so:libspdlog.so.1.17	spdlog
+dep	so:libstdc++.so.6	libstdc++

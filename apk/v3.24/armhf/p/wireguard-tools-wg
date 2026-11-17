@@ -1,0 +1,13 @@
+name	wireguard-tools-wg
+version	1.0.20260223-r0
+description	Next generation secure network tunnel: userspace tools (wg)
+url	https://www.wireguard.com
+license	GPL-2.0-only
+size	28882
+installed-size	55584
+depends	so:libc.musl-armhf.so.1
+origin	wireguard-tools
+repo	main
+file	wireguard-tools-wg-1.0.20260223-r0.apk
+checksum	Q10UrLCMJWtx3P2ksNc/j7tYhim08=
+dep	so:libc.musl-armhf.so.1	musl

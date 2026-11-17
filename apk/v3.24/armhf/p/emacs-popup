@@ -1,0 +1,13 @@
+name	emacs-popup
+version	0.5.9-r2
+description	Visual popup user interface library
+url	https://github.com/auto-complete/popup-el
+license	GPL-3.0-or-later
+size	32182
+installed-size	131367
+depends	cmd:emacs
+origin	emacs-popup
+repo	community
+file	emacs-popup-0.5.9-r2.apk
+checksum	Q1f2kDUvQzuTX5SdPhIsyOUgew3jQ=
+dep	cmd:emacs	emacs-gtk3

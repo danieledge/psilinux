@@ -1,0 +1,16 @@
+name	php83-pdo_mysql
+version	8.3.36-r0
+description	PHP83 extension: MySQL driver for PDO
+url	https://www.php.net/
+license	PHP-3.01 BSD-3-Clause LGPL-2.0-or-later MIT Zend-2.0
+size	12536
+installed-size	25944
+depends	php83-common php83-pdo php83-mysqlnd so:libc.musl-armhf.so.1
+origin	php83
+repo	community
+file	php83-pdo_mysql-8.3.36-r0.apk
+checksum	Q1WaIvjqEWLFoAeGfSCSsijObOFb4=
+dep	php83-common	php83-common
+dep	php83-pdo	php83-pdo
+dep	php83-mysqlnd	php83-mysqlnd
+dep	so:libc.musl-armhf.so.1	musl

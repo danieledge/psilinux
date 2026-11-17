@@ -1,0 +1,22 @@
+name	corearchiver
+version	5.0.0-r0
+description	Archiver from C-Suite to create and extract archives
+url	https://gitlab.com/cubocore
+license	GPL-3.0-or-later
+size	52329
+installed-size	126098
+depends	qt6-qtsvg so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Widgets.so.6 so:libarchiveqt6.so.2 so:libc.musl-armhf.so.1 so:libcprime-core.so.5 so:libcprime-widgets.so.5 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	corearchiver
+repo	community
+file	corearchiver-5.0.0-r0.apk
+checksum	Q1CE7StntMKsu/jAD6LVdos3cZNDY=
+dep	qt6-qtsvg	qt6-qtsvg
+dep	so:libQt6Core.so.6	qt6-qtbase
+dep	so:libQt6Gui.so.6	qt6-qtbase-x11
+dep	so:libQt6Widgets.so.6	qt6-qtbase-x11
+dep	so:libarchiveqt6.so.2	libarchive-qt
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcprime-core.so.5	libcprime
+dep	so:libcprime-widgets.so.5	libcprime
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

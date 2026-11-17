@@ -1,0 +1,15 @@
+name	sqlite-analyzer
+version	3.53.4-r0
+description	Analyze space utilization of SQLite database files
+url	https://www.sqlite.org/
+license	blessing
+size	30761
+installed-size	75304
+depends	so:libc.musl-armhf.so.1 so:libsqlite3.so.0 so:libtcl8.6.so
+origin	sqlite-tools
+repo	main
+file	sqlite-analyzer-3.53.4-r0.apk
+checksum	Q1YfzSzFyVxb2d1Wgh87oQ6lXzasI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libsqlite3.so.0	sqlite-libs
+dep	so:libtcl8.6.so	tcl

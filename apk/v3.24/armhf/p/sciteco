@@ -1,0 +1,19 @@
+name	sciteco
+version	2.5.2-r0
+description	Advanced TECO dialect and interactive screen editor
+url	https://sciteco.fmsbw.de/
+license	GPL-3.0-or-later
+size	1292327
+installed-size	2771866
+depends	sciteco-common=2.5.2-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libncursesw.so.6 so:libstdc++.so.6
+origin	sciteco
+repo	community
+file	sciteco-2.5.2-r0.apk
+checksum	Q1fQtr2+IIRpDriVVFKIisFFx1IBE=
+dep	sciteco-common=2.5.2-r0	sciteco-common
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libstdc++.so.6	libstdc++

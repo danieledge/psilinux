@@ -1,0 +1,23 @@
+name	celluloid
+version	0.30-r0
+description	A simple GTK+ frontend for mpv (formerly gnome-mpv)
+url	https://celluloid-player.github.io/
+license	GPL-3.0-or-later
+size	128716
+installed-size	326032
+depends	gsettings-desktop-schemas so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libepoxy.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libmpv.so.2
+origin	celluloid
+repo	community
+file	celluloid-0.30-r0.apk
+checksum	Q1YTOXeuE9K2+Ly6jwy5Aza1kce3A=
+dep	gsettings-desktop-schemas	gsettings-desktop-schemas
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libepoxy.so.0	libepoxy
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl
+dep	so:libmpv.so.2	mpv-libs

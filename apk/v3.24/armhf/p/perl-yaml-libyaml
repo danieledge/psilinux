@@ -1,0 +1,14 @@
+name	perl-yaml-libyaml
+version	0.907.0-r0
+description	Perl YAML Serialization using XS and libyaml
+url	https://metacpan.org/release/YAML-LibYAML/
+license	GPL-1.0-or-later OR Artistic-1.0-Perl
+size	75297
+installed-size	165065
+depends	perl so:libc.musl-armhf.so.1
+origin	perl-yaml-libyaml
+repo	main
+file	perl-yaml-libyaml-0.907.0-r0.apk
+checksum	Q1XFAUECLnRmg82/1ttL7WDGB0hMY=
+dep	perl	perl
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,16 @@
+name	libportaudiocxx
+version	19.7.0-r3
+description	C++ bindings library for portaudio
+url	http://www.portaudio.com/
+license	MIT
+size	15003
+installed-size	43391
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libportaudio.so.2 so:libstdc++.so.6
+origin	portaudio
+repo	main
+file	libportaudiocxx-19.7.0-r3.apk
+checksum	Q1QEt4bjzjQQXQdFfL/QlfyccZGVg=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libportaudio.so.2	portaudio
+dep	so:libstdc++.so.6	libstdc++

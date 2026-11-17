@@ -1,0 +1,21 @@
+name	libpanel
+version	1.10.4-r0
+description	Dock/panel library for GTK 4
+url	https://gitlab.gnome.org/GNOME/libpanel
+license	LGPL-2.1-or-later
+size	131013
+installed-size	354192
+depends	so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8
+origin	libpanel
+repo	community
+file	libpanel-1.10.4-r0.apk
+checksum	Q1m2IU9a38nYRtKecp3kCxtcOsrlU=
+dep	so:libadwaita-1.so.0	libadwaita
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgraphene-1.0.so.0	graphene
+dep	so:libgtk-4.so.1	gtk4.0
+dep	so:libintl.so.8	libintl

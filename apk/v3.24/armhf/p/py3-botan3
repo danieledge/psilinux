@@ -1,0 +1,14 @@
+name	py3-botan3
+version	3.11.1-r0
+description	Crypto and TLS for C++11 (v3) (python module)
+url	https://botan.randombit.net/
+license	BSD-2-Clause
+size	24827
+installed-size	130186
+depends	botan3-libs=3.11.1-r0 python3~3.14
+origin	botan3
+repo	main
+file	py3-botan3-3.11.1-r0.apk
+checksum	Q16Glb6/8ZZkjBdPSSaNrcAUv0Cuw=
+dep	botan3-libs=3.11.1-r0	botan3-libs
+dep	python3~3.14	python3

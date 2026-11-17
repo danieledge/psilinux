@@ -1,0 +1,13 @@
+name	catch2
+version	2.13.10-r0
+description	A modern, C++-native, header-only, test framework for unit-tests
+url	https://github.com/catchorg/Catch2
+license	BSL-1.0
+size	144108
+installed-size	723084
+depends	pkgconfig
+origin	catch2
+repo	community
+file	catch2-2.13.10-r0.apk
+checksum	Q1nKNUkZiSFJEZFzW1vf9tiD1+pdo=
+dep	pkgconfig	pkgconf

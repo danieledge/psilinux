@@ -1,0 +1,15 @@
+name	catgirl
+version	2.2a-r1
+description	TLS-only terminal IRC client
+url	https://git.causal.agency/catgirl/
+license	GPL-3.0-or-later
+size	51298
+installed-size	101800
+depends	so:libc.musl-armhf.so.1 so:libncursesw.so.6 so:libtls.so.10
+origin	catgirl
+repo	community
+file	catgirl-2.2a-r1.apk
+checksum	Q1UqDkJA8vTE7VT4qap/DsVJzkt1s=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libtls.so.10	libretls

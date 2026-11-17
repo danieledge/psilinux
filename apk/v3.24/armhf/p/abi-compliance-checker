@@ -1,0 +1,14 @@
+name	abi-compliance-checker
+version	2.3-r6
+description	A tool for checking backward compatibility of a C/C++ library
+url	https://github.com/lvc/abi-compliance-checker
+license	LGPL-2.1-or-later
+size	194326
+installed-size	1181956
+depends	perl build-base
+origin	abi-compliance-checker
+repo	main
+file	abi-compliance-checker-2.3-r6.apk
+checksum	Q1c9zMefgABmCbIYzIurM5vaDjjN0=
+dep	perl	perl
+dep	build-base	build-base

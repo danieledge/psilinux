@@ -1,0 +1,25 @@
+name	cinnamon-desktop
+version	6.6.2-r0
+description	Library providing shared API for Cinnamon applications
+url	https://github.com/linuxmint/cinnamon-desktop
+license	GPL-2.0-only
+size	172138
+installed-size	513765
+depends	so:libX11.so.6 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libpulse-mainloop-glib.so.0 so:libpulse.so.0 so:libudev.so.1
+origin	cinnamon-desktop
+repo	community
+file	cinnamon-desktop-6.6.2-r0.apk
+checksum	Q1BfQDa1XVMYxMZ+II7o6hO44Q968=
+dep	so:libX11.so.6	libx11
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libgio-2.0.so.0	glib
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl
+dep	so:libpulse-mainloop-glib.so.0	libpulse-mainloop-glib
+dep	so:libpulse.so.0	libpulse
+dep	so:libudev.so.1	eudev-libs

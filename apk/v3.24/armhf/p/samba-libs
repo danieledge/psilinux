@@ -1,0 +1,39 @@
+name	samba-libs
+version	4.23.8-r0
+description	Samba core libraries shared by common-tools, server and clients
+url	https://www.samba.org/
+license	GPL-3.0-or-later AND LGPL-3.0-or-later
+size	5867989
+installed-size	17463196
+depends	samba-util-libs=4.23.8-r0 ldb=4.23.8-r0 libwbclient=4.23.8-r0 so:libc.musl-armhf.so.1 so:libcap.so.2 so:libcli-ldap-private-samba.so so:libcom-err-private-samba.so so:libgenrand-private-samba.so so:libgnutls.so.30 so:libiov-buf-private-samba.so so:libjansson.so.4 so:liblber.so.2 so:libldap.so.2 so:libldb.so.2 so:libpopt.so.0 so:libreplace-private-samba.so so:libsamba-debug-private-samba.so so:libsamba-util.so.0 so:libsocket-blocking-private-samba.so so:libstable-sort-private-samba.so so:libsys-rw-private-samba.so so:libtalloc.so.2 so:libtdb.so.1 so:libtevent.so.0 so:libtime-basic-private-samba.so so:libwbclient.so.0 so:libz.so.1
+origin	samba
+repo	main
+file	samba-libs-4.23.8-r0.apk
+checksum	Q11XnR67poMhu6u12rQHHSSJqNRw0=
+dep	samba-util-libs=4.23.8-r0	samba-util-libs
+dep	ldb=4.23.8-r0	ldb
+dep	libwbclient=4.23.8-r0	libwbclient
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcap.so.2	libcap2
+dep	so:libcli-ldap-private-samba.so	samba-client-libs
+dep	so:libcom-err-private-samba.so	samba-util-libs
+dep	so:libgenrand-private-samba.so	samba-util-libs
+dep	so:libgnutls.so.30	gnutls
+dep	so:libiov-buf-private-samba.so	samba-util-libs
+dep	so:libjansson.so.4	jansson
+dep	so:liblber.so.2	libldap
+dep	so:libldap.so.2	libldap
+dep	so:libldb.so.2	ldb
+dep	so:libpopt.so.0	popt
+dep	so:libreplace-private-samba.so	samba-util-libs
+dep	so:libsamba-debug-private-samba.so	samba-util-libs
+dep	so:libsamba-util.so.0	samba-util-libs
+dep	so:libsocket-blocking-private-samba.so	samba-util-libs
+dep	so:libstable-sort-private-samba.so	samba-util-libs
+dep	so:libsys-rw-private-samba.so	samba-util-libs
+dep	so:libtalloc.so.2	talloc
+dep	so:libtdb.so.1	tdb-libs
+dep	so:libtevent.so.0	tevent
+dep	so:libtime-basic-private-samba.so	samba-util-libs
+dep	so:libwbclient.so.0	libwbclient
+dep	so:libz.so.1	zlib

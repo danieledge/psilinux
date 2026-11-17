@@ -1,0 +1,20 @@
+name	mbtserver
+version	0.17-r2
+description	Memory-based Tagger and Tagger Generator (server part)
+url	https://github.com/LanguageMachines/mbtserver
+license	GPL-3.0-only
+size	66351
+installed-size	178944
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libicuio.so.78 so:libicuuc.so.78 so:libmbt.so.2 so:libstdc++.so.6 so:libticcutils.so.10 so:libtimbl.so.7
+origin	mbtserver
+repo	community
+file	mbtserver-0.17-r2.apk
+checksum	Q1Qn0+gweBCoka+osiCBa7uN3dv58=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libicuio.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libmbt.so.2	mbt
+dep	so:libstdc++.so.6	libstdc++
+dep	so:libticcutils.so.10	ticcutils
+dep	so:libtimbl.so.7	timbl

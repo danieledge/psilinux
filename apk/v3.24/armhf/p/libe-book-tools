@@ -1,0 +1,19 @@
+name	libe-book-tools
+version	0.1.3-r26
+description	Import filter and tools for various ebook formats
+url	https://sourceforge.net/projects/libebook/
+license	MPL-2.0
+size	8977
+installed-size	37148
+depends	so:libc.musl-armhf.so.1 so:libe-book-0.1.so.1 so:libgcc_s.so.1 so:librevenge-0.0.so.0 so:librevenge-generators-0.0.so.0 so:librevenge-stream-0.0.so.0 so:libstdc++.so.6
+origin	libe-book
+repo	community
+file	libe-book-tools-0.1.3-r26.apk
+checksum	Q1JNMZFhEdk+pSQI/+a1XSOPEUwhA=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libe-book-0.1.so.1	libe-book
+dep	so:libgcc_s.so.1	libgcc
+dep	so:librevenge-0.0.so.0	librevenge
+dep	so:librevenge-generators-0.0.so.0	librevenge
+dep	so:librevenge-stream-0.0.so.0	librevenge
+dep	so:libstdc++.so.6	libstdc++

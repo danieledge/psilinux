@@ -1,0 +1,16 @@
+name	py3-simplemediawiki
+version	1.2.0_git20170315-r5
+description	Extremely low-level wrapper to the MediaWiki API
+url	https://github.com/iliana/python-simplemediawiki
+license	LGPL-3.0-or-later
+size	16889
+installed-size	42545
+depends	py3-setuptools py3-gpep517 py3-wheel python3~3.14
+origin	py3-simplemediawiki
+repo	community
+file	py3-simplemediawiki-1.2.0_git20170315-r5.apk
+checksum	Q1EdztucE+xjtd9uJDufIYO77vf5c=
+dep	py3-setuptools	py3-setuptools
+dep	py3-gpep517	py3-gpep517
+dep	py3-wheel	py3-wheel
+dep	python3~3.14	python3

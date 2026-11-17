@@ -1,0 +1,15 @@
+name	cpptest
+version	2.0.0-r2
+description	Portable and powerful unit testing framework for handling automated tests in C++
+url	https://github.com/cpptest/cpptest
+license	LGPL-2.0-or-later
+size	23069
+installed-size	50560
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	cpptest
+repo	community
+file	cpptest-2.0.0-r2.apk
+checksum	Q11/yxnawzhcQ80cYo9r+XYXcj0/U=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

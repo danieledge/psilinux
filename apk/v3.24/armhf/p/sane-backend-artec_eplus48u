@@ -1,0 +1,16 @@
+name	sane-backend-artec_eplus48u
+version	1.4.0-r4
+description	SANE backend for the scanner Artec E+ 48U and re-badged models
+url	http://www.sane-project.org/
+license	GPL-2.0-or-later GPL-2.0-or-later-with-sane-exception Public-Domain
+size	51576
+installed-size	113158
+depends	sane so:libc.musl-armhf.so.1 so:libusb-1.0.so.0 so:libxml2.so.2
+origin	sane
+repo	community
+file	sane-backend-artec_eplus48u-1.4.0-r4.apk
+checksum	Q1r/+rtdg8e123eOfhC1oeqoNE2p4=
+dep	sane	sane
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb
+dep	so:libxml2.so.2	libxml2

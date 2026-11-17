@@ -1,0 +1,15 @@
+name	viu
+version	1.6.1-r0
+description	Terminal image viewer
+url	https://github.com/atanunq/viu
+license	MIT
+size	1045445
+installed-size	2102392
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libsixel.so.1
+origin	viu
+repo	community
+file	viu-1.6.1-r0.apk
+checksum	Q1yre1OUs24IekrEPqe5bW6nNaSZw=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libsixel.so.1	libsixel

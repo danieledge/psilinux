@@ -1,0 +1,13 @@
+name	crc32c-dev
+version	1.1.2-r3
+description	CRC32C implementation with support for CPU-specific acceleration instructions (development files)
+url	https://github.com/google/crc32c
+license	BSD-3-Clause
+size	5542
+installed-size	11902
+depends	crc32c=1.1.2-r3
+origin	crc32c
+repo	community
+file	crc32c-dev-1.1.2-r3.apk
+checksum	Q1CsNuHD4Qht97oRQyfm3MICsWtAc=
+dep	crc32c=1.1.2-r3	crc32c

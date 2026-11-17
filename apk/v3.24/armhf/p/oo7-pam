@@ -1,0 +1,15 @@
+name	oo7-pam
+version	0.6.0-r4
+description	PAM integration for the server implementation
+url	https://github.com/linux-credentials/oo7
+license	MIT
+size	282125
+installed-size	544488
+depends	oo7-server so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	oo7
+repo	community
+file	oo7-pam-0.6.0-r4.apk
+checksum	Q1HNXukPj8G+EGFunzYMpwcncFs+U=
+dep	oo7-server	oo7-server
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

@@ -1,0 +1,16 @@
+name	guile-readline
+version	3.0.9-r2
+description	portable, embeddable Scheme implementation written in C
+url	https://www.gnu.org/software/guile/
+license	LGPL-3.0-or-later AND GPL-3.0-or-later
+size	27477
+installed-size	107560
+depends	so:libc.musl-armhf.so.1 so:libguile-3.0.so.1 so:libreadline.so.8 so:libunistring.so.5
+origin	guile
+repo	main
+file	guile-readline-3.0.9-r2.apk
+checksum	Q1/cuFS8MPXiiftrxWH/wLL1NsDYY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libguile-3.0.so.1	guile-libs
+dep	so:libreadline.so.8	readline
+dep	so:libunistring.so.5	libunistring

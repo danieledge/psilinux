@@ -1,0 +1,20 @@
+name	dnstwist
+version	20250130-r1
+description	Domain name permutation engine
+url	https://dnstwist.it
+license	Apache-2.0
+size	23463
+installed-size	65322
+depends	py3-dnspython py3-geoip2 py3-idna py3-requests py3-tld py3-whois python3 python3~3.14
+origin	dnstwist
+repo	community
+file	dnstwist-20250130-r1.apk
+checksum	Q1ICDgzvyvo8jgFIQFbRjvMmP3H6M=
+dep	py3-dnspython	py3-dnspython
+dep	py3-geoip2	py3-geoip2
+dep	py3-idna	py3-idna
+dep	py3-requests	py3-requests
+dep	py3-tld	py3-tld
+dep	py3-whois	py3-whois
+dep	python3	python3
+dep	python3~3.14	python3

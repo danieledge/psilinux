@@ -1,0 +1,16 @@
+name	font-sony-misc
+version	1.0.4-r1
+description	X.org Sony fonts
+url	https://xorg.freedesktop.org/
+license	HPND-sell-variant
+size	21781
+installed-size	20179
+depends	encodings font-alias mkfontscale fontconfig
+origin	font-sony-misc
+repo	main
+file	font-sony-misc-1.0.4-r1.apk
+checksum	Q1ate2nb1rUewkWndyi9R+Ud9b8ic=
+dep	encodings	encodings
+dep	font-alias	font-alias
+dep	mkfontscale	mkfontscale
+dep	fontconfig	fontconfig

@@ -1,0 +1,15 @@
+name	mdbook-mermaid
+version	0.17.0-r0
+description	Preprocessor for mdbook to render mermaid diagrams
+url	https://github.com/badboy/mdbook-mermaid
+license	MPL-2.0
+size	1703823
+installed-size	4657188
+depends	mdbook so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	mdbook-mermaid
+repo	community
+file	mdbook-mermaid-0.17.0-r0.apk
+checksum	Q1LCiLL94Rr7eTi6/MvreLrqQsvOQ=
+dep	mdbook	mdbook
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

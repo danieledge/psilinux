@@ -1,0 +1,17 @@
+name	patchwork
+version	3.2.1-r1
+description	Web-based patch tracking system
+url	https://github.com/getpatchwork/patchwork
+license	GPL-2.0-or-later
+size	696215
+installed-size	3289326
+depends	py3-django py3-django-rest-framework py3-django-filter py3-psycopg2 py3-sqlparse
+origin	patchwork
+repo	community
+file	patchwork-3.2.1-r1.apk
+checksum	Q1gYbQb3chtl26nPuElS5XmlquQNQ=
+dep	py3-django	py3-django
+dep	py3-django-rest-framework	py3-django-rest-framework
+dep	py3-django-filter	py3-django-filter
+dep	py3-psycopg2	py3-psycopg2
+dep	py3-sqlparse	py3-sqlparse

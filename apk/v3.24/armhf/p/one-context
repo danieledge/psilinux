@@ -1,0 +1,15 @@
+name	one-context
+version	0.9.0-r0
+description	Contextualization scripts for OpenNebula guests
+url	https://github.com/jirutka/one-context/
+license	MIT
+size	9043
+installed-size	14949
+depends	blkid partx sfdisk
+origin	one-context
+repo	main
+file	one-context-0.9.0-r0.apk
+checksum	Q11nFeeLWC6de+bq0gWuaX7zrHTB8=
+dep	blkid	blkid
+dep	partx	partx
+dep	sfdisk	sfdisk

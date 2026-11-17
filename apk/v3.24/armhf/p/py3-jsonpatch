@@ -1,0 +1,14 @@
+name	py3-jsonpatch
+version	1.33-r5
+description	Apply JSON-Patches (RFC 6902)
+url	https://github.com/stefankoegl/python-json-patch
+license	BSD-3-Clause
+size	12793
+installed-size	40479
+depends	py3-jsonpointer python3~3.14
+origin	py3-jsonpatch
+repo	community
+file	py3-jsonpatch-1.33-r5.apk
+checksum	Q1CLCCRt05YBnXAOStDD7g2hQZQ9s=
+dep	py3-jsonpointer	py3-jsonpointer
+dep	python3~3.14	python3

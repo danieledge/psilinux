@@ -1,0 +1,13 @@
+name	editorconfig-static
+version	0.12.11-r0
+description	core library written in C for use by plugins supporting EditorConfig parsing (static library)
+url	https://github.com/editorconfig/editorconfig-core-c
+license	BSD-2-Clause
+size	9963
+installed-size	20826
+depends	editorconfig-dev
+origin	editorconfig
+repo	community
+file	editorconfig-static-0.12.11-r0.apk
+checksum	Q1RVVJ0b5e6r4gHL+WU4cAzLGNzXc=
+dep	editorconfig-dev	editorconfig-dev

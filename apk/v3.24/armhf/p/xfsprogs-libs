@@ -1,0 +1,13 @@
+name	xfsprogs-libs
+version	7.0.1-r0
+description	XFS filesystem utilities (libraries)
+url	https://xfs.org/index.php/Main_Page
+license	LGPL-2.1-or-later
+size	7708
+installed-size	18612
+depends	so:libc.musl-armhf.so.1
+origin	xfsprogs
+repo	main
+file	xfsprogs-libs-7.0.1-r0.apk
+checksum	Q1mKiRdF/1PvLWsr94/Nkra1QdafU=
+dep	so:libc.musl-armhf.so.1	musl

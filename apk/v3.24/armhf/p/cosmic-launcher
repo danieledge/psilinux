@@ -1,0 +1,16 @@
+name	cosmic-launcher
+version	1.0.15-r0
+description	Application launcher for the COSMIC Desktop Environment
+url	https://github.com/pop-os/cosmic-launcher
+license	GPL-3.0-or-later
+size	6207304
+installed-size	12910874
+depends	pop-launcher so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libxkbcommon.so.0
+origin	cosmic-launcher
+repo	community
+file	cosmic-launcher-1.0.15-r0.apk
+checksum	Q1uadh9xYjsC7+SeHl6Z6T6raTkdE=
+dep	pop-launcher	pop-launcher
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libxkbcommon.so.0	libxkbcommon

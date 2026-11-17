@@ -1,0 +1,15 @@
+name	openresty-mod-devel-kit
+version	1.31.1.1-r0
+description	Scalable Web Platform by Extending NGINX with Lua (module ndk_http_module.so)
+url	https://openresty.org/
+license	BSD-2-Clause
+size	6993
+installed-size	13678
+depends	cmd:nginx openresty so:libc.musl-armhf.so.1
+origin	openresty
+repo	community
+file	openresty-mod-devel-kit-1.31.1.1-r0.apk
+checksum	Q14a5lDUigD0HrKnzo9RdFQF2HuRU=
+dep	cmd:nginx	nginx
+dep	openresty	openresty
+dep	so:libc.musl-armhf.so.1	musl

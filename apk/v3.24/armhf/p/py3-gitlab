@@ -1,0 +1,18 @@
+name	py3-gitlab
+version	8.0.0-r1
+description	Python wrapper for Gitlab's API
+url	https://github.com/python-gitlab/python-gitlab
+license	LGPL-3.0-or-later
+size	109093
+installed-size	566646
+depends	python3 py3-gql py3-httpx py3-requests py3-requests-toolbelt python3~3.14
+origin	py3-gitlab
+repo	community
+file	py3-gitlab-8.0.0-r1.apk
+checksum	Q1J3kAx8W7/ZvRWflHBaBDuPgEj9E=
+dep	python3	python3
+dep	py3-gql	py3-gql
+dep	py3-httpx	py3-httpx
+dep	py3-requests	py3-requests
+dep	py3-requests-toolbelt	py3-requests-toolbelt
+dep	python3~3.14	python3

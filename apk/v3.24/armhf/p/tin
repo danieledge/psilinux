@@ -1,0 +1,24 @@
+name	tin
+version	2.6.5-r2
+description	Threaded NNTP and spool-based Usenet newsreader
+url	http://www.tin.org/
+license	BSD-3-Clause
+size	401647
+installed-size	869547
+depends	aspell gnupg so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgsasl.so.18 so:libicui18n.so.78 so:libicuuc.so.78 so:libintl.so.8 so:libncursesw.so.6 so:libpcre2-8.so.0 so:libssl.so.3 so:libz.so.1
+origin	tin
+repo	community
+file	tin-2.6.5-r2.apk
+checksum	Q1CSgLwjQ1gUY9afj+LBlgJUZfP8c=
+dep	aspell	aspell
+dep	gnupg	gnupg
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcrypto.so.3	libcrypto3
+dep	so:libgsasl.so.18	libgsasl
+dep	so:libicui18n.so.78	icu-libs
+dep	so:libicuuc.so.78	icu-libs
+dep	so:libintl.so.8	libintl
+dep	so:libncursesw.so.6	libncursesw
+dep	so:libpcre2-8.so.0	pcre2
+dep	so:libssl.so.3	libssl3
+dep	so:libz.so.1	zlib

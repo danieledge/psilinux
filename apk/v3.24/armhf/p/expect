@@ -1,0 +1,14 @@
+name	expect
+version	5.45.4-r5
+description	A tool for automating interactive applications
+url	https://core.tcl-lang.org/expect/index
+license	NIST-PD
+size	128253
+installed-size	302269
+depends	so:libc.musl-armhf.so.1 so:libtcl8.6.so
+origin	expect
+repo	main
+file	expect-5.45.4-r5.apk
+checksum	Q1EwXufZU6DXHd2D+/0Fi/jrzdDIU=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libtcl8.6.so	tcl

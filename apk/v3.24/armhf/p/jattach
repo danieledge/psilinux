@@ -1,0 +1,13 @@
+name	jattach
+version	2.1-r0
+description	JVM dynamic attach utility
+url	https://github.com/apangin/jattach
+license	Apache-2.0
+size	9290
+installed-size	17580
+depends	so:libc.musl-armhf.so.1
+origin	jattach
+repo	community
+file	jattach-2.1-r0.apk
+checksum	Q1hzpdmB3uAOBhvs/S2oJ+5Hy5QfY=
+dep	so:libc.musl-armhf.so.1	musl

@@ -1,0 +1,13 @@
+name	py3-snmp-pyc
+version	7.1.22-r1
+description	Precompiled Python bytecode for py3-snmp
+url	http://snmplabs.com/pysnmp/index.html
+license	BSD-2-Clause
+size	486391
+installed-size	1541630
+depends	python3~3.14
+origin	py3-snmp
+repo	community
+file	py3-snmp-pyc-7.1.22-r1.apk
+checksum	Q14kU+rkMSx+lHb1x0Ftx4/kTktAc=
+dep	python3~3.14	python3

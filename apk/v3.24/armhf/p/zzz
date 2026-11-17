@@ -1,0 +1,13 @@
+name	zzz
+version	0.2.0-r0
+description	Suspend or hibernate your computer
+url	https://github.com/jirutka/zzz
+license	MIT
+size	6869
+installed-size	13484
+depends	so:libc.musl-armhf.so.1
+origin	zzz
+repo	community
+file	zzz-0.2.0-r0.apk
+checksum	Q134ryWRcq1B8ccXW7UAULy3NISKE=
+dep	so:libc.musl-armhf.so.1	musl

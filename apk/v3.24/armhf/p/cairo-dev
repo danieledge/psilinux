@@ -1,0 +1,29 @@
+name	cairo-dev
+version	1.18.4-r1
+description	A vector graphics library (development files)
+url	https://cairographics.org/
+license	LGPL-2.1-or-later OR MPL-1.1
+size	38370
+installed-size	175344
+depends	cairo-tools=1.18.4-r1 cairo-gobject=1.18.4-r1 cairo=1.18.4-r1 pc:fontconfig>=2.13.0 pc:freetype2>=23.0.17 pc:glib-2.0>=2.14 pc:gobject-2.0 pc:libpng>=1.4.0 pc:pixman-1>=0.40.0 pc:x11 pc:xcb-render>=1.6 pc:xcb-shm pc:xcb>=1.6 pc:xext pc:xrender>=0.6 pc:zlib pkgconfig
+origin	cairo
+repo	main
+file	cairo-dev-1.18.4-r1.apk
+checksum	Q1fsA2TWCGRgB7nG8MU74rQgJ4Yjg=
+dep	cairo-tools=1.18.4-r1	cairo-tools
+dep	cairo-gobject=1.18.4-r1	cairo-gobject
+dep	cairo=1.18.4-r1	cairo
+dep	pc:fontconfig>=2.13.0	fontconfig-dev
+dep	pc:freetype2>=23.0.17	freetype-dev
+dep	pc:glib-2.0>=2.14	glib-dev
+dep	pc:gobject-2.0	glib-dev
+dep	pc:libpng>=1.4.0	libpng-dev
+dep	pc:pixman-1>=0.40.0	pixman-dev
+dep	pc:x11	libx11-dev
+dep	pc:xcb-render>=1.6	libxcb-dev
+dep	pc:xcb-shm	libxcb-dev
+dep	pc:xcb>=1.6	libxcb-dev
+dep	pc:xext	libxext-dev
+dep	pc:xrender>=0.6	libxrender-dev
+dep	pc:zlib	zlib-dev
+dep	pkgconfig	pkgconf

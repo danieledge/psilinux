@@ -1,0 +1,13 @@
+name	emacs-posframe
+version	1.5.0-r1
+description	Pop up a frame inside Emacs
+url	https://github.com/tumashu/posframe
+license	GPL-3.0-or-later
+size	26852
+installed-size	112367
+depends	cmd:emacs
+origin	emacs-posframe
+repo	community
+file	emacs-posframe-1.5.0-r1.apk
+checksum	Q1rB8+Lg290v4ER3h+T6IGdheES5o=
+dep	cmd:emacs	emacs-gtk3

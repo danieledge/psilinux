@@ -1,0 +1,17 @@
+name	openrc-init
+version	0.63.2-r0
+description	OpenRC init process
+url	https://github.com/OpenRC/openrc
+license	BSD-2-Clause
+size	13332
+installed-size	31152
+depends	ifupdown-any openrc-user=0.63.2-r0 so:libc.musl-armhf.so.1 so:libeinfo.so.1 so:librc.so.1
+origin	openrc
+repo	main
+file	openrc-init-0.63.2-r0.apk
+checksum	Q1iY9XS3ROxWRVxDprEG5NYjTWs8s=
+dep	ifupdown-any	ifupdown-ng
+dep	openrc-user=0.63.2-r0	openrc-user
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libeinfo.so.1	openrc
+dep	so:librc.so.1	openrc

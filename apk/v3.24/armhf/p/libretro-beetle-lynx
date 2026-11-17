@@ -1,0 +1,15 @@
+name	libretro-beetle-lynx
+version	0_git20241021-r0
+description	standalone port of Mednafen Lynx to libretro
+url	https://github.com/libretro/beetle-lynx-libretro
+license	GPL-2.0-only AND Zlib
+size	78556
+installed-size	165432
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+origin	libretro-beetle-lynx
+repo	community
+file	libretro-beetle-lynx-0_git20241021-r0.apk
+checksum	Q1cgWpQo1LYVWx/XaTToVtXrRnp8s=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:libstdc++.so.6	libstdc++

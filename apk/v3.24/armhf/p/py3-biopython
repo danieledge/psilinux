@@ -1,0 +1,16 @@
+name	py3-biopython
+version	1.87-r0
+description	Python tools for computational molecular biology.
+url	https://biopython.org/
+license	BSD-3-Clause
+size	2254533
+installed-size	11289772
+depends	py3-numpy python3 python3~3.14 so:libc.musl-armhf.so.1
+origin	py3-biopython
+repo	community
+file	py3-biopython-1.87-r0.apk
+checksum	Q1nO5KGaomjmlbMjo3xT6IPatubt4=
+dep	py3-numpy	py3-numpy
+dep	python3	python3
+dep	python3~3.14	python3
+dep	so:libc.musl-armhf.so.1	musl

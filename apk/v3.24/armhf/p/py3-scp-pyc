@@ -1,0 +1,13 @@
+name	py3-scp-pyc
+version	0.15.0-r1
+description	Precompiled Python bytecode for py3-scp
+url	https://github.com/jbardin/scp.py
+license	LGPL-2.1-or-later
+size	13604
+installed-size	29564
+depends	python3~3.14
+origin	py3-scp
+repo	community
+file	py3-scp-pyc-0.15.0-r1.apk
+checksum	Q1ebfs0aOaT5SQjTZ0QdkAiKrfG0A=
+dep	python3~3.14	python3

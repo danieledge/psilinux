@@ -1,0 +1,29 @@
+name	gnunet-gtk
+version	0.24.0-r1
+description	Graphical user interface for GNUnet
+url	https://gnunet.org
+license	GPL-3.0-only
+size	444100
+installed-size	2246407
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgnunetgnsrecord.so.0 so:libgnunetidentity.so.1 so:libgnunetnamestore.so.0 so:libgnunetnatauto.so.0 so:libgnunetregex.so.3 so:libgnunetstatistics.so.2 so:libgnunetutil.so.20 so:libgnutls.so.30 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8
+origin	gnunet-gtk
+repo	community
+file	gnunet-gtk-0.24.0-r1.apk
+checksum	Q1jsZTmV1Y/XfglILgsVNi5T++uhM=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libgdk-3.so.0	gtk+3.0
+dep	so:libgdk_pixbuf-2.0.so.0	gdk-pixbuf
+dep	so:libglib-2.0.so.0	glib
+dep	so:libgmodule-2.0.so.0	glib
+dep	so:libgnunetgnsrecord.so.0	gnunet
+dep	so:libgnunetidentity.so.1	gnunet
+dep	so:libgnunetnamestore.so.0	gnunet
+dep	so:libgnunetnatauto.so.0	gnunet
+dep	so:libgnunetregex.so.3	gnunet
+dep	so:libgnunetstatistics.so.2	gnunet
+dep	so:libgnunetutil.so.20	!
+dep	so:libgnutls.so.30	gnutls
+dep	so:libgobject-2.0.so.0	glib
+dep	so:libgtk-3.so.0	gtk+3.0
+dep	so:libintl.so.8	libintl

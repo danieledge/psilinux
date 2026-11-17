@@ -1,0 +1,14 @@
+name	py3-grpcio-status
+version	1.78.1-r2
+description	Status proto mapping for gRPC
+url	https://grpc.io/
+license	Apache-2.0 AND BSD-3-Clause AND MIT
+size	7559
+installed-size	14750
+depends	py3-grpcio python3~3.14
+origin	grpc
+repo	community
+file	py3-grpcio-status-1.78.1-r2.apk
+checksum	Q1EQmjV4Bi6wGRTVGN0Sl9Yy2y5Q4=
+dep	py3-grpcio	py3-grpcio
+dep	python3~3.14	python3

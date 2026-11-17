@@ -1,0 +1,15 @@
+name	ykpers
+version	1.20.0-r2
+description	YubiKey Personalization library and tool
+url	https://developers.yubico.com/yubikey-personalization/
+license	BSD-2-Clause
+size	44199
+installed-size	104820
+depends	so:libc.musl-armhf.so.1 so:libusb-1.0.so.0 so:libyubikey.so.0
+origin	ykpers
+repo	community
+file	ykpers-1.20.0-r2.apk
+checksum	Q1YHg2lYGe4FXZNDvx75+S7C86tA0=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libusb-1.0.so.0	libusb
+dep	so:libyubikey.so.0	yubico-c

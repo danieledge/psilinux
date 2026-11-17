@@ -1,0 +1,14 @@
+name	bearssl-dev
+version	0.6_git20260508-r0
+description	The BearSSL implementation of the SSL/TLS protocol (development files)
+url	https://bearssl.org/
+license	MIT
+size	105705
+installed-size	524416
+depends	bearssl-libs=0.6_git20260508-r0 pkgconfig
+origin	bearssl
+repo	main
+file	bearssl-dev-0.6_git20260508-r0.apk
+checksum	Q1RmsZe+CEVIBpAUj+DGdVFo0y4F4=
+dep	bearssl-libs=0.6_git20260508-r0	bearssl-libs
+dep	pkgconfig	pkgconf

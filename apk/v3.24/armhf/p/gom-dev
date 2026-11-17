@@ -1,0 +1,15 @@
+name	gom-dev
+version	0.5.4-r1
+description	GObject Data Mapper (development files)
+url	https://gitlab.gnome.org/GNOME/gom
+license	LGPL-2.1-or-later
+size	19200
+installed-size	203356
+depends	gom=0.5.4-r1 pc:gobject-2.0 pkgconfig
+origin	gom
+repo	community
+file	gom-dev-0.5.4-r1.apk
+checksum	Q1KbvF1hg9hcKK5+rahvzvs+7ynAY=
+dep	gom=0.5.4-r1	gom
+dep	pc:gobject-2.0	glib-dev
+dep	pkgconfig	pkgconf

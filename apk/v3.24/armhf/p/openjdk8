@@ -1,0 +1,13 @@
+name	openjdk8
+version	8.512.01-r0
+description	OpenJDK 8 provided by IcedTea
+url	https://icedtea.classpath.org/
+license	custom
+size	57559
+installed-size	212493
+depends	openjdk8-jdk=8.512.01-r0
+origin	openjdk8
+repo	community
+file	openjdk8-8.512.01-r0.apk
+checksum	Q1H0OI6abHUu1tsxKmXLA0ZM5DcBg=
+dep	openjdk8-jdk=8.512.01-r0	openjdk8-jdk

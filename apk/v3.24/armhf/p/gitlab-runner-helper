@@ -1,0 +1,13 @@
+name	gitlab-runner-helper
+version	19.5.2-r0
+description	GitLab runner for CI/CD jobs (helper)
+url	https://docs.gitlab.com/runner/
+license	MIT
+size	17550805
+installed-size	52272156
+depends	so:libc.musl-armhf.so.1
+origin	gitlab-runner
+repo	community
+file	gitlab-runner-helper-19.5.2-r0.apk
+checksum	Q12GW+OjEfWCVmacmzlKdcctXBqpk=
+dep	so:libc.musl-armhf.so.1	musl

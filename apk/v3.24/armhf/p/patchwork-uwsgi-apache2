@@ -1,0 +1,14 @@
+name	patchwork-uwsgi-apache2
+version	3.2.1-r1
+description	patchwork apache2 wsgi support
+url	https://github.com/getpatchwork/patchwork
+license	GPL-2.0-or-later
+size	1729
+installed-size	210
+depends	apache2 apache2-mod-wsgi
+origin	patchwork
+repo	community
+file	patchwork-uwsgi-apache2-3.2.1-r1.apk
+checksum	Q1AUsqDAWK0fqeqlMg8uTf4OhI+XI=
+dep	apache2	apache2
+dep	apache2-mod-wsgi	apache2-mod-wsgi

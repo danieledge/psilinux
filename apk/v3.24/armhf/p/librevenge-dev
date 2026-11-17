@@ -1,0 +1,17 @@
+name	librevenge-dev
+version	0.0.5-r2
+description	Base library for writing document import filters (development files)
+url	https://sourceforge.net/projects/libwpd/
+license	MPL-2.0
+size	23906
+installed-size	165521
+depends	boost-dev zlib-dev cppunit-dev librevenge=0.0.5-r2 pkgconfig
+origin	librevenge
+repo	community
+file	librevenge-dev-0.0.5-r2.apk
+checksum	Q1GHdBrRbHI7z9n3ZfdSAy8iOzWDs=
+dep	boost-dev	boost-dev
+dep	zlib-dev	zlib-dev
+dep	cppunit-dev	cppunit-dev
+dep	librevenge=0.0.5-r2	librevenge
+dep	pkgconfig	pkgconf

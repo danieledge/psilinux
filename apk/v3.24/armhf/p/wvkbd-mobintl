@@ -1,0 +1,17 @@
+name	wvkbd-mobintl
+version	0.19.4-r0
+description	On-screen virtual keyboard for wayland compositors using wlroots - mobile international layout
+url	https://git.sr.ht/~proycon/wvkbd
+license	GPL-3.0-or-later
+size	97489
+installed-size	689320
+depends	so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libwayland-client.so.0
+origin	wvkbd
+repo	community
+file	wvkbd-mobintl-0.19.4-r0.apk
+checksum	Q17HeV6UmLo2PCuYwtde2x4C6nZhI=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libcairo.so.2	cairo
+dep	so:libpango-1.0.so.0	pango
+dep	so:libpangocairo-1.0.so.0	pango
+dep	so:libwayland-client.so.0	wayland-libs-client

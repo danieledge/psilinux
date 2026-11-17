@@ -1,0 +1,13 @@
+name	kde-applications-admin
+version	26.04.2-r0
+description	KDE Applications meta package
+url	https://kde.org/applications/
+license	GPL-3.0-or-later
+size	1260
+installed-size	0
+depends	kcron
+origin	kde-applications
+repo	community
+file	kde-applications-admin-26.04.2-r0.apk
+checksum	Q16leobDc5L651xvxi+WJVSYIGm1A=
+dep	kcron	!

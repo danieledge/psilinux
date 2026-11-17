@@ -1,0 +1,17 @@
+name	xdotool
+version	4.20260303.1-r0
+description	Simulate X11 keyboard/mouse input events
+url	https://github.com/jordansissel/xdotool
+license	BSD-3-Clause
+size	47555
+installed-size	108052
+depends	so:libX11.so.6 so:libXinerama.so.1 so:libXtst.so.6 so:libc.musl-armhf.so.1 so:libxkbcommon.so.0
+origin	xdotool
+repo	community
+file	xdotool-4.20260303.1-r0.apk
+checksum	Q1KOFZlIvF1ZrmUMxMUjRP9OQlR8Q=
+dep	so:libX11.so.6	libx11
+dep	so:libXinerama.so.1	libxinerama
+dep	so:libXtst.so.6	libxtst
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libxkbcommon.so.0	libxkbcommon

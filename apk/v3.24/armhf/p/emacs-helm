@@ -1,0 +1,14 @@
+name	emacs-helm
+version	4.0.6-r1
+description	Emacs incremental completion and selection narrowing framework
+url	https://github.com/emacs-helm/helm
+license	GPL-3.0-or-later
+size	887632
+installed-size	3406948
+depends	cmd:emacs emacs-async
+origin	emacs-helm
+repo	community
+file	emacs-helm-4.0.6-r1.apk
+checksum	Q1u07i/DbizSBa882Dub5oY4AId1s=
+dep	cmd:emacs	emacs-gtk3
+dep	emacs-async	emacs-async

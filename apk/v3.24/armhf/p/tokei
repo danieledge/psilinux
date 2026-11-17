@@ -1,0 +1,14 @@
+name	tokei
+version	14.0.0-r0
+description	A blazingly fast CLOC (Count Lines Of Code) program
+url	https://github.com/XAMPPRocky/tokei
+license	MIT AND Apache-2.0
+size	1409096
+installed-size	2993588
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+origin	tokei
+repo	community
+file	tokei-14.0.0-r0.apk
+checksum	Q1P+RkZGS+DU6khHCi5uKO3aidtUo=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc

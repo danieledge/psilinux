@@ -1,0 +1,13 @@
+name	scc
+version	3.7.0-r5
+description	Very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go
+url	https://github.com/boyter/scc
+license	MIT
+size	1833979
+installed-size	4738012
+depends	so:libc.musl-armhf.so.1
+origin	scc
+repo	community
+file	scc-3.7.0-r5.apk
+checksum	Q1XCETbqoh+fv0JCD2bErO8IzkoqA=
+dep	so:libc.musl-armhf.so.1	musl

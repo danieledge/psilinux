@@ -1,0 +1,18 @@
+name	kde-applications-graphics
+version	26.04.2-r0
+description	KDE Applications meta package
+url	https://kde.org/applications/
+license	GPL-3.0-or-later
+size	1298
+installed-size	0
+depends	gwenview kcolorchooser kolourpaint kruler okular spectacle
+origin	kde-applications
+repo	community
+file	kde-applications-graphics-26.04.2-r0.apk
+checksum	Q1JYhg99LHq+yLjLZdkA+n8G7p4qQ=
+dep	gwenview	!
+dep	kcolorchooser	!
+dep	kolourpaint	!
+dep	kruler	!
+dep	okular	!
+dep	spectacle	!

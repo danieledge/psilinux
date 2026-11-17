@@ -1,0 +1,22 @@
+name	kde-applications-pim
+version	26.04.2-r0
+description	KDE Applications meta package
+url	https://kde.org/applications/
+license	GPL-3.0-or-later
+size	1336
+installed-size	0
+depends	akregator akonadi-calendar-tools kaddressbook kalarm kleopatra kmail kontact korganizer kdepim-addons grantlee-editor
+origin	kde-applications
+repo	community
+file	kde-applications-pim-26.04.2-r0.apk
+checksum	Q1cYuop4LvHcs5B7QEBLu2KEgdkck=
+dep	akregator	!
+dep	akonadi-calendar-tools	!
+dep	kaddressbook	!
+dep	kalarm	!
+dep	kleopatra	!
+dep	kmail	!
+dep	kontact	!
+dep	korganizer	!
+dep	kdepim-addons	!
+dep	grantlee-editor	!

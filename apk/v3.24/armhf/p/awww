@@ -1,0 +1,15 @@
+name	awww
+version	0.12.1-r0
+description	Efficient animated wallpaper daemon for Wayland compositors
+url	https://codeberg.org/LGFae/awww
+license	GPL-3.0-or-later
+size	2331037
+installed-size	4808724
+depends	so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblz4.so.1
+origin	awww
+repo	community
+file	awww-0.12.1-r0.apk
+checksum	Q1DjG0ePSZ1M1Kq1C7I3K/ObSpUOY=
+dep	so:libc.musl-armhf.so.1	musl
+dep	so:libgcc_s.so.1	libgcc
+dep	so:liblz4.so.1	lz4-libs

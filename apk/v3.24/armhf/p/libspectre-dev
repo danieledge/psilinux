@@ -1,0 +1,14 @@
+name	libspectre-dev
+version	0.2.12-r2
+description	A small library for rendering Postscript documents (development files)
+url	https://www.freedesktop.org/wiki/Software/libspectre
+license	LGPL-2.0-or-later
+size	35346
+installed-size	105483
+depends	libspectre=0.2.12-r2 pkgconfig
+origin	libspectre
+repo	community
+file	libspectre-dev-0.2.12-r2.apk
+checksum	Q1cUgYQVR3vcrDYG6gaQbKAdLJS1o=
+dep	libspectre=0.2.12-r2	libspectre
+dep	pkgconfig	pkgconf

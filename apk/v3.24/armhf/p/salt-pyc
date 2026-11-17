@@ -1,0 +1,13 @@
+name	salt-pyc
+version	3007.13-r3
+description	Precompiled Python bytecode for salt
+url	https://github.com/saltstack/salt
+license	Apache-2.0
+size	10074020
+installed-size	27950266
+depends	python3~3.14
+origin	salt
+repo	community
+file	salt-pyc-3007.13-r3.apk
+checksum	Q1EKbk+0KLzS4D7rGvcDZrmNqD6Mw=
+dep	python3~3.14	python3

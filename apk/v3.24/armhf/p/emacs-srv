@@ -1,0 +1,13 @@
+name	emacs-srv
+version	0.2-r1
+description	Elisp library to perform SRV DNS requests
+url	https://github.com/legoscia/srv.el
+license	GPL-2.0-or-later
+size	5291
+installed-size	9081
+depends	cmd:emacs
+origin	emacs-srv
+repo	community
+file	emacs-srv-0.2-r1.apk
+checksum	Q1BJ1LnC4lqZt9I2NnYu08QzqI6Hc=
+dep	cmd:emacs	emacs-gtk3

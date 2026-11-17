@@ -1,0 +1,13 @@
+name	fann-double
+version	2.2.0-r4
+description	Fast Artificial Neural Network Library (double)
+url	https://github.com/libfann/fann/
+license	LGPL-2.0-or-later
+size	34246
+installed-size	70832
+depends	so:libc.musl-armhf.so.1
+origin	fann
+repo	community
+file	fann-double-2.2.0-r4.apk
+checksum	Q1sva9tnIUKkkwSZICH8M04RCYLYQ=
+dep	so:libc.musl-armhf.so.1	musl

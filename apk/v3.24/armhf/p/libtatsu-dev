@@ -1,0 +1,15 @@
+name	libtatsu-dev
+version	1.0.5-r0
+description	library for handling the communication with Apple's Tatsu Signing Server (TSS) (development files)
+url	https://github.com/libimobiledevice/libtatsu
+license	LGPL-2.1-only
+size	22986
+installed-size	58901
+depends	libtatsu=1.0.5-r0 pc:libplist-2.0>=2.6.0 pkgconfig
+origin	libtatsu
+repo	community
+file	libtatsu-dev-1.0.5-r0.apk
+checksum	Q1lRpA0+9RcUviPQ02kTW1YTrA/3Q=
+dep	libtatsu=1.0.5-r0	libtatsu
+dep	pc:libplist-2.0>=2.6.0	libplist-dev
+dep	pkgconfig	pkgconf

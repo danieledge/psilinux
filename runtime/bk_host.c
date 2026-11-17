@@ -396,6 +396,20 @@ static const char *host_path(const char *p, char *buf)
 	return p;
 }
 
+/* (0.37) As EPOC: a file open here cannot be deleted or renamed
+ * (KErrInUse, EBUSY), so the host harness meets what the Psion does. */
+#define HOPEN 256
+static struct { dev_t dev; ino_t ino; int fd; } hopen[HOPEN];
+static int host_busy(const char *hp)
+{
+	struct stat st;
+	int i;
+	if (getenv("LX_HOST_UNIX_FILES") || stat(hp, &st)) return 0;
+	for (i = 0; i < HOPEN; i++)
+		if (hopen[i].fd > 0 && hopen[i].dev == st.st_dev && hopen[i].ino == st.st_ino) return 1;
+	return 0;
+}
+
 void *bk_file_open(const char *path, int flags, int *err)
 {
 	char hb[LX_PATH_MAX];
@@ -406,6 +420,13 @@ void *bk_file_open(const char *path, int flags, int *err)
 	if (flags & LX_O_EXCL) f |= O_EXCL;
 	fd = open(host_path(path, hb), f | O_CLOEXEC, 0644);
 	if (fd < 0) { *err = lxerr(errno); return 0; }
+	{
+		struct stat st;
+		int i;
+		if (!fstat(fd, &st))
+			for (i = 0; i < HOPEN; i++)
+				if (hopen[i].fd <= 0) { hopen[i].dev = st.st_dev; hopen[i].ino = st.st_ino; hopen[i].fd = fd + 1; break; }
+	}
 	return (void *)(long)(fd + 1);
 }
 #define HFD(h) ((int)(long)(h) - 1)
@@ -414,7 +435,12 @@ int bk_file_write(void *h, lx_s64 off, const char *buf, lx_u32 n) { ssize_t r = 
 int bk_file_size(void *h, lx_s64 *size) { struct stat st; if (fstat(HFD(h), &st)) return lxerr(errno); *size = st.st_size; return 0; }
 int bk_file_truncate(void *h, lx_s64 size) { return ftruncate(HFD(h), size) ? lxerr(errno) : 0; }
 int bk_file_sync(void *h) { return fsync(HFD(h)) ? lxerr(errno) : 0; }
-void bk_file_close(void *h) { close(HFD(h)); }
+void bk_file_close(void *h)
+{
+	int i;
+	for (i = 0; i < HOPEN; i++) if (hopen[i].fd == (int)(long)h) hopen[i].fd = 0;
+	close(HFD(h));
+}
 int bk_stat_path(const char *path, bk_stat *st)
 {
 	char hb[LX_PATH_MAX];
@@ -429,8 +455,20 @@ int bk_stat_path(const char *path, bk_stat *st)
 }
 int bk_mkdir(const char *path) { char hb[LX_PATH_MAX]; return mkdir(host_path(path, hb), 0755) ? lxerr(errno) : 0; }
 int bk_rmdir(const char *path) { char hb[LX_PATH_MAX]; return rmdir(host_path(path, hb)) ? lxerr(errno) : 0; }
-int bk_unlink(const char *path) { char hb[LX_PATH_MAX]; return unlink(host_path(path, hb)) ? lxerr(errno) : 0; }
-int bk_rename(const char *a, const char *b) { char h1[LX_PATH_MAX], h2[LX_PATH_MAX]; return rename(host_path(a, h1), host_path(b, h2)) ? lxerr(errno) : 0; }
+int bk_unlink(const char *path)
+{
+	char hb[LX_PATH_MAX];
+	const char *h = host_path(path, hb);
+	if (host_busy(h)) return -LX_EBUSY;
+	return unlink(h) ? lxerr(errno) : 0;
+}
+int bk_rename(const char *a, const char *b)
+{
+	char h1[LX_PATH_MAX], h2[LX_PATH_MAX];
+	const char *p1 = host_path(a, h1), *p2 = host_path(b, h2);
+	if (host_busy(p1) || host_busy(p2)) return -LX_EBUSY;
+	return rename(p1, p2) ? lxerr(errno) : 0;
+}
 int bk_replace(const char *a, const char *b) { return bk_rename(a, b); }
 int bk_set_mtime(const char *path, lx_s64 mtime)
 {

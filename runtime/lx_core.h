@@ -527,6 +527,8 @@ int lx_pipe_new(lx_file **r, lx_file **w);
 int lx_pipe_count(lx_file *f);                /* bytes waiting in the pipe */
 int lx_write_rest(lx_thread *t, int r, lx_u32 n, int whole);   /* lx_fsys.c: after a write's try */
 int lx_is_stream_sock(lx_file *f);            /* lx_net.c */
+int lx_native_unlink(const char *native);     /* lx_vfs.c: unlink, or at the last close if open */
+int lx_native_doomed(const char *native);     /* ...and until then the name is gone */
 
 /* lx_pty.c: pseudo-terminals */
 int lx_pty_room(lx_tty *t);

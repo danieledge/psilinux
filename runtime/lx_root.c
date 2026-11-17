@@ -765,7 +765,7 @@ int lx_root_unlink(lx_proc *p, lx_vn *v, int dir)
 			bk_unlink(mp);
 			meta_forget_tree(v->native);
 			r = bk_rmdir(v->native);
-		} else r = bk_unlink(v->native);
+		} else r = lx_native_unlink(v->native);
 		if (r < 0) return r;
 		if (m->exists && meta_find(m, name)) { meta_del(m, name); meta_save(m); }
 	}

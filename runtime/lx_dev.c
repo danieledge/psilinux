@@ -234,14 +234,17 @@ lx_file *lx_dev_open(lx_proc *p, lx_vn *v, int flags, int *err)
 /* ---- pipes -------------------------------------------------------------- */
 
 typedef struct pipe {
-	char buf[LX_PIPE_SIZE];
+	char *buf;                  /* ibuf, or a bigger one while it has grown */
+	int size;                   /* buf's size: LX_PIPE_SIZE, more while grown */
 	int head, count;
 	int readers, writers;
 	lx_u64 ino;
+	char ibuf[LX_PIPE_SIZE];
 } pipe;
 
 static lx_u64 pipe_ino = 4000;
 static const lx_fops pipe_w_ops;
+static const lx_fops pipe_r_ops;
 
 /* Is q a parent that waits while t runs its fork (or vfork) child? The child
  * borrows its parent's thread until it execs or exits (lx_core.c), so such a
@@ -278,6 +281,73 @@ static int pp_writers_wait(lx_thread *t, pipe *pp)
 	return 1;
 }
 
+/* Is q a parent that cannot run until a fork child of its (any, not only
+ * t's) is done? (its thread is borrowed) */
+static int frozen(lx_proc *q)
+{
+	int i;
+	lx_borrow *b;
+	if (q->nthreads > 1) return 0;
+	for (i = 0; i < LX_MAXTHREAD; i++) {
+		lx_thread *th = &lx_k.threads[i];
+		if (!th->borrow || th->state == LX_T_FREE || th->state == LX_T_DEAD) continue;
+		if (th->owner == q) return 1;
+		for (b = th->borrow->prev; b; b = b->prev)
+			if (b->child == q) return 1;
+	}
+	return 0;
+}
+
+/* The other way: t would wait for room, and the only readers are parents
+ * that cannot run until a fork child is done: t's own, or one waiting
+ * (perhaps through others) on t, as a subshell waits on its pipeline in
+ * $(a | b). Waiting would never end, so the pipe grows (pp_write); if the
+ * parent would in fact have run on, more memory is all it cost. */
+static int pp_readers_wait(lx_thread *t, pipe *pp)
+{
+	int i, fd, any = 0;
+	if (!t) return 0;
+	for (i = 0; i < LX_MAXPROC; i++) {
+		lx_proc *q = &lx_k.procs[i];
+		if (q->state != LX_P_ALIVE) continue;
+		for (fd = 0; fd < LX_MAXFD; fd++) {
+			lx_file *r = q->fd[fd];
+			if (r && r->ops == &pipe_r_ops && r->priv == pp) {
+				if (q == t->proc || (!waits_on(t, q) && !frozen(q))) return 0;
+				any = 1;
+				break;
+			}
+		}
+	}
+	return any;
+}
+
+/* the contents, from the start of a buffer of size (at least count) */
+static void pp_move(pipe *pp, char *to, int size)
+{
+	int first = pp->size - pp->head;
+	if (first > pp->count) first = pp->count;
+	bk_memcpy(to, pp->buf + pp->head, first);
+	bk_memcpy(to + first, pp->buf, pp->count - first);
+	if (pp->buf != pp->ibuf) bk_free(pp->buf);
+	pp->buf = to;
+	pp->size = size;
+	pp->head = 0;
+}
+
+static int pp_grow(pipe *pp, lx_u32 need)
+{
+	lx_u32 size = (lx_u32)pp->size;
+	char *nb;
+	while (size < need) size *= 2;
+	nb = (char *)bk_alloc(size);
+	if (!nb) return -LX_ENOMEM;
+	pp_move(pp, nb, (int)size);
+	return 0;
+}
+
+static void pp_shrink(pipe *pp) { pp_move(pp, pp->ibuf, LX_PIPE_SIZE); }
+
 static int pp_read(lx_thread *t, lx_file *f, char *buf, lx_u32 n)
 {
 	pipe *pp = (pipe *)f->priv;
@@ -288,14 +358,15 @@ static int pp_read(lx_thread *t, lx_file *f, char *buf, lx_u32 n)
 		return LX_BLOCK;
 	}
 	while (done < n && pp->count) {
-		int chunk = LX_PIPE_SIZE - pp->head;
+		int chunk = pp->size - pp->head;
 		if (chunk > pp->count) chunk = pp->count;
 		if ((lx_u32)chunk > n - done) chunk = n - done;
 		bk_memcpy(buf + done, pp->buf + pp->head, chunk);
-		pp->head = (pp->head + chunk) % LX_PIPE_SIZE;
+		pp->head = (pp->head + chunk) % pp->size;
 		pp->count -= chunk;
 		done += chunk;
 	}
+	if (pp->buf != pp->ibuf && pp->count <= LX_PIPE_SIZE) pp_shrink(pp);
 	lx_k_event();
 	return (int)done;
 }
@@ -308,16 +379,21 @@ static int pp_write(lx_thread *t, lx_file *f, const char *buf, lx_u32 n)
 		if (t) lx_signal_thread(t, LX_SIGPIPE);
 		return -LX_EPIPE;
 	}
-	space = LX_PIPE_SIZE - pp->count;
+	space = pp->size - pp->count;
 	/* writes of up to 4096 bytes are all or nothing (PIPE_BUF) */
+	if (space < n && !(f->flags & LX_O_NONBLOCK) && pp_readers_wait(t, pp)) {
+		/* (0.37) only parents waiting on t's fork read it: waiting for room
+		 * would never end ($(...) of more than 8 KB in bash), so it grows */
+		if (pp_grow(pp, pp->count + n) == 0) space = pp->size - pp->count;
+	}
 	if (space == 0 || (n <= 4096 && space < n)) {
 		if (f->flags & LX_O_NONBLOCK) return -LX_EAGAIN;
 		return LX_BLOCK;
 	}
-	while (done < n && pp->count < LX_PIPE_SIZE) {
-		int tail = (pp->head + pp->count) % LX_PIPE_SIZE;
-		int chunk = LX_PIPE_SIZE - tail;
-		if (chunk > LX_PIPE_SIZE - pp->count) chunk = LX_PIPE_SIZE - pp->count;
+	while (done < n && pp->count < pp->size) {
+		int tail = (pp->head + pp->count) % pp->size;
+		int chunk = pp->size - tail;
+		if (chunk > pp->size - pp->count) chunk = pp->size - pp->count;
 		if ((lx_u32)chunk > n - done) chunk = n - done;
 		bk_memcpy(pp->buf + tail, buf + done, chunk);
 		pp->count += chunk;
@@ -339,7 +415,7 @@ static int pp_poll_w(lx_file *f)
 {
 	pipe *pp = (pipe *)f->priv;
 	int r = 0;
-	if (LX_PIPE_SIZE - pp->count >= 4096 || (pp->count < LX_PIPE_SIZE && 0)) r |= LX_POLLOUT;
+	if (pp->size - pp->count >= 4096) r |= LX_POLLOUT;
 	if (!pp->readers) r |= LX_POLLERR;
 	return r;
 }
@@ -364,8 +440,9 @@ static int pp_ioctl(lx_thread *t, lx_file *f, lx_u32 req, lx_u32 arg)
 	return -LX_ENOTTY;
 }
 static lx_s64 pp_lseek(lx_file *f, lx_s64 o, int w) { (void)f; (void)o; (void)w; return -LX_ESPIPE; }
-static void pp_close_r(lx_file *f) { pipe *pp = (pipe *)f->priv; pp->readers--; lx_k_event(); if (!pp->readers && !pp->writers) bk_free(pp); }
-static void pp_close_w(lx_file *f) { pipe *pp = (pipe *)f->priv; pp->writers--; lx_k_event(); if (!pp->readers && !pp->writers) bk_free(pp); }
+static void pp_free(pipe *pp) { if (pp->buf != pp->ibuf) bk_free(pp->buf); bk_free(pp); }
+static void pp_close_r(lx_file *f) { pipe *pp = (pipe *)f->priv; pp->readers--; lx_k_event(); if (!pp->readers && !pp->writers) pp_free(pp); }
+static void pp_close_w(lx_file *f) { pipe *pp = (pipe *)f->priv; pp->writers--; lx_k_event(); if (!pp->readers && !pp->writers) pp_free(pp); }
 static int pp_bad_w(lx_thread *t, lx_file *f, const char *b, lx_u32 n) { (void)t; (void)f; (void)b; (void)n; return -LX_EBADF; }
 static int pp_bad_r(lx_thread *t, lx_file *f, char *b, lx_u32 n) { (void)t; (void)f; (void)b; (void)n; return -LX_EBADF; }
 
@@ -377,6 +454,8 @@ int lx_pipe_new(lx_file **r, lx_file **w)
 	pipe *pp = (pipe *)bk_alloc(sizeof *pp);
 	if (!pp) return -LX_ENOMEM;
 	pp->readers = pp->writers = 1;
+	pp->buf = pp->ibuf;
+	pp->size = LX_PIPE_SIZE;
 	pp->ino = pipe_ino++;
 	*r = lx_file_new(&pipe_r_ops, pp, LX_O_RDONLY);
 	*w = lx_file_new(&pipe_w_ops, pp, LX_O_WRONLY);

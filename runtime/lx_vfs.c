@@ -331,6 +331,9 @@ static lx_u64 path_ino(const char *s)
 	return h & 0x7fffffffffffull;
 }
 
+static struct nfile *nfiles;   /* the open native files (below) */
+static int ndoomed;             /* (how many of them are unlinked) */
+
 /* Fills in v for the canonical path (no symbolic link followed at the end).
  * Returns 0, or -ENOENT etc. */
 int lx_vn_lookup(lx_proc *p, const char *path, lx_vn *v)
@@ -382,6 +385,8 @@ int lx_vn_lookup(lx_proc *p, const char *path, lx_vn *v)
 	default:
 		r = -LX_ENOENT;
 	}
+	/* (unlinked while open: gone, though EPOC keeps it until it is closed) */
+	if (r == 0 && ndoomed && v->upper && !LX_S_ISDIR(v->mode) && lx_native_doomed(v->native)) r = -LX_ENOENT;
 	if (r == 0 && !v->ino) v->ino = path_ino(path);
 	return r;
 }
@@ -528,8 +533,47 @@ int lx_vfs_readlink(lx_proc *p, int dirfd, const char *path, char *buf, int size
 
 typedef struct nfile {
 	void *h;
+	struct nfile *next;         /* (every open one: nfiles) */
+	int doomed;                 /* unlinked while open: deleted at its last close */
 	char native[LX_PATH_MAX];
 } nfile;
+
+static int same_native(const char *a, const char *b)
+{
+	/* (EPOC's names: any case) */
+	for (; *a && *b; a++, b++) {
+		char x = *a, y = *b;
+		if (x >= 'A' && x <= 'Z') x += 32;
+		if (y >= 'A' && y <= 'Z') y += 32;
+		if (x != y) return 0;
+	}
+	return *a == *b;
+}
+
+static void nf_link(nfile *n) { n->next = nfiles; nfiles = n; }
+
+/* (0.37) Linux deletes an open file's name at once and its data at the last
+ * close; EPOC refuses to delete an open file (KErrInUse). So a file of ours
+ * that is open is marked, hidden from lookups, and deleted when the last
+ * descriptor on it closes: bash's here-documents, mkstemp-and-unlink, and
+ * the like. A file that EPOC itself holds open is still EBUSY. */
+int lx_native_unlink(const char *native)
+{
+	nfile *n;
+	int r = bk_unlink(native), any = 0;
+	if (r != -LX_EBUSY) return r;
+	for (n = nfiles; n; n = n->next)
+		if (same_native(n->native, native)) { if (!n->doomed) ndoomed++; n->doomed = 1; any = 1; }
+	return any ? 0 : r;
+}
+
+int lx_native_doomed(const char *native)
+{
+	nfile *n;
+	for (n = nfiles; n; n = n->next)
+		if (n->doomed && same_native(n->native, native)) return 1;
+	return 0;
+}
 
 static int nf_pread(lx_thread *t, lx_file *f, char *buf, lx_u32 n, lx_s64 off)
 {
@@ -592,7 +636,21 @@ static int nf_fstat(lx_file *f, struct lx_stat64 *st)
 }
 
 static int nf_poll(lx_file *f) { (void)f; return LX_POLLIN | LX_POLLOUT; }
-static void nf_close(lx_file *f) { nfile *n = (nfile *)f->priv; bk_file_close(n->h); bk_free(n); }
+static void nf_close(lx_file *f)
+{
+	nfile *n = (nfile *)f->priv, **l, *o;
+	int last = 1;
+	bk_file_close(n->h);
+	for (l = &nfiles; *l; l = &(*l)->next)
+		if (*l == n) { *l = n->next; break; }
+	if (n->doomed) {
+		ndoomed--;
+		for (o = nfiles; o; o = o->next)
+			if (same_native(o->native, n->native)) last = 0;
+		if (last) bk_unlink(n->native);
+	}
+	bk_free(n);
+}
 static int nf_truncate(lx_file *f, lx_s64 len) { return bk_file_truncate(((nfile *)f->priv)->h, len); }
 static int nf_sync(lx_file *f) { return bk_file_sync(((nfile *)f->priv)->h); }
 
@@ -611,6 +669,7 @@ static lx_file *open_native(const char *native, int flags, lx_vn *v, int *err)
 	if (!f) { bk_file_close(h); bk_free(n); *err = -LX_ENOMEM; return 0; }
 	n->h = h;
 	lx_strlcpy(n->native, native, sizeof n->native);
+	nf_link(n);
 	f->mode = v->mode ? v->mode : (LX_S_IFREG | 0755);
 	f->ino = v->ino;
 	return f;
@@ -624,6 +683,7 @@ lx_file *lx_native_file(void *h, const char *native, lx_u32 mode, lx_u64 ino, in
 	if (!f) { bk_free(n); return 0; }
 	n->h = h;
 	lx_strlcpy(n->native, native, sizeof n->native);
+	nf_link(n);
 	f->mode = mode;
 	f->ino = ino;
 	return f;
@@ -906,7 +966,7 @@ int lx_vfs_unlink(lx_proc *p, int dirfd, const char *path, int dir)
 	if (dir && !LX_S_ISDIR(v.mode)) return -LX_ENOTDIR;
 	if (!dir && LX_S_ISDIR(v.mode)) return -LX_EISDIR;
 	switch (v.fs) {
-	case LX_FS_NATIVE: if ((r = lx_vn_writable(&v)) < 0) return r; return dir ? bk_rmdir(v.native) : bk_unlink(v.native);
+	case LX_FS_NATIVE: if ((r = lx_vn_writable(&v)) < 0) return r; return dir ? bk_rmdir(v.native) : lx_native_unlink(v.native);
 	case LX_FS_ROOT: return lx_root_unlink(p, &v, dir);
 	default: return -LX_EACCES;
 	}

@@ -202,6 +202,18 @@ Each entry records what was chosen, what else was possible, and why.
   card too slow to start Linux, so it cannot be ruled out that way.
 - **Verdict:** an emulator artefact as far as can be shown here. **Run a long
   job (the M2 suite, `git init`/`add`/`commit`) on a real 5mx to confirm.**
+- **0.37: first starts of Alpine on a fresh card** hang in the 5mx emulator
+  about 2 times in 5 (the banner work saw 3 in 15, at `mv` in
+  psilinux-seed), with the clock stopped: 7 of 15 with 0.37 before
+  decision 63, 6 of 15 after it. Every one stops during the root image's
+  reads, at a card transfer: with the emulator's logs on, either this
+  fault (PC 0x5003f670, FAR 0xe59ff020, then the card driver's own
+  faults) or the card driver left with its interrupt masked
+  (PcCdIntMask 0) and no further transfer. The point is the same from run
+  to run (the reads are the same; the RTC is what varies), and moves when
+  the runner's code changes. Not ours, as far as can be told; the
+  emulator's `EMU_LOGS=1` log and `CF_STATS` (`sector_drains` stopping
+  short) show which runs it hit.
 
 ## 22. git
 - **Chosen:** git 2.47 with https through libcurl and Mbed TLS; no Perl,
@@ -1068,3 +1080,30 @@ Alpine Linux's own armhf programs, unmodified, through a binary translator:
 - **Alternatives:** bigger pipes for socketpairs (only moves the edge, and
   costs the Psion's memory); patching ssl_client (Alpine's own package; any
   program counting on full writes would still break).
+
+## 64. Here-documents, and big $(...), as bash expects (0.37)
+- **Found:** in the 5mx emulator bash said "cannot create temp file for
+  here-document: Resource busy" for any `<<<` or `<<`. bash asks a pipe's
+  size (F_GETPIPE_SZ), and ours said 0, so it used a temporary file; it
+  opens it twice, closes one, and unlinks it while the other is open, and
+  EPOC refuses to delete an open file (KErrInUse, EBUSY). The host harness
+  never showed it: Linux deletes open files.
+- **Chosen:** F_GETPIPE_SZ says 8 KB (F_SETPIPE_SZ: 8 KB or less is
+  accepted, more is EPERM), so short documents go through a pipe as on
+  Linux. And a file of ours unlinked while open is hidden at once and
+  deleted at its last close (`lx_native_unlink`, as Linux does it); one
+  that EPOC itself holds is still EBUSY. The host harness now refuses to
+  delete or rename an open file, as EPOC does (`LX_HOST_UNIX_FILES=1`:
+  not), so the suites see what the Psion sees. Left: the name stays in a
+  directory listing until the close, and stays on the disk if the runner
+  stops before that.
+- **Also found:** a fork child (bash's `$(...)`, a subshell) writing more
+  than a pipe holds to its parent hung for ever: the parent waits for the
+  child (a fork here, DESIGN.md), so nobody reads. Also `$(a | b)`, where b
+  writes and the subshell waits for it. Now a pipe whose every reader is a
+  parent that cannot run until a fork child is done grows to take the
+  write (and shrinks when emptied); if the parent would have run on, more
+  memory is all it cost. `x=$(seq 1 20000)` and `$(head -c 30000 f | tr
+  ...)` work.
+- **Tests:** m1test (unlink an open file; F_GETPIPE_SZ), writetest (a fork
+  child writing 120 KB, itself and through a program it waits for).

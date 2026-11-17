@@ -94,6 +94,24 @@ int main(int argc, char **argv)
 	}
 	check(unlink("/tmp/m1dir/a") == 0 && rmdir("/tmp/m1dir") == 0, "unlink and rmdir");
 	check(unlink("/tmp/m1test2.txt") == 0, "unlink");
+	{
+		/* (0.37) unlinked while open, as bash's here-documents do: EPOC
+		 * refuses that, so the kernel deletes it at the last close */
+		int a = open("/tmp/m1open.txt", O_CREAT | O_EXCL | O_RDWR, 0600), b;
+		check(a >= 0 && write(a, "here\n", 5) == 5, "a temporary file");
+		b = open("/tmp/m1open.txt", O_RDONLY);
+		close(a);
+		check(unlink("/tmp/m1open.txt") == 0, "unlink a file that is open");
+		check(stat("/tmp/m1open.txt", &st) < 0 && errno == ENOENT, "...its name is gone at once");
+		memset(buf, 0, sizeof buf);
+		check(read(b, buf, 100) == 5 && !strcmp(buf, "here\n"), "...and it still reads");
+		close(b);
+		check(stat("/tmp/m1open.txt", &st) < 0 && errno == ENOENT, "...and after the last close it has gone");
+		a = open("/tmp/m1open.txt", O_CREAT | O_EXCL | O_RDWR, 0600);
+		check(a >= 0, "...so the name can be made again");
+		close(a);
+		unlink("/tmp/m1open.txt");
+	}
 	check(getcwd(buf, sizeof buf) && chdir("/tmp") == 0 && getcwd(buf, sizeof buf) && !strcmp(buf, "/tmp"), "chdir/getcwd");
 	check(access("/proc/self/stat", R_OK) == 0, "/proc/self/stat is there");
 	{
@@ -200,6 +218,7 @@ int main(int argc, char **argv)
 		char *cargv[] = { argv[0], "child", "hi", NULL };
 		posix_spawn_file_actions_t fa;
 		check(pipe(p) == 0, "pipe");
+		check(fcntl(p[0], 1032) >= 4096, "F_GETPIPE_SZ: the pipe's size (bash's here-documents)");
 		posix_spawn_file_actions_init(&fa);
 		posix_spawn_file_actions_adddup2(&fa, p[1], 1);
 		posix_spawn_file_actions_addclose(&fa, p[0]);

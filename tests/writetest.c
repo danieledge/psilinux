@@ -6,6 +6,7 @@
  * with poll. Alpine's ssl_client counts on it: after a short write it went
  * on from the wrong place in its buffer, and wget https got 8 KB of zeros
  * in every 16 KB (0.37). A signal while it waits: it returns what went.
+ * And a pipe that only a waiting fork parent reads holds all that is written.
  *   writetest            the checks; prints "N passed, M failed"
  *   writetest -w HOW FD  (the writer)
  */
@@ -127,6 +128,41 @@ static void one(const char *self, const char *how, int sock)
 	check(got == sizeof dst && !bad, what);
 }
 
+/* A fork child (no exec: here its parent waits until it is done) writes
+ * 40 KB into a pipe that the parent reads only after: bash's $(...). With
+ * via, it does so from a program it starts and waits for: $(a | b). The
+ * pipe has to hold it all (0.37: it grows, as nobody else can read it). */
+static void forked(const char *self, int via)
+{
+	int p[2], pid, st = -1;
+	size_t got = 0;
+	ssize_t n;
+	char what[80], fdname[16];
+	if (pipe(p)) { check(0, "pipe"); return; }
+	pid = fork();
+	if (pid == 0) {
+		close(p[0]);
+		if (via) {
+			int w = vfork();
+			if (w == 0) {
+				sprintf(fdname, "%d", p[1]);
+				execl(self, self, "-w", "write", fdname, (char *)0);
+				_exit(9);
+			}
+			waitpid(w, &st, 0);
+			_exit(WIFEXITED(st) ? WEXITSTATUS(st) : 8);
+		}
+		_exit(writer("write", p[1]));
+	}
+	close(p[1]);
+	waitpid(pid, &st, 0);
+	memset(dst, 0, sizeof dst);
+	while (got < sizeof dst && (n = read(p[0], dst + got, sizeof dst - got)) > 0) got += n;
+	close(p[0]);
+	snprintf(what, sizeof what, "a fork child writes %d KB%s that its parent reads after", N * CALLS / 1000, via ? " through a program" : "");
+	check(WIFEXITED(st) && WEXITSTATUS(st) == 0 && got == sizeof dst && !memcmp(src, dst, sizeof dst), what);
+}
+
 int main(int argc, char **argv)
 {
 	if (argc == 4 && !strcmp(argv[1], "-w")) return writer(argv[2], atoi(argv[3]));
@@ -142,6 +178,8 @@ int main(int argc, char **argv)
 	one(argv[0], "nonblock", 1);
 	one(argv[0], "signal", 0);
 	one(argv[0], "signal", 1);
+	forked(argv[0], 0);
+	forked(argv[0], 1);
 	printf("%d passed, %d failed\n", passes, fails);
 	return fails != 0;
 }

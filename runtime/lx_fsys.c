@@ -233,7 +233,12 @@ static int sys_fcntl(lx_thread *t, int fd, int cmd, lx_u32 arg)
 	case LX_F_SETLK: case LX_F_SETLKW: case LX_F_SETLK64: case LX_F_SETLKW64:
 		return 0;
 	case LX_F_SETOWN: case LX_F_GETOWN: return 0;
-	case 1031: case 1032: return 0;     /* F_SETPIPE_SZ / F_GETPIPE_SZ */
+	case 1031: case 1032:              /* F_SETPIPE_SZ / F_GETPIPE_SZ */
+		/* (0.37) a pipe's size, which cannot grow (it said 0, and bash put
+		 * every here-document in a temporary file) */
+		if (!lx_is_pipe(f)) return -LX_EBADF;
+		if (cmd == 1031 && arg > LX_PIPE_SIZE) return -LX_EPERM;
+		return LX_PIPE_SIZE;
 	}
 	return -LX_EINVAL;
 }

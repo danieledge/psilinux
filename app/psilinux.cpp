@@ -402,7 +402,9 @@ void CLxAppUi::ScreenOnOff(TBool aOn)
 		if (!iScreen)
 			{
 			CLxScreenView* v = new CLxScreenView;
-			TRAPD(err, v->ConstructL(TRect(TPoint(0, 0), iEikonEnv->ScreenDevice()->SizeInPixels())));
+			TInt err = KErrNoMemory;
+			if (v)
+				TRAP(err, v->ConstructL(TRect(TPoint(0, 0), iEikonEnv->ScreenDevice()->SizeInPixels())));
 			if (err != KErrNone)
 				{
 				delete v;
@@ -595,7 +597,7 @@ private:
 		TBuf<40> v;
 		v.Format(_L("PsiLinux %S"), &KLxVersion);
 		((CEikLabel*)Control(ELxAbout1))->SetTextL(v);
-		TBuf<80> a;
+		TBuf<100> a;                         // (the version is up to 32 characters)
 		if (iAlpine.Length())
 			a.Format(_L("Alpine Linux %S (armhf, translated for the ARM710T)"), &iAlpine);
 		else

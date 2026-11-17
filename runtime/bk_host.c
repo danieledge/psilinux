@@ -11,6 +11,7 @@
 #define _GNU_SOURCE
 #include "lx_core.h"
 #include "lx_dbt.h"
+#include "../common/lxepoc.h"
 #include <stdarg.h>
 #include <pthread.h>
 #include <semaphore.h>
@@ -18,6 +19,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <strings.h>
 #include <errno.h>
 #include <fcntl.h>
 #include <unistd.h>
@@ -421,6 +423,7 @@ int bk_stat_path(const char *path, bk_stat *st)
 	st->size = s.st_size;
 	st->mtime = (lx_s64)s.st_mtim.tv_sec * 1000000 + s.st_mtim.tv_nsec / 1000;
 	st->readonly = !(s.st_mode & 0200);
+	st->attr = st->readonly ? LX_ATT_READONLY : 0;
 	return 0;
 }
 int bk_mkdir(const char *path) { char hb[LX_PATH_MAX]; return mkdir(host_path(path, hb), 0755) ? lxerr(errno) : 0; }
@@ -487,6 +490,130 @@ int bk_drive_list(char *drives)
 	return n;
 }
 char bk_native_sep(void) { return '/'; }
+
+/* (0.36) chmod on a Psion disk: the read-only attribute is the w bits */
+int bk_set_readonly(const char *path, int on)
+{
+	char hb[LX_PATH_MAX];
+	struct stat s;
+	const char *h = host_path(path, hb);
+	if (stat(h, &s)) return lxerr(errno);
+	return chmod(h, on ? (s.st_mode & 07555) : (s.st_mode | 0200)) ? lxerr(errno) : 0;
+}
+
+int bk_same_file(const char *a, const char *b)
+{
+	char h1[LX_PATH_MAX], h2[LX_PATH_MAX];
+	struct stat s1, s2;
+	if (stat(host_path(a, h1), &s1) || stat(host_path(b, h2), &s2)) return 0;
+	return s1.st_dev == s2.st_dev && s1.st_ino == s2.st_ino;
+}
+
+/* the runner's folder: $LX_SELF (the host tests put an epoc there, in bin/) */
+void bk_self_folder(char *out, int max)
+{
+	const char *d = getenv("LX_SELF");
+	snprintf(out, max, "%s", d ? d : "");
+}
+
+/* ---- EPOC requests: a pretend PsiLinux.app, for the host tests ------------------
+ * (tests/epoctest.sh). It answers at once, from made-up lists, and writes
+ * what EPOC would have shown (an infoprint, a message) to stderr. */
+static char ep_ans[sizeof(LxeHeader) + LXE_MAX];
+static int ep_anslen;
+static char ep_clip[LXE_MAX];
+static int ep_cliplen;
+static int ep_alive;               /* (--wait: the pretend Word closes after a few looks) */
+
+static void ep_put(const LxeHeader *rq, int status, int err, unsigned arg, const char *text, int n)
+{
+	LxeHeader h;
+	if (n < 0) n = text ? (int)strlen(text) : 0;
+	memset(&h, 0, sizeof h);
+	h.magic = LXE_MAGIC;
+	h.version = LXE_VERSION;
+	h.op = rq->op;
+	h.status = status;
+	h.err = err;
+	h.arg = arg;
+	h.len = (unsigned)n;
+	memcpy(ep_ans, &h, sizeof h);
+	if (n) memcpy(ep_ans + sizeof h, text, n);
+	ep_anslen = (int)sizeof h + n;
+}
+
+int bk_epoc_ready(void) { return getenv("LX_EPOC_NOAPP") ? 0 : 1; }
+
+int bk_epoc_send(const char *req, int len)
+{
+	LxeHeader h;
+	const char *a = req + sizeof h, *b;
+	char t[600];
+	int n;
+	memcpy(&h, req, sizeof h);
+	n = (int)h.len;
+	b = n > 0 && (int)strlen(a) + 1 < n ? a + strlen(a) + 1 : "";
+	(void)len;
+	if (!n) a = "";
+	switch (h.op) {
+	case LXE_OP_NOTE: fprintf(stderr, "[epoc] infoprint: %s\n", a); ep_put(&h, LXE_OK, 0, 0, 0, 0); break;
+	case LXE_OP_BEEP: fprintf(stderr, "[epoc] beep %u\n", h.arg); ep_put(&h, LXE_OK, 0, 0, 0, 0); break;
+	case LXE_OP_ALERT: fprintf(stderr, "[epoc] alert: %s / %s\n", a, b); ep_put(&h, LXE_OK, 0, 0, 0, 0); break;
+	case LXE_OP_CONFIRM: fprintf(stderr, "[epoc] confirm: %s\n", a); ep_put(&h, LXE_OK, 0, getenv("LX_EPOC_NO") ? 0 : 1, 0, 0); break;
+	case LXE_OP_CLIPSET: ep_cliplen = n; memcpy(ep_clip, a, n); ep_put(&h, LXE_OK, 0, 0, 0, 0); break;
+	case LXE_OP_CLIPGET: ep_put(&h, LXE_OK, 0, 0, ep_clip, ep_cliplen); break;
+	case LXE_OP_OPEN:
+		fprintf(stderr, "[epoc] open %s\n", a);
+		{ char hb[LX_PATH_MAX]; if (access(host_path(a, hb), F_OK)) { ep_put(&h, LXE_NOTFOUND, -1, 0, "no such file", -1); break; } }
+		if (0) { ep_put(&h, LXE_NOTFOUND, -1, 0, "no such file", -1); break; }
+		ep_alive = 3;
+		ep_put(&h, LXE_OK, 0, 101, "0x1000007F\tWord\n", -1);
+		break;
+	case LXE_OP_RUN:
+		fprintf(stderr, "[epoc] run %s %s\n", a, b);
+		if (!strcasecmp(a, "word") || !strcasecmp(a, "0x1000007f")) {
+			ep_alive = 3;
+			ep_put(&h, LXE_OK, 0, 101, "0x1000007F\tWord\tstarted\n", -1);
+		} else ep_put(&h, LXE_NOTFOUND, -1, 0, "no program of that name", -1);
+		break;
+	case LXE_OP_ALIVE: ep_put(&h, h.arg == 101 && ep_alive-- > 0 ? LXE_OK : LXE_NOTFOUND, 0, 0, 0, 0); break;
+	case LXE_OP_TASKS: ep_put(&h, LXE_OK, 0, 0, "101\t0x1000007F\tWord\tC:\\Documents\\Letter\t\n102\t0x01000A87\tPsiLinux\t\tfg\n", -1); break;
+	case LXE_OP_PS: ep_put(&h, LXE_OK, 0, 0, "1\tEKern\t0x100000B7\t0\t\tZ:\\System\\Programs\\EKern.exe\tsys\n"
+		"5\tEFile\t0x100000B6\t48\t\tZ:\\System\\Programs\\EFile.exe\tsys\n77\tWord\t0x1000007F\t212\t\tZ:\\System\\Apps\\Word\\Word.app\t\n", -1); break;
+	case LXE_OP_KILL: case LXE_OP_CLOSE:
+		if (!strcasecmp(a, "efile")) ep_put(&h, LXE_REFUSED, 0, 0, "EFile is part of EPOC", -1);
+		else if (!strcasecmp(a, "word") || !strcmp(a, "77")) { fprintf(stderr, "[epoc] %s %s\n", h.op == LXE_OP_KILL ? "kill" : "close", a); ep_put(&h, LXE_OK, 0, 0, 0, 0); }
+		else ep_put(&h, LXE_NOTFOUND, -1, 0, "no such program", -1);
+		break;
+	case LXE_OP_INFO: ep_put(&h, LXE_OK, 0, 0, "machine\tPsion Series 5mx\nrom\t1.05(260)\nedition\t\nram_kb\t16384\nfree_kb\t9000\n"
+		"battery_percent\t80\nbattery_mv\t2800\nmains\tno\ndisk\tC\tInternal\t16384\t8000\ndisk\tD\tCF card\t32768\t20000\n", -1); break;
+	case LXE_OP_TIME: ep_put(&h, LXE_OK, 0, 0, "local\t2026-11-16 12:00:00\nutc\t2026-11-16 12:00:00\noffset\t+0000\ndst\tno\n", -1); break;
+	case LXE_OP_LOCALE: ep_put(&h, LXE_OK, 0, 0, "country\t44\ndate_format\tdd/mm/yyyy\nclock\t24\ncurrency\t\xc2\xa3\n", -1); break;
+	case LXE_OP_PRINTERS: ep_put(&h, LXE_OK, 0, 0, "Epson ESC/P2\tZ:\\System\\Printers\\EpsonEsc.pdr\n", -1); break;
+	case LXE_OP_APPS: ep_put(&h, LXE_OK, 0, 0, "0x1000007F\tWord\tZ:\\System\\Apps\\Word\\Word.app\n0x10000084\tAgenda\tZ:\\System\\Apps\\Agenda\\Agenda.app\n", -1); break;
+	case LXE_OP_SHOT: {
+		char hb[LX_PATH_MAX];
+		FILE *f = fopen(host_path(a, hb), "wb");
+		if (!f) { ep_put(&h, LXE_FAILED, -21, 0, "cannot write it", -1); break; }
+		fputs("pretend screenshot\n", f);
+		fclose(f);
+		snprintf(t, sizeof t, "%s\n", a);
+		ep_put(&h, LXE_OK, 0, 0, t, -1);
+		break;
+	}
+	default: ep_put(&h, LXE_UNSUPPORTED, 0, 0, "not on this machine", -1); break;
+	}
+	return 0;
+}
+
+int bk_epoc_answer(char *buf, int max)
+{
+	int n = ep_anslen;
+	if (!n || n > max) return 0;
+	memcpy(buf, ep_ans, n);
+	ep_anslen = 0;
+	return n;
+}
 
 /* ---- sockets ------------------------------------------------------------------- */
 
@@ -776,14 +903,20 @@ int main(int argc, char **argv)
 	r = lx_k_spawn_first(argv[i], argv + i, envp, 0);
 	if (r < 0) { fprintf(stderr, "psihost: cannot start %s: error %d\n", argv[i], -r); return 127; }
 	if (getenv("PSIHOST_INPUT")) input_fd = open(getenv("PSIHOST_INPUT"), O_RDWR | O_NONBLOCK);
-	while (!lx_k.init_exited) {
+	for (;;) {
 		struct pollfd pf[3];
 		int in_at = -1;
 		int n = 0, timeout = -1, j, nsock = 0;
+		if (lx_k.init_exited) {
+			/* (0.36) as the runner: the programs left get SIGHUP and SIGTERM, then a grace, then SIGKILL */
+			if (!lx_k.stopping) lx_k_stop_begin();
+			if (lx_k_stop_done()) break;
+			timeout = 50;
+		}
 		pf[n].fd = wake_pipe[0]; pf[n].events = POLLIN; n++;
 		if (stdin_open) { pf[n].fd = 0; pf[n].events = POLLIN; n++; }
 		if (input_fd >= 0) { in_at = n; pf[n].fd = input_fd; pf[n].events = POLLIN; n++; }
-		if (fb_dirty) timeout = 30;          /* (the screen's picture: soon, once it settles) */
+		if (fb_dirty && (timeout < 0 || timeout > 30)) timeout = 30;          /* (the screen's picture: soon, once it settles) */
 		for (j = 0; j < MAXSOCK; j++) if (socks[j]) nsock++;
 		if (nsock) timeout = 20;              /* (sockets: look at them again soon) */
 		if (wake_at) {

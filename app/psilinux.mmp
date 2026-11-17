@@ -6,7 +6,7 @@ TARGETPATH    \system\apps\psilinux
 
 PROJECT       ptproj
 SUBPROJECT    psilinux
-SOURCE        psilinux.cpp lxterm.cpp lxptview.cpp lxglyphs.cpp lxhelp.cpp lxscreen.cpp lxtermsb.cpp
+SOURCE        psilinux.cpp lxterm.cpp lxptview.cpp lxglyphs.cpp lxhelp.cpp lxscreen.cpp lxtermsb.cpp lxepocsv.cpp
 RESOURCE      psilinux.rss
 
 USERINCLUDE   \ptproj\psilinux \ptproj\psilxterm \ptproj\psilxterm\vterm \ptproj\psilxssh \ptproj\psilxcommon
@@ -14,4 +14,4 @@ SYSTEMINCLUDE \ptproj\psilxterm\vterm \epoc32\include\libc \epoc32\include
 
 LIBRARY       psivterm.lib
 LIBRARY       euser.lib efsrv.lib apparc.lib cone.lib eikon.lib ws32.lib gdi.lib
-LIBRARY       bafl.lib etext.lib estor.lib fbscli.lib estlib.lib
+LIBRARY       bafl.lib etext.lib estor.lib fbscli.lib estlib.lib apgrfx.lib apmime.lib

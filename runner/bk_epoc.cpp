@@ -24,6 +24,7 @@ extern "C" {
 #include "lxshared.h"
 #include "lxfb.h"
 #include "lxsync.h"
+#include "lxepoc.h"
 }
 
 extern "C" int lx_vsnprintf_pub(char* buf, int size, const char* fmt, va_list ap);
@@ -893,18 +894,80 @@ extern "C" int bk_tty_write(lx_tty* tty, const char* buf, int n)
 	}
 
 static TBool gStopping;
+static CPeriodic* gStopTick;
+
+// (0.36) the session is over, and the programs left have ended (or been
+// ended): only now does the app hear of it, and close
+static void StopNow()
+	{
+	if (gStopping)
+		return;
+	gStopping = ETrue;
+	CActiveScheduler::Stop();
+	}
+
+static TInt StopTick(TAny*)
+	{
+	if (!lx_k.stopping)
+		lx_k_stop_begin();               // (here, not inside the exit that ended the session)
+	if (lx_k_stop_done())
+		StopNow();
+	return 1;
+	}
+
 extern "C" void bk_tty_status(lx_tty* tty, int running, int status)
 	{
 	if (!gSh || tty->index != 0 || running)
 		return;
 	gSh->exit_status = status;
-	gSh->state = LXS_EXITED;
+	// (0.36) the first program has ended ("exit" at the top shell): the
+	// others are asked to end, and given a moment to close their files,
+	// before the runner stops (RunL then closes every file and the RFs)
+	if (!gStopTick)
+		gStopTick = CPeriodic::New(CActive::EPriorityStandard);
+	if (gStopTick && !gStopTick->IsActive())
+		gStopTick->Start(1000, 100000, TCallBack(StopTick, 0));
+	else if (!gStopTick)
+		StopNow();
+	}
+
+// ---- (0.36) EPOC requests (lx_epoc.c): to the app through the shared chunk -----
+
+static TUint gEpocAns;           // the last answer the kernel was told of
+
+extern "C" int bk_epoc_ready(void) { return gSh && gSh->epoc_app ? 1 : 0; }
+
+extern "C" int bk_epoc_send(const char* req, int len)
+	{
+	if (!gSh || !gSh->epoc_app)
+		return -LX_ENODEV;
+	if (len > LX_EPOC_BUF)
+		return -LX_E2BIG;
+	Mem::Copy(gSh->epoc_req, req, len);
+	gSh->epoc_req_len = len;
+	gSh->epoc_req_seq++;
 	gAppRinger.Ring(&gSh->app_bell);
-	if (!gStopping)
+	return 0;
+	}
+
+extern "C" int bk_epoc_answer(char* buf, int max)
+	{
+	if (!gSh || gSh->epoc_ans_seq != gSh->epoc_req_seq || gEpocAns == gSh->epoc_ans_seq)
+		return 0;
+	TInt n = gSh->epoc_ans_len;
+	if (n < (TInt)sizeof(LxeHeader) || n > max || n > LX_EPOC_BUF)
 		{
-		gStopping = ETrue;
-		CActiveScheduler::Stop();
+		gEpocAns = gSh->epoc_ans_seq;
+		LxeHeader h;
+		Mem::Copy(&h, gSh->epoc_req, sizeof h);
+		h.status = LXE_FAILED;
+		h.len = 0;
+		Mem::Copy(buf, &h, sizeof h);
+		return sizeof h;
 		}
+	Mem::Copy(buf, gSh->epoc_ans, n);
+	gEpocAns = gSh->epoc_ans_seq;
+	return n;
 	}
 
 // Keys, a resize, a quit or room in 'out' from the app: its doorbell.
@@ -956,6 +1019,8 @@ public:
 				lx_k_tty_writable(&lx_k.ttys[0]);
 				}
 			FbInput();
+			if (gSh->epoc_ans_seq == gSh->epoc_req_seq && gSh->epoc_ans_seq != gEpocAns)
+				lx_k_epoc_answered();        // (0.36) the app has answered an EPOC request
 			if (gSh->bell_magic != PSI_BELL_MAGIC || !iWaiter->Arm(&gSh->eng_bell))
 				return;                      // armed (or no bells: the tick looks)
 			}
@@ -1217,6 +1282,13 @@ static void Trim(TDes& aName)
 		aName.SetLength(aName.Length() - 1);
 	}
 
+// (0.36) EPOC's attributes, as the kernel has them
+static int Attr(TUint aAtt)
+	{
+	return ((aAtt & KEntryAttReadOnly) ? LX_ATT_READONLY : 0) | ((aAtt & KEntryAttHidden) ? LX_ATT_HIDDEN : 0)
+		| ((aAtt & KEntryAttSystem) ? LX_ATT_SYSTEM : 0) | ((aAtt & KEntryAttArchive) ? LX_ATT_ARCHIVE : 0);
+	}
+
 extern "C" int bk_stat_path(const char* path, bk_stat* st)
 	{
 	TFileName name;
@@ -1243,6 +1315,7 @@ extern "C" int bk_stat_path(const char* path, bk_stat* st)
 	st->size = e.iSize;
 	st->mtime = From64(e.iModified.Int64()) - From64(gEpoch) - (lx_s64)UtcOffset() * 1000000;
 	st->readonly = e.IsReadOnly() ? 1 : 0;
+	st->attr = Attr(e.iAtt);
 	return 0;
 	}
 
@@ -1270,7 +1343,48 @@ extern "C" int bk_rename(const char* from, const char* to)
 	Name(b, to);
 	Trim(a);
 	Trim(b);
-	return Err(gFs.Rename(a, b));
+	TInt r = gFs.Rename(a, b);
+	if (r == KErrAlreadyExists && a.CompareF(b) == 0 && a.Compare(b) != 0)
+		{
+		// (0.36) only the case changes ("mv letter Letter"): by way of
+		// another name, in case the file server takes it for a clash
+		TFileName t(b);
+		t.Append(_L("~lx"));
+		r = gFs.Rename(a, t);
+		if (r == KErrNone && (r = gFs.Rename(t, b)) != KErrNone)
+			gFs.Rename(t, a);
+		}
+	return Err(r);
+	}
+
+extern "C" int bk_same_file(const char* a, const char* b)
+	{
+	TFileName x, y;
+	Name(x, a);
+	Name(y, b);
+	Trim(x);
+	Trim(y);
+	return x.CompareF(y) == 0;
+	}
+
+extern "C" int bk_set_readonly(const char* path, int on)
+	{
+	TFileName name;
+	Name(name, path);
+	Trim(name);
+	return Err(on ? gFs.SetAtt(name, KEntryAttReadOnly, 0) : gFs.SetAtt(name, 0, KEntryAttReadOnly));
+	}
+
+// the runner's folder (PsiLinux's: /psion/bin is its bin\ folder)
+extern "C" void bk_self_folder(char* out, int max)
+	{
+	TParse p;
+	TFileName me(RProcess().FileName());
+	p.Set(me, NULL, NULL);
+	TPtrC dp(p.DriveAndPath());
+	TPtr8 o((TUint8*)out, 0, max - 1);
+	o.Copy(dp.Left(Min(dp.Length(), max - 1)));
+	out[o.Length()] = 0;
 	}
 
 extern "C" int bk_set_mtime(const char* path, lx_s64 mtime)
@@ -1325,6 +1439,7 @@ extern "C" const char* bk_dir_next(void* dp, bk_stat* st)
 	st->size = e.iSize;
 	st->mtime = From64(e.iModified.Int64()) - From64(gEpoch) - (lx_s64)UtcOffset() * 1000000;
 	st->readonly = e.IsReadOnly() ? 1 : 0;
+	st->attr = Attr(e.iAtt);
 	return d->iName;
 	}
 
@@ -1543,6 +1658,8 @@ static void RunL()
 		}
 	gStopping = ETrue;
 	lx_k_shutdown();
+	delete gStopTick;
+	gStopTick = 0;
 	bk_log("PsiLinux runner: stopped (the kernel's stack: %u of %u bytes used at most)", StackUsed(), KStackSize);
 	delete gTerm;
 	gTerm = 0;

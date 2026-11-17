@@ -25,7 +25,7 @@
 extern "C" {
 #endif
 
-#define LX_VERSION "0.33"
+#define LX_VERSION "0.36"
 #define LX_MAXPROC 64
 #define LX_MAXTHREAD 64
 #define LX_MAXFD 128
@@ -319,6 +319,9 @@ typedef struct lx_kernel {
 	lx_u32 random_seed;
 	int no_bx;                  /* (0.28) the CPU has no BX (the netBook's SA-1100): PsiLinux's own
 	                             * programs get MOV PC, Rn in its place when they are loaded */
+	int sys_write;              /* (0.36) Linux may change the Psion's \System folders (epoc syswrite on --force) */
+	int stopping;               /* (0.36) the session is ending: processes were asked to (lx_k_stop_begin) */
+	lx_s64 stop_at;             /* ...and when they are made to */
 } lx_kernel;
 
 extern lx_kernel lx_k;
@@ -375,7 +378,12 @@ typedef struct bk_stat {
 	lx_s64 size;
 	lx_s64 mtime;               /* microseconds since 1970 */
 	int readonly;
+	int attr;                   /* (0.36) LX_ATT_*: EPOC's attributes of the file */
 } bk_stat;
+#define LX_ATT_READONLY 1
+#define LX_ATT_HIDDEN   2
+#define LX_ATT_SYSTEM   4
+#define LX_ATT_ARCHIVE  8
 void *bk_file_open(const char *path, int flags, int *err);   /* LX_O_* flags */
 int bk_file_read(void *h, lx_s64 off, char *buf, lx_u32 n);
 int bk_file_write(void *h, lx_s64 off, const char *buf, lx_u32 n);
@@ -389,6 +397,13 @@ int bk_rmdir(const char *path);
 int bk_unlink(const char *path);
 int bk_rename(const char *from, const char *to);
 int bk_set_mtime(const char *path, lx_s64 mtime);
+int bk_set_readonly(const char *path, int on);   /* (0.36) chmod a-w / u+w on a Psion disk */
+int bk_same_file(const char *a, const char *b);  /* (0.36) the same file, names compared as the disk does (EPOC: case-blind) */
+/* (0.36) EPOC requests (lx_epoc.c, common/lxepoc.h): one at a time */
+int bk_epoc_ready(void);                      /* 1: something answers them (PsiLinux.app) */
+int bk_epoc_send(const char *req, int len);   /* 0, or -errno */
+int bk_epoc_answer(char *buf, int max);       /* the answer's length when there is one, else 0 */
+void bk_self_folder(char *out, int max);      /* the runner's own folder ("C:\System\Apps\PsiLinux\") */
 /* directories: bk_dir_next gives one name at a time, NULL at the end */
 void *bk_dir_open(const char *path, int *err);
 const char *bk_dir_next(void *d, bk_stat *st);
@@ -427,6 +442,11 @@ void lx_rand_event(lx_u32 what);                /* (a key, a network event: its 
 void lx_k_event(void);                        /* something changed (a socket...): retry the parked calls */
 void lx_k_boost(int on);                      /* (0.29) around typed input: a translated thread it wakes goes first */
 void lx_k_shutdown(void);
+void lx_k_stop_begin(void);                   /* (0.36) the session ends: SIGHUP, SIGTERM, then (lx_k_stop_due) SIGKILL */
+int lx_k_stop_done(void);                     /* ...1 when no process is left (or the grace is over and they were killed) */
+void lx_k_epoc_answered(void);                /* (0.36) the app answered an EPOC request */
+lx_file *lx_epoc_open(lx_proc *p, int flags, lx_u64 ino, int *err);
+int lx_epoc_allowed(lx_proc *p);
 
 /* the kernel's own helpers, shared between its files */
 lx_s64 lx_now(void);

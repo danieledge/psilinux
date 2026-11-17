@@ -1,14 +1,17 @@
-; PsiLinux 0.29 installer for the Psion Series 5mx (EPOC R5)
+; PsiLinux 0.36 installer for the Psion Series 5mx (EPOC R5)
 ; PsiLinux.app: the window (PsiTerm's terminal). psilxrun.exe: the runner,
 ; which runs the Linux programs (and translates Alpine's). The programs are in
 ; PsiLinux-root.sis (\Linux\ROOT.IMG) and PsiLinux-alpine-root.sis (\Linux\Alpine\).
 &EN
-#{"PsiLinux"},(0x01000A87),0,35,0
+#{"PsiLinux"},(0x01000A87),0,36,0
 "psilinux.app"-"!:\System\Apps\PsiLinux\PsiLinux.app"
 "psilinux.rsc"-"!:\System\Apps\PsiLinux\PsiLinux.rsc"
 "psilinux.mbm"-"!:\System\Apps\PsiLinux\PsiLinux.mbm"
 "psilinux.aif"-"!:\System\Apps\PsiLinux\PsiLinux.aif"
 "psilxrun.exe"-"!:\System\Apps\PsiLinux\psilxrun.exe"
+; (0.36) the epoc command, which Linux sees as /psion/bin/epoc
+"epoc"-"!:\System\Apps\PsiLinux\bin\epoc"
+"epoc-completion.bash"-"!:\System\Apps\PsiLinux\bin\epoc-completion.bash"
 ; the netBook's cache driver (the runner loads it on a netBook only)
 "lxsync1.ldd"-"!:\System\Libs\LxSync1.ldd"
 "psiterm.gdr"-"!:\System\Apps\PsiLinux\PsiTerm.gdr"

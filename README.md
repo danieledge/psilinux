@@ -26,7 +26,7 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 
 ## Contents
 
-- [What's new in 0.33](#whats-new-in-033)
+- [What's new in 0.36](#whats-new-in-036)
 - [Screenshots](#screenshots)
 - [What it is](#what-it-is)
 - [What is new about it](#what-is-new-about-it)
@@ -35,16 +35,20 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 - [Speed](#speed)
 - [Installing](#installing)
 - [Using it](#using-it)
+- [Your Psion from the shell](#your-psion-from-the-shell)
 - [Building and testing](#building-and-testing)
 - [Documents](#documents)
 - [Support](#support)
 - [Credits and licences](#credits-and-licences)
 
-## What's new in 0.33
+## What's new in 0.36
 
 Since 0.22, the last release.
 
 New:
+- **Your Psion from the shell** ([below](#your-psion-from-the-shell)): the `epoc` command opens files in their programs, starts and switches programs, lists the task list and EPOC's processes, closes and ends programs, reads and sets the clipboard, shows infoprints and messages, takes screenshots, and tells you the battery, memory and disks. `xdg-open` and `open` are `epoc open`. Made for scripts: tab-separated output (or `--json`), exit codes, `--wait`.
+- The Psion's disks are under `/psion` too (`/psion/c`, `/psion/d`, `/psion/z`), with EPOC's names, the read-only attribute as the w bits, and Z: and every `\System` folder read-only to Linux, so a stray `rm` cannot break EPOC.
+- `exit` at the first shell closes PsiLinux, after ending the programs left and closing their files. With jobs still running it warns first, as bash does.
 - Runs on the netBook and Series 7 as well as the 5mx, with the terminal in colour (PsiTerm's colour schemes). Their StrongARM has separate instruction and data caches, so the runner now cleans them after writing code, and it rewrites BX, which the StrongARM does not have, as programs load. Still being tested on a real netBook.
 - A graphical desktop, as separate installers: X with a window manager and xterm (PsiLinux-X), Links in graphics mode (PsiLinux-Links) and Doom (PsiLinux-Doom).
 - The terminal is PsiTerm's, with its typefaces (Terminus, Spleen, Gohufont, Cozette), zoom levels and themes. Preferences > Screen has Typeface.
@@ -58,6 +62,7 @@ Changed:
 - apk can use the Atom modem's own proxy as its package server.
 
 Fixed:
+- `mv letter Letter` on a Psion disk deleted the file (it is the same file there).
 - /proc/cpuinfo said "Psion Series 5mx" and an ARM710T on every machine. It now gives the machine's own name, and the StrongARM SA-1100 on the netBook and Series 7.
 - DNS lookups waited 2.5 s for a retry every time.
 - Long output (`seq 1 400`) could close PsiLinux.
@@ -115,8 +120,9 @@ Linux in it. There are two kinds of Linux to start:
   runs. You get Alpine's boot, bash, nano, less, man, htop, ssh and a few
   games ready to use, and `apk add` for the rest of Alpine's packages.
 
-The Psion's own disks appear as `/c` and `/d`, so Linux programs can read and
-write your documents. Programs reach the Internet through the Psion's own
+The Psion's own disks appear as `/psion/c` and `/psion/d` (and `/c`, `/d`),
+so Linux programs can read and write your documents, and the `epoc` command
+opens them in the Psion's own programs. Programs reach the Internet through the Psion's own
 Internet connection.
 
 ![Alpine's shell: the release, the root folder, and arithmetic](docs/img/alpine-shell.png)
@@ -498,6 +504,163 @@ If you try PsiLinux on a real 5mx, [docs/TEST-5MX.md](docs/TEST-5MX.md) is a
 test sheet, and reports are very welcome as issues: back up C: and D: first,
 because the Psion may restart in the middle of a test.
 
+## Your Psion from the shell
+
+PsiLinux's shell is a terminal for the Psion itself, not only for Linux.
+The Psion's disks are folders, and the `epoc` command does what a tap on
+the System screen does, and more.
+
+<table>
+<tr><th>netBook (Coda)</th><th>Series 5mx</th></tr>
+<tr><td colspan="2"><b>epoc info, and the disks under /psion</b></td></tr>
+<tr>
+<td><a href="docs/img/netbook-epoc-info.png"><img src="docs/img/netbook-epoc-info.png" alt="netBook: ls /psion, the Documents folder, epoc info with Coda's edition and battery" width="400"></a></td>
+<td><a href="docs/img/5mx-epoc-info.png"><img src="docs/img/5mx-epoc-info.png" alt="Series 5mx: epoc info, the disks, and epoc version" width="400"></a></td>
+</tr>
+<tr><td colspan="2"><b>epoc open: a .docx in Coda's Word; a Word file on the 5mx</b></td></tr>
+<tr>
+<td><a href="docs/img/netbook-epoc-open-docx.png"><img src="docs/img/netbook-epoc-open-docx.png" alt="netBook: Garden notes.docx open in Word" width="400"></a></td>
+<td><a href="docs/img/5mx-epoc-open-word.png"><img src="docs/img/5mx-epoc-open-word.png" alt="Series 5mx: a Word file opened from the shell" width="400"></a></td>
+</tr>
+<tr><td colspan="2"><b>epoc tasks and ps; the clipboard, an infoprint, a refused kill, a read-only \System</b></td></tr>
+<tr>
+<td><a href="docs/img/netbook-epoc-tasks.png"><img src="docs/img/netbook-epoc-tasks.png" alt="netBook: epoc tasks and epoc ps" width="400"></a></td>
+<td><a href="docs/img/5mx-epoc-ps.png"><img src="docs/img/5mx-epoc-ps.png" alt="Series 5mx: epoc ps, epoc clip, epoc kill EFile refused, touch in System refused" width="400"></a></td>
+</tr>
+<tr>
+<td><a href="docs/img/netbook-epoc-clip.png"><img src="docs/img/netbook-epoc-clip.png" alt="netBook: the clipboard, a screenshot, a refused kill, a read-only System folder, the time and locale" width="400"></a></td>
+<td></td>
+</tr>
+<tr><td colspan="2"><b>exit with a job running warns first; a second exit closes PsiLinux</b></td></tr>
+<tr>
+<td><a href="docs/img/netbook-exit-jobs.png"><img src="docs/img/netbook-exit-jobs.png" alt="netBook: There are running jobs" width="400"></a></td>
+<td><a href="docs/img/5mx-exit-jobs.png"><img src="docs/img/5mx-exit-jobs.png" alt="Series 5mx: There are running jobs" width="400"></a></td>
+</tr>
+</table>
+
+### The disks
+
+| Linux | EPOC |
+|---|---|
+| `/psion/c` | C:, the internal disk |
+| `/psion/d` | D:, the CompactFlash card |
+| `/psion/z` | Z:, the ROM (read-only) |
+| `/psion/bin` | the `epoc` command (beside PsiLinux) |
+
+`/c` and `/d` are the same disks, as before. `ls`, `cp`, `vi`, `grep` and
+`find` work there as anywhere. A few things are EPOC's way, not Linux's:
+
+- Names are EPOC's: `Letter` and `LETTER` are the same file, and spaces are
+  common (`"/psion/c/Documents/Garden notes.docx"`).
+- The w bits are EPOC's read-only attribute: `chmod a-w file` sets it,
+  `chmod u+w file` clears it. EPOC has no execute bit, so every file can be run.
+- Z: is read-only, and so is every disk's `\System` folder, where EPOC's
+  programs live: `rm` or `cp` there says "Read-only file system". If you
+  really mean to, `epoc syswrite on --force` allows it until
+  `epoc syswrite off` or the next start.
+
+### The epoc command
+
+```sh
+epoc open Letter.docx            # open a file in its program, as a tap on it does
+xdg-open /psion/c/Documents/Readme   # (xdg-open and open are the same thing)
+epoc run Word                    # start Word, or switch to it if it is running
+epoc run Agenda /psion/c/Documents/Agenda    # a program and a file
+epoc tasks                       # the task list: id, uid, caption, document, fg
+epoc ps -H                       # EPOC's processes, with a heading
+epoc close Word                  # ask Word to close (it saves, as from the task list)
+epoc kill PsiAmp                 # end a process now (EPOC's own are refused)
+epoc info                        # machine, ROM, Coda's edition, memory, battery, disks
+epoc info battery_percent        # one value
+epoc clip get | wc -w            # EPOC's clipboard, as text
+ls -l | epoc clip set            # ...and back
+epoc note "Backup done"          # an infoprint
+epoc alert "Time to go" "The train is at 8:12"     # a message: waits for Continue
+epoc confirm "Delete the old logs?" && rm old.log  # Yes: exit 0, No: exit 1
+epoc beep
+epoc shot                        # a screenshot (Coda's Screenshot, as a PNG; on a plain 5mx, an .mbm)
+epoc time; epoc locale           # EPOC's clock and time zone; its country settings
+epoc printers                    # the printer drivers there are
+epoc path Letter.docx            # the EPOC name: C:\Documents\Letter.docx
+epoc help                        # all of them, and the exit codes
+```
+
+Programs are named by their caption (`Word`, `Agenda`, `PsiAmp`), their file
+(`Word.app`) or their UID (`0x1000007F`); `epoc apps` lists them, and Tab
+completes them in bash.
+
+What it cannot do: EPOC has no "print this file" (each program prints its
+own documents), so `epoc print` says so; open the file and print from its
+File menu, to a printer or to a file.
+
+**Safe by design.** Only programs on the Psion's own terminal can use EPOC
+this way: not over ssh, and not from a daemon. Nothing listens on the
+network. `epoc kill` never ends EPOC itself or PsiLinux, and ends another
+system process only with `--force`.
+
+### In scripts
+
+The output is made to be read by programs: lists are tab-separated lines
+(`-H` adds a heading, `--json` gives JSON), a command that works prints
+nothing, errors go to stderr, and the exit code says what happened:
+
+| Code | Meaning |
+|---|---|
+| 0 | done (`confirm`: yes) |
+| 1 | EPOC could not do it (`confirm`: no) |
+| 2 | a bad command line |
+| 3 | not found: no such program, task, process or file |
+| 4 | refused: a system process, `\System`, not the Psion's own terminal |
+| 5 | not available on this machine |
+| 6 | timed out (`--timeout S`) |
+| 7 | PsiLinux's window does not answer |
+| 8 | this PsiLinux is older than the request |
+| 9 | interrupted |
+
+Waiting: `epoc run --wait Word` and `epoc open --wait FILE` return when the
+program closes; `epoc wait Word` waits for one that is running;
+`epoc wait-file PATH` until a file is there (`--gone`, `--change`);
+`epoc wait-battery 90` until the battery is at least 90% (`--below 20`).
+
+These three are in `/usr/share/psilinux/examples/`. Back up your documents to
+the card, in a folder named by the date:
+
+```sh
+#!/bin/sh
+# backup-docs: C:\Documents to the card, D:\Backup\2026-11-17\
+to=/psion/d/Backup/$(date +%Y-%m-%d)
+mkdir -p "$to" && cp -r /psion/c/Documents/. "$to/" \
+	&& epoc note "Documents backed up to $(epoc path "$to")" \
+	|| { epoc alert "The backup failed" "See the shell"; exit 1; }
+```
+
+Open today's diary and say what day it is:
+
+```sh
+#!/bin/sh
+# today: Agenda with its file, and a reminder
+epoc run Agenda /psion/c/Documents/Agenda
+epoc note "Today is $(date '+%A %d %B')"
+```
+
+Print a folder of files, one at a time: each opens in its own program, you
+print it (File > Print, to a printer or to a file), close it, and the next
+one opens:
+
+```sh
+#!/bin/sh
+for f in /psion/c/Documents/Reports/*; do
+	epoc open --wait "$f" || { echo "could not open $f" >&2; exit 1; }
+done
+epoc note "All printed"
+```
+
+Tell me when it has charged:
+
+```sh
+epoc wait-battery 90 && epoc beep && epoc alert "Charged to 90%"
+```
+
 ## Building and testing
 
 PsiLinux builds in Docker. It carries the suite's shared code,
@@ -511,6 +674,7 @@ tools/lxbuild toolchain                            # GCC 14 + patched musl, once
 tools/lxbuild "rootfs/build-rootfs.sh"             # PsiLinux's own root
 alpine/build-root.sh                               # the Alpine root
 tools/lxbuild "tests/run-host.sh"                  # the test suites on the host harness
+tools/lxbuild "tests/epoctest.sh"                  # the epoc command, /dev/epoc and /psion, with a pretend PsiLinux.app
 tools/lxbuild "tests/run-alpine.sh"                # Alpine mode: shell tests under sh and bash, bash in a terminal, the memory reserve
 tests/run-ssh.sh                                   # ssh against a throwaway sshd in docker (run on the PC): key, password, host key question
 ```
@@ -532,7 +696,8 @@ SDK, the emulator, the package helper and making a release.
 | `app/` | PsiLinux.app: the window, menus, Help |
 | `runner/` | psilxrun.exe's EPOC side: threads, files, sockets, exceptions |
 | `runtime/` | the kernel and the translator, portable C (also built as psihost) |
-| `common/` | the chunk the app and the runner share |
+| `common/` | the chunk the app and the runner share, and the EPOC requests' format |
+| `epoc/` | the epoc command (a Linux program) and its tests |
 | `toolchain/` | the toolchain build, the musl patch, the atomics |
 | `rootfs/`, `ports/` | PsiLinux's own root: BusyBox and the other programs |
 | `alpine/` | the Alpine root build, PsiLinux's files in it, and the apk helper |

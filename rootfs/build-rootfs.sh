@@ -82,6 +82,9 @@ image() {
 	cp "$REPO"/tests/*.sh "$STAGE/usr/lib/psilinux/tests/" 2>/dev/null || true
 	chmod 755 "$STAGE"/usr/lib/psilinux/tests/*
 	ln -sf ../lib/psilinux/tests/hello "$STAGE/usr/bin/hello"
+	# (0.36) the epoc command is the runner's own (/psion/bin/epoc, from PsiLinux.sis)
+	for n in epoc xdg-open open; do ln -sf /psion/bin/epoc "$STAGE/usr/bin/$n"; done
+	mkdir -p "$STAGE/usr/share/psilinux/examples"; install -m 755 "$REPO"/epoc/examples/* "$STAGE/usr/share/psilinux/examples/"
 	python3 "$REPO/tools/mkroot.py" "$STAGE" "$OUT/ROOT.IMG" --parts 1024    # (in parts: DECISIONS.md 54)
 }
 

@@ -89,6 +89,14 @@ rm -rf "$P"; mkdir -p "$P"
 cp "$REL/psilinux.app" "$REL/psilinux.rsc" "$TOP/build/lxrun-obj/psilxrun.exe" "$REL/lxsync1.ldd" "$P/"
 cp "$PTCORE/pkg/psiterm.gdr" "$P/psiterm.gdr"       # (PsiTerm's fonts: Terminus, Spleen, Gohufont, Cozette)
 cp "$TOP/build/psilinux-icons/psilinux.aif" "$TOP/build/psilinux-icons/psilinux.mbm" "$P/"
+# (0.36) the epoc command (a Linux program, epoc/Makefile, built in
+# psilinux-build), which the kernel shows as /psion/bin/epoc
+if [ -f "$TOP/build/epoc/epoc" ]; then
+	cp "$TOP/build/epoc/epoc" "$P/epoc"
+	cp "$HERE/epoc/epoc-completion.bash" "$P/epoc-completion.bash"
+else
+	echo "(no build/epoc/epoc: tools/lxbuild \"make -C epoc\" first, for the epoc command)"
+fi
 if [ "$1" = sis ]; then
 	install -m 644 "$REL/stdlib.sis" "$P/STDLIB.SIS"
 	cp "$HERE/pkg/psilinux.pkg" "$PTCORE/pkg/terminus-licence.txt" "$P/"

@@ -1,0 +1,55 @@
+--- a/shell/hush.c
++++ b/shell/hush.c
+@@ -10223,6 +10223,34 @@
+ 	return EXIT_SUCCESS;
+ }
+ 
++/* PsiLinux: "exit" (or ^D) with jobs still there warns first, as bash
++ * with checkjobs does; a second exit leaves. Only an interactive shell. */
++static int psi_exit_warned;
++static int psi_jobs_block_exit(void)
++{
++#if ENABLE_HUSH_JOB
++	struct pipe *job;
++	int running = 0, stopped = 0;
++	if (!G_interactive_fd || psi_exit_warned)
++		return 0;
++	for (job = G.job_list; job; job = job->next) {
++		if (job->alive_cmds == 0)
++			continue;
++		if (job->stopped_cmds == job->alive_cmds)
++			stopped++;
++		else
++			running++;
++	}
++	if (!running && !stopped)
++		return 0;
++	psi_exit_warned = 1;
++	fprintf(stderr, "There are %s jobs.\n", stopped ? "stopped" : "running");
++	return 1;
++#else
++	return 0;
++#endif
++}
++
+ int hush_main(int argc, char **argv) MAIN_EXTERNALLY_VISIBLE;
+ int hush_main(int argc, char **argv)
+ {
+@@ -10748,6 +10776,8 @@
+ 	}
+ 
+ 	parse_and_run_file(hfopen(NULL)); /* stdin */
++	while (psi_jobs_block_exit())   /* (PsiLinux: ^D with jobs: once more) */
++		parse_and_run_file(hfopen(NULL));
+ 
+  final_return:
+ 	hush_exit(G.last_exitcode);
+@@ -10941,6 +10971,8 @@
+ 
+ 	/* note: EXIT trap is run by hush_exit */
+ 	argv = skip_dash_dash(argv);
++	if (psi_jobs_block_exit())
++		return EXIT_FAILURE;
+ 	if (argv[0] == NULL) {
+ #if ENABLE_HUSH_TRAP
+ 		if (G.pre_trap_exitcode >= 0) /* "exit" in trap uses $? from before the trap */

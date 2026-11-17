@@ -21,8 +21,9 @@ static const TLxHelpTopic KHelpTopics[] =
 	  "Linux starts when PsiLinux opens, with a shell (BusyBox's hush). Type a command and press Enter. "
 	  "\"help\" lists the shell's own commands and \"busybox\" the rest of BusyBox's.\n"
 	  "\n"
-	  "\"exit\" (or Ctrl+D on an empty line) ends the shell and Linux with it; Enter starts it again. "
-	  "File > End Linux (Shift+Ctrl+D) ends every Linux program at once, and File > Close "
+	  "\"exit\" (or Ctrl+D on an empty line) at the first shell ends Linux and closes PsiLinux, after "
+	  "ending the programs left and closing their files. With jobs still running it warns first: "
+	  "exit again to close. File > End Linux (Shift+Ctrl+D) ends every Linux program at once, and File > Close "
 	  "(Shift+Ctrl+E) closes PsiLinux.\n"
 	  "\n"
 	  "The status line at the bottom shows the program in front, how many Linux programs are running, "
@@ -107,15 +108,21 @@ static const TLxHelpTopic KHelpTopics[] =
 	  "schemes (Clean, Dracula, Nord, Solarized Dark...); on the 5mx, as greys, by brightness." },
 
 	{ "Files",
-	  "Linux sees the Psion's disks as /c and /d (and the ROM as /z): ls /d lists the memory disk, and "
-	  "Linux programs can read and change Psion files there. Psion files keep their own names.\n"
+	  "Linux sees the Psion's disks as /psion/c, /psion/d and /psion/z (the ROM), and as /c and /d: "
+	  "ls /psion/d lists the memory disk, and Linux programs can read and change Psion files there. "
+	  "Psion files keep their own names, and as on EPOC Letter and LETTER are one file. The ROM, and "
+	  "every disk's System folder, are read-only to Linux (epoc syswrite on --force allows it).\n"
+	  "\n"
+	  "The epoc command works your Psion from the shell: epoc open FILE opens a file in its program, "
+	  "epoc run Word starts a program, epoc tasks and epoc ps list them, epoc clip get and set use the "
+	  "clipboard, epoc note shows a message. epoc help lists them all.\n"
 	  "\n"
 	  "The rest of Linux's files - /bin, /etc, /usr, your home folder /root and /tmp - are in the Linux "
 	  "folder, \\Linux\\ on the disk chosen with Tools > Linux disk (the memory disk if there is one). "
 	  "ROOT.IMG there holds the programs; your own files and changes go in \\Linux\\root\\.\n"
 	  "\n"
 	  "Symbolic links and file modes work in Linux's own folders. The Psion's disks have neither: there "
-	  "every file can be run, and chmod changes nothing.\n"
+	  "every file can be run, and chmod changes only the read-only attribute (chmod a-w, u+w).\n"
 	  "\n"
 	  "/proc and /dev work as on Linux: ps, top, free and df read them." },
 

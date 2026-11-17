@@ -13,6 +13,7 @@
 #include <eikappui.h>
 #include <estlib.h>
 #include "lxterm.h"
+#include "lxepocsv.h"
 
 _LIT(KRunnerExe, "psilxrun.exe");
 _LIT(KLxFontFile, "PsiTerm.gdr");          // PsiTerm's fonts, beside the program
@@ -32,6 +33,7 @@ CLxSession::CLxSession(CLxTermView& aView) : iView(aView), iLastState(-1)
 CLxSession::~CLxSession()
 	{
 	Kill();
+	delete iEpoc;
 	delete iTick;
 	delete iWaiter;                          // (before the chunk it points into)
 	iRinger.Close();
@@ -61,6 +63,14 @@ TInt CLxSession::Start(const TDesC& aRoot, const TDesC8& aProgram, TBool aLogin,
 	iShared->bell_magic = PSI_BELL_MAGIC;
 	iShared->reserve = iReserve;
 	iShared->log_on = iLogOn ? 1 : 0;
+	// (0.36) EPOC requests: this window answers them
+	if (!iEpoc)
+		{
+		TRAPD(err, iEpoc = CLxEpoc::NewL());
+		if (iEpoc)
+			iEpoc->SetAnswered(TCallBack(EpocAnswered, this));
+		}
+	iShared->epoc_app = iEpoc ? 1 : 0;
 	TPtr8 root((TUint8*)iShared->root, 0, sizeof(iShared->root) - 1);
 	root.Copy(aRoot);
 	TPtr8 prog((TUint8*)iShared->program, 0, sizeof(iShared->program) - 1);
@@ -114,6 +124,12 @@ TInt CLxSession::BellCallback(TAny* aSelf)
 	return 0;
 	}
 
+TInt CLxSession::EpocAnswered(TAny* aSelf)
+	{
+	((CLxSession*)aSelf)->Ring();
+	return 0;
+	}
+
 TInt CLxSession::TickCallback(TAny* aSelf)
 	{
 	CLxSession* s = (CLxSession*)aSelf;
@@ -158,6 +174,9 @@ void CLxSession::Pump()
 		iLastInfo = iShared->info_seq;
 		iView.SessionInfoChanged();
 		}
+	// (0.36) an EPOC request from Linux (the epoc command)
+	if (iEpoc && iRunning && iEpoc->Serve(*iShared))
+		Ring();
 	TInt state = iShared->state;
 	if (iProcessOpen && iRunning && iProcess.ExitType() != EExitPending && state < LXS_EXITED)
 		{
@@ -491,6 +510,7 @@ CLxTermView::CLxTermView()
 
 CLxTermView::~CLxTermView()
 	{
+	delete iCloser;
 	delete iSession;
 	}
 
@@ -658,6 +678,22 @@ void CLxTermView::SessionOutput(const TUint8* aBytes, TInt aLen)
 void CLxTermView::SessionStateChanged()
 	{
 	TInt state = iSession->State();
+	// (0.36) "exit" (or ^D) at the top shell: Linux has ended by itself, and
+	// its programs have been ended and their files closed (the runner waits
+	// for that): PsiLinux closes, back to where you were. A failure, or a
+	// shell killed by a signal, stays on the screen to be read.
+	if (state == LXS_EXITED && (iSession->ExitStatus() & 0x7f) == 0)
+		{
+		iEnded = ETrue;
+		if (!iCloser)
+			iCloser = CIdle::New(CActive::EPriorityStandard);
+		if (iCloser && !iCloser->IsActive())
+			{
+			iCloser->Start(TCallBack(CloseApp, this));
+			iSshActive = EFalse;
+			return;
+			}
+		}
 	if (state == LXS_EXITED || state == LXS_FAILED)
 		{
 		iEnded = ETrue;
@@ -673,6 +709,12 @@ void CLxTermView::SessionStateChanged()
 		}
 	iSshActive = iSession->Running();        // (PsiTerm's bell rings only in a live session)
 	SessionInfoChanged();
+	}
+
+TInt CLxTermView::CloseApp(TAny*)
+	{
+	CEikonEnv::Static()->EikAppUi()->HandleCommandL(EEikCmdExit);
+	return 0;
 	}
 
 void CLxTermView::SessionInfoChanged()

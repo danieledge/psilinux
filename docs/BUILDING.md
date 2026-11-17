@@ -166,6 +166,23 @@ Shift+Ctrl+H, `|` Shift+Ctrl+I) and leaves a screenshot a second in
 `build/emu/NAME/`. A file named `TRACE` in the card's `\Linux\` folder makes
 the runner log every system call to `\Linux\PsiLinux.log`.
 
+**The netBook** (0.36): its emulator does not mount the card, so
+`tests/emu/netbook/` makes a scratch Coda image with PsiLinux, a small
+BusyBox-only root and two documents in the ROM, and a test launcher in
+Jotter's place that copies them to C: at boot and starts PsiLinux (never a
+real image; it needs Coda's image tools in `../psion-netbook`, and a Coda
+image built with room: `mkimage.mts --psi-on-card --rom-mb 16 --out DIR`):
+
+```sh
+core/tools/docker/psibuild "bash tests/emu/netbook/build.sh"     # the launcher
+tools/lxbuild "tests/emu/netbook/mkroot.sh"                      # the small root
+node --experimental-strip-types tests/emu/netbook/nbimage.mts CODA-OS.IMG build/nbtest/OS.IMG
+python3 tests/emu/netbook/nbrun.py build/nbtest/OS.IMG build/emu/nb @150 'ls\r' +5 'sh t1\r' +20 =info
+```
+
+The test root's `/root/t1` ... `t6` are the epoc tests, typed as `sh t1`
+(the netBook driver types only letters, digits and a few signs).
+
 **The emulator's card fails under long reads.** Runs that read tens of
 thousands of sectors (the M2 suite, git, an Alpine boot) sometimes end in an
 EPOC kernel fault in the timer queue, or the card stops answering. Every

@@ -181,6 +181,7 @@ SIGTTOU with `stty tostop`; `jobs`, `fg`, `bg`, `kill %1` work in hush.
 ```
 /        ROOT.IMG (read-only) + <disk>:\Linux\root\ (writable): an overlay
 /c, /d   the Psion's disks, as they are (and /z, the ROM)
+/psion   the same disks (/psion/c ... /psion/z) and /psion/bin (the epoc command)
 /tmp     part of the root's writable layer
 /dev     null zero full random urandom tty console tty1-4 stdin stdout stderr fd
 /proc    self, <pid>/{stat,status,cmdline,comm,exe,cwd,fd,maps...}, meminfo, cpuinfo, uptime...
@@ -192,7 +193,24 @@ on the Psion's disk; changing a file of the image copies it up first, and
 deleting one leaves a whiteout. FAT has no links or modes, so the layer keeps
 them in a small file per folder, `_LXMETA`. Names with characters FAT refuses
 are written `%XX`. The Psion's own disks (/c, /d) show every file as 0755 (as
-WSL's /mnt/c does): chmod does nothing there, and `ln` makes no links.
+WSL's /mnt/c does): chmod does nothing there but set or clear the read-only attribute (the w
+bits), and `ln` makes no links. Z: and every disk's `\System` folder are
+read-only to Linux (EROFS) unless `epoc syswrite on --force` (DECISIONS.md 60).
+
+### EPOC requests (the epoc command)
+
+```
+ epoc (a Linux program)  --write: a request-->  /dev/epoc (lx_epoc.c: checks it, Linux paths -> EPOC names,
+                         <--read: the answer--   answers HELLO, SYSWRITE, PATH itself, queues the rest)
+ the runner (bk_epoc.cpp) --LxShared.epoc_req + app_bell-->  PsiLinux.app (lxepocsv.cpp: apparc, the
+                          <--LxShared.epoc_ans + eng_bell--   window server, the clipboard, RNotifier)
+```
+
+The format is `common/lxepoc.h`: a 28-byte header (magic "EPOC", version,
+request, flags, status, EPOC's error, a number, the length), then
+NUL-ended UTF-8 strings; answers are tab-separated lines. One request is at
+the app at a time. Only processes on the PsiLinux window's terminal may
+open `/dev/epoc`. DECISIONS.md 60 has the reasons.
 
 ### The terminal
 

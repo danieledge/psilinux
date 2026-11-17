@@ -6,6 +6,7 @@
 ::sysinit:/sbin/openrc boot
 ::wait:/sbin/openrc default
 
-tty1::respawn:/bin/login -f root
+# (0.36) when root's shell ends (exit, ^D), Linux ends and PsiLinux closes
+tty1::respawn:/usr/sbin/psilinux-login
 
 ::shutdown:/sbin/openrc shutdown

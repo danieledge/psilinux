@@ -1,0 +1,11 @@
+#!/bin/sh
+# print-folder [FOLDER]: each file opens in its own program; print it
+# (File > Print, to a printer or to a file), close it, and the next one
+# opens. EPOC has no "print this file" of its own (epoc print says so).
+# An example for the epoc command (README.md).
+dir=${1:-/psion/c/Documents/Reports}
+for f in "$dir"/*; do
+	[ -f "$f" ] || continue
+	epoc open --wait "$f" || { echo "could not open $f" >&2; exit 1; }
+done
+epoc note "All printed"

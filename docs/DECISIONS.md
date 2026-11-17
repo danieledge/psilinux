@@ -880,3 +880,68 @@ Alpine Linux's own armhf programs, unmodified, through a binary translator:
   with it; Preferences gains Typeface, and a colour screen starts in
   PsiTerm's Clean. PTVIEW.md describes the change PsiTerm could make so
   that this needs no extraction.
+
+## 60. Your Psion from the shell: /psion, /dev/epoc and the epoc command (0.36)
+- **The disks under /psion.** /psion/c, /psion/d... and /psion/z are the same
+  mounts as /c and /d (kept, for scripts that use them), under one folder,
+  with /psion/bin (the runner's own `bin\` folder, read-only: the epoc
+  command). On every Psion disk: EPOC's names (the file server is
+  case-blind, so `Letter` and `LETTER` are one file); the w bits are the
+  read-only attribute, and `chmod a-w` / `u+w` set and clear it; Z: is
+  read-only (EROFS); and so is every disk's `\System` folder, so that a
+  stray `rm -rf` or `cp` cannot break the programs EPOC runs.
+  `epoc syswrite on --force` lifts that until `off` or the next start.
+  EROFS rather than EACCES: Linux's root expects to pass permission
+  checks, and "Read-only file system" says what is going on. No execute
+  bits from attributes: EPOC has none, and every file stays runnable, as on
+  WSL's /mnt/c.
+- **Found on the way:** `mv letter Letter` on a Psion disk found the target
+  "there", deleted it (the same file) and then had nothing to rename. A
+  rename to the same file now only renames (`bk_same_file`; the runner
+  goes by way of a temporary name if the file server takes a case change
+  for a clash).
+- **The request path.** A new device, `/dev/epoc` (`runtime/lx_epoc.c`):
+  one write is a request, one read its answer, in a versioned format
+  (`common/lxepoc.h`, LXE_VERSION 1: a 28-byte header, then NUL-ended UTF-8
+  strings; answers are tab-separated lines). The kernel checks it, turns
+  Linux paths into EPOC names (only for files on a Psion disk or in the
+  root's writable layer, which is a folder on one), answers HELLO,
+  SYSWRITE and PATH itself, and queues the rest, one at a time, to the app
+  through new fields of the shared chunk (LX_SHARED_VERSION 6) and the
+  doorbells it already has. The read parks, as a terminal read does; a
+  signal interrupts it, and an answer nobody waits for is dropped.
+  Alternatives: a new system call (no: Linux programs and the host harness
+  would need it in their libc), files under /proc (no: one request with
+  its answer, and the arguments of open, are clumsy as files).
+- **The app does the work, not the runner.** PsiLinux.app already has the
+  window server, apparc, EIKON's infoprints and a CCoeEnv (Coda's
+  Screenshot.ctl needs one); the runner's kernel thread must never block
+  on a server, and stays without those libraries. Messages (`alert`,
+  `confirm`) are RNotifier's, asynchronous, so PsiLinux's window goes on
+  drawing while one is up.
+- **Who may.** Only a process whose controlling terminal is the PsiLinux
+  window (the console ttys): not a pseudo-terminal (an ssh login, tmux)
+  and not a process with none (a daemon). Nothing listens on the network.
+  `kill` never ends EPOC itself (EKern, EFile, EWSrv, FbServ, the Shell,
+  C32, apparc's and EIKON's servers) or PsiLinux, and ends another system
+  or protected process only with `--force`. `close` asks politely
+  (TApaTask::EndTask), so the program saves.
+- **The epoc command** (`epoc/epoc.c`) is a static Linux program shipped in
+  PsiLinux.sis beside the runner (`\System\Apps\PsiLinux\bin\epoc`), so it
+  is always the runner's own version, and is /psion/bin/epoc in Linux; the
+  roots have /usr/bin/epoc, xdg-open and open as links to it. For scripts:
+  tab-separated lists, `-H` for a heading, `--json`, nothing printed on
+  success, errors on stderr, exit codes 0 to 9 (`epoc help exit`), and
+  waits (`run --wait`, `open --wait`, `wait`, `wait-file`,
+  `wait-battery`). `print` says EPOC has no "print this file" (each
+  program prints its own documents) and exits 5.
+- **Exit closes PsiLinux.** `exit` (or ^D) at the first shell used to leave
+  "Linux has ended. Enter starts it again". Now the runner asks the
+  programs left to end (SIGHUP, SIGTERM and SIGCONT), gives them 2 s, ends
+  the rest, closes every file and socket (each RFile flushed), and only
+  then says it has ended; the app then closes. A shell killed by a signal,
+  or a failure, still stays on the screen to be read. hush (patched,
+  `rootfs/patches/busybox-hush-checkjobs.diff`) and bash (`checkjobs`)
+  warn "There are running jobs." first; a second exit leaves. In Alpine's
+  full boot, `/usr/sbin/psilinux-login` logs root in and powers off when
+  that shell ends, so OpenRC stops its services first.

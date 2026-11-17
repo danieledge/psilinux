@@ -92,5 +92,8 @@ grep -q '^klogd:' "$S/etc/passwd" || echo 'klogd:x:100:101:klogd:/dev/null:/sbin
 grep -q '^klogd:' "$S/etc/group" || echo 'klogd:x:101:klogd' >> "$S/etc/group"
 # /c and /d are the Psion's disks (mounted by the kernel)
 mkdir -p "$S/c" "$S/d"
+# (0.36) the epoc command is the runner's own (/psion/bin/epoc, from PsiLinux.sis)
+for n in epoc xdg-open open; do ln -sfn /psion/bin/epoc "$S/usr/bin/$n"; done
+mkdir -p "$S/usr/share/psilinux/examples"; install -m 755 "$REPO"/epoc/examples/* "$S/usr/share/psilinux/examples/"
 # in parts of 1 MB: the EPOC installer cannot take one 25 MB file (DECISIONS.md 54)
 python3 "$REPO/tools/mkroot.py" "$S" "$OUT/ROOT.IMG" --parts 1024

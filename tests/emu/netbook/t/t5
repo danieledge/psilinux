@@ -1,0 +1,1 @@
+clear; epoc -H tasks; epoc ps | cut -f1-4 | head -12

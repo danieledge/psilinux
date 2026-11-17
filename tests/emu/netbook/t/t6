@@ -1,0 +1,3 @@
+clear; echo "Hello from Linux" | epoc clip set; epoc clip get; epoc note "Hi from PsiLinux"
+epoc shot /psion/c/Documents/shot.png; ls -l /psion/c/Documents; epoc kill EFile; echo "kill EFile: $?"
+touch /psion/c/System/x; echo "touch in System: $?"; epoc time local; epoc locale | head -4

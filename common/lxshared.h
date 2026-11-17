@@ -18,9 +18,10 @@
 
 #define LX_SHARED_NAME   "PsiLinuxTerm"
 #define LX_SHARED_MAGIC  0x584e4c50u      /* 'PLNX' */
-#define LX_SHARED_VERSION 5
+#define LX_SHARED_VERSION 6
 #define LX_KBD_SIZE      2048
 #define LX_OUT_SIZE      16384
+#define LX_EPOC_BUF      16032         /* (6) an EPOC request or answer (lxepoc.h: header + LXE_MAX) */
 
 enum
 	{
@@ -70,6 +71,18 @@ typedef struct
 	                                      writes no PsiLinux.log at all. Read when the runner starts */
 	volatile unsigned int fb_seq;      /* (5) the runner adds 1 when the Linux screen (lxfb.h) opens or closes */
 	volatile int fb_on;                /* (5) 1: a program has /dev/fb0 open: the chunk LX_FB_NAME is there */
+
+	/* (6) EPOC requests (lxepoc.h, the epoc command), one at a time: the
+	 * runner writes epoc_req and adds 1 to epoc_req_seq, and rings app_bell;
+	 * the app does it, writes epoc_ans, sets epoc_ans_seq to epoc_req_seq
+	 * and rings eng_bell */
+	volatile int epoc_app;             /* the app sets 1: it answers them */
+	volatile unsigned int epoc_req_seq;
+	volatile unsigned int epoc_ans_seq;
+	volatile unsigned int epoc_req_len;
+	volatile unsigned int epoc_ans_len;
+	unsigned char epoc_req[LX_EPOC_BUF];
+	unsigned char epoc_ans[LX_EPOC_BUF];
 	} LxShared;
 
 #endif

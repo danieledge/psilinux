@@ -1,0 +1,16 @@
+// lxlaunch.mmp - the netBook emulator's test launcher for PsiLinux (Jotter's UID: emulator only)
+TARGET        lxlaunch.app
+TARGETTYPE    app
+UID           0x1000006c 0x10000CEA
+TARGETPATH    \system\apps\lxlaunch
+
+PROJECT       ptproj
+SUBPROJECT    lxlaunch
+
+SOURCE        lxlaunch.cpp
+RESOURCE      lxlaunch.rss
+
+USERINCLUDE   \ptproj\lxlaunch
+SYSTEMINCLUDE \epoc32\include
+
+LIBRARY       euser.lib efsrv.lib apparc.lib cone.lib eikon.lib bafl.lib

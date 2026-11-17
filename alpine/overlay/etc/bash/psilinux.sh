@@ -10,6 +10,10 @@ HISTSIZE=200
 HISTFILESIZE=200
 HISTCONTROL=ignoreboth
 shopt -s checkwinsize histappend
+# (0.36) exit with jobs still running or stopped warns first; a second exit leaves
+shopt -s checkjobs
+# epoc's Tab completion (the command is the runner's: /psion/bin)
+[ -r /psion/bin/epoc-completion.bash ] && . /psion/bin/epoc-completion.bash
 
 alias ll='ls -l'
 alias la='ls -A'

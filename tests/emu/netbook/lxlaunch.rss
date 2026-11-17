@@ -1,0 +1,6 @@
+// lxlaunch.rss - the test launcher's resources (see lxlaunch.cpp)
+NAME LXLA
+#include <eikdef.rh>
+RESOURCE RSS_SIGNATURE { }
+RESOURCE TBUF { buf=""; }
+RESOURCE EIK_APP_INFO { }

@@ -2,7 +2,10 @@
 #ifndef LX_VFS_H
 #define LX_VFS_H
 
-enum { LX_FS_ROOT = 1, LX_FS_NATIVE, LX_FS_DEV, LX_FS_PROC };
+enum { LX_FS_ROOT = 1, LX_FS_NATIVE, LX_FS_DEV, LX_FS_PROC, LX_FS_PSION };
+
+/* (0.36) how a Psion disk's file may be changed (lx_vn.prot) */
+enum { LX_PROT_NONE = 0, LX_PROT_RO, LX_PROT_SYSTEM };
 
 #define LX_META_NAME "_LXMETA"     /* the overlay's per-folder notes (links, modes, whiteouts) */
 
@@ -23,7 +26,10 @@ typedef struct lx_vn {
 	int pid;                    /* /proc: whose */
 	int kind;                   /* /proc: which file */
 	int fd;                     /* /proc/N/fd/<fd> */
+	int prot;                   /* (0.36) a Psion disk: LX_PROT_RO (Z:, /psion/bin), LX_PROT_SYSTEM (in \System) */
+	int attr;                   /* (0.36) ...its EPOC attributes (LX_ATT_*) */
 } lx_vn;
+int lx_vn_writable(const lx_vn *v);     /* 0, or -EROFS: a read-only disk, or \System not unlocked */
 
 int lx_vn_lookup(lx_proc *p, const char *path, lx_vn *v);
 struct lx_file *lx_proc_fd_file(lx_vn *v);   /* /proc/N/fd/<fd> of a pipe or socket: that file (a reference) */

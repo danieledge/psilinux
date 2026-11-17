@@ -38,6 +38,8 @@ if (what === 'probe') {
 	// (8.3 names on the card: PSILINUX is exactly 8)
 	for (const n of ['psilinux.app', 'psilinux.rsc', 'psilinux.aif', 'psilinux.mbm', 'psilxrun.exe', 'psiterm.gdr'])
 		if (existsSync(P + n)) w('SYSTEM/APPS/PSILINUX/' + n.toUpperCase(), f(P + n));
+	// (0.36) the epoc command: Linux's /psion/bin/epoc
+	if (existsSync(P + 'epoc')) w('SYSTEM/APPS/PSILINUX/BIN/EPOC', f(P + 'epoc'));
 	const R = process.env.EMU_ROOT || REPO + 'build/psilinux-root/ROOT.IMG';
 	if (existsSync(R)) {
 		w('LINUX/ROOT.IMG', f(R));

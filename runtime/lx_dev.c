@@ -65,7 +65,7 @@ lx_file *lx_memfile_new(const char *data, int len)
 
 /* ---- /dev ----------------------------------------------------------------- */
 
-enum { D_DIR = 1, D_NULL, D_ZERO, D_FULL, D_RANDOM, D_URANDOM, D_TTY, D_CONSOLE, D_TTYN, D_PTS, D_FB, D_INPUT, D_EVENT, D_PTMX, D_PTSN };
+enum { D_DIR = 1, D_NULL, D_ZERO, D_FULL, D_RANDOM, D_URANDOM, D_TTY, D_CONSOLE, D_TTYN, D_PTS, D_FB, D_INPUT, D_EVENT, D_PTMX, D_PTSN, D_EPOC };
 
 typedef struct devent { const char *name; int dev; lx_u32 mode; lx_u32 rdev; const char *link; } devent;
 static const devent devs[] = {
@@ -89,6 +89,7 @@ static const devent devs[] = {
 	{ "ptmx", D_PTMX, LX_S_IFCHR | 0666, 0x502, 0 },
 	{ "fb0", D_FB, LX_S_IFCHR | 0660, 0x1d00, 0 },
 	{ "input", D_INPUT, LX_S_IFDIR | 0755, 0, 0 },
+	{ "epoc", D_EPOC, LX_S_IFCHR | 0600, 0xafa, 0 },     /* (0.36) EPOC requests: lx_epoc.c */
 };
 #define NDEVS (int)(sizeof devs / sizeof devs[0])
 
@@ -221,6 +222,7 @@ lx_file *lx_dev_open(lx_proc *p, lx_vn *v, int flags, int *err)
 		return f;
 	}
 	if (v->dev == D_FB) return lx_fb_open(flags, v->ino, err);
+	if (v->dev == D_EPOC) return lx_epoc_open(p, flags, v->ino, err);
 	if (v->dev == D_EVENT) return lx_evdev_open(v->fd, flags, v->ino, err);
 	f = lx_file_new(&dev_ops, (void *)(long)v->dev, flags);
 	if (!f) { *err = -LX_ENOMEM; return 0; }

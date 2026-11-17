@@ -69,6 +69,7 @@ const TInt KLxSpareFace = 1;     // 0.29: the typeface of the zoom levels (PsiTe
 const TInt KLxThemeColourDefault = 5;
 
 class CLxTermView;
+class CLxEpoc;
 
 // told when Linux's screen (/dev/fb0) opens or closes, and when the runner rings
 class MLxScreenHook
@@ -102,6 +103,8 @@ public:
 private:
 	static TInt BellCallback(TAny* aSelf);
 	static TInt TickCallback(TAny* aSelf);
+	static TInt EpocAnswered(TAny* aSelf);   // (0.36) a message's answer is in the chunk
+	CLxEpoc* iEpoc;              // (0.36) EPOC requests from Linux (lxepocsv.cpp)
 	void Arm();
 	CLxTermView& iView;
 	RChunk iChunk;
@@ -164,6 +167,8 @@ private:
 	TInt iStartOnce;                   // (0.26) SetStartOnce(), or -1
 	TUint iKeyAt;                      // (0.29) tick a key went to the runner (0: none waiting)
 	TInt iEchoLastMs, iEchoAvgMs;
+	static TInt CloseApp(TAny* aSelf);  // (0.36) "exit" at the top shell closes PsiLinux
+	CIdle* iCloser;
 	};
 
 #endif

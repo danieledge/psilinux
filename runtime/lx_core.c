@@ -2276,4 +2276,41 @@ void lx_k_shutdown(void)
 		if (lx_k.procs[i].state == LX_P_ALIVE && lx_k.procs[i].pid != 1) lx_proc_exit(&lx_k.procs[i], LX_SIGKILL);
 }
 
+/* (0.36) The session is over (the first program has ended: "exit" at the
+ * top shell): the programs left (background jobs, daemons) are asked to end
+ * as Linux would at a hangup, SIGHUP then SIGTERM (and SIGCONT, so that a
+ * stopped job sees them), and given LX_STOP_GRACE to close their files.
+ * lx_k_stop_done says when they have; whatever is left then is killed.
+ * Ending a process closes its files (and so EPOC's: each RFile is flushed
+ * and closed) and its sockets. */
+#define LX_STOP_GRACE 2000000
+void lx_k_stop_begin(void)
+{
+	int i;
+	if (lx_k.stopping) return;
+	lx_k.stopping = 1;
+	lx_k.stop_at = lx_now() + LX_STOP_GRACE;
+	for (i = 0; i < LX_MAXPROC; i++) {
+		lx_proc *p = &lx_k.procs[i];
+		if (p->state != LX_P_ALIVE) continue;
+		lx_signal_proc(p, LX_SIGHUP);
+		lx_signal_proc(p, LX_SIGTERM);
+		lx_signal_proc(p, LX_SIGCONT);
+	}
+	bk_log("the session has ended: the programs left are asked to end");
+}
+
+int lx_k_stop_done(void)
+{
+	int i, alive = 0;
+	for (i = 0; i < LX_MAXPROC; i++)
+		if (lx_k.procs[i].state == LX_P_ALIVE) alive++;
+	if (!alive) return 1;
+	if (lx_now() < lx_k.stop_at) return 0;
+	bk_log("%d programs did not end: they are ended", alive);
+	for (i = 0; i < LX_MAXPROC; i++)
+		if (lx_k.procs[i].state == LX_P_ALIVE) lx_proc_exit(&lx_k.procs[i], LX_SIGKILL);
+	return 1;
+}
+
 int lx_first_status_value(void) { return lx_k.first_exit; }

@@ -7,6 +7,13 @@
  *                Symbolic links, modes and whiteouts in the layer live in a
  *                small file per folder, _LXMETA (the disk is FAT).
  *   /c, /d ...   the Psion's disks, as they are (WSL's /mnt/c, shorter)
+ *   /psion/c ... (0.36) the same disks again, under one folder, with /psion/z
+ *                (the ROM) and /psion/bin (the epoc command, beside the runner).
+ *                On every Psion disk: names are EPOC's (case-blind: Letter and
+ *                LETTER are one file), the read-only attribute is the w bits,
+ *                Z: is read-only, and so is every disk's \System folder unless
+ *                "epoc syswrite on --force" said otherwise: a stray rm -rf or
+ *                cp cannot break the programs EPOC runs.
  *   /tmp         in the writable layer like the rest (<disk>:\Linux\root\tmp\)
  *   /dev, /proc  made up by the kernel (lx_dev.c)
  *
@@ -142,20 +149,45 @@ typedef struct mount {
 	const char *at;             /* "/c" */
 	int fs;
 	char native[LX_PATH_MAX];
+	int flags;                  /* (0.36) MNT_* */
 } mount;
 
-#define MAXMOUNT 12
+#define MNT_RO     1            /* nothing on it may change (Z:, /psion/bin) */
+#define MNT_SYSTEM 2            /* its \System folder is read-only unless unlocked (lx_k.sys_write) */
+
+#define MAXMOUNT 64
 static mount mounts[MAXMOUNT];
 static int nmounts;
 
-static void add_mount(const char *at, int fs, const char *native)
+static mount *add_mount(const char *at, int fs, const char *native)
 {
 	mount *m;
-	if (nmounts >= MAXMOUNT) return;
+	if (nmounts >= MAXMOUNT) return 0;
 	m = &mounts[nmounts++];
 	m->at = lx_strdup(at);
 	m->fs = fs;
+	m->flags = 0;
 	if (native) lx_strlcpy(m->native, native, sizeof m->native);
+	return m;
+}
+
+/* "System" or "system/..." (EPOC's names are case-blind) */
+static int is_system(const char *rel)
+{
+	static const char sys[] = "system";
+	int i;
+	while (*rel == '/') rel++;
+	for (i = 0; sys[i]; i++)
+		if ((rel[i] | 0x20) != sys[i]) return 0;
+	return rel[i] == 0 || rel[i] == '/';
+}
+
+int lx_vn_writable(const lx_vn *v)
+{
+	if (v->fs != LX_FS_NATIVE) return 0;
+	if (v->prot == LX_PROT_RO) return -LX_EROFS;
+	if (v->prot == LX_PROT_SYSTEM && !lx_k.sys_write) return -LX_EROFS;
+	return 0;
 }
 
 /* which mount a canonical path is on, and the path inside it */
@@ -177,18 +209,32 @@ int lx_vfs_init(void)
 	char drives[32], at[4], native[8], nr[LX_PATH_MAX];
 	int i, n;
 	char sep = bk_native_sep();
+	char pat[12];
+	mount *m;
 	nmounts = 0;
 	lx_root_init();
 	lx_native_join(nr, sizeof nr, lx_k.root_native, "root");
 	add_mount("/", LX_FS_ROOT, nr);
 	add_mount("/dev", LX_FS_DEV, 0);
 	add_mount("/proc", LX_FS_PROC, 0);
+	add_mount("/psion", LX_FS_PSION, 0);
 	/* (/tmp is part of the root's writable layer, so it has links and modes) */
 	n = bk_drive_list(drives);
 	for (i = 0; i < n; i++) {
+		int k;
+		int fl = MNT_SYSTEM | ((drives[i] == 'Z') ? MNT_RO : 0);
 		at[0] = '/'; at[1] = (char)(drives[i] | 0x20); at[2] = 0;
 		native[0] = drives[i]; native[1] = ':'; native[2] = sep; native[3] = 0;
-		add_mount(at, LX_FS_NATIVE, native);
+		lx_snprintf(pat, sizeof pat, "/psion/%c", drives[i] | 0x20);
+		for (k = 0; k < 2; k++)
+			if ((m = add_mount(k ? pat : at, LX_FS_NATIVE, native)) != 0) m->flags = fl;
+	}
+	/* the epoc command, beside the runner (so that it is always the runner's own version) */
+	bk_self_folder(nr, sizeof nr);
+	if (nr[0]) {
+		char bin[LX_PATH_MAX];
+		lx_native_join(bin, sizeof bin, nr, "bin");
+		if ((m = add_mount("/psion/bin", LX_FS_NATIVE, bin)) != 0) m->flags = MNT_RO;
 	}
 	/* the overlay's own folders */
 	lx_native_join(nr, sizeof nr, lx_k.root_native, "root");
@@ -304,14 +350,29 @@ int lx_vn_lookup(lx_proc *p, const char *path, lx_vn *v)
 	case LX_FS_NATIVE: {
 		bk_stat st;
 		lx_native_join(v->native, sizeof v->native, m->native, rel);
+		v->prot = (m->flags & MNT_RO) ? LX_PROT_RO : ((m->flags & MNT_SYSTEM) && is_system(rel)) ? LX_PROT_SYSTEM : LX_PROT_NONE;
+		bk_memset(&st, 0, sizeof st);
 		r = bk_stat_path(v->native, &st);
 		if (r < 0) break;
 		v->upper = 1;
-		v->mode = st.is_dir ? (LX_S_IFDIR | 0755) : (LX_S_IFREG | (st.readonly ? 0555 : 0755));
+		v->attr = st.attr | (st.readonly ? LX_ATT_READONLY : 0);
+		/* (EPOC has no execute bit: every file may be run, as on WSL's /mnt/c.
+		 * The w bits are off for a read-only file, and where nothing may
+		 * change: Z:, or \System while it is locked) */
+		v->mode = st.is_dir ? (LX_S_IFDIR | 0755) : (LX_S_IFREG | 0755);
+		if ((!st.is_dir && (v->attr & LX_ATT_READONLY)) || lx_vn_writable(v) < 0) v->mode &= ~0222u;
 		v->size = st.size;
 		v->mtime = st.mtime;
 		break;
 	}
+	case LX_FS_PSION:
+		/* /psion itself: its disks are mounts in it */
+		while (*rel == '/') rel++;
+		if (*rel) { r = -LX_ENOENT; break; }
+		v->mode = LX_S_IFDIR | 0555;
+		v->mtime = lx_k.boot_time;
+		r = 0;
+		break;
 	case LX_FS_DEV:
 		r = lx_dev_lookup(p, rel, v);
 		break;
@@ -431,7 +492,7 @@ int lx_vfs_stat(lx_proc *p, int dirfd, const char *path, int follow, struct lx_s
 void lx_vn_stat(const lx_vn *v, struct lx_stat64 *st)
 {
 	bk_memset(st, 0, sizeof *st);
-	st->st_dev = v->fs == LX_FS_ROOT ? 0x801 : v->fs == LX_FS_NATIVE ? 0x802 : v->fs == LX_FS_DEV ? 5 : 3;
+	st->st_dev = v->fs == LX_FS_ROOT ? 0x801 : v->fs == LX_FS_NATIVE ? 0x802 : v->fs == LX_FS_DEV ? 5 : v->fs == LX_FS_PSION ? 6 : 3;
 	st->st_ino = v->ino;
 	st->st_ino32 = (lx_u32)v->ino;
 	st->st_mode = v->mode;
@@ -780,6 +841,7 @@ lx_file *lx_vfs_open(lx_proc *p, int dirfd, const char *path, int flags, lx_u32 
 	} else {
 		switch (v.fs) {
 		case LX_FS_NATIVE:
+			if ((acc != LX_O_RDONLY || (flags & (LX_O_CREAT | LX_O_TRUNC))) && (r = lx_vn_writable(&v)) < 0) { *err = r; return 0; }
 			if (!exists) {
 				/* a new file: the folder must be there */
 				v.mode = LX_S_IFREG | 0755;
@@ -827,7 +889,7 @@ int lx_vfs_mkdir(lx_proc *p, int dirfd, const char *path, lx_u32 mode)
 	if (r < 0) return r;
 	if (lx_vn_lookup(p, c, &v) == 0) return -LX_EEXIST;
 	switch (v.fs) {
-	case LX_FS_NATIVE: return bk_mkdir(v.native);
+	case LX_FS_NATIVE: if ((r = lx_vn_writable(&v)) < 0) return r; return bk_mkdir(v.native);
 	case LX_FS_ROOT: return lx_root_mkdir(p, c, mode & ~p->umask);
 	default: return -LX_EACCES;
 	}
@@ -844,7 +906,7 @@ int lx_vfs_unlink(lx_proc *p, int dirfd, const char *path, int dir)
 	if (dir && !LX_S_ISDIR(v.mode)) return -LX_ENOTDIR;
 	if (!dir && LX_S_ISDIR(v.mode)) return -LX_EISDIR;
 	switch (v.fs) {
-	case LX_FS_NATIVE: return dir ? bk_rmdir(v.native) : bk_unlink(v.native);
+	case LX_FS_NATIVE: if ((r = lx_vn_writable(&v)) < 0) return r; return dir ? bk_rmdir(v.native) : bk_unlink(v.native);
 	case LX_FS_ROOT: return lx_root_unlink(p, &v, dir);
 	default: return -LX_EACCES;
 	}
@@ -869,7 +931,11 @@ int lx_vfs_rename(lx_proc *p, int olddir, const char *from, int newdir, const ch
 		if (!LX_S_ISDIR(vb.mode) && LX_S_ISDIR(va.mode)) return -LX_ENOTDIR;
 	}
 	if (va.fs == LX_FS_NATIVE) {
-		{ const char *ra, *rbp; if (find_mount(a, &ra) != find_mount(b, &rbp)) return -LX_EXDEV; }
+		{ const char *ra, *rbp; if (lx_strcmp(va.native, vb.native) && find_mount(a, &ra)->native[0] != find_mount(b, &rbp)->native[0]) return -LX_EXDEV; }
+		if ((r = lx_vn_writable(&va)) < 0 || (r = lx_vn_writable(&vb)) < 0) return r;
+		/* (0.36) "mv letter Letter": on a case-blind disk that is the same
+		 * file, which must be renamed, never deleted first */
+		if (rb == 0 && bk_same_file(va.native, vb.native)) return bk_rename(va.native, vb.native);
 		if (rb == 0) {
 			r = LX_S_ISDIR(vb.mode) ? bk_rmdir(vb.native) : bk_unlink(vb.native);
 			if (r < 0) return r;
@@ -900,6 +966,13 @@ int lx_vfs_chmod(lx_proc *p, int dirfd, const char *path, lx_u32 mode, int follo
 	r = lx_vn_lookup(p, c, &v);
 	if (r < 0) return r;
 	if (v.fs == LX_FS_ROOT) return lx_root_chmod(p, &v, mode & 07777);
+	if (v.fs == LX_FS_NATIVE && !LX_S_ISDIR(v.mode)) {
+		/* (0.36) the w bits are EPOC's read-only attribute; the rest is made up */
+		int ro = !(mode & 0222);
+		if (ro == !!(v.attr & LX_ATT_READONLY)) return 0;
+		if ((r = lx_vn_writable(&v)) < 0) return r;
+		return bk_set_readonly(v.native, ro);
+	}
 	return 0;      /* (FAT: modes are made up; chmod quietly does nothing) */
 }
 
@@ -911,7 +984,7 @@ int lx_vfs_utime(lx_proc *p, int dirfd, const char *path, lx_s64 mtime, int foll
 	if (r < 0) return r;
 	r = lx_vn_lookup(p, c, &v);
 	if (r < 0) return r;
-	if (v.fs == LX_FS_NATIVE) return bk_set_mtime(v.native, mtime);
+	if (v.fs == LX_FS_NATIVE) { if ((r = lx_vn_writable(&v)) < 0) return r; return bk_set_mtime(v.native, mtime); }
 	if (v.fs == LX_FS_ROOT) return lx_root_utime(p, &v, mtime);
 	return 0;
 }

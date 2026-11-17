@@ -1,0 +1,5 @@
+#!/bin/sh
+# today: Agenda with its file, and a reminder of the day.
+# An example for the epoc command (README.md).
+epoc run Agenda /psion/c/Documents/Agenda
+epoc note "Today is $(date '+%A %d %B')"

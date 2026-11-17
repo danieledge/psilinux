@@ -1,0 +1,7 @@
+#!/bin/sh
+# backup-docs: C:\Documents to the card, in a folder named by the date
+# (D:\Backup\2026-11-17\). An example for the epoc command (README.md).
+to=/psion/d/Backup/$(date +%Y-%m-%d)
+mkdir -p "$to" && cp -r /psion/c/Documents/. "$to/" \
+	&& epoc note "Documents backed up to $(epoc path "$to")" \
+	|| { epoc alert "The backup failed" "See the shell"; exit 1; }

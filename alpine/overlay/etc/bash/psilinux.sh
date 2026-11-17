@@ -20,7 +20,5 @@ alias la='ls -A'
 alias l='ls -CF'
 alias ..='cd ..'
 
-# a fortune at login (touch ~/.hushlogin to go without)
-if shopt -q login_shell && [ -x /usr/bin/fortune ] && [ ! -e ~/.hushlogin ]; then
-	echo; fortune -s; echo
-fi
+# (0.37) at login: the welcome banner, or a fortune when PsiLinux's Tools >
+# Show welcome banner is not ticked: /etc/profile.d/psilinux-welcome.sh

@@ -50,8 +50,38 @@ bash 5.3 is root's shell in both Alpine modes, with:
 - Tab to complete file and command names, Up and Down for earlier commands
   (200 kept between sessions, in `~/.bash_history`), Ctrl+R to search them;
 - `ll` (`ls -l`), `la` and `l`; nano as `EDITOR` and `VISUAL`; less as `PAGER`;
-- a short fortune at login (an empty file `~/.hushlogin` stops it, and the
-  welcome text too).
+- a welcome banner at login (0.37): Alpine's logo beside root@psion, OS,
+  Kernel, Packages, Shell, Terminal, Memory, Disk, Locale and the colour
+  blocks, as `fastfetch` shows them (below);
+- `touch ~/.hushlogin` (an empty file) stops the banner, and the welcome
+  text of a full boot too.
+
+### The welcome banner (0.37)
+
+When Alpine's shell starts on PsiLinux's window it shows Alpine's logo
+beside root@psion, OS, Kernel, Packages, Shell, Terminal, Memory, Disk,
+Locale and the colour blocks, as `fastfetch` does. Memory and Disk are as
+they are at that moment.
+
+- It fits the window: fastfetch's big logo when there are 21 rows and room
+  beside it (the netBook, or a 5mx at the smallest text size), the small
+  logo on a 5mx at the standard size (the toolbar shown or not), text only
+  when the window is narrower or shorter, and without the colour blocks and
+  then the title when it is very short, so the prompt stays on the screen.
+- Only for an interactive bash that logs in on PsiLinux's window: not for
+  scripts, `bash -c`, the epoc command or over ssh.
+- Off: Tools > Show welcome banner (untick it; a short fortune shows
+  instead, as before), or `touch ~/.hushlogin` (neither). Saved settings
+  keep it shown.
+- It is bash's own work, not fastfetch's: fastfetch is translated afresh in
+  every session, and took 19 s the first time and 11 s the next in the 5mx
+  emulator (about 6 s and 4 s on a 5mx). The banner adds about 2 s to a
+  login in the 5mx emulator (3.8 s against 1.8 s), so about 0.7 s on a
+  5mx; on the netBook emulator 0.3 s. `fastfetch` is still there for the
+  full list.
+- The files: `/etc/profile.d/psilinux-welcome.sh` and
+  `/usr/lib/psilinux/welcome`. An Alpine root installed over an older one
+  brings them; files you have changed are left as they are.
 
 PsiLinux's settings are in `/etc/bash/psilinux.sh`; yours go in `~/.bashrc`.
 bash-completion (completing options and package names) is not installed:

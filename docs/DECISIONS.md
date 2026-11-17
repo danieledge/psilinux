@@ -983,3 +983,65 @@ Alpine Linux's own armhf programs, unmodified, through a binary translator:
 - **Also:** `sendfile` into a full pipe returned 0, which callers read as
   the end of the input: `cat FILE | ...` stopped at 8 KB. It now waits, as
   write does.
+
+## 62. The welcome banner: fastfetch's look, drawn by bash (0.37)
+- **What.** When Alpine's shell starts on PsiLinux's window, it shows what
+  the marketing pictures show: Alpine's logo beside root@psion, OS, Kernel,
+  Packages, Shell, Terminal, Memory, Disk, Locale and the colour blocks.
+  Before, a first start showed a fortune (if that) and the prompt.
+- **Not fastfetch at each start.** A new Linux session translates every
+  program afresh, so fastfetch is always a first run at login: 19 s in the
+  5mx emulator, 11 s the second time, about 6 s and 4 s on a 5mx by the
+  emulator's factor of 3 (in the netBook emulator, 0.6 s and 0.4 s). Caching its output was the other way
+  (a background run when apk changes something), but a background program
+  of 3 MB on a 5mx with 6 MB free, slowing the first minutes, for figures
+  that are wrong anyway (Memory and Disk change; fastfetch's Uptime said
+  "496 days" on the netBook), was worse than drawing it: bash already runs,
+  and everything but the disk is a read of /proc or a file. Measured in
+  the emulators (a login shell, `time bash -lic exit`, three times each):
+
+  | | with the banner | without (~/.hushlogin) | the banner itself |
+  |---|---|---|---|
+  | 5mx emulator | 3.8 s (3.8, 6.0, 3.8) | 1.8 s (1.8, 2.8, 1.8) | about 2 s: about 0.7 s on a 5mx |
+  | netBook emulator | | | 0.30 s, then 0.22 s (`psilinux_welcome`); fastfetch 0.60 s, 0.40 s |
+
+  On the 5mx about a third of it is df (0.45 s in the emulator, its fork
+  and exec), a third reading the files, and the rest bash reading the
+  function and drawing.
+- **Written for bash on a 5mx.** Small things are dear there: a bash loop
+  of 20 string appends took 1.2 s in the emulator, reading /etc/os-release
+  a line at a time 1.1 s and /proc/mounts 1.2 s (bash's `read` takes one
+  byte per call from a file it cannot seek), `printf -v` and `[[ =~ ]]`
+  each tens of milliseconds, a here-string failed outright (below). So:
+  no loops; each file read whole with `read -d ''`; the file system's name
+  from df's own line; numbers formatted with arithmetic; and the screen
+  drawn by one `printf` from a fixed format per layout (generated once,
+  with the logo in it), the figures as its arguments.
+- **Packages** are counted with one grep of apk's list (6 s in the
+  emulator) only when the list is newer than the count kept in
+  /var/cache/psilinux/welcome-packages; the image ships the count.
+- **The layout follows the window** (COLUMNS and LINES, which an
+  interactive bash has from the start; `stty size` if not): fastfetch's big logo when 21 rows and the widest
+  line plus 44 columns fit (the netBook), the small one with 13 rows (a 5mx
+  at the standard text size, toolbar shown or not), text only otherwise,
+  and without the colour blocks, then without the title, when the window
+  is shorter still, so that the prompt stays on the screen.
+- **Where.** `/etc/profile.d/psilinux-welcome.sh` (a new file, so it reaches
+  a root installed over an older one even where the user has changed
+  /etc/bash/psilinux.sh), `/usr/lib/psilinux/welcome` (the function). Only
+  a login bash that is interactive, on a terminal, not over ssh, without
+  `~/.hushlogin`: never for scripts, `bash -c`, the epoc command or ssh
+  commands. The fortune moved there from /etc/bash/psilinux.sh: it shows
+  when the banner is turned off. A user's own copy of psilinux.sh keeps
+  its fortune, so they see both until they remove it.
+- **Tools > Show welcome banner** (ticked as standard; the Tools menu has 7
+  items). The app keeps it in a spare field (KLxSpareNoWelcome: 0 shows, as
+  in older settings files) and the shared chunk (LX_SHARED_VERSION 7,
+  `welcome_off`, live: the next shell reads it); the kernel shows it as
+  /proc/psilinux/welcome (1 or 0). A root on an older PsiLinux has no such
+  file and shows the banner.
+- **Found on the way:** a bash here-string or here-document said "cannot
+  create temp file for here-document: Resource busy" in the 5mx emulator,
+  at login (perhaps bash deleting its file in /tmp while it is open, which
+  EPOC refuses; the host harness, on Linux's own files, does not show it).
+  Not looked into further here.

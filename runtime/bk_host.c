@@ -176,6 +176,7 @@ static lx_u32 sim_free(void)
 	return (lx_u32)kb * 1024 > sim_used ? (lx_u32)kb * 1024 - sim_used : 0;
 }
 lx_u32 bk_mem_reserve(void) { return getenv("LX_RESERVE") ? (lx_u32)atol(getenv("LX_RESERVE")) * 1024 : 0; }
+int bk_welcome(void) { return getenv("LX_WELCOME") ? atoi(getenv("LX_WELCOME")) != 0 : 1; }
 
 /* stacks get 16 KB of no access below them, as on the Psion (bk_epoc.cpp),
  * so a program that runs off its stack faults here too */

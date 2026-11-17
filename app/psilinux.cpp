@@ -29,7 +29,7 @@
 #include <psilinux.rsg>
 
 const TUid KUidPsiLinux = { 0x01000A87 };
-_LIT(KLxVersion, "0.36");
+_LIT(KLxVersion, "0.37");
 _LIT(KIniFile, "C:\\System\\Apps\\PsiLinux\\PsiLinux.ini");
 
 // ---------------------------------------------------------------------------
@@ -456,6 +456,8 @@ void CLxAppUi::DynInitMenuPaneL(TInt aMenuId, CEikMenuPane* aMenuPane)
 	case R_LX_TOOLS_MENU:
 		if (iSettings.iSpare[KLxSpareLog])
 			aMenuPane->SetItemButtonState(ELxCmdKeepLog, EEikMenuItemSymbolOn);
+		if (!iSettings.iSpare[KLxSpareNoWelcome])
+			aMenuPane->SetItemButtonState(ELxCmdWelcome, EEikMenuItemSymbolOn);
 		break;
 	case R_LX_VIEWS_MENU:
 		aMenuPane->SetItemButtonState(iView == 0 ? ELxCmdViewTerminal : ELxCmdViewRemote, EEikMenuItemSymbolOn);
@@ -470,7 +472,7 @@ void CLxAppUi::HandleCommandL(TInt aCommand)
 	// (in the Linux screen, only the commands that make sense there)
 	if (iView == 1 && aCommand != EEikCmdExit && aCommand != ELxCmdSwitchView && aCommand != ELxCmdViewTerminal &&
 		aCommand != ELxCmdViewRemote && aCommand != ELxCmdHelp && aCommand != ELxCmdAbout && aCommand != ELxCmdPreferences &&
-		aCommand != ELxCmdKeepLog)
+		aCommand != ELxCmdKeepLog && aCommand != ELxCmdWelcome)
 		{
 		iEikonEnv->InfoMsg(_L("Not available in this view"));
 		return;
@@ -571,6 +573,14 @@ void CLxAppUi::HandleCommandL(TInt aCommand)
 		iSettings.iSpare[KLxSpareLog] = !iSettings.iSpare[KLxSpareLog];
 		SaveSettings();
 		iEikonEnv->InfoMsg(iSettings.iSpare[KLxSpareLog] ? _L("Keeping a log") : _L("Not keeping a log"));
+		break;
+	case ELxCmdWelcome:
+		// (0.37) Alpine's banner at login (/etc/profile.d/psilinux-welcome.sh,
+		// which reads /proc/psilinux/welcome): the next shell to start reads it
+		iSettings.iSpare[KLxSpareNoWelcome] = !iSettings.iSpare[KLxSpareNoWelcome];
+		SaveSettings();
+		iTerm->Session()->SetWelcome(!iSettings.iSpare[KLxSpareNoWelcome]);
+		iEikonEnv->InfoMsg(iSettings.iSpare[KLxSpareNoWelcome] ? _L("No welcome banner") : _L("Welcome banner shown at start"));
 		break;
 	case ELxCmdHelp: HelpL(); break;
 	case ELxCmdAbout: AboutL(); break;

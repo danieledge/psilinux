@@ -35,6 +35,7 @@ public:
 		delete fm;
 		// (copied files keep the ROM's read-only attribute: Linux's root must be writable)
 		fs.SetAtt(_L("C:\\Linux\\ROOT.IMG"), 0, KEntryAttReadOnly);
+		fs.SetAtt(_L("C:\\Linux\\Alpine\\ROOT.IMG"), 0, KEntryAttReadOnly);    // (a small Alpine root, if there: mkalpine.sh)
 		CApaCommandLine* cl = CApaCommandLine::NewLC();
 		cl->SetLibraryNameL(_L("C:\\System\\Apps\\PsiLinux\\PsiLinux.app"));
 		cl->SetCommandL(EApaCommandRun);

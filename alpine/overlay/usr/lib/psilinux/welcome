@@ -1,0 +1,124 @@
+# /usr/lib/psilinux/welcome - PsiLinux's welcome banner (0.37), sourced by
+# /etc/profile.d/psilinux-welcome.sh in bash: psilinux_welcome prints
+# Alpine's logo beside root@psion, OS, Kernel, Packages, Shell, Terminal,
+# Memory, Disk, Locale and the colour blocks, as fastfetch does.
+#
+# Not fastfetch itself: each Linux session translates its programs afresh,
+# and fastfetch took 19 s the first time in the 5mx emulator (6 s or so on a
+# 5mx). This is bash's own work: the figures from /proc and one df, and
+# after apk has changed something, one grep. It is written for bash on a
+# 5mx, where every loop and every small read costs: no loops, whole files
+# read at once, and the screen drawn by one printf from a fixed layout
+# (DECISIONS.md 62).
+#
+# The layout follows the window: the big logo when there is room (the
+# netBook), the small one on a 5mx at the standard text size, text only when
+# the window is narrow or short, without the colour blocks and then the
+# title when it is very short. Returns 1 when PsiLinux's Tools > Show
+# welcome banner is not ticked.
+
+psilinux_welcome() {
+	local x os=Linux kern=? pk=? t=0 a=0 mem=? memc=? disk=? diskc=? w rows cols f c lt
+	# Tools > Show welcome banner (an older PsiLinux has no such file: shown)
+	if [ -r /proc/psilinux/welcome ]; then
+		read -r x < /proc/psilinux/welcome
+		[ "$x" = 0 ] && return 1
+	fi
+	# the figures
+	if [ -r /etc/os-release ]; then
+		read -r -d '' x < /etc/os-release
+		if [[ $x == *PRETTY_NAME=* ]]; then
+			x=${x#*PRETTY_NAME=}; x=${x%%$'\n'*}; x=${x#\"}; os=${x%\"}
+		fi
+	fi
+	[ -r /proc/version ] && read -r x x kern x < /proc/version
+	# packages: counted again only when apk's list has changed
+	c=/var/cache/psilinux/welcome-packages
+	if [ -s "$c" ] && [ ! /lib/apk/db/installed -nt "$c" ]; then
+		read -r pk < "$c"
+	else
+		pk=$(grep -c '^P:' /lib/apk/db/installed 2>/dev/null) || pk=?
+		{ mkdir -p "${c%/*}" && echo "$pk" > "$c"; } 2>/dev/null
+	fi
+	x=
+	[ -r /proc/meminfo ] && read -r -d '' x < /proc/meminfo
+	if [[ $x == *MemTotal:*MemAvailable:* ]]; then
+		t=${x#*MemTotal:}; t=${t%%kB*}; t=${t//[!0-9]/}
+		a=${x#*MemAvailable:}; a=${a%%kB*}; a=${a//[!0-9]/}
+		case $t$a in
+		'' | *[!0-9]*) ;;
+		*) ((t > 0)) && _psw_used $((t - a)) $t && mem=$REPLY memc=$REPLY2 ;;
+		esac
+	fi
+	# the disk: / is the root image and its writable layer, on the Psion's disk
+	x=$(df -Pk / 2>/dev/null)
+	set -- ${x#*$'\n'}
+	case $2$3 in
+	'' | *[!0-9]*) ;;
+	*) (($2 > 0)) && _psw_used $3 $2 && disk="$REPLY - $1" diskc="$REPLY2 - $1" ;;
+	esac
+	x=${USER:-root}@${HOSTNAME%%.*}
+
+	# what fits: the window's size (an interactive bash has COLUMNS and LINES
+	# from the start; stty only if not)
+	rows=$LINES cols=$COLUMNS
+	[ -z "$rows" ] || [ -z "$cols" ] && read -r rows cols < <(stty size 2>/dev/null)
+	case $rows in '' | *[!0-9]*) rows=24 ;; esac
+	case $cols in '' | *[!0-9]*) cols=80 ;; esac
+	# the widest line: OS, Memory or Disk
+	w=$((${#os} + 11))
+	((${#mem} + 8 > w)) && w=$((${#mem} + 8))
+	((${#disk} + 10 > w)) && w=$((${#disk} + 10))
+	if ((rows > 20 && cols >= 44 + w)); then
+		lt=big
+	elif ((rows > 12 && cols >= 16 + w)); then
+		lt=small
+	else
+		lt=text
+	fi
+	case $lt in
+		big) f=$'\e[1m\e[34m       .hddddddddddddddddddddddh.\e[m           \e[1m\e[34m%s\e[m@\e[1m\e[34m%s\e[m\n\e[1m\e[34m      :dddddddddddddddddddddddddd:\e[m          %s\n\e[1m\e[34m     /dddddddddddddddddddddddddddd/\e[m         \e[1m\e[35mOS\e[m: \e[m%s\n\e[1m\e[34m    +dddddddddddddddddddddddddddddd+\e[m        \e[1m\e[35mKernel\e[m: \e[m%s\n\e[1m\e[34m  `sdddddddddddddddddddddddddddddddds`\e[m      \e[1m\e[35mPackages\e[m: \e[m%s\n\e[1m\e[34m `ydddddddddddd++hdddddddddddddddddddy`\e[m     \e[1m\e[35mShell\e[m: \e[m%s\n\e[1m\e[34m.hddddddddddd+`  `+ddddh:-sdddddddddddh.\e[m    \e[1m\e[35mTerminal\e[m: \e[m%s\n\e[1m\e[34mhdddddddddd+`      `+y:    .sddddddddddh\e[m    \e[1m\e[35mMemory\e[m: \e[m%s\n\e[1m\e[34mddddddddh+`   `//`   `.`     -sddddddddd\e[m    \e[1m\e[35mDisk (/)\e[m: \e[m%s\n\e[1m\e[34mddddddh+`   `/hddh/`   `:s-    -sddddddd\e[m    \e[1m\e[35mLocale\e[m: \e[m%s\n\e[1m\e[34mddddh+`   `/+/dddddh/`   `+s-    -sddddd\e[m\n\e[1m\e[34mddd+`   `/o` :dddddddh/`   `oy-    .yddd\e[m    \e[m\e[40m   \e[41m   \e[42m   \e[43m   \e[44m   \e[45m   \e[46m   \e[47m   \e[m\n\e[1m\e[34mhdddyo+ohddyosdddddddddho+oydddy++ohdddh\e[m\n\e[1m\e[34m.hddddddddddddddddddddddddddddddddddddh.\e[m\n\e[1m\e[34m `yddddddddddddddddddddddddddddddddddy`\e[m\n\e[1m\e[34m  `sdddddddddddddddddddddddddddddddds`\e[m\n\e[1m\e[34m    +dddddddddddddddddddddddddddddd+\e[m\n\e[1m\e[34m     /dddddddddddddddddddddddddddd/\e[m\n\e[1m\e[34m      :dddddddddddddddddddddddddd:\e[m\n\e[1m\e[34m       .hddddddddddddddddddddddh.\e[m\n' ;;
+		small) f=$'\e[1m\e[34m   /\\\\ /\\\\\e[m        \e[1m\e[34m%s\e[m@\e[1m\e[34m%s\e[m\n\e[1m\e[34m  // \\\\  \\\\\e[m       %s\n\e[1m\e[34m //   \\\\  \\\\\e[m      \e[1m\e[35mOS\e[m: \e[m%s\n\e[1m\e[34m///    \\\\  \\\\\e[m     \e[1m\e[35mKernel\e[m: \e[m%s\n\e[1m\e[34m//      \\\\  \\\\\e[m    \e[1m\e[35mPackages\e[m: \e[m%s\n\e[1m\e[34m         \\\\\e[m      \e[1m\e[35mShell\e[m: \e[m%s\n\e[1m\e[34m\e[m                \e[1m\e[35mTerminal\e[m: \e[m%s\n\e[1m\e[34m\e[m                \e[1m\e[35mMemory\e[m: \e[m%s\n\e[1m\e[34m\e[m                \e[1m\e[35mDisk (/)\e[m: \e[m%s\n\e[1m\e[34m\e[m                \e[1m\e[35mLocale\e[m: \e[m%s\n\e[1m\e[34m\e[m\n\e[1m\e[34m\e[m                \e[m\e[40m   \e[41m   \e[42m   \e[43m   \e[44m   \e[45m   \e[46m   \e[47m   \e[m\n' ;;
+		# text only: the title, the figures, the colour blocks (dropped from the end and the start when short)
+		*) t=$'\e[1m\e[34m%s\e[m@\e[1m\e[34m%s\e[m\n%s\n'; f=$'\e[1m\e[35mOS\e[m: \e[m%s\n\e[1m\e[35mKernel\e[m: \e[m%s\n\e[1m\e[35mPackages\e[m: \e[m%s\n\e[1m\e[35mShell\e[m: \e[m%s\n\e[1m\e[35mTerminal\e[m: \e[m%s\n\e[1m\e[35mMemory\e[m: \e[m%s\n\e[1m\e[35mDisk (/)\e[m: \e[m%s\n\e[1m\e[35mLocale\e[m: \e[m%s\n'; c=$'\n\e[m\e[40m   \e[41m   \e[42m   \e[43m   \e[44m   \e[45m   \e[46m   \e[47m   \e[m\n' ;;
+	esac
+	if [ $lt = text ]; then
+		# 13 lines with the prompt; fewer: no colour blocks, then no title
+		((rows > 12)) && f+=$c
+		if ((rows > 10)); then
+			f=$t$f
+			set -- "${USER:-root}" "${HOSTNAME%%.*}" "${x//?/-}"
+		else
+			set --
+		fi
+	else
+		set -- "${USER:-root}" "${HOSTNAME%%.*}" "${x//?/-}"
+	fi
+	printf "$f" "$@" "$os armv6l" "Linux $kern" "$pk (apk)" "bash ${BASH_VERSION%%[(]*}" "${TERM:-dumb}" \
+		"$memc" "$diskc" "${LC_ALL:-${LC_MESSAGES:-${LANG:-C}}}"
+	return 0
+}
+
+# "11.70 MiB / 50.00 MiB (23%)", for KB used of KB in all, in REPLY; in
+# REPLY2 with the per cent green, yellow or red, as fastfetch colours it
+_psw_used() {
+	local s q p col=32
+	_psw_size $1; s=$REPLY
+	_psw_size $2; q=$REPLY
+	p=$((($1 * 100 + $2 / 2) / $2))
+	((p >= 50)) && col=93
+	((p >= 80)) && col=91
+	REPLY="$s / $q ($p%)"
+	REPLY2="$s / $q ("$'\e['${col}m$p%$'\e[m'")"
+}
+
+# a size in KB as fastfetch writes it: 512.00 KiB, 11.70 MiB, 1.95 GiB
+# (arithmetic, not printf -v: quicker in bash on a 5mx)
+_psw_size() {
+	local d=1 u=KiB h c
+	(($1 >= 1024)) && d=1024 u=MiB
+	(($1 >= 1048576)) && d=1048576 u=GiB
+	h=$((($1 * 100 + d / 2) / d)) c=$((h % 100))
+	((c < 10)) && c=0$c
+	REPLY="$((h / 100)).$c $u"
+}

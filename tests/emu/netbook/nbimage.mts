@@ -10,7 +10,8 @@
 //
 // Needs Coda's image tools (romlib.mts: $PSION_NETBOOK, standard
 // ../psion-netbook), build/psilinux-pkg (build.sh), build/nbtest/lxlaunch.*
-// (tests/emu/netbook/build.sh) and build/nbtest/root/ROOT.IMG (mkroot.sh).
+// (tests/emu/netbook/build.sh) and build/nbtest/root/ROOT.IMG (mkroot.sh);
+// build/nbtest/alpine/ROOT.IMG (mkalpine.sh) too, if it is there.
 import { readFileSync, writeFileSync, existsSync, readdirSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -36,9 +37,20 @@ for (const [n, to] of [['psilinux.app', 'PsiLinux.app'], ['psilinux.rsc', 'PsiLi
 addFile(rom, 'Z:\\Test\\Libs\\LxSync1.ldd', readFileSync(P + 'lxsync1.ldd'));
 if (!find(rom, 'Z:\\System\\Libs\\EStLib.dll').length)
   addFile(rom, 'Z:\\Test\\Libs\\ESTLIB.DLL', readFileSync(resolve(top, 'core/tools/emu/ESTLIB.DLL')));
-const R = `${b}/nbtest/root/`;
+// (0.37) a small Alpine root (mkalpine.sh), if there is one, in place of
+// PsiLinux's own: PsiLinux then starts Alpine's shell, as it does on a real
+// netBook. For the room, programs the test does not use go too.
+const AR = `${b}/nbtest/alpine/`;
+const alpine = existsSync(AR + 'ROOT.IMG');
+if (alpine)
+  for (const p of ['Agenda', 'Sheet', 'PsiSketch', 'Paint', 'PsiAmp', 'TextEd', 'OPL', 'PsiView', 'Data', 'Calc', 'Word']
+    .map(a => `Z:\\System\\Apps\\${a}`).concat(['Z:\\System\\OPX', 'Z:\\System\\Libs\\OplR.dll', 'Z:\\System\\Convert\\PsiConv.cnv',
+    'Z:\\System\\Libs\\PsiSpell.bin', 'Z:\\System\\Fonts\\TfInter.gdr', 'Z:\\System\\Fonts\\TfDejaVuSansMono.gdr',
+    'Z:\\System\\Libs\\ELexs.exe', 'Z:\\System\\Printers']))
+    if (find(rom, p).length) try { removeChecked(rom, [p]); } catch (e) { console.log(`kept ${p}: ${(e as Error).message.split('\n')[1]}`); }
+const R = alpine ? AR : `${b}/nbtest/root/`;
 for (const n of readdirSync(R).filter(n => /^ROOT\.(IMG|I\d\d)$/.test(n)))
-  addFile(rom, `Z:\\Test\\Linux\\${n}`, readFileSync(R + n));
+  addFile(rom, `Z:\\Test\\Linux\\${alpine ? 'Alpine\\' : ''}${n}`, readFileSync(R + n));
 // the test documents: a Word file, and a .docx (Coda's Word opens it)
 const docs: [string, string][] = [['Readme', resolve(top, '../psionEmulators/applib/epocutil/sndonoff/Readme.wrd')],
   ['Garden notes.docx', resolve(nb, 'tools/examples/files/Garden notes.docx')]];

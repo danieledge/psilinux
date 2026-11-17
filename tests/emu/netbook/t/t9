@@ -1,0 +1,14 @@
+#!/bin/sh
+# t9 (run by itself at login: mkalpine.sh): the welcome banner's time, or fastfetch's in a root made with
+# NB_FASTFETCH=1 (no bash there), twice each
+[ -z "$BASH_VERSION" ] && [ -x /bin/bash ] && exec /bin/bash "$0"
+clear
+if [ -n "$BASH_VERSION" ]; then
+	. /usr/lib/psilinux/welcome
+	time psilinux_welcome
+	time psilinux_welcome > /dev/null
+	time df -Pk / > /dev/null
+else
+	time fastfetch > /dev/null
+	time fastfetch
+fi

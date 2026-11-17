@@ -5,6 +5,8 @@
 #   - m2test.sh under BusyBox sh and under bash (46 checks each)
 #   - bashtest.sh: what bash has beyond sh
 #   - bash interactive, in a pty: job control, Ctrl+C, Ctrl+Z, Tab, history
+#   - the welcome banner (0.37): at an interactive login, its layouts, and
+#     not for scripts, with Show welcome banner off or with ~/.hushlogin
 #   - the memory reserve, with a pretend Psion short of memory
 #   linux/tools/lxbuild "linux/tests/run-alpine.sh"
 set -e
@@ -31,7 +33,7 @@ run bashtest /bin/bash /t/bashtest.sh
 
 echo "== bash, interactive"
 fresh
-python3 "$REPO/tests/ptydrive.py" $R bash-pty.log 'wait:# :300' \
+python3 "$REPO/tests/ptydrive.py" $R bash-pty.log 'wait:root.*@.*psion(.|\n)*Packages.*: .*[0-9]+ \(apk\)(.|\n)*Memory.*: .*MiB / (.|\n)*Disk \(/\).*: (.|\n)*Locale(.|\n)*# :300' \
 	'send:ls /etc | head -3 | wc -l\r' 'wait:\r3\r' \
 	'send:sleep 30\r' 'sleep:5' 'send:\x03' 'wait:# :60' 'send:echo int=$?\r' 'wait:int=130' \
 	'send:ls /etc/alpine-rel\t\r' 'wait:/etc/alpine-release' \
@@ -42,6 +44,30 @@ python3 "$REPO/tests/ptydrive.py" $R bash-pty.log 'wait:# :300' \
 	'send:exit\r' 'sleep:3' -- /bin/bash -il > bash-pty.out 2>&1 || true
 cat bash-pty.out | grep -E "TIMEOUT|OK|FAILED"
 grep -q '^OK' bash-pty.out || fail=1
+
+# the welcome banner: the small logo at 18x95 (a 5mx), the big one at
+# 30x106 (a netBook), text only at 12x50; none for a script, with Tools >
+# Show welcome banner off (a fortune instead) or with ~/.hushlogin
+echo "== the welcome banner"
+wfail=0
+for t in "18x95 ///    .  .(.|\n)*Locale" "30x106 ddddddh\+.   ./hddh/.*Locale" "12x50 \n(\x1b\[[0-9]*m)+OS(.|\n)*Locale"; do
+	fresh
+	PTY_SIZE=${t%% *} python3 "$REPO/tests/ptydrive.py" $R welcome.log "wait:${t#* }(.|\n)*# :300" 'send:exit\r' 'sleep:3' \
+		-- /bin/bash -il > welcome.out 2>&1 || true
+	grep -q '^OK' welcome.out || { echo "FAIL welcome at ${t%% *}: see build/linux/welcome.log"; wfail=1; }
+done
+fresh
+timeout 300 qemu-arm -cpu ti925t ./psihost -r $R /bin/bash -lc 'echo script' < /dev/null > welcome.log 2>&1 || true
+{ grep -q '^script' welcome.log && ! grep -q 'Kernel' welcome.log; } || { echo "FAIL welcome: shown to a script"; wfail=1; }
+fresh
+LX_WELCOME=0 python3 "$REPO/tests/ptydrive.py" $R welcome.log 'wait:# :300' 'send:cat /proc/psilinux/welcome\r' 'wait:\r0\r' 'send:exit\r' 'sleep:3' \
+	-- /bin/bash -il > welcome.out 2>&1 || true
+{ grep -q '^OK' welcome.out && ! grep -q 'Kernel' welcome.log; } || { echo "FAIL welcome: shown with Show welcome banner off"; wfail=1; }
+fresh
+mkdir -p $R/root/root && : > $R/root/root/.hushlogin
+python3 "$REPO/tests/ptydrive.py" $R welcome.log 'wait:# :300' 'send:exit\r' 'sleep:3' -- /bin/bash -il > welcome.out 2>&1 || true
+{ grep -q '^OK' welcome.out && ! grep -q 'Kernel' welcome.log; } || { echo "FAIL welcome: shown with ~/.hushlogin"; wfail=1; }
+[ $wfail = 0 ] && echo "ok   welcome banner: 3 layouts; not for a script, when off, or with ~/.hushlogin" || fail=1
 
 echo "== memory reserve (a pretend Psion with 6 MB free, 1 MB kept)"
 fresh

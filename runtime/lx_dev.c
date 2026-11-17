@@ -444,7 +444,7 @@ enum {
 	P_DIR = 1, P_SELF, P_PIDDIR, P_CMDLINE, P_COMM, P_STAT, P_STATUS, P_STATM, P_ENVIRON, P_MAPS,
 	P_EXE, P_CWD, P_ROOT, P_FDDIR, P_FD, P_MEMINFO, P_CPUINFO, P_UPTIME, P_LOADAVG, P_VERSION,
 	P_MOUNTS, P_FILESYSTEMS, P_KSTAT, P_KCMDLINE, P_SYSDIR, P_HOSTNAME, P_THREADSELF, P_MOUNTINFO,
-	P_PSIDIR, P_PSIDBT, P_PSIIMAGES, P_PSIMEM
+	P_PSIDIR, P_PSIDBT, P_PSIIMAGES, P_PSIMEM, P_PSIWELCOME
 };
 
 typedef struct pent { const char *name; int kind; lx_u32 mode; } pent;
@@ -500,6 +500,7 @@ int lx_proc_lookup(lx_proc *p, const char *rel, lx_vn *v)
 	if (lx_strcmp(rel, "psilinux/dbt") == 0) { v->kind = P_PSIDBT; v->mode = LX_S_IFREG | 0444; return 0; }
 	if (lx_strcmp(rel, "psilinux/images") == 0) { v->kind = P_PSIIMAGES; v->mode = LX_S_IFREG | 0444; return 0; }
 	if (lx_strcmp(rel, "psilinux/mem") == 0) { v->kind = P_PSIMEM; v->mode = LX_S_IFREG | 0444; return 0; }
+	if (lx_strcmp(rel, "psilinux/welcome") == 0) { v->kind = P_PSIWELCOME; v->mode = LX_S_IFREG | 0444; return 0; }
 	for (i = 0; i < NTOP; i++)
 		if (lx_strcmp(proc_top[i].name, rel) == 0) {
 			v->kind = proc_top[i].kind;
@@ -566,6 +567,7 @@ void lx_proc_list(lx_proc *p, lx_vn *v, void *dl)
 		lx_dlist_add(dl, "dbt", LX_DT_REG, 0);
 		lx_dlist_add(dl, "images", LX_DT_REG, 0);
 		lx_dlist_add(dl, "mem", LX_DT_REG, 0);
+		lx_dlist_add(dl, "welcome", LX_DT_REG, 0);
 	} else if (v->kind == P_SYSDIR) {
 		if (lx_strcmp(v->path, "/proc/sys") == 0) lx_dlist_add(dl, "kernel", LX_DT_DIR, 0);
 		else lx_dlist_add(dl, "hostname", LX_DT_REG, 0);
@@ -711,6 +713,10 @@ static int proc_text(lx_proc *p, lx_vn *v, char *buf, int size)
 		if (!dbt_available()) return lx_snprintf(buf, size, "the translator has not run (no Alpine program yet)\n");
 		dbt_stats(buf, size);
 		return lx_strlen(buf);
+	case P_PSIWELCOME:
+		/* (0.37) PsiLinux's Tools > Show welcome banner: 1 ticked, 0 not
+		 * (/etc/profile.d/psilinux-welcome.sh reads it) */
+		return lx_snprintf(buf, size, "%d\n", bk_welcome());
 	case P_PSIIMAGES:
 		buf[0] = 0;
 		lx_simg_stats(buf, size);

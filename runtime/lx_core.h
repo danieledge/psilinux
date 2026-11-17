@@ -25,7 +25,7 @@
 extern "C" {
 #endif
 
-#define LX_VERSION "0.36"
+#define LX_VERSION "0.37"
 #define LX_MAXPROC 64
 #define LX_MAXTHREAD 64
 #define LX_MAXFD 128
@@ -365,6 +365,7 @@ void bk_fb_notify(void);                      /* wake the app: the screen change
 void bk_mem_info(lx_u32 *total, lx_u32 *free_);   /* the Psion's RAM, and how much is free */
 int bk_machine(char *name, int size);   /* the machine's name (UserHal); 1 on an SA-1100 (netBook, Series 7), 0 on the 5mx */
 lx_u32 bk_mem_reserve(void);                  /* bytes to leave free for EPOC's programs (Preferences), 0 = none */
+int bk_welcome(void);                         /* (0.37) 1: Tools > Show welcome banner is ticked (/proc/psilinux/welcome) */
 /* terminals */
 int bk_tty_write(lx_tty *tty, const char *buf, int n);   /* how much was taken; 0 = full (lx_k_tty_writable later) */
 int bk_tty_room(lx_tty *tty);                 /* how much bk_tty_write would take now */

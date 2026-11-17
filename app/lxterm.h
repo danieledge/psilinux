@@ -63,6 +63,7 @@ struct TLxSettings
 
 const TInt KLxSpareLog = 0;      // 0.24: Tools > Keep a log (0: off, as in older files)
 const TInt KLxSpareFace = 1;     // 0.29: the typeface of the zoom levels (PsiTerm's iFace: 0 Terminus...)
+const TInt KLxSpareNoWelcome = 2; // 0.37: 1: Tools > Show welcome banner not ticked (0: shown, as in older files)
 
 // (0.29) PsiTerm's theme for a colour screen with no saved settings (its
 // KPtThemeClean, 1.04)
@@ -94,6 +95,7 @@ public:
 	const LxShared* Shared() const { return iShared; }
 	void SetLogOn(TBool aOn) { iLogOn = aOn; }   // (0.24) Keep a log: passed on at the next Start
 	void SetReserve(TUint aBytes) { iReserve = aBytes; if (iShared) iShared->reserve = aBytes; }   // the runner reads it at each growth
+	void SetWelcome(TBool aOn) { iWelcomeOff = !aOn; if (iShared) iShared->welcome_off = iWelcomeOff; }   // (0.37) the next shell reads it
 	void Write(const TDesC8& aBytes);  // typed bytes to the terminal
 	void Resize(TInt aRows, TInt aCols);
 	void Pump();                       // output to the view, the runner's state
@@ -110,6 +112,7 @@ private:
 	RChunk iChunk;
 	TUint iReserve;              // bytes to keep for other programs (Preferences)
 	TBool iLogOn;                // Tools > Keep a log (0.24)
+	TBool iWelcomeOff;           // Tools > Show welcome banner not ticked (0.37)
 	TBool iChunkOpen;
 	LxShared* iShared;
 	RProcess iProcess;

@@ -677,6 +677,8 @@ extern "C" void bk_memset(void* d, int c, lx_u32 n) { Mem::Fill(d, n, TChar(c & 
 // Preferences: "Keep memory for other programs" (the app sets it, and may
 // change it while Linux runs): lx_reserve_ok checks each growth against it
 extern "C" lx_u32 bk_mem_reserve(void) { return gSh ? gSh->reserve : 0; }
+// (0.37) Tools > Show welcome banner (the app may change it while Linux runs)
+extern "C" int bk_welcome(void) { return gSh ? !gSh->welcome_off : 1; }
 
 extern "C" void bk_mem_info(lx_u32* total, lx_u32* freeb)
 	{

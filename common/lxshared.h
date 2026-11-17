@@ -18,7 +18,7 @@
 
 #define LX_SHARED_NAME   "PsiLinuxTerm"
 #define LX_SHARED_MAGIC  0x584e4c50u      /* 'PLNX' */
-#define LX_SHARED_VERSION 6
+#define LX_SHARED_VERSION 7
 #define LX_KBD_SIZE      2048
 #define LX_OUT_SIZE      16384
 #define LX_EPOC_BUF      16032         /* (6) an EPOC request or answer (lxepoc.h: header + LXE_MAX) */
@@ -83,6 +83,9 @@ typedef struct
 	volatile unsigned int epoc_ans_len;
 	unsigned char epoc_req[LX_EPOC_BUF];
 	unsigned char epoc_ans[LX_EPOC_BUF];
+
+	volatile int welcome_off;          /* (7) 1: Tools > Show welcome banner is not ticked (the app; may
+	                                      change while running): /proc/psilinux/welcome says 0 */
 	} LxShared;
 
 #endif

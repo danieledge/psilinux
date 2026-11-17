@@ -65,6 +65,7 @@ TInt CLxSession::Start(const TDesC& aRoot, const TDesC8& aProgram, TBool aLogin,
 	iShared->bell_magic = PSI_BELL_MAGIC;
 	iShared->reserve = iReserve;
 	iShared->log_on = iLogOn ? 1 : 0;
+	iShared->welcome_off = iWelcomeOff ? 1 : 0;
 	// (0.36) EPOC requests: this window answers them
 	if (!iEpoc)
 		{
@@ -615,6 +616,7 @@ void CLxTermView::StartLinuxL()
 	TInt r;
 	iSession->SetReserve(ReserveBytes());          // (Start passes it on)
 	iSession->SetLogOn(iLxSettings->iSpare[KLxSpareLog] != 0);
+	iSession->SetWelcome(iLxSettings->iSpare[KLxSpareNoWelcome] == 0);
 	// (0.26) SetStartOnce() for this start only, else Preferences > Start
 	TInt start = iStartOnce >= 0 ? iStartOnce : iLxSettings->iStart;
 	iStartOnce = -1;

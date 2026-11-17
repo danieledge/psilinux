@@ -40,7 +40,8 @@ enum TLxCommand
 	ELxCmdTbKeys,
 	ELxCmdTbCopy,
 	ELxCmdTbPaste,
-	ELxCmdKeepLog             // Tools > Keep a log (0.24)
+	ELxCmdKeepLog,            // Tools > Keep a log (0.24)
+	ELxCmdWelcome             // Tools > Show welcome banner (0.37)
 	};
 
 // the Preferences dialog's lines

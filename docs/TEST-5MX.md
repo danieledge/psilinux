@@ -58,7 +58,8 @@ sections (10 to 13).
 2. Go to Tools > Preferences… (Shift+Ctrl+K) and set **Start** to
    **Alpine Linux, shell only**.
 3. Choose File > Start Linux (Shift+Ctrl+N). **Time it** until the bash
-   prompt `psion:~#` appears (after a short fortune).
+   prompt `psion:~#` appears (after the welcome banner: Alpine's logo and
+   the figures).
 4. Type these commands:
    ```
    echo $BASH_VERSION             # 5.3.9(1)-release
@@ -86,7 +87,7 @@ sections (10 to 13).
 2. Set Preferences > Start to **Alpine Linux**.
 3. Start Linux, and **time it** until the `psion:~#` prompt.
    - You should see OpenRC's lines, each ending `[ ok ]`, then the welcome
-     text, a fortune and the prompt. In the emulator this took about
+     text, the welcome banner and the prompt. In the emulator this took about
      2 minutes 15 seconds.
    - If a line says "bash does not start", note it: root then has BusyBox
      sh (see the end of this sheet).

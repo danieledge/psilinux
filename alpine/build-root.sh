@@ -70,6 +70,10 @@ fi
 mkdir -p "$S/usr/lib/psilinux"
 cp "$S/lib/apk/db/installed" "$S/usr/lib/psilinux/apk-installed"
 cp "$S/etc/apk/world" "$S/usr/lib/psilinux/apk-world"
+# (0.37) the welcome banner's package count (/usr/lib/psilinux/welcome),
+# newer than apk's list: counted again only when apk changes it
+mkdir -p "$S/var/cache/psilinux"
+grep -c '^P:' "$S/lib/apk/db/installed" > "$S/var/cache/psilinux/welcome-packages"
 # the licences and where the source is (SOURCES.md): every package's name,
 # version, origin and licence, and the GPL texts
 L=$S/usr/share/licenses

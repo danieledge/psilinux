@@ -26,7 +26,7 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 
 ## Contents
 
-- [What's new in 0.36](#whats-new-in-036)
+- [What's new in 0.37](#whats-new-in-037)
 - [Screenshots](#screenshots)
 - [What it is](#what-it-is)
 - [What is new about it](#what-is-new-about-it)
@@ -41,7 +41,7 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 - [Support](#support)
 - [Credits and licences](#credits-and-licences)
 
-## What's new in 0.36
+## What's new in 0.37
 
 Since 0.22, the last release.
 
@@ -56,6 +56,7 @@ New:
 - The program icon is in colour on the netBook.
 
 Changed:
+- Alpine greets you with a welcome banner when its shell starts: Alpine's logo beside root@psion, OS, Kernel, Packages, Shell, Terminal, Memory, Disk, Locale and the colour blocks, as fastfetch shows them, with memory and disk as they are now. It is drawn by bash itself, so the prompt is not kept waiting (it adds about 2 s to a login in the 5mx emulator, where fastfetch took 19 s; 0.3 s on the netBook), and it fits the window: the big logo on the netBook, the small one on a 5mx, text only when the window is narrow or short. Tools > Show welcome banner turns it off (a short fortune instead, as before), and so does `touch ~/.hushlogin`. Only on PsiLinux's window, for an interactive shell: not for scripts or over ssh. It reaches an Alpine root installed over an older one, and leaves files you have changed alone.
 - First start hides the toolbar (Shift+Ctrl+B brings it back) and starts Alpine's shell only. Saved settings are left alone.
 - A typed key wakes the terminal straight away, even with a busy program running.
 - ssh logs in in about half a minute on a 5mx (no sntrup761).
@@ -71,14 +72,14 @@ Fixed:
 
 ## Screenshots
 
-PsiLinux 0.33 on the netBook and the Series 5mx, in emulators. Tap or click one to see it full size.
+PsiLinux 0.37 on the netBook and the Series 5mx, in emulators. Tap or click one to see it full size.
 
 <table>
 <tr><th>netBook</th><th>Series 5mx</th></tr>
-<tr><td colspan="2"><b>Alpine's shell in PsiTerm's terminal, as a first start leaves it</b></td></tr>
+<tr><td colspan="2"><b>Alpine's shell in PsiTerm's terminal, as a first start leaves it: the welcome banner</b></td></tr>
 <tr>
-<td><a href="docs/img/netbook-psilinux-fastfetch.png"><img src="docs/img/netbook-psilinux-fastfetch.png" alt="netBook: Alpine Linux in colour, fastfetch" width="400"></a></td>
-<td><a href="docs/img/5mx-psilinux-shell.png"><img src="docs/img/5mx-psilinux-shell.png" alt="Series 5mx: Alpine Linux 3.24 bash with the toolbar hidden" width="400"></a></td>
+<td><a href="docs/img/netbook-psilinux-welcome.png"><img src="docs/img/netbook-psilinux-welcome.png" alt="netBook: Alpine's logo in colour beside root@psion, OS, Kernel, Packages, Shell, Terminal, Memory, Disk and Locale" width="400"></a></td>
+<td><a href="docs/img/5mx-psilinux-welcome.png"><img src="docs/img/5mx-psilinux-welcome.png" alt="Series 5mx: the small Alpine logo beside the same figures, the toolbar hidden" width="400"></a></td>
 </tr>
 <tr><td colspan="2"><b>Preferences > Screen: the typeface and colours</b></td></tr>
 <tr>

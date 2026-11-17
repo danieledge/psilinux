@@ -125,11 +125,20 @@ python3 tools/apkcat/mkapkcat.py build/apkcat-site --index ~/.cache/psiapk
 ```
 
 `.github/workflows/apkcat.yml` runs it every day and publishes the result to
-the `gh-pages` branch, which GitHub Pages serves at
-`https://danieledge.github.io/psilinux/apk/v3.24/armhf/`, only when Alpine's
-index (or the generator) has changed. It needs Pages turned on once:
-Settings > Pages > Deploy from a branch, `gh-pages`, `/ (root)`. About 39,000
-files, 23 MB; 99 % are under 8 KB.
+the `gh-pages` branch, only when Alpine's index (or the generator) has
+changed. GitHub runs scheduled workflows only from a repository's default
+branch, so the daily run is in a small repository of its own,
+[danieledge/psilinux-apkcat](https://github.com/danieledge/psilinux-apkcat)
+(its `main` holds a copy of `mkapkcat.py`, the workflow and a README), whose
+Pages serve it at `https://danieledge.github.io/psilinux-apkcat/apk/v3.24/armhf/`.
+Change the generator here, then copy `mkapkcat.py` (and the workflow, if it
+changed) there. The workflow here still works from Actions > apkcat > Run
+workflow, publishing to this repository's Pages
+(`https://danieledge.github.io/psilinux/apk/v3.24/armhf/`), which the
+wrapper reads only when psilinux-apkcat's cannot be reached (until they are
+retired). Pages needs turning on once in each: Settings > Pages > Deploy from
+a branch, `gh-pages`, `/ (root)`. About 39,000 files, 23 MB; 99 % are under
+8 KB.
 
 Tests: `tools/apkcat/test/run.sh` (the generator against the index, and the
 Psion's wrapper, under BusyBox in an alpine container, against psiapk's

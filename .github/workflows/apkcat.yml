@@ -1,8 +1,14 @@
 # apkcat.yml - Alpine's package catalogue for the Psion's apk, as small
-# static files on this repository's GitHub Pages (tools/apkcat/mkapkcat.py
-# says what they are). Every day it reads Alpine's index (v3.24, main and
-# community, armhf) and publishes the catalogue again, to the gh-pages
-# branch, only when the index (or the generator) has changed.
+# static files on GitHub Pages (tools/apkcat/mkapkcat.py says what they
+# are). It reads Alpine's index (v3.24, main and community, armhf) and
+# publishes the catalogue to the gh-pages branch, only when the index (or
+# the generator) has changed.
+# GitHub runs schedules only from a default branch, so the daily run is in
+# danieledge/psilinux-apkcat (a copy of this workflow and the generator),
+# whose Pages the wrapper reads:
+#   https://danieledge.github.io/psilinux-apkcat/apk/v3.24/armhf/stats
+# Here it runs on a push to the generator or by hand, and publishes to
+# psilinux's own Pages, the wrapper's fallback until they are retired:
 #   https://danieledge.github.io/psilinux/apk/v3.24/armhf/stats
 # Pages serves the gh-pages branch (Settings > Pages > Deploy from a branch,
 # gh-pages, / (root)). Run it by hand from Actions > apkcat > Run workflow

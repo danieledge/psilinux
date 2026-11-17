@@ -183,8 +183,11 @@ Alpine's catalogue takes about 30 MB of memory to load, and a 5mx has about
 
 - **Alpine's online catalogue** (the standard choice, no set-up): small static
   files made from Alpine's index every day by `tools/apkcat/mkapkcat.py`
-  (`.github/workflows/apkcat.yml`), on GitHub Pages
-  (`https://danieledge.github.io/psilinux/apk/v3.24/armhf/`). Each package
+  (`.github/workflows/apkcat.yml`, run daily from the
+  [psilinux-apkcat](https://github.com/danieledge/psilinux-apkcat)
+  repository), on GitHub Pages
+  (`https://danieledge.github.io/psilinux-apkcat/apk/v3.24/armhf/`; psilinux's
+  own Pages, the first home, only if that cannot be reached). Each package
   is a file of its own with its dependencies already matched to the packages
   that provide them; a search reads one file of names (by the rarest three
   letters of what you typed) and, with `-d`, one of description words;

@@ -989,8 +989,23 @@ Alpine Linux's own armhf programs, unmodified, through a binary translator:
   cause was found in 0.37 (decision 63); the packages now come from the
   mirror over https again, plain http only if https fails (apk's signature
   check makes that safe).
-- **Alternatives:** a new repository for the catalogue (not needed: this
-  repository's Pages were free); one file per search (25,000 names is 80 KB
+- **Where it is published (17 Nov 2026):** GitHub runs scheduled workflows
+  only from the default branch (main), and psilinux is not merged to main
+  yet, so the daily run never ran. It now runs from a small public
+  repository, danieledge/psilinux-apkcat, whose main holds only a copy of
+  the generator, the workflow and a README; it publishes to that
+  repository's own Pages
+  (`https://danieledge.github.io/psilinux-apkcat/apk/v3.24/armhf/`), the
+  wrapper's default. psilinux's Pages (the first URL) are the wrapper's
+  fallback, used only when the new one cannot be reached or is not a
+  catalogue, until they are retired; `/var/cache/apk/psion/cat-url` keeps
+  which one the cached stats came from, so the cached files always match
+  them. Not chosen: keeping the old URL by pushing to psilinux's gh-pages
+  from the new repository, which needs a long-lived token with write access
+  to psilinux stored as a secret there; or merging to main early. The
+  generator stays here with its tests; the copy there is updated by hand.
+- **Alternatives:** a new repository for the catalogue (not needed at
+  first: this repository's Pages were free; see above); one file per search (25,000 names is 80 KB
   packed, too slow over serial); Alpine's own apk on the netBook (it needs
   36 MB free; too much for a 5mx, and tight on a 64 MB netBook).
 - **Also:** `sendfile` into a full pipe returned 0, which callers read as

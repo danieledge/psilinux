@@ -46,7 +46,15 @@ APK_MIRROR=
 [ -n "$ENV_SOURCE" ] && APK_SOURCE=$ENV_SOURCE
 [ -n "$ENV_CATALOGUE" ] && APK_CATALOGUE=$ENV_CATALOGUE
 [ -n "$ENV_MIRROR" ] && APK_MIRROR=$ENV_MIRROR
-CAT=${APK_CATALOGUE:-https://danieledge.github.io/psilinux/apk/$BRANCH/$ARCH}
+# the online catalogue: psilinux-apkcat's Pages (made there every day);
+# psilinux's own Pages (no longer remade) only if that cannot be reached,
+# until they are retired. $CACHE/cat-url keeps the one the cached stats came
+# from, so the files read with them come from the same place
+CAT_MAIN=https://danieledge.github.io/psilinux-apkcat/apk/$BRANCH/$ARCH
+CAT_OLD=https://danieledge.github.io/psilinux/apk/$BRANCH/$ARCH
+CAT=$APK_CATALOGUE
+[ -z "$CAT" ] && CAT=$(cat "$CACHE/cat-url" 2>/dev/null)
+case "$CAT" in "$CAT_MAIN" | "$CAT_OLD") ;; *) [ -n "$APK_CATALOGUE" ] || CAT=$CAT_MAIN ;; esac
 # (https since 0.37, which fixed BusyBox wget's damaged https downloads;
 # plain http if https does not work, as apk checks every signature)
 MIRROR=${APK_MIRROR:-https://dl-cdn.alpinelinux.org/alpine/$BRANCH}
@@ -249,13 +257,25 @@ cat_stats() {
 	if [ "$1" = 1 ] || [ ! -s "$s" ] || [ $(( $(now) - $(stat -c %Y "$s" 2>/dev/null || echo 0) )) -gt 86400 ]; then
 		mkdir -p "$CACHE"
 		rm -f "$s.new"
+		[ -n "$APK_CATALOGUE" ] || CAT=$CAT_MAIN
 		cat_fetch stats "$s.new"; r=$?
+		if [ -z "$APK_CATALOGUE" ] && ! { [ $r = 0 ] && head -n 1 "$s.new" | grep -q '^#PSIAPKCAT1	'; }; then
+			rm -f "$s.new"
+			CAT=$CAT_OLD; cat_fetch stats "$s.new"; r2=$?
+			if [ $r2 = 0 ] && head -n 1 "$s.new" | grep -q '^#PSIAPKCAT1	'; then r=0
+			else rm -f "$s.new"; CAT=$CAT_MAIN; fi
+		fi
 		if [ $r = 0 ] && head -n 1 "$s.new" | grep -q '^#PSIAPKCAT1	'; then
 			old=$(cut -f 7 "$s" 2>/dev/null); new=$(cut -f 7 "$s.new")
 			[ "$old" = "$new" ] || rm -rf "$CATC"
+			if [ -z "$APK_CATALOGUE" ]; then
+				[ "$(cat "$CACHE/cat-url" 2>/dev/null)" = "$CAT" ] || rm -rf "$CATC"
+				echo "$CAT" > "$CACHE/cat-url"
+			fi
 			mv "$s.new" "$s"
 		elif [ -s "$s" ]; then
 			rm -f "$s.new"
+			[ -n "$APK_CATALOGUE" ] || CAT=$(cat "$CACHE/cat-url" 2>/dev/null || echo "$CAT_MAIN")
 			echo "WARNING: cannot reach the online catalogue: using the copy from $(cut -f 8 "$s" | cut -c 1-10)" >&2
 		else
 			rm -f "$s.new"

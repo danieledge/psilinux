@@ -46,6 +46,7 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 Since 0.22, the last release.
 
 New:
+- `apk` needs no set-up: it reads Alpine's online catalogue (small files on GitHub Pages, remade daily) and downloads from Alpine's mirror. Your own PsiProxy is still a choice. `apk source` chooses; the first start says which is used.
 - **Your Psion from the shell** ([below](#your-psion-from-the-shell)): the `epoc` command opens files in their programs, starts and switches programs, lists the task list and EPOC's processes, closes and ends programs, reads and sets the clipboard, shows infoprints and messages, takes screenshots, and tells you the battery, memory and disks. `xdg-open` and `open` are `epoc open`. Made for scripts: tab-separated output (or `--json`), exit codes, `--wait`.
 - The Psion's disks are under `/psion` too (`/psion/c`, `/psion/d`, `/psion/z`), with EPOC's names, the read-only attribute as the w bits, and Z: and every `\System` folder read-only to Linux, so a stray `rm` cannot break EPOC.
 - `exit` at the first shell closes PsiLinux, after ending the programs left and closing their files. With jobs still running it warns first, as bash does.
@@ -172,8 +173,8 @@ if a program makes a Linux system call. This is what made it work anyway:
   runs.
 - **The real `apk`, with signed packages.** Alpine's own package manager
   installs Alpine's own packages, checking their signatures against Alpine's
-  keys as usual. Only the catalogue search runs elsewhere, because loading
-  Alpine's index needs about 30 MB.
+  keys as usual. The catalogue is read a few KB at a time from small static
+  files online, because loading Alpine's index needs about 30 MB.
 - **A real boot.** BusyBox `init` is pid 1, and OpenRC runs its `sysinit`,
   `boot` and `default` runlevels, as in a container.
 
@@ -448,6 +449,10 @@ the figures.
 
 ### Packages with apk
 
+`apk` works with no set-up: it reads Alpine's online catalogue (about
+25,000 packages, Alpine v3.24 main and community) and installs Alpine's own
+signed packages from Alpine's mirror. The Psion only needs to be online.
+
 ```
 apk update                 the catalogue's size and date
 apk search [-v] [-d] TEXT  find packages (-d: in descriptions too)
@@ -456,29 +461,44 @@ apk add [-s] NAME…         install (-s: only say what it would do)
 apk del NAME…              remove
 apk upgrade [-s]           newer versions of what is installed
 apk list [-I]              what is installed (-I) or available
+apk source [CHOICE]        where the catalogue comes from
 ```
 
-Alpine's own apk needs about 30 MB of memory to load the full catalogue. A
-5mx has about 9 MB free. So a small helper on your PC, `psiapk`, holds the
-catalogue, answers searches and works out what an install needs. The Psion
-then downloads Alpine's own signed packages, and the real apk installs them
-from the files, checking their signatures against Alpine's keys. The helper
-never builds or changes a package, and needs no trust beyond that.
+Alpine's own apk needs about 30 MB of memory to load the full catalogue, and
+a 5mx has about 9 MB free. So the catalogue is published as thousands of
+small files (a few KB each, remade every day from Alpine's index, on this
+project's GitHub Pages), and the Psion reads only the ones it needs: a
+search reads one or two, `apk add git` about fifteen. The Psion works out
+what to install itself, downloads Alpine's packages, and Alpine's real apk
+installs them from the files, checking their signatures against Alpine's
+keys. The catalogue never builds or changes a package, and needs no trust
+beyond that.
 
-To set it up:
+The first time Linux starts, one line says where packages come from.
+`apk source` shows it and changes it (it is kept in
+`/etc/psilinux/apk.conf`):
 
-1. On a PC on the same network, run PsiProxy (from
-   [PsiProxy](https://github.com/danieledge/psiproxy)) with the
-   helper, as [docs/BUILDING.md](docs/BUILDING.md) describes.
-2. Turn on the proxy in the Psion's Connection settings (PsiTerm, PsiMail or
-   PsiWeb) with the PC's address: apk uses it. Or, in Alpine on the Psion,
-   put the address in `/etc/psilinux/apk.conf`:
-   `APK_SERVER=http://<your PC>:8081` (`nano /etc/psilinux/apk.conf`).
-3. `apk update`.
+```
+apk source online           Alpine's online catalogue (recommended)
+apk source psiproxy [ADDR]  your own PsiProxy (see below)
+apk source none             no packages from the network
+apk source auto             a PsiProxy if Connection settings have one, else online
+```
 
-`APK_DIRECT=1 apk add …` downloads the packages from Alpine's mirror over
-plain http instead (apk still checks their signatures); the catalogue still
-comes from the helper.
+`apk update` says which source is used and how old its catalogue is. With
+no connection, `apk del`, `apk list -I`, `apk info` of what is installed and
+`apk add ./FILE.apk` (a package file you have) still work; apk says so.
+
+**Your own PsiProxy (advanced).** If you run
+[PsiProxy](https://github.com/danieledge/psiproxy) on a PC, its apk helper
+(`psiapk`) can be the catalogue instead, and the packages come through it:
+useful on a network with no direct Internet, or to keep downloads on your
+own network. Run PsiProxy with the helper, as
+[docs/BUILDING.md](docs/BUILDING.md) describes. Then either turn on the proxy
+in the Psion's Connection settings (PsiTerm, PsiMail or PsiWeb), which apk
+uses when no source has been chosen, or `apk source psiproxy
+http://<your PC>:8081`. `APK_DIRECT=1 apk add …` fetches the packages from
+Alpine's mirror instead of through the PsiProxy.
 
 ### Making memory go further
 
@@ -720,6 +740,7 @@ SDK, the emulator, the package helper and making a release.
 | `toolchain/` | the toolchain build, the musl patch, the atomics |
 | `rootfs/`, `ports/` | PsiLinux's own root: BusyBox and the other programs |
 | `alpine/` | the Alpine root build, PsiLinux's files in it, and the apk helper |
+| `tools/apkcat/` | the online package catalogue's generator and its tests |
 | `tests/` | the test suites, and the translator's fuzzer |
 | `tools/` | lxbuild, mkroot.py, mkicons.py, the emulator scripts |
 | `probe/` | LxProbe, the hardware probe (a test program, never released) |

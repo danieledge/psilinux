@@ -153,25 +153,27 @@ Open another Psion program (Word, say) while Linux runs: it should open.
 
 ## 6. Optional: packages (needs the network)
 
-This uses the Psion's Internet connection and the package helper (`psiapk`
-on PsiProxy; see docs/BUILDING.md). apk uses the proxy set in Connection
-settings when it is on (and is your PsiProxy); otherwise set the address in
-`/etc/psilinux/apk.conf` (`APK_SERVER=http://<your PC>:8081`, with
-`nano /etc/psilinux/apk.conf`).
+This uses the Psion's Internet connection and Alpine's online catalogue
+(no set-up). The first start says, in one line, where packages come from.
 
 ```
-apk update                  # "25135 distinct packages available"
+apk source                  # "Packages: Alpine's online catalogue"
+apk update                  # its date and "25136 distinct packages available"
 apk search -v nano
-apk add -s lua5.4           # sizes only, nothing installed
-apk add lua5.4              # downloads, then Alpine's apk installs it
-lua5.4 -v
+apk add -s git              # sizes only, nothing installed
+free; time apk add git      # downloads, then Alpine's apk installs it
+git --version
+apk del git
 apk del cmatrix && apk add cmatrix   # a preinstalled package removed and back
 ```
 
 **Note:**
-- how long `apk add lua5.4` takes;
+- how long `apk add git` takes, and `free` before it;
 - any WARNING lines (memory);
 - whether `apk del` and `apk add` of cmatrix work.
+
+With your own PsiProxy (optional): `apk source psiproxy http://<your PC>:8081`,
+then the same, and `apk source online` to go back.
 
 ## 7. Native PsiLinux still works
 

@@ -2,29 +2,57 @@
 # apk - Alpine's package manager on a Psion (PsiLinux's Alpine mode).
 #
 # Alpine's catalogue (about 25,000 packages) is too big for a Psion's memory:
-# Alpine's own apk needs about 30 MB to load it, and a 5mx has 9.5 MB. So a
-# helper on the PsiProxy server holds the catalogue, answers searches and
-# works out what an install needs. The packages are Alpine's own, signed:
-# they are downloaded here and installed by the real apk (/sbin/apk), from
-# the files, which checks their signatures against /etc/apk/keys as always.
-# Anything this wrapper does not know goes to the real apk as it is.
+# Alpine's own apk needs about 30 MB to load it, and a 5mx has 9.5 MB. So the
+# catalogue is read from outside, a few KB at a time: Alpine's online
+# catalogue (small static files made from Alpine's index every day, on
+# GitHub Pages: psilinux's tools/apkcat/), or a PsiProxy with its apk helper
+# on your own computer (psiapk.py). This wrapper works out what an install
+# needs, downloads Alpine's own signed packages, and the real apk
+# (/sbin/apk) installs them from the files, which checks their signatures
+# against /etc/apk/keys as always. Anything this wrapper does not know goes
+# to the real apk as it is.
 #
-#   apk update | search | info | add | del | upgrade | list | (anything else)
-# The server: $APK_SERVER, else APK_SERVER= in /etc/psilinux/apk.conf, else
-# the proxy set in the Psion's Connection settings, if it is on (PsiLink.ini,
-# shared with PsiTerm, PsiMail and PsiWeb) and is a PsiProxy, else the dev
-# box in C:\System\Data\PsiDevBox.ini, else the Atom modem's own proxy on
+#   apk update | search | info | add | del | upgrade | list | source
+#
+# The source (apk source to see or change it; kept in /etc/psilinux/apk.conf):
+#   1. APK_SOURCE in apk.conf: online, psiproxy or none (APK_SERVER there,
+#      or in the environment, is a PsiProxy's address and means psiproxy);
+#   2. else a PsiProxy, if the Psion's Connection settings have one
+#      (PsiLink.ini, shared with PsiTerm, PsiMail and PsiWeb), or the dev
+#      box in C:\System\Data\PsiDevBox.ini;
+#   3. else the online catalogue.
+# "psiproxy" with no address set also tries the Atom modem's own proxy on
 # its PPP link (192.168.7.1), which passes /_apk/ on to the PsiProxy set in
-# the modem (AT$PU), or answers 501 (an older Atom: its status page) when it
-# has none: "Needs PsiProxy on a computer". No server is built in.
-# APK_DIRECT=1 downloads packages from Alpine's mirror instead of the server.
+# the modem (AT$PU), or answers 501 when it has none.
+# Packages come from Alpine's mirror (APK_MIRROR, plain http: apk checks
+# their signatures), or through the PsiProxy when that is the source
+# (APK_DIRECT=1: the mirror instead).
 
 REAL=/sbin/apk
 CONF=/etc/psilinux/apk.conf
 CACHE=/var/cache/apk/psion
-MIRROR=http://dl-cdn.alpinelinux.org/alpine/v3.24
+BRANCH=v3.24
+ARCH=armhf
 ENV_SERVER=$APK_SERVER
+ENV_SOURCE=$APK_SOURCE
+ENV_CATALOGUE=$APK_CATALOGUE
+ENV_MIRROR=$APK_MIRROR
+APK_SOURCE=
+APK_SERVER=
+APK_CATALOGUE=
+APK_MIRROR=
 [ -f "$CONF" ] && . "$CONF"
+# (the environment, for one command, over apk.conf)
+[ -n "$ENV_SOURCE" ] && APK_SOURCE=$ENV_SOURCE
+[ -n "$ENV_CATALOGUE" ] && APK_CATALOGUE=$ENV_CATALOGUE
+[ -n "$ENV_MIRROR" ] && APK_MIRROR=$ENV_MIRROR
+CAT=${APK_CATALOGUE:-https://danieledge.github.io/psilinux/apk/$BRANCH/$ARCH}
+# (plain http: apk checks every package's signature, and BusyBox wget's
+# https here can damage what comes after the first 8 KB of a download)
+MIRROR=${APK_MIRROR:-http://dl-cdn.alpinelinux.org/alpine/$BRANCH}
+CATC=$CACHE/cat
+OFFLINE="--repositories-file /dev/null --no-network --no-cache"
+
 # the proxy in C:\System\Data\PsiLink.ini (ssh/psilink.h: 'P' 'L' ver baud
 # rtscts netmode len pppstart[len], then from version 2: useproxy len
 # host[len] port-lo port-hi), as http://host:port, if it is on and is not
@@ -61,15 +89,46 @@ psidevbox() {
 	case "$port" in ""|*[!0-9]*) return 1 ;; esac
 	[ -n "$host" ] && echo "http://$host:$port"
 }
-SERVER=${ENV_SERVER:-${APK_SERVER:-$(psilink_proxy || psidevbox)}}
-ATOM=
-[ -n "$SERVER" ] || { SERVER=$(psilink_proxy atom) && ATOM=1; }
-OFFLINE="--repositories-file /dev/null --no-network --no-cache"
-NEEDS="Needs PsiProxy on a computer - the Atom modem's own proxy has none: set one in the modem's Web proxy settings (AT\$PU), or APK_SERVER in $CONF"
+
+# the source: SRC (online, psiproxy or none), SERVER (a PsiProxy's
+# address), WHY (how it was chosen), AUTO=1 when nothing chose it (a
+# PsiProxy that does not answer then gives way to the online catalogue)
+SERVER=; ATOM=; AUTO=
+if [ -n "$ENV_SERVER" ]; then SRC=psiproxy; SERVER=$ENV_SERVER; WHY="APK_SERVER"
+else
+	case "$APK_SOURCE" in
+	online) SRC=online; WHY="your choice" ;;
+	none|off) SRC=none; WHY="your choice" ;;
+	psiproxy|proxy)
+		SRC=psiproxy; WHY="your choice"
+		SERVER=${APK_SERVER:-$(psilink_proxy || psidevbox)}
+		[ -n "$SERVER" ] || { SERVER=$(psilink_proxy atom) && ATOM=1; } ;;
+	*)
+		if [ -n "$APK_SERVER" ]; then SRC=psiproxy; SERVER=$APK_SERVER; WHY="APK_SERVER in $CONF"
+		elif SERVER=$(psilink_proxy || psidevbox); then SRC=psiproxy; AUTO=1; WHY="the proxy in Connection settings"
+		else SRC=online; AUTO=1; WHY="the standard choice"; fi ;;
+	esac
+fi
+NEEDS="Needs PsiProxy on a computer - the Atom modem's own proxy has none: set one in the modem's Web proxy settings (AT\$PU), or choose another source: apk source"
 
 die() { echo "ERROR: $*" >&2; exit 1; }
+# what still works with no catalogue, and what to do
+offline_help() {
+	cat >&2 <<EOF
+Without it, these still work: apk del, apk list -I, apk info of what is
+installed, and apk add of .apk files you already have (apk add ./FILE.apk).
+Connect the Psion to the Internet and try again, or choose another source:
+apk source online | apk source psiproxy ADDRESS | apk source none
+EOF
+}
+need_net() {
+	[ "$SRC" = none ] || return 0
+	echo "ERROR: packages from the network are turned off (apk source none)." >&2
+	echo "To turn them on: apk source online (recommended), or apk source psiproxy ADDRESS" >&2
+	exit 1
+}
 need_server() {
-	[ -n "$SERVER" ] || die "No package server set - set APK_SERVER in $CONF (e.g. APK_SERVER=http://192.168.1.10:8081), or turn on a PsiProxy in Connection settings"
+	[ -n "$SERVER" ] || die "No PsiProxy set - set one with apk source psiproxy http://192.168.1.10:8081 (your PC), or turn on a PsiProxy in Connection settings, or use the online catalogue: apk source online"
 }
 # wget; to the Atom's proxy with "Host: psiproxy", so an older Atom answers
 # itself (its status page) rather than fetching the address. Its messages
@@ -85,13 +144,23 @@ atom_answer() {
 	grep -q ' 501 ' "$ERR" 2>/dev/null && return 0
 	[ -s "$1" ] && [ "$(head -c 1 "$1")" = "<" ]
 }
+# a PsiProxy chosen automatically that does not answer: the online
+# catalogue instead, for this command
+proxy_gone() {
+	if [ -n "$AUTO" ]; then
+		echo "(the PsiProxy at $SERVER did not answer: using Alpine's online catalogue)" >&2
+		SRC=online; SERVER=; AUTO=; WHY="the PsiProxy did not answer"
+		return 0
+	fi
+	return 1
+}
 get() {
 	need_server
 	t=/tmp/.apk-get.$$
 	if ! wg -T 60 -O "$t" "$SERVER$1" || atom_answer "$t"; then
 		atom_answer "$t" && { rm -f "$t" "$ERR"; die "$NEEDS"; }
 		rm -f "$t" "$ERR"
-		die "the package server ($SERVER) did not answer: is the Psion online?"
+		die "the PsiProxy ($SERVER) did not answer: is the Psion online, and is PsiProxy running?"
 	fi
 	cat "$t"
 	rm -f "$t" "$ERR"
@@ -102,11 +171,424 @@ resolve() {
 	if ! wg -T 60 -O "$2" --post-file="$1" "$SERVER$3" || atom_answer "$2"; then
 		atom_answer "$2" && { rm -f "$1" "$2" "$ERR"; die "$NEEDS"; }
 		rm -f "$1" "$2" "$ERR"
-		die "the package server ($SERVER) did not answer: is the Psion online?"
+		die "the PsiProxy ($SERVER) did not answer: is the Psion online, and is PsiProxy running?"
 	fi
 	rm -f "$1" "$ERR"
 	head -n 1 "$2" | grep -q '^#PSIAPK-RESOLVE' || { rm -f "$2"; die "the package server ($SERVER) is not a PsiProxy with the apk helper"; }
 }
+# with an automatic PsiProxy: does it answer? (else the online catalogue)
+probe_proxy() {
+	[ "$SRC" = psiproxy ] && [ -n "$AUTO" ] || return 0
+	if ! wg -T 20 -O /dev/null "$SERVER/_apk/stats"; then rm -f "$ERR"; proxy_gone; fi
+	rm -f "$ERR"
+}
+
+# ---- the online catalogue (tools/apkcat/mkapkcat.py has its format) ----
+# Files are kept in $CATC while the catalogue's index stays the same.
+
+# the fetcher, a small script of its own (the resolver's awk runs it too):
+# $CAT/REL into FILE, checked (a .gz must unpack, a text has no NUL bytes:
+# BusyBox wget's https here can fill a long answer with zeros), once more if
+# it came damaged; a packed record (p/NAME is "gz<TAB>1") is fetched as
+# p/NAME.gz and unpacked. Exit: 0 got it, 1 the catalogue has no such
+# file, 2 no answer (offline), 3 damaged twice
+FETCHER=/tmp/.apk-fetch.$$
+trap 'rm -f "$FETCHER"' EXIT
+make_fetcher() {
+	[ -f "$FETCHER" ] && return
+	cat > "$FETCHER" <<'EOF'
+rel=$1; f=$2; cat=$3; err=$4
+[ -s "$f" ] && exit 0
+mkdir -p "${f%/*}" || exit 2
+url="$cat/$(printf '%s' "$rel" | sed 's/%/%25/g; s/+/%2B/g')"
+n=0
+while :; do
+	if wget -q -T 60 -O "$f.part" "$url" 2>"$err"; then
+		case "$rel" in
+		*.gz) gunzip -t "$f.part" 2>/dev/null; ok=$? ;;
+		*) [ "$(tr -d '\000' < "$f.part" | wc -c)" = "$(wc -c < "$f.part")" ]; ok=$? ;;
+		esac
+		if [ $ok = 0 ]; then
+			case "$rel" in p/*.gz) ;; p/*)
+				if [ "$(cat "$f.part")" = "gz	1" ]; then
+					rm -f "$f.part"
+					sh "$0" "$rel.gz" "$f.gz" "$cat" "$err" || exit $?
+					gunzip -c "$f.gz" > "$f.part" || exit 3
+					rm -f "$f.gz"
+				fi ;;
+			esac
+			mv "$f.part" "$f"; exit 0
+		fi
+		n=$((n + 1)); [ $n -ge 2 ] && { rm -f "$f.part"; exit 3; }
+		continue
+	fi
+	rm -f "$f.part"
+	grep -q ' 404 ' "$err" 2>/dev/null && exit 1
+	exit 2
+done
+EOF
+}
+cat_fetch() {
+	make_fetcher
+	sh "$FETCHER" "$1" "$2" "$CAT" "$ERR"; r=$?
+	rm -f "$ERR"
+	[ $r = 3 ] && die "the online catalogue's $1 came damaged twice: try again (apk update)"
+	return $r
+}
+cat_unreachable() {
+	echo "ERROR: cannot reach Alpine's online catalogue (${CAT#https://}): is the Psion online?" >&2
+	offline_help
+	exit 1
+}
+now() { date +%s; }
+# the stats line (fields as mkapkcat.py's), fetched again when asked ($1 =
+# 1), or when older than a day; an old copy is used (with a warning) when
+# the catalogue cannot be reached
+cat_stats() {
+	s=$CACHE/stats
+	if [ "$1" = 1 ] || [ ! -s "$s" ] || [ $(( $(now) - $(stat -c %Y "$s" 2>/dev/null || echo 0) )) -gt 86400 ]; then
+		mkdir -p "$CACHE"
+		rm -f "$s.new"
+		cat_fetch stats "$s.new"; r=$?
+		if [ $r = 0 ] && head -n 1 "$s.new" | grep -q '^#PSIAPKCAT1	'; then
+			old=$(cut -f 7 "$s" 2>/dev/null); new=$(cut -f 7 "$s.new")
+			[ "$old" = "$new" ] || rm -rf "$CATC"
+			mv "$s.new" "$s"
+		elif [ -s "$s" ]; then
+			rm -f "$s.new"
+			echo "WARNING: cannot reach the online catalogue: using the copy from $(cut -f 8 "$s" | cut -c 1-10)" >&2
+		else
+			rm -f "$s.new"
+			[ $r = 0 ] && die "${CAT#https://} is not a PsiLinux package catalogue (APK_CATALOGUE in $CONF)"
+			cat_unreachable
+		fi
+	fi
+	mkdir -p "$CATC"
+}
+# the catalogue's age, in plain words
+cat_age() {
+	t=$(cut -f 3 "$CACHE/stats")
+	d=$(date -u -d "$(echo "$t" | sed 's/T/ /; s/Z$//')" +%s 2>/dev/null) || { echo "of $t"; return; }
+	h=$(( ($(now) - d) / 3600 ))
+	if [ $h -lt 1 ]; then echo "of $t (less than an hour old)"
+	elif [ $h -lt 48 ]; then echo "of $t ($h hours old)"
+	else echo "of $t ($(( h / 24 )) days old)"; fi
+}
+# a version shard (v/N.gz, unpacked) into $CATC/v/N; $1 = N
+cat_vshard() {
+	[ -s "$CATC/v/$1" ] && return 0
+	cat_fetch "v/$1.gz" "$CATC/v/$1.gz"; r=$?
+	[ $r = 2 ] && cat_unreachable
+	[ $r = 0 ] || die "the online catalogue has no v/$1.gz"
+	gunzip -c "$CATC/v/$1.gz" > "$CATC/v/$1" && rm -f "$CATC/v/$1.gz"
+}
+cat_all_vshards() {
+	n=$(cut -f 10 "$CACHE/stats"); i=0
+	while [ $i -lt "${n:-16}" ]; do cat_vshard $i; i=$((i + 1)); done
+}
+
+# the awk functions the resolver and the searches share: Alpine's version
+# order (as psiapk.py's vcmp), and the catalogue's hash
+AWKLIB='
+function vsplit(v, P, S,   n, i, m, a, s, t, k, num) {
+	P["rel"] = 0
+	if (match(v, /-r[0-9]+$/)) { P["rel"] = substr(v, RSTART + 2) + 0; v = substr(v, 1, RSTART - 1) }
+	i = index(v, "_")
+	if (i) { s = substr(v, i + 1); v = substr(v, 1, i - 1) } else s = ""
+	n = split(v, a, ".")
+	for (k = 1; k <= n; k++) {
+		if (a[k] ~ /^[0-9]*[a-z]?$/) {
+			num = a[k]; sub(/[a-z]$/, "", num)
+			P[k, "n"] = num + 0; P[k, "s"] = (a[k] ~ /[a-z]$/) ? substr(a[k], length(a[k])) : ""
+		} else { P[k, "n"] = 0; P[k, "s"] = a[k] }
+	}
+	P["n"] = n
+	m = 0
+	if (s != "") {
+		n = split(s, a, "_")
+		for (k = 1; k <= n; k++) {
+			if (a[k] ~ /^[a-z]+[0-9]*$/) {
+				t = a[k]; sub(/[0-9]+$/, "", t); num = substr(a[k], length(t) + 1)
+				m++; S[m, "r"] = (t in SUFRANK) ? SUFRANK[t] : 0; S[m, "n"] = num + 0
+			}
+		}
+	}
+	if (!m) { m = 1; S[1, "r"] = 0; S[1, "n"] = 0 }
+	S["n"] = m
+}
+function cmp3(a, b) { return a < b ? -1 : (a > b ? 1 : 0) }
+function vcmp(x, y,   PA, SA, PB, SB, k, c) {
+	split("", PA); split("", SA); split("", PB); split("", SB)
+	vsplit(x, PA, SA); vsplit(y, PB, SB)
+	for (k = 1; k <= PA["n"] && k <= PB["n"]; k++) {
+		if ((c = cmp3(PA[k, "n"], PB[k, "n"]))) return c
+		if ((c = cmp3(PA[k, "s"] "", PB[k, "s"] ""))) return c
+	}
+	if ((c = cmp3(PA["n"], PB["n"]))) return c
+	for (k = 1; k <= SA["n"] && k <= SB["n"]; k++) {
+		if ((c = cmp3(SA[k, "r"], SB[k, "r"]))) return c
+		if ((c = cmp3(SA[k, "n"], SB[k, "n"]))) return c
+	}
+	if ((c = cmp3(SA["n"], SB["n"]))) return c
+	return cmp3(PA["rel"], PB["rel"])
+}
+function hash(s, n,   h, i) {
+	h = 0
+	for (i = 1; i <= length(s); i++) h = (h * 31 + ORD[substr(s, i, 1)]) % 65536
+	return h % n
+}
+function libinit(   a, k) {
+	split("alpha -4 beta -3 pre -2 rc -1 cvs 1 svn 2 git 3 hg 4 p 5", a, " ")
+	for (k = 1; k < 18; k += 2) SUFRANK[a[k]] = a[k + 1] + 0
+	for (k = 32; k < 127; k++) ORD[sprintf("%c", k)] = k
+}
+'
+
+# the installed packages: "P name", "V version" and "p provided-name" lines
+installed_db() {
+	awk '/^P:/ { print "P", substr($0, 3) } /^V:/ { print "V", substr($0, 3) }
+	     /^p:/ { n = split(substr($0, 3), a, " "); for (i = 1; i <= n; i++) { sub(/[<>=~].*/, "", a[i]); print "p", a[i] } }' /lib/apk/db/installed
+}
+
+# the install plan, as psiapk's /_apk/resolve answers it, worked out here
+# from the online catalogue: $1 = upgrade (0/1), $2 = the plan file, then
+# the names to add
+cat_resolve() {
+	upg=$1; plan=$2; shift 2
+	cat_stats
+	installed_db > /tmp/.apk-have.$$
+	if [ "$upg" = 1 ]; then
+		# the shards that hold what is installed
+		nv=$(cut -f 10 "$CACHE/stats")
+		for i in $(awk -v nv="${nv:-16}" "$AWKLIB"'BEGIN { libinit() } $1 == "P" { b[hash($2, nv)] = 1 } END { for (i in b) print i }' /tmp/.apk-have.$$); do
+			cat_vshard "$i"
+		done
+	fi
+	make_fetcher
+	awk -v want="$*" -v upg="$upg" -v catc="$CATC" -v cat="$CAT" -v err="$ERR" -v fetcher="$FETCHER" \
+	    -v npv="$(cut -f 9 "$CACHE/stats")" -v nv="$(cut -f 10 "$CACHE/stats")" -v have=/tmp/.apk-have.$$ "$AWKLIB"'
+	function enc(s) { gsub(/%/, "%25", s); gsub(/\+/, "%2B", s); return s }
+	# a catalogue file into the cache: 1 got it, 0 no such file; offline: stop
+	function fetch(rel, file,   r) {
+		if ((getline line < file) > 0) { close(file); return 1 }
+		close(file)
+		r = system("sh \"" fetcher "\" \"" rel "\" \"" file "\" \"" cat "\" \"" err "\"")
+		if (r == 0) return 1
+		if (r == 1) return 0
+		OFFLINE = 1; exit (r == 3 ? 4 : 3)
+	}
+	# a package record: 1 if the catalogue has it
+	function rec(name,   file, f, line) {
+		if (name in VER) return 1
+		if (name in NOREC) return 0
+		file = catc "/p/" name
+		if (!fetch("p/" name, file)) { NOREC[name] = 1; return 0 }
+		ND[name] = 0
+		while ((getline line < file) > 0) {
+			split(line, f, "\t")
+			if (f[1] == "dep") { ND[name]++; DA[name, ND[name]] = f[2]; DP[name, ND[name]] = f[3] }
+			else F[name, f[1]] = f[2]
+		}
+		close(file)
+		VER[name] = F[name, "version"]
+		return 1
+	}
+	# the catalogue version of an installed package (upgrade: the shards)
+	function catver(name,   b) {
+		if (name in CV) return CV[name]
+		if (rec(name)) return VER[name]
+		return ""
+	}
+	function provname(a) { sub(/[<>=~].*/, "", a); return a }
+	# the best provider of a name that is not a package (pv/N)
+	function pvbest(n,   file, f, line, b, best) {
+		b = hash(n, npv)
+		file = catc "/pv/" b
+		if (!fetch("pv/" b, file)) return ""
+		best = ""
+		while ((getline line < file) > 0) { split(line, f, "\t"); if (f[1] == n && best == "") best = f[2] }
+		close(file)
+		return best
+	}
+	function newer(p) { return (p in HAVE) && catver(p) != "" && vcmp(catver(p), HAVE[p]) > 0 }
+	function visit(name, depth,   i, a, n, p, inst) {
+		if ((name in SEEN) || depth > 64) return
+		SEEN[name] = 1
+		if (!rec(name)) { PROB[++NP] = "!missing\t" name; return }
+		for (i = 1; i <= ND[name]; i++) {
+			a = DA[name, i]
+			if (a ~ /^!/) continue
+			n = provname(a)
+			inst = ""
+			if (n in HAVE) inst = n
+			else if (n in HPROV) inst = HPROV[n]
+			if (inst != "") {
+				if (!(upg && newer(inst))) continue
+				p = inst
+			} else {
+				p = DP[name, i]
+				if (p == "!" || p == "") { PROB[++NP] = "!unsatisfied\t" name "\t" a; continue }
+			}
+			visit(p, depth + 1)
+		}
+		ORDER[++NO] = name
+	}
+	BEGIN {
+		libinit()
+		pk = ""
+		while ((getline line < have) > 0) {
+			if (line ~ /^P /) pk = substr(line, 3)
+			else if (line ~ /^V /) { HAVE[pk] = substr(line, 3); HORDER[++NH] = pk }
+			else if (line ~ /^p / && !(substr(line, 3) in HPROV)) HPROV[substr(line, 3)] = pk
+		}
+		close(have)
+		if (upg) {
+			for (b = 0; b < nv; b++) {
+				file = catc "/v/" b
+				while ((getline line < file) > 0) { split(line, f, "\t"); if (f[1] in HAVE) CV[f[1]] = f[2] }
+				close(file)
+			}
+		}
+		nw = split(want, W, " ")
+		if (upg) for (i = 1; i <= NH; i++) { n = HORDER[i]; if ((n in CV) && vcmp(CV[n], HAVE[n]) > 0) W[++nw] = n }
+		for (i = 1; i <= nw; i++) {
+			w = W[i]
+			if (w !~ /^[A-Za-z0-9_.+-]+$/ || length(w) > 100) { PROB[++NP] = "!bad\t" w; continue }
+			if (rec(w)) p = w
+			else if ((p = pvbest(w)) == "") { PROB[++NP] = "!missing\t" w; continue }
+			# installed and up to date (also when asked for by what it provides)
+			if (!upg && (p in HAVE) && vcmp(catver(p), HAVE[p]) <= 0) continue
+			visit(p, 0)
+		}
+		dl = 0; inst = 0
+		for (i = 1; i <= NO; i++) { dl += F[ORDER[i], "size"]; inst += F[ORDER[i], "installed-size"] }
+		printf "#PSIAPK-RESOLVE\t%d\t%d\t%d\n", NO, dl, inst
+		for (i = 1; i <= NO; i++) {
+			n = ORDER[i]
+			printf "%s\t%s\t%s\t%s\t%d\t%d\t%s\n", n, VER[n], F[n, "repo"], F[n, "file"], F[n, "size"], F[n, "installed-size"], F[n, "checksum"]
+		}
+		for (i = 1; i <= NP; i++) print PROB[i]
+	}' > "$plan"
+	r=$?
+	rm -f /tmp/.apk-have.$$ "$ERR"
+	[ $r = 3 ] && { rm -f "$plan"; cat_unreachable; }
+	[ $r = 4 ] && { rm -f "$plan"; die "a file of the online catalogue came damaged twice: try again"; }
+	[ $r = 0 ] || { rm -f "$plan"; die "could not work out the install (awk: $r)"; }
+}
+
+# a search of the online catalogue, printed as psiapk's search lines
+# (name version repo size installed-size description; "!more N"):
+# $1 = the text, $2 = 1 for descriptions too, $3 = at most this many,
+# $4 = 1 to read the version shards (list)
+cat_search() {
+	q=$1; desc=$2; max=$3; list=$4
+	cat_stats
+	low=$(printf '%s' "$q" | tr 'A-Z' 'a-z')
+	# its plain parts (a glob's literal runs), and the longest of them
+	runs=$(printf '%s' "$low" | tr '*?[]' '\n\n\n\n')
+	lit=$(echo "$runs" | awk '{ if (length($0) > length(b)) b = $0 } END { print b }')
+	files=""
+	if [ "$list" != 1 ] && [ ${#lit} -ge 3 ]; then
+		cat_fetch common "$CATC/common"; [ $? = 2 ] && cat_unreachable
+		# the rarest of their trigrams
+		tri=$(echo "$runs" | awk 'NR == FNR { c[$1] = $2; next } {
+			for (i = 1; i + 2 <= length($0); i++) { t = substr($0, i, 3); n = (t in c) ? c[t] : 0; if (bc == "" || n < bc) { bc = n; best = t } }
+		} END { print best }' "$CATC/common" -)
+		hex=$(printf '%s' "$tri" | od -An -v -tx1 | tr -d ' \n')
+		cat_fetch "s/$hex.gz" "$CATC/s/$hex.gz"; r=$?
+		[ $r = 2 ] && cat_unreachable
+		[ $r = 0 ] && files="$files s/$hex.gz"
+		if [ "$desc" = 1 ]; then
+			w=$(printf '%s' "$lit" | tr -c 'a-z0-9' '\n' | awk 'length($0) >= 3 { if (length($0) > length(b)) b = $0 } END { print substr(b, 1, 3) }')
+			if [ -n "$w" ]; then
+				hex=$(printf '%s' "$w" | od -An -v -tx1 | tr -d ' \n')
+				cat_fetch "d/$hex.gz" "$CATC/d/$hex.gz"; r=$?
+				[ $r = 2 ] && cat_unreachable
+				[ $r = 0 ] && files="$files d/$hex.gz"
+			fi
+		fi
+		[ -n "$files" ] || return 0
+		for f in $files; do gunzip -c "$CATC/$f"; done
+	else
+		cat_all_vshards
+		n=$(cut -f 10 "$CACHE/stats"); i=0
+		while [ $i -lt "${n:-16}" ]; do awk -F'\t' '{ print $1 "\t" $2 "\t\t" $3 }' "$CATC/v/$i"; i=$((i + 1)); done
+	fi | awk -F'\t' -v q="$q" -v low="$low" -v d="$desc" -v max="$max" '
+	function glob2re(g,   r, i, c) {
+		r = "^"
+		for (i = 1; i <= length(g); i++) {
+			c = substr(g, i, 1)
+			if (c == "*") r = r ".*"; else if (c == "?") r = r "."; else if (c == "[" || c == "]") r = r c
+			else if (c ~ /[A-Za-z0-9_ -]/) r = r c; else r = r "\\" c
+		}
+		return r "$"
+	}
+	BEGIN { isglob = (q ~ /[*?[]/); if (isglob) re = glob2re(low) }
+	$1 == "!more" { cut += $2; next }
+	{
+		if ($1 in SEEN) next
+		ln = tolower($1); ld = tolower($3)
+		if (isglob) ok = (ln ~ re) || (d && ld ~ re)
+		else ok = low == "" || index(ln, low) || (d && index(ld, low))
+		if (!ok) next
+		SEEN[$1] = 1
+		# the sort key: the very name first, then names starting with it
+		print (($1 == q) ? "0" : "1") ((substr($1, 1, length(q)) == q) ? "0" : "1") $1 "\t" $1 "\t" $2 "\t" $4 "\t0\t0\t" $3
+	}
+	END { if (cut) printf "~~\t!cut\t%d\n", cut }' | LC_ALL=C sort -t "	" -k 1,1 | awk -F'\t' -v max="$max" '
+	$2 == "!cut" { cut = $3; next }
+	{ m++; if (m <= max) { sub(/^[^\t]*\t/, ""); print } }
+	END { if (m > max || cut) printf "!more\t%d\n", (m > max ? m - max : 0) + cut }'
+}
+# a package record (p/NAME, else what pv/ says provides it), as psiapk's
+# info answers it
+cat_info() {
+	cat_stats
+	f=$CATC/p/$1
+	cat_fetch "p/$1" "$f"; r=$?
+	[ $r = 2 ] && cat_unreachable
+	if [ $r = 1 ]; then
+		b=$(awk -v s="$1" -v n="$(cut -f 9 "$CACHE/stats")" "$AWKLIB"'BEGIN { libinit(); print hash(s, n) }')
+		cat_fetch "pv/$b" "$CATC/pv/$b"; [ $? = 2 ] && cat_unreachable
+		p=$(awk -F'\t' -v s="$1" '$1 == s { print $2; exit }' "$CATC/pv/$b" 2>/dev/null)
+		[ -n "$p" ] || { printf '!missing\t%s\n' "$1"; return; }
+		f=$CATC/p/$p
+		cat_fetch "p/$p" "$f"; r=$?
+		[ $r = 2 ] && cat_unreachable
+		[ $r = 0 ] || { printf '!missing\t%s\n' "$1"; return; }
+	fi
+	grep -v '^dep	' "$f"
+}
+
+# ---- the commands, whichever the source -----------------------------------
+
+do_search() {   # text desc max list
+	if [ "$SRC" = psiproxy ]; then get "/_apk/search?q=$(urlq "$1")&d=$2&n=$3"; else cat_search "$@"; fi
+}
+do_info() {
+	if [ "$SRC" = psiproxy ]; then get "/_apk/info?p=$(urlq "$1")"; else cat_info "$1"; fi
+}
+do_resolve() {   # upgrade plan names...
+	if [ "$SRC" = psiproxy ]; then
+		upg=$1; plan=$2; shift 2
+		installed > /tmp/.apk-have.$$
+		if [ "$upg" = 1 ]; then resolve /tmp/.apk-have.$$ "$plan" "/_apk/resolve?upgrade=1"
+		else resolve /tmp/.apk-have.$$ "$plan" "/_apk/resolve?add=$(urlq "$(echo "$*" | tr ' ' ',')")"; fi
+	else cat_resolve "$@"; fi
+}
+# where a package comes from: the mirror, or the PsiProxy
+pkg_url() {   # repo file
+	if [ "$SRC" = psiproxy ] && [ "$APK_DIRECT" != 1 ]; then echo "$SERVER/_apk/get/$1/$2"; else echo "$MIRROR/$1/$ARCH/$2"; fi
+}
+# one line on where the catalogue comes from and how fresh it is
+source_line() {
+	case "$SRC" in
+	online) echo "Catalogue: Alpine's online catalogue $(cat_age) ($WHY)" ;;
+	psiproxy) echo "Catalogue: your PsiProxy at ${SERVER:-(none set)} ($WHY)" ;;
+	none) echo "Catalogue: none (packages from the network are turned off)" ;;
+	esac
+}
+
 kb() { echo $(( ($1 + 1023) / 1024 )); }
 # sizes the way people read them
 human() {
@@ -121,7 +603,7 @@ free_mem() { awk '/^MemAvailable:/ { m = $2 } /^MemFree:/ { if (!m) m = $2 } END
 
 usage() {
 	cat <<EOF
-apk (Alpine on a Psion): Alpine's catalogue through ${SERVER:-(no package server set: see $CONF)}
+apk (Alpine on a Psion): $(case "$SRC" in online) echo "Alpine's online catalogue" ;; psiproxy) echo "your PsiProxy at ${SERVER:-(none set)}" ;; none) echo "no catalogue (apk source none)" ;; esac)
 
   apk update                 the catalogue's size and date
   apk search [-v] [-d] TEXT  find packages (-d: in descriptions too)
@@ -130,12 +612,61 @@ apk (Alpine on a Psion): Alpine's catalogue through ${SERVER:-(no package server
   apk del NAME...            remove
   apk upgrade [-s]           newer versions of what is installed
   apk list [-I]              what is installed
+  apk source [CHOICE]        where the catalogue comes from
 
 -s (--simulate) shows what would happen. Other commands go to Alpine's apk.
 EOF
 }
 
-# downloads and installs the plan in $1 (the server's resolve answer)
+# apk source: show or change the choice (APK_SOURCE and APK_SERVER in
+# apk.conf)
+conf_set() {   # key value
+	mkdir -p "$(dirname "$CONF")"
+	[ -f "$CONF" ] || : > "$CONF"
+	if grep -q "^$1=" "$CONF"; then sed -i "s|^$1=.*|$1=$2|" "$CONF"
+	else echo "$1=$2" >> "$CONF"; fi
+}
+source_cmd() {
+	case "$1" in
+	"")
+		case "$SRC" in
+		online) echo "Packages: Alpine's online catalogue ($WHY)" ;;
+		psiproxy) echo "Packages: your PsiProxy at ${SERVER:-(none found)} ($WHY)" ;;
+		none) echo "Packages: none (your choice)" ;;
+		esac
+		cat <<EOF
+
+  apk source online           Alpine's online catalogue (recommended): no set-up
+  apk source psiproxy [ADDR]  your own PsiProxy (ADDR like http://192.168.1.10:8081;
+                              none: the proxy in Connection settings)
+  apk source none             no packages from the network
+  apk source auto             a PsiProxy if Connection settings have one, else online
+EOF
+		;;
+	online) conf_set APK_SOURCE online; conf_set APK_SERVER ""; rm -f "$CACHE/stats"; echo "Packages: Alpine's online catalogue (apk update to read it)" ;;
+	none|off) conf_set APK_SOURCE none; echo "Packages: none. apk del, apk list -I and apk add ./FILE.apk still work" ;;
+	auto) conf_set APK_SOURCE ""; conf_set APK_SERVER ""; echo "Packages: a PsiProxy if Connection settings have one, else Alpine's online catalogue" ;;
+	psiproxy|proxy)
+		a=$2
+		case "$a" in "") ;; http://*|https://*) ;; *) a="http://$a" ;; esac
+		case "$a" in http://*:*|https://*:*|"") ;; *) a="$a:8081" ;; esac
+		conf_set APK_SOURCE psiproxy; conf_set APK_SERVER "$a"
+		if [ -n "$a" ]; then echo "Packages: your PsiProxy at $a (apk update to check it)"
+		else echo "Packages: your PsiProxy, the one in Connection settings (apk update to check it)"; fi ;;
+	--first)
+		# (start-up: once, one line)
+		[ -e /etc/psilinux/.apk-source-told ] && exit 0
+		: > /etc/psilinux/.apk-source-told 2>/dev/null
+		case "$SRC" in
+		online) echo "Packages: Alpine's online catalogue. Your own PsiProxy, or none: apk source" ;;
+		psiproxy) echo "Packages: your PsiProxy at ${SERVER:-(none found)}. Online catalogue, or none: apk source" ;;
+		none) echo "Packages: none. Online catalogue or your own PsiProxy: apk source" ;;
+		esac ;;
+	*) die "apk source: online, psiproxy [ADDRESS], none or auto" ;;
+	esac
+}
+
+# downloads and installs the plan in $1 (psiapk's resolve answer, or ours)
 install_plan() {
 	plan=$1; simulate=$2; upgrade=$3; shift 3
 	if grep -q '^!' "$plan"; then
@@ -169,12 +700,31 @@ install_plan() {
 		case "$name" in \#*|!*|"") continue ;; esac
 		i=$((i + 1))
 		echo "($i/$n) Downloading $name ($ver)"
-		if [ "$APK_DIRECT" = 1 ]; then url="$MIRROR/$repo/armhf/$file"; else url="$SERVER/_apk/get/$repo/$file"; fi
-		wg -T 120 -O "$CACHE/$file.part" "$url" && mv "$CACHE/$file.part" "$CACHE/$file" \
-			|| { rm -f "$CACHE/$file.part" "$ERR"; die "could not download $file"; }
+		url=$(pkg_url "$repo" "$file")
+		if ! wg -T 120 -O "$CACHE/$file.part" "$url"; then
+			rm -f "$CACHE/$file.part"
+			case "$url" in
+			https://*)
+				# (https does not work here: plain http; apk checks the signature)
+				if ! grep -q ' 404 ' "$ERR" 2>/dev/null && wg -T 120 -O "$CACHE/$file.part" "http://${url#https://}"; then
+					MIRROR="http://${MIRROR#https://}"
+					echo "(https to the mirror does not work here: plain http, apk checks the signatures)"
+				fi ;;
+			esac
+		fi
+		if [ -s "$CACHE/$file.part" ]; then mv "$CACHE/$file.part" "$CACHE/$file"
+		else
+			rm -f "$CACHE/$file.part"
+			if grep -q ' 404 ' "$ERR" 2>/dev/null; then
+				rm -f "$ERR" $files
+				die "the mirror no longer has $file (a newer version came out): apk update, then try again"
+			fi
+			rm -f "$ERR" $files
+			die "could not download $file: is the Psion online?"
+		fi
 		files="$files $CACHE/$file"
 	done < "$plan"
-	rm -f "$plan"
+	rm -f "$plan" "$ERR"
 	# the real apk installs them, checking their signatures; the world file
 	# keeps only what was asked for (the rest are dependencies). apk itself
 	# (with libcrypto) takes about 7 MB while it works
@@ -198,25 +748,39 @@ cmd=$1
 case "$cmd" in
 ""|-h|--help|help)
 	usage ;;
+source)
+	source_cmd "$@" ;;
 update)
-	get /_apk/update | awk -F'\t' '$1 == "#PSIAPK1" { printf "%s %s [%s %s, main and community]\nOK: %d distinct packages available\n", "Alpine", $4, $5, $3, $2 }' ;;
+	need_net; probe_proxy
+	if [ "$SRC" = psiproxy ]; then
+		source_line
+		get /_apk/update | awk -F'\t' '$1 == "#PSIAPK1" { printf "%s %s [%s %s, main and community]\nOK: %d distinct packages available\n", "Alpine", $4, $5, $3, $2 }'
+	else
+		cat_stats 1
+		source_line
+		awk -F'\t' '$1 == "#PSIAPKCAT1" { printf "%s %s [%s %s, main and community]\nOK: %d distinct packages available\n", "Alpine", $4, $5, $3, $2 }' "$CACHE/stats"
+	fi ;;
 search)
+	need_net; probe_proxy
 	verbose=0; desc=0
 	while [ $# -gt 0 ]; do case "$1" in -v|--verbose) verbose=1 ;; -d|--description) desc=1 ;; -*) ;; *) break ;; esac; shift; done
 	[ $# -gt 0 ] || set -- ""
 	for q in "$@"; do
-		get "/_apk/search?q=$(urlq "$q")&d=$desc&n=500"
+		do_search "$q" $desc 500 0 || exit 1
 	done | awk -F'\t' -v v=$verbose '/^!more/ { printf "(and %d more)\n", $2; next } v { printf "%s-%s - %s\n", $1, $2, $6; next } { printf "%s-%s\n", $1, $2 }' ;;
 info)
 	all=0
 	while [ $# -gt 0 ]; do case "$1" in -a|--all) all=1 ;; -*) exec $REAL info $OFFLINE "$@" ;; *) break ;; esac; shift; done
 	[ $# -gt 0 ] || exec $REAL info $OFFLINE
+	probed=
 	for p in "$@"; do
 		if $REAL info $OFFLINE -e "$p" > /dev/null 2>&1; then
 			if [ $all = 1 ]; then $REAL info $OFFLINE -a "$p"; else $REAL info $OFFLINE "$p"; fi
 			continue
 		fi
-		get "/_apk/info?p=$(urlq "$p")" | awk -F'\t' -v a=$all '
+		need_net
+		[ -n "$probed" ] || { probe_proxy; probed=1; }
+		do_info "$p" | awk -F'\t' -v a=$all '
 			$1 == "!missing" { print "ERROR: " $2 ": no such package" > "/dev/stderr"; next }
 			{ f[$1] = $2 }
 			END {
@@ -231,25 +795,33 @@ add)
 	simulate=0
 	while [ $# -gt 0 ]; do case "$1" in -s|--simulate) simulate=1 ;; -*) ;; *) break ;; esac; shift; done
 	[ $# -gt 0 ] || die "nothing to add"
+	# .apk files you have: the real apk, from them (no catalogue needed)
+	case "$1" in *.apk)
+		for f in "$@"; do case "$f" in *.apk) [ -f "$f" ] || die "$f: no such file" ;; *) die "apk add: package files and names cannot be mixed" ;; esac; done
+		[ "$simulate" = 1 ] && exec $REAL add $OFFLINE --simulate "$@"
+		exec $REAL add $OFFLINE "$@" ;;
+	esac
+	need_net; probe_proxy
+	[ "$SRC" = psiproxy ] && need_server
+	[ "$SRC" = online ] && { cat_stats; source_line; }
 	plan=/tmp/.apk-plan.$$
-	list=$(echo "$*" | tr ' ' ',')
-	need_server
-	installed > /tmp/.apk-have.$$
-	resolve /tmp/.apk-have.$$ "$plan" "/_apk/resolve?add=$(urlq "$list")"
+	do_resolve 0 "$plan" "$@"
 	install_plan "$plan" $simulate 0 "$@" ;;
 upgrade)
 	simulate=0
 	while [ $# -gt 0 ]; do case "$1" in -s|--simulate) simulate=1 ;; -*) ;; *) break ;; esac; shift; done
+	need_net; probe_proxy
+	[ "$SRC" = psiproxy ] && need_server
+	[ "$SRC" = online ] && { cat_stats; source_line; }
 	plan=/tmp/.apk-plan.$$
-	need_server
-	installed > /tmp/.apk-have.$$
-	resolve /tmp/.apk-have.$$ "$plan" "/_apk/resolve?upgrade=1"
+	do_resolve 1 "$plan"
 	install_plan "$plan" $simulate 1 ;;
 del|delete|remove)
 	exec $REAL del $OFFLINE "$@" ;;
 list)
 	case "$1" in -I|--installed) exec $REAL info $OFFLINE ;; esac
-	get "/_apk/search?q=$(urlq "${1:-*}")&n=2000" | awk -F'\t' '!/^!/ { printf "%s-%s %s\n", $1, $2, $3 }' ;;
+	need_net; probe_proxy
+	do_search "${1:-*}" 0 2000 1 | awk -F'\t' '!/^!/ { printf "%s-%s %s\n", $1, $2, $3 }' ;;
 *)
 	exec $REAL "$cmd" $OFFLINE "$@" ;;
 esac

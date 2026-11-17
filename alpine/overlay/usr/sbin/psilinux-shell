@@ -4,6 +4,8 @@
 # (linux/docs/ALPINE.md, DECISIONS.md 49)
 /usr/sbin/psilinux-merge-db
 /usr/sbin/psilinux-seed
+# the first time: where apk's packages come from (one line; apk source)
+[ -e /etc/psilinux/.apk-source-told ] || /usr/local/sbin/apk source --first 2>/dev/null
 cd "$HOME" 2>/dev/null
 if [ -x /bin/bash ] && /bin/bash -c : 2>/dev/null; then
 	SHELL=/bin/bash exec /bin/bash -l

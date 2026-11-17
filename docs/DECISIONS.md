@@ -945,3 +945,41 @@ Alpine Linux's own armhf programs, unmodified, through a binary translator:
   warn "There are running jobs." first; a second exit leaves. In Alpine's
   full boot, `/usr/sbin/psilinux-login` logs root in and powers off when
   that shell ends, so OpenRC stops its services first.
+
+## 61. apk with no PsiProxy: Alpine's catalogue as small static files (0.37)
+- **Found:** decision 41's helper needs a PC running PsiProxy, so a Psion
+  on its own could not install anything. Alpine's real apk needs about
+  30 MB for the full index (29.7 MB of mappings on the host harness; with
+  a pretend Psion it needs 36 MB free, and fails at 32 MB).
+- **Chosen:** `tools/apkcat/mkapkcat.py` turns Alpine's APKINDEX into about
+  39,000 files of at most 8 KB: one per package, with each dependency
+  already matched to the package that provides it; what provides each
+  name, in 512 buckets; every version, in as few shards as fit (48); the
+  names by each three-letter group, and description words by their first
+  three letters, for search. `.github/workflows/apkcat.yml` remakes it
+  every day and publishes it to the gh-pages branch (GitHub Pages) only when
+  the index or the generator changed. The Psion's wrapper reads only the
+  files it needs (`apk add git`: 13 records; a search: one or two files),
+  keeps them until the catalogue's index changes, and works out the plan
+  itself in BusyBox awk (under 200 KB): what is installed is read from
+  apk's own database, versions are compared by Alpine's rules (the same as
+  psiapk's, checked on 3,227 pairs). The plan is psiapk's for every package
+  tested (`tools/apkcat/test/run.sh`). The packages still come from Alpine's
+  mirror and the real apk still checks their signatures.
+- **Order:** the source chosen in apk.conf (`apk source`), else a PsiProxy
+  in Connection settings (as before), else the online catalogue.
+- **https:** BusyBox wget's https (its ssl_client helper over a
+  socketpair) gives zeros in place of the data in long answers under
+  PsiLinux 0.36 (the second 8 KB of every 16 KB past the first 8 KB, the
+  same each time; ssl_client writing to a file, and a socketpair on its
+  own, are right). Until that is found, the catalogue's files are at most
+  8 KB and each is checked as it comes (a packed one must unpack, a text
+  has no NUL), and the packages come from the mirror over plain http,
+  which apk's signature check makes safe.
+- **Alternatives:** a new repository for the catalogue (not needed: this
+  repository's Pages were free); one file per search (25,000 names is 80 KB
+  packed, too slow over serial); Alpine's own apk on the netBook (it needs
+  36 MB free; too much for a 5mx, and tight on a 64 MB netBook).
+- **Also:** `sendfile` into a full pipe returned 0, which callers read as
+  the end of the input: `cat FILE | ...` stopped at 8 KB. It now waits, as
+  write does.

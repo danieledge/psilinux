@@ -110,11 +110,36 @@ tools/lxbuild "lx-cc -Os -o hello hello.c"         # a static-pie ARMv4T program
 
 Copy it to the Psion (for example to `D:\hello`) and run it as `/d/hello`.
 
-## The package helper (for apk in Alpine mode)
+## The package catalogue (for apk in Alpine mode)
 
-Alpine's catalogue is too big for a Psion's memory, so `apk` asks a helper
-on a PC for searches and install plans: `alpine/server/psiapk.py`. It is a
-plug-in for [PsiProxy](https://github.com/danieledge/psiproxy):
+Alpine's catalogue is too big for a Psion's memory, so `apk` reads it from
+outside, a few KB at a time.
+
+**The online catalogue** (the standard source). `tools/apkcat/mkapkcat.py`
+turns Alpine's APKINDEX into small static files (its docstring has the
+format):
+
+```sh
+python3 tools/apkcat/mkapkcat.py build/apkcat-site                  # downloads Alpine's index
+python3 tools/apkcat/mkapkcat.py build/apkcat-site --index ~/.cache/psiapk
+```
+
+`.github/workflows/apkcat.yml` runs it every day and publishes the result to
+the `gh-pages` branch, which GitHub Pages serves at
+`https://danieledge.github.io/psilinux/apk/v3.24/armhf/`, only when Alpine's
+index (or the generator) has changed. It needs Pages turned on once:
+Settings > Pages > Deploy from a branch, `gh-pages`, `/ (root)`. About 39,000
+files, 23 MB; 99 % are under 8 KB.
+
+Tests: `tools/apkcat/test/run.sh` (the generator against the index, and the
+Psion's wrapper, under BusyBox in an alpine container, against psiapk's
+answers: install plans, upgrades, info, search, the sources and messages);
+`tools/lxbuild "tests/run-apk.sh"` installs git with it on the host harness,
+from Alpine's mirror.
+
+**Your own PsiProxy** (advanced). `alpine/server/psiapk.py` is a plug-in for
+[PsiProxy](https://github.com/danieledge/psiproxy) that holds the catalogue
+and answers apk's questions:
 
 ```sh
 PSIPROXY_ADDR=0.0.0.0 PSIPROXY_PLUGINS=psiapk PSIPROXY_PLUGIN_PATH=$PWD/alpine/server python3 ../psiproxy/psiproxyd.py
@@ -130,8 +155,8 @@ packages) into `~/.cache/psiapk` and refreshes it every 6 hours. Settings:
 `PSIAPK_MIRROR`, `PSIAPK_BRANCH` (`v3.24`), `PSIAPK_ARCH`, `PSIAPK_CACHE`,
 `PSIAPK_REFRESH`. See the module's docstring for the protocol.
 
-Then, on the Psion, set `APK_SERVER=http://<that PC>:8081` in
-`/etc/psilinux/apk.conf`.
+Then, on the Psion: `apk source psiproxy http://<that PC>:8081` (or turn on
+the proxy in Connection settings).
 
 ## Tests
 

@@ -149,11 +149,27 @@ apk list [-I]              what is installed (-I) or available
 ```
 
 Alpine's catalogue takes about 30 MB of memory to load, and a 5mx has about
-9 MB free. So the catalogue stays on the package server (PsiProxy's `psiapk`
-helper), which answers searches and works out what an install needs. The
-packages themselves are Alpine's own signed files. The Psion downloads them,
-and Alpine's real apk (`/sbin/apk`) installs them from the files, checking
-their signatures against Alpine's keys as usual.
+9 MB free. So the catalogue is read from outside, a few KB at a time:
+
+- **Alpine's online catalogue** (the standard choice, no set-up): small static
+  files made from Alpine's index every day by `tools/apkcat/mkapkcat.py`
+  (`.github/workflows/apkcat.yml`), on GitHub Pages
+  (`https://danieledge.github.io/psilinux/apk/v3.24/armhf/`). Each package
+  is a file of its own with its dependencies already matched to the packages
+  that provide them; a search reads one file of names (by the rarest three
+  letters of what you typed) and, with `-d`, one of description words;
+  `upgrade` reads the 16 version lists. The Psion works out the install
+  itself, against what it has installed, with Alpine's version order. The
+  files it has read are kept in `/var/cache/apk/psion/cat/` until the
+  catalogue changes; the catalogue's date is checked once a day.
+- **Your own PsiProxy** with its `psiapk` helper (docs/BUILDING.md), which
+  holds the catalogue and answers the same questions.
+
+Either way the packages themselves are Alpine's own signed files: the Psion
+downloads them (from Alpine's mirror, `dl-cdn.alpinelinux.org`, or through
+the PsiProxy), and Alpine's real apk (`/sbin/apk`) installs them from the
+files, checking their signatures against Alpine's keys as usual. Neither
+source can change a package.
 
 Before anything is downloaded, `apk add` says:
 - how much it will download, and how much disk it needs;
@@ -162,19 +178,34 @@ Before anything is downloaded, `apk add` says:
   WARNING if not);
 - whether apk itself has room to work (about 7 MB).
 
-**The package server.** apk uses, in this order:
-1. `APK_SERVER` set in `/etc/psilinux/apk.conf` (empty as installed), for
-   example `APK_SERVER=http://192.168.1.10:8081` (edit it with
-   `nano /etc/psilinux/apk.conf`);
-2. the proxy in the Psion's Connection settings (PsiTerm, PsiMail or
-   PsiWeb), if it is on and is a PsiProxy. The Atom modem's own proxy
-   (192.168.7.1, "psiproxy") is not a package server;
-3. the dev box in `C:\System\Data\PsiDevBox.ini`, if a developer tool has set one, which
-   is a PsiProxy.
+**The source.** `apk source` shows it and changes it (`online`,
+`psiproxy [ADDRESS]`, `none` or `auto`); the first start says it in one
+line. apk uses, in this order:
+1. the choice in `/etc/psilinux/apk.conf` (`APK_SOURCE`, and `APK_SERVER`
+   for a PsiProxy's address);
+2. else a PsiProxy: the proxy in the Psion's Connection settings (PsiTerm,
+   PsiMail or PsiWeb), if it is on and is not the Atom modem's own, or the
+   dev box in `C:\System\Data\PsiDevBox.ini`. If it does not answer, apk
+   says so and uses the online catalogue;
+3. else Alpine's online catalogue.
 
-With none of these, apk says "No package server set". No address is built in.
-`APK_DIRECT=1 apk add …` downloads from Alpine's mirror instead of the server
-(the catalogue still comes from the server).
+With `psiproxy` chosen and no address, the Atom modem's own proxy
+(192.168.7.1) is tried last; it passes apk's questions on to the PsiProxy set
+in the modem. `APK_DIRECT=1 apk add …` downloads from Alpine's mirror
+instead of through the PsiProxy. `APK_SERVER`, `APK_SOURCE`,
+`APK_CATALOGUE` and `APK_MIRROR` in the environment override apk.conf for
+one command.
+
+`apk update` says which source is used and how old its catalogue is. With
+no connection, `apk del`, `apk list -I`, `apk info` of installed packages
+and `apk add ./FILE.apk` still work, and apk says so. What the Psion has
+already read of the catalogue is used again, with a warning saying its date.
+
+What the online catalogue answers its own way: `search -d` matches words
+of a description that start with what you typed (psiapk matches anywhere);
+a search for very common letters (`lib`, `py3-`) lists at most 800 names of
+each file, as psiapk lists at most 500; a search shorter than three letters
+lists names and versions only.
 
 ## ssh
 

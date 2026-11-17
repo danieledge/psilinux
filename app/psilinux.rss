@@ -203,7 +203,7 @@ RESOURCE MENU_PANE r_lx_keys_menu
 		MENU_ITEM { command=ELxCmdKeyEsc; txt="Esc"; },
 		MENU_ITEM { command=ELxCmdKeyTab; txt="Tab"; flags=EEikMenuItemSeparatorAfter; },
 		MENU_ITEM { cascade=r_lx_symbols_menu; txt="Symbols"; },
-		MENU_ITEM { cascade=r_lx_fkeys_menu; txt="F1 to F10"; }
+		MENU_ITEM { cascade=r_lx_fkeys_menu; txt="Function keys"; }
 		};
 	}
 

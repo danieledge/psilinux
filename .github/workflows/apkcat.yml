@@ -1,0 +1,90 @@
+# apkcat.yml - Alpine's package catalogue for the Psion's apk, as small
+# static files on this repository's GitHub Pages (tools/apkcat/mkapkcat.py
+# says what they are). Every day it reads Alpine's index (v3.24, main and
+# community, armhf) and publishes the catalogue again, to the gh-pages
+# branch, only when the index (or the generator) has changed.
+#   https://danieledge.github.io/psilinux/apk/v3.24/armhf/stats
+# Pages serves the gh-pages branch (Settings > Pages > Deploy from a branch,
+# gh-pages, / (root)). Run it by hand from Actions > apkcat > Run workflow
+# (force: publish even when nothing changed).
+name: apkcat
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  push:
+    branches: [dev, main]
+    paths:
+      - tools/apkcat/mkapkcat.py
+      - .github/workflows/apkcat.yml
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Publish even when Alpine's index has not changed"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write          # to push the gh-pages branch
+
+concurrency:
+  group: apkcat
+  cancel-in-progress: false
+
+jobs:
+  apkcat:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: tools/apkcat
+      - name: Alpine's index, and what is published now
+        id: check
+        run: |
+          set -e
+          mkdir -p idx
+          for r in main community; do
+            curl -sSfL --retry 3 -o idx/APKINDEX-$r.tar.gz \
+              -D idx/$r.headers https://dl-cdn.alpinelinux.org/alpine/v3.24/$r/armhf/APKINDEX.tar.gz
+            lm=$(sed -n 's/^[Ll]ast-[Mm]odified: *//p' idx/$r.headers | tr -d '\r')
+            [ -n "$lm" ] && touch -d "$lm" idx/APKINDEX-$r.tar.gz
+          done
+          id=$(python3 tools/apkcat/mkapkcat.py out --index idx --id-only)
+          gen=$(sha256sum tools/apkcat/mkapkcat.py | cut -c 1-16)
+          echo "id=$id gen=$gen"
+          old=$(git ls-remote --exit-code origin gh-pages > /dev/null 2>&1 && \
+                git fetch -q --depth 1 origin gh-pages && git show FETCH_HEAD:apk/v3.24/armhf/.built 2>/dev/null || true)
+          echo "published: ${old:-nothing}"
+          if [ "$old" = "$id $gen" ] && [ "${{ inputs.force }}" != "true" ]; then
+            echo "publish=0" >> "$GITHUB_OUTPUT"; echo "unchanged: nothing to publish"
+          else
+            echo "publish=1" >> "$GITHUB_OUTPUT"
+          fi
+          echo "built=$id $gen" >> "$GITHUB_OUTPUT"
+      - name: Make the catalogue
+        if: steps.check.outputs.publish == '1'
+        run: |
+          set -e
+          python3 tools/apkcat/mkapkcat.py out --index idx
+          echo "${{ steps.check.outputs.built }}" > out/apk/v3.24/armhf/.built
+          touch out/.nojekyll
+          cat > out/index.html <<'EOF'
+          <!doctype html><meta charset="utf-8"><title>PsiLinux package catalogue</title>
+          <p>Alpine Linux's package catalogue as small files, for <code>apk</code> on
+          <a href="https://github.com/danieledge/psilinux">PsiLinux</a> (a Psion with a few MB of memory).
+          The packages themselves come from Alpine's own mirror, signed by Alpine.
+          <p><a href="apk/v3.24/armhf/stats">apk/v3.24/armhf/stats</a>
+          EOF
+          cat out/apk/v3.24/armhf/stats
+      - name: Publish to gh-pages (one commit, replaced each time)
+        if: steps.check.outputs.publish == '1'
+        run: |
+          set -e
+          cd out
+          git init -q -b gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "apkcat: Alpine v3.24 armhf, $(cut -f 2,3 apk/v3.24/armhf/stats | tr '\t' ' ')"
+          git push -q -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" gh-pages
+          echo "published $(git rev-parse --short HEAD)"

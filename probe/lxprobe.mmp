@@ -1,7 +1,7 @@
 // lxprobe.mmp - the PsiLinux M0 probe (a test program, never released)
 TARGET          lxprobe.app
 TARGETTYPE      app
-UID             0x1000006c 0x0100FA12
+UID             0x1000006c 0x0100FA14
 TARGETPATH      \system\apps\lxprobe
 PROJECT         ptproj
 SUBPROJECT      lxprobe

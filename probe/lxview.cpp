@@ -10,7 +10,7 @@
 #include <f32file.h>
 #include <eikcmds.hrh>
 
-const TUid KUidLxProbe={0x0100FA12};
+const TUid KUidLxProbe={0x0100FA14};
 
 class CLxView : public CCoeControl
 	{

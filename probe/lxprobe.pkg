@@ -3,7 +3,7 @@
 ; With a file D:\LXDBT.TXT present, only the Alpine-mode probes run
 ; (alignment faults, the code cache, a thread's registers).
 &EN
-#{"LxProbe"},(0x0100FA12),0,3,0
+#{"LxProbe"},(0x0100FA14),0,3,0
 "lxprobe.app"-"!:\System\Apps\LxProbe\LxProbe.app"
 "lxprobe.rsc"-"!:\System\Apps\LxProbe\LxProbe.rsc"
 "lxprobe.exe"-"!:\System\Apps\LxProbe\lxprobe.exe"

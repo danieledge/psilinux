@@ -18,7 +18,7 @@
 
 #define LX_SHARED_NAME   "PsiLinuxTerm"
 #define LX_SHARED_MAGIC  0x584e4c50u      /* 'PLNX' */
-#define LX_SHARED_VERSION 8
+#define LX_SHARED_VERSION 9
 #define LX_KBD_SIZE      2048
 #define LX_OUT_SIZE      16384
 #define LX_EPOC_BUF      16032         /* (6) an EPOC request or answer (lxepoc.h: header + LXE_MAX) */
@@ -95,6 +95,15 @@ typedef struct
 	unsigned int start_free;           /* the Psion's free RAM as the app started (the app) */
 	volatile unsigned int trim_seq;    /* the app adds 1: the runner gives back its caches now */
 	volatile int app_behind;           /* 1: PsiLinux is not the program in front */
+
+	/* (9) sleep (0.39): Linux's memory to the disk while it is idle behind */
+	volatile int sleep_after;          /* seconds behind before it sleeps; 0: never (the app, Preferences) */
+	volatile unsigned int sleep_req;   /* the app adds 1: sleep now if idle (the launcher's "sleep") */
+	volatile int sleep_state;          /* LXS_AWAKE... (the runner) */
+	volatile unsigned int sleep_seq;   /* the runner adds 1 at each sleep */
+	volatile int sleep_freed_kb;       /* what the last sleep gave back */
 	} LxShared;
+
+enum { LXS_AWAKE = 0, LXS_ASLEEP, LXS_NOROOM };   /* sleep_state: NOROOM: asleep, and no RAM to wake */
 
 #endif

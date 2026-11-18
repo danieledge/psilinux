@@ -1,0 +1,14 @@
+#!/bin/bash
+# t7 (run by itself at login: mkalpine.sh NB_RUN=t7): sleep (0.39). The
+# image's helper (lxswitch.cpp) sends PsiLinux behind at 60 s and brings it
+# back at 160 s, then again at 170 s and 270 s; meanwhile, behind and idle
+# for a minute, Linux sleeps. This
+# waits (bash's read -t: a timer more than a minute off, which lets Linux
+# sleep), then shows what /proc/psilinux/mem says of the sleep and the
+# helper's notes (the free RAM while asleep).
+read -r startkb _ < /psion/c/Linux/prefree.txt
+read -t 330 -s -n 1 k
+printf '\033[H\033[2J'
+echo "== sleep: started with $startkb KB free"
+while read -r l; do echo "$l"; done < /proc/psilinux/mem
+echo "helper: $(< /psion/c/Linux/switch.txt)"

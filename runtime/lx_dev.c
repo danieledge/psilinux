@@ -793,6 +793,7 @@ static int proc_text(lx_proc *p, lx_vn *v, char *buf, int size)
 			w.heap_size / 1024, w.heap_used / 1024, w.threads, (lx_u32)sizeof lx_k / 1024);
 		if (w.app_heap) o += lx_snprintf(buf + o, size - o, "app\t%u KB, %u KB in use (the window's heap: the terminal, its history)\n", w.app_heap / 1024, w.app_heap_used / 1024);
 		o += lx_k_trim_info(buf + o, size - o);
+		o += lx_k_sleep_info(buf + o, size - o);
 		o += lx_snprintf(buf + o, size - o, "window\t%s; asked for memory %u times\n", w.behind ? "behind" : "in front", w.asked);
 		if (w.start_free && w.start_free > freeb)
 			o += lx_snprintf(buf + o, size - o, "in all\tabout %u KB (free RAM as PsiLinux started, less now)\n", (w.start_free - freeb) / 1024);

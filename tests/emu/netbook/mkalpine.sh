@@ -34,11 +34,11 @@ echo "(the netBook test root: see the Alpine root for the licences)" > usr/share
 # the timings: t9, run by itself 20 s after the first login (the emulator's
 # typing is not to be trusted for this: an Enter repeats); NB_T9=0: not
 # run, for a screenshot of the start
-install -m 755 "$TOP/tests/emu/netbook/t/t9" "$TOP/tests/emu/netbook/t/t8" root/
-# (NB_RUN=t8: the memory at idle, in place of t9)
+install -m 755 "$TOP/tests/emu/netbook/t/t9" "$TOP/tests/emu/netbook/t/t8" "$TOP/tests/emu/netbook/t/t7" root/
+# (NB_RUN=t8: the memory at idle, in place of t9; NB_RUN=t7: sleep)
 RUN=${NB_RUN:-t9}
 [ "$NB_T9" = 0 ] || for f in root/.profile root/.bash_profile; do
-	if [ "$RUN" = t8 ]; then echo '[ -x "$HOME/t8" ] && [ ! -e /tmp/.t9 ] && : > /tmp/.t9 && "$HOME/t8"' >> "$f"
+	if [ "$RUN" = t8 ] || [ "$RUN" = t7 ]; then echo '[ -x "$HOME/'$RUN'" ] && [ ! -e /tmp/.t9 ] && : > /tmp/.t9 && "$HOME/'$RUN'"' >> "$f"
 	else echo '[ -x "$HOME/t9" ] && [ ! -e /tmp/.t9 ] && : > /tmp/.t9 && { sleep 20; "$HOME/t9"; }' >> "$f"; fi
 done
 du -sh "$S"

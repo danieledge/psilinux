@@ -1,0 +1,13 @@
+// lxswitch.mmp - the netBook emulator's sleep test helper (lxswitch.cpp)
+TARGET        lxswitch.exe
+TARGETTYPE    exe
+UID           0x1000007a 0 0x0100FA15
+
+PROJECT       ptproj
+SUBPROJECT    lxlaunch
+
+SOURCE        lxswitch.cpp
+
+SYSTEMINCLUDE \epoc32\include
+
+LIBRARY       euser.lib efsrv.lib ws32.lib apgrfx.lib

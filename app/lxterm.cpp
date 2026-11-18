@@ -12,6 +12,7 @@
 #include <eikapp.h>
 #include <eikappui.h>
 #include <estlib.h>
+#include <apgtask.h>
 #include "lxterm.h"
 #include "lxepocsv.h"
 
@@ -68,6 +69,7 @@ TInt CLxSession::Start(const TDesC& aRoot, const TDesC8& aProgram, TBool aLogin,
 	iShared->log_on = iLogOn ? 1 : 0;
 	iShared->welcome_off = iWelcomeOff ? 1 : 0;
 	iShared->start_free = iStartFree;
+	iShared->sleep_after = iSleepAfter;
 	// (0.36) EPOC requests: this window answers them
 	if (!iEpoc)
 		{
@@ -150,6 +152,54 @@ void CLxSession::Beat()
 	iShared->app_heap_used = used;
 	}
 
+// (0.39) Linux asleep and PsiLinux in front: "Waking Linux..." until the
+// runner has it back; with no room for its memory, the launcher (PsiHub) is
+// told, which offers its Free memory dialog. A sleep the launcher asked
+// for says what it gave back (an infoprint over the program in front).
+void CLxSession::SleepUi()
+	{
+	if (!iShared)
+		return;
+	CEikonEnv* env = CEikonEnv::Static();
+	if (iShared->sleep_seq != iSleepSeq)
+		{
+		iSleepSeq = iShared->sleep_seq;
+		if (iSleepAsked)
+			{
+			TBuf<60> t;
+			t.Format(_L("Linux asleep - %d KB freed"), iShared->sleep_freed_kb);
+			User::InfoPrint(t);
+			iSleepAsked = EFalse;
+			}
+		}
+	TBool waking = iShared->sleep_state != LXS_AWAKE && !iShared->app_behind;
+	if (waking && !iWaking)
+		{
+		TRAPD(err, env->BusyMsgL(_L("Waking Linux..."), EHLeftVBottom, TTimeIntervalMicroSeconds32(0)));
+		iWaking = ETrue;
+		}
+	else if (!waking && iWaking)
+		{
+		env->BusyMsgCancel();
+		iWaking = EFalse;
+		}
+	if (iShared->sleep_state == LXS_NOROOM && !iShared->app_behind)
+		{
+		if (!iNoRoomTold)
+			{
+			env->InfoMsg(_L("Not enough memory to wake Linux - close a program"));
+			const TUid watcher = { 0x01000A9B }, msg = { 0x01000BA0 };     // (psion-core ssh/psimem.h: "short")
+			TApaTaskList tasks(env->WsSession());
+			TApaTask t = tasks.FindApp(watcher);
+			if (t.Exists())
+				t.SendMessage(msg, _L8("short"));
+			iNoRoomTold = ETrue;
+			}
+		}
+	else
+		iNoRoomTold = EFalse;
+	}
+
 TInt CLxSession::TickCallback(TAny* aSelf)
 	{
 	CLxSession* s = (CLxSession*)aSelf;
@@ -162,6 +212,7 @@ TInt CLxSession::TickCallback(TAny* aSelf)
 	// runner gives back Linux's idle memory sooner
 	if (s->iShared)
 		s->iShared->app_behind = CCoeEnv::Static()->RootWin().OrdinalPosition() != 0;
+	s->SleepUi();
 	s->Beat();
 	s->Pump();
 	return 1;
@@ -643,7 +694,18 @@ void CLxTermView::ApplySettingsL()
 	ApplyAppearanceL();
 	SizeToRunner();
 	if (iSession)
+		{
 		iSession->SetReserve(ReserveBytes());
+		iSession->SetSleepAfter(SleepAfter());
+		}
+	}
+
+// (0.39) Preferences: In the background
+TInt CLxTermView::SleepAfter() const
+	{
+	static const TInt KSecs[] = { 60, 300, 900, 0 };
+	TInt k = iLxSettings->iSpare[KLxSpareSleep];
+	return KSecs[k >= 0 && k <= 3 ? k : 0];
 	}
 
 void CLxTermView::ZoomBy(TInt aStep)
@@ -697,6 +759,7 @@ void CLxTermView::StartLinuxL()
 	iSession->SetLogOn(iLxSettings->iSpare[KLxSpareLog] != 0 ||
 		iCoeEnv->FsSession().Entry(_L("C:\\System\\Data\\PsiDiag.on"), diag) == KErrNone);
 	iSession->SetWelcome(iLxSettings->iSpare[KLxSpareNoWelcome] == 0);
+	iSession->SetSleepAfter(SleepAfter());
 	// (0.26) SetStartOnce() for this start only, else Preferences > Start
 	TInt start = iStartOnce >= 0 ? iStartOnce : iLxSettings->iStart;
 	iStartOnce = -1;

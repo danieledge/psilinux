@@ -611,6 +611,120 @@ static void dispatch(lx_thread *t)
  * the heap's free end. The runner does it when Linux has been idle a while
  * (bk_epoc.cpp), and when the app asks (the launcher's "trim" and "sleep").
  * On the kernel thread. why 0: not logged (the host harness's tests). */
+/* ---- (0.39) sleep ------------------------------------------------------------
+ * While PsiLinux is behind another program and Linux is idle (every thread
+ * waiting in a system call that nothing will answer soon: a shell at its
+ * prompt), its memory can go to the disk and the RAM back to EPOC. Without
+ * an MMU the programs' addresses must stay theirs, and they do: every chunk
+ * keeps its base for its whole life while its committed size changes, so
+ * the backend (bk_sleep_save) writes each chunk's contents to a file and
+ * decommits it, keeping the chunk; bk_sleep_restore commits it again at the
+ * same size and reads it back. Nothing may touch the programs' memory in
+ * between: every way into the kernel (LX_AWAKE_OR_RETURN) wakes Linux
+ * first, and Linux sleeps only when no thread is running, no socket or DNS
+ * lookup is open (their requests into memory would be answered), no
+ * program has the screen, and no timer is due within LX_SLEEP_TIMER. */
+int lx_k_asleep;
+int lx_k_sleep_quiet;                   /* (the host harness's tests: not logged) */
+static int sleep_count, sleep_ms, wake_ms;
+static lx_u32 sleep_written, sleep_saved;
+static int sleep_freed;
+
+/* why Linux cannot sleep now, or 0 */
+const char *lx_k_sleep_blocker(void)
+{
+	int i;
+	lx_tty *tty = &lx_k.ttys[0];
+	lx_s64 t;
+	if (lx_k.stopping || lx_k.init_exited) return "Linux is ending";
+	if (deferred) return "a program is running";
+	if (lx_cpu.cur && lx_cpu.cur->state == LX_T_USER) return "a program is running";
+	for (i = 0; i < LX_MAXTHREAD; i++) {
+		lx_thread *th = &lx_k.threads[i];
+		if (th->state == LX_T_USER || th->state == LX_T_SYSCALL || th->cpu_wait) return "a program is running";
+	}
+	if (bk_net_busy()) return "a network connection is open";
+	if (lx_fb_in_use()) return "a program has the screen";
+	t = bk_next_timer();
+	if (t && t - lx_now() < LX_SLEEP_TIMER) return "a timer is due";
+	if (tty->pgrp) {
+		/* the program in front on the terminal: a shell at its prompt (an
+		 * editor or a pager left open stays awake) */
+		static const char *const shells[] = { "bash", "sh", "ash", "hush", "zsh", "dash", "login", "getty" };
+		for (i = 0; i < LX_MAXPROC; i++) {
+			lx_proc *p = &lx_k.procs[i];
+			int k, ok = 0;
+			if (p->state != LX_P_ALIVE || p->pgid != tty->pgrp || p->pid != p->pgid) continue;
+			for (k = 0; k < (int)(sizeof shells / sizeof shells[0]); k++)
+				if (lx_strcmp(p->comm, shells[k]) == 0 || (p->comm[0] == '-' && lx_strcmp(p->comm + 1, shells[k]) == 0)) ok = 1;
+			if (!ok) return "a program is open on the terminal";
+		}
+	}
+	return 0;
+}
+
+/* Linux to sleep now, if it can: 0 asleep, else -errno (and why, logged) */
+int lx_k_sleep(const char *why)
+{
+	lx_u32 total, before, after, written = 0, saved = 0;
+	lx_s64 t0;
+	const char *no;
+	int r;
+	if (lx_k_asleep) return 0;
+	no = lx_k_sleep_blocker();
+	if (no) return -LX_EBUSY;
+	t0 = lx_now();
+	bk_mem_info(&total, &before);
+	lx_k_trim(lx_k_sleep_quiet ? 0 : "sleep");   /* (the caches first: nothing to write for them) */
+	r = bk_sleep_save(&written, &saved);
+	if (r < 0) { bk_log("sleep (%s): not now (%d): Linux stays awake", why, r); return r; }
+	lx_k_asleep = 1;
+	bk_mem_info(&total, &after);
+	sleep_count++;
+	sleep_ms = (int)((lx_now() - t0) / 1000);
+	sleep_written = written;
+	sleep_saved = saved;
+	sleep_freed = ((int)after - (int)before) / 1024;
+	if (!lx_k_sleep_quiet) bk_log("sleep (%s): %u KB of Linux's memory on the disk (%u KB written) in %d ms; %d KB given back, %u KB free",
+		why, saved / 1024, written / 1024, sleep_ms, sleep_freed, after / 1024);
+	return 0;
+}
+
+/* awake again: 0, or -LX_ENOMEM (no room yet: try again later), or -LX_EIO
+ * (its memory could not be read back: Linux cannot go on) */
+int lx_k_wake(const char *why)
+{
+	lx_s64 t0;
+	lx_u32 total, f;
+	int r;
+	if (!lx_k_asleep) return 0;
+	t0 = lx_now();
+	r = bk_sleep_restore();
+	if (r < 0) {
+		bk_mem_info(&total, &f);
+		bk_log("wake (%s): not yet (%d), %u KB free", why, r, f / 1024);
+		return r;
+	}
+	lx_k_asleep = 0;
+	wake_ms = (int)((lx_now() - t0) / 1000);
+	bk_mem_info(&total, &f);
+	if (!lx_k_sleep_quiet) bk_log("wake (%s): in %d ms, %u KB free", why, wake_ms, f / 1024);
+	return 0;
+}
+
+int lx_k_sleep_freed_kb(void) { return sleep_freed; }
+
+int lx_k_sleep_info(char *buf, int size)
+{
+	const char *no = lx_k_sleep_blocker();
+	int o = 0;
+	if (sleep_count)
+		o = lx_snprintf(buf, size, "slept\t%d times; last: %u KB on the disk, %u KB written, in %d ms; woke in %d ms; %d KB given back\n",
+			sleep_count, sleep_saved / 1024, sleep_written / 1024, sleep_ms, wake_ms, sleep_freed);
+	else o = lx_snprintf(buf, size, "slept\tnever\n");
+	return o + lx_snprintf(buf + o, size - o, "sleep\t%s\n", no ? no : "could sleep now (behind, idle)");
+}
+
 static int trim_count, trim_kb;
 static const char *trim_why;
 static lx_s64 trim_at;
@@ -663,6 +777,7 @@ void lx_retry_parked(void)
 
 void lx_k_event(void)
 {
+	LX_AWAKE_OR_RETURN("an event");
 	lx_rand_event(1);
 	need_retry = 1;
 	if (!retrying && !in_call) lx_retry_parked();
@@ -677,6 +792,7 @@ static void syscall_body(lx_thread *t);
 void lx_k_syscall(lx_thread *t)
 {
 	volatile lx_u32 *tr;
+	LX_AWAKE_OR_RETURN("a system call");
 	if (!t->frame) return;
 	t->nr = t->dbt_kcall ? (lx_u32)t->dbt_kcall : t->frame[7];
 	tr = lx_k_trail[lx_k_trail_n++ % LX_TRAIL];
@@ -717,6 +833,7 @@ void lx_k_timer(void)
 {
 	lx_s64 now = lx_now();
 	int i;
+	LX_AWAKE_OR_RETURN("a timer");
 	lx_k_now_what = 2;
 	lx_k_now_tid = 0;
 	if (lx_cpu.cur && cpu_waiters() && now - lx_cpu.cur->slice_start >= CPU_SLICE) lx_cpu.yield = 1;
@@ -1406,6 +1523,7 @@ void lx_k_thread_died(lx_thread *t, int reason)
 {
 	lx_proc *p = t->proc;
 	int lent = t->borrow != 0;
+	LX_AWAKE_OR_RETURN("a thread ended");
 	lx_k_now_what = 3;
 	lx_k_now_tid = t->tid;
 	if (t->state == LX_T_FREE) return;
@@ -2349,6 +2467,7 @@ void lx_k_init(const char *root_native)
 void lx_k_shutdown(void)
 {
 	int i;
+	LX_AWAKE_OR_RETURN("the end");
 	for (i = 0; i < LX_MAXPROC; i++)
 		if (lx_k.procs[i].state == LX_P_ALIVE && lx_k.procs[i].pid != 1) lx_proc_exit(&lx_k.procs[i], LX_SIGKILL);
 }
@@ -2364,6 +2483,7 @@ void lx_k_shutdown(void)
 void lx_k_stop_begin(void)
 {
 	int i;
+	LX_AWAKE_OR_RETURN("the end");
 	if (lx_k.stopping) return;
 	lx_k.stopping = 1;
 	lx_k.stop_at = lx_now() + LX_STOP_GRACE;

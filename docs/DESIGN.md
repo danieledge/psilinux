@@ -140,6 +140,29 @@ thread runs guest code or the runtime: one in a system call goes on through
 `dbt_lookup`, which finds the tables empty) and the heap's free end (EPOC's
 heap never shrinks by itself). `/proc/psilinux/mem` says where the memory is.
 
+**Sleep (0.39).** Without an MMU, a program's memory cannot move; but it
+need not stay in RAM. An EPOC chunk keeps its base address for its whole life
+while its committed size changes (`RChunk::Adjust`, `AdjustDoubleEnded` for
+the stacks). So while PsiLinux is behind and Linux is idle
+(`lx_k_sleep_blocker`: no thread running or answered, no socket or lookup,
+no screen, no timer within a minute, a shell in front on the terminal),
+`bk_sleep_save` suspends the Linux threads, writes every chunk that holds
+Linux's memory (images, stacks, the mmap arena, the code cache) to
+`Sleep\<base>.mem` on the memory disk, writing only pages whose hash
+changed, and decommits them, keeping the chunks open. Every way into the
+kernel (`LX_AWAKE_OR_RETURN`, and the runner's doorbell and timer) wakes
+Linux first: `bk_sleep_restore` commits every chunk at its old size (all or
+none: with no room it stays asleep and tries again) and reads it back. No
+EPOC server holds a pointer into Linux's memory while it sleeps: files are
+read synchronously into it, the sockets' requests use buffers in the
+runner's heap (and Linux does not sleep with a socket open), and the
+terminal and the epoc command use the app's shared chunk. What stays in RAM
+is the runner's heap (the kernel's tables, each process's copy of the shared
+images' writable parts), its fixed tables, the window's heap and the
+programs' code: about 2 MB. The host harness does the same with files and
+`mprotect` (LX_SLEEP_MS; tests/run-sleep.sh), so anything that touches
+Linux's memory while it sleeps faults there.
+
 ### Processes: vfork, and fork by snapshot
 
 Without an MMU two copies of a program cannot sit at the same address. As on

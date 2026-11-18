@@ -279,6 +279,8 @@ static void fb_close(lx_file *f)
 
 static const lx_fops fb_ops = { fb_read, fb_write, fb_pread, fb_pwrite, fb_lseek, fb_fstat, fb_ioctl, fb_poll, 0, fb_close, 0, 0, fb_mmap };
 
+int lx_fb_in_use(void) { return fb_users > 0; }
+
 lx_file *lx_fb_open(int flags, lx_u64 ino, int *err)
 {
 	fbfile *ff;
@@ -345,6 +347,7 @@ void lx_k_input(int dev, int type, int code, int value)
 	lx_s64 now = bk_now_real();
 	input_event e;
 	evq *q;
+	LX_AWAKE_OR_RETURN("input");
 	if (dev < 0 || dev >= LX_IN_NDEV) return;
 	if (type == EV_KEY && code < KEY_BYTES * 8) {
 		if (value) keys[dev][code >> 3] |= (lx_u8)(1 << (code & 7));

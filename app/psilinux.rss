@@ -276,7 +276,22 @@ RESOURCE ARRAY r_lx_prefs_general_lines
 			control=CHOICELIST { array_id=r_lx_start_list; }; },
 		DLG_LINE { type=EEikCtCheckBox; prompt="Keep memory for other programs"; id=ELxPrefKeep; },
 		DLG_LINE { type=EEikCtChoiceList; prompt="Memory to keep"; id=ELxPrefKeepKb;
-			control=CHOICELIST { array_id=r_lx_keep_list; }; }
+			control=CHOICELIST { array_id=r_lx_keep_list; }; },
+		// (0.39) behind another program and idle, Linux's memory goes to the
+		// memory disk and the RAM back to the Psion; it wakes in front
+		DLG_LINE { type=EEikCtChoiceList; prompt="In the background"; id=ELxPrefSleep;
+			control=CHOICELIST { array_id=r_lx_sleep_list; }; }
+		};
+	}
+
+RESOURCE ARRAY r_lx_sleep_list
+	{
+	items=
+		{
+		LBUF { txt="Sleep after 1 minute"; },
+		LBUF { txt="Sleep after 5 minutes"; },
+		LBUF { txt="Sleep after 15 minutes"; },
+		LBUF { txt="Never sleep"; }
 		};
 	}
 

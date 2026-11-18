@@ -147,6 +147,7 @@ void lx_k_tty_input(lx_tty *t, const char *buf, int n)
 {
 	int i;
 	struct lx_termios *tio = &t->tio;
+	LX_AWAKE_OR_RETURN("keys");
 	if (n > 0) lx_rand_event((lx_u32)(unsigned char)buf[0] | ((lx_u32)n << 8));   /* (when keys come: a little entropy) */
 	for (i = 0; i < n; i++) {
 		unsigned char c = (unsigned char)buf[i];
@@ -221,6 +222,7 @@ void lx_k_tty_writable(lx_tty *t) { (void)t; lx_k_event(); }
 
 void lx_k_tty_resize(lx_tty *t, int rows, int cols)
 {
+	LX_AWAKE_OR_RETURN("a resize");
 	if (t->ws.ws_row == rows && t->ws.ws_col == cols) return;
 	t->ws.ws_row = (lx_u16)rows;
 	t->ws.ws_col = (lx_u16)cols;

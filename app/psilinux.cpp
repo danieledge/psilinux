@@ -30,7 +30,7 @@
 #include <psilinux.rsg>
 
 const TUid KUidPsiLinux = { 0x01000A87 };
-_LIT(KLxVersion, "0.38");
+_LIT(KLxVersion, "0.39");
 _LIT(KIniFile, "C:\\System\\Apps\\PsiLinux\\PsiLinux.ini");
 
 // (0.38) Short of memory: the launcher (PsiHub, which watches the free RAM)
@@ -123,6 +123,8 @@ private:
 		TInt kb = iSettings.iKeepKb;
 		((CEikChoiceList*)Control(ELxPrefKeepKb))->SetCurrentItem(kb == 512 ? 0 : kb == 2048 ? 2 : 1);
 		SetLineDimmedNow(ELxPrefKeepKb, !iSettings.iKeep);
+		TInt sl = iSettings.iSpare[KLxSpareSleep];
+		((CEikChoiceList*)Control(ELxPrefSleep))->SetCurrentItem(sl >= 0 && sl <= 3 ? sl : 0);
 		}
 	// the amount is dimmed while the tick box is clear; the sizes follow the typeface
 	void HandleControlStateChangeL(TInt aControlId)
@@ -149,6 +151,7 @@ private:
 		iSettings.iKeep = CheckBoxState(ELxPrefKeep) == CEikButtonBase::ESet;
 		static const TInt KKeepKb[] = { 512, 1024, 2048 };
 		iSettings.iKeepKb = KKeepKb[((CEikChoiceList*)Control(ELxPrefKeepKb))->CurrentItem()];
+		iSettings.iSpare[KLxSpareSleep] = ((CEikChoiceList*)Control(ELxPrefSleep))->CurrentItem();
 		return ETrue;
 		}
 	TLxSettings& iSettings;
@@ -294,6 +297,10 @@ void CLxAppUi::ProcessMessageL(TUid aUid, const TDesC8& aParams)
 		}
 	if (aParams == KLxMemTrim || aParams == KLxMemSleep)
 		iTerm->Session()->Trim();
+	// (0.39) "sleep": Linux sleeps now, if it is idle (In the background:
+	// Never sleep leaves it awake)
+	if (aParams == KLxMemSleep && iTerm->SleepAfter())
+		iTerm->Session()->SleepNow(ETrue);
 	}
 
 TBool CLxAppUi::ProcessCommandParametersL(TApaCommand aCommand, TFileName& aDocumentName, const TDesC8& aTail)
@@ -378,6 +385,8 @@ void CLxAppUi::HandleWsEventL(const TWsEvent& aEvent, CCoeControl* aDestination)
 	if ((aEvent.Type() == EEventFocusGained || aEvent.Type() == EEventFocusLost) && iTerm)
 		{
 		iTerm->SetForeground(aEvent.Type() == EEventFocusGained);
+		if (aEvent.Type() == EEventFocusGained)
+			iTerm->Session()->InFront();     // (0.39) Linux wakes now, if asleep
 		if (aEvent.Type() == EEventFocusLost)
 			User::Heap().Compress();         // (0.38) behind: the heap's free end back
 		}

@@ -64,6 +64,7 @@ struct TLxSettings
 const TInt KLxSpareLog = 0;      // 0.24: Tools > Keep a log (0: off, as in older files)
 const TInt KLxSpareFace = 1;     // 0.29: the typeface of the zoom levels (PsiTerm's iFace: 0 Terminus...)
 const TInt KLxSpareNoWelcome = 2; // 0.37: 1: Tools > Show welcome banner not ticked (0: shown, as in older files)
+const TInt KLxSpareSleep = 3;    // 0.39: In the background: 0 sleep after 1 minute (older files), 1 5 minutes, 2 15 minutes, 3 never
 
 // (0.29) PsiTerm's theme for a colour screen with no saved settings (its
 // KPtThemeClean, 1.04)
@@ -103,6 +104,11 @@ public:
 	// (0.38) memory: the runner gives back its caches now; PsiLinux in front or behind
 	void Trim() { User::Heap().Compress(); if (iShared) { iShared->trim_seq++; Ring(); } }
 	void SetStartFree(TUint aBytes) { iStartFree = aBytes; }
+	// (0.39) sleep: after this many seconds behind (0: never); the launcher's "sleep"
+	void SetSleepAfter(TInt aSecs) { iSleepAfter = aSecs; if (iShared) iShared->sleep_after = aSecs; }
+	void SleepNow(TBool aAsked) { iSleepAsked = aAsked; if (iShared) { iShared->sleep_req++; Ring(); } }
+	void InFront() { if (iShared && iShared->app_behind) { iShared->app_behind = 0; Ring(); } }
+	void SleepUi();                    // "Waking Linux..." and the like (the tick)
 	void Ring();                       // the runner's doorbell (keys or the pen waiting for it)
 	void SetScreenHook(MLxScreenHook* aHook) { iScreenHook = aHook; }
 private:
@@ -118,6 +124,11 @@ private:
 	TBool iWelcomeOff;           // Tools > Show welcome banner not ticked (0.37)
 	TUint iStartFree;            // (0.38) the Psion's free RAM as the app started
 	TInt iBeats;                 // (0.38) ticks, for the heap's compressing
+	TInt iSleepAfter;            // (0.39) Preferences: In the background (seconds; 0 never)
+	TBool iSleepAsked;           // (0.39) the launcher asked: an infoprint says what sleep gave back
+	TUint iSleepSeq;
+	TBool iWaking;               // "Waking Linux..." is up
+	TBool iNoRoomTold;
 	TBool iChunkOpen;
 	LxShared* iShared;
 	RProcess iProcess;
@@ -153,6 +164,7 @@ public:
 	void SendBytes(const TDesC8& aBytes);   // to the runner (CTermView::WriteToHost)
 	void ApplySettingsL();             // appearance changed (TLxSettings -> PsiTerm's)
 	void ZoomBy(TInt aStep);           // PsiTerm's, and the size kept in TLxSettings
+	TInt SleepAfter() const;           // (0.39) Preferences: In the background, in seconds (0: never)
 	void SetTermRectL(const TRect& aRect);   // PsiTerm's, and the runner told the new size
 	TUint ReserveBytes() const;        // memory to keep for other programs (0: none)
 	TBool HasSelection() const { return iSelActive; }

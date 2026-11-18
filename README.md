@@ -26,6 +26,7 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 
 ## Contents
 
+- [What's new in 0.39](#whats-new-in-039)
 - [What's new in 0.38](#whats-new-in-038)
 - [What's new in 0.37](#whats-new-in-037)
 - [Screenshots](#screenshots)
@@ -41,6 +42,37 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 - [Documents](#documents)
 - [Support](#support)
 - [Credits and licences](#credits-and-licences)
+
+## What's new in 0.39
+
+Linux sleeps in the background. Behind another program for a minute, with
+Linux idle at the shell's prompt, PsiLinux writes Linux's memory to the
+memory disk (`\System\Apps\PsiLinux\Sleep\`) and gives the RAM back to
+the Psion. When PsiLinux comes to the front again, it reads it back
+("Waking Linux..." bottom left) and Linux carries on where it was: the
+programs keep their addresses, so nothing in them notices. In the netBook
+emulator, Alpine's shell held 4.7 MB awake and 2.0 MB asleep; its memory
+(2.6 MB) took 0.44 s to save the first time, 0.13 s the next (nothing had
+changed, so nothing was written) and 0.05 s to read back, to and from the
+internal disk (the emulator has no memory disk; a card is slower).
+
+- Preferences > General > In the background: Sleep after 1 minute (as
+  standard), 5 minutes, 15 minutes, or Never sleep.
+- Linux stays awake while a program runs or prints, while an editor or a
+  pager is open on the terminal (only a shell at its prompt sleeps), while
+  a network connection or a name lookup is open, while a program has the
+  screen, and when a timer (a `sleep`, a timeout) is due within a minute; a
+  later one wakes Linux when it is due.
+- Each sleep writes only the 4 KB pages that changed since the last one (a
+  hash of each page), so the programs' code goes to the card once.
+- PsiHub's "sleep" (short of memory, PsiLinux behind) puts Linux to sleep
+  at once if it is idle, and an infoprint says how much was freed.
+- With no room to wake (another program has taken the memory), Linux waits
+  asleep, PsiLinux says "Not enough memory to wake Linux - close a program"
+  and PsiHub offers its Free memory dialog.
+- With no memory disk (the internal disk is RAM itself) Linux does not sleep.
+- `cat /proc/psilinux/mem` says how the last sleep went, and why Linux cannot
+  sleep now.
 
 ## What's new in 0.38
 
@@ -542,6 +574,9 @@ Alpine's mirror instead of through the PsiProxy.
   code cache while there is room, and until Linux has been idle a minute.
 - `cat /proc/psilinux/mem` shows where PsiLinux's memory is. After a minute
   idle, PsiLinux keeps only what its running programs need.
+- Behind another program, idle Linux sleeps (Preferences > General > In
+  the background): its memory goes to the memory disk and the RAM back to
+  the Psion, about 2 MB left held; it wakes when PsiLinux comes to the front.
 
 ### When something goes wrong
 

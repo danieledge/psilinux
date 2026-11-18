@@ -178,6 +178,80 @@ static lx_u32 sim_free(void)
 lx_u32 bk_mem_reserve(void) { return getenv("LX_RESERVE") ? (lx_u32)atol(getenv("LX_RESERVE")) * 1024 : 0; }
 int bk_welcome(void) { return getenv("LX_WELCOME") ? atoi(getenv("LX_WELCOME")) != 0 : 1; }
 
+/* (0.39) sleep, as the runner does it (bk_epoc.cpp), for the tests: every
+ * region's contents to a file in $LX_SLEEP_DIR (or /tmp), then scribbled
+ * over and made inaccessible, so that anything touching Linux's memory
+ * while it sleeps faults at once; back at wake */
+#define HMAXREG 512
+typedef struct { char *p; lx_u32 len; int is_arena, is_code; } hreg;
+static hreg hregs[HMAXREG];
+static int host_asleep;
+static void hreg_add(char *p, lx_u32 len, int arena_, int code)
+{
+	int i;
+	for (i = 0; i < HMAXREG; i++)
+		if (!hregs[i].p) { hregs[i].p = p; hregs[i].len = len; hregs[i].is_arena = arena_; hregs[i].is_code = code; return; }
+}
+static void hreg_del(char *p)
+{
+	int i;
+	for (i = 0; i < HMAXREG; i++) if (hregs[i].p == p) { hregs[i].p = 0; return; }
+}
+static lx_u32 hreg_len(hreg *h);
+static void sleep_name(char *buf, int n, int i)
+{
+	const char *d = getenv("LX_SLEEP_DIR");
+	snprintf(buf, n, "%s/psihost-%d-%d.mem", d ? d : "/tmp", (int)getpid(), i);
+}
+int bk_sleep_save(lx_u32 *written, lx_u32 *saved)
+{
+	int i;
+	char name[300];
+	*written = *saved = 0;
+	for (i = 0; i < HMAXREG; i++) {
+		lx_u32 len;
+		FILE *f;
+		if (!hregs[i].p || !(len = hreg_len(&hregs[i]))) continue;
+		sleep_name(name, sizeof name, i);
+		f = fopen(name, "wb");
+		if (!f || fwrite(hregs[i].p, 1, len, f) != len) { if (f) fclose(f); return -LX_EIO; }
+		fclose(f);
+		*written += len;
+		*saved += len;
+	}
+	for (i = 0; i < HMAXREG; i++) {
+		lx_u32 len;
+		if (!hregs[i].p || !(len = hreg_len(&hregs[i]))) continue;
+		memset(hregs[i].p, 0xA5, len);
+		mprotect(hregs[i].p, len, PROT_NONE);
+	}
+	sim_used -= *saved;
+	host_asleep = 1;
+	return 0;
+}
+int bk_sleep_restore(void)
+{
+	int i;
+	char name[300];
+	lx_u32 back = 0;
+	for (i = 0; i < HMAXREG; i++) {
+		lx_u32 len;
+		FILE *f;
+		if (!hregs[i].p || !(len = hreg_len(&hregs[i]))) continue;
+		mprotect(hregs[i].p, len, PROT_READ | PROT_WRITE | PROT_EXEC);
+		sleep_name(name, sizeof name, i);
+		f = fopen(name, "rb");
+		if (!f || fread(hregs[i].p, 1, len, f) != len) { if (f) fclose(f); return -LX_EIO; }
+		fclose(f);
+		unlink(name);
+		back += len;
+	}
+	sim_used += back;
+	host_asleep = 0;
+	return 0;
+}
+lx_s64 bk_next_timer(void);
+
 /* stacks get 16 KB of no access below them, as on the Psion (bk_epoc.cpp),
  * so a program that runs off its stack faults here too */
 #define GUARD 0x4000
@@ -191,12 +265,13 @@ int bk_region_new(lx_region *r, lx_u32 size, int kind)
 	r->size = size;
 	r->bk = (void *)(long)g;
 	sim_used += (size + 4095) & ~4095u;
+	hreg_add(p + g, (size + 4095) & ~4095u, 0, 0);
 	return 0;
 }
 void bk_region_free(lx_region *r)
 {
 	lx_u32 g = (lx_u32)(long)r->bk;
-	if (r->size) { munmap((void *)(long)(r->base - g), r->size + g); sim_used -= (r->size + 4095) & ~4095u; }
+	if (r->size) { hreg_del((char *)(long)r->base); munmap((void *)(long)(r->base - g), r->size + g); sim_used -= (r->size + 4095) & ~4095u; }
 	r->size = 0;
 }
 lx_u32 bk_arena_base(void)
@@ -204,6 +279,7 @@ lx_u32 bk_arena_base(void)
 	if (!arena) {
 		arena = (char *)mmap(0, ARENA_MAX, PROT_READ | PROT_WRITE | PROT_EXEC, MAP_PRIVATE | MAP_ANONYMOUS | MAP_NORESERVE, -1, 0);
 		if (arena == MAP_FAILED) arena = 0;
+		if (arena) hreg_add(arena, 0, 1, 0);
 	}
 	return (lx_u32)(long)arena;
 }
@@ -214,6 +290,7 @@ int bk_code_region(lx_region *r, lx_u32 max, lx_u32 size)
 	char *p = (char *)mmap(0, max, PROT_READ | PROT_WRITE | PROT_EXEC, MAP_PRIVATE | MAP_ANONYMOUS, -1, 0);
 	if (p == MAP_FAILED) return -LX_ENOMEM;
 	code_now = size; sim_used += size;
+	hreg_add(p, 0, 0, 1);
 	r->base = (lx_u32)(long)p;
 	r->size = max;
 	r->bk = 0;
@@ -235,6 +312,7 @@ int bk_arena_grow(lx_u32 size)
 	sim_used += size - arena_now; arena_now = size;
 	return 0;
 }
+static lx_u32 hreg_len(hreg *h) { return h->is_arena ? arena_now : h->is_code ? code_now : h->len; }
 void *bk_alloc(lx_u32 n) { return calloc(1, n ? n : 1); }
 void bk_free(void *p) { free(p); }
 void bk_memcpy(void *d, const void *s, lx_u32 n) { memcpy(d, s, n); }
@@ -257,6 +335,7 @@ lx_s64 bk_now_mono(void)
 	return (lx_s64)ts.tv_sec * 1000000 + ts.tv_nsec / 1000 - mono0;
 }
 void bk_wake_at(lx_s64 mono) { wake_at = mono; }
+lx_s64 bk_next_timer(void) { return wake_at; }
 lx_u32 bk_random(void) { return (lx_u32)random() ^ ((lx_u32)random() << 16); }
 int bk_machine(char *name, int size)
 {
@@ -267,7 +346,9 @@ int bk_machine(char *name, int size)
 	return 0;
 }
 
-static int trim_ms, trims_done;
+static int trim_ms, trims_done, sleep_ms_env, sleeps_done;
+static lx_u32 sleep_mark;
+static lx_s64 sleep_since;
 static lx_s64 trim_last;
 void bk_mem_where(lx_bkmem *m) { bk_memset(m, 0, sizeof *m); }
 void bk_heap_compress(void) { }
@@ -690,6 +771,14 @@ void *bk_sock_new(int kind, int *err)
 	return s;
 }
 void bk_sock_close(void *p) { hsock *s = (hsock *)p; track(s, 0); close(s->fd); free(s); }
+/* (0.39) sockets and DNS lookups open: Linux does not sleep */
+static int host_resolves;
+int bk_net_busy(void)
+{
+	int i, n = host_resolves;
+	for (i = 0; i < MAXSOCK; i++) if (socks[i]) n++;
+	return n > 0;
+}
 static int neterr(int e)
 {
 	switch (e) {
@@ -802,6 +891,7 @@ void *bk_resolve_start(const char *name, int *err)
 {
 	struct addrinfo hints, *res = 0, *ai;
 	hres *r = (hres *)calloc(1, sizeof *r);
+	host_resolves++;
 	memset(&hints, 0, sizeof hints);
 	hints.ai_family = AF_INET;
 	hints.ai_socktype = SOCK_STREAM;
@@ -820,7 +910,7 @@ int bk_resolve_poll(void *p, lx_u32 *addrs, int max)
 	for (i = 0; i < r->n && i < max; i++) addrs[i] = r->a[i];
 	return i;
 }
-void bk_resolve_free(void *p) { free(p); }
+void bk_resolve_free(void *p) { host_resolves--; free(p); }
 int bk_dns_server(lx_u32 *addr) { (void)addr; return -1; }
 
 /* ---- the kernel thread ----------------------------------------------------------- */
@@ -957,6 +1047,11 @@ int main(int argc, char **argv)
 	 * programs run (the translator's cache goes whenever no translated
 	 * thread is running guest code) */
 	trim_ms = getenv("LX_TRIM_MS") ? atoi(getenv("LX_TRIM_MS")) : 0;
+	/* (0.39) testing: LX_SLEEP_MS=n: Linux sleeps after n ms with no system
+	 * call or key, whenever it can (lx_k_sleep_blocker); anything for it
+	 * wakes it (LX_AWAKE_OR_RETURN) */
+	sleep_ms_env = getenv("LX_SLEEP_MS") ? atoi(getenv("LX_SLEEP_MS")) : 0;
+	lx_k_sleep_quiet = !getenv("LX_SLEEP_LOG");
 	for (;;) {
 		struct pollfd pf[3];
 		int in_at = -1;
@@ -974,6 +1069,7 @@ int main(int argc, char **argv)
 		for (j = 0; j < MAXSOCK; j++) if (socks[j]) nsock++;
 		if (nsock) timeout = 20;              /* (sockets: look at them again soon) */
 		if (trim_ms > 0 && (timeout < 0 || timeout > trim_ms)) timeout = trim_ms;
+		if (sleep_ms_env > 0 && !lx_k_asleep && (timeout < 0 || timeout > sleep_ms_env)) timeout = sleep_ms_env;
 		if (wake_at) {
 			lx_s64 d = wake_at - bk_now_mono();
 			int ms = d <= 0 ? 0 : (int)(d / 1000) + 1;
@@ -1006,12 +1102,17 @@ int main(int argc, char **argv)
 		}
 		if (wake_at && bk_now_mono() >= wake_at) { wake_at = 0; lx_k_timer(); }
 		if (nsock) lx_k_event();
+		if (sleep_ms_env > 0 && !lx_k_asleep) {
+			if (lx_k_trail_n != sleep_mark) { sleep_mark = lx_k_trail_n; sleep_since = bk_now_mono(); }
+			else if (bk_now_mono() - sleep_since >= (lx_s64)sleep_ms_env * 1000 && lx_k_sleep("test") == 0) sleeps_done++;
+		}
 		if (trim_ms > 0 && bk_now_mono() - trim_last >= (lx_s64)trim_ms * 1000) {
 			trim_last = bk_now_mono();
 			if (lx_k_trim(0)) trims_done++;
 		}
 	}
 	if (trim_ms > 0) fprintf(stderr, "psihost: %d trims took the translator's cache\n", trims_done);
+	if (sleep_ms_env > 0) fprintf(stderr, "psihost: slept %d times\n", sleeps_done);
 	restore_tty();
 	if (getenv("LX_DBT_STATS")) {
 		char buf[600];

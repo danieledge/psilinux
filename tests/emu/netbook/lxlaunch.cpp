@@ -51,6 +51,13 @@ public:
 			pf.Write(t);
 			pf.Close();
 			}
+		// (0.39) the sleep test's helper (lxswitch.cpp), if the image has it
+		RProcess sw;
+		if (sw.Create(_L("C:\\System\\Apps\\PsiLinux\\lxswitch.exe"), KNullDesC) == KErrNone)
+			{
+			sw.Resume();
+			sw.Close();
+			}
 		CApaCommandLine* cl = CApaCommandLine::NewLC();
 		cl->SetLibraryNameL(_L("C:\\System\\Apps\\PsiLinux\\PsiLinux.app"));
 		cl->SetCommandL(EApaCommandRun);

@@ -50,6 +50,13 @@ if (alpine)
     if (find(rom, p).length) try { removeChecked(rom, [p]); } catch (e) { console.log(`kept ${p}: ${(e as Error).message.split('\n')[1]}`); }
 // (0.38) NB_SENDTRIM=1: the launcher stays and sends PsiLinux "sleep" at 20 s
 if (process.env.NB_SENDTRIM === '1') addFile(rom, 'Z:\\Test\\SENDTRIM', Buffer.from('sleep\n'));
+// (0.39) NB_SLEEPTEST=1: the launcher starts lxswitch.exe (PsiLinux behind at
+// 60 s, in front at 160 s), and the Alpine root may sleep to C: (SLEEPONC:
+// the emulator has no memory disk)
+if (process.env.NB_SLEEPTEST === '1') {
+  addFile(rom, 'Z:\\Test\\PsiLinux\\lxswitch.exe', readFileSync(`${b}/nbtest/lxswitch.exe`));
+  addFile(rom, 'Z:\\Test\\Linux\\Alpine\\SLEEPONC', Buffer.from('test\n'));
+}
 const R = alpine ? AR : `${b}/nbtest/root/`;
 for (const n of readdirSync(R).filter(n => /^ROOT\.(IMG|I\d\d)$/.test(n)))
   addFile(rom, `Z:\\Test\\Linux\\${alpine ? 'Alpine\\' : ''}${n}`, readFileSync(R + n));

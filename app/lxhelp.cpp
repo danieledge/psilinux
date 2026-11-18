@@ -27,7 +27,13 @@ static const TLxHelpTopic KHelpTopics[] =
 	  "(Shift+Ctrl+E) closes PsiLinux.\n"
 	  "\n"
 	  "The status line at the bottom shows the program in front, how many Linux programs are running, "
-	  "the memory they use and the memory the Psion has free." },
+	  "the memory they use and the memory the Psion has free.\n"
+	  "\n"
+	  "Behind another program, with Linux idle at the shell's prompt, Linux sleeps after a minute: its "
+	  "memory goes to the memory disk (\\System\\Apps\\PsiLinux\\Sleep\\) and the Psion has the RAM back. "
+	  "It wakes when PsiLinux comes to the front. Linux stays awake while a program runs, an editor or "
+	  "a pager is open, or a network connection is open. Preferences > General > In the background "
+	  "chooses when it sleeps, or Never sleep." },
 
 	{ "Alpine Linux",
 	  "PsiLinux can also run Alpine Linux 3.24: Alpine's own programs, unchanged, and its package "

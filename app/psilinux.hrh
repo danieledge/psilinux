@@ -69,7 +69,8 @@ enum
 	ELxPrefFace,             // 0.29: PsiTerm's typefaces
 	ELxPagePrefsCursor,      // 0.34: the Preferences dialog's Cursor page
 	ELxAbout6,               // 0.35: About: where the licences and sources are
-	ELxAbout7                // 0.35: About: the Symbian C library notice
+	ELxAbout7,               // 0.35: About: the Symbian C library notice
+	ELxPrefSleep             // 0.39: In the background: sleep after...
 	};
 
 #endif

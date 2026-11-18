@@ -82,6 +82,10 @@ static TUint HostPort(lx_u16 aNet) { return ((aNet & 0xff) << 8) | (aNet >> 8); 
 static lx_u16 NetPort(TUint aHost) { return (lx_u16)(((aHost & 0xff) << 8) | ((aHost >> 8) & 0xff)); }
 
 class CLxSock;
+// (0.39) sockets and DNS lookups that exist: while any does, Linux does not
+// sleep (their requests read into and answer for its programs)
+static TInt gNetObjs;
+extern "C" int bk_net_busy(void) { return gNetObjs > 0; }
 
 class CSockOp : public CActive
 	{
@@ -129,7 +133,7 @@ public:
 	// listening: the accepted socket, waiting for accept()
 	CLxSock* iAccepting;
 	TBool iAccepted;
-	CLxSock() : iRxDes(iRx, 0, KRxSize), iTxDes(iTx, 0, KTxSize) {}
+	CLxSock() : iRxDes(iRx, 0, KRxSize), iTxDes(iTx, 0, KTxSize) { gNetObjs++; }
 	};
 
 void CSockOp::RunL()
@@ -162,6 +166,7 @@ TInt CLxSock::Construct(TInt aKind)
 
 CLxSock::~CLxSock()
 	{
+	gNetObjs--;
 	delete iConn;
 	delete iRecv;
 	delete iSend;
@@ -510,7 +515,7 @@ class CLxResolve : public CActive
 	{
 public:
 	CLxResolve() : CActive(EPriorityStandard), iDone(EFalse) { CActiveScheduler::Add(this); }
-	~CLxResolve() { Cancel(); if (iOpen) iRes.Close(); }
+	~CLxResolve() { Cancel(); if (iOpen) iRes.Close(); gNetObjs--; }
 	TInt Start(const char* aName)
 		{
 		TInt r = Server();
@@ -549,6 +554,7 @@ extern "C" void* bk_resolve_start(const char* name, int* err)
 		*err = -LX_ENOMEM;
 		return 0;
 		}
+	gNetObjs++;
 	TInt e = r->Start(name);
 	if (e != KErrNone)
 		{

@@ -25,7 +25,7 @@
 extern "C" {
 #endif
 
-#define LX_VERSION "0.38"
+#define LX_VERSION "0.39"
 #define LX_MAXPROC 64
 #define LX_MAXTHREAD 64
 #define LX_MAXFD 128
@@ -382,6 +382,13 @@ typedef struct lx_bkmem {
 } lx_bkmem;
 void bk_mem_where(lx_bkmem *m);
 void bk_heap_compress(void);                  /* (0.38) the heap's free end back to EPOC */
+/* (0.39) sleep: every region's contents to a file and decommitted (the chunks
+ * and their addresses kept), and back; the network's open objects; the next
+ * timer (0: none) */
+int bk_sleep_save(lx_u32 *written, lx_u32 *saved);
+int bk_sleep_restore(void);
+int bk_net_busy(void);
+lx_s64 bk_next_timer(void);
 int bk_machine(char *name, int size);   /* the machine's name (UserHal); 1 on an SA-1100 (netBook, Series 7), 0 on the 5mx */
 lx_u32 bk_mem_reserve(void);                  /* bytes to leave free for EPOC's programs (Preferences), 0 = none */
 int bk_welcome(void);                         /* (0.37) 1: Tools > Show welcome banner is ticked (/proc/psilinux/welcome) */
@@ -523,7 +530,19 @@ lx_u32 lx_arena_alloc(lx_u32 len);
 void lx_arena_stats(lx_u32 *committed_b, lx_u32 *used_b);   /* (0.38) for /proc/psilinux/mem */
 lx_u32 lx_simg_used_bytes(int *n);            /* (0.38) lx_simg.c: the shared images in use */
 int lx_k_trim(const char *why);
-int lx_k_trim_info(char *buf, int size);      /* (0.38) the last trim, for /proc/psilinux/mem */               /* (0.38) lx_core.c: give back what can be made again; 1 if the translator's cache went too */
+int lx_k_trim_info(char *buf, int size);
+/* (0.39) sleep (lx_core.c): Linux's memory to the disk while it is idle */
+extern int lx_k_asleep;
+extern int lx_k_sleep_quiet;
+#define LX_SLEEP_TIMER 60000000               /* a timer due sooner than this keeps Linux awake */
+const char *lx_k_sleep_blocker(void);         /* why Linux cannot sleep now, or 0 */
+int lx_k_sleep(const char *why);
+int lx_k_wake(const char *why);
+int lx_k_sleep_info(char *buf, int size);
+int lx_k_sleep_freed_kb(void);
+/* every way into the kernel: Linux wakes first (and if it cannot, nothing is done) */
+#define LX_AWAKE_OR_RETURN(why) do { if (lx_k_asleep && lx_k_wake(why) < 0) return; } while (0)
+int lx_fb_in_use(void);                       /* lx_fb.c: a program has /dev/fb0 open */      /* (0.38) the last trim, for /proc/psilinux/mem */               /* (0.38) lx_core.c: give back what can be made again; 1 if the translator's cache went too */
 void lx_arena_free(lx_u32 addr, lx_u32 len);
 lx_mm *lx_mm_new(void);
 void lx_mm_put(lx_mm *mm);

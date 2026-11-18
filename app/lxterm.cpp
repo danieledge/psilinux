@@ -619,7 +619,12 @@ void CLxTermView::StartLinuxL()
 	// it boots (BusyBox init, OpenRC), or goes straight to a shell
 	TInt r;
 	iSession->SetReserve(ReserveBytes());          // (Start passes it on)
-	iSession->SetLogOn(iLxSettings->iSpare[KLxSpareLog] != 0);
+	// (Keep a log; and while Coda's debug mode is on, C:\System\Data\PsiDiag.on:
+	// Coda's Control panel > Diagnostics, whose PsiDiag.exe copies the log's
+	// new lines into the system log)
+	TEntry diag;
+	iSession->SetLogOn(iLxSettings->iSpare[KLxSpareLog] != 0 ||
+		iCoeEnv->FsSession().Entry(_L("C:\\System\\Data\\PsiDiag.on"), diag) == KErrNone);
 	iSession->SetWelcome(iLxSettings->iSpare[KLxSpareNoWelcome] == 0);
 	// (0.26) SetStartOnce() for this start only, else Preferences > Start
 	TInt start = iStartOnce >= 0 ? iStartOnce : iLxSettings->iStart;

@@ -13,4 +13,4 @@ RESOURCE      lxlaunch.rss
 USERINCLUDE   \ptproj\lxlaunch
 SYSTEMINCLUDE \epoc32\include
 
-LIBRARY       euser.lib efsrv.lib apparc.lib cone.lib eikon.lib bafl.lib
+LIBRARY       euser.lib efsrv.lib apparc.lib cone.lib eikon.lib bafl.lib apgrfx.lib ws32.lib

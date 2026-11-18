@@ -48,6 +48,8 @@ if (alpine)
     'Z:\\System\\Libs\\PsiSpell.bin', 'Z:\\System\\Fonts\\TfInter.gdr', 'Z:\\System\\Fonts\\TfDejaVuSansMono.gdr',
     'Z:\\System\\Libs\\ELexs.exe', 'Z:\\System\\Printers']))
     if (find(rom, p).length) try { removeChecked(rom, [p]); } catch (e) { console.log(`kept ${p}: ${(e as Error).message.split('\n')[1]}`); }
+// (0.38) NB_SENDTRIM=1: the launcher stays and sends PsiLinux "sleep" at 20 s
+if (process.env.NB_SENDTRIM === '1') addFile(rom, 'Z:\\Test\\SENDTRIM', Buffer.from('sleep\n'));
 const R = alpine ? AR : `${b}/nbtest/root/`;
 for (const n of readdirSync(R).filter(n => /^ROOT\.(IMG|I\d\d)$/.test(n)))
   addFile(rom, `Z:\\Test\\Linux\\${alpine ? 'Alpine\\' : ''}${n}`, readFileSync(R + n));

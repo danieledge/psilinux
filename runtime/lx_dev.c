@@ -774,9 +774,29 @@ static int proc_text(lx_proc *p, lx_vn *v, char *buf, int size)
 		}
 	case P_PSIMEM: {
 		lx_u32 res = bk_mem_reserve();
+		lx_bkmem w;
+		lx_u32 su, ac, au, cache = lx_exec_cache_bytes(), unused = lx_simg_unused_bytes(), other;
+		int ns;
 		bk_mem_info(&total, &freeb);
-		return lx_snprintf(buf, size, "free\t%u KB (the Psion's free RAM)\ncached\t%u KB (programs and libraries kept for their next run)\nreserve\t%u KB%s\navailable\t%u KB (for Linux: free less the reserve)\nrefused\t%u (%u KB)\n",
+		o = lx_snprintf(buf, size, "free\t%u KB (the Psion's free RAM)\ncached\t%u KB (programs and libraries kept for their next run)\nreserve\t%u KB%s\navailable\t%u KB (for Linux: free less the reserve)\nrefused\t%u (%u KB)\n",
 			freeb / 1024, lx_mem_cached() / 1024, res / 1024, res ? "" : " (off)", lx_mem_avail() / 1024, lx_k.reserve_refused, lx_k.reserve_refused_kb);
+		/* (0.38) where PsiLinux's memory is */
+		bk_mem_where(&w);
+		su = lx_simg_used_bytes(&ns);
+		lx_arena_stats(&ac, &au);
+		other = w.image > su + unused + cache ? w.image - su - unused - cache : 0;
+		o += lx_snprintf(buf + o, size - o,
+			"shared\t%u KB (%d programs and libraries in use)\nimages\t%u KB (programs' own, forks' saved memory)\nstacks\t%u KB (%d)\n"
+			"mmap\t%u KB committed, %u KB in use\ncode\t%u KB (the translator: its cache and table)\n"
+			"heap\t%u KB, %u KB in use (the runner's: tables, writable copies, pipes)\nthreads\t%d (16 KB each)\ntables\t%u KB (the runner's fixed tables)\n",
+			su / 1024, ns, other / 1024, w.stack / 1024, w.nstack, ac / 1024, au / 1024, dbt_committed() / 1024,
+			w.heap_size / 1024, w.heap_used / 1024, w.threads, (lx_u32)sizeof lx_k / 1024);
+		if (w.app_heap) o += lx_snprintf(buf + o, size - o, "app\t%u KB, %u KB in use (the window's heap: the terminal, its history)\n", w.app_heap / 1024, w.app_heap_used / 1024);
+		o += lx_k_trim_info(buf + o, size - o);
+		o += lx_snprintf(buf + o, size - o, "window\t%s; asked for memory %u times\n", w.behind ? "behind" : "in front", w.asked);
+		if (w.start_free && w.start_free > freeb)
+			o += lx_snprintf(buf + o, size - o, "in all\tabout %u KB (free RAM as PsiLinux started, less now)\n", (w.start_free - freeb) / 1024);
+		return o;
 	}
 	case P_CPUINFO: {
 		/* the machine's own name and processor (0.33: not always the 5mx) */

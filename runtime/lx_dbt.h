@@ -99,6 +99,8 @@ extern lx_cpu_t lx_cpu;
 /* the kernel's side */
 int dbt_init(void);                           /* on the kernel thread, before the first translated program */
 int dbt_available(void);
+lx_u32 dbt_shrink(void);                 /* (0.38) every translation goes, the cache back to its first step (kernel thread, CPU idle) */
+lx_u32 dbt_committed(void);              /* (0.38) bytes the translator holds: the cache committed, its block table */
 void dbt_invalidate(lx_u32 lo, lx_u32 hi);    /* guest code in [lo, hi) is gone (an image freed, a munmap) */
 void dbt_stats(char *buf, int size);          /* /proc/psilinux/dbt */
 

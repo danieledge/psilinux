@@ -25,7 +25,7 @@
 extern "C" {
 #endif
 
-#define LX_VERSION "0.37"
+#define LX_VERSION "0.38"
 #define LX_MAXPROC 64
 #define LX_MAXTHREAD 64
 #define LX_MAXFD 128
@@ -65,6 +65,7 @@ typedef struct lx_region {
 	lx_u32 base;
 	lx_u32 size;
 	void *bk;                   /* the backend's handle (an RChunk) */
+	int kind;                   /* (0.38) LX_REG_*, as made (counted for /proc/psilinux/mem) */
 } lx_region;
 
 enum { LX_REG_IMAGE = 1, LX_REG_STACK, LX_REG_ARENA };
@@ -368,6 +369,19 @@ void *bk_fb_map(void);                        /* the screen's shared memory (lxf
 void bk_fb_release(void);                     /* no program has the screen open now */
 void bk_fb_notify(void);                      /* wake the app: the screen changed */
 void bk_mem_info(lx_u32 *total, lx_u32 *free_);   /* the Psion's RAM, and how much is free */
+/* (0.38) where PsiLinux's memory is, for /proc/psilinux/mem: the runner's
+ * heap, its regions by kind, its threads, and the app's side (lxshared.h) */
+typedef struct lx_bkmem {
+	lx_u32 heap_size, heap_used;          /* the runner's heap: committed, allocated */
+	lx_u32 image, stack;                  /* bytes in LX_REG_IMAGE and LX_REG_STACK regions */
+	int nimage, nstack, threads;          /* ...how many; EPOC threads of the runner (16 KB stack each) */
+	lx_u32 app_heap, app_heap_used;       /* the app's heap, committed (0: not known), allocated */
+	lx_u32 start_free;                    /* the Psion's free RAM as PsiLinux started (0: not known) */
+	int behind;                           /* PsiLinux is behind another program */
+	lx_u32 asked;                         /* times the launcher asked for memory back ("trim", "sleep") */
+} lx_bkmem;
+void bk_mem_where(lx_bkmem *m);
+void bk_heap_compress(void);                  /* (0.38) the heap's free end back to EPOC */
 int bk_machine(char *name, int size);   /* the machine's name (UserHal); 1 on an SA-1100 (netBook, Series 7), 0 on the 5mx */
 lx_u32 bk_mem_reserve(void);                  /* bytes to leave free for EPOC's programs (Preferences), 0 = none */
 int bk_welcome(void);                         /* (0.37) 1: Tools > Show welcome banner is ticked (/proc/psilinux/welcome) */
@@ -506,6 +520,10 @@ void lx_simg_stats(char *buf, int size);
 
 /* lx_mem.c */
 lx_u32 lx_arena_alloc(lx_u32 len);
+void lx_arena_stats(lx_u32 *committed_b, lx_u32 *used_b);   /* (0.38) for /proc/psilinux/mem */
+lx_u32 lx_simg_used_bytes(int *n);            /* (0.38) lx_simg.c: the shared images in use */
+int lx_k_trim(const char *why);
+int lx_k_trim_info(char *buf, int size);      /* (0.38) the last trim, for /proc/psilinux/mem */               /* (0.38) lx_core.c: give back what can be made again; 1 if the translator's cache went too */
 void lx_arena_free(lx_u32 addr, lx_u32 len);
 lx_mm *lx_mm_new(void);
 void lx_mm_put(lx_mm *mm);

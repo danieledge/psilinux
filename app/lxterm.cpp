@@ -18,6 +18,7 @@
 _LIT(KRunnerExe, "psilxrun.exe");
 _LIT(KLxFontFile, "PsiTerm.gdr");          // PsiTerm's fonts, beside the program
 const TInt KLxScrollbackLines = 300;       // (as PsiTerm's KScrollbackLines)
+const TInt KLxScrollbackFirst = 50;        // (0.38) the history's room at first: it grows
 const TInt KLxScrollbackCols = 128;
 const TInt KLxTickUs = 500000;             // the status line, the cursor's blink
 const TInt KTickUs = KLxTickUs;            // (CLxSession's tick)
@@ -66,6 +67,7 @@ TInt CLxSession::Start(const TDesC& aRoot, const TDesC8& aProgram, TBool aLogin,
 	iShared->reserve = iReserve;
 	iShared->log_on = iLogOn ? 1 : 0;
 	iShared->welcome_off = iWelcomeOff ? 1 : 0;
+	iShared->start_free = iStartFree;
 	// (0.36) EPOC requests: this window answers them
 	if (!iEpoc)
 		{
@@ -133,9 +135,33 @@ TInt CLxSession::EpocAnswered(TAny* aSelf)
 	return 0;
 	}
 
+// the heartbeat (the runner ends if it stops), and (0.38) the app's heap's
+// size for /proc/psilinux/mem (TickCallback gives back its free end every
+// 30 s or so: EPOC's heap never shrinks by itself, and drawing, dialogs and
+// a burst of output leave it at its peak)
+void CLxSession::Beat()
+	{
+	if (!iShared)
+		return;
+	iShared->app_beat++;
+	TInt used = 0;
+	User::Heap().AllocSize(used);
+	iShared->app_heap = User::Heap().Size();
+	iShared->app_heap_used = used;
+	}
+
 TInt CLxSession::TickCallback(TAny* aSelf)
 	{
 	CLxSession* s = (CLxSession*)aSelf;
+	if (++s->iBeats >= 30 * 1000000 / KTickUs)
+		{
+		s->iBeats = 0;
+		User::Heap().Compress();
+		}
+	// (0.38) behind another program (its window group not the first), the
+	// runner gives back Linux's idle memory sooner
+	if (s->iShared)
+		s->iShared->app_behind = CCoeEnv::Static()->RootWin().OrdinalPosition() != 0;
 	s->Beat();
 	s->Pump();
 	return 1;
@@ -284,6 +310,48 @@ void CLxSession::Kill()
 static CLxTermView& Lx(CTermView* aView) { return *(CLxTermView*)aView; }
 static const CLxTermView& Lx(const CTermView* aView) { return *(const CLxTermView*)aView; }
 
+// (0.38) A line leaves the top of the screen for the history: when the
+// history is full and has not reached KLxScrollbackLines, it moves to room
+// twice the size first, its lines in order (if the heap has none, the
+// oldest line goes, as when it is full)
+static void SbGrow(TTermSb& aSb, TSbCell*& aCells, short*& aCols)
+	{
+	if (aSb.iCount < aSb.iMaxLines || aSb.iMaxLines >= KLxScrollbackLines || !aCells)
+		return;
+	TInt lines = aSb.iMaxLines * 2 > KLxScrollbackLines ? KLxScrollbackLines : aSb.iMaxLines * 2;
+	TSbCell* cells = (TSbCell*)User::Alloc(lines * aSb.iMaxCols * sizeof(TSbCell));
+	short* cols = (short*)User::Alloc(lines * sizeof(short));
+	if (!cells || !cols)
+		{
+		User::Free(cells);
+		User::Free(cols);
+		return;
+		}
+	TInt n = aSb.iCount;
+	for (TInt back = n; back >= 1; back--)
+		{
+		TInt c = 0;
+		const TSbCell* from = SbLine(&aSb, back, &c);
+		Mem::Copy(cells + (n - back) * aSb.iMaxCols, from, c * sizeof(TSbCell));
+		cols[n - back] = (short)c;
+		}
+	User::Free(aCells);
+	User::Free(aCols);
+	aCells = cells;
+	aCols = cols;
+	TInt maxCols = aSb.iMaxCols;
+	SbInit(&aSb, cells, cols, lines, maxCols);
+	aSb.iCount = n;
+	aSb.iHead = n % lines;
+	}
+
+int LxPushLine(int aCols, const VTermScreenCell* aCells, void* aUser)
+	{
+	CTermView* self = (CTermView*)aUser;
+	SbGrow(self->iSb, self->iSbCells, self->iSbCols);
+	return CTermView::CbPushLine(aCols, aCells, aUser);
+	}
+
 CTermView::CTermView()
 	{
 	iTbBusy = -1;
@@ -334,10 +402,13 @@ void CTermView::ConstructL(const TRect& aRect, const TPsiSettings& aSettings)
 	iCallbacks.movecursor = &CTermView::CbMoveCursor;
 	iCallbacks.settermprop = &CTermView::CbSetTermProp;
 	iCallbacks.bell = &CTermView::CbBell;
-	iCallbacks.sb_pushline = &CTermView::CbPushLine;
+	iCallbacks.sb_pushline = &LxPushLine;
 	iCallbacks.sb_clear = &CTermView::CbClearScrollback;
-	iSbCells = (TSbCell*)User::Alloc(KLxScrollbackLines * KLxScrollbackCols * sizeof(TSbCell));
-	iSbCols = (short*)User::Alloc(KLxScrollbackLines * sizeof(short));
+	// (0.38) the history starts with room for KLxScrollbackFirst lines and
+	// grows to KLxScrollbackLines as it fills (LxPushLine): a full one is
+	// 225 KB, which a shell that has printed a screen or two never needs
+	iSbCells = (TSbCell*)User::Alloc(KLxScrollbackFirst * KLxScrollbackCols * sizeof(TSbCell));
+	iSbCols = (short*)User::Alloc(KLxScrollbackFirst * sizeof(short));
 	if (!iSbCells || !iSbCols)
 		{
 		User::Free(iSbCells);
@@ -345,7 +416,7 @@ void CTermView::ConstructL(const TRect& aRect, const TPsiSettings& aSettings)
 		iSbCells = NULL;
 		iSbCols = NULL;
 		}
-	SbInit(&iSb, iSbCells, iSbCols, KLxScrollbackLines, KLxScrollbackCols);
+	SbInit(&iSb, iSbCells, iSbCols, KLxScrollbackFirst, KLxScrollbackCols);
 	vterm_screen_set_callbacks(iScreen, &iCallbacks, this);
 	vterm_screen_enable_altscreen(iScreen, 1);
 	vterm_screen_set_damage_merge(iScreen, VTERM_DAMAGE_SCROLL);

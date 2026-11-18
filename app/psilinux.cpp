@@ -21,6 +21,7 @@
 #include <eiklabel.h>
 #include <eikimage.h>
 #include <badesca.h>
+#include <e32hal.h>
 #include "lxterm.h"
 #include "lxscreen.h"
 #include "lxhelp.h"
@@ -29,8 +30,16 @@
 #include <psilinux.rsg>
 
 const TUid KUidPsiLinux = { 0x01000A87 };
-_LIT(KLxVersion, "0.37");
+_LIT(KLxVersion, "0.38");
 _LIT(KIniFile, "C:\\System\\Apps\\PsiLinux\\PsiLinux.ini");
+
+// (0.38) Short of memory: the launcher (PsiHub, which watches the free RAM)
+// sends "trim" under 3 MB free and "sleep" under 1.5 MB to programs behind,
+// as window-group messages with this UID (psion-core ssh/psimem.h, whose
+// values these are: the app takes PsiTerm's core, which may not have it)
+const TInt KLxMemMsgUid = 0x01000BA0;
+_LIT8(KLxMemTrim, "trim");
+_LIT8(KLxMemSleep, "sleep");
 
 // ---------------------------------------------------------------------------
 // Preferences... and Linux disk...
@@ -180,6 +189,7 @@ private:
 	void HandleCommandL(TInt aCommand);
 	void DynInitMenuPaneL(TInt aMenuId, CEikMenuPane* aMenuPane);
 	void HandleWsEventL(const TWsEvent& aEvent, CCoeControl* aDestination);
+	void ProcessMessageL(TUid aUid, const TDesC8& aParams);
 	void LoadSettings();
 	void SaveSettings();
 	void SwitchToL(TInt aView);
@@ -238,6 +248,9 @@ void CLxAppUi::SaveSettings()
 
 void CLxAppUi::ConstructL()
 	{
+	// (0.38) the free RAM before PsiLinux takes any, for /proc/psilinux/mem
+	TMemoryInfoV1Buf mi;
+	UserHal::MemoryInfo(mi);
 	BaseConstructL();
 	LoadSettings();
 	if (iToolBar)
@@ -251,6 +264,7 @@ void CLxAppUi::ConstructL()
 	iTerm->ConstructL(ViewRect(iSettings.iToolbar), iSettings);
 	AddToStackL(iTerm);
 	iTerm->Session()->SetScreenHook(this);
+	iTerm->Session()->SetStartFree(mi().iFreeRamInBytes);
 	// (0.26) Linux starts once the program is up, not here: the command
 	// line (ProcessCommandParametersL) may still be to come
 	iStarter = CIdle::NewL(CActive::EPriorityStandard);
@@ -265,6 +279,21 @@ TInt CLxAppUi::StartNow(TAny* aSelf)
 	TRAPD(err, self->iTerm->StartLinuxL());
 	(void)err;
 	return EFalse;                         // (once)
+	}
+
+// (0.38) "trim" and "sleep" from the launcher: Linux keeps running (its
+// programs' memory cannot be made again), and the runner gives back what can
+// be: the program cache, unused shared images, the translator's code and
+// its heap's free end; the window gives back its heap's free end.
+void CLxAppUi::ProcessMessageL(TUid aUid, const TDesC8& aParams)
+	{
+	if (aUid.iUid != KLxMemMsgUid)
+		{
+		CEikAppUi::ProcessMessageL(aUid, aParams);
+		return;
+		}
+	if (aParams == KLxMemTrim || aParams == KLxMemSleep)
+		iTerm->Session()->Trim();
 	}
 
 TBool CLxAppUi::ProcessCommandParametersL(TApaCommand aCommand, TFileName& aDocumentName, const TDesC8& aTail)
@@ -347,7 +376,11 @@ void CLxAppUi::ShowToolBarL(TBool aShow)
 void CLxAppUi::HandleWsEventL(const TWsEvent& aEvent, CCoeControl* aDestination)
 	{
 	if ((aEvent.Type() == EEventFocusGained || aEvent.Type() == EEventFocusLost) && iTerm)
+		{
 		iTerm->SetForeground(aEvent.Type() == EEventFocusGained);
+		if (aEvent.Type() == EEventFocusLost)
+			User::Heap().Compress();         // (0.38) behind: the heap's free end back
+		}
 	CEikAppUi::HandleWsEventL(aEvent, aDestination);
 	}
 

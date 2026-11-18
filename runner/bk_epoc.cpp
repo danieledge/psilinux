@@ -37,6 +37,7 @@ static RChunk gShChunk;
 static LxShared* gSh;
 static RChunk gArena;
 static TBool gArenaOk;
+static TInt gThreads;                    // (0.38) the Linux threads' EPOC threads, for /proc/psilinux/mem
 static TInt gThreadNo;
 static TPsiBellRinger gAppRinger;
 static TInt64 gEpoch;            // 1970, as a TTime
@@ -545,6 +546,7 @@ extern "C" int bk_thread_new(lx_thread* t)
 	h->iCall->Arm();
 	h->iDeath->Start(h->iThread);
 	t->bk = h;
+	gThreads++;
 	return 0;
 	}
 
@@ -580,6 +582,7 @@ extern "C" void bk_thread_free(lx_thread* t)
 	h->iThread.Close();
 	User::Free(h);
 	t->bk = 0;
+	gThreads--;
 	}
 
 // on the Linux thread
@@ -596,6 +599,17 @@ extern "C" void bk_thread_exit_self(lx_thread*) { User::Exit(KErrNone); }
 extern "C" void bk_cas_yield(void) { User::After(1); }
 
 // ---- memory ------------------------------------------------------------------
+
+// (0.38) what the regions hold, by kind, for /proc/psilinux/mem
+static lx_u32 gRegBytes[4];
+static TInt gRegCount[4];
+static void RegCount(TInt aKind, lx_u32 aSize, TInt aSign)
+	{
+	if (aKind < 0 || aKind > 3)
+		aKind = 0;
+	gRegBytes[aKind] += aSign * (TInt)aSize;
+	gRegCount[aKind] += aSign;
+	}
 
 extern "C" int bk_region_new(lx_region* r, lx_u32 size, int kind)
 	{
@@ -626,6 +640,8 @@ extern "C" int bk_region_new(lx_region* r, lx_u32 size, int kind)
 		}
 	r->size = size;
 	r->bk = c;
+	r->kind = kind;
+	RegCount(kind, size, 1);
 	return 0;
 	}
 
@@ -634,6 +650,8 @@ extern "C" void bk_region_free(lx_region* r)
 	RChunk* c = (RChunk*)r->bk;
 	if (c)
 		{
+		if (r->kind)
+			RegCount(r->kind, r->size, -1);
 		c->Close();
 		delete c;
 		}
@@ -666,6 +684,7 @@ extern "C" int bk_code_region(lx_region* r, lx_u32 max, lx_u32 size)
 	r->base = (lx_u32)c->Base();
 	r->size = max;
 	r->bk = c;
+	r->kind = 0;                             // (not counted with the regions: lx_dbt.c says what it has)
 	return 0;
 	}
 extern "C" int bk_code_grow(lx_region* r, lx_u32 size) { return Err(((RChunk*)r->bk)->Adjust(size)); }
@@ -735,6 +754,27 @@ extern "C" void bk_memset(void* d, int c, lx_u32 n) { Mem::Fill(d, n, TChar(c & 
 extern "C" lx_u32 bk_mem_reserve(void) { return gSh ? gSh->reserve : 0; }
 // (0.37) Tools > Show welcome banner (the app may change it while Linux runs)
 extern "C" int bk_welcome(void) { return gSh ? !gSh->welcome_off : 1; }
+
+extern "C" void bk_mem_where(lx_bkmem* m)
+	{
+	TInt used = 0;
+	m->heap_size = User::Heap().Size();
+	User::Heap().AllocSize(used);
+	m->heap_used = used;
+	m->image = gRegBytes[LX_REG_IMAGE];
+	m->nimage = gRegCount[LX_REG_IMAGE];
+	m->stack = gRegBytes[LX_REG_STACK];
+	m->nstack = gRegCount[LX_REG_STACK];
+	m->threads = gThreads;
+	m->app_heap = gSh ? gSh->app_heap : 0;
+	m->app_heap_used = gSh ? gSh->app_heap_used : 0;
+	m->start_free = gSh ? gSh->start_free : 0;
+	m->behind = gSh ? gSh->app_behind : 0;
+	m->asked = gSh ? gSh->trim_seq : 0;
+	}
+// (0.38) EPOC's heap never shrinks by itself: after a burst (apk, a big
+// pipe, a program's tables) its free end goes back to the Psion
+extern "C" void bk_heap_compress(void) { User::Heap().Compress(); }
 
 extern "C" void bk_mem_info(lx_u32* total, lx_u32* freeb)
 	{
@@ -1170,6 +1210,42 @@ void CLxTerm::FbInput()
 		}
 	}
 
+// (0.38) Memory back to the Psion when Linux is idle: after a minute with no
+// system call, key or output (10 s while PsiLinux is behind another
+// program), once until Linux is busy again; and at once when the app asks
+// (the launcher's "trim" and "sleep"). lx_k_trim says what goes.
+const TInt KIdleTrimFront = 60;
+const TInt KIdleTrimBehind = 10;
+static TUint gIdleMark;
+static TInt gIdleSecs;
+static TBool gIdleTrimmed;
+static TUint gTrimSeq;
+static void IdleTrim()
+	{
+	TUint mark = lx_k_trail_n + gSh->kbd_head + gSh->out_head + lx_cpu.translations;
+	if (gSh->trim_seq != gTrimSeq)
+		{
+		gTrimSeq = gSh->trim_seq;
+		lx_k_trim(gSh->app_behind ? "asked, behind" : "asked");
+		gIdleMark = mark;
+		gIdleSecs = 0;
+		gIdleTrimmed = ETrue;
+		return;
+		}
+	if (mark != gIdleMark)
+		{
+		gIdleMark = mark;
+		gIdleSecs = 0;
+		gIdleTrimmed = EFalse;
+		return;
+		}
+	if (!gIdleTrimmed && ++gIdleSecs >= (gSh->app_behind ? KIdleTrimBehind : KIdleTrimFront))
+		{
+		lx_k_trim("idle");
+		gIdleTrimmed = ETrue;
+		}
+	}
+
 static TInt gKFaultAt;           // (testing: <root>\KFAULT makes the kernel thread fault at 20 s)
 void CLxTerm::Housekeeping()
 	{
@@ -1209,6 +1285,7 @@ void CLxTerm::Housekeeping()
 		Quit();                              // the app has gone (crashed, or killed)
 		return;
 		}
+	IdleTrim();
 	TInt n = 0;
 	TUint used = 0;
 	TInt secs = (TInt)((bk_now_mono() - lx_k.start_mono) / 1000000);

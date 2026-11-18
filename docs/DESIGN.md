@@ -128,7 +128,17 @@ auxv with AT_PHDR, AT_RANDOM, AT_SYSINFO...). musl's `rcrt1` relocates the
 program itself, so the runner does not. `#!` scripts work. A **program cache**
 keeps the bytes of the last programs run (2 MB, 4 programs, dropped when free
 RAM is under 3 MB), because reading BusyBox from the card was the slow part of
-every command.
+every command. A program the translator runs is a shared image instead
+(below), so the cache does not keep its file as well (0.38).
+
+**Idle memory (0.38).** After a minute with no system call, key or output
+(10 s while PsiLinux is behind), and whenever the launcher asks ("trim",
+"sleep": psion-core `ssh/psimem.h`), `lx_k_trim` gives back what costs only
+time to make again: the program cache, the shared images no process uses, the
+translator's code and block table (`dbt_shrink`, only while no translated
+thread runs guest code or the runtime: one in a system call goes on through
+`dbt_lookup`, which finds the tables empty) and the heap's free end (EPOC's
+heap never shrinks by itself). `/proc/psilinux/mem` says where the memory is.
 
 ### Processes: vfork, and fork by snapshot
 

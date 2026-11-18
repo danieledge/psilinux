@@ -82,6 +82,14 @@ void lx_mem_reclaim(void)
 	if (!exec_loading) lx_simg_trim(1);
 }
 
+/* (0.38) the cached program at data goes */
+static void cache_forget(const char *data)
+{
+	int i;
+	for (i = 0; i < LX_EXEC_SLOTS; i++)
+		if (cache[i].data == data) { slot_free(&cache[i]); return; }
+}
+
 /* the program cache's size (memory that can be had back) */
 lx_u32 lx_exec_cache_bytes(void) { return cache_total(); }
 
@@ -256,9 +264,12 @@ static int load_interp(lx_thread *t, lx_proc *p, const char *path, lx_region *re
 			return 0;
 		}
 	}
-	cur_cache = cache_get(t, f, path);
-	cur_cache_size = cur_cache && f->ops->fstat && f->ops->fstat(f, &st) == 0 ? st.st_size : 0;
-	if (!cur_cache_size) cur_cache = 0;
+	/* (0.38) not through the program cache: the dynamic linker is a shared
+	 * image from now on, and a second copy of its file would only sit in
+	 * memory (Alpine's musl: 650 KB) */
+	(void)st;
+	cur_cache = 0;
+	cur_cache_size = 0;
 	r = -LX_ENOEXEC;
 	if (rd(t, f, &eh, sizeof eh, 0) != (int)sizeof eh || eh.machine != EM_ARM || eh.type != ET_DYN ||
 	    eh.phentsize != sizeof(elf_phdr) || eh.phnum > 16) goto out;
@@ -308,13 +319,23 @@ static int load_elf(lx_thread *t, lx_proc *p, lx_file *f, const char *path,
 	char **argv, int argc, char **envp, int envc, lx_thread **ntp)
 {
 	int r;
-	{
+	lx_s64 fsize = 0, fmtime = 0;
+	lx_u64 fino = 0;
+	int known = file_id(f, &fsize, &fino, &fmtime) == 0;
+	/* (0.38) a program that is a shared image already (Alpine's, which the
+	 * translator runs) is not read again, so not cached either */
+	if (known && lx_simg_find(path, fsize, fino, fmtime, 0)) cur_cache = 0;
+	else {
 		struct lx_stat64 st;
 		cur_cache = cache_get(t, f, path);
 		cur_cache_size = cur_cache && f->ops->fstat && f->ops->fstat(f, &st) == 0 ? st.st_size : 0;
 		if (!cur_cache_size) cur_cache = 0;
 	}
 	r = load_elf2(t, p, f, path, argv, argc, envp, envc, ntp);
+	/* (0.38) ...and one that has just become a shared image keeps its code
+	 * there, while it runs and after (lx_simg.c): the cache's copy of its
+	 * file would be a second one (bash: 850 KB) */
+	if (cur_cache && known && lx_simg_find(path, fsize, fino, fmtime, 0)) cache_forget(cur_cache);
 	cur_cache = 0;
 	return r;
 }

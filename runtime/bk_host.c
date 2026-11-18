@@ -267,6 +267,10 @@ int bk_machine(char *name, int size)
 	return 0;
 }
 
+static int trim_ms, trims_done;
+static lx_s64 trim_last;
+void bk_mem_where(lx_bkmem *m) { bk_memset(m, 0, sizeof *m); }
+void bk_heap_compress(void) { }
 void bk_mem_info(lx_u32 *total, lx_u32 *freeb)
 {
 	struct sysinfo si;
@@ -948,6 +952,11 @@ int main(int argc, char **argv)
 	r = lx_k_spawn_first(argv[i], argv + i, envp, 0);
 	if (r < 0) { fprintf(stderr, "psihost: cannot start %s: error %d\n", argv[i], -r); return 127; }
 	if (getenv("PSIHOST_INPUT")) input_fd = open(getenv("PSIHOST_INPUT"), O_RDWR | O_NONBLOCK);
+	/* (0.38) testing: LX_TRIM_MS=n gives back the caches every n ms, as the
+	 * runner does when Linux is idle or the launcher asks, but while the
+	 * programs run (the translator's cache goes whenever no translated
+	 * thread is running guest code) */
+	trim_ms = getenv("LX_TRIM_MS") ? atoi(getenv("LX_TRIM_MS")) : 0;
 	for (;;) {
 		struct pollfd pf[3];
 		int in_at = -1;
@@ -964,6 +973,7 @@ int main(int argc, char **argv)
 		if (fb_dirty && (timeout < 0 || timeout > 30)) timeout = 30;          /* (the screen's picture: soon, once it settles) */
 		for (j = 0; j < MAXSOCK; j++) if (socks[j]) nsock++;
 		if (nsock) timeout = 20;              /* (sockets: look at them again soon) */
+		if (trim_ms > 0 && (timeout < 0 || timeout > trim_ms)) timeout = trim_ms;
 		if (wake_at) {
 			lx_s64 d = wake_at - bk_now_mono();
 			int ms = d <= 0 ? 0 : (int)(d / 1000) + 1;
@@ -996,7 +1006,12 @@ int main(int argc, char **argv)
 		}
 		if (wake_at && bk_now_mono() >= wake_at) { wake_at = 0; lx_k_timer(); }
 		if (nsock) lx_k_event();
+		if (trim_ms > 0 && bk_now_mono() - trim_last >= (lx_s64)trim_ms * 1000) {
+			trim_last = bk_now_mono();
+			if (lx_k_trim(0)) trims_done++;
+		}
 	}
+	if (trim_ms > 0) fprintf(stderr, "psihost: %d trims took the translator's cache\n", trims_done);
 	restore_tty();
 	if (getenv("LX_DBT_STATS")) {
 		char buf[600];

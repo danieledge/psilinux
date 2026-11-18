@@ -10,6 +10,7 @@ screenshot now, OUTDIR/NAME.png), "{enter}" "{esc}" "{menu}" (keys), or
 text to type (letters, digits, space . / - & and Enter as \\r). The test
 root has scripts in /root (t1, t2...) so that only those are needed.
 Each key moves the clock 0.4 s. Needs ../psionEmulators (or $PSION_EMU).
+One frame in five is kept as kNNN.png (NB_EVERY=1: every one).
 """
 import os, subprocess, sys
 from PIL import Image
@@ -54,7 +55,7 @@ def main():
     Image.open(os.path.join(out, frames[-1])).convert('RGB').save(os.path.join(out, 'end.png'))
     # keep one frame in ten, as PNGs, to look through
     for i, f in enumerate(frames):
-        if i % 5 == 0: Image.open(os.path.join(out, f)).convert('RGB').save(os.path.join(out, 'k%03d.png' % (i + 1)))
+        if i % int(os.environ.get('NB_EVERY', '5')) == 0: Image.open(os.path.join(out, f)).convert('RGB').save(os.path.join(out, 'k%03d.png' % (i + 1)))
         os.remove(os.path.join(out, f))
     print('%d frames; shots: %s' % (len(frames), ', '.join(s[1] for s in shots)))
 

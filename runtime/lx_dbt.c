@@ -35,6 +35,8 @@ static lx_u32 cache_top, cache_committed, cache_start;
 static lx_u32 hash_tab[DBT_HASH_SIZE * 2];
 static dbt_block *blocks;
 static int nblocks;
+static int blocks_cap;                  /* (0.38) blocks has room for this many: it grows as they come */
+#define BLOCKS_FIRST 1024
 static int bh[BH_SIZE];
 static int ready;
 static lx_u32 gen;                      /* +1 at every flush */
@@ -84,8 +86,10 @@ int dbt_init(void)
 	if (ready) return 0;
 	if (!lx_reserve_check(CACHE_STEP, 0) || bk_code_region(&cache, CACHE_MAX, CACHE_STEP) < 0) { bk_log("dbt: no memory for the code cache"); return -LX_ENOMEM; }
 	cache_committed = CACHE_STEP;
-	blocks = (dbt_block *)bk_alloc(MAXBLOCKS * sizeof(dbt_block));
+	/* (0.38) room for the first blocks only, not all 16,384 (192 KB) */
+	blocks = (dbt_block *)bk_alloc(BLOCKS_FIRST * sizeof(dbt_block));
 	if (!blocks) { bk_region_free(&cache); return -LX_ENOMEM; }
+	blocks_cap = BLOCKS_FIRST;
 	tp_off = (lx_u32)((char *)&t0->tp - (char *)t0);
 	if (tp_off > 4095) { bk_log("dbt: lx_thread.tp at %u: out of reach", tp_off); return -LX_EINVAL; }
 	/* the cache starts with a copy of the dispatcher and a veneer to
@@ -947,6 +951,53 @@ static int fetch_ok(lx_thread *t, lx_u32 pc)
 	return 0;
 }
 
+/* (0.38) more room in blocks (on the thread holding the CPU): -1 if the
+ * heap has none, and the caller flushes */
+static int blocks_grow(void)
+{
+	int cap = blocks_cap * 2 > MAXBLOCKS ? MAXBLOCKS : blocks_cap * 2;
+	dbt_block *b;
+	if (cap <= blocks_cap) return -1;
+	b = (dbt_block *)bk_alloc(cap * sizeof(dbt_block));
+	if (!b) return -1;
+	bk_memcpy(b, blocks, nblocks * sizeof(dbt_block));
+	bk_free(blocks);
+	blocks = b;
+	blocks_cap = cap;
+	return 0;
+}
+
+/* (0.38) Memory is wanted back (PsiLinux idle, or the launcher's "trim"):
+ * every translation goes and the cache gives back all it had committed but
+ * its first step (the dispatcher's). Translating again is quick next to
+ * what it gives back. From the kernel thread, and only while no translated
+ * thread is running guest code or the runtime (the caller sees to that):
+ * a thread in a system call goes on through dbt_lookup, which finds the
+ * tables empty. Returns the bytes given back. */
+lx_u32 dbt_shrink(void)
+{
+	lx_u32 before = cache_committed + blocks_cap * sizeof(dbt_block);
+	dbt_block *b;
+	if (!ready) return 0;
+	hash_clear();
+	nblocks = 0;
+	cache_top = cache_start;
+	gen++;
+	lx_cpu.flushes++;
+	inval_all_r = inval_all_w;              /* (nothing left to invalidate) */
+	inval_r = inval_w;
+	bk_memset(code_mb, 0, sizeof code_mb);
+	if (cache_committed > CACHE_STEP && bk_code_grow(&cache, CACHE_STEP) == 0) cache_committed = CACHE_STEP;
+	if (blocks_cap > BLOCKS_FIRST && (b = (dbt_block *)bk_alloc(BLOCKS_FIRST * sizeof(dbt_block))) != 0) {
+		bk_free(blocks);
+		blocks = b;
+		blocks_cap = BLOCKS_FIRST;
+	}
+	return before - cache_committed - blocks_cap * sizeof(dbt_block);
+}
+
+lx_u32 dbt_committed(void) { return ready ? cache_committed + blocks_cap * sizeof(dbt_block) : 0; }
+
 static int grow_cache(lx_u32 need_top)
 {
 	lx_u32 want = need_top - cache.base;
@@ -966,6 +1017,7 @@ static lx_u32 translate(lx_thread *t, lx_u32 gpc)
 	lx_u32 pc = gpc, *q, host;
 	int n = 0, k, b;
 	if (cache_top + BLOCK_ROOM > cache.base + CACHE_MAX || nblocks >= MAXBLOCKS) flush();
+	else if (nblocks >= blocks_cap && blocks_grow() < 0) flush();
 	if (grow_cache(cache_top + BLOCK_ROOM) < 0) {
 		flush();
 		if (grow_cache(cache_top + BLOCK_ROOM) < 0) return 0;
@@ -1098,12 +1150,12 @@ void dbt_stats(char *buf, int size)
 {
 	lx_snprintf(buf, size,
 		"code cache   %u KB used, %u KB committed, %u KB at most\n"
-		"blocks       %d (translated %u, flushes %u)\n"
+		"blocks       %d, room for %d (translated %u, flushes %u)\n"
 		"guest insns  %u translated into %u host words\n"
 		"runtime      %u misses, %u helpers, %u system calls\n"
 		"unaligned    %u faults, %u sites patched, %u accesses through them\n",
 		dbt_cache_used() / 1024, cache_committed / 1024, CACHE_MAX / 1024,
-		nblocks, lx_cpu.translations, lx_cpu.flushes,
+		nblocks, blocks_cap, lx_cpu.translations, lx_cpu.flushes,
 		lx_cpu.guest_insns, lx_cpu.host_words,
 		lx_cpu.misses, lx_cpu.helpers, lx_cpu.syscalls,
 		lx_cpu.fixups, lx_cpu.patched, lx_cpu.fixed_calls);

@@ -604,6 +604,44 @@ static void dispatch(lx_thread *t)
 	lx_reply(t, r);
 }
 
+/* (0.38) Memory back to the Psion, from what costs nothing but time to make
+ * again: the program cache, shared images no process uses, the
+ * translator's code (only while no translated thread is running guest code
+ * or the runtime: one in a system call carries on through dbt_lookup), and
+ * the heap's free end. The runner does it when Linux has been idle a while
+ * (bk_epoc.cpp), and when the app asks (the launcher's "trim" and "sleep").
+ * On the kernel thread. why 0: not logged (the host harness's tests). */
+static int trim_count, trim_kb;
+static const char *trim_why;
+static lx_s64 trim_at;
+int lx_k_trim_info(char *buf, int size)
+{
+	if (!trim_count) return lx_snprintf(buf, size, "trimmed\tnever\n");
+	return lx_snprintf(buf, size, "trimmed\t%d times; last %u s ago (%s), %d KB back\n", trim_count,
+		(lx_u32)((lx_now() - trim_at) / 1000000), trim_why, trim_kb);
+}
+
+int lx_k_trim(const char *why)
+{
+	lx_u32 total, before, after, code = 0;
+	int shrunk = 0;
+	bk_mem_info(&total, &before);
+	lx_mem_reclaim();
+	if (dbt_available() && (!lx_cpu.cur || lx_cpu.cur->state != LX_T_USER)) {
+		code = dbt_shrink();
+		shrunk = 1;
+	}
+	bk_heap_compress();
+	bk_mem_info(&total, &after);
+	trim_count++;
+	trim_why = why ? why : "test";
+	trim_at = lx_now();
+	trim_kb = ((int)after - (int)before) / 1024;
+	if (why) bk_log("memory: %s: %d KB given back (translator %u KB%s), %u KB free", why,
+		((int)after - (int)before) / 1024, code / 1024, shrunk || !dbt_available() ? "" : ", kept: a program is running", after / 1024);
+	return shrunk;
+}
+
 void lx_retry_parked(void)
 {
 	int i, rounds = 0;

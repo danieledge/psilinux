@@ -26,6 +26,7 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 
 ## Contents
 
+- [What's new in 0.38](#whats-new-in-038)
 - [What's new in 0.37](#whats-new-in-037)
 - [Screenshots](#screenshots)
 - [What it is](#what-it-is)
@@ -40,6 +41,34 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 - [Documents](#documents)
 - [Support](#support)
 - [Credits and licences](#credits-and-licences)
+
+## What's new in 0.38
+
+PsiLinux holds much less memory while Linux sits idle. In the netBook
+emulator, Alpine's shell idle at its prompt took 7.9 MB in 0.37 and takes
+4.5 MB now (free RAM before PsiLinux started, less free RAM at the idle
+prompt); on Dan's netBook 0.37 had reached about 13 MB after apk and wget.
+
+- After a minute with nothing happening in Linux (10 s while PsiLinux is
+  behind another program), the runner gives back what costs only time to make
+  again: the program cache, programs and libraries no process uses, the
+  translator's code (it is translated again when it next runs), and the free
+  end of its heap. The window gives back its heap's free end every 30 s.
+- Coda's PsiHub asks programs for memory when the Psion runs short ("trim",
+  "sleep"): PsiLinux answers both at once. Linux's programs keep running.
+- A program the translator runs (Alpine's) is no longer kept twice: once in
+  memory as a shared image and once more in the program cache (bash: 850 KB;
+  the dynamic linker: 650 KB).
+- The translator's table of blocks and the terminal's history grow as they
+  fill, instead of taking their most (190 KB and 225 KB) at the start.
+- `cat /proc/psilinux/mem` says where PsiLinux's memory is: shared programs
+  and libraries, stacks, mmap, the translator, the runner's heap and tables,
+  the window's heap, the last trim, and about how much PsiLinux holds in all.
+- Also in this release, made since 0.37 was numbered: a blocking write to a
+  pipe or a socket writes it all, as on Linux, which BusyBox wget's https
+  needs ([DECISIONS.md](docs/DECISIONS.md) 63); `apk` reads Alpine's online
+  catalogue with no set-up (that part is in the Alpine root: install a new
+  `PsiLinux-alpine-root.sis` for it).
 
 ## What's new in 0.37
 
@@ -510,7 +539,9 @@ Alpine's mirror instead of through the PsiProxy.
   shows the translator's figures, and `cat /proc/psilinux/images` the
   programs and libraries that processes share.
 - A program runs faster the second time: its translation stays in the 1 MB
-  code cache while there is room.
+  code cache while there is room, and until Linux has been idle a minute.
+- `cat /proc/psilinux/mem` shows where PsiLinux's memory is. After a minute
+  idle, PsiLinux keeps only what its running programs need.
 
 ### When something goes wrong
 

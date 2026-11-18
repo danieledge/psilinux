@@ -55,6 +55,16 @@ lx_u32 lx_simg_unused_bytes(void)
 	return n;
 }
 
+/* (0.38) the memory the images in use hold, and how many there are */
+lx_u32 lx_simg_used_bytes(int *n)
+{
+	int i;
+	lx_u32 b = 0;
+	*n = 0;
+	for (i = 0; i < NSIMG; i++) if (simgs[i].len && simgs[i].users) { b += simgs[i].len; (*n)++; }
+	return b;
+}
+
 /* unused images go: all of them (memory is short), or the oldest beyond
  * KEEP_UNUSED */
 void lx_simg_trim(int all)

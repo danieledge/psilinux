@@ -113,6 +113,15 @@ lx_u32 lx_arena_alloc(lx_u32 len)
 	return base + start * PAGE;
 }
 
+/* (0.38) the arena's pages: committed, and in use */
+void lx_arena_stats(lx_u32 *committed_b, lx_u32 *used_b)
+{
+	lx_u32 i, n = 0;
+	for (i = 0; i < committed; i++) if (page_used(i)) n++;
+	*committed_b = committed * PAGE;
+	*used_b = n * PAGE;
+}
+
 void lx_arena_free(lx_u32 addr, lx_u32 len)
 {
 	lx_u32 i, first, n = (len + PAGE - 1) / PAGE;

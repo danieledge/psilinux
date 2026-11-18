@@ -1,0 +1,32 @@
+#!/bin/bash
+# t8 (run by itself at login: mkalpine.sh NB_RUN=t8): PsiLinux's memory at
+# an idle bash prompt. The launcher (lxlaunch.cpp) wrote the free RAM
+# just before PsiLinux started (C:\Linux\prefree.txt); /proc/psilinux/mem says where PsiLinux's
+# memory is. Shown 40 s after login; then the welcome banner is timed (its
+# df loads BusyBox); then shown again after 3 minutes idle (the runner's
+# idle trim, 0.38), and the banner timed twice more: cold, then warm.
+# Bash's builtins only while measuring (no cat, sleep or grep: they would
+# load BusyBox), so what runs is the login bash and this one.
+read -r startkb _ < /psion/c/Linux/prefree.txt
+show() {
+	local l
+	printf '\033[H\033[2J'
+	echo "== $1: started with $startkb KB free"
+	while read -r l; do echo "$l"; done < /proc/psilinux/mem
+	while read -r l; do case "$l" in *cache*|blocks*) echo "$l";; esac; done < /proc/psilinux/dbt
+	while read -r l; do echo "${l:0:100}"; done < /proc/psilinux/images
+	while read -r l; do case "$l" in VmRSS*) echo "this script: $l";; esac; done < /proc/$$/status
+	[ -e /psion/c/Linux/sent.txt ] && echo "launcher: $(< /psion/c/Linux/sent.txt)"
+}
+banner() {
+	local TIMEFORMAT="banner ($1): %R s"
+	. /usr/lib/psilinux/welcome
+	time psilinux_welcome > /dev/null
+}
+read -t 40 -s -n 1 k
+show "idle 40 s"
+banner warm
+read -t 180 -s -n 1 k
+show "idle 3 min"
+banner "after idle"
+banner warm

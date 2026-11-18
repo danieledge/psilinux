@@ -99,7 +99,10 @@ public:
 	void Write(const TDesC8& aBytes);  // typed bytes to the terminal
 	void Resize(TInt aRows, TInt aCols);
 	void Pump();                       // output to the view, the runner's state
-	void Beat() { if (iShared) iShared->app_beat++; }
+	void Beat();
+	// (0.38) memory: the runner gives back its caches now; PsiLinux in front or behind
+	void Trim() { User::Heap().Compress(); if (iShared) { iShared->trim_seq++; Ring(); } }
+	void SetStartFree(TUint aBytes) { iStartFree = aBytes; }
 	void Ring();                       // the runner's doorbell (keys or the pen waiting for it)
 	void SetScreenHook(MLxScreenHook* aHook) { iScreenHook = aHook; }
 private:
@@ -113,6 +116,8 @@ private:
 	TUint iReserve;              // bytes to keep for other programs (Preferences)
 	TBool iLogOn;                // Tools > Keep a log (0.24)
 	TBool iWelcomeOff;           // Tools > Show welcome banner not ticked (0.37)
+	TUint iStartFree;            // (0.38) the Psion's free RAM as the app started
+	TInt iBeats;                 // (0.38) ticks, for the heap's compressing
 	TBool iChunkOpen;
 	LxShared* iShared;
 	RProcess iProcess;

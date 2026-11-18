@@ -18,7 +18,7 @@
 
 #define LX_SHARED_NAME   "PsiLinuxTerm"
 #define LX_SHARED_MAGIC  0x584e4c50u      /* 'PLNX' */
-#define LX_SHARED_VERSION 7
+#define LX_SHARED_VERSION 8
 #define LX_KBD_SIZE      2048
 #define LX_OUT_SIZE      16384
 #define LX_EPOC_BUF      16032         /* (6) an EPOC request or answer (lxepoc.h: header + LXE_MAX) */
@@ -86,6 +86,15 @@ typedef struct
 
 	volatile int welcome_off;          /* (7) 1: Tools > Show welcome banner is not ticked (the app; may
 	                                      change while running): /proc/psilinux/welcome says 0 */
+
+	/* (8) memory (0.38): the app's side, for /proc/psilinux/mem, and its asking
+	 * the runner to give back what it can (the launcher's "trim" and "sleep",
+	 * psion-core ssh/psimem.h) */
+	volatile unsigned int app_heap;    /* the app's heap, committed bytes (the app, each tick) */
+	volatile unsigned int app_heap_used;   /* ...of which allocated */
+	unsigned int start_free;           /* the Psion's free RAM as the app started (the app) */
+	volatile unsigned int trim_seq;    /* the app adds 1: the runner gives back its caches now */
+	volatile int app_behind;           /* 1: PsiLinux is not the program in front */
 	} LxShared;
 
 #endif

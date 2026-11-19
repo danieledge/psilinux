@@ -104,6 +104,6 @@ typedef struct
 	volatile int sleep_freed_kb;       /* what the last sleep gave back */
 	} LxShared;
 
-enum { LXS_AWAKE = 0, LXS_ASLEEP, LXS_NOROOM };   /* sleep_state: NOROOM: asleep, and no RAM to wake */
+enum { LXS_AWAKE = 0, LXS_ASLEEP, LXS_NOROOM, LXS_NOCARD };   /* sleep_state: NOROOM: asleep, and no RAM to wake; (0.40) NOCARD: asleep, its card out */
 
 #endif

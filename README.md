@@ -26,6 +26,7 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 
 ## Contents
 
+- [What's new in 0.40](#whats-new-in-040)
 - [What's new in 0.39](#whats-new-in-039)
 - [What's new in 0.38](#whats-new-in-038)
 - [What's new in 0.37](#whats-new-in-037)
@@ -43,6 +44,35 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 - [Support](#support)
 - [Credits and licences](#credits-and-licences)
 
+## What's new in 0.40
+
+Sleep is now something you choose, and it looks after the card.
+
+- Preferences > General > In the background is **Never sleep** as
+  standard. Choose Sleep after 1, 5 or 15 minutes to have Linux sleep
+  behind other programs. (If you chose 5 or 15 minutes in 0.39, that
+  choice stays.)
+- Before it sleeps, PsiLinux checks that the card has room for all of
+  Linux's memory with 1 MB to spare for other programs. If it has not, or
+  a write to the card fails, Linux stays awake, the sleep files are
+  deleted (the card gets its room back) and PsiLinux does not try again
+  for 10 minutes (then 20, 40, an hour at most), or until it has been in
+  front again.
+- Each sleep file has a header with the session's stamp, and every page
+  read back is checked against what was written, so files left by another
+  session or on another card are never taken for Linux's memory.
+- Take the card out while Linux sleeps and nothing is lost: coming to
+  the front, PsiLinux says "Put the card back to wake Linux" and waits,
+  and Linux wakes when its card is back.
+- Asleep, PsiLinux closes the root image's files and its timers tick
+  every 5 seconds instead of every half second.
+- Files of the root image changed for the first time, and the folder
+  notes (`_LXMETA`: links, modes and deleted files), are written whole
+  beside the old ones and then put in their place. A reset or a full card
+  in the middle leaves the old file or the new one, never half of one.
+- On Coda, a missing part of the Linux root says to copy the Linux folder
+  from the Coda card again (it comes on the card, not as .sis files).
+
 ## What's new in 0.39
 
 Linux sleeps in the background. Behind another program for a minute, with
@@ -57,7 +87,8 @@ changed, so nothing was written) and 0.05 s to read back, to and from the
 internal disk (the emulator has no memory disk; a card is slower).
 
 - Preferences > General > In the background: Sleep after 1 minute (as
-  standard), 5 minutes, 15 minutes, or Never sleep.
+  standard), 5 minutes, 15 minutes, or Never sleep. (0.40: Never sleep is
+  the standard.)
 - Linux stays awake while a program runs or prints, while an editor or a
   pager is open on the terminal (only a shell at its prompt sleeps), while
   a network connection or a name lookup is open, while a program has the

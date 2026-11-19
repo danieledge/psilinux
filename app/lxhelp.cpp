@@ -29,11 +29,13 @@ static const TLxHelpTopic KHelpTopics[] =
 	  "The status line at the bottom shows the program in front, how many Linux programs are running, "
 	  "the memory they use and the memory the Psion has free.\n"
 	  "\n"
-	  "Behind another program, with Linux idle at the shell's prompt, Linux sleeps after a minute: its "
-	  "memory goes to the memory disk (\\System\\Apps\\PsiLinux\\Sleep\\) and the Psion has the RAM back. "
+	  "Linux can sleep behind another program: Preferences > General > In the background, Sleep "
+	  "after 1, 5 or 15 minutes (Never sleep is the standard). With Linux idle at the shell's prompt, its "
+	  "memory then goes to the memory disk (\\System\\Apps\\PsiLinux\\Sleep\\) and the Psion has the RAM back. "
 	  "It wakes when PsiLinux comes to the front. Linux stays awake while a program runs, an editor or "
-	  "a pager is open, or a network connection is open. Preferences > General > In the background "
-	  "chooses when it sleeps, or Never sleep." },
+	  "a pager is open, or a network connection is open. With too little room on the disk it stays awake "
+	  "and tries again later. Asleep, the disk must stay in: with the card out, PsiLinux says "
+	  "\"Put the card back to wake Linux\" and waits." },
 
 	{ "Alpine Linux",
 	  "PsiLinux can also run Alpine Linux 3.24: Alpine's own programs, unchanged, and its package "
@@ -67,8 +69,9 @@ static const TLxHelpTopic KHelpTopics[] =
 	  "\n"
 	  "Alpine needs PsiLinux-alpine-root.sis and its parts -2 to -5, all installed on the Linux disk, "
 	  "the first one first: they go in "
-	  "\\Linux\\Alpine\\, and your changes in \\Linux\\Alpine\\root\\. Without it, PsiLinux "
-	  "says so and starts its own programs.\n"
+	  "\\Linux\\Alpine\\, and your changes in \\Linux\\Alpine\\root\\. On Coda the Linux folder comes "
+	  "on the Coda card instead: if a part is missing, copy the Linux folder from the card again. "
+	  "Without it, PsiLinux says so and starts its own programs.\n"
 	  "\n"
 	  "\"poweroff\" or File > End Linux ends Alpine. About shows Alpine's version." },
 

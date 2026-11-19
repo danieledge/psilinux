@@ -56,6 +56,17 @@ if (process.env.NB_SENDTRIM === '1') addFile(rom, 'Z:\\Test\\SENDTRIM', Buffer.f
 if (process.env.NB_SLEEPTEST === '1') {
   addFile(rom, 'Z:\\Test\\PsiLinux\\lxswitch.exe', readFileSync(`${b}/nbtest/lxswitch.exe`));
   addFile(rom, 'Z:\\Test\\Linux\\Alpine\\SLEEPONC', Buffer.from('test\n'));
+  // (0.40) Never sleep is the standard: NB_SLEEP=60 starts with "Sleep after
+  // 1 minute" chosen (PsiLinux.ini: Alpine's shell, a log kept); NB_SWMODE=
+  // fill or card: the helper's other tests (lxswitch.cpp)
+  if (process.env.NB_SLEEP === '60') {
+    const ini = Buffer.alloc(24 * 4);
+    [1, 1, 5, 0, 1, 1, 0, 0, 0, 1, 0, 0].forEach((v, i) => ini.writeInt32LE(v, i * 4));   // (iSpare[0] = 1: the log)
+    ini.writeInt32LE(1, (12 + 0) * 4);
+    ini.writeInt32LE(1, (12 + 4) * 4);     // KLxSpareSleep2: choice 0 + 1, Sleep after 1 minute
+    addFile(rom, 'Z:\\Test\\PsiLinux\\PsiLinux.ini', ini);
+  }
+  if (process.env.NB_SWMODE) addFile(rom, 'Z:\\Test\\PsiLinux\\swmode.txt', Buffer.from(process.env.NB_SWMODE + '\n'));
 }
 const R = alpine ? AR : `${b}/nbtest/root/`;
 for (const n of readdirSync(R).filter(n => /^ROOT\.(IMG|I\d\d)$/.test(n)))

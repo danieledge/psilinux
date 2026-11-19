@@ -163,6 +163,32 @@ programs' code: about 2 MB. The host harness does the same with files and
 `mprotect` (LX_SLEEP_MS; tests/run-sleep.sh), so anything that touches
 Linux's memory while it sleeps faults there.
 
+**Sleep and the card (0.40).** Each sleep file starts with a 512-byte header
+(the session's stamp, the chunk's base, offset and length, the sleep's
+number), written after the pages; the pages follow it. Waking first checks
+every file's header (`SlCheck`): a file that is missing or not this sleep's
+(the card out, or another card in) leaves Linux asleep (`-LX_EAGAIN`,
+`LXS_NOCARD`: the app shows "Put the card back to wake Linux") and nothing
+is committed. Then it commits the RAM, reads everything and checks every
+page against the hash kept from the sleep; a read that fails decommits it
+all again, and only a page that is not what was written ends Linux. Before
+writing, `SlRoom` wants what the files will grow by, rounded up per file,
+plus 1 MB free; a sleep that cannot have it, or whose write fails, deletes
+every sleep file (`SlDrop`), and the runner does not try again for 10
+minutes, doubling to an hour, or until PsiLinux has been in front. Asleep,
+the root image's files are closed (`lx_root_sleep`; they open again when
+next read), and the runner's tick and the app's come every 5 s.
+
+**The overlay against a cut (0.40).** A copy-up is written to `_LXCOPY` in
+the same folder and renamed over the name only when it is whole
+(`bk_replace`); one that fails is deleted and the file stays the image's.
+`_LXMETA` ends with a check line (`c`, the FNV-1a of the bytes before it)
+and is written as `_LXMETA.new`, then put in its place. A whole
+`_LXMETA.new` found on reading is a save cut before its rename and is taken;
+one cut short is deleted, and the untouched `_LXMETA` read. An `_LXMETA`
+without the line (older versions) is read as before. The three names are
+left out of listings.
+
 ### Processes: vfork, and fork by snapshot
 
 Without an MMU two copies of a program cannot sit at the same address. As on

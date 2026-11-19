@@ -25,7 +25,7 @@
 extern "C" {
 #endif
 
-#define LX_VERSION "0.39"
+#define LX_VERSION "0.40"
 #define LX_MAXPROC 64
 #define LX_MAXTHREAD 64
 #define LX_MAXFD 128
@@ -538,6 +538,7 @@ extern int lx_k_sleep_quiet;
 const char *lx_k_sleep_blocker(void);         /* why Linux cannot sleep now, or 0 */
 int lx_k_sleep(const char *why);
 int lx_k_wake(const char *why);
+void lx_root_sleep(void);               /* (0.40) lx_root.c: its open files closed (they open again when read) */
 int lx_k_sleep_info(char *buf, int size);
 int lx_k_sleep_freed_kb(void);
 /* every way into the kernel: Linux wakes first (and if it cannot, nothing is done) */

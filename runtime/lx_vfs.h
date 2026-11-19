@@ -8,6 +8,8 @@ enum { LX_FS_ROOT = 1, LX_FS_NATIVE, LX_FS_DEV, LX_FS_PROC, LX_FS_PSION };
 enum { LX_PROT_NONE = 0, LX_PROT_RO, LX_PROT_SYSTEM };
 
 #define LX_META_NAME "_LXMETA"     /* the overlay's per-folder notes (links, modes, whiteouts) */
+#define LX_META_NEW "_LXMETA.new"  /* (0.40) the notes being saved, before they take _LXMETA's place */
+#define LX_COPY_NAME "_LXCOPY"     /* (0.40) a file of the image being copied up, before it takes its name */
 
 /* what a path names (a lookup's answer) */
 typedef struct lx_vn {

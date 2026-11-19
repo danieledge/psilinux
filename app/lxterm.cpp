@@ -104,6 +104,7 @@ TInt CLxSession::Start(const TDesC& aRoot, const TDesC8& aProgram, TBool aLogin,
 		iTick = CPeriodic::New(CActive::EPriorityLow);
 	if (iTick && !iTick->IsActive())
 		iTick->Start(KTickUs, KTickUs, TCallBack(TickCallback, this));
+	iTickNowUs = KTickUs;
 	iProcess.Resume();
 	Arm();
 	return KErrNone;
@@ -173,15 +174,19 @@ void CLxSession::SleepUi()
 			}
 		}
 	TBool waking = iShared->sleep_state != LXS_AWAKE && !iShared->app_behind;
-	if (waking && !iWaking)
-		{
-		TRAPD(err, env->BusyMsgL(_L("Waking Linux..."), EHLeftVBottom, TTimeIntervalMicroSeconds32(0)));
-		iWaking = ETrue;
-		}
-	else if (!waking && iWaking)
+	// (0.40) Linux's card out (or another card in): it waits asleep for it
+	TBool card = iShared->sleep_state == LXS_NOCARD;
+	if (iWaking && (!waking || card != iWakingCard))
 		{
 		env->BusyMsgCancel();
 		iWaking = EFalse;
+		}
+	if (waking && !iWaking)
+		{
+		TRAPD(err, env->BusyMsgL(card ? _L("Put the card back to wake Linux") : _L("Waking Linux..."),
+			EHLeftVBottom, TTimeIntervalMicroSeconds32(0)));
+		iWaking = ETrue;
+		iWakingCard = card;
 		}
 	if (iShared->sleep_state == LXS_NOROOM && !iShared->app_behind)
 		{
@@ -215,7 +220,25 @@ TInt CLxSession::TickCallback(TAny* aSelf)
 	s->SleepUi();
 	s->Beat();
 	s->Pump();
+	s->TickRate();
 	return 1;
+	}
+
+// (0.40) while Linux sleeps behind another program, the tick (the
+// heartbeat, behind or in front) comes every 5 s; coming to the front
+// (InFront) brings it back at once
+void CLxSession::TickRate()
+	{
+	if (!iTick || !iShared || !iTick->IsActive())
+		return;
+	TInt us = iShared->app_behind && iShared->sleep_state != LXS_AWAKE ? 5000000 : KTickUs;
+	if (iTickNowUs == 0)
+		iTickNowUs = KTickUs;
+	if (us == iTickNowUs)
+		return;
+	iTickNowUs = us;
+	iTick->Cancel();
+	iTick->Start(us, us, TCallBack(TickCallback, this));
 	}
 
 void CLxSession::Pump()
@@ -704,8 +727,7 @@ void CLxTermView::ApplySettingsL()
 TInt CLxTermView::SleepAfter() const
 	{
 	static const TInt KSecs[] = { 60, 300, 900, 0 };
-	TInt k = iLxSettings->iSpare[KLxSpareSleep];
-	return KSecs[k >= 0 && k <= 3 ? k : 0];
+	return KSecs[LxSleepChoice(*iLxSettings)];
 	}
 
 void CLxTermView::ZoomBy(TInt aStep)
@@ -777,7 +799,11 @@ void CLxTermView::StartLinuxL()
 			img8.Copy(img.Left(Min(img.Length(), 64)));
 			msg.Copy(_L8("[Alpine Linux is not installed: there is no "));
 			msg.Append(img8);
-			msg.Append(_L8(". Install PsiLinux-alpine-root.sis and its parts on that disk. Starting PsiLinux]\r\n"));
+			// (0.40) on Coda the Linux folder comes on the Coda card, not as .sis files
+			if (iCoeEnv->FsSession().Entry(_L("Z:\\System\\Data\\PsiEdition.txt"), e) == KErrNone)
+				msg.Append(_L8(". Copy the Linux folder from the Coda card again. Starting PsiLinux]\r\n"));
+			else
+				msg.Append(_L8(". Install PsiLinux-alpine-root.sis and its parts on that disk. Starting PsiLinux]\r\n"));
 			LocalMessage(msg);
 			alpine = EFalse;
 			}

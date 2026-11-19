@@ -7,8 +7,14 @@
 # sleep), then shows what /proc/psilinux/mem says of the sleep and the
 # helper's notes (the free RAM while asleep).
 read -r startkb _ < /psion/c/Linux/prefree.txt
-read -t 330 -s -n 1 k
+# (0.40) the helper's longer tests (swmode.txt) wait 520 s
+w=330; [ -e /psion/c/System/Apps/PsiLinux/swmode.txt ] && w=520
+read -t $w -s -n 1 k
 printf '\033[H\033[2J'
 echo "== sleep: started with $startkb KB free"
 while read -r l; do echo "$l"; done < /proc/psilinux/mem
 echo "helper: $(< /psion/c/Linux/switch.txt)"
+# (0.40) what the runner's log says of sleeping and waking (a log is kept
+# when the image's PsiLinux.ini says so: NB_SLEEP=60)
+L=/psion/c/Linux/Alpine/PsiLinux.log
+[ -e $L ] && while read -r l; do case $l in *sleep*|*wake*|*Sleep*) echo "${l:0:150}";; esac; done < $L | tail -n 10

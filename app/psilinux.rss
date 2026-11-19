@@ -403,7 +403,7 @@ RESOURCE DIALOG r_lx_about_dialog
 		{
 		DLG_LINE { type=EEikCtLabel; id=ELxAbout1; control=LABEL { standard_font=EEikLabelFontLegend; txt="PsiLinux 0.20"; }; },
 		DLG_LINE { type=EEikCtLabel; id=ELxAbout5; control=LABEL { txt="Alpine Linux"; }; },
-		DLG_LINE { type=EEikCtLabel; id=ELxAbout2; control=LABEL { txt="Linux programs on the Psion Series 5mx - (c) 2026 Dan Edge"; }; },
+		DLG_LINE { type=EEikCtLabel; id=ELxAbout2; control=LABEL { txt="Linux programs on the Psion - (c) 2026 Dan Edge"; }; },
 		DLG_LINE { type=EEikCtLabel; id=ELxAbout3; control=LABEL { standard_font=EEikLabelFontAnnotation; txt="BusyBox, musl, Lua, MicroPython, SQLite, jq, nano, curl, git, Mbed TLS"; }; },
 		DLG_LINE { type=EEikCtLabel; id=ELxAbout4; control=LABEL { standard_font=EEikLabelFontAnnotation; txt="PsiTerm's terminal (libvterm); Berkeley SoftFloat by John R. Hauser (BSD)"; }; },
 		DLG_LINE { type=EEikCtLabel; id=ELxAbout6; control=LABEL { standard_font=EEikLabelFontAnnotation; txt="Licences: /usr/share/licenses in Linux; sources: github.com/danieledge/psilinux"; }; },

@@ -30,7 +30,7 @@
 #include <psilinux.rsg>
 
 const TUid KUidPsiLinux = { 0x01000A87 };
-_LIT(KLxVersion, "0.39");
+_LIT(KLxVersion, "0.40");
 _LIT(KIniFile, "C:\\System\\Apps\\PsiLinux\\PsiLinux.ini");
 
 // (0.38) Short of memory: the launcher (PsiHub, which watches the free RAM)
@@ -123,8 +123,7 @@ private:
 		TInt kb = iSettings.iKeepKb;
 		((CEikChoiceList*)Control(ELxPrefKeepKb))->SetCurrentItem(kb == 512 ? 0 : kb == 2048 ? 2 : 1);
 		SetLineDimmedNow(ELxPrefKeepKb, !iSettings.iKeep);
-		TInt sl = iSettings.iSpare[KLxSpareSleep];
-		((CEikChoiceList*)Control(ELxPrefSleep))->SetCurrentItem(sl >= 0 && sl <= 3 ? sl : 0);
+		((CEikChoiceList*)Control(ELxPrefSleep))->SetCurrentItem(LxSleepChoice(iSettings));
 		}
 	// the amount is dimmed while the tick box is clear; the sizes follow the typeface
 	void HandleControlStateChangeL(TInt aControlId)
@@ -151,7 +150,7 @@ private:
 		iSettings.iKeep = CheckBoxState(ELxPrefKeep) == CEikButtonBase::ESet;
 		static const TInt KKeepKb[] = { 512, 1024, 2048 };
 		iSettings.iKeepKb = KKeepKb[((CEikChoiceList*)Control(ELxPrefKeepKb))->CurrentItem()];
-		iSettings.iSpare[KLxSpareSleep] = ((CEikChoiceList*)Control(ELxPrefSleep))->CurrentItem();
+		LxSetSleepChoice(iSettings, ((CEikChoiceList*)Control(ELxPrefSleep))->CurrentItem());
 		return ETrue;
 		}
 	TLxSettings& iSettings;

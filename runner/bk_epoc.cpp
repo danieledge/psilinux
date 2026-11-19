@@ -43,7 +43,8 @@ static TPsiBellRinger gAppRinger;
 static TInt64 gEpoch;            // 1970, as a TTime
 static RFile gLog;
 static TBool gLogOpen;
-static TUint gLastBeat, gBeatTicks;
+static TUint gLastBeat, gBeatTicks;   // (0.40) gBeatTicks: seconds with no heartbeat
+static TInt gTickSecs = 1;             // (0.40) the housekeeping tick's period
 static TUint32 gFaultPc, gFaultInsn, gFaultWhy;   // an unfixed alignment fault (the kernel thread logs it)
 static TUint32 gFaultIdx, gFaultSp, gFaultW[20];
 static TThreadId gKernelId;      // (0.29) the kernel thread's id (bk_log, faults)
@@ -608,6 +609,14 @@ extern "C" void bk_cas_yield(void) { User::After(1); }
 // unchanged since the file was last written (a hash of each 4 KB page, kept
 // here) are not written again, for the card's sake: the programs' code is
 // written once, at the first sleep.
+//
+// (0.40) Each file starts with a header (KSlHdr bytes): this session's
+// stamp, the chunk's base, offset and length, and the sleep's number, so a
+// file another session or another card left is never read back as Linux's
+// memory. Waking checks every page against its hash. With the card out (or
+// another card in) Linux stays asleep until its card is back. A sleep that
+// fails (the card full, a write fault) deletes every sleep file, and there
+// must be room for all of it first, with 1 MB to spare for other programs.
 struct TSlChunk
 	{
 	RChunk* iC;
@@ -623,6 +632,17 @@ const TInt KSlMax = 128;
 static TSlChunk gSl[KSlMax];
 static TFileName gSlDir;        // where the files are (empty: none written yet)
 static TBool gSlSuspended;
+static TUint32 gSlStamp;        // (0.40) this session's, in every file's header
+static TUint32 gSlSeq;          // (0.40) the sleep's number, in the headers
+const TInt KSlHdr = 512;        // (0.40) the header; the pages follow it (a sector, for the card)
+const TInt KSlKeepFree = 1024 * 1024;   // (0.40) left free on the disk for other programs
+const TUint32 KSlMagic0 = 0x584C5350u, KSlMagic1 = 0x31304C53u;   // "PSLXSL01"
+
+struct TSlHeader
+	{
+	TUint32 iMagic[2];
+	TUint32 iStamp, iBase, iBottom, iLen, iSeq;
+	};
 
 static void SlName(TDes& aName, const TSlChunk& aS)
 	{
@@ -645,7 +665,6 @@ static void SlAdd(RChunk* aC, TBool aDouble)
 	bk_log("sleep: more than %d chunks: Linux will not sleep", KSlMax);
 	}
 
-static TBool gSlFull;
 static void SlRemove(RChunk* aC)
 	{
 	for (TInt i = 0; i < KSlMax; i++)
@@ -682,7 +701,6 @@ static void PageHash(const TUint32* p, TUint32& a, TUint32& b)
 static TBool SlDir(TDes& aDir)
 	{
 	TDriveInfo di;
-	TBool c = EFalse;
 	if (gFs.Drive(di, EDriveD) == KErrNone && di.iType != EMediaNotPresent && di.iType != EMediaRam
 		&& !(di.iMediaAtt & KMediaAttWriteProtected))
 		aDir = _L("D:\\System\\Apps\\PsiLinux\\Sleep\\");
@@ -695,9 +713,7 @@ static TBool SlDir(TDes& aDir)
 		if (gFs.Entry(t, e) != KErrNone)
 			return EFalse;
 		aDir = _L("C:\\System\\Apps\\PsiLinux\\Sleep\\");
-		c = ETrue;
 		}
-	(void)c;
 	TInt r = gFs.MkDirAll(aDir);
 	return r == KErrNone || r == KErrAlreadyExists;
 	}
@@ -720,11 +736,82 @@ static void SlThreads(TBool aSuspend)
 	gSlSuspended = aSuspend;
 	}
 
-// one chunk's committed pages to its file: the pages that changed
+static void SlCommitted(const TSlChunk& aS, TInt& aBottom, TInt& aTop)
+	{
+	aBottom = aS.iDouble ? aS.iC->Bottom() : 0;
+	aTop = aS.iDouble ? aS.iC->Top() : aS.iC->Size();
+	}
+
+// (0.40) every sleep file deleted, and none trusted: after a sleep that
+// failed, so a full card gets its room back
+static void SlDrop()
+	{
+	for (TInt i = 0; i < KSlMax; i++)
+		if (gSl[i].iC)
+			{
+			if (gSl[i].iFileBottom >= 0 || gSl[i].iValid)
+				{
+				TFileName n;
+				SlName(n, gSl[i]);
+				gFs.Delete(n);
+				}
+			gSl[i].iValid = 0;
+			gSl[i].iFileBottom = -1;
+			}
+	if (gSlDir.Length())
+		{
+		// (and any a write left without its header)
+		CFileMan* fm = 0;
+		TRAPD(e, fm = CFileMan::NewL(gFs));
+		if (fm)
+			{
+			TFileName w(gSlDir);
+			w.Append(_L("*.mem"));
+			fm->Delete(w);
+			delete fm;
+			}
+		(void)e;
+		}
+	}
+
+// (0.40) is there room for this sleep? What the files grow by (each one's
+// clusters rounded up), and KSlKeepFree for other programs, must be free
+static TBool SlRoom(TInt& aNeedKb, TInt& aFreeKb)
+	{
+	TInt drive;
+	TVolumeInfo v;
+	if (RFs::CharToDrive(gSlDir[0], drive) != KErrNone || gFs.Volume(v, drive) != KErrNone)
+		{
+		aNeedKb = aFreeKb = 0;
+		return EFalse;
+		}
+	TUint need = KSlKeepFree;
+	for (TInt i = 0; i < KSlMax; i++)
+		if (gSl[i].iC)
+			{
+			TInt bottom, top;
+			SlCommitted(gSl[i], bottom, top);
+			TInt have = gSl[i].iFileBottom >= 0 ? KSlHdr + gSl[i].iValid * 4096 : 0;
+			TInt grow = KSlHdr + (top - bottom) - have;
+			if (grow > 0)
+				need += (TUint)grow + 32768;     // (a cluster's slack)
+			}
+	aNeedKb = (TInt)(need / 1024);
+	if (v.iFree.High())
+		{
+		aFreeKb = KMaxTInt;
+		return ETrue;
+		}
+	aFreeKb = (TInt)(v.iFree.Low() / 1024);
+	return v.iFree.Low() >= need;
+	}
+
+// one chunk's committed pages to its file: the pages that changed, then
+// the header (last: a file whose header is not this sleep's is not read)
 static TInt SlWrite(TSlChunk& aS, lx_u32& aWritten)
 	{
-	TInt bottom = aS.iDouble ? aS.iC->Bottom() : 0;
-	TInt top = aS.iDouble ? aS.iC->Top() : aS.iC->Size();
+	TInt bottom, top;
+	SlCommitted(aS, bottom, top);
 	TInt pages = (top - bottom) / 4096;
 	aS.iBottom = bottom;
 	aS.iTop = top;
@@ -752,6 +839,10 @@ static TInt SlWrite(TSlChunk& aS, lx_u32& aWritten)
 	if (r != KErrNone)
 		return r;
 	aS.iFileBottom = -1;                     // (until it is all written)
+	// (0.40) its size first: F32 does not write past a file's end (the
+	// pages start after the header), and a full disk fails here, before
+	// any page is written
+	r = f.SetSize(KSlHdr + top - bottom);
 	const TUint8* base = aS.iC->Base() + bottom;
 	TInt run = -1;
 	for (TInt i = 0; i <= pages && r == KErrNone; i++)
@@ -770,13 +861,26 @@ static TInt SlWrite(TSlChunk& aS, lx_u32& aWritten)
 		if ((!changed || i - run >= 8) && run >= 0)
 			{
 			// (32 KB at most at a time: the card's driver)
-			r = f.Write(run * 4096, TPtrC8(base + run * 4096, (i - run) * 4096));
+			r = f.Write(KSlHdr + run * 4096, TPtrC8(base + run * 4096, (i - run) * 4096));
 			aWritten += (i - run) * 4096;
 			run = changed ? i : -1;
 			}
 		}
 	if (r == KErrNone)
-		r = f.SetSize(top - bottom);
+		{
+		TSlHeader h;
+		Mem::FillZ(&h, sizeof h);
+		h.iMagic[0] = KSlMagic0;
+		h.iMagic[1] = KSlMagic1;
+		h.iStamp = gSlStamp;
+		h.iBase = (TUint32)aS.iC->Base();
+		h.iBottom = (TUint32)bottom;
+		h.iLen = (TUint32)(top - bottom);
+		h.iSeq = gSlSeq;
+		r = f.Write(0, TPtrC8((const TUint8*)&h, sizeof h));
+		}
+	if (r == KErrNone)
+		r = f.Flush();
 	f.Close();
 	if (r != KErrNone)
 		{
@@ -793,9 +897,19 @@ extern "C" int bk_sleep_save(lx_u32* written, lx_u32* saved)
 	TFileName dir;
 	if (!SlDir(dir))
 		return -LX_ENOSPC;                   // (no memory disk: nothing to gain)
+	if (!gSlStamp)
+		{
+		TTime now;
+		now.HomeTime();
+		gSlStamp = now.Int64().Low() ^ (TUint32)User::TickCount() ^ ((TUint32)RProcess().Handle() << 16);
+		if (!gSlStamp)
+			gSlStamp = 1;
+		}
 	if (dir.CompareF(gSlDir) != 0)
 		{
 		// another disk than last time: every file is written afresh
+		if (gSlDir.Length())
+			SlDrop();
 		gSlDir = dir;
 		for (TInt i = 0; i < KSlMax; i++)
 			if (gSl[i].iC)
@@ -806,6 +920,15 @@ extern "C" int bk_sleep_save(lx_u32* written, lx_u32* saved)
 		}
 	*written = 0;
 	*saved = 0;
+	// (0.40) room for it all first: nothing is written to a disk too full
+	TInt needKb, freeKb;
+	if (!SlRoom(needKb, freeKb))
+		{
+		bk_log("sleep: %c: %d KB free, %d KB needed (1 MB of it left for other programs)", (char)gSlDir[0], freeKb, needKb);
+		SlDrop();
+		return -LX_ENOSPC;
+		}
+	gSlSeq++;
 	// the files first, with every chunk still in place: a write that fails
 	// (the disk full) leaves Linux as it was
 	SlThreads(ETrue);
@@ -815,8 +938,9 @@ extern "C" int bk_sleep_save(lx_u32* written, lx_u32* saved)
 			TInt r = SlWrite(gSl[i], *written);
 			if (r != KErrNone)
 				{
-				bk_log("sleep: %S: %d", &gSlDir, r);
+				bk_log("sleep: %c: %d: the sleep files deleted", (char)gSlDir[0], r);
 				SlThreads(EFalse);
+				SlDrop();
 				return r == KErrDiskFull ? -LX_ENOSPC : -LX_EIO;
 				}
 			*saved += gSl[i].iTop - gSl[i].iBottom;
@@ -832,10 +956,69 @@ extern "C" int bk_sleep_save(lx_u32* written, lx_u32* saved)
 	return 0;
 	}
 
+// (0.40) is this chunk's file there, and this sleep's? KErrNone, or why not
+static TInt SlCheck(const TSlChunk& aS)
+	{
+	TFileName n;
+	SlName(n, aS);
+	RFile f;
+	TInt r = f.Open(gFs, n, EFileRead | EFileShareReadersOnly);
+	if (r != KErrNone)
+		return r;
+	TSlHeader h;
+	TPtr8 p((TUint8*)&h, 0, sizeof h);
+	r = f.Read(0, p, sizeof h);
+	TInt size = 0;
+	if (r == KErrNone)
+		r = f.Size(size);
+	f.Close();
+	if (r != KErrNone)
+		return r;
+	if (p.Length() != (TInt)sizeof h || h.iMagic[0] != KSlMagic0 || h.iMagic[1] != KSlMagic1 || h.iStamp != gSlStamp
+		|| h.iBase != (TUint32)aS.iC->Base() || h.iBottom != (TUint32)aS.iBottom || h.iLen != (TUint32)(aS.iTop - aS.iBottom)
+		|| h.iSeq != gSlSeq || size < KSlHdr + aS.iTop - aS.iBottom)
+		return KErrCorrupt;
+	return KErrNone;
+	}
+
+static void SlDecommit()
+	{
+	for (TInt j = 0; j < KSlMax; j++)
+		if (gSl[j].iC && gSl[j].iAsleep)
+			{
+			TSlChunk& d = gSl[j];
+			if (d.iDouble)
+				d.iC->AdjustDoubleEnded(d.iBottom, d.iBottom);
+			else
+				d.iC->Adjust(0);
+			}
+	}
+
+// 0 awake; -LX_ENOMEM: no room yet; -LX_EAGAIN: the files are not there
+// (the card out, or another card in): asleep still, nothing touched;
+// -LX_EIO: they are there and wrong (Linux cannot go on)
 extern "C" int bk_sleep_restore(void)
 	{
 	TInt i;
-	// the RAM first, all of it, or none: another program may have it now
+	// (0.40) the files first: every one there, and this sleep's
+	for (i = 0; i < KSlMax; i++)
+		if (gSl[i].iC && gSl[i].iAsleep)
+			{
+			TInt r = SlCheck(gSl[i]);
+			if (r != KErrNone)
+				{
+				static TInt last = KErrNone;
+				if (r != last)
+					{
+					TFileName n;
+					SlName(n, gSl[i]);
+					bk_log("wake: %c: %08x.mem: %d: waiting for Linux's card", (char)n[0], (unsigned)gSl[i].iC->Base(), r);
+					}
+				last = r;
+				return -LX_EAGAIN;
+				}
+			}
+	// the RAM, all of it, or none: another program may have it now
 	for (i = 0; i < KSlMax; i++)
 		if (gSl[i].iC && gSl[i].iAsleep)
 			{
@@ -855,7 +1038,9 @@ extern "C" int bk_sleep_restore(void)
 				return -LX_ENOMEM;
 				}
 			}
-	// then the contents
+	// then the contents, each page checked against its hash; nothing runs
+	// until all of it is back, so a card taken out meanwhile only puts it
+	// back to sleep
 	for (i = 0; i < KSlMax; i++)
 		if (gSl[i].iC && gSl[i].iAsleep)
 			{
@@ -863,24 +1048,39 @@ extern "C" int bk_sleep_restore(void)
 			TFileName n;
 			SlName(n, c);
 			RFile f;
-			TInt r = f.Open(gFs, n, EFileRead);
+			TInt r = f.Open(gFs, n, EFileRead | EFileShareReadersOnly);
+			TBool open = r == KErrNone;
 			TInt len = c.iTop - c.iBottom;
+			TUint8* base = c.iC->Base() + c.iBottom;
 			for (TInt at = 0; r == KErrNone && at < len; at += 32768)
 				{
 				TInt piece = len - at > 32768 ? 32768 : len - at;
-				TPtr8 p(c.iC->Base() + c.iBottom + at, 0, piece);
-				r = f.Read(at, p, piece);
+				TPtr8 p(base + at, 0, piece);
+				r = f.Read(KSlHdr + at, p, piece);
 				if (r == KErrNone && p.Length() != piece)
 					r = KErrEof;
 				}
+			if (open)
+				f.Close();
 			if (r != KErrNone)
 				{
-				bk_log("wake: %S: %d: Linux's memory is lost", &n, r);
-				return -LX_EIO;
+				bk_log("wake: %c: %08x.mem: %d: asleep still", (char)n[0], (unsigned)c.iC->Base(), r);
+				SlDecommit();
+				return -LX_EAGAIN;
 				}
-			f.Close();
-			c.iAsleep = EFalse;
+			for (TInt pg = 0; pg < len / 4096; pg++)
+				{
+				TUint32 a, b;
+				PageHash((const TUint32*)(base + pg * 4096), a, b);
+				if (pg >= c.iValid || a != c.iHash[2 * pg] || b != c.iHash[2 * pg + 1])
+					{
+					bk_log("wake: %c: %08x.mem: page %d is not what was written: Linux's memory is lost", (char)n[0], (unsigned)c.iC->Base(), pg);
+					return -LX_EIO;
+					}
+				}
 			}
+	for (i = 0; i < KSlMax; i++)
+		gSl[i].iAsleep = EFalse;
 	SlThreads(EFalse);
 	return 0;
 	}
@@ -1170,10 +1370,14 @@ private:
 	void RunL()
 		{
 		iAt = 0;
-		if (lx_k_asleep && lx_k_wake("a timer") < 0)
+		TInt w = lx_k_asleep ? lx_k_wake("a timer") : 0;
+		if (w < 0)
 			{
-			iAt = bk_now_mono() + 1000000;   // (0.39) no room to wake yet: again in a second
-			After(1000000);
+			// (0.39) no room to wake yet: again in a second; (0.40) no
+			// card: in 5 s
+			TInt us = w == -LX_EAGAIN ? 5000000 : 1000000;
+			iAt = bk_now_mono() + us;
+			After(us);
 			return;
 			}
 		lx_k_timer();
@@ -1418,7 +1622,7 @@ public:
 				{
 				if (gSh->quit)
 					{
-					gEndWhy = "the app ended Linux while it was asleep, with no memory to wake it";
+					gEndWhy = "the app ended Linux while it was asleep, with no memory (or no card) to wake it";
 					Quit();
 					}
 				else if (gSh->bell_magic == PSI_BELL_MAGIC)
@@ -1469,7 +1673,18 @@ public:
 	static void FbInput();
 	static TBool Wake(const char* aWhy);
 	static TInt Rung(TAny* aSelf) { ((CLxTerm*)aSelf)->Look(); return 0; }
-	static TInt Tick(TAny* aSelf) { ((CLxTerm*)aSelf)->Housekeeping(); return 1; }
+	static TInt Tick(TAny* aSelf) { ((CLxTerm*)aSelf)->Housekeeping(); ((CLxTerm*)aSelf)->TickRate(); return 1; }
+	// (0.40) asleep, the tick comes every 5 s (the app rings when it
+	// comes to the front, and a timer due wakes Linux by itself)
+	void TickRate()
+		{
+		TInt secs = lx_k_asleep ? 5 : 1;
+		if (secs == gTickSecs || gStopping)
+			return;
+		gTickSecs = secs;
+		iTick->Cancel();
+		iTick->Start(secs * 1000000, secs * 1000000, TCallBack(Tick, this));
+		}
 	void Housekeeping();
 	void Quit()
 		{
@@ -1583,39 +1798,62 @@ TBool CLxTerm::Wake(const char* aWhy)
 			}
 		return ETrue;
 		}
-	if (r == -LX_ENOMEM)
+	if (r == -LX_ENOMEM || r == -LX_EAGAIN)
 		{
-		if (gSh->sleep_state != LXS_NOROOM)
+		// (0.40) -LX_EAGAIN: its sleep files are not there (the card out,
+		// or another card in): asleep until Linux's card is back
+		TInt st = r == -LX_ENOMEM ? LXS_NOROOM : LXS_NOCARD;
+		if (gSh->sleep_state != st)
 			{
-			gSh->sleep_state = LXS_NOROOM;
+			gSh->sleep_state = st;
 			gAppRinger.Ring(&gSh->app_bell);
 			}
 		return EFalse;
 		}
-	Fail("Linux's memory could not be read back from the disk (was the card taken out?)");
+	Fail("Linux's memory could not be read back from the card: it is not what was written");
 	User::Exit(KErrCorrupt);
 	return EFalse;
 	}
 
 // (0.39) Linux sleeps when PsiLinux has been behind for sleep_after seconds
 // (Preferences: In the background) with Linux idle for 10 s, or at once
-// when the launcher asks ("sleep") and Linux is idle
+// when the launcher asks ("sleep") and Linux is idle.
+// (0.40) A sleep that fails (the card full or faulty, no memory disk) is
+// not tried again for 10 minutes, then 20, 40, an hour at most, or until
+// PsiLinux has been in front again; the launcher's "sleep" tries at once.
 const TInt KSleepIdle = 10;
+const TInt KSleepBackoff = 600, KSleepBackoffMax = 3600;
 static TInt gBehindSecs;
 static TUint gSleepReq;
+static TInt gSleepBackoff;       // (0.40) seconds after the last failure (0: none failed)
+static TInt gSleepWait;          // ...left to wait
 static void AutoSleep(TInt aIdleSecs)
 	{
 	TBool asked = gSh->sleep_req != gSleepReq;
 	gSleepReq = gSh->sleep_req;
 	gBehindSecs = gSh->app_behind ? gBehindSecs + 1 : 0;
+	if (!gSh->app_behind)
+		gSleepWait = 0;                      // (in front again: a sleep may be tried)
+	else if (gSleepWait > 0)
+		gSleepWait--;
 	if (lx_k_asleep || !gSh->sleep_after || !gSh->app_behind)
 		return;
-	if (!asked && (gBehindSecs < gSh->sleep_after || aIdleSecs < KSleepIdle))
+	if (!asked && (gBehindSecs < gSh->sleep_after || aIdleSecs < KSleepIdle || gSleepWait > 0))
 		return;
 	if (gSh->out_head != gSh->out_tail || gSh->kbd_head != gSh->kbd_tail || gSh->epoc_req_seq != gSh->epoc_ans_seq)
 		return;
-	if (lx_k_sleep(asked ? "the launcher asked" : "behind and idle") < 0)
+	TInt r = lx_k_sleep(asked ? "the launcher asked" : "behind and idle");
+	if (r == -LX_EBUSY)
+		return;                              // (not idle after all)
+	if (r < 0)
+		{
+		gSleepBackoff = gSleepBackoff ? Min(2 * gSleepBackoff, KSleepBackoffMax) : KSleepBackoff;
+		gSleepWait = gSleepBackoff;
+		bk_log("sleep: not tried again for %d minutes, or until PsiLinux has been in front", gSleepWait / 60);
 		return;
+		}
+	gSleepBackoff = 0;
+	gSleepWait = 0;
 	gSh->sleep_freed_kb = lx_k_sleep_freed_kb();
 	gSh->sleep_state = LXS_ASLEEP;
 	gSh->sleep_seq++;
@@ -1682,7 +1920,7 @@ void CLxTerm::Housekeeping()
 		gLastBeat = gSh->app_beat;
 		gBeatTicks = 0;
 		}
-	else if (++gBeatTicks > 45)
+	else if ((gBeatTicks += gTickSecs) > 45)
 		{
 		gEndWhy = "the app's heartbeat stopped for 45 s (the app crashed, was killed, or did not run its tick)";
 		bk_log("%s", gEndWhy);
@@ -2185,7 +2423,11 @@ static void RunL()
 		{
 		// (a root image in parts, one of its .sis files not installed)
 		char why[150];
-		lx_snprintf(why, sizeof why, "The root image in %s is not complete: %s is missing. Install all its .sis files (part 1, part 2...) on that disk", gSh->root, lx_root_missing());
+		TEntry coda;
+		if (gFs.Entry(_L("Z:\\System\\Data\\PsiEdition.txt"), coda) == KErrNone)
+			lx_snprintf(why, sizeof why, "The root image in %s is not complete: %s is missing. Copy the Linux folder from the Coda card again", gSh->root, lx_root_missing());
+		else
+			lx_snprintf(why, sizeof why, "The root image in %s is not complete: %s is missing. Install all its .sis files (part 1, part 2...) on that disk", gSh->root, lx_root_missing());
 		bk_log("%s", why);
 		Fail(why);
 		pid = -1;

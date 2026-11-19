@@ -65,6 +65,22 @@ const TInt KLxSpareLog = 0;      // 0.24: Tools > Keep a log (0: off, as in olde
 const TInt KLxSpareFace = 1;     // 0.29: the typeface of the zoom levels (PsiTerm's iFace: 0 Terminus...)
 const TInt KLxSpareNoWelcome = 2; // 0.37: 1: Tools > Show welcome banner not ticked (0: shown, as in older files)
 const TInt KLxSpareSleep = 3;    // 0.39: In the background: 0 sleep after 1 minute (older files), 1 5 minutes, 2 15 minutes, 3 never
+const TInt KLxSpareSleep2 = 4;   // 0.40: In the background, the choice + 1 (0: not set, in older files: Never sleep,
+                                 // or 0.39's 5 or 15 minutes if that was chosen); KLxSpareSleep is kept the same
+// (0.40) Preferences > In the background: 0 sleep after 1 minute, 1 5 minutes, 2 15 minutes, 3 never (the standard)
+inline TInt LxSleepChoice(const TLxSettings& aS)
+	{
+	TInt v = aS.iSpare[KLxSpareSleep2];
+	if (v >= 1 && v <= 4)
+		return v - 1;
+	TInt old = aS.iSpare[KLxSpareSleep];
+	return old == 1 || old == 2 ? old : 3;
+	}
+inline void LxSetSleepChoice(TLxSettings& aS, TInt aChoice)
+	{
+	aS.iSpare[KLxSpareSleep2] = aChoice + 1;
+	aS.iSpare[KLxSpareSleep] = aChoice;
+	}
 
 // (0.29) PsiTerm's theme for a colour screen with no saved settings (its
 // KPtThemeClean, 1.04)
@@ -107,13 +123,14 @@ public:
 	// (0.39) sleep: after this many seconds behind (0: never); the launcher's "sleep"
 	void SetSleepAfter(TInt aSecs) { iSleepAfter = aSecs; if (iShared) iShared->sleep_after = aSecs; }
 	void SleepNow(TBool aAsked) { iSleepAsked = aAsked; if (iShared) { iShared->sleep_req++; Ring(); } }
-	void InFront() { if (iShared && iShared->app_behind) { iShared->app_behind = 0; Ring(); } }
+	void InFront() { if (iShared && iShared->app_behind) { iShared->app_behind = 0; Ring(); } TickRate(); }
 	void SleepUi();                    // "Waking Linux..." and the like (the tick)
 	void Ring();                       // the runner's doorbell (keys or the pen waiting for it)
 	void SetScreenHook(MLxScreenHook* aHook) { iScreenHook = aHook; }
 private:
 	static TInt BellCallback(TAny* aSelf);
 	static TInt TickCallback(TAny* aSelf);
+	void TickRate();             // (0.40) the tick: every 5 s while Linux sleeps behind
 	static TInt EpocAnswered(TAny* aSelf);   // (0.36) a message's answer is in the chunk
 	CLxEpoc* iEpoc;              // (0.36) EPOC requests from Linux (lxepocsv.cpp)
 	void Arm();
@@ -128,6 +145,8 @@ private:
 	TBool iSleepAsked;           // (0.39) the launcher asked: an infoprint says what sleep gave back
 	TUint iSleepSeq;
 	TBool iWaking;               // "Waking Linux..." is up
+	TBool iWakingCard;           // (0.40) ...as "Put the card back to wake Linux"
+	TInt iTickNowUs;             // (0.40) the tick's period now
 	TBool iNoRoomTold;
 	TBool iChunkOpen;
 	LxShared* iShared;

@@ -626,7 +626,7 @@ static void dispatch(lx_thread *t)
  * program has the screen, and no timer is due within LX_SLEEP_TIMER. */
 int lx_k_asleep;
 int lx_k_sleep_quiet;                   /* (the host harness's tests: not logged) */
-static int sleep_count, sleep_ms, wake_ms;
+static int sleep_count, sleep_ms, wake_ms, wake_last;
 static lx_u32 sleep_written, sleep_saved;
 static int sleep_freed;
 
@@ -679,6 +679,7 @@ int lx_k_sleep(const char *why)
 	r = bk_sleep_save(&written, &saved);
 	if (r < 0) { bk_log("sleep (%s): not now (%d): Linux stays awake", why, r); return r; }
 	lx_k_asleep = 1;
+	lx_root_sleep();                    /* (0.40) the root image's files closed while asleep */
 	bk_mem_info(&total, &after);
 	sleep_count++;
 	sleep_ms = (int)((lx_now() - t0) / 1000);
@@ -701,10 +702,16 @@ int lx_k_wake(const char *why)
 	t0 = lx_now();
 	r = bk_sleep_restore();
 	if (r < 0) {
-		bk_mem_info(&total, &f);
-		bk_log("wake (%s): not yet (%d), %u KB free", why, r, f / 1024);
+		/* (0.40) logged once for each reason: the retries come every
+		 * second or five, and the log may be on the card */
+		if (r != wake_last) {
+			bk_mem_info(&total, &f);
+			bk_log("wake (%s): not yet (%d), %u KB free", why, r, f / 1024);
+		}
+		wake_last = r;
 		return r;
 	}
+	wake_last = 0;
 	lx_k_asleep = 0;
 	wake_ms = (int)((lx_now() - t0) / 1000);
 	bk_mem_info(&total, &f);

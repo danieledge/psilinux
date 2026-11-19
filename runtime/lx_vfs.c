@@ -791,7 +791,7 @@ static int dtype(lx_u32 mode)
 	}
 }
 
-/* a native folder's names (the overlay's own _LXMETA left out) */
+/* a native folder's names (the overlay's own _LXMETA, _LXMETA.new and _LXCOPY left out) */
 void lx_list_native(void *dl, const char *native, const char *lpath)
 {
 	void *d;
@@ -802,7 +802,7 @@ void lx_list_native(void *dl, const char *native, const char *lpath)
 	d = bk_dir_open(native, &err);
 	if (!d) return;
 	while ((name = bk_dir_next(d, &st)) != 0) {
-		if (lx_strcmp(name, LX_META_NAME) == 0) continue;
+		if (lx_strcmp(name, LX_META_NAME) == 0 || lx_strcmp(name, LX_META_NEW) == 0 || lx_strcmp(name, LX_COPY_NAME) == 0) continue;
 		lx_name_in(name, lname, sizeof lname);
 		lx_snprintf(full, sizeof full, "%s/%s", lpath, lname);
 		lx_dlist_add(dl, lname, st.is_dir ? LX_DT_DIR : LX_DT_REG, path_ino(full));

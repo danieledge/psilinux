@@ -62,14 +62,37 @@ static void *part_handle(int k)
 	return part_open[victim].h;
 }
 
+/* (0.40) ROOT.IMG, opened again after a sleep closed it (lx_root_sleep) */
+static int img_there;                   /* the image was read at the start */
+static void *img_handle(void)
+{
+	char path[LX_PATH_MAX];
+	int err;
+	if (img_h || !img_there) return img_h;
+	lx_native_join(path, sizeof path, lx_k.root_native, "ROOT.IMG");
+	img_h = bk_file_open(path, LX_O_RDONLY, &err);
+	if (!img_h) bk_log("root image: %s cannot be opened again (%d)", path, err);
+	return img_h;
+}
+
+/* (0.40) asleep: the image's files closed, so none is held open on a card
+ * that may be taken out meanwhile; they open again when next read */
+void lx_root_sleep(void)
+{
+	int i;
+	if (img_h && img_there) { bk_file_close(img_h); img_h = 0; }
+	for (i = 0; i < PART_OPEN; i++)
+		if (part_open[i].h) { bk_file_close(part_open[i].h); part_open[i].h = 0; }
+}
+
 /* reads n bytes at off of the image, whole or split; the bytes read */
 static int img_read(lx_u32 off, char *buf, lx_u32 n)
 {
 	lx_u32 done = 0;
-	if (!part_size) return bk_file_read(img_h, off, buf, n);
+	if (!part_size) { void *h = img_handle(); return h ? bk_file_read(h, off, buf, n) : -LX_EIO; }
 	while (done < n) {
 		lx_u32 at = off + done, k = at / part_size, in = at % part_size, take = part_size - in;
-		void *h = k ? (k < nparts ? part_handle((int)k) : 0) : img_h;
+		void *h = k ? (k < nparts ? part_handle((int)k) : 0) : img_handle();
 		int r;
 		if (take > n - done) take = n - done;
 		if (!h) break;
@@ -131,13 +154,14 @@ void lx_root_init(void)
 		bk_file_close(img_h); img_h = 0; return;
 	}
 	names[names_size] = 0;
+	img_there = 1;
 }
 
 int lx_root_info(lx_u32 *entries, lx_u32 *bytes)
 {
 	*entries = nents;
 	*bytes = nents * sizeof(img_ent) + names_size;
-	return img_h ? 0 : -1;
+	return img_there ? 0 : -1;
 }
 
 /* the image's child of folder e called name (n bytes), or -1 */
@@ -199,6 +223,34 @@ static void meta_add(meta *m, char type, lx_u32 mode, const char *name, const ch
 	m->n++;
 }
 
+/* (0.40) _LXMETA ends with a check line, "c<TAB>sum<TAB>.": FNV-1a of the
+ * bytes before it, so a file cut short is known */
+static lx_u32 meta_sum(const char *b, int n)
+{
+	lx_u32 h = 0x811C9DC5u;
+	int i;
+	for (i = 0; i < n; i++) h = (h ^ (unsigned char)b[i]) * 0x01000193u;
+	return h;
+}
+
+/* 1: buf (len bytes) ends with its check line, and it is right */
+static int meta_whole(const char *buf, int len)
+{
+	int s;
+	lx_u32 want = 0;
+	const char *q;
+	if (len < 6 || buf[len - 1] != '\n') return 0;
+	s = len - 1;
+	while (s > 0 && buf[s - 1] != '\n') s--;
+	if (buf[s] != 'c' || buf[s + 1] != '\t') return 0;
+	for (q = buf + s + 2; q < buf + len && *q != '\t'; q++) {
+		int d = *q >= '0' && *q <= '9' ? *q - '0' : *q >= 'a' && *q <= 'f' ? *q - 'a' + 10 : -1;
+		if (d < 0) return 0;
+		want = want * 16 + (lx_u32)d;
+	}
+	return meta_sum(buf, s) == want;
+}
+
 static void meta_parse(meta *m, char *buf, int len)
 {
 	int i = 0;
@@ -219,6 +271,7 @@ static void meta_parse(meta *m, char *buf, int len)
 			const char *o = f[1];
 			while (*o >= '0' && *o <= '7') mode = mode * 8 + (*o++ - '0');
 			if (f[0][0] == 'o') m->opaque = 1;
+			else if (f[0][0] == 'c') continue;     /* (0.40) the check line */
 			else meta_add(m, f[0][0], mode, f[2], nf > 3 ? f[3] : 0);
 		}
 	}
@@ -241,6 +294,33 @@ static meta *meta_get(const char *dir)
 	m->used = ++mclock;
 	m->exists = bk_stat_path(dir, &st) == 0 && st.is_dir;
 	if (!m->exists) return m;
+	/* (0.40) a whole _LXMETA.new is a save cut before its rename: it is
+	 * the folder's notes now (and takes _LXMETA's place); one cut short is
+	 * deleted, and _LXMETA, untouched by that save, is read */
+	{
+		char np[LX_PATH_MAX];
+		int r = 0;
+		char *buf = 0;
+		lx_snprintf(np, sizeof np, "%s%c%s", dir, bk_native_sep(), LX_META_NEW);
+		h = bk_file_open(np, LX_O_RDONLY, &err);
+		if (h) {
+			lx_s64 size = 0;
+			bk_file_size(h, &size);
+			if (size > 0 && size < 256 * 1024 && (buf = (char *)bk_alloc((lx_u32)size + 1)) != 0)
+				r = bk_file_read(h, 0, buf, (lx_u32)size);
+			bk_file_close(h);
+			lx_snprintf(path, sizeof path, "%s%c%s", dir, bk_native_sep(), LX_META_NAME);
+			if (buf && r > 0 && meta_whole(buf, r) && bk_replace(np, path) == 0) {
+				bk_log("overlay: %s: the notes a cut left in %s taken", dir, LX_META_NEW);
+				meta_parse(m, buf, r);
+				bk_free(buf);
+				return m;
+			}
+			bk_log("overlay: %s: %s cut short, deleted", dir, LX_META_NEW);
+			bk_unlink(np);
+			if (buf) bk_free(buf);
+		}
+	}
 	lx_snprintf(path, sizeof path, "%s%c%s", dir, bk_native_sep(), LX_META_NAME);
 	h = bk_file_open(path, LX_O_RDONLY, &err);
 	if (h) {
@@ -280,6 +360,7 @@ static int meta_save(meta *m)
 	void *h;
 	int err, i, o = 0, cap = 64;
 	char *buf;
+	char np[LX_PATH_MAX];
 	lx_snprintf(path, sizeof path, "%s%c%s", m->dir, bk_native_sep(), LX_META_NAME);
 	if (!m->n && !m->opaque) { bk_unlink(path); return 0; }
 	for (i = 0; i < m->n; i++) cap += 24 + lx_strlen(m->e[i].name) + (m->e[i].target ? lx_strlen(m->e[i].target) : 0);
@@ -289,13 +370,19 @@ static int meta_save(meta *m)
 	for (i = 0; i < m->n; i++)
 		o += lx_snprintf(buf + o, cap - o, "%c\t%o\t%s%s%s\n", m->e[i].type, m->e[i].mode, m->e[i].name,
 			m->e[i].target ? "\t" : "", m->e[i].target ? m->e[i].target : "");
-	h = bk_file_open(path, LX_O_WRONLY | LX_O_CREAT | LX_O_TRUNC, &err);
+	o += lx_snprintf(buf + o, cap - o, "c\t%08x\t.\n", meta_sum(buf, o));
+	/* (0.40) written whole beside it, then put in its place: a cut leaves
+	 * the old notes, or the new ones whole (meta_get), never neither */
+	lx_snprintf(np, sizeof np, "%s%c%s", m->dir, bk_native_sep(), LX_META_NEW);
+	h = bk_file_open(np, LX_O_WRONLY | LX_O_CREAT | LX_O_TRUNC, &err);
 	if (!h) { bk_free(buf); return err; }
-	bk_file_truncate(h, 0);
 	err = bk_file_write(h, 0, buf, o);
+	if (err >= 0 && err != o) err = -LX_ENOSPC;
 	bk_file_close(h);
 	bk_free(buf);
-	return err < 0 ? err : 0;
+	if (err >= 0) err = bk_replace(np, path);
+	if (err < 0) { bk_unlink(np); return err; }
+	return 0;
 }
 
 static meta_ent *meta_find(meta *m, const char *name)
@@ -558,11 +645,11 @@ static int make_upper_dirs(const char *reldir)
 
 static int copy_up(lx_vn *v)
 {
-	char dir[LX_PATH_MAX];
+	char dir[LX_PATH_MAX], tmp[LX_PATH_MAX];
 	const char *name;
 	const char *rel = rel_of(v->path);
 	void *h;
-	int err, r = 0;
+	int err, r = 0, w;
 	lx_u32 off = 0;
 	char *buf;
 	img_ent *e;
@@ -572,28 +659,34 @@ static int copy_up(lx_vn *v)
 	r = make_upper_dirs(dir);
 	if (r < 0) return r;
 	if (LX_S_ISDIR(e->mode)) return bk_mkdir(v->native);
-	h = bk_file_open(v->native, LX_O_WRONLY | LX_O_CREAT | LX_O_TRUNC, &err);
+	/* (0.40) copied whole beside it (_LXCOPY), then given its name: a copy
+	 * cut short (the card full, a reset) is never the file */
+	upper_dir(dir, tmp);
+	lx_snprintf(tmp + lx_strlen(tmp), sizeof tmp - lx_strlen(tmp), "%c%s", bk_native_sep(), LX_COPY_NAME);
+	h = bk_file_open(tmp, LX_O_WRONLY | LX_O_CREAT | LX_O_TRUNC, &err);
 	if (!h) return err;
 	buf = (char *)bk_alloc(4096);
-	if (!buf) { bk_file_close(h); return -LX_ENOMEM; }
+	if (!buf) { bk_file_close(h); bk_unlink(tmp); return -LX_ENOMEM; }
 	while (off < e->size) {
 		lx_u32 n = e->size - off > 4096 ? 4096 : e->size - off;
 		r = img_read(e->data + off, buf, n);
 		if (r <= 0) { r = -LX_EIO; break; }
-		r = bk_file_write(h, off, buf, r);
-		if (r <= 0) { r = -LX_ENOSPC; break; }
+		w = bk_file_write(h, off, buf, r);
+		if (w != r) { r = w < 0 ? w : -LX_ENOSPC; break; }
 		off += r;
 		r = 0;
 	}
 	bk_free(buf);
 	bk_file_close(h);
+	if (r == 0) r = bk_replace(tmp, v->native);
+	if (r < 0) { bk_unlink(tmp); return r; }
 	{
 		char ud[LX_PATH_MAX];
 		upper_dir(dir, ud);
 		meta_forget(ud);
 	}
 	v->upper = 1;
-	return r;
+	return 0;
 }
 
 /* sets (or clears, for the default) the mode note of name in its folder */
@@ -762,6 +855,10 @@ int lx_root_unlink(lx_proc *p, lx_vn *v, int dir)
 		if (dir) {
 			char mp[LX_PATH_MAX];
 			lx_snprintf(mp, sizeof mp, "%s%c%s", v->native, bk_native_sep(), LX_META_NAME);
+			bk_unlink(mp);
+			lx_snprintf(mp, sizeof mp, "%s%c%s", v->native, bk_native_sep(), LX_META_NEW);
+			bk_unlink(mp);
+			lx_snprintf(mp, sizeof mp, "%s%c%s", v->native, bk_native_sep(), LX_COPY_NAME);
 			bk_unlink(mp);
 			meta_forget_tree(v->native);
 			r = bk_rmdir(v->native);

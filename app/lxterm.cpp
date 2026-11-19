@@ -13,6 +13,7 @@
 #include <eikappui.h>
 #include <estlib.h>
 #include <apgtask.h>
+#include "psierr.h"                  // an error as words for a message
 #include "lxterm.h"
 #include "lxepocsv.h"
 
@@ -23,6 +24,41 @@ const TInt KLxScrollbackFirst = 50;        // (0.38) the history's room at first
 const TInt KLxScrollbackCols = 128;
 const TInt KLxTickUs = 500000;             // the status line, the cursor's blink
 const TInt KTickUs = KLxTickUs;            // (CLxSession's tick)
+
+// a line in the runner's end log (PsiLinux-end.log, beside the program): the
+// numbers that the screen says in words (a runner that could not say it
+// itself). As the runner's own lines: the time, then what
+static void EndNote(const TDesC& aWhat)
+	{
+	CEikonEnv* env = CEikonEnv::Static();
+	RFs& fs = env->FsSession();
+	TParse p;
+	TFileName app(env->EikAppUi()->Application()->AppFullName());
+	if (p.Set(_L("PsiLinux-end.log"), &app, NULL) != KErrNone)
+		return;
+	RFile f;
+	if (f.Open(fs, p.FullName(), EFileWrite | EFileShareAny) != KErrNone &&
+		f.Create(fs, p.FullName(), EFileWrite | EFileShareAny) != KErrNone)
+		return;
+	TInt size = 0;
+	f.Size(size);
+	if (size < 16384)
+		{
+		TTime now;
+		now.HomeTime();
+		TDateTime d = now.DateTime();
+		TBuf8<160> line;
+		line.Format(_L8("%04d-%02d-%02d %02d:%02d:%02d app: "), d.Year(), d.Month() + 1, d.Day() + 1, d.Hour(), d.Minute(), d.Second());
+		TBuf8<100> w;
+		w.Copy(aWhat.Left(Min(aWhat.Length(), w.MaxLength())));
+		line.Append(w);
+		line.Append(_L8("\r\n"));
+		TInt end = 0;
+		f.Seek(ESeekEnd, end);
+		f.Write(line);
+		}
+	f.Close();
+	}
 
 // ===========================================================================
 // CLxSession
@@ -288,9 +324,14 @@ void CLxSession::Pump()
 	if (iProcessOpen && iRunning && iProcess.ExitType() != EExitPending && state < LXS_EXITED)
 		{
 		// the runner died without saying so
+		// (the reason in the runner's end log, PsiLinux-end.log beside it;
+		// on the screen in words)
 		TExitCategoryName cat = iProcess.ExitCategory();
+		TBuf<80> note;
+		note.Format(_L("the runner stopped by itself: %S %d"), &cat, iProcess.ExitReason());
+		EndNote(note);
 		TPtr8 msg((TUint8*)iShared->message, 0, sizeof(iShared->message) - 1);
-		msg.Format(_L8("The Linux runner stopped (%d)"), iProcess.ExitReason());
+		msg.Copy(iProcess.ExitType() == EExitPanic ? _L8("The Linux runner stopped - a fault in it") : _L8("The Linux runner stopped"));
 		iShared->message[msg.Length()] = 0;
 		iShared->state = state = LXS_FAILED;
 		}
@@ -821,9 +862,15 @@ void CLxTermView::StartLinuxL()
 	iSshActive = iSession->Running();        // (PsiTerm's bell rings only in a live session)
 	if (r != KErrNone)
 		{
-		TBuf8<120> msg;
-		msg.Format(_L8("\r\n[PsiLinux: could not start the runner (%d)]\r\n"), r);
+		TBuf8<120> msg(_L8("\r\n[PsiLinux: could not start the runner - "));
+		TBuf8<48> why;
+		why.Copy(PsiErrWords(r));
+		msg.Append(why);
+		msg.Append(_L8("]\r\n"));
 		LocalMessage(msg);
+		TBuf<48> note;
+		note.Format(_L("the runner not started: %d"), r);
+		EndNote(note);
 		iEnded = ETrue;
 		}
 	if (IsActivated())

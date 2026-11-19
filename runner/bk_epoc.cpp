@@ -123,6 +123,26 @@ static TUint32 StackUsed()
 	return (gStackTop && gStackMin && gStackMin < gStackTop) ? gStackTop - gStackMin : 0;
 	}
 static void Fail(const char* aWhy);
+static void Fail(const char* aWhy, const char* aNote);
+// an EPOC error in words for the screen (Coda's one table, psierr.h's
+// words); the number goes to the end log
+static const char* ErrWords(TInt aErr)
+	{
+	switch (aErr)
+		{
+	case KErrNoMemory: return "not enough memory";
+	case KErrDiskFull: return "the disk is full";
+	case KErrNotReady: return "the card is not in";
+	case KErrInUse: return "it is in use";
+	case KErrAccessDenied: return "it is read-only or in use";
+	case KErrNotFound: return "not found";
+	case KErrPathNotFound: return "folder not found";
+	case KErrCorrupt: return "the file is damaged";
+	case KErrNotSupported: return "not possible here";
+	case KErrDisMounted: return "the card was taken out";
+	default: return "for an unknown reason";
+		}
+	}
 static void OpenLog(const char* aRoot);
 
 // (ER5 has no User::AllocZ)
@@ -443,11 +463,11 @@ static void KernelFault(TExcType aType, TUint32* aEntrySp)
 		for (TInt q = 0; q < 32; q += 8)
 			bk_log("  sp+%d: %08x %08x %08x %08x %08x %08x %08x %08x", q * 4, sp[q], sp[q + 1], sp[q + 2], sp[q + 3], sp[q + 4], sp[q + 5], sp[q + 6], sp[q + 7]);
 		}
-	char why[150];
-	lx_snprintf(why, sizeof why, "The Linux runner failed: exception %d at %x (lr %x) in %s; PsiLinux.log has the detail",
-		aType, r[15], r[14], what[wi]);
+	char why[150], note[150];
+	lx_snprintf(why, sizeof why, "The Linux runner failed (a fault in %s); Tools > Keep a log records the detail", what[wi]);
+	lx_snprintf(note, sizeof note, "the runner failed: exception %d at %x (lr %x) in %s", aType, r[15], r[14], what[wi]);
 	inFault = 3;                             // (from here a fault is not told twice)
-	Fail(why);
+	Fail(why, note);
 	WaitToBeEnded();                         // (the app sees the state and ends the runner)
 	}
 
@@ -2305,10 +2325,16 @@ static void OpenLog(const char* aRoot)
 
 static void Fail(const char* aWhy)
 	{
+	Fail(aWhy, aWhy);
+	}
+
+// aWhy on the screen, aNote (with the numbers) in the end log
+static void Fail(const char* aWhy, const char* aNote)
+	{
 	if (!gSh)
 		return;
 	lx_strlcpy(gSh->message, aWhy, sizeof gSh->message);
-	EndNote(aWhy);
+	EndNote(aNote);
 	gSh->state = LXS_FAILED;
 	gAppRinger.Ring(&gSh->app_bell);
 	}
@@ -2446,10 +2472,13 @@ static void RunL()
 		;                                    // (said above)
 	else if (pid < 0)
 		{
-		char why[120];
-		lx_snprintf(why, sizeof why, "Could not start %s (error %d): is the Linux root image in %sROOT.IMG?", gSh->program, -pid, gSh->root);
-		bk_log("%s", why);
-		Fail(why);
+		char why[120], note[120];
+		const char* w = -pid == LX_ENOENT ? "not found" : -pid == LX_ENOMEM ? "not enough memory"
+			: -pid == LX_ENOEXEC ? "not a program PsiLinux can run" : -pid == LX_EACCES ? "not allowed" : "for an unknown reason";
+		lx_snprintf(why, sizeof why, "Could not start %s - %s: is the Linux root image in %sROOT.IMG?", gSh->program, w, gSh->root);
+		lx_snprintf(note, sizeof note, "could not start %s (error %d)", gSh->program, -pid);
+		bk_log("%s", note);
+		Fail(why, note);
 		}
 	else
 		{
@@ -2480,9 +2509,10 @@ GLDEF_C TInt E32Main()
 	TRAPD(err, RunL());
 	if (err != KErrNone && gSh)
 		{
-		char why[80];
-		lx_snprintf(why, sizeof why, "The Linux runner stopped (error %d)", err);
-		Fail(why);
+		char why[80], note[48];
+		lx_snprintf(why, sizeof why, "The Linux runner stopped - %s", ErrWords(err));
+		lx_snprintf(note, sizeof note, "the runner left (error %d)", err);
+		Fail(why, note);
 		}
 	if (gLogOpen)
 		gLog.Close();

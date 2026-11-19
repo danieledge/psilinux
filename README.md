@@ -72,6 +72,11 @@ Sleep is now something you choose, and it looks after the card.
   in the middle leaves the old file or the new one, never half of one.
 - On Coda, a missing part of the Linux root says to copy the Linux folder
   from the Coda card again (it comes on the card, not as .sis files).
+- PsiLinux's settings are written beside PsiLinux.ini and put in its place
+  once whole.
+- When the runner cannot start or stops, PsiLinux says why in words; the
+  numbers go to PsiLinux-end.log beside the program. About no longer names
+  the 5mx's processor.
 
 ## What's new in 0.39
 

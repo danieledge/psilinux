@@ -22,6 +22,7 @@
 #include <eikimage.h>
 #include <badesca.h>
 #include <e32hal.h>
+#include "psisafe.h"                 // settings written beside, then put in place
 #include "lxterm.h"
 #include "lxscreen.h"
 #include "lxhelp.h"
@@ -238,14 +239,9 @@ void CLxAppUi::LoadSettings()
 
 void CLxAppUi::SaveSettings()
 	{
-	RFs& fs = iCoeEnv->FsSession();
-	fs.MkDirAll(KIniFile);
-	RFile f;
-	if (f.Replace(fs, KIniFile, EFileWrite) == KErrNone)
-		{
-		f.Write(TPckgC<TLxSettings>(iSettings));
-		f.Close();
-		}
+	// written beside it (PsiLinux.ini~), then put in its place: a full disk
+	// or a reset part way leaves the last settings as they were
+	PsiSafeWrite(iCoeEnv->FsSession(), KIniFile, TPckgC<TLxSettings>(iSettings));
 	}
 
 void CLxAppUi::ConstructL()
@@ -650,7 +646,7 @@ private:
 		((CEikLabel*)Control(ELxAbout1))->SetTextL(v);
 		TBuf<100> a;                         // (the version is up to 32 characters)
 		if (iAlpine.Length())
-			a.Format(_L("Alpine Linux %S (armhf, translated for the ARM710T)"), &iAlpine);
+			a.Format(_L("Alpine Linux %S (armhf, translated for the Psion)"), &iAlpine);
 		else
 			a.Copy(_L("Alpine Linux: start it to see its version"));
 		((CEikLabel*)Control(ELxAbout5))->SetTextL(a);

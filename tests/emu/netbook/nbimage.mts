@@ -68,6 +68,11 @@ if (process.env.NB_SLEEPTEST === '1') {
   }
   if (process.env.NB_SWMODE) addFile(rom, 'Z:\\Test\\PsiLinux\\swmode.txt', Buffer.from(process.env.NB_SWMODE + '\n'));
 }
+// (0.41) NB_PSILINK=FILE: Connection settings (PsiLink.ini) to C:\System\Data,
+// for the dial-first test with psion-core's tools/emu/fakeppp.py on the serial port
+if (process.env.NB_PSILINK) addFile(rom, 'Z:\\Test\\Data\\PsiLink.ini', readFileSync(process.env.NB_PSILINK));
+// NB_LOGON=1: PsiLinux.log kept in the Linux root's folder (the runner's LOGON)
+if (process.env.NB_LOGON === '1') addFile(rom, `Z:\\Test\\Linux\\${existsSync(AR + 'ROOT.IMG') ? 'Alpine\\' : ''}LOGON`, Buffer.from('test\n'));
 const R = alpine ? AR : `${b}/nbtest/root/`;
 for (const n of readdirSync(R).filter(n => /^ROOT\.(IMG|I\d\d)$/.test(n)))
   addFile(rom, `Z:\\Test\\Linux\\${alpine ? 'Alpine\\' : ''}${n}`, readFileSync(R + n));

@@ -25,7 +25,7 @@
 extern "C" {
 #endif
 
-#define LX_VERSION "0.40"
+#define LX_VERSION "0.41"
 #define LX_MAXPROC 64
 #define LX_MAXTHREAD 64
 #define LX_MAXFD 128
@@ -570,6 +570,7 @@ int lx_pipe_count(lx_file *f);                /* bytes waiting in the pipe */
 int lx_pipe_write_waits(lx_thread *t, lx_file *f, lx_u32 n);   /* would a blocking write of n wait? */
 int lx_write_rest(lx_thread *t, int r, lx_u32 n, int whole);   /* lx_fsys.c: after a write's try */
 int lx_is_stream_sock(lx_file *f);            /* lx_net.c */
+int lx_net_dns_slow(lx_file *f);              /* (0.41) lx_net.c: a lookup waiting for the dial-up */
 int lx_native_unlink(const char *native);     /* lx_vfs.c: unlink, or at the last close if open */
 int lx_native_doomed(const char *native);     /* ...and until then the name is gone */
 

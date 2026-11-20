@@ -23,7 +23,7 @@ CFLAGS   := $(ARCH) -std=gnu99 -fno-builtin -I $(GINC) -I $(RT) -I $(RT)/compat 
 CXXFLAGS := $(ARCH) $(DEFS) -Wno-ctor-dtor-privacy -fcheck-new -fvtable-thunks -I $(GINC) -I $(RT) -I ../common -I $(PSION_CORE)/ssh -I $(E)/include
 V4BX_DIR := $(abspath $(OBJ))
 include $(PSION_CORE)/tools/v4bx.mk
-LIBS     := $(REL)/euser.lib $(REL)/efsrv.lib $(REL)/esock.lib $(REL)/insock.lib $(REL)/nifman.lib $(LIBGCC)
+LIBS     := $(REL)/euser.lib $(REL)/efsrv.lib $(REL)/c32.lib $(REL)/esock.lib $(REL)/insock.lib $(REL)/nifman.lib $(LIBGCC)
 HDRS     := $(wildcard $(RT)/*.h) ../common/lxshared.h ../common/lxfb.h ../common/lxepoc.h
 
 all: $(OBJ)/psilxrun.exe

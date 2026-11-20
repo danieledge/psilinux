@@ -27,9 +27,11 @@ public:
 		BaseConstructL();
 		RFs& fs = iEikonEnv->FsSession();
 		CFileMan* fm = CFileMan::NewL(fs);
-		const TText* const KFrom[] = { _S("Z:\\Test\\PsiLinux\\"), _S("Z:\\Test\\Libs\\"), _S("Z:\\Test\\Linux\\"), _S("Z:\\Test\\Documents\\") };
-		const TText* const KTo[] = { _S("C:\\System\\Apps\\PsiLinux\\"), _S("C:\\System\\Libs\\"), _S("C:\\Linux\\"), _S("C:\\Documents\\") };
-		for (TInt i = 0; i < 4; i++)
+		const TText* const KFrom[] = { _S("Z:\\Test\\PsiLinux\\"), _S("Z:\\Test\\Libs\\"), _S("Z:\\Test\\Linux\\"), _S("Z:\\Test\\Documents\\"),
+			_S("Z:\\Test\\Data\\") };
+		const TText* const KTo[] = { _S("C:\\System\\Apps\\PsiLinux\\"), _S("C:\\System\\Libs\\"), _S("C:\\Linux\\"), _S("C:\\Documents\\"),
+			_S("C:\\System\\Data\\") };     // (0.41) NB_PSILINK: Connection settings, PsiLink.ini
+		for (TInt i = 0; i < 5; i++)
 			{
 			fs.MkDirAll(TPtrC(KTo[i]));
 			fm->Copy(TPtrC(KFrom[i]), TPtrC(KTo[i]), CFileMan::EOverWrite | CFileMan::ERecurse);

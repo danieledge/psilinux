@@ -911,6 +911,7 @@ int bk_resolve_poll(void *p, lx_u32 *addrs, int max)
 	return i;
 }
 void bk_resolve_free(void *p) { host_resolves--; free(p); }
+int bk_resolve_slow(void *p) { (void)p; return 0; }   /* (no dial-up on the host) */
 int bk_dns_server(lx_u32 *addr) { (void)addr; return -1; }
 
 /* ---- the kernel thread ----------------------------------------------------------- */

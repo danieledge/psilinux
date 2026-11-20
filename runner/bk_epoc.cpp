@@ -360,6 +360,7 @@ static lx_thread* CurrentDbt()
 // (so there is no "Program closed" dialog). The runner's own pc maps to
 // build/lxrun-obj/psilxrun.map through the address of E32Main logged with it.
 GLDEF_C TInt E32Main();
+extern "C" void bk_net_end(void);      // (0.41) bk_esock.cpp
 static TUint32 AccessAddress(const TUint32* aR, TUint32 aInsn)
 	{
 	// the address a load or store used, from its base register (0: not one)
@@ -2489,6 +2490,7 @@ static void RunL()
 		}
 	gStopping = ETrue;
 	lx_k_shutdown();
+	bk_net_end();                            // (0.41) a link Linux brought up goes down (bk_esock.cpp)
 	delete gStopTick;
 	gStopTick = 0;
 	SlClean();

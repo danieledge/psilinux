@@ -26,6 +26,7 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 
 ## Contents
 
+- [What's new in 0.41](#whats-new-in-041)
 - [What's new in 0.40](#whats-new-in-040)
 - [What's new in 0.39](#whats-new-in-039)
 - [What's new in 0.38](#whats-new-in-038)
@@ -43,6 +44,23 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 - [Documents](#documents)
 - [Support](#support)
 - [Credits and licences](#credits-and-licences)
+
+## What's new in 0.41
+
+Linux connects by itself over the Psion's Internet connection.
+
+- When Linux first looks up a name or connects with no link up, PsiLinux
+  now dials the way PsiMail and the other programs do: it sends the
+  Psion Internet start command from Connection settings (ATD777 for the
+  PsiConnect Atom) first, then lets PPP come up. Before, the Psion's own
+  dial-up ran its modem script, which the Atom does not understand, so
+  `apk` and `wget` only worked once another program had connected.
+- A link that is already up is used and left alone.
+- A link PsiLinux brought up goes down again 20 seconds after Linux has
+  finished with the network, and when PsiLinux closes. With "Stay
+  connected" ticked in Connection settings it is kept up instead.
+- A name lookup now waits for the dial and for the link to come up,
+  rather than giving up after Linux's usual 5 seconds.
 
 ## What's new in 0.40
 

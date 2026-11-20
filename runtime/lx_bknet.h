@@ -27,6 +27,10 @@ int bk_sock_name(void *s, int peer, lx_u32 *addr, lx_u16 *port);
 void *bk_resolve_start(const char *name, int *err);
 int bk_resolve_poll(void *r, lx_u32 *addrs, int max);       /* count, or -errno */
 void bk_resolve_free(void *r);
+/* (0.41) 1 while the lookup waits for the Psion to dial (the Psion Internet
+ * first send, then PPP coming up), at most a minute: the DNS answerer's
+ * poll waits on rather than letting musl's 5 s give up (lx_fsys.c) */
+int bk_resolve_slow(void *r);
 int bk_dns_server(lx_u32 *addr);                            /* 0 if one is known */
 
 #endif

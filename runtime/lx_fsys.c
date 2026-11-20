@@ -435,7 +435,22 @@ static int sys_poll(lx_thread *t, lx_u32 ufds, lx_u32 nfds, lx_u32 uts, int kind
 		if (pf[i].revents) n++;
 	}
 	if (n || us == 0) return n;
-	if (t->timed_out) { t->timed_out = 0; t->deadline = 0; return 0; }
+	if (t->timed_out) {
+		t->timed_out = 0;
+		t->deadline = 0;
+		/* (0.41) musl's resolver gives a lookup 5 s, in 2.5 s polls; a
+		 * lookup that waits for the Psion to dial and bring PPP up takes
+		 * longer: while it does (a minute at most, bk_resolve_slow), the
+		 * poll goes on, and its answer ends it */
+		for (i = 0; i < nfds; i++) {
+			lx_file *f = pf[i].fd >= 0 ? lx_fd_get(t->proc, pf[i].fd) : 0;
+			if (f && lx_net_dns_slow(f)) {
+				t->deadline = lx_now() + (us > 0 ? us : 1000000);
+				return LX_BLOCK;
+			}
+		}
+		return 0;
+	}
 	if (us > 0 && !t->deadline) t->deadline = lx_now() + us;
 	return LX_BLOCK;
 }

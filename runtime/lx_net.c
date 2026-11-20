@@ -304,6 +304,19 @@ static void sock_free(sock *s)
 
 static const lx_fops sock_ops = { sk_read, sk_write, 0, 0, sk_lseek, sk_fstat, sk_ioctl, sk_poll, 0, sk_close, 0, 0 };
 
+/* (0.41) a DNS socket with a lookup that waits for the dial-up (bk_resolve_slow) */
+int lx_net_dns_slow(lx_file *f)
+{
+	sock *s;
+	int k;
+	if (f->ops != &sock_ops) return 0;
+	s = (sock *)f->priv;
+	if (!s->dns || !s->dq) return 0;
+	for (k = 0; k < DNS_SLOTS; k++)
+		if (s->dq[k].used && s->dq[k].req && bk_resolve_slow(s->dq[k].req)) return 1;
+	return 0;
+}
+
 int lx_is_stream_sock(lx_file *f) { return f->ops == &sock_ops && ((sock *)f->priv)->type == LX_SOCK_STREAM; }
 
 /* (0.37) a blocking send on a stream socket sends everything (lx_write_rest) */

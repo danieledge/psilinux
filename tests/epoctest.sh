@@ -73,6 +73,13 @@ $E clip set one two; ok "$($E clip)" "one two" "epoc clip set TEXT"
 $E shot /psion/c/shot.png > /dev/null; ok "$(cat /psion/c/shot.png)" "pretend screenshot" "epoc shot FILE"
 $E shot /psion/c/System/shot.png 2>/dev/null; ok "$?" "4" "epoc shot into \\System is refused"
 ok "$(ls /psion/c/System/shot.png 2>/dev/null)" "" "...and nothing is written there"
+# (0.42) the file as an EPOC name (no Linux path: the kernel's test on its /psion name)
+$E shot 'C:\System\raw.png' 2>/dev/null; ok "$?" "4" "epoc shot C:\\System\\... is refused"
+ok "$(ls /psion/c/System/raw.png 2>/dev/null)" "" "...and nothing is written there"
+$E shot 'Z:\raw.png' 2>/dev/null; ok "$?" "4" "epoc shot Z:\\... is refused"
+$E shot 'c:\Documents\..\System\raw.png' 2>/dev/null; ok "$?" "4" "epoc shot ..\\System is refused"
+$E shot 'C:\a/b.png' 2>/dev/null; ok "$?" "4" "epoc shot: a / in an EPOC name"
+$E shot 'C:\raw.png' > /dev/null; ok "$(cat /psion/c/raw.png)" "pretend screenshot" "epoc shot C:\\FILE"
 # for scripts
 $E nonesuch 2>/dev/null; ok "$?" "2" "a bad command: 2"
 ok "$($E note quietly)" "" "quiet on success"

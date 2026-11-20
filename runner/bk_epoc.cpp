@@ -2459,9 +2459,23 @@ static void RunL()
 		Fail(why);
 		pid = -1;
 		}
+	else if (lx_root_damaged())
+		{
+		// (0.42) a root image whose index does not hold together (a bad
+		// copy, a card fault): said, not read (it gave reads anywhere)
+		char why[180];
+		TEntry coda;
+		if (gFs.Entry(_L("Z:\\System\\Data\\PsiEdition.txt"), coda) == KErrNone)
+			lx_snprintf(why, sizeof why, "The root image %sROOT.IMG is damaged (%s). Copy the Linux folder from the Coda card again", gSh->root, lx_root_damaged());
+		else
+			lx_snprintf(why, sizeof why, "The root image %sROOT.IMG is damaged (%s). Install its .sis files again", gSh->root, lx_root_damaged());
+		bk_log("%s", why);
+		Fail(why);
+		pid = -1;
+		}
 	else
 		pid = lx_k_spawn_first(gSh->program, argv, envp, 0);
-	if (pid < 0 && !lx_root_missing() && lx_strcmp(gSh->program, "/usr/sbin/psilinux-shell") == 0)
+	if (pid < 0 && !lx_root_missing() && !lx_root_damaged() && lx_strcmp(gSh->program, "/usr/sbin/psilinux-shell") == 0)
 		{
 		// (an Alpine root from before 0.21: no psilinux-shell, so sh)
 		static char sh[] = "/bin/sh", dashl[] = "-l";
@@ -2469,7 +2483,7 @@ static void RunL()
 		bk_log("no %s: starting /bin/sh", gSh->program);
 		pid = lx_k_spawn_first(sh, shargv, envp, 0);
 		}
-	if (pid < 0 && lx_root_missing())
+	if (pid < 0 && (lx_root_missing() || lx_root_damaged()))
 		;                                    // (said above)
 	else if (pid < 0)
 		{

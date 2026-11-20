@@ -26,6 +26,7 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 
 ## Contents
 
+- [What's new in 0.42](#whats-new-in-042)
 - [What's new in 0.41](#whats-new-in-041)
 - [What's new in 0.40](#whats-new-in-040)
 - [What's new in 0.39](#whats-new-in-039)
@@ -44,6 +45,15 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 - [Documents](#documents)
 - [Support](#support)
 - [Credits and licences](#credits-and-licences)
+
+## What's new in 0.42
+
+- A root image (ROOT.IMG) that has been damaged, by a bad copy or a card
+  fault, is checked when PsiLinux starts and refused with a message that
+  says so and what to do, instead of being read.
+- `epoc shot` given an EPOC name (`epoc shot 'C:\System\a.mbm'`) is held to
+  the same rule as a Linux path: nothing is written to Z: or a `\System`
+  folder unless `epoc syswrite on --force` allows it.
 
 ## What's new in 0.41
 

@@ -108,6 +108,41 @@ static lx_u32 nents;
 static char *names;
 static lx_u32 names_size;
 static char upper_root[LX_PATH_MAX];    /* the layer's folder */
+static const char *damaged;             /* (0.42) why the image was not used, or 0 */
+
+/* (0.42) the root image is there but damaged: why, or 0 */
+const char *lx_root_damaged(void) { return damaged; }
+
+/* (0.42) the index checked once, as it is read: every number in it is used
+ * later as an index into ents or names, or as a place in the image, with no
+ * test, so a damaged image gave reads anywhere. bytes: the image's length.
+ * 0, or what is wrong. */
+static const char *img_check(lx_u32 bytes)
+{
+	lx_u32 i, j;
+	if (nents == 0 || !LX_S_ISDIR(ents[0].mode)) return "no root folder";
+	for (i = 0; i < nents; i++) {
+		const img_ent *e = &ents[i];
+		lx_u32 t = e->mode & LX_S_IFMT;
+		if (e->name >= names_size || e->parent >= nents) return "a name or a folder out of range";
+		if (t == LX_S_IFDIR) {
+			if (e->count > nents || e->first > nents - e->count) return "a folder's entries out of range";
+			if (e->count && e->first == 0) return "a folder holds the root";
+			for (j = e->first; j < e->first + e->count; j++) {
+				if (ents[j].parent != i) return "an entry in the wrong folder";
+				if (ents[j].name >= names_size) return "a name or a folder out of range";   /* (before it is compared) */
+				/* sorted, each name once (looked up by halves: img_child) */
+				if (j > e->first && lx_strcmp(names + ents[j - 1].name, names + ents[j].name) >= 0)
+					return "a folder not in order";
+			}
+		} else if (t == LX_S_IFREG) {
+			if (e->size > bytes || e->data > bytes - e->size) return "a file out of the image";
+		} else if (t == LX_S_IFLNK) {
+			if (e->data >= names_size) return "a link's target out of range";
+		} else return "an entry of an unknown kind";
+	}
+	return 0;
+}
 
 void lx_root_init(void)
 {
@@ -116,12 +151,14 @@ void lx_root_init(void)
 	int err;
 	lx_u32 eoff, noff;
 	ents = 0; nents = 0; names = 0;
+	damaged = 0;
 	lx_native_join(upper_root, sizeof upper_root, lx_k.root_native, "root");
 	lx_native_join(path, sizeof path, lx_k.root_native, "ROOT.IMG");
 	img_h = bk_file_open(path, LX_O_RDONLY, &err);
 	if (!img_h) { bk_log("no root image %s (%d): the root is the layer only", path, err); return; }
 	if (bk_file_read(img_h, 0, hdr, 64) != 64 || lx_strncmp(hdr, "LXROOT01", 8) != 0) {
 		bk_log("%s is not a PsiLinux root image", path);
+		damaged = "not a PsiLinux root image";
 		bk_file_close(img_h); img_h = 0; return;
 	}
 	bk_memcpy(&nents, hdr + 8, 4);
@@ -144,16 +181,39 @@ void lx_root_init(void)
 			else bk_log("root image: %s is missing", p);
 		}
 	}
-	ents = (img_ent *)bk_alloc(nents * sizeof(img_ent));
-	names = (char *)bk_alloc(names_size + 1);
-	if (!ents || !names ||
-	    img_read(eoff, (char *)ents, nents * sizeof(img_ent)) != (int)(nents * sizeof(img_ent)) ||
-	    img_read(noff, names, names_size) != (int)names_size) {
-		bk_log("cannot read the root image");
-		bk_free(ents); bk_free(names); ents = 0; nents = 0;
-		bk_file_close(img_h); img_h = 0; return;
+	{
+		/* (0.42) the header's numbers within the image before they are
+		 * used: a count that wraps nents * 32, or an index past the end */
+		lx_s64 sz = 0;
+		lx_u32 bytes;
+		if (part_size) bytes = part_size > 0xffffffffu / nparts ? 0xffffffffu : part_size * nparts;
+		else bytes = bk_file_size(img_h, &sz) == 0 && sz > 0 && sz < 0xffffffffLL ? (lx_u32)sz : 0;
+		if (!bytes || nents == 0 || nents > bytes / sizeof(img_ent) || eoff > bytes - nents * sizeof(img_ent) ||
+		    names_size >= bytes || noff > bytes - names_size) {
+			bk_log("root image: the header is damaged (%u entries at %u, %u bytes of names at %u, image %u bytes)",
+				nents, eoff, names_size, noff, bytes);
+			damaged = "its header is damaged";
+			nents = 0; names_size = 0; part_size = nparts = 0;
+			bk_file_close(img_h); img_h = 0; return;
+		}
+		ents = (img_ent *)bk_alloc(nents * sizeof(img_ent));
+		names = (char *)bk_alloc(names_size + 1);
+		if (!ents || !names ||
+		    img_read(eoff, (char *)ents, nents * sizeof(img_ent)) != (int)(nents * sizeof(img_ent)) ||
+		    img_read(noff, names, names_size) != (int)names_size) {
+			bk_log("cannot read the root image");
+			if (ents && names) damaged = "it is cut short";
+			bk_free(ents); bk_free(names); ents = 0; nents = 0; names = 0; names_size = 0;
+			bk_file_close(img_h); img_h = 0; return;
+		}
+		names[names_size] = 0;
+		damaged = img_check(bytes);
+		if (damaged) {
+			bk_log("root image: its index is damaged (%s): not used", damaged);
+			bk_free(ents); bk_free(names); ents = 0; nents = 0; names = 0; names_size = 0;
+			bk_file_close(img_h); img_h = 0; return;
+		}
 	}
-	names[names_size] = 0;
 	img_there = 1;
 }
 

@@ -1040,6 +1040,7 @@ int main(int argc, char **argv)
 		trace_file = fopen(getenv("LX_DBT_TRACE"), "w");
 		if (trace_file) { lx_cpu.trace = trace_pc; lx_cpu.trace_note = dbt_trace_note; }
 	}
+	if (lx_root_damaged()) { fprintf(stderr, "psihost: the root image is damaged (%s)\n", lx_root_damaged()); return 126; }
 	r = lx_k_spawn_first(argv[i], argv + i, envp, 0);
 	if (r < 0) { fprintf(stderr, "psihost: cannot start %s: error %d\n", argv[i], -r); return 127; }
 	if (getenv("PSIHOST_INPUT")) input_fd = open(getenv("PSIHOST_INPUT"), O_RDWR | O_NONBLOCK);

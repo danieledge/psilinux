@@ -149,6 +149,38 @@ static int ep_write(lx_thread *t, lx_file *f, const char *buf, lx_u32 n)
 					return (int)n;
 				}
 				s = nat;
+			} else if (k == 0 && h.op == LXE_OP_SHOT) {
+				/* (0.42) epoc shot's file given as an EPOC name (no
+				 * LXE_F_PATH: "C:\\..." as it is): the same test as a Linux
+				 * path's, on its Linux name (/psion/c/...), so a request
+				 * written to /dev/epoc without the flag cannot write into
+				 * Z: or a \\System folder either */
+				char lp[LX_PATH_MAX];
+				int st, j, o2;
+				const char *why2 = 0;
+				if (!(((s[0] | 0x20) >= 'a' && (s[0] | 0x20) <= 'z') && s[1] == ':' && s[2] == '\\')) {
+					answer(e, &h, LXE_REFUSED, 0, 0, "epoc shot: a whole EPOC name (D:\\Screenshots\\a.mbm) or a Linux path");
+					return (int)n;
+				}
+				lx_snprintf(lp, sizeof lp, "/psion/%c", s[0] | 0x20);
+				o2 = lx_strlen(lp);
+				for (j = 2; s[j] && o2 < (int)sizeof lp - 1; j++) {
+					if (s[j] == '/') {           /* (not a separator to EPOC: not taken) */
+						answer(e, &h, LXE_REFUSED, 0, 0, "epoc shot: a / in an EPOC name");
+						return (int)n;
+					}
+					lp[o2++] = s[j] == '\\' ? '/' : s[j];
+				}
+				lp[o2] = 0;
+				if (s[j]) return -LX_ENAMETOOLONG;
+				st = epoc_name(p, lp, 1, nat, sizeof nat, &why2);
+				if (st != LXE_OK) {
+					char msg[LX_PATH_MAX + 64];
+					lx_snprintf(msg, sizeof msg, "%s: %s", s, why2);
+					answer(e, &h, st, 0, 0, msg);
+					return (int)n;
+				}
+				s = nat;
 			}
 			len = lx_strlen(s) + 1;
 			if (o + len > HDR + LXE_MAX) return -LX_E2BIG;

@@ -13,7 +13,7 @@
 #include <eikappui.h>
 #include <estlib.h>
 #include <apgtask.h>
-#include "psierr.h"                  // an error as words for a message
+#include "psierr.h"                  // an error as words for a message (0.45: psion-core's)
 #include "lxterm.h"
 #include "lxepocsv.h"
 
@@ -855,10 +855,8 @@ void CLxTermView::StartLinuxL()
 	iSshActive = iSession->Running();        // (PsiTerm's bell rings only in a live session)
 	if (r != KErrNone)
 		{
-		TBuf8<120> msg(_L8("\r\n[Cannot start Linux - "));
-		TBuf8<48> why;
-		why.Copy(PsiErrWords(r));
-		msg.Append(why);
+		TBuf8<120> msg(_L8("\r\n[Cannot start Linux"));
+		PsiErrTail(msg, r);                 // (0.45: nothing more when the reason is not known)
 		msg.Append(_L8("]\r\n"));
 		LocalMessage(msg);
 		TBuf<48> note;

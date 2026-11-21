@@ -124,8 +124,9 @@ static TUint32 StackUsed()
 	}
 static void Fail(const char* aWhy);
 static void Fail(const char* aWhy, const char* aNote);
-// an EPOC error in words for the screen (Coda's one table, psierr.h's
-// words); the number goes to the end log
+// an EPOC error in words for the screen (psion-core's psierr.h's words,
+// in 8 bits for the runner; "" when no reason is known); the number goes
+// to the end log
 static const char* ErrWords(TInt aErr)
 	{
 	switch (aErr)
@@ -138,9 +139,9 @@ static const char* ErrWords(TInt aErr)
 	case KErrNotFound: return "not found";
 	case KErrPathNotFound: return "folder not found";
 	case KErrCorrupt: return "the file is damaged";
-	case KErrNotSupported: return "not possible here";
+	case KErrNotSupported: return "not supported";
 	case KErrDisMounted: return "the card was taken out";
-	default: return "for an unknown reason";
+	default: return "";
 		}
 	}
 static void OpenLog(const char* aRoot);
@@ -2563,7 +2564,8 @@ GLDEF_C TInt E32Main()
 	if (err != KErrNone && gSh)
 		{
 		char why[80], note[48];
-		lx_snprintf(why, sizeof why, "The Linux runner stopped - %s", ErrWords(err));
+		const char* w = ErrWords(err);
+		lx_snprintf(why, sizeof why, "The Linux runner stopped%s%s", *w ? " - " : "", w);
 		lx_snprintf(note, sizeof note, "the runner left (error %d)", err);
 		Fail(why, note);
 		}

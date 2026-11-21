@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """PsiLinux's pictures: the toolbar's (24x20, 4 greys, with masks, for
 bmconv), the same four in colour for the netBook's toolbar (0.43, below:
-COLOUR) and the program's icon (PsiLinux.aif, 24, 32 and 48 pixels, with
-PsiTerm's AIF writer).
+COLOUR) and the program's icon (PsiLinux.aif, 24, 32 and 48 pixels: the
+penguin in Coda's icon style, drawn with Coda's icon kit, codaicon.py, a
+copy of psion-netbook's psiicons/art/codaicon.py, with epoc256.py, EPOC's
+palette, beside this file).
 
     tools/mkicons.py OUTDIR HEADER
 
@@ -11,15 +13,15 @@ checkout's core/ submodule or $PSION_CORE); the others are new, drawn
 the same way: k black, d dark grey, l light grey, w white, . transparent.
 """
 import os, sys
-from PIL import Image, ImageDraw
+from PIL import Image
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.abspath(os.path.join(HERE, '..'))
 CORE = os.environ.get('PSION_CORE') or os.path.join(REPO, 'core')
 sys.path.insert(0, os.path.join(CORE, 'tools'))
 sys.path.insert(0, os.path.join(CORE, 'tools', 'icon'))
 import mkicons as pt          # PsiTerm's
-from aif import write_aif
-from colouricon import colour_icons   # the colour icons (colour/), when there
+sys.path.insert(0, HERE)
+import codaicon               # Coda's icon kit (the program's icon)
 
 ICONS = [
 # Stop (Ctrl+C): an octagon with a white bar, as a road sign
@@ -170,36 +172,41 @@ COLOUR = [
 ]
 
 
-K, D, L, W = 0, 85, 170, 255
+def _blob(c, ells, fill, only=None, edge=True, bevel=True):
+    """the union of several ellipses on a codaicon canvas, outlined as one
+    shape (the penguin's head and body)"""
+    p = c._p
+    boxes = [[p(a), p(b), max(p(a) + 1, p(x)) - 1, max(p(b) + 1, p(y)) - 1] for a, b, x, y in ells]
+
+    def draw(g):
+        for box in boxes:
+            g.ellipse(box, fill=1)
+    c._add(draw, fill, only, edge, bevel)
 
 
-def app_icon(n):
-    """A penguin on a dark rounded square, drawn 4x and scaled down."""
-    S = 4
-    N = n * S
-    s = N / 48.0
-    R = lambda v: int(round(v * s))
-    big = Image.new('L', (N, N), W)
-    d = ImageDraw.Draw(big)
-    d.rounded_rectangle([R(2), R(2), N - 1 - R(2), N - 1 - R(2)], radius=R(11), fill=D)
-    # body and belly
-    d.ellipse([R(13), R(9), R(35), R(41)], fill=K)
-    d.ellipse([R(17), R(17), R(31), R(40)], fill=W)
-    # eyes
-    d.ellipse([R(19), R(13), R(23), R(17)], fill=W)
-    d.ellipse([R(25), R(13), R(29), R(17)], fill=W)
-    d.ellipse([R(20.5), R(14.5), R(22.5), R(16.5)], fill=K)
-    d.ellipse([R(25.5), R(14.5), R(27.5), R(16.5)], fill=K)
-    # beak and feet
-    d.polygon([(R(21), R(18)), (R(27), R(18)), (R(24), R(22))], fill=L)
-    d.ellipse([R(14), R(38), R(23), R(43)], fill=L)
-    d.ellipse([R(25), R(38), R(34), R(43)], fill=L)
-    im = big.resize((n, n), Image.LANCZOS)
-    im = im.point(lambda v: min((K, D, L, W), key=lambda g: abs(g - v)))
-    mk = Image.new('L', (N, N), 255)
-    ImageDraw.Draw(mk).rounded_rectangle([R(2), R(2), N - 1 - R(2), N - 1 - R(2)], radius=R(11), fill=0)
-    mk = mk.resize((n, n), Image.LANCZOS).point(lambda v: 0 if v < 160 else 255).convert('1')
-    return im, mk
+def penguin(c):
+    """The program's icon (0.46): the penguin alone, standing, front on, in
+    Coda's icon style (the UI review's style sheet 2.3): a black body, a
+    white belly, an orange beak and feet; the kit gives each shape its
+    1-pixel 333333 outline, the lighter and darker edges and the 999999 drop
+    shadow, and checks the cube colours, the hues and the margins. At 24 the
+    flippers and the pupils are left out."""
+    B, W_, O = codaicon.BLACK, codaicon.WHITE, codaicon.ORANGE
+    c.poly([(13, 17), (5, 31), (7, 35), (14, 31)], B, only=(32, 48), bevel=False)    # the flippers
+    c.poly([(35, 17), (43, 31), (41, 35), (34, 31)], B, only=(32, 48), bevel=False)
+    _blob(c, [(14, 2, 34, 22), (10, 13, 38, 42)], B, bevel=False)                    # head and body
+    _blob(c, [(15, 18, 33, 40)], W_)                                                  # the belly
+    c.ellipse(17, 7, 23, 14, W_, only=(32, 48), edge=False, bevel=False)              # the eyes
+    c.ellipse(25, 7, 31, 14, W_, only=(32, 48), edge=False, bevel=False)
+    c.bar(20, 9, 22, 13, B, only=(48,))
+    c.bar(26, 9, 28, 13, B, only=(48,))
+    c.dot(21, 11, B, only=(32,))
+    c.dot(27, 11, B, only=(32,))
+    c.dot(19, 9, W_, only=(24,))
+    c.dot(28, 9, W_, only=(24,))
+    c.poly([(18, 14), (30, 14), (24, 20)], O, bevel=False)                           # the beak
+    c.ellipse(10, 37, 23, 44, O, bevel=False)                                         # the feet
+    c.ellipse(25, 37, 38, 44, O, bevel=False)
 
 
 def main():
@@ -249,14 +256,9 @@ def main():
         for i, p in enumerate(files):
             colour = os.path.basename(p).split('_')[0].split('.')[0].endswith('C')
             f.write(('/1' if i % 2 else '/c8' if colour else '/2') + os.path.basename(p) + '\n')
-    icons = colour_icons("psilinux") or [app_icon(n) for n in (24, 32, 48)]
-    n = write_aif(os.path.join(out, 'psilinux.aif'), 0x01000A87, [(1, 'PsiLinux'), (10, 'PsiLinux')], icons)
-    prev = Image.new('L', (24 + 32 + 48 + 20, 48), W)
-    x = 0
-    for im, _ in icons:
-        prev.paste(im, (x, 0))
-        x += im.size[0] + 10
-    prev.resize((prev.size[0] * 3, 144), Image.NEAREST).save(os.path.join(out, 'icon-preview.png'))
+    icons = codaicon.icons(penguin, 'PsiLinux')
+    n = codaicon.write_aif(os.path.join(out, 'psilinux.aif'), 0x01000A87, [(1, 'PsiLinux'), (10, 'PsiLinux')], icons)
+    codaicon.preview(os.path.join(out, 'icon-preview.png'), [('PsiLinux', icons)])
     print('psilinux.aif', n, 'bytes')
 
 

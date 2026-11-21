@@ -41,7 +41,8 @@ enum TLxCommand
 	ELxCmdTbCopy,
 	ELxCmdTbPaste,
 	ELxCmdKeepLog,            // Tools > Keep a log (0.24)
-	ELxCmdWelcome             // Tools > Show welcome banner (0.37)
+	ELxCmdWelcome,            // Tools > Show welcome banner (0.37)
+	ELxCmdFileName            // (0.43) the toolbar's name box
 	};
 
 // the Preferences dialog's lines
@@ -70,7 +71,8 @@ enum
 	ELxPagePrefsCursor,      // 0.34: the Preferences dialog's Cursor page
 	ELxAbout6,               // 0.35: About: where the licences and sources are
 	ELxAbout7,               // 0.35: About: the Symbian C library notice
-	ELxPrefSleep             // 0.39: In the background: sleep after...
+	ELxPrefSleep,            // 0.39: In the background: sleep after...
+	ELxAbout8                // 0.43: About: the source
 	};
 
 #endif

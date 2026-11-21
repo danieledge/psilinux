@@ -1,4 +1,5 @@
-// psilinux.cpp - PsiLinux: Linux programs on the Psion Series 5mx.
+// psilinux.cpp - PsiLinux: Linux programs on the Psion Series 5mx, Series 7
+// and netBook.
 //
 // The program's window holds one view at a time: the terminal (lxterm.cpp),
 // or the Linux screen (lxscreen.cpp: what programs draw on /dev/fb0, X
@@ -19,6 +20,8 @@
 #include <eiktbar.h>
 #include <eikcmbut.h>
 #include <eiklabel.h>
+#include <eikfnlab.h>
+#include <eikproc.h>
 #include <eikimage.h>
 #include <badesca.h>
 #include <e32hal.h>
@@ -31,7 +34,7 @@
 #include <psilinux.rsg>
 
 const TUid KUidPsiLinux = { 0x01000A87 };
-_LIT(KLxVersion, "0.42");
+_LIT(KLxVersion, "0.43");
 _LIT(KIniFile, "C:\\System\\Apps\\PsiLinux\\PsiLinux.ini");
 
 // (0.38) Short of memory: the launcher (PsiHub, which watches the free RAM)
@@ -42,8 +45,18 @@ const TInt KLxMemMsgUid = 0x01000BA0;
 _LIT8(KLxMemTrim, "trim");
 _LIT8(KLxMemSleep, "sleep");
 
+// (0.43) a zoom level's name as Preferences and the zoom's infoprint give it:
+// its size in pixels, or "Smallest" for the ROM's Courier small (level 0)
+static void LxSizeName(TInt aFace, TInt aZoom, TDes& aName)
+	{
+	if (aZoom <= 0 || aZoom >= CTermView::ZoomLevels(aFace))
+		aName.Copy(_L("Smallest"));
+	else
+		aName.Num(CTermView::ZoomPixels(aFace, aZoom));
+	}
+
 // ---------------------------------------------------------------------------
-// Preferences... and Linux disk...
+// Preferences… and Linux disk…
 // ---------------------------------------------------------------------------
 class CLxPrefsDialog : public CEikDialog
 	{
@@ -79,8 +92,10 @@ private:
 		TInt n = CTermView::ZoomLevels(aFace);
 		for (TInt z = 0; z < n; z++)
 			{
+			// (0.43) the sizes alone ("12"), the typeface being the line above;
+			// level 0 is the ROM's Courier small, the smallest of all
 			TBuf<40> name;
-			CTermView::ZoomName(aFace, z, name);
+			LxSizeName(aFace, z, name);
 			a->AppendL(name);
 			}
 		CEikChoiceList* c = (CEikChoiceList*)Control(ELxPrefZoom);
@@ -198,8 +213,11 @@ private:
 	void SwitchToL(TInt aView);
 	void HelpL();
 	void AboutL();
-	void ButtonPictureL(TInt aId, TInt aIcon);
+	void ButtonPictureL(CEikToolBar* aBar, TInt aId, TInt aIcon);
+	void MakeNetBookBarL();
+	CEikToolBar* Bar() const { return iNbBar ? iNbBar : iToolBar; }
 	void ShowToolBarL(TBool aShow);
+	void ZoomL(TInt aStep);
 	TRect ViewRect(TBool aToolbar) const;
 	// MLxScreenHook
 	void ScreenOnOff(TBool aOn);
@@ -209,6 +227,7 @@ private:
 	CLxScreenView* iScreen;
 	TInt iView;                   // 0 the terminal, 1 the Linux screen
 	TLxSettings iSettings;
+	CEikToolBar* iNbBar;          // (0.43) the netBook's toolbar, on Coda's image (MakeNetBookBarL)
 	};
 
 void CLxAppUi::LoadSettings()
@@ -251,12 +270,31 @@ void CLxAppUi::ConstructL()
 	UserHal::MemoryInfo(mi);
 	BaseConstructL();
 	LoadSettings();
+	iEikonEnv->Process()->SetMainDocFileName(_L("PsiLinux"));   // (the toolbar's name box)
 	if (iToolBar)
 		{
-		TRAPD(err, ButtonPictureL(ELxCmdTbStop, ELxMbmToolStop); ButtonPictureL(ELxCmdTbKeys, ELxMbmToolKeys);
-			ButtonPictureL(ELxCmdTbCopy, ELxMbmToolCopy); ButtonPictureL(ELxCmdTbPaste, ELxMbmToolPaste));
+		TRAPD(err, MakeNetBookBarL());
+		if (err != KErrNone)
+			{
+			delete iNbBar;
+			iNbBar = NULL;
+			}
+		if (iNbBar)
+			{
+			iToolBar->MakeVisible(EFalse);       // (the 5mx's, kept for EIKON, never shown)
+			TRAP(err, ButtonPictureL(iNbBar, ELxCmdTbStop, ELxMbmToolStopC); ButtonPictureL(iNbBar, ELxCmdTbKeys, ELxMbmToolKeysC);
+				ButtonPictureL(iNbBar, ELxCmdTbCopy, ELxMbmToolCopyC); ButtonPictureL(iNbBar, ELxCmdTbPaste, ELxMbmToolPasteC));
+			}
+		else
+			TRAP(err, ButtonPictureL(iToolBar, ELxCmdTbStop, ELxMbmToolStop); ButtonPictureL(iToolBar, ELxCmdTbKeys, ELxMbmToolKeys);
+				ButtonPictureL(iToolBar, ELxCmdTbCopy, ELxMbmToolCopy); ButtonPictureL(iToolBar, ELxCmdTbPaste, ELxMbmToolPaste));
+		CEikFileNameLabel* label = (CEikFileNameLabel*)Bar()->ControlById(ELxCmdFileName);
+		if (label)
+			TRAP(err, label->UpdateL());
+		if (iNbBar && iSettings.iToolbar)
+			iNbBar->MakeVisible(ETrue);
 		if (!iSettings.iToolbar)
-			iToolBar->MakeVisible(EFalse);       // (remembered from last time)
+			Bar()->MakeVisible(EFalse);          // (remembered from last time)
 		}
 	iTerm = new(ELeave) CLxTermView;
 	iTerm->ConstructL(ViewRect(iSettings.iToolbar), iSettings);
@@ -307,6 +345,7 @@ TBool CLxAppUi::ProcessCommandParametersL(TApaCommand aCommand, TFileName& aDocu
 
 CLxAppUi::~CLxAppUi()
 	{
+	delete iNbBar;
 	delete iStarter;
 	SaveSettings();
 	if (iTerm)
@@ -325,10 +364,29 @@ CLxAppUi::~CLxAppUi()
 		}
 	}
 
-// a toolbar button's picture: 24x20, from PsiLinux.mbm, the words beside it
-void CLxAppUi::ButtonPictureL(TInt aId, TInt aIcon)
+// (0.43) On Coda's netBook image the toolbar is as Coda makes Psion's own
+// programs' (r_lx_toolbar_nb): taller buttons with colour pictures, and Coda's
+// battery, gauges and clock, which only Coda's Eikon can make (the hook in
+// PsiBatt.dll's image). On a 240-line screen (the 5mx) or another image the
+// standard toolbar stays.
+void CLxAppUi::MakeNetBookBarL()
 	{
-	CEikCommandButton* b = iToolBar ? (CEikCommandButton*)iToolBar->ControlById(aId) : NULL;
+	TSize screen = iEikonEnv->ScreenDevice()->SizeInPixels();
+	TEntry e;
+	if (screen.iHeight < 400 || iCoeEnv->FsSession().Entry(_L("Z:\\System\\Libs\\PsiBatt.dll"), e) != KErrNone)
+		return;
+	CEikToolBar* bar = new(ELeave) CEikToolBar;
+	CleanupStack::PushL(bar);
+	bar->ConstructL(this, R_LX_TOOLBAR_NB, TRect(TPoint(0, 0), screen));
+	CleanupStack::Pop();
+	bar->MakeVisible(EFalse);
+	iNbBar = bar;
+	}
+
+// a toolbar button's picture: 24x20, from PsiLinux.mbm, the words beside it
+void CLxAppUi::ButtonPictureL(CEikToolBar* aBar, TInt aId, TInt aIcon)
+	{
+	CEikCommandButton* b = aBar ? (CEikCommandButton*)aBar->ControlById(aId) : NULL;
 	if (!b)
 		return;
 	TFileName mbm = Application()->BitmapStoreName();
@@ -351,8 +409,8 @@ TRect CLxAppUi::ViewRect(TBool aToolbar) const
 	{
 	TRect r = ClientRect();
 	r.iBr.iX = iEikonEnv->ScreenDevice()->SizeInPixels().iWidth;
-	if (aToolbar && iToolBar && iToolBar->Position().iX > r.iTl.iX)
-		r.iBr.iX = iToolBar->Position().iX;
+	if (aToolbar && Bar() && Bar()->Position().iX > r.iTl.iX)
+		r.iBr.iX = Bar()->Position().iX;
 	return r;
 	}
 
@@ -360,13 +418,14 @@ TRect CLxAppUi::ViewRect(TBool aToolbar) const
 // it back, and Linux's programs see the new width (SIGWINCH)
 void CLxAppUi::ShowToolBarL(TBool aShow)
 	{
-	if (!iToolBar)
+	CEikToolBar* bar = Bar();
+	if (!bar)
 		return;
-	if (iToolBar->IsVisible() != aShow)
-		iToolBar->MakeVisible(aShow);
+	if (bar->IsVisible() != aShow)
+		bar->MakeVisible(aShow);
 	if (aShow)
 		{
-		iToolBar->DrawNow();
+		bar->DrawNow();
 		iCoeEnv->WsSession().Flush();
 		}
 	iTerm->SetTermRectL(ViewRect(aShow));
@@ -402,8 +461,8 @@ void CLxAppUi::SwitchToL(TInt aView)
 			}
 		RemoveFromStack(iTerm);
 		iTerm->MakeVisible(EFalse);
-		if (iToolBar && iToolBar->IsVisible())
-			iToolBar->MakeVisible(EFalse);
+		if (Bar() && Bar()->IsVisible())
+			Bar()->MakeVisible(EFalse);
 		iScreen->MakeVisible(ETrue);
 		// (before EIKON's menu bar: the Menu key and Ctrl+letters are Linux's
 		// there; the view passes Ctrl+Q back for Switch view)
@@ -417,10 +476,10 @@ void CLxAppUi::SwitchToL(TInt aView)
 			RemoveFromStack(iScreen);
 			iScreen->MakeVisible(EFalse);
 			}
-		if (iToolBar && iSettings.iToolbar)
+		if (Bar() && iSettings.iToolbar)
 			{
-			iToolBar->MakeVisible(ETrue);
-			iToolBar->DrawNow();
+			Bar()->MakeVisible(ETrue);
+			Bar()->DrawNow();
 			}
 		iTerm->MakeVisible(ETrue);
 		AddToStackL(iTerm);
@@ -487,12 +546,14 @@ void CLxAppUi::DynInitMenuPaneL(TInt aMenuId, CEikMenuPane* aMenuPane)
 			aMenuPane->SetItemButtonState(ELxCmdBold, EEikMenuItemSymbolOn);
 		if (iSettings.iStatus)
 			aMenuPane->SetItemButtonState(ELxCmdStatusLine, EEikMenuItemSymbolOn);
-		if (iToolBar && iToolBar->IsVisible())
+		if (Bar() && Bar()->IsVisible())
 			aMenuPane->SetItemButtonState(ELxCmdToolbar, EEikMenuItemSymbolOn);
 		break;
-	case R_LX_TOOLS_MENU:
+	case R_LX_TROUBLE_MENU:
 		if (iSettings.iSpare[KLxSpareLog])
 			aMenuPane->SetItemButtonState(ELxCmdKeepLog, EEikMenuItemSymbolOn);
+		break;
+	case R_LX_TOOLS_MENU:
 		if (!iSettings.iSpare[KLxSpareNoWelcome])
 			aMenuPane->SetItemButtonState(ELxCmdWelcome, EEikMenuItemSymbolOn);
 		break;
@@ -518,7 +579,7 @@ void CLxAppUi::HandleCommandL(TInt aCommand)
 		{
 	case EEikCmdExit:
 		if (iTerm->Session()->Running())
-			iEikonEnv->BusyMsgL(_L("Ending Linux..."), EHLeftVBottom, TTimeIntervalMicroSeconds32(0));
+			iEikonEnv->BusyMsgL(_L("Ending Linux\x85"), EHLeftVBottom, TTimeIntervalMicroSeconds32(0));
 		iTerm->Session()->Kill();
 		SaveSettings();
 		Exit();
@@ -545,12 +606,12 @@ void CLxAppUi::HandleCommandL(TInt aCommand)
 		else
 			iEikonEnv->InfoMsg(_L("Linux is not running"));
 		break;
-	case ELxCmdToolbar: ShowToolBarL(!(iToolBar && iToolBar->IsVisible())); SaveSettings(); break;
+	case ELxCmdToolbar: ShowToolBarL(!(Bar() && Bar()->IsVisible())); SaveSettings(); break;
 	case ELxCmdSelectScreen: iTerm->SelectScreen(); break;
 	case EEikCmdZoomIn:
-	case ELxCmdZoomIn: iTerm->ZoomBy(1); break;
+	case ELxCmdZoomIn: ZoomL(1); break;
 	case EEikCmdZoomOut:
-	case ELxCmdZoomOut: iTerm->ZoomBy(-1); break;
+	case ELxCmdZoomOut: ZoomL(-1); break;
 	case ELxCmdBold:
 		iSettings.iBold = !iSettings.iBold;
 		iTerm->ApplySettingsL();
@@ -608,16 +669,14 @@ void CLxAppUi::HandleCommandL(TInt aCommand)
 		// (0.24) off unless ticked; PsiLinux.log, if there is one, stays. The
 		// runner reads it when it starts: Linux running now carries on as it began.
 		iSettings.iSpare[KLxSpareLog] = !iSettings.iSpare[KLxSpareLog];
-		SaveSettings();
-		iEikonEnv->InfoMsg(iSettings.iSpare[KLxSpareLog] ? _L("Keeping a log") : _L("Not keeping a log"));
+		SaveSettings();                     // (0.43: the tick says so: no infoprint)
 		break;
 	case ELxCmdWelcome:
 		// (0.37) Alpine's banner at login (/etc/profile.d/psilinux-welcome.sh,
 		// which reads /proc/psilinux/welcome): the next shell to start reads it
 		iSettings.iSpare[KLxSpareNoWelcome] = !iSettings.iSpare[KLxSpareNoWelcome];
 		SaveSettings();
-		iTerm->Session()->SetWelcome(!iSettings.iSpare[KLxSpareNoWelcome]);
-		iEikonEnv->InfoMsg(iSettings.iSpare[KLxSpareNoWelcome] ? _L("No welcome banner") : _L("Welcome banner shown at start"));
+		iTerm->Session()->SetWelcome(!iSettings.iSpare[KLxSpareNoWelcome]);   // (0.43: no infoprint)
 		break;
 	case ELxCmdHelp: HelpL(); break;
 	case ELxCmdAbout: AboutL(); break;
@@ -626,14 +685,41 @@ void CLxAppUi::HandleCommandL(TInt aCommand)
 		}
 	}
 
-void CLxAppUi::HelpL()
+// (0.43) a zoom step says the size it came to, as the guide asks (PsiTerm's
+// own other-font sizes say theirs)
+void CLxAppUi::ZoomL(TInt aStep)
 	{
-	CEikDialog* d = new(ELeave) CLxHelpDialog(0);
-	d->ExecuteLD(R_LX_HELP_DIALOG);
+	TInt was = iSettings.iZoom;
+	iTerm->ZoomBy(aStep);
+	if (iSettings.iZoom == was)
+		return;
+	TBuf<40> name, msg;
+	LxSizeName(iSettings.iSpare[KLxSpareFace], iSettings.iZoom, name);
+	msg.Format(iSettings.iZoom <= 0 ? _L("Text size: smallest") : _L("Text size %S"), &name);
+	iEikonEnv->InfoMsg(msg);
 	}
 
-// the About box: the version, Alpine's (the runner reads /etc/alpine-release),
-// and the (c) sign put right (0xa9)
+void CLxAppUi::HelpL()
+	{
+	// (0.43) 12 whole lines of text on a 480-line screen, 7 on the 5mx's 240
+	CEikDialog* d = new(ELeave) CLxHelpDialog(0);
+	d->ExecuteLD(iEikonEnv->ScreenDevice()->SizeInPixels().iHeight >= 400 ? R_LX_HELP_DIALOG_TALL : R_LX_HELP_DIALOG);
+	}
+
+// the About box (Coda's layout): the version, Alpine's (the runner reads
+// /etc/alpine-release) and the © signs (0xa9) put in here
+static void LxCopyrightL(CEikLabel* aLabel)
+	{
+	if (!aLabel)
+		return;
+	TBuf<120> t(*aLabel->Text());
+	TBuf<1> c;
+	c.Append((TText)0xa9);
+	for (TInt i = t.Find(_L("(c)")); i >= 0; i = t.Find(_L("(c)")))
+		t.Replace(i, 3, c);
+	aLabel->SetTextL(t);
+	}
+
 class CLxAboutDialog : public CEikDialog
 	{
 public:
@@ -643,23 +729,17 @@ private:
 		{
 		TBuf<40> v;
 		v.Format(_L("PsiLinux %S"), &KLxVersion);
-		((CEikLabel*)Control(ELxAbout1))->SetTextL(v);
+		CEikLabel* l = (CEikLabel*)Control(ELxAbout1);
+		l->SetFont(iEikonEnv->TitleFont());
+		l->SetTextL(v);
 		TBuf<100> a;                         // (the version is up to 32 characters)
 		if (iAlpine.Length())
-			a.Format(_L("Alpine Linux %S (armhf, translated for the Psion)"), &iAlpine);
+			a.Format(_L("Alpine Linux %S (armhf), translated as it runs"), &iAlpine);
 		else
-			a.Copy(_L("Alpine Linux: start it to see its version"));
+			a.Copy(_L("Alpine Linux - its version shows once it has started"));
 		((CEikLabel*)Control(ELxAbout5))->SetTextL(a);
-		CEikLabel* l = (CEikLabel*)Control(ELxAbout2);
-		TBuf<100> t(*l->Text());
-		TInt i = t.Find(_L("(c)"));
-		if (i >= 0)
-			{
-			TBuf<1> c;
-			c.Append((TText)0xa9);
-			t.Replace(i, 3, c);
-			l->SetTextL(t);
-			}
+		LxCopyrightL((CEikLabel*)Control(ELxAbout3));
+		LxCopyrightL((CEikLabel*)Control(ELxAbout7));
 		}
 	const TDesC& iAlpine;
 	};

@@ -26,6 +26,7 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 
 ## Contents
 
+- [What's new in 0.43](#whats-new-in-043)
 - [What's new in 0.42](#whats-new-in-042)
 - [What's new in 0.41](#whats-new-in-041)
 - [What's new in 0.40](#whats-new-in-040)
@@ -45,6 +46,32 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 - [Documents](#documents)
 - [Support](#support)
 - [Credits and licences](#credits-and-licences)
+
+## What's new in 0.43
+
+A tidy of the screens, so PsiLinux looks like the rest of Coda:
+- On the netBook's Coda image the toolbar is the one Coda's other programs
+  have: the name in its box, taller buttons with colour pictures, and the
+  battery, free memory and brightness gauges above the clock. Elsewhere
+  (the Series 5mx, Psion's own netBook image) the toolbar is as before,
+  with the name in the same framed box.
+- Help shows 12 whole lines on the netBook (7 on the 5mx), with a scroll
+  bar, and talks about the machine it is on. Getting started describes
+  Alpine's shell, which is what starts. A Credits topic has the other
+  projects' names.
+- About has Coda's layout: name and version, what it is, the copyright,
+  where the licences and the source are.
+- Tools ends with Troubleshooting > Keep a log, then Help and About; ticks
+  no longer show a message as well.
+- Keys menu and the toolbar's Keys button use the same names, with the key
+  on the right; the Keys button has the back quote too. F8 and F9 are in
+  the function keys.
+- Preferences: Start Linux as, with "PsiLinux's own programs"; the text
+  sizes are numbers, and Smallest; the cursor's line is Shape.
+- Zoom in is Ctrl+M (Enter sends Linux the same), and each zoom step says
+  the size. The status line gives memory in MB and hides its clock while
+  the toolbar's shows.
+- Messages use "Cannot", end busy ones with "…" and say "the card".
 
 ## What's new in 0.42
 
@@ -185,7 +212,7 @@ Changed:
 - First start hides the toolbar (Shift+Ctrl+B brings it back) and starts Alpine's shell only. Saved settings are left alone.
 - A typed key wakes the terminal straight away, even with a busy program running.
 - ssh logs in in about half a minute on a 5mx (no sntrup761).
-- No log unless Tools > Keep a log is ticked.
+- No log unless Tools > Troubleshooting > Keep a log is ticked.
 - apk can use the Atom modem's own proxy as its package server.
 
 Fixed:
@@ -546,14 +573,14 @@ folder.
 
 ### Starting
 
-Tools > Preferences… (Shift+Ctrl+K) > **Start** chooses what File > Start
+Tools > Preferences… (Shift+Ctrl+K) > **Start Linux as** chooses what File > Start
 Linux (Shift+Ctrl+N) runs:
 
 - **Alpine Linux** boots as Alpine does: BusyBox init, then OpenRC, then a
   root login to bash on the window. `poweroff` or File > End Linux ends it.
 - **Alpine Linux, shell only** goes straight to bash. It is quicker and
   leaves more memory free. It is the standard choice (0.30).
-- **PsiLinux** runs PsiLinux's own programs.
+- **PsiLinux's own programs** runs PsiLinux's own programs.
 
 If Alpine is chosen but its root is not installed, PsiLinux says so and starts
 its own programs instead. File > End Linux (Shift+Ctrl+D) always stops Linux.
@@ -644,7 +671,7 @@ Alpine's mirror instead of through the PsiProxy.
 
 ### When something goes wrong
 
-PsiLinux keeps no log unless Tools > Keep a log is ticked (it is off as
+PsiLinux keeps no log unless Tools > Troubleshooting > Keep a log is ticked (it is off as
 installed, and after an upgrade; it takes effect the next time Linux
 starts). Then the runner's log is `\Linux\PsiLinux.log`
 (`\Linux\Alpine\PsiLinux.log` in Alpine mode). In Alpine mode it has a line every 30 s with free memory and

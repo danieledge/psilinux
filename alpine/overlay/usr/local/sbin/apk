@@ -678,9 +678,9 @@ EOF
 		[ -e /etc/psilinux/.apk-source-told ] && exit 0
 		: > /etc/psilinux/.apk-source-told 2>/dev/null
 		case "$SRC" in
-		online) echo "Packages: Alpine's online catalogue. Your own PsiProxy, or none: apk source" ;;
-		psiproxy) echo "Packages: your PsiProxy at ${SERVER:-(none found)}. Online catalogue, or none: apk source" ;;
-		none) echo "Packages: none. Online catalogue or your own PsiProxy: apk source" ;;
+		online) echo "Packages come from Alpine's online catalogue (apk source changes this)" ;;
+		psiproxy) echo "Packages come from your PsiProxy at ${SERVER:-(none found)} (apk source changes this)" ;;
+		none) echo "No packages: none chosen (apk source changes this)" ;;
 		esac ;;
 	*) die "apk source: online, psiproxy [ADDRESS], none or auto" ;;
 	esac

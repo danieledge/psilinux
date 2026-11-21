@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """PsiLinux's pictures: the toolbar's (24x20, 4 greys, with masks, for
-bmconv) and the program's icon (PsiLinux.aif, 24, 32 and 48 pixels, with
+bmconv), the same four in colour for the netBook's toolbar (0.43, below:
+COLOUR) and the program's icon (PsiLinux.aif, 24, 32 and 48 pixels, with
 PsiTerm's AIF writer).
 
     tools/mkicons.py OUTDIR HEADER
@@ -93,6 +94,82 @@ ICONS = [
 """),
 ]
 
+# (0.43) The netBook's toolbar pictures, in colour, drawn as Coda's (its
+# style sheet, 2.3): one object seen from the front, a 1-pixel outline in
+# 333333, flat fills from the 6x6x6 cube with a lighter edge at the top left
+# and a darker one at the bottom right, and a 2-pixel shadow in 999999 at the
+# bottom right; colours from Coda's set (navy 003366, blue 0066cc, teal
+# 009999, orange ff6600) and its greys. 24x20, with masks; bmconv keeps
+# them in 256 colours (/c8).
+PAL = {
+    'k': (0x33, 0x33, 0x33), 's': (0x99, 0x99, 0x99), 'w': (0xff, 0xff, 0xff),
+    'g': (0xcc, 0xcc, 0xcc), 'd': (0x66, 0x66, 0x66), 'o': (0xff, 0x66, 0x00),
+    'O': (0xff, 0x99, 0x33), 'r': (0xcc, 0x33, 0x00), 'n': (0x00, 0x33, 0x66),
+    'b': (0x00, 0x66, 0xcc), 't': (0x00, 0x99, 0x99), 'T': (0x33, 0xcc, 0xcc),
+    'D': (0x00, 0x66, 0x66),
+}
+
+
+def recipe(shapes):
+    """shapes: [(inside(x, y), fill, light, dark, marks)] drawn in order, the
+    later over the earlier; marks: {(x, y): colour letter} over the fill.
+    Each shape gets its outline, its light and dark edges and its shadow."""
+    W_, H_ = 24, 20
+    grid = [['.'] * W_ for _ in range(H_)]
+    for inside, fill, light, dark, marks in shapes:
+        cells = {(x, y) for y in range(H_) for x in range(W_) if inside(x, y)}
+        for (x, y) in cells:                      # the shadow first, under it
+            for sx, sy in ((x + 1, y + 1), (x + 2, y + 2), (x + 2, y + 1), (x + 1, y + 2)):
+                if (sx, sy) not in cells and 0 <= sx < W_ and 0 <= sy < H_ and grid[sy][sx] == '.':
+                    grid[sy][sx] = 's'
+        for (x, y) in cells:
+            edge = any((x + dx, y + dy) not in cells for dx in (-1, 0, 1) for dy in (-1, 0, 1))
+            if edge:
+                c = 'k'
+            elif (x - 2, y) not in cells or (x, y - 2) not in cells:
+                c = light
+            elif (x + 2, y) not in cells or (x, y + 2) not in cells:
+                c = dark
+            else:
+                c = fill
+            grid[y][x] = marks.get((x, y), c) if not edge else c
+    return grid
+
+
+def octagon(x, y):
+    # 16 wide, 16 high, corners cut by 4
+    x0, y0, n, cut = 4, 1, 16, 4
+    u, v = x - x0, y - y0
+    if not (0 <= u < n and 0 <= v < n):
+        return False
+    return u + v >= cut and (n - 1 - u) + v >= cut and u + (n - 1 - v) >= cut and (n - 1 - u) + (n - 1 - v) >= cut
+
+
+def rect(x0, y0, x1, y1):
+    return lambda x, y: x0 <= x <= x1 and y0 <= y <= y1
+
+
+def lines(x0, x1, ys, colour):
+    return {(x, y): colour for y in ys for x in range(x0, x1 + 1)}
+
+
+COLOUR = [
+    # Stop: an orange octagon with a white bar, as a road sign
+    ('ToolStopC', [(octagon, 'o', 'O', 'r', lines(7, 16, (8, 9, 10), 'w'))]),
+    # Keys: two key caps, a ~ and a | on them (keys the keyboard lacks)
+    ('ToolKeysC', [(rect(2, 2, 13, 11), 'g', 'w', 's', {(4, 7): 'n', (5, 6): 'n', (6, 5): 'n', (7, 5): 'n', (8, 6): 'n',
+                                                     (9, 7): 'n', (10, 7): 'n', (11, 6): 'n', (12, 5): 'n'}),
+                   (rect(9, 7, 20, 16), 'g', 'w', 's', lines(14, 15, (9, 10, 11, 12, 13, 14), 'n'))]),
+    # Copy: two pages, one over the other, navy lines of text
+    ('ToolCopyC', [(rect(2, 1, 13, 13), 'w', 'w', 'g', lines(5, 10, (4, 6, 8, 10), 'b')),
+                   (rect(9, 5, 20, 17), 'w', 'w', 'g', lines(12, 17, (8, 10, 12, 14), 'n'))]),
+    # Paste: a teal clipboard, a grey clip, a page with navy lines
+    ('ToolPasteC', [(rect(4, 2, 19, 17), 't', 'T', 'D', {}),
+                    (rect(7, 5, 16, 15), 'w', 'w', 'g', lines(9, 14, (8, 10, 12), 'n')),
+                    (rect(9, 1, 14, 4), 'g', 'w', 'd', {})]),
+]
+
+
 K, D, L, W = 0, 85, 170, 255
 
 
@@ -146,6 +223,22 @@ def main():
         mask.convert('RGB').save(fm)
         files += [fi, fm]
         ids.append(name)
+    for name, shapes in COLOUR:
+        grid = recipe(shapes)
+        img = Image.new('RGB', (24, 20), (255, 255, 255))
+        mask = Image.new('1', (24, 20), 1)
+        for y, r in enumerate(grid):
+            for x, c in enumerate(r):
+                if c != '.':
+                    img.putpixel((x, y), PAL[c])
+                    mask.putpixel((x, y), 0)
+        fi = os.path.join(out, f'{name}.bmp')
+        fm = os.path.join(out, f'{name}_m.bmp')
+        img.save(fi)
+        mask.convert('RGB').save(fm)
+        files += [fi, fm]
+        ids.append(name)
+        img.resize((96, 80), Image.NEAREST).save(os.path.join(out, f'{name}-4x.png'))
     with open(header, 'w') as f:
         f.write('/* lxicons.h - made by tools/mkicons.py: PsiLinux.mbm ids */\n')
         f.write('#ifndef LXICONS_H\n#define LXICONS_H\nenum TLxIconId\n\t{\n')
@@ -154,7 +247,8 @@ def main():
         f.write(f'\tELxMbmCount = {2 * len(ids)}\n\t}};\n#endif\n')
     with open(os.path.join(out, 'files.txt'), 'w') as f:
         for i, p in enumerate(files):
-            f.write(('/2' if i % 2 == 0 else '/1') + os.path.basename(p) + '\n')
+            colour = os.path.basename(p).split('_')[0].split('.')[0].endswith('C')
+            f.write(('/1' if i % 2 else '/c8' if colour else '/2') + os.path.basename(p) + '\n')
     icons = colour_icons("psilinux") or [app_icon(n) for n in (24, 32, 48)]
     n = write_aif(os.path.join(out, 'psilinux.aif'), 0x01000A87, [(1, 'PsiLinux'), (10, 'PsiLinux')], icons)
     prev = Image.new('L', (24 + 32 + 48 + 20, 48), W)

@@ -22,6 +22,10 @@ NAME PSLX
 #include <eikon.rsg>
 #include "psilinux.hrh"
 
+// the Help text's height: 7 lines on the 5mx's 240, 12 on a 480-line screen
+#define LX_HELP_H_5MX 118
+#define LX_HELP_H_TALL 208
+
 RESOURCE RSS_SIGNATURE { }
 
 RESOURCE TBUF { buf=""; }
@@ -33,8 +37,10 @@ RESOURCE EIK_APP_INFO
 	toolbar=r_lx_toolbar;
 	}
 
-// The standard toolbar: the program's name, four buttons for the pen, the
-// clock. Stop sends Ctrl+C (the key a terminal user reaches for most), Keys
+// The standard toolbar (the Series 5mx, and Psion's own netBook image): the
+// program's name in the framed box Psion's programs have, four buttons for
+// the pen, the clock. On Coda's netBook image r_lx_toolbar_nb takes its
+// place (psilinux.cpp). Stop sends Ctrl+C (the key a terminal user reaches for most), Keys
 // pops up the keys the Psion has none for, Copy and Paste the clipboard. The
 // pictures come from PsiLinux.mbm (linux/tools/mkicons.py). View > Show
 // toolbar (Shift+Ctrl+B, as PsiTerm: Ctrl+T must reach Linux) hides it.
@@ -45,10 +51,10 @@ RESOURCE TOOLBAR r_lx_toolbar
 		{
 		TBAR_CTRL
 			{
-			type=EEikCtLabel;
+			type=EEikCtFileNameLabel;
+			id=ELxCmdFileName;
 			flags=EEikToolBarCtrlHasSetMinLength;
 			length=KEikStdFileNameLabelHeight;
-			control=LABEL { txt="PsiLinux"; horiz_align=EEikLabelAlignHCenter; vert_align=EEikLabelAlignVCenter; };
 			},
 		TBAR_BUTTON { id=ELxCmdTbStop; layout=EEikCmdButTextRightPictureLeft|EEikCmdButDenseFont|EEikCmdButExcessToText; txt="Stop"; flags=EEikToolBarCtrlHasSetMinLength; length=KEikStdToolBarButtonHeight; },
 		TBAR_CTRL
@@ -81,18 +87,82 @@ RESOURCE TOOLBAR r_lx_toolbar
 		};
 	}
 
-// the toolbar's Keys button (no shortcuts: it is for the pen)
+// (0.43) The toolbar on Coda's netBook image, shaped as Coda gives Psion's own
+// programs theirs (psion-netbook tools/toolbars.mts): the name box, buttons
+// of the netBook's 50 pixels with colour pictures, then Coda's battery, its
+// gauges (battery, free memory, brightness...) and its clock, whose types
+// (0x7044, 0x7042, 0x7043) only Coda's Eikon knows: psilinux.cpp makes this
+// toolbar only when Z:\System\Libs\PsiBatt.dll is there.
+STRUCT LX_NB_BATTERY            // the netBook's battery's fields, as in Word's toolbar
+	{
+	LONG a=-1;
+	WORD b=10;
+	BYTE c=0;
+	LONG d=3;
+	WORD e=24;
+	LLINK f=0xf3b1b5;
+	}
+
+RESOURCE TOOLBAR r_lx_toolbar_nb
+	{
+	breadth=KEikStdToolBarWidth;
+	controls=
+		{
+		TBAR_CTRL
+			{
+			type=EEikCtFileNameLabel;
+			id=ELxCmdFileName;
+			flags=EEikToolBarCtrlHasSetMinLength;
+			length=KEikStdFileNameLabelHeight;
+			},
+		TBAR_BUTTON { id=ELxCmdTbStop; layout=EEikCmdButTextRightPictureLeft|EEikCmdButDenseFont|EEikCmdButExcessToText; txt="Stop"; flags=EEikToolBarCtrlHasSetMinLength; length=50; },
+		TBAR_CTRL
+			{
+			type=EEikCtMenuButton; id=ELxCmdTbKeys;
+			flags=EEikToolBarCtrlHasSetMinLength; length=50;
+			control=MNBUT { popout=r_lx_keys_popup; layout=EEikCmdButTextRightPictureLeft|EEikCmdButDenseFont|EEikCmdButExcessToText; txt="Keys"; };
+			},
+		TBAR_BUTTON { id=ELxCmdTbCopy; layout=EEikCmdButTextRightPictureLeft|EEikCmdButDenseFont|EEikCmdButExcessToText; txt="Copy"; flags=EEikToolBarCtrlHasSetMinLength; length=50; },
+		TBAR_BUTTON { id=ELxCmdTbPaste; layout=EEikCmdButTextRightPictureLeft|EEikCmdButDenseFont|EEikCmdButExcessToText; txt="Paste"; flags=EEikToolBarCtrlHasSetMinLength; length=50; },
+		TBAR_CTRL { type=0x7044; control=LX_NB_BATTERY; },
+		TBAR_CTRL { type=0x7042; control=SPACER; },
+		TBAR_CTRL
+			{
+			type=EEikCtSpacer;
+			flags=EEikToolBarCtrlHasSetMinLength|EEikToolBarCtrlIsStretchable;
+			length=0;
+			control=SPACER { color=6; };
+			},
+		TBAR_CTRL
+			{
+			type=0x7043;
+			control=CLOCK { digitalresourceid=R_EIK_DIGITAL_CLOCK; analogresourceid=R_EIK_ANALOG_CLOCK; };
+			},
+		TBAR_CTRL
+			{
+			type=EEikCtSpacer;
+			flags=EEikToolBarCtrlHasSetMinLength;
+			length=KEikStdGapBelowClock;
+			control=SPACER { color=6; };
+			}
+		};
+	}
+
+// the toolbar's Keys button (no shortcuts: it is for the pen): the Keys
+// menu's keys, by the same names (0.43); Interrupt (Ctrl+C) is the Stop
+// button beside it
 RESOURCE MENU_PANE r_lx_keys_popup
 	{
 	items=
 		{
+		MENU_ITEM { command=ELxCmdKeyCtrlZ; txt="Suspend"; extratxt="Ctrl+Z"; },
+		MENU_ITEM { command=ELxCmdKeyCtrlD; txt="End of input"; extratxt="Ctrl+D"; },
+		MENU_ITEM { command=ELxCmdKeyCtrlBackslash; txt="Quit"; extratxt="Ctrl+\\"; },
 		MENU_ITEM { command=ELxCmdKeyEsc; txt="Esc"; },
 		MENU_ITEM { command=ELxCmdKeyTab; txt="Tab"; },
-		MENU_ITEM { command=ELxCmdKeyBar; txt="|"; },
-		MENU_ITEM { command=ELxCmdKeyTilde; txt="~"; },
-		MENU_ITEM { command=ELxCmdKeyCtrlZ; txt="Ctrl+Z"; },
-		MENU_ITEM { command=ELxCmdKeyCtrlD; txt="Ctrl+D"; },
-		MENU_ITEM { command=ELxCmdKeyCtrlBackslash; txt="Ctrl+\\"; }
+		MENU_ITEM { command=ELxCmdKeyBar; txt="| (bar)"; },
+		MENU_ITEM { command=ELxCmdKeyBacktick; txt="` (back quote)"; },
+		MENU_ITEM { command=ELxCmdKeyTilde; txt="~ (tilde)"; }
 		};
 	}
 
@@ -108,7 +178,8 @@ RESOURCE HOTKEYS r_lx_hotkeys
 	{
 	control=
 		{
-		HOTKEY { command=ELxCmdSwitchView; key='q'; }
+		HOTKEY { command=ELxCmdSwitchView; key='q'; },
+		HOTKEY { command=ELxCmdZoomIn; key='m'; }   // (0.43) Psion's own key; Enter sends Linux the same
 		};
 	shift_control=
 		{
@@ -176,8 +247,8 @@ RESOURCE MENU_PANE r_lx_scroll_menu
 	{
 	items=
 		{
-		MENU_ITEM { command=ELxCmdScrollBack; txt="Back"; extratxt="Shift+Pg Up"; },
-		MENU_ITEM { command=ELxCmdScrollForward; txt="Forward"; extratxt="Shift+Pg Dn"; },
+		MENU_ITEM { command=ELxCmdScrollBack; txt="Back"; extratxt="Shift+Fn+Up"; },
+		MENU_ITEM { command=ELxCmdScrollForward; txt="Forward"; extratxt="Shift+Fn+Down"; },
 		MENU_ITEM { command=ELxCmdScrollLive; txt="To live screen"; }
 		};
 	}
@@ -196,10 +267,10 @@ RESOURCE MENU_PANE r_lx_keys_menu
 	{
 	items=
 		{
-		MENU_ITEM { command=ELxCmdKeyCtrlC; txt="Interrupt (Ctrl+C)"; },
-		MENU_ITEM { command=ELxCmdKeyCtrlZ; txt="Suspend (Ctrl+Z)"; },
-		MENU_ITEM { command=ELxCmdKeyCtrlD; txt="End of input (Ctrl+D)"; },
-		MENU_ITEM { command=ELxCmdKeyCtrlBackslash; txt="Quit (Ctrl+\\)"; flags=EEikMenuItemSeparatorAfter; },
+		MENU_ITEM { command=ELxCmdKeyCtrlC; txt="Interrupt"; extratxt="Ctrl+C"; },
+		MENU_ITEM { command=ELxCmdKeyCtrlZ; txt="Suspend"; extratxt="Ctrl+Z"; },
+		MENU_ITEM { command=ELxCmdKeyCtrlD; txt="End of input"; extratxt="Ctrl+D"; },
+		MENU_ITEM { command=ELxCmdKeyCtrlBackslash; txt="Quit"; extratxt="Ctrl+\\"; flags=EEikMenuItemSeparatorAfter; },
 		MENU_ITEM { command=ELxCmdKeyEsc; txt="Esc"; },
 		MENU_ITEM { command=ELxCmdKeyTab; txt="Tab"; flags=EEikMenuItemSeparatorAfter; },
 		MENU_ITEM { cascade=r_lx_symbols_menu; txt="Symbols"; },
@@ -229,6 +300,8 @@ RESOURCE MENU_PANE r_lx_fkeys_menu
 		MENU_ITEM { command=ELxCmdKeyF5; txt="F5"; },
 		MENU_ITEM { command=ELxCmdKeyF6; txt="F6"; },
 		MENU_ITEM { command=ELxCmdKeyF7; txt="F7"; },
+		MENU_ITEM { command=ELxCmdKeyF8; txt="F8"; },
+		MENU_ITEM { command=ELxCmdKeyF9; txt="F9"; },
 		MENU_ITEM { command=ELxCmdKeyF10; txt="F10"; }
 		};
 	}
@@ -237,17 +310,26 @@ RESOURCE MENU_PANE r_lx_tools_menu
 	{
 	items=
 		{
-		MENU_ITEM { command=ELxCmdPreferences; txt="Preferences..."; },
-		MENU_ITEM { command=ELxCmdDisk; txt="Linux disk..."; flags=EEikMenuItemSeparatorAfter; },
+		MENU_ITEM { command=ELxCmdPreferences; txt="Preferences"<0x85>; },
+		MENU_ITEM { command=ELxCmdDisk; txt="Linux disk"<0x85>; },
 		MENU_ITEM { command=ELxCmdReset; txt="Reset terminal"; flags=EEikMenuItemSeparatorAfter; },
 		MENU_ITEM { command=ELxCmdWelcome; txt="Show welcome banner"; flags=EEikMenuItemCheckBox; },
-		MENU_ITEM { command=ELxCmdKeepLog; txt="Keep a log"; flags=EEikMenuItemCheckBox|EEikMenuItemSeparatorAfter; },
+		MENU_ITEM { cascade=r_lx_trouble_menu; txt="Troubleshooting"; flags=EEikMenuItemSeparatorAfter; },
 		MENU_ITEM { command=ELxCmdHelp; txt="Help on PsiLinux"; },
 		MENU_ITEM { command=ELxCmdAbout; txt="About PsiLinux"; }
 		};
 	}
 
-// Tools > Preferences...
+// Tools > Troubleshooting (0.43: as in the other Coda programs, last before Help)
+RESOURCE MENU_PANE r_lx_trouble_menu
+	{
+	items=
+		{
+		MENU_ITEM { command=ELxCmdKeepLog; txt="Keep a log"; flags=EEikMenuItemCheckBox; }
+		};
+	}
+
+// Tools > Preferences…
 RESOURCE DIALOG r_lx_prefs_dialog
 	{
 	title="Preferences";
@@ -272,7 +354,7 @@ RESOURCE ARRAY r_lx_prefs_general_lines
 	{
 	items=
 		{
-		DLG_LINE { type=EEikCtChoiceList; prompt="Start"; id=ELxPrefStart;
+		DLG_LINE { type=EEikCtChoiceList; prompt="Start Linux as"; id=ELxPrefStart;
 			control=CHOICELIST { array_id=r_lx_start_list; }; },
 		DLG_LINE { type=EEikCtCheckBox; prompt="Keep memory for other programs"; id=ELxPrefKeep; },
 		DLG_LINE { type=EEikCtChoiceList; prompt="Memory to keep"; id=ELxPrefKeepKb;
@@ -326,7 +408,7 @@ RESOURCE ARRAY r_lx_prefs_cursor_lines
 	{
 	items=
 		{
-		DLG_LINE { type=EEikCtChoiceList; prompt="Cursor"; id=ELxPrefCursor;
+		DLG_LINE { type=EEikCtChoiceList; prompt="Shape"; id=ELxPrefCursor;
 			control=CHOICELIST { array_id=r_lx_pt_cursor_array; }; },
 		DLG_LINE { type=EEikCtCheckBox; prompt="Cursor blinks"; id=ELxPrefBlink; }
 		};
@@ -338,7 +420,7 @@ RESOURCE ARRAY r_lx_start_list
 		{
 		LBUF { txt="Alpine Linux"; },
 		LBUF { txt="Alpine Linux, shell only"; },
-		LBUF { txt="PsiLinux"; }
+		LBUF { txt="PsiLinux's own programs"; }
 		};
 	}
 
@@ -347,7 +429,7 @@ RESOURCE ARRAY r_lx_start_list
 // r_lx_pt_theme_colour_array (colour screens), r_lx_pt_cursor_array
 #include "lxptview.rssi"
 
-// Tools > Linux disk...
+// Tools > Linux disk…
 RESOURCE DIALOG r_lx_disk_dialog
 	{
 	title="Linux disk";
@@ -364,12 +446,10 @@ RESOURCE ARRAY r_lx_disk_list
 	{
 	items=
 		{
-		LBUF { txt="Memory disk (D:)"; },
+		LBUF { txt="The card (D:)"; },
 		LBUF { txt="Internal disk (C:)"; }
 		};
 	}
-
-RESOURCE TBUF r_lx_disk_note { buf="Linux's files are in \\Linux\\ on this disk. It applies when Linux next starts"; }
 
 // Tools > Help on PsiLinux (lxhelp.cpp)
 RESOURCE DIALOG r_lx_help_dialog
@@ -382,7 +462,22 @@ RESOURCE DIALOG r_lx_help_dialog
 		DLG_LINE { type=EEikCtChoiceList; prompt="Topic"; id=ELxHelpTopic;
 			control=CHOICELIST { array_id=r_lx_empty_array; }; },
 		DLG_LINE { type=EEikCtRichTextEditor; prompt=""; id=ELxHelpText;
-			control=RTXTED { width=520; height=118; numlines=7; textlimit=8000; flags=EEikEdwinNoAutoSelection|EEikEdwinReadOnly; }; }
+			control=RTXTED { width=520; height=LX_HELP_H_5MX; numlines=7; textlimit=8000; flags=EEikEdwinNoAutoSelection|EEikEdwinReadOnly; }; }
+		};
+	}
+
+// (0.43) the same on a 480-line screen (the netBook): 12 whole lines
+RESOURCE DIALOG r_lx_help_dialog_tall
+	{
+	title="Help on PsiLinux";
+	flags=EEikDialogFlagWait|EEikDialogFlagNotifyEsc;
+	buttons=R_EIK_BUTTONS_CONTINUE;
+	items=
+		{
+		DLG_LINE { type=EEikCtChoiceList; prompt="Topic"; id=ELxHelpTopic;
+			control=CHOICELIST { array_id=r_lx_empty_array; }; },
+		DLG_LINE { type=EEikCtRichTextEditor; prompt=""; id=ELxHelpText;
+			control=RTXTED { width=520; height=LX_HELP_H_TALL; numlines=12; textlimit=8000; flags=EEikEdwinNoAutoSelection|EEikEdwinReadOnly; }; }
 		};
 	}
 
@@ -391,9 +486,10 @@ RESOURCE ARRAY r_lx_empty_array
 	items={ LBUF { txt="-"; } };
 	}
 
-// Tools > About PsiLinux. "(c)" is put right at run time (the (c) sign).
-// (0.34: the credits in the smaller annotation font, so the box is no
-// wider than Psion's own dialogs)
+// Tools > About PsiLinux (0.43: Coda's About layout, as in its other
+// programs). The version, the © signs and Alpine's version are put in at
+// run time. The other projects' credits are Help's last topic, so the box
+// stays as narrow as Psion's own.
 RESOURCE DIALOG r_lx_about_dialog
 	{
 	title="About PsiLinux";
@@ -401,13 +497,13 @@ RESOURCE DIALOG r_lx_about_dialog
 	buttons=R_EIK_BUTTONS_CONTINUE;
 	items=
 		{
-		DLG_LINE { type=EEikCtLabel; id=ELxAbout1; control=LABEL { standard_font=EEikLabelFontLegend; txt="PsiLinux 0.20"; }; },
-		DLG_LINE { type=EEikCtLabel; id=ELxAbout5; control=LABEL { txt="Alpine Linux"; }; },
-		DLG_LINE { type=EEikCtLabel; id=ELxAbout2; control=LABEL { txt="Linux programs on the Psion - (c) 2026 Dan Edge"; }; },
-		DLG_LINE { type=EEikCtLabel; id=ELxAbout3; control=LABEL { standard_font=EEikLabelFontAnnotation; txt="BusyBox, musl, Lua, MicroPython, SQLite, jq, nano, curl, git, Mbed TLS"; }; },
-		DLG_LINE { type=EEikCtLabel; id=ELxAbout4; control=LABEL { standard_font=EEikLabelFontAnnotation; txt="PsiTerm's terminal (libvterm); Berkeley SoftFloat by John R. Hauser (BSD)"; }; },
-		DLG_LINE { type=EEikCtLabel; id=ELxAbout6; control=LABEL { standard_font=EEikLabelFontAnnotation; txt="Licences: /usr/share/licenses in Linux; sources: github.com/danieledge/psilinux"; }; },
-		DLG_LINE { type=EEikCtLabel; id=ELxAbout7; control=LABEL { standard_font=EEikLabelFontAnnotation; txt="This product includes software licensed from Symbian Ltd (c) Symbian Ltd 1998-9"; }; },
-		DLG_LINE { type=EEikCtLabel; control=LABEL { standard_font=EEikLabelFontAnnotation; txt="Support: buymeacoffee.com/danedge"; }; }
+		DLG_LINE { type=EEikCtLabel; id=ELxAbout1; control=LABEL { txt="PsiLinux"; }; },
+		DLG_LINE { type=EEikCtLabel; id=ELxAbout2; control=LABEL { txt="Linux programs for the Psion Series 5mx, Series 7 & netBook"; }; },
+		DLG_LINE { type=EEikCtLabel; id=ELxAbout3; control=LABEL { txt="(c) Dan Edge 2026 - part of Coda"; }; },
+		DLG_LINE { type=EEikCtLabel; id=ELxAbout4; control=LABEL { standard_font=EEikLabelFontAnnotation; txt="Buy me a coffee: buymeacoffee.com/danedge"; }; },
+		DLG_LINE { type=EEikCtLabel; id=ELxAbout5; control=LABEL { standard_font=EEikLabelFontAnnotation; txt="Alpine Linux"; }; },
+		DLG_LINE { type=EEikCtLabel; id=ELxAbout6; control=LABEL { standard_font=EEikLabelFontAnnotation; txt="Licences are in Linux, in /usr/share/licenses; credits in Help"; }; },
+		DLG_LINE { type=EEikCtLabel; id=ELxAbout8; control=LABEL { standard_font=EEikLabelFontAnnotation; txt="Source: github.com/danieledge/psilinux"; }; },
+		DLG_LINE { type=EEikCtLabel; id=ELxAbout7; control=LABEL { standard_font=EEikLabelFontAnnotation; txt="This product includes software licensed from Symbian Ltd (c) Symbian Ltd 1998-9"; }; }
 		};
 	}

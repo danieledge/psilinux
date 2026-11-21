@@ -189,6 +189,18 @@ void CLxSession::Beat()
 	iShared->app_heap_used = used;
 	}
 
+// (0.43) a size in KB as "768 KB", "1.6 MB", "13.2 MB" (one decimal)
+static void LxSize(TDes& aOut, TInt aKb)
+	{
+	if (aKb < 1024)
+		aOut.Format(_L("%d KB"), aKb);
+	else
+		{
+		TInt tenths = (aKb * 10 + 512) / 1024;
+		aOut.Format(_L("%d.%d MB"), tenths / 10, tenths % 10);
+		}
+	}
+
 // (0.39) Linux asleep and PsiLinux in front: "Waking Linux..." until the
 // runner has it back; with no room for its memory, the launcher (PsiHub) is
 // told, which offers its Free memory dialog. A sleep the launcher asked
@@ -203,8 +215,10 @@ void CLxSession::SleepUi()
 		iSleepSeq = iShared->sleep_seq;
 		if (iSleepAsked)
 			{
+			TBuf<16> kb;
+			LxSize(kb, iShared->sleep_freed_kb);   // (0.43: "2.4 MB", as Coda gives sizes)
 			TBuf<60> t;
-			t.Format(_L("Linux asleep - %d KB freed"), iShared->sleep_freed_kb);
+			t.Format(_L("Linux asleep - %S freed"), &kb);
 			User::InfoPrint(t);
 			iSleepAsked = EFalse;
 			}
@@ -219,7 +233,7 @@ void CLxSession::SleepUi()
 		}
 	if (waking && !iWaking)
 		{
-		TRAPD(err, env->BusyMsgL(card ? _L("Put the card back to wake Linux") : _L("Waking Linux..."),
+		TRAPD(err, env->BusyMsgL(card ? _L("Put the card back to wake Linux") : _L("Waking Linux\x85"),
 			EHLeftVBottom, TTimeIntervalMicroSeconds32(0)));
 		iWaking = ETrue;
 		iWakingCard = card;
@@ -862,7 +876,7 @@ void CLxTermView::StartLinuxL()
 	iSshActive = iSession->Running();        // (PsiTerm's bell rings only in a live session)
 	if (r != KErrNone)
 		{
-		TBuf8<120> msg(_L8("\r\n[PsiLinux: could not start the runner - "));
+		TBuf8<120> msg(_L8("\r\n[Cannot start Linux - "));
 		TBuf8<48> why;
 		why.Copy(PsiErrWords(r));
 		msg.Append(why);
@@ -921,10 +935,10 @@ void CLxTermView::SessionStateChanged()
 		if (state == LXS_FAILED)
 			{
 			TPtrC8 why((const TUint8*)iSession->Shared()->message);
-			msg.Format(_L8("\r\n[%S]\r\n[Enter starts Linux again]\r\n"), &why);
+			msg.Format(_L8("\r\n[%S]\r\n[Cannot start Linux - Enter tries again]\r\n"), &why);
 			}
 		else
-			msg.Copy(_L8("\r\n[Linux has ended. Enter starts it again]\r\n"));
+			msg.Copy(_L8("\r\n[Linux has ended - Enter starts it again]\r\n"));   // (0.43: the status line's words)
 		LocalMessage(msg);
 		}
 	iSshActive = iSession->Running();        // (PsiTerm's bell rings only in a live session)
@@ -976,13 +990,13 @@ void CLxTermView::LxStatusText(TDes& aText, TInt& aSplit) const
 	const LxShared* sh = iSession ? iSession->Shared() : NULL;
 	TInt state = iSession ? iSession->State() : LXS_EXITED;
 	if (!sh || (!iSession->Running() && state < LXS_EXITED))
-		aText.Copy(_L("Linux is not running   Enter: start it"));
+		aText.Copy(_L("Linux is not running - Enter starts it"));
 	else if (state == LXS_STARTING)
-		aText.Copy(_L("Starting Linux..."));
+		aText.Copy(_L("Starting Linux\x85"));
 	else if (state == LXS_FAILED)
-		aText.Copy(_L("Linux could not start   Enter: try again"));
+		aText.Copy(_L("Cannot start Linux - Enter tries again"));
 	else if (state == LXS_EXITED)
-		aText.Copy(_L("Linux has ended   Enter: start it again"));
+		aText.Copy(_L("Linux has ended - Enter starts it again"));
 	else
 		{
 		TBuf<32> fg;
@@ -990,19 +1004,28 @@ void CLxTermView::LxStatusText(TDes& aText, TInt& aSplit) const
 		fg.Copy(name.Left(Min(name.Length(), 24)));
 		if (fg.Length() == 0)
 			fg.Copy(_L("sh"));
-		TInt used = (TInt)(sh->mem_used / 1024), freeKb = (TInt)(sh->mem_free / 1024);
+		// (0.43) sizes as Coda's toolbar gives them: "1.6 MB", "13.2 MB free"
+		TBuf<16> used, freeMb;
+		LxSize(used, (TInt)(sh->mem_used / 1024));
+		LxSize(freeMb, (TInt)(sh->mem_free / 1024));
 		if (sh->nprocs == 1)
-			aText.Format(_L("\x95 %S   1 program, %d KB   %d KB free"), &fg, used, freeKb);
+			aText.Format(_L("\x95 %S   1 program, %S   %S free"), &fg, &used, &freeMb);
 		else
-			aText.Format(_L("\x95 %S   %d programs, %d KB   %d KB free"), &fg, sh->nprocs, used, freeKb);
+			aText.Format(_L("\x95 %S   %d programs, %S   %S free"), &fg, sh->nprocs, &used, &freeMb);
 		if (sh->log_on && iEchoLastMs)
 			aText.AppendFormat(_L("   echo %d ms, avg %d"), iEchoLastMs, iEchoAvgMs);
 		}
 	aSplit = aText.Length();
+	// (0.43) the time, through the locale's own format, only while the
+	// toolbar (which has its clock) is hidden
+	if (iLxSettings->iToolbar)
+		return;
 	TTime now;
 	now.HomeTime();
-	TDateTime t = now.DateTime();
-	aText.AppendFormat(_L("%02d:%02d"), t.Hour(), t.Minute());
+	TBuf<16> t;
+	TRAPD(err, now.FormatL(t, _L("%-B%:0%J%:1%T%+B")));
+	if (err == KErrNone && aText.Length() + t.Length() <= aText.MaxLength())
+		aText.Append(t);
 	}
 
 // ----- keys ----------------------------------------------------------------------

@@ -92,7 +92,7 @@ RESOURCE TOOLBAR r_lx_toolbar
 // of the netBook's 50 pixels with colour pictures, then Coda's battery, its
 // gauges (battery, free memory, brightness...) and its clock, whose types
 // (0x7044, 0x7042, 0x7043) only Coda's Eikon knows: psilinux.cpp makes this
-// toolbar only when Z:\System\Libs\PsiBatt.dll is there.
+// toolbar only when Z:\System\Libs\PsiBattHook.bin is there.
 STRUCT LX_NB_BATTERY            // the netBook's battery's fields, as in Word's toolbar
 	{
 	LONG a=-1;
@@ -124,8 +124,6 @@ RESOURCE TOOLBAR r_lx_toolbar_nb
 			},
 		TBAR_BUTTON { id=ELxCmdTbCopy; layout=EEikCmdButTextRightPictureLeft|EEikCmdButDenseFont|EEikCmdButExcessToText; txt="Copy"; flags=EEikToolBarCtrlHasSetMinLength; length=50; },
 		TBAR_BUTTON { id=ELxCmdTbPaste; layout=EEikCmdButTextRightPictureLeft|EEikCmdButDenseFont|EEikCmdButExcessToText; txt="Paste"; flags=EEikToolBarCtrlHasSetMinLength; length=50; },
-		TBAR_CTRL { type=0x7044; control=LX_NB_BATTERY; },
-		TBAR_CTRL { type=0x7042; control=SPACER; },
 		TBAR_CTRL
 			{
 			type=EEikCtSpacer;
@@ -133,6 +131,8 @@ RESOURCE TOOLBAR r_lx_toolbar_nb
 			length=0;
 			control=SPACER { color=6; };
 			},
+		TBAR_CTRL { type=0x7044; control=LX_NB_BATTERY; },
+		TBAR_CTRL { type=0x7042; control=SPACER; },
 		TBAR_CTRL
 			{
 			type=0x7043;
@@ -499,7 +499,7 @@ RESOURCE DIALOG r_lx_about_dialog
 		{
 		DLG_LINE { type=EEikCtLabel; id=ELxAbout1; control=LABEL { txt="PsiLinux"; }; },
 		DLG_LINE { type=EEikCtLabel; id=ELxAbout2; control=LABEL { txt="Linux programs for the Psion Series 5mx, Series 7 & netBook"; }; },
-		DLG_LINE { type=EEikCtLabel; id=ELxAbout3; control=LABEL { txt="(c) Dan Edge 2026 - part of Coda"; }; },
+		DLG_LINE { type=EEikCtLabel; id=ELxAbout3; control=LABEL { txt="(c) Dan Edge 2026 - part of Coda for the Psion netBook"; }; },
 		DLG_LINE { type=EEikCtLabel; id=ELxAbout4; control=LABEL { standard_font=EEikLabelFontAnnotation; txt="Buy me a coffee: buymeacoffee.com/danedge"; }; },
 		DLG_LINE { type=EEikCtLabel; id=ELxAbout5; control=LABEL { standard_font=EEikLabelFontAnnotation; txt="Alpine Linux"; }; },
 		DLG_LINE { type=EEikCtLabel; id=ELxAbout6; control=LABEL { standard_font=EEikLabelFontAnnotation; txt="Licences are in Linux, in /usr/share/licenses; credits in Help"; }; },

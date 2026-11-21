@@ -367,13 +367,15 @@ CLxAppUi::~CLxAppUi()
 // (0.43) On Coda's netBook image the toolbar is as Coda makes Psion's own
 // programs' (r_lx_toolbar_nb): taller buttons with colour pictures, and Coda's
 // battery, gauges and clock, which only Coda's Eikon can make (the hook in
-// PsiBatt.dll's image). On a 240-line screen (the 5mx) or another image the
-// standard toolbar stays.
+// PsiBatt.dll's image). Coda is told by Z:\System\Libs\PsiBattHook.bin,
+// which the image has only together with that hook (as PsiPDF and
+// psion-core's psitbar.h). On a 240-line screen (the 5mx) or another image
+// the standard toolbar stays.
 void CLxAppUi::MakeNetBookBarL()
 	{
 	TSize screen = iEikonEnv->ScreenDevice()->SizeInPixels();
 	TEntry e;
-	if (screen.iHeight < 400 || iCoeEnv->FsSession().Entry(_L("Z:\\System\\Libs\\PsiBatt.dll"), e) != KErrNone)
+	if (screen.iHeight < 400 || iCoeEnv->FsSession().Entry(_L("Z:\\System\\Libs\\PsiBattHook.bin"), e) != KErrNone)
 		return;
 	CEikToolBar* bar = new(ELeave) CEikToolBar;
 	CleanupStack::PushL(bar);
@@ -738,6 +740,11 @@ private:
 		else
 			a.Copy(_L("Alpine Linux - its version shows once it has started"));
 		((CEikLabel*)Control(ELxAbout5))->SetTextL(a);
+		// "part of Coda" only on Coda's netBook (its image has PsiBattHook.bin),
+		// as every bundled program's About (psion-core psiabout.h)
+		TEntry e;
+		if (iEikonEnv->FsSession().Entry(_L("Z:\\System\\Libs\\PsiBattHook.bin"), e) != KErrNone)
+			((CEikLabel*)Control(ELxAbout3))->SetTextL(_L("(c) Dan Edge 2026"));
 		LxCopyrightL((CEikLabel*)Control(ELxAbout3));
 		LxCopyrightL((CEikLabel*)Control(ELxAbout7));
 		}

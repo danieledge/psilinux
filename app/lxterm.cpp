@@ -14,6 +14,7 @@
 #include <estlib.h>
 #include <apgtask.h>
 #include "psierr.h"                  // an error as words for a message (0.45: psion-core's)
+#include "psimem.h"                  // (0.46) Coda's memory service: its words, the list and busy (psion-core)
 #include "lxterm.h"
 #include "lxepocsv.h"
 
@@ -63,12 +64,13 @@ static void EndNote(const TDesC& aWhat)
 // CLxSession
 // ===========================================================================
 
-CLxSession::CLxSession(CLxTermView& aView) : iView(aView), iLastState(-1)
+CLxSession::CLxSession(CLxTermView& aView) : iView(aView), iLastState(-1), iMemBusy(-1)
 	{
 	}
 
 CLxSession::~CLxSession()
 	{
+	MemUnregister();
 	Kill();
 	delete iEpoc;
 	delete iTick;
@@ -254,6 +256,63 @@ void CLxSession::SleepUi()
 		iNoRoomTold = EFalse;
 	}
 
+// (0.46) Coda's memory service (PsiHub, psion-core psimemlvl.h). PsiHub
+// sends "trim" and "sleep" only to the programs on its list, so PsiLinux
+// says it takes them; "busy" keeps it from being put to sleep or closed
+// while a program runs on the terminal (the runner says, lxshared.h).
+const TUint KLxMemUid = 0x01000A87;      // PsiLinux
+void CLxSession::MemRegister()
+	{
+	if (!iMemChunk.Handle())
+		PsiMemRegister(iMemChunk, KLxMemUid);
+	iMemBusy = -1;
+	}
+
+void CLxSession::MemUnregister()
+	{
+	PsiMemUnregister(iMemChunk, KLxMemUid);
+	}
+
+// "sleepnow": the runner sleeps if Linux is idle (whatever In the
+// background says: the user asked); MemTick answers once it has tried
+TBool CLxSession::SleepNowAsked()
+	{
+	if (!iShared || !iRunning || iShared->state != LXS_RUNNING)
+		return EFalse;
+	iShared->sleep_now_req++;
+	if (!iShared->sleep_now_req)
+		iShared->sleep_now_req++;        // (0 means none wanted)
+	iSleepNowWanted = iShared->sleep_now_req;
+	Ring();
+	return ETrue;
+	}
+
+// each tick: busy as the runner says, and the answer to a "sleepnow"
+void CLxSession::MemTick()
+	{
+	TInt busy = iShared && iRunning && iShared->busy ? 1 : 0;
+	if (busy != iMemBusy && iMemChunk.Handle())
+		{
+		PsiMemBusy(iMemChunk, KLxMemUid, busy);
+		iMemBusy = busy;
+		}
+	if (iSleepNowWanted && iShared && iShared->sleep_now_ans == iSleepNowWanted)
+		{
+		iSleepNowWanted = 0;
+		RWsSession& ws = CEikonEnv::Static()->WsSession();
+		if (iShared->sleep_now_result == 0)
+			PsiMemAnswer(ws, KLxMemUid, KPsiMemSlept, KNullDesC);
+		else
+			{
+			TBuf<48> why;
+			why.Copy(TPtrC8((const TUint8*)iShared->sleep_why));
+			if (!why.Length())
+				why = _L("Linux is busy");
+			PsiMemAnswer(ws, KLxMemUid, KPsiMemCannot, why);
+			}
+		}
+	}
+
 TInt CLxSession::TickCallback(TAny* aSelf)
 	{
 	CLxSession* s = (CLxSession*)aSelf;
@@ -267,6 +326,7 @@ TInt CLxSession::TickCallback(TAny* aSelf)
 	if (s->iShared)
 		s->iShared->app_behind = CCoeEnv::Static()->RootWin().OrdinalPosition() != 0;
 	s->SleepUi();
+	s->MemTick();
 	s->Beat();
 	s->Pump();
 	s->TickRate();

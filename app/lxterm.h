@@ -123,6 +123,12 @@ public:
 	// (0.39) sleep: after this many seconds behind (0: never); the launcher's "sleep"
 	void SetSleepAfter(TInt aSecs) { iSleepAfter = aSecs; if (iShared) iShared->sleep_after = aSecs; }
 	void SleepNow(TBool aAsked) { iSleepAsked = aAsked; if (iShared) { iShared->sleep_req++; Ring(); } }
+	// (0.46) Coda's memory service (psion-core psimemlvl.h): on its list while
+	// PsiLinux runs, busy while a program runs; Free memory's "Put PsiLinux to
+	// sleep" ("sleepnow"), answered once the runner has tried
+	void MemRegister();
+	void MemUnregister();
+	TBool SleepNowAsked();             // EFalse: Linux is not running (nothing to put to sleep)
 	void InFront() { if (iShared && iShared->app_behind) { iShared->app_behind = 0; Ring(); } TickRate(); }
 	void SleepUi();                    // "Waking Linux..." and the like (the tick)
 	void Ring();                       // the runner's doorbell (keys or the pen waiting for it)
@@ -148,6 +154,10 @@ private:
 	TBool iWakingCard;           // (0.40) ...as "Put the card back to wake Linux"
 	TInt iTickNowUs;             // (0.40) the tick's period now
 	TBool iNoRoomTold;
+	RChunk iMemChunk;            // (0.46) the memory service's state, while registered
+	TInt iMemBusy;               // ...what it was last told (-1: nothing yet)
+	TUint iSleepNowWanted;       // ...a "sleepnow" to answer (sleep_now_req; 0: none)
+	void MemTick();
 	TBool iChunkOpen;
 	LxShared* iShared;
 	RProcess iProcess;

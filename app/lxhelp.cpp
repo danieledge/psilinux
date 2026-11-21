@@ -41,7 +41,8 @@ static const TLxHelpTopic KHelpTopics[] =
 	  "It wakes when PsiLinux comes to the front. Linux stays awake while a program runs, an editor or "
 	  "a pager is open, or a network connection is open. With too little room on the disk it stays awake "
 	  "and tries again later. Asleep, the disk must stay in: with the card out, PsiLinux says "
-	  "\"Put the card back to wake Linux\" and waits." },
+	  "\"Put the card back to wake Linux\" and waits. On Coda, Free memory's \"Put PsiLinux to sleep\" "
+	  "puts an idle Linux to sleep at once, whatever this choice." },
 
 	{ "Alpine Linux",
 	  "PsiLinux runs Alpine Linux 3.24: Alpine's own programs, unchanged, and its package "

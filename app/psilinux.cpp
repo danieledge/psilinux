@@ -34,16 +34,14 @@
 #include <psilinux.rsg>
 
 const TUid KUidPsiLinux = { 0x01000A87 };
-_LIT(KLxVersion, "0.45");
+_LIT(KLxVersion, "0.46");
 _LIT(KIniFile, "C:\\System\\Apps\\PsiLinux\\PsiLinux.ini");
 
 // (0.38) Short of memory: the launcher (PsiHub, which watches the free RAM)
 // sends "trim" under 3 MB free and "sleep" under 1.5 MB to programs behind,
-// as window-group messages with this UID (psion-core ssh/psimem.h, whose
-// values these are: the app takes PsiTerm's core, which may not have it)
-const TInt KLxMemMsgUid = 0x01000BA0;
-_LIT8(KLxMemTrim, "trim");
-_LIT8(KLxMemSleep, "sleep");
+// as window-group messages (psion-core ssh/psimem.h; 0.46: its words, and
+// PsiLinux on the service's list, lxterm.cpp)
+#include "psimem.h"
 
 // (0.43) a zoom level's name as Preferences and the zoom's infoprint give it:
 // its size in pixels, or "Smallest" for the ROM's Courier small (level 0)
@@ -301,6 +299,7 @@ void CLxAppUi::ConstructL()
 	AddToStackL(iTerm);
 	iTerm->Session()->SetScreenHook(this);
 	iTerm->Session()->SetStartFree(mi().iFreeRamInBytes);
+	iTerm->Session()->MemRegister();        // (0.46) on the memory service's list (lxterm.cpp)
 	// (0.26) Linux starts once the program is up, not here: the command
 	// line (ProcessCommandParametersL) may still be to come
 	iStarter = CIdle::NewL(CActive::EPriorityStandard);
@@ -321,19 +320,27 @@ TInt CLxAppUi::StartNow(TAny* aSelf)
 // programs' memory cannot be made again), and the runner gives back what can
 // be: the program cache, unused shared images, the translator's code and
 // its heap's free end; the window gives back its heap's free end.
+// (0.46) PsiHub sends them only to the programs on its list, which PsiLinux
+// now joins at its start (CLxSession::MemRegister); and "sleepnow", Free
+// memory's "Put PsiLinux to sleep", sleeps Linux if it is idle whatever In
+// the background says (the user asked), and is answered.
 void CLxAppUi::ProcessMessageL(TUid aUid, const TDesC8& aParams)
 	{
-	if (aUid.iUid != KLxMemMsgUid)
+	TPsiMemWord word = PsiMemWordOf(aUid, aParams);
+	if (aUid.iUid == KPsiMemMsgUid && word == EPsiMemWordNone)
+		return;                              // (a word of the service's not for programs: never a file to open)
+	if (word == EPsiMemWordNone)
 		{
 		CEikAppUi::ProcessMessageL(aUid, aParams);
 		return;
 		}
-	if (aParams == KLxMemTrim || aParams == KLxMemSleep)
-		iTerm->Session()->Trim();
+	iTerm->Session()->Trim();
 	// (0.39) "sleep": Linux sleeps now, if it is idle (In the background:
 	// Never sleep leaves it awake)
-	if (aParams == KLxMemSleep && iTerm->SleepAfter())
+	if (word == EPsiMemWordSleep && iTerm->SleepAfter())
 		iTerm->Session()->SleepNow(ETrue);
+	if (word == EPsiMemWordSleepNow && !iTerm->Session()->SleepNowAsked())
+		PsiMemAnswer(iCoeEnv->WsSession(), KUidPsiLinux.iUid, KPsiMemCannot, _L("Linux is not running"));
 	}
 
 TBool CLxAppUi::ProcessCommandParametersL(TApaCommand aCommand, TFileName& aDocumentName, const TDesC8& aTail)

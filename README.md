@@ -26,6 +26,7 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 
 ## Contents
 
+- [What's new in 0.46](#whats-new-in-046)
 - [What's new in 0.43](#whats-new-in-043)
 - [What's new in 0.42](#whats-new-in-042)
 - [What's new in 0.41](#whats-new-in-041)
@@ -46,6 +47,30 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 - [Documents](#documents)
 - [Support](#support)
 - [Credits and licences](#credits-and-licences)
+
+## What's new in 0.46
+
+PsiLinux gives memory back when it is short, and Coda can ask it to.
+- A big block of memory a Linux program asks for (128 KB or more: what
+  musl's malloc maps for each large allocation) has a chunk of its own, so
+  it goes back to the Psion as soon as it is freed. Before, it came from
+  one shared area that could only shrink from its top, and what was freed
+  below stayed taken. In the netBook emulator, bash with 6 MB of variables
+  (`printf -v a '%4000000s' x` and `printf -v b '%2000000s' x`) held
+  16.4 MB in 0.45 and 12.5 MB now: 3.9 MB of buffers bash had already
+  freed. (An empty file `NOBIGMAP` in the Linux folder turns it off.)
+- On Coda, PsiLinux is on the memory service's list, so PsiHub tells it
+  when memory runs short: "trim" gives back the caches and the free end of
+  both heaps; "sleep" does that too, and puts Linux to sleep if In the
+  background allows it. Free memory offers "Put PsiLinux to sleep" rather
+  than only closing it, and that puts an idle Linux to sleep at once,
+  whatever In the background says, and tells Free memory how it went (or
+  why not: a program is running, the card is out or full).
+- While a program runs on the terminal, has the screen or has a connection
+  open, PsiLinux tells Coda it is busy, so it is not put to sleep or closed
+  to free memory.
+- `/proc/psilinux/mem` says how many big blocks there are and what they
+  hold.
 
 ## What's new in 0.43
 

@@ -18,7 +18,7 @@
 
 #define LX_SHARED_NAME   "PsiLinuxTerm"
 #define LX_SHARED_MAGIC  0x584e4c50u      /* 'PLNX' */
-#define LX_SHARED_VERSION 9
+#define LX_SHARED_VERSION 10
 #define LX_KBD_SIZE      2048
 #define LX_OUT_SIZE      16384
 #define LX_EPOC_BUF      16032         /* (6) an EPOC request or answer (lxepoc.h: header + LXE_MAX) */
@@ -102,6 +102,16 @@ typedef struct
 	volatile int sleep_state;          /* LXS_AWAKE... (the runner) */
 	volatile unsigned int sleep_seq;   /* the runner adds 1 at each sleep */
 	volatile int sleep_freed_kb;       /* what the last sleep gave back */
+
+	/* (10) Coda's memory service (0.46: psion-core psimemlvl.h): PsiLinux is
+	 * on its list of programs that answer "trim" and "sleep" */
+	volatile int busy;                 /* 1: a program runs on the terminal, has the screen, or a connection is
+	                                      open (the runner, each second): not to be put to sleep or closed */
+	volatile unsigned int sleep_now_req;   /* the app adds 1: sleep now if idle, whatever In the background
+	                                      says (Free memory's "Put PsiLinux to sleep", "sleepnow") */
+	volatile unsigned int sleep_now_ans;   /* the runner sets it to sleep_now_req once it has tried */
+	volatile int sleep_now_result;     /* ...0: asleep; else -errno, and sleep_why says why in words */
+	char sleep_why[48];
 	} LxShared;
 
 enum { LXS_AWAKE = 0, LXS_ASLEEP, LXS_NOROOM, LXS_NOCARD };   /* sleep_state: NOROOM: asleep, and no RAM to wake; (0.40) NOCARD: asleep, its card out */

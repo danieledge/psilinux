@@ -775,8 +775,8 @@ static int proc_text(lx_proc *p, lx_vn *v, char *buf, int size)
 	case P_PSIMEM: {
 		lx_u32 res = bk_mem_reserve();
 		lx_bkmem w;
-		lx_u32 su, ac, au, cache = lx_exec_cache_bytes(), unused = lx_simg_unused_bytes(), other;
-		int ns;
+		lx_u32 su, ac, au, bc, cache = lx_exec_cache_bytes(), unused = lx_simg_unused_bytes(), other;
+		int ns, nb;
 		bk_mem_info(&total, &freeb);
 		o = lx_snprintf(buf, size, "free\t%u KB (the Psion's free RAM)\ncached\t%u KB (programs and libraries kept for their next run)\nreserve\t%u KB%s\navailable\t%u KB (for Linux: free less the reserve)\nrefused\t%u (%u KB)\n",
 			freeb / 1024, lx_mem_cached() / 1024, res / 1024, res ? "" : " (off)", lx_mem_avail() / 1024, lx_k.reserve_refused, lx_k.reserve_refused_kb);
@@ -784,12 +784,13 @@ static int proc_text(lx_proc *p, lx_vn *v, char *buf, int size)
 		bk_mem_where(&w);
 		su = lx_simg_used_bytes(&ns);
 		lx_arena_stats(&ac, &au);
+		nb = lx_bigmap_stats(&bc);
 		other = w.image > su + unused + cache ? w.image - su - unused - cache : 0;
 		o += lx_snprintf(buf + o, size - o,
 			"shared\t%u KB (%d programs and libraries in use)\nimages\t%u KB (programs' own, forks' saved memory)\nstacks\t%u KB (%d)\n"
-			"mmap\t%u KB committed, %u KB in use\ncode\t%u KB (the translator: its cache and table)\n"
+			"mmap\t%u KB committed, %u KB in use (%d big, a chunk each: %u KB)\ncode\t%u KB (the translator: its cache and table)\n"
 			"heap\t%u KB, %u KB in use (the runner's: tables, writable copies, pipes)\nthreads\t%d (16 KB each)\ntables\t%u KB (the runner's fixed tables)\n",
-			su / 1024, ns, other / 1024, w.stack / 1024, w.nstack, ac / 1024, au / 1024, dbt_committed() / 1024,
+			su / 1024, ns, other / 1024, w.stack / 1024, w.nstack, ac / 1024, au / 1024, nb, bc / 1024, dbt_committed() / 1024,
 			w.heap_size / 1024, w.heap_used / 1024, w.threads, (lx_u32)sizeof lx_k / 1024);
 		if (w.app_heap) o += lx_snprintf(buf + o, size - o, "app\t%u KB, %u KB in use (the window's heap: the terminal, its history)\n", w.app_heap / 1024, w.app_heap_used / 1024);
 		o += lx_k_trim_info(buf + o, size - o);

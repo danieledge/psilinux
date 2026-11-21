@@ -4,7 +4,16 @@
  * on EPOC, so they go back to EPOC whole when a program ends). Everything
  * mmap gives out comes from one arena, a single chunk managed here in 4 KB
  * pages: first fit, and the chunk is made smaller whenever its top pages are
- * free, so memory goes back to the Psion's other programs. */
+ * free, so memory goes back to the Psion's other programs.
+ *
+ * (0.46) A big mapping (BIG_MIN or more: what musl's malloc maps for each
+ * large block) is a chunk of its own instead, with room above it to grow in
+ * place (mremap, as realloc does). In the arena only the top could go back:
+ * bash's printf -v builds its result in a buffer that grows by doubling and
+ * is freed once the variable has its copy, and those holes stayed
+ * committed below the variables. Now a big mapping freed gives all its
+ * pages back at once, and freeing either end of one gives that end back.
+ * <root>\NOBIGMAP turns it off (every mapping in the arena, as before). */
 #include "lx_core.h"
 #include "lx_dbt.h"
 
@@ -66,6 +75,113 @@ int lx_region_new(lx_region *r, lx_u32 size, int kind)
 	return bk_region_new(r, size, kind);
 }
 
+/* ---- (0.46) big mappings, a chunk each ---------------------------------- */
+#define BIG_MIN (128u * 1024)           /* mappings this big or more */
+#define BIG_N 40                        /* at most; after that, the arena */
+#define BIG_ROOM_MAX (16u * 1024 * 1024)   /* address space kept above one to grow into */
+typedef struct {
+	lx_u32 base, max;                   /* the chunk's address space: [base, base + max) */
+	lx_u32 lo, hi;                      /* committed: pages [lo, hi) */
+	lx_u8 *used;                        /* a bit a page */
+	void *bk;
+} big_blk;
+static big_blk bigs[BIG_N];
+static int big_off = -1;
+
+static int big_on(void)
+{
+	if (big_off < 0) big_off = bk_bigmap_off();
+	return !big_off;
+}
+
+static big_blk *big_of(lx_u32 addr)
+{
+	int i;
+	for (i = 0; i < BIG_N; i++)
+		if (bigs[i].bk && addr >= bigs[i].base && addr < bigs[i].base + bigs[i].max) return &bigs[i];
+	return 0;
+}
+
+static int big_used(big_blk *b, lx_u32 i) { return b->used[i >> 3] & (1 << (i & 7)); }
+static void big_set(big_blk *b, lx_u32 i, int v)
+{
+	if (v) b->used[i >> 3] |= (lx_u8)(1 << (i & 7));
+	else b->used[i >> 3] &= (lx_u8)~(1 << (i & 7));
+}
+
+/* a new chunk for n pages; 0 if there is no room (no slot: the caller uses
+ * the arena; no memory: the caches give way first, as for the arena) */
+static lx_u32 big_alloc(lx_u32 n, int *no_slot)
+{
+	big_blk *b = 0;
+	lx_u32 max, i;
+	int k;
+	*no_slot = 0;
+	for (k = 0; k < BIG_N; k++) if (!bigs[k].bk) { b = &bigs[k]; break; }
+	if (!b) { *no_slot = 1; return 0; }
+	/* twice its size, in whole megabytes, for a realloc to grow into */
+	max = n * PAGE * 2;
+	if (max > BIG_ROOM_MAX) max = n * PAGE > BIG_ROOM_MAX ? n * PAGE : BIG_ROOM_MAX;
+	max = (max + 0xfffff) & ~0xfffffu;
+	if (!lx_reserve_ok(n * PAGE)) {
+		lx_mem_reclaim();
+		if (!lx_reserve_ok(n * PAGE)) return 0;
+	}
+	b->used = (lx_u8 *)bk_alloc(max / PAGE / 8 + 1);
+	if (!b->used) return 0;
+	if (bk_bigmap_new(max, n * PAGE, &b->bk, &b->base) < 0) {
+		lx_mem_reclaim();
+		if (bk_bigmap_new(max, n * PAGE, &b->bk, &b->base) < 0) {
+			bk_free(b->used);
+			bk_memset(b, 0, sizeof *b);
+			return 0;
+		}
+	}
+	b->max = max;
+	b->lo = 0;
+	b->hi = n;
+	for (i = 0; i < n; i++) big_set(b, i, 1);
+	bk_memset((void *)b->base, 0, n * PAGE);
+	return b->base;
+}
+
+/* pages freed: the chunk is just the pages still in use (all gone: closed) */
+static void big_free(big_blk *b, lx_u32 addr, lx_u32 len)
+{
+	lx_u32 first = (addr - b->base) / PAGE, n = (len + PAGE - 1) / PAGE, i, lo, hi;
+	for (i = first; i < first + n && i < b->max / PAGE; i++) big_set(b, i, 0);
+	lo = b->lo;
+	hi = b->hi;
+	while (lo < hi && !big_used(b, lo)) lo++;
+	while (hi > lo && !big_used(b, hi - 1)) hi--;
+	if (lo == hi) {
+		bk_bigmap_free(b->bk);
+		bk_free(b->used);
+		bk_memset(b, 0, sizeof *b);
+		return;
+	}
+	if ((lo != b->lo || hi != b->hi) && bk_bigmap_adjust(b->bk, lo * PAGE, hi * PAGE) == 0) {
+		b->lo = lo;
+		b->hi = hi;
+	}
+}
+
+/* can the mapping at addr (in b) grow to newlen where it is? */
+static int big_extend(big_blk *b, lx_u32 addr, lx_u32 oldlen, lx_u32 newlen)
+{
+	lx_u32 first = (addr - b->base) / PAGE, o = (oldlen + PAGE - 1) / PAGE, n = (newlen + PAGE - 1) / PAGE, i;
+	if ((first + n) * PAGE > b->max) return 0;
+	for (i = first + o; i < first + n; i++) if (big_used(b, i)) return 0;
+	if (first + n > b->hi) {
+		if (!lx_reserve_ok((first + n - b->hi) * PAGE)) return 0;
+		if (bk_bigmap_adjust(b->bk, b->lo * PAGE, (first + n) * PAGE) < 0) return 0;
+		b->hi = first + n;
+	}
+	for (i = first + o; i < first + n; i++) big_set(b, i, 1);
+	bk_memset((void *)(b->base + (first + o) * PAGE), 0, (n - o) * PAGE);
+	return 1;
+}
+
 /* commits the arena up to top pages (only a growth is checked) */
 static int arena_grow(lx_u32 top)
 {
@@ -92,6 +208,11 @@ static void arena_trim(void)
 lx_u32 lx_arena_alloc(lx_u32 len)
 {
 	lx_u32 n = (len + PAGE - 1) / PAGE, i, run = 0, start = 0;
+	if (n && n * PAGE >= BIG_MIN && big_on()) {
+		int no_slot;
+		lx_u32 p = big_alloc(n, &no_slot);
+		if (p || !no_slot) return p;
+	}
 	arena_init();
 	if (!n || !npages) return 0;
 	for (i = 0; i < npages; i++) {
@@ -116,15 +237,35 @@ lx_u32 lx_arena_alloc(lx_u32 len)
 /* (0.38) the arena's pages: committed, and in use */
 void lx_arena_stats(lx_u32 *committed_b, lx_u32 *used_b)
 {
-	lx_u32 i, n = 0;
+	lx_u32 i, n = 0, c = committed;
+	int k;
 	for (i = 0; i < committed; i++) if (page_used(i)) n++;
-	*committed_b = committed * PAGE;
+	/* (0.46) and the big mappings' chunks */
+	for (k = 0; k < BIG_N; k++)
+		if (bigs[k].bk) {
+			c += bigs[k].hi - bigs[k].lo;
+			for (i = bigs[k].lo; i < bigs[k].hi; i++) if (big_used(&bigs[k], i)) n++;
+		}
+	*committed_b = c * PAGE;
 	*used_b = n * PAGE;
+}
+
+/* (0.46) the big mappings: how many, and their committed bytes */
+int lx_bigmap_stats(lx_u32 *committed_b)
+{
+	int k, n = 0;
+	lx_u32 c = 0;
+	for (k = 0; k < BIG_N; k++)
+		if (bigs[k].bk) { n++; c += (bigs[k].hi - bigs[k].lo) * PAGE; }
+	*committed_b = c;
+	return n;
 }
 
 void lx_arena_free(lx_u32 addr, lx_u32 len)
 {
 	lx_u32 i, first, n = (len + PAGE - 1) / PAGE;
+	big_blk *b = big_of(addr);
+	if (b) { big_free(b, addr, len); return; }
 	if (!npages || addr < base) return;
 	first = (addr - base) / PAGE;
 	for (i = first; i < first + n && i < npages; i++) page_set(i, 0);
@@ -135,6 +276,9 @@ void lx_arena_free(lx_u32 addr, lx_u32 len)
 static int arena_extend(lx_u32 addr, lx_u32 oldlen, lx_u32 newlen)
 {
 	lx_u32 i, first = (addr - base) / PAGE, o = (oldlen + PAGE - 1) / PAGE, n = (newlen + PAGE - 1) / PAGE;
+	big_blk *b = big_of(addr);
+	if (b) return big_extend(b, addr, oldlen, newlen);
+	if (!npages || addr < base) return 0;
 	if (first + n > npages) return 0;
 	for (i = first + o; i < first + n; i++) if (page_used(i)) return 0;
 	if (first + n > committed) {

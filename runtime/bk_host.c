@@ -284,6 +284,54 @@ lx_u32 bk_arena_base(void)
 	return (lx_u32)(long)arena;
 }
 lx_u32 bk_arena_max(void) { return arena ? ARENA_MAX : 0; }
+/* (0.46) a big mapping's own chunk: the address space at once, the
+ * committed part counted against LX_SIM_FREE, as on the Psion; the pages
+ * above hi made inaccessible, so a use of a freed top faults here */
+typedef struct { char *p; lx_u32 max, lo, hi; } hbig;
+int bk_bigmap_new(lx_u32 max, lx_u32 size, void **bk, lx_u32 *base)
+{
+	hbig *b;
+	char *p;
+	size = (size + 4095) & ~4095u;
+	if (size > sim_free()) return -LX_ENOMEM;
+	p = (char *)mmap(0, max, PROT_NONE, MAP_PRIVATE | MAP_ANONYMOUS | MAP_NORESERVE, -1, 0);
+	if (p == MAP_FAILED) return -LX_ENOMEM;
+	b = (hbig *)calloc(1, sizeof *b);
+	if (!b) { munmap(p, max); return -LX_ENOMEM; }
+	mprotect(p, size, PROT_READ | PROT_WRITE | PROT_EXEC);
+	b->p = p; b->max = max; b->lo = 0; b->hi = size;
+	sim_used += size;
+	hreg_add(p, size, 0, 0);
+	*bk = b;
+	*base = (lx_u32)(long)p;
+	return 0;
+}
+int bk_bigmap_adjust(void *bk, lx_u32 lo, lx_u32 hi)
+{
+	hbig *b = (hbig *)bk;
+	int i;
+	if (hi > b->max || lo > hi) return -LX_EINVAL;
+	if (hi - lo > b->hi - b->lo && hi - lo - (b->hi - b->lo) > sim_free()) return -LX_ENOMEM;
+	sim_used += (hi - lo) - (b->hi - b->lo);
+	/* (below lo stays readable, as zeros: sleep saves from the start) */
+	mprotect(b->p, b->max, PROT_NONE);
+	if (hi) mprotect(b->p, hi, PROT_READ | PROT_WRITE | PROT_EXEC);
+	madvise(b->p, lo, MADV_DONTNEED);
+	madvise(b->p + hi, b->max - hi, MADV_DONTNEED);
+	b->lo = lo; b->hi = hi;
+	/* (sleep saves it as one region: from the start, to its top) */
+	for (i = 0; i < HMAXREG; i++) if (hregs[i].p == b->p) hregs[i].len = hi;
+	return 0;
+}
+void bk_bigmap_free(void *bk)
+{
+	hbig *b = (hbig *)bk;
+	hreg_del(b->p);
+	sim_used -= b->hi - b->lo;
+	munmap(b->p, b->max);
+	free(b);
+}
+int bk_bigmap_off(void) { return getenv("LX_NOBIGMAP") != 0; }
 /* Alpine mode's code cache: all of it at once (the host has room) */
 int bk_code_region(lx_region *r, lx_u32 max, lx_u32 size)
 {

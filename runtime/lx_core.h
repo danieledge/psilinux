@@ -25,7 +25,7 @@
 extern "C" {
 #endif
 
-#define LX_VERSION "0.44"
+#define LX_VERSION "0.46"
 #define LX_MAXPROC 64
 #define LX_MAXTHREAD 64
 #define LX_MAXFD 128
@@ -355,6 +355,12 @@ int bk_code_grow(lx_region *r, lx_u32 size);  /* commit this much of it */
 void bk_code_sync(lx_u32 start, lx_u32 len);  /* (0.28) code written there: make the CPU see it (split caches) */
 lx_u32 bk_arena_base(void);
 lx_u32 bk_arena_max(void);
+/* (0.46) a big mapping's own chunk (lx_mem.c): max bytes of address space
+ * at *base, [0, size) committed; adjust commits [lo, hi) of it */
+int bk_bigmap_new(lx_u32 max, lx_u32 size, void **bk, lx_u32 *base);
+int bk_bigmap_adjust(void *bk, lx_u32 lo, lx_u32 hi);
+void bk_bigmap_free(void *bk);
+int bk_bigmap_off(void);                      /* 1: every mapping in the arena (<root>\NOBIGMAP) */
 void *bk_alloc(lx_u32 n);                     /* kernel memory (zeroed) */
 void bk_free(void *p);
 void bk_memcpy(void *d, const void *s, lx_u32 n);
@@ -529,6 +535,7 @@ void lx_simg_stats(char *buf, int size);
 /* lx_mem.c */
 lx_u32 lx_arena_alloc(lx_u32 len);
 void lx_arena_stats(lx_u32 *committed_b, lx_u32 *used_b);   /* (0.38) for /proc/psilinux/mem */
+int lx_bigmap_stats(lx_u32 *committed_b);    /* (0.46) the big mappings' chunks: how many */
 lx_u32 lx_simg_used_bytes(int *n);            /* (0.38) lx_simg.c: the shared images in use */
 int lx_k_trim(const char *why);
 int lx_k_trim_info(char *buf, int size);

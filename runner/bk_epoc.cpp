@@ -1232,6 +1232,46 @@ extern "C" lx_u32 bk_arena_base(void)
 	}
 extern "C" lx_u32 bk_arena_max(void) { return gArenaOk ? KArenaMax : 0; }
 
+// (0.46) a big mapping's own chunk (lx_mem.c): double-ended, so that
+// freeing either end of it gives those pages back; max bytes of address
+// space, [0, size) committed. It sleeps with the rest (gSl).
+extern "C" int bk_bigmap_new(lx_u32 max, lx_u32 size, void** bk, lx_u32* base)
+	{
+	RChunk* c = new RChunk;
+	if (!c)
+		return -LX_ENOMEM;
+	TInt e = c->CreateDoubleEndedLocal(0, (size + 4095) & ~4095u, max);
+	if (e != KErrNone)
+		{
+		delete c;
+		return Err(e);
+		}
+	*bk = c;
+	*base = (lx_u32)c->Base();
+	SlAdd(c, ETrue);
+	return 0;
+	}
+extern "C" int bk_bigmap_adjust(void* bk, lx_u32 lo, lx_u32 hi) { return Err(((RChunk*)bk)->AdjustDoubleEnded(lo, hi)); }
+extern "C" void bk_bigmap_free(void* bk)
+	{
+	RChunk* c = (RChunk*)bk;
+	SlRemove(c);
+	c->Close();
+	delete c;
+	}
+// (<root>\NOBIGMAP: every mapping in the arena, as before 0.46)
+extern "C" int bk_bigmap_off(void)
+	{
+	TFileName t;
+	Name(t, gSh->root);
+	t.Append(_L("NOBIGMAP"));
+	TEntry e;
+	TInt off = gFs.Entry(t, e) == KErrNone;
+	if (off)
+		bk_log("memory: NOBIGMAP: big mappings in the arena, as before 0.46");
+	return off;
+	}
+
 // Alpine mode's code cache: max bytes of address space, size committed
 extern "C" int bk_code_region(lx_region* r, lx_u32 max, lx_u32 size)
 	{
@@ -1885,6 +1925,13 @@ static TInt gBehindSecs;
 static TUint gSleepReq;
 static TInt gSleepBackoff;       // (0.40) seconds after the last failure (0: none failed)
 static TInt gSleepWait;          // ...left to wait
+static void Slept()
+	{
+	gSh->sleep_freed_kb = lx_k_sleep_freed_kb();
+	gSh->sleep_state = LXS_ASLEEP;
+	gSh->sleep_seq++;
+	gAppRinger.Ring(&gSh->app_bell);
+	}
 static void AutoSleep(TInt aIdleSecs)
 	{
 	TBool asked = gSh->sleep_req != gSleepReq;
@@ -1912,10 +1959,58 @@ static void AutoSleep(TInt aIdleSecs)
 		}
 	gSleepBackoff = 0;
 	gSleepWait = 0;
-	gSh->sleep_freed_kb = lx_k_sleep_freed_kb();
-	gSh->sleep_state = LXS_ASLEEP;
-	gSh->sleep_seq++;
+	Slept();
+	}
+
+// (0.46) Free memory's "Put PsiLinux to sleep" (PsiHub's "sleepnow"): the
+// user's own choice, so Linux sleeps now if it is idle, whatever In the
+// background says; the app answers PsiHub with how it went
+// (sleep_now_ans, sleep_now_result, sleep_why).
+static void SleepNowAsked()
+	{
+	if (gSh->sleep_now_req == gSh->sleep_now_ans)
+		return;
+	const char* why = 0;
+	TInt r = 0;
+	if (!lx_k_asleep)
+		{
+		why = lx_k_sleep_blocker();
+		if (!why && (gSh->out_head != gSh->out_tail || gSh->kbd_head != gSh->kbd_tail || gSh->epoc_req_seq != gSh->epoc_ans_seq))
+			why = "a program is running";
+		if (why)
+			r = -LX_EBUSY;
+		else
+			{
+			r = lx_k_sleep("Free memory asked");
+			if (r == 0)
+				Slept();
+			else if (r == -LX_EBUSY)
+				why = "a program is running";
+			else
+				why = r == -LX_ENOSPC ? "the card is out or full" : "the card could not be written";
+			}
+		}
+	TPtr8 w((TUint8*)gSh->sleep_why, 0, sizeof gSh->sleep_why - 1);
+	if (why)
+		w.Copy(TPtrC8((const TUint8*)why));
+	w.ZeroTerminate();
+	gSh->sleep_now_result = r;
+	gSh->sleep_now_ans = gSh->sleep_now_req;
 	gAppRinger.Ring(&gSh->app_bell);
+	}
+
+// (0.46) busy for Coda's memory service (lxshared.h): not to be put to sleep
+// or closed while a program runs on the terminal, has the screen or a
+// connection is open; a shell at its prompt is not busy, nor Linux asleep
+static void BusyNow()
+	{
+	const char* why = lx_k_asleep ? 0 : lx_k_sleep_blocker();
+	TInt busy = why && lx_strcmp(why, "a timer is due") != 0 && lx_strcmp(why, "Linux is ending") != 0;
+	if (gSh->busy != busy)
+		{
+		gSh->busy = busy;
+		gAppRinger.Ring(&gSh->app_bell);
+		}
 	}
 
 static void IdleTrim()
@@ -1986,7 +2081,9 @@ void CLxTerm::Housekeeping()
 		return;
 		}
 	IdleTrim();
+	SleepNowAsked();
 	AutoSleep(gIdleSecs);
+	BusyNow();
 	if (lx_k_asleep && !gSh->app_behind)
 		Wake("in front");
 	TInt n = 0;

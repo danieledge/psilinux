@@ -25,7 +25,7 @@
 extern "C" {
 #endif
 
-#define LX_VERSION "0.43"
+#define LX_VERSION "0.44"
 #define LX_MAXPROC 64
 #define LX_MAXTHREAD 64
 #define LX_MAXFD 128

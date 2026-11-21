@@ -232,8 +232,12 @@ static void ep_pump(epf *e)
 static void ep_take(void)
 {
 	if (slot_busy) {
-		static char tmp[HDR + LXE_MAX + 1];
-		int n = bk_epoc_answer(tmp, sizeof tmp);
+		/* (0.44, MEM-100) taken at the first answer (the epoc command's
+		   sessions only): 16 KB of statics in every session before */
+		static char *tmp;
+		int n;
+		if (!tmp && !(tmp = (char *)bk_alloc(HDR + LXE_MAX + 1))) return;
+		n = bk_epoc_answer(tmp, HDR + LXE_MAX + 1);
 		if (n > 0) {
 			epf *o = slot_owner;
 			slot_busy = 0;

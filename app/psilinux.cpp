@@ -34,7 +34,7 @@
 #include <psilinux.rsg>
 
 const TUid KUidPsiLinux = { 0x01000A87 };
-_LIT(KLxVersion, "0.43");
+_LIT(KLxVersion, "0.44");
 _LIT(KIniFile, "C:\\System\\Apps\\PsiLinux\\PsiLinux.ini");
 
 // (0.38) Short of memory: the launcher (PsiHub, which watches the free RAM)
@@ -522,6 +522,15 @@ void CLxAppUi::ScreenOnOff(TBool aOn)
 		{
 		TRAPD(err, SwitchToL(0));
 		iScreen->Close();
+		// (0.44, MEM-101) and the view goes: its backed-up window and its
+		// five strips (about 150 KB) stayed until PsiLinux ended. Made again
+		// when a program next opens the screen. (Not while it is still the
+		// view in front: the switch back failed.)
+		if (iView != 1)
+			{
+			delete iScreen;
+			iScreen = NULL;
+			}
 		}
 	}
 

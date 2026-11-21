@@ -20,7 +20,6 @@
 _LIT(KRunnerExe, "psilxrun.exe");
 _LIT(KLxFontFile, "PsiTerm.gdr");          // PsiTerm's fonts, beside the program
 const TInt KLxScrollbackLines = 300;       // (as PsiTerm's KScrollbackLines)
-const TInt KLxScrollbackFirst = 50;        // (0.38) the history's room at first: it grows
 const TInt KLxScrollbackCols = 128;
 const TInt KLxTickUs = 500000;             // the status line, the cursor's blink
 const TInt KTickUs = KLxTickUs;            // (CLxSession's tick)
@@ -422,10 +421,26 @@ void CLxSession::Kill()
 		}
 	if (iProcessOpen)
 		{
-		if (iProcess.ExitType() == EExitPending)
+		TBool killed = iProcess.ExitType() == EExitPending;
+		if (killed)
 			iProcess.Kill(0);
 		iProcess.Close();
 		iProcessOpen = EFalse;
+		// (0.44, MEM-102) a runner that had to be killed did not clean up a
+		// sleep's files (1 to 8 MB on the card): they go here
+		if (killed)
+			{
+			RFs& fs = CEikonEnv::Static()->FsSession();
+			CFileMan* fm = 0;
+			TRAPD(err, fm = CFileMan::NewL(fs));
+			if (fm)
+				{
+				fm->Delete(_L("D:\\System\\Apps\\PsiLinux\\Sleep\\*.mem"));
+				fm->Delete(_L("C:\\System\\Apps\\PsiLinux\\Sleep\\*.mem"));
+				delete fm;
+				}
+			(void)err;
+			}
 		}
 	iRunning = EFalse;
 	}
@@ -439,45 +454,16 @@ void CLxSession::Kill()
 static CLxTermView& Lx(CTermView* aView) { return *(CLxTermView*)aView; }
 static const CLxTermView& Lx(const CTermView* aView) { return *(const CLxTermView*)aView; }
 
-// (0.38) A line leaves the top of the screen for the history: when the
-// history is full and has not reached KLxScrollbackLines, it moves to room
-// twice the size first, its lines in order (if the heap has none, the
-// oldest line goes, as when it is full)
-static void SbGrow(TTermSb& aSb, TSbCell*& aCells, short*& aCols)
-	{
-	if (aSb.iCount < aSb.iMaxLines || aSb.iMaxLines >= KLxScrollbackLines || !aCells)
-		return;
-	TInt lines = aSb.iMaxLines * 2 > KLxScrollbackLines ? KLxScrollbackLines : aSb.iMaxLines * 2;
-	TSbCell* cells = (TSbCell*)User::Alloc(lines * aSb.iMaxCols * sizeof(TSbCell));
-	short* cols = (short*)User::Alloc(lines * sizeof(short));
-	if (!cells || !cols)
-		{
-		User::Free(cells);
-		User::Free(cols);
-		return;
-		}
-	TInt n = aSb.iCount;
-	for (TInt back = n; back >= 1; back--)
-		{
-		TInt c = 0;
-		const TSbCell* from = SbLine(&aSb, back, &c);
-		Mem::Copy(cells + (n - back) * aSb.iMaxCols, from, c * sizeof(TSbCell));
-		cols[n - back] = (short)c;
-		}
-	User::Free(aCells);
-	User::Free(aCols);
-	aCells = cells;
-	aCols = cols;
-	TInt maxCols = aSb.iMaxCols;
-	SbInit(&aSb, cells, cols, lines, maxCols);
-	aSb.iCount = n;
-	aSb.iHead = n % lines;
-	}
+// (0.44, MEM-101) The history is PsiTerm's block ring (termsb.cpp,
+// SbInitBlocks): 128 lines at a time, taken as it first reaches them and
+// never moved. It doubled 50 > 100 > 200 > 300 lines, each new block taken
+// before the old was freed, which left up to 350 KB of hole in the heap
+// for the life of the program.
+static void* LxSbAlloc(int aBytes) { return User::Alloc(aBytes); }
+static void LxSbFree(void* aCell) { User::Free(aCell); }
 
 int LxPushLine(int aCols, const VTermScreenCell* aCells, void* aUser)
 	{
-	CTermView* self = (CTermView*)aUser;
-	SbGrow(self->iSb, self->iSbCells, self->iSbCols);
 	return CTermView::CbPushLine(aCols, aCells, aUser);
 	}
 
@@ -493,6 +479,7 @@ CTermView::~CTermView()
 	delete iBenchTimer;
 	if (iVt)
 		vterm_free(iVt);
+	SbFreeBlocks(&iSb);
 	User::Free(iSbCells);
 	User::Free(iSbCols);
 	ReleaseFont();
@@ -533,19 +520,11 @@ void CTermView::ConstructL(const TRect& aRect, const TPsiSettings& aSettings)
 	iCallbacks.bell = &CTermView::CbBell;
 	iCallbacks.sb_pushline = &LxPushLine;
 	iCallbacks.sb_clear = &CTermView::CbClearScrollback;
-	// (0.38) the history starts with room for KLxScrollbackFirst lines and
-	// grows to KLxScrollbackLines as it fills (LxPushLine): a full one is
-	// 225 KB, which a shell that has printed a screen or two never needs
-	iSbCells = (TSbCell*)User::Alloc(KLxScrollbackFirst * KLxScrollbackCols * sizeof(TSbCell));
-	iSbCols = (short*)User::Alloc(KLxScrollbackFirst * sizeof(short));
-	if (!iSbCells || !iSbCols)
-		{
-		User::Free(iSbCells);
-		User::Free(iSbCols);
-		iSbCells = NULL;
-		iSbCols = NULL;
-		}
-	SbInit(&iSb, iSbCells, iSbCols, KLxScrollbackFirst, KLxScrollbackCols);
+	// (0.44) the history takes its lines 128 at a time as it fills (a full
+	// one is 300 lines, 192 KB at five bytes a cell), never moving
+	iSbCells = NULL;
+	iSbCols = (short*)User::Alloc(KLxScrollbackLines * sizeof(short));
+	SbInitBlocks(&iSb, iSbCols, KLxScrollbackLines, KLxScrollbackCols, &LxSbAlloc, &LxSbFree);
 	vterm_screen_set_callbacks(iScreen, &iCallbacks, this);
 	vterm_screen_enable_altscreen(iScreen, 1);
 	vterm_screen_set_damage_merge(iScreen, VTERM_DAMAGE_SCROLL);

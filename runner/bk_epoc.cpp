@@ -1106,6 +1106,35 @@ extern "C" int bk_sleep_restore(void)
 	return 0;
 	}
 
+// (0.44, MEM-102) Linux's /tmp (and /dev/shm, a link to it) is a folder
+// of the writable layer, <root>\root\tmp\: emptied as each session
+// starts, as a boot empties it. It was never emptied, and with no card the
+// layer is on C:, which is RAM.
+static void TmpClean()
+	{
+	TFileName w;
+	w.Copy(TPtrC8((const TUint8*)lx_k.root_native));
+	if (w.Length() == 0)
+		return;
+	if (w[w.Length() - 1] != '\\')
+		w.Append('\\');
+	w.Append(_L("root\\tmp\\"));
+	TEntry e;
+	TPtrC dir(w.Left(w.Length() - 1));
+	if (gFs.Entry(dir, e) != KErrNone || !e.IsDir())
+		return;
+	CFileMan* fm = 0;
+	TRAPD(err, fm = CFileMan::NewL(gFs));
+	if (fm)
+		{
+		TInt r = fm->RmDir(w);
+		delete fm;
+		gFs.MkDirAll(w);
+		bk_log("tmp: emptied (%d)", r);
+		}
+	(void)err;
+	}
+
 // the files of the last session, and of this one as the runner ends
 static void SlClean()
 	{
@@ -1475,15 +1504,21 @@ extern "C" void bk_log(const char* fmt, ...)
 	LogWrite(buf, n);
 	}
 
+// (0.44, MEM-102) the log's size is kept here (read once, at the first
+// line): each line was a Size, a Write and a Flush
+static TInt gLogSize = -1;
 static void LogWrite(const char* buf, TInt n)
 	{
 	if (gLogOpen)
 		{
-		TInt size = 0;
-		gLog.Size(size);
-		if (size > (lx_k.trace ? 4096 * 1024 : 64 * 1024))
-			gLog.SetSize(0), size = 0;       // (keep it small)
-		gLog.Write(size, TPtrC8((const TUint8*)buf, n));
+		if (gLogSize < 0 && gLog.Size(gLogSize) != KErrNone)
+			gLogSize = 0;
+		if (gLogSize > (lx_k.trace ? 4096 * 1024 : 64 * 1024))
+			gLog.SetSize(0), gLogSize = 0;   // (keep it small)
+		if (gLog.Write(gLogSize, TPtrC8((const TUint8*)buf, n)) == KErrNone)
+			gLogSize += n;
+		else
+			gLogSize = -1;                   // (read again next time)
 		gLog.Flush();
 		}
 	}
@@ -1832,6 +1867,7 @@ TBool CLxTerm::Wake(const char* aWhy)
 		return EFalse;
 		}
 	Fail("Linux's memory could not be read back from the card: it is not what was written");
+	SlClean();                               // (0.44, MEM-102) its sleep files go too
 	User::Exit(KErrCorrupt);
 	return EFalse;
 	}
@@ -2383,6 +2419,7 @@ static void RunL()
 	gTimer->ConstructL();
 	lx_k_init(gSh->root);
 	SlClean();                               // (0.39) a sleep's files the last session left
+	TmpClean();                              // (0.44) and its /tmp
 	SyncOpen();
 	{
 		// <root>\TRACE: log every call (for debugging)

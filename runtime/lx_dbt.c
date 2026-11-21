@@ -32,12 +32,14 @@ typedef struct dbt_block {
 
 static lx_region cache;
 static lx_u32 cache_top, cache_committed, cache_start;
-static lx_u32 hash_tab[DBT_HASH_SIZE * 2];
+/* (0.44, MEM-100) the two hashes are taken by dbt_init, in Alpine mode
+   only: they were 48 KB of statics in every session */
+static lx_u32 *hash_tab;                /* DBT_HASH_SIZE * 2 */
 static dbt_block *blocks;
 static int nblocks;
 static int blocks_cap;                  /* (0.38) blocks has room for this many: it grows as they come */
 #define BLOCKS_FIRST 1024
-static int bh[BH_SIZE];
+static int *bh;                         /* BH_SIZE */
 static int ready;
 static lx_u32 gen;                      /* +1 at every flush */
 static lx_u32 tp_off;                   /* offsetof(lx_thread, tp) */
@@ -62,6 +64,7 @@ int dbt_available(void) { return ready; }
 static void hash_clear(void)
 {
 	int i;
+	if (!hash_tab || !bh) return;
 	for (i = 0; i < (int)DBT_HASH_SIZE; i++) { hash_tab[2 * i] = DBT_EMPTY; hash_tab[2 * i + 1] = 0; }
 	for (i = 0; i < BH_SIZE; i++) bh[i] = -1;
 }
@@ -89,6 +92,14 @@ int dbt_init(void)
 	/* (0.38) room for the first blocks only, not all 16,384 (192 KB) */
 	blocks = (dbt_block *)bk_alloc(BLOCKS_FIRST * sizeof(dbt_block));
 	if (!blocks) { bk_region_free(&cache); return -LX_ENOMEM; }
+	hash_tab = (lx_u32 *)bk_alloc(DBT_HASH_SIZE * 2 * sizeof(lx_u32));
+	bh = (int *)bk_alloc(BH_SIZE * sizeof(int));
+	if (!hash_tab || !bh) {
+		bk_free(hash_tab); bk_free(bh); bk_free(blocks);
+		hash_tab = 0; bh = 0; blocks = 0;
+		bk_region_free(&cache);
+		return -LX_ENOMEM;
+	}
 	blocks_cap = BLOCKS_FIRST;
 	tp_off = (lx_u32)((char *)&t0->tp - (char *)t0);
 	if (tp_off > 4095) { bk_log("dbt: lx_thread.tp at %u: out of reach", tp_off); return -LX_EINVAL; }
@@ -161,6 +172,7 @@ static void do_invalidations(void)
 		return;
 	}
 	w = inval_w;
+	if (!hash_tab) return;
 	for (; inval_r != w; inval_r++) {
 		lx_u32 lo = inval_lo[inval_r % NINVAL], hi = inval_hi[inval_r % NINVAL];
 		for (i = 0; i < (int)DBT_HASH_SIZE; i++)

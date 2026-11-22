@@ -9,7 +9,10 @@ SUBPROJECT    psilinux
 SOURCE        psilinux.cpp lxterm.cpp lxptview.cpp lxglyphs.cpp lxhelp.cpp lxscreen.cpp lxtermsb.cpp lxepocsv.cpp
 RESOURCE      psilinux.rss
 
-USERINCLUDE   \ptproj\psilinux \ptproj\psilxterm \ptproj\psilxterm\vterm \ptproj\psilxssh \ptproj\psilxcommon
+// (0.48) psion-core's ssh headers before PsiTerm's app folder: PsiTerm 1.18
+// on keeps an older copy of psierr.h there (no PsiErrTail), and PsiLinux
+// takes psierr.h from psion-core (the two folders share no other header).
+USERINCLUDE   \ptproj\psilinux \ptproj\psilxssh \ptproj\psilxterm \ptproj\psilxterm\vterm \ptproj\psilxcommon
 SYSTEMINCLUDE \ptproj\psilxterm\vterm \epoc32\include\libc \epoc32\include
 
 LIBRARY       psivterm.lib

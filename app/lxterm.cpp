@@ -1190,6 +1190,13 @@ void CSerialPort::Close()
 	{
 	}
 
+// (PsiTerm 1.21's SaveRecent, inline in psiterm.h, saves the recent
+// commands: PsiLinux keeps none, iRecent stays NULL)
+TInt CPtRecent::Save()
+	{
+	return KErrNone;
+	}
+
 TBool CFontDialog::FaceHeights(const TDesC& /*aName*/, TInt* /*aPixels*/, TInt& aCount, TBool& aProportional)
 	{
 	aCount = 0;                              // (Other font...: not in PsiLinux)

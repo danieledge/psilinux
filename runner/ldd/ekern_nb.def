@@ -3,7 +3,7 @@
 ; (1.05(254), Dan's stock image, which exports 755, and 1.05(450), which
 ; exports 769): each was checked in both by disassembly, and found as the
 ; ROM's own Video.ldd imports them (its import table, against EKERN's export
-; table). The 5mx's ordinals (psikern/ekern_rom.def) and the SDK's ekern.lib
+; table). The 5mx's ordinals (from the 5mx ROM's own exports) and the SDK's ekern.lib
 ; (the Series 5's) are different: never link this driver against them.
 ; Names: the mangled names in the SDK's ekern.lib.
 EXPORTS

@@ -1,15 +1,15 @@
 // kern.h - the kernel-side classes a minimal EPOC R5 logical device driver
 // needs, for the netBook kernel (EKERN[100000b7], ROMs 1.05(254) and 450).
 //
-// From psikern/ldd/kern.h (rebuilt there for the 5mx from its ROM's own
-// Video.ldd). The netBook's layouts were checked against its ROMs: the
+// Rebuilt for the 5mx from its ROM's own Video.ldd, then checked for the
+// netBook. The netBook's layouts were checked against its ROMs: the
 // vtables at 0x5002a360 (DLogicalDevice) and 0x5002a444 (DLogicalChannel) in
 // the 450 image have the same slots, the device's constructor sets iVersion
 // at 0x14, and the channel's keeps its device at 0x2c and counts
 // iOpenChannels at 0x24, as below. Keep drivers to what is declared here.
 //
 // Link with ekern_nb.def (the netBook's ordinals), never the SDK's
-// ekern.lib or psikern's 5mx list: the ordinals differ on each kernel.
+// ekern.lib or the 5mx's ordinals: they differ on each kernel.
 #ifndef PSI_KERN_H
 #define PSI_KERN_H
 #include <e32base.h>

@@ -71,6 +71,9 @@ PsiLinux gives memory back when it is short, and Coda can ask it to.
   to free memory.
 - `/proc/psilinux/mem` says how many big blocks there are and what they
   hold.
+- With the Linux screen showing (a program drawing on `/dev/fb0`),
+  PsiLinux now closes when the Psion asks it to (Free memory's Close, the
+  task list, a backup); before, it stayed open.
 
 ## What's new in 0.43
 

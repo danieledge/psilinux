@@ -190,6 +190,25 @@ private:
 // ---------------------------------------------------------------------------
 // The app UI
 // ---------------------------------------------------------------------------
+// (0.46) The Linux screen's keys, before EIKON's menu bar (the Menu key and
+// Ctrl+letters are Linux's there). This filter is on the control stack at
+// menu priority, not the screen itself, and it is never visible: a visible
+// control there makes CCoeAppUi::IsDisplayingMenuOrDialog() true, and
+// EIKON's shutter (TApaTask::EndTask: Free memory's Close, the task list's
+// Close, a backup) then only sends Esc and never closes PsiLinux (as Files
+// before psion-netbook faebd9c). The stack ignores visibility.
+class CLxScreenKeys : public CCoeControl
+	{
+public:
+	CLxScreenKeys(CLxScreenView*& aScreen) : iScreen(aScreen) {}
+	TKeyResponse OfferKeyEventL(const TKeyEvent& aKeyEvent, TEventCode aType)
+		{
+		return iScreen ? iScreen->OfferKeyEventL(aKeyEvent, aType) : EKeyWasNotConsumed;
+		}
+private:
+	CLxScreenView*& iScreen;
+	};
+
 class CLxAppUi : public CEikAppUi, public MLxScreenHook
 	{
 public:
@@ -223,6 +242,7 @@ private:
 	static TInt WakeRunner(TAny* aSelf) { ((CLxAppUi*)aSelf)->iTerm->Session()->Ring(); return 0; }
 	CLxTermView* iTerm;
 	CLxScreenView* iScreen;
+	CLxScreenKeys* iScreenKeys;   // (0.46) its keys, on the stack while it shows
 	TInt iView;                   // 0 the terminal, 1 the Linux screen
 	TLxSettings iSettings;
 	CEikToolBar* iNbBar;          // (0.43) the netBook's toolbar, on Coda's image (MakeNetBookBarL)
@@ -357,12 +377,13 @@ CLxAppUi::~CLxAppUi()
 	SaveSettings();
 	if (iTerm)
 		iTerm->Session()->SetScreenHook(NULL);
-	if (iScreen)
+	if (iScreenKeys)
 		{
 		if (iView == 1)
-			RemoveFromStack(iScreen);
-		delete iScreen;
+			RemoveFromStack(iScreenKeys);
+		delete iScreenKeys;
 		}
+	delete iScreen;
 	if (iTerm)
 		{
 		if (iView == 0)
@@ -474,17 +495,22 @@ void CLxAppUi::SwitchToL(TInt aView)
 			Bar()->MakeVisible(EFalse);
 		iScreen->MakeVisible(ETrue);
 		// (before EIKON's menu bar: the Menu key and Ctrl+letters are Linux's
-		// there; the view passes Ctrl+Q back for Switch view)
-		AddToStackL(iScreen, ECoeStackPriorityMenu);
+		// there; the view passes Ctrl+Q back for Switch view. 0.46: through
+		// an invisible filter, CLxScreenKeys)
+		if (!iScreenKeys)
+			{
+			iScreenKeys = new(ELeave) CLxScreenKeys(iScreen);
+			iScreenKeys->MakeVisible(EFalse);
+			}
+		AddToStackL(iScreenKeys, ECoeStackPriorityMenu);
 		iScreen->DrawNow();
 		}
 	else
 		{
+		if (iScreenKeys)
+			RemoveFromStack(iScreenKeys);
 		if (iScreen)
-			{
-			RemoveFromStack(iScreen);
 			iScreen->MakeVisible(EFalse);
-			}
 		if (Bar() && iSettings.iToolbar)
 			{
 			Bar()->MakeVisible(ETrue);

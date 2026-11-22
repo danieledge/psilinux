@@ -52,6 +52,15 @@ ok "$($E run Word; echo $?)" "0" "epoc run Word"
 $E run Nonesuch 2>/dev/null; ok "$?" "3" "epoc run: no such program"
 $E run --wait Word; ok "$?" "0" "epoc run --wait (the pretend Word closes)"
 $E --timeout 1 run --wait Word 2>/dev/null; ok "$?" "6" "--wait --timeout"
+# (0.38, RR-05) run returns once the program has started: its window on the
+# task list, in front unless --bg; --no-wait at once
+$E run --no-wait Word; ok "$($E tasks | cut -f3 | tr '\n' ' ')" "PsiLinux " "epoc run --no-wait: returns before the start"
+$E tasks > /dev/null; $E tasks > /dev/null
+$E run Word; ok "$($E tasks | grep fg | cut -f3)" "Word" "epoc run: returns once Word is up, in front"
+$E run --bg Word; ok "$($E tasks | grep fg | cut -f3) $($E tasks | cut -f3 | tr '\n' ' ')" "PsiLinux Word PsiLinux " "epoc run --bg: up, behind"
+$E run Crash 2>/dev/null; ok "$?" "1" "epoc run: a program that ends as it starts"
+$E --timeout 1 run Slow 2>/dev/null; ok "$?" "6" "epoc run: a program that never shows, --timeout"
+$E --timeout 1 run --no-wait Slow; ok "$?" "0" "epoc run --no-wait: no wait for the start"
 ok "$($E tasks | cut -f3 | tr '\n' ' ')" "Word PsiLinux " "epoc tasks"
 ok "$($E -H ps | head -1)" "$(printf 'id\tname\tuid\tmem_kb\tpriority\tfile\tsys')" "epoc ps -H"
 ok "$($E ps --json | grep -c '\"name\"')" "3" "epoc ps --json"
@@ -83,7 +92,7 @@ $E shot 'C:\raw.png' > /dev/null; ok "$(cat /psion/c/raw.png)" "pretend screensh
 # for scripts
 $E nonesuch 2>/dev/null; ok "$?" "2" "a bad command: 2"
 ok "$($E note quietly)" "" "quiet on success"
-ok "$($E version | head -1)" "$(printf 'epoc\t0.36')" "epoc version"
+ok "$($E version | head -1)" "$(printf 'epoc\t0.38')" "epoc version"
 ok "$($E version | grep '^proto' | cut -f2)" "1" "the kernel's protocol"
 (sleep 2; echo later > /psion/c/later.txt) & $E --timeout 10 wait-file /psion/c/later.txt; ok "$?" "0" "wait-file"
 $E --timeout 1 wait-file /psion/c/never.txt; ok "$?" "6" "wait-file --timeout"

@@ -945,7 +945,11 @@ Alpine Linux's own armhf programs, unmodified, through a binary translator:
   tab-separated lists, `-H` for a heading, `--json`, nothing printed on
   success, errors on stderr, exit codes 0 to 9 (`epoc help exit`), and
   waits (`run --wait`, `open --wait`, `wait`, `wait-file`,
-  `wait-battery`). `print` says EPOC has no "print this file" (each
+  `wait-battery`). (0.50, epoc 0.38) `run` and `open` return once the
+  program has started (its window group on the task list, in front unless
+  `--bg`), not when EPOC has been asked, so `time epoc run Calc` is the
+  start; the command polls the task list every 0.2 s (no change to the
+  app or the protocol); `--no-wait` is the old way. `print` says EPOC has no "print this file" (each
   program prints its own documents) and exits 5.
 - **Exit closes PsiLinux.** `exit` (or ^D) at the first shell used to leave
   "Linux has ended. Enter starts it again". Now the runner asks the

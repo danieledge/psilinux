@@ -107,6 +107,15 @@ int main(void)
 		capture(key_battery, (void *)"machine\tPsion netBook\nbattery_percent\t94\n");
 		CHECK(!strcmp(out, "94\n"));
 	}
+	/* (0.38, RR-05) a task on the list by its thread id, in front or not */
+	{
+		const char *t = "101\t0x1000007F\tWord\tC:\\Documents\\Letter\t\n1012\t0x10000101\tCalc\t\tfg\n";
+		int fg = -1;
+		CHECK(task_state(t, 101, &fg) && fg == 0);
+		CHECK(task_state(t, 1012, &fg) && fg == 1);
+		CHECK(!task_state(t, 10, &fg) && !task_state("", 101, &fg));
+		CHECK(task_state("7\t0x1\tA\t\tfg", 7, &fg) && fg == 1);    /* (no last newline) */
+	}
 	printf("epoctest: %d checks, %d failed\n", checks, fails);
 	return fails ? 1 : 0;
 }

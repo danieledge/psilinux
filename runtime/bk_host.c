@@ -702,6 +702,8 @@ static int ep_anslen;
 static char ep_clip[LXE_MAX];
 static int ep_cliplen;
 static int ep_alive;               /* (--wait: the pretend Word closes after a few looks) */
+static int ep_starting;            /* (0.38) a started Word is on the task list after this many looks */
+static int ep_word_bg;             /* ...behind PsiLinux (--bg), else in front */
 
 static void ep_put(const LxeHeader *rq, int status, int err, unsigned arg, const char *text, int n)
 {
@@ -751,11 +753,25 @@ int bk_epoc_send(const char *req, int len)
 		fprintf(stderr, "[epoc] run %s %s\n", a, b);
 		if (!strcasecmp(a, "word") || !strcasecmp(a, "0x1000007f")) {
 			ep_alive = 3;
+			ep_starting = 3;
+			ep_word_bg = (h.flags & LXE_F_BG) != 0;
 			ep_put(&h, LXE_OK, 0, 101, "0x1000007F\tWord\tstarted\n", -1);
-		} else ep_put(&h, LXE_NOTFOUND, -1, 0, "no program of that name", -1);
+		} else if (!strcasecmp(a, "crash"))      /* (0.38) ends as it starts */
+			ep_put(&h, LXE_OK, 0, 103, "0x10000103\tCrash\tstarted\n", -1);
+		else if (!strcasecmp(a, "slow"))         /* (0.38) never shows a window */
+			ep_put(&h, LXE_OK, 0, 104, "0x10000104\tSlow\tstarted\n", -1);
+		else ep_put(&h, LXE_NOTFOUND, -1, 0, "no program of that name", -1);
 		break;
-	case LXE_OP_ALIVE: ep_put(&h, h.arg == 101 && ep_alive-- > 0 ? LXE_OK : LXE_NOTFOUND, 0, 0, 0, 0); break;
-	case LXE_OP_TASKS: ep_put(&h, LXE_OK, 0, 0, "101\t0x1000007F\tWord\tC:\\Documents\\Letter\t\n102\t0x01000A87\tPsiLinux\t\tfg\n", -1); break;
+	case LXE_OP_ALIVE: ep_put(&h, (h.arg == 101 && ep_alive-- > 0) || h.arg == 104 ? LXE_OK : LXE_NOTFOUND, 0, 0, 0, 0); break;
+	case LXE_OP_TASKS:
+		if (ep_starting > 0) {
+			ep_starting--;
+			ep_put(&h, LXE_OK, 0, 0, "102\t0x01000A87\tPsiLinux\t\tfg\n", -1);
+		} else if (ep_word_bg)
+			ep_put(&h, LXE_OK, 0, 0, "101\t0x1000007F\tWord\tC:\\Documents\\Letter\t\n102\t0x01000A87\tPsiLinux\t\tfg\n", -1);
+		else
+			ep_put(&h, LXE_OK, 0, 0, "101\t0x1000007F\tWord\tC:\\Documents\\Letter\tfg\n102\t0x01000A87\tPsiLinux\t\t\n", -1);
+		break;
 	case LXE_OP_PS: ep_put(&h, LXE_OK, 0, 0, "1\tEKern\t0x100000B7\t0\t\tZ:\\System\\Programs\\EKern.exe\tsys\n"
 		"5\tEFile\t0x100000B6\t48\t\tZ:\\System\\Programs\\EFile.exe\tsys\n77\tWord\t0x1000007F\t212\t\tZ:\\System\\Apps\\Word\\Word.app\t\n", -1); break;
 	case LXE_OP_KILL: case LXE_OP_CLOSE:

@@ -30,7 +30,7 @@
 #include <sys/stat.h>
 #include "../common/lxepoc.h"
 
-#define EPOC_VERSION "0.37"
+#define EPOC_VERSION "0.38"
 #define HDR ((int)sizeof(LxeHeader))
 
 static int opt_heading, opt_json, opt_quiet, opt_force;
@@ -347,14 +347,58 @@ static int wait_gone(unsigned id, double timeout)
 
 static double opt_timeout;
 
+/* (0.38, RR-05) is thread 'id' a task on the task list, and is it in front?
+ * (TASKS: id, uid, caption, document, "fg" or "") */
+static int task_state(const char *text, unsigned id, int *fg)
+{
+	const char *s = text;
+	while (s && *s) {
+		const char *e = strchr(s, '\n');
+		if (!e) e = s + strlen(s);
+		if ((unsigned)strtoul(s, 0, 10) == id) {
+			*fg = e - s >= 3 && !strncmp(e - 3, "\tfg", 3);
+			return 1;
+		}
+		s = *e ? e + 1 : 0;
+	}
+	return 0;
+}
+
+/* (0.38, RR-05) until the program of thread 'id' has started: its window is
+ * on the task list and, unless it was started behind (--bg), in front.
+ * EPOC starts a program by itself and answers at once; this is what makes
+ * `time epoc run Calc` the time Calc takes to start. A program that is on
+ * the list but not brought to the front (another came first) counts as
+ * started after 2 s more. Gives up after --timeout S (60 s as standard). */
+static int wait_up(unsigned id, int bg, double timeout)
+{
+	double until = now_s() + (timeout > 0 ? timeout : 60), listed = 0;
+	for (;;) {
+		answer_t a;
+		int fg = 0, r = ask_q(LXE_OP_TASKS, 0, 0, 0, 0, &a, 1);
+		if (r != LXE_OK) return r;
+		if (task_state(a.text, id, &fg)) {
+			if (bg || fg) return LXE_OK;
+			if (!listed) listed = now_s();
+			else if (now_s() - listed >= 2) return LXE_OK;
+		} else if (ask_q(LXE_OP_ALIVE, 0, id, 0, 0, 0, 1) == LXE_NOTFOUND) {
+			err("the program ended as it started");
+			return LXE_FAILED;
+		}
+		if (now_s() >= until) { err("not started after %g s (it may still be starting)", timeout > 0 ? timeout : 60); return LXE_BUSY; }
+		if (nap(0.2)) return LXE_INTERRUPTED;
+	}
+}
+
 static int cmd_open(int argc, char **argv)
 {
-	int i, wait = 0, bg = 0, r = LXE_OK, any = 0;
+	int i, wait = 0, bg = 0, nowait = 0, r = LXE_OK, any = 0;
 	for (i = 0; i < argc; i++) {
 		answer_t a;
 		const char *args[1];
 		int k;
 		if (!strcmp(argv[i], "--wait") || !strcmp(argv[i], "-w")) { wait = 1; continue; }
+		if (!strcmp(argv[i], "--no-wait")) { nowait = 1; continue; }
 		if (!strcmp(argv[i], "--bg") || !strcmp(argv[i], "-b")) { bg = 1; continue; }
 		if (!strncmp(argv[i], "http://", 7) || !strncmp(argv[i], "https://", 8)) {
 			err("%s: EPOC opens files, not web addresses", argv[i]);
@@ -364,6 +408,7 @@ static int cmd_open(int argc, char **argv)
 		any = 1;
 		args[0] = argv[i];
 		k = ask(LXE_OP_OPEN, path_flag(argv[i], LXE_F_PATH) | (bg ? LXE_F_BG : 0), 0, 1, args, &a);
+		if (k == LXE_OK && !nowait && a.h.arg) k = wait_up(a.h.arg, bg, opt_timeout);
 		if (k == LXE_OK && wait && a.h.arg) k = wait_gone(a.h.arg, opt_timeout);
 		if (k != LXE_OK) r = k;
 	}
@@ -373,13 +418,14 @@ static int cmd_open(int argc, char **argv)
 
 static int cmd_run(int argc, char **argv)
 {
-	int i, wait = 0;
+	int i, wait = 0, nowait = 0;
 	unsigned fl = 0;
 	const char *args[2];
 	int n = 0, r;
 	answer_t a;
 	for (i = 0; i < argc; i++) {
 		if (!strcmp(argv[i], "--wait") || !strcmp(argv[i], "-w")) wait = 1;
+		else if (!strcmp(argv[i], "--no-wait")) nowait = 1;
 		else if (!strcmp(argv[i], "--new") || !strcmp(argv[i], "-n")) fl |= LXE_F_NEW;
 		else if (!strcmp(argv[i], "--bg") || !strcmp(argv[i], "-b")) fl |= LXE_F_BG;
 		else if (n < 2) args[n++] = argv[i];
@@ -388,6 +434,10 @@ static int cmd_run(int argc, char **argv)
 	if (!n) { err("run what? (epoc run PROGRAM [FILE]; epoc apps lists them)"); return LXE_USAGE; }
 	if (n == 2) fl |= path_flag(args[1], LXE_F_PATH2);
 	r = ask(LXE_OP_RUN, fl, 0, n, args, &a);
+	/* (0.38) a program (its answer: uid, caption, started or switched)
+	 * until it has started; an .exe has no window to wait for */
+	if (r == LXE_OK && !nowait && a.h.arg && a.text && strstr(a.text, "\tstarted"))
+		r = wait_up(a.h.arg, (fl & LXE_F_BG) != 0, opt_timeout);
 	if (r == LXE_OK && wait && a.h.arg) r = wait_gone(a.h.arg, opt_timeout);
 	return r;
 }
@@ -674,6 +724,10 @@ static const char help_text[] =
 "  run [--wait] [--new] [--bg] PROGRAM [FILE]\n"
 "                                  start a program, or switch to it: a name (Word, Agenda),\n"
 "                                  a 0xUID or an .app file; with FILE, open that file in it\n"
+"                                  open and run return once the program has started (its window\n"
+"                                  on the task list, in front unless --bg), so time epoc run Word\n"
+"                                  is Word's start; --no-wait returns at once, as EPOC is asked;\n"
+"                                  --wait also waits until the program closes\n"
 "  apps                            the programs there are: uid, caption, file\n"
 "  tasks                           the task list: id, uid, caption, document, fg\n"
 "  ps                              EPOC's processes: id, name, uid, memory KB, priority, file, sys\n"
@@ -702,7 +756,8 @@ static const char help_text[] =
 "  syswrite [on --force | off]     let Linux change the \\System folders (off again at every start)\n"
 "  version, help [exit], completion\n"
 "\n"
-"Options: -H a heading line, --json JSON, -q quiet, --force (kill, syswrite), --timeout S (wait, --wait)\n"
+"Options: -H a heading line, --json JSON, -q quiet, --force (kill, syswrite), --timeout S (wait, --wait,\n"
+"  and a start: 60 s as standard)\n"
 "The disks are /psion/c, /psion/d... (and /c, /d); Z: and every \\System folder are read-only.\n"
 "xdg-open and open are epoc open. Only the Psion's own terminal may use it, never ssh.\n";
 

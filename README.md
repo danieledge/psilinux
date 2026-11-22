@@ -26,6 +26,7 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 
 ## Contents
 
+- [What's new in 0.50](#whats-new-in-050)
 - [What's new in 0.49](#whats-new-in-049)
 - [What's new in 0.48](#whats-new-in-048)
 - [What's new in 0.47](#whats-new-in-047)
@@ -50,6 +51,19 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 - [Documents](#documents)
 - [Support](#support)
 - [Credits and licences](#credits-and-licences)
+
+## What's new in 0.50
+
+- `epoc run` and `epoc open` return once the program has started: when its
+  window is on the task list and, unless you asked for `--bg`, in front.
+  They returned as soon as EPOC had been asked, so `time epoc run Calc`
+  gave 0.3 s for a start that took 3 to 6 s, and the next command could
+  find the program not there yet. Now `time epoc run Calc` is Calc's start.
+  `--no-wait` returns at once, as before; `--wait` waits for the start and
+  then until the program closes; `--timeout S` gives up on a start after S
+  seconds (60 as standard), with exit code 6. A program that is already
+  running (switched to) and an `.exe` (which has no window) return at once.
+  epoc 0.38.
 
 ## What's new in 0.49
 
@@ -820,7 +834,7 @@ the System screen does, and more.
 ```sh
 epoc open Letter.docx            # open a file in its program, as a tap on it does
 xdg-open /psion/c/Documents/Readme   # (xdg-open and open are the same thing)
-epoc run Word                    # start Word, or switch to it if it is running
+epoc run Word                    # start Word (returns once it is up), or switch to it if it is running
 epoc run Agenda /psion/c/Documents/Agenda    # a program and a file
 epoc tasks                       # the task list: id, uid, caption, document, fg
 epoc ps -H                       # EPOC's processes, with a heading
@@ -873,8 +887,11 @@ nothing, errors go to stderr, and the exit code says what happened:
 | 8 | this PsiLinux is older than the request |
 | 9 | interrupted |
 
-Waiting: `epoc run --wait Word` and `epoc open --wait FILE` return when the
-program closes; `epoc wait Word` waits for one that is running;
+Waiting: `epoc run Word` and `epoc open FILE` return once the program has
+started (its window on the task list, in front unless `--bg`), so
+`time epoc run Word` is Word's start and the next command finds it there;
+`--no-wait` returns as soon as EPOC has been asked. `epoc run --wait Word`
+and `epoc open --wait FILE` return when the program closes; `epoc wait Word` waits for one that is running;
 `epoc wait-file PATH` until a file is there (`--gone`, `--change`);
 `epoc wait-battery 90` until the battery is at least 90% (`--below 20`).
 

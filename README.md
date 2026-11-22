@@ -61,9 +61,12 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
   find the program not there yet. Now `time epoc run Calc` is Calc's start.
   `--no-wait` returns at once, as before; `--wait` waits for the start and
   then until the program closes; `--timeout S` gives up on a start after S
-  seconds (60 as standard), with exit code 6. A program that is already
+  seconds (60 as standard), with exit code 6. (While a program starts in
+  front, EPOC answers the task list only once the start is done, so a start
+  that ends is never cut short by `--timeout`.) A program that is already
   running (switched to) and an `.exe` (which has no window) return at once.
-  epoc 0.38.
+  In the netBook emulator, `time epoc run Calc` went from 0.06 s to 1.09 s,
+  and Calc's display is drawn 1.1 s after Enter. epoc 0.38.
 
 ## What's new in 0.49
 

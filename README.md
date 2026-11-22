@@ -967,6 +967,7 @@ tools/lxbuild "rootfs/build-rootfs.sh"             # PsiLinux's own root
 alpine/build-root.sh                               # the Alpine root
 tools/lxbuild "tests/run-host.sh"                  # the test suites on the host harness
 tools/lxbuild "tests/epoctest.sh"                  # the epoc command, /dev/epoc and /psion, with a pretend PsiLinux.app
+make -C epoc test                                  # the epoc command's request format, and its wait for a start (a pretend /dev/epoc)
 tools/lxbuild "tests/run-alpine.sh"                # Alpine mode: shell tests under sh and bash, bash in a terminal, the memory reserve
 tests/run-ssh.sh                                   # ssh against a throwaway sshd in docker (run on the PC): key, password, host key question
 ```

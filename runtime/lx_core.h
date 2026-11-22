@@ -545,6 +545,7 @@ extern int lx_k_asleep;
 extern int lx_k_sleep_quiet;
 #define LX_SLEEP_TIMER 60000000               /* a timer due sooner than this keeps Linux awake */
 const char *lx_k_sleep_blocker(void);         /* why Linux cannot sleep now, or 0 */
+const char *lx_k_jobs_blocker(void);          /* (0.52) background jobs: no sleep by itself, or 0 */
 int lx_k_sleep(const char *why);
 int lx_k_wake(const char *why);
 void lx_root_sleep(void);               /* (0.40) lx_root.c: its open files closed (they open again when read) */

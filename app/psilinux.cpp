@@ -60,7 +60,7 @@ static void LxSizeName(TInt aFace, TInt aZoom, TDes& aName)
 class CLxPrefsDialog : public CEikDialog
 	{
 public:
-	CLxPrefsDialog(TLxSettings& aSettings) : iSettings(aSettings) {}
+	CLxPrefsDialog(TLxSettings& aSettings) : iSettings(aSettings), iSleepShown(-1) {}
 private:
 	// (0.29) PsiTerm's typefaces and their sizes: the names from its zoom
 	// levels ("Terminus 12"), the typefaces until they repeat the first
@@ -138,7 +138,8 @@ private:
 		TInt kb = iSettings.iKeepKb;
 		((CEikChoiceList*)Control(ELxPrefKeepKb))->SetCurrentItem(kb == 512 ? 0 : kb == 2048 ? 2 : 1);
 		SetLineDimmedNow(ELxPrefKeepKb, !iSettings.iKeep);
-		((CEikChoiceList*)Control(ELxPrefSleep))->SetCurrentItem(LxSleepChoice(iSettings));
+		iSleepShown = LxSleepChoice(iSettings);
+		((CEikChoiceList*)Control(ELxPrefSleep))->SetCurrentItem(iSleepShown);
 		}
 	// the amount is dimmed while the tick box is clear; the sizes follow the typeface
 	void HandleControlStateChangeL(TInt aControlId)
@@ -165,10 +166,15 @@ private:
 		iSettings.iKeep = CheckBoxState(ELxPrefKeep) == CEikButtonBase::ESet;
 		static const TInt KKeepKb[] = { 512, 1024, 2048 };
 		iSettings.iKeepKb = KKeepKb[((CEikChoiceList*)Control(ELxPrefKeepKb))->CurrentItem()];
-		LxSetSleepChoice(iSettings, ((CEikChoiceList*)Control(ELxPrefSleep))->CurrentItem());
+		// (0.52) In the background is saved only when it was changed, so
+		// settings left at the standard follow it (lxterm.h, LxSleepChoice)
+		TInt sleep = ((CEikChoiceList*)Control(ELxPrefSleep))->CurrentItem();
+		if (sleep != iSleepShown)
+			LxSetSleepChoice(iSettings, sleep);
 		return ETrue;
 		}
 	TLxSettings& iSettings;
+	TInt iSleepShown;                  // (0.52) In the background as the dialog opened
 	};
 
 class CLxDiskDialog : public CEikDialog

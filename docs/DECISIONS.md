@@ -1161,3 +1161,34 @@ Alpine Linux's own armhf programs, unmodified, through a binary translator:
 - **Tests:** writetest (sendfile from a program a fork child waits for;
   a fork child's blocked SIGPIPE), bashtest (a 14 KB here-document in
   `$(cat)`).
+
+## 66. In the background: Sleep after 5 minutes as standard (0.52)
+
+- **Decision (Dan, 22 November 2026):** PsiLinux puts an idle Linux to
+  sleep after 5 minutes behind another program, as standard. 0.40 to 0.51
+  had Never sleep as standard (Dan's 0.40 decision, now reversed); 0.39
+  had 1 minute.
+- **A person's own choice is kept.** The setting is `iSpare[KLxSpareSleep2]`
+  (the choice + 1, 0 = not set) in PsiLinux.ini, whose size never changes.
+  0.40 to 0.51 wrote it whenever Preferences closed with OK, whatever the
+  line showed, so a saved Never (4) cannot be told from Never left as it
+  came. No marker can tell them apart afterwards, so saved settings keep
+  what they say: only 0 (new settings, or Preferences never OK'd since
+  0.40) takes the new standard (`KLxSleepStandard`, `LxSleepChoice`).
+  0.39's own Never (`KLxSpareSleep` 3, `KLxSpareSleep2` 0) stays Never,
+  its 5 and 15 minutes stay, its 0 (its 1-minute standard) takes the new
+  standard. From 0.52 Preferences writes the line only when it was changed
+  in the dialog, so settings left alone follow any later standard.
+- **When it sleeps: unchanged, plus background jobs.** Only when idle at
+  the shell's prompt (`lx_k_sleep_blocker`): no program running or open on
+  the terminal, none with the screen, no connection or name lookup open,
+  no timer due within a minute; and only behind, after the time chosen and
+  10 s with nothing happening. New in 0.52 (`lx_k_jobs_blocker`, the
+  runner's AutoSleep): never on its own while a background job is in the
+  terminal's session (`sleep 900 &`), even one only waiting on a timer,
+  which before 0.52 let Linux sleep and woke it when due. A stopped job
+  does not count, nor the foreground's own parents (an outer shell,
+  login). A sleep asked for (Free memory's "Put PsiLinux to sleep", the
+  launcher's "sleep" under 1.5 MB free) still sleeps with jobs waiting:
+  asleep beats closed. (`/proc/psilinux/mem`'s "sleep" line cannot show
+  it: read by a program, it always says "a program is running".)

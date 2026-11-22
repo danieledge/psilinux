@@ -26,6 +26,7 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 
 ## Contents
 
+- [What's new in 0.52](#whats-new-in-052)
 - [What's new in 0.51](#whats-new-in-051)
 - [What's new in 0.50](#whats-new-in-050)
 - [What's new in 0.49](#whats-new-in-049)
@@ -52,6 +53,30 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 - [Documents](#documents)
 - [Support](#support)
 - [Credits and licences](#credits-and-licences)
+
+## What's new in 0.52
+
+- Linux now sleeps behind other programs as standard: Preferences >
+  General > In the background is **Sleep after 5 minutes** as it comes
+  (0.40 to 0.51: Never sleep). After 5 minutes behind another program,
+  with Linux idle at the shell's prompt, its memory goes to the card and
+  the Psion has the RAM back; it wakes when PsiLinux comes to the front,
+  with the shell, its jobs and their memory as they were.
+- It sleeps only when idle at the prompt, as before: never while a program
+  runs or is open on the terminal (an editor, a pager), has the screen or
+  has a connection open, or while a timer is due within a minute. New:
+  never on its own while a job runs in the background (`sleep 900 &`,
+  `make &`), even one that is only waiting; a stopped job (Ctrl+Z) does
+  not count. Free memory's "Put PsiLinux to sleep", and the sleep when
+  Coda finds under 1.5 MB free, still put an idle Linux to sleep with its
+  jobs waiting (better than closing it); a job's timer wakes it when due.
+- **Your own choice is kept.** Settings that never saved this line (new
+  settings, or Preferences never closed with OK since 0.40) take the new
+  standard. Settings that did keep what they say: 0.40 to 0.51 saved the
+  line whenever Preferences closed with OK, so a saved Never sleep cannot
+  be told from one left as it came, and stays Never sleep; choose Sleep
+  after 5 minutes once to have the new standard. From 0.52, Preferences
+  saves the line only when you change it.
 
 ## What's new in 0.51
 
@@ -772,9 +797,12 @@ Alpine's mirror instead of through the PsiProxy.
   code cache while there is room, and until Linux has been idle a minute.
 - `cat /proc/psilinux/mem` shows where PsiLinux's memory is. After a minute
   idle, PsiLinux keeps only what its running programs need.
-- Behind another program, idle Linux sleeps (Preferences > General > In
-  the background): its memory goes to the memory disk and the RAM back to
-  the Psion, about 2 MB left held; it wakes when PsiLinux comes to the front.
+- Behind another program for 5 minutes, idle Linux sleeps (Preferences >
+  General > In the background: Sleep after 5 minutes as standard, or 1 or
+  15 minutes, or Never sleep): its memory goes to the memory disk and the
+  RAM back to the Psion, about 2 MB left held; it wakes when PsiLinux comes
+  to the front. It stays awake while a program runs, a job runs in the
+  background (`&`) or a connection is open.
 
 ### When something goes wrong
 

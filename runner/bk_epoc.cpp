@@ -2016,6 +2016,10 @@ static void AutoSleep(TInt aIdleSecs)
 		return;
 	if (gSh->out_head != gSh->out_tail || gSh->kbd_head != gSh->kbd_tail || gSh->epoc_req_seq != gSh->epoc_ans_seq)
 		return;
+	// (0.52) by itself, never with background jobs (`sleep 900 &`): only
+	// when asked (the watcher's "sleep": better asleep than closed)
+	if (!asked && lx_k_jobs_blocker())
+		return;
 	TInt r = lx_k_sleep(asked ? "the launcher asked" : "behind and idle");
 	if (r == -LX_EBUSY)
 		return;                              // (not idle after all)

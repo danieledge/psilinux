@@ -663,6 +663,45 @@ const char *lx_k_sleep_blocker(void)
 	return 0;
 }
 
+/* (0.52) background jobs (`sleep 900 &`, `make &`): a process of the
+ * terminal's session outside its foreground group, not stopped (a stopped
+ * job can only go on once it is told to, from the shell in front), and not
+ * the foreground's own parent or its parent's (an outer shell, login).
+ * While there are any, Linux does not sleep by itself behind another
+ * program (Preferences > In the background, the runner's AutoSleep), even
+ * with them all waiting; asked to (Free memory's "Put PsiLinux to sleep",
+ * or the Psion very short of memory: better asleep than closed) it sleeps
+ * with them waiting, as before, and a timer of theirs wakes it when due. */
+static lx_proc *proc_of(int pid)
+{
+	int i;
+	for (i = 0; i < LX_MAXPROC; i++)
+		if (lx_k.procs[i].state != LX_P_FREE && lx_k.procs[i].pid == pid) return &lx_k.procs[i];
+	return 0;
+}
+
+const char *lx_k_jobs_blocker(void)
+{
+	int i, n;
+	lx_tty *tty = &lx_k.ttys[0];
+	lx_proc *fg = 0;
+	if (!tty->sid || !tty->pgrp) return 0;
+	for (i = 0; i < LX_MAXPROC; i++) {
+		lx_proc *p = &lx_k.procs[i];
+		if (p->state == LX_P_ALIVE && p->pid == tty->pgrp) fg = p;
+	}
+	for (i = 0; i < LX_MAXPROC; i++) {
+		lx_proc *p = &lx_k.procs[i], *a;
+		if (p->state != LX_P_ALIVE || p->stopped || p->sid != tty->sid || p->pgid == tty->pgrp) continue;
+		/* (the foreground's own parents: an outer shell, login) */
+		for (a = fg, n = 0; a && a != p && n < LX_MAXPROC; n++)
+			a = a->ppid ? proc_of(a->ppid) : 0;
+		if (a == p) continue;
+		return "background jobs are running";
+	}
+	return 0;
+}
+
 /* Linux to sleep now, if it can: 0 asleep, else -errno (and why, logged) */
 int lx_k_sleep(const char *why)
 {

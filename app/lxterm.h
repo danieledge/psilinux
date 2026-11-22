@@ -65,16 +65,22 @@ const TInt KLxSpareLog = 0;      // 0.24: Tools > Keep a log (0: off, as in olde
 const TInt KLxSpareFace = 1;     // 0.29: the typeface of the zoom levels (PsiTerm's iFace: 0 Terminus...)
 const TInt KLxSpareNoWelcome = 2; // 0.37: 1: Tools > Show welcome banner not ticked (0: shown, as in older files)
 const TInt KLxSpareSleep = 3;    // 0.39: In the background: 0 sleep after 1 minute (older files), 1 5 minutes, 2 15 minutes, 3 never
-const TInt KLxSpareSleep2 = 4;   // 0.40: In the background, the choice + 1 (0: not set, in older files: Never sleep,
-                                 // or 0.39's 5 or 15 minutes if that was chosen); KLxSpareSleep is kept the same
-// (0.40) Preferences > In the background: 0 sleep after 1 minute, 1 5 minutes, 2 15 minutes, 3 never (the standard)
+const TInt KLxSpareSleep2 = 4;   // 0.40: In the background, the choice + 1 (0: not set: the standard, or
+                                 // 0.39's 5, 15 minutes or Never if that was chosen); KLxSpareSleep is kept the same
+// (0.40) Preferences > In the background: 0 sleep after 1 minute, 1 5 minutes, 2 15 minutes, 3 never.
+// (0.52, Dan 22 November 2026) The standard is Sleep after 5 minutes (0.40 to 0.51: Never sleep).
+// A choice saved is kept: 0.40 to 0.51 saved this line whenever Preferences closed with OK, so a
+// saved Never cannot be told from an untouched one, and stays Never. Only settings that never saved
+// it (KLxSpareSleep2 0: new settings, or Preferences never OK'd since 0.40) take the new standard;
+// from 0.52 Preferences saves the line only when it is changed (CLxPrefsDialog).
+const TInt KLxSleepStandard = 1;
 inline TInt LxSleepChoice(const TLxSettings& aS)
 	{
 	TInt v = aS.iSpare[KLxSpareSleep2];
 	if (v >= 1 && v <= 4)
 		return v - 1;
 	TInt old = aS.iSpare[KLxSpareSleep];
-	return old == 1 || old == 2 ? old : 3;
+	return old == 1 || old == 2 || old == 3 ? old : KLxSleepStandard;   // (0.39 saved 0 for its standard, 1 minute)
 	}
 inline void LxSetSleepChoice(TLxSettings& aS, TInt aChoice)
 	{

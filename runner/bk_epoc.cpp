@@ -2007,7 +2007,10 @@ static void AutoSleep(TInt aIdleSecs)
 		gSleepWait = 0;                      // (in front again: a sleep may be tried)
 	else if (gSleepWait > 0)
 		gSleepWait--;
-	if (lx_k_asleep || !gSh->sleep_after || !gSh->app_behind)
+	// (0.48) asked with In the background at Never sleep (sleep_after 0):
+	// the app asks only at the watcher's automatic "sleep" under 1.5 MB
+	// free; lx_k_sleep sleeps only an idle Linux, a shell at its prompt
+	if (lx_k_asleep || (!gSh->sleep_after && !asked) || !gSh->app_behind)
 		return;
 	if (!asked && (gBehindSecs < gSh->sleep_after || aIdleSecs < KSleepIdle || gSleepWait > 0))
 		return;

@@ -358,7 +358,14 @@ void CLxAppUi::ProcessMessageL(TUid aUid, const TDesC8& aParams)
 	iTerm->Session()->Trim();
 	// (0.39) "sleep": Linux sleeps now, if it is idle (In the background:
 	// Never sleep leaves it awake)
-	if (word == EPsiMemWordSleep && iTerm->SleepAfter())
+	// (0.48, Dan 22 November 2026: "yes, sleep at very low memory") with
+	// Never sleep too, when the watcher says under 1.5 MB is free (its
+	// automatic "sleep"; PsiMemLevelNow, so a "sleep" from anywhere else
+	// still only trims): the runner then puts Linux to sleep only if it is
+	// idle at the shell prompt (lx_k_sleep_blocker: no program running or
+	// open on the terminal, none with the screen, no connection, no timer
+	// due), and only while PsiLinux is behind
+	if (word == EPsiMemWordSleep && (iTerm->SleepAfter() || PsiMemLevelNow() >= EPsiMemLowLevel))
 		iTerm->Session()->SleepNow(ETrue);
 	if (word == EPsiMemWordSleepNow && !iTerm->Session()->SleepNowAsked())
 		PsiMemAnswer(iCoeEnv->WsSession(), KUidPsiLinux.iUid, KPsiMemCannot, _L("Linux is not running"));

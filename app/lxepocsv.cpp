@@ -724,7 +724,7 @@ void CLxEpoc::InfoL()
 	TInt tenths, mode, rate;
 	if (CodaBattery(fs, tenths, mode, rate) == KErrNone)
 		{
-		KeyNum(_L8("battery_percent"), tenths / 10);
+		KeyNum(_L8("battery_percent"), (tenths + 5) / 10);    // (0.48) rounded, as the toolbar (PsiBattShownPercent)
 		static const TText* const KModes[] = { _S("battery"), _S("charging"), _S("topping up"), _S("full") };
 		Key(_L8("battery_mode"), TPtrC(KModes[mode >= 0 && mode <= 3 ? mode : 0]));
 		if (rate > 0)

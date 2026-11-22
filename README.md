@@ -26,6 +26,7 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 
 ## Contents
 
+- [What's new in 0.48](#whats-new-in-048)
 - [What's new in 0.47](#whats-new-in-047)
 - [What's new in 0.46](#whats-new-in-046)
 - [What's new in 0.43](#whats-new-in-043)
@@ -48,6 +49,19 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 - [Documents](#documents)
 - [Support](#support)
 - [Credits and licences](#credits-and-licences)
+
+## What's new in 0.48
+
+- With Preferences > General > In the background at **Never sleep**, Linux
+  now also sleeps when Coda finds the Psion very short of memory (under
+  1.5 MB free), so it is not closed: only when PsiLinux is behind another
+  program and Linux is idle at the shell's prompt. It stays awake while a
+  program runs or is open on the terminal, has the screen or has a
+  connection open, as it always has. Above 1.5 MB free, Never sleep
+  still means Linux only gives back its caches. Free memory's "Put
+  PsiLinux to sleep" works as before.
+- `epoc info`'s `battery_percent` is rounded, as the toolbar rounds it
+  (94.6% is 95, not 94).
 
 ## What's new in 0.47
 

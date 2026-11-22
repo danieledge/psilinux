@@ -42,7 +42,8 @@ static const TLxHelpTopic KHelpTopics[] =
 	  "a pager is open, or a network connection is open. With too little room on the disk it stays awake "
 	  "and tries again later. Asleep, the disk must stay in: with the card out, PsiLinux says "
 	  "\"Put the card back to wake Linux\" and waits. On Coda, Free memory's \"Put PsiLinux to sleep\" "
-	  "puts an idle Linux to sleep at once, whatever this choice." },
+	  "puts an idle Linux to sleep at once, whatever this choice. With Never sleep, an idle Linux behind "
+	  "also sleeps when Coda finds under 1.5 MB free, rather than being closed." },
 
 	{ "Alpine Linux",
 	  "PsiLinux runs Alpine Linux 3.24: Alpine's own programs, unchanged, and its package "

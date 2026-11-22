@@ -5,5 +5,5 @@
  * 0.44 on Dan's netBook. Two digits, as every Coda program. */
 #ifndef LXVERSION_H
 #define LXVERSION_H
-#define LX_VERSION "0.50"
+#define LX_VERSION "0.51"
 #endif

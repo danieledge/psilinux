@@ -710,7 +710,7 @@ static int copy_up(lx_vn *v)
 	const char *rel = rel_of(v->path);
 	void *h;
 	int err, r = 0, w;
-	lx_u32 off = 0;
+	lx_u32 off = 0, chunk;
 	char *buf;
 	img_ent *e;
 	if (v->upper || v->img < 0) return 0;
@@ -725,10 +725,19 @@ static int copy_up(lx_vn *v)
 	lx_snprintf(tmp + lx_strlen(tmp), sizeof tmp - lx_strlen(tmp), "%c%s", bk_native_sep(), LX_COPY_NAME);
 	h = bk_file_open(tmp, LX_O_WRONLY | LX_O_CREAT | LX_O_TRUNC, &err);
 	if (!h) return err;
-	buf = (char *)bk_alloc(4096);
+	/* (0.51) its size first: its clusters given out at once (EPOC's FAT code
+	 * reads the card's whole FAT each time a file gets new ones: once a
+	 * copy, not once a piece), and a _LXCOPY a reset left behind is cut to
+	 * it, not left longer; then 32 KB pieces (4 KB if short of memory) */
+	r = bk_file_truncate(h, e->size);
+	if (r < 0) { bk_file_close(h); bk_unlink(tmp); return r; }
+	w = 32768;
+	buf = (char *)bk_alloc(w);
+	if (!buf) buf = (char *)bk_alloc(w = 4096);
 	if (!buf) { bk_file_close(h); bk_unlink(tmp); return -LX_ENOMEM; }
+	chunk = (lx_u32)w;
 	while (off < e->size) {
-		lx_u32 n = e->size - off > 4096 ? 4096 : e->size - off;
+		lx_u32 n = e->size - off > chunk ? chunk : e->size - off;
 		r = img_read(e->data + off, buf, n);
 		if (r <= 0) { r = -LX_EIO; break; }
 		w = bk_file_write(h, off, buf, r);

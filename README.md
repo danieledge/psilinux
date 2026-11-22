@@ -26,6 +26,7 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 
 ## Contents
 
+- [What's new in 0.51](#whats-new-in-051)
 - [What's new in 0.50](#whats-new-in-050)
 - [What's new in 0.49](#whats-new-in-049)
 - [What's new in 0.48](#whats-new-in-048)
@@ -51,6 +52,17 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 - [Documents](#documents)
 - [Support](#support)
 - [Credits and licences](#credits-and-licences)
+
+## What's new in 0.51
+
+- Changing a file of the Linux root for the first time is quicker on the
+  card. PsiLinux copies the file beside it first; that copy is now given its
+  whole size before it is written, and is written 32 KB at a time, not 4 KB.
+  EPOC reads the card's whole file allocation table each time a file grows
+  into new space, so a growing copy paid that once every few kilobytes; now
+  once a file. A copy cut short is still never the file.
+- Writing to files on EPOC's disks asks the file server for a file's length
+  only when a write may start past its end, not before every write.
 
 ## What's new in 0.50
 

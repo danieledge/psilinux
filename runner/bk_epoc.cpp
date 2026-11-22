@@ -2223,16 +2223,28 @@ void CLxTerm::Housekeeping()
 
 // ---- files -----------------------------------------------------------------------
 
+// (0.51) a file handle: the RFile first (the calls below take it as one),
+// then its length as last known (-1: not known), so a write that does not
+// go past it needs no Size() (an IPC each write before; on a card a write
+// is a request to the file server, and one fewer is time)
+struct TBkFile
+	{
+	RFile iF;
+	TInt iSize;
+	};
+
 extern "C" void* bk_file_open(const char* path, int flags, int* err)
 	{
 	TFileName name;
 	Name(name, path);
-	RFile* f = new RFile;
-	if (!f)
+	TBkFile* b = new TBkFile;
+	if (!b)
 		{
 		*err = -LX_ENOMEM;
 		return 0;
 		}
+	b->iSize = -1;
+	RFile* f = &b->iF;
 	TInt acc = flags & LX_O_ACCMODE;
 	TUint mode = EFileShareAny | (acc == LX_O_RDONLY ? EFileRead : EFileWrite);
 	TInt r;
@@ -2246,11 +2258,11 @@ extern "C" void* bk_file_open(const char* path, int flags, int* err)
 		}
 	if (r != KErrNone)
 		{
-		delete f;
+		delete b;
 		*err = Err(r);
 		return 0;
 		}
-	return f;
+	return b;
 	}
 
 extern "C" int bk_file_read(void* h, lx_s64 off, char* buf, lx_u32 n)
@@ -2263,12 +2275,36 @@ extern "C" int bk_file_read(void* h, lx_s64 off, char* buf, lx_u32 n)
 
 extern "C" int bk_file_write(void* h, lx_s64 off, const char* buf, lx_u32 n)
 	{
-	RFile* f = (RFile*)h;
-	TInt size = 0;
-	if (f->Size(size) == KErrNone && off > size)
-		f->SetSize((TInt)off);               // (a hole: F32 will not write past the end)
-	TInt r = f->Write((TInt)off, TPtrC8((const TUint8*)buf, n), n);
-	return r != KErrNone ? Err(r) : (int)n;
+	TBkFile* b = (TBkFile*)h;
+	RFile* f = &b->iF;
+	// (0.51) the length asked only when the write may start past it (a
+	// hole: F32 will not write past the end), or when not known
+	TBool asked = EFalse;
+	for (;;)
+		{
+		if (b->iSize < 0 || off > b->iSize)
+			{
+			TInt size = 0;
+			asked = ETrue;
+			b->iSize = -1;
+			if (f->Size(size) == KErrNone)
+				{
+				b->iSize = size;
+				if (off > size && f->SetSize((TInt)off) == KErrNone)
+					b->iSize = (TInt)off;
+				}
+			}
+		TInt r = f->Write((TInt)off, TPtrC8((const TUint8*)buf, n), n);
+		if (r == KErrNone)
+			{
+			if (b->iSize >= 0 && off + n > b->iSize)
+				b->iSize = (TInt)(off + n);
+			return (int)n;
+			}
+		b->iSize = -1;
+		if (asked)
+			return Err(r);              // (else once more, its length asked: another handle may have cut it)
+		}
 	}
 
 extern "C" int bk_file_size(void* h, lx_s64* size)
@@ -2279,9 +2315,15 @@ extern "C" int bk_file_size(void* h, lx_s64* size)
 	return Err(r);
 	}
 
-extern "C" int bk_file_truncate(void* h, lx_s64 size) { return Err(((RFile*)h)->SetSize((TInt)size)); }
+extern "C" int bk_file_truncate(void* h, lx_s64 size)
+	{
+	TBkFile* b = (TBkFile*)h;
+	TInt r = b->iF.SetSize((TInt)size);
+	b->iSize = r == KErrNone ? (TInt)size : -1;
+	return Err(r);
+	}
 extern "C" int bk_file_sync(void* h) { return Err(((RFile*)h)->Flush()); }
-extern "C" void bk_file_close(void* h) { ((RFile*)h)->Close(); delete (RFile*)h; }
+extern "C" void bk_file_close(void* h) { ((RFile*)h)->Close(); delete (TBkFile*)h; }
 
 static TBool IsDriveRoot(const TDesC& aName)
 	{

@@ -26,6 +26,7 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 
 ## Contents
 
+- [What's new in 0.49](#whats-new-in-049)
 - [What's new in 0.48](#whats-new-in-048)
 - [What's new in 0.47](#whats-new-in-047)
 - [What's new in 0.46](#whats-new-in-046)
@@ -49,6 +50,19 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 - [Documents](#documents)
 - [Support](#support)
 - [Credits and licences](#credits-and-licences)
+
+## What's new in 0.49
+
+- The terminal is PsiTerm 1.24's (PsiLinux takes PsiTerm's terminal code
+  at every build): a resize that would need more memory than there is
+  keeps the size and says "Not enough memory to change the size"; clearing
+  the history or resetting the terminal gives the history's memory back;
+  the status line on a colour screen is Coda's navy.
+- Built from published trees only: psiterm 791b727 (1.24) and psion-core
+  959b8fd. `build.sh` now builds libvterm from that PsiTerm tree every time
+  (0.48 had linked one another build left in the SDK) and the epoc command
+  when PsiLinux's toolchain is at hand, and takes `psierr.h` from
+  psion-core. Nothing else changes from 0.48.
 
 ## What's new in 0.48
 
@@ -930,7 +944,7 @@ PsiLinux builds in Docker. It carries the suite's shared code,
 [psiterm](https://github.com/danieledge/psiterm) checkout beside this one:
 
 ```sh
-core/tools/docker/psibuild "bash build.sh sis"     # the app and the runner -> dist/PsiLinux.sis
+core/tools/docker/psibuild "bash build.sh sis"     # the app, the runner, libvterm and (with $LXTC) the epoc command -> dist/PsiLinux.sis
 tools/lxbuild toolchain                            # GCC 14 + patched musl, once
 tools/lxbuild "rootfs/build-rootfs.sh"             # PsiLinux's own root
 alpine/build-root.sh                               # the Alpine root

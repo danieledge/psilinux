@@ -2,6 +2,11 @@
 # Builds PsiLinux for the Psion Series 5mx: the runner (psilxrun.exe), the
 # app (PsiLinux.app) and, with "sis", dist/PsiLinux.sis.
 #   core/tools/docker/psibuild "bash build.sh [sis]"
+# (0.49) A release is built from clean checkouts: this one (its core/
+# submodule, or $PSION_CORE at the same commit), psiterm at the commit the
+# release names ($PSITERM), and $LXTC for the epoc command. The build log
+# names the PsiTerm commit. The binaries then differ from build to build
+# only in the E32 header's time stamp.
 # The Linux programs and ROOT.IMG are built separately, in psilinux-build:
 #   tools/lxbuild "rootfs/build-rootfs.sh"
 #
@@ -32,8 +37,15 @@ mkdir -p "$TMP" "$EPOCROOT/ptproj" "$TOP/build"
 V=$(sed -n 's/^#define LX_VERSION "\(.*\)"/\1/p' "$HERE/common/lxversion.h")
 PV=$(sed -n 's/^#{"PsiLinux"},([^)]*),\([0-9]*\),\([0-9]*\),.*/\1.\2/p' "$HERE/pkg/psilinux.pkg")
 [ -n "$V" ] && [ "$V" = "$PV" ] || { echo "version: common/lxversion.h says $V, pkg/psilinux.pkg $PV"; exit 1; }
-echo "== libvterm (PsiTerm's)"
-[ -f "$REL/psivterm.lib" ] || "$PSITERM/build_vterm.sh"
+# (0.49) libvterm from the PsiTerm tree named above, every build: a library
+# another build left in the SDK (0.48 linked one from PsiTerm 1.24 against
+# 0.47's terminal) would make the link depend on what built there last
+PTREV=$(git -C "$PSITERM" rev-parse --short=9 HEAD 2>/dev/null || echo "not a git tree")
+[ -z "$(git -C "$PSITERM" status --porcelain --untracked-files=no 2>/dev/null)" ] || PTREV="$PTREV, changed"
+echo "== libvterm (PsiTerm's: $PSITERM, $PTREV)"
+rm -f "$REL/psivterm.lib"
+"$PSITERM/build_vterm.sh" > "$TOP/build/vterm.log" 2>&1 || { tail -20 "$TOP/build/vterm.log"; exit 1; }
+[ -f "$REL/psivterm.lib" ] || { echo "no psivterm.lib after build_vterm.sh"; exit 1; }
 echo "== psilxrun.exe (the runner)"
 make -C "$HERE/runner" SDK="$PSION_SDK" PSION_CORE="$CORE" > "$TOP/build/psilxrun.log" 2>&1 \
 	|| { grep -E "error|undefined" "$TOP/build/psilxrun.log" | head -30; exit 1; }
@@ -95,6 +107,13 @@ cp "$PTCORE/pkg/psiterm.gdr" "$P/psiterm.gdr"       # (PsiTerm's fonts: Terminus
 cp "$TOP/build/psilinux-icons/psilinux.aif" "$TOP/build/psilinux-icons/psilinux.mbm" "$P/"
 # (0.36) the epoc command (a Linux program, epoc/Makefile, built in
 # psilinux-build), which the kernel shows as /psion/bin/epoc
+# (0.49) built here when PsiLinux's toolchain is at hand ($LXTC; tools/lxbuild
+# toolchain makes it), so a clean checkout gives the whole package
+LXTC=${LXTC:-$HERE/../psilinux-toolchain}
+if [ -x "$LXTC/bin/lx-cc" ]; then
+	echo "== the epoc command (PsiLinux's toolchain: $LXTC)"
+	make -C "$HERE/epoc" LXTC="$LXTC" > "$TOP/build/epoc.log" 2>&1 || { tail -20 "$TOP/build/epoc.log"; exit 1; }
+fi
 if [ -f "$TOP/build/epoc/epoc" ]; then
 	cp "$TOP/build/epoc/epoc" "$P/epoc"
 	cp "$HERE/epoc/epoc-completion.bash" "$P/epoc-completion.bash"

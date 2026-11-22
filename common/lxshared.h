@@ -18,7 +18,7 @@
 
 #define LX_SHARED_NAME   "PsiLinuxTerm"
 #define LX_SHARED_MAGIC  0x584e4c50u      /* 'PLNX' */
-#define LX_SHARED_VERSION 10
+#define LX_SHARED_VERSION 11
 #define LX_KBD_SIZE      2048
 #define LX_OUT_SIZE      16384
 #define LX_EPOC_BUF      16032         /* (6) an EPOC request or answer (lxepoc.h: header + LXE_MAX) */
@@ -112,6 +112,11 @@ typedef struct
 	volatile unsigned int sleep_now_ans;   /* the runner sets it to sleep_now_req once it has tried */
 	volatile int sleep_now_result;     /* ...0: asleep; else -errno, and sleep_why says why in words */
 	char sleep_why[48];
+
+	/* (11) what PsiLinux holds (0.47, RN-18: the status line, /proc's "in
+	 * all" and Coda's Free memory each said something else) */
+	volatile unsigned int held;        /* the runner's: its Linux chunks, heap, threads, tables (each second) */
+	volatile unsigned int app_held;    /* the window's (the app, every 5 s) */
 	} LxShared;
 
 enum { LXS_AWAKE = 0, LXS_ASLEEP, LXS_NOROOM, LXS_NOCARD };   /* sleep_state: NOROOM: asleep, and no RAM to wake; (0.40) NOCARD: asleep, its card out */

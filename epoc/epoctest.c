@@ -30,6 +30,7 @@ static void capture(void (*f)(void *), void *arg)
 
 static void table_ps(void *a) { print_table((const char *)a, ps_cols); }
 static void keys_info(void *a) { print_keys((const char *)a, 0); }
+static void key_battery(void *a) { print_keys((const char *)a, "battery_percent"); }
 
 int main(void)
 {
@@ -99,7 +100,12 @@ int main(void)
 		CHECK(out[0] == '[' && strstr(out, "\"sys\": \"sys\"}\n]") != 0);
 		capture(keys_info, (void *)"machine\tPsion netBook\nfree_kb\t9000\ndisk\tC\tInternal\t16384\t8000\n");
 		CHECK(strstr(out, "\"machine\": \"Psion netBook\"") && strstr(out, "\"free_kb\": 9000") && strstr(out, "\"disk\": [\"C\", \"Internal\", 16384, 8000]"));
+		/* (0.37, RN-18) one key: plain, and with --json an object */
+		capture(key_battery, (void *)"machine\tPsion netBook\nbattery_percent\t94\n");
+		CHECK(!strcmp(out, "{\"battery_percent\": 94}\n"));
 		opt_json = 0;
+		capture(key_battery, (void *)"machine\tPsion netBook\nbattery_percent\t94\n");
+		CHECK(!strcmp(out, "94\n"));
 	}
 	printf("epoctest: %d checks, %d failed\n", checks, fails);
 	return fails ? 1 : 0;

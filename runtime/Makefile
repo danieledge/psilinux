@@ -5,7 +5,7 @@
 OUT    := ../build/linux
 CORE   := lx_core.c lx_mem.c lx_elf.c lx_vfs.c lx_root.c lx_dev.c lx_tty.c lx_fsys.c lx_net.c lx_dbt.c lx_dbt_rt.c lx_vfp.c lx_simg.c lx_rand.c lx_fb.c lx_pty.c lx_epoc.c
 SF     := $(wildcard softfloat/*.c)
-HDRS   := ../common/lxfb.h ../common/lxepoc.h lx_core.h lx_abi.h lx_sysnr.h lx_vfs.h lx_bknet.h lx_dbt.h
+HDRS   := ../common/lxfb.h ../common/lxepoc.h ../common/lxversion.h lx_core.h lx_abi.h lx_sysnr.h lx_vfs.h lx_bknet.h lx_dbt.h
 CC     := $(LXTC)/bin/lx-cc
 CFLAGS := -O2 -g -Wall -Wno-unused-function -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast -fno-strict-aliasing
 

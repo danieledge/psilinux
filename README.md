@@ -26,6 +26,7 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 
 ## Contents
 
+- [What's new in 0.47](#whats-new-in-047)
 - [What's new in 0.46](#whats-new-in-046)
 - [What's new in 0.43](#whats-new-in-043)
 - [What's new in 0.42](#whats-new-in-042)
@@ -47,6 +48,27 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 - [Documents](#documents)
 - [Support](#support)
 - [Credits and licences](#credits-and-licences)
+
+## What's new in 0.47
+
+Clocks, versions and memory figures that agree.
+- Linux's steady clock follows the Psion's real clock. It counted the
+  system tick, which did not keep time on a real netBook: bash's `time`
+  gave 0.28 s for a `epoc run Calc` that took 5 s, and `/proc/uptime`
+  said 501 days. A clock set backwards or forwards (or the Psion switched
+  off) is stepped over, so the steady clock never goes back or leaps.
+  `/proc/uptime` and `sysinfo` count from when Linux started.
+- One version for the whole of PsiLinux: the runner (`uname`, `epoc
+  version`, `/proc/version`) and About take it from one file, and the
+  build stops if the installer says otherwise. On the 0.45 card the runner
+  still said 0.44.
+- The status line shows what PsiLinux holds ("PsiLinux 5.6 MB"), the same
+  figure as `/proc/psilinux/mem`'s "in all" (now PsiLinux's own memory,
+  not the fall in free memory since it started, which counted every other
+  program too) and close to Coda's Free memory, which also counts the
+  programs' code. It showed the Linux programs' memory alone.
+- `epoc --json info KEY` gives `{"KEY": value}` (it printed the plain
+  value). epoc 0.37.
 
 ## What's new in 0.46
 

@@ -2093,7 +2093,7 @@ static int sys_sysinfo(lx_thread *t, lx_u32 buf)
 	bk_memset(s, 0, sizeof *s);
 	bk_mem_info(&total, &freeb);
 	for (i = 0; i < LX_MAXPROC; i++) if (lx_k.procs[i].state == LX_P_ALIVE) n++;
-	s->uptime = (lx_s32)(lx_now() / 1000000);
+	s->uptime = (lx_s32)((lx_now() - lx_k.start_mono) / 1000000);   /* (0.47) since Linux started */
 	s->totalram = total;
 	s->freeram = freeb;
 	s->procs = (lx_u16)n;

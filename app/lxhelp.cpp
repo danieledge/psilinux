@@ -33,7 +33,7 @@ static const TLxHelpTopic KHelpTopics[] =
 	  "(Shift+Ctrl+E) closes PsiLinux.\n"
 	  "\n"
 	  "The status line at the bottom shows the program in front, how many Linux programs are running, "
-	  "the memory they use and the memory the Psion has free.\n"
+	  "the memory PsiLinux holds (as Coda's Free memory counts it) and the memory the Psion has free.\n"
 	  "\n"
 	  "Linux can sleep behind another program: Preferences > General > In the background, Sleep "
 	  "after 1, 5 or 15 minutes (Never sleep, as it comes). With Linux idle at the shell's prompt, its "

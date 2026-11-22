@@ -17,6 +17,7 @@
 #include "psimem.h"                  // (0.46) Coda's memory service: its words, the list and busy (psion-core)
 #include "lxterm.h"
 #include "lxepocsv.h"
+#include "lxheld.h"                 // (0.47) what the window holds, as Free memory counts it
 
 _LIT(KRunnerExe, "psilxrun.exe");
 _LIT(KLxFontFile, "PsiTerm.gdr");          // PsiTerm's fonts, beside the program
@@ -321,6 +322,10 @@ TInt CLxSession::TickCallback(TAny* aSelf)
 		s->iBeats = 0;
 		User::Heap().Compress();
 		}
+	// (0.47, RN-18) the window's own chunks, every 5 s or so (the status
+	// line shows them with the runner's)
+	if (s->iShared && s->iBeats % (5 * 1000000 / KTickUs) == 0)
+		s->iShared->app_held = LxHeldBytes();
 	// (0.38) behind another program (its window group not the first), the
 	// runner gives back Linux's idle memory sooner
 	if (s->iShared)
@@ -1042,13 +1047,18 @@ void CLxTermView::LxStatusText(TDes& aText, TInt& aSplit) const
 		if (fg.Length() == 0)
 			fg.Copy(_L("sh"));
 		// (0.43) sizes as Coda's toolbar gives them: "1.6 MB", "13.2 MB free"
+		// (0.47, RN-18) the size is what PsiLinux holds (the runner's and the
+		// window's own chunks, as Free memory and /proc/psilinux/mem's "in
+		// all" count it); it was the Linux programs' alone, 1.8 MB where
+		// PsiLinux held 6.4 MB
 		TBuf<16> used, freeMb;
-		LxSize(used, (TInt)(sh->mem_used / 1024));
+		TUint held = sh->held ? sh->held + sh->app_held : sh->mem_used;
+		LxSize(used, (TInt)(held / 1024));
 		LxSize(freeMb, (TInt)(sh->mem_free / 1024));
 		if (sh->nprocs == 1)
-			aText.Format(_L("\x95 %S   1 program, %S   %S free"), &fg, &used, &freeMb);
+			aText.Format(_L("\x95 %S   1 program   PsiLinux %S   %S free"), &fg, &used, &freeMb);
 		else
-			aText.Format(_L("\x95 %S   %d programs, %S   %S free"), &fg, sh->nprocs, &used, &freeMb);
+			aText.Format(_L("\x95 %S   %d programs   PsiLinux %S   %S free"), &fg, sh->nprocs, &used, &freeMb);
 		if (sh->log_on && iEchoLastMs)
 			aText.AppendFormat(_L("   echo %d ms, avg %d"), iEchoLastMs, iEchoAvgMs);
 		}

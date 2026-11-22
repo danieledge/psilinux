@@ -25,7 +25,7 @@
 extern "C" {
 #endif
 
-#define LX_VERSION "0.46"
+#include "../common/lxversion.h"   /* LX_VERSION (0.47: one place for the runner and the window) */
 #define LX_MAXPROC 64
 #define LX_MAXTHREAD 64
 #define LX_MAXFD 128
@@ -385,6 +385,7 @@ typedef struct lx_bkmem {
 	lx_u32 start_free;                    /* the Psion's free RAM as PsiLinux started (0: not known) */
 	int behind;                           /* PsiLinux is behind another program */
 	lx_u32 asked;                         /* times the launcher asked for memory back ("trim", "sleep") */
+	lx_u32 held, app_held;                /* (0.47) the runner's and the window's own chunks (0: not counted yet) */
 } lx_bkmem;
 void bk_mem_where(lx_bkmem *m);
 void bk_heap_compress(void);                  /* (0.38) the heap's free end back to EPOC */

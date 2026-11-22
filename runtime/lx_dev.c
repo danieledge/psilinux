@@ -796,8 +796,12 @@ static int proc_text(lx_proc *p, lx_vn *v, char *buf, int size)
 		o += lx_k_trim_info(buf + o, size - o);
 		o += lx_k_sleep_info(buf + o, size - o);
 		o += lx_snprintf(buf + o, size - o, "window\t%s; asked for memory %u times\n", w.behind ? "behind" : "in front", w.asked);
-		if (w.start_free && w.start_free > freeb)
-			o += lx_snprintf(buf + o, size - o, "in all\tabout %u KB (free RAM as PsiLinux started, less now)\n", (w.start_free - freeb) / 1024);
+		/* (0.47, RN-18) PsiLinux's own chunks, as Coda's Free memory and the
+		 * status line count them; the free RAM's fall since the start also
+		 * counted what every other program took meanwhile */
+		if (w.held)
+			o += lx_snprintf(buf + o, size - o, "in all\t%u KB (PsiLinux's own: the runner %u KB, the window %u KB; the status line's figure)\n",
+				(w.held + w.app_held) / 1024, w.held / 1024, w.app_held / 1024);
 		return o;
 	}
 	case P_CPUINFO: {
@@ -811,7 +815,13 @@ static int proc_text(lx_proc *p, lx_vn *v, char *buf, int size)
 			"Features\t: swp half thumb fastmult\nCPU implementer\t: 0x41\nCPU architecture: 4T\nCPU part\t: 0x710\n\n"
 			"Hardware\t: %s\nRevision\t: 0000\n", mach[0] ? mach : "Psion Series 5mx");
 	}
-	case P_UPTIME: return lx_snprintf(buf, size, "%u.%02u 0.00\n", (lx_u32)(now / 1000000), (lx_u32)(now / 10000 % 100));
+	case P_UPTIME: {
+		/* (0.47, RN-30) since Linux started, as a Linux system's uptime
+		 * is since it booted; the idle time is not kept */
+		lx_s64 up = now - lx_k.start_mono;
+		if (up < 0) up = 0;
+		return lx_snprintf(buf, size, "%u.%02u 0.00\n", (lx_u32)(up / 1000000), (lx_u32)(up / 10000 % 100));
+	}
 	case P_LOADAVG: {
 		int run = 0, all = 0;
 		for (i = 0; i < LX_MAXPROC; i++) if (lx_k.procs[i].state == LX_P_ALIVE) { all++; if (proc_state(&lx_k.procs[i]) == 'R') run++; }

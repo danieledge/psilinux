@@ -24,7 +24,7 @@ CXXFLAGS := $(ARCH) $(DEFS) -Wno-ctor-dtor-privacy -fcheck-new -fvtable-thunks -
 V4BX_DIR := $(abspath $(OBJ))
 include $(PSION_CORE)/tools/v4bx.mk
 LIBS     := $(REL)/euser.lib $(REL)/efsrv.lib $(REL)/c32.lib $(REL)/esock.lib $(REL)/insock.lib $(REL)/nifman.lib $(LIBGCC)
-HDRS     := $(wildcard $(RT)/*.h) ../common/lxshared.h ../common/lxfb.h ../common/lxepoc.h
+HDRS     := $(wildcard $(RT)/*.h) ../common/lxshared.h ../common/lxfb.h ../common/lxepoc.h ../common/lxversion.h
 
 all: $(OBJ)/psilxrun.exe
 

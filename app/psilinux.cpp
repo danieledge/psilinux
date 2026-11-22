@@ -34,7 +34,8 @@
 #include <psilinux.rsg>
 
 const TUid KUidPsiLinux = { 0x01000A87 };
-_LIT(KLxVersion, "0.46");
+#include "lxversion.h"             // (0.47) LX_VERSION: the same as the runner's
+_LIT(KLxVersion, LX_VERSION);
 _LIT(KIniFile, "C:\\System\\Apps\\PsiLinux\\PsiLinux.ini");
 
 // (0.38) Short of memory: the launcher (PsiHub, which watches the free RAM)

@@ -30,7 +30,7 @@
 #include <sys/stat.h>
 #include "../common/lxepoc.h"
 
-#define EPOC_VERSION "0.36"
+#define EPOC_VERSION "0.37"
 #define HDR ((int)sizeof(LxeHeader))
 
 static int opt_heading, opt_json, opt_quiet, opt_force;
@@ -239,7 +239,28 @@ static void print_table(const char *text, const char *const *cols)
 	if (opt_json) puts(first ? "]" : "\n]");
 }
 
-/* key<TAB>value lines; only one key's value(s) with 'key' */
+/* a value (or a TAB-separated row of them, or every 'disk' line's: an
+ * array) as JSON */
+static void json_row(const char *k, int kl, const char *v, const char *e)
+{
+	int multi = memchr(v, '\t', e - v) != 0 || (kl == 4 && strncmp(k, "disk", 4) == 0);
+	if (multi) {
+		const char *f = v;
+		int n = 0;
+		putchar('[');
+		while (f <= e) {
+			const char *g = memchr(f, '\t', e - f);
+			if (!g) g = e;
+			printf("%s", n++ ? ", " : "");
+			json_val(f, (int)(g - f));
+			f = g + 1;
+		}
+		putchar(']');
+	} else json_val(v, (int)(e - v));
+}
+
+/* key<TAB>value lines; only one key's value(s) with 'key' (0.37, RN-18:
+ * with --json, as {"key": value} too: it was printed plain) */
 static int print_keys(const char *text, const char *key)
 {
 	const char *s = text;
@@ -254,31 +275,25 @@ static int print_keys(const char *text, const char *key)
 		kl = t ? (int)(t - s) : (int)(e - s);
 		if (key) {
 			if ((int)strlen(key) == kl && strncmp(s, key, kl) == 0) {
-				if (t) fwrite(t + 1, 1, e - t - 1, stdout);
+				if (opt_json) {
+					/* (a key there more than once - disk - gives one
+					 * object a line, as plain gives one line each) */
+					putchar('{');
+					json_str(s, kl);
+					fputs(": ", stdout);
+					json_row(s, kl, t ? t + 1 : e, e);
+					putchar('}');
+				} else if (t) fwrite(t + 1, 1, e - t - 1, stdout);
 				putchar('\n');
 				found = 1;
 			}
 		} else if (opt_json) {
 			/* (a key with several values, or there more than once - disk -
 			 * gives an array of them) */
-			const char *v = t ? t + 1 : e;
-			int multi = memchr(v, '\t', e - v) != 0 || strcmp(s, "disk") == 0 || (kl == 4 && strncmp(s, "disk", 4) == 0);
 			printf("%s\n ", first ? "" : ",");
 			json_str(s, kl);
 			fputs(": ", stdout);
-			if (multi) {
-				const char *f = v;
-				int k = 0;
-				putchar('[');
-				while (f <= e) {
-					const char *g = memchr(f, '\t', e - f);
-					if (!g) g = e;
-					printf("%s", k++ ? ", " : "");
-					json_val(f, (int)(g - f));
-					f = g + 1;
-				}
-				putchar(']');
-			} else json_val(v, (int)(e - v));
+			json_row(s, kl, t ? t + 1 : e, e);
 		} else {
 			fwrite(s, 1, e - s, stdout);
 			putchar('\n');
@@ -650,7 +665,7 @@ static void completion(void)
 }
 
 static const char help_text[] =
-"epoc - your Psion from the shell (PsiLinux " EPOC_VERSION ")\n"
+"epoc " EPOC_VERSION " - your Psion from the shell (PsiLinux's epoc command; epoc version gives PsiLinux's own)\n"
 "\n"
 "usage: epoc [-H] [--json] [-q] [--force] [--timeout S] COMMAND [ARGS]\n"
 "\n"

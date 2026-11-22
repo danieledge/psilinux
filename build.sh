@@ -28,6 +28,10 @@ export PATH=/usr/bin:/bin:$PSION_SDK/gcc-3.0-psion-98r2-9/bin:$EPOCROOT/epoc32/t
 export TMP=$EPOCROOT/tmp WINEDEBUG=-all
 mkdir -p "$TMP" "$EPOCROOT/ptproj" "$TOP/build"
 
+# (0.47, RN-19) one version: common/lxversion.h, and the package must agree
+V=$(sed -n 's/^#define LX_VERSION "\(.*\)"/\1/p' "$HERE/common/lxversion.h")
+PV=$(sed -n 's/^#{"PsiLinux"},([^)]*),\([0-9]*\),\([0-9]*\),.*/\1.\2/p' "$HERE/pkg/psilinux.pkg")
+[ -n "$V" ] && [ "$V" = "$PV" ] || { echo "version: common/lxversion.h says $V, pkg/psilinux.pkg $PV"; exit 1; }
 echo "== libvterm (PsiTerm's)"
 [ -f "$REL/psivterm.lib" ] || "$PSITERM/build_vterm.sh"
 echo "== psilxrun.exe (the runner)"

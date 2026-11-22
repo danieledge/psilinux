@@ -764,6 +764,28 @@ static void SlCommitted(const TSlChunk& aS, TInt& aBottom, TInt& aTop)
 	aTop = aS.iDouble ? aS.iC->Top() : aS.iC->Size();
 	}
 
+// (0.47, RN-18) what the runner holds: every chunk of Linux's (images,
+// stacks, the mmap area and its big blocks, the translator's code: gSl,
+// committed now), its heap, its threads' stacks and its fixed tables. (Its
+// Linux chunks are local and nameless, so a walk of the process's named
+// chunks found only the heap and data: 0.47's first try said 920 KB.)
+static TUint RunnerHeld()
+	{
+	TUint total = 0;
+	for (TInt i = 0; i < KSlMax; i++)
+		if (gSl[i].iC)
+			{
+			TInt bottom, top;
+			SlCommitted(gSl[i], bottom, top);
+			if (top > bottom)
+				total += (TUint)(top - bottom);
+			}
+	total += (TUint)User::Heap().Size();
+	total += (TUint)gThreads * 16384;
+	total += (TUint)sizeof lx_k;
+	return total;
+	}
+
 // (0.40) every sleep file deleted, and none trusted: after a sleep that
 // failed, so a full card gets its room back
 static void SlDrop()
@@ -1373,6 +1395,8 @@ extern "C" void bk_mem_where(lx_bkmem* m)
 	m->app_heap = gSh ? gSh->app_heap : 0;
 	m->app_heap_used = gSh ? gSh->app_heap_used : 0;
 	m->start_free = gSh ? gSh->start_free : 0;
+	m->held = gSh ? gSh->held : 0;
+	m->app_held = gSh ? gSh->app_held : 0;
 	m->behind = gSh ? gSh->app_behind : 0;
 	m->asked = gSh ? gSh->trim_seq : 0;
 	}
@@ -1433,9 +1457,51 @@ static void TickInit()
 	if (UserHal::TickPeriod(period) == KErrNone && period.Int() > 0 && period.Int() <= 1000000)
 		gTickUs = period.Int();
 	}
+// (0.47, RN-30) Linux's steady clock follows the Psion's real clock. It was
+// the tick count times the tick's length, and on Dan's netBook that did not
+// keep time: bash's `time` gave 0.28 s for a 5 s `epoc run Calc` and
+// /proc/uptime said 501 days. The real clock is what `date` shows (and was
+// right). A clock set backwards, or forward by more than an hour between
+// two looks (a new time, Internet time, the Psion switched off), is
+// stepped over with the tick count's step instead, so the steady clock
+// never goes back and does not leap. 0 at the runner's start.
+static TBool gMonoInit;
+static lx_s64 gMonoBase;        // the real clock (us) the steady clock counts from
+static lx_s64 gMonoLast;        // the last value given
+static lx_s64 gMonoLastReal;
+static TUint gMonoLastTick;
 extern "C" lx_s64 bk_now_mono(void)
 	{
-	return (lx_s64)User::TickCount() * gTickUs;
+	TTime t;
+	t.UniversalTime();
+	lx_s64 real = From64(t.Int64());
+	TUint tick = User::TickCount();
+	if (!gMonoInit)
+		{
+		gMonoInit = ETrue;
+		gMonoBase = real;
+		gMonoLastReal = real;
+		gMonoLastTick = tick;
+		gMonoLast = 0;
+		return 0;
+		}
+	lx_s64 step = real - gMonoLastReal;
+	if (step < 0 || step > (lx_s64)3600000000LL)
+		{
+		// the clock was set: the tick count's step, and the base moved so
+		// that the real clock carries on from here
+		lx_s64 ticked = (lx_s64)(TUint)(tick - gMonoLastTick) * gTickUs;
+		if (ticked < 0 || ticked > (lx_s64)3600000000LL)
+			ticked = 0;
+		gMonoBase = real - (gMonoLast + ticked);
+		}
+	gMonoLastReal = real;
+	gMonoLastTick = tick;
+	lx_s64 now = real - gMonoBase;
+	if (now < gMonoLast)
+		now = gMonoLast;                     // (two threads at once: never back)
+	gMonoLast = now;
+	return now;
 	}
 
 static TInt64 gSeed;
@@ -2135,8 +2201,11 @@ void CLxTerm::Housekeeping()
 		if (p->state == LX_P_ALIVE && p->pgid == tty->pgrp)
 			lx_strlcpy(fg, p->comm, sizeof fg);
 		}
+	// (0.47, RN-18) what the runner holds
+	TUint held = RunnerHeld();
 	TBool changed = n != gSh->nprocs || used / 16384 != gSh->mem_used / 16384 || freeb / 16384 != gSh->mem_free / 16384
-		|| lx_strcmp(fg, gSh->fg_name) != 0;
+		|| held / 16384 != gSh->held / 16384 || lx_strcmp(fg, gSh->fg_name) != 0;
+	gSh->held = held;
 	gSh->nprocs = n;
 	gSh->mem_used = used;
 	gSh->mem_free = freeb;

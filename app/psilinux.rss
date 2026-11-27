@@ -503,7 +503,7 @@ RESOURCE DIALOG r_lx_about_dialog
 		DLG_LINE { type=EEikCtLabel; id=ELxAbout3; control=LABEL { txt="(c) Dan Edge 2026 - part of Coda for the Psion netBook"; }; },
 		DLG_LINE { type=EEikCtLabel; id=ELxAbout4; control=LABEL { standard_font=EEikLabelFontAnnotation; txt="Buy me a coffee: buymeacoffee.com/danedge"; }; },
 		DLG_LINE { type=EEikCtLabel; id=ELxAbout5; control=LABEL { standard_font=EEikLabelFontAnnotation; txt="Alpine Linux"; }; },
-		DLG_LINE { type=EEikCtLabel; id=ELxAbout6; control=LABEL { standard_font=EEikLabelFontAnnotation; txt="Licences are in Linux, in /usr/share/licenses; credits in Help"; }; },
+		DLG_LINE { type=EEikCtLabel; id=ELxAbout6; control=LABEL { standard_font=EEikLabelFontAnnotation; txt="Licences are in Linux, in /usr/share/licenses. Credits are in Help"; }; },
 		DLG_LINE { type=EEikCtLabel; id=ELxAbout8; control=LABEL { standard_font=EEikLabelFontAnnotation; txt="Source: github.com/danieledge/psilinux"; }; },
 		DLG_LINE { type=EEikCtLabel; id=ELxAbout7; control=LABEL { standard_font=EEikLabelFontAnnotation; txt="This product includes software licensed from Symbian Ltd (c) Symbian Ltd 1998-9"; }; }
 		};

@@ -26,6 +26,7 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 
 ## Contents
 
+- [What's new in 0.54](#whats-new-in-054)
 - [What's new in 0.53](#whats-new-in-053)
 - [What's new in 0.52](#whats-new-in-052)
 - [What's new in 0.51](#whats-new-in-051)
@@ -54,6 +55,10 @@ translated as they run, booted by BusyBox init and OpenRC, with Alpine's real
 - [Documents](#documents)
 - [Support](#support)
 - [Credits and licences](#credits-and-licences)
+
+## What's new in 0.54
+
+- Wording clean-up.
 
 ## What's new in 0.53
 

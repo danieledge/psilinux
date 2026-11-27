@@ -980,7 +980,7 @@ void CLxTermView::SessionStateChanged()
 			msg.Format(_L8("\r\n[%S]\r\n[Cannot start Linux - Enter tries again]\r\n"), &why);
 			}
 		else
-			msg.Copy(_L8("\r\n[Linux has ended - Enter starts it again]\r\n"));   // (0.43: the status line's words)
+			msg.Copy(_L8("\r\n[Linux has ended. Enter starts it again]\r\n"));   // (0.43: the status line's words)
 		LocalMessage(msg);
 		}
 	iSshActive = iSession->Running();        // (PsiTerm's bell rings only in a live session)
@@ -1032,13 +1032,13 @@ void CLxTermView::LxStatusText(TDes& aText, TInt& aSplit) const
 	const LxShared* sh = iSession ? iSession->Shared() : NULL;
 	TInt state = iSession ? iSession->State() : LXS_EXITED;
 	if (!sh || (!iSession->Running() && state < LXS_EXITED))
-		aText.Copy(_L("Linux is not running - Enter starts it"));
+		aText.Copy(_L("Linux is not running. Enter starts it"));
 	else if (state == LXS_STARTING)
 		aText.Copy(_L("Starting Linux\x85"));
 	else if (state == LXS_FAILED)
 		aText.Copy(_L("Cannot start Linux - Enter tries again"));
 	else if (state == LXS_EXITED)
-		aText.Copy(_L("Linux has ended - Enter starts it again"));
+		aText.Copy(_L("Linux has ended. Enter starts it again"));
 	else
 		{
 		TBuf<32> fg;
